@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 67%
+source-wordcount: '1489'
+ht-degree: 61%
 
 ---
 
@@ -71,6 +71,16 @@ Os novos recursos disponíveis no Adobe Journey Optimizer estão listados abaixo
 **Jornada** - Data de disponibilidade: 3 de outubro de 2024
 
 * **Parâmetros em ações personalizadas** - Agora há suporte para parâmetros NULL e opcionais em ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**Políticas de governança e consentimento de dados** - Data de disponibilidade: 7 de outubro de 2024
+
+* A imposição de **políticas de governança de dados** agora ocorre em todos os canais na Journey Optimizer. Para clientes que criaram políticas no Adobe Experience Platform, elas são aplicadas a ações de marketing como parte da configuração das configurações de canal. Ao criar conteúdo usando uma configuração, o sistema verifica todos os campos de personalização para verificar se há violações de governança de dados. Se uma violação for encontrada, não será possível publicar uma jornada ou campanha. [Saiba mais](../action/action-privacy.md)
+
+* **As políticas de consentimento personalizadas** agora se aplicam a todos os canais da Journey Optimizer. Ao ser aplicado antes que uma mensagem seja enviada ou uma experiência de entrada seja entregue, o sistema verifica se o usuário consentiu em usar campos de personalização no conteúdo que receberá. Se nenhum consentimento for dado, a experiência não será exibida. [Saiba mais](../action/consent.md)
+
+  >[!NOTE]
+  >
+  >Atualmente, as políticas de consentimento estão disponíveis apenas para as organizações que compraram as ofertas complementares do Adobe **Healthcare Shield** ou do **Privacy and Security Shield** .
 
 **Públicos-alvo** - Data de disponibilidade: 8 de outubro de 2024
 

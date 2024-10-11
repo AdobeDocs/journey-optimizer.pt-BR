@@ -8,89 +8,129 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
-exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: f61bd7d8d03ba2fd4e92c277f0cbfb730b3703c1
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 100%
+source-wordcount: '1293'
+ht-degree: 34%
 
 ---
 
 # Governança de dados {#restrict-fields}
 
+>[!CONTEXTUALHELP]
+>id="ajo_data_governance_policy_violation"
+>title="Violação da política de governança de dados"
+>abstract="Se o sistema identificar um campo restrito em uma jornada/campanha ou uma ação personalizada, um erro será exibido, impedindo que você a publique. Use o diagrama de linhagem de dados nesta caixa de diálogo para entender quais outras alterações de configuração precisam ser feitas antes que você possa ativar sua jornada ou campanha."
 
->[!IMPORTANT]
->
->O uso de DULE está atualmente restrito a clientes selecionados e será implantado em todos os ambientes em uma versão futura.
+## Introdução às políticas de governança de dados {#gs}
 
-Com sua estrutura de governança DULE (Aplicação e rotulagem de uso de dados), o Journey Optimizer agora pode aproveitar as políticas de governança da Adobe Experience Platform para impedir que campos confidenciais sejam exportados para sistemas de terceiros por meio de ações personalizadas. Se o sistema identificar um campo restrito nos parâmetros de ação personalizados, um erro será exibido, impedindo que você publique a jornada.
+Com sua [estrutura de governança DULE (Aplicação e Rotulagem de Uso de Dados)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=pt-BR){_blank}, a Adobe Experience Platform permite que você gerencie e imponha políticas de governança de dados em seus canais ao **rotular seus campos** e criar **ações de marketing** para cada canal.
 
-A Adobe Experience Platform permite rotular seus campos e criar ações de marketing para cada canal. Em seguida, você define uma política de governança vinculada a um rótulo e uma ação de marketing.
+Depois que os rótulos e as ações de marketing forem definidos, você poderá criar **políticas de governança de dados** que vinculam esses dois elementos. Por exemplo, você pode configurar uma política que associe um rótulo &quot;ePHI&quot; a uma ação de marketing &quot;direcionamento por email&quot;, garantindo que os campos rotulados como &quot;ePHI&quot; não sejam usados para personalizar mensagens de email. [Saiba como criar políticas de governança de dados](#governance-policies)
 
-No Journey Optimizer, você pode aplicar essas políticas às ações personalizadas para impedir que campos específicos sejam exportados para sistemas de terceiros.
+Depois de criar as políticas de governança, é possível aplicar as ações de marketing às ações personalizadas de jornadas/campanhas e jornadas.
+[Saiba como aplicar ações de marketing no Journey Optimizer](#apply-marketing-actions)
 
-Para obter mais informações sobre a estrutura de governança de dados e como trabalhar com rótulos e políticas, consulte a documentação da Adobe Experience Platform:
+Ao criar uma jornada ou campanha, após selecionar uma configuração de canal ou adicionar uma ação personalizada, o sistema verifica se a ação de marketing na configuração do canal de mensagem ou na ação personalizada faz parte de uma política de governança de dados. Em caso positivo, o sistema verifica se algum campo do público-alvo ou da personalização de mensagem é rotulado e restrito pela política. Se tal rótulo for detectado, a publicação da jornada ou campanha será bloqueada. [Saiba como detectar uma violação da política de governança de dados](#violation)
 
-* [Visão geral do serviço de governança de dados](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=pt-BR)
-* [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=pt-BR)
-* [Políticas de uso de dados](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=pt-BR)
+## Criar rótulos e ações de marketing {#labels-marketing-actions}
 
-## Observações importantes {#important-notes}
-
-* A governança de dados se aplica somente às ações personalizadas nas jornadas. As ações do Campaign v7/v8 e do Campaign Standard não são compatíveis.
-* As políticas de governança só se aplicam quando uma ação de marketing (necessária ou adicional) é definida no nível de ação personalizada.
-
-## Definir políticas de governança {#governance-policies}
-
-Você pode usar rótulos, ações de marketing e políticas já existentes. Estas são as etapas principais de configuração para criar novos:
-
-* Adicione um rótulo e aplique-o a campos específicos que você não deseja que sejam exportados para sistemas de terceiros, por exemplo, o tipo de sangue de uma pessoa.
-* Defina uma ação de marketing para cada ação personalizada de terceiros usada em suas jornadas.
-* Crie uma política de governança e associe-a ao rótulo e à ação de marketing.
-
-Para obter mais informações sobre como gerenciar permissões, consulte esta [documentação](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=pt-BR#consent-policy).
-
-Vamos ver o exemplo do campo de tipo de sangue que você precisa rotular como confidencial e impedí-lo de ser exportado para terceiros. Estas são as etapas:
+A primeira etapa para aplicar a política de governança de dados é criar um rótulo e anexá-los a campos para os quais você deseja restringir o uso e ações de marketing para cada um de seus canais.
 
 1. No menu esquerdo, em **Privacidade**, clique em **Políticas**.
+
 1. Selecione a guia **Rótulos** e clique em **Criar rótulo**.
-   ![](assets/action-privacy1.png)
-1. Defina um nome e um nome amigável para este rótulo. Por exemplo, _ePHI1_.
-1. No menu esquerdo, em **Gestão de dados**, clique em **Esquemas** e clique no botão **Aplicar rótulos de acesso e de governança de dados**. Selecione o esquema e o campo (tipo de sangue) e selecione o rótulo criado anteriormente, _ePHI1_ no nosso exemplo.
+
+1. Defina um nome e um nome amigável para seu rótulo. Por exemplo, _ePHI1_.
+
+1. No menu esquerdo, em **Gestão de dados**, clique em **Esquemas** e clique no botão **Aplicar rótulos de acesso e de governança de dados**. Selecione o esquema e o campo (por exemplo, &quot;tipo de sangue&quot;) e selecione o rótulo criado anteriormente, _ePHI1_ em nosso exemplo.
+
    ![](assets/action-privacy3.png)
-1. Volte para o menu **Políticas** selecione a guia **Ação de marketing** e clique em **Criar ação de marketing**. Recomendamos que você crie uma ação de marketing para cada ação personalizada de terceiros usada em suas jornadas. Por exemplo, vamos criar uma _Ação de marketing Slack_ que será usada para sua ação personalizada de Slack.
+
+1. Volte para o menu **Políticas** selecione a guia **Ação de marketing** e clique em **Criar ação de marketing**. Recomendamos que você crie uma ação de marketing para cada canal e cada ação personalizada de terceiros usada em suas jornadas. Por exemplo, vamos criar uma _Ação de marketing Slack_ que será usada para sua ação personalizada de Slack.
+
    ![](assets/action-privacy4.png)
-1. Selecione a guia **Navegar** clique em **Criar política** e selecione **Política de governança de dados**. Selecione seu rótulo (_ePHI1_) e a ação de marketing (_Ação de marketing Slack_).
-   ![](assets/action-privacy5.png)
+
+## Criar uma política de governança de dados {#policy}
+
+Agora que os rótulos e as ações de marketing foram criados, você pode vinculá-los em políticas de governança de dados. Para fazer isso, selecione a guia **Procurar**, clique em **Criar política** e selecione **Política de governança de dados**. Selecione seu rótulo (_ePHI1_) e a ação de marketing (_Ação de marketing Slack_).
+
+![](assets/action-privacy5.png)
 
 Em uma jornada, quando você usar sua ação personalizada de Slack configurada com a variável _Ação de marketing Slack_, a política associada será utilizada.
 
-## Configurar a ação personalizada {#consent-custom-action}
+## Aplicar ações de marketing no Journey Optimizer {#apply-marketing-actions}
 
-No menu esquerdo, em **Administração**, clique em **Configurações** e selecione **Ações**. Abra sua ação personalizada de Slack. Ao configurar uma ação personalizada, dois campos podem ser usados para a governança de dados.
+Para que as políticas de governança de dados sejam aplicadas no Journey Optimizer, é necessário aplicar ações de marketing a suas jornadas, campanhas ou ações personalizadas.
 
-![](assets/action-privacy6.png)
+### Aplicar ações de marketing a jornadas e campanhas {#journeys-campaigns}
 
-* O campo **Canal** permite selecionar o canal relacionado a esta ação personalizada: **Email**, **SMS** ou **Notificação por push**. Ele preencherá previamente o campo **Ação de marketing necessária** com a ação de marketing padrão do canal selecionado. Se você selecionar **outros**, nenhuma ação de marketing será definida por padrão. No nosso exemplo, selecionamos o canal **other**.
+Depois de criar políticas de governança, você deve aplicar as ações de marketing relevantes nas **configurações de canal** do Journey Optimizer. Para fazer isso, siga estes passos:
 
-* A **Ação de marketing necessária** permite definir a ação de marketing relacionada à sua ação personalizada. Por exemplo, se você usar essa ação personalizada para enviar emails usando um terceiro, você pode selecionar **Direcionamento de email**. No nosso exemplo, selecionamos a variável _Ação de marketing Slack_. As políticas de governança associadas a essa ação de marketing são recuperadas e aproveitadas.
+1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Configurações de canal]**.
 
-As outras etapas para configurar uma ação personalizada estão detalhadas [nesta seção](../action/about-custom-action-configuration.md#consent-management).
+1. Abra uma configuração de canal existente ou crie uma nova.
 
-## Criar a jornada {#consent-journey}
+1. No campo **[!UICONTROL Ação de marketing]**, selecione as ações de marketing a serem associadas às jornadas/campanhas que usam essa configuração. Todas as políticas de consentimento e governança de dados associadas à ação de marketing são aproveitadas para respeitar as preferências dos clientes e as restrições configuradas para campos confidenciais. [Saiba mais](../action/consent.md#surface-marketing-actions)
 
-No menu esquerdo, em **Gerenciamento de jornada**, clique em **Jornadas**. Crie a jornada e adicione a ação personalizada.  Ao adicionar a ação personalizada em uma jornada, há várias opções que permitem gerenciar a governança de dados. Clique em **Mostrar campos somente leitura** para exibir todos os parâmetros.
+   ![](../privacy/assets/governance-channel-configuration.png)
 
-O **Canal** e a **Ação de marketing necessária**, definidos ao configurar a ação personalizada, são exibidos na parte superior da tela. Não é possível modificar esses campos.
+1. Conclua a configuração do canal e salve-a. [Saiba como definir a configuração de canal](../configuration/channel-surfaces.md).
 
-![](assets/action-privacy7.png)
+1. Ao criar uma mensagem na jornada ou campanha, selecione a configuração de canal relevante. Complete a configuração da jornada ou campanha e a salve.
 
-Você pode configurar uma **Ação de marketing adicional** para definir o tipo de ação personalizada. Isso permite definir a finalidade da ação personalizada nesta jornada. Além da ação de marketing necessária, que geralmente é específica de um canal, é possível definir uma ação de marketing adicional que será específica para a ação personalizada desta jornada. Por exemplo: um comunicado de treino, um boletim informativo, um comunicado de fitness etc. A ação de marketing necessária e a ação de marketing adicional serão aplicadas.
+Antes de ativar a jornada ou campanha, o sistema verifica se a ação de marketing na configuração de canal selecionada faz parte de uma política de governança de dados. Em caso positivo, o sistema verifica se algum campo do público-alvo ou da personalização de mensagem é rotulado e restrito pela política.
 
-No nosso exemplo, não usamos uma ação de marketing adicional.
+Se o sistema identificar um campo restrito, um erro será exibido, impedindo a publicação da jornada ou da campanha. [Saiba como detectar violação de política de governança](#violation)
 
-Se um dos campos rotulados como _ePHI1_ (o campo de tipo sanguíneo no exemplo) for detectado nos parâmetros de ação, um erro será exibido e a jornada não poderá ser publicada.
+![](assets/governance-policy-schema.png){zoomable="yes"}
+
+*Etapas de análise de violação de política para jornadas e campanhas*
+
+### Aplicar ação de marketing a ações personalizadas {#custom-actions}
+
+>[!NOTE]
+>
+>As ações do Campaign v7/v8 e do Campaign Standard jornada não são compatíveis.
+
+Vamos ver o exemplo do campo de tipo de sangue que você precisa restringir de ser exportado para terceiros usando ações personalizadas. Para fazer isso, você precisa aplicar a ação de marketing à sua ação personalizada, criar sua jornada e adicionar sua ação personalizada nela.
+
+1. No menu esquerdo, em **Administração**, clique em **Configurações** e selecione **Ações**.
+
+1. Abra sua ação personalizada de Slack. Ao configurar uma ação personalizada, dois campos podem ser usados para a governança de dados.
+
+   ![](assets/action-privacy6.png)
+
+   * O campo **Canal** permite selecionar o canal relacionado a esta ação personalizada. Ele preencherá previamente o campo **Ação de marketing necessária** com a ação de marketing padrão do canal selecionado. Se você selecionar **outros**, nenhuma ação de marketing será definida por padrão. No nosso exemplo, selecionamos o canal **other**.
+
+   * A **Ação de marketing necessária** permite definir a ação de marketing relacionada à sua ação personalizada. Por exemplo, se você usar essa ação personalizada para enviar emails usando um terceiro, você pode selecionar **Direcionamento de email**. No nosso exemplo, selecionamos a variável _Ação de marketing Slack_. As políticas de governança associadas a essa ação de marketing são recuperadas e aproveitadas.
+
+   As outras etapas para configurar uma ação personalizada estão detalhadas [nesta seção](../action/about-custom-action-configuration.md#consent-management).
+
+1. No menu esquerdo, em **Jornada management**, clique em **Jornada**.
+
+1. Crie sua jornada e adicione sua ação personalizada. Ao adicionar a ação personalizada em uma jornada, há várias opções que permitem gerenciar a governança de dados. Clique em **Mostrar campos somente leitura** para exibir todos os parâmetros.
+
+   ![](assets/action-privacy7.png)
+
+   * O **Canal** e a **Ação de marketing necessária**, definidos ao configurar a ação personalizada, são exibidos na parte superior da tela. Não é possível modificar esses campos.
+
+   * Você pode configurar uma **Ação de marketing adicional** para definir o tipo de ação personalizada. Isso permite definir a finalidade da ação personalizada nesta jornada. Além da ação de marketing necessária, que geralmente é específica de um canal, é possível definir uma ação de marketing adicional que será específica para a ação personalizada desta jornada. Por exemplo: um comunicado de treino, um boletim informativo, um comunicado de fitness etc. A ação de marketing necessária e a ação de marketing adicional serão aplicadas. No nosso exemplo, não usamos uma ação de marketing adicional.
+
+Se um dos campos rotulados _ePHI1_ (o campo de tipo sanguíneo no exemplo) for detectado nos parâmetros de ação, um erro será exibido, impedindo que você publique a jornada. [Saiba como detectar violação de política de governança](#violation)
+
+![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
+
+*Etapas de análise de violação de política para ações personalizadas do jornada*
+
+## Detectar violação de política {#violation}
+
+Se o sistema identificar um campo restrito em uma jornada/campanha ou uma ação personalizada, um erro será exibido, impedindo que você o publique.
+
+Os erros estão visíveis no botão **[!UICONTROL Alertas]**. Clique no erro para exibir informações detalhadas sobre a violação da política de governança de dados que ocorreu.
 
 ![](assets/action-privacy8.png)
 
-As outras etapas para configurar uma ação personalizada em uma jornada são detalhadas [nesta seção](../building-journeys/using-custom-actions.md).
+Essa caixa de diálogo indica que a configuração atual do jornada/campaign viola uma política de governança de dados existente. Use o diagrama de linhagem de dados para entender quais outras alterações de configuração precisam ser feitas antes de você poder ativar sua jornada ou campanha.
+
+Informações detalhadas estão disponíveis na [documentação de violação da política de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.

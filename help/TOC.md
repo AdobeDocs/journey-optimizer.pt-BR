@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '2049'
 ht-degree: 97%
 
 ---
@@ -672,7 +672,5 @@ ht-degree: 97%
    + Gerenciar consentimento {#consent}
       + [Gerenciar recusa](using/privacy/opt-out.md)
       + [Trabalhar com políticas de consentimento](using/action/consent.md)
-      + [Trabalhar com políticas de consentimento](using/action/consent-restricted.md)
    + [Governança de dados](using/action/action-privacy.md)
-   + [Governança de dados](using/action/action-privacy-restricted.md)
    + [Configurar e gerenciar Customer Managed Keys](using/privacy/cmk.md)
