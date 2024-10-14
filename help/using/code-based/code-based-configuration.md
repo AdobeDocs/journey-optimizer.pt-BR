@@ -6,48 +6,37 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 50%
+source-wordcount: '1514'
+ht-degree: 30%
 
 ---
 
 # Configurar a experiência baseada em código {#code-based-configuration}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_app_id"
->title="ID do aplicativo"
->abstract="Forneça a ID do aplicativo para obter precisão no processo de identificação e configuração dentro do ambiente operacional do aplicativo, garantindo integração e funcionalidade perfeitas."
+>id="ajo_code_based_surface"
+>title="Definir uma configuração de experiência baseada em código"
+>abstract="Uma configuração baseada em código define o caminho e o local dentro do aplicativo, exclusivamente identificados por um URI na implementação do aplicativo, onde o conteúdo será entregue e consumido."
+
+Antes de [criar sua experiência](create-code-based.md), é necessário criar uma configuração de experiência baseada em código na qual você define onde o conteúdo será entregue e consumido dentro do seu aplicativo.
+
+Uma configuração de experiência baseada em código deve fazer referência à superfície, que é basicamente o local em que você deseja renderizar as alterações. De acordo com a plataforma selecionada, você precisa inserir um local/caminho ou o URI de superfície completo. [Saiba mais](#surface-definition)
+
+## Criar uma configuração de experiência baseada em código {#create-code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Localização na página"
->abstract="A localização ou caminho dentro do campo do aplicativo especifica o destino exato dentro do aplicativo que você deseja que os usuários acessem. Pode ser uma seção ou página específica na profundidade da estrutura de navegação do aplicativo."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_surface_uri"
->title="URI de superfície"
->abstract="Um URI de superfície serve como um identificador preciso que direciona para elementos ou componentes distintos da interface de um aplicativo."
+>title="Insira o local específico"
+>abstract="Este campo especifica o destino exato na página ou no aplicativo que você deseja que os usuários acessem. Pode ser uma seção ou página específica na profundidade da estrutura de navegação."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="URL padrão de criação e visualização"
+>title="Definir um URL para criação e visualização de conteúdo"
 >abstract="Este campo garante que as páginas geradas ou encontradas pela regra tenham um URL designado, o que é essencial para criar e visualizar conteúdo com eficiência."
 
->[!CONTEXTUALHELP]
->id="ajo_admin_default_web_url"
->title="URL padrão de criação e visualização"
->abstract="Este campo garante que as páginas geradas ou encontradas pela regra tenham um URL designado, o que é essencial para criar e visualizar conteúdo com eficiência."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_mobile_url_preview"
->title="Visualizar URL"
->abstract="Esse campo é essencial para habilitar a simulação e a visualização do conteúdo diretamente no dispositivo do aplicativo."
-
-## Criar uma configuração de canais {#reatte-code-based-configuration}
-
-Para criar uma configuração de canal, siga estas etapas:
+Para criar uma configuração de canal de experiência baseada em código, siga estas etapas:
 
 1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Configurações de canal]** e clique em **[!UICONTROL Criar configuração de canal]**.
 
@@ -59,7 +48,7 @@ Para criar uma configuração de canal, siga estas etapas:
    >
    > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
-1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
+1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
 
 1. Selecione **[!UICONTROL Ação de marketing]**(s) para associar políticas de consentimento às mensagens que usam essa configuração. Todas as políticas de consentimento associadas à ação de marketing são utilizadas para respeitar as preferências dos clientes. [Saiba mais](../action/consent.md#surface-marketing-actions)
 
@@ -67,50 +56,97 @@ Para criar uma configuração de canal, siga estas etapas:
 
    ![](assets/code_config_2.png)
 
-1. Selecione a plataforma para a qual a experiência de base de código será aplicada.
+1. Selecione a plataforma para a qual a experiência de base de código será aplicada:
 
-1. Para a Web:
+   * [Web](#web)
+   * [iOS e/ou Android](#mobile)
+   * [Outras](#other)
 
-   * Especifique uma **[!UICONTROL URL da página]** para aplicar as alterações a uma única página exclusivamente.
-
-   * Ou crie uma **[!UICONTROL Regra de correspondência de páginas]** para direcionar várias URLs que correspondam à regra especificada. Por exemplo, isso pode ser usado para aplicar alterações universalmente em um site, como atualizar um banner principal em todas as páginas ou adicionar uma imagem superior para exibir em cada página de produto. [Saiba mais](../web/web-configuration.md)
-
-1. Para iOS e Android:
-
-   * Insira sua **[!UICONTROL ID do aplicativo]** e seu **[!UICONTROL Local ou caminho dentro do aplicativo]**.
-
-     ![](assets/code_config_3.png){width="500"}
-
-1. Selecione Outros como a plataforma se sua implementação não for para Web, iOS ou Android, ou se precisar direcionar URIs específicos. Ao escolher várias plataformas ou adicionar vários URIs, o conteúdo será entregue a todas as páginas ou aplicativos selecionados.
-
-   * Insira o **[!UICONTROL URI da superfície]**.
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Verifique se o URI de superfície usado em sua campanha baseada em código corresponde ao usado em sua própria implementação. Caso contrário, as alterações não serão aplicadas.
+   >Você pode selecionar várias plataformas. Ao escolher várias plataformas, o conteúdo é entregue a todas as páginas ou aplicativos selecionados.
 
-1. Preencha o campo **[!UICONTROL Visualizar URL]** para habilitar visualizações no dispositivo. Esse URL informa ao serviço de visualização o URL específico a ser usado ao acionar uma visualização.
+1. Escolha o formato esperado pelo aplicativo para este local específico. Isso será usado ao criar a experiência baseada em código em campanhas e jornadas.
 
-   * Para a Web:
+   ![](assets/code_config_4.png)
 
-      * Se um único URL de página for inserido, esse URL será usado para a pré-visualização.
-      * Se uma regra de correspondência de páginas for selecionada, você deverá inserir um URL de visualização padrão que será usado para visualizar a experiência no navegador.
+1. Clique em **[!UICONTROL Enviar]** para salvar suas alterações.
 
-   * Para plataformas móveis (iOS/Android):
+Agora você pode selecionar essa configuração ao [criar uma experiência baseada em código](create-code-based.md) em suas campanhas e jornadas.
 
-      * O URL de visualização é um deep link configurado pelo desenvolvedor do aplicativo. Isso garante que todos os URLs correspondentes ao esquema de deeplink sejam abertos no aplicativo, em vez de em um navegador móvel da Web. Entre em contato com o desenvolvedor do aplicativo para obter o esquema de deep link configurado para ele.
+>[!NOTE]
+>
+>A equipe de implementação do aplicativo é responsável por fazer chamadas explícitas de API ou SDK para buscar conteúdo para as superfícies definidas na configuração de experiência baseada em código selecionada. Saiba mais sobre as diferentes implementações de clientes em [esta seção](code-based-implementation-samples.md).
+
+### Plataformas da Web {#web}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_web_url"
+>title="Definir um URL para criação e visualização de conteúdo"
+>abstract="Este campo garante que as páginas geradas ou encontradas pela regra tenham um URL designado, o que é essencial para criar e visualizar conteúdo com eficiência."
+
+Para definir as configurações de experiência baseada em código para plataformas da Web, siga as etapas abaixo.
+
+1. Selecione uma das seguintes opções:
+
+   * **[!UICONTROL Página única]** - Se quiser aplicar as alterações a uma única página exclusivamente, insira uma **[!UICONTROL URL da página]**.
+
+     ![](assets/code_config_single_page.png)
+
+   * **[!UICONTROL Regra de correspondência de páginas]** - Para direcionar várias URLs correspondentes à mesma regra, crie uma ou mais regras. [Saiba mais](../web/web-configuration.md#web-page-matching-rule)
+
+     <!--This could be used to apply changes universally across a website, such as updating a hero banner across all pages or adding a top image to display on every product page.-->
+
+     Por exemplo, se você deseja editar elementos que são exibidos em todas as páginas de produtos femininas do seu site Luma, selecione **[!UICONTROL Domínio]** > **[!UICONTROL Começa com]** > `luma` e **[!UICONTROL Página]** > **[!UICONTROL Contém]** > `women`.
+
+     ![](assets/code_config_matching_rules.png)
+
+1. O seguinte se aplica ao URL de visualização:
+
+   * Se um único URL de página for inserido, esse URL será usado para a pré-visualização, sem a necessidade de inserir outro URL.
+   * Se uma [regra de correspondência de páginas](../web/web-configuration.md#web-page-matching-rule) for selecionada, você deverá inserir uma **[!UICONTROL URL de criação e visualização padrão]** que será usada para visualizar a experiência no navegador.
+
+     ![](assets/code_config_matching_rules_preview.png)
+
+1. O campo **[!UICONTROL Local na página]** especifica o destino exato no site que você deseja que os usuários acessem. Pode ser uma seção ou página específica na profundidade da estrutura de navegação do site.
+
+   ![](assets/code_config_location_on_page.png)
+
+### Plataformas para dispositivos móveis (iOS e Android) {#mobile}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_app_id"
+>title="Forneça a ID do aplicativo"
+>abstract="Insira a ID do aplicativo para obter uma identificação e uma configuração precisas no ambiente operacional do aplicativo, garantindo integração e funcionalidade perfeitas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mobile_url_preview"
+>title="Insira o URL para visualizar o conteúdo"
+>abstract="Esse campo é essencial para habilitar a simulação e a visualização do conteúdo diretamente no dispositivo do aplicativo."
+
+Para definir as configurações de experiência baseada em código para plataformas móveis, siga as etapas abaixo.
+
+1. Insira sua **[!UICONTROL ID do aplicativo]**. Isso permite a identificação e a configuração precisas no ambiente operacional do aplicativo e garante integração e funcionalidade perfeitas.
+
+1. Forneça o **[!UICONTROL Local ou caminho dentro do aplicativo]**. Este campo especifica o destino exato no aplicativo que você deseja que os usuários acessem. Pode ser uma seção ou página específica na profundidade da estrutura de navegação do aplicativo.
+
+   ![](assets/code_config_3.png){width="500"}
+
+1. Preencha o campo **[!UICONTROL Visualizar URL]** para habilitar visualizações no dispositivo. Esta URL informa o serviço de visualização da URL específica a ser usada ao disparar uma visualização<!--on device. Learn more-->.
+
+   O URL de visualização é um deep link configurado pelo desenvolvedor do aplicativo. Isso garante que todos os URLs correspondentes ao esquema de deep link sejam abertos no aplicativo, em vez de em um navegador móvel da Web. Entre em contato com o desenvolvedor do aplicativo para obter o esquema de deep link configurado para ele.
 
 +++  Os seguintes recursos podem ajudá-lo a configurar deep links para a implementação do seu aplicativo
 
-      * Para o Android:
+   * Para o Android:
 
-         * [Criar deep links para o contexto de aplicativos](https://developer.android.com/training/app-links/deep-linking?hl=pt-br)
+      * [Criar deep links para o contexto de aplicativos](https://developer.android.com/training/app-links/deep-linking?hl=pt-br)
 
-      * Para o iOS:
+   * Para o iOS:
 
-         * [Definição de um esquema de URL personalizado para seu aplicativo](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+      * [Definição de um esquema de URL personalizado para seu aplicativo](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
 
-         * [Suporte a links universais no seu aplicativo](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+      * [Suporte a links universais no seu aplicativo](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
 +++
 
@@ -118,25 +154,37 @@ Para criar uma configuração de canal, siga estas etapas:
    >
    >Se você encontrar problemas ao visualizar a experiência, consulte [esta documentação](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
-1. Escolha o formato esperado pelo aplicativo nesse local específico. Isso será usado ao criar a experiência baseada em código em campanhas e jornadas.
+### Outras plataformas {#other}
 
-1. Envie suas alterações.
+Para definir as configurações de experiência baseadas em código para outras plataformas (como consoles de vídeo, dispositivos conectados à TV, TVs inteligentes, quiosques, ATMs, assistentes de voz, dispositivos de IoT etc.), siga as etapas abaixo.
 
-Agora é possível selecionar sua configuração ao criar sua experiência baseada em código.
+1. Selecione **[!UICONTROL Outros]** como a plataforma se sua implementação não for para Web, iOS ou Android, ou se você precisar direcionar URIs específicos.
 
+1. Insira o **[!UICONTROL URI da superfície]**. [Saiba mais](#surface-definition)
 
-## O que é uma superfície? {#surface-definition}
+   ![](assets/code_config_5.png)
+
+   >[!CAUTION]
+   >
+   >Insira um URI de superfície que corresponda ao usado em sua própria implementação. Caso contrário, as alterações não poderão ser entregues.
+
+1. **[!UICONTROL Adicione outro URI de superfície]**, se necessário. Você pode adicionar até 10 URIs.
+
+   >[!NOTE]
+   >
+   >Ao adicionar vários URIs, o conteúdo é entregue a todos os componentes listados.
+
+## O que é um URI de superfície? {#surface-definition}
 
 >[!CONTEXTUALHELP]
->id="ajo_code_based_surface"
->title="Definir uma configuração de experiência baseada em código"
->abstract="Uma configuração baseada em código define o caminho e o local dentro do aplicativo, exclusivamente identificados por um URI na implementação do aplicativo, onde o conteúdo será entregue e consumido."
+>id="ajo_admin_surface_uri"
+>title="Adicionar o URI de superfície para seu componente"
+>abstract="Se sua implementação não for para Web, iOS ou Android, ou se você precisar direcionar URIs específicos, insira um URI de superfície, que é um identificador exclusivo que direciona para a entidade onde você deseja fornecer sua experiência. Insira um URI de superfície que corresponda ao usado em sua própria implementação."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="Criar uma configuração de experiência baseada em código para Outras plataformas"
 
-Uma **superfície de experiência baseada em código** é qualquer entidade projetada para interação do usuário ou do sistema, que é exclusivamente identificada por um URI. A superfície é especificada na implementação do aplicativo e deve corresponder à composta na configuração do canal de experiência baseado em código.
+Uma experiência baseada em código **superfície** é qualquer entidade projetada para interação do usuário ou do sistema, que é exclusivamente identificada por um **URI**. A superfície é especificada na implementação do aplicativo e deve corresponder à superfície referenciada na configuração do canal de experiência baseado em código.
 
-Ao criar uma configuração de canal de experiência baseada em código - para plataformas da Web, iOS e Android, é necessário inserir um caminho e um local para compor a superfície, enquanto se a plataforma for Outro, será necessário inserir o URI completo, como nos exemplos abaixo.
-
-Em outras palavras, uma superfície pode ser vista como um container em qualquer nível de hierarquia com uma entidade (ponto de contato) que existe.<!--good idea to illustrate how it can be seen, but to clarify-->
+Uma superfície pode ser vista como um container em qualquer nível de hierarquia com uma entidade (ponto de contato) que existe.
 
 * Ela pode ser uma página da Web, um aplicativo móvel, um aplicativo de desktop, um local de conteúdo específico em uma entidade maior (por exemplo, um `div`) ou um modelo de exibição fora do padrão (por exemplo, um quiosque ou um banner de aplicativo de desktop).<!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
 
@@ -144,7 +192,14 @@ Em outras palavras, uma superfície pode ser vista como um container em qualquer
 
 * Também pode ser uma superfície curinga que corresponde a várias definições de superfície do cliente (por exemplo, um local de Hero image em cada página do site pode ser traduzido em um URI de superfície como: web://mydomain.com/*#hero_image).
 
-Basicamente, um URI de superfície é composto por várias seções:
+Ao criar uma configuração de canal de experiência baseada em código, você tem duas maneiras de especificar a superfície de acordo com a plataforma selecionada:
+
+* Para as plataformas **[!UICONTROL Web]**, **[!UICONTROL iOS]** e **[!UICONTROL Android]**, é necessário inserir um **local ou caminho** para compor a superfície.
+
+* Se a plataforma for **[!UICONTROL Outro]**, você precisará inserir o **URI da superfície** completo, como nos exemplos abaixo.
+
+Um URI de superfície serve como um identificador preciso que direciona para elementos ou componentes distintos da interface do usuário em um aplicativo. Basicamente, um URI de superfície é composto de várias seções:
+
 1. **Tipo**: web, aplicativo móvel, ATM, quiosque, TVCD, serviço etc.
 1. **Propriedade**: URL da página ou pacote de aplicativos
 1. **Container**: local na atividade da página/aplicativo

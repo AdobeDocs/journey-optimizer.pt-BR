@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
 
 1. O [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} está incluído na página.
 
-1. Você precisa usar o comando `sendEvent` e especificar o URI de superfície para buscar conteúdo de personalização.
+1. Você precisa usar o comando `sendEvent` e especificar o [URI de superfície](code-based-configuration.md#surface-definition)<!--( or location/path)--> para buscar conteúdo de personalização.
 
    ```javascript
    alloy("sendEvent", {

@@ -6,26 +6,20 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 11%
+source-wordcount: '935'
+ht-degree: 10%
 
 ---
 
-# Criar configuração do canal da Web {#web-configuration}
+# Configurar suas experiências na Web {#web-configuration}
 
->[!CONTEXTUALHELP]
->id="ajo_admin_page_rule"
->title="Regra de correspondência de páginas"
->abstract="Para gerenciar e direcionar com eficiência um grupo de URLs que compartilham os mesmos critérios, crie uma regra de correspondência de páginas. Essa regra permite consolidar vários URLs em uma única diretriz, simplificando a aplicação de configurações e ações consistentes nessas páginas."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_default_url"
->title="URL padrão de criação e visualização"
->abstract="Este campo garante que as páginas geradas ou encontradas pela regra tenham um URL designado, o que é essencial para criar e visualizar conteúdo com eficiência."
+## Criar uma configuração de canal da Web {#create-web-configuration}
 
 Uma configuração da Web é uma propriedade da Web identificada por um URL em que o conteúdo será entregue. Ele pode corresponder a um único URL de página ou a várias páginas, permitindo que você faça modificações em uma ou várias páginas da Web.
+
+Para criar uma configuração de canal da Web, siga as etapas abaixo.
 
 1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Configurações de canal]** e clique em **[!UICONTROL Criar configuração de canal]**.
 
@@ -37,7 +31,7 @@ Uma configuração da Web é uma propriedade da Web identificada por um URL em q
    >
    > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
-1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
+1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
 
 1. Selecione o canal **Web**.
 
@@ -45,29 +39,57 @@ Uma configuração da Web é uma propriedade da Web identificada por um URL em q
 
 1. Selecione **[!UICONTROL Ação de marketing]**(s) para associar políticas de consentimento às mensagens que usam essa configuração. Todas as políticas de consentimento associadas à ação de marketing são utilizadas para respeitar as preferências dos clientes. [Saiba mais](../action/consent.md#surface-marketing-actions)
 
-1. Você pode digitar uma **[!UICONTROL URL da página]** se quiser aplicar as alterações a uma única página.
+1. Na seção **[!UICONTROL Configurações da Web]**, selecione uma das seguintes opções:
 
-1. Ou você pode criar uma **[!UICONTROL regra de correspondência de páginas]** para direcionar várias URLs que correspondam à mesma regra; por exemplo, se você deseja aplicar as alterações a um banner principal em todo o site ou adicionar uma imagem superior que seja exibida em todas as páginas de produto de um site.
+   * **[!UICONTROL Página única]** - Se quiser aplicar as alterações a uma única página, insira uma **[!UICONTROL URL da página]**.
 
-   Para fazer isso, selecione **[!UICONTROL Páginas que correspondem à regra]**.
+   * **[!UICONTROL Regra de correspondência de páginas]** - Para direcionar várias URLs correspondentes à mesma regra, crie uma regra de correspondência de páginas e insira uma **[!UICONTROL URL de criação e visualização padrão]**. [Saiba mais](#web-page-matching-rule)
 
-1. Defina seus critérios para os campos **[!UICONTROL Domínio]** e **[!UICONTROL Página]**.
+1. Clique em **[!UICONTROL Enviar]** para salvar suas alterações.
+
+Agora é possível selecionar essa configuração ao usar o canal da Web em suas campanhas ou jornadas.
+
+## Criar uma regra de correspondência de páginas {#web-page-matching-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="Criar uma regra de correspondência de páginas"
+>abstract="Para gerenciar e direcionar com eficiência um grupo de URLs que compartilham os mesmos critérios, crie uma regra de correspondência de páginas. Essa regra permite consolidar vários URLs em uma única diretriz, simplificando a aplicação de configurações e ações consistentes nessas páginas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="Definir um URL para criação e visualização de conteúdo"
+>abstract="Este campo garante que as páginas geradas ou encontradas pela regra tenham um URL designado, o que é essencial para criar e visualizar conteúdo com eficiência."
+
+Ao criar uma configuração da Web ou da [experiência baseada em código](../code-based/get-started-code-based.md), você pode criar uma **[!UICONTROL regra de correspondência de páginas]** para direcionar várias URLs correspondentes à mesma regra. Portanto, é possível aplicar as mesmas alterações de conteúdo em várias páginas de uma só vez.
+
+Por exemplo, talvez você queira aplicar as alterações em um banner principal em todo o site ou adicionar uma imagem superior que seja exibida em todas as páginas de produtos de um site.
+
+1. Ao configurar sua [Web](#web-configuration) ou [experiência baseada em código](../code-based/code-based-configuration.md), selecione **[!UICONTROL Páginas que correspondem à regra]**.
+
+1. Defina seus critérios para os campos **[!UICONTROL Domínio]** e **[!UICONTROL Página]**. Verifique os operadores disponíveis em [esta seção](#available-operators).
 
    Por exemplo, se você deseja editar elementos que são exibidos em todas as páginas de produtos femininas do seu site Luma, selecione **[!UICONTROL Domínio]** > **[!UICONTROL Começa com]** > `luma` e **[!UICONTROL Página]** > **[!UICONTROL Contém]** > `women`.
 
    ![](assets/web_config_3.png)
 
-1. Se você criou uma **[!UICONTROL regra de correspondência de páginas]**, é necessário inserir a URL de criação e visualização **Padrão**. Essa etapa garante que as páginas geradas ou correspondidas pela regra tenham um URL designado para fins de criação de conteúdo e pré-visualização. Saiba mais sobre a regra de correspondência de páginas na [seção abaixo](#web-page-matching-rule).
+1. Se o caso de uso não puder ser modelado usando uma regra, você terá a opção de adicionar várias regras. Clique em **[!UICONTROL Adicionar outra regra de página]** e repita a etapa acima.
 
-1. Salve as alterações.
+   >[!NOTE]
+   >
+   >Você pode adicionar até 10 regras.
 
-Agora você pode selecionar sua configuração ao usar o canal da Web em campanhas ou jornadas.
+1. Você pode usar os operadores **[!UICONTROL Or]** ou **[!UICONTROL Exclude]** entre as diferentes regras.
 
-## Regra de correspondência de páginas {#web-page-matching-rule}
+   **[!UICONTROL Excluir]** é útil quando uma das páginas que correspondem à regra definida não deve ser direcionada. Por exemplo, você pode direcionar todas as `luma.com` páginas que contenham `product`, excluindo a seguinte página: `https://luma.com/blogs/productinfo`.
 
-Ao criar uma regra que corresponda a várias páginas para que você possa aplicar as mesmas alterações de conteúdo em várias páginas de uma só vez, é possível usar operadores diferentes nas seções **Domínio** e **Caminho** para criar a regra desejada. Verifique os operadores disponíveis abaixo.
+   ![](assets/web_config_4.png)
 
-Operadores disponíveis para criar regras de correspondência de página:
+1. Insira a **[!UICONTROL URL padrão de criação e visualização]**. Essa etapa garante que as páginas geradas ou correspondidas pela regra tenham um URL designado para fins de criação de conteúdo e pré-visualização.
+
+### Operadores disponíveis para criar regras de correspondência de página {#available-operators}
+
+Ao criar uma regra [que corresponda a várias páginas](#web-page-matching-rule), você pode usar operadores diferentes nas seções **[!UICONTROL Domínio]** e **[!UICONTROL Caminho]** para criar a regra desejada. Os operadores disponíveis estão listados abaixo.
 
 * **Domínio**
 
@@ -123,5 +145,3 @@ Operadores disponíveis para criar regras de correspondência de página:
     </tr>
     </tbody>
 </table>
-
-Se o caso de uso não puder ser modelado usando uma regra, você terá a opção de adicionar várias regras de página e poderá usar operadores &quot;Ou&quot; ou &quot;Excluir&quot; entre elas. &quot;Excluir&quot; é útil quando uma das páginas que correspondem à regra definida não deve ser direcionada: por exemplo, todas as páginas &quot;example.com&quot; que contêm &quot;product&quot;, excluindo a seguinte página: `https://example.com/blogs/productinfo`.

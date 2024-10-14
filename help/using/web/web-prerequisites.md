@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 7%
+source-wordcount: '1145'
+ht-degree: 6%
 
 ---
 
@@ -24,8 +24,6 @@ Para acessar e criar páginas da Web na interface do usuário do [!DNL Journey O
 * Para que a experiência online seja entregue corretamente, defina as configurações do Adobe Experience Platform detalhadas [aqui](#delivery-prerequisites).
 
 ## Observações de cuidado {#caution-notes-web}
-
-* Atualmente, em [!DNL Journey Optimizer], você só pode criar experiências da Web em **campanhas**. [Saiba mais](../campaigns/create-campaign.md#configure)
 
 * As campanhas da Web do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -43,7 +41,7 @@ Há suporte para dois tipos de implementações para habilitar a criação e o d
 
 >[!NOTE]
 >
->A implementação somente do lado do servidor não é compatível no momento.
+>No momento, a implementação somente do lado do servidor não é compatível com o canal da Web. Se você tiver uma implementação somente do lado do servidor para suas páginas da Web, poderá usar o [Canal de experiência baseado em código](../code-based/get-started-code-based.md).
 
 <!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 

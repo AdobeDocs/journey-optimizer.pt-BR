@@ -8,16 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '5555'
-ht-degree: 98%
+source-wordcount: '5610'
+ht-degree: 97%
 
 ---
 
 # Atualizações na documentação {#latest-updates}
 
 Esta página lista todas as atualizações mais recentes na documentação do [!DNL Journey Optimizer].
+
+## Outubro de 2024 {#oct-2024}
+
+* A página Configurar sua experiência baseada em código foi aprimorada para tornar o processo mais claro, incluindo a seção que explica o que é um URI de superfície. [Leia mais](../code-based/code-based-configuration.md)
+
+* A página Criar configuração de canal da Web foi atualizada para esclarecer as etapas ao criar uma regra de correspondência de páginas, que também se aplica à configuração de experiência baseada em código. [Leia mais](../web/web-configuration.md#web-page-matching-rule)
 
 ## Setembro de 2024 {#sept-2024}
 
