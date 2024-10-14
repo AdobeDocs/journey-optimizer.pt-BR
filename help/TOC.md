@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 1e46321de543196277613889c438dc6756e45652
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2073'
 ht-degree: 96%
 
 ---
@@ -428,6 +428,7 @@ ht-degree: 96%
          + [Sobre a Gestão de decisões](using/offers/get-started/starting-offer-decisioning.md)
          + [Interface do usuário](using/offers/get-started/user-interface.md)
          + [Etapas principais para criar e gerenciar ofertas](using/offers/offer-library/key-steps.md)
+         + [Aproveitar públicos-alvo de upload personalizados para decisões](using/offers/custom-upload-decisioning.md)
          + [Caso de uso: inserir ofertas em um email](using/offers/offers-e2e.md)
       + Criar componentes {#create-components}
          + [Criar inserções](using/offers/offer-library/creating-placements.md)
