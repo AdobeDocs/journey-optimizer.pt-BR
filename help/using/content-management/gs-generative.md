@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Fazer upload do ativo da marca"
->abstract="O menu “Carregar ativo da marca” permite adicionar qualquer ativo da marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA do Journey Optimizer para aceleração de conteúdo ou selecionar um ativo carregado anteriormente. Essa opção garante que o Assistente de IA tenha acesso a todos os materiais necessários para aprimorar sua funcionalidade e relevância."
+>abstract="O menu “Upload de ativo de marca” permite adicionar qualquer ativo da marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA do Journey Optimizer para aceleração de conteúdo ou selecionar um ativo enviado anteriormente. Essa opção garante que o Assistente de IA tenha acesso a todos os materiais necessários para aprimorar sua funcionalidade e relevância."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
