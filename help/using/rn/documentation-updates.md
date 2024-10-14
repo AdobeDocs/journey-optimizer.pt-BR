@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
 workflow-type: tm+mt
-source-wordcount: '5610'
-ht-degree: 97%
+source-wordcount: '5626'
+ht-degree: 96%
 
 ---
 
@@ -21,9 +21,10 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Outubro de 2024 {#oct-2024}
 
-* A página Configurar sua experiência baseada em código foi aprimorada para tornar o processo mais claro, incluindo a seção que explica o que é um URI de superfície. [Leia mais](../code-based/code-based-configuration.md)
+* A página **Configurar a experiência baseada em código** foi aprimorada para tornar o processo mais claro, incluindo a seção que explica o que é um URI de superfície. [Leia mais](../code-based/code-based-configuration.md)
+* A página **Criar configuração de canal da Web** foi atualizada para esclarecer as etapas ao criar uma regra de correspondência de páginas, que também se aplica à configuração de experiência baseada em código. [Leia mais](../web/web-configuration.md#web-page-matching-rule)
+* Uma observação sobre a próxima proteção de TTL (time-to-live) para conjuntos de dados gerados pelo sistema foi adicionada. [Leia mais](../data/get-started-datasets.md)
 
-* A página Criar configuração de canal da Web foi atualizada para esclarecer as etapas ao criar uma regra de correspondência de páginas, que também se aplica à configuração de experiência baseada em código. [Leia mais](../web/web-configuration.md#web-page-matching-rule)
 
 ## Setembro de 2024 {#sept-2024}
 
@@ -31,7 +32,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Adição de uma seção sobre o gerenciamento de novas tentativas do jornada. [Leia mais](../building-journeys/read-audience.md#read-audience-retry)
 * As Perguntas frequentes sobre a regra de limitação/limitação para ações personalizadas foram atualizadas para mencionar a regra de limitação padrão. [Leia mais](../configuration/external-systems.md#faq)
 * A seção Controlar acesso foi atualizada com permissões relacionadas ao Gerador de conteúdo do assistente de IA. [Leia mais](../administration/high-low-permissions.md#ai-permission)
-* Foi adicionado um vídeo sobre a geração de e-mail de acionador do Gerador de conteúdo do assistente de IA. [Leia mais](../content-management/generative-email.md#video)
+* Um vídeo sobre o Gerador de conteúdo do assistente de IA para geração de email foi adicionado. [Leia mais](../content-management/generative-email.md#video)
 
 
 ## Agosto de 2024 {#aug-2024}
