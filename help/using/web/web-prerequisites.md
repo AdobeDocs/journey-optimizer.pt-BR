@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 573d6e8611e90df2390576912929d5f85e386537
+source-git-commit: c5308cfdb237fcf563886db1dfca257d23bb4449
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 6%
+source-wordcount: '1155'
+ht-degree: 3%
 
 ---
 
@@ -23,9 +23,10 @@ Para acessar e criar páginas da Web na interface do usuário do [!DNL Journey O
 
 * Para que a experiência online seja entregue corretamente, defina as configurações do Adobe Experience Platform detalhadas [aqui](#delivery-prerequisites).
 
-## Observações de cuidado {#caution-notes-web}
-
-* As campanhas da Web do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+>[!IMPORTANT]
+>
+>As campanhas da Web do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumenta a contagem total de perfis que podem ser ativados, o que pode ter implicações de custo se o número contratual de perfis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de perfis ativáveis no [painel de uso de licença](../audience/license-usage.md).
+>
 
 ## Pré-requisitos de implementação {#implementation-prerequisites}
 
