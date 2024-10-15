@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 9%
+source-wordcount: '1729'
+ht-degree: 7%
 
 ---
 
@@ -111,7 +111,7 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
    Também é possível salvar parte do conteúdo do código como fragmento. [Saiba como](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Com experiências baseadas em código, você pode usar o recurso de decisão de experiência. Selecione o ícone **[!UICONTROL Política de decisão]** na barra esquerda e clique em **[!UICONTROL Adicionar política de decisão]**. [Saiba mais](../experience-decisioning/create-decision.md) <!--UI labels TBC + TBC for journeys (visible in UI so probably confirmed) -->
+1. Com experiências baseadas em código, você pode usar o recurso de decisão de experiência. Selecione o ícone **[!UICONTROL Política de decisão]** na barra esquerda e clique em **[!UICONTROL Adicionar política de decisão]**. [Saiba mais](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -131,7 +131,7 @@ Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar con
 >title="Visualize sua experiência baseada em código"
 >abstract="Acesse uma simulação de como será a sua experiência baseada em código."
 
-Para exibir uma pré-visualização de sua experiência baseada em código modificada, siga as etapas abaixo. Informações detalhadas sobre como selecionar perfis de teste e visualizar seu conteúdo estão disponíveis na [página Visualizar e testar seu conteúdo](../content-management/preview-test.md).
+Para exibir uma pré-visualização de sua experiência baseada em código modificada, siga as etapas abaixo.
 
 >[!CAUTION]
 >
@@ -145,12 +145,75 @@ Para exibir uma pré-visualização de sua experiência baseada em código modif
 
 1. Uma visualização da sua experiência modificada baseada em código é exibida.
 
-<!--
-    ![](assets/code-based-designer-preview.png)
+Informações detalhadas sobre como selecionar perfis de teste e visualizar seu conteúdo estão disponíveis em [esta seção](../content-management/preview.md).
 
-    You can also open it in the default browser, or copy the test URI to paste it in any browser. This allows you to share the link with your team and stakeholders who will be able to preview the new web experience in any browser before the campaign goes live.
+### Visualizar no dispositivo {#preview-on-device}
 
-    When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device"
+>title="Pré-visualize sua experiência baseada em código em um dispositivo real"
+>abstract="Obtenha uma visualização de suas experiências personalizadas diretamente do seu navegador ou de seus dispositivos móveis, para ver como elas aparecem em dispositivos reais."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_web"
+>title="Visualize sua experiência da Web com base em código no dispositivo"
+>abstract="Digitalize o código QR ou copie o link para visualizar no dispositivo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_mobile"
+>title="Visualize sua experiência móvel baseada em código no dispositivo"
+>abstract="Digitalize o código QR ou copie o link para visualizar no dispositivo. Depois de conectado, insira o pino no dispositivo. Talvez seja necessário reiniciar o aplicativo para ver as alterações toda vez que atualizar os links de visualização."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_refresh"
+>title="Atualizar o link de visualização para refletir a exibição atual"
+>abstract="A visualização no dispositivo mostrará o conteúdo a partir de quando você criou ou atualizou o link de visualização. Se você modificou o conteúdo ou selecionou um perfil de teste ou tratamento diferente, atualize a visualização para que ela reflita a exibição atual."
+
+Ao criar experiências baseadas em código para páginas da Web ou aplicativos móveis, você pode visualizar suas experiências personalizadas diretamente do seu navegador ou de seus dispositivos móveis, para ver como essas experiências são exibidas em dispositivos reais.
+
+>[!WARNING]
+>
+>A visualização no dispositivo não está disponível ao usar [políticas de decisão](../experience-decisioning/create-decision.md) ou [personalização](../personalization/personalization-build-expressions.md) atributos contextuais.
+
+1. Na tela **[!UICONTROL Simular]**, clique no botão **[!UICONTROL Abrir opções de visualização]**. As opções de visualização dependem da plataforma selecionada na sua [configuração baseada em código](code-based-configuration.md#create-code-based-configuration).
+
+1. Se você estiver usando uma [plataforma da Web](code-based-configuration.md#web) em sua configuração baseada em código, o campo somente leitura da **[!UICONTROL URL de visualização do dispositivo]** será preenchido com a URL inserida para a configuração de canal atual.
+
+   ![](assets/preview-on-device-web.png)
+
+   É possível:
+
+   * Selecione o botão **[!UICONTROL Copiar link]** e cole o link em uma guia do navegador. Você também pode compartilhar o link com sua equipe e as partes interessadas, que podem visualizar a nova experiência em qualquer navegador antes que as alterações entrem em vigor.
+
+   * Clique em **[!UICONTROL Abrir em nova guia]** para abrir o link em seu navegador atual.
+
+   * Digitalize o código QR com seu dispositivo móvel para abrir o link de visualização em um navegador móvel.
+
+1. Se você estiver usando [Plataformas móveis](code-based-configuration.md#mobile) (iOS/Android) em sua configuração baseada em código, o campo somente leitura **[!UICONTROL Deeplink]** será preenchido automaticamente com o valor **[!UICONTROL Visualizar URL]** inserido na configuração de canal para a plataforma selecionada.
+
+   Alterne entre as guias **[!UICONTROL iOS]** e **[!DNL Android]** para visualizar sua experiência para a plataforma de sua escolha.
+
+   ![](assets/preview-on-device-mobile.png)
+
+   É possível:
+
+   * Selecione o botão **[!UICONTROL Copiar link]** e compartilhe o link com a equipe e as partes interessadas, que podem visualizar a nova experiência em qualquer navegador móvel antes que as alterações entrem em vigor.
+
+   * Digitalize o código QR com seu dispositivo móvel para abrir o link de visualização diretamente no aplicativo móvel. Insira o PIN no dispositivo para estabelecer a sessão [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
+
+     >[!NOTE]
+     >
+     >O **Adobe Experience Platform Assurance** é um produto da Adobe Experience Cloud que ajuda a inspecionar, testar, simular e validar a maneira como você coleta dados ou oferece experiências em seu aplicativo móvel. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/home){target="_blank"}
+
+1. Os links de visualização são gerados para o perfil de teste selecionado e, se estiver usando o [Experimento de Conteúdo](../content-management/content-experiment.md) na sua jornada ou campanha, para o tratamento selecionado.
+
+   <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
+
+   ![](assets/preview-on-device-refresh.png)-->
+
+   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+
+   Ao selecionar um perfil de teste ou tratamento diferente, o link de visualização muda para que você possa ter um link para cada perfil de teste e/ou tratamento e comparar as experiências.
 
 ## Ative sua experiência baseada em código {#code-based-experience-live}
 
@@ -168,7 +231,7 @@ Você também pode visualizar seu conteúdo de experiência baseado em código a
 >
 >Se várias jornadas ou campanhas baseadas em código atualizarem os mesmos elementos do conteúdo, a jornada/campanha de prioridade mais alta terá prioridade.
 
-Assim que a jornada ou campanha baseada em código estiver ativa, a equipe de implementação do aplicativo responsável por fazer chamadas explícitas de API ou SDK para buscar conteúdo para as superfícies definidas na [configuração de experiência baseada em código](code-based-configuration.md) selecionada. Saiba mais sobre as diferentes implementações de clientes em [esta seção](code-based-implementation-samples.md).
+Assim que a jornada ou campanha baseada em código estiver ativa, a equipe de implementação do aplicativo será responsável por fazer chamadas explícitas de API ou SDK para buscar conteúdo para as superfícies definidas na [configuração de experiência baseada em código](code-based-configuration.md) selecionada. Saiba mais sobre as diferentes implementações de clientes em [esta seção](code-based-implementation-samples.md).
 
 ### Publish uma jornada baseada em código {#publish-code-based-journey}
 

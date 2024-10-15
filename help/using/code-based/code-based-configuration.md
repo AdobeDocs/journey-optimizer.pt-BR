@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1537'
 ht-degree: 30%
 
 ---
@@ -104,7 +104,7 @@ Para definir as configurações de experiência baseada em código para platafor
 1. O seguinte se aplica ao URL de visualização:
 
    * Se um único URL de página for inserido, esse URL será usado para a pré-visualização, sem a necessidade de inserir outro URL.
-   * Se uma [regra de correspondência de páginas](../web/web-configuration.md#web-page-matching-rule) for selecionada, você deverá inserir uma **[!UICONTROL URL de criação e visualização padrão]** que será usada para visualizar a experiência no navegador.
+   * Se uma [regra de correspondência de páginas](../web/web-configuration.md#web-page-matching-rule) for selecionada, você deverá inserir uma **[!UICONTROL URL de criação e visualização padrão]** que será usada para visualizar a experiência no navegador. [Saiba mais](../code-based/create-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -132,7 +132,7 @@ Para definir as configurações de experiência baseada em código para platafor
 
    ![](assets/code_config_3.png){width="500"}
 
-1. Preencha o campo **[!UICONTROL Visualizar URL]** para habilitar visualizações no dispositivo. Esta URL informa o serviço de visualização da URL específica a ser usada ao disparar uma visualização<!--on device. Learn more-->.
+1. Preencha o campo **[!UICONTROL Visualizar URL]** para habilitar visualizações no dispositivo. Esse URL informa ao serviço de visualização o URL específico a ser usado ao acionar a visualização no dispositivo. [Saiba mais](../code-based/create-code-based.md#preview-on-device)
 
    O URL de visualização é um deep link configurado pelo desenvolvedor do aplicativo. Isso garante que todos os URLs correspondentes ao esquema de deep link sejam abertos no aplicativo, em vez de em um navegador móvel da Web. Entre em contato com o desenvolvedor do aplicativo para obter o esquema de deep link configurado para ele.
 

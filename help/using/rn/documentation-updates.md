@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '5626'
+source-wordcount: '5667'
 ht-degree: 96%
 
 ---
@@ -25,6 +25,8 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * A página **Criar configuração de canal da Web** foi atualizada para esclarecer as etapas ao criar uma regra de correspondência de páginas, que também se aplica à configuração de experiência baseada em código. [Leia mais](../web/web-configuration.md#web-page-matching-rule)
 * Uma observação sobre a próxima proteção de TTL (time-to-live) para conjuntos de dados gerados pelo sistema foi adicionada. [Leia mais](../data/get-started-datasets.md)
 
+
+* Uma nova seção foi adicionada para descrever como pré-visualizar suas experiências personalizadas baseadas em código diretamente do seu navegador ou de seus dispositivos móveis, usando a opção Visualizar no dispositivo ao simular o conteúdo em uma jornada ou campanha. [Leia mais](../code-based/create-code-based.md#preview-on-device)
 
 ## Setembro de 2024 {#sept-2024}
 

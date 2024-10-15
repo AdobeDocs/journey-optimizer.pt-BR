@@ -5,14 +5,16 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 7%
+source-wordcount: '196'
+ht-degree: 5%
 
 ---
 
-# Visualização do conteúdo {#preview}
+# Verificar o conteúdo {#preview}
+
+<!--## Preview your content {#preview-content}-->
 
 Depois que [perfis de teste](test-profiles.md) forem selecionados, você poderá visualizar seu conteúdo. Siga as etapas abaixo:
 
@@ -37,3 +39,8 @@ Depois que [perfis de teste](test-profiles.md) forem selecionados, você poderá
    ![](../email/assets/preview-test-profile.png)
 
 1. Selecione outros perfis de teste para visualizar seu email para cada variante da mensagem.
+
+>[!NOTE]
+>
+>Ao criar experiências baseadas em código, você pode visualizar seu conteúdo personalizado diretamente no seu navegador ou em seus dispositivos móveis para uma simulação real. [Saiba mais](../code-based/create-code-based.md#preview-on-device)
+
