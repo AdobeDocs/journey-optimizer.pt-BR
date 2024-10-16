@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5672'
+ht-degree: 96%
 
 ---
 
@@ -24,9 +24,8 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * A página **Configurar a experiência baseada em código** foi aprimorada para tornar o processo mais claro, incluindo a seção que explica o que é um URI de superfície. [Leia mais](../code-based/code-based-configuration.md)
 * A página **Criar configuração de canal da Web** foi atualizada para esclarecer as etapas ao criar uma regra de correspondência de páginas, que também se aplica à configuração de experiência baseada em código. [Leia mais](../web/web-configuration.md#web-page-matching-rule)
 * Uma observação sobre a próxima proteção de TTL (time-to-live) para conjuntos de dados gerados pelo sistema foi adicionada. [Leia mais](../data/get-started-datasets.md)
-
-
 * Uma nova seção foi adicionada para descrever como pré-visualizar suas experiências personalizadas baseadas em código diretamente do seu navegador ou de seus dispositivos móveis, usando a opção Visualizar no dispositivo ao simular o conteúdo em uma jornada ou campanha. [Leia mais](../code-based/create-code-based.md#preview-on-device)
+* Uma nova página foi adicionada sobre como aproveitar os públicos-alvo de upload personalizados para a tomada de decisões. [Leia mais](../offers/custom-upload-decisioning.md)
 
 ## Setembro de 2024 {#sept-2024}
 
