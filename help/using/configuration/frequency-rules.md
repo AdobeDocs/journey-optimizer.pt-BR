@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -176,7 +176,7 @@ Para aplicar uma regra de negócios a uma mensagem, siga as etapas abaixo.
    >
    >As mensagens em que a categoria selecionada é **[!UICONTROL Transacional]** não serão avaliadas em relação às regras de frequência.
 
-1. Você pode exibir o número de perfis excluídos da entrega no [Relatório global](../reports/global-report.md) e no [Relatório em tempo real](../reports/live-report.md), em que as regras de negócios serão listadas como um possível motivo para os usuários excluídos da entrega.
+1. Você pode ver o número de perfis excluídos da entrega no [relatório de Customer Journey Analytics](../reports/report-gs-cja.md) e no [relatório ao vivo](../reports/live-report.md), em que as regras de negócios serão listadas como um possível motivo para os usuários excluídos da entrega.
 
 >[!NOTE]
 >

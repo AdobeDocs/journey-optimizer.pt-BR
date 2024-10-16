@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -134,5 +134,5 @@ Se você estiver **não** usando os [grupos de campos](https://experienceleague.
 * [Criação de uma mensagem no aplicativo](create-in-app.md)
 * [Criar uma campanha](../campaigns/create-campaign.md)
 * [Criar mensagem no aplicativo](design-in-app.md)
-* [Relatório no aplicativo](../reports/campaign-global-report.md#inapp-report)
+* [Relatório no aplicativo](../reports/campaign-global-report-cja-inapp.md)
 

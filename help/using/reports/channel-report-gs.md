@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->A experiência atual de relatórios será descontinuada a partir da versão de outubro. Após essa data, a nova experiência de relatórios se tornará o padrão. Recomendamos que você se familiarize com os novos recursos e funcionalidades para garantir uma transição suave. [Introdução à nova interface de Relatórios do Journey Optimizer.](report-gs-cja.md)
+>A experiência atual de relatórios será removida a partir de janeiro de 2025. Após essa data, a nova experiência de relatórios se tornará o padrão. Recomendamos que você se familiarize com os novos recursos e funcionalidades para garantir uma transição suave. [Introdução à nova interface de Relatórios do Journey Optimizer.](report-gs-cja.md)
 
 Os Relatórios de canal são uma ferramenta poderosa que fornece uma visão geral abrangente das métricas de tráfego e engajamento em um relatório unificado para cada canal, englobando todas as ações de todas as campanhas e Jornadas. Ele é dividido em widgets diferentes, cada um deles fornecendo uma visualização específica do desempenho da sua campanha ou jornada.
 

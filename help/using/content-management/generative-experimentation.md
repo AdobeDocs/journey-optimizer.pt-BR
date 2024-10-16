@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,4 +52,4 @@ Depois de criar e personalizar suas mensagens, eleve o conteúdo com o Assistent
 
 1. Antes de iniciar sua campanha, verifique se todas as configurações estão corretas e clique em **[!UICONTROL Ativar]**.
 
-Depois de configurar e personalizar com sucesso sua campanha, você pode acompanhar sua campanha no relatório de campanha. [Saiba mais](../reports/campaign-global-report.md)
+Depois de configurar e personalizar com sucesso sua campanha, você pode acompanhar sua campanha no relatório de campanha. [Saiba mais](../reports/campaign-global-report-cja.md)

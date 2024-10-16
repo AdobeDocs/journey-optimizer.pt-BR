@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 14%
@@ -190,7 +190,7 @@ Você pode ver a pontuação geral na interface **Perfis**. Para cada um dos tr�
 
 +++Que relatórios estão disponíveis?
 
-Acesse sua jornada, clique no botão **Exibir relatório** na parte superior direita e selecione a guia **Jornada** à esquerda. [Leia mais](../reports/journey-global-report.md)
+Acesse sua jornada, clique no botão **Exibir relatório** na parte superior direita e selecione a guia **Jornada** à esquerda. [Leia mais](../reports/journey-global-report-cja.md)
 
 +++
 

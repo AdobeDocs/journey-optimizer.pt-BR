@@ -8,10 +8,10 @@ level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 hide: true
 hidefromtoc: true
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -183,5 +183,5 @@ Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você pode
 **Tópicos relacionados:**
 
 * [Teste e envie sua mensagem no aplicativo](send-in-app.md)
-* [Relatório no aplicativo](../reports/campaign-global-report.md#inapp-report)
+* [Relatório no aplicativo](../reports/campaign-global-report-cja-inapp.md)
 * [Configuração no aplicativo](inapp-configuration.md)

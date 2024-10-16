@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -290,7 +290,7 @@ Uma execução pode ter os seguintes status:
 
 ### Usar relatórios {#reports}
 
-Em geral, para medir o impacto do seu plano, você pode verificar o desempenho de suas campanhas de aquecimento de IP usando os relatórios de campanha do [!DNL Journey Optimizer]. Para fazer isso, para cada execução concluída, você pode clicar no botão **[!UICONTROL Exibir relatórios]**. Saiba mais sobre o [relatório ao vivo](../reports/campaign-live-report.md#email-live) e o [relatório global](../reports/campaign-global-report.md#email-global) do email da campanha.
+Em geral, para medir o impacto do seu plano, você pode verificar o desempenho de suas campanhas de aquecimento de IP usando os relatórios de campanha do [!DNL Journey Optimizer]. Para fazer isso, para cada execução concluída, você pode clicar no botão **[!UICONTROL Exibir relatórios]**. Saiba mais sobre o [relatório ao vivo](../reports/campaign-live-report.md#email-live) e o [relatório Customer Journey Analytics](../reports/campaign-global-report-cja-email.md) do email da campanha.
 
 ![](assets/ip-warmup-plan-reports.png)
 

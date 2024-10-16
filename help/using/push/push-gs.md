@@ -8,9 +8,9 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '731'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ A figura a seguir mostra os sistemas e serviços envolvidos com fluxos de dados 
 1. As cargas de push personalizadas são encaminhadas para um serviço interno de delivery de mensagens por push
 1. Esse serviço interno valida as credenciais do aplicativo associado à mensagem e
 1. Envia a mensagem para os serviços de mensagens do Apple e Google para entrega final
-1. Os comentários dos serviços de mensagens são anotados, erros e sucessos são registrados para relatórios no Jornada Live e relatórios globais
+1. Os comentários dos serviços de mensagens são anotados, erros e sucessos são registrados para relatórios no Jornada Live e no relatório Customer Journey Analytics
 1. As notificações por push são entregues aos dispositivos do usuário final
 1. As interações de notificação por push do usuário final são enviadas como Eventos de experiência do cliente do usuário final por meio da integração do SDK
 
@@ -75,7 +75,7 @@ A figura a seguir mostra as várias etapas, de ponta a ponta, envolvidas na conf
 **Tópicos relacionados**
 
 * [Configurar canal por push](push-configuration.md)
-* [Relatório de notificação por push](../reports/journey-global-report.md#push-global)
+* [Relatório de notificação por push](../reports/journey-global-report-cja-push.md)
 * [Criar uma notificação por push](create-push.md)
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)
 * [Adicionar uma mensagem em uma campanha](../campaigns/create-campaign.md)

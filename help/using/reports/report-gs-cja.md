@@ -2,17 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Nova interface de relatório
-description: Introdução à nova interface de relatórios
+description: Introdução ao relatório do CJA
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Disponibilidade limitada" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,10 +39,6 @@ Os relatórios do Journey Optimizer vêm com uma interoperabilidade aprimorada c
 
   ![](assets/gs-cja-report-1.png)
 
->[!NOTE]
->
-> Para reverter para os relatórios tradicionais do Journey Optimizer, basta alternar a opção **[!UICONTROL Usar nova experiência]**.
-
 ## Pré-requisitos {#prerequisites}
 
 * Se você possuir o Customer Journey Analytics **não** ou se for proprietário dele, mas **não** tiver acesso a qualquer perfil de produto Customer Journey Analytics, as permissões serão gerenciadas no Journey Optimizer. Nesse caso, será necessário:
@@ -57,10 +52,6 @@ Os relatórios do Journey Optimizer vêm com uma interoperabilidade aprimorada c
    * Permissão **[!UICONTROL Gerenciar perfis]** para o Adobe Journey Optimizer. [Saiba mais](../administration/permissions.md)
 
 * Suas exibições de dados do Customer Journey Analytics precisam ser configuradas com a seguinte configuração: **Definir como exibição de dados padrão no Adobe Journey Optimizer**. [Saiba mais sobre visualizações de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-
-* Para acessar o painel de Customer Journey Analytics no Journey Optimizer, basta habilitar a opção **[!UICONTROL Usar nova experiência]** no seu relatório.
-
-  ![](assets/cja-option.png)
 
 ## Vídeo tutorial{#video}
 

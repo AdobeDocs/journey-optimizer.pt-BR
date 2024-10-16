@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ab4219c7045f9c4ba77fceb2cbb46fbbe6f536ac
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1715'
 ht-degree: 21%
 
 ---
@@ -38,7 +38,7 @@ A lista **[!UICONTROL Páginas de Aterrissagem]** exibe todos os itens criados. 
 
 ![](assets/lp_access-list-filter.png)
 
-Nesta lista, você pode acessar o [Relatório ao vivo da página de aterrissagem](../reports/lp-report-live.md) ou o [Relatório global da página de aterrissagem](../reports/lp-report-global.md) para itens publicados.
+Nesta lista, você pode acessar o [relatório de páginas de aterrissagem](../reports/lp-report-live.md) ou o [relatório de páginas de aterrissagem](../reports/lp-report-global-cja.md) dos itens publicados.
 
 Também é possível excluir, duplicar e desfazer a publicação de uma landing page.
 

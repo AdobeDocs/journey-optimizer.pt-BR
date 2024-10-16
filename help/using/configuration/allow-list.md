@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: lista de permissões, lista, seguro, configuração
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -201,7 +201,7 @@ Quando a lista de permissões está [ativa](#enable-allow-list), a seguinte lóg
 >
 >Os perfis com status **[!UICONTROL Não permitido]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto os **relatórios de Jornada** mostrarão esses perfis como tendo sido movidos pela jornada ([Ler público-alvo](../building-journeys/read-audience.md) e [atividades de mensagem](../building-journeys/journeys-message.md)), os **relatórios de email** não os incluirão nas métricas **[!UICONTROL Enviados]**, pois eles são filtrados antes do envio de email.
 >
->Saiba mais sobre o [Relatório ao vivo](../reports/live-report.md) e o [Relatório global](../reports/global-report.md).
+>Saiba mais sobre o [Relatório ao vivo](../reports/live-report.md) e o [relatório de Customer Journey Analytics](../reports/report-gs-cja.md).
 
 Quando a lista de permissões é [desativada](#deactivate-allow-list), todos os emails que você está enviando da sandbox atual são enviados para todos os destinatários (desde que não estejam na lista de supressão), incluindo endereços reais de clientes.
 

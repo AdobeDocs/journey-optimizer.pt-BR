@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 35%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -160,7 +160,7 @@ O [Designer de email](content-from-scratch.md) permite gerenciar os URLs rastrea
    * **[!UICONTROL Mirror page]**: considera-o como um URL de mirror page.
    * **[!UICONTROL Nunca]**: nunca ativa o rastreamento desta URL.
 
-Relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo](../reports/live-report.md) e no [Relatório global](../reports/global-report.md).
+Relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo](../reports/live-report.md) e no [relatório de Customer Journey Analytics](../reports/report-gs-cja.md).
 
 ## Personalizar rastreamento do URL {#url-tracking}
 

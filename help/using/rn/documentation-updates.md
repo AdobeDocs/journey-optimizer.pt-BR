@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '5667'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -131,7 +131,6 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Atualize o parâmetro **duração** na função `toString`. [Leia mais](../building-journeys/functions/functiontostring.md)
 * Para alguns casos de uso de fontes de dados externas, é recomendado o uso de ações personalizadas.
 * A sintaxe dos campos de evento foi atualizada. A sintaxe a seguir está obsoleta `@(my_event.myfield}` e foi substituída por `@event{my_event.myfield}`. [Leia mais](../building-journeys/expression/field-references.md)
-* Os guias Relatório global e Relatório em tempo real foram reorganizados. [Leia mais](../reports/campaign-global-report.md)
 
 +++ 2023
 
@@ -179,7 +178,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * A observação sobre o **gerenciamento de cache de autenticação** na jornada foi atualizada para mencionar que o token não é compartilhado entre jornadas diferentes. [Leia mais](../datasource/external-data-sources.md#custom-authentication-mode)
 * A página sobre o **gerenciamento de entradas** da jornada foi atualizada para esclarecer comportamentos. [Leia mais](../building-journeys/entry-management.md)
 * A **exportação de conjuntos de dados** do Offer Decisioning agora está habilitada por padrão. A observação sobre o comportamento anterior foi removida.  [Leia mais](../offers/export-catalog/get-started-export.md)
-* Várias **métricas de relatórios de campanha**, nos relatórios dinâmicos e globais, foram renomeadas. [Leia mais](../reports/campaign-global-report.md)
+* Várias **métricas de relatórios de campanha**, nos relatórios dinâmicos e globais, foram renomeadas. [Leia mais](../reports/campaign-live-report.md)
 * Uma nova seção foi adicionada sobre os pré-requisitos do experimento de conteúdo para o canal da Web. [Leia mais](../web/web-prerequisites.md#experiment-prerequisites)
 * Um aviso foi adicionado à página **Trabalhar com modelos de conteúdo** para indicar que o rastreamento atual não é compatível ao testar modelos de conteúdo de email. Para testar o rastreamento, você deve usar o modelo de conteúdo em um email e enviar uma prova. [Leia mais](../content-management/content-templates.md#test-template)
 * Vários avisos foram adicionados à seção **Criar e publicar páginas de destino** para especificar que você não pode acessar sua página de destino simplesmente copiando e colando em um navegador da web o URL definido ao criar a página, mesmo que esteja publicada. Em vez disso, você pode testá-lo usando a função de visualização. [Leia mais](../landing-pages/create-lp.md)
@@ -297,9 +296,9 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Atualização das páginas relacionadas às funções [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md).
 * Adição de detalhes sobre os parâmetros da condição de tempo. [Leia mais](../building-journeys/condition-activity.md#time_condition)
 * Adição de informações sobre conjuntos de dados incorporados. [Leia mais](../data/get-started-datasets.md#access-datasets)
-* As seções Relatório global e Relatório ao vivo foram aprimoradas e reorganizadas. [Leia mais](../reports/global-report.md)
+* As seções Relatório global e Relatório ao vivo foram aprimoradas e reorganizadas. [Leia mais](../reports/report-gs-cja.md)
 * Uma lista de cada métrica de relatório disponível no Adobe Journey Optimizer foi adicionada.
-  [Leia mais](../reports/global-report.md#email-and-sms-metrics)
+  [Leia mais](../reports/report-gs-cja.md#email-and-sms-metrics)
 * A seção sobre CCO de email foi movida para a nova página Suporte para arquivamento. [Leia mais](../configuration/archiving-support.md)
 
 ## Agosto de 2022 {#august-2022}
@@ -444,7 +443,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Atualização do procedimento de configuração para ações personalizadas com caminhos dinâmicos de URL e cabeçalhos dinâmicos. [Leia mais](../action/about-custom-action-configuration.md#url-configuration)
 * Seção sobre recursos e atalhos de acessibilidade adicionada. [Leia mais](../start/user-interface.md#accessibility)
 * Adição de uma seção sobre métodos de avaliação de público-alvo. [Leia mais](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* Observações adicionadas às seções Lista de supressão, Lista de permissões e Relatório de email global/em tempo real para especificar que os perfis com status Suprimido e Não permitido estão excluídos das métricas do relatório de emails enviados. [Leia mais](../reports/global-report.md)
+* Observações adicionadas às seções Lista de supressão, Lista de permissões e Relatório de email global/em tempo real para especificar que os perfis com status Suprimido e Não permitido estão excluídos das métricas do relatório de emails enviados. [Leia mais](../reports/report-gs-cja.md)
 * Nova seção adicionada para descrever como recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. [Leia mais](../configuration/allow-list.md#reporting)
 * Seção Ativar a lista de permissões atualizada. [Saiba mais](../configuration/allow-list.md#enable-allow-list)
 * Seção Monitorar predefinições de mensagem atualizada com os possíveis motivos de falha na criação de predefinições e detalhes sobre esses erros. [Leia mais](../configuration/channel-surfaces.md#monitor-channel-surfaces)

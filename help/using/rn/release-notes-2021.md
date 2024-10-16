@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -132,7 +132,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 <td>
 <p>Novas métricas estão disponíveis nos relatórios: Segmentado e Excluído para mensagens de email &amp; e por push estão visíveis nos relatórios ao vivo e global. </br> Para ter acesso às métricas mais recentes, observe que será necessário redefinir os diferentes painéis de relatórios para cada canal e tipo de relatório. Para obter mais informações sobre a personalização de painéis, consulte a <a href="../reports/live-report.md">documentação detalhada.</a></p>
 <p>Uma nova coluna na lista de execução de mensagens exibe o número de perfis segmentados para cada execução de mensagem. </p>
-<p>Para obter mais informações, consulte a <a href="../reports/global-report.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../reports/report-gs-cja.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>

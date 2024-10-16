@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,11 +64,11 @@ Para fazer isso, siga as etapas abaixo:
 
 Sua campanha agora está ativada. A notificação no aplicativo configurada na campanha é enviada imediatamente ou na data especificada.
 
-Depois de enviado, você pode medir o impacto das mensagens no aplicativo nos relatórios do Campaign ou do Jornada. Para obter mais informações sobre relatórios, consulte [esta seção](../reports/campaign-global-report.md#inapp-report).
+Depois de enviado, você pode medir o impacto das mensagens no aplicativo nos relatórios do Campaign ou do Jornada. Para obter mais informações sobre relatórios, consulte [esta seção](../reports/campaign-global-report-cja-inapp.md).
 
 **Tópicos relacionados:**
 
 * [Criação de uma mensagem no aplicativo](create-in-app.md)
 * [Criar mensagem no aplicativo](design-in-app.md)
-* [Relatório no aplicativo](../reports/campaign-global-report.md#inapp-report)
+* [Relatório no aplicativo](../reports/campaign-global-report-cja-inapp.md)
 * [Configuração no aplicativo](inapp-configuration.md)

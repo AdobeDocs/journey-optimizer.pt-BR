@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
@@ -48,4 +48,4 @@ Consulte as seguintes seções para configurar a primeira jornada, adicionar ofe
 
    Saiba como projetar e executar jornadas [nesta seção](../../building-journeys/journey-gs.md)
 
-1. **Monitorar mensagens e jornadas**. Para garantir que suas mensagens sejam executadas, enviadas e entregues com êxito, o [!DNL Journey Optimizer] oferece recursos para monitorar as mensagens publicadas e acionadas no momento. Saiba como monitorar desempenhos [nesta seção](../../reports/global-report.md).
+1. **Monitorar mensagens e jornadas**. Para garantir que suas mensagens sejam executadas, enviadas e entregues com êxito, o [!DNL Journey Optimizer] oferece recursos para monitorar as mensagens publicadas e acionadas no momento. Saiba como monitorar desempenhos [nesta seção](../../reports/report-gs-cja.md).
