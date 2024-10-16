@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -88,6 +88,12 @@ O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um 
 [Saiba mais sobre o registro do DMARC](../configuration/dmarc-record.md)
 
 ## Saiba mais sobre loops de comentários {#feedback-loops}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_subdomain_list"
+>title="Alguns subdomínios podem estar indisponíveis"
+>abstract="Certos subdomínios não estão disponíveis para seleção no momento devido ao registro do loop de feedback pendente. Esse processo pode demorar até 10 dias úteis. Após a conclusão, você pode escolher entre todos os subdomínios disponíveis."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introdução à delegação de subdomínio"
 
 Um loop de feedback (FBL) é um serviço oferecido por alguns ISPs que permite que o remetente de email seja notificado automaticamente quando o usuário que recebe um email optar por marcá-lo como spam (também conhecido como &quot;reclamação&quot;).
 
