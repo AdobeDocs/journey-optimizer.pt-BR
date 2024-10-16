@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -20,17 +20,13 @@ ht-degree: 0%
 Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho das suas jornadas e mensagens em um painel integrado.
 Os dados estão disponíveis no **[!UICONTROL Relatório em tempo real]** assim que a entrega é enviada ou a jornada é executada a partir da guia **[!UICONTROL Últimas 24 horas]**.
 
-* Para direcionar uma jornada no contexto de uma jornada, no menu **[!UICONTROL Jornadas]**, acesse a jornada e clique no botão **[!UICONTROL Exibir relatório]**.
+* Se quiser direcionar uma jornada no contexto de uma jornada, no menu **[!UICONTROL Jornadas]**, acesse o menu **[!UICONTROL Mais ações]** da jornada e clique no botão **[!UICONTROL Exibir relatório das últimas 24 horas]**.
 
   ![](assets/report_journey.png)
 
-* Se quiser direcionar uma campanha, no menu **[!UICONTROL Campanhas]**, acesse sua campanha e clique no botão **[!UICONTROL Relatórios]**.
+* Se quiser direcionar uma campanha, no menu **[!UICONTROL Campanhas]**, acesse sua campanha e clique no botão **[!UICONTROL Relatórios]** e depois em **[!UICONTROL Exibir relatório das últimas 24 horas]**.
 
   ![](assets/report_campaign.png)
-
-* Se você quiser alternar dos **Relatórios de Customer Journey Analytics** para o **[!UICONTROL Relatório em tempo real]** da sua entrega, clique em **[!UICONTROL Últimas 24 horas]** no alternador de guias.
-
-  ![](assets/report_3.png)
 
 Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](#list-of-components-live).
 
@@ -92,7 +88,7 @@ Seu relatório agora está disponível para visualização ou compartilhamento e
 
    ![](assets/export_4.png)
 
-1. Você também pode optar por exportar dados de um widget específico. Clique em **[!UICONTROL Exportar dados do widget para CSV]** ao lado do widget selecionado.
+1. Você também pode optar por exportar dados de um widget específico. Clique em **[!UICONTROL Baixar arquivo CSV]** ao lado do widget selecionado.
 
    ![](assets/export_5.png)
 
