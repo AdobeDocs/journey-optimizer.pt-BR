@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a04f60d946845725e09855b4aa19bc6ef4b4db99
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1089'
+ht-degree: 1%
 
 ---
 
@@ -72,51 +72,51 @@ Seu relatório agora está disponível para visualização, download ou comparti
 
 >[!ENDTABS]
 
-<!--
-## Schedule exports {#schedule-export}
 
-The **Schedule export** lets you automate the delivery of up to 10 reports at weekly, monthly or yearly intervals. You can also easily manage your scheduled reports, with options to update, edit, cancel, or delete any of your scheduled exports.
+## Agendar exportações {#schedule-export}
 
-1. From your report, click **[!UICONTROL Share]** and select **[!UICONTROL Schedule export]**.
+O **Agendar exportação** permite automatizar a entrega de até 10 relatórios em intervalos semanais, mensais ou anuais. Você também pode gerenciar facilmente os relatórios agendados, com opções para atualizar, editar, cancelar ou excluir qualquer uma das exportações agendadas.
+
+1. Em seu relatório, clique em **[!UICONTROL Compartilhar]** e selecione **[!UICONTROL Exportação de agendamento]**.
 
    ![](assets/export-schedule-1.png)
 
-1. Choose your **[!UICONTROL File type]** between CSV and PDF.
+1. Escolha seu **[!UICONTROL Tipo de arquivo]** entre CSV e PDF.
 
-1. If needed, you can add a **[!UICONTROL Description]** to your export.
+1. Se necessário, você pode adicionar uma **[!UICONTROL Descrição]** à sua exportação.
 
-1. Enter the name of the recipients who will receive this automated delivery.
+1. Insira o nome dos recipients que receberão esse delivery automatizado.
 
    ![](assets/export-schedule-2.png)
 
-1. Choose the **[!UICONTROL Frequency]**.
+1. Escolha a **[!UICONTROL Frequência]**.
 
-1. Based on the selected frequency, provide the relevant scheduling details, such as:
+1. Com base na frequência selecionada, forneça os detalhes de agendamento relevantes, como:
 
-   * Start and end dates
-   
-   * Interval (e.g., every few weeks)
+   * Datas iniciais e finais
 
-   * Specific day of the week
-   
-   * Week within the month
+   * Intervalo (por exemplo, a cada poucas semanas)
 
-   * Day within the month
-   
-   * Month of the year
+   * Dia da semana específico
 
-1. Click **[!UICONTROL Send on schedule]**.
+   * Semana do mês
 
-1. To edit previously created scheduled export, click **[!UICONTROL Share]** and select **[!UICONTROL Manage schedules]**.
+   * Dia do mês
+
+   * Mês do ano
+
+1. Clique em **[!UICONTROL Enviar conforme agendado]**.
+
+1. Para editar uma exportação agendada criada anteriormente, clique em **[!UICONTROL Compartilhar]** e selecione **[!UICONTROL Gerenciar agendamentos]**.
 
    ![](assets/export-schedule-3.png)
 
-1. From the list of scheduled exports, choose the one you want to update and make the necessary changes.
+1. Na lista de exportações programadas, escolha a que deseja atualizar e faça as alterações necessárias.
 
-1. To delete a scheduled report, select one from the managed schedules list and click **[!UICONTROL Delete]**.
+1. Para excluir um relatório agendado, selecione um na lista de agendamentos gerenciados e clique em **[!UICONTROL Excluir]**.
 
    ![](assets/export-schedule-4.png)
--->
+
 
 ## Criar uma métrica simples {#create-simple-metric}
 
