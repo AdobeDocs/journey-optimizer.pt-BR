@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 96%
+source-wordcount: '2136'
+ht-degree: 93%
 
 ---
 
@@ -384,17 +384,47 @@ ht-degree: 96%
       + [Relatório em tempo real da campanha](using/reports/campaign-live-report.md)
       + [Relatório em tempo real da página de destino](using/reports/lp-report-live.md)
       + [Relatório em tempo real da lista de assinaturas](using/reports/subscription-report-live.md)
-   + Relatório global {#global-report}
-      + [Introdução aos relatórios globais](using/reports/global-report.md)
-      + [Lista de componentes](using/reports/global-report-components.md)
-      + [Relatório global da jornada](using/reports/journey-global-report.md)
-      + [Relatório global da campanha](using/reports/campaign-global-report.md)
-      + [Relatório de objetivo](using/reports/objective-report.md)
-      + [Relatório global da página de destino](using/reports/lp-report-global.md)
-      + [Relatório global da lista de assinaturas](using/reports/subscription-report-global.md)
-   + Relatórios de canal {#channel-report}
-      + [Introdução a Relatórios de canal](using/reports/channel-report-gs.md)
-      + [Relatórios de canal](using/reports/channel-report.md)
+   + relatórios de Customer Journey Analytics{#channel-report}
+      + [Introdução aos relatórios de Customer Journey Analytics](using/reports/report-gs-cja.md)
+      + [Configurar o Customer Journey Analytics manualmente](using/reports/cja-ajo.md)
+      + [Gerenciar seus relatórios](using/reports/report-cja-manage.md)
+      + [Pré-requisitos de relatórios e experimentação](using/reports/reporting-configuration.md)
+      + Relatórios de campanha{#reporting}
+         + [Relatório de campanha](using/reports/campaign-global-report-cja.md)
+         + [Relatório de campanha baseado em código](using/reports/campaign-global-report-cja-code.md)
+         + [Relatório de campanha de cartão de conteúdo](using/reports/campaign-global-report-cja-content.md)
+         + [Relatório de campanha de correspondência direta](using/reports/campaign-global-report-cja-direct.md)
+         + [Relatório de campanha por email](using/reports/campaign-global-report-cja-email.md)
+         + [Relatório de campanha de experimentação](using/reports/campaign-global-report-cja-experimentation.md)
+         + [Relatório de campanha no aplicativo](using/reports/campaign-global-report-cja-inapp.md)
+         + [Relatório de campanha de notificação por push](using/reports/campaign-global-report-cja-push.md)
+         + [Relatório de campanha por SMS](using/reports/campaign-global-report-cja-sms.md)
+         + [Relatório de campanha da Web](using/reports/campaign-global-report-cja-web.md)
+      + Jornada relatórios{#reporting}
+         + [Relatório de jornada](using/reports/journey-global-report-cja.md)
+         + [Relatório de jornada baseado em código](using/reports/journey-global-report-cja-code.md)
+         + [Relatório de jornada do cartão de conteúdo](using/reports/journey-global-report-cja-content.md)
+         + [Relatório de jornada de correspondência direta](using/reports/journey-global-report-cja-direct.md)
+         + [Relatório de jornada de email](using/reports/journey-global-report-cja-email.md)
+         + [Relatório de jornada no aplicativo](using/reports/journey-global-report-cja-inapp.md)
+         + [Relatório de jornada por push](using/reports/journey-global-report-cja-push.md)
+         + [Relatório de jornada por SMS](using/reports/journey-global-report-cja-sms.md)
+         + [Relatório de jornada na Web](using/reports/journey-global-report-cja-web.md)
+      + [Relatório de visão geral](using/reports/channel-report-cja.md)
+      + [Relatório de páginas de destino](using/reports/lp-report-global-cja.md)
+      + [Relatório da lista de assinaturas](using/reports/subscription-report-global-cja.md)
+   + Painel de relatórios anterior {#reports}
+      + Relatório global {#global-report}
+         + [Introdução aos relatórios globais](using/reports/global-report.md)
+         + [Lista de componentes](using/reports/global-report-components.md)
+         + [Relatório global da jornada](using/reports/journey-global-report.md)
+         + [Relatório global da campanha](using/reports/campaign-global-report.md)
+         + [Relatório de objetivo](using/reports/objective-report.md)
+         + [Relatório global da página de destino](using/reports/lp-report-global.md)
+         + [Relatório global da lista de assinaturas](using/reports/subscription-report-global.md)
+      + Relatórios de canal {#channel-report}
+         + [Introdução a Relatórios de canal](using/reports/channel-report-gs.md)
+         + [Relatórios de canal](using/reports/channel-report.md)
    + Relatórios de jornada {#reports}
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
       + [Lista de campos de evento de etapa](using/reports/sharing-field-list.md)
@@ -411,17 +441,7 @@ ht-degree: 96%
       + [Sobre a lista de supressão](using/reports/suppression-list.md)
       + [Novo requisito DMARC](using/configuration/dmarc-record-update.md)
    + [Alertas](using/reports/alerts.md)
-   + [Trabalhar com o Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Motivos de exclusão](using/reports/exclusion-list.md)
-+ Nova interface de relatórios (disponibilidade limitada){#channel-report}
-   + [Introdução à nova interface de relatórios](using/reports/report-gs-cja.md)
-   + [Pré-requisitos de relatórios e experimentação](using/reports/reporting-configuration.md)
-   + [Gerenciar seus relatórios](using/reports/report-cja-manage.md)
-   + [Relatório de jornada](using/reports/journey-global-report-cja.md)
-   + [Relatório de campanha](using/reports/campaign-global-report-cja.md)
-   + [Relatório de visão geral](using/reports/channel-report-cja.md)
-   + [Relatório de páginas de destino](using/reports/lp-report-global-cja.md)
-   + [Relatório da lista de assinaturas](using/reports/subscription-report-global-cja.md)
 + Decisões {#decisioning}
    + Gestão de decisões {#offer-decisioning}
       + Introdução ao Gestão de decisões {#get-started-decision}
