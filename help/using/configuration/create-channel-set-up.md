@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
 source-git-commit: 24a178839e29dccffde683a958ccc74da4180a73
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -60,43 +60,43 @@ Essa configuração simplifica a configuração rápida de canais de marketing, 
 
    ![](assets/guided-setup-config-1.png)
 
-1. Criar uma **[!UICONTROL Nova]** configuração.
+1. Crie uma **[!UICONTROL nova]** configuração.
 
    Se você já tiver configurações existentes, poderá optar por selecionar uma ou criar uma nova configuração.
 
    ![](assets/guided-setup-config-2.png)
 
-1. Insira um **[!UICONTROL Nome]** para sua nova configuração e selecione ou crie sua **[!UICONTROL Sequência de Dados]**. Este **[!UICONTROL Nome]** será usado para todos os recursos criados automaticamente.
+1. Insira um **[!UICONTROL Nome]** para a nova configuração e selecione ou crie sua **[!UICONTROL Sequência de dados]**. Este **[!UICONTROL Nome]** será usado para todos os recursos criados automaticamente.
 
-1. Se sua organização tiver vários fluxos de dados, selecione um entre as opções existentes. Se você não tiver uma sequência de dados, uma será criada automaticamente para você.
+1. Se sua organização tiver várias sequências de dados, selecione uma entre as opções existentes. Se você não tiver uma sequência de dados, uma será criada automaticamente para você.
 
 1. Selecione sua plataforma e clique em **[!UICONTROL Criar recursos automaticamente]**.
 
-1. Para simplificar o processo de configuração, os recursos necessários são criados automaticamente para ajudar você a começar. Isso inclui a criação de uma nova **[!UICONTROL Propriedade de Marca Móvel]** e a instalação de extensões.
+1. Para simplificar o processo de configuração, os recursos necessários são criados automaticamente para ajudar você a começar. Isso inclui a criação de uma nova **[!UICONTROL Propriedade de tag móvel]** e a instalação de extensões.
 
 [Saiba mais sobre os recursos gerados automaticamente](set-mobile-config.md#auto-create-resources)
 
-1. Quando a geração de recursos estiver concluída, siga as instruções na interface do usuário para configurar e validar seus SDKs e canais.
+1. Quando a geração de recursos estiver concluída, siga as instruções na interface para configurar e validar seus SDKs e canais.
 
-1. Após concluir a configuração, compartilhe a **[!UICONTROL Configuração do canal]** gerada automaticamente com os membros da equipe responsáveis pela criação de Jornadas e Campanhas.
+1. Após concluir a configuração, compartilhe a **[!UICONTROL Configuração de canais]** gerada automaticamente com os membros da equipe responsáveis pela criação de Jornadas e Campanhas.
 
    ![](assets/guided-setup-config-ios-8.png){zoomable="yes"}
 
-1. Agora você pode fazer referência à **[!UICONTROL Configuração de canal]** na interface Campanhas ou Jornada, permitindo uma conexão perfeita entre a sua configuração e a execução de jornadas e campanhas direcionadas para o seu público-alvo.
+1. Agora você pode fazer referência à **[!UICONTROL Configuração de canais]** na interface de Campanhas ou Jornada, permitindo uma conexão perfeita entre a configuração e a execução de jornadas e campanhas direcionadas para o seu público-alvo.
 
 ## Modificar uma configuração móvel existente {#reconnect}
 
-Depois de criar sua configuração, você pode facilmente revisitá-la a qualquer momento para adicionar mais canais ou fazer mais ajustes para atender às suas necessidades
+Depois de criar a configuração, você pode facilmente revisitá-la a qualquer momento para adicionar mais canais ou fazer mais ajustes para atender às suas necessidades
 
 1. Na página inicial do Journey Optimizer, clique em **[!UICONTROL Iniciar]** no cartão **[!UICONTROL Configurar canais móveis e da Web]**.
 
    ![](assets/guided-setup-config-1.png)
 
-1. Selecione **[!UICONTROL Existente]** e escolha sua **[!UICONTROL propriedade de Marca]** existente no menu suspenso.
+1. Selecione **[!UICONTROL Existente]** e escolha a **[!UICONTROL Propriedade de tag]** existente no menu suspenso.
 
    ![](assets/guided-setup-config-ios-9.png)
 
-1. Ao acessar sua configuração existente, é necessário reconectar-se com o Adobe Assurance. No menu de Instalação do SDK, clique em **[!UICONTROL Reconectar]**.
+1. Ao acessar a configuração existente, é necessário reconectar-se com o Adobe Assurance. No menu de configuração do SDK, clique em **[!UICONTROL Reconectar]**.
 
    ![](assets/guided-setup-config-ios-10.png)
 

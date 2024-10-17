@@ -1,19 +1,19 @@
 ---
-title: Introdução ao cartão de conteúdo
+title: Introdução aos cartões de conteúdo
 description: Saiba mais sobre o cartão de conteúdo no Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
-# Introdução a cartões de conteúdo {#get-started-content-card}
+# Introdução aos cartões de conteúdo {#get-started-content-card}
 
-Os cartões de conteúdo são um novo recurso de mensagem digital do Adobe Journey Optimizer, que fornece conteúdo personalizado e envolvente diretamente em aplicativos e sites móveis. Diferentemente das notificações por push tradicionais, os Cartões de conteúdo se integram perfeitamente à interface, oferecendo atualizações persistentes e não intrusivas que melhoram a interação e a experiência de usuários.
+Os cartões de conteúdo são um novo recurso de mensagens digitais no Adobe Journey Optimizer que fornece conteúdo personalizado e envolvente diretamente em aplicativos móveis e sites. Diferentemente das notificações por push tradicionais, os Cartões de conteúdo se integram perfeitamente à interface, oferecendo atualizações persistentes e não intrusivas que melhoram a interação e a experiência de usuários.
 
 Esse recurso permite que profissionais de marketing apresentem conteúdo de mídia avançada e relevante para usuários, aumentando o engajamento e garantindo que mensagens importantes sejam vistas sem interromper a jornada do usuário.
 
@@ -39,7 +39,7 @@ Esse recurso permite que profissionais de marketing apresentem conteúdo de míd
 <img alt="Validação" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="design-content-card.md"><strong>Criar um cartão de conteúdo</strong></a>
+<a href="design-content-card.md"><strong>Projetar um cartão de conteúdo</strong></a>
 </div>
 <p>
 </td>

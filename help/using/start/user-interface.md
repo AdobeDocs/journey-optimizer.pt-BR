@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1505'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Controle o gerenciamento de privacidade e as solicitações nesta seção.
 
 * **[!UICONTROL Configurações]**: use esse menu para configurar [Eventos](../event/about-events.md), [Fontes de dados](../datasource/about-data-sources.md) e [Ações](../action/action.md) para uso em suas jornadas.
 
-  Você também pode acessar a seção **Relatórios** para configurar relatórios para experimentação de campanha e web/dispositivos móveis. [Saiba mais](../reports/reporting-configuration.md)
+  Você também pode acessar a seção **Relatórios** e configurar relatórios para experimentação de campanha e web/dispositivo móvel. [Saiba mais](../reports/reporting-configuration.md)
 
 * **[!UICONTROL Regras de negócios]**: use esta seção para criar regras de negócios entre canais, a fim de controlar a frequência com que usuários recebem uma mensagem ou entram em uma jornada. [Saiba mais](../configuration/frequency-rules.md)
 
@@ -215,8 +215,8 @@ Para alterar o idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
->title="Limite da regra"
->abstract="Limite da regra"
+>title="Limite de regras"
+>abstract="Limite de regras"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"

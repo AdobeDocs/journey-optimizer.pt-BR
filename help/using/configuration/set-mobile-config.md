@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar dispositivos móveis e Web
-description: Saiba como configurar e monitorar canais móveis e da Web
+title: Configurar dispositivos móveis e a web
+description: Saiba como configurar e monitorar canais móveis e da web
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 20%
 >abstract="O Adobe Experience Platform Assurance está incorporado a este fluxo de trabalho para ajudar você a inspecionar a implementação do SDK, bem como simular e validar eventos de aplicativo."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/home" text="Visão geral do Adobe Experience Platform Assurance"
 
-Essa definição facilita a configuração rápida de canais de marketing, garantindo que todos os recursos necessários estejam prontamente disponíveis na Experience Platform, Journey Optimizer e Coleção de dados. Isso permite que sua equipe de marketing comece com a criação de campanhas e jornadas.
+Essa definição facilita a configuração rápida de canais de marketing, garantindo que todos os recursos necessários estejam prontamente disponíveis na Experience Platform, no Journey Optimizer e na Coleção de dados. Isso permite que sua equipe de marketing comece a criar campanhas e jornadas.
 
-A configuração Canal guiado é compatível com as seguintes plataformas e canais.
+A configuração de canal guiada é compatível com as seguintes plataformas e canais.
 
 * Plataformas e SDKs:
 
@@ -43,20 +43,20 @@ A configuração Canal guiado é compatível com as seguintes plataformas e cana
 
 * Canais:
 
-   * Mobile In-App
+   * Aplicativo móvel
 
-   * Mensagem por push para dispositivo móvel
+   * Mensagem de push para dispositivos móveis
 
-   * Web Basic
+   * Básico para a web
 
 
-Observe que, para cada plataforma que você deseja configurar, é necessário criar uma configuração separada. Isso ocorre porque cada aplicativo requer uma Configuração de canal exclusiva e oferece flexibilidade para determinar quais canais você gostaria de usar em cada plataforma.
+Observe que é necessário criar uma configuração separada para cada plataforma que você deseja configurar. Isso se deve ao fato de que cada aplicativo exige uma configuração de canais exclusiva e garante flexibilidade para determinar quais canais você gostaria de usar em cada plataforma.
 
 ## Pré-requisitos {#prereq}
 
 * Para implementar isso de maneira eficaz, é essencial que um membro da organização com autoridade e capacidade técnica para modificar o site ou o código móvel supervisione a configuração.
 
-  Abaixo estão as permissões necessárias para executar a Configuração de canal guiada.
+  Veja abaixo as permissões necessárias para executar a configuração de canal guiada.
 
 +++ Permissões necessárias
 
@@ -75,7 +75,7 @@ Observe que, para cada plataforma que você deseja configurar, é necessário cr
         <td>
           <ul>
             <li>Direitos da empresa &gt; Propriedades</li>
-            <li>Direitos de propriedade: desenvolver, publicar, gerenciar extensões e ambientes</li>
+            <li>Direitos de propriedade: desenvolver, publicar e gerenciar extensões e ambientes</li>
             <li>Superfícies do aplicativo: gerenciar a configuração do aplicativo</li>
          </ul>
         </td>
@@ -86,7 +86,7 @@ Observe que, para cada plataforma que você deseja configurar, é necessário cr
         </td>
         <td>
         <ul>
-            <li>Coleção de dados: gerenciar fluxos de dados</li>
+            <li>Coleção de dados: gerenciar sequências de dados</li>
            <li>Sandbox: conceder acesso a sandboxes</li>
             <li>Gerenciar segmentos: ler, criar, editar e excluir definições de segmentos</li>
             <li>Gerenciar perfis: ler, criar, editar e excluir perfis</li>
@@ -109,7 +109,7 @@ Observe que, para cada plataforma que você deseja configurar, é necessário cr
 
 +++
 
-* Se você estiver usando a opção Configuração existente, verifique se está usando as seguintes versões de extensão do SDK do Adobe Experience Platform Mobile. Para obter mais detalhes sobre a configuração do SDK, incluindo as dependências e o código de inicialização necessários, consulte a [documentação a seguir](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=en).
+* Se você estiver usando a opção de configuração “Existente”, verifique se está utilizando as seguintes versões de extensão do SDK móvel da Adobe Experience Platform. Para obter mais detalhes sobre a configuração do SDK, incluindo as dependências e o código de inicialização necessários, consulte a [documentação a seguir](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=pt-BR).
 
   Para Android
 
@@ -123,7 +123,7 @@ Observe que, para cada plataforma que você deseja configurar, é necessário cr
 
 ## Recursos criados automaticamente {#auto-create-resources}
 
-A Configuração de canal guiada simplifica a configuração rápida de canais de marketing, disponibilizando prontamente todos os recursos essenciais nos aplicativos Experience Platform, Journey Optimizer e Coleção de dados. Isso permite que sua equipe de marketing comece rapidamente a criar campanhas e jornadas. Veja abaixo uma lista dos recursos que são gerados e configurados automaticamente como parte da Configuração de canal guiada.
+A configuração de canal guiada agiliza a configuração de canais de marketing, disponibilizando prontamente todos os recursos essenciais nos aplicativos da Experience Platform, do Journey Optimizer e da Coleção de dados. Isso permite que sua equipe de marketing comece rapidamente a criar campanhas e jornadas. Veja abaixo uma lista dos recursos que são gerados e configurados automaticamente como parte da configuração de canal guiada.
 
 Navegue pelas guias abaixo para acessar as listas abrangentes de todos os recursos gerados automaticamente:
 
@@ -131,7 +131,7 @@ Navegue pelas guias abaixo para acessar as listas abrangentes de todos os recurs
 
 >[!TAB iOS]
 
-Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os recursos criados na tela **Detalhes da Configuração** quando você clica em **Criar Recursos Automaticamente**.
+Para a **configuração inicial**, veja abaixo uma lista abrangente de todos os recursos criados na tela **Detalhes da configuração** após clicar em **Criar recursos automaticamente**.
 
 <table>
   <thead>
@@ -147,7 +147,7 @@ Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os r
   </td>
   <td>
   <ul>
-  <li>Propriedade da tag móvel</li>
+  <li>Propriedade de tag móvel</li>
   <li>Regras</li>
   <li>Elementos de dados</li>
   <li>Biblioteca</li>
@@ -161,12 +161,12 @@ Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os r
   </td>
   <td>
   <ul>
-  <li>Edge Network Adobe Experience Platform</li>
+  <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
-  <li>Consentimento (com políticas de consentimento padrão ativadas)</li>
-  <li>Identidade (com ECID padrão, com regras de compilação padrão)</li>
-  <li>Núcleo móvel</li>
+  <li>Consentimento (com políticas de consentimento padrão habilitadas)</li>
+  <li>Identidade (com ECID padrão e regras de compilação padrão)</li>
+  <li>Mobile Core</li>
   </ul>
   </td>
   </tr>
@@ -180,7 +180,7 @@ Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os r
   </tr>
   <tr>
   <td>
-  <p>Sequências de dados</p>
+  <p>Sequência de dados</p>
   </td>
   <td>
   <p>Sequência de dados com serviços</p>
@@ -200,7 +200,7 @@ Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os r
   </tbody>
   </table>
 
-Para a **Configuração de canal**, abaixo há uma lista abrangente de todos os recursos criados na tela **Adicionar Canais**.
+Para a **configuração de canal**, veja abaixo uma lista abrangente de todos os recursos criados na tela **Adicionar canais**.
 
 <table>
   <thead>
@@ -216,7 +216,7 @@ Para a **Configuração de canal**, abaixo há uma lista abrangente de todos os 
   </td>
   <td>
   <ul>
-  <li>Configuração de canal</li>
+  <li>Configuração de canais</li>
   <li>Fazer upload da credencial de push (somente mensagem de push para dispositivos móveis)</li>
   </ul>
   </td>
@@ -226,7 +226,7 @@ Para a **Configuração de canal**, abaixo há uma lista abrangente de todos os 
 
 >[!TAB Android]
 
-Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os recursos criados na tela **Detalhes da Configuração** quando você clica em **Criar Recursos Automaticamente**.
+Para a **configuração inicial**, veja abaixo uma lista abrangente de todos os recursos criados na tela **Detalhes da configuração** após clicar em **Criar recursos automaticamente**.
 
 <table>
   <thead>
@@ -242,7 +242,7 @@ Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os r
   </td>
   <td>
   <ul>
-  <li>Propriedade da tag móvel</li>
+  <li>Propriedade de tag móvel</li>
   <li>Regras</li>
   <li>Elementos de dados</li>
   <li>Biblioteca</li>
@@ -256,12 +256,12 @@ Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os r
   </td>
   <td>
   <ul>
-  <li>Edge Network Adobe Experience Platform</li>
+  <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
-  <li>Consentimento (com políticas de consentimento padrão ativadas)</li>
-  <li>Identidade (com ECID padrão, com regras de compilação padrão)</li>
-  <li>Núcleo móvel</li>
+  <li>Consentimento (com políticas de consentimento padrão habilitadas)</li>
+  <li>Identidade (com ECID padrão e regras de compilação padrão)</li>
+  <li>Mobile Core</li>
   </ul>
   </td>
   </tr>
@@ -275,7 +275,7 @@ Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os r
   </tr>
   <tr>
   <td>
-  <p>Sequências de dados</p>
+  <p>Sequência de dados</p>
   </td>
   <td>
   <p>Sequência de dados com serviços</p>
@@ -295,7 +295,7 @@ Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os r
   </tbody>
   </table>
 
-Para a **Configuração de canal**, abaixo há uma lista abrangente de todos os recursos criados na tela **Adicionar Canais**.
+Para a **configuração de canal**, veja abaixo uma lista abrangente de todos os recursos criados na tela **Adicionar canais**.
 
 <table>
   <thead>
@@ -311,7 +311,7 @@ Para a **Configuração de canal**, abaixo há uma lista abrangente de todos os 
   </td>
   <td>
   <ul>
-  <li>Configuração de canal</li>
+  <li>Configuração de canais</li>
   <li>Fazer upload da credencial de push (somente mensagem de push para dispositivos móveis)</li>
   </ul>
   </td>
@@ -321,7 +321,7 @@ Para a **Configuração de canal**, abaixo há uma lista abrangente de todos os 
 
 >[!TAB Web]
 
-Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os recursos criados na tela **Detalhes da Configuração** quando você clica em **Criar Recursos Automaticamente**.
+Para a **configuração inicial**, veja abaixo uma lista abrangente de todos os recursos criados na tela **Detalhes da configuração** após clicar em **Criar recursos automaticamente**.
 
 <table>
   <thead>
@@ -337,7 +337,7 @@ Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os r
   </td>
   <td>
   <ul>
-  <li>Propriedade da tag móvel</li>
+  <li>Propriedade de tag móvel</li>
   <li>Regras</li>
   <li>Elementos de dados</li>
   <li>Biblioteca</li>
@@ -351,12 +351,12 @@ Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os r
   </td>
   <td>
   <ul>
-  <li>Edge Network Adobe Experience Platform</li>
+  <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
-  <li>Consentimento (com políticas de consentimento padrão ativadas)</li>
-  <li>Identidade (com ECID padrão, com regras de compilação padrão)</li>
-  <li>Núcleo móvel</li>
+  <li>Consentimento (com políticas de consentimento padrão habilitadas)</li>
+  <li>Identidade (com ECID padrão e regras de compilação padrão)</li>
+  <li>Mobile Core</li>
   </ul>
   </td>
   </tr>
@@ -370,7 +370,7 @@ Para a **Configuração inicial**, abaixo há uma lista abrangente de todos os r
   </tr>
   <tr>
   <td>
-  <p>Sequências de dados</p>
+  <p>Sequência de dados</p>
   </td>
   <td>
   <p>Sequência de dados com serviços</p>
