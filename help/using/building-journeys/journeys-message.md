@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Ação de canal integrada"
->abstract="O Journey Optimizer vem com recursos de ação de canal incorporados. Você pode simplesmente adicionar, à sua jornada, uma atividade de saída (email, mensagem de texto (SMS/MMS), push) ou de entrada (no aplicativo, Web, experiência baseada em código, cartão de conteúdo) e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
+>abstract="O Journey Optimizer inclui recursos de ação de canal integrada. Você pode simplesmente adicionar à sua jornada uma atividade de saída (email, mensagem de texto (SMS/MMS), push) ou de entrada (no aplicativo, web, experiência baseada em código, cartão de conteúdo) e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
 
-O [!DNL Journey Optimizer] vem com recursos de ação de canal incorporados. Você pode simplesmente adicionar, à sua jornada, uma atividade de saída (email, mensagem de texto (SMS/MMS), push) ou de entrada (no aplicativo, Web, experiência baseada em código, cartão de conteúdo) e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada.
+O [!DNL Journey Optimizer] vem com recursos de ação de canal incorporados. Você pode simplesmente adicionar à sua jornada uma atividade de saída (email, mensagem de texto (SMS/MMS), push) ou de entrada (no aplicativo, web, experiência baseada em código, cartão de conteúdo) e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada.
 
 >[!NOTE]
 >

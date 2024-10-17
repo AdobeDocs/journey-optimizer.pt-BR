@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 O [!DNL Journey Optimizer] permite personalizar a experiência da Web fornecida aos clientes por meio de jornadas ou campanhas de entrada.
 
-## Adicionar uma experiência da Web por meio de uma jornada ou campanha {#create-web-experience}
+## Adicionar uma experiência da web por meio de uma jornada ou campanha {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -97,7 +97,7 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
 >[!ENDTABS]
 
-## Testar a experiência online {#test-web-experience}
+## Testar a experiência da web {#test-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
