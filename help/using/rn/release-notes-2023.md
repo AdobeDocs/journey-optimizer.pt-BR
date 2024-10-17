@@ -11,7 +11,7 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '4377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] lançado em 2023.
 
 
-## Versão de outubro de 23 {#oct-rn-2023}
+## Versão de outubro de 2023 {#oct-rn-2023}
 
 ### Novos recursos{#oct-2023-features}
 
@@ -87,7 +87,7 @@ Esta versão vem com as melhorias listadas abaixo.
 * A duração máxima que você pode definir em qualquer tempo de espera agora é de 29 dias, em vez de 30. Essa melhoria foi introduzida para evitar que a espera exceda os 30 dias de duração da jornada. Isso se aplica a:
 
    * o campo **Quantidade de tempo** na [atividade de espera](../building-journeys/wait-activity.md)
-   * o **Período de espera de reentrada** em [propriedades de jornada](../building-journeys/journey-properties.md#entrance)
+   * o **período de espera de reentrada** em [propriedades da jornada](../building-journeys/journey-properties.md#entrance)
    * o campo **Aguardar por** na definição de tempo limite das [atividades de evento](../building-journeys/general-events.md#events-specific-time).
 
 <!--
@@ -322,7 +322,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## Versão de julho de 23 {#july-rn-2023}
+## Versão de julho de 2023 {#july-rn-2023}
 
 ### Novos recursos{#july-2023-features}
 
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Jornadas**
 
-* O campo **Período de espera de reentrada** foi adicionado às propriedades da jornada. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. [Saiba mais](../building-journeys/journey-properties.md#entrance)
+* O campo **Período de espera de reentrada** foi adicionado às propriedades da jornada. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. [Saiba mais](../building-journeys/journey-properties.md#entrance)
 
 * Foram realizadas melhorias nas **datas de início e término da jornada**. Se você não tiver especificado uma data de início, ela agora será adicionada automaticamente no momento da publicação. Agora é possível adicionar uma data final para jornadas de **Público-alvo de leitura**. Isso permite que os perfis saiam automaticamente quando a data for atingida. [Saiba mais](../building-journeys/journey-gs.md#dates)
 

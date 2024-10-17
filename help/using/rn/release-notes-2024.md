@@ -11,13 +11,13 @@ exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '3842'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Notas de versão de 2024 {#release-notes-2024}
 
-Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] lançado em 2024.
+Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lançado em 2024.
 
 
 ## Versão de agosto de 2024 {#8-2024}
@@ -148,7 +148,7 @@ Essa versão traz as melhorias listadas abaixo.
 
 
 
-## Versão de julho de 24 {#24-7-2024}
+## Versão de julho de 2024 {#24-7-2024}
 
 **Data de lançamento**: 30 a 31 de julho de 2024
 
@@ -268,7 +268,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>Agora ficou mais fácil criar conteúdo em vários idiomas em uma única campanha ou jornada. Com esse recurso, é possível alternar entre idiomas ao editar a campanha ou a jornada, simplificando todo o processo de edição e melhorando sua capacidade de gerenciar com eficiência o conteúdo multilíngue.</p>
-<p>No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+<p>No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -285,7 +285,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>Já disponível em campanhas, o Adobe Journey Optimizer agora oferece suporte a experimentos em jornadas. Experimentos são ensaios aleatórios, o que, no contexto de testes online, significa que você expõe alguns usuários selecionados aleatoriamente a uma determinada variação de uma mensagem e outro conjunto de usuários selecionados aleatoriamente a outra variação ou tratamento. Após a exposição, é possível medir as métricas de resultado em que está interessado, como abertura de emails, assinaturas ou compras.</p>
-<p>No momento, a experimentação em jornadas está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+<p>No momento, a experimentação em jornadas está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -393,7 +393,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>A Escolha de experiências simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.</p>
-<p>Esses itens de decisão são perfeitamente integrados em uma grande variedade de configurações de entrada por meio do novo canal de experiência baseado em código, agora acessível em campanhas do Journey Optimizer. As políticas de decisão da Escolha de experiências estão disponíveis para uso somente em campanhas de experiência baseadas em código.</p>
+<p>Esses itens de decisão são perfeitamente integrados a uma ampla variedade de configurações de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer. As políticas de decisão da Escolha de experiências estão disponíveis para uso somente em campanhas de experiência baseadas em código.</p>
 <p>No momento, a Escolha de experiências está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Para obter mais informações, consulte a <a href="../experience-decisioning/gs-experience-decisioning.md">documentação detalhada</a>.</p>
@@ -405,14 +405,14 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Personalização de configuração de email - Disponibilidade limitada</strong><br/></th>
+<th><strong>Personalização da configuração de email – Disponibilidade limitada</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível definir subdomínios dinâmicos e parâmetros de cabeçalho personalizados ao criar configurações de canal de email, para aumentar a flexibilidade e o controle sobre suas configurações de email.</p>
-<p>No momento, a personalização da configuração de email está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.</p>
+<p>Agora você pode definir subdomínios dinâmicos e parâmetros de cabeçalho personalizados ao criar configurações de canais de email, para aumentar a flexibilidade e o controle sobre suas configurações de email.</p>
+<p>No momento, a personalização da configuração de email está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../email/surface-personalization.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -619,9 +619,9 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Configuração**
 
-* Agora você pode selecionar uma ação de marketing no nível de configuração de canal. Quando usadas em uma configuração, todas as políticas de consentimento associadas a essa ação de marketing são aproveitadas para respeitar as preferências dos clientes. [Leia mais](../action/consent.md#surface-marketing-actions)
+* Agora é possível selecionar uma ação de marketing no nível da configuração de canais. Quando usadas em uma configuração, todas as políticas de consentimento associadas a essa ação de marketing são aproveitadas para respeitar as preferências dos seus clientes. [Leia mais](../action/consent.md#surface-marketing-actions)
 * O uso do Controle de acesso em nível de objeto agora está disponível para configurações de canal. [Leia mais](../configuration/channel-surfaces.md#create-channel-surface)
-* Ao ativar o cancelamento de inscrição em uma configuração de canal, agora é possível definir o nível de consentimento para se alinhar à forma como você gerencia o consentimento de todas as outras fontes. [Leia mais](../email/email-settings.md#list-unsubscribe)
+* Ao habilitar o cancelamento de inscrição da lista em uma configuração de canais, agora é possível definir o nível de consentimento para se alinhar à forma como você gerencia o consentimento de todas as outras fontes. [Leia mais](../email/email-settings.md#list-unsubscribe)
 
 **Gestão de conteúdo**
 

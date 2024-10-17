@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
 source-wordcount: '2136'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 93%
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
       + [Simular a jornada](using/building-journeys/journey-simulation.md)
       + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
-      + [Relatório ao vivo na sua jornada](using/building-journeys/report-journey.md)
+      + [Relatório em tempo real na sua jornada](using/building-journeys/report-journey.md)
    + Gerenciar suas jornadas{#manage-journey}
       + [Gerenciamento de entrada de perfis](using/building-journeys/entry-management.md)
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
@@ -267,7 +267,7 @@ ht-degree: 93%
    + Criação de páginas da web {#author-web-pages}
       + [Editar conteúdo da página da Web](using/web/edit-web-content.md)
       + [Gerenciar modificações](using/web/manage-web-modifications.md)
-      + [Monitorar suas experiências na Web](using/web/monitor-web-experiences.md)
+      + [Monitorar suas campanhas da Web](using/web/monitor-web-experiences.md)
       + [Criar aplicativos de página única](using/web/web-spa.md)
 + Experiência baseada em código {#code-based-experience}
    + [Introdução ao canal baseado em código](using/code-based/get-started-code-based.md)

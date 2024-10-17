@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
 source-wordcount: '5672'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -29,16 +29,16 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Setembro de 2024 {#sept-2024}
 
-* Todos os novos recursos e aprimoramentos da versão de setembro de 2024 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
-* Adição de uma seção sobre o gerenciamento de novas tentativas do jornada. [Leia mais](../building-journeys/read-audience.md#read-audience-retry)
-* As Perguntas frequentes sobre a regra de limitação/limitação para ações personalizadas foram atualizadas para mencionar a regra de limitação padrão. [Leia mais](../configuration/external-systems.md#faq)
-* A seção Controlar acesso foi atualizada com permissões relacionadas ao Gerador de conteúdo do assistente de IA. [Leia mais](../administration/high-low-permissions.md#ai-permission)
+* Todos os novos recursos e aprimoramentos da versão de 24 de setembro do [!DNL Journey Optimizer] estão detalhados na documentação. [Leia mais](release-notes.md)
+* Adição de uma seção sobre o gerenciamento de novas tentativas de jornada. [Leia mais](../building-journeys/read-audience.md#read-audience-retry)
+* Atualização das perguntas frequentes sobre a regra de limitação para ações personalizadas, a fim de mencionar a regra de limitação padrão. [Leia mais](../configuration/external-systems.md#faq)
+* Atualização da seção Controlar acesso com a adição de permissões relacionadas ao Gerador de conteúdo do assistente de IA. [Leia mais](../administration/high-low-permissions.md#ai-permission)
 * Um vídeo sobre o Gerador de conteúdo do assistente de IA para geração de email foi adicionado. [Leia mais](../content-management/generative-email.md#video)
 
 
 ## Agosto de 2024 {#aug-2024}
 
-* Todos os novos recursos e aprimoramentos da versão de agosto de 2024 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
+* Todos os novos recursos e melhorias presentes no lançamento de agosto de 2024 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * As medidas de proteção de desempenho para a Gestão de decisões foram atualizadas para mencionar as taxas de transferência de entrega das APIs de decisão com ou sem a segmentação do Edge. [Leia mais](../start/guardrails.md#decision-management)
 * As medidas de proteção da jornada foram atualizadas. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 
@@ -186,7 +186,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 ## Julho de 2023 {#july-2023}
 
 * Todos os novos recursos e aprimoramentos da versão de 23 de julho do [!DNL Journey Optimizer] estão detalhados na documentação. [Leia mais](release-notes.md)
-* A página de documentação da atividade de espera foi aprimorada com informações adicionais e práticas recomendadas relacionadas ao tempo limite global e ao uso de reentrada. [Leia mais](../building-journeys/wait-activity.md)
+* Atualização da página de documentação da atividade de espera com informações adicionais e práticas recomendadas relacionadas ao tempo-limite global e ao uso de reentrada. [Leia mais](../building-journeys/wait-activity.md)
 * A página sobre o gerenciamento de entradas foi aprimorada. [Leia mais](../building-journeys/entry-management.md)
 * Adição de mais informações sobre a taxa de limitação na documentação de atividade do público-alvo de leitura. [Leia mais](../building-journeys/read-audience.md)
 * Foram adicionadas informações adicionais sobre novas tentativas. [Leia mais](../start/guardrails.md#general-actions-g)
