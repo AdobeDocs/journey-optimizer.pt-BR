@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
+source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2135'
 ht-degree: 95%
 
 ---
@@ -384,8 +384,8 @@ ht-degree: 95%
       + [Relatório em tempo real da campanha](using/reports/campaign-live-report.md)
       + [Relatório em tempo real da página de destino](using/reports/lp-report-live.md)
       + [Relatório em tempo real da lista de assinaturas](using/reports/subscription-report-live.md)
-   + relatórios de Customer Journey Analytics{#channel-report}
-      + [Introdução aos relatórios de Customer Journey Analytics](using/reports/report-gs-cja.md)
+   + Experiência de relatório atualizada{#channel-report}
+      + [Introdução à experiência de relatórios atualizada](using/reports/report-gs-cja.md)
       + [Configurar o Customer Journey Analytics manualmente](using/reports/cja-ajo.md)
       + [Gerenciar seus relatórios](using/reports/report-cja-manage.md)
       + [Pré-requisitos de relatórios e experimentação](using/reports/reporting-configuration.md)
@@ -413,7 +413,7 @@ ht-degree: 95%
       + [Relatório de visão geral](using/reports/channel-report-cja.md)
       + [Relatório de páginas de destino](using/reports/lp-report-global-cja.md)
       + [Relatório da lista de assinaturas](using/reports/subscription-report-global-cja.md)
-   + Painel de relatórios anterior {#reports}
+   + Experiência de relatório anterior {#reports}
       + Relatório global {#global-report}
          + [Introdução aos relatórios globais](using/reports/global-report.md)
          + [Lista de componentes](using/reports/global-report-components.md)
