@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 95%
+source-wordcount: '1671'
+ht-degree: 47%
 
 ---
 
@@ -21,47 +21,13 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 **As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**.  Links, telas e a documentação atualizada são publicados nas [notas de versão](release-notes.md), na data de lançamento.
 
-## Notas de versão antecipadas de setembro de 2024 {#e-2024}
+## Notas de versão antecipadas de outubro de 2024 {#e-2024}
 
-**Data de lançamento**: 24 a 25 de setembro de 2024
+**Data de lançamento**: 29 a 30 de outubro de 2024
 
 ### Novos recursos {#e-features}
 
 Essa versão traz os novos recursos detalhados abaixo.
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
-<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Aprovações em jornadas e campanhas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Com as políticas de aprovação, agora é possível configurar um processo de aprovação no Journey Optimizer que permite que as equipes de marketing garantam que as campanhas e jornadas sejam revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -80,53 +46,38 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Critérios de saída globais em jornadas</strong><br/></th>
+<th><strong>Aprovações em jornadas e campanhas (Disponibilidade geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você define critérios de saída em nível de jornada. Ao adicionar critérios de saída, você faz com que os perfis saiam da jornada assim que um evento ocorrer (por exemplo: Compra) ou eles se qualificarem para um público-alvo. Isso impedirá que o usuário obtenha mais comunicações da jornada.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Com as políticas de aprovação, agora é possível configurar um processo de aprovação no Journey Optimizer para que as equipes de marketing garantam que as campanhas e jornadas sejam revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas.</p>
+<p>Anteriormente disponível para um conjunto de organizações (DL), as políticas de aprovação agora estão disponíveis para todos os usuários (DG).</p>
+<p>Para obter mais informações, consulte a <a href="../test-approve/gs-approval.md">documentação detalhada</a>.</p>
+<img src="assets/do-not-localize/approval.gif"/>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Code-based experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
 
 <table>
 <thead>
 <tr>
-<th><strong>Acelerador de conteúdo do Assistente de IA </strong><br/></th>
+<th><strong>Personalização da configuração de email (disponibilidade geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Depois de criar e personalizar sua mensagem, leve seu conteúdo ao próximo nível com o Acelerador de conteúdo do assistente de IA no Journey Optimizer. Agora você pode usar o Assistente de IA para otimizar o impacto da mensagem fazendo experimentos com diferentes títulos principais e imagens. Cada variante é administrada como um tratamento exclusivo, para medir e comparar qual título gera efetivamente mais cliques.</p>
-<p>Mergulhe em uma experiência prática com a <a href="https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator">nossa prévia de recursos</a>, projetada para ajudar você a conhecer os recursos em primeira mão e entender totalmente suas funcionalidades</a>.</p>
-<p>Para obter mais informações, consulte a <a href="../content-management/gs-generative.md">documentação detalhada</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/>
-<p>Data de disponibilidade: 12 de setembro</p>
+<p>Agora você pode definir subdomínios dinâmicos e parâmetros de cabeçalho personalizados ao criar configurações de canais de email, para aumentar a flexibilidade e o controle sobre suas configurações de email.</p>
+<p>Anteriormente disponível para um conjunto de organizações (DL), a personalização da configuração de email agora está disponível para todos os usuários (GA).</p>
+<p>Para obter mais informações, consulte a <a href="../email/surface-personalization.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -135,78 +86,214 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Configuração de canal guiada</strong><br/></th>
+<th><strong>Modo de edição não visual para o web designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A Configuração de canal guiada permite automatizar e validar a configuração do canal em uma experiência unificada, acelerando o processo de introdução ao Journey Optimizer. Essa nova configuração guiada simplifica a configuração rápida do canal, garantindo que todos os recursos necessários sejam instalados e funcionem na Experience Platform, no Journey Optimizer e na Coleção de dados. Isso permite que as equipes engenharia de marketing, de produtos e de dados comecem rapidamente com a criação de campanhas e jornadas.</p>
-<p>Para obter mais informações, consulte a <a href="../configuration/set-mobile-config.md">documentação detalhada</a>.</p>
-<img src="assets/do-not-localize/guided-setup.gif"/>
-<p>Data de disponibilidade: 3 de setembro</p>
-</br>
+<p>Como alternativa ao web designer do Journey Optimizer, agora é possível adicionar modificações ao seu site usando um editor não visual. Ela permite inserir as alterações manualmente sem abrir as páginas no editor visual.
+Esse modo de edição não visual é útil se você não puder instalar extensões de navegador, como o Adobe Experience Cloud Visual Helper, que é necessário para carregar suas páginas no web designer.</p>
+<!--p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Integração de tinta móvel e Adobe Journey Optimizer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível integrar o Movable Ink Da Vinci e o Adobe Journey Optimizer. Com essa nova integração, você pode: </p>
+<p><ul><li>Aproveite os recursos avançados do produto Da Vinci da Movable Ink para reunir e personalizar variações de email para campanhas em lote</li>
+<li>Acelere os fluxos de trabalho do profissional para clientes do Journey Optimizer que usam Da Vinci para criação e o AJO para otimização e entrega</li>
+<li>Otimizar modelos Da Vinci com dados de Adobe.</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Experimentação em jornadas (disponibilidade geral)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Já disponível em campanhas, o Adobe Journey Optimizer agora oferece suporte a experimentos em jornadas. Experimentos são ensaios aleatórios, o que, no contexto de testes online, significa que você expõe alguns usuários selecionados aleatoriamente a uma determinada variação de uma mensagem e outro conjunto de usuários selecionados aleatoriamente a outra variação ou tratamento. Após a exposição, é possível medir as métricas de resultado em que está interessado, como abertura de emails, assinaturas ou compras.</p>
+<p>Anteriormente disponível para um conjunto de organizações (DL), os experimentos em jornadas agora estão disponíveis para todos os usuários (DG).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Regras comerciais (Disponibilidade geral)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível criar regras granulares de limite de frequência e aplicá-las a diferentes tipos de comunicações de marketing por meio de conjuntos de regras. Esse novo recurso permite controlar a frequência com que seus públicos-alvo recebem uma mensagem definindo regras entre canais que excluem automaticamente perfis excessivamente solicitados de mensagens e ações.</p>
+<p>Anteriormente disponíveis para um conjunto de organizações (DL), os conjuntos de regras agora estão disponíveis para todos os usuários (DG).</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Mensagens multilíngues em jornadas e campanhas (Disponibilidade geral)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora ficou mais fácil criar conteúdo em vários idiomas em uma única campanha ou jornada. Com esse recurso, é possível alternar entre idiomas ao editar a campanha ou a jornada, simplificando todo o processo de edição e melhorando sua capacidade de gerenciar com eficiência o conteúdo multilíngue.</p>
+<p>Anteriormente disponíveis para um conjunto de organizações (DL), as mensagens multilíngues agora estão disponíveis para todos os usuários (DG).</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Experiência de relatório atualizada (disponibilidade geral)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os relatórios do Journey Optimizer agora estão disponíveis no mercado (GA) e vêm com uma interoperabilidade melhorada com recursos Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados. Essa integração perfeita entre o Journey Optimizer e o Customer Journey Analytics fornece uma visão mais clara das métricas de desempenho, permitindo que os usuários tomem decisões mais conscientes.</p>
+<p>Com a disponibilidade geral, quatro novos recursos são introduzidos: a capacidade de criar métricas simples, criar e publicar públicos, fazer perguntas ad hoc usando o Insight Builder e agendar relatórios para serem enviados automaticamente por email aos principais destinatários.</p>
+<p>Para obter mais informações, consulte a <a href="../reports/report-cja-manage.md">documentação detalhada</a>.</p>
+<img src="assets/do-not-localize/ajo-cja.gif">
+<p>Data de disponibilidade: 16 de outubro de 2024</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Experiências com base em código em jornadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Com o novo canal de experiência com base em código, o Adobe Journey Optimizer permite realizar personalização e testes avançados para qualquer uma de suas propriedades de entrada. Isso possibilita a entrega perfeita de experiências personalizadas em diversos pontos de contato, como aplicativos Web, aplicativos móveis, aplicativos para desktop, consoles de vídeo, dispositivos conectados à TV, smart TVs, quiosques, caixas eletrônicos, dispositivos IoT, entre outros. O canal de experiência com base em código agora está disponível na tela da jornada.</p>
+<p>Para obter mais informações, consulte a <a href="../code-based/create-code-based.md">documentação detalhada</a>.</p>
+<img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>Data de disponibilidade: 1º de outubro de 2024</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Experiências da Web em jornadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Com o canal da Web, o Adobe Journey Optimizer permite personalizar a experiência da Web fornecida aos clientes por meio de jornadas da Web de entrada. O canal da Web agora está disponível na tela da jornada.</p>
+<p>Para obter mais informações, consulte a <a href="../web/create-web.md">documentação detalhada</a>.</p>
+<img src="../assets/do-not-localize/web-journey.gif"/>
+<p>Data de disponibilidade: 1º de outubro de 2024</p>
+</tr>
+</tbody>
+</table>
+
+>[!IMPORTANT]
+>
+>A experiência atual de relatórios será removida a partir de janeiro de 2025. Após essa data, a nova experiência de relatórios se tornará o padrão. Recomendamos que você se familiarize com os novos recursos e funcionalidades para garantir uma transição tranquila.
+>
+> [Saiba como começar a usar a nova interface de relatórios do Journey Optimizer](../reports/report-gs-cja.md)
+
 
 ### Melhorias {#e-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
-**Públicos-alvo**
+**Canal SMS**
 
-* O uso de públicos-alvo a partir de uploads personalizados (arquivo CSV) agora está disponível para uso com o complemento Privacy and Security Shield.
-  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
-* (Data de disponibilidade: 17 de setembro) **Uso da licença**: o painel Uso de licença agora mostra os Perfis engajáveis, em vez dos Públicos-alvo engajáveis. [Saiba mais](../audience/license-usage.md)
+Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
-**Governança de dados**
+* Você pode definir e gerenciar palavras-chave exclusivas para suas campanhas e jornadas de SMS, permitindo uma comunicação mais personalizada e eficiente.
+* Você pode criar e enviar uma mensagem SMS padrão quando uma palavra-chave não é reconhecida.
 
-* Agora é possível aplicar políticas de governança de dados a canais do Journey Optimizer, além de ações personalizadas nas jornadas. Esse aprimoramento ajuda a impedir o uso de campos confidenciais em comunicações aplicando ações de marketing diretamente nas configurações do canal.
+**Gerenciamento de frequência e prioridade**
 
-<!--
-**Frequency and priority management**
+* **Limite de frequência por campanha ou jornada** - Agora é possível criar regras de frequência para aplicar às suas jornadas, permitindo limitar o número de jornadas por dia, semana ou mês, bem como controlar o número de jornadas simultâneas executadas simultaneamente.
 
-* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
+* **Pontuação de prioridade** - Agora é possível atribuir uma pontuação de prioridade a uma campanha ou jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas campanhas ou jornadas usam a mesma superfície, o Journey Optimizer selecionará aquela com a pontuação de prioridade mais alta. Se as campanhas tiverem a mesma pontuação, a campanha modificada mais recentemente será escolhida. A pontuação de prioridade está disponível para todos os canais de entrada em campanhas e para o canal no aplicativo no jornada.
 
-* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
+* **Exibir conflitos** - Um novo botão **Exibir conflitos** em jornadas e campanhas agora permite que você verifique sempre que houver uma possibilidade de sobreposição com outras jornadas ou campanhas, como a data de início, o público-alvo ou a configuração de canal selecionada.
 
-* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
--->
+**Gestão de decisões**
 
+* **Auditorias** - A guia **Log de alterações**, que permite ver todas as alterações feitas em uma oferta ou em uma decisão, foi removida. As alterações relacionadas a ofertas e decisões agora podem ser vistas no menu **Auditorias**.
+
+
+**Configuração**
+
+* **Personalização da superfície** - Ao usar uma configuração personalizada em uma campanha ou jornada, agora você pode visualizar seu conteúdo de email para verificar possíveis erros com as configurações dinâmicas definidas.
 
 **Jornadas**
 
-* **Número máximo de jornadas ativas**: o Journey Optimizer agora tem uma medida de proteção de 500 jornadas ativas em sandboxes de produção, em vez de 100. O número de jornadas ativas é visível na tela de jornadas.
+* **Experimento de caminho no jornada** - Com o experimento de caminho de jornada, agora é possível definir e rastrear métricas principais para seus caminhos de jornada, permitindo medir o impacto de suas atividades e fornecer insights mais claros sobre o desempenho.
 
-* **Aprimoramentos nos relatórios em tempo real**: os relatórios em tempo real fornecem insights do desempenho das suas jornadas nas últimas 24 horas. Aprimoramos esse processo adicionando novas métricas (perfis inseridos, encerrados, descartados e com erro), que permitem obter uma compreensão mais profunda do comportamento e do desempenho do usuário diretamente da tela de Jornada.
+* **Número máximo de jornadas ativas**: o Journey Optimizer agora tem uma medida de proteção de 500 jornadas ativas em sandboxes de produção, em vez de 100. O número de jornadas ativas é visível na tela de jornada. <!-- DOCAC-10977-->
 
-* **Parâmetros em ações personalizadas**: agora parâmetros NULL e opcionais são compatíveis com as ações personalizadas.
+* **Grade de proteção de tempo de vida** - A partir de 1º de novembro de 2024, uma grade de proteção de tempo de vida (TTL) será aplicada aos conjuntos de dados gerados pelo sistema da Journey Optimizer da seguinte maneira:
 
-* (Data de disponibilidade: 10 de setembro) **Novas tentativas automáticas em públicos-alvo de leitura**: as novas tentativas agora são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **Público-alvo de leitura** ou um **Evento de negócios**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado. [Saiba mais](../building-journeys/read-audience.md#retries)
+   * 90 dias para dados no armazenamento de perfil
+   * 13 meses para dados no data lake
 
-**Canal de email**
+Além disso, nesse momento, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos de envio e feedback de conjuntos de dados de rastreamento e feedback. Temos recomendado por algum tempo para não usar esses eventos para segmentação de transmissão e agora vamos desativá-los completamente.
 
-* **Cabeçalho da mensagem CCO**: um novo cabeçalho foi adicionado a todas as mensagens de email. O valor desse cabeçalho é exclusivo para cada email enviado e sua cópia de email CCO correspondente. Esse cabeçalho também é armazenado nos conjuntos de dados de mensagem e feedback CCO, o que permite reconciliar a cópia CCO e as informações de email enviado correspondentes.
-* **Pontuação de spam** (Disponibilidade geral): agora é possível verificar sua pontuação de spam de conteúdo em um relatório dedicado. Com o SpamAssassin, o Adobe Journey Optimizer testa seu conteúdo de email e atribui uma pontuação para indicar se os ISPs ou provedores de caixa de correio o consideram como spam ou não. [Leia mais](../content-management/spam-report.md)
+* Essa alteração restringe apenas o uso de eventos de envio/abertura na segmentação por transmissão; eventos de clique ainda podem ser usados em um segmento de transmissão. Além disso, os eventos de envio/abertura ainda podem ser usados em um segmento em lote.
+* Os dados de rastreamento ainda serão coletados. Essa alteração não afeta o rastreamento. Você ainda pode rastrear para quem um email foi enviado e quem clicou em um email.
+* Os eventos de reação nas Jornadas não são afetados por essa alteração.
 
-**Canal SMS**
+* **Parâmetros em ações personalizadas** (Data de disponibilidade: 3 de outubro de 2024) - agora há suporte para parâmetros NULL e opcionais em ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-* Agora é possível modificar as configurações de SMS já existentes.
+**Políticas de governança de dados e consentimento** - Data de disponibilidade: 7 de outubro de 2024
 
-**APIs**
+* A aplicação das **políticas de governança de dados** agora ocorre em todos os canais do Journey Optimizer. Para clientes que criaram políticas na Adobe Experience Platform, elas são aplicadas a ações de marketing como parte da definição das configurações de canal. Ao criar conteúdo usando uma configuração, o sistema verifica todos os campos de personalização para verificar se há violações de governança de dados. Se uma violação for encontrada, não será possível publicar uma jornada ou campanha. [Saiba mais](../action/action-privacy.md)
 
-* A [documentação da API do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} agora é interativa. Explore os pontos de acesso da API diretamente nas páginas de documentação para obter feedback imediato e acelerar sua implementação técnica.
+* **As políticas de consentimento personalizadas** agora se aplicam a todos os canais do Journey Optimizer. Na aplicação, antes de uma mensagem ser enviada ou uma experiência de entrada ser entregue, o sistema verifica se o usuário deu consentimento para usar campos de personalização no conteúdo que receberá. Se nenhum consentimento for dado, a experiência não será exibida. [Saiba mais](../action/consent.md)
 
-  Todas as páginas de referência da API agora têm uma funcionalidade **Experimente** que você pode usar para testar chamadas de API diretamente na página do site de documentação. [Obtenha as credenciais de autenticação necessárias](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} e comece a usar a funcionalidade para explorar os pontos de acesso da API.
-
-  Use esta nova funcionalidade para explorar as solicitações e as respostas dos pontos de acesso da API para obter feedback imediato e acelerar sua implementação técnica.
-
-  >[!CAUTION]
+  >[!NOTE]
   >
-  >Observe que ao usar a funcionalidade de API interativa nas páginas de documentação, você está fazendo chamadas de API reais para os pontos de acesso. Lembre-se disso ao testar sandboxes de produção.
+  >Atualmente, as políticas de consentimento estão disponíveis apenas para as organizações que compraram as ofertas complementares do Adobe **Healthcare Shield** ou do **Privacy and Security Shield** .
+
+**Públicos-alvo** - Data de disponibilidade: 8 de outubro de 2024
+
+* Ao direcionar um público-alvo de arquivo CSV, agora é possível usar atributos do arquivo no editor de personalização e no construtor de regras de jornadas e campanhas. [Saiba mais](../audience/about-audiences.md)
+
+* O uso de públicos-alvo e de atributos dos uploads personalizados (arquivos CSV) está atualmente indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 
 
-* **API de simulação de campanha**: use esta API para acionar o trabalho de prova de uma campanha. O envio de uma Prova de campanha é um processo assíncrono, a API retornará uma proofJobId que pode ser usada para verificar o status da prova. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
