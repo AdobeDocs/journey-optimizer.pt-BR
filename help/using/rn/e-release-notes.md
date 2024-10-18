@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
+source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
 workflow-type: tm+mt
-source-wordcount: '1671'
-ht-degree: 47%
+source-wordcount: '1672'
+ht-degree: 46%
 
 ---
 
@@ -100,26 +100,6 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 </tbody>
 </table>
 
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Integração de tinta móvel e Adobe Journey Optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível integrar o Movable Ink Da Vinci e o Adobe Journey Optimizer. Com essa nova integração, você pode: </p>
-<p><ul><li>Aproveite os recursos avançados do produto Da Vinci da Movable Ink para reunir e personalizar variações de email para campanhas em lote</li>
-<li>Acelere os fluxos de trabalho do profissional para clientes do Journey Optimizer que usam Da Vinci para criação e o AJO para otimização e entrega</li>
-<li>Otimizar modelos Da Vinci com dados de Adobe.</li></ul></p>
-<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
@@ -172,20 +152,39 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Experiência de relatório atualizada (Disponibilidade geral)</strong><br/>Disponível desde 16 de outubro de 2024<br/></th>
+<th><strong>Integração de tinta móvel e Adobe Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>Agora é possível integrar o Movable Ink Da Vinci e o Adobe Journey Optimizer. Com essa nova integração, você pode: </p>
+<p><ul><li>Aproveite os recursos avançados do produto Da Vinci da Movable Ink para reunir e personalizar variações de email para campanhas em lote</li>
+<li>Acelere os fluxos de trabalho do profissional para clientes do Journey Optimizer que usam Da Vinci para criação e o AJO para otimização e entrega</li>
+<li>Otimizar modelos Da Vinci com dados de Adobe.</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Experiência de relatório atualizada (disponibilidade geral)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Disponível desde 16 de outubro de 2024</p>
 <p>Os relatórios do Journey Optimizer agora estão disponíveis no mercado (GA) e vêm com uma interoperabilidade melhorada com recursos Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados. Essa integração perfeita entre o Journey Optimizer e o Customer Journey Analytics fornece uma visão mais clara das métricas de desempenho, permitindo que os usuários tomem decisões mais conscientes.</p>
 <p>Com a disponibilidade geral, quatro novos recursos são introduzidos: a capacidade de criar métricas simples, criar e publicar públicos, fazer perguntas ad hoc usando o Insight Builder e agendar relatórios para serem enviados automaticamente por email aos principais destinatários.</p>
 <p>Para obter mais informações, consulte a <a href="../reports/report-cja-manage.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
+<p>Importante: a experiência atual de relatórios será removida a partir de janeiro de 2025. Após essa data, a nova experiência de relatórios se tornará o padrão. Recomendamos que você se familiarize com os novos recursos e funcionalidades para garantir uma transição suave. <a href="../reports/report-gs-cja.md">Saiba como começar a usar a nova interface de relatórios do Journey Optimizer</a></p>
 </tr>
 </tbody>
 </table>
@@ -199,10 +198,10 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 <tbody>
 <tr>
 <td>
+<p>Disponível desde 1 de outubro de 2024</p>
 <p>Com o novo canal de experiência com base em código, o Adobe Journey Optimizer permite realizar personalização e testes avançados para qualquer uma de suas propriedades de entrada. Isso possibilita a entrega perfeita de experiências personalizadas em diversos pontos de contato, como aplicativos Web, aplicativos móveis, aplicativos para desktop, consoles de vídeo, dispositivos conectados à TV, smart TVs, quiosques, caixas eletrônicos, dispositivos IoT, entre outros. O canal de experiência com base em código agora está disponível na tela da jornada.</p>
 <p>Para obter mais informações, consulte a <a href="../code-based/create-code-based.md">documentação detalhada</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>Data de disponibilidade: 1º de outubro de 2024</p>
 </tr>
 </tbody>
 </table>
@@ -216,20 +215,13 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 <tbody>
 <tr>
 <td>
+<p>Disponível desde 1 de outubro de 2024</p>
 <p>Com o canal da Web, o Adobe Journey Optimizer permite personalizar a experiência da Web fornecida aos clientes por meio de jornadas da Web de entrada. O canal da Web agora está disponível na tela da jornada.</p>
 <p>Para obter mais informações, consulte a <a href="../web/create-web.md">documentação detalhada</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>Data de disponibilidade: 1º de outubro de 2024</p>
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->A experiência atual de relatórios será removida a partir de janeiro de 2025. Após essa data, a nova experiência de relatórios se tornará o padrão. Recomendamos que você se familiarize com os novos recursos e funcionalidades para garantir uma transição tranquila.
->
-> [Saiba como começar a usar a nova interface de relatórios do Journey Optimizer](../reports/report-gs-cja.md)
-
 
 ### Melhorias {#e-improvements}
 
@@ -270,11 +262,11 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
    * 90 dias para dados no armazenamento de perfil
    * 13 meses para dados no data lake
 
-Além disso, nesse momento, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos de envio e feedback de conjuntos de dados de rastreamento e feedback. Temos recomendado por algum tempo para não usar esses eventos para segmentação de transmissão e agora vamos desativá-los completamente.
+  Além disso, nesse momento, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos de envio e feedback de conjuntos de dados de rastreamento e feedback. Temos recomendado por algum tempo para não usar esses eventos para segmentação de transmissão e agora vamos desativá-los completamente.
 
-* Essa alteração restringe apenas o uso de eventos de envio/abertura na segmentação por transmissão; eventos de clique ainda podem ser usados em um segmento de transmissão. Além disso, os eventos de envio/abertura ainda podem ser usados em um segmento em lote.
-* Os dados de rastreamento ainda serão coletados. Essa alteração não afeta o rastreamento. Você ainda pode rastrear para quem um email foi enviado e quem clicou em um email.
-* Os eventos de reação nas Jornadas não são afetados por essa alteração.
+   * Essa alteração restringe apenas o uso de eventos de envio/abertura na segmentação por transmissão; eventos de clique ainda podem ser usados em um segmento de transmissão. Além disso, os eventos de envio/abertura ainda podem ser usados em um segmento em lote.
+   * Os dados de rastreamento ainda serão coletados. Essa alteração não afeta o rastreamento. Você ainda pode rastrear para quem um email foi enviado e quem clicou em um email.
+   * Os eventos de reação nas Jornadas não são afetados por essa alteração.
 
 * **Parâmetros em ações personalizadas** (Data de disponibilidade: 3 de outubro de 2024) - agora há suporte para parâmetros NULL e opcionais em ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
