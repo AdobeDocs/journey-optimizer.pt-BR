@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 30%
+source-wordcount: '1558'
+ht-degree: 28%
 
 ---
 
@@ -28,8 +28,8 @@ Uma configuração de experiência baseada em código deve fazer referência à 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Insira o local específico"
->abstract="Este campo especifica o destino exato na página ou no aplicativo que você deseja que os usuários acessem. Pode ser uma seção ou página específica na profundidade da estrutura de navegação."
+>title="Indique o local específico dentro da página ou aplicativo"
+>abstract="Este campo especifica o destino exato em uma página ou no aplicativo que você deseja que os usuários acessem. Pode ser uma seção específica dentro de uma página da Web ou uma página profunda na estrutura de navegação do aplicativo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -108,7 +108,7 @@ Para definir as configurações de experiência baseada em código para platafor
 
      ![](assets/code_config_matching_rules_preview.png)
 
-1. O campo **[!UICONTROL Local na página]** especifica o destino exato no site que você deseja que os usuários acessem. Pode ser uma seção ou página específica na profundidade da estrutura de navegação do site.
+1. O campo **[!UICONTROL Local na página]** especifica o destino exato dentro da página que você deseja que os usuários acessem. Pode ser uma seção específica em uma página na estrutura de navegação do site, como &quot;banner principal&quot; ou &quot;painel do produto&quot;.
 
    ![](assets/code_config_location_on_page.png)
 
@@ -128,7 +128,7 @@ Para definir as configurações de experiência baseada em código para platafor
 
 1. Insira sua **[!UICONTROL ID do aplicativo]**. Isso permite a identificação e a configuração precisas no ambiente operacional do aplicativo e garante integração e funcionalidade perfeitas.
 
-1. Forneça o **[!UICONTROL Local ou caminho dentro do aplicativo]**. Este campo especifica o destino exato no aplicativo que você deseja que os usuários acessem. Pode ser uma seção ou página específica na profundidade da estrutura de navegação do aplicativo.
+1. Forneça o **[!UICONTROL Local ou caminho dentro do aplicativo]**. Este campo especifica o destino exato no aplicativo que você deseja que os usuários acessem. Pode ser uma seção ou página específica na profundidade da estrutura de navegação do aplicativo, como &quot;banner principal&quot; ou &quot;painel do produto&quot;.
 
    ![](assets/code_config_3.png){width="500"}
 

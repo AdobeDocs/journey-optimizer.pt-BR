@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ A experiência baseada em código é compatível com qualquer tipo de implementa
 
 Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs do cliente da AEP: AEP Web SDK ou AEP Mobile SDK.
 
-* As etapas [abaixo](#client-side-how) descrevem o processo de busca do conteúdo publicado na borda pelas campanhas de experiência baseadas em código, em uma implementação de exemplo do **SDK da Web**, e de exibição do conteúdo personalizado.
+* As etapas [abaixo](#client-side-how) descrevem o processo de busca do conteúdo publicado na borda pelas jornadas e campanhas de experiência baseadas em código em uma implementação de exemplo do **SDK da Web** e de exibição do conteúdo personalizado.
 
 * As etapas para implementar o canal baseado em código usando o **SDK móvel** estão descritas em [este tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
 
@@ -54,7 +54,7 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
 
 1. Os itens de experiência baseados em código devem ser aplicados manualmente pelo código de implementação (usando o método [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}) para atualizar o DOM com base na decisão.
 
-1. Para campanhas de experiência baseadas em código, os eventos de exibição devem ser enviados manualmente para indicar quando o conteúdo foi exibido. Isso é feito por meio do comando `sendEvent`.
+1. Para jornadas de experiência e campanhas baseadas em código, os eventos de exibição devem ser enviados manualmente para indicar quando o conteúdo foi exibido. Isso é feito por meio do comando `sendEvent`.
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
    }
    ```
 
-1. Para campanhas de experiência baseadas em código, os eventos de interação devem ser enviados manualmente para indicar quando um usuário interagiu com o conteúdo. Isso é feito por meio do comando `sendEvent`.
+1. Para jornadas de experiência e campanhas baseadas em código, os eventos de interação devem ser enviados manualmente para indicar quando um usuário interagiu com o conteúdo. Isso é feito por meio do comando `sendEvent`.
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -140,7 +140,7 @@ As solicitações para a API do Adobe Experience Platform são necessárias para
 
 Se você tiver uma implementação do lado do servidor, poderá usar uma da API Edge Network da AEP.
 
-As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda pelas campanhas de experiência baseadas em código em uma amostra da implementação da API do Edge Network para uma página da Web e a exibição do conteúdo personalizado.
+As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda pelas jornadas e campanhas de experiência baseadas em código em uma amostra da implementação da API Edge Network para uma página da Web e a exibição do conteúdo personalizado.
 
 ### Como funciona
 
@@ -226,8 +226,9 @@ As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda p
    ).then((res) => res.json());
    ```
 
-1. A experiência JSON da campanha de experiência baseada em código é lida da resposta e usada ao produzir a resposta HTML.
-1. Para campanhas de experiência baseadas em código, os eventos de exibição devem ser enviados manualmente na implementação para indicar quando o conteúdo da campanha foi exibido. Neste exemplo, a notificação é enviada no lado do servidor durante o ciclo de vida da solicitação.
+1. A experiência JSON das jornadas de experiência e campanha baseadas em código é lida da resposta e usada ao produzir a resposta HTML.
+
+1. Para jornadas de experiência e campanhas baseadas em código, os eventos de exibição devem ser enviados manualmente na implementação para indicar quando o conteúdo da jornada ou da campanha foi exibido. Neste exemplo, a notificação é enviada no lado do servidor durante o ciclo de vida da solicitação.
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {
