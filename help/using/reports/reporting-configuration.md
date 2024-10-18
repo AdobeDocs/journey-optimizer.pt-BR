@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuração, experimentação, relatórios, otimizador
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: f7a0feb38b902b14c402f631cb5c77c1e329886e
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '585'
 ht-degree: 29%
 
 ---
@@ -77,6 +77,10 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 -->
 
 ## Adicionar conjuntos de dados {#add-datasets}
+
+>[!NOTE]
+>
+>Quaisquer conjuntos de dados recém-criados só estarão disponíveis nos relatórios de Customer Journey Analytics.
 
 1. No menu **[!UICONTROL Administração]**, selecione **[!UICONTROL Configurações]**. Na seção **[!UICONTROL Relatórios]**, clique em **[!UICONTROL Gerenciar]**.
 
