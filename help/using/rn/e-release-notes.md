@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
+source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 47%
@@ -176,7 +176,7 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 <table>
 <thead>
 <tr>
-<th><strong>Experiência de relatório atualizada (disponibilidade geral)</strong><br/></th>
+<th><strong>Experiência de relatório atualizada (Disponibilidade geral)</strong><br/>Disponível desde 16 de outubro de 2024<br/></th>
 </tr>
 </thead>
 <tbody>
@@ -186,7 +186,6 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 <p>Com a disponibilidade geral, quatro novos recursos são introduzidos: a capacidade de criar métricas simples, criar e publicar públicos, fazer perguntas ad hoc usando o Insight Builder e agendar relatórios para serem enviados automaticamente por email aos principais destinatários.</p>
 <p>Para obter mais informações, consulte a <a href="../reports/report-cja-manage.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>Data de disponibilidade: 16 de outubro de 2024</p>
 </tr>
 </tbody>
 </table>
