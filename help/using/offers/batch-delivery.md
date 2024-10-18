@@ -5,7 +5,7 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Antes de configurar uma solicitação de tarefa, verifique se você criou:
 
 * **Um conjunto de dados** no Adobe Experience Platform. Esse conjunto de dados será usado para armazenar o resultado da decisão usando o schema &quot;ODE DecisionEvents&quot;. Saiba mais na [documentação sobre conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR).
 
-* **Um público-alvo** na Adobe Experience Platform. O público-alvo deve ser avaliado e depois atualizado. Saiba como atualizar a avaliação de associação de público na [documentação do Serviço de segmentação](http://www.adobe.com/go/segmentation-overview-en)
+* **Um público-alvo** na Adobe Experience Platform. O público-alvo deve ser avaliado e depois atualizado. Saiba como atualizar a avaliação de associação de público na [documentação do Serviço de segmentação](https://www.adobe.com/go/segmentation-overview-en)
 
   >[!NOTE]
   >

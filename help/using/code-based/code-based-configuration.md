@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 28%
@@ -130,7 +130,7 @@ Para definir as configurações de experiência baseada em código para platafor
 
 1. Forneça o **[!UICONTROL Local ou caminho dentro do aplicativo]**. Este campo especifica o destino exato no aplicativo que você deseja que os usuários acessem. Pode ser uma seção ou página específica na profundidade da estrutura de navegação do aplicativo, como &quot;banner principal&quot; ou &quot;painel do produto&quot;.
 
-   ![](assets/code_config_3.png){width="500"}
+   ![](assets/code_config_3.png)
 
 1. Preencha o campo **[!UICONTROL Visualizar URL]** para habilitar visualizações no dispositivo. Esse URL informa ao serviço de visualização o URL específico a ser usado ao acionar a visualização no dispositivo. [Saiba mais](../code-based/create-code-based.md#preview-on-device)
 

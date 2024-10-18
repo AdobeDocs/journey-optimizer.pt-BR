@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: b924b7d0-bbed-409e-8173-0685fc41d7de
-source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 6%
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Você pode modificar ou atualizar um item de decisão fazendo uma solicitação PATCH para a API da biblioteca de ofertas.
 
-Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte a [documentação oficial do Patch JSON](http://jsonpatch.com/).
+Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte a [documentação oficial do Patch JSON](https://jsonpatch.com/).
 
 **Formato da API**
 
