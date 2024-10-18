@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
+source-git-commit: d953f4e411b6d73886c9cb1d6d47152a0480de36
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1674'
 ht-degree: 46%
 
 ---
@@ -238,7 +238,7 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
 * **Limite de frequência por campanha ou jornada** - Agora é possível criar regras de frequência para aplicar às suas jornadas, permitindo limitar o número de jornadas por dia, semana ou mês, bem como controlar o número de jornadas simultâneas executadas simultaneamente.
 
-* **Pontuação de prioridade** - Agora é possível atribuir uma pontuação de prioridade a uma campanha ou jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas campanhas ou jornadas usam a mesma superfície, o Journey Optimizer selecionará aquela com a pontuação de prioridade mais alta. Se as campanhas tiverem a mesma pontuação, a campanha modificada mais recentemente será escolhida. A pontuação de prioridade está disponível para todos os canais de entrada em campanhas e para o canal no aplicativo no jornada.
+* **Pontuação de prioridade** - Agora é possível atribuir uma pontuação de prioridade a uma campanha ou jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas campanhas ou jornadas usam a mesma configuração de canal, o Journey Optimizer seleciona aquela com a pontuação de prioridade mais alta. Se as campanhas tiverem a mesma pontuação, a campanha modificada mais recentemente será escolhida. A pontuação de prioridade está disponível para todos os canais de entrada em campanhas e para o canal no aplicativo no jornada.
 
 * **Exibir conflitos** - Um novo botão **Exibir conflitos** em jornadas e campanhas agora permite que você verifique sempre que houver uma possibilidade de sobreposição com outras jornadas ou campanhas, como a data de início, o público-alvo ou a configuração de canal selecionada.
 
@@ -249,7 +249,7 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
 **Configuração**
 
-* **Personalização da superfície** - Ao usar uma configuração personalizada em uma campanha ou jornada, agora você pode visualizar seu conteúdo de email para verificar possíveis erros com as configurações dinâmicas definidas.
+* **Personalização da configuração do canal** - Ao usar uma configuração personalizada em uma campanha ou jornada, agora você pode visualizar seu conteúdo de email para verificar possíveis erros com as configurações dinâmicas definidas.
 
 **Jornadas**
 
