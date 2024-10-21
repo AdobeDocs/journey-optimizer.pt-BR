@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: b09a66743770eff9da7f183a1bf8de0d241db3d0
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2279'
 ht-degree: 17%
 
 ---
@@ -45,11 +45,12 @@ Os públicos-alvo podem ser gerados usando métodos diferentes:
 
 ## Públicos-alvo em [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Você pode selecionar em campanhas e jornadas qualquer público gerado usando definições de segmento, upload personalizado ou workflows de composição.
+Você pode selecionar em campanhas e jornadas qualquer público gerado usando definições de segmento, upload personalizado, fluxos de trabalho de composição ou Composição de público federado.
 
 >[!AVAILABILITY]
 >
->O uso de públicos-alvo e atributos da composição de público-alvo está indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield. [Saiba como usar atributos de enriquecimento de públicos no Journey Optimizer](../audience/about-audiences.md#enrichment)
+>
+O uso de públicos-alvo e atributos da composição de público-alvo está indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield. [Saiba como usar atributos de enriquecimento de públicos no Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 É possível aproveitar os públicos-alvo no **[!DNL Journey Optimizer]** de maneiras diferentes:
 
@@ -63,11 +64,11 @@ Você pode selecionar em campanhas e jornadas qualquer público gerado usando de
 
   >[!NOTE]
   >
-  >Devido à natureza em lote de públicos-alvo criados usando fluxos de trabalho de composição e upload personalizado, não é possível direcionar esses públicos-alvo em uma atividade de &quot;Qualificação de público-alvo&quot;. Somente públicos-alvo criados usando definições de segmento podem ser aproveitados nessa atividade.
+  >Devido à natureza em lote de públicos-alvo criados usando workflows de composição, upload personalizado ou Composição de público-alvo federado, não é possível direcionar esses públicos-alvo em uma atividade de &quot;Qualificação de público-alvo&quot;. Somente públicos-alvo criados usando definições de segmento podem ser aproveitados nessa atividade.
 
 ## Usar atributos de enriquecimento de públicos-alvo {#enrichment}
 
-Ao direcionar um público-alvo gerado usando workflows de composição ou um público-alvo personalizado (arquivo CSV), você pode aproveitar os atributos de enriquecimento desses públicos-alvo para criar sua jornada e personalizar suas mensagens.
+Ao direcionar um público-alvo gerado usando workflows de composição, público-alvo personalizado (arquivo CSV) ou Composição de público federado, você pode aproveitar os atributos de enriquecimento desses públicos-alvo para criar sua jornada e personalizar suas mensagens.
 
 >[!NOTE]
 >
@@ -105,21 +106,21 @@ Informações detalhadas sobre fontes de dados estão disponíveis nestas seçõ
 >
 +++
 
-## Públicos-alvo de upload personalizado (arquivo CSV) {#csv}
+## Upload personalizado e públicos de composição de público-alvo federado {#csv}
 
-Esta seção fornece informações principais que você deve ter em mente ao trabalhar com públicos-alvo de upload personalizado (arquivos CSV):
+Esta seção fornece informações principais para ter em mente ao trabalhar com o Upload personalizado (arquivos CSV) e públicos-alvo de composição de público-alvo federado:
 
-* **Suporte a pré-visualização e prova para públicos-alvo em formato CSV:** No momento, não há suporte para pré-visualização e prova em públicos-alvo criados com o uso do carregamento CSV. Lembre-se disso ao planejar suas campanhas.
+* **Suporte para visualização e prova:** Atualmente, não há suporte para visualização e prova para públicos-alvo criados por meio de carregamento CSV ou Composição de Público Federado. Lembre-se disso ao planejar suas campanhas.
 
-* **Atrasos na ativação rápida e na compilação de identidade:** a arquitetura do Adobe Experience Platform atrasa a compilação de identidades para disponibilizar imediatamente os públicos de carregamento personalizados para ativação no Journey Optimizer, com os seguintes impactos:
+* **Atrasos na ativação rápida e na compilação de identidade:** a arquitetura do Adobe Experience Platform atrasa a compilação de identidades para disponibilizar imediatamente o upload personalizado e os públicos da Composição de público federado para ativação no Journey Optimizer, com os seguintes impactos:
 
    * Os públicos-alvo estão prontos para uso no Journey Optimizer logo após a conclusão da assimilação. Embora isso normalmente ocorra em uma hora, está sujeito a alguma variabilidade.
    * O número de registros ativados pode diferir do número de perfis após a identificação de identidade.
-   * Todos os registros no arquivo CSV serão ativados, incluindo duplicatas. Durante a próxima exportação de perfil da UPS, esses registros passarão pela compilação de identidade.
+   * Todos os registros no público-alvo serão ativados, incluindo duplicatas. Durante a próxima exportação de perfil da UPS, esses registros passarão pela compilação de identidade.
 
-* **Direcionamento de novos perfis de carregamentos CSV:** Quando uma correspondência não é encontrada entre um registro CSV e um perfil UPS, um novo perfil vazio é criado. Este perfil está vinculado aos atributos de enriquecimento que são armazenados no data lake. Como esse novo perfil está vazio, os campos de direcionamento normalmente usados no Journey Optimizer (por exemplo, personalEmail.address, mobilePhone.number) estão vazios e, portanto, não podem ser usados para direcionamento.
+* **Direcionamento de novos perfis:** Quando uma correspondência não é encontrada entre um registro e um perfil UPS, um novo perfil vazio é criado. Este perfil está vinculado aos atributos de enriquecimento que são armazenados no data lake. Como esse novo perfil está vazio, os campos de direcionamento normalmente usados no Journey Optimizer (por exemplo, personalEmail.address, mobilePhone.number) estão vazios e, portanto, não podem ser usados para direcionamento.
 
-  Para resolver isso, você pode especificar o &quot;campo de execução&quot; (ou o &quot;endereço de execução&quot; dependendo do canal) na configuração do canal como &quot;identityMap&quot;. Isso garantirá que o atributo escolhido como a identidade durante o upload do CSV será aquele usado para o direcionamento no Journey Optimizer.
+  Para resolver isso, você pode especificar o &quot;campo de execução&quot; (ou o &quot;endereço de execução&quot; dependendo do canal) na configuração do canal como &quot;identityMap&quot;. Isso garantirá que o atributo escolhido como a identidade na criação do público-alvo será aquele usado para o direcionamento no Journey Optimizer.
 
 ## Métodos de avaliação de público-alvo {#evaluation-method-in-journey-optimizer}
 
