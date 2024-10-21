@@ -6,9 +6,9 @@ level: Beginner
 badge: label="Disponibilidade limitada"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: ea947514012c342fd28155e6610b2eb13547b465
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '698'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,10 @@ O que há neste guia de documentação:
 
 O limite de jornada ajuda a limitar o número de jornadas nas quais um perfil pode ser inscrito, evitando a sobrecarga de comunicação. No Journey Optimizer, você pode definir dois tipos de regras de limitação:
 
-* **Limite de entrada** limita o número de entradas em uma jornada em um determinado período para um perfil.
-* **Limite de simultaneidade** limita quantas jornadas um perfil pode ser inscrito simultaneamente. Esse tipo de limite aproveita as pontuações de prioridade das jornadas para arbitrar entradas se os perfis estiverem qualificados para várias jornadas ao mesmo tempo em um determinado período.
+* **Limite de entrada** limita o número de entradas de jornada em um determinado período para um perfil.
+* **Limite de simultaneidade** limita quantas jornadas um perfil pode ser inscrito simultaneamente.
+
+Ambos os tipos de limite de jornada usam pontuações de prioridade para arbitrar entradas.
 
 ## Criar uma regra de limite de jornada {#create-rule}
 
@@ -67,21 +69,28 @@ Para criar uma regra de limite de jornada, siga estas etapas:
 
      +++Configurar uma regra de limite de entrada de jornada
 
-      1. No campo **[!UICONTROL Limite]**, defina o número máximo de vezes que um perfil pode entrar na jornada.
-      1. No campo **[!UICONTROL Duration]**, defina o período a ser considerado.
+      1. No campo **[!UICONTROL Limite]**, defina o número máximo de jornadas que um perfil pode inserir.
+      1. No campo **[!UICONTROL Duration]**, defina o período a ser considerado. Observe que a duração se baseia no fuso horário UTC. Por exemplo, o limite Diário será redefinido à meia-noite UTC.
 
-     Neste exemplo, queremos impedir que perfis entrem nesta jornada mais de &quot;5&quot; vezes em um mês.
+     Neste exemplo, queremos impedir que perfis insiram mais de &quot;5&quot; jornadas em um mês.
 
      ![](assets/journey-capping-entry-example.png)
+
+     >[!NOTE]
+     >
+     >O sistema levará em consideração a prioridade das jornadas programadas futuras que tenham essa mesma regra aplicada a ele.
+     >
+     >Neste exemplo, se o profissional de marketing já tiver inserido 4 jornadas e houver outra jornada programada para este mês com uma prioridade mais alta, os clientes não poderão entrar na jornada de prioridade mais baixa.
 
 +++
 
      +++Configurar uma regra de limite de simultaneidade de jornada
 
       1. No campo **[!UICONTROL Limite]**, defina o número máximo de jornadas nas quais um perfil pode ser inscrito simultaneamente.
+
       1. Use o campo **[!UICONTROL Priorização antecipada]** para arbitrar as entradas de jornada com base nas pontuações de prioridade em um período escolhido (por exemplo, 1 dia, 7 dias, 30 dias). Isso ajuda a priorizar a entrada em jornadas de valor mais alto se um perfil estiver qualificado para várias jornadas.
 
-     Neste exemplo, queremos impedir que perfis entrem na jornada se já estiverem inscritos em outra jornada. Se outra jornada nos próximos 7 dias tiver uma pontuação de prioridade mais alta, o perfil inserirá essa jornada.
+     Neste exemplo, queremos impedir que os perfis entrem na jornada se já estiverem inscritos em outra jornada que contenha o mesmo conjunto de regras. Se outra jornada nos próximos 7 dias tiver uma pontuação de prioridade mais alta, o perfil não inserirá essa jornada.
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
@@ -98,6 +107,11 @@ Para criar uma regra de limite de jornada, siga estas etapas:
 ## Aplicar regras de limitação a jornadas {#apply-capping}
 
 Para aplicar uma regra de limitação a uma jornada, acesse a jornada e abra suas propriedades. No menu suspenso **[!UICONTROL Regras de limitação]**, selecione o conjunto de regras relevante.
+
 Quando a jornada for ativada, as regras de limitação definidas no conjunto de regras entrarão em vigor.
 
 ![](assets/journey-capping-apply.png)
+
+>[!IMPORTANT]
+>
+>Se uma jornada for ativada imediatamente, pode levar até 15 minutos para que o sistema comece a suprimir clientes. Você pode agendar sua jornada para começar pelo menos 15 minutos no futuro para evitar essa possibilidade.
