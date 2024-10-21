@@ -6,7 +6,7 @@ level: Beginner
 badge: label="Disponibilidade limitada"
 hide: true
 hidefromtoc: true
-source-git-commit: d53d4ee40771e3f74ccd801cf22598b69661a403
+source-git-commit: 9e7c70c45fc49946c18617c6a5b81383b73da248
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 2%
@@ -102,7 +102,7 @@ Para criar uma regra de limite de jornada, siga estas etapas:
 
 1. Ative todo o conjunto de regras clicando no botão de reticências ao lado do botão Adicionar regra no canto superior direito da tela.
 
-   ![](assets/journey-capping-activate-rule-set.png){width="50%" zommable="yes"}
+   ![](assets/journey-capping-activate-rule-set.png)
 
 ## Aplicar regras de limitação a jornadas {#apply-capping}
 
