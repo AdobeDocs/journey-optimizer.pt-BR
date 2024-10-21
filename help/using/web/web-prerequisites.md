@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: c5308cfdb237fcf563886db1dfca257d23bb4449
+source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1183'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,8 @@ Para acessar e criar páginas da Web na interface do usuário do [!DNL Journey O
 * Para acessar o web designer [!DNL Journey Optimizer], é necessário ter uma extensão específica do navegador Google Chrome instalada. [Saiba mais](#visual-authoring-prerequisites)
 
 * Para que a experiência online seja entregue corretamente, defina as configurações do Adobe Experience Platform detalhadas [aqui](#delivery-prerequisites).
+
+* Para habilitar relatórios para o canal da Web, é necessário garantir que o conjunto de dados usado na sequência de dados de implementação da Web também esteja incluído na configuração de relatórios. [Saiba mais](#experiment-prerequisites)
 
 >[!IMPORTANT]
 >
@@ -138,13 +140,13 @@ Saiba como adicionar conjuntos de dados para relatórios em [esta seção](../re
 >
 >O conjunto de dados é usado como somente leitura pelo sistema de relatórios [!DNL Journey Optimizer] e não afeta a coleta ou a assimilação de dados.
 
-Se você estiver **não** usando os [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"} predefinidos a seguir para o esquema do conjunto de dados: `AEP Web SDK ExperienceEvent` e `Consumer Experience Event` (conforme definido em [esta página](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), adicione os seguintes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` e `Web Details`. Eles são necessários para os relatórios de experimento de conteúdo [!DNL Journey Optimizer], pois estão rastreando em quais experimentos e tratamentos cada perfil está participando.
+Se você estiver **não** usando os [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"} predefinidos a seguir para o esquema do conjunto de dados: `AEP Web SDK ExperienceEvent` e `Consumer Experience Event` (conforme definido em [esta página](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), adicione os seguintes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` e `Web Details`. Eles são necessários aos relatórios de [!DNL Journey Optimizer], pois estão rastreando em quais campanhas e jornadas cada perfil está participando.
 
 [Saiba mais sobre a configuração de relatórios](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
->A adição desses grupos de campos não afeta a coleta de dados normal. É aditivo apenas para as páginas em que um experimento está sendo executado, deixando todos os outros rastreamentos intactos.
+>A adição desses grupos de campos não afeta a coleta de dados normal. É aditivo apenas para as páginas em que uma campanha ou jornada está em execução, deixando todos os outros rastreamentos intactos.
 
 ## Domínios com marca para ativos {#branded-domains-for-assets}
 
