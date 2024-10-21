@@ -7,9 +7,9 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '401'
 ht-degree: 5%
 
 ---
@@ -49,8 +49,7 @@ Os dados no CJA são mantidos em sincronia com o Experience Platform. Portanto, 
 
 ## Atualizações de segmentação de transmissão {#segmentation-update}
 
-Além disso, em 1º de novembro, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos de envio e feedback de conjuntos de dados de rastreamento e feedback.  Informações sobre por que esta prática foi desencorajada no passado podem ser encontradas [aqui](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
-
+Além disso, em 1º de novembro, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos de envio e feedback de conjuntos de dados de rastreamento e feedback.  Informações sobre por que esta prática foi desencorajada no passado podem ser encontradas [aqui](../audience/about-audiences.md#streaming-segmentation-events-guardrails). Essa alteração se aplicará a todas as sandboxes e organizações do cliente no momento.
 
 **Perguntas frequentes**
 
