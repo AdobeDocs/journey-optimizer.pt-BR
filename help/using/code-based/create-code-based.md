@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
@@ -147,22 +147,22 @@ Para exibir uma pré-visualização de sua experiência baseada em código modif
 
 Informações detalhadas sobre como selecionar perfis de teste e visualizar seu conteúdo estão disponíveis em [esta seção](../content-management/preview.md).
 
-### Visualizar no dispositivo {#preview-on-device}
+### Visualização no dispositivo {#preview-on-device}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device"
->title="Pré-visualize sua experiência baseada em código em um dispositivo real"
->abstract="Obtenha uma visualização de suas experiências personalizadas diretamente do seu navegador ou de seus dispositivos móveis, para ver como elas aparecem em dispositivos reais."
+>title="Visualizar a experiência baseada em código em um dispositivo real"
+>abstract="Obtenha uma visualização de suas experiências personalizadas diretamente no seu navegador ou em seus dispositivos móveis para ver como elas ficam em dispositivos reais."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
->title="Visualize sua experiência da Web com base em código no dispositivo"
+>title="Visualizar a experiência da Web com base em código no dispositivo"
 >abstract="Digitalize o código QR ou copie o link para visualizar no dispositivo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
->title="Visualize sua experiência móvel baseada em código no dispositivo"
->abstract="Digitalize o código QR ou copie o link para visualizar no dispositivo. Depois de conectado, insira o pino no dispositivo. Talvez seja necessário reiniciar o aplicativo para ver as alterações toda vez que atualizar os links de visualização."
+>title="Visualizar a experiência móvel baseada em código no dispositivo"
+>abstract="Digitalize o código QR ou copie o link para visualizar no dispositivo. Depois de conectado, insira o pin no dispositivo. Talvez seja necessário reiniciar o aplicativo para ver as alterações toda vez que atualizar os links de visualização."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"

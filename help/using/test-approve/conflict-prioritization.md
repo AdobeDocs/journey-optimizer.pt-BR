@@ -23,7 +23,7 @@ ht-degree: 21%
 
 No Journey Optimizer, gerenciar o volume e o tempo das campanhas e jornadas é essencial para evitar sobrecarregar os clientes com muitas interações. As duas seções a seguir apresentam as principais ferramentas para ajudar você a manter o equilíbrio e priorizar as comunicações de maneira eficaz
 
-## Identificar possíveis conflitos em jornadas e campanhas {#conflict}
+## Exibir possíveis conflitos em jornadas e campanhas {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"

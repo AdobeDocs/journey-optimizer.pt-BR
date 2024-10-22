@@ -9,7 +9,7 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 28%
+ht-degree: 37%
 
 ---
 
@@ -117,11 +117,11 @@ Para definir as configurações de experiência baseada em código para platafor
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
 >title="Forneça a ID do aplicativo"
->abstract="Insira a ID do aplicativo para obter uma identificação e uma configuração precisas no ambiente operacional do aplicativo, garantindo integração e funcionalidade perfeitas."
+>abstract="Forneça a ID do aplicativo para uma identificação e configuração precisas no ambiente operacional do aplicativo, garantindo integração e funcionalidade perfeitas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
->title="Insira o URL para visualizar o conteúdo"
+>title="Inserir o URL para visualizar o conteúdo"
 >abstract="Esse campo é essencial para habilitar a simulação e a visualização do conteúdo diretamente no dispositivo do aplicativo."
 
 Para definir as configurações de experiência baseada em código para plataformas móveis, siga as etapas abaixo.
@@ -179,8 +179,8 @@ Para definir as configurações de experiência baseadas em código para outras 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="Adicionar o URI de superfície para seu componente"
->abstract="Se sua implementação não for para Web, iOS ou Android, ou se você precisar direcionar URIs específicos, insira um URI de superfície, que é um identificador exclusivo que direciona para a entidade onde você deseja fornecer sua experiência. Insira um URI de superfície que corresponda ao usado em sua própria implementação."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="Criar uma configuração de experiência baseada em código para Outras plataformas"
+>abstract="Se sua implementação não for para Web, iOS ou Android, ou se você precisar direcionar URIs específicos, insira um URI de superfície, que é um identificador exclusivo que direciona para a entidade onde você deseja fornecer sua experiência. Certifique-se de inserir um URI de superfície que corresponda ao usado em sua própria implementação."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="Criar uma configuração de experiência baseada em código para outras plataformas"
 
 Uma experiência baseada em código **superfície** é qualquer entidade projetada para interação do usuário ou do sistema, que é exclusivamente identificada por um **URI**. A superfície é especificada na implementação do aplicativo e deve corresponder à superfície referenciada na configuração do canal de experiência baseado em código.
 
