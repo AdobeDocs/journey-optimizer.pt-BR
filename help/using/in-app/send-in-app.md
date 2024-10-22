@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '389'
+ht-degree: 13%
 
 ---
 
@@ -48,7 +48,7 @@ Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar
 
 >[!IMPORTANT]
 >
->A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
+> Se a campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para enviar a notificação no aplicativo. [Saiba mais](../test-approve/gs-approval.md)
 
 Depois que a mensagem no aplicativo for criada e o conteúdo definido e personalizado, você poderá revisá-la e ativá-la.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '269'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,13 @@ Se você precisar fazer modificações em uma jornada publicada, será necessár
 Se você interromper uma jornada, ela será interrompida permanentemente. Todas as pessoas que fluem na jornada serão interrompidas permanentemente e a jornada deixará de permitir novas entradas. Se precisar usar a jornada novamente, duplique-a e publique-a.
 
 1. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Você não poderá publicar uma jornada com erros. Consulte [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Também é recomendável testar sua jornada antes da publicação. Consulte [esta página](../building-journeys/testing-the-journey.md).
+
 1. Para publicar a jornada, clique na opção **[!UICONTROL Publish]**, localizada no menu suspenso no canto superior direito.
+
+   >[!NOTE]
+   >
+   > Se sua jornada estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para poder publicar sua jornada. [Saiba mais](../test-approve/gs-approval.md)
+
 
    ![](assets/journeyuc1_18.png)
 

@@ -4,20 +4,19 @@ description: Saiba como criar e gerenciar políticas de aprovação.
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: cd46b3346e284958e6f3f9fa641b548f68672000
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 5%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
 
 # Criar e gerenciar políticas de aprovação {#approval-policies}
 
->[!AVAILABILITY]
+>[!NOTE]
 >
-> No momento, as políticas de aprovação estão disponíveis apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
+>Para criar políticas de aprovação, você deve ter privilégios de administrador do sistema ou do produto no Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 As políticas de aprovação permitem que os administradores estabeleçam um processo de validação para jornadas e campanhas. Este sistema descreve condições específicas que determinam se uma jornada ou campanha precisa de aprovação. Essas políticas podem variar em complexidade, desde simplesmente exigir que todas as campanhas sejam revisadas por um usuário ou equipe específica até estabelecer critérios com base em quem criou a campanha.
 

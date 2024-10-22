@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1150'
 ht-degree: 13%
 
 ---
@@ -122,7 +122,7 @@ Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar
 
 >[!IMPORTANT]
 >
->A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
+> Se a campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para ativar as experiências da Web. [Saiba mais](../test-approve/gs-approval.md)
 
 Depois de definir sua experiência online e editar seu conteúdo conforme desejado usando o [web designer](edit-web-content.md#work-with-web-designer), você pode ativar sua jornada ou campanha para tornar as alterações visíveis para o público-alvo.
 

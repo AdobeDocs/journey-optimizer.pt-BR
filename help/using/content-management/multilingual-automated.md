@@ -10,9 +10,9 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1644'
 ht-degree: 21%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 21%
 
 >[!AVAILABILITY]
 >
->No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+>No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 
 Usando o fluxo automatizado, você pode simplesmente selecionar o idioma de destino e o provedor de idioma. Seu conteúdo é então enviado diretamente para tradução, pronto para uma revisão final após a conclusão.
 
@@ -228,7 +228,7 @@ Depois de definir o projeto de Tradução e as configurações de Idioma, você 
 
    >[!IMPORTANT]
    >
-   >A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
+   > Se a campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para enviar a campanha multilíngue. [Saiba mais](../test-approve/gs-approval.md)
 
 Agora você pode ativar sua campanha ou jornada. Depois de enviado, você pode medir o impacto da sua jornada ou campanha multilíngue nos relatórios.
 

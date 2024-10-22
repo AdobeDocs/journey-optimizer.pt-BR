@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campaign, review, validation, ativating, ativating, otimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
+> Se a campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para enviar a campanha. [Saiba mais](../test-approve/gs-approval.md)
 
 Depois que a campanha é configurada, é necessário revisar o parâmetro e o conteúdo antes de ativá-la. Para fazer isso, siga estes passos:
 

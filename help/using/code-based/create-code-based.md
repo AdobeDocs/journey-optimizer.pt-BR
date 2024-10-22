@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1714'
+ht-degree: 7%
 
 ---
 
@@ -219,7 +219,7 @@ Ao criar experiências baseadas em código para páginas da Web ou aplicativos m
 
 >[!IMPORTANT]
 >
->A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
+> Se a campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para ativar suas experiências baseadas em código. [Saiba mais](../test-approve/gs-approval.md)
 
 Depois de definir sua experiência baseada em código e editar seu conteúdo conforme desejado usando o [editor baseado em código](#edit-code), você pode ativar sua jornada ou campanha para tornar as alterações visíveis para o público-alvo.
 

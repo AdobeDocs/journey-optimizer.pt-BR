@@ -10,9 +10,9 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '646'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+>No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 
 Usando o fluxo manual, você pode traduzir facilmente seu conteúdo diretamente em seu email, notificação por push ou campanha e jornada por SMS, fornecendo opções precisas de controle e personalização para suas mensagens multilíngues. Além disso, você pode importar facilmente conteúdo multilíngue pré-existente com a opção Importar HTML.
 
@@ -142,7 +142,7 @@ Agora você pode ativar sua campanha ou jornada. Depois de enviado, você pode m
 
 >[!IMPORTANT]
 >
->A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
+> Se a campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para enviar a campanha ou jornada multilíngue. [Saiba mais](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

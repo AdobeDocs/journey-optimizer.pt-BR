@@ -4,20 +4,15 @@ description: Saiba como revisar e aprovar uma solicitação para publicação de
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 2%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
 
 # Revisar e aprovar uma solicitação {#approve-requests}
-
->[!AVAILABILITY]
->
-> No momento, as políticas de aprovação estão disponíveis apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 
 Se uma política de aprovação se aplicar a uma jornada ou campanha, ela precisará ser enviada para aprovação para ser publicada. Para fazer isso, o criador de jornadas/campanhas envia uma solicitação ao(s) aprovador(es) definido(s) na política de aprovação e a jornada/campanha recebe o status **[!UICONTROL Em revisão]**.
 
@@ -51,3 +46,7 @@ Para fazer isso, clique no botão **[!UICONTROL Solicitar alterações]**. Nos p
 ![](assets/request-changes.png)
 
 Após o envio da solicitação, o criador de jornadas/campanhas é notificado por um email e um alerta do Journey Optimizer. A campanha retorna ao status &quot;Rascunho&quot;. Depois que as alterações forem integradas, o criador da jornada/campanha poderá enviá-la novamente para aprovação.
+
+>[!NOTE]
+>
+> Se você não estiver recebendo a notificação de aprovação por meio de um email, será necessário atualizar as preferências das assinaturas nos perfis de Experience Cloud. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences)
