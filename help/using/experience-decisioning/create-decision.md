@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Disponibilidade limitada"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 5ffa0937bd9f23f29c8f02d2951cccac73d75f1b
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 18%
+source-wordcount: '1794'
+ht-degree: 14%
 
 ---
 
@@ -29,6 +29,12 @@ As políticas de decisão contêm toda a lógica de seleção, para que o mecani
 >[!NOTE]
 >
 >Na interface do usuário [!DNL Journey Optimizer], as políticas de decisão são rotuladas como decisões<!--but they are decision policies. TBC if this note is needed-->.
+
+As principais etapas para aproveitar as políticas de decisão em suas campanhas baseadas em código são as seguintes:
+
+1. [Criar uma política de decisão em uma campanha baseada em código](#add-decision)
+1. [Use a política de decisão na campanha baseada em código](#use-decision-policy)
+1. [Criar painéis de relatórios de Customer Journey Analytics personalizados](#cja)
 
 ## Adicionar uma política de decisão a uma campanha baseada em código {#add-decision}
 
@@ -51,6 +57,8 @@ As políticas de decisão contêm toda a lógica de seleção, para que o mecani
 
 Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu site ou aplicativo móvel, adicione uma política de decisão a uma campanha baseada em código. Para isso, siga as etapas abaixo.
 
+### Criar a política de decisão {#add}
+
 1. Crie uma campanha e selecione a ação **[!UICONTROL Experiência baseada em código]**. [Saiba mais](../code-based/create-code-based.md)
 
 1. No [editor de código](../code-based/create-code-based.md#edit-code), selecione o ícone da **[!UICONTROL Política de decisão]** e clique em **[!UICONTROL Adicionar política de decisão]**.
@@ -63,50 +71,45 @@ Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu s
    >
    >Atualmente, apenas o catálogo padrão **[!UICONTROL Ofertas]** está disponível.
 
+1. Selecione o número de itens que você deseja retornar. Por exemplo, se você selecionar 2, as 2 melhores ofertas qualificadas serão apresentadas para a configuração atual. Clique em **[!UICONTROL Next]**.
+
    ![](assets/decision-code-based-details.png)
 
-1. Selecione o número de itens que você deseja retornar. Por exemplo, se você selecionar 2, as 2 melhores ofertas qualificadas serão apresentadas para a configuração atual. Clique em **[!UICONTROL Avançar]**
+### Selecionar itens e estratégias de seleção {#select}
 
-1. Use o botão **[!UICONTROL Adicionar estratégia]** para definir as estratégias de seleção para sua política de decisão. Cada estratégia consiste em uma coleção de ofertas associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas. [Saiba mais](selection-strategies.md)
+A seção **[!UICONTROL Sequência de estratégia]** permite selecionar os itens de decisão e as estratégias de seleção a serem apresentados com a política de decisão.
 
-   ![](assets/decision-code-based-strategies.png)
+1. Clique no botão **[!UICONTROL Adicionar]** e escolha o tipo de objeto a ser incluído na política:
 
-   >[!NOTE]
-   >
-   >Pelo menos uma estratégia é necessária. Não é possível adicionar mais de 10 estratégias.
+   * **[!UICONTROL Estratégia de seleção]**: adicione uma ou várias estratégias de seleção. As estratégias de decisão usam coleções associadas a restrições de qualificação e métodos de classificação para determinar os itens a serem mostrados. Você pode selecionar uma estratégia de seleção existente ou criar uma nova usando o botão **[!UICONTROL Criar estratégia de seleção]**.[Saiba como criar estratégias de seleção](selection-strategies.md)
 
-1. Na tela **[!UICONTROL Adicionar estratégia]**, você também pode criar uma estratégia. O botão **[!UICONTROL Criar estratégia de seleção]** redireciona você para o menu **[!UICONTROL Decisão da experiência]** > **[!UICONTROL Configuração da estratégia]**. [Saiba mais](selection-strategies.md)
+   * **[!UICONTROL Item de decisão]**: adicione itens de decisão únicos para apresentar sem ter que executar uma estratégia de seleção. Você só pode selecionar um item de decisão por vez. Quaisquer restrições de qualificação definidas para o item serão aplicadas.
 
-   ![](assets/decision-code-based-add-strategy.png)
-
-1. Ao adicionar várias estratégias, elas serão avaliadas em uma ordem específica. A primeira estratégia que foi adicionada à sequência será avaliada primeiro e assim por diante. [Saiba mais](#evaluation-order)
-
-   Para alterar a sequência padrão, você pode arrastar e soltar as estratégias e/ou os grupos para reorganizá-los como desejado.
-
-   ![](assets/decision-code-based-strategy-groups.png)
-
-1. Adicione um fallback. Um item de fallback será exibido para o usuário se nenhuma das estratégias de seleção acima for qualificada.
-
-   ![](assets/decision-code-based-strategy-fallback.png)
-
-   Você pode selecionar qualquer item da lista, que exibe todos os itens de decisão criados na sandbox atual. Se nenhuma estratégia de seleção for qualificada, o fallback será exibido para o usuário, independentemente das datas e da restrição de qualificação aplicada ao item selecionado<!--nor frequency capping when available - TO CLARIFY-->.
+   ![](assets/decision-code-based-strategy-sequence.png)
 
    >[!NOTE]
    >
-   >Um fallback é opcional. Se nenhum fallback for selecionado e nenhuma estratégia for qualificada, nada será exibido por [!DNL Journey Optimizer].
+   >É necessário pelo menos um item de decisão ou estratégia. Não é possível adicionar mais de 10 estratégias.
 
-1. Salve sua seleção e clique em **[!UICONTROL Criar]**. Agora que a política de decisão foi criada, você pode usar os atributos de decisão dentro do conteúdo de experiência baseado em código. [Saiba mais](#use-decision-policy)
+1. Ao adicionar vários itens e/ou estratégias de decisão, eles serão avaliados em uma ordem específica. O primeiro objeto adicionado à sequência será avaliado primeiro e assim por diante.     Para alterar a sequência padrão, você pode arrastar e soltar os objetos e/ou os grupos para reorganizá-los conforme desejado. [Saiba mais sobre a ordem de avaliação da política de decisão](#evaluation-order)
 
-   ![](assets/decision-code-based-decision-added.png)
+### Gerenciar ordem de avaliação em uma política de decisão {#evaluation-order}
 
-## Ordem de avaliação {#evaluation-order}
+Depois de adicionar itens de decisão e estratégias de seleção à sua política, você pode organizar a ordem para determinar a ordem de avaliação e combinar estratégias de seleção para avaliá-los juntos.
 
-Conforme descrito acima, uma estratégia consiste em uma coleção, um método de classificação e restrições de qualificação.
+A **ordem sequencial** na qual os itens e as estratégias serão avaliados é indicada com números à esquerda de cada objeto ou grupo de objetos. Para mover a posição de uma estratégia de seleção (ou um grupo de estratégias) dentro da sequência, arraste e solte-a em outra posição.
 
-É possível:
+>[!NOTE]
+>
+>Somente estratégias de seleção podem ser arrastadas e soltas em uma sequência. Para alterar a posição de um item de decisão, é necessário removê-lo e adicioná-lo novamente usando o botão **[!UICONTROL Adicionar]** depois de adicionar os outros itens que você deseja avaliar antes.
 
-* Defina a ordem sequencial que deseja para que as estratégias sejam avaliadas,
-* Combine várias estratégias para que sejam avaliadas juntas e não separadamente.
+![](assets/decision-code-based-strategy-groups.png)
+
+Você também pode **combinar** várias estratégias de seleção em grupos para que sejam avaliadas juntas e não separadamente. Para fazer isso, clique no botão **`+`** em uma estratégia de seleção para combiná-la com outra. Você também pode arrastar e soltar uma estratégia de seleção em outra para agrupar as duas estratégias em um grupo.
+
+>[!NOTE]
+>
+>Os itens de decisão não podem ser agrupados com outros itens ou estratégias de seleção.
 
 Várias estratégias e seus agrupamentos determinam a prioridade das estratégias e a classificação das ofertas elegíveis. A primeira estratégia tem a prioridade mais alta e as estratégias combinadas dentro do mesmo grupo têm a mesma prioridade.
 
@@ -159,6 +162,22 @@ As ofertas da Estratégia 3 são avaliadas (Oferta 5, Oferta 6). Digamos que o r
 As ofertas classificadas agora são as seguintes: Oferta 5 , Oferta 3, Oferta 4, Oferta 2, Oferta 1, Oferta 6.
 
 +++
+
+### Adicionar ofertas substitutas {#fallback}
+
+Depois de selecionar itens de decisão e/ou estratégias de seleção, você pode adicionar ofertas substitutas que serão exibidas para os usuários se nenhum dos itens ou estratégias de seleção acima for qualificado.
+
+![](assets/decision-code-based-strategy-fallback.png)
+
+Você pode selecionar qualquer item da lista, que exibe todos os itens de decisão criados na sandbox atual. Se nenhuma estratégia de seleção for qualificada, o fallback será exibido para o usuário, independentemente das datas e da restrição de qualificação aplicada ao item selecionado<!--nor frequency capping when available - TO CLARIFY-->.
+
+>[!NOTE]
+>
+>Um fallback é opcional. Se nenhum fallback for selecionado e nenhuma estratégia for qualificada, nada será exibido por [!DNL Journey Optimizer]. Você pode adicionar até o número de itens que a política de decisão está solicitando. Isso garante que um determinado número de itens seja retornado, se desejado, para o caso de uso.
+
+Quando a política de decisão estiver pronta, salve-a e clique em **[!UICONTROL Criar]**. Agora que a política de decisão foi criada, você pode usar os atributos de decisão dentro do conteúdo de experiência baseado em código. [Saiba mais](#use-decision-policy)
+
+![](assets/decision-code-based-decision-added.png)
 
 ## Usar a política de decisão no editor de código {#use-decision-policy}
 
