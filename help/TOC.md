@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2147'
 ht-degree: 94%
 
 ---
@@ -195,94 +195,96 @@ ht-degree: 94%
       + [Criar e gerenciar políticas de aprovação](using/test-approve/approval-policies.md)
       + [Solicitar aprovação](using/test-approve/request-approval.md)
       + [Aprovar uma solicitação](using/test-approve/review-approve-request.md)
-+ Canal de email {#email}
-   + [Introdução a emails](using/email/get-started-email.md)
-   + [Criar um email](using/email/create-email.md)
-   + Projetar o conteúdo de email {#design-email}
-      + [Introdução ao design de email](using/email/get-started-email-design.md)
-      + Começar a criar conteúdo {#start-creating-content}
-         + [Crie um conteúdo do zero](using/email/content-from-scratch.md)
-         + [Importar seu conteúdo](using/email/existing-content.md)
-         + [Programar seu próprio conteúdo](using/email/code-content.md)
-         + [Usar modelos de email](using/email/use-email-templates.md)
-      + Projetar o conteúdo {#add-content}
-         + [Usar componentes de conteúdo](using/email/content-components.md)
-         + [Aproveitar fragmentos visuais](using/email/use-visual-fragments.md)
-         + [Adicionar links e rastrear mensagens](using/email/message-tracking.md)
-         + [Inserir ofertas personalizadas](using/email/add-offers-email.md)
-         + [Gerar a versão de texto](using/email/text-version-email.md)
-         + [Adicionar um pré-cabeçalho](using/email/preheader.md)
-      + Editar estilo {#edit-style}
-         + [Introdução ao estilo de email](using/email/get-started-email-style.md)
-         + [Editar configurações de fundo](using/email/backgrounds.md)
-         + [Ajustar o alinhamento vertical e o preenchimento](using/email/alignment-and-padding.md)
-         + [Adicionar atributos de estilo incorporado](using/email/inline-styling.md)
-   + [Usar modelos do Experience Manager](using/email/aem-templates.md)
-   + [Gerenciar opção de não participação de email](using/email/email-opt-out.md)
-   + Configurar canal de email {#configure-email}
-      + [Introdução à configuração de email](using/email/get-started-email-config.md)
-      + [Definir configurações de email](using/email/email-settings.md)
-      + [Personalizar configurações de email](using/email/surface-personalization.md)
-+ Canal no aplicativo{#in-app}
-   + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
-   + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
-   + [Criar uma mensagem móvel no aplicativo](using/in-app/create-in-app.md)
-   + [Criar uma mensagem no aplicativo da Web](using/in-app/create-in-app-web.md)
-   + [Criar seu conteúdo no aplicativo](using/in-app/design-in-app.md)
-   + [Verificação e envio da notificação no aplicativo](using/in-app/send-in-app.md)
-+ Canal de notificação por push{#push}
-   + [Introdução à notificação por push](using/push/get-started-push.md)
-   + [Criar uma notificação por push](using/push/create-push.md)
-   + [Projetar a notificação por push](using/push/design-push.md)
-   + [Verificação e envio da notificação por push](using/push/send-push.md)
-   + Configuração de notificações por push{#push-config}
-      + [Fluxo de notificação por push](using/push/push-gs.md)
-      + [Configurar canal de notificação por push](using/push/push-configuration.md)
-      + [Fluxo de trabalho de início rápido de integração para dispositivos móveis](using/push/mobile-onboarding-wf.md)
-+ Canal SMS/MMS{#sms}
-   + [Introdução a mensagem de texto](using/sms/get-started-sms.md)
-   + [Criação de uma mensagem de texto (SMS/MMS)](using/sms/create-sms.md)
-   + [Verificação e envio de suas mensagens de texto](using/sms/send-sms.md)
-   + [Gerenciamento da opção de não participação de mensagem de texto](using/sms/sms-opt-out.md)
-   + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
-   + Configurar canal de SMS/MMS{#configure-sms}
-      + [Introdução à configuração de SMS](using/sms/sms-configuration.md)
-      + [Configurar provedor Sinch](using/sms/sms-configuration-sinch.md)
-      + [Configurar provedor Infobip](using/sms/sms-configuration-infobip.md)
-      + [Configurar provedor Twilio](using/sms/sms-configuration-twilio.md)
-      + [Configurar um provedor personalizado (Beta)](using/sms/sms-configuration-custom.md)
-      + [Criar uma configuração de SMS](using/sms/sms-configuration-surface.md)
-+ Correspondência direta {#direct-mail}
-   + [Introdução à correspondência direta](using/direct-mail/get-started-direct-mail.md)
-   + [Criação de uma correspondência direta](using/direct-mail/create-direct-mail.md)
-   + [Verificação e envio de uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
-   + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
-+ Canal da Web {#web}
-   + [Introdução ao canal Web](using/web/get-started-web.md)
-   + Configurar o canal web {#configure-web-channel}
-      + [Pré-requisitos do canal web](using/web/web-prerequisites.md)
-      + [Configurar subdomínios da Web](using/web/web-delegated-subdomains.md)
-      + [Criar configuração do canal da Web](using/web/web-configuration.md)
-   + [Criação de experiências da web](using/web/create-web.md)
-   + Criação de páginas da web {#author-web-pages}
-      + [Editar conteúdo da página da Web](using/web/edit-web-content.md)
-      + [Gerenciar modificações](using/web/manage-web-modifications.md)
-      + [Monitorar suas campanhas da Web](using/web/monitor-web-experiences.md)
-      + [Criar aplicativos de página única](using/web/web-spa.md)
-+ Experiência baseada em código {#code-based-experience}
-   + [Introdução ao canal baseado em código](using/code-based/get-started-code-based.md)
-   + [Medidas de proteção e pré-requisitos](using/code-based/code-based-prerequisites.md)
-   + [Criar configuração de experiência baseada em código](using/code-based/code-based-configuration.md)
-   + [Amostras de métodos de implementação](using/code-based/code-based-implementation-samples.md)
-   + [Criar experiências baseadas em código](using/code-based/create-code-based.md)
-+ Cartões de conteúdo{#content-card}
-   + [Introdução aos cartões de conteúdo](using/content-card/get-started-content-card.md)
-   + Configurar canal de cartão de conteúdo {#configure}
-      + [Pré-requisitos dos cartões de conteúdo](using/content-card/content-card-configuration-prereq.md)
-      + [Configurar canal de cartões de conteúdo no Journey Optimizer](using/content-card/content-card-configuration.md)
-      + [Configurar o suporte a cartões de conteúdo no SDK da Web](using/content-card/content-card-configuration-sdk.md)
-   + [Criar cartões de conteúdo](using/content-card/create-content-card.md)
-   + [Design de cartões de conteúdo](using/content-card/design-content-card.md)
++ Canais de comunicação {#communication-channels}
+   + [Introdução a canais de comunicação](using/channels/gs-channels.md)
+   + Canal de email {#email}
+      + [Introdução a emails](using/email/get-started-email.md)
+      + [Criar um email](using/email/create-email.md)
+      + Projetar o conteúdo de email {#design-email}
+         + [Introdução ao design de email](using/email/get-started-email-design.md)
+         + Começar a criar conteúdo {#start-creating-content}
+            + [Crie um conteúdo do zero](using/email/content-from-scratch.md)
+            + [Importar seu conteúdo](using/email/existing-content.md)
+            + [Programar seu próprio conteúdo](using/email/code-content.md)
+            + [Usar modelos de email](using/email/use-email-templates.md)
+         + Projetar o conteúdo {#add-content}
+            + [Usar componentes de conteúdo](using/email/content-components.md)
+            + [Aproveitar fragmentos visuais](using/email/use-visual-fragments.md)
+            + [Adicionar links e rastrear mensagens](using/email/message-tracking.md)
+            + [Inserir ofertas personalizadas](using/email/add-offers-email.md)
+            + [Gerar a versão de texto](using/email/text-version-email.md)
+            + [Adicionar um pré-cabeçalho](using/email/preheader.md)
+         + Editar estilo {#edit-style}
+            + [Introdução ao estilo de email](using/email/get-started-email-style.md)
+            + [Editar configurações de fundo](using/email/backgrounds.md)
+            + [Ajustar o alinhamento vertical e o preenchimento](using/email/alignment-and-padding.md)
+            + [Adicionar atributos de estilo incorporado](using/email/inline-styling.md)
+      + [Usar modelos do Experience Manager](using/email/aem-templates.md)
+      + [Gerenciar opção de não participação de email](using/email/email-opt-out.md)
+      + Configurar canal de email {#configure-email}
+         + [Introdução à configuração de email](using/email/get-started-email-config.md)
+         + [Definir configurações de email](using/email/email-settings.md)
+         + [Personalizar configurações de email](using/email/surface-personalization.md)
+   + Canal no aplicativo{#in-app}
+      + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
+      + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
+      + [Criar uma mensagem móvel no aplicativo](using/in-app/create-in-app.md)
+      + [Criar uma mensagem no aplicativo da Web](using/in-app/create-in-app-web.md)
+      + [Criar seu conteúdo no aplicativo](using/in-app/design-in-app.md)
+      + [Verificação e envio da notificação no aplicativo](using/in-app/send-in-app.md)
+   + Canal de notificação por push{#push}
+      + [Introdução à notificação por push](using/push/get-started-push.md)
+      + [Criar uma notificação por push](using/push/create-push.md)
+      + [Projetar a notificação por push](using/push/design-push.md)
+      + [Verificação e envio da notificação por push](using/push/send-push.md)
+      + Configuração de notificações por push{#push-config}
+         + [Fluxo de notificação por push](using/push/push-gs.md)
+         + [Configurar canal de notificação por push](using/push/push-configuration.md)
+         + [Fluxo de trabalho de início rápido de integração para dispositivos móveis](using/push/mobile-onboarding-wf.md)
+   + Canal SMS/MMS{#sms}
+      + [Introdução a mensagem de texto](using/sms/get-started-sms.md)
+      + [Criação de uma mensagem de texto (SMS/MMS)](using/sms/create-sms.md)
+      + [Verificação e envio de suas mensagens de texto](using/sms/send-sms.md)
+      + [Gerenciamento da opção de não participação de mensagem de texto](using/sms/sms-opt-out.md)
+      + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
+      + Configurar canal de SMS/MMS{#configure-sms}
+         + [Introdução à configuração de SMS](using/sms/sms-configuration.md)
+         + [Configurar provedor Sinch](using/sms/sms-configuration-sinch.md)
+         + [Configurar provedor Infobip](using/sms/sms-configuration-infobip.md)
+         + [Configurar provedor Twilio](using/sms/sms-configuration-twilio.md)
+         + [Configurar um provedor personalizado (Beta)](using/sms/sms-configuration-custom.md)
+         + [Criar uma configuração de SMS](using/sms/sms-configuration-surface.md)
+   + Correspondência direta {#direct-mail}
+      + [Introdução à correspondência direta](using/direct-mail/get-started-direct-mail.md)
+      + [Criação de uma correspondência direta](using/direct-mail/create-direct-mail.md)
+      + [Verificação e envio de uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
+      + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
+   + Canal da Web {#web}
+      + [Introdução ao canal Web](using/web/get-started-web.md)
+      + Configurar o canal web {#configure-web-channel}
+         + [Pré-requisitos do canal web](using/web/web-prerequisites.md)
+         + [Configurar subdomínios da Web](using/web/web-delegated-subdomains.md)
+         + [Criar configuração do canal da Web](using/web/web-configuration.md)
+      + [Criação de experiências da web](using/web/create-web.md)
+      + Criação de páginas da web {#author-web-pages}
+         + [Editar conteúdo da página da Web](using/web/edit-web-content.md)
+         + [Gerenciar modificações](using/web/manage-web-modifications.md)
+         + [Monitorar suas campanhas da Web](using/web/monitor-web-experiences.md)
+         + [Criar aplicativos de página única](using/web/web-spa.md)
+   + Experiência baseada em código {#code-based-experience}
+      + [Introdução ao canal baseado em código](using/code-based/get-started-code-based.md)
+      + [Medidas de proteção e pré-requisitos](using/code-based/code-based-prerequisites.md)
+      + [Criar configuração de experiência baseada em código](using/code-based/code-based-configuration.md)
+      + [Amostras de métodos de implementação](using/code-based/code-based-implementation-samples.md)
+      + [Criar experiências baseadas em código](using/code-based/create-code-based.md)
+   + Cartões de conteúdo{#content-card}
+      + [Introdução aos cartões de conteúdo](using/content-card/get-started-content-card.md)
+      + Configurar canal de cartão de conteúdo {#configure}
+         + [Pré-requisitos dos cartões de conteúdo](using/content-card/content-card-configuration-prereq.md)
+         + [Configurar canal de cartões de conteúdo no Journey Optimizer](using/content-card/content-card-configuration.md)
+         + [Configurar o suporte a cartões de conteúdo no SDK da Web](using/content-card/content-card-configuration-sdk.md)
+      + [Criar cartões de conteúdo](using/content-card/create-content-card.md)
+      + [Design de cartões de conteúdo](using/content-card/design-content-card.md)
 + Páginas de destino {#landing-pages}
    + [Introdução às páginas de destino](using/landing-pages/get-started-lp.md)
    + [Criar uma página de destino](using/landing-pages/create-lp.md)
@@ -701,3 +703,4 @@ ht-degree: 94%
       + [Trabalhar com políticas de consentimento](using/action/consent.md)
    + [Governança de dados](using/action/action-privacy.md)
    + [Configurar e gerenciar Customer Managed Keys](using/privacy/cmk.md)
+
