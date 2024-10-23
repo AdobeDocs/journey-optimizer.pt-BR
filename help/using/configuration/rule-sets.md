@@ -12,10 +12,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1960'
+ht-degree: 10%
 
 ---
 
@@ -30,13 +30,15 @@ ht-degree: 0%
 >
 >Os conjuntos de regras estão disponíveis no momento como uma versão beta somente para usuários selecionados. Entre em contato com o representante da Adobe para ser incluído na Beta.
 
-## O que são conjuntos de regras? {#what}
+## Introdução aos conjuntos de regras {#gs}
+
+### O que são conjuntos de regras? {#what}
 
 Além das regras de negócios globais que restringem o número de vezes que os usuários recebem mensagens em um ou vários canais, os conjuntos de regras permitem **agrupar várias regras em conjuntos de regras** e aplicá-las às campanhas de sua escolha. Isso oferece maior granularidade para controlar a frequência com que os usuários receberão uma mensagem, dependendo do tipo de comunicação.
 
 Por exemplo, você pode criar um conjunto de regras para limitar o número de **comunicações promocionais** enviadas aos seus clientes e outro conjunto de regras para limitar o número de **boletins informativos** enviados a eles. Dependendo do tipo de campanha que está sendo criada, você pode optar por aplicar a comunicação promocional ou o conjunto de regras de boletins informativos.
 
-## Conjuntos de regras globais e personalizadas {#global-custom}
+### Conjuntos de regras globais e personalizadas {#global-custom}
 
 Ao acessar conjuntos de regras pela primeira vez no menu **[!UICONTROL Administração]** > **[!UICONTROL Regras de negócio (Beta)]**, um conjunto de regras padrão é pré-criado e ativo: **Conjunto de Regras Padrão Global**.
 
@@ -50,9 +52,18 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 >
 >Por enquanto, conjuntos de regras personalizados podem ser aplicados somente a **campanhas**. Somente as regras definidas no conjunto de regras &quot;Conjunto de regras padrão global&quot; se aplicam às comunicações do jornada e das campanhas.
 
+### Regras de limite de canal e jornadas {#domain}
+
+Ao criar um conjunto de regras, é necessário especificar se as regras no conjunto de regras aplicarão regras de limite específicas para canais de comunicação ou jornadas.
+
+Isso é feito selecionando um Domínio de canal ou Jornada para o conjunto de regras ao criá-lo. [Saiba como criar um conjunto de regras]
+
+* Domínio **Channel**: aplique regras de limitação para canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia.
+* Domínio **Jornada**: aplique regras de limite de entrada e simultaneidade a uma jornada. Por exemplo, não insira perfis em mais de uma jornada simultaneamente.
+
 ## Criar seu primeiro conjunto de regras personalizado {#create-rule-set}
 
-### Criar o conjunto de regras {#create}
+### Crie o conjunto de regras e selecione seu domínio {#create}
 
 Para criar um conjunto de regras, siga as etapas abaixo.
 
@@ -64,13 +75,16 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 
    ![](assets/rule-sets-create-button.png)
 
-1. Defina o nome do conjunto de regras, adicione uma descrição se desejar e clique em **[!UICONTROL Salvar]**.
+1. Defina um nome exclusivo para o conjunto de regras e adicione uma descrição.
+
+1. Selecione o domínio do conjunto de regras. O domínio permite especificar se o conjunto de regras conterá regras de limitação específicas para canais de comunicação ou jornadas:
+
+   * **Canal**: aplique regras de limitação para canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia.
+   * **Jornada**: aplique regras de limite de entrada e simultaneidade a uma jornada. Por exemplo, não insira perfis em mais de uma jornada simultaneamente.
 
    ![](assets/rule-sets-create.png)
 
-   >[!NOTE]
-   >
-   >O nome do conjunto de regras deve ser exclusivo.
+1. Clique em **[!UICONTROL Salvar]**.
 
 1. Agora você pode [definir as regras](#create-new-rule) que deseja adicionar a este conjunto de regras.
 
@@ -96,13 +110,15 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 >title="Selecionar a categoria da regra da mensagem"
 >abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de frequência correspondentes à categoria selecionada serão automaticamente aplicadas a essa mensagem. Atualmente, somente a categoria Marketing está disponível."
 
-Para adicionar uma regra a um conjunto de regras, siga as etapas abaixo.
+Para adicionar uma regra a um conjunto de regras, acesse o conjunto e clique em **[!UICONTROL Adicionar regra]**.
 
-1. No conjunto de regras recém-criado, clique em **[!UICONTROL Adicionar regra]**.
+Os parâmetros disponíveis para a regra dependem do domínio do conjunto de regras selecionado em sua criação.
 
-   ![](assets/rule-sets-create-rule-button.png)
++++Configurar regras de limitação de canal (domínio **Canal**)
 
-1. Defina um **Nome da regra** exclusivo.
+![](assets/rule-set-channels.png)
+
+1. Defina um nome exclusivo para a regra.
 
 1. O campo **Categoria** especifica a categoria da mensagem à qual a regra se aplica. Por enquanto, este campo é somente leitura, pois somente a categoria **[!UICONTROL Marketing]** está disponível.
 
@@ -130,8 +146,6 @@ Para adicionar uma regra a um conjunto de regras, siga as etapas abaixo.
 
 1. Selecione o canal que deseja usar para esta regra: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push]** ou **[!UICONTROL Correspondência direta]**.
 
-   ![](assets/rule-set-channels.png)
-
    >[!NOTE]
    >
    >Você deve selecionar pelo menos um canal para criar a regra.
@@ -139,6 +153,23 @@ Para adicionar uma regra a um conjunto de regras, siga as etapas abaixo.
 1. Selecione vários canais se desejar aplicar o limite em todos os canais selecionados como uma contagem total.
 
    Por exemplo, defina o limite como 5 e selecione os canais de email e de sms. Se um perfil já tiver recebido três emails de marketing e dois sms de marketing para o período selecionado, esse perfil será excluído do próximo delivery de qualquer email ou sms de marketing.
+
++++
+
++++Configurar regras de limitação de jornada (**Jornada** domínio)
+
+![](assets/rule-set-journey.png)
+
+1. Forneça um nome exclusivo para a regra.
+
+1. Na lista suspensa **[!UICONTROL Tipo de Regra]**, especifique o tipo de limite para a regra.
+
+   * **[!UICONTROL Limite de Entrada de Jornada]**: Limita o número de entradas na jornada em um determinado período para um perfil.
+   * **[!UICONTROL Limite de Simultaneidade de Jornada]**: Limita quantas jornadas um perfil pode ser inscrito simultaneamente.
+
+1. Informações detalhadas sobre como configurar regras de limite de jornada estão disponíveis na seção [Limite de Jornada e arbitragem](../test-approve/journey-capping.md).
+
++++
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar a criação da regra. Sua mensagem foi adicionada ao conjunto de regras, com o status **[!UICONTROL Rascunho]**.
 
@@ -206,9 +237,11 @@ Users with the **[!UICONTROL View frequency rules]** permission are able to view
 
 Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
-## Aplicar um conjunto de regras a uma mensagem {#apply-frequency-rule}
+## Aplicar conjuntos de regras a uma mensagem ou jornada {#apply-frequency-rule}
 
-Para aplicar uma regra de negócios a uma mensagem, siga as etapas abaixo.
+É possível aplicar um conjunto de regras a uma mensagem ou jornada, dependendo do domínio selecionado ao criar o conjunto de regras. Expanda as seções abaixo para obter mais informações.
+
++++ Aplicar um conjunto de regras a uma mensagem
 
 1. Ao criar uma [campanha](../campaigns/create-campaign.md), selecione um dos canais definidos para o conjunto de regras e edite o conteúdo da sua mensagem.
 
@@ -266,3 +299,17 @@ In this scenario, an individual profile:
 * but will be excluded from marketing push notifications after they have received 4 push notifications.-->
 
 Ao testar as regras de frequência, é recomendável usar um [perfil de teste](../audience/creating-test-profiles.md) recém-criado, pois, quando o limite de frequência de um perfil é atingido, não há como redefinir o contador até o próximo período. A desativação de uma regra permitirá que perfis limitados recebam mensagens, mas não removerá nem excluirá incrementos de contador.
+
++++
+
++++ Aplicar um conjunto de regras a uma jornada
+
+Para aplicar uma regra de limitação a uma jornada, acesse a jornada e abra suas propriedades. No menu suspenso **[!UICONTROL Regras de limitação]**, selecione o conjunto de regras relevante.
+
+![](assets/journey-capping-apply.png)
+
+>[!IMPORTANT]
+>
+>Se uma jornada for ativada imediatamente, pode levar até 15 minutos para que o sistema comece a suprimir clientes. Você pode agendar sua jornada para começar pelo menos 15 minutos no futuro para evitar essa possibilidade.
+
++++
