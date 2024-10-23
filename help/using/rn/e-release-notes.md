@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d953f4e411b6d73886c9cb1d6d47152a0480de36
+source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 46%
+source-wordcount: '1775'
+ht-degree: 43%
 
 ---
 
@@ -120,14 +120,14 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 <table>
 <thead>
 <tr>
-<th><strong>Regras comerciais (Disponibilidade geral)</strong><br/></th>
+<th><strong>Conjuntos de regras (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível criar regras granulares de limite de frequência e aplicá-las a diferentes tipos de comunicações de marketing por meio de conjuntos de regras. Esse novo recurso permite controlar a frequência com que seus públicos-alvo recebem uma mensagem definindo regras entre canais que excluem automaticamente perfis excessivamente solicitados de mensagens e ações.</p>
-<p>Anteriormente disponíveis para um conjunto de organizações (DL), os conjuntos de regras agora estão disponíveis para todos os usuários (DG).</p>
+<p>Agora é possível criar regras granulares de limite de frequência e aplicá-las às suas mensagens ou jornadas por meio de conjuntos de regras. Esse novo recurso permite controlar a frequência com que seus públicos-alvo recebem uma mensagem definindo regras entre canais que excluem automaticamente perfis excessivamente solicitados de mensagens e ações.</p><p>Também permite limitar o número de jornadas por dia, semana ou mês, bem como controlar o número de jornadas simultâneas executadas simultaneamente.</p>
+<p> Os conjuntos de regras estão disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão gradualmente lançados para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera para esse recurso.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -234,13 +234,17 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 * Você pode definir e gerenciar palavras-chave exclusivas para suas campanhas e jornadas de SMS, permitindo uma comunicação mais personalizada e eficiente.
 * Você pode criar e enviar uma mensagem SMS padrão quando uma palavra-chave não é reconhecida.
 
-**Gerenciamento de frequência e prioridade**
+**Gerenciamento de conflitos e prioridades**
 
-* **Limite de frequência por campanha ou jornada** - Agora é possível criar regras de frequência para aplicar às suas jornadas, permitindo limitar o número de jornadas por dia, semana ou mês, bem como controlar o número de jornadas simultâneas executadas simultaneamente.
+* **Limite de frequência por jornada** - Agora é possível criar conjuntos de regras para serem aplicados às suas jornadas, permitindo limitar o número de jornadas por dia, semana ou mês, bem como controlar o número de jornadas simultâneas executadas simultaneamente.
 
 * **Pontuação de prioridade** - Agora é possível atribuir uma pontuação de prioridade a uma campanha ou jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas campanhas ou jornadas usam a mesma configuração de canal, o Journey Optimizer seleciona aquela com a pontuação de prioridade mais alta. Se as campanhas tiverem a mesma pontuação, a campanha modificada mais recentemente será escolhida. A pontuação de prioridade está disponível para todos os canais de entrada em campanhas e para o canal no aplicativo no jornada.
 
 * **Exibir conflitos** - Um novo botão **Exibir conflitos** em jornadas e campanhas agora permite que você verifique sempre que houver uma possibilidade de sobreposição com outras jornadas ou campanhas, como a data de início, o público-alvo ou a configuração de canal selecionada.
+
+>[!AVAILABILITY]
+>
+>Os recursos de gerenciamento de conflitos e prioridades estão disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão gradualmente lançados para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera para esse recurso.
 
 **Gestão de decisões**
 
