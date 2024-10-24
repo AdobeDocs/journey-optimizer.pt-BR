@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: 2df350352a44bff2cb5475d3968aa127da6a27bf
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 14%
@@ -21,7 +21,7 @@ ht-degree: 14%
 >id="ajo_create_visual_fragment"
 >title="Selecione o tipo “Visual”"
 >abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email de uma jornada ou campanha ou em um modelo de conteúdo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication/channels/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais aos emails"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais aos emails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
