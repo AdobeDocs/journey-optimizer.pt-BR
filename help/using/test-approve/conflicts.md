@@ -1,15 +1,15 @@
 ---
-title: Identificar possíveis conflitos em jornadas e campanhas
+title: Exibir possíveis conflitos em jornadas e campanhas
 description: Saiba como identificar possíveis conflitos em jornadas e campanhas.
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 3%
+source-wordcount: '699'
+ht-degree: 5%
 
 ---
 
@@ -40,6 +40,8 @@ As principais áreas a serem monitoradas quanto a possíveis sobreposições sã
 * **Canal**: há outras comunicações agendadas para o mesmo período? Em caso afirmativo, quantas?
 * **Conjunto de Regras de Limite**: que tipos de jornadas estou limitando e há sobreposição entre eles?
 * **Configuração de Canal**: há outras jornadas ou campanhas usando qualquer configuração de canal que esteja sendo usada na mesma jornada ou campanha que possam impedir a exibição da jornada ou campanha ao usuário final?
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 ## Como o Journey Optimizer detecta conflitos {#detection}
 
@@ -86,3 +88,7 @@ Estas são algumas dicas para reduzir os possíveis conflitos depois de identifi
 * Defina **prioridades** em ações de entrada para garantir que a ação mais importante seja exibida para os clientes.
 
 Ao aproveitar esses recursos, você pode garantir que seus esforços de marketing estejam alinhados e que você mantenha o equilíbrio certo em sua estratégia de comunicação.
+
+## Vídeo tutorial {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)

@@ -6,10 +6,10 @@ level: Beginner
 badge: label="Disponibilidade limitada"
 hide: true
 hidefromtoc: true
-source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -37,6 +37,8 @@ O limite de jornada ajuda a limitar o número de jornadas nas quais um perfil po
 * **Limite de simultaneidade** limita quantas jornadas um perfil pode ser inscrito simultaneamente.
 
 Ambos os tipos de limite de jornada usam pontuações de prioridade para arbitrar entradas.
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 ## Criar uma regra de limite de jornada {#create-rule}
 
@@ -115,3 +117,7 @@ Quando a jornada for ativada, as regras de limitação definidas no conjunto de 
 >[!IMPORTANT]
 >
 >Se uma jornada for ativada imediatamente, pode levar até 15 minutos para que o sistema comece a suprimir clientes. Você pode agendar sua jornada para começar pelo menos 15 minutos no futuro para evitar essa possibilidade.
+
+## Vídeo tutorial {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d458cf01c9d14682deb080083ab8bb468b3b4fd7
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1968'
 ht-degree: 10%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 10%
 Além das regras de negócios globais que restringem o número de vezes que os usuários recebem mensagens em um ou vários canais, os conjuntos de regras permitem **agrupar várias regras em conjuntos de regras** e aplicá-las às campanhas de sua escolha. Isso oferece maior granularidade para controlar a frequência com que os usuários receberão uma mensagem, dependendo do tipo de comunicação.
 
 Por exemplo, você pode criar um conjunto de regras para limitar o número de **comunicações promocionais** enviadas aos seus clientes e outro conjunto de regras para limitar o número de **boletins informativos** enviados a eles. Dependendo do tipo de campanha que está sendo criada, você pode optar por aplicar a comunicação promocional ou o conjunto de regras de boletins informativos.
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 ### Conjuntos de regras globais e personalizadas {#global-custom}
 
@@ -313,3 +315,7 @@ Para aplicar uma regra de limitação a uma jornada, acesse a jornada e abra sua
 >Se uma jornada for ativada imediatamente, pode levar até 15 minutos para que o sistema comece a suprimir clientes. Você pode agendar sua jornada para começar pelo menos 15 minutos no futuro para evitar essa possibilidade.
 
 +++
+
+## Vídeo tutorial {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
