@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: acc3d61b571f577187503157b78de1d27ce5e1ee
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '3066'
-ht-degree: 55%
+source-wordcount: '3162'
+ht-degree: 54%
 
 ---
 
@@ -51,6 +51,25 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Personalização da configuração de email (Disponibilidade geral) </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Para obter mais flexibilidade e controle sobre as configurações de email, você pode definir subdomínios dinâmicos e parâmetros de cabeçalho personalizados ao criar configurações de canal de email.
+</p>
+<p>Anteriormente disponível para um conjunto de organizações (DL), a personalização da configuração de email agora está disponível para todos os usuários (GA).</p>
+<p>Para obter mais informações, consulte a <a href="../email/surface-personalization.md">documentação detalhada</a>.</p>
+<img src="assets/do-not-localize/surface-perso.gif"/>
+<p>Data de disponibilidade: 23 de outubro de 2024</p>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -342,7 +361,10 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
 * O uso de públicos-alvo e de atributos dos uploads personalizados (arquivos CSV) está atualmente indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 
-**Canal baseado em código**
+**Configuração** - Data de disponibilidade: 23 de outubro de 2024
+
+* Ao usar uma configuração personalizada em uma campanha ou jornada, agora é possível visualizar seu conteúdo de email para verificar possíveis erros com as configurações dinâmicas definidas. [Saiba mais](../email/surface-personalization.md#check-configuration)
+  **Canal baseado em código**
 
 * Os templates de conteúdo agora estão disponíveis. Você pode acelerar a criação de suas experiências baseadas em código, começando por um modelo de conteúdo criado por seus desenvolvedores. Usar um modelo de conteúdo permitirá que o profissional de marketing modifique apenas alguns valores ou campos, em vez de compor toda a carga de conteúdo HTML ou JSON.
 

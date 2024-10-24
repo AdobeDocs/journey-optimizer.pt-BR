@@ -10,20 +10,16 @@ level: Experienced
 keywords: configurações, email, configuração, subdomínio
 badge: label="Disponibilidade limitada"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1057'
+ht-degree: 7%
 
 ---
 
 # Personalizar configurações de email {#surface-personalization}
 
 Para aumentar a flexibilidade e o controle sobre suas configurações de email, o [!DNL Journey Optimizer] permite que você defina valores personalizados para subdomínios e cabeçalhos<!--and URL tracking parameters--> ao criar configurações de email.
-
->[!AVAILABILITY]
->
->No momento, a personalização da configuração de email está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 
 ## Adicionar subdomínios dinâmicos {#dynamic-subdomains}
 
@@ -110,13 +106,19 @@ Para usar variáveis personalizadas para seus parâmetros de cabeçalho de confi
 
    ![](assets/surface-email-personalize-header.png)
 
-1. O [editor de personalização](../personalization/personalization-build-expressions.md) se abre. Defina sua condição como desejado e salve as alterações.
+1. O [editor de personalização](../personalization/personalization-build-expressions.md) se abre. Defina a condição como desejado e salve as alterações.
 
-   Por exemplo, defina uma condição para que cada recipient receba um email do representante de sua própria marca.
+   <!--For example, set a condition such as each recipient receives an email from their own brand representative.-->
 
    >[!NOTE]
    >
    >Você só pode selecionar **[!UICONTROL Atributos do perfil]** e **[!UICONTROL Funções auxiliares]**.
+
+   Digamos que você queira lidar com emails enviados dinamicamente em nome de um assistente de vendas, onde o assistente de vendas é recuperado de um evento ou parâmetros contextuais de campanha. Por exemplo:
+
+   * Em uma [jornada](../building-journeys/journey-gs.md), quando um evento de compra é vinculado ao assistente de vendas de uma loja específica, o cabeçalho do email (nome do remetente, email do remetente, endereço de resposta) pode ser personalizado com os parâmetros do assistente de vendas, obtidos dos atributos do evento.
+
+   * Em uma [campanha acionada por API](../campaigns/api-triggered-campaigns.md), iniciada externamente por um assistente de vendas, o email acionado pode ser enviado em nome do assistente de vendas e os valores de personalização do cabeçalho podem ser obtidos de parâmetros contextuais da campanha.
 
 1. Repita as etapas acima para cada parâmetro ao qual deseja adicionar personalização.
 
@@ -138,7 +140,7 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## Exibir detalhes da configuração {#view-surface-details}
 
-Ao usar uma configuração com configurações personalizadas em uma campanha ou configuração, você pode exibir os detalhes da configuração diretamente na campanha ou configuração. Siga as etapas abaixo.
+Ao usar uma configuração com configurações personalizadas em uma campanha ou jornada, você pode exibir os detalhes da configuração diretamente na campanha ou na jornada. Siga as etapas abaixo.
 
 1. Crie um email [campanha](../campaigns/create-campaign.md) ou [jornada](../building-journeys/journey-gs.md).
 
@@ -157,3 +159,33 @@ Ao usar uma configuração com configurações personalizadas em uma campanha ou
 1. Selecione **[!UICONTROL Expandir]** para exibir os detalhes dos subdomínios dinâmicos.
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
+
+## Verifique sua configuração {#check-configuration}
+
+Ao usar uma configuração personalizada em uma campanha ou jornada, você pode visualizar seu conteúdo de email para verificar possíveis erros com as configurações dinâmicas definidas. Siga as etapas abaixo.
+
+1. Na tela de edição de conteúdo da sua mensagem ou no Designer de Email, clique no botão **[!UICONTROL Simular conteúdo]**. [Saiba mais](../content-management/preview.md)
+
+1. Selecione um [perfil de teste](../content-management/test-profiles.md).
+
+1. Se um erro for exibido, clique no botão **[!UICONTROL Exibir detalhes da configuração]**.
+
+   ![](assets/campaign-simulate-config-error.png)
+
+1. Verifique os detalhes do erro na tela **[!UICONTROL Configurações de entrega]**.
+
+   ![](assets/campaign-simulate-config-details.png)
+
+Os possíveis erros podem ser os seguintes:
+
+* O **subdomínio** não foi resolvido para o perfil de teste selecionado. Por exemplo, sua configuração usa vários subdomínios de envio correspondentes a países diferentes, mas o perfil selecionado não tem um valor definido para o atributo `Country`, ou o atributo está definido como `France`, mas esse valor não está associado a nenhum subdomínio nessa configuração.
+
+* O perfil selecionado não tem valores associados para um ou mais **parâmetros de cabeçalho**.
+
+Com qualquer um desses erros, o email não é enviado para o perfil de teste selecionado.
+
+Para evitar esse tipo de erro, verifique se os parâmetros de cabeçalho definidos usam atributos personalizados com valores para a maioria dos perfis. Os valores ausentes podem afetar a capacidade de entrega de email.
+
+>[!NOTE]
+>
+>Saiba mais sobre a capacidade de entrega em [esta seção](../reports/deliverability.md)
