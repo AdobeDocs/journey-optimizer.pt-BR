@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '214'
 ht-degree: 7%
 
 ---
@@ -26,17 +26,21 @@ Essa funcionalidade permite que usuários orientados a conteúdo trabalhem em mo
 
 Por exemplo, um usuário em sua empresa é responsável apenas pelo conteúdo e, portanto, não tem acesso a campanhas ou jornadas. No entanto, esse usuário pode criar um modelo de email que os profissionais de marketing da sua organização poderão selecionar para uso em todos os emails como ponto de partida.
 
-Você também pode criar e gerenciar modelos de conteúdo usando APIs. Para obter mais informações, consulte a [documentação das APIs do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+Você pode criar modelos de conteúdo para os canais de email, push, no aplicativo, SMS e correspondência direta.
+
+>[!AVAILABILITY]
+>
+>Atualmente, os modelos de conteúdo não estão disponíveis para o canal da Web.
+
+Para criar, editar e excluir modelos de conteúdo, você deve ter a permissão **[!DNL Manage library items]** incluída no perfil de produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
 
 ➡️ [Saiba como criar e usar modelos neste vídeo](#video-templates)
 
->[!CAUTION]
+>[!NOTE]
 >
->Atualmente, os modelos de conteúdo não estão disponíveis para o canal da Web.
->
->Para criar, editar e excluir modelos de conteúdo, você deve ter a permissão **[!DNL Manage library items]** incluída no perfil de produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
+>Você também pode criar e gerenciar modelos de conteúdo usando APIs. Para obter mais informações, consulte a [documentação das APIs do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
-## Vídeo explicativo {#video-templates}
+## Vídeo tutorial {#video-templates}
 
 Saiba como criar, editar e usar modelos de conteúdo no [!DNL Journey Optimizer].
 

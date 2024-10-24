@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
+source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2152'
 ht-degree: 94%
 
 ---
@@ -350,6 +350,7 @@ ht-degree: 94%
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
       + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
+      + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
       + [Usar modelos de conteúdo](using/content-management/use-content-templates.md)
    + Fragmentos de conteúdo reutilizáveis {#fragments}
