@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdomínios, configuração
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 24%
 >id="ajo_admin_subdomain_sms"
 >title="Delegar um subdomínio de SMS/MMS"
 >abstract="Você deve configurar um subdomínio para usar com as mensagens de texto, pois ele será necessário para criar uma configuração de SMS. Você pode usar um subdomínio já delegado à Adobe ou configurar um novo subdomínio."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="Criar superfícies de SMS"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/sms/configure-sms/sms-configuration-surface" text="Criar superfícies de SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="Selecionar um subdomínio de SMS/MMS"
 >abstract="Para criar uma configuração de SMS, verifique se você configurou anteriormente pelo menos um subdomínio de SMS que possa ser selecionado na lista Nome de subdomínio."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="Criar superfícies de SMS"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/sms/configure-sms/sms-configuration-surface" text="Criar superfícies de SMS"
 
 Para encurtar URLs adicionadas às suas mensagens SMS/MMS, você deve configurar o subdomínio que selecionará ao [criar uma configuração de SMS](sms-configuration.md#message-preset-sms).
 

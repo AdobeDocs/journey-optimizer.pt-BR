@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing page, landing page, criação, página, formulário, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 050253e0f74f506649540ae3656a3a1f050331cb
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 9%
@@ -22,7 +22,7 @@ ht-degree: 9%
 >id="ac_lp_components"
 >title="Usar componentes de conteúdo"
 >abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino. Para definir um conteúdo específico que permitirá aos usuários selecionar e enviar suas opções, use o componente de formulário."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=pt-BR#add-content-components" text="Adicionar componentes de conteúdo"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/email/design-email/add-content/content-components#add-content-components" text="Adicionar componentes de conteúdo"
 
 Para projetar o conteúdo da página de aterrissagem, é possível usar os mesmos componentes de um email. [Saiba mais](../email/content-components.md#add-content-components)
 

@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: af3ed02a1af6c0fea3078bdfca6f568356c06eb4
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
-source-wordcount: '1853'
-ht-degree: 41%
+source-wordcount: '1897'
+ht-degree: 40%
 
 ---
 
@@ -75,7 +75,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode definir subdomínios dinâmicos e parâmetros de cabeçalho personalizados ao criar configurações de canais de email, para aumentar a flexibilidade e o controle sobre suas configurações de email.</p>
+<p>Agora você pode definir subdomínios dinâmicos e parâmetros de cabeçalho personalizados ao criar configurações de canais de email, para aumentar a flexibilidade e o controle sobre suas configurações de email.</p><p>Usar uma configuração personalizada em uma campanha ou jornada permite que você visualize seu conteúdo de email para verificar possíveis erros com as configurações dinâmicas definidas.</p>
 <p>Anteriormente disponível para um conjunto de organizações (DL), a personalização da configuração de email agora está disponível para todos os usuários (GA).</p>
 <p>Para obter mais informações, consulte a <a href="../email/surface-personalization.md">documentação detalhada</a>.</p>
 </td>
@@ -277,10 +277,6 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 * Você pode definir e gerenciar palavras-chave exclusivas para suas campanhas e jornadas de SMS, permitindo uma comunicação mais personalizada e eficiente.
 * Você pode criar e enviar uma mensagem SMS padrão quando uma palavra-chave não é reconhecida.
 
-**Configuração**
-
-* **Personalização da configuração do canal** - Ao usar uma configuração personalizada em uma campanha ou jornada, agora você pode visualizar seu conteúdo de email para verificar possíveis erros com as configurações dinâmicas definidas.
-
 **Jornadas**
 
 * **Experimento de caminho no jornada** - Com o experimento de caminho de jornada, agora é possível definir e rastrear métricas principais para seus caminhos de jornada, permitindo medir o impacto de suas atividades e fornecer insights mais claros sobre o desempenho.
@@ -317,3 +313,10 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 * Ao direcionar um público-alvo de arquivo CSV, agora é possível usar atributos do arquivo no editor de personalização e no construtor de regras de jornadas e campanhas. [Saiba mais](../audience/about-audiences.md)
 
 * O uso de públicos-alvo e de atributos dos uploads personalizados (arquivos CSV) está atualmente indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
+
+**Canal baseado em código**
+
+* Os templates de conteúdo agora estão disponíveis. Você pode acelerar a criação de suas experiências baseadas em código, começando por um modelo de conteúdo criado por seus desenvolvedores. Usar um modelo de conteúdo permitirá que o profissional de marketing modifique apenas alguns valores ou campos, em vez de compor toda a carga de conteúdo HTML ou JSON.
+
+
+
