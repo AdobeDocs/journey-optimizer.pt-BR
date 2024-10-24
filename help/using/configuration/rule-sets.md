@@ -12,7 +12,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
+source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
 workflow-type: tm+mt
 source-wordcount: '1968'
 ht-degree: 10%
@@ -56,9 +56,7 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 
 ### Regras de limite de canal e jornadas {#domain}
 
-Ao criar um conjunto de regras, é necessário especificar se as regras no conjunto de regras aplicarão regras de limite específicas para canais de comunicação ou jornadas.
-
-Isso é feito selecionando um Domínio de canal ou Jornada para o conjunto de regras ao criá-lo. [Saiba como criar um conjunto de regras]
+Ao criar um conjunto de regras, é necessário especificar se as regras no conjunto de regras aplicarão regras de limite específicas para canais de comunicação ou jornadas.  Isso é feito selecionando um Canal ou domínio do Jornada para o conjunto de regras ao criá-lo. [Saiba como criar um conjunto de regras](#create)
 
 * Domínio **Channel**: aplique regras de limitação para canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia.
 * Domínio **Jornada**: aplique regras de limite de entrada e simultaneidade a uma jornada. Por exemplo, não insira perfis em mais de uma jornada simultaneamente.
