@@ -7,9 +7,9 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,12 @@ Aprimore sua personalização da tela com as seguintes opções:
 * Ajuste o **[!UICONTROL valor percentual]** para determinar a distribuição de fluxo entre caminhos de jornada diferentes.
 * Personalize suas **[!UICONTROL Configurações de seta]** para incluir rótulos, condições ou optar por uma exibição limpa.
 * Habilite a opção **[!UICONTROL Mostrar fallout]** para visualizar os perfis que saíram da sua jornada diretamente na tela.
+
+As seguintes regras se aplicam ao usar a Filtragem **[!UICONTROL Tipo de Nó]**:
+
+* Ao criar um segmento em um nó, ele ainda englobará nós de estágios anteriores da jornada, mesmo que esses nós tenham sido excluídos por meio do filtro **[!UICONTROL Tipo de nó]**.
+
+* Não é possível criar segmentos formados por uma seta se os nós em estágios anteriores da jornada tiverem sido excluídos por meio do filtro **[!UICONTROL Tipo de nó]**. Nesse caso, a funcionalidade de clicar com o botão direito do mouse será desativada nessas setas.
 
 ## Desempenho da ação {#action-performance}
 
