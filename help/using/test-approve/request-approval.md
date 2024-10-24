@@ -4,9 +4,9 @@ description: Saiba como solicitar aprovação antes de publicar suas jornadas e 
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: ade30d6b33467ad05146ddee3ea1c1a4115d38b2
+source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,11 @@ O acesso ao fluxo de trabalho de aprovação é determinado pelo seu caso de uso
 
 * **Existem políticas de Aprovação Ativas**
 
-   * **Campanhas**: se uma ou mais políticas de aprovação ativas existirem para o objeto Campanha em uma sandbox, todas as campanhas nessa sandbox exibirão o botão **[!UICONTROL Solicitar Aprovação]**. Isso significa que as campanhas não podem ser ativadas diretamente sem aprovação.
+   * **Campanhas**: se uma ou mais políticas de aprovação ativas existirem para o objeto Campanha em uma sandbox, todas as campanhas nessa sandbox exibirão o botão **[!UICONTROL Solicitar Aprovação]**.
+Se nenhuma política de aprovação se aplicar ao objeto selecionado quando o botão **[!UICONTROL Solicitar Aprovação]** for clicado, o fluxo de trabalho de aprovação automática será acionado.
 
-   * **Jornadas**: se uma ou mais políticas de aprovação ativas existirem para o objeto de Jornada em uma sandbox, todas as jornadas exibirão o botão **[!UICONTROL Solicitar Aprovação]**. Semelhante às campanhas, as jornadas não podem ser publicadas diretamente se uma política de aprovação estiver ativa.
+   * **Jornadas**: se uma ou mais políticas de aprovação ativas existirem para o objeto de Jornada em uma sandbox, todas as jornadas exibirão o botão **[!UICONTROL Solicitar Aprovação]**.
+Se nenhuma política de aprovação se aplicar ao objeto selecionado quando o botão **[!UICONTROL Solicitar Aprovação]** for clicado, o fluxo de trabalho de aprovação automática será acionado.
 
 ## Enviar solicitação de aprovação
 
