@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c9943f9b8dbd7668bf520c9e3e7a26251d6d3f0b
+source-git-commit: ff18cda7556240b9770639edca42ea9321d00d7a
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3066'
 ht-degree: 55%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 55%
 
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas na última semana de cada mês nestas notas de versão. O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
-## Notas de versão de 24 de outubro {#24-10-rn}
+## Notas de versão antecipadas de outubro de 2024 {#24-10-rn}
 
 >[!CAUTION]
 >
@@ -211,7 +211,7 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 <tr>
 <td>
 <p>Agora ficou mais fácil criar conteúdo em vários idiomas em uma única campanha ou jornada. Com esse recurso, é possível alternar entre idiomas ao editar a campanha ou a jornada, simplificando todo o processo de edição e melhorando sua capacidade de gerenciar com eficiência o conteúdo multilíngue.</p>
-<p>Com a disponibilidade geral, o conteúdo multilíngue agora pode ser acessado em todos os canais. </p>
+<p>Anteriormente disponíveis para um conjunto de organizações (DL), as mensagens multilíngues agora estão disponíveis para todos os usuários (DG).</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
