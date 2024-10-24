@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
+source-git-commit: af3ed02a1af6c0fea3078bdfca6f568356c06eb4
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 40%
+source-wordcount: '1853'
+ht-degree: 41%
 
 ---
 
@@ -83,6 +83,29 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Gerenciamento de conflitos e prioridades (disponibilidade limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>No Journey Optimizer, gerenciar o volume e o tempo das campanhas e jornadas é essencial para evitar sobrecarregar os clientes com muitas interações. O Journey Optimizer agora oferece várias ferramentas para o gerenciamento de conflitos e a priorização.</p><p><ul><li><b>limite de frequência de Jornada</b>: agora é possível criar conjuntos de regras para serem aplicados às suas jornadas, permitindo limitar o número de jornadas por dia, semana ou mês, bem como controlar o número de jornadas simultâneas executadas simultaneamente.</li>
+<li><b>Pontuação de prioridade</b>: agora é possível atribuir uma pontuação de prioridade a uma campanha ou jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas campanhas ou ações de jornada usam a mesma configuração de canal, o Journey Optimizer seleciona aquela com a pontuação de prioridade mais alta. Se as campanhas tiverem a mesma pontuação, a campanha que foi modificada menos recentemente será escolhida.</li>
+<li><b>Exibir conflitos potenciais</b>: um novo botão "Exibir conflitos potenciais" nas jornadas e campanhas agora permite identificar sobreposições com outras jornadas ou campanhas, como a data de início, o público-alvo ou a configuração de canal selecionada.</li>
+<li><b>Arbitragem de Jornada</b>: esse novo recurso permite que você priorize as jornadas mais importantes para seus clientes. É possível criar uma regra para suprimir a entrada em uma jornada de prioridade mais baixa quando um cliente se qualifica para uma jornada futura de prioridade mais alta.</li></ul></p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
+<p>Os recursos de gerenciamento de conflitos e prioridades estão disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão gradualmente lançados para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera para esses recursos.</p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+
 <table>
 <thead>
 <tr>
@@ -147,7 +170,7 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 <tr>
 <td>
 <p>Agora é possível criar regras granulares de limite de frequência e aplicá-las às suas mensagens ou jornadas por meio de conjuntos de regras. Esse novo recurso permite controlar a frequência com que seus públicos-alvo recebem uma mensagem definindo regras entre canais que excluem automaticamente perfis excessivamente solicitados de mensagens e ações.</p><p>Também permite limitar o número de jornadas por dia, semana ou mês, bem como controlar o número de jornadas simultâneas executadas simultaneamente.</p>
-<p> Os conjuntos de regras estão disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão gradualmente lançados para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera para esse recurso.</p>
+<p>Os conjuntos de regras estão disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão gradualmente lançados para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera para esse recurso.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -254,18 +277,6 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 * Você pode definir e gerenciar palavras-chave exclusivas para suas campanhas e jornadas de SMS, permitindo uma comunicação mais personalizada e eficiente.
 * Você pode criar e enviar uma mensagem SMS padrão quando uma palavra-chave não é reconhecida.
 
-**Gerenciamento de conflitos e prioridades**
-
-* **Limite de frequência por jornada** - Agora é possível criar conjuntos de regras para serem aplicados às suas jornadas, permitindo limitar o número de jornadas por dia, semana ou mês, bem como controlar o número de jornadas simultâneas executadas simultaneamente.
-
-* **Pontuação de prioridade** - Agora é possível atribuir uma pontuação de prioridade a uma campanha ou jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas campanhas ou jornadas usam a mesma configuração de canal, o Journey Optimizer seleciona aquela com a pontuação de prioridade mais alta. Se as campanhas tiverem a mesma pontuação, a campanha modificada mais recentemente será escolhida. A pontuação de prioridade está disponível para todos os canais de entrada em campanhas e para o canal no aplicativo no jornada.
-
-* **Exibir conflitos** - Um novo botão **Exibir conflitos** em jornadas e campanhas agora permite que você verifique sempre que houver uma possibilidade de sobreposição com outras jornadas ou campanhas, como a data de início, o público-alvo ou a configuração de canal selecionada.
-
->[!AVAILABILITY]
->
->Os recursos de gerenciamento de conflitos e prioridades estão disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão gradualmente lançados para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera para esse recurso.
-
 **Configuração**
 
 * **Personalização da configuração do canal** - Ao usar uma configuração personalizada em uma campanha ou jornada, agora você pode visualizar seu conteúdo de email para verificar possíveis erros com as configurações dinâmicas definidas.
@@ -276,16 +287,14 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
 * **Número máximo de jornadas ativas**: o Journey Optimizer agora tem uma medida de proteção de 500 jornadas ativas em sandboxes de produção, em vez de 100. O número de jornadas ativas é visível na tela de jornada. <!-- DOCAC-10977-->
 
-* **Grade de proteção de tempo de vida** - A partir de 1º de novembro de 2024, uma grade de proteção de tempo de vida (TTL) será aplicada aos conjuntos de dados gerados pelo sistema da Journey Optimizer da seguinte maneira:
+* **Grade de proteção de tempo de vida** - A partir de 1º de novembro de 2024, uma grade de proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema da Journey Optimizer em novas sandboxes e novas organizações da seguinte maneira:
 
-   * 90 dias para dados no armazenamento de perfil
+   * 90 dias para dados na loja de perfis
    * 13 meses para dados no data lake
 
-  Além disso, nesse momento, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos de envio e feedback de conjuntos de dados de rastreamento e feedback. Temos recomendado por algum tempo para não usar esses eventos para segmentação de transmissão e agora vamos desativá-los completamente.
+  Essa alteração será implementada em sandboxes de clientes existentes posteriormente em uma segunda fase.
 
-   * Essa alteração restringe apenas o uso de eventos de envio/abertura na segmentação por transmissão; eventos de clique ainda podem ser usados em um segmento de transmissão. Além disso, os eventos de envio/abertura ainda podem ser usados em um segmento em lote.
-   * Os dados de rastreamento ainda serão coletados. Essa alteração não afeta o rastreamento. Você ainda pode rastrear para quem um email foi enviado e quem clicou em um email.
-   * Os eventos de reação nas Jornadas não são afetados por essa alteração.
+  Além disso, a partir de 1º de novembro, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos de envio e abertos a partir de conjuntos de dados de rastreamento e feedback. Essa alteração se aplicará a todas as sandboxes e organizações do cliente nesse momento. [Saiba mais](../data/datasets-ttl.md)
 
 * **Parâmetros em ações personalizadas** (Data de disponibilidade: 3 de outubro de 2024) - agora há suporte para parâmetros NULL e opcionais em ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -308,7 +317,3 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 * Ao direcionar um público-alvo de arquivo CSV, agora é possível usar atributos do arquivo no editor de personalização e no construtor de regras de jornadas e campanhas. [Saiba mais](../audience/about-audiences.md)
 
 * O uso de públicos-alvo e de atributos dos uploads personalizados (arquivos CSV) está atualmente indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
-
-**Canal baseado em código**
-
-Ao editar uma campanha de experiência baseada em código, os modelos disponíveis para escolha agora têm escopo para HTML ou JSON com base na configuração de canal escolhida anteriormente.
