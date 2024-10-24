@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff18cda7556240b9770639edca42ea9321d00d7a
+source-git-commit: acc3d61b571f577187503157b78de1d27ce5e1ee
 workflow-type: tm+mt
 source-wordcount: '3066'
 ht-degree: 55%
@@ -44,8 +44,8 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>O Journey Optimizer agora permite bloquear o conteúdo em modelos de email, bloqueando todo o modelo ou estruturas e componentes específicos. Isso permite evitar edições ou exclusões não intencionais, dando a você maior controle sobre a personalização do modelo e melhorando a eficiência e a confiabilidade de suas campanhas de email.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>-->
+<img src="assets/do-not-localize/ai-content.gif">
 </td>
 </tr>
 </tbody>
