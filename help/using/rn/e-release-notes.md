@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
+source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1942'
 ht-degree: 38%
 
 ---
@@ -206,7 +206,7 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 <tr>
 <td>
 <p>Agora ficou mais fácil criar conteúdo em vários idiomas em uma única campanha ou jornada. Com esse recurso, é possível alternar entre idiomas ao editar a campanha ou a jornada, simplificando todo o processo de edição e melhorando sua capacidade de gerenciar com eficiência o conteúdo multilíngue.</p>
-<p>Anteriormente disponíveis para um conjunto de organizações (DL), as mensagens multilíngues agora estão disponíveis para todos os usuários (DG).</p>
+<p>Com a disponibilidade geral, o conteúdo multilíngue agora pode ser acessado em todos os canais. </p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -293,7 +293,10 @@ Esta versão vem com as melhorias listadas abaixo.
 Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
 * Você pode definir e gerenciar palavras-chave exclusivas para suas campanhas e jornadas de SMS, permitindo uma comunicação mais personalizada e eficiente.
+
 * Você pode criar e enviar uma mensagem SMS padrão quando uma palavra-chave não é reconhecida.
+
+* Agora é possível editar ou excluir uma Configuração de canal de API de SMS.
 
 <!--**Journeys**-->
 
