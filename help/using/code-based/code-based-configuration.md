@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -29,7 +29,7 @@ Uma configuração de experiência baseada em código deve fazer referência à 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
 >title="Indique o local específico dentro da página ou aplicativo"
->abstract="Este campo especifica o destino exato em uma página ou no aplicativo que você deseja que os usuários acessem. Pode ser uma seção específica dentro de uma página da Web ou uma página profunda na estrutura de navegação do aplicativo."
+>abstract="Este campo especifica o destino exato na página ou no aplicativo que você deseja que usuários acessem. Pode ser uma seção específica dentro de uma página da web ou uma página no interior da estrutura de navegação do aplicativo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -180,7 +180,7 @@ Para definir as configurações de experiência baseadas em código para outras 
 >id="ajo_admin_surface_uri"
 >title="Adicionar o URI de superfície para seu componente"
 >abstract="Se sua implementação não for para Web, iOS ou Android, ou se você precisar direcionar URIs específicos, insira um URI de superfície, que é um identificador exclusivo que direciona para a entidade onde você deseja fornecer sua experiência. Certifique-se de inserir um URI de superfície que corresponda ao usado em sua própria implementação."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/code-based-experience/code-based-configuration#other" text="Criar uma configuração de experiência baseada em código para outras plataformas"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="Criar uma configuração de experiência baseada em código para outras plataformas"
 
 Uma experiência baseada em código **superfície** é qualquer entidade projetada para interação do usuário ou do sistema, que é exclusivamente identificada por um **URI**. A superfície é especificada na implementação do aplicativo e deve corresponder à superfície referenciada na configuração do canal de experiência baseado em código.
 
