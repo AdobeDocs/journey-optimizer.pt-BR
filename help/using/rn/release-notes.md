@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+source-git-commit: 2ea81c13e25f1b5a3808bd956a588794f460a521
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3104'
 ht-degree: 55%
 
 ---
@@ -117,8 +117,8 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>O Jornada otimizer agora permite testar diferentes variantes do conteúdo de email visualizando-o e enviando provas usando dados de entrada de amostra carregados de um arquivo CSV ou adicionados manualmente. Todos os atributos de perfis usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes.</p>
-<p>No momento, esse recurso está disponível como um beta.</p>
+<p>O otimizador de Jornada agora permite testar diferentes variantes do conteúdo de email, visualizando-o e enviando provas com dados de entrada de amostra carregados de um arquivo ou adicionados manualmente. Todos os atributos de perfis usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes.</p>
+<p>No momento, esse recurso está disponível para todos os clientes como um beta público.</p>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
