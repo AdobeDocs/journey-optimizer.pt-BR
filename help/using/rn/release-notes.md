@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '3096'
-ht-degree: 56%
+source-wordcount: '3101'
+ht-degree: 55%
 
 ---
 
@@ -309,14 +309,14 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
 **Conjuntos de dados**
 
-* **Grade de proteção de tempo de vida** - A partir de 1º de novembro de 2024, uma grade de proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema da Journey Optimizer em novas sandboxes e novas organizações da seguinte maneira:
+* **Enviar e abrir eventos** - A partir de 1º de novembro de 2024, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos de envio e abertura de conjuntos de dados de rastreamento e feedback do Journey Optimizer. Essa alteração se aplicará a todas as sandboxes e organizações do cliente. [Saiba mais](../data/datasets-ttl.md#segmentation-update)
+
+* **Tempo de vida (TTL) do conjunto de dados** - A partir de fevereiro de 2025, uma garantia de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema da Journey Optimizer em novas sandboxes e novas organizações, da seguinte maneira:
 
    * 90 dias para dados na loja de perfis
    * 13 meses para dados no data lake
 
-  Essa alteração será implementada em sandboxes de clientes existentes posteriormente em uma segunda fase.
-
-  Além disso, a partir de 1º de novembro, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos de envio e abertos a partir de conjuntos de dados de rastreamento e feedback. Essa alteração se aplicará a todas as sandboxes e organizações do cliente nesse momento. [Saiba mais](../data/datasets-ttl.md)
+  Essa alteração será implementada nas sandboxes de clientes existentes em uma fase subsequente. [Saiba mais](../data/datasets-ttl.md#ttl)
 
 * **Parâmetros em ações personalizadas** (Data de disponibilidade: 3 de outubro de 2024) - agora há suporte para parâmetros NULL e opcionais em ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
