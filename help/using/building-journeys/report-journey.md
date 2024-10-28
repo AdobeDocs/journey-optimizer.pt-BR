@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 59a597a563074fa4daa74c64e97f6bb5c0f6834d
+source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Os eventos exibidos ocorreram nas últimas 24 horas, com um intervalo mínimo de
 
 Para sua jornada em tempo real, você tem acesso a:
 
-* **[!UICONTROL Perfis inseridos]**: número total de pessoas que inseriram esta atividade.
+* **[!UICONTROL Perfis inseridos]**: número total de indivíduos que saíram da jornada (incluindo erros).
 * **[!UICONTROL Saída do perfil]**: Número total de indivíduos que saíram da jornada dessa atividade devido a um critério de saída.
 * **[!UICONTROL Perfis com erro]**: número total de indivíduos que encontraram um erro durante a jornada.
 * **[!UICONTROL Perfis descartados]**: Número total de indivíduos que foram descartados da jornada por um dos seguintes motivos:
@@ -41,6 +41,6 @@ Para sua jornada em tempo real, você tem acesso a:
 
 Para cada atividade em cada jornada ativa, você tem acesso a:
 
-* **[!UICONTROL Perfis inseridos]**: número total de pessoas que inseriram esta atividade.
-* **[!UICONTROL Perfil de saída]**: número total de indivíduos que saíram da jornada dessa atividade devido a um critério de saída.
+* **[!UICONTROL Informado]**: número total de indivíduos que entraram nesta atividade.
+* **[!UICONTROL Saída (atender aos critérios de saída)]**: Número total de indivíduos que saíram da jornada dessa atividade devido a um critério de saída.
 * **[!UICONTROL Erro]**: número total de indivíduos que tiveram um erro nessa atividade.
