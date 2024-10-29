@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 83%
@@ -75,7 +75,7 @@ Quando usar o canal baseado em código em vez de outros canais do [!DNL Journey 
 
 * Você pode considerar o uso de experiências baseadas em código a qualquer momento quando sua propriedade digital não for acessada por um navegador Web ou por um aplicativo móvel, casos em que provavelmente será melhor usar o [canal Web](../web/get-started-web.md){target="_blank"} do [!DNL Journey Optimizer] ou o canal de [mensagens no aplicativo](../in-app/get-started-in-app.md){target="_blank"} do [!DNL Journey Optimizer].
 
-* Você pode usar o canal baseado em código como uma alternativa ao canal da Web do [!DNL Journey Optimizer] se o site não puder ser carregado no editor visual do [Designer da Web](../web/edit-web-content.md#work-with-web-designer){target="_blank"} ou se você não puder usar a [extensão do navegador](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} que permite a criação visual para o canal da Web.
+* Você pode usar o canal baseado em código como uma alternativa ao canal da Web do [!DNL Journey Optimizer] se o site não puder ser carregado no editor visual do [Designer da Web](../web/web-visual-editor.md){target="_blank"} ou se você não puder usar a [extensão do navegador](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} que permite a criação visual para o canal da Web.
 
 * Também é possível usar o canal baseado em código como uma alternativa aos canais da Web ou no aplicativo do [!DNL Journey Optimizer], caso tenha uma implementação baseada em API, headless ou do lado do servidor.
 
@@ -85,9 +85,9 @@ Para executar casos de uso da Web, é possível usar o canal da web ou a experi�
 
 **Web**
 
-* Editar o conteúdo usando o editor visual do [Designer da Web](../web/edit-web-content.md#work-with-web-designer){target="_blank"}.
+* Editar o conteúdo usando o editor visual do [Designer da Web](../web/web-visual-editor.md){target="_blank"}.
 * Você precisa que a implementação do [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"} e a extensão [Auxiliar de edição visual da Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} estejam instaladas no navegador da Web. [Saiba mais](../web/web-prerequisites.md){target="_blank"}
-* O canal da Web permite modificar tudo na página e tem uma lista predefinida de ações que podem ser usadas para fazer alterações. [Saiba mais](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
+* O canal da Web permite modificar tudo na página e tem uma lista predefinida de ações que podem ser usadas para fazer alterações. [Saiba mais](../web/web-visual-editor.md){target="_blank"}
 * É fácil de configurar e começar a usar.
 * É focado na persona do profissional de marketing.
 

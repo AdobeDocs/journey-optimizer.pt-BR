@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '283'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,10 @@ Para enviar mensagens no Journey Optimizer usando um provedor personalizado não
      Verifique se a carga inclui `{{toNumber}}`, `{{fromNumber}}`, `{{message}}`.
 
 1. Clique em **[!UICONTROL Enviar]** quando terminar de configurar suas credenciais de API.
+
+1. No menu **[!UICONTROL Credenciais da API]**, clique no ícone de compartimento para excluir suas credenciais da API.
+
+1. Para modificar as credenciais existentes, localize as credenciais de API desejadas e clique na opção **[!UICONTROL Editar]** para fazer as alterações necessárias.
 
 Depois de criar e configurar sua credencial de API, agora é necessário criar uma superfície de canal para mensagens SMS. [Saiba mais](sms-configuration-surface.md)
 

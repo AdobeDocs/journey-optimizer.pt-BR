@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
+source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1446'
 ht-degree: 100%
 
 ---
@@ -232,45 +232,7 @@ Para alterar o idioma:
 
 <!--CONTENT LOCKING-->
 
->[!CONTEXTUALHELP]
->id="ajo_locking_governance"
->title="Governança"
->abstract="Governança"
 
->[!CONTEXTUALHELP]
->id="ajo_locking_mode"
->title="Modo"
->abstract="Modo"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_content_addition"
->title="Habilitar adição de conteúdo"
->abstract="Habilitar adição de conteúdo"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_structure"
->title="Bloqueio de conteúdo na estrutura"
->abstract="Bloqueio de conteúdo na estrutura"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_component"
->title="Usar bloqueio específico no componente"
->abstract="Usar bloqueio específico no componente"
-
->[!CONTEXTUALHELP]
->id="ajo_email_editable_areas"
->title="Realçar áreas editáveis"
->abstract="Realçar áreas editáveis"
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_activated"
->title="Governança habilitada"
->abstract="O bloqueio de conteúdo é ativado e pode impedir que você faça modificações."
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_read_only"
->title="Somente leitura"
->abstract="Este conteúdo é de somente leitura e não pode ser modificado."
 
 <!--APPROVAL POLICIES-->
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '971'
 ht-degree: 8%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 8%
    >[!CAUTION]
    >
    >Continue com cuidado ao excluir uma ação, pois ela pode afetar as ações subsequentes.
+
+1. Se você estiver criando um [aplicativo de página única](web-spa.md), poderá aplicar qualquer modificação a outras exibições. [Saiba mais](web-spa.md#apply-modifications-views)
 
 1. Para excluir várias modificações ao mesmo tempo, clique no botão **[!UICONTROL Selecionar]** na parte superior do painel **[!UICONTROL Modificações]**, verifique as modificações de sua escolha e clique no ícone **[!UICONTROL Excluir]**.
 

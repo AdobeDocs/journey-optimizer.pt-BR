@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 16%
 
 ---
@@ -41,13 +41,13 @@ Para acessar e criar exibições na interface do usuário do [!DNL Journey Optim
 
 Depois que a configuração do SPA for concluída na implementação do SDK da Web da Adobe Experience Platform, será necessário navegar por todas as exibições do site às quais deseja aplicar modificações. Siga as etapas abaixo.
 
-1. [Crie uma campanha da Web](create-web.md) e acesse o [web designer](edit-web-content.md).
+1. [Crie uma jornada da Web ou campanha](create-web.md) e acesse o [web designer](web-visual-editor.md).
 
    A visualização em que você está no momento é exibida no canto superior esquerdo.
 
    ![](assets/web-designer-view-home.png)
 
-1. Mudar para o modo **[!UICONTROL Procurar]**. [Saiba mais](../web/edit-web-content.md#browse-mode)
+1. Mudar para o modo **[!UICONTROL Procurar]**. [Saiba mais](web-visual-editor.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 

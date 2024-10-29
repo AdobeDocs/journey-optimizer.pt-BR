@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 13%
+source-wordcount: '1363'
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 O [!DNL Journey Optimizer] permite personalizar a experiência da Web fornecida aos clientes por meio de jornadas ou campanhas de entrada.
 
-## Adicionar uma experiência da web por meio de uma jornada ou campanha {#create-web-experience}
+## Definir uma experiência da Web por meio de uma jornada ou campanha {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -59,7 +59,7 @@ Para adicionar uma atividade **Web** a uma jornada, siga estas etapas:
 
    ![](assets/web-activity-configuration.png)
 
-1. Selecione o botão **[!UICONTROL Editar conteúdo]** e edite o conteúdo conforme desejado usando o designer da Web. [Saiba mais](edit-web-content.md)
+1. Selecione o botão **[!UICONTROL Editar conteúdo]** e edite o conteúdo conforme desejado. [Saiba mais](#edit-web-content)
 
 1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
 
@@ -87,7 +87,7 @@ Para começar a criar sua experiência da Web por meio de uma campanha, siga as 
 
    ![](assets/web-campaign-steps.png)
 
-1. Clique no botão **[!UICONTROL Editar conteúdo]** para editar seu conteúdo conforme desejado usando o designer da Web. [Saiba mais](edit-web-content.md)
+1. Clique no botão **[!UICONTROL Editar conteúdo]** para editar seu conteúdo conforme desejado. [Saiba mais](#edit-web-content)
 
    <!--![](assets/web-campaign-edit-content.png)-->
 
@@ -97,6 +97,41 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
 >[!ENDTABS]
 
+## Editar conteúdo da Web {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_surface"
+>title="Confirmar o URL para editar"
+>abstract="Confirme o URL da página da web específica a ser usada para editar o conteúdo que será aplicado na configuração da web definida acima. A página da Web deve ser implementada usando o SDK da Web da Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Saiba mais"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_rule"
+>title="Inserir o URL para editar"
+>abstract="Insira o URL de uma página da Web específica a ser usada para editar o conteúdo que será aplicado a todas as páginas que correspondem à regra. A página da Web deve ser implementada usando o SDK da Web da Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Saiba mais"
+
+Depois de [adicionar uma ação da Web](#create-web-experience) a uma jornada ou campanha, você poderá editar o conteúdo do site usando:
+
+* o [web designer](web-visual-editor.md), para criar sua experiência usando um editor visual;
+* ou o [editor não visual](web-non-visual-editor.md).
+
+Para começar a criar sua experiência na Web, siga as etapas abaixo.
+
+1. Na guia **[!UICONTROL Ação]** da campanha ou da atividade **[!UICONTROL Web]** da jornada, selecione **[!UICONTROL Editar conteúdo]**.
+
+   ![](assets/web-campaign-edit-content.png)
+
+1. A tela de edição é exibida. É possível:
+
+   * Clique no botão **[!UICONTROL Editar página da Web]** para começar a criar seu conteúdo usando o designer da Web para obter uma experiência visual. [Saiba mais](web-visual-editor.md)
+
+     ![](assets/web-campaign-edit-web-page.png)
+
+   * Desmarque a opção **[!UICONTROL Editor visual]** para usar o modo de edição não visual e clique em **[!UICONTROL Adicionar uma modificação]** para começar a editar seu conteúdo da Web sem carregar o editor visual. [Saiba mais](web-non-visual-editor.md)
+
+     ![](assets/web-campaign-add-modification.png)
+
 ## Testar a experiência da web {#test-web-experience}
 
 >[!CONTEXTUALHELP]
@@ -104,7 +139,7 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 >title="Visualizar a experiência da Web"
 >abstract="Acesse uma simulação de como sua experiência da Web será."
 
-Depois de [criar sua experiência da Web](edit-web-content.md) usando o designer da Web, você poderá usar perfis de teste para visualizar suas páginas da Web modificadas. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido, usando os dados do perfil de teste.
+Depois de [criar sua experiência da Web](web-visual-editor.md) usando o designer da Web, você poderá usar perfis de teste para visualizar suas páginas da Web modificadas. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido, usando os dados do perfil de teste.
 
 Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** da tela de conteúdo de edição de jornada ou campanha e, em seguida, adicione um perfil de teste para verificar sua página da Web usando os dados do perfil de teste.
 
@@ -124,7 +159,7 @@ Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar
 >
 > Se a campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para ativar as experiências da Web. [Saiba mais](../test-approve/gs-approval.md)
 
-Depois de definir sua experiência online e editar seu conteúdo conforme desejado usando o [web designer](edit-web-content.md#work-with-web-designer), você pode ativar sua jornada ou campanha para tornar as alterações visíveis para o público-alvo.
+Depois de definir sua experiência online e editar o conteúdo conforme desejado, você pode ativar a jornada ou campanha para tornar as alterações visíveis para o público.
 
 Você também pode visualizar seu conteúdo de experiência online antes de ativá-lo. [Saiba mais](#test-web-experience)
 
@@ -156,7 +191,7 @@ Sua jornada da Web está no status **[!UICONTROL Live]** e agora é somente leit
 
 ### Ativar uma campanha da Web {#activate-web-campaign}
 
-Depois de definir suas configurações de campanha da Web e editar seu conteúdo conforme desejado usando o [web designer](edit-web-content.md#work-with-web-designer), você pode revisar e ativar sua campanha da Web. Siga as etapas abaixo.
+Depois de definir as configurações da campanha da Web e editar o conteúdo conforme desejado, você pode revisar e ativar a campanha da Web. Siga as etapas abaixo.
 
 1. Em sua campanha da Web, selecione **[!UICONTROL Revisar para ativar]**.
 
@@ -177,6 +212,8 @@ Sua campanha da Web recebe o status de **[!UICONTROL Ativo]** e agora está vis�
 >Depois de clicar em **[!UICONTROL Ativar]**, pode levar até 15 minutos para que as alterações nas campanhas da Web fiquem disponíveis ao vivo no site.
 >
 >Se você definiu um agendamento para sua campanha da Web, ele tem o status **[!UICONTROL Agendado]** até que a data e a hora de início sejam atingidas.
+
+Assim que a experiência estiver ativa, você poderá monitorar as jornadas e campanhas da Web. [Saiba mais](monitor-web-experiences.md)
 
 ## Parar uma jornada ou campanha da Web {#stop-web-experience}
 

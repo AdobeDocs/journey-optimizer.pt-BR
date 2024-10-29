@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '730'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,15 @@ Para configurar seu provedor Sinch para enviar mensagens SMS e MMS com o Journey
 
    * **[!UICONTROL Número de Entrada]**: adicione seu número de entrada exclusivo ou código curto. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada ou código curto.
 
+   * **[!UICONTROL Palavras-chave de entrada personalizadas]**: defina palavras-chave exclusivas para ações específicas, por exemplo, DISCOUNT, OFFERS, ENROLL. Essas palavras-chave são capturadas e armazenadas como atributos no perfil, permitindo acionar uma qualificação de segmento de transmissão na jornada e fornecer uma resposta ou ação personalizada.
+
+   * **[!UICONTROL Mensagem de Resposta de Entrada Padrão]**: digite a resposta padrão que é enviada quando um usuário final envia um SMS de entrada que não corresponde a nenhuma das palavras-chave definidas.
+
 1. Clique em **[!UICONTROL Enviar]** quando terminar de configurar suas credenciais de API.
+
+1. No menu **[!UICONTROL Credenciais da API]**, clique no ícone de compartimento para excluir suas credenciais da API.
+
+1. Para modificar as credenciais existentes, localize as credenciais de API desejadas e clique na opção **[!UICONTROL Editar]** para fazer as alterações necessárias.
 
 Depois de criar e configurar a credencial da API, agora é necessário criar uma configuração de canal para mensagens SMS. [Saiba mais](sms-configuration-surface.md)
 
@@ -82,5 +90,9 @@ Para configurar o Sinch MMS para enviar o MMS com o Journey Optimizer, siga esta
    * **[!UICONTROL ID do Plano de Serviço]** e **[!UICONTROL Token de API de SMS]**: suas **[!UICONTROL ID do Plano de Serviço]** e **[!UICONTROL Token de API de SMS]** estão localizadas na guia SMS da página APIs.
 
 1. Clique em **[!UICONTROL Enviar]** quando terminar de configurar suas credenciais de API.
+
+1. No menu **[!UICONTROL Credenciais da API]**, clique no ícone de compartimento para excluir suas credenciais da API.
+
+1. Para modificar as credenciais existentes, localize as credenciais de API desejadas e clique na opção **[!UICONTROL Editar]** para fazer as alterações necessárias.
 
 Depois de criar e configurar a credencial da API, agora é necessário criar uma configuração de canal para mensagens MMS. [Saiba mais](sms-configuration-surface.md)

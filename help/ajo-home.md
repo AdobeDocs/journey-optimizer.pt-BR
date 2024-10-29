@@ -5,10 +5,10 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 3235d53b09d140e61a9e83f6b07ce8351f0fa245
+source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 86%
 
 ---
 
@@ -20,9 +20,9 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!BEGINTABS]
 
->[!TAB Versão de setembro de 2024]
+>[!TAB Versão de outubro de 2024]
 
-A versão de setembro está disponível, incluindo Cartões de conteúdo para aplicativos móveis e sites, Políticas de aprovação em jornadas e campanhas (DL), Critérios de saída globais em jornadas e muito mais.
+A versão de outubro está disponível, incluindo Bloqueio de conteúdo de email, Gerenciamento de conflitos e prioridades (LA) e Integração com tinta móvel. Anteriormente na Disponibilidade limitada (DL), os seguintes recursos agora estão disponíveis para todos: Personalização de configuração de email, Políticas de aprovação, Experimentação de conteúdo em jornadas, Decisão, Mensagens multilíngues, Experiência de relatório aprimorada.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -38,11 +38,11 @@ Os relatórios do Journey Optimizer vêm com interoperabilidade aprimorada com o
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB Fragmentos de conteúdo]
+>[!TAB Experiências da Web no jornada]
 
-Agora os fragmentos podem ser editados e as alterações podem ser propagadas por todas as jornadas e campanhas ativas em que são usados.
+Com o canal da Web, o Adobe Journey Optimizer permite personalizar a experiência da Web fornecida aos clientes por meio de jornadas da Web de entrada. O canal da Web agora está disponível na tela da jornada.
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 
@@ -121,5 +121,5 @@ Agora os fragmentos podem ser editados e as alterações podem ser propagadas po
 </td>
 </tr></table>
 
-<table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>Mantenha-se informado e melhore sua experiência com o Adobe Journey Optimizer!</b><br/>Assine nosso informativo trimestral. Obtenha acesso exclusivo às mais recentes atualizações de produtos, histórias cativantes, casos de uso reais, dicas valiosas e muito mais. Tudo isso entregue diretamente à sua caixa de entrada a cada trimestre. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Inscreva-se hoje mesmo!</a></td></tr></table>
+<!--table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
+<b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr></table-->

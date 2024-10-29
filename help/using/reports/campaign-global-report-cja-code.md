@@ -7,10 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 2fe9fb915e4aaf13458e46d5eeb177862416907d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '847'
+ht-degree: 1%
 
 ---
 
@@ -71,3 +71,91 @@ A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral 
 * **[!UICONTROL Exibições exclusivas]**: número de vezes que a experiência foi aberta, várias interações de um perfil não são consideradas.
 
 +++
+
+## KPIs de decisão {#decisioning-kpis}
+
+![](assets/cja-decisioning-kpis.png)
+
+Os **KPIs de decisão** fornecem informações importantes sobre o envolvimento dos visitantes com as experiências, incluindo métricas como:
+
+* **[!UICONTROL Total de itens]**: número total de itens individuais que fizeram parte de uma experiência personalizada ou de um processo de decisão dentro de um período especificado.
+
+* **[!UICONTROL Total de exibições]**:
+
+* **[!UICONTROL Total de cliques]**: número total de vezes que os usuários clicaram em itens, links, produtos ou outros elementos interativos durante um período especificado.
+
+* **[!UICONTROL Taxa de fallback]**: porcentagem de instâncias em que nenhuma estratégia de seleção foi qualificada, resultando na exibição de uma opção genérica ou menos específica.
+
+## Funil de engajamento {#engagement-funnel}
+
+![](assets/cja-engagement-funnel.png)
+
+A tabela **[!UICONTROL Funil de participação]** monitora o desempenho de experiências personalizadas avaliando com que eficiência cada estágio do funil direciona as interações do usuário.
+
+* **[!UICONTROL Exibições]**: número total de vezes que experiências personalizadas foram exibidas ou apresentadas aos usuários em vários pontos de contato.
+
+* **[!UICONTROL Cliques]**: número total de vezes que usuários clicaram em experiências personalizadas que foram exibidas a eles.
+
+## Principais itens de decisão por taxa de cliques {#top-decision}
+
+![](assets/cja-top-decisions-ctr.png)
+
+A tabela **[!UICONTROL Principais itens de decisão por CTR]** destaca o desempenho de itens individuais com base em sua Taxa de Click-through. Essa métrica ajuda a avaliar quais itens são mais eficazes para envolver usuários e impulsionar interações.
+
+* **[!UICONTROL Taxa de Click-through (CTR)]**: porcentagem de usuários que clicam em um link, anúncio ou recomendação em comparação ao número de vezes que ele foi exibido.
+
+## Funil de engajamento por estratégia de seleção {#engagement-funnel-selection}
+
+![](assets/cja-engagement-funnel-selection.png)
+
+A tabela **[!UICONTROL Funil de envolvimentos por estratégia de seleção]** ajuda a monitorar e analisar com que eficiência diferentes estratégias de seleção estão envolvendo usuários com experiências personalizadas.
+
+* **[!UICONTROL Exibições]**: número total de vezes que experiências personalizadas foram exibidas ou apresentadas aos usuários em vários pontos de contato.
+
+* **[!UICONTROL Cliques]**: número total de vezes que usuários clicaram em experiências personalizadas que foram exibidas a eles.
+
+## Desempenho de itens de decisão {#decision-items-performance}
+
+![](assets/cja-decisioning-item-performance.png)
+
+A tabela **[!UICONTROL Desempenho dos itens de decisão]** avalia o desempenho de cada item ao envolver os usuários e impulsionar as ações desejadas, como compras, cliques ou outras respostas.
+
+* **[!UICONTROL Exibições]**: número total de vezes que experiências personalizadas foram exibidas ou apresentadas aos usuários em vários pontos de contato.
+
+* **[!UICONTROL Cliques]**: número total de vezes que usuários clicaram em experiências personalizadas que foram exibidas a eles.
+
+## Estratégia de classificação {#ranking-strategy}
+
+>[!NOTE]
+>
+>A tabela **[!UICONTROL Estratégia de classificação]** fica disponível somente quando um modelo de IA é incorporado à campanha. [Saiba mais](../experience-decisioning/ranking.md)
+
+![](assets/cja-decision-ranking-strategy.png)
+
+A tabela **[!UICONTROL Estratégia de classificação]** fornece informações sobre o desempenho dos modelos de classificação orientados por IA em experiências personalizadas que comparam dois tipos de tráfego:
+
+* **Controlado por modelo**: os usuários recebem conteúdo classificado pelo modelo de IA, otimizado para relevância e envolvimento.
+
+* **Holdout**: os usuários veem uma versão genérica do conteúdo, atuando como um grupo de controle para medir a eficácia do modelo de IA.
+
+As métricas principais exibidas incluem:
+
+* **[!UICONTROL Exibições]**: número total de vezes que experiências personalizadas foram exibidas ou apresentadas aos usuários em vários pontos de contato.
+
+* **[!UICONTROL Cliques]**: número total de vezes que usuários clicaram em experiências personalizadas que foram exibidas a eles.
+
+* **[!UICONTROL Taxa de conversão]**: porcentagem de exibições que resultaram em ações do usuário (por exemplo, cliques), indicando o sucesso do modelo em envolver usuários.
+
+## Taxa de conversão para tráfego de Retenção e Orientado a Modelo {#conversion-rate}
+
+>[!NOTE]
+>
+>A **[!UICONTROL Taxa de conversão para tráfego de Retenção e Orientado a Modelo]** fica disponível somente quando um modelo de IA é incorporado à campanha. [Saiba mais](../experience-decisioning/ranking.md)
+
+![](assets/cja-decisioning-conversion.png)
+
+O gráfico **[!UICONTROL Taxa de conversão para tráfego de Retenção e Orientado a Modelo]** mostra a taxa de conversão ao longo do tempo para dois tipos de tráfego:
+
+* **Controlado por modelo**: os usuários recebem conteúdo classificado pelo modelo de IA, otimizado para relevância e envolvimento.
+
+* **Holdout**: os usuários veem uma versão genérica do conteúdo, atuando como um grupo de controle para medir a eficácia do modelo de IA.

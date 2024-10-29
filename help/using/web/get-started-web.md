@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
-workflow-type: ht
-source-wordcount: '160'
-ht-degree: 100%
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 81%
 
 ---
 
@@ -21,10 +21,9 @@ Por meio de uma interface visual intuitiva, esse recurso permite modificar suas 
 
 ![](../rn/assets/do-not-localize/web-authoring.gif)
 
-
 Se já estiver usando canais de saída, como email, SMS ou notificações por push, agora é possível aproveitar o canal web de entrada para oferecer uma experiência verdadeiramente personalizada que se estenda por todos os canais.
 
-Uma vez criada a campanha, selecione **Web** como sua ação e defina as configurações básicas. Para obter mais informações sobre como configurar sua campanha, consulte esta [página](../campaigns/create-campaign.md#configure).
+Depois de criar uma jornada ou campanha, selecione **Web** como sua ação e defina as configurações básicas. Para obter mais informações sobre como configurar sua jornada/campanha, consulte esta [página](create-web.md#create-web-experience).
 
 >[!NOTE]
 >
@@ -50,11 +49,11 @@ Conheça as etapas detalhadas para criar uma campanha da web [neste vídeo](crea
 </div>
 <p></td>
 <td>
-<a href="edit-web-content.md">
+<a href="web-visual-editor.md">
 <img alt="Validação" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="edit-web-content.md"><strong>Criar páginas da Web</strong></a>
+<a href="web-visual-editor.md"><strong>Criar páginas da Web</strong></a>
 </div>
 <p>
 </td>

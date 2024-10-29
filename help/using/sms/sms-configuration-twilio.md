@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 4%
+source-wordcount: '211'
+ht-degree: 3%
 
 ---
 
@@ -33,5 +33,9 @@ Para configurar o Twilio com o Journey Optimizer, é necessário criar uma nova 
    * **[!UICONTROL Número de Entrada]**: adicione seu número de entrada exclusivo. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada.
 
 1. Clique em **[!UICONTROL Enviar]** quando terminar de configurar suas credenciais de API.
+
+1. No menu **[!UICONTROL Credenciais da API]**, clique no ícone de compartimento para excluir suas credenciais da API.
+
+1. Para modificar as credenciais existentes, localize as credenciais de API desejadas e clique na opção **[!UICONTROL Editar]** para fazer as alterações necessárias.
 
 Depois de criar e configurar a credencial da API, agora é necessário criar uma configuração de canal para mensagens SMS e MMS. [Saiba mais](sms-configuration-surface.md)

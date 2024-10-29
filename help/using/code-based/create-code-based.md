@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 2a7707f5538a8d01a7b0d7e531d94d9ef922097a
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 16%
+source-wordcount: '1804'
+ht-degree: 15%
 
 ---
 
@@ -49,6 +49,8 @@ Para adicionar uma atividade de **experiência baseada em código** a uma jornad
 
 1. Selecione o botão **[!UICONTROL Editar conteúdo]** e edite o conteúdo conforme desejado usando o editor de personalização. [Saiba mais](#edit-code)
 
+   Você também pode usar um template de conteúdo existente como base para o conteúdo do código. Observe que os modelos disponíveis para escolha têm escopo para HTML ou JSON com base na configuração de canal escolhida anteriormente. [Saiba como usar modelos de conteúdo](../content-management/use-content-templates.md)
+
 1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
 
 1. Quando sua experiência com base em código estiver pronta, finalize a configuração e publique sua jornada para ativá-la. [Saiba mais](../building-journeys/publishing-the-journey.md)
@@ -76,6 +78,8 @@ Para começar a criar sua **experiência baseada em código** por meio de uma ca
    ![](assets/code-based-campaign-surface.png)
 
 1. Edite o conteúdo conforme desejado usando o editor de personalização. [Saiba mais](#edit-code)
+
+   Você também pode usar um template de conteúdo existente como base para o conteúdo do código. Observe que os modelos disponíveis para escolha têm escopo para HTML ou JSON com base na configuração de canal escolhida anteriormente. [Saiba como usar modelos de conteúdo](../content-management/use-content-templates.md)
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
