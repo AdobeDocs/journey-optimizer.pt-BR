@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 92dbfedcd4dbc94674f0fb89c6dee3fdb082c918
+source-git-commit: 6f517ca209ae992f8daf3b285ccabebac100081b
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1414'
 ht-degree: 48%
 
 ---
@@ -292,7 +292,7 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
 **Canal da Web**
 
-* **Modo de edição não visual do web designer** - Como alternativa ao web designer do Journey Optimizer, agora é possível adicionar modificações ao seu site usando um editor não visual. Ela permite inserir as alterações manualmente sem abrir as páginas no editor visual. Esse modo de edição não visual é útil se você não puder instalar extensões de navegador, como o Adobe Experience Cloud Visual Helper, que é necessário para carregar suas páginas no web designer.
+* **Modo de edição não visual do web designer** - Como alternativa ao web designer do Journey Optimizer, agora é possível adicionar modificações ao seu site usando um editor não visual. Ela permite inserir as alterações manualmente sem abrir as páginas no editor visual. Esse modo de edição não visual é útil se você não puder instalar extensões de navegador, como o Adobe Experience Cloud Visual Helper, que é necessário para carregar suas páginas no web designer. [Saiba mais](../web/web-non-visual-editor.md)
 
 
 **Conjuntos de dados**
@@ -310,7 +310,7 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
 **Relatórios**
 
-* **Os relatórios do Experience Decisioning** agora estão disponíveis, oferecendo insights essenciais sobre como os visitantes interagem com suas experiências.
+* **Os relatórios do Experience Decisioning** agora estão disponíveis, oferecendo insights essenciais sobre como os visitantes interagem com suas experiências. [Saiba mais](../reports/campaign-global-report-cja-code.md##decisioning-kpis)
 
 **Políticas de governança de dados e consentimento** - Data de disponibilidade: 7 de outubro de 2024
 
