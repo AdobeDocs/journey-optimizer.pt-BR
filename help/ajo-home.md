@@ -5,9 +5,9 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c1bbd1c8dae6de4b1fac416fd4b7c0b7be7a07ca
+source-git-commit: c2403c04d1e881d3da7528aa3460bae47f001c36
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '379'
 ht-degree: 86%
 
 ---
@@ -22,7 +22,7 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!TAB Versão de outubro de 2024]
 
-A versão de outubro está disponível, incluindo Bloqueio de conteúdo de email, Gerenciamento de conflitos e prioridades (LA) e Integração com tinta móvel. Anteriormente na Disponibilidade limitada (DL), os seguintes recursos agora estão disponíveis para todos: Personalização de configuração de email, políticas de Aprovações, Experimentação de conteúdo no jornada e Experiência de relatório aprimorada.
+A versão de outubro está disponível, incluindo Bloqueio de conteúdo de email, Integração com tinta móvel, Experiências da Web e baseadas em código no jornada. Anteriormente na Disponibilidade limitada (DL), os seguintes recursos agora estão disponíveis para todos: Personalização de configuração de email, políticas de Aprovações, Experimentação de conteúdo no jornada e Experiência de relatório aprimorada.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
