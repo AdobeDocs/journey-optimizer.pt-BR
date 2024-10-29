@@ -5,7 +5,7 @@ title: Introdução aos canais de comunicação em [!DNL Adobe Journey Optimizer
 description: Saiba como trabalhar com  [!DNL Adobe Journey Optimizer] canais de comunicação.
 role: User
 level: Beginner
-source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
+source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 2%
@@ -22,27 +22,30 @@ No cenário de marketing dinâmico de hoje, alcançar efetivamente seu público-
 ## Canais de entrada e saída {#inbound-outbound}
 
 Entender a diferença entre canais de entrada e saída é fundamental para otimizar sua estratégia de comunicação:
+
 * Canais de entrada: esses canais permitem que os clientes iniciem interações. Os exemplos incluem mensagens no aplicativo e interações baseadas na Web, em que os usuários podem se envolver com conteúdo de acordo com seus próprios termos.
+
 * Canais de saída: envolvem o envio de mensagens para clientes sem interação prévia. Os exemplos incluem campanhas de email e notificações por push, nas quais você entra em contato de forma proativa com seu público-alvo.
+
 O aproveitamento de ambos os tipos de canais pode melhorar a experiência do cliente e impulsionar o engajamento.
 
 ## Canais disponíveis {#channels}
 
 O Adobe Journey Optimizer oferece uma variedade de canais de comunicação para interagir com seu público de maneira eficaz. Esta é uma lista de canais que você pode usar:
 
-Canais de saída:
+* Canais de saída
 
-* **Email**: entregue mensagens personalizadas diretamente para as caixas de entrada dos seus clientes.
-* **SMS/MMS**: envie mensagens de texto para alcançar os usuários em seus dispositivos móveis.
-* **Notificação por push**: envolver usuários com notificações instantâneas em seus dispositivos, gerando ação imediata.
-* **Correspondência direta**: utilize a correspondência física para criar uma conexão tangível com seu público-alvo.
+   * **Email**: entregue mensagens personalizadas diretamente para as caixas de entrada dos seus clientes.
+   * **SMS/MMS**: envie mensagens de texto para alcançar os usuários em seus dispositivos móveis.
+   * **Notificação por push**: envolver usuários com notificações instantâneas em seus dispositivos, gerando ação imediata.
+   * **Correspondência direta**: utilize a correspondência física para criar uma conexão tangível com seu público-alvo.
 
-Canais de entrada:
+* Canais de entrada
 
-* **No aplicativo**: comunique-se com os usuários em seus aplicativos móveis ou da Web para aprimorar suas experiências.
-* **Web**: usar mensagens baseadas na Web para interagir com os usuários que navegam no seu site.
-* **Experiência baseada em código**: implemente experiências personalizadas por meio de codificação para oportunidades de envolvimento exclusivas.
-* **Cartões de Conteúdo**: compartilhe conteúdo dinâmico diretamente nos seus aplicativos ou sites para manter os usuários informados e engajados.
+   * **No aplicativo**: comunique-se com os usuários em seus aplicativos móveis ou da Web para aprimorar suas experiências.
+   * **Web**: usar mensagens baseadas na Web para interagir com os usuários que navegam no seu site.
+   * **Experiência baseada em código**: implemente experiências personalizadas por meio de codificação para oportunidades de envolvimento exclusivas.
+   * **Cartões de Conteúdo**: compartilhe conteúdo dinâmico diretamente nos seus aplicativos ou sites para manter os usuários informados e engajados.
 
 ## Uso de canais em jornadas e campanhas {#leverage}
 
