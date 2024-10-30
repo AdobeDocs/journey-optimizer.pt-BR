@@ -7,16 +7,16 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
 # Catálogo de itens {#catalog}
 
-No Experience Decisioning, os catálogos servem como contêineres centrais para organizar itens de decisão. Cada catálogo está vinculado a um esquema do Adobe Experience Platform, abrangendo todos os atributos atribuíveis a um item de decisão.
+No Decisioning, os catálogos servem como contêineres centrais para organizar itens de decisão. Cada catálogo está vinculado a um esquema do Adobe Experience Platform, abrangendo todos os atributos atribuíveis a um item de decisão.
 
 Por enquanto, todos os itens de decisão criados são consolidados em um único catálogo &quot;Ofertas&quot;, acessível pelo menu **[!UICONTROL Catálogos]**.
 
@@ -41,7 +41,7 @@ Para acessar o schema do catálogo em que os atributos dos itens de decisão sã
 
    >[!CAUTION]
    >
-   >Por enquanto, o Experience Decisioning oferece suporte exclusivo aos seguintes tipos de dados: String, Integer, Boolean, Date, DateTime e Decisioning Asset. Qualquer campo fora desses tipos de dados não estará disponível para uso ao criar um item de decisão ou um catálogo.
+   >Por enquanto, a Decisão suporta exclusivamente os seguintes tipos de dados: String, Integer, Boolean, Date, DateTime e Decisioning Asset. Qualquer campo fora desses tipos de dados não estará disponível para uso ao criar um item de decisão ou um catálogo.
 
    O valor inserido em um atributo com atributo de ativo de decisão é um url público. Na maioria das vezes, isso apontaria para uma imagem.
 

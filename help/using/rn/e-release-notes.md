@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 42b9bfcc9079570a047462c23001d102abda58c9
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '1999'
 ht-degree: 37%
 
 ---
@@ -23,7 +23,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 ## Notas de versão antecipadas de outubro de 2024 {#e-2024}
 
-**Data de lançamento**: 29 a 30 de outubro de 2024
+****
 
 ### Novos recursos {#e-features}
 
@@ -87,13 +87,13 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Teste o conteúdo usando dados de entrada de exemplo (Beta)</strong><br/></th>
+<th><strong>Test your content using sample input data (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Jornada otimizer agora permite testar diferentes variantes do conteúdo de email visualizando-o e enviando provas usando dados de entrada de amostra carregados de um arquivo CSV ou adicionados manualmente. Todos os atributos de perfis usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes.</p>
+<p>Journey optimizer now allows you to test different variants of your email content by previewing it and sending proofs using sample input data uploaded from a CSV file or added manually. Todos os atributos de perfis usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes.</p>
 <p>No momento, esse recurso está disponível como um beta.</p>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
@@ -111,12 +111,12 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>No Journey Optimizer, gerenciar o volume e o tempo das campanhas e jornadas é essencial para evitar sobrecarregar os clientes com muitas interações. O Journey Optimizer agora oferece várias ferramentas para o gerenciamento de conflitos e a priorização.</p><p><ul><li><b>Limite de frequência de Jornada</b>: agora é possível criar conjuntos de regras para serem aplicados às suas jornadas, permitindo limitar o número de jornadas de um perfil por dia, semana ou mês, bem como controlar o número de jornadas simultâneas executadas simultaneamente.</li>
-<li><b>Pontuação de prioridade</b>: agora é possível atribuir uma pontuação de prioridade a uma campanha ou jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas campanhas ou ações de jornada usam a mesma configuração de canal, o Journey Optimizer seleciona aquela com a pontuação de prioridade mais alta. Se as campanhas tiverem a mesma pontuação, a campanha que foi modificada menos recentemente será escolhida.</li>
+<p>In Journey Optimizer, managing the volume and timing of campaigns and journeys is essential to avoid overwhelming customers with too many interactions. Journey Optimizer now offers several tools for conflict management and prioritization.</p><p><ul><li><b></b></li>
+<li><b></b> Um número mais alto indica uma prioridade mais alta. When two campaigns or journey actions use the same channel configuration, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was least recently modified will be chosen.</li>
 <li><b>Exibir conflitos potenciais</b>: um novo botão "Exibir conflitos potenciais" nas jornadas e campanhas agora permite identificar sobreposições com outras jornadas ou campanhas, como a data de início, o público-alvo ou a configuração de canal selecionada.</li>
 <li><b>Arbitragem de Jornada</b>: esse novo recurso permite que você priorize as jornadas mais importantes para seus clientes. É possível criar uma regra para suprimir a entrada em uma jornada de prioridade mais baixa quando um cliente se qualifica para uma jornada futura de prioridade mais alta.</li></ul></p>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
-<p>Os recursos de gerenciamento de conflitos e prioridades estão disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão gradualmente lançados para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera para esses recursos.</p>
+<p>Os recursos de gerenciamento de conflitos e prioridades estão disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão gradualmente lançados para mais usuários no futuro. Reach out to your account team if interested in being added to the waitlist for these features.</p>
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Modo de edição não visual para o web designer</strong><br/></th>
+<th><strong>Non-visual editing mode for the web designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -161,13 +161,13 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 <table>
 <thead>
 <tr>
-<th><strong>Decisioning (Disponibilidade Geral)</strong><br/></th>
+<th><strong>Decisioning (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Decisioning, anteriormente disponível para um conjunto de organizações (DL) e conhecido como Experience Decisioning, agora está disponível para todos os usuários (GA). Ele simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como "itens de decisão" e um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada indivíduo. Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do canal de experiência baseado em código.</p>
+<p>O Decisioning, anteriormente disponível para um conjunto de organizações (DL) e conhecido como Experience Decisioning, agora está disponível para todos os usuários (GA). It simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada indivíduo. Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do canal de experiência baseado em código.</p>
 
 <p>Por enquanto, o Decisioning está indisponível para clientes que compraram as ofertas complementares do Adobe Healthcare Shield e do Privacy and Security Shield.</p>
 
@@ -223,9 +223,9 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 <tr>
 <td>
 <p>Agora é possível integrar o Movable Ink Da Vinci e o Adobe Journey Optimizer. Com essa nova integração, você pode: </p>
-<p><ul><li>Aproveite os recursos avançados do produto Da Vinci da Movable Ink para reunir e personalizar variações de email para campanhas em lote</li>
-<li>Acelere os fluxos de trabalho do profissional para clientes do Journey Optimizer que usam Da Vinci para criação e o AJO para otimização e entrega</li>
-<li>Otimizar modelos Da Vinci com dados de Adobe.</li></ul></p>
+<p><ul><li>Leverage powerful capabilities in Movable Ink's Da Vinci product to assemble and personalize email variations for batch campaigns</li>
+<li>Accelerate practitioner workflows for Journey Optimizer customers using Da Vinci for authoring and AJO for optimization and delivery</li>
+<li>Optimize Da Vinci models with Adobe data.</li></ul></p>
 <!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
@@ -234,18 +234,18 @@ Esse modo de edição não visual é útil se você não puder instalar extensõ
 <table>
 <thead>
 <tr>
-<th><strong>Experiência de relatório atualizada (disponibilidade geral)</strong><br/></th>
+<th><strong>Updated reporting experience (General availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Disponível desde 16 de outubro de 2024</p>
+<p>Available since Oct 16, 2024</p>
 <p>Os relatórios do Journey Optimizer agora estão disponíveis no mercado (GA) e vêm com uma interoperabilidade melhorada com recursos Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados. Essa integração perfeita entre o Journey Optimizer e o Customer Journey Analytics fornece uma visão mais clara das métricas de desempenho, permitindo que os usuários tomem decisões mais conscientes.</p>
-<p>Com a disponibilidade geral, quatro novos recursos são introduzidos: a capacidade de criar métricas simples, criar e publicar públicos, fazer perguntas ad hoc usando o Insight Builder e agendar relatórios para serem enviados automaticamente por email aos principais destinatários.</p>
+<p>With general availability, four new features are introduced: the ability to create simple metrics, create and publish audiences, ask ad-hoc questions using Insight Builder, and schedule reports to be automatically emailed to key recipients.</p>
 <p>Para obter mais informações, consulte a <a href="../reports/report-cja-manage.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>Importante: a experiência atual de relatórios será removida a partir de janeiro de 2025. Após essa data, a nova experiência de relatórios se tornará o padrão. Recomendamos que você se familiarize com os novos recursos e funcionalidades para garantir uma transição suave. <a href="../reports/report-gs-cja.md">Saiba como começar a usar a nova interface de relatórios do Journey Optimizer</a></p>
+<p>Important:The current reporting experience will be retired as of January 2025. Após essa data, a nova experiência de relatórios se tornará o padrão. We recommend familiarizing yourself with the new features and functionalities to ensure a smooth transition. <a href="../reports/report-gs-cja.md">Saiba como começar a usar a nova interface de relatórios do Journey Optimizer</a></p>
 </tr>
 </tbody>
 </table>
@@ -292,9 +292,9 @@ Esta versão vem com as melhorias listadas abaixo.
 
 >[!AVAILABILITY]
 >
->Os aprimoramentos a seguir estão disponíveis apenas com provedores Sinch e Infobip.
+>Following enhancements are only available with Sinch and Infobip providers.
 
-Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
+SMS enhancements have been introduced to improve your messaging capabilities:
 
 * Você pode definir e gerenciar palavras-chave exclusivas para suas campanhas e jornadas de SMS, permitindo uma comunicação mais personalizada e eficiente.
 
@@ -306,11 +306,11 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
 <!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
 
-&lt;!—* **Número máximo de jornadas ativas** - O Journey Optimizer agora tem uma garantia de 500 jornadas ativas em sandboxes de produção, em vez de 100. O número de jornadas ativas é visível na tela de jornada. <!-- DOCAC-10977-->
+&lt;!**** <!-- DOCAC-10977-->
 
 **Conjuntos de dados**
 
-* **Grade de proteção de tempo de vida** - A partir de 1º de novembro de 2024, uma grade de proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema da Journey Optimizer em novas sandboxes e novas organizações da seguinte maneira:
+* ****
 
    * 90 dias para dados na loja de perfis
    * 13 meses para dados no data lake
@@ -323,7 +323,7 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
 **Relatórios**
 
-* **Os relatórios do Experience Decisioning** agora estão disponíveis, oferecendo insights essenciais sobre como os visitantes interagem com suas experiências.
+* ****
 
 **Políticas de governança de dados e consentimento** - Data de disponibilidade: 7 de outubro de 2024
 
@@ -345,6 +345,6 @@ Foram introduzidos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
 * Os templates de conteúdo agora estão disponíveis. Você pode acelerar a criação de suas experiências baseadas em código, começando por um modelo de conteúdo criado por seus desenvolvedores. Usar um modelo de conteúdo permitirá que o profissional de marketing modifique apenas alguns valores ou campos, em vez de compor toda a carga de conteúdo HTML ou JSON.
 
-**Decisão**
+****
 
 Os usuários do [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR) agora podem escolher modelos personalizados para otimizar ao configurar um modelo de IA no Decisioning (anteriormente conhecido como Experience Decisioning). Isso permite, por exemplo, otimizar em uma tabela de &quot;compras&quot; personalizada em vez de restrições definidas, como a taxa de cliques.&quot;

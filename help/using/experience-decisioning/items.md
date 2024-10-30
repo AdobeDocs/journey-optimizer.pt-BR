@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b6c5bb09d7a1cb7f61a532cd5ffd262436e09039
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1745'
 ht-degree: 15%
 
 ---
@@ -26,7 +26,7 @@ O Journey Optimizer permite gerar ofertas de marketing, conhecidas como itens de
 
 Antes de criar um item de decisão, verifique se você criou uma **regra de decisão** se deseja definir condições para determinar para quem o item de decisão pode ser mostrado. [Saiba como criar regras de decisão](rules.md).
 
-Para criar um item de decisão, navegue até **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Catálogos]**, clique em **[!UICONTROL Criar item]** e siga as etapas detalhadas nas seções abaixo.
+Para criar um item de decisão, navegue até **[!UICONTROL Decisão]** > **[!UICONTROL Catálogos]**, clique em **[!UICONTROL Criar item]** e siga as etapas detalhadas nas seções abaixo.
 
 ## Definir os atributos do item de decisão {#attributes}
 
@@ -47,14 +47,14 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 
 1. Forneça um nome e uma descrição.
 1. Especifique datas de início e término. O item só será considerado pelo mecanismo de decisão nessas datas.
-1. Defina a **[!UICONTROL Prioridade]** do item de decisão em comparação a outros, se um perfil se qualificar para vários itens. Uma prioridade mais alta concede ao item precedência sobre outros.
-1. O campo **Tags** permite atribuir Tags unificadas do Adobe Experience Platform aos itens de decisão. Isso permite classificá-los facilmente e melhorar a pesquisa. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
+1. **** Uma prioridade mais alta concede ao item precedência sobre outros.
+1. **** This allows you to easily classify them and improve search. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
 
    >[!NOTE]
    >
-   >A prioridade é um tipo de dados inteiro. Todos os atributos que são tipos de dados inteiros devem conter valores inteiros (sem decimais).
+   >The priority is an integer data type. All attributes that are integer data types should contain integer values (no decimals).
 
-1. Especifique atributos personalizados (opcional). Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são definidos no schema do catálogo dos itens de decisão. [Saiba como trabalhar com catálogos](catalogs.md)
+1. Specify custom attributes (optional). Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são definidos no schema do catálogo dos itens de decisão. [Saiba como trabalhar com catálogos](catalogs.md)
 
 1. Após definir os atributos do item de decisão, clique em **[!UICONTROL Avançar]**.
 
@@ -69,7 +69,7 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 
 Por padrão, todos os perfis estarão qualificados para receber o item de decisão, mas você pode usar públicos ou regras para restringir o item somente a perfis específicos, ambas as soluções correspondentes a usos diferentes. Expanda a seção abaixo para obter mais informações:
 
-+++Uso de públicos-alvo vs. regras de decisão
++++Using audiences vs decisiong rules
 
 Basicamente, a saída de um público-alvo é uma lista de perfis, enquanto uma regra de decisão é uma função executada sob demanda em relação a um único perfil durante o processo de decisão.
 
@@ -79,7 +79,7 @@ Basicamente, a saída de um público-alvo é uma lista de perfis, enquanto uma r
 
 +++
 
-* Para limitar a apresentação do item de decisão aos membros de um ou vários públicos-alvo da Adobe Experience Platform, selecione a opção **[!UICONTROL Visitantes que se encaixam em um ou vários públicos-alvo]**, adicione um ou vários públicos-alvo do painel esquerdo e combine-os usando os operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**. [Saiba mais sobre públicos](../audience/about-audiences.md).
+* ************ [Saiba mais sobre públicos](../audience/about-audiences.md).
 
 * Para associar uma regra de decisão específica ao item de decisão, selecione **[!UICONTROL Por regra]** e arraste a regra desejada do painel esquerdo para a área central. [Saiba mais sobre regras de decisão](rules.md).
 
@@ -102,20 +102,20 @@ O limite é usado como uma restrição para definir o número máximo de vezes q
 >
 >O valor do contador de limite pode levar até 3 segundos para ser atualizado. Por exemplo, digamos que você esteja exibindo um banner da Web com uma oferta no seu site. Se um determinado usuário navegar para a próxima página do seu site em menos de 3 segundos, o valor do contador não será incrementado para esse usuário.
 
-Para definir regras de limite para o item de decisão, clique no botão **[!UICONTROL Criar limite]** e siga estas etapas:
+****
 
-1. Defina qual **[!UICONTROL Evento de limite]** será considerado para aumentar o contador.
+1. ****
 
    * **[!UICONTROL Evento de decisão]** (valor padrão): número máximo de vezes que uma oferta pode ser apresentada.
    * **[!UICONTROL Impressão]** (somente canais de entrada): número máximo de vezes que a oferta pode ser exibida a um usuário.
    * **[!UICONTROL Cliques]**: número máximo de vezes que um usuário pode clicar no item de decisão.
-   * **[!UICONTROL Evento personalizado]**: você pode definir um evento personalizado que será usado para limitar o número de vezes que o item é enviado. Por exemplo, você pode limitar o número de resgates até que sejam iguais a 10000 ou até que um determinado perfil tenha resgatado uma vez. Para fazer isso, use esquemas [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"} para criar uma regra de evento personalizada.
+   * **[!UICONTROL Evento personalizado]**: você pode definir um evento personalizado que será usado para limitar o número de vezes que o item é enviado. For example, you can cap on the number of redemptions until they equal 10000, or until a given profile has redeemed 1 time. [](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}
 
    >[!NOTE]
    >
-   >Para todos os eventos de limite, exceto o evento de decisão, o feedback da gestão de decisões pode não ser coletado automaticamente, o que pode resultar no aumento incorreto do contador de limite. Para garantir que cada evento de limite seja rastreado e contabilizado no contador de limite, verifique se o esquema usado para coletar eventos de experiência inclui o grupo de campos correto para esse evento. Informações detalhadas sobre a coleta de dados estão disponíveis na Documentação da gestão de decisões da Journey Optimizer:
-   >* [Coleta de dados de gerenciamento de decisão](../offers/data-collection/data-collection.md)
-   >* [Configurar a coleção de dados](../offers/data-collection/schema-requirement.md)
+   >For all capping events except decision event, the decision management feedback may not be automatically collected, which could result in the capping counter not being correctly incremented. To make sure each capping event is tracked and accounted for in the capping counter, ensure that the schema used to collect experience events includes the correct field group for that event. Detailed information on data collection is available in Journey Optimizer Decision management documentation:
+   >* [](../offers/data-collection/data-collection.md)
+   >* [](../offers/data-collection/schema-requirement.md)
 
 1. Escolha o tipo de limite:
 
@@ -133,7 +133,7 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
    >
    >A redefinição do contador de limite de frequência ocorre às **12h UTC**, no dia definido ou no primeiro dia da semana/mês quando aplicável. O dia de início da semana é **domingo**. Qualquer duração escolhida não pode exceder **2 anos** (ou seja, o número correspondente de meses, semanas ou dias).
    >
-   >Depois de publicar seu item de decisão, você não poderá alterar o período de tempo (mensal, semanal ou diário) selecionado para a frequência. Você ainda pode editar o limite de frequência se o item tiver o status **[!UICONTROL Rascunho]** e nunca tiver sido publicado antes com o limite de frequência habilitado.
+   >After publishing your decision item, you will not be able to change the time period (monthly, weekly or daily) you selected for the frequency. ****
 
 1. Clique em **[!UICONTROL Criar]** para confirmar a criação da regra de limitação. Você pode criar até 10 regras para um único item de decisão. Para fazer isso, clique no botão **[!UICONTROL Criar limite]** e repita as etapas acima.
 
@@ -141,7 +141,7 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
 
 1. Depois que as regras de qualificação e limite do item de decisão forem definidas, clique em **[!UICONTROL Avançar]** para revisar e salvar o item.
 
-1. O item de decisão agora aparece na lista, com o status **[!UICONTROL Rascunho]**. Quando estiver pronto para ser apresentado aos perfis, clique no botão de reticências e selecione **[!UICONTROL Aprovar]**.
+1. O item de decisão agora aparece na lista, com o status **[!UICONTROL Rascunho]**. ****
 
    ![](assets/item-approve.png)
 
@@ -150,13 +150,13 @@ If a marketer wants to determine how many times a specific customer has been sho
 
 ## Gerenciar itens de decisão {#manage}
 
-Na lista de itens de decisão, você pode editar um item de decisão, alterar seu status (**Rascunho**, **Aprovado**, **Arquivado**), duplicá-lo ou excluí-lo.
+************
 
-Para modificar um item de decisão, abra-o, faça suas modificações e salve-o.
+To modify a decision item, open it, make your modifications and save it.
 
-Selecionar um item de decisão ou clicar no botão de reticências permite as ações descritas abaixo.
+Selecting a decision item or clicking the ellipsis button enables the actions described below.
 
-* **[!UICONTROL Aprovar]**: define o status do item de decisão como Aprovado.
+* ****
 * **[!UICONTROL Desfazer aprovação]**: define o status do item de decisão de volta para **[!UICONTROL Rascunho]**.
 * **[!UICONTROL Duplicar]**: cria um item de decisão com atributos e restrições idênticos. Por padrão, o novo item tem o status **[!UICONTROL Rascunho]**.
 * **[!UICONTROL Excluir]**: remove o item de decisão da lista.
@@ -165,4 +165,4 @@ Selecionar um item de decisão ou clicar no botão de reticências permite as a�
   >
   >Depois de excluído, o item de decisão e seu conteúdo não estarão mais acessíveis. Essa ação não pode ser desfeita. Se o item de decisão for usado em uma coleção ou uma decisão, ele não poderá ser excluído. Você deve remover o item de decisão de qualquer objeto primeiro.
 
-* **[!UICONTROL Arquivar]**: define o status do item de decisão como **[!UICONTROL Arquivado]**. O item de decisão ainda está disponível na lista, mas você não pode definir seu status novamente como **[!UICONTROL Rascunho]** ou **[!UICONTROL Aprovado]**. Você só pode duplicá-la ou excluí-la.
+* **[!UICONTROL Arquivar]**: define o status do item de decisão como **[!UICONTROL Arquivado]**. ******** Você só pode duplicá-la ou excluí-la.

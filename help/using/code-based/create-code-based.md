@@ -1,15 +1,15 @@
 ---
 title: Criar experiências baseadas em código
-description: Saiba como criar experiências baseadas em código no Journey Optimizer
+description: Learn how to create code-based experiences in Journey Optimizer
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 2a7707f5538a8d01a7b0d7e531d94d9ef922097a
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 15%
+source-wordcount: '1802'
+ht-degree: 14%
 
 ---
 
@@ -21,45 +21,45 @@ As medidas de proteção e recomendações específicas para experiências basea
 
 ## Adicionar uma experiência baseada em código por meio de uma jornada ou campanha {#create-code-based-experience}
 
-Para começar a criar sua experiência baseada em código por meio de uma jornada ou campanha, siga as etapas abaixo.
+To start building your code-based experience through a journey or a campaign, follow the steps below.
 
 >[!BEGINTABS]
 
->[!TAB Adicionar uma experiência baseada em código a uma jornada]
+>[!TAB ]
 
-Para adicionar uma atividade de **experiência baseada em código** a uma jornada, siga estas etapas:
+****
 
-1. [Criar uma jornada](../building-journeys/journey-gs.md).
+1. [](../building-journeys/journey-gs.md)
 
-1. Inicie sua jornada com uma atividade [Evento](../building-journeys/general-events.md) ou [Ler público](../building-journeys/read-audience.md).
+1. [](../building-journeys/general-events.md)[](../building-journeys/read-audience.md)
 
-1. Arraste e solte uma atividade de **[!UICONTROL Experiência baseada em código]** da seção **[!UICONTROL Ações]** da paleta.
+1. ********
 
    ![](assets/code-based-activity-journey.png)
 
    >[!NOTE]
    >
-   >Como a **experiência baseada em código** é uma atividade de mensagem de entrada, ela vem com uma atividade **Wait** de 3 dias. [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
+   >******** [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Insira um **[!UICONTROL Rótulo]** e uma **[!UICONTROL Descrição]** para a mensagem.
+1. ********
 
-1. Selecione ou crie a [Configuração de experiência baseada em código](code-based-configuration.md) para usar.
+1. [](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
 
-1. Selecione o botão **[!UICONTROL Editar conteúdo]** e edite o conteúdo conforme desejado usando o editor de personalização. [Saiba mais](#edit-code)
+1. **** [Saiba mais](#edit-code)
 
-   Você também pode usar um template de conteúdo existente como base para o conteúdo do código. Observe que os modelos disponíveis para escolha têm escopo para HTML ou JSON com base na configuração de canal escolhida anteriormente. [Saiba como usar modelos de conteúdo](../content-management/use-content-templates.md)
+   You can also use an existing content template as a basis for your code content. Note that the templates available to choose are scoped to either HTML or JSON based on the channel configuration that has been chosen beforehand. [](../content-management/use-content-templates.md)
 
 1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
 
 1. Quando sua experiência com base em código estiver pronta, finalize a configuração e publique sua jornada para ativá-la. [Saiba mais](../building-journeys/publishing-the-journey.md)
 
-Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
+[](../building-journeys/journey-gs.md)
 
 >[!TAB Criar uma campanha de experiência baseada em código]
 
-Para começar a criar sua **experiência baseada em código** por meio de uma campanha, siga as etapas abaixo.
+****
 
 1. Crie uma campanha. [Saiba mais](../campaigns/create-campaign.md)
 
@@ -67,9 +67,9 @@ Para começar a criar sua **experiência baseada em código** por meio de uma ca
 
    * **[!UICONTROL Agendado - Marketing]**: execute a campanha imediatamente ou em uma data especificada. As campanhas agendadas têm como objetivo enviar mensagens de **marketing**. Eles são configurados e executados na interface do usuário do.
 
-   * **[!UICONTROL Acionado por API - Marketing/Transacional]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **mensagens de marketing** ou **mensagens transacionais**, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL Acionado por API - Marketing/Transacional]**: execute a campanha usando uma chamada de API. ******** [](../campaigns/api-triggered-campaigns.md)
 
-1. Conclua as etapas para criar uma campanha, como as propriedades da campanha, [público-alvo](../audience/about-audiences.md) e [agendamento](../campaigns/create-campaign.md#schedule). Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+1. [](../audience/about-audiences.md)[](../campaigns/create-campaign.md#schedule) Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 1. Selecione a ação **[!UICONTROL Experiência baseada em código]**.
 
@@ -77,13 +77,13 @@ Para começar a criar sua **experiência baseada em código** por meio de uma ca
 
    ![](assets/code-based-campaign-surface.png)
 
-1. Edite o conteúdo conforme desejado usando o editor de personalização. [Saiba mais](#edit-code)
+1. Edit your content as desired using the personalization editor. [Saiba mais](#edit-code)
 
-   Você também pode usar um template de conteúdo existente como base para o conteúdo do código. Observe que os modelos disponíveis para escolha têm escopo para HTML ou JSON com base na configuração de canal escolhida anteriormente. [Saiba como usar modelos de conteúdo](../content-management/use-content-templates.md)
+   You can also use an existing content template as a basis for your code content. Note that the templates available to choose are scoped to either HTML or JSON based on the channel configuration that has been chosen beforehand. [](../content-management/use-content-templates.md)
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
-Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+[](../campaigns/get-started-with-campaigns.md)
 
 >[!ENDTABS]
 
@@ -95,11 +95,11 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 >abstract="Insira e edite o código que deseja entregar como parte desta ação de experiência baseada em código."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=pt-BR" text="Introdução ao editor de personalização"
 
-1. Na atividade de jornada ou na tela de edição de campanha, selecione **[!UICONTROL Editar código]**.
+1. ****
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. O [editor de personalização](../personalization/personalization-build-expressions.md) se abre. É uma interface de criação de experiência não visual que permite criar seu código.
+1. [](../personalization/personalization-build-expressions.md) É uma interface de criação de experiência não visual que permite criar seu código.
 
 1. Você pode alternar o modo de criação de HTML para JSON e vice-versa.
 
@@ -113,20 +113,20 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
 1. Você pode adicionar fragmentos de expressão HTML ou JSON, se necessário. [Saiba como](../personalization/use-expression-fragments.md)
 
-   Também é possível salvar parte do conteúdo do código como fragmento. [Saiba como](../content-management/fragments.md#save-as-expression-fragment)
+   You can also save part of your code content as fragment. [Saiba como](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Com experiências baseadas em código, você pode usar o recurso de decisão de experiência. Selecione o ícone **[!UICONTROL Política de decisão]** na barra esquerda e clique em **[!UICONTROL Adicionar política de decisão]**. [Saiba mais](../experience-decisioning/create-decision.md)
+1. With code-based experiences, you can use the Decisioning feature. ******** [Saiba mais](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
    >[!NOTE]
    >
-   >No momento, a Escolha de experiências está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
+   >Decisioning is currently only available for a set of organizations (Limited Availability). Para obter acesso, entre em contato com seu representante da Adobe.
 
 
-1. Clique em **[!UICONTROL Salvar e fechar]** para confirmar as alterações.
+1. ****
 
-Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar conteúdo para a superfície definida na configuração do canal, as alterações serão aplicadas à página da Web ou aplicativo.
+Now as soon as your developer makes an API or SDK call to fetch content for the surface defined in your channel configuration, the changes will be applied to your web page or app.
 
 ## Testar a experiência baseada em código {#test-code-based-experience}
 
@@ -141,15 +141,15 @@ Para exibir uma pré-visualização de sua experiência baseada em código modif
 >
 >Você deve ter perfis de teste disponíveis para simular quais ofertas serão entregues a eles. Saiba como [criar perfis de teste](../audience/creating-test-profiles.md).
 
-1. Na jornada ou campanha, na tela do editor de personalização ou de edição de conteúdo, selecione **[!UICONTROL Simular conteúdo]**.
+1. ****
 
    ![](assets/code-based-campaign-simulate.png)
 
-1. Clique em **[!UICONTROL Gerenciar perfis de teste]** para selecionar um ou mais perfis de teste.
+1. ****
 
-1. Uma visualização da sua experiência modificada baseada em código é exibida.
+1. A preview of your modified code-based experience is displayed.
 
-Informações detalhadas sobre como selecionar perfis de teste e visualizar seu conteúdo estão disponíveis em [esta seção](../content-management/preview.md).
+[](../content-management/preview.md)
 
 ### Visualização no dispositivo {#preview-on-device}
 
@@ -179,9 +179,9 @@ Ao criar experiências baseadas em código para páginas da Web ou aplicativos m
 >
 >A visualização no dispositivo não está disponível ao usar [políticas de decisão](../experience-decisioning/create-decision.md) ou [personalização](../personalization/personalization-build-expressions.md) atributos contextuais.
 
-1. Na tela **[!UICONTROL Simular]**, clique no botão **[!UICONTROL Abrir opções de visualização]**. As opções de visualização dependem da plataforma selecionada na sua [configuração baseada em código](code-based-configuration.md#create-code-based-configuration).
+1. ******** [](code-based-configuration.md#create-code-based-configuration)
 
-1. Se você estiver usando uma [plataforma da Web](code-based-configuration.md#web) em sua configuração baseada em código, o campo somente leitura da **[!UICONTROL URL de visualização do dispositivo]** será preenchido com a URL inserida para a configuração de canal atual.
+1. [](code-based-configuration.md#web)****
 
    ![](assets/preview-on-device-web.png)
 
@@ -209,7 +209,7 @@ Ao criar experiências baseadas em código para páginas da Web ou aplicativos m
      >
      >O **Adobe Experience Platform Assurance** é um produto da Adobe Experience Cloud que ajuda a inspecionar, testar, simular e validar a maneira como você coleta dados ou oferece experiências em seu aplicativo móvel. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/home){target="_blank"}
 
-1. Os links de visualização são gerados para o perfil de teste selecionado e, se estiver usando o [Experimento de Conteúdo](../content-management/content-experiment.md) na sua jornada ou campanha, para o tratamento selecionado.
+1. [](../content-management/content-experiment.md)
 
    <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
 
@@ -237,7 +237,7 @@ Você também pode visualizar seu conteúdo de experiência baseado em código a
 
 Assim que a jornada ou campanha baseada em código estiver ativa, a equipe de implementação do aplicativo será responsável por fazer chamadas explícitas de API ou SDK para buscar conteúdo para as superfícies definidas na [configuração de experiência baseada em código](code-based-configuration.md) selecionada. Saiba mais sobre as diferentes implementações de clientes em [esta seção](code-based-implementation-samples.md).
 
-### Publish uma jornada baseada em código {#publish-code-based-journey}
+### Publish a code-based journey {#publish-code-based-journey}
 
 Para ativar sua experiência baseada em código a partir de uma jornada, siga as etapas abaixo.
 
@@ -251,57 +251,57 @@ Para ativar sua experiência baseada em código a partir de uma jornada, siga as
    >
    >Saiba mais sobre a publicação de jornadas em [esta seção](../building-journeys/publishing-the-journey.md).
 
-Sua jornada baseada em código pega o status do **[!UICONTROL Live]** e agora está visível para o público selecionado. Cada recipient da jornada pode ver suas modificações.
+**** Each recipient of your journey can see your modifications.
 
 >[!NOTE]
 >
->Após clicar em **[!UICONTROL Publish]**, pode levar até 15 minutos para que as alterações fiquem disponíveis online.
+>****
 
-### Ativar uma campanha baseada em código {#activate-code-based-campaign}
+### Activate a code-based campaign {#activate-code-based-campaign}
 
-1. Em sua campanha baseada em código, selecione **[!UICONTROL Revisar para ativar]**.
+1. ****
 
    ![](assets/code-based-campaign-review.png)
 
-1. Verifique e edite, se necessário, o conteúdo, as propriedades, a configuração, o público-alvo e o agendamento.
+1. Check and edit if needed the content, properties, configuration, audience and schedule.
 
-1. Selecione **[!UICONTROL Ativar]**.
+1. ****
 
    ![](assets/code-based-campaign-activate.png)
 
    >[!NOTE]
    >
-   >Saiba mais sobre como ativar campanhas em [esta seção](../campaigns/review-activate-campaign.md).
+   >[](../campaigns/review-activate-campaign.md)
 
-Sua campanha baseada em código pega o status do **[!UICONTROL Live]** e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações que você adicionou ao conteúdo.
+**** Each recipient of your campaign can see the modifications you added to your content.
 
 >[!NOTE]
 >
->Após clicar em **[!UICONTROL Ativar]**, pode levar até 15 minutos para que as alterações fiquem disponíveis ao vivo.
+>****
 >
->Se você definiu um agendamento para sua campanha baseada em código, ele tem o status **[!UICONTROL Agendado]** até que a data e a hora de início sejam atingidas.
+>****
 
 ## Interromper uma jornada ou campanha baseada em código {#stop-code-based-experience}
 
 Quando uma experiência baseada em código está ativa, você pode interrompê-la para impedir que o público-alvo veja suas modificações. Siga as etapas abaixo.
 
-1. Selecione uma jornada ou campanha ao vivo na respectiva lista.
+1. Select a live journey or campaign from the respective list.
 
-1. Execute a ação relevante de acordo com seu caso:
+1. Perform the relevant action according to your case:
 
-   * No menu superior da campanha, selecione **[!UICONTROL Parar campanha]**.
+   * ****
 
      ![](assets/code-based-campaign-stop.png)
 
-   * No menu superior de jornada, clique no botão **[!UICONTROL Mais]** e selecione **[!UICONTROL Parar]**.
+   * ********
 
      ![](assets/code-based-journey-stop.png)
 
-1. As modificações adicionadas não estarão mais visíveis para o público-alvo definido.
+1. The modifications you added will not be visible anymore to the audience you defined.
 
 >[!NOTE]
 >
->Quando uma jornada ou campanha baseada em código é interrompida, não é possível editá-la ou ativá-la novamente. Você só pode duplicá-la e ativar a jornada/campanha duplicada.
+>Once a code-based journey or campaign is stopped, you cannot edit or activate it again. You can only duplicate it and activate the duplicated journey/campaign.
 
 <!--Reporting TBC
 

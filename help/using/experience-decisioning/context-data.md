@@ -1,32 +1,32 @@
 ---
-title: Aproveitar dados de contexto no Experience Decisioning
-description: Saiba como aproveitar dados de contexto no Experience Decisioning
+title: Aproveitar dados de contexto no Decisioning
+description: Saiba como aproveitar os dados de contexto no Decisioning
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="Disponibilidade limitada"
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
-source-git-commit: 2349145fcf698769d16326a19a48a413a3c1dd95
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-# Aproveitar dados de contexto no Experience Decisioning {#context}
+# Aproveitar dados de contexto no Decisioning {#context}
 
-Com o Experience Decisioning, você pode aproveitar todas as informações disponíveis no Adobe Experience Platform para executar várias ações, como criar [regras de decisão](rules.md) ou [fórmulas de classificação](ranking.md). Por exemplo, você pode projetar uma regra de decisão que exija que o tempo atual seja ≥ 80 graus no momento em que a solicitação de decisão é feita.
+Com o Decisioning, você pode aproveitar todas as informações disponíveis no Adobe Experience Platform para executar várias ações, como criar [regras de decisão](rules.md) ou [fórmulas de classificação](ranking.md). Por exemplo, você pode projetar uma regra de decisão que exija que o tempo atual seja ≥ 80 graus no momento em que a solicitação de decisão é feita.
 
 >[!NOTE]
 >
 >Os dados de contexto são definidos no Adobe Experience Platform e enviados no momento de uma solicitação de decisão. Ela não inclui dados históricos.
 
-Para usar dados de contexto, primeiro é necessário definir os dados que deseja disponibilizar no Experience Decisioning. Depois de concluídos, esses dados se integram perfeitamente ao Experience Decisioning na guia **[!UICONTROL Dados de contexto]** disponível ao criar uma regra de decisão. Você também pode aproveitar os dados ao editar uma fórmula de classificação.
+Para usar dados de contexto, primeiro é necessário definir os dados que deseja disponibilizar no Decisioning. Depois de concluídos, esses dados se integram perfeitamente à Decisão na guia **[!UICONTROL Dados de contexto]** disponível ao criar uma regra de decisão. Você também pode aproveitar os dados ao editar uma fórmula de classificação.
 
 ![](assets/decision-rules-context.png)
 
-As etapas para alimentar o Experience Decisioning com dados do Adobe Experience Platform são as seguintes:
+As etapas para alimentar a Decisão com dados do Adobe Experience Platform são as seguintes:
 
 1. Crie um **esquema de Evento de Experiência** no Adobe Experience Platform e seu **conjunto de dados** associado. [Saiba como criar esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
@@ -42,7 +42,7 @@ As etapas para alimentar o Experience Decisioning com dados do Adobe Experience 
 
       ![](assets/decision-rules-context-datastream-service.png)
 
-Depois que a sequência de dados é salva, as informações do conjunto de dados selecionado são buscadas automaticamente e integradas ao Experience Decisioning, normalmente ficando disponíveis em aproximadamente 24 horas.
+Depois que a sequência de dados é salva, as informações do conjunto de dados selecionado são buscadas automaticamente e integradas ao Decisioning, normalmente ficando disponíveis em aproximadamente 24 horas.
 
 Para obter mais orientações sobre como trabalhar com o Adobe Experience Platform, explore os seguintes recursos:
 

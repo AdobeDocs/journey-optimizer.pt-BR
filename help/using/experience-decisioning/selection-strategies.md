@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 21%
 
 ---
@@ -33,7 +33,7 @@ Uma estratégia de seleção é reutilizável e consiste em uma coleção associ
 
 ## Acessar e gerenciar estratégias de seleção
 
-1. Vá para **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuração da estratégia]** > **[!UICONTROL Estratégias de seleção]**.
+1. Vá para **[!UICONTROL Decisão]** > **[!UICONTROL Configuração da estratégia]** > **[!UICONTROL Estratégias de seleção]**.
 
 1. Todas as estratégias de seleção criadas até agora estão listadas. Os filtros estão disponíveis para ajudá-lo a recuperar estratégias de acordo com o método de classificação.
 

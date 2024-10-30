@@ -1,19 +1,19 @@
 ---
-title: Caso de uso de decisão de experiência
+title: Caso de uso de decisão
 description: Saiba como criar decisões usando experimentos com o canal baseado em código
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="Disponibilidade limitada"
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '327'
 ht-degree: 7%
 
 ---
 
-# Caso de uso de decisão de experiência {#experience-decisioning-uc}
+# Caso de uso de decisão {#experience-decisioning-uc}
 
 Nesse caso de uso, você define dois tratamentos de delivery, cada um contendo uma política de decisão diferente para medir qual tem melhor desempenho para o público-alvo.
 
@@ -21,7 +21,7 @@ Nesse caso de uso, você define dois tratamentos de delivery, cada um contendo u
 
 Primeiro, é necessário criar itens, agrupá-los em coleções, configurar regras e métodos de classificação. Esses elementos permitirão criar estratégias de seleção.
 
-1. Navegue até **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Catálogos]** e crie vários itens de oferta. Defina restrições usando públicos ou regras para restringir cada item somente a perfis específicos. [Saiba mais](items.md)
+1. Navegue até **[!UICONTROL Decisão]** > **[!UICONTROL Catálogos]** e crie vários itens de oferta. Defina restrições usando públicos ou regras para restringir cada item somente a perfis específicos. [Saiba mais](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
