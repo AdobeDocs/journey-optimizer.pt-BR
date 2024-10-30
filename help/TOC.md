@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2161'
 ht-degree: 93%
 
 ---
@@ -175,13 +175,12 @@ ht-degree: 93%
    + [Revisar e ativar uma campanha](using/campaigns/review-activate-campaign.md)
    + [Gerenciar campanhas](using/campaigns/modify-stop-campaign.md)
    + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
++ Priorização e gerenciamento de conflitos {#conflict-prioritization}
+   + [Introdução ao gerenciamento de conflitos e priorização](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Identificar possíveis conflitos](using/conflict-prioritization/conflicts.md)
+   + [Atribuir pontuações de prioridade](using/conflict-prioritization/priority-scores.md)
+   + [Limite e arbitragem de jornada](using/conflict-prioritization/journey-capping.md)
 + Testar e aprovar {#test}
-   + [Gerenciamento de conflitos e priorização](using/test-approve/conflict-prioritization.md)
-   + Priorização e gerenciamento de conflitos {#conflict-prioritization}
-      + [Introdução ao gerenciamento de conflitos e priorização](using/test-approve/gs-conflict-prioritization.md)
-      + [Identificar possíveis conflitos](using/test-approve/conflicts.md)
-      + [Atribuir pontuações de prioridade](using/test-approve/priority-scores.md)
-      + [Limite e arbitragem de jornada](using/test-approve/journey-capping.md)
    + Visualizar e testar conteúdo {#preview-test}
       + [Teste o conteúdo usando dados de entrada de exemplo](using/test-approve/simulate-sample-input.md)
       + [Introdução à visualização e teste](using/content-management/preview-test.md)
@@ -658,7 +657,7 @@ ht-degree: 93%
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
    + [Configurar regra de negócios](using/configuration/frequency-rules.md)
-   + [Trabalhar com conjuntos de regras](using/configuration/rule-sets.md)
+   + [Trabalhar com conjuntos de regras (DL)](using/configuration/rule-sets.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + Integração a sistemas externos {#external-systems}

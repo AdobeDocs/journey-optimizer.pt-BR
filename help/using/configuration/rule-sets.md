@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabalhar com conjuntos de regras
+title: Trabalhar com conjuntos de regras (DL)
 description: Saiba como criar e aplicar conjuntos de regras
 feature: Rules
 topic: Content Management
@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '1968'
+source-wordcount: '1988'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 10%
 
 >[!AVAILABILITY]
 >
->Os conjuntos de regras estão disponíveis no momento como uma versão beta somente para usuários selecionados. Entre em contato com o representante da Adobe para ser incluído na Beta.
+>Os conjuntos de regras estão atualmente disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esse recurso será gradualmente implementado para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera.
 
 ## Introdução aos conjuntos de regras {#gs}
 
@@ -167,7 +167,7 @@ Os parâmetros disponíveis para a regra dependem do domínio do conjunto de reg
    * **[!UICONTROL Limite de Entrada de Jornada]**: Limita o número de entradas na jornada em um determinado período para um perfil.
    * **[!UICONTROL Limite de Simultaneidade de Jornada]**: Limita quantas jornadas um perfil pode ser inscrito simultaneamente.
 
-1. Informações detalhadas sobre como configurar regras de limite de jornada estão disponíveis na seção [Limite de Jornada e arbitragem](../test-approve/journey-capping.md).
+1. Informações detalhadas sobre como configurar regras de limite de jornada estão disponíveis na seção [Limite de Jornada e arbitragem](../conflict-prioritization/journey-capping.md).
 
 +++
 
@@ -306,7 +306,7 @@ Ao testar as regras de frequência, é recomendável usar um [perfil de teste](.
 
 Para aplicar uma regra de limitação a uma jornada, acesse a jornada e abra suas propriedades. No menu suspenso **[!UICONTROL Regras de limitação]**, selecione o conjunto de regras relevante.
 
-![](../test-approve/assets/journey-capping-apply.png)
+![](../conflict-prioritization//assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >

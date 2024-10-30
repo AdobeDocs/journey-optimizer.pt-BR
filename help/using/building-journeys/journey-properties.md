@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 16%
+source-wordcount: '2233'
+ht-degree: 18%
 
 ---
 
@@ -35,6 +35,7 @@ Nesta seção, você pode definir o nome da jornada, adicionar uma descrição e
 * defina uma [duração do tempo limite](#timeout) em atividades do jornada (somente para usuários administradores),
 * selecione a jornada e o perfil [fusos horários](#timezone)
 * atribua Tags unificadas do Adobe Experience Platform à sua jornada para classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
+* monitore conflitos e priorize suas jornadas usando as [ferramentas de gerenciamento de conflitos](#conflict).
 
 ![](assets/journey32.png)
 
@@ -45,7 +46,6 @@ Nesta seção, você pode definir o nome da jornada, adicionar uma descrição e
 Os **detalhes técnicos da Cópia** permitem copiar informações técnicas sobre a jornada que a equipe de suporte pode usar para a solução de problemas. As seguintes informações foram copiadas: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 Saiba mais sobre os campos técnicos relacionados a uma jornada para um determinado perfil e como usá-los [nesta página](expression/journey-properties.md).
-
 
 ## Entrada e reentrada {#entrance}
 
@@ -299,3 +299,14 @@ As seguintes medidas de proteção e limitações se aplicam ao recurso de crit�
 * Os critérios de saída são definidos somente em estado de rascunho
 * Jornada a coerência de namespace entre eventos e critérios de saída baseados em eventos
 
+## Gerenciamento de conflitos {#conflict}
+
+A seção **[!UICONTROL Gerenciamento de conflitos]** nas propriedades da jornada permite monitorar conflitos e priorizar suas jornadas. É possível:
+
+* Aplique um **Conjunto de regras** para excluir esta jornada a parte do seu público com base em regras de limitação. [Saiba como trabalhar com conjuntos de regras](../configuration/rule-sets.md)
+
+* Atribua uma **pontuação de prioridade** à jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. O valor de prioridade inserido aqui é herdado por qualquer ação de entrada (como in-app) contida nesta jornada. [saiba como trabalhar com pontuações de prioridade](../conflict-prioritization/priority-scores.md)
+
+  Para situações em que essa mesma configuração de canais de entrada é usada em outras campanhas ou jornadas, a ação de entrada com a pontuação de prioridade mais alta é mostrada ao destinatário. Se várias jornadas ou campanhas tiverem a mesma pontuação, o elemento que foi modificado mais recentemente será escolhido.
+
+* **Exibir conflitos** com outras jornadas, campanhas ou configurações de canal. Se você quiser identificar sobreposição no público-alvo, data de início e término, configuração de canal, canal ou conjunto de regras, é possível visualizar os possíveis conflitos aqui. [Saiba como identificar possíveis conflitos no jornada](../conflict-prioritization/conflicts.md)
