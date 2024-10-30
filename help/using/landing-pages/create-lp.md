@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1705'
 ht-degree: 21%
 
 ---
@@ -60,8 +60,6 @@ Clique nos três pontos ao lado de uma landing page para selecionar a ação des
 >id="ajo_lp_create"
 >title="Definir e configurar a página de destino"
 >abstract="Para criar uma página de destino, você precisa selecionar uma predefinição, configurar a página principal e as subpáginas e, por fim, testar a página antes de publicá-la."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=pt-BR#lp-create-preset" text="Criar predefinições de página de destino"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html?lang=pt-BR#publish-landing-page" text="Publicar a página de destino"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
