@@ -9,11 +9,10 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 21%
+source-wordcount: '2041'
+ht-degree: 15%
 
 ---
 
@@ -29,44 +28,25 @@ ht-degree: 21%
 >title="Editar provedor"
 >abstract="Modifique os provedores de tradução existentes e adicione códigos de idiomas conforme necessário. Essa funcionalidade permite controlar quais provedores e códigos de idioma estão ativos no projeto, oferecendo a flexibilidade de ajustar recursos e públicos-alvo específicos de acordo com as necessidades e metas atuais do projeto."
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
+>Para o fluxo automatizado, os usuários precisam de permissões relacionadas ao recurso **[!UICONTROL Serviço de Tradução]**. [Saiba mais sobre permissões](../administration/permissions.md)
 
 Usando o fluxo automatizado, você pode simplesmente selecionar o idioma de destino e o provedor de idioma. Seu conteúdo é então enviado diretamente para tradução, pronto para uma revisão final após a conclusão.
 
 Siga estas etapas para criar conteúdo multilíngue usando a tradução automática:
 
-1. [Crie sua localidade](#create-locale).
+1. [Adicionar seu provedor](multilingual-provider.md)
 
-1. [Criar um projeto de idioma](#create-translation-project).
+1. [Adicionar códigos de idiomas (opcional)](multilingual-locale.md)
 
-1. [Criar configurações de idioma](#create-language-settings).
+1. [Criar um projeto de idioma](#create-translation-project)
 
-1. [Criar um conteúdo multilíngue](#create-a-multilingual-campaign).
+1. [Criar configurações de idioma](#create-language-settings)
 
-1. [Revise sua tarefa de tradução (opcional)](#review-translation-project).
+1. [Criar um conteúdo multilíngue](#create-a-multilingual-campaign)
 
-## Criar código de idioma {#create-locale}
-
->[!CONTEXTUALHELP]
->id="ajo_multi_add_locale"
->title="Adicionar código de idioma"
->abstract="Ao configurar suas preferências de idioma, você tem a opção de criar outros códigos de idioma se o desejado não estiver disponível para o seu conteúdo multilíngue."
-
-Ao definir as configurações de idioma, conforme descrito na seção [Criar configurações de idioma](#language-settings), se uma localidade específica não estiver disponível para o seu conteúdo multilíngue, você terá a flexibilidade de criar quantas novas localidades forem necessárias usando o menu **[!UICONTROL Tradução]**.
-
-1. No menu **[!UICONTROL Gestão de conteúdo]**, acesse **[!UICONTROL Tradução]**.
-
-1. Na guia **[!UICONTROL Dicionário de localidade]**, clique em **[!UICONTROL Adicionar localidade]**.
-
-   ![](assets/locale_1.png)
-
-1. Selecione o código de localidade na lista **[!UICONTROL Idioma]** e a **[!UICONTROL Região]** associada.
-
-1. Clique em **[!UICONTROL Salvar]** para criar sua localidade.
-
-   ![](assets/locale_2.png)
+1. [Revisar sua tarefa de tradução (opcional)](#review-translation-project)
 
 ## Criar projeto de tradução {#translation-project}
 
@@ -125,7 +105,17 @@ Seu projeto de tradução agora foi criado e pode ser usado em uma campanha mult
 
 ## Criar configurações de idioma {#language-settings}
 
-Nesta seção, você pode definir o idioma principal e os locais associados para gerenciar o conteúdo multilíngue. Você também pode escolher o atributo que deseja usar para pesquisar informações relacionadas ao idioma do perfil.
+>[!CONTEXTUALHELP]
+>id="ajo_multi_custom_conditional"
+>title="Configurações condicionais personalizadas"
+>abstract="As configurações condicionais personalizadas são conjuntos de regras que determinam em qual localidade o conteúdo será exibido, com base em critérios específicos. Essas configurações oferecem controle sobre a exibição do conteúdo com base em fatores como localização do usuário, preferências de idioma ou outros elementos contextuais."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_fallback"
+>title="Preferências de fallback"
+>abstract="Escolher uma preferência de fallback é fundamental para melhorar a experiência do usuário. Se nenhum fallback for selecionado e um perfil não atender aos requisitos necessários, o conteúdo não será entregue. Ao selecionar um fallback apropriado, você garante uma entrega de conteúdo consistente, mesmo quando os perfis não correspondem aos critérios iniciais."
+
+Nesta seção, você pode definir suas diferentes localidades para gerenciar o conteúdo multilíngue. Você também pode escolher o atributo que deseja usar para pesquisar informações relacionadas ao idioma do perfil.
 
 1. No menu **[!UICONTROL Administração]**, acesse **[!UICONTROL Canal]** > **[!UICONTROL Configurações gerais]**.
 
@@ -133,27 +123,86 @@ Nesta seção, você pode definir o idioma principal e os locais associados para
 
    ![](assets/language_settings_1.png)
 
-1. Digite o nome das **[!UICONTROL Configurações de idioma]**.
-
-1. Escolha a opção **[!UICONTROL Projeto de tradução]**.
+1. Digite o nome das **[!UICONTROL Configurações de idioma]** e escolha **[!UICONTROL Projeto de tradução]**.
 
 1. No campo **[!UICONTROL Projeto de tradução]**, clique em **[!UICONTROL Editar]** e escolha o **[!UICONTROL Projeto de tradução]** criado anteriormente.
 
-   As Localidades configuradas anteriormente são importadas automaticamente.
+   As **[!UICONTROL Localidades]** configuradas anteriormente são importadas automaticamente.
+
+1. Selecione uma **[!UICONTROL Preferências de fallback]** para definir uma opção de backup para quando um perfil não atender aos critérios necessários para a entrega de conteúdo.
+
+   Observe que, se nenhuma opção de fallback for selecionada, a campanha ou a jornada não será enviada.
 
    ![](assets/language_settings_2.png)
 
-1. No menu **[!UICONTROL Preferência de envio]**, selecione o atributo que você deseja pesquisar para encontrar informações sobre idiomas de perfil.
+1. Escolha sua preferência de envio entre as seguintes opções:
 
-1. Clique em **[!UICONTROL Editar]** ao lado da **[!UICONTROL Localidade]** para personalizá-la ainda mais e adicionar **[!UICONTROL Preferências de perfil]**.
+   * **[!UICONTROL Selecionar atributos de preferência de idioma de perfil]**
+   * **[!UICONTROL Criar regras condicionais personalizadas]**
+
+1. Se você selecionar **[!UICONTROL Selecionar atributos de preferência de idioma de perfil]**, escolha o atributo relevante no menu **[!UICONTROL Atributos de preferência de idioma de perfil]** para pesquisar informações de idioma de perfil.
+
+   ![](assets/multilingual-settings-3.png)
+
+1. Se você selecionar **[!UICONTROL Criar regras condicionais personalizadas]**, selecione a localidade para a qual deseja criar condições. Em seguida, crie regras com base em fatores como localização do usuário, preferências de idioma ou outros elementos contextuais.
 
    ![](assets/language_settings_3.png)
 
-1. Se o seu **[!UICONTROL projeto de tradução]** for atualizado, clique em **[!UICONTROL Atualizar]** para refletir essas alterações nas suas **[!UICONTROL configurações de idioma]**.
+1. Comece a criar condições adicionando um atributo, evento ou público-alvo para definir seu grupo-alvo.
 
-   ![](assets/language_settings_4.png)
+   >[!IMPORTANT]
+   >
+   >Os dados contextuais estão disponíveis exclusivamente para canais de cartões de Experiência e Conteúdo na Web, no aplicativo e com base em código. Se usada para canais de email, SMS, notificação por push ou correspondência direta, sem atributos adicionais, a campanha ou jornada será enviada no idioma da primeira opção na lista.
+
+   ![](assets/multilingual-settings-6.png)
+
+   +++Pré-requisitos para usar eventos contextuais em suas condições
+
+   Quando os usuários exibem seu conteúdo, uma solicitação de personalização é enviada juntamente com o evento de experiência. Para aproveitar dados contextuais em suas condições, você deve anexar dados adicionais à carga da solicitação de personalização. Para fazer isso, é necessário criar uma regra na Coleção de dados do Adobe Experience Platform para especificar: SE uma solicitação de personalização for enviada, ANEXE dados extras à solicitação e defina o atributo para corresponder ao campo de idioma no esquema.
+
+   >[!NOTE]
+   >
+   >Esses pré-requisitos são necessários apenas para os canais de cartões no aplicativo e de Conteúdo.
+
+   1. Na Coleção de dados da Adobe Experience Platform, acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+
+   2. Na seção **[!UICONTROL IF]** da regra, adicione um evento configurado conforme abaixo:
+
+      ![](assets/multilingual-experience-events-rule-if.png)
+
+      * Escolha a **[!UICONTROL Extensão]** com a qual você está trabalhando.
+      * No campo **[!UICONTROL Tipo de evento]**, selecione &quot;Evento de solicitação AEP&quot;.
+      * No painel direito, selecione &quot;Tipo de evento XDM é igual a personalization.request&quot;
+      * Clique no botão **[!UICONTROL Manter alterações]** para confirmar.
+
+   3. Na seção **[!UICONTROL THEN]** da regra, adicione uma ação configurada conforme abaixo:
+
+      ![](assets/multilingual-experience-events-rule-then.png)
+
+      * Escolha a **[!UICONTROL Extensão]** com a qual você está trabalhando.
+      * No campo **[!UICONTROL Tipo de ação]**, selecione &quot;Anexar dados&quot;.
+      * Na seção de carga JSON, verifique se o atributo usado para recuperar o idioma a ser usado (no exemplo abaixo &quot;idioma&quot;) corresponde ao nome do atributo especificado no esquema para o qual a sequência de dados da coleção de dados está fluindo.
+
+        ```JSON
+        {
+            "xdm":{
+                "application":{
+                    "_dc":{
+                        "language":"{%%Language%%}"
+                    }
+                }
+            }
+        }
+        ```
+      * Clique no botão **[!UICONTROL Manter alterações]** para confirmar e salvar sua regra.
+
++++
+
+1. Arraste e solte as localidades para reordená-las e gerenciar sua prioridade na lista.
 
 1. Clique em **[!UICONTROL Enviar]** para criar suas **[!UICONTROL configurações de idioma]**.
+
+Observe que, após configurar suas preferências de idioma, você não terá mais a opção de editá-las.
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
@@ -165,6 +214,10 @@ Nesta seção, você pode definir o idioma principal e os locais associados para
 -->
 
 ## Criar um conteúdo multilíngue {#create-multilingual-campaign}
+
+>[!AVAILABILITY]
+>
+> A visualização de experiências baseadas em código e de cartões de Conteúdo está indisponível no momento com o fluxo automatizado.
 
 Depois de definir o projeto de Tradução e as configurações de Idioma, você estará pronto para criar a campanha ou jornada e personalizar o conteúdo para as diferentes localidades.
 

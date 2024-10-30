@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 94%
+source-wordcount: '2163'
+ht-degree: 93%
 
 ---
 
@@ -310,6 +310,8 @@ ht-degree: 94%
       + [Casos de uso do Assistente de IA](using/content-management/generative-uc.md)
    + Trabalhar com conteúdo multilíngue{#content-multilingual}
       + [Introdução ao conteúdo multilíngue](using/content-management/multilingual-gs.md)
+      + [Criar um local](using/content-management/multilingual-locale.md)
+      + [Criar um provedor de idioma](using/content-management/multilingual-provider.md)
       + [Criação do conteúdo multilíngue com tradução manual](using/content-management/multilingual-manual.md)
       + [Criação do conteúdo multilíngue com tradução automática](using/content-management/multilingual-automated.md)
    + Trabalho com experimento de conteúdo {#content-experiment}
@@ -351,7 +353,7 @@ ht-degree: 94%
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
       + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
-      + [Lock content in email templates](using/content-management/content-locking.md)
+      + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
       + [Usar modelos de conteúdo](using/content-management/use-content-templates.md)
    + Fragmentos de conteúdo reutilizáveis {#fragments}
@@ -403,16 +405,16 @@ ht-degree: 94%
          + [Relatório de campanha no aplicativo](using/reports/campaign-global-report-cja-inapp.md)
          + [Relatório de campanha de notificação por push](using/reports/campaign-global-report-cja-push.md)
          + [Relatório de campanha por SMS](using/reports/campaign-global-report-cja-sms.md)
-         + [Web campaign report](using/reports/campaign-global-report-cja-web.md)
+         + [Relatório de campanha da Web](using/reports/campaign-global-report-cja-web.md)
       + Jornada relatórios{#reporting}
          + [Relatório de jornada](using/reports/journey-global-report-cja.md)
          + [Relatório de jornada baseado em código](using/reports/journey-global-report-cja-code.md)
          + [Relatório de jornada do cartão de conteúdo](using/reports/journey-global-report-cja-content.md)
-         + [Direct mail journey report](using/reports/journey-global-report-cja-direct.md)
-         + [Email journey report](using/reports/journey-global-report-cja-email.md)
-         + [In-app journey report](using/reports/journey-global-report-cja-inapp.md)
-         + [Push journey report](using/reports/journey-global-report-cja-push.md)
-         + [SMS journey report](using/reports/journey-global-report-cja-sms.md)
+         + [Relatório de jornada de correspondência direta](using/reports/journey-global-report-cja-direct.md)
+         + [Relatório de jornada de email](using/reports/journey-global-report-cja-email.md)
+         + [Relatório de jornada no aplicativo](using/reports/journey-global-report-cja-inapp.md)
+         + [Relatório de jornada por push](using/reports/journey-global-report-cja-push.md)
+         + [Relatório de jornada por SMS](using/reports/journey-global-report-cja-sms.md)
          + [Relatório de jornada na Web](using/reports/journey-global-report-cja-web.md)
       + [Relatório de visão geral](using/reports/channel-report-cja.md)
       + [Relatório de páginas de destino](using/reports/lp-report-global-cja.md)
@@ -452,7 +454,7 @@ ht-degree: 94%
          + [Sobre a Gestão de decisões](using/offers/get-started/starting-offer-decisioning.md)
          + [Interface do usuário](using/offers/get-started/user-interface.md)
          + [Etapas principais para criar e gerenciar ofertas](using/offers/offer-library/key-steps.md)
-         + [Leverage Custom upload audiences for decisioning](using/offers/custom-upload-decisioning.md)
+         + [Aproveitar públicos-alvo de upload personalizados para decisões](using/offers/custom-upload-decisioning.md)
          + [Caso de uso: inserir ofertas em um email](using/offers/offers-e2e.md)
       + Criar componentes {#create-components}
          + [Criar inserções](using/offers/offer-library/creating-placements.md)
@@ -588,7 +590,7 @@ ht-degree: 94%
             + [API de decisão do Edge](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API de decisão em lote](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
    + Decisão (LA) {#experience-decisioning}
-      + [Get started with Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+      + [Introdução à Decisão](using/experience-decisioning/gs-experience-decisioning.md)
       + Referência da API{#api-reference}
          + Itens de decisão{#decision-items}
             + [Criar itens de decisão](using/experience-decisioning/api-reference/decisions-items/create.md)

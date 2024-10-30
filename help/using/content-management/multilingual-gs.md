@@ -9,11 +9,10 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 28%
+source-wordcount: '487'
+ht-degree: 22%
 
 ---
 
@@ -24,9 +23,10 @@ ht-degree: 28%
 >title="Traduções"
 >abstract="O recurso multilíngue permite que você crie facilmente conteúdo em vários idiomas em uma única campanha ou jornada. Na página Traduções, é possível configurar projetos, selecionar provedores de tradução ou gerenciar dicionários específicos do idioma"
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+>Para começar a criar conteúdo multilíngue, os usuários precisam ter a permissão **[!UICONTROL Gerenciar configurações de idioma]**.
+>Para o fluxo automatizado, os usuários também precisarão de permissões relacionadas aos recursos do **[!UICONTROL Serviço de Tradução]**. [Saiba mais sobre permissões](../administration/permissions.md)
 
 O recurso multilíngue permite criar conteúdo em vários idiomas facilmente em uma única campanha ou jornada. Com esse recurso, você pode alternar entre idiomas ao editar sua campanha, simplificando todo o processo de edição e melhorando sua capacidade de gerenciar com eficiência o conteúdo multilíngue.
 
@@ -55,7 +55,9 @@ O uso dos serviços de tradução de um Provedor de tradução está sujeito a t
 
 Para problemas ou solicitações de assistência relacionados às suas traduções, entre em contato com o Provedor de tradução aplicável.
 
-Caso não seja possível acessar a página Tradução, é necessário ativar o recurso Tradução.
+Para usar o recurso de Tradução no Journey Optimizer, é necessário atribuir a API à função correspondente. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+
+Se você não conseguir acessar a página Tradução, será necessário habilitar o recurso Tradução e receber **[!UICONTROL Permissões relacionadas ao serviço de Tradução]**. [Saiba mais](../administration/ootb-permissions.md)
 
 +++ Saiba como habilitar o recurso de Tradução
 
