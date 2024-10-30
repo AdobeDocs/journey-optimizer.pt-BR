@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 6f517ca209ae992f8daf3b285ccabebac100081b
+source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
@@ -66,8 +66,8 @@ Para criar suas experiências da Web com o editor não visual, siga as etapas ab
    Você também pode alternar para o web designer, se desejar. Todas as modificações serão preservadas.
 
 
-1. Você pode ativar o rastreamento de cliques e definir as ações a serem rastreadas a partir do segundo ícone no painel esquerdo, conforme mostrado abaixo:
+1. Você pode selecionar qualquer elemento do site e rastrear os cliques nesse elemento. Para ativar o rastreamento de cliques e definir as ações a serem rastreadas, clique no segundo ícone no painel à esquerda, conforme mostrado abaixo:
 
    ![](assets/web-campaign-click.png)
 
-   Clique no botão **Adicionar componente** para selecionar uma nova ação a ser monitorada.
+   Use o botão **Adicionar Componente** para selecionar uma nova ação a ser monitorada. Saiba mais sobre o uso do rastreamento de cliques em [esta seção](monitor-web-experiences.md#use-click-tracking).
