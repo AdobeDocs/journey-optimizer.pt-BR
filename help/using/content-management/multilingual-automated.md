@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
 workflow-type: tm+mt
 source-wordcount: '2041'
 ht-degree: 15%
@@ -194,6 +194,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
             }
         }
         ```
+
       * Clique no botão **[!UICONTROL Manter alterações]** para confirmar e salvar sua regra.
 
 +++
