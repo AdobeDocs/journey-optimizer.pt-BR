@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 850aacd1873a63b6ff2010f097655244b9dea027
+source-git-commit: 4de613f38865a3b4f177ce809e1e051f9211e86e
 workflow-type: tm+mt
 source-wordcount: '1911'
 ht-degree: 39%
@@ -280,7 +280,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Canal SMS**
 
-* Agora é possível editar ou excluir uma Configuração de canal de API de SMS.
+* Agora é possível editar ou excluir uma Configuração de canal de API de SMS. [Saiba mais](../sms/sms-configuration.md)
 
 * As seguintes melhorias foram introduzidas para melhorar os recursos de mensagens SMS com o Infobip e o Sinch:
 
@@ -317,7 +317,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Relatórios**
 
-* **Os relatórios do Experience Decisioning** agora estão disponíveis, oferecendo insights essenciais sobre como os visitantes interagem com suas experiências. [Saiba mais](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
+* **Relatórios de decisão** já está disponível, oferecendo insights essenciais sobre como os visitantes interagem com suas experiências. [Saiba mais](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **Políticas de governança de dados e consentimento** - Data de disponibilidade: 7 de outubro de 2024
 
@@ -347,4 +347,4 @@ Esta versão vem com as melhorias listadas abaixo.
 
 <!--* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) users can now choose custom models to optimize on when setting up an AI model in Decisioning (formerly known as Experience Decisioning). This allows you, for example, to optimize on a custom "purchases" table rather than defined constraints such as clickthrough rate."-->
 
-* Ao adicionar uma política de decisão a uma campanha baseada em código com o Experience Decisioning, agora é possível selecionar manualmente itens de decisão únicos, além de estratégias de seleção. Além disso, agora é possível selecionar mais de uma oferta substituta. Isso garante que haja um determinado número de itens de decisão retornados. [Saiba mais](../experience-decisioning/create-decision.md)
+* Ao adicionar uma política de decisão a uma campanha baseada em código com o Decisioning, agora é possível selecionar manualmente itens de decisão únicos, além de estratégias de seleção. Além disso, agora é possível selecionar mais de uma oferta substituta. Isso garante que haja um determinado número de itens de decisão retornados. [Saiba mais](../experience-decisioning/create-decision.md)
