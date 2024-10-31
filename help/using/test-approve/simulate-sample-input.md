@@ -1,73 +1,95 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Teste o conteúdo usando dados de entrada de exemplo
-description: Saiba como pré-visualizar conteúdo de email e enviar provas usando dados de entrada de amostra.
+title: Teste o conteúdo usando dados de entrada de exemplo (Beta)
+description: Saiba como visualizar o conteúdo e enviar provas de email usando dados de entrada de amostra.
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta"
-hide: true
-hidefromtoc: true
-source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
+source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 7%
+source-wordcount: '884'
+ht-degree: 1%
 
 ---
 
 
-# Teste o conteúdo usando dados de entrada de exemplo {#custom-profiles}
+# Teste o conteúdo usando dados de entrada de exemplo (Beta) {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simular usando amostra de entrada"
->abstract="Nesta tela, você pode testar diferentes variantes do seu conteúdo de email fornecendo valores para campos de personalização por meio de um modelo CSV (baixe o CSV) ou inserindo manualmente os valores."
+>abstract="Nesta tela, você pode testar diferentes variantes do seu conteúdo fornecendo valores para campos de personalização por meio de um modelo CSV ou JSON, ou inserindo manualmente os valores."
 
 >[!AVAILABILITY]
 >
->No momento, esses recursos estão disponíveis como uma versão beta somente para usuários selecionados.
+>No momento, esses recursos estão disponíveis para todos os clientes como um beta público.
 
-O otimizador de Jornada permite testar diferentes variantes do conteúdo de email visualizando-o e enviando provas com dados de entrada de amostra carregados de um arquivo CSV ou adicionados manualmente. Todos os atributos de perfis usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes.
+O Jornada otimizer permite testar diferentes variantes do conteúdo, visualizando-o e enviando provas usando dados de entrada de amostra carregados de um arquivo ou adicionados manualmente. Todos os atributos de perfis usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes.
 
-Para acessar esta experiência, clique no botão **[!UICONTROL Simular conteúdo]** e escolha **[!UICONTROL Simular com CSV(Beta)]**.
+>[!NOTE]
+>
+>Por enquanto, a simulação de variações de conteúdo está disponível somente para os canais de Email, SMS e Notificação por push.
+
+Para acessar esta experiência, clique no botão **[!UICONTROL Simular conteúdo]** e escolha **[!UICONTROL Simular variações de conteúdo (Beta)]**.
 
 ![](assets/simulate-sample.png)
 
 As principais etapas para testar seu conteúdo são as seguintes:
 
-1. Adicione até 30 variantes com dados de entrada de amostra, fazendo upload de um arquivo CSV ou adicionando dados manualmente. [Saiba como adicionar variantes](#profiles)
+1. Adicione até 30 variantes com dados de entrada de amostra, fazendo upload de um arquivo ou adicionando dados manualmente. [Saiba como adicionar variantes](#profiles)
 1. Verifique a visualização do conteúdo usando as diferentes variantes. [Saiba como visualizar seu conteúdo](#preview)
-1. Envie até 10 provas para endereços de email usando as diferentes variantes. [Saiba como enviar provas](#proofs)
+1. Para conteúdo de email, envie até 10 provas para endereços de email usando as diferentes variantes. [Saiba como enviar provas](#proofs)
 
 
 ## Medidas de proteção e limitações {#limitations}
 
 Antes de começar a testar seu conteúdo usando exemplos de dados de entrada, considere as seguintes medidas de proteção e pré-requisitos.
 
-* A partir de agora, o teste usando dados de entrada de amostra só está disponível para o canal de email. A experiência não pode ser acessada pelo botão &quot;Simular conteúdo&quot; no Designer de email.
+* A partir de agora, o teste usando dados de entrada de amostra está disponível apenas para os canais de Email, SMS e Notificação por push. A experiência não pode ser acessada pelo botão &quot;Simular conteúdo&quot; no Designer de email.
 * Os seguintes recursos não estão disponíveis na experiência atual: renderização da caixa de entrada, relatórios de spam, conteúdo multilíngue e experimento de conteúdo. Para usar esses recursos, selecione o botão **[!UICONTROL Simular conteúdo]** no seu conteúdo para acessar a interface de usuário anterior.
 * Somente atributos de perfil são suportados no momento. Se atributos contextuais forem usados em seu conteúdo para personalização, você não poderá testar seu conteúdo usando esses atributos.
 * Somente os seguintes tipos de dados são suportados ao inserir dados para suas variantes: número (inteiro e decimal), string, booleano e tipo de data. Qualquer outro tipo de dados mostrará um erro.
 
 ## Adicionar variantes {#profiles}
 
-Você pode adicionar até 30 variantes para testar o conteúdo, usando um arquivo CSV ou manualmente:
-
-* Para carregar dados de entrada de exemplo de um arquivo CSV, clique no link **[!UICONTROL baixar CSV]** para recuperar um modelo de arquivo CSV. Esses modelos incluem uma coluna para cada atributo de perfil usado em seu conteúdo para personalização.
-
-  Preencha o arquivo CSV e clique em **[!UICONTROL Carregar dados de entrada]** para carregá-los e testar seu conteúdo.
-
-* Para adicionar uma variante manualmente, clique no botão **[!UICONTROL Criar entrada de amostra]** e preencha os dados de entrada de exemplo da variante. Um campo é exibido para cada atributo de perfil usado no conteúdo para personalização.
-
-  ![](assets/simulate-custom-add.png)
-
-Depois que os perfis forem selecionados, uma caixa será exibida para cada variante no lado esquerdo da tela. Você pode usar esses perfis para pré-visualizar seu conteúdo e enviar provas.
+Você pode adicionar até 30 variantes para testar o conteúdo, usando um arquivo ou manualmente.
 
 >[!NOTE]
 >
->As variantes adicionadas servem apenas como fins de teste para o conteúdo atual. Os não são armazenados no Adobe Experience Platform, mas na sessão do navegador do usuário, o que significa que não serão exibidos ao fazer logoff ou se estiverem trabalhando em outro dispositivo.
+>As variantes adicionadas servem apenas como fins de teste para o conteúdo atual. Os não são armazenados no Adobe Experience Platform, mas na sessão do navegador do usuário, o que significa que não serão exibidos ao fazer logoff ou ao trabalhar de outro dispositivo.
+
+### Adicionar variante usando um arquivo {#file}
+
+Para adicionar uma variante de um arquivo, siga estas etapas:
+
+1. Clique no link **[!UICONTROL baixar amostra]** para recuperar um modelo de arquivo e escolha o formato de arquivo que deseja usar (CSV, JSON ou JSONLINES).
+
+1. Clique em **[!UICONTROL Baixar]** e armazene o modelo no local desejado.
+
+1. Abra o arquivo e preencha o modelo de acordo com suas necessidades. O template inclui uma coluna para cada atributo de perfil usado em seu conteúdo para personalização.
+
+1. Quando o arquivo estiver pronto, clique em **[!UICONTROL Carregar dados de entrada]** para carregá-los e testar o conteúdo.
+
+1. Depois que o arquivo for carregado, uma caixa será adicionada no painel esquerdo para cada linha do arquivo. Cada caixa contém todos os atributos de perfil usados no conteúdo para personalização. Agora você pode usar as variantes para pré-visualizar seu conteúdo no painel direito e enviar provas.
+
+   ![](assets/simulate-custom-variants.png)
+
+### Adicionar grades manualmente {#manual}
+
+Para adicionar uma variante manualmente, siga estas etapas:
+
+1. Clique no botão **[!UICONTROL Criar entrada de amostra]**.
+
+   Uma caixa é adicionada no painel esquerdo com todos os atributos de perfil usados em seu conteúdo para personalização.
+
+1. Preencha o exemplo de dados de entrada para a variante e clique em **[!UICONTROL Salvar]**.
+
+   ![](assets/simulate-custom-add.png)
+
+1. Depois que as variantes forem adicionadas, você poderá usá-las para visualizar seu conteúdo no painel direito e enviar provas.
 
 ## Pré-visualizar suas variantes de conteúdo {#preview}
 
