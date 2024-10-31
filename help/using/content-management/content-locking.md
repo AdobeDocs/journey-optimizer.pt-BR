@@ -6,9 +6,9 @@ description: Saiba como bloquear conteúdo em seus modelos de email.
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 38aaa3005e72a8300cef0e28a6fecd9f5d06c1f1
+source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1269'
 ht-degree: 7%
 
 ---
@@ -42,9 +42,9 @@ ht-degree: 7%
 
 O Journey Optimizer permite bloquear o conteúdo em modelos de email, bloqueando todo o modelo ou estruturas e componentes específicos. Isso permite evitar edições ou exclusões não intencionais, dando a você maior controle sobre a personalização do modelo e melhorando a eficiência e a confiabilidade de suas campanhas de email.
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Os usuários com permissões para criar modelos de conteúdo podem ativar o bloqueio de conteúdo.
+>O bloqueio de conteúdo é um recurso em nível de editor para autores e não garante que o conteúdo não será editado quando for importado ou criado por meio da API.
 
 O bloqueio de conteúdo pode ser aplicado no nível **estrutura** ou no nível **componente**. Estes são os principais princípios que se aplicam no nível da estrutura e do componente ao bloquear o conteúdo no seu modelo.
 
@@ -59,6 +59,10 @@ O bloqueio de conteúdo pode ser aplicado no nível **estrutura** ou no nível *
 
    * Os componentes de conteúdo individuais podem ser bloqueados dentro dessa estrutura.
    * Por padrão, não é possível excluir um componente se ele estiver bloqueado ou se a opção &quot;Somente bloqueio de conteúdo editável&quot; estiver selecionada. É possível substituir essa restrição ativando a opção &quot;Permitir exclusão&quot;.
+
+>[!AVAILABILITY]
+>
+>Os usuários com permissões para criar modelos de conteúdo podem ativar o bloqueio de conteúdo.
 
 ## Bloquear um modelo de email {#define}
 
