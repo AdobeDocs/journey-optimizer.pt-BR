@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 94ac5fda2d10beb1fd016f41aa298a82694043c3
+source-git-commit: 35b0304df8bdb885ca494b561cb6a0eaa5e96545
 workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 39%
@@ -311,7 +311,7 @@ Saiba mais sobre essas melhorias na documentação de configuração de SMS do [
 
 **Relatórios**
 
-* **Os relatórios do Experience Decisioning** agora estão disponíveis, oferecendo insights essenciais sobre como os visitantes interagem com suas experiências. [Saiba mais](../reports/campaign-global-report-cja-code.md##decisioning-kpis)
+* **Os relatórios do Experience Decisioning** agora estão disponíveis, oferecendo insights essenciais sobre como os visitantes interagem com suas experiências. [Saiba mais](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **Políticas de governança de dados e consentimento** - Data de disponibilidade: 7 de outubro de 2024
 
