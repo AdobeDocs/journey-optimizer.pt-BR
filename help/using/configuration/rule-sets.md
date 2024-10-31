@@ -10,9 +10,9 @@ level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 badge: label="Disponibilidade limitada"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+source-git-commit: 9c49786385db782bd2fa70b19003261284e980a5
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1924'
 ht-degree: 10%
 
 ---
@@ -48,10 +48,6 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 
 ![](assets/rule-sets-default.png)
 
->[!IMPORTANT]
->
->Por enquanto, conjuntos de regras personalizados podem ser aplicados somente a **campanhas**. Somente as regras definidas no conjunto de regras &quot;Conjunto de regras padrão global&quot; se aplicam às comunicações do jornada e das campanhas.
-
 ### Regras de limite de canal e jornadas {#domain}
 
 Ao criar um conjunto de regras, é necessário especificar se as regras no conjunto de regras aplicarão regras de limite específicas para canais de comunicação ou jornadas.  Isso é feito selecionando um Canal ou domínio do Jornada para o conjunto de regras ao criá-lo. [Saiba como criar um conjunto de regras](#create)
@@ -75,10 +71,7 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 
 1. Defina um nome exclusivo para o conjunto de regras e adicione uma descrição.
 
-1. Selecione o domínio do conjunto de regras. O domínio permite especificar se o conjunto de regras conterá regras de limitação específicas para canais de comunicação ou jornadas:
-
-   * **Canal**: aplique regras de limitação para canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia.
-   * **Jornada**: aplique regras de limite de entrada e simultaneidade a uma jornada. Por exemplo, não insira perfis em mais de uma jornada simultaneamente.
+1. Selecione o domínio do conjunto de regras. O domínio permite especificar se o conjunto de regras conterá regras de limitação específicas para canais de comunicação ou jornadas. [Saiba mais sobre as regras de limite de canal e jornada](#domain)
 
    ![](assets/rule-sets-create.png)
 
