@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 62bc99bcd4bd3174ffc93c3ae604f901fa0f1570
+source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
 workflow-type: tm+mt
 source-wordcount: '1812'
 ht-degree: 41%
@@ -92,12 +92,12 @@ Essa versão traz os novos recursos detalhados abaixo:
 <tbody>
 <tr>
 <td>
-<p>No Journey Optimizer, gerenciar o volume e o tempo das campanhas e jornadas é essencial para evitar sobrecarregar os clientes com muitas interações. O Journey Optimizer agora oferece várias ferramentas para o gerenciamento de conflitos e a priorização.</p><p><ul><li><b>Limite de frequência de Jornada</b>: agora é possível criar conjuntos de regras para serem aplicados às suas jornadas, permitindo limitar o número de jornadas de um perfil por dia, semana ou mês, bem como controlar o número de jornadas simultâneas executadas simultaneamente.</li>
+<p>No Journey Optimizer, gerenciar o volume e o tempo das campanhas e jornadas é essencial para evitar sobrecarregar os clientes com muitas interações. O Journey Optimizer agora oferece várias ferramentas para o gerenciamento de conflitos e a priorização. <p>Para obter mais informações, consulte a <a href="../email/surface-personalization.md">documentação detalhada</a>.</p></p><p><ul><li><b>Limite de frequência de Jornada</b>: agora é possível criar conjuntos de regras para serem aplicados às suas jornadas, permitindo limitar o número de jornadas de um perfil por dia, semana ou mês, bem como controlar o número de jornadas simultâneas executadas simultaneamente.</li>
 <li><b>Pontuação de prioridade</b>: agora é possível atribuir uma pontuação de prioridade a uma campanha ou jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas campanhas ou ações de jornada usam a mesma configuração de canal, o Journey Optimizer seleciona aquela com a pontuação de prioridade mais alta. Se as campanhas tiverem a mesma pontuação, a campanha que foi modificada menos recentemente será escolhida.</li>
 <li><b>Exibir conflitos potenciais</b>: um novo botão "Exibir conflitos potenciais" nas jornadas e campanhas agora permite identificar sobreposições com outras jornadas ou campanhas, como a data de início, o público-alvo ou a configuração de canal selecionada.</li>
 <li><b>Arbitragem de Jornada</b>: esse novo recurso permite que você priorize as jornadas mais importantes para seus clientes. É possível criar uma regra para suprimir a entrada em uma jornada de prioridade mais baixa quando um cliente se qualifica para uma jornada futura de prioridade mais alta.</li>
 <li><b>Limite de frequência por tipo de comunicação: </b>Com conjuntos de regras, agora é possível definir regras granulares por tipo de comunicação (por exemplo, Vendas, Promocional) para evitar sobrecarga de clientes com mensagens semelhantes. Você pode controlar a frequência em vários canais, excluindo automaticamente perfis excessivamente solicitados para garantir uma melhor experiência do cliente.</li></ul>
-<p>Para obter mais informações, consulte a <a href="../email/surface-personalization.md">documentação detalhada</a>.</p>
+
 <p>Os recursos de gerenciamento de conflitos e prioridades estão disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão gradualmente lançados para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera para esses recursos.</p>
 </td>
 </tr>
