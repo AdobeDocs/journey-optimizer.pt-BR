@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ab6289ff4b1a9302adb94d9cdf150210eece3a27
+source-git-commit: 850aacd1873a63b6ff2010f097655244b9dea027
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1911'
 ht-degree: 39%
 
 ---
@@ -236,6 +236,8 @@ Anteriormente disponíveis para um conjunto de organizações (DL), os seguintes
 </tbody>
 </table>
 
+<!--The following capabilities are available to all customers in public beta:-->
+
 <table>
 <thead>
 <tr>
@@ -245,15 +247,15 @@ Anteriormente disponíveis para um conjunto de organizações (DL), os seguintes
 <tbody>
 <tr>
 <td>
-<p>O otimizador de Jornada agora permite testar diferentes variantes do conteúdo, visualizando-o e enviando provas usando dados de entrada de amostra carregados de um arquivo ou adicionados manualmente. Todos os atributos de perfis usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes.</p>
+<p>O otimizador de Jornada agora permite testar diferentes variantes do conteúdo, visualizando-o e enviando provas de email usando dados de entrada de amostra carregados de um arquivo ou adicionados manualmente. Todos os atributos de perfis usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes.</p>
 <p>No momento, esse recurso está disponível para todos os clientes como um beta público para os canais de email, SMS e notificação por push.</p>
 <p>Para obter mais informações, consulte a <a href="../test-approve/simulate-sample-input.md">documentação detalhada</a>.</p>
+<img src="assets/do-not-localize/gif-simulate.gif">
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--The following capabilities are available to all customers in public beta:
 
 <!--<table>
 <thead>
