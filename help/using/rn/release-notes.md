@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7f7edaa8d3bb917e7020bb79eb72f7807cf46622
+source-git-commit: 96ae7baf50f262aac86f86ecb04cc98b57968c28
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 39%
@@ -308,7 +308,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
   Essa alteração será implementada nas sandboxes de clientes existentes em uma fase subsequente. [Saiba mais](../data/datasets-ttl.md#ttl)
 
-* **Parâmetros em ações personalizadas** (Data de disponibilidade: 3 de outubro de 2024) - agora há suporte para parâmetros NULL e opcionais em ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **Parâmetros em ações personalizadas** - Data de disponibilidade: 3 de outubro de 2024 - Agora há suporte para parâmetros NULL e opcionais em ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **Relatórios**
 
