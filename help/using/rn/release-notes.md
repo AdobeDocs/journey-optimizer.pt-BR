@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4de613f38865a3b4f177ce809e1e051f9211e86e
+source-git-commit: 018ff365780c5064afd94c8f842ca0498fe06065
 workflow-type: tm+mt
-source-wordcount: '1911'
-ht-degree: 79%
+source-wordcount: '1960'
+ht-degree: 78%
 
 ---
 
@@ -345,6 +345,6 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Decisão**
 
-<!--* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) users can now choose custom models to optimize on when setting up an AI model in Decisioning (formerly known as Experience Decisioning). This allows you, for example, to optimize on a custom "purchases" table rather than defined constraints such as clickthrough rate."-->
+* Os usuários do [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR) agora podem escolher modelos personalizados para otimizar a configuração de um modelo de IA utilizando o serviço de Decisão (anteriormente conhecido como Escolha de experiências). Isso permite, por exemplo, otimizar em uma tabela de &quot;compras&quot; personalizada em vez de restrições definidas, como a taxa de cliques. [Saiba mais](../experience-decisioning/ranking.md)
 
 * Ao adicionar uma política de decisão a uma campanha baseada em código com o Decisioning, agora é possível selecionar manualmente itens de decisão únicos, além de estratégias de seleção. Também é possível selecionar mais de uma oferta substituta. Isso garante o retorno de um certo número de itens de decisão. [Saiba mais](../experience-decisioning/create-decision.md)
