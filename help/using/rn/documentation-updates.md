@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
 source-wordcount: '5707'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -23,11 +23,11 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 * Todos os novos recursos e aprimoramentos da versão de outubro de 2024 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * Todos os canais de comunicação disponíveis em [!DNL Journey Optimizer] agora estão agrupados em uma seção dedicada da documentação. [Leia mais](../channels/gs-channels.md)
-* A página **Configurar a experiência baseada em código** foi aprimorada para tornar o processo mais claro, incluindo a seção que explica o que é um URI de superfície. [Leia mais](../code-based/code-based-configuration.md)
-* A página **Criar configuração de canal da Web** foi atualizada para esclarecer as etapas ao criar uma regra de correspondência de páginas, que também se aplica à configuração de experiência baseada em código. [Leia mais](../web/web-configuration.md#web-page-matching-rule)
-* Uma observação sobre a próxima proteção de TTL (time-to-live) para conjuntos de dados gerados pelo sistema foi adicionada. [Leia mais](../data/get-started-datasets.md)
-* Uma nova seção foi adicionada para descrever como pré-visualizar suas experiências personalizadas baseadas em código diretamente do seu navegador ou de seus dispositivos móveis, usando a opção Visualizar no dispositivo ao simular o conteúdo em uma jornada ou campanha. [Leia mais](../code-based/create-code-based.md#preview-on-device)
-* Uma nova página foi adicionada sobre como aproveitar os públicos-alvo de upload personalizados para a tomada de decisões. [Leia mais](../offers/custom-upload-decisioning.md)
+* Aprimoramento da página **Configurar a experiência baseada em código** para tornar o processo mais claro, incluindo a seção que explica o que é um URI de superfície. [Leia mais](../code-based/code-based-configuration.md)
+* Atualização da página **Criar configuração de canal da web** para esclarecer as etapas para criar uma regra de correspondência de páginas, que também se aplica à configuração da experiência baseada em código. [Leia mais](../web/web-configuration.md#web-page-matching-rule)
+* Adição de uma observação sobre a futura medida de proteção de TTL (tempo de vida) para conjuntos de dados gerados pelo sistema. [Leia mais](../data/get-started-datasets.md)
+* Adição de uma nova seção para descrever como visualizar experiências personalizadas baseadas em código diretamente no navegador ou em dispositivos móveis usando a opção “Visualizar no dispositivo” ao simular o conteúdo em uma jornada ou campanha. [Leia mais](../code-based/create-code-based.md#preview-on-device)
+* Adição de uma nova página sobre como aproveitar os públicos-alvo de upload personalizados para a tomada de decisões. [Leia mais](../offers/custom-upload-decisioning.md)
 
 ## Setembro de 2024 {#sept-2024}
 
@@ -35,7 +35,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Adição de uma seção sobre o gerenciamento de novas tentativas de jornada. [Leia mais](../building-journeys/read-audience.md#read-audience-retry)
 * Atualização das perguntas frequentes sobre a regra de limitação para ações personalizadas, a fim de mencionar a regra de limitação padrão. [Leia mais](../configuration/external-systems.md#faq)
 * Atualização da seção Controlar acesso com a adição de permissões relacionadas ao Gerador de conteúdo do assistente de IA. [Leia mais](../administration/high-low-permissions.md#ai-permission)
-* Um vídeo sobre o Gerador de conteúdo do assistente de IA para geração de email foi adicionado. [Leia mais](../content-management/generative-email.md#video)
+* Adição de um vídeo sobre o gerador de conteúdo do Assistente de IA para geração de emails. [Leia mais](../content-management/generative-email.md#video)
 
 
 ## Agosto de 2024 {#aug-2024}
