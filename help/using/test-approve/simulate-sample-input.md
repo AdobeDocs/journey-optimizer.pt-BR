@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Teste o conteúdo usando dados de entrada de exemplo (Beta)
+title: Teste seu conteúdo usando exemplos de dados de entrada (Beta)
 description: Saiba como visualizar o conteúdo e enviar prova de email usando dados de entrada de exemplo de um arquivo CSV ou JSON ou adicionados manualmente.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -11,12 +11,12 @@ badge: label="Beta"
 source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
 
-# Teste o conteúdo usando dados de entrada de exemplo (Beta) {#custom-profiles}
+# Teste seu conteúdo usando exemplos de dados de entrada (Beta) {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >No momento, esses recursos estão disponíveis para todos os clientes como um beta público.
 
-O otimizador de Jornada permite testar diferentes variantes do conteúdo, visualizando-o e enviando provas usando dados de entrada de amostra carregados de um arquivo CSV ou JSON ou adicionados manualmente. Todos os atributos de perfis usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes.
+O otimizador de Jornada permite testar diferentes variantes do conteúdo, visualizando-o e enviando provas usando dados de entrada de amostra carregados de um arquivo CSV ou JSON ou adicionados manualmente. Todos os atributos de perfil usados no conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados nos testes para criar diversas variantes.
 
 >[!NOTE]
 >
