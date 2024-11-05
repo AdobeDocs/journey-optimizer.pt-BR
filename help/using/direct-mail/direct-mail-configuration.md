@@ -36,7 +36,7 @@ Antes de poder gerar esse arquivo, é necessário criar:
 >id="ajo_dm_file_routing_details"
 >title="Definir a configuração de roteamento de arquivos"
 >abstract="Após criar uma mensagem de correspondência direta, o arquivo contendo os dados do público-alvo direcionado será gerado e exportado para um servidor. Você precisa especificar os detalhes do servidor para que seu provedor de correspondência direta possa acessar e usar esse arquivo para a entrega da correspondência direta."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Criar uma mensagem de correspondência direta"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Criar uma mensagem de correspondência direta"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -168,7 +168,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 >id="ajo_dm_surface_settings"
 >title="Definir as configurações da correspondência direta"
 >abstract="Uma configuração de correspondência direta contém as configurações para a formatação do arquivo que contém os dados do público-alvo e será usada pelo provedor de email. Você também pode definir para onde o arquivo será exportado selecionando a configuração de roteamento do arquivo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Configurar o roteamento de arquivos"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Configurar o roteamento de arquivos"
 
 <!--
 >[!CONTEXTUALHELP]

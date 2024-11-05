@@ -30,7 +30,7 @@ ht-degree: 38%
 >id="ajo_admin_sms_api"
 >title="Configuração do provedor de SMS/MMS com o Journey Optimizer"
 >abstract="Antes de enviar mensagens de texto (SMS/MMS), é necessário integrar as configurações do provedor com o Journey Optimizer. Depois de concluído, você precisará criar uma configuração de SMS/MMS. Essas etapas precisam ser executadas por um(a) administrador(a) de sistema do Adobe Journey Optimizer."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Criar uma configuração de canais SMS"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Criar uma configuração de canais SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
