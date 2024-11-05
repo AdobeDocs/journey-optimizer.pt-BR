@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 12%
+source-wordcount: '630'
+ht-degree: 11%
 
 ---
 
@@ -19,6 +19,16 @@ ht-degree: 12%
 >id="ajo_decisioning_placement"
 >title="Disposição"
 >abstract="Um posicionamento é um container usado para exibir ofertas. Isso ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo na mensagem. Os posicionamentos são criados no menu “Componentes”."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_request"
+>title="Configurações da solicitação"
+>abstract="Habilite a opção **[!UICONTROL Permitir duplicações entre posicionamentos]** para que o sistema considere a mesma oferta para vários posicionamentos. Use o campo **[!UICONTROL Solicitar oferta]** para ajustar o número de ofertas retornadas. Por exemplo, se você selecionar 2, as 2 melhores ofertas serão exibidas para o escopo de decisão selecionado."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_response"
+>title="Formato de resposta"
+>abstract="As opções **[!UICONTROL Incluir conteúdo]** e **[!UICONTROL Incluir metadados]** permitem especificar se o conteúdo e os metadados da oferta devem ser retornados na resposta da API. É possível incluir todos os metadados ou campos específicos apenas. Por padrão, o valor dos metadados Incluir está definido como verdadeiro."
 
 Uma disposição ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo na mensagem. Ao adicionar conteúdo a uma oferta, você será solicitado a selecionar uma disposição na qual o conteúdo possa ser exibido.
 
@@ -46,7 +56,6 @@ Para criar uma inserção, siga estas etapas:
    * **[!UICONTROL Descrição]**: uma descrição do posicionamento (opcional).
 
    ![](../assets/offers_placement_creation_properties.png)
-
 
 1. As seções **[!UICONTROL Configurações de solicitação]** e **[!UICONTROL Formato de resposta]** fornecem parâmetros adicionais:
 

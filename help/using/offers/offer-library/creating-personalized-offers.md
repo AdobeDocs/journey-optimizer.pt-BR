@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 10%
+source-wordcount: '804'
+ht-degree: 11%
 
 ---
 
@@ -38,6 +38,16 @@ A lista de ofertas personalizadas está acessível no menu **[!UICONTROL Ofertas
 >id="ajo_decisioning_offer_attributes"
 >title="Atributos de oferta"
 >abstract="Com atributos de oferta, é possível associar pares de valores chave à oferta para fins de análise e geração de relatórios."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_personalized"
+>title="Oferta personalizada"
+>abstract="Uma oferta personalizada é uma mensagem personalizável baseada em regras de elegibilidade e restrições."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="Oferta de fallback"
+>abstract="Uma oferta substituta é a oferta padrão exibida quando um usuário final não está qualificado para nenhuma oferta personalizada."
 
 Para criar uma **oferta**, siga estas etapas:
 
