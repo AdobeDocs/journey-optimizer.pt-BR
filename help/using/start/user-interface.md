@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1305'
 ht-degree: 100%
 
 ---
@@ -196,39 +196,7 @@ Para alterar o idioma:
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
-<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
 
->[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="Tipo de objeto"
->abstract="Tipo de objeto"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="Aplicar conjunto de regras a jornadas"
->abstract="Aplique um conjunto de regras para excluir essa jornada para parte do seu público-alvo com base em regras de limite de frequência."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="Tipo de regra"
->abstract="Tipo de regra"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="Limite de regras"
->abstract="Limite de regras"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="Priorização antecipada"
->abstract=" Se uma jornada de prioridade mais alta for agendada dentro do período especificado aqui, o cliente será impedido de entrar nessa jornada. Para situações em que você deseja que as jornadas sejam inseridas em ordem de chegada, sugerimos escolher o período de previsão Diário e garantir que a pontuação de prioridade de qualquer outra jornada nesse dia seja menor que a pontuação de prioridade da jornada. Atribuir uma pontuação de prioridade de 100 a uma jornada também garantiria que ela fosse incluída."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="Fator na priorização"
->abstract="A definir"
-
-<!--TO REMOVE?-->
 
 <!--CONTENT LOCKING-->
 
