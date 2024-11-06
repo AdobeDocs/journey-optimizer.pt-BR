@@ -10,34 +10,19 @@ level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 badge: label="Disponibilidade limitada"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '1936'
-ht-degree: 11%
+source-wordcount: '1950'
+ht-degree: 6%
 
 ---
 
 # Trabalhar com conjuntos de regras {#rule-sets}
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="Tipo de objeto"
->abstract="Tipo de objeto"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="Tipo de regra"
->abstract="Tipo de regra"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="Limite de regras"
->abstract="Limite de regras"
-
->[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Conjuntos de regras"
->abstract="Use conjuntos de regras para aplicar limites de frequência a diferentes tipos de comunicações de marketing. Por exemplo, é possível criar um conjunto de regras para limitar o número de **comunicações promocionais** enviadas a clientes e outro conjunto de regras para limitar o número de **informativos** enviados."
+>abstract="Use conjuntos de regras para aplicar limites de frequência a diferentes tipos de comunicações de marketing. Você também pode criar conjuntos de regras para excluir jornadas de parte do público-alvo com base nas regras de limite de frequência."
 
 >[!AVAILABILITY]
 >
@@ -65,7 +50,12 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 
 ### Regras de limite de canal e jornadas {#domain}
 
-Ao criar um conjunto de regras, é necessário especificar se as regras no conjunto de regras aplicarão regras de limite específicas para canais de comunicação ou jornadas.  Isso é feito selecionando um Canal ou domínio do Jornada para o conjunto de regras ao criá-lo. [Saiba como criar um conjunto de regras](#create)
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="Domínio do conjunto de regras"
+>abstract="Ao criar um conjunto de regras, é necessário especificar se as regras no conjunto de regras aplicarão regras de limite específicas para canais de comunicação ou jornadas."
+
+Ao criar um conjunto de regras, é necessário especificar se as regras no conjunto de regras aplicarão regras de limite específicas para canais de comunicação ou jornadas. Isso é feito selecionando um Canal ou domínio do Jornada para o conjunto de regras ao criá-lo. [Saiba como criar um conjunto de regras](#create)
 
 * Domínio **Channel**: aplique regras de limitação para canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia.
 * Domínio **Jornada**: aplique regras de limite de entrada e simultaneidade a uma jornada. Por exemplo, não insira perfis em mais de uma jornada simultaneamente.
@@ -101,10 +91,11 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 >title="Selecionar a categoria da regra da mensagem"
 >abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de frequência correspondentes à categoria selecionada serão automaticamente aplicadas a essa mensagem. Atualmente, somente a categoria Marketing está disponível."
 
->[!CONTEXTUALHELP]
+<!--NOT USED?
+[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="Definir o limite para a regra"
->abstract="Especifique o número máximo de mensagens enviadas a um perfil de cliente no intervalo de tempo escolhido. O limite de frequência será baseado no período do calendário selecionado e redefinido no início do intervalo de tempo correspondente."
+>title="Set the capping for your rule"
+>abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -115,6 +106,11 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 >id="ajo_rule_sets_duration"
 >title="Selecionar a categoria da regra da mensagem"
 >abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de frequência correspondentes à categoria selecionada serão automaticamente aplicadas a essa mensagem. Atualmente, somente a categoria Marketing está disponível."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="Limite de regras"
+>abstract="Defina o limite para a regra. Dependendo do domínio do conjunto de regras e da seleção no campo Tipo de regra, esse campo pode definir o número máximo de mensagens que podem ser enviadas para um perfil ou o número máximo de jornadas que o perfil pode inserir ou nas quais pode ser inscrito simultaneamente."
 
 Para adicionar uma regra a um conjunto de regras, acesse o conjunto e clique em **[!UICONTROL Adicionar regra]**.
 

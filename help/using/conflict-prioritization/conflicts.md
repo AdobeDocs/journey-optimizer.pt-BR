@@ -4,10 +4,10 @@ description: Saiba como identificar possíveis conflitos em jornadas e campanhas
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 3%
+source-wordcount: '802'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->Os recursos de conflito e priorização estão atualmente disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão gradualmente lançados para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera para esses recursos.
+>Os recursos de conflito e priorização estão atualmente disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão lançados de forma gradual para mais usuários no futuro. Entre em contato com a equipe de conta se tiver interesse em participar da lista de espera desses recursos.
 
 À medida que os profissionais de marketing aumentam o volume de Campanhas e Jornadas no Journey Optimizer, fica cada vez mais difícil para um profissional de marketing saber se estão bombardeando seus clientes com muitas interações de marketing. portanto, é essencial identificar facilmente quando há campanhas e jornadas sobrepostas para garantir que elas estejam alcançando o equilíbrio certo de comunicações de marketing e, ao mesmo tempo, reduzir o risco de fadiga do cliente.
 
@@ -41,6 +41,16 @@ Abaixo está um resumo de como o Journey Optimizer identifica possíveis conflit
 * **Campanhas online/agendadas**: campanhas online e agendadas podem entrar em conflito devido a uma possível sobreposição de públicos. Para qualquer campanha, todas as campanhas ativas ou programadas são listadas no visualizador de conflitos.
 
 ## Exibir conflitos identificados para uma determinada jornada ou campanha {#view}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="Exibir conflitos em potencial"
+>abstract="Verifique sempre que houver uma possibilidade de sobreposição com outras campanhas. Os conflitos são exibidos somente para campanhas ativas e programadas. Observe que o botão fica disponível assim que você atribui qualquer uma das seguintes configurações: **[!UICONTROL Data de início/término]**, **[!UICONTROL Público-alvo]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuração de canal]** e **[!UICONTROL Conjunto de regras]**."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="Exibir conflitos em potencial"
+>abstract="Verifique sempre que houver a possibilidade de sobreposição com outras jornadas. Os conflitos são exibidos somente para jornadas ativas e programadas. Observe que o botão fica disponível assim que você atribui qualquer uma das seguintes configurações: **[!UICONTROL Data de início/término]**, **[!UICONTROL Público-alvo]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuração de canal]** e **[!UICONTROL Conjunto de regras]**."
 
 Ao criar uma jornada ou campanha, o Journey Optimizer permite verificar sempre que há uma possibilidade de sobreposição com outras jornadas ou campanhas. Para fazer isso, siga estes passos:
 

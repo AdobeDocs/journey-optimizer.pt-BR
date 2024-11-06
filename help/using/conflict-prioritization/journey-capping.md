@@ -4,30 +4,15 @@ description: Saiba como criar regras de limitação para suas jornadas e como ar
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 19%
+source-wordcount: '903'
+ht-degree: 18%
 
 ---
 
 
 # Limite e arbitragem de jornada {#journey-capping}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="Aplicar conjunto de regras a jornadas"
->abstract="Aplique um conjunto de regras para excluir essa jornada para parte do seu público-alvo com base em regras de limite de frequência."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="Priorização antecipada"
->abstract=" Se uma jornada de prioridade mais alta for agendada dentro do período especificado aqui, o cliente será impedido de entrar nessa jornada. Para situações em que você deseja que as jornadas sejam inseridas em ordem de chegada, sugerimos escolher o período de previsão Diário e garantir que a pontuação de prioridade de qualquer outra jornada nesse dia seja menor que a pontuação de prioridade da jornada. Atribuir uma pontuação de prioridade de 100 a uma jornada também garantiria que ela fosse incluída."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="Fator na priorização"
->abstract="A definir"
 
 >[!AVAILABILITY]
 >
@@ -43,6 +28,16 @@ Ambos os tipos de limite de jornada usam pontuações de prioridade para arbitra
 ➡️ [Descubra este recurso no vídeo](#video)
 
 ## Criar uma regra de limite de jornada {#create-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="Priorização antecipada"
+>abstract=" Se uma jornada de prioridade mais alta for agendada dentro do período especificado aqui, o cliente será impedido de entrar nessa jornada. Para situações em que você deseja que as jornadas sejam inseridas em ordem de chegada, sugerimos escolher o período de previsão Diário e garantir que a pontuação de prioridade de qualquer outra jornada nesse dia seja menor que a pontuação de prioridade da jornada. Atribuir uma pontuação de prioridade de 100 a uma jornada também garantiria que ela fosse incluída."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_type"
+>title="Tipo de regra"
+>abstract="Especifique o tipo de limite para a regra. O **[!UICONTROL Limite de Entrada de Jornada]** limita o número de entradas na jornada em um determinado período para um perfil, enquanto o **[!UICONTROL Limite de Simultaneidade de Jornada]** limita o número de jornadas nas quais um perfil pode ser inscrito simultaneamente."
 
 Para criar uma regra de limite de jornada, siga estas etapas:
 
@@ -109,6 +104,11 @@ Para criar uma regra de limite de jornada, siga estas etapas:
    ![](assets/journey-capping-activate-rule-set.png)
 
 ## Aplicar regras de limitação a jornadas {#apply-capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="Aplicar conjunto de regras a jornadas"
+>abstract="Aplique um conjunto de regras para excluir essa jornada para parte do seu público-alvo com base em regras de limite de frequência."
 
 Para aplicar uma regra de limitação a uma jornada, acesse a jornada e abra suas propriedades. No menu suspenso **[!UICONTROL Regras de limitação]**, selecione o conjunto de regras relevante. Quando a jornada for ativada, as regras de limitação definidas no conjunto de regras entrarão em vigor.
 

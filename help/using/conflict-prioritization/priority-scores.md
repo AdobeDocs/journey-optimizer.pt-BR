@@ -4,19 +4,29 @@ description: Saiba como atribuir pontuações de prioridade a jornadas e campanh
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 6%
+source-wordcount: '448'
+ht-degree: 12%
 
 ---
 
 
 # Atribuir pontuações de prioridade a jornadas e campanhas {#priority}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="Prioridade"
+>abstract="Atribua uma pontuação de prioridade à campanha. A prioridade é essencial para priorizar uma campanha quando há uma restrição imposta, como um limite de frequência. Insira um valor numérico (de 0 a 100). Observe que quanto maior o número, maior a prioridade. Para situações em que duas campanhas têm a mesma pontuação de prioridade, a campanha que foi ativada primeiro será exibida."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="Prioridade"
+>abstract="Atribua uma pontuação de prioridade à jornada. A prioridade é essencial para priorizar uma jornada quando há uma restrição imposta, como um limite de frequência. Insira um valor numérico (de 0 a 100). Observe que quanto maior o número, maior a prioridade. Para situações em que duas jornadas têm a mesma pontuação de prioridade, a jornada que foi ativada primeiro será exibida."
+
 >[!AVAILABILITY]
 >
->Os recursos de conflito e priorização estão atualmente disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão gradualmente lançados para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera para esses recursos.
+>Os recursos de conflito e priorização estão atualmente disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão lançados de forma gradual para mais usuários no futuro. Entre em contato com a equipe de conta se tiver interesse em participar da lista de espera desses recursos.
 
 O Journey Optimizer permite atribuir uma pontuação de prioridade a uma jornada ou campanha. A prioridade é essencial para priorizar uma jornada, campanha ou ação quando há uma restrição imposta (como um limite de frequência). Em situações em que um cliente se qualifica para muitas jornadas, campanhas ou comunicações e você deseja ser seletivo quanto ao que ele deve informar e receber, você deve utilizar esse campo.
 
