@@ -4,10 +4,10 @@ description: Saiba como atribuir pontuações de prioridade a jornadas e campanh
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 12%
+source-wordcount: '438'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ O Journey Optimizer permite atribuir uma pontuação de prioridade a uma jornada
 
 >[!NOTE]
 >
->A pontuação de prioridade está disponível para canais de entrada: canais da Web, no aplicativo e baseados em código. No jornada, a pontuação de prioridade está disponível somente para os canais **no aplicativo** e **baseados em código**.
+>Em campanhas, a pontuação de prioridade está disponível somente para os canais de entrada da Web, no aplicativo e com base em código.
 
 ➡️ [Descubra este recurso no vídeo](#video)
 

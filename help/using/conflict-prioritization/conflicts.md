@@ -4,9 +4,9 @@ description: Saiba como identificar possíveis conflitos em jornadas e campanhas
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '817'
 ht-degree: 7%
 
 ---
@@ -27,6 +27,10 @@ As principais áreas a serem monitoradas quanto a possíveis sobreposições sã
 * **Canal**: há outras comunicações agendadas para o mesmo período? Em caso afirmativo, quantas?
 * **Conjunto de Regras de Limite**: que tipos de jornadas estou limitando e há sobreposição entre eles?
 * **Configuração de Canal**: há outras jornadas ou campanhas usando qualquer configuração de canal que esteja sendo usada na mesma jornada ou campanha que possam impedir a exibição da jornada ou campanha ao usuário final?
+
+>[!NOTE]
+>
+>Em campanhas, a pontuação de prioridade está disponível somente para os canais de entrada da Web, no aplicativo e com base em código.
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
