@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2166'
 ht-degree: 98%
 
 ---
@@ -368,6 +368,7 @@ ht-degree: 98%
 + Públicos-alvo, perfis e identidade{#audiences-profiles-identities}
    + Públicos-alvo {#audiences}
       + [Introdução aos públicos-alvo](using/audience/about-audiences.md)
+      + [Upload personalizado (CSV) e composição de público federado](using/audience/custom-upload-fac.md)
       + [Criar definições de segmento](using/audience/creating-a-segment-definition.md)
       + Compor públicos-alvo {#audience-orchestration}
          + [Introdução à composição de público-alvo](using/audience/get-started-audience-orchestration.md)

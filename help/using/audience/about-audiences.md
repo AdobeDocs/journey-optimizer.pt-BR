@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0da5f10953ca3b5e14ddd2dd41eac14d5edca767
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 17%
+source-wordcount: '2049'
+ht-degree: 19%
 
 ---
 
@@ -35,13 +35,18 @@ O [!DNL Journey Optimizer] permite criar públicos-alvo da Adobe Experience Plat
 Os públicos-alvo podem ser gerados usando métodos diferentes:
 
 * **Definições de segmento**: crie uma nova definição de público-alvo usando o Serviço de Segmentação da Adobe Experience Platform. [Saiba como criar definições de segmento](creating-a-segment-definition.md)
+
 * **Upload personalizado**: importe um público usando um arquivo CSV. Saiba como importar públicos na [documentação do Serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} do Adobe Experience Platform.
+
 * **Composição de público-alvo**: crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo. [Introdução à composição de público-alvo](get-started-audience-orchestration.md)
+
 * **Composição de Público-Alvo Federado**: federe conjuntos de dados diretamente do data warehouse existente para compilar e enriquecer públicos-alvo e atributos da Adobe Experience Platform, tudo em um único sistema. Leia o guia em [Composição de Público-Alvo Federado](https://experienceleague.adobe.com/pt-br/docs/federated-audience-composition/using/home).
 
   >[!AVAILABILITY]
   >
   >No momento, a Composição de público-alvo federado está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o(a) representante da Adobe.
+
+Para obter mais informações sobre o uso de uploads personalizados e públicos-alvo de composição de público federado no [!DNL Journey Optimizer], consulte [esta seção](custom-upload-fac.md).
 
 ## Públicos-alvo em [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -104,22 +109,6 @@ Informações detalhadas sobre fontes de dados estão disponíveis nestas seçõ
 * [Configurar uma fonte de dados](../datasource/configure-data-sources.md)
 >
 +++
-
-## Upload personalizado e públicos de composição de público-alvo federado {#csv}
-
-Esta seção fornece informações principais para ter em mente ao trabalhar com o Upload personalizado (arquivos CSV) e públicos-alvo de composição de público-alvo federado:
-
-* **Suporte para visualização e prova:** Atualmente, não há suporte para visualização e prova para públicos-alvo criados por meio de carregamento CSV ou Composição de Público Federado. Lembre-se disso ao planejar suas campanhas.
-
-* **Atrasos na ativação rápida e na compilação de identidade:** a arquitetura do Adobe Experience Platform atrasa a compilação de identidades para disponibilizar imediatamente o upload personalizado e os públicos da Composição de público federado para ativação no Journey Optimizer, com os seguintes impactos:
-
-   * Os públicos-alvo estão prontos para uso no Journey Optimizer logo após a conclusão da assimilação. Embora isso normalmente ocorra em uma hora, está sujeito a alguma variabilidade.
-   * O número de registros ativados pode diferir do número de perfis após a identificação de identidade.
-   * Todos os registros no público-alvo serão ativados, incluindo duplicatas. Durante a próxima exportação de perfil da UPS, esses registros passarão pela compilação de identidade.
-
-* **Direcionamento de novos perfis:** Quando uma correspondência não é encontrada entre um registro e um perfil UPS, um novo perfil vazio é criado. Este perfil está vinculado aos atributos de enriquecimento que são armazenados no data lake. Como esse novo perfil está vazio, os campos de direcionamento normalmente usados no Journey Optimizer (por exemplo, personalEmail.address, mobilePhone.number) estão vazios e, portanto, não podem ser usados para direcionamento.
-
-  Para resolver isso, você pode especificar o &quot;campo de execução&quot; (ou o &quot;endereço de execução&quot; dependendo do canal) na configuração do canal como &quot;identityMap&quot;. Isso garantirá que o atributo escolhido como a identidade na criação do público-alvo será aquele usado para o direcionamento no Journey Optimizer.
 
 ## Métodos de avaliação de público-alvo {#evaluation-method-in-journey-optimizer}
 
@@ -184,7 +173,6 @@ Consequentemente, para um desempenho ideal de segmentação por transmissão, ev
 >[!NOTE]
 >
 Você pode usar os eventos **Mensagem aberta** e **Mensagem enviada** na segmentação em lote sem preocupações com o desempenho.
-
 
 ## Perguntas frequentes sobre composição de público-alvo e upload personalizado {#faq}
 
@@ -264,3 +252,8 @@ Além disso, os atributos enriquecidos nos públicos-alvo de composição do pú
 
 +++
 
+## Vídeo tutorial {#video}
+
+Saiba mais sobre perfis e públicos-alvo unificados do cliente no Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432671?quality=12)
