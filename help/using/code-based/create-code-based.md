@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1783'
 ht-degree: 14%
 
 ---
@@ -118,11 +118,6 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 1. Com experiências baseadas em código, é possível usar o recurso Decisão. Selecione o ícone **[!UICONTROL Política de decisão]** na barra esquerda e clique em **[!UICONTROL Adicionar política de decisão]**. [Saiba mais](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
-
-   >[!NOTE]
-   >
-   >No momento, o Decisioning está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
-
 
 1. Clique em **[!UICONTROL Salvar e fechar]** para confirmar as alterações.
 

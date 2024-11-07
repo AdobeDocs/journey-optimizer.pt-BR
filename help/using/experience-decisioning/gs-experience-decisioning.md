@@ -5,26 +5,19 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="Disponibilidade limitada"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 19%
+source-wordcount: '365'
+ht-degree: 24%
 
 ---
 
 # Introdução à Decisão {#get-started-experience-decisioning}
 
->[!AVAILABILITY]
->
->No momento, o Decisioning está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
->
->Por enquanto, o recurso não está disponível para clientes que compraram as ofertas complementares do Adobe **Healthcare Shield** e **Privacy and Security Shield**.
-
 ## O que é a decisão {#about}
 
-O Decisioning simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como &quot;itens de decisão&quot; e um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
+O serviço de Decisão simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de escolha sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
 
 Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada através do [novo canal de experiência baseado em código](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), agora acessível em campanhas do Journey Optimizer. As políticas de decisão estão disponíveis para uso em campanhas de experiência baseadas em código somente.
 
