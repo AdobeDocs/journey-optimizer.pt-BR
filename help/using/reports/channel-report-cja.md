@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Os KPIs **[!UICONTROL Destaques]** servem como um painel abrangente, oferecendo 
 
 +++ Saiba mais sobre métricas de Destaques
 
-* **[!UICONTROL Engajamento na Jornada]**: número total de pessoas que interagiram com as mensagens enviadas pela jornada.
+* **[!UICONTROL Envolvimento da Jornada]**: número total de indivíduos únicos que receberam mensagens enviadas por meio da jornada, representando perfis distintos que atingiram um ponto de ação designado na jornada.
 
 * **[!UICONTROL Entradas de Jornada]**: número total de pessoas físicas que atingiram o evento de entrada da jornada.
 

@@ -7,9 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
+exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Os Indicadores Principais de Desempenho (KPIs) da **[!UICONTROL Jornada]** funci
 
 +++ Saiba mais sobre métricas de KPIs do Jornada
 
-* **[!UICONTROL Participação na Jornada]**: número total de pessoas que interagiram com as mensagens enviadas pela jornada
+* **[!UICONTROL Envolvimento da Jornada]**: número total de indivíduos únicos que receberam mensagens enviadas por meio da jornada, representando perfis distintos que atingiram um ponto de ação designado na jornada.
 
 * **[!UICONTROL Entradas de Jornada]**: número total de pessoas físicas que atingiram o evento de entrada da jornada.
 
@@ -54,7 +55,7 @@ A tabela **[!UICONTROL Estatísticas de Jornada]** oferece um resumo detalhado d
 
 +++ Saiba mais sobre métricas de Estatísticas do Jornada
 
-* **[!UICONTROL Engajamento na Jornada]**: número total de pessoas que interagiram com as mensagens enviadas pela jornada.
+* **[!UICONTROL Envolvimento da Jornada]**: número total de indivíduos únicos que receberam mensagens enviadas por meio da jornada, representando perfis distintos que atingiram um ponto de ação designado na jornada.
 
 * **[!UICONTROL Entradas de Jornada]**: número total de pessoas físicas que atingiram o evento de entrada da jornada.
 
