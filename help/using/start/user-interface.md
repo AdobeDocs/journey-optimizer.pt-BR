@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: d9fde8bfc7fd3ab3139c4212e2fef490dd9a8cce
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 100%
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
@@ -250,3 +250,18 @@ Para alterar o idioma:
 >id="ajo_email_enable_experience_decisioning"
 >title="Habilitar a decisão"
 >abstract="Habilitar a decisão"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="Selecionar atributos de decisão do catálogo"
+>abstract="Os atributos de decisão são armazenados no esquema do catálogo. Selecione um atributo que deseja usar aqui no catálogo selecionado."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="Política de decisão"
+>abstract="Uma política de decisão permite escolher os melhores itens do mecanismo de decisão e entregá-los a cada público-alvo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_attribute"
+>title="Disposição"
+>abstract="Disposição"
