@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2032'
 ht-degree: 19%
 
 ---
@@ -218,10 +218,9 @@ Para usar atributos de enriquecimento de públicos-alvo criados usando workflows
 
 +++
 
-+++ Após publicar um público-alvo da composição de público-alvo ou do upload personalizado, quanto tempo posso usá-lo no Journey Optimizer?
++++ Após a publicação de um público-alvo da composição de público-alvo, quanto tempo posso usá-lo no Journey Optimizer?
 
-* Os públicos-alvo de **composição de público-alvo** são executados diariamente, portanto, talvez seja necessário aguardar até 24 horas para usá-los no Journey Optimizer.
-* Os públicos-alvo do **upload personalizado** ficam disponíveis na Journey Optimizer aproximadamente 2 horas após a publicação.
+Os públicos-alvo de **composição de público-alvo** são executados diariamente, portanto, talvez seja necessário aguardar até 24 horas para usá-los no Journey Optimizer.
 
 +++
 
