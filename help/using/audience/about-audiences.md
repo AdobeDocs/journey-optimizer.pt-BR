@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
+source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
-source-wordcount: '2032'
+source-wordcount: '2011'
 ht-degree: 19%
 
 ---
@@ -41,10 +41,6 @@ Os públicos-alvo podem ser gerados usando métodos diferentes:
 * **Composição de público-alvo**: crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo. [Introdução à composição de público-alvo](get-started-audience-orchestration.md)
 
 * **Composição de Público-Alvo Federado**: federe conjuntos de dados diretamente do data warehouse existente para compilar e enriquecer públicos-alvo e atributos da Adobe Experience Platform, tudo em um único sistema. Leia o guia em [Composição de Público-Alvo Federado](https://experienceleague.adobe.com/pt-br/docs/federated-audience-composition/using/home).
-
-  >[!AVAILABILITY]
-  >
-  >No momento, a Composição de público-alvo federado está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
 Para obter mais informações sobre o uso de uploads personalizados e públicos-alvo de composição de público federado no [!DNL Journey Optimizer], consulte [esta seção](custom-upload-fac.md).
 
