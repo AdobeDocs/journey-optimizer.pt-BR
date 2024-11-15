@@ -1,20 +1,31 @@
 ---
-title: Relatórios no Customer Journey Analytics
-description: Saiba como executar relatórios no Customer Journey Analytics
+title: Relatório sobre a decisão
+description: Saiba como criar relatórios sobre a Decisão.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="Disponibilidade limitada"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 7%
+source-wordcount: '221'
+ht-degree: 3%
 
 ---
 
-# Relatórios no Customer Journey Analytics {#cja}
+
+# Relatório sobre a decisão {#decisioning-report}
+
+## Relatórios de campanhas baseadas em código {#campaigns}
+
+Quando a experiência baseada em código estiver disponível, você poderá acessar relatórios dedicados para monitorar os Indicadores principais de desempenho (KPIs) como um painel abrangente, fornecendo uma análise das métricas essenciais associadas à sua campanha.
+
+Isso abrange detalhes relacionados ao desempenho dos itens de decisão e como os usuários interagiram com eles. [Saiba como trabalhar com relatórios de experiência baseados em código](../reports/campaign-global-report-cja-code.md)
+
+![](../reports/assets/cja-decisioning-item-performance.png)
+
+## Relatórios no Customer Journey Analytics {#cja}
 
 Se estiver trabalhando com o Customer Journey Analytics, você pode criar painéis de relatórios personalizados para suas campanhas baseadas em código usando o Decisioning.
 
