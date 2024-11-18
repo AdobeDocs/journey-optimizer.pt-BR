@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
+source-git-commit: 9c5dd4a8de32ccc037d6c8d57667ce3a5f455535
 workflow-type: tm+mt
-source-wordcount: '5707'
+source-wordcount: '5724'
 ht-degree: 99%
 
 ---
@@ -28,6 +28,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Adição de uma observação sobre a futura medida de proteção de TTL (tempo de vida) para conjuntos de dados gerados pelo sistema. [Leia mais](../data/get-started-datasets.md)
 * Adição de uma nova seção para descrever como visualizar experiências personalizadas baseadas em código diretamente no navegador ou em dispositivos móveis usando a opção “Visualizar no dispositivo” ao simular o conteúdo em uma jornada ou campanha. [Leia mais](../code-based/create-code-based.md#preview-on-device)
 * Adição de uma nova página sobre como aproveitar os públicos-alvo de upload personalizados para a tomada de decisões. [Leia mais](../offers/custom-upload-decisioning.md)
+* Uma nova página foi adicionada para apresentar os recursos de decisão disponíveis no Journey Optimizer. [Leia mais](../experience-decisioning/gs-decision.md)
 
 ## Setembro de 2024 {#sept-2024}
 
