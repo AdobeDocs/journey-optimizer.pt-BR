@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
@@ -449,7 +449,6 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tr>
 <td>
 <p>O plug-in de integração do Designer de email do Adobe Stock e Adobe Journey Optimizer fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens. </br> A nova opção <b>Localizar fotos semelhantes do Stock</b> também permite localizar fotos do Stock que correspondam ao conteúdo, cor e composição de suas imagens. </p>
-<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>Para obter mais informações, consulte a <a href="../content-management/stock.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -466,7 +465,6 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tr>
 <td>
 <p>Agora você pode usar o recurso Email Cco (com cópia oculta) para armazenar emails enviados pelo Adobe Journey Optimizer. Ative essa opção nas predefinições de email para que cada email enviado seja copiado de forma oculta para o endereço do Cco.</p>
-<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>Para obter mais informações, consulte a <a href="../configuration/archiving-support.md#bcc-email">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -547,7 +545,6 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tr>
 <td>
 <p>Agora é possível definir regras de negócios entre canais que excluirão automaticamente perfis excessivamente solicitados de mensagens e ações.</p>
-<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>Para obter mais informações, consulte a <a href="../configuration/frequency-rules.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -564,7 +561,6 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tr>
 <td>
 <p>Agora você pode usar sistemas de modelo treinados na Gestão de decisões. Esse novo recurso classifica as ofertas para exibição em um determinado perfil.</p>
-<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>Para obter mais informações, consulte a <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -598,7 +594,6 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tr>
 <td>
 <p>Agora é possível monitorar ações executadas por usuários nos recursos do Adobe Journey Optimizer.</p>
-<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>Para obter mais informações, consulte a <a href="../privacy/audit-logs.md">documentação detalhada</a>.</p>
 </td>
 </tr>
