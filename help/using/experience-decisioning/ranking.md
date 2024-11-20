@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 15%
+source-wordcount: '639'
+ht-degree: 13%
 
 ---
 
@@ -44,6 +44,12 @@ Para criar um método de classificação, siga estas etapas:
 
    * [Fórmulas de classificação](../offers/ranking/create-ranking-formulas.md)
    * [Modelos de IA](../offers/ranking/ai-models.md)
+
+   >[!NOTE]
+   >
+   >A profundidade do aninhamento em uma fórmula de classificação é limitada a 30 níveis. Isso é medido pela contagem dos parênteses de fechamento `)` na cadeia de caracteres do PQL. Uma sequência de regras pode ter até 8 KB para caracteres codificados em UTF-8. É equivalente a 8.000 caracteres ASCII (1 byte cada) ou 2.000-4.000 caracteres não ASCII (2-4 bytes cada). [Saiba mais sobre as medidas de proteção e limitações da decisão](gs-experience-decisioning.md#guardrails)
+
+Uma política de decisão suporta até 10 estratégias de seleção e itens de decisão combinados. [Saiba mais sobre as medidas de proteção e limitações da decisão](gs-experience-decisioning.md#guardrails)
 
 +++ Otimização de modelos nas métricas [!DNL Customer Journey Analytics] personalizadas
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 50%
+source-wordcount: '384'
+ht-degree: 48%
 
 ---
 
@@ -50,3 +50,7 @@ Para criar uma coleção, siga estas etapas:
    ![](assets/collection-create.png)
 
 1. Após definir as regras de coleção, clique em **[!UICONTROL Criar]**. A coleção agora é exibida na lista.
+
+>[!NOTE]
+>
+>Cada coleção de itens pode conter até 500 itens de oferta. [Saiba mais sobre as medidas de proteção e limitações da decisão](gs-experience-decisioning.md#guardrails)

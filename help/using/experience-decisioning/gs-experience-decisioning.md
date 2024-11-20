@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '549'
 ht-degree: 17%
 
 ---
@@ -29,17 +29,17 @@ Para garantir o uso ideal do Decisioning, lembre-se das seguintes medidas de pro
 
 * **Itens de oferta**: cada coleção de itens pode conter até 500 itens de oferta.
 * **Atributos personalizados**: um item de decisão pode incluir no máximo 100 atributos personalizados.
-* **Estratégias de seleção e itens manuais por política**: uma política de decisão suporta até 10 estratégias de seleção e itens manuais combinados.
+* **Estratégias de seleção e itens de decisão por política**: uma política de decisão suporta até 10 estratégias de seleção e itens de decisão combinados.
 
 ### Regras de elegibilidade {#eligibility}
 
-* **Níveis de Aninhamento**: a profundidade de aninhamento é limitada a 30 níveis. Isso é medido pela contagem dos parênteses de fechamento `)` na cadeia de caracteres do PQL.
-* **Tamanho da Cadeia de Caracteres da Regra**: uma cadeia de caracteres da regra pode ter até 15 KB para caracteres codificados em UTF-8. É equivalente a 15.000 caracteres ASCII (1 byte cada) ou 3.750-7.500 caracteres não ASCII (2-4 bytes cada).
+* **Níveis de aninhamento**: a profundidade do aninhamento é limitada a 30 níveis. Isso é medido pela contagem dos parênteses de fechamento `)` na cadeia de caracteres do PQL.
+* **Tamanho da cadeia de caracteres de regra**: uma cadeia de caracteres de regra pode ter até 15 KB de tamanho para caracteres codificados em UTF-8. É equivalente a 15.000 caracteres ASCII (1 byte cada) ou 3.750-7.500 caracteres não ASCII (2-4 bytes cada).
 
 ### Fórmulas de classificação {#ranking}
 
 * **Níveis de aninhamento**: a profundidade do aninhamento é limitada a 30 níveis. Isso é medido pela contagem dos parênteses de fechamento `)` na cadeia de caracteres do PQL.
-* **Tamanho da cadeia de caracteres de fórmula**: uma cadeia de caracteres de regra pode ter até 8 KB de tamanho para caracteres codificados em UTF-8. Isso equivale a 8.000 caracteres ASCII (1 byte cada) ou 2.000-4.000 caracteres não ASCII (2-4 bytes cada).
+* **Tamanho da cadeia de caracteres de fórmula**: uma cadeia de caracteres de regra pode ter até 8 KB de tamanho para caracteres codificados em UTF-8. É equivalente a 8.000 caracteres ASCII (1 byte cada) ou 2.000-4.000 caracteres não ASCII (2-4 bytes cada).
 
 ## Principais etapas da decisão {#steps}
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1791'
 ht-degree: 14%
 
 ---
@@ -88,9 +88,9 @@ A seção **[!UICONTROL Sequência de estratégia]** permite selecionar os itens
 
    >[!NOTE]
    >
-   >É necessário pelo menos um item de decisão ou estratégia. Não é possível adicionar mais de 10 estratégias.
+   >Uma política de decisão suporta até 10 estratégias de seleção e itens de decisão combinados. [Saiba mais sobre as medidas de proteção e limitações da decisão](gs-experience-decisioning.md#guardrails)
 
-1. Ao adicionar vários itens e/ou estratégias de decisão, eles serão avaliados em uma ordem específica. O primeiro objeto adicionado à sequência será avaliado primeiro e assim por diante.     Para alterar a sequência padrão, você pode arrastar e soltar os objetos e/ou os grupos para reorganizá-los conforme desejado. [Saiba mais sobre a ordem de avaliação da política de decisão](#evaluation-order)
+1. Ao adicionar vários itens e/ou estratégias de decisão, eles serão avaliados em uma ordem específica. O primeiro objeto adicionado à sequência será avaliado primeiro e assim por diante. Para alterar a sequência padrão, você pode arrastar e soltar os objetos e/ou os grupos para reorganizá-los conforme desejado. [Saiba mais sobre a ordem de avaliação da política de decisão](#evaluation-order)
 
 ### Gerenciar ordem de avaliação em uma política de decisão {#evaluation-order}
 
