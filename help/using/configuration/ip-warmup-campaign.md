@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, pools, capacidade de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 12%
@@ -31,7 +31,7 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Saiba como selecionar o domínio e os IPs a serem usados em uma configuração de email no [nesta seção](../email/email-settings.md#subdomains-and-ip-pools).
+   >* Saiba como selecionar o domínio e os IPs a serem usados em uma configuração de email no [nesta seção](../email/email-settings.md#subdomains-and-ip-pools).
    >
    >* Trabalhe com seu consultor de entrega para identificar o domínio e os IPs a serem usados para seu plano de aquecimento de IP.<!--TBC-->
 
@@ -55,13 +55,17 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
 1. Conclua as etapas para criar uma campanha de email, como definir as propriedades da campanha, [público](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> e [conteúdo](../email/get-started-email-design.md#key-steps).
 
-   Observe que é necessário selecionar um público-alvo com base em regras para sua campanha de aquecimento de IP. [Saiba mais](../audience/creating-a-segment-definition.md)
+   >[!IMPORTANT]
+   >
+   >Os públicos permitidos em uma campanha de aquecimento de IP devem ser [baseados em segmentos](../audience/creating-a-segment-definition.md) e criados usando a [política de mesclagem padrão](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 1. [Ativar](../campaigns/review-activate-campaign.md) a campanha. Seu status muda para **[!UICONTROL Live]**.
 
-   Observe que as regras de negócios não devem ser usadas no plano de aquecimento de IP. A aplicação dessas regras pode impedir que se atinja o número desejado de perfis direcionados para campanhas.
+   >[!NOTE]
+   >
+   >[Regras de negócio](rule-sets.md#apply-frequency-rule) não devem ser usadas em planos de aquecimento de IP. A aplicação dessas regras pode impedir que se atinja o número desejado de perfis direcionados para campanhas.
 
    Para uma campanha ativa com o plano de aquecimento de IP ativado, o botão **[!UICONTROL Excluir]** estará disponível até ser associado a um plano de aquecimento de IP. Depois de usada em um plano, a campanha não pode mais ser excluída.
 

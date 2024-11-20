@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1760'
 ht-degree: 6%
 
 ---
@@ -92,108 +92,108 @@ Veja abaixo um exemplo de um arquivo contendo um plano de aquecimento de IP.
 
 ![](assets/ip-warmup-sample-file.png)
 
-### Guia Plano de aquecimento de IP {#ip-warmup-plan-tab}
+### Guia Plano de aquecimento {#ip-warmup-plan-tab}
 
-* Neste exemplo, um plano foi preparado ao longo de 17 dias (chamado &#39;**execuções**&#39;) para atingir um volume de destino de mais de um milhão de perfis.
+Para criar seu plano de aquecimento de IP, preencha a primeira guia com os dados necessários para alimentar seu plano.
+
+* No exemplo acima, um plano foi preparado abrangendo mais de 17 dias (chamado &#39;**execuções**&#39;) para atingir um volume de destino de mais de um milhão de perfis.
 
 * Este planejamento é executado durante seis **fases**, cada uma contendo pelo menos uma execução.
 
 * Você pode ter até 6 colunas (4 colunas para grupos de domínio, uma para a coluna **Outros** e uma para a coluna **Dias de engajamento**). Neste exemplo, o plano é dividido em seis colunas:
 
-   * Três deles correspondem a **grupos de domínio predefinidos** para serem usados em seu plano (Gmail, Microsoft e Orange).
-   * Um corresponde a um grupo de domínio personalizado (que você precisa adicionar usando a guia [Grupo de domínio personalizado](#custom-domain-group-tab)).
+   * Três deles correspondem a **grupos de domínio predefinidos** para serem usados no seu plano (Gmail, Yahoo, e Microsoft). Todos os grupos de domínio predefinidos estão listados na guia [Grupos de Domínio OOTB](#ootb-domain-groups-tab).
+   * Uma coluna corresponde a um grupo de domínio personalizado (que você precisa adicionar usando a guia [Grupo de domínio personalizado](#custom-domain-group-tab)).
    * A quinta coluna, **Outros**, contém todos os endereços restantes de outros domínios que não estão explicitamente cobertos no plano. Essa coluna é opcional: se omitida, os emails irão somente para os domínios especificados.
    * A última coluna, **Dias de Compromisso**, permite especificar o número de dias durante os quais o compromisso deve ser rastreado ou avaliado.
 
 A ideia é aumentar progressivamente o número de endereços direcionados em cada execução, enquanto reduz o número de execuções para cada fase.
 
-Os grupos de domínio principais predefinidos que você pode adicionar ao seu plano estão listados abaixo:
+### Guia Grupo de domínio personalizado {#custom-domain-group-tab}
 
-<!--
-* Gmail
-* Adobe
-* WP
-* Comcast
-* Yahoo
-* Bigpond
-* Orange
-* Softbank
-* Docomo
-* United Internet
-* Microsoft
-* KDDI
-* Italia Online
-* La Poste
-* Apple
--->
+Você também pode adicionar mais colunas ao seu plano, incluindo grupos de domínio personalizados.
+
+Use a guia **[!UICONTROL Grupo de Domínio Personalizado]** para definir um novo grupo de domínio. Para cada domínio, você pode adicionar todos os subdomínios que ele abrange.
+
+>[!IMPORTANT]
+>
+>Verifique se cada domínio é exclusivo do seu grupo de domínio e não se sobrepõe a outros grupos de domínio ou [grupos de domínio predefinidos](#ootb-domain-groups-tab).
+
+Por exemplo, se você adicionar o domínio personalizado Roadrunner, desejará que os seguintes subdomínios sejam incluídos, como no exemplo abaixo: roadrunner.com, nc.rr.com, tampabay.rr.com, rochester.rr.com etc.
+
+![](assets/ip-warmup-sample-file-custom.png)
+
+>[!NOTE]
+>
+>Se não precisar de domínios personalizados, deixe a guia **[!UICONTROL Grupo de domínios personalizados]** vazia.
+
+### Guia Grupos de Domínio OOTB {#ootb-domain-groups-tab}
+
+A guia **Grupos de Domínio OOTB** do modelo de plano de IP Warmup contém todos os grupos de domínio principais predefinidos que você pode adicionar ao plano.
+
+![](assets/ip-warmup-sample-file-ootb.png)
+
+>[!NOTE]
+>
+>Se um grupo de domínio não estiver listado nesta guia, será necessário criar um grupo de domínio personalizado na guia correspondente. [Saiba mais](#custom-domain-group-tab)
+
+Os grupos de domínio principais predefinidos também estão listados abaixo:
 
 +++ Gmail
 gmail.com;google.com;googlemail.com;googlemail.co.uk
-+++
-
-+++WP
-wp.pl;o2.pl
-+++
-
-+++Conversão
-comcast.net
-+++
-
-+++Yahoo
-aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.hu;yahoo.co.uk;yahoo.cn;yahoo.co.hu;aol.es;yahoogroups.com.sg;yahoo.ca;aol.hk;yahoogroups.com.au;yahoo.com.au;aolpoland.pl;aolnorge.no;yahoo.com.vn;yahoo.fi;aol.co.nz;yahoo.com.br;yahoo.hr;aol.cz;yahoo.ee;aol.be;aolcom.tr;yahoo.si;yahoo.ne.jp;aol.it;ymail.com;yahoo.es yahoo.dk;yahoogroups.ca;netscape.com;yahoo.com.pe;aol.kr;yahoo.ie;aol.jp;yahoo.co.id;yahoo.lt;citlink.net;aol.nl;wmconnect.com;yahoo.bg;yahoo.com.jp;aol.se;yahoo.com.hk;yahoo.de;aol.com.br;yahoo.co.kr;yahoo.nl;yahoo.com.ar;aol.dk;ygm.com;aol.cl;yahoo.co.nz;yahoo.no;aol.com;goowy.com;yahoo.cz;rocketmail.com;yahoo.sk;yahoo.sk yahoogroups.de;yahoo.gr;frontiernet.net;yahoo.ro;aim.com;yahoo.at;yahoogroups.co.in;netscape.net;luckymail.com;aol.fr;yahoo.in;aol.in;yahoo.co.jp;yahoo.rs;aol.de;yahoo.com.kr;yahoo.co.za;verizon.net;aol.com.ve;aol.com.ar;yahoo.se;myaol.jp;aol.com.co;yahoo.pt;wild4music.com;yahoogroups.com.cn;yahoogrupper.dk;yahoo.fr;yahoo.com.co;wow.com;aol.pl;yahoo.com;aol.pl;yahooxtra.co.nz;yahoo;aol.ch;yahoo.it;yahoo.com.mx;yahoo.com.ph;aolpolcka.pl;sky.com;yahoogruppi.it;aol.com.mx;yahoo.cl;aol.com.au;aolchina.com;yahoo.com.net;yahoo.be;yahoo.com.tw;aol.tw;talk21.com;compuserve.com;yahoo.com.sg;yahoogroups.com.tw;frontier.com;yahoo.co.in;yahoo.co.il;verizon.net.in;yahoo.com.tr;yahoogroups.com.hk;aol.ru;yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
-+++
-
-+++Bigpond
-bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
-+++
-
-+++Laranja
-voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
-+++
-
-+++Softbank
-c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp;jp-n.ne.jp;
-+++
-
-+++DoCoMo
-docomo.ne.jp
-+++
-
-+++Internet Unida
-gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
 +++Microsoft
 hotmail.com.tr;live.de;live.ru;live.nl;windowslive.com;live.jp;mts.net;xbox.com;hotmail.fr;hotmail.cl;hotmail.jp;live.cl;live.at;live.com.au;live.hk;hotmail.co.th;hotmail.com.au;hotmail.com;live.com.my;live.ie;hotmail.co.kr;outlook.com.br;hotmail.dk;hotmail.co.il;live.co.kr;outlook.ie;live.cn;live.co.uk;hotmail.es;live.fr;live.no;live.dk;hotmail.it;live.com.mx;live.se;hotmail.co.uk;live.be;;live.in;hotmail.se;live.com.sg;hotmail.ch;msn.com;hotmail.co.jp;hotmail.gr;live.it;live.co.za;hotmail.ca;live.com.pt;outlook.com live.com live.com.ar hotmail.com.br hotmail.com.ar;live.ca;hotmail.de
 +++
 
-+++KDDI
-au.com;ezweb.ne.jp;uqmobile.jp
-+++
-
-+++Italia Online
-inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
-+++
-
-+++La Poste
-laposte.net
++++Yahoo
+aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.hu;yahoo.co.uk;yahoo.cn;yahoo.co.hu;aol.es;yahoogroups.com.sg;yahoo.ca;aol.hk;yahoogroups.com.au;yahoo.com.au;aolpoland.pl;aolnorge.no;yahoo.com.vn;yahoo.fi;aol.co.nz;yahoo.com.br;yahoo.hr;aol.cz;yahoo.ee;aol.be;aolcom.tr;yahoo.si;yahoo.ne.jp;aol.it;ymail.com;yahoo.es yahoo.dk;yahoogroups.ca;netscape.com;yahoo.com.pe;aol.kr;yahoo.ie;aol.jp;yahoo.co.id;yahoo.lt;citlink.net;aol.nl;wmconnect.com;yahoo.bg;yahoo.com.jp;aol.se;yahoo.com.hk;yahoo.de;aol.com.br;yahoo.co.kr;yahoo.nl;yahoo.com.ar;aol.dk;ygm.com;aol.cl;yahoo.co.nz;yahoo.no;aol.com;goowy.com;yahoo.cz;rocketmail.com;yahoo.sk;yahoo.sk yahoogroups.de;yahoo.gr;frontiernet.net;yahoo.ro;aim.com;yahoo.at;yahoogroups.co.in;netscape.net;luckymail.com;aol.fr;yahoo.in;aol.in;yahoo.co.jp;yahoo.rs;aol.de;yahoo.com.kr;yahoo.co.za;verizon.net;aol.com.ve;aol.com.ar;yahoo.se;myaol.jp;aol.com.co;yahoo.pt;wild4music.com;yahoogroups.com.cn;yahoogrupper.dk;yahoo.fr;yahoo.com.co;wow.com;aol.pl;yahoo.com;aol.pl;yahooxtra.co.nz;yahoo;aol.ch;yahoo.it;yahoo.com.mx;yahoo.com.ph;aolpolcka.pl;sky.com;yahoogruppi.it;aol.com.mx;yahoo.cl;aol.com.au;aolchina.com;yahoo.com.net;yahoo.be;yahoo.com.tw;aol.tw;talk21.com;compuserve.com;yahoo.com.sg;yahoogroups.com.tw;frontier.com;yahoo.co.in;yahoo.co.il;verizon.net.in;yahoo.com.tr;yahoogroups.com.hk;aol.ru;yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
 +++
 
 +++Apple
 mac.com;icloud.com;apple.com;me.com
 +++
 
-### Guia Grupo de domínio personalizado {#custom-domain-group-tab}
++++Conversão
+comcast.net
++++
 
-Você também pode adicionar mais colunas ao seu plano, incluindo grupos de domínio personalizados.
++++Laranja
+voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
++++
 
-Use a guia **[!UICONTROL Grupo de Domínio Personalizado]** para definir um novo grupo de domínio. Para cada domínio, você pode adicionar todos os subdomínios que ele abrange.<!--TBC-->
++++La Poste
+laposte.net
++++
 
-Para grupos de domínio usados nesse plano, verifique se cada domínio é exclusivo para seu grupo de domínio e não se sobrepõe a outros grupos de domínio. Como os grupos de domínio globais são definidos automaticamente, os usuários devem considerar isso ao criar grupos de domínio personalizados.
++++Italia Online
+inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
++++
 
-Por exemplo, se você adicionar o domínio personalizado Luma, desejará que os seguintes subdomínios sejam incluídos: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
++++WP
+wp.pl;o2.pl
++++
 
-![](assets/ip-warmup-sample-file-custom.png)
++++Internet Unida
+gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
++++
+
++++Bigpond
+bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
++++
+
++++DoCoMo
+docomo.ne.jp
++++
+
++++Softbank
+c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp;jp-n.ne.jp;
++++
+
++++KDDI
+au.com;ezweb.ne.jp;uqmobile.jp
++++
 
 ### Exemplo {#example}
 
@@ -208,13 +208,13 @@ Os domínios fora do Hotmail e do grupo de domínio Microsoft serão reunidos na
 
 1. Adicione todos os domínios do Hotmail na mesma linha.
 
-   Você pode [copiar e colar](#copy-paste) todos os domínios do Hotmail listados na [guia Plano de Interrupção de IP](#ip-warmup-plan-tab) seção.
+   Você pode [copiar e colar](#copy-paste) todos os domínios do Hotmail listados na [guia Grupos de Domínio OOTB](#ootb-domain-groups-tab) seção.
 
 1. Adicione outra linha.
 
 1. Crie o grupo de domínio **Microsoft_X**.
 
-1. Adicione todos os domínios do Microsoft que não são do Hotmail na mesma linha. Da mesma forma, você pode copiá-los e colá-los da lista acima. [Saiba mais](#copy-paste)
+1. Adicione todos os domínios do Microsoft que não são do Hotmail na mesma linha. Da mesma forma, você pode [copiá-los e colá-los](#copy-paste) da lista acima.
 
 1. Volte para a guia **[!UICONTROL Plano de aquecimento de IP]**.
 
@@ -226,7 +226,7 @@ Os domínios fora do Hotmail e do grupo de domínio Microsoft serão reunidos na
 
 ### Copiar e colar domínios padrão {#copy-paste}
 
-Para criar um grupo de domínios personalizado contendo todos os domínios do Hotmail, por exemplo, você pode copiar e colar os domínios da lista padrão fornecida [acima](#ip-warmup-plan-tab).
+Para criar um grupo de domínios personalizado contendo todos os domínios do Hotmail, por exemplo, você pode copiar e colar os domínios da guia **Grupos de Domínios OOTB** do [modelo de plano de aquecimento de IP](assets/IPWarmupPlan-Template.xlsx) ou da lista fornecida [acima](#ip-warmup-plan-tab).
 
 Em seguida, use a ferramenta de conversão do Excel para converter texto em colunas:
 

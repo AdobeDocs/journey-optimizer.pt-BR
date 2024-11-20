@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2628'
+ht-degree: 11%
 
 ---
 
@@ -103,7 +103,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >Esta seção não é editável.
 
-1. Se necessário, você poderá substituir a campanha usando o botão **[!UICONTROL Substituir]**. Você também pode **[!UICONTROL Limpar]** a campanha selecionada usando o botão **[!UICONTROL Limpar]**. Essa ação não só limpará a campanha, como também outras propriedades no nível da fase, como Exclusão de grupo do domínio, Campanha, Exclusão de Jornada e outras. Depois de limpar, você pode escolher uma nova campanha imediatamente ou em um momento posterior.
+1. Se necessário, você poderá substituir a campanha usando o botão **[!UICONTROL Substituir]**. Você também pode **[!UICONTROL Limpar]** a campanha selecionada usando o botão **[!UICONTROL Limpar]**. Essa ação não só limpará a campanha, como também as outras propriedades no nível da fase (exclusões de grupos de domínio, Campanha, Exclusão de Jornada e outras). Depois de limpar, você pode escolher uma nova campanha imediatamente ou em um momento posterior.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -187,6 +187,12 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. Selecione a opção **[!UICONTROL Cancelar execuções ativadas em caso de erros]** para cancelar uma execução se os perfis qualificados forem menores que os perfis direcionados depois que o público-alvo tiver sido avaliado para essa execução. Nesse caso, a execução recebe o status **[!UICONTROL Falha]**.
 
    ![](assets/ip-warmup-plan-pause.png)
+
+   Caso o número de perfis qualificados não corresponda ao número de perfis direcionados (por exemplo, 1500 endereços Gmail são direcionados na execução, mas há apenas 700 perfis Gmail qualificados):
+
+   * Se a opção estiver ativada, a execução falhará. Você pode optar por direcionar menos perfis na próxima execução ou [dividir a execução](#split-phase) em uma nova fase e selecionar uma nova campanha para a nova fase para direcionar os mesmos perfis novamente.
+
+   * Se a opção não estiver ativada, a execução será executada, mas somente o número disponível de perfis será direcionado.
 
 1. **[!UICONTROL Ativar]** a execução. [Saiba mais](#activate-run)
 
