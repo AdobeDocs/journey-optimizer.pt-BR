@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 12%
+source-wordcount: '1638'
+ht-degree: 10%
 
 ---
 
@@ -73,9 +73,9 @@ Abaixo estão as primeiras etapas para configurar um novo evento:
    >
    >Se você modificar seu esquema com novos valores de enumeração depois de criar o evento, será necessário seguir estas etapas para aplicar as alterações ao evento existente: desmarque o campo de enumeração dos campos de evento, confirme a seleção e selecione o campo de enumeração novamente. O novo valor de enumeração agora é exibido.
 
-1. Adicione um namespace. Esta etapa é opcional, mas é recomendada, pois a adição de namespace permite que você aproveite as informações armazenadas no Serviço de perfil do cliente em tempo real. Ela define o tipo de chave que o evento tem. Consulte [esta seção](../event/about-creating.md#select-the-namespace).
+1. Adicione um tipo de identidade. Esta etapa é opcional, mas é recomendada, pois a adição de um tipo de identidade permite aproveitar as informações armazenadas no Serviço de perfil do cliente em tempo real. Ela define o tipo de chave que o evento tem. Saiba mais [nesta seção](../event/about-creating.md#select-the-namespace).
 
-1. Definir o identificador do perfil: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um namespace. Na verdade, o jornada escolhe a chave que deve corresponder ao namespace (por exemplo, se você selecionar um namespace de email, a chave de email será selecionada). Consulte [esta seção](../event/about-creating.md#define-the-event-key).
+1. Definir o identificador do perfil: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um tipo de identidade. Na verdade, o jornada escolhe a chave que deve corresponder ao tipo de identidade (por exemplo, se você selecionar um tipo de identidade de email, a chave de email será selecionada). Saiba mais [nesta seção](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
 
@@ -111,32 +111,32 @@ A definição de carga útil permite escolher as informações que o sistema esp
 
    ![](assets/journey12.png)
 
-## Selecionar o namespace {#select-the-namespace}
+## Selecionar o tipo de identidade {#select-the-namespace}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
->title="Namespace de identidade"
+>title="Tipo de identidade"
 >abstract="Selecione a chave para identificar o perfil do cliente associado ao evento."
 
-O namespace permite definir o tipo de chave usada para identificar a pessoa associada ao evento. Sua configuração é opcional. Ela é necessária se você quiser recuperar, em suas jornadas, informações adicionais provenientes do [Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}. A definição do namespace não é necessária se você estiver usando apenas dados provenientes de um sistema de terceiros por meio de uma fonte de dados personalizada.
+O tipo de identidade (anteriormente conhecido como &quot;namespace&quot;) permite definir o tipo de chave usada para identificar a pessoa associada ao evento. Sua configuração é opcional. Ela é necessária se você quiser recuperar, em suas jornadas, informações adicionais provenientes do [Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}. A definição do tipo de identidade não é necessária se você estiver usando apenas dados provenientes de um sistema de terceiros por meio de uma fonte de dados personalizada.
 
-Você pode usar um dos predefinidos ou criar um novo usando o serviço de namespace de identidade. Consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target="_blank"}.
+Você pode criar um tipo de identidade existente ou criar um novo usando o Serviço de identidade da Adobe Experience Platform. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target="_blank"}.
 
-Se você selecionar um esquema que tenha uma identidade primária, os campos **[!UICONTROL Identificador do profiler]** e **[!UICONTROL Namespace]** serão preenchidos previamente. Se não houver identidade definida, selecionamos _identityMap > id_ como a chave primária. Em seguida, é necessário selecionar um namespace e a chave será preenchida previamente (abaixo do campo **[!UICONTROL Namespace]**) usando _identityMap > id_.
+Se você selecionar um esquema que tenha uma identidade primária, os campos **[!UICONTROL Identificador do profiler]** e **[!UICONTROL Tipo de identidade]** serão preenchidos previamente. Se não houver identidade definida, selecionamos _identityMap > id_ como a chave primária. Em seguida, é necessário selecionar um tipo de identidade e a chave será preenchida previamente (abaixo do campo **[!UICONTROL Tipo de identidade]**) usando _identityMap > id_.
 
 Ao selecionar campos, os campos de identidade principais são marcados.
 
 ![](assets/primary-identity.png)
 
-Selecione um namespace na lista suspensa.
+Selecione um tipo de identidade na lista suspensa.
 
 ![](assets/journey17.png)
 
-Somente um namespace é permitido por jornada. Se você usar vários eventos na mesma jornada, eles precisarão usar o mesmo namespace. Consulte [esta página](../building-journeys/journey.md).
+Somente um tipo de identidade é permitido por jornada. Se você usar vários eventos na mesma jornada, eles precisarão usar o mesmo tipo de identidade. Consulte [esta página](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->Você só pode selecionar um namespace de identidade com base em pessoas. Se você tiver definido um namespace para uma tabela de pesquisa (por exemplo: namespace ProductID para uma pesquisa de Produto), ele não estará disponível na lista suspensa **Namespace**.
+>Você só pode selecionar um tipo de identidade com base em pessoas. Se você tiver definido um tipo de identidade para uma tabela de pesquisa (por exemplo: tipo de identidade ProductID para uma pesquisa de Produto), ele não estará disponível na lista suspensa **Tipo de identidade**.
 
 ## Definir o identificador do perfil {#define-the-event-key}
 
@@ -144,7 +144,7 @@ A chave é o campo, ou combinação de campos, que faz parte dos dados de payloa
 
 Para usar os dados armazenados no banco de dados do Perfil do Cliente em Tempo Real do Adobe, a chave do evento deve ser a informação definida como a identidade de um perfil no [Serviço de Perfil do Cliente em Tempo Real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
 
-O identificador de perfil permite que o sistema execute a reconciliação entre o evento e o perfil do indivíduo. Se você selecionar um esquema que tenha uma identidade primária, os campos **[!UICONTROL Identificador de perfil]** e **[!UICONTROL Namespace]** serão preenchidos previamente. Se não houver identidade definida, _identityMap > id_ será a chave primária. Em seguida, você deve selecionar um namespace e a chave é preenchida automaticamente usando _identityMap > id_.
+O identificador de perfil permite que o sistema execute a reconciliação entre o evento e o perfil do indivíduo. Se você selecionar um esquema que tenha uma identidade primária, os campos **[!UICONTROL Identificador de perfil]** e **[!UICONTROL Tipo de identidade]** serão preenchidos previamente. Se não houver identidade definida, _identityMap > id_ será a chave primária. Em seguida, você deve selecionar um tipo de identidade e a chave é automaticamente preenchida usando _identityMap > id_.
 
 Ao selecionar campos, os campos de identidade principais são marcados.
 
@@ -158,7 +158,7 @@ Se você precisar usar uma chave diferente, como uma ID do CRM ou um endereço d
 
 1. Selecione o campo escolhido como a chave na lista de campos de carga.
 
-Quando o evento é recebido, o valor da chave permite que o sistema identifique a pessoa associada ao evento. Associada a um namespace (consulte [esta seção](../event/about-creating.md#select-the-namespace)), a chave pode ser usada para executar consultas no Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
+Quando o evento é recebido, o valor da chave permite que o sistema identifique a pessoa associada ao evento. Associada a um [tipo de identidade](../event/about-creating.md#select-the-namespace), a chave pode ser usada para executar consultas no Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
 A chave também é usada para verificar se uma pessoa está em uma jornada. De fato, uma pessoa não pode estar em dois lugares diferentes na mesma jornada. Como resultado, o sistema não permite que a mesma chave, por exemplo, a chave CRMID=3224, esteja em locais diferentes na mesma jornada.
 
 ## Editor de expressão avançado {#adv-exp-editor}

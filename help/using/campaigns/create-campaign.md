@@ -9,14 +9,16 @@ role: User
 level: Beginner
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 27%
+source-wordcount: '995'
+ht-degree: 19%
 
 ---
 
 # Criar uma campanha {#create-campaign}
+
+Para criar uma nova campanha, acesse o menu **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**. Você também pode duplicar uma campanha ao vivo existente para criar uma nova. [Saiba mais](modify-stop-campaign.md#duplicate)
 
 >[!NOTE]
 >
@@ -25,9 +27,7 @@ ht-degree: 27%
 >* [Criar configurações de canal](../configuration/channel-surfaces.md)
 >* [Introdução aos públicos-alvo](../audience/about-audiences.md)
 
-Para criar uma nova campanha, acesse o menu **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**. Você também pode duplicar uma campanha ao vivo existente para criar uma nova. [Saiba mais](modify-stop-campaign.md#duplicate)
-
-## Escolha o tipo de campanha {#campaigntype}
+## Selecionar o tipo de campanha {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -46,37 +46,44 @@ Para criar uma nova campanha, acesse o menu **[!UICONTROL Campanhas]** e clique 
 
 ## Definir as propriedades da campanha {#create}
 
-1. Na seção **[!UICONTROL Properties]**, especifique um nome e uma descrição para a campanha.
+1. Na seção **[!UICONTROL Properties]**, digite o nome e uma descrição para a campanha.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. O campo **Tags** permite atribuir Tags unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
+1. Use o campo **Tags** para atribuir Tags unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com marcas](../start/search-filter-categorize.md#tags).
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à campanha, clique no botão **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLA (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
+1. Você pode limitar o acesso a esta campanha com base nos rótulos de acesso. Para adicionar uma limitação de acesso, navegue até o botão **[!UICONTROL Gerenciar acesso]** na parte superior desta página. Selecione apenas os rótulos para os quais você tem permissão. [Saiba mais sobre o Controle de Acesso em Nível de Objeto](../administration/object-based-access.md).
 
 ## Definir o público da campanha {#audience}
 
-Para definir a população direcionada pela campanha, siga estas etapas:
+Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. Para definir a população direcionada pela campanha, siga estas etapas:
 
->[!IMPORTANT]
->
->O uso de públicos-alvo e atributos da [composição de público-alvo](../audience/get-started-audience-orchestration.md) não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
->
->Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API.
+1. Na seção **Público-alvo**, clique no botão **[!UICONTROL Selecionar público-alvo]** para exibir a lista de públicos-alvo do Adobe Experience Platform disponíveis. Saiba mais sobre públicos em [esta seção](../audience/about-audiences.md).
 
-1. Na seção **Público-alvo**, clique no botão **[!UICONTROL Selecionar público-alvo]** para exibir a lista de públicos-alvo do Adobe Experience Platform disponíveis. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)
+1. No campo **[!UICONTROL Tipo de identidade]**, escolha o tipo de chave a ser usado para identificar os indivíduos do público-alvo selecionado. Você pode criar um tipo de identidade existente ou criar um novo usando o Serviço de identidade da Adobe Experience Platform. Os namespaces de Identidade Padrão estão listados em [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
-1. No campo **[!UICONTROL Namespace de identidade]**, escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado.
-
-   Os indivíduos pertencentes a um segmento que não tem a identidade selecionada (namespace) entre suas diferentes identidades não serão direcionados pela campanha. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace)
+   Somente um tipo de identidade é permitido por campanha. Indivíduos pertencentes a um segmento que não tem o tipo de identidade selecionado entre suas diferentes identidades não podem ser alvos da campanha.
 
    ![](assets/create-campaign-namespace.png)
 
+   Saiba mais sobre tipos de identidade e namespaces na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target="_blank"}.
+
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
+>[!IMPORTANT]
+>
+>* O uso de públicos-alvo e atributos da [composição de público-alvo](../audience/get-started-audience-orchestration.md) não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
+>
+>* Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API.
+
 
 ## Criar a mensagem e configurar o rastreamento {#content}
 
-1. Na seção **[!UICONTROL Actions]**, selecione ou crie uma nova configuração.
+1. Na seção **[!UICONTROL Actions]**, selecione o canal.
+
+   A lista de canais disponíveis depende do seu modelo de licenciamento. Para campanhas transacionais acionadas por API, somente os canais de Email, SMS e Notificação por push estão disponíveis.
+
+1. Selecione a configuração do canal.
 
    Uma configuração foi definida por um [Administrador do Sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais](../configuration/channel-surfaces.md).
 
@@ -121,11 +128,11 @@ Para definir a população direcionada pela campanha, siga estas etapas:
     </tr>
     </table>
 
-1. Depois que o conteúdo for definido, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o conteúdo com perfis de teste. [Saiba mais](../content-management/preview-test.md).
-
-1. Clique na seta para voltar para a tela de criação da campanha.
+   Depois que o conteúdo for definido, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o conteúdo com perfis de teste. [Saiba mais](../content-management/preview-test.md). Para voltar para a tela de criação da campanha, clique na seta para a esquerda.
 
    ![](assets/create-campaign-design.png)
+
+1. Na seção **[!UICONTROL Experimento de conteúdo]**, você pode usar o botão **[!UICONTROL Criar experimento]** para testar qual conteúdo funciona melhor. Os recursos de experimentação de conteúdo estão detalhados em [esta seção](../content-management/content-experiment.md).
 
 1. Na seção **[!UICONTROL Rastreamento de ações]**, especifique se deseja acompanhar como seus destinatários reagem à sua entrega: é possível rastrear cliques e/ou aberturas.
 
@@ -136,7 +143,7 @@ Para definir a população direcionada pela campanha, siga estas etapas:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Programação de campanha"
->abstract="Por padrão, as campanhas começam com uma ativação manual e terminam imediatamente após a mensagem ser enviada uma vez. No entanto, você tem a flexibilidade de definir a data e hora específicas para o envio da mensagem. Além disso, é possível especificar uma data de término para campanhas recorrentes ou acionadas por API. Nos acionadores de ação, você também pode configurar a frequência de envio de mensagens de acordo com suas preferências."
+>abstract="Por padrão, as campanhas começam após a ativação manual e terminam imediatamente após a mensagem ser enviada uma vez. Você tem a flexibilidade de definir uma data e hora específicas para a mensagem a ser enviada. Além disso, é possível especificar uma data de término para campanhas recorrentes ou acionadas por API. Nos acionadores de ação, você também pode configurar a frequência de envio de mensagens de acordo com suas preferências."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -161,4 +168,4 @@ Se você não quiser executar sua campanha logo após a ativação, poderá espe
 
 ![](assets/create-campaign-schedule.png)
 
-Quando a campanha estiver pronta, você poderá revisá-la e publicá-la. [Saiba mais](review-activate-campaign.md)
+Quando a campanha estiver pronta, você poderá revisá-la e ativá-la. [Saiba mais](review-activate-campaign.md)

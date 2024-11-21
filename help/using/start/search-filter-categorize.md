@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 82%
 
 ---
 
@@ -52,12 +52,13 @@ Nas listas, é possível executar ações básicas em cada elemento. Por exemplo
 >title="Tags"
 >abstract="Esse campo permite atribuir tags unificadas da Adobe Experience Platform à sua campanha. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas."
 
-Com as [tags unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=pt-BR) da Adobe Experience Platform, é possível classificar facilmente suas jornadas e campanhas do Journey Optimizer para melhorar a pesquisa nas listas.
+Com as [Tags unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=pt-BR) da Adobe Experience Platform, você pode classificar facilmente os objetos da Journey Optimizer para melhorar a pesquisa nas listas.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
+Adicionar tags significativas a públicos na Journey Optimizer permite filtrar e pesquisar mais tarde para encontrar públicos com mais facilidade. As tags também podem ser usadas para organizar públicos-alvo em pastas relevantes e pesquisáveis, criar ofertas e experiências personalizadas e usar em regras de decisão da experiência.
 
-### Adição de tags a um objeto
+### Adição de tags a um objeto {#add-tags}
 
 O campo **[!UICONTROL Tags]** permite definir tags para o seu objeto. Tags estão disponíveis para os seguintes objetos:
 
@@ -79,7 +80,7 @@ O campo **[!UICONTROL Tags]** permite definir tags para o seu objeto. Tags estã
    >
    > As tags não diferenciam maiúsculas de minúsculas.
 
-1. Se a tag que está pesquisando não estiver disponível, clique em **[!UICONTROL Criar “”]** para definir uma nova. Ela será adicionada automaticamente ao objeto atual e ficará disponível para todos os outros.
+1. Se a marca que você está pesquisando não estiver disponível, clique em **[!UICONTROL Criar &quot;&quot;]** para definir uma nova - ela será adicionada automaticamente ao objeto atual e ficará disponível para todos os outros objetos.
 
    ![](assets/tags4.png)
 
@@ -89,7 +90,7 @@ O campo **[!UICONTROL Tags]** permite definir tags para o seu objeto. Tags estã
 > 
 > Se duplicar ou criar uma nova versão de um objeto, as tags serão preservadas.
 
-### Filtrar por tags
+### Filtrar por tags {#filter-on-tags}
 
 Cada lista de objetos exibe uma coluna dedicada para que você possa visualizar facilmente suas tags.
 
@@ -101,7 +102,7 @@ Um filtro também está disponível para somente exibir objetos com determinadas
 
 ![](assets/tags3.png)
 
-### Gerenciar tags
+### Gerenciar tags {#manage-tags}
 
 Os administradores podem excluir tags e organizá-las por categorias usando o menu **[!UICONTROL Tags]** em **[!UICONTROL ADMINISTRAÇÃO]**. Saiba mais sobre o gerenciamento de tags na [documentação das tags unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=pt-BR).
 
