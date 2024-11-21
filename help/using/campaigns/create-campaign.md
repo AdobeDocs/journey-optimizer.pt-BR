@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 19%
+source-wordcount: '1204'
+ht-degree: 18%
 
 ---
 
@@ -34,29 +34,40 @@ Para criar uma nova campanha, acesse o menu **[!UICONTROL Campanhas]** e clique 
 >title="Tipo de campanha"
 >abstract="**Campanhas programadas** são executadas imediatamente ou em uma data especificada e devem enviar mensagens de marketing. Campanhas **acionadas por API** são executadas usando uma chamada de API. O objetivo é enviar mensagens de marketing (mensagens promocionais que exigem o consentimento da pessoa) ou mensagens transacionais (mensagens não comerciais, que também podem ser enviadas a perfis não assinantes em contextos específicos)."
 
-1. Selecione o tipo de campanha que deseja executar
+Ao criar uma nova campanha, primeiro selecione o tipo de campanha. Três tipos de campanhas estão disponíveis:
 
-   * **[!UICONTROL Agendado - Marketing]**: execute a campanha imediatamente ou em uma data especificada. As campanhas agendadas têm como objetivo enviar mensagens de **marketing**. Eles são configurados e executados na interface do usuário do.
+1. **[!UICONTROL Agendado - Marketing]** - Essas campanhas são executadas imediatamente ou em uma data especificada. As campanhas agendadas têm como objetivo enviar mensagens de **marketing** ou criar ações de entrada. Eles são configurados e executados na interface do usuário do.
 
-   * **[!UICONTROL Acionado por API - Marketing/Transacional]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **mensagens de marketing** ou **mensagens transacionais**, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
+1. **[!UICONTROL Acionado por API - Marketing]** - Essas campanhas são executadas usando uma chamada de API. Selecione esse tipo de campanha para enviar comunicações de marketing personalizadas para públicos-alvo direcionados.  [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
+
+1. **[!UICONTROL Acionado por API - Transacional]** - Igual ao acionado por API - Campanhas de marketing; essas campanhas são executadas usando uma chamada de API. As campanhas transacionais acionadas por API têm como objetivo enviar **mensagens transacionais**, ou seja, mensagens enviadas após uma ação executada por um indivíduo: solicitação de redefinição de senha, compra de carrinho etc.  [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
 
    ![](assets/create-campaign-modal.png)
 
-1. Clique em **[!UICONTROL Criar]** para criar a campanha.
-
 ## Definir as propriedades da campanha {#create}
+
+Depois que a campanha for criada, você deverá definir suas propriedades. Siga as etapas abaixo:
 
 1. Na seção **[!UICONTROL Properties]**, digite o nome e uma descrição para a campanha.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. Use o campo **Tags** para atribuir Tags unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com marcas](../start/search-filter-categorize.md#tags).
+1. (opcional) Use o campo **Tags** para atribuir Tags unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com marcas](../start/search-filter-categorize.md#tags).
 
-1. Você pode limitar o acesso a esta campanha com base nos rótulos de acesso. Para adicionar uma limitação de acesso, navegue até o botão **[!UICONTROL Gerenciar acesso]** na parte superior desta página. Selecione apenas os rótulos para os quais você tem permissão. [Saiba mais sobre o Controle de Acesso em Nível de Objeto](../administration/object-based-access.md).
+1. (opcional) Você pode limitar o acesso a esta campanha com base nos rótulos de acesso. Para adicionar uma limitação de acesso, navegue até o botão **[!UICONTROL Gerenciar acesso]** na parte superior desta página. Selecione apenas os rótulos para os quais você tem permissão. [Saiba mais sobre o Controle de Acesso em Nível de Objeto](../administration/object-based-access.md).
 
 ## Definir o público da campanha {#audience}
 
-Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. Para definir a população direcionada pela campanha, siga estas etapas:
+Agora você pode selecionar o público da sua campanha. Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes.
+
+>[!IMPORTANT]
+>
+>* O uso de públicos-alvo e atributos da [composição de público-alvo](../audience/get-started-audience-orchestration.md) não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
+>
+>* Para campanhas acionadas por API, o público-alvo deve ser definido por meio de uma chamada de API.
+
+
+Para definir a população direcionada por uma campanha de marketing agendada, siga estas etapas:
 
 1. Na seção **Público-alvo**, clique no botão **[!UICONTROL Selecionar público-alvo]** para exibir a lista de públicos-alvo do Adobe Experience Platform disponíveis. Saiba mais sobre públicos em [esta seção](../audience/about-audiences.md).
 
@@ -70,18 +81,15 @@ Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou 
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
->[!IMPORTANT]
->
->* O uso de públicos-alvo e atributos da [composição de público-alvo](../audience/get-started-audience-orchestration.md) não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
->
->* Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API.
 
 
 ## Criar a mensagem e configurar o rastreamento {#content}
 
-1. Na seção **[!UICONTROL Actions]**, selecione o canal.
+Agora você pode definir o conteúdo da mensagem. Siga as etapas abaixo:
 
-   A lista de canais disponíveis depende do seu modelo de licenciamento. Para campanhas transacionais acionadas por API, somente os canais de Email, SMS e Notificação por push estão disponíveis.
+1. Na seção **[!UICONTROL Actions]**, selecione o canal de comunicação.
+
+   A lista de canais disponíveis depende do modelo de licenciamento e dos complementos. Para campanhas acionadas por API, somente os canais de Email, SMS e Notificação por push estão disponíveis.
 
 1. Selecione a configuração do canal.
 
@@ -132,7 +140,7 @@ Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou 
 
    ![](assets/create-campaign-design.png)
 
-1. Na seção **[!UICONTROL Experimento de conteúdo]**, você pode usar o botão **[!UICONTROL Criar experimento]** para testar qual conteúdo funciona melhor. Os recursos de experimentação de conteúdo estão detalhados em [esta seção](../content-management/content-experiment.md).
+1. (opcional) Na seção **[!UICONTROL Experimento de conteúdo]**, você pode usar o botão **[!UICONTROL Criar experimento]** para testar qual conteúdo funciona melhor. Os recursos de experimentação de conteúdo estão detalhados em [esta seção](../content-management/content-experiment.md).
 
 1. Na seção **[!UICONTROL Rastreamento de ações]**, especifique se deseja acompanhar como seus destinatários reagem à sua entrega: é possível rastrear cliques e/ou aberturas.
 
@@ -160,12 +168,23 @@ Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou 
 >title="Acionadores de ação da campanha"
 >abstract="Defina uma frequência na qual a mensagem da campanha deve ser enviada."
 
-Por padrão, as campanhas começam depois de serem ativadas manualmente e terminam assim que a mensagem é enviada uma vez.
+Por padrão, as campanhas programadas começam assim que são ativadas manualmente e terminam assim que a mensagem é enviada uma vez.
 
-Você pode definir uma frequência na qual a mensagem da campanha deve ser enviada. Para fazer isso, use as opções **[!UICONTROL Action triggers]** na tela de criação da campanha para especificar se a campanha deve ser executada diariamente, semanalmente ou mensalmente.
-
-Se você não quiser executar sua campanha logo após a ativação, poderá especificar uma data e hora em que a mensagem deverá ser enviada usando a opção **[!UICONTROL Início da campanha]**. A opção **[!UICONTROL Campaign end]** permite especificar quando uma campanha recorrente deve parar de ser executada.
+Se você não quiser executar sua campanha logo após a ativação, poderá especificar uma data e hora em que a mensagem deverá ser enviada usando a opção **[!UICONTROL Início da campanha]**. A opção **[!UICONTROL Campaign end]** permite especificar quando uma campanha deve parar de ser executada.
 
 ![](assets/create-campaign-schedule.png)
 
-Quando a campanha estiver pronta, você poderá revisá-la e ativá-la. [Saiba mais](review-activate-campaign.md)
+Para campanhas de Email, SMS e Notificação por push, você pode definir uma frequência na qual a mensagem da campanha deve ser enviada. Para fazer isso, use as opções **[!UICONTROL Action triggers]** na tela de criação da campanha para especificar se a campanha deve ser executada diariamente, semanalmente ou mensalmente.
+
+## Outras configurações {#settings}
+
+Algumas configurações são específicas do canal de comunicação selecionado para a campanha ou usadas para casos de uso específicos. Elas estão detalhadas abaixo.
+
+* Para emails, você pode criar campanhas específicas de ativação do plano de aquecimento de IP. Saiba mais [nesta seção](../configuration/ip-warmup-campaign.md).
+* Para canais da Web, no aplicativo e baseados em código, você pode atribuir uma pontuação de prioridade à sua campanha. Saiba mais [nesta seção](../conflict-prioritization/priority-scores.md).
+* Para campanhas de cartão de conteúdo, você pode habilitar regras de entrega adicionais para escolher os eventos e critérios que acionam sua mensagem. Saiba mais [nesta seção](../content-card/create-content-card.md).
+* Para mensagens no aplicativo, você pode usar o botão **[!UICONTROL Editar acionadores]** para escolher os eventos e critérios que acionam sua mensagem. Saiba mais [nesta seção](../in-app/create-in-app.md).
+
+## Próximas etapas {#next}
+
+Quando a configuração e o conteúdo da campanha estiverem prontos, você poderá revisá-los e ativá-los. [Saiba mais](review-activate-campaign.md)

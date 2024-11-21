@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objeto, nível, acesso, controle, rótulos, olac, autorização
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '460'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 6%
 >title="Rótulos de gerenciamento de acesso"
 >abstract="Você pode limitar o acesso a esta campanha com base nos rótulos de acesso. Para adicionar uma limitação de acesso, navegue até o botão **Gerenciar acesso** na parte superior desta página. Selecione apenas os rótulos para os quais você tem permissão."
 
-O controle de acesso em nível de objeto (OLAC) permite definir autorizações para gerenciar o acesso aos dados de uma seleção de objetos:
+O recurso OLAC (Object level access control) permite definir autorizações para gerenciar o acesso a dados a uma seleção de objetos:
 
 * Jornada
 * Campaign
@@ -36,15 +36,13 @@ O controle de acesso em nível de objeto (OLAC) permite definir autorizações p
 * Configuração de canais
 * Plano de aquecimento de IP
 
-Rótulos padronizados permitem categorizar públicos de acordo com suas políticas de governança e controle de acesso. Por exemplo, um rótulo de público-alvo pode ser usado para impedir que uma marca segmente membros de um público-alvo específico com publicidade no site.
-
 Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, permitindo maior proteção de dados pessoais.
 
 ## Pré-requisitos {#prereq-labels}
 
 Para [criar rótulos](#create-labels), você deve fazer parte de uma função com a permissão **[!UICONTROL Gerenciar rótulos de uso]**.
 
-Para poder [atribuir rótulos](#assign-labels), você deve fazer parte de uma função com uma permissão **Gerenciar**, ou seja, [!DNL Manage journeys], [!DNL Manage Campaigns] ou [!DNL Manage decisions]. Sem esta permissão, o botão **[!UICONTROL Gerenciar acesso]** ficará esmaecido.
+Para poder [atribuir rótulos](#assign-labels), você deve fazer parte de uma função com uma permissão **Gerenciar**, ou seja, [!DNL Manage journeys], [!DNL Manage Campaigns] ou [!DNL Manage decisions]. Sem essa permissão, o botão **[!UICONTROL Gerenciar acesso]** fica esmaecido.
 
 Saiba mais sobre permissões [nesta seção](../administration/permissions.md).
 
