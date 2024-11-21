@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 11%
+ht-degree: 31%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_request"
->title="Configurações da solicitação"
->abstract="Habilite a opção **[!UICONTROL Permitir duplicações entre posicionamentos]** para que o sistema considere a mesma oferta para vários posicionamentos. Use o campo **[!UICONTROL Solicitar oferta]** para ajustar o número de ofertas retornadas. Por exemplo, se você selecionar 2, as 2 melhores ofertas serão exibidas para o escopo de decisão selecionado."
+>title="Configurações de solicitação"
+>abstract="Habilite a opção **[!UICONTROL Permitir duplicações entre posicionamentos]** para que o sistema considere a mesma oferta para vários posicionamentos. Use o campo **[!UICONTROL Solicitar oferta]** para ajustar o número de ofertas retornadas. Por exemplo, se você selecionar 2, as duas melhores ofertas serão exibidas para o escopo de decisão selecionado."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_response"
->title="Formato de resposta"
->abstract="As opções **[!UICONTROL Incluir conteúdo]** e **[!UICONTROL Incluir metadados]** permitem especificar se o conteúdo e os metadados da oferta devem ser retornados na resposta da API. É possível incluir todos os metadados ou campos específicos apenas. Por padrão, o valor dos metadados Incluir está definido como verdadeiro."
+>title="Formato da resposta"
+>abstract="As opções **[!UICONTROL Incluir conteúdo]** e **[!UICONTROL Incluir metadados]** permitem especificar se o conteúdo e os metadados da oferta devem ser retornados na resposta da API. É possível incluir todos os metadados ou apenas campos específicos. Por padrão, o valor de “Incluir metadados” está definido como verdadeiro."
 
 Uma disposição ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo na mensagem. Ao adicionar conteúdo a uma oferta, você será solicitado a selecionar uma disposição na qual o conteúdo possa ser exibido.
 
@@ -63,9 +63,9 @@ Para criar uma inserção, siga estas etapas:
 
      Se essa opção for definida como falso para qualquer posicionamento em uma solicitação de decisão, todas as inserções na solicitação herdarão a configuração &quot;falso&quot;.
 
-   * **[!UICONTROL Solicitar oferta]**: por padrão, uma oferta do escopo de decisão é retornada para cada perfil. Você pode ajustar o número de ofertas retornadas usando essa opção. Por exemplo, se você selecionar 2, as 2 melhores ofertas serão exibidas para o escopo de decisão selecionado.
+   * **[!UICONTROL Solicitar oferta]**: por padrão, uma oferta do escopo de decisão é retornada para cada perfil. Você pode ajustar o número de ofertas retornadas usando essa opção. Por exemplo, se você selecionar 2, as duas melhores ofertas serão exibidas para o escopo de decisão selecionado.
 
-   * **[!UICONTROL Incluir conteúdo]** / **[!UICONTROL Incluir metadados]**: especifique se o conteúdo e os metadados da oferta devem ser retornados na resposta da API. É possível incluir todos os metadados ou campos específicos apenas. Por padrão, o valor dos metadados Incluir está definido como verdadeiro.
+   * **[!UICONTROL Incluir conteúdo]** / **[!UICONTROL Incluir metadados]**: especifique se o conteúdo e os metadados da oferta devem ser retornados na resposta da API. É possível incluir todos os metadados ou apenas campos específicos. Por padrão, o valor de “Incluir metadados” está definido como verdadeiro.
 
    Esses parâmetros também podem ser definidos diretamente na sua solicitação de API se você estiver trabalhando com a [API de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). No entanto, configurá-los na interface pode ajudar a economizar tempo, pois não será necessário transmiti-los em cada solicitação de API. Observe que, se você configurar os parâmetros na interface do usuário do e na solicitação de API, os valores da solicitação de API prevalecerão sobre os da interface.
 

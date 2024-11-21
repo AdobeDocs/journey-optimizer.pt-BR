@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -42,12 +42,12 @@ A lista de ofertas personalizadas está acessível no menu **[!UICONTROL Ofertas
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
 >title="Oferta personalizada"
->abstract="Uma oferta personalizada é uma mensagem personalizável baseada em regras de elegibilidade e restrições."
+>abstract="Uma oferta personalizada é uma mensagem de marketing personalizável baseada em restrições e regras de elegibilidade."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
 >title="Oferta de fallback"
->abstract="Uma oferta substituta é a oferta padrão exibida quando um usuário final não está qualificado para nenhuma oferta personalizada."
+>abstract="Uma oferta substituta é a oferta padrão exibida quando o usuário final não se qualifica para receber as ofertas personalizadas da coleção."
 
 Para criar uma **oferta**, siga estas etapas:
 

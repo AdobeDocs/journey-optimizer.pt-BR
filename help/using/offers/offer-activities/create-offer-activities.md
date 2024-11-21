@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
 workflow-type: tm+mt
 source-wordcount: '2511'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -34,8 +34,8 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
->title="Detalhes da decisão da oferta"
->abstract="Especifique o nome da decisão e defina uma data e hora de início e término, se necessário. Para atribuir rótulos de uso de dados personalizados ou principais à decisão, selecione **[!UICONTROL Gerenciar acesso]**."
+>title="Detalhes da decisão de oferta"
+>abstract="Especifique o nome da decisão e defina uma data e hora inicial e final, se necessário. Para atribuir rótulos de uso de dados personalizados ou principais à decisão, selecione **[!UICONTROL Gerenciar acesso]**."
 
 1. Acesse a lista de decisões e clique em **[!UICONTROL Criar decisão]**.
 
@@ -52,7 +52,7 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
 >title="Escopos de decisão"
->abstract="Configure um ou vários escopos para a decisão de oferta para determinar as ofertas a serem exibidas. Isso é feito selecionando uma disposição e um critério de avaliação associado para essa disposição."
+>abstract="Configure um ou vários escopos para a decisão de oferta, a fim de determinar as ofertas a serem exibidas. Para isso, selecione um posicionamento e um critério de avaliação associado para esse posicionamento."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
@@ -62,7 +62,7 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="Critérios de avaliação"
->abstract="Os critérios de avaliação consistem em uma coleção de ofertas associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem mostradas no posicionamento. A sequência de critérios de avaliação determina qual coleção será avaliada primeiro. É necessário pelo menos um critério de avaliação."
+>abstract="Os critérios de avaliação consistem em uma coleção de ofertas associada a uma restrição de qualificação e um método de classificação para determinar as ofertas que aparecerão no posicionamento. A sequência dos critérios de avaliação determina qual coleção será avaliada primeiro. É necessário pelo menos um critério de avaliação."
 
 1. Selecione uma disposição na lista suspensa. Ele será adicionado ao escopo da primeira decisão na sua decisão.
 
@@ -309,9 +309,9 @@ A seleção é a seguinte:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
 >title="Adicionar uma oferta substituta"
->abstract="Depois de definir os escopos de decisão, defina a oferta substituta que será apresentada como último recurso aos clientes que não correspondem às regras de elegibilidade e restrições da oferta."
+>abstract="Depois de definir os escopos de decisão, defina a oferta substituta que será apresentada como último recurso a clientes que não corresponderem às restrições e regras de elegibilidade da oferta."
 
-Depois de definir os escopos de decisão, defina a oferta substituta que será apresentada como último recurso aos clientes que não correspondem às regras de elegibilidade e restrições da oferta.
+Depois de definir os escopos de decisão, defina a oferta substituta que será apresentada como último recurso a clientes que não corresponderem às restrições e regras de elegibilidade da oferta.
 
 Para fazer isso, selecione-o na lista de ofertas substitutas disponíveis para os posicionamentos definidos na decisão e clique em **[!UICONTROL Avançar]**.
 

@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 6%
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ O [!DNL Journey Optimizer] permite que você crie **modelos de IA** para classif
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_metric"
 >title="Métrica de otimização"
->abstract="[!DNL Journey Optimizer] ofertas de classificação com base na **taxa de conversão** (Taxa de conversão = Número total de eventos de conversão / Número total de eventos de impressão). A taxa de conversão é calculada usando dois tipos de métricas: **Eventos de impressão** (ofertas exibidas) e **Eventos de conversão** (ofertas que resultam em cliques por email ou pela Web). Esses eventos são capturados automaticamente usando o SDK da Web ou o SDK móvel fornecido."
+>abstract="O [!DNL Journey Optimizer] classifica as ofertas com base na **taxa de conversão** (taxa de conversão = número total de eventos de conversão / número total de eventos de impressão). A taxa de conversão é calculada com base em dois tipos de métrica: **eventos de impressão** (ofertas exibidas) e **eventos de conversão** (ofertas que resultam em cliques por email ou pela web). Esses eventos são captados automaticamente por meio do SDK da web ou do SDK móvel fornecido."
 
 Para criar um modelo de IA, siga as etapas abaixo:
 
@@ -52,7 +52,7 @@ Para criar um modelo de IA, siga as etapas abaixo:
    >
    >A seção **[!UICONTROL Métrica de otimização]** fornece informações sobre o evento de conversão usado pelo modelo de IA para calcular a classificação das ofertas.
    >
-   >[!DNL Journey Optimizer] ofertas de classificação com base na **taxa de conversão** (Taxa de conversão = Número total de eventos de conversão / Número total de eventos de impressão). A taxa de conversão é calculada usando dois tipos de métricas:
+   >O [!DNL Journey Optimizer] classifica as ofertas com base na **taxa de conversão** (taxa de conversão = número total de eventos de conversão / número total de eventos de impressão). A taxa de conversão é calculada usando dois tipos de métricas:
    >* **Eventos de impressão** (ofertas exibidas)
    >* **Eventos de conversão** (ofertas que resultam em cliques por email ou pela Web).
    >

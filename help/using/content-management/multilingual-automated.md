@@ -12,7 +12,7 @@ exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: 40f46fd815a567934f886dd086102d830dea5ade
 workflow-type: tm+mt
 source-wordcount: '2053'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
@@ -113,12 +113,12 @@ Seu projeto de tradução agora foi criado e pode ser usado em uma campanha mult
 >[!CONTEXTUALHELP]
 >id="ajo_multi_custom_conditional"
 >title="Configurações condicionais personalizadas"
->abstract="As configurações condicionais personalizadas são conjuntos de regras que determinam em qual localidade o conteúdo será exibido, com base em critérios específicos. Essas configurações oferecem controle sobre a exibição do conteúdo com base em fatores como localização do usuário, preferências de idioma ou outros elementos contextuais."
+>abstract="As configurações condicionais personalizadas são conjuntos de regras que determinam em qual localidade o conteúdo será exibido, com base em critérios específicos. Essas configurações permitem controlar a exibição do conteúdo com base em fatores como a localização do usuário, as preferências de idioma ou outros elementos contextuais."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
 >title="Preferências de fallback"
->abstract="Escolher uma preferência de fallback é fundamental para melhorar a experiência do usuário. Se nenhum fallback for selecionado e um perfil não atender aos requisitos necessários, o conteúdo não será entregue. Ao selecionar um fallback apropriado, você garante uma entrega de conteúdo consistente, mesmo quando os perfis não correspondem aos critérios iniciais."
+>abstract="Escolher uma preferência de substituição é fundamental para aprimorar a experiência do usuário. Se você não selecionar uma substituição e o perfil não atender os requisitos necessários, o conteúdo não será entregue. Por selecionar uma substituição apropriada, você garante uma entrega de conteúdo consistente, mesmo se os perfis não corresponderem aos critérios iniciais."
 
 Nesta seção, você pode definir suas diferentes localidades para gerenciar o conteúdo multilíngue. Você também pode escolher o atributo que deseja usar para pesquisar informações relacionadas ao idioma do perfil.
 

@@ -87,7 +87,7 @@ O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um 
 
 [Saiba mais sobre o registro do DMARC](../configuration/dmarc-record.md)
 
-## Saiba mais sobre loops de comentários {#feedback-loops}
+## Saiba mais sobre ciclos de feedback {#feedback-loops}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"

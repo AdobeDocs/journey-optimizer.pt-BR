@@ -9,7 +9,7 @@ exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 7%
+ht-degree: 31%
 
 ---
 
@@ -23,22 +23,22 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic"
 >title="Coleção dinâmica"
->abstract="Use qualificadores de coleção para qualificar ofertas dinamicamente para uma coleção."
+>abstract="Use qualificadores de coleção para criar uma coleção de ofertas dinâmica."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static"
 >title="Coleção estática"
->abstract="Selecione e agrupe ofertas manualmente usando critérios como status, qualificadores de coleção, data e canal."
+>abstract="Selecione e agrupe ofertas manualmente, usando critérios como status, qualificadores de coleção, data e canal."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static_select"
->title="Visualização da coleção estática"
->abstract="As coleções estáticas são criadas selecionando manualmente ofertas individuais para incluir na coleção. A coleção só pode ser atualizada adicionando manualmente mais ofertas a ela."
+>title="Visualização de coleções estáticas"
+>abstract="As coleções estáticas são criadas por meio da seleção manual de ofertas individuais para incluir na coleção. A coleção só pode ser atualizada por meio da adição manual de ofertas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic_select"
->title="Visualização dinâmica da coleção"
->abstract="As coleções dinâmicas coletam ofertas com base em qualificadores de coleção. Essas coleções são atualizadas automaticamente. Por exemplo, se uma nova oferta for criada com o qualificador de coleção &quot;esportes&quot;, ela será adicionada automaticamente à coleção correspondente."
+>title="Visualização de coleções dinâmicas"
+>abstract="As coleções dinâmicas reúnem ofertas com base em qualificadores de coleção. Essas coleções são atualizadas automaticamente. Por exemplo, se você criar uma nova oferta com o qualificador de coleção “esportes”, ela será adicionada automaticamente à coleção correspondente."
 
 As coleções permitem organizar as ofertas reagrupando-as em categorias de sua escolha. Por exemplo, é possível criar uma coleção &quot;sport&quot; que conterá apenas ofertas relacionadas a esportes.
 
@@ -52,7 +52,7 @@ Você pode criar dois tipos de coleções:
 
 * **Coleções dinâmicas** são coleções de ofertas baseadas em qualificadores de coleção (anteriormente conhecidas como &quot;marcas&quot;). Essas coleções são atualizadas automaticamente. Por exemplo, se uma nova oferta for criada com o qualificador de coleção selecionado, ela será adicionada automaticamente à coleção.
 
-* **Coleções estáticas** são coleções criadas por meio da seleção manual de ofertas individuais a serem incluídas na Coleção. A coleção só pode ser atualizada adicionando manualmente mais ofertas a ela.
+* **Coleções estáticas** são coleções criadas por meio da seleção manual de ofertas individuais a serem incluídas na Coleção. A coleção só pode ser atualizada por meio da adição manual de ofertas.
 
 Para criar uma coleção, siga estas etapas:
 

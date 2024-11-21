@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 48%
+ht-degree: 52%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Eventos de jornada"
->abstract="Um evento está vinculado a uma pessoa. Relaciona-se com o comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site, etc.) ou com algo que acontece ligado a uma pessoa (por exemplo, uma pessoa atingiu 10 000 pontos de fidelidade). É o que o Journey Optimizer considera nas jornadas para organizar as melhores ações futuras."
+>abstract="Um evento está vinculado a uma pessoa. Ele se refere ao comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site etc.) ou a um acontecimento relacionado a uma pessoa (por exemplo, uma pessoa acumulou 10 mil pontos de fidelidade). É o que o Journey Optimizer considera nas jornadas para organizar as melhores ações futuras."
 
 A configuração do evento permite definir as informações que o [!DNL Journey Optimizer] receberá como eventos. Você pode usar vários eventos (em etapas diferentes de uma jornada) e várias jornadas podem usar o mesmo evento.
 
