@@ -1,11 +1,11 @@
 ---
 title: Caso de uso de decisão
 description: Saiba como criar decisões usando experimentos com o canal baseado em código
-feature: Experience Decisioning
+feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 3fb9e6cd61e73e9ddf1971f6aa8e15c8b82b8445
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 7%
