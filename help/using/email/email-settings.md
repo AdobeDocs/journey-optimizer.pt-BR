@@ -237,9 +237,9 @@ Quando essa opção estiver habilitada, embora um cliente tenha marcado seu emai
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
->title="Adicionar uma lista de sementes"
->abstract="Selecione uma lista de sementes de sua escolha para adicionar automaticamente endereços internos específicos aos seus públicos-alvo. Esses seed addresses serão incluídos na hora da execução da tarefa e receberão uma cópia exata da mensagem para fins de garantia."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#use-seed-list" text="O que são listas de sementes?"
+>title="Adicionar uma lista de seeds"
+>abstract="Selecione uma lista de seeds de sua escolha para adicionar automaticamente endereços internos específicos aos seus públicos-alvo. Esses seed addresses serão incluídos na hora da execução da tarefa e receberão uma cópia exata da mensagem para fins de garantia."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#use-seed-list" text="O que são listas de seeds?"
 
 Uma lista de propagação no [!DNL Journey Optimizer] permite incluir automaticamente seed addresses específicos em seus deliveries. [Saiba mais](../configuration/seed-lists.md)
 

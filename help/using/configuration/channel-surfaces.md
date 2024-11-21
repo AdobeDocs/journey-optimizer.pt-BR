@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -54,7 +54,7 @@ Você também pode usar a configuração de canal guiada para automatizar e vali
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Definições da configuração de canais"
->abstract="Para criar ações como emails de uma jornada ou campanha, você deve primeiro criar uma configuração de canais que defina todas as configurações técnicas necessárias para suas mensagens. Você deve ter a permissão Gerenciar predefinições de mensagens para criar, editar e excluir configurações de canais."
+>abstract="Para criar ações como emails de uma jornada ou campanha, você deve primeiro criar uma configuração de canal que defina todas as configurações técnicas necessárias para suas mensagens. Você deve ter a permissão Gerenciar predefinições de mensagens para criar, editar e excluir configurações de canais."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
@@ -274,6 +274,6 @@ Não é possível editar diretamente uma configuração de canal desativada. No 
 
 ## Vídeo tutorial{#video-presets}
 
-Saiba quais são as configurações de canal e como elas são usadas no Adobe Journey Optimizer.
+Saiba o que são configurações de canal e como elas são usadas no Adobe Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

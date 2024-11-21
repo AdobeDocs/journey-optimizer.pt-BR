@@ -83,7 +83,7 @@ Você pode clicar no nome de uma lista de propagação para editá-la. <!--Use t
 >id="ajo_seed_list_details"
 >title="Definir uma lista de sementes"
 >abstract="Use uma lista de sementes para adicionar automaticamente endereços internos específicos ao público-alvo da entrega para fins de garantia. As listas de sementes permitem monitorar as cópias das mensagens enviadas para garantir que todos os elementos de exibição estejam corretos e proteger sua lista de mala direta. Atualmente, esse recurso se aplica somente ao canal de email."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#use-seed-list" text="O que são listas de sementes?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#use-seed-list" text="O que são listas de seeds?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
