@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 17%
+source-wordcount: '609'
+ht-degree: 15%
 
 ---
 
@@ -69,14 +69,28 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
 1. **Configurar atributos personalizados**: adapte o catálogo de itens aos seus requisitos específicos, configurando atributos personalizados no esquema do catálogo.
 
+   ➡️ [Saiba como configurar o catálogo de itens](catalogs.md)
+
 1. **Crie itens de decisão** para mostrar ao seu público-alvo direcionado.
+
+   ➡️ [Saiba como criar itens de decisão](items.md) ([Documentação de API](api-reference/decisions-items/create.md))
 
 1. **Organizar com coleções**: use coleções para categorizar itens de decisão com base em regras baseadas em atributos. Incorpore coleções nas estratégias de seleção para determinar qual coleção de itens de decisão deve ser considerada.
 
+   ➡️ [Saiba como gerenciar coleções de itens](collections.md) ([Documentação de API](api-reference/items-collections/create.md))
+
 1. **Criar regras de decisão**: as regras de decisão são usadas em itens de decisão e/ou estratégias de seleção para determinar para quem um item de decisão pode ser mostrado.
+
+   ➡️ [Saiba como criar regras de decisão](rules.md)
 
 1. **Implementar métodos de classificação**: crie métodos de classificação e aplique-os nas estratégias de decisão para determinar a ordem de prioridade para selecionar itens de decisão.
 
+   ➡️ [Saiba como criar métodos de classificação](ranking.md)
+
 1. **Criar estratégias de seleção**: crie estratégias de seleção que aproveitem coleções, regras de decisão e métodos de classificação para identificar os itens de decisão adequados para exibição em perfis.
 
-1. **Incorpore uma política de decisão à sua campanha baseada em código**: as políticas de decisão combinam várias estratégias de seleção para determinar os itens de decisão qualificados a serem exibidos para o público-alvo desejado.
+   ➡️ [Saiba como criar estratégias de seleção](selection-strategies.md) ([Documentação da API](api-reference/selection-strategies/create.md))
+
+1. **Crie uma política de decisão e incorpore-a à sua campanha baseada em código**: as políticas de decisão combinam várias estratégias de seleção para determinar os itens de decisão qualificados a serem exibidos para o público-alvo desejado.
+
+   ➡️ [Saiba como trabalhar com políticas de decisão](create-decision.md)
