@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 40f46fd815a567934f886dd086102d830dea5ade
+source-git-commit: 1b48cb825eb1f3110a27389d1e780cb1d7e80fad
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 19%
+source-wordcount: '2041'
+ht-degree: 20%
 
 ---
 
@@ -31,11 +31,6 @@ ht-degree: 19%
 >[!IMPORTANT]
 >
 >Para o fluxo automatizado, os usuários precisam de permissões relacionadas ao recurso **[!UICONTROL Serviço de Tradução]**. [Saiba mais sobre permissões](../administration/permissions.md)
-
->[!AVAILABILITY]
->
-> O fluxo automatizado está temporariamente indisponível para usuários na região EMEA.
-
 
 Usando o fluxo automatizado, você pode simplesmente selecionar o idioma de destino e o provedor de idioma. Seu conteúdo é então enviado diretamente para tradução, pronto para uma revisão final após a conclusão.
 
