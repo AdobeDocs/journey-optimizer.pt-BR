@@ -6,20 +6,24 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '640'
 ht-degree: 2%
 
 ---
 
-# Medidas de proteção e pré-requisitos {#web-prerequisites}
+# Medidas de proteção e pré-requisitos {#code-based-prerequisites}
 
 Para poder usar ações de experiência baseadas em código no [!DNL Journey Optimizer] e fornecer carga de conteúdo de código que pode ser usada por seus aplicativos, siga os pré-requisitos abaixo:
 
 * Para adicionar modificações aos seus aplicativos, é necessário ter uma implementação específica. [Saiba mais](#implementation-prerequisites)
 
 * Para que as experiências baseadas em código sejam entregues corretamente, defina as configurações do Adobe Experience Platform detalhadas [aqui](#delivery-prerequisites).
+
+* Para habilitar a exibição de dados em seus relatórios de experiência baseados em código, siga estes [pré-requisitos de relatórios](#reporting-prerequisites).
+
+* Ao criar uma [configuração de canal de experiência baseada em código](code-based-configuration.md), insira uma cadeia de caracteres/caminho ou um URI de superfície que corresponda àquele declarado em sua própria implementação. Isso garante que o conteúdo seja entregue no local desejado dentro do aplicativo ou página especificada. Caso contrário, as alterações não poderão ser entregues. [Leia mais](code-based-surface.md)
 
 ## Pré-requisitos de implementação {#implementation-prerequisites}
 
@@ -55,7 +59,7 @@ Para que as experiências baseadas em código sejam entregues corretamente, as s
 
   [Saiba mais sobre a exibição do Edge Delivery](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/view/edge-delivery)
 
-## Pré-requisitos de relatórios {#experiment-prerequisites}
+## Pré-requisitos de relatórios {#reporting-prerequisites}
 
 Para habilitar relatórios para o canal baseado em código, você precisa verificar se o [conjunto de dados](../data/get-started-datasets.md) usado na implementação do aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} também está incluído na configuração de relatórios.
 

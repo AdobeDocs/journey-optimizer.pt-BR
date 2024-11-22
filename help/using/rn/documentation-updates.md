@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '5736'
 ht-degree: 99%
@@ -26,7 +26,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Aprimoramento da página **Configurar a experiência baseada em código** para tornar o processo mais claro, incluindo a seção que explica o que é um URI de superfície. [Leia mais](../code-based/code-based-configuration.md)
 * Atualização da página **Criar configuração de canal da web** para esclarecer as etapas para criar uma regra de correspondência de páginas, que também se aplica à configuração da experiência baseada em código. [Leia mais](../web/web-configuration.md#web-page-matching-rule)
 * Adição de uma observação sobre a futura medida de proteção de TTL (tempo de vida) para conjuntos de dados gerados pelo sistema. [Leia mais](../data/get-started-datasets.md)
-* Adição de uma nova seção para descrever como visualizar experiências personalizadas baseadas em código diretamente no navegador ou em dispositivos móveis usando a opção “Visualizar no dispositivo” ao simular o conteúdo em uma jornada ou campanha. [Leia mais](../code-based/create-code-based.md#preview-on-device)
+* Adição de uma nova seção para descrever como visualizar experiências personalizadas baseadas em código diretamente no navegador ou em dispositivos móveis usando a opção “Visualizar no dispositivo” ao simular o conteúdo em uma jornada ou campanha. [Leia mais](../code-based/test-code-based.md#preview-on-device)
 * Adição de uma nova página sobre como aproveitar os públicos-alvo de upload personalizados para a tomada de decisões. [Leia mais](../offers/custom-upload-decisioning.md)
 * Uma nova página foi adicionada para apresentar os recursos de decisão disponíveis no Journey Optimizer. [Leia mais](../experience-decisioning/gs-decision.md)
 * Foram adicionadas garantias e limitações à documentação do Decisioning. [Leia mais](../experience-decisioning/gs-experience-decisioning.md#guardrails)

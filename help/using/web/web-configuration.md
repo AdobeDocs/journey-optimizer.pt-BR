@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 10%
@@ -67,7 +67,11 @@ Por exemplo, talvez você queira aplicar as alterações em um banner principal 
 
 1. Ao configurar sua [Web](#web-configuration) ou [experiência baseada em código](../code-based/code-based-configuration.md), selecione **[!UICONTROL Páginas que correspondem à regra]**.
 
-1. Defina seus critérios para os campos **[!UICONTROL Domínio]** e **[!UICONTROL Página]**. Verifique os operadores disponíveis em [esta seção](#available-operators).
+1. Defina seus critérios para os campos **[!UICONTROL Domínio]** e **[!UICONTROL Página]**.
+
+   >[!NOTE]
+   >
+   >Verifique os operadores disponíveis em [esta seção](#available-operators).
 
    Por exemplo, se você deseja editar elementos que são exibidos em todas as páginas de produtos femininas do seu site Luma, selecione **[!UICONTROL Domínio]** > **[!UICONTROL Começa com]** > `luma` e **[!UICONTROL Página]** > **[!UICONTROL Contém]** > `women`.
 
