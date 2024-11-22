@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
 source-wordcount: '2168'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 97%
       + [Visualização do conteúdo](using/content-management/preview.md)
       + [Envio de provas de email](using/content-management/proofs.md)
       + [Teste da renderização do email](using/content-management/rendering.md)
-      + [Testar o conteúdo usando dados de entrada de amostra (Beta)](using/test-approve/simulate-sample-input.md)
+      + [Teste o conteúdo usando exemplos de dados de entrada (Beta)](using/test-approve/simulate-sample-input.md)
       + [Relatório de spam de email](using/content-management/spam-report.md)
    + Aprovar jornadas e campanhas {#approve}
       + [Introdução a aprovações](using/test-approve/gs-approval.md)
@@ -309,7 +309,7 @@ ht-degree: 97%
       + [Casos de uso do Assistente de IA](using/content-management/generative-uc.md)
    + Trabalhar com conteúdo multilíngue{#content-multilingual}
       + [Introdução ao conteúdo multilíngue](using/content-management/multilingual-gs.md)
-      + [Criar um local](using/content-management/multilingual-locale.md)
+      + [Criar uma localização](using/content-management/multilingual-locale.md)
       + [Criar um provedor de idioma](using/content-management/multilingual-provider.md)
       + [Criação do conteúdo multilíngue com tradução manual](using/content-management/multilingual-manual.md)
       + [Criação do conteúdo multilíngue com tradução automática](using/content-management/multilingual-automated.md)
@@ -326,7 +326,7 @@ ht-degree: 97%
       + [Introdução à personalização](using/personalization/personalize.md)
       + [Contextos de personalização](using/personalization/personalization-contexts.md)
       + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
-      + [Usar dados do Adobe Experience Platform para personalização (Beta)](using/personalization/lookup-aep-data.md)
+      + [Usar dados da Adobe Experience Platform para personalização (Beta)](using/personalization/lookup-aep-data.md)
       + Trabalhar com o editor de personalização {#expression-editor}
          + [Sobre o editor de personalização](using/personalization/personalization-build-expressions.md)
          + [Adicionar atributos aos favoritos](using/personalization/personalization-favorites.md)
@@ -368,7 +368,7 @@ ht-degree: 97%
 + Públicos-alvo, perfis e identidade{#audiences-profiles-identities}
    + Públicos-alvo {#audiences}
       + [Introdução aos públicos-alvo](using/audience/about-audiences.md)
-      + [Upload personalizado (CSV) e composição de público federado](using/audience/custom-upload-fac.md)
+      + [Upload personalizado (CSV) e Composição de público-alvo federado](using/audience/custom-upload-fac.md)
       + [Criar definições de segmento](using/audience/creating-a-segment-definition.md)
       + Compor públicos-alvo {#audience-orchestration}
          + [Introdução à composição de público-alvo](using/audience/get-started-audience-orchestration.md)
@@ -451,7 +451,7 @@ ht-degree: 97%
 + Recursos de decisão {#decisioning}
    + [Introdução aos recursos de decisão](using/experience-decisioning/gs-decision.md)
    + Decisões {#experience-decisioning}
-      + [Introdução à Decisão](using/experience-decisioning/gs-experience-decisioning.md)
+      + [Introdução ao serviço de Decisão](using/experience-decisioning/gs-experience-decisioning.md)
       + Referência da API{#api-reference}
          + Itens de decisão{#decision-items}
             + [Criar itens de decisão](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -659,7 +659,7 @@ ht-degree: 97%
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
    + [Configurar regra de negócios](using/configuration/frequency-rules.md)
-   + [Trabalhar com conjuntos de regras (DL)](using/configuration/rule-sets.md)
+   + [Trabalhar com conjuntos de regras (LA)](using/configuration/rule-sets.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + Integração a sistemas externos {#external-systems}

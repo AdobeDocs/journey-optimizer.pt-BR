@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
 source-wordcount: '1374'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -259,9 +259,9 @@ Para alterar o idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_policy"
 >title="Política de decisão"
->abstract="Uma política de decisão permite escolher os melhores itens do mecanismo de decisão e entregá-los a cada público-alvo."
+>abstract="Uma política de decisão permite selecionar os melhores itens do mecanismo de decisão e entregá-los a cada público-alvo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
->title="Disposição"
+>title="Posicionamento"
 >abstract="Um posicionamento determina onde os itens retornados do mecanismo de decisão aparecem em uma mensagem. Você pode acompanhar o desempenho em diferentes posicionamentos nos relatórios."
