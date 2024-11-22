@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 16%
+source-wordcount: '274'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 16%
 >abstract="Use perfis de teste para visualizar e testar o conteúdo. Se você adicionou campos personalizados, é possível verificar como eles são exibidos usando dados de perfil de teste."
 
 Antes de visualizar ou testar seu conteúdo, primeiro é necessário selecionar perfis de teste, que são recipients adicionais que não correspondem aos critérios de direcionamento definidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md)
+
+>[!NOTE]
+>
+>Além dos perfis de teste, o [!DNL Journey optimizer] também permite que você teste diferentes variantes do seu conteúdo visualizando-o e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como testar seu conteúdo usando dados de entrada de exemplo](../test-approve/simulate-sample-input.md)
 
 Para selecionar perfis de teste, siga estas etapas:
 

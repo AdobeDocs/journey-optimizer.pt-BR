@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 10%
+source-wordcount: '801'
+ht-degree: 9%
 
 ---
 
@@ -46,7 +46,7 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
 1. Na tela de configuração da jornada, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo de push. [Criar uma notificação por push](design-push.md)
 
-1. Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste para visualizar seu conteúdo.
+1. Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente para visualizar seu conteúdo.
 
 1. Quando o push estiver pronto, conclua a configuração da [jornada](../building-journeys/journey-gs.md) para enviá-lo.
 
@@ -87,7 +87,7 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
 1. Na tela de configuração da campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo de push. [Criar uma notificação por push](design-push.md)
 
-1. Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste para visualizar seu conteúdo.
+1. Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente para visualizar seu conteúdo.
 
 1. Quando o push estiver pronto, conclua a configuração da sua [campanha](../campaigns/create-campaign.md) para enviá-lo.
 

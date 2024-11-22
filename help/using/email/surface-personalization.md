@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração, subdomínio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 7%
+source-wordcount: '1112'
+ht-degree: 6%
 
 ---
 
@@ -161,7 +161,13 @@ Ao usar uma configuração com configurações personalizadas em uma campanha ou
 
 ## Verifique sua configuração {#check-configuration}
 
-Ao usar uma configuração personalizada em uma campanha ou jornada, você pode visualizar seu conteúdo de email para verificar possíveis erros com as configurações dinâmicas definidas. Siga as etapas abaixo.
+Ao usar uma configuração personalizada em uma campanha ou jornada, você pode visualizar seu conteúdo de email usando perfis de teste para verificar possíveis erros com as configurações dinâmicas definidas. Siga as etapas abaixo.
+
+>[!NOTE]
+>
+>Além dos perfis de teste, o [!DNL Journey optimizer] também permite que você teste diferentes variantes do seu conteúdo visualizando-o e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como testar seu conteúdo usando dados de entrada de exemplo](../test-approve/simulate-sample-input.md)
+
+Para visualizar seu conteúdo usando perfis de teste, siga estas etapas:
 
 1. Na tela de edição de conteúdo da sua mensagem ou no Designer de Email, clique no botão **[!UICONTROL Simular conteúdo]**. [Saiba mais](../content-management/preview.md)
 

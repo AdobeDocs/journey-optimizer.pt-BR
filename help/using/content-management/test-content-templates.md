@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 6%
+source-wordcount: '216'
+ht-degree: 5%
 
 ---
 
@@ -37,4 +37,4 @@ Você pode testar a renderização de alguns de seus modelos de email, sejam ele
 
 >[!CAUTION]
 >
->Atualmente, o rastreamento não é compatível ao testar modelos de conteúdo de email, o que significa que o rastreamento de eventos, parâmetros UTM e links de página de aterrissagem não será eficaz nas provas que estão sendo enviadas de um modelo. Para testar o rastreamento, [use o modelo de conteúdo](../email/use-email-templates.md) em um email e [envie uma prova](../content-management/preview-test.md#send-proofs).
+>Atualmente, o rastreamento não é compatível ao testar modelos de conteúdo de email, o que significa que o rastreamento de eventos, parâmetros UTM e links de página de aterrissagem não será eficaz nas provas que estão sendo enviadas de um modelo. Para testar o rastreamento, [use o modelo de conteúdo](../email/use-email-templates.md) em um email e envie uma prova usando perfis de teste, ou dados de entrada de amostra carregados de um arquivo CSV/JSON, ou adicionados manualmente. [Saiba como visualizar e testar seu conteúdo](../content-management/preview-test.md)
