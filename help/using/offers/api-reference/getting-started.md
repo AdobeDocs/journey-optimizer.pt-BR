@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Este manual necessita de uma compreensão funcional dos seguintes componentes da
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}: a estrutura padronizada pela qual a [!DNL Experience Platform] organiza os dados de experiência do cliente.
    * [Noções básicas da composição de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR){target="_blank"}: saiba mais sobre os blocos de construção básicos de esquemas XDM.
-* [Gestão de decisões](../../../using/offers/get-started/starting-offer-decisioning.md): explica os conceitos e componentes usados para a Decisão em geral e para a gestão de decisões em particular. Ilustra as estratégias usadas para escolher a melhor opção a ser apresentada durante a experiência de um(a) cliente.
+* [Gestão de decisões](../../../using/offers/get-started/starting-offer-decisioning.md): explica os conceitos e componentes usados no serviço de Decisão em geral e, especificamente, na gestão de decisões. Ilustra as estratégias usadas para escolher a melhor opção a ser apresentada durante a experiência de um(a) cliente.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=pt-BR){target="_blank"}: o PQL é uma linguagem avançada para gravar expressões em instâncias XDM. O PQL é usado para definir regras de decisão.
 
 ## Leitura de chamadas de API de amostra {#reading-sample-api-calls}

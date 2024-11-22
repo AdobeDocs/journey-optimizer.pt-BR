@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Por meio de uma interface visual intuitiva, esse recurso permite modificar suas 
 
 Se já estiver usando canais de saída, como email, SMS ou notificações por push, agora é possível aproveitar o canal web de entrada para oferecer uma experiência verdadeiramente personalizada que se estenda por todos os canais.
 
-Depois de criar uma jornada ou campanha, selecione **Web** como sua ação e defina as configurações básicas. Para obter mais informações sobre como configurar sua jornada/campanha, consulte esta [página](create-web.md#create-web-experience).
+Após criar uma jornada ou campanha, selecione **Web** como ação e defina as configurações básicas. Para obter mais informações sobre como configurar a jornada/campanha, consulte esta [página](create-web.md#create-web-experience).
 
 >[!NOTE]
 >

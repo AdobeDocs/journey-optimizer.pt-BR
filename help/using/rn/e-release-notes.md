@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 61447b6400b65e29a9187790e74be47b09764c4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1967'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Teste seu conteúdo usando exemplos de dados de entrada (Beta)</strong><br/></th>
+<th><strong>Teste o conteúdo usando exemplos de dados de entrada (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -323,7 +323,7 @@ Introduzimos aprimoramentos de SMS para melhorar os recursos de mensagens:
 
 **Relatórios**
 
-* **Relatórios de decisão** já está disponível, oferecendo insights essenciais sobre como os visitantes interagem com suas experiências.
+* Os **relatórios de decisões** agora estão disponíveis e oferecem insights essenciais sobre como os visitantes interagem com suas experiências.
 
 **Políticas de governança de dados e consentimento** - Data de disponibilidade: 7 de outubro de 2024
 

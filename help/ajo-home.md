@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!TAB Versão de outubro de 2024]
 
-A versão de outubro está disponível, incluindo Bloqueio de conteúdo de email, Integração com tinta móvel, Experiências da Web e baseadas em código no jornada. Anteriormente na Disponibilidade limitada (DL), os seguintes recursos agora estão disponíveis para todos: Personalização de configuração de email, políticas de Aprovação, Experimentação de conteúdo, Experiência de relatório aprimorada, Conteúdo multilíngue e muito mais.
+A versão de outubro está disponível, incluindo Bloqueio de conteúdo de email, Integração com o Movable Ink e Experiências da web e baseadas em código em jornadas. Anteriormente em Disponibilidade limitada (LA), os seguintes recursos agora estão disponíveis para todos: Personalização da configuração de email, Políticas de aprovação, Experimentação de conteúdo, Experiência de relatório aprimorada, Conteúdo multilíngue, entre outros.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -38,7 +38,7 @@ Os relatórios do Journey Optimizer vêm com interoperabilidade aprimorada com o
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB Experiências da Web no jornada]
+>[!TAB Experiências da web em jornadas]
 
 Com o canal da Web, o Adobe Journey Optimizer permite personalizar a experiência da Web fornecida aos clientes por meio de jornadas da Web de entrada. O canal da Web agora está disponível na tela da jornada.
 
