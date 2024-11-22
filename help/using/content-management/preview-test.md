@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: a5eacd7a746b2f17804062b23aee3146db0434c9
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 28%
+source-wordcount: '438'
+ht-degree: 26%
 
 ---
 
@@ -46,7 +46,7 @@ Você pode visualizar e testar o conteúdo usando:
 
 * **Perfis de teste**
 
-  Use perfis de teste para pré-visualizar seu conteúdo, enviar provas de email e verificar a renderização de email. Se você adicionou campos personalizados, é possível verificar como eles são exibidos usando dados de perfil de teste.
+  Use perfis de teste para pré-visualizar seu conteúdo, enviar provas de email e verificar a renderização de email. Se você adicionou campos personalizados, é possível verificar como eles são exibidos usando dados de perfil de teste. Para obter mais informações, consulte esta seção.
 
   ➡️ [Selecionar perfis de teste](test-profiles.md)
 
@@ -56,7 +56,7 @@ Você pode visualizar e testar o conteúdo usando:
 
   ➡️ [Verificar renderização de email](rendering.md)
 
-  ➡️ [Saiba como visualizar e revisar seu email neste vídeo](#video-preview)
+  ➡️ [Visualizar e revisar seu email (vídeo)](#video-preview)
 
 * **Dados de entrada de exemplo**
 
