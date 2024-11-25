@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 21%
+source-wordcount: '1729'
+ht-degree: 20%
 
 ---
 
@@ -30,29 +30,33 @@ Para direcionar seus clientes para uma página da Web definida que você deseja 
 
 ## Acessar páginas de destino {#access-landing-pages}
 
-Para acessar a lista de páginas de aterrissagem, selecione **[!UICONTROL Gerenciamento de Jornadas]** > **[!UICONTROL Páginas de aterrissagem]** no menu esquerdo.
+Para acessar a lista de páginas de aterrissagem, selecione **[!UICONTROL Gestão de Conteúdo]** > **[!UICONTROL Páginas de aterrissagem]** no menu esquerdo.
 
 ![](assets/lp_access-list.png)
 
-A lista **[!UICONTROL Páginas de Aterrissagem]** exibe todos os itens criados. Você pode filtrá-los com base no status ou data de modificação.
+A lista **[!UICONTROL Páginas de Aterrissagem]** exibe todos os itens criados. Você pode filtrá-los com base no status, data de modificação ou tags.
 
 ![](assets/lp_access-list-filter.png)
 
-Nesta lista, você pode acessar o [relatório de páginas de aterrissagem](../reports/lp-report-live.md) ou o [relatório de páginas de aterrissagem](../reports/lp-report-global-cja.md) dos itens publicados.
-
-Também é possível excluir, duplicar e desfazer a publicação de uma landing page.
-
->[!CAUTION]
->
->Se você cancelar a publicação de uma landing page referenciada em uma mensagem, o link para a landing page será quebrado e uma página de erro será exibida.
-
-Clique nos três pontos ao lado de uma landing page para selecionar a ação desejada.
+Nessa lista, você pode acessar várias ações. Clique nos três pontos ao lado de uma landing page para selecionar a ação desejada:
 
 ![](assets/lp_access-list-actions.png)
 
->[!NOTE]
->
->Você não pode excluir uma página de aterrissagem [publicada](#publish-landing-page). Para excluí-lo, primeiro você deve desfazer a publicação.
+* Para itens publicados, você pode acessar o [relatório de página de aterrissagem](../reports/lp-report-global-cja.md) ou o [relatório de últimas 24 horas](../reports/lp-report-live.md).
+
+* É possível excluir ou duplicar uma landing page.
+
+  >[!NOTE]
+  >
+  >Você não pode excluir uma página de aterrissagem [publicada](#publish-landing-page). Para excluí-lo, primeiro você deve desfazer a publicação.
+
+* É possível desfazer a publicação de uma landing page publicada.
+
+  >[!CAUTION]
+  >
+  >Se você cancelar a publicação de uma landing page referenciada em uma mensagem, o link para a landing page será quebrado e uma página de erro será exibida.
+
+* Você também pode editar as [marcas](../start/search-filter-categorize.md#tags) associadas de uma página de aterrissagem.
 
 ## Criar uma página de destino {#create-landing-page}
 
@@ -279,11 +283,6 @@ Dois tipos de alertas podem ocorrer:
 
 **Errors**:
 
-* 
-
->[!CAUTION]
->
-> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## Publicar a página de destino {#publish-landing-page}

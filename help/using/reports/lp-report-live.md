@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 14%
+source-wordcount: '458'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 14%
 
 Os relatórios em tempo real, acessíveis a partir da guia Últimas 24 horas, exibem eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento. Em comparação, os relatórios de Customer Journey Analytics se concentram em eventos que ocorreram há pelo menos duas horas e abrangem eventos durante um período selecionado.
 
-Para acessar seus relatórios, selecione **[!UICONTROL Relatório]** no menu avançado da página de aterrissagem selecionada.
+Para acessar seus relatórios, selecione **[!UICONTROL Exibir relatório das últimas 24 horas]** no menu avançado da página de aterrissagem selecionada.
 
 ![](assets/landing_page_report.png)
 
