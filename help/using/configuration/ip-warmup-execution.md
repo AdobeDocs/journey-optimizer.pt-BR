@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2589'
 ht-degree: 11%
 
 ---
@@ -184,13 +184,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Para não aplicar nenhum período de envolvimento a uma execução, digite 0 no campo **[!UICONTROL Último envolvimento]**.
 
-1. Selecione a opção **[!UICONTROL Cancelar execuções ativadas em caso de erros]** para cancelar uma execução se os perfis qualificados forem menores que os perfis direcionados depois que o público-alvo tiver sido avaliado para essa execução. Nesse caso, a execução recebe o status **[!UICONTROL Falha]**.
+1. Selecione a opção **[!UICONTROL Cancelar execuções ativadas em caso de erros]** para cancelar uma execução se os perfis qualificados forem menores que os perfis direcionados depois que o público-alvo tiver sido avaliado para essa execução.
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   Caso o número de perfis qualificados não corresponda ao número de perfis direcionados (por exemplo, 1500 endereços Gmail são direcionados na execução, mas há apenas 700 perfis Gmail qualificados):
+   Caso o número de perfis qualificados não corresponda ao número de perfis direcionados (por exemplo, 1500 endereços Gmail são direcionados na execução, mas há apenas 700 perfis qualificados do Gmail):
 
-   * Se a opção estiver ativada, a execução falhará. Você pode optar por direcionar menos perfis na próxima execução ou [dividir a execução](#split-phase) em uma nova fase e selecionar uma nova campanha para a nova fase para direcionar os mesmos perfis novamente.
+   * Se a opção estiver habilitada, a execução falhará e a execução obterá o status **[!UICONTROL Falha]**. <!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
 
    * Se a opção não estiver ativada, a execução será executada, mas somente o número disponível de perfis será direcionado.
 
