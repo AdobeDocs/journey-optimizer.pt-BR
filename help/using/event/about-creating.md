@@ -111,7 +111,7 @@ A definição de carga útil permite escolher as informações que o sistema esp
 
    ![](assets/journey12.png)
 
-## Selecionar o tipo de identidade {#select-the-namespace}
+## Selecione o tipo de identidade {#select-the-namespace}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"

@@ -4,13 +4,13 @@ description: Saiba como identificar possíveis conflitos em jornadas e campanhas
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
-source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
+exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
-
 
 # Detectar possíveis conflitos em jornadas e campanhas {#conflict}
 
@@ -48,13 +48,13 @@ Abaixo está um resumo de como o Journey Optimizer identifica possíveis conflit
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
->title="Exibir conflitos em potencial"
->abstract="Verifique sempre que houver uma possibilidade de sobreposição com outras campanhas. Os conflitos são exibidos somente para campanhas ativas e programadas. Observe que o botão fica disponível assim que você atribui qualquer uma das seguintes configurações: **[!UICONTROL Data de início/término]**, **[!UICONTROL Público-alvo]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuração de canal]** e **[!UICONTROL Conjunto de regras]**."
+>title="Exibir possíveis conflitos"
+>abstract="Verifique sempre que houver uma possibilidade de sobreposição com outras campanhas. Os conflitos são exibidos somente para campanhas ativas e agendadas. Observe que o botão fica disponível assim que você atribui qualquer uma das seguintes configurações: **[!UICONTROL Data de início/término]**, **[!UICONTROL Público-alvo]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuração de canal]** e **[!UICONTROL Conjunto de regras]**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="Exibir conflitos em potencial"
->abstract="Verifique sempre que houver a possibilidade de sobreposição com outras jornadas. Os conflitos são exibidos somente para jornadas ativas e programadas. Observe que o botão fica disponível assim que você atribui qualquer uma das seguintes configurações: **[!UICONTROL Data de início/término]**, **[!UICONTROL Público-alvo]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuração de canal]** e **[!UICONTROL Conjunto de regras]**."
+>title="Exibir possíveis conflitos"
+>abstract="Verifique sempre que houver a possibilidade de sobreposição com outras jornadas. Os conflitos são exibidos somente nas jornadas ativas e agendadas. Observe que o botão fica disponível assim que você atribui qualquer uma das seguintes configurações: **[!UICONTROL Data de início/término]**, **[!UICONTROL Público-alvo]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuração de canal]** e **[!UICONTROL Conjunto de regras]**."
 
 Ao criar uma jornada ou campanha, o Journey Optimizer permite verificar sempre que há uma possibilidade de sobreposição com outras jornadas ou campanhas. Para fazer isso, siga estes passos:
 

@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 6%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Rótulos de gerenciamento de acesso"
->abstract="Você pode limitar o acesso a esta campanha com base nos rótulos de acesso. Para adicionar uma limitação de acesso, navegue até o botão **Gerenciar acesso** na parte superior desta página. Selecione apenas os rótulos para os quais você tem permissão."
+>abstract="Você pode limitar o acesso a esta campanha com base nos rótulos de acesso. Para adicionar uma limitação de acesso, navegue até o botão **Gerenciar acesso** na parte superior desta página. Selecione apenas os rótulos para os quais tem permissão."
 
 O recurso OLAC (Object level access control) permite definir autorizações para gerenciar o acesso a dados a uma seleção de objetos:
 

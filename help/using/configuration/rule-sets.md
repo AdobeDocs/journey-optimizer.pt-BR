@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabalhar com conjuntos de regras (DL)
+title: Trabalhar com conjuntos de regras (LA)
 description: Saiba como criar e aplicar conjuntos de regras
 feature: Rules
 topic: Content Management
@@ -13,7 +13,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Conjuntos de regras"
->abstract="Use conjuntos de regras para aplicar limites de frequência a diferentes tipos de comunicações de marketing. Você também pode criar conjuntos de regras para excluir jornadas de parte do público-alvo com base nas regras de limite de frequência."
+>abstract="Use conjuntos de regras para aplicar limites de frequência a diferentes tipos de comunicações de marketing. Você também pode criar conjuntos de regras para excluir jornadas para parte do público-alvo com base em regras de limite de frequência."
 
 >[!AVAILABILITY]
 >
@@ -48,12 +48,12 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 
 ![](assets/rule-sets-default.png)
 
-### Regras de limite de canal e jornadas {#domain}
+### Regras de limitação de canais e jornadas {#domain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
 >title="Domínio do conjunto de regras"
->abstract="Ao criar um conjunto de regras, é necessário especificar se as regras no conjunto de regras aplicarão regras de limite específicas para canais de comunicação ou jornadas."
+>abstract="Ao criar um conjunto de regras, é necessário determinar se as regras no conjunto aplicarão regras de limitação específicas para canais de comunicação ou jornadas."
 
 Ao criar um conjunto de regras, é necessário especificar se as regras no conjunto de regras aplicarão regras de limite específicas para canais de comunicação ou jornadas. Isso é feito selecionando um Canal ou domínio do Jornada para o conjunto de regras ao criá-lo. [Saiba como criar um conjunto de regras](#create)
 
@@ -110,7 +110,7 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="Limite de regras"
->abstract="Defina o limite para a regra. Dependendo do domínio do conjunto de regras e da seleção no campo Tipo de regra, esse campo pode definir o número máximo de mensagens que podem ser enviadas para um perfil ou o número máximo de jornadas que o perfil pode inserir ou nas quais pode ser inscrito simultaneamente."
+>abstract="Definir a limitação para a regra. Dependendo do domínio do conjunto de regras e da seleção no campo Tipo de regra, esse campo pode definir o número máximo de mensagens que podem ser enviadas para um perfil ou o número máximo de jornadas em que o perfil pode participar ou nas quais pode ser inscrito simultaneamente."
 
 Para adicionar uma regra a um conjunto de regras, acesse o conjunto e clique em **[!UICONTROL Adicionar regra]**.
 

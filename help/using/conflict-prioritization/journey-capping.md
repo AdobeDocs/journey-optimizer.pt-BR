@@ -4,13 +4,13 @@ description: Saiba como criar regras de limitação para suas jornadas e como ar
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
-
 
 # Limite e arbitragem de jornada {#journey-capping}
 
@@ -27,7 +27,7 @@ Ambos os tipos de limite de jornada usam pontuações de prioridade para arbitra
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-## Criar uma regra de limite de jornada {#create-rule}
+## Criar uma regra de limitação de jornada {#create-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
@@ -37,7 +37,7 @@ Ambos os tipos de limite de jornada usam pontuações de prioridade para arbitra
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
 >title="Tipo de regra"
->abstract="Especifique o tipo de limite para a regra. O **[!UICONTROL Limite de Entrada de Jornada]** limita o número de entradas na jornada em um determinado período para um perfil, enquanto o **[!UICONTROL Limite de Simultaneidade de Jornada]** limita o número de jornadas nas quais um perfil pode ser inscrito simultaneamente."
+>abstract="Especifique o tipo de limite para a regra. O **[!UICONTROL Limite de entrada da jornada]** limita o número de entradas na jornada em um determinado período para um perfil, enquanto o **[!UICONTROL Limite de Simultaneidade da Jornada]** limita em quantas jornadas um perfil pode ser inscrito simultaneamente."
 
 Para criar uma regra de limite de jornada, siga estas etapas:
 
