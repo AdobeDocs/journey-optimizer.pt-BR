@@ -1,16 +1,16 @@
 ---
 title: Relatório de cartão de conteúdo
 description: Saiba como usar os dados do relatório de Cartão de conteúdo
-feature: Reporting
+feature: Reporting, Content Cards
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 **Índice**
 
-* [Introdução a cartões de conteúdo](get-started-content-card.md)
+* [Introdução aos cartões de conteúdo](get-started-content-card.md)
 * [Pré-requisitos dos cartões de conteúdo](content-card-configuration-prereq.md)
 * [Configurar canal de cartões de conteúdo no Journey Optimizer](content-card-configuration.md)
 * [Criar cartões de conteúdo](create-content-card.md)
-* [Criar cartões de conteúdo](design-content-card.md)
+* [Design de cartões de conteúdo](design-content-card.md)
 * **Relatório de cartões de conteúdo**
 
 >[!ENDSHADEBOX]
