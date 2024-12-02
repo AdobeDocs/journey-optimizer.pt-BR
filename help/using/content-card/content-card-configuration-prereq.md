@@ -1,11 +1,12 @@
 ---
 title: Configuração de cartões de conteúdo
 description: Pré-requisitos do canal de cartões de conteúdo
-feature: Channel Configuration
+feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+exl-id: df92e319-1e42-486f-b688-595964a762c9
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 5%
@@ -39,7 +40,7 @@ Adicione o grupo de campos **Evento de experiência - Interação de apresentaç
 
 * **Solução de problemas**
 
-  Use a exibição **Edge Delivery** dentro do **Adobe Experience Platform Assurance** para solucionar problemas de experiências móveis. Ele pode inspecionar solicitações, verificar chamadas de borda e examinar dados de perfil. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/view/edge-delivery)
+  Use o modo de exibição **Edge Delivery** em **Adobe Experience Platform Assurance** para solucionar problemas de experiências móveis. Ele pode inspecionar solicitações, verificar chamadas de borda e examinar dados de perfil. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/view/edge-delivery)
 
 * **Experimentos de conteúdo**
 

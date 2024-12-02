@@ -1,11 +1,12 @@
 ---
 title: Configuração de cartões de conteúdo
 description: Configuração de canal de cartões de conteúdo
-feature: Channel Configuration
+feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 47%
@@ -96,4 +97,3 @@ A tabela abaixo lista alguns exemplos de definição de URI de superfície para 
 1. Envie suas alterações.
 
 Agora você pode selecionar sua configuração ao criar sua experiência com o cartão de Conteúdo.
-

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 22%
@@ -60,7 +60,6 @@ Agora você pode selecionar o público da sua campanha. Um público-alvo é um c
 >* O uso de públicos-alvo e atributos da [composição de público-alvo](../audience/get-started-audience-orchestration.md) não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 >
 >* Para campanhas acionadas por API, o público-alvo deve ser definido por meio de uma chamada de API.
-
 
 Para definir a população direcionada por uma campanha de marketing agendada, siga estas etapas:
 
