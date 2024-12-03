@@ -7,16 +7,25 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+exl-id: 09770df2-c514-4217-a71b-e31c248df543
+source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 7%
+source-wordcount: '393'
+ht-degree: 6%
 
 ---
 
 # Caso de uso de decisão {#experience-decisioning-uc}
 
+Você não tem certeza se uma fórmula de classificação específica terá melhor desempenho do que as prioridades de oferta pré-atribuídas.
+
 Nesse caso de uso, você cria uma campanha em que define dois tratamentos de delivery, cada um contendo uma política de decisão diferente para medir qual tem melhor desempenho para seu público-alvo.
+
+Configure o experimento de modo que:
+
+* O primeiro tratamento contém uma estratégia de seleção com prioridade como o método de classificação.
+* O segundo tratamento contém uma estratégia de seleção diferente para a qual uma fórmula é o método de classificação.
+
 
 ## Criar itens de decisão e estratégias de seleção
 
@@ -68,5 +77,3 @@ Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu s
 1. Na janela **[!UICONTROL Editar conteúdo]**, selecione seu tratamento B para alterar o conteúdo e repita as etapas acima para criar outra decisão.
 
 1. Salve o conteúdo.
-
-
