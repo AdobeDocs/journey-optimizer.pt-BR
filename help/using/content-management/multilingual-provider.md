@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
+source-git-commit: 424ebfb3670396d91c4b15b670eda26dc999699b
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Antes de adicionar o Provedor de tradução escolhido, verifique se você criou 
 
    >[!NOTE]
    >
-   >Para adicionar um Provedor à lista, você pode solicitar que seu Provedor siga as instruções detalhadas em [este documento](https://developer.adobe.com/gcs/partner/) para concluir o processo de integração.
+   >Para adicionar um novo **Provedor** à lista, você pode pedir ao seu **Provedor** para seguir as instruções detalhadas em [este documento](https://developer.adobe.com/gcs/partner/) para concluir o processo de integração.
 
    ![](assets/provider_2.png)
 
