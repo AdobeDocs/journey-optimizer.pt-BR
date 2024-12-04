@@ -1,14 +1,14 @@
 ---
 title: Visualizar e testar o conteúdo
-description: Saiba como pré-visualizar e testar o conteúdo.
+description: Saiba como visualizar e testar o conteúdo.
 feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: a5eacd7a746b2f17804062b23aee3146db0434c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -24,51 +24,51 @@ ht-degree: 26%
 >title="Verificar como o conteúdo está sendo renderizado"
 >abstract="Depois que o conteúdo for definido, você poderá visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
 
-## Sobre visualização e teste {#about}
+## Sobre a visualização e teste {#about}
 
-Depois que o conteúdo for definido, você poderá visualizar seu conteúdo antes de enviar a mensagem. Essa é uma etapa essencial para garantir que ela seja precisa, mas também esteja livre de erros nas configurações de conteúdo e personalização.
+Depois que o conteúdo for definido, você poderá visualizá-lo antes de enviar a mensagem. Essa é uma etapa essencial para garantir que seja preciso, mas também esteja livre de erros no conteúdo e nas configurações de personalização.
 
-Você também pode enviar deliveries de teste de suas mensagens de email para recipients ou assinantes específicos para teste e validação e verificar a renderização em clientes populares de desktop, dispositivos móveis e baseados na Web.
+Você também pode enviar entregas de teste das mensagens de email para destinatários ou assinantes específicos para teste e validação e verificar a renderização em clientes populares de desktop, dispositivos móveis e baseados na Web.
 
 >[!CAUTION]
 >
->Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização do perfil são exibidos. Personalization com base em dados de contexto, como informações de evento, só podem ser testadas no contexto de uma jornada. Saiba como testar a personalização em [este caso de uso](../personalization/personalization-use-case.md).
+>Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização do perfil serão exibidos. Personalização com base em dados de contexto, como informações de evento, só podem ser testados no contexto de uma jornada. Saiba como testar a personalização [neste caso de uso](../personalization/personalization-use-case.md).
 
-Todas essas ações podem ser executadas com o botão **[!UICONTROL Simular Conteúdo]**, acessível na tela de edição de conteúdo da sua mensagem, ou nos designers de email e da Web dos canais de email e da Web.
+Todas essas ações podem ser realizadas com o botão **[!UICONTROL Simular conteúdo]**, acessível na tela de edição de conteúdo da mensagem, ou nos designers de email e da Web dos canais de email e da Web.
 
 ![](../email/assets/email-preview-button.png)
 
-Observe que você precisa ter a permissão **[!DNL Manage Simulate Content]** incluída no perfil de produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager).
+Observe que é necessário ter a permissão **[!DNL Manage Simulate Content]** incluída no perfil de produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager).
 
-## Teste usando perfis de teste ou dados de entrada de amostra {#methods}
+## Teste usando perfis de teste ou dados de entrada de exemplo {#methods}
 
-Você pode visualizar e testar o conteúdo usando:
+Você pode visualizar e testar o conteúdo ao usar:
 
 * **Perfis de teste**
 
-  Use perfis de teste para pré-visualizar seu conteúdo, enviar provas de email e verificar a renderização de email. Se você adicionou campos personalizados, é possível verificar como eles são exibidos usando dados de perfil de teste. Para obter mais informações, consulte esta seção.
+  Use perfis de teste para visualizar o conteúdo, enviar provas de email e verificar a renderização de email. Se você adicionou campos personalizados, é possível verificar como são exibidos usando dados do perfil de teste. Para obter mais informações, consulte estas seções:
 
-  ➡️ [Selecionar perfis de teste](test-profiles.md)
+  ➡️ [Selecionar perfis de teste](test-profiles.md)
 
-  ➡️ [Visualizar seu conteúdo usando perfis de teste](preview.md)
+  ➡️ [Visualizar o conteúdo usando perfis de teste](preview.md)
 
-  ➡️ [Enviar provas de email](proofs.md)
+  ➡️ [Enviar provas de email](proofs.md)
 
   ➡️ [Verificar renderização de email](rendering.md)
 
-  ➡️ [Visualizar e revisar seu email (vídeo)](#video-preview)
+  ➡️ [Visualizar e fazer prova de email (vídeo)](#video-preview)
 
 * **Dados de entrada de exemplo**
 
-  O [!DNL Journey optimizer] permite testar diferentes variantes do seu conteúdo, visualizando-o e enviando provas com dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente.
+  O [!DNL Journey optimizer] permite testar diferentes variantes do conteúdo, possibilitando visualizar o conteúdo e enviar provas com dados de entrada de exemplo carregados a partir de um arquivo CSV/JSON ou adicionados manualmente.
 
   Todos os atributos de perfil usados no conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados nos testes para criar diversas variantes.
 
-  ➡️ [Saiba como testar seu conteúdo usando dados de entrada de exemplo](../test-approve/simulate-sample-input.md)
+  ➡️ [Saiba como testar o conteúdo usando dados de entrada de exemplo](../test-approve/simulate-sample-input.md)
 
   >[!NOTE]
   >
-  >No momento, esses recursos estão disponíveis para todos os clientes como um beta público somente para os canais de Email, SMS e Notificação por push.
+  >No momento, esse recurso está disponível para todos os clientes como um beta público para somente os canais de email, SMS e notificação por push.
 
 ## Vídeo tutorial {#video-preview}
 

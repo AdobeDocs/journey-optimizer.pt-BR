@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Consulte as seguintes seções para configurar a primeira jornada, adicionar ofe
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Testar e validar**. Depois que o conteúdo for definido, você poderá usar perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente para visualizar seu conteúdo.
+1. **Testar e validar**. Depois que o conteúdo for definido, é possível usar perfis de teste ou dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente para visualizar o conteúdo.
 
    Se você inseriu [conteúdo personalizado](../../personalization/personalize.md), será possível verificar como esse conteúdo é exibido na mensagem. Além disso, use a conta do **Litmus** no [!DNL Journey Optimizer] para pré-visualizar instantaneamente a **renderização de email** em clientes de email populares. Em seguida, você pode melhorar seu conteúdo de email e garantir que ele e funcione corretamente em cada caixa de entrada. Saiba como testar e validar suas mensagens [nesta seção](../../content-management/preview-test.md).
 

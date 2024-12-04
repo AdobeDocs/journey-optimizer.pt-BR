@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5736'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Adição de uma observação sobre a futura medida de proteção de TTL (tempo de vida) para conjuntos de dados gerados pelo sistema. [Leia mais](../data/get-started-datasets.md)
 * Adição de uma nova seção para descrever como visualizar experiências personalizadas baseadas em código diretamente no navegador ou em dispositivos móveis usando a opção “Visualizar no dispositivo” ao simular o conteúdo em uma jornada ou campanha. [Leia mais](../code-based/test-code-based.md#preview-on-device)
 * Adição de uma nova página sobre como aproveitar os públicos-alvo de upload personalizados para a tomada de decisões. [Leia mais](../offers/custom-upload-decisioning.md)
-* Uma nova página foi adicionada para apresentar os recursos de decisão disponíveis no Journey Optimizer. [Leia mais](../experience-decisioning/gs-decision.md)
-* Foram adicionadas garantias e limitações à documentação do Decisioning. [Leia mais](../experience-decisioning/gs-experience-decisioning.md#guardrails)
+* Adição de uma nova página para apresentar os recursos de decisão disponíveis no Journey Optimizer. [Leia mais](../experience-decisioning/gs-decision.md)
+* Adição de medidas de proteção e limitações à documentação de decisão. [Leia mais](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## Setembro de 2024 {#sept-2024}
 

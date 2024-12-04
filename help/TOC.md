@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2188'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -275,7 +275,7 @@ ht-degree: 98%
       + [Introdução ao canal baseado em código](using/code-based/get-started-code-based.md)
       + Configurar canal baseado em código {#configure-code-based-channel}
          + [Medidas de proteção e pré-requisitos](using/code-based/code-based-prerequisites.md)
-         + [Superfícies de experiência baseadas em código](using/code-based/code-based-surface.md)
+         + [Superfícies de experiência baseada em código](using/code-based/code-based-surface.md)
          + [Amostras de métodos de implementação](using/code-based/code-based-implementation-samples.md)
          + [Criar configuração de experiência baseada em código](using/code-based/code-based-configuration.md)
       + Criar experiências baseadas em código {#create-code-based-experiences}
@@ -380,7 +380,7 @@ ht-degree: 98%
          + [Criar workflows de composição](using/audience/create-compositions.md)
          + [Trabalhar com a tela de composição](using/audience/composition-canvas.md)
          + [Acessar e gerenciar públicos-alvo](using/audience/access-audiences.md)
-      + [Composição de Público-Alvo Federado](https://experienceleague.adobe.com/pt-br/docs/federated-audience-composition/using/home)
+      + [Composição de público-alvo federado](https://experienceleague.adobe.com/pt-br/docs/federated-audience-composition/using/home)
    + Perfis{#profiles}
       + [Introdução aos perfis](using/audience/get-started-profiles.md)
       + [Criar perfis de teste](using/audience/creating-test-profiles.md)
@@ -486,7 +486,7 @@ ht-degree: 98%
          + [Aproveitar dados de contexto](using/experience-decisioning/context-data.md)
       + [Criar estratégias de seleção](using/experience-decisioning/selection-strategies.md)
       + [Criar políticas de decisão](using/experience-decisioning/create-decision.md)
-      + [Relatório sobre a decisão](using/experience-decisioning/cja-reporting.md)
+      + [Relatório de decisões](using/experience-decisioning/cja-reporting.md)
       + [Caso de uso de decisão](using/experience-decisioning/experience-decisioning-uc.md)
    + Gestão de decisões {#offer-decisioning}
       + Introdução ao Gestão de decisões {#get-started-decision}
