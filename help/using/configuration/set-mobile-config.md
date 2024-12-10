@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Observe que é necessário criar uma configuração separada para cada plataform
 
 +++
 
-* Se você estiver usando a opção de configuração “Existente”, verifique se está utilizando as seguintes versões de extensão do SDK móvel da Adobe Experience Platform. Para obter mais detalhes sobre a configuração do SDK, incluindo as dependências e o código de inicialização necessários, consulte a [documentação a seguir](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
+* Se você estiver usando a opção de configuração “Existente”, verifique se está utilizando as seguintes versões de extensão do SDK móvel da Adobe Experience Platform. Para obter mais detalhes sobre a configuração do SDK, incluindo as dependências e o código de inicialização necessários, consulte a [documentação a seguir](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 
   Para Android
 
