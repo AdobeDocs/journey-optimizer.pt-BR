@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Usar dados do Adobe Experience Platform para personalização (Beta)
+title: Usar dados da Adobe Experience Platform para personalização (Beta)
 description: Saiba como usar os dados do Adobe Experience Platform para personalização.
 feature: Personalization, Rules
 topic: Personalization
@@ -9,14 +9,14 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: cb7842209e03c579904979480304e543a6b50f50
+source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 0%
+source-wordcount: '1044'
+ht-degree: 2%
 
 ---
 
-# Usar dados do Adobe Experience Platform para personalização (Beta) {#aep-data}
+# Usar dados da Adobe Experience Platform para personalização (Beta) {#aep-data}
 
 >[!AVAILABILITY]
 >
@@ -40,7 +40,7 @@ Antes de começar, reveja as seguintes restrições e diretrizes:
 
 ### Personalization usando dados do [!DNL Adobe Experience Platform] {#perso}
 
-* **Canais com suporte**: por enquanto, esse recurso só está disponível para uso em canais de email, SMS, push e correspondência direta.
+* **Canais com suporte**: por enquanto, esse recurso só está disponível para uso em canais de email, SMS e correspondência direta.
 * **Rotulagem e Imposição de Uso de Dados** não é imposta no momento para conjuntos de dados habilitados para pesquisa.
 * **Fragmentos de expressão**: no momento, a personalização da pesquisa do conjunto de dados não pode ser colocada dentro dos fragmentos de expressão.
 
@@ -73,6 +73,17 @@ Em que:
 * A **chave de API** pode ser recuperada do console do desenvolvedor.
 * A **ID da Organização IMS** é a sua Organização IMS da Adobe.
 * **Nome da sandbox** é o nome da sandbox em que o conjunto de dados está (ou seja, prod, dev etc.).
+
+>[!NOTE]
+>
+>Se você encontrar o erro abaixo ao tentar fazer uma chamada de API para habilitar conjuntos de dados, tente remover as APIs do Adobe Journey Optimizer do projeto do console do desenvolvedor e adicioná-las novamente.
+>
+>```
+>
+>"error_code": "403003", 
+>"message": "Api Key is invalid"
+>
+>```
 
 ## Aproveitar um conjunto de dados para personalização {#leverage}
 
