@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 84cb51a3fdb01fab0b23289993bbcdd30c68cd01
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '729'
 ht-degree: 12%
 
 ---
@@ -44,7 +44,7 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
 
 ## Criar seu conteúdo {#campaign-experiment}
 
-1. Comece criando e configurando sua [campanha](../campaigns/create-campaign.md) ou [jornada](../building-journeys/journeys-message.md) de email, SMS ou notificação por push de acordo com suas necessidades.
+1. Comece criando e configurando sua [campanha](../campaigns/create-campaign.md) ou [jornada](../building-journeys/journeys-message.md) de acordo com suas necessidades.
 
 1. Na janela **[!UICONTROL Editar conteúdo]**, comece a personalizar o tratamento A.
 
