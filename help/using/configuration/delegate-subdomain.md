@@ -81,7 +81,7 @@ Para delegar totalmente um novo subdomínio ao Adobe, siga as etapas abaixo:
 
    ![](assets/subdomain-submit.png)
 
-1. Configurar registro DMARC. Se o subdomínio tiver um registro DMARC existente, e se for buscado por [!DNL Journey Optimizer], você poderá usar os mesmos valores ou alterá-los conforme necessário. Se você não adicionar nenhum valor, os valores padrão serão usados. [Saiba mais](dmarc-record.md)
+1. Configurar registro do DMARC. Se o subdomínio tiver um registro DMARC existente e for buscado por [!DNL Journey Optimizer], você poderá usar os mesmos valores ou alterá-los conforme necessário. Se você não adicionar nenhum valor, os valores padrão serão usados. [Saiba mais](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 
@@ -157,7 +157,7 @@ Para configurar um subdomínio usando CNAMEs, siga as etapas abaixo:
 
    ![](assets/subdomain-create-dns-confirm.png)
 
-1. Configure o registro do DMARC. Se o subdomínio tiver um registro DMARC existente, e se for buscado por [!DNL Journey Optimizer], você poderá usar os mesmos valores ou alterá-los conforme necessário. Se você não adicionar nenhum valor, os valores padrão serão usados. [Saiba mais](dmarc-record.md)
+1. Configure o registro do DMARC. Se o subdomínio tiver um registro DMARC existente e for buscado por [!DNL Journey Optimizer], você poderá usar os mesmos valores ou alterá-los conforme necessário. Se você não adicionar nenhum valor, os valores padrão serão usados. [Saiba mais](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 
@@ -209,7 +209,7 @@ As verificações e ações abaixo serão executadas até que o subdomínio seja
 
    * **Registro MX**: registro Mail eXchange - registro do servidor de email que processa emails de entrada enviados para o subdomínio.
    * **Registro SPF**: registro da Estrutura de Política do Remetente - Lista os IPs dos servidores de email que podem enviar emails do subdomínio.
-   * **Registro DKIM**: registro padrão DomainKeys Identified Mail - usa criptografia de chave pública-privada para autenticar a mensagem e evitar falsificação.
+   * **Registro do DKIM**: registro padrão DomainKeys Identified Mail - Usa criptografia de chave pública-privada para autenticar a mensagem e evitar falsificação.
    * **A**: mapeamento de IP padrão.
    * **CNAME**: um registro CNAME ou Nome Canônico é um tipo de registro DNS que mapeia um nome de alias para um nome de domínio verdadeiro ou canônico.
 

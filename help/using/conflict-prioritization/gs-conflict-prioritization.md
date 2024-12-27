@@ -4,19 +4,19 @@ description: Saiba como aproveitar as ferramentas de conflito e priorização do
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 1%
+ht-degree: 15%
 
 ---
-
 
 # Gerenciamento de conflitos e priorização {#conflict-prioritization}
 
 >[!AVAILABILITY]
 >
->Os recursos de conflito e priorização estão atualmente disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão gradualmente lançados para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera para esses recursos.
+>Os recursos de conflito e priorização estão atualmente disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão lançados de forma gradual para mais usuários no futuro. Entre em contato com a equipe de conta se tiver interesse em participar da lista de espera desses recursos.
 
 No Journey Optimizer, gerenciar o volume e o tempo das campanhas e jornadas é essencial para evitar sobrecarregar os clientes com muitas interações. O Journey Optimizer oferece várias ferramentas para o gerenciamento de conflitos e a priorização.
 

@@ -44,7 +44,7 @@ Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pod
 | Conjunto de dados | Descrição |
 | ------- | ------- | 
 | Conjunto de dados do evento de feedback CCO do AJO | Conjunto de dados do evento de feedback CCO do AJO |
-| Conjunto de dados de classificação do AJO | Conjunto de dados para assimilar eventos de feedback de aplicativos de email e por push do Journey Optimizer. Criado pelo SDK. |
+| Conjunto de dados de classificação do AJO | Conjunto de dados para assimilar eventos de feedback de aplicativos de email e por push do Journey Optimizer. Criado por meio do SDK. |
 | Conjunto de dados do serviço de consentimento da AJO | Armazena informações de consentimento de um perfil. |
 | Conjunto de dados de evento de experiência de rastreamento de email do AJO | Logs de interação para o canal de email, que é usado para fins de criação de relatórios e público-alvo.  |
 | Conjunto de dados da entidade AJO | Conjunto de dados para armazenar metadados de entidade para mensagens enviadas ao usuário final.  |

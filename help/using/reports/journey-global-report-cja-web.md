@@ -7,14 +7,15 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 7591a07b-1680-4081-a745-192755d35371
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '520'
+ht-degree: 2%
 
 ---
 
-# Relatório de jornada na Web {#journey-global-report}
+# Relatório de jornada na web {#journey-global-report}
 
 ## Tendência de impressão e clique {#impressions-web}
 
@@ -115,4 +116,3 @@ A tabela **[!UICONTROL URLs de link rastreado]** fornece uma visão geral abrang
 * **[!UICONTROL Exibições exclusivas]**: número de vezes que a mensagem foi aberta; várias interações de um perfil não são consideradas.
 
 +++
-

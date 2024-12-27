@@ -7,7 +7,7 @@ topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
 

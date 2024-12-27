@@ -800,7 +800,7 @@ A função `toDateTimeOnly` é usada para converter um valor de argumento em um 
 {%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## Cortar {#trim}
+## Aparar {#trim}
 
 A função **trim** remove todos os espaços em branco do início e do fim de uma cadeia de caracteres.
 

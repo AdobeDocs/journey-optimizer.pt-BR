@@ -32,7 +32,7 @@ Adicione o grupo de campos **Evento de experiência - Interação de apresentaç
 
 * **Adobe Experience Platform Mobile ou Platform Web SDK**
 
-  Para aplicativos móveis e da Web, para adicionar modificações às suas páginas da Web ou aplicativos móveis, é necessário implementar o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-web-sdk/overview) no seu site ou o [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/) nos seus aplicativos móveis.
+  Para aplicativos móveis e da Web, para adicionar modificações às suas páginas da Web ou aplicativos móveis, é necessário implementar a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-web-sdk/overview) no seu site ou a [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/) nos seus aplicativos móveis.
 
 * **Journey Optimizer**
 

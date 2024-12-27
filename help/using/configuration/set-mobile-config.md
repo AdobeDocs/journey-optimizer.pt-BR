@@ -10,7 +10,7 @@ level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 

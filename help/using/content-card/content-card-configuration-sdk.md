@@ -1,5 +1,5 @@
 ---
-title: SDK da Web de configuração de cartões de conteúdo
+title: Configuração de cartões de conteúdo no Web SDK
 description: Configurar o suporte a cartões de conteúdo no SDK da Web
 feature: Channel Configuration, Content Cards
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Configurar o suporte a cartões de conteúdo no SDK da Web {#content-card-configuration-sdk}
 
-Este exemplo mostra como recuperar Cartões de conteúdo do Adobe Journey Optimizer (AJO) usando o Adobe Experience Platform. Com o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), o conteúdo de personalização é obtido e renderizado totalmente no lado do cliente.
+Este exemplo mostra como recuperar Cartões de conteúdo do Adobe Journey Optimizer (AJO) usando o Adobe Experience Platform. Com a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), o conteúdo de personalização é obtido e renderizado totalmente no lado do cliente.
 
 Após o carregamento inicial, a página exibe seu estado padrão. No entanto, se você interagir com os botões **Depositar Fundos** ou **Compartilhar em redes sociais**, serão exibidos cartões de conteúdo adicionais. Esses cartões são acionados pelas condições do lado do cliente, garantindo que sejam exibidos somente quando ações específicas forem executadas.
 
@@ -46,7 +46,7 @@ Após o carregamento inicial, a página exibe seu estado padrão. No entanto, se
 
 ## Como funciona {#setup}
 
-1. Inclua e configure o [SDK da Web](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) na página usando as configurações do arquivo `.env` na pasta de exemplo.
+1. Inclua e configure o [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) na página usando as configurações do arquivo `.env` na pasta de exemplo.
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>

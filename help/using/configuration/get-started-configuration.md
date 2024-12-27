@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução à configuração do [!DNL Journey Optimizer]
-description: Saiba mais sobre a configuração do [!DNL Journey Optimizer]
+title: 'Introdução à configuração do [!DNL Journey Optimizer]  '
+description: 'Saiba mais sobre a configuração do [!DNL Journey Optimizer] '
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026

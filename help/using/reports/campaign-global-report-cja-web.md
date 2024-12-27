@@ -7,14 +7,15 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 39441fe9-5cdc-4787-9267-798de80e3af2
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 2%
 
 ---
 
-# Relatório de campanha da Web {#campaign-global-report-cja-web}
+# Relatório de campanha na web {#campaign-global-report-cja-web}
 
 ## Tendência de impressão e clique {#impressions-web}
 

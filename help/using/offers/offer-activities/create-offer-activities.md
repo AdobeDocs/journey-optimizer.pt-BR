@@ -56,7 +56,7 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
->title="Disposição"
+>title="Posicionamento"
 >abstract="Selecione um posicionamento onde as ofertas serão entregues."
 
 >[!CONTEXTUALHELP]

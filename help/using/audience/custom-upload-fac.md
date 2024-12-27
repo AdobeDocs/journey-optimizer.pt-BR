@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Upload personalizado (CSV) e composição de público federado
+title: Upload personalizado (CSV) e Composição de público-alvo federado
 description: Saiba mais sobre as principais informações e práticas recomendadas ao trabalhar com uploads personalizados (CSV) e públicos-alvo de composição de público federado.
 feature: Audiences, Profiles
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: d2365e3f-fbef-43c2-bf2a-0a868cb93015
 source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Upload personalizado (CSV) e composição de público federado {#csv-fac}
+# Upload personalizado (CSV) e Composição de público-alvo federado {#csv-fac}
 
 ## Sobre upload personalizado e composição de público federado {#about}
 

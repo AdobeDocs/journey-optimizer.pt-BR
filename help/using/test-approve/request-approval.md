@@ -4,13 +4,13 @@ description: Saiba como solicitar aprovação antes de publicar suas jornadas e 
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
+exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
 
 ---
-
 
 # Solicitar aprovação {#request-approval}
 
@@ -55,6 +55,3 @@ Se os aprovadores solicitarem alterações, você será notificado por meio de u
 ![](assets/changes-requested.png)
 
 Para percorrer a solicitação de alteração, abra-a no email ou no alerta para acessar a jornada ou campanha e fazer as alterações solicitadas. Quando sua jornada/campanha estiver pronta para ser revisada novamente, envie uma nova solicitação de aprovação usando o botão **[!UICONTROL Solicitar aprovação]**.
-
-
-

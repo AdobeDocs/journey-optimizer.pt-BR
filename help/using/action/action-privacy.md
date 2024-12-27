@@ -8,10 +8,11 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
-source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 97%
 
 ## Introdução às políticas de governança de dados {#gs}
 
-Com sua [estrutura de governança DULE (Aplicação e Rotulagem de Uso de Dados)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=pt-BR){target="_blank"}, a Adobe Experience Platform permite que você gerencie e imponha políticas de governança de dados em seus canais ao **rotular seus campos** e criar **ações de marketing** para cada canal.
+Com sua estrutura de [governança DULE (Aplicação e rotulagem de uso de dados)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=pt-BR){target="_blank"}, a Adobe Experience Platform permite gerenciar e aplicar políticas de governança de dados em seus canais **rotulando os campos** e criando **ações de marketing** para cada canal.
 
 Depois que os rótulos e as ações de marketing forem definidos, você poderá criar **políticas de governança de dados** que vinculam esses dois elementos. Por exemplo, você pode configurar uma política que associe um rótulo “ePHI” a uma ação de marketing de “direcionamento por email”, garantindo que os campos rotulados como “ePHI” não sejam usados para personalizar mensagens de email. [Saiba como criar políticas de governança de dados](#governance-policies)
 

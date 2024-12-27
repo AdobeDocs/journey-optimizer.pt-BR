@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%

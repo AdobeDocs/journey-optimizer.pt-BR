@@ -5,10 +5,11 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
+source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -106,4 +107,3 @@ Ao criar experiências baseadas em código para páginas da Web ou aplicativos m
    >[!TIP]
    >
    >Ao atualizar o conteúdo ou selecionar um perfil de teste ou tratamento diferente, o link de visualização é atualizado automaticamente. Você pode copiar o link em diferentes guias do navegador e comparar as experiências.
-

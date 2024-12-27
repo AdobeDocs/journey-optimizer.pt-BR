@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Teste seu conteúdo usando exemplos de dados de entrada (Beta)
+title: Teste o conteúdo usando exemplos de dados de entrada (Beta)
 description: Saiba como visualizar o conteúdo e enviar prova de email usando dados de entrada de exemplo de um arquivo CSV ou JSON ou adicionados manualmente.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 ---
 
-# Teste seu conteúdo usando exemplos de dados de entrada (Beta) {#custom-profiles}
+# Teste o conteúdo usando exemplos de dados de entrada (Beta) {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"

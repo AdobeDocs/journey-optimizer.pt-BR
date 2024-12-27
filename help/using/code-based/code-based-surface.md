@@ -83,7 +83,7 @@ Usando experiências baseadas em código, você pode modificar o conteúdo em lo
 
 Esses URIs de superfície são compostos e manipulados dependendo do método de implementação:
 
-* **SDK da Web/Móvel**: seu desenvolvedor da Web/móvel precisa definir esses locais granulares como cadeias de caracteres simples, pois o SDK da Web/Móvel é capaz de compor automaticamente o URI da superfície com base na URL/ID do aplicativo atual e na cadeia de caracteres do local.
+* **SDK da Web/Móvel**: o desenvolvedor da Web/móvel precisa definir esses locais granulares como cadeias de caracteres simples, pois o SDK da Web/Móvel é capaz de compor automaticamente o URI da superfície com base na URL/ID do aplicativo atual e na cadeia de caracteres do local.
 
 * **APIs Edge Network**: o desenvolvedor do aplicativo/página deve definir URIs de superfície completos que incluam o caminho completo e o local onde o conteúdo será consumido, pois os URIs completos são necessários neste tipo de implementação.
 

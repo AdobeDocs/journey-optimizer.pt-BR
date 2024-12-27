@@ -1,5 +1,5 @@
 ---
-title: Introdução à Decisão
+title: Introdução ao serviço de Decisão
 description: Saiba mais sobre Decisões
 feature: Decisioning
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
-# Introdução à Decisão {#get-started-experience-decisioning}
+# Introdução ao serviço de Decisão {#get-started-experience-decisioning}
 
 ## O que é a decisão {#about}
 

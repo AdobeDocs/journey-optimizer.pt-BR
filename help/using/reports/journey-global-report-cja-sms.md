@@ -7,14 +7,15 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: cf50ce33-7934-4e37-a757-08cda14e97ac
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '642'
+ht-degree: 3%
 
 ---
 
-# Relatório de jornada por SMS{#sms}
+# Relatório de jornada de SMS{#sms}
 
 ## Tendência de Entregas vs. Cliques {#delivered-click-sms}
 

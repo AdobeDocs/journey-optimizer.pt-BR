@@ -18,7 +18,7 @@ ht-degree: 9%
 
 # Fluxo de trabalho de início rápido de integração para dispositivos móveis {#mobile-wf}
 
-O novo **fluxo de trabalho de início rápido de integração móvel** é um novo recurso do produto para configurar rapidamente o SDK do Adobe Experience Platform Mobile, começar a coletar e validar dados de eventos móveis e enviar notificações por push com [!DNL Journey Optimizer].
+O novo **fluxo de trabalho de início rápido de integração móvel** é um novo recurso do produto para configurar rapidamente o Adobe Experience Platform Mobile SDK, começar a coletar e validar dados de eventos móveis e enviar notificações por push com [!DNL Journey Optimizer].
 
 Esse recurso pode ser acessado por meio da página inicial do **[!DNL Adobe Experience Platform Data Collection]** para todos os clientes como um Beta público.
 
@@ -33,7 +33,7 @@ Para acessar o novo fluxo de trabalho de início rápido da integração móvel,
 Abaixo estão alguns recursos adicionais:
 
 * Fácil fluxo de trabalho de quatro etapas e interface do usuário.
-* Fornece uma configuração básica para iniciar a coleta de dados do evento móvel por meio do [SDK móvel do Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} em minutos.
+* Fornece uma configuração básica para iniciar a coleta de dados de eventos móveis por meio da [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} em minutos.
 * Capacidade de testar e validar um evento básico de push móvel aproveitando o [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * Cria e configura automaticamente todos os ativos necessários de Coleção de dados e Journey Optimizer.
 * Em Orientação do produto e dicas de ferramentas.

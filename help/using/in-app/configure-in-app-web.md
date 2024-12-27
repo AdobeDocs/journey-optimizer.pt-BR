@@ -18,9 +18,9 @@ ht-degree: 2%
 
 ## Pré-requisitos {#prerequisites}
 
-* Verifique se você está usando a versão mais recente da extensão **Adobe Experience Platform Web SDK**.
+* Verifique se você está usando a versão mais recente da sua extensão do **Adobe Experience Platform Web SDK**.
 
-* Instale a extensão **Adobe Experience Platform Web SDK** nas **Propriedades da marca** e habilite a opção **Armazenamento do Personalization**.
+* Instale a extensão **Adobe Experience Platform Web SDK** nas **Propriedades da marca** e habilite a opção **Armazenamento da Personalization**.
 
   Essa configuração é essencial para armazenar históricos de eventos no cliente, um pré-requisito para a implementação de Regras de frequência no construtor de regras. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 ## Configurar regra Enviar dados para plataforma {#configure-sent-data-trigger}
 
-1. Acesse a instância da **Coleção de dados do Adobe Experience Platform** e navegue até as **Propriedades da marca** configuradas com a extensão **SDK da Web da Adobe Experience Platform**.
+1. Acesse a instância da **Coleção de Dados da Adobe Experience Platform** e navegue até as **Propriedades da Marca** configuradas com a extensão **Adobe Experience Platform Web SDK**.
 
 1. No menu **Criação**, selecione **Regras** e **Criar nova regra** ou **Adicionar regra**.
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 ## Configurar regra manual {#configure-manual-trigger}
 
-1. Acesse a instância da **Coleção de dados do Adobe Experience Platform** e navegue até as **Propriedades da marca** configuradas com a extensão **SDK da Web da Adobe Experience Platform**.
+1. Acesse a instância da **Coleção de Dados da Adobe Experience Platform** e navegue até as **Propriedades da Marca** configuradas com a extensão **Adobe Experience Platform Web SDK**.
 
 1. No menu **Criação**, selecione **Regras** e **Criar nova regra** ou **Adicionar regra**.
 

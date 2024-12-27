@@ -29,9 +29,9 @@ ht-degree: 16%
 
 Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais em um site, como a página inicial, o site de produtos inteiro ou o quadro de preferências de entrega em todas as páginas de check-out.
 
-É necessária uma configuração de desenvolvedor única para definir as exibições na implementação do SDK da Web da Adobe Experience Platform. Isso permite criar e executar campanhas da Web do Adobe Journey Optimizer no SPA.
+É necessária uma configuração de desenvolvedor única para definir as exibições na implementação do Adobe Experience Platform Web SDK. Isso permite criar e executar campanhas da Web do Adobe Journey Optimizer no SPA.
 
-## Definir exibições na implementação do SDK da Web {#define-views}
+## Definir exibições na implementação do Web SDK {#define-views}
 
 As exibições XDM podem ser usadas no Adobe [!DNL Journey Optimizer] para capacitar os profissionais de marketing a executar campanhas de personalização e experimentação da Web no SPA por meio do editor visual da Web. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR){target="_blank"}
 
@@ -39,7 +39,7 @@ Para acessar e criar exibições na interface do usuário do [!DNL Journey Optim
 
 ## Descobrir exibições no web designer {#discover-views}
 
-Depois que a configuração do SPA for concluída na implementação do SDK da Web da Adobe Experience Platform, será necessário navegar por todas as exibições do site às quais deseja aplicar modificações. Siga as etapas abaixo.
+Depois que a configuração do SPA for concluída na implementação do Adobe Experience Platform Web SDK, será necessário navegar por todas as exibições do site às quais deseja aplicar modificações. Siga as etapas abaixo.
 
 1. [Crie uma jornada da Web ou campanha](create-web.md) e acesse o [web designer](web-visual-editor.md).
 

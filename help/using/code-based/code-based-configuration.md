@@ -76,7 +76,7 @@ Agora você pode selecionar essa configuração ao [criar uma experiência basea
 
 >[!NOTE]
 >
->A equipe de implementação do aplicativo é responsável por fazer chamadas explícitas de API ou SDK para buscar conteúdo para as superfícies definidas na configuração de experiência baseada em código selecionada. Saiba mais sobre as diferentes implementações de clientes em [esta seção](code-based-implementation-samples.md).
+>A equipe de implementação do aplicativo é responsável por fazer chamadas explícitas à API ou ao SDK para buscar conteúdo para as superfícies definidas na configuração de experiência baseada em código selecionada. Saiba mais sobre as diferentes implementações de clientes em [esta seção](code-based-implementation-samples.md).
 
 ### Plataformas da Web {#web}
 

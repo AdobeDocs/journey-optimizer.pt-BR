@@ -7,19 +7,19 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+exl-id: 08633a79-5601-4e36-b8cf-080234956d99
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
-
 
 # Alterações na segmentação de transmissão e tempo de vida útil {#ttl-guardrail}
 
 ## Atualizações de segmentação de transmissão {#segmentation-update}
 
-A partir de 1º de novembro de 2024, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos de envio e abertos de conjuntos de dados de rastreamento e feedback do Journey Optimizer. Essa alteração se aplicará a todas as sandboxes e organizações do cliente. Informações sobre por que esta prática foi desencorajada no passado podem ser encontradas [aqui](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
+A partir de 1º de novembro de 2024, a segmentação de transmissão não será mais compatível com o uso de eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do Journey Optimizer. Essa alteração se aplicará a todas as sandboxes e organizações do cliente. Informações sobre por que esta prática foi desencorajada no passado podem ser encontradas [aqui](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
 
 **Perguntas frequentes**
 

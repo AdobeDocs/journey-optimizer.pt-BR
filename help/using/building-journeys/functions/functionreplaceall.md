@@ -33,7 +33,7 @@ String
 | Parâmetro | Tipo |
 |-----------|--------------|
 | base | sequência de caracteres |
-| público-alvo | string (RegExp) |
+| destino | string (RegExp) |
 | substituição | sequência de caracteres |
 
 ## Assinatura e tipo retornado

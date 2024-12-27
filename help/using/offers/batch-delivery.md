@@ -8,7 +8,7 @@ exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '841'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -57,7 +57,7 @@ Para criar uma nova solicitação de trabalho, siga as etapas abaixo.
 
    ![](assets/batch-decision.png)
 
-1. Por padrão, uma oferta do escopo de decisão é retornada para cada perfil. Você pode ajustar o número de ofertas retornadas usando a opção **[!UICONTROL Solicitar oferta por perfil]**. Por exemplo, se você selecionar 2, as 2 melhores ofertas serão exibidas para o escopo de decisão selecionado.
+1. Por padrão, uma oferta do escopo de decisão é retornada para cada perfil. Você pode ajustar o número de ofertas retornadas usando a opção **[!UICONTROL Solicitar oferta por perfil]**. Por exemplo, se você selecionar 2, as duas melhores ofertas serão exibidas para o escopo de decisão selecionado.
 
    >[!NOTE]
    >

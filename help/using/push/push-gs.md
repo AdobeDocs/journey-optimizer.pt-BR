@@ -22,7 +22,7 @@ Esta página ajuda você a configurar e entender os principais serviços e fluxo
 
 >[!AVAILABILITY]
 >
->O novo **fluxo de trabalho de início rápido de integração móvel** está disponível. Use esse novo recurso do produto para configurar rapidamente o SDK móvel para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados como um beta público. [Saiba mais](mobile-onboarding-wf.md)
+>O novo **fluxo de trabalho de início rápido de integração móvel** está disponível. Use esse novo recurso do produto para configurar rapidamente o Mobile SDK para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados como um beta público. [Saiba mais](mobile-onboarding-wf.md)
 >
 
 Saiba como criar notificações por push em [esta página](create-push.md).
@@ -35,7 +35,7 @@ A figura a seguir mostra os sistemas e serviços envolvidos com fluxos de dados 
 
 1. Registro do seu aplicativo para dispositivos móveis com marca (Android ou iOS) com APNs da Apple e serviços de mensagens de push do Google FCM
 1. Os serviços de mensagens geram um token de push, que é um identificador que [!DNL Adobe Journey Optimizer] usará para direcionar o dispositivo específico com uma notificação por push.
-1. O token de push gerado anteriormente é transmitido à Adobe Experience Platform e sincronizado com o Perfil do cliente em tempo real; isso é feito OOTB com um SDK do cliente fácil de integrar
+1. O token de push gerado anteriormente é transmitido à Adobe Experience Platform e sincronizado com o Perfil do cliente em tempo real; isso é feito OOTB com uma SDK de cliente fácil de integrar
 1. As mensagens de push são criadas em [!DNL Adobe Journey Optimizer], as mensagens de push são criadas em relação a uma configuração de canal (ou seja, predefinição de mensagem)
 1. As mensagens por push podem ser incluídas na tela de orquestração no Jornada
 1. Após a publicação do Jornada, os perfis de clientes com base nas condições do Jornada são qualificados para receber notificações por push. As cargas de mensagens por push são personalizadas nesta etapa
@@ -54,9 +54,9 @@ A figura a seguir mostra os sistemas e serviços envolvidos com fluxos de dados 
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) - para enviar notificações ao aplicativo móvel do Android
    * [Serviço de Notificação por Push da Apple (APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - para enviar notificações ao aplicativo móvel iOS
 
-* **Adobe Experience Platform Mobile SDK**, que fornece APIs de integração no lado do cliente para seus dispositivos móveis por meio de SDKs compatíveis com Android e iOS. O SDK fornece uma extensão [!DNL Adobe Journey Optimizer] expondo uma variedade de APIs específicas para mensagens por push e habilita o fluxo de dados, como registrar o token de push ou enviar eventos de rastreamento de push ou qualquer outro evento de experiência personalizado para o Adobe Experience Platform. O SDK também fornece uma variedade de outras extensões que habilitam outros recursos do Adobe Experience Cloud, bem como de parceiros de terceiros.
+* **Adobe Experience Platform Mobile SDK**, que fornece APIs de integração no lado do cliente para seus dispositivos móveis por meio de SDKs compatíveis com Android e iOS. O SDK fornece uma extensão [!DNL Adobe Journey Optimizer] expondo uma variedade de APIs específicas para mensagens por push e habilita o fluxo de dados, como registrar o token de push ou enviar eventos de rastreamento de push ou quaisquer outros eventos de experiência personalizados para o Adobe Experience Platform. O SDK também fornece uma variedade de outras extensões que permitem outros recursos do Adobe Experience Cloud, bem como de parceiros de terceiros.
 
-  A integração do SDK também requer a configuração dos serviços [Coleção de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR){target="_blank"} da Adobe Experience Platform, como:
+  A integração do SDK também requer a configuração dos serviços [Coleção de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR){target="_blank"} do Adobe Experience Platform, como:
 
    * Criar uma sequência de dados para configurar o perfil e os conjuntos de dados de evento de experiência nos quais os dados fluem para o Adobe Experience Platform
    * Criação da propriedade móvel do lado do cliente e adição de extensões. O SDK se integra estreitamente a essas extensões para fornecer uma experiência de coleta de dados contínua.

@@ -17,7 +17,7 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
->title="Disposição"
+>title="Posicionamento"
 >abstract="Um posicionamento é um container usado para exibir ofertas. Isso ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo na mensagem. Os posicionamentos são criados no menu “Componentes”."
 
 >[!CONTEXTUALHELP]

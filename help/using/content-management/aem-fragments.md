@@ -8,10 +8,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
+source-git-commit: 3d0576983854b5cc33d8dc956c601b638164a813
 workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -90,4 +91,3 @@ Depois de criar e personalizar os [Fragmentos de conteúdo do AEM](https://exper
 1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na visualização. Agora você pode testar e verificar o conteúdo da sua mensagem conforme detalhado em [esta seção](preview.md).
 
 Depois de executar os testes e validar o conteúdo, você pode enviar seu email para o público com a [Campanha](../campaigns/review-activate-campaign.md) ou a [Jornada](../building-journeys/publishing-the-journey.md).
-

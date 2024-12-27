@@ -111,7 +111,7 @@ Para criar uma configuração de canal, siga estas etapas:
    Essas verificações incluem os testes técnicos e de configuração realizados pela equipe do Adobe:
 
    * Validação de SPF
-   * Validação de DKIM
+   * Validação do DKIM
    * Validação de registro MX
    * Verificar IPs em incluir na lista de bloqueios
    * Helo verificação de host

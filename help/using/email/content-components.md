@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 52%
+ht-degree: 50%
 
 ---
 
@@ -102,7 +102,7 @@ Use o componente **[!UICONTROL Botão]** para inserir um ou vários botões no e
 
 ## Texto {#text}
 
-Use o componente de **[!UICONTROL Texto]** para inserir texto no email e ajustar o estilo (borda, tamanho, preenchimento etc.) usando a guia **[!UICONTROL Estilos]**.
+Use o componente **[!UICONTROL Texto]** para inserir texto no email e ajustar o estilo (borda, tamanho, preenchimento etc.) usando a guia **[!UICONTROL Estilos]**.
 
 ![](assets/email_designer_text_component.png)
 

@@ -16,7 +16,7 @@ ht-degree: 13%
 
 # Verificação e envio da notificação no aplicativo {#create-in-app}
 
-## Visualizar no dispositivo {#preview-device}
+## Visualização no dispositivo {#preview-device}
 
 Se você quiser obter uma prévia da Notificação no aplicativo antes que ela entre em vigor para todos os usuários, é possível visualizá-la em um dispositivo específico. Essa funcionalidade permite garantir que a notificação tenha a aparência e funcione conforme pretendido no dispositivo escolhido, fornecendo uma melhor experiência ao usuário para seu público-alvo.
 

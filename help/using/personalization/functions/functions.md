@@ -331,7 +331,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#to-date-time-only">Somente para data e hora</a></td><td>Esta função converte um valor de argumento em um valor somente de data e hora. Retorna a data da época como saída para entrada inválida.</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">Cortar</a></td><td>Esta função remove os espaços em branco do início e do fim de uma sequência de caracteres.</td>
+        <td><a href="string.md#trim">Aparar</a></td><td>Esta função remove os espaços em branco do início e do fim de uma sequência de caracteres.</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">Maiúscula</a></td><td>Esta função converte uma sequência de caracteres em letras maiúsculas.</td>

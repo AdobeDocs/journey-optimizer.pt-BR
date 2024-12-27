@@ -1,5 +1,5 @@
 ---
-title: Relatório sobre a decisão
+title: Relatório de decisões
 description: Saiba como criar relatórios sobre a Decisão.
 feature: Decisioning
 topic: Integrations
@@ -10,12 +10,12 @@ exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Relatório sobre a decisão {#decisioning-report}
+# Relatório de decisões {#decisioning-report}
 
 ## Relatórios de campanhas baseadas em código {#campaigns}
 

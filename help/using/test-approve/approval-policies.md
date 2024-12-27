@@ -4,13 +4,13 @@ description: Saiba como criar e gerenciar políticas de aprovação.
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 3%
 
 ---
-
 
 # Criar e gerenciar políticas de aprovação {#approval-policies}
 
@@ -133,4 +133,3 @@ Agora você pode ativar sua política de aprovação para aplicá-la.
 1. No menu **[!UICONTROL Política]**, abra as opções avançadas para **[!UICONTROL Editar]**, **[!UICONTROL Desativar]** ou **[!UICONTROL Duplicar]** a política, conforme necessário.
 
    ![](assets/policy_activate_2.png)
-

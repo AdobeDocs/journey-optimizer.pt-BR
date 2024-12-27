@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Manuais de casos de uso
+title: 'Manuais de casos de uso '
 description: Saiba como aproveitar os Manuais de casos de uso da Adobe Experience Platform com o Adobe Journey Optimizer.
 feature: Overview
 topic: Content Management

@@ -32,7 +32,7 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 * Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de público-alvo**.
 * Uma jornada que começa com uma atividade **Qualificação de público-alvo** em v1 deve sempre começar com uma **Qualificação de público-alvo** em outras versões.
 * O público-alvo e o namespace escolhidos em **Qualificação de Público-Alvo** (primeiro nó) não podem ser alterados em novas versões.
-* A regra de reentrada deve ser a mesma em todas as versões do jornada.
+* A regra de reentrada deve ser a mesma em todas as versões da jornada.
 * Uma jornada que começa com um **Público-alvo de leitura** não pode começar com outro evento nas próximas versões.
 
 ## Limitações de ações personalizadas {#custom-actions-limitations}
@@ -41,7 +41,7 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 * Somente os métodos de chamada POST e PUT são suportados. 
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou &quot;$&quot;. 
 * Endereços IP não são permitidos. 
-* Endereços da Adobe internos (.adobe.) não são permitidos.
+* Endereços de Adobe internos (.adobe.) não são permitidos.
 
 ## Limitações de eventos {#events-limitations}
 

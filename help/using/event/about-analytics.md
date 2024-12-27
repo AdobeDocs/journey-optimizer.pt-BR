@@ -18,7 +18,7 @@ ht-degree: 5%
 
 # Trabalhar com dados do Adobe Analytics {#analytics-data}
 
-Você pode aproveitar todos os dados de evento comportamental da Web que já estão sendo capturados por meio do Adobe Analytics ou do SDK da Web, e a transmissão para o Adobe Experience Platform, a fim de acionar jornadas e automatizar experiências para seus clientes.
+Você pode aproveitar todos os dados de evento comportamental da Web que já estão sendo capturados por meio do Adobe Analytics ou do Web SDK e streaming no Adobe Experience Platform, a fim de acionar jornadas e automatizar experiências para seus clientes.
 
 Para que isso funcione com o Adobe Analytics, é necessário:
 
@@ -28,12 +28,12 @@ Para que isso funcione com o Adobe Analytics, é necessário:
 
 >[!NOTE]
 >
->Essa seção se aplica somente a eventos com base em regras e clientes que precisam usar dados do Adobe Analytics ou do SDK da Web.
+>Essa seção se aplica somente a eventos com base em regras e clientes que precisam usar dados do Adobe Analytics ou do Web SDK.
 > 
 >Se você estiver usando o Adobe Customer Journey Analytics, consulte [esta página](../reports/cja-ajo.md).
 >
 
-## Configurar dados do Adobe Analytics ou do SDK da Web {#leverage-analytics-data}
+## Configurar dados do Adobe Analytics ou da Web SDK {#leverage-analytics-data}
 
 Os dados provenientes do Adobe Analytics ou do Adobe Experience Platform Web SDK precisam estar habilitados para serem usados em suas jornadas.
 
@@ -80,7 +80,7 @@ Depois que essa configuração for concluída, entre em contato com o Adobe para
 
 1. Depois de ter uma confirmação de que o ambiente está pronto, você poderá usar os dados do Adobe Analytics nas jornadas.
 
-## Criar uma jornada com um evento usando dados do Adobe Analytics ou do SDK da Web {#event-analytics}
+## Criar uma jornada com um evento usando dados do Adobe Analytics ou do Web SDK {#event-analytics}
 
 Agora é possível criar um evento com base nos dados do Adobe Analytics ou do Adobe Experience Platform Web SDK para ser usado em uma jornada.
 

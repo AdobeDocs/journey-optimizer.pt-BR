@@ -61,7 +61,7 @@ Para começar a criar sua experiência na Web, siga as etapas abaixo.
 
    >[!CAUTION]
    >
-   >A página da Web deve incluir o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"}. [Saiba mais](web-prerequisites.md#implementation-prerequisites)
+   >A página da Web deve incluir a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"}. [Saiba mais](web-prerequisites.md#implementation-prerequisites)
 
 1. Clique em **[!UICONTROL Editar página da Web]** para começar a criá-la. O web designer é exibido.
 

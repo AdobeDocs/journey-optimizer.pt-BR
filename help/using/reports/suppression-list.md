@@ -10,8 +10,8 @@ level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '830'
+ht-degree: 11%
 
 ---
 
@@ -33,7 +33,7 @@ Além disso, é possível aproveitar a **API REST de supressão** do Journey Opt
 
 Para controlar as mensagens de email recebidas pelos proprietários de sua caixa de entrada e garantir que elas recebam apenas aqueles que desejam, os provedores de serviços de Internet (ISPs) e os filtros comerciais de spam têm seus algoritmos proprietários para rastrear a reputação geral dos remetentes de email com base nos endereços IP e nos domínios de envio que usam.
 
-Se você não receber seus comentários (como reclamações de spam, rejeições, etc.) levando em conta, eles irão avaliar sua reputação para baixo. A lista de supressão ajuda a honrar o feedback dos ISPs.
+Se você não considerar seus comentários (como reclamações de spam, rejeições etc.), eles classificarão sua reputação como insatisfatória. A lista de supressão ajuda a honrar o feedback dos ISPs.
 
 Os recipients cujos endereços de email são suprimidos são excluídos automaticamente do delivery de mensagens. Isso irá acelerar as entregas, pois a taxa de erro tem um efeito significativo na velocidade da entrega.
 
@@ -53,7 +53,7 @@ Saiba mais sobre rejeições permanentes e rejeições temporárias em [esta se�
 >
 >Endereços de usuários não assinados não podem ser enviados para a lista de supressão porque não estão recebendo emails de [!DNL Journey Optimizer]. Sua escolha é feita no nível da Experience Platform. Saiba mais sobre [recusa](../privacy/opt-out.md).
 
-Para cada endereço, o motivo básico para ser suprimido e a categoria de supressão (flexível, difícil etc.) são exibidos na lista de supressão. Saiba mais sobre como acessar e gerenciar a lista de supressão em [esta seção](../configuration/manage-suppression-list.md).
+Para cada endereço, o motivo básico para ser suprimido e a categoria de supressão (flexível, permanente etc.) são exibidos na lista de supressão. Saiba mais sobre como acessar e gerenciar a lista de supressão em [esta seção](../configuration/manage-suppression-list.md).
 
 >[!NOTE]
 >

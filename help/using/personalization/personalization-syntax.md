@@ -11,7 +11,7 @@ keywords: expressão, editor, sintaxe, personalização
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 7%
 
 ---
@@ -128,7 +128,7 @@ Um auxiliar do Handlebars é um identificador simples que pode ser seguido por p
 Cada parâmetro é uma expressão Handlebars. Esses auxiliares podem ser acessados de qualquer contexto em um modelo.
 
 Esses auxiliares de bloco são identificados por um # precedendo o nome do auxiliar e exigem um / de fechamento correspondente, do mesmo nome.
-Blocos são expressões que têm uma abertura de bloco ({{# }}) and closing ({{/}}).
+Blocos são expressões que têm um bloco abrindo ({{# }}) e fechando ({{/}}).
 
 
 >[!NOTE]
