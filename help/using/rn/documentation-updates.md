@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Dezembro de 2024 {#nov-2024}
 
-* Adição de uma observação para ajudar a solucionar problemas de uma possível mensagem de erro ao fazer uma chamada de API para ativar conjuntos de dados para personalização usando dados do Adobe Experience Platform. [Leia mais](../personalization/lookup-aep-data.md)
+* Uma observação foi adicionada para ajudar a solucionar uma possível mensagem de erro ao fazer uma chamada de API para habilitar conjuntos de dados para personalização por meio de dados do Adobe Experience Platform. [Leia mais](../personalization/lookup-aep-data.md)
 
 ## Outubro de 2024 {#oct-2024}
 

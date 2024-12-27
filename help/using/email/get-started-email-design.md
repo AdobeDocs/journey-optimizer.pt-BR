@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Ao enviar emails, é importante levar em consideração que os destinatários po
 
 Para minimizar esses problemas de renderização, é recomendado manter a estrutura do design de emails o mais simples possível. Tente usar um único design que funcione bem tanto para desktops quanto para dispositivos móveis e evite usar classes CSS complexas ou outros elementos de design que possam não ser totalmente compatíveis com todos os clientes de email. Ao seguir essas práticas recomendadas, você ajuda a garantir que seus emails sejam renderizados corretamente de forma consistente, independentemente de como sejam visualizados ou encaminhados pelos destinatários.
 
-Consulte a tabela abaixo para obter as práticas recomendadas de design de email:
+Consulte na tabela abaixo as práticas recomendadas de design de emails:
 
 | Recomendado | Use com cuidado | Não recomendado |
 |-|-|-|
-| <ul><li><b>Layouts estáticos baseados em tabela</b> para estrutura</li> <li><b>tabelas de HTML e tabelas aninhadas</b> para consistência de layout</li> <li><b>Larguras do modelo</b> entre 600px e 800px </li> <li><b>CSS simples e embutido</b> para estilo </li> <li><b>Fontes seguras para a Web</b> para compatibilidade universal</li> | <ul><li><b>Imagens de plano de fundo</b> podem não aparecer em determinadas plataformas de email.</li><li><b>Fontes da Web personalizadas</b> não têm suporte universal.</li><li><b>Layouts amplos</b> podem ser exibidos incorretamente em telas menores.</li><li><b>Os mapas de imagem</b> oferecem funcionalidade limitada.</li><li><b>CSS Incorporado</b> às vezes é removido durante a entrega de emails.</li> | <ul><li>Geralmente, o <b>JavaScript</b> não é suportado em ambientes de email.</li> <li> <b>`<iframe>`</b> marcas estão bloqueadas na maioria das plataformas. </li> <li>O <b>Flash</b> está desatualizado e não tem mais suporte.</li> <li>O <b>Áudio inserido</b> geralmente não é reproduzido.</li> <li><b>O vídeo inserido</b> é incompatível com muitas plataformas de email.</li> <li> O <b>Forms</b> não funciona em emails.</li> <li> A disposição em camadas de `<div>` pode levar a problemas de renderização.</li> |
+| <ul><li><b>Layouts estáticos baseados em tabela</b> para a estrutura</li> <li><b>Tabelas em HTML e tabelas aninhadas</b> para consistência do layout</li> <li><b>Larguras do modelo</b> entre 600 px e 800 px </li> <li><b>CSS simples e em linha</b> para o estilo </li> <li><b>Fontes seguras para a web</b> para compatibilidade universal</li> | <ul><li><b>Imagens de fundo</b> podem não aparecer em certas plataformas de email.</li><li><b>Fontes da web personalizadas</b> não têm compatibilidade universal.</li><li><b>Layouts largos</b> podem ser exibidos incorretamente em telas menores.</li><li>Os <b>mapas de imagem</b> oferecem funcionalidade limitada.</li><li>O <b>CSS incorporado</b> às vezes é removido durante a entrega do email.</li> | <ul><li>Geralmente, o <b>JavaScript</b> não é compatível com ambientes de email.</li> <li> Tags <b>`<iframe>`</b> estão bloqueadas na maioria das plataformas. </li> <li>O <b>Flash</b> está obsoleto e não é mais compatível.</li> <li><b>Áudios integrados</b> muitas vezes não podem ser reproduzidos.</li> <li><b>Vídeos integrados</b> são incompatíveis com várias plataformas de email.</li> <li> <b>Formulários</b> não funcionam nos emails.</li> <li> A disposição em camadas de `<div>` pode causar problemas de renderização.</li> |
 
 ## Etapas principais para criar conteúdo de email {#key-steps}
 
