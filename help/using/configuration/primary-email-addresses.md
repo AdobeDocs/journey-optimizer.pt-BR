@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, execução, e-mail, destino, perfil, otimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 18%
+source-wordcount: '484'
+ht-degree: 16%
 
 ---
 
@@ -66,7 +66,15 @@ O campo de execução é atualizado e agora será usado como o endereço princip
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Substituir um valor nos parâmetros de jornada {#journey-parameters}
+## Substituir o valor padrão {#override-default-execution-address}
+
+### Na configuração do email
+
+É possível alterar o campo de execução padrão definido no nível da sandbox ao definir uma configuração de canal de email. [Saiba mais](../email/email-settings.md#execution-address)
+
+Quando o endereço de execução é definido no nível de configuração, ele é usado como o endereço principal e substitui a configuração geral no nível da sandbox.
+
+### Nos parâmetros de jornada {#journey-parameters}
 
 Somente para casos de uso específicos, é possível substituir o conjunto de campos de execução globalmente e definir um valor diferente no nível da jornada, especialmente para o canal de email.
 
@@ -84,3 +92,4 @@ Substituir esse valor pode ser útil, por exemplo, para:
 
 * Teste um email. É possível adicionar seu próprio endereço de email: depois de publicar a jornada, o email será enviado para você.
 * Enviar um email aos assinantes de uma lista. Saiba mais [neste caso de uso](../building-journeys/message-to-subscribers-uc.md).
+

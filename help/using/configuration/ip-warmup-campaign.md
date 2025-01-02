@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP, pools, capacidade de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '437'
 ht-degree: 12%
 
 ---
@@ -27,13 +27,13 @@ Antes de criar o plano de aquecimento de IP em si no [!DNL Journey Optimizer], p
 
 Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
-1. Crie uma [configuração[do canal](../email/email-settings.md) de email](channel-surfaces.md) para o domínio e os IPs identificados para o seu plano de aquecimento.
+1. Crie uma [configuração](channel-surfaces.md) de canal de email para o domínio e os IPs identificados para o seu plano de aquecimento.
+
+   Trabalhe com seu consultor de entrega para identificar o domínio e os IPs a serem usados. Saiba como selecioná-los em uma configuração de email em [esta seção](../email/email-settings.md#subdomains-and-ip-pools).
 
    >[!NOTE]
    >
-   >* Saiba como selecionar o domínio e os IPs a serem usados em uma configuração de email no [nesta seção](../email/email-settings.md#subdomains-and-ip-pools).
-   >
-   >* Trabalhe com seu consultor de entrega para identificar o domínio e os IPs a serem usados para seu plano de aquecimento de IP.<!--TBC-->
+   >Mesmo que você altere o [endereço de execução](../email/email-settings.md#execution-address) na configuração de email, o campo padrão definido no nível da sandbox ainda será usado. [Saiba mais](primary-email-addresses.md)
 
 1. Crie uma [campanha](../campaigns/create-campaign.md) de marketing agendado e selecione a ação [Email](../email/create-email.md#create-email-journey-campaign).
 

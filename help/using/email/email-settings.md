@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 10%
+source-wordcount: '2687'
+ht-degree: 11%
 
 ---
 
@@ -340,3 +340,26 @@ Você pode visualizar dinamicamente o URL de rastreamento resultante. Cada vez q
 >[!NOTE]
 >
 >Você também pode adicionar parâmetros de rastreamento personalizados dinâmicos aos links presentes no seu conteúdo de email, mas isso não é possível no nível de configuração. Você precisa fazer isso ao criar sua mensagem usando o designer de email. [Saiba mais](message-tracking.md#url-tracking)
+
+## Endereço de execução {#execution-address}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="Definir qual endereço usar"
+>abstract="Quando vários endereços de email ou números de telefone estão disponíveis no banco de dados (pessoal, profissional etc.), você pode escolher qual deles priorizar para envio."
+
+Ao direcionar um perfil, vários endereços de email podem estar disponíveis no banco de dados (endereço de email profissional, endereço de email pessoal etc.).
+
+Nesse caso, [!DNL Journey Optimizer] usa o endereço especificado nos **[!UICONTROL Campos de execução]** no nível da sandbox para determinar qual endereço de email usar do serviço de perfil em prioridade. [Saiba mais](../configuration/primary-email-addresses.md)
+
+>[!NOTE]
+>
+>Para verificar os campos que são usados por padrão no momento, acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Campos de execuções]**.
+
+No entanto, é possível alterar esse campo de execução padrão no nível de configuração do canal de email.
+
+Para fazer isso, edite o campo **[!UICONTROL Endereço de entrega]** e selecione um item na lista de campos XDM do tipo email disponíveis.
+
+![](assets/email-config-delivery-address.png)
+
+O campo de execução é atualizado e usado como o endereço principal. Ele substitui a configuração geral no nível da sandbox.
