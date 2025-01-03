@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
+source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
 workflow-type: tm+mt
-source-wordcount: '2716'
-ht-degree: 11%
+source-wordcount: '2737'
+ht-degree: 10%
 
 ---
 
@@ -351,8 +351,8 @@ Você pode visualizar dinamicamente o URL de rastreamento resultante. Cada vez q
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
->title="Definir qual endereço usar"
->abstract="Quando vários endereços de email ou números de telefone estão disponíveis no banco de dados (pessoal, profissional etc.), você pode escolher qual deles priorizar para envio."
+>title="Substituir o endereço de execução padrão a ser usado"
+>abstract="Quando vários endereços de email estiverem disponíveis no banco de dados (pessoal, profissional etc.), você poderá escolher qual deles priorizar para envio. O endereço principal é definido no nível da sandbox, mas aqui você pode substituir a configuração padrão para essa configuração de email específica."
 
 Ao direcionar um perfil, vários endereços de email podem estar disponíveis no banco de dados (endereço de email profissional, endereço de email pessoal etc.).
 
