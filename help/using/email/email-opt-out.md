@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recusar, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cb7e2e209872176c67020add47242f95a7304c6c
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 26%
+source-wordcount: '1317'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,7 @@ Ao enviar mensagens de jornadas ou campanhas, você deve sempre garantir que os 
 
 Para inserir um link de cancelamento de subscrição no seu conteúdo de email, você pode:
 
-* Adicione um URL de cancelamento de inscrição com um clique no cabeçalho do email. Habilitar a opção **[!UICONTROL Cabeçalho Lista-Cancelar Inscrição]** no nível de configuração de canal adiciona um link para opção de não participação no cabeçalho do email. [Saiba mais sobre a opção de não participação no cabeçalho do email](#unsubscribe-header)
+* Adicione um URL de cancelamento de inscrição com um clique no cabeçalho do email. A opção **[!UICONTROL Habilitar List-Unsubscribe]** no nível de configuração de canal adiciona um link para opção de não participação ao cabeçalho do email. [Saiba mais sobre a opção de não participação no cabeçalho do email](#unsubscribe-header)
 
 * Habilite o **link para opção de não participação com um clique** para seu email.  [Saiba como adicionar um link para opção de não participação com um clique](#one-click-opt-out)
 
@@ -41,9 +41,9 @@ Para inserir um link de cancelamento de subscrição no seu conteúdo de email, 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Adicionar URL para cancelar inscrição no cabeçalho do email"
->abstract="Ative o cabeçalho Cancelar inscrição da lista para adicionar um URL de cancelamento de inscrição no cabeçalho do email. Para definir um URL para cancelar a inscrição, insira um link para opção de não participação de um clique no conteúdo da mensagem de email."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=pt-BR#one-click-opt-out" text="Recusar com um clique"
+>title="Adicionar um URL de cancelamento de inscrição ao cabeçalho do email"
+>abstract="Ative o List-Unsubscribe para adicionar um URL de cancelamento de inscrição ao cabeçalho do email. Para definir um URL de cancelamento de inscrição em uma mensagem, insira um link de recusa de um clique no conteúdo do email."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Recusa de um clique no conteúdo do email"
 
 O URL para cancelar a inscrição da lista com um clique é um link ou botão para cancelar a inscrição exibido ao lado das informações do remetente do email e permite que os destinatários excluam instantaneamente suas listas de endereçamento com um único clique. No Adobe Journey Optimizer, quando a opção **Habilitar List-Unsubscribe** está ativada, o cabeçalho do email inclui um mailto e/ou uma URL por padrão que os destinatários podem usar para cancelar a inscrição da sua lista de endereçamento.
 

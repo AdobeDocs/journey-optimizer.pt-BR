@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2724'
 ht-degree: 10%
 
 ---
@@ -63,9 +63,7 @@ Selecione o subdomínio que será usado para enviar os emails.
 
 Para preservar a reputação do seu domínio, acelere o processo de aquecimento de IP e melhore a capacidade de entrega, delegue os subdomínios de envio ao Adobe. [Saiba mais](../configuration/about-subdomain-delegation.md)
 
-
 ## Detalhes do pool de IP {#ip-pools}
-
 
 Selecione o pool de IP para associar à configuração. [Saiba mais](../configuration/ip-pools.md)
 
@@ -83,10 +81,9 @@ Após selecionar um pool de IP, as informações de PTR ficam visíveis ao passa
 >
 >Se um registro PTR não estiver configurado, entre em contato com o representante da Adobe.
 
-## Cabeçalho de cancelamento de inscrição de lista{#list-unsubscribe}
+## Cancelar inscrição em lista{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
-
 
 Ao [selecionar um subdomínio](#subdomains-and-ip-pools) na lista, a opção **[!UICONTROL Habilitar List-Unsubscribe]** é exibida.
 
@@ -94,20 +91,23 @@ Essa opção é habilitada por padrão para incluir um URL de cancelamento de in
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Se você desativar essa opção, nenhum URL de cancelamento de inscrição com um clique será exibido no cabeçalho do email.
+>[!NOTE]
+>
+>Se você desativar essa opção, nenhum URL de cancelamento de inscrição com um clique será exibido no cabeçalho do email.
 
 Você pode selecionar o nível de consentimento na lista suspensa **[!UICONTROL Nível de consentimento]**. Pode ser específico do canal ou da identidade do perfil. Com base nessa configuração, quando um usuário cancela a assinatura usando o URL de cancelamento de inscrição da lista no cabeçalho de um email, o consentimento é atualizado no Adobe Journey Optimizer, no nível do canal ou no nível de ID.
 
-O Cabeçalho de cancelamento de inscrição da lista oferece dois recursos (Mailto e URL de cancelamento de inscrição com um clique, conforme explicado abaixo) que são ativados por padrão, a menos que você desmarque um ou ambos os recursos:
+O cabeçalho de cancelamento de inscrição da lista oferece dois recursos, que são ativados por padrão, a menos que você desmarque um ou os dois recursos:
+
+![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
+
+<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
 
 * Um endereço **Mailto (cancelar assinatura)**, que é o endereço de destino para o qual as solicitações de cancelamento de assinatura são encaminhadas para processamento automático.
 
   No Journey Optimizer, o endereço de email de cancelamento de inscrição é o endereço **Mailto (cancelar assinatura)** padrão exibido na configuração do canal, com base no [subdomínio selecionado](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
-
-
-* A **URL de cancelamento de inscrição** com um clique, que por padrão é a opção de um clique do Cabeçalho de Cancelamento de Inscrição de Lista gerado por URL, com base no subdomínio definido e configurado nas Configurações de canal.
+* A **URL de cancelamento de inscrição** com um clique, que por padrão é o cabeçalho de cancelamento de inscrição de lista gerado com um clique, com base no subdomínio definido e configurado nas configurações do canal.
 
 <!--
     >[!AVAILABILITY]
@@ -116,15 +116,19 @@ O Cabeçalho de cancelamento de inscrição da lista oferece dois recursos (Mail
     >
 -->
 
-O recurso **[!UICONTROL Mailto (cancelar assinatura)]** e o recurso **[!UICONTROL URL de Cancelamento de Assinatura com Um Clique]** são opcionais. Se você não quiser usar o URL de cancelamento de inscrição de um clique gerado padrão, é possível desmarcar o recurso. No cenário em que a opção **[!UICONTROL Configuração de cancelamento de inscrição]** está ativada e o recurso **[!UICONTROL URL de cancelamento de inscrição]** com um clique está desmarcado, se você adicionar um [link de cancelamento de inscrição com um clique](../privacy/opt-out.md#one-click-opt-out) a uma mensagem criada usando essa configuração, o cabeçalho de cancelamento de inscrição da lista selecionará o link de cancelamento de inscrição com um clique inserido no corpo do email e o usará como o valor do URL de cancelamento de inscrição com um clique.
+O recurso **[!UICONTROL Mailto (cancelar assinatura)]** e o recurso **[!UICONTROL URL de cancelamento de assinatura]** com um clique são opcionais.
+
+Se você não quiser usar o URL de cancelamento de inscrição de um clique gerado padrão, é possível desmarcar o recurso. No cenário em que a opção **[!UICONTROL Habilitar List-Unsubscribe]** está ativada e o recurso **[!UICONTROL Cancelar inscrição da URL]** com um clique está desmarcado, se você adicionar um [link para opção de não participação com um clique](../privacy/opt-out.md#one-click-opt-out) a uma mensagem criada usando essa configuração, o cabeçalho de cancelamento de inscrição da Lista selecionará o link para opção de não participação com um clique inserido no corpo do email e o usará como o valor da URL para cancelamento de inscrição com um clique.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Se você não adicionar um link de recusa de um clique no conteúdo da mensagem e o URL padrão de cancelamento de inscrição com um clique estiver desmarcado nas Configurações do canal, nenhum URL será passado para o cabeçalho do email como parte do cabeçalho Cancelamento de inscrição da lista.
+>Se você não adicionar um link de recusa de um clique no conteúdo da mensagem e o URL padrão de cancelamento de inscrição com um clique estiver desmarcado nas configurações do canal, nenhum URL será transmitido para o cabeçalho do email como parte do cabeçalho de cancelamento de inscrição da lista.
 
 Saiba mais sobre como gerenciar recursos de cancelamento de inscrição em suas mensagens [nesta seção](../email/email-opt-out.md#unsubscribe-header).
+
+<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
 
 ## Parâmetros de cabeçalho {#email-header}
 
@@ -146,7 +150,7 @@ Na seção **[!UICONTROL Parâmetros de cabeçalho]**, digite os nomes e endere�
 >
 >Os endereços de **[!UICONTROL Email do remetente]** e **[!UICONTROL Email de erro]** devem usar o [subdomínio delegado](../configuration/about-subdomain-delegation.md) selecionado no momento. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você poderá usar *contact@marketing.luma.com* e *error@marketing.luma.com*.
 
-![](assets/preset-header.png)
+![](assets/preset-header.png){width="80%"}
 
 >[!NOTE]
 >
@@ -255,7 +259,7 @@ Uma lista de propagação no [!DNL Journey Optimizer] permite incluir automatica
 
 Selecione a lista relevante para você na seção **[!UICONTROL Seed list]**. Saiba como criar uma lista de propagação em [esta seção](../configuration/seed-lists.md#create-seed-list).
 
-![](../configuration/assets/seed-list-surface.png)
+![](../configuration/assets/seed-list-surface.png){width="80%"}
 
 >[!NOTE]
 >
@@ -305,7 +309,7 @@ Os parâmetros definidos nesta seção serão anexados ao final dos URLs incluí
 
 Você pode adicionar até 10 parâmetros de rastreamento usando o botão **[!UICONTROL Adicionar novo parâmetro]**.
 
-![](assets/preset-url-tracking.png)
+![](assets/preset-url-tracking.png){width="80%"}
 
 Para configurar um parâmetro de rastreamento de URL, você pode inserir os valores desejados diretamente nos campos **[!UICONTROL Nome]** e **[!UICONTROL Valor]**.
 
