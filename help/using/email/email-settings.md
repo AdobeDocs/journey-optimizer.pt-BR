@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2716'
 ht-degree: 11%
 
 ---
@@ -57,9 +57,11 @@ Ao criar uma mensagem, você deve escolher uma configuração de canal válida q
 
 Selecione o subdomínio que será usado para enviar os emails.
 
-Para preservar a reputação do seu domínio, acelere o processo de aquecimento de IP e melhore a capacidade de entrega, delegue os subdomínios de envio ao Adobe. [Saiba mais](../configuration/about-subdomain-delegation.md)
+>[!NOTE]
+>
+>Para ter maior controle sobre as configurações de email, você pode definir subdomínios dinâmicos. [Saiba mais](../email/surface-personalization.md#dynamic-subdomains)
 
-<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+Para preservar a reputação do seu domínio, acelere o processo de aquecimento de IP e melhore a capacidade de entrega, delegue os subdomínios de envio ao Adobe. [Saiba mais](../configuration/about-subdomain-delegation.md)
 
 
 ## Detalhes do pool de IP {#ip-pools}
@@ -127,6 +129,10 @@ Saiba mais sobre como gerenciar recursos de cancelamento de inscrição em suas 
 ## Parâmetros de cabeçalho {#email-header}
 
 Na seção **[!UICONTROL Parâmetros de cabeçalho]**, digite os nomes e endereços de email do remetente associados ao tipo de email enviado usando essa configuração.
+
+>[!NOTE]
+>
+>Para ter maior controle sobre as configurações de email, você pode personalizar os parâmetros do cabeçalho. [Saiba mais](../email/surface-personalization.md#personalize-header)
 
 * **[!UICONTROL Nome do remetente]**: o nome do remetente, como o nome da sua marca.
 * **[!UICONTROL Email do remetente]**: o endereço de email que você deseja usar para suas comunicações.
