@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: principal, execução, e-mail, destino, perfil, otimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '483'
 ht-degree: 16%
 
 ---
@@ -66,17 +66,17 @@ O campo de execução é atualizado e agora será usado como o endereço princip
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Substituir o valor padrão {#override-default-execution-address}
+## Substituir o campo de execução padrão {#override-default-execution-address}
+
+Para casos de uso específicos, é possível substituir o conjunto de campos de execução globalmente e definir um valor diferente no nível de configuração de email ou no nível de jornada.
 
 ### Na configuração do email
 
-É possível alterar o campo de execução padrão definido no nível da sandbox ao definir uma configuração de canal de email. [Saiba mais](../email/email-settings.md#execution-address)
+Você pode alterar o campo de execução padrão definido nas [configurações gerais](#admin-settings) ao definir uma configuração de canal de email. [Saiba mais](../email/email-settings.md#execution-address)
 
-Quando o endereço de execução é definido no nível de configuração, ele é usado como o endereço principal e substitui a configuração geral no nível da sandbox.
+Quando um endereço de execução é definido na configuração de email, ele é usado como o endereço principal e substitui a configuração geral no nível da sandbox.
 
 ### Nos parâmetros de jornada {#journey-parameters}
-
-Somente para casos de uso específicos, é possível substituir o conjunto de campos de execução globalmente e definir um valor diferente no nível da jornada, especialmente para o canal de email.
 
 Ao adicionar uma ação de **[!UICONTROL Email]** a uma [jornada](../email/create-email.md#create-email-journey-campaign), o endereço de email principal é exibido nos parâmetros avançados de jornada.
 

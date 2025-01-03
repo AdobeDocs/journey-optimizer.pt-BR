@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP, pools, capacidade de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '441'
 ht-degree: 12%
 
 ---
@@ -33,7 +33,7 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Mesmo que você altere o [endereço de execução](../email/email-settings.md#execution-address) na configuração de email, o campo padrão definido no nível da sandbox ainda será usado. [Saiba mais](primary-email-addresses.md)
+   >Para campanhas de aquecimento de IP, mesmo que você altere o [endereço de execução](../email/email-settings.md#execution-address) na configuração de email, o campo padrão definido no nível da sandbox ainda será usado. [Saiba mais](primary-email-addresses.md)
 
 1. Crie uma [campanha](../campaigns/create-campaign.md) de marketing agendado e selecione a ação [Email](../email/create-email.md#create-email-journey-campaign).
 
