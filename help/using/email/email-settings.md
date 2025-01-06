@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
+source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2735'
 ht-degree: 10%
 
 ---
@@ -366,7 +366,7 @@ Nesse caso, [!DNL Journey Optimizer] usa o endereço especificado nos **[!UICONT
 >
 >Para verificar os campos que são usados por padrão no momento, acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Campos de execuções]**.
 
-No entanto, é possível alterar esse campo de execução padrão no nível de configuração do canal de email.
+No entanto, é possível alterar esse campo de execução padrão no nível de configuração do canal de email. Você pode aplicar essa configuração a campanhas ou jornadas específicas.
 
 Para fazer isso, edite o campo **[!UICONTROL Endereço de entrega]** e selecione um item na lista de campos XDM do tipo email disponíveis.
 
