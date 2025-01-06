@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
+source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%
@@ -168,7 +168,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
 
    1. Acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
-   2. Na seção **[!UICONTROL IF]** da regra, adicione um evento configurado conforme abaixo:
+   1. Na seção **[!UICONTROL IF]** da regra, adicione um evento configurado conforme abaixo:
 
       ![](assets/multilingual-experience-events-rule-if.png)
 
@@ -177,7 +177,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
       * No painel direito, selecione &quot;Tipo de evento XDM é igual a personalization.request&quot;
       * Clique no botão **[!UICONTROL Manter alterações]** para confirmar.
 
-   3. Na seção **[!UICONTROL THEN]** da regra, adicione uma ação configurada conforme abaixo:
+   1. Na seção **[!UICONTROL THEN]** da regra, adicione uma ação configurada conforme abaixo:
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
