@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: e2b35cfb2cdaf0dac002ff74a11b2fe98206cd6f
+source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '194'
 ht-degree: 2%
 
 ---
@@ -41,6 +41,8 @@ Antes de adicionar o Provedor de tradução escolhido, verifique se você criou 
    ![](assets/provider_2.png)
 
 1. Se estiver usando o Microsoft Translator como provedor, insira sua **[!UICONTROL Chave de Assinatura]** e a **[!UICONTROL URL do Ponto de Extremidade]**.
+
+   Clique em **[!UICONTROL Validar credenciais]** para testar a conexão.
 
    ![](assets/provider_3.png)
 

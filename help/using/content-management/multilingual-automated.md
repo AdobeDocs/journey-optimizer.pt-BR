@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 1b48cb825eb1f3110a27389d1e780cb1d7e80fad
+source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2045'
 ht-degree: 20%
 
 ---
@@ -164,7 +164,9 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
    >
    >Esses pré-requisitos são necessários apenas para os canais de cartões no aplicativo e de Conteúdo.
 
-   1. Na Coleção de dados da Adobe Experience Platform, acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Em Coleção de dados da Adobe Experience Platform, acesse as Propriedades da tag.
+
+   1. Acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. Na seção **[!UICONTROL IF]** da regra, adicione um evento configurado conforme abaixo:
 
