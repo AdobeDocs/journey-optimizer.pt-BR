@@ -5,20 +5,22 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 17%
+source-wordcount: '309'
+ht-degree: 16%
 
 ---
 
 # Envio de provas de email {#send-proofs}
 
+>[!PREREQUISITES]
+>
+>Para enviar provas, os usuários devem ter **permissões Aprovar e publicar** para o recurso, campanha ou jornada específica, associada ao email. [Saiba mais sobre permissões](../administration/ootb-permissions.md)
+
 Uma prova é uma mensagem específica que permite testar uma mensagem antes de enviá-la ao público-alvo principal. Os destinatários da prova são responsáveis pela aprovação da mensagem: renderização, conteúdo, configurações de personalização, configuração.
 
->[!NOTE]
->
->O [!DNL Journey optimizer] também permite que você teste diferentes variantes do seu conteúdo visualizando-o e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como testar seu conteúdo usando dados de entrada de exemplo](../test-approve/simulate-sample-input.md)
+Observe que [!DNL Journey optimizer] também permite que você teste diferentes variantes do seu conteúdo visualizando-o e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como testar seu conteúdo usando dados de entrada de exemplo](../test-approve/simulate-sample-input.md)
 
 Para enviar provas de email depois que [perfis de teste](test-profiles.md) forem selecionados, siga estas etapas:
 
