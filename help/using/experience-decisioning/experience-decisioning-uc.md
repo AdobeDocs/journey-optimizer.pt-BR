@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 7da07ebb5fd2ded0f86ee1ca8fc355e422f01502
+source-git-commit: ff17e7609eb6504632d35671a4bd2aa11a613372
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '640'
 ht-degree: 6%
 
 ---
@@ -19,16 +19,12 @@ ht-degree: 6%
 
 Este caso de uso apresenta todas as etapas necessárias para usar a Decisão com o canal baseado em código [!DNL Journey Optimizer].
 
-<!--In this use case, you create a campaign where you define two delivery treatments - each containing a different decision policy in order to measure which one performs best for your target audience.-->
-
-Nesse caso de uso, você não tem certeza se uma fórmula de classificação específica terá melhor desempenho do que as prioridades de oferta pré-atribuídas.
+Neste exemplo, você não tem certeza se uma fórmula de classificação específica terá melhor desempenho do que as prioridades de oferta pré-atribuídas.
 
 Para medir qual deles tem melhor desempenho para seu público-alvo, crie uma campanha usando o [Experimento de Conteúdo](../content-management/content-experiment.md), no qual você define dois tratamentos de entrega:
 
-<!--Set up the experiment such that:-->
-
-* O primeiro tratamento contém uma estratégia de seleção com prioridade como o método de classificação.
-* O segundo tratamento contém uma estratégia de seleção diferente para a qual uma fórmula é o método de classificação.
+* O primeiro tratamento usa a prioridade como o método de classificação.
+* O segundo tratamento usa uma fórmula é o método de classificação.
 
 ## Criar estratégias de seleção
 
@@ -36,7 +32,7 @@ Primeiro, é necessário criar duas estratégias de seleção: uma com prioridad
 
 ### Criar a primeira estratégia de seleção
 
-Na primeira estratégia de seleção, selecione prioridade como o método de classificação. Siga as etapas abaixo.
+Para criar a primeira estratégia de seleção com prioridade como o método de classificação, siga as etapas abaixo.
 
 1. Criar um item de decisão. [Saiba como](items.md)
 
@@ -60,19 +56,17 @@ Na primeira estratégia de seleção, selecione prioridade como o método de cla
 
 1. Crie uma [estratégia de seleção](selection-strategies.md#create-selection-strategy) e selecione a [coleção](collections.md) que contém a(s) oferta(s) a serem consideradas.
 
-1. [Escolha o método de classificação](#select-ranking-method) a ser usado para selecionar a melhor oferta para cada perfil.
-
-   Nesse caso, selecione **[!UICONTROL Prioridade da oferta]**: se várias ofertas estiverem qualificadas para essa estratégia, o mecanismo do Decisioning usará o valor definido como **[!UICONTROL Prioridade]** nas ofertas. [Saiba mais](selection-strategies.md#offer-priority)
+1. [Escolha o método de classificação](#select-ranking-method) a ser usado para selecionar a melhor oferta para cada perfil. Nesse caso, selecione **[!UICONTROL Prioridade da oferta]**: se várias ofertas estiverem qualificadas para essa estratégia, o mecanismo do Decisioning usará o valor definido como **[!UICONTROL Prioridade]** nas ofertas. [Saiba mais](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png)
 
 ### Criar a segunda estratégia de seleção
 
-Na segunda estratégia de seleção, selecione uma fórmula como o método de classificação. Siga as etapas abaixo.
+Para criar a segunda estratégia de seleção com uma fórmula selecionada como o método de classificação, siga as etapas abaixo.
 
 1. Criar um item de decisão. [Saiba como](items.md)
 
-<!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
+   <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
 
 1. Defina a qualificação do item de decisão:
 
@@ -86,9 +80,7 @@ Na segunda estratégia de seleção, selecione uma fórmula como o método de cl
 
 1. Crie uma [estratégia de seleção](selection-strategies.md#create-selection-strategy) e selecione a [coleção](collections.md) que contém a(s) oferta(s) a serem consideradas.
 
-1. [Escolha o método de classificação](#select-ranking-method) que deseja usar para selecionar a melhor oferta para cada perfil.
-
-   Nesse caso, selecione **[!UICONTROL Formula]** para usar uma pontuação calculada específica para escolher qual oferta qualificada fornecer. [Saiba mais](selection-strategies.md#ranking-formula)
+1. [Escolha o método de classificação](#select-ranking-method) que deseja usar para selecionar a melhor oferta para cada perfil. Nesse caso, selecione **[!UICONTROL Formula]** para usar uma pontuação calculada específica para determinar qual oferta qualificada fornecer. [Saiba mais](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png)
 
@@ -106,7 +98,9 @@ Depois de configurar as duas estratégias de seleção, crie uma campanha de exp
 
    ![](assets/exd-uc-create-experiment.png)
 
-1. Clique em **[!UICONTROL Editar conteúdo]**.
+1. Na página de resumo da campanha, selecione ou crie uma configuração baseada em código e clique em **[!UICONTROL Editar conteúdo]**.
+
+   ![](assets/exd-uc-edit-cbe-content.png)
 
 <!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
 
