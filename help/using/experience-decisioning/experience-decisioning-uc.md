@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: ff17e7609eb6504632d35671a4bd2aa11a613372
+source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 6%
+source-wordcount: '737'
+ht-degree: 5%
 
 ---
 
@@ -30,6 +30,10 @@ Para medir qual deles tem melhor desempenho para seu público-alvo, crie uma cam
 
 Primeiro, é necessário criar duas estratégias de seleção: uma com prioridade como o método de classificação e outra com uma fórmula como o método de classificação.
 
+>[!NOTE]
+>
+>Você também pode criar itens de decisão únicos sem precisar executar uma estratégia de seleção. A prioridade definida para cada item será aplicada.
+
 ### Criar a primeira estratégia de seleção
 
 Para criar a primeira estratégia de seleção com prioridade como o método de classificação, siga as etapas abaixo.
@@ -38,7 +42,7 @@ Para criar a primeira estratégia de seleção com prioridade como o método de 
 
 1. Defina a **[!UICONTROL Prioridade]** do item de decisão em comparação a outros. Se um perfil se qualificar para vários itens, uma prioridade mais alta concederá ao item prioridade sobre outros.
 
-   ![](assets/exd-uc-item-priority.png)
+   ![](assets/exd-uc-item-priority.png){width="80%"}
 
    >[!NOTE]
    >
@@ -58,7 +62,7 @@ Para criar a primeira estratégia de seleção com prioridade como o método de 
 
 1. [Escolha o método de classificação](#select-ranking-method) a ser usado para selecionar a melhor oferta para cada perfil. Nesse caso, selecione **[!UICONTROL Prioridade da oferta]**: se várias ofertas estiverem qualificadas para essa estratégia, o mecanismo do Decisioning usará o valor definido como **[!UICONTROL Prioridade]** nas ofertas. [Saiba mais](selection-strategies.md#offer-priority)
 
-   ![](assets/exd-uc-strategy-priority.png)
+   ![](assets/exd-uc-strategy-priority.png){width="80%"}
 
 ### Criar a segunda estratégia de seleção
 
@@ -66,7 +70,7 @@ Para criar a segunda estratégia de seleção com uma fórmula selecionada como 
 
 1. Criar um item de decisão. [Saiba como](items.md)
 
-   <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
+   <!--Do you need to set the same **[!UICONTROL Priority]** as for the first decision item, or it won't be considered at all?-->
 
 1. Defina a qualificação do item de decisão:
 
@@ -90,46 +94,52 @@ Para criar a segunda estratégia de seleção com uma fórmula selecionada como 
 
 Define two delivery treatments each containing a different decision policy.-->
 
-Depois de configurar as duas estratégias de seleção, crie uma campanha de experiência baseada em código, na qual você define um tratamento diferente para cada estratégia para comparar qual tem melhor desempenho.
+Depois de configurar as duas estratégias de seleção, crie uma campanha de experiência baseada em código, na qual você define um tratamento diferente para cada estratégia, a fim de comparar qual tem melhor desempenho.
 
 1. Crie uma campanha e selecione a ação **[!UICONTROL Experiência baseada em código]**. [Saiba mais](../code-based/create-code-based.md)
 
 1. Na página de resumo da campanha, clique em **[!UICONTROL Criar experimento]** para começar a configurar seu experimento de conteúdo. [Saiba mais](../content-management/content-experiment.md)
 
-   ![](assets/exd-uc-create-experiment.png)
+   ![](assets/exd-uc-create-experiment.png){width="80%"}
 
-1. Na página de resumo da campanha, selecione ou crie uma configuração baseada em código e clique em **[!UICONTROL Editar conteúdo]**.
+1. Na página de resumo da campanha, selecione uma configuração baseada em código e clique em **[!UICONTROL Editar conteúdo]**.
 
-   ![](assets/exd-uc-edit-cbe-content.png)
+   ![](assets/exd-uc-edit-cbe-content.png){width="80%"}
 
-<!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
+1. Na janela de edição de conteúdo, para começar a personalizar o **Tratamento A**, clique em **[!UICONTROL Editar código]**.
 
-    ![](assets/exd-uc-create-treatment-a.png)-->
+   ![](assets/exd-uc-experiment-treatment-a.png){width="80%"}
 
-1. Na janela de edição de conteúdo, comece a personalizar o **Tratamento A** clicando em **[!UICONTROL Editar código]**.
-
-   ![](assets/exd-uc-experiment-treatment-a.png)
-
-1. Selecione a **[!UICONTROL Política de decisão]**, clique em **[!UICONTROL Adicionar política de decisão]** e preencha os detalhes da decisão. [Saiba mais](create-decision.md)
+1. No [editor de código](../code-based/create-code-based.md#edit-code), selecione **[!UICONTROL Política de decisão]**, clique em **[!UICONTROL Adicionar política de decisão]** e preencha os detalhes da decisão. [Saiba mais](create-decision.md#add)
 
    ![](assets/decision-code-based-create.png)
 
-1. Selecione a primeira estratégia que você criou. Clique em **[!UICONTROL Adicionar estratégia]**.
+1. Na seção **[!UICONTROL Sequência de estratégia]**, clique no botão **[!UICONTROL Adicionar]** e escolha **[!UICONTROL Estratégia de seleção]**. [Saiba mais](create-decision.md#select)
 
-1. Clique em **[!UICONTROL Criar]**. A nova decisão é adicionada em **[!UICONTROL Decisões]**.
+   ![](assets/decision-code-based-strategy-sequence.png){width="80%"}
 
-   ![](assets/decision-code-based-decision-added.png)
+   >[!NOTE]
+   >
+   >Você também pode selecionar **[!UICONTROL Item de decisão]** para adicionar itens únicos sem precisar executar uma estratégia de seleção. A prioridade definida para cada item será aplicada.
 
-1. Clique no ícone de mais ações (três pontos) e selecione **[!UICONTROL Adicionar]**. Agora você pode adicionar todos os atributos de decisão desejados aqui.
+1. Selecione a primeira estratégia que você criou.
 
-   ![](assets/decision-code-based-add-decision.png)
+   ![](assets/exd-uc-experiment-strategy-priority.png){width="80%"}
 
-1. Você também pode adicionar qualquer outro atributo disponível no editor de personalização, como atributos de perfil.
+1. Salve as alterações e clique em **[!UICONTROL Criar]**. A nova decisão foi adicionada em **[!UICONTROL Política de decisão]**.
 
-   ![](assets/decision-code-based-decision-profile-attribute.png)
+1. Clique no botão **[!UICONTROL Inserir política]**. O código correspondente à política de decisão é adicionado. Em seguida, adicione todos os atributos desejados ao código, incluindo atributos de perfil. [Saiba mais](create-decision.md#use-decision-policy)
 
-1. Na janela de edição de conteúdo, selecione **Tratamento B** e repita as etapas acima para criar outra política de decisão e selecione a segunda estratégia de seleção criada.
+   ![](assets/exd-uc-experiment-insert-policy.png){width="80%"}
 
-   ![](assets/exd-uc-experiment-treatment-b.png)
+1. Salve as alterações.
 
-1. Salve o conteúdo.
+1. Volte para a janela de edição de conteúdo, selecione o botão + para adicionar **Tratamento B**, selecione-o e clique em **[!UICONTROL Editar código]**.
+
+   ![](assets/exd-uc-experiment-treatment-b.png){width="80%"}
+
+1. Repita as etapas acima para criar outra política de decisão e selecione a segunda estratégia de seleção criada. <!--Do you need to create exactly the same content to compare only the ranking method?-->
+
+1. Salve suas alterações e [publique sua campanha de experiência baseada em código](../code-based/publish-code-based.md).
+
+Você pode acompanhar o desempenho de sua campanha com o [relatório de campanha de experimentação](../reports/campaign-global-report-cja-experimentation.md) e o [relatório sobre decisões](cja-reporting.md). <!--TBC how to check which treatment performs best-->

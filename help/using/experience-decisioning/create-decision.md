@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1798'
 ht-degree: 14%
 
 ---
@@ -60,9 +60,15 @@ Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu s
 
 1. Crie uma campanha e selecione a ação **[!UICONTROL Experiência baseada em código]**. [Saiba mais](../code-based/create-code-based.md)
 
-1. No [editor de código](../code-based/create-code-based.md#edit-code), selecione o ícone da **[!UICONTROL Política de decisão]** e clique em **[!UICONTROL Adicionar política de decisão]**.
+1. No [editor de código](../code-based/create-code-based.md#edit-code), selecione **[!UICONTROL Política de decisão]** e clique em **[!UICONTROL Adicionar política de decisão]**.
 
    ![](assets/decision-code-based-create.png)
+
+1. Por padrão, crie uma nova política.
+
+   >[!NOTE]
+   >
+   >Você também pode optar por selecionar uma política existente.
 
 1. Preencha os detalhes da sua política de decisão: adicione um nome e selecione um catálogo.
 
@@ -78,9 +84,11 @@ Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu s
 
 A seção **[!UICONTROL Sequência de estratégia]** permite selecionar os itens de decisão e as estratégias de seleção a serem apresentados com a política de decisão.
 
-1. Clique no botão **[!UICONTROL Adicionar]** e escolha o tipo de objeto a ser incluído na política:
+1. Clique no botão **[!UICONTROL Add]**.
 
-   * **[!UICONTROL Estratégia de seleção]**: adicione uma ou várias estratégias de seleção. As estratégias de decisão usam coleções associadas a restrições de qualificação e métodos de classificação para determinar os itens a serem mostrados. Você pode selecionar uma estratégia de seleção existente ou criar uma nova usando o botão **[!UICONTROL Criar estratégia de seleção]**.[Saiba como criar estratégias de seleção](selection-strategies.md)
+1. Escolha o tipo de objeto a ser incluído na política:
+
+   * **[!UICONTROL Estratégia de seleção]**: adicione uma ou várias estratégias de seleção. As estratégias de decisão usam coleções associadas a restrições de qualificação e métodos de classificação para determinar os itens a serem mostrados. Você pode selecionar uma estratégia de seleção existente ou criar uma nova usando o botão **[!UICONTROL Criar estratégia de seleção]**. [Saiba como criar estratégias de seleção](selection-strategies.md)
 
    * **[!UICONTROL Item de decisão]**: adicione itens de decisão únicos para apresentar sem ter que executar uma estratégia de seleção. Você só pode selecionar um item de decisão por vez. Quaisquer restrições de qualificação definidas para o item serão aplicadas.
 
@@ -90,7 +98,9 @@ A seção **[!UICONTROL Sequência de estratégia]** permite selecionar os itens
    >
    >Uma política de decisão suporta até 10 estratégias de seleção e itens de decisão combinados. [Saiba mais sobre as medidas de proteção e limitações da decisão](gs-experience-decisioning.md#guardrails)
 
-1. Ao adicionar vários itens e/ou estratégias de decisão, eles serão avaliados em uma ordem específica. O primeiro objeto adicionado à sequência será avaliado primeiro e assim por diante. Para alterar a sequência padrão, você pode arrastar e soltar os objetos e/ou os grupos para reorganizá-los conforme desejado. [Saiba mais sobre a ordem de avaliação da política de decisão](#evaluation-order)
+1. Ao adicionar vários itens e/ou estratégias de decisão, eles serão avaliados em uma ordem específica. O primeiro objeto adicionado à sequência será avaliado primeiro e assim por diante.
+
+   Para alterar a sequência padrão, você pode arrastar e soltar os objetos e/ou grupos para reordená-los como desejado. [Saiba mais](#evaluation-order)
 
 ### Gerenciar ordem de avaliação em uma política de decisão {#evaluation-order}
 
