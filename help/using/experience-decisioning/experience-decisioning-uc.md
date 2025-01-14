@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '789'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ Depois de configurar as duas estratégias de seleção, crie uma campanha de exp
 
 1. Crie uma campanha e selecione a ação **[!UICONTROL Experiência baseada em código]**. [Saiba mais](../code-based/create-code-based.md)
 
-1. Na página de resumo da campanha, clique em **[!UICONTROL Criar experimento]** para começar a configurar seu experimento de conteúdo. [Saiba mais](../content-management/content-experiment.md)
+1. Na página de resumo da campanha, clique em **[!UICONTROL Criar experimento]** para configurar seu experimento de conteúdo. [Saiba como](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 
@@ -140,4 +140,6 @@ Depois de configurar as duas estratégias de seleção, crie uma campanha de exp
 
 1. Salve suas alterações e [publique sua campanha de experiência baseada em código](../code-based/publish-code-based.md).
 
-Você pode acompanhar o desempenho de sua campanha com o [relatório de campanha de experimentação](../reports/campaign-global-report-cja-experimentation.md) e o [relatório sobre decisões](cja-reporting.md). <!--TBC how to check which treatment performs best-->
+Após executar a experiência, acompanhe o desempenho dos tratamentos da campanha com o [relatório da campanha de experimentação](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).--> Você pode então interpretar os resultados de seu experimento. [Saiba como](../content-management/get-started-experiment.md#interpret-results)
+
+Se o resultado do seu experimento for conclusivo, você pode impulsionar o tratamento com a classificação de melhor desempenho para todos os seus clientes. Ou você pode criar uma nova campanha usando a estratégia de seleção na qual o método de classificação com melhor desempenho é replicado.
