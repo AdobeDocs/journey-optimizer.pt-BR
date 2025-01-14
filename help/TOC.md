@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+source-git-commit: a9efa676242b1e3453033c77f1f5afb9da931a3d
 workflow-type: tm+mt
-source-wordcount: '2193'
-ht-degree: 100%
+source-wordcount: '2154'
+ht-degree: 99%
 
 ---
 
@@ -390,14 +390,14 @@ ht-degree: 100%
    + [Uso da licença](using/audience/license-usage.md)
 + Rastrear e monitorar {#reporting}
    + Relatório ao vivo {#live-report}
-      + [Introdução aos relatórios em tempo real](using/reports/live-report.md)
+      + [Introdução ao relatório em tempo real](using/reports/live-report.md)
       + [Lista de componentes](using/reports/live-report-components.md)
       + [Relatório da jornada em tempo real](using/reports/journey-live-report.md)
       + [Relatório em tempo real da campanha](using/reports/campaign-live-report.md)
       + [Relatório em tempo real da página de destino](using/reports/lp-report-live.md)
       + [Relatório em tempo real da lista de assinaturas](using/reports/subscription-report-live.md)
-   + Experiência de relatórios atualizada{#channel-report}
-      + [Introdução à experiência de relatórios atualizada](using/reports/report-gs-cja.md)
+   + Relatório de tempo todo{#channel-report}
+      + [Introdução ao relatório de Todos os tempos](using/reports/report-gs-cja.md)
       + [Configurar o Customer Journey Analytics manualmente](using/reports/cja-ajo.md)
       + [Gerenciar seus relatórios](using/reports/report-cja-manage.md)
       + [Pré-requisitos de relatórios e experimentação](using/reports/reporting-configuration.md)
@@ -425,18 +425,6 @@ ht-degree: 100%
       + [Relatório de visão geral](using/reports/channel-report-cja.md)
       + [Relatório de páginas de destino](using/reports/lp-report-global-cja.md)
       + [Relatório da lista de assinaturas](using/reports/subscription-report-global-cja.md)
-   + Experiência de relatórios anterior {#reports}
-      + Relatório global {#global-report}
-         + [Introdução aos relatórios globais](using/reports/global-report.md)
-         + [Lista de componentes](using/reports/global-report-components.md)
-         + [Relatório global da jornada](using/reports/journey-global-report.md)
-         + [Relatório global da campanha](using/reports/campaign-global-report.md)
-         + [Relatório de objetivo](using/reports/objective-report.md)
-         + [Relatório global da página de destino](using/reports/lp-report-global.md)
-         + [Relatório global da lista de assinaturas](using/reports/subscription-report-global.md)
-      + Relatórios de canal {#channel-report}
-         + [Introdução a Relatórios de canal](using/reports/channel-report-gs.md)
-         + [Relatórios de canal](using/reports/channel-report.md)
    + Relatórios de jornada {#reports}
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
       + [Lista de campos de evento de etapa](using/reports/sharing-field-list.md)
