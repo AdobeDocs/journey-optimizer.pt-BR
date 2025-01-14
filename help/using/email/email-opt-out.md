@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
 source-wordcount: '1317'
-ht-degree: 23%
+ht-degree: 27%
 
 ---
 
@@ -41,9 +41,9 @@ Para inserir um link de cancelamento de subscrição no seu conteúdo de email, 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Adicionar um URL de cancelamento de inscrição ao cabeçalho do email"
->abstract="Ative o List-Unsubscribe para adicionar um URL de cancelamento de inscrição ao cabeçalho do email. Para definir um URL de cancelamento de inscrição em uma mensagem, insira um link de recusa de um clique no conteúdo do email."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Recusa de um clique no conteúdo do email"
+>title="Adicionar URL para cancelar inscrição no cabeçalho do email"
+>abstract="Habilite “Cancelar inscrição da lista” para adicionar ao cabeçalho do email um URL para cancelar inscrição. Para definir um URL para cancelar inscrição em uma mensagem, insira um link de um clique para opção de não participação no conteúdo do email."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Opção de recusa de um clique no conteúdo do email"
 
 O URL para cancelar a inscrição da lista com um clique é um link ou botão para cancelar a inscrição exibido ao lado das informações do remetente do email e permite que os destinatários excluam instantaneamente suas listas de endereçamento com um único clique. No Adobe Journey Optimizer, quando a opção **Habilitar List-Unsubscribe** está ativada, o cabeçalho do email inclui um mailto e/ou uma URL por padrão que os destinatários podem usar para cancelar a inscrição da sua lista de endereçamento.
 
@@ -78,7 +78,7 @@ Em ambos os casos, o perfil correspondente do recipient é cancelado imediatamen
 Se você ativou a opção **[!UICONTROL Habilitar List-Unsubscribe]** em relação ao cabeçalho Cancelar Inscrição da Lista, recomendamos que você habilite ambos os métodos - **Mailto (cancelar inscrição)** e **URL de Cancelamento de Inscrição com Um Clique**. Nem todos os clientes de email oferecem suporte ao método HTTP. Com o recurso Mailto list-unsubscribe fornecido como funcionalidade para que você selecione uma alternativa, a reputação do remetente pode ser mais bem protegida e todos os recipients podem ter acesso para usar a funcionalidade de cancelamento de inscrição. [Saiba mais](email-settings.md#list-unsubscribe)
 
 
-### Recusa de um clique no conteúdo do email {#one-click-opt-out}
+### Opção de recusa de um clique no conteúdo do email {#one-click-opt-out}
 
 Para definir um URL personalizado para cancelar a inscrição, insira um link de recusa de um clique no conteúdo da mensagem de email e insira o URL de sua escolha, conforme descrito abaixo:
 
