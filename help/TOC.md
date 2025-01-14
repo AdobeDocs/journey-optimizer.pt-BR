@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a9efa676242b1e3453033c77f1f5afb9da931a3d
+source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
 workflow-type: tm+mt
 source-wordcount: '2154'
 ht-degree: 99%
@@ -397,7 +397,7 @@ ht-degree: 99%
       + [Relatório em tempo real da página de destino](using/reports/lp-report-live.md)
       + [Relatório em tempo real da lista de assinaturas](using/reports/subscription-report-live.md)
    + Relatório de tempo todo{#channel-report}
-      + [Introdução ao relatório de Todos os tempos](using/reports/report-gs-cja.md)
+      + [Introdução ao relatório de tempo integral](using/reports/report-gs-cja.md)
       + [Configurar o Customer Journey Analytics manualmente](using/reports/cja-ajo.md)
       + [Gerenciar seus relatórios](using/reports/report-cja-manage.md)
       + [Pré-requisitos de relatórios e experimentação](using/reports/reporting-configuration.md)
