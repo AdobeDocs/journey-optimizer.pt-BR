@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 18%
+source-wordcount: '1045'
+ht-degree: 19%
 
 ---
 
@@ -55,11 +55,14 @@ Para proteger sua capacidade de delivery, os recipients cujos endereços estão 
 
 ## Usar ferramentas de monitoramento {#monitoring-tools}
 
-Use os recursos oferecidos pelo [!DNL Journey Optimizer] para monitorar sua capacidade de entrega.
+Use os recursos de relatórios oferecidos pelo [!DNL Journey Optimizer] para monitorar a capacidade de entrega.
 
-A guia **[!UICONTROL Executions]** da lista de mensagens permite verificar o desempenho de suas entregas por meio de um conjunto de indicadores em tempo real. Entre outras coisas, essa guia exibe:
+Os relatórios de campanha e jornada permitem verificar o desempenho de seus deliveries por meio de um conjunto de indicadores em tempo real. Entre outras coisas, elas exibem:
+
 * O número de mensagens executadas, enviadas e entregues com êxito.
 * O número de mensagens que foram abertas e o número de mensagens/links que foram clicados.
+
+Saiba mais sobre o [relatório ao vivo](../reports/live-report.md) e o [relatório de todos os tempos](../reports/report-gs-cja.md)
 
 ## Adaptar conteúdo da mensagem {#adapt-message-content}
 
@@ -76,6 +79,12 @@ Para melhorar a taxa de delivery e garantir que seus emails cheguem aos recipien
 ## Estabelecer sua reputação como remetente {#reputation}
 
 Se você mudou recentemente para outro provedor de serviços de email, endereço IP, domínio de email ou subdomínio, é necessário estabelecer sua reputação como remetente. Caso contrário, seus deliveries poderão ser bloqueados ou movidos para a pasta de spam da caixa de correio dos recipients.
+
+Ao enviar email em um endereço IP totalmente novo, agora é possível executar facilmente workflows de aquecimento de IP diretamente da interface do usuário.
+
+O Adobe Journey Optimizer oferece uma maneira padronizada e eficiente de aquecer seus endereços IP que segue as práticas recomendadas para uma capacidade de entrega otimizada.
+
+[Saiba mais sobre planos de aquecimento de IP](../configuration/ip-warmup-gs.md)
 
 <!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
