@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1042'
 ht-degree: 9%
 
 ---
@@ -111,7 +111,7 @@ Para configurar o conteúdo de SMS, siga as etapas abaixo. As configurações pa
 
    Observe que para usar a função de redução de URL, primeiro você deve configurar um subdomínio que será vinculado à sua configuração. [Saiba mais](sms-subdomains.md)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    > Para acessar e editar subdomínios SMS, você deve ter a permissão **[!UICONTROL Gerenciar subdomínios SMS]** na sandbox de produção. Saiba mais sobre permissões [nesta seção](../administration/high-low-permissions.md).
 
@@ -123,6 +123,10 @@ Para configurar o conteúdo de SMS, siga as etapas abaixo. As configurações pa
 
 1. No campo `originalUrl`, cole a URL que você deseja encurtar e clique em **[!UICONTROL Salvar]**.
 
+   >[!CAUTION]
+   >
+   > A duração de URLs curtos é definida como 15 dias. Após esse período, essas URLs curtas não estarão mais acessíveis e exibirão a mensagem: `404 short-code not found`.
+
 1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na visualização. Agora você pode testar e verificar o conteúdo da sua mensagem conforme detalhado em [esta seção](#sms-mms-test).
 
 ## Definir o conteúdo MMS{#mms-content}
@@ -131,7 +135,7 @@ Você pode aprimorar sua comunicação enviando mensagens do Serviço de Mensage
 
 >[!NOTE]
 >
->* O canal MMS contém algumas limitações listadas em [esta página](../start/guardrails.md#sms-guardrails).
+> O canal MMS contém algumas limitações listadas em [esta página](../start/guardrails.md#sms-guardrails).
 
 Para criar conteúdo MMS, siga estas etapas:
 
