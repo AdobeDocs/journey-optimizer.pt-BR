@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
+source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 100%
+source-wordcount: '2172'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,25 @@ ht-degree: 100%
 >abstract="O **Adobe Journey Optimizer** está sempre fornecendo novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão."
 
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão. O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Atualizações de janeiro de 2025 {#25-01-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>modelos Customer Journey Analytics</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora há a opção de aprimorar os relatórios do Journey Optimizer utilizando modelos de Customer Journey Analytics. Esse novo recurso permite simplificar seu processo de geração de relatórios com modelos pré-projetados e personalizados para suas necessidades de análise.
+</p>
+<p>Para obter mais informações, consulte a <a href="../reports/report-cja-manage.md#cja-template">documentação detalhada</a>.</p>
+<p> A funcionalidade <b>Modelo</b> é progressivamente implementada em fases, com Disponibilidade Geral total planejada para o final de janeiro</p>
+</tr>
+</tbody>
+</table>
 
 ## Versão de outubro de 2024 {#24-10-rn}
 
