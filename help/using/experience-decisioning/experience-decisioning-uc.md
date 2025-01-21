@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: d9b64dd5bc1553583da23a24aadf4d15d0b6874f
+source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '817'
 ht-degree: 5%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 5%
 
 Este caso de uso apresenta todas as etapas necessárias para usar a Decisão com o canal baseado em código [!DNL Journey Optimizer].
 
-Neste exemplo, você não tem certeza se uma fórmula de classificação específica terá melhor desempenho do que as prioridades de oferta pré-atribuídas. Para medir qual tem melhor desempenho para seu público-alvo, crie uma campanha usando o [Experimento de Conteúdo](../content-management/content-experiment.md), no qual você define dois tratamentos de entrega:
+Neste exemplo, você não tem certeza se uma fórmula de classificação específica terá melhor desempenho do que as prioridades de oferta pré-atribuídas. Para medir qual tem melhor desempenho para seu público-alvo, crie uma campanha usando o [Experimento de conteúdo](../content-management/content-experiment.md), no qual você define dois tratamentos de entrega:
 
-* O primeiro tratamento usa a prioridade como o método de classificação.
-* O segundo tratamento usa uma fórmula como método de classificação.
+* O primeiro tratamento usa **priority** como o método de classificação.
+* O segundo tratamento usa **uma fórmula** como o método de classificação.
 
 ## Criar estratégias de seleção
 
@@ -120,7 +120,7 @@ Depois de configurar as duas estratégias de seleção, crie uma campanha de exp
    >
    >Você também pode selecionar **[!UICONTROL Item de decisão]** para adicionar itens únicos sem precisar executar uma estratégia de seleção. A prioridade definida para cada item será aplicada.
 
-1. Selecione a primeira estratégia que você criou.
+1. Selecione a primeira estratégia que você criou - aquela com prioridade como o método de classificação.
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
@@ -136,10 +136,17 @@ Depois de configurar as duas estratégias de seleção, crie uma campanha de exp
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
-1. Repita as etapas acima para criar outra política de decisão e selecione a segunda estratégia de seleção criada. <!--Do you need to create exactly the same content to compare only the ranking method?-->
+1. Repita as etapas 5 e 6 acima para criar outra política de decisão e selecione a segunda estratégia de seleção criada, aquela com a fórmula como o método de classificação. <!--Do you need to create exactly the same content to compare only the ranking method?-->
+
+   ![](assets/exd-uc-experiment-strategy-formula.png){width="90%"}
+
+1. Edite sua política de decisão conforme desejado (consulte as etapas 8 e 9 acima).
 
 1. Salve suas alterações e [publique sua campanha de experiência baseada em código](../code-based/publish-code-based.md).
 
 Após executar o experimento, acompanhe o desempenho dos tratamentos da campanha com o [relatório da campanha de experimentação](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).--> Você pode então interpretar os resultados de seu experimento. [Saiba como](../content-management/get-started-experiment.md#interpret-results)
 
-Se o resultado for conclusivo, você pode impulsionar o tratamento com a classificação de melhor desempenho para todos os seus clientes. Ou você pode criar uma nova campanha usando a estratégia de seleção na qual o método de classificação com melhor desempenho é replicado.
+Se o resultado for conclusivo:
+
+* Você pode impulsionar o tratamento com a classificação de melhor desempenho para todos os seus clientes.
+* Ou você pode criar uma nova campanha usando a estratégia de seleção na qual o método de classificação com melhor desempenho é replicado.
