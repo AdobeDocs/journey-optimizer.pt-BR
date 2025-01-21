@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Beta"
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: e6e7890d2ff1fc91155da14e1e6c1cde01f25447
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 9%
+source-wordcount: '933'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 >
 >No momento, esses recursos estão disponíveis para todos os clientes como um beta público.
 
-O otimizador de Jornada permite testar diferentes variantes do conteúdo, visualizando-o e enviando provas usando dados de entrada de amostra carregados de um arquivo CSV ou JSON ou adicionados manualmente. Todos os atributos de perfil usados no conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados nos testes para criar diversas variantes.
+O otimizador de Jornada permite testar diferentes variantes do conteúdo, visualizando-o e enviando provas usando dados de entrada de amostra carregados de um arquivo CSV ou JSON ou adicionados manualmente. Todos os atributos de perfis usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes. Uma variante se refere a uma versão do conteúdo com valores diferentes para seus atributos.
 
 >[!NOTE]
 >
@@ -66,13 +66,29 @@ Você pode adicionar até 30 variantes para testar o conteúdo, usando um arquiv
 Para adicionar uma variante de um arquivo, siga estas etapas:
 
 1. Clique no link **[!UICONTROL baixar amostra]** para recuperar um modelo de arquivo e escolha o formato de arquivo que deseja usar (CSV, JSON ou JSONLINES).
-
 1. Clique em **[!UICONTROL Baixar]** e armazene o modelo no local desejado.
-
 1. Abra o arquivo e preencha o modelo de acordo com suas necessidades. O template inclui uma coluna para cada atributo de perfil usado em seu conteúdo para personalização.
 
-1. Quando o arquivo estiver pronto, clique em **[!UICONTROL Carregar dados de entrada]** para carregá-los e testar o conteúdo.
+   +++Arquivo de amostra
 
+   ```
+   {
+   "profile": {
+       "attributes": {
+       "person": {
+           "name": {
+               "lastName": "Doe",
+               "firstName": "John"
+               }
+           }
+       }
+   }
+   }
+   ```
+
++++
+
+1. Quando o arquivo estiver pronto, clique em **[!UICONTROL Carregar dados de entrada]** para carregá-los e testar o conteúdo.
 1. Depois que o arquivo for carregado, uma caixa será adicionada no painel esquerdo para cada linha do arquivo. Cada caixa contém todos os atributos de perfil usados no conteúdo para personalização. Agora você pode usar as variantes para pré-visualizar seu conteúdo no painel direito e enviar provas.
 
    ![](assets/simulate-custom-variants.png)
@@ -95,9 +111,13 @@ Para adicionar uma variante manualmente, siga estas etapas:
 
 Para visualizar o conteúdo usando uma das variantes, selecione a caixa relevante para atualizar a visualização do conteúdo na seção direita com as informações inseridas para essa variante.
 
-Você pode remover uma variante a qualquer momento usando o botão de reticências no canto superior direito e selecionando **[!UICONTROL Remover]**. Para editar informações de uma variante, clique no botão de reticências e selecione **[!UICONTROL Editar]**.
+No exemplo abaixo, adicionamos duas variantes para a linha de assunto do email:
 
-![](assets/simulate-custom-boxes.png)
+| Seleção da variante 1 | Seleção da variante 2 |
+|----------|-------------|
+| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+
+Você pode remover uma variante a qualquer momento usando o botão de reticências no canto superior direito e selecionando **[!UICONTROL Remover]**. Para editar informações de uma variante, clique no botão de reticências e selecione **[!UICONTROL Editar]**.
 
 ## Enviar provas {#proofs}
 
