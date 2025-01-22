@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 16%
+source-wordcount: '747'
+ht-degree: 18%
 
 ---
 
@@ -75,23 +75,17 @@ Agora você pode começar a configurar o arquivo de extração para enviar ao se
 >title="Formatação do arquivo de extração"
 >abstract="Para cada campo, especifique um rótulo e as informações a serem exibidas usando o editor de personalização. <br/><br/> A opção <b>Classificar por</b> permite usar o campo selecionado para classificar as colunas do arquivo de extração."
 
-1. Configure as colunas e as informações a serem exibidas no arquivo de extração:
-
-   1. Clique no botão **[!UICONTROL Adicionar]** para criar uma nova coluna.
-
-   1. O painel **[!UICONTROL Formatação]** é exibido no lado direito, permitindo que você configure a coluna selecionada. Especifique um **[!UICONTROL Rótulo]** para a coluna.
-
-   1. No campo **[!UICONTROL Dados]**, selecione os atributos de perfil a serem exibidos usando o [editor de personalização](../personalization/personalization-build-expressions.md).
-
-   1. Para classificar o arquivo de extração usando uma coluna, selecione a coluna e alterne na opção **[!UICONTROL Classificar por]**. O ícone **[!UICONTROL Classificar por]** é exibido ao lado do rótulo da coluna na seção **[!UICONTROL Campos de Dados]**.
-
 O arquivo de extração é exigido por provedores de correspondência direta para enviar emails aos clientes. Para definir a configuração do arquivo de extração, siga estas etapas:
 
 1. Na tela de configuração da campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo do arquivo de extração.
 
 1. Ajuste as propriedades do arquivo de extração:
 
-   1. Especifique o **[!UICONTROL Nome do arquivo]** desejado para o arquivo de extração.
+   1. No campo **[!UICONTROL Nome do arquivo]**, especifique um nome para o arquivo de extração.
+
+      >[!NOTE]
+      >
+      >Por padrão, o arquivo é gravado no diretório raiz. O campo **[!UICONTROL Filename]** aceita o formato &quot;/your/path/here/Filename.csv&quot;, em que o caminho especificado é o diretório de destino no servidor selecionado. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. Opcionalmente, habilite a opção **[!UICONTROL Anexar carimbo de data/hora ao nome de arquivo de exportação]** se desejar adicionar um carimbo de data/hora automático ao nome de arquivo especificado.
 
@@ -116,3 +110,4 @@ O arquivo de extração é exigido por provedores de correspondência direta par
       Para alterar a posição de uma coluna, arraste-a e solte-a no local desejado na seção **[!UICONTROL Campo de dados]**. Para excluir uma coluna, selecione-a e clique no botão **[!UICONTROL Remover]** no painel **[!UICONTROL Formatação]**.
 
 Agora você pode testar sua mensagem de correspondência direta e enviá-la ao seu público-alvo. [Saiba como testar e enviar mensagens de correspondência direta](test-send-direct-mail.md)
+
