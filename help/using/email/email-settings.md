@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
+source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
 workflow-type: tm+mt
-source-wordcount: '2735'
+source-wordcount: '2804'
 ht-degree: 11%
 
 ---
@@ -84,6 +84,11 @@ Após selecionar um pool de IP, as informações de PTR ficam visíveis ao passa
 ## Cancelar inscrição em lista{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_unsubscribe_custom"
+>title="Adicionar URL para cancelar inscrição no cabeçalho do email"
+>abstract="Se você estiver gerenciando o consentimento fora do Adobe, selecione a opção **Gerenciado pelo cliente** para inserir um endereço de email de cancelamento de inscrição personalizado e seu próprio URL de cancelamento de inscrição com um clique. Nesse caso, esteja ciente de que o Adobe não está armazenando informações de cancelamento de inscrição. O proprietário das informações de consentimento dos clientes é responsável por gerenciar os dados de consentimento e enviá-los de volta para a Journey Optimizer."
 
 Ao [selecionar um subdomínio](#subdomains-and-ip-pools) na lista, a opção **[!UICONTROL Habilitar List-Unsubscribe]** é exibida.
 
