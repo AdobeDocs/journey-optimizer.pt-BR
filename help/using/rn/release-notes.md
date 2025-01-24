@@ -7,9 +7,9 @@ topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2172'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,16 +27,16 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <table>
 <thead>
 <tr>
-<th><strong>modelos Customer Journey Analytics</strong><br/></th>
+<th><strong>Modelos do Customer Journey Analytics</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora há a opção de aprimorar os relatórios do Journey Optimizer utilizando modelos de Customer Journey Analytics. Esse novo recurso permite simplificar seu processo de geração de relatórios com modelos pré-projetados e personalizados para suas necessidades de análise.
+<p>Agora há a opção de aprimorar os relatórios do Journey Optimizer utilizando modelos do Customer Journey Analytics. Esse novo recurso permite simplificar o processo de geração de relatórios com modelos projetados previamente e personalizados para suas necessidades de análise.
 </p>
 <p>Para obter mais informações, consulte a <a href="../reports/report-cja-manage.md#cja-template">documentação detalhada</a>.</p>
-<p> A funcionalidade <b>Modelo</b> é progressivamente implementada em fases, com Disponibilidade Geral total planejada para o final de janeiro</p>
+<p> A funcionalidade <b>Modelo</b> é implementada progressivamente, em fases, com disponibilidade geral total planejada para o fim de janeiro</p>
 </tr>
 </tbody>
 </table>
