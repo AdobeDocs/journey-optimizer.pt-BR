@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
+source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2801'
 ht-degree: 11%
 
 ---
@@ -83,12 +83,12 @@ Após selecionar um pool de IP, as informações de PTR ficam visíveis ao passa
 
 ## Cancelar inscrição em lista{#list-unsubscribe}
 
-<!--Do not modify - Legal Review Done -->
-
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="Adicionar URL para cancelar inscrição no cabeçalho do email"
+>title="Inserir pontos finais personalizados de List-Unsubscribe"
 >abstract="Se você estiver gerenciando o consentimento fora do Adobe, selecione a opção **Gerenciado pelo cliente** para inserir um endereço de email de cancelamento de inscrição personalizado e seu próprio URL de cancelamento de inscrição com um clique. Nesse caso, esteja ciente de que o Adobe não está armazenando informações de cancelamento de inscrição. O proprietário das informações de consentimento dos clientes é responsável por gerenciar os dados de consentimento e enviá-los de volta para a Journey Optimizer."
+
+<!--Do not modify - Legal Review Done -->
 
 Ao [selecionar um subdomínio](#subdomains-and-ip-pools) na lista, a opção **[!UICONTROL Habilitar List-Unsubscribe]** é exibida.
 
@@ -123,13 +123,13 @@ O cabeçalho de cancelamento de inscrição da lista oferece dois recursos, que 
 
 O recurso **[!UICONTROL Mailto (cancelar assinatura)]** e o recurso **[!UICONTROL URL de cancelamento de assinatura]** com um clique são opcionais.
 
-Se você não quiser usar o URL de cancelamento de inscrição de um clique gerado padrão, é possível desmarcar o recurso. No cenário em que a opção **[!UICONTROL Habilitar List-Unsubscribe]** está ativada e o recurso **[!UICONTROL Cancelar inscrição da URL]** com um clique está desmarcado, se você adicionar um [link para opção de não participação com um clique](../privacy/opt-out.md#one-click-opt-out) a uma mensagem criada usando essa configuração, o cabeçalho de cancelamento de inscrição da Lista selecionará o link para opção de não participação com um clique inserido no corpo do email e o usará como o valor da URL para cancelamento de inscrição com um clique.
+Se você não quiser usar o URL de cancelamento de inscrição de um clique gerado padrão, é possível desmarcar o recurso. No cenário em que a opção **[!UICONTROL Habilitar List-Unsubscribe]** está ativada e o recurso **[!UICONTROL Cancelar inscrição da URL]** com um clique está desmarcado, se você adicionar um [link para opção de não participação com um clique](../email/email-opt-out.md#one-click-opt-out) a uma mensagem criada usando essa configuração, o cabeçalho de cancelamento de inscrição da Lista selecionará o link para opção de não participação com um clique inserido no corpo do email e o usará como o valor da URL para cancelamento de inscrição com um clique.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Se você não adicionar um link de recusa de um clique no conteúdo da mensagem e o URL padrão de cancelamento de inscrição com um clique estiver desmarcado nas configurações do canal, nenhum URL será transmitido para o cabeçalho do email como parte do cabeçalho de cancelamento de inscrição da lista.
+>Se você não adicionar um link de recusa de um clique no conteúdo da mensagem e a **[!UICONTROL URL de cancelamento de inscrição]** padrão com um clique estiver desmarcada nas configurações do canal, nenhuma URL será passada para o cabeçalho do email como parte do cabeçalho de cancelamento de inscrição da Lista.
 
 Saiba mais sobre como gerenciar recursos de cancelamento de inscrição em suas mensagens [nesta seção](../email/email-opt-out.md#unsubscribe-header).
 
