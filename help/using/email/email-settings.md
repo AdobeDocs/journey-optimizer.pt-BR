@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
+source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
 workflow-type: tm+mt
-source-wordcount: '2801'
+source-wordcount: '2854'
 ht-degree: 11%
 
 ---
@@ -143,17 +143,20 @@ Na seção **[!UICONTROL Parâmetros de cabeçalho]**, digite os nomes e endere�
 >
 >Para ter maior controle sobre as configurações de email, você pode personalizar os parâmetros do cabeçalho. [Saiba mais](../email/surface-personalization.md#personalize-header)
 
-* **[!UICONTROL Nome do remetente]**: o nome do remetente, como o nome da sua marca.
-* **[!UICONTROL Email do remetente]**: o endereço de email que você deseja usar para suas comunicações.
-* **[!UICONTROL Responder a (nome)]**: o nome que será usado quando o destinatário clicar no botão **Responder** no software cliente de email.
-* **[!UICONTROL Responder para (email)]**: o endereço de email que será usado quando o destinatário clicar no botão **Responder** no software cliente de email. [Saiba mais](#reply-to-email)
-* **[!UICONTROL Email de erro]**: todos os erros gerados pelos ISPs após alguns dias de entrega de emails (rejeições assíncronas) são recebidos neste endereço. As notificações de ausência do escritório e as respostas a desafios também são recebidas neste endereço.
+* **[!UICONTROL De nome]**: o nome do remetente, como o nome da sua marca.
+* **[!UICONTROL Do prefixo de email]**: o endereço de email que você deseja usar para suas comunicações.
+* **[!UICONTROL Responder ao nome]**: o nome que será usado quando o destinatário clicar no botão **Responder** no software cliente de email.
+* **[!UICONTROL Responder ao email]**: o endereço de email que será usado quando o destinatário clicar no botão **Responder** no software cliente de email. [Saiba mais](#reply-to-email)
+* **[!UICONTROL Prefixo do email de erro]**: todos os erros gerados pelos ISPs após alguns dias de entrega de emails (rejeições assíncronas) são recebidos neste endereço. As notificações de ausência do escritório e as respostas a desafios também são recebidas neste endereço.
 
   Se você quiser receber notificações de ausência do escritório e respostas de desafio em um endereço de email específico que não esteja delegado ao Adobe, será necessário configurar um [processo de encaminhamento](#forward-email). Nesse caso, verifique se você tem uma solução manual ou automatizada para processar os emails que chegam a essa caixa de entrada.
 
->[!CAUTION]
+>[!NOTE]
 >
->Os endereços de **[!UICONTROL Email do remetente]** e **[!UICONTROL Email de erro]** devem usar o [subdomínio delegado](../configuration/about-subdomain-delegation.md) selecionado no momento. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você poderá usar *contact@marketing.luma.com* e *error@marketing.luma.com*.
+>Os endereços **[!UICONTROL De prefixo de email]** e **[!UICONTROL Erro prefixo de email]** usam o [subdomínio delegado](../configuration/about-subdomain-delegation.md) selecionado no momento para enviar o email. Por exemplo, se o subdomínio delegado for *marketing.luma.com*:
+>* Inserir *contato* como **[!UICONTROL Do prefixo de email]** - o email do remetente é *contact@marketing.luma.com*.
+>* Digite *erro* como **[!UICONTROL Prefixo do email de erro]** - o endereço de erro é *error@marketing.luma.com*.
+
 
 ![](assets/preset-header.png){width="80%"}
 
@@ -163,9 +166,9 @@ Na seção **[!UICONTROL Parâmetros de cabeçalho]**, digite os nomes e endere�
 
 ### Responder ao email {#reply-to-email}
 
-Ao definir o endereço **[!UICONTROL Responder para (email)]**, você pode especificar qualquer endereço de email desde que seja válido, no formato correto e sem nenhum erro de digitação.
+Ao definir o endereço **[!UICONTROL Responder para email]**, você pode especificar qualquer endereço de email, desde que seja um endereço válido, no formato correto e sem nenhum erro de digitação.
 
-A caixa de entrada usada para respostas receberá todos os emails de resposta, exceto notificações de ausência temporária e respostas de desafio, que são recebidos no endereço de **[!UICONTROL email de erro]**.
+A caixa de entrada usada para respostas receberá todos os emails de resposta, exceto notificações de ausência temporária e respostas de desafio, que são recebidos no endereço de **email de erro**.
 
 Para garantir o gerenciamento de respostas adequado, siga as recomendações abaixo:
 
@@ -175,7 +178,7 @@ Para garantir o gerenciamento de respostas adequado, siga as recomendações aba
 
 * Não marque mensagens como spam na caixa de entrada de resposta, pois isso afetará todas as outras respostas enviadas para esse endereço.
 
-Além disso, ao definir o endereço **[!UICONTROL Responder para (email)]**, certifique-se de usar um subdomínio que tenha uma configuração de registro MX válida; caso contrário, o processamento da configuração de email falhará.
+Além disso, ao definir o endereço **[!UICONTROL Responder para email]**, certifique-se de usar um subdomínio que tenha uma configuração de registro MX válida; caso contrário, o processamento da configuração de email falhará.
 
 Se você receber um erro ao enviar a configuração de email, significa que o registro MX não está configurado para o subdomínio do endereço inserido. Entre em contato com o administrador para configurar o registro MX correspondente ou use outro endereço com uma configuração de registro MX válida.
 
@@ -189,7 +192,7 @@ Para encaminhar para um endereço de email específico todos os emails recebidos
 
 >[!NOTE]
 >
->Se o subdomínio usado para o endereço **[!UICONTROL Responder para (email)]** não for delegado ao Adobe, o encaminhamento não poderá funcionar para esse endereço.
+>Se o subdomínio usado para o endereço **[!UICONTROL Responder para email]** não for delegado ao Adobe, o encaminhamento não poderá funcionar para esse endereço.
 
 Você precisa fornecer:
 
@@ -204,7 +207,11 @@ Você precisa fornecer:
 
 O endereço de email de encaminhamento é configurado pelo Adobe. Isso pode levar de 3 a 4 dias.
 
-Depois de concluído, todas as mensagens recebidas nos endereços **[!UICONTROL Responder para (email)]** e **[!UICONTROL Email de erro]** serão encaminhadas para o endereço de email específico fornecido.
+Depois de concluído, todas as mensagens recebidas nos endereços **[!UICONTROL Responder para email]** e **Email de erro**, bem como todos os emails enviados para o endereço **De email**, serão encaminhados para o endereço de email específico fornecido.
+
+>[!NOTE]
+>
+>Por padrão, se o encaminhamento não estiver habilitado, os emails enviados diretamente para o endereço **Do email** serão descartados.
 
 ## Email com CCO {#bcc-email}
 
