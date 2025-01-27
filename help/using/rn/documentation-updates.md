@@ -8,16 +8,28 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
+source-git-commit: 1365e84642d08d2e196f350530a39eaf93cdcb5f
 workflow-type: tm+mt
-source-wordcount: '5767'
-ht-degree: 100%
+source-wordcount: '5888'
+ht-degree: 97%
 
 ---
 
 # Atualizações na documentação {#latest-updates}
 
 Esta página lista todas as atualizações mais recentes na documentação do [!DNL Journey Optimizer].
+
+## Janeiro de 2025 {#jan-2025}
+
+* Uma nova seção sobre a opção **[!UICONTROL Endereço de execução]** na configuração de email foi adicionada. O endereço principal é definido no nível da sandbox, mas a configuração padrão pode ser substituída por uma configuração de email específica. [Leia mais](../email/email-settings.md#execution-address)
+
+* A página **Introdução à capacidade de entrega** foi atualizada com a possibilidade de criar fluxos de trabalho de aquecimento de IP diretamente da interface do usuário. [Leia mais](../reports/deliverability.md#reputation)
+
+* A seção **Parâmetros de cabeçalho** foi atualizada para refletir os novos rótulos e as alterações na interface. [Leia mais](../email/email-settings.md#email-header)
+
+* A seção **Encaminhar email** foi atualizada para especificar que todos os emails enviados para o endereço **De email** são encaminhados para o endereço de email de encaminhamento. Se nenhum email de encaminhamento for especificado, esses emails serão descartados. [Leia mais](../email/email-settings.md##forward-email)
+
+<!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
 ## Dezembro de 2024 {#nov-2024}
 
@@ -30,7 +42,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Aprimoramento da página **Configurar a experiência baseada em código** para tornar o processo mais claro, incluindo a seção que explica o que é um URI de superfície. [Leia mais](../code-based/code-based-configuration.md)
 * Atualização da página **Criar configuração de canal da web** para esclarecer as etapas para criar uma regra de correspondência de páginas, que também se aplica à configuração da experiência baseada em código. [Leia mais](../web/web-configuration.md#web-page-matching-rule)
 * Adição de uma observação sobre a futura medida de proteção de TTL (tempo de vida) para conjuntos de dados gerados pelo sistema. [Leia mais](../data/get-started-datasets.md)
-* Adição de uma nova seção para descrever como visualizar experiências personalizadas baseadas em código diretamente no navegador ou em dispositivos móveis usando a opção “Visualizar no dispositivo” ao simular o conteúdo em uma jornada ou campanha. [Leia mais](../code-based/test-code-based.md#preview-on-device)
+* Uma nova seção foi adicionada para descrever como visualizar suas experiências personalizadas baseadas em código diretamente do seu navegador ou de seus dispositivos móveis, usando a opção **Visualizar no dispositivo** ao simular conteúdo em uma jornada ou campanha. [Leia mais](../code-based/test-code-based.md#preview-on-device)
 * Adição de uma nova página sobre como aproveitar os públicos-alvo de upload personalizados para a tomada de decisões. [Leia mais](../offers/custom-upload-decisioning.md)
 * Adição de uma nova página para apresentar os recursos de decisão disponíveis no Journey Optimizer. [Leia mais](../experience-decisioning/gs-decision.md)
 * Adição de medidas de proteção e limitações à documentação de decisão. [Leia mais](../experience-decisioning/gs-experience-decisioning.md#guardrails)
