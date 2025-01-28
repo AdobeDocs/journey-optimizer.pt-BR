@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 25%
+source-wordcount: '1062'
+ht-degree: 11%
 
 ---
 
@@ -35,10 +35,12 @@ Você também pode optar por mostrar todos os fragmentos ou somente os itens que
 
 No botão **[!UICONTROL Mais ações]** ao lado de cada fragmento, é possível:
 
-* Duplique um fragmento.
+<!--* Add to package
+* Open draft version-->
+* Duplique o fragmento.
 * Use a opção **[!UICONTROL Explorar referências]** para ver as jornadas, campanhas ou modelos em que é usado. [Saiba mais](#explore-references)
-* Arquivar um fragmento. [Saiba mais](#archive-fragments)
-* Edite as marcas de um fragmento [Saiba como trabalhar com marcas unificadas](../start/search-filter-categorize.md#tags).
+* Arquive o fragmento. [Saiba mais](#archive-fragments)
+* Edite as tags do fragmento. [Saiba como trabalhar com marcas unificadas](../start/search-filter-categorize.md#tags)
 
 ![](assets/fragment-list-more-actions.png)
 
@@ -47,7 +49,7 @@ No botão **[!UICONTROL Mais ações]** ao lado de cada fragmento, é possível:
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Novos status de fragmentos"
->abstract="Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status “Rascunho”, mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los “Ativos” e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. <br/>A publicação requer a permissão de usuário <a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Fragmento de publicação</a>."
+>abstract="Desde que os status do **Rascunho** e do **Live** foram introduzidos na versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status de **Rascunho**, mesmo que sejam usados em uma jornada ou campanha. Se você fizer qualquer alteração nesses fragmentos, precisará publicá-los para torná-los **Live** e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. <br/>A publicação requer a permissão de usuário <a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Fragmento de publicação</a>."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Saiba mais sobre permissões de fragmentos de conteúdo"
 
 Os fragmentos podem ter vários status:
@@ -63,7 +65,7 @@ Os fragmentos podem ter vários status:
 
 >[!CAUTION]
 >
->Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status “Rascunho”, mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los “Ativos” e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. A publicação requer a permissão de usuário [Fragmento de Publish](../administration/ootb-product-profiles.md#content-library-manager).
+>Desde que os status do **Rascunho** e do **Live** foram introduzidos na versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status de **Rascunho**, mesmo que sejam usados em uma jornada ou campanha. Se você fizer qualquer alteração nesses fragmentos, precisará publicá-los para torná-los **Live** e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. A publicação requer a permissão de usuário [Fragmento de Publish](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Editar fragmentos {#edit-fragments}
 
@@ -83,21 +85,47 @@ Para editar um fragmento, siga as etapas abaixo.
 
 1. As propriedades do fragmento são abertas com uma visualização de seu conteúdo.
 
-1. Se o fragmento que está sendo editado tiver o status **Ativo**, clique no botão **Modificar** para criar uma versão de rascunho do fragmento. A versão atual do fragmento continuará ativa, até que você publique a versão de rascunho.
-
-1. Faça as alterações desejadas no fragmento. Para editar o conteúdo, clique no botão **Editar** e edite o conteúdo da mesma maneira que faria ao criar um fragmento do zero. [Saiba como criar um fragmento](#create-from-scratch)
+1. Se o fragmento que está sendo editado tiver o status **[!UICONTROL Ativo]**, clique no botão **[!UICONTROL Modificar]** para criar uma versão de rascunho do fragmento.
 
    >[!NOTE]
    >
-   >Ao editar um fragmento, você pode remover qualquer campo de personalização, mas não pode adicionar novos ao conteúdo do fragmento. Se quiser adicionar campos de personalização, duplique o fragmento para criar um novo.
+   >A versão atual do fragmento continuará ativa, até que você publique a versão de rascunho.
 
-   Você também pode verificar a lista de jornadas, campanhas e modelos de conteúdo em que o fragmento está sendo usado no momento selecionando a opção **Referências do Explorer**. [Saiba mais](#explore-references)
+1. Faça as alterações desejadas no fragmento. Para editar o conteúdo, clique no botão **[!UICONTROL Editar]** e atualize-o da mesma maneira que faria ao criar um fragmento do zero. [Saiba como criar um fragmento](#create-from-scratch)
+
+   >[!NOTE]
+   >
+   >Ao editar um fragmento publicado, você pode remover qualquer campo de personalização, mas não pode adicionar novos ao conteúdo do fragmento. Se quiser adicionar atributos personalizados, duplique o fragmento. [Saiba mais](#adding-new-attributes)
+
+1. Você também pode verificar a lista de jornadas, campanhas e modelos de conteúdo em que o fragmento está sendo usado no momento selecionando a opção **Referências do Explorer**. [Saiba mais](#explore-references)
 
    ![](assets/fragment-edit.png)
 
 1. Quando as alterações estiverem prontas, clique no botão **Publish** para ativar as modificações.
 
-Ao editar um fragmento, as alterações são propagadas automaticamente para todo o conteúdo usando esse fragmento, incluindo jornadas e campanhas ativas, com exceção do conteúdo em que você interrompeu a herança do fragmento original. Saiba como interromper a herança nas seções [Adicionar fragmentos visuais aos seus emails](../email/use-visual-fragments.md#break-inheritance) e [Aproveitar fragmentos de expressão](../personalization/use-expression-fragments.md#break-inheritance).
+Ao editar um fragmento, as alterações são propagadas automaticamente para todo o conteúdo usando esse fragmento, incluindo jornadas e campanhas ativas, exceto para conteúdo em que você interrompeu a herança do fragmento original.
+
+>[!NOTE]
+>
+>Saiba como interromper a herança nas seções [Adicionar fragmentos visuais aos seus emails](../email/use-visual-fragments.md#break-inheritance) e [Aproveitar fragmentos de expressão](../personalization/use-expression-fragments.md#break-inheritance).
+
+## Adicionar novos atributos a um fragmento em tempo real {#adding-new-attributes}
+
+>[!WARNING]
+>
+>Não há suporte para a adição de novos atributos a um fragmento ativo.
+
+Depois que um fragmento é publicado, o conjunto de atributos personalizados ou contextuais é bloqueado para todas as campanhas e jornadas que fazem referência a ele.
+
+Para incorporar atributos adicionais a um fragmento ativo, siga as etapas abaixo.
+
+1. Duplique o fragmento existente.
+
+1. Adicione os atributos necessários à versão de rascunho duplicada.
+
+1. Publish a nova versão.
+
+1. Atualize quaisquer campanhas ou jornadas para fazer referência ao fragmento atualizado em que os novos atributos foram adicionados.
 
 ## Explorar referências {#explore-references}
 
