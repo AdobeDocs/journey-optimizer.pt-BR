@@ -6,10 +6,10 @@ topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 72%
 
 ---
 
@@ -25,6 +25,10 @@ A exportação cria um conjunto de dados para cada objeto da Biblioteca de ofert
 * Decisões
 
 Cada vez que um desses objetos é modificado na Biblioteca de ofertas, um novo processo de exportação é executado automaticamente para atualizar os conjuntos de dados.
+
+>[!NOTE]
+>
+>Esse recurso é ativado por padrão. Você pode começar a usá-lo sem nenhuma etapa de ativação adicional. Depois de habilitado, os trabalhos de exportação serão automatizados e não exigirão nenhuma ação da sua parte.
 
 <!--
 >[!NOTE]
