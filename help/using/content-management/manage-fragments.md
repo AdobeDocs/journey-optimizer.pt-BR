@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
+source-git-commit: abbc5c77545f30ac2d70d718f605acd30f7e7830
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 11%
+source-wordcount: '1075'
+ht-degree: 12%
 
 ---
 
@@ -81,27 +81,31 @@ Os fragmentos podem ter vários status:
 
 Para editar um fragmento, siga as etapas abaixo.
 
-1. Clique no fragmento desejado na lista **[!UICONTROL Fragmentos]**.
+1. Clique no fragmento desejado na lista **[!UICONTROL Fragmentos]**. A tela de propriedades do fragmento é aberta com uma pré-visualização do conteúdo.
 
-1. As propriedades do fragmento são abertas com uma visualização de seu conteúdo.
+1. Verifique a lista de jornadas, campanhas e modelos de conteúdo em que o fragmento está sendo usado no momento selecionando a opção **[!UICONTROL Explorar referências]**. [Saiba mais](#explore-references)
+
+   ![](assets/fragment-edit-references.png)
 
 1. Se o fragmento que está sendo editado tiver o status **[!UICONTROL Ativo]**, clique no botão **[!UICONTROL Modificar]** para criar uma versão de rascunho do fragmento.
 
+   <!--![](assets/fragment-live-modify.png)-->
+
    >[!NOTE]
    >
-   >A versão atual do fragmento continuará ativa, até que você publique a versão de rascunho.
+   >A versão atual do fragmento continuará ativa, até que você publique a nova versão atualizada.
 
-1. Faça as alterações desejadas no fragmento. Para editar o conteúdo, clique no botão **[!UICONTROL Editar]** e atualize-o da mesma maneira que faria ao criar um fragmento do zero. [Saiba como criar um fragmento](#create-from-scratch)
+1. Faça as alterações desejadas no fragmento.
+
+1. Para modificar o conteúdo, clique no botão **[!UICONTROL Editar]** e atualize seu conteúdo da mesma maneira que faria ao criar um fragmento do zero. [Saiba como criar um fragmento](#create-from-scratch)
+
+   ![](assets/fragment-edit.png)
 
    >[!NOTE]
    >
    >Ao editar um fragmento publicado, você pode remover qualquer campo de personalização, mas não pode adicionar novos ao conteúdo do fragmento. Se quiser adicionar atributos personalizados, duplique o fragmento. [Saiba mais](#adding-new-attributes)
 
-1. Você também pode verificar a lista de jornadas, campanhas e modelos de conteúdo em que o fragmento está sendo usado no momento selecionando a opção **Referências do Explorer**. [Saiba mais](#explore-references)
-
-   ![](assets/fragment-edit.png)
-
-1. Quando as alterações estiverem prontas, clique no botão **Publish** para ativar as modificações.
+1. Quando as alterações estiverem prontas, salve-as e clique no botão **Publish** para ativar as modificações.
 
 Ao editar um fragmento, as alterações são propagadas automaticamente para todo o conteúdo usando esse fragmento, incluindo jornadas e campanhas ativas, exceto para conteúdo em que você interrompeu a herança do fragmento original.
 
@@ -113,17 +117,19 @@ Ao editar um fragmento, as alterações são propagadas automaticamente para tod
 
 >[!WARNING]
 >
->Não há suporte para a adição de novos atributos a um fragmento ativo.
+>Não há suporte para a adição de novos [atributos personalizados](../personalization/personalization-build-expressions.md) a um fragmento ativo.
 
 Depois que um fragmento é publicado, o conjunto de atributos personalizados ou contextuais é bloqueado para todas as campanhas e jornadas que fazem referência a ele.
 
 Para incorporar atributos adicionais a um fragmento ativo, siga as etapas abaixo.
 
-1. Duplique o fragmento existente.
+1. Duplique o fragmento existente usando o botão **[!UICONTROL Mais ações]**.
 
-1. Adicione os atributos necessários à versão de rascunho duplicada.
+   ![](assets/fragment-list-more-actions.png)
 
-1. Publish a nova versão.
+1. [Adicione os novos atributos desejados](../personalization/personalization-build-expressions.md#add) à versão de rascunho duplicada.
+
+1. Publish a nova versão. [Saiba como](create-fragments.md#publish)
 
 1. Atualize quaisquer campanhas ou jornadas para fazer referência ao fragmento atualizado em que os novos atributos foram adicionados.
 
