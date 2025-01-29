@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 8c7fca7789931fbae6ac5d4821bc051ff9eb0923
+source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 2%
@@ -65,8 +65,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 -d '{
     "xdm:propositionRequests": [
         {
-            "xdm:activityId": "xcore:offer-activity:15ded04b1786ea27",
-            "xdm:placementId": "xcore:offer-placement:15d9bc01d35e1238"
+            "xdm:activityId": "dps:offer-activity:15ded04b1786ea27",
+            "xdm:placementId": "dps:offer-placement:15d9bc01d35e1238"
         }
     ],
     "xdm:profiles": [
@@ -105,8 +105,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | Propriedade | Descrição | Exemplo |
 | -------- | ----------- | ------- |
 | `xdm:propositionRequests` | Esse objeto contém os identificadores de posicionamento e decisão. |
-| `xdm:propositionRequests.xdm:placementId` | O identificador de posicionamento exclusivo. | `"xdm:placementId": "xcore:offer-placement:ffed0456"` |
-| `xdm:propositionRequests.xdm:activityId` | O identificador de decisão exclusivo. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
+| `xdm:propositionRequests.xdm:placementId` | O identificador de posicionamento exclusivo. | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
+| `xdm:propositionRequests.xdm:activityId` | O identificador de decisão exclusivo. | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | O número de ofertas a serem retornadas. O número máximo é 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Esse objeto mantém informações sobre o perfil para o qual a decisão é solicitada. Para uma solicitação de API, ela conterá um perfil. |
 | `xdm:profiles.xdm:identityMap` | Esse objeto mantém um conjunto de identidades de usuário final com base no código de integração de namespace da identidade. O mapa de identidade pode conter mais de uma identidade de cada namespace. Para obter mais informações sobre namespaces, consulte [esta página](../../../audience/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
@@ -132,22 +132,22 @@ Uma resposta bem-sucedida retorna informações sobre sua proposta, incluindo a 
   "xdm:propositions": [
     {
       "xdm:activity": {
-        "xdm:id": "xcore:activity:ffed0123",
+        "xdm:id": "dps:activity:ffed0123",
         "repo:etag": 4
       },
       "xdm:placement": {
-        "xdm:id": "xcore:placement:ffed0456",
+        "xdm:id": "dps:placement:ffed0456",
         "repo:etag": 1
       },
       "xdm:options": [
         {
-          "xdm:id": "xcore:personalized-option:ccc0111",
+          "xdm:id": "dps:personalized-option:ccc0111",
           "repo:etag": 3,
           "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
           "xdm:content": "<html>some html</html>"
         },
         {
-          "xdm:id": "xcore:personalized-option:ccc0222",
+          "xdm:id": "dps:personalized-option:ccc0222",
           "repo:etag": 5,
           "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
           "xdm:content": "<html>hello, world</html>",
@@ -157,15 +157,15 @@ Uma resposta bem-sucedida retorna informações sobre sua proposta, incluindo a 
     },
     {
       "xdm:activity": {
-        "xdm:id": "xcore:activity:ffed0123",
+        "xdm:id": "dps:activity:ffed0123",
         "repo:etag": 4
       },
       "xdm:placement": {
-        "xdm:id": "xcore:placement:ffed0789",
+        "xdm:id": "dps:placement:ffed0789",
         "repo:etag": 2
       },
       "xdm:fallback": {
-        "xdm:id": "xcore:fallback:ccc0222",
+        "xdm:id": "dps:fallback:ccc0222",
         "repo:etag": 5,
         "@type": "https://ns.adobe.com/experience/decisioning/content-component-imagelink",
         "dc:format": "image/png",
@@ -182,13 +182,13 @@ Uma resposta bem-sucedida retorna informações sobre sua proposta, incluindo a 
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | O identificador exclusivo da entidade de proposta associada a um XDM DecisionEvent. | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
 | `xdm:propositions` | Esse objeto contém uma única apresentação de decisão. Várias opções podem ser retornadas para a decisão. Se nenhuma opção for encontrada, a oferta de fallback da decisão será retornada. Proposições de decisão única sempre incluem uma propriedade `options` ou uma propriedade `fallback`. Quando presente, a propriedade `options` não pode estar vazia. |
-| `xdm:propositions.xdm:activity` | Este objeto contém o identificador exclusivo de uma decisão. | `"xdm:id": "xcore:activity:ffed0123"` |
-| `xdm:propositions.xdm:placement` | Este objeto contém o identificador exclusivo para uma disposição de oferta. | `"xdm:id": "xcore:placement:ffed0456"` |
-| `xdm:propositions.xdm:options` | Este objeto contém uma única opção, incluindo seu identificador exclusivo. Se presente, esse objeto não pode estar vazio. | `xdm:id": "xcore:personalized-option:ccc0111` |
+| `xdm:propositions.xdm:activity` | Este objeto contém o identificador exclusivo de uma decisão. | `"xdm:id": "dps:activity:ffed0123"` |
+| `xdm:propositions.xdm:placement` | Este objeto contém o identificador exclusivo para uma disposição de oferta. | `"xdm:id": "dps:placement:ffed0456"` |
+| `xdm:propositions.xdm:options` | Este objeto contém uma única opção, incluindo seu identificador exclusivo. Se presente, esse objeto não pode estar vazio. | `xdm:id": "dps:personalized-option:ccc0111` |
 | `xdm:propositions.xdm:options.@type` | Define o tipo do componente. `@type` atua como o contrato de processamento do cliente. Quando a experiência for montada, o compositor procurará os componentes que tenham um tipo específico. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
 | `xdm:propositions.xdm:content` | O formato do conteúdo da resposta. | O conteúdo da resposta pode ser: `text`, `html block` ou `image link` |
 | `xdm:score` | A pontuação de uma opção que é calculada como resultado de uma função de classificação associada à opção ou à decisão. Esse campo será retornado pela API se uma função de classificação estiver envolvida na determinação da pontuação de uma oferta durante a classificação. | `"xdm:score": 45.65` |
-| `xdm:propositions.xdm:fallback` | Esse objeto contém uma única oferta substituta, incluindo seu identificador exclusivo. | `"xdm:id": "xcore:fallback:ccc0222"` |
+| `xdm:propositions.xdm:fallback` | Esse objeto contém uma única oferta substituta, incluindo seu identificador exclusivo. | `"xdm:id": "dps:fallback:ccc0222"` |
 | `xdm:propositions.xdm:fallback.dc:format` | A manifestação física ou digital do recurso. Normalmente, o formato deve incluir o tipo de mídia do recurso. O formato pode ser usado para determinar o software, hardware ou outro equipamento necessário para exibir ou operar o recurso. É recomendável selecionar um valor de um vocabulário controlado, por exemplo, a lista de [Tipos de mídia da Internet](https://www.iana.org/assignments/media-types/) definindo formatos de mídia de computador. | `"dc:format": "image/png"` ou `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Um URL opcional para ler o ativo de uma rede de entrega de conteúdo ou ponto de extremidade de serviço. Esse URL é usado para acessar o ativo publicamente de um agente do usuário. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | A hora em que a mensagem de resposta de decisão foi criada. Isso é representado como época. | `"ode:createDate": 1566497582038` |
