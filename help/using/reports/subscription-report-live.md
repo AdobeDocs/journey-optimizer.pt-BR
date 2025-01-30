@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Relatório ao vivo de inscrições
+title: Relatório em tempo real de assinaturas
 description: Saiba como usar os dados de seus serviços de assinatura com o relatório online de assinatura
 feature: Reporting, Subscriptions
 topic: Content Management
@@ -15,11 +15,11 @@ ht-degree: 20%
 
 ---
 
-# Relatório ao vivo de inscrições {#subscription-report-live}
+# Relatório em tempo real de assinaturas {#subscription-report-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_live_report"
->title="Relatório ao vivo de inscrições"
+>title="Relatório em tempo real de assinaturas"
 >abstract="O relatório em tempo real de inscrições permite medir e visualizar em tempo real a atividade de inscritos somente nas últimas 24 horas. O relatório é dividido em diferentes widgets detalhando inscrições e cancelamentos de inscrição. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 Os relatórios em tempo real, acessíveis a partir da guia Últimas 24 horas, exibem eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento. Em comparação, os relatórios de Customer Journey Analytics se concentram em eventos que ocorreram há pelo menos duas horas e abrangem eventos durante um período selecionado.
