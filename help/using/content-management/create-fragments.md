@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 15%
 
 ---
@@ -83,7 +83,7 @@ Se o fragmento estiver pronto para entrar no ar, você poderá visualizá-lo e p
 
 1. Volte para a tela de criação do fragmento depois de criar o conteúdo ou abra-o a partir da lista de fragmentos.
 
-1. Uma visualização do fragmento está disponível no campo **[!UICONTROL Tags]**, permitindo verificar sua renderização. Se precisar fazer alguma alteração, clique no botão **[!UICONTROL Editar]** na seção superior da tela para abrir o Designer de email ou o editor de personalização, dependendo do tipo de fragmento.
+1. Uma visualização do fragmento está disponível no campo **[!UICONTROL Tags]**, permitindo verificar sua renderização. Se precisar fazer alguma alteração, clique no botão **[!UICONTROL Editar]** na seção superior da tela para abrir o Designer de email ou o editor de personalização, dependendo do tipo de fragmento. [Saiba mais](manage-fragments.md#edit-fragments)
 
    ![](assets/fragment-preview.png)
 

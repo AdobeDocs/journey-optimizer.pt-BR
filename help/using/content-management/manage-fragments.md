@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1148'
 ht-degree: 11%
 
 ---
@@ -38,7 +38,7 @@ Você também pode optar por mostrar todos os fragmentos ou somente os itens que
 No botão **[!UICONTROL Mais ações]** ao lado de cada fragmento, é possível:
 
 * Adicione-o a um pacote para exportação. [Saiba mais](#export)
-* Se o fragmento estiver ativo, abra uma versão de rascunho para editá-lo. [Saiba mais](#edit-fragments)
+* Se um fragmento em tempo real estiver sendo editado, abra a versão de rascunho desse fragmento. [Saiba mais](#edit-fragments)
 * Duplique o fragmento.
 * Use a opção **[!UICONTROL Explorar referências]** para ver as jornadas, campanhas ou modelos em que é usado. [Saiba mais](#explore-references)
 * Arquive o fragmento. [Saiba mais](#archive-fragments)
