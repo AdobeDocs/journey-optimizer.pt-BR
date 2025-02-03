@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,25 @@ No Decisioning, os catálogos servem como contêineres centrais para organizar i
 Por enquanto, todos os itens de decisão criados são consolidados em um único catálogo &quot;Ofertas&quot;, acessível pelo menu **[!UICONTROL Catálogos]**.
 
 ![](assets/catalogs-list.png)
+
+## Medidas de proteção e limitações
+
+Para garantir desempenho e consistência ideais, o Decisioning impõe as seguintes medidas de proteção e limitações:
+
+* **Tipos de dados com suporte**
+
+  Por enquanto, a Decisão suporta exclusivamente os seguintes tipos de dados: String, Integer, Boolean, Date, DateTime, Decisioning Asset e Object. Qualquer campo fora desses tipos de dados não estará disponível para uso ao criar um item de decisão ou um catálogo.
+
+
+* **Limite de atributo personalizado**
+
+  Cada item de decisão pode incluir até 100 atributos personalizados.
+
+* **Aninhando restrições**
+
+  Há suporte para no máximo quatro níveis de aninhamento. Imagens não são compatíveis no último nível.
+
+## Acessar e editar o esquema do catálogo
 
 Para acessar o schema do catálogo em que os atributos dos itens de decisão são armazenados, siga estas etapas:
 
@@ -38,16 +57,14 @@ Para acessar o schema do catálogo em que os atributos dos itens de decisão sã
 
 1. Preencha os campos necessários para o atributo adicionado e clique em **[!UICONTROL Aplicar]**.
 
-   >[!CAUTION]
-   >
-   >Por enquanto, a Decisão suporta exclusivamente os seguintes tipos de dados: String, Integer, Boolean, Date, DateTime e Decisioning Asset. Qualquer campo fora desses tipos de dados não estará disponível para uso ao criar um item de decisão ou um catálogo.
-
    O valor inserido em um atributo com atributo de ativo de decisão é um url público. Na maioria das vezes, isso apontaria para uma imagem.
 
    Informações detalhadas sobre como trabalhar com esquemas do Adobe Experience Platform estão disponíveis na [documentação do Sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR).
 
 1. Depois que os atributos personalizados desejados forem adicionados, salve o esquema. O novo campo agora está disponível na tela de criação do item de decisão, na seção **[!UICONTROL Atributos personalizados]**.
 
->[!NOTE]
->
->Um item de decisão pode incluir no máximo 100 atributos personalizados. [Saiba mais sobre as medidas de proteção e limitações da decisão](gs-experience-decisioning.md#guardrails)
+
+   O exemplo abaixo mostra uma tela de criação de item com atributos personalizados, como objetos definidos no esquema.
+
+   ![](assets/custom-attributes.png)
+
