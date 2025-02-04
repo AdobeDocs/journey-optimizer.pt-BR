@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 87a9baf1ee042bb4386fdc2bd631637e3cc9859e
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '1037'
 ht-degree: 2%
 
 ---
 
 # Relatório de jornada por email {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Como a Apple apresentou novos recursos de proteção de privacidade para seu aplicativo de email nativo, incluindo a Proteção de privacidade de email, os remetentes não podem mais usar pixels de rastreamento para coletar dados em perfis que ativaram a Proteção de privacidade de email da Apple. Consequentemente, a capacidade do Adobe Journey Optimizer de rastrear aberturas de email usando pixels de rastreamento pode ser afetada. [Saiba mais](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) sobre o impacto das alterações na privacidade do Apple iOS no marketing por email.
+
+Recomendamos o foco em cliques e métricas de conversão, em vez de taxas abertas, para obter insights mais precisos.
+
+>[!ENDSHADEBOX]
 
 ## Tendência de Entregas vs. Cliques {#delivered-click}
 
