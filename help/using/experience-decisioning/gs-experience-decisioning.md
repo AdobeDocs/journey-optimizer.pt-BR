@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '642'
 ht-degree: 16%
 
 ---
 
 # Introdução ao serviço de Decisão {#get-started-experience-decisioning}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_enable_experience_decisioning"
+>title="O que é a tomada de decisão?"
+>abstract="A decisão é uma nova ferramenta, além da Gestão de decisões, para escolher os melhores itens do mecanismo de decisão e entregá-los a cada indivíduo. Ela requer configuração adicional para ser usada."
 
 ## O que é a decisão {#about}
 
