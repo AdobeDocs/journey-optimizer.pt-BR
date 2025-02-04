@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 3fae8e27dd043762ba4e5e2705300798298fc613
+source-git-commit: 962366b6e7eb959d24411a5b383678a5a183ad75
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 41%
@@ -100,19 +100,19 @@ Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos 
 * **[!UICONTROL Método]**: selecione o método POST ou GET. No nosso caso, selecionamos o método GET.
 * **[!UICONTROL Valores Dinâmicos]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. [Saiba mais](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Carga de resposta]**: clique dentro do campo **[!UICONTROL Carga]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Colar uma nova carga]** se desejar alterar a carga transmitida no momento.
-
 * **[!UICONTROL Carga Enviada]**: este campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
 
-No caso de uma chamada GET que exige parâmetros, você insere os parâmetros no campo **[!UICONTROL Valores dinâmicos]** e eles são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
+  No caso de uma chamada GET que exige parâmetros, você insere os parâmetros no campo **[!UICONTROL Valores dinâmicos]** e eles são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
 
-* listar os parâmetros a serem transmitidos no momento da chamada no campo **[!UICONTROL Valores Dinâmicos]** (no exemplo abaixo: &quot;identificador&quot;).
-* especificá-los também com a mesma sintaxe no corpo da carga útil enviada. Para fazer isso, é necessário adicionar: &quot;param&quot;: &quot;nome do parâmetro&quot; (no exemplo abaixo: &quot;identificador&quot;). Siga a sintaxe abaixo:
+   * listar os parâmetros a serem transmitidos no momento da chamada no campo **[!UICONTROL Valores Dinâmicos]** (no exemplo abaixo: &quot;identificador&quot;).
+   * especificá-los também com a mesma sintaxe no corpo da carga útil enviada. Para fazer isso, é necessário adicionar: &quot;param&quot;: &quot;nome do parâmetro&quot; (no exemplo abaixo: &quot;identificador&quot;). Siga a sintaxe abaixo:
 
-  ```json
-  {"id":{"param":"identifier"}}
-  ```
+     ```json
+     {"id":{"param":"identifier"}}
+     ```
 
-![](assets/journey29.png)
+     ![](assets/journey29.png)
+
 
 1. Clique em **[!UICONTROL Salvar]**.
 
