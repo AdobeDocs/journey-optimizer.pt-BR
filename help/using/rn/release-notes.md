@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 99%
+source-wordcount: '2212'
+ht-degree: 98%
 
 ---
 
@@ -48,6 +48,10 @@ Esta versão vem com as melhorias listadas abaixo.
 **Decisão**
 
 * O Decisioning agora oferece suporte a tipos de dados de Objeto ao editar o esquema do catálogo de itens. [Leia mais](../experience-decisioning/catalogs.md)
+
+**Personalização**
+
+* Novas funções auxiliares de data/hora estão disponíveis para uso no editor de personalização. [Leia mais](../personalization/functions/dates.md)
 
 ## Versão de outubro de 2024 {#24-10-rn}
 
