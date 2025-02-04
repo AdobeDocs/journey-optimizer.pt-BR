@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 3d0576983854b5cc33d8dc956c601b638164a813
+source-git-commit: 098fbf3bdc13cb916804c30a77b72944f0902046
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '423'
 ht-degree: 2%
 
 ---
@@ -67,16 +67,9 @@ Depois de criar e personalizar os [Fragmentos de conteúdo do AEM](https://exper
 
 1. Selecione um **[!UICONTROL Fragmento de conteúdo]** na lista disponível para importar para o conteúdo do Journey Optimizer.
 
-   >[!IMPORTANT]
-   >
-   >Somente **[!UICONTROL Fragmentos de conteúdo]** publicados podem ser usados.
-
 1. Clique em **[!UICONTROL Mostrar filtros]** para ajustar a lista de Fragmentos de conteúdo.
 
-   O seletor de Fragmento de conteúdo inclui filtros pré-configurados:
-
-   * **[!UICONTROL Status]**: publicado, Modificado
-   * **[!UICONTROL Marca]**: definida automaticamente com base no seu ambiente do Journey Optimizer (ID organizacional e sandbox)
+   Por padrão, o filtro de Fragmento de conteúdo é predefinido para exibir somente conteúdo aprovado.
 
    ![](assets/aem_campaign_4.png)
 
@@ -84,7 +77,9 @@ Depois de criar e personalizar os [Fragmentos de conteúdo do AEM](https://exper
 
    ![](assets/aem_campaign_5.png)
 
-1. Escolha os campos desejados em seu **[!UICONTROL Fragmento do conteúdo]** para adicionar ao conteúdo.
+1. Escolha os campos desejados em seu **[!UICONTROL Fragmento do conteúdo]** para adicionar ao conteúdo. Você pode adicionar seu conteúdo ou copiar seu valor.
+
+   Observe que, se você optar por copiar o valor, nenhuma atualização futura do **[!UICONTROL Fragmento do conteúdo]** será refletida em sua campanha ou jornada.
 
    ![](assets/aem_campaign_6.png)
 
