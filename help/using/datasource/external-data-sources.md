@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 49%
+source-wordcount: '1593'
+ht-degree: 41%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 49%
 >title="Fontes de dados externas"
 >abstract="Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias."
 
+## Trabalhar com fontes de dados externas {#gs-ext-data-sources}
+
 Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
 
 >[!NOTE]
 >
->As garantias ao trabalhar com sistemas externos estão listadas em [esta página](../configuration/external-systems.md).
-
->[!NOTE]
+>* As garantias ao trabalhar com sistemas externos estão listadas em [esta página](../configuration/external-systems.md).
 >
->Como as respostas agora são compatíveis, você deve usar ações personalizadas em vez de fontes de dados para casos de uso de fontes de dados externas. Para obter mais informações sobre respostas, consulte esta [seção](../action/action-response.md)
+>* Como as respostas agora são compatíveis, você deve usar ações personalizadas em vez de fontes de dados para casos de uso de fontes de dados externas. Para obter mais informações sobre respostas, consulte esta [seção](../action/action-response.md)
 
 As APIs REST que usam POST ou GET e devolvem JSON são compatíveis. A chave de API, os modos de autenticação básicos e personalizados são compatíveis.
 
@@ -44,7 +44,10 @@ Dois exemplos da chamada de API:
 
 A chamada é composta de um URL principal (_https://api.adobeweather.org/weather_), dois conjuntos de parâmetros (&quot;city&quot; para a cidade e &quot;lat/long&quot; para a latitude e a longitude) e a chave da API (appid).
 
-Estas são as principais etapas para criar e configurar uma nova fonte de dados externa:
+
+## Criar e configurar uma fonte de dados externa {#create-ext-data-sources}
+
+Abaixo estão as principais etapas para criar e configurar uma nova fonte de dados externa:
 
 1. Na lista de fontes de dados, clique em **[!UICONTROL Criar Source de Dados]** para criar uma nova fonte de dados externa.
 
@@ -75,9 +78,12 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
    >[!NOTE]
    >
-   >Quando a chamada de autenticação é executada, a cadeia de caracteres `<username>:<password>`, codificada em base64, é adicionada ao cabeçalho Authentication.
+   >* Quando a chamada de autenticação é executada, a cadeia de caracteres `<username>:<password>`, codificada em base64, é adicionada ao cabeçalho Authentication.
+   >
+   >* O Adobe Journey Optimizer criptografa automaticamente segredos definidos em ações personalizadas. As chaves de criptografia de cada organização são gerenciadas com segurança em um cofre dedicado vinculado à organização. Quando as credenciais são exibidas na interface, elas são mascaradas por padrão para evitar exposição acidental.
 
-   Para obter mais informações sobre o modo de autenticação personalizado, consulte [esta seção](../datasource/external-data-sources.md#custom-authentication-mode). No nosso exemplo, escolhemos o modo de autenticação da chave de API:
+
+   Para obter mais informações sobre o modo de autenticação personalizado, consulte [esta seção](../datasource/external-data-sources.md#custom-authentication-mode). No nosso exemplo, escolhemos o modo de autenticação da chave de API, conforme abaixo:
 
    * **[!UICONTROL Tipo]**: &quot;Chave de API&quot;
    * **[!UICONTROL Nome]**: &quot;appid&quot; (este é o nome do parâmetro da chave de API)
@@ -108,28 +114,28 @@ No caso de uma chamada GET que exige parâmetros, você insere os parâmetros no
 
 ![](assets/journey29.png)
 
-Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
 A fonte de dados agora está configurada e pronta para ser usada em suas jornadas, por exemplo em suas condições ou para personalizar um email. Se a temperatura estiver acima de 30°C, você pode decidir enviar uma comunicação específica.
 
-## Modo de autenticação personalizado{#custom-authentication-mode}
+## Modo de autenticação personalizado {#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="Sobre a autenticação personalizada"
 >abstract="O modo de autenticação personalizado é usado para autenticação complexa para chamar protocolos de empacotamento automático de API, como OAuth2. A execução da ação é um processo em duas etapas. Primeiro, uma chamada para o ponto de acesso é executada para gerar o token de acesso. Em seguida, o token de acesso é inserido na solicitação HTTP da ação."
 
-Esse modo de autenticação é usado para autenticação complexa, frequentemente usada para chamar protocolos de empacotamento de API como OAuth2, para recuperar um token de acesso que será inserido na solicitação real HTTP para a ação.
+O modo de autenticação personalizado é usado para autenticação complexa, frequentemente usada para chamar protocolos de empacotamento automático de API, como OAuth2, para recuperar um token de acesso que será inserido na solicitação real HTTP para a ação.
 
-Ao configurar a autenticação personalizada, você pode clicar no botão abaixo para verificar se a carga útil de autenticação personalizada está configurada corretamente.
+Ao configurar a autenticação personalizada, use o botão **[!UICONTROL Clique para verificar a autenticação]** para controlar se a carga útil de autenticação personalizada está configurada corretamente.
 
 ![](assets/journey29-bis.png)
 
-Se o teste for bem-sucedido, o botão ficará verde.
+Quando o teste for bem-sucedido, o botão ficará verde.
 
 ![](assets/journey29-ter.png)
 
-Com essa autenticação, a execução da ação é um processo de duas etapas:
+Com esse modo de autenticação, a execução da ação é um processo de duas etapas:
 
 1. Chame o endpoint para gerar o token de acesso.
 1. Chame a REST API inserindo de maneira correta o token de acesso.
