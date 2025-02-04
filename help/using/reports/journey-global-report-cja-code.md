@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 3%
+source-wordcount: '367'
+ht-degree: 2%
 
 ---
 
 # Relatório de jornada baseado em código {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+O relatório de jornada pode mostrar informações de várias jornadas simultaneamente, pois os usuários podem estar envolvidos em mais de uma jornada por vez. Como resultado, as comunicações de entrada (no aplicativo, na Web e baseadas em código) podem ser exibidas em várias jornadas se forem acionadas para um usuário que participa de jornadas ativas simultâneas, o que pode resultar na sobreposição de dados.
+
+>[!ENDSHADEBOX]
 
 ## Exibir e clicar {#impressions-code}
 
