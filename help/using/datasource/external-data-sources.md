@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
+source-git-commit: 3fae8e27dd043762ba4e5e2705300798298fc613
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 41%
@@ -90,7 +90,7 @@ Abaixo estão as principais etapas para criar e configurar uma nova fonte de dad
    * **[!UICONTROL Valor]**: &quot;1234&quot; (este é o valor da nossa chave de API)
    * **[!UICONTROL Local]**: &quot;Parâmetro de consulta&quot; (a chave de API está localizada na URL)
 
-   ![](assets/journey28.png)
+     ![](assets/journey28.png)
 
 1. Adicione um novo grupo de campos para cada conjunto de parâmetros da API clicando em **[!UICONTROL Adicionar Novo Grupo de Campos]**. Somente caracteres alfanuméricos e sublinhados são permitidos no nome do grupo de campos. O comprimento máximo é de 30 caracteres. Em nosso exemplo, precisamos criar dois grupos de campo, um para cada conjunto de parâmetros (city e long/lat).
 
