@@ -7,7 +7,7 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 12449430f48153ebe3fbb30b782f51de4b11d4ef
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -32,7 +32,7 @@ Cada atributo calculado é um atributo de perfil que você pode aproveitar para 
 
 Para criar atributos computados, navegue até a guia **[!UICONTROL Atributos computados]** no menu **[!UICONTROL Perfis]**, localizado no lado esquerdo.
 
-Nessa tela, você pode construir atributos calculados construindo regras que combinam atributos de evento, funções agregadas, juntamente com um período de pesquisa especificado. Por exemplo, você pode calcular a soma das compras feitas nos últimos três meses, identificar o item mais recente visualizado por um perfil que não fez uma compra na última semana ou calcular o total de pontos de premiação acumulados por cada perfil.
+Nessa tela, você pode construir atributos calculados criando regras que combinam atributos de evento, funções agregadas, juntamente com um período de pesquisa especificado. Por exemplo, você pode calcular a soma das compras feitas nos últimos três meses, identificar o item mais recente visualizado por um perfil que não fez uma compra na última semana ou calcular o total de pontos de premiação acumulados por cada perfil.
 
 ![](assets/computed-attributes.png)
 
