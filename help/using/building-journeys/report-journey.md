@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: PUBLISH a JORNADA
+title: Publicar a jornada
 description: Saiba como criar relatórios sobre sua jornada
 feature: Journeys
 topic: Content Management
@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 0%
+source-wordcount: '312'
+ht-degree: 1%
 
 ---
 
@@ -30,8 +30,8 @@ Os eventos exibidos ocorreram nas últimas 24 horas, com um intervalo mínimo de
 
 Para sua jornada em tempo real, você tem acesso a:
 
-* **[!UICONTROL Perfis inseridos]**: número total de indivíduos que saíram da jornada (incluindo erros).
-* **[!UICONTROL Saída do perfil]**: Número total de indivíduos que saíram da jornada dessa atividade devido a um critério de saída.
+* **[!UICONTROL Perfis inseridos]**: número total de pessoas que inseriram a jornada.
+* **[!UICONTROL Perfis encerrados]**: número total de indivíduos que saíram da jornada (incluindo erros).
 * **[!UICONTROL Perfis com erro]**: número total de indivíduos que encontraram um erro durante a jornada.
 * **[!UICONTROL Perfis descartados]**: Número total de indivíduos que foram descartados da jornada por um dos seguintes motivos:
 
