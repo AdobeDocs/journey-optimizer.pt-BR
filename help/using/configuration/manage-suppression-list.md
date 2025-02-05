@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: supressão, lista, rejeição, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 22%
@@ -207,7 +207,7 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
-## Remover um endereço da lista de supressão{#remove-from-suppression-list}
+## Remover um endereço da lista de supressão {#remove-from-suppression-list}
 
 Você pode atualizar manualmente a lista de supressão. A remoção de um endereço de email da quarentena é uma operação delicada e pode afetar a reputação do IP e as taxas de capacidade de delivery. Prossiga com cuidado.
 

@@ -8,20 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 98%
+source-wordcount: '2421'
+ht-degree: 95%
 
 ---
 
 # Medidas de proteção e limitações {#limitations}
 
+Abaixo você encontrará medidas de proteção e limitações adicionais para o uso do [!DNL Adobe Journey Optimizer].
+
 Os direitos, as limitações de produto e as medidas de proteção de desempenho estão listados na [página de descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 Você também precisa estar ciente das [Medidas de proteção aos dados de perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR){target="_blank"} antes de iniciar.
 
-Abaixo você encontrará medidas de proteção e limitações adicionais para o uso do [!DNL Adobe Journey Optimizer].
+
+>[!NOTE]
+>
+>Em raras circunstâncias, interrupções temporárias em uma região específica podem resultar na exclusão de perfis válidos das jornadas ou em emails marcados incorretamente como rejeições. Depois que os serviços forem restaurados, verifique novamente os logs do jornada, verifique os campos do perfil de consentimento e republique a jornada, se necessário. No caso de uma interrupção de ISP, saiba como remover perfis da lista de supressão em [esta seção](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+>
 
 ## Navegadores compatíveis {#browsers}
 
