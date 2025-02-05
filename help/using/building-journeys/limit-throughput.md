@@ -8,7 +8,7 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: jornada, fontes de dados, limite, taxa de transferência, personalizado, ações
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Isso pode ser feito com:
 >
 >Como as respostas agora são compatíveis, você deve usar ações personalizadas em vez de fontes de dados para casos de uso de fontes de dados externas. Para obter mais informações sobre respostas, consulte esta [seção](../action/action-response.md)
 
-Se estiver trabalhando com fontes de dados externas ou ações personalizadas, talvez você queira proteger seus sistemas externos limitando a taxa de transferência do jornada: até 5000 instâncias/segundo para jornadas unitárias e até 20000 instâncias/segundo para  acionadas pelo público-alvo.
+Se estiver trabalhando com fontes de dados externas ou ações personalizadas, talvez você queira proteger seus sistemas externos limitando a taxa de transferência do jornada: até 5.000 instâncias/segundo para jornadas unitárias e até 20.000 instâncias/segundo para  acionadas pelo público-alvo.
 
 Para ações personalizadas, os recursos de controle estão disponíveis no nível do produto. Consulte esta [página](../configuration/external-systems.md#capping).
 

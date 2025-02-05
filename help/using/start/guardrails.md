@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 35dde8b905cf4c37c0c1b5f6b8a84f41821eb240
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '2361'
 ht-degree: 98%
@@ -207,8 +207,8 @@ A taxa de transferência de entrega corresponde ao número de respostas de decis
 | API | Decisões por segundo |
 |---------|----------|
 | Solicitações da API de decisão | 500 por segundo |
-| Solicitações de API de decisão do Edge com a segmentação do Edge | 1500 por segundo |
-| Solicitações de API de decisão do Edge sem a segmentação do Edge | 5000 por segundo |
+| Solicitações de API de decisão do Edge com a segmentação do Edge | 1.500 por segundo |
+| Solicitações de API de decisão do Edge sem a segmentação do Edge | 5.000 por segundo |
 
 ### Limitações {#offers-limitations}
 
