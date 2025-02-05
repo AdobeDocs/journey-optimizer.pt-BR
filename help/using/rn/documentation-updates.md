@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
+source-git-commit: b4075b722ba07f003b9658b5f399896ce0e85b9a
 workflow-type: tm+mt
-source-wordcount: '5907'
-ht-degree: 97%
+source-wordcount: '5938'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,8 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * A seção **Encaminhar email** foi atualizada para especificar que todos os emails enviados para o endereço **De email** são encaminhados para o endereço de email de encaminhamento. Se nenhum email de encaminhamento for especificado, esses emails serão descartados. [Leia mais](../email/email-settings.md#forward-email)
 
 * O tamanho máximo dos atributos contextuais passados para uma solicitação de campanha acionada por API foi atualizado para 200 kb. [Leia mais](../campaigns/api-triggered-campaigns.md#contextual)
+
+* Uma nova seção foi adicionada à página **Gerenciar fragmentos** para descrever como adicionar novos atributos a um fragmento ativo. A página inteira também foi aprimorada. [Leia mais](../content-management/manage-fragments.md#adding-new-attributes)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
