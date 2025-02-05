@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
-source-wordcount: '2421'
-ht-degree: 95%
+source-wordcount: '2476'
+ht-degree: 94%
 
 ---
 
@@ -38,6 +38,15 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 * Não é possível adicionar anexos a um email com [!DNL Journey Optimizer].
 * Você não pode usar o mesmo domínio de envio para enviar mensagens do [!DNL Adobe Journey Optimizer] e de outro produto, como o [!DNL Adobe Campaign] ou o [!DNL Adobe Marketo Engage] por exemplo.
 
+## Medidas de proteção de conjuntos de dados {#datasets-guardrails}
+
+A partir de fevereiro de 2025, uma garantia de TTL (time-to-live) será implantada nos conjuntos de dados gerados pelo sistema da Journey Optimizer em **novas sandboxes e novas organizações** da seguinte maneira:
+
+* 90 dias para dados na loja de perfis
+* 13 meses para dados no data lake
+
+Explore a [seção de Perguntas Frequentes](../data/datasets-ttl.md#ttl) para obter mais detalhes sobre essas medidas de proteção.
+
 ## Medidas de proteção das páginas de destino {#lp-guardrails}
 
 * Somente um componente de **Formulário** pode ser usado em uma única página principal.
@@ -54,7 +63,6 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 ### Medidas de proteção do canal da Web {#web-guardrails}
 
 As campanhas da Web do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
-
 
 ## Medidas de proteção de subdomínios {#subdomain-guardrails}
 

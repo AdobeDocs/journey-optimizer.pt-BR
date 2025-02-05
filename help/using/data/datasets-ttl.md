@@ -8,7 +8,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 13%
@@ -41,13 +41,11 @@ Essa alteração não afeta a coleta de dados de rastreamento. Eventos de envio 
 
 +++
 
-
 +++ Os eventos de reação são afetados por essa alteração?
 
 Os eventos de reação nas Jornadas não são afetados por essa alteração.
 
 +++
-
 
 +++ Essa alteração se aplicará somente às sandboxes de produção ou também se aplicará às sandboxes de desenvolvimento?
 
