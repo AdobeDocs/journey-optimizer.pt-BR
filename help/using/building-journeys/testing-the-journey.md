@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: fcad0d71b6de9ae7e21b201fb954e712b2028526
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 10%
+source-wordcount: '1644'
+ht-degree: 9%
 
 ---
 
@@ -61,8 +61,8 @@ Para usar o modo de teste, siga estas etapas:
 
 ## Observações importantes {#important_notes}
 
-* No modo de teste, é possível acionar eventos usando a interface. Eventos não podem ser disparados de sistemas externos usando uma API.
-* Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de perfil do cliente em tempo real poderão entrar na jornada testada. Consulte esta [seção](../audience/creating-test-profiles.md).
+* No modo de teste, você só pode acionar eventos usando a interface. Eventos não podem ser disparados de sistemas externos usando uma API.
+* Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de perfil do cliente em tempo real têm permissão para entrar na jornada testada. Consulte esta [seção](../audience/creating-test-profiles.md).
 * O modo de teste só está disponível em jornadas de rascunho que usam um namespace. O modo de teste precisa verificar se uma pessoa que entra na jornada é um perfil de teste ou não e, portanto, deve ser capaz de acessar o Adobe Experience Platform.
 * O número máximo de perfis de teste que podem inserir uma jornada durante uma sessão de teste é 100.
 * Quando você desativa o modo de teste, ele esvazia as jornadas de todas as pessoas que entraram anteriormente ou que estão atualmente nele. Também apaga os relatórios.
@@ -71,6 +71,8 @@ Para usar o modo de teste, siga estas etapas:
 * Ao atingir uma divisão, a ramificação superior é sempre escolhida. É possível reorganizar a posição das ramificações de divisão se quiser que o teste escolha um caminho diferente.
 * Para otimizar o desempenho e evitar o uso de recursos obsoletos, todas as jornadas no modo de teste que não forem acionadas por uma semana retornarão para o status **Rascunho**.
 * Os eventos acionados pelo modo de teste são armazenados em conjuntos de dados dedicados. Esses conjuntos de dados são rotulados da seguinte maneira: `JOtestmode - <schema of your event>`
+* Ao testar jornadas que incluem vários eventos, você deve acionar cada evento em sequência. Enviar um evento muito cedo (antes da conclusão do primeiro nó de espera) ou muito tarde (após o tempo limite configurado) descartará o evento e enviará o perfil a um caminho de tempo limite. Sempre confirmar se as referências aos campos de carga útil do evento permanecem válidas, enviando a carga útil dentro da janela definida
+
 
 <!--
 * Fields from related entities are hidden from the test mode.
@@ -87,9 +89,13 @@ Use o botão **[!UICONTROL Acionar um evento]** para configurar um evento que fa
 
 >[!NOTE]
 >
->Quando você aciona um evento no modo de teste, um evento real é gerado, o que significa que ele também atingirá outras jornadas que ouvem esse evento.
+>* Quando você aciona um evento no modo de teste, um evento real é gerado, o que significa que ele também atingirá outras jornadas que ouvem esse evento.
+>
+>*Verifique se cada evento no modo de teste é acionado na ordem correta e dentro da janela de espera configurada. Por exemplo, se houver uma espera de 60 segundos, o segundo evento deverá ser acionado somente após essa espera de 60 segundos ter decorrido e antes que o tempo limite expire.
+>
 
 Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste no Adobe Experience Platform. Na verdade, o modo de teste permite apenas esses perfis na jornada e o evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser uma ECID ou um endereço de email, por exemplo. O valor dessa chave precisa ser adicionado no campo **Identificador de Perfil**.
+
 
 Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface ajuda você a passar as informações corretas na carga do evento e garantir que o tipo de informação esteja correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
 
