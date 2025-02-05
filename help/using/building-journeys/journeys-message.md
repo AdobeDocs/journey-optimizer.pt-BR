@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
+source-git-commit: 34ecb4b7f30741d88fa69007e1c236eb731dc06c
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 19%
+source-wordcount: '1324'
+ht-degree: 18%
 
 ---
 
@@ -150,11 +150,14 @@ Observe que, para a atividade no aplicativo, qualquer alteração pode ser feita
 >title="Sobre a otimização da hora de envio"
 >abstract="O recurso Otimização da hora de envio do Adobe Journey Optimizer, desenvolvido pelos serviços de IA da Adobe, pode prever o melhor momento para enviar um email ou uma mensagem por push para maximizar o engajamento com base nas taxas históricas de abertura e clique."
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Esse recurso não é habilitado por padrão. Entre em contato com o representante da Adobe para ativá-la.
+>* A Otimização de tempo de envio não está habilitada por padrão. Entre em contato com o representante da Adobe para ativá-la.
 >
->O recurso de Otimização de tempo de envio se aplica somente aos canais de email e push.
+>* Pelo menos 1.000 perfis com dados de mensagens recentes são recomendados para treinamento e pontuação iniciais da Otimização de tempo de envio.
+>
+>* A Otimização de Tempo de Envio se aplica somente aos canais de **Email** e **Notificação por push**.
+
 
 ### Sobre a otimização de tempo de envio {#about-send-time}
 
