@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 98%
+source-wordcount: '2278'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,22 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 </p>
 <p>Para obter mais informações, consulte a <a href="../reports/report-cja-manage.md#cja-template">documentação detalhada</a>.</p>
 <p> A funcionalidade <b>Modelo</b> é implementada progressivamente, em fases, com disponibilidade geral total planejada para o fim de janeiro</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Avaliação de público-alvo flexível (disponibilidade limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A avaliação flexível do público-alvo permite executar um trabalho de segmentação sob demanda para públicos-alvo selecionados, garantindo que você sempre tenha os dados do público-alvo mais atualizados antes de direcioná-los para jornadas e campanhas do Journey Optimizer.</p>
+<p>Para obter mais informações, consulte a <a href="../audience/about-audiences.md#flexible">documentação detalhada</a>.</p>
+<p> A avaliação flexível do público só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.</p>
 </tr>
 </tbody>
 </table>

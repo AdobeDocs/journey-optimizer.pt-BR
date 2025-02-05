@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 19%
+source-wordcount: '2162'
+ht-degree: 18%
 
 ---
 
@@ -152,9 +152,26 @@ Depois de definir um público-alvo pela primeira vez, perfis serão adicionados 
 
 O preenchimento retroativo de dados anteriores no público-alvo pode levar até 24 horas. Depois que o público-alvo é preenchido retroativamente, ele será mantido atualizado continuamente e está sempre pronto para o direcionamento.
 
+### [!BADGE Disponibilidade limitada]{type=Informative} Avaliação de público-alvo flexível (Disponibilidade limitada) {#flexible}
+
+>[!AVAILABILITY]
+>
+A avaliação flexível do público só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
+
+O Adobe Experience Platform Audience Portal permite executar um trabalho de segmentação sob demanda para públicos selecionados, garantindo que você sempre tenha os dados do público mais atualizados antes de direcioná-los para jornadas e campanhas do Journey Optimizer.
+
+Com a avaliação flexível do público-alvo, você pode:
+
+1. Crie um novo segmento com base nos dados mais recentes.
+1. Avalie o público-alvo em tempo real para garantir a precisão. Para fazer isso, escolha os públicos que deseja avaliar e selecione &quot;Avaliar públicos&quot;, desde que atendam a critérios específicos (por exemplo, com base em pessoas, origem do Serviço de segmentação).
+1. Usar o público avaliado no Adobe Journey Optimizer
+campanhas ou jornadas para direcionamento preciso.
+
+Você pode avaliar até 20 públicos-alvo de cada vez, e públicos-alvo não qualificados serão excluídos automaticamente. Para obter mais detalhes, consulte a [documentação do Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+
 ### Uso do evento com segmentação por transmissão {#streaming-segmentation-events-guardrails}
 
-A segmentação por transmissão é útil para personalização em tempo real com casos de uso de alto valor. No entanto, é importante escolher os [eventos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} certos para usar como critérios de segmentação.
+A segmentação por transmissão é útil para personalização em tempo real com casos de uso de alto valor. No entanto, é importante escolher os [eventos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events) corretos{target="_blank"}
 
 Consequentemente, para um desempenho ideal de segmentação por transmissão, evite usar os seguintes eventos:
 
