@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 20%
+source-wordcount: '1308'
+ht-degree: 19%
 
 ---
 
@@ -183,8 +183,11 @@ A Otimização de tempo de envio tenta prever o melhor momento para interagir co
 
 +++Onde posso ver o tempo de envio esperado para cada perfil?
 
-Você pode ver a pontuação geral na interface **Perfis**. Para cada um dos três conjuntos de 168 pontuações, as posições vão de -83 a 84. Quanto maior a classificação, melhor o tempo foi escolhido para interagir com o recipient. Como é possível definir o início e a duração de uma jornada, a melhor classificação (84) pode não cair nessa janela de tempo. Nesse caso, recomendamos escolher uma hora com o valor de classificação mais alto.
+As posições em qualquer &quot;hora da semana&quot; são de -83 a 84, mas são agrupadas em um único valor para evitar a confusão do perfil com 168 valores distintos. Para cada um dos três conjuntos de 168 pontuações, as posições vão de -83 a 84.
 
+O valor é lido pelo algoritmo de otimização. Esse valor não foi projetado para ser legível.
+
+Quanto maior a classificação, melhor o tempo foi escolhido para interagir com o recipient. Como é possível definir o início e a duração de uma jornada, a melhor classificação (84) pode não cair nessa janela de tempo. Nesse caso, recomendamos escolher uma hora com o valor de classificação mais alto.
 +++
 
 
