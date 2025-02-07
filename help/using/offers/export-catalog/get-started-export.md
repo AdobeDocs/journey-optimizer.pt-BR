@@ -7,9 +7,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Cada vez que um desses objetos é modificado na Biblioteca de ofertas, um novo p
 
 >[!NOTE]
 >
->Esse recurso é ativado por padrão. Você pode começar a usá-lo sem nenhuma etapa de ativação adicional. Depois de habilitado, os trabalhos de exportação serão automatizados e não exigirão nenhuma ação da sua parte.
+>Esse serviço está habilitado por padrão. Não é necessária nenhuma etapa de ativação adicional para começar a usá-lo. Após habilitá-lo, os trabalhos de exportação serão automatizados e não exigirão qualquer ação de sua parte.
 
 <!--
 >[!NOTE]

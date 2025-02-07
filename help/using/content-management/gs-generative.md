@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 2de3766c9fea36422c017ccaab3eb0a2501c6740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '874'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ O usuário receberá um email com instruções para acessar a sua instância.
 
 Veja abaixo as diretrizes gerais para usar o acelerador de conteúdo do Assistente de IA para geração de emails no Adobe Journey Optimizer:
 
-* A qualidade do conteúdo gerado é fortemente afetada pelo objetivo/prompt de marketing definido por você. Use um prompt bem definido para que o modelo GenAI interprete com precisão. 
+* A qualidade do conteúdo gerado é fortemente influenciada pelo objetivo ou prompt de marketing definido. Use um prompt bem definido para que o modelo GenAI interprete com precisão. 
 * Faça upload do ativo de marca para ter conteúdo preciso e apropriado à marca. Caso contrário, o conteúdo será baseado em informações disponíveis publicamente. O conteúdo carregado pode estar nos seguintes formatos: arquivos PDF, JPEG, PNG ou ZIP (com formatos de arquivo compatíveis).
 * O tamanho máximo para o ativo de marca carregado é de 50 MB.É possível carregar arquivos maiores ou um número maior de imagens, mas o tempo de processamento aumentará.
 * Use um modelo específico da marca ou personalizado para criar o conteúdo de email com o acelerador de conteúdo do Assistente de IA no Adobe Journey Optimizer.  Recomenda-se um modelo de email com 8-10 imagens, no máximo.
