@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
 source-wordcount: '5954'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,13 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Janeiro de 2025 {#jan-2025}
 
-* Uma nova seção sobre a opção **[!UICONTROL Endereço de execução]** na configuração de email foi adicionada. O endereço principal é definido no nível da sandbox, mas a configuração padrão pode ser substituída por uma configuração de email específica. [Leia mais](../email/email-settings.md#execution-address)
+* Adição de uma nova seção sobre a opção **[!UICONTROL Endereço de execução]** na configuração de email. O endereço principal é definido no nível da sandbox, mas a configuração padrão pode ser substituída por uma configuração de email específica. [Leia mais](../email/email-settings.md#execution-address)
 
-* A página **Introdução à capacidade de entrega** foi atualizada com a possibilidade de criar fluxos de trabalho de aquecimento de IP diretamente da interface do usuário. [Leia mais](../reports/deliverability.md#reputation)
+* A página **Introdução à capacidade de entrega** foi atualizada com a possibilidade de criar fluxos de trabalho de aquecimento de IP diretamente da interface. [Leia mais](../reports/deliverability.md#reputation)
 
-* A seção **Parâmetros de cabeçalho** foi atualizada para refletir os novos rótulos e as alterações na interface. [Leia mais](../email/email-settings.md#email-header)
+* A seção **Parâmetros de cabeçalho** foi atualizada para incluir os novos rótulos e as alterações na interface. [Leia mais](../email/email-settings.md#email-header)
 
-* A seção **Encaminhar email** foi atualizada para especificar que todos os emails enviados para o endereço **De email** são encaminhados para o endereço de email de encaminhamento. Se nenhum email de encaminhamento for especificado, esses emails serão descartados. [Leia mais](../email/email-settings.md#forward-email)
+* A seção **Encaminhar email** foi atualizada para especificar que todos os emails enviados para o endereço do **remetente** são encaminhados para o endereço de email de encaminhamento. Se nenhum email de encaminhamento for especificado, esses emails serão descartados. [Leia mais](../email/email-settings.md#forward-email)
 
 * O tamanho máximo dos atributos contextuais passados para uma solicitação de campanha acionada por API foi atualizado para 200 kb. [Leia mais](../campaigns/api-triggered-campaigns.md#contextual)
 
@@ -48,7 +48,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Aprimoramento da página **Configurar a experiência baseada em código** para tornar o processo mais claro, incluindo a seção que explica o que é um URI de superfície. [Leia mais](../code-based/code-based-configuration.md)
 * Atualização da página **Criar configuração de canal da web** para esclarecer as etapas para criar uma regra de correspondência de páginas, que também se aplica à configuração da experiência baseada em código. [Leia mais](../web/web-configuration.md#web-page-matching-rule)
 * Adição de uma observação sobre a futura medida de proteção de TTL (tempo de vida) para conjuntos de dados gerados pelo sistema. [Leia mais](../data/get-started-datasets.md)
-* Uma nova seção foi adicionada para descrever como visualizar suas experiências personalizadas baseadas em código diretamente do seu navegador ou de seus dispositivos móveis, usando a opção **Visualizar no dispositivo** ao simular conteúdo em uma jornada ou campanha. [Leia mais](../code-based/test-code-based.md#preview-on-device)
+* Uma nova seção foi adicionada para descrever como visualizar experiências personalizadas baseadas em código diretamente no navegador ou em dispositivos móveis usando a opção **Visualizar no dispositivo** ao simular o conteúdo em uma jornada ou campanha. [Leia mais](../code-based/test-code-based.md#preview-on-device)
 * Adição de uma nova página sobre como aproveitar os públicos-alvo de upload personalizados para a tomada de decisões. [Leia mais](../offers/custom-upload-decisioning.md)
 * Adição de uma nova página para apresentar os recursos de decisão disponíveis no Journey Optimizer. [Leia mais](../experience-decisioning/gs-decision.md)
 * Adição de medidas de proteção e limitações à documentação de decisão. [Leia mais](../experience-decisioning/gs-experience-decisioning.md#guardrails)
