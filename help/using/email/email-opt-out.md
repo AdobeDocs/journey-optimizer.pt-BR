@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
 workflow-type: tm+mt
 source-wordcount: '1312'
-ht-degree: 23%
+ht-degree: 27%
 
 ---
 
@@ -39,16 +39,16 @@ Com o [!DNL Adobe Journey Optimizer], você pode definir suas [configurações d
 
 Quando um recipient clica no link de recusa de um clique, a solicitação de cancelamento de inscrição do recipient é processada adequadamente.
 
-### URL de cancelamento de inscrição com um clique no cabeçalho do email {#unsubscribe-header}
+### URL para cancelar a assinatura com um clique no cabeçalho do email {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Adicionar um URL de cancelamento de inscrição aos emails"
->abstract="Ative o List-Unsubscribe para adicionar automaticamente um URL de cancelamento de inscrição ao cabeçalho do email. Também é possível definir um URL para cancelar a inscrição em uma mensagem inserindo um link para opção de não participação com um clique no conteúdo do email."
+>title="Adicionar um URL de cancelamento de assinatura aos emails"
+>abstract="Habilite Cancelar assinatura em lista para adicionar automaticamente ao cabeçalho do email um URL de cancelamento de assinatura. É possível também definir um URL de cancelamento de assinatura em uma mensagem ao inserir um link para opção de não participação com um clique no conteúdo do email."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Opção de recusa de um clique no conteúdo do email"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Ativar o List-Unsubscribe na configuração de email"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Habilitar o cancelamento de assinatura em lista na configuração de email"
 
 O URL para cancelar a inscrição na lista com um clique é um link ou botão para cancelar inscrição exibido ao lado das informações do remetente do email e permite que os destinatários excluam instantaneamente suas listas de endereçamento com um único clique.
 
