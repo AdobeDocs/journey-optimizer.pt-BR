@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '748'
 ht-degree: 12%
 
 ---
@@ -41,6 +41,8 @@ Cada pessoa no público-alvo receberá uma versão de um email, com uma linha de
 O objetivo aqui é ver se os recipients interagirão com o email dependendo do experimento recebido. Portanto, vamos escolher **[!UICONTROL Aberturas de email]** como a principal métrica de meta neste Experimento de conteúdo.
 
 ![](assets/content_experiment.png)
+
+➡️ Saiba como usar experimentos de conteúdo para comparar decisões com o canal de experiência baseado em código neste [caso de uso](experience-decisioning-uc.md).
 
 ## Criar seu conteúdo {#campaign-experiment}
 
@@ -125,3 +127,4 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
 1. Depois que o conteúdo da mensagem for definido, clique no botão **[!UICONTROL Simular conteúdo]** para controlar a renderização da entrega e verificar as configurações de personalização com perfis de teste. [Saiba mais](../content-management/preview-test.md)
 
 Depois de configurar sua experimentação, você pode acompanhar o sucesso do delivery com seu relatório. [Saiba mais](../reports/campaign-global-report-cja-experimentation.md)
+

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 16%
+source-wordcount: '668'
+ht-degree: 15%
 
 ---
 
@@ -24,7 +24,13 @@ ht-degree: 16%
 
 O serviço de Decisão simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de escolha sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
 
-Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada através do [novo canal de experiência baseado em código](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), agora acessível em campanhas do Journey Optimizer. As políticas de decisão estão disponíveis para uso em campanhas de experiência baseadas em código somente.
+Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada através do [novo canal de experiência baseado em código](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), agora acessível em campanhas do Journey Optimizer.
+
+>[!IMPORTANT]
+>
+>As políticas de decisão estão disponíveis para uso em campanhas de experiência baseadas em código somente.
+
+➡️ Um caso de uso completo que mostra como criar decisões e usá-las em experimentos de conteúdo com o canal de experiência baseado em código é apresentado em [esta seção](experience-decisioning-uc.md).
 
 ## Medidas de proteção e limitações {#guardrails}
 
