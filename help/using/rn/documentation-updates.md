@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
-source-wordcount: '5981'
+source-wordcount: '6014'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 98%
 # Atualizações na documentação {#latest-updates}
 
 Esta página lista todas as atualizações mais recentes na documentação do [!DNL Journey Optimizer].
+
+
+## Fevereiro de 2025 {#feb-2025}
+
+* A documentação da **[!UICONTROL Otimização de hora de envio]** e das perguntas frequentes relacionadas foi atualizada, aprimorada e movida para uma nova página dedicada. [Leia mais](../building-journeys/send-time-optimization.md)
+* Novas medidas de proteção foram adicionadas para eventos de jornada. [Leia mais](../start/guardrails.md#events-g)
 
 ## Janeiro de 2025 {#jan-2025}
 
@@ -99,7 +105,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Foram adicionadas informações sobre a criação de identidades com namespaces personalizados ao trabalhar com campanhas acionadas por API. [Leia mais](../campaigns/api-triggered-campaigns.md)
 * As capturas de tela foram atualizadas para refletir a tela de jornada aprimorada.
 * As restrições de nomenclatura foram atualizadas nas seguintes páginas: [Configurar um evento unitário](../event/about-creating.md), [Configurar um evento comercial](../event/about-creating-business.md#gs-business-events), [Configurar uma ação personalizada](../action/about-custom-action-configuration.md#configuration-steps), [Fontes de dados externas](../datasource/external-data-sources.md)
-* Adição de uma observação sobre a disponibilidade da Otimização de tempo de envio. [Leia mais](../building-journeys/journeys-message.md#send-time-optimization)
+* Adição de uma observação sobre a disponibilidade da Otimização de tempo de envio. [Leia mais](../building-journeys/send-time-optimization.md)
 * Adição de um novo caso de uso técnico sobre como criar uma ação personalizada para enviar dados para a Experience Platform. [Leia mais](../building-journeys/custom-action-aep.md)
 
 ## Março de 2024 {#march-2024}
@@ -358,7 +364,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * A página Lista de permissões foi movida para a seção Configuração. [Leia mais](../configuration/allow-list.md)
 * A página Lista de supressão foi atualizada para esclarecer algumas informações, incluindo o fato de que todos os caracteres ASCII entre 32 e 126 são permitidos no campo de motivo da supressão. [Leia mais](../configuration/manage-suppression-list.md)
 * Foi adicionado o link para as medidas de proteção e limites estáticos para a gestão de decisões. [Leia mais](../start/guardrails.md)
-* A Otimização de tempo de envio agora está disponível para todos os clientes. A menção ao beta foi removida. [Leia mais](../building-journeys/journeys-message.md#send-time-optimization)
+* A Otimização de tempo de envio agora está disponível para todos os clientes. A menção ao beta foi removida. [Leia mais](../building-journeys/send-time-optimization.md)
 * A API de decisão em lote foi adicionada à lista de APIs disponíveis para ofertas personalizadas de entrega. [Leia mais](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Maio de 2022 {#may-2022}

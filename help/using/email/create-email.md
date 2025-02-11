@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 9%
@@ -43,7 +43,7 @@ Para criar um email em [!DNL Journey Optimizer], adicione uma ação de **[!UICO
 
 >[!NOTE]
 >
->Você pode usar a opção Otimização de tempo de envio para prever o melhor momento para enviar a mensagem e maximizar o engajamento com base no histórico das taxas de abertura e de clique. [Saiba como trabalhar com a Otimização de Tempo de Envio](../building-journeys/journeys-message.md#send-time-optimization)
+>Você pode usar a opção Otimização de tempo de envio para prever o melhor momento para enviar a mensagem e maximizar o engajamento com base no histórico das taxas de abertura e de clique. [Saiba como trabalhar com a Otimização de Tempo de Envio](../building-journeys/send-time-optimization.md)
 
 Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
 
@@ -94,13 +94,13 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. Se você estiver em uma campanha, também poderá clicar no botão **[!UICONTROL Editor de códigos]** para codificar seu próprio conteúdo em HTML simples usando a janela pop-up exibida.
+1. Se você estiver em uma campanha, também poderá clicar no botão **[!UICONTROL Editor de códigos]** para codificar seu próprio conteúdo no HTML simples usando a janela pop-up exibida.
 
    ![](assets/email_designer_edit_code_editor.png)
 
    >[!NOTE]
    >
-   >Se você já criou ou importou conteúdo por meio do Designer de email, esse conteúdo será exibido no HTML.
+   >Se você já tiver criado ou importado conteúdo por meio do Designer de email, esse conteúdo será exibido no HTML.
 
 ## Verificar alertas {#check-email-alerts}
 
@@ -124,7 +124,7 @@ Dois tipos de alertas podem ocorrer:
      >
      >As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no nível [configuração de canal](email-settings.md#email-type) e ao [criar a mensagem](#create-email-journey-campaign) a partir de uma jornada ou campanha.
 
-   * **[!UICONTROL A versão de texto do HTML está vazia]**: não se esqueça de definir uma versão de texto do corpo do email, pois ela será usada quando o conteúdo do HTML não puder ser exibido. Saiba como criar a versão de texto em [esta seção](text-version-email.md).
+   * **[!UICONTROL A versão de texto do HTML está vazia]**: não se esqueça de definir uma versão de texto do seu corpo de email, pois ela será usada quando o conteúdo do HTML não puder ser exibido. Saiba como criar a versão de texto em [esta seção](text-version-email.md).
 
    * **[!UICONTROL Um link vazio está presente no corpo do email]**: verifique se todos os links no seu email estão corretos. Saiba como gerenciar conteúdo e links em [esta seção](content-from-scratch.md).
 

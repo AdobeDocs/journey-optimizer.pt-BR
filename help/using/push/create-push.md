@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 9%
@@ -40,7 +40,7 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
    >[!NOTE]
    >
-   >Se você estiver enviando uma notificação por push de uma jornada, poderá aproveitar o recurso de Otimização de hora de envio da Adobe Journey Optimizer para prever o melhor momento para enviar a mensagem e maximizar o engajamento com base no histórico de taxas de abertura e de cliques. [Saiba como trabalhar com a Otimização de Tempo de Envio](../building-journeys/journeys-message.md#send-time-optimization)
+   >Se você estiver enviando uma notificação por push de uma jornada, poderá aproveitar o recurso de Otimização de hora de envio da Adobe Journey Optimizer para prever o melhor momento para enviar a mensagem e maximizar o engajamento com base no histórico de taxas de abertura e de cliques. [Saiba como trabalhar com a Otimização de Tempo de Envio](../building-journeys/send-time-optimization.md)
 
    Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md)
 
