@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
-workflow-type: ht
-source-wordcount: '2154'
-ht-degree: 100%
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+workflow-type: tm+mt
+source-wordcount: '2143'
+ht-degree: 99%
 
 ---
 
@@ -374,14 +374,13 @@ ht-degree: 100%
 + Públicos-alvo, perfis e identidade{#audiences-profiles-identities}
    + Públicos-alvo {#audiences}
       + [Introdução aos públicos-alvo](using/audience/about-audiences.md)
-      + [Upload personalizado (CSV) e Composição de público-alvo federado](using/audience/custom-upload-fac.md)
-      + [Criar definições de segmento](using/audience/creating-a-segment-definition.md)
-      + Compor públicos-alvo {#audience-orchestration}
-         + [Introdução à composição de público-alvo](using/audience/get-started-audience-orchestration.md)
-         + [Criar workflows de composição](using/audience/create-compositions.md)
-         + [Trabalhar com a tela de composição](using/audience/composition-canvas.md)
-         + [Acessar e gerenciar públicos-alvo](using/audience/access-audiences.md)
-      + [Composição de público-alvo federado](https://experienceleague.adobe.com/pt-br/docs/federated-audience-composition/using/home)
+      + Criar públicos-alvo {#create}
+         + [Definições de segmento](using/audience/creating-a-segment-definition.md)
+         + [Composição de público-alvo](using/audience/get-started-audience-orchestration.md)
+         + [Upload personalizado](using/audience/custom-upload.md)
+         + [Federated Audience Composition (Disponibilidade limitada)](using/audience/federated-audience-composition.md)
+      + [Ativação de público em campanhas e jornadas](using/audience/target-audiences.md)
+      + [Aproveitar atributos de enriquecimento](using/audience/enrichment-attributes.md)
    + Perfis{#profiles}
       + [Introdução aos perfis](using/audience/get-started-profiles.md)
       + [Criar perfis de teste](using/audience/creating-test-profiles.md)

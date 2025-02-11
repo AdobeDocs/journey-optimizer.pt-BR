@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1056'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Ao usar ofertas, as preferências de personalização não são implementadas au
 >
 >Os escopos de decisão usados em canais de criação do [!DNL Journey Optimizer] atendem a esse requisito da jornada ou campanha a qual pertencem.
 
-1. Crie um [Público-alvo da Adobe Experience Platform](../audience/access-audiences.md) usando o [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR){target="_blank"} e use um atributo de perfil, como **[!UICONTROL Personalizar conteúdo = Sim (aceitação)]** para direcionar usuários que consentiram com a personalização.
+1. Crie um [Público-alvo da Adobe Experience Platform](../audience/about-audiences.md) usando o [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR){target="_blank"} e use um atributo de perfil, como **[!UICONTROL Personalizar conteúdo = Sim (aceitação)]** para direcionar usuários que consentiram com a personalização.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -121,7 +121,7 @@ Para impor manualmente o consentimento da personalização em campanhas, siga um
 
 É possível usar o construtor de regras de segmentos para criar um público-alvo contendo perfis de recusa.
 
-1. Criar um [Público-alvo da Adobe Experience Platform](../audience/access-audiences.md) usando o [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR){target="_blank"}.
+1. Criar um [Público-alvo da Adobe Experience Platform](../audience/about-audiences.md) usando o [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -137,13 +137,13 @@ Agora você pode usar esse público-alvo em suas campanhas para filtrar os perfi
 
 Também é possível adicionar uma verificação de consentimento de personalização a um público-alvo adicionando uma atividade de divisão a um fluxo de trabalho de composição.
 
-1. Criar um público-alvo usando a opção **[!UICONTROL Compor público-alvo]**. [Saiba mais sobre como criar um fluxo de trabalho de composição](../audience/create-compositions.md)
+1. Criar um público-alvo usando a opção **[!UICONTROL Compor público-alvo]**. [Saiba mais sobre como criar um fluxo de trabalho de composição](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
 1. Adicione seu público-alvo inicial usando o botão dedicado à direita.
 
-1. Clique no ícone **+** e selecione a atividade de **[!UICONTROL Divisão]** para criar um público-alvo dividido. [Saiba mais sobre a atividade de divisão](../audience/composition-canvas.md#split)
+1. Clique no ícone **+** e selecione uma atividade **[!UICONTROL Split]** para criar uma divisão de público.
 
    ![](assets/perso-consent-audience-split.png)
 
