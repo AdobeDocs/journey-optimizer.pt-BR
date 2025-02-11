@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
 workflow-type: tm+mt
-source-wordcount: '2233'
+source-wordcount: '2232'
 ht-degree: 18%
 
 ---
@@ -273,7 +273,7 @@ Um profissional de marketing tem uma jornada promocional com uma série de comun
 
 ### Configuração e utilização {#exit-criteria-config}
 
-Os critérios de saída são definidos no nível da jornada. Uma jornada pode ter vários critérios de saída. Quando você tem vários critérios de saída definidos, a avaliação acontece de cima para baixo com uma lógica de `OR`. Portanto, se você tiver o Critério de saída A e o Critério de saída B, ele será avaliado como A **OR** B. Os critérios são avaliados em cada etapa da jornada.
+Os critérios de saída são definidos no nível da jornada. Uma jornada pode ter vários critérios de saída. Se você tiver definido vários critérios de saída, a avaliação acontece de cima para baixo com uma lógica de `OR`. Portanto, se você tiver o Critério de saída A e o Critério de saída B, ele será avaliado como A **OR** B. Os critérios são avaliados em cada etapa da jornada.
 
 Para **criar** um critério de saída, siga estas etapas:
 
@@ -285,8 +285,8 @@ Para **criar** um critério de saída, siga estas etapas:
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. Insira um **Rótulo** e selecione se seus critérios de saída se baseiam em um **Evento** ou em um **Público-alvo**.
 
-* Para os critérios de Saída baseados em um evento, escolha somente evento unitário.
-* Em Critérios de saída com base em um público-alvo, selecione um público-alvo. Observação: os critérios de saída que usam um público-alvo podem levar até 10 minutos para serem eficazes.
+Para os critérios de Saída baseados em um evento, escolha somente evento unitário.
+Em Critérios de saída com base em um público-alvo, selecione um público-alvo. Observação: os critérios de saída que usam um público-alvo podem levar até 10 minutos para serem eficazes.
 
 Você pode adicionar vários critérios de saída.
 
