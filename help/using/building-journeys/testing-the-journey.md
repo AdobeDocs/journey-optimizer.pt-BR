@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: fcad0d71b6de9ae7e21b201fb954e712b2028526
+source-git-commit: 66f8943093670b3310a600a77adcd8123bb213ff
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 9%
@@ -91,7 +91,7 @@ Use o botão **[!UICONTROL Acionar um evento]** para configurar um evento que fa
 >
 >* Quando você aciona um evento no modo de teste, um evento real é gerado, o que significa que ele também atingirá outras jornadas que ouvem esse evento.
 >
->*Verifique se cada evento no modo de teste é acionado na ordem correta e dentro da janela de espera configurada. Por exemplo, se houver uma espera de 60 segundos, o segundo evento deverá ser acionado somente após essa espera de 60 segundos ter decorrido e antes que o tempo limite expire.
+>* Verifique se cada evento no modo de teste é acionado na ordem correta e dentro da janela de espera configurada. Por exemplo, se houver uma espera de 60 segundos, o segundo evento deverá ser acionado somente após essa espera de 60 segundos ter decorrido e antes que o tempo limite expire.
 >
 
 Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste no Adobe Experience Platform. Na verdade, o modo de teste permite apenas esses perfis na jornada e o evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser uma ECID ou um endereço de email, por exemplo. O valor dessa chave precisa ser adicionado no campo **Identificador de Perfil**.
@@ -166,5 +166,5 @@ Estes são os diferentes status da jornada de um indivíduo:
 
 Quando um evento é acionado usando o modo de teste, um conjunto de dados é gerado automaticamente com o nome da origem.
 
-O modo de teste cria automaticamente um Evento de experiência e o envia para a Adobe Experience Platform. O nome da origem deste evento de experiência é &quot;Journey Orchestration Eventos de teste&quot;.
+O modo de teste cria automaticamente um Evento de experiência e o envia para a Adobe Experience Platform. O nome da origem deste evento de experiência é &quot;Eventos de teste da Journey Orchestration&quot;.
 
