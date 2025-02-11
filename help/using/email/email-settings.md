@@ -86,7 +86,7 @@ Após selecionar um pool de IP, as informações de PTR ficam visíveis ao passa
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
 >title="Definir como os dados de cancelamento de inscrição são gerenciados"
->abstract="**Adobe gerenciado**: os dados de consentimento são gerenciados por você no sistema Adobe.<br>**Gerenciado pelo cliente**: os dados de consentimento são gerenciados por você em um sistema externo e nenhuma sincronização de dados de consentimento é atualizada no sistema Adobe, a menos que seja iniciada por você."
+>abstract="**Adobe managed**: os dados de consentimento são gerenciados por você no sistema Adobe.<br>**Gerenciado pelo cliente**: os dados de consentimento são gerenciados por você em um sistema externo e nenhuma sincronização de dados de consentimento é atualizada no sistema da Adobe, a menos que tenha sido iniciada por você."
 
 <!--Do not modify - Legal Review Done -->
 
