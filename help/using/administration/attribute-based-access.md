@@ -2,27 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Controle de acesso baseado em atributos
-description: O controle de acesso baseado em atributos (ABAC) permite definir autorizações para gerenciar o acesso aos dados de equipes ou grupos de usuários específicos.
+description: O controle de acesso baseado em atributos permite definir autorizações para gerenciar o acesso aos dados de equipes ou grupos de usuários específicos.
 feature: Access Management
 topic: Administration
 role: Admin,Leader
 level: Intermediate
 keywords: abac, atributo, autorizações, dados, acesso, confidencial, ativos
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 1%
+source-wordcount: '1025'
+ht-degree: 0%
 
 ---
 
 # Controle de acesso baseado em atributos {#attribute-based-access}
 
-O recurso de controle de acesso baseado em atributos (ABAC) permite definir autorizações para gerenciar o acesso aos dados de equipes ou grupos de usuários específicos. Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, permitindo maior proteção de dados pessoais.
+O recurso de controle de acesso baseado em atributos permite definir autorizações para gerenciar o acesso aos dados de equipes ou grupos de usuários específicos. Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, permitindo maior proteção de dados pessoais.
 
-No Adobe Journey Optimizer, o ABAC permite proteger dados e conceder acesso específico a elementos de campo específicos, incluindo esquemas do Experience Data Model (XDM), atributos de perfil e públicos-alvo.
+Use o controle de acesso baseado em atributos no Adobe Journey Optimizer para proteger dados e conceder acesso específico a elementos de campo específicos, incluindo esquemas do Experience Data Model (XDM), atributos de perfil e públicos-alvo.
 
-Para obter uma lista mais detalhada da terminologia usada com o ABAC, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=pt-BR).
+Para obter uma lista mais detalhada da terminologia usada com o controle de acesso baseado em atributos, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=pt-BR){target="_blank"}.
 
 Neste exemplo, queremos adicionar um rótulo ao campo de esquema **Nacionalidade** para impedir que usuários não autorizados o utilizem. Para que isso funcione, é necessário executar as seguintes etapas:
 
@@ -32,15 +32,15 @@ Neste exemplo, queremos adicionar um rótulo ao campo de esquema **Nacionalidade
 
 1. Use o **[!UICONTROL Campo de esquema]** no Adobe Journey Optimizer.
 
-Observe que **[!UICONTROL Funções]**, **[!UICONTROL Políticas]** e **[!UICONTROL Produtos]** também podem ser acessadas com a API de controle de acesso baseada em atributo. Para obter mais informações, consulte esta [documentação](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
+Observe que **[!UICONTROL Funções]**, **[!UICONTROL Políticas]** e **[!UICONTROL Produtos]** também podem ser acessadas com a API de controle de acesso baseada em atributo. Para obter mais informações, consulte esta [documentação](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}.
 
 ## Criar uma função e atribuir rótulos {#assign-role}
 
 >[!IMPORTANT]
 >
->Antes de gerenciar permissões para uma função, primeiro será necessário criar uma política. Para obter mais informações, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=pt-BR).
+>Antes de gerenciar permissões para uma função, primeiro será necessário criar uma política. Para obter mais informações, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=pt-BR){target="_blank"}.
 
-**[!UICONTROL Funções]** são um conjunto de usuários que compartilham as mesmas permissões, rótulos e sandboxes na sua organização. Cada usuário que pertence a uma **[!UICONTROL Função]** tem direito aos aplicativos e serviços do Adobe contidos no produto.
+**[!UICONTROL Funções]** são um conjunto de usuários que compartilham as mesmas permissões, rótulos e sandboxes na sua organização. Cada usuário que pertence a uma **[!UICONTROL Função]** tem direito aos aplicativos e serviços da Adobe contidos no produto.
 Você também pode criar suas próprias **[!UICONTROL Funções]** se quiser ajustar o acesso dos usuários a determinadas funcionalidades ou objetos na interface.
 
 Agora, queremos conceder aos usuários selecionados acesso ao campo **Nacionalidade**, rotulado C2. Para fazer isso, precisamos criar uma nova **[!UICONTROL Função]** com um conjunto específico de usuários e conceder a eles o rótulo C2, permitindo que usem os detalhes de **Nacionalidade** em uma **[!UICONTROL Jornada]**.
@@ -59,7 +59,7 @@ Agora, queremos conceder aos usuários selecionados acesso ao campo **Nacionalid
 
    ![](assets/role_3.png)
 
-1. Na lista suspensa, selecione as **[!UICONTROL Permissões]** vinculadas ao recurso selecionado, como **[!UICONTROL Exibir jornadas]** ou **[!UICONTROL Publish jornada]**.
+1. Na lista suspensa, selecione as **[!UICONTROL Permissões]** vinculadas ao recurso selecionado, como **[!UICONTROL Exibir jornadas]** ou **[!UICONTROL Publicar jornadas]**.
 
    ![](assets/role_6.png)
 
@@ -92,7 +92,7 @@ Neste exemplo, queremos restringir o acesso ao campo **Nacionalidade**. Este cam
 
 Observe que você também pode adicionar **[!UICONTROL Rótulo]** a **[!UICONTROL Esquema]**, **[!UICONTROL Conjuntos de dados]** e **[!UICONTROL Públicos-alvo]**.
 
-1. Crie seu **[!UICONTROL Esquema]**. Para obter mais informações, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR).
+1. Crie seu **[!UICONTROL Esquema]**. Para obter mais informações, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR){target="_blank"}.
 
    ![](assets/label_1.png)
 
@@ -104,11 +104,11 @@ Observe que você também pode adicionar **[!UICONTROL Rótulo]** a **[!UICONTRO
 
    ![](assets/label_3.png)
 
-1. Selecione o **[!UICONTROL Rótulo]** correspondente. Nesse caso, os dados C2 - não podem ser exportados para terceiros. Para obter a lista detalhada dos rótulos disponíveis, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels).
+1. Selecione o **[!UICONTROL Rótulo]** correspondente. Nesse caso, os dados C2 - não podem ser exportados para terceiros. Para obter a lista detalhada dos rótulos disponíveis, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Personalize ainda mais seu esquema, se necessário, e ative-o. Para obter as etapas detalhadas sobre como habilitar seu esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile).
+1. Personalize ainda mais seu esquema, se necessário, e ative-o. Para obter as etapas detalhadas sobre como habilitar seu esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}.
 
 O campo do esquema agora será visível apenas e só poderá ser usado por usuários que fazem parte de uma função definida com o rótulo C2.
 Ao aplicar um **[!UICONTROL Rótulo]** ao seu **[!UICONTROL Nome do campo]**, observe que o **[!UICONTROL Rótulo]** será aplicado automaticamente ao campo **Nacionalidade** em cada esquema criado.
