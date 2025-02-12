@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
+source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 18%
 
 ---
@@ -29,7 +29,7 @@ Para adicionar uma ação de canal integrada à sua jornada, arraste e solte uma
 
 >[!NOTE]
 >
->Você também pode configurar ações personalizadas para enviar mensagens para você. [Saiba mais](#recommendation)
+>Você também pode configurar ações personalizadas para enviar suas mensagens no [!DNL Journey Optimizer]. [Saiba mais](#recommendation)
 
 ## Adicionar uma mensagem em uma jornada  {#add-msg-in-journey}
 
