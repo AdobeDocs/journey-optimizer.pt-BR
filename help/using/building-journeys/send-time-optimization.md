@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: send-time, send, message, otimization, jornada, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: a0ace8232d6851b7cd41ba4d8a06a2a42bb799e6
+source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1485'
 ht-degree: 8%
 
 ---
@@ -33,30 +33,24 @@ ht-degree: 8%
 >title="Ativar otimização da hora de envio"
 >abstract="O padrão das mensagens por push é a opção de abertura, pois cliques não são aplicáveis para mensagens por push. Você também pode optar por agrupar as horas de envio usadas pelo sistema inserindo um valor para Enviar na próxima opção."
 
-
 O recurso de Otimização de hora de envio da Adobe Journey Optimizer, viabilizado pelos serviços de IA de Jornada da Adobe, escolhe o tempo de envio ideal para mensagens de email e push para maximizar o engajamento do cliente, com base no histórico do comportamento de abertura e de cliques dos clientes.
 
 A Otimização de tempo de envio está disponível apenas para os tipos de ação de Email e Push integrados da Journey Optimizer e não está disponível no momento para mensagens enviadas por meio de ações personalizadas ou para outros tipos de ação. A Otimização de tempo de envio só está disponível para ações de Email e Push no Jornada e não está disponível no momento para mensagens enviadas por meio de Campanhas.
 
 >[!AVAILABILITY]
 >
->* Pelo menos 1.000 perfis com dados de mensagens recentes são recomendados para treinamento e pontuação iniciais da Otimização de tempo de envio.
+>* O recurso de Otimização de tempo de envio é ativado para clientes do Adobe Journey Optimizer mediante solicitação. Entre em contato com o Atendimento ao cliente da Adobe ou com seu representante da Adobe para ativar o recurso para sua organização.
 >
 >* A Otimização de Tempo de Envio se aplica somente aos canais de **Email** e **Notificação por push**.
-
-## Ativar otimização de tempo de envio{#enable-send-time-optimization}
-
-O recurso de Otimização de tempo de envio é ativado para clientes do Adobe Journey Optimizer mediante solicitação. Entre em contato com o Atendimento ao cliente da Adobe ou com seu representante da Adobe para ativar o recurso para sua organização.
+>
 
 ## Usar otimização de hora de envio{#use-send-time-optimization}
 
 Use a Otimização de tempo de envio em um email ou ação de push ativando o switch Otimização de tempo de envio nos parâmetros de ação.
 
-![](assets/sto-use.png)
+![](assets/jo-message5.png)
 
->[!TIP]
->
->A Otimização de tempo de envio não deve ser usada para mensagens operacionais urgentes e sensíveis ao tempo - por exemplo, uma confirmação de pedido, uma notificação de redefinição de senha ou uma notificação de alteração da porta de voo. A Otimização de tempo de envio é melhor usada em comunicações de marketing menos urgentes - por exemplo, um anúncio semanal, informações promocionais sobre um novo produto ou informações sobre uma venda de um mês.
+A Otimização de tempo de envio não deve ser usada para mensagens operacionais urgentes e sensíveis ao tempo - por exemplo, uma confirmação de pedido, uma notificação de redefinição de senha ou uma notificação de alteração da porta de voo. A Otimização de tempo de envio é melhor usada em comunicações de marketing menos urgentes - por exemplo, um anúncio semanal, informações promocionais sobre um novo produto ou informações sobre uma venda de um mês.
 
 Para mensagens de email, escolha se deseja otimizar as aberturas de email ou click-throughs de email selecionando o botão de opção apropriado. As mensagens de push são sempre otimizadas para aberturas.
 
