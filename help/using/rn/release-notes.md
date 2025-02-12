@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 9538c8c19b242036ce58799b51ef25b8204bf6ec
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 93%
@@ -28,7 +28,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 A melhoria abaixo vem com a atualização de fevereiro.
 
-**Configuração de email** - Data de disponibilidade: 10 de fevereiro de 2025
+**Configuração de email** - Data de disponibilidade: 12 de fevereiro de 2025
 
 * Se você estiver gerenciando o consentimento fora do Adobe, agora é possível definir um endereço de email de cancelamento de inscrição personalizado e um URL de cancelamento de inscrição personalizado com um clique como parte das configurações do canal de email. [Leia mais](../email/list-unsubscribe.md#custom-managed)
 
