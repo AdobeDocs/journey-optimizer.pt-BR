@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
@@ -227,7 +227,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Ativos**
 
-* Uma nova opção de ativos permite escolher o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório do Assets Essentials ou um repositório do Assets as a Cloud Service, desde que seja o proprietário dessa solução. [Saiba mais](../content-management/assets.md)
+* Uma nova opção de ativos permite escolher o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório do Assets Essentials ou um repositório do Assets as a Cloud Service, desde que seja o proprietário dessa solução. [Saiba mais](../integrations/assets.md)
 
 <!--**Decision management**
 
