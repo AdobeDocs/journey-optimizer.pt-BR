@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 3dd2db31a239ec5a81bfd677355aca862602e030
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 17%
@@ -50,7 +50,7 @@ Você pode selecionar o comportamento quando um usuário clicar no corpo da noti
 >title="Adicionar mídias à notificação por push"
 >abstract="É possível adicionar uma imagem, um vídeo ou um GIF que será exibido na notificação."
 
-Na versão para iOS da notificação por push, é possível adicionar uma imagem, um vídeo ou um GIF que são exibidos na notificação.
+Na versão para iOS da sua notificação por push, você pode adicionar uma imagem, um vídeo ou um GIF que são exibidos na sua notificação.
 
 Na versão do Android, só é possível adicionar um ícone de imagem e uma imagem para notificações expandidas.
 
@@ -60,7 +60,7 @@ Duas opções estão disponíveis. É possível:
 
 * Use o botão **[!UICONTROL Adicionar mídia]** para selecionar um ativo em **[!DNL Adobe Experience Manager Assets]**.
 
-  Saiba como usar **[!DNL Adobe Experience Manager Assets]** em [esta página](../content-management/assets.md).
+  Saiba como usar **[!DNL Adobe Experience Manager Assets]** em [esta página](../integrations/assets.md).
 
 * Ou insira a URL da mídia no campo **[!UICONTROL Adicionar mídia]**. Nesse caso, você pode adicionar personalização ao URL.
 
