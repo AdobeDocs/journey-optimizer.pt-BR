@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: componentes, designer de email, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 50%
@@ -121,7 +121,7 @@ Use o componente **[!UICONTROL Texto]** para inserir texto no email e ajustar o 
    * **Tamanho da fonte**: selecione o tamanho da fonte do texto em pixels.
    * **[!UICONTROL Alterar cor da fonte]**: escolha a cor da fonte.
    * **[!UICONTROL Inserir link]**: adicione qualquer tipo de link ao seu conteúdo.
-   * **[!UICONTROL Editar imagem]**: adicione uma imagem ou um ativo ao seu componente de texto. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets.md)
+   * **[!UICONTROL Editar imagem]**: adicione uma imagem ou um ativo ao seu componente de texto. [Saiba mais sobre o gerenciamento de ativos](../integrations/assets.md)
    * **[!UICONTROL Alterar cor da fonte]**: escolha a cor da fonte.
    * **[!UICONTROL Adicionar personalização]**: adicione campos de personalização para personalizar o conteúdo dos dados de seus perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
    * **[!UICONTROL Mostrar o código-fonte]**: exibir o código-fonte do texto. Ele não pode ser modificado.
@@ -151,7 +151,7 @@ Use o componente **[!UICONTROL HTML]** para copiar e colar as diferentes partes 
 
    ![](assets/email_designer_html_component.png)
 
-1. Copie e cole o código de HTML que deseja adicionar ao email e clique em **[!UICONTROL Salvar]**.
+1. Copie e cole o código HTML que deseja adicionar ao seu email e clique em **[!UICONTROL Salvar]**.
 
    ![](assets/email_designer_html_content.png)
 
@@ -184,7 +184,7 @@ Use o componente **[!UICONTROL Imagem]** para inserir um arquivo de imagem do se
 
    ![](assets/email_designer_10.png)
 
-1. Você também pode optar por **[!UICONTROL Localizar fotos semelhantes do Stock]**. [Saiba mais](../content-management/stock.md)
+1. Você também pode optar por **[!UICONTROL Localizar fotos semelhantes do Stock]**. [Saiba mais](../integrations/stock.md)
 
 1. Na guia **[!UICONTROL Estilos]**, ajuste os outros atributos de estilo, como margem, borda etc. ou adicione um link para redirecionar o seu público-alvo para outro conteúdo a partir do painel **[!UICONTROL Configurações do componente]**.
 
