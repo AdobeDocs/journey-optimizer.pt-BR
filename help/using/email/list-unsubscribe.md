@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: definições, email, configuração
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 32%
@@ -76,7 +76,7 @@ Se você estiver gerenciando o consentimento fora do Adobe, selecione a opção 
 >
 >Se você estiver usando a opção **[!UICONTROL Gerenciada pelo cliente]**, a Adobe não armazenará dados de cancelamento de inscrição ou consentimento. Com a opção **[!UICONTROL Gerenciado pelo cliente]**, as organizações optam por usar um sistema externo e serão responsáveis por gerenciar seus dados de consentimento nesse sistema externo. Não há sincronização automática de dados de consentimento entre o sistema externo e [!DNL Journey Optimizer]. Qualquer sincronização de dados de consentimento, proveniente do sistema externo para atualizar dados de consentimento do usuário em [!DNL Journey Optimizer], deve ser iniciada pela organização como uma transferência de dados para enviar os dados de consentimento de volta para [!DNL Journey Optimizer].
 
-## Configurar a API de descriptografia {#configure-decrypt-api}
+### Configurar a API de descriptografia {#configure-decrypt-api}
 
 Com a opção **[!UICONTROL Gerenciado pelo cliente]** selecionada, se você inserir pontos de extremidade personalizados e usá-los em uma campanha ou jornada, o [!DNL Journey Optimizer] anexará alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento <!--sent to the custom endpoint --> quando os destinatários clicarem no link Cancelar inscrição.
 
