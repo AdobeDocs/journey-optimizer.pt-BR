@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: definições, email, configuração
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 93%
@@ -44,7 +44,7 @@ Ao configurar uma nova [configuração de canal de email](email-settings.md), na
 >
 >Os endereços devem começar com uma letra (A-Z) e só podem conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
 
-### Email de resposta {#reply-to-email}
+## Email de resposta {#reply-to-email}
 
 É possível especificar qualquer endereço como **[!UICONTROL Email de resposta]**, desde que este seja um endereço de email válido, esteja no formato correto e não contenha erros de digitação.
 
@@ -66,7 +66,7 @@ Se você receber um erro ao enviar a configuração de email, isto significa que
 >
 >Se o subdomínio do endereço inserido for um domínio [totalmente delegado](../configuration/delegate-subdomain.md#full-subdomain-delegation) à Adobe, entre em contato com o departamento executivo de conta da Adobe.
 
-### Email de encaminhamento {#forward-email}
+## Email de encaminhamento {#forward-email}
 
 Para encaminhar a um endereço de email específico todos os emails recebidos pelo [!DNL Journey Optimizer] referentes ao subdomínio delegado, entre em contato com o Atendimento ao cliente da Adobe.
 
