@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, design, formatação
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 28%
@@ -58,13 +58,13 @@ Na seção **[!UICONTROL Layout da Mensagem]**, selecione uma das quatro opçõe
 
   Você só pode adicionar um **[!UICONTROL Cabeçalho]** e um **[!UICONTROL Corpo]** à sua mensagem.
 
-* **[!UICONTROL Personalizado]**: o modo de mensagem personalizada permite importar e editar diretamente uma de suas mensagens HTML pré-configuradas.
+* **[!UICONTROL Personalizado]**: o modo de mensagem personalizada permite importar e editar diretamente uma de suas mensagens pré-configuradas do HTML.
 
-   * Selecione **[!UICONTROL Compor]** para inserir ou colar seu código de HTML bruto.
+   * Selecione **[!UICONTROL Compor]** para inserir ou colar seu código HTML bruto.
 
      Use o painel esquerdo para aproveitar os recursos de personalização do Journey Optimizer. Para obter mais informações, consulte [esta seção](../personalization/personalize.md).
 
-   * Selecione **[!UICONTROL Importar]** para importar o arquivo HTML ou .zip que contenha o conteúdo HTML.
+   * Selecione **[!UICONTROL Importar]** para importar o arquivo HTML ou .zip que contenha o conteúdo do HTML.
 
 ## Guia Conteúdo {#content-tab}
 
@@ -104,7 +104,7 @@ O campo **[!UICONTROL Mídia]** permite adicionar mídia à mensagem no aplicati
 
 ![](assets/in_app_web_design_3.png)
 
-Digite sua URL de mídia ou clique no ícone **[!UICONTROL Selecionar Assets]** para adicionar diretamente os ativos armazenados na biblioteca do Assets à mensagem no aplicativo. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets.md).
+Digite sua URL de mídia ou clique no ícone **[!UICONTROL Selecionar Assets]** para adicionar diretamente os ativos armazenados na biblioteca do Assets à mensagem no aplicativo. [Saiba mais sobre o gerenciamento de ativos](../integrations/assets.md).
 Você também pode adicionar um **[!UICONTROL texto alternativo]** para aplicativos de leitura de tela.
 
 +++Mais opções com formatação avançada
