@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
+source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '493'
 ht-degree: 18%
 
 ---
@@ -79,10 +79,6 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >Para emails e notificações por push, é possível ativar a Otimização de tempo de envio. [Saiba mais](send-time-optimization.md)
-
    * Saiba mais sobre as etapas detalhadas para criar sua ação de entrada da seguinte maneira:
 
      <table style="table-layout:fixed">
@@ -123,9 +119,12 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >Cada atividade de mensagem de entrada vem com uma atividade de 3 dias **Aguardar**. [Saiba mais](wait-activity.md#auto-wait-node)
+>[!NOTE]
+>
+>* Cada atividade de mensagem de entrada vem com uma atividade de 3 dias **Aguardar**. [Saiba mais](wait-activity.md#auto-wait-node)
+>
+>* Para emails e notificações por push, é possível ativar a Otimização de tempo de envio. [Saiba mais](send-time-optimization.md)
+
 
 
 ## Atualizar um conteúdo ao vivo {#update-live-content}
