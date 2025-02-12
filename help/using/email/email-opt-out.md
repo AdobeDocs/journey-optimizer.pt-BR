@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Gerenciamento de opção de não participação de email
 description: Saiba como gerenciar a opção de não participação com emails
-feature: Email Design, Privacy
+feature: Email Design, Consent Management
 topic: Content Management
 role: User
 level: Intermediate
 keywords: recusar, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 26%

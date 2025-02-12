@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 38%
@@ -43,7 +43,7 @@ Antes de enviar SMS ou MMS, você deve configurar o ambiente do Adobe Journey Op
    * [Com Sinch](sms-configuration-sinch.md)
    * [Com Infobip](sms-configuration-infobip.md)
    * [Com um provedor personalizado](sms-configuration-custom.md)
-1. [Criar uma superfície de SMS](sms-configuration-surface.md)
+1. [Criar uma configuração de SMS](sms-configuration-surface.md)
 
 Estas etapas devem ser executadas por um [Administrador do Sistema](../start/path/administrator.md) do Adobe Journey Optimizer.
 
@@ -53,7 +53,7 @@ Atualmente, o Adobe Journey Optimizer está integrado a provedores de terceiros 
 
 Antes da configuração do canal SMS, você deve criar uma conta com um desses provedores para obter o **Token de API** e a **ID de Serviço**, que você precisa configurar a conexão entre o Adobe Journey Optimizer e o provedor aplicável.
 
-O uso de mensagens de texto e serviços MMS está sujeito a termos e condições adicionais do provedor aplicável. Como soluções de terceiros, o Sinch, o Twilio e o Infobip estão disponíveis para usuários do Adobe Journey Optimizer por meio de uma integração. A Adobe não controla e não é responsável por produtos de terceiros. Em caso de problemas ou solicitações de assistência relacionados aos serviços de mensagens de texto (SMS/MMS), entre em contato com seu provedor.
+O uso de mensagens de texto e serviços MMS está sujeito a termos e condições adicionais do provedor aplicável. Como soluções de terceiros, o Sinch, o Twilio e o Infobip estão disponíveis para usuários do Adobe Journey Optimizer por meio de uma integração. A Adobe não controla a e não se responsabiliza por produtos de terceiros. Em caso de problemas ou solicitações de assistência relacionados aos serviços de mensagens de texto (SMS/MMS), entre em contato com seu provedor.
 
 >[!CAUTION]
 >

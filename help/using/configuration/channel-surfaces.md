@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Definir configurações de canal
 description: Saiba como definir e monitorar configurações de canal
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -73,7 +73,7 @@ Para criar uma configuração de canal, siga estas etapas:
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
 
 1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
 
@@ -108,7 +108,7 @@ Para criar uma configuração de canal, siga estas etapas:
    > * Para **sandboxes de não produção** ou se o subdomínio selecionado for **já usado** em outra configuração de canal aprovada, o processo levará apenas **3 horas**.
 
 
-   Essas verificações incluem os testes técnicos e de configuração realizados pela equipe do Adobe:
+   Essas verificações incluem a configuração e os testes técnicos executados pela equipe do Adobe:
 
    * Validação de SPF
    * Validação do DKIM
@@ -143,7 +143,7 @@ Depois de criadas, as configurações de canal podem ter os seguintes status:
 
 Em caso de falha na criação de um canal, os detalhes sobre cada possível motivo de falha são descritos abaixo.
 
-Se um desses erros ocorrer, entre em contato com o [Atendimento ao cliente do Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} para obter assistência.
+Se um desses erros ocorrer, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} para obter assistência.
 
 * **Falha na validação do SPF**: o SPF (Estrutura de Política do Remetente) é um protocolo de autenticação de email que permite especificar IPs autorizados que podem enviar emails de um determinado subdomínio. Falha na validação do SPF significa que os endereços IP no registro SPF não correspondem aos endereços IP usados para enviar emails para os provedores de caixa de correio.
 

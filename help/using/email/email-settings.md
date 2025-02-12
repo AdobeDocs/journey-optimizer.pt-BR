@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Definir configurações de email
 description: Saiba como definir as configurações de email no nível dos canais
-feature: Email, Surface
+feature: Email, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 307655ebfb161ab5023430be801c46b378326ccd
 workflow-type: tm+mt
-source-wordcount: '2484'
-ht-degree: 98%
+source-wordcount: '1514'
+ht-degree: 96%
 
 ---
 
@@ -89,81 +89,7 @@ Ele permite incluir um URL de cancelamento de inscrição de um clique no cabeç
 
 ## Parâmetros de cabeçalho {#email-header}
 
-Na seção **[!UICONTROL Parâmetros de cabeçalho]**, digite os nomes e endereços de email do remetente associados aos tipos de emails enviados usando essa configuração.
-
->[!NOTE]
->
->Para ter maior controle sobre as configurações de email, é possível personalizar os parâmetros do cabeçalho. [Saiba mais](../email/surface-personalization.md#personalize-header)
-
-* **[!UICONTROL Nome do remetente]**: o nome do remetente, como o nome da sua marca.
-* **[!UICONTROL Prefixo do email do remetente]**: o endereço de email que você deseja usar para suas comunicações.
-* **[!UICONTROL Responder a (nome)]**: o nome que será usado quando o destinatário clicar no botão **Responder** do software do cliente de email.
-* **[!UICONTROL Email de resposta]**: o endereço de email que será usado quando o destinatário clicar no botão **Responder** do software do cliente de email. [Saiba mais](#reply-to-email)
-* **[!UICONTROL Prefixo do email de erro]**: todos os erros gerados pelos ISPs após alguns dias de entrega de emails (rejeições assíncronas) são recebidos neste endereço. As notificações de ausência e as respostas de desafio também são recebidas neste endereço.
-
-  Se quiser receber notificações de ausência e respostas de desafio em um endereço de email específico que não esteja delegado à Adobe, será necessário configurar um [processo de encaminhamento](#forward-email). Nesse caso, verifique se você tem uma solução manual ou automatizada para processar os emails que chegam a essa caixa de entrada.
-
->[!NOTE]
->
->Os endereços de **[!UICONTROL Prefixo do email do remetente]** e **[!UICONTROL Prefixo do email de erro]** usam o [subdomínio delegado](../configuration/about-subdomain-delegation.md) selecionado no momento para enviar o email. Por exemplo, se o subdomínio delegado for *marketing.luma.com*:
->* Insira *contato* como o **[!UICONTROL Prefixo do email do remetente]**: o email do remetente é *contact@marketing.luma.com*.
->* Insira *erro* como o **[!UICONTROL Prefixo do email de erro]**: o endereço de erro é *error@marketing.luma.com*.
-
-
-![](assets/preset-header.png){width="80%"}
-
->[!NOTE]
->
->Os endereços devem começar com uma letra (A-Z) e só podem conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
-
-### Email de resposta {#reply-to-email}
-
-É possível especificar qualquer endereço como **[!UICONTROL Email de resposta]**, desde que este seja um endereço de email válido, esteja no formato correto e não contenha erros de digitação.
-
-A caixa de entrada de respostas receberá todos os emails de resposta, exceto notificações de ausência e respostas de desafio, que serão recebidos no endereço de **Email de erro**.
-
-Para garantir o gerenciamento de respostas adequado, siga as recomendações abaixo:
-
-* Verifique se a caixa de entrada dedicada tem capacidade suficiente para receber todos os emails de resposta enviados usando a configuração de email. Se a caixa de entrada retornar rejeições, algumas respostas de clientes podem não ser recebidas.
-
-* O processamento de respostas deve respeitar os requisitos de privacidade e conformidade, pois estas podem conter informações de identificação pessoal (PII).
-
-* Não marque mensagens como spam na caixa de entrada de resposta, pois isso afetará todas as outras respostas enviadas para esse endereço.
-
-Além disso, ao definir o endereço de **[!UICONTROL Email de resposta]**, certifique-se de usar um subdomínio que tenha uma configuração de registro MX válida, caso contrário, o processamento da configuração de email falhará.
-
-Se você receber um erro ao enviar a configuração de email, isto significa que o registro MX não está configurado para o subdomínio do endereço inserido. Entre em contato com o(a) admin para configurar o registro MX correspondente ou use outro endereço com uma configuração de registro MX válida.
-
->[!NOTE]
->
->Se o subdomínio do endereço inserido for um domínio [totalmente delegado](../configuration/delegate-subdomain.md#full-subdomain-delegation) à Adobe, entre em contato com o departamento executivo de conta da Adobe.
-
-### Email de encaminhamento {#forward-email}
-
-Para encaminhar a um endereço de email específico todos os emails recebidos pelo [!DNL Journey Optimizer] referentes ao subdomínio delegado, entre em contato com o Atendimento ao cliente da Adobe.
-
->[!NOTE]
->
->Se o subdomínio usado para o endereço de **[!UICONTROL Email de resposta]** não for delegado à Adobe, o encaminhamento não funcionará para esse endereço.
-
-É necessário fornecer:
-
-* O endereço de email de encaminhamento de sua escolha. Observe que o domínio do endereço de email de encaminhamento não pode corresponder a nenhum subdomínio delegado à Adobe.
-* O nome da sandbox.
-* O nome da configuração ou o subdomínio para o qual o endereço de email de encaminhamento será usado.
-  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel configuration level.-->
-
->[!NOTE]
->
->Só é permitido um endereço de email de encaminhamento por subdomínio. Consequentemente, se várias configurações usarem o mesmo subdomínio, o mesmo endereço de email de encaminhamento deverá ser usado em todas elas.
-
-O endereço de email de encaminhamento é definido pela Adobe. Isso pode levar de 3 a 4 dias.
-
-Após a conclusão desse processo, todas as mensagens recebidas nos endereços de **[!UICONTROL Email de resposta]** e **Email de erro**, bem como todos os emails enviados para o endereço de **Email do remetente** serão encaminhados para o endereço de email específico fornecido.
-
->[!NOTE]
->
->Se o encaminhamento não estiver habilitado, os emails enviados diretamente para o endereço de **Email do remetente** serão descartados por padrão.
+Na seção **[!UICONTROL Parâmetros de cabeçalho]**, digite os nomes e endereços de email do remetente associados ao tipo de email enviado usando essa configuração. [Saiba mais](header-parameters.md)
 
 ## Email de cópia (CCO) {#bcc-email}
 
@@ -267,53 +193,7 @@ Saiba mais sobre novas tentativas [nesta seção](../configuration/retries.md).
 >title="Visualizar parâmetros de rastreamento do URL"
 >abstract="Analise como os parâmetros de rastreamento serão anexados aos URLs presentes no seu conteúdo de email."
 
-Use os **[!UICONTROL parâmetros de rastreamento de URL]** para medir a eficácia de suas ações de marketing em todos os canais. Esse recurso é opcional.
-
-Os parâmetros definidos nesta seção serão anexados ao final dos URLs incluídos no conteúdo da mensagem de email. É possível capturar esses parâmetros em ferramentas de análise da web, como o Adobe Analytics ou Google Analytics, a fim de criar vários relatórios de desempenho.
-
-É possível adicionar até 10 parâmetros de rastreamento usando o botão **[!UICONTROL Adicionar novo parâmetro]**.
-
-![](assets/preset-url-tracking.png){width="80%"}
-
-Para configurar um parâmetro de rastreamento de URL, insira os valores desejados diretamente nos campos **[!UICONTROL Nome]** e **[!UICONTROL Valor]**.
-
-É possível editar cada campo de **[!UICONTROL Valor]** usando o [editor de personalização](../personalization/personalization-build-expressions.md). Clique no ícone de edição para abrir o editor. Em seguida, selecione os atributos contextuais disponíveis e/ou edite diretamente o texto.
-
-![](assets/preset-url-tracking-editor.png)
-
-Os seguintes valores predefinidos estão disponíveis por meio do editor de personalização:
-
-* **ID da ação de origem**: ID da ação de email adicionada à jornada ou campanha.
-
-* **Nome da ação de origem**: nome da ação de email adicionada à jornada ou campanha.
-
-* **ID de origem**: ID da jornada ou campanha com a qual o email foi enviado.
-
-* **Nome de origem**: nome da jornada ou campanha com a qual o email foi enviado.
-
-* **ID da versão de origem**: ID da versão da jornada ou campanha com a qual o email foi enviado.
-
-* **ID da oferta**: ID da oferta usada no email.
-
->[!NOTE]
->
->É possível digitar valores de texto e também usar atributos contextuais do editor de personalização. Cada campo **[!UICONTROL Valor]** pode conter um número de caracteres até o limite de 5 KB.
-
-<!--You can drag and drop the parameters to reorder them.-->
-
-Veja abaixo alguns exemplos de URLs compatíveis com o Adobe Analytics e o Google Analytics.
-
-* URL compatível com o Adobe Analytics: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
-
-* URL compatível com o Google Analytics: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
-
-É possível visualizar o URL de rastreamento resultante em tempo real. Cada vez que você adiciona, edita ou remove um parâmetro, a visualização é atualizada automaticamente.
-
-![](assets/preset-url-tracking-preview.png)
-
->[!NOTE]
->
->Também é possível adicionar parâmetros de rastreamento personalizados e dinâmicos aos links presentes no conteúdo do email, mas isso não é possível no nível de configuração. Você deve fazer isso ao criar sua mensagem usando o designer de email. [Saiba mais](message-tracking.md#url-tracking)
+Use os **[!UICONTROL parâmetros de rastreamento de URL]** para medir a eficácia de suas ações de marketing em todos os canais. [Saiba mais](url-tracking.md)
 
 ## Endereço de execução {#execution-address}
 
