@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6b75f1f1916a20c1ad66f5b89ec706e5b8b6844b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '6024'
 ht-degree: 98%
@@ -130,7 +130,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 ## Fevereiro de 2024 {#feb-2024}
 
 * Todos os novos recursos e aprimoramentos da versão de fevereiro de 2024 do [!DNL Journey Optimizer] estão detalhados na documentação. [Leia mais](release-notes.md#feb-2024)
-* Adição da integração Journey Optimizer + Workfront à página de integrações. [Leia mais](../start/ajo-integrations.md)
+* Adição da integração Journey Optimizer + Workfront à página de integrações. [Leia mais](../integrations/ajo-integrations.md)
 * Adição de informações sobre como personalizar as representações de ofertas com base nos dados de contexto. [Leia mais](../offers/offer-library/add-representations.md#context-data)
 * Atualização da página de medidas de proteção com uma observação sobre ações personalizadas que são compatíveis com o formato JSON somente ao usar conteúdo de solicitação ou resposta. [Leia mais](../start/guardrails.md#custom-actions-g)
 * Adição de informações adicionais sobre o tipo de autenticação básica em fontes de dados externas. [Leia mais](../datasource/external-data-sources.md)
@@ -250,7 +250,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Foi adicionada uma nota para especificar que as ações incorporadas não podem ser removidas. [Leia mais](../start/guardrails.md#custom-actions-g)
 * Foram adicionadas informações sobre serviceEvents, bem como um exemplo de consulta para verificar os detalhes de um serviceEvent. [Leia mais](../reports/query-examples.md#common-queries)
 * Foi adicionada uma nota para especificar que não é possível executar consultas em séries cronológicas. [Leia mais](../building-journeys/condition-activity.md)
-* O Adobe Experience Manager Assets Essentials e o Adobe Stock foram adicionados à página de integração de várias soluções. [Leia mais](../start/ajo-integrations.md)
+* O Adobe Experience Manager Assets Essentials e o Adobe Stock foram adicionados à página de integração de várias soluções. [Leia mais](../integrations/ajo-integrations.md)
 * O aviso sobre subdomínios de email de vários níveis não serem permitidos foi removido, pois eles agora são compatíveis. [Leia mais](../configuration/delegate-subdomain.md)
 * Uma observação foi adicionada para especificar que, se forem feitas alterações em uma decisão de oferta que esteja sendo usada em uma mensagem da jornada, será necessário desfazer a publicação da jornada e republicá-la. [Leia mais](../building-journeys/publishing-the-journey.md)
 * A explicação sobre como se certificar de que os eventos foram corretamente contabilizados no contador de limites foi esclarecida na seção **Evento de limitação** da gestão de decisões. [Leia mais](../offers/offer-library/add-constraints.md#capping-event)
@@ -306,7 +306,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Novembro de 2022 {#november-2022}
 
-* Uma nova página sobre as integrações do Journey Optimizer foi adicionada. [Leia mais](../start/ajo-integrations.md)
+* Uma nova página sobre as integrações do Journey Optimizer foi adicionada. [Leia mais](../integrations/ajo-integrations.md)
 * Uma recomendação sobre o comprimento dos URLs de mirror pages foi adicionada. [Leia mais](../email/message-tracking.md)
 * Uma nova subseção nas configurações de email foi adicionada na resposta ao endereço de email, incluindo recomendações para garantir o gerenciamento de resposta adequado. [Leia mais](../email/email-settings.md#reply-to-email)
 * Adição de uma seção sobre como modificar o conteúdo de uma mensagem em uma jornada em tempo real. [Leia mais](../building-journeys/journeys-message.md#update-live-content)
