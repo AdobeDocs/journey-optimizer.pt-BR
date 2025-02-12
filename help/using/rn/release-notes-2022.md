@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
-source-wordcount: '3598'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -449,7 +449,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tr>
 <td>
 <p>O plug-in de integração do Designer de email do Adobe Stock e Adobe Journey Optimizer fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens. </br> A nova opção <b>Localizar fotos semelhantes do Stock</b> também permite localizar fotos do Stock que correspondam ao conteúdo, cor e composição de suas imagens. </p>
-<p>Para obter mais informações, consulte a <a href="../content-management/stock.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../integrations/stock.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
