@@ -9,7 +9,7 @@ role: User
 level: Intermediate, Experienced
 keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 68%
@@ -24,7 +24,7 @@ Use o modo **[!UICONTROL Desenvolver você mesmo]** para importar um HTML bruto 
 
 >[!CAUTION]
 >
-> Imagens de [Adobe Experience Manager Assets](../content-management/assets.md) não podem ser referenciadas ao usar este método. As imagens referenciadas em seu código de HTML devem ser armazenadas em um local público.
+> Imagens de [Adobe Experience Manager Assets](../integrations/assets.md) não podem ser referenciadas ao usar este método. As imagens referenciadas no código HTML devem ser armazenadas em um local público.
 
 1. Na página inicial do Email Designer, selecione **[!UICONTROL Codifique o seu próprio]**.
 
