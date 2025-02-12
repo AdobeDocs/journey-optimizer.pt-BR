@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabalhar com modelos AEM
+title: Trabalhar com modelos do AEM
 description: Saiba como criar modelos no AEM e exportá-los para o Journey Optimizer
 hide: true
 hidefromtoc: true
@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 2%
@@ -31,11 +31,11 @@ Com o Adobe Journey Optimizer, você pode criar mensagens personalizadas por mei
 
 Antes de começar a usar esse recurso, verifique se você está alinhado aos seguintes requisitos:
 
-* **configurações de Experience Manager**
+* **configurações do Experience Manager**
 
   Este recurso está disponível com o [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=pt-BR){target="_blank"}.
 
-  Como parte do programa beta, a configuração do Cloud Service é executada pelo Adobe no Adobe Experience Manager para se conectar ao Adobe Journey Optimizer.
+  Como parte do programa beta, a configuração do Cloud Service é executada pela Adobe no Adobe Experience Manager para se conectar ao Adobe Journey Optimizer.
 
 * **Permissões**
 
@@ -45,11 +45,11 @@ Antes de começar a usar esse recurso, verifique se você está alinhado aos seg
 
 Para otimizar ainda mais o uso do Adobe Experience Manager com Adobe Journey Optimizer, é importante estar ciente das seguintes medidas de proteção e limitações adicionais:
 
-* A sintaxe adequada do Journey Optimizer é necessária para que a personalização no modelo de Experience Manager seja efetiva. [Saiba mais](../personalization/personalization-syntax.md)
+* A sintaxe adequada do Journey Optimizer é necessária para que a personalização no modelo do Experience Manager seja efetiva. [Saiba mais](../personalization/personalization-syntax.md)
 
 * A exportação de modelos em massa não é suportada no momento. Os modelos devem ser exportados individualmente.
 
-* A sincronização entre o Experience Manager e o Journey Optimizer não está disponível no momento. Se forem feitas alterações em um modelo de Experience Manager após ele ter sido enviado para o Journey Optimizer, o usuário precisará exportar novamente o modelo e reenviá-lo para o Journey Optimizer.
+* A sincronização entre o Experience Manager e o Journey Optimizer não está disponível no momento. Se forem feitas alterações em um modelo do Experience Manager depois de ele ter sido enviado para o Journey Optimizer, o usuário precisará exportar novamente o modelo e reenviá-lo para o Journey Optimizer.
 
 ## Enviar um modelo para o Journey Optimizer{#aem-templates-send}
 
@@ -79,7 +79,7 @@ O modelo é adicionado aos modelos de conteúdo do Adobe Journey Optimizer da sa
 
 ## Usar e personalizar um modelo do Adobe Experience Manager{#aem-templates-perso}
 
-Quando o modelo de Experience Manager estiver disponível no Journey Optimizer como um modelo de conteúdo, você poderá identificar e incorporar o conteúdo necessário para o email, incluindo personalização.
+Quando o template do Experience Manager estiver disponível no Journey Optimizer como um template de conteúdo, você poderá identificar e incorporar o conteúdo necessário para o email, incluindo personalização.
 
 1. No Journey Optimizer, no menu **[!UICONTROL Modelo de conteúdo]**, acesse o modelo importado.
 
@@ -91,7 +91,7 @@ Quando o modelo de Experience Manager estiver disponível no Journey Optimizer c
 
 1. Na janela **[!UICONTROL Propriedades do modelo]**, clique no botão **[!UICONTROL Gerenciar acesso]** para atribuir rótulos de uso de dados principais ou personalizados ao seu modelo. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
 
-1. Para personalizar ainda mais seu modelo de Experience Manager e adicionar personalização personalizada ao seu conteúdo, clique em **[!UICONTROL Editar conteúdo]**. Isso permitirá que você faça alterações facilmente e personalize o modelo de acordo com suas necessidades específicas. [Saiba mais](get-started-email-design.md)
+1. Para personalizar ainda mais seu modelo do Experience Manager e adicionar personalização personalizada ao seu conteúdo, clique em **[!UICONTROL Editar conteúdo]**. Isso permitirá que você faça alterações facilmente e personalize o modelo de acordo com suas necessidades específicas. [Saiba mais](../email/get-started-email-design.md)
 
    >[!WARNING]
    >
@@ -103,11 +103,11 @@ Quando o modelo de Experience Manager estiver disponível no Journey Optimizer c
 
    ![](assets/aem_ajo_3.png)
 
-1. Agora você pode editar e personalizar seu conteúdo. Para obter mais informações sobre como criar seu conteúdo de email, consulte esta [página](content-from-scratch.md).
+1. Agora você pode editar e personalizar seu conteúdo. Para obter mais informações sobre como criar seu conteúdo de email, consulte esta [página](../email/content-from-scratch.md).
 
    ![](assets/aem_ajo_5.png)
 
-1. Se você adicionou conteúdo personalizado ao seu modelo de Experience Manager, clique em **[!UICONTROL Simular conteúdo]** para visualizar como ele aparecerá na mensagem usando perfis de teste.
+1. Se você adicionou conteúdo personalizado ao seu modelo do Experience Manager, clique em **[!UICONTROL Simular conteúdo]** para visualizar como ele aparecerá na mensagem usando perfis de teste.
 
 [Saiba mais sobre perfis de pré-visualização e teste](../content-management/preview-test.md)
 
