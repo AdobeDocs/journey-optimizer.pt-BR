@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: dados, gerenciamento, plataforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 1ed007d5921573dce30df6faa625bb0bce5d6616
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Em termos gerais, a flexibilidade que você deseja dos seus dados é:
     <div><img alt="destinos" src="assets/do-not-localize/dest.png" /> 
     <br>Disponível em outros destinos: embora o [!DNL Adobe Journey Optimizer] sincronize e integre dados para obter uma experiência do cliente hiperpersonalizada, você deseja que esses dados estejam em outros sistemas no seu cenário tecnológico geral e, ao mesmo tempo, procura outras maneiras de aproveitar esses dados.
     <div>
-     <a href="../start/ajo-integrations.md">Saiba mais</a></div>
+     <a href="../integrations/ajo-integrations.md">Saiba mais</a></div>
     </div>
     <br>
   </td>
@@ -70,7 +70,7 @@ Você pode usar a flexibilidade de dados do [!DNL Journey Optimizer] para atende
   Observe que o conteúdo usado em jornadas ou campanhas não pode ser extraído por meio da API ou dos métodos de destino mencionados acima.
 
 <!--
-* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
+* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
   Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->
