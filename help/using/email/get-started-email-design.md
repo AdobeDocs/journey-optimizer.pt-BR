@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 * Usar os **recursos de design de email** do [!DNL Journey Optimizer] para criar ou importar emails responsivos. [Saiba mais](content-from-scratch.md)
 
-* Aproveitar o **Adobe Experience Manager Assets Essentials** para enriquecer seus emails e criar e gerenciar seu próprio banco de dados de ativos. [Saiba mais](../content-management/assets.md)
+* Aproveitar o **Adobe Experience Manager Assets Essentials** para enriquecer seus emails e criar e gerenciar seu próprio banco de dados de ativos. [Saiba mais](../integrations/assets.md)
 
-* Encontrar **fotos do Adobe Stock** para criar seu conteúdo e melhorar o design de emails. [Saiba mais](../content-management/stock.md)
+* Encontrar **fotos do Adobe Stock** para criar seu conteúdo e melhorar o design de emails. [Saiba mais](../integrations/stock.md)
 
 * Melhore a experiência dos clientes criando mensagens personalizadas e dinâmicas com base em seus atributos de perfil. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md).
 
@@ -52,7 +52,7 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
 
 1. Na página inicial do Designer de email, escolha uma das seguintes opções para criar o design do email:
 
-   * **Projete seu email do zero** através da interface do Designer de email e aproveite as imagens do [Adobe Experience Manager Assets](../content-management/assets.md). Saiba como criar o design do conteúdo de email [nesta seção](content-from-scratch.md).
+   * **Projete seu email do zero** através da interface do Designer de email e aproveite as imagens do [Adobe Experience Manager Assets](../integrations/assets.md). Saiba como criar o design do conteúdo de email [nesta seção](content-from-scratch.md).
 
    * **Codifique ou cole um HTML bruto** diretamente no Designer de email. Saiba como codificar seu próprio conteúdo [nesta seção](code-content.md).
 
