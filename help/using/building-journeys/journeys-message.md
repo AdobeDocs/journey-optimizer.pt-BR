@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
+source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 27%
+source-wordcount: '491'
+ht-degree: 18%
 
 ---
 
@@ -23,23 +23,30 @@ ht-degree: 27%
 >title="Ação de canal integrada"
 >abstract="O Journey Optimizer inclui recursos de ação de canal integrada. Você pode simplesmente adicionar à sua jornada uma atividade de saída (email, mensagem de texto (SMS/MMS), push) ou de entrada (no aplicativo, web, experiência baseada em código, cartão de conteúdo) e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
 
-O [!DNL Journey Optimizer] vem com recursos de ação de canal incorporados. Você pode simplesmente adicionar à sua jornada uma atividade de saída (email, mensagem de texto (SMS/MMS), push) ou de entrada (no aplicativo, web, experiência baseada em código, cartão de conteúdo) e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada.
+O [!DNL Journey Optimizer] vem com recursos de ação de canal incorporados que são usados para enviar mensagens: quando um perfil entra nessa atividade, uma mensagem é enviada a ele.
+
+Para adicionar uma ação de canal integrada à sua jornada, arraste e solte uma atividade de canal e defina suas configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada.
 
 >[!NOTE]
 >
->Você também pode configurar ações específicas para enviar mensagens para você. [Saiba mais](#recommendation)
+>Você também pode configurar ações personalizadas para enviar mensagens para você. [Saiba mais](#recommendation)
+
+## Adicionar uma mensagem em uma jornada  {#add-msg-in-journey}
+
+Com ações de canal integradas, é possível configurar mensagens de saída ou de entrada. Os canais de entrada compatíveis são email, mensagem de texto (SMS/MMS) e notificações por push. Os canais de saída compatíveis são: No aplicativo, Web, experiência baseada em código e cartão de conteúdo.
 
 Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaixo.
 
 1. Inicie sua jornada com uma atividade [Evento](general-events.md) ou [Ler público](read-audience.md).
 
-1. Na seção **Ações** da paleta, arraste e solte na tela uma atividade de saída (**email**, **push**, **SMS**) ou de entrada (**No aplicativo**, **Web**, **experiência baseada em código**, **cartão de conteúdo**).
+1. Na seção **Ações** da paleta, arraste e solte uma atividade de canal na tela.
 
    ![](assets/journey-web-activity.png)
 
-1. Configure sua atividade.
 
-   * Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem da seguinte maneira:
+1. Configure sua atividade. Diretrizes de configuração detalhadas estão disponíveis nos links abaixo.
+
+   * Saiba mais sobre as etapas detalhadas para criar sua ação de saída da seguinte maneira:
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
@@ -121,7 +128,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
      >Cada atividade de mensagem de entrada vem com uma atividade de 3 dias **Aguardar**. [Saiba mais](wait-activity.md#auto-wait-node)
 
 
-## Atualizar conteúdo ao vivo {#update-live-content}
+## Atualizar um conteúdo ao vivo {#update-live-content}
 
 Você pode atualizar o conteúdo de uma ação de canal integrada em uma jornada em tempo real.
 
