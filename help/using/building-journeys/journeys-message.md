@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '444'
 ht-degree: 27%
 
 ---
@@ -72,6 +72,10 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
       </tr>
       </table>
 
+     >[!NOTE]
+     >
+     >Para emails e notificações por push, é possível ativar a Otimização de tempo de envio. [Saiba mais](send-time-optimization.md)
+
    * Saiba mais sobre as etapas detalhadas para criar sua ação de entrada da seguinte maneira:
 
      <table style="table-layout:fixed">
@@ -114,20 +118,10 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
 
      >[!NOTE]
      >
-     >Cada atividade de mensagem de entrada vem com uma atividade de 3 dias **Aguardar**. [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
+     >Cada atividade de mensagem de entrada vem com uma atividade de 3 dias **Aguardar**. [Saiba mais](wait-activity.md#auto-wait-node)
 
-## Recomendação {#recommendation}
 
-[!DNL Journey Optimizer] vem com o recurso de mensagem interno. No entanto, as ações personalizadas permitem configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API.
-
-* Se você estiver usando um sistema de terceiros para enviar mensagens, poderá criar uma ação personalizada. [Saiba mais](../action/action.md)
-
-* Se estiver trabalhando com o Campaign e o Journey Optimizer, consulte estas seções:
-
-   * [[!DNL Journey Optimizer] e o Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
-
-## Atualizar conteúdo ao vivo{#update-live-content}
+## Atualizar conteúdo ao vivo {#update-live-content}
 
 Você pode atualizar o conteúdo de uma ação de canal integrada em uma jornada em tempo real.
 
@@ -137,8 +131,19 @@ Para fazer isso, abra a jornada em tempo real, selecione a atividade de canal e 
 
 No entanto, não é possível alterar os atributos usados na personalização, sejam eles atributos de perfil ou dados contextuais (de propriedades de evento ou jornada).
 
-Se você modificou dados contextuais, a seguinte mensagem de erro será exibida: ERR_AUTHORING_JOURNEYVERSION_201
+Se você modificou dados contextuais, a seguinte mensagem de erro será exibida: `ERR_AUTHORING_JOURNEYVERSION_201`
 
-Se você modificou atributos de perfil, a seguinte mensagem de erro será exibida: ERR_AUTHORING_JOURNEYVERSION_202
+Se você modificou atributos de perfil, a seguinte mensagem de erro será exibida: `ERR_AUTHORING_JOURNEYVERSION_202`
 
 Observe que, para a atividade no aplicativo, qualquer alteração pode ser feita no conteúdo enquanto a jornada está ativa, mas os acionadores no aplicativo não podem ser modificados.
+
+## Enviar com ações personalizadas {#recommendation}
+
+Em vez de usar os recursos de mensagem incorporados, você pode usar ações personalizadas para configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API.
+
+* Se você estiver usando um sistema de terceiros para enviar mensagens, poderá criar uma ação personalizada. [Saiba mais](../action/action.md)
+
+* Se estiver trabalhando com o Adobe Campaign, consulte estas seções:
+
+   * [[!DNL Journey Optimizer] e o Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
