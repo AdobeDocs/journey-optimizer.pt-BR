@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 307655ebfb161ab5023430be801c46b378326ccd
+source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1471'
 ht-degree: 96%
 
 ---
@@ -182,16 +182,6 @@ Você deve inserir um valor inteiro (em horas ou minutos) dentro do seguinte int
 Saiba mais sobre novas tentativas [nesta seção](../configuration/retries.md).
 
 ## Rastreamento de URL {#url-tracking}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_utm"
->title="Definir parâmetros de rastreamento de URL"
->abstract="Use essa seção para anexar automaticamente parâmetros de rastreamento aos URLs presentes no seu conteúdo de email. Esse recurso é opcional."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_url_preview"
->title="Visualizar parâmetros de rastreamento do URL"
->abstract="Analise como os parâmetros de rastreamento serão anexados aos URLs presentes no seu conteúdo de email."
 
 Use os **[!UICONTROL parâmetros de rastreamento de URL]** para medir a eficácia de suas ações de marketing em todos os canais. [Saiba mais](url-tracking.md)
 
