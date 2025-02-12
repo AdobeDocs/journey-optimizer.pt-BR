@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 96%
+source-wordcount: '2346'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,25 @@ ht-degree: 96%
 
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão. O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
-## Atualizações de janeiro de 2025 {#25-01-rn}
+## Atualizações mais recentes de 25 {#25-01-rn}
+
+### Melhoria de fevereiro {#25-02-improvements}
+
+A melhoria abaixo vem com a atualização de fevereiro.
+
+**Configuração de email** - Data de disponibilidade: 10 de fevereiro de 2025
+
+* Se você estiver gerenciando o consentimento fora do Adobe, agora é possível definir um endereço de email de cancelamento de inscrição personalizado e um URL de cancelamento de inscrição personalizado com um clique como parte das configurações do canal de email. [Leia mais](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >Esse recurso foi lançado com disponibilidade limitada (DL) para um pequeno conjunto de clientes.
+
+### Novos recursos {#25-01-features}
+
+Os novos recursos lançados em janeiro estão detalhados abaixo.
 
 <table>
 <thead>
@@ -59,9 +77,9 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 </tbody>
 </table>
 
-### Melhorias {#25-01-improvements}
+### Melhorias em janeiro {#25-01-improvements}
 
-Esta versão vem com as melhorias listadas abaixo.
+As melhorias lançadas em janeiro estão listadas abaixo.
 
 **Decisão**
 
