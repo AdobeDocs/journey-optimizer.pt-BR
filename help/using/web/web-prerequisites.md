@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -40,7 +40,7 @@ Há suporte para dois tipos de implementações para habilitar a criação e o d
   >
   >Verifique se a sua [Adobe Experience Platform Web SDK versão](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"} é 2.16 ou superior.
 
-* Modo híbrido - Você pode usar a [API do servidor de Edge Network da AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR){target="_blank"} para solicitar personalização no lado do servidor; a resposta é fornecida ao Adobe Experience Platform Web SDK para renderizar as modificações no lado do cliente. Saiba mais na [documentação de API do Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"} do Adobe Experience Platform. Você pode obter mais informações sobre o modo híbrido e verificar alguns exemplos de implementação em [esta publicação do blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* Modo híbrido - Você pode usar a [API do Edge Network Server da AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR){target="_blank"} para solicitar personalização no lado do servidor; a resposta é fornecida ao Adobe Experience Platform Web SDK para renderizar as modificações no lado do cliente. Saiba mais na [documentação de API do Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"} do Adobe Experience Platform. Você pode obter mais informações sobre o modo híbrido e verificar alguns exemplos de implementação em [esta publicação do blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ A extensão não tem configurações condicionais e lida com todas as configura�
 
 ### Solução de problemas do site que não está carregando {#troubleshooting}
 
-Ao usar o web designer Adobe [!DNL Journey Optimizer], se você tentar carregar um site que não é carregado, uma mensagem será exibida sugerindo que você instale a [extensão de navegador Auxiliar de edição visual](#install-visual-editing-helper).
+Ao usar o web designer do Adobe [!DNL Journey Optimizer], se você tentar carregar um site que não é carregado, uma mensagem será exibida sugerindo que você instale a [extensão de navegador Auxiliar de edição visual](#install-visual-editing-helper).
 
 1. Verifique se a extensão de navegador Auxiliar de edição visual está instalada corretamente.
 
@@ -150,4 +150,4 @@ Se você estiver **não** usando os [grupos de campos](https://experienceleague.
 
 ## Domínios com marca para ativos {#branded-domains-for-assets}
 
-Ao criar experiências na Web, se você adicionar conteúdo proveniente da biblioteca do [Adobe Experience Manager Assets](../content-management/assets.md), será necessário configurar o subdomínio que será usado para publicar esse conteúdo. [Saiba mais](web-delegated-subdomains.md)
+Ao criar experiências na Web, se você adicionar conteúdo proveniente da biblioteca do [Adobe Experience Manager Assets](../integrations/assets.md), será necessário configurar o subdomínio que será usado para publicar esse conteúdo. [Saiba mais](web-delegated-subdomains.md)
