@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6d072ed9b0312ee06efa9fdfaafd0fff913e6276
+source-git-commit: e1192f6540ee3317a0e03100dedb7780708f7bec
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '625'
 ht-degree: 26%
 
 ---
@@ -21,7 +21,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 **As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**.  Links, telas e a documentação atualizada são publicados nas [notas de versão](release-notes.md), na data de lançamento.
 
-## Lançamento antecipado de 25 de fevereiro {#25-02-rn}
+## Notas de versão anteriores a 25 de fevereiro {#25-02-rn}
 
 ### Novos recursos {#25-02-features}
 
