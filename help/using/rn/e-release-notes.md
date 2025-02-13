@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e1192f6540ee3317a0e03100dedb7780708f7bec
+source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 26%
+source-wordcount: '676'
+ht-degree: 25%
 
 ---
 
@@ -104,6 +104,8 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 As melhorias abaixo vêm com a atualização de fevereiro.
 
+* **Jornada** - Agora é possível testar suas ações personalizadas do jornada enviando chamadas de API da interface do usuário de administração. Esse novo recurso ajuda você a solucionar problemas de ações personalizadas.
+
 * **Tempo de vida (TTL) do conjunto de dados** - A partir deste mês, uma proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema da Journey Optimizer em novas sandboxes e novas organizações, da seguinte maneira:
 
    * 90 dias para dados na loja de perfis
@@ -114,6 +116,12 @@ As melhorias abaixo vêm com a atualização de fevereiro.
 * **Guias de reprodução** - Agora você pode criar e publicar seus próprios Guias de reprodução de casos de uso no Journey Optimizer.
 
 * **Correspondência direta** - DLZ (Zona de Aterrissagem DAta) agora tem suporte como tipo de servidor para roteamento de arquivo na configuração de Correspondência direta.
+
+**Personalização**
+
+* O editor de personalização foi aprimorado com novos recursos, como opções de Preenchimento automático, Pesquisa e Filtragem. Também é possível mostrar ou ocultar atributos obsoletos.
+
+* Data de disponibilidade: 29 de janeiro de 2025 - Novas funções auxiliares de data/hora estão disponíveis para uso no editor de personalização. [Leia mais](../personalization/functions/dates.md)
 
 **Configuração de email** - Data de disponibilidade: 12 de fevereiro de 2025
 
@@ -128,7 +136,3 @@ As melhorias abaixo vêm com a atualização de fevereiro.
 **Decisão** - Data de disponibilidade: 28 de janeiro de 2025
 
 * O Decisioning agora oferece suporte a tipos de dados de Objeto ao editar o esquema do catálogo de itens. [Leia mais](../experience-decisioning/catalogs.md)
-
-**Personalization** - Data de disponibilidade: 29 de janeiro de 2025
-
-* Novas funções auxiliares de data/hora estão disponíveis para uso no editor de personalização. [Leia mais](../personalization/functions/dates.md)
