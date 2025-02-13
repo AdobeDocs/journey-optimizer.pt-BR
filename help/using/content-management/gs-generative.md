@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução ao Assistente de IA no Acelerador de conteúdo do Journey Optimizer
-description: Saiba como acessar e trabalhar com o Assistente de IA no Acelerador de conteúdo do Journey Optimizer
+title: Introdução ao Assistente de IA no Journey Optimizer
+description: Saiba como acessar e trabalhar com o Assistente de IA no Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 2de3766c9fea36422c017ccaab3eb0a2501c6740
-workflow-type: ht
-source-wordcount: '874'
-ht-degree: 100%
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 75%
 
 ---
 
-# Introdução ao Acelerador de conteúdo do Assistente de IA {#gs-content-assistant}
+# Introdução ao Assistente de IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Acelerador de conteúdo do assistente de IA no Journey Optimizer"
->abstract="Depois de criar e personalizar a sua entrega, use o Acelerador de conteúdo do assistente de IA no Journey Optimizer para aprimorar o seu conteúdo. Esse recurso simplifica o processo de personalização e melhoria de conteúdo, permitindo ajustar o conteúdo com uma descrição do que deseja gerar."
+>title="Assistente de IA no Journey Optimizer"
+>abstract="Depois de criar e personalizar o delivery, você pode usar o Assistente de IA no Journey Optimizer para aprimorar o conteúdo. Esse recurso simplifica o processo de personalização e melhoria de conteúdo, permitindo ajustar o conteúdo com uma descrição do que deseja gerar."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Fazer upload do ativo da marca"
->abstract="O menu Fazer upload do ativo da marca habilita a adição de qualquer ativo da marca com conteúdo que possa fornecer contexto adicional para o Acelerador de conteúdo do assistente de IA no Journey Optimizer, ou selecionar um ativo enviado anteriormente. Essa opção garante que o Assistente de IA tenha acesso a todos os materiais necessários para aprimorar sua funcionalidade e relevância."
+>abstract="O menu Fazer upload do ativo de marca permite adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional para o Assistente de IA no Journey Optimizer ou selecionar um ativo carregado anteriormente. Essa opção garante que o Assistente de IA tenha acesso a todos os materiais necessários para aprimorar sua funcionalidade e relevância."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
@@ -38,20 +38,20 @@ ht-degree: 100%
 >Mergulhe em uma experiência prática com a [nossa prévia de recursos](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, projetada para ajudar a conhecer os recursos em primeira mão e entender totalmente suas funcionalidades.
 
 
-O acelerador de conteúdo do Assistente de IA no Adobe Journey Optimizer oferece sugestões proativas de variação de conteúdo para texto e imagens utilizando a tecnologia do Microsoft Azure OpenAI e do Adobe Firefly. Ele está disponível para canais de email, push e SMS. Esse novo recurso fornece uma geração de texto e de imagens baseada em prompt. A geração de imagens é gerenciada pelo Adobe Firefly.
+O Assistente de IA do Adobe Journey Optimizer, desenvolvido pelo Microsoft Azure OpenAI e pelo Adobe Firefly, traz sugestões proativas de variação de conteúdo para texto e imagens. Ele está disponível para canais de email, push e SMS. Esse novo recurso fornece uma geração de texto e de imagens baseada em prompt. A geração de imagens é gerenciada pelo Adobe Firefly.
 
-Use o acelerador de conteúdo do Assistente de IA no Journey Optimizer para otimizar o impacto da sua mensagem experimentando o uso de diferentes títulos e imagens. Gere múltiplas variantes e crie um experimento para compará-las. Aproveitando o Experimento de conteúdo do Journey Optimizer, é possível definir vários tratamentos de mensagem para medir qual tem melhor desempenho para o seu público-alvo. É possível optar por variar o conteúdo da entrega ou o assunto. O público-alvo da mensagem é alocado aleatoriamente em cada tratamento para determinar qual funciona melhor de acordo com a métrica especificada. Saiba mais sobre o Experimento de conteúdo [nesta seção](../content-management/content-experiment.md).
+Use o Assistente de IA no Adobe Journey Optimizer para otimizar o impacto da sua mensagem, experimentando diferentes títulos e imagens principais. Gere múltiplas variantes e crie um experimento para compará-las. Aproveitando o Experimento de conteúdo do Journey Optimizer, é possível definir vários tratamentos de mensagem para medir qual tem melhor desempenho para o seu público-alvo. É possível optar por variar o conteúdo da entrega ou o assunto. O público-alvo da mensagem é alocado aleatoriamente em cada tratamento para determinar qual funciona melhor de acordo com a métrica especificada. Saiba mais sobre o Experimento de conteúdo [nesta seção](../content-management/content-experiment.md).
 
 >[!IMPORTANT]
 >
 >* Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](#generative-guardrails) relacionadas.
 >
 >
->* Você deve aceitar o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o acelerador de conteúdo do Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
+>* Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
-## Acessar o Assistente de IA para aceleração de conteúdo {#generative-access}
+## Acessar o assistente de IA {#generative-access}
 
-Para acessar o acelerador de conteúdo do Assistente de IA no Adobe Journey Optimizer, os usuários precisam receber a permissão **Gerar conteúdo**. [Saiba mais](../administration/permissions.md)
+Para acessar o Assistente de IA no recurso Adobe Journey Optimizer, os usuários precisam ter a permissão **Gerar conteúdo**. [Saiba mais](../administration/permissions.md)
 
 +++  Saiba como atribuir permissões relacionadas à geração de conteúdo
 
@@ -79,17 +79,17 @@ O usuário receberá um email com instruções para acessar a sua instância.
 
 ## Medidas de proteção e limitações {#generative-guardrails}
 
-Veja abaixo as diretrizes gerais para usar o acelerador de conteúdo do Assistente de IA para geração de emails no Adobe Journey Optimizer:
+As diretrizes gerais para o uso do Assistente de IA no Adobe Journey Optimizer para geração de email estão listadas abaixo:
 
 * A qualidade do conteúdo gerado é fortemente influenciada pelo objetivo ou prompt de marketing definido. Use um prompt bem definido para que o modelo GenAI interprete com precisão. 
 * Faça upload do ativo de marca para ter conteúdo preciso e apropriado à marca. Caso contrário, o conteúdo será baseado em informações disponíveis publicamente. O conteúdo carregado pode estar nos seguintes formatos: arquivos PDF, JPEG, PNG ou ZIP (com formatos de arquivo compatíveis).
 * O tamanho máximo para o ativo de marca carregado é de 50 MB.É possível carregar arquivos maiores ou um número maior de imagens, mas o tempo de processamento aumentará.
-* Use um modelo específico da marca ou personalizado para criar o conteúdo de email com o acelerador de conteúdo do Assistente de IA no Adobe Journey Optimizer.  Recomenda-se um modelo de email com 8-10 imagens, no máximo.
+* Use um modelo específico da marca ou personalizado para criar seu conteúdo de email usando o Assistente de IA no Adobe Journey Optimizer. Recomenda-se um modelo de email com 8-10 imagens, no máximo.
 * Relate resultados problemáticos usando os ícones de “polegar para cima”, “polegar para baixo” ou o sinalizador ao selecionar variantes.
 * O uso do Assistente de IA está sujeito às diretrizes de usuário da IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará credenciais de conteúdo quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
+* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
-As seguintes limitações se aplicam ao acelerador de conteúdo do Assistente de IA no Adobe Journey Optimizer:
+As seguintes limitações se aplicam ao Assistente de IA no Adobe Journey Optimizer:
 
 * O único idioma disponível é o inglês. Entradas em outros idiomas podem produzir resultados inconsistentes ou incorretos. Por enquanto, problemas decorrentes de respostas em outros idiomas não serão tratados nem aprimorados.
 * Disponível somente para os canais de email, push, web e SMS.

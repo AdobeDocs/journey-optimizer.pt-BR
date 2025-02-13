@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2158'
 ht-degree: 97%
 
 ---
@@ -307,7 +307,7 @@ ht-degree: 97%
       + [Definir predefinições da página de destino](using/landing-pages/lp-presets.md)
 + Gestão de conteúdo {#content-management}
    + Trabalhar com o Assistente de IA{#ai-assistant}
-      + [Introdução ao Acelerador de conteúdo do Assistente de IA](using/content-management/gs-generative.md)
+      + [Introdução ao Assistente de IA](using/content-management/gs-generative.md)
       + [Geração de email com IA](using/content-management/generative-email.md)
       + [Geração de push com IA](using/content-management/generative-push.md)
       + [Geração de SMS com IA](using/content-management/generative-sms.md)

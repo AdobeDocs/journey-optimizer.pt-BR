@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Assistente de IA para casos de uso do Acelerador de conteúdo
-description: Saiba mais sobre como usar o Assistente de IA para acelerador de conteúdo por meio de casos de uso
+title: Casos de uso do Assistente de IA
+description: Saiba mais sobre como usar o Assistente de IA por meio de casos de uso
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 2%
+source-wordcount: '529'
+ht-degree: 3%
 
 ---
 
-# Assistente de IA para casos de uso do Acelerador de conteúdo {#generative-uc}
+# Casos de uso do Assistente de IA {#generative-uc}
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 1. Abra a seção **[!UICONTROL Assistente de IA]**.
 
-1. Ative o recurso **[!UICONTROL Usar conteúdo original]** no Assistente de IA para Acelerador de Conteúdo para adaptar o novo conteúdo de acordo com os detalhes da sua campanha, incluindo o nome da campanha e o público-alvo.
+1. Ative o recurso **[!UICONTROL Usar conteúdo original]** no Assistente de IA para personalizar o novo conteúdo de acordo com os detalhes da sua campanha, incluindo o nome da campanha e o público-alvo direcionado.
 
 1. Ajuste o conteúdo especificando sua solicitação na caixa **[!UICONTROL Prompt]** e personalize as configurações conforme necessário.
 
@@ -95,11 +95,11 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
 1. Depois de instalar e configurar sua campanha de email, clique em **[!UICONTROL Editar conteúdo]**.
 
-1. Escolha o ativo que deseja modificar usando o Assistente de IA para Acelerador de conteúdo.
+1. Escolha o ativo que deseja modificar usando o Assistente de IA.
 
 1. No menu do painel direito, escolha **[!UICONTROL Assistente do AI]**.
 
-1. Ative a opção **[!UICONTROL Estilo de referência]** para que o Assistente de IA para Acelerador de Conteúdo possa gerar novo conteúdo usando o material de referência.
+1. Ative a opção **[!UICONTROL Estilo de referência]** para que o Assistente de IA possa gerar novo conteúdo usando o material de referência.
 
 1. Clique em **[!UICONTROL Carregar imagem]** para incluir uma imagem que adicione contexto à sua variação.
 

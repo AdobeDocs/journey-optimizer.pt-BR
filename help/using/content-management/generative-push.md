@@ -1,38 +1,38 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Geração de push com o Acelerador de conteúdo do assistente de IA no Journey Optimizer
-description: Comece a gerar conteúdo por push com o Acelerador de conteúdo do assistente de IA no Journey Optimizer
+title: Geração de push com o Assistente de IA no Journey Optimizer
+description: Comece a gerar conteúdo por push com o Assistente de IA no Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1465'
 ht-degree: 3%
 
 ---
 
-# Geração de push com o Acelerador de conteúdo do assistente de IA  {#generative-push}
+# Geração de push com o Assistente de IA {#generative-push}
 
 >[!IMPORTANT]
 >
 >Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](gs-generative.md#generative-guardrails) relacionadas.
 ></br>
 >
->Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Acelerador de Conteúdo do Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
-Depois de criar e personalizar suas mensagens, coloque seu conteúdo de notificação por push em um novo patamar com o Acelerador de conteúdo do assistente de IA no Journey Optimizer.
+Depois de criar e personalizar suas mensagens, coloque seu conteúdo de notificação por push em um novo patamar com o Assistente de IA no Journey Optimizer.
 
-Explore as guias abaixo para saber como usar o Acelerador de conteúdo do assistente de IA no Journey Optimizer.
+Explore as guias abaixo para saber como usar o Assistente de IA no Journey Optimizer.
 
 >[!BEGINTABS]
 
 >[!TAB Geração de push completa]
 
-Neste exemplo específico, saiba como enviar uma notificação por push envolvente usando o Acelerador de conteúdo do assistente de IA no Journey Optimizer.
+Neste exemplo específico, saiba como enviar uma notificação por push envolvente usando o Assistente de IA no Journey Optimizer.
 
 Siga estas etapas:
 
@@ -48,7 +48,7 @@ Siga estas etapas:
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Acelerador de Conteúdo do Assistente de IA personalize a nova opção de conteúdo com base no conteúdo selecionado.
+1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize uma nova opção de conteúdo com base no conteúdo selecionado.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
@@ -105,7 +105,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
 >[!TAB Geração somente texto]
 
-Neste exemplo específico, saiba como usar o Acelerador de conteúdo do assistente de IA no Journey Optimizer para conteúdo específico. Siga estas etapas:
+Neste exemplo específico, saiba como usar o Assistente de IA no Journey Optimizer para conteúdo específico. Siga estas etapas:
 
 1. Depois de criar e configurar sua campanha de notificação por push, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -119,7 +119,7 @@ Neste exemplo específico, saiba como usar o Acelerador de conteúdo do assisten
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Habilite a opção **[!UICONTROL Usar conteúdo de referência]** para que o Acelerador de Conteúdo do Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
+1. Habilite a opção **[!UICONTROL Usar conteúdo de referência]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
@@ -179,7 +179,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
    ![](assets/push-gen-img.png){zoomable="yes"}
 
-1. Habilite a opção **[!UICONTROL Estilo de referência]** para que o Acelerador de Conteúdo do Assistente de IA personalize o novo conteúdo com base no conteúdo de referência. Você também pode carregar uma imagem para adicionar contexto à sua variação.
+1. Habilite a opção **[!UICONTROL Estilo de referência]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo de referência. Você também pode carregar uma imagem para adicionar contexto à sua variação.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
