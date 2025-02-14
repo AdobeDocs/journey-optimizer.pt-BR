@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 22%
+source-wordcount: '981'
+ht-degree: 19%
 
 ---
 
@@ -78,9 +78,14 @@ A lista de perfis do público-alvo é mantida atualizada em tempo real à medida
 
 A segmentação por transmissão é um processo contínuo de seleção de dados que atualiza os públicos-alvo em resposta à atividade do usuário. Depois que uma definição de segmento é criada e o público-alvo resultante é salvo, a definição de segmento é aplicada aos dados recebidos no Journey Optimizer. Isso significa que as pessoas físicas são adicionadas ou removidas do público-alvo à medida que os dados do perfil são alterados, garantindo que o público-alvo seja sempre relevante. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Use os eventos corretos como critérios de segmentação de transmissão. [Saiba mais](#streaming-segmentation-events-guardrails)
+>A partir de 1º de novembro de 2024, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos de **envio** e **abertura** dos conjuntos de dados de rastreamento e feedback do Journey Optimizer.
+>* Essa alteração se aplica a todas as sandboxes e organizações do cliente.
+>* Somente eventos de envio e abertos são afetados: os cliques e outros eventos de rastreamento permanecem disponíveis para segmentação de transmissão.
+>* Essa alteração se aplica somente à segmentação por transmissão. Eventos de envio e abertura ainda podem ser usados em segmentos em lote, mas se incluídos em um segmento de transmissão, eles serão avaliados em lote. Além disso, os eventos de exclusão e os eventos de rejeição/atraso resultantes de eventos de envio também são afetados por essa alteração.
+>* A coleta de dados de rastreamento não é afetada. Os eventos de envio e abertura continuarão a ser coletados como de costume.
+>* Os eventos de reação nas jornadas não são afetados por essa alteração.
 
 +++
 

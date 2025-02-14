@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2bc4dba1353b1d19b1bae0b7718fbbc9e9f37147
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '2505'
-ht-degree: 94%
+source-wordcount: '2513'
+ht-degree: 93%
 
 ---
 
@@ -40,12 +40,12 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 
 ## Medidas de proteção de conjuntos de dados {#datasets-guardrails}
 
-A partir de fevereiro de 2025, uma garantia de TTL (time-to-live) será implantada nos conjuntos de dados gerados pelo sistema da Journey Optimizer em **novas sandboxes e novas organizações** da seguinte maneira:
+A partir de fevereiro de 2025, uma garantia de TTL (time-to-live) será implantada em conjuntos de dados gerados pelo sistema da Journey Optimizer em **novas sandboxes e novas organizações** da seguinte maneira:
 
-* 90 dias para dados na loja de perfis
-* 13 meses para dados no data lake
+* 90 dias para dados na loja de perfis,
+* 13 meses para dados no data lake.
 
-Explore a [seção de Perguntas Frequentes](../data/datasets-ttl.md#ttl) para obter mais detalhes sobre essas medidas de proteção.
+Esta alteração será implantada em **sandboxes de clientes existentes** em uma fase subsequente. [Saiba mais sobre as medidas de proteção de Tempo até a Saída (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
 
 ## Medidas de proteção das páginas de destino {#lp-guardrails}
 
