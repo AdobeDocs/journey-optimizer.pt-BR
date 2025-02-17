@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8c9e69e35ee2c56215f7fe3f4a1f5f9759a2f9b8
+source-git-commit: befad89c8f50c92751e5e0995e73df8427a193b3
 workflow-type: tm+mt
-source-wordcount: '2346'
-ht-degree: 93%
+source-wordcount: '2807'
+ht-degree: 78%
 
 ---
 
@@ -22,25 +22,68 @@ ht-degree: 93%
 
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão. O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
-## Atualizações mais recentes de 25 {#25-01-rn}
+## Versão de fevereiro de 25 {#25-02-rn}
 
-### Melhoria de fevereiro {#25-02-improvements}
+**Data de lançamento**: 18 a 19 de fevereiro de 2025
 
-A melhoria abaixo vem com a atualização de fevereiro.
 
-**Configuração de email** - Data de disponibilidade: 12 de fevereiro de 2025
+### Novos recursos {#25-02-features}
 
-* Se você estiver gerenciando o consentimento fora do Adobe, agora é possível definir um endereço de email de cancelamento de inscrição personalizado e um URL de cancelamento de inscrição personalizado com um clique como parte das configurações do canal de email. [Leia mais](../email/list-unsubscribe.md#custom-managed)
+Os novos recursos incluídos nesta versão são detalhados abaixo.
 
-  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+<table>
+<thead>
+<tr>
+<th><strong>Criar e gerenciar regras de negócios</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível criar regras de negócios usando conjuntos de regras. Os conjuntos de regras são grupos de regras que ajudam a limitar as mensagens enviadas em campanhas e ações de jornada entre canais, além de controlar as entradas de perfis nas jornadas.<p>
+<p><ul><li>Crie conjuntos de regras de canal para restringir o número de mensagens enviadas por um ou vários canais. Aplique-as a campanhas ou ações de jornada para aplicar as regras definidas no conjunto de regras. O conjunto de regras de canal permite aplicar regras de limitação com base nos tipos de comunicação. Por exemplo, defina uma regra definida para limitar "mensagens promocionais" e outra para "boletins informativos". Aplique o conjunto de regras apropriado em sua ação de campanha ou jornada, dependendo do tipo de comunicação que você está enviando.</li>
+<li> Crie conjuntos de regras de jornada para controlar entradas de perfil nas jornadas. Limite a frequência com que um perfil pode inserir uma jornada em um determinado período ou o número de jornadas nas quais um perfil pode ser inscrito simultaneamente. Aplique-as no nível da jornada para garantir o gerenciamento de entradas adequado.</li></p>
+<p>Anteriormente disponível para um conjunto de organizações (DL), as regras de negócios agora estão disponíveis para todos os usuários (DG).</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-  >[!AVAILABILITY]
-  >
-  >Esse recurso foi lançado com disponibilidade limitada (DL) para um pequeno conjunto de clientes.
+<table>
+<thead>
+<tr>
+<th><strong>Gerar páginas de aterrissagem com o Assistente de IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode criar conteúdo atraente para suas páginas de aterrissagem, incluindo designs de página inteira, texto personalizado e visuais personalizados, com a ajuda do assistente de IA.</p>
+<img src="assets/do-not-localize/ai-lp.gif">
+<!--p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-### Novos recursos {#25-01-features}
 
-Os novos recursos lançados em janeiro estão detalhados abaixo.
+<table>
+<thead>
+<tr>
+<th><strong>Diretrizes da marca (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode definir suas próprias diretrizes de marca para definir a identidade visual e verbal da sua marca. Observe que o recurso Marcas é lançado como um beta privado para um conjunto limitado de clientes. Ele estará progressivamente disponível para todos os clientes em versões futuras.</p>
+<!--p>For more information, refer to the <a href="../content-management/brands.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -77,18 +120,56 @@ Os novos recursos lançados em janeiro estão detalhados abaixo.
 </tr>
 </tbody>
 </table>
+</table>
 
-### Melhorias em janeiro {#25-01-improvements}
 
-As melhorias lançadas em janeiro estão listadas abaixo.
+### Melhorias {#25-02-improvements}
 
-**Decisão**
+As melhorias abaixo vêm com a atualização de fevereiro.
 
-* O Decisioning agora oferece suporte a tipos de dados de Objeto ao editar o esquema do catálogo de itens. [Leia mais](../experience-decisioning/catalogs.md)
+* **Jornadas** - Agora é possível testar suas ações personalizadas enviando chamadas de API da seção de administração. Esse novo recurso ajuda você a solucionar problemas de ações personalizadas antes ou depois de usá-las em uma jornada.
+
+* **Tempo de vida (TTL) do conjunto de dados** - A partir deste mês, uma proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema da Journey Optimizer em novas sandboxes e novas organizações, da seguinte maneira:
+
+   * 90 dias para dados na loja de perfis
+   * 13 meses para dados no data lake
+
+  Essa alteração será implementada nas sandboxes de clientes existentes em uma fase subsequente.
+
+  Saiba mais sobre esta atualização em [estas perguntas frequentes dedicadas](../data/datasets-ttl.md#frequently-asked-questions).
+
+<!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
+
+* **Correspondência direta** - Um novo tipo de servidor, Zona de aterrissagem de dados, agora é compatível com o roteamento de arquivos na configuração do canal de correspondência direta.
+
+**SMS** - Agora é possível gerenciar a entrega de mensagens SMS de pontos de extremidade multirregionais substituindo as URLs de entrega, feedback, entrada e retorno de chamada. Para oferecer suporte a isso, um novo campo Substituir URL foi adicionado à configuração Credenciais da API. Essa alteração está disponível somente com o provedor Sinch. [Leia mais](../sms/sms-configuration-sinch.md)
 
 **Personalização**
 
-* Novas funções auxiliares de data/hora estão disponíveis para uso no editor de personalização. [Leia mais](../personalization/functions/dates.md)
+<!--
+* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
+
+* Data de disponibilidade: 29 de janeiro de 2025 - Novas funções auxiliares de data/hora estão disponíveis para uso no editor de personalização. [Leia mais](../personalization/functions/dates.md)
+
+
+**Configuração de email** - Data de disponibilidade: 12 de fevereiro de 2025
+
+* Se você estiver gerenciando o consentimento fora do Adobe, agora é possível definir um endereço de email de cancelamento de inscrição personalizado e um URL de cancelamento de inscrição personalizado com um clique como parte das configurações do canal de email. [Leia mais](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >Esse recurso foi lançado com disponibilidade limitada (DL) para um pequeno grupo de clientes.
+
+* Se você estiver gerenciando o consentimento fora do Adobe, agora é possível definir um endereço de email de cancelamento de inscrição personalizado e um URL de cancelamento de inscrição personalizado com um clique como parte das configurações do canal de email. [Leia mais](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+**Decisão** - Data de disponibilidade: 28 de janeiro de 2025
+
+* O Decisioning agora oferece suporte a tipos de dados de Objeto ao editar o esquema do catálogo de itens. [Leia mais](../experience-decisioning/catalogs.md)
+
 
 ## Versão de outubro de 2024 {#24-10-rn}
 
