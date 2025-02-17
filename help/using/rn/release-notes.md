@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9b7e7a908f7f38570d35d8727a42cbcc216a1387
+source-git-commit: 417d9f1787aced7d41a7374576d3abcc4dd98c1b
 workflow-type: tm+mt
-source-wordcount: '2795'
-ht-degree: 77%
+source-wordcount: '2760'
+ht-degree: 79%
 
 ---
 
@@ -127,41 +127,35 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 As melhorias abaixo vêm com a atualização de fevereiro.
 
-**Jornadas** - Agora é possível testar suas ações personalizadas enviando chamadas de API da seção de administração. Esse novo recurso ajuda você a solucionar problemas de ações personalizadas antes ou depois de usá-las em uma jornada.
+* **Jornadas** - Agora é possível testar suas ações personalizadas enviando chamadas de API da seção de administração. Esse novo recurso ajuda você a solucionar problemas de ações personalizadas antes ou depois de usá-las em uma jornada.
 
-**Tempo de vida (TTL) do conjunto de dados** - A partir deste mês, uma proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema da Journey Optimizer em novas sandboxes e novas organizações, da seguinte maneira:
+* **Tempo de vida (TTL) do conjunto de dados** - A partir deste mês, uma proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema da Journey Optimizer em novas sandboxes e novas organizações, da seguinte maneira:
 
-    * 90 dias para dados no repositório de perfis
-    * 13 meses para dados no data lake
-    
-    Essa alteração será implantada nas sandboxes de clientes existentes em uma fase subsequente.
-    
-    Saiba mais sobre esta atualização em [estas perguntas frequentes dedicadas](../data/datasets-ttl.md#frequency-asked-questions).
+   * 90 dias para dados na loja de perfis
+   * 13 meses para dados no data lake
+
+  Essa alteração será implementada nas sandboxes de clientes existentes em uma fase subsequente.
+
+  Saiba mais sobre esta atualização em [estas perguntas frequentes dedicadas](../data/datasets-ttl.md#frequently-asked-questions).
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-**Correspondência direta** - Um novo tipo de servidor, Zona de aterrissagem de dados, agora é compatível com o roteamento de arquivos na configuração do canal de correspondência direta.
+* **Correspondência direta** - Um novo tipo de servidor, Zona de aterrissagem de dados, agora é compatível com o roteamento de arquivos na configuração do canal de correspondência direta.
 
-**SMS** - Agora é possível gerenciar a entrega de mensagens SMS de pontos de extremidade multirregionais substituindo as URLs de entrega, feedback, entrada e retorno de chamada. Para oferecer suporte a isso, um novo campo Substituir URL foi adicionado à configuração Credenciais da API. Essa alteração está disponível somente com o provedor Sinch. [Leia mais](../sms/sms-configuration-sinch.md)
+* **SMS** - Agora é possível gerenciar a entrega de mensagens SMS de pontos de extremidade multirregionais substituindo as URLs de entrega, feedback, entrada e retorno de chamada. Para oferecer suporte a isso, um novo campo Substituir URL foi adicionado à configuração Credenciais da API. Essa alteração está disponível somente com o provedor Sinch. [Leia mais](../sms/sms-configuration-sinch.md)
 
-**Personalization** (Data de disponibilidade: 29 de janeiro de 2025) - Novas funções auxiliares de data/hora estão disponíveis para uso no editor de personalização. [Leia mais](../personalization/functions/dates.md)
+* **Personalization** (Data de disponibilidade: 29 de janeiro de 2025) - Novas funções auxiliares de data/hora estão disponíveis para uso no editor de personalização. [Leia mais](../personalization/functions/dates.md)
 
 
 <!--
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-**Configuração de email** (Data de disponibilidade: 12 de fevereiro de 2025)
-
-* Se você estiver gerenciando o consentimento fora do Adobe, agora é possível definir um endereço de email de cancelamento de inscrição personalizado e um URL de cancelamento de inscrição personalizado com um clique como parte das configurações do canal de email. [Leia mais](../email/list-unsubscribe.md#custom-managed)
+* **Configuração de email** (Data de disponibilidade: 12 de fevereiro de 2025) - Se você estiver gerenciando o consentimento fora do Adobe, agora é possível definir um endereço de email de cancelamento de inscrição personalizado e uma URL de cancelamento de inscrição personalizada com um clique como parte das configurações do canal de email. [Leia mais](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-* Se você estiver gerenciando o consentimento fora do Adobe, agora é possível definir um endereço de email de cancelamento de inscrição personalizado e um URL de cancelamento de inscrição personalizado com um clique como parte das configurações do canal de email. [Leia mais](../email/list-unsubscribe.md#custom-managed)
-
-  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
-
-**Decisão** (Data de disponibilidade: 28 de janeiro de 2025) - A decisão agora oferece suporte a tipos de dados de objeto ao editar o esquema do catálogo de itens. [Leia mais](../experience-decisioning/catalogs.md)
+* **Decisão** (Data de disponibilidade: 28 de janeiro de 2025) - A decisão agora oferece suporte a tipos de dados de objeto ao editar o esquema do catálogo de itens. [Leia mais](../experience-decisioning/catalogs.md)
 
 
 ## Versão de outubro de 2024 {#24-10-rn}
