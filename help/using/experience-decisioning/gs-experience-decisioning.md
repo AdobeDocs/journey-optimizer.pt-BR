@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="O que é a tomada de decisão?"
->abstract="A decisão é uma nova ferramenta, além da Gestão de decisões, para escolher os melhores itens do mecanismo de decisão e entregá-los a cada indivíduo. Ela requer configuração adicional para ser usada."
+>title="O que é o serviço de decisão?"
+>abstract="O serviço de decisão é um novo conjunto de ferramentas semelhante à gestão de decisões que seleciona os melhores itens do mecanismo de decisão para entregar a cada indivíduo. Ele exige configuração adicional para ser usado."
 
 ## O que é a decisão {#about}
 
