@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 77a3980b2c18f14d6b7cf0461541d0b9721dab84
+source-git-commit: f25fb5ef7eb8febbe9f94f67aa16b0d8e725bbf9
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '764'
 ht-degree: 22%
 
 ---
@@ -74,13 +74,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Diretrizes de marca com o Assistente de IA (Beta)</strong><br/></th>
+<th><strong>Marcas com o Assistente de IA (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode definir suas próprias diretrizes de marca para definir a identidade visual e verbal da sua marca. </p>
+<p>Agora você pode definir suas próprias Marcas para definir a identidade visual e verbal da sua marca. </p>
 <p>Esse recurso foi lançado como um beta privado para um conjunto limitado de clientes. Ele estará progressivamente disponível para todos os clientes em versões futuras.</p>
 <p>Para obter mais informações, consulte a <a href="../content-management/brands.md">documentação detalhada</a>.</p>
 </td>
