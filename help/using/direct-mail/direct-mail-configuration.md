@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
+source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1532'
 ht-degree: 19%
 
 ---
@@ -60,7 +60,7 @@ Antes de poder gerar esse arquivo, é necessário criar:
 
 >[!NOTE]
 >
->Atualmente, o Amazon S3, SFTP e Azure têm suporte no [!DNL Journey Optimizer].
+>Atualmente, o Amazon S3, SFTP, Azure e a zona de aterrissagem de dados têm suporte no [!DNL Journey Optimizer].
 
 Para entregar uma mensagem de correspondência direta, o [!DNL Journey Optimizer] gera e exporta o arquivo contendo os dados do público-alvo direcionado para um servidor.
 

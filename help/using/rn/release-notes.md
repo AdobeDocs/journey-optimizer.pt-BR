@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f25fb5ef7eb8febbe9f94f67aa16b0d8e725bbf9
+source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '766'
 ht-degree: 22%
 
 ---
@@ -142,7 +142,7 @@ As melhorias abaixo vêm com a atualização de fevereiro.
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **Correspondência direta** - Um novo tipo de servidor, Zona de aterrissagem de dados, agora é compatível com o roteamento de arquivos na configuração do canal de correspondência direta.
+* **Correspondência direta** - Um novo tipo de servidor, Zona de aterrissagem de dados, agora é compatível com o roteamento de arquivos na configuração do canal de correspondência direta. [Leia mais](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
 * **SMS** - Agora é possível gerenciar a entrega de mensagens SMS de pontos de extremidade multirregionais substituindo as URLs de entrega, feedback, entrada e retorno de chamada. Para oferecer suporte a isso, um novo campo Substituir URL foi adicionado à configuração Credenciais da API. Essa alteração está disponível somente com o provedor Sinch. [Leia mais](../sms/sms-configuration-sinch.md)
 
