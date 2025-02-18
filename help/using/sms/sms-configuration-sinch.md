@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: a196a27fd22a03915838ab4a9bb6139f85242f6b
+source-git-commit: 4f077e8223f9afe74288874542f8ef0052640dab
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '750'
 ht-degree: 3%
 
 ---
@@ -30,33 +30,27 @@ Para configurar seu provedor Sinch para enviar mensagens SMS e MMS com o Journey
 
 1. Configure suas credenciais da API de SMS, conforme detalhado abaixo:
 
-   * **[!UICONTROL Fornecedor de SMS]**: Sinch.
++++ Lista de credenciais SMS para configuração
 
-   * **[!UICONTROL Nome]**: escolha um nome para a credencial de API.
+   | Campos de configuração | Descrição |
+   |---|---|    
+   | Fornecedor de SMS | Sinch |
+   | Nome | Escolha um nome para a credencial da API. |
+   | ID de serviço e token de API | Para acessar a página APIs, você pode encontrar suas credenciais na guia SMS. Saiba mais em [Documentação da Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
+   | Palavras-chave de Opt-in | Insira as palavras-chave padrão ou personalizadas que acionarão automaticamente sua Mensagem de aceitação. Para várias palavras-chave, use valores separados por vírgulas. |
+   | Mensagem de Opt-in | Insira a resposta personalizada que é enviada automaticamente como sua mensagem de aceitação. |
+   | Palavras-chave de recusa | Insira as palavras-chave padrão ou personalizadas que acionarão automaticamente sua mensagem de recusa. Para várias palavras-chave, use valores separados por vírgulas. |
+   | Mensagem de recusa | Insira a resposta personalizada que é enviada automaticamente como sua mensagem de recusa. |
+   | Palavras-chave da Ajuda | Insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua **Mensagem de Ajuda**. Para várias palavras-chave, use valores separados por vírgulas. |
+   | Mensagem de ajuda | Digite a resposta personalizada que é enviada automaticamente como sua **Mensagem de Ajuda**. |
+   | Palavras-chave de aceitação dupla | Insira as palavras-chave que acionam o processo de aceitação dupla. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. Para várias palavras-chave, use valores separados por vírgulas. [Saiba mais sobre a Aceitação dupla de SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
+   | Mensagem de aceitação dupla | Insira a resposta personalizada que é enviada automaticamente em resposta à confirmação de aceitação dupla. |
+   | Número de entrada | Adicione seu número de entrada exclusivo ou código curto. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada ou código curto. |
+   | Palavras-chave de entrada personalizadas | Defina palavras-chave exclusivas para ações específicas, por exemplo, DESCONTO, OFERTAS, INSCRIÇÃO. Essas palavras-chave são capturadas e armazenadas como atributos no perfil, permitindo acionar uma qualificação de segmento de transmissão na jornada e fornecer uma resposta ou ação personalizada. |
+   | Mensagem de resposta de entrada padrão | Insira a resposta padrão que é enviada quando um usuário final envia um SMS de entrada que não corresponde a nenhuma das palavras-chave definidas. |
+   | Substituir URL | Insira seu URL personalizado para substituir os endpoints padrão para relatórios do delivery de SMS, dados de feedback, mensagens de entrada ou notificações de eventos. A Sinch enviará todas as atualizações relevantes para esse URL em vez das predefinidas. |
 
-   * **[!UICONTROL ID de Serviço]** e **[!UICONTROL Token de API]**: para acessar a página APIs, encontre suas credenciais na guia SMS. Saiba mais em [Documentação da Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
-
-   * **[!UICONTROL Palavras-chave de aceitação]**: digite as palavras-chave padrão ou personalizadas que dispararão automaticamente sua **[!UICONTROL Mensagem de aceitação]**. Para várias palavras-chave, use valores separados por vírgulas.
-
-   * **[!UICONTROL Mensagem de aceitação]**: digite a resposta personalizada que é enviada automaticamente como sua **[!UICONTROL Mensagem de aceitação]**.
-
-   * **[!UICONTROL Palavras-chave de recusa]**: digite as palavras-chave padrão ou personalizadas que dispararão automaticamente sua **[!UICONTROL Mensagem de recusa]**. Para várias palavras-chave, use valores separados por vírgulas.
-
-   * **[!UICONTROL Mensagem de recusa]**: digite a resposta personalizada que é enviada automaticamente como sua **[!UICONTROL Mensagem de recusa]**.
-
-   * **[!UICONTROL Palavras-chave da Ajuda]**: digite as palavras-chave padrão ou personalizadas que dispararão automaticamente sua **Mensagem da Ajuda**. Para várias palavras-chave, use valores separados por vírgulas.
-
-   * **[!UICONTROL Mensagem de Ajuda]**: digite a resposta personalizada que é enviada automaticamente como sua **Mensagem de Ajuda**.
-
-   * **[!UICONTROL Palavras-chave de Aceitação Dupla]**: digite as palavras-chave que disparam o processo de aceitação dupla. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. Para várias palavras-chave, use valores separados por vírgulas. [Saiba mais sobre a Aceitação dupla de SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
-
-   * **[!UICONTROL Mensagem de aceitação dupla]**: digite a resposta personalizada que é enviada automaticamente em resposta à confirmação de aceitação dupla.
-
-   * **[!UICONTROL Número de Entrada]**: adicione seu número de entrada exclusivo ou código curto. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada ou código curto.
-
-   * **[!UICONTROL Palavras-chave de entrada personalizadas]**: defina palavras-chave exclusivas para ações específicas, por exemplo, DISCOUNT, OFFERS, ENROLL. Essas palavras-chave são capturadas e armazenadas como atributos no perfil, permitindo acionar uma qualificação de segmento de transmissão na jornada e fornecer uma resposta ou ação personalizada.
-
-   * **[!UICONTROL Mensagem de Resposta de Entrada Padrão]**: digite a resposta padrão que é enviada quando um usuário final envia um SMS de entrada que não corresponde a nenhuma das palavras-chave definidas.
++++
 
 1. Clique em **[!UICONTROL Enviar]** quando terminar de configurar suas credenciais de API.
 

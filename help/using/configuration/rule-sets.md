@@ -1,18 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabalhar com conjuntos de regras (LA)
+title: Trabalhar com conjuntos de regras
 description: Saiba como criar e aplicar conjuntos de regras
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
-badge: label="Disponibilidade limitada"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1933'
 ht-degree: 12%
 
 ---
@@ -23,10 +22,6 @@ ht-degree: 12%
 >id="ajo_business_rules_rule_sets"
 >title="Conjuntos de regras"
 >abstract="Use conjuntos de regras para aplicar limites de frequência a diferentes tipos de comunicações de marketing. Você também pode criar conjuntos de regras para excluir jornadas para parte do público-alvo com base em regras de limite de frequência."
-
->[!AVAILABILITY]
->
->Os conjuntos de regras estão atualmente disponíveis em Disponibilidade limitada para um grupo selecionado de clientes. Observe que esse recurso será gradualmente implementado para mais usuários no futuro. Entre em contato com a equipe de conta, se estiver interessado em ser adicionado à lista de espera.
 
 ## Introdução aos conjuntos de regras {#gs}
 
@@ -68,7 +63,7 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 
 >[!NOTE]
 >
->É possível criar até 3 conjuntos de regras personalizados.
+>Você pode criar até três conjuntos de regras locais de domínio do canal e até cinco conjuntos de regras locais de domínio do jornada.
 
 1. Acesse a lista **[!UICONTROL Conjuntos de regras]** e clique em **[!UICONTROL Criar conjunto de regras]**.
 
@@ -127,6 +122,10 @@ Os parâmetros disponíveis para a regra dependem do domínio do conjunto de reg
 1. Na lista suspensa **[!UICONTROL Duração]**, selecione se deseja que o limite seja aplicado mensalmente, semanalmente ou diariamente. O limite de frequência se baseia no período de calendário selecionado. Ela é redefinida no início do intervalo de tempo correspondente.
 
    ![](assets/rule-set-capping-duration.png)
+
+   >[!AVAILABILITY]
+   >
+   >A duração &quot;Daily&quot; está disponível somente sob demanda. Para obter acesso, entre em contato com o representante da Adobe.
 
    O prazo de validade do contador para cada período é o seguinte:
 
@@ -193,7 +192,7 @@ Você também deve ativar o conjunto de regras para acessá-lo em campanhas/jorn
 
 >[!NOTE]
 >
->Pode levar até 10 minutos para que uma regra ou um conjunto de regras seja totalmente ativado. Não é necessário modificar mensagens ou republicar jornadas para que uma regra entre em vigor.
+>Pode levar até 20 minutos para que uma regra ou um conjunto de regras seja totalmente ativado. Não é necessário modificar mensagens ou republicar jornadas para que uma regra entre em vigor.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -265,7 +264,7 @@ Learn more about permissions in [this section](../administration/high-low-permis
 
    ![](assets/rule-set-schedule-campaign.png)
 
-1. Você pode ver o número de perfis excluídos da entrega no [relatório de Customer Journey Analytics](../reports/report-gs-cja.md) e no [relatório ao vivo](../reports/live-report.md), em que as regras de frequência serão listadas como um possível motivo para os usuários excluídos da entrega.
+1. Você pode visualizar o número de perfis excluídos da entrega no [Relatório do Customer Journey Analytics](../reports/report-gs-cja.md) e no [Relatório ao vivo](../reports/live-report.md), em que as regras de frequência serão listadas como um possível motivo para os usuários excluídos da entrega.
 
 >[!NOTE]
 >

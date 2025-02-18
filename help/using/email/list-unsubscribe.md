@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '765'
 ht-degree: 97%
 
 ---
@@ -64,10 +64,6 @@ Saiba mais sobre como gerenciar recursos de cancelamento de assinatura em suas m
 >id="ajo_email_config_unsubscribe_custom"
 >title="Definir como os dados de cancelamento de assinatura são gerenciados"
 >abstract="**Gerenciado pela Adobe**: os dados de consentimento são gerenciados por você no sistema da Adobe.<br>**Gerenciado pelo cliente**: os dados de consentimento são gerenciados por você em um sistema externo e nenhuma sincronização de dados de consentimento é atualizada no sistema da Adobe, a menos que tenha sido iniciada por você."
-
->[!AVAILABILITY]
->
->Esse recurso foi lançado com disponibilidade limitada (DL) para um pequeno grupo de clientes.
 
 Se estiver gerenciando o consentimento fora da Adobe, selecione a opção **[!UICONTROL Gerenciado pelo cliente]** para inserir um endereço de email de cancelamento de assinatura personalizado e seu próprio URL de cancelamento de assinatura com um clique.
 

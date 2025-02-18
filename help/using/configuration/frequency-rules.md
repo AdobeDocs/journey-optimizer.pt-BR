@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Regras de negócios
-description: Saiba como definir regras de frequência
+title: Configurar regras de negócios
+description: Saiba como definir regras de frequência de negócios
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1267'
 ht-degree: 14%
 
 ---
 
-# Regras de negócios {#frequency-rules}
+# Configurar regra de negócios {#frequency-rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -176,7 +176,7 @@ Para aplicar uma regra de negócios a uma mensagem, siga as etapas abaixo.
    >
    >As mensagens em que a categoria selecionada é **[!UICONTROL Transacional]** não serão avaliadas em relação às regras de frequência.
 
-1. Você pode ver o número de perfis excluídos da entrega no [relatório de Customer Journey Analytics](../reports/report-gs-cja.md) e no [relatório ao vivo](../reports/live-report.md), em que as regras de negócios serão listadas como um possível motivo para os usuários excluídos da entrega.
+1. Você pode visualizar o número de perfis excluídos da entrega no [Relatório do Customer Journey Analytics](../reports/report-gs-cja.md) e no [Relatório em tempo real](../reports/live-report.md), em que as regras de negócios serão listadas como um possível motivo para os usuários excluídos da entrega.
 
 >[!NOTE]
 >

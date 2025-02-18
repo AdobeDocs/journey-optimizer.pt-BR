@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução aos dados no Journey Optimizer
+title: Introdução ao gerenciamento de dados no Journey Optimizer
 description: Saiba como trabalhar com dados no Journey Optimizer
 feature: Journeys
 topic: Content Management
@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: dados, gerenciamento, plataforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '655'
+ht-degree: 98%
 
 ---
 
-# Introdução ao gerenciamento de dados no [!DNL Journey Optimizer] {#about-data}
+# Introdução ao gerenciamento de dados {#about-data}
 
 A riqueza e a cobertura dos dados do cliente final é o que define a força e o sucesso de qualquer solução de experiência do cliente, e esses dados são pessoais e de maior valor para qualquer cliente. A seleção de tecnologia agora está inerentemente integrada, com avaliação rigorosa dos recursos de gerenciamento de dados.
 

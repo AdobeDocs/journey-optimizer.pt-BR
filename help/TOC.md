@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2167'
 ht-degree: 97%
 
 ---
@@ -222,7 +222,7 @@ ht-degree: 97%
       + Configurar canal de email {#configure-email}
          + [Introdução à configuração de email](using/email/get-started-email-config.md)
          + [Definir configurações de email](using/email/email-settings.md)
-         + [Habilitar cancelamento de inscrição da lista](using/email/list-unsubscribe.md)
+         + [Habilitar cancelamento de assinatura em lista](using/email/list-unsubscribe.md)
          + [Parâmetros de cabeçalho](using/email/header-parameters.md)
          + [Rastreamento de URL](using/email/url-tracking.md)
          + [Personalizar configurações de email](using/email/surface-personalization.md)
@@ -313,7 +313,9 @@ ht-degree: 97%
       + [Geração de SMS com IA](using/content-management/generative-sms.md)
       + [Geração na Web com IA](using/content-management/generative-web.md)
       + [Experimento de conteúdo com IA](using/content-management/generative-experimentation.md)
+      + [Página de aterrissagem com IA](using/content-management/generative-lp.md)
       + [Casos de uso do Assistente de IA](using/content-management/generative-uc.md)
+      + [Criar e gerenciar suas marcas (Beta)](using/content-management/brands.md)
    + Trabalhar com conteúdo multilíngue{#content-multilingual}
       + [Introdução ao conteúdo multilíngue](using/content-management/multilingual-gs.md)
       + [Criar uma localização](using/content-management/multilingual-locale.md)
@@ -376,7 +378,7 @@ ht-degree: 97%
          + [Definições de segmento](using/audience/creating-a-segment-definition.md)
          + [Composição de público-alvo](using/audience/get-started-audience-orchestration.md)
          + [Upload personalizado](using/audience/custom-upload.md)
-         + [Federated Audience Composition (Disponibilidade limitada)](using/audience/federated-audience-composition.md)
+         + [Composição de público-alvo federado](using/audience/federated-audience-composition.md)
       + [Ativação de público em campanhas e jornadas](using/audience/target-audiences.md)
       + [Aproveitar atributos de enriquecimento](using/audience/enrichment-attributes.md)
    + Perfis{#profiles}
@@ -658,7 +660,7 @@ ht-degree: 97%
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
    + [Configurar regra de negócios](using/configuration/frequency-rules.md)
-   + [Trabalhar com conjuntos de regras (LA)](using/configuration/rule-sets.md)
+   + [Trabalhar com conjuntos de regras](using/configuration/rule-sets.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + Integração a sistemas externos {#external-systems}
@@ -681,6 +683,7 @@ ht-degree: 97%
       + Configuração de ação {#action-journeys}
          + [Sobre ações](using/action/action.md)
          + [Configurar uma ação](using/action/about-custom-action-configuration.md)
+         + [Solução de problemas de ação personalizada](using/action/troubleshoot-custom-action.md)
          + [Integrar ao Adobe Campaign Standard](using/action/acs-action.md)
          + [Integrar ao Adobe Campaign v7/v8](using/action/acc-action.md)
          + [Usar as respostas de chamada da API em ações personalizadas](using/action/action-response.md)

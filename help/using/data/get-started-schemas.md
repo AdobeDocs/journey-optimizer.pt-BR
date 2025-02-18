@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução à Esquemas
-description: Saiba como usar Esquemas da Adobe Experience Platform no Adobe Journey Optimizer
+title: Introdução a esquemas
+description: Saiba como usar esquemas do Adobe Experience Platform no Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: esquemas, plataforma, dados, estrutura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 78%
 
 ---
 
-# Introdução à Esquemas {#schemas-gs}
+# Introdução a esquemas {#schemas-gs}
 
 Os Esquemas são a maneira padrão de descrever dados na Experience Platform, permitindo que todos os dados que estão em conformidade com os esquemas sejam reutilizados em uma organização sem conflitos ou até compartilhados entre várias organizações.
 
@@ -23,7 +23,7 @@ Os Esquemas são a maneira padrão de descrever dados na Experience Platform, pe
 
 Um esquema é um conjunto de regras que representam e validam a estrutura e o formato dos dados. Em um alto nível, os esquemas fornecem uma definição abstrata de um objeto do mundo real (como uma pessoa) e destacam quais dados devem ser incluídos em cada instância desse objeto (como nome, sobrenome, aniversário e assim por diante).
 
-Saiba como criar esquemas [nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR){target="_blank"}
+Saiba como criar esquemas em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR){target="_blank"}.
 
 O espaço de trabalho **Esquemas** na interface [!DNL Adobe Journey Optimizer] permite gerenciar os recursos do Experience Data Model (XDM) incluindo esquemas, classes, grupos de campos de esquema e tipos de dados. Você pode visualizar e explorar os recursos principais fornecidos pela Adobe e criar recursos e esquemas personalizados para sua organização.
 
@@ -31,9 +31,9 @@ O espaço de trabalho **Esquemas** na interface [!DNL Adobe Journey Optimizer] p
 
 Saiba como usar a interface de Esquemas [nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR){target="_blank"}
 
-A documentação passo a passo para criar um esquema usando o Editor de esquemas está disponível [nesta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR){target="_blank"}
+A documentação passo a passo para criar um esquema usando o Editor de Esquemas está disponível na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR){target="_blank"}.
 
-Para visualizar a lista completa de campos e atributos para cada esquema, consulte o [Dicionário de esquemas do Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}.
+Consulte o [dicionário de esquemas do Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"} para exibir a lista completa de campos e atributos para cada esquema.
 
 
 ## Vídeo explicativo{#video-schema}

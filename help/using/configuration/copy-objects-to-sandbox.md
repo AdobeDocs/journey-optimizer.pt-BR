@@ -9,18 +9,18 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1070'
 ht-degree: 4%
 
 ---
 
-# Copiar objetos do Journey Optimizer para outra sandbox {#copy-to-sandbox}
+# Exportar objetos para outra sandbox {#copy-to-sandbox}
 
-As ferramentas de sandbox permitem copiar objetos como jornadas, modelos de conteúdo ou fragmentos em várias sandboxes aproveitando a exportação e a importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.
+Você pode copiar objetos como jornadas, modelos de conteúdo ou fragmentos em várias sandboxes usando recursos de exportação e importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.
 
-Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso propriamente dito, consulte a [documentação sobre o Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso propriamente dito, consulte a [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
@@ -88,13 +88,13 @@ Para copiar objetos para outra sandbox, primeiro é necessário adicioná-los co
 >
 >Para exportação de jornadas, além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: públicos, esquemas, eventos e ações. Para obter mais detalhes sobre a exportação do jornada, consulte [esta seção](../building-journeys/copy-to-sandbox.md).
 
-## Publish do pacote a ser exportado {#publish}
+## Publicar o pacote a ser exportado {#publish}
 
 Quando o pacote estiver pronto para ser exportado, siga estas etapas para publicá-lo:
 
 1. Navegue até o menu **[!UICONTROL Administração]** > **[!UICONTROL Sandboxes]**, selecione a guia **Pacotes**.
 
-1. Abra o pacote que deseja exportar, selecione os objetos que deseja exportar e clique em **Publish**.
+1. Abra o pacote que deseja exportar, selecione os objetos que deseja exportar e clique em **Publicar**.
 
    Neste exemplo, queremos exportar uma jornada, um template de conteúdo e um fragmento.
 

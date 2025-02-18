@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
+source-git-commit: 0c128feac32baff14f1b71aed688e3bde4c67d35
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2634'
 ht-degree: 11%
 
 ---
@@ -74,11 +74,15 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
-      Por exemplo, após executar o aquecimento de IP por alguns dias, você percebe que a reputação do ISP com um domínio (por exemplo, Adobe) não é boa e deseja resolvê-la sem interromper o plano de aquecimento de IP. Nesse caso, você pode excluir o grupo de domínio Adobe.
+      Por exemplo, após executar o aquecimento de IP por alguns dias, você percebe que a reputação do ISP com um domínio (por exemplo, Adobe) não é boa e deseja resolvê-la sem interromper o plano de aquecimento de IP. Nesse caso, você pode excluir o grupo de domínio do Adobe.
 
       >[!NOTE]
       >
       >Você só pode excluir um grupo de domínios personalizado que foi adicionado ao [modelo de plano de aquecimento de IP](ip-warmup-plan.md#prepare-file). Se esse não for o caso, atualize o modelo com o grupo de domínio personalizado que deseja excluir e [carregue novamente o plano](#re-upload-plan).
+
+      >[!CAUTION]
+      >
+      >Depois que o plano de aquecimento de IP estiver em execução, se você atualizar o [endereço de execução](../email/email-settings.md#execution-address) no canal de email [configuração](channel-surfaces.md) usado na campanha de aquecimento de IP, a exclusão de domínio poderá falhar. Não edite a configuração do canal de email depois que o plano de aquecimento de IP for iniciado.
 
    1. Na seção **[!UICONTROL Campanha para exclusão de perfis]**, selecione as campanhas que deseja excluir da fase atual.
 
@@ -296,7 +300,7 @@ Uma execução pode ter os seguintes status:
 
 ### Usar relatórios {#reports}
 
-Em geral, para medir o impacto do seu plano, você pode verificar o desempenho de suas campanhas de aquecimento de IP usando os relatórios de campanha do [!DNL Journey Optimizer]. Para fazer isso, para cada execução concluída, você pode clicar no botão **[!UICONTROL Exibir relatórios]**. Saiba mais sobre o [relatório ao vivo](../reports/campaign-live-report.md#email-live) e o [relatório Customer Journey Analytics](../reports/campaign-global-report-cja-email.md) do email da campanha.
+Em geral, para medir o impacto do seu plano, você pode verificar o desempenho de suas campanhas de aquecimento de IP usando os relatórios de campanha do [!DNL Journey Optimizer]. Para fazer isso, para cada execução concluída, você pode clicar no botão **[!UICONTROL Exibir relatórios]**. Saiba mais sobre o [relatório ao vivo](../reports/campaign-live-report.md#email-live) e o [relatório do Customer Journey Analytics](../reports/campaign-global-report-cja-email.md) do email da campanha.
 
 ![](assets/ip-warmup-plan-reports.png)
 

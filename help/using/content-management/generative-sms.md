@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 5%
+source-wordcount: '1000'
+ht-degree: 4%
 
 ---
 
@@ -46,6 +46,10 @@ Explore as guias abaixo para saber como usar o Assistente de IA no Journey Optim
 
    ![](assets/sms-genai-1.png){zoomable="yes"}
 
+1. Selecione sua **[!UICONTROL Marca]** para garantir que o conteúdo gerado por IA esteja alinhado às especificações da sua marca. [Saiba mais](brands.md) sobre marcas.
+
+   Observe que o recurso Marcas é lançado como um beta privado e estará progressivamente disponível para todos os clientes em versões futuras.
+
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas.
@@ -55,7 +59,7 @@ Explore as guias abaixo para saber como usar o Assistente de IA no Journey Optim
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de texto]**:
 
    * **[!UICONTROL Estratégia de comunicação]**: selecione a abordagem de comunicação desejada para o texto gerado.
-   * **[!UICONTROL Idioma]**: escolha o idioma para o conteúdo da variante.
+   * **[!UICONTROL Idiomas]**: as opções de idioma espanhol, italiano, sueco e norueguês são lançadas como um beta privado e estarão progressivamente disponíveis para todos os clientes em versões futuras.
    * **[!UICONTROL Tone]**: certifique-se de que o texto é apropriado para seu público-alvo e sua finalidade.
    * **[!UICONTROL Comprimento]**: selecione o comprimento do conteúdo usando o controle deslizante de intervalo.
 
@@ -107,6 +111,10 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
 1. Habilite a opção **[!UICONTROL Usar conteúdo de referência]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
+1. Selecione sua **[!UICONTROL Marca]** para garantir que o conteúdo gerado por IA esteja alinhado às especificações da sua marca. [Saiba mais](brands.md) sobre marcas.
+
+   Observe que o recurso Marcas é lançado como um beta privado e estará progressivamente disponível para todos os clientes em versões futuras.
+
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas.
@@ -116,7 +124,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de texto]**:
 
    * **[!UICONTROL Estratégia de comunicação]**: selecione a abordagem de comunicação desejada para o texto gerado.
-   * **[!UICONTROL Idioma]**: escolha o idioma para o conteúdo da variante.
+   * **[!UICONTROL Idiomas]**: as opções de idioma espanhol, italiano, sueco e norueguês são lançadas como um beta privado e estarão progressivamente disponíveis para todos os clientes em versões futuras.
    * **[!UICONTROL Tone]**: certifique-se de que o texto é apropriado para seu público-alvo e sua finalidade.
    * **[!UICONTROL Comprimento]**: selecione o comprimento do conteúdo usando o controle deslizante de intervalo.
 

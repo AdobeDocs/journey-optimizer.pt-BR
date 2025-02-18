@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '1080'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,10 @@ O Assistente de IA do Journey Optimizer pode ajudar você a otimizar o impacto d
 
 1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
+1. Selecione sua **[!UICONTROL Marca]** para garantir que o conteúdo gerado por IA esteja alinhado às especificações da sua marca. [Saiba mais](brands.md) sobre marcas.
+
+   Observe que o recurso Marcas é lançado como um beta privado e estará progressivamente disponível para todos os clientes em versões futuras.
+
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas.
@@ -51,6 +55,7 @@ O Assistente de IA do Journey Optimizer pode ajudar você a otimizar o impacto d
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de texto]**:
 
    * **[!UICONTROL Estratégia de comunicação]**: escolha o estilo de comunicação mais adequado para o texto gerado.
+   * **[!UICONTROL Idiomas]**: as opções de idioma espanhol, italiano, sueco e norueguês são lançadas como um beta privado e estarão progressivamente disponíveis para todos os clientes em versões futuras.
    * **[!UICONTROL Tom]**: o tom da sua página da Web deve repercutir no seu público. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
    * **Comprimento do texto**: use o controle deslizante para selecionar o comprimento desejado do texto.
 
@@ -101,6 +106,10 @@ No exemplo abaixo, saiba como usar o Assistente de IA no Journey Optimizer para 
    ![](assets/web-gen-img-1.png){zoomable="yes"}
 
 1. Habilite a opção **[!UICONTROL Estilo de referência]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo de referência. Você também pode carregar uma imagem para adicionar contexto à sua variação.
+
+1. Selecione sua **[!UICONTROL Marca]** para garantir que o conteúdo gerado por IA esteja alinhado às especificações da sua marca. [Saiba mais](brands.md) sobre marcas.
+
+   Observe que o recurso Marcas é lançado como um beta privado e estará progressivamente disponível para todos os clientes em versões futuras.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 

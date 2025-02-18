@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 5%
 
 ---
@@ -48,19 +48,19 @@ Você também pode optar por exibir somente os itens que você mesmo criou ou mo
 >
 >Quando um modelo é editado ou excluído, as campanhas ou jornadas, incluindo o conteúdo criado usando esse modelo, não são afetadas.
 
-## Exibir modelos como miniaturas {#template-thumbnails}
+## [!BADGE Disponibilidade limitada]{type=Informative} Exibe modelos como miniaturas {#template-thumbnails}
 
 Selecione o modo de **[!UICONTROL exibição de grade]** para exibir cada modelo como uma miniatura.
 
 >[!AVAILABILITY]
 >
->Esse recurso foi lançado com disponibilidade limitada (DL) para um pequeno conjunto de clientes.
+Esse recurso foi lançado com disponibilidade limitada (DL) para um pequeno grupo de clientes.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
->Atualmente, as miniaturas adequadas só podem ser geradas para modelos de conteúdo de email do tipo HTML.
+Atualmente, as miniaturas adequadas só podem ser geradas para HTML email modelos de conteúdo.
 
 Ao atualizar um conteúdo, talvez seja necessário aguardar alguns segundos antes que as alterações sejam refletidas na miniatura.
 

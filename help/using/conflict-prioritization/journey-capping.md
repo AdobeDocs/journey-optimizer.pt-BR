@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '920'
 ht-degree: 23%
 
 ---
@@ -70,6 +70,10 @@ Para criar uma regra de limite de jornada, siga estas etapas:
 
       1. No campo **[!UICONTROL Limite]**, defina o número máximo de jornadas que um perfil pode inserir.
       1. No campo **[!UICONTROL Duration]**, defina o período a ser considerado. Observe que a duração se baseia no fuso horário UTC. Por exemplo, o limite Diário será redefinido à meia-noite UTC.
+
+     >[!AVAILABILITY]
+     >
+     >A duração &quot;Daily&quot; está disponível somente sob demanda. Para obter acesso, entre em contato com o representante da Adobe.
 
      Neste exemplo, queremos impedir que perfis insiram mais de &quot;5&quot; jornadas em um mês.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1626'
 ht-degree: 3%
 
 ---
@@ -50,6 +50,10 @@ Siga estas etapas:
 
 1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize uma nova opção de conteúdo com base no conteúdo selecionado.
 
+1. Selecione sua **[!UICONTROL Marca]** para garantir que o conteúdo gerado por IA esteja alinhado às especificações da sua marca. [Saiba mais](brands.md) sobre marcas.
+
+   Observe que o recurso Marcas é lançado como um beta privado e estará progressivamente disponível para todos os clientes em versões futuras.
+
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas.
@@ -61,6 +65,7 @@ Siga estas etapas:
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de texto]**:
 
    * **[!UICONTROL Estratégia de comunicação]**: escolha o estilo de comunicação mais adequado para o texto gerado.
+   * **[!UICONTROL Idiomas]**: as opções de idioma espanhol, italiano, sueco e norueguês são lançadas como um beta privado e estarão progressivamente disponíveis para todos os clientes em versões futuras.
    * **[!UICONTROL Tom]**: o tom das suas notificações por push deve repercutir no seu público-alvo. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
 
    ![](assets/push-genai-full-3.png){zoomable="yes"}
@@ -121,6 +126,10 @@ Neste exemplo específico, saiba como usar o Assistente de IA no Journey Optimiz
 
 1. Habilite a opção **[!UICONTROL Usar conteúdo de referência]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
+1. Selecione sua **[!UICONTROL Marca]** para garantir que o conteúdo gerado por IA esteja alinhado às especificações da sua marca. [Saiba mais](brands.md) sobre marcas.
+
+   Observe que o recurso Marcas é lançado como um beta privado e estará progressivamente disponível para todos os clientes em versões futuras.
+
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas.
@@ -130,6 +139,7 @@ Neste exemplo específico, saiba como usar o Assistente de IA no Journey Optimiz
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de texto]**:
 
    * **[!UICONTROL Estratégia de comunicação]**: escolha o estilo de comunicação mais adequado para o texto gerado.
+   * **[!UICONTROL Idiomas]**: as opções de idioma espanhol, italiano, sueco e norueguês são lançadas como um beta privado e estarão progressivamente disponíveis para todos os clientes em versões futuras.
    * **[!UICONTROL Tom]**: o tom da sua notificação por push deve repercutir no seu público-alvo. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
    * **[!UICONTROL Comprimento]**: selecione o comprimento do conteúdo usando o controle deslizante de intervalo.
 
@@ -180,6 +190,10 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
    ![](assets/push-gen-img.png){zoomable="yes"}
 
 1. Habilite a opção **[!UICONTROL Estilo de referência]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo de referência. Você também pode carregar uma imagem para adicionar contexto à sua variação.
+
+1. Selecione sua **[!UICONTROL Marca]** para garantir que o conteúdo gerado por IA esteja alinhado às especificações da sua marca. [Saiba mais](brands.md) sobre marcas.
+
+   Observe que o recurso Marcas é lançado como um beta privado e estará progressivamente disponível para todos os clientes em versões futuras.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 

@@ -9,24 +9,24 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: conjunto de dados, otimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
 
-# Casos de uso do conjunto de dados {#tracking-datasets}
+# Exemplos de consultas {#query-examples}
 
 Nesta página, você encontrará a lista de conjuntos de dados do Adobe Journey Optimizer e casos de uso relacionados:
 
-[Conjunto de Dados de Evento de Experiência de Acompanhamento de Email](#email-tracking-experience-event-dataset)
-[Conjunto de Dados de Evento de Feedback de Mensagens](#message-feedback-event-dataset)
-[Conjunto de Dados de Evento de Experiência de Rastreamento de Push](#push-tracking-experience-event-dataset)
-[Evento de etapa do Jornada](#journey-step-event)
-[Conjunto de Dados de Evento de Decisão](#ode-decisionevents)
-[Conjunto de Dados do Evento de Feedback Cco](#bcc-feedback-event-dataset)
-[Conjunto de dados da entidade](#entity-dataset)
+* [Conjunto de dados de evento de experiência de rastreamento de email](#email-tracking-experience-event-dataset)
+* [Conjunto de dados do evento de feedback da mensagem](#message-feedback-event-dataset)
+* [Conjunto de dados do evento de experiência de rastreamento de push](#push-tracking-experience-event-dataset)
+* [Jornada evento de etapa](#journey-step-event)
+* [Conjunto de dados de evento de decisão](#ode-decisionevents)
+* [Conjunto de dados do evento de feedback CCO](#bcc-feedback-event-dataset)
+* [Conjunto de dados da entidade](#entity-dataset)
 
 Para exibir a lista completa de campos e atributos para cada esquema, consulte o [Dicionário de esquema do Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}.
 
@@ -192,7 +192,7 @@ _Nome interno: Eventos de Etapa de Jornada (conjunto de dados do sistema)_
 
 Conjunto de dados para assimilar eventos de etapa na jornada.
 
-O esquema relacionado é o esquema Jornada Step Event para Journey Orchestration.
+O esquema relacionado é o esquema Jornada Step Event para o Journey Orchestration.
 
 Esta consulta mostra o detalhamento das contagens de sucesso da ação por rótulo de ação para uma determinada jornada:
 

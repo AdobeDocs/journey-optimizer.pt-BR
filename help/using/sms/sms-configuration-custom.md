@@ -4,25 +4,26 @@ product: journey optimizer
 title: Configurar o provedor personalizado
 description: Saiba como configurar seu ambiente para enviar mensagens de texto com o Journey Optimizer com um provedor personalizado
 feature: SMS, Channel Configuration
+badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
-# Configurar um provedor personalizado (Beta) {#sms-configuration-custom}
+# Configurar um provedor personalizado {#sms-configuration-custom}
 
 >[!AVAILABILITY]
 >
->Os provedores personalizados estão disponíveis atualmente como uma versão beta somente para usuários selecionados. Entre em contato com o representante da Adobe para ser incluído na Beta.
+>Os provedores personalizados estão disponíveis atualmente como uma versão beta somente para usuários selecionados. Entre em contato com seu representante da Adobe para ser incluído na Beta.
 >
 >Observe que esse Beta não é compatível com mensagens de entrada para gerenciamento de consentimento de aceitação/recusa e relatórios de entrega.
 
-Para enviar mensagens no Journey Optimizer usando um provedor personalizado não disponível imediatamente pelo Adobe (por exemplo, Sinch, Infobip, Twilio), siga estas etapas:
+Para enviar mensagens no Journey Optimizer usando um provedor personalizado não disponível imediatamente pela Adobe (por exemplo, Sinch, Infobip, Twilio), siga estas etapas:
 
 1. No painel à esquerda, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione o menu **[!UICONTROL Credenciais de API]**.
 

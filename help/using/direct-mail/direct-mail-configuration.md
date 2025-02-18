@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
+source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1529'
 ht-degree: 19%
 
 ---
@@ -108,7 +108,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 1. Defina um nome para a sua configuração.
 
-1. Selecione SFTP como **[!UICONTROL Tipo de servidor]** a ser usado para exportar os arquivos de correspondência direta.
+1. Selecione SFTP como o **[!UICONTROL Tipo de servidor]** a ser usado para exportar os arquivos de correspondência direta.
 
    ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
 
@@ -142,7 +142,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 1. Defina um nome para a sua configuração.
 
-1. Selecione o **[!UICONTROL Tipo de servidor]** do Azure a ser usado para exportar os arquivos de correspondência direta.
+1. Selecione o Azure como o **[!UICONTROL Tipo de servidor]** a ser usado para exportar os arquivos de correspondência direta.
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
@@ -163,6 +163,28 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
 
    Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
+
+>[!TAB Zona de aterrissagem de dados]
+
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de correspondência direta]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Defina um nome para a sua configuração.
+
+1. Selecione Data landing zone como o **[!UICONTROL Tipo de servidor]** a ser usado para exportar os arquivos de correspondência direta.
+
+   ![](assets/file-routing-config-type-dlz.png){width="800" align="center"}
+
+1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**. <!--To find it, ...-->
+
+   ![](assets/file-routing-config-dlz-detail.png)
+
+1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
+
+   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
+
+Saiba mais sobre a zona de aterrissagem de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -197,7 +219,7 @@ Uma configuração de correspondência direta também deve incluir a configuraç
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
 
 1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
 
