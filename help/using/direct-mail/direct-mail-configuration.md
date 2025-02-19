@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 8f296109555edcfdc9e66fae312e6100e98ed78e
+source-git-commit: 0510811c2777fc8483b4220cc5a9f023dd5bf2c6
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 21%
@@ -80,85 +80,85 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 1. Preencha os campos específicos para cada tipo de servidor, conforme detalhado nas guias abaixo.
 
-   >[!BEGINTABS]
+>[!BEGINTABS]
 
-   >[!TAB Amazon S3]
+>[!TAB Amazon S3]
 
-   Se você selecionou **[!UICONTROL Amazon S3]** como o **[!UICONTROL Tipo de servidor]**:
+Se você selecionou **[!UICONTROL Amazon S3]** como o **[!UICONTROL Tipo de servidor]**:
 
-   1. Preencha os detalhes e as credenciais do seu servidor
+1. Preencha os detalhes e as credenciais do seu servidor
 
-      * **Nome do bucket do AWS**:Para saber onde encontrar o nome do seu bucket do AWS, consulte [esta página](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+   * **Nome do bucket do AWS**:Para saber onde encontrar o nome do seu bucket do AWS, consulte [esta página](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-      * **Chave de acesso do AWS**: para saber onde encontrar sua ID de chave de acesso do AWS, consulte [esta página](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+   * **Chave de acesso do AWS**: para saber onde encontrar sua ID de chave de acesso do AWS, consulte [esta página](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-      * **Chave secreta do AWS**: para saber onde encontrar sua chave secreta do AWS, consulte [esta página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+   * **Chave secreta do AWS**: para saber onde encontrar sua chave secreta do AWS, consulte [esta página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
-      * **região do AWS**: escolha a **[!UICONTROL região do AWS]** onde a infraestrutura do servidor estará localizada. As regiões do AWS são áreas geográficas que o AWS usa para hospedar sua infraestrutura em nuvem. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta.
+   * **região do AWS**: escolha a **[!UICONTROL região do AWS]** onde a infraestrutura do servidor estará localizada. As regiões do AWS são áreas geográficas que o AWS usa para hospedar sua infraestrutura em nuvem. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta.
 
-      ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
-   1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
+1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-   >[!TAB SFTP]
+>[!TAB SFTP]
 
-   Se você selecionou **[!UICONTROL SFTP]** como o **[!UICONTROL Tipo de servidor]**:
+Se você selecionou **[!UICONTROL SFTP]** como o **[!UICONTROL Tipo de servidor]**:
 
-   1. Preencha os detalhes e as credenciais do servidor:
+1. Preencha os detalhes e as credenciais do servidor:
 
-      * **Conta**: nome da conta usado para conexão com o servidor SFTP.
+   * **Conta**: nome da conta usado para conexão com o servidor SFTP.
 
-      * **Endereço do servidor**: URL &#x200B; servidor SFTP.
+   * **Endereço do servidor**: URL &#x200B; servidor SFTP.
 
-      * **Porta**: número da porta de conexão FTP.
+   * **Porta**: número da porta de conexão FTP.
 
-      * **Senha**:&#x200B; senha usada para conectar ao servidor SFTP.
+   * **Senha**:&#x200B; senha usada para conectar ao servidor SFTP.
 
-      ![](assets/file-routing-config-sftp-detail.png)
+   ![](assets/file-routing-config-sftp-detail.png)
 
-      >[!NOTE]
-      >
-      >Para especificar um caminho no servidor para salvar o arquivo, atualize o campo **[!UICONTROL Filename]** da campanha de correspondência direta para incluir o caminho desejado. [Saiba mais](create-direct-mail.md#extraction-file)
+   >[!NOTE]
+   >
+   >Para especificar um caminho no servidor para salvar o arquivo, atualize o campo **[!UICONTROL Filename]** da campanha de correspondência direta para incluir o caminho desejado. [Saiba mais](create-direct-mail.md#extraction-file)
 
-   1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
+1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-   >[!TAB Azure]
+>[!TAB Azure]
 
-   Se você selecionou o **[!UICONTROL Azure]** como o **[!UICONTROL Tipo de servidor]**:
+Se você selecionou o **[!UICONTROL Azure]** como o **[!UICONTROL Tipo de servidor]**:
 
-   1. Preencha os detalhes e as credenciais do servidor:
+1. Preencha os detalhes e as credenciais do servidor:
 
-      * **Cadeia de Conexão do Azure**: para encontrar sua **Cadeia de Conexão do Azure**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+   * **Cadeia de Conexão do Azure**: para encontrar sua **Cadeia de Conexão do Azure**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
-        A **Cadeia de Conexão do Azure** deve seguir o formato abaixo:
+     A **Cadeia de Conexão do Azure** deve seguir o formato abaixo:
 
-        `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-      * **Nome do Contêiner**: para localizar seu **Nome do Contêiner**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+   * **Nome do Contêiner**: para localizar seu **Nome do Contêiner**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
 
-        O **Nome do Contêiner** deve conter somente o nome do contêiner sem barras.
+     O **Nome do Contêiner** deve conter somente o nome do contêiner sem barras.
 
-        >[!NOTE]
-        >
-        >Para especificar um caminho no contêiner para salvar o arquivo, atualize o campo **[!UICONTROL Filename]** da campanha de correspondência direta para incluir o caminho desejado. [Saiba mais](create-direct-mail.md#extraction-file)
+     >[!NOTE]
+     >
+     >Para especificar um caminho no contêiner para salvar o arquivo, atualize o campo **[!UICONTROL Filename]** da campanha de correspondência direta para incluir o caminho desejado. [Saiba mais](create-direct-mail.md#extraction-file)
 
-        ![](assets/file-routing-config-azure-detail.png)
+     ![](assets/file-routing-config-azure-detail.png)
 
-   1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
+1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-   >[!TAB Zona de Aterrissagem de Dados]
+>[!TAB Zona de Aterrissagem de Dados]
 
-   Se você selecionou **[!UICONTROL Zona de Aterrissagem de Dados]** como o **[!UICONTROL Tipo de servidor]**, nenhum detalhe específico será necessário.
+Se você selecionou **[!UICONTROL Zona de Aterrissagem de Dados]** como o **[!UICONTROL Tipo de servidor]**, nenhum detalhe específico será necessário.
 
-   Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
+Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-   ![](assets/file-routing-config-dlz-detail.png)
+![](assets/file-routing-config-dlz-detail.png)
 
-   Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
-   >[!ENDTABS]
+>[!ENDTABS]
 
-1. Depois de preencher os detalhes do tipo de servidor, selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
+5. Depois de preencher os detalhes do tipo de servidor, selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
 
    Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
 
