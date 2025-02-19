@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate
 keywords: perfis de teste, teste, teste, jornada
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 7df2d6a68ce20dbd9d07be3d6cfba9eba5ec0242
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 3%
@@ -40,7 +40,7 @@ Observe que a criação de um perfil de teste é semelhante à criação de perf
 
 ## Pré-requisitos {#test-profile-prerequisites}
 
-Para poder criar perfis, primeiro é necessário criar um esquema e um conjunto de dados no Adobe [!DNL Journey Optimizer].
+Para criar perfis, primeiro é necessário criar um esquema e um conjunto de dados no Adobe [!DNL Journey Optimizer].
 
 Para **criar um esquema**, siga estas etapas:
 
@@ -145,7 +145,7 @@ Sua jornada será composta de uma atividade **[!UICONTROL Ler público-alvo]** e
 1. Adicione uma atividade de ação **[!UICONTROL Atualizar Perfil]**.
 1. Selecione o esquema, o campo **testProfiles**, o conjunto de dados e defina o valor como **True**. Para fazer isso, no campo **[!UICONTROL VALUE]**, clique no ícone **Caneta** à direita, selecione **[!UICONTROL Modo avançado]** e digite **true**.
    ![](assets/test-profiles-26.png)
-1. Clique em **[!UICONTROL Publish]**.
+1. Clique em **[!UICONTROL Publicar]**.
 1. Na seção **[!UICONTROL Públicos-alvo]**, verifique se os perfis foram atualizados corretamente.
    ![](assets/test-profiles-28.png)
 
@@ -179,6 +179,7 @@ No Adobe Experience Platform, é possível criar perfis carregando um arquivo cs
    ![](assets/test-profiles-21.png)
 
 Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jornada. Consulte [esta seção](../building-journeys/testing-the-journey.md).
+
 >[!NOTE]
 >
 > Para obter mais informações sobre importações csv, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
