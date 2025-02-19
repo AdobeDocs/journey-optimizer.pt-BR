@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
+source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '583'
 ht-degree: 2%
 
 ---
@@ -34,9 +34,9 @@ O uso desse recurso simplifica o processo de teste e validação, garantindo que
 
 ## Pré-requisitos {#troubleshoot-custom-action-prereq}
 
-Para usar o recurso **[!UICONTROL Enviar Solicitação de Teste]**, uma **Ação Personalizada** deve ser pré-configurada com uma URL, cabeçalhos e configurações de autenticação.
+Para usar o recurso **[!UICONTROL Enviar solicitação de teste]**, uma **Ação Personalizada** deve ser pré-configurada com uma URL, cabeçalhos e configurações de autenticação.
 
-Para que o administrador use esse recurso, as seguintes permissões são necessárias:
+Para que os administradores usem esse recurso, são necessárias as seguintes permissões:
 
 * Os usuários devem ter a permissão **[!DNL Manage journeys events, data sources and actions]**.
 * Esta permissão está incluída na função *Administradores do Jornada*.
@@ -48,8 +48,11 @@ Saiba mais sobre permissões de jornada em [esta seção](../administration/high
 
 Para testar uma ação personalizada, siga estas etapas:
 
-1. Navegue até a tela de configuração **Ações Personalizadas**.
-1. Clique no botão **[!UICONTROL Enviar solicitação de teste]**.
+1. Navegue até a tela de configuração **Ações Personalizadas** e selecione uma ação personalizada.
+1. Clique no botão **[!UICONTROL Enviar solicitação de teste]**, na parte inferior da tela de configuração de ação.
+
+![Botão Enviar solicitação de teste no painel Configuração de ação](assets/test-request.png){width="70%" align="left"}
+
 1. Na janela pop-up, permitindo que você especifique parâmetros de solicitação:
 
    * Se o método de ação personalizada **for GET**, nenhuma carga será necessária.
@@ -81,7 +84,7 @@ Como administrador do Journey Optimizer, você também pode usar ferramentas ext
    * A estrutura de solicitação exata (incluindo cabeçalhos específicos do Adobe Journey Optimizer) é usada.
    * O IP de origem e os cabeçalhos correspondem àqueles usados nas jornadas ativas.
 
-* O recurso **[!UICONTROL Enviar Solicitação de Teste]** pode ser usado para solucionar problemas de **jornadas em tempo real**, pois a ação personalizada já foi implantada.
+* O recurso **[!UICONTROL Enviar solicitação de teste]** pode ser usado para solucionar problemas de **jornadas em tempo real**, pois a ação personalizada já foi implantada.
 
 * Esse recurso de teste no produto elimina a necessidade de copiar manualmente os detalhes de configuração entre as ferramentas, reduzindo o risco de erros.
 
