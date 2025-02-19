@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
-source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
+source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ O uso desse recurso simplifica o processo de teste e validação, garantindo que
 
 ## Pré-requisitos {#troubleshoot-custom-action-prereq}
 
-Para usar o recurso **[!UICONTROL Enviar solicitação de teste]**, uma **Ação Personalizada** deve ser pré-configurada com uma URL, cabeçalhos e configurações de autenticação.
+Para usar o recurso **[!UICONTROL Enviar solicitação de teste]**, uma **ação personalizada** deve ser pré-configurada com uma URL, cabeçalhos e configurações de autenticação.
 
 Para que os administradores usem esse recurso, são necessárias as seguintes permissões:
 
@@ -48,11 +48,9 @@ Saiba mais sobre permissões de jornada em [esta seção](../administration/high
 
 Para testar uma ação personalizada, siga estas etapas:
 
-1. Navegue até a tela de configuração **Ações Personalizadas** e selecione uma ação personalizada.
+1. Navegue até a tela de configuração **Ações** e selecione uma ação personalizada.
 1. Clique no botão **[!UICONTROL Enviar solicitação de teste]**, na parte inferior da tela de configuração de ação.
-
-![Botão Enviar solicitação de teste no painel Configuração de ação](assets/test-request.png){width="70%" align="left"}
-
+   ![Botão Enviar solicitação de teste no painel Configuração de ação](assets/test-request.png){width="70%" align="left"}
 1. Na janela pop-up, permitindo que você especifique parâmetros de solicitação:
 
    * Se o método de ação personalizada **for GET**, nenhuma carga será necessária.
