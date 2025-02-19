@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
+source-git-commit: 324e477ca334e2d614265b3ea25428bea089ac69
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 19%
+source-wordcount: '1317'
+ht-degree: 21%
 
 ---
 
@@ -51,7 +51,7 @@ Antes de poder gerar esse arquivo, é necessário criar:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Selecionar o tipo de servidor para o arquivo"
->abstract="Escolha o tipo de servidor que deseja usar para exportar seus arquivos de correspondência direta: Amazon S3, SFTP ou Azure."
+>abstract="Escolha o tipo de servidor que deseja usar para exportar seus arquivos de correspondência direta: Amazon S3, SFTP, Azure ou Data Landing Zone."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
@@ -60,7 +60,7 @@ Antes de poder gerar esse arquivo, é necessário criar:
 
 >[!NOTE]
 >
->Atualmente, o Amazon S3, SFTP, Azure e a zona de aterrissagem de dados têm suporte no [!DNL Journey Optimizer].
+>Atualmente, o Amazon S3, SFTP, Azure e Data Landing Zone têm suporte no [!DNL Journey Optimizer].
 
 Para entregar uma mensagem de correspondência direta, o [!DNL Journey Optimizer] gera e exporta o arquivo contendo os dados do público-alvo direcionado para um servidor.
 
@@ -68,19 +68,25 @@ Você precisa especificar esses detalhes do servidor para que o provedor de corr
 
 Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
->[!BEGINTABS]
-
->[!TAB Amazon S3]
-
 1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de correspondência direta]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Defina um nome para a sua configuração.
 
-1. Selecione **Amazon S3** como o **[!UICONTROL Tipo de servidor]** a ser usado para exportar os arquivos de correspondência direta.
+1. Selecione o tipo de servidor que deseja usar para exportar seus arquivos de correspondência direta: Amazon S3, SFTP, Azure ou Data Landing Zone. Os campos específicos para cada tipo de servidor são detalhados nas guias abaixo.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
+
+1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
+
+   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
+
+>[!BEGINTABS]
+
+>[!TAB Amazon S3]
+
+1. Selecione **[!UICONTROL Amazon S3]** como o **[!UICONTROL Tipo de servidor]**.
 
 1. Preencha os detalhes e as credenciais do seu servidor
 
@@ -96,21 +102,9 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
-
-   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
-
 >[!TAB SFTP]
 
-1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de correspondência direta]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
-
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
-
-1. Defina um nome para a sua configuração.
-
-1. Selecione SFTP como o **[!UICONTROL Tipo de servidor]** a ser usado para exportar os arquivos de correspondência direta.
-
-   ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
+1. Selecione **[!UICONTROL SFTP]** como o **[!UICONTROL Tipo de servidor]**.
 
 1. Preencha os detalhes e as credenciais do servidor:
 
@@ -130,21 +124,9 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
-
-   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
-
 >[!TAB Azure]
 
-1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de correspondência direta]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
-
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
-
-1. Defina um nome para a sua configuração.
-
-1. Selecione o Azure como o **[!UICONTROL Tipo de servidor]** a ser usado para exportar os arquivos de correspondência direta.
-
-   ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
+1. Selecione **[!UICONTROL Azure]** como o **[!UICONTROL Tipo de servidor]**.
 
 1. Preencha os detalhes e as credenciais do servidor:
 
@@ -156,35 +138,25 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
    * **Nome do Contêiner**: para localizar seu **Nome do Contêiner**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
 
-     O **Nome do Contêiner** deve conter somente o nome do contêiner sem barras. Para especificar um caminho no contêiner para salvar o arquivo, atualize o campo **[!UICONTROL Filename]** da campanha de correspondência direta para incluir o caminho desejado. [Saiba mais](create-direct-mail.md#extraction-file)
+     O **Nome do Contêiner** deve conter somente o nome do contêiner sem barras.
+
+     >[!NOTE]
+     >
+     >Para especificar um caminho no contêiner para salvar o arquivo, atualize o campo **[!UICONTROL Filename]** da campanha de correspondência direta para incluir o caminho desejado. [Saiba mais](create-direct-mail.md#extraction-file)
+
+     ![](assets/file-routing-config-azure-detail.png)
 
 1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
+>[!TAB Zona de Aterrissagem de Dados]
 
-   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
+1. Selecione **[!UICONTROL Zona de Aterrissagem de Dados]** como o **[!UICONTROL Tipo de servidor]**.
 
->[!TAB Zona de aterrissagem de dados]
-
-1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de correspondência direta]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
-
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
-
-1. Defina um nome para a sua configuração.
-
-1. Selecione Data landing zone como o **[!UICONTROL Tipo de servidor]** a ser usado para exportar os arquivos de correspondência direta.
-
-   ![](assets/file-routing-config-type-dlz.png){width="800" align="center"}
-
-1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**. <!--To find it, ...-->
+1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
    ![](assets/file-routing-config-dlz-detail.png)
 
-1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
-
-   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
-
-Saiba mais sobre a zona de aterrissagem de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
