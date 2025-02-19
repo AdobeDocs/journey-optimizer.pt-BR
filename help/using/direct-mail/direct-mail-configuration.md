@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 324e477ca334e2d614265b3ea25428bea089ac69
+source-git-commit: 8f296109555edcfdc9e66fae312e6100e98ed78e
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1356'
 ht-degree: 21%
 
 ---
@@ -22,13 +22,13 @@ Ao [criar uma mensagem de correspondência direta](../direct-mail/create-direct-
 
 Antes de poder gerar esse arquivo, é necessário criar:
 
-1. Uma [configuração de roteamento de arquivo](#file-routing-configuration) para especificar o servidor para o qual o arquivo será exportado e criptografá-lo, se necessário.
+1. [Uma configuração de roteamento de arquivo](#file-routing-configuration) para especificar o servidor para o qual o arquivo será exportado e criptografá-lo, se necessário.
 
    >[!CAUTION]
    >
-   >Para criar uma configuração de roteamento de arquivo, você precisa ter a permissão interna **[!DNL Manage file routing]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager).
+   >Para criar uma configuração de roteamento de arquivo, você precisa ter a permissão interna **[!DNL Manage file routing]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
 
-1. Uma [configuração de correspondência direta](#direct-mail-configuration) que referenciará a configuração de roteamento de arquivos. Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma configuração de correspondência direta.
+1. [Uma configuração de correspondência direta](#direct-mail-configuration) que fará referência à configuração de roteamento de arquivos. Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma configuração de correspondência direta.
 
 ## Configurar o roteamento de arquivos {#file-routing-configuration}
 
@@ -68,97 +68,99 @@ Você precisa especificar esses detalhes do servidor para que o provedor de corr
 
 Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
-1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de correspondência direta]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de correspondência direta]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento de arquivos]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Defina um nome para a sua configuração.
 
-1. Selecione o tipo de servidor que deseja usar para exportar seus arquivos de correspondência direta: Amazon S3, SFTP, Azure ou Data Landing Zone. Os campos específicos para cada tipo de servidor são detalhados nas guias abaixo.
+1. Selecione o tipo de servidor que deseja usar para exportar seus arquivos de correspondência direta: Amazon S3, SFTP, Azure ou Data Landing Zone.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
+1. Preencha os campos específicos para cada tipo de servidor, conforme detalhado nas guias abaixo.
 
-   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
+   >[!BEGINTABS]
 
->[!BEGINTABS]
+   >[!TAB Amazon S3]
 
->[!TAB Amazon S3]
+   Se você selecionou **[!UICONTROL Amazon S3]** como o **[!UICONTROL Tipo de servidor]**:
 
-1. Selecione **[!UICONTROL Amazon S3]** como o **[!UICONTROL Tipo de servidor]**.
+   1. Preencha os detalhes e as credenciais do seu servidor
 
-1. Preencha os detalhes e as credenciais do seu servidor
+      * **Nome do bucket do AWS**:Para saber onde encontrar o nome do seu bucket do AWS, consulte [esta página](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   * **Nome do bucket do AWS**:Para saber onde encontrar o nome do seu bucket do AWS, consulte [esta página](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+      * **Chave de acesso do AWS**: para saber onde encontrar sua ID de chave de acesso do AWS, consulte [esta página](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-   * **Chave de acesso do AWS**: para saber onde encontrar sua ID de chave de acesso do AWS, consulte [esta página](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+      * **Chave secreta do AWS**: para saber onde encontrar sua chave secreta do AWS, consulte [esta página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
-   * **Chave secreta do AWS**: para saber onde encontrar sua chave secreta do AWS, consulte [esta página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+      * **região do AWS**: escolha a **[!UICONTROL região do AWS]** onde a infraestrutura do servidor estará localizada. As regiões do AWS são áreas geográficas que o AWS usa para hospedar sua infraestrutura em nuvem. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta.
 
-   * **região do AWS**: escolha a **[!UICONTROL região do AWS]** onde a infraestrutura do servidor estará localizada. As regiões do AWS são áreas geográficas que o AWS usa para hospedar sua infraestrutura em nuvem. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta.
+      ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
-   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+   1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
+   >[!TAB SFTP]
 
->[!TAB SFTP]
+   Se você selecionou **[!UICONTROL SFTP]** como o **[!UICONTROL Tipo de servidor]**:
 
-1. Selecione **[!UICONTROL SFTP]** como o **[!UICONTROL Tipo de servidor]**.
+   1. Preencha os detalhes e as credenciais do servidor:
 
-1. Preencha os detalhes e as credenciais do servidor:
+      * **Conta**: nome da conta usado para conexão com o servidor SFTP.
 
-   * **Conta**: nome da conta usado para conexão com o servidor SFTP.
+      * **Endereço do servidor**: URL &#x200B; servidor SFTP.
 
-   * **Endereço do servidor**: URL &#x200B; servidor SFTP.
+      * **Porta**: número da porta de conexão FTP.
 
-   * **Porta**: número da porta de conexão FTP.
+      * **Senha**:&#x200B; senha usada para conectar ao servidor SFTP.
 
-   * **Senha**:&#x200B; senha usada para conectar ao servidor SFTP.
+      ![](assets/file-routing-config-sftp-detail.png)
 
-   ![](assets/file-routing-config-sftp-detail.png)
+      >[!NOTE]
+      >
+      >Para especificar um caminho no servidor para salvar o arquivo, atualize o campo **[!UICONTROL Filename]** da campanha de correspondência direta para incluir o caminho desejado. [Saiba mais](create-direct-mail.md#extraction-file)
 
-   >[!NOTE]
-   >
-   >Para especificar um caminho no servidor para salvar o arquivo, atualize o campo **[!UICONTROL Filename]** da campanha de correspondência direta para incluir o caminho desejado. [Saiba mais](create-direct-mail.md#extraction-file)
+   1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
+   >[!TAB Azure]
 
->[!TAB Azure]
+   Se você selecionou o **[!UICONTROL Azure]** como o **[!UICONTROL Tipo de servidor]**:
 
-1. Selecione **[!UICONTROL Azure]** como o **[!UICONTROL Tipo de servidor]**.
+   1. Preencha os detalhes e as credenciais do servidor:
 
-1. Preencha os detalhes e as credenciais do servidor:
+      * **Cadeia de Conexão do Azure**: para encontrar sua **Cadeia de Conexão do Azure**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
-   * **Cadeia de Conexão do Azure**: para encontrar sua **Cadeia de Conexão do Azure**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+        A **Cadeia de Conexão do Azure** deve seguir o formato abaixo:
 
-     A **Cadeia de Conexão do Azure** deve seguir o formato abaixo:
+        `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+      * **Nome do Contêiner**: para localizar seu **Nome do Contêiner**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
 
-   * **Nome do Contêiner**: para localizar seu **Nome do Contêiner**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+        O **Nome do Contêiner** deve conter somente o nome do contêiner sem barras.
 
-     O **Nome do Contêiner** deve conter somente o nome do contêiner sem barras.
+        >[!NOTE]
+        >
+        >Para especificar um caminho no contêiner para salvar o arquivo, atualize o campo **[!UICONTROL Filename]** da campanha de correspondência direta para incluir o caminho desejado. [Saiba mais](create-direct-mail.md#extraction-file)
 
-     >[!NOTE]
-     >
-     >Para especificar um caminho no contêiner para salvar o arquivo, atualize o campo **[!UICONTROL Filename]** da campanha de correspondência direta para incluir o caminho desejado. [Saiba mais](create-direct-mail.md#extraction-file)
+        ![](assets/file-routing-config-azure-detail.png)
 
-     ![](assets/file-routing-config-azure-detail.png)
+   1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
+   >[!TAB Zona de Aterrissagem de Dados]
 
->[!TAB Zona de Aterrissagem de Dados]
+   Se você selecionou **[!UICONTROL Zona de Aterrissagem de Dados]** como o **[!UICONTROL Tipo de servidor]**, nenhum detalhe específico será necessário.
 
-1. Selecione **[!UICONTROL Zona de Aterrissagem de Dados]** como o **[!UICONTROL Tipo de servidor]**.
-
-1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
+   Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
    ![](assets/file-routing-config-dlz-detail.png)
 
-Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+   Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
->[!ENDTABS]
+   >[!ENDTABS]
+
+1. Depois de preencher os detalhes do tipo de servidor, selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
+
+   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
 
 ## Criar uma configuração de correspondência direta {#direct-mail-surface}
 
