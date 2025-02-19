@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuração, configurar, mensagens, canal, sandbox, otimizador
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 93%
@@ -41,7 +41,7 @@ Para criar suas jornadas e enviar mensagens, você precisa seguir as etapas de c
 
    * Ativar a **Opção de email CCO** para manter uma cópia das mensagens enviadas a pessoas físicas. [Saiba mais](archiving-support.md#enable-bcc)
 
-   * Configure as **regras de negócio** para evitar o excesso de solicitações de seus destinatários. [Saiba mais](frequency-rules.md)
+   * Configure as **regras de negócio** para evitar o excesso de solicitações de seus destinatários. [Saiba mais](../configuration/rule-sets.md)
 
    * Determine qual endereço de email e/ou número de telefone deve ser usado com prioridade para seus destinatários quando vários endereços/números estiverem disponíveis na Adobe Experience Platform. [Saiba mais](primary-email-addresses.md)
 

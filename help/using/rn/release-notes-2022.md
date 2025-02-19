@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3598'
+ht-degree: 100%
 
 ---
 
@@ -545,7 +545,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tr>
 <td>
 <p>Agora é possível definir regras de negócios entre canais que excluirão automaticamente perfis excessivamente solicitados de mensagens e ações.</p>
-<p>Para obter mais informações, consulte a <a href="../configuration/frequency-rules.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../configuration/rule-sets.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>

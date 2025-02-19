@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
-source-wordcount: '6051'
-ht-degree: 97%
+source-wordcount: '6045'
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
    * E: atalho usado para acionar um evento em uma jornada baseada em eventos.
    * P: atalho para acionar um evento em uma jornada baseada em públicos-alvo para a qual a opção de &quot;Um único perfil por vez&quot; está ativada.
    * L: atalho para exibir os logs de teste.
-* A página Regras de frequência de mensagens foi atualizada com uma nova subseção sobre limite de frequência diária, que está disponível por demanda além dos limites semanal e mensal. [Leia mais](../configuration/frequency-rules.md#daily-frequency-cap)
+* A página Regras de frequência de mensagem foi atualizada com uma nova subseção sobre limite de frequência diária, que está disponível sob demanda além de limite semanal ou mensal.
 * A página Trabalhar com políticas de consentimento foi aprimorada e atualizada com links úteis para a documentação da Experience Platform. [Leia mais](../action/consent.md)
 * Uma nova seção foi adicionada para refletir o fato de que é possível exibir modelos de conteúdo de email em HTML como miniaturas com o modo de Visualização em grade (disponibilidade limitada). [Leia mais](../content-management/content-templates.md#template-thumbnails)
 * Uma nova seção foi adicionada à página “Capacidade de entrega” para explicar o que são os ciclos de feedback e como aproveitá-los. [Leia mais](../reports/deliverability.md#feedback-loops)
@@ -140,7 +140,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Atualização da lista de funções disponíveis no editor de expressão avançado. [Leia mais](../building-journeys/expression/functions.md)
 * Atualização da página sobre a função Divisão. [Leia mais](../building-journeys/functions/functioninaudience.md)
 * Adição de informações sobre o impacto da aceitação ou recusa de notificações por push em mensagens no aplicativo. [Leia mais](../in-app/create-in-app.md)
-* Atualização da página Regras de frequência de mensagens para refletir as opções de Duração disponíveis na interface (semanal ou mensal). [Leia mais](../configuration/frequency-rules.md)
+* A página Message frequency rules foi atualizada para refletir as opções de Duração disponíveis na interface do usuário (semanal ou mensal).
 * Atualização da seção Editar um registro PTR para esclarecer o fato de que não é possível criar registros PTR manualmente e que é necessário editar os registros PTR para atribuir novos subdomínios a eles. [Leia mais](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Janeiro de 2024 {#jan-2024}
@@ -338,7 +338,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 ## Agosto de 2022 {#august-2022}
 
 * Todos os novos recursos e aprimoramentos chegando com a versão de agosto de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
-* A seção Regras de frequência foi atualizada para refletir o novo fluxo de mensagens integrado. [Leia mais](../configuration/frequency-rules.md#apply-frequency-rule)
+* A seção Regras de frequência foi atualizada para refletir o novo fluxo de mensagens integrado.
 * Um vídeo que mostra como configurar assinaturas e criar páginas de destino agora é referenciado na seção Introdução às páginas de destino. [Leia mais](../landing-pages/get-started-lp.md#video)
 * Uma limitação foi adicionada para jornadas que usam atividades de público-alvo de leitura. [Leia mais](../building-journeys/read-audience.md)
 * A página de operadores do editor de expressão foi aprimorada. [Leia mais](../building-journeys/expression/operators.md)
