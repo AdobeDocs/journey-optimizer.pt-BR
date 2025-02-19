@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '6064'
-ht-degree: 96%
+source-wordcount: '6117'
+ht-degree: 95%
 
 ---
 
@@ -25,9 +25,10 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * A documentação de **[!UICONTROL Otimização de hora de envio]** e das perguntas frequentes relacionadas foi atualizada, aprimorada e movida para uma nova página dedicada. [Leia mais](../building-journeys/send-time-optimization.md)
 * Novas medidas de proteção foram adicionadas para eventos de jornada. [Leia mais](../start/guardrails.md#events-g)
 * A página de ações do canal integrado foi reorganizada. [Leia mais](../building-journeys/journeys-message.md)
-* As medidas de proteção e limitações foram adicionadas na seção Gestão de decisões e decisões.
+* As medidas de proteção e limitações foram adicionadas nas seções Decisão e Gestão de decisões.
    * [Medidas de proteção e limitações da decisão](../experience-decisioning/decisioning-guardrails.md)
    * [Medidas de proteção e limitações do gerenciamento de decisão](../offers/decision-management-guardrails.md)
+* Uma nova seção sobre dados de contexto foi adicionada na documentação de Gestão de decisões. Ele fornece informações sobre como aproveitar os dados de contexto no mecanismo de decisão, por exemplo, para projetar uma regra de decisão que exija que o tempo atual seja ≥ 80 graus no momento em que a solicitação de decisão é feita. [Leia mais](../offers/context-data.md)
 
 ## Janeiro de 2025 {#jan-2025}
 

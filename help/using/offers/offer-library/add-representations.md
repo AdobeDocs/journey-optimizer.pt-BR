@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '767'
 ht-degree: 8%
 
 ---
@@ -72,7 +72,7 @@ Se o posicionamento selecionado for do tipo imagem, você poderá adicionar cont
 
 >[!NOTE]
 >
-> Para trabalhar com o [Adobe Experience Manager Assets Essentials Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, é necessário implantar o [!DNL Assets Essentials] para sua organização e verificar se os usuários fazem parte dos perfis de produto **Usuários consumidores** e/ou **Usuários Assets Essentials**. Saiba mais sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> Para trabalhar com o [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, é necessário implantar o [!DNL Assets Essentials] para sua organização e verificar se os usuários fazem parte dos **Usuários consumidores do Assets Essentials** e/ou dos **Perfis de produto dos Usuários do Assets Essentials**. Saiba mais sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Escolha a opção **[!UICONTROL Biblioteca de ativos]**.
 
@@ -88,9 +88,9 @@ Se o posicionamento selecionado for do tipo imagem, você poderá adicionar cont
 
 ### Adicionar arquivos HTML ou JSON {#html-json}
 
-Se o posicionamento selecionado for do tipo HTML, você também poderá adicionar conteúdo HTML ou JSON proveniente da [biblioteca de ativos do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
+Se o posicionamento selecionado for do tipo HTML, você também poderá adicionar conteúdo HTML ou JSON provenientes da [biblioteca de Ativos da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
 
-Por exemplo, você criou um modelo de email de HTML no [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} e deseja usar esse arquivo para o conteúdo da sua oferta. Em vez de criar um novo arquivo, basta carregar o modelo na **Biblioteca de Ativos** para poder reutilizá-lo nas representações de oferta.
+Por exemplo, você criou um modelo de email do HTML no [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} e deseja usar esse arquivo para o conteúdo da oferta. Em vez de criar um novo arquivo, basta carregar o modelo na **Biblioteca de Ativos** para poder reutilizá-lo nas representações de oferta.
 
 Para reutilizar o conteúdo em uma representação, navegue pela **Biblioteca de Ativos** conforme descrito em [esta seção](#images) e selecione o arquivo HTML ou JSON de sua escolha.
 
@@ -140,7 +140,7 @@ Você também pode inserir conteúdo do tipo texto ao selecionar um posicionamen
 
 Quando dados de contexto são passados na chamada [Edge decisioning](../api-reference/offer-delivery-api/edge-decisioning-api.md), você pode aproveitar esses dados para personalizar representações dinamicamente. Por exemplo, você pode adaptar a representação de uma oferta com base em fatores em tempo real, como as condições meteorológicas atuais no momento em que a decisão é tomada.
 
-Para fazer isso, incorpore a variável dos dados de contexto diretamente no conteúdo de representação usando o namespace `profile.timeSeriesEvents.`.
+Para usar dados de contexto em representações de oferta, incorpore a variável de dados de contexto diretamente no conteúdo de representação usando o namespace `profile.timeSeriesEvents.`.
 
 Este é um exemplo de sintaxe usado para personalizar a representação de uma oferta com base nos sistemas operacionais dos usuários:
 
