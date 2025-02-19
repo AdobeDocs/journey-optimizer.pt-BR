@@ -7,14 +7,14 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
+source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 22%
+source-wordcount: '389'
+ht-degree: 24%
 
 ---
 
-# Criar e gerenciar marcas {#brands}
+# Criar e gerenciar suas marcas {#brands}
 
 >[!AVAILABILITY]
 >
@@ -22,7 +22,9 @@ ht-degree: 22%
 
 As diretrizes da marca são um conjunto detalhado de regras e padrões que estabelecem a identidade visual e verbal de uma marca. Eles atuam como uma referência para manter uma representação de marca consistente em todas as plataformas de marketing e comunicação.
 
-No [!DNL Journey Optimizer], agora há a opção de inserir e organizar manualmente os detalhes da sua marca ou carregar documentos de diretrizes da marca para extração automática de informações.
+<!--Upload feature currently behind feature flag--
+
+In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
 
 ## Marcas de acesso {#generative-access}
 
@@ -36,7 +38,7 @@ Para acessar o menu **[!UICONTROL Marcas]** em [!DNL Adobe Journey Optimizer], o
 
 1. Adicione o recurso **Assistente de IA** e selecione **Kit de marca gerenciado** ou **[!UICONTROL Habilitar assistente de IA]** no menu suspenso.
 
-   Observe que a permissão **[!UICONTROL Habilitar assistente de Ia]** fornece acesso somente leitura ao menu Marcas.
+   Observe que a permissão **[!UICONTROL Habilitar assistente de Ia]** fornece acesso somente leitura ao menu **[!UICONTROL Marcas]**.
 
    ![](assets/brands-permission.png){zoomable="yes"}
 
@@ -54,7 +56,11 @@ Para acessar o menu **[!UICONTROL Marcas]** em [!DNL Adobe Journey Optimizer], o
 
 ## Criar sua marca {#create-brand-kit}
 
-Para criar e gerenciar as diretrizes de marca, você pode inserir os detalhes por conta própria ou fazer upload do documento de diretrizes de marca para que as informações sejam extraídas automaticamente:
+Para criar e gerenciar as diretrizes da sua marca, siga as etapas abaixo.
+
+<!--Upload feature currently behind feature flag--
+
+To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:-->
 
 1. No menu **[!UICONTROL Marcas]**, clique em **[!UICONTROL Criar marca]**.
 
@@ -64,9 +70,7 @@ Para criar e gerenciar as diretrizes de marca, você pode inserir os detalhes po
 
    ![](assets/brands-2-temp.png)
 
-<!--
-
-[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
+<!--Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)--
 
 1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
@@ -78,19 +82,23 @@ Para criar e gerenciar as diretrizes de marca, você pode inserir os detalhes po
 
 -->
 
-1. Na guia **[!UICONTROL Estilo de Escrita]**, clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar uma diretriz ou exclusão. Você também pode adicionar exemplos.
+1. Na guia **[!UICONTROL Estilo de Escrita]**, clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar uma diretriz ou exclusão, incluindo exemplos.
 
    ![](assets/brands-3.png)
 
 1. Na guia **[!UICONTROL Visual content]**, clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar outra diretriz ou exclusão.
 
-1. Para adicionar um exemplo de imagem, clique em **[!UICONTROL Selecionar imagem]**. Você também pode adicionar uma imagem mostrando o uso incorreto como exemplo de exclusão.
+1. Para adicionar uma imagem mostrando o uso correto, selecione **[!UICONTROL Exemplo]** e clique em **[!UICONTROL Selecionar imagem]**. Você também pode adicionar uma imagem mostrando o uso incorreto como exemplo de exclusão.
 
    ![](assets/brands-4.png)
 
-1. Após a configuração, clique em **[!UICONTROL Salvar]** e depois em **[!UICONTROL Publicar]** para disponibilizar as diretrizes de marcas no assistente de IA.
+1. Após a configuração, clique em **[!UICONTROL Salvar]** e em **[!UICONTROL Publicar]** para disponibilizar a diretriz da marca no assistente de IA.
 
-1. Para fazer modificações na sua marca publicada, clique em **[!UICONTROL Editar marca]**. Observe que essa ação cria uma cópia temporária no modo de edição, substituindo a versão ativa após a publicação.
+1. Para fazer modificações na sua marca publicada, clique em **[!UICONTROL Editar marca]**.
+
+   >[!NOTE]
+   >
+   >Isso cria uma cópia temporária no modo de edição, substituindo a versão online depois de publicada.
 
    ![](assets/brands-8.png)
 
@@ -105,6 +113,6 @@ Para criar e gerenciar as diretrizes de marca, você pode inserir os detalhes po
 
    ![](assets/brands-6.png)
 
-As Diretrizes da marca agora podem ser acessadas no menu suspenso Marcas no menu do assistente de IA, permitindo gerar conteúdo e ativos alinhados às suas especificações. [Saiba mais sobre o assistente de IA](gs-generative.md)
+As diretrizes da sua marca agora podem ser acessadas no menu suspenso **[!UICONTROL Marca]** do menu do assistente de IA, permitindo que ele gere conteúdo e ativos alinhados às suas especificações. [Saiba mais sobre o assistente de IA](gs-generative.md)
 
 ![](assets/brands-7.png)
