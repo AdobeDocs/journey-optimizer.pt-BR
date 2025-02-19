@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '6045'
+source-wordcount: '6064'
 ht-degree: 96%
 
 ---
@@ -25,6 +25,9 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * A documentação de **[!UICONTROL Otimização de hora de envio]** e das perguntas frequentes relacionadas foi atualizada, aprimorada e movida para uma nova página dedicada. [Leia mais](../building-journeys/send-time-optimization.md)
 * Novas medidas de proteção foram adicionadas para eventos de jornada. [Leia mais](../start/guardrails.md#events-g)
 * A página de ações do canal integrado foi reorganizada. [Leia mais](../building-journeys/journeys-message.md)
+* As medidas de proteção e limitações foram adicionadas na seção Gestão de decisões e decisões.
+   * [Medidas de proteção e limitações da decisão](../experience-decisioning/decisioning-guardrails.md)
+   * [Medidas de proteção e limitações do gerenciamento de decisão](../offers/decision-management-guardrails.md)
 
 ## Janeiro de 2025 {#jan-2025}
 

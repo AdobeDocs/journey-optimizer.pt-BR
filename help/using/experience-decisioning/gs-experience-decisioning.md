@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 20%
+source-wordcount: '484'
+ht-degree: 26%
 
 ---
 
@@ -31,26 +31,6 @@ Esses itens de decisão são perfeitamente integrados em uma grande variedade de
 >As políticas de decisão estão disponíveis para uso em campanhas de experiência baseadas em código somente.
 
 ➡️ Um caso de uso completo que mostra como criar decisões e usá-las em experimentos de conteúdo com o canal de experiência baseado em código é apresentado em [esta seção](experience-decisioning-uc.md).
-
-## Medidas de proteção e limitações {#guardrails}
-
-Para garantir o uso ideal do Decisioning, lembre-se das seguintes medidas de proteção e limitações:
-
-### Medidas de proteção gerais {#general}
-
-* **Itens de oferta**: cada coleção de itens pode conter até 500 itens de oferta.
-* **Atributos personalizados**: um item de decisão pode incluir no máximo 100 atributos personalizados.
-* **Estratégias de seleção e itens de decisão por política**: uma política de decisão suporta até 10 estratégias de seleção e itens de decisão combinados.
-
-### Regras de elegibilidade {#eligibility}
-
-* **Níveis de aninhamento**: a profundidade do aninhamento é limitada a 30 níveis. Isso é medido pela contagem dos parênteses de fechamento `)` na cadeia de caracteres do PQL.
-* **Tamanho da cadeia de caracteres de regra**: uma cadeia de caracteres de regra pode ter até 15 KB de tamanho para caracteres codificados em UTF-8. É equivalente a 15.000 caracteres ASCII (1 byte cada) ou 3.750-7.500 caracteres não ASCII (2-4 bytes cada).
-
-### Fórmulas de classificação {#ranking}
-
-* **Níveis de aninhamento**: a profundidade do aninhamento é limitada a 30 níveis. Isso é medido pela contagem dos parênteses de fechamento `)` na cadeia de caracteres do PQL.
-* **Tamanho da cadeia de caracteres de fórmula**: uma cadeia de caracteres de regra pode ter até 8 KB de tamanho para caracteres codificados em UTF-8. É equivalente a 8.000 caracteres ASCII (1 byte cada) ou 2.000-4.000 caracteres não ASCII (2-4 bytes cada).
 
 ## Principais etapas da decisão {#steps}
 
