@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 05a882d3dec6b6f62eac432d14bb9ac9ad48257d
+source-git-commit: 1465b110812beba8b58c7dc2e01a65189f984c27
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1362'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 3%
 # Criar perfis de teste {#create-test-profiles}
 
 Perfis de teste são necessários ao usar o [modo de teste](../building-journeys/testing-the-journey.md) em uma jornada e para [visualizar e testar seu conteúdo](../content-management/preview-test.md).
+
+
+>[!NOTE]
+>
+>O [!DNL Journey optimizer] também permite que você teste diferentes variantes do seu conteúdo visualizando-o e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como testar seu conteúdo usando dados de entrada de exemplo](../test-approve/simulate-sample-input.md)
 
 Há várias maneiras de criar perfis de teste. Você pode encontrar nesta página detalhes para:
 
