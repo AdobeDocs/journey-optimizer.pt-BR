@@ -7,10 +7,10 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 4919c8c749f9216be526bab2437a815da0136df5
+source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 19%
+source-wordcount: '427'
+ht-degree: 22%
 
 ---
 
@@ -19,15 +19,14 @@ ht-degree: 19%
 >[!AVAILABILITY]
 >
 >Esse recurso foi lançado como um beta privado. Ele estará progressivamente disponível para todos os clientes em versões futuras.
->
 
 As diretrizes da marca são um conjunto detalhado de regras e padrões que estabelecem a identidade visual e verbal de uma marca. Eles atuam como uma referência para manter uma representação de marca consistente em todas as plataformas de marketing e comunicação.
 
-No Journey Optimizer, agora há a opção de inserir e organizar manualmente os detalhes da sua marca ou carregar documentos de diretrizes da marca para extração automática de informações.
+No [!DNL Journey Optimizer], agora há a opção de inserir e organizar manualmente os detalhes da sua marca ou carregar documentos de diretrizes da marca para extração automática de informações.
 
 ## Marcas de acesso {#generative-access}
 
-Para acessar o menu Marca no Adobe Journey Optimizer, os usuários precisam receber as permissões **Kit de marcas gerenciado** ou **[!UICONTROL Habilitar assistente de IA]**. [Saiba mais](../administration/permissions.md)
+Para acessar o menu **[!UICONTROL Marcas]** em [!DNL Adobe Journey Optimizer], os usuários precisam receber as permissões do **[!UICONTROL Kit de marcas gerenciadas]** ou **[!UICONTROL Habilitar assistente de IA]**. [Saiba mais](../administration/permissions.md)
 
 +++  Saiba como atribuir permissões relacionadas à marca
 
@@ -51,34 +50,41 @@ Para acessar o menu Marca no Adobe Journey Optimizer, os usuários precisam rece
 
 1. Se o usuário não tiver sido criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).
 
-
 +++
 
 ## Criar sua marca {#create-brand-kit}
 
 Para criar e gerenciar as diretrizes de marca, você pode inserir os detalhes por conta própria ou fazer upload do documento de diretrizes de marca para que as informações sejam extraídas automaticamente:
 
-1. No menu **[!UICONTROL Marcas]**, clique em **[!UICONTROL Adicionar marca]**.
+1. No menu **[!UICONTROL Marcas]**, clique em **[!UICONTROL Criar marca]**.
 
    ![](assets/brands-1.png)
 
-1. Insira um **[!UICONTROL Nome]** e uma **[!UICONTROL Descrição]** para a diretriz de marca.
+1. Digite um **[!UICONTROL Nome]** para sua marca<!--and a **[!UICONTROL Description]** to your brand guideline-->.
 
-1. Arraste e solte ou selecione seu arquivo para fazer upload das diretrizes da marca e extrair automaticamente informações relevantes sobre a marca. Clique em **[!UICONTROL Adicionar marca]**.
+   ![](assets/brands-2-temp.png)
 
-   O processo de extração de informações agora começa. Observe que pode levar vários minutos para ser concluído.
+<!--
 
-   ![](assets/brands-2.png)
+[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
 
-1. Seus padrões de criação de conteúdo e visual agora são preenchidos automaticamente. Navegue pelas diferentes guias para adaptar as informações conforme necessário.
+1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
-1. Nos **[!UICONTROL Padrões de criação de conteúdo]**, clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar outra diretriz, exemplo ou exclusão.
+    The information extraction process now begins. Note that it may take several minutes to complete.
+
+    ![](assets/brands-2.png)
+
+1. Your Content and visual creation standards are now automatically populated. Browse through the different tabs to adapt the information as needed.
+
+-->
+
+1. Na guia **[!UICONTROL Estilo de Escrita]**, clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar uma diretriz ou exclusão. Você também pode adicionar exemplos.
 
    ![](assets/brands-3.png)
 
-1. Nos **[!UICONTROL Padrões de criação visual]**, clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar outra diretriz, exemplo ou exclusão.
+1. Na guia **[!UICONTROL Visual content]**, clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar outra diretriz ou exclusão.
 
-1. Para adicionar um exemplo de imagem, clique em **[!UICONTROL Selecionar imagem]**. Você também pode adicionar qualquer insight incorreto identificado.
+1. Para adicionar um exemplo de imagem, clique em **[!UICONTROL Selecionar imagem]**. Você também pode adicionar uma imagem mostrando o uso incorreto como exemplo de exclusão.
 
    ![](assets/brands-4.png)
 
