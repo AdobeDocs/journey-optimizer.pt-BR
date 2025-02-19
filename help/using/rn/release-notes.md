@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
+source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '768'
 ht-degree: 22%
 
 ---
@@ -129,7 +129,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 As melhorias abaixo vêm com a atualização de fevereiro.
 
-* **Jornadas** - Agora é possível testar suas ações personalizadas enviando chamadas de API da seção de administração. Esse novo recurso ajuda você a solucionar problemas de ações personalizadas antes ou depois de usá-las em uma jornada.
+* **Jornadas** - Agora é possível testar suas ações personalizadas enviando chamadas de API da seção de administração. Esse novo recurso ajuda você a solucionar problemas de ações personalizadas antes ou depois de usá-las em uma jornada. [Leia mais](../action/troubleshoot-custom-action.md)
 
 * **Tempo de vida (TTL) do conjunto de dados** - A partir deste mês, uma proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema da Journey Optimizer em novas sandboxes e novas organizações, da seguinte maneira:
 

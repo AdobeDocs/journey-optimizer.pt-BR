@@ -9,16 +9,18 @@ role: User
 level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 53%
+source-wordcount: '989'
+ht-degree: 52%
 
 ---
 
 # Solucionar problemas da jornada {#troubleshooting}
 
-Nesta seção, saiba como solucionar problemas do jornada antes de testar ou publicar. Todos os controles enumerados a seguir podem ser efetuados quando a jornada estiver em modo de teste ou mesmo ativa. Recomenda-se que todas as verificações a seguir sejam feitas no modo de teste, para então prosseguir com a publicação. Consulte [esta página](../building-journeys/testing-the-journey.md).
+Nesta seção, saiba como solucionar problemas do jornada antes de testar ou publicar. Todos os controles enumerados a seguir podem ser efetuados quando a jornada estiver em modo de teste ou mesmo ativa. Recomenda-se que todas as verificações a seguir sejam feitas no modo de teste, para então prosseguir com a publicação. Saiba mais sobre o modo de teste em [esta página](../building-journeys/testing-the-journey.md).
+
+Como administrador, você também pode testar as configurações de ações personalizadas fazendo chamadas de API reais diretamente da interface do usuário. Saiba mais [nesta página](../action/troubleshoot-custom-action.md).
 
 ## Verificar se há erros antes do teste {#checking-for-errors-before-testing}
 
