@@ -7,7 +7,7 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
+source-git-commit: 6c99d733b973efd790f8727bf867fbf0a952f6d9
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 24%
@@ -26,7 +26,7 @@ As diretrizes da marca são um conjunto detalhado de regras e padrões que estab
 
 In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
 
-## Marcas de acesso {#generative-access}
+## Acessar marcas {#generative-access}
 
 Para acessar o menu **[!UICONTROL Marcas]** em [!DNL Adobe Journey Optimizer], os usuários precisam receber as permissões do **[!UICONTROL Kit de marcas gerenciadas]** ou **[!UICONTROL Habilitar assistente de IA]**. [Saiba mais](../administration/permissions.md)
 
