@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 28%
+source-wordcount: '1062'
+ht-degree: 53%
 
 ---
 
@@ -22,7 +22,87 @@ ht-degree: 28%
 >title="Criar uma composição"
 >abstract="Crie um fluxo de trabalho de composição para combinar públicos-alvo da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão...) para criar novos públicos-alvo."
 
->[!BEGINSHADEBOX]
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="Publicar o público"
+>abstract="Publique a composição para salvar os públicos resultantes na Adobe Experience Platform."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_audience"
+>title="Atividade de público-alvo"
+>abstract="A atividade de público permite incluir em sua composição perfis adicionais pertencentes a um público existente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="Tipos de mesclagem"
+>abstract="Especifique como os perfis dos públicos selecionados devem ser mesclados."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_exclude_type"
+>title="Excluir tipo"
+>abstract="Use o tipo Excluir público para excluir perfis pertencentes a um público existente. O tipo Excluir usando atributo permite excluir perfis com base em um atributo específico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_exclude"
+>title="Atividade Excluir"
+>abstract="A atividade Excluir permite excluir perfis de sua composição ao selecionar um público existente ou usar uma regra."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich"
+>title="Atividade Enriquecer"
+>abstract="Use a atividade Enriquecimento para enriquecer seu público-alvo com atributos adicionais provenientes de conjuntos de dados da Adobe Experience Platform. Por exemplo, é possível adicionar informações relacionadas ao produto comprado, como nome, preço ou ID do fabricante e aproveitar essas informações para personalizar as entregas enviadas ao público-alvo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_dataset"
+>title="Conjunto de dados de enriquecimento"
+>abstract="Selecione o conjunto de dados de enriquecimento que contém os dados que você deseja associar ao público."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_criteria"
+>title="Critérios de enriquecimento"
+>abstract="Selecione os campos a serem usados como chave de reconciliação entre o conjunto de dados de origem, ou seja, o público, e o conjunto de dados de enriquecimento."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_attributes"
+>title="Atributos de enriquecimento"
+>abstract="Selecione um ou vários atributos do conjunto de dados de enriquecimento para associar ao público. Após a publicação da composição, esses atributos são associados ao público-alvo e podem ser aproveitados em campanhas do Journey Optimizer para personalizar entregas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_ranking"
+>title="Atividade de classificação"
+>abstract="A atividade Classificação permite classificar perfis com base em um atributo específico e incluí-los na composição. Por exemplo, inclua os 50 perfis com a maior quantidade de pontos de fidelidade."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="Adicionar limite de perfil"
+>abstract="Ative essa opção para especificar um número máximo de perfis para incluir na composição."
+
+<!-- [!CONTEXTUALHELP]
+>id="ajo_ao_control_group_text"
+>title="Control Group"
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split"
+>title="Atividade de divisão"
+>abstract="A atividade de divisão permite dividir a composição em vários caminhos. Ao publicar a composição, um público será salvo na Adobe Experience Platform para cada caminho."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_type"
+>title="Tipo de divisão"
+>abstract="Use o tipo de divisão de porcentagem para dividir perfis aleatoriamente em vários caminhos. O tipo de divisão de atributo permite dividir perfis com base em um atributo específico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="Outros perfis"
+>abstract="Ative essa opção para criar um caminho adicional com os perfis restantes que não correspondem a nenhuma das condições especificadas nos outros caminhos."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="Publicar o público"
+>abstract="Publique a composição para salvar os públicos resultantes na Adobe Experience Platform."
+>
+[!BEGINSHADEBOX]
 
 Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se você for um cliente somente do Perfil do cliente em tempo real e não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=pt-BR){target="_blank"}.
 
@@ -75,7 +155,7 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
 
    ![](assets/audiences-publish.png)
 
-1. Quando a composição estiver pronta, clique no botão **[!UICONTROL Publish]** para publicar a composição e salvar os públicos resultantes no Adobe Experience Platform.
+1. Quando a composição estiver pronta, clique no botão **[!UICONTROL Publicar]** para publicar a composição e salvar os públicos resultantes no Adobe Experience Platform.
 
    >[!IMPORTANT]
    >
