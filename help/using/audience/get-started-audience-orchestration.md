@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
+source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 53%
+source-wordcount: '1030'
+ht-degree: 52%
 
 ---
 
@@ -97,13 +97,6 @@ ht-degree: 53%
 >title="Outros perfis"
 >abstract="Ative essa opção para criar um caminho adicional com os perfis restantes que não correspondem a nenhuma das condições especificadas nos outros caminhos."
 
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="Publicar o público"
->abstract="Publique a composição para salvar os públicos resultantes na Adobe Experience Platform."
->
-[!BEGINSHADEBOX]
-
 Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se você for um cliente somente do Perfil do cliente em tempo real e não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=pt-BR){target="_blank"}.
 
 >[!ENDSHADEBOX]
@@ -172,11 +165,6 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
 >Os públicos-alvo de **composição de público-alvo** são executados diariamente, portanto, talvez seja necessário aguardar até 24 horas para usá-los no Journey Optimizer. Os atributos enriquecidos nos públicos-alvo de composição do público-alvo estão tão atualizados quanto a última execução de composição, que pode durar até 24 horas no passado.
 
 ## Acessar composições {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="Publicar o público"
->abstract="Publique a composição para salvar os públicos resultantes na Adobe Experience Platform."
 
 Todas as composições criadas podem ser acessadas na guia **[!UICONTROL Composições]**. É possível duplicar ou excluir uma composição existente a qualquer momento usando o botão de reticências na lista.
 
