@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: bc4ce563fe9af30373ba11279d886b598e1fcdcd
+source-git-commit: 962dbbb070bbfe944e174bc330659599a1101ebe
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 10%
@@ -26,8 +26,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="Preencher automaticamente"
->abstract="Ativar essa opção permite que o sistema conclua automaticamente o código e faça sugestões enquanto você estiver digitando a expressão. Essa opção está disponível somente para formatos de texto e HTML.
-"
+>abstract="Ativar essa opção permite que o sistema conclua automaticamente o código e faça sugestões enquanto você estiver digitando a expressão. Essa opção está disponível somente para formatos de texto e HTML."
 
 O editor de personalização é a peça central da personalização em [!DNL Journey Optimizer]. Ele está disponível em todos os contextos em que você precisa definir a personalização, como emails, push e ofertas.
 
