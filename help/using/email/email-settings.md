@@ -10,9 +10,9 @@ level: Experienced
 keywords: definições, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -81,15 +81,15 @@ Após selecionar um pool de IP, as informações de PTR ficam visíveis ao passa
 >
 >Se não houver um registro PTR configurado, entre em contato com o(a) representante da Adobe.
 
-## Cancelar assinatura de lista {#list-unsubscribe}
+## Cancelar assinatura em lista {#list-unsubscribe}
 
-Ao selecionar um subdomínio na lista, a opção **[!UICONTROL Habilitar List-Unsubscribe]** é exibida. Ela é ativada por padrão.
+Ao selecionar um subdomínio da lista, a opção **[!UICONTROL Habilitar cancelamento de assinatura em lista]** é exibida. Esta opção está habilitada por padrão.
 
-Ele permite incluir um URL de cancelamento de inscrição de um clique no cabeçalho do email. [Saiba mais](list-unsubscribe.md)
+Ela permite incluir um URL para cancelar assinatura de um clique no cabeçalho do email. [Saiba mais](list-unsubscribe.md)
 
 ## Parâmetros de cabeçalho {#email-header}
 
-Na seção **[!UICONTROL Parâmetros de cabeçalho]**, digite os nomes e endereços de email do remetente associados ao tipo de email enviado usando essa configuração. [Saiba mais](header-parameters.md)
+Na seção **[!UICONTROL Parâmetros de cabeçalho]**, insira os nomes dos remetentes e endereços de email associados ao tipo de email enviado com essa configuração. [Saiba mais](header-parameters.md)
 
 ## Email de cópia (CCO) {#bcc-email}
 
