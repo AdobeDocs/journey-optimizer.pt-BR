@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
 source-wordcount: '2305'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Antes de iniciar, leia também as [Medidas de proteção aos dados de perfil do 
 
 >[!NOTE]
 >
->Em raras circunstâncias, interrupções temporárias em uma região específica podem resultar na exclusão de perfis válidos das jornadas ou em emails marcados incorretamente como rejeições. Depois que os serviços forem restaurados, verifique novamente os logs do jornada, verifique os campos do perfil de consentimento e republique a jornada, se necessário. No caso de uma interrupção de ISP, saiba como remover perfis da lista de supressão em [esta seção](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+>Em raras circunstâncias, interrupções temporárias em uma região específica podem resultar na exclusão de perfis válidos das jornadas ou de emails marcados incorretamente como rejeições. Depois que os serviços forem restaurados, verifique novamente os registros de jornada, os campos do perfil de consentimento e publique novamente a jornada, se necessário. No caso de uma interrupção do ISP, saiba como remover perfis da lista de supressão [nesta seção](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 >
 
 ## Navegadores compatíveis {#browsers}

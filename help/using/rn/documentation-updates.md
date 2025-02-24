@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '6117'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Fevereiro de 2025 {#feb-2025}
 
-* A documentação de **[!UICONTROL Otimização de hora de envio]** e das perguntas frequentes relacionadas foi atualizada, aprimorada e movida para uma nova página dedicada. [Leia mais](../building-journeys/send-time-optimization.md)
+* A documentação sobre **[!UICONTROL Otimização do tempo de envio]** e as perguntas frequentes relacionadas foi atualizada, aprimorada e movida para uma nova página dedicada. [Leia mais](../building-journeys/send-time-optimization.md)
 * Novas medidas de proteção foram adicionadas para eventos de jornada. [Leia mais](../start/guardrails.md#events-g)
 * A página de ações do canal integrado foi reorganizada. [Leia mais](../building-journeys/journeys-message.md)
 * As medidas de proteção e limitações foram adicionadas nas seções Decisão e Gestão de decisões.
@@ -40,15 +40,15 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 * A seção **Encaminhar email** foi atualizada para especificar que todos os emails enviados para o endereço do **remetente** são encaminhados para o endereço de email de encaminhamento. Se nenhum email de encaminhamento for especificado, esses emails serão descartados. [Leia mais](../email/email-settings.md#forward-email)
 
-* O tamanho máximo dos atributos contextuais passados para uma solicitação de campanha acionada por API foi atualizado para 200 kb. [Leia mais](../campaigns/api-triggered-campaigns.md#contextual)
+* O tamanho máximo de atributos contextuais transmitidos para uma solicitação de campanha acionada por API foi atualizado para 200 KB. [Leia mais](../campaigns/api-triggered-campaigns.md#contextual)
 
 * Uma nova seção foi adicionada à página **Gerenciar fragmentos** para descrever como adicionar novos atributos a um fragmento ativo. A página inteira também foi aprimorada. [Leia mais](../content-management/manage-fragments.md#adding-new-attributes)
 
-* Uma seção &quot;Medidas de proteção e limitações&quot; foi adicionada à documentação das ferramentas de gerenciamento de conflitos e priorizações. [Leia mais](../conflict-prioritization/gs-conflict-prioritization.md)
+* A seção “Medidas de proteção e limitações” foi adicionada à documentação das ferramentas de gerenciamento de conflitos e priorizações. [Leia mais](../conflict-prioritization/gs-conflict-prioritization.md)
 
-* Um novo caso de uso completo foi adicionado para apresentar todas as etapas necessárias para usar a Decisão em experimentos de conteúdo com o canal de experiência baseado em código [!DNL Journey Optimizer]. [Leia mais](../experience-decisioning/experience-decisioning-uc.md)
+* Um novo caso de uso completo foi adicionado para apresentar todas as etapas necessárias para usar o serviço de decisão em experimentos de conteúdo com o canal de experiência baseado em código do [!DNL Journey Optimizer]. [Leia mais](../experience-decisioning/experience-decisioning-uc.md)
 
-* A página **Definir configurações de email** foi dividida em várias subpáginas para facilitar a leitura, incluindo novas páginas autônomas dedicadas a [Cancelar inscrição da lista](../email/list-unsubscribe.md), [Parâmetros de cabeçalho](../email/header-parameters.md) e [Rastreamento de URL](../email/url-tracking.md).
+* A página **Definir configurações de email** foi dividida em várias subpáginas para facilitar a leitura, incluindo novas páginas independentes sobre [Cancelamento de assinatura em lista](../email/list-unsubscribe.md), [Parâmetros de cabeçalho](../email/header-parameters.md) e [Rastreamento de URL](../email/url-tracking.md).
 
 ## Dezembro de 2024 {#nov-2024}
 
