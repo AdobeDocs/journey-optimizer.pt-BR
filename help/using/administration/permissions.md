@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: produto, perfis, sandbox
-source-git-commit: be372f8f80d304067748d539fb8e210df6280721
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 7%
+source-wordcount: '739'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 Com o produto [!DNL Journey Optimizer], você pode escolher entre várias **[!UICONTROL Funções]** preexistentes, cada uma com níveis variados de permissões, para atribuir aos seus usuários. Para obter mais informações sobre as **[!UICONTROL Funções]** disponíveis, consulte esta [página](ootb-product-profiles.md).
 
-Quando um usuário pertence a uma **[!UICONTROL Função]**, ele recebe acesso aos aplicativos e serviços do Adobe contidos no produto.
+Quando um usuário pertence a uma **[!UICONTROL Função]**, ele recebe acesso aos aplicativos e serviços da Adobe contidos no produto.
 
 Se as funções pré-existentes não atenderem às necessidades específicas da sua organização, você também poderá criar **[!UICONTROL Funções]** personalizadas para ajustar o acesso a determinadas funcionalidades ou objetos na interface. Dessa forma, você pode garantir que cada usuário tenha acesso somente aos recursos e ferramentas necessários para executar suas tarefas com eficiência.
 
@@ -75,9 +75,9 @@ Observe que se você modificar uma **[!UICONTROL Função]** pronta para uso ou 
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. O menu **[!UICONTROL Recursos]** exibe a lista de recursos que se aplicam ao produto **[!UICONTROL Experience Cloud - Aplicativos alimentados pela plataforma]**. Arraste e solte recursos para atribuir permissão.
+1. O menu **[!UICONTROL Recursos]** exibe a lista de recursos que se aplicam ao produto **[!UICONTROL Experience Cloud - Aplicativos fornecidos pela Platform]**. Arraste e solte recursos para atribuir permissão.
 
-   No menu suspenso de recursos do **[!UICONTROL Jornada]**, escolhemos aqui a jornada do Publish **[!UICONTROL Permission]**.
+   No menu suspenso de recursos do **[!UICONTROL Jornada]**, escolhemos aqui a jornada de Publicação **[!UICONTROL Permissão]**.
 
    ![](assets/do-not-localize/access_control_14.png)
 
@@ -125,4 +125,4 @@ Para criar nossa **Função somente leitura** **[!UICONTROL do Jornada]**:
 
 Sua **[!UICONTROL Função]** foi criada e configurada. Agora é necessário atribuí-lo aos usuários.
 
-Para obter mais informações sobre a criação e o gerenciamento de funções, consulte a [documentação sobre o Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=pt-BR).
+Para obter mais informações sobre criação e gerenciamento de funções, consulte a [documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).

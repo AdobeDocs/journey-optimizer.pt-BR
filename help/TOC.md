@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 97%
+source-wordcount: '2168'
+ht-degree: 92%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 97%
       + Casos de uso técnicos {#technical-use-cases}
          + [Envio dinâmico de coleções usando ações personalizadas](using/building-journeys/collections.md)
          + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
+         + [Limitar a taxa de transferência com Fontes de dados externas e Ações personalizadas](using/building-journeys/limit-throughput.md)
          + [Use ações personalizadas para gerar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campanhas{#campaigns}
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
@@ -182,7 +182,7 @@ ht-degree: 97%
    + [Atribuir pontuações de prioridade](using/conflict-prioritization/priority-scores.md)
    + [Limite e arbitragem de jornada](using/conflict-prioritization/journey-capping.md)
 + Testar e aprovar {#test}
-   + Visualizar e testar conteúdo {#preview-test}
+   + Visualizar e testar o conteúdo {#preview-test}
       + [Introdução à visualização e teste](using/content-management/preview-test.md)
       + [Seleção de perfis de teste](using/content-management/test-profiles.md)
       + [Visualização do conteúdo](using/content-management/preview.md)
@@ -217,7 +217,7 @@ ht-degree: 97%
          + Editar estilo {#edit-style}
             + [Introdução ao estilo de email](using/email/get-started-email-style.md)
             + [Editar configurações de fundo](using/email/backgrounds.md)
-            + [Ajustar o alinhamento vertical e o preenchimento](using/email/alignment-and-padding.md)
+            + [Ajustar alinhamento vertical e preenchimento](using/email/alignment-and-padding.md)
             + [Adicionar atributos de estilo incorporado](using/email/inline-styling.md)
       + [Gerenciar opção de não participação de email](using/email/email-opt-out.md)
       + Configurar canal de email {#configure-email}
@@ -233,12 +233,12 @@ ht-degree: 97%
       + [Criar uma mensagem para o aplicativo móvel](using/in-app/create-in-app.md)
       + [Criar uma mensagem para o aplicativo web](using/in-app/create-in-app-web.md)
       + [Criar seu conteúdo no aplicativo](using/in-app/design-in-app.md)
-      + [Verificação e envio da notificação no aplicativo](using/in-app/send-in-app.md)
+      + [Marque e envie sua notificação no aplicativo](using/in-app/send-in-app.md)
    + Canal de notificação por push{#push}
       + [Introdução à notificação por push](using/push/get-started-push.md)
       + [Criar uma notificação por push](using/push/create-push.md)
       + [Projetar a notificação por push](using/push/design-push.md)
-      + [Verificação e envio da notificação por push](using/push/send-push.md)
+      + [Marque e envie sua notificação por push](using/push/send-push.md)
       + Configuração de notificações por push{#push-config}
          + [Fluxo de notificação por push](using/push/push-gs.md)
          + [Configurar canal de notificação por push](using/push/push-configuration.md)
@@ -246,7 +246,7 @@ ht-degree: 97%
    + Canal SMS/MMS{#sms}
       + [Introdução a mensagem de texto](using/sms/get-started-sms.md)
       + [Criação de uma mensagem de texto (SMS/MMS)](using/sms/create-sms.md)
-      + [Verificação e envio de suas mensagens de texto](using/sms/send-sms.md)
+      + [Verificar e enviar suas mensagens de texto](using/sms/send-sms.md)
       + [Gerenciamento da opção de não participação de mensagem de texto](using/sms/sms-opt-out.md)
       + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
       + Configurar canal de SMS/MMS{#configure-sms}
@@ -259,7 +259,7 @@ ht-degree: 97%
    + Correspondência direta {#direct-mail}
       + [Introdução à correspondência direta](using/direct-mail/get-started-direct-mail.md)
       + [Criação de uma correspondência direta](using/direct-mail/create-direct-mail.md)
-      + [Verificação e envio de uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
+      + [Marque e envie uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
       + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
    + Canal da Web {#web}
       + [Introdução ao canal Web](using/web/get-started-web.md)
@@ -372,7 +372,7 @@ ht-degree: 97%
       + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
       + [Criar regras condicionais](using/personalization/create-conditions.md)
       + [Criar conteúdo dinâmico](using/personalization/dynamic-content.md)
-+ Públicos-alvo, perfis e identidade{#audiences-profiles-identities}
++ Públicos, perfis e identidade{#audiences-profiles-identities}
    + Públicos-alvo {#audiences}
       + [Introdução aos públicos-alvo](using/audience/about-audiences.md)
       + Criar públicos-alvo {#create}
@@ -669,7 +669,7 @@ ht-degree: 97%
    + [Configurar regra de negócios](using/configuration/frequency-rules.md)
    + [Trabalhar com conjuntos de regras](using/configuration/rule-sets.md)
    + Configurar jornadas {#configure-journeys}
-      + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
+      + [Configurar fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + Integração a sistemas externos {#external-systems}
          + [Integração das jornadas com sistemas externos](using/configuration/external-systems.md)
          + [API de limitação](using/configuration/capping.md)
@@ -716,4 +716,4 @@ ht-degree: 97%
       + [Gerenciar recusa](using/privacy/opt-out.md)
       + [Trabalhar com políticas de consentimento](using/action/consent.md)
    + [Governança de dados](using/action/action-privacy.md)
-   + [Configurar e gerenciar Customer Managed Keys](using/privacy/cmk.md)
+   + [Configurar e gerenciar chaves gerenciadas pelo cliente](using/privacy/cmk.md)

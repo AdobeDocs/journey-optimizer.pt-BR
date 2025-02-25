@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 keywords: alinhamento vertical, editor de email, preenchimento
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 17%
+source-wordcount: '147'
+ht-degree: 14%
 
 ---
 
-# Ajustar o alinhamento vertical e o preenchimento {#alignment-and-padding}
+# Ajustar alinhamento vertical e preenchimento {#alignment-and-padding}
 
 Neste exemplo, ajustaremos o preenchimento e o alinhamento vertical dentro de um componente de estrutura composto por três colunas.
 

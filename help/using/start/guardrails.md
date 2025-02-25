@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2305'
-ht-degree: 95%
+source-wordcount: '2333'
+ht-degree: 94%
 
 ---
 
@@ -64,6 +64,10 @@ Esta alteração será implantada em **sandboxes de clientes existentes** em uma
 
 As campanhas da Web do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
+### Medidas de proteção de canal baseadas em código {#code-based-guardrails}
+
+Para usar ações de experiência baseadas em código no [!DNL Journey Optimizer] e fornecer a carga de conteúdo de código que pode ser usada por seus aplicativos, siga os pré-requisitos detalhados em [esta página](../code-based/code-based-prerequisites.md).
+
 ## Medidas de proteção de subdomínios {#subdomain-guardrails}
 
 Por padrão, o [!DNL Journey Optimizer] permite delegar até 10 subdomínios no total (englobando canais de email e da web).
@@ -85,6 +89,7 @@ As medidas de proteção e limitações que devem ser consideradas ao trabalhar 
 
 * [Medidas de proteção e limitações da decisão](../experience-decisioning/decisioning-guardrails.md)
 * [Medidas de proteção e limitações do gerenciamento de decisão](../offers/decision-management-guardrails.md)
+
 
 ## Medidas de proteção de jornada {#journeys-guardrails}
 

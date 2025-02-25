@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuração, experimentação, relatórios, otimizador
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: f7a0feb38b902b14c402f631cb5c77c1e329886e
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 29%
 
 ---
@@ -80,7 +80,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
 >[!NOTE]
 >
->Quaisquer conjuntos de dados recém-criados só estarão disponíveis nos relatórios de Customer Journey Analytics.
+>Quaisquer conjuntos de dados recém-criados só estarão disponíveis nos relatórios do Customer Journey Analytics.
 
 1. No menu **[!UICONTROL Administração]**, selecione **[!UICONTROL Configurações]**. Na seção **[!UICONTROL Relatórios]**, clique em **[!UICONTROL Gerenciar]**.
 

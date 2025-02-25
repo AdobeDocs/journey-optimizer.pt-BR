@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: configuração, jornada, painel, fontes de dados, eventos, ações
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 65%
+source-wordcount: '408'
+ht-degree: 62%
 
 ---
 
-# Configurar jornadas {#configure-journeys}
+# Configurar fontes de dados, eventos e ações {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
