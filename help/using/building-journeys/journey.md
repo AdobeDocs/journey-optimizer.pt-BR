@@ -8,19 +8,23 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 33%
 
 ---
 
 
 # Introdução a jornadas{#jo-general-principle}
 
-Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo real, aproveitando dados contextuais armazenados em eventos ou fontes de dados.
+O designer de jornadas do Journey Optimizer oferece tudo o que os profissionais de marketing e jornadas precisam para orquestrar jornadas de várias etapas 1:1 em todos os canais. Isso inclui uma tela intuitiva de arrastar e soltar para orquestrar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos comerciais.
 
-Crie designs de cenários avançados com várias etapas e com os seguintes recursos:
+Começamos definindo a ação ou o evento que inicia a jornada do cliente e, em seguida, os pontos de contato onde as ações, os eventos,
+ou dados contextuais os guiarão facilmente para a próxima melhor etapa. Esse processo começa com a definição da ação ou evento que inicia o
+O jornada, seguido pela definição de pontos de contato, em que ações, eventos ou dados contextuais do cliente os orientam diretamente para a próxima melhor etapa.
+
+Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. Você pode projetar cenários avançados em várias etapas com os seguintes recursos:
 
 * Envie uma **entrega unitária** em tempo real acionada quando um evento é recebido, ou **em lote** usando os públicos-alvo da Adobe Experience Platform.
 
@@ -34,73 +38,21 @@ Crie designs de cenários avançados com várias etapas e com os seguintes recur
 >
 >Medidas de proteção e limitações da jornada estão detalhadas [nesta página](../start/guardrails.md)
 
-## Etapas para criar uma jornada{#steps-journey}
-
-Use o Adobe Journey Optimizer para projetar e orquestrar jornadas personalizadas a partir de uma única tela. As principais etapas para criar uma jornada são as seguintes:
-
-![](assets/journey-creation-process.png)
-
-➡️ [Descubra este recurso no vídeo](#video)
-
-O Adobe Journey Optimizer inclui uma tela de orquestração omnicanal que permite aos profissionais de marketing harmonizar o alcance do marketing com o engajamento individual com clientes. A interface permite arrastar e soltar facilmente as atividades da paleta na tela para criar a jornada.
-
-![](assets/interface-journeys.png)
-
-Saiba como iniciar e criar sua primeira jornada [nesta página](journey-gs.md).
-
-O designer de jornada omnicanal ajuda a criar jornadas em várias etapas com públicos-alvo direcionados, atualizações com base em interações de clientes ou empresas em tempo real e mensagens omnicanal usando uma interface intuitiva de arrastar e soltar.
-
-![](assets/journey38.png)
-
-Saiba mais [nesta seção](using-the-journey-designer.md).
-
-Como engenheiro de dados, as etapas para configurar suas jornadas, incluindo Fontes de dados, Eventos e Ações são detalhadas [nesta seção](../configuration/about-data-sources-events-actions.md).
-
+Saiba como criar sua primeira jornada em [esta página](journey-gs.md).
 
 ## Casos de uso{#uc-journey}
 
-Saiba como criar jornadas nos seguintes casos de uso de ponta a ponta.
+No designer do jornada, os profissionais de marketing podem enviar mensagens 1:1 acionadas em tempo real por meio de qualquer canal quando ocorre um evento. Por exemplo, quando um cliente assina um serviço, ele pode [acionar um email de boas-vindas](message-to-subscribers-uc.md), incentivando-o a fazer logon no aplicativo pela primeira vez e definir suas preferências. Ações como concluir a compra, abrir o email e fazer logon no aplicativo podem ser usadas para promover novos clientes por meio de suas jornadas.
 
-Casos de uso comercial:
+O [designer do jornada](using-the-journey-designer.md) fornece [ações de canal integradas](journeys-message.md) que oferecem suporte a mensagens de saída, como emails, notificações por push e SMS/MMS, bem como canais de entrada, incluindo aplicativos móveis, sites e experiências baseadas em código criadas diretamente no Journey Optimizer. Você também pode usar sistemas de terceiros para enviar mensagens — seja via email, texto ou outros canais — o Journey Optimizer inclui [ações personalizadas](using-custom-actions.md) para permitir que esses sistemas sejam integrados ao jornada diretamente do designer do jornada.
+
+Saiba como criar jornadas nos seguintes casos de uso completos:
 
 * [Enviar mensagens de vários canais](journeys-uc.md)
 * [Enviar uma mensagem usando o Campaign v7/v8](ajo-ac.md)
 * [Enviar uma mensagem aos assinantes](message-to-subscribers-uc.md)
-
-Casos de uso técnico:
-
 * [Envio dinâmico de coleções usando ações personalizadas](collections.md)
 * [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](limit-throughput.md)
-
-## Versões de jornada{#journey-versions}
-
-Na lista da jornada, todas as versões da jornada são exibidas com o número da versão. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
-
-Quando você pesquisa uma jornada, as versões mais recentes são exibidas na parte superior da lista na primeira vez que o aplicativo é aberto. Em seguida, você pode definir a classificação desejada e o aplicativo a manterá como uma preferência de usuário. A versão da jornada também é exibida na parte superior da interface de edição da jornada, acima da tela.
-
-![](assets/journeyversions1.png)
-
->[!NOTE]
->
->Geralmente, um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo. Se a reentrada estiver habilitada, um perfil poderá ser inserido em uma jornada novamente, mas não poderá fazer isso até que tenha saído totalmente da instância anterior da jornada. [Leia mais](end-journey.md).
-
-Se precisar modificar uma jornada ativa, crie uma nova versão da jornada.
-
-1. Abra a versão mais recente da jornada ativa, clique em **[!UICONTROL Criar uma nova versão]** e confirme.
-
-   ![](assets/journeyversions2.png)
-
-   >[!NOTE]
-   >
-   >Só é possível criar uma nova versão com base na versão mais recente de uma jornada.
-
-1. Faça as modificações, clique em **[!UICONTROL Publicar]** e confirme.
-
-A partir do momento em que a jornada for publicada, pessoas físicas começarão a acessar a versão mais recente da jornada. As pessoas que já acessaram uma versão anterior permanecerão nela até que concluam a jornada. Se mais tarde entrarem novamente na mesma jornada, a versão mais recente será acessada.
-
-As versões da jornada podem ser interrompidas individualmente. Todas as versões das jornadas possuem o mesmo nome.
-
-Ao publicar uma nova versão de uma jornada, a versão anterior encerra automaticamente e alterna para o status **Fechado**. Nenhuma entrada na jornada pode acontecer. Mesmo que você interrompa a versão mais recente, a versão anterior permanecerá fechada.
 
 ## Vídeo tutorial {#video}
 

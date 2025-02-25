@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
@@ -24,6 +24,11 @@ O [!DNL Adobe Journey Optimizer] ajuda as empresas a fornecer experiências cone
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e combina um perfil do cliente em tempo real unificado, uma estrutura aberta de priorização de API, um Offer Decisioning centralizado, além de inteligência artificial (IA) e aprendizado de máquina (ML) para personalização e otimização. O Journey Optimizer permite que as marcas determinem de forma inteligente a próxima melhor interação com escala, velocidade e flexibilidade durante toda a jornada do cliente. Com o [!DNL Adobe Journey Optimizer], as empresas podem criar e entregar campanhas de marketing agendadas (como promoções semanais para uma loja de varejo) e comunicações individuais personalizadas (como uma notificação por push sobre um item que um cliente de aplicativo de fidelidade tenha visto e que estava anteriormente indisponível), tudo no mesmo aplicativo.
 
 ➡️ [Descubra o Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=pt-BR){target="_blank"} (vídeo)
+
+
+<!-- Use [!DNL Adobe Journey Optimizer] to build multi-step customer journeys that initiate a sequence of interactions, offers, and messages across channels in real time. This approach ensures customers are engaged at the optimal moments based on their actions and relevant business signals. Learn how to build journeys in [this section](../building-journeys/journey-gs.md).
+
+You can also create audience-based campaigns to send messages.-->
 
 
 ## Casos de uso {#use-cases}

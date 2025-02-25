@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '6117'
+source-wordcount: '6152'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,8 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Fevereiro de 2025 {#feb-2025}
 
+* As etapas para criar suas primeiras jornadas foram detalhadas e os links para a seção de documentação foram adicionados. [Leia mais](../building-journeys/journey-gs.md)
+* Uma nova página está disponível para detalhar as jornadas da interface do usuário de gerenciamento de jornadas. [Leia mais](../building-journeys/journey-ui.md)
 * A documentação sobre **[!UICONTROL Otimização do tempo de envio]** e as perguntas frequentes relacionadas foi atualizada, aprimorada e movida para uma nova página dedicada. [Leia mais](../building-journeys/send-time-optimization.md)
 * Novas medidas de proteção foram adicionadas para eventos de jornada. [Leia mais](../start/guardrails.md#events-g)
 * A página de ações do canal integrado foi reorganizada. [Leia mais](../building-journeys/journeys-message.md)

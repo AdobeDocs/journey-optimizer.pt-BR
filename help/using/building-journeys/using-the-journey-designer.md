@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: design, tela, jornada, interface, arrastar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -59,13 +59,15 @@ Por padrão, os campos somente leitura ficam ocultos. Para mostrar campos soment
 
 ![](assets/journey59bis.png)
 
-Dependendo do status da jornada, você pode executar ações diferentes na jornada usando os botões disponíveis no canto superior direito: **[!UICONTROL Publish]**, **[!UICONTROL Duplicar]**, **[!UICONTROL Excluir]**, **[!UICONTROL Modo de teste]**, **[!UICONTROL Gerenciar acesso]**, **[!UICONTROL Alertas]**. Esses botões aparecem quando nenhuma atividade é selecionada. Alguns botões serão exibidos de forma contextual. O botão de log do modo de teste é exibido quando o modo de teste é ativado.
+Dependendo do status da jornada, você pode executar ações diferentes na jornada usando os botões disponíveis no canto superior direito: **[!UICONTROL Publicar]**, **[!UICONTROL Duplicar]**, **[!UICONTROL Excluir]**, **[!UICONTROL Modo de teste]**, **[!UICONTROL Gerenciar acesso]**, **[!UICONTROL Alertas]**. Esses botões aparecem quando nenhuma atividade é selecionada. Alguns botões serão exibidos de forma contextual. O botão de log do modo de teste é exibido quando o modo de teste é ativado.
 
 ![](assets/journey41.png)
 
 ## Inicie sua jornada {#start-your-journey}
 
-Quando você cria sua jornada, a primeira pergunta que deseja fazer é como os perfis entrarão na jornada. Há duas possibilidades:
+Quando você cria sua jornada, a primeira pergunta que deseja fazer é como os perfis entrarão na jornada.
+
+Há duas possibilidades:
 
 1. **Iniciar com um evento**: quando uma jornada é definida para ouvir eventos, os indivíduos entram na jornada **unitariamente** em tempo real. As mensagens incluídas na jornada são enviadas à pessoa que atualmente flui para a jornada. [Saiba mais sobre eventos](../event/about-events.md)
 
@@ -97,7 +99,7 @@ As outras atividades permitem adicionar condições à jornada para definir vár
 
 ### Ações{#jo-actions}
 
-As ações são o que você deseja que aconteça como resultado de algum tipo de acionador, como enviar uma mensagem. É a parte da jornada que o cliente experimenta. Pode ser um email, SMS ou mensagem de push ou uma ação de terceiros, como uma mensagem Slack.
+As ações são o que você deseja que aconteça como resultado de algum tipo de acionador, como enviar uma mensagem. É a parte da jornada que o cliente experimenta. Pode ser um email, SMS ou mensagem de push ou uma ação de terceiros, como uma mensagem do Slack.
 
 As atividades de ação de canal permitem incluir uma mensagem criada no [!DNL Journey Optimizer]. [Saiba mais sobre as atividades de ação de canal](journeys-message.md)
 

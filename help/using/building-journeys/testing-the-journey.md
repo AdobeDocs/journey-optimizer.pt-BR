@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 66f8943093670b3310a600a77adcd8123bb213ff
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 9%
+source-wordcount: '1671'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 9%
 >title="Teste a jornada"
 >abstract="Use perfis de teste para testar a jornada antes de publicá-la. Isso permite analisar como as pessoas fluem na jornada e solucionam problemas antes da publicação."
 
-Use perfis de teste para testar a jornada antes de publicá-la. Esse modo permite executar um teste da jornada e identificar problemas usando perfis de teste.
+Depois de criar a jornada, você pode testá-la antes de publicar. O Journey Optimizer oferece o &quot;Modo de teste&quot; como uma maneira de exibir perfis de teste conforme eles se movem ao longo da jornada, detectando possíveis erros antes da ativação. A execução de testes rápidos permite verificar se as jornadas funcionam corretamente para que você possa publicá-las com confiança.
 
 Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste em [esta seção](../audience/creating-test-profiles.md).
 

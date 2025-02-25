@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 5%
+source-wordcount: '509'
+ht-degree: 4%
 
 ---
 
@@ -140,6 +140,8 @@ Para definir as condições associadas a uma política de aprovação, siga esta
 Agora você pode ativar sua política de aprovação para aplicá-la.
 
 ## Ativar e gerenciar políticas de aprovação {#activate-policies}
+
+Para aplicar sua política de aprovação, você deve ativá-la. Para fazer isso, siga estas etapas:
 
 1. Acesse sua **[!UICONTROL Política de aprovação]**.
 
