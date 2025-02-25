@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 9bfa902ba9fa62f6ca6148be205322121964c477
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 12%
@@ -248,7 +248,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
 +++
 
