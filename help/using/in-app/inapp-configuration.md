@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: ca296c9aa3705985a1fafcb64ec0f3fbe2fe84fa
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '921'
 ht-degree: 9%
 
 ---
@@ -54,6 +54,7 @@ Para que as mensagens no aplicativo sejam entregues corretamente, as seguintes c
 
 ## Criar uma configuração no aplicativo {#channel-prerequisites}
 
+
 1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Configurações de canal]** e clique em **[!UICONTROL Criar configuração de canal]**.
 
    ![](assets/inapp_config_1.png)
@@ -62,7 +63,7 @@ Para que as mensagens no aplicativo sejam entregues corretamente, as seguintes c
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
 
 1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
 
@@ -72,7 +73,11 @@ Para que as mensagens no aplicativo sejam entregues corretamente, as seguintes c
 
    ![](assets/inapp_config_9.png)
 
-1. Selecione a plataforma à qual a mensagem no aplicativo será aplicada.
+1. Selecione a plataforma para a qual deseja definir as configurações. Isso permite especificar o aplicativo de destino para cada plataforma e garante uma entrega de conteúdo consistente em várias plataformas.
+
+   >[!NOTE]
+   >
+   >Para plataformas iOS e Android, a entrega é baseada exclusivamente na ID do aplicativo. Se ambos os aplicativos compartilharem a mesma ID de aplicativo, o conteúdo será entregue a ambos, independentemente da plataforma selecionada na **[!UICONTROL Configuração de canal]**.
 
    ![](assets/inapp_config_10.png)
 
