@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 12%
@@ -311,7 +311,7 @@ Para aplicar uma regra de limitação a uma jornada, acesse a jornada e abra sua
 
 >[!IMPORTANT]
 >
->Se uma jornada for ativada imediatamente, pode levar até 15 minutos para que o sistema comece a suprimir clientes. Você pode agendar sua jornada para começar pelo menos 15 minutos no futuro para evitar essa possibilidade.
+>Se uma jornada for ativada imediatamente, pode levar até 20 minutos para que o sistema comece a suprimir clientes. Você pode agendar sua jornada para começar pelo menos 20 minutos no futuro para evitar essa possibilidade.
 
 +++
 

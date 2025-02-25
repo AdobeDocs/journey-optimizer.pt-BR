@@ -5,7 +5,7 @@ role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 23%
@@ -120,7 +120,7 @@ Para aplicar uma regra de limitação a uma jornada, acesse a jornada e abra sua
 
 >[!IMPORTANT]
 >
->Se uma jornada for ativada imediatamente, pode levar até 15 minutos para que o sistema comece a suprimir clientes. Você pode agendar sua jornada para começar pelo menos 15 minutos no futuro para evitar essa possibilidade.
+>Se uma jornada for ativada imediatamente, pode levar até 20 minutos para que o sistema comece a suprimir clientes. Você pode agendar sua jornada para começar pelo menos 20 minutos no futuro para evitar essa possibilidade.
 
 Quando a jornada estiver ativa, você poderá verificar no relatório de jornadas se o conjunto de regras levou a qualquer exclusão da jornada, na tabela **[!UICONTROL Exclusões de Jornadas]**. [Saiba como trabalhar com relatórios do jornada](../reports/journey-global-report-cja.md)
 
