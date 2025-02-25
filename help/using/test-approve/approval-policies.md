@@ -5,14 +5,26 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 3%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
 # Criar e gerenciar políticas de aprovação {#approval-policies}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="Solicitar aprovação"
+>abstract="Solicitar aprovação"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="Solicitar alteração"
+>abstract="Solicitar alteração"
+
 
 >[!NOTE]
 >
@@ -21,6 +33,13 @@ ht-degree: 3%
 As políticas de aprovação permitem que os administradores estabeleçam um processo de validação para jornadas e campanhas. Este sistema descreve condições específicas que determinam se uma jornada ou campanha precisa de aprovação. Essas políticas podem variar em complexidade, desde simplesmente exigir que todas as campanhas sejam revisadas por um usuário ou equipe específica até estabelecer critérios com base em quem criou a campanha.
 
 ## Criar políticas de aprovação {#create-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="Nova política de aprovação"
+>abstract="Nesta tela, digite o nome e selecione o contexto da política de aprovação e, em seguida, crie as condições para determinar quem pode iniciar a solicitação de aprovação e quem pode validá-la."
+
+Para criar uma política de aprovação, siga estas etapas:
 
 1. No menu **[!UICONTROL Administração]** no Journey Optimizer, acesse **[!UICONTROL Permissões]** e **[!UICONTROL Políticas]**.
 
@@ -34,9 +53,11 @@ As políticas de aprovação permitem que os administradores estabeleçam um pro
 
    ![](assets/policy_create_2.png)
 
-Agora você pode refinar as condições para especificar quem iniciará a solicitação de aprovação e quem a validará.
+Agora você pode refinar as condições para especificar quem pode iniciar a solicitação de aprovação e quem pode validá-la.
 
 ## Definir condições para políticas de aprovação {#conditions}
+
+Para definir as condições associadas a uma política de aprovação, siga estas etapas:
 
 1. Acesse sua **[!UICONTROL Política de aprovação]**.
 
