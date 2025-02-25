@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 33%
+source-wordcount: '765'
+ht-degree: 26%
 
 ---
 
@@ -28,18 +28,15 @@ ht-degree: 33%
 >title="Jornadas"
 >abstract="Crie jornadas do cliente para fornecer experiências personalizadas e contextuais. O Journey Optimizer permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. A guia **Visão geral** exibe um painel com as métricas principais relacionadas às suas jornadas. A guia **Procurar** exibe a lista de jornadas existentes."
 
+Crie jornadas de clientes em várias etapas que iniciam uma sequência de interações, ofertas e mensagens entre canais em tempo real. Essa abordagem garante que os clientes estejam envolvidos nos momentos ideais com base em suas ações e sinais de negócios relevantes.
 
-O Adobe Journey Optimizer inclui uma tela de orquestração omnicanal que permite aos profissionais de marketing harmonizar o alcance do marketing com o engajamento individual com clientes. A interface permite arrastar e soltar facilmente as atividades da paleta na tela para criar a jornada.
+![amostra da tela de jornada](assets/journey38.png)
 
-![](assets/journey38.png)
+O Adobe Journey Optimizer inclui uma tela de orquestração omnicanal que permite aos profissionais de marketing harmonizar o alcance do marketing com o engajamento individual com clientes. A interface de usuário do permite arrastar e soltar facilmente as atividades da paleta na tela para criar sua jornada. A interface do usuário do jornada está detalhada em [esta página](journey-ui.md).
 
-As principais etapas para criar uma jornada são as seguintes:
+As principais etapas para criar uma jornada são detalhadas nesta página. Elas são simplificadas da seguinte maneira:
 
-![](assets/journey-creation-process.png)
-
-➡️ [Descubra este recurso no vídeo](#video)
-
-A interface do usuário do jornada está detalhada em [esta página](journey-ui.md).
+![etapas de criação de jornadas: criar, projetar, testar e publicar](assets/journey-creation-process.png)
 
 
 ## Pré-requisitos {#start-prerequisites}

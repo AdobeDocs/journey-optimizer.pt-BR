@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 38%
 
 ---
@@ -31,6 +31,8 @@ Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em temp
 * Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
 
 Saiba como criar sua primeira jornada em [esta página](journey-gs.md).
+
+➡️ [Descubra o Journey Optimizer em vídeo](#video)
 
 ## Casos de uso{#uc-journey}
 
