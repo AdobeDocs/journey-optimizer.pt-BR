@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '761'
 ht-degree: 26%
 
 ---
@@ -112,4 +112,6 @@ Após a publicação, é possível monitorar a jornada usando as ferramentas de 
 
 Saiba mais sobre relatórios do jornada nesta [seção](../reports/live-report.md).
 
-Observe que você pode duplicar uma jornada existente ou criar uma nova versão de uma jornada. Saiba mais em [esta página](journey-ui.md)
+>[!NOTE]
+>
+>Se você precisar modificar para uma jornada do **live**, [crie uma nova versão](journey-ui.md#journey-versions) da jornada.
