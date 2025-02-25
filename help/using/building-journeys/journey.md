@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 33%
+source-wordcount: '411'
+ht-degree: 38%
 
 ---
 
@@ -19,10 +19,6 @@ ht-degree: 33%
 # Introdução a jornadas{#jo-general-principle}
 
 O designer de jornadas do Journey Optimizer oferece tudo o que os profissionais de marketing e jornadas precisam para orquestrar jornadas de várias etapas 1:1 em todos os canais. Isso inclui uma tela intuitiva de arrastar e soltar para orquestrar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos comerciais.
-
-Começamos definindo a ação ou o evento que inicia a jornada do cliente e, em seguida, os pontos de contato onde as ações, os eventos,
-ou dados contextuais os guiarão facilmente para a próxima melhor etapa. Esse processo começa com a definição da ação ou evento que inicia o
-O jornada, seguido pela definição de pontos de contato, em que ações, eventos ou dados contextuais do cliente os orientam diretamente para a próxima melhor etapa.
 
 Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. Você pode projetar cenários avançados em várias etapas com os seguintes recursos:
 
@@ -33,10 +29,6 @@ Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em temp
 * Use as **ações incorporadas** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
 
 * Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
-
->[!NOTE]
->
->Medidas de proteção e limitações da jornada estão detalhadas [nesta página](../start/guardrails.md)
 
 Saiba como criar sua primeira jornada em [esta página](journey-gs.md).
 
@@ -53,6 +45,10 @@ Saiba como criar jornadas nos seguintes casos de uso completos:
 * [Enviar uma mensagem aos assinantes](message-to-subscribers-uc.md)
 * [Envio dinâmico de coleções usando ações personalizadas](collections.md)
 * [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](limit-throughput.md)
+
+>[!NOTE]
+>
+>Medidas de proteção e limitações da jornada estão detalhadas [nesta página](../start/guardrails.md)
 
 ## Vídeo tutorial {#video}
 
