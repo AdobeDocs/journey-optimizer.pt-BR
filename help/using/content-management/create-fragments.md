@@ -21,7 +21,7 @@ ht-degree: 15%
 >id="ajo_create_visual_fragment"
 >title="Selecione o tipo “Visual”"
 >abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email de uma jornada ou campanha ou em um modelo de conteúdo."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais aos emails"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais a emails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -77,7 +77,7 @@ Quando o conteúdo estiver pronto, clique no botão **[!UICONTROL Salvar]**. O f
 
 >[!NOTE]
 >
->Para publicar um fragmento, você deve ter a permissão de usuário [Fragmento do Publish](../administration/ootb-product-profiles.md#content-library-manager).
+>Para publicar um fragmento, você deve ter a permissão de usuário [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
 
 Se o fragmento estiver pronto para entrar no ar, você poderá visualizá-lo e publicá-lo para disponibilizá-lo em suas jornadas e campanhas. Para isso, siga as etapas abaixo.
 
@@ -87,7 +87,7 @@ Se o fragmento estiver pronto para entrar no ar, você poderá visualizá-lo e p
 
    ![](assets/fragment-preview.png)
 
-1. Clique no botão **[!UICONTROL Publish]** no canto superior direito para publicar o fragmento.
+1. Clique no botão **[!UICONTROL Publicar]** no canto superior direito para publicar o fragmento.
 
 1. Se o fragmento estiver sendo usado em uma jornada ou campanha em tempo real, uma mensagem é aberta para informá-lo. Clique no link **[!UICONTROL Ver mais]** para acessar a lista de jornadas e/ou campanhas às quais ele é referenciado. [Saiba como explorar referências de um fragmento](../content-management/manage-fragments.md#explore-references)
 

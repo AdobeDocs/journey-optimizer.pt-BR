@@ -11,7 +11,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
 source-wordcount: '846'
-ht-degree: 75%
+ht-degree: 82%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="Assistente de IA no Journey Optimizer"
->abstract="Depois de criar e personalizar o delivery, você pode usar o Assistente de IA no Journey Optimizer para aprimorar o conteúdo. Esse recurso simplifica o processo de personalização e melhoria de conteúdo, permitindo ajustar o conteúdo com uma descrição do que deseja gerar."
+>abstract="Depois de elaborar e personalizar a entrega, use o Assistente de IA no Journey Optimizer para aprimorar o conteúdo. Esse recurso simplifica o processo de personalização e melhoria de conteúdo, permitindo ajustar o conteúdo com uma descrição do que deseja gerar."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Fazer upload do ativo da marca"
->abstract="O menu Fazer upload do ativo de marca permite adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional para o Assistente de IA no Journey Optimizer ou selecionar um ativo carregado anteriormente. Essa opção garante que o Assistente de IA tenha acesso a todos os materiais necessários para aprimorar sua funcionalidade e relevância."
+>abstract="O menu Fazer upload do ativo da marca habilita a adição de qualquer ativo da marca com conteúdo que possa fornecer contexto adicional para o Assistente de IA no Journey Optimizer ou a seleção de um ativo enviado anteriormente. Essa opção garante que o Assistente de IA tenha acesso a todos os materiais necessários para aprimorar sua funcionalidade e relevância."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
