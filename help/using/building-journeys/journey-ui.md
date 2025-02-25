@@ -8,22 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
+source-git-commit: 0f09de039d9d9555327413b2d65dda295e971bde
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '950'
 ht-degree: 32%
 
 ---
 
 # Procurar e filtrar suas jornadas {#browse-journeys}
 
-## Acessar jornadas {#journey-access}
-
-### Jornada painel {#dashboard-jo}
+## Jornada painel {#dashboard-jo}
 
 Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. Duas guias estão disponíveis: **[!UICONTROL Visão geral]** e **[!UICONTROL Procurar]**.
 
-* A guia **[!UICONTROL Visão geral]** exibe um painel com as métricas principais relacionadas às suas jornadas:
+
+* A guia **[!UICONTROL Visão geral]** exibe um painel com as métricas principais relacionadas às suas jornadas.
+
+  ![Painel de jornada destacando a guia Visão Geral](assets/journeys-dashboard.png)
 
    * **Perfis processados**: número total de perfis processados nas últimas 24 horas
    * **Live jornada**: número total de jornadas ativas com tráfego nas últimas 24 horas. O Live jornada inclui **jornadas Unitárias** (baseadas em eventos) e **jornadas em Lote** (ler público).
@@ -34,36 +36,18 @@ Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]*
   >
   >Esse painel considera as jornadas com tráfego nas últimas 24 horas. Somente as jornadas às quais você tem acesso são exibidas. As métricas são atualizadas a cada 30 minutos e somente quando novos dados estão disponíveis.
 
-  ![](assets/journeys-dashboard.png)
 
 * A guia **[!UICONTROL Procurar]** mostra a lista de jornadas existentes. Você pode pesquisar jornadas, usar filtros e executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item.
 
-  ![](assets/journeys-browse.png)
+  ![Painel de jornada destacando a guia Procurar](assets/journeys-browse.png)
 
-### Filtrar suas jornadas {#filter}
+## Filtrar suas jornadas {#journey-filter}
 
-Na lista de jornadas, você pode aproveitar vários filtros para refinar a lista de jornadas para melhorar a legibilidade.
+Na lista de jornadas, use vários filtros para refinar a lista de jornadas.
 
 ![](assets/filter-journeys.png)
 
-Estas são as várias operações de filtragem que você pode executar:
-
-Filtre jornadas de acordo com seu status, tipo, versão e marcas atribuídas a partir dos **[!UICONTROL Filtros de status e versão]**.
-
-O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação de público-alvo]**, **[!UICONTROL Ler público]** ou **[!UICONTROL Evento comercial]**.
-
-O status pode ser:
-
-* **Fechada**: a jornada foi fechada usando o botão **Fechar para novas entradas**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente.
-* **Rascunho**: a jornada está em seu primeiro estágio. Ele ainda não foi publicado.
-* **Rascunho (Teste)**: o modo de teste foi ativado usando o botão **Modo de teste**.
-* **Concluído**: a jornada alterna automaticamente para esse status após o [tempo limite global](journey-properties.md#global_timeout) de 91 dias. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada.
-* **Ao vivo**: a jornada foi publicada usando o botão **Publicar**.
-* **Parada**: a jornada foi desligada usando o botão **Parada**. Todos os indivíduos saem instantaneamente da jornada.
-
->[!NOTE]
->
->O ciclo de vida de criação do Jornada também inclui um conjunto de status intermediários que não estão disponíveis para filtragem: &quot;Publicação&quot; (entre &quot;Rascunho&quot; e &quot;Ao vivo&quot;), &quot;Ativando modo de teste&quot; ou &quot;Desativando modo de teste&quot; (entre &quot;Rascunho&quot; e &quot;Rascunho (teste)&quot;) e &quot;Parando&quot; (entre &quot;Ao vivo&quot; e &quot;Parado&quot;). Quando uma jornada está em um estado intermediário, ela fica como de somente leitura.
+Você pode filtrar jornadas de acordo com seu [status](#journey-statuses), [tipo](#journey-types), [versão](#journey-versions) e [marcas](../start/search-filter-categorize.md#tags) atribuídas a partir dos **[!UICONTROL filtros de status e versão]**.
 
 Use os **[!UICONTROL Filtros de criação]** para filtrar jornadas de acordo com a data de criação ou o usuário que as criou.
 
@@ -77,6 +61,25 @@ Além disso, nos painéis de configuração Evento, Fonte de dados e Ação, o c
 
 ![](assets/journey3bis.png)
 
+
+## Tipos de jornada {#journey-types}
+
+O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação de público-alvo]**, **[!UICONTROL Ler público]** ou **[!UICONTROL Evento comercial]**.
+
+## Jornada status {#journey-statuses}
+
+O status da jornada pode ser:
+
+* **Fechada**: a jornada foi fechada usando o botão **Fechar para novas entradas**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente.
+* **Rascunho**: a jornada está em seu primeiro estágio. Ele ainda não foi publicado.
+* **Rascunho (Teste)**: o modo de teste foi ativado usando o botão **Modo de teste**.
+* **Concluído**: a jornada alterna automaticamente para esse status após o [tempo limite global](journey-properties.md#global_timeout) de 91 dias. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada.
+* **Ao vivo**: a jornada foi publicada usando o botão **Publicar**.
+* **Parada**: a jornada foi desligada usando o botão **Parada**. Todos os indivíduos saem instantaneamente da jornada.
+
+>[!NOTE]
+>
+>O ciclo de vida de criação do Jornada também inclui um conjunto de status intermediários que não estão disponíveis para filtragem: &quot;Publicação&quot; (entre &quot;Rascunho&quot; e &quot;Ao vivo&quot;), &quot;Ativando modo de teste&quot; ou &quot;Desativando modo de teste&quot; (entre &quot;Rascunho&quot; e &quot;Rascunho (teste)&quot;) e &quot;Parando&quot; (entre &quot;Ao vivo&quot; e &quot;Parado&quot;). Quando uma jornada está em um estado intermediário, ela fica como de somente leitura.
 
 ## Versões de jornada {#journey-versions}
 
@@ -124,4 +127,3 @@ Para fazer isso, siga as etapas abaixo:
    ![](assets/duplicate-jo2.png)
 
 1. A nova jornada é criada e está disponível na lista de jornadas.
-
