@@ -9,22 +9,25 @@ role: User
 level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '305'
 ht-degree: 5%
 
 ---
 
 # Publicar a jornada {#publishing-the-journey}
 
-Você deve publicar uma jornada para ativá-la e disponibilizá-la para que novos perfis a insiram. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Não é possível publicar uma jornada com erros. Saiba como testar sua jornada em [esta página](testing-the-journey.md).
+Você deve publicar uma jornada para ativá-la e disponibilizá-la para que novos perfis a insiram. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Não é possível publicar uma jornada com erros.
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
 As etapas para publicar uma jornada são detalhadas abaixo:
 
-1. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Você não poderá publicar uma jornada com erros. Saiba como solucionar problemas da jornada [nesta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+1. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Você não poderá publicar uma jornada com erros.
+
+   * Saiba como testar sua jornada em [esta página](testing-the-journey.md).
+   * Saiba como solucionar erros do jornada [nesta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 1. Para publicar a jornada, clique na opção **[!UICONTROL Publicar]**, localizada no menu suspenso no canto superior direito.
 
