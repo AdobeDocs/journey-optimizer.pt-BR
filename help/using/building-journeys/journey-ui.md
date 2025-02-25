@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 29%
+source-wordcount: '1124'
+ht-degree: 26%
 
 ---
 
@@ -64,11 +64,19 @@ Além disso, nos painéis de configuração Evento, Fonte de dados e Ação, o c
 
 ## Tipos de jornada {#journey-types}
 
-O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação de público-alvo]**, **[!UICONTROL Ler público]** ou **[!UICONTROL Evento comercial]**.
+O tipo de jornada depende das atividades usadas nessa jornada. Pode ser:
+
+* **[!UICONTROL Evento unitário]** - As jornadas de eventos unitários estão vinculadas a um perfil específico. Os eventos estão relacionados ao comportamento de uma pessoa ou a algo que acontece vinculado a uma pessoa (por exemplo, uma pessoa atingiu 10.000 pontos de fidelidade). [Saiba mais](../event/about-events.md).
+* **[!UICONTROL Evento comercial]**. A jornada de eventos comerciais começa com um evento não relacionado a perfis. A configuração do evento é executada por um usuário técnico e não pode ser editada. [Saiba mais](../event/about-events.md).
+* **[!UICONTROL Qualificação do público-alvo]** - As jornadas de qualificação do público-alvo escutam as entradas e saídas dos perfis nos públicos-alvo da Adobe Experience Platform para que os indivíduos entrem ou avancem em uma jornada. [Saiba mais](audience-qualification-events.md).
+* **[!UICONTROL Ler público-alvo]** - Nas jornadas Ler público-alvo, todos os indivíduos no público-alvo entram na jornada e recebem as mensagens incluídas na jornada.  [Saiba mais](read-audience.md).
+
+
+Saiba mais sobre os tipos de jornada e o gerenciamento de entradas associado em [esta página](entry-management.md).
 
 ## Jornada status {#journey-statuses}
 
-O status da jornada pode ser:
+O status da jornada depende do seu ciclo de vida. Pode ser:
 
 * **Fechada**: a jornada foi fechada usando o botão **Fechar para novas entradas**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente.
 * **Rascunho**: a jornada está em seu primeiro estágio. Ele ainda não foi publicado.

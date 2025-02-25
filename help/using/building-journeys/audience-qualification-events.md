@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: qualificação, eventos, público-alvo, jornada, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 10%
@@ -50,7 +50,7 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posteriormente
 
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
 
-### Configurar a atividade{#cnfigure-segment-qualification}
+### Configurar a atividade {#configure-segment-qualification}
 
 Para configurar a atividade **[!UICONTROL Qualificação de público-alvo]**, siga estas etapas:
 

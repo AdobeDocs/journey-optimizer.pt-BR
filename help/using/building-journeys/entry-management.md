@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '702'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 5%
 
 # Gerenciamento de entrada de perfis {#entry-management}
 
-O gerenciamento de entrada de perfis depende do tipo de jornada. No Adobe Journey Optimizer, os seguintes tipos de jornadas estão disponíveis:
+O gerenciamento de entrada de perfis depende do tipo de jornada.
+
+## Tipos de jornadas {#types-of-journeys}
+
+No Adobe Journey Optimizer, os seguintes tipos de jornadas estão disponíveis:
 
 * **jornadas de evento unitário**: essas jornadas começam com um evento unitário. Quando o evento é recebido, o perfil associado entra na jornada. [Leia mais](#entry-unitary)
 
