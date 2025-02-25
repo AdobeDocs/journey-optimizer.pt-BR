@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
+source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 100%
+source-wordcount: '1361'
+ht-degree: 97%
 
 ---
 
@@ -21,11 +21,13 @@ Para acessar o  [!DNL Adobe Journey Optimizer], conecte-se à [Adobe Experience 
 
 Os principais conceitos de navegação nas interfaces comuns à Adobe Experience Platform. Consulte a [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=pt-BR#adobe-experience-platform-ui-guide) para obter mais detalhes.{target="_blank"}
 
-Os componentes e recursos disponíveis na interface do usuário dependem das suas [ permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe.
 
 >[!NOTE]
 >
->Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
+>* Os componentes e recursos disponíveis em seu ambiente dependem das suas [permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Se tiver dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe ou com o representante da Adobe.
+>
+>* Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
+>
 
 ## Navegação à esquerda {#left-nav}
 

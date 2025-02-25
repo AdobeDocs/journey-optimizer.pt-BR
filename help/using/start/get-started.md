@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '676'
+ht-degree: 95%
 
 ---
 
@@ -53,6 +53,12 @@ Os principais recursos incluem:
 
 * **Decisão e personalização inteligentes** – as marcas podem aplicar decisões centralizadas e incorporar inteligência artificial e aprendizado de máquina para configurar insights preditivos pela experiência do cliente, facilitando a automação das decisões e a otimização da experiência em escala. A Decisão possibilita ofertas centralizadas em canais em escala por meio do [!DNL Adobe Journey Optimizer].
 
+
+>[!NOTE]
+>
+> Os componentes e recursos disponíveis em seu ambiente dependem das suas [permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Se tiver dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe ou com o representante da Adobe.
+
+
 ## Arquitetura {#architecture}
 
 Entenda a arquitetura básica do [!DNL Adobe Journey Optimizer], os pontos de integração e a relação entre [!DNL Journey Optimizer] e [!DNL Experience Platform] no diagrama abaixo.
@@ -63,7 +69,7 @@ Entenda a arquitetura básica do [!DNL Adobe Journey Optimizer], os pontos de in
 >[!NOTE]
 >
 > As diretrizes e procedimentos gerais de privacidade da Adobe Experience Cloud se aplicam ao [!DNL Journey Optimizer]. [Saiba mais sobre a privacidade da Adobe Experience Cloud](https://www.adobe.com/br/privacy/experience-cloud.html).
-> Você também precisa estar ciente das [Medidas de proteção aos dados de perfil do cliente em tempo real antes de iniciar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR).
+>
 
 
 >[!MORELIKETHIS]
