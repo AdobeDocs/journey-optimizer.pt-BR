@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
+source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 25%
@@ -38,7 +38,9 @@ As principais etapas para criar uma jornada são detalhadas nesta página. Elas 
 ![etapas de criação de jornadas: criar, projetar, testar e publicar](assets/journey-creation-process.png)
 
 
-Criar jornadas de clientes em várias etapas inicia uma sequência de interações, ofertas e mensagens entre canais em tempo real. Essa abordagem garante que os clientes estejam envolvidos nos momentos ideais com base em suas ações e sinais de negócios relevantes. Os públicos-alvo podem ser definidos com base no comportamento, nos dados contextuais e nos eventos comerciais. Os pré-requisitos dependem do seu caso de uso e do [tipo de jornada](entry-management.md#types-of-journeys) que você está criando. Antes de começar a projetar a jornada, verifique se as etapas de configuração relevantes foram feitas:
+Criar jornadas de clientes em várias etapas inicia uma sequência de interações, ofertas e mensagens entre canais em tempo real. Essa abordagem garante que os clientes estejam envolvidos nos momentos ideais com base em suas ações e sinais de negócios relevantes. Os públicos-alvo podem ser definidos com base no comportamento, nos dados contextuais e nos eventos comerciais. Os pré-requisitos dependem do seu caso de uso e do [tipo de jornada](entry-management.md#types-of-journeys) que você está criando.
+
+Antes de começar a criar a jornada, verifique se as etapas de configuração relevantes foram realizadas:
 
 * Para acionar as jornadas de forma unitária quando um evento for recebido, é necessário **configurar um evento**. Você define as informações esperadas e como processá-las. [Leia mais](../event/about-events.md).
 
