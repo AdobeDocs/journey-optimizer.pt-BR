@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9cab78c89d0885b6da6b43a444754e9ad1e17ae0
+source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
 workflow-type: tm+mt
 source-wordcount: '2335'
 ht-degree: 93%
@@ -42,7 +42,7 @@ A partir de fevereiro de 2025, uma garantia de TTL (time-to-live) será implanta
 
 Esta alteração será implantada em **sandboxes de clientes existentes** em uma fase subsequente. [Saiba mais sobre as medidas de proteção de Tempo até a Saída (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
 
-## Medidas de proteção do canal {#channel-guardrails}
+## Grades de proteção de canais {#channel-guardrails}
 
 ### Medidas de proteção de email {#message-guardrails}
 
