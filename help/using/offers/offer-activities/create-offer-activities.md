@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 9%
@@ -94,7 +94,7 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
    Esta restrição pode ser aplicada usando uma **regra de decisão** ou um ou vários **públicos-alvo da Adobe Experience Platform**. Ambos estão detalhados em [esta seção](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-   * Para restringir a seleção das ofertas aos membros de um público-alvo Experience Platform, selecione **[!UICONTROL Públicos-alvo]** e clique em **[!UICONTROL Adicionar públicos-alvo]**.
+   * Para restringir a seleção das ofertas aos membros de um público do Experience Platform, selecione **[!UICONTROL Públicos-alvo]** e clique em **[!UICONTROL Adicionar públicos-alvo]**.
 
      ![](../assets/activity_constraint_segment.png)
 
@@ -220,7 +220,7 @@ As ofertas classificadas agora são as seguintes: Oferta 5 , Oferta 3, Oferta 4,
 
 **Se a duplicação estiver desativada**
 
-Ao adicionar vários escopos de decisão a uma decisão e se a duplicação não for permitida entre posicionamentos, as ofertas qualificadas serão selecionadas sequencialmente na ordem dos escopos de decisão na solicitação.
+Quando você adiciona vários escopos de decisão a uma decisão e se a duplicação não for permitida entre posicionamentos, as ofertas elegíveis serão selecionadas sequencialmente na ordem dos escopos de decisão na solicitação.
 
 >[!NOTE]
 >
