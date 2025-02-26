@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: definições, email, configuração
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
+exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
+source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 84%
+source-wordcount: '402'
+ht-degree: 83%
 
 ---
-
 
 # Rastreamento de URL {#url-tracking}
 
@@ -28,11 +28,7 @@ ht-degree: 84%
 >title="Visualizar parâmetros de rastreamento do URL"
 >abstract="Analise como os parâmetros de rastreamento serão anexados aos URLs presentes no seu conteúdo de email."
 
-Ao configurar uma nova [configuração de canal de email](email-settings.md), você pode definir **[!UICONTROL parâmetros de rastreamento de URL]** para medir a eficácia de seus esforços de marketing em todos os canais.
-
->[!NOTE]
->
->Esse recurso é opcional.
+Ao configurar uma nova [configuração de canal de email](email-settings.md), você pode definir **[!UICONTROL parâmetros de rastreamento de URL]** para medir a eficácia de seus esforços de marketing em todos os canais. A ativação desse recurso é opcional.
 
 Os parâmetros definidos na seção correspondente serão anexados ao final dos URLs incluídos no conteúdo da mensagem de email. É possível capturar esses parâmetros em ferramentas de análise da web, como o Adobe Analytics ou Google Analytics, a fim de criar vários relatórios de desempenho.
 
