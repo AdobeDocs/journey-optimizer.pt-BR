@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: landing page, landing page, lista, assinatura, serviço
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: a5bcd26ff735fc9656814c0df28fb58db5b3ae37
+source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 10%
+source-wordcount: '673'
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 Um serviço de assinatura refere-se aos bens e serviços de marketing fornecidos aos clientes que optaram por receber comunicações sobre um assunto/evento/interesse/etc. específico. numa base contínua. No [!DNL Journey Optimizer], esses clientes aceitos estão reunidos em uma lista de assinaturas.
 
-Um serviço de assinatura pode ser:
+Um serviço de assinatura pode ser usado para:
 
 * um boletim informativo, por exemplo: &quot;Série em execução&quot;
 * um evento, por exemplo: &quot;Summit 2021&quot;
@@ -64,6 +64,27 @@ Para criar uma lista de assinaturas, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
+## Usar uma lista de assinaturas {#use-subscription-lists}
+
+Depois que a lista de assinaturas for criada, você poderá:
+
+* Adicionar perfis à lista de assinaturas
+
+  Você pode convidar pessoas para **ingressar na lista**, assinando um boletim informativo ou registrando-se em um evento. Você também pode **enviar mensagens personalizadas** aos assinantes.
+
+  Por exemplo, para convidar um público-alvo para se registrar em um evento ou assinar um boletim informativo, você pode enviar a ele uma mensagem com um link para uma página de aterrissagem para que se associe ao evento ou assine. Os perfis que aceitam por meio do formulário de landing page são adicionados à lista de assinaturas criada para essa finalidade.
+
+* Enviar mensagens aos assinantes
+
+  Você também pode usar listas de assinaturas como públicos-alvo ao criar jornadas e adicionar personalização.
+
+  Por exemplo, quando um cliente assina um serviço de streaming, ele pode acionar o envio imediato de uma série de emails de boas-vindas, incentivando-o a fazer logon no aplicativo pela primeira vez e definir suas preferências de exibição.
+
+Saiba como usar sua lista de assinaturas [neste caso de uso](lp-use-cases.md#subscription-to-a-service).
+
+
+## Procurar suas listas de assinaturas {#browse-subscription-lists}
+
 A lista exibe todas as listas de assinaturas criadas. Você pode filtrá-los com base na data de criação ou de modificação e seus status.
 
 ![](assets/lp_subscription-filters.png)
@@ -74,10 +95,15 @@ Os status possíveis são os seguintes:
 * **[!UICONTROL Em tempo real]**: o dia atual é composto entre a data de início e a data de término da lista de assinaturas ou você não definiu datas de término/início, o que significa que a lista de assinaturas está sempre em tempo real.
 * **[!UICONTROL Expirado]**: a data final é passada, portanto, a lista de assinaturas não é mais válida. Os perfis inscritos não receberão mais comunicações relacionadas a esta lista de assinaturas.
 
-Depois que a lista de assinaturas for criada, você poderá usá-la em uma landing page. Os perfis que optarem por usar o formulário de página de aterrissagem serão adicionados à lista. [Saiba mais](design-lp.md)
 
-Você também pode usar listas de assinaturas como públicos-alvo ao [criar jornadas](../building-journeys/journey-gs.md#jo-build) e adicionar personalização.
+## Monitorar suas listas de assinaturas {#monitor-subscription-lists}
 
->[!NOTE]
->
->Você pode monitorar os impactos da lista de assinaturas por meio de relatórios específicos. [Saiba mais](../reports/subscription-report-live.md)
+Você pode monitorar os impactos da lista de assinaturas por meio de relatórios dedicados. Você pode acessar dois tipos de relatórios:
+
+* Relatório em tempo real da lista de assinaturas
+
+  Os relatórios em tempo real, acessíveis a partir da guia Últimas 24 horas, exibem eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento. [Saiba mais](../reports/subscription-report-live.md)
+
+* Lista de assinaturas - Relatórios a todo o tempo, com o Customer Journey Analytics
+
+  Esses relatórios se concentram em eventos que ocorreram há pelo menos duas horas e abrangem eventos durante um período selecionado. O **Relatório de assinatura** oferece informações essenciais sobre assinaturas e cancelamentos de assinaturas de perfis associados a listas específicas, ajudando você a entender a eficácia de diferentes campanhas e iniciativas de assinatura na geração de engajamento e conversões. [Saiba mais](../reports/subscription-report-global-cja.md)
