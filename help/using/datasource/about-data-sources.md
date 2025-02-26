@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: dados, origem, jornada, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 66%
+ht-degree: 57%
 
 ---
 
@@ -36,8 +36,8 @@ Essa configuração não é necessária se suas jornadas só usarem os dados loc
 
 Há dois tipos de fontes de dados:
 
-* A fonte de dados pré-configurada da Adobe Experience Platform que define a conexão com o Serviço de perfil do cliente em tempo real. Essa fonte de dados é integrada. Consulte [esta página](../datasource/adobe-experience-platform-data-source.md).
-* As fontes de dados externas que permitem definir uma conexão com sistemas externos. Essas são as que você pode criar. Consulte [esta página](../datasource/external-data-sources.md).
+* A fonte de dados do Adobe Experience Platform **pré-configurada** que define a conexão com o Serviço de Perfil do Cliente em Tempo Real. Essa fonte de dados é integrada. Consulte [esta página](../datasource/adobe-experience-platform-data-source.md).
+* As fontes de dados **externas** que permitem definir uma conexão com sistemas externos. Essas são as que você pode criar. Consulte [esta página](../datasource/external-data-sources.md).
 
 >[!NOTE]
 >

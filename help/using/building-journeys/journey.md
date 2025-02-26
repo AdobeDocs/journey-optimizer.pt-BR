@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 38%
@@ -17,8 +17,6 @@ ht-degree: 38%
 
 
 # Introdução a jornadas{#jo-general-principle}
-
-O designer de jornadas do Journey Optimizer oferece tudo o que os profissionais de marketing e jornadas precisam para orquestrar jornadas de várias etapas 1:1 em todos os canais. Isso inclui uma tela intuitiva de arrastar e soltar para orquestrar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos comerciais.
 
 Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. Você pode projetar cenários avançados em várias etapas com os seguintes recursos:
 
@@ -29,6 +27,8 @@ Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em temp
 * Use as **ações incorporadas** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
 
 * Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
+
+O designer de jornadas do Journey Optimizer oferece tudo o que os profissionais de marketing e jornadas precisam para orquestrar jornadas de várias etapas 1:1 em todos os canais. Isso inclui uma tela intuitiva de arrastar e soltar para orquestrar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos comerciais.
 
 Saiba como criar sua primeira jornada em [esta página](journey-gs.md).
 
