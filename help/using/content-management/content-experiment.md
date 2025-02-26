@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
+source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 12%
+source-wordcount: '746'
+ht-degree: 9%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Experimento de conteúdo"
->abstract="É possível optar por variar o conteúdo, o assunto ou o remetente da mensagem para definir vários tratamentos e determinar a melhor combinação para os públicos-alvo."
+>abstract="Você pode escolher variar o conteúdo da mensagem ou o assunto para definir vários tratamentos e determinar a melhor combinação para seus públicos."
 
 >[!NOTE]
 >
 >Antes de começar com o Experimento de conteúdo, verifique se a configuração de relatórios está definida para seus conjuntos de dados personalizados. Saiba mais [nesta seção](../reports/reporting-configuration.md).
 
-O Experimento de conteúdo do Journey Optimizer permite definir vários tratamentos de delivery para medir qual tem melhor desempenho para o público-alvo. Você pode optar por variar o conteúdo do delivery, o assunto ou o remetente. O público-alvo de interesse é alocado aleatoriamente para cada tratamento para determinar qual funciona melhor em termos da métrica especificada.
+O Experimento de conteúdo do Journey Optimizer permite definir vários tratamentos de delivery para medir qual tem melhor desempenho para o público-alvo. Você pode optar por variar o conteúdo ou o assunto do delivery. O público-alvo de interesse é alocado aleatoriamente para cada tratamento para determinar qual funciona melhor em termos da métrica especificada.
 
 ![](../rn/assets/do-not-localize/experiment.gif)
 
