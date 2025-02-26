@@ -9,24 +9,20 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 20%
+source-wordcount: '1723'
+ht-degree: 21%
 
 ---
 
 # Criar e publicar landing pages {#create-lp}
 
->[!CAUTION]
->
->Para testar e publicar páginas de aterrissagem, você deve ter a permissão **[!UICONTROL Mensagens do Publish]**.
-
 Para direcionar seus clientes para uma página da Web definida que você deseja exibir quando clicarem em um link específico, crie uma página de aterrissagem no [!DNL Journey Optimizer], configure a página principal e quaisquer subpáginas, teste-a e publique-a.
 
->[!CAUTION]
->
->Você não pode acessar sua página de aterrissagem simplesmente copiando e colando em um navegador a URL definida ao [criar a página](#create-landing-page), mesmo se publicada. Em vez disso, você pode testá-lo usando a função de visualização, como descrito em [esta seção](#test-landing-page).
+As principais etapas para criar landing pages são as seguintes:
+
+![](assets/lp-creation-process.png)
 
 ## Acessar páginas de destino {#access-landing-pages}
 
@@ -34,29 +30,28 @@ Para acessar a lista de páginas de aterrissagem, selecione **[!UICONTROL Gestã
 
 ![](assets/lp_access-list.png)
 
-A lista **[!UICONTROL Páginas de Aterrissagem]** exibe todos os itens criados. Você pode filtrá-los com base no status, data de modificação ou tags.
+A lista **[!UICONTROL Páginas de Aterrissagem]** exibe todas as páginas de aterrissagem existentes. Você pode filtrá-los com base no status, data de modificação ou tags.
 
 ![](assets/lp_access-list-filter.png)
 
-Nessa lista, você pode acessar várias ações. Clique nos três pontos ao lado de uma landing page para selecionar a ação desejada:
+Nessa lista, também é possível acessar os relatórios de duplicar, excluir, cancelar a publicação de uma landing page ou acessar a landing page. Para isso, clique nos três pontos ao lado de uma landing page e selecione a ação desejada:
 
 ![](assets/lp_access-list-actions.png)
 
-* Para itens publicados, você pode acessar o [relatório de página de aterrissagem](../reports/lp-report-global-cja.md) ou o [relatório de últimas 24 horas](../reports/lp-report-live.md).
 
-* É possível excluir ou duplicar uma landing page.
+É possível:
 
-  >[!NOTE]
-  >
-  >Você não pode excluir uma página de aterrissagem [publicada](#publish-landing-page). Para excluí-lo, primeiro você deve desfazer a publicação.
+* Acesse os seguintes **relatórios** para páginas de aterrissagem publicadas: [relatório de página de aterrissagem](../reports/lp-report-global-cja.md) e [relatório de últimas 24 horas](../reports/lp-report-live.md).
 
-* É possível desfazer a publicação de uma landing page publicada.
+* **Excluir** ou **duplicar** uma página de aterrissagem. Você não pode excluir uma página de aterrissagem [publicada](#publish-landing-page). Para excluí-lo, primeiro você deve **desfazer a publicação** dele.
+
+* **Cancelar publicação** da página de aterrissagem.
 
   >[!CAUTION]
   >
-  >Se você cancelar a publicação de uma landing page referenciada em uma mensagem, o link para a landing page será quebrado e uma página de erro será exibida.
+  >Se você cancelar a publicação de uma landing page referenciada em uma mensagem, o link para a landing page será corrompido e os usuários receberão uma página de erro se tentarem acessá-la.
 
-* Você também pode editar as [marcas](../start/search-filter-categorize.md#tags) associadas de uma página de aterrissagem.
+* Edite as [marcas](../start/search-filter-categorize.md#tags) associadas a uma página de aterrissagem.
 
 ## Criar uma página de destino {#create-landing-page}
 
@@ -71,9 +66,11 @@ Nessa lista, você pode acessar várias ações. Clique nos três pontos ao lado
 >abstract="Para proteger ativos digitais confidenciais, você pode definir autorizações para gerenciar o acesso aos dados da página de destino usando rótulos."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=pt-BR" text="Controle de acesso no nível do objeto"
 
-As principais etapas para criar landing pages são as seguintes:
 
-![](assets/lp-creation-process.png)
+Para criar uma landing page, selecione uma predefinição, configure a página principal e as subpáginas e teste a página antes de publicá-la. Essas etapas são detalhadas abaixo:
+
+
+1. Navegue até **[!UICONTROL Gestão de Conteúdo]** > **[!UICONTROL Landing pages]** no menu esquerdo.
 
 1. Na lista de páginas de aterrissagem, clique em **[!UICONTROL Criar página de aterrissagem]**.
 
@@ -223,7 +220,7 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
 >[!CAUTION]
 >
->Para testar páginas de aterrissagem, você deve ter a permissão **[!UICONTROL Mensagens do Publish]**.
+>Para testar páginas de aterrissagem, você deve ter a permissão **[!UICONTROL Publicar Mensagens]**.
 >
 >Você deve ter perfis de teste disponíveis para poder visualizar suas mensagens e enviar provas. Saiba como [criar perfis de teste](../audience/creating-test-profiles.md).
 
@@ -289,7 +286,8 @@ Dois tipos de alertas podem ocorrer:
 
 >[!CAUTION]
 >
->Para publicar páginas de aterrissagem, você deve ter a permissão **[!UICONTROL Mensagens do Publish]**.
+>Para publicar páginas de aterrissagem, os usuários devem ter a permissão **[!UICONTROL Publicar Mensagens]**.
+
 
 Quando a landing page estiver pronta, você poderá publicá-la para disponibilizá-la para uso em uma mensagem.
 
