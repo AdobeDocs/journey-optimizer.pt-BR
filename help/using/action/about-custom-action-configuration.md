@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
+source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1692'
 ht-degree: 19%
 
 ---
@@ -139,7 +139,13 @@ Ao configurar uma ação personalizada, você precisa definir os seguintes parâ
    >
    >Os cabeçalhos são validados de acordo com as regras de análise de campo. Saiba mais em [esta documentação](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## Suporte ao protocolo mTLS {#mtls-protocol-support}
+## Camada de segurança de transporte {#tls}
+
+### Suporte ao protocolo TLS {#tls-protocol-support}
+
+Por padrão, o Adobe Journey Optimizer é compatível com TLS 1.3 para ações personalizadas. Se um cliente também suportar TLS 1.3, a comunicação será conduzida por TLS 1.3. Caso contrário, o processo de negociação do TLS pode recorrer ao TLS 1.2.
+
+### Suporte ao protocolo mTLS {#mtls-protocol-support}
 
 Você pode usar o MTLS (Mutual Transport Layer Security) para garantir segurança aprimorada em conexões de saída para ações personalizadas de Adobe Journey Optimizer. O mTLS é um método de segurança completo para autenticação mútua que garante que ambas as partes que compartilham informações sejam quem afirmam ser antes que os dados sejam compartilhados. O mTLS inclui uma etapa adicional em comparação ao TLS, na qual o servidor também solicita o certificado do cliente e o verifica ao final.
 
