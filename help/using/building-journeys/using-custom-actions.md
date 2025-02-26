@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: action, custom, API, jornada, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 27%
+source-wordcount: '412'
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,11 @@ ht-degree: 27%
 >title="Ações personalizadas"
 >abstract="As ações personalizadas permitem configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Uma ação pode ser configurada com qualquer serviço de qualquer provedor que possa ser chamado por meio de uma REST API com conteúdo formatado em JSON."
 
-As ações personalizadas permitem configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Uma ação pode ser configurada com qualquer serviço de qualquer provedor que possa ser chamado por meio de uma REST API com conteúdo formatado em JSON.
+Use ações personalizadas para habilitar a conexão com um sistema de terceiros para enviar mensagens ou chamadas de API. Uma ação pode ser configurada com qualquer serviço de qualquer provedor que possa ser chamado por meio de uma REST API com conteúdo formatado em JSON.
+
+Saiba mais sobre ações personalizadas em [esta seção](../action/action.md).
+
+Saiba como criar e configurar uma ação personalizada em [esta página](../action/about-custom-action-configuration.md).
 
 ## Consentimento e governança de dados {#privacy}
 
@@ -67,6 +71,3 @@ Para especificar o valor dos campos de cabeçalho dinâmico e parâmetro de cons
 
 Na seção **[!UICONTROL Parâmetros de ação]**, você verá os parâmetros de mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (por exemplo: eventos, fontes de dados), transmitir valores manualmente ou usar o editor de expressão avançado para casos de uso avançados. Casos de uso avançados podem ser manipulação de dados e outro uso de função. Consulte esta [página](expression/expressionadvanced.md).
 
-**Tópicos relacionados**
-
-[Configurar uma ação](../action/about-custom-action-configuration.md)
