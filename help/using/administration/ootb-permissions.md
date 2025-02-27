@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: permissões, criação, mensagens
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Permissões internas representam as diferentes permissões que podem ser atribu�
 | Painéis | **[!DNL View license usage dashboards]**: acesso somente leitura ao [painel de uso de licença](../audience/license-usage.md). </br>**[!DNL Manage custom dashboards]**: permite criar um novo painel ou editar um painel existente.</br>**[!DNL Manage standard dashboards]**: permite criar widgets personalizados e editar o esquema de widget por meio da Biblioteca de widgets.</br>**[!DNL View custom dashboards]**: acesso somente leitura a painéis definidos pelo usuário.</br>**[!DNL View standard dashboards]**: acesso somente leitura aos painéis Perfis, Destinos e Públicos. |
 | Coleção de dados | **[!DNL Manage datastream]**: ler, criar e editar sequências de dados.</br>**[!DNL View datastream]**: acesso somente leitura a sequências de dados. |
 | Governança de dados | **[!DNL Manage usage labels]**: ler, criar, editar e excluir rótulos.</br>**[!DNL Manage data usage policies]**: ler, criar, editar e excluir políticas de uso de dados.</br>**[!DNL View data usage policies]**: acesso somente leitura para políticas de uso de dados pertencentes à sua organização.</br>**[!DNL View user activity log]**: acesso somente leitura para visualizar logs de auditoria registrados de atividades da Platform. |
-| Higiene de dados | **[!DNL Manage data hygiene]**: ler, criar, editar e excluir a higiene de dados.</br>**[!DNL View data hygiene]**: acesso somente leitura para higiene de dados. |
+| Ciclo de vida dos dados | **[!DNL Manage data lifecycle]**: ler, criar, editar e excluir o ciclo de vida dos dados.</br>**[!DNL View data lifecycle]**: acesso somente leitura para o ciclo de vida dos dados. |
 | Assimilação de dados | **[!DNL Manage sources]**: ler, criar, editar e desabilitar fontes.</br>**[!DNL View sources]**: acesso somente leitura a fontes disponíveis na guia Catálogo e fontes autenticadas na guia Procurar. |
 | Gerenciamento de dados | **[!DNL Data monitoring]**: acesso somente leitura a conjuntos de dados e fluxos de monitoramento.</br>**[!DNL Manage datasets]**: ler, criar, editar e excluir conjuntos de dados. Acesso somente leitura para esquemas.</br>**[!DNL View datasets]**: acesso somente leitura para conjuntos de dados e esquemas. |
 | Modelagem de dados | **[!DNL Manage identity metadata]**: ler, criar, editar e excluir metadados de identidade para esquemas.</br> **[!DNL Manage relationships]**: ler, criar, editar e excluir relações de esquema.</br>**[!DNL Manage schemas]**: ler, criar e editar esquemas do Experience Data Model (XDM).</br>**[!DNL View schemas]**: acesso somente leitura a esquemas. |
