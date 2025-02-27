@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1044'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Antes de começar, reveja as seguintes restrições e diretrizes:
 
 * **Canais com suporte**: por enquanto, esse recurso só está disponível para uso em canais de email, SMS e correspondência direta.
 * **Rotulagem e Imposição de Uso de Dados** não é imposta no momento para conjuntos de dados habilitados para pesquisa.
-* **Fragmentos de expressão**: no momento, a personalização da pesquisa do conjunto de dados não pode ser colocada dentro dos fragmentos de expressão.
+* **Fragmentos**: no momento, a personalização da pesquisa do conjunto de dados não pode ser colocada dentro de expressões ou fragmentos visuais.
 
 ## Ativar um conjunto de dados para pesquisa de dados {#enable}
 
