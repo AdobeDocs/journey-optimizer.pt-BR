@@ -9,19 +9,19 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
-source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
+exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
+source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '580'
 ht-degree: 2%
 
 ---
-
 
 # Solucionar problemas de ações personalizadas {#troubleshoot-a-custom-action}
 
 >[!AVAILABILITY]
 >
->Esse recurso só está disponível para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
+>Esse recurso só está disponível para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 >
 
 Você pode testar suas ações personalizadas enviando chamadas de API da seção de administração da interface do usuário do Journey Optimizer. Esse recurso ajuda você a solucionar problemas de ações personalizadas antes ou depois de usá-las em uma jornada.
@@ -71,7 +71,7 @@ Quando uma ação personalizada inclui autenticação, o Adobe Journey Optimizer
 
 * **Autenticação Básica**: o usuário deve fornecer a *senha*.
 * **Autenticação da Chave de API:** o usuário deve inserir a chave de API *value*.
-* **Autenticação Personalizada**: o usuário deve fornecer os parâmetros de autenticação na solicitação *bodyParam*. Duas seções para conclusão foram adicionadas neste caso: **Solicitação de autenticação** e **Resposta de autenticação**.
+* **Autenticação Personalizada**: o usuário deve fornecer os parâmetros de autenticação na solicitação *bodyParam*. Duas seções foram adicionadas neste caso: **Solicitação de autenticação** e **Resposta de autenticação**.
 
 ## Principais benefícios {#troubleshoot-custom-action-benefits}
 
@@ -94,4 +94,3 @@ Se a solicitação falhar, você pode verificar:
 * O método de solicitação (GET vs. POST) e a carga útil correspondente.
 * O endpoint da API e os cabeçalhos definidos na ação personalizada.
 * Use os dados de resposta para identificar possíveis erros de configuração.
-
