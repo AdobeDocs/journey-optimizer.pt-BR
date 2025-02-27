@@ -1,19 +1,19 @@
 ---
-title: Proteções e pré-requisitos de experiência baseados em código
+title: Pré-requisitos da experiência baseada em código
 description: Para editar aplicativos e páginas da Web usando o recurso baseado em código do Journey Optimizer, siga os pré-requisitos desta página
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '638'
 ht-degree: 2%
 
 ---
 
-# Medidas de proteção e pré-requisitos {#code-based-prerequisites}
+# Pré-requisitos da experiência baseada em código {#code-based-prerequisites}
 
 Para poder usar ações de experiência baseadas em código no [!DNL Journey Optimizer] e fornecer carga de conteúdo de código que pode ser usada por seus aplicativos, siga os pré-requisitos abaixo:
 

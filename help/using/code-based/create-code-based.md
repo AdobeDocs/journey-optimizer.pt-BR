@@ -6,18 +6,16 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 11%
+source-wordcount: '701'
+ht-degree: 9%
 
 ---
 
 # Criar experiências baseadas em código {#create-code-based}
 
 No [!DNL Journey Optimizer], você pode criar experiências baseadas em código em uma jornada ou campanha.
-
-As medidas de proteção e recomendações específicas para experiências baseadas em código são detalhadas [nesta página](code-based-prerequisites.md).
 
 ## Adicionar uma experiência baseada em código por meio de uma jornada ou campanha {#create-code-based-experience}
 
@@ -49,7 +47,7 @@ Para adicionar uma atividade de **experiência baseada em código** a uma jornad
 
 1. Selecione o botão **[!UICONTROL Editar conteúdo]** e edite o conteúdo conforme desejado usando o editor de personalização. [Saiba mais](#edit-code)
 
-   Você também pode usar um template de conteúdo existente como base para o conteúdo do código. Observe que os modelos disponíveis para escolha têm escopo para HTML ou JSON com base na configuração de canal escolhida anteriormente. [Saiba como usar modelos de conteúdo](../content-management/use-content-templates.md)
+   Você também pode usar um template de conteúdo existente como base para o conteúdo do código. Observe que os modelos disponíveis para escolha têm como escopo HTML ou JSON com base na configuração de canal escolhida anteriormente. [Saiba como usar modelos de conteúdo](../content-management/use-content-templates.md)
 
 1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
 
@@ -79,7 +77,7 @@ Para começar a criar sua **experiência baseada em código** por meio de uma ca
 
 1. Edite o conteúdo conforme desejado usando o editor de personalização. [Saiba mais](#edit-code)
 
-   Você também pode usar um template de conteúdo existente como base para o conteúdo do código. Observe que os modelos disponíveis para escolha têm escopo para HTML ou JSON com base na configuração de canal escolhida anteriormente. [Saiba como usar modelos de conteúdo](../content-management/use-content-templates.md)
+   Você também pode usar um template de conteúdo existente como base para o conteúdo do código. Observe que os modelos disponíveis para escolha têm como escopo HTML ou JSON com base na configuração de canal escolhida anteriormente. [Saiba como usar modelos de conteúdo](../content-management/use-content-templates.md)
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
