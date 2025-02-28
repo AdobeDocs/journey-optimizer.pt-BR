@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 26%
+source-wordcount: '501'
+ht-degree: 25%
 
 ---
 
@@ -85,3 +85,4 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 1. **Crie uma política de decisão e incorpore-a à sua campanha baseada em código**: as políticas de decisão combinam várias estratégias de seleção para determinar os itens de decisão qualificados a serem exibidos para o público-alvo desejado.
 
    ➡️ [Saiba como trabalhar com políticas de decisão](create-decision.md)
+➡️ Para entregar a oferta com êxito através do canal Baseado em Código, siga as etapas de implementação em [esta seção](../code-based/code-based-implementation-samples.md)

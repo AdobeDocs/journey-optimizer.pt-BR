@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
+source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2187'
 ht-degree: 91%
 
 ---
@@ -455,24 +455,26 @@ ht-degree: 91%
       + [Introdução ao serviço de Decisão](using/experience-decisioning/gs-experience-decisioning.md)
       + [Medidas de proteção e limitações da decisão](using/experience-decisioning/decisioning-guardrails.md)
       + Referência da API{#api-reference}
-         + Itens de decisão{#decision-items}
-            + [Criar itens de decisão](using/experience-decisioning/api-reference/decisions-items/create.md)
-            + [Lista de itens de decisão](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-            + [Excluir itens de decisão](using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [Pesquisar itens de decisão](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [Atualizar itens de decisão](using/experience-decisioning/api-reference/decisions-items/update.md)
-         + Coleções de itens{#items-collections}
-            + [Criar coleções de itens](using/experience-decisioning/api-reference/items-collections/create.md)
-            + [Excluir coleções de itens](using/experience-decisioning/api-reference/items-collections/delete.md)
-            + [Lista de coleções de itens](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [Pesquisar coleções de itens](using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [Atualizar coleções de itens](using/experience-decisioning/api-reference/items-collections/update.md)
-         + Estratégias de seleção{#selection-strategies}
-            + [Criar estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [Excluir estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [Pesquisar estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-            + [Lista de estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [Atualizar estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + Criar e gerenciar itens de oferta {#create-manage}
+            + Itens de decisão{#decision-items}
+               + [Criar itens de decisão](using/experience-decisioning/api-reference/decisions-items/create.md)
+               + [Lista de itens de decisão](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+               + [Excluir itens de decisão](using/experience-decisioning/api-reference/decisions-items/delete.md)
+               + [Pesquisar itens de decisão](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+               + [Atualizar itens de decisão](using/experience-decisioning/api-reference/decisions-items/update.md)
+            + Coleções de itens{#items-collections}
+               + [Criar coleções de itens](using/experience-decisioning/api-reference/items-collections/create.md)
+               + [Excluir coleções de itens](using/experience-decisioning/api-reference/items-collections/delete.md)
+               + [Lista de coleções de itens](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+               + [Pesquisar coleções de itens](using/experience-decisioning/api-reference/items-collections/lookup.md)
+               + [Atualizar coleções de itens](using/experience-decisioning/api-reference/items-collections/update.md)
+            + Estratégias de seleção{#selection-strategies}
+               + [Criar estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/create.md)
+               + [Excluir estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+               + [Pesquisar estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+               + [Lista de estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+               + [Atualizar estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + [Fornecer ofertas usando o canal de experiência baseada em código](using/experience-decisioning/api-reference/deliver.md)
       + Gerenciar itens de decisão {#decision-items}
          + [Configurar o catálogo de itens](using/experience-decisioning/catalogs.md)
          + [Criar itens de decisão](using/experience-decisioning/items.md)
