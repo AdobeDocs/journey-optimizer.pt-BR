@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1042'
 ht-degree: 4%
 
 ---
@@ -30,8 +30,6 @@ O processo de cópia é realizado por meio de uma exportação e importação de
 
 1. Adicione o objeto a ser exportado como um pacote na sandbox de origem.
 1. Exporte o pacote para a sandbox de destino.
-
-Além disso, você pode aproveitar a **API REST do Serviço de Cópia de Objeto** da Journey Optimizer para gerenciar os objetos das sandboxes. [Saiba como trabalhar com a API REST do Serviço de Cópia de Objeto](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## Objetos exportados e práticas recomendadas {#objects}
 
