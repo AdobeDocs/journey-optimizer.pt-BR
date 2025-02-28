@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -51,7 +51,7 @@ Antes de poder gerar esse arquivo, é necessário criar:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Selecionar o tipo de servidor para o arquivo"
->abstract="Escolha o tipo de servidor que deseja usar para exportar seus arquivos de correspondência direta: Amazon S3, SFTP, Azure ou Data Landing Zone."
+>abstract="Escolha qual tipo de servidor você deseja usar para exportar seus arquivos de correspondência direta: Amazon S3, SFTP, Azure ou Data Landing Zone."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
