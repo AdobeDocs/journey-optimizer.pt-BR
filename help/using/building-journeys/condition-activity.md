@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1491'
 ht-degree: 17%
 
 ---
@@ -48,7 +48,7 @@ Clique em **[!UICONTROL Adicionar um caminho]** se desejar definir várias condi
 
 Observe que o design das jornadas tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho qualificado é executado. Isso significa que é possível variar a priorização de caminhos colocando-os um acima ou abaixo do outro.
 
-Por exemplo, vamos pegar o exemplo de uma condição de primeiro caminho &quot;A pessoa é um VIP&quot; e uma condição de segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que atende às duas condições (um homem que é VIP) passar por essa etapa, o primeiro caminho será escolhido mesmo que essa pessoa também seja elegível para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
+Por exemplo, vamos pegar o exemplo de uma condição de primeiro caminho &quot;A pessoa é um VIP&quot; e uma condição de segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que atende a ambas as condições (um homem que é um VIP) passar por essa etapa, o primeiro caminho será escolhido, mesmo que essa pessoa também seja elegível para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
 
 ![](assets/journey48.png)
 
@@ -167,4 +167,4 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com os status de participação de público **Realizado** e **Existente** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

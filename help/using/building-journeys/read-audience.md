@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1633'
 ht-degree: 12%
 
 ---
@@ -73,7 +73,7 @@ As etapas para configurar a atividade Ler público-alvo são as seguintes:
 
    >[!NOTE]
    >
-   >Somente os indivíduos com o status de participação de público **Realizado** e **Existente** entrarão na jornada. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Somente os indivíduos com o status de participação de público **Realizado** entrarão na jornada. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. No campo **[!UICONTROL Namespace]**, escolha o namespace a ser usado para identificar os indivíduos. Por padrão, o campo é pré-preenchido com o último namespace usado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace).
 
@@ -162,7 +162,7 @@ Depois de inserir a jornada, você pode criar casos de uso de orquestração de 
 
 **Segmentação**
 
-Você pode usar condições para executar a segmentação usando a atividade **Condição**. Por exemplo, você pode fazer com que as pessoas VIP sigam um determinado caminho e o não-VIP flua outro caminho.
+Você pode usar condições para executar a segmentação usando a atividade **Condição**. Por exemplo, você pode fazer com que as pessoas da VIP tomem um determinado caminho e o fluxo não-VIP em outro caminho.
 
 A segmentação pode ser baseada em:
 
@@ -176,7 +176,7 @@ A segmentação pode ser baseada em:
 
 **Exclusão**
 
-A mesma atividade **Condition** usada para segmentação (veja acima) também permite excluir parte da população. Por exemplo, você pode excluir pessoas VIP fazendo com que elas fluam para uma ramificação com uma etapa final logo após.
+A mesma atividade **Condition** usada para segmentação (veja acima) também permite excluir parte da população. Por exemplo, você pode excluir pessoas do VIP fazendo com que elas fluam para uma ramificação com uma etapa final logo após.
 
 Essa exclusão pode ocorrer logo após a recuperação do público-alvo, para fins de contagem de população ou ao longo de uma jornada em várias etapas.
 
@@ -188,7 +188,7 @@ As jornadas permitem criar N ramificações e juntá-las após uma segmentação
 
 Como resultado, você pode fazer com que dois públicos-alvo retornem a uma experiência comum.
 
-Por exemplo, depois de seguir uma experiência diferente durante dez dias em uma jornada, os clientes VIP e não VIP podem retornar ao mesmo caminho.
+Por exemplo, depois de seguir uma experiência diferente durante dez dias em uma jornada, os clientes da VIP VIP e de terceiros podem retornar ao mesmo caminho.
 
 Após uma união, é possível dividir o público novamente executando uma segmentação ou exclusão.
 
