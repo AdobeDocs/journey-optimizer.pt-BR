@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: 9fa5330d766aa6fb1998e668a08d769d3fd1b2cc
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2388'
 ht-degree: 27%
 
 ---
@@ -301,7 +301,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#doesNotStartWith">Não inicia com</a></td><td>Esta função é usada para determinar se uma sequência de caracteres não inicia com uma subsequência especificada.</td>
     </tr>
     <tr>
-        <td><a href="string.md#encode64">Codificação 64</a></td><td>Esta função é usada para codificar ou decodificar uma string.</td>
+        <td><a href="string.md#encode64">Codificação 64</a></td><td>Esta função é usada para codificar uma sequência de caracteres.</td>
     </tr>
     <tr>
         <td><a href="string.md#endsWith">Termina com</a></td><td>Esta função é usada para determinar se uma sequência de caracteres termina com uma subsequência especificada.</td>
