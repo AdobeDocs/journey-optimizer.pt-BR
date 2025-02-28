@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
+source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 93%
+source-wordcount: '2346'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ A partir de fevereiro de 2025, uma garantia de TTL (time-to-live) será implanta
 * 90 dias para dados na loja de perfis,
 * 13 meses para dados no data lake.
 
-Esta alteração será implantada em **sandboxes de clientes existentes** em uma fase subsequente. [Saiba mais sobre as medidas de proteção de Tempo até a Saída (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
+Esta alteração será implantada em **sandboxes de clientes existentes** em uma fase subsequente. [Saiba mais sobre as medidas de proteção de Tempo de vida (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
 
 ## Grades de proteção de canais {#channel-guardrails}
 
@@ -220,4 +220,4 @@ Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Salto]*
 As seguintes medidas de proteção se aplicam às atividades do **[!UICONTROL Campaign v7/v8]** e **[!UICONTROL Campaign Standard]**:
 
 * As atividades do Adobe Campaign não podem ser usadas com uma atividade Público-alvo de leitura ou Qualificação de público-alvo.
-* Essas atividades não podem ser usadas com atividades No aplicativo.
+* As atividades de campanha não podem ser usadas com as outras atividades de canais: Cartão, Experiência baseada em código, Email, Push, SMS, Mensagens no aplicativo e Web.
