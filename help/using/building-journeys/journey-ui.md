@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 26%
@@ -68,7 +68,7 @@ O tipo de jornada depende das atividades usadas nessa jornada. Pode ser:
 
 * **[!UICONTROL Evento unitário]** - As jornadas de eventos unitários estão vinculadas a um perfil específico. Os eventos estão relacionados ao comportamento de uma pessoa ou a algo que acontece vinculado a uma pessoa (por exemplo, uma pessoa atingiu 10.000 pontos de fidelidade). [Saiba mais](../event/about-events.md).
 * **[!UICONTROL Evento comercial]**. A jornada de eventos comerciais começa com um evento não relacionado a perfis. A configuração do evento é executada por um usuário técnico e não pode ser editada. [Saiba mais](../event/about-events.md).
-* **[!UICONTROL Qualificação do público-alvo]** - As jornadas de qualificação do público-alvo escutam as entradas e saídas dos perfis nos públicos-alvo da Adobe Experience Platform para que os indivíduos entrem ou avancem em uma jornada. [Saiba mais](audience-qualification-events.md).
+* **[!UICONTROL Qualificação de público-alvo]** - As jornadas de qualificação de público-alvo ouvem as entradas e saídas dos perfis nos públicos-alvo da Adobe Experience Platform para que os indivíduos entrem ou avancem em uma jornada. [Saiba mais](audience-qualification-events.md).
 * **[!UICONTROL Ler público-alvo]** - Nas jornadas Ler público-alvo, todos os indivíduos no público-alvo entram na jornada e recebem as mensagens incluídas na jornada.  [Saiba mais](read-audience.md).
 
 
