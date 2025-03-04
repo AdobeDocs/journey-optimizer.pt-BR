@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
+source-git-commit: 963bf0ae62664a3aa47639b27f0b39b849d51055
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 20%
+source-wordcount: '1017'
+ht-degree: 19%
 
 ---
 
@@ -76,7 +76,7 @@ No Adobe Journey Optimizer, os públicos-alvo são gerados a partir das definiç
 
 A lista de perfis do público-alvo é mantida atualizada em tempo real à medida que novos dados fluem para o sistema.
 
-A segmentação por transmissão é um processo contínuo de seleção de dados que atualiza os públicos-alvo em resposta à atividade do usuário. Depois que uma definição de segmento é criada e o público-alvo resultante é salvo, a definição de segmento é aplicada aos dados recebidos no Journey Optimizer. Isso significa que as pessoas físicas são adicionadas ou removidas do público-alvo à medida que os dados do perfil são alterados, garantindo que o público-alvo seja sempre relevante. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
+A segmentação por transmissão é um processo contínuo de seleção de dados que atualiza os públicos-alvo em resposta à atividade do usuário. Depois que uma definição de segmento é criada e o público-alvo resultante é salvo, a definição de segmento é aplicada aos dados recebidos no Journey Optimizer. Isso significa que as pessoas físicas são adicionadas ou removidas do público-alvo à medida que os dados do perfil são alterados, garantindo que o público-alvo seja sempre relevante. [Saiba mais no Adobe Expe](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
 >[!IMPORTANT]
 >
@@ -93,17 +93,17 @@ A segmentação por transmissão é um processo contínuo de seleção de dados 
 
 A lista de perfis do público-alvo é avaliada a cada 24 horas.
 
-A segmentação em lote é uma alternativa à segmentação por transmissão que processa todos os dados de perfil de uma só vez através das definições de segmento. Isso cria um instantâneo do público-alvo que pode ser salvo e exportado para uso. No entanto, diferentemente da segmentação por transmissão, a segmentação em lote não atualiza continuamente a lista de públicos-alvo em tempo real, e os novos dados que chegam após o processo em lote não serão refletidos no público-alvo até o próximo processo em lote. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+A segmentação em lote é uma alternativa à segmentação por transmissão que processa todos os dados de perfil de uma só vez através das definições de segmento. Isso cria um instantâneo do público-alvo que pode ser salvo e exportado para uso. No entanto, diferentemente da segmentação por transmissão, a segmentação em lote não atualiza continuamente a lista de públicos-alvo em tempo real, e os novos dados que chegam após o processo em lote não serão refletidos no público-alvo até o próximo processo em lote. Para obter mais detalhes, consulte a [documentação do Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
 
 +++
 
 +++ Segmentação de borda
 
-A segmentação do Edge é a capacidade de avaliar segmentos no Adobe Experience Platform instantaneamente [na borda](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}, habilitando casos de uso de personalização de mesma página e próxima página. Atualmente, somente os tipos de consulta selecionados podem ser avaliados com a segmentação de borda. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+A segmentação do Edge é a capacidade de avaliar segmentos no Adobe Experience Platform instantaneamente [na borda](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}, habilitando casos de uso de personalização de mesma página e próxima página. Atualmente, somente os tipos de consulta selecionados podem ser avaliados com a segmentação de borda. Para obter mais detalhes, consulte a [documentação do Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
-Se você souber qual método de avaliação deseja usar, selecione-o usando a lista suspensa. Você também pode clicar no ícone de navegação ícone da pasta com uma lupa para ver uma lista dos métodos de avaliação de definição de segmento disponíveis. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}
+Se você souber qual método de avaliação deseja usar, selecione-o usando a lista suspensa. Você também pode clicar no ícone de navegação ícone da pasta com uma lupa para ver uma lista dos métodos de avaliação de definição de segmento disponíveis. Para obter mais detalhes, consulte a [documentação do Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}
 
 ![](assets/evaluation-methods.png)
 
@@ -131,7 +131,7 @@ Com a avaliação flexível do público-alvo, você pode:
 1. Avalie o público-alvo em tempo real para garantir a precisão. Para fazer isso, escolha os públicos que deseja avaliar e selecione &quot;Avaliar públicos&quot;, desde que atendam a critérios específicos (por exemplo, com base em pessoas, origem do Serviço de segmentação).
 1. Use o público avaliado em campanhas ou jornadas do Adobe Journey Optimizer para direcionamento preciso.
 
-Você pode avaliar até 20 públicos-alvo de cada vez, e públicos-alvo não qualificados serão excluídos automaticamente. Para obter mais detalhes, consulte a [documentação do Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+Você pode avaliar até 20 públicos-alvo de cada vez, e públicos-alvo não qualificados serão excluídos automaticamente. Para obter mais detalhes, consulte a [documentação do Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
 ## Vídeo tutorial{#video-segment}
 
