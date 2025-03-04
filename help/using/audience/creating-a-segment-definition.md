@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -121,7 +121,7 @@ Depois de definir um público-alvo pela primeira vez, os perfis são adicionados
 
 >[!AVAILABILITY]
 >
-A avaliação flexível do público só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
+A avaliação flexível de público-alvo está disponível apenas para um grupo de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
 O Adobe Experience Platform Audience Portal permite executar um trabalho de segmentação sob demanda para públicos selecionados, garantindo que você sempre tenha os dados do público mais atualizados antes de direcioná-los para jornadas e campanhas do Journey Optimizer.
 
@@ -129,8 +129,7 @@ Com a avaliação flexível do público-alvo, você pode:
 
 1. Crie um novo segmento com base nos dados mais recentes.
 1. Avalie o público-alvo em tempo real para garantir a precisão. Para fazer isso, escolha os públicos que deseja avaliar e selecione &quot;Avaliar públicos&quot;, desde que atendam a critérios específicos (por exemplo, com base em pessoas, origem do Serviço de segmentação).
-1. Usar o público avaliado no Adobe Journey Optimizer
-campanhas ou jornadas para direcionamento preciso.
+1. Use o público avaliado em campanhas ou jornadas do Adobe Journey Optimizer para direcionamento preciso.
 
 Você pode avaliar até 20 públicos-alvo de cada vez, e públicos-alvo não qualificados serão excluídos automaticamente. Para obter mais detalhes, consulte a [documentação do Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
