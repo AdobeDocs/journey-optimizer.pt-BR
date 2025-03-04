@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 14%
+source-wordcount: '655'
+ht-degree: 12%
 
 ---
 
@@ -46,13 +46,6 @@ A tabela abaixo lista todos os conjuntos de dados afetados e seu respectivo temp
 | Repositório de objetos de decisão - Posicionamentos | 13 meses | n/d |
 | Repositório de objetos de decisão - Atividades | 13 meses | n/d |
 | ODE DecisionEvents - decisão de produção | 13 meses | n/d |
-| Conjunto de dados do serviço de consentimento da AJO | n/d | 90 dias |
-| Conjunto de dados do perfil de mensagens interativas da AJO | n/d | 90 dias |
-| Extensão Contadores de perfis do AJO | n/d | 90 dias |
-| Conjunto de dados do perfil push do AJO | n/d | 90 dias |
-| Conjunto de dados do perfil acionável do AJO | n/d | 90 dias |
-
-
 
 ## Perguntas frequentes {#faq}
 
