@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
+source-git-commit: 1ff33c3da5236cb4a89a893f83476867a2ecddd3
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 52%
@@ -96,6 +96,8 @@ ht-degree: 52%
 >id="ajo_ao_split_otherprofiles_text"
 >title="Outros perfis"
 >abstract="Ative essa opção para criar um caminho adicional com os perfis restantes que não correspondem a nenhuma das condições especificadas nos outros caminhos."
+
+>[!BEGINSHADEBOX]
 
 Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se você for um cliente somente do Perfil do cliente em tempo real e não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=pt-BR){target="_blank"}.
 
