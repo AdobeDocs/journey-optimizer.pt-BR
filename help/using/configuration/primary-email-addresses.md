@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, execução, e-mail, destino, perfil, otimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -70,6 +70,11 @@ O campo de execução é atualizado e agora será usado como o endereço princip
 
 Para casos de uso específicos, é possível substituir o conjunto de campos de execução globalmente e definir um valor diferente no nível de configuração de email ou no nível de jornada.
 
+Substituir esse valor pode ser útil, por exemplo, para:
+
+* Teste um email. É possível adicionar seu próprio endereço de email: depois de publicar a jornada, o email será enviado para você.
+* Enviar um email aos assinantes de uma lista. Saiba mais [neste caso de uso](../building-journeys/message-to-subscribers-uc.md).
+
 ### Na configuração do email
 
 Você pode alterar o campo de execução padrão definido nas [configurações gerais](#admin-settings) ao definir uma configuração de canal de email. [Saiba mais](../email/email-settings.md#execution-address)
@@ -88,8 +93,4 @@ Em alguns contextos específicos, é possível substituir esse valor usando o í
 >
 >A substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterar o endereço de email, pois o valor definido como o endereço principal nos **[!UICONTROL Campos de execução]** é o que deve ser usado.
 
-Substituir esse valor pode ser útil, por exemplo, para:
-
-* Teste um email. É possível adicionar seu próprio endereço de email: depois de publicar a jornada, o email será enviado para você.
-* Enviar um email aos assinantes de uma lista. Saiba mais [neste caso de uso](../building-journeys/message-to-subscribers-uc.md).
 
