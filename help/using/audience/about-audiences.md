@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 22%
+source-wordcount: '546'
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,13 @@ Para obter mais informações sobre como trabalhar com públicos no Portal de p�
 
 Os públicos-alvo podem ser gerados usando métodos diferentes:
 
-* **Definições de segmento**: crie uma nova definição de público-alvo usando o Serviço de Segmentação da Adobe Experience Platform. [Saiba como criar definições de segmento](creating-a-segment-definition.md)
+* **Definições de segmento**: crie uma nova definição de público-alvo usando o Serviço de Segmentação da Adobe Experience Platform. Os públicos-alvo são gerados a partir das definições de segmento e atualizados em momentos diferentes, dependendo do tipo de avaliação.
+
+   * Segmentação de transmissão: os públicos-alvo são atualizados em tempo real, à medida que novos dados fluem no, garantindo relevância contínua com base na atividade do usuário.
+   * Segmentação em lote: os públicos-alvo são atualizados a cada 24 horas, capturando um instantâneo dos perfis em um intervalo fixo.
+   * Segmentação do Edge: os públicos-alvo são avaliados instantaneamente na borda, permitindo personalização em tempo real.
+
+[Saiba como criar definições de segmento](creating-a-segment-definition.md)
 
 * **Upload personalizado**: importe um público usando um arquivo CSV. [Saiba como criar públicos-alvo de carregamento personalizado](custom-upload.md)
 
