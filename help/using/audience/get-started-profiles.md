@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 12a3520ec05737cbf5cdc813aa22ce16a9270d18
+source-git-commit: f6c77a93c4adea33df8434ff8f950b8d39c92845
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 34%
+source-wordcount: '434'
+ht-degree: 33%
 
 ---
 
@@ -24,13 +24,19 @@ Aproveite o Perfil do cliente em tempo real no [!DNL Adobe Journey Optimizer] pa
 
 **Perfil do Cliente em Tempo Real &#x200B;** - Integre atributos e eventos do cliente de fontes online, offline e com pseudônimos em um único perfil unificado. &#x200B;Use o perfil para envolver os clientes com experiências personalizadas em tempo real em vários pontos de contato. &#x200B;
 
-**Assimilação de dados** - Conecte-se a várias fontes de dados para assimilar dados comportamentais, transacionais, financeiros e operacionais. Assimile dados em tempo real ou por meio de uploads em lote para manter os perfis atualizados constantemente. &#x200B;
+**Assimilação de dados** - Conecte-se a várias fontes de dados para assimilar dados comportamentais, transacionais, financeiros e operacionais. Assimile dados em tempo real ou por meio de uploads em lote para manter os perfis atualizados constantemente.
 
 **Gráfico de identidade** - Combine dados de diferentes fontes usando identidades de clientes, como IDs de fidelidade ou IDs de sistema de CRM. &#x200B;Crie uma visualização abrangente do cliente mapeando os relacionamentos entre diferentes identidades nos conjuntos de dados de uma marca. &#x200B;
 
 **Envolvimento do cliente** - Use o perfil do cliente em tempo real para fornecer experiências contextuais e personalizadas, como ofertas e mensagens direcionadas. &#x200B;Envolva os clientes em vários canais, incluindo campanhas de marketing, suporte ao cliente e atualizações transacionais. &#x200B;
 
 **Compartilhamento de dados** - Compartilhe perfis de cliente com os principais provedores de armazenamento na nuvem, como Amazon Web Services, Microsoft Azure e Google Cloud. Use perfis compartilhados para emissão de relatórios, arquivamento de dados ou análise mais profunda com ferramentas de business intelligence.
+
+>[!MORELIKETHIS]
+>
+>* [Documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR){target="_blank"}
+>* [Medidas de proteção padrão para dados e segmentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails){target="_blank"}
+>* &#x200B;[Documentação de assimilação de dados](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Painel de perfis
 
@@ -43,12 +49,6 @@ Para acessar perfis, navegue até o menu **[!UICONTROL Cliente]** / **[!UICONTRO
 É possível unir fragmentos de dados de várias fontes e combiná-los para ter uma visualização completa de cada um de seus clientes individuais. Ao reunir esses dados, as políticas de mesclagem são as regras usadas para determinar como os dados serão priorizados e quais dados serão combinados para criar a exibição unificada. Saiba mais sobre **políticas de Mesclagem** nesta [documentação](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR){target="_blank"}.
 
 ![](assets/profiles-home.png)
-
->[!MORELIKETHIS]
->
->* [Documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR){target="_blank"}
->* [Medidas de proteção padrão para dados e segmentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails){target="_blank"}
->* [Vídeo de visão geral do Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}
 
 ## Vídeo tutorial {#video}
 
