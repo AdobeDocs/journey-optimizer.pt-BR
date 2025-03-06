@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '6193'
+source-wordcount: '6222'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Fevereiro de 2025 {#feb-2025}
 
+* Os painéis de atividade &quot;Ler público-alvo&quot; foram atualizados para especificar que apenas uma atividade pode ser usada em uma jornada e que pode direcionar apenas um público-alvo. [Leia mais](../building-journeys/read-audience.md)
 * As medidas de proteção de jornada ao usar atividades do Campaign foram atualizadas. [Leia mais](../start/guardrails.md#ac-g)
 * As etapas para criar suas primeiras jornadas foram detalhadas e os links para a seção de documentação foram adicionados. [Leia mais](../building-journeys/journey-gs.md)
 * Uma nova página agora está disponível para detalhar o painel de jornada e a interface do usuário de filtragem. [Leia mais](../building-journeys/journey-ui.md)
