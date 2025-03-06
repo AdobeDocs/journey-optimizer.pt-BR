@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
+source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2259'
 ht-degree: 18%
 
 ---
@@ -279,14 +279,14 @@ Para **criar** um critério de saída, siga estas etapas:
 
 1. Abra a jornada.
 
-1. Clique no ícone **[!UICONTROL Mostrar Critérios de Saída]** localizado na seção superior direita da tela de jornada.
-   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
-1. Clique no botão **[!UICONTROL Adicionar critério de saída]**.
-   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. Clique no ícone ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Mostrar Critérios de Saída]** localizado na seção superior direita da tela de jornada.
+
+1. Selecione **[!UICONTROL Adicionar critérios de saída]**.
+
 1. Insira um **Rótulo** e selecione se seus critérios de saída se baseiam em um **Evento** ou em um **Público-alvo**.
 
-* Para os critérios de Saída baseados em um evento, como por exemplo, baixar um aplicativo ou adicionar um produto ao carrinho, escolha somente evento unitário.
-* Para critérios de Saída com base em um público-alvo, como por exemplo, um público-alvo que verifica se um cliente comprou nas últimas 24 horas, selecione um público-alvo. Observação: os critérios de saída que usam um público-alvo podem levar até 10 minutos para serem eficazes.
+   * Para os critérios de Saída baseados em um evento, como por exemplo, baixar um aplicativo ou adicionar um produto ao carrinho, escolha somente evento unitário.
+   * Para critérios de Saída com base em um público-alvo, como por exemplo, um público-alvo que verifica se um cliente comprou nas últimas 24 horas, selecione um público-alvo. Observação: os critérios de saída que usam um público-alvo podem levar até 10 minutos para serem eficazes.
 
 Você pode adicionar vários critérios de saída.
 
