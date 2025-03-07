@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 7e354b5235aa6a6378ebc3d13a2c99017064379f
+source-git-commit: 3646c67dd23bb786cf2486c5c43748197ba04f85
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 19%
+source-wordcount: '592'
+ht-degree: 16%
 
 ---
 
@@ -39,9 +39,7 @@ ht-degree: 19%
 
 As diretrizes da marca são um conjunto detalhado de regras e padrões que estabelecem a identidade visual e verbal de uma marca. Eles atuam como uma referência para manter uma representação de marca consistente em todas as plataformas de marketing e comunicação.
 
-<!--Upload feature currently behind feature flag--
-
-In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
+No [!DNL Journey Optimizer], agora há a opção de inserir e organizar manualmente os detalhes da sua marca ou carregar documentos de diretrizes da marca para extração automática de informações.
 
 ## Acessar marcas {#generative-access}
 
@@ -78,31 +76,21 @@ Para acessar o menu **[!UICONTROL Marcas]** em [!DNL Adobe Journey Optimizer], o
 >title="Criar sua marca"
 >abstract="Insira o nome da sua marca e faça upload do arquivo de diretrizes da marca. A ferramenta extrairá automaticamente os principais detalhes, facilitando a manutenção da identidade da sua marca."
 
-Para criar e gerenciar as diretrizes da sua marca, siga as etapas abaixo.
-
-<!--Upload feature currently behind feature flag--
-
-To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:-->
+Para criar e gerenciar as diretrizes de marca, você pode inserir os detalhes por conta própria ou fazer upload do documento de diretrizes de marca para que as informações sejam extraídas automaticamente:
 
 1. No menu **[!UICONTROL Marcas]**, clique em **[!UICONTROL Criar marca]**.
 
    ![](assets/brands-1.png)
 
-1. Digite um **[!UICONTROL Nome]** para sua marca<!--and a **[!UICONTROL Description]** to your brand guideline-->.
+1. Digite um **[!UICONTROL Nome]** para sua marca.
 
-   ![](assets/brands-2-temp.png)
+1. Arraste e solte ou selecione seu arquivo para fazer upload das diretrizes da marca e extrair automaticamente informações relevantes sobre a marca. Clique em **[!UICONTROL Criar marca]**.
 
-<!--Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)--
+   O processo de extração de informações agora começa. Observe que pode levar vários minutos para ser concluído.
 
-1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
+   ![](assets/brands-2.png)
 
-    The information extraction process now begins. Note that it may take several minutes to complete.
-
-    ![](assets/brands-2.png)
-
-1. Your Content and visual creation standards are now automatically populated. Browse through the different tabs to adapt the information as needed.
-
--->
+1. Seus padrões de criação de conteúdo e visual agora são preenchidos automaticamente. Navegue pelas diferentes guias para adaptar as informações conforme necessário.
 
 1. Na guia **[!UICONTROL Estilo de Escrita]**, clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar uma diretriz ou exclusão, incluindo exemplos.
 
