@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: c1ca6175e504dff5e89aaddc2105d150992a8b28
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 22%
+source-wordcount: '1277'
+ht-degree: 21%
 
 ---
 
@@ -166,6 +166,10 @@ Se você não quiser executar sua campanha logo após a ativação, poderá espe
 ![](assets/create-campaign-schedule.png)
 
 Para campanhas de Email, SMS e Notificação por push, você pode definir uma frequência na qual a mensagem da campanha deve ser enviada. Para fazer isso, use as opções **[!UICONTROL Action triggers]** na tela de criação da campanha para especificar se a campanha deve ser executada diariamente, semanalmente ou mensalmente.
+
+>[!NOTE]
+>
+>Ao agendar campanhas em [!DNL Adobe Journey Optimizer], verifique se a data/hora de início está alinhada com a primeira entrega desejada. Para campanhas recorrentes, se o horário agendado inicial já tiver passado, as campanhas serão transferidas para o próximo período disponível, de acordo com suas regras de recorrência.
 
 ## Outras configurações {#settings}
 
