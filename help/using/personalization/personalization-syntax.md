@@ -9,17 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, sintaxe, personalização
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 7%
+source-wordcount: '571'
+ht-degree: 3%
 
 ---
 
 # Sintaxe de personalização {#personalization-syntax}
 
-O Personalization em [!DNL Journey Optimizer] é baseado na sintaxe de modelo chamada Handlebars.
-Para obter uma descrição completa da sintaxe Handlebars, consulte a [documentação de HandlebarsJS](https://handlebarsjs.com/).
+O Personalization em [!DNL Journey Optimizer] é baseado na sintaxe de modelo chamada Handlebars. Para obter uma descrição completa da sintaxe Handlebars, consulte a [documentação de HandlebarsJS](https://handlebarsjs.com/).
 
 Ele usa um modelo e um objeto de entrada para gerar HTML ou outros formatos de texto. Os modelos de Handlebars parecem texto regular com expressões Handlebars incorporadas.
 
@@ -34,107 +33,96 @@ em que:
 
 ## Regras gerais de sintaxe {#general-rules}
 
-Os identificadores podem ser qualquer caractere unicode, exceto para o seguinte:
+* Os identificadores podem ser qualquer caractere unicode, exceto para o seguinte:
 
-```
-Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
-```
+  ```
+  Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
+  ```
 
-A sintaxe diferencia maiúsculas de minúsculas.
+* A sintaxe diferencia maiúsculas de minúsculas.
 
-As palavras **true**, **false**, **null** e **undefined** só são permitidas na primeira parte de uma expressão de caminho.
+* As palavras **true**, **false**, **null** e **undefined** só são permitidas na primeira parte de uma expressão de caminho.
 
-Em Handlebars, os valores retornados por {{expression}} são **HTML-escaped**. Se a expressão contiver `&`, a saída de HTML de escape retornada será gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;triple-stash&quot;.
+* Em Handlebars, os valores retornados por {{expression}} são **HTML-escaped**. Se a expressão contiver `&`, a saída HTML-escaped retornada será gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;triple-stash&quot;.
 
-Em relação a argumentos de funções literais, o analisador de linguagem de modelo não oferece suporte ao símbolo único de barra invertida sem escape (`\`). Este caractere deve ser evitado com um símbolo de barra invertida adicional (`\`). Exemplo:
+* Em relação a argumentos de funções literais, o analisador de linguagem de modelo não oferece suporte ao símbolo único de barra invertida sem escape (`\`). Este caractere deve ser evitado com um símbolo de barra invertida adicional (`\`). Exemplo:
 
-`{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
+  `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
-## Perfil
+## Namespaces disponíveis {#namespaces}
 
-Este namespace permite referenciar todos os atributos definidos no esquema de perfil descrito na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+* **Perfil**
 
-Os atributos precisam ser definidos no esquema antes de serem referenciados em um bloco de personalização [!DNL Journey Optimizer].
+  Este namespace permite referenciar todos os atributos definidos no esquema de perfil descrito na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 
->[!NOTE]
->
->Saiba como aproveitar atributos de perfil em condições na [esta seção](functions/helpers.md#if-function).
+  Os atributos precisam ser definidos no esquema antes de serem referenciados em um bloco de personalização [!DNL Journey Optimizer].
 
-**Referências de exemplo:**
+  Para obter mais informações sobre como utilizar atributos de perfil em condições, consulte [esta seção](functions/helpers.md#if-function).
 
-`{{profile.person.name.fullName}}`
+  +++Exemplos de referências
 
-`{{profile.person.name.firstName}}`
+   * `{{profile.person.name.fullName}}`
+   * `{{profile.person.name.firstName}}`
+   * `{{profile.person.gender}}`
+   * `{{profile.personalEmail.address}}`
+   * ` {{profile.mobilePhone.number}}`
+   * `{{profile.homeAddress.city}}`
+   * `{{profile.faxPhone.number}}`
 
-`{{profile.person.gender}}`
++++
 
-`{{profile.personalEmail.address}}`
+* **Público-alvo**
 
-`{{profile.mobilePhone.number}}`
+  Para saber mais sobre o serviço de segmentação, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 
-`{{profile.homeAddress.city}}`
+* **Ofertas**
 
-`{{profile.faxPhone.number}}`
+  Esse namespace permite fazer referência às decisões de ofertas existentes.
 
-## Públicos-alvo{#perso-segments}
+  Para fazer referência a uma oferta, é necessário declarar um caminho com as diferentes informações que definem uma oferta. Esse caminho tem a seguinte estrutura:
 
-Saiba como aproveitar atributos de perfil em condições na [esta seção](functions/helpers.md#if-function).
+  `offers.Type.[Placement Id].[Activity Id].Attribute`
 
->[!NOTE]
->Para saber mais sobre o serviço de segmentação, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
+  em que:
 
-## Ofertas {#offers-syntax}
+   * `offers` identifica a expressão de caminho pertencente ao namespace da oferta
+   * `Type` determina o tipo de representação da oferta. Os valores possíveis são: `image`, `html` e `text`
+   * `Placement Id` e `Activity Id` são identificadores de posicionamento e atividade
+   * `Attributes` são atributos específicos da oferta que dependem do tipo de oferta. Exemplo: `deliveryUrl` para imagens
 
-Esse namespace permite fazer referência às decisões de ofertas existentes.
-Para fazer referência a uma oferta, é necessário declarar um caminho com as diferentes informações que definem uma oferta.
+  Para obter mais informações sobre a API de Decisões e representações de Oferta, consulte [esta página](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
-Esse caminho tem a seguinte estrutura:
+  Todas as referências são validadas em relação ao Esquema de Ofertas com um mecanismo de validação descrito em [esta página](../personalization/personalization-build-expressions.md)
 
-`offers.Type.[Placement Id].[Activity Id].Attribute`
+  +++Exemplos de referências
 
-em que:
+   * Local onde a imagem está hospedada:
 
-* `offers` identifica a expressão de caminho pertencente ao namespace da oferta
-* `Type` determina o tipo de representação da oferta. Os valores possíveis são: `image`, `html` e `text`
-* `Placement Id` e `Activity Id` são identificadores de posicionamento e atividade
-* `Attributes` são atributos específicos da oferta que dependem do tipo de oferta. Exemplo: `deliveryUrl` para imagens
+     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-Para obter mais informações sobre a API de Decisões e a Representação de Ofertas, consulte [esta página](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+   * URL do Target ao clicar na imagem:
 
-Todas as referências são validadas em relação ao Esquema de Ofertas com um mecanismo de validação descrito em [esta página](personalization-validation.md)
+     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-**Referências de exemplo:**
+   * Conteúdo de texto da oferta proveniente do mecanismo de decisão:
 
-* Local onde a imagem está hospedada:
+     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+   * Conteúdo HTML da oferta proveniente do mecanismo de decisão:
 
-* URL do Target ao clicar na imagem:
+     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
-
-* Conteúdo de texto da oferta proveniente do mecanismo de decisão:
-
-  `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
-
-* Conteúdo HTML da oferta proveniente do mecanismo de decisão:
-
-  `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
-
++++
 
 ## Auxiliares{#helpers-all}
 
-Um auxiliar do Handlebars é um identificador simples que pode ser seguido por parâmetros.
-Cada parâmetro é uma expressão Handlebars. Esses auxiliares podem ser acessados de qualquer contexto em um modelo.
+Um auxiliar do Handlebars é um identificador simples que pode ser seguido por parâmetros. Cada parâmetro é uma expressão Handlebars. Esses auxiliares podem ser acessados de qualquer contexto em um modelo.
 
-Esses auxiliares de bloco são identificados por um # precedendo o nome do auxiliar e exigem um / de fechamento correspondente, do mesmo nome.
-Blocos são expressões que têm um bloco abrindo ({{# }}) e fechando ({{/}}).
+Esses auxiliares de bloco são identificados por um `#` precedendo o nome do auxiliar e exigem um `/` de fechamento correspondente, do mesmo nome.
 
+Blocos são expressões que têm um bloco abrindo (`{{# }}`) e fechando (`{{/}}`).
 
->[!NOTE]
->
->As funções auxiliares estão detalhadas em [esta seção](functions/helpers.md).
->
+Para obter mais informações sobre funções auxiliares, consulte [esta seção](functions/helpers.md).
 
 ## Tipos literais {#literal-types}
 
@@ -150,30 +138,3 @@ Blocos são expressões que têm um bloco abrindo ({{# }}) e fechando ({{/}}).
 >[!CAUTION]
 >
 >O uso da variável **xEvent** não está disponível em expressões de personalização. Qualquer referência a xEvent resultará em falhas de validação.
-
-## URL do Personalization{#perso-urls}
-
-Os URLs personalizados levam os destinatários para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. No Adobe Journey Optimizer, você pode adicionar personalização a URLs no conteúdo da mensagem. A personalização de URLs pode ser aplicada ao texto e às imagens, e usar dados do perfil ou dados contextuais.
-
-O Journey Optimizer permite personalizar um ou vários URLs em sua mensagem adicionando campos de personalização a eles. Para personalizar um URL, siga as etapas abaixo:
-
-1. Crie um link no conteúdo da mensagem. [Saiba mais](../email/message-tracking.md#insert-links)
-1. No ícone de personalização, selecione os atributos. O ícone de personalização só está disponível para estes tipos de links: **Link externo**, **Link de unsubscription** e **Opt-Out**.
-
-   ![](assets/perso-url.png)
-
->[!NOTE]
->
->No editor de personalização, ao editar um URL personalizado, as funções auxiliares e a associação de públicos-alvo são desativadas por motivos de segurança.
->
-
-**Amostras de URLs personalizadas**
-
-* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
-* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
-* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
-* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
-
->[!CAUTION]
->
->Não há suporte para espaços nos tokens de personalização usados em urls.

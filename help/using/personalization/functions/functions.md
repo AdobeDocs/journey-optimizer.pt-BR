@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 27%
@@ -16,8 +16,6 @@ ht-degree: 27%
 # Introdução às funções Auxiliares{#functions}
 
 Use a linguagem de modelo [!DNL Journey Optimizer] para executar operações em dados, como cálculos, formatação ou conversões de dados, condições e manipulá-las no contexto da personalização. Saiba mais sobre as diretrizes da sintaxe de personalização em [esta página](../personalization-syntax.md).
-
-
 
 ➡️ [Saiba como usar funções auxiliares neste vídeo](#video)
 
