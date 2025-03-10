@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: query, coleções, funções, carga, jornada
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
+source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 A linguagem de expressão também introduz um conjunto de funções para consultar coleções.
 
-Essas funções são explicadas abaixo. Nos exemplos a seguir, vamos usar a carga do evento que contém uma coleção:
+Essas funções são explicadas abaixo. No exemplo a seguir, vamos usar a carga do evento que contém uma coleção:
 
 ```json
                 { 
