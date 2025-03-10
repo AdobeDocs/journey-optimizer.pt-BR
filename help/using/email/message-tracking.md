@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
+source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1198'
 ht-degree: 31%
 
 ---
@@ -120,7 +120,7 @@ Para definir o target de um link, siga estas etapas:
 
 1. Em um componente **[!UICONTROL Texto]**, no qual um link é inserido, selecione seu link.
 
-1. Na guia **[!UICONTROL Configurações]**, selecione onde o link será aberto no menu suspenso **[!UICONTROL Destino]**:
+1. Na guia **[!UICONTROL Configurações]**, selecione onde o link será aberto no menu suspenso **[!UICONTROL Destino]**. Os valores possíveis estão listados abaixo:
 
    * **[!UICONTROL Nenhum]**: abre o link no mesmo quadro em que foi clicado (padrão).
    * **[!UICONTROL Branco]**: abre o link em uma nova janela ou guia.
