@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
 source-wordcount: '6222'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -27,16 +27,16 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 ## Fevereiro de 2025 {#feb-2025}
 
 * Os painéis de atividade &quot;Ler público-alvo&quot; foram atualizados para especificar que apenas uma atividade pode ser usada em uma jornada e que pode direcionar apenas um público-alvo. [Leia mais](../building-journeys/read-audience.md)
-* As medidas de proteção de jornada ao usar atividades do Campaign foram atualizadas. [Leia mais](../start/guardrails.md#ac-g)
-* As etapas para criar suas primeiras jornadas foram detalhadas e os links para a seção de documentação foram adicionados. [Leia mais](../building-journeys/journey-gs.md)
-* Uma nova página agora está disponível para detalhar o painel de jornada e a interface do usuário de filtragem. [Leia mais](../building-journeys/journey-ui.md)
+* As medidas de proteção de jornada para o uso de atividades do Campaign foram atualizadas. [Leia mais](../start/guardrails.md#ac-g)
+* Agora as etapas para criar suas primeiras jornadas foram detalhadas e há links para a seção de documentação. [Leia mais](../building-journeys/journey-gs.md)
+* Há uma nova página disponível para fornecer detalhes sobre o painel de jornada e a interface de filtragem. [Leia mais](../building-journeys/journey-ui.md)
 * A documentação sobre **[!UICONTROL Otimização do tempo de envio]** e as perguntas frequentes relacionadas foi atualizada, aprimorada e movida para uma nova página dedicada. [Leia mais](../building-journeys/send-time-optimization.md)
 * Novas medidas de proteção foram adicionadas para eventos de jornada. [Leia mais](../start/guardrails.md#events-g)
 * A página de ações do canal integrado foi reorganizada. [Leia mais](../building-journeys/journeys-message.md)
-* As medidas de proteção e limitações foram adicionadas nas seções Decisão e Gestão de decisões.
-   * [Medidas de proteção e limitações da decisão](../experience-decisioning/decisioning-guardrails.md)
-   * [Medidas de proteção e limitações do gerenciamento de decisão](../offers/decision-management-guardrails.md)
-* Uma nova seção sobre dados de contexto foi adicionada na documentação de Gestão de decisões. Ele fornece informações sobre como aproveitar os dados de contexto no mecanismo de decisão, por exemplo, para projetar uma regra de decisão que exija que o tempo atual seja ≥ 80 graus no momento em que a solicitação de decisão é feita. [Leia mais](../offers/context-data.md)
+* Foram adicionadas medidas de proteção e limitações nas seções Decisão e Gestão de decisões.
+   * [Medidas de proteção e limitações do serviço de decisão](../experience-decisioning/decisioning-guardrails.md)
+   * [Medidas de proteção e limitações da gestão de decisões](../offers/decision-management-guardrails.md)
+* Uma nova seção sobre dados de contexto foi adicionada na documentação da Gestão de decisões. Ela fornece informações sobre como aproveitar os dados de contexto no mecanismo de decisão, por exemplo, para criar uma regra de decisão que exija que a temperatura atual seja ≥ 80 graus no momento em que a solicitação de decisão é feita. [Leia mais](../offers/context-data.md)
 
 ## Janeiro de 2025 {#jan-2025}
 
@@ -135,7 +135,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
    * E: atalho usado para acionar um evento em uma jornada baseada em eventos.
    * P: atalho para acionar um evento em uma jornada baseada em públicos-alvo para a qual a opção de &quot;Um único perfil por vez&quot; está ativada.
    * L: atalho para exibir os logs de teste.
-* A página Regras de frequência de mensagem foi atualizada com uma nova subseção sobre limite de frequência diária, que está disponível sob demanda além de limite semanal ou mensal.
+* A página Regras de frequência de mensagens foi atualizada com uma nova subseção sobre limite de frequência diária, que está disponível por demanda além dos limites semanal e mensal. 
 * A página Trabalhar com políticas de consentimento foi aprimorada e atualizada com links úteis para a documentação da Experience Platform. [Leia mais](../action/consent.md)
 * Uma nova seção foi adicionada para refletir o fato de que é possível exibir modelos de conteúdo de email em HTML como miniaturas com o modo de Visualização em grade (disponibilidade limitada). [Leia mais](../content-management/content-templates.md#template-thumbnails)
 * Uma nova seção foi adicionada à página “Capacidade de entrega” para explicar o que são os ciclos de feedback e como aproveitá-los. [Leia mais](../reports/deliverability.md#feedback-loops)
@@ -152,7 +152,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Atualização da lista de funções disponíveis no editor de expressão avançado. [Leia mais](../building-journeys/expression/functions.md)
 * Atualização da página sobre a função Divisão. [Leia mais](../building-journeys/functions/functioninaudience.md)
 * Adição de informações sobre o impacto da aceitação ou recusa de notificações por push em mensagens no aplicativo. [Leia mais](../in-app/create-in-app.md)
-* A página Message frequency rules foi atualizada para refletir as opções de Duração disponíveis na interface do usuário (semanal ou mensal).
+* A página Regras de frequência de mensagens foi atualizada para refletir as opções de duração disponíveis na interface (semanal ou mensal).
 * Atualização da seção Editar um registro PTR para esclarecer o fato de que não é possível criar registros PTR manualmente e que é necessário editar os registros PTR para atribuir novos subdomínios a eles. [Leia mais](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Janeiro de 2024 {#jan-2024}
@@ -350,7 +350,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 ## Agosto de 2022 {#august-2022}
 
 * Todos os novos recursos e aprimoramentos chegando com a versão de agosto de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
-* A seção Regras de frequência foi atualizada para refletir o novo fluxo de mensagens integrado.
+* A seção Regras de frequência foi atualizada para refletir o novo fluxo de mensagens integrado. 
 * Um vídeo que mostra como configurar assinaturas e criar páginas de destino agora é referenciado na seção Introdução às páginas de destino. [Leia mais](../landing-pages/get-started-lp.md#video)
 * Uma limitação foi adicionada para jornadas que usam atividades de público-alvo de leitura. [Leia mais](../building-journeys/read-audience.md)
 * A página de operadores do editor de expressão foi aprimorada. [Leia mais](../building-journeys/expression/operators.md)

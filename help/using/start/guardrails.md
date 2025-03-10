@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
 source-wordcount: '2346'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -35,14 +35,14 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 
 ## Medidas de proteção de conjuntos de dados {#datasets-guardrails}
 
-A partir de fevereiro de 2025, uma garantia de TTL (time-to-live) será implantada em conjuntos de dados gerados pelo sistema da Journey Optimizer em **novas sandboxes e novas organizações** da seguinte maneira:
+A partir de fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer para **novas sandboxes e organizações** da seguinte maneira:
 
 * 90 dias para dados na loja de perfis,
 * 13 meses para dados no data lake.
 
-Esta alteração será implantada em **sandboxes de clientes existentes** em uma fase subsequente. [Saiba mais sobre as medidas de proteção de Tempo de vida (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
+Essa alteração será implementada nas **sandboxes de clientes existentes** em uma próxima fase. [Saiba mais sobre as medidas de proteção de Tempo de vida (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
 
-## Grades de proteção de canais {#channel-guardrails}
+## Medidas de proteção de canais {#channel-guardrails}
 
 ### Medidas de proteção de email {#message-guardrails}
 
@@ -57,13 +57,13 @@ Esta alteração será implantada em **sandboxes de clientes existentes** em uma
 
 ### Medidas de proteção do canal da Web {#web-guardrails}
 
-As campanhas da Web do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumentará a contagem total de perfis utilizáveis, o que pode ter implicações de custo se o número contratual de perfis utilizáveis que você adquiriu for excedido.
+As campanhas da Web do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. 
 
 As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-### Medidas de proteção de canal baseadas em código {#code-based-guardrails}
+### Medidas de proteção de canal baseado em código {#code-based-guardrails}
 
-Para usar ações de experiência baseadas em código no [!DNL Journey Optimizer] e fornecer a carga de conteúdo de código que pode ser usada por seus aplicativos, siga os pré-requisitos detalhados em [esta página](../code-based/code-based-prerequisites.md).
+Para usar ações de experiência baseada em código no [!DNL Journey Optimizer] e fornecer conteúdo de código que possa ser usado por seus aplicativos, siga os pré-requisitos detalhados [nesta página](../code-based/code-based-prerequisites.md).
 
 ## Medidas de proteção das páginas de destino {#lp-guardrails}
 
@@ -87,12 +87,12 @@ No entanto, dependendo do contrato de licença, talvez você possa delegar até 
 
 Você pode publicar até 10 composições de público-alvo em uma determinada sandbox. Se tiver atingido esse limite, será necessário excluir uma composição para liberar espaço e publicar uma nova.
 
-## Medidas de proteção para gerenciamento de decisões e decisões {#decisioning-guardrails}
+## Medidas de proteção de decisão e gestão de decisões {#decisioning-guardrails}
 
-As medidas de proteção e limitações que devem ser consideradas ao trabalhar com a Gestão de decisões ou a Gestão de decisões estão detalhadas nas seções Gestão de decisões e gestão de decisões:
+As medidas de proteção e limitações que devem ser consideradas ao trabalhar com o serviço de decisão ou a gestão de decisões estão detalhadas nas seções Decisão e Gestão de decisões:
 
-* [Medidas de proteção e limitações da decisão](../experience-decisioning/decisioning-guardrails.md)
-* [Medidas de proteção e limitações do gerenciamento de decisão](../offers/decision-management-guardrails.md)
+* [Medidas de proteção e limitações do serviço de decisão](../experience-decisioning/decisioning-guardrails.md)
+* [Medidas de proteção e limitações da gestão de decisões](../offers/decision-management-guardrails.md)
 
 
 ## Medidas de proteção de jornada {#journeys-guardrails}
@@ -220,4 +220,4 @@ Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Salto]*
 As seguintes medidas de proteção se aplicam às atividades do **[!UICONTROL Campaign v7/v8]** e **[!UICONTROL Campaign Standard]**:
 
 * As atividades do Adobe Campaign não podem ser usadas com uma atividade Público-alvo de leitura ou Qualificação de público-alvo.
-* As atividades de campanha não podem ser usadas com as outras atividades de canais: Cartão, Experiência baseada em código, Email, Push, SMS, Mensagens no aplicativo e Web.
+* As atividades de campanha não podem ser usadas com as outras atividades de canais: cartão, experiência baseada em código, email, push, sms, mensagens no aplicativo e web.

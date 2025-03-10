@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ Os principais conceitos de navegação nas interfaces comuns à Adobe Experience
 
 >[!NOTE]
 >
->* Os componentes e recursos disponíveis em seu ambiente dependem das suas [permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Se tiver dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe ou com o representante da Adobe.
+>* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
 >
 >* Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
 >
@@ -122,7 +122,7 @@ Controle o gerenciamento de privacidade e as solicitações nesta seção.
 
 * **[!UICONTROL Auditoria]**: navegue até esta seção para verificar os logs de atividades. [Saiba mais](../privacy/audit-logs.md)
 
-* **[!UICONTROL Ciclo de vida dos dados]** - Essa seção permite configurar e agendar operações de ciclo de vida dos dados, garantindo que seus registros sejam mantidos corretamente. [Saiba mais](../privacy/data-hygiene.md)
+* **[!UICONTROL Ciclo de vida de dados]**: esta seção permite configurar e agendar operações de ciclo de vida de dados, garantindo que seus registros sejam mantidos corretamente. [Saiba mais](../privacy/data-hygiene.md)
 
 ### [!UICONTROL ADMINISTRAÇÃO] {#left-nav-admin}
 

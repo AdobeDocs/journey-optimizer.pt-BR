@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
 workflow-type: tm+mt
 source-wordcount: '2251'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -168,8 +168,8 @@ ht-degree: 89%
       + Casos de uso técnicos {#technical-use-cases}
          + [Envio dinâmico de coleções usando ações personalizadas](using/building-journeys/collections.md)
          + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limitar a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
-         + [Usar ações personalizadas para gravar eventos de jornada no Experience Platform](using/building-journeys/custom-action-aep.md)
+         + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
+         + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campanhas em várias etapas {#ms-campaigns}
    + [Introdução a campanhas com várias etapas](using/ms/gs-ms-campaigns.md)
    + Crie sua primeira campanha em várias etapas {#create-ms-campaign}
@@ -210,7 +210,7 @@ ht-degree: 89%
    + [Atribuir pontuações de prioridade](using/conflict-prioritization/priority-scores.md)
    + [Limite e arbitragem de jornada](using/conflict-prioritization/journey-capping.md)
 + Testar e aprovar {#test}
-   + Visualizar e testar o conteúdo {#preview-test}
+   + Visualizar e testar conteúdo {#preview-test}
       + [Introdução à visualização e teste](using/content-management/preview-test.md)
       + [Seleção de perfis de teste](using/content-management/test-profiles.md)
       + [Visualização do conteúdo](using/content-management/preview.md)
@@ -245,7 +245,7 @@ ht-degree: 89%
          + Editar estilo {#edit-style}
             + [Introdução ao estilo de email](using/email/get-started-email-style.md)
             + [Editar configurações de fundo](using/email/backgrounds.md)
-            + [Ajustar alinhamento vertical e preenchimento](using/email/alignment-and-padding.md)
+            + [Ajustar o alinhamento vertical e o preenchimento](using/email/alignment-and-padding.md)
             + [Adicionar atributos de estilo incorporado](using/email/inline-styling.md)
       + [Gerenciar opção de não participação de email](using/email/email-opt-out.md)
       + Configurar canal de email {#configure-email}
@@ -261,12 +261,12 @@ ht-degree: 89%
       + [Criar uma mensagem para o aplicativo móvel](using/in-app/create-in-app.md)
       + [Criar uma mensagem para o aplicativo web](using/in-app/create-in-app-web.md)
       + [Criar seu conteúdo no aplicativo](using/in-app/design-in-app.md)
-      + [Marque e envie sua notificação no aplicativo](using/in-app/send-in-app.md)
+      + [Verificação e envio da notificação no aplicativo](using/in-app/send-in-app.md)
    + Canal de notificação por push{#push}
       + [Introdução à notificação por push](using/push/get-started-push.md)
       + [Criar uma notificação por push](using/push/create-push.md)
       + [Projetar a notificação por push](using/push/design-push.md)
-      + [Marque e envie sua notificação por push](using/push/send-push.md)
+      + [Verificação e envio da notificação por push](using/push/send-push.md)
       + Configuração de notificações por push{#push-config}
          + [Fluxo de notificação por push](using/push/push-gs.md)
          + [Configurar canal de notificação por push](using/push/push-configuration.md)
@@ -274,7 +274,7 @@ ht-degree: 89%
    + Canal SMS/MMS{#sms}
       + [Introdução a mensagem de texto](using/sms/get-started-sms.md)
       + [Criação de uma mensagem de texto (SMS/MMS)](using/sms/create-sms.md)
-      + [Verificar e enviar suas mensagens de texto](using/sms/send-sms.md)
+      + [Verificação e envio de mensagens de texto](using/sms/send-sms.md)
       + [Gerenciamento da opção de não participação de mensagem de texto](using/sms/sms-opt-out.md)
       + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
       + Configurar canal de SMS/MMS{#configure-sms}
@@ -287,7 +287,7 @@ ht-degree: 89%
    + Correspondência direta {#direct-mail}
       + [Introdução à correspondência direta](using/direct-mail/get-started-direct-mail.md)
       + [Criação de uma correspondência direta](using/direct-mail/create-direct-mail.md)
-      + [Marque e envie uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
+      + [Verificação e envio de uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
       + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
    + Canal da Web {#web}
       + [Introdução ao canal Web](using/web/get-started-web.md)
@@ -342,8 +342,8 @@ ht-degree: 89%
       + [Geração de SMS com IA](using/content-management/generative-sms.md)
       + [Geração na Web com IA](using/content-management/generative-web.md)
       + [Experimento de conteúdo com IA](using/content-management/generative-experimentation.md)
-      + [Página de aterrissagem com IA](using/content-management/generative-lp.md)
-      + [Casos de uso do Assistente de IA](using/content-management/generative-uc.md)
+      + [Página de destino com IA](using/content-management/generative-lp.md)
+      + [Casos de uso do assistente de IA](using/content-management/generative-uc.md)
       + [Criar e gerenciar suas marcas (Beta)](using/content-management/brands.md)
    + Trabalhar com conteúdo multilíngue{#content-multilingual}
       + [Introdução ao conteúdo multilíngue](using/content-management/multilingual-gs.md)
@@ -400,7 +400,7 @@ ht-degree: 89%
       + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
       + [Criar regras condicionais](using/personalization/create-conditions.md)
       + [Criar conteúdo dinâmico](using/personalization/dynamic-content.md)
-+ Públicos, perfis e identidade{#audiences-profiles-identities}
++ Públicos-alvo, perfis e identidade{#audiences-profiles-identities}
    + Públicos-alvo {#audiences}
       + [Introdução aos públicos-alvo](using/audience/about-audiences.md)
       + Criar públicos-alvo {#create}
@@ -424,7 +424,7 @@ ht-degree: 89%
    + [Trabalhar com fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments.md)
    + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
 + Rastrear e monitorar {#reporting}
-   + Relatório ao vivo {#live-report}
+   + Relatório em tempo real {#live-report}
       + [Introdução aos relatórios em tempo real](using/reports/live-report.md)
       + [Lista de componentes](using/reports/live-report-components.md)
       + [Relatório da jornada em tempo real](using/reports/journey-live-report.md)
@@ -481,7 +481,7 @@ ht-degree: 89%
    + [Introdução aos recursos de decisão](using/experience-decisioning/gs-decision.md)
    + Decisões {#experience-decisioning}
       + [Introdução ao serviço de Decisão](using/experience-decisioning/gs-experience-decisioning.md)
-      + [Medidas de proteção e limitações da decisão](using/experience-decisioning/decisioning-guardrails.md)
+      + [Medidas de proteção e limitações do serviço de decisão](using/experience-decisioning/decisioning-guardrails.md)
       + Referência da API{#api-reference}
          + Criar e gerenciar itens de oferta {#create-manage}
             + Itens de decisão{#decision-items}
@@ -518,7 +518,7 @@ ht-degree: 89%
    + Gestão de decisões {#offer-decisioning}
       + Introdução ao Gestão de decisões {#get-started-decision}
          + [Sobre a Gestão de decisões](using/offers/get-started/starting-offer-decisioning.md)
-         + [Medidas de proteção e limitações de gerenciamento de decisão](using/offers/decision-management-guardrails.md)
+         + [Medidas de proteção e limitações do gerenciamento de decisão](using/offers/decision-management-guardrails.md)
          + [Interface do usuário](using/offers/get-started/user-interface.md)
          + [Etapas principais para criar e gerenciar ofertas](using/offers/offer-library/key-steps.md)
          + [Usar públicos-alvo de upload personalizados para a tomada de decisão](using/offers/custom-upload-decisioning.md)
@@ -553,8 +553,8 @@ ht-degree: 89%
          + [Criar um conjunto de dados para coletar eventos](using/offers/data-collection/create-dataset.md)
          + [Configurar captura de eventos](using/offers/data-collection/schema-requirement.md)
       + Aproveitar dados de contexto {#context-data}
-         + [Introdução aos dados de contexto](using/offers/context-data.md)
-         + [Dados de contexto e solicitações de decisão do Edge](using/offers/context-data-edge.md)
+         + [Introdução a dados de contexto](using/offers/context-data.md)
+         + [Dados de contexto e solicitações de decisão de borda](using/offers/context-data-edge.md)
          + [Solicitação de decisão e dados de contexto](using/offers/context-data-decisioning.md)
       + Criar relatórios de gestão de decisões {#create-reports}
          + [Trabalhar com eventos de gestão de decisões](using/offers/reports/get-started-events.md)
@@ -665,7 +665,7 @@ ht-degree: 89%
    + [Trabalhar com esquemas](using/data/get-started-schemas.md)
    + Conjuntos de dados do Journey Optimizer {#datasets}
       + [Introdução aos conjuntos de dados](using/data/get-started-datasets.md)
-      + [Proteções de TTL (Time-to-live) dos conjuntos de dados](using/data/datasets-ttl.md)
+      + [Medidas de proteção de tempo de vida (TTL) dos conjuntos de dados](using/data/datasets-ttl.md)
       + [Exportar conjuntos de dados do Journey Optimizer](using/data/export-datasets.md)
       + [Exemplos de consultas](using/data/datasets-query-examples.md)
       + [Esquemas incorporados >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
@@ -720,7 +720,7 @@ ht-degree: 89%
       + Configuração de ação {#action-journeys}
          + [Introdução a ações personalizadas](using/action/action.md)
          + [Configurar uma ação personalizada](using/action/about-custom-action-configuration.md)
-         + [Solução de problemas de uma ação personalizada](using/action/troubleshoot-custom-action.md)
+         + [Solucionar problemas de uma ação personalizada](using/action/troubleshoot-custom-action.md)
          + [Usar as respostas de chamada da API em ações personalizadas](using/action/action-response.md)
          + [Integrar ao Adobe Campaign Standard](using/action/acs-action.md)
          + [Integrar ao Adobe Campaign v7/v8](using/action/acc-action.md)
@@ -746,4 +746,4 @@ ht-degree: 89%
       + [Gerenciar recusa](using/privacy/opt-out.md)
       + [Trabalhar com políticas de consentimento](using/action/consent.md)
    + [Governança de dados](using/action/action-privacy.md)
-   + [Configurar e gerenciar chaves gerenciadas pelo cliente](using/privacy/cmk.md)
+   + [Configurar e gerir chaves gerenciadas pelo cliente](using/privacy/cmk.md)
