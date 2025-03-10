@@ -5,56 +5,40 @@ title: Introdução a campanhas com várias etapas
 description: Saiba como começar com campanhas em várias etapas
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 32%
+source-wordcount: '434'
+ht-degree: 25%
 
 ---
 
 
 # Introdução a campanhas com várias etapas {#ms-camp}
 
+Campanhas em várias etapas aprimoram o Adobe Journey Optimizer, introduzindo recursos robustos de campanha em lote iniciados pela marca, permitindo que você planeje e orquestre campanhas entre canais com estratégias avançadas de segmentação.
 
 >[!BEGINSHADEBOX]
 
-**Nesta seção**
+**Índice**
 
-* Crie e execute sua primeira campanha em várias etapas
-   * [Princípios fundamentais](gs-campaign-creation.md)
-   * [Medidas de proteção e limitações](guardrails.md)
-   * [Criar a campanha](create-ms-campaign.md)
-   * [Orquestrar atividades](orchestrate-activities.md)
-   * [Definir configurações da campanha](ms-campaign-settings.md)
-   * [Iniciar e monitorar suas campanhas](start-monitor-campaigns.md)
-   * [Variáveis de evento em campanhas com várias etapas](event-variables.md)
+* Introdução a campanhas com várias etapas
+* [Princípios fundamentais](gs-campaign-creation.md)
+* [Medidas de proteção e limitações](guardrails.md)
+* [Criar a campanha](create-ms-campaign.md)
+* [Orquestrar atividades](orchestrate-activities.md)
+* [Definir configurações da campanha](ms-campaign-settings.md)
+* [Iniciar e monitorar suas campanhas](start-monitor-campaigns.md)
+* [Variáveis de evento em campanhas com várias etapas](event-variables.md)
 * Trabalhar com atividades de campanha em várias etapas
-   * [Sobre atividades de campanha em várias etapas](activities/about-activities.md)
-   * [And-join](activities/and-join.md)
-   * [Criar público-alvo](activities/build-audience.md)
-   * [Mudar dimensão](activities/change-dimension.md)
-   * [Combinar](activities/combine.md)
-   * [Desduplicação](activities/deduplication.md)
-   * [Ações do canal](activities/channels.md)
-   * [Enriquecimento](activities/enrichment.md)
-   * [Bifurcação](activities/fork.md)
-   * [Carregar arquivo](activities/load-file.md)
-   * [Reconciliação](activities/reconciliation.md)
-   * [Salvar público-alvo](activities/save-audience.md)
-   * [Scheduler](activities/scheduler.md)
-   * [Divisão](activities/split.md)
-   * [Teste](activities/test.md)
-   * [Atualizar dados](activities/update-data.md)
-   * [Aguardar](activities/wait.md)
+   * [Introdução a atividades](activities/about-activities.md)
+   * Lista de atividades: [And-join](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Ações de canal](activities/channels.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Carregar arquivo](activities/load-file.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Agendador](activities/scheduler.md) - [Divisão](activities/split.md) - [Teste](activities/test.md) - [Atualizar dados](activities/update-data.md) - [Aguardar](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
 
 ## O que são campanhas com várias etapas?
 
-O marketing entre canais é essencial para qualquer empresa que deseje alcançar seus clientes com eficiência. O Adobe Journey Optimizer fornece um ambiente gráfico abrangente que permite criar processos complexos que podem ajudá-lo a gerenciar suas campanhas de marketing com facilidade.
-
-Com campanhas com várias etapas, você pode orquestrar a gama completa de processos e tarefas, melhorar a velocidade e a escala de cada aspecto de suas campanhas de marketing, desde a criação de segmentos e preparação de mensagens até a entrega. Além disso, você pode sincronizar seus canais com uma interface única e fácil de usar para a orquestração de campanhas.
+O marketing entre canais é essencial para qualquer empresa que deseje alcançar seus clientes com eficiência. O Adobe Journey Optimizer fornece um ambiente gráfico abrangente que permite criar processos complexos que podem ajudá-lo a gerenciar suas campanhas de marketing com facilidade. Com campanhas com várias etapas, você pode orquestrar a gama completa de processos e tarefas, melhorar a velocidade e a escala de cada aspecto de suas campanhas de marketing, desde a criação de segmentos e preparação de mensagens até a entrega. Além disso, você pode sincronizar seus canais com uma interface única e fácil de usar para a orquestração de campanhas.
 
 Uma das vantagens mais significativas das campanhas em várias etapas é que elas simplificam o fornecimento de conteúdo personalizado aos seus clientes em todos os canais. Se os seus clientes preferem receber mensagens por email ou celular, o Adobe Journey Optimizer permite que você forneça uma experiência consistente e contextual em qualquer canal, transformando a jornada de cada cliente em uma experiência exclusiva.
 
