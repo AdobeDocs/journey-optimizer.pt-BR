@@ -5,13 +5,13 @@ title: Introdução a campanhas com várias etapas
 description: Saiba como começar com campanhas em várias etapas
 hide: true
 hidefromtoc: true
-source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
+exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
+source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 26%
 
 ---
-
 
 # Introdução a campanhas com várias etapas {#ms-camp}
 
@@ -31,7 +31,7 @@ Campanhas em várias etapas aprimoram o Adobe Journey Optimizer, introduzindo re
 >[!ENDSHADEBOX]
 
 
-## O que são campanhas com várias etapas?
+## O que é uma campanha em várias etapas?
 
 O marketing entre canais é essencial para qualquer empresa que deseje alcançar seus clientes com eficiência. O Adobe Journey Optimizer fornece um ambiente gráfico abrangente que permite criar processos complexos que podem ajudá-lo a gerenciar suas campanhas de marketing com facilidade. Com campanhas com várias etapas, você pode orquestrar a gama completa de processos e tarefas, melhorar a velocidade e a escala de cada aspecto de suas campanhas de marketing, desde a criação de segmentos e preparação de mensagens até a entrega. Além disso, você pode sincronizar seus canais com uma interface única e fácil de usar para a orquestração de campanhas.
 
