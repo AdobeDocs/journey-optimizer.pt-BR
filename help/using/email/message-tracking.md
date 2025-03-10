@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 34%
+source-wordcount: '1193'
+ht-degree: 31%
 
 ---
 
@@ -22,7 +22,7 @@ Use o [!DNL Journey Optimizer] para adicionar links ao seu conteúdo e rastrear 
 
 ## Ativar rastreamento {#enable-tracking}
 
-Você pode habilitar o rastreamento no nível da mensagem de email verificando as opções **[!UICONTROL Aberturas de email]** e/ou **[!UICONTROL Clique no email]** ao criar sua mensagem dentro de uma jornada ou campanha.
+Você pode habilitar o rastreamento no nível da mensagem de email verificando as opções **[!UICONTROL Aberturas de email]** e/ou **[!UICONTROL Clique no email]** ao criar sua mensagem dentro de uma jornada ou campanha, conforme mostrado nas guias abaixo:
 
 >[!BEGINTABS]
 
@@ -40,38 +40,34 @@ Você pode habilitar o rastreamento no nível da mensagem de email verificando a
 >
 >Ambas as opções estão ativadas por padrão.
 
-Isso permitirá rastrear o comportamento dos recipients por meio de:
+Quando ativadas, essas opções rastreiam o comportamento dos recipients das suas mensagens:
 
-* **[!UICONTROL Aberturas de email]**: mensagens que foram abertas.
-* **[!UICONTROL Clique no email]**: Cliques nos links de um email.
+* A métrica **[!UICONTROL Aberturas de email]** verifica quantas mensagens foram abertas.
+* A métrica **[!UICONTROL Clicar no email]** calcula o número de cliques nos links em um email.
 
 ## Inserir links {#insert-links}
 
-Ao criar uma mensagem, você pode adicionar links ao seu conteúdo.
-
->[!NOTE]
->
->Quando o [rastreamento é habilitado](#enable-tracking), todos os links incluídos no conteúdo da mensagem são rastreados.
+Quando o [rastreamento é habilitado](#enable-tracking), todos os links incluídos no conteúdo da mensagem são rastreados.
 
 Para inserir links no conteúdo do email, siga as etapas abaixo:
 
-1. Selecione um elemento e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
+1. Selecione um elemento (texto ou imagem) e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
 
    ![](assets/message-tracking-insert-link.png)
 
 1. Escolha o tipo de link que deseja criar:
 
-   * **[!UICONTROL Link externo]**: insira um link para uma URL externa.
+   * Selecione **[!UICONTROL Link externo]** para inserir um link para uma URL externa.
 
-   * **[!UICONTROL Página de aterrissagem]**: insira um link para uma página de aterrissagem. [Saiba mais](../landing-pages/get-started-lp.md)
+   * Selecione **[!UICONTROL Landing page]** para inserir um link a uma landing page. [Saiba mais](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Recusa em um clique]**: insira um link para permitir que os usuários cancelem rapidamente a inscrição de suas comunicações sem a necessidade de confirmar a recusa. [Saiba mais](email-opt-out.md#one-click-opt-out).
+   * Selecione **[!UICONTROL Recusa em um clique]** para inserir um link que permita aos usuários cancelar rapidamente a inscrição de suas comunicações sem a necessidade de confirmar a recusa. [Saiba mais](email-opt-out.md#one-click-opt-out).
 
-   * **[!UICONTROL Consentimento/Assinatura Externa]**: insira um link para aceitar receber comunicações da sua marca.
+   * Selecione **[!UICONTROL Consentimento/Assinatura externa]** para inserir um link para aceitar receber comunicações da sua marca.
 
-   * **[!UICONTROL Opção de não participação/Cancelamento de assinatura externo]**: insira um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa [nesta seção](email-opt-out.md#opt-out-management).
+   * Selecione **[!UICONTROL Opção de não participação/Cancelamento de assinatura externo]** para inserir um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa [nesta seção](email-opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Mirror page]**: adicione um link para exibir o conteúdo do email em um navegador da Web. [Saiba mais](#mirror-page)
+   * Selecione **[!UICONTROL Mirror page]** para adicionar um link à mirror page do email. [Saiba mais](#mirror-page)
 
 1. Insira o URL desejado no campo correspondente ou selecione uma landing page e defina as configurações e os estilos do link. [Saiba mais](#adjust-links)
 
@@ -91,13 +87,40 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 >
 >As mensagens de email do tipo Marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida na [configuração de canal](../configuration/channel-surfaces.md#email-type) ao criar a mensagem.
 
-## Ajustar links {#adjust-links}
 
-É possível fazer ajustes nos links usando os painéis **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** à direita. É possível sublinhar um link, editar sua cor e selecionar seu público alvo.
+## Link para uma mirror page {#mirror-page}
+
+A mirror page é uma versão online do email. Adicionar um link para a mirror page é uma prática recomendada de marketing por email. Os usuários podem navegar até a mirror page de um email. Por exemplo, se estiverem enfrentando problemas de renderização ou imagens quebradas ao tentar exibi-la em sua caixa de entrada. Também é recomendável fornecer uma versão online por motivos de acessibilidade ou incentivar o compartilhamento em redes sociais.
+
+A mirror page gerada pelo Adobe Journey Optimizer contém todos os dados de personalização.
+
+Para adicionar um link a uma mirror page no email, [insira um link](#insert-links) e selecione **[!UICONTROL Mirror page]** como o tipo de link.
+
+![](assets/message-tracking-mirror-page.png)
+
+A mirror page é criada automaticamente. Depois que o email for enviado, quando os destinatários clicarem no link da mirror page, o conteúdo do email será exibido no navegador web padrão.
+
+O período de retenção de uma mirror page é de **60 dias**. Após esse atraso, a mirror page não estará mais disponível.
+
+>[!CAUTION]
+>
+>* Os links de mirror pages são gerados automaticamente e não podem ser editados. Eles contêm todos os dados personalizados criptografados necessários para renderizar o email original. Como resultado, o uso de atributos personalizados com valores grandes pode gerar URLs de mirror pages longos, o que pode impedir que o link funcione em navegadores da Web com tamanho máximo de URLs.
+>
+>* Na [prova](../content-management/proofs.md) enviada aos perfis de teste, o link para a mirror page não está ativo. Ela só estará ativa nas mensagens finais.
+
+## Personalizar a aparência e o destino do link {#adjust-links}
+
+É possível fazer ajustes nos links, como sublinhá-los, alterar a cor ou selecionar o destino.  Essas alterações são definidas nos painéis **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]**, na seção direita do editor de conteúdo.
+
+### Target {#link-target}
+
+O atributo **target** é usado para controlar onde uma página vinculada será aberta. Adicionar um atributo de destino em uma tag de âncora pode especificar se o link deve ser aberto em uma nova guia, na mesma guia ou em um quadro diferente.
+
+Para definir o target de um link, siga estas etapas:
 
 1. Em um componente **[!UICONTROL Texto]**, no qual um link é inserido, selecione seu link.
 
-1. Na guia **[!UICONTROL Configurações]**, escolha como o público-alvo será redirecionado com o menu suspenso **[!UICONTROL Destino]**:
+1. Na guia **[!UICONTROL Configurações]**, selecione onde o link será aberto no menu suspenso **[!UICONTROL Destino]**:
 
    * **[!UICONTROL Nenhum]**: abre o link no mesmo quadro em que foi clicado (padrão).
    * **[!UICONTROL Branco]**: abre o link em uma nova janela ou guia.
@@ -107,37 +130,21 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
    ![](assets/link_2.png)
 
-1. Marque **[!UICONTROL Sublinhar link]** para sublinhar o texto do rótulo do seu link.
-
-   ![](assets/link_1.png)
-
-1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** na guia **[!UICONTROL Estilos]**.
-
-   ![](assets/link_3.png)
-
 1. Salve as alterações.
 
-## Link para uma mirror page {#mirror-page}
 
-A mirror page é uma página HTML acessível online através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do seu email.
+### Sublinhar link {#link-underline}
 
-Para adicionar um link a uma mirror page no email, [insira um link](#insert-links) e selecione **[!UICONTROL Mirror page]** como o tipo de link.
+Marque a opção **[!UICONTROL Sublinhar link]** para sublinhar o rótulo do seu link.
 
-![](assets/message-tracking-mirror-page.png)
+![](assets/link_1.png)
 
-A mirror page é criada automaticamente.
+### Cor do link {#link-color}
 
->[!IMPORTANT]
->
->Os links de mirror pages são gerados automaticamente e não podem ser editados. Eles contêm todos os dados personalizados criptografados necessários para renderizar o email original. Como resultado, o uso de atributos personalizados com valores grandes pode gerar URLs de mirror pages longos, o que pode impedir que o link funcione em navegadores da Web com tamanho máximo de URLs.
+Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** na guia **[!UICONTROL Estilos]**.
 
-Depois que o email for enviado, quando os destinatários clicarem no link da mirror page, o conteúdo do email será exibido no navegador web padrão.
+![](assets/link_3.png)
 
->[!NOTE]
->
->Na [prova](../content-management/proofs.md) enviada aos perfis de teste, o link para a mirror page não está ativo. Ele só é ativado nas mensagens finais.
-
-O período de retenção de uma mirror page é de 60 dias. Após esse atraso, a mirror page não estará mais disponível.
 
 ## Gerenciar rastreamento {#manage-tracking}
 
