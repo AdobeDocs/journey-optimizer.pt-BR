@@ -5,10 +5,10 @@ title: Introdução a campanhas com várias etapas
 description: Saiba como começar com campanhas em várias etapas
 hide: true
 hidefromtoc: true
-source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
+source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 25%
+source-wordcount: '419'
+ht-degree: 26%
 
 ---
 
@@ -21,17 +21,12 @@ Campanhas em várias etapas aprimoram o Adobe Journey Optimizer, introduzindo re
 
 **Índice**
 
-* Introdução a campanhas com várias etapas
-* [Princípios fundamentais](gs-campaign-creation.md)
-* [Medidas de proteção e limitações](guardrails.md)
-* [Criar a campanha](create-ms-campaign.md)
-* [Orquestrar atividades](orchestrate-activities.md)
-* [Definir configurações da campanha](ms-campaign-settings.md)
+* [Princípios principais](gs-campaign-creation.md) - [Medidas de proteção e limitações](guardrails.md)
+* [Criar uma campanha](create-ms-campaign.md) - [Definir configurações da campanha](ms-campaign-settings.md)
 * [Iniciar e monitorar suas campanhas](start-monitor-campaigns.md)
-* [Variáveis de evento em campanhas com várias etapas](event-variables.md)
-* Trabalhar com atividades de campanha em várias etapas
-   * [Introdução a atividades](activities/about-activities.md)
-   * Lista de atividades: [And-join](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Ações de canal](activities/channels.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Carregar arquivo](activities/load-file.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Agendador](activities/scheduler.md) - [Divisão](activities/split.md) - [Teste](activities/test.md) - [Atualizar dados](activities/update-data.md) - [Aguardar](activities/wait.md)
+* [Variáveis do evento](event-variables.md)
+* [Introdução às atividades](activities/about-activities.md) - [Orquestrar atividades](orchestrate-activities.md)
+* Lista de atividades: [And-join](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Ações de canal](activities/channels.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Carregar arquivo](activities/load-file.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Agendador](activities/scheduler.md) - [Divisão](activities/split.md) - [Teste](activities/test.md) - [Atualizar dados](activities/update-data.md) - [Aguardar](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
