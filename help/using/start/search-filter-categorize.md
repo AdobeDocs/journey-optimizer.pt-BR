@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 ## Pesquisa {#unified-search}
 
-Na interface do Adobe Journey Optimizer, use o recurso de pesquisa unificada do Adobe Experience Cloud no centro da barra superior para localizar ativos, jornadas, conjuntos de dados e muito mais em suas sandboxes.
+Na interface do Adobe Journey Optimizer, use o recurso de pesquisa unificada da Adobe Experience Cloud na parte central da barra superior para encontrar ativos, jornadas, conjuntos de dados e muito mais em suas sandboxes.
 
 Comece a inserir conteúdo para exibir os principais resultados. Artigos de ajuda sobre as palavras-chave inseridas também são exibidos nos resultados.
 
@@ -33,7 +33,7 @@ Pressione **Enter** para acessar todos os resultados e filtrar por objeto comerc
 
 Na maioria das listas, use a barra de pesquisa para localizar itens específicos e definir critérios de filtragem.
 
-Os filtros podem ser acessados com um clique no ícone de filtro na parte superior esquerda de uma lista. O menu de filtro permite filtrar os elementos exibidos de acordo com diferentes critérios: é possível optar por exibir apenas os elementos de determinado tipo ou status, os que você criou ou os que foram modificados nos últimos 30 dias. As opções diferem dependendo do contexto.
+Os filtros podem ser acessados com um clique no ícone de filtro na parte superior esquerda de uma lista. O menu de filtros permite filtrar os elementos exibidos de acordo com diferentes critérios: é possível exibir apenas elementos de um determinado tipo ou status, aqueles que você criou ou os modificados nos últimos 30 dias. As opções diferem dependendo do contexto.
 
 Além disso, é possível usar as tags unificadas para filtrar uma lista dependendo das tags atribuídas a um objeto. Por enquanto, as tags estão disponíveis para jornadas e campanhas. [Saiba como trabalhar com tags](#tags)
 

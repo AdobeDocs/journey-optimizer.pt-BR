@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,12 +51,12 @@ Os principais recursos incluem:
 
 * **Orquestração e execução modernas do Omnichannel** — uma tela única na qual se pode harmonizar e otimizar a jornada do cliente para um equilíbrio entre o engajamento do cliente e o alcance de marketing, ajudando as marcas a agregar mais valor ao longo do ciclo de vida do cliente. As jornadas do cliente criadas no [!DNL Adobe Journey Optimizer] podem ser dinâmicas e baseadas em eventos para ajudar as marcas a reagir a sinais em tempo real, bem como conectar essas interações com campanhas programadas, para que sejam tomadas as decisões corretas com respeito a quais comunicações devem ser enviadas a um cliente, quando e por quais canais.
 
-* **Decisão e personalização inteligentes** – as marcas podem aplicar decisões centralizadas e incorporar inteligência artificial e aprendizado de máquina para configurar insights preditivos pela experiência do cliente, facilitando a automação das decisões e a otimização da experiência em escala. A Decisão possibilita ofertas centralizadas em canais em escala por meio do [!DNL Adobe Journey Optimizer].
+* **Decisão e personalização inteligentes** – as marcas podem aplicar decisões centralizadas e incorporar inteligência artificial e aprendizado de máquina para configurar insights preditivos pela experiência do cliente, facilitando a automação das decisões e a otimização da experiência em escala. O serviço de decisão possibilita ofertas centralizadas em canais em escala por meio do [!DNL Adobe Journey Optimizer].
 
 
 >[!NOTE]
 >
-> Os componentes e recursos disponíveis em seu ambiente dependem das suas [permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Se tiver dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe ou com o representante da Adobe.
+> Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
 
 
 ## Arquitetura {#architecture}
