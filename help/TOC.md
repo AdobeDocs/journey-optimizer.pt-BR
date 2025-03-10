@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfc0774468710a7b8791c9b2a6c70397a90443fa
+source-git-commit: 02f3b545692b7442086d81e22bb6aa2ed6ee006b
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 91%
+source-wordcount: '2261'
+ht-degree: 88%
 
 ---
 
@@ -170,12 +170,40 @@ ht-degree: 91%
          + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Limitar a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
          + [Usar ações personalizadas para gravar eventos de jornada no Experience Platform](using/building-journeys/custom-action-aep.md)
-+ Campanhas{#campaigns}
-   + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
-   + [Criar uma campanha](using/campaigns/create-campaign.md)
-   + [Revisar e ativar uma campanha](using/campaigns/review-activate-campaign.md)
-   + [Gerenciar campanhas](using/campaigns/modify-stop-campaign.md)
-   + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
++ Campanhas em várias etapas {#ms-campaigns}
+   + [Introdução a campanhas com várias etapas](using/ms/gs-ms-campaigns.md)
+   + Crie e execute sua primeira campanha em várias etapas {#create-ms-campaign}
+      + [Princípios fundamentais](using/ms/gs-campaign-creation.md)
+      + [Medidas de proteção e limitações](using/ms/guardrails.md)
+      + [Criar a campanha](using/ms/create-ms-campaign.md)
+      + [Orquestrar atividades](using/ms/orchestrate-activities.md)
+      + [Definir configurações da campanha](using/ms/ms-campaign-settings.md)
+      + [Iniciar e monitorar suas campanhas](using/ms/start-monitor-campaigns.md)
+      + [Variáveis de evento em campanhas com várias etapas](using/ms/event-variables.md)
+   + Trabalhar com atividades de campanha em várias etapas {#design-campaigns}
+      + [Sobre atividades de campanha em várias etapas](using/ms/activities/about-activities.md)
+      + [And-join](using/ms/activities/and-join.md)
+      + [Criar público-alvo](using/ms/activities/build-audience.md)
+      + [Mudar dimensão](using/ms/activities/change-dimension.md)
+      + [Combinar](using/ms/activities/combine.md)
+      + [Desduplicação](using/ms/activities/deduplication.md)
+      + [Ações do canal](using/ms/activities/channels.md)
+      + [Enriquecimento](using/ms/activities/enrichment.md)
+      + [Bifurcação](using/ms/activities/fork.md)
+      + [Carregar arquivo](using/ms/activities/load-file.md)
+      + [Reconciliação](using/ms/activities/reconciliation.md)
+      + [Salvar público-alvo](using/ms/activities/save-audience.md)
+      + [Scheduler](using/ms/activities/scheduler.md)
+      + [Divisão](using/ms/activities/split.md)
+      + [Teste](using/ms/activities/test.md)
+      + [Atualizar dados](using/ms/activities/update-data.md)
+      + [Aguardar](using/ms/activities/wait.md)
++ Campanhas de etapa única {#campaigns}
+   + [Introdução a campanhas de etapa única](using/campaigns/get-started-with-campaigns.md)
+   + [Criar uma campanha de etapa única](using/campaigns/create-campaign.md)
+   + [Revisar e ativar uma campanha de etapa única](using/campaigns/review-activate-campaign.md)
+   + [Gerenciar campanhas em uma única etapa](using/campaigns/modify-stop-campaign.md)
+   + [Acionar campanhas de etapa única usando APIs](using/campaigns/api-triggered-campaigns.md)
 + Gerenciamento de conflitos e priorização {#conflict-prioritization}
    + [Introdução ao gerenciamento de conflitos e priorização](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar possíveis conflitos](using/conflict-prioritization/conflicts.md)
