@@ -1,25 +1,35 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar campanha em várias etapas com o Journey Optimizer
+title: Criar campanhas em várias etapas com o Journey Optimizer
 description: Saiba como criar uma campanha em várias etapas com o Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 0%
+source-wordcount: '706'
+ht-degree: 1%
 
 ---
 
-
-# Criar a campanha em várias etapas {#create-first-campaign}
+# Criar uma campanha orquestrada {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Lista de campanhas com várias etapas"
 >abstract="A guia **várias etapas** lista todas as campanhas com várias etapas. Clique no nome de uma campanha com várias etapas para editá-la. Use o botão **Criar campanha em várias etapas** para adicionar uma nova campanha em várias etapas."
 
+## Pré-requisitos
+
+### Permissões
+
+### Configurações
+
+Visão geral de novas configurações de administração> esquemas, campos de execução e política de mesclagem. [Saiba mais](ms-schemas.md)
+
+
+## Etapas de criação
 
 Para criar uma campanha em várias etapas, siga estas etapas:
 

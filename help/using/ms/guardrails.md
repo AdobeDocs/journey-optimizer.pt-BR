@@ -5,10 +5,11 @@ title: Criar campanhas em várias etapas com o Journey Optimizer
 description: Saiba como criar campanhas em várias etapas com o Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8c80010f-e432-48ea-87cf-af635932d26b
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 12%
+source-wordcount: '265'
+ht-degree: 15%
 
 ---
 
@@ -33,16 +34,6 @@ Para duplicar ou excluir uma campanha de várias etapas, clique no botão de ret
 >[!NOTE]
 >
 >É possível duplicar uma campanha em várias etapas que está em andamento, mas não é possível excluí-la.
-
-## Status dos fluxos de trabalho {#status}
-
-Os workflows podem ter vários status:
-
-* **[!UICONTROL Rascunho]**: a campanha em várias etapas foi criada e salva.
-* **[!UICONTROL Em andamento]**: a campanha em várias etapas está em execução no momento.
-* **[!UICONTROL Concluído]**: a execução da campanha em várias etapas foi concluída.
-* **[!UICONTROL Pausado]**: a campanha em várias etapas foi pausada.
-* **[!UICONTROL Erro]**: a campanha em várias etapas encontrou um erro. Abra a campanha em várias etapas e acesse os logs e as tarefas para identificar o erro e resolvê-lo.
 
 
 ## Modelos de campanha em várias etapas {#templates}

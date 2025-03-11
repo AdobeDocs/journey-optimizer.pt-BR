@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2270'
 ht-degree: 95%
 
 ---
@@ -172,14 +172,17 @@ ht-degree: 95%
          + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campanhas em várias etapas {#ms-campaigns}
    + [Introdução a campanhas com várias etapas](using/ms/gs-ms-campaigns.md)
+   + [Princípios fundamentais](using/ms/gs-campaign-creation.md)
+   + [Medidas de proteção e limitações](using/ms/guardrails.md)
+   + Configuração {#ms-config}
+      + [Esquemas](using/ms/ms-schemas.md)
+      + [Trabalhar com variáveis de evento](using/ms/event-variables.md)
    + Crie sua primeira campanha em várias etapas {#create-ms-campaign}
-      + [Princípios fundamentais](using/ms/gs-campaign-creation.md)
-      + [Medidas de proteção e limitações](using/ms/guardrails.md)
-      + [Criar a campanha](using/ms/create-ms-campaign.md)
+      + [Criar uma campanha orquestrada](using/ms/create-ms-campaign.md)
       + [Orquestrar atividades](using/ms/orchestrate-activities.md)
       + [Definir configurações da campanha](using/ms/ms-campaign-settings.md)
       + [Iniciar e monitorar suas campanhas](using/ms/start-monitor-campaigns.md)
-      + [Variáveis de evento em campanhas com várias etapas](using/ms/event-variables.md)
+      + [Gerenciar personalização](using/ms/ms-personalization.md)
    + Atividades de campanha em várias etapas {#design-campaigns}
       + [Sobre atividades de campanha em várias etapas](using/ms/activities/about-activities.md)
       + [And-join](using/ms/activities/and-join.md)
