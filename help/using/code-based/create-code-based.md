@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b7cd42f89ea6fb4c0359b2be6c75202d5e1ea001
+source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 10%
+source-wordcount: '623'
+ht-degree: 9%
 
 ---
 
@@ -89,7 +89,7 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 >id="ajo_code_based_experience"
 >title="Usar o editor de personalização"
 >abstract="Insira e edite o código que deseja entregar como parte desta ação de experiência baseada em código."
-
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Trabalhar com o editor de personalização"
 
 1. Na atividade de jornada ou na tela de edição de campanha, selecione **[!UICONTROL Editar código]**.
 
