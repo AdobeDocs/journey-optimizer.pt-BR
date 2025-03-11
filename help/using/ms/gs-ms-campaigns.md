@@ -6,9 +6,9 @@ description: Saiba como começar com campanhas em várias etapas
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 18%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 18%
 **Índice**
 
 * Introdução a campanhas com várias etapas
-* [Principais entidades](gs-campaign-creation.md) - [Medidas de proteção e limitações](guardrails.md)
+* [Principais princípios](gs-campaign-creation.md)
 * Configuração: [Trabalhar com esquemas](ms-schemas.md) - [Trabalhar com variáveis de evento](event-variables.md)
 * Introdução: [Criar uma campanha orquestrada](create-ms-campaign.md) - [Definir configurações da campanha](ms-campaign-settings.md) - [Iniciar e monitorar campanhas](start-monitor-campaigns.md) - [Começar a usar atividades](activities/about-activities.md) - [Orquestrar atividades](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Lista de atividades: [And-join](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Ações de canal](activities/channels.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Carregar arquivo](activities/load-file.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Agendador](activities/scheduler.md) - [Divisão](activities/split.md) - [Teste](activities/test.md) - [Atualizar dados](activities/update-data.md) - [Aguardar](activities/wait.md)
@@ -43,6 +43,8 @@ Com um ambiente gráfico abrangente, você pode criar processos como segmentaç�
 ## Orquestração de jornada e orquestração de campanha
 
 Jornadas versus Campanhas - explique as diferenças, os casos de uso e as práticas recomendadas
+
+
 
 ## Vamos nos aprofundar um pouco mais
 
