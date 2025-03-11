@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 >
 >Para o fluxo manual, os usuários precisam ter a permissão **[!UICONTROL Gerenciar configurações de idioma]**.
 
-Usando o fluxo manual, você pode traduzir facilmente seu conteúdo diretamente em suas campanhas e jornadas, fornecendo opções precisas de controle e personalização para suas mensagens multilíngues. Além disso, você pode importar facilmente conteúdo multilíngue pré-existente com a opção Importar HTML.
+Usando o fluxo manual, você pode traduzir facilmente seu conteúdo diretamente em suas campanhas e jornadas, fornecendo opções precisas de controle e personalização para suas mensagens multilíngues. Além disso, você pode importar facilmente conteúdo multilíngue pré-existente com a opção Import HTML.
 
 Siga estas etapas para criar conteúdo multilíngue usando tradução manual:
 
@@ -30,9 +30,9 @@ Siga estas etapas para criar conteúdo multilíngue usando tradução manual:
 
 1. [Adicionar códigos de idiomas (opcional)](multilingual-locale.md)
 
-1. [Criar configurações de idioma](#create-language-settings)
+1. [Criar configurações de idioma](#language-settings)
 
-1. [Criar um conteúdo multilíngue](#create-a-multilingual-campaign)
+1. [Criar um conteúdo multilíngue](#create-multilingual-campaign)
 
 ## Criar configurações de idioma {#language-settings}
 
@@ -48,7 +48,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
 
 1. Selecione as **[!UICONTROL Localidades]** associadas a estas configurações. É possível adicionar no máximo 50 localidades.
 
-   Se uma **[!UICONTROL Localidade]** estiver ausente, você poderá criá-la manualmente com antecedência a partir do menu **[!UICONTROL Tradução]** ou por API. Consulte [Criar uma nova Localidade](#create-locale).
+   Se uma **[!UICONTROL Localidade]** estiver ausente, você poderá criá-la manualmente com antecedência a partir do menu **[!UICONTROL Tradução]** ou por API. Consulte [Criar uma nova Localidade](multilingual-locale.md).
 
    ![](assets/multilingual-settings-2.png)
 
@@ -92,7 +92,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
       ![](assets/multilingual-experience-events-rule-if.png)
 
       * Escolha a **[!UICONTROL Extensão]** com a qual você está trabalhando.
-      * No campo **[!UICONTROL Tipo de evento]**, selecione &quot;Evento de solicitação AEP&quot;.
+      * No campo **[!UICONTROL Tipo de evento]**, selecione &quot;Evento de solicitação do AEP&quot;.
       * No painel direito, selecione &quot;Tipo de evento XDM é igual a personalization.request&quot;
       * Clique no botão **[!UICONTROL Manter alterações]** para confirmar.
 
@@ -155,7 +155,7 @@ Depois de configurar seu conteúdo multilíngue, você está pronto para criar a
 
    ![](assets/multilingual-campaign-2.png)
 
-1. Clique em **[!UICONTROL Adicionar idiomas]** e selecione as **[!UICONTROL configurações de idioma]** criadas anteriormente. [Saiba mais](#create-language-settings)
+1. Clique em **[!UICONTROL Adicionar idiomas]** e selecione as **[!UICONTROL configurações de idioma]** criadas anteriormente. [Saiba mais](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
