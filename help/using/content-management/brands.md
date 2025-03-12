@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
+source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 15%
+source-wordcount: '640'
+ht-degree: 16%
 
 ---
 
@@ -37,10 +37,34 @@ ht-degree: 15%
 >title="Pontuação de alinhamento da marca"
 >abstract="A pontuação de alinhamento da sua marca mede o desempenho do seu conteúdo em seguir as diretrizes da marca, garantindo a consistência nas cores, fontes, logotipo, imagem e estilo de escrita."
 
+>[!CONTEXTUALHELP]
+>id="ajo_brand_colors"
+>title="Pontuação de cores"
+>abstract="Pontuação de cores"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_fonts"
+>title="Pontuação de fontes"
+>abstract="Pontuação de fontes"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_logos"
+>title="Pontuação dos logotipos"
+>abstract="Pontuação dos logotipos"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_imagery"
+>title="Pontuação de imagem"
+>abstract="Pontuação de imagem"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_writing_style"
+>title="Pontuação de estilo de gravação"
+>abstract="Pontuação de estilo de gravação"
 
 >[!AVAILABILITY]
 >
->Esse recurso foi lançado como um beta privado. Ele estará progressivamente disponível para todos os clientes em versões futuras.
+>Esse recurso foi lançado como um beta privado. Ele será disponibilizado progressivamente a todos os clientes em versões futuras.
 
 As diretrizes da marca são um conjunto detalhado de regras e padrões que estabelecem a identidade visual e verbal de uma marca. Eles atuam como uma referência para manter uma representação de marca consistente em todas as plataformas de marketing e comunicação.
 
