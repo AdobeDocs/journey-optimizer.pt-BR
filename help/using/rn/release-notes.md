@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13bf2bca3997ff85aca619c8b610aaa0be9142f8
+source-git-commit: a0e657842ba67b8e96996bcb95e2170da6fcbb97
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 86%
+source-wordcount: '853'
+ht-degree: 81%
 
 ---
 
@@ -114,7 +114,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora é possível validar o funcionamento de uma configuração de ação personalizada fazendo chamadas de API reais diretamente do Adobe Journey Optimizer. </p>
+<p>Agora é possível validar uma configuração de ação personalizada fazendo chamadas de API reais diretamente do Adobe Journey Optimizer. Esse novo recurso ajuda você a solucionar problemas de ações personalizadas antes ou depois de usá-las em uma jornada. </p>
 <p>Para obter mais informações, consulte a <a href="../action/troubleshoot-custom-action.md">documentação detalhada</a>.</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -145,8 +145,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 ### Melhorias {#25-02-improvements}
 
 As melhorias abaixo estão incluídas na atualização de fevereiro.
-
-* **Jornadas**: agora é possível testar suas ações personalizadas enviando chamadas de API da seção de administração. Esse novo recurso ajuda você a solucionar problemas de ações personalizadas antes ou depois de usá-las em uma jornada. [Leia mais](../action/troubleshoot-custom-action.md)
 
 * **Tempo de vida do conjunto de dados**: a partir deste mês, uma medida de proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer para novas sandboxes e organizações da seguinte maneira:
 
