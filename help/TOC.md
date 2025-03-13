@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6097688141767e85e5180cb0e382d4d130c570f7
+source-git-commit: 9ff7a378fb18c72e7fdcff3c6052dcc428f240c9
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2274'
 ht-degree: 95%
 
 ---
@@ -317,6 +317,7 @@ ht-degree: 95%
          + [Gerenciar experiências baseadas em código](using/code-based/publish-code-based.md)
    + Cartões de conteúdo{#content-card}
       + [Introdução aos cartões de conteúdo](using/content-card/get-started-content-card.md)
+      + [Configurar o suporte a cartões de conteúdo no SDK da Web](using/content-card/content-card-lp.md)
       + Configurar canal de cartão de conteúdo {#configure}
          + [Pré-requisitos dos cartões de conteúdo](using/content-card/content-card-configuration-prereq.md)
          + [Configurar canal de cartões de conteúdo no Journey Optimizer](using/content-card/content-card-configuration.md)
