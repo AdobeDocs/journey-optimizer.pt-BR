@@ -5,16 +5,15 @@ topic: Content Management
 feature: Content Cards
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 163a4cc533b5c24e762b2be95a1f2c7dea0eea96
+exl-id: 8e1a1e94-c3c1-4981-9380-76b7d8302c78
+source-git-commit: 0351f0ffafe73245582453ab35742951bb42af7c
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
-# Configurar o suporte a cartões de conteúdo no SDK da Web {#content-card-lp}
+# Configurar o suporte a cartões de conteúdo no Mobile SDK {#content-card-lp}
 
 Os cartões de conteúdo podem ser obtidos do Adobe Journey Optimizer e renderizados em seu aplicativo móvel usando os SDKs móveis da Adobe Experience Platform, que potencializam o engajamento completo em seus aplicativos móveis. O Messaging SDK fornece APIs simples e fáceis de usar para recuperar os cartões de conteúdo criados no Adobe Journey Optimizer e cria visualizações nativas para dispositivos móveis para esses cartões que podem ser prontamente consumidos pelo seu aplicativo ou personalizados para corresponder ao tema do seu aplicativo. Ele também rastreia automaticamente todas as interações do usuário do aplicativo com os cartões de conteúdo exibidos para garantir relatórios precisos para as campanhas no Journey Optimizer.
 
@@ -48,4 +47,3 @@ Consulte as seguintes páginas de documentação para saber como integrar cartõ
 <p>
 </td>
 </tr></table>
-
