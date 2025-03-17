@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
+source-git-commit: 5af58cd9efc465b30386fad5dc6cd073626c3aed
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1682'
 ht-degree: 21%
 
 ---
@@ -157,9 +157,9 @@ Para definir as configurações de página principal, siga as etapas abaixo.
 
    ![](assets/lp_expiry-date.png)
 
-1. Na seção **[!UICONTROL Dados adicionais]**, defina uma ou mais chaves e seus valores de parâmetro correspondentes. Você poderá aproveitar essas chaves no conteúdo da página principal e das subpáginas usando o [editor de personalização](../personalization/personalization-build-expressions.md). Saiba mais [nesta seção](lp-content.md#use-form-component#use-additional-data).
+<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-form-component#use-additional-data).
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)-->
 
 1. Se você selecionou uma ou mais listas de assinaturas ao [criar a página primária](design-lp.md), elas serão exibidas na seção **[!UICONTROL Lista de assinaturas]**.
 
