@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a0e657842ba67b8e96996bcb95e2170da6fcbb97
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 81%
+ht-degree: 94%
 
 ---
 
@@ -24,16 +24,16 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 ## Atualizações de março de 2025 {#25-03-rn}
 
-**Aprimoramentos no editor do Personalization**
+**Melhorias do editor de personalização**
 
 O editor de personalização do Journey Optimizer foi atualizado com novos recursos:
-* **Design do Editor de Código atualizado** - Uma interface mais limpa e moderna para melhorar a usabilidade e o foco.
-* **Pesquisar e substituir** - Adição de funcionalidade para localizar e substituir rapidamente o conteúdo no editor.
-* **Suporte para Desfazer e Refazer** - Permite que você reverta ou reaplique facilmente as alterações.
-* **Tamanho de Fonte Personalizável** - Habilita o ajuste do tamanho de fonte do editor para melhorar a leitura.
-* **Validação JSON embutida** - Fornece validação do lado do cliente em tempo real para conteúdo JSON para acelerar a detecção de erros.
-* **Preenchimento automático para atributos de perfil e contexto** - Oferece sugestões inteligentes para simplificar a criação de conteúdo.
-* **Realce de Sintaxe Aprimorado** - Melhora a legibilidade ao tornar a estrutura do código mais visualmente distinta.
+* **Design do editor de código atualizado**: uma interface mais simples e moderna para melhorar a usabilidade e o foco.
+* **Pesquisar e substituir**: adição da funcionalidade para localizar e substituir rapidamente o conteúdo no editor.
+* **Desfazer e refazer**: permite reverter ou reaplicar facilmente as alterações.
+* **Tamanho de fonte personalizável**: permite ajustar o tamanho da fonte do editor para facilitar a leitura.
+* **Validação JSON em linha**: fornece validação do lado do cliente em tempo real para conteúdo JSON, a fim de acelerar a detecção de erros.
+* **Preenchimento automático para atributos de perfil e contexto**: oferece sugestões inteligentes para simplificar a criação de conteúdo.
+* **Realce de sintaxe aprimorado**: melhora a legibilidade por tornar a estrutura do código mais visualmente distinta.
 
 ![Vídeo mostrando o novo recurso no Editor do Personalization](assets/do-not-localize/personalization-editor.gif)
 

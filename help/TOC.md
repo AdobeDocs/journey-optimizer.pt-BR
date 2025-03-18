@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
 workflow-type: tm+mt
 source-wordcount: '2279'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -170,20 +170,20 @@ ht-degree: 94%
          + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
          + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
-+ Campanhas em várias etapas {#ms-campaigns}
-   + [Introdução a campanhas com várias etapas](using/ms/gs-ms-campaigns.md)
++ Campanhas de várias etapas {#ms-campaigns}
+   + [Introdução às campanhas de várias etapas](using/ms/gs-ms-campaigns.md)
    + [Princípios fundamentais](using/ms/gs-campaign-creation.md)
    + Configuração {#ms-config}
       + [Esquemas](using/ms/ms-schemas.md)
       + [Trabalhar com variáveis de evento](using/ms/event-variables.md)
-   + Crie sua primeira campanha em várias etapas {#create-ms-campaign}
+   + Crie sua primeira campanha de várias etapas {#create-ms-campaign}
       + [Criar uma campanha orquestrada](using/ms/create-ms-campaign.md)
       + [Orquestrar atividades](using/ms/orchestrate-activities.md)
       + [Definir configurações da campanha](using/ms/ms-campaign-settings.md)
-      + [Iniciar e monitorar suas campanhas](using/ms/start-monitor-campaigns.md)
+      + [Iniciar e monitorar campanhas](using/ms/start-monitor-campaigns.md)
       + [Gerenciar personalização](using/ms/ms-personalization.md)
-   + Atividades de campanha em várias etapas {#design-campaigns}
-      + [Sobre atividades de campanha em várias etapas](using/ms/activities/about-activities.md)
+   + Atividades de campanha de várias etapas {#design-campaigns}
+      + [Sobre atividades de campanha de várias etapas](using/ms/activities/about-activities.md)
       + [And-join](using/ms/activities/and-join.md)
       + [Criar público-alvo](using/ms/activities/build-audience.md)
       + [Mudar dimensão](using/ms/activities/change-dimension.md)
@@ -365,7 +365,7 @@ ht-degree: 94%
       + [Adicionar personalização](using/personalization/personalization-build-expressions.md)
       + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
       + [Reutilizar fragmentos de expressão](using/personalization/use-expression-fragments.md)
-      + [Usar dados do Adobe Experience Platform para personalização (Beta)](using/personalization/lookup-aep-data.md)
+      + [Usar dados da Adobe Experience Platform para personalização (Beta)](using/personalization/lookup-aep-data.md)
       + Lista de funções auxiliares {#functions}
          + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
          + [Funções de agregação](using/personalization/functions/aggregation.md)
@@ -505,14 +505,14 @@ ht-degree: 94%
                + [Criar fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/create.md)
                + [Excluir fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
                + [Pesquisar fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-               + [Fórmulas de classificação de seleção](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+               + [Selecionar fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
                + [Atualizar fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/update.md)
-            + Regras de qualificação{#eligibility-rules}
+            + Regras de elegibilidade{#eligibility-rules}
                + [Criar regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/create.md)
                + [Excluir regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
                + [Pesquisar regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [Lista de regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
-               + [Atualizar regras de qualificação](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+               + [Atualizar regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [Fornecer ofertas usando o canal de experiência baseada em código](using/experience-decisioning/api-reference/deliver.md)
       + Gerenciar itens de decisão {#decision-items}
          + [Configurar o catálogo de itens](using/experience-decisioning/catalogs.md)
@@ -679,7 +679,7 @@ ht-degree: 94%
       + [Medidas de proteção de tempo de vida (TTL) dos conjuntos de dados](using/data/datasets-ttl.md)
       + [Exportar conjuntos de dados do Journey Optimizer](using/data/export-datasets.md)
       + [Exemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas incorporados >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
+      + [Esquemas integrados >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
    + [Consultas](using/data/get-started-queries.md)
 + Configuração {#configuration}
    + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)
