@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6222'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Março de 2025 {#mar-2025}
 
-* A página sobre Eventos de qualificação de público-alvo foi atualizada com novas recomendações. [Leia mais](../building-journeys/audience-qualification-events.md)
-* O recurso de solução de problemas de ação personalizada agora está disponível para todos os clientes (GA). [Leia mais](../action/troubleshoot-custom-action.md)
+* A página sobre eventos de qualificação de público-alvo foi atualizada com novas recomendações. [Leia mais](../building-journeys/audience-qualification-events.md)
+* O recurso de solução de problemas de ações personalizadas agora está disponível para todos os clientes (Disponibilidade geral). [Leia mais](../action/troubleshoot-custom-action.md)
 
 ## Fevereiro de 2025 {#feb-2025}
 
-* Os painéis de atividade &quot;Ler público-alvo&quot; foram atualizados para especificar que apenas uma atividade pode ser usada em uma jornada e que pode direcionar apenas um público-alvo. [Leia mais](../building-journeys/read-audience.md)
+* As medidas de proteção da atividade “Público-alvo de leitura” foram atualizadas para especificar que apenas uma atividade pode ser usada em uma jornada e que ela pode direcionar apenas um público-alvo. [Leia mais](../building-journeys/read-audience.md)
 * As medidas de proteção de jornada para o uso de atividades do Campaign foram atualizadas. [Leia mais](../start/guardrails.md#ac-g)
 * Agora as etapas para criar suas primeiras jornadas foram detalhadas e há links para a seção de documentação. [Leia mais](../building-journeys/journey-gs.md)
 * Há uma nova página disponível para fornecer detalhes sobre o painel de jornada e a interface de filtragem. [Leia mais](../building-journeys/journey-ui.md)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2346'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ A partir de fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) s
 * 90 dias para dados na loja de perfis,
 * 13 meses para dados no data lake.
 
-Essa alteração será implementada nas **sandboxes de clientes existentes** em uma próxima fase. [Saiba mais sobre as medidas de proteção de Tempo de vida (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
+Essa alteração será implementada nas **sandboxes de clientes existentes** em uma próxima fase. [Saiba mais sobre as medidas de proteção de tempo de vida (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
 
 ## Medidas de proteção de canais {#channel-guardrails}
 
