@@ -10,7 +10,7 @@ level: Beginner
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Verifique os seguintes pré-requisitos antes de começar a criar sua primeira ca
 
    +++Saiba como atribuir uma função relacionada à campanha
 
-   1. Para atribuir uma função a um usuário em [!DNL Permissions] do produto, navegue até a guia **[!UICONTROL Funções]** e selecione uma das **[!UICONTROL funções]** incorporadas relacionadas à campanha: admin da campanha, aprovador da campanha, gerente de campanha ou visualizador da campanha.
+   1. Para atribuir uma função a um usuário em [!DNL Permissions] do produto, navegue até a guia **[!UICONTROL Funções]** e selecione uma das **[!UICONTROL funções]** integradas relacionadas à campanha: admin da campanha, aprovador da campanha, gerente de campanha ou visualizador da campanha.
 
    1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
 
