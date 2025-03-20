@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b3fed5a48480647010f59fa471c505b4031b8701
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 8%
+source-wordcount: '283'
+ht-degree: 7%
 
 ---
 
@@ -123,6 +123,76 @@ Uma resposta bem-sucedida retorna uma lista de ofertas personalizadas que estão
         "self": {
             "href": "/offers?offer-type=personalized&href={SELF_HREF}",
             "type": "application/json"
+        }
+    }
+}
+```
+
+Executar paginação se várias ofertas personalizadas estiverem ausentes da resposta.
+
+**Resposta**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {
+        "href": "/offers?orderby=-modified&limit=2&offer-type=PERSONALIZED",
+        "type": "application/json"
+        },
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+    }
+```
+
+| Métrica | Descrição |
+|---------|-------------|
+| `total` | O número de ofertas personalizadas. |
+| `count` | O número de ofertas retornadas nesta resposta. |
+
+Recupere o ponto de extremidade de `_links.next.href` como `/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED` e anexe-o à API.
+
+**Formato da API**
+
+```http
+GET /{ENDPOINT_PATH}/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED
+```
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+}
+```
+
+Da mesma forma, se você não estiver na primeira página e precisar recuperar a página anterior de ofertas personalizadas, use o valor `href` de `_links.prev`. Faça uma solicitação ao URL para buscar o conjunto anterior de resultados, como mostrado no exemplo abaixo.
+
+**Resposta**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {...},
+        "prev": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
         }
     }
 }
