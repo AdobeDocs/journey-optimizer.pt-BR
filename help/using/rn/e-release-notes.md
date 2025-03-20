@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 636c1f6e03017f166da70707d03835feceab1a00
+source-git-commit: d2039ce0efdefaa0708a790135599d2ce97e48f1
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '663'
 ht-degree: 40%
 
 ---
@@ -130,7 +130,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 ### Melhorias {#25-03-improv}
 
-**editor do Personalization**
+**Editor do Personalization** (data de disponibilidade: 12 de março)
 
 O editor de personalização do Journey Optimizer foi atualizado com novos recursos:
 
