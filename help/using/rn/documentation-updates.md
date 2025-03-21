@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: ht
-source-wordcount: '6222'
-ht-degree: 100%
+source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
+workflow-type: tm+mt
+source-wordcount: '6333'
+ht-degree: 97%
 
 ---
 
@@ -23,11 +23,19 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 * A página sobre eventos de qualificação de público-alvo foi atualizada com novas recomendações. [Leia mais](../building-journeys/audience-qualification-events.md)
 * O recurso de solução de problemas de ações personalizadas agora está disponível para todos os clientes (Disponibilidade geral). [Leia mais](../action/troubleshoot-custom-action.md)
+* A Limpeza de dados agora é o Ciclo de vida dos dados na interface do usuário do produto. A documentação foi atualizada para refletir essa alteração. [Leia mais](../privacy/data-hygiene.md)
+* As permissões integradas ausentes da página de aterrissagem foram adicionadas à documentação. [Leia mais](../administration/ootb-permissions.md)
+* Adição de uma observação sobre a programação de campanhas recorrentes. [Leia mais](../campaigns/create-campaign.md)
+* A seção sobre inserção de links e ativação do rastreamento em uma mensagem de email foi atualizada e reorganizada. [Leia mais](../email/message-tracking.md)
+* A seção sobre os recursos de personalização no Adobe Journey Optimizer foi reorganizada e aprimorada. [Leia mais](../personalization/personalize.md)
+* A API da Gestão de decisões para listar ofertas personalizadas foi atualizada com uma amostra para executar paginação se várias ofertas personalizadas estiverem ausentes da resposta. [Leia mais](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+
+
 
 ## Fevereiro de 2025 {#feb-2025}
 
-* As medidas de proteção da atividade “Público-alvo de leitura” foram atualizadas para especificar que apenas uma atividade pode ser usada em uma jornada e que ela pode direcionar apenas um público-alvo. [Leia mais](../building-journeys/read-audience.md)
-* As medidas de proteção de jornada para o uso de atividades do Campaign foram atualizadas. [Leia mais](../start/guardrails.md#ac-g)
+* Os painéis de atividade Ler público foram atualizados para especificar que apenas uma atividade pode ser usada em uma jornada e que pode direcionar apenas um público-alvo. [Leia mais](../building-journeys/read-audience.md)
+* As medidas de proteção de jornada ao usar atividades do Adobe Campaign foram atualizadas. [Leia mais](../start/guardrails.md#ac-g)
 * Agora as etapas para criar suas primeiras jornadas foram detalhadas e há links para a seção de documentação. [Leia mais](../building-journeys/journey-gs.md)
 * Há uma nova página disponível para fornecer detalhes sobre o painel de jornada e a interface de filtragem. [Leia mais](../building-journeys/journey-ui.md)
 * A documentação sobre **[!UICONTROL Otimização do tempo de envio]** e as perguntas frequentes relacionadas foi atualizada, aprimorada e movida para uma nova página dedicada. [Leia mais](../building-journeys/send-time-optimization.md)
@@ -261,7 +269,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 ## Abril de 2023 {#apr-2023}
 
 * Todos os novos recursos e aprimoramentos da versão de abril de 2023 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
-* Foi adicionada uma nota para especificar que as ações incorporadas não podem ser removidas. [Leia mais](../start/guardrails.md#custom-actions-g)
+* Foi adicionada uma nota para especificar que as ações integradas não podem ser removidas. [Leia mais](../start/guardrails.md#custom-actions-g)
 * Foram adicionadas informações sobre serviceEvents, bem como um exemplo de consulta para verificar os detalhes de um serviceEvent. [Leia mais](../reports/query-examples.md#common-queries)
 * Foi adicionada uma nota para especificar que não é possível executar consultas em séries cronológicas. [Leia mais](../building-journeys/condition-activity.md)
 * O Adobe Experience Manager Assets Essentials e o Adobe Stock foram adicionados à página de integração de várias soluções. [Leia mais](../integrations/ajo-integrations.md)
@@ -341,7 +349,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Adição de novos exemplos de consulta de evento de etapa, bem como informações sobre a diferença entre id, instanceid e profileid. [Leia mais](../reports/query-examples.md).
 * Atualização das páginas relacionadas às funções [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md).
 * Adição de detalhes sobre os parâmetros da condição de tempo. [Leia mais](../building-journeys/condition-activity.md#time_condition)
-* Adição de informações sobre conjuntos de dados incorporados. [Leia mais](../data/get-started-datasets.md#access-datasets)
+* Adição de informações sobre conjuntos de dados integrados. [Leia mais](../data/get-started-datasets.md#access-datasets)
 * As seções Relatório global e Relatório ao vivo foram aprimoradas e reorganizadas. [Leia mais](../reports/report-gs-cja.md)
 * Uma lista de cada métrica de relatório disponível no Adobe Journey Optimizer foi adicionada.
   [Leia mais](../reports/report-gs-cja.md#email-and-sms-metrics)
