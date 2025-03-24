@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, dinâmico, conteúdo
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 10%
+source-wordcount: '608'
+ht-degree: 9%
 
 ---
 
@@ -87,9 +87,13 @@ As etapas para criar variantes de um componente de conteúdo no Designer de emai
 1. Adicione quantas variantes forem necessárias para o componente de conteúdo. Você pode alternar a qualquer momento entre as diferentes variantes para verificar como o componente de conteúdo será exibido, dependendo das regras condicionais.
 
    >[!NOTE]
-   >Se nenhuma das regras definidas nas variantes for atendida ao enviar a mensagem, o componente de conteúdo exibirá o conteúdo definido na **[!UICONTROL Variante padrão]**.
    >
-   >O conteúdo condicional será avaliado em relação às regras associadas na ordem em que as variantes forem exibidas. A variante padrão é sempre exibida se nenhuma outra condição for atendida.
+   >* Se nenhuma das regras definidas nas variantes for atendida ao enviar a mensagem, o componente de conteúdo exibirá o conteúdo definido na **[!UICONTROL Variante padrão]**.
+   >
+   >* O conteúdo condicional será avaliado em relação às regras associadas na ordem em que as variantes forem exibidas. A variante padrão é sempre exibida se nenhuma outra condição for atendida.
+   >
+   >* Ao simular ou renderizar provas para emails contendo várias variantes condicionais, o Journey Optimizer pode exigir mais tempo de processamento. Se você enfrentar tempos limite ou mensagens de erro, considere reduzir o número total de variantes ou simplificar regras condicionais. Saiba mais sobre como testar seu conteúdo em [esta página](../content-management/preview-test.md).
+
 
 1. Para excluir uma variante, clique no ícone Mais ações ao lado da variante desejada e selecione **[!UICONTROL Excluir]**.
 
