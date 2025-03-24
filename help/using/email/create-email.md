@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '969'
 ht-degree: 9%
 
 ---
@@ -89,6 +89,12 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
    ![](assets/email_designer_edit_content_header.png)
 
 1. Adicione uma linha de assunto para a mensagem. Para configurar e personalizar a linha de assunto com o editor de personalização, clique no ícone **[!UICONTROL Abrir caixa de diálogo de personalização]**. [Saiba mais](../personalization/personalization-build-expressions.md)
+
+   >[!NOTE]
+   >
+   >* A linha de assunto é obrigatória.
+   >
+   >* A linha de assunto não deve incluir quebras de linha.
 
 1. Clique no botão **[!UICONTROL Editar corpo do email]** para acessar o Designer de email e começar a criar seu conteúdo. [Saiba mais](get-started-email-design.md)
 
