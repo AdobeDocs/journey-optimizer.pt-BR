@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 90%
@@ -30,17 +30,19 @@ Depois que o conteúdo for definido, você poderá visualizá-lo antes de enviar
 
 Você também pode enviar entregas de teste das mensagens de email para destinatários ou assinantes específicos para teste e validação e verificar a renderização em clientes populares de desktop, dispositivos móveis e baseados na Web.
 
+Todas essas ações podem ser realizadas com o botão **[!UICONTROL Simular conteúdo]**, acessível na tela de edição de conteúdo da mensagem, ou nos designers de email e da Web dos canais de email e da Web.
+
+![](../email/assets/email-preview-button.png)
+
+Observe que é necessário ter a permissão **[!DNL Manage Simulate Content]** incluída no perfil de produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager).
+
+
 >[!CAUTION]
 >
 >* Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização do perfil serão exibidos. Personalização com base em dados de contexto, como informações de evento, só podem ser testados no contexto de uma jornada. Saiba como testar a personalização [neste caso de uso](../personalization/personalization-use-case.md).
 >
 >* Ao simular ou renderizar provas para emails contendo várias variantes condicionais, o Journey Optimizer pode exigir mais tempo de processamento. Se você enfrentar tempos limite ou mensagens de erro, considere reduzir o número total de variantes ou simplificar regras condicionais. Saiba mais sobre o conteúdo condicional [nesta página](../personalization/dynamic-content.md).
 
-Todas essas ações podem ser realizadas com o botão **[!UICONTROL Simular conteúdo]**, acessível na tela de edição de conteúdo da mensagem, ou nos designers de email e da Web dos canais de email e da Web.
-
-![](../email/assets/email-preview-button.png)
-
-Observe que é necessário ter a permissão **[!DNL Manage Simulate Content]** incluída no perfil de produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Teste usando perfis de teste ou dados de entrada de exemplo {#methods}
 
