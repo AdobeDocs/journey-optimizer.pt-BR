@@ -5,24 +5,25 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
+source-git-commit: 80935cc31ef88a322c2dd555fc8998935c6e5621
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 16%
+source-wordcount: '325'
+ht-degree: 15%
 
 ---
 
 # Envio de provas de email {#send-proofs}
 
->[!PREREQUISITES]
->
->Para enviar provas, os usuários devem ter **permissões Aprovar e publicar** para o recurso, campanha ou jornada específica, associada ao email. [Saiba mais sobre permissões](../administration/ootb-permissions.md)
-
 Uma prova é uma mensagem específica que permite testar uma mensagem antes de enviá-la ao público-alvo principal. Os destinatários da prova são responsáveis pela aprovação da mensagem: renderização, conteúdo, configurações de personalização, configuração.
 
 Observe que [!DNL Journey optimizer] também permite que você teste diferentes variantes do seu conteúdo visualizando-o e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como testar seu conteúdo usando dados de entrada de exemplo](../test-approve/simulate-sample-input.md)
 
-Para enviar provas de email depois que [perfis de teste](test-profiles.md) forem selecionados, siga estas etapas:
+>[!PREREQUISITES]
+>
+>Para enviar provas, você deve ter **permissões Aprovar e publicar** para o recurso específico (campanha ou jornada) associado ao email. Além disso, para enviar provas em uma jornada, a permissão **Publicar jornada** também é necessária. [Saiba mais sobre permissões](../administration/ootb-permissions.md).
+
+
+Para enviar provas por email, primeiro selecione [perfis de teste](test-profiles.md). Em seguida, siga estas etapas:
 
 1. Na tela **[!UICONTROL Simular]**, clique no botão **[!UICONTROL Enviar prova]**.
 
