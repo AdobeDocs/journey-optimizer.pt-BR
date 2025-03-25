@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
+source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 62%
+source-wordcount: '1441'
+ht-degree: 61%
 
 ---
 
@@ -160,13 +160,11 @@ Um novo botão &quot;Comprimidos&quot; foi exibido no editor de personalização
 
 Ao definir as condições para uma política de aprovação, agora há a opção de filtrar por Tag e/ou Categoria de objeto.
 
-**Configuração de canal**
+**Configuração**
 
-Agora você pode atribuir Tags unificadas do Adobe Experience Platform a configurações de canal. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas.
+* Agora você pode atribuir Tags unificadas do Adobe Experience Platform a configurações de canal. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas.
 
-**Avaliação da entrega**
-
-Agora é possível delegar subdomínios com o DMARC sendo gerenciado pelo lado principal.
+* Ao configurar ou editar um subdomínio de email no Journey Optimizer, agora é possível optar por gerenciar o registro associado do DMARC por conta própria, se disponível no domínio principal.
 
 **Regras de negócio**
 
