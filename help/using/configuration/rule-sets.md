@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 5e4d122c38c89055419102d54b3e749f1b8f925e
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '2030'
 ht-degree: 12%
 
 ---
@@ -32,6 +32,15 @@ Além das regras de negócios globais que restringem o número de vezes que os u
 Por exemplo, você pode criar um conjunto de regras para limitar o número de **comunicações promocionais** enviadas aos seus clientes e outro conjunto de regras para limitar o número de **boletins informativos** enviados a eles. Dependendo do tipo de campanha que está sendo criada, você pode optar por aplicar a comunicação promocional ou o conjunto de regras de boletins informativos.
 
 ➡️ [Descubra este recurso no vídeo](#video)
+
+### Permissões {#permissions-frequency-rules}
+
+Para trabalhar com regras de negócios, você precisa das seguintes permissões:
+
+* **[!UICONTROL Exibir Regras de Frequência]**: acessar e exibir regras de negócios.
+* **[!UICONTROL Gerenciar Regras de Frequência]**: Criar, editar ou excluir regras de negócios.
+
+Saiba mais sobre permissões [nesta seção](../administration/high-low-permissions.md).
 
 ### Conjuntos de regras globais e personalizadas {#global-custom}
 
@@ -66,8 +75,6 @@ Ao criar um conjunto de regras, é necessário especificar se as regras no conju
 Para criar um conjunto de regras, siga as etapas abaixo.
 
 >[!NOTE]
->
->Para criar um conjunto de regras, é necessário ter a permissão `Manage Messages Presets`. [Saiba mais sobre o gerenciamento de usuários](../administration/permissions-overview.md)
 >
 >Você pode criar até três conjuntos de regras locais de domínio do canal e até cinco conjuntos de regras locais de domínio do jornada.
 
@@ -237,16 +244,6 @@ Para cada regra no conjunto de regras, o botão **[!UICONTROL Mais ações]** pe
 * Excluir a regra
 
 ![](assets/rule-set-example-rules.png)
-
-<!--### Permissions{#permissions-frequency-rules}
-
-To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
-
-Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
-
-![](assets/message-rules-access.png)
-
-Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
 ## Aplicar conjuntos de regras a uma mensagem ou jornada {#apply-frequency-rule}
 
