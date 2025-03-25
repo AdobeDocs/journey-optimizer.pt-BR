@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 5e4d122c38c89055419102d54b3e749f1b8f925e
+source-git-commit: 74bb16aa01c442ad9d427cdd2c79c9e8b7b8a394
 workflow-type: tm+mt
 source-wordcount: '2030'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -142,13 +142,13 @@ Os parâmetros disponíveis para a regra dependem do domínio do conjunto de reg
 
    >[!AVAILABILITY]
    >
-   >A duração &quot;Daily&quot; está disponível somente sob demanda. Para obter acesso, entre em contato com o representante da Adobe.
+   >A duração &quot;Daily&quot; está disponível somente sob demanda. Para obter acesso, entre em contato com o(a) representante da Adobe.
 
    O prazo de validade do contador para cada período é o seguinte:
 
    * **[!UICONTROL Mensal]**: o limite de frequência é válido até o último dia do mês às 23:59:59 UTC. Por exemplo, a expiração mensal de janeiro é 01-31 23:59:59 UTC.
 
-   * **[!UICONTROL Semanalmente]**: o limite de frequência é válido até sábado, 23:59:59 UTC dessa semana, pois a semana do calendário começa no domingo. A expiração ocorre independentemente da criação da regra. Por exemplo, se a regra for criada na quinta-feira, ela será válida até o sábado às 23:59:59.
+   * **[!UICONTROL Semanalmente]**: o limite de frequência é válido até sábado, 23:59:59 UTC dessa semana, pois a semana do calendário começa no domingo. A data de expiração se aplica independentemente de quando a regra foi criada. Por exemplo, se a regra for criada na quinta-feira, ela será válida até o sábado às 23:59:59.
 
    * **[!UICONTROL Diariamente]**: o limite de frequência diário é válido para o dia até 23:59:59 UTC e é redefinido como 0 no início do dia seguinte.
 
