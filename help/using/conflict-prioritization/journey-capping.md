@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '941'
 ht-degree: 23%
 
 ---
@@ -25,6 +25,10 @@ O limite de jornada ajuda a limitar o número de jornadas nas quais um perfil po
 
 Ambos os tipos de limite de jornada usam pontuações de prioridade para arbitrar entradas.
 
+>[!AVAILABILITY]
+>
+>Os conjuntos de regras de domínio do **Jornada** estão disponíveis somente para um conjunto limitado de usuários (Disponibilidade Limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+
 ➡️ [Descubra este recurso no vídeo](#video)
 
 ## Criar uma regra de limitação de jornada {#create-rule}
@@ -41,7 +45,7 @@ Ambos os tipos de limite de jornada usam pontuações de prioridade para arbitra
 
 Para criar uma regra de limite de jornada, siga estas etapas:
 
-1. Navegue até o menu **[!UICONTROL Regras de negócio (Beta)]** para acessar o inventário de conjuntos de regras.
+1. Navegue até o menu **[!UICONTROL Regras de negócio]** para acessar o inventário de conjuntos de regras.
 
 1. Selecione o conjunto de regras ao qual deseja adicionar a regra de limitação ou crie um novo conjunto de regras:
 

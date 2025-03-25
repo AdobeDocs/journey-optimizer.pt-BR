@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '2013'
 ht-degree: 12%
 
 ---
@@ -35,7 +35,7 @@ Por exemplo, você pode criar um conjunto de regras para limitar o número de **
 
 ### Conjuntos de regras globais e personalizadas {#global-custom}
 
-Ao acessar conjuntos de regras pela primeira vez no menu **[!UICONTROL Administração]** > **[!UICONTROL Regras de negócio (Beta)]**, um conjunto de regras padrão é pré-criado e ativo: **Conjunto de Regras Padrão Global**.
+Ao acessar conjuntos de regras pela primeira vez no menu **[!UICONTROL Administração]** > **[!UICONTROL Regras de negócio]**, um conjunto de regras padrão é pré-criado e está ativo: **Conjunto de Regras Padrão Global**.
 
 Esse conjunto de regras contém regras globais que podem ser aplicadas para controlar a frequência com que os usuários recebem mensagens em um ou vários canais, de modo semelhante a como as regras de negócios atuais operam. Todas as regras definidas nesse conjunto de regras se aplicam a todos os canais selecionados, independentemente de as comunicações serem enviadas de uma jornada ou campanha. [Saiba como trabalhar com regras de negócios](../configuration/rule-sets.md)
 
@@ -55,6 +55,10 @@ Ao criar um conjunto de regras, é necessário especificar se as regras no conju
 * Domínio **Channel**: aplique regras de limitação para canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia.
 * Domínio **Jornada**: aplique regras de limite de entrada e simultaneidade a uma jornada. Por exemplo, não insira perfis em mais de uma jornada simultaneamente.
 
+>[!AVAILABILITY]
+>
+>Enquanto os conjuntos de regras de domínio do **Canal** estão disponíveis para todos os usuários, os conjuntos de regras de domínio do **Jornada** estão disponíveis apenas para um conjunto limitado de usuários (Disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+
 ## Criar seu primeiro conjunto de regras personalizado {#create-rule-set}
 
 ### Crie o conjunto de regras e selecione seu domínio {#create}
@@ -62,6 +66,8 @@ Ao criar um conjunto de regras, é necessário especificar se as regras no conju
 Para criar um conjunto de regras, siga as etapas abaixo.
 
 >[!NOTE]
+>
+>Para criar um conjunto de regras, é necessário ter a permissão `Manage Messages Presets`. [Saiba mais sobre o gerenciamento de usuários](../administration/permissions-overview.md)
 >
 >Você pode criar até três conjuntos de regras locais de domínio do canal e até cinco conjuntos de regras locais de domínio do jornada.
 
@@ -74,6 +80,10 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 1. Selecione o domínio do conjunto de regras. O domínio permite especificar se o conjunto de regras conterá regras de limitação específicas para canais de comunicação ou jornadas. [Saiba mais sobre as regras de limite de canal e jornada](#domain)
 
    ![](assets/rule-sets-create.png)
+
+   >[!AVAILABILITY]
+   >
+   >Enquanto os conjuntos de regras de domínio do **Canal** estão disponíveis para todos os usuários, os conjuntos de regras de domínio do **Jornada** estão disponíveis apenas para um conjunto limitado de usuários (Disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -208,7 +218,7 @@ Seu status será alterado para **[!UICONTROL Inativo]** e a regra não se aplica
 
 ## Acessar e gerenciar conjuntos de regras {#access-rule-sets}
 
-Todos os conjuntos de regras criados são exibidos no menu **[!UICONTROL Administração]** > **[!UICONTROL Regras de negócio (Beta)]**. Eles são classificados por data da última modificação.
+Todos os conjuntos de regras criados são exibidos no menu **[!UICONTROL Administração]** > **[!UICONTROL Regras de negócio]**. Eles são classificados por data da última modificação.
 
 ![](assets/rule-sets-list.png)
 
