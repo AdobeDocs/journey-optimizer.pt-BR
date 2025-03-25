@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 74bb16aa01c442ad9d427cdd2c79c9e8b7b8a394
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2036'
 ht-degree: 13%
 
 ---
@@ -142,7 +142,7 @@ Os parâmetros disponíveis para a regra dependem do domínio do conjunto de reg
 
    >[!AVAILABILITY]
    >
-   >A duração &quot;Daily&quot; está disponível somente sob demanda. Para obter acesso, entre em contato com o(a) representante da Adobe.
+   >A duração &quot;Diária&quot; só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
    O prazo de validade do contador para cada período é o seguinte:
 

@@ -5,10 +5,10 @@ role: User
 level: Beginner
 badge: label="Disponibilidade limitada"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 23%
+source-wordcount: '944'
+ht-degree: 24%
 
 ---
 
@@ -77,7 +77,7 @@ Para criar uma regra de limite de jornada, siga estas etapas:
 
      >[!AVAILABILITY]
      >
-     >A duração &quot;Daily&quot; está disponível somente sob demanda. Para obter acesso, entre em contato com o representante da Adobe.
+     >A duração &quot;Diária&quot; só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
      Neste exemplo, queremos impedir que perfis insiram mais de &quot;5&quot; jornadas em um mês.
 
