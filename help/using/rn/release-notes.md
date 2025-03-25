@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: d023eaba1205ea8bfb402b195bfd341dae4f59d3
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1410'
 ht-degree: 64%
 
 ---
@@ -82,7 +82,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <ul>
 <li>Gerenciar ativos centralmente com atualizações em tempo real</li>
 <li>Modifique instantaneamente suas configurações de ativos, como largura e altura</li>
-<li>Personalizar o conteúdo usando imagens com sobreposições de texto</li>
 <li>Personalizar modelos do Dynamic Media atualizando o conteúdo e adicionando campos de personalização</li>
 </ul>
 <p>
@@ -135,6 +134,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 **Editor do Personalization** (data de disponibilidade: 12 de março)
 
 O editor de personalização do Journey Optimizer foi atualizado com novos recursos:
+
 * **Design do editor de código atualizado**: uma interface mais simples e moderna para melhorar a usabilidade e o foco.
 * **Pesquisar e substituir**: adição da funcionalidade para localizar e substituir rapidamente o conteúdo no editor.
 * **Desfazer e refazer**: permite reverter ou reaplicar facilmente as alterações.
@@ -174,7 +174,7 @@ Agora você pode usar o limite de frequência diário em jornadas e campanhas co
 
 **Gestão de conteúdo**
 
-Para gerenciar facilmente os fragmentos e os modelos de conteúdo, agora é possível usar pastas para organizá-los com mais eficiência em uma hierarquia estruturada.
+Para gerenciar facilmente os fragmentos e os modelos de conteúdo, agora é possível usar pastas para organizá-los com mais eficiência em uma hierarquia estruturada. Esse aprimoramento só está disponível para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
 
 ## Notas da versão de fevereiro de 2025 {#25-02-rn}
