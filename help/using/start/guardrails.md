@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
-workflow-type: ht
-source-wordcount: '2346'
-ht-degree: 100%
+source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+workflow-type: tm+mt
+source-wordcount: '2471'
+ht-degree: 93%
 
 ---
 
@@ -22,12 +22,6 @@ Abaixo você encontrará medidas de proteção e limitações adicionais para o 
 Os direitos, as limitações de produto e as medidas de proteção de desempenho estão listados na [página de descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 Antes de iniciar, leia também as [Medidas de proteção aos dados de perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR){target="_blank"}.
-
-
->[!NOTE]
->
->Em raras circunstâncias, interrupções temporárias em uma região específica podem resultar na exclusão de perfis válidos das jornadas ou de emails marcados incorretamente como rejeições. Depois que os serviços forem restaurados, verifique novamente os registros de jornada, os campos do perfil de consentimento e publique novamente a jornada, se necessário. No caso de uma interrupção do ISP, saiba como remover perfis da lista de supressão [nesta seção](../configuration/manage-suppression-list.md#remove-from-suppression-list).
->
 
 ## Navegadores compatíveis {#browsers}
 
@@ -44,12 +38,21 @@ Essa alteração será implementada nas **sandboxes de clientes existentes** em 
 
 ## Medidas de proteção de canais {#channel-guardrails}
 
+>[!NOTE]
+>
+>Em raras circunstâncias, interrupções temporárias em uma região específica podem resultar na exclusão de perfis válidos das jornadas ou de emails marcados incorretamente como rejeições. Depois que os serviços forem restaurados, verifique novamente os registros de jornada, os campos do perfil de consentimento e publique novamente a jornada, se necessário. No caso de uma interrupção do ISP, saiba como remover perfis da lista de supressão [nesta seção](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+>
+
 ### Medidas de proteção de email {#message-guardrails}
+
+As seguintes medidas de proteção se aplicam ao [canal de email](../email/get-started-email.md):
 
 * Não é possível adicionar anexos a um email com [!DNL Journey Optimizer].
 * Você não pode usar o mesmo domínio de envio para enviar mensagens do [!DNL Adobe Journey Optimizer] e de outro produto, como o [!DNL Adobe Campaign] ou o [!DNL Adobe Marketo Engage] por exemplo.
 
 ### Medidas de proteção de SMS {#sms-guardrails}
+
+As seguintes medidas de proteção se aplicam ao [canal de SMS](../sms/get-started-sms.md):
 
 * Os arquivos de mídia para MMS podem ser incluídos por meio de um URL compatível. Verifique se o arquivo de mídia foi enviado separadamente.
 * A sincronização de feedback da mensagem não está disponível no momento para MMS.
@@ -57,7 +60,7 @@ Essa alteração será implementada nas **sandboxes de clientes existentes** em 
 
 ### Medidas de proteção do canal da Web {#web-guardrails}
 
-As campanhas da Web do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. 
+[!DNL Journey Optimizer] [campanhas da web](../web/get-started-web.md) visam novos perfis que não foram engajados anteriormente em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. 
 
 As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -66,6 +69,8 @@ As métricas de licença para cada pacote estão listadas na página [Descriçã
 Para usar ações de experiência baseada em código no [!DNL Journey Optimizer] e fornecer conteúdo de código que possa ser usado por seus aplicativos, siga os pré-requisitos detalhados [nesta página](../code-based/code-based-prerequisites.md).
 
 ## Medidas de proteção das páginas de destino {#lp-guardrails}
+
+As seguintes medidas de proteção se aplicam às [páginas de aterrissagem](../landing-pages/get-started-lp.md):
 
 * Somente um componente de **Formulário** pode ser usado em uma única página principal.
 * O componente de **Formulário** não pode ser usado em subpáginas.
@@ -78,7 +83,11 @@ Por padrão, o [!DNL Journey Optimizer] permite delegar até 10 subdomínios no 
 
 No entanto, dependendo do contrato de licença, talvez você possa delegar até 100 subdomínios. Fale com seu contato na Adobe para saber mais sobre o número de subdomínios aos quais você tem direito.
 
+Saiba mais sobre delegação de domínio em [esta página](../configuration/delegate-subdomain.md).
+
 ## Medidas de proteção de fragmentos {#fragments-guardrails}
+
+As seguintes medidas de proteção se aplicam aos [fragmentos](../content-management/fragments.md):
 
 * Os fragmentos visuais só estão disponíveis para o canal de email.
 * Os fragmentos de expressão não estão disponíveis para o canal interno do aplicativo.
@@ -86,6 +95,8 @@ No entanto, dependendo do contrato de licença, talvez você possa delegar até 
 ## Medidas de proteção de públicos-alvo {#audience}
 
 Você pode publicar até 10 composições de público-alvo em uma determinada sandbox. Se tiver atingido esse limite, será necessário excluir uma composição para liberar espaço e publicar uma nova.
+
+Saiba mais sobre composições de público-alvo em [esta página](../audience/get-started-audience-orchestration.md).
 
 ## Medidas de proteção de decisão e gestão de decisões {#decisioning-guardrails}
 
@@ -108,12 +119,16 @@ As medidas de proteção e limitações que devem ser consideradas ao trabalhar 
 
 ### Ações gerais {#general-actions-g}
 
+As seguintes medidas de proteção se aplicam às [Ações](../building-journeys/about-journey-activities.md) em suas jornadas:
+
 * Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. Novas tentativas são executadas para todos os erros HTTP, exceto para HTTP 401, 403 e 404.
 * O evento **Reação** integrado permite que você reaja a ações predefinidas. Saiba mais [nesta página](../building-journeys/reaction-events.md). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado.
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
 * Um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo. Se a reentrada estiver ativada, um perfil poderá entrar novamente em uma jornada, mas não até que tenha saído totalmente da instância anterior da jornada. [Leia mais](../building-journeys/end-journey.md)
 
 ### Versões de jornada {#journey-versions-g}
+
+As seguintes medidas de proteção se aplicam às [versões do Jornada](../start/user-interface.md):
 
 * Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de público-alvo**.
 * Uma jornada que começa com uma atividade de **Qualificação de público-alvo** em v1 deve sempre começar com uma **Qualificação de público-alvo** em outras versões.
@@ -124,13 +139,15 @@ As medidas de proteção e limitações que devem ser consideradas ao trabalhar 
 
 ### Ações personalizadas {#custom-actions-g}
 
+As seguintes medidas de proteção se aplicam às [Ações personalizadas](../action/action.md) em suas jornadas:
+
 * Um limite máximo de 300.000 chamadas em um minuto é definido para todas as ações personalizadas, por host e por sandbox. Consulte [esta página](../action/about-custom-action-configuration.md). Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. É necessário considerar isso em jornadas baseadas em público-alvo, definindo uma taxa de leitura apropriada (5.000 perfis por segundo ao utilizar ações personalizadas). Se necessário, é possível substituir essa configuração aumentando o limite máximo por meio das APIs de limite e limitação. Consulte [esta página](../configuration/external-systems.md).
 * O URL de ação personalizada não aceita parâmetros dinâmicos.
 * Os métodos de chamada POST, PUT e GET são compatíveis
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou “$”
 * Endereços IP não são permitidos
 * Endereços internos da Adobe (`.adobe.*`) não são permitidos em URLs e APIs.
-* As ações personalizadas incorporadas não podem ser removidas.
+* As ações personalizadas integradas não podem ser removidas.
 * As ações personalizadas são compatíveis com o formato JSON somente ao usar conteúdos de solicitação ou resposta. Consulte [esta página](../action/about-custom-action-configuration.md#custom-actions-limitations).
 * Ao escolher um ponto de acesso para destino usando uma ação personalizada, verifique se:
 
@@ -138,6 +155,8 @@ As medidas de proteção e limitações que devem ser consideradas ao trabalhar 
    * Esse ponto de acesso precisa ter um tempo de resposta o mais baixo possível. Dependendo da taxa de transferência esperada, ter um tempo de resposta alto pode afetar a taxa de transferência real.
 
 ### Eventos {#events-g}
+
+As seguintes medidas de proteção se aplicam aos [Eventos](../event/about-events.md) em suas jornadas:
 
 * O Journey Optimizer oferece suporte a um volume máximo de 5.000 eventos de jornada de entrada por segundo.
 * As jornadas acionadas por eventos podem levar até 5 minutos para processar a primeira ação na jornada.
@@ -147,6 +166,8 @@ As medidas de proteção e limitações que devem ser consideradas ao trabalhar 
 * O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço principal de coleção de dados (DCCS) para acionar uma jornada. Não é possível usar eventos assimilados em lote ou eventos de conjuntos de dados internos do Journey Optimizer (feedback de mensagem, rastreamento de email etc.) para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, é necessário criar um público-alvo com base nesses eventos e usar a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas não é recomendada, pois pode causar desafios no downstream com base nas ações usadas.
 
 ### Fontes de dados {#data-sources-g}
+
+As seguintes medidas de proteção se aplicam às [Fontes de Dados](../datasource/about-data-sources.md) em suas jornadas:
 
 * As fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da API REST, devem ser compatíveis com JSON e poder lidar com o volume de solicitações.
 * Endereços internos da Adobe (`.adobe.*`) não são permitidos em URLs e APIs.
@@ -173,7 +194,7 @@ Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Atualiz
 
 ### Público-alvo de leitura {#read-segment-g}
 
-As seguintes medidas de proteção se aplicam à atividade **[!UICONTROL Público-alvo de leitura]**:
+As seguintes medidas de proteção se aplicam à atividade de jornada [Ler público-alvo](../building-journeys/read-audience.md):
 
 * Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Eles só são avaliados diariamente no momento da avaliação diária do lote.
 * Para jornadas que usam uma atividade de **público-alvo de leitura**, há um número máximo de jornadas que podem ser iniciadas ao mesmo tempo. O sistema ainda realizará novas tentativas, mas você deve evitar ter mais de cinco jornadas (com **Público-alvo de leitura**, agendadas ou iniciando “o mais rápido possível”) que se iniciem ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, em intervalos de 5 a 10 minutos.
@@ -183,17 +204,21 @@ As seguintes medidas de proteção se aplicam à atividade **[!UICONTROL Públic
 * Consulte também as recomendações de como usar a atividade de **público-alvo de leitura** descritas [nesta página](../building-journeys/read-audience.md).
 * As novas tentativas são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **público-alvo de leitura** ou um **evento de negócios**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado.
 
-### Qualificação de público-alvo {#audience-qualif-g}
+### Qualificação do público-alvo {#audience-qualif-g}
 
-A medida de proteção a seguir se aplica à atividade **[!UICONTROL Qualificação de público-alvo]**:
+A garantia a seguir se aplica à atividade de jornada [Qualificação de público-alvo](../building-journeys/audience-qualification-events.md):
 
 * A atividade Qualificação de público-alvo não pode ser usada com atividades do Adobe Campaign.
 
 ### Editor de expressão {#expression-editor}
 
+A proteção a seguir se aplica ao [editor de expressão de jornada](../building-journeys/expression/expressionadvanced.md):
+
 * Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de Público-alvo de leitura, de Qualificação de público-alvo ou de evento comercial. É necessário criar um novo público-alvo e usar uma condição de público-alvo na jornada.
 
 ### Atividade No aplicativo {#in-app-activity-limitations}
+
+As seguintes medidas de proteção se aplicam à ação **[!UICONTROL Mensagem no aplicativo]**. Saiba mais sobre Mensagens no aplicativo em [esta página](../in-app/create-in-app.md).
 
 * No momento, esse recurso não está disponível para clientes do Healthcare.
 
