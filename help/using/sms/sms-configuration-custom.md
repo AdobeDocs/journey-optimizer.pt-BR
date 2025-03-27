@@ -8,14 +8,34 @@ badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 1%
+source-wordcount: '376'
+ht-degree: 2%
 
 ---
 
 # Configurar um provedor personalizado {#sms-configuration-custom}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_url"
+>title="URL do provedor"
+>abstract="Especifique o URL da API externa à qual você planeja se conectar. Esse URL serve como endpoint para acessar os recursos e funcionalidades da API."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_auth_type"
+>title="Tipo de autenticação"
+>abstract="Especifique o método de autenticação necessário para acessar a API, como tokens OAuth ou Portador. Isso garante a comunicação segura e autorizada com o serviço externo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_header_parameters"
+>title="Parâmetros de cabeçalho"
+>abstract="Especifique o rótulo, o tipo e o valor dos cabeçalhos adicionais para habilitar a autenticação adequada, a formatação de conteúdo e a comunicação eficaz da API. "
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_payload"
+>title="Carga do provedor"
+>abstract="Forneça a carga da solicitação para garantir que os dados corretos sejam enviados para processamento e geração de resposta."
 
 >[!AVAILABILITY]
 >
