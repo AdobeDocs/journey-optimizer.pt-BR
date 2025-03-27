@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 19%
+source-wordcount: '1138'
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ A capacidade de entrega é uma medida do sucesso das entregas em chegar às caix
 
 >[!NOTE]
 >
->Para clientes que licenciam o Healthcare Shield, o Adobe usa o Transport Layer Security (TLS) 1.2 para proteger a troca de dados entre os sistemas dos usuários (destinatários) e a Journey Optimizer (remetente). Se o servidor de email de recebimento não for compatível com TLS 1.2, os clientes enfrentarão problemas de capacidade de entrega, incluindo email retornando ao remetente de origem.
+>Para clientes que licenciam o Healthcare Shield, o Adobe usa o Transport Layer Security (TLS) 1.2 para proteger a troca de dados entre os sistemas dos usuários (recipients) e a Journey Optimizer (remetente). Se o servidor de email de recebimento não for compatível com TLS 1.2, os clientes enfrentarão problemas de capacidade de entrega, incluindo email retornando ao remetente de origem.
 
 **A capacidade de entrega de email** refere-se ao conjunto de características que determinam a capacidade de uma mensagem de alcançar seu destino por meio de um endereço de email pessoal, dentro de um curto período e com a qualidade esperada em termos de conteúdo e formato. Essas características estão em quatro categorias principais: qualidade de dados, mensagem e conteúdo, infraestrutura de envio e reputação. Juntos, elas formam a base de um programa bem-sucedido de capacidade de fornecimento de email.
 
@@ -90,7 +90,7 @@ O Adobe Journey Optimizer oferece uma maneira padronizada e eficiente de aquecer
 
 ## Implementar DMARC {#dmarc}
 
-Para ajudar você a reduzir o risco de emails legítimos serem marcados como spam ou rejeitados e evitar problemas de entrega, o [!DNL Journey Optimizer] permite configurar o registro de DMARC para todos os subdomínios que você delega ao Adobe.
+Para ajudar você a reduzir o risco de emails legítimos serem marcados como spam ou rejeitados e evitar problemas de entrega, o [!DNL Journey Optimizer] permite configurar o registro de DMARC para todos os subdomínios que você delega à Adobe.
 
 O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um método de autenticação de email que permite aos proprietários de domínios proteger seus domínios contra o uso não autorizado por agentes mal-intencionados.
 
@@ -170,4 +170,14 @@ Todos os clientes do Adobe são automaticamente inscritos nos FBLs tradicionais 
 
 * Ziggo
 
-O Adobe audita esses FBLs regularmente para garantir que os FBLs disponíveis mais recentes sejam adicionados.
+A Adobe audita esses FBLs regularmente para garantir que os FBLs disponíveis mais recentes sejam adicionados.
+
+## Usar retransmissão SMTP {#smtp-relay}
+
+O [!DNL Journey Optimizer] usa MTAs (Agentes de Transferência de Correspondência) e IPs de propriedade da Adobe para entregar seus emails aos ISPs (Provedores de Serviço de Internet). No entanto, em alguns casos, você pode rotear os deliveries de email finais por meio de seus próprios MTAs e IPs ou executar validações finais nos emails antes de enviá-los aos recipients.
+
+Nesse caso, você pode optar por ter seus emails retransmitidos para servidores SMTP hospedados por sua organização em vez de serem enviados diretamente do Journey Optimizer para os ISPs.
+
+>[!AVAILABILITY]
+>
+>A capacidade de retransmissão SMTP está disponível sob demanda - entre em contato com o representante da Adobe.

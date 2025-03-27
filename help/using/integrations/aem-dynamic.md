@@ -6,14 +6,12 @@ description: Uso da mídia dinâmica com o Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-badge: label="Beta" type="Informative"
+badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 62d8da17a806713b1e77d8e7e494106dbb825c8b
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 1%
+source-wordcount: '777'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +19,11 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Essa integração está disponível exclusivamente para clientes que usam o Dynamic Media Manager as a Cloud Service.
+>Essa integração só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
 O seletor de ativos agora é compatível com Dynamic Media, permitindo selecionar e usar facilmente representações de Dynamic Media aprovadas no Journey Optimizer. As alterações feitas em ativos no Adobe Experience Manager são refletidas instantaneamente no conteúdo do Journey Optimizer, garantindo que as versões mais atualizadas estejam sempre em uso, sem a necessidade de atualizações manuais.
+
+Observe que essa integração só está disponível para clientes que usam o Dynamic Media Manager as a Cloud Service.
 
 Para saber mais sobre o Dynamic Media no Adobe Experience Manager as a Cloud Service, consulte a [documentação do Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
 

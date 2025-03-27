@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 4%
+source-wordcount: '525'
+ht-degree: 6%
 
 ---
 
@@ -109,6 +109,14 @@ Para definir as condições associadas a uma política de aprovação, siga esta
     </tr>
     <tr>
     <td>Cartão de conteúdo</td>
+    </tr>
+    <tr>
+    <td>Tags</td>
+    <td>Nome da tag usada para organizar seus públicos. </td>
+    </tr>
+    <tr>
+    <td>Nome do objeto</td>
+    <td>Nome do objeto.</td>
     </tr>
     <tr>
     <td>Usuário do solicitante</td>

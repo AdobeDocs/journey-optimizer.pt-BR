@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1361'
 ht-degree: 100%
 
 ---
@@ -248,8 +248,3 @@ Para alterar o idioma:
 >id="ajo_exd_placements"
 >title="Posicionamento"
 >abstract="Um posicionamento determina onde os itens retornados do mecanismo de decisão aparecem em uma mensagem. Você pode acompanhar o desempenho em diferentes posicionamentos nos relatórios."
-
->[!CONTEXTUALHELP]
->id="ajo_express_menu"
->title="Integração do Adobe Express"
->abstract="Adobe Express"

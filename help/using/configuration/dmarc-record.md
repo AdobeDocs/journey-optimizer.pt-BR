@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdomínio, domínio, email, dmarc, registro
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 12%
+source-wordcount: '1482'
+ht-degree: 11%
 
 ---
 
@@ -70,13 +70,13 @@ Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo
 
 Consequentemente, a Adobe recomenda que você execute as seguintes ações:
 
-* Certifique-se de ter o **registro DMARC** configurado para **todos os subdomínios que você já delegou** ao Adobe em [!DNL Journey Optimizer]. [Saiba como](#check-subdomains-for-dmarc)
+* Verifique se o **registro do DMARC** está configurado para **todos os subdomínios que você já delegou** à Adobe no [!DNL Journey Optimizer]. [Saiba como](#check-subdomains-for-dmarc)
 
-* Ao **delegar qualquer novo subdomínio** ao Adobe, você pode **configurar o DMARC** diretamente **na [!DNL Journey Optimizer] interface de administração**. [Saiba como](#implement-dmarc)
+* Ao **delegar qualquer novo subdomínio** à Adobe, você pode **configurar o DMARC** diretamente **na [!DNL Journey Optimizer] interface de administração**. [Saiba como](#implement-dmarc)
 
 ## Implementar o DMARC em [!DNL Journey Optimizer] {#implement-dmarc}
 
-A interface de administração [!DNL Journey Optimizer] permite configurar o registro DMARC para todos os subdomínios que você já delegou ou ao Adobe. As etapas detalhadas estão descritas abaixo.
+A interface de administração [!DNL Journey Optimizer] permite configurar o registro do DMARC para todos os subdomínios que você já delegou ou à Adobe. As etapas detalhadas estão descritas abaixo.
 
 ### Verificar subdomínios existentes para o DMARC {#check-subdomains-for-dmarc}
 
@@ -94,23 +94,27 @@ Para verificar se você tem um registro DMARC configurado para todos os subdomí
 
 1. Selecione um subdomínio sem registro DMARC associado e preencha a seção **[!UICONTROL Registro DMARC]** de acordo com as necessidades da sua organização. As etapas para preencher os campos de registro do DMARC estão detalhadas em [esta seção](#implement-dmarc).
 
-1. Considere as duas opções abaixo:
+   <!--![](assets/dmarc-record-edit-full.png)-->
 
-   * Se você estiver editando um subdomínio configurado com o [CNAME](delegate-subdomain.md#cname-subdomain-delegation), copie o registro DNS do DMARC na solução de hospedagem para gerar os registros DNS correspondentes.
+   >[!NOTE]
+   >
+   >Dependendo de um registro DMARC ser encontrado com o domínio pai ou não, você pode optar por usar os valores do domínio pai ou fazer com que o Adobe gerencie o registro DMARC. [Saiba mais](#implement-dmarc)
+
+1. Se você estiver editando um subdomínio:
+
+   * [Totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) à Adobe, nenhuma outra ação é necessária.
+
+   * Configurado com [CNAME](delegate-subdomain.md#cname-subdomain-delegation), você deve copiar o registro DNS para o DMARC na solução de hospedagem para gerar os registros DNS correspondentes.
 
      ![](assets/dmarc-record-edit-cname.png)
 
      Verifique se o registro DNS foi gerado na solução de hospedagem de domínio e marque a caixa &quot;Confirmo...&quot;.
 
-   * Se você estiver editando um subdomínio [totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) no Adobe, basta preencher os campos **[!UICONTROL registro do DMARC]** detalhados em [esta seção](#implement-dmarc). Nenhuma outra ação é necessária.
-
-     ![](assets/dmarc-record-edit-full.png)
-
 1. Salve as alterações.
 
 ### Configurar o DMARC para novos subdomínios {#set-up-dmarc}
 
-Ao delegar novos subdomínios ao Adobe em [!DNL Journey Optimizer], um registro DMARC será criado no DNS para o seu domínio. Siga as etapas abaixo para implementar o DMARC.
+Ao delegar novos subdomínios à Adobe no [!DNL Journey Optimizer], um registro DMARC será criado no DNS para o seu domínio. Siga as etapas abaixo para implementar o DMARC.
 
 >[!CAUTION]
 >
@@ -122,13 +126,33 @@ Ao delegar novos subdomínios ao Adobe em [!DNL Journey Optimizer], um registro 
 
 1. Vá para a seção **[!UICONTROL Registro do DMARC]**.
 
-   Se o subdomínio tiver um registro DMARC existente e for buscado por [!DNL Journey Optimizer], você poderá usar os mesmos valores como realçados na interface ou alterá-los conforme necessário.
+1. Se um registro DMARC estiver disponível no domínio pai associado ao subdomínio, duas opções serão exibidas:
 
    ![](assets/dmarc-record-found.png)
 
-   >[!NOTE]
-   >
-   >Se você não adicionar nenhum valor, os valores padrão pré-preenchidos serão usados.
+   * **[!UICONTROL Gerenciar com o Adobe]**: você pode fazer com que o Adobe gerencie o registro do DMARC para o seu subdomínio. Siga as etapas detalhadas em [esta seção](#manage-dmarc-with-adobe).
+
+   * **[!UICONTROL Gerenciar por conta própria]**: <!--This option is selected by default.-->Essa opção permite gerenciar o registro do DMARC fora do [!DNL Journey Optimizer], usando os valores do domínio pai. Esses valores são exibidos na interface, mas não podem ser editados.
+
+     ![](assets/dmarc-record-found-own.png){width="80%"}
+
+1. Se nenhum registro DMARC for encontrado no domínio pai, somente a opção **[!UICONTROL Gerenciar com Adobe]** estará disponível. Siga as etapas [abaixo](#manage-dmarc-with-adobe) para configurar o registro DMARC para o seu subdomínio.
+
+   ![](assets/dmarc-record-not-found.png){width="80%"}
+
+### Gerenciar registros do DMARC com o Adobe {#manage-dmarc-with-adobe}
+
+Para permitir que a Adobe gerencie o registro do DMARC para você, selecione a opção **[!UICONTROL Gerenciar com o Adobe]** e siga as etapas abaixo.
+
+>[!NOTE]
+>
+>Se buscado por [!DNL Journey Optimizer], você pode usar os mesmos valores como realçados na interface ou alterá-los conforme necessário.
+
+![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
+
+>[!NOTE]
+>
+>Se você não adicionar nenhum valor, os valores padrão pré-preenchidos serão usados.
 
 1. Defina a ação que o servidor do recipient executará se o DMARC falhar. Dependendo da [política do DMARC](#dmarc-policies) que você deseja aplicar, selecione uma das três opções:
 
@@ -144,7 +168,7 @@ Ao delegar novos subdomínios ao Adobe em [!DNL Journey Optimizer], um registro 
 
    >[!NOTE]
    >
-   >Certifique-se de ter uma caixa de entrada original (não o Adobe) em seu controle, onde você pode receber esses relatórios.
+   >Certifique-se de ter uma caixa de entrada original (não Adobe) em seu controle, onde você pode receber esses relatórios.
 
    Há dois relatórios diferentes gerados por ISPs que os remetentes podem receber por meio das tags RUA/RUF na política da DMARC:
 
@@ -167,12 +191,11 @@ Ao delegar novos subdomínios ao Adobe em [!DNL Journey Optimizer], um registro 
 
 1. Selecione um **intervalo de relatórios** entre 24 e 168 horas. Ele permite que os proprietários de domínio recebam atualizações regulares sobre os resultados de autenticação de email e tomem as medidas necessárias para melhorar a segurança do email.
 
-   <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
+<!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
-    The default value (24 hours) is generally the email providers' expectation.-->
+The default value (24 hours) is generally the email providers' expectation.
 
-
-<!--
+**********
 
 Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
 

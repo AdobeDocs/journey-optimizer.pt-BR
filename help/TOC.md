@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 99%
+source-wordcount: '2314'
+ht-degree: 97%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 99%
    + Criar uma jornada{#create-journey}
       + [Criar a primeira jornada](using/building-journeys/journey-gs.md)
       + [Definir as propriedades da jornada](using/building-journeys/journey-properties.md)
+      + [Configurar e rastrear sua métrica de jornada](using/building-journeys/success-metrics.md)
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
       + [Simular a jornada](using/building-journeys/journey-simulation.md)
@@ -324,6 +325,11 @@ ht-degree: 99%
          + [Configurar o suporte a cartões de conteúdo no SDK da Web](using/content-card/content-card-configuration-sdk.md)
       + [Criar cartões de conteúdo](using/content-card/create-content-card.md)
       + [Design de cartões de conteúdo](using/content-card/design-content-card.md)
+   + WhatsApp{#whatsapp}
+      + [Introdução a mensagens do WhatsApp](using/whatsapp/get-started-whatsapp.md)
+      + [Configurar canal do WhatsApp no Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
+      + [Criar uma mensagem de WhatsApp](using/whatsapp/create-whatsapp.md)
+      + [Verificar e enviar suas mensagens do WhatsApp](using/whatsapp/send-whatsapp.md)
 + Páginas de destino {#landing-pages}
    + [Introdução às páginas de destino](using/landing-pages/get-started-lp.md)
    + [Criar uma página de destino](using/landing-pages/create-lp.md)
@@ -419,9 +425,11 @@ ht-degree: 99%
    + [Integrações com outras soluções](using/integrations/ajo-integrations.md)
    + [Trabalho com o Experience Manager Assets](using/integrations/assets.md)
    + [Trabalho com o Adobe Stock](using/integrations/stock.md)
+   + [Trabalhar com o Adobe Express](using/integrations/express.md)
    + [Trabalhar com modelos do Experience Manager](using/integrations/aem-templates.md)
    + [Trabalhar com fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments.md)
    + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
+   + [Trabalhar com o GenStudio](using/integrations/genstudio.md)
 + Rastrear e monitorar {#reporting}
    + Relatório em tempo real {#live-report}
       + [Introdução aos relatórios em tempo real](using/reports/live-report.md)

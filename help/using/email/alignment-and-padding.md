@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 keywords: alinhamento vertical, editor de email, preenchimento
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 14%
+source-wordcount: '199'
+ht-degree: 12%
 
 ---
 
-# Ajustar alinhamento vertical e preenchimento {#alignment-and-padding}
+# Ajustar o alinhamento vertical e o preenchimento {#alignment-and-padding}
 
 Neste exemplo, ajustaremos o preenchimento e o alinhamento vertical dentro de um componente de estrutura composto por três colunas.
 
@@ -41,3 +41,7 @@ Neste exemplo, ajustaremos o preenchimento e o alinhamento vertical dentro de um
 1. Proceda de forma semelhante para ajustar o alinhamento e o preenchimento das outras colunas.
 
 1. Salve as alterações.
+
+>[!TIP]
+>
+>Ao projetar conteúdo de email para Gmail em dispositivos Android, certifique-se de que imagens e divisores usem preenchimento de coluna em vez de margens grandes e fixas. O Gmail no Android geralmente renderiza imagens e margens superdimensionadas incorretamente, causando excesso de layout ou linhas divisórias reduzidas. Use uma largura de imagem menor ou conte com o preenchimento baseado em colunas para uma exibição consistente.

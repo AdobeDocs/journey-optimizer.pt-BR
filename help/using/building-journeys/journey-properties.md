@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2259'
+source-wordcount: '2298'
 ht-degree: 18%
 
 ---
@@ -243,16 +243,19 @@ A partir da versão de junho de 2024 do Adobe Journey Optimizer, o tempo limite 
 
 ## Mesclar políticas {#merge-policies}
 
-O Jornada usa políticas de mesclagem ao recuperar dados de perfil do Adobe Experience Platform. Dependendo do tipo de jornada, são usadas diferentes políticas de mesclagem:
+O Adobe Journey Optimizer usa políticas de mesclagem ao recuperar dados de perfil do Adobe Experience Platform. Dependendo do tipo de jornada, são usadas diferentes políticas de mesclagem:
 
 * Em Ler jornadas de qualificação de público ou público-alvo: a política de mesclagem do público-alvo é usada
 * Em jornadas de eventos unitários: a política de mesclagem padrão é usada
 * Nas jornadas de eventos comerciais: a política de mesclagem do público-alvo na seguinte atividade Ler público é usada
 
-O Jornada seguirá a política de mesclagem usada em toda a jornada. Portanto, se vários públicos-alvo forem usados em uma jornada (por exemplo: em funções &quot;inAudience&quot;), criando inconsistências com a política de mesclagem usada pela jornada, um erro será gerado e a publicação será bloqueada. No entanto, se um público-alvo inconsistente for usado na personalização da mensagem, um alerta não será gerado, apesar da inconsistência. Por isso, é altamente recomendável verificar a política de mesclagem associada ao seu público-alvo quando ele for usado na personalização da mensagem.
+O Adobe Journey Optimizer aplica a política de mesclagem usada em toda a jornada. Portanto, se vários públicos-alvo forem usados em uma jornada (por exemplo: em funções &quot;inAudience&quot;), criando inconsistências com a política de mesclagem usada pela jornada, um erro será gerado e a publicação será bloqueada. No entanto, se um público-alvo inconsistente for usado na personalização da mensagem, um alerta não será gerado, apesar da inconsistência. Por isso, é altamente recomendável verificar a política de mesclagem associada ao seu público-alvo quando ele for usado na personalização da mensagem.
 
 Para saber mais sobre políticas de mesclagem, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
+>[!NOTE]
+>
+>Quando uma política de mesclagem de público-alvo é atualizada, qualquer jornada ativa que faça referência a esse público-alvo deve ser republicada (ou duplicada). Alterar a política de mesclagem cria efetivamente um &quot;novo&quot; público-alvo que a jornada contínua não pode acessar, garantindo a consistência dos dados.
 
 ## Critérios de saída {#exit-criteria}
 
