@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e29586f24f6ef84869a277ae6121d83f962405f7
+source-git-commit: 20d41af0829946300cffb5ff8585923b99a12a4b
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1336'
 ht-degree: 64%
 
 ---
@@ -166,6 +166,8 @@ Para obter mais informações, consulte a [documentação detalhada](../personal
 **Aprovações**
 
 Ao definir as condições para uma política de aprovação, agora há a opção de filtrar por Tag e/ou Categoria de objeto.
+
+Para obter mais informações, consulte a [documentação detalhada](../test-approve/approval-policies.md).
 
 **Configuração**
 
