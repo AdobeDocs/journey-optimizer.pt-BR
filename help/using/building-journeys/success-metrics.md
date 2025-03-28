@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
+source-git-commit: 1e35c2ea2b0a6c8edd5b870311bb32b4b4b58e9a
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '488'
 ht-degree: 5%
 
 ---
@@ -22,7 +23,7 @@ Ao rastrear essas métricas, você pode ver o desempenho da sua jornada, identif
 
 ## Pré-requisitos {#prerequisites}
 
-Antes de usar sua métrica de jornada, você deve adicionar um conjunto de dados que inclua o `Commerce Details` [grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"}.
+Antes de usar sua métrica de jornada, você deve adicionar um conjunto de dados que inclua os `Commerce Details`, `Web`e `Mobile` [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"}.
 
 ## Métricas disponíveis {#metrics}
 
