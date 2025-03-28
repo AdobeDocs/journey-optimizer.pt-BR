@@ -1,27 +1,27 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Dados de contexto e solicitações de decisão do Edge
+title: Dados de contexto e solicitações de decisão de borda
 description: Saiba como transmitir dados de contexto em solicitações do Edge Decisioning.
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-
-# Dados de contexto e solicitações de decisão do Edge {#edge}
+# Dados de contexto e solicitações de decisão de borda {#edge}
 
 Esta seção orienta você sobre como transmitir dados de contexto nas solicitações do Edge Decisioning e usá-los nas regras de elegibilidade. Exploraremos um caso de uso completo que demonstra como fornecer ofertas personalizadas com base no tipo de dispositivo que os clientes estão usando.
 
 Este caso de uso envolve várias etapas principais:
 
 1. [Configurar pré-requisitos](#prerequisites): verifique se todas as etapas necessárias foram concluídas para transmitir dados de contexto em suas solicitações.
-1. [Usar dados de contexto em regras de qualificação](#rule): crie regras que determinam quais ofertas devem ser mostradas com base no tipo de dispositivo do usuário.
+1. [Usar dados de contexto em regras de qualificação](#rules): crie regras que determinam quais ofertas devem ser mostradas com base no tipo de dispositivo do usuário.
 1. [Criar ofertas específicas de dispositivo](#offers): crie ofertas personalizadas para cada tipo de dispositivo e vincule-as às regras correspondentes.
 1. [Criar uma coleção de ofertas](#collection): agrupe todas as ofertas em uma coleção estática.
 1. [Configurar uma decisão](#decision): crie uma nova decisão que aproveite o Mecanismo do Offer Decisioning para escolher a melhor oferta a ser apresentada aos usuários com base em seu tipo de dispositivo.
@@ -149,33 +149,33 @@ Este é um exemplo de uma solicitação que transmite dados de contexto.
 
 ```
 {
-	"events": [{
-		"xdm": {
-			"identityMap": {
-				"customerId": [{
-					"id": "0000158216",
-					"authenticatedState": "authenticated",
-					"primary": true
-				}]
-			},
-			"_experienceplatform": {
-				"identity": {
-					"core": {
-						"customerId": "0000158216"
-					}
-				},
+    "events": [{
+        "xdm": {
+            "identityMap": {
+                "customerId": [{
+                    "id": "0000158216",
+                    "authenticatedState": "authenticated",
+                    "primary": true
+                }]
+            },
+            "_experienceplatform": {
+                "identity": {
+                    "core": {
+                        "customerId": "0000158216"
+                    }
+                },
                 "offerContextData" : {
                     "language" : "NL",
                     "deviceType" : "iphone"
                 }
-			}
-		}
-	}],
-	"query": {
-		"personalization": {
-			"decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
-		}
-	}
+            }
+        }
+    }],
+    "query": {
+        "personalization": {
+            "decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
+        }
+    }
 }
 ```
 

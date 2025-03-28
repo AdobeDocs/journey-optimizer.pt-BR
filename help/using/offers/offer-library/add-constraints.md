@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '2636'
-ht-degree: 16%
+source-wordcount: '2719'
+ht-degree: 15%
 
 ---
 
@@ -223,7 +223,7 @@ Você pode especificar se deseja que o limite seja aplicado a todos os usuários
 
 * Selecione **[!UICONTROL No total]** para definir quantas vezes uma oferta pode ser proposta através do público-alvo combinado, ou seja, através de todos os usuários.
 
-  Por exemplo, se você for um varejista de produtos eletrônicos com um &quot;contrato de portaria de TV&quot;, desejará que a oferta seja retornada apenas 200 vezes em todos os perfis.
+  Por exemplo, se você for um retailer eletrônico com um &quot;contrato de portaria de TV&quot;, desejará que a oferta seja retornada apenas 200 vezes em todos os perfis.
 
 * Selecione **[!UICONTROL Por perfil]** para definir quantas vezes uma oferta pode ser proposta ao mesmo usuário.
 
@@ -258,9 +258,9 @@ O campo **[!UICONTROL Redefinir frequência de limite]** permite definir com que
 >
 >Depois de publicar sua oferta, você não poderá alterar o período de tempo (mensal, semanal ou diário) selecionado para a frequência. Você ainda poderá editar o limite de frequência se a oferta tiver o status **[!UICONTROL Rascunho]** e nunca tiver sido publicada antes com o limite de frequência habilitado.
 
-+++ **Obrigatório: Limite de frequência e API de decisão do Edge**
++++ **Leitura obrigatória: APIs de Limite de frequência e Gerenciamento de decisão**
 
-O contador de limite de frequência é atualizado e disponibilizado em uma decisão da API do Edge Decisioning em menos de 3 segundos.
+O contador de limite de frequência é atualizado e está disponível em uma decisão da [API de decisão do Edge](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) em menos de 3 segundos.
 
 Cada região do hub está associada a uma ou mais regiões de borda. As regras de limite de frequência são geradas e exportadas de cada região do hub para suas regiões de borda associadas. Sempre que uma decisão é tomada usando a API do Edge Decisioning, o sistema impõe as regras disponíveis na mesma região de borda:
 
@@ -269,7 +269,17 @@ Cada região do hub está associada a uma ou mais regiões de borda. As regras d
 
 Por exemplo, considere a região do hub de sua organização como *NLD2* e você está enviando uma solicitação de decisão da Europa (*IRL1* região de borda). Neste cenário, a solicitação de decisão incrementará o contador do perfil, pois as regras estão disponíveis na região (Irlanda) *IRL1*. No entanto, se a solicitação de decisão se originar de uma região como o Japão (*JPN3*), que não é uma região de borda vinculada à região de hub (Holanda) *NLD2*, nenhum contador será criado e as regras de limite de frequência não serão impostas.
 
+>[!NOTE]
+>
+>Quando os contadores são propagados de borda a hub ou de hub a região de borda, um atraso de alguns minutos pode ser aplicado.
+
 Para obter mais informações sobre quais regiões de hub e borda estão associadas à sua organização, entre em contato com o representante da Adobe.
+
+Com as outras APIs, o contador de limite de frequência é atualizado da seguinte maneira:
+
+* Em uma decisão da [API de decisão](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning), o contador de limite de frequência pode ser atualizado com alguns minutos de atraso, dependendo do tráfego.
+
+* Em uma decisão da [API de decisão em lote](../api-reference/offer-delivery-api/batch-decisioning-api.md), os instantâneos são usados onde o contador de limite de frequência permanece fixo. Enquanto o mesmo instantâneo for usado, o contador permanecerá inalterado.
 
 +++
 

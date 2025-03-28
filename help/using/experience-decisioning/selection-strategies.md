@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 21%
+source-wordcount: '733'
+ht-degree: 20%
 
 ---
 
@@ -68,7 +68,7 @@ Para criar uma estratégia de seleção, siga as etapas abaixo.
 
    ![](assets/strategy-create-eligibility.png)
 
-   * Para restringir a seleção das ofertas aos membros de um público-alvo Experience Platform, selecione **[!UICONTROL Públicos-alvo]** e escolha um público-alvo na lista. [Saiba como trabalhar com públicos-alvo](../audience/about-audiences.md)
+   * Para restringir a seleção das ofertas aos membros de um público-alvo do Experience Platform, selecione **[!UICONTROL Públicos-alvo]** e escolha um público-alvo na lista. [Saiba como trabalhar com públicos-alvo](../audience/about-audiences.md)
 
    * Se quiser adicionar uma restrição de seleção com uma regra de decisão, use a opção **[!UICONTROL Regra de decisão]** e selecione a regra de sua escolha. [Saiba como criar uma regra](rules.md)
 
@@ -114,6 +114,11 @@ Depois de criada, é possível usar essa fórmula em uma estratégia de seleçã
 
 ### Classificação de IA {#ai-ranking}
 
-Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em determinado perfil ao selecionar um modelo de IA. Saiba como criar um modelo de IA em [esta seção](ranking.md).
+Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em determinado perfil ao selecionar um modelo de IA. Saiba como criar um modelo de IA em [esta seção](../offers/ranking/ai-models.md).
 
 Depois que um modelo de IA é criado, você pode usá-lo em uma estratégia de seleção. Se várias ofertas forem qualificadas, o sistema de modelo treinado determinará qual oferta deve ser apresentada primeiro para essa estratégia de seleção.
+
+>[!NOTE]
+>
+>Atualmente, o relatório [Medida de aumento](../offers/ranking/auto-optimization-model.md#lift) está disponível somente para o modelo de IA [Otimização personalizada](../offers/ranking/personalized-optimization-model.md).
+
