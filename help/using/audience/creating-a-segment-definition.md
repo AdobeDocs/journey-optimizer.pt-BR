@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 18%
@@ -81,6 +81,7 @@ A segmentação por transmissão é um processo contínuo de seleção de dados 
 >[!IMPORTANT]
 >
 >A partir de 1º de novembro de 2024, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos de **envio** e **abertura** dos conjuntos de dados de rastreamento e feedback do Journey Optimizer.
+>
 >* Essa alteração se aplica a todas as sandboxes e organizações do cliente.
 >* Somente eventos de envio e abertos são afetados: os cliques e outros eventos de rastreamento permanecem disponíveis para segmentação de transmissão.
 >* Essa alteração se aplica somente à segmentação por transmissão. Eventos de envio e abertura ainda podem ser usados em segmentos em lote, mas se incluídos em um segmento de transmissão, eles serão avaliados em lote. Além disso, os eventos de exclusão e os eventos de rejeição/atraso resultantes de eventos de envio também são afetados por essa alteração.

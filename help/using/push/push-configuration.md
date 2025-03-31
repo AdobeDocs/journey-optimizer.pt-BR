@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 5%
+source-wordcount: '1839'
+ht-degree: 6%
 
 ---
 
@@ -23,19 +23,7 @@ O [!DNL Journey Optimizer] permite criar jornadas e enviar mensagens para o púb
 >O novo **fluxo de trabalho de início rápido de integração móvel** está disponível. Use esse novo recurso do produto para configurar rapidamente o Mobile SDK para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados como um beta público. [Saiba mais](mobile-onboarding-wf.md)
 >
 
-
-## Antes de começar {#before-starting}
-
-<!--
-### Check provisioning
-
-Your Adobe Experience Platform account must be provisioned to contain following schemas and datasets for push notification data flow to function correctly:
-
-| Schema <br>Dataset                                                                       | Group of fields                                                                                                                                                                         | Operation                                                |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| CJM Push Profile Schema <br>CJM Push Profile Dataset                                     | Push Notification Details<br>Adobe CJM ExperienceEvent - Message Profile Details<br>Adobe CJM ExperienceEvent - Message Execution Details<br>Application Details<br>Environment Details | Register Push Token                                      |
-| CJM Push Tracking Experience Event Schema<br>CJM Push Tracking Experience Event Dataset | Push Notification Tracking                                                                                                                                                              | Track interactions and provide data for the reporting UI |
--->
+## Antes de começar {#start-push}
 
 ### Configurar permissões {#setup-permissions}
 
@@ -71,7 +59,7 @@ Para atribuir direitos de **Propriedade** e **Empresa**, siga as etapas abaixo:
    * **[!UICONTROL Desenvolver]**
    * **[!UICONTROL Gerenciar ambientes]**
    * **[!UICONTROL Gerenciar extensões]**
-   * **[!UICONTROL Publish]**
+   * **[!UICONTROL Publicar]**
 
    Essas permissões são necessárias para instalar e publicar a extensão do Adobe Journey Optimizer e publicar a propriedade do aplicativo no Adobe Experience Platform Mobile SDK.
 
@@ -109,6 +97,25 @@ Para atribuir este **[!UICONTROL Perfil de produto]** a usuários, siga as etapa
    >Se o usuário não tiver sido criado anteriormente no Admin Console, consulte a [documentação Adicionar usuários](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
+
+
+### Verifique seus conjuntos de dados {#push-datasets}
+
+Os seguintes esquemas e conjuntos de dados estão disponíveis com o canal de notificação por push:
+
+| Conjunto de dados <br> do esquema | Grupo de campos | Operação |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| Esquema do perfil de push CJM <br>Conjunto de dados do perfil de push CJM | Detalhes da notificação por push<br>ExperienceEvent do Adobe CJM - Detalhes do Perfil da Mensagem<br>ExperienceEvent do Adobe CJM - Detalhes da Execução da Mensagem<br>Detalhes do Aplicativo<br>Detalhes do Ambiente | Registrar token de push |
+| Esquema do evento de experiência de rastreamento de push CJM<br>Conjunto de dados do evento de experiência de rastreamento de push CJM | Rastreamento de notificação por push | Rastrear interações e fornecer dados para a interface de relatórios |
+
+
+>[!NOTE]
+>
+>Quando os eventos de rastreamento de push são assimilados no conjunto de dados de Evento de experiência de rastreamento de push do CJM, algumas falhas podem ocorrer, mesmo que os dados sejam parcialmente assimilados com sucesso. Isso pode ocorrer se alguns campos no mapeamento não existirem nos eventos de entrada: o sistema registra avisos, mas não impede a assimilação de partes válidas dos dados. Esses avisos aparecem no status do lote como &quot;falha&quot;, mas refletem o sucesso da assimilação parcial.
+>
+>Para exibir a lista completa de campos e atributos para cada esquema, consulte o [Dicionário de esquema do Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}.
+
+
 
 ### Configurar seu aplicativo {#configure-app}
 
@@ -199,7 +206,7 @@ Depois de criar suas credenciais de push, você precisa criar uma configuração
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
 
 
 1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
