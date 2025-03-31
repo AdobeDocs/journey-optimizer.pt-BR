@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 51%
+source-wordcount: '1371'
+ht-degree: 48%
 
 ---
 
@@ -43,11 +43,11 @@ Dependendo do cliente de email e das configurações de cancelamento de subscri�
 >
 >Saiba como gerenciar as configurações de cancelamento de assinatura em [esta seção](#enable-list-unsubscribe) abaixo.
 
-Em ambos os casos, o perfil correspondente do destinatário é cancelado imediatamente e esta escolha é atualizada no [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
+Em ambos os casos, quando um recipient clica no link de recusa, sua solicitação de cancelamento de inscrição é processada adequadamente. O perfil correspondente foi cancelado imediatamente e esta escolha foi atualizada em [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
 
 >[!NOTE]
 >
->No [!DNL Journey Optimizer], o consentimento é tratado pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR) da Experience Platform{target="_blank"}. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar este valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"}, ou usar [políticas de consentimento](../action/consent.md) para substituir a lógica padrão.
+>Ocasionalmente, os eventos de cancelamento de inscrição podem levar mais tempo para refletir no nível do perfil devido ao processamento de dados downstream. Aguarde algum tempo para que o sistema seja atualizado.
 
 ## Habilitar cancelamento de assinatura em lista {#enable-list-unsubscribe}
 
@@ -89,7 +89,13 @@ Os recursos **[!UICONTROL Mailto (cancelar assinatura)]** e **[!UICONTROL URL pa
 
    * Se você não adicionar um link para opção de não participação com um clique no conteúdo da mensagem e o **[!UICONTROL URL para cancelar assinatura com um clique]** padrão estiver desmarcado nas configurações do canal, nenhum URL será associado ao cabeçalho de email para cancelar assinatura da lista.
 
-Saiba mais sobre como gerenciar recursos para cancelar assinatura em suas mensagens [nesta seção](../email/email-opt-out.md#unsubscribe-header).
+  >[!NOTE]
+  >
+  >Saiba mais sobre como gerenciar recursos para cancelar assinatura em suas mensagens [nesta seção](../email/email-opt-out.md#unsubscribe-header).
+
+No [!DNL Journey Optimizer], o consentimento é tratado pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR) da Experience Platform{target="_blank"}. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar este valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"}, ou usar [políticas de consentimento](../action/consent.md) para substituir a lógica padrão.
+
+Atualmente, o [!DNL Journey Optimizer] não anexa uma tag específica para cancelar a inscrição de eventos acionados pelo recurso de cancelamento de inscrição de lista. Se você precisar diferenciar os cliques de cancelamento de inscrição da lista de outras ações de cancelamento de inscrição, é necessário implementar a marcação personalizada externamente ou aproveitar uma página de aterrissagem externa para rastreamento.
 
 ## Gerenciar dados de cancelamento de assinatura externamente {#custom-managed}
 

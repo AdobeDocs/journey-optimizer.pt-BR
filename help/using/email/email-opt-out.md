@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recusar, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 29%
+source-wordcount: '991'
+ht-degree: 24%
 
 ---
 
@@ -32,12 +32,19 @@ Para inserir um link de cancelamento de subscrição no seu conteúdo de email, 
 
 * Inserir um **link para uma página de aterrissagem**. [Saiba como adicionar uma página de aterrissagem de recusa](#opt-out-external-lp)
 
+Quando um recipient clica no link para opção de não participação, a solicitação de cancelamento de inscrição é processada adequadamente.
+
+Para verificar se a escolha do perfil correspondente foi atualizada, vá para Experience Platform e [navegue até esse perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Na guia **[!UICONTROL Atributos]**, é possível ver que o valor de **[!UICONTROL opção]** foi alterado para **[!UICONTROL não]**. Saiba mais na [documentação do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+
+![](assets/opt-out-profile-choice.png)
+
+>[!NOTE]
+>
+>Ocasionalmente, os eventos de cancelamento de inscrição podem levar mais tempo para refletir no nível do perfil devido ao processamento de dados downstream. Aguarde algum tempo para que o sistema seja atualizado.
 
 ## Recusa em uma etapa {#opt-out-one-step}
 
 Com o [!DNL Adobe Journey Optimizer], você pode definir suas [configurações de email](email-settings.md#list-unsubscribe) com uma URL de cancelamento de inscrição e um endereço mailto de um clique gerados automaticamente no cabeçalho do email, ou incluir uma URL de recusa de um clique no corpo do email.
-
-Quando um recipient clica no link de recusa de um clique, a solicitação de cancelamento de inscrição desse recipient é processada adequadamente.
 
 ### URL para cancelar a assinatura com um clique no cabeçalho do email {#unsubscribe-header}
 
@@ -170,10 +177,4 @@ Depois de configurar o link de cancelamento de inscrição para a página de ate
    ![](assets/opt-out-confirmation-example.png)
 
    Como resultado, esse usuário não receberá a comunicação da sua marca, a menos que faça a assinatura novamente.
-
-1. Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
-
-   ![](assets/opt-out-profile-choice.png)
-
-   Na guia **[!UICONTROL Atributos]**, é possível ver que o valor de **[!UICONTROL escolha]** foi alterado para **[!UICONTROL não]**.
 
