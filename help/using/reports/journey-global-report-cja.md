@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 0%
+source-wordcount: '887'
+ht-degree: 1%
 
 ---
 
@@ -43,8 +43,6 @@ Os Indicadores Principais de Desempenho (KPIs) da **[!UICONTROL Jornada]** funci
 
 * **[!UICONTROL Saídas da Jornada]**: número total de indivíduos que saíram da jornada.
 
-* **[!UICONTROL Falhas de Jornada]**: número total de jornadas individuais que não foram executadas com êxito.
-
 +++
 
 ### Estatísticas da jornada {#journey-stats}
@@ -54,6 +52,8 @@ Os Indicadores Principais de Desempenho (KPIs) da **[!UICONTROL Jornada]** funci
 A tabela **[!UICONTROL Estatísticas de Jornada]** oferece um resumo detalhado de dados cruciais sobre suas jornadas. Ele inclui métricas principais como o número de falhas e entradas bem-sucedidas, fornecendo insights valiosos sobre o desempenho e o alcance de seus emails e jornadas.
 
 +++ Saiba mais sobre métricas de Estatísticas do Jornada
+
+* **[!UICONTROL Exclusão de Jornada]**: número total de indivíduos que foram excluídos da jornada devido a critérios ou regras de supressão predefinidos.
 
 * **[!UICONTROL Envolvimento da Jornada]**: número total de indivíduos únicos que receberam mensagens enviadas por meio da jornada, representando perfis distintos que atingiram um ponto de ação designado na jornada.
 
@@ -71,7 +71,17 @@ A tabela **[!UICONTROL Estatísticas de Jornada]** oferece um resumo detalhado d
 
 +++
 
-## Jornada tela {#journey-canvas}
+## Exclusão de jornada {#journey-exclusion}
+
+A tabela **[!UICONTROL exclusão de Jornada]** apresenta uma exibição abrangente dos diferentes fatores que resultaram na exclusão de perfis de usuário.
+
+## Erro de ação {#action-error}
+
+![](assets/cja-journey-action-error.png)
+
+O widget **[!UICONTROL Erros de ação]** detalha os diferentes erros que ocorreram para as ações da sua jornada.
+
+## Tela da jornada {#journey-canvas}
 
 ![](assets/cja-journey-canvas.png)
 
@@ -106,9 +116,11 @@ A tabela **[!UICONTROL Visão geral das ações]** serve como um painel abrangen
 
 +++ Saiba mais sobre Métricas de visão geral de ação
 
-* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas ações.
+* **[!UICONTROL Entradas do nó]**: número total de indivíduos que entraram em um nó específico dentro da jornada.
 
-* **[!UICONTROL Taxa de transferência de cliques]**: porcentagem de usuários que interagiram com a ação.
+* **[!UICONTROL Falha na Jornada]**: número total de jornadas individuais que não foram executadas com êxito.
+
+* **[!UICONTROL Taxa de cliques]**: porcentagem de usuários que interagiram com a ação.
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em suas ações.
 

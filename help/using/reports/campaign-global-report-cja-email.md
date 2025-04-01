@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1056'
 ht-degree: 2%
 
 ---
@@ -65,13 +65,13 @@ A tabela **[!UICONTROL Estatísticas de Envio]** fornece um resumo abrangente do
 
 +++ Saiba mais sobre como enviar métricas de estatísticas
 
-* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas mensagens.
-
 * **[!UICONTROL Direcionado]**: número total de emails processados durante o processo de envio.
 
 * **[!UICONTROL Envios]**: número total de envios para o seu email.
 
 * **[!UICONTROL Entregues]**: número de emails enviados com êxito em relação ao número total de mensagens enviadas.
+
+* **[!UICONTROL Entregas únicas]**: número de perfis que receberam com êxito pelo menos um email.
 
 * **[!UICONTROL Rejeições para canais de saída]**: Total de erros acumulados durante o processo de envio e o processamento automático de retorno em relação ao número total de mensagens enviadas.
 
@@ -99,12 +99,13 @@ A tabela **[!UICONTROL Email - Estatísticas de rastreamento]** oferece uma cont
 
 * **[!UICONTROL Aberturas de email]**: Número de vezes que seus emails foram abertos em uma campanha.
 
-* **[!UICONTROL Aberturas de email únicas]**: porcentagem de emails abertos.
+* **[!UICONTROL Aberturas de Email Exclusivas]**: Número de perfis que abriram emails.
 
 * **[!UICONTROL Reclamações de spam]**: número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
 
 * **[!UICONTROL Cancelamentos de assinatura]**: Número de cliques no link de cancelamento de assinatura.
 
+* **[!UICONTROL Cancelamentos de assinatura de email únicos]**: Número de perfis que cancelaram a assinatura de seus emails.
 +++
 
 ## Domínios de email {#email-domains}
@@ -119,13 +120,12 @@ A tabela **[!UICONTROL Domínios de email]** oferece uma análise detalhada dos 
 
 * **[!UICONTROL Entregues]**: número de emails enviados com êxito em relação ao número total de emails enviados.
 
-* **[!UICONTROL Aberturas de email]**: Número de vezes que seus emails foram abertos em uma campanha.
-
-* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
-
 * **[!UICONTROL Rejeições para canais de saída]**: Número total de erros acumulados durante o processo de envio e o processamento automático de retorno em relação ao número total de emails enviados.
 
 * **[!UICONTROL Erros de Saída]**: Número total de erros ocorridos durante o processo de envio que impediram o envio para perfis.
+
+* **[!UICONTROL Exclusões de saída]**: número de perfis excluídos pelo Adobe Journey Optimizer.
+
 +++
 
 ## Rótulos de link rastreado {#track-link-label}
@@ -154,10 +154,6 @@ A tabela **[!UICONTROL URLs de link rastreado]** fornece uma visão geral abrang
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
 
-* **[!UICONTROL Exibições]**: número de vezes que o email foi aberto.
-
-* **[!UICONTROL Exibições exclusivas]**: número de vezes que o email foi aberto, várias interações de um perfil não são consideradas.
-
 +++
 
 ## Assuntos de email {#email-subjects}
@@ -168,8 +164,9 @@ A tabela **[!UICONTROL Assuntos de email]** apresenta uma visão geral completa 
 
 +++ Saiba mais sobre métricas de assuntos de email
 
-* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para seus emails.
+* **[!UICONTROL Entregues]**: número de emails enviados com êxito em relação ao número total de emails enviados.
 
+* **[!UICONTROL Entregas únicas]**: número de perfis distintos que receberam com êxito pelo menos um email, garantindo que as duplicatas não sejam contadas.
 +++
 
 ## Motivos para exclusão {#excluded-reasons}

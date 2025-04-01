@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 4%
+source-wordcount: '495'
+ht-degree: 3%
 
 ---
 
@@ -25,15 +25,13 @@ A tabela **[!UICONTROL Estatísticas de envio]** fornece um resumo abrangente do
 
 +++ Saiba mais sobre como enviar métricas de estatísticas
 
-* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas notificações por push.
-
 * **[!UICONTROL Direcionado]**: número total de notificações por push processadas durante a análise.
 
 * **[!UICONTROL Envios]**: número total de envios para a notificação por push.
 
 * **[!UICONTROL Entregue]**: número de notificações por push enviadas com êxito em relação ao número total de notificações por push enviadas.
 
-* **[!UICONTROL Rejeições para canais de saída]**: total de erros acumulados durante o processo de envio e o processamento automático de retorno em relação ao número total de notificações por push.
+* **[!UICONTROL Exclusivo entregue]**: número de perfis que receberam com êxito pelo menos uma notificação por push.
 
 * **[!UICONTROL Erros de saída]**: número total de erros que ocorreram, impedindo que fossem enviados a perfis.
 
@@ -51,18 +49,15 @@ A tabela **[!UICONTROL Estatísticas de rastreamento]** oferece um instantâneo 
 
 * **[!UICONTROL Taxa de cliques (CTR)]**: porcentagem de usuários que interagiram com as notificações por push.
 
-* **[!UICONTROL Taxa de abertura de cliques (CTOR)]**: número de vezes que as notificações por push foram abertas.
-
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em suas notificações por push.
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em suas notificações por push.
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL Ações personalizadas por push]**: número de ações personalizadas executadas por perfis em resposta às notificações por push.
+
 +++
 
-## Rótulos de link rastreado {#track-link-label-push}
+## Etiquetas rastreadas {#track-link-label-push}
 
 ![](assets/cja-campaign-push-link-labels.png)
 

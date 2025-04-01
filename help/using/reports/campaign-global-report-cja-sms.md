@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 3%
@@ -18,6 +18,8 @@ ht-degree: 3%
 # Relatório de campanha por SMS {#campaign-global-report-cja-sms}
 
 ## Tendência de Entregas vs. Cliques {#delivered-click-sms}
+
+![](assets/cja-campaign-sms-delivered.png)
 
 O gráfico de tendência **[!UICONTROL Entregues versus Cliques]** apresenta uma análise detalhada do envolvimento dos seus perfis com seus emails, oferecendo insights valiosos sobre como os perfis interagem com seu conteúdo.
 
@@ -30,6 +32,8 @@ O gráfico de tendência **[!UICONTROL Entregues versus Cliques]** apresenta uma
 +++
 
 ## Status da entrega {#delivery-status-sms}
+
+![](assets/cja-campaign-sms-status.png)
 
 A tabela **[!UICONTROL Status da entrega]** oferece uma conta detalhada da atividade do perfil relacionada às suas campanhas de SMS. Isso inclui métricas sobre entregas, cliques e outros indicadores de envolvimento relevantes, oferecendo uma visualização abrangente de como os perfis interagem com seu conteúdo de SMS.
 

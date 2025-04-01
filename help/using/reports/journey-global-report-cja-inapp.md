@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -83,11 +83,10 @@ A tabela **[!UICONTROL Dados de rastreamento]** oferece um instantâneo detalhad
 
 * **[!UICONTROL Envios]**: número total de envios para suas mensagens no aplicativo.
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL Entrada acionada]**: Número de vezes que uma mensagem no aplicativo foi acionada por uma interação do usuário ou evento predefinido.
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL Descartes de entrada]**: número de vezes que os usuários rejeitaram a mensagem no aplicativo sem interagir com ela.
+
 +++
 
 ## Rótulos de link rastreado {#track-link-label-inapp}
