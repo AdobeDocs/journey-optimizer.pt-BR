@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
 source-wordcount: '2318'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -322,7 +322,7 @@ ht-degree: 97%
       + Configurar canal de cartão de conteúdo {#configure}
          + [Pré-requisitos dos cartões de conteúdo](using/content-card/content-card-configuration-prereq.md)
          + [Configurar canal de cartões de conteúdo no Journey Optimizer](using/content-card/content-card-configuration.md)
-         + [Configurar o suporte a cartões de conteúdo no Mobile SDK](using/content-card/content-card-lp.md)
+         + [Configurar o suporte a cartões de conteúdo no SDK móvel](using/content-card/content-card-lp.md)
          + [Configurar o suporte a cartões de conteúdo no SDK da Web](using/content-card/content-card-configuration-sdk.md)
       + [Criar cartões de conteúdo](using/content-card/create-content-card.md)
       + [Design de cartões de conteúdo](using/content-card/design-content-card.md)

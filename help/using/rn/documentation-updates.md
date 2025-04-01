@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b441c1edaf50104ae63f4cd9f14f3c268dee02dd
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -23,19 +23,19 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 * A página sobre eventos de qualificação de público-alvo foi atualizada com novas recomendações. [Leia mais](../building-journeys/audience-qualification-events.md)
 * O recurso de solução de problemas de ações personalizadas agora está disponível para todos os clientes (Disponibilidade geral). [Leia mais](../action/troubleshoot-custom-action.md)
-* A Limpeza de dados agora é o Ciclo de vida dos dados na interface do usuário do produto. A documentação foi atualizada para refletir essa alteração. [Leia mais](../privacy/data-hygiene.md)
-* As permissões integradas ausentes da página de aterrissagem foram adicionadas à documentação. [Leia mais](../administration/ootb-permissions.md)
+* A Limpeza de dados agora é identificada como “Ciclo de vida dos dados” na interface do produto. A documentação foi atualizada para refletir essa alteração. [Leia mais](../privacy/data-hygiene.md)
+* As permissões integradas ausentes da página de destino foram adicionadas à documentação. [Leia mais](../administration/ootb-permissions.md)
 * Adição de uma observação sobre a programação de campanhas recorrentes. [Leia mais](../campaigns/create-campaign.md)
-* A seção sobre inserção de links e ativação do rastreamento em uma mensagem de email foi atualizada e reorganizada. [Leia mais](../email/message-tracking.md)
+* A seção sobre inserção de links e habilitação do rastreamento em uma mensagem de email foi atualizada e reorganizada. [Leia mais](../email/message-tracking.md)
 * A seção sobre os recursos de personalização no Adobe Journey Optimizer foi reorganizada e aprimorada. [Leia mais](../personalization/personalize.md)
-* A API da Gestão de decisões para listar ofertas personalizadas foi atualizada com uma amostra para executar paginação se várias ofertas personalizadas estiverem ausentes da resposta. [Leia mais](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+* A API da gestão de decisões para listagem de ofertas personalizadas foi atualizada com uma amostra para executar a paginação se houver várias ofertas personalizadas ausentes da resposta. [Leia mais](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * Uma nova página que reúne todas as informações sobre o recurso de cancelamento de inscrição da lista foi criada para maior clareza. [Leia mais](../email/list-unsubscribe.md)
 * A seção Limite de frequência foi atualizada com informações sobre como o contador de limite de frequência é atualizado para as APIs de decisão e decisão em lote, além da API de decisão do Edge. [Leia mais](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## Fevereiro de 2025 {#feb-2025}
 
-* Os painéis de atividade Ler público foram atualizados para especificar que apenas uma atividade pode ser usada em uma jornada e que pode direcionar apenas um público-alvo. [Leia mais](../building-journeys/read-audience.md)
-* As medidas de proteção de jornada ao usar atividades do Adobe Campaign foram atualizadas. [Leia mais](../start/guardrails.md#ac-g)
+* As medidas de proteção da atividade “Público-alvo de leitura” foram atualizadas para especificar que é permitido usar apenas uma atividade na jornada e que ela pode direcionar apenas um público-alvo. [Leia mais](../building-journeys/read-audience.md)
+* Atualização das medidas de proteção da jornada para o uso de atividades do Adobe Campaign. [Leia mais](../start/guardrails.md#ac-g)
 * Agora as etapas para criar suas primeiras jornadas foram detalhadas e há links para a seção de documentação. [Leia mais](../building-journeys/journey-gs.md)
 * Há uma nova página disponível para fornecer detalhes sobre o painel de jornada e a interface de filtragem. [Leia mais](../building-journeys/journey-ui.md)
 * A documentação sobre **[!UICONTROL Otimização do tempo de envio]** e as perguntas frequentes relacionadas foi atualizada, aprimorada e movida para uma nova página dedicada. [Leia mais](../building-journeys/send-time-optimization.md)

@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 45%
+ht-degree: 85%
 
 ---
 
@@ -93,14 +93,14 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Os ativos de mídia dinâmica agora estão diretamente disponíveis e acessíveis no Journey Optimizer. Essa integração permite:
+<p>Os ativos do Dynamic Media agora estão diretamente disponíveis e acessíveis no Journey Optimizer. Essa integração permite:
 <ul>
 <li>Gerenciar ativos centralmente com atualizações em tempo real</li>
-<li>Modifique instantaneamente suas configurações de ativos, como largura e altura</li>
+<li>Modificar instantaneamente suas configurações de ativos, como largura e altura</li>
 <li>Personalizar modelos do Dynamic Media atualizando o conteúdo e adicionando campos de personalização</li>
 </ul>
 <p>
-<p>Essa integração só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+<p>Esta integração está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../integrations/aem-dynamic.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -118,7 +118,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Para aprimorar a eficiência do marketing e manter a consistência da marca, agora é possível integrar perfeitamente as experiências do GenStudio for Performance Marketing com o Journey Optimizer. Isso permite aproveitar a criação de conteúdo com recursos avançados de orquestração do GenStudio Journey Optimizer baseado em IA.<p>
+<p>Para aprimorar a eficiência do marketing e manter a consistência da marca, agora é possível integrar perfeitamente as experiências do GenStudio para marketing de desempenho com o Journey Optimizer. Isso permite que você aproveite a criação de conteúdo com inteligência artificial do GenStudio juntamente com os recursos avançados de orquestração do Journey Optimizer.<p>
 <p>O uso da integração do GenStudio no Journey Optimizer está atualmente indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield (disponibilidade limitada).</p>
 <p>Para obter mais informações, consulte a <a href="../integrations/genstudio.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/genstudio.gif"/>
@@ -148,7 +148,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 ### Melhorias {#25-03-improv}
 
-**Editor do Personalization** (data de disponibilidade: 12 de março)
+**Editor de personalização** (data de disponibilidade: 12 de março)
 
 O editor de personalização do Journey Optimizer foi atualizado com novos recursos:
 * **Design do editor de código atualizado**: uma interface mais simples e moderna para melhorar a usabilidade e o foco.
@@ -159,25 +159,25 @@ O editor de personalização do Journey Optimizer foi atualizado com novos recur
 * **Preenchimento automático para atributos de perfil e contexto**: oferece sugestões inteligentes para simplificar a criação de conteúdo.
 * **Realce de sintaxe aprimorado**: melhora a legibilidade por tornar a estrutura do código mais visualmente distinta.
 
-![Vídeo mostrando o novo recurso no Editor do Personalization](assets/do-not-localize/personalization-editor.gif)
+![Vídeo mostrando o novo recurso no editor de personalização](assets/do-not-localize/personalization-editor.gif)
 
 Para obter mais informações, consulte a [documentação detalhada](../personalization/personalization-build-expressions.md).
 
 **Aprovações**
 
-Ao definir as condições para uma política de aprovação, agora há a opção de filtrar por Tag e/ou Categoria de objeto.
+Ao definir as condições para uma política de aprovação, agora há a opção de filtrar por tag e/ou categoria de objeto.
 
 Para obter mais informações, consulte a [documentação detalhada](../test-approve/approval-policies.md).
 
 **Configuração**
 
-* Agora você pode atribuir Tags unificadas do Adobe Experience Platform a configurações de canal. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas. [Saiba mais](../configuration/channel-surfaces.md#channel-config-tags)
+* Agora é possível atribuir tags unificadas da Adobe Experience Platform às configurações de canais. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas. [Saiba mais](../configuration/channel-surfaces.md#channel-config-tags)
 
 * Ao configurar ou editar um subdomínio de email no Journey Optimizer, agora é possível optar por gerenciar o registro associado do DMARC por conta própria, se disponível no domínio principal. [Saiba mais](../configuration/dmarc-record.md#set-up-dmarc)
 
-**Regras de negócio**
+**Regras de negócios**
 
-Agora você pode usar o limite de frequência diário em jornadas e campanhas com segmentação em lote. Para garantir a precisão das regras diárias de limite de frequência, certifique-se de escolher o namespace de prioridade mais alta ao criar uma campanha ou jornada. Saiba mais sobre a prioridade de namespace no [guia do Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Agora você pode usar o limite de frequência diário em jornadas e campanhas com segmentação em lote. Para garantir a precisão das regras diárias de limite de frequência, escolha o namespace de prioridade mais alta ao criar uma campanha ou jornada. Saiba mais sobre a prioridade de namespace no [guia do Serviço de identidade da plataforma](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Lembrando que o limite diário de frequência em conjuntos de regras só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
