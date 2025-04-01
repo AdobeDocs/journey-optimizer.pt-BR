@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2318'
 ht-degree: 97%
 
 ---
@@ -434,13 +434,14 @@ ht-degree: 97%
 + Rastrear e monitorar {#reporting}
    + Relatório em tempo real {#live-report}
       + [Introdução aos relatórios em tempo real](using/reports/live-report.md)
-      + [Lista de componentes](using/reports/live-report-components.md)
+      + [Lista de métricas](using/reports/live-report-components.md)
       + [Relatório da jornada em tempo real](using/reports/journey-live-report.md)
       + [Relatório em tempo real da campanha](using/reports/campaign-live-report.md)
       + [Relatório em tempo real da página de destino](using/reports/lp-report-live.md)
       + [Relatório em tempo real da lista de assinaturas](using/reports/subscription-report-live.md)
    + Relatório de tempo total{#channel-report}
       + [Introdução ao relatório de tempo total](using/reports/report-gs-cja.md)
+      + [Lista de métricas](using/reports/global-report-components-cja.md)
       + [Configurar o Customer Journey Analytics manualmente](using/reports/cja-ajo.md)
       + [Gerenciar seus relatórios](using/reports/report-cja-manage.md)
       + [Pré-requisitos de relatórios e experimentação](using/reports/reporting-configuration.md)
