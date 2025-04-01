@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
+source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 4%
@@ -106,3 +106,4 @@ Depois de criar e configurar a credencial da API, agora é necessário criar uma
 1. Depois que as verificações forem bem-sucedidas, a configuração do canal obterá o status **[!UICONTROL Ativo]**. Ele está pronto para ser usado para enviar mensagens.
 
 Agora você está pronto para enviar mensagens do WhatsApp com o Journey Optimizer.
+
