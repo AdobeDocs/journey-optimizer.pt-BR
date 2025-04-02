@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 3de7826ae4a7efc2837288779fb444fa15688d3f
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1829'
 ht-degree: 2%
 
 ---
@@ -444,53 +444,214 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   <tr> 
    <th> Métrica<br/> </th> 
    <th> Definição<br/> </th> 
-</tr>
+  </tr>
  </thead> 
  <tbody>
  <tr> 
-  <td>Devoluções<br/> </td> 
-   <td>Número de pessoas que não interagiram com a página de aterrissagem e não concluíram a ação de assinatura.<br/> </td> 
+   <td>Taxa de rejeição<br/> </td> 
+   <td>Porcentagem de pessoas que visualizaram a página de aterrissagem, mas não interagiram ou não se inscreveram, em relação ao número total de visitas.<br/> </td> 
 </tr>
  <tr> 
-   <td>Taxa de rejeição<br/> </td> 
-   <td>Número de pessoas que não interagiram com a página de aterrissagem e não concluíram a ação de assinatura em relação ao número total de visitas.<br/> </td> 
-</tr>
- <tr>
-  <tr> 
    <td>Cliques<br/> </td> 
    <td>Número de vezes que um conteúdo foi clicado na página de aterrissagem.<br/> </td> 
 </tr>
- <tr> 
-   <td>Taxa de cliques<br/> </td> 
-   <td>Porcentagem de cliques na página de aterrissagem.<br/> </td>
-</tr>
-<tr>
-<td>Conversão<br/> </td> 
+
+<tr> 
+   <td>Conversão da página de aterrissagem<br/> </td> 
    <td>Número de pessoas que interagiram com a página de aterrissagem, por exemplo, inscritas em um formulário.<br/> </td> 
 </tr>
-<tr>
+<tr> 
+   <td>Taxa de conversão da página de aterrissagem<br/> </td> 
+   <td>Porcentagem de pessoas que interagiram com a página de aterrissagem, por exemplo, inscrições em um formulário, em relação ao número total de visitas.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Exibições da página de aterrissagem<br/> </td> 
+   <td>Número total de visitas à página de aterrissagem provenientes de jornadas e fontes externas, incluindo várias visitas do mesmo perfil.<br/> </td> 
+</tr>
+<tr> 
+   <td>Conversões exclusivas da página de aterrissagem<br/> </td> 
+   <td>Número de pessoas exclusivas que interagiram com a página de aterrissagem, excluindo várias interações do mesmo perfil.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Exibições exclusivas da página de aterrissagem<br/> </td> 
+   <td>Número de pessoas exclusivas que visitaram sua página de aterrissagem, excluindo várias visitas do mesmo perfil.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Correspondência direta {#direct-mail}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Métrica<br/> </th> 
+   <th> Definição<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Entregue<br/> </td> 
+   <td>Número de mensagens de correspondência direta que foram entregues com êxito aos destinatários.<br/> </td> 
+</tr>
+<tr> 
+   <td>Erros de Saída<br/> </td> 
+   <td>Número de mensagens de correspondência direta que encontraram erros durante processamento ou envio, impedindo a entrega bem-sucedida.<br/> </td> 
+</tr>
+<tr> 
+   <td>Exclusões de saída<br/> </td> 
+   <td>Número de perfis excluídos do recebimento de correspondência direta devido a critérios predefinidos ou filtragem por Adobe Journey Optimizer.<br/> </td> 
+</tr>
+<tr> 
+   <td>Perfis<br/> </td> 
+   <td>Número de perfis de usuário identificados como o público-alvo da campanha de correspondência direta.<br/> </td> 
+</tr>
+<tr> 
+   <td>Sent<br/> </td> 
+   <td>Número total de mensagens de correspondência direta enviadas com êxito como parte da campanha.<br/> </td> 
+</tr>
+<tr> 
+   <td>Direcionado<br/> </td> 
+   <td>Número total de mensagens de correspondência direta preparadas e processadas para envio.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+
+## Métricas de cartão de conteúdo {#content-based}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Métrica<br/> </th> 
+   <th> Definição<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Taxa de cliques (CTR)<br/> </td> 
+   <td>Porcentagem de usuários que interagiram com o cartão Conteúdo.<br/> </td> 
+</tr>
+<tr> 
+   <td>Cliques<br/> </td> 
+   <td>Número de vezes que um conteúdo foi clicado em seu cartão de Conteúdo.<br/> </td> 
+</tr>
+<tr> 
+   <td>Exibições<br/> </td> 
+   <td>Número de vezes que a mensagem foi aberta.<br/> </td> 
+</tr>
+<tr> 
+   <td>Pessoas<br/> </td> 
+   <td>Número de perfis de usuário qualificados como perfis de destino para seus cartões de Conteúdo.<br/> </td> 
+</tr>
+<tr> 
+   <td>Cliques únicos<br/> </td> 
+   <td>Número de perfis que clicaram em um conteúdo no seu cartão de Conteúdo.<br/> </td> 
+</tr>
+<tr> 
+   <td>Exibições únicas<br/> </td> 
+   <td>Número de vezes que a mensagem foi aberta, várias interações de um perfil não são consideradas.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Métricas de páginas da Web {#web}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Métrica<br/> </th> 
+   <th> Definição<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Cliques<br/> </td> 
+   <td>Número de vezes que um conteúdo foi clicado em suas páginas da Web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Taxa de cliques (CTR)<br/> </td> 
+   <td>Porcentagem de usuários que interagiram com as páginas da Web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Exibições<br/> </td> 
+   <td>Número de vezes que a página da Web foi aberta.<br/> </td> 
+</tr>
+<tr> 
+   <td>Pessoas<br/> </td> 
+   <td>Número de perfis qualificados como perfis de destino para suas páginas da Web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Cliques únicos<br/> </td> 
+   <td>Número de perfis que clicaram em um conteúdo em suas páginas da Web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Exibições únicas<br/> </td> 
+   <td>Número de vezes que a página da Web foi aberta; várias interações de um perfil não são consideradas.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Métricas de experiências baseadas em código {#code-based}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Métrica<br/> </th> 
+   <th> Definição<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Cliques<br/> </td> 
+   <td>Número total de vezes que usuários clicaram em experiências personalizadas que foram exibidas para eles.<br/> </td> 
+</tr>
+<tr> 
+   <td>Taxa de cliques (CTR)<br/> </td> 
+   <td>Porcentagem de usuários que clicam em um link, anúncio ou recomendação em comparação ao número de vezes que ele foi exibido.<br/> </td> 
+</tr>
+<tr> 
    <td>Taxa de conversão<br/> </td> 
-   <td>Número de pessoas que interagiram com a página de aterrissagem, por exemplo, inscritas em um formulário, em relação ao número total de visitas.<br/> </td> 
+   <td>Porcentagem de exibições que resultaram em ações do usuário (por exemplo, cliques), indicando o sucesso do modelo em envolver usuários.<br/> </td> 
 </tr>
- <tr> 
-   <td>Jornada(s)<br/> </td> 
-   <td>Número de visitas à sua página de aterrissagem vindas de uma jornada.<br/> </td> 
+<tr> 
+   <td>Desempenho de Itens de Decisão<br/> </td> 
+   <td>Avalia o desempenho de cada item em envolver os usuários e impulsionar as ações desejadas, como compras, cliques ou outras respostas.<br/> </td> 
 </tr>
- <tr> 
-   <td>Outras fontes<br/> </td> 
-   <td>Número de visitas à sua página de aterrissagem vindas de uma fonte externa em vez de uma jornada.<br/> </td> 
+<tr> 
+   <td>KPIs de decisão<br/> </td> 
+   <td>Os principais insights sobre o engajamento dos visitantes com as experiências, incluindo total de itens, total de cliques, total de exibições e taxa de fallback.<br/> </td> 
 </tr>
- <tr> 
-   <td>Total de visitas<br/> </td> 
-   <td> Número total de visitas à sua página de aterrissagem provenientes de jornadas e fontes externas, incluindo várias visitas de um perfil.<br/> </td> 
+<tr> 
+   <td>Exibições<br/> </td> 
+   <td>Número total de vezes que experiências personalizadas foram exibidas ou apresentadas a usuários em vários pontos de contato.<br/> </td> 
 </tr>
- <tr> 
-   <td>Visitantes únicos<br/> </td> 
-   <td>Número de pessoas que visitaram sua página de aterrissagem; várias visitas de um perfil não são consideradas.<br/> </td> 
+<tr> 
+   <td>Funil de Participação<br/> </td> 
+   <td>Monitora o desempenho de experiências personalizadas avaliando com que eficiência cada estágio do funil direciona as interações do usuário.<br/> </td> 
 </tr>
- <tr> 
-   <td>Visitas<br/> </td> 
-   <td>Número de visitas à sua página de aterrissagem, incluindo várias visitas de um perfil.<br/> </td> 
+<tr> 
+   <td>Funil de Envolvimento por Estratégia de Seleção<br/> </td> 
+   <td>Monitora e analisa a eficiência com que diferentes estratégias de seleção estão envolvendo usuários com experiências personalizadas.<br/> </td> 
+</tr>
+<tr> 
+   <td>Pessoas<br/> </td> 
+   <td>Número de perfis de usuário qualificados como perfis de destino para suas experiências baseadas em código.<br/> </td> 
+</tr>
+<tr> 
+   <td>Estratégia de classificação<br/> </td> 
+   <td>Insights sobre o desempenho de modelos de classificação orientados por IA comparando dois tipos de tráfego: Controlado por modelo e Suspensão.<br/> </td> 
+</tr>
+<tr> 
+   <td>Principais itens de decisão por CTR<br/> </td> 
+   <td>Destaca o desempenho de itens individuais com base em sua Taxa de Cliques (CTR), ajudando a avaliar quais itens são mais eficazes para engajar os usuários.<br/> </td> 
+</tr>
+<tr> 
+   <td>Cliques únicos<br/> </td> 
+   <td>Número de perfis que clicaram em um conteúdo em suas experiências baseadas em código.<br/> </td> 
+</tr>
+<tr> 
+   <td>Exibições únicas<br/> </td> 
+   <td>Número de vezes que a experiência foi aberta, várias interações de um perfil não são consideradas.<br/> </td> 
 </tr>
  </tbody> 
 </table>

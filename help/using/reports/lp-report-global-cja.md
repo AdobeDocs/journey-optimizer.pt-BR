@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '787'
 ht-degree: 1%
 
 ---
@@ -65,9 +65,9 @@ O gráfico **[!UICONTROL Desempenho da página de aterrissagem ao longo do tempo
 
 * **[!UICONTROL Exibições da página de aterrissagem]**: número total de visitas à página de aterrissagem provenientes de jornadas e fontes externas, incluindo várias visitas de um perfil.
 
-* **[!UICONTROL Taxa de conversão da página de aterrissagem]**: número de pessoas que interagiram com a página de aterrissagem, por exemplo, inscritas em um formulário, em relação ao número total de visitas.
+* **[!UICONTROL Conversão da página de aterrissagem]**: número de pessoas que interagiram com a página de aterrissagem, por exemplo, inscritas em um formulário, em relação ao número total de visitas.
 
-## Desempenho da página de aterrissagem {#lp-performance}
+## Desempenho da página de destino {#lp-performance}
 
 ![](assets/cja-lp-performance.png)
 
@@ -79,7 +79,7 @@ A tabela **[!UICONTROL Desempenho da página de aterrissagem]** serve como um pa
 
 * **[!UICONTROL Exibições únicas da página de aterrissagem]**: número de pessoas que visitaram sua página de aterrissagem; várias visitas de um perfil não são consideradas.
 
-* **[!UICONTROL Taxa de conversão da página de aterrissagem exclusiva]**: número de pessoas que interagiram com a página de aterrissagem; várias interações de um perfil não são consideradas.
+* **[!UICONTROL Conversão exclusiva da página de aterrissagem]**: número de pessoas que interagiram com a página de aterrissagem; várias interações de um perfil não são consideradas.
 
 * **[!UICONTROL Exibições da página de aterrissagem]**: número total de visitas à página de aterrissagem provenientes de jornadas e fontes externas, incluindo várias visitas de um perfil.
 
