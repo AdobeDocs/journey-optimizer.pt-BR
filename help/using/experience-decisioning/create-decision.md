@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 3abaa58fa4fa3baae5c7072bdc112de4a5e9119a
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 15%
+source-wordcount: '1761'
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 15%
 
 As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para escolher o melhor conteúdo a ser entregue, dependendo do público.
 
-As políticas de decisão contêm toda a lógica de seleção, para que o mecanismo de decisão escolha o melhor conteúdo. As políticas de decisão são específicas de cada campanha. Sua finalidade é selecionar as melhores ofertas para cada perfil, enquanto a criação da campanha permite indicar como os itens de decisão selecionados devem ser apresentados, incluindo quais atributos dos itens devem ser incluídos na mensagem.
+<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->O objetivo é selecionar as melhores ofertas para cada perfil, enquanto a criação de campanha/jornada permite indicar como os itens de decisão selecionados devem ser apresentados, incluindo quais atributos de item devem ser incluídos na mensagem.
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ As políticas de decisão contêm toda a lógica de seleção, para que o mecani
 
 As principais etapas para aproveitar as políticas de decisão em suas campanhas baseadas em código são as seguintes:
 
-1. [Criar uma política de decisão em uma campanha baseada em código](#add-decision)
-1. [Use a política de decisão na campanha baseada em código](#use-decision-policy)
-1. [Criar painéis de relatórios de Customer Journey Analytics personalizados](#cja)
+1. [Adicionar uma política de decisão a uma experiência baseada em código](#add-decision)
+1. [Usar a política de decisão](#use-decision-policy)
+1. [Criar painéis de relatórios personalizados do Customer Journey Analytics](cja-reporting.md)
 
-## Adicionar uma política de decisão a uma campanha baseada em código {#add-decision}
+## Adicionar uma política de decisão a uma experiência baseada em código {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -54,7 +54,7 @@ As principais etapas para aproveitar as políticas de decisão em suas campanhas
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Criação de estratégias"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Ordem de avaliação"
 
-Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu site ou aplicativo móvel, adicione uma política de decisão a uma campanha baseada em código. Para isso, siga as etapas abaixo.
+Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu site ou aplicativo móvel, adicione uma política de decisão a uma campanha ou jornada baseada em código. Para isso, siga as etapas abaixo.
 
 ### Criar a política de decisão {#add}
 
@@ -221,3 +221,33 @@ Depois de criada, a política de decisão pode ser usada no [editor de personali
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
+1. Clique em **[!UICONTROL Salvar e fechar]** para confirmar as alterações.
+
+## Teste e publique sua experiência baseada em código {#test-and-publish}
+
+Siga as etapas abaixo para finalizar sua experiência baseada em código e fazer as alterações entrarem em vigor.
+
+1. Antes de publicar, exiba uma pré-visualização da sua experiência baseada em código para testá-la.
+
+   >[!CAUTION]
+   >
+   >Atualmente não é possível simular o conteúdo da interface do usuário em uma campanha ou jornada de [experiência baseada em código](../code-based/create-code-based.md) usando decisões.
+
+   Para testar a decisão, você pode adicionar o sinalizador `dryRun` no bloco `data` do evento XDM na implementação do cliente:
+
+   ```
+   {
+   "data": {
+       "__adobe": {
+       "ajo":
+   {         "dryRun": true       }
+       }
+   }
+   }
+   ```
+
+1. Revise e publique sua campanha de experiência ou jornada baseada em código. [Saiba como](../code-based/publish-code-based.md)
+
+   Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar conteúdo para a superfície definida na configuração do canal, as alterações serão aplicadas à página da Web ou aplicativo.
+
+1. Para ver o desempenho de suas decisões, você pode criar [painéis de relatórios personalizados do Customer Journey Analytics](cja-reporting.md).
