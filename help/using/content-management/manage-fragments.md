@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 22%
+source-wordcount: '1469'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 22%
 Para gerenciar os fragmentos, acesse a lista de fragmentos do menu esquerdo **[!UICONTROL Gerenciamento de conteúdo]** > **[!UICONTROL Fragmentos]**.
 
 Todos os fragmentos criados na sandbox atual - [no menu **[!UICONTROL Fragmentos]**](#create-fragments), usando a opção [Salvar como fragmento](#save-as-fragment) - são exibidos.
+
+O painel à esquerda permite organizar fragmentos em pastas. Por padrão, todos os fragmentos são exibidos. Ao selecionar uma pasta, somente os fragmentos e as pastas incluídos na pasta selecionada são exibidos. [Saiba mais](#folders)
+
+>[!NOTE]
+>
+>As pastas de fragmento só estão disponíveis para um conjunto de organizações (disponibilidade limitada) e serão gradualmente implantadas para mais usuários.
+
+![](assets/fragment-list-folders.png)
+
+Para localizar um item específico, comece digitando um nome no campo de pesquisa. Quando uma [pasta](#folders) é selecionada, a pesquisa se aplica a todos os fragmentos ou pastas no primeiro nível de hierarquia dessa pasta<!--(not nested items)-->.
 
 Você pode filtrar fragmentos em:
 
@@ -43,10 +53,54 @@ No botão **[!UICONTROL Mais ações]** ao lado de cada fragmento, é possível:
 * Use a opção **[!UICONTROL Explorar referências]** para ver as jornadas, campanhas ou modelos em que é usado. [Saiba mais](#explore-references)
 * Arquive o fragmento. [Saiba mais](#archive-fragments)
 * Edite as tags do fragmento. [Saiba como trabalhar com marcas unificadas](../start/search-filter-categorize.md#tags)
+* Mover o fragmento para uma pasta. [Saiba mais](#folders)
 
-![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+![](assets/fragment-list-more-actions.png)
 
-## Status dos fragmentos
+## Usar pastas para gerenciar fragmentos {#folders}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_folders"
+>title="Organizar os fragmentos em pastas"
+>abstract="Use pastas para categorizar e gerenciar os fragmentos de acordo com as necessidades da organização."
+
+>[!AVAILABILITY]
+>
+>As pastas de fragmento só estão disponíveis para um conjunto de organizações (disponibilidade limitada) e serão gradualmente implantadas para mais usuários.
+
+Para navegar facilmente pelos fragmentos, é possível usar pastas para organizá-los com mais eficiência em uma hierarquia estruturada. Isso permite categorizar e gerenciar os itens de acordo com as necessidades da organização.
+
+![](assets/fragment-folders.png)
+
+1. Clique no botão **[!UICONTROL Todos os fragmentos]** para exibir todos os itens criados anteriormente sem o agrupamento de pastas.
+
+1. Clique na pasta **[!UICONTROL Raiz]** para exibir todas as pastas criadas.
+
+   >[!NOTE]
+   >
+   >Se ainda não tiver criado pastas, todos os fragmentos serão exibidos.
+
+1. Clique em qualquer pasta dentro da pasta **[!UICONTROL Raiz]** para exibir seu conteúdo.
+
+1. Ao clicar na pasta **[!UICONTROL Raiz]** ou em qualquer outra pasta, o botão **[!DNL Create folder]** é exibido. Selecione-o.
+
+   ![](assets/fragment-create-folder.png)
+
+1. Digite um nome para a nova pasta e clique em **[!UICONTROL Salvar]**. A nova pasta é exibida na parte superior da lista de fragmentos dentro da pasta **[!UICONTROL Raiz]** ou dentro da pasta selecionada no momento.
+
+1. Clique no botão **[!UICONTROL Mais ações]** para renomear ou excluir a pasta.
+
+   ![](assets/fragment-folder-more-actions.png)
+
+1. Usando o botão **[!UICONTROL Mais ações]**, você também pode mover o fragmento para outra pasta existente.
+
+   ![](assets/fragment-folder-moved.png)
+
+1. Agora é possível navegar até a pasta que acabou de criar. Cada novo fragmento que você [criar](create-fragments.md) daqui será salvo na pasta atual.
+
+   ![](assets/fragment-folder-create.png)
+
+## Status dos fragmentos {#fragments-statuses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
@@ -67,7 +121,7 @@ Os fragmentos podem ter vários status:
 
 >[!CAUTION]
 >
->Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status **Rascunho**, mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los **Ativos** e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. A publicação requer a permissão de usuário [Fragmento de Publish](../administration/ootb-product-profiles.md#content-library-manager).
+>Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status **Rascunho**, mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los **Ativos** e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. A publicação requer a permissão de usuário [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Editar um fragmento {#edit-fragments}
 
@@ -105,7 +159,7 @@ Para editar um fragmento, siga as etapas abaixo.
    >
    >Ao editar um fragmento publicado, você pode remover qualquer campo de personalização, mas não pode adicionar novos ao conteúdo do fragmento. Se quiser adicionar atributos personalizados, duplique o fragmento. [Saiba mais](#adding-new-attributes)
 
-1. Quando as alterações estiverem prontas, salve-as e clique no botão **[!UICONTROL Publish]** para ativar as modificações. [Saiba mais](create-fragments.md#publish)
+1. Quando as alterações estiverem prontas, salve-as e clique no botão **[!UICONTROL Publicar]** para ativar as modificações. [Saiba mais](create-fragments.md#publish)
 
 Ao editar um fragmento, as alterações são propagadas automaticamente para todo o conteúdo usando esse fragmento, incluindo jornadas e campanhas ativas, exceto para conteúdo em que você interrompeu a herança do fragmento original.
 
