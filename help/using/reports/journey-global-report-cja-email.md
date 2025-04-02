@@ -8,20 +8,27 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1077'
 ht-degree: 2%
 
 ---
 
 # Relatório de jornada por email {#journey-global-report}
 
+>[!INFO]
+>
+>Como a Apple apresentou novos recursos de proteção de privacidade para seu aplicativo de email nativo, incluindo a Proteção de privacidade de email, os remetentes não podem mais usar pixels de rastreamento para coletar dados em perfis que ativaram a Proteção de privacidade de email da Apple. Consequentemente, a capacidade do Adobe Journey Optimizer de rastrear aberturas de email usando pixels de rastreamento pode ser afetada.
+> [Saiba mais](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) sobre o impacto das alterações de privacidade do Apple iOS no marketing por email.
+> 
+> Recomendamos o foco em cliques e métricas de conversão, em vez de taxas abertas, para obter insights mais precisos.
+
 >[!BEGINSHADEBOX]
 
-Como a Apple apresentou novos recursos de proteção de privacidade para seu aplicativo de email nativo, incluindo a Proteção de privacidade de email, os remetentes não podem mais usar pixels de rastreamento para coletar dados em perfis que ativaram a Proteção de privacidade de email da Apple. Consequentemente, a capacidade do Adobe Journey Optimizer de rastrear aberturas de email usando pixels de rastreamento pode ser afetada. [Saiba mais](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) sobre o impacto das alterações de privacidade do Apple iOS no marketing por email.
+Você pode acessar seu relatório de jornada por email clicando no botão **[!UICONTROL Exibir relatório]** em sua jornada. [Saiba mais](report-gs-cja.md)
 
-Recomendamos o foco em cliques e métricas de conversão, em vez de taxas abertas, para obter insights mais precisos.
+![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
 

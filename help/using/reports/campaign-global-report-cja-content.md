@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1603a696-33cc-42d8-a52a-623d85f61584
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 2%
+source-wordcount: '325'
+ht-degree: 3%
 
 ---
 
 # Relatório de campanha de cartão de conteúdo {#campaign-global-report-cja-content}
+
+>[!BEGINSHADEBOX]
+
+Você pode acessar o relatório de campanha de Cartão de conteúdo clicando no botão **[!UICONTROL Relatórios]** da campanha e selecionando **[!UICONTROL Exibir relatório de todos os tempos]**. [Saiba mais](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Exibir tendência de &amp; cliques {#display-click}
 

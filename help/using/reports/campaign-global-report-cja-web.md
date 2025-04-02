@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 39441fe9-5cdc-4787-9267-798de80e3af2
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 2%
+source-wordcount: '538'
+ht-degree: 3%
 
 ---
 
 # Relatório de campanha na web {#campaign-global-report-cja-web}
+
+>[!BEGINSHADEBOX]
+
+Você pode acessar o relatório de campanha da Web clicando no botão **[!UICONTROL Relatórios]** da campanha e selecionando **[!UICONTROL Exibir relatório de todos os tempos]**. [Saiba mais](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Tendência de impressão e clique {#impressions-web}
 

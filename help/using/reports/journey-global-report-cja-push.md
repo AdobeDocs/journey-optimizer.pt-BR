@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '542'
 ht-degree: 3%
 
 ---
 
 # Relatório de jornada de notificação por push {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Você pode acessar o relatório de jornadas por notificação por push clicando no botão **[!UICONTROL Exibir relatório]** na jornada. [Saiba mais](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## Estatísticas de envio {#sending-statistics-push}
 
@@ -57,9 +65,7 @@ A tabela **[!UICONTROL Estatísticas de rastreamento]** oferece um instantâneo 
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em sua notificação por push.
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL Ações personalizadas por push]**: número de ações personalizadas executadas por perfis em resposta às notificações por push.
 +++
 
 ## Rótulos de link rastreado {#track-link-label-push}

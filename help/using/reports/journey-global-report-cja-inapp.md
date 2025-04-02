@@ -8,28 +8,34 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
 
 # Relatório de jornada no aplicativo {#journey-global-report}
 
+>[!INFO]
+>
+>O relatório de jornada pode mostrar informações de várias jornadas simultaneamente, pois os usuários podem estar envolvidos em mais de uma jornada por vez. Como resultado, as comunicações de entrada (no aplicativo, na Web e baseadas em código) podem ser exibidas em várias jornadas se forem acionadas para um usuário que participa de jornadas ativas simultâneas, o que pode resultar na sobreposição de dados.
+
 >[!BEGINSHADEBOX]
 
-O relatório de jornada pode mostrar informações de várias jornadas simultaneamente, pois os usuários podem estar envolvidos em mais de uma jornada por vez. Como resultado, as comunicações de entrada (no aplicativo, na Web e baseadas em código) podem ser exibidas em várias jornadas se forem acionadas para um usuário que participa de jornadas ativas simultâneas, o que pode resultar na sobreposição de dados.
+Você pode acessar o relatório de jornada no aplicativo clicando no botão **[!UICONTROL Relatórios]** na jornada. [Saiba mais](report-gs-cja.md)
+
+![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
 
-## Tendência de impressão e clique {#impression-click-trend}
+## Exibir tendência de &amp; cliques {#display-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
-O gráfico **[!UICONTROL Tendência de impressão e clique]** apresenta uma análise detalhada do envolvimento dos seus perfis com as mensagens no aplicativo, oferecendo informações valiosas sobre como os perfis interagem com o seu conteúdo.
+O gráfico de **[!UICONTROL Tendência de exibição e clique]** apresenta uma análise detalhada do envolvimento dos seus perfis com as mensagens no aplicativo, oferecendo informações valiosas sobre como os perfis interagem com o seu conteúdo.
 
-+++ Saiba mais sobre métricas de tendência de Impressão e Clique
++++ Saiba mais sobre Métricas de tendência de exibição e clique
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em suas mensagens no aplicativo.
 

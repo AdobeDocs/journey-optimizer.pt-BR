@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
 
 # Relatório de campanha de correspondência direta {#campaign-global-report-cja-direct}
+
+>[!BEGINSHADEBOX]
+
+Você pode acessar seu relatório de campanha de correspondência direta clicando no botão **[!UICONTROL Relatórios]** da campanha e selecionando **[!UICONTROL Exibir relatório de todos os tempos]**. [Saiba mais](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Estatísticas de envio {#sending-statistics-directmail}
 

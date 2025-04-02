@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '3705'
+source-wordcount: '3712'
 ht-degree: 30%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 30%
 
 Os relatórios em tempo real, acessíveis a partir da guia Últimas 24 horas, exibem eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento. Em comparação, os relatórios do Customer Journey Analytics se concentram em eventos que ocorreram há pelo menos duas horas e abrangem eventos durante um período selecionado.
 
-O relatório de Jornada ao vivo pode ser acessado diretamente da sua jornada com o botão **[!UICONTROL Exibir relatório]**.
+Acesse o relatório de Jornada ao vivo do menu [!UICONTROL Jornadas] abrindo o menu [!UICONTROL Mais ações] da jornada e selecionando [!UICONTROL Exibir relatório das últimas 24 horas].
 
 ![](assets/report_journey.png)
 

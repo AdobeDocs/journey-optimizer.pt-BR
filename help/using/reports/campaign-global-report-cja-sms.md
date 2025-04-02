@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '663'
 ht-degree: 3%
 
 ---
 
 # Relatório de campanha por SMS {#campaign-global-report-cja-sms}
+
+>[!BEGINSHADEBOX]
+
+Você pode acessar o relatório de campanha de SMS clicando no botão **[!UICONTROL Relatórios]** da campanha e selecionando **[!UICONTROL Exibir relatório de todos os tempos]**. [Saiba mais](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Tendência de Entregas vs. Cliques {#delivered-click-sms}
 

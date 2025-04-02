@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cf50ce33-7934-4e37-a757-08cda14e97ac
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '660'
 ht-degree: 3%
 
 ---
 
 # Relatório de jornada de SMS{#sms}
+
+>[!BEGINSHADEBOX]
+
+Você pode acessar seu relatório de jornada de SMS clicando no botão **[!UICONTROL Exibir relatório]** em sua jornada. [Saiba mais](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## Tendência de Entregas vs. Cliques {#delivered-click-sms}
 
