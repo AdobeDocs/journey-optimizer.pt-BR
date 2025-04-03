@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
+source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1436'
 ht-degree: 5%
 
 ---
@@ -99,9 +99,15 @@ O painel de navegação permite selecionar a origem para personalização. As fo
 >title="Preenchimento automático"
 >abstract="Ativar essa opção permite que o sistema sugira e conclua automaticamente o código à medida que você digita. Esse recurso está disponível somente para formatos de HTML e Texto e é compatível com atributos de Perfil e Contexto. Se desativado por meio do botão de alternância, o editor fornecerá preenchimento automático do código HTML nativo."
 
-O espaço de trabalho central é onde você cria sua sintaxe de personalização. Para usar um atributo para personalizar sua mensagem, localize-o no painel de navegação e clique no botão `+` para adicioná-lo à expressão.
+O espaço de trabalho central é onde você cria sua sintaxe de personalização. Para usar um atributo para personalizar sua mensagem, localize-o no painel de atributos e clique no botão `+` para adicioná-lo à expressão.
+
+![](assets/personalization-add-attribute.png)
 
 O menu de reticências ao lado do ícone `+` permite obter mais detalhes para cada atributo e adicionar os atributos usados com mais frequência aos favoritos. Os atributos adicionados aos favoritos podem ser acessados pelo menu **[!UICONTROL Favoritos]** no painel de navegação.
+
+>[!NOTE]
+>
+>Por padrão, o painel de atributos mostra apenas atributos preenchidos. Para exibir todos os atributos, selecione o botão ![](assets/do-not-localize/settings-icon.svg) localizado acima do campo de pesquisa e alterne a opção **[!UICONTROL Mostrar apenas atributos preenchidos]**.
 
 Além disso, você pode definir um texto de fallback padrão que será exibido se um atributo de perfil do tipo string estiver vazio. Para fazer isso, clique no botão de reticências ao lado do atributo e selecione **[!UICONTROL Inserir com texto alternativo]**. Escreva o texto que deve ser exibido por padrão se o valor do atributo estiver vazio para um perfil e clique em **[!UICONTROL Adicionar]**.
 
