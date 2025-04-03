@@ -5,16 +5,25 @@ title: Iniciar e monitorar campanhas em várias etapas com o Adobe Journey Optim
 description: Saiba como iniciar e monitorar campanhas em várias etapas com o Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
+source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 0%
+source-wordcount: '579'
+ht-degree: 1%
 
 ---
 
-# Inicie e monitore suas campanhas em várias etapas {#start-monitor}
+# Inicie e monitore suas campanhas orquestradas {#start-monitor}
 
-Depois de criar o fluxo de trabalho e projetar as tarefas a serem executadas na tela, é possível iniciá-lo e monitorar como ele está sendo executado.
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Seu navegador não oferece suporte ao elemento de áudio.</audio>
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_publication"
+>title="Publicar campanha orquestrada"
+>abstract="Para iniciar sua campanha, você deve publicá-la. Verifique se todos os avisos foram apagados antes da publicação."
+
+
+Depois de criar as tarefas orquestradas e projetadas para execução na tela, é possível publicá-las e monitorar como elas estão sendo executadas.
 
 ## Iniciar uma campanha em várias etapas {#start}
 
