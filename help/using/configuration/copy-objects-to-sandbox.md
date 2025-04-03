@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1101'
 ht-degree: 4%
 
 ---
@@ -50,6 +50,21 @@ O Journey Optimizer permite exportar jornadas, modelos de conteúdo e fragmentos
 * Os objetos copiados na sandbox de destino são exclusivos e não há risco de substituir elementos existentes. A jornada jornada e qualquer mensagem dentro dela é trazida no modo de rascunho. Isso permite executar uma validação completa antes da publicação na sandbox de destino.
 
 * O processo de cópia copia apenas os metadados sobre a jornada e os objetos nessa Jornada. Nenhum dado de perfil ou conjunto de dados está sendo copiado como parte desse processo.
+
+### Campanhas (#campaigns)
+
+As campanhas são copiadas junto com todos os itens relacionados ao perfil, público-alvo, esquema, mensagens embutidas e objetos dependentes.
+
+No entanto, os seguintes itens **não** foram copiados:
+
+* Variantes multilíngues e configurações de idioma
+* Variantes de experimento
+* Políticas e itens de decisão
+* Regras de negócios
+* Tags
+* Rótulos de DULE (Label Usage Labeling and Enforcement, Rotulagem e aplicação de uso de dados)
+
+Depois que as campanhas forem copiadas, as configurações de canal deverão ser selecionadas manualmente.
 
 ### Modelos de conteúdo {#content-templates}
 

@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 5%
@@ -107,7 +107,7 @@ O menu de reticências ao lado do ícone `+` permite obter mais detalhes para ca
 
 >[!NOTE]
 >
->Por padrão, o painel de atributos mostra apenas atributos preenchidos. Para exibir todos os atributos, selecione o botão ![](assets/do-not-localize/settings-icon.svg) localizado acima do campo de pesquisa e alterne a opção **[!UICONTROL Mostrar apenas atributos preenchidos]**.
+>Por padrão, o painel de atributos mostra apenas atributos preenchidos. Para exibir todos os atributos, selecione o botão ![](assets/do-not-localize/settings-icon.svg) localizado acima do campo de pesquisa e desative a opção **[!UICONTROL Mostrar apenas atributos preenchidos]**.
 
 Além disso, você pode definir um texto de fallback padrão que será exibido se um atributo de perfil do tipo string estiver vazio. Para fazer isso, clique no botão de reticências ao lado do atributo e selecione **[!UICONTROL Inserir com texto alternativo]**. Escreva o texto que deve ser exibido por padrão se o valor do atributo estiver vazio para um perfil e clique em **[!UICONTROL Adicionar]**.
 
