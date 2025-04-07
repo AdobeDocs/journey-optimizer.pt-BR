@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 3%
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Assim que sua experiência online estiver online, você poderá verificar a guia **[!UICONTROL Web]** do [relatório de Jornada](../reports/journey-global-report-cja-web.md) e do [relatório de Campanha](../reports/campaign-global-report-cja-web.md) para comparar elementos, como o número de impressões, a taxa de cliques e o número de compromissos, com sua página da Web.
 
-<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
+<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more about the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 
 Para melhorar ainda mais o monitoramento da experiência online, você também pode rastrear os cliques em qualquer elemento específico do site. Isso permite exibir o número de cliques nesse elemento nos relatórios da Web. [Saiba como](#use-click-tracing)
 
@@ -49,4 +49,4 @@ Essas informações podem ser úteis para melhorar a experiência dos usuários 
 
 1. Para remover o rastreamento de cliques em um elemento, selecione o ícone excluir correspondente.
 
-Assim que a campanha estiver ativa, você poderá verificar o número de cliques para cada elemento no [relatório ao vivo](../reports/campaign-live-report.md#web-tab) e no [relatório Customer Journey Analytics](../reports/campaign-global-report-cja-web.md) da Web de campanhas.
+Assim que a campanha estiver online, você poderá verificar o número de cliques para cada elemento no [relatório online](../reports/campaign-live-report.md#web-tab) e no [relatório do Customer Journey Analytics](../reports/campaign-global-report-cja-web.md) da Web de campanhas.

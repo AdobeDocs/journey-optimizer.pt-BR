@@ -5,7 +5,7 @@ feature: Preview
 role: User
 level: Beginner
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 17%
@@ -47,7 +47,7 @@ Para acessar o **[!UICONTROL Relatório de spam]**, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >A pontuação de spam é derivada pelo [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} e as regras não são de propriedade do Adobe. Para obter mais detalhes sobre essas regras, consulte a documentação do SpamAssassin.
+   >A pontuação de spam é derivada do [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} e as regras não são de propriedade da Adobe. Para obter mais detalhes sobre essas regras, consulte a documentação do SpamAssassin.
    >
 
 1. Com base nessa pontuação, se você considerar que alguns elementos podem ser melhorados, edite o conteúdo no [Designer de email](../email/content-from-scratch.md) e faça as atualizações necessárias.
@@ -58,7 +58,7 @@ Para acessar o **[!UICONTROL Relatório de spam]**, siga as etapas abaixo.
 
 <!--You can also check the message's alerts for warnings on potential risk of spam detection. Follow the steps below.
 
-1. Click the **[!UICONTROL Alerts]** button on top right of the screen. [Learn more on email alerts](../email/create-email.md#check-email-alerts)
+1. Click the **[!UICONTROL Alerts]** button on top right of the screen. [Learn more about email alerts](../email/create-email.md#check-email-alerts)
 
 1. If **[!UICONTROL Spam checker alert]** is displayed, you should check your content for a potential risk of spam using the **[!UICONTROL Spam report]** feature as detailed above.
 

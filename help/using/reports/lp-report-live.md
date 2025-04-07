@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 13%
@@ -22,7 +22,7 @@ ht-degree: 13%
 >title="Relatório em tempo real da página de destino"
 >abstract="O Relatório em tempo real da página de destino permite medir e visualizar em tempo real o impacto desempenho da página de destino nas últimas 24 horas. Seu relatório é dividido em diferentes widgets detalhando o sucesso e os erros da página de destino. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
-Os relatórios em tempo real, acessíveis a partir da guia Últimas 24 horas, exibem eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento. Em comparação, os relatórios de Customer Journey Analytics se concentram em eventos que ocorreram há pelo menos duas horas e abrangem eventos durante um período selecionado.
+Os relatórios em tempo real, acessíveis a partir da guia Últimas 24 horas, exibem eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento. Em comparação, os relatórios do Customer Journey Analytics se concentram em eventos que ocorreram há pelo menos duas horas e abrangem eventos durante um período selecionado.
 
 Para acessar seus relatórios, selecione **[!UICONTROL Exibir relatório das últimas 24 horas]** no menu avançado da página de aterrissagem selecionada.
 
@@ -30,7 +30,7 @@ Para acessar seus relatórios, selecione **[!UICONTROL Exibir relatório das úl
 
 A página de aterrissagem **[!UICONTROL Relatório ao vivo]** é dividida em widgets diferentes detalhando o sucesso e os erros da sua entrega. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](live-report.md).
 
-+++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório ao vivo Página de aterrissagem.
++++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório ao vivo Página de destino.
 
 O widget **[!UICONTROL Desempenho da página de aterrissagem]** detalha as informações principais relativas à sua mensagem nas últimas 24 horas por meio de KPIs:
 

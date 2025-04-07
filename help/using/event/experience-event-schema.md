@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: schemas, XDM, plataforma, streaming, assimilação, jornada
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 0%

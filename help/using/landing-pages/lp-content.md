@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing page, landing page, criação, página, formulário, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 9%
@@ -81,7 +81,7 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
    ![](assets/lp_designer-form-update-options.png)
 
-   * **[!UICONTROL Lista de assinaturas]**: você deve selecionar a lista de assinaturas que será atualizada se o perfil marcar esta caixa de seleção. Saiba mais em [listas de assinaturas](subscription-list.md).
+   * **[!UICONTROL Lista de assinaturas]**: você deve selecionar a lista de assinaturas que será atualizada se o perfil marcar esta caixa de seleção. Saiba mais sobre [listas de assinaturas](subscription-list.md).
 
      <!--![](assets/lp_designer-form-subs-list.png)-->
 

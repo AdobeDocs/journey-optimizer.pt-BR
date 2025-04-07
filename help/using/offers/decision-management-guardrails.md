@@ -1,18 +1,18 @@
 ---
-title: Medidas de proteção e limitações do gerenciamento de decisão
-description: Saiba mais sobre as medidas de proteção e limitações do Gerenciamento de decisão.
+title: Medidas de proteção e limitações da gestão de decisões
+description: Saiba mais sobre as medidas de proteção e limitações do gerenciamento de decisão.
 feature: Decisioning
 role: User
 level: Intermediate
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
-
-# Medidas de proteção e limitações do gerenciamento de decisão {#decision-management-guardrails}
+# Medidas de proteção e limitações da gestão de decisões {#decision-management-guardrails}
 
 Para garantir o uso ideal da Gestão de decisões, lembre-se das seguintes medidas de proteção e limitações.
 

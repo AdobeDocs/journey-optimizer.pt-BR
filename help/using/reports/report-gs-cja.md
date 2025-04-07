@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Experiência de relatório atualizada
-description: Introdução ao relatório de tempo integral
+description: Introdução ao relatório de tempo total
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
-# Introdução ao relatório de tempo integral {#channel-report-gs-cja}
+# Introdução ao relatório de tempo total {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
@@ -41,11 +41,11 @@ Os relatórios do Journey Optimizer vêm com uma interoperabilidade aprimorada c
 
 ## Pré-requisitos {#prerequisites}
 
-* Se você possuir o Customer Journey Analytics **não** ou se for proprietário dele, mas **não** tiver acesso a qualquer perfil de produto Customer Journey Analytics, as permissões serão gerenciadas no Journey Optimizer. Nesse caso, será necessário:
+* Se você tiver **não** o Customer Journey Analytics ou se for proprietário dele, mas **não** tiver acesso a qualquer perfil de produto do Customer Journey Analytics, as permissões serão gerenciadas no Journey Optimizer. Nesse caso, será necessário:
 
    * **[!UICONTROL Exibir permissão de relatórios de canal]** ou funções relacionadas. [Saiba mais](../administration/permissions.md)
 
-* Se você **possuir** Customer Journey Analytics e tiver acesso a um perfil de produto Customer Journey Analytics, precisará de:
+* Se você **possui** o Customer Journey Analytics e tem acesso a um perfil de produto do Customer Journey Analytics, será necessário:
 
    * Permissões de **[!UICONTROL Criação de público]** e **[!UICONTROL Exibição de público]** para o Customer Journey Analytics. [Saiba mais](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
 

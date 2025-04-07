@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 8%
@@ -100,7 +100,7 @@ Para reutilizar o conteúdo em uma representação, navegue pela **Biblioteca de
 
 Para adicionar conteúdo de um local público externo, selecione **[!UICONTROL URL]** e insira o endereço da URL do conteúdo a ser adicionado.
 
-Você pode personalizar URLs usando o editor de personalização. Saiba mais sobre [personalização](../../personalization/personalize.md#use-expression-editor).
+Você pode personalizar URLs usando o editor de personalização. Saiba mais sobre a [personalização](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
@@ -128,7 +128,7 @@ Você também pode inserir conteúdo do tipo texto ao selecionar um posicionamen
 
    ![](../assets/offer-text-content.png)
 
-   Você pode personalizar o conteúdo usando o editor de personalização. Saiba mais sobre [personalização](../../personalization/personalize.md#use-expression-editor).
+   Você pode personalizar o conteúdo usando o editor de personalização. Saiba mais sobre a [personalização](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

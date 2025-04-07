@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: supressão, lista, rejeição, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 22%
@@ -81,7 +81,7 @@ Os possíveis motivos para uma falha de delivery são:
 
 >[!NOTE]
 >
->Os usuários não inscritos não estão recebendo emails de [!DNL Journey Optimizer], portanto seus endereços de email não podem ser enviados para a lista de supressão. Sua escolha é feita no nível da Experience Platform. [Saiba mais sobre opção de não participação](../privacy/opt-out.md)
+>Os usuários não inscritos não estão recebendo emails de [!DNL Journey Optimizer], portanto seus endereços de email não podem ser enviados para a lista de supressão. A escolha é feita no nível da Experience Platform. [Saiba mais sobre recusa](../privacy/opt-out.md)
 
 
 ### Regras de supressão  {#suppression-rules}

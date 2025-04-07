@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%
@@ -173,7 +173,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
       ![](assets/multilingual-experience-events-rule-if.png)
 
       * Escolha a **[!UICONTROL Extensão]** com a qual você está trabalhando.
-      * No campo **[!UICONTROL Tipo de evento]**, selecione &quot;Evento de solicitação AEP&quot;.
+      * No campo **[!UICONTROL Tipo de evento]**, selecione &quot;Evento de solicitação do AEP&quot;.
       * No painel direito, selecione &quot;Tipo de evento XDM é igual a personalization.request&quot;
       * Clique no botão **[!UICONTROL Manter alterações]** para confirmar.
 
@@ -254,7 +254,7 @@ Depois de definir o projeto de Tradução e as configurações de Idioma, você 
 
    * **[!UICONTROL Tradução em andamento]**: seu provedor de serviços está trabalhando ativamente na tradução.
 
-     Se você selecionou **Insourcing** ao definir suas **configurações de idioma**, será possível traduzir o conteúdo diretamente no projeto de Tradução. [Saiba mais](#manage-ht-project)
+     Se você selecionou **Insourcing** ao definir suas **configurações de idioma**, poderá traduzir o conteúdo diretamente no seu projeto de Tradução. [Saiba mais](#manage-ht-project)
 
    * **[!UICONTROL Pronto para revisão]**: o processo de revisão está pronto para começar, fornecendo a capacidade de acessar a tradução e rejeitá-la ou aprová-la.
 
@@ -325,7 +325,7 @@ Se você selecionou Insourcing ao definir as configurações de idioma, é poss�
 
 Se você selecionou **[!UICONTROL Habilitar fluxo de trabalho de revisão]** em seu **[!UICONTROL projeto de Tradução]**, será possível revisar a tradução diretamente no Journey Optimizer após a conclusão pelo provedor de Tradução selecionado.
 
-Observe que se essa opção estiver desabilitada, quando a tradução for concluída pelo seu provedor, o status da tarefa de tradução será automaticamente definido como **[!UICONTROL Revisado]**, permitindo que você continue rapidamente clicando em **[!UICONTROL Publish]**.
+Observe que se essa opção estiver desabilitada, quando a tradução for concluída pelo seu provedor, o status da tarefa de tradução será automaticamente definido como **[!UICONTROL Revisado]**, permitindo que você continue rapidamente clicando em **[!UICONTROL Publicar]**.
 
 1. Assim que a tradução for concluída pelo seu provedor de serviços, você poderá acessar a tradução para revisão a partir do seu **[!UICONTROL Projeto de tradução]** ou diretamente da sua **[!UICONTROL Campanha]**.
 
@@ -361,7 +361,7 @@ Observe que se essa opção estiver desabilitada, quando a tradução for conclu
 
 1. Depois que o status do **[!UICONTROL Projeto de tradução]** for definido como Revisado, você poderá enviá-lo para a sua Campanha.
 
-   No menu **[!UICONTROL Mais ações]**, clique em **[!UICONTROL Publish]**.
+   No menu **[!UICONTROL Mais ações]**, clique em **[!UICONTROL Publicar]**.
 
    ![](assets/translation_review_7.png)
 

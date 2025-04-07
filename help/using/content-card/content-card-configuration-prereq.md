@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 5%
@@ -19,12 +19,12 @@ Para que o Adobe Journey Optimizer exiba corretamente os cartões de conteúdo, 
 
 * **Coleta de dados do Adobe Experience Platform**
 
-  [Criar uma sequência de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) e [adicionar o serviço Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep). Habilite as opções de **[!UICONTROL Segmentação do Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. Isso garante que os eventos do Journey Optimizer sejam manipulados pelo Edge Network Adobe Experience Platform.
+  [Criar uma sequência de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) e [adicionar o serviço Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep). Habilite as opções de **[!UICONTROL Segmentação do Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. Isso garante que os eventos do Journey Optimizer sejam manipulados pelo Adobe Experience Platform Edge Network.
 Adicione o grupo de campos **Evento de experiência - Interação de apresentação** ao conjunto de dados para incluir esses dados em seus relatórios. [Saiba mais sobre sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 
-  Verifique se a política de mesclagem padrão tem a **Política de mesclagem ativa na Edge** habilitada no menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Perfis]** > **[!UICONTROL Políticas de mesclagem]**. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+  Verifique se a política de mesclagem padrão tem a **Política de mesclagem ativa na Edge** habilitada no menu **[!UICONTROL Cliente]** > **[!UICONTROL Perfis]** > **[!UICONTROL Políticas de mesclagem]** do Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   >[!NOTE]
   >

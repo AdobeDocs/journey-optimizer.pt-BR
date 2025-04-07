@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 9%
@@ -45,7 +45,7 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
    ![](../assets/activities-name.png)
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à decisão, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../../administration/object-based-access.md)
+1. Para atribuir rótulos de uso de dados personalizados ou principais à decisão, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../../administration/object-based-access.md)
 
 ## Definir escopos de decisão {#add-decision-scopes}
 
@@ -242,7 +242,7 @@ A seleção é a seguinte:
 
 +++ **Exemplo 2**
 
-Neste exemplo, a Oferta 1 atingiu seu limite de frequência. [Saiba mais sobre limite de frequência](../offer-library/add-constraints.md#capping)
+Neste exemplo, a Oferta 1 atingiu seu limite de frequência. [Saiba mais sobre o limite de frequência](../offer-library/add-constraints.md#capping)
 
 A seleção é a seguinte:
 
@@ -253,7 +253,7 @@ A seleção é a seguinte:
 
 +++ **Exemplo 3**
 
-Neste exemplo, a Oferta 1 e a Oferta 3 atingiram seu limite de frequência. [Saiba mais sobre limite de frequência](../offer-library/add-constraints.md#capping)
+Neste exemplo, a Oferta 1 e a Oferta 3 atingiram seu limite de frequência. [Saiba mais sobre o limite de frequência](../offer-library/add-constraints.md#capping)
 
 A seleção é a seguinte:
 
@@ -282,7 +282,7 @@ A seleção é a seguinte:
 
 +++ **Exemplo 2**
 
-Neste exemplo, a Oferta 1 atingiu seu limite de frequência. [Saiba mais sobre limite de frequência](../offer-library/add-constraints.md#capping)
+Neste exemplo, a Oferta 1 atingiu seu limite de frequência. [Saiba mais sobre o limite de frequência](../offer-library/add-constraints.md#capping)
 
 A seleção é a seguinte:
 
@@ -294,7 +294,7 @@ A seleção é a seguinte:
 
 +++ **Exemplo 3**
 
-Neste exemplo, a Oferta 1 e a Oferta 3 atingiram seu limite de frequência. [Saiba mais sobre limite de frequência](../offer-library/add-constraints.md#capping)
+Neste exemplo, a Oferta 1 e a Oferta 3 atingiram seu limite de frequência. [Saiba mais sobre o limite de frequência](../offer-library/add-constraints.md#capping)
 
 A seleção é a seguinte:
 

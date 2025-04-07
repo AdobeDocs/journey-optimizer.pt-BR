@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5af58cd9efc465b30386fad5dc6cd073626c3aed
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1682'
 ht-degree: 21%
@@ -80,7 +80,7 @@ Para criar uma landing page, selecione uma predefinição, configure a página p
 
    ![](assets/lp_create-lp-details.png)
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à página de aterrissagem, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
+1. Para atribuir rótulos de uso de dados personalizados ou principais à página de aterrissagem, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
 
 1. Selecione ou crie tags do Adobe Experience Platform a partir do campo **[!UICONTROL Tags]** para categorizar sua página de aterrissagem para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
 

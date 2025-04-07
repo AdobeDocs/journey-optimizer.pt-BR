@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 5%
@@ -145,7 +145,7 @@ No painel de navegação, recursos adicionais estão disponíveis para ajudar vo
 
 ![](assets/perso-features.png)
 
-* **[!UICONTROL Funções auxiliares]** - As funções auxiliares permitem executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-las no contexto da personalização. [Saiba mais sobre funções auxiliares disponíveis](functions/functions.md)
+* **[!UICONTROL Funções auxiliares]** - As funções auxiliares permitem executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-las no contexto da personalização. [Saiba mais sobre as funções auxiliares disponíveis](functions/functions.md)
 
 * **[!UICONTROL Favoritos]** - Os atributos adicionados aos favoritos são exibidos nesta lista. Isso permite acessar rapidamente os itens usados com mais frequência. Para adicionar um atributo aos favoritos, clique no menu de reticências e escolha **[!UICONTROL Adicionar aos favoritos]**.
 

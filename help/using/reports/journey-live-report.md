@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3712'
 ht-degree: 30%
@@ -88,7 +88,7 @@ Os **[!UICONTROL Indicadores-chave de desempenho (KPIs) das Estatísticas de Jor
 
 O widget **[!UICONTROL Ação executada nas últimas 24 horas]** representa a ação mais bem-sucedida que ocorreu quando suas ações foram acionadas.
 
-+++ Saiba mais sobre Ação executada nas últimas 24 horas métricas
++++ Saiba mais sobre Ação executada nas últimas 24 horas
 
 * **[!UICONTROL Ações executadas]**: Número total de ações executadas com êxito para uma jornada.
 
@@ -208,7 +208,7 @@ O gráfico de **[!UICONTROL Desempenho de email - envio]** fornece uma exibiçã
 
 A tabela **[!UICONTROL Email - Estatísticas]** fornece um resumo abrangente dos dados essenciais sobre emails em suas jornadas nas últimas 24 horas. Ele detalha as principais métricas, como o tamanho do público-alvo e o número de emails entregues com êxito, oferecendo insights valiosos sobre a eficácia e o alcance de seus emails e jornadas.
 
-+++ Saiba mais sobre métricas de Estatísticas de envio de email
++++ Saiba mais sobre as métricas de Estatísticas de envio de email
 
 * **[!UICONTROL Direcionado]**: número total de mensagens processadas durante o processo de envio.
 
@@ -595,7 +595,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 
 Os KPIs do **[!UICONTROL Desempenho no aplicativo]** fornecem informações essenciais sobre o envolvimento dos seus perfis com mensagens no aplicativo nas últimas 24 horas, fornecendo métricas essenciais para avaliar a eficácia e o impacto das mensagens no aplicativo incluídas na sua jornada.
 
-+++ Saiba mais em No aplicativo - Métricas de desempenho
++++ Saiba mais sobre No aplicativo - Métricas de desempenho
 
 * **[!UICONTROL Impressões]**: número total de mensagens no aplicativo entregues a todos os usuários.
 

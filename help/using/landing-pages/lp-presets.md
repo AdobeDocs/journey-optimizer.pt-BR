@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: landing page, landing page, configurar, ambiente, subdomínio, predefinições
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -56,7 +56,7 @@ Para criar uma predefinição de página de aterrissagem, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
 
 1. Selecione um subdomínio de landing page na lista suspensa.
 
@@ -68,7 +68,7 @@ Para criar uma predefinição de página de aterrissagem, siga as etapas abaixo.
 
    As configurações correspondentes ao subdomínio selecionado são exibidas.
 
-1. Se quiser selecionar o subdomínio da página de aterrissagem para a URL de rastreamento, marque a opção **[!UICONTROL Igual ao subdomínio da página de aterrissagem]**. [Saiba mais sobre rastreamento](../email/message-tracking.md)
+1. Se quiser selecionar o subdomínio da página de aterrissagem para a URL de rastreamento, marque a opção **[!UICONTROL Igual ao subdomínio da página de aterrissagem]**. [Saiba mais sobre o rastreamento](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

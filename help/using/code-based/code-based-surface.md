@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 53%
@@ -73,7 +73,7 @@ A tabela abaixo lista alguns exemplos de definição de URI de superfície para 
 No [!DNL Journey Optimizer], o canal de experiência baseado em código oferece suporte a dois tipos de implementações de clientes:
 
 * Com base no [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"} para seus sites ou no [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} para seus aplicativos móveis;
-* Lado do servidor ou híbrido usando [APIs de servidor Edge Network da AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR){target="_blank"}.
+* Lado do servidor ou híbrido usando [APIs do AEP Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR){target="_blank"}.
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Esses URIs de superfície são compostos e manipulados dependendo do método de 
 
 * **SDK da Web/Móvel**: o desenvolvedor da Web/móvel precisa definir esses locais granulares como cadeias de caracteres simples, pois o SDK da Web/Móvel é capaz de compor automaticamente o URI da superfície com base na URL/ID do aplicativo atual e na cadeia de caracteres do local.
 
-* **APIs Edge Network**: o desenvolvedor do aplicativo/página deve definir URIs de superfície completos que incluam o caminho completo e o local onde o conteúdo será consumido, pois os URIs completos são necessários neste tipo de implementação.
+* **APIs do Edge Network**: o desenvolvedor do aplicativo/página deve definir URIs de superfície completos que incluam o caminho completo e o local onde o conteúdo será consumido, pois os URIs completos são necessários neste tipo de implementação.
 
 É por isso que, ao criar uma [configuração de canal de experiência baseada em código](code-based-configuration.md), você tem duas maneiras de especificar a superfície de acordo com a plataforma selecionada:
 

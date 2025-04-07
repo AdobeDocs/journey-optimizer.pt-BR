@@ -1,18 +1,18 @@
 ---
-title: Medidas de proteção e limitações da decisão
-description: Saiba mais sobre as medidas de proteção e limitações da decisão.
+title: Medidas de proteção e limitações do serviço de decisão
+description: Saiba mais sobre as medidas de proteção e limitações da Decisão.
 feature: Decisioning
 role: User
 level: Intermediate
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
-
-# Medidas de proteção e limitações da decisão {#decisioning-guardrails}
+# Medidas de proteção e limitações do serviço de decisão {#decisioning-guardrails}
 
 Para garantir o uso ideal do Decisioning, lembre-se das seguintes medidas de proteção e limitações.
 

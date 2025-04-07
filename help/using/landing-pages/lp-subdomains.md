@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: landing page, landing page, subdomínios, configuração
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 23%
@@ -36,7 +36,7 @@ ht-degree: 23%
 
 Para [criar predefinições de página de aterrissagem](lp-presets.md), é necessário configurar os subdomínios que serão usados nas páginas de aterrissagem.
 
-Você pode usar um subdomínio que já foi delegado ao Adobe ou configurar outro subdomínio. Saiba mais sobre como delegar subdomínios ao Adobe em [esta seção](../configuration/delegate-subdomain.md).
+Você pode usar um subdomínio que já foi delegado à Adobe ou configurar outro subdomínio. Saiba mais sobre como delegar subdomínios à Adobe em [esta seção](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ Você pode usar um subdomínio que já foi delegado ao Adobe ou configurar outro
 
 ## Usar um subdomínio existente {#lp-use-existing-subdomain}
 
-Para usar um subdomínio que já está delegado ao Adobe, siga as etapas abaixo.
+Para usar um subdomínio que já está delegado à Adobe, siga as etapas abaixo.
 
 1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Configurações da página de aterrissagem]** > **[!UICONTROL Subdomínios da página de aterrissagem]**.
 
@@ -76,11 +76,11 @@ Para usar um subdomínio que já está delegado ao Adobe, siga as etapas abaixo.
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Observe que não é possível usar vários subdomínios delegados do mesmo domínio principal. Por exemplo, se &quot;marketing1.yourcompany.com&quot; já estiver delegado ao Adobe nas páginas de aterrissagem, não será possível usar &quot;marketing2.yourcompany.com&quot;. No entanto, como os subdomínios de vários níveis são compatíveis com páginas de aterrissagem, você pode continuar usando um subdomínio de &quot;marketing1.yourcompany.com&quot; (como &quot;email.marketing1.yourcompany.com&quot;) ou um domínio principal diferente.
+   Observe que não é possível usar vários subdomínios delegados do mesmo domínio principal. Por exemplo, se &quot;marketing1.yourcompany.com&quot; já estiver delegado à Adobe nas páginas de aterrissagem, não será possível usar &quot;marketing2.yourcompany.com&quot;. No entanto, como os subdomínios de vários níveis são compatíveis com páginas de aterrissagem, você pode continuar usando um subdomínio de &quot;marketing1.yourcompany.com&quot; (como &quot;email.marketing1.yourcompany.com&quot;) ou um domínio principal diferente.
 
    >[!CAUTION]
    >
-   >Se você selecionar um domínio que foi delegado ao Adobe usando o [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation), deverá criar o registro DNS na sua plataforma de hospedagem. Para gerar o registro DNS, o processo é o mesmo de quando você configura um novo subdomínio de página de destino. Saiba mais em [esta seção](#lp-configure-new-subdomain).
+   >Se você selecionar um domínio que foi delegado à Adobe usando o [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation), deverá criar o registro DNS na sua plataforma de hospedagem. Para gerar o registro DNS, o processo é o mesmo de quando você configura um novo subdomínio de página de destino. Saiba mais em [esta seção](#lp-configure-new-subdomain).
 
 1. Clique em **[!UICONTROL Enviar]**.
 
@@ -90,7 +90,7 @@ Para usar um subdomínio que já está delegado ao Adobe, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Antes de poder usar esse subdomínio para enviar mensagens, você deve aguardar até que o Adobe execute as verificações necessárias, o que pode levar até 4 horas.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >Antes de poder usar esse subdomínio para enviar mensagens, você deve aguardar até que o Adobe execute as verificações necessárias, que podem levar até 4 horas.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Depois que as verificações forem bem-sucedidas, o subdomínio obterá o status **[!UICONTROL Success]**. Ele está pronto para ser usado para criar predefinições de página de destino.
 
@@ -119,7 +119,7 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
    >
    >Letras maiúsculas não são permitidas em subdomínios.
 
-   Não é permitido delegar um subdomínio inválido a Adobe. Insira um subdomínio válido de propriedade de sua organização, como marketing.yourcompany.com.
+   Não é permitido delegar um subdomínio inválido à Adobe. Insira um subdomínio válido de propriedade de sua organização, como marketing.yourcompany.com.
 
    >[!NOTE]
    >
@@ -139,7 +139,7 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Antes de poder usar esse subdomínio para suas páginas de aterrissagem, você deve aguardar até que o Adobe execute as verificações necessárias, o que pode levar até 4 horas.<!--Learn more in [this section](#subdomain-validation).-->
+   >Antes de poder usar esse subdomínio para suas páginas de aterrissagem, aguarde até que o Adobe execute as verificações necessárias, que podem levar até 4 horas.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Depois que as verificações forem bem-sucedidas, o subdomínio obterá o status **[!UICONTROL Success]**. Ele está pronto para ser usado para criar predefinições de página de destino.
 

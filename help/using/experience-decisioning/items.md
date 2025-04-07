@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 15%
@@ -119,7 +119,7 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
 
 1. Escolha o tipo de limite:
 
-   * Selecione **[!UICONTROL No total]** para definir quantas vezes o item pode ser proposto entre o público-alvo combinado, ou seja, entre todos os usuários. Por exemplo, se você for um varejista de produtos eletrônicos com um &quot;contrato de portaria de TV&quot;, desejará que a oferta seja retornada apenas 200 vezes em todos os perfis.
+   * Selecione **[!UICONTROL No total]** para definir quantas vezes o item pode ser proposto entre o público-alvo combinado, ou seja, entre todos os usuários. Por exemplo, se você for um retailer eletrônico com um &quot;contrato de portaria de TV&quot;, desejará que a oferta seja retornada apenas 200 vezes em todos os perfis.
 
    * Selecione **[!UICONTROL Por perfil]** para definir quantas vezes a oferta pode ser proposta ao mesmo usuário. Por exemplo, se você for um banco com uma oferta de &quot;Cartão de crédito Platinum&quot;, não desejará que essa oferta seja exibida mais de 5 vezes por perfil. Na verdade, você acredita que, se o usuário tiver visto a oferta cinco vezes e não tiver atuado nela, ele terá uma chance maior de agir na próxima melhor oferta.
 

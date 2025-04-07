@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: f30b7c72e98d3676be0885162101c1e9a5eedeaf
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 14%
@@ -76,7 +76,7 @@ Para criar uma **oferta**, siga estas etapas:
 
 1. A seção **[!UICONTROL Atributos da oferta]** permite associar pares de valores chave à oferta para fins de relatório e análise.
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à oferta, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../../administration/object-based-access.md)
+1. Para atribuir rótulos de uso de dados personalizados ou principais à oferta, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../../administration/object-based-access.md)
 
    ![](../assets/offer_manage-access.png)
 

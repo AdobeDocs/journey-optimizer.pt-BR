@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 2%
@@ -96,7 +96,7 @@ O gráfico **[!UICONTROL Resultados do funil da campanha]** apresenta uma análi
 
 A tabela **[!UICONTROL Rótulo do link rastreado]** oferece informações essenciais sobre o envolvimento dos visitantes com as URLs incluídas em suas mensagens, fornecendo informações valiosas sobre quais links atraem mais interação.
 
-+++ Saiba mais sobre métricas de rótulo de link rastreado
++++ Saiba mais sobre Métricas de rótulo de link rastreado
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em sua mensagem.
 

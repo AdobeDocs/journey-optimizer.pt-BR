@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 173d73996a676be4ebcad471f396b5f5256b80a5
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2045'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -154,7 +154,7 @@ Os parâmetros disponíveis para a regra dependem do domínio do conjunto de reg
 
      >[!CAUTION]
      > 
-     >Para garantir a precisão das regras diárias de limite de frequência, certifique-se de escolher o namespace de prioridade mais alta ao criar uma campanha ou jornada. Saiba mais sobre a prioridade de namespace no [guia do Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+     >Para garantir a precisão das regras diárias de limite de frequência, escolha o namespace de prioridade mais alta ao criar uma campanha ou jornada. Saiba mais sobre a prioridade de namespace no [guia do Platform Identity Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
    Observe que o valor do contador de perfil é atualizado assim que a comunicação é entregue. Esteja ciente disso ao enviar grandes volumes de comunicações, pois a taxa de transferência pode resultar no recebimento do email em minutos ou até horas após o início da comunicação (caso você esteja enviando milhões de comunicações simultaneamente).
 

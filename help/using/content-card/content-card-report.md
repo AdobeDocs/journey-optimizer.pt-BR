@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -75,7 +75,7 @@ A tabela **[!UICONTROL Dados de rastreamento]** oferece um instantâneo detalhad
 
 A tabela **[!UICONTROL Rótulos rastreados]** oferece uma visão geral abrangente dos rótulos de links em seus cartões de Conteúdo, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
 
-+++ Saiba mais sobre Métricas de rótulos rastreados
++++ Saiba mais sobre Métricas de rótulos rastreadas
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em seus cartões de Conteúdo.
 
@@ -91,7 +91,7 @@ A tabela **[!UICONTROL Rótulos rastreados]** oferece uma visão geral abrangent
 
 A tabela **[!UICONTROL URLs de links rastreados]** fornece uma visão geral abrangente das URLs em seus cartões de Conteúdo que atraem o maior tráfego de visitantes. Isso permite identificar e priorizar os links mais populares, melhorando sua compreensão do envolvimento do perfil com conteúdo específico em seus cartões de Conteúdo.
 
-+++ Saiba mais sobre métricas de URLs de link rastreado
++++ Saiba mais sobre Métricas de URLs de link rastreado
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em seus cartões de Conteúdo.
 

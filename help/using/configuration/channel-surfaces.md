@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 12%
@@ -75,7 +75,7 @@ Para criar uma configuração de canal, siga estas etapas:
    >
    > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
 
-1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
+1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
 
 1. Selecione seu canal.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 13%
@@ -39,7 +39,7 @@ Para salvar o conteúdo do Designer de email como fragmento, siga estas etapas:
 
 1. Clique em **[!UICONTROL Criar]** e preencha o nome e a descrição do fragmento (se necessário).
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais ao fragmento, clique no botão **[!UICONTROL Gerenciar acesso]** na seção superior da tela. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
+1. Para atribuir rótulos de uso de dados personalizados ou principais ao fragmento, clique no botão **[!UICONTROL Gerenciar acesso]** na seção superior da tela. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
 
 1. Selecione ou crie tags Adobe Experience Platform a partir do campo **Tags** para categorizar seu modelo para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
 

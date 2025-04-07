@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: página de aterrissagem, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 12%
@@ -48,7 +48,7 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Publish](create-lp.md#publish) a página inicial.
+1. [Publicar](create-lp.md#publish) a página de aterrissagem.
 
 1. Em uma [jornada](../building-journeys/journey.md), adicione uma atividade **Email** para direcionar tráfego para a página de aterrissagem de registro.
 
@@ -141,7 +141,7 @@ Para permitir que os recipients de um email cancelem a inscrição de suas comun
    >
    >Para enviar a mensagem, verifique se a landing page selecionada ainda não expirou. Saiba como atualizar a data de expiração [nesta seção](create-lp.md#configure-primary-page).
 
-1. Publish e execute a jornada. [Saiba mais](../building-journeys/journey.md).
+1. Publique e execute a jornada. [Saiba mais](../building-journeys/journey.md).
 
 1. Depois que a mensagem for recebida, se um recipient clicar no link de cancelamento de inscrição no email, a página de aterrissagem será exibida.
 

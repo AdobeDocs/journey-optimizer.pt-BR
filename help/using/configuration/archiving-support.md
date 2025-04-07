@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: arquivamento, mensagens, HIPAA, CCO, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -41,7 +41,7 @@ Você pode enviar uma cópia oculta (Cco) de um email enviado por [!DNL Journey 
 
 ### Habilitar email com CCO {#enable-bcc}
 
-Para habilitar a opção **[!UICONTROL Email com CCO]**, digite o endereço de email de sua escolha no campo dedicado da [configuração de canal](channel-surfaces.md) (ou seja, predefinição de mensagem). Você pode especificar qualquer endereço externo no formato correto, exceto um endereço de email definido em um subdomínio delegado ao Adobe. Por exemplo, se você delegou o subdomínio *marketing.luma.com* ao Adobe, qualquer endereço como *abc@marketing.luma.com* será proibido.
+Para habilitar a opção **[!UICONTROL Email com CCO]**, digite o endereço de email de sua escolha no campo dedicado da [configuração de canal](channel-surfaces.md) (ou seja, predefinição de mensagem). Você pode especificar qualquer endereço externo no formato correto, exceto um endereço de email definido em um subdomínio delegado à Adobe. Por exemplo, se você delegou o subdomínio *marketing.luma.com* à Adobe, qualquer endereço como *abc@marketing.luma.com* será proibido.
 
 >[!CAUTION]
 >
@@ -67,7 +67,7 @@ A configuração de endereço de email CCO é imediatamente salva e processada n
 
 No entanto, o endereço CCO é selecionado para o envio de comunicações seguindo a lógica descrita [aqui](../email/email-settings.md).
 
-### Recommendations e limitações {#bcc-recommendations-limitations}
+### Recomendações e limitações {#bcc-recommendations-limitations}
 
 * Para garantir sua conformidade com a privacidade, os emails com CCO devem ser processados por um sistema de arquivamento capaz de armazenar com segurança informações de identificação pessoal (PII).
 

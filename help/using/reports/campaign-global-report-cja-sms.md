@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 3%
@@ -61,7 +61,7 @@ A tabela **[!UICONTROL Status da entrega]** oferece uma conta detalhada da ativi
 
 A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral abrangente dos rótulos de links em suas mensagens SMS, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
 
-+++ Saiba mais sobre métricas de rótulos de link rastreado
++++ Saiba mais sobre Métricas de rótulos de link rastreado
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em sua mensagem SMS.
 
@@ -73,7 +73,7 @@ A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral 
 
 A tabela **[!UICONTROL URLs de links rastreados]** fornece uma visão geral abrangente das URLs em suas mensagens SMS que atraem o maior tráfego de visitantes. Isso permite identificar e priorizar os links mais populares, melhorando sua compreensão da participação do perfil com conteúdo específico em suas mensagens SMS.
 
-+++ Saiba mais sobre métricas de URLs de link rastreado
++++ Saiba mais sobre Métricas de URLs de link rastreado
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em sua mensagem SMS.
 
@@ -99,7 +99,7 @@ A tabela **[!UICONTROL Mensagem de entrada de SMS]** apresenta uma visão geral 
 
 A tabela **[!UICONTROL Tipo de mensagem SMS]** apresenta uma visão geral completa de qual tipo de mensagem SMS atraiu o maior tráfego de visitantes. Esse recurso oferece informações valiosas sobre a dinâmica do envolvimento do público-alvo.
 
-+++ Saiba mais sobre métricas do tipo de mensagem SMS
++++ Saiba mais sobre métricas do tipo Mensagem SMS
 
 * **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas mensagens SMS.
 
@@ -109,7 +109,7 @@ A tabela **[!UICONTROL Tipo de mensagem SMS]** apresenta uma visão geral comple
 
 A tabela **[!UICONTROL Provedores de SMS]** apresenta uma visão geral completa de quais provedores de SMS atraíram o maior tráfego de visitantes. Esse recurso oferece informações valiosas sobre a dinâmica do envolvimento do público-alvo.
 
-+++ Saiba mais sobre métricas de provedores SMS
++++ Saiba mais sobre métricas de provedores de SMS
 
 * **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas mensagens SMS.
 

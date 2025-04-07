@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ No entanto, o uso de rótulos de controle de acesso baseados em direitos permite
 
 >[!NOTE]
 >
->Saiba mais sobre o Controle de acesso no nível do objeto (OLAC) [nesta seção](../administration/object-based-access.md).
+>Saiba mais sobre OLAC (Controle de acesso em nível de objeto) em [esta seção](../administration/object-based-access.md).
 
 Nas campanhas do [!DNL Journey Optimizer], a política de consentimento é aplicada da seguinte maneira:
 

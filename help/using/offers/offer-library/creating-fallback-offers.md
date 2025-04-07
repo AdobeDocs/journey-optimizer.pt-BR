@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 4%
@@ -37,7 +37,7 @@ Para criar uma oferta substituta, siga estas etapas:
 
    ![](../assets/fallback_details.png)
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à oferta, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../../administration/object-based-access.md)
+1. Para atribuir rótulos de uso de dados personalizados ou principais à oferta, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../../administration/object-based-access.md)
 
 1. Crie uma ou várias representações para a oferta substituta. Para fazer isso, arraste e solte disposições do painel esquerdo, como ao criar uma oferta personalizada. Consulte [Criar ofertas personalizadas](../offer-library/creating-personalized-offers.md).
 

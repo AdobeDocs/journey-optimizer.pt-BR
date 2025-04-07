@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3492'
 ht-degree: 27%
@@ -167,7 +167,7 @@ Para obter mais informações sobre rejeições, consulte a página [Lista de su
 
 O widget **[!UICONTROL Email - Desempenho por data]** oferece uma visão geral detalhada das principais informações relacionadas às suas mensagens, apresentadas por meio de um gráfico, fornecendo insights sobre as tendências de desempenho nas últimas 24 horas.
 
-+++ Saiba mais sobre Email - Desempenho por métricas de data e motivo
++++ Saiba mais sobre Email - Desempenho por métricas de data e motivos
 
 * **[!UICONTROL Enviado]**: número total de envios.
 
@@ -532,7 +532,7 @@ Os KPIs do **[!UICONTROL desempenho da Web]** oferecem insights abrangentes sobr
 
 O gráfico **[!UICONTROL Resumo da Web]** mostra a evolução das suas experiências da Web (impressões, impressões exclusivas e interações) nas últimas 24 horas.
 
-+++ Saiba mais sobre métricas de resumo na Web
++++ Saiba mais sobre métricas de resumo da Web
 
 * **[!UICONTROL Impressões]**: número total de experiências da Web entregues a todos os usuários.
 

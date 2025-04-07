@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: c7ecfdbc9c97c49c77f3c4fb8bcb1656e04819a8
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 15%
@@ -56,13 +56,13 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
 
    ![](assets/content-template-type.png)
 
-   * Para **[!UICONTROL Email]**, se você selecionar **[!UICONTROL Conteúdo]**, será possível definir a [Linha de assunto](../email/create-email.md#define-email-content) como parte do seu modelo. Se você selecionar **[!UICONTROL HTML]**, será possível definir somente o conteúdo do corpo do email.
+   * Para **[!UICONTROL Email]**, se você selecionar **[!UICONTROL Conteúdo]**, será possível definir a [Linha de assunto](../email/create-email.md#define-email-content) como parte do seu modelo. Se você selecionar **[!UICONTROL HTML]**, só será possível definir o conteúdo do corpo do email.
 
    * Para **[!UICONTROL SMS]**, **[!UICONTROL Push]**, **[!UICONTROL No Aplicativo]** e **[!UICONTROL Correspondência Direta]**, somente o tipo padrão está disponível para o canal atual. Você ainda precisa selecioná-lo.
 
 1. Selecione ou crie tags Adobe Experience Platform a partir do campo **[!UICONTROL Tags]** para categorizar seu modelo para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
 
-1. Para atribuir rótulos de uso de dados principais ou personalizados ao modelo, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
+1. Para atribuir rótulos de uso de dados principais ou personalizados ao modelo, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
 
 1. Clique em **[!UICONTROL Criar]** e crie seu conteúdo conforme necessário, da mesma forma que faria com qualquer conteúdo dentro de uma jornada ou campanha, de acordo com o canal selecionado.
 

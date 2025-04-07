@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -91,7 +91,7 @@ Os recursos **[!UICONTROL Mailto (cancelar assinatura)]** e **[!UICONTROL URL pa
 
   >[!NOTE]
   >
-  >Saiba mais sobre como gerenciar recursos para cancelar assinatura em suas mensagens [nesta seção](../email/email-opt-out.md#unsubscribe-header).
+  >Saiba mais sobre como gerenciar recursos de cancelamento de inscrição em suas mensagens [nesta seção](../email/email-opt-out.md#unsubscribe-header).
 
 No [!DNL Journey Optimizer], o consentimento é tratado pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR) da Experience Platform{target="_blank"}. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar este valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"}, ou usar [políticas de consentimento](../action/consent.md) para substituir a lógica padrão.
 

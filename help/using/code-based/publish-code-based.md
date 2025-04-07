@@ -1,12 +1,12 @@
 ---
-title: Publish e gerenciar experiências baseadas em código
+title: Publicar e gerenciar experiências baseadas em código
 description: Saiba como publicar e parar experiências baseadas em código no Journey Optimizer
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 1%
@@ -33,13 +33,13 @@ Você também pode visualizar seu conteúdo de experiência baseado em código a
 
 Assim que a jornada ou campanha baseada em código estiver ativa, a equipe de implementação do aplicativo será responsável por fazer chamadas explícitas à API ou ao SDK para buscar conteúdo para as superfícies definidas na [configuração de experiência baseada em código](code-based-configuration.md) selecionada. Saiba mais sobre as diferentes implementações de clientes em [esta seção](code-based-implementation-samples.md).
 
-### Publish uma jornada baseada em código {#publish-code-based-journey}
+### Publicar uma jornada baseada em código {#publish-code-based-journey}
 
 Para ativar sua experiência baseada em código a partir de uma jornada, siga as etapas abaixo.
 
 1. Verifique se a jornada é válida e se não há erros. [Saiba mais](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. Na jornada, selecione a opção **[!UICONTROL Publish]**, localizada no menu suspenso no canto superior direito.
+1. Na jornada, selecione a opção **[!UICONTROL Publicar]**, localizada no menu suspenso no canto superior direito.
 
    ![](assets/code-based-journey-publish.png)
 
@@ -51,7 +51,7 @@ Sua jornada baseada em código pega o status do **[!UICONTROL Live]** e agora es
 
 >[!NOTE]
 >
->Após clicar em **[!UICONTROL Publish]**, pode levar até 15 minutos para que as alterações fiquem disponíveis online.
+>Após clicar em **[!UICONTROL Publicar]**, pode levar até 15 minutos para que as alterações fiquem disponíveis online.
 
 ### Ativar uma campanha baseada em código {#activate-code-based-campaign}
 
@@ -113,9 +113,9 @@ Global reports display events that occurred at least two hours ago and cover eve
 
 ### Code-based live report {#live-report-code-based}
 
-From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more on live report](../reports/campaign-live-report.md)
+From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more about live report](../reports/campaign-live-report.md)
 
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
++++Learn more about the different metrics and widgets available for the Code-based experience report.
 
 The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your code-based experiences, such as:
 
@@ -130,7 +130,7 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 
 ### Code-based global report {#global-report-code-based}
 
-Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report-cja.md)
+Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more about global report](../reports/campaign-global-report-cja.md)
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
 
@@ -138,7 +138,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based 
 
 Add image TBC
 
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
++++Learn more about the different metrics and widgets available for the Code-based experience report.
 
 The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your experiences, such as:
 

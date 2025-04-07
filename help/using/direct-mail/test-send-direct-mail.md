@@ -1,5 +1,5 @@
 ---
-title: Marque e envie uma mensagem de correspondência direta
+title: Verificação e envio de uma mensagem de correspondência direta
 description: Saiba como verificar e enviar uma mensagem de correspondência direta no Journey Optimizer
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Marque e envie uma mensagem de correspondência direta {#direct-mail-test-send}
+# Verificação e envio de uma mensagem de correspondência direta {#direct-mail-test-send}
 
 ## Visualizar o arquivo de extração {#preview-dm}
 
@@ -50,10 +50,10 @@ Depois de enviado, você pode medir o impacto da campanha de correspondência di
 
 No [!DNL Journey Optimizer], o consentimento é tratado pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR) da Experience Platform{target="_blank"}. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações.
 
-Se um perfil optou por não receber correspondência direta, nos atributos de perfil de Experience Platform correspondentes, o valor de `consents.marketing.postalMail.val` será `n` e o perfil correspondente será excluído das entregas subsequentes.
+Se um perfil optou por não receber correspondência direta, nos atributos de perfil correspondentes do Experience Platform, o valor de `consents.marketing.postalMail.val` será `n` e o perfil correspondente será excluído das entregas subsequentes.
 
 Para habilitá-lo novamente, o atributo de perfil deve ser alterado de volta para `consents.marketing.postalMail.val` : `y`.
 
-Para gerenciar os atributos de um perfil, acesse Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
+Para gerenciar os atributos de um perfil, acesse o Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
 
 Saiba mais sobre como gerenciar a opção de não participação no Journey Optimizer em [esta seção](../privacy/opt-out.md).

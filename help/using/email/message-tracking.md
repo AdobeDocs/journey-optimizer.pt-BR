@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -65,7 +65,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
    * Selecione **[!UICONTROL Consentimento/Assinatura externa]** para inserir um link para aceitar receber comunicações da sua marca.
 
-   * Selecione **[!UICONTROL Opção de não participação/Cancelamento de assinatura externo]** para inserir um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa [nesta seção](email-opt-out.md#opt-out-management).
+   * Selecione **[!UICONTROL Opção de não participação/Cancelamento de assinatura externo]** para inserir um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa em [esta seção](email-opt-out.md#opt-out-management).
 
    * Selecione **[!UICONTROL Mirror page]** para adicionar um link à mirror page do email. [Saiba mais](#mirror-page)
 

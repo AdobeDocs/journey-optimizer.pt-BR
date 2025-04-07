@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '6785'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -870,7 +870,7 @@ Leia mais na documentação dos [fragmentos de conteúdo](../content-management/
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* Agora você pode usar o plug-in Edge Delivery para obter as informações necessárias para entender e solucionar problemas em suas implementações de entrada. [Saiba mais na exibição Edge Delivery](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* Agora você pode usar o plug-in Edge Delivery para obter as informações necessárias para entender e solucionar problemas em suas implementações de entrada. [Saiba mais sobre a exibição do Edge Delivery](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 #### Canal de correspondência direta

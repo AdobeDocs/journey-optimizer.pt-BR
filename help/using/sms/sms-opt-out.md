@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 19%
+source-wordcount: '516'
+ht-degree: 18%
 
 ---
 
@@ -42,6 +42,7 @@ Ao usar Infobip, certifique-se de que a ação de encaminhamento esteja definida
 
 Nenhuma etapa é necessária para garantir que os recursos de recusa de SMS funcionem no Adobe Journey Optimizer, pois as respostas com palavras-chave STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE são reconhecidas automaticamente. Os status de recusa de perfis são atualizados em tempo real no Adobe Journey Optimizer.
 
+Observe que se um cliente responder PARAR para uma mensagem de texto, o provedor bloqueará todo o SMS subsequente da ID do remetente específica (código curto ou número longo), incluindo mensagens transacionais. Para garantir o delivery ininterrupto de SMS transacional, use uma ID do remetente separada que não tenha sido recusada anteriormente.
 
 ## ➡ Incluis na lista de bloqueios {#sms-blocklists}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 4%
@@ -53,7 +53,7 @@ A tabela **[!UICONTROL Estatísticas de envio]** fornece um resumo abrangente do
 
 A tabela **[!UICONTROL Estatísticas de rastreamento]** oferece um instantâneo detalhado da atividade do perfil vinculada às suas notificações por push, fornecendo insights essenciais sobre a eficácia do envolvimento e das notificações por push.
 
-+++ Saiba mais sobre métricas de estatísticas de rastreamento
++++ Saiba mais sobre as métricas de estatísticas de rastreamento
 
 * **[!UICONTROL Taxa de cliques (CTR)]**: porcentagem de usuários que interagiram com as notificações por push.
 
@@ -71,7 +71,7 @@ A tabela **[!UICONTROL Estatísticas de rastreamento]** oferece um instantâneo 
 
 A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral abrangente dos rótulos de links em suas notificações por push, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
 
-+++ Saiba mais sobre métricas de rótulos de link rastreado
++++ Saiba mais sobre Métricas de rótulos de link rastreado
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em suas notificações por push.
 
@@ -85,7 +85,7 @@ A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral 
 
 A tabela **[!UICONTROL URLs de links rastreados]** fornece uma visão geral abrangente das URLs nas suas notificações por push que atraem o maior tráfego de visitantes. Isso permite identificar e priorizar os links mais populares, melhorando sua compreensão do envolvimento do perfil com conteúdo específico em suas notificações por push.
 
-+++ Saiba mais sobre métricas de URLs de link rastreado
++++ Saiba mais sobre Métricas de URLs de link rastreado
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em suas notificações por push.
 

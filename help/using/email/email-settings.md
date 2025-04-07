@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -179,7 +179,7 @@ Você deve inserir um valor inteiro (em horas ou minutos) dentro do seguinte int
 * Para emails transacionais, o período mínimo para novas tentativas é de 10 minutos.
 * Para ambos os tipos de email, o período máximo de novas tentativas é de 84 horas (ou 5040 minutos).
 
-Saiba mais sobre novas tentativas [nesta seção](../configuration/retries.md).
+Saiba mais sobre tentativas em [esta seção](../configuration/retries.md).
 
 ## Rastreamento de URL {#url-tracking}
 

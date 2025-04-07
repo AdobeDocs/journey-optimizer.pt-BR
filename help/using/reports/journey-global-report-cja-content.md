@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f68df6ee-d74e-46b4-a53f-b0eb50101e85
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Você pode acessar seu relatório de jornada de cartão de Conteúdo clicando no
 
 Os gráficos de **[!UICONTROL Exibição e clique]** apresentam uma análise detalhada do envolvimento dos perfis com seus cartões de Conteúdo, oferecendo insights valiosos sobre como os perfis interagem com seu conteúdo.
 
-+++ Saiba mais sobre métricas de Exibições e cliques
++++ Saiba mais sobre métricas de Exibições e Cliques
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em seus cartões de Conteúdo.
 
@@ -69,7 +69,7 @@ A tabela **[!UICONTROL Dados de rastreamento]** oferece um instantâneo detalhad
 
 A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral abrangente dos rótulos de links em seus cartões de Conteúdo, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
 
-+++ Saiba mais sobre métricas de rótulos de link rastreado
++++ Saiba mais sobre Métricas de rótulos de link rastreado
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em seus cartões de Conteúdo.
 

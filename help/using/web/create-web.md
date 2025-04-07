@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 19%
@@ -169,13 +169,13 @@ Você também pode visualizar seu conteúdo de experiência online antes de ativ
 >
 >Se várias jornadas ou campanhas atualizarem os mesmos elementos do site, a jornada/campanha de prioridade mais alta terá prioridade.
 
-### Publish uma jornada da Web {#activate-web-journey}
+### Publicar uma jornada da Web {#activate-web-journey}
 
 Para ativar sua experiência online a partir de uma jornada, siga as etapas abaixo.
 
 1. Verifique se a jornada é válida e se não há erros. [Saiba mais](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. Na jornada, selecione a opção **[!UICONTROL Publish]**, localizada no menu suspenso no canto superior direito.
+1. Na jornada, selecione a opção **[!UICONTROL Publicar]**, localizada no menu suspenso no canto superior direito.
 
    ![](assets/web-journey-publish.png)
 
@@ -187,7 +187,7 @@ Sua jornada da Web está no status **[!UICONTROL Live]** e agora é somente leit
 
 >[!NOTE]
 >
->Após clicar em **[!UICONTROL Publish]**, pode levar até 15 minutos para que as alterações sejam disponibilizadas online no seu site.
+>Após clicar em **[!UICONTROL Publicar]**, pode levar até 15 minutos para que as alterações fiquem disponíveis online no seu site.
 
 ### Ativar uma campanha da Web {#activate-web-campaign}
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 31%
@@ -76,7 +76,7 @@ Para criar uma coleção, siga estas etapas:
    >
    >As coleções estáticas não são atualizadas automaticamente. Para adicionar ofertas a uma coleção estática, é necessário editá-la e adicioná-las manualmente.
 
-1. Para atribuir rótulos de uso de dados principais ou personalizados a uma coleção estática, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../../administration/object-based-access.md)
+1. Para atribuir rótulos de uso de dados principais ou personalizados a uma coleção estática, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../../administration/object-based-access.md)
 
    >[!NOTE]
    >

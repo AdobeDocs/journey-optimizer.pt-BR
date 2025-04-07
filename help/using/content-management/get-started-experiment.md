@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2004'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ Os experimentos de conteúdo permitem otimizar o conteúdo para as ações em Ca
 
 Os experimentos são um conjunto de testes aleatórios, o que, no contexto de testes online, significa que alguns usuários selecionados aleatoriamente são expostos a uma determinada variação de uma mensagem e outro conjunto de usuários selecionado aleatoriamente recebe tratamento diverso. Depois de enviar a mensagem, você pode medir as métricas de resultado em que está interessado. Por exemplo, aberturas de emails ou cliques.
 
-➡️ Um caso de uso completo que mostra como usar experimentos de conteúdo para comparar decisões com o canal de experiência baseado em código é apresentado em [esta seção](../experience-decisioning/experience-decisioning-uc.md).
+➡️ [Esta seção](../experience-decisioning/experience-decisioning-uc.md) apresenta um caso de uso completo que mostra como usar experimentos de conteúdo para comparar decisões com o canal de experiência baseado em código.
 
 ## Por que executar experimentos?
 

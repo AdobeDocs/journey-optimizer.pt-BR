@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -105,7 +105,7 @@ Um filtro também está disponível para somente exibir objetos com determinadas
 
 ### Gerenciar tags {#manage-tags}
 
-Os administradores podem excluir tags e organizá-las por categorias usando o menu **[!UICONTROL Tags]** em **[!UICONTROL ADMINISTRAÇÃO]**. Saiba mais sobre o gerenciamento de tags na [documentação das tags unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=pt-BR).
+Os administradores podem excluir tags e organizá-las por categorias usando o menu **[!UICONTROL Tags]** em **[!UICONTROL ADMINISTRAÇÃO]**. Saiba mais sobre o gerenciamento de tags na [documentação de Tags unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=pt-BR).
 
 >[!NOTE]
 >

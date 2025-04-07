@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2719'
 ht-degree: 15%
@@ -123,7 +123,7 @@ Basicamente, a saída de um público-alvo é uma lista de perfis, enquanto uma r
 
   Por um lado, os públicos-alvo são um grupo de perfis do Adobe Experience Platform que correspondem a determinada lógica com base em atributos de perfil e eventos de experiência. No entanto, o Gerenciamento de ofertas não recalcula o público-alvo, que pode não estar atualizado ao apresentar a oferta.
 
-  Saiba mais sobre públicos em [esta seção](../../audience/about-audiences.md).
+  Saiba mais sobre públicos-alvo [nesta seção](../../audience/about-audiences.md).
 
 * **Regras de decisão**
 

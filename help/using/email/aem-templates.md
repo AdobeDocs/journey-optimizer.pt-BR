@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 2%
@@ -89,7 +89,7 @@ Quando o template do Experience Manager estiver disponível no Journey Optimizer
 
    ![](assets/aem_ajo_2.png)
 
-1. Na janela **[!UICONTROL Propriedades do modelo]**, clique no botão **[!UICONTROL Gerenciar acesso]** para atribuir rótulos de uso de dados principais ou personalizados ao seu modelo. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
+1. Na janela **[!UICONTROL Propriedades do modelo]**, clique no botão **[!UICONTROL Gerenciar acesso]** para atribuir rótulos de uso de dados principais ou personalizados ao seu modelo. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
 
 1. Para personalizar ainda mais seu modelo do Experience Manager e adicionar personalização personalizada ao seu conteúdo, clique em **[!UICONTROL Editar conteúdo]**. Isso permitirá que você faça alterações facilmente e personalize o modelo de acordo com suas necessidades específicas. [Saiba mais](../email/get-started-email-design.md)
 
@@ -109,7 +109,7 @@ Quando o template do Experience Manager estiver disponível no Journey Optimizer
 
 1. Se você adicionou conteúdo personalizado ao seu modelo do Experience Manager, clique em **[!UICONTROL Simular conteúdo]** para visualizar como ele aparecerá na mensagem usando perfis de teste.
 
-[Saiba mais sobre perfis de pré-visualização e teste](../content-management/preview-test.md)
+[Saiba mais sobre perfis de visualização e teste](../content-management/preview-test.md)
 
    ![](assets/aem_ajo_6.png)
 

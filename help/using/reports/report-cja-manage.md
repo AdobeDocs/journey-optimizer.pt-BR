@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 1%
 
 Melhore sua experiência de análise de dados com sua licença do **[!DNL Customer Journey Analytics]** aproveitando o recurso **[!UICONTROL Analisar no CJA]**, disponível em todos os relatórios.
 
-Essa poderosa opção redireciona você facilmente para o ambiente do **[!DNL Customer Journey Analytics]**, permitindo que você personalize seus relatórios extensivamente. Você pode enriquecer seus widgets com métricas de Customer Journey Analytics especializadas, elevando seus insights a um novo nível.
+Essa poderosa opção redireciona você facilmente para o ambiente do **[!DNL Customer Journey Analytics]**, permitindo que você personalize seus relatórios extensivamente. Você pode enriquecer seus widgets com métricas especializadas do Customer Journey Analytics, elevando seus insights a um novo nível.
 
-[Saiba mais sobre a interface Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[Saiba mais sobre a interface do Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## Definir o período do relatório {#report-period}
 
@@ -59,9 +59,9 @@ O relatório será atualizado automaticamente assim que o filtro for aplicado ou
 
    Se você gerou o arquivo no nível do relatório, ele contém informações detalhadas para cada widget, incluindo seu título e dados.
 
->[!TAB Exportar seu relatório como um arquivo PDF]
+>[!TAB Exportar seu relatório como um arquivo do PDF]
 
-1. No seu relatório, clique em **[!UICONTROL Compartilhar]** e selecione **[!UICONTROL Baixar PDF]**.
+1. Em seu relatório, clique em **[!UICONTROL Compartilhar]** e selecione **[!UICONTROL Baixar o PDF]**.
 
    ![](assets/export_cja_pdf.png)
 
@@ -157,7 +157,7 @@ A métrica recém-criada será incluída ao exportar o relatório como um PDF ou
 
 ## Explorar dados com a Análise Exploratória {#exploratory}
 
-Use a ferramenta de Análise Exploratória para criar facilmente tabelas e visualizações a partir dos **[!UICONTROL Dimension]** e **[!UICONTROL Métricas]** selecionados. Essa ferramenta simplifica a exploração de dados, permitindo personalizar e analisar informações automaticamente com facilidade. Saiba mais em [esta documentação](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+Use a ferramenta de Análise Exploratória para criar facilmente tabelas e visualizações a partir das **[!UICONTROL Dimensões]** e **[!UICONTROL Métricas]** selecionadas. Essa ferramenta simplifica a exploração de dados, permitindo personalizar e analisar informações automaticamente com facilidade. Saiba mais em [esta documentação](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
 
 1. Comece acessando o relatório no qual deseja usar a Análise Exploratória.
 
@@ -165,7 +165,7 @@ Use a ferramenta de Análise Exploratória para criar facilmente tabelas e visua
 
    ![](assets/exploratory_analysis_1.png)
 
-1. Crie uma consulta escolhendo um **[!UICONTROL Dimension]** e uma **[!UICONTROL Métrica]** usando os menus suspensos. Você também pode selecionar um **[!UICONTROL Segmento]**, se necessário.
+1. Crie uma consulta escolhendo uma **[!UICONTROL Dimension]** e uma **[!UICONTROL Métrica]** usando os menus suspensos. Você também pode selecionar um **[!UICONTROL Segmento]**, se necessário.
 
    ![](assets/exploratory_analysis_2.png)
 
@@ -173,13 +173,13 @@ Use a ferramenta de Análise Exploratória para criar facilmente tabelas e visua
 
 1. Use as opções **[!UICONTROL Adicionar detalhamento]** ou **[!UICONTROL Adicionar métrica]** para incluir dimensões adicionais, permitindo um detalhamento de dados mais detalhado.
 
-   Observe que você só pode adicionar até três **[!UICONTROL Dimension]**, **[!UICONTROL Métricas]** e **[!UICONTROL Segmentos]**.
+   Observe que você só pode adicionar até três **[!UICONTROL Dimensões]**, **[!UICONTROL Métricas]** e **[!UICONTROL Segmentos]**.
 
 Agora você pode analisar seus dados usando suas ferramentas personalizadas de tabela e visualização.
 
 <!--## Create a down-funnel metric {#down-funnel}
 
-1. Create a new journey or open an existing one. [Learn more on journey creation](../building-journeys/journey-gs.md)
+1. Create a new journey or open an existing one. [Learn more about journey creation](../building-journeys/journey-gs.md)
 
 1. On the canvas editor, select the option to "add a metric".
 
@@ -221,11 +221,11 @@ Agora você pode continuar a usar o público recém-criado com uma Jornada ou Ca
 >
 > A funcionalidade **Modelo** é progressivamente implementada em fases, com Disponibilidade Geral completa planejada para o final de janeiro, e disponível exclusivamente para usuários com uma licença [!DNL Customer Journey Analytics].
 
-Agora há a opção de aprimorar os relatórios do Journey Optimizer utilizando modelos de Customer Journey Analytics. [Saiba mais sobre o modelo de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Agora há a opção de aprimorar os relatórios do Journey Optimizer utilizando modelos do Customer Journey Analytics. [Saiba mais sobre o modelo do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 Ao acessar seus relatórios, você pode escolher entre dois tipos de modelo na lista suspensa **[!UICONTROL Selecionar um modelo]**:
 
-* modelo padrão fornecido pelo Adobe
+* Modelo padrão fornecido pela Adobe
 * Modelos gerados pelo cliente
 
 ![](assets/cja_template_5.png)
@@ -234,7 +234,7 @@ Se nenhum modelo tiver sido criado, a lista suspensa **[!UICONTROL Selecionar um
 
 Para criar um template, siga as etapas abaixo:
 
-1. Em [!DNL Customer Journey Analytics], navegue até o menu **[!UICONTROL Workspace]** e selecione **[!UICONTROL modelos de Adobe]**. [Saiba mais sobre os modelos disponíveis](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+1. Em [!DNL Customer Journey Analytics], navegue até o menu **[!UICONTROL Workspace]** e selecione **[!UICONTROL Adobe templates]**. [Saiba mais sobre os modelos disponíveis](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
 
 1. Navegue pelos modelos pré-criados disponíveis e clique em **[!UICONTROL Usar modelo]** para selecionar um.
 
@@ -258,4 +258,4 @@ Para criar um template, siga as etapas abaixo:
 
    ![](assets/cja_template_4.png)
 
-Para criar um modelo diretamente do seu relatório do otimizador de Jornadas, basta acessar o relatório de campanha ou jornada, selecionar **[!UICONTROL Analisar no CJA]** e personalizar o modelo padrão seguindo as etapas descritas acima.
+Para criar um modelo diretamente do relatório do otimizador de Jornadas, basta acessar o relatório de campanha ou de jornadas, selecionar **[!UICONTROL Analisar no CJA]** e personalizar o modelo padrão seguindo as etapas descritas acima.

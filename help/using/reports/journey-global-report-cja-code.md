@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 3%
@@ -73,7 +73,7 @@ A tabela **[!UICONTROL Dados de rastreamento]** oferece um instantâneo detalhad
 
 A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral abrangente dos rótulos de links em suas experiências baseadas em código, destacando aquelas que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
 
-+++ Saiba mais sobre métricas de rótulos de link rastreado
++++ Saiba mais sobre Métricas de rótulos de link rastreado
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em suas experiências baseadas em código.
 

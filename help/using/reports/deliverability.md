@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 18%
@@ -84,7 +84,7 @@ Ao enviar email em um endereço IP totalmente novo, agora é possível executar 
 
 O Adobe Journey Optimizer oferece uma maneira padronizada e eficiente de aquecer seus endereços IP que segue as práticas recomendadas para uma capacidade de entrega otimizada.
 
-[Saiba mais sobre planos de aquecimento de IP](../configuration/ip-warmup-gs.md)
+[Saiba mais sobre os planos de aquecimento de IP](../configuration/ip-warmup-gs.md)
 
 <!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
