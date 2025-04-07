@@ -8,16 +8,16 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
+source-git-commit: 7243da6ecab9bce2afeb86a35d35b7bc94d4d196
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 12%
+source-wordcount: '672'
+ht-degree: 18%
 
 ---
 
-# Proteções de TTL (Time-to-live) dos conjuntos de dados {#ttl-guardrail}
+# Medidas de proteção de tempo de vida (TTL) dos conjuntos de dados {#ttl-guardrail}
 
-A partir de fevereiro de 2025, uma garantia de TTL (time-to-live) será implantada em conjuntos de dados gerados pelo sistema da Journey Optimizer em **novas sandboxes e novas organizações** da seguinte maneira:
+A partir de fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer para **novas sandboxes e organizações** da seguinte maneira:
 
 * 90 dias para dados na loja de perfis,
 * 13 meses para dados no data lake.
@@ -63,7 +63,7 @@ Os dados do conjunto de dados gerados pelo sistema no perfil são descartados ap
 
 +++
 
-+++Se os dados de um conjunto de dados gerado pelo sistema forem enviados para o [!DNL Customer Journey Analytics] (CJA), os dados no CJA também serão afetados pelo TTL?
++++Se os dados de um conjunto de dados gerado pelo sistema forem enviados para [!DNL Customer Journey Analytics] (CJA), os dados no CJA também serão afetados pelo TTL?
 
 Os dados em [!DNL Customer Journey Analytics] são mantidos em sincronia com o Experience Platform. Portanto, uma remoção de dados devido a um TTL em dados do conjunto de dados gerados pelo sistema também afetará os dados em [!DNL Customer Journey Analytics].
 
@@ -81,7 +81,7 @@ As extensões TTLs não são compatíveis no momento. No entanto, está previsto
 
 +++Os clientes podem aumentar o TTL para os dados do conjunto de dados do sistema [!DNL Journey Optimizer] no data lake?
 
-As extensões TTLs não são compatíveis no momento. Os clientes com um direito à Real-Time CDP podem exportar dados por meio do Destinations para reter os dados por mais tempo. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank}
+As extensões TTLs não são compatíveis no momento. Os clientes podem exportar dados por meio do Destinos para reter os dados por mais tempo. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank}. Além disso, os clientes com um direito ao **[!DNL Data Distiller]** podem criar conjuntos de dados derivados para armazenar os dados no data lake sem um TTL. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank}
 
 +++
 
@@ -96,7 +96,7 @@ As extensões TTLs não são compatíveis no momento. Os clientes com um direito
 
   >[!NOTE]
   >
-  >Um TTL já está implementado na conexão [!DNL Customer Journey Analytics] (CJA), o que reduz o período máximo efetivo de retrospectiva dos dados do conjunto de dados afetados para 13 meses.
+  >Um TTL já está implementado na conexão [!DNL Customer Journey Analytics] (CJA), o que reduz para 13 meses o período máximo efetivo de retrospectiva dos dados do conjunto de dados afetados.
 
 * **Fonte de dados do Experience Platform**: sim - a recuperação de eventos de experiência está sujeita ao TTL de 90 dias.
 * **Atributos computados**: Sim - o cálculo de preenchimento retroativo inicial será limitado aos últimos 90 dias de dados; o atributo computado será atualizado com base em eventos incrementais para atualizações subsequentes. Assim que as atualizações subsequentes atingirem o período de retrospectiva (máximo de 6 meses), o TTL essencialmente não afetará mais o atributo calculado. Saiba mais.
