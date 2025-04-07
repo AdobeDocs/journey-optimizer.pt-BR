@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
-workflow-type: ht
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -61,8 +61,8 @@ Verifique os seguintes pré-requisitos antes de começar a criar sua primeira ca
 
 +++
 
-1. **Você precisa de um público-alvo**. Os públicos-alvo precisam estar disponíveis antes de criar a campanha. Saiba mais sobre públicos-alvo [nesta página](../audience/about-audiences.md).
-1. **Você precisa de uma configuração de canal**. Para selecionar um canal, é necessário ter a configuração de canal correspondente (ou seja, predefinição) criada e disponível. Saiba mais sobre configurações de canal [nesta página](../configuration/channel-surfaces.md).
+1. **Você precisa de um público-alvo**. Os públicos-alvo precisam estar disponíveis antes de criar a campanha. Saiba mais sobre os públicos-alvo [nesta página](../audience/about-audiences.md).
+1. **Você precisa de uma configuração de canal**. Para selecionar um canal, é necessário ter a configuração de canal correspondente (ou seja, predefinição) criada e disponível. Saiba mais sobre as configurações de canal [nesta página](../configuration/channel-surfaces.md).
 
 ## Vídeo explicativo {#video}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 1465b110812beba8b58c7dc2e01a65189f984c27
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 3%
@@ -137,7 +137,7 @@ Sua jornada será composta de uma atividade **[!UICONTROL Ler público-alvo]** e
 
    >[!NOTE]
    >
-   > O cálculo do público pode levar algum tempo. Saiba mais sobre públicos em [esta seção](../audience/about-audiences.md).
+   > O cálculo do público pode levar algum tempo. Saiba mais sobre públicos-alvo [nesta seção](../audience/about-audiences.md).
 
 1. Agora crie uma nova jornada e comece com uma atividade de orquestração de **[!UICONTROL Ler público]**.
 1. Escolha o público-alvo criado anteriormente e o namespace que seus perfis usam.
