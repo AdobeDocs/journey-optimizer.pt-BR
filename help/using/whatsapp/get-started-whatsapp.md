@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 13%
+ht-degree: 7%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 13%
 
 Agora você pode enviar mensagens do WhatsApp diretamente pelo Journey Optimizer. Este recurso permite a integração perfeita do WhatsApp em jornadas e campanhas, melhorando a comunicação e o engajamento com os recipients.
 
-* Em uma **Jornada**. Crie uma jornada, adicione uma atividade de **WhatsApp**, defina configurações básicas e navegue até o painel direito **[!UICONTROL Ações: WhatsApp]** para criar o conteúdo da mensagem do WhatsApp. Saiba como criar uma jornada [nesta página](../building-journeys/journey-gs.md).
+* Em uma **Jornada**. Crie uma jornada, adicione uma atividade de **WhatsApp**, defina configurações básicas e navegue até o painel direito **[!UICONTROL Ações: WhatsApp]** para criar o conteúdo da mensagem do WhatsApp. Saiba como criar uma jornada em [esta página](../building-journeys/journey-gs.md).
 
-* Em uma **Campanha**. Crie uma campanha, selecione **WhatsApp** como sua ação e defina as configurações básicas, em seguida, edite o conteúdo da mensagem para definir a mensagem do WhatsApp a ser enviada. Saiba como criar uma campanha [nesta página](../campaigns/create-campaign.md#configure).
+* Em uma **Campanha**. Crie uma campanha, selecione **WhatsApp** como sua ação e defina as configurações básicas, em seguida, edite o conteúdo da mensagem para definir a mensagem do WhatsApp a ser enviada. Saiba como criar uma campanha em [esta página](../campaigns/create-campaign.md#configure).
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 

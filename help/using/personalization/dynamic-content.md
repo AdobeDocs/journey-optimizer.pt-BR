@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, dinâmico, conteúdo
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 O Adobe Journey Optimizer permite aproveitar as regras condicionais criadas na biblioteca para adicionar conteúdo dinâmico às suas mensagens.
 
-O conteúdo dinâmico pode ser criado em qualquer campo em que você pode adicionar personalização usando o editor de personalização. Isso inclui linha de assunto, links, conteúdo de notificações por push ou representações de ofertas do tipo texto. [Saiba mais sobre personalização](personalize.md)
+O conteúdo dinâmico pode ser criado em qualquer campo em que você pode adicionar personalização usando o editor de personalização. Isso inclui linha de assunto, links, conteúdo de notificações por push ou representações de ofertas do tipo texto. [Saiba mais sobre a personalização](personalize.md)
 
 Além disso, você pode usar regras condicionais no Designer de email para criar várias variantes de um componente de conteúdo.
 
@@ -92,7 +92,7 @@ As etapas para criar variantes de um componente de conteúdo no Designer de emai
    >
    >* O conteúdo condicional será avaliado em relação às regras associadas na ordem em que as variantes forem exibidas. A variante padrão é sempre exibida se nenhuma outra condição for atendida.
    >
-   >* Ao simular ou renderizar provas para emails contendo várias variantes condicionais, o Journey Optimizer pode exigir mais tempo de processamento. Se você enfrentar tempos limite ou mensagens de erro, considere reduzir o número total de variantes ou simplificar regras condicionais. Saiba mais sobre como testar seu conteúdo em [esta página](../content-management/preview-test.md).
+   >* Ao simular ou renderizar provas para emails que contêm diversas variantes condicionais, o Journey Optimizer pode exigir mais tempo de processamento. Se você observar falhas de tempo-limite ou mensagens de erro, considere reduzir o número total de variantes ou simplificar as regras condicionais. Saiba mais sobre como testar seu conteúdo [nesta página](../content-management/preview-test.md).
 
 
 1. Para excluir uma variante, clique no ícone Mais ações ao lado da variante desejada e selecione **[!UICONTROL Excluir]**.

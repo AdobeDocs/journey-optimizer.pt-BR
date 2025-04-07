@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recusar, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
@@ -67,7 +67,7 @@ Para definir um URL personalizado para cancelar a inscrição, insira um link de
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-   Você pode personalizar seus links. Saiba mais sobre URLs personalizados [nesta seção](../personalization/personalization-syntax.md).
+   Você pode personalizar seus links. Saiba mais sobre URLs personalizadas em [esta seção](../personalization/personalization-syntax.md).
 
 1. Selecione como deseja aplicar a opção de não participação: no nível de canal ou identidade.
 
@@ -91,7 +91,7 @@ Para implementar esse modo de cancelamento de subscrição, você deve criar e p
 
 Para configurar um mecanismo de recusa em duas etapas, você deve criar suas próprias páginas de aterrissagem de unsubscription. A primeira landing page será vinculada da sua mensagem e deverá conter um botão de chamada para ação. Uma mensagem de confirmação deve ser exibida quando o usuário clicar no botão.
 
-Saiba como criar uma página de aterrissagem no Adobe Journey Optimizer para gerenciar cancelamentos de assinatura em [esta página](../landing-pages/lp-use-cases.md#opt-out).
+Saiba como criar uma página de aterrissagem no Adobe Journey Optimizer para gerenciar cancelamentos de assinatura [nesta página](../landing-pages/lp-use-cases.md#opt-out).
 
 Também é possível usar uma landing page externa. Nesse caso, configure a API para enviar as informações ao Adobe Journey Optimizer quando um recipient cancelar a inscrição.
 

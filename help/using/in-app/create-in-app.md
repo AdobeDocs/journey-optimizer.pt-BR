@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: da27bb78de305c0d80737aaf7423cd62962732da
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 12%
@@ -143,7 +143,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
 1. Na seção **[!UICONTROL Actions]**, escolha a **[!UICONTROL mensagem no aplicativo]** e selecione ou crie uma nova configuração.
 
-   Saiba mais sobre a Configuração no aplicativo em [esta página](inapp-configuration.md).
+   Saiba mais sobre a Configuração no aplicativo [nesta página](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 

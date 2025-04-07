@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 14%
@@ -94,7 +94,7 @@ Use uma **[!UICONTROL Condição de tempo]** para executar ações diferentes de
 
 >[!NOTE]
 >
->* O fuso horário não é específico de uma condição e é definido no nível da jornada nas propriedades da jornada. Saiba mais [nesta página](../building-journeys/timezone-management.md).
+>* O fuso horário não é específico de uma condição e é definido no nível da jornada nas propriedades da jornada. Saiba mais sobre [esta página](../building-journeys/timezone-management.md).
 >
 >* Por padrão, a **[!UICONTROL Condição de hora]** é definida por hora, das 00:00 às 12:00.
 

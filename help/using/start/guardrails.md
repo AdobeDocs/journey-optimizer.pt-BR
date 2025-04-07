@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2471'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ A partir de fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) s
 * 90 dias para dados na loja de perfis,
 * 13 meses para dados no data lake.
 
-Essa alteração será implementada nas **sandboxes de clientes existentes** em uma próxima fase. [Saiba mais sobre as medidas de proteção de tempo de vida (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
+Essa alteração será implementada nas **sandboxes de clientes existentes** em uma próxima fase. [Saiba mais sobre as medidas de proteção de Tempo de vida (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
 
 ## Medidas de proteção de canais {#channel-guardrails}
 
@@ -66,7 +66,7 @@ As métricas de licença para cada pacote estão listadas na página [Descriçã
 
 ### Medidas de proteção de canal baseado em código {#code-based-guardrails}
 
-Para usar ações de experiência baseada em código no [!DNL Journey Optimizer] e fornecer conteúdo de código que possa ser usado por seus aplicativos, siga os pré-requisitos detalhados [nesta página](../code-based/code-based-prerequisites.md).
+Para usar ações de experiência baseadas em código no [!DNL Journey Optimizer] e fornecer a carga de conteúdo de código que pode ser usada por seus aplicativos, siga os pré-requisitos detalhados em [esta página](../code-based/code-based-prerequisites.md).
 
 ## Medidas de proteção das páginas de destino {#lp-guardrails}
 
@@ -83,7 +83,7 @@ Por padrão, o [!DNL Journey Optimizer] permite delegar até 10 subdomínios no 
 
 No entanto, dependendo do contrato de licença, talvez você possa delegar até 100 subdomínios. Fale com seu contato na Adobe para saber mais sobre o número de subdomínios aos quais você tem direito.
 
-Saiba mais sobre delegação de domínio em [esta página](../configuration/delegate-subdomain.md).
+Saiba mais sobre a delegação de domínio em [esta página](../configuration/delegate-subdomain.md).
 
 ## Medidas de proteção de fragmentos {#fragments-guardrails}
 
@@ -122,7 +122,7 @@ As medidas de proteção e limitações que devem ser consideradas ao trabalhar 
 As seguintes medidas de proteção se aplicam às [Ações](../building-journeys/about-journey-activities.md) em suas jornadas:
 
 * Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. Novas tentativas são executadas para todos os erros HTTP, exceto para HTTP 401, 403 e 404.
-* O evento **Reação** integrado permite que você reaja a ações predefinidas. Saiba mais [nesta página](../building-journeys/reaction-events.md). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado.
+* O evento **Reação** integrado permite que você reaja a ações predefinidas. Saiba mais sobre [esta página](../building-journeys/reaction-events.md). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado.
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
 * Um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo. Se a reentrada estiver ativada, um perfil poderá entrar novamente em uma jornada, mas não até que tenha saído totalmente da instância anterior da jornada. [Leia mais](../building-journeys/end-journey.md)
 
@@ -190,7 +190,7 @@ Você pode escolher uma dessas duas soluções:
 
 ### Atualizar perfil {#update-profile-g}
 
-Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Atualizar perfil]**. Elas são listadas [nesta página](../building-journeys/update-profiles.md).
+Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Atualizar perfil]**. Eles estão listados em [esta página](../building-journeys/update-profiles.md).
 
 ### Público-alvo de leitura {#read-segment-g}
 
@@ -201,7 +201,7 @@ As seguintes medidas de proteção se aplicam à atividade de jornada [Ler públ
 * A atividade de **público-alvo de leitura** não pode ser usada com atividades do Adobe Campaign.
 * A atividade de **público-alvo de leitura** só pode ser usada como a primeira atividade de uma jornada ou após uma atividade de evento de negócios.
 * Uma jornada só pode ter uma atividade de **público-alvo de leitura**.
-* Consulte também as recomendações de como usar a atividade de **público-alvo de leitura** descritas [nesta página](../building-journeys/read-audience.md).
+* Consulte também recomendações sobre como usar a atividade **Ler público** nesta [página](../building-journeys/read-audience.md).
 * As novas tentativas são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **público-alvo de leitura** ou um **evento de negócios**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado.
 
 ### Qualificação do público-alvo {#audience-qualif-g}
@@ -218,7 +218,7 @@ A proteção a seguir se aplica ao [editor de expressão de jornada](../building
 
 ### Atividade No aplicativo {#in-app-activity-limitations}
 
-As seguintes medidas de proteção se aplicam à ação **[!UICONTROL Mensagem no aplicativo]**. Saiba mais sobre Mensagens no aplicativo em [esta página](../in-app/create-in-app.md).
+As seguintes medidas de proteção se aplicam à ação **[!UICONTROL Mensagem no aplicativo]**. Saiba mais sobre Mensagens no aplicativo [nesta página](../in-app/create-in-app.md).
 
 * No momento, esse recurso não está disponível para clientes do Healthcare.
 
@@ -238,7 +238,7 @@ As seguintes medidas de proteção se aplicam à ação **[!UICONTROL Mensagem n
 
 ### Atividade Salto {#jump-g}
 
-Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Salto]**. Elas são listadas [nesta página](../building-journeys/jump.md#jump-limitations).
+Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Salto]**. Eles estão listados em [esta página](../building-journeys/jump.md#jump-limitations).
 
 ### Atividades do Campaign {#ac-g}
 

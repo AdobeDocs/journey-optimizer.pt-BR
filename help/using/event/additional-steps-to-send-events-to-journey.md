@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: etapas, configuração, jornada, eventos, fluxo, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 Para configurar eventos a serem enviados para **[!UICONTROL APIs de assimilação de streaming]** e para serem usados em [!DNL Journey Optimizer], é necessário seguir estas etapas:
 
 1. Obtenha o URL de entrada das APIs do Adobe Experience Platform. Saiba mais em [Visão geral das APIs de assimilação de streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR){target="_blank"}.
-1. Copie a carga da visualização de carga no menu **[!UICONTROL Evento]**. Saiba mais [nesta página](../event/about-creating.md#define-the-payload-fields).
+1. Copie a carga da visualização de carga no menu **[!UICONTROL Evento]**. Saiba mais sobre [esta página](../event/about-creating.md#define-the-payload-fields).
 
 Em seguida, é necessário configurar o sistema de dados que envia eventos para as APIs de assimilação de streaming usando a carga útil copiada:
 
@@ -90,4 +90,4 @@ Este é um exemplo de um evento de APIs de assimilação de fluxo:
 
 Para facilitar a identificação do local onde colar a parte de &quot;dados&quot;, você pode usar uma ferramenta de visualização JSON, como o [formatador JSON](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Para solucionar problemas de APIs de assimilação de streaming, consulte a [documentação de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.
+Para solucionar problemas de APIs de assimilação de fluxo, consulte a [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.

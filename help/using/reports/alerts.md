@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Introdução a alertas {#alerts}
 
-Ao criar jornadas e campanhas, use o botão **Alertas** para verificar e resolver erros antes de executá-los ou publicá-los. Saiba como solucionar problemas do jornada em [esta página](../building-journeys/troubleshooting.md). Saiba como revisar suas campanhas em [esta página](../campaigns/review-activate-campaign.md).
+Ao criar jornadas e campanhas, use o botão **Alertas** para verificar e resolver erros antes de executá-los ou publicá-los. Saiba como solucionar problemas das jornadas nesta [página](../building-journeys/troubleshooting.md). Saiba como revisar suas campanhas em [esta página](../campaigns/review-activate-campaign.md).
 
-Você também pode assinar alertas de sistema do Adobe Journey Optimizer, conforme detalhado nesta página.
+Você também pode assinar alertas de sistema do Adobe Journey Optimizer, conforme detalhados nesta página.
 
 ## Acessar e assinar alertas {#alerting-capabilities}
 
@@ -75,7 +75,7 @@ O nome de inscrição do evento de E/S correspondente ao alerta **Falha no Acion
 
 ## Solução de problemas {#alert-troubleshooting}
 
-Para solucionar problemas de alertas do **Ler público-alvo**, verifique a contagem de públicos-alvo na interface do Experience Platform.
+Para solucionar problemas de alertas do **Ler público-alvo**, verifique sua contagem de públicos na interface do Experience Platform.
 
 ![](assets/alert-troubleshooting-0.png)
 

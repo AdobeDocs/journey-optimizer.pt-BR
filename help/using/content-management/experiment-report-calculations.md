@@ -5,7 +5,7 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Sempre que necessário, o desvio-padrão da amostra é utilizado com a expressã
 
 ![](assets/statistical_2.png){width="225" align="center"}
 
-## Elevação {#lift}
+## Aumento {#lift}
 
 O aumento entre uma variante *ν* e a variante de controle *ν<sub>0</sub>* é o &quot;delta&quot; relativo em taxas de conversão, definido como o cálculo abaixo onde as taxas de conversão individuais são conforme definido acima. Isso é exibido como uma porcentagem.
 
@@ -56,7 +56,7 @@ Isso tem algumas implicações profundas que são muito importantes para o teste
 * Os experimentos podem ser monitorados continuamente, interrompidos adaptativamente ou continuados.
 * O erro de tipo I é controlado em todos os horários de interrupção, incluindo horários dependentes de dados.
 
-Adobe usa Sequências de Confiança Assíntota, que para uma variante individual com estimativa média `μ` tem a forma:
+O Adobe usa Sequências de Confiança Assintótica, que para uma variante individual com estimativa média `μ` tem o formato:
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
@@ -65,11 +65,11 @@ Em que:
 * `N` é o número de unidades dessa variante.
 * `σ` é uma amostra de estimativa do desvio padrão (definido acima).
 * `α` é o nível desejado de erro do tipo I (ou probabilidade de cobertura incorreta). Isso sempre é definido como 0,05.
-* ρ<sup>2</sup> é uma constante que ajusta o tamanho da amostra na qual o CS é mais rigoroso. Adobe escolheu um valor universal de ρ<sup>2</sup> = 10<sup>-2.8</sup>, que é apropriado para os tipos de taxas de conversão vistos em experimentos online.
+* ρ<sup>2</sup> é uma constante que ajusta o tamanho da amostra na qual o CS é mais rigoroso. A Adobe escolheu um valor universal de ρ<sup>2</sup> = 10<sup>-2.8</sup>, que é apropriado para os tipos de taxas de conversão vistos em experimentos online.
 
 ## Confiança {#confidence}
 
-A confiança usada por Adobe é uma confiança &quot;válida a qualquer momento&quot;, que é obtida invertendo a sequência de confiança para o efeito médio do tratamento.
+A confiança usada pelo Adobe é uma confiança &quot;válida a qualquer momento&quot;, que é obtida invertendo a sequência de confiança para o efeito de tratamento médio.
 
 Para ser mais preciso, em um teste de duas amostras *t* para a diferença em médias entre duas variantes, há um mapeamento 1:1 entre o valor *p* para este teste e o intervalo de confiança para a diferença em médias. Por analogia, um valor de *p* válido a qualquer momento pode ser obtido invertendo a sequência de confiança (válida a qualquer momento) para o estimador de efeito médio de tratamento:
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 7%
@@ -23,9 +23,9 @@ ht-degree: 7%
 
 Os Relatórios de canal são uma ferramenta poderosa que fornece uma visão geral abrangente das métricas de tráfego e engajamento em um relatório unificado para cada canal, englobando todas as ações de todas as campanhas e Jornadas. Ele é dividido em widgets diferentes, cada um deles fornecendo uma visualização específica do desempenho da sua campanha ou jornada.
 
-Os Relatórios de canal são totalmente personalizáveis, então você pode redimensionar ou remover widgets para criar um painel que atenda às suas necessidades específicas. Você também pode exportar os dados do relatório para um PDF ou arquivo CSV para análise adicional.
+Os Relatórios de canal são totalmente personalizáveis, então você pode redimensionar ou remover widgets para criar um painel que atenda às suas necessidades específicas. Você também pode exportar os dados do relatório para um arquivo PDF ou CSV para análise adicional.
 
-Saiba mais sobre as diferentes métricas e widgets disponíveis para os Relatórios de canal nesta [página](channel-report.md).
+Saiba mais sobre as diferentes métricas e widgets disponíveis para os Relatórios de canal em [esta página](channel-report.md).
 
 ## Antes de começar {#manage-reports-prereq}
 
@@ -89,13 +89,13 @@ Para acessar e gerenciar os relatórios de canal, siga estas etapas:
 
 >[!BEGINTABS]
 
->[!TAB Exportar seu relatório como um arquivo PDF]
+>[!TAB Exportar seu relatório como um arquivo do PDF]
 
-1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo de PDF]**.
+1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo do PDF]**.
 
 1. Na janela Imprimir, configure o documento conforme necessário. Observe que as opções podem variar dependendo do navegador.
 
-1. Escolha imprimir ou salvar seu relatório como PDF.
+1. Opte por imprimir ou salvar seu relatório como PDF.
 
 1. Localize a pasta onde deseja salvar o arquivo, renomeie-a se necessário e clique em Salvar.
 

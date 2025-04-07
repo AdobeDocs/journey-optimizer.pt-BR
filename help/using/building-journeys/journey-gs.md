@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 25%
+ht-degree: 24%
 
 ---
 
@@ -64,7 +64,7 @@ Como engenheiro de dados, as etapas para configurar suas jornadas, incluindo Fon
 
 >[!NOTE]
 >
->Medidas de proteção e limitações da jornada estão detalhadas [nesta página](../start/guardrails.md)
+>As medidas de proteção e limitações de jornada estão detalhadas nesta [página](../start/guardrails.md)
 
 ## Criar uma jornada {#jo-build}
 

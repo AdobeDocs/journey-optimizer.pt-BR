@@ -9,7 +9,7 @@ role: User
 level: Experienced
 keywords: conteúdo, experimento, estatístico, cálculo
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Este artigo descreve os cálculos estatísticos usados quando você executa expe
 
 A experimentação usa [métodos estatísticos avançados](../content-management/assets/confidence_sequence_technical_details.pdf) para calcular **Sequências de confiança** e **Confiança**, que permitem executar os experimentos enquanto for necessário e monitorar os resultados continuamente.
 
-Este artigo descreve como a experimentação funciona e fornece uma introdução intuitiva para a Adobe **Sequências de confiança válidas a qualquer momento**.
+Este artigo descreve como a experimentação funciona e fornece uma introdução intuitiva às **Sequências de confiança válidas a qualquer momento** da Adobe.
 
 Para usuários especialistas, os detalhes técnicos e as referências estão detalhados em [esta página](../content-management/assets/confidence_sequence_technical_details.pdf).
 
@@ -50,7 +50,7 @@ A tabela acima ilustra os diferentes tipos de erros:
 
 A maioria das técnicas de inferência estatística exigirá que você corrija o tamanho da amostra antecipadamente, com base no tamanho do efeito que deseja determinar, bem como na tolerância a erros (`\alpha` e `\beta`) antecipadamente. No entanto, a metodologia da Adobe Journey Optimizer foi projetada para permitir que você verifique continuamente seus resultados, para qualquer tamanho de amostra.
 
-## Metodologia Estatística Do Adobe: Sequências De Confiança Válidas A Qualquer Momento
+## Metodologia Estatística da Adobe: Sequências de confiança válidas a qualquer momento
 
 Uma **Sequência de confiança** é um análogo sequencial de um **Intervalo de confiança**, por exemplo, se você repetir seus experimentos cem vezes e calcular uma estimativa da métrica média e sua sequência associada de 95% de confiança para cada novo usuário que entra no experimento. Uma sequência de confiança de 95% incluirá o valor real da métrica em 95 dos 100 experimentos executados. Um intervalo de confiança de 95% só pode ser calculado uma vez por experimento a fim de dar a mesma garantia de cobertura de 95%; não com cada novo usuário. As Sequências de confiança permitem, portanto, monitorar continuamente os experimentos sem aumentar as taxas de erro de falso positivo.
 
@@ -60,7 +60,7 @@ A diferença entre as sequências de confiança e os intervalos de confiança pa
 
 **As sequências de confiança** deslocam o foco das experimentos para a estimativa em vez do teste de hipótese, ou seja, focalizando na estimativa precisa da diferença nas médias entre tratamentos, em vez de rejeitar ou não uma hipótese nula com base em um limite de significância estatística.
 
-No entanto, de maneira semelhante à relação entre `p-values`, ou **Confiança**, e **Intervalos de Confiança**, também há uma relação entre **Sequências de Confiança** e qualquer `p-values` válido ou qualquer Confiança válida. Dada a familiaridade de quantidades como a Confiança, o Adobe fornece as **Sequências de confiança** e qualquer Confiança válida em seus relatórios.
+No entanto, de maneira semelhante à relação entre `p-values`, ou **Confiança**, e **Intervalos de Confiança**, também há uma relação entre **Sequências de Confiança** e qualquer `p-values` válido ou qualquer Confiança válida. Dada a familiaridade de quantidades como a Confiança, a Adobe fornece as **Sequências de confiança** e, a qualquer momento, a Confiança válida em seus relatórios.
 
 Os fundamentos teóricos de **Sequências de confiança** vêm do estudo de sequências de variáveis aleatórias conhecidas como martingales. Alguns resultados principais foram incluídos abaixo para leitores especialistas, mas os argumentos dos profissionais são claros:
 
@@ -74,7 +74,7 @@ Os fundamentos teóricos de **Sequências de confiança** vêm do estudo de sequ
 
 ![](assets/experimentation_report_2.png)
 
-Toda vez que você visualiza o relatório de experimentação, o Adobe analisa os dados acumulados no experimento até o momento e declara um experimento como &quot;Conclusivo&quot; quando a confiança válida a qualquer momento ultrapassa um limite de 95% para pelo menos um dos tratamentos.
+Toda vez que você visualiza o relatório de experimentação, a Adobe analisa os dados acumulados no experimento até o momento e declara um experimento como &quot;Conclusivo&quot; quando a confiança válida a qualquer momento ultrapassa um limite de 95% para pelo menos um dos tratamentos.
 
 Neste ponto, o tratamento que está tendo o melhor desempenho (com base na taxa de conversão ou no valor da métrica normalizada do perfil) será destacado na parte superior da tela do relatório e indicado com uma estrela no relatório tabular. Somente tratamentos que tenham uma confiança maior que 95%, juntamente com a linha de base, são considerados nesta determinação.
 

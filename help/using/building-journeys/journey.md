@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -24,13 +24,13 @@ Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em temp
 
 * Aproveite **dados contextuais** de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros.
 
-* Use as **ações incorporadas** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
+* Use as **ações integradas** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
 
 * Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
 
 O designer de jornadas do Journey Optimizer oferece todos os recursos que profissionais de marketing e jornadas precisam para orquestrar jornadas personalizadas e de várias etapas em todos os canais. Isso inclui uma tela intuitiva com interface de arrastar e soltar para criar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos de negócios.
 
-Aprenda como criar e projetar sua primeira jornada [nesta página](journey-gs.md).
+Saiba como criar sua primeira jornada em [esta página](journey-gs.md).
 
 ➡️ [Conheça o Journey Optimizer no vídeo](#video)
 
@@ -50,7 +50,7 @@ Saiba como criar jornadas nos seguintes casos de uso completos:
 
 >[!NOTE]
 >
->As medidas de proteção e limitações da jornada estão detalhadas [nesta página](../start/guardrails.md)
+>As medidas de proteção e limitações de jornada estão detalhadas nesta [página](../start/guardrails.md)
 
 ## Vídeo tutorial {#video}
 

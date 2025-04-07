@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1687'
 ht-degree: 11%
@@ -46,7 +46,7 @@ Vamos ver como exemplo o público-alvo &quot;Abertura e finalização do aplicat
 * Os públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou resultantes de [fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md) podem ser selecionados na atividade **Ler Público**. Estes públicos-alvo não estão disponíveis na atividade **Qualificação de público-alvo**.
 
 
-As medidas de proteção relacionadas à atividade **Ler público** estão listadas em [esta página](../start/guardrails.md#read-segment-g).
+As medidas de proteção relacionadas à atividade **Ler Público** estão listadas em [esta página](../start/guardrails.md#read-segment-g).
 
 
 ## Configurar a atividade {#configuring-segment-trigger-activity}

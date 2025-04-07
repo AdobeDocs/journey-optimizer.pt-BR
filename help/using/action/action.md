@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: ações, jornada, mensagens, envio, conexões
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 25%
@@ -38,7 +38,7 @@ As ações são conexões através das quais você fornece experiências persona
 >
 >A configuração de ações personalizadas deve ser executada por um **usuário técnico**.
 
-As ações personalizadas são ações adicionais definidas por usuários técnicos e disponibilizadas aos profissionais de marketing: uma vez configuradas, elas são exibidas na paleta esquerda da sua jornada, na categoria **[!UICONTROL Ação]**. Saiba mais [nesta página](../building-journeys/about-journey-activities.md#action-activities).
+As ações personalizadas são ações adicionais definidas por usuários técnicos e disponibilizadas aos profissionais de marketing: uma vez configuradas, elas são exibidas na paleta esquerda da sua jornada, na categoria **[!UICONTROL Ação]**. Saiba mais sobre [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
 Para exibir a lista de ações ou configurar uma nova ação, selecione **[!UICONTROL Configurações]** na seção de menu ADMINISTRAÇÃO. Na seção **[!UICONTROL Ações]**, clique em **[!UICONTROL Gerenciar]**. A lista de ações é exibida. Consulte [esta página](../start/user-interface.md) para obter mais informações sobre a interface.
 

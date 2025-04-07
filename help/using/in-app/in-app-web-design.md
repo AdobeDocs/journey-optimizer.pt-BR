@@ -8,7 +8,7 @@ level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 hide: true
 hidefromtoc: true
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 7%
@@ -33,7 +33,7 @@ Para editar o conteúdo da mensagem no aplicativo, clique no botão **[!UICONTRO
 
 O botão de alternância **[!UICONTROL Formatação avançada]** ativa opções adicionais para personalizar a experiência.
 
-Depois que a mensagem no aplicativo for criada e o conteúdo definido e personalizado, você poderá revisá-la e ativá-la. As notificações serão enviadas de acordo com o agendamento da campanha. Saiba mais [nesta página](send-in-app.md).
+Depois que a mensagem no aplicativo for criada e o conteúdo definido e personalizado, você poderá revisá-la e ativá-la. As notificações serão enviadas de acordo com o agendamento da campanha. Saiba mais sobre [esta página](send-in-app.md).
 
 ## Layout da mensagem {#message-layout}
 
@@ -53,13 +53,13 @@ Na seção **[!UICONTROL Layout da Mensagem]**, selecione uma das quatro opçõe
 
   Você só pode adicionar um **[!UICONTROL Cabeçalho]** e um **[!UICONTROL Corpo]** à sua mensagem.
 
-* **[!UICONTROL Personalizado]**: o modo de mensagem personalizada permite importar e editar diretamente uma de suas mensagens HTML pré-configuradas.
+* **[!UICONTROL Personalizado]**: o modo de mensagem personalizada permite importar e editar diretamente uma de suas mensagens pré-configuradas do HTML.
 
-   * Selecione **[!UICONTROL Compor]** para inserir ou colar seu código de HTML bruto.
+   * Selecione **[!UICONTROL Compor]** para inserir ou colar seu código HTML bruto.
 
      Use o painel esquerdo para aproveitar os recursos de personalização do Journey Optimizer. Para obter mais informações, consulte [esta seção](../personalization/personalize.md).
 
-   * Selecione **[!UICONTROL Importar]** para importar o arquivo HTML ou .zip que contenha o conteúdo HTML.
+   * Selecione **[!UICONTROL Importar]** para importar o arquivo HTML ou .zip que contenha o conteúdo do HTML.
 
 ## Guia Conteúdo {#content-tab}
 

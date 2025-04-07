@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -75,7 +75,7 @@ O tipo de jornada depende das atividades usadas nessa jornada. Pode ser:
 * **[!UICONTROL Ler público-alvo]** - Nas jornadas Ler público-alvo, todos os indivíduos no público-alvo entram na jornada e recebem as mensagens incluídas na jornada.  [Saiba mais](read-audience.md).
 
 
-Saiba mais sobre os tipos de jornada e o gerenciamento de entradas associado em [esta página](entry-management.md).
+Saiba mais sobre os tipos de jornadas e o gerenciamento de entradas associado nesta [página](entry-management.md).
 
 ## Jornada status {#journey-statuses}
 
@@ -128,7 +128,7 @@ Ao publicar uma nova versão de uma jornada, a versão anterior encerra automati
 
 >[!NOTE]
 >
->Medidas de proteção e limitações específicas se aplicam ao controle de versão das jornadas. Saiba mais [nesta página](../start/guardrails.md#journey-versions-journey-versions-g).
+>Medidas de proteção e limitações específicas se aplicam ao controle de versão das jornadas. Saiba mais sobre [esta página](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Duplicar uma jornada {#duplicate-a-journey}
 

@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -112,7 +112,7 @@ A sintaxe `{{context.<contextualAttribute>}}` está mapeada somente para um tipo
 >
 >Os atributos contextuais passados para a solicitação não podem exceder 200 kb e são sempre considerados do tipo string.
 >
->A sintaxe `context.system` está restrita somente ao uso interno de Adobe e não deve ser usada para transmitir atributos contextuais.
+>A sintaxe `context.system` está restrita somente ao uso interno da Adobe e não deve ser usada para transmitir atributos contextuais.
 
 Observe que, por enquanto, nenhum atributo contextual está disponível para uso no menu do painel esquerdo. Os atributos devem ser digitados diretamente na sua expressão de personalização, sem que nenhuma verificação seja executada por [!DNL Journey Optimizer].
 

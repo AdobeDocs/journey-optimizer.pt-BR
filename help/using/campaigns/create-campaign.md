@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 21%
@@ -20,7 +20,7 @@ ht-degree: 21%
 
 Para criar uma nova campanha, navegue até o menu **[!UICONTROL Campanhas]** no painel esquerdo e clique em **[!UICONTROL Criar campanha]**. Você também pode duplicar uma campanha ao vivo existente para criar uma nova. [Saiba como](modify-stop-campaign.md#duplicate).
 
-Antes de começar, leia os pré-requisitos da campanha em [esta página](get-started-with-campaigns.md#before-starting-campaign-prerequisites).
+Antes de começar, leia os pré-requisitos da campanha nesta [página](get-started-with-campaigns.md#before-starting-campaign-prerequisites).
 
 ## Escolha o tipo de campanha {#campaigntype}
 

@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '767'
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ Saiba mais sobre o Journey Optimizer + Adobe Workfront [na documentação do Ado
 
 Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que as jornadas enviem chamadas de API para um sistema de terceiros, use ações personalizadas para se conectar à sua jornada. Por exemplo, você pode conectar aos seguintes sistemas com ações personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase etc.
 
-As ações personalizadas são ações adicionais definidas por usuários técnicos e disponibilizadas aos profissionais de marketing. Uma vez configuradas, elas são exibidas na paleta esquerda da jornada na categoria **[!UICONTROL Ação]**. Saiba mais [nesta página](../building-journeys/about-journey-activities.md#action-activities).
+As ações personalizadas são ações adicionais definidas por usuários técnicos e disponibilizadas aos profissionais de marketing. Uma vez configuradas, elas são exibidas na paleta esquerda da jornada na categoria **[!UICONTROL Ação]**. Saiba mais sobre [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
 Saiba mais sobre [Ações personalizadas](../action/about-custom-action-configuration.md).
 
