@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 1a4c452adeb6bca876d5c108065e0219353a2540
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1362'
 ht-degree: 17%
 
 ---
@@ -107,7 +107,7 @@ Use a seção **[!UICONTROL Dados personalizados]** para adicionar pares de valo
 >title="Configurar dados personalizados para a notificação por push."
 >abstract="Adicione variáveis personalizadas ao conteúdo, dependendo da configuração do aplicativo móvel."
 
-Na seção **[!UICONTROL Dados personalizados]**, você pode adicionar variáveis personalizadas à carga, dependendo da configuração do seu aplicativo móvel. Para obter mais informações sobre como configurar notificações por push no Adobe Experience Platform e no Adobe Launch, consulte [esta seção](push-gs.md)
+Na seção **[!UICONTROL Dados personalizados]**, você pode adicionar variáveis personalizadas à carga, dependendo da configuração do seu aplicativo móvel. Para obter mais informações sobre como configurar notificações por push no Adobe Experience Platform, consulte [esta seção](push-gs.md)
 
 ## Opções avançadas {#advanced-options-push}
 
