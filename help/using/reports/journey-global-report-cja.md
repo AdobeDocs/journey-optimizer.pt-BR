@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 1%
@@ -35,7 +35,7 @@ O relatório **[!UICONTROL Jornada]** fornece uma visão clara dos dados de rast
 
 Os Indicadores Principais de Desempenho (KPIs) da **[!UICONTROL Jornada]** funcionam como um painel abrangente, fornecendo uma análise das métricas essenciais associadas à sua jornada. Isso inclui detalhes como a contagem de perfis inseridos e instâncias de jornadas individuais com falha, oferecendo um insight abrangente sobre a eficácia e o nível de engajamento da jornada.
 
-+++ Saiba mais sobre métricas de KPIs do Jornada
++++ Saiba mais sobre as métricas de KPIs do Jornada
 
 * **[!UICONTROL Envolvimento da Jornada]**: número total de indivíduos únicos que receberam mensagens enviadas por meio da jornada, representando perfis distintos que atingiram um ponto de ação designado na jornada.
 
@@ -51,7 +51,7 @@ Os Indicadores Principais de Desempenho (KPIs) da **[!UICONTROL Jornada]** funci
 
 A tabela **[!UICONTROL Estatísticas de Jornada]** oferece um resumo detalhado de dados cruciais sobre suas jornadas. Ele inclui métricas principais como o número de falhas e entradas bem-sucedidas, fornecendo insights valiosos sobre o desempenho e o alcance de seus emails e jornadas.
 
-+++ Saiba mais sobre métricas de Estatísticas do Jornada
++++ Saiba mais sobre as métricas de Estatísticas do Jornada
 
 * **[!UICONTROL Exclusão de Jornada]**: número total de indivíduos que foram excluídos da jornada devido a critérios ou regras de supressão predefinidos.
 
@@ -142,7 +142,7 @@ O gráfico **[!UICONTROL Desempenho ao longo do tempo]** permite identificar e a
 
 A tabela **[!UICONTROL Visão geral do evento]** mostra quantos perfis atendem aos seus critérios de evento ao longo do tempo. Essa ferramenta ajuda a identificar padrões nas taxas de qualificação para refinar sua estratégia de eventos.
 
-+++ Saiba mais sobre métricas de Estatísticas do Jornada
++++ Saiba mais sobre as métricas de Estatísticas do Jornada
 
 * **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para seus eventos.
 
