@@ -9,21 +9,27 @@ role: User
 level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 17%
+source-wordcount: '1541'
+ht-degree: 14%
 
 ---
 
-# Atividade de condição{#condition-activity}
+# Atividade de condição {#condition-activity}
+
+## Adicionar uma atividade de condição {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Atividade de condição"
->abstract="Essa atividade permite definir como a pessoa fluirá na jornada. Vários caminhos serão criados com base em vários critérios. Você também pode criar um caminho alternativo no caso de tempo limite ou erro."
+>abstract="A atividade **Condição** permite definir como as pessoas avançam pela sua jornada criando vários caminhos com base em critérios específicos. Você também pode configurar um caminho alternativo para lidar com tempos limite ou erros, garantindo uma experiência contínua."
 
-Estes tipos de condições estão disponíveis:
+A atividade **Condição** permite definir como as pessoas avançam pela sua jornada criando vários caminhos com base em critérios específicos. Você também pode configurar um caminho alternativo para lidar com tempos limite ou erros, garantindo uma experiência contínua.
+
+![](assets/journey49.png)
+
+Os seguintes tipos de condições estão disponíveis:
 
 * [Condição de Source de Dados](#data_source_condition)
 * [Condição de tempo](#time_condition)
@@ -31,9 +37,9 @@ Estes tipos de condições estão disponíveis:
 * [Condição de data](#date_condition)
 * [Limite de perfil](#profile_cap)
 
-![](assets/journey49.png)
+Você também pode usar um público-alvo em uma condição de jornada. [Saiba mais](#using-a-segment)
 
-## Sobre a atividade Condição {#about_condition}
+## Adicionar e gerenciar caminhos de condição {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
@@ -48,7 +54,7 @@ Clique em **[!UICONTROL Adicionar um caminho]** se desejar definir várias condi
 
 Observe que o design das jornadas tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho qualificado é executado. Isso significa que é possível variar a priorização de caminhos colocando-os um acima ou abaixo do outro.
 
-Por exemplo, vamos pegar o exemplo de uma condição de primeiro caminho &quot;A pessoa é um VIP&quot; e uma condição de segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que atende a ambas as condições (um homem que é um VIP) passar por essa etapa, o primeiro caminho será escolhido, mesmo que essa pessoa também seja elegível para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
+Vejamos o exemplo da condição de um primeiro caminho &quot;A pessoa é um VIP&quot; e a condição de um segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que atende a ambas as condições (um homem que é um VIP) passar por essa etapa, o primeiro caminho será escolhido, mesmo que essa pessoa também seja elegível para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
 
 ![](assets/journey48.png)
 
@@ -102,7 +108,7 @@ Três opções de filtragem de tempo estão disponíveis:
 
 ## Divisão de porcentagem {#percentage_split}
 
-Essa opção permite dividir aleatoriamente o público para definir uma ação diferente para cada grupo. Defina o número de divisões e a repartição para cada caminho. O cálculo dividido é estatístico, pois o sistema não pode prever quantas pessoas fluirão nessa atividade da jornada. Como resultado, a divisão tem uma margem de erro muito baixa. Esta função é baseada em um mecanismo aleatório Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Essa opção permite dividir aleatoriamente o público para definir uma ação diferente para cada grupo. Defina o número de divisões e a repartição para cada caminho. O cálculo dividido é estatístico, pois o sistema não pode prever quantas pessoas fluirão nessa atividade da jornada. Como resultado, a divisão tem uma margem de erro muito baixa. Esta função é baseada em um mecanismo aleatório Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}).
 
 No modo de teste, ao atingir uma divisão, a ramificação superior é sempre escolhida. É possível reorganizar a posição das ramificações de divisão se quiser que o teste escolha um caminho diferente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
