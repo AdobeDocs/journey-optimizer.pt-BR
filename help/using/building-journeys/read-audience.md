@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1786'
 ht-degree: 11%
 
 ---
@@ -24,6 +24,41 @@ ht-degree: 11%
 >id="ajo_journey_read_segment"
 >title="Atividade Ler público-alvo"
 >abstract="A atividade Ler público-alvo permite que todas as pessoas pertencentes a um público-alvo da Adobe Experience Platform entrem em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="Data/hora de início"
+>abstract="Defina a data e a hora em que deseja acionar essa jornada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="Repetir até"
+>abstract="Definir a data de término de recorrentes."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="Repetir a cada"
+>abstract="Defina uma frequência de scheduler recorrente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="Leitura incremental"
+>abstract="Permitir apenas novos perfis desde a última leitura na jornada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="Forçar reentrada"
+>abstract="Solte todos os participantes da jornada antes de cada público ler."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="Sincronizar a execução do jornada com a exportação de público"
+>abstract="Ative essa opção para acionar a jornada assim que uma nova exportação do público-alvo estiver disponível."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="Sincronizar a execução do jornada com a exportação de público"
+>abstract="Especifique a duração que a jornada aguardará para garantir que uma nova exportação do público-alvo esteja disponível."
 
 Use a atividade **Ler público-alvo** para fazer com que todos os indivíduos de um público-alvo entrem na jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 
@@ -46,7 +81,7 @@ Vamos ver como exemplo o público-alvo &quot;Abertura e finalização do aplicat
 * Os públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou resultantes de [fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md) podem ser selecionados na atividade **Ler Público**. Estes públicos-alvo não estão disponíveis na atividade **Qualificação de público-alvo**.
 
 
-As medidas de proteção relacionadas à atividade **Ler Público** estão listadas em [esta página](../start/guardrails.md#read-segment-g).
+As medidas de proteção relacionadas à atividade **Ler público** estão listadas em [esta página](../start/guardrails.md#read-segment-g).
 
 
 ## Configurar a atividade {#configuring-segment-trigger-activity}
@@ -63,7 +98,7 @@ As etapas para configurar a atividade Ler público-alvo são as seguintes:
 
    >[!NOTE]
    >
-   >Além disso, você também pode direcionar públicos-alvo da Adobe Experience Platform criados com o uso de [composições de público-alvo](../audience/get-started-audience-orchestration.md) ou [carregados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+   >Além disso, você também pode direcionar públicos-alvo da Adobe Experience Platform criados com o uso de [composições de público-alvo](../audience/get-started-audience-orchestration.md) ou [carregadas de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Observe que é possível personalizar as colunas exibidas na lista e classificá-las.
 
