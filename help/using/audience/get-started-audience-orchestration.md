@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introdução à composição de público-alvo
-description: Saiba mais sobre a composição de público-alvo
+description: Saiba mais sobre a composição de público
 feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
@@ -112,7 +112,7 @@ Depois de concluído, os **públicos-alvo resultantes** são salvos na Adobe Exp
 >
 >* O uso de públicos-alvo e atributos da composição de público-alvo está indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 >
->* Os atributos de enriquecimento ainda não estão integrados ao serviço de aplicação de políticas. Portanto, quaisquer rótulos de uso de dados que você aplicar aos atributos de enriquecimento não serão aplicados em campanhas ou jornadas do Journey Optimizer.
+>* Enrichment attributes are not yet integrated with the policy enforcement service. Portanto, quaisquer rótulos de uso de dados que você aplicar aos atributos de enriquecimento não serão aplicados em campanhas ou jornadas do Journey Optimizer.
 
 A composição de público-alvo é acessível no menu **[!UICONTROL Públicos-alvo]** do Adobe Journey Optimizer:
 
