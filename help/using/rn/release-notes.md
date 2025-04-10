@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aa5170ec5d195ec22684d748cd3520dfa8400fed
+source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 71%
+source-wordcount: '867'
+ht-degree: 69%
 
 ---
 
@@ -24,8 +24,28 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 ## Atualizações de abril de 2025
 
-### Melhorias {#25-04-improv}
+### Novos recursos {#25-04-feature}
 
+<table>
+<thead>
+<tr>
+<th><strong>Métricas de jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As métricas de Jornada agora estão disponíveis, permitindo medir o impacto das suas atividades nas métricas principais da sua empresa e fornecer insights mais claros sobre o seu desempenho.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/success-metrics.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 9 de abril de 2025</p>
+</br>
+<img src="assets/do-not-localize/success-metric.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Melhorias {#25-04-improv}
 
 * **Ferramentas de sandbox** - Data de disponibilidade: 3 de abril de 2025
 

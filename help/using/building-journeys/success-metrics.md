@@ -8,17 +8,15 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
-hide: true
-hidefromtoc: true
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Configurar e rastrear sua métrica de jornada {#success-metrics}
+# Configurar e rastrear a métrica da jornada {#success-metrics}
 
 Com as métricas do jornada, você pode medir efetivamente o impacto das atividades rastreando o desempenho em relação às métricas predefinidas.
 Ao rastrear essas métricas, você pode ver o desempenho da sua jornada, identificar áreas que precisam ser melhoradas e tomar decisões conscientes para aprimorar o engajamento do cliente.
