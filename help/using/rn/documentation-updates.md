@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * A seção sobre inserção de links e habilitação do rastreamento em uma mensagem de email foi atualizada e reorganizada. [Leia mais](../email/message-tracking.md)
 * A seção sobre os recursos de personalização no Adobe Journey Optimizer foi reorganizada e aprimorada. [Leia mais](../personalization/personalize.md)
 * A API da gestão de decisões para listagem de ofertas personalizadas foi atualizada com uma amostra para executar a paginação se houver várias ofertas personalizadas ausentes da resposta. [Leia mais](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-* Uma nova página que reúne todas as informações sobre o recurso de cancelamento de inscrição da lista foi criada para maior clareza. [Leia mais](../email/list-unsubscribe.md)
-* A seção Limite de frequência foi atualizada com informações sobre como o contador de limite de frequência é atualizado para as APIs de decisão e decisão em lote, além da API de decisão do Edge. [Leia mais](../offers/offer-library/add-constraints.md#frequency-capping)
+* Criamos uma nova página que reúne todas as informações sobre o recurso de cancelamento de assinatura na lista para oferecer mais clareza. [Leia mais](../email/list-unsubscribe.md)
+* A seção Limitação de frequência foi atualizada com informações sobre como o contador de limitação de frequência é atualizado para as APIs de decisão e decisão em massa, além da API de decisão do Edge. [Leia mais](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## Fevereiro de 2025 {#feb-2025}
 

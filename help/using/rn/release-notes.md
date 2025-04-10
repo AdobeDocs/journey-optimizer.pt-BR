@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 61%
+ht-degree: 75%
 
 ---
 
@@ -37,11 +37,11 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 * **Gerenciamento de conteúdo** - Data de disponibilidade: 2 de abril de 2025
 
-  Para gerenciar facilmente seus modelos e fragmentos de conteúdo, agora é possível usar pastas para organizá-los com mais eficiência em uma hierarquia estruturada. Saiba mais nas seções [Modelos de conteúdo](../content-management/access-content-templates.md#folders) e [Fragmentos](../content-management/manage-fragments.md#folders).
+  Para gerenciar facilmente seus modelos e fragmentos de conteúdo, agora é possível usar pastas para organizá-los com mais eficiência em uma hierarquia estruturada. Saiba mais nas seções [Modelos de conteúdo](../content-management/access-content-templates.md#folders) e [Fragmentos](../content-management/manage-fragments.md#folders).
 
   >[!AVAILABILITY]
   >
-  >Esse aprimoramento só está disponível para algumas organizações (disponibilidade limitada).
+  >Esta melhoria está disponível apenas para um conjunto de organizações (disponibilidade limitada).
 
 * **Email Designer** - Data de disponibilidade: 1 de abril de 2025
 
@@ -196,17 +196,17 @@ Para obter mais informações, consulte a [documentação detalhada](../test-app
 
 **Configuração**
 
-* Agora é possível atribuir tags unificadas da Adobe Experience Platform às configurações de canais. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas. [Saiba mais](../configuration/channel-surfaces.md#channel-config-tags)
+* Agora é possível atribuir tags unificadas da Adobe Experience Platform às configurações de canais. Isso permite classificá-las facilmente e melhorar a pesquisa e a navegação em todas as listas. [Saiba mais](../configuration/channel-surfaces.md#channel-config-tags)
 
-* Ao configurar ou editar um subdomínio de email no Journey Optimizer, agora é possível optar por gerenciar o registro associado do DMARC por conta própria, se disponível no domínio principal. [Saiba mais](../configuration/dmarc-record.md#set-up-dmarc)
+* Ao configurar ou editar um subdomínio de email no Journey Optimizer, agora você pode optar por gerenciar o registro DMARC associado por conta própria, se disponível no domínio principal. [Saiba mais](../configuration/dmarc-record.md#set-up-dmarc)
 
 **Regras de negócios**
 
 Agora você pode usar o limite de frequência diário em jornadas e campanhas com segmentação em lote. Para garantir a precisão das regras diárias de limite de frequência, escolha o namespace de prioridade mais alta ao criar uma campanha ou jornada. Saiba mais sobre a prioridade de namespace no [guia do Platform Identity Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
-Lembrando que o limite diário de frequência em conjuntos de regras só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+Como lembrete, o limite de frequência diária em conjuntos de regras está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
-Para obter mais informações sobre regras de negócios, consulte a [documentação detalhada](../configuration/rule-sets.md).
+Para obter mais informações sobre regras de negócios, consulte a [documentação detalhada](../configuration/rule-sets.md).
 
 <!--**Deliverability**
 
