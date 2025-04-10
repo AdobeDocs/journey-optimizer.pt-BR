@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor de expressão, dados, jornada
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 63%
+source-wordcount: '692'
+ht-degree: 60%
 
 ---
 
@@ -47,9 +47,9 @@ Quando possível, você pode alternar entre os dois modos usando o botão **[!UI
 
 >[!NOTE]
 >
->As condições podem ser definidas no editor de expressão simples ou avançado. Eles sempre retornam um tipo booleano.
+>* As condições podem ser definidas no editor de expressão simples ou avançado. Eles sempre retornam um tipo booleano.
 >
->Parâmetros de ações podem ser definidos selecionando campos ou por meio do editor de expressão avançado. Eles retornam um tipo de dados específico de acordo com a expressão.
+>* Parâmetros de ações podem ser definidos selecionando campos ou por meio do editor de expressão avançado. Eles retornam um tipo de dados específico de acordo com a expressão.
 
 Você pode acessar o editor de expressão avançado de diferentes maneiras:
 
@@ -84,9 +84,15 @@ Um mecanismo de validação de sintaxe verifica a integridade do código. Erros 
 
 ![](../assets/journey69.png)
 
+
+>[!TIP]
+>
+>Ao criar condições no editor de expressão avançado, certifique-se de que suas expressões não contenham caracteres ocultos ou não imprimíveis. Além disso, use expressões de linha única para evitar erros de análise.
+
+
 **Necessidade de parâmetros ao criar condições com o editor de expressão avançado**
 
-Se você selecionar um campo de uma fonte externa de dados que requer um parâmetro para ser chamado (consulte [esta página](../../datasource/external-data-sources.md)), uma nova guia aparecerá à direita para permitir a especificação desse parâmetro. O valor do parâmetro pode vir dos eventos posicionados na jornada ou na fonte de dados Experience Platform (e não de outras fontes de dados externas). Por exemplo, em uma fonte de dados relacionada ao clima, um parâmetro frequentemente usado será &quot;cidade&quot;. Como resultado, você deve selecionar onde deseja obter o parâmetro cidade. As funções também podem ser aplicadas aos parâmetros para executar alterações de formato ou concatenações.
+Se você selecionar um campo de uma fonte externa de dados que requer um parâmetro para ser chamado (consulte [esta página](../../datasource/external-data-sources.md)), uma nova guia aparecerá à direita para permitir a especificação desse parâmetro. O valor do parâmetro pode vir dos eventos posicionados na jornada ou na fonte de dados do Experience Platform (e não de outras fontes de dados externas). Por exemplo, em uma fonte de dados relacionada ao clima, um parâmetro frequentemente usado será &quot;cidade&quot;. Como resultado, você deve selecionar onde deseja obter o parâmetro cidade. As funções também podem ser aplicadas aos parâmetros para executar alterações de formato ou concatenações.
 
 ![](../assets/journeyuc2_19.png)
 
