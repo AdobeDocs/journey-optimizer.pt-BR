@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience, função, expressão, jornada
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 6%
+source-wordcount: '231'
+ht-degree: 5%
 
 ---
 
@@ -64,3 +64,8 @@ Retorna um valor booleano.
 Explicação:
 
 A função retornará **[!UICONTROL true]** se o indivíduo na instância do jornada fizer parte do público-alvo da Adobe Experience Platform chamado &quot;homens acima de 50&quot;, caso contrário **[!UICONTROL false]**.
+
+
+>[!CAUTION]
+>
+>A alteração do nome de um público-alvo existente não atualiza automaticamente nenhuma referência a esse público-alvo nas expressões do jornada. Se o nó de condição usar inAudience(&#39;oldAudienceName&#39;), você deverá editar manualmente a expressão para usar o novo nome. Se isso não for feito, a condição de jornada será interrompida.
