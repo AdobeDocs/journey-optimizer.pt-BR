@@ -19,12 +19,12 @@ ht-degree: 95%
 
 Para acessar o  [!DNL Adobe Journey Optimizer], conecte-se à [Adobe Experience Cloud](https://experience.adobe.com) com sua Adobe ID e selecione [!DNL Journey Optimizer].
 
-Os principais conceitos de navegação nas interfaces comuns à Adobe Experience Platform. Consulte a [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=pt-BR#adobe-experience-platform-ui-guide){target="_blank"} para obter mais detalhes.
+Os principais conceitos de navegação nas interfaces comuns à Adobe Experience Platform. Consulte a [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=pt-BR#adobe-experience-platform-ui-guide) para obter mais detalhes.
 
 
 >[!NOTE]
 >
->* Os componentes e recursos disponíveis em seu ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
+>* Os componentes e recursos disponíveis em seu ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html). Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
 >
 >* Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
 >
@@ -90,7 +90,7 @@ Gerencie seus dados nesta seção.
 
 * **[!UICONTROL Consultas]** - use o serviço de consulta da Adobe Experience Platform para gravar e executar consultas, exibir consultas executadas anteriormente e acessar consultas salvas por usuários em sua organização. [Saiba mais](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoramento]** - use esse menu para monitorar a ingestão de dados na interface da Adobe Experience Platform. Saiba mais em [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=pt-BR){target="_blank"}
+* **[!UICONTROL Monitoramento]** - use esse menu para monitorar a ingestão de dados na interface da Adobe Experience Platform. Saiba mais em [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=pt-BR)
 
 ### [!UICONTROL CONEXÕES] {#left-nav-connections}
 

@@ -62,7 +62,7 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="Critérios de avaliação"
->abstract="Os critérios de avaliação consistem em uma coleção de ofertas associada a uma restrição de qualificação e um método de classificação para determinar as ofertas que aparecerão no posicionamento. A sequência dos critérios de avaliação determina qual coleção será avaliada primeiro. É necessário pelo menos um critério de avaliação."
+>abstract="Os critérios de avaliação consistem em uma coleção de ofertas associada a uma restrição de elegibilidade e um método de classificação para determinar as ofertas que aparecerão no posicionamento. A sequência dos critérios de avaliação determina qual coleção será avaliada primeiro. É necessário pelo menos um critério de avaliação."
 
 1. Selecione uma disposição na lista suspensa. Ele será adicionado ao escopo da primeira decisão na sua decisão.
 

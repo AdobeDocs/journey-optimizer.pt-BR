@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -37,7 +37,7 @@ As políticas de aprovação permitem que os administradores estabeleçam um pro
 >[!CONTEXTUALHELP]
 >id="ajo_permissions_approval_policy"
 >title="Nova política de aprovação"
->abstract="Nesta tela, digite o nome e selecione o contexto da política de aprovação e, em seguida, crie as condições para determinar quem pode iniciar a solicitação de aprovação e quem pode validá-la."
+>abstract="Nesta tela, digite o nome e selecione o contexto da política de aprovação; em seguida, crie as condições para determinar quem pode iniciar a solicitação de aprovação e quem pode validar essa solicitação."
 
 Para criar uma política de aprovação, siga estas etapas:
 

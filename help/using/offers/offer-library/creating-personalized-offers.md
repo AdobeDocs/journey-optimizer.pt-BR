@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -32,7 +32,7 @@ A lista de ofertas personalizadas está acessível no menu **[!UICONTROL Ofertas
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
 >title="Detalhes da oferta"
->abstract="Preencha o nome da oferta e suas datas de início e término. Fora dessas datas, a oferta não será selecionada pelo mecanismo de decisão."
+>abstract="Preencha o nome e as datas inicial e final da oferta. Fora dessas datas, a oferta não será selecionada pelo mecanismo de decisão. "
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
@@ -60,7 +60,7 @@ Para criar uma **oferta**, siga estas etapas:
 
    ![](../assets/create_offer.png)
 
-1. Especifique o nome da oferta, bem como a data e a hora de início e término. Fora dessas datas, a oferta não será selecionada pelo mecanismo de decisão.
+1. Especifique o nome da oferta, bem como a data e a hora de início e término. Fora dessas datas, a oferta não será selecionada pelo mecanismo de decisão. 
 
    >[!NOTE]
    >
