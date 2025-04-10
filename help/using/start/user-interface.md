@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
-source-wordcount: '1361'
-ht-degree: 100%
+source-git-commit: 384ec210fa5414966257b26d1d8b2b87ce962d76
+workflow-type: tm+mt
+source-wordcount: '1399'
+ht-degree: 95%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 100%
 
 Para acessar o  [!DNL Adobe Journey Optimizer], conecte-se à [Adobe Experience Cloud](https://experience.adobe.com) com sua Adobe ID e selecione [!DNL Journey Optimizer].
 
-Os principais conceitos de navegação nas interfaces comuns à Adobe Experience Platform. Consulte a [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=pt-BR#adobe-experience-platform-ui-guide) para obter mais detalhes.{target="_blank"}
+Os principais conceitos de navegação nas interfaces comuns à Adobe Experience Platform. Consulte a [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=pt-BR#adobe-experience-platform-ui-guide){target="_blank"} para obter mais detalhes.
 
 
 >[!NOTE]
 >
->* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
+>* Os componentes e recursos disponíveis em seu ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
 >
 >* Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
 >
@@ -90,7 +90,7 @@ Gerencie seus dados nesta seção.
 
 * **[!UICONTROL Consultas]** - use o serviço de consulta da Adobe Experience Platform para gravar e executar consultas, exibir consultas executadas anteriormente e acessar consultas salvas por usuários em sua organização. [Saiba mais](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoramento]** - use esse menu para monitorar a ingestão de dados na interface da Adobe Experience Platform. Saiba mais em [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=pt-BR){target="_blank"}
+* **[!UICONTROL Monitoramento]** - use esse menu para monitorar a ingestão de dados na interface da Adobe Experience Platform. Saiba mais em [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=pt-BR){target="_blank"}
 
 ### [!UICONTROL CONEXÕES] {#left-nav-connections}
 
@@ -248,3 +248,10 @@ Para alterar o idioma:
 >id="ajo_exd_placements"
 >title="Posicionamento"
 >abstract="Um posicionamento determina onde os itens retornados do mecanismo de decisão aparecem em uma mensagem. Você pode acompanhar o desempenho em diferentes posicionamentos nos relatórios."
+
+<!-- Journey Dry Run - DOCAC-12459-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_dry_run"
+>title="Secar sua jornada"
+>abstract="Depois de projetar a jornada, execute um teste para confirmar se ela está funcional e garantir que as etapas estejam corretas. Esse modo de publicação permite que você teste uma jornada sem enviar comunicação para qualquer perfil."
