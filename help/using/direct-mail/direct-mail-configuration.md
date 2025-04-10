@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 23%
+source-wordcount: '1344'
+ht-degree: 22%
 
 ---
 
@@ -24,11 +24,14 @@ Antes de poder gerar esse arquivo, é necessário criar:
 
 1. [Uma configuração de roteamento de arquivo](#file-routing-configuration) para especificar o servidor para o qual o arquivo será exportado e criptografá-lo, se necessário.
 
-   >[!CAUTION]
-   >
-   >Para criar uma configuração de roteamento de arquivo, você precisa ter a permissão interna **[!DNL Manage file routing]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. [Uma configuração de correspondência direta](#direct-mail-configuration) que fará referência à configuração de roteamento de arquivos. Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma configuração de correspondência direta.
+
+
+>[!CAUTION]
+>
+>* Para criar uma configuração de roteamento de arquivo, você precisa ter a permissão interna **[!DNL Manage file routing]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
+>
+>* Os arquivos de correspondência direta são gerados somente no momento da exportação; o sistema não armazena indefinidamente exportações mais antigas. Para um backup mais longo ou permanente, configure uma opção de roteamento de arquivo (armazenamento em nuvem ou SFTP).
 
 ## Configurar o roteamento de arquivos {#file-routing-configuration}
 

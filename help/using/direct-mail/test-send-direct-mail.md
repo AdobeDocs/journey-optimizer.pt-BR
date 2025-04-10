@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ Antes de ativar a campanha de correspondência direta, verifique se a campanha e
 
 Quando a campanha de correspondência direta estiver pronta, clique no botão **[!UICONTROL Ativar]**. Quando a campanha for iniciada, o arquivo de extração será gerado e exportado automaticamente para o servidor especificado em sua [configuração de roteamento de arquivos](../direct-mail/direct-mail-configuration.md).
 
-Depois de enviado, você pode medir o impacto da campanha de correspondência direta nos relatórios do Campaign. Para obter mais informações sobre relatórios, consulte esta seção.
+Depois de enviado, você pode medir o impacto da campanha de correspondência direta nos relatórios do Campaign. Para obter mais informações sobre relatórios de correspondência direta, consulte [esta seção](../reports/campaign-global-report-cja-direct.md).
 
 ## Gerenciar o consentimento para correspondência direta {#dm-consent-management}
 
