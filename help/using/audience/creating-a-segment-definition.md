@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
+source-git-commit: 9fcf0e07edad27ab1eac3c29b26888fd99e26751
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 18%
+source-wordcount: '1017'
+ht-degree: 17%
 
 ---
 
@@ -120,11 +120,7 @@ Se você souber qual método de avaliação deseja usar, selecione-o usando a li
 
 Depois de definir um público-alvo pela primeira vez, os perfis são adicionados ao público-alvo quando se qualificam. O preenchimento retroativo de dados anteriores no público-alvo pode levar até 24 horas. Depois que o público-alvo é preenchido retroativamente, ele será mantido atualizado continuamente e está sempre pronto para o direcionamento.
 
-## [!BADGE Disponibilidade limitada]{type=Informative} Avaliação flexível de público {#flexible}
-
->[!AVAILABILITY]
->
-A avaliação flexível de público-alvo está disponível apenas para um grupo de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+## Avaliação flexível do público {#flexible}
 
 O Adobe Experience Platform Audience Portal permite executar um trabalho de segmentação sob demanda para públicos selecionados, garantindo que você sempre tenha os dados do público mais atualizados antes de direcioná-los para jornadas e campanhas do Journey Optimizer.
 
