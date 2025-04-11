@@ -8,16 +8,26 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: e8e3b002bf614e49c6ef098b6f2475d65bb47112
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 92%
 
 ---
 
 # Atualizações na documentação {#latest-updates}
 
 Esta página lista todas as atualizações mais recentes na documentação do [!DNL Journey Optimizer].
+
+
+## Abril de 2025 {#apr-2025}
+
+* Uma observação foi adicionada na página de configuração de correspondência direta sobre o armazenamento temporário do arquivo de saída. [Leia mais](../direct-mail/direct-mail-configuration.md)
+* Adição de uma dica na seção do editor de expressão avançado do jornada sobre as diretrizes de formato de condição. [Leia mais](../building-journeys/expression/expressionadvanced.md)
+* Foi adicionada uma observação de advertência na seção de função `inAudience` sobre os impactos e as práticas recomendadas ao renomear um público. [Leia mais](../building-journeys/functions/functioninaudience.md)
+* Adição de uma recomendação sobre o uso de palavras-chave nativas ao usar SMS bidirecional. [Leia mais](../sms/sms-opt-out.md)
+* Atualização da página de teste da jornada com uma observação sobre a necessidade de incluir um namespace de identidade no evento usado. [Leia mais](../building-journeys/testing-the-journey.md)
+
 
 ## Março de 2025 {#mar-2025}
 
