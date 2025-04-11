@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdomínio, delegação, domínio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 23%
+source-wordcount: '2039'
+ht-degree: 20%
 
 ---
 
@@ -43,7 +43,7 @@ Você pode delegar totalmente um subdomínio ou criar um subdomínio usando CNAM
 >
 >A configuração de subdomínio é comum a todos os ambientes. Portanto, qualquer modificação em um subdomínio também afetará as sandboxes de produção.
 
-## Delegação total de subdomínio {#full-subdomain-delegation}
+## Delegar totalmente um subdomínio à Adobe {#full-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
@@ -113,7 +113,7 @@ Depois que um subdomínio é delegado à Adobe em [!DNL Journey Optimizer], um r
 >
 >Atualmente, a execução paralela de subdomínios não tem suporte no [!DNL Journey Optimizer]. Se você tentar enviar um subdomínio para delegação quando outro tiver o status **[!UICONTROL Processando]**, receberá uma mensagem de erro.
 
-## Configuração do subdomínio CNAME {#cname-subdomain-delegation}
+## Configurar um subdomínio com CNAMEs {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -224,6 +224,47 @@ As verificações e ações abaixo serão executadas até que o subdomínio seja
 1. **Criar DNS de encaminhamento**: se este for o primeiro subdomínio que você está delegando, a Adobe criará o DNS de encaminhamento necessário para criar registros PTR - um para cada um de seus IPs.
 
 1. **Criar registro PTR**: o registro PTR, também conhecido como registro de DNS reverso, é exigido pelos ISPs para que eles não marquem os emails como spam. O Gmail também recomenda ter registros PTR para cada IP. O Adobe cria registros PTR somente quando você delega um subdomínio pela primeira vez, um para cada IP, todos os IPs que apontam esse subdomínio. Por exemplo, se o IP for *192.1.2.1* e o subdomínio for *email.example.com*, o registro PTR será: *192.1.2.1PTR r1.email.example.com*. Você pode atualizar o registro PTR posteriormente para apontar para o novo domínio delegado. [Saiba mais sobre registros PTR](ptr-records.md)
+
+## Cancelar delegação de um subdomínio {#undelegate-subdomain}
+
+Se quiser cancelar a delegação de um subdomínio, entre em contato com o representante da Adobe.
+
+No entanto, é necessário executar várias etapas na interface do usuário antes de acessar o Adobe.
+
+>[!NOTE]
+>
+>Você só pode desdelegar subdomínios com o status **[!UICONTROL Sucesso]**. Subdomínios com os status **[!UICONTROL Rascunho]** e **[!UICONTROL Falha]** podem simplesmente ser excluídos da interface do usuário.
+
+Primeiro, execute as seguintes etapas no [!DNL Journey Optimizer]:
+
+1. Desative todas as configurações de canal associadas ao subdomínio. [Saiba como](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+1. Cancele a delegação de qualquer subdomínio de página de aterrissagem, subdomínio SMS e subdomínio da Web associado a esse subdomínio.
+
+   >[!NOTE]
+   >
+   >Você precisa levantar uma solicitação dedicada para cada [página de aterrissagem](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) ou [subdomínio da Web](../web/web-delegated-subdomains.md#undelegate-subdomain).
+
+1. Interrompa as campanhas ativas associadas aos subdomínios. [Saiba como](../campaigns/modify-stop-campaign.md#stop)
+
+1. Interrompa as jornadas ativas associadas aos subdomínios. [Saiba como](../building-journeys/end-journey.md#stop-journey)
+
+1. Aponte os [registros PTR](ptr-records.md#edit-ptr-record) vinculados ao subdomínio para outro subdomínio.
+
+   >[!NOTE]
+   >
+   >Se esse for o único subdomínio delegado, ignore esta etapa.
+
+Depois de concluir, entre em contato com o representante da Adobe com o subdomínio que você deseja cancelar a delegação.
+
+Depois que a solicitação for tratada pela Adobe, o domínio não delegado não será mais exibido na página de inventário do subdomínio.
+
+>[!CAUTION]
+>
+>Depois que a delegação de um subdomínio for cancelada:
+>
+>   * Não é possível reativar as configurações de canal que estavam usando esse subdomínio.
+>   * Não é possível delegar o subdomínio exato novamente por meio da interface. Caso deseje, entre em contato com o representante da Adobe.
 
 ## Vídeo tutorial{#video}
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, pools, grupo, subdomínios, capacidade de entrega
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 11%
@@ -68,7 +68,7 @@ Ao selecionar IPs, você pode ver na lista os registros PTR associados aos IPs. 
 
 >[!NOTE]
 >
->Se nenhum registro PTR estiver configurado para um IP, não será possível selecionar esse IP. Entre em contato com o representante da Adobe para configurar o registro PTR desse IP.
+>Se nenhum registro PTR estiver configurado para um IP, não será possível selecionar esse IP. Entre em contato com o representante da Adobe para configurar o registro PTR desse IP.<!--Now this only happens when first subdomain delegated to Adobe is with CNAME method.-->
 
 Após a criação de um pool de IP, as informações de PTR ficam visíveis ao passar o mouse sobre os endereços IP exibidos abaixo da lista suspensa Pool de IPs.
 

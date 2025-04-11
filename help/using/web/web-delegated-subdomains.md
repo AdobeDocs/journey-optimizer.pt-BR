@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdomínios, configuração
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 24%
+source-wordcount: '1076'
+ht-degree: 20%
 
 ---
 
@@ -161,3 +161,37 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 -->
+
+## Cancelar delegação de um subdomínio {#undelegate-subdomain}
+
+Se quiser cancelar a delegação de um subdomínio da Web, entre em contato com o representante da Adobe.
+
+No entanto, é necessário executar várias etapas na interface do usuário antes de acessar o Adobe.
+
+>[!NOTE]
+>
+>Você só pode desdelegar subdomínios com o status **[!UICONTROL Sucesso]**. Subdomínios com os status **[!UICONTROL Rascunho]** e **[!UICONTROL Falha]** podem simplesmente ser excluídos da interface do usuário.
+
+Primeiro, execute as seguintes etapas no [!DNL Journey Optimizer]:
+
+1. Desative todas as configurações de canal associadas ao subdomínio. [Saiba como](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+<!--
+1. If the web subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+
+1. Interrompa as campanhas ativas associadas aos subdomínios. [Saiba como](../campaigns/modify-stop-campaign.md#stop)
+
+1. Interrompa as jornadas ativas associadas aos subdomínios. [Saiba como](../building-journeys/end-journey.md#stop-journey)
+
+1. Se o subdomínio da Web era um [novo subdomínio delegado](#web-configure-new-subdomain), remova as entradas DNS associadas a esse subdomínio.
+
+Depois de concluir, entre em contato com o representante da Adobe com o subdomínio que você deseja cancelar a delegação.
+
+Depois que a solicitação for tratada pela Adobe, o domínio não delegado não será mais exibido na página de inventário do subdomínio.
+
+>[!CAUTION]
+>
+>Depois que a delegação de um subdomínio for cancelada:
+>
+>   * Não é possível reativar as configurações de canal que estavam usando esse subdomínio.
+>   * Não é possível delegar o subdomínio exato novamente por meio da interface. Caso deseje, entre em contato com o representante da Adobe.
