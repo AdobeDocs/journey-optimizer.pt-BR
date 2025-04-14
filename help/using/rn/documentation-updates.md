@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 88%
+source-wordcount: '1114'
+ht-degree: 86%
 
 ---
 
@@ -28,6 +28,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Adição de uma recomendação sobre o uso de palavras-chave nativas ao usar SMS bidirecional. [Leia mais](../sms/sms-opt-out.md)
 * Atualização da página de teste da jornada com uma observação sobre a necessidade de incluir um namespace de identidade no evento usado. [Leia mais](../building-journeys/testing-the-journey.md)
 * Atualmente, não é possível cancelar a delegação de subdomínios por meio da interface do usuário do [!UICONTROL Journey Optimizer]. Entre em contato com o representante da Adobe. As seções de email, página de aterrissagem, SMS e subdomínio da Web foram atualizadas com essas informações e as etapas a serem executadas antes de entrar em contato com o Adobe. [Leia mais](../configuration/delegate-subdomain.md#undelegate-subdomain)
+* Foi adicionado um esclarecimento sobre o parâmetro `maxHttpConnections` opcional na API do jornada Capping, incluindo orientação sobre como usá-lo junto com configurações de limitação para o mesmo endpoint. [Leia mais](../configuration/throttling.md)
 
 ## Março de 2025 {#mar-2025}
 

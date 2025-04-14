@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 62%
+source-wordcount: '1014'
+ht-degree: 49%
 
 ---
 
@@ -21,13 +21,14 @@ A API de limitação ajuda a criar, configurar e monitorar as configurações de
 
 Esta seção fornece informações globais sobre como trabalhar com a API. Uma descrição detalhada da API está disponível na [documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
->[!IMPORTANT]
->
->Atualmente, apenas uma configuração é permitida por organização. Uma configuração deve ser definida em uma sandbox de produção (fornecida por meio do elemento x-sandbox-nome nos cabeçalhos).
->
->Uma configuração é aplicada no nível da organização.
->
->Quando o limite definido na API é atingido, outros eventos são enfileirados por até 6 horas. Este valor não pode ser modificado.
+## Leitura obrigatória
+
+* **Uma configuração por organização:** No momento, apenas uma configuração é permitida por organização. Uma configuração deve ser definida em uma sandbox de produção (fornecida por meio de `x-sandbox-name` nos cabeçalhos).
+* **Aplicativo de nível da organização:** uma configuração é aplicada no nível da organização.
+* **Tratamento de limite de API:** quando o limite definido na API é atingido, mais eventos são enfileirados por até 6 horas. Este valor não pode ser modificado.
+* **`maxHttpConnections`parâmetro:** O parâmetro &#39;maxHttpConnections&#39; é um parâmetro opcional disponível na API Capping que permite restringir apenas o número de conexões que o Journey Optimizer abrirá no sistema externo. [Saiba como trabalhar com a API de Limite](../configuration/capping.md)
+
+  Se você quiser restringir o número de conexões, mas também limitar essas chamadas externas, poderá definir duas configurações, uma limitação e uma limitação, no mesmo endpoint. Ambas as configurações podem coexistir para um endpoint. Para definir &quot;maxHttpConnections&quot; para um ponto de extremidade limitado, use a API de limitação para definir o limite de limitação e a API de limitação para definir &quot;maxHttpConnections&quot;. Ao chamar a API de limitação, você pode definir o limite de limitação para algo mais alto que o limite de limitação, de modo que a regra de limitação nunca entre em vigor.
 
 ## Descrição da API de limitação e coleção do Postman {#description}
 
