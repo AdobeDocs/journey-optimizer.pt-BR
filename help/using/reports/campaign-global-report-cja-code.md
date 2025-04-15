@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '852'
 ht-degree: 2%
 
 ---
@@ -145,7 +145,7 @@ A tabela **[!UICONTROL Estratégia de classificação]** fornece informações s
 
 * **Controlado por modelo**: os usuários recebem conteúdo classificado pelo modelo de IA, otimizado para relevância e envolvimento.
 
-* **Holdout**: os usuários veem uma versão genérica do conteúdo, atuando como um grupo de controle para medir a eficácia do modelo de IA.
+* **Contenção**: os usuários recebem conteúdo distribuído aleatoriamente durante a fase de exploração do modelo.
 
 As métricas principais exibidas incluem:
 
@@ -167,4 +167,4 @@ O gráfico **[!UICONTROL Taxa de conversão para tráfego de Retenção e Orient
 
 * **Controlado por modelo**: os usuários recebem conteúdo classificado pelo modelo de IA, otimizado para relevância e envolvimento.
 
-* **Holdout**: os usuários veem uma versão genérica do conteúdo, atuando como um grupo de controle para medir a eficácia do modelo de IA.
+* **Contenção**: os usuários recebem conteúdo distribuído aleatoriamente durante a fase de exploração do modelo.
