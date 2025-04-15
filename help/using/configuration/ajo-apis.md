@@ -6,14 +6,15 @@ description: O Journey Optimizer fornece APIs RESTful que permitem executar prog
 feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
-source-git-commit: a5057c3ce699a972c22cc125dd963d545a113b0b
+exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
+source-git-commit: 5ee11912b2c6dbd58acae04a5bf1d24403a1c4ea
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 7%
 
 ---
 
-# Usar APIs [!DNL Journey Optimizer] {#apis-gs}
+# Trabalhar com [!DNL Journey Optimizer] APIs {#apis-gs}
 
 A API do Adobe Journey Optimizer permite fornecer experiências personalizadas, conectadas e oportunas ao cliente por meio de qualquer aplicativo, dispositivo ou canal e, por sua vez, gerenciar com eficiência a jornada completa do cliente. A jornada do cliente envolve todo o processo de interação do cliente com uma marca, desde o primeiro momento do contato até o cliente ir embora. Ela começa com a fase de percepção, onde o cliente aprende sobre a marca e começa a se envolver. O cliente interagirá ainda mais com a marca, visitará sites online e físicos, fará compras, enviará mensagens ou fará resenhas.
 
