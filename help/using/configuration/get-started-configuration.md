@@ -1,39 +1,58 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 'Introdução à configuração do [!DNL Journey Optimizer]  '
-description: 'Saiba mais sobre a configuração do [!DNL Journey Optimizer] '
+title: Introdução à configuração de  [!DNL Journey Optimizer]  canais
+description: Saiba mais sobre a configuração de  [!DNL Journey Optimizer]  canais
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuração, configurar, mensagens, canal, sandbox, otimizador
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: e052cf9bcd42cecbaaeb9047990ed603dd0730a0
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 93%
+source-wordcount: '244'
+ht-degree: 48%
 
 ---
 
 
-# Introdução à configuração do [!DNL Journey Optimizer] {#start-optimizer-configuration}
+# Introdução à configuração de canais {#start-optimizer-configuration}
 
 Ao acessar o [!DNL Journey Optimizer] pela primeira vez, você é provisionado com uma sandbox de produção e aloca um determinado número de IPs dependendo do seu contrato.
 
-Para criar suas jornadas e enviar mensagens, você precisa seguir as etapas de configuração abaixo.
 
-## Configurar mensagens e canais
+Para enviar mensagens, você precisa seguir as etapas de configuração listadas abaixo:
 
-1. Para criar e enviar mensagens, é necessário executar configurações específicas, dependendo do canal.
+1. Como um [administrador de sistema do Adobe Journey Optimizer](../start/path/administrator.md), defina as configurações de canal. Saiba como definir essas configurações nas seguintes páginas:
 
-   * Para o canal **Email** , é necessário delegar subdomínios à Adobe e criar pools de IP para agrupar endereços IP. [Saiba mais](../email/get-started-email-config.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/get-started-email-config.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/get-started-email-config.md"><strong>Email</strong></a></div></td>
+<td><a href="../sms/sms-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
+<td><a href="../push/push-configuration.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/push-configuration.md"><strong>Notificação por push</strong></a></div></td>
+<td><a href="../direct-mail/direct-mail-configuration.md"><img alt="correspondência direta" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/direct-mail-configuration.md"><strong>Correspondência direta</strong></a></div></td>
+</tr></table>
 
-   * Para o canal **Push** é necessário definir as configurações de notificações por push na [!DNL Adobe Experience Platform] e no [!DNL Adobe Experience Platform Launch]. [Saiba mais](../push/push-configuration.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/inapp-configuration.md"><img alt="no aplicativo" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/inapp-configuration.md"><strong>No aplicativo</strong></a></div></td>
+<td><a href="../web/web-configuration.md"><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/web-configuration.md"><strong>Web</strong></a></div></td>
+<td><a href="../code-based/code-based-configuration.md"><img alt="experiência baseada em código" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/code-based-configuration.md"><strong>Experiência baseada em código</strong></a></div></td>
+<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="cartões de conteúdo" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Cartões de conteúdo</strong></a></div></td>
+</tr></table>
 
-   * Para o canal **SMS** é necessário configurar sua instância para enviar SMS, incluindo a integração das configurações do provedor com [!DNL Journey Optimizer]. [Saiba mais](../sms/sms-configuration.md)
+>[!NOTE]
+>
+>Para canais móveis, a [Configuração de canal guiada](set-mobile-config.md) facilita a configuração rápida de canais de marketing, garantindo que todos os recursos necessários estejam prontamente disponíveis no Experience Platform, no Journey Optimizer e na Coleção de dados. Isso permite que sua equipe de marketing comece a criar campanhas e jornadas.
 
-1. Depois de concluído, você deve criar **configurações de canal** para configurar todos os parâmetros técnicos necessários para entregar mensagens. [Saiba mais](channel-surfaces.md)
+1. Depois de concluído, você deve criar **configurações de canal** para configurar todos os parâmetros técnicos necessários para entregar mensagens. [Saiba mais sobre as configurações de canal](channel-surfaces.md)
 
 1. Você também pode:
 
@@ -44,21 +63,3 @@ Para criar suas jornadas e enviar mensagens, você precisa seguir as etapas de c
    * Configure as **regras de negócio** para evitar o excesso de solicitações de seus destinatários. [Saiba mais](../configuration/rule-sets.md)
 
    * Determine qual endereço de email e/ou número de telefone deve ser usado com prioridade para seus destinatários quando vários endereços/números estiverem disponíveis na Adobe Experience Platform. [Saiba mais](primary-email-addresses.md)
-
-<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
-
->[!NOTE]
->
->Essas etapas devem ser executadas por um [administrador do sistema do Adobe Journey Optimizer](../start/path/administrator.md).
-
-## Configurar jornadas
-
-Para construir jornadas, é necessário configurar as **[!UICONTROL Fontes de dados]**, **[!UICONTROL Eventos]** e **[!UICONTROL Ações]**. [Saiba mais](about-data-sources-events-actions.md)
-
-![](assets/admin-menu.png)
-
-* A configuração da **fonte de dados** permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas. [Saiba mais](../datasource/about-data-sources.md)
-
-* Os **Eventos** permitem acionar as jornadas de forma unitária para enviar mensagens, em tempo real, à pessoa física que flui para a jornada. Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são padronizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de ingestão de streaming para eventos autenticados e não autenticados (como eventos do SDK móvel da Adobe). [Saiba mais](../event/about-events.md)
-
-* O [!DNL Journey Optimizer] vem com recursos de mensagem incorporados que permitem projetar e enviar seu conteúdo. Se você estiver usando um sistema de terceiros para enviar mensagens, crie uma **ação personalizada**. [Saiba mais](../action/action.md)
