@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Usar a atividade Carregar arquivo
-description: Saiba como usar a atividade Carregar arquivo em uma campanha com várias etapas
+description: Saiba como usar a atividade Load file em uma campanha orquestrada
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 38%
@@ -62,7 +63,7 @@ A configuração da atividade **Carregar arquivo** envolve duas etapas. Primeiro
 
 Siga estas etapas para configurar o arquivo de amostra usado para definir a estrutura de arquivo esperada:
 
-1. Adicione uma atividade **Load file** à sua campanha em várias etapas.
+1. Adicione uma atividade **Load file** à campanha orquestrada.
 
 1. Selecione o arquivo de amostra a ser usado para definir a estrutura de arquivo esperada. Para fazer isso, clique no botão **Selecionar arquivo** na seção **[!UICONTROL Arquivo de exemplo]** e selecione o arquivo local a ser usado.
 
@@ -114,7 +115,7 @@ Siga estas etapas para configurar o arquivo de amostra usado para definir a estr
 
 >[!CAUTION]
 >
->Antes de carregar o arquivo de destino, verifique se ele segue à formatação do arquivo de amostra. Qualquer discrepância no formato de arquivo, na estrutura da coluna ou no número de colunas pode levar a erros durante a execução da campanha em várias etapas.
+>Antes de carregar o arquivo de destino, verifique se ele segue à formatação do arquivo de amostra. Qualquer discrepância no formato de arquivo, estrutura de coluna ou número de colunas pode levar a erros durante a execução orquestrada da campanha.
 
 Para definir o arquivo de destino para upload, siga estas etapas:
 
@@ -149,13 +150,13 @@ Para definir o arquivo de destino para upload, siga estas etapas:
 
 1. Na seção **Reject management**, especifique como a atividade deve se comportar em caso de erros:
 
-   * No campo **[!UICONTROL Número de erros permitidos]**, especifique o número máximo de erros autorizados ao processar o arquivo a ser carregado. Por exemplo, se o valor for definido como &quot;20&quot;, a execução da campanha em várias etapas falhará se houver mais de 20 erros ao carregar o arquivo.
+   * No campo **[!UICONTROL Número de erros permitidos]**, especifique o número máximo de erros autorizados ao processar o arquivo a ser carregado. Por exemplo, se o valor for definido como &quot;20&quot;, a execução da campanha orquestrada falhará se houver mais de 20 erros ao carregar o arquivo.
 
    * Para manter ativados os erros ocorridos ao carregar o arquivo, alterne a opção **[!UICONTROL Manter rejeições em um arquivo]** e especifique o nome desejado para o arquivo no campo **[!UICONTROL Arquivo de Rejeição]**.
 
      Após ativar essa opção, uma transição de saída adicional chamada &quot;Complement&quot; é adicionada após a atividade. Qualquer erro que ocorrer durante a importação será armazenado no arquivo especificado no servidor.
 
-1. Para excluir o arquivo carregado do servidor após a execução da campanha de várias etapas, alterne a opção **[!UICONTROL Excluir arquivo após importação]**.
+1. Para excluir o arquivo carregado do servidor após a execução da campanha orquestrada, alterne a opção **[!UICONTROL Excluir arquivo após importação]**.
 
    ![](../assets/workflow-load-file-options.png)
 

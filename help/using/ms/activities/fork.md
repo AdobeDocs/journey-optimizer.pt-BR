@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Usar a atividade Fork
-description: Saiba como usar a atividade Bifurcação em uma campanha com várias etapas
+description: Saiba como usar a atividade Bifurcação em uma campanha orquestrada
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 83%
@@ -33,7 +34,7 @@ Siga estas etapas para configurar a atividade de **Bifurcação**:
 
 ![](../assets/workflow-fork.png)
 
-1. Adicione uma atividade **Fork** à sua campanha em várias etapas.
+1. Adicione uma atividade **Fork** à sua campanha orquestrada.
 1. Clique em **Adicionar transição** para adicionar uma nova transição de saída. Por padrão, são definidas duas transições.
 1. Adicione um rótulo a cada transição.
 

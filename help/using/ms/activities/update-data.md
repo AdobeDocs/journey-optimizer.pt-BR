@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Use a atividade Update data em suas campanhas com várias etapas
+title: Use a atividade Update data em suas campanhas orquestradas
 description: Saiba como usar a atividade Update data
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 24%
@@ -32,7 +33,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## Configurar a atividade Update data{#update-data-configuration}
 
-Para configurar a atividade **Atualizar dados**, comece adicionando a atividade à sua campanha de várias etapas e defina um rótulo.
+Para configurar a atividade **Atualizar dados**, comece adicionando a atividade à sua campanha orquestrada e defina um rótulo.
 
 ![](../assets/workflow-update-data.png)
 
@@ -77,6 +78,6 @@ As **Opções avançadas** permitem que você especifique opções adicionais pa
 
 As duas últimas opções permitem executar ações específicas:
 
-* **Gerar uma transição de saída**: cria uma transição de saída que será ativada no final da execução. A atualização geralmente sinaliza o fim de uma campanha de direcionamento em várias etapas e, portanto, a opção não é ativada por padrão.
+* **Gerar uma transição de saída**: cria uma transição de saída que será ativada no final da execução. A atualização normalmente sinaliza o fim de uma campanha orquestrada por direcionamento e, portanto, a opção não é ativada por padrão.
 
-* **Gerar uma transição de saída para as rejeições**: cria uma transição de saída contendo registros que não foram processados corretamente após a atualização (por exemplo, se houver uma duplicata). A atualização geralmente marca o fim de uma campanha de direcionamento em várias etapas e, portanto, a opção não é ativada por padrão.
+* **Gerar uma transição de saída para as rejeições**: cria uma transição de saída contendo registros que não foram processados corretamente após a atualização (por exemplo, se houver uma duplicata). A atualização geralmente marca o fim de uma campanha orquestrada de direcionamento e, portanto, a opção não é ativada por padrão.

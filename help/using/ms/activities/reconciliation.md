@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Usar a atividade de reconciliação
-description: Saiba como usar a atividade de Reconciliação em uma campanha em várias etapas
+description: Saiba como usar a atividade de Reconciliação em uma campanha orquestrada
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 39%
@@ -38,7 +39,7 @@ A atividade **Reconciliation** é uma atividade **Targeting** que permite defini
 
 ## Práticas recomendadas {#reconciliation-best-practices}
 
-Embora a atividade **Enriquecimento** permita a definição de dados adicionais que serão processados em sua campanha de várias etapas (você pode usar uma atividade **Enriquecimento** para combinar dados provenientes de vários conjuntos ou para criar links para um recurso temporário), a atividade **Reconciliação** permite vincular dados não identificados a recursos existentes.
+Embora a atividade **Enrichment** permita a definição de dados adicionais para serem processados na campanha orquestrada (você pode usar uma atividade **Enrichment** para combinar dados provenientes de vários conjuntos ou para criar links para um recurso temporário), a atividade **Reconciliation** permite vincular dados não identificados aos recursos existentes.
 
 >[!NOTE]
 >A operação de reconciliação implica que os dados das dimensões vinculadas já estão no banco de dados.  Por exemplo, se você importar um arquivo de compras que mostre qual produto foi comprado, em que momento, por qual cliente, etc., o produto e o cliente já deverão existir no banco de dados.
@@ -74,7 +75,7 @@ Embora a atividade **Enriquecimento** permita a definição de dados adicionais 
 
 Siga estas etapas para configurar a atividade **Reconciliação**:
 
-1. Adicione uma atividade de **Reconciliação** à sua campanha em várias etapas.
+1. Adicione uma atividade de **Reconciliação** à campanha orquestrada.
 
 1. Selecione a nova dimensão de direcionamento. Uma dimensão permite definir a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes, etc.
 
@@ -94,9 +95,9 @@ Por padrão, os dados não reconciliados são mantidos na transição de saída 
 
 ## Exemplo {#reconciliation-example}
 
-O exemplo a seguir demonstra uma campanha em várias etapas que cria um público-alvo de perfis diretamente de um arquivo importado que contém novos clientes. Ele é composto pelas seguintes atividades:
+O exemplo a seguir demonstra uma campanha orquestrada que cria um público-alvo de perfis diretamente de um arquivo importado que contém novos clientes. Ele é composto pelas seguintes atividades:
 
-A campanha em várias etapas foi projetada da seguinte maneira:
+A campanha orquestrada foi projetada da seguinte maneira:
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
 
@@ -120,5 +121,4 @@ Ele é criado com as seguintes atividades:
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
-* Uma atividade [Save audience](save-audience.md) para criar um novo público-alvo com base nessas atualizações. Você também pode substituir a atividade **Salvar público-alvo** por uma atividade **Fim** se nenhum público-alvo específico precisar ser criado ou atualizado. Os perfis de recipient são atualizados em qualquer caso quando você executa a campanha de várias etapas.
-
+* Uma atividade [Save audience](save-audience.md) para criar um novo público-alvo com base nessas atualizações. Você também pode substituir a atividade **Salvar público-alvo** por uma atividade **Fim** se nenhum público-alvo específico precisar ser criado ou atualizado. Os perfis de recipient são atualizados em qualquer caso quando você executa a campanha orquestrada.

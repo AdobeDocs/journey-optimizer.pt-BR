@@ -5,7 +5,8 @@ title: Usar a atividade de desduplicação
 description: Saiba como usar a atividade de desduplicação
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 57%
@@ -42,7 +43,7 @@ Siga estas etapas para configurar a atividade **Desduplicação**:
 
 ![](../assets/workflow-deduplication.png)
 
-1. Adicione uma atividade **Deduplication** à sua campanha em várias etapas.
+1. Adicione uma atividade **Deduplication** à sua campanha orquestrada.
 
 1. Na seção **Campos para identificar duplicatas**, clique no botão **Adicionar atributo** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro.
 

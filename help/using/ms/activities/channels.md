@@ -6,7 +6,7 @@ description: Saiba como adicionar uma atividade de canal em uma campanha multiet
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 18%
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # Atividades do canal {#channel}
 
-O Adobe Journey Optimizer permite automatizar e executar campanhas de marketing em canais de entrada e saída. Você pode combinar atividades de canal na tela de campanha de várias etapas para criar campanhas entre canais com várias etapas, que podem acionar ações com base no comportamento e nos dados do cliente. Os canais com suporte estão listados em [esta página](../../channels/gs-channels.md).
+O Adobe Journey Optimizer permite automatizar e executar campanhas de marketing em canais de entrada e saída. Você pode combinar atividades de canal na tela de campanha orquestrada para criar campanhas orquestradas entre canais que podem acionar ações com base no comportamento do cliente e nos dados. Os canais com suporte estão listados em [esta página](../../channels/gs-channels.md).
 
 Por exemplo, você pode criar uma campanha de email de boas-vindas que inclui uma série de mensagens em diferentes canais, como email, SMS, push e correspondência direta. Também é possível enviar um email de acompanhamento depois que alguém concluir uma compra ou enviar uma mensagem de aniversário personalizada para um cliente por SMS.
 
@@ -23,11 +23,11 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 
 ## Pré-requisitos {#channel-activity-prereq}
 
-Comece a criar sua campanha em várias etapas com as atividades relevantes:
+Comece a criar sua campanha orquestrada com as atividades relevantes:
 
 * Antes de inserir uma atividade de canal, é necessário definir o público-alvo. O público-alvo é o principal alvo do delivery: os perfis que recebem as mensagens.
 
-* Para enviar uma entrega recorrente, inicie sua campanha em várias etapas com uma atividade **Scheduler**. Você também pode usar uma atividade **Scheduler** para entregas únicas e únicas para definir a data de contato para essa entrega. Essa data de contato também pode ser definida nas configurações de delivery. Consulte [esta seção](scheduler.md).
+* Para enviar uma entrega recorrente, inicie sua campanha orquestrada com uma atividade **Scheduler**. Você também pode usar uma atividade **Scheduler** para entregas únicas e únicas para definir a data de contato para essa entrega. Essa data de contato também pode ser definida nas configurações de delivery. Consulte [esta seção](scheduler.md).
 
 ## Configurar uma atividade de canal {#create-a-delivery-in-a-workflow}
 
@@ -56,14 +56,14 @@ Comece a criar sua campanha em várias etapas com as atividades relevantes:
 >title="Atividade Correspondência direta"
 >abstract="A atividade Correspondência direta facilita o envio de correspondência direta na campanha em várias etapas, para mensagens únicas e recorrentes. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. Você pode combinar atividades de canal na tela de campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
-Para configurar um delivery no contexto de uma campanha em várias etapas, siga as etapas abaixo:
+Para configurar um delivery no contexto de uma campanha orquestrada, siga as etapas abaixo:
 
 1. Adicione uma atividade de canal: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push (Android)]**, **[!UICONTROL Notificação por push (iOS)]** ou **[!UICONTROL Correspondência direta]**.
 
 1. Selecione o **Tipo de entrega**: única ou recorrente.
 
    * Uma **Entrega única** é uma entrega única, enviada apenas uma vez, por exemplo, um email Black Friday.
-   * Uma **entrega recorrente** é enviada várias vezes com base em sua frequência de execução definida em uma [atividade do agendador](scheduler.md). Cada vez que a campanha com várias etapas é executada, o público-alvo é recalculado e o delivery é enviado ao público atualizado, com o conteúdo atualizado. Pode ser um informativo semanal ou um email de aniversário recorrente, por exemplo.
+   * Uma **entrega recorrente** é enviada várias vezes com base em sua frequência de execução definida em uma [atividade do agendador](scheduler.md). Cada vez que a campanha orquestrada é executada, o público é recalculado e o delivery é enviado ao público atualizado, com o conteúdo atualizado. Pode ser um informativo semanal ou um email de aniversário recorrente, por exemplo.
 
 1. Selecione um **Modelo** da entrega. Os modelos são configurações de entrega pré-definidas, específicas para um canal. Um modelo integrado está disponível para cada canal e é preenchido previamente por padrão.
 
@@ -75,9 +75,9 @@ Para configurar um delivery no contexto de uma campanha em várias etapas, siga 
 
 1. Volte para o fluxo de trabalho. Para continuar o fluxo de trabalho, alterne a opção **Generate an outbound transition** para adicionar uma transição após a atividade do canal.
 
-1. Clique em **Iniciar** para iniciar sua campanha em várias etapas.
+1. Clique em **Iniciar** para iniciar sua campanha orquestrada.
 
-   Por padrão, iniciar uma campanha em várias etapas aciona a etapa de preparação da mensagem, sem enviar imediatamente a mensagem.
+   Por padrão, iniciar uma campanha orquestrada aciona a etapa de preparação da mensagem, sem enviar imediatamente a mensagem.
 
 1. Abra a atividade do canal para confirmar o envio com o botão **Revisar e enviar**.
 
@@ -85,7 +85,7 @@ Para configurar um delivery no contexto de uma campanha em várias etapas, siga 
 
 ## Exemplos {#cross-channel-workflow-sample}
 
-Este é um exemplo de campanha em várias etapas entre canais com uma segmentação e dois deliveries. A campanha em várias etapas é direcionada a todos os clientes que vivem em Paris e que estão interessados em máquinas de café. Entre essa população, um email é enviado aos clientes regulares e um SMS é enviado aos clientes VIP.
+Este é um exemplo de campanha orquestrada entre canais com uma segmentação e duas entregas. A campanha orquestrada tem como alvo todos os clientes que vivem em Paris e que estão interessados em máquinas de café. Entre essa população, um email é enviado aos clientes regulares e um SMS é enviado aos clientes VIP.
 
 ![](../assets/workflow-channel-example.png)
 
@@ -99,7 +99,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-Você também pode criar uma campanha recorrente em várias etapas para enviar um SMS personalizado todos os primeiros dias do mês às 20h para todos os clientes que moram em Paris.
+Você também pode criar uma campanha orquestrada recorrente para enviar um SMS personalizado todos os primeiros dias do mês, às 20h, para todos os clientes que moram em Paris.
 
 ![](../assets/workflow-channel-example2.png)
 
