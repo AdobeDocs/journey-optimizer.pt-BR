@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Usar a atividade AND-join
-description: Saiba como usar a atividade AND-join em uma campanha com várias etapas
+description: Saiba como usar a atividade AND-join em uma campanha orquestrada
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 65%
@@ -17,11 +18,11 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="Atividade AND-join"
->abstract="A atividade **And-join** permite sincronizar várias ramificações de execução de uma campanha com várias etapas. Ela é acionada quando todas as atividades anteriores são concluídas. Isso permite garantir que determinadas atividades sejam concluídas antes de continuar a executar a campanha em várias etapas."
+>abstract="A atividade **And-join** permite sincronizar várias ramificações de execução de uma campanha orquestrada. Ela é acionada quando todas as atividades anteriores são concluídas. Isso permite que você verifique se determinadas atividades foram concluídas antes de continuar a executar a campanha orquestrada."
 
-A atividade **AND-join** é uma atividade de **Controle de fluxo**. Ele permite sincronizar várias ramificações de execução de uma campanha em várias etapas.
+A atividade **AND-join** é uma atividade de **Controle de fluxo**. Ele permite sincronizar várias ramificações de execução de uma campanha orquestrada.
 
-Essa atividade só acionará a transição de saída depois que todas as transições de entrada estiverem ativadas, ou seja, depois que todas as atividades anteriores estiverem concluídas. Isso permite verificar se determinadas atividades foram concluídas antes de continuar a executar a campanha em várias etapas.
+Essa atividade só acionará a transição de saída depois que todas as transições de entrada estiverem ativadas, ou seja, depois que todas as atividades anteriores estiverem concluídas. Isso permite verificar se determinadas atividades foram concluídas antes de continuar a executar a campanha orquestrada.
 
 ## Configurar a atividade AND-join{#and-join-configuration}
 
@@ -41,6 +42,6 @@ Siga estas etapas para configurar a atividade **AND-join**:
 
 ## Exemplo{#and-join-example}
 
-O exemplo a seguir mostra duas ramificações de campanha em várias etapas com um delivery de email e SMS. A AND-join será acionada quando ambas as transições de entrada estiverem habilitadas. As notificações por push serão enviadas somente após a conclusão de ambas as entregas.
+O exemplo a seguir mostra duas ramificações de campanha orquestradas com um delivery de email e SMS. A AND-join será acionada quando ambas as transições de entrada estiverem habilitadas. As notificações por push serão enviadas somente após a conclusão de ambas as entregas.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

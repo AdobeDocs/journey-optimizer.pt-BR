@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabalhar com atividades de campanha em várias etapas
-description: Saiba como criar atividades de campanha em várias etapas
+title: Trabalhar com atividades de campanha orquestradas
+description: Saiba como organizar atividades de campanha
 hide: true
 hidefromtoc: true
-source-git-commit: 658d82820d3f307481c44a142c38727f777fd879
+exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 23%
 
 ---
 
+# Sobre atividades de campanha orquestradas {#ms-campaign-activities}
 
-# Sobre atividades de campanha em várias etapas {#ms-campaign-activities}
-
-As atividades de campanha em várias etapas são agrupadas em três categorias. Dependendo do contexto, as atividades disponíveis podem ser diferentes.
+As atividades de campanha orquestradas são agrupadas em três categorias. Dependendo do contexto, as atividades disponíveis podem ser diferentes.
 
 Todas as atividades estão detalhadas nas seções abaixo:
 
@@ -30,12 +30,12 @@ Todas as atividades estão detalhadas nas seções abaixo:
 Essas atividades são específicas para direcionamento. Elas permitem criar uma ou mais direções definindo um público-alvo e dividindo ou combinando esses públicos-alvo usando operações de interseção, união ou exclusão.
 
 * [Criar público-alvo](build-audience.md): defina sua população de destino. Você pode selecionar um público existente ou usar o modelador de consultas para definir sua própria consulta.
-* [Alterar dimensão](change-dimension.md): altere a targeting dimension enquanto você estiver criando sua campanha em várias etapas.
+* [Alterar dimensão](change-dimension.md): altere a targeting dimension enquanto você estiver criando sua campanha orquestrada.
 * [Combinar](combine.md): executar segmentação na população de entrada. Você pode usar uma união, uma interseção ou uma exclusão.
-* [Desduplicação](deduplication.md): excluir duplicados no(s) resultado(s) das atividades de entrada.
-* [Enriquecimento](enrichment.md): defina dados adicionais para processar em sua campanha de várias etapas. Com essa atividade, você pode aproveitar a transição de entrada e configurar a atividade para concluir a transição de saída com dados adicionais.
+* [Deduplication](deduplication.md): Delete duplicates in the result(s) of the inbound activities.
+* [Enriquecimento](enrichment.md): defina dados adicionais para processar em sua campanha orquestrada. Com essa atividade, você pode aproveitar a transição de entrada e configurar a atividade para concluir a transição de saída com dados adicionais.
 * [Reconciliação](reconciliation.md): defina o vínculo entre os dados nos dados do Journey Optimizer e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo.
-* [Salvar público-alvo](save-audience.md): atualize um público-alvo existente ou crie um novo público-alvo a partir da população computada upstream em uma campanha de várias etapas.
+* [Salvar público-alvo](save-audience.md): atualize um público-alvo existente ou crie um novo público-alvo a partir da população computada upstream em uma campanha orquestrada.
 * [Split](split.md): segmente a população de entrada em vários subconjuntos.
 
 ## Atividades de gerenciamento de dados {#data}
@@ -47,20 +47,20 @@ Essas atividades são específicas para manipular e enriquecer dados de populaç
 
 ## Atividades do canal {#channel}
 
-O Adobe Journey Optimizer permite automatizar e executar campanhas de marketing em vários canais. Você pode combinar atividades de canal na tela para criar uma campanha em várias etapas entre canais que pode acionar ações com base no comportamento do cliente. As seguintes atividades do **Canal** estão disponíveis: notificações por push de email, SMS, Android e iOS. [Saiba como configurar uma entrega no contexto de uma campanha em várias etapas](channels.md).
+Adobe Journey Optimizer allows you to automate and execute marketing campaigns across multiple channels. Você pode combinar atividades de canal na tela para criar uma campanha orquestrada entre canais que pode acionar ações com base no comportamento do cliente. As seguintes atividades do **Canal** estão disponíveis: notificações por push de email, SMS, Android e iOS. [Saiba como configurar uma entrega no contexto de uma campanha orquestrada](channels.md).
 
 ## Atividades de controle de fluxo {#flow-control}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Terminar atividade"
->abstract="A atividade **End** permite marcar graficamente o fim de uma campanha de várias etapas. Essa atividade não tem impacto funcional e, portanto, é opcional."
+>abstract="A atividade **End** permite marcar graficamente o fim de uma campanha orquestrada. Essa atividade não tem impacto funcional e, portanto, é opcional."
 
-As atividades a seguir são específicas para organizar e executar campanhas em várias etapas. Sua principal tarefa é coordenar as outras atividades:
+As atividades a seguir são específicas para organizar e executar campanhas orquestradas. Sua principal tarefa é coordenar as outras atividades:
 
-* [And-join](and-join.md): sincroniza várias ramificações de execução de uma campanha de várias etapas.
-* **Fim**: marca graficamente o fim de uma campanha de várias etapas. Esta atividade não tem impacto funcional e, portanto, é opcional
-* [Bifurcação](fork.md): crie transições de saída para iniciar várias atividades ao mesmo tempo.
-* [Scheduler](scheduler.md): agenda quando a campanha de várias etapas é iniciada.
+* [And-join](and-join.md): sincroniza várias ramificações de execução de uma campanha orquestrada.
+* **End**: Graphically mark the end of an orchestrated campaign. This activity has no functional impact and is therefore optional
+* [Fork](fork.md): Create outbound transitions to start several activities at the same time.
+* [Scheduler](scheduler.md): Schedule when the orchestrated campaign gets started.
 * [Test](test.md): habilitar transições com base em condições especificadas.
-* [Aguardar](wait.md): pausar momentaneamente a execução de uma parte de uma campanha em várias etapas.
+* [Aguardar](wait.md): pausar momentaneamente a execução de uma parte de uma campanha orquestrada.

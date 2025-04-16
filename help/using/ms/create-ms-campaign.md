@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar campanhas em várias etapas com o Journey Optimizer
-description: Saiba como criar uma campanha em várias etapas com o Adobe Journey Optimizer
+title: Criar campanhas orquestradas com o Journey Optimizer
+description: Saiba como criar uma campanha orquestrada com o Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
->title="Lista de campanhas com várias etapas"
->abstract="A guia **várias etapas** lista todas as campanhas com várias etapas. Clique no nome de uma campanha com várias etapas para editá-la. Use o botão **Criar campanha em várias etapas** para adicionar uma nova campanha em várias etapas."
+>title="Lista de campanhas orquestradas"
+>abstract="A guia **várias etapas** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada."
 
 ## Pré-requisitos
 
@@ -31,71 +31,71 @@ Visão geral de novas configurações de administração> esquemas, campos de ex
 
 ## Etapas de criação
 
-Para criar uma campanha em várias etapas, siga estas etapas:
+Para criar uma campanha orquestrada, siga estas etapas:
 
-1. Para criar uma **campanha em várias etapas**, navegue até o menu **Campanhas**.
+1. Para criar uma **campanha orquestrada**, navegue até o menu **Campanhas**.
 
-1. Clique no botão **[!UICONTROL Criar campanha com várias etapas]** no canto superior direito da tela.
+1. Clique no botão **[!UICONTROL Criar campanha orquestrada]**, no canto superior direito da tela.
 
-1. Na caixa de diálogo **Propriedades** da campanha de várias etapas, selecione o modelo a ser usado para criar a campanha de várias etapas (você também pode usar o modelo interno padrão). [Saiba mais sobre modelos de campanha em várias etapas](#campaign-templates).
+1. Na caixa de diálogo **Propriedades** da campanha orquestrada, selecione o modelo a ser usado para criar a campanha orquestrada (você também pode usar o modelo interno padrão). [Saiba mais sobre modelos de campanha orquestradas](#campaign-templates).
 
-1. Insira um rótulo para a campanha em várias etapas. Além disso, recomendamos que você adicione uma descrição à sua campanha em várias etapas, no campo dedicado da seção **[!UICONTROL Opções adicionais]** da tela.
+1. Insira um rótulo para a campanha orquestrada. Além disso, recomendamos que você adicione uma descrição à sua campanha orquestrada, no campo dedicado da seção **[!UICONTROL Opções adicionais]** da tela.
 
-1. Expanda a seção **[!UICONTROL Opções adicionais]** para definir mais configurações para a campanha de várias etapas.
+1. Expanda a seção **[!UICONTROL Opções adicionais]** para definir mais configurações para a campanha orquestrada.
 
-1. Clique no botão **[!UICONTROL Criar campanha em várias etapas]** para confirmar a criação da campanha em várias etapas.
+1. Clique no botão **[!UICONTROL Criar campanha orquestrada]** para confirmar a criação da campanha orquestrada.
 
-Sua campanha em várias etapas agora está criada e disponível na lista de workflows. Agora é possível acessar a tela visual e começar a adicionar, configurar e orquestrar as tarefas que serão executadas. [Saiba como organizar atividades de campanha em várias etapas](orchestrate-activities.md).
+Sua campanha orquestrada agora está criada e disponível na lista de workflows. Agora é possível acessar a tela visual e começar a adicionar, configurar e orquestrar as tarefas que serão executadas. [Saiba como organizar atividades de campanha orquestradas](orchestrate-activities.md).
 
-## Trabalhar com modelos de campanha de várias etapas {#campaign-templates}
+## Trabalhar com modelos de campanha orquestradas {#campaign-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_for_campaign"
->title="Modelos de campanha em várias etapas"
->abstract="Os templates de campanha de várias etapas contêm configurações e atividades predefinidas que podem ser reutilizadas para criar uma nova campanha de várias etapas."
+>title="Modelos de campanha orquestradas"
+>abstract="Os templates de campanha orquestrados contêm configurações e atividades pré-configuradas que podem ser reutilizadas para criar uma nova campanha orquestrada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_creation_properties"
->title="Propriedades da campanha em várias etapas"
->abstract="Os templates de campanha de várias etapas contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novas campanhas de várias etapas. Nesta tela, insira o rótulo do template de campanha de várias etapas e defina as configurações, como o nome interno, a pasta e as pastas de execução, o fuso horário e o grupo supervisor."
+>title="Propriedades da campanha orquestrada"
+>abstract="Os templates de campanha orquestrados contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novas campanhas orquestradas. Nesta tela, insira o rótulo do template de campanha orquestrada e defina as configurações, como o nome interno, a pasta e as pastas de execução, o fuso horário e o grupo supervisor."
 
-Os templates de campanha de várias etapas contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novas campanhas de várias etapas. Você pode selecionar o template da sua campanha em várias etapas nas propriedades da campanha em várias etapas, ao criar uma campanha em várias etapas. Um template vazio é fornecido por padrão.
+Os templates de campanha orquestrados contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novas campanhas orquestradas. Você pode selecionar o template da sua campanha orquestrada nas propriedades da campanha orquestrada, ao criar uma campanha orquestrada. Um template vazio é fornecido por padrão.
 
-Você pode criar um modelo a partir de uma campanha existente de várias etapas ou criar um novo modelo do zero. Ambos os métodos são detalhados abaixo.
+Você pode criar um modelo a partir de uma campanha orquestrada existente ou criar um novo modelo do zero. Ambos os métodos são detalhados abaixo.
 
 >[!BEGINTABS]
 
->[!TAB Criar um modelo a partir de uma campanha existente de várias etapas]
+>[!TAB Criar um modelo a partir de uma campanha orquestrada existente]
 
-Para criar um template de campanha de várias etapas a partir de uma campanha existente de várias etapas, siga estas etapas:
+Para criar um template de campanha orquestrada a partir de uma campanha orquestrada existente, siga estas etapas:
 
-1. Abra o menu **Campanha** e navegue até a campanha de várias etapas para salvar como um modelo.
-1. Clique nos três pontos à direita do nome da campanha em várias etapas e escolha **Copiar como modelo**.
+1. Abra o menu **Campanha** e navegue até a campanha orquestrada para salvar como um modelo.
+1. Clique nos três pontos à direita do nome da campanha orquestrada e escolha **Copiar como modelo**.
 1. Na janela pop-up, confirme a criação do template.
-1. Na tela do template de campanha de várias etapas, marque, adicione e configure as atividades conforme necessário.
-1. Navegue até as configurações, no botão **Configurações**, para alterar o nome do modelo de campanha de várias etapas e insira uma descrição.
-1. Selecione a **pasta** e a **pasta de execução** do modelo. A pasta é o local onde o template de campanha de várias etapas é salvo. A pasta de execução é a pasta onde as campanhas com várias etapas criadas com base nesse template são salvas.
+1. Na tela do template de campanha orquestrada, verifique, adicione e configure as atividades conforme necessário.
+1. Navegue até as configurações, no botão **Configurações**, para alterar o nome do modelo de campanha orquestrada e insira uma descrição.
+1. Selecione a **pasta** e a **pasta de execução** do modelo. A pasta é o local onde o template de campanha orquestrada é salvo. A pasta de execução é a pasta onde as campanhas orquestradas criadas com base nesse template são salvas.
 1. Salve as alterações.
 
-O template de campanha de várias etapas agora está disponível na lista de templates. Você pode criar uma campanha em várias etapas com base nesse template. Esta campanha em várias etapas será pré-configurada com as configurações e atividades definidas no template.
+O template de campanha orquestrada agora está disponível na lista de templates. Você pode criar uma campanha orquestrada com base nesse template. Essa campanha orquestrada será pré-configurada com as configurações e atividades definidas no template.
 
 
 >[!TAB Criar um modelo do zero]
 
 
-Para criar um template de campanha de várias etapas do zero, siga estas etapas:
+Para criar um template de campanha orquestrado do zero, siga estas etapas:
 
-1. Abra o menu **Campanha** e navegue até a guia **Modelos**. Você pode ver a lista de templates de campanha em várias etapas disponíveis.
+1. Abra o menu **Campanha** e navegue até a guia **Modelos**. Você pode ver a lista de templates de campanha orquestrada disponíveis.
 1. Clique no botão **[!UICONTROL Criar modelo]** no canto superior direito da tela.
-1. Insira o rótulo e abra as opções adicionais para inserir uma descrição do seu template de campanha de várias etapas.
-1. Selecione a pasta e a pasta de execução do modelo. A pasta é o local onde o template de campanha de várias etapas é salvo. A pasta de execução é a pasta onde as campanhas com várias etapas criadas com base nesse template são salvas.
+1. Insira o rótulo e abra as opções adicionais para inserir uma descrição do template de campanha orquestrada.
+1. Selecione a pasta e a pasta de execução do modelo. A pasta é o local onde o template de campanha orquestrada é salvo. A pasta de execução é a pasta onde as campanhas orquestradas criadas com base nesse template são salvas.
 1. Clique no botão **Criar** para confirmar suas configurações.
-1. Na tela do template de campanha de várias etapas, adicione e configure as atividades conforme necessário.
+1. Na tela do template de campanha orquestrada, adicione e configure as atividades conforme necessário.
 
    ![](assets/wf-template-activities.png){zoomable="yes"}
 
 1. Salve as alterações.
 
-O template de campanha de várias etapas agora está disponível na lista de templates. Você pode criar uma campanha em várias etapas com base nesse template. Esta campanha em várias etapas será pré-configurada com as configurações e atividades definidas no template.
+O template de campanha orquestrada agora está disponível na lista de templates. Você pode criar uma campanha orquestrada com base nesse template. Essa campanha orquestrada será pré-configurada com as configurações e atividades definidas no template.
 
 >[!ENDTABS]

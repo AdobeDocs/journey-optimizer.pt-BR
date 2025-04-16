@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Usar a atividade Criar público-alvo
-description: Saiba como usar a atividade Criar público-alvo em uma campanha com várias etapas
+description: Saiba como usar a atividade Criar público-alvo em uma campanha orquestrada
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 45%
@@ -17,9 +18,9 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Atividade Criar público-alvo"
->abstract="A atividade **Criar público-alvo** permite definir o público-alvo que entrará na campanha de várias etapas. Ao enviar mensagens no contexto de uma campanha em várias etapas, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**."
+>abstract="A atividade **Criar público-alvo** permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**."
 
-A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Esta atividade permite definir o público-alvo que entrará na campanha em várias etapas. Ao enviar mensagens no contexto de uma campanha em várias etapas, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**.
+A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Essa atividade permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**.
 
 Para definir o público-alvo, você pode:
 
@@ -73,6 +74,6 @@ Para selecionar um público-alvo existente, siga estas etapas:
 
 ## Exemplos{#build-audience-examples}
 
-Este é um exemplo de uma campanha em várias etapas com duas atividades **Criar público-alvo**. A primeira é direcionada ao público-alvo dos jogadores de pôquer, seguida de uma entrega por email. A segunda é direcionada ao público-alvo de clientes VIP, seguida de uma entrega de SMS.
+Este é um exemplo de uma campanha orquestrada com duas atividades **Build audience**. A primeira é direcionada ao público-alvo dos jogadores de pôquer, seguida de uma entrega por email. A segunda é direcionada ao público-alvo de clientes VIP, seguida de uma entrega de SMS.
 
 ![](../assets/workflow-audience-example.png)

@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Use a atividade Test em suas campanhas com várias etapas
+title: Use a atividade Test em suas campanhas orquestradas
 description: Saiba como usar a atividade Test
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 16%
@@ -22,7 +23,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="Condições"
->abstract="A atividade **Teste** pode ter várias transições de saída. Durante a execução da campanha em várias etapas, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, a campanha em várias etapas continuará no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, a campanha em várias etapas será interrompida nesse ponto."
+>abstract="A atividade **Teste** pode ter várias transições de saída. Durante a execução orquestrada da campanha, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, a campanha orquestrada continuará no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, a campanha orquestrada será interrompida nesse ponto."
 
 A atividade **Teste** é uma atividade de **Controle de fluxo**. Ela permite habilitar transições com base nas condições especificadas.
 
@@ -30,19 +31,19 @@ A atividade **Teste** é uma atividade de **Controle de fluxo**. Ela permite 
 
 Siga estas etapas para configurar a atividade **Test**:
 
-1. Adicione uma atividade **Test** à sua campanha em várias etapas.
+1. Adicione uma atividade **Test** à sua campanha orquestrada.
 
 1. Por padrão, a atividade **[!UICONTROL Test]** apresenta um teste booleano simples. Se a condição definida na transição &quot;True&quot; for atendida, essa transição será ativada. Caso contrário, uma transição padrão &quot;Falso&quot; será ativada.
 
 1. Para configurar a condição associada a uma transição, clique no ícone **[!UICONTROL Abrir caixa de diálogo de personalização]**. Use o editor de expressão para definir as regras necessárias para ativar essa transição. Você também pode aproveitar variáveis de evento, condições e funções de data/hora. [Saiba como trabalhar com variáveis de evento e o editor de expressão](../event-variables.md)
 
-   Além disso, você pode modificar o campo **[!UICONTROL Rótulo]** para personalizar o nome da transição na tela de campanha de várias etapas.
+   Além disso, você pode modificar o campo **[!UICONTROL Rótulo]** para personalizar o nome da transição na tela de campanha orquestrada.
 
    ![](../assets/workflow-test-default.png)
 
 1. Você pode adicionar várias transições de saída a uma atividade **[!UICONTROL Test]**. Para fazer isso, clique no botão **[!UICONTROL Adicionar condição]** e configure o rótulo e a condição associada para cada transição.
 v
-1. Durante a execução da campanha em várias etapas, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, as campanhas em várias etapas continuarão no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, os fluxos de trabalho serão interrompidos nesse ponto.
+1. Durante a execução orquestrada da campanha, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, as campanhas orquestradas continuarão no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, os fluxos de trabalho serão interrompidos nesse ponto.
 
 ## Exemplo {#example}
 

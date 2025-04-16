@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Usar a atividade Save audience
-description: Saiba como usar a atividade Bifurcação em uma campanha com várias etapas
+description: Saiba como usar a atividade Bifurcação em uma campanha orquestrada
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 84e34d21-dca1-4203-8539-f2b20e461936
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 10%
@@ -17,16 +18,16 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="Salvar um público-alvo"
->abstract="Use esta atividade para atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream na campanha de várias etapas. Os públicos-alvo criados são adicionados à lista de públicos-alvo e disponibilizados no menu **Públicos-alvo**."
+>abstract="Use esta atividade para atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream na campanha orquestrada. Os públicos-alvo criados são adicionados à lista de públicos-alvo e disponibilizados no menu **Públicos-alvo**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_saveaudience_outbound"
 >title="Gerar transição de saída"
 >abstract="Use essa opção se quiser adicionar uma transição após a atividade **Salvar público-alvo**."
 
-A atividade **Salvar público-alvo** é uma atividade **de Direcionamento**. Esta atividade permite atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em uma campanha com várias etapas. Os públicos-alvo criados são adicionados à lista de públicos-alvo do aplicativo e disponibilizados pelo menu **Públicos-alvo**.
+A atividade **Salvar público-alvo** é uma atividade **de Direcionamento**. Essa atividade permite atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em uma campanha orquestrada. Os públicos-alvo criados são adicionados à lista de públicos-alvo do aplicativo e disponibilizados pelo menu **Públicos-alvo**.
 
-Essa atividade é usada essencialmente para manter os grupos de populações computados na mesma campanha em várias etapas, convertendo-os em públicos-alvo reutilizáveis. Conecte-a a outras atividades de direcionamento, como uma atividade **Criar público** ou **Combinar**.
+Essa atividade é usada essencialmente para manter os grupos de populações computados na mesma campanha orquestrada, convertendo-os em públicos-alvo reutilizáveis. Conecte-a a outras atividades de direcionamento, como uma atividade **Criar público** ou **Combinar**.
 
 ## Configurar a atividade Save audience{#save-audience-configuration}
 
@@ -34,7 +35,7 @@ Siga estas etapas para configurar a atividade **Salvar público-alvo**:
 
 ![](../assets/workflow-save-audience.png)
 
-1. Adicione uma atividade **Save audience** à sua campanha em várias etapas.
+1. Adicione uma atividade **Save audience** à sua campanha orquestrada.
 
 1. No menu suspenso **Modo**, selecione a ação que deseja executar:
 
@@ -50,9 +51,9 @@ Siga estas etapas para configurar a atividade **Salvar público-alvo**:
 
 1. Marque a opção **Generate an outbound transition** se desejar adicionar uma transição após a atividade **Save audience**.
 
-O conteúdo do público-alvo salvo ficará disponível na exibição detalhada do público-alvo, que pode ser acessada no menu **Públicos-alvo**. As colunas disponíveis nesta exibição correspondem às da transição de entrada da atividade **Salvar público-alvo** da campanha de várias etapas.
+O conteúdo do público-alvo salvo ficará disponível na exibição detalhada do público-alvo, que pode ser acessada no menu **Públicos-alvo**. As colunas disponíveis nesta exibição correspondem às da transição de entrada da atividade **Salvar público-alvo** da campanha orquestrada.
 
 
 ## Exemplo{#save-audience-example}
 
-O exemplo a seguir ilustra uma simples atualização de público-alvo do direcionamento. Um scheduler é adicionado para executar a campanha de várias etapas uma vez por mês. Um query recupera todos os perfis que fizeram assinatura nos diferentes aplicativos disponíveis. A atividade **Salvar público-alvo** atualiza o público-alvo excluindo os perfis que cancelaram a assinatura do serviço desde a última execução da campanha em várias etapas e adicionando os perfis que fizeram assinatura recentemente.
+O exemplo a seguir ilustra uma simples atualização de público-alvo do direcionamento. Um scheduler é adicionado para executar a campanha orquestrada uma vez por mês. Um query recupera todos os perfis que fizeram assinatura nos diferentes aplicativos disponíveis. A atividade **Salvar público-alvo** atualiza o público-alvo excluindo os perfis que cancelaram a assinatura do serviço desde a última execução orquestrada da campanha e adicionando os perfis que fizeram assinatura recentemente.

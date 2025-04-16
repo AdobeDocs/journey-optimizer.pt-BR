@@ -5,7 +5,8 @@ title: Usar a atividade de enriquecimento
 description: Saiba como usar a atividade de enriquecimento
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 31%
@@ -24,7 +25,7 @@ A atividade **Enriquecimento** é uma atividade de **Direcionamento**. Ela permi
 
 Os dados de Enriquecimento podem vir:
 
-* **Da mesma tabela de trabalho** que a direcionada para sua campanha em várias etapas:
+* **Da mesma tabela de trabalho** que a direcionada para a sua campanha orquestrada:
 
   *Direcione um grupo de clientes e adicione o campo &quot;Data de nascimento&quot; à tabela de trabalho atual*.
 
@@ -32,9 +33,9 @@ Os dados de Enriquecimento podem vir:
 
   *Direcione um grupo de clientes e adicione os campos &quot;Quantidade&quot; e &quot;Tipo de produto&quot; da tabela &quot;Compra&quot;*.
 
-Após adicionar os dados de enriquecimento à campanha de várias etapas, eles poderão ser usados nas atividades adicionadas após a atividade de **Enriquecimento** para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas com maior probabilidade de repercutir no público-alvo.
+Após adicionar os dados de enriquecimento à campanha orquestrada, eles poderão ser usados nas atividades adicionadas após a atividade de **Enriquecimento** para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas com maior probabilidade de repercutir no público-alvo.
 
-Por exemplo, você pode adicionar à tabela de trabalho da campanha em várias etapas informações relacionadas às compras dos clientes e usar esses dados para personalizar emails com a compra mais recente ou o valor gasto nessas compras.
+Por exemplo, você pode adicionar à tabela de trabalho da campanha orquestrada informações relacionadas às compras dos clientes e usar esses dados para personalizar emails com a compra mais recente ou o valor gasto nessas compras.
 
 ## Adicionar uma atividade Enrichment {#enrichment-configuration}
 
@@ -42,19 +43,19 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 
 1. Adicione atividades como **Criar público-alvo** e **Combinar**.
 1. Adicione uma atividade **Enriquecimento**
-1. Se várias transições tiverem sido configuradas em sua campanha de várias etapas, você poderá usar o campo **[!UICONTROL Conjunto principal]** para definir qual transição deve ser usada como conjunto principal para enriquecer com dados.
+1. Se várias transições tiverem sido configuradas na sua campanha orquestrada, você poderá usar o campo **[!UICONTROL Conjunto principal]** para definir qual transição deve ser usada como conjunto principal para enriquecer com dados.
 
 ## Adicionar dados de enriquecimento {#enrichment-add}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="Dados de enriquecimento"
->abstract="Selecione os dados a serem usados para enriquecer sua campanha em várias etapas. É possível selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da dimensão do público-alvo ou um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas."
+>abstract="Selecione os dados a serem usados para enriquecer sua campanha orquestrada. É possível selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da dimensão do público-alvo ou um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="Atividade Enriquecimento"
->abstract="Após adicionar os dados de enriquecimento à campanha em várias etapas, eles poderão ser usados nas atividades adicionadas após a atividade de enriquecimento para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham mais probabilidade de repercutir com seu público-alvo."
+>abstract="Após adicionar os dados de enriquecimento à campanha orquestrada, eles poderão ser usados nas atividades adicionadas após a atividade de enriquecimento para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham mais probabilidade de repercutir com seu público-alvo."
 
 1. Clique em **Adicionar dados de enriquecimento** e selecione o atributo a ser usado para enriquecer os dados.
 
@@ -120,7 +121,7 @@ Siga as etapas para configurar uma atividade **Enriquecimento** com um link de r
 1. Identifique os dados com os quais deseja criar um link de reconciliação.
 
    * Para criar um link de reconciliação com dados do banco de dados do Campaign, selecione **Esquema de banco de dados** e escolha o esquema onde o destino está armazenado.
-   * Para criar um link de reconciliação com dados provenientes da transição de entrada, selecione **Esquema temporário** e escolha a transição de campanha em várias etapas em que os dados de destino são armazenados.
+   * Para criar um link de reconciliação com dados provenientes da transição de entrada, selecione **Esquema temporário** e escolha a transição de campanha orquestrada onde os dados de destino são armazenados.
 
 1. Os campos **Rótulo** e **Nome** são preenchidos automaticamente com base no esquema de destino selecionado. Você pode alterar os valores deles, se necessário.
 
@@ -134,7 +135,7 @@ Siga as etapas para configurar uma atividade **Enriquecimento** com um link de r
 
    * **Junção avançada**: use o modelador de consultas para configurar os critérios de reconciliação. Para fazer isso, clique no botão **Criar condição** e defina seus critérios de reconciliação criando sua própria regra usando as operações AND e OR.
 
-O exemplo abaixo mostra uma campanha em várias etapas configurada para criar um link entre a tabela de perfis do Journey Optimizer e uma tabela temporária gerada por uma atividade **Carregar arquivo**. Neste exemplo, a atividade **Enrichment** reconcilia ambas as tabelas usando o endereço de email como critério de reconciliação.
+O exemplo abaixo mostra uma campanha orquestrada configurada para criar um link entre a tabela de perfis do Journey Optimizer e uma tabela temporária gerada por uma atividade **Carregar arquivo**. Neste exemplo, a atividade **Enrichment** reconcilia ambas as tabelas usando o endereço de email como critério de reconciliação.
 
 ![](../assets/enrichment-reconciliation.png)
 
@@ -169,7 +170,7 @@ Agora você pode usar a oferta na atividade de delivery.
 
 ### Uso das ofertas da atividade Enrichment
 
-Em uma campanha com várias etapas, se quiser usar as ofertas obtidas de uma atividade de enriquecimento no seu delivery, siga as etapas abaixo:
+Em uma campanha orquestrada, se quiser usar as ofertas obtidas de uma atividade de enriquecimento no seu delivery, siga as etapas abaixo:
 
 1. Abra a atividade de delivery e acesse a edição de conteúdo. Clique no botão **[!UICONTROL Configurações de ofertas]** e selecione na lista suspensa o **[!UICONTROL Espaço de ofertas]** correspondente à sua oferta.
 Se quiser exibir somente as ofertas da atividade de enriquecimento, defina o número de **[!UICONTROL Propositions]** como 0 e salve as modificações.
@@ -257,7 +258,7 @@ Agora precisamos aplicar a classificação para recuperar as três compras **mai
 
 ### Enriquecimento com dados vinculados {#link-example}
 
-O exemplo abaixo mostra uma campanha em várias etapas configurada para criar um link entre duas transições. A primeira transição é direcionada aos dados do perfil usando uma atividade **Query**, enquanto a segunda transição inclui dados de compra armazenados em um arquivo carregado por meio de uma atividade Load file.
+O exemplo abaixo mostra uma campanha orquestrada configurada para criar um link entre duas transições. A primeira transição é direcionada aos dados do perfil usando uma atividade **Query**, enquanto a segunda transição inclui dados de compra armazenados em um arquivo carregado por meio de uma atividade Load file.
 
 ![](../assets/enrichment-uc-link.png)
 
@@ -265,7 +266,6 @@ O exemplo abaixo mostra uma campanha em várias etapas configurada para criar um
 
   ![](../assets/enrichment-uc-link-purchases.png)
 
-* Uma segunda atividade **Enrichment** é adicionada para enriquecer dados da tabela de campanha de várias etapas com os dados de compra provenientes da atividade **Load file**. Isso nos permite usar esses dados em outras atividades do, por exemplo, para personalizar mensagens enviadas aos clientes com informações sobre suas compras.
+* Uma segunda atividade **Enrichment** é adicionada para enriquecer dados da tabela de campanha orquestrada com os dados de compra provenientes da atividade **Load file**. Isso nos permite usar esses dados em outras atividades do, por exemplo, para personalizar mensagens enviadas aos clientes com informações sobre suas compras.
 
   ![](../assets/enrichment-uc-link-data.png)
-
