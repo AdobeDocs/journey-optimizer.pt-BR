@@ -7,20 +7,20 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 99%
+ht-degree: 91%
 
 ---
 
-# Integrar a outras soluções {#integration}
+# Integrações com outras soluções {#integration}
 
 Com o Adobe Journey Optimizer, você pode gerenciar, manter e exportar facilmente esses dados para plataformas ou sistemas que fazem parte de sua pilha de tecnologia. Essas integrações ajudam a resolver casos de uso específicos e a expandir o escopo funcional do Adobe Journey Optimizer.
 
 >[!NOTE]
 >
-> Integrado na Adobe Experience Platform, o Adobe Journey Optimizer é conectado nativamente ao [Perfil do cliente em tempo real da Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}. Essa fonte de dados integrada é pré-configurada e projetada para recuperar e usar dados do Perfil do cliente em tempo real (por exemplo, verificar se a pessoa que entrou em uma jornada é um cliente ou não). Ela permite usar os dados de Perfil e de Eventos de experiência. [Saiba mais](../datasource/adobe-experience-platform-data-source.md).
+> Criada na Adobe Experience Platform, a Adobe Journey Optimizer está conectada nativamente ao [Perfil de cliente em tempo real do Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}. Essa fonte de dados integrada é pré-configurada e projetada para recuperar e usar dados do Perfil do cliente em tempo real (por exemplo, verificar se a pessoa que entrou em uma jornada é um cliente ou não). Ela permite usar os dados de Perfil e de Eventos de experiência. [Saiba mais](../datasource/adobe-experience-platform-data-source.md).
 >
 
 ## Adobe Customer Journey Analytics {#integration-cja}

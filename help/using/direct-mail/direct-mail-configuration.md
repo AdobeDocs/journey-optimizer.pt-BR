@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
+source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1343'
 ht-degree: 22%
 
 ---
@@ -24,7 +24,7 @@ Antes de poder gerar esse arquivo, é necessário criar:
 
 1. [Uma configuração de roteamento de arquivo](#file-routing-configuration) para especificar o servidor para o qual o arquivo será exportado e criptografá-lo, se necessário.
 
-1. [Uma configuração de correspondência direta](#direct-mail-configuration) que fará referência à configuração de roteamento de arquivos. Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma configuração de correspondência direta.
+1. [Uma configuração de correspondência direta](#direct-mail-configuration) que faz referência à configuração de roteamento de arquivos. Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma configuração de correspondência direta.
 
 
 >[!CAUTION]

@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: analytics, integração, sdk da web, plataforma
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 5%
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 # Trabalhar com dados do Adobe Analytics {#analytics-data}
 
-Você pode aproveitar todos os dados de evento comportamental da Web que já estão sendo capturados por meio do Adobe Analytics ou do Web SDK e streaming no Adobe Experience Platform, a fim de acionar jornadas e automatizar experiências para seus clientes.
+Você pode aproveitar todos os dados de evento comportamental da Web que já estão sendo capturados por meio do Adobe Analytics ou do Web SDK e transmitidos para o Adobe Experience Platform, a fim de acionar jornadas e automatizar experiências para seus clientes.
 
 Para que isso funcione com o Adobe Analytics, é necessário:
 
@@ -65,7 +65,7 @@ Saiba mais sobre o conector de origem do Adobe Analytics na [documentação do A
 
 ## Ativar esta configuração {#activate-analytics-data}
 
-Depois que essa configuração for concluída, entre em contato com o Adobe para ativar o ambiente Journey Optimizer para usar essa fonte de dados. Essa etapa só é necessária para fontes de dados do Adobe Analytics. Para fazer isso:
+Depois que essa configuração for concluída, entre em contato com a Adobe para permitir que o ambiente do Journey Optimizer use essa fonte de dados. Essa etapa só é necessária para fontes de dados do Adobe Analytics. Para fazer isso:
 
 1. Obtenha a ID da fonte de dados. Essas informações estão disponíveis na interface do usuário: navegue até a fonte de dados criada na guia **Fluxos de Dados** do menu **Fontes**. A maneira mais fácil de encontrar é filtrar por fontes do Adobe Analytics.
 1. Entre em contato com o Atendimento ao cliente da Adobe com os seguintes detalhes:
