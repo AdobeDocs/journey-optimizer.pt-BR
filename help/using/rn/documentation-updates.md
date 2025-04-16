@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 86%
+source-wordcount: '1162'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,9 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Abril de 2025 {#apr-2025}
 
+* O capítulo Configuração agora está dividido em três capítulos: [Configuração de canal](../configuration/get-started-configuration.md), [Configuração de Jornada](../configuration/about-data-sources-events-actions.md) e [Conectar seus sistemas](../configuration/ajo-apis.md).
+* Adição de uma observação de advertência sobre o uso de eventos de experiência em expressões e condições de jornada. [Leia mais](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
+* As etapas para cancelar a delegação de um subdomínio agora estão detalhadas para [Emails](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-a-subdomain-undelegate-subdomain), [Experiências da Web](../web/web-delegated-subdomains.md#undelegate-a-subdomain-undelegate-subdomain) e [Landing pages](../landing-pages/lp-subdomains.md#undelegate-subdomain).
 * Uma observação foi adicionada na página de configuração de correspondência direta sobre o armazenamento temporário do arquivo de saída. [Leia mais](../direct-mail/direct-mail-configuration.md)
 * Adição de uma dica na seção do editor de expressão avançado do jornada sobre as diretrizes de formato de condição. [Leia mais](../building-journeys/expression/expressionadvanced.md)
 * Foi adicionada uma observação de advertência na seção de função `inAudience` sobre os impactos e as práticas recomendadas ao renomear um público. [Leia mais](../building-journeys/functions/functioninaudience.md)

@@ -5,7 +5,7 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 15%
@@ -22,8 +22,8 @@ A lista completa de [!DNL Journey Optimizer] medidas de proteção e limitaçõe
 
 | Grade de Proteção | Limite |
 | ------- | ------- |
-| Solicitação de API de experiência baseada em código com política de decisão utilizando a segmentação do Edge | 1500 |
-| Solicitação de API de experiência baseada em código com política de decisão que não usa segmentação do Edge | 5000 |
+| Solicitação de API de experiência baseada em código com política de decisão usando segmentação do Edge | 1500 |
+| Solicitação de API de experiência baseada em código com política de decisão sem usar a segmentação do Edge | 5000 |
 
 ## Coleções de itens
 

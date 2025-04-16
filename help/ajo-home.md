@@ -5,10 +5,10 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
-source-wordcount: '349'
-ht-degree: 100%
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Novidades
 
-Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Journey Optimizer. Para obter uma lista de todos os recursos, melhorias e correções, confira as [Notas de versão](using/rn/release-notes.md) detalhadas. Mantenha-se atualizado com as alterações mais recentes em nossa documentação, acessando a [página de atualizações da documentação](using/rn/documentation-updates.md).
+Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Journey Optimizer. Para obter uma lista de todos os recursos, melhorias e correções, confira as [Notas de versão](using/rn/release-notes.md) detalhadas. Visite a [página de atualizações da documentação](using/rn/documentation-updates.md) para se manter atualizado com as alterações mais recentes na documentação do produto.
 
 >[!BEGINTABS]
 
@@ -30,7 +30,7 @@ A versão de março já está disponível. Confira as notas de versão para desc
 
 ✨ Mergulhe fundo em uma experiência prática com a prévia ao vivo do recurso [Assistente de IA](../help/using/content-management/gs-generative.md), projetado para permitir que você explore seus recursos em primeira mão e os entenda totalmente.
 
-[![Saiba mais](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![saiba mais](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Relatórios com o CJA]
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, integração, padrão, campanha, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -33,7 +33,7 @@ Para cada um desses canais, selecione um **modelo** de mensagens transacionais d
 
 >[!NOTE]
 >
->A mensagem transacional Campaign Standard e o evento associado devem ser publicados para serem usados no Journey Optimizer. Se o evento for publicado, mas a mensagem não for, ele não estará visível na interface do Journey Optimizer. Se a mensagem for publicada, mas o evento associado não, ela ficará visível na interface do Journey Optimizer, mas não poderá ser usada.
+>A mensagem transacional do Campaign Standard e o evento associado devem ser publicados para serem usados no Journey Optimizer. Se o evento for publicado, mas a mensagem não for, ele não estará visível na interface do Journey Optimizer. Se a mensagem for publicada, mas o evento associado não, ela ficará visível na interface do Journey Optimizer, mas não poderá ser usada.
 
 ![](assets/journey59.png)
 
@@ -53,7 +53,7 @@ Para **[!UICONTROL Email]** e **[!UICONTROL SMS]**, os parâmetros são idêntic
 
 >[!NOTE]
 >
->Ao utilizar o template transacional de um perfil para email, o mecanismo de cancelamento de subscrição é manipulado automaticamente pelo Adobe Campaign Standard. Para implementar isso, você pode facilmente incluir um bloco de conteúdo **[!UICONTROL Link de unsubscription]** no [modelo de email transacional](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR). No entanto, se estiver usando um template baseado em eventos (rtEvent), você deve incorporar um link na mensagem que transmite o email do recipient como um parâmetro de URL e os direciona para uma landing page de cancelamento de subscrição. É necessário criar essa landing page e garantir que a decisão do recipient de cancelar a inscrição seja efetivamente transmitida ao Adobe.
+>Ao usar um template transacional do perfil para email, o mecanismo de cancelamento de subscrição é manipulado automaticamente pelo Adobe Campaign Standard. Para implementar isso, você pode facilmente incluir um bloco de conteúdo **[!UICONTROL Link de unsubscription]** no [modelo de email transacional](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR). No entanto, se estiver usando um template baseado em eventos (rtEvent), você deve incorporar um link na mensagem que transmite o email do recipient como um parâmetro de URL e os direciona para uma landing page de cancelamento de subscrição. É necessário criar essa landing page e garantir que a decisão do recipient de cancelar a inscrição seja efetivamente transmitida ao Adobe.
 
 Primeiro, você precisa escolher um template de mensagem transacional.
 
