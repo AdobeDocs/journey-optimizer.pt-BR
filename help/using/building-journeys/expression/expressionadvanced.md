@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor de expressão, dados, jornada
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 60%
+source-wordcount: '734'
+ht-degree: 57%
 
 ---
 
@@ -69,6 +69,11 @@ Nesta tela você pode escrever manualmente a expressão.
 Na parte esquerda da tela são exibidos os campos e as funções disponíveis:
 
 * **[!UICONTROL Eventos]**: escolha um dos campos recebidos do evento de entrada. A lista exibida de campos de evento é contextual e varia de acordo com os eventos adicionados na jornada. [Leia mais](../../event/about-events.md)
+
+  >[!CAUTION]
+  >
+  >A utilização de eventos de experiência em expressões/condições de jornada é suportada, mas não recomendada. Se o seu caso de uso exigir o uso de eventos de experiência, considere métodos alternativos, como [atributos computados](../../audience/computed-attributes.md), ou criar um segmento usando os eventos e incorporar esse segmento em [`inAudience` expressões](../../building-journeys/functions/functioninaudience.md).
+
 * **[!UICONTROL Públicos-alvo]**: se você tiver descartado um evento de **[!UICONTROL Qualificação de público-alvo]**, escolha o público-alvo que deseja usar na expressão. [Leia mais](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Fontes de dados]**: escolha na lista de campos disponíveis nos grupos de campos de suas fontes de dados. [Leia mais](../../datasource/about-data-sources.md)
 * **[!UICONTROL Propriedades da Jornada]**: esta seção reagrupa os campos técnicos relacionados à jornada de um determinado perfil. [Leia mais](journey-properties.md)

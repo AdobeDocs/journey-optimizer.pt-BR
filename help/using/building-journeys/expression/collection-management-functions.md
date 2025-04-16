@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: query, coleções, funções, carga, jornada
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,13 @@ A função **[!UICONTROL all]** habilita a definição de um filtro em uma deter
 Por exemplo, entre todos os usuários do aplicativo, você pode obter os usuários usando o IOS 13 (expressão booleana &quot;app used == IOS 13&quot;). O resultado dessa função é a lista filtrada que contém itens correspondentes à expressão booleana (exemplo: usuário do aplicativo 1, usuário do aplicativo 34, usuário do aplicativo 432).
 
 Em uma atividade Data Source Condition, você pode verificar se o resultado da função **[!UICONTROL all]** é nulo ou não. Você também pode combinar essa função **[!UICONTROL all]** com outras funções, como **[!UICONTROL count]**. Para obter mais informações, consulte [Atividade de Condição Data Source](../condition-activity.md#data_source_condition).
+
+
+## Exemplos
+
+>[!CAUTION]
+>
+>A utilização de eventos de experiência em expressões/condições de jornada é suportada, mas não recomendada. Se o seu caso de uso exigir o uso de eventos de experiência, considere métodos alternativos, como [atributos computados](../../audience/computed-attributes.md), ou criar um segmento usando os eventos e incorporar esse segmento em [`inAudience` expressões](../../building-journeys/functions/functioninaudience.md).
 
 **Exemplo 1:**
 

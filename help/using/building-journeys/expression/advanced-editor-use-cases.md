@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expressão, condição, casos de uso, eventos
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
@@ -19,13 +19,18 @@ ht-degree: 1%
 
 O editor de expressão avançado pode ser usado para criar condições que permitem filtrar usuários em suas jornadas. Essas condições permitem direcionar os usuários no prazo, data, local, duração ou ações, como compra ou abandono de carrinhos, para que eles possam ser redirecionados na jornada.
 
->[!NOTE]
+>[!CAUTION]
 >
->Eventos começam com @, fontes de dados com #.
+>A utilização de eventos de experiência em expressões/condições de jornada é suportada, mas não recomendada. Se o seu caso de uso exigir o uso de eventos de experiência, considere métodos alternativos, como [atributos computados](../../audience/computed-attributes.md), ou criar um segmento usando os eventos e incorporar esse segmento em [`inAudience` expressões](../../building-journeys/functions/functioninaudience.md).
+
 
 ## Criação de condições em Eventos de experiência
 
 O editor de expressão avançado é obrigatório para executar consultas em séries de tempo, como uma lista de compras ou cliques anteriores em mensagens. Essas consultas não podem ser executadas usando o editor simples.
+
+>[!NOTE]
+>
+>Eventos começam com @, fontes de dados com #.
 
 Os eventos de experiência são recuperados do Adobe Experience Platform como uma coleção em ordem cronológica inversa, portanto:
 
@@ -40,7 +45,7 @@ Primeiro de tudo, clientes-alvo que navegaram na loja online, mas não finalizar
 
 <!--**This expression looks for a specified value in a string value:**
 
-`In (“addToCart”, #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`-->
 
 **Esta expressão procura todos os eventos para este usuário especificado nos últimos 7 dias:**
 
