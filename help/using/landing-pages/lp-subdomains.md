@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: landing page, landing page, subdomínios, configuração
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '972'
 ht-degree: 19%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 19%
 >title="Criar uma predefinição de página de destino"
 >abstract="Para criar uma predefinição de página de destino, verifique se você configurou anteriormente pelo menos um subdomínio de página de destino para escolher na lista Nome de subdomínio ."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=pt-BR#lp-create-preset" text="Criar predefinições de página de destino"
+
+## Introdução aos subdomínios landing page {#gs-lp-subdomains}
 
 Para [criar predefinições de página de aterrissagem](lp-presets.md), é necessário configurar os subdomínios que serão usados nas páginas de aterrissagem.
 
@@ -74,11 +76,11 @@ Para usar um subdomínio que já está delegado à Adobe, siga as etapas abaixo:
 
    >[!CAUTION]
    >
-   >Se você selecionar um domínio que foi delegado à Adobe usando o [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation), deverá criar o registro DNS na sua plataforma de hospedagem. Para gerar o registro DNS, o processo é o mesmo de quando você configura um novo subdomínio de página de destino. Saiba mais em [esta seção](#lp-configure-new-subdomain).
+   >Se você selecionar um domínio que foi delegado para Adobe Systems usando o [método](../configuration/delegate-subdomain.md#cname-subdomain-delegation) CNAME, você deve criar o registro DNS na sua plataforma de hospedagem. Para gerar o registro DNS, o processo é o mesmo de quando você configura um novo subdomínio de página de destino. Saiba como [nesta seção](#lp-configure-new-subdomain).
 
 1. Clique em **[!UICONTROL Enviar]**.
 
-1. Depois de enviado, o subdomínio é exibido na lista com o status **[!UICONTROL Processando]**. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Depois de enviado, o subdomínio é exibido na lista com o **[!UICONTROL status de Processamento]** . Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
@@ -111,11 +113,11 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
    >
    >* Letras maiúsculas não são permitidas em subdomínios.
 
-   Não é permitido delegar um subdomínio inválido à Adobe. Insira um subdomínio válido de propriedade de sua organização, como marketing.yourcompany.com.
+   Não é permitido delegar um subdomínio inválido para Adobe Systems. Certifique-se de inserir um subdomínio válido de sua organização, como o marketing.yourcompany.com.
 
-   Para páginas de aterrissagem, os subdomínios de vários níveis são compatíveis. Por exemplo, você pode usar &quot;email.marketing.yourcompany.com&quot;.
+   Para páginas de aterrissagem, subdomínios de vários níveis são suportados. Por exemplo, você pode usar &quot;email.marketing.yourcompany.com&quot;.
 
-1. O registro a ser colocado em seus servidores DNS é exibido. Copie esse registro ou baixe um arquivo CSV e navegue até a solução de hospedagem de domínio para gerar o registro DNS correspondente.
+1. O registro a ser colocado nos servidores DNS é exibido. Copie esse registro ou baixe um arquivo CSV e navegue até a solução de hospedagem de domínio para gerar o registro DNS correspondente.
 
 1. Verifique se o registro DNS foi gerado na solução de hospedagem de domínio. Se tudo estiver configurado corretamente, marque a caixa &quot;Eu confirmo...&quot; e clique em **[!UICONTROL Enviar]**.
 
@@ -161,8 +163,8 @@ Depois que a solicitação for tratada pela Adobe, o domínio não delegado não
 
 >[!CAUTION]
 >
->Depois que a delegação de um subdomínio for cancelada:
+>Depois que um subdomínio é desdelegado:
 >
->   * Não é possível reativar as configurações de canal que estavam usando esse subdomínio.
+>   * Não é possível reativar as configurações do canal que estavam usando esse subdomínio.
 >
->   * Não é possível delegar o subdomínio exato novamente por meio da interface. Caso deseje, entre em contato com o representante da Adobe.
+>   * Não é possível delegar o subdomínio exato novamente pela interface do usuário. Se quiser fazer isso, entre em contato com o representante da Adobe.
