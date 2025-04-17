@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 31e88f02ed2569357a31552db717225d7f37a1eb
+source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
 workflow-type: tm+mt
-source-wordcount: '2329'
-ht-degree: 90%
+source-wordcount: '2330'
+ht-degree: 89%
 
 ---
 
@@ -739,14 +739,14 @@ ht-degree: 90%
       + [Solucionar problemas de uma ação personalizada](using/action/troubleshoot-custom-action.md)
       + [Usar as respostas de chamada da API em ações personalizadas](using/action/action-response.md)
 + Conecte seus sistemas {#connect-systems}&quot;
-   + [APIs do Adobe Journey Optimizer](using/configuration/ajo-apis.md)
-   + Trabalhar com APIs do jornada {#external-systems}
-      + [Integração das jornadas com sistemas externos](using/configuration/external-systems.md)
-      + [API de limitação](using/configuration/capping.md)
+   + [Trabalhar com APIs do Journey Optimizer](using/configuration/ajo-apis.md)
+   + Integrar suas jornadas a sistemas externos {#external-systems}
+      + [Integração do Jornada com sistemas externos](using/configuration/external-systems.md)
+      + [API de limite](using/configuration/capping.md)
       + [API de limitação](using/configuration/throttling.md)
    + Enviar com soluções da Adobe {#adobe-solutions}
-      + [Integração do Jornada com o Adobe Campaign Standard](using/action/acs-action.md)
-      + [Integração do Jornada com o Adobe Campaign v7/v8](using/action/acc-action.md)
+      + [Integração do Jornada com o Campaign Standard](using/action/acs-action.md)
+      + [Integração do Jornada com o Campaign v7/v8](using/action/acc-action.md)
       + [Integração do Jornada com o Marketo Engage](using/action/marketo-engage.md)
    + [Configurar o conector de códigos-fonte](using/start/get-started-sources.md)
    + [Exportar objetos para outra sandbox](using/configuration/copy-objects-to-sandbox.md)
