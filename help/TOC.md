@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2335'
 ht-degree: 89%
 
 ---
@@ -738,7 +738,7 @@ ht-degree: 89%
       + [Configurar uma ação personalizada](using/action/about-custom-action-configuration.md)
       + [Solucionar problemas de uma ação personalizada](using/action/troubleshoot-custom-action.md)
       + [Usar as respostas de chamada da API em ações personalizadas](using/action/action-response.md)
-+ Conecte seus sistemas {#connect-systems}&quot;
++ Conectar seus sistemas e ambientes {#connect-systems}
    + [Trabalhar com APIs do Journey Optimizer](using/configuration/ajo-apis.md)
    + Integrar suas jornadas a sistemas externos {#external-systems}
       + [Integração do Jornada com sistemas externos](using/configuration/external-systems.md)
@@ -748,8 +748,10 @@ ht-degree: 89%
       + [Integração do Jornada com o Campaign Standard](using/action/acs-action.md)
       + [Integração do Jornada com o Campaign v7/v8](using/action/acc-action.md)
       + [Integração do Jornada com o Marketo Engage](using/action/marketo-engage.md)
+   + Gerenciamento de sandboxes {#sandbox}
+      + [Usar e atribuir sandboxes](using/administration/sandboxes.md)
+      + [Exportar objetos para outra sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Configurar o conector de códigos-fonte](using/start/get-started-sources.md)
-   + [Exportar objetos para outra sandbox](using/configuration/copy-objects-to-sandbox.md)
 + Controle de acesso {#access-control}
    + Visão geral do controle de acesso {#privacy}
       + [Introdução ao gerenciamento de usuários](using/administration/permissions-overview.md)
@@ -759,7 +761,6 @@ ht-degree: 89%
    + [Gerenciar usuários e funções](using/administration/permissions.md)
    + [Controle de acesso baseado em atributos](using/administration/attribute-based-access.md)
    + [Controle de acesso no nível do objeto](using/administration/object-based-access.md)
-   + [Gerenciamento de sandboxes](using/administration/sandboxes.md)
 + Privacidade {#privacy}
    + [Introdução à privacidade](using/privacy/get-started-privacy.md)
    + [Solicitações de privacidade](using/privacy/requests.md)

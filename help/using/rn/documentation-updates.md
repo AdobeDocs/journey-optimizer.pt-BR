@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 80%
+source-wordcount: '1251'
+ht-degree: 77%
 
 ---
 
@@ -33,6 +33,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Atualmente, não é possível cancelar a delegação de subdomínios por meio da interface do usuário do [!UICONTROL Journey Optimizer]. Entre em contato com o representante da Adobe. As seções de email, página de aterrissagem, SMS e subdomínio da Web foram atualizadas com essas informações e as etapas a serem executadas antes de entrar em contato com o Adobe. [Leia mais](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * Foi adicionado um esclarecimento sobre o parâmetro `maxHttpConnections` opcional na API do jornada Capping, incluindo orientação sobre como usá-lo junto com configurações de limitação para o mesmo endpoint. [Leia mais](../configuration/throttling.md)
 * Na seção Experience Decisioning, foram adicionadas orientações explicando que os itens de oferta aprovados não podem ser excluídos se forem usados em uma coleção ou em uma decisão. Etapas incluídas para alterar seu status para &quot;Rascunho&quot; usando a opção **[!UICONTROL Desfazer aprovação]**. [Leia mais](../experience-decisioning/items.md#manage)
+* As informações sobre sandboxes foram agrupadas em uma nova seção &quot;Gerenciamento de sandboxes&quot;. Esta nova seção fornece informações sobre como usar e atribuir sandboxes e como usar os recursos de exportação e importação de pacotes para copiar objetos, como jornadas, modelos de conteúdo ou fragmentos, em várias sandboxes. [Leia mais](../administration/sandboxes.md)
 
 ## Março de 2025 {#mar-2025}
 
