@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 83%
+source-wordcount: '1202'
+ht-degree: 80%
 
 ---
 
@@ -32,6 +32,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Atualização da página de teste da jornada com uma observação sobre a necessidade de incluir um namespace de identidade no evento usado. [Leia mais](../building-journeys/testing-the-journey.md)
 * Atualmente, não é possível cancelar a delegação de subdomínios por meio da interface do usuário do [!UICONTROL Journey Optimizer]. Entre em contato com o representante da Adobe. As seções de email, página de aterrissagem, SMS e subdomínio da Web foram atualizadas com essas informações e as etapas a serem executadas antes de entrar em contato com o Adobe. [Leia mais](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * Foi adicionado um esclarecimento sobre o parâmetro `maxHttpConnections` opcional na API do jornada Capping, incluindo orientação sobre como usá-lo junto com configurações de limitação para o mesmo endpoint. [Leia mais](../configuration/throttling.md)
+* Na seção Experience Decisioning, foram adicionadas orientações explicando que os itens de oferta aprovados não podem ser excluídos se forem usados em uma coleção ou em uma decisão. Etapas incluídas para alterar seu status para &quot;Rascunho&quot; usando a opção **[!UICONTROL Desfazer aprovação]**. [Leia mais](../experience-decisioning/items.md#manage)
 
 ## Março de 2025 {#mar-2025}
 
