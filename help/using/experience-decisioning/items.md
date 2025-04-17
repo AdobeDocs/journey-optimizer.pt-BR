@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1752'
 ht-degree: 15%
 
 ---
@@ -163,6 +163,10 @@ Selecionar um item de decisão ou clicar no botão de reticências permite as a�
 
   >[!IMPORTANT]
   >
-  >Depois de excluído, o item de decisão e seu conteúdo não estarão mais acessíveis. Essa ação não pode ser desfeita. Se o item de decisão for usado em uma coleção ou uma decisão, ele não poderá ser excluído. Você deve remover o item de decisão de qualquer objeto primeiro.
+  >Depois de excluído, o item de decisão e seu conteúdo não estarão mais acessíveis. Essa ação não pode ser desfeita.
+
+  Os itens de oferta aprovados não poderão ser excluídos se forem usados em uma coleção ou em uma decisão. Para excluí-los, altere o status para &quot;Rascunho&quot;. Para fazer isso, clique no botão de reticências e selecione **[!UICONTROL Desfazer aprovação]**.
+
+  ![](assets/item-undo.png)
 
 * **[!UICONTROL Arquivar]**: define o status do item de decisão como **[!UICONTROL Arquivado]**. O item de decisão ainda está disponível na lista, mas você não pode definir seu status novamente como **[!UICONTROL Rascunho]** ou **[!UICONTROL Aprovado]**. Você só pode duplicá-la ou excluí-la.
