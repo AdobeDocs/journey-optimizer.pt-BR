@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1768'
 ht-degree: 8%
 
 ---
@@ -72,7 +72,7 @@ Para usar o modo de teste, siga estas etapas:
 * Para otimizar o desempenho e evitar o uso de recursos obsoletos, todas as jornadas no modo de teste que não forem acionadas por uma semana retornarão para o status **Rascunho**.
 * Os eventos acionados pelo modo de teste são armazenados em conjuntos de dados dedicados. Esses conjuntos de dados são rotulados da seguinte maneira: `JOtestmode - <schema of your event>`
 * Ao testar jornadas que incluem vários eventos, você deve acionar cada evento em sequência. Enviar um evento muito cedo (antes da conclusão do primeiro nó de espera) ou muito tarde (após o tempo limite configurado) descartará o evento e enviará o perfil a um caminho de tempo limite. Sempre confirmar se as referências aos campos de carga útil do evento permanecem válidas, enviando a carga útil dentro da janela definida
-
+* Certifique-se de que a janela [datas/hora de início e término](journey-properties.md#dates) configurada pela jornada inclua a hora atual ao iniciar o modo de teste. Caso contrário, os eventos de teste acionados serão descartados silenciosamente.
 
 <!--
 * Fields from related entities are hidden from the test mode.
