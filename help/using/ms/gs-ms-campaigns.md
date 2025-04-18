@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
+source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 16%
@@ -30,7 +30,7 @@ ht-degree: 16%
    * [Definir configurações da campanha](ms-campaign-settings.md)
    * [Introdução a atividades](activities/about-activities.md)
    * [Orquestrar atividades](orchestrate-activities.md)
-* [Personalizar suas mensagens](ms-personalization.md)*
+* [Personalizar suas mensagens](ms-personalization.md)
 * [Criar consultas](ms-query-modeler.md)
 * [Testar e validar suas mensagens](ms-proofs.md)
 * [Agendar e iniciar suas campanhas](start-monitor-campaigns.md)
