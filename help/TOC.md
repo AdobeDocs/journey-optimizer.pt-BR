@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4d7cab6b6841c2122d901f55c3162f0549ad5ff
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2337'
 ht-degree: 89%
 
 ---
@@ -174,12 +174,11 @@ ht-degree: 89%
          + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campanhas orquestradas {#orchestrated-campaigns}
    + [Introdução a campanhas orquestradas](using/ms/gs-ms-campaigns.md)
-   + [Princípios fundamentais](using/ms/gs-campaign-creation.md)
    + Configuração {#ms-config}
       + [Etapas de configuração](using/ms/gs-campaign-config.md)
       + [Criar esquemas relacionais](using/ms/ms-schemas.md)
-      + [Trabalhar com variáveis de evento](using/ms/event-variables.md)
    + Crie sua primeira campanha orquestrada {#create-ms-campaign}
+      + [Princípios fundamentais](using/ms/gs-campaign-creation.md)
       + [Criar uma campanha orquestrada](using/ms/create-ms-campaign.md)
       + [Orquestrar atividades](using/ms/orchestrate-activities.md)
       + [Definir configurações da campanha](using/ms/ms-campaign-settings.md)
@@ -199,7 +198,6 @@ ht-degree: 89%
       + [Carregar arquivo](using/ms/activities/load-file.md)
       + [Reconciliação](using/ms/activities/reconciliation.md)
       + [Salvar público-alvo](using/ms/activities/save-audience.md)
-      + [Scheduler](using/ms/activities/scheduler.md)
       + [Divisão](using/ms/activities/split.md)
       + [Teste](using/ms/activities/test.md)
       + [Atualizar dados](using/ms/activities/update-data.md)

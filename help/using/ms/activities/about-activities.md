@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Trabalhar com atividades de campanha orquestradas
 description: Saiba como organizar atividades de campanha
+badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '453'
 ht-degree: 23%
 
 ---
@@ -32,7 +33,7 @@ Essas atividades são específicas para direcionamento. Elas permitem criar uma 
 * [Criar público-alvo](build-audience.md): defina sua população de destino. Você pode selecionar um público existente ou usar o modelador de consultas para definir sua própria consulta.
 * [Alterar dimensão](change-dimension.md): altere a targeting dimension enquanto você estiver criando sua campanha orquestrada.
 * [Combinar](combine.md): executar segmentação na população de entrada. Você pode usar uma união, uma interseção ou uma exclusão.
-* [Deduplication](deduplication.md): Delete duplicates in the result(s) of the inbound activities.
+* [Desduplicação](deduplication.md): excluir duplicados no(s) resultado(s) das atividades de entrada.
 * [Enriquecimento](enrichment.md): defina dados adicionais para processar em sua campanha orquestrada. Com essa atividade, você pode aproveitar a transição de entrada e configurar a atividade para concluir a transição de saída com dados adicionais.
 * [Reconciliação](reconciliation.md): defina o vínculo entre os dados nos dados do Journey Optimizer e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo.
 * [Salvar público-alvo](save-audience.md): atualize um público-alvo existente ou crie um novo público-alvo a partir da população computada upstream em uma campanha orquestrada.
@@ -47,7 +48,7 @@ Essas atividades são específicas para manipular e enriquecer dados de populaç
 
 ## Atividades do canal {#channel}
 
-Adobe Journey Optimizer allows you to automate and execute marketing campaigns across multiple channels. Você pode combinar atividades de canal na tela para criar uma campanha orquestrada entre canais que pode acionar ações com base no comportamento do cliente. As seguintes atividades do **Canal** estão disponíveis: notificações por push de email, SMS, Android e iOS. [Saiba como configurar uma entrega no contexto de uma campanha orquestrada](channels.md).
+O Adobe Journey Optimizer permite automatizar e executar campanhas de marketing em vários canais. Você pode combinar atividades de canal na tela para criar uma campanha orquestrada entre canais que pode acionar ações com base no comportamento do cliente. As seguintes atividades do **Canal** estão disponíveis: notificações por push de email, SMS, Android e iOS. [Saiba como configurar uma entrega no contexto de uma campanha orquestrada](channels.md).
 
 ## Atividades de controle de fluxo {#flow-control}
 
@@ -59,8 +60,8 @@ Adobe Journey Optimizer allows you to automate and execute marketing campaigns a
 As atividades a seguir são específicas para organizar e executar campanhas orquestradas. Sua principal tarefa é coordenar as outras atividades:
 
 * [And-join](and-join.md): sincroniza várias ramificações de execução de uma campanha orquestrada.
-* **End**: Graphically mark the end of an orchestrated campaign. This activity has no functional impact and is therefore optional
-* [Fork](fork.md): Create outbound transitions to start several activities at the same time.
-* [Scheduler](scheduler.md): Schedule when the orchestrated campaign gets started.
+* **Fim**: marca graficamente o fim de uma campanha orquestrada. Esta atividade não tem impacto funcional e, portanto, é opcional
+* [Bifurcação](fork.md): crie transições de saída para iniciar várias atividades ao mesmo tempo.
+* [Scheduler](scheduler.md): agenda quando a campanha orquestrada é iniciada.
 * [Test](test.md): habilitar transições com base em condições especificadas.
 * [Aguardar](wait.md): pausar momentaneamente a execução de uma parte de uma campanha orquestrada.

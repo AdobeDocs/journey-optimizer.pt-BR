@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introdução a campanhas orquestradas
 description: Saiba como começar com campanhas orquestradas
+badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 14%
+source-wordcount: '531'
+ht-degree: 17%
 
 ---
 
@@ -19,12 +20,21 @@ ht-degree: 14%
 
 **Índice**
 
-* Introdução a campanhas orquestradas - [Principais entidades](gs-campaign-creation.md)
-* Configuração: [Configurar campanhas orquestradas](gs-campaign-config.md) - [Trabalhar com esquemas](ms-schemas.md) - [Trabalhar com variáveis de evento](event-variables.md)
-* Introdução: [Criar uma campanha orquestrada](create-ms-campaign.md) - [Definir configurações da campanha](ms-campaign-settings.md) - [Introdução às atividades](activities/about-activities.md) - [Orquestrar atividades](orchestrate-activities.md) - [Personalization](ms-personalization.md)
-* Lista de atividades: [And-join](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Ações de canal](activities/channels.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Carregar arquivo](activities/load-file.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Agendador](activities/scheduler.md) - [Divisão](activities/split.md) - [Teste](activities/test.md) - [Atualizar dados](activities/update-data.md) - [Aguardar](activities/wait.md)
+* Introdução a campanhas orquestradas
+* Configuração
+   * [Configurar campanhas orquestradas](gs-campaign-config.md)
+   * [Criar esquemas relacionais](ms-schemas.md)
+* Crie sua primeira campanha orquestrada
+   * [Principais princípios](gs-campaign-creation.md)
+   * [Criar uma campanha orquestrada](create-ms-campaign.md)
+   * [Definir configurações da campanha](ms-campaign-settings.md)
+   * [Introdução a atividades](activities/about-activities.md)
+   * [Orquestrar atividades](orchestrate-activities.md)
+* [Personalização](ms-personalization.md)
+* [Testar e validar suas mensagens](ms-proofs.md)
 * [Agendar e iniciar suas campanhas](start-monitor-campaigns.md)
-* [Monitoramento e relatórios](reporting-campaigns.md)
+* Lista de atividades: [And-join](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Ações de canal](activities/channels.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Carregar arquivo](activities/load-file.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Divisão](activities/split.md) - [Teste](activities/test.md) - [Atualizar dados](activities/update-data.md) - [Aguardar](activities/wait.md)
+* [Relatórios](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 

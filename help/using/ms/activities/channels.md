@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adicionar uma atividade de canal em uma campanha multistep
 description: Saiba como adicionar uma atividade de canal em uma campanha multietapas
+badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '900'
 ht-degree: 18%
 
 ---
