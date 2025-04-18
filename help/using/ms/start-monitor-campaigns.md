@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Iniciar e monitorar campanhas orquestradas com o Adobe Journey Optimizer
-description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe Journey Optimizer
+title: Agendar e iniciar campanhas orquestradas com o Adobe Journey Optimizer
+description: Saiba como agendar e iniciar campanhas orquestradas com o Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 1%
 
 ---
 
-# Inicie e monitore suas campanhas orquestradas {#start-monitor}
+# Agendar e iniciar suas campanhas orquestradas {#start-monitor}
 
 <!--
 <audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
@@ -22,7 +22,6 @@ ht-degree: 1%
 >id="ajo_campaign_publication"
 >title="Publicar campanha orquestrada"
 >abstract="Para iniciar sua campanha, você deve publicá-la. Verifique se todos os avisos foram apagados antes da publicação."
-
 
 Depois de criar as tarefas orquestradas e projetadas para execução na tela, é possível publicá-las e monitorar como elas estão sendo executadas.
 

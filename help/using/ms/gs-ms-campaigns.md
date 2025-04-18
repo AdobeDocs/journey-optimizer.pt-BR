@@ -6,9 +6,9 @@ description: Saiba como começar com campanhas orquestradas
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
+source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '529'
 ht-degree: 14%
 
 ---
@@ -21,8 +21,10 @@ ht-degree: 14%
 
 * Introdução a campanhas orquestradas - [Principais entidades](gs-campaign-creation.md)
 * Configuração: [Configurar campanhas orquestradas](gs-campaign-config.md) - [Trabalhar com esquemas](ms-schemas.md) - [Trabalhar com variáveis de evento](event-variables.md)
-* Comece: [Criar uma campanha orquestrada](create-ms-campaign.md) - [Definir configurações da campanha](ms-campaign-settings.md) - [Agendar e iniciar suas campanhas](start-monitor-campaigns.md) - [Começar a usar atividades](activities/about-activities.md) - [Orquestrar atividades](orchestrate-activities.md) - [Personalization](ms-personalization.md)
+* Introdução: [Criar uma campanha orquestrada](create-ms-campaign.md) - [Definir configurações da campanha](ms-campaign-settings.md) - [Introdução às atividades](activities/about-activities.md) - [Orquestrar atividades](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Lista de atividades: [And-join](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Ações de canal](activities/channels.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Carregar arquivo](activities/load-file.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Agendador](activities/scheduler.md) - [Divisão](activities/split.md) - [Teste](activities/test.md) - [Atualizar dados](activities/update-data.md) - [Aguardar](activities/wait.md)
+* [Agendar e iniciar suas campanhas](start-monitor-campaigns.md)
+* [Monitoramento e relatórios](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 
