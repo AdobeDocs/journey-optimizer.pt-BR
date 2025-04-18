@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 26%
+source-wordcount: '332'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 26%
 >title="Atividade Mudar dimensão"
 >abstract="Essa atividade permite alterar o targeting dimension à medida que você constrói um público-alvo. Ela desloca o eixo dependendo do modelo de dados e da dimensão de entrada. Por exemplo, você pode mudar da dimensão “contratos” para a dimensão “clientes”."
 
-A atividade **Change dimension** é uma atividade **Targeting**. Essa atividade permite alterar o targeting dimension à medida que você constrói sua campanha orquestrada. Ele desloca o eixo dependendo do template de dados e da dimensão de entrada.
+Como profissional de marketing, você pode alternar o targeting dimension de uma entidade para outra entidade vinculada em uma campanha orquestrada e refinar seu direcionamento de público-alvo com base em diferentes conjuntos de dados, como a mudança de perfis de usuários para direcionamento de ações ou reservas específicas.
+
+Para fazer isso, use a atividade de direcionamento **Change dimension**. Essa atividade permite alterar o targeting dimension à medida que você constrói sua campanha orquestrada. Ele desloca o eixo dependendo do template de dados e da dimensão de entrada.
 
 Por exemplo, você pode alternar o targeting dimension de uma campanha orquestrada de &quot;Perfil&quot; para &quot;Contratos&quot; para enviar mensagens ao proprietário do contrato direcionado.
 
@@ -41,7 +43,7 @@ Siga estas etapas para configurar a atividade **Alterar dimensão**:
 
 1. Adicione uma atividade **Change dimension** à sua campanha orquestrada.
 
-   ![](assets/change-dimension.png)
+   ![](../assets/change-dimension.png)
 
 1. Defina a **Nova dimensão de destino**. Durante a alteração de dimensão, todos os registros são mantidos.
 
@@ -53,4 +55,4 @@ Neste exemplo, queremos enviar um delivery de SMS para todos os perfis que fizer
 
 Em seguida, usamos uma atividade **[!UICONTROL Change dimension]** para alternar a targeting dimension de campanha orquestrada para &quot;Recipients&quot;. Isso nos permite direcionar os recipients que correspondem ao query.
 
-![](assets/change-dimension-example.png)
+![](../assets/change-dimension-example.png)

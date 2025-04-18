@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 46%
+ht-degree: 34%
 
 ---
 
@@ -21,20 +21,20 @@ ht-degree: 46%
 >title="Atividade Criar público-alvo"
 >abstract="A atividade **Criar público-alvo** permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**."
 
-A atividade **Criar público-alvo** é uma atividade de **Direcionamento**. Essa atividade permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**.
+Como profissional de marketing, você pode criar consultas complexas facilmente usando uma interface amigável, permitindo que segmente seu público com base em uma grande variedade de critérios e comportamentos para adaptar suas campanhas com mais eficiência.
+
+Para fazer isso, use a atividade de direcionamento **Criar público**. Essa atividade permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**.
 
 Para definir o público-alvo, você pode:
 
-* Selecionar um público-alvo da Adobe Experience Platform.
+* Selecione um público existente.
+* Selecione um filtro predefinido.
 * Crie um novo público-alvo com o modelador de consultas definindo e combinando critérios de filtragem.
 
 >[!NOTE]
 >
 >Os públicos carregados de um arquivo não podem ser direcionados usando uma atividade Criar público. Para fazer isso, você precisa usar uma atividade **Carregar arquivo** seguida por uma atividade **Reconciliação**.
 
-<!--
-The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
--->
 
 ## Configurar a atividade Criar público-alvo {#build-audience-configuration}
 
@@ -45,33 +45,20 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Siga estas etapas para configurar a atividade **Criar público-alvo**:
 
-![](../assets/workflow-audience.png)
+![](../assets/build-audience.png)
 
 1. Adicione uma atividade **Criar público-alvo**.
 1. Defina um rótulo.
 1. Defina o tipo de público-alvo: **Crie o seu próprio** ou **Ler público-alvo**.
 1. Configure seu público seguindo as etapas detalhadas nas guias abaixo.
 
->[!BEGINTABS]
-
->[!TAB Crie o seu próprio (consulta)]
 
 Para criar sua própria query, siga estas etapas:
 
 1. Selecione **Crie sua própria (consulta)**.
 1. Escolha a **Dimensão de direcionamento**. O targeting dimension permite definir a população-alvo da operação: destinatários, beneficiários(as) de contrato, operadores(as), assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários.
 1. Clique em **Continuar**.
-1. Use o modelador de consultas para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email.
-
->[!TAB Ler público-alvo]
-
-Para selecionar um público-alvo existente, siga estas etapas:
-
-1. Selecione **Ler público-alvo**.
-1. Clique em **Continuar**.
-1. Selecione o público-alvo assim como faz ao criar uma nova entrega. 
-
->[!ENDTABS]
+1. Use o modelador de consultas para definir sua consulta. [Saiba mais sobre o modelador de consultas nesta seção](../ms-query-modeler.md)
 
 ## Exemplos{#build-audience-examples}
 
