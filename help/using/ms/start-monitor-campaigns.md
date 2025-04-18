@@ -6,9 +6,9 @@ description: Saiba como agendar e iniciar campanhas orquestradas com o Adobe Jou
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1124'
 ht-degree: 7%
 
 ---
@@ -127,9 +127,15 @@ Os indicadores visuais no canto superior direito de cada caixa de atividade perm
 
 ## Monitorar logs e tarefas {#logs-tasks}
 
-O monitoramento de logs e tarefas de fluxos de trabalho é uma etapa essencial para analisar campanhas orquestradas e garantir que elas estejam sendo executadas corretamente. Eles podem ser acessados pelo ícone **[!UICONTROL Logs]**, que está disponível na barra de ferramentas de ações e no painel de propriedades de cada atividade.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_logs"
+>title="Logs e tarefas"
+>abstract="A tela **Logs and tasks** fornece um histórico da execução de campanha orquestrada, registrando todas as ações de usuário e encontrando erros."
+
+O monitoramento de logs e tarefas é uma etapa essencial para analisar campanhas orquestradas e garantir que elas estejam sendo executadas corretamente. Eles podem ser acessados pelo ícone **[!UICONTROL Logs]**, que está disponível na barra de ferramentas de ações e no painel de propriedades de cada atividade.
 
 O menu **[!UICONTROL Logs and tasks]** fornece um histórico da execução de campanha orquestrada, registrando todas as ações de usuário e encontrando erros.
+
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 Dois tipos de informações estão disponíveis:
