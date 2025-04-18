@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 15%
 
 ---
 
@@ -47,9 +47,13 @@ Um indivíduo só poderá inserir uma atividade **Aguardar** se tiver tempo sufi
 
 Uma prática recomendada para não usar as atividades **Aguardar** para bloquear a reentrada. Em vez disso, use a opção **Permitir reentrada** no nível de propriedades da jornada. Saiba mais sobre [esta página](../building-journeys/journey-properties.md#entrance).
 
-### Modo de espera e teste {#wait-test-modd}
+### Modo de espera e teste {#wait-test-mode}
 
 No modo de teste, o parâmetro **[!UICONTROL Tempo de espera em teste]** permite definir o tempo que cada atividade de **Espera** durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Saiba mais sobre [esta página](../building-journeys/testing-the-journey.md).
+
+### Canais de espera e móveis {#wait-mobile-channels}
+
+Se você quiser mostrar uma [mensagem no aplicativo](../in-app/create-in-app.md) logo após enviar uma [notificação por push](../push/get-started-push.md), use uma atividade **Aguardar** para permitir que o tempo de carga da mensagem no aplicativo seja propagado. Normalmente, recomenda-se uma espera de 5 a 15 minutos, mas os tempos exatos podem variar dependendo da complexidade da carga útil e das necessidades de personalização.
 
 ## Configuração {#wait-configuration}
 

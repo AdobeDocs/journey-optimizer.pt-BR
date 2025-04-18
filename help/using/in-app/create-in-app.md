@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2056'
 ht-degree: 12%
 
 ---
@@ -118,6 +118,10 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
 1. Quando a mensagem no aplicativo estiver pronta, finalize a configuração e publique sua jornada para ativá-la.
 
 Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
+
+>[!NOTE]
+>
+>Se quiser mostrar uma mensagem no aplicativo logo após enviar uma notificação por push, use uma atividade **Wait** para permitir que o tempo de carga da mensagem no aplicativo seja propagado. Normalmente, recomenda-se uma espera de 5 a 15 minutos, mas os tempos exatos podem variar dependendo da complexidade da carga útil e das necessidades de personalização.
 
 >[!TAB Adicionar uma mensagem no aplicativo a uma campanha]
 
