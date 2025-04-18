@@ -8,61 +8,52 @@ role: User
 level: Intermediate
 keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 20d99c082ef8d1f2442900dc6a6e6db6b0aaa46f
+source-git-commit: a536336ec7b37ffa0cd860c2c7479c75365eff00
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 2%
+source-wordcount: '730'
+ht-degree: 0%
 
 ---
 
-# Encerrar uma jornada{#journey-ending}
+# Encerrar uma jornada {#journey-ending}
 
 Uma jornada pode terminar para um indivíduo em dois contextos específicos:
 
-* A pessoa chega à última atividade de um caminho.
-* A pessoa chega a uma atividade de **Condição** (ou uma atividade de **Espera** com uma condição) e não corresponde a nenhuma das condições.
+* O indivíduo atinge a última atividade de um caminho e, em seguida, se move para a [Marca de fim](#end-tag).
+* O indivíduo atinge uma atividade de **Condição** (ou uma atividade de **Espera** com uma condição) e não corresponde a nenhuma das condições.
 
-A pessoa pode então entrar novamente na jornada se a reentrada for permitida. Ver [esta página](../building-journeys/journey-properties.md#entrance)
+O indivíduo pode então entrar novamente na jornada se a reentrada for permitida. Ver [esta página](../building-journeys/journey-properties.md#entrance)
 
-Para encerrar uma jornada em tempo real, recomendamos que você a feche. A chegada de novos clientes à jornada será então bloqueada. Os clientes que já entraram na jornada podem experimentá-la até o final. Consulte [esta seção](../building-journeys/journey.md#close-journey)
+Para encerrar uma jornada em tempo real, recomendamos que você a feche. A chegada de novos clientes à jornada será então bloqueada. Os perfis que já entraram na jornada podem experimentá-la até o fim. Consulte [esta seção](#close-journey)
 
 Você só pode interromper uma jornada se ocorrer uma emergência e todo o processamento precisar ser encerrado imediatamente em uma jornada. As pessoas que já entraram em uma jornada são todas interrompidas em seu progresso. Consulte [esta seção](../building-journeys/journey.md#stop-journey)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Observe que não é possível retomar uma jornada fechada ou interrompida.
+>Você não pode reiniciar uma jornada [fechada](#close-journey) ou [interrompida](#stop-journey).
 
-## Jornada marca de fim{#end-tag}
 
-Ao criar uma jornada, uma &quot;marca de fim&quot; é exibida no final de cada caminho. Este nó não pode ser adicionado por um usuário, não pode ser removido e somente seu rótulo pode ser alterado. Ele marca o fim de cada caminho da jornada. Se a jornada tiver vários caminhos, recomendamos adicionar um rótulo a cada extremidade para facilitar a leitura dos relatórios. Consulte [esta página](../reports/live-report.md).
+## Jornada marca de fim {#end-tag}
+
+Ao criar uma jornada, uma tag End é exibida no final de cada caminho. Este nó não pode ser adicionado por um usuário, não pode ser removido e somente seu rótulo pode ser alterado. Ele marca o fim de cada caminho da jornada. Se a jornada tiver vários caminhos, recomendamos adicionar um rótulo a cada extremidade para facilitar a leitura dos relatórios. Saiba mais sobre [relatórios do jornada](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
-<!--
-
-### End activity{#journey-end-activity}
-
-The **[!UICONTROL End]** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity. See [this page](../building-journeys/end-activity.md)
-
-![](assets/journey54.png)
-
--->
-
-## Fechar uma jornada{#close-journey}
+## Fechar uma jornada {#close-journey}
 
 Uma jornada pode ser fechada pelos seguintes motivos:
 
-* A jornada é fechada manualmente pelo botão **[!UICONTROL Fechar para novas entradas]**.
+* A jornada é fechada manualmente pelo botão [**[!UICONTROL Fechar para novas entradas]**](#close-to-new-entrances).
 * Uma jornada única baseada em segmento que terminou de ser executada e atingiu o tempo limite global de 91 dias.
 * Após a última ocorrência de uma jornada baseada em público-alvo recorrente.
 
-Fechar uma jornada manualmente garante que os clientes que já entraram na jornada possam concluir seu caminho, mas os novos usuários não podem entrar na jornada. Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Fechada]**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente. Após o tempo limite global padrão de 91 dias, a jornada será alternada para o status Finished. Consulte [esta seção](journey-properties.md#timeout).
+Fechar uma jornada manualmente garante que os clientes que já entraram na jornada possam concluir seu caminho, mas os novos usuários não podem entrar na jornada. Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Fechada]**. A jornada pára de permitir que novos indivíduos entrem na jornada. Os perfis que já estão na jornada jornada podem concluí-la normalmente. Após o tempo limite global padrão de 91 dias, a jornada mudará para o status **Concluído**.
 
-Após o [tempo limite global](journey-properties.md#timeout) de 91 dias, uma jornada Read audience muda para o status **Finished**. Esse comportamento é definido somente para 91 dias (ou seja, [valor de tempo limite global da jornada](journey-properties.md#global_timeout)), pois todas as informações sobre os perfis que inseriram a jornada são removidas 91 dias após serem inseridas. As pessoas que ainda estão na jornada são afetadas automaticamente. Eles saem da jornada após o tempo limite de 91 dias.
-
-Consulte esta [seção](../building-journeys/journey-properties.md#global_timeout).
+Após o tempo limite global de **jornada de 91 dias**, uma jornada Ler público alterna para o status **Concluído**. Esse comportamento é definido para 91 dias somente, pois todas as informações sobre os perfis que entraram na jornada são removidas 91 dias após terem entrado. As pessoas que ainda estão na jornada são afetadas automaticamente. Eles saem da jornada após o tempo limite de 91 dias.  Saiba mais sobre [o tempo limite global do jornada](../building-journeys/journey-properties.md#global_timeout).
 
 Uma versão de jornada fechada não pode ser reiniciada ou excluída. Você pode criar uma nova versão ou duplicá-la. Somente as jornadas concluídas podem ser excluídas.
+
+### Fechar para novas entradas {#close-to-new-entrances}
 
 Para fechar uma jornada da lista de jornadas, clique no botão **[!UICONTROL Reticências]** localizado à direita do nome da jornada e selecione **[!UICONTROL Fechar para novas entradas]**.
 
@@ -77,11 +68,14 @@ Você também pode:
 
 1. Clique em **[!UICONTROL Fechar para novas entradas]** e confirme na caixa de diálogo.
 
-## Parar uma jornada{#stop-journey}
+>[!TIP]
+>
+>Uma jornada única baseada em segmento mantém o status do **Live** mesmo após ser executada uma vez. Os perfis não serão reinseridos após a conclusão, mas a jornada permanecerá no status **Ativo** até que o tempo limite global padrão expire. Você pode fechá-lo manualmente antes usando a opção **Fechar para novas entradas**.
 
-Caso precise interromper o progresso de todos os indivíduos na jornada, você pode interrompê-lo. A interrupção da jornada expirará o tempo limite de todos os indivíduos na jornada. No entanto, parar uma jornada envolve que as pessoas que já entraram em uma jornada sejam todas interrompidas em seu progresso. A jornada está basicamente desligada. Se quiser colocar um fim em uma jornada, recomendamos que você a feche.
 
-Uma versão do jornada interrompida não pode ser reiniciada.
+## Parar uma jornada {#stop-journey}
+
+Caso precise interromper o progresso de todos os indivíduos na jornada, você pode interrompê-lo. Interromper o tempo limite da jornada para todos os indivíduos na jornada. No entanto, parar uma jornada envolve que as pessoas que já entraram em uma jornada sejam todas interrompidas em seu progresso. A jornada está basicamente desligada. Se você deseja terminar com uma jornada, a prática recomendada é [fechá-la](#close-journey).
 
 Quando parado, o status da jornada é definido como **[!UICONTROL Parado]**.
 
