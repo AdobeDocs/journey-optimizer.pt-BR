@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: ht
-source-wordcount: '848'
-ht-degree: 100%
+source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+workflow-type: tm+mt
+source-wordcount: '847'
+ht-degree: 87%
 
 ---
 
@@ -37,7 +37,7 @@ Por padrão, somente os conjuntos de dados assimilados são exibidos. Se quiser 
 
 >[!NOTE]
 >
->A partir de 1º de novembro de 2024, a segmentação de transmissão não será mais compatível com o uso de eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do Journey Optimizer. Além disso, a partir de fevereiro de 2025, uma medida de proteção de TTL (tempo de vida) será implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer. [Saiba mais](datasets-ttl.md)
+>A partir de 1º de novembro de 2024, a segmentação por transmissão não será mais compatível com o uso de eventos de envio e abertos de conjuntos de dados de rastreamento e feedback do Journey Optimizer. Além disso, a partir de fevereiro de 2025, uma proteção de TTL (time-to-live) está sendo implantada em conjuntos de dados gerados pelo sistema da Journey Optimizer. [Saiba mais](datasets-ttl.md)
 
 Selecione o nome de um conjunto de dados para acessar a tela de atividade do Conjunto de dados e ver os detalhes do conjunto de dados selecionado. A guia Atividade inclui um gráfico que visualiza a taxa de mensagens que estão sendo consumidas, bem como uma lista de lotes bem-sucedidos e com falha.
 
@@ -64,7 +64,7 @@ Os conjuntos de dados do sistema para o Adobe Journey Optimizer estão listados 
 
 * _Pontuações de otimização de tempo de envio/Pontuações de engajamento_: Pontuações de saída da IA de jornada.
 
-Para exibir a lista completa de campos e atributos para cada esquema, consulte o [Dicionário de esquema do Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}.
+Para exibir a lista completa de campos e atributos para cada esquema, consulte o [dicionário de esquemas do Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}.
 
 ## Visualizar conjuntos de dados{#preview-datasets}
 
@@ -93,19 +93,19 @@ Um dos recursos principais da [!DNL Adobe Experience Platform] é reunir dados d
 
 A [!DNL Adobe Experience Platform Data Governance] permite gerenciar os dados do cliente e garantir a conformidade com as regulamentações, restrições e políticas aplicáveis ao uso dos dados. Ela desempenha uma função essencial na Experience Platform em vários níveis, incluindo catalogação, linhagem de dados, rotulagem de uso de dados, políticas de uso de dados e controle do uso de dados para ações de marketing.
 
-Saiba mais sobre Governança de dados e rótulos de uso de dados na [Documentação de Governança de dados](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=pt-BR){target="_blank"}
+Saiba mais sobre a Governança de dados e os rótulos de uso de dados na [documentação sobre Governança de dados](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=pt-BR){target="_blank"}
 
 ## Exemplos e casos de uso{#uc-datasets}
 
 Saiba como criar um esquema, um conjunto de dados e assimilar dados para adicionar perfis de teste no Adobe Journey Optimizer [nesta amostra completa](../audience/creating-test-profiles.md)
 
-Saiba mais sobre a criação de conjuntos de dados na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre a criação de conjunto de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}.
 
-Saiba como usar a interface de conjuntos de dados na [Documentação de visão geral da ingestão de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
+Saiba como usar a interface do usuário de conjuntos de dados na [documentação de visão geral da Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
 
 Uma lista de casos de uso com exemplos de consultas está disponível [aqui](../data/datasets-query-examples.md).
 
 >[!MORELIKETHIS]
 >
->* [Visão geral da ingestão de streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR){target="_blank"}
+>* [Visão geral da assimilação de streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR){target="_blank"}
 >* [Assimilar dados na Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=pt-BR){target="_blank"}
