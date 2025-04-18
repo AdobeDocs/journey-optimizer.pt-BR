@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1374'
 ht-degree: 28%
 
 ---
@@ -29,7 +29,11 @@ Quando o Journey Optimizer executa uma chamada para uma API externa, as medidas 
 
 1. As regras de limitação ou limitação são aplicadas: se a taxa máxima for atingida, as chamadas restantes serão descartadas ou colocadas em fila.
 
-2. Tempo limite e tentativa de repetição: se a regra de limitação ou limitação for atendida, o Journey Optimizer tentará executar a chamada até que o final da duração do tempo limite seja atingido.
+1. Tempo limite e tentativa de repetição: se a regra de limitação ou limitação for atendida, o Journey Optimizer tentará executar a chamada até que o final da duração do tempo limite seja atingido.
+
+>[!TIP]
+>
+>Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
 
 ## APIs de limitação e limitação {#capping}
 
