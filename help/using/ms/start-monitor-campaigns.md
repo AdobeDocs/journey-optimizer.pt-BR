@@ -6,17 +6,16 @@ description: Saiba como agendar e iniciar campanhas orquestradas com o Adobe Jou
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 7%
 
 ---
 
 # Agendar e iniciar suas campanhas orquestradas {#start-monitor}
 
-<!--
-<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
@@ -25,9 +24,80 @@ ht-degree: 1%
 
 Depois de criar as tarefas orquestradas e projetadas para execução na tela, é possível publicá-las e monitorar como elas estão sendo executadas.
 
+## Opções de agendamento
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_scheduler"
+>title="Atividade Scheduler"
+>abstract="O **Scheduler** da campanha permite agendar quando a campanha orquestrada será iniciada. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade da campanha orquestrada."
+
+Como gerente de campanha, você pode agendar campanhas para serem iniciadas automaticamente em horários específicos, permitindo um tempo preciso e dados de direcionamento precisos para comunicações de marketing.
+
+### Práticas recomendadas {#scheduler-best-practices}
+
+* Não programe uma campanha orquestrada para execução por mais de 15 minutos, pois isso pode atrapalhar o desempenho geral do sistema e criar bloqueios no banco de dados.
+* Se quiser enviar uma mensagem instantânea na sua campanha orquestrada, você pode configurá-la para ser executada **Uma vez**.
+* Para enviar uma mensagem recorrente em sua campanha orquestrada, use as opções de **Agendamento** e defina a frequência de execução. A atividade recorrente de delivery não permite definir um agendamento.
+
+### Configurar o agendamento da campanha {#scheduler-configuration}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_validity"
+>title="Validade do Scheduler"
+>abstract="É possível definir um período de validade para o Scheduler. Pode ser permanente (padrão) ou pode ser válido até uma data específica."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_options"
+>title="Opções do Scheduler"
+>abstract="Defina a frequência do scheduler. Pode ser executado em um momento específico, uma ou várias vezes por dia, semana ou mês."
+
+![Tela do Agendador com opções mensais](assets/scheduler-screen.png)
+
+Siga estas etapas para configurar o **agendamento de campanha orquestrada**:
+
+1. Selecione o botão **Assim que possível** na parte superior da tela de campanha orquestrada.
+
+1. Configure a **Frequência de execução**:
+
+   * **Uma vez**: a campanha orquestrada é executada uma única vez.
+
+   * **Diariamente**: a campanha orquestrada é executada em um horário específico, uma vez por dia.
+
+   * **Várias vezes ao dia:** a campanha orquestrada é executada regularmente várias vezes ao dia. Você pode configurar as execuções em horários específicos ou periodicamente.
+
+   * **Semanalmente**: a campanha orquestrada é executada em um momento especificado, uma ou várias vezes por semana.
+
+   * **Monthly**: a campanha orquestrada é executada em um momento especificado, uma ou várias vezes por mês. Você pode selecionar meses quando precisar que a campanha orquestrada seja executada. Você também pode configurar as execuções em dias da semana especificados do mês, como a segunda terça-feira do mês.
+
+     ![Tela do agendador com amostra de execução diária](assets/scheduler-daily-sample.png){width="50%" align="left"}
+
+1. Defina os detalhes da execução de acordo com a frequência selecionada. Os campos de detalhes variam dependendo da frequência usada (tempo, frequência de repetição, dias especificados etc.).
+
+1. Clique em **Visualizar horas de inicialização** para verificar a programação das próximas dez execuções da sua campanha orquestrada.
+
+1. Defina o período de validade do scheduler:
+
+   * **Permanente (nunca expira)**: a campanha orquestrada é executada, de acordo com a frequência especificada, sem limites para o intervalo de tempo ou o número de iterações.
+
+   * **Período de validade**: a campanha orquestrada é executada de acordo com a frequência especificada, até uma data específica. É necessário especificar datas de início e término.
+
+1. Selecione **Confirmar** para salvar suas configurações. A frequência de execução é exibida acima da tela de campanha orquestrada.
+
+>[!TIP]
+>
+>Se quiser iniciar a campanha orquestrada imediatamente, mantenha o valor padrão **Assim que possível**.
+
+## Exemplo {#scheduler-example}
+
+No exemplo a seguir, a atividade é configurada para que a campanha orquestrada seja executada duas vezes por dia, às 9h e às 12h, todos os dias da semana de 1º de outubro de 2025 a 1º de janeiro de 2026.
+
+![Agendador configurado para executar a campanha duas vezes por dia às 9h e às 12h](assets/scheduler-sample.png){width="50%" align="left"}
+
+
 ## Iniciar uma campanha orquestrada {#start}
 
-Para iniciar uma campanha orquestrada, navegue até a guia **[!UICONTROL Várias etapas]** do menu **[!UICONTROL Campanha]** e selecione a campanha a ser iniciada e clique no botão **[!UICONTROL Iniciar]** no canto superior direito da tela.
+Para iniciar uma campanha orquestrada, navegue até a guia **[!UICONTROL Orquestração]** do menu **[!UICONTROL Campanhas]** e selecione a campanha a ser iniciada e clique no botão **[!UICONTROL Reproduzir]**, no canto superior direito da tela.
 
 Quando a campanha orquestrada estiver em execução, cada atividade na tela será executada em ordem sequencial, até que o final da campanha orquestrada seja atingido.
 
