@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -22,13 +22,13 @@ O gerenciamento de entrada de perfis depende do tipo de jornada.
 
 ## Tipos de jornadas {#types-of-journeys}
 
-No Adobe Journey Optimizer, os seguintes tipos de jornadas estão disponíveis:
+Com o Adobe Journey Optimizer, você pode criar os seguintes tipos de jornadas:
 
 * **jornadas de evento unitário**: essas jornadas começam com um evento unitário. Quando o evento é recebido, o perfil associado entra na jornada. [Leia mais](#entry-unitary)
 
-* **jornadas de {Business event**: essas jornadas começam com um evento Business imediatamente seguido por uma atividade **Read audience**. Quando o evento for recebido, os perfis pertencentes ao público-alvo direcionado entram na jornada. Uma instância dessa jornada é criada para cada perfil. [Leia mais](#entry-business)
+* **jornadas de eventos comerciais**: essas jornadas começam com um evento comercial seguido imediatamente por uma atividade **Ler público**. Quando o evento for recebido, os perfis pertencentes ao público-alvo direcionado entram na jornada. Uma instância dessa jornada é criada para cada perfil. [Leia mais](#entry-business)
 
-* jornadas de **Leitura de público**: essas jornadas começam com uma atividade **Leitura de público**. Quando a jornada for executada, os perfis que pertencem ao público-alvo de destino entram na jornada. Uma instância dessa jornada é criada para cada perfil. Essas jornadas podem ser recorrentes ou &quot;únicas&quot;. [Leia mais](#entry-read-audience)
+* jornadas de **Leitura de público-alvo**: essas jornadas começam com uma atividade **Leitura de público-alvo**. Quando a jornada for executada, os perfis que pertencem ao público-alvo de destino entram na jornada. Uma instância dessa jornada é criada para cada perfil. Essas jornadas podem ser recorrentes ou &quot;únicas&quot;. [Leia mais](#entry-read-audience)
 
 * **jornadas de qualificação de público-alvo**: essas jornadas começam com um evento de qualificação de público-alvo. Essas jornadas escutam as entradas e saídas dos perfis nos públicos-alvo. Quando isso acontece, o perfil associado entra na jornada. [Leia mais](#entry-unitary)
 

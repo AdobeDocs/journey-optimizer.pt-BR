@@ -7,10 +7,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 87%
+source-wordcount: '124'
+ht-degree: 52%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 Como desenvolvedor(a), é necessário **configurar o aplicativo móvel** para poder enviar notificações por push com o [!DNL Adobe Journey Optimizer].
 
-O [!DNL Journey Optimizer] permite criar jornadas e enviar mensagens para o público-alvo direcionado. Antes de começar a enviar notificações por push com o [!DNL Journey Optimizer], é necessário garantir que as configurações e integrações estejam em vigor no aplicativo móvel, na [!DNL Adobe Experience Platform] e no [!DNL Adobe Experience Platform Launch]. Para entender o fluxo de dados de notificações por push no [!DNL Adobe Journey Optimizer], consulte [esta página](../../push/push-gs.md).
+O [!DNL Journey Optimizer] permite que você crie suas jornadas e envie mensagens para seu público-alvo direcionado. Antes de começar a enviar notificações por push com [!DNL Journey Optimizer], verifique se as configurações e integrações estão em vigor no aplicativo móvel e em [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. Para entender o fluxo de dados de notificações por push no [!DNL Adobe Journey Optimizer], consulte [esta página](../../push/push-gs.md).
 
 As etapas para configurar o canal de notificação por push e testar a integração do aplicativo móvel estão detalhadas nesta [página](../../push/push-configuration.md).
 
@@ -28,4 +28,4 @@ As etapas para configurar o canal de notificação por push e testar a integraç
 
 Também é possível executar várias ações com **[!DNL Adobe Journey Optimizer]APIs**.
 
-As etapas para ajudar a começar a usar a API do [!DNL Offer Library] são detalhadas [nesta seção](../../offers/api-reference/getting-started.md). Este guia fornece chamadas de API de amostra para executar operações importantes usando o mecanismo de decisão.
+Saiba mais sobre [APIs do Adobe Journey Optimizer](../../configuration/ajo-apis.md).
