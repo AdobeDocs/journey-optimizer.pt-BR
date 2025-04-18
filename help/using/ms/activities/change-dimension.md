@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Usar a atividade Change dimension
 description: Saiba como usar a atividade Change dimension
+badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 22%
+source-wordcount: '288'
+ht-degree: 26%
 
 ---
 
@@ -27,11 +28,12 @@ ht-degree: 22%
 
 A atividade **Change dimension** é uma atividade **Targeting**. Essa atividade permite alterar o targeting dimension à medida que você constrói sua campanha orquestrada. Ele desloca o eixo dependendo do template de dados e da dimensão de entrada.
 
-Por exemplo, você pode alternar o targeting dimension de uma campanha orquestrada de &quot;Recipients&quot; para &quot;Subscribers application&quot; para enviar notificações por push aos recipients direcionados.
+Por exemplo, você pode alternar o targeting dimension de uma campanha orquestrada de &quot;Perfil&quot; para &quot;Contratos&quot; para enviar mensagens ao proprietário do contrato direcionado.
 
+<!--
 >[!IMPORTANT]
 >
->Observe que as atividades **[!UICONTROL Alterar Dimensão]** e **[!UICONTROL Alterar Fonte de Dados]** não devem ser adicionadas em uma linha. Se você precisar usar ambas as atividades consecutivamente, certifique-se de incluir uma atividade **[!UICONTROL Enriquecimento]** entre elas. Isso garante a execução adequada e evita possíveis conflitos ou erros.
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.-->
 
 ## Configurar a atividade Change dimension {#configure}
 
@@ -39,9 +41,9 @@ Siga estas etapas para configurar a atividade **Alterar dimensão**:
 
 1. Adicione uma atividade **Change dimension** à sua campanha orquestrada.
 
-   ![](../assets/workflow-change-dimension.png)
+   ![](assets/change-dimension.png)
 
-1. Defina a **Nova dimensão de destino**. Durante a alteração de dimensão, todos os registros são mantidos. Outras opções ainda não estão disponíveis.
+1. Defina a **Nova dimensão de destino**. Durante a alteração de dimensão, todos os registros são mantidos.
 
 1. Execute a campanha orquestrada para ver o resultado. Compare os dados nas tabelas antes e depois da atividade de alteração de dimensão e compare a estrutura das tabelas de campanha orquestradas.
 
@@ -51,4 +53,4 @@ Neste exemplo, queremos enviar um delivery de SMS para todos os perfis que fizer
 
 Em seguida, usamos uma atividade **[!UICONTROL Change dimension]** para alternar a targeting dimension de campanha orquestrada para &quot;Recipients&quot;. Isso nos permite direcionar os recipients que correspondem ao query.
 
-![](../assets/workflow-change-dimension-example.png)
+![](assets/change-dimension-example.png)
