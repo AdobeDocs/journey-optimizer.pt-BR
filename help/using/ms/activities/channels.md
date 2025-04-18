@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '892'
 ht-degree: 18%
 
 ---
@@ -28,7 +28,7 @@ Comece a criar sua campanha orquestrada com as atividades relevantes:
 
 * Antes de inserir uma atividade de canal, é necessário definir o público-alvo. O público-alvo é o principal alvo do delivery: os perfis que recebem as mensagens.
 
-* Para enviar uma entrega recorrente, inicie sua campanha orquestrada com uma atividade **Scheduler**. Você também pode usar uma atividade **Scheduler** para entregas únicas e únicas para definir a data de contato para essa entrega. Essa data de contato também pode ser definida nas configurações de delivery. Consulte [esta seção](scheduler.md).
+* Para enviar uma entrega recorrente, inicie sua campanha orquestrada com uma atividade **Scheduler**. Você também pode usar uma atividade **Scheduler** para entregas únicas e únicas para definir a data de contato para essa entrega. Essa data de contato também pode ser definida nas configurações de delivery.
 
 ## Configurar uma atividade de canal {#create-a-delivery-in-a-workflow}
 
@@ -64,7 +64,7 @@ Para configurar um delivery no contexto de uma campanha orquestrada, siga as eta
 1. Selecione o **Tipo de entrega**: única ou recorrente.
 
    * Uma **Entrega única** é uma entrega única, enviada apenas uma vez, por exemplo, um email Black Friday.
-   * Uma **entrega recorrente** é enviada várias vezes com base em sua frequência de execução definida em uma [atividade do agendador](scheduler.md). Cada vez que a campanha orquestrada é executada, o público é recalculado e o delivery é enviado ao público atualizado, com o conteúdo atualizado. Pode ser um informativo semanal ou um email de aniversário recorrente, por exemplo.
+   * Uma **entrega recorrente** é enviada várias vezes com base em sua frequência de execução. Cada vez que a campanha orquestrada é executada, o público é recalculado e o delivery é enviado ao público atualizado, com o conteúdo atualizado. Pode ser um informativo semanal ou um email de aniversário recorrente, por exemplo.
 
 1. Selecione um **Modelo** da entrega. Os modelos são configurações de entrega pré-definidas, específicas para um canal. Um modelo integrado está disponível para cada canal e é preenchido previamente por padrão.
 

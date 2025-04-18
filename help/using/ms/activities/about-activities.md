@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 23%
+source-wordcount: '445'
+ht-degree: 24%
 
 ---
 
@@ -62,6 +62,5 @@ As atividades a seguir são específicas para organizar e executar campanhas orq
 * [And-join](and-join.md): sincroniza várias ramificações de execução de uma campanha orquestrada.
 * **Fim**: marca graficamente o fim de uma campanha orquestrada. Esta atividade não tem impacto funcional e, portanto, é opcional
 * [Bifurcação](fork.md): crie transições de saída para iniciar várias atividades ao mesmo tempo.
-* [Scheduler](scheduler.md): agenda quando a campanha orquestrada é iniciada.
 * [Test](test.md): habilitar transições com base em condições especificadas.
 * [Aguardar](wait.md): pausar momentaneamente a execução de uma parte de uma campanha orquestrada.
