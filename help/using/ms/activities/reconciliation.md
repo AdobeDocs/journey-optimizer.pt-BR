@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 39%
+source-wordcount: '560'
+ht-degree: 43%
 
 ---
 
@@ -93,33 +93,3 @@ Siga estas etapas para configurar a atividade **Reconciliação**:
 1. Você pode filtrar dados para reconciliar usando o botão **Criar filtro**. Isso permite criar uma condição personalizada usando o modelador de consultas.
 
 Por padrão, os dados não reconciliados são mantidos na transição de saída e disponibilizados na tabela de trabalho para uso futuro. Para remover dados não reconciliados, desative a opção **Manter dados não reconciliados**.
-
-## Exemplo {#reconciliation-example}
-
-O exemplo a seguir demonstra uma campanha orquestrada que cria um público-alvo de perfis diretamente de um arquivo importado que contém novos clientes. Ele é composto pelas seguintes atividades:
-
-A campanha orquestrada foi projetada da seguinte maneira:
-
-![](../assets/workflow-reconciliation-sample-1.0.png)
-
-
-Ele é criado com as seguintes atividades:
-
-* Uma atividade [Load file](load-file.md) faz upload de um arquivo contendo dados de perfis que foram extraídos de uma ferramenta externa.
-
-  Por exemplo:
-
-  ```
-  lastname;firstname;email;birthdate;
-  JACKMAN;Megan;megan.jackman@testmail.com;07/08/1975;
-  PHILLIPS;Edward;phillips@testmail.com;09/03/1986;
-  WEAVER;Justin;justin_w@testmail.com;11/15/1990;
-  MARTIN;Babe;babeth_martin@testmail.net;11/25/1964;
-  REESE;Richard;rreese@testmail.com;02/08/1987;
-  ```
-
-* Uma atividade de **Reconciliação** que identifica os dados recebidos como perfis usando os campos **email** e **Data de nascimento** como critérios de reconciliação.
-
-  ![](../assets/workflow-reconciliation-sample-1.1.png)
-
-* Uma atividade [Save audience](save-audience.md) para criar um novo público-alvo com base nessas atualizações. Você também pode substituir a atividade **Salvar público-alvo** por uma atividade **Fim** se nenhum público-alvo específico precisar ser criado ou atualizado. Os perfis de recipient são atualizados em qualquer caso quando você executa a campanha orquestrada.

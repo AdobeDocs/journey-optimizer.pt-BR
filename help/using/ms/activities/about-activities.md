@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 25%
+source-wordcount: '401'
+ht-degree: 26%
 
 ---
 
@@ -38,12 +38,6 @@ Essas atividades são específicas para direcionamento. Elas permitem criar uma 
 * [Reconciliação](reconciliation.md): defina o vínculo entre os dados nos dados do Journey Optimizer e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo.
 * [Salvar público-alvo](save-audience.md): atualize um público-alvo existente ou crie um novo público-alvo a partir da população computada upstream em uma campanha orquestrada.
 * [Split](split.md): segmente a população de entrada em vários subconjuntos.
-
-## Atividades de gerenciamento de dados {#data}
-
-Essas atividades são específicas para manipular e enriquecer dados de população.
-
-* [Carregar arquivo](load-file.md): trabalhar com perfis e dados armazenados em um arquivo externo.
 
 ## Atividades do canal {#channel}
 
