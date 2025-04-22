@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 408e2264056c52c1d73bcd412e7a73f25812c224
+source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 16%
+source-wordcount: '529'
+ht-degree: 17%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 16%
 * [Criar consultas](ms-query-modeler.md)
 * [Testar e validar suas mensagens](ms-proofs.md)
 * [Agendar e iniciar suas campanhas](start-monitor-campaigns.md)
-* Lista de atividades: [And-join](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Ações de canal](activities/channels.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Divisão](activities/split.md) - [Teste](activities/test.md) - [Aguardar](activities/wait.md)
+* Lista de atividades: [And-join](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Ações de canal](activities/channels.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Divisão](activities/split.md) - [Teste](activities/test.md) - [Aguardar](activities/wait.md)
 * [Relatórios](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
