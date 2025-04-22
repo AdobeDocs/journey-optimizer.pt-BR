@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimento de conteúdo com o Assistente de IA no Journey Optimizer
-description: Experimento de conteúdo com o Assistente de IA no Journey Optimizer
+title: Experimento de conteúdo com o AI Assistant no Journey Optimizer
+description: Experimento de conteúdo com o AI Assistant no Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 11%
+source-wordcount: '249'
+ht-degree: 9%
 
 ---
 
-# Experimento de conteúdo com o Assistente de IA{#generative-experimentation}
+# Experimento de conteúdo com o AI Assistant{#generative-experimentation}
 
 >[!IMPORTANT]
 >

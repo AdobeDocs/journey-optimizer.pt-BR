@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 3%
+source-wordcount: '523'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 1. Abra a seção **[!UICONTROL Assistente de IA]**.
 
-1. Ative o recurso **[!UICONTROL Usar conteúdo original]** no Assistente de IA para personalizar o novo conteúdo de acordo com os detalhes da sua campanha, incluindo o nome da campanha e o público-alvo direcionado.
+1. Ative o recurso **[!UICONTROL Usar conteúdo original]** no Assistente de IA para personalizar novo conteúdo de acordo com os detalhes da sua campanha, incluindo o nome da campanha e o público-alvo direcionado.
 
 1. Ajuste o conteúdo especificando sua solicitação na caixa **[!UICONTROL Prompt]** e personalize as configurações conforme necessário.
 
@@ -63,7 +63,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
    * **[!UICONTROL Refrase]**: o Assistente de IA pode apresentar sua mensagem de diferentes maneiras, ajudando a manter o conteúdo atualizado para uma variedade de públicos.
 
-   * **[!UICONTROL Usar linguagem mais simples]**: simplifique a linguagem com o Assistente de IA para garantir que a mensagem seja clara e acessível a todos os leitores.
+   * **[!UICONTROL Usar linguagem mais simples]**: simplifique o idioma com o Assistente de IA para garantir que a mensagem seja clara e acessível a todos os leitores.
 
    Além disso, você pode ajustar a **[!UICONTROL Estratégia de Tom]** e a **[!UICONTROL Estratégia de comunicação]** do seu conteúdo.
 

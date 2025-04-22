@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: permissões, criação, mensagens
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '933'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Permissões internas representam as diferentes permissões que podem ser atribu�
 
 | Recurso | Permissões |
 |-|-|
-| Assistente de IA | **[!DNL Generate content]**: acesso ao assistente de IA no Journey Optimizer. |
+| Assistente de IA | **[!DNL Generate content]**: acesso ao Assistente de IA no Journey Optimizer. |
 | Campanhas | **[!DNL Approve & publish Campaigns]**: direito de aprovar e publicar campanhas quando uma política for aplicada. </br>**[!DNL Manage campaigns]**: ler, criar, editar e excluir campanhas.</br>**[!DNL Publish campaigns]**: direito de publicar campanhas.</br>**[!DNL View campaigns]**: acesso somente leitura a campanhas.</br>**[!DNL View campaigns report]**: ler e editar relatórios de campanha. |
 | Configurações de canal | **[!DNL Export suppression list]**: acesso à lista de supressão de exportação como arquivo CSV.</br>**[!DNL Manage alerts]**: habilitar/desabilitar alertas para campanhas, mensagens e direitos.</br> **[!DNL Manage file routing]**: ler, criar, editar e excluir configurações de roteamento de arquivos. </br> **[!DNL Manage IP pools]**: ler, criar, editar e excluir pool de IPs. </br>**[!DNL Manage landing page settings]**: ler, criar, editar e excluir configurações da página de aterrissagem.</br> **[!DNL Manage messages general settings]**: ler, criar, editar e excluir configurações gerais de mensagens.</br>**[!DNL Manage messages presets]**: ler, criar, editar e excluir a identidade visual do conteúdo.</br>**[!DNL Manage PTR records]**: ler e editar registros PTR. </br>**[!DNL Manage SMS settings]**: ler, criar, editar e excluir configurações de SMS.</br>**[!DNL Manage SMS subdomains]**: ler, criar, editar e excluir subdomínios de SMS.</br> **[!DNL Manage Seedlist]**: ler, criar, editar e excluir Seedlist. </br> **[!DNL Manage subdomains delegation]**: ler, criar, editar e excluir a delegação de subdomínio. </br>**[!DNL Manage suppression rules]**: acessar regras de supressão de leitura, criação, edição e exclusão.</br> **[!DNL View channel surfaces]**: acesso somente leitura a superfícies de canal.</br>**[!DNL View file routing]**: acesso somente leitura às configurações de roteamento de arquivos.</br>**[!DNL View messages general settings]**: acesso somente leitura às configurações gerais da mensagem.</br> **[!DNL View messages presets]**: acesso somente leitura a predefinições de mensagens. </br> **[!DNL View PTR records]**: acesso somente leitura a registros PTR.</br>**[!DNL View suppression list]**: ler e exportar a lista de supressão local. |
 | Painéis | **[!DNL View license usage dashboards]**: acesso somente leitura ao [painel de uso de licença](../audience/license-usage.md). </br>**[!DNL Manage custom dashboards]**: permite criar um novo painel ou editar um painel existente.</br>**[!DNL Manage standard dashboards]**: permite criar widgets personalizados e editar o esquema de widget por meio da Biblioteca de widgets.</br>**[!DNL View custom dashboards]**: acesso somente leitura a painéis definidos pelo usuário.</br>**[!DNL View standard dashboards]**: acesso somente leitura aos painéis Perfis, Destinos e Públicos. |

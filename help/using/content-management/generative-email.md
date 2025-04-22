@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1701'
 ht-degree: 2%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 2%
 >
 >Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
-Depois de criar e personalizar seus emails, aproveite o potencial do Assistente de IA no Journey Optimizer, alimentado pela IA gerativa, para elevar seu conteúdo.
+Depois de criar e personalizar seus emails, aproveite o poder do Assistente de IA no Journey Optimizer, alimentado pela IA gerativa, para elevar seu conteúdo.
 
-Use o Assistente de IA do Journey Optimizer para aprimorar a eficácia de suas campanhas, criando emails completos, trechos de texto personalizados e imagens personalizadas que falam diretamente com seu público-alvo, aumentando o engajamento e a interação.
+Use o Assistente de IA no Journey Optimizer para aprimorar a eficácia de suas campanhas, criando emails completos, trechos de texto personalizados e imagens personalizadas que falam diretamente com seu público-alvo, impulsionando o engajamento e a interação.
 
 Explore as guias abaixo para saber como usar o Assistente de IA no Journey Optimizer.
 
@@ -34,7 +34,7 @@ Explore as guias abaixo para saber como usar o Assistente de IA no Journey Optim
 
 >[!TAB Geração de email completa]
 
-No exemplo a seguir, é possível usar o Assistente de IA para refinar um modelo de email existente.
+No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de email existente.
 
 1. Depois de criar e configurar sua campanha de email, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -62,7 +62,7 @@ No exemplo a seguir, é possível usar o Assistente de IA para refinar um modelo
 
    * **[!UICONTROL Estratégia de comunicação]**: escolha o estilo de comunicação mais adequado para o texto gerado.
    * **[!UICONTROL Idiomas]**: as opções de idioma espanhol, italiano, sueco e norueguês são lançadas como um beta privado e estarão progressivamente disponíveis para todos os clientes em versões futuras.
-   * **[!UICONTROL Tom]**: o tom do seu email deve repercutir na sua audiência. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
+   * **[!UICONTROL Tom]**: o tom do seu email deve repercutir na sua audiência. Se você deseja parecer informativo, divertido ou persuasivo, o Assistente de IA pode adaptar a mensagem de acordo.
 
    ![](assets/full-email-4.png){zoomable="yes"}
 
@@ -76,7 +76,7 @@ No exemplo a seguir, é possível usar o Assistente de IA para refinar um modelo
 
    ![](assets/full-email-6.png){zoomable="yes"}
 
-1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer contexto adicional ao Assistente de IA ou selecione um ativo carregado anteriormente.
+1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um ativo carregado anteriormente.
 
    Os arquivos carregados anteriormente estão disponíveis no menu suspenso **[!UICONTROL Ativos de marca carregados]**. Basta alternar os ativos que deseja incluir na geração.
 
@@ -90,7 +90,7 @@ No exemplo a seguir, é possível usar o Assistente de IA para refinar um modelo
 
    * **[!UICONTROL Refrase]**: o Assistente de IA pode reformular sua mensagem de diferentes maneiras, mantendo sua escrita atualizada e engajando públicos diversos.
 
-   * **[!UICONTROL Usar linguagem mais simples]**: use o Assistente de IA para simplificar sua linguagem, garantindo clareza e acessibilidade para um público-alvo maior.
+   * **[!UICONTROL Usar linguagem mais simples]**: use o AI Assistant para simplificar sua linguagem, garantindo clareza e acessibilidade para um público-alvo maior.
 
    Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
 
@@ -106,7 +106,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
 >[!TAB Geração somente texto]
 
-No exemplo a seguir, aproveitaremos o Assistente de IA para aprimorar o conteúdo de nosso email.
+No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo de nosso email.
 
 1. Depois de criar e configurar sua campanha de email, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -132,12 +132,12 @@ No exemplo a seguir, aproveitaremos o Assistente de IA para aprimorar o conteúd
 
    * **[!UICONTROL Estratégia de comunicação]**: escolha o estilo de comunicação mais adequado para o texto gerado.
    * **[!UICONTROL Idiomas]**: as opções de idioma espanhol, italiano, sueco e norueguês são lançadas como um beta privado e estarão progressivamente disponíveis para todos os clientes em versões futuras.
-   * **[!UICONTROL Tom]**: o tom do seu email deve repercutir na sua audiência. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
+   * **[!UICONTROL Tom]**: o tom do seu email deve repercutir na sua audiência. Se você deseja parecer informativo, divertido ou persuasivo, o Assistente de IA pode adaptar a mensagem de acordo.
    * **Comprimento do texto**: use o controle deslizante para selecionar o comprimento desejado do texto.
 
    ![](assets/text-genai-4.png){zoomable="yes"}
 
-1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer contexto adicional ao Assistente de IA ou selecione um ativo carregado anteriormente.
+1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um ativo carregado anteriormente.
 
    Os arquivos carregados anteriormente estão disponíveis no menu suspenso **[!UICONTROL Ativos de marca carregados]**. Basta alternar os ativos que deseja incluir na geração.
 
@@ -157,7 +157,7 @@ No exemplo a seguir, aproveitaremos o Assistente de IA para aprimorar o conteúd
 
    * **[!UICONTROL Refrase]**:O Assistente de IA pode reformular sua mensagem de diferentes maneiras, mantendo sua escrita atualizada e engajando públicos diversos.
 
-   * **[!UICONTROL Usar linguagem mais simples]**: use o Assistente de IA para simplificar sua linguagem, garantindo clareza e acessibilidade para um público-alvo maior.
+   * **[!UICONTROL Usar linguagem mais simples]**: use o AI Assistant para simplificar sua linguagem, garantindo clareza e acessibilidade para um público-alvo maior.
 
    Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
 
@@ -173,7 +173,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
 >[!TAB Geração somente de imagem]
 
-No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar seus ativos, garantindo uma experiência mais amigável.
+No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar seus ativos, garantindo uma experiência mais amigável.
 
 1. Depois de criar e configurar sua campanha de email, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -208,7 +208,7 @@ No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar se
 
    ![](assets/image-genai-4.png){zoomable="yes"}
 
-1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer contexto adicional ao Assistente de IA ou selecione um ativo carregado anteriormente.
+1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um ativo carregado anteriormente.
 
    Os arquivos carregados anteriormente estão disponíveis no menu suspenso **[!UICONTROL Ativos de marca carregados]**. Basta alternar os ativos que deseja incluir na geração.
 
