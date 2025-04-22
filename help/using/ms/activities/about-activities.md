@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 24%
+source-wordcount: '426'
+ht-degree: 25%
 
 ---
 
@@ -44,7 +44,6 @@ Essas atividades são específicas para direcionamento. Elas permitem criar uma 
 Essas atividades são específicas para manipular e enriquecer dados de população.
 
 * [Carregar arquivo](load-file.md): trabalhar com perfis e dados armazenados em um arquivo externo.
-* [Atualizar dados](update-data.md): execute atualizações em massa nos campos do banco de dados. Várias opções permitem personalizar a atualização de dados.
 
 ## Atividades do canal {#channel}
 
