@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 27%
@@ -24,13 +24,13 @@ Todas as atividades estão detalhadas nas seções abaixo:
 * [Atividades do canal](#channel)
 * [Atividades de controle de fluxo](#flow-control)
 
-![Lista de atividades disponíveis na tela](../assets/workflow-activities.png){width="70%" align="left"}
+![Lista de atividades disponíveis na tela](../assets/workflow-activities.png){width="80%" align="left"}
 
 ## Atividades de direcionamento {#targeting}
 
 Essas atividades são específicas para direcionamento. Elas permitem criar uma ou mais direções definindo um público-alvo e dividindo ou combinando esses públicos-alvo usando operações de interseção, união ou exclusão.
 
-![Lista de atividades de direcionamento](../assets/targeting-activities.png){width="50%" align="left"}
+![Lista de atividades de direcionamento](../assets/targeting-activities.png){width="40%" align="left"}
 
 * [Criar público-alvo](build-audience.md): defina sua população de destino. Você pode selecionar um público existente ou usar o modelador de consultas para definir sua própria consulta.
 * [Alterar dimensão](change-dimension.md): altere a targeting dimension enquanto você estiver criando sua campanha orquestrada.
@@ -51,7 +51,7 @@ O Adobe Journey Optimizer permite automatizar e executar campanhas de marketing 
 >title="Terminar atividade"
 >abstract="A atividade **End** permite marcar graficamente o fim de uma campanha orquestrada. Essa atividade não tem impacto funcional e, portanto, é opcional."
 
-![Lista de atividades de controle de fluxo](../assets/flow-control-activities.png){width="50%" align="left"}
+![Lista de atividades de controle de fluxo](../assets/flow-control-activities.png){width="30%" align="left"}
 
 
 As atividades a seguir são específicas para organizar e executar campanhas orquestradas. Sua principal tarefa é coordenar as outras atividades:
