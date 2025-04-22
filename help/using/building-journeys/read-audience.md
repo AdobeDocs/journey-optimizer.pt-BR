@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
+source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1783'
 ht-degree: 11%
 
 ---
@@ -52,13 +52,13 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Sincronizar a execução do jornada com a exportação de público"
->abstract="Ative essa opção para acionar a jornada assim que uma nova exportação do público-alvo estiver disponível."
+>title="Acionar após a avaliação do público-alvo em lote"
+>abstract="Ative essa opção para acionar a execução da jornada após uma nova avaliação do público-alvo em lote."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Sincronizar a execução do jornada com a exportação de público"
->abstract="Especifique a duração que a jornada aguardará para garantir que uma nova exportação do público-alvo esteja disponível."
+>title="Tempo de espera para nova avaliação do público-alvo"
+>abstract="Especifique a duração de tempo que a jornada aguardará para que o público-alvo em lote seja avaliado recentemente."
 
 Use a atividade **Ler público-alvo** para fazer com que todos os indivíduos de um público-alvo entrem na jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 
