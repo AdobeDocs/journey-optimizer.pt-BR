@@ -8,15 +8,19 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 7%
+source-wordcount: '236'
+ht-degree: 6%
 
 ---
 
 
 # Introdução aos modelos de conteúdo {#content-templates}
+
+>[!NOTE]
+>
+>A partir de março de 2025, os modelos de conteúdo do tipo HTML serão descontinuados. Você ainda pode usar os modelos de conteúdo do HTML existentes criados anteriormente no [!DNL Journey Optimizer].
 
 Para um processo de design acelerado e aprimorado, você pode criar modelos independentes para reutilizar facilmente o conteúdo personalizado em [!DNL Journey Optimizer] campanhas e jornadas.
 

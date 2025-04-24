@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '647'
 ht-degree: 3%
 
 ---
@@ -43,6 +43,10 @@ Você pode classificar modelos de conteúdo por:
 Você também pode optar por exibir somente os itens que você mesmo criou ou modificou.
 
 ![](assets/content-template-list-filters.png)
+
+>[!NOTE]
+>
+>A partir de março de 2025, os modelos de conteúdo do tipo HTML serão descontinuados. Você ainda pode acessar modelos de conteúdo HTML existentes criados anteriormente no [!DNL Journey Optimizer].
 
 ## Usar pastas para gerenciar modelos de conteúdo {#folders}
 
@@ -96,19 +100,19 @@ Para navegar facilmente pelos modelos de conteúdo, você pode usar pastas para 
 >
 >Quando um modelo é editado ou excluído, as campanhas ou jornadas, incluindo o conteúdo criado usando esse modelo, não são afetadas.
 
-## [!BADGE Disponibilidade limitada]{type=Informative} Exibe modelos como miniaturas {#template-thumbnails}
+## [!BADGE Disponibilidade limitada]{type=Informative} Exibir modelos como miniaturas {#template-thumbnails}
 
 Selecione o modo de **[!UICONTROL exibição de grade]** para exibir cada modelo como uma miniatura.
 
 >[!AVAILABILITY]
 >
-Esse recurso foi lançado com disponibilidade limitada (DL) para um pequeno grupo de clientes.
+>Esse recurso foi lançado com disponibilidade limitada (DL) para um pequeno grupo de clientes.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
-Atualmente, as miniaturas adequadas só podem ser geradas para HTML email modelos de conteúdo.
+>Atualmente, as miniaturas adequadas só podem ser geradas para modelos de conteúdo de email do tipo HTML.
 
 Ao atualizar um conteúdo, talvez seja necessário aguardar alguns segundos antes que as alterações sejam refletidas na miniatura.
 

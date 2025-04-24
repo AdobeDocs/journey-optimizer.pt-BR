@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 15%
+source-wordcount: '633'
+ht-degree: 16%
 
 ---
 
@@ -38,6 +38,10 @@ Depois de salvo, seu template de conteúdo fica disponível para uso em uma camp
 
 ## Criar modelo do zero {#create-template-from-scratch}
 
+>[!NOTE]
+>
+>A partir de março de 2025, os modelos de conteúdo do tipo HTML serão descontinuados. Você ainda pode usar os modelos de conteúdo do HTML existentes criados anteriormente no [!DNL Journey Optimizer].
+
 Para criar um template de conteúdo do zero, siga as etapas abaixo.
 
 1. Acesse a lista de modelos de conteúdo por meio do menu esquerdo **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Modelos de Conteúdo]**.
@@ -51,14 +55,6 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
    >[!NOTE]
    >
    >Atualmente, todos os canais estão disponíveis, exceto a Web.
-
-1. Escolha um **[!UICONTROL Tipo]** para o canal selecionado.
-
-   ![](assets/content-template-type.png)
-
-   * Para **[!UICONTROL Email]**, se você selecionar **[!UICONTROL Conteúdo]**, será possível definir a [Linha de assunto](../email/create-email.md#define-email-content) como parte do seu modelo. Se você selecionar **[!UICONTROL HTML]**, só será possível definir o conteúdo do corpo do email.
-
-   * Para **[!UICONTROL SMS]**, **[!UICONTROL Push]**, **[!UICONTROL No Aplicativo]** e **[!UICONTROL Correspondência Direta]**, somente o tipo padrão está disponível para o canal atual. Você ainda precisa selecioná-lo.
 
 1. Selecione ou crie tags Adobe Experience Platform a partir do campo **[!UICONTROL Tags]** para categorizar seu modelo para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
 
@@ -75,7 +71,7 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
    * [Definir conteúdo da correspondência direta](../direct-mail/create-direct-mail.md)
    * [Definir conteúdo no aplicativo](../in-app/design-in-app.md)
 
-1. Se você estiver criando um modelo de **[!UICONTROL Email]** com o tipo **[!UICONTROL HTML]**, poderá testar seu conteúdo. [Saiba como](#test-template)
+1. Você pode testar seu conteúdo. [Saiba como](#test-template)
 
 1. Quando o modelo estiver pronto, clique em **[!UICONTROL Salvar]**.
 
@@ -110,7 +106,7 @@ Ao criar qualquer conteúdo em uma campanha ou jornada, você pode salvá-lo par
 
    >[!NOTE]
    >
-   >O canal e o tipo atuais são preenchidos automaticamente e não podem ser editados. Para modelos de email criados a partir do [Designer de email](../email/get-started-email-design.md), o tipo **[!UICONTROL HTML]** é selecionado automaticamente.
+   >O canal atual é preenchido automaticamente e não pode ser editado.
 
 1. Selecione ou crie uma marca Adobe Experience Platform do campo **Marcas** para categorizar seu modelo. [Saiba mais](../start/search-filter-categorize.md#tags)
 
