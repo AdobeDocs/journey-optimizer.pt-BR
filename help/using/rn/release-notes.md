@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 66%
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <tbody>
 <tr>
 <td>
-<p>As métricas de Jornada agora estão disponíveis, permitindo medir o impacto das suas atividades nas métricas principais da sua empresa e fornecer insights mais claros sobre o seu desempenho.</p>
+<p>As métricas de jornada agora estão disponíveis, permitindo medir o impacto de suas atividades nas métricas principais do seu negócio e fornecer insights mais claros sobre seu desempenho.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/success-metrics.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 9 de abril de 2025</p>
 </br>
@@ -49,23 +49,23 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 * **Ferramentas de sandbox** - Data de disponibilidade: 3 de abril de 2025
 
-  Agora é possível copiar campanhas em várias sandboxes usando recursos de exportação e importação de pacotes. As campanhas são copiadas junto com todos os itens relacionados ao perfil, público-alvo, esquema, mensagens embutidas e objetos dependentes. Alguns itens não são copiados, como itens de decisão, rótulos de uso de dados e configurações de idioma. [Leia mais](../configuration/copy-objects-to-sandbox.md)
+  Agora é possível copiar campanhas em várias sandboxes usando recursos de exportação e importação de pacotes. As campanhas são copiadas junto com todos os itens relacionados ao perfil, público-alvo, esquema, mensagens em linha e objetos dependentes. Alguns itens não são copiados, como itens de decisão, rótulos de uso de dados e configurações de idioma. [Leia mais](../configuration/copy-objects-to-sandbox.md)
 
-* **Personalization** - Data de disponibilidade: 2 de abril de 2025
+* **Personalização** - Data de disponibilidade: 2 de abril de 2025
 
-  O painel de atributos no editor de personalização agora mostra apenas atributos preenchidos por padrão. Para exibir todos os atributos, use o botão de configurações para desativar a opção **[!UICONTROL Mostrar apenas atributos preenchidos]**. [Leia mais](../personalization/personalization-build-expressions.md)
+  Por padrão, o painel de atributos no editor de personalização agora mostra apenas atributos preenchidos. Para exibir todos os atributos, use o botão de configurações para desativar a opção **[!UICONTROL Mostrar apenas atributos preenchidos]**. [Leia mais](../personalization/personalization-build-expressions.md)
 
 * **Gerenciamento de conteúdo** - Data de disponibilidade: 2 de abril de 2025
 
-  Para gerenciar facilmente seus modelos e fragmentos de conteúdo, agora é possível usar pastas para organizá-los com mais eficiência em uma hierarquia estruturada. Saiba mais nas seções [Modelos de conteúdo](../content-management/access-content-templates.md#folders) e [Fragmentos](../content-management/manage-fragments.md#folders).
+  Para gerenciar facilmente seus modelos e fragmentos de conteúdo, agora é possível usar pastas para organizá-los de forma mais eficaz em uma hierarquia estruturada. Saiba mais nas seções [Modelos de conteúdo](../content-management/access-content-templates.md#folders) e [Fragmentos](../content-management/manage-fragments.md#folders).
 
   >[!AVAILABILITY]
   >
   >Esta melhoria está disponível apenas para um conjunto de organizações (disponibilidade limitada).
 
-* **Email Designer** - Data de disponibilidade: 1 de abril de 2025
+* **Designer de email** - Data de disponibilidade: 1º de abril de 2025
 
-  Para aprimorar a acessibilidade no Journey Optimizer, dois novos campos agora estão disponíveis no Designer de email: eles correspondem ao elemento `<title>` e ao atributo `lang` no elemento `<html>` do seu conteúdo de email. Você pode definir essas configurações além do campo **[!UICONTROL Pré-cabeçalho]**, na seção email **[!UICONTROL Corpo]**. [Leia mais](../email/email-metadata.md)
+  Para melhorar a acessibilidade no Journey Optimizer, agora há dois novos campos disponíveis no Designer de email, os quais correspondem ao elemento `<title>` e ao atributo `lang` no elemento `<html>` do conteúdo do email. Além dessas configurações, é possível definir o campo **[!UICONTROL Pré-cabeçalho]** na seção **[!UICONTROL Corpo]** do email. [Leia mais](../email/email-metadata.md)
 
 
 ## Notas de versão de março de 2025 {#25-3-rn}
@@ -175,13 +175,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Avaliação de público-alvo flexível (GA)</strong><br/></th>
+<th><strong>Avaliação de público-alvo flexível (disponibilidade geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Anteriormente disponível para um conjunto de organizações (DL), a Avaliação flexível de público-alvo agora está disponível para todos os usuários (DG). Esse recurso permite executar um trabalho de segmentação sob demanda para públicos selecionados, garantindo que você sempre tenha os dados do público mais atualizados antes de direcioná-los para jornadas e campanhas do Journey Optimizer.</p>
+<p>Anteriormente disponível para apenas algumas organizações (disponibilidade limitada), a avaliação de público-alvo flexível agora está disponível para todos os usuários (disponibilidade geral). Esse recurso permite executar um trabalho de segmentação sob demanda para públicos-alvo selecionados, garantindo que você sempre tenha os dados de público-alvo mais atualizados antes de direcioná-los para jornadas e campanhas do Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Para obter mais informações, consulte a <a href="../audience/creating-a-segment-definition.md#flexible">documentação detalhada</a>.</p>
 </tr>

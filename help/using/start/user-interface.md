@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -253,8 +253,8 @@ Para alterar o idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="Secar sua jornada"
->abstract="Depois de projetar a jornada, execute um teste para confirmar se ela está funcional e garantir que as etapas estejam corretas. Esse modo de publicação permite que você teste uma jornada sem enviar comunicação para qualquer perfil."
+>title="Teste sua jornada"
+>abstract="Depois de projetar a jornada, execute um teste para confirmar sua funcionalidade e garantir que as etapas estejam corretas. Esse modo de publicação permite realizar um teste preliminar da jornada sem enviar comunicações para qualquer perfil."
 
 
 
