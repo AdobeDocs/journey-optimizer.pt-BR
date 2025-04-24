@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 Este manual do desenvolvedor fornece etapas para ajudar a começar a usar a API [!DNL Offer Library]. O manual fornece chamadas de API de amostra para executar operações importantes usando o mecanismo de decisão.
 
-➡️ [Saiba mais sobre os componentes da Gestão de decisões neste vídeo](#video)
+➡️ [Saiba mais sobre os componentes da gestão de decisões neste vídeo](#video)
 
 ## Pré-requisitos {#prerequisites}
 

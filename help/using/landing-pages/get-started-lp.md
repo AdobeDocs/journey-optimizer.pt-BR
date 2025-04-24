@@ -10,9 +10,9 @@ level: Beginner
 keywords: destino, página de destino, início, introdução
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Uma página de destino é uma página da Web independente para a qual o usuário
 
 O [!DNL Journey Optimizer] permite criar e projetar páginas de destino para direcionar seus usuários a formulários online, em que eles podem aceitar ou recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.
 
-➡️ [Saiba mais sobre como configurar assinaturas e criar páginas de aterrissagem neste vídeo](#video)
+➡️ [Saiba como configurar assinaturas e criar páginas de destino neste vídeo](#video)
 
 * Aproveite os recursos de design de conteúdo do [!DNL Journey Optimizer] para criar com facilidade **páginas de destino responsivas**.
 * Configure **fluxos de aceitação e recusa** de forma rápida e fácil.

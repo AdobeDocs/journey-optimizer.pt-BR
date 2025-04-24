@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introdução à privacidade
-description: Saiba mais sobre privacidade no Adobe Journey Optimizer e no Adobe Experience Platform.
+description: Saiba mais sobre a privacidade do Adobe Journey Optimizer e da Adobe Experience Platform.
 feature: Privacy, Consent Management
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ A Adobe Experience Platform e o Journey Optimizer fornecem várias ferramentas p
 
 * **Gerenciar solicitações de dados**: Use o Adobe Experience Platform Privacy Service para gerenciar solicitações de clientes para acessar e excluir dados pessoais. [Saiba mais](requests.md)
 
-* **Auditoria de ações de usuários**: Aproveite os logs de auditoria para identificar ações executadas pelos usuários no sistema, solucionar problemas e ajudar sua empresa a cumprir as regulamentações e as políticas corporativas de gerenciamento de dados. [Saiba mais](audit-logs.md)
+* **Auditoria de ações de usuários**: Aproveite os logs de auditoria para identificar ações executadas pelos usuários no sistema, solucionar problemas e ajudar seu negócio a cumprir as regulamentações e as políticas corporativas de gerenciamento de dados. [Saiba mais](audit-logs.md)
 
 * **Monitorar e gerenciar o consentimento**: Monitore o consentimento dos clientes para comunicação e gerencie as preferências e assinaturas deles. [Saiba mais](opt-out.md)
 

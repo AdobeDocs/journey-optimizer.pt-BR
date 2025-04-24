@@ -10,9 +10,9 @@ level: Experienced
 keywords: definições, email, configuração
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Dependendo do cliente de email e das configurações de cancelamento de assinatu
 >
 >Aprenda como gerenciar as configurações de cancelamento de inscrição [nesta seção](#enable-list-unsubscribe) abaixo.
 
-Em ambos os casos, quando um destinatário clica no link de opção de não participação, sua solicitação de cancelamento de assinatura é processada adequadamente. O perfil correspondente foi cancelado imediatamente e esta escolha é atualizada no [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
+Em ambos os casos, quando um destinatário clica no link de opção de não participação, sua solicitação de cancelamento de assinatura é processada adequadamente. O perfil correspondente é imediatamente excluído da lista e essa escolha é atualizada na [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
 
 >[!NOTE]
 >
@@ -91,9 +91,9 @@ Os recursos **[!UICONTROL Mailto (cancelar assinatura)]** e **[!UICONTROL URL de
 
   >[!NOTE]
   >
-  >Saiba mais sobre como gerenciar recursos de cancelamento de inscrição em suas mensagens [nesta seção](../email/email-opt-out.md#unsubscribe-header).
+  >Saiba mais sobre como gerenciar recursos de cancelamento de assinatura em suas mensagens [nesta seção](../email/email-opt-out.md#unsubscribe-header).
 
-Em [!DNL Journey Optimizer], o consentimento é gerido pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"} da Experience Platform. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar este valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"} ou usar [políticas de consentimento](../action/consent.md) para substituir a lógica padrão.
+No [!DNL Journey Optimizer], o consentimento é tratado pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR) da Experience Platform{target="_blank"}. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. É possível modificar esse valor padrão durante a integração para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"}, ou usar [políticas de consentimento](../action/consent.md) para substituir a lógica padrão.
 
 Atualmente, o [!DNL Journey Optimizer] não anexa uma tag específica aos eventos de cancelamento de assinatura acionados pelo recurso de cancelamento de assinatura na lista. Se você precisar diferenciar os cliques de cancelamento de asssinatura na lista de outras ações de cancelamento de assinatura, será necessário implementar a marcação personalizada externamente ou utilizar uma página de destino externa para rastreamento.
 
@@ -123,7 +123,7 @@ O **[!UICONTROL URL de cancelamento de assinataura com um clique]** deve ser u
 
 Com a opção **[!UICONTROL Gerenciado pelo cliente]** selecionada, se você inserir pontos de acesso personalizados e usá-los em uma campanha ou jornada, o [!DNL Journey Optimizer] acrescentará alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento <!--sent to the custom endpoint --> quando seus destinatários clicarem no link de cancelamento de assinatura.
 
-Esses parâmetros são enviados para o ponto de acesso de maneira criptografada. Assim, o sistema de consentimento externo precisa implementar uma API específica por meio do [Adobe Developer](https://developer.adobe.com){target="_blank"} para descriptografar os parâmetros enviados pelo Adobe.
+Esses parâmetros são enviados para o ponto de acesso de maneira criptografada. Assim, o sistema de consentimento externo precisa implementar uma API específica por meio do [Adobe Developer](https://developer.adobe.com){target="_blank"} para descriptografar os parâmetros enviados pela Adobe.
 
 A chamada GET para recuperar esses parâmetros depende da opção de cancelamento de assinatura em lista que você utiliza: **[!UICONTROL URL de cancelamento de assinatura com um clique]** ou **[!UICONTROL Mailto (cancelar assinatura)]**.
 

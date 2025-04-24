@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Como **Profissional de marketing** ou **Usuário de jornadas**, você é respons
 
 Consulte as seguintes seções para configurar a primeira jornada, adicionar ofertas e ativos e enviar mensagens:
 
-1. **Criar públicos-alvo**. O Journey Optimizer permite criar públicos-alvo por meio de definições de segmento diretamente no menu **Públicos-alvo** e aproveitá-los em suas jornadas.  Saiba mais sobre os públicos-alvo [nesta página](../../audience/about-audiences.md). Saiba como criar definições de segmento [nesta amostra](../../audience/creating-a-segment-definition.md).
+1. **Criar públicos-alvo**. O Journey Optimizer permite criar públicos-alvo por meio de definições de segmento diretamente no menu **Públicos-alvo** e aproveitá-los em suas jornadas.  Saiba mais sobre públicos-alvo [nesta página](../../audience/about-audiences.md). Saiba como criar definições de segmento [nesta amostra](../../audience/creating-a-segment-definition.md).
 
 1. **Adicionar personalização e conteúdo dinâmico**. Aproveite a personalização do Journey Optimizer e os recursos de conteúdo dinâmico para adaptar sua mensagem ao seu público-alvo. Saiba mais sobre [personalização](../../personalization/personalize.md) e [conteúdo dinâmico](../../personalization/get-started-dynamic-content.md).
 

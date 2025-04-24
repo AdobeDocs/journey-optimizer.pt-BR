@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Essa configuração simplifica a configuração rápida de canais de marketing, 
 
 1. Para simplificar o processo de configuração, os recursos necessários são criados automaticamente para ajudar você a começar. Isso inclui a criação de uma nova **[!UICONTROL Propriedade de tag móvel]** e a instalação de extensões.
 
-[Saiba mais sobre os recursos gerados automaticamente](set-mobile-config.md#auto-create-resources)
+[Saiba mais sobre recursos gerados automaticamente](set-mobile-config.md#auto-create-resources)
 
 1. Quando a geração de recursos estiver concluída, siga as instruções na interface para configurar e validar seus SDKs e canais.
 

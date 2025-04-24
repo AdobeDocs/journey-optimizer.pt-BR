@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Os benefícios incluem:
 * Workflows aprimorados: em vez de criar várias entregas ou campanhas, as equipes de marketing podem aprimorar os workflows criando uma única entrega e variar as ofertas em diferentes partes do modelo,
 * Controle a quantidade de vezes que uma oferta é exibida em campanhas e clientes.
 
-➡️ [Saiba mais sobre o Gerenciamento de decisões nestes vídeos](#video)
+➡️ [Saiba mais sobre a gestão de decisões nesses vídeos](#video)
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Os recursos e a integração da Gestão de decisões com a Adobe Experience Plat
 
 As permissões para acessar e usar os recursos de decisão são gerenciadas usando o [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/managing/user-guide.html){target="_blank"}.
 
-Para conceder acesso à funcionalidade de gestão de decisões, é necessário criar um **[!UICONTROL Perfil de produto]** e atribuir as permissões correspondentes aos usuários. Saiba mais sobre como gerenciar usuários e permissões do [!DNL Journey Optimizer] em [esta seção](../../administration/permissions.md).
+Para conceder acesso à funcionalidade de gestão de decisões, é necessário criar um **[!UICONTROL perfil de produto]** e atribuir as permissões correspondentes aos usuários. Saiba mais sobre como gerenciar usuários e permissões do [!DNL Journey Optimizer] [nesta seção](../../administration/permissions.md).
 
 As permissões específicas de Gestão de decisões estão listadas [nesta seção](../../administration/high-low-permissions.md#decisions-permissions).
 

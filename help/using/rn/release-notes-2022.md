@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -413,7 +413,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 **Gestão de decisões**
 
-* **Tamanho do público-alvo** - Um novo componente de estimativa de tamanho de público-alvo agora é exibido na interface ao criar uma regra de decisão, ao selecionar um público-alvo ou uma regra para definir uma qualificação de oferta ou ao adicionar um público-alvo ou uma regra a um escopo de decisão.
+* **Tamanho do público-alvo** - Um novo componente de estimativa de tamanho de público-alvo agora é exibido na interface ao criar uma regra de decisão, ao selecionar um público-alvo ou uma regra para definir uma elegibilidade de oferta ou ao adicionar um público-alvo ou uma regra a um escopo de decisão.
 
 
 ## Versão de junho de 2022 {#june-2022-release}

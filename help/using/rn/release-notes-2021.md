@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2035'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lan
 <td>
 <p>O Adobe Journey Optimizer agora é compatível com CNAMEs. Um registro CNAME ou Nome canônico é um registro que aponta para outro endereço de domínio em vez de um endereço IP. A delegação de subdomínio CNAME permite criar um subdomínio e usar CNAMEs para apontar para registros específicos da Adobe. Com essa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS para configurar o ambiente para enviar, renderizar e rastrear emails.</p>
 <p>Esse método é recomendado se as políticas de sua organização restringirem o método completo de delegação de subdomínio.</p>
-<p>Saiba mais sobre a delegação de subdomínio CNAME na <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">documentação detalhada</a>.</p>
+<p>Saiba mais sobre a delegação de subdomínios CNAME na <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -53,7 +53,7 @@ Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lan
 <tbody>
 <tr>
 <td>
-<p>Agora é possível simular quais ofertas serão entregues a um perfil de teste para um determinado posicionamento na interface do Journey Optimizer. Isso permite validar facilmente a sua lógica de decisão, incluindo restrições de qualificação e algoritmos de classificação, antes de colocá-los em produção. Esse recurso permite que usuários(as) técnicos(as) e não técnicos(as) testem rapidamente a gestão de decisões e solucionem possíveis problemas.</p>
+<p>Agora é possível simular quais ofertas serão entregues a um perfil de teste para um determinado posicionamento na interface do Journey Optimizer. Isso permite validar facilmente a sua lógica de decisão, incluindo restrições de elegibilidade e algoritmos de classificação, antes de colocá-los em produção. Esse recurso permite que usuários(as) técnicos(as) e não técnicos(as) testem rapidamente a gestão de decisões e solucionem possíveis problemas.</p>
 <p>Para obter mais informações, consulte a <a href="../offers/offer-activities/simulation.md">documentação detalhada</a>.</p>
 </td>
 </tr>

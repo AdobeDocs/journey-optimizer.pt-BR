@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em temp
 
 O designer de jornadas do Journey Optimizer oferece todos os recursos que profissionais de marketing e jornadas precisam para orquestrar jornadas personalizadas e de várias etapas em todos os canais. Isso inclui uma tela intuitiva com interface de arrastar e soltar para criar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos de negócios.
 
-Saiba como criar sua primeira jornada em [esta página](journey-gs.md).
+Saiba como criar e projetar sua primeira jornada [nesta página](journey-gs.md).
 
 ➡️ [Conheça o Journey Optimizer no vídeo](#video)
 
@@ -50,7 +50,7 @@ Saiba como criar jornadas nos seguintes casos de uso completos:
 
 >[!NOTE]
 >
->As medidas de proteção e limitações de jornada estão detalhadas nesta [página](../start/guardrails.md)
+>As medidas de proteção e limitações da jornada estão detalhadas [nesta página](../start/guardrails.md)
 
 ## Vídeo tutorial {#video}
 
