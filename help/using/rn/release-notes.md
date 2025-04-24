@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 94%
+source-wordcount: '944'
+ht-degree: 90%
 
 ---
 
@@ -40,6 +40,25 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <p>Data de disponibilidade: 9 de abril de 2025</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Editor do Personalization - Aprenda fazendo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Um playground de personalização agora está disponível, onde você pode experimentar expressões de personalização. Ele permite explorar modelos de amostra e cargas para ajudá-lo a começar e experimentar suas próprias expressões de personalização.</p>
+<p>Para obter mais informações, consulte a <a href="../personalization/personalize.md#playground">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: sexta-feira, 24 de abril de 2025</p>
+</br>
+<img src="assets/do-not-localize/templating-playground.gif"/>
 </td>
 </tr>
 </tbody>

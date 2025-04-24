@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: expressão, editor, início, personalização
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 30%
+source-wordcount: '489'
+ht-degree: 26%
 
 ---
 
@@ -29,7 +29,7 @@ Os recursos de personalização do [!DNL Adobe Journey Optimizer] permitem que v
 
 Usando o **editor de personalização**, você pode selecionar, organizar, personalizar e validar todos os dados para criar uma personalização personalizada para o seu conteúdo e aproveitar várias ferramentas, como funções auxiliares ou expressões predefinidas, para personalizar mensagens com eficiência.
 
-O Journey Optimizer emprega uma sintaxe de personalização em linha com base em Handlebars que permite criar expressões com conteúdo delimitado por chaves duplas **{{}}**.
+O Journey Optimizer emprega uma sintaxe de personalização em linha com base em Handlebars que permite criar expressões com conteúdo delimitado por chaves duplas **{{}}{{}}**.
 
 Ao processar a mensagem, o Journey Optimizer substitui a expressão pelos dados contidos no conjunto de dados do Experience Platform. Por exemplo, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` torna-se dinamicamente `Hello John Doe`.
 
@@ -42,6 +42,16 @@ O Personalization é baseado nos dados de perfil gerenciados pelo esquema **Perf
 Você também pode aproveitar os **atributos computados** para personalizar seu conteúdo. Os atributos computados permitem resumir eventos comportamentais individuais em atributos de perfil computados disponíveis no Adobe Experience Platform. [Saiba como trabalhar com atributos computados](../audience/computed-attributes.md)
 
 Além disso, o [!DNL Journey Optimizer] permite que você aproveite os dados do Adobe Experience Platform no editor de personalização para personalizar seu conteúdo. Para fazer isso, os conjuntos de dados necessários para a personalização da pesquisa devem primeiro ser habilitados por meio de uma chamada de API. Depois de concluído, você pode usar os dados para personalizar o conteúdo no Journey Optimizer. No momento, esse recurso está disponível na versão beta. [Saiba mais](../personalization/lookup-aep-data.md)
+
+## Aprender e experimentar com personalização {#playground}
+
+O **[!DNL Adobe Journey Optimizer]** inclui uma ferramenta interativa projetada para ajudá-lo a aprender e experimentar os recursos de personalização.
+
+Esse playground fornece um ambiente simulado para gravar e testar o código de personalização usando dados de amostra sem exigir conjuntos de dados em tempo real. Você pode aproveitar amostras de código predefinidas, editar cargas de perfil fictícias e visualizar a saída do seu código de personalização em tempo real.
+
+![playground de personalização](assets/playground.png)
+
+➡️ [Acessar o playground de personalização](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Vamos nos aprofundar um pouco mais
 
