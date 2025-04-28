@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
+source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 17%
+source-wordcount: '954'
+ht-degree: 16%
 
 ---
 
@@ -223,18 +223,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 **Canal de email**
 
-- **Campos Adicionais para Suporte à Acessibilidade**
+- **Rastreamento personalizado de URL**
 
-  Dois novos campos foram adicionados ao editor de email para oferecer suporte à acessibilidade: o elemento `<title>` para títulos de documentos e o atributo `lang` para especificação de idioma na marca `<html>`.
+  Para aumentar a flexibilidade e o controle sobre suas configurações de email, agora é possível personalizar todos os parâmetros de rastreamento de URL de uma só vez no nível de configuração do canal de email, em vez de fazer isso no Designer de email para cada link no seu conteúdo.
 
-- **Aprimoramentos no Personalization de Superfície de Email - Rastreamento de URL**
+- **Temas do designer de email** (Beta) - Data de disponibilidade: 5 de maio de 2025
 
-  O rastreamento de URL na personalização de email foi aprimorado, permitindo um rastreamento e relatórios mais granulares. As atualizações incluem opções aprimoradas de configuração para configurações personalizadas de email.
-
-
-- Melhorias no Editor de Email de **[Beta] com Temas**
-
-  Um novo recurso beta apresenta temas ao editor de email, permitindo definir estilos reutilizáveis e criar emails mais rapidamente usando módulos pré-configurados.
+  Agora é possível aplicar rapidamente os temas de estilo pré-aprovados ao seu conteúdo de email para garantir a consistência da marca em todos os emails, acelerar o processo de criação de campanha e produzir emails de alta qualidade de forma independente e, ao mesmo tempo, reduzir a dependência das equipes de design.
 
 **Ferramentas de sandbox**
 
@@ -260,39 +255,29 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
   Por padrão, o painel de atributos no editor de personalização agora mostra apenas atributos preenchidos. Para exibir todos os atributos, use o botão de configurações para alternar a opção Mostrar apenas atributos preenchidos.
 
-- **Nova Variável de Contexto do Sistema**
+- **Novo atributo contextual**
 
-  Uma nova variável de contexto do sistema foi introduzida para identificar exclusivamente cada mensagem enviada a um perfil direcionado. Essa variável pode ser usada para rastreamento e personalização.
-
-
+  Um novo atributo contextual, **Id de Perfil da Mensagem**, agora está disponível para seleção no editor de personalização. Este é um atributo orientado por mensagem que identifica exclusivamente cada mensagem enviada para cada perfil direcionado em um delivery. Esse identificador exclusivo pode ser usado, por exemplo, como um parâmetro de rastreamento de URL para distinguir cada link aberto ou clicado pelos recipients.
 
 **Decisão**
 
-- **Modelo de IA - Unificar Classificação - Novo Construtor de Fórmulas**
+- **Fórmulas de classificação**
 
-  Agora você pode ajustar as pontuações em tempo real dos modelos de IA do Adobe Decisioning usando um novo construtor de fórmulas. Esse recurso centraliza os ajustes de classificação para prioridades e pontuações do modelo.
+  Agora é possível criar fórmulas de classificação específicas do Decisioning definindo e combinando critérios de uma nova interface aprimorada. As fórmulas de classificação permitem definir regras que determinarão quais itens de decisão devem ser apresentados primeiro, em vez de considerar as pontuações de prioridade.
 
 **Navegação**
 
-- **Pastas - Páginas de Aterrissagem**
+- **Pastas para modelos e fragmentos de conteúdo** - Data de disponibilidade: 5 de maio de 2025
 
-  Gerenciamento aprimorado de pastas para páginas de aterrissagem no Adobe Journey Optimizer, incluindo alterações na interface, fluxos e atualizações de API.
+  Anteriormente disponíveis para um conjunto de organizações (DL), as pastas agora estão disponíveis para todos os usuários (DG) para gerenciar seus modelos e fragmentos de conteúdo. As pastas permitem organizar os modelos e fragmentos de conteúdo de forma mais fácil e eficaz em uma hierarquia estruturada.
 
-- **Pastas - Modelos e Fragmentos**
+- **Pastas para páginas de aterrissagem** - Data de disponibilidade: 5 de maio de 2025
 
-  A menção Disponibilidade limitada foi removida para pastas em modelos e fragmentos, indicando que esse recurso agora está geralmente disponível.
+  Para gerenciar facilmente suas landing pages, agora você também pode usar pastas para organizá-las com mais eficiência em uma hierarquia simplificada.
 
 - **Painel Direito na Lista de Campanhas**
 
   Um painel direito foi adicionado à lista de campanhas, fornecendo informações detalhadas quando uma campanha é selecionada.
-
-
-
-**Capacidade da entrega**
-
-- **Fluxo de trabalho aprimorado para IPs complementares e remoção de subdomínios delegados**
-
-  O fluxo de trabalho para gerenciar IPs complementares e subdomínios delegados foi aprimorado, simplificando o processo para os usuários.
 
 **manuais**
 
