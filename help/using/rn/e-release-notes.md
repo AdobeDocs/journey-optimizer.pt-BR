@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
+source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 16%
 
 ---
@@ -52,7 +52,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Exibição de calendário para Inventário de Campanha e Jornada (disponibilidade limitada)</strong><br/></th>
+<th><strong>Exibição de calendário para inventário de campanha e jornada (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -82,7 +82,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Playground da Personalization no Experience League</strong><br/></th>
+<th><strong>Playground do Personalization no Experience League</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -127,7 +127,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Traga seu próprio provedor de SMS (Disponibilidade geral)</strong><br/></th>
+<th><strong>Traga seu próprio provedor de SMS (Disponibilidade Geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -217,7 +217,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 **Públicos-alvo**
 
-- **Remover Limitação de Atributos de Enriquecimento**
+- **Remover limitação para atributos de enriquecimento da Composição de Público-Alvo**
 
   O uso de públicos-alvo e atributos da composição de público-alvo agora está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 
@@ -233,11 +233,11 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 **Ferramentas de sandbox**
 
-- **Cópia da Sandbox de Decisão**
+- **Cópia da sandbox de decisão**
 
   Os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação.
 
-- **Ferramentas de Sandbox para Ações Personalizadas**
+- **Ferramentas de sandbox para ações personalizadas**
 
   As ações personalizadas agora são incluídas na lista de objetos do Adobe Journey Optimizer que podem ser copiados usando o recurso de ferramenta sandbox, simplificando o teste e a implantação.
 
@@ -247,11 +247,11 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 **Personalização**
 
-- **Editor do Personalization - Ativação de Pills**
+- **Ativação de pílulas**
 
   Um novo botão “Pílulas” foi adicionado ao editor de personalização. Quando habilitado, o perfil e os atributos contextuais são exibidos como pílulas, melhorando a legibilidade do seu código.
 
-- **Personalization - Esquema Observável**
+- **Atributos preenchidos no painel de atributos**
 
   Por padrão, o painel de atributos no editor de personalização agora mostra apenas atributos preenchidos. Para exibir todos os atributos, use o botão de configurações para alternar a opção Mostrar apenas atributos preenchidos.
 
@@ -275,7 +275,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
   Para gerenciar facilmente suas landing pages, agora você também pode usar pastas para organizá-las com mais eficiência em uma hierarquia simplificada.
 
-- **Painel Direito na Lista de Campanhas**
+- **Painel direito na lista de campanhas**
 
   Um painel direito foi adicionado à lista de campanhas, fornecendo informações detalhadas quando uma campanha é selecionada.
 
