@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b79ab63dfefde9df1b4991ed3a81f1d61bc4bb96
+source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 12%
+source-wordcount: '918'
+ht-degree: 17%
 
 ---
 
@@ -37,13 +37,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Integração do Adobe Express (DL)</strong><br/></th>
+<th><strong>Integração do Adobe Express (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Adobe Journey Optimizer agora se integra ao Adobe Express, permitindo que os usuários conectem facilmente seus ativos criativos ao jornada orchestration. Essa integração simplifica o processo de criação e implantação de conteúdo personalizado em campanhas. Este recurso está atualmente com a Disponibilidade Limitada.</p>
+<p>O Adobe Journey Optimizer agora se integra ao Adobe Express, permitindo que você conecte facilmente seus ativos criativos à orquestração do jornada. Essa integração simplifica o processo de criação e implantação de conteúdo personalizado em campanhas. Este recurso está atualmente com a Disponibilidade Limitada.</p>
 </td>
 </tr>
 </tbody>
@@ -52,13 +52,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Exibição de calendário para Inventário de Campanha e Jornada (DL)</strong><br/></th>
+<th><strong>Exibição de calendário para Inventário de Campanha e Jornada (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Uma nova visualização do calendário agora está disponível para campanhas e ativações de jornada. Esse recurso fornece uma representação visual das atividades agendadas, permitindo que os usuários visualizem e gerenciem suas campanhas e jornadas com mais eficiência. Selecionar um item de calendário abre um painel direito com informações detalhadas. Este recurso está atualmente com a Disponibilidade Limitada.</p>
+<p>Uma nova visualização do calendário agora está disponível para campanhas e ativações de jornada. Esse recurso fornece uma representação visual das atividades agendadas, permitindo visualizar e gerenciar campanhas e jornadas com mais eficiência. Selecionar um item de calendário abre um painel direito com informações detalhadas. Este recurso está atualmente com a Disponibilidade Limitada.</p>
 </td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>O Experience League agora oferece um Personalization Playground interativo. Esse recurso permite que os usuários explorem e pratiquem recursos de personalização no Adobe Journey Optimizer. Os usuários podem gravar código de personalização, testar com amostras de carga e simular cenários reais para aprimorar sua experiência de aprendizado.</p>
+<p>O Experience League agora oferece um Personalization Playground interativo. Esse recurso permite explorar e praticar recursos de personalização no Adobe Journey Optimizer. Você pode escrever código de personalização, testar com cargas de amostra e simular cenários reais para aprimorar sua experiência de aprendizado.</p>
 </td>
 </tr>
 </tbody>
@@ -97,13 +97,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Acione a execução da Jornada após a avaliação do público-alvo (LA) em lote</strong><br/></th>
+<th><strong>Acionar execuções diárias de jornada após a conclusão da segmentação em lote (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Os usuários agora podem especificar uma janela de tempo para aguardar uma nova avaliação de públicos-alvo em lote no nó Ler público-alvo. Se a avaliação for concluída na janela, a jornada será acionada; caso contrário, ela será ignorada. Esse recurso aborda atrasos em trabalhos de segmentação em lote e está atualmente com a Disponibilidade limitada.</p>
+<p>Para jornadas programadas diariamente, uma nova opção permite definir uma janela de tempo de até 6 horas para aguardar os dados do público-alvo de trabalhos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas. A opção Acionar após avaliação de público-alvo em lote está disponível somente para um conjunto de organizações (Disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -112,13 +112,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Prova da próxima geração (GA)</strong><br/></th>
+<th><strong>Simular variações de conteúdo (Disponibilidade geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O recurso Next-gen Proofing agora está geralmente disponível. Esse aprimoramento é compatível com atributos contextuais, conteúdo multilíngue, experimentação e modelos de conteúdo, fornecendo uma experiência de prova mais robusta e flexível.</p>
+<p>Anteriormente disponível na versão beta, a simulação de variações de conteúdo agora está disponível de modo geral (GA). Ele permite que você visualize diferentes variações de seu conteúdo usando exemplos de dados de entrada carregados de um arquivo CSV ou JSON ou adicionados manualmente. Todos os atributos usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes.</p>
 </td>
 </tr>
 </tbody>
@@ -127,13 +127,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Traga seu próprio Provedor de SMS (GA)</strong><br/></th>
+<th><strong>Traga seu próprio provedor de SMS (Disponibilidade geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Adobe Journey Optimizer agora é compatível com provedores de SMS personalizados, permitindo que os usuários integrem seus serviços de SMS preferidos para melhorar a flexibilidade de comunicação.</p>
+<p>O Adobe Journey Optimizer agora é compatível com provedores de SMS personalizados, permitindo integrar seus serviços de SMS preferidos para melhorar a flexibilidade de comunicação.</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 - **Remover Limitação de Atributos de Enriquecimento**
 
-  Os clientes com proteções da área de saúde e privacidade agora podem usar atributos de enriquecimento da Composição de público-alvo em canais da Adobe Journey Optimizer, aprimorando os recursos de uso de dados.
+  O uso de públicos-alvo e atributos da composição de público-alvo agora está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 
 **Canal de email**
 
@@ -234,13 +234,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 - Melhorias no Editor de Email de **[Beta] com Temas**
 
-  Um novo recurso beta apresenta temas ao editor de email, permitindo que os profissionais de marketing definam estilos reutilizáveis e criem emails mais rapidamente usando módulos pré-configurados.
+  Um novo recurso beta apresenta temas ao editor de email, permitindo definir estilos reutilizáveis e criar emails mais rapidamente usando módulos pré-configurados.
 
 **Ferramentas de sandbox**
 
 - **Cópia da Sandbox de Decisão**
 
-  Os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação. Uma subseção dedicada aos objetos de Decisão será adicionada à documentação.
+  Os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação.
 
 - **Ferramentas de Sandbox para Ações Personalizadas**
 
@@ -254,11 +254,11 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 - **Editor do Personalization - Ativação de Pills**
 
-  Um novo botão no editor de personalização permite que os usuários ativem ou desativem as pílulas. Esse recurso descarta o editor e permite a edição mais fácil de parâmetros de imagens de mídia dinâmica e atributos de perfil.
+  Um novo botão “Pílulas” foi adicionado ao editor de personalização. Quando habilitado, o perfil e os atributos contextuais são exibidos como pílulas, melhorando a legibilidade do seu código.
 
 - **Personalization - Esquema Observável**
 
-  O suporte a esquema observável foi adicionado ao editor de personalização, permitindo atualizações dinâmicas para atributos baseados em esquema.
+  Por padrão, o painel de atributos no editor de personalização agora mostra apenas atributos preenchidos. Para exibir todos os atributos, use o botão de configurações para alternar a opção Mostrar apenas atributos preenchidos.
 
 - **Nova Variável de Contexto do Sistema**
 
@@ -270,7 +270,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 - **Modelo de IA - Unificar Classificação - Novo Construtor de Fórmulas**
 
-  Agora, os profissionais de marketing podem ajustar pontuações em tempo real dos modelos de IA do Adobe Decisioning usando um novo construtor de fórmulas. Esse recurso centraliza os ajustes de classificação para prioridades e pontuações do modelo.
+  Agora você pode ajustar as pontuações em tempo real dos modelos de IA do Adobe Decisioning usando um novo construtor de fórmulas. Esse recurso centraliza os ajustes de classificação para prioridades e pontuações do modelo.
 
 **Navegação**
 
@@ -296,6 +296,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 **manuais**
 
-- **[Beta] Crie Seus Próprios Playbooks**
+- **Criar seus próprios manuais (Beta)**
 
-  Agora os usuários podem criar seus próprios manuais no Adobe Journey Optimizer, permitindo maior personalização e flexibilidade no planejamento de jornadas.
+  Agora é possível criar seus próprios manuais no Adobe Journey Optimizer, permitindo maior personalização e flexibilidade no planejamento de jornadas.
