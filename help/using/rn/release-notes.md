@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: d5ddf00b1a39c66b29ffb967389fb069a9648e83
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 52%
@@ -240,11 +240,11 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
   Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
-- **Ferramentas de sandbox para ações personalizadas**
+* **Ferramentas de sandbox para ações personalizadas**
 
   As ações personalizadas agora são incluídas na lista de objetos do Adobe Journey Optimizer que podem ser copiados usando o recurso de ferramenta sandbox, simplificando o teste e a implantação. [Leia mais](../configuration/copy-objects-to-sandbox.md)
 
-- **Ferramentas de sandbox para campanhas** - Data de disponibilidade: 3 de abril de 2025
+* **Ferramentas de sandbox para campanhas** - Data de disponibilidade: 3 de abril de 2025
 
   Agora é possível copiar campanhas em várias sandboxes usando recursos de exportação e importação de pacotes. As campanhas são copiadas junto com todos os itens relacionados ao perfil, público-alvo, esquema, mensagens em linha e objetos dependentes. Alguns itens não são copiados, como itens de decisão, rótulos de uso de dados e configurações de idioma. [Leia mais](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -254,12 +254,12 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
   A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
-- **Atributos preenchidos no painel de atributos** - Data de disponibilidade: 2 de abril de 2025
+* **Atributos preenchidos no painel de atributos** - Data de disponibilidade: 2 de abril de 2025
 
   Por padrão, o painel de atributos no editor de personalização agora mostra apenas atributos preenchidos. Para exibir todos os atributos, use o botão de configurações para desativar a opção **[!UICONTROL Mostrar apenas atributos preenchidos]**. [Leia mais](../personalization/personalization-build-expressions.md)
 
 
-- **Novo atributo contextual**
+* **Novo atributo contextual**
 
   Um novo atributo contextual, **Id de Perfil da Mensagem**, agora está disponível para seleção no editor de personalização. Este é um atributo orientado por mensagem que identifica exclusivamente cada mensagem enviada para cada perfil direcionado em um delivery. Esse identificador exclusivo pode ser usado, por exemplo, como um parâmetro de rastreamento de URL para distinguir cada link aberto ou clicado pelos recipients.
 
