@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
+source-git-commit: 00aa5d5283bae43949df133a48700aa91b3a8c7f
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '972'
 ht-degree: 16%
 
 ---
@@ -119,6 +119,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>Anteriormente disponível na versão beta, a simulação de variações de conteúdo agora está disponível de modo geral (GA). Ele permite que você visualize diferentes variações de seu conteúdo usando exemplos de dados de entrada carregados de um arquivo CSV ou JSON ou adicionados manualmente. Todos os atributos usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes.</p>
+<p>Com a versão de Disponibilidade Geral, o recurso agora inclui suporte para conteúdo multilíngue e experimentos de conteúdo, permitindo que você teste variações em diferentes idiomas e tratamentos. Além disso, agora ele é compatível com atributos contextuais (além dos atributos de perfil), permitindo testes de conteúdo ainda mais dinâmicos e situacionais.</p>
 </td>
 </tr>
 </tbody>
@@ -215,11 +216,11 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 ### Melhorias {#25-04-improv}
 
-**Públicos-alvo**
+<!--**Audiences**
 
-- **Remover limitação para atributos de enriquecimento da Composição de Público-Alvo**
+- **Remove limitation for Audience Composition enrichment attributes** 
 
-  O uso de públicos-alvo e atributos da composição de público-alvo agora está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
+  The use of audiences and attributes from audience composition is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **Canal de email**
 
