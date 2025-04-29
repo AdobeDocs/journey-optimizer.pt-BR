@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 25%
+source-wordcount: '660'
+ht-degree: 22%
 
 ---
 
@@ -26,6 +26,12 @@ Você pode selecionar em campanhas e jornadas qualquer público gerado usando de
 ## Atraso de ativação de públicos-alvo {#activation}
 
 Os públicos-alvo estão prontos para uso no Journey Optimizer logo após a conclusão da assimilação. Embora isso normalmente ocorra em uma hora, está sujeito a alguma variabilidade. Os públicos-alvo resultantes de composições devem estar disponíveis 24 horas após a publicação.
+
+Para públicos resultantes de trabalhos de segmentação em lote, a ativação pode ser atrasada devido à variabilidade da assimilação em lote. Para jornadas de leitura de público agendadas diariamente, você pode definir uma janela de tempo nas propriedades da jornada para garantir que dados novos do público-alvo estejam disponíveis antes da execução da jornada. Se o trabalho de segmentação não for concluído dentro da janela de tempo definida, a jornada será ignorada até a próxima ocorrência. [Saiba como agendar uma jornada de leitura de público-alvo](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>A opção **[!UICONTROL Acionar após avaliação de público-alvo em lote]** só está disponível para um conjunto de organizações (Disponibilidade Limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
 ## Composição de upload personalizado e público-alvo federado
 

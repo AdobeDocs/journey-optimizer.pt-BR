@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 6%
 
 ---
 
@@ -79,19 +79,7 @@ Para obter mais informações, consulte esta [seção](../event/about-creating-b
 
 * Para jornadas recorrentes: por padrão, todos os perfis pertencentes ao público-alvo inserem a jornada em cada recorrência. Eles devem concluir a jornada antes de entrar novamente em outra ocorrência.
 
-Duas opções estão disponíveis para jornadas recorrentes de Leitura de público:
-
-* Opção **Leitura incremental**: quando uma jornada com uma **Leitura de público** recorrente é executada pela primeira vez, todos os perfis da audiência entram na jornada. Essa opção permite direcionar, após a primeira ocorrência, somente os indivíduos que entraram no público-alvo desde a última execução da jornada.
-
-  >[!NOTE]
-  >
-  >Se você estiver direcionando um [público-alvo de carregamento personalizado](../audience/about-audiences.md#segments-in-journey-optimizer) na sua jornada, os perfis só serão recuperados na primeira recorrência se essa opção estiver habilitada em uma jornada recorrente, já que esses públicos-alvo são corrigidos.
-
-* **Forçar reentrada na recorrência**: essa opção permite fazer com que todos os perfis ainda presentes na jornada saiam automaticamente na próxima execução. Se a duração dos perfis nesta jornada for maior que a frequência de recorrência (por exemplo, se você usar atividades de espera), não ative essa opção para garantir que os perfis possam concluir a jornada.
-
-![](assets/read-audience-options.png)
-
-Para obter mais informações, consulte esta [seção](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+Várias opções estão disponíveis para jornadas recorrentes de Leitura de público. Para obter mais informações, consulte a seção [Usar um público em uma jornada](../building-journeys/read-audience.md).
 
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 

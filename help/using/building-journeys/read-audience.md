@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 11%
+source-wordcount: '2195'
+ht-degree: 9%
 
 ---
 
 # Usar um público em uma jornada {#segment-trigger-activity}
 
-## Adicionar uma atividade Ler público-alvo {#about-segment-trigger-actvitiy}
+## Sobre a atividade Ler público {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
@@ -58,7 +58,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="Tempo de espera para nova avaliação do público-alvo"
->abstract="Especifique a duração de tempo que a jornada aguardará para que o público-alvo em lote seja avaliado recentemente."
+>abstract="Especifique a duração de tempo que a jornada aguardará para que o público-alvo em lote seja avaliado recentemente. O período de espera é limitado a valores inteiros, pode ser especificado em minutos ou horas e deve estar entre 1 e 6 horas."
 
 Use a atividade **Ler público-alvo** para fazer com que todos os indivíduos de um público-alvo entrem na jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 
@@ -80,13 +80,13 @@ Vamos ver como exemplo o público-alvo &quot;Abertura e finalização do aplicat
 
 * Os públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou resultantes de [fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md) podem ser selecionados na atividade **Ler Público**. Estes públicos-alvo não estão disponíveis na atividade **Qualificação de público-alvo**.
 
-
 As medidas de proteção relacionadas à atividade **Ler público** estão listadas em [esta página](../start/guardrails.md#read-segment-g).
-
 
 ## Configurar a atividade {#configuring-segment-trigger-activity}
 
-As etapas para configurar a atividade Ler público-alvo são as seguintes:
+As etapas para configurar a atividade Ler público são as seguintes.
+
+### Adicione uma atividade Read audience e selecione o público
 
 1. Expanda a categoria **[!UICONTROL Orquestração]** e solte uma atividade **[!UICONTROL Ler público]** na tela.
 
@@ -120,33 +120,78 @@ As etapas para configurar a atividade Ler público-alvo são as seguintes:
    >
    >Os indivíduos pertencentes a um público-alvo que não tem a identidade (namespace) selecionada entre suas diferentes identidades não podem entrar na jornada. Você só pode selecionar um namespace de identidade com base em pessoas. Se você tiver definido um namespace para uma tabela de pesquisa (por exemplo: namespace ProductID para uma pesquisa de Produto), ele não estará disponível na lista suspensa **Namespace**.
 
-1. Defina a **[!UICONTROL Taxa de leitura]**. Esse é o número máximo de perfis que podem entrar na jornada por segundo. Essa taxa se aplica somente a essa atividade e nenhuma outra na jornada. Se você deseja definir uma taxa de limitação em ações personalizadas, por exemplo, é necessário usar a API de limitação. Consulte esta [página](../configuration/throttling.md).
+### Gerenciar entrada de perfis na jornada
 
-   Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5.000 perfis por segundo. Você pode modificar esse valor de 500 para 20.000 perfis por segundo.
+Defina a **[!UICONTROL Taxa de leitura]**. Esse é o número máximo de perfis que podem entrar na jornada por segundo. Essa taxa se aplica somente a essa atividade e nenhuma outra na jornada. Se você deseja definir uma taxa de limitação em ações personalizadas, por exemplo, é necessário usar a API de limitação. Consulte esta [página](../configuration/throttling.md).
 
-   >[!NOTE]
-   >
-   >A taxa de leitura geral por sandbox está definida como 20.000 perfis por segundo. Portanto, a taxa de leitura de todos os públicos-alvo de leitura executados simultaneamente na mesma sandbox totaliza no máximo 20.000 perfis por segundo. Não é possível modificar esse limite.
+Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5.000 perfis por segundo. Você pode modificar esse valor de 500 para 20.000 perfis por segundo.
 
-1. A atividade **[!UICONTROL Ler público-alvo]** permite especificar a hora em que o público-alvo inserirá a jornada. Para fazer isso, clique no link **[!UICONTROL Editar agendamento de jornada]** para acessar as propriedades da jornada e configure o campo **[!UICONTROL Tipo de agendador]**.
+>[!NOTE]
+>
+>A taxa de leitura geral por sandbox está definida como 20.000 perfis por segundo. Portanto, a taxa de leitura de todos os públicos-alvo de leitura executados simultaneamente na mesma sandbox totaliza no máximo 20.000 perfis por segundo. Não é possível modificar esse limite.
+
+### Agendar a jornada {#schedule}
+
+Por padrão, as jornada são configuradas para serem executadas uma vez. Para definir uma data/hora e uma frequência específicas na qual a jornada deve ser executada, siga as etapas abaixo.
+
+>[!NOTE]
+>
+>As jornadas de público-alvo de Leitura Única são movidas para o status **Concluído** 91 dias ([Tempo limite global da jornada](journey-properties.md#global_timeout)) após a execução da jornada. Para públicos-alvo de leitura agendados, isso acontece 91 dias após a execução da última ocorrência.
+
+1. Nas propriedades da atividade **[!UICONTROL Ler público]**, selecione **[!UICONTROL Editar agendamento de jornada]**.
 
    ![](assets/read-segment-schedule.png)
 
-   Por padrão, os públicos-alvo entram na jornada **[!UICONTROL Assim que possível]**. Se você quiser que o público-alvo insira a jornada em uma data/hora específica ou de forma recorrente, selecione o valor desejado na lista.
-
-   >[!NOTE]
-   >
-   >Observe que a seção **[!UICONTROL Agenda]** só estará disponível quando uma atividade **[!UICONTROL Ler Público]** for descartada na tela.
+1. As propriedades da jornada são exibidas. Na lista suspensa **[!UICONTROL Tipo de agendador]**, selecione a frequência com que deseja executar a jornada.
 
    ![](assets/read-segment-schedule-list.png)
 
-   Opção **Leitura incremental**: quando uma jornada com uma **Leitura de público** recorrente é executada pela primeira vez, todos os perfis da audiência entram na jornada. Essa opção permite direcionar, após a primeira ocorrência, somente os indivíduos que entraram no público-alvo desde a última execução da jornada.
+Para jornadas recorrentes, opções específicas estão disponíveis para ajudar você a gerenciar a entrada de perfis na jornada. Expanda as seções abaixo para obter mais informações sobre cada opção.
 
-       >[!NOTE]
-       >
-       >Se você estiver direcionando um [público-alvo de carregamento personalizado](../audience/about-audiences.md#segments-in-jornada-otimizer) em sua jornada, os perfis só serão recuperados na primeira recorrência se esta opção estiver habilitada em uma jornada recorrente, já que esses públicos-alvo estão corrigidos.
-   
-   **Forçar reentrada na recorrência**: essa opção permite fazer com que todos os perfis ainda presentes na jornada saiam automaticamente na próxima execução. Por exemplo, se você tiver 2 dias de espera em uma jornada recorrente diária, ao ativar essa opção os perfis sempre serão movidos na próxima execução da jornada (ou seja, no dia seguinte), estejam ou não no público da próxima execução. Se a duração dos perfis nesta jornada for maior que a frequência de recorrência, não ative essa opção para garantir que os perfis possam concluir a jornada.
+![](assets/read-audience-options.png)
+
++++**[!UICONTROL Leitura incremental]**
+
+Quando uma jornada com um **Público-alvo de leitura** recorrente é executada pela primeira vez, todos os perfis do público-alvo entram na jornada.
+
+Essa opção permite direcionar, após a primeira ocorrência, somente os indivíduos que entraram no público-alvo desde a última execução da jornada.
+
+>[!NOTE]
+>
+>Se você estiver direcionando um [público-alvo de carregamento personalizado](../audience/about-audiences.md#segments-in-journey-optimizer) na sua jornada, os perfis só serão recuperados na primeira recorrência se essa opção estiver habilitada em uma jornada recorrente, já que esses públicos-alvo são corrigidos.
+
++++
+
++++**[!UICONTROL Forçar reentrada na recorrência]**
+
+Essa opção permite fazer com que todos os perfis ainda presentes na jornada saiam automaticamente na próxima execução.
+
+Por exemplo, se você tiver 2 dias de espera em uma jornada recorrente diária, ao ativar essa opção os perfis sempre serão movidos na próxima execução da jornada (ou seja, no dia seguinte), estejam ou não no público da próxima execução.
+
+Se a duração dos perfis nesta jornada for maior que a frequência de recorrência, não ative essa opção para garantir que os perfis possam concluir a jornada.
+
++++
+
++++**[!UICONTROL Acionar após a avaliação de público-alvo em lotes]** (Disponibilidade limitada)
+
+>[!AVAILABILITY]
+>
+>A opção **[!UICONTROL Acionar após avaliação de público-alvo em lote]** só está disponível para um conjunto de organizações (Disponibilidade Limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+
+Para jornadas agendadas diariamente e públicos-alvo em lote de direcionamento, é possível definir uma janela de tempo de até 6 horas para a jornada aguardar os novos dados do público-alvo de trabalhos de segmentação em lote. Se o trabalho de segmentação for concluído dentro da janela de tempo, a jornada será acionada. Caso contrário, ela ignorará a jornada até sua próxima ocorrência. Essa opção garante que as jornadas sejam executadas com dados de público-alvo precisos e atualizados.
+
+Por exemplo, se uma jornada estiver programada para 18h por dia, você poderá especificar um número de minutos ou horas de espera antes da execução da jornada. Quando a jornada acorda às 18h, ela verifica se há um público-alvo novo, ou seja, um público mais recente do que o usado na execução anterior da jornada. Durante a janela de tempo especificada, a jornada será executada imediatamente após a detecção do novo público-alvo. No entanto, se nenhum público novo for detectado, a execução da jornada será ignorada para esse dia.
+
+**Período de pesquisa para jornadas de leitura incrementais**
+
+Quando o **[!UICONTROL Acionador após a avaliação do público-alvo em lotes]** é selecionado, o [!DNL Journey Optimizer] procura uma nova avaliação do público-alvo. Para o ponto inicial do período de retrospectiva, o sistema usa o tempo da última execução bem-sucedida da jornada, mesmo que tenha ocorrido há mais de 24 horas. Isso é significativo para jornadas de leitura incrementais que normalmente têm um período de retrospectiva de 24 horas.
+
+Exemplos de jornadas de leitura incremental diária:
+
+* Com &quot;Acionar após a avaliação do público-alvo em lote&quot; ativo: se três dias tiverem passado desde que os perfis incrementais entraram na jornada, o período de retrospectiva se estenderia três dias atrás ao procurar perfis incrementais.
+* Com &quot;Acionar após a avaliação do público-alvo em lote&quot; inativo: se três dias tiverem passado desde que os perfis incrementais entraram na jornada, o período de retrospectiva só retornaria 24 horas ao procurar perfis incrementais.
+
++++
 
 <!--
 
@@ -166,10 +211,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 **Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
 
 -->
-
->[!NOTE]
->
->As jornadas de público-alvo de Leitura Única são movidas para o status **Concluído** 91 dias ([Tempo limite global da jornada](journey-properties.md#global_timeout)) após a execução da jornada. Para públicos-alvo de leitura agendados, isso acontece 91 dias após a execução da última ocorrência.
 
 ## Testar e publicar a jornada {#testing-publishing}
 
@@ -213,6 +254,12 @@ A segmentação pode ser baseada em:
 
 ![](assets/read-segment-audience1.png)
 
+>[!NOTE]
+>
+>Ao usar o tipo de scheduler &quot;Diário&quot; com uma atividade **[!UICONTROL Ler público-alvo]**, você pode definir uma janela de tempo para a jornada aguardar os novos dados do público-alvo. Isso garante o direcionamento preciso e evita problemas causados por atrasos em tarefas de segmentação em lote. [Saiba como agendar uma jornada](#schedule)
+>
+>A opção **[!UICONTROL Acionar após avaliação de público-alvo em lote]** só está disponível para um conjunto de organizações (Disponibilidade Limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+
 **Exclusão**
 
 A mesma atividade **Condition** usada para segmentação (veja acima) também permite excluir parte da população. Por exemplo, você pode excluir pessoas do VIP fazendo com que elas fluam para uma ramificação com uma etapa final logo após.
@@ -223,16 +270,11 @@ Essa exclusão pode ocorrer logo após a recuperação do público-alvo, para fi
 
 **União**
 
-As jornadas permitem criar N ramificações e juntá-las após uma segmentação.
+As jornadas permitem criar N ramificações e juntá-las após uma segmentação. Como resultado, você pode fazer com que dois públicos-alvo retornem a uma experiência comum.
 
-Como resultado, você pode fazer com que dois públicos-alvo retornem a uma experiência comum.
-
-Por exemplo, depois de seguir uma experiência diferente durante dez dias em uma jornada, os clientes da VIP VIP e de terceiros podem retornar ao mesmo caminho.
-
-Após uma união, é possível dividir o público novamente executando uma segmentação ou exclusão.
+Por exemplo, depois de seguir uma experiência diferente durante dez dias em uma jornada, os clientes da VIP VIP e de terceiros podem retornar ao mesmo caminho. Após uma união, é possível dividir o público novamente executando uma segmentação ou exclusão.
 
 ![](assets/read-segment-audience3.png)
-
 
 ## Tentativas {#read-audience-retry}
 

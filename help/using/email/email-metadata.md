@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: pré-cabeçalho, editor, resumo, email
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 23%
+ht-degree: 22%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 23%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Adição de um pré-cabeçalho"
+>title="Definir um pré-cabeçalho"
 >abstract="Pré-cabeçalho é um texto resumido e curto que sucede ao assunto quando visualizamos o email no cliente de email. Em muitos casos, fornece um breve resumo do email e, normalmente, tem apenas uma frase."
 
 Ao criar seus emails, para melhorar a legibilidade e a acessibilidade, você pode definir metaatributos adicionais para o seu conteúdo. O [!DNL Journey Optimizer] [Designer de email](get-started-email-design.md) permite que você especifique os seguintes elementos:

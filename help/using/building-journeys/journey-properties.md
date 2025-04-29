@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 18%
+source-wordcount: '2344'
+ht-degree: 17%
 
 ---
 
@@ -73,7 +73,6 @@ Por padrão, novas jornadas permitem reentradas. Você pode desmarcar a opção 
 
 Quando a opção **Permitir reentrada** está ativada, o campo **Período de espera de reentrada** é exibido. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 90 dias.
 
-
 ## Gerenciar acesso {#manage-access}
 
 Para atribuir rótulos de uso de dados personalizados ou principais à jornada, clique no botão **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
@@ -130,7 +129,6 @@ Este tempo limite global interrompe o progresso das pessoas físicas na jornada 
 Devido ao tempo limite de jornada de 91 dias, quando a reentrada da jornada não é permitida, não podemos garantir que o bloqueio de reentrada funcionará por mais de 91 dias. De fato, à medida que removemos todas as informações sobre as pessoas que entraram na jornada 91 dias depois de entrarem, não podemos saber a pessoa que entrou anteriormente, há mais de 91 dias.
 
 Um indivíduo só poderá inserir uma atividade de espera se tiver tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 91 dias. Consulte [esta página](../building-journeys/wait-activity.md).
-
 
 #### Perguntas frequentes sobre TTL (Time-to-Live) e retenção de dados {#timeout-faq}
 
@@ -301,6 +299,10 @@ As seguintes medidas de proteção e limitações se aplicam ao recurso de crit�
 
 * Os critérios de saída são definidos somente em estado de rascunho
 * Jornada a coerência de namespace entre eventos e critérios de saída baseados em eventos
+
+## Jornada programação {#schedule}
+
+A seção **[!UICONTROL Agenda]** só estará disponível quando uma atividade **[!UICONTROL Ler Público]** for descartada na tela. Ela permite definir uma data/hora e uma frequência específicas na qual a jornada deve ser executada. [Saiba como agendar uma jornada de leitura de público-alvo](../building-journeys/read-audience.md)
 
 ## Gerenciamento de conflitos {#conflict}
 

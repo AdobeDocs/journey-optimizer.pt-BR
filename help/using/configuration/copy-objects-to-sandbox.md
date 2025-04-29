@@ -9,16 +9,16 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 5%
+source-wordcount: '1212'
+ht-degree: 4%
 
 ---
 
 # Exportar objetos para outra sandbox {#copy-to-sandbox}
 
-Você pode copiar objetos como jornadas, modelos de conteúdo ou fragmentos em várias sandboxes usando recursos de exportação e importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.
+Você pode copiar objetos como jornadas, ações personalizadas, modelos de conteúdo ou fragmentos em várias sandboxes usando recursos de exportação e importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.
 
 Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso propriamente dito, consulte a [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
@@ -33,7 +33,7 @@ O processo de cópia é realizado por meio de uma exportação e importação de
 
 ## Objetos exportados e práticas recomendadas {#objects}
 
-O Journey Optimizer permite exportar jornadas, modelos de conteúdo e fragmentos para outra sandbox. As seções a seguir fornecem informações e práticas recomendadas para cada tipo de objeto.
+O Journey Optimizer permite exportar jornadas, ações personalizadas, modelos de conteúdo e fragmentos para outra sandbox. As seções a seguir fornecem informações e práticas recomendadas para cada tipo de objeto.
 
 ### Práticas recomendadas gerais {#global}
 
@@ -43,13 +43,21 @@ O Journey Optimizer permite exportar jornadas, modelos de conteúdo e fragmentos
 
 ### Jornadas {#journeys}
 
-* Ao exportar uma jornada, além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: públicos, esquemas, eventos e ações. Para obter mais informações sobre objetos copiados, consulte esta [seção](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
+* Ao exportar uma jornada, além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: públicos-alvo, ações personalizadas, esquemas, eventos e ações. Para obter mais informações sobre objetos copiados, consulte esta [seção](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 * Não garantimos que todos os elementos vinculados sejam copiados para a sandbox de destino. É altamente recomendável executar uma verificação completa, por exemplo, antes de publicar uma jornada. Isso permite identificar qualquer objeto ausente em potencial.
 
 * Os objetos copiados na sandbox de destino são exclusivos e não há risco de substituir elementos existentes. A jornada jornada e qualquer mensagem dentro dela é trazida no modo de rascunho. Isso permite executar uma validação completa antes da publicação na sandbox de destino.
 
 * O processo de cópia copia apenas os metadados sobre a jornada e os objetos nessa Jornada. Nenhum dado de perfil ou conjunto de dados está sendo copiado como parte desse processo.
+
+### Ações personalizadas {#custom-actions}
+
+* Ao exportar ações personalizadas, a configuração de URL e os parâmetros de carga são copiados. No entanto, por motivos de segurança, os parâmetros de autenticação não são copiados e, em vez disso, são substituídos por &quot;INSERIR SEGREDO AQUI&quot;. Os valores constantes do cabeçalho da solicitação e do parâmetro de consulta também são substituídos por &quot;INSERIR SEGREDO AQUI&quot;.
+
+  Isso inclui as ações personalizadas com finalidade especial ([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage]).
+
+* Ao copiar uma jornada para outra sandbox, se você selecionar &quot;usar existente&quot; para uma ação personalizada durante o processo de importação, a ação personalizada existente selecionada deverá ser a mesma que a ação personalizada de origem (ou seja, mesma configuração, parâmetros etc.). Caso contrário, a nova cópia da jornada terá erros que não poderão ser resolvidos na tela.
 
 ### Campanhas {#campaigns}
 
