@@ -7,9 +7,9 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: fe10df5e855c627fb4beaf2a56403b5845cb84c4
+source-git-commit: edd012bc8f2b840d211658782239003749e06df8
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '182'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ Use o [!DNL Journey Optimizer] para enviar mensagens LINE aos seus clientes no a
 
 >[!AVAILABILITY]
 >
->O canal LINE é ativado para clientes do Adobe Journey Optimizer mediante solicitação. Entre em contato com o Atendimento ao cliente da Adobe ou com seu representante da Adobe para ativar o recurso para sua organização.
+>O canal LINE é ativado para clientes do Adobe Journey Optimizer mediante solicitação. Entre em contato com seu representante da Adobe para ativar o recurso para sua organização.
 
 As mensagens LINE podem ser criadas e enviadas em uma jornada ou em uma campanha:
 
