@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 83%
+source-wordcount: '380'
+ht-degree: 78%
 
 ---
 
@@ -74,4 +74,4 @@ Veja abaixo alguns exemplos de URLs compatíveis com o Adobe Analytics e o Googl
 
 >[!NOTE]
 >
->Também é possível adicionar parâmetros de rastreamento personalizados e dinâmicos aos links presentes no conteúdo do email, mas isso não é possível no nível de configuração. Você deve fazer isso ao criar sua mensagem usando o designer de email. [Saiba mais](message-tracking.md#url-tracking)
+>Você também pode adicionar parâmetros de rastreamento personalizados dinâmicos aos links presentes no seu conteúdo de email. [Saiba mais](surface-personalization.md#personalize-url-tracking)

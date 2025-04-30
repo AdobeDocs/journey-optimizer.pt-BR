@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração, subdomínio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 7%
+source-wordcount: '1170'
+ht-degree: 6%
 
 ---
 
@@ -98,7 +98,6 @@ Para usar variáveis personalizadas para seus parâmetros de cabeçalho de confi
 >
 >Você pode personalizar todos os campos de **[!UICONTROL Parâmetros de cabeçalho]**, exceto o campo **[!UICONTROL Prefixo de email de erro]**.
 
-
 1. Defina os parâmetros do cabeçalho como faria normalmente. [Saiba como](email-settings.md#email-header)
 
 1. Para cada campo, selecione o ícone Editar.
@@ -125,17 +124,19 @@ Para usar variáveis personalizadas para seus parâmetros de cabeçalho de confi
 >
 >Se você tiver adicionado um ou mais subdomínios dinâmicos à sua configuração, os sufixos **Do email** e **Email de erro** serão preenchidos com base no [subdomínio dinâmico](#dynamic-subdomains) resolvido.
 
-<!--
-## Use personalized URL tracking {#personalize-url-tracking}
+## Usar rastreamento personalizado de URL {#personalize-url-tracking}
 
-To use personalized URL tracking prameters, follow the steps below.
+Para usar parâmetros de rastreamento de URL personalizados, siga as etapas abaixo.
 
-1. Select the profile attribute of your choice from the personalization editor.
+1. Vá para a seção **[!UICONTROL parâmetros de rastreamento de URL]** da sua configuração de canal de email.
 
-1. Repeat the steps above for each tracking parameter you want to personalize.
+1. Clique no ícone Editar ao lado de cada campo. Além dos atributos contextuais, você pode selecionar atributos de perfil.
 
-Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
--->
+1. Selecione o atributo de perfil de sua escolha no [editor de personalização](../personalization/personalization-build-expressions.md).
+
+1. Repita as etapas acima para cada parâmetro de rastreamento que deseja personalizar.
+
+Agora, quando o email for enviado, o parâmetro personalizado será anexado automaticamente ao final do URL. Em seguida, você pode capturar esse parâmetro nas ferramentas do Web Analytics ou nos relatórios de desempenho.
 
 ## Exibir detalhes da configuração {#view-surface-details}
 
