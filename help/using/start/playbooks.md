@@ -8,22 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 69%
 
 ---
 
 # Manuais de casos de uso  {#playbooks}
 
->[!PREREQUISITES]
->
->As seguintes etapas de configuração são necessárias antes de trabalhar com os Manuais de casos de uso. Informações detalhadas sobre cada etapa estão disponíveis na página de [Introdução](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=pt-BR){target="_blank"} da documentação dos Manuais de casos de uso.
->
->* Criar uma sandbox
->* Configuração de permissões de usuários e usuárias
->* Definir configurações de canal do Journey Optimizer para notificações por email, push e SMS
+## O que são manuais de casos de uso {#gs}
 
 Os Manuais de casos de uso são workflows predefinidos abordando casos de uso comuns que podem ser executados usando a Adobe Experience Platform e o Journey Optimizer.
 
@@ -33,7 +27,17 @@ Cada manual de estratégia fornece uma visão geral abrangente, incluindo a inte
 
 ![Manual de estratégia do carrinho abandonado mostrado na exibição de manuais de estratégia de descoberta](assets/playbooks-detail.png){width="85%"}
 
-Para acessar os manuais, navegue até o menu **[!UICONTROL Manuais de estratégia]** localizado no painel de navegação esquerdo. A biblioteca inclui vários manuais de estratégia que são implementados usando o Adobe Journey Optimizer. Para acessá-los facilmente, use os filtros disponíveis ao lado da barra de pesquisa. Uma lista abrangente de manuais de estratégia do Journey Optimizer está disponível na [Documentação dos Manuais de casos de uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"}.
+## Pré-requisitos {#prerequisites}
+
+As seguintes etapas de configuração são necessárias antes de trabalhar com os Manuais de casos de uso. Informações detalhadas sobre cada etapa estão disponíveis na página [Introdução](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=pt-BR){target="_blank"} da documentação dos manuais de caso de uso.
+
+* Criar uma sandbox
+* Configuração de permissões de usuários e usuárias
+* Definir configurações de canal do Journey Optimizer para notificações por email, push e SMS
+
+## Acessar e ativar um manual {#access}
+
+Para acessar os manuais, navegue até o menu **[!UICONTROL Manuais de estratégia]** localizado no painel de navegação esquerdo. A biblioteca inclui vários manuais de estratégia que são implementados usando o Adobe Journey Optimizer. Para acessá-los facilmente, use os filtros disponíveis ao lado da barra de pesquisa. Uma lista abrangente de manuais do Journey Optimizer está disponível na [documentação sobre manuais de casos de uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"}.
 
 ![Lista de manuais de estratégia com o painel de filtros aberto](assets/playbooks-filter.png){width="85%"}
 
@@ -45,4 +49,16 @@ Depois de escolher o manual de estratégia que melhor atende às suas necessidad
 
 Para implementar seu caso de uso, você pode navegar até cada objeto para adaptá-lo às suas necessidades. Você também pode compartilhar o URL da página da instância do manual de estratégia com a sua equipe para colaborar na implementação do caso de uso.
 
-Além disso, você pode importar os ativos dos manuais para outras sandboxes. Isso permite alinhar os ativos gerados com seus ativos existentes e garantir que sejam compatíveis com seus dados, caso já tenha configurado seus próprios esquemas, campos e grupos de campos. Essas etapas são detalhadas na [Documentação dos Manuais de casos de uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=pt-BR){target="_blank"}.
+Além disso, você pode importar os ativos dos manuais para outras sandboxes. Isso permite alinhar os ativos gerados com seus ativos existentes e garantir que sejam compatíveis com seus dados, caso já tenha configurado seus próprios esquemas, campos e grupos de campos. Essas etapas estão detalhadas na documentação de Guias de reprodução de caso de uso: [Publicar ativos gerados pelo manual em outras sandboxes](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=pt-BR){target="_blank"}.
+
+## Criar seus próprios manuais (Beta) {#create}
+
+>[!AVAILABILITY]
+>
+>A criação de manuais de casos de uso está disponível atualmente para todos os clientes como um beta público.
+
+Além de aproveitar os manuais predefinidos, você pode criar e compartilhar seus próprios manuais no Adobe Experience Platform.
+
+Você pode definir metadados usando assistência de IA ou entrada manual, associar ativos técnicos, como esquemas, segmentos, e compartilhar seus manuais em diferentes organizações IMS.
+
+Para obter mais informações sobre como criar e compartilhar manuais de reprodução, consulte a documentação sobre Manuais de Caso de Uso: [Crie e compartilhe seus próprios manuais usando o Assistente de IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}.

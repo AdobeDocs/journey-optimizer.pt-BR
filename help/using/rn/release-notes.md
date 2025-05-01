@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2816b5aefaa184949471c6b0d2ee1c6ec6de0ed0
+source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 49%
+source-wordcount: '906'
+ht-degree: 48%
 
 ---
 
@@ -277,7 +277,9 @@ Os novos recursos que acompanham esta versão estão listados abaixo.
 
   Para melhorar a acessibilidade no Journey Optimizer, agora há dois novos campos disponíveis no Designer de email, os quais correspondem ao elemento `<title>` e ao atributo `lang` no elemento `<html>` do conteúdo do email. Além dessas configurações, é possível definir o campo **[!UICONTROL Pré-cabeçalho]** na seção **[!UICONTROL Corpo]** do email. [Leia mais](../email/email-metadata.md)
 
+**Livros de reprodução do caso de uso**
 
+* **Criação e compartilhamento de manuais (Beta)** - Agora você pode criar, gerenciar e compartilhar seus próprios manuais de casos de uso. No momento, esse recurso está disponível para todos os clientes como um beta público. [Leia mais](../start/playbooks.md)
 
 **Navegação**
 
