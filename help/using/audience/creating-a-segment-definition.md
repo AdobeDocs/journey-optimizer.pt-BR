@@ -136,4 +136,4 @@ Você pode avaliar até 20 públicos-alvo de cada vez, e públicos-alvo não qua
 
 Entenda como o Journey Optimizer usa regras para gerar públicos-alvo e saiba como usar atributos, eventos e públicos-alvo já existentes para criar um público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430327?quality=12&captions=por_br)

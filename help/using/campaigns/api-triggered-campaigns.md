@@ -138,4 +138,4 @@ Para ativar a criação de perfil na execução da campanha, alterne a opção *
 
 Saiba como criar uma campanha e acioná-la a partir de um sistema externo com base em interações do usuário, usando a API REST de execução de mensagem interativa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452730?quality=12&captions=por_br)

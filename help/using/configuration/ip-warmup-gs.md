@@ -52,7 +52,7 @@ As principais etapas para implementar um plano de aquecimento de IP são as segu
 
 Saiba como criar e executar um plano de aquecimento de IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453845/?learn=on&captions=por_br)
 
 >[!NOTE]
 >

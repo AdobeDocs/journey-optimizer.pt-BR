@@ -83,4 +83,4 @@ Depois de configurado, você pode aproveitar todos os recursos de canal prontos 
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443611?captions=por_br)

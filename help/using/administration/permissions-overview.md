@@ -37,5 +37,5 @@ O gerenciamento de usuários no [!DNL Journey Optimizer] é baseado em três con
 
 Learn more about access control system and custom proles in Adobe Journey Optimizer. Learn how to manage roles and permissions and how to add and manage users.
 
->[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3417589?quality=12&captions=por_br)
 -->

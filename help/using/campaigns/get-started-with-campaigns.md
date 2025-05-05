@@ -68,4 +68,4 @@ Verifique os seguintes pré-requisitos antes de começar a criar sua primeira ca
 
 Saiba como criar sua primeira campanha.
 
->[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3414156?quality=12&captions=por_br)

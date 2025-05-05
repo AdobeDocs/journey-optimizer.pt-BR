@@ -197,4 +197,4 @@ Estes são alguns exemplos de edição de emails e a configuração de bloqueio 
 
 Saiba como bloquear conteúdo em modelos de email.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451612?quality=12&captions=por_br)

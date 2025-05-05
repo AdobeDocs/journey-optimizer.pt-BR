@@ -80,8 +80,8 @@ Para eventos gerados pelo sistema, o Pipeline filtra os eventos que têm uma car
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3431510?quality=12&captions=por_br)
 
 Entenda os casos de uso aplicáveis a eventos comerciais. Saiba como criar uma jornada usando um evento comercial e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3417595?quality=12&captions=por_br)

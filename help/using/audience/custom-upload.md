@@ -31,4 +31,4 @@ Informações detalhadas sobre como importar públicos estão disponíveis na [d
 
 Saiba como fazer upload de públicos-alvo no formato CSV em vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3423361?quality=12&captions=por_br)

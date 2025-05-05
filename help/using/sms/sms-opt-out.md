@@ -71,6 +71,6 @@ As IDs alfanuméricas do remetente são somente para mensagens unidirecionais e 
 
 +++ Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3440282/?learn=on&captions=por_br)
 
 +++

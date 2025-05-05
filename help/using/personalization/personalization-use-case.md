@@ -110,4 +110,4 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
 O vídeo abaixo mostra um caso de uso semelhante que utiliza dados contextuais de uma jornada para personalizar um email.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428533?quality=12&captions=por_br)

@@ -51,4 +51,4 @@ Quando você interrompe uma jornada, ela é interrompida permanentemente: todas 
 
 Saiba como publicar uma jornada neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427939?quality=12&captions=por_br)
