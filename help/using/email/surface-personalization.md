@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração, subdomínio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+source-git-commit: c0e8d80cac202fb463aa95b4a536146679e6567f
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1173'
 ht-degree: 6%
 
 ---
 
 # Personalizar configurações de email {#surface-personalization}
 
-Para aumentar a flexibilidade e o controle sobre suas configurações de email, o [!DNL Journey Optimizer] permite definir valores personalizados para subdomínios e cabeçalhos e parâmetros de rastreamento de URL ao criar configurações de email.
+Para aumentar a flexibilidade e o controle sobre suas configurações de email, o [!DNL Journey Optimizer] permite definir valores personalizados para subdomínios, cabeçalhos e parâmetros de rastreamento de URL ao criar configurações de email.
 
 ## Adicionar subdomínios dinâmicos {#dynamic-subdomains}
 
