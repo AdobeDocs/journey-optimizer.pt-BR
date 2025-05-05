@@ -28,7 +28,7 @@ Antes de configurar uma solicitação de tarefa, verifique se você criou:
 
 * **Um conjunto de dados** no Adobe Experience Platform. Esse conjunto de dados será usado para armazenar o resultado da decisão usando o schema &quot;ODE DecisionEvents&quot;. Saiba mais na [documentação sobre conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR).
 
-* **Um público-alvo** na Adobe Experience Platform. O público-alvo deve ser avaliado e depois atualizado. Saiba como atualizar a avaliação de associação de público na [documentação do Serviço de segmentação](https://www.adobe.com/go/segmentation-overview-en)
+* **Um público-alvo** na Adobe Experience Platform. O público-alvo deve ser avaliado e depois atualizado. Saiba como atualizar a avaliação de associação de público na [documentação do Serviço de segmentação](https://www.adobe.com/go/segmentation-overview-en_br)
 
   >[!NOTE]
   >

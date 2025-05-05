@@ -52,7 +52,7 @@ Para problemas ou solicitações de assistência relacionados às suas traduçõ
 
 Para o conteúdo multilíngue, as seguintes configurações devem ser definidas:
 
-* Para usar o recurso de Tradução no Journey Optimizer, é necessário atribuir a API à função correspondente. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Para usar o recurso de Tradução no Journey Optimizer, é necessário atribuir a API à função correspondente. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * Para começar a criar conteúdo multilíngue, os usuários precisam ter a permissão **[!UICONTROL Gerenciar configurações de idioma]**. Para o fluxo automatizado, os usuários também precisarão de permissões relacionadas aos recursos do **[!UICONTROL Serviço de Tradução]**. [Saiba mais sobre permissões](../administration/permissions.md)
 

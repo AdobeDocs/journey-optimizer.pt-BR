@@ -22,7 +22,7 @@ ht-degree: 3%
 
 * Instale a extensão **Adobe Experience Platform Web SDK** nas **Propriedades da marca** e habilite a opção **Armazenamento da Personalization**.
 
-  Essa configuração é essencial para armazenar históricos de eventos no cliente, um pré-requisito para a implementação de Regras de frequência no construtor de regras. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
+  Essa configuração é essencial para armazenar históricos de eventos no cliente, um pré-requisito para a implementação de Regras de frequência no construtor de regras. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=pt-BR)
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 1. Salve sua configuração de **Ação** clicando em **Manter alterações**.
 
-1. Navegue até o menu **Fluxo de publicação**. Crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione a **Regra** recém-criada a ela. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
+1. Navegue até o menu **Fluxo de publicação**. Crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione a **Regra** recém-criada a ela. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=pt-BR#create-a-library)
 
 1. Na sua **Biblioteca**, selecione **Salvar e criar no desenvolvimento**.
 
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 1. Na seção **Contexto de Decisão**, defina os pares **Chave** e **Valor** que determinam qual experiência fornecer.
 
-1. Acesse o menu **Fluxo de publicação**, crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione sua **Regra** recém-criada. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
+1. Acesse o menu **Fluxo de publicação**, crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione sua **Regra** recém-criada. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=pt-BR#create-a-library)
 
 1. Na sua **Biblioteca**, selecione **Salvar e criar no desenvolvimento**.
 

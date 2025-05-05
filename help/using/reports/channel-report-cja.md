@@ -27,7 +27,7 @@ A página do relatório é exibida com as seguintes guias:
 * [Campanhas](#campaign)
 * [Canais](#channel)
 
-Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home).
 
 ## Destaques {#highlights}
 

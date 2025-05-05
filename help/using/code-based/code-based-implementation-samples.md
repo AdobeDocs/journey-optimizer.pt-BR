@@ -39,7 +39,7 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
 
 ### Como funciona - Web SDK {#client-side-how}
 
-1. O [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} está incluído na página.
+1. O [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} está incluído na página.
 
 1. Você precisa usar o comando `sendEvent` e especificar o [URI de superfície](code-based-surface.md)<!--( or location/path)--> para buscar conteúdo de personalização.
 
@@ -306,4 +306,4 @@ As solicitações para a API do Adobe Experience Platform são necessárias para
 Se você tiver uma implementação híbrida, verifique os links abaixo.
 
 * Blog da Adobe Tech: [Personalization híbrido no Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentação do SDK: [Personalização híbrida usando o Web SDK e a API do Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* Documentação do SDK: [Personalização híbrida usando o Web SDK e a API do Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=pt-BR){target="_blank"}

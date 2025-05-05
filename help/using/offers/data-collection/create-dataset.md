@@ -51,7 +51,7 @@ Comece criando o esquema que será usado no seu conjunto de dados:
 
 >[!NOTE]
 >
->Saiba mais sobre a criação de esquemas em [Noções básicas da composição de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
+>Saiba mais sobre a criação de esquemas em [Noções básicas da composição de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR#understanding-schemas){target="_blank"}.
 
 Agora você está pronto para criar um conjunto de dados usando este esquema. Para fazer isso, siga as etapas abaixo:
 

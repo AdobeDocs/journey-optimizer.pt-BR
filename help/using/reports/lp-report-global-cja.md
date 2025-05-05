@@ -23,7 +23,7 @@ Para acessar seus relatórios, selecione **[!UICONTROL Relatório]** no menu ava
 
 ![](assets/cja-lp.png)
 
-Para saber mais sobre o espaço de trabalho do Customer Journey Analytics e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Para saber mais sobre o espaço de trabalho do Customer Journey Analytics e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home).
 
 ## Taxa de conversão da landing page {#lp-conversion}
 

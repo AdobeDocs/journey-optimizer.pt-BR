@@ -31,7 +31,7 @@ Eventos comerciais podem ser &quot;um produto está de volta no estoque&quot;, &
 
 >[!NOTE]
 >
->Você também pode assistir ao caso de uso de evento comercial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Observe que o esquema não precisa ser ativado para o perfil.
+>Você também pode assistir ao caso de uso de evento comercial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=pt-BR). Observe que o esquema não precisa ser ativado para o perfil.
 
 ## Observações importantes {#important-notes}
 

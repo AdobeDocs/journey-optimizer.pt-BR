@@ -24,8 +24,8 @@ As solicitações de privacidade podem ser criadas e gerenciadas no menu **[!UIC
 
 Para obter mais informações sobre o Privacy Service e como criar e gerenciar solicitações de privacidade, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"}.
 
-<!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)-->
+<!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR)-->
 
 ## Gerencie solicitações individuais de privacidade de dados que você pode enviar ao Adobe Journey Optimizer {#data-privacy-requests}
 

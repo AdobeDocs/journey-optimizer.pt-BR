@@ -34,7 +34,7 @@ Abaixo estão alguns recursos adicionais:
 
 * Fácil fluxo de trabalho de quatro etapas e interface do usuário.
 * Fornece uma configuração básica para iniciar a coleta de dados de eventos móveis por meio da [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} em minutos.
-* Capacidade de testar e validar um evento básico de push móvel aproveitando o [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
+* Capacidade de testar e validar um evento básico de push móvel aproveitando o [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=pt-BR){target="_blank"}.
 * Cria e configura automaticamente todos os ativos necessários de Coleção de dados e Journey Optimizer.
 * Em Orientação do produto e dicas de ferramentas.
 * Fornece uma transição natural para uma implementação mais avançada, se necessário.

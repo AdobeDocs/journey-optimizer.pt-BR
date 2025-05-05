@@ -52,7 +52,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 1. Crie um evento cujo esquema inclua a matriz `productListItems`.
 1. Defina todos os campos dessa matriz como campos de carga para esse evento.
 
-   Saiba mais sobre o tipo de dados do item de lista de produtos na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
+   Saiba mais sobre o tipo de dados do item de lista de produtos na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}.
 
 1. Crie uma jornada que comece com este evento.
 1. Adicione uma atividade de **Email** à jornada.
@@ -105,7 +105,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Saiba mais sobre o tipo de dados do nome da pessoa na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
+      Saiba mais sobre o tipo de dados do nome da pessoa na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=pt-BR){target="_blank"}.
 
 1. Clique em **[!UICONTROL Validar]** e em **[!UICONTROL Salvar]**.
 

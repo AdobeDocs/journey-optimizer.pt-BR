@@ -152,7 +152,7 @@ Para preencher a lista de permissões, você também pode chamar a API de supres
 
 Você pode executar as operações **Adicionar**, **Excluir** e **Obter**.
 
-Learn more about making API calls in the [Adobe Experience Platform APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} reference documentation.
+Learn more about making API calls in the [Adobe Experience Platform APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=pt-BR){target="_blank"} reference documentation.
 
 ## Baixar a lista de permissões {#download-allowed-list}
 
@@ -207,7 +207,7 @@ Quando a lista de permissões é [desativada](#deactivate-allow-list), todos os 
 
 ## Relatório de exclusão {#reporting}
 
-Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. To do this, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} to make the API calls below.
+Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. To do this, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} to make the API calls below.
 
 Para obter o **número de emails** que não foram enviados porque os destinatários não estavam na lista de permissões, use a seguinte consulta:
 

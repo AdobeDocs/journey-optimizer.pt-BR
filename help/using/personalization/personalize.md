@@ -51,7 +51,7 @@ Esse playground fornece um ambiente simulado para gravar e testar o código de p
 
 ![playground de personalização](assets/playground.png)
 
-➡️ [Acessar o playground de personalização](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Acessar o playground de personalização](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Vamos nos aprofundar um pouco mais
 

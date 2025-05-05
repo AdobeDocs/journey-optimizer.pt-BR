@@ -40,7 +40,7 @@ Observe que, para canais na Web, baseados em código e no aplicativo, é necess�
 
 ## Pré-requisitos
 
-Antes de poder adicionar um conjunto de dados à configuração de relatórios, você deve criar esse conjunto de dados. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
+Antes de poder adicionar um conjunto de dados à configuração de relatórios, você deve criar esse conjunto de dados. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR#create){target="_blank"}.
 
 * Você só pode adicionar conjuntos de dados do tipo evento.
 

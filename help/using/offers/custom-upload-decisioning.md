@@ -23,7 +23,7 @@ Os dados de públicos-alvo de upload personalizados podem ser aproveitados na Ge
 
 Para obter mais informações sobre públicos-alvo de upload personalizado, consulte as seções:
 * [Introdução a públicos e Journey Optimizer](../audience/about-audiences.md)
-* [Importando uma audiência no Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importando uma audiência no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Leitura obrigatória {#must-read}
 

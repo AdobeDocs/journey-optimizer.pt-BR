@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Ao integrar o Adobe Experience Manager com o Adobe Journey Optimizer, agora é possível incorporar facilmente os Fragmentos de conteúdo do AEM ao conteúdo de email do Journey Optimizer. Essa conexão simplificada simplifica o processo de acesso e aproveitamento do conteúdo do AEM, permitindo a criação de campanhas e jornadas personalizadas e dinâmicas.
 
-Para saber mais sobre o Fragmento de conteúdo do AEM, consulte a [documentação do Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments).
+Para saber mais sobre o Fragmento de conteúdo do AEM, consulte a [documentação do Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments).
 
 ## Limitações {#limitations}
 
@@ -53,7 +53,7 @@ Para saber mais sobre o Fragmento de conteúdo do AEM, consulte a [documentaçã
 
 ## Adicionar fragmentos de conteúdo do AEM {#aem-add}
 
-Depois de criar e personalizar seus [Fragmentos de conteúdo do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments), você pode importá-los para sua campanha ou jornada do otimizador de Jornadas.
+Depois de criar e personalizar seus [Fragmentos de conteúdo do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments), você pode importá-los para sua campanha ou jornada do otimizador de Jornadas.
 
 1. Depois de criar sua [Campanha](../email/create-email.md) ou [Jornada](../email/create-email.md) com uma ação de email, acesse o designer de email para configurar o conteúdo do email. [Saiba mais](../email/get-started-email-design.md)
 

@@ -123,7 +123,7 @@ Para acessar este conjunto de dados por meio da interface, selecione **[!UICONTR
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-Para executar consultas neste conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
+Para executar consultas neste conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -234,7 +234,7 @@ O cabeçalho `x-message-profile-id` também é armazenado nos seguintes conjunto
 
 * Para acessar esses conjuntos de dados por meio da interface, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Conjuntos de dados]** > **[!UICONTROL Procurar]**. Saiba mais sobre como acessar conjuntos de dados em [esta seção](../data/get-started-datasets.md#access-datasets).
 
-* Use o Editor de Consultas fornecido pelo [Serviço de Consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
+* Use o Editor de Consultas fornecido pelo [Serviço de Consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
 
 Abaixo estão alguns exemplos de consultas que você pode executar para recuperar informações correspondentes às suas cópias CCO.
 
