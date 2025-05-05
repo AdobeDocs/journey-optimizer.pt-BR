@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="Publicar campanha orquestrada"
->abstract="Para iniciar sua campanha, você deve publicá-la. Verifique se todos os avisos foram apagados antes da publicação."
+>abstract="Para iniciar a campanha, você deve publicá-la. Certifique-se de que todos os avisos foram resolvidos antes da publicação."
 
 Depois de criar as tarefas orquestradas e projetadas para execução na tela, é possível publicá-las e monitorar como elas estão sendo executadas.
 
@@ -29,7 +29,7 @@ Depois de criar as tarefas orquestradas e projetadas para execução na tela, é
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Atividade Scheduler"
->abstract="O **Scheduler** da campanha permite agendar quando a campanha orquestrada será iniciada. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade da campanha orquestrada."
+>abstract="O **Scheduler** da campanha permite agendar quando a campanha orquestrada será iniciada. Esta atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade da campanha orquestrada."
 
 Como gerente de campanha, você pode agendar campanhas para serem iniciadas automaticamente em horários específicos, permitindo um tempo preciso e dados de direcionamento precisos para comunicações de marketing.
 

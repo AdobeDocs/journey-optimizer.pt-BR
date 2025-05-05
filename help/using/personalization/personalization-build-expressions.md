@@ -13,7 +13,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1436'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -83,8 +83,8 @@ Amostra de URLs personalizados:
 
 O painel de navegação permite selecionar a origem para personalização. As fontes disponíveis são:
 
-* **[!UICONTROL Atributos do perfil]**: lista todas as referências associadas ao esquema de perfil descrito na [documentação do Modelo de Dados (XDM) do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
-* **[!UICONTROL Públicos-alvo]** : lista todos os públicos-alvo criados no serviço de Segmentação do Adobe Experience Platform. Mais informações sobre segmentação disponíveis [aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
+* **[!UICONTROL Atributos do perfil]** : lista todas as referências associadas ao esquema de perfil descrito na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+* **[!UICONTROL Públicos-alvo]** : lista todos os públicos-alvo criados no serviço de Segmentação do Adobe Experience Platform. Mais informações sobre segmentação estão disponíveis [aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 * **[!UICONTROL Decisões de oferta]** : lista todas as ofertas associadas a uma disposição específica. Selecione o posicionamento e insira as ofertas no conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Atributos contextuais]**: quando uma atividade de ação de canal (email, push, SMS) é usada em uma jornada ou campanha, os atributos contextuais relacionados a eventos e propriedades ficam disponíveis para personalização. Um exemplo de personalização que utiliza atributos contextuais é apresentado em [esta seção](personalization-use-case.md).
 
@@ -97,7 +97,7 @@ O painel de navegação permite selecionar a origem para personalização. As fo
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="Preenchimento automático"
->abstract="Ativar essa opção permite que o sistema sugira e conclua automaticamente o código à medida que você digita. Esse recurso está disponível somente para formatos de HTML e Texto e é compatível com atributos de Perfil e Contexto. Se desativado por meio do botão de alternância, o editor fornecerá preenchimento automático do código HTML nativo."
+>abstract="Ativar essa opção permite que o sistema sugira e conclua automaticamente o código à medida que você digita. Esse recurso está disponível somente para os formatos HTML e Texto e é compatível com os atributos de Perfil e Contexto. Se desabilitado por meio do botão de alternância, o editor fornecerá preenchimento automático do código HTML nativo."
 
 O espaço de trabalho central é onde você cria sua sintaxe de personalização. Para usar um atributo para personalizar sua mensagem, localize-o no painel de atributos e clique no botão `+` para adicioná-lo à expressão.
 
@@ -127,7 +127,7 @@ As opções disponíveis são:
 
 1. **[!UICONTROL Localizar]** / **[!UICONTROL Localizar e substituir]**: pesquise pela expressão e substitua automaticamente partes do código.
 1. **[!UICONTROL Desfazer]** / **[!UICONTROL Refazer]**: Desfazer / Refazer a última operação.
-1. **[!UICONTROL Preenchimento automático]**: sugere e conclui automaticamente o código à medida que você digita. Esse recurso está disponível somente para formatos de HTML e Texto e é compatível com atributos de Perfil e Contexto. Se desativado por meio do botão de alternância, o editor fornecerá preenchimento automático do código HTML nativo.
+1. **[!UICONTROL Preenchimento automático]**: sugere e conclui automaticamente o código à medida que você digita. Esse recurso está disponível somente para os formatos HTML e Texto e é compatível com os atributos de Perfil e Contexto. Se desabilitado por meio do botão de alternância, o editor fornecerá preenchimento automático do código HTML nativo.
 
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 

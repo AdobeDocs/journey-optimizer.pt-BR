@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '2050'
-ht-degree: 31%
+ht-degree: 36%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
->title="Atividade Enriquecimento"
+>title="Atividade enriquecimento"
 >abstract="A atividade **Enriquecimento** permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação."
 
 
@@ -51,11 +51,11 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="Dados de enriquecimento"
->abstract="Selecione os dados a serem usados para enriquecer sua campanha orquestrada. É possível selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da dimensão do público-alvo ou um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas."
+>abstract="Selecione os dados a serem usados para enriquecer sua campanha orquestrada. É possível selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da dimensão de destino, ou um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
->title="Atividade Enriquecimento"
+>title="Atividade enriquecimento"
 >abstract="Após adicionar os dados de enriquecimento à campanha orquestrada, eles poderão ser usados nas atividades adicionadas após a atividade de enriquecimento para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham mais probabilidade de repercutir com seu público-alvo."
 
 1. Clique em **Adicionar dados de enriquecimento** e selecione o atributo a ser usado para enriquecer os dados.
@@ -75,9 +75,9 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_simplejoin"
 >title="Definição de link"
->abstract="Crie um link entre os dados da tabela de trabalho e o Adobe Journey Optimizer. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, você precisa criar um link para a tabela do país para atualizar essas informações em seus perfis."
+>abstract="Crie um link entre os dados da tabela de trabalho e o Adobe Journey Optimizer. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, é preciso criar um link para a tabela do país para atualizar essas informações em seus perfis."
 
-A seção **[!UICONTROL Definição de link]** permite criar um link entre os dados da tabela de trabalho e o Adobe Journey Optimizer. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, você precisa criar um link para a tabela do país para atualizar essas informações em seus perfis.
+A seção **[!UICONTROL Definição de link]** permite criar um link entre os dados da tabela de trabalho e o Adobe Journey Optimizer. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, é preciso criar um link para a tabela do país para atualizar essas informações em seus perfis.
 
 Há vários tipos de links disponíveis:
 
@@ -110,9 +110,9 @@ Um exemplo de fluxo de trabalho usando links está disponível na seção [Exemp
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_reconciliation"
 >title="Reconciliação"
->abstract="A atividade **Enrichment** pode ser usada para reconciliar dados do esquema do Journey Optimizer com dados de outro esquema ou com dados provenientes de um esquema temporário, como dados carregados por meio de uma atividade Load file. Este tipo de link define uma reconciliação em direção a um registro exclusivo. O Journey Optimizer cria um link para uma tabela de target adicionando uma chave estrangeira nela para armazenar uma referência ao registro exclusivo."
+>abstract="A Atividade **enriquecimento** pode ser usada para reconciliar dados do esquema do Journey Optimizer com dados de outro esquema ou com dados provenientes de um esquema temporário, como os enviados por meio de uma Atividade carregar arquivo. Este tipo de link define uma reconciliação em direção a um registro exclusivo. O Journey Optimizer cria um link para uma tabela de destino adicionando uma chave estrangeira para armazenar uma referência ao registro exclusivo."
 
-A atividade **Enriquecimento** pode ser usada para reconciliar dados do esquema de banco de dados do Campaign com dados de outro esquema ou com dados provenientes de um esquema temporário, como os carregados por meio de uma atividade Carregar arquivo. Este tipo de link define uma reconciliação em direção a um registro exclusivo. O Journey Optimizer cria um link para uma tabela de target adicionando uma chave estrangeira nela para armazenar uma referência ao registro exclusivo.
+A atividade **Enriquecimento** pode ser usada para reconciliar dados do esquema de banco de dados do Campaign com dados de outro esquema ou com dados provenientes de um esquema temporário, como os carregados por meio de uma atividade Carregar arquivo. Este tipo de link define uma reconciliação em direção a um registro exclusivo. O Journey Optimizer cria um link para uma tabela de destino adicionando uma chave estrangeira para armazenar uma referência ao registro exclusivo.
 
 Por exemplo, é possível usar essa opção para reconciliar o país de um perfil, que é especificado em um arquivo carregado, com um dos países disponíveis na tabela dedicada do banco de dados do Campaign.
 

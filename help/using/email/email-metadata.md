@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adicionar metadados ao seu conteúdo de email
+title: Adicionar metadados ao seu conteúdo do email
 description: Saiba como melhorar a legibilidade e a acessibilidade do seu conteúdo de email com metadados no Journey Optimizer
 feature: Email Design
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 22%
+ht-degree: 25%
 
 ---
 
-# Adicionar metadados ao seu conteúdo de email {#email-metadata}
+# Adicionar metadados ao seu conteúdo do email {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

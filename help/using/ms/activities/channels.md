@@ -10,7 +10,7 @@ exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 18%
+ht-degree: 48%
 
 ---
 
@@ -30,32 +30,32 @@ Comece a criar sua campanha orquestrada com as atividades relevantes:
 
 * Para enviar uma entrega recorrente, inicie sua campanha orquestrada com uma atividade **Scheduler**. Você também pode usar uma atividade **Scheduler** para entregas únicas e únicas para definir a data de contato para essa entrega. Essa data de contato também pode ser definida nas configurações de delivery.
 
-## Configurar uma atividade de canal {#create-a-delivery-in-a-workflow}
+## Configurar a atividade canal {#create-a-delivery-in-a-workflow}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
->title="Atividade Email"
->abstract="A atividade Email permite enviar emails em sua campanha em várias etapas, tanto para mensagens únicas quanto para mensagens recorrentes. Ele serve para automatizar o processo de envio de emails para um público-alvo calculado na mesma campanha em várias etapas. Você pode combinar atividades de canal em uma tela de campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>title="Atividade email"
+>abstract="A Atividade email permite enviar emails na campanha em várias etapas, tanto mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de envio de emails para um destino calculado na mesma campanha em várias etapas. É possível combinar atividades canal em uma tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Atividade de SMS"
->abstract="A atividade SMS permite enviar SMS em sua campanha em várias etapas, para mensagens únicas e recorrentes. Ele serve para automatizar o processo de envio de SMS para um público-alvo calculado na mesma campanha em várias etapas. Você pode combinar atividades de canal na tela de campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A Atividade SMS permite enviar mensagens SMS na campanha em várias etapas, tanto mensagens únicas como recorrentes. Ela serve para automatizar o processo de envio de SMS a um destino calculado na mesma campanha em várias etapas. É possível combinar atividades canal na tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
 >title="Atividade push para iOS"
->abstract="A atividade Push iOS permite enviar notificações por push do iOS como parte de sua campanha em várias etapas. Ela permite a entrega de campanhas únicas e recorrentes em várias etapas, automatizando o envio de notificações por push do iOS para um público-alvo predefinido no mesmo fluxo de trabalho. É possível combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem acionar ações com base no comportamento e nos dados de clientes."
+>abstract="A Atividade push para iOS permite enviar notificações por push do iOS como parte da campanha em várias etapas. Ela permite a entrega de campanhas com várias etapas únicas e recorrentes, automatizando o envio de notificações por push para iOS a um destino predefinido no mesmo fluxo de trabalho. É possível combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem acionar ações com base no comportamento e nos dados de clientes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Atividade push para Android"
->abstract="A atividade de push do Android permite enviar notificações por push do Android como parte de sua campanha em várias etapas. Ele permite a entrega de mensagens únicas e recorrentes, automatizando o envio de notificações por push do Android para um público-alvo predefinido na mesma campanha multietapas. Você pode combinar atividades de canal na tela de campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A Atividade push para Android permite enviar notificações por push do Android como parte da campanha em várias etapas. Ela permite a entrega de mensagens únicas e recorrentes, automatizando o envio de notificações por push para Android a um destino predefinido na mesma campanha em várias etapas. É possível combinar atividades canal na tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
->title="Atividade Correspondência direta"
->abstract="A atividade Correspondência direta facilita o envio de correspondência direta na campanha em várias etapas, para mensagens únicas e recorrentes. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. Você pode combinar atividades de canal na tela de campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>title="Atividade correspondência direta"
+>abstract="A Atividade correspondência direta facilita o envio de correspondência direta na campanha em várias etapas para mensagens únicas e recorrentes. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. É possível combinar atividades canal na tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 Para configurar um delivery no contexto de uma campanha orquestrada, siga as etapas abaixo:
 

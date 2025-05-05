@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1463'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
->title="Introdução às marcas"
->abstract="Crie e personalize suas próprias marcas para definir sua identidade visual e verbal exclusiva, facilitando a geração de conteúdo que corresponda ao estilo e à voz da sua marca."
+>title="Introdução a marcas"
+>abstract="Crie e personalize suas próprias marcas para definir uma identidade visual e verbal única, além de facilitar a geração de conteúdo que corresponda ao estilo e à voz da sua marca."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_ai_menu"
 >title="Selecione sua marca"
->abstract="Escolha sua marca para garantir que todo o conteúdo gerado por IA seja personalizado para se alinhar às especificações e diretrizes da sua marca."
+>abstract="Escolha sua marca para garantir que todo o conteúdo gerado por IA seja personalizado para se alinhar às suas especificações e diretrizes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score_overview"
@@ -73,8 +73,8 @@ Para acessar o menu **[!UICONTROL Marcas]** em [!DNL Adobe Journey Optimizer], o
 
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
->title="Criar sua marca"
->abstract="Insira o nome da sua marca e faça upload do arquivo de diretrizes da marca. A ferramenta extrairá automaticamente os principais detalhes, facilitando a manutenção da identidade da sua marca."
+>title="Crie sua marca"
+>abstract="Insira o nome e faça upload do arquivo de diretrizes da marca. A ferramenta extrairá automaticamente os principais detalhes, facilitando a manutenção da identidade da marca."
 
 Para criar e gerenciar as diretrizes de marca, você pode inserir os detalhes por conta própria ou fazer upload do documento de diretrizes de marca para que as informações sejam extraídas automaticamente:
 

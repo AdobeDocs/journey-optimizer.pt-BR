@@ -12,7 +12,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -26,8 +26,8 @@ Além disso, você pode duplicar campanhas ativas (executadas uma vez ou com uma
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Exibições de Tabela e Linha do Tempo de Campanhas"
->abstract="Exibições de Tabela e Linha do Tempo de Campanhas"
+>title="Visualizações de tabela e linha do tempo de campanhas"
+>abstract="Visualizações de tabela e linha do tempo de campanhas"
 
 As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**.
 

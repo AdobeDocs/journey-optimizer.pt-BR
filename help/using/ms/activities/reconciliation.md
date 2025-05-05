@@ -10,7 +10,7 @@ exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 43%
+ht-degree: 47%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation"
 >title="Atividade de reconciliação"
->abstract="A atividade **Reconciliation** é uma atividade **Targeting** que permite definir o vínculo entre o Adobe Journey Optimizer e os dados em uma tabela de trabalho."
+>abstract="A Atividade **reconciliação** é uma atividade de **direcionamento** que permite definir o vínculo entre o Adobe Journey Optimizer e os dados em uma tabela de trabalho."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_field"

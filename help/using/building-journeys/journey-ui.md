@@ -12,18 +12,18 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
 # Procurar e filtrar suas jornadas {#browse-journeys}
 
-## Jornada painel {#dashboard-jo}
+## Painel da jornada {#dashboard-jo}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="Visualizações de Tabela e Linha do Tempo do Jornada"
->abstract="Visualizações de Tabela e Linha do Tempo do Jornada"
+>title="Visualizações de tabela e linha do tempo das jornadas"
+>abstract="Visualizações de tabela e linha do tempo das jornadas"
 
 Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. Duas guias estão disponíveis: **[!UICONTROL Visão geral]** e **[!UICONTROL Procurar]**.
 
@@ -128,7 +128,7 @@ Ao publicar uma nova versão de uma jornada, a versão anterior encerra automati
 
 >[!NOTE]
 >
->Medidas de proteção e limitações específicas se aplicam ao controle de versão das jornadas. Saiba mais sobre [esta página](../start/guardrails.md#journey-versions-journey-versions-g).
+>Medidas de proteção e limitações específicas se aplicam ao controle de versão das jornadas. Saiba mais [nesta página](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Duplicar uma jornada {#duplicate-a-journey}
 

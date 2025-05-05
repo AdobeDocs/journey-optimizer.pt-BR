@@ -48,7 +48,7 @@ O Adobe Journey Optimizer permite automatizar e executar campanhas de marketing 
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
->title="Terminar atividade"
+>title="Atividade de término"
 >abstract="A atividade **End** permite marcar graficamente o fim de uma campanha orquestrada. Essa atividade não tem impacto funcional e, portanto, é opcional."
 
 ![Lista de atividades de controle de fluxo](../assets/flow-control-activities.png){width="30%" align="left"}

@@ -11,7 +11,7 @@ exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 2%
+ht-degree: 27%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
 >title="URL do provedor"
->abstract="Especifique o URL da API externa à qual você planeja se conectar. Esse URL serve como endpoint para acessar os recursos e funcionalidades da API."
+>abstract="Especifique o URL da API externa à qual você planeja se conectar. Esse URL serve como ponto de acesso para acessar os recursos e funcionalidades da API."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
 >title="Tipo de autenticação"
->abstract="Especifique o método de autenticação necessário para acessar a API, como tokens OAuth ou Portador. Isso garante a comunicação segura e autorizada com o serviço externo."
+>abstract="Especifique o método de autenticação necessário para acessar a API, como os tokens OAuth ou Bearer. Isso garante a comunicação segura e autorizada com o serviço externo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
@@ -34,8 +34,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
->title="Carga do provedor"
->abstract="Forneça a carga da solicitação para garantir que os dados corretos sejam enviados para processamento e geração de resposta."
+>title="Conteúdo do provedor"
+>abstract="Forneça o conteúdo da solicitação para garantir que os dados corretos sejam enviados para processamento e geração de resposta."
 
 >[!AVAILABILITY]
 >

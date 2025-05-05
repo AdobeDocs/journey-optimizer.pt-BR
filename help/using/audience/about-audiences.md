@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="Selecione o público-alvo da campanha"
->abstract="Esta lista exibe todos os públicos-alvo disponíveis na Adobe Experience Platform. Selecione o público-alvo a ser direcionado pela campanha. A mensagem configurada na campanha será enviada a todas as pessoas pertencentes ao público-alvo selecionado. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)"
+>abstract="Esta lista exibe todos os públicos-alvo disponíveis na Adobe Experience Platform. Selecione o público-alvo a ser direcionado pela campanha. A mensagem configurada na campanha será enviada a todas as pessoas pertencentes ao público-alvo selecionado. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)."
 
 Público-alvo são coleções de pessoas que compartilham comportamentos e/ou características semelhantes. Eles são configurados e mantidos de forma centralizada no Adobe Experience Platform usando o Serviço de segmentação da Adobe Experience Platform e prontamente acessíveis no Journey Optimizer para serem ativados em suas jornadas e campanhas.
 

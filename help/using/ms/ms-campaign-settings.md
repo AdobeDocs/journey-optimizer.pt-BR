@@ -19,7 +19,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_creation_properties"
 >title="Propriedades da campanha orquestrada"
->abstract="Nesta tela, escolha o template a ser usado para criar a campanha orquestrada e especifique um rótulo. Expanda a seção **Opções adicionais** para definir mais configurações, como o nome interno da campanha orquestrada, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo supervisor, para que, se ocorrer um erro, os operadores sejam alertados."
+>abstract="Nesta tela, escolha o template a ser usado para criar a campanha orquestrada e especifique um rótulo. Expanda a seção **Opções adicionais** para definir mais configurações, como o nome interno da campanha orquestrada, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo supervisor para que, se ocorrer um erro, os operadores sejam alertados."
 
 Ao criar uma campanha orquestrada ou orquestrar atividades de campanha orquestrada na tela, você pode acessar configurações avançadas relacionadas à campanha orquestrada. Por exemplo, é possível definir um fuso horário específico para a campanha orquestrada, gerenciar como ela deve se comportar em caso de erro ou gerenciar o atraso após o qual o histórico da campanha orquestrada deve ser removido.
 

@@ -19,7 +19,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="Atividade AND-join"
->abstract="A atividade **And-join** permite sincronizar várias ramificações de execução de uma campanha orquestrada. Ela é acionada quando todas as atividades anteriores são concluídas. Isso permite que você verifique se determinadas atividades foram concluídas antes de continuar a executar a campanha orquestrada."
+>abstract="A atividade **And-join** permite sincronizar várias ramificações de execução de uma campanha orquestrada. Ela é acionada quando todas as atividades anteriores forem concluídas. Isso permite que você verifique se determinadas atividades foram concluídas antes de continuar a executar a campanha orquestrada."
 
 A atividade **AND-join** é uma atividade de **Controle de fluxo**. Ele permite sincronizar várias ramificações de execução de uma campanha orquestrada.
 
