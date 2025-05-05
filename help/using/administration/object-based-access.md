@@ -53,7 +53,7 @@ Saiba mais sobre permissões [nesta seção](../administration/permissions.md).
 
 Use rótulos para fornecer acesso aos usuários, bem como impor a governança de dados e as políticas de consentimento. Esses rótulos de governança podem afetar o consumo downstream.
 
-Você pode criar rótulos no produto [!DNL Permissions]. Para obter mais informações, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}.
+Você pode criar rótulos no produto [!DNL Permissions]. Para obter mais informações, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=pt-BR){target="_blank"}.
 
 Você também pode criar **[!UICONTROL Rótulos]** diretamente no Journey Optimizer. Para criar um rótulo, siga estas etapas:
 
@@ -95,4 +95,4 @@ Para atribuir rótulos de uso de dados personalizados ou principais aos objetos 
 Para ter acesso a este objeto, os usuários precisarão ter o **[!UICONTROL Rótulo]** específico incluído em suas **[!UICONTROL Funções]**.
 Por exemplo, um usuário com o rótulo C1 terá acesso somente a objetos com ou sem rótulo C1.
 
-Para obter mais informações sobre como atribuir **[!UICONTROL Rótulo]** a uma **[!UICONTROL Função]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}.
+Para obter mais informações sobre como atribuir **[!UICONTROL Rótulo]** a uma **[!UICONTROL Função]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=pt-BR#manage-labels-for-a-role){target="_blank"}.

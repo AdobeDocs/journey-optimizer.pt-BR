@@ -30,7 +30,7 @@ A lista de métricas varia dependendo dos [grupos de campos](https://experiencel
 
 Se seu conjunto de dados não estiver configurado, apenas as seguintes métricas estarão disponíveis: **[!UICONTROL Clique]**, **[!UICONTROL Clique Único]**, **[!UICONTROL Taxa de Click-through]** e **[!UICONTROL Taxa de Abertura]**.
 
-Observe que com uma licença do Customer Journey Analytics é possível criar métricas de sucesso personalizadas. [Saiba mais](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Observe que com uma licença do Customer Journey Analytics é possível criar métricas de sucesso personalizadas. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Métricas | Grupo de campos relacionado |
@@ -67,7 +67,7 @@ Cada métrica vem com uma atribuição definida que determina quais pontos de co
 
   Com as licenças do Journey Optimizer e da Customer Journey Analytics, é possível criar métricas personalizadas com configurações de atribuição específicas ou alterar as atribuições das métricas integradas.
 
-  Saiba mais sobre [Modelos de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Saiba mais sobre [Modelos de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Atribuir suas métricas de jornada {#assign}
 
