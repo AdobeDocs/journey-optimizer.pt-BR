@@ -181,7 +181,7 @@ Cada alteração cria um novo elemento no painel **[!UICONTROL Modificações]**
 
 +++
 
-+++ **Tenha cuidado ao usar o tipo de modificação**[!UICONTROL  Página `<head>`]**para duas campanhas que afetam a mesma URL.**
++++ **Tenha cuidado ao usar o tipo de modificação**&#x200B;[!UICONTROL &#x200B; Página `<head>`]&#x200B;**para duas campanhas que afetam a mesma URL.**
 
 Se você usar o tipo de modificação **[!UICONTROL Página`<head>`]** para duas campanhas que afetam a mesma URL, a JavaScript será inserida na página pelas duas campanhas. [!DNL Journey Optimizer] determina automaticamente a ordem do conteúdo entregue. Certifique-se de que o código não dependa da disposição. Cabe a você garantir que não haja conflitos no código.
 

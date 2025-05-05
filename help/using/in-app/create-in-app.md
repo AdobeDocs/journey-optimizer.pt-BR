@@ -67,7 +67,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
       | Places | Inserir POI | Acionado pela SDK do Places quando o cliente insere o Ponto de interesse (POI) que você configurou. |
       | Places | POI de saída | Acionado pela SDK do Places quando o cliente sair do ponto de interesse (POI) que você configurou. |
 
-+++
+      +++
 
    1. Clique em **[!UICONTROL Adicionar condição]** se desejar que o gatilho considere vários eventos ou critérios.
 
@@ -99,7 +99,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
       | Places | Último POI inserido | Acionado pelo Places SDK, dependendo do último Ponto de interesse (POI) inserido pelo cliente. |
       | Places | Último POI de saída | Acionado pelo Places SDK, dependendo do último Ponto de interesse (POI) encerrado pelo cliente. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -173,7 +173,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
       | Places | Inserir POI | Acionado pela SDK do Places quando o cliente insere o Ponto de interesse (POI) que você configurou. |
       | Places | POI de saída | Acionado pela SDK do Places quando o cliente sair do ponto de interesse (POI) que você configurou. |
 
-+++
+      +++
 
    1. Clique em **[!UICONTROL Adicionar condição]** se desejar que o gatilho considere vários eventos ou critérios.
 
@@ -205,7 +205,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
       | Places | Último POI inserido | Acionado pelo Places SDK, dependendo do último Ponto de interesse (POI) inserido pelo cliente. |
       | Places | Último POI de saída | Acionado pelo Places SDK, dependendo do último Ponto de interesse (POI) encerrado pelo cliente. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -238,7 +238,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-+++
+  +++
 
 * O vídeo abaixo mostra como configurar e analisar experimentos de conteúdo para mensagens no aplicativo de teste A/B.
 
@@ -246,7 +246,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
-+++
+  +++
 
 * O vídeo abaixo mostra como criar uma mensagem no aplicativo em uma jornada e como testar e publicar sua jornada.
 
@@ -254,7 +254,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
-+++
+  +++
 
 **Tópicos relacionados:**
 

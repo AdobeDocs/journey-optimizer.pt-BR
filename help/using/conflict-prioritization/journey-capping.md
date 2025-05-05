@@ -89,7 +89,7 @@ Para criar uma regra de limite de jornada, siga estas etapas:
      >
      >Neste exemplo, se o profissional de marketing já tiver inserido 4 jornadas e houver outra jornada programada para este mês com uma prioridade mais alta, os clientes não poderão entrar na jornada de prioridade mais baixa.
 
-+++
+     +++
 
      +++Configurar uma regra de limite de simultaneidade de jornada
 
@@ -101,7 +101,7 @@ Para criar uma regra de limite de jornada, siga estas etapas:
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-+++
+     +++
 
 1. Quando a regra de limitação estiver pronta para ser aplicada às jornadas, ative-a clicando no botão de reticências ao lado do nome.
 

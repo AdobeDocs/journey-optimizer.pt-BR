@@ -199,7 +199,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
 
       * Clique no botão **[!UICONTROL Manter alterações]** para confirmar e salvar sua regra.
 
-+++
+   +++
 
 1. Arraste e solte as localidades para reordená-las e gerenciar sua prioridade na lista.
 

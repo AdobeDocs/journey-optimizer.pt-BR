@@ -53,7 +53,7 @@ Para adicionar cartões de Conteúdo a uma jornada, siga estas etapas:
       | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |
       | Ciclo de vida do aplicativo | Falha de aplicativo | Disparado quando o aplicativo não estiver em segundo plano antes do fechamento. O evento é enviado quando o aplicativo é iniciado após a falha. O relatório de falha do Adobe Mobile não implementa um gerenciador de exceção global não detectado. |
 
-+++
+      +++
 
    1. Escolha a condição **[!UICONTROL Or]** se quiser adicionar mais **[!UICONTROL Triggers]** para expandir ainda mais sua regra.
 
@@ -78,7 +78,7 @@ Para adicionar cartões de Conteúdo a uma jornada, siga estas etapas:
       | Ciclo de vida do aplicativo | Lançamentos | Disparado quando o número especificado de inicializações é atingido. |
       | Ciclo de vida do aplicativo | Hora do dia | Disparado quando o horário especificado é cumprido. |
 
-+++
+      +++
 
    1. Clique em **[!UICONTROL Criar grupo]** para agrupar acionadores.
 

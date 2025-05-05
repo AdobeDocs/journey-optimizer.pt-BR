@@ -93,7 +93,7 @@ O [!DNL Journey Optimizer] permite criar suas próprias **[!UICONTROL Funções]
 
 Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR){target="_blank"}.
 
-Neste exemplo, criaremos uma função chamada **Jornada somente leitura**, na qual concederemos direitos somente leitura ao recurso de Jornada. Os usuários só poderão acessar e exibir jornadas e não poderão acessar outros recursos, como o **[!DNL  Decision management]** no [!DNL Journey Optimizer].
+Neste exemplo, criaremos uma função chamada **Jornada somente leitura**, na qual concederemos direitos somente leitura ao recurso de Jornada. Os usuários só poderão acessar e exibir jornadas e não poderão acessar outros recursos, como o **[!DNL &#x200B; Decision management]** no [!DNL Journey Optimizer].
 
 Para criar nossa **Função somente leitura** **[!UICONTROL do Jornada]**:
 

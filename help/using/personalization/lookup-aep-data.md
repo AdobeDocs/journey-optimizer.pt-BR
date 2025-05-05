@@ -121,7 +121,7 @@ Depois que um conjunto de dados for habilitado para personalização de pesquisa
 
    ![](assets/aep-data-dataset.png)
 
-+++
+   +++
 
 1. Adapte a sintaxe de acordo com suas necessidades. Neste exemplo, queremos recuperar dados relacionados aos voos dos passageiros. A sintaxe é a seguinte:
 
@@ -152,7 +152,7 @@ Depois que um conjunto de dados for habilitado para personalização de pesquisa
 
      ![](assets/aep-data-field.png)
 
-+++
+     +++
 
    Neste exemplo, queremos usar informações relacionadas ao horário e ao portão de embarque dos passageiros. Portanto, adicionamos estas duas linhas:
 

@@ -40,7 +40,7 @@ O **[!UICONTROL gráfico de tendência]** Impressão > Clique apresenta uma aná
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado nas mensagens no aplicativo.
 
-* **** Exibe: número de vezes que a mensagem foi aberta.
+* **&#x200B;**&#x200B;Exibe: número de vezes que a mensagem foi aberta.
 
 +++
 
@@ -66,7 +66,7 @@ O **[!UICONTROL gráfico Exibições]** ajuda você a entender o alcance geral d
 
 +++ Saiba mais sobre métricas de exibição
 
-* **** Exibe: número de vezes que a mensagem foi aberta.
+* **&#x200B;**&#x200B;Exibe: número de vezes que a mensagem foi aberta.
 
 * **[!UICONTROL Exibições]** únicas: número de vezes que a mensagem foi aberta, várias interações de um perfil não são levadas a conta.
 
@@ -90,7 +90,7 @@ A tabela **[!UICONTROL Dados de rastreamento]** oferece um instantâneo detalhad
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em uma conteúdo nas mensagens no aplicativo.
 
-* **** Exibe: número de vezes que a mensagem foi aberta.
+* **&#x200B;**&#x200B;Exibe: número de vezes que a mensagem foi aberta.
 
 * **[!UICONTROL Exibições]** únicas: número de vezes que a mensagem foi aberta, várias interações de um perfil não são levadas a conta.
 
@@ -115,7 +115,7 @@ A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral 
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado nas mensagens no aplicativo.
 
-* **** Exibe: número de vezes que a mensagem foi aberta.
+* **&#x200B;**&#x200B;Exibe: número de vezes que a mensagem foi aberta.
 
 * **[!UICONTROL Exibições]** únicas: número de vezes que a mensagem foi aberta, várias interações de um perfil não são levadas a conta.
 
