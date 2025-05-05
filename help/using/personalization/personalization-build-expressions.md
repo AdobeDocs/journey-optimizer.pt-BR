@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1458'
 ht-degree: 10%
 
 ---
@@ -76,6 +76,12 @@ Amostra de URLs personalizados:
 >Ao editar um URL personalizado no editor de personalização, as funções auxiliares e a associação de públicos-alvo são desativadas por motivos de segurança.
 >
 >Não há suporte para espaços nos tokens de personalização usados em urls.
+
++++
+
++++Configuração de email
+
+Ao criar uma configuração de canal de email, você pode definir valores personalizados para subdomínios, cabeçalhos e parâmetros de rastreamento de URL. [Saiba mais](../email/surface-personalization.md)
 
 +++
 
@@ -187,7 +193,7 @@ Neste caso, o **produto** não é uma matriz:
 {{/each}}
 ```
 
-* **Sintaxe de manipuladores inválida. Encontrado`‘[XYZ}}’`**
+* **Sintaxe de manipuladores inválida. Encontrado`'[XYZ}}'`**
 
 Quando a sintaxe de manipuladores inválidos é usada.
 
