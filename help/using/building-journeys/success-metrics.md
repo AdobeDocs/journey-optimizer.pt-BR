@@ -2,28 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Publicar a jornada
-description: Saiba como criar relatórios sobre a métrica de jornada escolhida
+description: Saiba como criar relatórios sobre suas métricas do jornada
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 7%
+source-wordcount: '495'
+ht-degree: 5%
 
 ---
 
-# Configurar e rastrear a métrica da jornada {#success-metrics}
+# Configurar e rastrear suas métricas do jornada {#success-metrics}
 
-Com as métricas do jornada, você pode medir efetivamente o impacto das atividades rastreando o desempenho em relação às métricas predefinidas.
-Ao rastrear essas métricas, você pode ver o desempenho da sua jornada, identificar áreas que precisam ser melhoradas e tomar decisões conscientes para aprimorar o engajamento do cliente.
+Obtenha visibilidade clara sobre a eficácia das jornadas do cliente com as métricas do jornada. Esse recurso permite rastrear o desempenho em relação aos KPIs definidos, descobrir insights sobre o que está funcionando e identificar áreas para otimização. Ao medir o impacto em tempo real, você pode impulsionar melhorias contínuas e tomar decisões informadas por dados que elevam o engajamento do cliente.
 
 ## Pré-requisitos {#prerequisites}
 
-Antes de usar sua métrica de jornada, você deve adicionar um conjunto de dados que inclua os `Commerce Details`, `Web`e `Mobile` [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"}.
+Antes de usar suas métricas do jornada, você deve adicionar um conjunto de dados que inclua os `Commerce Details`, `Web` e `Mobile` [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"}.
 
 ## Métricas disponíveis {#metrics}
 
@@ -70,9 +69,9 @@ Cada métrica vem com uma atribuição definida que determina quais pontos de co
 
   Saiba mais sobre [Modelos de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
-## Atribuir a métrica de Jornada {#assign}
+## Atribuir suas métricas de jornada {#assign}
 
-Para começar a rastrear sua métrica do jornada, siga as etapas descritas abaixo:
+Para começar a rastrear suas métricas do jornada, siga as etapas descritas abaixo:
 
 1. No menu do **[!UICONTROL Jornada]**, clique em **[!UICONTROL Criar Jornada]**.
 
@@ -90,8 +89,8 @@ Para começar a rastrear sua métrica do jornada, siga as etapas descritas abaix
 
 1. Teste e publique sua jornada.
 
-1. Abra o relatório de jornada para acompanhar o desempenho da métrica de sucesso atribuída.
+1. Abra o relatório de jornada para acompanhar o desempenho das métricas de sucesso atribuídas.
 
-   A métrica escolhida é exibida na tabela KPIs e estatísticas da Jornada do relatório.
+   As métricas escolhidas são exibidas na tabela KPIs e estatísticas da Jornada do relatório.
 
    ![](assets/success_metric_2.png)

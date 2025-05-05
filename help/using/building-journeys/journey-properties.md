@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '2344'
-ht-degree: 17%
+source-wordcount: '2395'
+ht-degree: 13%
 
 ---
 
@@ -27,17 +27,20 @@ ht-degree: 17%
 
 As propriedades de uma jornada são centralizadas no painel direito. Esta seção é exibida por padrão ao criar uma nova jornada. Para jornadas existentes, clique no ícone de lápis ao lado do nome da jornada para abri-lo.
 
-Nesta seção, você pode definir o nome da jornada, adicionar uma descrição e:
+Nesta seção, defina o nome da jornada, adicione uma descrição e defina as propriedades globais da jornada.
 
-* gerenciar [entrada e reentrada](#entrance),
-* escolher o início e o fim de [datas](#dates),
-* gerenciar [acesso aos dados](#manage-access),
-* defina uma [duração do tempo limite](#timeout) em atividades do jornada (somente para usuários administradores),
-* selecione a jornada e o perfil [fusos horários](#timezone)
-* atribua Tags unificadas do Adobe Experience Platform à sua jornada para classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
-* monitore conflitos e priorize suas jornadas usando as [ferramentas de gerenciamento de conflitos](#conflict).
+É possível:
 
-![](assets/journey32.png)
+* Atribua Tags unificadas da Adobe Experience Platform à sua jornada para classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
+* Selecione suas métricas do jornada. [Saiba como configurar e acompanhar suas métricas do jornada](success-metrics.md)
+* Gerenciar [entrada e reentrada](#entrance). O gerenciamento de entrada de perfis depende do tipo de jornadas. Há detalhes disponíveis em [esta página](entry-management.md)
+* Gerenciar [acesso aos dados](#manage-access)
+* Selecione a jornada e o perfil [fusos horários](#timezone)
+* Escolher [datas de início e término](#dates) personalizadas
+* Defina uma [duração de tempo limite](#timeout) nas atividades de jornada (somente para usuários administradores)
+* Monitore conflitos e priorize suas jornadas usando as [ferramentas de gerenciamento de conflitos](#conflict)
+
+![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,46 +78,46 @@ Quando a opção **Permitir reentrada** está ativada, o campo **Período de esp
 
 ## Gerenciar acesso {#manage-access}
 
-Para atribuir rótulos de uso de dados personalizados ou principais à jornada, clique no botão **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
+É possível limitar o acesso a uma jornada com base em rótulos de acesso.
 
-![](assets/journeys-manage-access.png)
+Para atribuir rótulos de uso de dados personalizados à jornada, clique no ícone **[!UICONTROL Gerenciar rótulos de acesso]** e selecione um ou vários rótulos.
+
+[Saiba mais sobre o Controle de acesso em nível de objeto (OLAC)](../administration/object-based-access.md)
 
 ## Fusos horários de Jornada e perfil {#timezone}
 
 O fuso horário é definido no nível da jornada. Você pode inserir um fuso horário fixo ou usar perfis do Adobe Experience Platform para definir o fuso horário de jornada. Se um fuso horário for definido no perfil do Adobe Experience Platform, ele poderá ser recuperado na jornada.
 
-Para obter mais informações sobre o gerenciamento de fuso horário, consulte [esta página](../building-journeys/timezone-management.md).
+[Saiba mais sobre o gerenciamento de fuso horário](../building-journeys/timezone-management.md)
 
 ## Datas iniciais e finais {#dates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Data de início"
->abstract="Escolha a data em que a entrada na jornada pode começar. Se nenhuma data inicial for especificada, ela será definida automaticamente no momento da publicação."
-
+>abstract="Selecione a data em que os perfis podem começar a entrar na jornada. Se nenhuma data de início for definida, o padrão será a data de publicação da jornada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Data de término"
->abstract="Escolha a data final da jornada. Quando essa data é atingida, os perfis nessa jornada saem automaticamente e novos perfis não podem mais entrar."
+>abstract="Defina a data de término da jornada. Nessa data, os perfis ativos sairão automaticamente da jornada e nenhuma entrada nova será permitida."
 
-Você pode definir uma **Data de início**. Se não tiver especificado um, ele será definido automaticamente no momento da publicação.
+Por padrão, os perfis podem inserir sua jornada assim que ela for publicada e podem permanecer até que o [tempo limite de jornada global](#global_timeout) seja atingido. A única exceção são as jornadas de público-alvo de leitura recorrente com **Forçar a reentrada na recorrência** ativada, que terminam na data de início da próxima ocorrência.
 
-Você também pode adicionar uma **Data final**. Isso permite que os perfis saiam automaticamente quando a data for atingida. Se nenhuma data de término for especificada, os perfis poderão permanecer até o [tempo limite da jornada global](#global_timeout) (que geralmente é de 91 dias). A única exceção são as jornadas de público-alvo de leitura recorrente com **Forçar a reentrada na recorrência** ativada, que terminam na data de início da próxima ocorrência.
+Se necessário, você pode definir uma **Data de início** e uma **Data de término** personalizadas. Isso permite que os perfis entrem na jornada em uma data específica e saiam automaticamente quando a data final for atingida.
 
 ## Tempo limite {#timeout}
 
-### Tempo limite ou erro em atividades da jornada {#timeout_and_error}
+### Tempo limite em atividades de jornada {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Tempo limite"
->abstract="Defina por quanto tempo a jornada tentará executar uma ação ou verificar uma condição antes de considerá-la como tempo limite."
-
+>title="Tempo limite ou erro"
+>abstract="Especifique por quanto tempo a jornada deve tentar executar uma ação ou avaliar uma condição antes de tratá-la como tempo limite. Os valores recomendados estão entre 1 e 30 segundos."
 
 Ao editar uma atividade de ação ou condição, é possível definir um caminho alternativo em caso de erro ou tempo limite. Se o processamento da atividade que interroga um sistema de terceiros exceder a duração do tempo limite definida no campo **[!UICONTROL Tempo limite ou erro]** das propriedades da jornada, o segundo caminho será escolhido para executar uma possível ação de fallback.
 
-Os valores autorizados estão entre 1 e 30 segundos.
+Os valores recomendados estão entre 1 e 30 segundos.
 
 Recomendamos que você defina um valor muito curto de **[!UICONTROL Tempo limite ou erro]** se a jornada diferenciar tempo (exemplo: reagir ao local em tempo real de uma pessoa) porque você não pode atrasar sua ação por mais do que alguns segundos. Se a jornada for menos sensível ao tempo, você poderá usar um valor mais longo para dar mais tempo ao sistema chamado para enviar uma resposta válida.
 

@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objeto, nível, acesso, controle, rótulos, olac, autorização
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 17%
+source-wordcount: '472'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Rótulos de gerenciamento de acesso"
->abstract="Você pode limitar o acesso a esta campanha com base nos rótulos de acesso. Para adicionar uma limitação de acesso, navegue até o botão **Gerenciar acesso** na parte superior desta página. Selecione apenas os rótulos para os quais tem permissão."
+>abstract="Você pode limitar o acesso a um objeto com base em rótulos de acesso. Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, permitindo maior proteção de dados pessoais. **Selecione apenas os rótulos para os quais você tem permissão.**"
+
+Você pode limitar o acesso a um objeto com base em rótulos de acesso. Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, permitindo maior proteção de dados pessoais.
 
 O recurso OLAC (Object level access control) permite definir autorizações para gerenciar o acesso a dados a uma seleção de objetos:
 
@@ -36,7 +38,6 @@ O recurso OLAC (Object level access control) permite definir autorizações para
 * Configuração de canais
 * Plano de aquecimento de IP
 
-Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, permitindo maior proteção de dados pessoais.
 
 ## Pré-requisitos {#prereq-labels}
 
@@ -85,7 +86,7 @@ Para atribuir rótulos de uso de dados personalizados ou principais aos objetos 
 
 1. Na janela **[!UICONTROL Gerenciar acesso]**, selecione o(s) rótulo(s) personalizado(s) ou de uso dos dados principais para gerenciar o acesso a este objeto.
 
-   Para obter mais informações sobre rótulos de uso de dados principais, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html){target="_blank"}.
+   Para obter mais informações sobre rótulos de uso de dados principais, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=pt-BR){target="_blank"}.
 
    ![](assets/olac_4.png)
 
