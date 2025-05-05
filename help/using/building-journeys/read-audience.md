@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
 workflow-type: tm+mt
 source-wordcount: '2195'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -24,41 +24,6 @@ ht-degree: 9%
 >id="ajo_journey_read_segment"
 >title="Atividade Ler público-alvo"
 >abstract="A atividade Ler público-alvo permite que todas as pessoas pertencentes a um público-alvo da Adobe Experience Platform entrem em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_start_date"
->title="Data/hora de início"
->abstract="Defina a data e a hora em que deseja acionar essa jornada."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_until"
->title="Repetir até"
->abstract="Definir a data de término de recorrentes."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_every"
->title="Repetir a cada"
->abstract="Defina uma frequência de scheduler recorrente."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_incremental_read"
->title="Leitura incremental"
->abstract="Permitir apenas novos perfis desde a última leitura na jornada."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="Forçar reentrada"
->abstract="Solte todos os participantes da jornada antes de cada público ler."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Acionar após a avaliação do público-alvo em lote"
->abstract="Ative essa opção para acionar a execução da jornada após uma nova avaliação do público-alvo em lote."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Tempo de espera para nova avaliação do público-alvo"
->abstract="Especifique a duração de tempo que a jornada aguardará para que o público-alvo em lote seja avaliado recentemente. O período de espera é limitado a valores inteiros, pode ser especificado em minutos ou horas e deve estar entre 1 e 6 horas."
 
 Use a atividade **Ler público-alvo** para fazer com que todos os indivíduos de um público-alvo entrem na jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 
@@ -131,6 +96,41 @@ Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5
 >A taxa de leitura geral por sandbox está definida como 20.000 perfis por segundo. Portanto, a taxa de leitura de todos os públicos-alvo de leitura executados simultaneamente na mesma sandbox totaliza no máximo 20.000 perfis por segundo. Não é possível modificar esse limite.
 
 ### Agendar a jornada {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="Data/hora de início"
+>abstract="Defina a data e a hora em que deseja acionar essa jornada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="Repetir até"
+>abstract="Definir a data final da recorrência."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="Repetir a cada"
+>abstract="Defina uma frequência de scheduler recorrente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="Leitura incremental"
+>abstract="Permita apenas novos perfis desde a última leitura na jornada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="Forçar reentrada"
+>abstract="Remover todos os participantes da jornada antes de cada leitura de público-alvo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="Acionar após a avaliação do público-alvo em lote"
+>abstract="Ative essa opção para acionar a execução da jornada após uma nova avaliação do público-alvo em lote."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="Tempo de espera para nova avaliação do público-alvo"
+>abstract="Especifique a duração de tempo que a jornada aguardará para que o público-alvo em lote seja avaliado recentemente. O período de espera é limitado a valores inteiros, pode ser especificado em minutos ou horas e deve estar entre 1 e 6 horas."
 
 Por padrão, as jornada são configuradas para serem executadas uma vez. Para definir uma data/hora e uma frequência específicas na qual a jornada deve ser executada, siga as etapas abaixo.
 
