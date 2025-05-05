@@ -74,7 +74,7 @@ Por exemplo, se você definir as seguintes restrições:
 >id="od_offer_eligibility"
 >title="Sobre a elegibilidade da oferta"
 >abstract="Nesta seção, é possível usar regras de decisão para definir as pessoas elegíveis para receber a oferta."
->additional-url="https://video.tv.adobe.com/v/329373" text="Assistir ao vídeo de demonstração"
+>additional-url="https://video.tv.adobe.com/v/341377?captions=por_br" text="Assistir ao vídeo de demonstração"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
