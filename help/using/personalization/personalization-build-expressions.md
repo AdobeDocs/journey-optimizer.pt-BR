@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1510'
 ht-degree: 10%
 
 ---
@@ -105,7 +105,7 @@ O painel de navegação permite selecionar a origem para personalização. As fo
 >title="Preenchimento automático"
 >abstract="Ativar essa opção permite que o sistema sugira e conclua automaticamente o código à medida que você digita. Esse recurso está disponível somente para os formatos HTML e Texto e é compatível com os atributos de Perfil e Contexto. Se desabilitado por meio do botão de alternância, o editor fornecerá preenchimento automático do código HTML nativo."
 
-O espaço de trabalho central é onde você cria sua sintaxe de personalização. Para usar um atributo para personalizar sua mensagem, localize-o no painel de atributos e clique no botão `+` para adicioná-lo à expressão.
+O espaço de trabalho central é onde você cria sua sintaxe de personalização. Para usar um atributo para personalizar sua mensagem, localize-o no painel de navegação esquerdo e clique no botão `+` para adicioná-lo à expressão.
 
 ![](assets/personalization-add-attribute.png)
 
@@ -123,7 +123,7 @@ No exemplo a seguir, o editor de personalização permite selecionar os perfis q
 
 ![](assets/perso_ee2.png)
 
-## Ferramentas para edição de expressão
+## Opções para edição de expressão {#options}
 
 O espaço de trabalho central fornece várias ferramentas para ajudar você a escrever sua expressão de personalização.
 
@@ -146,6 +146,13 @@ As opções disponíveis são:
    * **Em** - Quebra linhas na largura do editor.
    * **Coluna de quebra automática de linha** - Quebra as linhas quando os caracteres de linha atingem 80 caracteres.
    * **Limitado** - Quebra as linhas na largura do editor ou em 80 caracteres, o que for menor.
+1. **[!UICONTROL Pills]**: exibir atributos como &quot;pílulas&quot; compactas para melhorar a legibilidade, ocultando caminhos de atributos longos. Clique em um atributo para exibir seu caminho completo.
+
+   >[!NOTE]
+   >
+   >A exibição de pílulas será gradualmente lançada em todos os ambientes nos próximos 30 dias.
+   >
+   >Essa opção só está disponível para atributos de perfil, atributos contextuais e mídia dinâmica.
 
 No painel de navegação, recursos adicionais estão disponíveis para ajudar você a criar sua expressão de personalização.
 
