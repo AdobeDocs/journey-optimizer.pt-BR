@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
+source-git-commit: 5287b117a4fdba9912eb2bc7a1a2bfedcbda0b51
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '977'
 ht-degree: 46%
 
 ---
@@ -253,6 +253,9 @@ Os novos recursos que acompanham esta versão estão listados abaixo.
 
 ### Melhorias {#25-04-improv}
 
+**API de visualização de campanhas**
+
+Novas APIs estão disponíveis para visualizar campanhas, além dos recursos existentes de envio de prova. [Leia mais](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
 
 **Ferramentas de sandbox**
 
