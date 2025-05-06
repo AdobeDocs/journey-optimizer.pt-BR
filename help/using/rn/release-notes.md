@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 07b1ccfc0dec2a44db7607b294ab10b41e963658
+source-git-commit: 55717a2063a61c3eda62d0e09a0c67656c3e3bb1
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 47%
+source-wordcount: '929'
+ht-degree: 46%
 
 ---
 
@@ -26,7 +26,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 * **Ativação de pílulas para personalização** - Data de disponibilidade: 5 de maio de 2025
 
-  Um novo botão “Pílulas” foi adicionado ao editor de personalização. Quando ativados, o perfil e os atributos contextuais são exibidos como pílulas, melhorando a legibilidade do seu código. [Leia mais](../personalization/personalization-build-expressions.md#options)
+  Um novo botão &quot;Comprimidos&quot; foi adicionado ao editor de personalização. Quando ativados, o perfil e os atributos contextuais são exibidos como pílulas, melhorando a legibilidade do seu código. [Leia mais](../personalization/personalization-build-expressions.md#options)
 
   >[!AVAILABILITY]
   >
