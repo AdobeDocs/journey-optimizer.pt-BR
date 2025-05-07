@@ -10,9 +10,9 @@ level: Beginner
 keywords: email, iniciar, criação, visualização
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Entregas de email podem ser criadas:
 <a href="../content-management/generative-email.md">
 <img alt="Assistente de IA" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-email.md"><strong>Assistente de IA para Geração de Conteúdo</strong>
+<div><a href="../content-management/generative-email.md"><strong>Assistente de IA para geração de conteúdo</strong>
 </div>
 <p>
 </td>
@@ -95,13 +95,13 @@ Entregas de email podem ser criadas:
 <img alt="Personalize seu conteúdo" src="../assets/do-not-localize/personalize.jpg">
 </a>
 <div>
-<a href="../personalization/personalize.md"><strong>Personalizar seu conteúdo de email</strong></a>
+<a href="../personalization/personalize.md"><strong>Personalizar o conteúdo do email</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="../integrations/assets.md">
-<img alt="Combine suas soluções" src="../assets/do-not-localize/colors.jpeg">
+<img alt="Combinar soluções" src="../assets/do-not-localize/colors.jpeg">
 </a>
 <div>
 <a href="../integrations/assets.md"><strong>Combinar aplicativos e soluções da Adobe</strong></a>

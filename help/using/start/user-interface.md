@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1440'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Os principais conceitos de navegação nas interfaces comuns à Adobe Experience
 
 >[!NOTE]
 >
->* Os componentes e recursos disponíveis em seu ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
+>* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
 >
 >* Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
 >
@@ -90,7 +90,7 @@ Gerencie seus dados nesta seção.
 
 * **[!UICONTROL Consultas]** - use o serviço de consulta da Adobe Experience Platform para gravar e executar consultas, exibir consultas executadas anteriormente e acessar consultas salvas por usuários em sua organização. [Saiba mais](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoramento]** - use esse menu para monitorar a ingestão de dados na interface da Adobe Experience Platform. Saiba mais em [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=pt-BR){target="_blank"}
+* **[!UICONTROL Monitoramento]** - use esse menu para monitorar a ingestão de dados na interface da Adobe Experience Platform. Saiba mais em [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=pt-BR){target="_blank"}
 
 ### [!UICONTROL CONEXÕES] {#left-nav-connections}
 
@@ -134,7 +134,7 @@ Controle o gerenciamento de privacidade e as solicitações nesta seção.
 
 * **[!UICONTROL Alertas]** - a interface permite visualizar um histórico de alertas recebidos com base em métricas reveladas pelos Insights de observação da Adobe Experience Platform. A interface também permite visualizar, habilitar e desabilitar as regras de alerta disponíveis. [Saiba mais](../reports/alerts.md)
 
-* **[!UICONTROL Sandboxes]** - a Adobe Experience Platform fornece sandboxes que dividem uma única instância em ambientes virtuais separados para ajudar a desenvolver e evoluir aplicativos de experiência digital. Além disso, o [!DNL Journey Optimizer] permite que você use recursos de exportação e importação de pacotes para copiar objetos, como jornadas, modelos de conteúdo ou fragmentos, em várias sandboxes. [Saiba mais](../administration/sandboxes.md)
+* **[!UICONTROL Sandboxes]** - a Adobe Experience Platform fornece sandboxes que dividem uma única instância em ambientes virtuais separados para ajudar a desenvolver e evoluir aplicativos de experiência digital. Além disso, o [!DNL Journey Optimizer] permite que você use os recursos de exportação e importação de pacotes para copiar objetos como jornadas, modelos de conteúdo ou fragmentos, em várias sandboxes. [Saiba mais](../administration/sandboxes.md)
 
 * **[!UICONTROL Canais]**: use esta seção para configurar seus canais, incluindo subdomínios, configurações e definições de capacidade de entrega. [Saiba mais](../configuration/get-started-configuration.md)
 
@@ -262,5 +262,5 @@ Para alterar o idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
->title="Definir uma política de decisão"
->abstract="Uma política de decisão permite escolher os melhores itens do mecanismo de decisão e entregá-los ao público certo."
+>title="Defina uma política de decisão"
+>abstract="Uma política de decisão permite selecionar os melhores itens do mecanismo de decisão e entregá-los ao público-alvo correto."
