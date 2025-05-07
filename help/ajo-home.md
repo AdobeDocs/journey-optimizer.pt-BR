@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!TAB Versão de abril de 2025]
 
-A versão de abril está disponível. Confira as notas de versão para descobrir novos recursos, alterações e melhorias.
+A versão de abril está disponível! Confira as notas de versão para descobrir novos recursos, alterações e melhorias.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB integração com o Adobe Express]
+>[!TAB Integração do Adobe Express]
 
-O Adobe Journey Optimizer agora se integra ao Adobe Express, permitindo que você conecte facilmente seus ativos criativos ao jornada orchestration.
+O Adobe Journey Optimizer agora se integra ao Adobe Express, permitindo conectar facilmente ativos criativos à orquestração de jornada.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
@@ -36,7 +36,7 @@ O Adobe Journey Optimizer agora se integra ao Adobe Express, permitindo que voc�
 
 ✨ Mergulhe fundo em uma experiência prática com a prévia ao vivo do recurso [Assistente de IA](../help/using/content-management/gs-generative.md), projetado para permitir que você explore seus recursos em primeira mão e os entenda totalmente.
 
-[![saiba mais](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![Saiba mais](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Relatórios com o CJA]
 

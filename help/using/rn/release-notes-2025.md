@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ Para obter mais informações, consulte a [documentação detalhada](../test-app
 
 **Regras de negócios**
 
-Agora você pode usar o limite de frequência diário em jornadas e campanhas com segmentação em lote. Para garantir a precisão das regras diárias de limite de frequência, escolha o namespace de prioridade mais alta ao criar uma campanha ou jornada. Saiba mais sobre a prioridade de namespace no [guia do Platform Identity Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Agora você pode usar o limite de frequência diário em jornadas e campanhas com segmentação em lote. Para garantir a precisão das regras diárias de limite de frequência, escolha o namespace de prioridade mais alta ao criar uma campanha ou jornada. Saiba mais sobre a prioridade de namespace no [guia do serviço de identidade da plataforma](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Como lembrete, o limite de frequência diária em conjuntos de regras está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
@@ -196,7 +196,7 @@ Para obter mais informações sobre regras de negócios, consulte a [documenta�
 
 **Modelos de conteúdo**
 
-Os modelos de conteúdo do tipo HTML agora estão obsoletos. Observe que você ainda pode usar os modelos de conteúdo do HTML existentes criados anteriormente no [!DNL Journey Optimizer]. [Saiba mais sobre modelos de conteúdo](../content-management/content-templates.md)
+Os modelos de conteúdo do tipo HTML foram descontinuados. Observe que ainda é possível usar os modelos de conteúdo HTML criados anteriormente no [!DNL Journey Optimizer]. [Saiba mais sobre modelos de conteúdo](../content-management/content-templates.md)
 
 
 <!--**Deliverability**
@@ -237,13 +237,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Gerar páginas de aterrissagem com o Assistente de IA</strong><br/></th>
+<th><strong>Gerar páginas de destino com o Assistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode criar conteúdo atraente para suas páginas de aterrissagem, incluindo designs de página inteira, texto personalizado e visuais personalizados, com a ajuda do Assistente de IA.</p>
+<p>Com a ajuda do Assistente de IA, agora é possível criar um conteúdo atrativo para suas páginas de destino, incluindo designs de página inteira, texto e visuais personalizados.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Para obter mais informações, consulte a <a href="../content-management/generative-lp.md">documentação detalhada</a>.</p>
 </td>
@@ -255,7 +255,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Marcas com o AI Assistant (Beta)</strong><br/></th>
+<th><strong>Marcas com o Assistente de IA (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
