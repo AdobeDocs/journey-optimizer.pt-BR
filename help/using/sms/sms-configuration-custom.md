@@ -162,4 +162,4 @@ Depois que a credencial da API for criada, preencha os campos necessários para 
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443611?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)
