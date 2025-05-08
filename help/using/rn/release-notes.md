@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 72553cb3570b375b5bdf9cdebbfbf17e52c805da
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 46%
+source-wordcount: '985'
+ht-degree: 75%
 
 ---
 
@@ -17,12 +17,21 @@ ht-degree: 46%
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
->title="Novidades"
+>title="Novidades?"
 >abstract="O **Adobe Journey Optimizer** está sempre fornecendo novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão."
 
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão. O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
 ## Atualizações de maio de 2025 {#25-5-rn}
+
+* **Decisão - Novo construtor de fórmulas de IA** - Data de disponibilidade: 7 de maio de 2025
+
+  Agora é possível criar fórmulas de classificação específicas no serviço de decisão por definir e combinar critérios na nova interface aprimorada. As fórmulas de classificação permitem definir regras que determinarão quais itens de decisão deverão ser apresentados primeiro, em vez de considerar as pontuações de prioridade.
+
+  Para obter mais informações, consulte a [documentação detalhada](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)
+
 
 * **Ativação de pílulas para personalização** - Data de disponibilidade: 5 de maio de 2025
 
@@ -43,15 +52,15 @@ Os novos recursos que acompanham esta versão estão listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Editor do Personalization - Aprenda fazendo</strong><br/></th>
+<th><strong>Editor de personalização — Aprenda fazendo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Um playground de personalização agora está disponível, onde você pode experimentar expressões de personalização. Ele permite explorar modelos de amostra e cargas para ajudá-lo a começar e experimentar suas próprias expressões de personalização.</p>
+<p>Um playground de personalização agora está disponível, onde é possível experimentar expressões de personalização. Ele permite explorar modelos de amostra e conteúdos para ajudar a iniciar e testar suas próprias expressões de personalização.</p>
 <p>Para obter mais informações, consulte a <a href="../personalization/personalize.md#playground">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: sexta-feira, 24 de abril de 2025</p>
+<p>Data de disponibilidade: 24 de abril de 2025</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
 </td>
 </tr>
@@ -170,7 +179,7 @@ Os novos recursos que acompanham esta versão estão listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>O Adobe Journey Optimizer agora se integra ao Adobe Express, permitindo que você conecte facilmente seus ativos criativos à orquestração do jornada. Essa integração simplifica o processo de criação e implantação de conteúdo personalizado em campanhas. </p>
+<p>O Adobe Journey Optimizer agora se integra ao Adobe Express, permitindo conectar facilmente ativos criativos à orquestração de jornada. Essa integração simplifica o processo de criação e implantação de conteúdo personalizado em campanhas. </p>
 <p>No momento, essa integração não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>Para obter mais informações, consulte a <a href="../integrations/express.md">documentação detalhada</a>.</p>
@@ -188,7 +197,7 @@ Os novos recursos que acompanham esta versão estão listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Para jornadas programadas diariamente, uma nova opção permite definir uma janela de tempo de até 6 horas para aguardar os dados do público-alvo de trabalhos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas. A opção Acionar após avaliação de público-alvo em lote está disponível somente para um conjunto de organizações (Disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+<p>Para jornadas agendadas diariamente, uma nova opção permite definir uma janela de tempo de até 6 horas de espera para dados de público-alvo de trabalhos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas. A opção “Acionar após a avaliação de público-alvo em lote” está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#schedule">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -218,7 +227,7 @@ Os novos recursos que acompanham esta versão estão listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Pontuação de alinhamento da marca (Beta)</strong><br/></th>
+<th><strong>Pontuação de alinhamento à marca (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -266,9 +275,9 @@ Novas APIs estão disponíveis para visualizar campanhas, além dos recursos exi
 
 * **Ferramentas de sandbox para ações personalizadas**
 
-  As ações personalizadas agora são incluídas na lista de objetos do Adobe Journey Optimizer que podem ser copiados usando o recurso de ferramenta sandbox, simplificando o teste e a implantação. [Leia mais](../configuration/copy-objects-to-sandbox.md)
+  As ações personalizadas agora estão incluídas na lista de objetos do Adobe Journey Optimizer que podem ser copiados usando o recurso de ferramentas de sandbox, simplificando o teste e a implantação. [Leia mais](../configuration/copy-objects-to-sandbox.md)
 
-* **Ferramentas de sandbox para campanhas** - Data de disponibilidade: 3 de abril de 2025
+* **Ferramentas de sandbox para campanhas** — Data de disponibilidade: 3 de abril de 2025
 
   Agora é possível copiar campanhas em várias sandboxes usando recursos de exportação e importação de pacotes. As campanhas são copiadas junto com todos os itens relacionados ao perfil, público-alvo, esquema, mensagens em linha e objetos dependentes. Alguns itens não são copiados, como itens de decisão, rótulos de uso de dados e configurações de idioma. [Leia mais](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -276,9 +285,9 @@ Novas APIs estão disponíveis para visualizar campanhas, além dos recursos exi
 
 * **Novo atributo contextual**
 
-  Um novo atributo contextual, **Id de Perfil da Mensagem**, agora está disponível para seleção no editor de personalização. Este é um atributo orientado por mensagem que identifica exclusivamente cada mensagem enviada para cada perfil direcionado em um delivery. Esse identificador exclusivo pode ser usado, por exemplo, como um parâmetro de rastreamento de URL para distinguir cada link aberto ou clicado pelos recipients.
+  Um novo atributo contextual, **ID do perfil da mensagem**, agora está disponível para seleção no editor de personalização. Este é um atributo orientado por mensagem que identifica exclusivamente cada mensagem enviada para cada perfil direcionado em uma entrega. É possível usar esse identificador exclusivo, por exemplo, como um parâmetro de rastreamento de URL para distinguir cada link aberto ou clicado pelos destinatários.
 
-* **Atributos preenchidos no painel de atributos** - Data de disponibilidade: 2 de abril de 2025
+* **Atributos preenchidos no painel de atributos** — Data de disponibilidade: 2 de abril de 2025
 
   Por padrão, o painel de atributos no editor de personalização agora mostra apenas atributos preenchidos. Para exibir todos os atributos, use o botão de configurações para desativar a opção **[!UICONTROL Mostrar apenas atributos preenchidos]**. [Leia mais](../personalization/personalization-build-expressions.md)
 

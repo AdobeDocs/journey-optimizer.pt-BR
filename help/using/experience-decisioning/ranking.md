@@ -6,19 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 13%
+source-wordcount: '604'
+ht-degree: 5%
 
 ---
 
 # Métodos de classificação {#rankings}
-
->[!CONTEXTUALHELP]
->id="ajo_exd_config_formulas"
->title="Criar fórmulas de classificação"
->abstract="As fórmulas permitem definir regras que determinam qual item deve ser apresentado primeiro, ao invés de considerar a pontuação de prioridade do item. Depois que um método de classificação é criado, será possível atribuí-lo a uma estratégia de seleção para definir quais itens devem ser selecionados primeiro."
 
 Os métodos de classificação permitem classificar itens para exibição em um determinado perfil. Depois que um método de classificação é criado, será possível atribuí-lo a uma estratégia de seleção para definir quais itens devem ser selecionados primeiro.
 
@@ -42,7 +37,7 @@ Para criar um método de classificação, siga estas etapas:
 
    Informações detalhadas sobre como criar fórmulas de classificação e modelos de IA estão disponíveis na documentação da gestão de decisões:
 
-   * [Fórmulas de classificação](../offers/ranking/create-ranking-formulas.md)
+   * [Fórmulas de classificação](exd-ranking-formulas.md)
    * [Modelos de IA](../offers/ranking/ai-models.md)
 
    >[!NOTE]
@@ -63,7 +58,7 @@ Os modelos de otimização personalizados são um tipo de modelo de IA que permi
 
 Por padrão, os modelos de otimização personalizados usam **cliques de oferta** como métrica de otimização. Se você estiver trabalhando com o [!DNL Customer Journey Analytics], o [!DNL Decisioning] permitirá que você aproveite suas próprias métricas personalizadas para otimizar seu modelo.
 
-Para fazer isso, acesse a tela de criação do modelo de IA personalizado e expanda o menu suspenso **[!UICONTROL Evento de conversão]**. Todas as métricas da sua [!DNL Customer Journey Analytics] [visualização de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} padrão são exibidas na lista. Selecione a métrica em que deseja otimizar o modelo e conclua a criação do modelo de IA como de costume.
+Para fazer isso, acesse a tela de criação do modelo de IA personalizado e expanda o menu suspenso **[!UICONTROL Evento de conversão]**. Todas as métricas da sua [!DNL Customer Journey Analytics] [visualização de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} padrão são exibidas na lista. Selecione a métrica em que deseja otimizar o modelo e conclua a criação do modelo de IA como de costume.
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -73,13 +68,17 @@ Para fazer isso, acesse a tela de criação do modelo de IA personalizado e expa
 >
 >Embora seja possível modificar o modelo de atribuição, nem todos os modelos de atribuição são ideais para a otimização do modelo de IA. Recomendamos selecionar cuidadosamente um modelo de atribuição que se alinhe às suas metas de otimização para garantir a precisão e o desempenho do modelo.
 >
->Para obter mais detalhes sobre modelos de atribuição disponíveis e orientação sobre seu uso, consulte a [[!DNL Customer Journey Analytics] documentação](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+>Para obter mais detalhes sobre modelos de atribuição disponíveis e orientação sobre seu uso, consulte a [[!DNL Customer Journey Analytics] documentação](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
 +++
 
 ## Aproveitar atributos de itens de decisão em fórmulas {#items}
 
 As fórmulas de classificação são expressas em **sintaxe PQL** e podem aproveitar vários atributos, como atributos de perfil, [dados de contexto](context-data.md) e atributos relacionados aos seus itens de decisão.
+
+>[!NOTE]
+>
+>Para obter mais informações sobre como usar a sintaxe do PQL, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=pt-BR)
 
 Para aproveitar os atributos relacionados aos seus itens de decisão em fórmulas, siga a sintaxe abaixo no código da fórmula de classificação. Expanda cada seção para obter mais informações:
 
