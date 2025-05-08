@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 877a4d148966bf7d872f762ac78e5c725676a54f
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 21%
+source-wordcount: '1524'
+ht-degree: 23%
 
 ---
 
@@ -23,35 +23,6 @@ Para direcionar seus clientes para uma página da Web definida que você deseja 
 As principais etapas para criar landing pages são as seguintes:
 
 ![](assets/lp-creation-process.png)
-
-## Acessar páginas de destino {#access-landing-pages}
-
-Para acessar a lista de páginas de aterrissagem, selecione **[!UICONTROL Gestão de Conteúdo]** > **[!UICONTROL Páginas de aterrissagem]** no menu esquerdo.
-
-![](assets/lp_access-list.png)
-
-A lista **[!UICONTROL Páginas de Aterrissagem]** exibe todas as páginas de aterrissagem existentes. Você pode filtrá-los com base no status, data de modificação ou tags.
-
-![](assets/lp_access-list-filter.png)
-
-Nessa lista, também é possível acessar os relatórios de duplicar, excluir, cancelar a publicação de uma landing page ou acessar a landing page. Para isso, clique nos três pontos ao lado de uma landing page e selecione a ação desejada:
-
-![](assets/lp_access-list-actions.png)
-
-
-É possível:
-
-* Acesse os seguintes **relatórios** para páginas de aterrissagem publicadas: [relatório de página de aterrissagem](../reports/lp-report-global-cja.md) e [relatório de últimas 24 horas](../reports/lp-report-live.md).
-
-* **Excluir** ou **duplicar** uma página de aterrissagem. Você não pode excluir uma página de aterrissagem [publicada](#publish-landing-page). Para excluí-lo, primeiro você deve **desfazer a publicação** dele.
-
-* **Cancelar publicação** da página de aterrissagem.
-
-  >[!CAUTION]
-  >
-  >Se você cancelar a publicação de uma landing page referenciada em uma mensagem, o link para a landing page será corrompido e os usuários receberão uma página de erro se tentarem acessá-la.
-
-* Edite as [marcas](../start/search-filter-categorize.md#tags) associadas a uma página de aterrissagem.
 
 ## Criar uma página de destino {#create-landing-page}
 
