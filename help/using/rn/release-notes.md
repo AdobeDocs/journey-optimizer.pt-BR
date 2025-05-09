@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8c08461b82aea5680c3fa9631f5361b78daafe6
+source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 73%
+source-wordcount: '1022'
+ht-degree: 70%
 
 ---
 
@@ -24,18 +24,17 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 ## Atualizações de maio de 2025 {#25-5-rn}
 
+* **Pastas para páginas de destino** - Data de disponibilidade: sábado, 9 de maio de 2025
+
+  Para gerenciar facilmente suas páginas de aterrissagem, agora é possível usar pastas para organizá-las com mais eficiência em uma hierarquia simplificada.  [Leia mais](../landing-pages/manage-lp.md)
+
 * **Decisão - Novo construtor de fórmulas de IA** - Data de disponibilidade: 7 de maio de 2025
 
-  Agora é possível criar fórmulas de classificação específicas no serviço de decisão por definir e combinar critérios na nova interface aprimorada. As fórmulas de classificação permitem definir regras que determinarão quais itens de decisão deverão ser apresentados primeiro, em vez de considerar as pontuações de prioridade.
+  Agora é possível criar fórmulas de classificação específicas no serviço de decisão por definir e combinar critérios na nova interface aprimorada. Em vez de depender apenas de uma prioridade de oferta estática, você pode definir fórmulas de classificação personalizadas que combinam pontuações do modelo de IA, prioridades de oferta, atributos de perfil, atributos de oferta e sinais contextuais por meio de uma interface guiada.
 
   Para obter mais informações, consulte a [documentação detalhada](../experience-decisioning/exd-ranking-formulas.md)
 
   ![](assets/do-not-localize/formula-builder.gif)
-
-
-* **Pastas para páginas de destino** - Data de disponibilidade: quinta-feira, 7 de maio de 2025
-
-  Para gerenciar facilmente suas landing pages, agora você também pode usar pastas para organizá-las com mais eficiência em uma hierarquia simplificada.  [Leia mais](../landing-pages/manage-lp.md)
 
 * **Ativação de pílulas para personalização** - Data de disponibilidade: 5 de maio de 2025
 
