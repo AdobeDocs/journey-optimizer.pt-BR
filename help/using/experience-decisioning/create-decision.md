@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1777'
 ht-degree: 11%
 
 ---
@@ -246,6 +246,10 @@ Siga as etapas abaixo para finalizar sua experiência baseada em código e fazer
        }
    }
    ```
+
+   >[!CAUTION]
+   >
+   >Adicionar o sinalizador `dryRun` à sua solicitação impedirá que sejam capturados comentários para relatórios e contadores de frequência sejam adicionados ao.
 
 1. Para ver o desempenho de suas decisões, você pode criar [painéis de relatórios personalizados do Customer Journey Analytics](cja-reporting.md).
 
