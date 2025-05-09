@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing page, landing page, lista, assinatura, serviço
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
+source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 >id="ajo_subscription_list"
 >title="Configurar uma lista de assinaturas"
 >abstract="Crie uma lista de assinaturas para coletar perfis que aceitaram receber comunicações sobre um assunto ou evento específico. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html?lang=pt-BR#define-subscription-list" text="Criar uma lista de assinaturas"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="Criar uma lista de assinaturas"
 
 Um serviço de assinatura refere-se aos bens e serviços de marketing fornecidos aos clientes que optaram por receber comunicações sobre um assunto/evento/interesse/etc. específico. numa base contínua. No [!DNL Journey Optimizer], esses clientes aceitos estão reunidos em uma lista de assinaturas.
 
