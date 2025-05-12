@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
+source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -19,22 +19,22 @@ ht-degree: 0%
 
 Ao usar a Decisão em experiências baseadas em código, considere adicionar os seguintes sinalizadores à implementação do cliente nos casos descritos abaixo.
 
-## Teste de experiências baseadas em código usando decisões
+## Teste de experiências baseadas em código usando decisões {#code-based-test-decisions}
 
 Atualmente não é possível simular o conteúdo da interface do usuário em uma campanha ou jornada de [experiência baseada em código](create-code-based.md) usando decisões.
 
 Como solução alternativa, você pode testar a decisão depois de publicar sua campanha adicionando o sinalizador `dryRun` no bloco `data` do evento XDM na implementação do cliente:
 
     &quot;
-    &lbrace;
-    &quot;dados&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;dados&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;
 
 >[!CAUTION]
