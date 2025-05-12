@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: expressão, editor, início, personalização
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
+source-git-commit: 85fc6bdc6386f52374172d50667edeea5344011f
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 26%
+source-wordcount: '506'
+ht-degree: 25%
 
 ---
 
@@ -51,7 +51,7 @@ Esse playground fornece um ambiente simulado para gravar e testar o código de p
 
 ![playground de personalização](assets/playground.png)
 
-➡️ [Acessar o playground de personalização](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Acessar o playground de personalização](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Vamos nos aprofundar um pouco mais
 
@@ -97,9 +97,12 @@ Agora que você conhece a personalização no **[!DNL Journey Optimizer]**, é h
 
 Saiba como usar informações de evento contextual de uma jornada para personalizar uma mensagem.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448138?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Saiba como adicionar personalização baseada em perfil a uma mensagem e como usar a associação de público-alvo como pré-condição para um bloco de personalização.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417586?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
+Saiba como aproveitar o playground do editor de personalização para gravar e testar o código de personalização usando dados de amostra.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
