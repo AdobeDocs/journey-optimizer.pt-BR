@@ -26,15 +26,15 @@ Atualmente não é possível simular o conteúdo da interface do usuário em uma
 Como solução alternativa, você pode testar a decisão depois de publicar sua campanha adicionando o sinalizador `dryRun` no bloco `data` do evento XDM na implementação do cliente:
 
     &quot;
-    {
-    &quot;dados&quot;: {
-    &quot;__adobe&quot;: {
-    &quot;ajo&quot;: {
+    &lbrace;
+    &quot;dados&quot;: &lbrace;
+    &quot;__adobe&quot;: &lbrace;
+    &quot;ajo&quot;: &lbrace;
     &quot;dryRun&quot;: true
-    }
-    }
-    }
-    }
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &rbrace;
     &quot;
 
 >[!CAUTION]
