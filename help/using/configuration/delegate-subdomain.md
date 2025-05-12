@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdomínio, delegação, domínio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 229f335f4a5880bd310fe2d522ab6b3d3160d72b
 workflow-type: tm+mt
 source-wordcount: '2009'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -252,4 +252,4 @@ Depois que a solicitação for tratada pela Adobe, o domínio não delegado não
 
 Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342240?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
