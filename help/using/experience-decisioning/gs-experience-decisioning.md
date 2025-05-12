@@ -18,13 +18,13 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
 >title="O que é o serviço de decisão?"
->abstract="O serviço de decisão é um novo conjunto de ferramentas semelhante à gestão de decisões que seleciona os melhores itens do mecanismo de decisão para entregar a cada indivíduo. Ele exige configuração adicional para ser usado."
+>abstract="O serviço de decisão é um novo conjunto de ferramentas semelhante à gestão de decisões que seleciona os melhores itens do mecanismo de decisão para entregar a cada pessoa. Ele exige configuração adicional para ser usado."
 
 ## O que é a decisão {#about}
 
 O serviço de Decisão simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de escolha sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
 
-Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada através do [novo canal de experiência baseado em código](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/code-based-experience/get-started-code-based), agora acessível em campanhas do Journey Optimizer.
+Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada através do [novo canal de experiência baseado em código](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), agora acessível em campanhas do Journey Optimizer.
 
 >[!IMPORTANT]
 >
@@ -56,7 +56,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
    O usuário deve receber um email de redirecionamento para sua instância.
 
-   +++
++++
 
 1. **Configurar atributos personalizados**: adapte o catálogo de itens aos seus requisitos específicos, configurando atributos personalizados no esquema do catálogo.
 
