@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: c403769a872ac6b4720ec6aaae9eda5d68da96c5
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1679'
 ht-degree: 10%
 
 ---
@@ -22,6 +22,11 @@ ht-degree: 10%
 >id="ajo_journey_event_unitary"
 >title="Eventos unitários"
 >abstract="A configuração do evento permite definir as informações que o Journey Optimizer receberá como eventos. Você pode usar vários eventos (em diferentes etapas de uma jornada), e várias jornadas podem usar o mesmo evento. Os eventos unitários são vinculados a um perfil específico. Eles podem ser baseados em regras ou gerados pelo sistema."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_parameters_supplemental_identifier"
+>title="Usar identificador complementar"
+>abstract="O identificador complementar é um identificador secundário que fornece contexto adicional para a execução de uma jornada. Para defini-lo, selecione o campo a ser usado como o identificador complementar e escolha um namespace para associar a ele."
 
 Os eventos unitários são vinculados a um perfil específico. Eles podem ser baseados em regras ou gerados pelo sistema.  Leia mais sobre o evento unitário [esta seção](../event/about-events.md).
 
@@ -118,7 +123,7 @@ A definição de carga útil permite escolher as informações que o sistema esp
 >title="Tipo de identidade"
 >abstract="Selecione a chave para identificar o perfil do cliente associado ao evento."
 
-O tipo de identidade (anteriormente conhecido como &quot;namespace&quot;) permite definir o tipo de chave usada para identificar a pessoa associada ao evento. Sua configuração é opcional. Ela é necessária se você quiser recuperar, em suas jornadas, informações adicionais provenientes do [Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}. A definição do tipo de identidade não é necessária se você estiver usando apenas dados provenientes de um sistema de terceiros por meio de uma fonte de dados personalizada.
+O tipo de identidade (anteriormente conhecido como &quot;namespace&quot;) permite definir o tipo de chave usada para identificar a pessoa associada ao evento. Sua configuração é opcional. Isso é necessário se você quiser recuperar, em suas jornadas, informações adicionais provenientes do [Perfil de cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}. A definição do tipo de identidade não é necessária se você estiver usando apenas dados provenientes de um sistema de terceiros por meio de uma fonte de dados personalizada.
 
 Você pode criar um tipo de identidade existente ou criar um novo usando o Serviço de identidade da Adobe Experience Platform. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target="_blank"}.
 
@@ -140,9 +145,9 @@ Somente um tipo de identidade é permitido por jornada. Se você usar vários ev
 
 ## Definir o identificador do perfil {#define-the-event-key}
 
-A chave é o campo, ou combinação de campos, que faz parte dos dados de payload do evento e que permite que o sistema identifique a pessoa associada ao evento. A chave pode ser, por exemplo, a ID do Experience Cloud, uma ID do CRM ou um endereço de email.
+A chave é o campo, ou combinação de campos, que faz parte dos dados de payload do evento e que permite que o sistema identifique a pessoa associada ao evento. A chave pode ser, por exemplo, a Experience Cloud ID, uma ID do CRM ou um endereço de email.
 
-Para usar os dados armazenados no banco de dados do Perfil do Cliente em Tempo Real do Adobe, a chave do evento deve ser a informação definida como a identidade de um perfil no [Serviço de Perfil do Cliente em Tempo Real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
+Para usar os dados armazenados no banco de dados do Perfil de Cliente em Tempo Real da Adobe, a chave do evento deve ser a informação definida como a identidade de um perfil no [Serviço de Perfil de Cliente em Tempo Real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
 
 O identificador de perfil permite que o sistema execute a reconciliação entre o evento e o perfil do indivíduo. Se você selecionar um esquema que tenha uma identidade primária, os campos **[!UICONTROL Identificador de perfil]** e **[!UICONTROL Tipo de identidade]** serão preenchidos previamente. Se não houver identidade definida, _identityMap > id_ será a chave primária. Em seguida, você deve selecionar um tipo de identidade e a chave é automaticamente preenchida usando _identityMap > id_.
 
