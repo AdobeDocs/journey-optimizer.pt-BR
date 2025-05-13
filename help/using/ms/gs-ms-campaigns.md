@@ -1,44 +1,65 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução a campanhas orquestradas
+title: Introdução às campanhas orquestradas
 description: Saiba como começar com campanhas orquestradas
 badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 16%
+source-wordcount: '529'
+ht-degree: 21%
 
 ---
 
-# Introdução a campanhas orquestradas {#ms-camp}
+# Introdução às campanhas orquestradas {#ms-camp}
 
->[!BEGINSHADEBOX]
 
-**Índice**
++++Sumário
 
-* Configuração: [Configurar campanhas orquestradas](gs-campaign-config.md)
-* Configuração: [Criar esquemas relacionais](ms-schemas.md)
-* Crie sua primeira campanha orquestrada: [Princípios principais](gs-campaign-creation.md)
+Bem-vindo
+
+* Introdução às campanhas orquestradas
+* [Principais princípios](gs-campaign-creation.md)
+* [Etapas para criar campanhas orquestradas](gs-campaign-steps.md)
+
+
+Etapas de configuração
+
+* [Criar esquemas relacionais](ms-schemas.md)
+
+Etapas de criação
+
 * [Criar uma campanha orquestrada](create-ms-campaign.md)
 * [Definir configurações da campanha](ms-campaign-settings.md)
-* [Personalizar suas mensagens](ms-personalization.md)
-* [Criar consultas](ms-query-modeler.md)
-* [Testar e validar suas mensagens](ms-proofs.md)
 * [Agendar e iniciar suas campanhas](start-monitor-campaigns.md)
-* Atividades: [Introdução às atividades](activities/about-activities.md)
+* [Criar consultas](ms-query-modeler.md)
+
+Atividades
+
+* [Introdução a atividades](activities/about-activities.md)
 * [Orquestrar atividades](orchestrate-activities.md)
-* [And-join](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Eliminação de Duplicação](activities/deduplication.md) - [Ações de canal](activities/channels.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Divisão](activities/split.md) - &lt;!—[Teste](activities/test.md) —> [Espera](activities/wait.md)
-* Monitoramento: [Relatórios](reporting-campaigns.md)
+* [And-join](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Eliminação de Duplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Divisão](activities/split.md) - <!--[Test](activities/test.md) --> [Aguardar](activities/wait.md)
 
->[!ENDSHADEBOX]
 
-As campanhas orquestradas aprimoram o Adobe Journey Optimizer, introduzindo recursos robustos de campanhas em lote iniciadas pela marca, permitindo que você planeje e orquestre campanhas entre canais com estratégias avançadas de segmentação.
+Mensagens
+
+* [Ações do canal](activities/channels.md)
+* [Personalizar suas mensagens](ms-personalization.md)
+* [Testar e validar suas mensagens](ms-proofs.md)
+
+Relatórios e monitoramento
+
+* [Relatórios](reporting-campaigns.md)
+
++++
+
 
 ## O que é uma campanha orquestrada?
+
+As campanhas orquestradas aprimoram o Adobe Journey Optimizer, introduzindo recursos robustos de campanhas em lote iniciadas pela marca, permitindo que você planeje e orquestre campanhas entre canais com estratégias avançadas de segmentação.
 
 O marketing entre canais é essencial para qualquer empresa que deseje alcançar seus clientes com eficiência. O Adobe Journey Optimizer fornece um ambiente gráfico abrangente que permite criar processos complexos que podem ajudá-lo a gerenciar suas campanhas de marketing com facilidade. Com campanhas orquestradas, você pode orquestrar toda a gama de processos e tarefas, melhorar a velocidade e a escala de cada aspecto de suas campanhas de marketing, desde a criação de segmentos e preparação de mensagens até a entrega. Além disso, você pode sincronizar seus canais com uma interface única e fácil de usar para a orquestração de campanhas.
 
