@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -170,7 +170,7 @@ O gráfico **[!UICONTROL Taxa de conversão para tráfego de Retenção e Orient
 * **Controlado por modelo**: os usuários recebem conteúdo classificado pelo modelo de IA, otimizado para relevância e envolvimento.
 
 * **Contenção**: os usuários recebem conteúdo distribuído aleatoriamente durante a fase de exploração do modelo.
-<!--
+
 >[!CAUTION]
 >
->When using an AI model incorporated into a [ranking formula](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), data are not reflected in the Conversion rate report.-->
+>Ao usar um modelo de IA incorporado em uma [fórmula de classificação](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), os dados não são refletidos no relatório de Taxa de conversão.

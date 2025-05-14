@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 73%
+source-wordcount: '1085'
+ht-degree: 69%
 
 ---
 
@@ -24,17 +24,25 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 ## Atualizações de maio de 2025 {#25-5-rn}
 
+* **Temas no Designer de email (Beta)** - Data de disponibilidade: 14 de maio de 2025
+
+  Agora é possível aplicar rapidamente os temas de estilo pré-aprovados ao seu conteúdo de email para garantir a consistência da marca em todos os emails, acelerar o processo de criação de campanha e produzir emails de alta qualidade de forma independente e, ao mesmo tempo, reduzir a dependência das equipes de design. [Leia mais](../email/apply-email-themes.md)
+
+  >[!AVAILABILITY]
+  >
+  >No momento, esse recurso está na versão beta, disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.
+
+  ![](assets/do-not-localize/themes.gif)
+
+* **Decisão - Novo construtor de fórmulas de IA** - Data de disponibilidade: 14 de maio de 2025
+
+  Agora é possível criar fórmulas de classificação específicas no serviço de decisão por definir e combinar critérios na nova interface aprimorada. Em vez de depender apenas de uma prioridade de oferta estática, você pode definir fórmulas de classificação personalizadas que combinam pontuações do modelo de IA, prioridades de oferta, atributos de perfil, atributos de oferta e sinais contextuais por meio de uma interface guiada. [Leia mais](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)
+
 * **Pastas para páginas de destino** - Data de disponibilidade: sábado, 9 de maio de 2025
 
   Para gerenciar facilmente suas páginas de aterrissagem, agora é possível usar pastas para organizá-las com mais eficiência em uma hierarquia simplificada.  [Leia mais](../landing-pages/manage-lp.md)
-<!--
-* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
-
-  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
-  
-  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * **Ativação de pílulas para personalização** - Data de disponibilidade: 5 de maio de 2025
 
