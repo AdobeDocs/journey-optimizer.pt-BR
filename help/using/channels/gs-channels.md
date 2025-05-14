@@ -6,23 +6,22 @@ description: Saiba como trabalhar com canais de comunicação do  [!DNL Adobe Jo
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: bebc2ac362603f56b3c386ec972f274f87fa662f
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 81%
 
 ---
 
-# Introdução aos canais de comunicação do [!DNL Adobe Journey Optimizer] {#get-started-email}
+# Introdução a [!DNL Adobe Journey Optimizer] canais {#get-started-email}
 
 No cenário de marketing dinâmico de hoje, alcançar efetivamente seu público-alvo em várias plataformas é essencial para criar relacionamentos duradouros e impulsionar o engajamento. Esta seção fornece uma visão abrangente dos canais de comunicação disponíveis no [!DNL Adobe Journey Optimizer], ajudando a entender como utilizar cada canal de forma eficaz em suas estratégias de marketing.
 
+O Adobe Journey Optimizer oferece uma variedade de canais nativos para interagir com seu público de maneira eficaz. Você pode combinar entregas de mensagens de saída e experiências de entrada.
 
-O Adobe Journey Optimizer oferece uma variedade de canais de comunicação para interagir com seu público-alvo de maneira eficaz. É possível combinar canais de saída e de entrada.
+## Canais de saída para entrega de mensagens {#outbound-channels}
 
-## Canais de saída {#outbound-channels}
-
-Esses envolvem o envio de mensagens para clientes sem interação prévia. Os exemplos incluem campanhas de email e notificações por push, nos quais você entra em contato de forma proativa com seu público-alvo. No [!DNL Adobe Journey Optimizer], os canais de saída com suporte são:
+Os canais de delivery de mensagens de saída envolvem o envio de mensagens para clientes sem interação prévia. Os exemplos incluem campanhas de email e notificações por push, nos quais você entra em contato de forma proativa com seu público-alvo. No [!DNL Adobe Journey Optimizer], os canais de saída com suporte são:
 
 * **Email**: entregue mensagens personalizadas diretamente para as caixas de entrada dos seus clientes.
 * **SMS/MMS**: envie mensagens de texto para alcançar usuários em seus dispositivos móveis.
@@ -42,9 +41,9 @@ Selecione um canal para se aprofundar e descobrir como aproveitá-lo de maneira 
 <div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>Correspondência direta</strong></a></div></td>
 </tr></table>
 
-## Canais de entrada {#inbound-channels}
+## Experiências de entrada {#inbound-channels}
 
-Esses canais permitem aos clientes iniciar interações. Os exemplos incluem mensagens no aplicativo e interações baseadas na web, nos quais os usuários podem interagir com o conteúdo do seu jeito. No [!DNL Adobe Journey Optimizer], os canais de entrada com suporte são:
+Com experiências de entrada, os clientes iniciam interações. Os exemplos incluem mensagens no aplicativo e experiências baseadas na Web, em que os usuários podem se envolver com conteúdo de acordo com seus próprios termos. No [!DNL Adobe Journey Optimizer], os canais de entrada com suporte são:
 
 * **No aplicativo**: comunique-se com usuários em seu aplicativo móvel ou da web para aprimorar a experiência deles.
 * **Web**: use mensagens baseadas na web para interagir com usuários que navegam no seu site.
@@ -65,7 +64,7 @@ Selecione um canal para se aprofundar e descobrir como aproveitá-lo de maneira 
 </tr></table>
 
 
-## Uso de canais em jornadas e campanhas {#leverage}
+## Canais em jornadas e campanhas {#leverage}
 
 No Adobe Journey Optimizer, é possível usar os canais de comunicação em dois contextos principais:
 

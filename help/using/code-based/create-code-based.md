@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 10%
 
 ---
@@ -37,7 +37,7 @@ Para adicionar uma atividade de **experiência baseada em código** a uma jornad
 
    >[!NOTE]
    >
-   >Como a **experiência baseada em código** é uma atividade de mensagem de entrada, ela vem com uma atividade **Wait** de 3 dias. [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
+   >Como a **experiência baseada em código** é uma atividade de experiência de entrada, ela vem com uma atividade de **Aguardar** de 3 dias. [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Insira um **[!UICONTROL Rótulo]** e uma **[!UICONTROL Descrição]** para a mensagem.
 
@@ -123,4 +123,4 @@ Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar con
 
 O vídeo abaixo mostra como criar uma campanha de experiência baseada em código, configurar suas propriedades, testá-la e publicá-la.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449458/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

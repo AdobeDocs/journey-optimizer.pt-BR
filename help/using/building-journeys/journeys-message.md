@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 18%
+source-wordcount: '496'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Ação de canal integrada"
->abstract="O Journey Optimizer inclui recursos de ação de canal integrada. Você pode simplesmente adicionar à sua jornada uma atividade de saída (email, mensagem de texto (SMS/MMS), push) ou de entrada (no aplicativo, web, experiência baseada em código, cartão de conteúdo) e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
+>abstract="O Journey Optimizer inclui recursos de ação de canal integrada. Você pode simplesmente adicionar, à sua jornada, uma atividade de mensagem (email, mensagem de texto (SMS/MMS), push) ou experiência de entrada (no aplicativo, Web, experiência baseada em código, cartão de conteúdo) e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
 
 O [!DNL Journey Optimizer] vem com recursos de ação de canal incorporados que são usados para enviar mensagens: quando um perfil entra nessa atividade, uma mensagem é enviada a ele.
 
@@ -121,7 +121,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
 
 >[!NOTE]
 >
->* Cada atividade de mensagem de entrada vem com uma atividade de 3 dias **Aguardar**. [Saiba mais](wait-activity.md#auto-wait-node)
+>* Cada atividade de experiência de entrada vem com uma atividade de 3 dias **Aguardar**. [Saiba mais](wait-activity.md#auto-wait-node)
 >
 >* Para emails e notificações por push, é possível ativar a Otimização de tempo de envio. [Saiba mais](send-time-optimization.md)
 

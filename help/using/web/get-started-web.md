@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 64%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 O [!DNL Journey Optimizer] permite criar visualmente e entregar experiências personalizadas da Web para seus clientes.
 
-Por meio de uma interface visual intuitiva, esse recurso permite modificar suas propriedades da Web facilmente para experimentar, otimizar e personalizar suas campanhas de usuário final.
+Por meio de uma interface visual intuitiva, use o canal da Web para modificar facilmente suas propriedades da Web para experimentar, otimizar e personalizar suas campanhas de usuário final.
 
 ![](../rn/assets/do-not-localize/web-authoring.gif)
 
-Se já estiver usando canais de saída, como email, SMS ou notificações por push, agora é possível aproveitar o canal web de entrada para oferecer uma experiência verdadeiramente personalizada que se estenda por todos os canais.
+Se você já estiver usando canais de saída para entrega de mensagens, como email, SMS ou notificações por push, poderá aproveitar o canal de entrada da Web para oferecer uma experiência verdadeiramente personalizada que se estende por todos os canais.
 
 Após criar uma jornada ou campanha, selecione **Web** como ação e defina as configurações básicas. Para obter mais informações sobre como configurar a jornada/campanha, consulte esta [página](create-web.md#create-web-experience).
 

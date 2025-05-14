@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 19%
 
 ---
@@ -51,7 +51,7 @@ Para adicionar uma atividade **Web** a uma jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Como **Web** é uma atividade de mensagem de entrada, ela vem com uma atividade **Wait** de 3 dias. [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
+   >Como **Web** é uma atividade de experiência de entrada, ela vem com uma atividade **Wait** de 3 dias. [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Insira um **[!UICONTROL Rótulo]** e uma **[!UICONTROL Descrição]** para a mensagem.
 
@@ -241,4 +241,4 @@ Quando uma jornada ou campanha da Web está ativa, você pode interrompê-la par
 
 O vídeo abaixo mostra como criar uma campanha da Web, configurar suas propriedades, revisá-la e publicá-la.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449986/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

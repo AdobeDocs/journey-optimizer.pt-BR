@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
+source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 91%
+source-wordcount: '766'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ Com o Adobe Journey Optimizer, você pode gerenciar, manter e exportar facilment
 
 Você pode usar o Customer Journey Analytics para executar análises avançadas em dados gerados pelo Journey Optimizer.
 
-O Journey Optimizer armazena dados na Adobe Experience Platform e, junto com o Customer Journey Analytics, fornece uma visualização integral de todas as suas jornadas, campanhas e ofertas com distribuição automatizada de relatórios e visualizações personalizadas dos dados.
+O Journey Optimizer armazena dados na Adobe Experience Platform e, junto com o Customer Journey Analytics, fornece uma visualização integral de todas as jornadas, campanhas e ofertas com distribuição automatizada de relatórios e visualizações personalizadas dos dados.
 
 Depois de criar sua jornada no Journey Optimizer, o Customer Journey Analytics pode assimilar os dados da plataforma para iniciar os relatórios e entender o impacto de cada interação que um cliente tem com suas jornadas.
 
@@ -82,7 +82,7 @@ Saiba mais sobre o [Journey Optimizer + Campaign Standard](../building-journeys/
 
 Use os módulos do Adobe Journey Optimizer no Adobe Workfront para criar, ler, atualizar ou excluir registros, ou executar uma chamada de API personalizada para a API do Adobe Journey Optimizer.
 
-Uma visão geral da principal etapa dessa integração está disponível [nesta publicação do blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=pt){target="_blank"}.
+Uma visão geral da principal etapa dessa integração está disponível [nesta publicação do blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Saiba mais sobre o Journey Optimizer + Adobe Workfront [na documentação do Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=pt-BR){target="_blank"}.
 
@@ -90,7 +90,7 @@ Saiba mais sobre o Journey Optimizer + Adobe Workfront [na documentação do Ado
 
 Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que as jornadas enviem chamadas de API para um sistema de terceiros, use ações personalizadas para se conectar à sua jornada. Por exemplo, você pode conectar aos seguintes sistemas com ações personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase etc.
 
-As ações personalizadas são ações adicionais definidas por usuários técnicos e disponibilizadas aos profissionais de marketing. Uma vez configuradas, elas são exibidas na paleta esquerda da jornada na categoria **[!UICONTROL Ação]**. Saiba mais sobre [esta página](../building-journeys/about-journey-activities.md#action-activities).
+As ações personalizadas são ações adicionais definidas por usuários técnicos e disponibilizadas aos profissionais de marketing. Uma vez configuradas, elas são exibidas na paleta esquerda da jornada na categoria **[!UICONTROL Ação]**. Saiba mais [nesta página](../building-journeys/about-journey-activities.md#action-activities).
 
 Saiba mais sobre [Ações personalizadas](../action/about-custom-action-configuration.md).
 
