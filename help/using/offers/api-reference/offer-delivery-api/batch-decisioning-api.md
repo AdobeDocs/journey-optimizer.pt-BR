@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '729'
 ht-degree: 4%
 
 ---
@@ -24,13 +24,13 @@ Para fazer isso, a organização deve:
 
 * Execute a API [!DNL Batch Decisioning], que contém duas solicitações:
 
-   1. Uma **Solicitação POST de lote** para iniciar uma carga de trabalho para processar em lote as seleções de ofertas.
+   1. Uma **solicitação POST em lote** para iniciar uma carga de trabalho para processar em lote seleções de ofertas.
 
    2. Uma **Solicitação de GET em lote** para obter o status da carga de trabalho em lote.
 
 * Exportar o conjunto de dados para a API do fornecedor de delivery de mensagens.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=pt-BR) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -104,7 +104,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:activityId` | O identificador exclusivo da decisão. |
 | `xdm:dataSetId` | O dataSet de saída no qual os eventos de decisão podem ser gravados. | `6196b4a1a63bd118dafe093c` |
-| `xdm:enrichedAudience` | Adicione esse parâmetro e defina-o como &quot;true&quot; se você estiver direcionando um público-alvo de CSV | `true` |
 | `xdm:includeContent` | Este é um campo opcional e é `false` por padrão. Se `true`, o conteúdo da oferta será incluído nos eventos de decisão do conjunto de dados. | `false` |
 | `xdm:itemCount` | Este campo é opcional e mostra o número de itens, como opções solicitadas para o escopo da decisão. Por padrão, a API retorna uma opção por escopo, mas você pode solicitar mais opções explicitamente especificando esse campo. É possível solicitar no mínimo 1 e no máximo 30 opções por escopo. | `1` | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | O identificador de posicionamento exclusivo. | `xcore:offer-placement:1410c4117306488a` |
@@ -133,7 +132,7 @@ Consulte a [documentação do Gerenciamento de decisões](../../get-started/star
 
 ## Recuperar informações sobre uma decisão em lote {#retrieve-information-on-a-batch-decision}
 
-Para recuperar informações sobre uma decisão específica, faça uma solicitação GET para o ponto de extremidade `/workloads/decisions` enquanto fornece o valor da ID da carga de trabalho correspondente para a sua decisão.
+Para recuperar informações sobre uma decisão específica, faça uma solicitação do GET para o ponto de extremidade `/workloads/decisions` enquanto fornece o valor da ID da carga de trabalho correspondente para a sua decisão.
 
 **Formato da API**
 
