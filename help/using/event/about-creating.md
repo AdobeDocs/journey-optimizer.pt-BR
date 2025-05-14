@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c403769a872ac6b4720ec6aaae9eda5d68da96c5
+source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 10%
+source-wordcount: '1733'
+ht-degree: 9%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 10%
 >id="ajo_journey_event_unitary"
 >title="Eventos unitários"
 >abstract="A configuração do evento permite definir as informações que o Journey Optimizer receberá como eventos. Você pode usar vários eventos (em diferentes etapas de uma jornada), e várias jornadas podem usar o mesmo evento. Os eventos unitários são vinculados a um perfil específico. Eles podem ser baseados em regras ou gerados pelo sistema."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_parameters"
+>title="Parâmetros"
+>abstract="Defina os parâmetros do evento, como os campos schema e payload. Para eventos baseados em regras, use o campo **[!UICONTROL Condição de ID de evento]** para definir a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada. Adicione um tipo de identidade e um identificador de perfil para usar no evento."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
