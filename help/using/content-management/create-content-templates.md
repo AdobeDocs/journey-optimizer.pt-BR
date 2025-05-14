@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '661'
 ht-degree: 16%
 
 ---
@@ -80,6 +80,10 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
    ![](assets/content-template-back.png)
 
 Este modelo agora está pronto para ser usado na compilação de qualquer conteúdo em [!DNL Journey Optimizer]. [Saiba como](#use-content-templates)
+
+>[!NOTE]
+>
+>Ao criar um modelo de conteúdo de email, para aplicar rapidamente um estilo específico que se ajuste à sua marca e design, você pode aplicar um tema ao seu conteúdo. [Saiba mais](../email/apply-email-themes.md)
 
 ## Salvar conteúdo como modelo de conteúdo {#save-as-template}
 

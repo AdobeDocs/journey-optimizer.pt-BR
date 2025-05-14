@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: email, importação, conteúdo, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
 # Importar o conteúdo do email {#existing-content}
 
-O [!DNL Journey Optimizer] permite importar conteúdo de HTML existente para criar seus emails. Esse conteúdo pode ser:
+O [!DNL Journey Optimizer] permite importar conteúdo existente do HTML para criar seus emails. Esse conteúdo pode ser:
 
 * Um **arquivo HTML** com uma folha de estilos incorporada;
 * Uma pasta **.zip** incluindo um arquivo HTML, a folha de estilos (.css) e as imagens.
@@ -29,7 +29,7 @@ O [!DNL Journey Optimizer] permite importar conteúdo de HTML existente para cri
 
 Para importar um arquivo contendo conteúdo HTML, siga as etapas abaixo:
 
-1. Na página inicial do Designer de email, selecione **[!UICONTROL Importar HTML]**.
+1. Na página inicial do Designer de Email, selecione **[!UICONTROL Importar HTML]**.
 
    ![](assets/import-html_2.png)
 
@@ -37,7 +37,7 @@ Para importar um arquivo contendo conteúdo HTML, siga as etapas abaixo:
 
    ![](assets/html-imported_2.png)
 
-1. Assim que o conteúdo do HTML for carregado, seu conteúdo estará no **[!UICONTROL Modo de compatibilidade]**.
+1. Depois que o conteúdo do HTML for carregado, ele estará no **[!UICONTROL Modo de compatibilidade]**.
 
    Nesse modo, você só pode personalizar seu texto, adicionar links ou incluir ativos ao seu conteúdo.
 
@@ -47,11 +47,11 @@ Para importar um arquivo contendo conteúdo HTML, siga as etapas abaixo:
 
    >[!NOTE]
    >
-   > Usar uma marca `<table>` como a primeira camada em um arquivo de HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
+   > Usar uma marca `<table>` como a primeira camada em um arquivo do HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
 
-1. Agora você pode personalizar seu arquivo importado conforme necessário com as funcionalidades de email do Designer [Saiba mais](content-from-scratch.md).
+1. Agora você pode personalizar o arquivo importado, conforme necessário, com as funcionalidades de Designer de email. [Saiba mais](content-from-scratch.md)
 
-## Vídeo tutorial {#video}
+## Vídeo explicativo {#video}
 
 Saiba como importar conteúdo HTML existente, ajustar o design, adicionar mirror page e links para cancelar a inscrição e codificar o conteúdo.
 
