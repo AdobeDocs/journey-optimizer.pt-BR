@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 86%
@@ -67,15 +67,13 @@ Os principais recursos incluem:
 
 Entenda a arquitetura básica do [!DNL Adobe Journey Optimizer], os pontos de integração e a relação entre [!DNL Journey Optimizer] e [!DNL Experience Platform] no diagrama abaixo.
 
-O Adobe Experience Platform é uma base de dados poderosa, flexível, aberta e centralizada que coleta, padroniza, governa, aplica insights de IA e unifica dados para oferecer clientes digitais relevantes e relevantes
-experiências.
+O Adobe Experience Platform é uma base de dados poderosa, flexível, aberta e centralizada que coleta, padroniza, governa, aplica insights de IA e unifica dados para oferecer experiências de cliente digitais relevantes e relevantes.
 
 ![](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
 
 Quatro aplicativos são criados nativamente no Experience Platform: Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics e Adobe Mix Modeler.
 
-A funcionalidade e os serviços principais da Journey Optimizer operam a partir dos componentes essenciais da Adobe Experience Platform, que incluem o Perfil do cliente em tempo real. Embora o Journey Optimizer funcione perfeitamente e seja interoperável com a Real-Time CDP e o Customer Journey Analytics, ele pode
-também funcionam de forma independente como um aplicativo independente.
+A funcionalidade e os serviços principais da Journey Optimizer operam a partir dos componentes essenciais da Adobe Experience Platform, que incluem o Perfil do cliente em tempo real. Embora o Journey Optimizer funcione perfeitamente e seja interoperável com a Real-Time CDP e o Customer Journey Analytics, ele também pode funcionar de forma independente como um aplicativo independente.
 
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
