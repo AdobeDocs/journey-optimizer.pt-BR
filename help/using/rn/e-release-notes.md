@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7cf80dbe76fc46cc965595fcc409e81e400983fd
+source-git-commit: 3f22c2cd744cb9016f48a5df46c0c903ccce617d
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 27%
+source-wordcount: '1504'
+ht-degree: 25%
 
 ---
 
@@ -44,7 +44,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>Agora é possível acionar execuções diárias de jornada após a conclusão da segmentação em lote. Essa opção agora está disponível em jornadas programadas diariamente para todos os clientes. Ele permite definir um período de até 6 horas para aguardar os dados do público-alvo de trabalhos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou ignoradas, se não estiverem prontas.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral)</p>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
 </tr>
 </tbody>
@@ -119,7 +119,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <li>Modifique as configurações de ativos, como largura e altura, instantaneamente.</li>
 <li>Personalize modelos do Dynamic Media atualizando o conteúdo e adicionando campos de personalização.</li>
 </ul>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral)</p>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
 </tr>
 </tbody>
@@ -153,7 +153,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>No Journey Optimizer, gerenciar o volume e o momento certo para uso de campanhas e jornadas é essencial para não sobrecarregar clientes com muitas interações. O Journey Optimizer agora oferece várias ferramentas para o gerenciamento de conflitos e a priorização - antes disponíveis apenas para organizações de acesso limitado (DL) - que agora estão disponíveis no mercado (GA).</p>
-<p>Com essa disponibilidade geral, foram introduzidos os seguintes aprimoramentos:</p>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Com esta versão de Disponibilidade Geral, foram introduzidos os seguintes aprimoramentos:</p>
 <ul>
 <li>Suporte estendido: as ferramentas de gerenciamento de conflitos agora oferecem suporte às Jornadas de Jornadas unitárias e qualificação de público-alvo, além das jornadas Ler público-alvo.</li>
 <li>Solução de problemas aprimorada: dois novos campos de evento de etapa estão disponíveis no Serviço de consulta, permitindo analisar por que um perfil foi rejeitado de uma jornada ou campanha.</li>
@@ -167,14 +167,14 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Simular variações de conteúdo (disponibilidade geral)</strong><br/></th>
+<th><strong>Simular variações de conteúdo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Anteriormente disponível na versão beta, a simulação de variações de conteúdo agora está em disponibilidade geral. Ela permite visualizar diferentes variantes de conteúdo a partir de dados de entrada de amostra enviados de um arquivo CSV ou JSON, ou adicionados manualmente. Todos os atributos usados no conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados nos testes para criar diversas variantes.</p>
-<p>Com a versão de disponibilidade geral, o recurso agora inclui suporte para conteúdo multilíngue e experimentos de conteúdo, permitindo testar variações em diferentes idiomas e tratamentos. Além disso, agora ele é compatível com atributos contextuais (além dos atributos de perfil), permitindo testes de conteúdo ainda mais dinâmicos e específicos.</p>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Com esta versão de Disponibilidade Geral, o recurso agora inclui suporte para conteúdo multilíngue e experimentos de conteúdo, permitindo que você teste variações em diferentes idiomas e tratamentos. Além disso, agora ele é compatível com atributos contextuais (além dos atributos de perfil), permitindo testes de conteúdo ainda mais dinâmicos e específicos.</p>
 <img src="assets/do-not-localize/variants.gif">
 </td>
 </tr>
@@ -207,7 +207,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <td>
 <p>O Journey Optimizer agora permite configurar provedores de SMS adicionais além das opções padrão: Sinch, Infobip e Twilio. Com a configuração personalizada do provedor SMS, você pode integrar diretamente provedores de terceiros, aproveitar a personalização avançada de carga para mensagens dinâmicas e gerenciar preferências de consentimento (aceitação/recusa) para garantir a conformidade.</p>
 <p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p></td>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral)</p>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
 </tr>
 </tbody>
@@ -227,9 +227,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 </tr>
 </tbody>
 </table>
-
-
-
 
 
 ### Melhorias {#25-05-improv}
@@ -263,7 +260,7 @@ Para gerenciar facilmente as landing pages, agora é possível usar pastas para 
 * Suporte para &#39;Redirecionar para URL&#39; de **no canal da Web**\
   O canal da Web do Journey Optimizer agora permite redirecionar os visitantes para outro URL existente, em vez de criar uma nova variação no editor visual. Esse recurso pode ser usado para executar experimentos comparando duas páginas completamente diferentes, em vez de apenas alterar alguns elementos em uma página.
 
-* **Ferramentas de sandbox - Suporte a novos objetos do Campaigns (fase 1)**\
+* **Ferramentas de sandbox - Novo suporte a objetos de campanhas**\
   Ao copiar campanhas em várias sandboxes usando os recursos de exportação e importação de pacotes, as seguintes dependências também são copiadas: configurações de canal, variantes e configurações de experimento, políticas de decisão e itens.
 
 * **Painel direito na lista de campanhas**\
