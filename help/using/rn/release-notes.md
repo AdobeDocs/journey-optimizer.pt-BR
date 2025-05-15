@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1135'
 ht-degree: 66%
 
 ---
@@ -318,9 +318,7 @@ Novas APIs estão disponíveis para visualizar campanhas, além dos recursos exi
 
 **Livros de reprodução do caso de uso**
 
-* **Criação e compartilhamento de manuais de reprodução (beta privado)** - Agora você pode criar, gerenciar e compartilhar seus próprios manuais de casos de uso. No momento, esse recurso só está disponível para um conjunto de organizações como um beta privado. Para obter acesso, entre em contato com o(a) representante da Adobe.
-
-todos os clientes como um beta público. [Leia mais](../start/playbooks.md)
+* **Criação e compartilhamento de manuais de reprodução (beta privado)** - Agora você pode criar, gerenciar e compartilhar seus próprios manuais de casos de uso. No momento, esse recurso só está disponível para um conjunto de organizações como um beta privado. Para obter acesso, entre em contato com o representante da Adobe. [Leia mais](../start/playbooks.md)
 
 **Navegação**
 
