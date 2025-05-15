@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: Temas de email, Módulos, Reutilização, Consistência de marca, Design de email, CSS personalizado, Otimização móvel
-source-git-commit: d550765b378bfa2fdf0638da01c297792e0876ef
+exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
+source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 3%
 
 ---
-
 
 # Aplicar temas ao seu conteúdo de email {#apply-email-themes}
 
@@ -60,7 +60,7 @@ Key Benefits:
 
 * Se estiver usando um conteúdo criado no HTML, você estará no [modo de compatibilidade](existing-content.md) e não poderá aplicar temas a esse conteúdo.
 
-  Para aproveitar totalmente todas as capacidades do Designer de email, incluindo temas, você deve criar um novo conteúdo no modo Tema ou converter o conteúdo do HTML importado. [Saiba mais](existing-content.md)
+  Para aproveitar totalmente todos os recursos do Designer de email, incluindo temas, você deve criar um novo conteúdo no modo Tema ou converter o conteúdo do HTML importado. [Saiba mais](existing-content.md)
 
 <!--If using a content created in Classic mode or HTML, you cannot apply themes to this content. You must create a new content in Theme mode.
 
@@ -172,5 +172,3 @@ Você pode alternar temas a qualquer momento. O conteúdo do email permanece ina
 
 ### 2. Switching Themes
 - A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.-->
-
-
