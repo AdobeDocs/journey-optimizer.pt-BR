@@ -27,7 +27,7 @@ O [!DNL Journey Optimizer] permite personalizar a experiência da Web fornecida 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Criar uma regra de correspondência de páginas"
->abstract="Uma regra de correspondência de páginas permite direcionar vários URLs que correspondem à mesma regra, por exemplo, se você deseja aplicar as alterações em um banner principal no site inteiro ou adicionar uma imagem superior que é exibida em todas as páginas de produtos de um site."
+>abstract="Uma regra de correspondência de páginas permite direcionar vários URLs que correspondem à mesma regra, por exemplo, se você deseja aplicar as alterações em um banner hero no site inteiro ou adicionar uma imagem superior que é exibida em todas as páginas de produtos de um site."
 
 Para começar a criar sua experiência da Web por meio de uma campanha ou jornada, siga as etapas abaixo.
 
@@ -241,4 +241,4 @@ Quando uma jornada ou campanha da Web está ativa, você pode interrompê-la par
 
 O vídeo abaixo mostra como criar uma campanha da Web, configurar suas propriedades, revisá-la e publicá-la.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449986/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

@@ -9,11 +9,11 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
-# Agendar e iniciar suas campanhas orquestradas {#start-monitor}
+# Agendar e iniciar campanhas orquestradas {#start-monitor}
 
 
 
@@ -28,8 +28,8 @@ Depois de criar as tarefas orquestradas e projetadas para execução na tela, é
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
->title="Atividade Scheduler"
->abstract="O **Scheduler** da campanha permite agendar quando a campanha orquestrada será iniciada. Esta atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade da campanha orquestrada."
+>title="Atividade scheduler"
+>abstract="A campanha **scheduler** permite agendar quando a campanha orquestrada será iniciada. Esta atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade da campanha orquestrada."
 
 Como gerente de campanha, você pode agendar campanhas para serem iniciadas automaticamente em horários específicos, permitindo um tempo preciso e dados de direcionamento precisos para comunicações de marketing.
 
@@ -39,7 +39,7 @@ Como gerente de campanha, você pode agendar campanhas para serem iniciadas auto
 * Se quiser enviar uma mensagem instantânea na sua campanha orquestrada, você pode configurá-la para ser executada **Uma vez**.
 * Para enviar uma mensagem recorrente em sua campanha orquestrada, use as opções de **Agendamento** e defina a frequência de execução. A atividade recorrente de delivery não permite definir um agendamento.
 
-### Configurar o agendamento da campanha {#scheduler-configuration}
+### Configurar a campanha agendada {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
@@ -130,7 +130,7 @@ Os indicadores visuais no canto superior direito de cada caixa de atividade perm
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logs e tarefas"
->abstract="A tela **Logs and tasks** fornece um histórico da execução de campanha orquestrada, registrando todas as ações de usuário e encontrando erros."
+>abstract="A tela **Logs e tarefas** fornece um histórico da execução da campanha orquestrada, registrando todas as ações do usuário e erros encontrados."
 
 O monitoramento de logs e tarefas é uma etapa essencial para analisar campanhas orquestradas e garantir que elas estejam sendo executadas corretamente. Eles podem ser acessados pelo ícone **[!UICONTROL Logs]**, que está disponível na barra de ferramentas de ações e no painel de propriedades de cada atividade.
 

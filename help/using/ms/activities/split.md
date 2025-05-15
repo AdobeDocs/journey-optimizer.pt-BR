@@ -10,7 +10,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '999'
-ht-degree: 79%
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ A atividade de **Divisão** é uma atividade de **Direcionamento** que permite s
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="Segmentos para atividade de divisão"
->abstract="Adicione quantos subconjuntos desejar para segmentar a população recebida.<br/></br>Quando a atividade **Divisão** é executada, a população é segmentada nos diferentes subconjuntos na ordem em que são adicionados à atividade. Antes de iniciar sua campanha orquestrada, certifique-se de ter solicitado os subconjuntos na ordem que atenda às suas necessidades usando os botões de seta."
+>abstract="Adicione quantos subconjuntos desejar para segmentar a população recebida.<br/></br>Quando a atividade **Divisão** é executada, a população é segmentada nos diferentes subconjuntos na ordem em que são adicionados à atividade. Antes de iniciar a campanha orquestrada, certifique-se de organizar os subconjuntos em uma ordem que atenda às suas necessidades usando os botões de seta."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
@@ -75,7 +75,7 @@ Siga estas etapas para configurar a atividade de **Divisão**:
 
    >[!IMPORTANT]
    >
-   >Quando a atividade **Split** é executada, a população é segmentada nos diferentes subconjuntos na ordem em que são adicionados à atividade. Por exemplo, se o primeiro subconjunto recuperar 70% da população inicial, o próximo subconjunto adicionado aplicará seus critérios de seleção somente aos 30% restantes e assim por diante.
+   >Quando a Atividade de **divisão** é executada, a população é segmentada nos diferentes subconjuntos na ordem em que são adicionados à atividade. Por exemplo, se o primeiro subconjunto recuperar 70% da população inicial, o próximo subconjunto adicionado aplicará seus critérios de seleção somente aos 30% restantes e assim por diante.
    >
    >Antes de iniciar a campanha orquestrada, verifique se você solicitou os subconjuntos na ordem que atende às suas necessidades. Para fazer isso, use os botões de seta para alterar a posição de um subconjunto.
 

@@ -10,7 +10,7 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 2%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Lista de campanhas orquestradas"
->abstract="A guia **várias etapas** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada."
+>abstract="A guia **várias etapas** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada. "
 
 ## Pré-requisitos
 
@@ -48,19 +48,19 @@ Para criar uma campanha orquestrada, siga estas etapas:
 
 Sua campanha orquestrada agora está criada e disponível na lista de workflows. Agora é possível acessar a tela visual e começar a adicionar, configurar e orquestrar as tarefas que serão executadas. [Saiba como organizar atividades de campanha orquestradas](orchestrate-activities.md).
 
-## Trabalhar com modelos de campanha orquestradas {#campaign-templates}
+## Trabalhar com modelos de campanha orquestrada {#campaign-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_for_campaign"
->title="Modelos de campanha orquestradas"
->abstract="Os templates de campanha orquestrados contêm configurações e atividades pré-configuradas que podem ser reutilizadas para criar uma nova campanha orquestrada."
+>title="Modelos de campanha orquestrada"
+>abstract="Os modelos de campanha orquestrada contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novas campanhas orquestradas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_creation_properties"
 >title="Propriedades da campanha orquestrada"
->abstract="Os templates de campanha orquestrados contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novas campanhas orquestradas. Nesta tela, insira o rótulo do template de campanha orquestrada e defina as configurações, como o nome interno, a pasta e as pastas de execução, o fuso horário e o grupo supervisor."
+>abstract="Os modelos de campanha orquestrada contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novas campanhas orquestradas. Nessa tela, insira o rótulo do modelo da campanha orquestrada e defina suas configurações, como nome interno, pasta, pastas de execução, fuso horário e grupo de supervisão."
 
-Os templates de campanha orquestrados contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novas campanhas orquestradas. Você pode selecionar o template da sua campanha orquestrada nas propriedades da campanha orquestrada, ao criar uma campanha orquestrada. Um template vazio é fornecido por padrão.
+Os modelos de campanha orquestrada contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novas campanhas orquestradas. Você pode selecionar o template da sua campanha orquestrada nas propriedades da campanha orquestrada, ao criar uma campanha orquestrada. Um template vazio é fornecido por padrão.
 
 Você pode criar um modelo a partir de uma campanha orquestrada existente ou criar um novo modelo do zero. Ambos os métodos são detalhados abaixo.
 

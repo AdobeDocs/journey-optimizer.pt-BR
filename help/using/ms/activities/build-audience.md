@@ -10,7 +10,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 34%
+ht-degree: 52%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Atividade Criar público-alvo"
->abstract="A atividade **Criar público-alvo** permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**."
+>abstract="A atividade **Criar público-alvo** permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade de canal e sim na atividade **Criar público-alvo**."
 
 Como profissional de marketing, você pode criar consultas complexas facilmente usando uma interface amigável, permitindo que segmente seu público com base em uma grande variedade de critérios e comportamentos para adaptar suas campanhas com mais eficiência.
 
-Para fazer isso, use a atividade de direcionamento **Criar público**. Essa atividade permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade de canal, mas na atividade **Criar público-alvo**.
+Para fazer isso, use a atividade de direcionamento **Criar público**. Essa atividade permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade de canal e sim na atividade **Criar público-alvo**.
 
 Para definir o público-alvo, você pode:
 

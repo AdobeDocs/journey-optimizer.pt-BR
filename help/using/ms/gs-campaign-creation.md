@@ -10,7 +10,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="Campanha orquestrada"
->abstract="Nesta tela, você pode acessar a lista completa de campanhas orquestradas, verificar seu status atual, datas de última/próxima execução e criar uma nova campanha orquestrada."
+>abstract="Nesta tela, é possível acessar a lista completa de campanhas orquestradas, verificar o status atual, as datas da última/próxima execução e criar uma nova campanha orquestrada."
 
 Você pode criar campanhas orquestradas em uma tela visual para projetar processos entre canais, como segmentação, execução de campanha e processamento de arquivos.
 

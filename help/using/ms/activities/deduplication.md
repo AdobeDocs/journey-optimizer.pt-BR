@@ -23,7 +23,7 @@ ht-degree: 57%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication"
->title="Atividade Desduplicação"
+>title="Atividade de desduplicação"
 >abstract="A atividade **Desduplicação** permite excluir duplicatas nos resultados das atividades de entrada. Ela é usada principalmente após atividades de direcionamento e antes de atividades que permitem o uso de dados direcionados."
 
 >[!CONTEXTUALHELP]

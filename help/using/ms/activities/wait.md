@@ -18,7 +18,7 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_wait"
->title="Atividade Aguardar"
+>title="Atividade aguardar"
 >abstract="A atividade **Aguardar** é usada para atrasar a transição de uma atividade para outra."
 
 A atividade **Aguardar** é uma atividade de **Controle de fluxo**. Ela é usada para permitir que um determinado período transcorra entre duas atividades que estão sendo executadas. Por exemplo, a espera de vários dias após uma atividade de entrega de email para depois analisar as aberturas e os cliques gerados durante esse período antes de executar qualquer operação de acompanhamento (email de lembrete, criação de público-alvo, etc.).

@@ -10,11 +10,11 @@ exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 source-git-commit: b620d479548791df97912b143e7dbe7557ab4acc
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 27%
+ht-degree: 32%
 
 ---
 
-# Sobre atividades de campanha orquestradas {#ms-campaign-activities}
+# Sobre atividades de campanha orquestrada {#ms-campaign-activities}
 
 As atividades de campanha orquestradas são agrupadas em três categorias. Dependendo do contexto, as atividades disponíveis podem ser diferentes.
 
@@ -49,7 +49,7 @@ O Adobe Journey Optimizer permite automatizar e executar campanhas de marketing 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Atividade de término"
->abstract="A atividade **End** permite marcar graficamente o fim de uma campanha orquestrada. Essa atividade não tem impacto funcional e, portanto, é opcional."
+>abstract="A Atividade de **término** permite marcar graficamente o fim de uma campanha orquestrada. Essa atividade não tem impacto funcional e, portanto, é opcional."
 
 ![Lista de atividades de controle de fluxo](../assets/flow-control-activities.png){width="30%" align="left"}
 

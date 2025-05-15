@@ -41,4 +41,4 @@ Para saber e descobrir o poder do Adobe Journey Optimizer com orientação passo
 
 Entenda os principais recursos e personas do Journey Optimizer. Saiba como navegar na interface de acordo com a sua função.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430320?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)

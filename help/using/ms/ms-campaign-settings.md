@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Definir configurações de campanha orquestrada
+title: Definir as configurações da campanha orquestrada
 description: Saiba como definir configurações de campanha orquestrada com o Adobe Journey Optimizer
 badge: label="Alfa"
 hide: true
@@ -10,16 +10,16 @@ exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
 source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
 source-wordcount: '1040'
-ht-degree: 8%
+ht-degree: 28%
 
 ---
 
-# Definir configurações de campanha orquestrada {#workflow-settings}
+# Definir as configurações da campanha orquestrada {#workflow-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_creation_properties"
 >title="Propriedades da campanha orquestrada"
->abstract="Nesta tela, escolha o template a ser usado para criar a campanha orquestrada e especifique um rótulo. Expanda a seção **Opções adicionais** para definir mais configurações, como o nome interno da campanha orquestrada, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo supervisor para que, se ocorrer um erro, os operadores sejam alertados."
+>abstract="Nesta tela, escolha o modelo a ser usado para criar a campanha orquestrada e especifique um rótulo. Expanda a seção **Opções adicionais** para definir mais configurações, como o nome interno da campanha orquestrada, sua pasta, fuso horário e grupo de supervisores. É altamente recomendável selecionar um grupo supervisor para que os operadores sejam alertados se ocorrer um erro."
 
 Ao criar uma campanha orquestrada ou orquestrar atividades de campanha orquestrada na tela, você pode acessar configurações avançadas relacionadas à campanha orquestrada. Por exemplo, é possível definir um fuso horário específico para a campanha orquestrada, gerenciar como ela deve se comportar em caso de erro ou gerenciar o atraso após o qual o histórico da campanha orquestrada deve ser removido.
 
@@ -32,7 +32,7 @@ Essas configurações são pré-definidas no template selecionado ao criar a cam
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_properties"
 >title="Propriedades da campanha orquestrada"
->abstract="Esta seção fornece propriedades de campanha orquestrada genéricas que também estão acessíveis ao criar a campanha orquestrada. Você pode escolher o template a ser usado para criar a campanha orquestrada e especificar um rótulo. Expanda a seção Opções adicionais para definir configurações específicas, como a pasta de armazenamento de campanha orquestrada ou o fuso horário."
+>abstract="Esta seção fornece propriedades genéricas da campanha orquestrada que também podem ser acessadas ao criá-la. É possível escolher o modelo a ser usado para criar a campanha orquestrada e especificar um rótulo. Expanda a seção Opções adicionais para definir configurações específicas, como a pasta de armazenamento da campanha orquestrada ou o fuso horário."
 
 A seção **[!UICONTROL Properties]** fornece configurações genéricas que podem ser definidas ao criar uma campanha orquestrada. Para acessar as propriedades de uma campanha orquestrada existente, clique no botão **[!UICONTROL Configurações]** disponível na barra de ações acima da tela de campanha orquestrada.
 
@@ -59,7 +59,7 @@ Os valores possíveis são:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_segmentation"
 >title="Configurações de segmentação"
->abstract="Nesta seção, você pode selecionar o targeting dimension para direcionar perfis na campanha orquestrada e escolher manter os resultados do fluxo de trabalho entre duas execuções. Essa opção deve ser usada somente para fins de teste e nunca deve ser ativada em uma campanha orquestrada de produção."
+>abstract="Nesta seção, é possível selecionar a dimensão de direcionamento para direcionar perfis na campanha orquestrada e escolher manter os resultados do fluxo de trabalho entre duas execuções. Essa opção deve ser usada somente para fins de teste e nunca deve ser habilitada em uma campanha orquestrada de produção."
 
 * **[!UICONTROL Targeting dimension]**: selecione a targeting dimension a ser usada para direcionar perfis: recipients, beneficiários de contrato, operadores, assinantes, etc.
 
@@ -72,7 +72,7 @@ Os valores possíveis são:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_execution"
 >title="Configurações de execução"
->abstract="Nesta seção, você pode definir as configurações relacionadas à execução do fluxo de trabalho, como o número de dias em que o histórico da campanha orquestrada é mantido."
+>abstract="Nesta seção, é possível definir configurações relacionadas à execução do fluxo de trabalho, como o número de dias no qual o histórico da campanha orquestrada será mantido."
 
 * **[!UICONTROL Histórico em dias]**: especifica o número de dias após o qual o histórico deve ser limpo. O histórico contém elementos relacionados à campanha orquestrada: logs, tarefas, eventos (objetos técnicos vinculados à operação da campanha orquestrada). O valor padrão é de 30 dias para modelos de campanha orquestradas prontos para uso. A limpeza do histórico é executada pela campanha orquestrada técnica de limpeza do banco de dados, que é executada diariamente por padrão
 
@@ -94,7 +94,7 @@ Os valores possíveis são:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_error"
 >title="Configurações de gerenciamento de erros"
->abstract="Nesta seção, você pode definir como a campanha orquestrada deve gerenciar erros durante sua execução. Você pode optar por pausar o processo, ignorar um determinado número de erros ou interromper a execução da campanha orquestrada."
+>abstract="Nesta seção, é possível definir como a campanha orquestrada deve gerenciar erros durante sua execução. É possível optar por pausar o processo, ignorar um determinado número de erros ou interromper a execução da campanha orquestrada."
 
 * **[!UICONTROL Gerenciamento de erros]**: este campo permite que você defina as ações a serem executadas se uma tarefa de campanha orquestrada tiver erros. Há três opções possíveis:
 

@@ -10,7 +10,7 @@ exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 16%
+ht-degree: 32%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="Condições"
->abstract="A atividade **Teste** pode ter várias transições de saída. Durante a execução orquestrada da campanha, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, a campanha orquestrada continuará no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, a campanha orquestrada será interrompida nesse ponto."
+>abstract="A atividade **Teste** pode ter várias transições de saída. Durante a execução da campanha orquestrada, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, a campanha orquestrada continuará com base na **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, a campanha orquestrada será interrompida nesse ponto."
 
 A atividade **Teste** é uma atividade de **Controle de fluxo**. Ela permite habilitar transições com base nas condições especificadas.
 
@@ -44,7 +44,7 @@ Siga estas etapas para configurar a atividade **Test**:
 
 1. Você pode adicionar várias transições de saída a uma atividade **[!UICONTROL Test]**. Para fazer isso, clique no botão **[!UICONTROL Adicionar condição]** e configure o rótulo e a condição associada para cada transição.
 v
-1. Durante a execução orquestrada da campanha, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, as campanhas orquestradas continuarão no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, os fluxos de trabalho serão interrompidos nesse ponto.
+1. Durante a execução da campanha orquestrada, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, as campanhas orquestradas continuarão no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, os fluxos de trabalho serão interrompidos nesse ponto.
 
 ## Exemplo {#example}
 
