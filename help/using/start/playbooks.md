@@ -61,4 +61,4 @@ Além de aproveitar os manuais predefinidos, você pode criar e compartilhar seu
 
 Você pode definir metadados usando assistência de IA ou entrada manual, associar ativos técnicos, como esquemas, segmentos, e compartilhar seus manuais em diferentes organizações IMS.
 
-Para obter mais informações sobre como criar e compartilhar manuais de reprodução, consulte a documentação sobre Manuais de Caso de Uso: [Crie e compartilhe seus próprios manuais usando o Assistente de IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}.
+Para obter mais informações sobre como criar e compartilhar manuais de reprodução, consulte a documentação sobre Manuais de Caso de Uso: [Crie e compartilhe seus próprios manuais usando o Assistente de IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=pt-BR#sharing-playbooks-sandboxes){target="_blank"}.
