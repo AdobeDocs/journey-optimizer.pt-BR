@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 69%
+source-wordcount: '1011'
+ht-degree: 70%
 
 ---
 
@@ -24,25 +24,17 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 ## Atualizações de maio de 2025 {#25-5-rn}
 
-* **Temas no Designer de email (Beta)** - Data de disponibilidade: 14 de maio de 2025
-
-  Agora é possível aplicar rapidamente os temas de estilo pré-aprovados ao seu conteúdo de email para garantir a consistência da marca em todos os emails, acelerar o processo de criação de campanha e produzir emails de alta qualidade de forma independente e, ao mesmo tempo, reduzir a dependência das equipes de design. [Leia mais](../email/apply-email-themes.md)
-
-  >[!AVAILABILITY]
-  >
-  >No momento, esse recurso está na versão beta, disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.
-
-  ![](assets/do-not-localize/themes.gif)
-
-* **Decisão - Novo construtor de fórmulas de IA** - Data de disponibilidade: 14 de maio de 2025
-
-  Agora é possível criar fórmulas de classificação específicas no serviço de decisão por definir e combinar critérios na nova interface aprimorada. Em vez de depender apenas de uma prioridade de oferta estática, você pode definir fórmulas de classificação personalizadas que combinam pontuações do modelo de IA, prioridades de oferta, atributos de perfil, atributos de oferta e sinais contextuais por meio de uma interface guiada. [Leia mais](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)
-
 * **Pastas para páginas de destino** - Data de disponibilidade: sábado, 9 de maio de 2025
 
   Para gerenciar facilmente suas páginas de aterrissagem, agora é possível usar pastas para organizá-las com mais eficiência em uma hierarquia simplificada.  [Leia mais](../landing-pages/manage-lp.md)
+<!--
+* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
+
+  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
+  
+  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * **Ativação de pílulas para personalização** - Data de disponibilidade: 5 de maio de 2025
 
@@ -51,6 +43,10 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
   >[!AVAILABILITY]
   >
   >Esse recurso será gradualmente implantado em todos os ambientes nos próximos 30 dias.
+
+* **Suporte a novos objetos de campanha para cópia de sandbox** <!-- - Availability date: -->
+
+  Ao copiar campanhas em várias sandboxes usando os recursos de exportação e importação de pacotes, as seguintes dependências também são copiadas: configurações de canal, variantes e configurações de experimento, políticas de decisão e itens. [Leia mais](../configuration/copy-objects-to-sandbox.md)
 
 ## Notas de versão de abril de 2025 {#25-4-rn}
 
@@ -314,7 +310,9 @@ Novas APIs estão disponíveis para visualizar campanhas, além dos recursos exi
 
 **Livros de reprodução do caso de uso**
 
-* **Criação e compartilhamento de manuais (Beta)** - Agora você pode criar, gerenciar e compartilhar seus próprios manuais de casos de uso. No momento, esse recurso está disponível para todos os clientes como um beta público. [Leia mais](../start/playbooks.md)
+* **Criação e compartilhamento de manuais de reprodução (beta privado)** - Agora você pode criar, gerenciar e compartilhar seus próprios manuais de casos de uso. No momento, esse recurso só está disponível para um conjunto de organizações como um beta privado. Para obter acesso, entre em contato com o(a) representante da Adobe.
+
+todos os clientes como um beta público. [Leia mais](../start/playbooks.md)
 
 **Navegação**
 
