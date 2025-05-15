@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: da76f1ba5717083791e894a545428b5ac71e7715
+source-git-commit: 7cf80dbe76fc46cc965595fcc409e81e400983fd
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 16%
+source-wordcount: '1481'
+ht-degree: 27%
 
 ---
 
@@ -22,12 +22,12 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 **As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**.  Links, telas e a documentação atualizada são publicados nas [notas de versão](release-notes.md), na data de lançamento.
 
 
-## Notas de versão antecipadas de abril de 2025 {#25-4-rn}
+## Notas de versão antecipadas de maio de 2025 {#25-5-rn}
 
 
 **As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**.  Links, telas e a documentação atualizada são publicados na data de lançamento.
 
-**Data de lançamento**: 29-30 de abril de 2025
+**Data de lançamento**: 20 a 21 de maio de 2025
 
 
 ### Novos recursos {#25-04-features}
@@ -37,13 +37,14 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Integração do Adobe Express (disponibilidade limitada)</strong><br/></th>
+<th><strong>Sincronizar a programação de público-alvo de leitura com o trabalho de segmentação em lote</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Adobe Journey Optimizer agora se integra ao Adobe Express, permitindo que você conecte facilmente seus ativos criativos à orquestração do jornada. Essa integração simplifica o processo de criação e implantação de conteúdo personalizado em campanhas. Este recurso está atualmente com a Disponibilidade Limitada.</p>
+<p>Agora é possível acionar execuções diárias de jornada após a conclusão da segmentação em lote. Essa opção agora está disponível em jornadas programadas diariamente para todos os clientes. Ele permite definir um período de até 6 horas para aguardar os dados do público-alvo de trabalhos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou ignoradas, se não estiverem prontas.</p>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral)</p>
 </td>
 </tr>
 </tbody>
@@ -52,13 +53,16 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Exibição de calendário para inventário de campanha e jornada (disponibilidade limitada)</strong><br/></th>
+<th><strong>Decisão - Novo construtor de fórmulas de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Uma nova visualização do calendário agora está disponível para campanhas e ativações de jornada. Esse recurso fornece uma representação visual das atividades agendadas, permitindo visualizar e gerenciar campanhas e jornadas com mais eficiência. Selecionar um item de calendário abre um painel direito com informações detalhadas. Este recurso está atualmente com a Disponibilidade Limitada.</p>
+<p>Agora é possível criar fórmulas de classificação específicas no serviço de decisão por definir e combinar critérios na nova interface aprimorada. Em vez de depender apenas de uma prioridade de oferta estática, você pode definir fórmulas de classificação personalizadas que combinam pontuações do modelo de IA, prioridades de oferta, atributos de perfil, atributos de oferta e sinais contextuais por meio de uma interface guiada.</p>
+<img src="assets/do-not-localize/formula-builder.gif">
+<p>Para obter mais informações, consulte a <a href="../experience-decisioning/exd-ranking-formulas.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 14 de maio de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -67,222 +71,215 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Integração do Adobe Experience Manager as a Cloud Service (GA)</strong><br/></th>
+<th><strong>Integração do fragmento de conteúdo do Adobe Experience Manager</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Disponibilidade geral da integração entre o Adobe Journey Optimizer e o Adobe Experience Manager as a Cloud Service. Essa integração permite o fornecimento e o gerenciamento de conteúdo sem interrupções para jornadas personalizadas do cliente.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Playground do Personalization no Experience League</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Experience League agora oferece um Personalization Playground interativo. Esse recurso permite explorar e praticar recursos de personalização no Adobe Journey Optimizer. Você pode escrever código de personalização, testar com cargas de amostra e simular cenários reais para aprimorar sua experiência de aprendizado.</p>
-<img src="assets/do-not-localize/templating-playground.gif">
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Acionar execuções diárias de jornada após a conclusão da segmentação em lote (disponibilidade limitada)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Para jornadas programadas diariamente, uma nova opção permite definir uma janela de tempo de até 6 horas para aguardar os dados do público-alvo de trabalhos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas. A opção Acionar após avaliação de público-alvo em lote está disponível somente para um conjunto de organizações (Disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Simular variações de conteúdo (Disponibilidade geral)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Anteriormente disponível na versão beta, a simulação de variações de conteúdo agora está disponível de modo geral (GA). Ele permite que você visualize diferentes variações de seu conteúdo usando exemplos de dados de entrada carregados de um arquivo CSV ou JSON ou adicionados manualmente. Todos os atributos usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes.</p>
-<p>Com a versão de Disponibilidade Geral, o recurso agora inclui suporte para conteúdo multilíngue e experimentos de conteúdo, permitindo que você teste variações em diferentes idiomas e tratamentos. Além disso, agora ele é compatível com atributos contextuais (além dos atributos de perfil), permitindo testes de conteúdo ainda mais dinâmicos e situacionais.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Traga seu próprio provedor de SMS (Disponibilidade Geral)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Adobe Journey Optimizer agora é compatível com provedores de SMS personalizados, permitindo integrar seus serviços de SMS preferidos para melhorar a flexibilidade de comunicação.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Integration with Adobe Express</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Adobe Express integration in Adobe Journey Optimizer lets you use Adobe Express's editing tools directly during content creation, enabling you to resize, remove backgrounds, crop, and convert assets to JPEG or PNG.<p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Calendar view for journeys (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A calendar view is now allows you to visualize all journeys activations. This capability is released as a Limited Availability to a select group of customers.<p>
-<p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Integration with Dynamic Media (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Dynamic media assets are now directly available and accessible in Journey Optimizer. This integration enables you to:
+<p>Com a integração do Adobe Experience Manager e do Adobe Journey Optimizer, agora é possível usar Fragmentos de conteúdo do Adobe Experience Manager sem esforço no conteúdo do Journey Optimizer. Essa conexão perfeita facilita o acesso e o uso do conteúdo do AEM diretamente no Journey Optimizer.</p>
+<p>Anteriormente disponível para um conjunto limitado de organizações (DL), esse recurso agora está disponível no mercado, com as seguintes melhorias:</p>
 <ul>
-<li>Centrally manage assets with real-time updates</li>
-<li>Modify your assets settings such as width and height instantly</li>
-<li>Personalize your content using images with text overlays</li>
-<li>Customize Dynamic Media templates by updating your content and adding personalization fields</li>
+<li>Crie ofertas selecionando diretamente um fragmento de conteúdo do AEM.</li>
+<li>Defina espaços reservados e mapeie valores de personalização na assinatura do fragmento usando o modo Editor.</li>
 </ul>
-<p>
-<p>This integration is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Exibição de calendário para estoque de Campanha e Jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma visualização de calendário agora está disponível nas listas de jornadas e campanhas. Ele permite visualizar todas as jornadas e ativações de campanhas nas respectivas listas.</p>
+<p>Essa alteração está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Integração com o Adobe Experience Manager Dynamic Media</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os ativos do Dynamic Media agora estão diretamente disponíveis e acessíveis no Journey Optimizer. Essa integração permite:</p>
+<ul>
+<li>Gerencie centralmente ativos com atualizações em tempo real.</li>
+<li>Modifique as configurações de ativos, como largura e altura, instantaneamente.</li>
+<li>Personalize modelos do Dynamic Media atualizando o conteúdo e adicionando campos de personalização.</li>
+</ul>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Temas no Designer de email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível aplicar rapidamente temas pré-aprovados para garantir a consistência da marca em todos os emails, acelerar o processo de criação de campanha e produzir emails de alta qualidade de maneira independente, reduzindo a dependência de equipes de design.</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>No momento, esse recurso está na versão beta, disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.</p>
+<p>Data de disponibilidade: quinta-feira, 14 de maio de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Conflito e priorização</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>No Journey Optimizer, gerenciar o volume e o momento certo para uso de campanhas e jornadas é essencial para não sobrecarregar clientes com muitas interações. O Journey Optimizer agora oferece várias ferramentas para o gerenciamento de conflitos e a priorização - antes disponíveis apenas para organizações de acesso limitado (DL) - que agora estão disponíveis no mercado (GA).</p>
+<p>Com essa disponibilidade geral, foram introduzidos os seguintes aprimoramentos:</p>
+<ul>
+<li>Suporte estendido: as ferramentas de gerenciamento de conflitos agora oferecem suporte às Jornadas de Jornadas unitárias e qualificação de público-alvo, além das jornadas Ler público-alvo.</li>
+<li>Solução de problemas aprimorada: dois novos campos de evento de etapa estão disponíveis no Serviço de consulta, permitindo analisar por que um perfil foi rejeitado de uma jornada ou campanha.</li>
+<li>Relatórios aprimorados: os relatórios agora indicam qual regra específica excluiu um perfil de uma jornada ou campanha, fornecendo mais transparência e insights acionáveis.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Simular variações de conteúdo (disponibilidade geral)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Anteriormente disponível na versão beta, a simulação de variações de conteúdo agora está em disponibilidade geral. Ela permite visualizar diferentes variantes de conteúdo a partir de dados de entrada de amostra enviados de um arquivo CSV ou JSON, ou adicionados manualmente. Todos os atributos usados no conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados nos testes para criar diversas variantes.</p>
+<p>Com a versão de disponibilidade geral, o recurso agora inclui suporte para conteúdo multilíngue e experimentos de conteúdo, permitindo testar variações em diferentes idiomas e tratamentos. Além disso, agora ele é compatível com atributos contextuais (além dos atributos de perfil), permitindo testes de conteúdo ainda mais dinâmicos e específicos.</p>
+<img src="assets/do-not-localize/variants.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Dimensionar o vencedor da experimentação</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dimensionar o Vencedor permite implantar automática ou manualmente a variação vencedora de um experimento em todo o seu público-alvo. Esse recurso garante que, uma vez identificado o executor com melhor desempenho, você possa maximizar seu alcance e eficácia sem supervisão manual constante.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Provedor de SMS personalizado</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer agora permite configurar provedores de SMS adicionais além das opções padrão: Sinch, Infobip e Twilio. Com a configuração personalizada do provedor SMS, você pode integrar diretamente provedores de terceiros, aproveitar a personalização avançada de carga para mensagens dinâmicas e gerenciar preferências de consentimento (aceitação/recusa) para garantir a conformidade.</p>
+<p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p></td>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Decisões de conteúdo em jornadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível adicionar ofertas às suas jornadas por meio de uma ação de decisão dedicada na tela de jornada e usá-las em suas ações personalizadas.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
-<thead>
-<tr>
-<th><strong>LINE channel (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
-### Melhorias {#25-04-improv}
 
-<!--**Audiences**
 
-- **Remove limitation for Audience Composition enrichment attributes** 
+### Melhorias {#25-05-improv}
 
-  The use of audiences and attributes from audience composition is now available for use with Healthcare Shield or Privacy and Security Shield.-->
+As melhorias incluídas nesta versão estão listadas abaixo.
 
-**Canal de email**
+* **Ativação de pílulas para personalização** - Data de disponibilidade: 5 de maio de 2025
 
-- **Rastreamento personalizado de URL**
+  Um novo botão &quot;Comprimidos&quot; foi adicionado ao editor de personalização. Quando ativados, o perfil e os atributos contextuais são exibidos como pílulas, melhorando a legibilidade do seu código. [Leia mais](../personalization/personalization-build-expressions.md#options)
 
-  Para aumentar a flexibilidade e o controle sobre suas configurações de email, agora é possível personalizar todos os parâmetros de rastreamento de URL de uma só vez no nível de configuração do canal de email, em vez de fazer isso no Designer de email para cada link no seu conteúdo.
+  >[!AVAILABILITY]
+  >
+  >Esse recurso será gradualmente implantado em todos os ambientes nos próximos 30 dias.
 
-- **Temas do designer de email** (Beta) - Data de disponibilidade: 5 de maio de 2025
+* **Pastas para páginas de aterrissagem** - Data de disponibilidade: 9 de maio de 2025
+Para gerenciar facilmente as landing pages, agora é possível usar pastas para organizá-las com mais eficiência em uma hierarquia estruturada. [Leia mais](../landing-pages/manage-lp.md)
 
-  Agora é possível aplicar rapidamente os temas de estilo pré-aprovados ao seu conteúdo de email para garantir a consistência da marca em todos os emails, acelerar o processo de criação de campanha e produzir emails de alta qualidade de forma independente e, ao mesmo tempo, reduzir a dependência das equipes de design.
+* **Rastreamento de cliques em modelos de email**\
+  O rastreamento de cliques em elementos `<area>` em mapas de imagem em modelos de email agora é nativamente compatível com o Journey Optimizer. Isso garante que as áreas do mapa de imagem recebam os mesmos dados de rastreamento de encapsulamento, dados de rastreamento e parâmetros anexados que os hiperlinks padrão.
 
-**Ferramentas de sandbox**
+* **Decisão - Aproveitar conjuntos de dados da Adobe Experience Platform**\
+  O Journey Optimizer agora permite aproveitar os conjuntos de dados do Adobe Experience Platform nos seguintes objetos de Decisão: regras de elegibilidade, fórmulas de classificação e regras de limite.
 
-- **Cópia da sandbox de decisão**
+* **Pastas em modelos e fragmentos (Disponibilidade Geral)**\
+  Anteriormente disponíveis para apenas algumas organizações (disponibilidade limitada), as pastas agora estão disponíveis para todos os usuários (disponibilidade geral), permitindo o gerenciamento de modelos e fragmentos de conteúdo. As pastas permitem organizar os modelos e fragmentos de conteúdo de forma mais fácil e eficaz em uma hierarquia estruturada.
 
-  Os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação.
+* **Suporte a novos objetos de campanha para cópia de sandbox** <!-- - Availability date: -->
 
-- **Ferramentas de sandbox para ações personalizadas**
+  Ao copiar campanhas em várias sandboxes usando os recursos de exportação e importação de pacotes, as seguintes dependências também são copiadas: configurações de canal, variantes e configurações de experimento, políticas de decisão e itens. [Leia mais](../configuration/copy-objects-to-sandbox.md)
 
-  As ações personalizadas agora são incluídas na lista de objetos do Adobe Journey Optimizer que podem ser copiados usando o recurso de ferramenta sandbox, simplificando o teste e a implantação.
+* Suporte para &#39;Redirecionar para URL&#39; de **no canal da Web**\
+  O canal da Web do Journey Optimizer agora permite redirecionar os visitantes para outro URL existente, em vez de criar uma nova variação no editor visual. Esse recurso pode ser usado para executar experimentos comparando duas páginas completamente diferentes, em vez de apenas alterar alguns elementos em uma página.
 
-- **Ferramentas de sandbox para campanhas**
+* **Ferramentas de sandbox - Suporte a novos objetos do Campaigns (fase 1)**\
+  Ao copiar campanhas em várias sandboxes usando os recursos de exportação e importação de pacotes, as seguintes dependências também são copiadas: configurações de canal, variantes e configurações de experimento, políticas de decisão e itens.
 
-  As campanhas agora podem ser copiadas usando o recurso de ferramenta sandbox, simplificando a migração de objetos do Campaign entre ambientes.
+* **Painel direito na lista de campanhas**\
+  Na lista de campanhas, selecionar uma campanha agora abre um painel que exibe seus detalhes.
 
-**Personalização**
+* **Campos de formulário no conteúdo de experiência baseado em código**\
+  Em modelos de conteúdo, agora é possível definir campos JSON ou HTML específicos que permitem a usuários não técnicos editar facilmente o conteúdo em experiências baseadas em código, sem a necessidade de manipular o código.
 
-- **Ativação de pílulas**
+* **Suporte a atributos de item de decisão para regras de decisão**\
+  Agora você pode aproveitar os atributos de item de decisão para criar regras de decisão.
 
-  Um novo botão “Pílulas” foi adicionado ao editor de personalização. Quando habilitado, o perfil e os atributos contextuais são exibidos como pílulas, melhorando a legibilidade do seu código.
+* **Reentrada de Várias Jornadas**\
+  Agora é possível acionar jornadas usando uma ID de perfil juntamente com outro identificador, como uma ID de pedido, ID de assinatura ou ID de receita, permitindo que o mesmo perfil esteja na mesma jornada várias vezes de uma vez. Isso permite cenários como gerenciar vários pedidos ou assinaturas em paralelo, com cada instância seguindo seu próprio caminho pela jornada.
 
-- **Atributos preenchidos no painel de atributos**
+* **Subdomínios - método &#39;Nenhuma delegação&#39;**\
+  Além da delegação completa e do método CNAME, um novo método de configuração de subdomínio está disponível: o método Sem delegação, que permite controlar e manter totalmente todos os aspectos do DNS necessários para entregar, renderizar e rastrear mensagens.
 
-  Por padrão, o painel de atributos no editor de personalização agora mostra apenas atributos preenchidos. Para exibir todos os atributos, use o botão de configurações para alternar a opção Mostrar apenas atributos preenchidos.
-
-- **Novo atributo contextual**
-
-  Um novo atributo contextual, **Id de Perfil da Mensagem**, agora está disponível para seleção no editor de personalização. Este é um atributo orientado por mensagem que identifica exclusivamente cada mensagem enviada para cada perfil direcionado em um delivery. Esse identificador exclusivo pode ser usado, por exemplo, como um parâmetro de rastreamento de URL para distinguir cada link aberto ou clicado pelos recipients.
-
-**Decisão**
-
-- **Fórmulas de classificação**
-
-  Agora é possível criar fórmulas de classificação específicas do Decisioning definindo e combinando critérios de uma nova interface aprimorada. As fórmulas de classificação permitem definir regras que determinarão quais itens de decisão devem ser apresentados primeiro, em vez de considerar as pontuações de prioridade.
-
-**Navegação**
-
-- **Pastas para modelos e fragmentos de conteúdo** - Data de disponibilidade: 5 de maio de 2025
-
-  Anteriormente disponíveis para um conjunto de organizações (DL), as pastas agora estão disponíveis para todos os usuários (DG) para gerenciar seus modelos e fragmentos de conteúdo. As pastas permitem organizar os modelos e fragmentos de conteúdo de forma mais fácil e eficaz em uma hierarquia estruturada.
-
-- **Pastas para páginas de aterrissagem** - Data de disponibilidade: 5 de maio de 2025
-
-  Para gerenciar facilmente suas landing pages, agora você também pode usar pastas para organizá-las com mais eficiência em uma hierarquia simplificada.
-
-- **Painel direito na lista de campanhas**
-
-  Um painel direito foi adicionado à lista de campanhas, fornecendo informações detalhadas quando uma campanha é selecionada.
-
-**manuais**
-
-- **Criar seus próprios manuais (Beta)**
-
-  Agora é possível criar seus próprios manuais no Adobe Journey Optimizer, permitindo maior personalização e flexibilidade no planejamento de jornadas.
+* **Suporte para fontes de dados personalizadas no Personalization**\
+  Agora é possível criar uma consulta e coletar dados de uma fonte externa (ou seja, não armazenados no Adobe Experience Platform) para usar nas superfícies de entrada e saída do Journey Optimizer para personalização e orquestração de jornadas.
