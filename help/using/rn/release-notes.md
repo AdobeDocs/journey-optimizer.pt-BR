@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d7ac73800a793fa5fec5d402e15e4f84db084f89
+source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 65%
+source-wordcount: '1157'
+ht-degree: 68%
 
 ---
 
@@ -52,9 +52,15 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
   >
   >Esse recurso será gradualmente implantado em todos os ambientes nos próximos 30 dias.
 
-* **Suporte a novos objetos de campanha para cópia da sandbox** - Data de disponibilidade: 15 de maio de 2025
+* **Suporte a novos objetos para cópia de sandbox**
 
-  Ao copiar campanhas em várias sandboxes usando os recursos de exportação e importação de pacotes, as seguintes dependências também são copiadas: configurações de canal, variantes e configurações de experimento, políticas de decisão e itens. [Leia mais](../configuration/copy-objects-to-sandbox.md)
+   * **Campanhas** - Data de disponibilidade: 15 de maio de 2025
+
+     Ao copiar campanhas em várias sandboxes usando os recursos de exportação e importação de pacotes, as seguintes dependências também são copiadas: configurações de canal, variantes e configurações de experimento, políticas de decisão e itens. [Leia mais](../configuration/copy-objects-to-sandbox.md)
+
+   * **Decisão** - Data de disponibilidade: 16 de maio de 2025
+
+     Os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação. [Leia mais](../configuration/copy-objects-to-sandbox.md#decisioning)
 
 ## Notas de versão de abril de 2025 {#25-4-rn}
 
@@ -248,7 +254,7 @@ Os novos recursos que acompanham esta versão estão listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>O recurso de pontuação de alinhamento da marca oferece feedback claro diretamente no designer de email, ajudando você a ver se o conteúdo está alinhado ao tom, estilo e diretrizes da sua marca. Esse recurso está disponível no Beta.</p>
+<p>O recurso de pontuação de alinhamento da marca fornece um feedback claro diretamente no designer de email, ajudando a ver se o conteúdo está alinhado ao tom, estilo e diretrizes da sua marca. Esse recurso está disponível na versão beta.</p>
 <p>Para obter mais informações, consulte a <a href="../content-management/brands-score.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -283,10 +289,6 @@ Os novos recursos que acompanham esta versão estão listados abaixo.
 Novas APIs estão disponíveis para visualizar campanhas, além dos recursos existentes de envio de prova. [Leia mais](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
 
 **Ferramentas de sandbox**
-
-<!--- **Decisioning sandbox copy**
-
-  Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
 * **Ferramentas de sandbox para ações personalizadas**
 
