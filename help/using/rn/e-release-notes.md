@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
+source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 22%
+source-wordcount: '1513'
+ht-degree: 23%
 
 ---
 
@@ -292,9 +292,6 @@ Ao copiar campanhas em várias sandboxes usando os recursos de exportação e im
 
 * **Subdomínios - método &#39;Nenhuma delegação&#39;**\
   Além da delegação completa e do método CNAME, um novo método de configuração de subdomínio está disponível: o método Sem delegação, que permite controlar e manter totalmente todos os aspectos do DNS necessários para entregar, renderizar e rastrear mensagens.
-
-* **Suporte para fontes de dados personalizadas no Personalization**\
-  Agora é possível criar uma consulta e coletar dados de uma fonte externa (ou seja, não armazenados no Adobe Experience Platform) para usar nas superfícies de entrada e saída do Journey Optimizer para personalização e orquestração de jornadas.
 
 * **Correspondência direta - Suporte SSH**\
   Além do SFTP existente com tipo de autenticação de senha, agora você pode exportar seu arquivo de correspondência direta para um servidor SFTP com autenticação de chave SSH.
