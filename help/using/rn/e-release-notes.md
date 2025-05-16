@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7347adf8b40942408042c8b09572beed67425899
+source-git-commit: d069fb775cc8cf561c5d7b9ef87b9c8d9f5ba0e7
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 23%
@@ -206,8 +206,8 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>O Journey Optimizer agora permite configurar provedores de SMS adicionais além das opções padrão: Sinch, Infobip e Twilio. Com a configuração personalizada do provedor SMS, você pode integrar diretamente provedores de terceiros, aproveitar a personalização avançada de carga para mensagens dinâmicas e gerenciar preferências de consentimento (aceitação/recusa) para garantir a conformidade.</p>
-<p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p></td>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p></td>
 </td>
 </tr>
 </tbody>
