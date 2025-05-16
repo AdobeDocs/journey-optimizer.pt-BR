@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f22c2cd744cb9016f48a5df46c0c903ccce617d
+source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 25%
+source-wordcount: '1554'
+ht-degree: 22%
 
 ---
 
@@ -229,6 +229,24 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>ID complementar para jornadas acionadas por evento</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível acionar jornadas usando uma ID de perfil juntamente com outro identificador, como uma ID de pedido, ID de assinatura ou ID de receita, permitindo que o mesmo perfil esteja na mesma jornada várias vezes de uma vez. Isso permite cenários como gerenciar vários pedidos ou assinaturas em paralelo, com cada instância seguindo seu próprio caminho pela jornada.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ### Melhorias {#25-05-improv}
 
 As melhorias incluídas nesta versão estão listadas abaixo.
@@ -250,12 +268,11 @@ Para gerenciar facilmente as landing pages, agora é possível usar pastas para 
 * **Decisão - Aproveitar conjuntos de dados da Adobe Experience Platform**\
   O Journey Optimizer agora permite aproveitar os conjuntos de dados do Adobe Experience Platform nos seguintes objetos de Decisão: regras de elegibilidade, fórmulas de classificação e regras de limite.
 
-* **Pastas em modelos e fragmentos (Disponibilidade Geral)**\
-  Anteriormente disponíveis para apenas algumas organizações (disponibilidade limitada), as pastas agora estão disponíveis para todos os usuários (disponibilidade geral), permitindo o gerenciamento de modelos e fragmentos de conteúdo. As pastas permitem organizar os modelos e fragmentos de conteúdo de forma mais fácil e eficaz em uma hierarquia estruturada.
+* **Pastas em modelos e fragmentos**\
+  As pastas permitem organizar os modelos e fragmentos de conteúdo de forma mais fácil e eficaz em uma hierarquia estruturada. Anteriormente disponíveis para um conjunto de organizações (DL), as pastas agora estão disponíveis para todos os usuários (DG) para gerenciar seus modelos e fragmentos de conteúdo.
 
 * **Suporte a novos objetos de campanha para cópia de sandbox** <!-- - Availability date: -->
-
-  Ao copiar campanhas em várias sandboxes usando os recursos de exportação e importação de pacotes, as seguintes dependências também são copiadas: configurações de canal, variantes e configurações de experimento, políticas de decisão e itens. [Leia mais](../configuration/copy-objects-to-sandbox.md)
+Ao copiar campanhas em várias sandboxes usando os recursos de exportação e importação de pacotes, as seguintes dependências também são copiadas: configurações de canal, variantes e configurações de experimento, políticas de decisão e itens. [Leia mais](../configuration/copy-objects-to-sandbox.md)
 
 * Suporte para &#39;Redirecionar para URL&#39; de **no canal da Web**\
   O canal da Web do Journey Optimizer agora permite redirecionar os visitantes para outro URL existente, em vez de criar uma nova variação no editor visual. Esse recurso pode ser usado para executar experimentos comparando duas páginas completamente diferentes, em vez de apenas alterar alguns elementos em uma página.
@@ -272,11 +289,12 @@ Para gerenciar facilmente as landing pages, agora é possível usar pastas para 
 * **Suporte a atributos de item de decisão para regras de decisão**\
   Agora você pode aproveitar os atributos de item de decisão para criar regras de decisão.
 
-* **Reentrada de Várias Jornadas**\
-  Agora é possível acionar jornadas usando uma ID de perfil juntamente com outro identificador, como uma ID de pedido, ID de assinatura ou ID de receita, permitindo que o mesmo perfil esteja na mesma jornada várias vezes de uma vez. Isso permite cenários como gerenciar vários pedidos ou assinaturas em paralelo, com cada instância seguindo seu próprio caminho pela jornada.
 
 * **Subdomínios - método &#39;Nenhuma delegação&#39;**\
   Além da delegação completa e do método CNAME, um novo método de configuração de subdomínio está disponível: o método Sem delegação, que permite controlar e manter totalmente todos os aspectos do DNS necessários para entregar, renderizar e rastrear mensagens.
 
 * **Suporte para fontes de dados personalizadas no Personalization**\
   Agora é possível criar uma consulta e coletar dados de uma fonte externa (ou seja, não armazenados no Adobe Experience Platform) para usar nas superfícies de entrada e saída do Journey Optimizer para personalização e orquestração de jornadas.
+
+* **Correspondência direta - Suporte SSH**\
+  Além do SFTP existente com tipo de autenticação de senha, agora você pode exportar seu arquivo de correspondência direta para um servidor SFTP com autenticação de chave SSH.
