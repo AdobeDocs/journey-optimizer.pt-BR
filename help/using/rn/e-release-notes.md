@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
+source-git-commit: 7347adf8b40942408042c8b09572beed67425899
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1485'
 ht-degree: 23%
 
 ---
@@ -216,22 +216,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Decisões de conteúdo em jornadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível adicionar ofertas às suas jornadas por meio de uma ação de decisão dedicada na tela de jornada e usá-las em suas ações personalizadas.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
 <th><strong>ID complementar para jornadas acionadas por evento</strong><br/></th>
 </tr>
 </thead>
@@ -290,8 +274,8 @@ Ao copiar campanhas em várias sandboxes usando os recursos de exportação e im
   Agora você pode aproveitar os atributos de item de decisão para criar regras de decisão.
 
 
-* **Subdomínios - método &#39;Nenhuma delegação&#39;**\
-  Além da delegação completa e do método CNAME, um novo método de configuração de subdomínio está disponível: o método Sem delegação, que permite controlar e manter totalmente todos os aspectos do DNS necessários para entregar, renderizar e rastrear mensagens.
+* **Subdomínios - método &#39;Delegação personalizada&#39;**\
+  Além da delegação completa e do método CNAME, um novo método de configuração de subdomínio está disponível: o método de delegação Personalizado, que permite controlar e manter totalmente todos os aspectos do DNS necessários para entregar, renderizar e rastrear mensagens.
 
 * **Correspondência direta - Suporte SSH**\
   Além do SFTP existente com tipo de autenticação de senha, agora você pode exportar seu arquivo de correspondência direta para um servidor SFTP com autenticação de chave SSH.
