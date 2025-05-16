@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
+source-git-commit: d7ac73800a793fa5fec5d402e15e4f84db084f89
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 66%
+source-wordcount: '1140'
+ht-degree: 65%
 
 ---
 
@@ -52,7 +52,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
   >
   >Esse recurso será gradualmente implantado em todos os ambientes nos próximos 30 dias.
 
-* **Suporte a novos objetos de campanha para cópia de sandbox** <!-- - Availability date: -->
+* **Suporte a novos objetos de campanha para cópia da sandbox** - Data de disponibilidade: 15 de maio de 2025
 
   Ao copiar campanhas em várias sandboxes usando os recursos de exportação e importação de pacotes, as seguintes dependências também são copiadas: configurações de canal, variantes e configurações de experimento, políticas de decisão e itens. [Leia mais](../configuration/copy-objects-to-sandbox.md)
 
