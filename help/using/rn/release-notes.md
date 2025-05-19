@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 68%
+source-wordcount: '1184'
+ht-degree: 66%
 
 ---
 
@@ -61,6 +61,11 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
    * **Decisão** - Data de disponibilidade: 16 de maio de 2025
 
      Os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação. [Leia mais](../configuration/copy-objects-to-sandbox.md#decisioning)
+
+* **Correspondência direta: Suporte à chave SSH para conexões SFTP** - Data de disponibilidade: 5 de maio de 2025
+
+  A autenticação da chave SSH agora é compatível com conexões do servidor SFTP na configuração de roteamento de arquivos de correspondência direta.
+
 
 ## Notas de versão de abril de 2025 {#25-4-rn}
 

@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1365'
 ht-degree: 22%
 
 ---
@@ -103,13 +103,15 @@ Se você selecionou **[!UICONTROL Amazon S3]** como o **[!UICONTROL Tipo de serv
 
 Se você selecionou **[!UICONTROL SFTP]** como o **[!UICONTROL Tipo de servidor]**, preencha os detalhes e as credenciais do seu servidor:
 
-* **Conta**: nome da conta usado para conexão com o servidor SFTP.
+* **[!UICONTROL Tipo de autenticação]**: selecione o tipo de autenticação usado para conectar ao servidor (senha ou chave SSH).
 
-* **Endereço do servidor**: URL &#x200B; servidor SFTP.
+* **[!UICONTROL Conta]**: nome da conta usado para conexão com o servidor SFTP.
 
-* **Porta**: número da porta de conexão FTP.
+* **[!UICONTROL Endereço do servidor]**: URL &#x200B; servidor SFTP.
 
-* **Senha**:&#x200B; senha usada para conectar ao servidor SFTP.
+* **[!UICONTROL Porta]**: número da porta de conexão SFTP.
+
+* **[!UICONTROL Senha]** / **[!UICONTROL Chave SSH]**:&#x200B; senha ou chave SSH usada para se conectar ao servidor SFTP.
 
 ![](assets/file-routing-config-sftp-detail.png)
 
@@ -143,7 +145,7 @@ Se você selecionou **[!UICONTROL Zona de Aterrissagem de Dados]** como o **[!UI
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
