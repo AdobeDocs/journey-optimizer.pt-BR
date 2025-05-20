@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: events, event, jornada, definition, start
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+source-git-commit: 1c2537d576b9ccb4fc3731d558a5447e89eb824a
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 51%
+source-wordcount: '1088'
+ht-degree: 49%
 
 ---
 
@@ -27,10 +27,12 @@ Os eventos permitem acionar jornadas individualmente, fornecendo mensagens em te
 
 Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são padronizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de ingestão de streaming para eventos autenticados e não autenticados (como eventos do SDK móvel da Adobe). Você pode usar vários eventos (em etapas diferentes de uma jornada) e várias jornadas podem usar o mesmo evento.
 
+A configuração do evento é **obrigatória** e deve ser executada por um engenheiro de dados.
+
 Você pode configurar dois tipos de eventos: **Eventos unitários** e **Eventos comerciais**.
 
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Eventos unitários {#unitary-events}
 
@@ -42,11 +44,6 @@ As jornadas unitárias (começando com um evento ou uma qualificação de públi
 
 Os eventos de **Negócios** não estão vinculados a um perfil específico. Por exemplo, pode ser um alerta de notícias, uma atualização esportiva, uma alteração ou cancelamento de voo, uma atualização de inventário, eventos meteorológicos etc. Embora esses eventos não sejam específicos de um perfil, eles podem ser de interesse para qualquer número de perfis: indivíduos inscritos em tópicos de notícias específicos, passageiros em um voo, compradores interessados em um produto indisponível, etc. Os eventos comerciais sempre se baseiam em regras. Quando você solta um evento comercial em uma jornada, ele adiciona automaticamente uma atividade **Ler público** logo em seguida.Saiba como criar um evento comercial [nesta página](../event/about-creating-business.md).
 
-## Recomendações
-
-A configuração do evento é **obrigatória** e deve ser executada por um engenheiro de dados.
-
-Para evitar a quebra de jornadas existentes, ao editar um evento usado em um rascunho ou jornada em tempo real, é possível apenas alterar o nome, a descrição ou adicionar campos de carga útil.
 
 ## Tipo de ID do evento {#event-id-type}
 
@@ -70,18 +67,24 @@ Para eventos **unitários**, há dois tipos de ID de evento:
 
 Eventos são chamadas POST API. Os eventos são enviados para o Adobe Experience Platform por meio de APIs de assimilação de streaming. O destino do URL de eventos enviados por meio de APIs de mensagens transacionais é chamado de &quot;inlet&quot;. A carga útil de eventos segue a formatação XDM.
 
-A carga contém informações necessárias para que as APIs de Assimilação de streaming funcionem (no cabeçalho) e as informações necessárias para que [!DNL Journey Optimizer] funcionem e as informações que serão usadas em jornadas (no corpo, por exemplo, a quantidade de um carrinho abandonado). Há dois modos para a assimilação de fluxo, autenticados e não autenticados. Para obter detalhes sobre as APIs de assimilação de fluxo, consulte [este link](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR).
+A carga contém informações necessárias para que as APIs de Assimilação de streaming funcionem (no cabeçalho) e as informações necessárias para que [!DNL Journey Optimizer] funcionem e as informações que serão usadas em jornadas (no corpo, por exemplo, a quantidade de um carrinho abandonado). Há dois modos para a ingestão de fluxo, autenticados e não autenticados. Para obter detalhes sobre as APIs de ingestão de fluxo, consulte [este link](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR){target="_blank"}.
 
 Depois de chegar através das APIs de assimilação de streaming, os eventos fluem para um serviço interno chamado Pipeline e, em seguida, para o Adobe Experience Platform. Se o schema do evento tiver o sinalizador de Serviço de perfil do cliente em tempo real ativado e uma ID de conjunto de dados que também tenha o sinalizador de Perfil do cliente em tempo real, ele fluirá para o Serviço de perfil do cliente em tempo real.
 
 Para eventos gerados pelo sistema, o Pipeline filtra os eventos que têm uma carga contendo [!DNL Journey Optimizer] eventIDs (consulte o processo de criação de eventos abaixo) fornecidos por [!DNL Journey Optimizer] e contidos na carga do evento. Para eventos baseados em regras, o sistema identifica o evento usando a condição eventID. Esses eventos são acompanhados pelo [!DNL Journey Optimizer] e a jornada correspondente é acionada.
 
+## Atualizar e deletar um evento
+
+Para evitar a quebra de jornadas existentes, ao editar um evento usado em uma jornada de rascunho, ativa ou fechada, é possível apenas alterar o nome, a descrição ou adicionar campos de carga útil.
+
+Qualquer evento usado em jornadas Ativas, Rascunhos ou Fechadas não pode ser excluído. Para excluir um evento usado, você deve interromper as jornadas que o utilizam e/ou removê-lo das jornadas de rascunho onde é usado. Você pode verificar o campo **[!UICONTROL Usado em]**. Ele exibe o número de jornadas que usam esse evento específico. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas correspondentes.
+
 ## Vídeos tutoriais {#video}
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431510?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Entenda os casos de uso aplicáveis a eventos comerciais. Saiba como criar uma jornada usando um evento comercial e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417595?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
