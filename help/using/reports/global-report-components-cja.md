@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2134'
 ht-degree: 2%
 
 ---
@@ -73,6 +73,10 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   <tr> 
    <td> Devoluções<br/> </td> 
    <td> Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Taxa de rejeição<br/> </td> 
+   <td> Porcentagem de emails que resultaram em uma rejeição em relação ao número total de emails enviados.<br/> </td> 
   </tr> 
   <tr> 
    <td> Taxa de abertura de cliques (CTOR)<br/> </td> 
@@ -99,6 +103,10 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Nome da causa original específica do erro. <a href="exclusion-list.md">Saiba mais sobre os motivos de erro</a>.<br/> </td> 
   </tr>
   <tr> 
+   <td>Aberturas de email estimadas<br/> </td> 
+   <td>Estimativa do total de aberturas de email que são responsáveis por aberturas diretas por perfis e aberturas automatizadas acionadas por servidores de email. Essa métrica se ajusta para aberturas acionadas por servidores de email para verificação de privacidade ou segurança, aplicando uma taxa de abertura calculada a partir de destinatários que abriram manualmente o email para aqueles cujos emails foram abertos apenas por servidores de email.<br/> </td> 
+  </tr>
+  <tr> 
    <td> Taxa de cliques da oferta<br/> </td> 
    <td> Porcentagem de usuários que interagiram com a oferta.<br/> </td> 
   </tr>
@@ -119,11 +127,11 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de vezes que a mensagem foi aberta.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Erros de Saída<br/> </td> 
+   <td> Enviar Erros<br/> </td> 
    <td> Número total de erros ocorridos durante o processo de envio que impediram o envio para perfis.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Exclusões de saída<br/> </td> 
+   <td> Enviar exclusões<br/> </td> 
    <td> Número de perfis que foram excluídos pelo Adobe Journey Optimizer.<br/> </td> 
   </tr>
   <tr> 
@@ -137,18 +145,59 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   <tr> 
    <td> Direcionado<br/> </td> 
    <td> Número total de mensagens processadas durante a análise de entrega.<br/> </td> 
-  </tr> 
+  </tr>
+  <tr> 
+   <td>Rejeições Exclusivas<br/> </td> 
+   <td> Número de perfis exclusivos para os quais pelo menos um email resultou em uma rejeição.</td> 
+  </tr>
+  <tr> 
+   <td>Taxa de Rejeição Exclusiva<br/> </td> 
+   <td>Porcentagem de perfis únicos cujo email foi rejeitado pelo menos uma vez, com base no número total de envios únicos.</td> 
+  </tr>
   <tr> 
    <td> Cliques únicos<br/> </td> 
    <td> Número de perfis que clicaram em um conteúdo em um email.<br> Observe que ao calcular cliques únicos, os últimos 10 dias são considerados. Se um perfil registrar vários cliques no período de 10 dias, eles serão contados como cliques únicos. No entanto, se um perfil tiver 2 cliques com mais de 10 dias de intervalo, eles não serão considerados cliques exclusivos.<br/> </td> 
+  </tr>
+  <tr> 
+   <td>Taxa de cliques únicos ao abrir<br/> </td> 
+   <td> Porcentagem de perfis únicos que clicaram em um link após abrir o email, com base em aberturas exclusivas. </td> 
+  </tr>
+  <tr> 
+   <td> Taxa de cliques únicos<br/> </td> 
+   <td> Porcentagem de perfis únicos que clicaram em pelo menos um link no email, em relação ao número de emails entregues exclusivos. </td> 
+  </tr>
+  <tr> 
+   <td> Entregas únicas<br/> </td> 
+   <td> Número de perfis únicos que receberam com êxito pelo menos um email.</td> 
   </tr>
   <tr> 
    <td> Cancelamentos de Assinatura de Email Exclusivos<br/> </td> 
    <td> Número de perfis que cancelaram a assinatura de seus emails.<br/> </td> 
   </tr>
   <tr> 
+   <td> Aberturas de email estimadas únicas<br/> </td> 
+   <td> Estimativa do número de destinatários de email únicos que provavelmente abriram o email. Essa métrica tem como objetivo fornecer uma contagem mais precisa do envolvimento individual acionado por servidores de email para verificação de privacidade ou segurança, aplicando uma taxa de abertura exclusiva calculada a partir de perfis exclusivos que abriram manualmente o email para aqueles cujos emails foram abertos apenas por servidores de email.<br/> </td> 
+  </tr>
+  <tr> 
    <td> Aberturas únicas<br/> </td> 
    <td> Número de perfis que abriram o delivery. <br> Observe que ao calcular aberturas únicas, os últimos 10 dias são considerados. Se um perfil registrar várias aberturas no período de 10 dias, elas serão contadas como aberturas exclusivas. No entanto, se um perfil tiver duas aberturas com mais de 10 dias de intervalo, elas não serão consideradas aberturas exclusivas.<br/> </td> 
+  </tr> 
+  <tr>
+  <tr> 
+   <td> Envios únicos<br/> </td> 
+   <td>Número de perfis exclusivos para os quais pelo menos um email tentou ser enviado.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Erros de Envio Exclusivos<br/> </td> 
+   <td>Número de perfis exclusivos que encontraram pelo menos um erro de envio durante o processo de saída.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Exclusões de Envio Exclusivas<br/> </td> 
+   <td>Número de perfis exclusivos excluídos do recebimento de mensagens devido a regras de qualificação, segmentação de público ou status de perfil.<br/> </td> 
+  </tr>
+  <tr> 
+   <td>Direcionado Exclusivo<br/> </td> 
+   <td>Número de perfis exclusivos direcionados durante o processo de envio.<br/> </td> 
   </tr> 
   <tr> 
    <td> Cancelamentos de assinatura<br/> </td> 
