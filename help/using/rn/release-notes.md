@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ef06334d0977af4b325b994bb480162b45ceaecf
+source-git-commit: 08b8fe41c09ee2d2580bebd5d21472576a7c62a6
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 26%
@@ -83,11 +83,12 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <td>
 <p>Agora é possível acionar execuções diárias de jornada após a conclusão da segmentação em lote. Essa opção agora está disponível em jornadas programadas diariamente para todos os clientes. Ele permite definir um período de até 6 horas para aguardar os dados do público-alvo de trabalhos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou ignoradas, se não estiverem prontas.</p>
 <p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+<!--<p>For more information, refer to the <a href="../building-journeys/read-audience.md#schedule">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -120,6 +121,8 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <td>
 <p>Uma visualização de calendário agora está disponível nas listas de jornadas e campanhas. Ele permite visualizar todas as jornadas e ativações de campanhas nas respectivas listas.</p>
 <p>Essa alteração está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+<img src="assets/do-not-localize/calendar.gif">
+<!--<p>For more information, refer to these sections: <a href="../building-journeys/journey-ui.md">Browse & filter your journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Access campaigns</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -146,8 +149,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
@@ -162,8 +163,9 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <ul>
 <li>Suporte estendido: as ferramentas de gerenciamento de conflitos agora oferecem suporte às Jornadas de Jornadas unitárias e qualificação de público-alvo, além das jornadas Ler público-alvo.</li>
 <li>Solução de problemas aprimorada: dois novos campos de evento de etapa estão disponíveis no Serviço de consulta, permitindo analisar por que um perfil foi rejeitado de uma jornada ou campanha.</li>
-<li>Relatórios aprimorados: os relatórios agora indicam qual regra específica excluiu um perfil de uma jornada ou campanha, fornecendo mais transparência e insights acionáveis.</li>
-</ul>
+<li>Relatórios aprimorados: os relatórios agora indicam qual regra específica excluiu um perfil de uma jornada ou campanha, fornecendo mais transparência e insights acionáveis.</li></ul>
+<img src="assets/do-not-localize/gif-conflict.gif">
+<!--<p>For more information, refer to the <a href="../conflict-prioritization/gs-conflict-prioritization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -181,6 +183,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <p>Anteriormente disponível na versão beta, a simulação de variações de conteúdo agora está em disponibilidade geral. Ela permite visualizar diferentes variantes de conteúdo a partir de dados de entrada de amostra enviados de um arquivo CSV ou JSON, ou adicionados manualmente. Todos os atributos usados no conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados nos testes para criar diversas variantes.</p>
 <p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Com esta versão de Disponibilidade Geral, o recurso agora inclui suporte para conteúdo multilíngue e experimentos de conteúdo, permitindo que você teste variações em diferentes idiomas e tratamentos. Além disso, agora ele é compatível com atributos contextuais (além dos atributos de perfil), permitindo testes de conteúdo ainda mais dinâmicos e específicos.</p>
 <img src="assets/do-not-localize/variants.gif">
+<!--<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
