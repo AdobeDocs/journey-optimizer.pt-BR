@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '573'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Com o Adobe Journey Optimizer, você pode criar os seguintes tipos de jornadas:
 
 * **jornadas de qualificação de público-alvo**: essas jornadas começam com um evento de qualificação de público-alvo. Essas jornadas escutam as entradas e saídas dos perfis nos públicos-alvo. Quando isso acontece, o perfil associado entra na jornada. [Leia mais](#entry-unitary)
 
-Em todos os tipos de jornada, um perfil não pode estar presente várias vezes na mesma jornada, ao mesmo tempo. Para verificar se uma pessoa está em uma jornada, a identidade do perfil é usada como uma chave. O sistema não permite que a mesma chave, por exemplo, a chave `CRMID=3224`, esteja em locais diferentes na mesma jornada.
+Em todos os tipos de jornada, um perfil não pode estar presente várias vezes na mesma jornada, ao mesmo tempo, para todas as [versões ativas da jornada](publishing-the-journey.md#journey-versions-journey-versions). Para verificar se uma pessoa está em uma jornada, a identidade do perfil é usada como uma chave. O sistema não permite que a mesma chave, por exemplo, a chave `CRMID=3224`, esteja em locais diferentes na mesma jornada.
 
 ## Jornadas unitárias de qualificação de evento e público-alvo{#entry-unitary}
 

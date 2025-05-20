@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 28%
+source-wordcount: '922'
+ht-degree: 12%
 
 ---
 
@@ -43,6 +43,10 @@ Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]*
 * A guia **[!UICONTROL Procurar]** mostra a lista de jornadas existentes. Você pode pesquisar jornadas, usar filtros e executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item.
 
   ![Painel de jornada destacando a guia Procurar](assets/journeys-browse.png)
+
+Na lista da jornada, todas as versões da jornada são exibidas com o número da versão. Quando você pesquisa uma jornada, as versões mais recentes são exibidas na parte superior da lista na primeira vez que o aplicativo é aberto. Em seguida, você pode definir a classificação desejada e o aplicativo a manterá como uma preferência de usuário. A versão da jornada também é exibida na parte superior da interface de edição da jornada, acima da tela. Saiba mais sobre o [gerenciamento de versão do jornada](publishing-the-journey.md#journey-versions-journey-versions).
+
+
 
 ## Filtrar suas jornadas {#journey-filter}
 
@@ -94,41 +98,6 @@ O status da jornada depende do seu ciclo de vida. Pode ser:
 >
 >* Se você precisar modificar para uma jornada do **live**, [crie uma nova versão](#journey-versions) da jornada.
 
-
-## Versões de jornada {#journey-versions}
-
-Na lista da jornada, todas as versões da jornada são exibidas com o número da versão. Quando você pesquisa uma jornada, as versões mais recentes são exibidas na parte superior da lista na primeira vez que o aplicativo é aberto. Em seguida, você pode definir a classificação desejada e o aplicativo a manterá como uma preferência de usuário. A versão da jornada também é exibida na parte superior da interface de edição da jornada, acima da tela.
-
-![](assets/journeyversions1.png)
-
->[!NOTE]
->
->Geralmente, um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo. Se a reentrada estiver habilitada, um perfil poderá ser inserido em uma jornada novamente, mas não poderá fazer isso até que tenha saído totalmente da instância anterior da jornada. [Leia mais](end-journey.md).
-
-### Criar uma nova versão de uma jornada {#journey-create-new-version}
-
-Se precisar modificar para uma jornada em tempo real, crie uma nova versão da jornada. Para criar uma nova versão de uma jornada existente, siga as etapas abaixo:
-
-1. Abra a versão mais recente da jornada ativa, clique em **[!UICONTROL Criar uma nova versão]** e confirme.
-
-   ![](assets/journeyversions2.png)
-
-   >[!NOTE]
-   >
-   >Só é possível criar uma nova versão com base na versão mais recente de uma jornada.
-
-1. Faça as modificações, clique em **[!UICONTROL Publicar]** e confirme.
-
-A partir do momento em que a jornada for publicada, pessoas físicas começarão a acessar a versão mais recente da jornada. As pessoas que já acessaram uma versão anterior permanecerão nela até que concluam a jornada. Se mais tarde entrarem novamente na mesma jornada, a versão mais recente será acessada.
-
-As versões da jornada podem ser interrompidas individualmente. Todas as versões das jornadas possuem o mesmo nome.
-
-Ao publicar uma nova versão de uma jornada, a versão anterior encerra automaticamente e alterna para o status **Fechado**. Nenhuma entrada na jornada pode acontecer. Mesmo que você interrompa a versão mais recente, a versão anterior permanecerá fechada.
-
-
->[!NOTE]
->
->Medidas de proteção e limitações específicas se aplicam ao controle de versão das jornadas. Saiba mais [nesta página](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Duplicar uma jornada {#duplicate-a-journey}
 
