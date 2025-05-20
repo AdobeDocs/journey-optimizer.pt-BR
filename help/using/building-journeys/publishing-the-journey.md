@@ -9,22 +9,24 @@ role: User
 level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '613'
 ht-degree: 41%
 
 ---
 
 # Publicar a jornada {#publishing-the-journey}
 
-Você deve publicar uma jornada para ativá-la e disponibilizá-la para que novos perfis a insiram. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Não é possível publicar uma jornada com erros.
+Para ativar uma jornada e permitir que novos perfis a insiram, você deve publicá-la. A publicação torna a jornada ativa e funcional. Antes de publicar, verifique se a jornada está completa e válida e corrija os erros, pois uma jornada não pode ser publicada se contiver erros.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
+## Processo de publicação {#journey-publication}
+
 As etapas para publicar uma jornada são detalhadas abaixo:
 
-1. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Você não poderá publicar uma jornada com erros.
+1. Antes de publicar sua jornada, verifique se ela é válida e está livre de erros. As jornadas não podem ser publicadas se contiverem erros.
 
    * Saiba como testar sua jornada em [esta página](testing-the-journey.md).
    * Saiba como solucionar erros do jornada [nesta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
@@ -33,7 +35,7 @@ As etapas para publicar uma jornada são detalhadas abaixo:
 
    >[!NOTE]
    >
-   > Se a jornada estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para poder publicar a jornada. [Saiba mais](../test-approve/gs-approval.md)
+   > Se a jornada estiver sujeita a uma política de aprovação, será necessário solicitar aprovação antes de publicá-la. [Saiba mais](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
@@ -88,4 +90,4 @@ Ao publicar uma nova versão de uma jornada, a versão anterior encerra automati
 
 Saiba como publicar uma jornada neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427939?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
