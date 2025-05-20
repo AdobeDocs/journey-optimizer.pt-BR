@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
+source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '460'
 ht-degree: 5%
 
 ---
@@ -42,18 +42,23 @@ Antes de ativar a campanha de correspondência direta, verifique se a campanha e
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-Quando a campanha de correspondência direta estiver pronta, clique no botão **[!UICONTROL Ativar]**. Quando a campanha for iniciada, o arquivo de extração será gerado e exportado automaticamente para o servidor especificado em sua [configuração de roteamento de arquivos](../direct-mail/direct-mail-configuration.md).
+Quando a campanha de correspondência direta estiver pronta, clique no botão **[!UICONTROL Ativar]**. Quando a campanha é iniciada, o arquivo de extração é gerado automaticamente e exportado para o servidor especificado em sua [configuração de roteamento de arquivos](../direct-mail/direct-mail-configuration.md).
+
+>[!NOTE]
+>
+>O arquivo exportado por padrão termina com uma nova linha. Isso garante a compatibilidade com as ferramentas padrão de processamento de dados.
+
 
 Depois de enviado, você pode medir o impacto da campanha de correspondência direta nos relatórios do Campaign. Para obter mais informações sobre relatórios de correspondência direta, consulte [esta seção](../reports/campaign-global-report-cja-direct.md).
 
 ## Gerenciar o consentimento para correspondência direta {#dm-consent-management}
 
-No [!DNL Journey Optimizer], o consentimento é tratado pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"} da Experience Platform. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações.
+Em [!DNL Journey Optimizer], o consentimento é gerido pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"} da Experience Platform. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações.
 
 Se um perfil optou por não receber correspondência direta, nos atributos de perfil correspondentes do Experience Platform, o valor de `consents.marketing.postalMail.val` será `n` e o perfil correspondente será excluído das entregas subsequentes.
 
 Para habilitá-lo novamente, o atributo de perfil deve ser alterado de volta para `consents.marketing.postalMail.val` : `y`.
 
-Para gerenciar os atributos de um perfil, acesse o Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
+Para gerenciar os atributos de um perfil, acesse o Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
 
 Saiba mais sobre como gerenciar a opção de não participação no Journey Optimizer em [esta seção](../privacy/opt-out.md).

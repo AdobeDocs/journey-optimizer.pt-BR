@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 97%
+source-wordcount: '2504'
+ht-degree: 95%
 
 ---
 
@@ -212,9 +212,11 @@ A seguinte medida de proteção se aplica à atividade de [qualificação de pú
 
 ### Editor de expressão {#expression-editor}
 
-A seguinte medida de proteção se aplica ao [editor de expressão da jornada](../building-journeys/expression/expressionadvanced.md):
+As seguintes medidas de proteção se aplicam ao [editor de expressão de jornada](../building-journeys/expression/expressionadvanced.md):
 
 * Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de leitura de público-alvo, qualificação de público-alvo ou de evento de negócios. É necessário criar um novo público-alvo e usar uma condição de público-alvo na jornada.
+* Atributos `timeSeriesEvents` não podem ser usados no editor de expressão. Para acessar Eventos de experiência em nível de perfil, crie um novo grupo de campos com base em um esquema `XDM ExperienceEvent`.
+
 
 ### Atividade No aplicativo {#in-app-activity-limitations}
 
