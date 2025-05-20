@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ef93f92e717815a89e03e4ba85331aac6a041ee8
+source-git-commit: 4363928c54b42cff259df63b24636b48c3bd1433
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 25%
+source-wordcount: '1268'
+ht-degree: 26%
 
 ---
 
@@ -189,20 +189,20 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Dimensionar o vencedor da experimentação</strong><br/></th>
+<th><strong>Scale your Experimentation winner</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dimensionar o Vencedor permite implantar automática ou manualmente a variação vencedora de um experimento em todo o seu público-alvo. Esse recurso garante que, uma vez identificado o executor com melhor desempenho, você possa maximizar seu alcance e eficácia sem supervisão manual constante.</p>
+<p>Scale the Winner enables you to automatically or manually roll out the winning variation of an experiment to your full audience. This feature ensures that, once a top performer is identified, you can maximize its reach and effectiveness without constant manual oversight.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
