@@ -19,8 +19,7 @@ ht-degree: 82%
 Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Journey Optimizer. Para obter uma lista de todos os recursos, melhorias e correções, confira as [Notas de versão](using/rn/release-notes.md) detalhadas. Visite a [página de atualizações da documentação](using/rn/documentation-updates.md) para se manter atualizado com as alterações mais recentes na documentação do produto.
 
 >[!BEGINTABS]
-
->Versão de [!TAB maio de 2025]
+>[!TAB Versão de  maio de 2025]
 
 A versão de maio está disponível! Confira as notas de versão para descobrir novos recursos, alterações e melhorias.
 
