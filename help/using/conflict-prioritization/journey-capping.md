@@ -3,15 +3,20 @@ title: Limite e arbitragem de jornada
 description: Saiba como criar regras de limitação para suas jornadas e como arbitrar a entrada de jornada
 role: User
 level: Beginner
+badge: label="Disponibilidade limitada"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 19%
+source-wordcount: '943'
+ht-degree: 25%
 
 ---
 
 # Limite e arbitragem de jornada {#journey-capping}
+
+>[!AVAILABILITY]
+>
+>Os recursos de conflito e priorização estão atualmente em disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão lançados de forma gradual para mais usuários no futuro. Entre em contato com a equipe de conta se tiver interesse em participar da lista de espera desses recursos.
 
 O limite de jornada ajuda a limitar o número de jornadas nas quais um perfil pode ser inscrito, evitando a sobrecarga de comunicação. No Journey Optimizer, você pode definir dois tipos de regras de limitação:
 
@@ -19,6 +24,10 @@ O limite de jornada ajuda a limitar o número de jornadas nas quais um perfil po
 * **Limite de simultaneidade** limita quantas jornadas um perfil pode ser inscrito simultaneamente.
 
 Ambos os tipos de limite de jornada usam pontuações de prioridade para arbitrar entradas.
+
+>[!AVAILABILITY]
+>
+>Os conjuntos de regras de domínio do **Jornada** estão disponíveis somente para um conjunto limitado de usuários (Disponibilidade Limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -48,49 +57,59 @@ Para criar uma regra de limite de jornada, siga estas etapas:
 
      ![](assets/journey-capping-rule-set.png)
 
-1. Na tela do conjunto de regras, clique no botão **[!UICONTROL Adicionar regra]** e forneça um nome exclusivo para a regra.
-
-1. Na lista suspensa **[!UICONTROL Tipo de Regra]**, especifique o tipo de limite para a regra.
-
-   * **[!UICONTROL Limite de Entrada de Jornada]**: Limita o número de entradas na jornada em um determinado período para um perfil.
-   * **[!UICONTROL Limite de Simultaneidade de Jornada]**: Limita quantas jornadas um perfil pode ser inscrito simultaneamente.
+1. Na tela do conjunto de regras, clique no botão **[!UICONTROL Adicionar regra]** e configure a regra para atender às suas necessidades:
 
    ![](assets/journey-capping-concurrency.png)
 
-1. Expanda as seções abaixo para saber como configurar cada tipo de limite:
+   * Forneça um nome exclusivo para a regra.
 
-   +++Configurar uma regra de limite de entrada de jornada
+   * Na lista suspensa **[!UICONTROL Tipo de Regra]**, especifique o tipo de limite para a regra.
 
-   1. No campo **[!UICONTROL Limite]**, defina o número máximo de jornadas que um perfil pode inserir.
-   1. No campo **[!UICONTROL Duration]**, defina o período a ser considerado. Observe que a duração se baseia no fuso horário UTC. Por exemplo, o limite Diário será redefinido à meia-noite UTC.
+      * **[!UICONTROL Limite de Entrada de Jornada]**: Limita o número de entradas na jornada em um determinado período para um perfil.
+      * **[!UICONTROL Limite de Simultaneidade de Jornada]**: Limita quantas jornadas um perfil pode ser inscrito simultaneamente.
 
-   Neste exemplo, queremos impedir que perfis insiram mais de &quot;5&quot; jornadas em um mês.
+   * Expanda as seções abaixo para saber como configurar cada tipo de limite:
 
-   ![](assets/journey-capping-entry-example.png)
+     +++Configurar uma regra de limite de entrada de jornada
 
-   >[!NOTE]
-   >
-   >O sistema levará em consideração a prioridade das jornadas programadas futuras que tenham essa mesma regra aplicada a ele.
-   >
-   >Neste exemplo, se o profissional de marketing já tiver inserido 4 jornadas e houver outra jornada programada para este mês com uma prioridade mais alta, os clientes não poderão entrar na jornada de prioridade mais baixa.
+      1. No campo **[!UICONTROL Limite]**, defina o número máximo de jornadas que um perfil pode inserir.
+      1. No campo **[!UICONTROL Duration]**, defina o período a ser considerado. Observe que a duração se baseia no fuso horário UTC. Por exemplo, o limite Diário será redefinido à meia-noite UTC.
 
-   +++
+     >[!AVAILABILITY]
+     >
+     >A duração &quot;Diária&quot; só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
-   +++Configurar uma regra de limite de simultaneidade de jornada
+     Neste exemplo, queremos impedir que perfis insiram mais de &quot;5&quot; jornadas em um mês.
 
-   1. No campo **[!UICONTROL Limite]**, defina o número máximo de jornadas nas quais um perfil pode ser inscrito simultaneamente.
+     ![](assets/journey-capping-entry-example.png)
 
-   1. Use o campo **[!UICONTROL Priorização antecipada]** para arbitrar as entradas de jornada com base nas pontuações de prioridade em um período escolhido (por exemplo, 1 dia, 7 dias, 30 dias). Isso ajuda a priorizar a entrada em jornadas de valor mais alto se um perfil estiver qualificado para várias jornadas.
+     >[!NOTE]
+     >
+     >O sistema levará em consideração a prioridade das jornadas programadas futuras que tenham essa mesma regra aplicada a ele.
+     >
+     >Neste exemplo, se o profissional de marketing já tiver inserido 4 jornadas e houver outra jornada programada para este mês com uma prioridade mais alta, os clientes não poderão entrar na jornada de prioridade mais baixa.
 
-   Neste exemplo, queremos impedir que os perfis entrem na jornada se já estiverem inscritos em outra jornada que contenha o mesmo conjunto de regras. Se outra jornada nos próximos 7 dias tiver uma pontuação de prioridade mais alta, o perfil não inserirá essa jornada.
++++
 
-   ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
+     +++Configurar uma regra de limite de simultaneidade de jornada
 
-   +++
+      1. No campo **[!UICONTROL Limite]**, defina o número máximo de jornadas nas quais um perfil pode ser inscrito simultaneamente.
 
-1. Repita as etapas acima para adicionar quantas regras forem necessárias ao conjunto de regras.
+      1. Use o campo **[!UICONTROL Priorização antecipada]** para arbitrar as entradas de jornada com base nas pontuações de prioridade em um período escolhido (por exemplo, 1 dia, 7 dias, 30 dias). Isso ajuda a priorizar a entrada em jornadas de valor mais alto se um perfil estiver qualificado para várias jornadas.
 
-1. Quando a regra de limitação estiver pronta para ser aplicada a jornadas, ative a regra e o conjunto de regras em que ela foi adicionada. [Saiba como ativar conjuntos de regras](../conflict-prioritization/rule-sets.md#create)
+     Neste exemplo, queremos impedir que os perfis entrem na jornada se já estiverem inscritos em outra jornada que contenha o mesmo conjunto de regras. Se outra jornada nos próximos 7 dias tiver uma pontuação de prioridade mais alta, o perfil não inserirá essa jornada.
+
+     ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
+
++++
+
+1. Quando a regra de limitação estiver pronta para ser aplicada às jornadas, ative-a clicando no botão de reticências ao lado do nome.
+
+   ![](assets/journey-capping-activate-rule.png)
+
+1. Ative todo o conjunto de regras clicando no botão de reticências ao lado do botão Adicionar regra no canto superior direito da tela.
+
+   ![](assets/journey-capping-activate-rule-set.png)
 
 ## Aplicar regras de limitação a jornadas {#apply-capping}
 
@@ -103,18 +122,14 @@ Para aplicar uma regra de limitação a uma jornada, acesse a jornada e abra sua
 
 ![](assets/journey-capping-apply.png)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Se uma jornada for ativada imediatamente, pode levar até 10 minutos para que o sistema comece a suprimir clientes. Como resultado, uma mensagem será exibida se você tentar publicar uma jornada com uma hora de início inferior a 10 minutos.
+>Se uma jornada for ativada imediatamente, pode levar até 20 minutos para que o sistema comece a suprimir clientes. Você pode agendar sua jornada para começar pelo menos 20 minutos no futuro para evitar essa possibilidade.
 
-## Monitorar exclusões do conjunto de regras {#monitor}
-
-Quando uma jornada estiver ativa, você poderá verificar no relatório de jornadas se o conjunto de regras levou a qualquer exclusão da jornada, na tabela **[!UICONTROL Exclusões de Jornadas]**. A tabela Exclusões de Jornada inclui detalhamentos de exclusões por conjunto de regras e nome de regras, fornecendo insights sobre por que os perfis foram descartados. [Saiba como trabalhar com relatórios do jornada](../reports/journey-global-report-cja.md)
+Quando a jornada estiver ativa, você poderá verificar no relatório de jornadas se o conjunto de regras levou a qualquer exclusão da jornada, na tabela **[!UICONTROL Exclusões de Jornadas]**. [Saiba como trabalhar com relatórios do jornada](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 
-Além disso, você também pode aproveitar o **Serviço de consulta** da Adobe Experience Platform para criar consultas para identificar qual regra fez com que um perfil não entrasse em uma determinada jornada. Um exemplo de consulta está disponível em [esta seção](../reports/query-examples.md#common-queries).
-
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447620?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

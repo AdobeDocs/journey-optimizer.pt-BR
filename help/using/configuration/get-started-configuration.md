@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuração, configurar, mensagens, canal, sandbox, otimizador
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 54%
@@ -60,6 +60,6 @@ Para enviar mensagens, você precisa seguir as etapas de configuração listadas
 
    * Ativar a **Opção de email CCO** para manter uma cópia das mensagens enviadas a pessoas físicas. [Saiba mais](archiving-support.md#enable-bcc)
 
-   * Configure as **regras de negócio** para evitar o excesso de solicitações de seus destinatários. [Saiba mais](../conflict-prioritization/rule-sets.md)
+   * Configure as **regras de negócio** para evitar o excesso de solicitações de seus destinatários. [Saiba mais](../configuration/rule-sets.md)
 
    * Determine qual endereço de email e/ou número de telefone deve ser usado com prioridade para seus destinatários quando vários endereços/números estiverem disponíveis na Adobe Experience Platform. [Saiba mais](primary-email-addresses.md)

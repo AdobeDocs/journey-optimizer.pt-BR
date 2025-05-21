@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '2390'
-ht-degree: 97%
+source-wordcount: '2378'
+ht-degree: 98%
 
 ---
 
@@ -213,10 +213,7 @@ ht-degree: 97%
    + [Introdução ao gerenciamento de conflitos e priorização](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar possíveis conflitos](using/conflict-prioritization/conflicts.md)
    + [Atribuir pontuações de prioridade](using/conflict-prioritization/priority-scores.md)
-Definir regras de limitação de mensagens e jornadas {#capping-rules}
-      + [Trabalhar com conjuntos de regras](using/conflict-prioritization/rule-sets.md)
-      + [Limite e arbitragem de jornada](using/conflict-prioritization/journey-capping.md)
-      + [Limite de frequência por canal e tipo de comunicação](using/conflict-prioritization/channel-capping.md)
+   + [Limite e arbitragem de jornada](using/conflict-prioritization/journey-capping.md)
 + Testar e aprovar {#test}
    + Visualizar e testar conteúdo {#preview-test}
       + [Introdução à visualização e teste](using/content-management/preview-test.md)
@@ -733,6 +730,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
    + [Configurar regra de negócios](using/configuration/frequency-rules.md)
+   + [Trabalhar com conjuntos de regras](using/configuration/rule-sets.md)
 + Configuração de jornada {#configure-journeys}
    + [Configurar fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
    + Configuração de evento {#events-journeys}
