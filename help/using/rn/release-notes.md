@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e6cbe48b102d1ac0259bb7fac96c3c8331e5a643
+source-git-commit: 8a4ae82271a2bcac14e7c6ac8c3b0265b4fe760b
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 29%
+source-wordcount: '667'
+ht-degree: 31%
 
 ---
 
@@ -146,27 +146,27 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 </tbody>
 </table-->
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>Conflito e priorização</strong><br/></th>
+<th><strong>Conflict & prioritization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>No Journey Optimizer, gerenciar o volume e o momento certo para uso de campanhas e jornadas é essencial para não sobrecarregar clientes com muitas interações. O Journey Optimizer agora oferece várias ferramentas para o gerenciamento de conflitos e a priorização - antes disponíveis apenas para organizações de acesso limitado (DL) - que agora estão disponíveis no mercado (GA).</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Com esta versão de Disponibilidade Geral, foram introduzidos os seguintes aprimoramentos:</p>
+<p>In Journey Optimizer, managing the volume and timing of campaigns and journeys is essential to avoid overwhelming customers with too many interactions. Journey Optimizer now offers several tools for conflict management and prioritization - previously available only to limited-access (LA) organizations - that are now generally available (GA).</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments. With this General Availability release, the following enhancements have been introduced:</p>
 <ul>
-<li>Suporte estendido: as ferramentas de gerenciamento de conflitos agora oferecem suporte às Jornadas de Jornadas unitárias e qualificação de público-alvo, além das jornadas Ler público-alvo.</li>
-<li>Solução de problemas aprimorada: dois novos campos de evento de etapa estão disponíveis no Serviço de consulta, permitindo analisar por que um perfil foi rejeitado de uma jornada ou campanha.</li>
-<li>Relatórios aprimorados: os relatórios agora indicam qual regra específica excluiu um perfil de uma jornada ou campanha, fornecendo mais transparência e insights acionáveis.</li></ul>
+<li>Expanded Support: Conflict management tools now support both Unitary Journeys and Audience Qualification Journeys, in addition to Read audience journeys.</li>
+<li>Improved Troubleshooting: Two new step event fields are now available in the Query Service, enabling you to analyze why a profile was rejected from a journey or campaign.</li>
+<li>Enhanced Reporting: Reports now indicate which specific rule excluded a profile from a journey or campaign, providing greater transparency and actionable insights.</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
-<p>Para obter mais informações, consulte a <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentação detalhada</a>.</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/gs-conflict-prioritization.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <!--<table>
 <thead>
