@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: e6cbe48b102d1ac0259bb7fac96c3c8331e5a643
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 28%
+source-wordcount: '817'
+ht-degree: 29%
 
 ---
 
@@ -257,7 +257,7 @@ As melhorias incluídas nesta versão estão listadas abaixo.
 
 * **Correspondência direta: Suporte à chave SSH para conexões SFTP** - Data de disponibilidade: 5 de maio de 2025
 
-  Na configuração de roteamento de arquivo de correspondência direta, além do SFTP existente com tipo de autenticação de senha, agora é possível exportar seu arquivo de correspondência direta para um servidor SFTP com autenticação de chave SSH.
+  Na configuração de roteamento de arquivo de correspondência direta, além do SFTP existente com tipo de autenticação de senha, agora é possível exportar seu arquivo de correspondência direta para um servidor SFTP com autenticação de chave SSH. [Leia mais](../direct-mail/direct-mail-configuration.md)
 
 * **Ativação de pílulas para personalização** - Data de disponibilidade: 5 de maio de 2025
 
