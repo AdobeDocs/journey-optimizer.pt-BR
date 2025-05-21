@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '636'
 ht-degree: 22%
 
 ---
@@ -29,10 +29,6 @@ Os públicos-alvo estão prontos para uso no Journey Optimizer logo após a conc
 
 Para públicos resultantes de trabalhos de segmentação em lote, a ativação pode ser atrasada devido à variabilidade da assimilação em lote. Para jornadas de leitura de público agendadas diariamente, você pode definir uma janela de tempo nas propriedades da jornada para garantir que dados novos do público-alvo estejam disponíveis antes da execução da jornada. Se o trabalho de segmentação não for concluído dentro da janela de tempo definida, a jornada será ignorada até a próxima ocorrência. [Saiba como agendar uma jornada de leitura de público-alvo](../building-journeys/read-audience.md)
 
->[!AVAILABILITY]
->
->A opção **[!UICONTROL Acionar após avaliação de público-alvo em lote]** só está disponível para um conjunto de organizações (Disponibilidade Limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
-
 ## Composição de upload personalizado e público-alvo federado
 
 Para públicos-alvo de upload personalizado e composição de público-alvo federado, observe as seguintes medidas de proteção:
@@ -49,7 +45,7 @@ Para públicos-alvo de upload personalizado e composição de público-alvo fede
 
 É possível aproveitar os públicos-alvo no **[!DNL Journey Optimizer]** de maneiras diferentes:
 
-* Escolha um público para uma **campanha**, na qual a mensagem é enviada a todos os indivíduos que pertencem ao público-alvo selecionado. [Saiba como definir o público-alvo de uma campanha](../campaigns/create-campaign.md#define-the-audience-audience).
+* Escolha um público para uma **campanha**, na qual a mensagem é enviada a todas as pessoas que pertencem ao público-alvo selecionado. [Saiba como definir o público-alvo de uma campanha](../campaigns/create-campaign.md#define-the-audience-audience).
 
 * Use uma atividade de orquestração de **Ler público** em uma jornada para fazer com que todos os indivíduos do público entrem na jornada e recebam as mensagens incluídas na jornada. Digamos que você tenha um público-alvo de “cliente prata”. Com essa atividade, você pode fazer com que todos os clientes prata entrem em uma jornada e enviar-lhes uma série de mensagens personalizadas. [Saiba como configurar uma atividade Ler público-alvo](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
