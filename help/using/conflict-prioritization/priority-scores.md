@@ -48,4 +48,4 @@ Para atribuir uma pontuação de prioridade a uma jornada ou campanha, insira um
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445006?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
