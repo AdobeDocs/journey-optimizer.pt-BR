@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '603'
 ht-degree: 3%
 
 ---
@@ -25,10 +25,6 @@ Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Content Ma
 Todos os modelos criados na sandbox atual - de uma jornada ou campanha usando a opção **[!UICONTROL Salvar como modelo]**, no menu **[!UICONTROL Modelos de conteúdo]** - são exibidos. [Saiba como criar modelos](#create-content-templates)
 
 O painel à esquerda permite organizar modelos de conteúdo em pastas. Por padrão, todos os modelos são exibidos. Ao selecionar uma pasta, somente os modelos e as pastas incluídos na pasta selecionada são exibidos. [Saiba mais](#folders)
-
->[!NOTE]
->
->As pastas de modelo de conteúdo só estão disponíveis para um conjunto de organizações (Disponibilidade limitada) e serão gradualmente implantadas para mais usuários.
 
 ![](assets/content-template-list-folders.png)
 
@@ -49,10 +45,6 @@ Você também pode optar por exibir somente os itens que você mesmo criou ou mo
 >A partir de março de 2025, os modelos de conteúdo do tipo HTML serão descontinuados. Você ainda pode acessar modelos de conteúdo HTML existentes criados anteriormente no [!DNL Journey Optimizer].
 
 ## Usar pastas para gerenciar modelos de conteúdo {#folders}
-
->[!AVAILABILITY]
->
->As pastas de modelo de conteúdo só estão disponíveis para um conjunto de organizações (Disponibilidade limitada) e serão gradualmente implantadas para mais usuários.
 
 Para navegar facilmente pelos modelos de conteúdo, você pode usar pastas para organizá-los com mais eficiência em uma hierarquia estruturada. Isso permite categorizar e gerenciar os itens de acordo com as necessidades da organização.
 

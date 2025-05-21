@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -856,7 +856,7 @@ Leia mais na documentação dos [fragmentos de conteúdo](../content-management/
 
 * **Cancelar inscrição em lista**: após os anúncios recentes do Gmail e do Yahoo para remetentes em massa, o Journey Optimizer se tornou compatível com a opção “post/1-click” para cancelar inscrição em lista. Consulte as seguintes páginas: [gerenciamento de recusa de email](../email/email-opt-out.md#unsubscribe-header) e [definir configurações de email](../email/email-settings.md#list-unsubscribe).
 
-  **OBSERVAÇÃO**: em novas superfícies de canal, a opção “Cancelar inscrição na lista” está ativada por padrão. Em superfícies existentes, a opção “URL de cancelamento de inscrição com um clique” está desmarcada por padrão nas configurações da superfície de canal. Se você estava usando um URL de recusa com um clique no corpo do email anteriormente, essa configuração ainda é válida. Se a opção “URL de cancelamento de inscrição com um clique” estiver marcada nas configurações da superfície de canal, o Adobe Journey Optimizer usará o URL  padrão gerado nas configurações.
+  **OBSERVAÇÃO**: em novas superfícies de canal, a opção de cabeçalho “Cancelar inscrição na lista” está ativada por padrão. Em superfícies existentes, a opção “URL de cancelamento de inscrição com um clique” está desmarcada por padrão nas configurações da superfície de canal. Se você estava usando um URL de recusa com um clique no corpo do email anteriormente, essa configuração ainda é válida. Se a opção “URL de cancelamento de inscrição com um clique” estiver marcada nas configurações da superfície de canal, o Adobe Journey Optimizer usará o URL  padrão gerado nas configurações.
 
 #### Canal de SMS
 
@@ -1266,7 +1266,7 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 
 **Regras de frequência**
 
-* Além de Email e Push, agora é possível criar regras de frequência para canais de SMS e de correspondência direta. As regras de frequência excluem automaticamente perfis excessivamente solicitados de mensagens e ações quando o limite de frequência é atingido. [Leia mais](../configuration/rule-sets.md)
+* Além de Email e Push, agora é possível criar regras de frequência para canais de SMS e de correspondência direta. As regras de frequência excluem automaticamente perfis excessivamente solicitados de mensagens e ações quando o limite de frequência é atingido. [Leia mais](../conflict-prioritization/rule-sets.md)
 
 <!--**Decision management**
 
@@ -1342,7 +1342,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Regras de frequência**
 
-* **Limite de frequência semanal**: agora é possível especificar o número máximo de mensagens enviadas para um perfil de cliente por semana, além de por mês. O limite de frequência é baseado no período do calendário selecionado e redefinido no início do período correspondente. [Saiba mais](../configuration/rule-sets.md)
+* **Limite de frequência semanal**: agora é possível especificar o número máximo de mensagens enviadas para um perfil de cliente por semana, além de por mês. O limite de frequência é baseado no período do calendário selecionado e redefinido no início do período correspondente. [Saiba mais](../conflict-prioritization/rule-sets.md)
 
   >[!NOTE]
   >

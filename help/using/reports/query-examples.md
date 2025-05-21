@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1499'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Esta seção lista vários exemplos usados com frequência para consultar Evento
 
 Verifique se os campos usados em suas consultas têm valores associados no esquema correspondente.
 
-**Qual é a diferença entre id, instanceid e profileid**
++++Qual é a diferença entre id, instanceid e profileid
 
 * id: exclusiva para todas as entradas de evento de etapa. Dois eventos de etapa diferentes não podem ter a mesma ID.
 * instanceId: instanceID é o mesmo para todos os eventos de etapa associados a um perfil em uma execução de jornada. Se um perfil entrar novamente na jornada, uma instanceId diferente será usada. Essa nova instanceId será a mesma para todos os eventos de etapa da instância reinserida (do início ao fim).
@@ -33,7 +33,7 @@ Verifique se os campos usados em suas consultas têm valores associados no esque
 
 ## Casos de uso básicos/consultas comuns {#common-queries}
 
-**Quantos perfis entraram em uma jornada em um determinado período**
++++Quantos perfis entraram em uma jornada em um determinado período
 
 Esta consulta fornece o número de perfis distintos que entraram na jornada especificada no período.
 
@@ -47,7 +47,32 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Quantos erros ocorreram em cada nó de uma jornada específica por um determinado período**
++++
+
++++Qual regra fez com que um perfil não entrasse em uma determinada jornada
+
+_Exemplo_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
++++
+
++++Quantos erros ocorreram em cada nó de uma jornada específica por um determinado período
 
 _Consulta do Data Lake_
 
@@ -69,7 +94,9 @@ AND
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
 
-**Quantos eventos foram descartados de uma jornada específica em um determinado período**
++++
+
++++Quantos eventos foram descartados de uma jornada específica em um determinado período
 
 _Consulta do Data Lake_
 
@@ -81,7 +108,9 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVers
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**O que acontece com um perfil específico em uma jornada específica em um período específico**
++++
+
++++O que acontece com um perfil específico em uma jornada específica em um período específico
 
 _Consulta do Data Lake_
 
@@ -108,7 +137,9 @@ AND
 ORDER BY timestamp;
 ```
 
-**Quanto tempo decorreu entre dois nós**
++++
+
++++Quanto tempo decorreu entre dois nós
 
 Essas consultas podem ser usadas, por exemplo, para estimar o tempo gasto em uma atividade de espera. Isso permite verificar se a atividade de espera está configurada corretamente.
 
@@ -235,7 +266,9 @@ WHERE
     T1.INSTANCE_ID = T2.INSTANCE_ID
 ```
 
-**Como verificar os detalhes de um serviceEvent**
++++
+
++++Como verificar os detalhes de um serviceEvent
 
 O conjunto de dados de Eventos de etapa de Jornada contém todos os stepEvents e serviceEvents. stepEvents são usados em relatórios, pois se relacionam a atividades (evento, ações etc.) de perfis em uma jornada. serviceEvents são armazenados no mesmo conjunto de dados e indicam informações adicionais para fins de depuração, por exemplo, o motivo para um descarte de evento de experiência.
 
@@ -257,7 +290,7 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 ## Erros de mensagem/ação {#message-action-errors}
 
-**Lista de cada erro encontrado no jornada**
++++Lista de cada erro encontrado no jornada
 
 Essa consulta permite listar cada erro encontrado no jornada ao executar uma mensagem/ação.
 
@@ -283,9 +316,11 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 Esta consulta retorna todos os erros diferentes que ocorreram ao executar uma ação em uma jornada junto com a contagem de quantas vezes ela ocorreu.
 
++++
+
 ## Consultas baseadas em perfil {#profile-based-queries}
 
-**Descubra se um perfil inseriu uma Jornada específica**
++++Localiza se um perfil inseriu uma Jornada específica
 
 _Consulta do Data Lake_
 
@@ -307,7 +342,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 O resultado deve ser maior que 0. Esta consulta retorna o número exato de vezes que um perfil inseriu uma jornada.
 
-**Descubra se um perfil recebeu uma mensagem específica**
++++
+
++++Localiza se um perfil recebeu uma mensagem específica
 
 Método 1: se o nome da mensagem não for exclusivo na jornada (ela é usada em vários locais).
 
@@ -357,7 +394,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 A consulta retorna a lista de todas as mensagens juntamente com sua contagem invocada para o perfil selecionado.
 
-**Localizar todas as mensagens recebidas por um perfil nos últimos 30 dias**
++++
+
++++Localiza todas as mensagens recebidas por um perfil nos últimos 30 dias
 
 _Consulta do Data Lake_
 
@@ -383,7 +422,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 A consulta retorna a lista de todas as mensagens juntamente com sua contagem invocada para o perfil selecionado.
 
-**Localizar todas as jornadas inseridas por um perfil nos últimos 30 dias**
++++
+
++++Localiza todas as jornadas inseridas por um perfil nos últimos 30 dias
 
 _Consulta do Data Lake_
 
@@ -407,7 +448,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 A consulta retorna a lista de todos os nomes de jornada juntamente com o número de vezes que o perfil consultado inseriu a jornada.
 
-**Número de perfis qualificados para uma jornada diariamente**
++++
+
++++Número de perfis qualificados para uma jornada diariamente
 
 _Consulta do Data Lake_
 
@@ -431,9 +474,11 @@ ORDER BY DATE(timestamp) desc
 
 O query retorna, para o período definido, o número de perfis que entraram na jornada a cada dia. Se um perfil inserido por meio de várias identidades, ele será contado duas vezes. Se a reentrada estiver ativada, a contagem de perfis poderá ser duplicada em dias diferentes se ela entrar novamente na jornada em dias diferentes.
 
++++
+
 ## Consultas relacionadas ao público-alvo de leitura {#read-segment-queries}
 
-**Tempo necessário para concluir um trabalho de exportação de público-alvo**
++++Tempo necessário para concluir um trabalho de exportação de público-alvo
 
 _Consulta do Data Lake_
 
@@ -465,7 +510,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 A consulta retorna a diferença de tempo, em minutos, entre o momento em que o trabalho de exportação de público-alvo foi enfileirado e o momento em que foi encerrado.
 
-**Número de perfis descartados pela jornada porque estavam duplicados**
++++
+
++++Número de perfis que foram descartados pela jornada porque estavam duplicados
 
 _Consulta do Data Lake_
 
@@ -487,7 +534,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 A consulta retorna todas as IDs de perfil que foram descartadas pela jornada porque estavam duplicadas.
 
-**Número de perfis descartados pela jornada devido a um namespace inválido**
++++
+
++++Número de perfis descartados pela jornada devido a um namespace inválido
 
 _Consulta do Data Lake_
 
@@ -509,7 +558,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 A consulta retorna todas as IDs de perfil que foram descartadas pela jornada porque tinham um namespace inválido ou nenhuma identidade para esse namespace.
 
-**Número de perfis que foram descartados pela jornada devido a nenhum mapa de identidade**
++++
+
++++Número de perfis que foram descartados pela jornada devido a nenhum mapa de identidade
 
 _Consulta do Data Lake_
 
@@ -531,7 +582,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 A consulta retorna todas as IDs de perfil que foram descartadas pela jornada porque o mapa de identidade estava ausente.
 
-**Número de perfis descartados pela jornada porque a jornada estava no nó de teste e o perfil não era um perfil de teste**
++++
+
++++Número de perfis que foram descartados pela jornada porque a jornada estava no nó de teste e o perfil não era um perfil de teste
 
 _Consulta do Data Lake_
 
@@ -553,7 +606,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 A consulta retorna todas as IDs de perfil que foram descartadas pela jornada porque o trabalho de exportação foi executado no modo de teste, mas o perfil não tinha o atributo testProfile definido como verdadeiro.
 
-**Número de perfis descartados pela jornada devido a um erro interno**
++++
+
++++Número de perfis descartados pela jornada devido a um erro interno
 
 _Consulta do Data Lake_
 
@@ -575,7 +630,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 A consulta retorna todas as IDs de perfil que foram descartadas pela jornada devido a um erro interno.
 
-**Visão geral do Público-alvo de Leitura para uma determinada versão do jornada**
++++
+
++++Visão geral do público-alvo de leitura para uma determinada versão do jornada
 
 _Consulta do Data Lake_
 
@@ -613,7 +670,10 @@ IMPORTANTE: se não houver nenhum evento retornado por essa consulta, talvez sej
 * a versão do jornada não atingiu o cronograma
 * se a versão do jornada deveria ter acionado o trabalho de exportação chamando o orchestrator, algo deu errado no fluxo upstram: problema na implantação do jornada, evento comercial ou problema com o scheduler.
 
-**Obter erros de leitura de público para uma determinada versão do jornada**
++++
+
+
++++Obter erros de público-alvo de leitura para uma determinada versão do jornada
 
 _Consulta do Data Lake_
 
@@ -639,7 +699,9 @@ WHERE
     )
 ```
 
-**Obter status de processamento do trabalho de exportação**
++++
+
++++Obter status de processamento do trabalho de exportação
 
 _Consulta do Data Lake_
 
@@ -668,7 +730,9 @@ Se nenhum registro for retornado, significa que:
 * ocorreu um erro durante a criação do tópico ou do trabalho de exportação
 * o trabalho de exportação ainda está em execução
 
-**Obtenha métricas sobre perfis exportados, incluindo descartes e métricas de trabalho de exportação para cada trabalho de exportação**
++++
+
++++Obter métricas em perfis exportados, incluindo descartes e métricas de trabalho de exportação para cada trabalho de exportação
 
 _Consulta do Data Lake_
 
@@ -728,7 +792,9 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Obter métricas agregadas (trabalhos de exportação de público-alvo e descartes) em todos os trabalhos de exportação**
++++
+
++++Obter métricas agregadas (trabalhos de exportação de público-alvo e descartes) em todos os trabalhos de exportação
 
 _Consulta do Data Lake_
 
@@ -791,9 +857,11 @@ Esta consulta é diferente da anterior.
 
 Ele retorna as métricas gerais de uma determinada versão do jornada, independentemente das tarefas que podem ter sido executadas para ele (no caso de jornadas recorrentes, eventos comerciais acionados por meio da reutilização de tópicos).
 
++++
+
 ## Consultas relacionadas à qualificação de público-alvo {#segment-qualification-queries}
 
-**Perfil descartado devido a uma realização de público diferente da configurada**
++++Perfil descartado devido a uma realização de público-alvo diferente da configurada
 
 _Consulta do Data Lake_
 
@@ -817,7 +885,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 Esta consulta retorna todas as IDs de perfil que foram descartadas pela versão do jornada devido à realização incorreta do público-alvo.
 
-**Eventos de qualificação de público-alvo descartados por qualquer outro motivo para um perfil específico**
++++
+
++++Eventos de qualificação de público-alvo descartados por qualquer outro motivo para um perfil específico
 
 _Consulta do Data Lake_
 
@@ -843,9 +913,11 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 Esta consulta retorna todos os eventos (eventos externos/eventos de qualificação de público-alvo) que foram descartados por qualquer outro motivo para um perfil.
 
++++
+
 ## Consultas baseadas em eventos {#event-based-queries}
 
-**Verificar se um evento comercial foi recebido para uma jornada**
++++Verifica se um evento comercial foi recebido para uma jornada
 
 _Consulta do Data Lake_
 
@@ -871,7 +943,9 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**Verifique se um evento externo de um perfil foi descartado porque nenhuma jornada relacionada foi encontrada**
++++
+
++++Verifique se um evento externo de um perfil foi descartado porque nenhuma jornada relacionada foi encontrada
 
 _Consulta do Data Lake_
 
@@ -895,7 +969,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**Verifique se um evento externo de um perfil foi descartado por qualquer outro motivo**
++++
+
++++Verifique se um evento externo de um perfil foi descartado por qualquer outro motivo
 
 _Consulta do Data Lake_
 
@@ -921,7 +997,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**Verifique a contagem de todos os eventos descartados por stateMachine por errorCode**
++++
+
++++Verifica a contagem de todos os eventos descartados por stateMachine por errorCode
 
 _Consulta do Data Lake_
 
@@ -939,7 +1017,9 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**Verificar todos os eventos descartados porque a reentrada não foi permitida**
++++
+
++++Marque todos os eventos descartados porque a reentrada não foi permitida
 
 _Consulta do Data Lake_
 
@@ -962,10 +1042,12 @@ FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
+
++++
 
 ## Consultas comuns baseadas em jornada {#journey-based-queries}
 
-**Número de jornadas ativas diárias**
++++Número de jornadas ativas diárias
 
 _Consulta do Data Lake_
 
@@ -987,9 +1069,11 @@ ORDER BY DATE(timestamp) desc
 
 A consulta retorna, para o período definido, a contagem de jornadas exclusivas que são acionadas a cada dia. Um único acionamento de jornada em vários dias será contado uma vez por dia.
 
++++
+
 ## Consultas em instâncias do jornada {#journey-instances-queries}
 
-**Número de perfis em um estado específico em um horário específico**
++++Número de perfis em um estado específico em um momento específico
 
 _Consulta do Data Lake_
 
@@ -1137,7 +1221,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**Quantos perfis saíram da jornada no período específico**
++++
+
++++Quantos perfis saíram da jornada no período específico
 
 _Consulta do Data Lake_
 
@@ -1175,7 +1261,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**Quantos perfis saíram da jornada no período específico com nó/status**
++++
+
++++Quantos perfis saíram da jornada no período específico com nó/status
 
 _Consulta do Data Lake_
 
@@ -1216,3 +1304,5 @@ GROUP BY
 ORDER BY
     DATETIME DESC
 ```
+
++++

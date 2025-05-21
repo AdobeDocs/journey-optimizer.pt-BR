@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -261,7 +261,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <td>
 <p>Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/3414156?captions=por_br">vídeo do recurso</a>.
+<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/346680">vídeo do recurso</a>.
 </td>
 </tr>
 </tbody>
@@ -545,7 +545,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tr>
 <td>
 <p>Agora é possível definir regras de negócios entre canais que excluirão automaticamente perfis excessivamente solicitados de mensagens e ações.</p>
-<p>Para obter mais informações, consulte a <a href="../configuration/rule-sets.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../conflict-prioritization/rule-sets.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>

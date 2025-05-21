@@ -7,14 +7,26 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 4%
+source-wordcount: '528'
+ht-degree: 3%
 
 ---
 
 # Configurar provedor Infobip {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+Se as palavras-chave de aceitação ou recusa não forem fornecidas, as mensagens de consentimento padrão serão usadas para honrar a privacidade do usuário. A adição de palavras-chave personalizadas substitui automaticamente os padrões.
+
+**Palavras-chave padrão:**
+
+* **Aceitar**: ASSINAR, SIM, REINICIAR, INICIAR, CONTINUAR, RETOMAR, INICIAR
+* **Recusar**: PARAR, SAIR, CANCELAR, ENCERRAR, CANCELAR INSCRIÇÃO, NÃO
+* **Ajuda**: AJUDA
+
+>[!ENDSHADEBOX]
 
 Para configurar o Infobip com o Journey Optimizer, siga estas etapas:
 
@@ -26,7 +38,7 @@ Para configurar o Infobip com o Journey Optimizer, siga estas etapas:
 
    * **[!UICONTROL Nome]**: escolha um nome para a credencial de API.
 
-   * **[!UICONTROL URL de base da API]** e **[!UICONTROL chave de API]**: acesse a página inicial da interface da Web ou a página de gerenciamento de chaves de API para encontrar suas credenciais. Saiba mais em [Documentação de Infobip](https://www.infobip.com/docs/api){target="_blank"}.
+   * **[!UICONTROL URL de base da API]** e **[!UICONTROL chave de API]**: acesse a página inicial da interface da Web ou a página de gerenciamento de chaves de API para encontrar suas credenciais. Saiba mais em [Documentação do Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
    * **[!UICONTROL Palavras-chave de aceitação]**: digite as palavras-chave padrão ou personalizadas que dispararão automaticamente sua **[!UICONTROL Mensagem de aceitação]**. Para várias palavras-chave, use valores separados por vírgulas.
 

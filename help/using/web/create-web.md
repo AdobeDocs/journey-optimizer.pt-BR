@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 19%
+source-wordcount: '1543'
+ht-degree: 16%
 
 ---
 
@@ -153,6 +153,31 @@ Você também pode abri-lo no navegador padrão ou copiar o URL de teste para co
 
 Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
 
+## Redirecionar para URL {#web-redirect-to-url}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_redirect"
+>title="Redirecionar para outro URL"
+>abstract="Insira um URL existente para o qual você deseja redirecionar os visitantes da página."
+
+Ao criar uma experiência da Web, você pode redirecionar os visitantes para outro URL existente, em vez de criar uma nova variação no web designer.
+
+Usando essa capacidade, você pode executar um [Experimento de conteúdo](../content-management/content-experiment.md) comparando duas experiências diferentes, em vez de apenas alterar alguns elementos em uma página.
+
+Por exemplo, crie uma campanha da Web com dois tratamentos:
+
+* Em **Tratamento A**, crie uma experiência da Web usando o designer da Web para metade da população direcionada.
+
+* Em **Treatment B**, selecione a opção **[!UICONTROL Redirecionar para URL]** para a outra metade da população direcionada. Insira a URL de uma página com um design alternativo que você criou fora do [!DNL Journey Optimizer].
+
+  ![](assets/web-campaign-redirect-to-url.png)
+
+  >[!NOTE]
+  >
+  >A visualização do site não é mais exibida e o botão de alternância **[!UICONTROL Editor visual]** está desabilitado.
+
+Assim que a campanha da Web for ativada, você poderá acompanhar o desempenho da experiência da Web criada no [!DNL Journey Optimizer] para os visitantes da sua página contra aqueles que foram redirecionados para a página de aterrissagem externa. Saiba como usar o [relatório de campanha de experimentação](../reports/campaign-global-report-cja-experimentation.md)
+
 ## Disponibilize sua experiência online {#web-experience-live}
 
 >[!IMPORTANT]
@@ -241,4 +266,4 @@ Quando uma jornada ou campanha da Web está ativa, você pode interrompê-la par
 
 O vídeo abaixo mostra como criar uma campanha da Web, configurar suas propriedades, revisá-la e publicá-la.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449986/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

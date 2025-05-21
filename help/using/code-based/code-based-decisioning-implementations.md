@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,28 @@ Ao usar a Decisão em experiências baseadas em código, considere adicionar os 
 
 ## Teste de experiências baseadas em código usando decisões {#code-based-test-decisions}
 
-Atualmente não é possível simular o conteúdo da interface do usuário em uma campanha ou jornada de [experiência baseada em código](create-code-based.md) usando decisões.
+<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
-Como solução alternativa, você pode testar a decisão depois de publicar sua campanha adicionando o sinalizador `dryRun` no bloco `data` do evento XDM na implementação do cliente:
+Ao testar a [experiência baseada em código](create-code-based.md) com a tomada de decisão, o sinalizador `dryRun` pode ser usado para suprimir eventos de feedback para contadores de relatório e limite.
+
+Depois de publicar sua campanha, adicione o sinalizador `dryRun` no bloco `data` do evento XDM na implementação do cliente:
 
     &quot;
-    &lbrace;
-    &quot;dados&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;dados&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;
 
+<!--
 >[!CAUTION]
 >
->Adicionar o sinalizador `dryRun` à sua solicitação impedirá que sejam capturados comentários para relatórios e contadores de frequência sejam adicionados ao.
+>Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.-->
 
 ## Desduplicação de itens de decisão em implementações baseadas em código {#code-based-decisioning-deduplication}
 
@@ -61,7 +64,7 @@ Para qualquer solicitação de decisão, você pode ter uma ou mais políticas/d
 
 ### Aplicar desduplicação em uma solicitação {#deduplication-in-request}
 
-Por padrão, o sinalizador de desduplicação é definido como `true` (não é transmitido).
+Por padrão, o sinalizador de desduplicação está definido como `true`.
 
 Em uma solicitação do Konductor, você pode passar o sinalizador de desduplicação se quiser elementos únicos na resposta. Nesse caso, defina como `false`.
 

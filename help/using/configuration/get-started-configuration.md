@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuração, configurar, mensagens, canal, sandbox, otimizador
-source-git-commit: e052cf9bcd42cecbaaeb9047990ed603dd0730a0
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 48%
+ht-degree: 54%
 
 ---
 
@@ -29,22 +29,22 @@ Para enviar mensagens, você precisa seguir as etapas de configuração listadas
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/get-started-email-config.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../email/get-started-email-config.md"><strong>Email</strong></a></div></td>
-<td><a href="../sms/sms-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+<td><a href="../sms/sms-configuration.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
 <td><a href="../push/push-configuration.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/push-configuration.md"><strong>Notificação por push</strong></a></div></td>
-<td><a href="../direct-mail/direct-mail-configuration.md"><img alt="correspondência direta" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<td><a href="../direct-mail/direct-mail-configuration.md"><img alt="Correspondência direta" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
 <div align="center"><a href="../direct-mail/direct-mail-configuration.md"><strong>Correspondência direta</strong></a></div></td>
 </tr></table>
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../in-app/inapp-configuration.md"><img alt="no aplicativo" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<td><a href="../in-app/inapp-configuration.md"><img alt="No aplicativo" src="../channels/assets/do-not-localize/inapp.jpg"></a>
 <div align="center"><a href="../in-app/inapp-configuration.md"><strong>No aplicativo</strong></a></div></td>
-<td><a href="../web/web-configuration.md"><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<td><a href="../web/web-configuration.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a>
 <div align="center"><a href="../web/web-configuration.md"><strong>Web</strong></a></div></td>
-<td><a href="../code-based/code-based-configuration.md"><img alt="experiência baseada em código" src="../channels/assets/do-not-localize/code.png"></a>
+<td><a href="../code-based/code-based-configuration.md"><img alt="Experiência baseada em código" src="../channels/assets/do-not-localize/code.png"></a>
 <div align="center"><a href="../code-based/code-based-configuration.md"><strong>Experiência baseada em código</strong></a></div></td>
-<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="cartões de conteúdo" src="../channels/assets/do-not-localize/cards.png"></a>
+<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="Cartões de conteúdo" src="../channels/assets/do-not-localize/cards.png"></a>
 <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Cartões de conteúdo</strong></a></div></td>
 </tr></table>
 
@@ -60,6 +60,6 @@ Para enviar mensagens, você precisa seguir as etapas de configuração listadas
 
    * Ativar a **Opção de email CCO** para manter uma cópia das mensagens enviadas a pessoas físicas. [Saiba mais](archiving-support.md#enable-bcc)
 
-   * Configure as **regras de negócio** para evitar o excesso de solicitações de seus destinatários. [Saiba mais](../configuration/rule-sets.md)
+   * Configure as **regras de negócio** para evitar o excesso de solicitações de seus destinatários. [Saiba mais](../conflict-prioritization/rule-sets.md)
 
    * Determine qual endereço de email e/ou número de telefone deve ser usado com prioridade para seus destinatários quando vários endereços/números estiverem disponíveis na Adobe Experience Platform. [Saiba mais](primary-email-addresses.md)

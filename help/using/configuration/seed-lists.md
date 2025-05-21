@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: seed list, seed list, seed, configuração
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 22%
@@ -96,7 +96,7 @@ Para criar uma lista de propagação, siga as etapas abaixo.
 
 1. Selecione o botão **[!UICONTROL Criar lista de propagação]**.
 
-   ![](assets/seed-list-create-button.png)
+   <!--![](assets/seed-list-create-button.png)-->
 
 1. Preencha os detalhes. Comece adicionando um nome.
 
@@ -120,7 +120,7 @@ Para criar uma lista de propagação, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >É possível combinar ambas as opções, mas o número total de endereços em uma lista de propagação não pode exceder 50.
+   >Você pode combinar ambas as opções, mas o número total de endereços em uma lista de propagação não pode exceder 300.
 
 1. Clique em **[!UICONTROL Criar]** para confirmar. A lista de propagação recém-criada é exibida na [tela Lista de propagação](#access-seed-lists).
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1427'
 ht-degree: 19%
 
 ---
@@ -24,10 +24,6 @@ Para gerenciar os fragmentos, acesse a lista de fragmentos do menu esquerdo **[!
 Todos os fragmentos criados na sandbox atual - [no menu **[!UICONTROL Fragmentos]**](#create-fragments), usando a opção [Salvar como fragmento](#save-as-fragment) - são exibidos.
 
 O painel à esquerda permite organizar fragmentos em pastas. Por padrão, todos os fragmentos são exibidos. Ao selecionar uma pasta, somente os fragmentos e as pastas incluídos na pasta selecionada são exibidos. [Saiba mais](#folders)
-
->[!NOTE]
->
->As pastas de fragmento só estão disponíveis para um conjunto de organizações (disponibilidade limitada) e serão gradualmente implantadas para mais usuários.
 
 ![](assets/fragment-list-folders.png)
 
@@ -63,10 +59,6 @@ No botão **[!UICONTROL Mais ações]** ao lado de cada fragmento, é possível:
 >id="ajo_fragments_folders"
 >title="Organizar os fragmentos em pastas"
 >abstract="Use pastas para categorizar e gerenciar os fragmentos de acordo com as necessidades da organização."
-
->[!AVAILABILITY]
->
->As pastas de fragmento só estão disponíveis para um conjunto de organizações (disponibilidade limitada) e serão gradualmente implantadas para mais usuários.
 
 Para navegar facilmente pelos fragmentos, é possível usar pastas para organizá-los com mais eficiência em uma hierarquia estruturada. Isso permite categorizar e gerenciar os itens de acordo com as necessidades da organização.
 
