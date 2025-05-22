@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 7f09e78c153955fb481b94701e55a0f9e77e7dd6
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2377'
 ht-degree: 98%
 
 ---
@@ -288,7 +288,7 @@ ht-degree: 98%
          + [Configurar provedor Sinch](using/sms/sms-configuration-sinch.md)
          + [Configurar provedor Infobip](using/sms/sms-configuration-infobip.md)
          + [Configurar provedor Twilio](using/sms/sms-configuration-twilio.md)
-         + [Configurar um provedor personalizado (Beta)](using/sms/sms-configuration-custom.md)
+         + [Configurar um provedor personalizado](using/sms/sms-configuration-custom.md)
          + [Criar uma configuração de SMS](using/sms/sms-configuration-surface.md)
    + Correspondência direta {#direct-mail}
       + [Introdução à correspondência direta](using/direct-mail/get-started-direct-mail.md)
