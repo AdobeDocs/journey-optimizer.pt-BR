@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '736'
 ht-degree: 6%
 
 ---
@@ -95,6 +95,10 @@ Exemplo:
   }
 }
 ```
+
+>[!IMPORTANT]
+>
+>A configuração só estará ativa depois de chamar o ponto de extremidade **deploy**.
 
 ## Aviso e erros
 
