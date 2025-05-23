@@ -68,4 +68,4 @@ O Journey Optimizer fornece duas experiências para testar o conteúdo:
 
 Saiba como usar perfis de teste para testar a renderização de email nas caixas de entrada, visualizar emails personalizados em relação a perfis de teste e enviar provas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430342?quality=12&captions=por_br)
