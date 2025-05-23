@@ -5,25 +5,22 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 80935cc31ef88a322c2dd555fc8998935c6e5621
+source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 15%
+source-wordcount: '286'
+ht-degree: 16%
 
 ---
 
-# Envio de provas de email {#send-proofs}
+# Enviar provas usando dados de perfis de teste {#send-proofs}
 
 Uma prova é uma mensagem específica que permite testar uma mensagem antes de enviá-la ao público-alvo principal. Os destinatários da prova são responsáveis pela aprovação da mensagem: renderização, conteúdo, configurações de personalização, configuração.
 
-Observe que [!DNL Journey optimizer] também permite que você teste diferentes variantes do seu conteúdo visualizando-o e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como testar seu conteúdo usando dados de entrada de exemplo](../test-approve/simulate-sample-input.md)
-
->[!PREREQUISITES]
+>[!NOTE]
 >
->Para enviar provas, você deve ter **permissões Aprovar e publicar** para o recurso específico (campanha ou jornada) associado ao email. Além disso, para enviar provas em uma jornada, a permissão **Publicar jornada** também é necessária. [Saiba mais sobre permissões](../administration/ootb-permissions.md).
+>O [!DNL Journey optimizer] também permite que você teste diferentes variantes do seu conteúdo visualizando-o e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)
 
-
-Para enviar provas por email, primeiro selecione [perfis de teste](test-profiles.md). Em seguida, siga estas etapas:
+Para enviar provas por email usando dados de perfis de teste, primeiro selecione [perfis de teste](test-profiles.md). Em seguida, siga estas etapas:
 
 1. Na tela **[!UICONTROL Simular]**, clique no botão **[!UICONTROL Enviar prova]**.
 

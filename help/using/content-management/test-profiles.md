@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 13%
+source-wordcount: '276'
+ht-degree: 10%
 
 ---
 
@@ -17,17 +17,13 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
 >title="Use perfis de teste para verificar o conteúdo"
->abstract="Use perfis de teste para visualizar e testar o conteúdo. Se você adicionou campos personalizados, é possível verificar como eles são exibidos usando dados de perfil de teste."
+>abstract="Use perfis de teste para visualizar e testar o conteúdo. Se você tiver adicionado campos personalizados, poderá verificar como eles são exibidos usando dados de perfil de teste."
 
-Antes de visualizar ou testar seu conteúdo, primeiro é necessário selecionar perfis de teste, que são recipients adicionais que não correspondem aos critérios de direcionamento definidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md)
+Os perfis de teste são recipients adicionais que não correspondem aos critérios de direcionamento definidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md)
 
->[!NOTE]
->
->Além dos perfis de teste, o [!DNL Journey optimizer] também permite que você teste diferentes variantes do seu conteúdo visualizando-o e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como testar seu conteúdo usando dados de entrada de exemplo](../test-approve/simulate-sample-input.md)
+Antes de usar perfis de teste para testar seu conteúdo, primeiro é necessário selecioná-los. Para fazer isso, siga estes passos:
 
-Para selecionar perfis de teste, siga estas etapas:
-
-1. Na tela de edição de conteúdo da sua mensagem ou no Designer de Email, clique no botão **[!UICONTROL Simular conteúdo]**.
+1. Na tela de edição de conteúdo da sua mensagem ou no Designer de Email, clique no botão **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Resumo do conteúdo]**.
 
 1. Clique no botão **[!UICONTROL Gerenciar perfis de teste]** e selecione o namespace a ser usado para identificar perfis de teste clicando no ícone de seleção **[!UICONTROL Namespace de identidade]**. [Saiba mais sobre os namespaces de identidade da Adobe Experience Platform](../audience/get-started-identity.md).
 
@@ -48,3 +44,7 @@ Para selecionar perfis de teste, siga estas etapas:
    ![](../email/assets/preview-profile-list.png)
 
    Com base nos elementos de personalização da mensagem, essa lista exibe dados para cada perfil de teste nas colunas relacionadas.
+
+>[!NOTE]
+>
+>Além dos perfis de teste, o [!DNL Journey optimizer] também permite que você teste diferentes variantes do seu conteúdo visualizando-o e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)
