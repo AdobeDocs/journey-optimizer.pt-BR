@@ -10,14 +10,14 @@ level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Manuais de casos de uso  {#playbooks}
 
-## O que são manuais de casos de uso {#gs}
+## O que são os manuais de casos de uso? {#gs}
 
 Os Manuais de casos de uso são workflows predefinidos abordando casos de uso comuns que podem ser executados usando a Adobe Experience Platform e o Journey Optimizer.
 
@@ -29,15 +29,15 @@ Cada manual de estratégia fornece uma visão geral abrangente, incluindo a inte
 
 ## Pré-requisitos {#prerequisites}
 
-As seguintes etapas de configuração são necessárias antes de trabalhar com os Manuais de casos de uso. Informações detalhadas sobre cada etapa estão disponíveis na página [Introdução](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=pt-BR){target="_blank"} da documentação dos manuais de caso de uso.
+As seguintes etapas de configuração são necessárias para trabalhar com os manuais de casos de uso. Há informações detalhadas sobre cada etapa disponíveis na página de [Introdução](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=pt-BR){target="_blank"} da documentação dos manuais de casos de uso.
 
 * Criar uma sandbox
 * Configuração de permissões de usuários e usuárias
 * Definir configurações de canal do Journey Optimizer para notificações por email, push e SMS
 
-## Acessar e ativar um manual {#access}
+## Acessar e habilitar um manual de estratégia {#access}
 
-Para acessar os manuais, navegue até o menu **[!UICONTROL Manuais de estratégia]** localizado no painel de navegação esquerdo. A biblioteca inclui vários manuais de estratégia que são implementados usando o Adobe Journey Optimizer. Para acessá-los facilmente, use os filtros disponíveis ao lado da barra de pesquisa. Uma lista abrangente de manuais do Journey Optimizer está disponível na [documentação sobre manuais de casos de uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"}.
+Para acessar os manuais, navegue até o menu **[!UICONTROL Manuais de estratégia]** localizado no painel de navegação esquerdo. A biblioteca inclui vários manuais de estratégia que são implementados usando o Adobe Journey Optimizer. Para acessá-los facilmente, use os filtros disponíveis ao lado da barra de pesquisa. Uma lista abrangente de manuais de estratégia do Journey Optimizer está disponível na [documentação dos manuais de casos de uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"}.
 
 ![Lista de manuais de estratégia com o painel de filtros aberto](assets/playbooks-filter.png){width="85%"}
 
@@ -49,7 +49,7 @@ Depois de escolher o manual de estratégia que melhor atende às suas necessidad
 
 Para implementar seu caso de uso, você pode navegar até cada objeto para adaptá-lo às suas necessidades. Você também pode compartilhar o URL da página da instância do manual de estratégia com a sua equipe para colaborar na implementação do caso de uso.
 
-Além disso, você pode importar os ativos dos manuais para outras sandboxes. Isso permite alinhar os ativos gerados com seus ativos existentes e garantir que sejam compatíveis com seus dados, caso já tenha configurado seus próprios esquemas, campos e grupos de campos. Essas etapas estão detalhadas na documentação de Guias de reprodução de caso de uso: [Publicar ativos gerados pelo manual em outras sandboxes](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=pt-BR){target="_blank"}.
+Além disso, você pode importar os ativos dos manuais para outras sandboxes. Isso permite alinhar os ativos gerados com seus ativos existentes e garantir que sejam compatíveis com seus dados, caso já tenha configurado seus próprios esquemas, campos e grupos de campos. Essas etapas estão detalhadas na documentação dos manuais de casos de uso: [publicar ativos gerados pelo manual de estratégia em outras sandboxes](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=pt-BR){target="_blank"}.
 
 ## Criar seus próprios manuais (beta privado) {#create}
 
@@ -57,8 +57,8 @@ Além disso, você pode importar os ativos dos manuais para outras sandboxes. Is
 >
 >No momento, a criação de manuais de casos de uso está disponível apenas para um conjunto de organizações como um beta privado. Para obter acesso, entre em contato com o(a) representante da Adobe.
 
-Além de aproveitar os manuais predefinidos, você pode criar e compartilhar seus próprios manuais no Adobe Experience Platform.
+Além de aproveitar manuais de estratégia predefinidos, é possível criar e compartilhar seus próprios manuais na Adobe Experience Platform.
 
-Você pode definir metadados usando assistência de IA ou entrada manual, associar ativos técnicos, como esquemas, segmentos, e compartilhar seus manuais em diferentes organizações IMS.
+Defina metadados manualmente ou usando os recursos de IA, associe ativos técnicos como esquemas e segmentos e compartilhe seus manuais de estratégia em diferentes organizações IMS.
 
-Para obter mais informações sobre como criar e compartilhar manuais de reprodução, consulte a documentação sobre Manuais de Caso de Uso: [Crie e compartilhe seus próprios manuais usando o Assistente de IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=pt-BR#sharing-playbooks-sandboxes){target="_blank"}.
+Para obter mais informações sobre como criar e compartilhar manuais de estratégia, consulte a documentação dos manuais de casos de uso: [crie e compartilhe seus próprios manuais de estratégia com o Assistente de IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=pt-br#sharing-playbooks-sandboxes){target="_blank"}.
