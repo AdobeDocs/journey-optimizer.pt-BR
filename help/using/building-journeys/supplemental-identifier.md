@@ -2,9 +2,9 @@
 title: Identificador suplementar em jornadas acionadas por eventos
 description: Saiba como usar o identificador complementar em jornadas acionadas por eventos.
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: bfff5bfe0a87d65c453018c4f1af01e9b1456052
+source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ Para usar um identificador complementar em uma jornada, siga estas etapas:
 
 +++ Ver exemplos
 
-   Em uma matriz de objetos com a ID complementar como &quot;bookingNum&quot; e um atributo no mesmo nível chamado &quot;bookingCountry&quot;, a jornada iterará pelo objeto de matriz com base no bookingNum e criará uma instância de jornada para cada objeto.
+   Em uma matriz de objetos com a ID complementar como `bookingNum` e um atributo no mesmo nível chamado `bookingCountry`, a jornada percorrerá o objeto de matriz com base no bookingNum e criará uma instância de jornada para cada objeto.
 
    * A seguinte expressão na atividade de condição iterará por meio da matriz de objetos e verificará se o valor de `bookingCountry` é igual a &quot;FR&quot;:
 
@@ -112,7 +112,7 @@ Para usar um identificador complementar em uma jornada, siga estas etapas:
      @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
      ```
 
-   * A seguinte expressão no editor de personalização de email iterará por meio da matriz de objetos, obterá o &quot;bookingCountry&quot; aplicável à instância de jornada atual e a exibirá no conteúdo:
+   * A seguinte expressão no editor de personalização de email iterará por meio da matriz de objetos, obterá o `bookingCountry` aplicável à instância atual do jornada e o exibirá no conteúdo:
 
      ```
      {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
