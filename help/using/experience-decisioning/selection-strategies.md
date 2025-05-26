@@ -19,14 +19,14 @@ ht-degree: 20%
 >id="ajo_exd_config_strategies"
 >title="Defina as estratégias de seleção"
 >abstract="As estratégias de seleção são reutilizáveis e consistem em uma coleção associada a uma restrição de elegibilidade e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma política de decisão."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision" text="Criar políticas de decisão"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision" text="Criar políticas de decisão"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="Restringir os perfis elegíveis"
 >abstract="Você pode restringir a seleção de ofertas para essa estratégia de seleção. Por padrão, todos os perfis são elegíveis, mas você pode usar públicos-alvo ou regras para limitar a seleção de ofertas somente a perfis específicos."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Usar públicos-alvo"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules" text="Usar regras de decisão"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules" text="Usar regras de decisão"
 
 Uma estratégia de seleção é reutilizável e consiste em uma coleção associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma [política de decisão](create-decision.md).
 
