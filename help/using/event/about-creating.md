@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
+source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 9%
+source-wordcount: '1692'
+ht-degree: 13%
 
 ---
 
@@ -26,12 +26,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_parameters"
 >title="Parâmetros"
->abstract="Defina os parâmetros do evento, como os campos schema e payload. Para eventos baseados em regras, use o campo **[!UICONTROL Condição de ID de evento]** para definir a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada. Adicione um tipo de identidade e um identificador de perfil para usar no evento."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_parameters_supplemental_identifier"
->title="Usar identificador complementar"
->abstract="O identificador complementar é um identificador secundário que fornece contexto adicional para a execução de uma jornada. Para defini-lo, selecione o campo a ser usado como o identificador complementar e escolha um namespace para associar a ele."
+>abstract="Defina os parâmetros do evento, como os campos de esquema e conteúdo. Para eventos baseados em regras, use o campo **[!UICONTROL Condição da ID de evento]** para definir a condição que será usada pelo sistema para identificar os eventos que acionarão a jornada. Adicione um tipo de identidade e um identificador de perfil para uso no evento."
 
 Os eventos unitários são vinculados a um perfil específico. Eles podem ser baseados em regras ou gerados pelo sistema.  Leia mais sobre o evento unitário [esta seção](../event/about-events.md).
 
