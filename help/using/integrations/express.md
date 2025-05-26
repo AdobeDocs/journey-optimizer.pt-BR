@@ -5,14 +5,15 @@ title: Editar seus ativos com o Adobe Express no Journey Optimizer
 description: Introdução ao Adobe Express
 feature: Assets, Integrations
 topic: Content Management, Integrations
+badge: label="Disponibilidade limitada" type="Informative"
 role: User
 level: Beginner
 keywords: assets, integração
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
+source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 7%
+source-wordcount: '540'
+ht-degree: 11%
 
 ---
 
@@ -23,17 +24,22 @@ ht-degree: 7%
 >title="Integração do Adobe Express"
 >abstract="Comece a personalizar seus ativos com a integração do Adobe Express. Esse recurso permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos em JPEG ou PNG."
 
+A integração do Adobe Express no Adobe Journey Optimizer permite acessar facilmente as poderosas ferramentas de edição do Adobe Express ao criar conteúdo. Essa integração permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos para JPEG ou PNG sem precisar alternar entre as soluções.
+
+<img src="../rn/assets/do-not-localize/express_resize.gif">
+
+
 >[!AVAILABILITY]
 >
 >A integração do Adobe Express no Adobe Journey Optimizer está indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
-
-A integração do Adobe Express no Adobe Journey Optimizer permite acessar facilmente as poderosas ferramentas de edição do Adobe Express ao criar conteúdo. Essa integração permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos para JPEG ou PNG sem precisar alternar entre as soluções.
 
 Para saber mais sobre o Adobe Express, consulte [esta documentação](https://helpx.adobe.com/br/express/user-guide.html).
 
 Para acessar o menu **[!DNL Adobe Express]**, acesse suas **configurações de imagem** do Designer de email e clique em **[!UICONTROL Editar no Adobe Express]**.
 
 ![](assets/express_1.png)
+
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Licença do Adobe Express Enterprise {#licence}
 
@@ -45,12 +51,12 @@ Com uma licença Enterprise, os usuários obtêm acesso total ao editor do Adobe
 
 +++Casos de uso disponíveis para usuários e uma licença Enterprise para o Adobe Express
 
-* [Remover plano de fundo](https://helpx.adobe.com/br/express/create-and-edit-images/edit-images/remove-background.html)
-* [Remover objetos](https://helpx.adobe.com/br/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [Apagar](https://helpx.adobe.com/br/express/create-and-edit-images/edit-images/eraser.html)
-* [Inserir objeto](https://helpx.adobe.com/br/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [Cortar](https://helpx.adobe.com/br/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [Efeitos](https://helpx.adobe.com/br/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+* [Remover plano de fundo](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [Remover objetos](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [Apagar](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [Inserir objeto](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [Cortar](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [Efeitos](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
 +++
 
@@ -137,3 +143,13 @@ A imagem agora está pronta para ser usada no conteúdo.
    Em seguida, clique em **[!UICONTROL Importar]**.
 
 A imagem agora está pronta para ser usada no conteúdo.
+
+
+## Vídeo tutorial {#video}
+
+Saiba como editar os seus ativos no Adobe Journey Optimizer com as ferramentas do Adobe Express.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+
+
+

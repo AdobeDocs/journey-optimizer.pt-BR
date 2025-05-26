@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
+source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 62%
@@ -21,7 +21,7 @@ Com o Adobe Journey Optimizer, você pode gerenciar, manter e exportar facilment
 >[!NOTE]
 >
 > Criada na Adobe Experience Platform, a Adobe Journey Optimizer está conectada nativamente ao [Perfil de cliente em tempo real do Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}. Essa fonte de dados integrada é pré-configurada e projetada para recuperar e usar dados do Perfil do cliente em tempo real (por exemplo, verificar se a pessoa que entrou em uma jornada é um cliente ou não). Ela permite usar os dados de Perfil e de Eventos de experiência. [Saiba mais](../datasource/adobe-experience-platform-data-source.md).
->
+
 
 ## Adobe Customer Journey Analytics {#integration-cja}
 
@@ -121,7 +121,7 @@ Saiba mais sobre o [Journey Optimizer + Campaign Standard](../building-journeys/
 
 Use os módulos do Adobe Journey Optimizer no Adobe Workfront para criar, ler, atualizar ou excluir registros, ou executar uma chamada de API personalizada para a API do Adobe Journey Optimizer.
 
-Uma visão geral da principal etapa dessa integração está disponível [nesta publicação do blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=pt){target="_blank"}.
+Uma visão geral da principal etapa dessa integração está disponível [nesta publicação do blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Saiba mais sobre o Journey Optimizer + Adobe Workfront [na documentação do Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=pt-BR){target="_blank"}.
 
