@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, standard, integration, capping, action
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 3%
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 # Integrar ao Adobe Campaign Standard {#using_adobe_campaign_standard}
 
-Você pode enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign Standard.
-
 Se você tiver o Adobe Campaign Standard, uma ação integrada estará disponível para permitir a conexão com o Adobe Campaign Standard.
+
+Você pode enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign Standard.
 
 A mensagem transacional do Campaign Standard e o evento associado devem ser publicados para serem usados no Journey Optimizer. Se o evento for publicado, mas a mensagem não for, ele não estará visível na interface do Journey Optimizer. Se a mensagem for publicada, mas o evento associado não, ela ficará visível na interface do Journey Optimizer, mas não poderá ser usada.
 
