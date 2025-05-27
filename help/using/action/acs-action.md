@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, standard, integration, capping, action
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 3%
 
 ---
@@ -22,19 +22,21 @@ Se você tiver o Adobe Campaign Standard, uma ação integrada estará disponív
 
 A mensagem transacional do Campaign Standard e o evento associado devem ser publicados para serem usados no Journey Optimizer. Se o evento for publicado, mas a mensagem não for, ele não estará visível na interface do Journey Optimizer. Se a mensagem for publicada, mas o evento associado não, ela ficará visível na interface do Journey Optimizer, mas não poderá ser usada.
 
-## Observações importantes {#important-notes}
+## Medidas de proteção e limitações {#important-notes}
 
-* Uma regra de limitação de 4.000 chamadas a cada 5 minutos é definida automaticamente para ações do Adobe Campaign Standard. Isso corresponde à escala oficial das Mensagens transacionais do Adobe Campaign Standard. Leia mais sobre os SLAs de mensagens transacionais em [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html){target="_blank"}.
+* Uma regra de limitação de 4.000 chamadas a cada 5 minutos é definida automaticamente para ações do Adobe Campaign Standard. Leia mais sobre os SLAs de mensagens transacionais em [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html){target="_blank"}.
 
 * A integração do Adobe Campaign Standard é configurada por meio de uma ação incorporada dedicada na lista de ações. Isso deve ser configurado para cada sandbox.
 
 * Não é possível usar uma ação do Campaign Standard com uma atividade de qualificação de Público-alvo ou Ler público.
 
-* Uma jornada não pode usar mensagens e ações do Campaign Standard ao mesmo tempo.
+* Uma jornada não pode usar [ações de canal integradas](../building-journeys/journeys-message.md) e [ações de Campaign Standard](../building-journeys/using-adobe-campaign-standard.md).
 
 ## Configurar a ação {#configure-action}
 
-No Journey Optimizer, você deve configurar uma ação por mensagem transacional. Siga estas etapas:
+No Journey Optimizer, você deve configurar uma ação por mensagem transacional.
+
+Para configurar uma ação do Campaign Standard, siga estas etapas:
 
 1. Selecione **[!UICONTROL Configurações]** na seção de menu ADMINISTRAÇÃO.
 

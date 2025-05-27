@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, integração
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bf4044bc23b0e7c0ef74e5b612d93cb45ec20242
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 13%
+source-wordcount: '543'
+ht-degree: 14%
 
 ---
 
@@ -50,13 +50,13 @@ Quando solicitado, a conexão entre os ambientes Journey Optimizer e Adobe Campa
 >[!ENDTABS]
 
 
-## Observações importantes {#important-notes}
+## Medidas de proteção e limitações {#important-notes}
 
-* Não há limitação de mensagens. O sistema limita o número de mensagens que podem ser enviadas a 4000 a cada 5 minutos, com base no SLA do Campaign atual. Por esse motivo, o Journey Optimizer só deve ser usado em casos de uso unitários (eventos individuais, não públicos).
+* Não há limitação de mensagens. O sistema limita o número de mensagens que podem ser enviadas a 4.000 a cada 5 minutos, com base no SLA do Campaign atual. Por esse motivo, o Journey Optimizer só deve ser usado em casos de uso unitários (eventos individuais, não públicos).
 
-* Você precisa configurar uma ação na tela por modelo que deseja usar. É necessário configurar uma ação no Journey Optimizer para cada modelo que você deseja usar do Adobe Campaign.
+* Você deve configurar uma ação na tela por modelo a ser usado. É necessário configurar uma ação no Journey Optimizer para cada modelo que você deseja usar do Adobe Campaign.
 
-* Recomendamos que você use uma instância dedicada do Centro de mensagens hospedada para essa integração para evitar que você afete outras operações do Campaign que possam estar ocorrendo. O servidor de marketing pode ser hospedado ou no local. A build necessária é a versão 21.1 ou posterior.
+* Recomendamos usar uma instância dedicada do Managed Services ou do Centro de mensagens hospedada para essa integração, a fim de evitar o impacto em outras operações do Campaign que você possa ter. O servidor de marketing pode ser hospedado ou no local.<!--The build required is 21.1 Release Candidate or greater. -->
 
 * Não há validação para indicar que a carga ou mensagem da campanha está correta.
 
@@ -64,13 +64,13 @@ Quando solicitado, a conexão entre os ambientes Journey Optimizer e Adobe Campa
 
 ## Pré-requisitos {#prerequisites}
 
-No Adobe Campaign, você deve criar e publicar uma mensagem transacional e seu evento associado. Consulte a [documentação do Adobe Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+No Adobe Campaign, você deve criar e publicar uma mensagem transacional e seu evento associado. Consulte a [documentação do Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 Você pode criar sua carga JSON correspondente a cada mensagem seguindo o padrão abaixo. Em seguida, você colará essa carga ao configurar a ação no Journey Optimizer (veja abaixo).
 
 Exemplo:
 
-```JSON
+```json
 {
     "channel": "email",
     "eventType": "welcome",
