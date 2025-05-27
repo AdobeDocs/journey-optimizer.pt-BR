@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 261f93625def59b787894f38877ee1cf5c543748
+source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1135'
 ht-degree: 36%
 
 ---
@@ -249,15 +249,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 As melhorias incluídas nesta versão estão listadas abaixo.
 
 
-* **Suporte a novos objetos para cópia de sandbox**
+* **Suporte a novos objetos de campanha para cópia da sandbox** - Data de disponibilidade: 15 de maio de 2025
 
-   * **Campanhas** - Data de disponibilidade: 15 de maio de 2025
+  Ao copiar campanhas em várias sandboxes usando os recursos de exportação e importação de pacotes, as seguintes dependências também são copiadas: configurações de canal, variantes e configurações de experimento, políticas de decisão e itens. [Leia mais](../configuration/copy-objects-to-sandbox.md)
 
-     Ao copiar campanhas em várias sandboxes usando os recursos de exportação e importação de pacotes, as seguintes dependências também são copiadas: configurações de canal, variantes e configurações de experimento, políticas de decisão e itens. [Leia mais](../configuration/copy-objects-to-sandbox.md)
+  <!--* **Decisioning** - Availability date: May 16, 2025
 
-   * **Decisão** - Data de disponibilidade: 16 de maio de 2025
-
-     Os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação. [Leia mais](../configuration/copy-objects-to-sandbox.md#decisioning)
+    Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows. [Read more](../configuration/copy-objects-to-sandbox.md#decisioning)-->
 
 * **Pastas para páginas de aterrissagem** - Data de disponibilidade: 9 de maio de 2025
 
