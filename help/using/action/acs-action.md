@@ -9,18 +9,16 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, standard, integration, capping, action
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 3%
 
 ---
 
 # Integrar ao Adobe Campaign Standard {#using_adobe_campaign_standard}
 
-Se você tiver o Adobe Campaign Standard, uma ação integrada estará disponível para permitir a conexão com o Adobe Campaign Standard.
-
-Você pode enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign Standard.
+Se você tiver o Adobe Campaign Standard, uma ação integrada estará disponível para permitir a conexão com o Adobe Campaign Standard. Você pode enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign Standard.
 
 A mensagem transacional do Campaign Standard e o evento associado devem ser publicados para serem usados no Journey Optimizer. Se o evento for publicado, mas a mensagem não for, ele não estará visível na interface do Journey Optimizer. Se a mensagem for publicada, mas o evento associado não, ela ficará visível na interface do Journey Optimizer, mas não poderá ser usada.
 
@@ -28,17 +26,19 @@ A mensagem transacional do Campaign Standard e o evento associado devem ser publ
 
 * Uma regra de limitação de 4.000 chamadas a cada 5 minutos é definida automaticamente para ações do Adobe Campaign Standard. Isso corresponde à escala oficial das Mensagens transacionais do Adobe Campaign Standard. Leia mais sobre os SLAs de mensagens transacionais em [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html){target="_blank"}.
 
-* A integração do Adobe Campaign Standard é configurada por meio de uma ação incorporada dedicada na lista de ações. Isso precisa ser configurado para cada sandbox.
+* A integração do Adobe Campaign Standard é configurada por meio de uma ação incorporada dedicada na lista de ações. Isso deve ser configurado para cada sandbox.
 
 * Não é possível usar uma ação do Campaign Standard com uma atividade de qualificação de Público-alvo ou Ler público.
 
 * Uma jornada não pode usar mensagens e ações do Campaign Standard ao mesmo tempo.
 
-## Configuração da ação {#configure-action}
+## Configurar a ação {#configure-action}
 
-Estas são as etapas para configurá-la:
+No Journey Optimizer, você deve configurar uma ação por mensagem transacional. Siga estas etapas:
 
-1. Selecione **[!UICONTROL Configurações]** na seção de menu ADMINISTRAÇÃO. Na seção **[!UICONTROL Ações]**, clique em **[!UICONTROL Gerenciar]**. A lista de ações é exibida.
+1. Selecione **[!UICONTROL Configurações]** na seção de menu ADMINISTRAÇÃO.
+
+1. Na seção **[!UICONTROL Ações]**, clique em **[!UICONTROL Gerenciar]**. A lista de ações é exibida.
 
 1. Selecione a ação **[!UICONTROL AdobeCampaignStandard]** interna. O painel de configuração de ação é aberto no lado direito da tela.
 
@@ -52,16 +52,22 @@ Estas são as etapas para configurá-la:
    >
    >Este teste verifica se:
    >
-   >O host é &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot;, &quot;.campaign-demo.adobe.com&quot;, &quot;.ats.adobe.com&quot; ou &quot;.adls.adobe.com&quot;.
+   >* O host é &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot;, &quot;.campaign-demo.adobe.com&quot;, &quot;.ats.adobe.com&quot; ou &quot;.adls.adobe.com&quot;
    >
-   >O URL começa com https,
+   >* O URL começa com https
    >
-   >A ORG associada a essa instância do Adobe Campaign Standard é a mesma ORG do Journey Optimizer.
+   >* A organização associada a esta instância do Adobe Campaign Standard é a mesma que o OrganizationRG da Journey Optimizer
 
-Ao criar sua jornada, três ações estarão disponíveis na categoria **[!UICONTROL Ação]**: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Usar ações do Adobe Campaign](../building-journeys/using-adobe-campaign-standard.md)).
+Quando esta configuração for concluída, três ações estarão disponíveis na categoria **[!UICONTROL Ação]** ao criar uma jornada: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]**. [Saiba como usá-los](../building-journeys/using-adobe-campaign-standard.md).
 
 ![](assets/journey58.png)
 
-Você pode usar um evento **Reações** para reagir aos dados de rastreamento relacionados a uma mensagem do Campaign Standard enviada na mesma jornada. Para notificações por push, você pode reagir a mensagens clicadas, enviadas ou com falha. Para mensagens SMS, você pode reagir a mensagens enviadas ou com falha. Para emails, você pode reagir a mensagens clicadas, enviadas, abertas ou com falha. Consulte [Reações e eventos](../building-journeys/reaction-events.md).
+Use um evento **Reações** para reagir aos dados de rastreamento relacionados a uma mensagem do Campaign Standard enviada na mesma jornada:
 
-Se você estiver usando um sistema de terceiros para enviar mensagens, será necessário adicionar e configurar uma ação personalizada. Consulte [Sobre a configuração de ação personalizada](../action/about-custom-action-configuration.md).
+* Para notificações por push, as jornadas podem reagir a mensagens clicadas, enviadas ou com falha.
+
+* Para mensagens SMS, o jornada pode reagir a mensagens enviadas ou com falha.
+
+* Para emails, as jornadas podem reagir a mensagens clicadas, enviadas, abertas ou com falha. [Saiba mais sobre reações e eventos](../building-journeys/reaction-events.md).
+
+Ao usar um sistema de terceiros para enviar mensagens, você deve adicionar e configurar uma ação personalizada. [Saiba mais sobre a configuração de ação personalizada](../action/about-custom-action-configuration.md).
