@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuração, experimentação, relatórios, otimizador
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 29%
+source-wordcount: '585'
+ht-degree: 28%
 
 ---
 
@@ -40,7 +40,7 @@ Observe que, para canais na Web, baseados em código e no aplicativo, é necess�
 
 ## Pré-requisitos
 
-Antes de poder adicionar um conjunto de dados à configuração de relatórios, você deve criar esse conjunto de dados. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR#create){target="_blank"}.
+Antes de poder adicionar um conjunto de dados à configuração de relatórios, você deve criar esse conjunto de dados. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * Você só pode adicionar conjuntos de dados do tipo evento.
 

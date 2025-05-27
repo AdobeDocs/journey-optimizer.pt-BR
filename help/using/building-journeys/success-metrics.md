@@ -9,20 +9,22 @@ role: User
 level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 5%
+source-wordcount: '522'
+ht-degree: 6%
 
 ---
 
-# Configurar e rastrear suas métricas do jornada {#success-metrics}
+# Configurar e rastrear as métricas da jornada {#success-metrics}
 
 Obtenha visibilidade clara sobre a eficácia das jornadas do cliente com as métricas do jornada. Esse recurso permite rastrear o desempenho em relação aos KPIs definidos, descobrir insights sobre o que está funcionando e identificar áreas para otimização. Ao medir o impacto em tempo real, você pode impulsionar melhorias contínuas e tomar decisões informadas por dados que elevam o engajamento do cliente.
 
 ## Pré-requisitos {#prerequisites}
 
-Antes de usar suas métricas do jornada, você deve adicionar um conjunto de dados que inclua os `Commerce Details`, `Web` e `Mobile` [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"}.
+Antes de usar suas métricas do jornada, você deve adicionar um conjunto de dados que inclua os `Commerce Details`, `Web` e `Mobile` [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"} em Configuração > Relatórios no Adobe Experience Platform.
+
+Esses grupos de campos devem ser selecionados nas opções internas, não em grupos personalizados. Consulte a seção [Adicionar conjuntos de dados](../reports/reporting-configuration.md#add-datasets).
 
 ## Métricas disponíveis {#metrics}
 
@@ -30,7 +32,7 @@ A lista de métricas varia dependendo dos [grupos de campos](https://experiencel
 
 Se seu conjunto de dados não estiver configurado, apenas as seguintes métricas estarão disponíveis: **[!UICONTROL Clique]**, **[!UICONTROL Clique Único]**, **[!UICONTROL Taxa de Click-through]** e **[!UICONTROL Taxa de Abertura]**.
 
-Observe que com uma licença do Customer Journey Analytics é possível criar métricas de sucesso personalizadas. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Observe que com uma licença do Customer Journey Analytics é possível criar métricas de sucesso personalizadas. [Saiba mais](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Métricas | Grupo de campos relacionado |
@@ -67,7 +69,7 @@ Cada métrica vem com uma atribuição definida que determina quais pontos de co
 
   Com as licenças do Journey Optimizer e da Customer Journey Analytics, é possível criar métricas personalizadas com configurações de atribuição específicas ou alterar as atribuições das métricas integradas.
 
-  Saiba mais sobre [Modelos de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Saiba mais sobre [Modelos de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Atribuir suas métricas de jornada {#assign}
 
