@@ -9,40 +9,70 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 12%
+source-wordcount: '1179'
+ht-degree: 9%
 
 ---
 
 # Procurar e filtrar suas jornadas {#browse-journeys}
 
-## Painel da jornada {#dashboard-jo}
-
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="Visualizações de tabela e linha do tempo das jornadas"
->abstract="Visualizações de tabela e linha do tempo das jornadas"
+>title="Exibições de lista e calendário do Jornada"
+>abstract="Além da lista de jornadas, o [!DNL Journey Optimizer] fornece uma exibição de calendário de suas jornadas, oferecendo uma representação visual clara de suas agendas. Você pode alternar entre as visualizações de lista e calendário a qualquer momento usando esses botões."
+
+## Painel da jornada {#dashboard-jo}
 
 Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. Duas guias estão disponíveis: **[!UICONTROL Visão geral]** e **[!UICONTROL Procurar]**.
 
-* A guia **[!UICONTROL Visão geral]** exibe um painel com as métricas principais relacionadas às suas jornadas.
+### Visão geral do Jornada
 
-  ![Painel de jornada destacando a guia Visão Geral](assets/journeys-dashboard.png)
+A guia **[!UICONTROL Visão geral]** exibe um painel com as métricas principais relacionadas às suas jornadas.
 
-   * **Perfis processados**: número total de perfis processados nas últimas 24 horas
-   * **Live jornada**: número total de jornadas ativas com tráfego nas últimas 24 horas. O Live jornada inclui **jornadas Unitárias** (baseadas em eventos) e **jornadas em Lote** (ler público).
-   * **Taxa de erros**: taxa de todos os perfis com erro em comparação ao número total de perfis que entraram nas últimas 24 horas.
-   * **Taxa de descarte**: taxa de todos os perfis descartados em comparação ao número total de perfis que entraram nas últimas 24 horas. Um perfil descartado representa alguém que não está qualificado para entrar na jornada, por exemplo, devido a um namespace incorreto ou devido a regras de reentrada.
+![Painel de jornada destacando a guia Visão Geral](assets/journeys-dashboard.png)
 
-  >[!NOTE]
-  >
-  >Esse painel considera as jornadas com tráfego nas últimas 24 horas. Somente as jornadas às quais você tem acesso são exibidas. As métricas são atualizadas a cada 30 minutos e somente quando novos dados estão disponíveis.
+* **Perfis processados**: número total de perfis processados nas últimas 24 horas
+* **Live jornada**: número total de jornadas ativas com tráfego nas últimas 24 horas. O Live jornada inclui **jornadas Unitárias** (baseadas em eventos) e **jornadas em Lote** (ler público).
+* **Taxa de erros**: taxa de todos os perfis com erro em comparação ao número total de perfis que entraram nas últimas 24 horas.
+* **Taxa de descarte**: taxa de todos os perfis descartados em comparação ao número total de perfis que entraram nas últimas 24 horas. Um perfil descartado representa alguém que não está qualificado para entrar na jornada, por exemplo, devido a um namespace incorreto ou devido a regras de reentrada.
 
-* A guia **[!UICONTROL Procurar]** mostra a lista de jornadas existentes. Você pode pesquisar jornadas, usar filtros e executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item.
+>[!NOTE]
+>
+>Esse painel considera as jornadas com tráfego nas últimas 24 horas. Somente as jornadas às quais você tem acesso são exibidas. As métricas são atualizadas a cada 30 minutos e somente quando novos dados estão disponíveis.
 
-  ![Painel de jornada destacando a guia Procurar](assets/journeys-browse.png)
+### Lista de jornadas
+
+A guia **[!UICONTROL Procurar]** mostra a lista de jornadas existentes. Você pode pesquisar jornadas, usar filtros e executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item.
+
+![Painel de jornada destacando a guia Procurar](assets/journeys-browse.png)
+
+### Calendário do Jornada {#calendar}
+
+Além da lista de jornadas, o [!DNL Journey Optimizer] fornece uma exibição de calendário de suas jornadas, oferecendo uma representação visual clara de suas agendas.
+
+>[!AVAILABILITY]
+>
+>No momento, a exibição de calendário está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para solicitar acesso, use [este formulário](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>
+>Esse recurso está em desenvolvimento ativo. Suas solicitações e informações são bem-vindas usando o botão **[!UICONTROL Comentários sobre a Beta]** no menu superior.
+
+Para acessar o modo de exibição de calendário, abra a lista jornadas e clique no ícone ![calendário](assets/do-not-localize/timeline-icon.svg).
+
+O calendário exibe todas as jornadas programadas para a semana atual. Use os botões de seta acima do calendário para navegar entre semanas.
+
+![exibição de calendário mostrando jornadas ao vivo](assets/timeline-journeys.png)
+
+Como as jornadas são representadas:
+
+* Por padrão, a grade de calendário mostra todas as jornadas ativas e programadas para a semana selecionada. Opções de filtro adicionais podem mostrar ativações ou ativações concluídas, interrompidas e concluídas.
+* Jornadas de rascunho e jornadas no modo de teste não são exibidas.
+* Jornadas que abrangem vários dias são exibidas na parte superior da grade do calendário.
+* Se nenhuma hora de início for especificada, a hora de ativação manual mais próxima será usada para posicioná-la no calendário.
+* As jornadas são exibidas como intervalos de tempo de 1 hora, mas isso não reflete a hora real de envio ou de conclusão.
+
+Para obter mais detalhes sobre uma jornada, clique no bloco visual para abrir e explorar os detalhes.
 
 Na lista da jornada, todas as versões da jornada são exibidas com o número da versão. Quando você pesquisa uma jornada, as versões mais recentes são exibidas na parte superior da lista na primeira vez que o aplicativo é aberto. Em seguida, você pode definir a classificação desejada e o aplicativo a manterá como uma preferência de usuário. A versão da jornada também é exibida na parte superior da interface de edição da jornada, acima da tela. Saiba mais sobre o [gerenciamento de versão do jornada](publishing-the-journey.md#journey-versions-journey-versions).
 
@@ -67,7 +97,6 @@ Para filtrar jornadas com base em um intervalo de datas específico, selecione *
 Além disso, nos painéis de configuração Evento, Fonte de dados e Ação, o campo **[!UICONTROL Usado em]** exibe o número de jornadas que usam aquele determinado evento, grupo de campos ou ação. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas correspondentes.
 
 ![](assets/journey3bis.png)
-
 
 ## Tipos de jornada {#journey-types}
 

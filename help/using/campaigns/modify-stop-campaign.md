@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 3%
+source-wordcount: '868'
+ht-degree: 1%
 
 ---
 
@@ -26,8 +26,8 @@ Além disso, você pode duplicar campanhas ativas (executadas uma vez ou com uma
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Visualizações de tabela e linha do tempo de campanhas"
->abstract="Visualizações de tabela e linha do tempo de campanhas"
+>title="Exibições de lista e calendário de campanhas"
+>abstract="Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma exibição do calendário de suas campanhas, oferecendo uma representação visual clara de suas agendas. Você pode alternar entre as visualizações de lista e calendário a qualquer momento usando esses botões."
 
 As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**.
 
@@ -35,7 +35,35 @@ Por padrão, a lista mostra todas as campanhas com os status **[!UICONTROL Rascu
 
 ![](assets/create-campaign-list.png)
 
-Além disso, você pode filtrar a lista com base no tipo de campanha e no canal, ou nas tags atribuídas às campanhas ao criá-las. [Saiba como atribuir tags a uma campanha](create-campaign.md#create)
+Você também pode filtrar a lista com base no tipo de campanha e no canal, ou nas tags atribuídas às campanhas ao criá-las. [Saiba como atribuir tags a uma campanha](create-campaign.md#create)
+
+## Calendário de campanhas {#calendar}
+
+Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma exibição do calendário de suas campanhas, oferecendo uma representação visual clara de suas agendas.
+
+>[!AVAILABILITY]
+>
+>No momento, a exibição de calendário está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para solicitar acesso, use [este formulário](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>
+>Esse recurso está em desenvolvimento ativo. Suas solicitações e informações são bem-vindas usando o botão **[!UICONTROL Comentários sobre a Beta]** no menu superior.
+
+O calendário exibe todas as campanhas programadas para a semana atual. Use os botões de seta acima do calendário para navegar entre semanas.
+
+![exibição de calendário mostrando campanhas ativas](assets/campaigns-timeline.png)
+
+Como as campanhas são representadas:
+
+* Por padrão, a grade de calendário mostra todas as campanhas ativas e programadas para a semana selecionada. Opções de filtro adicionais podem mostrar ativações concluídas, interrompidas e concluídas ou ativações de um determinado tipo ou canal.
+* As campanhas de rascunho não são exibidas.
+* Campanhas abrangendo vários dias aparecem na parte superior da grade do calendário.
+* Se nenhuma hora de início for especificada, a hora de ativação manual mais próxima será usada para posicioná-la no calendário.
+* As campanhas são exibidas como intervalos de tempo de 1 hora, mas isso não reflete a hora real de envio ou de conclusão.
+
+Para obter mais detalhes sobre uma campanha, clique no bloco visual para abrir os detalhes.
+
+Para exibir detalhes de uma campanha específica, selecione-a na lista. Um painel de informações será aberto com várias informações sobre a campanha, como tipo, acesso aos relatórios ou as tags atribuídas.
+
+![lista de campanhas com o painel de informações aberto](assets/campaign-rail.png)
 
 ## Status e alertas da campanha {#statuses}
 
