@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 8538018f5c30b0c3c9c1df5726276c2e87e64149
+source-git-commit: 7098a643c8026ed00f83a66fd45f957c2403a569
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Ao integrar o Adobe Experience Manager as a Cloud Service com o Adobe Journey Optimizer, agora é possível incorporar facilmente os Fragmentos de conteúdo do AEM ao conteúdo do Journey Optimizer. Essa conexão simplificada simplifica o processo de acesso e aproveitamento do conteúdo do AEM, permitindo a criação de campanhas e jornadas personalizadas e dinâmicas.
 
-Para saber mais sobre os Fragmentos de conteúdo do AEM, consulte [Trabalho com fragmentos de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview){target="_blank"} na documentação do Experience Manager.
+Para saber mais sobre os Fragmentos de conteúdo do AEM, consulte [Trabalho com fragmentos de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} na documentação do Experience Manager.
 
 >[!AVAILABILITY]
 >
@@ -31,6 +31,8 @@ Para saber mais sobre os Fragmentos de conteúdo do AEM, consulte [Trabalho com 
 * Para conteúdo multilíngue, somente o fluxo manual é compatível.
 
 * As variações não são suportadas no momento.
+
+* A prova da campanha e do jornada publicadas reflete os dados da publicação mais recente do fragmento de conteúdo do Experience Manager.
 
 ## Criar e atribuir uma tag no Experience Manager
 
@@ -48,9 +50,9 @@ Antes de usar o fragmento de conteúdo no Journey Optimizer, é necessário cria
 
 1. Clique em **Criar**.
 
-1. Defina seu Modelo de fragmento de conteúdo conforme detalhado na [documentação do Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} e atribua a tag do Journey Optimizer recém-criada.
+1. Defina seu Modelo de fragmento de conteúdo conforme detalhado na [documentação do Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} e atribua a tag do Journey Optimizer recém-criada.
 
-Agora você pode começar a criar e configurar o fragmento de conteúdo para uso posterior no Journey Optimizer. Saiba mais em [documentação do Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
+Agora você pode começar a criar e configurar o fragmento de conteúdo para uso posterior no Journey Optimizer. Saiba mais em [documentação do Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
 
 ## Adicionar fragmentos de conteúdo do Experience Manager {#aem-add}
 
@@ -120,4 +122,4 @@ Nesse caso, verifique se **_variableName_** está declarado antes de adicionar a
 
 Depois de executar os testes e validar o conteúdo, você pode [enviar a campanha](../campaigns/review-activate-campaign.md) ou [publicar a jornada](../building-journeys/publishing-the-journey.md) para o público-alvo.
 
-O Adobe Experience Manager permite identificar as campanhas ou jornadas do Journey Optimizer em que um fragmento de conteúdo está sendo usado.
+O Adobe Experience Manager permite identificar as campanhas ou jornadas do Journey Optimizer em que um fragmento de conteúdo está sendo usado. Saiba mais em [documentação do Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
