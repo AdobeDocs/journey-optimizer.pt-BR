@@ -3,9 +3,9 @@ title: Identificador suplementar em jornadas acionadas por eventos
 description: Saiba como usar o identificador complementar em jornadas acionadas por eventos.
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 3ed75f1193b1a580183d8ee148792ec136d281cd
+source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '861'
 ht-degree: 7%
 
 ---
@@ -164,11 +164,11 @@ Para usar um identificador complementar em uma jornada, siga estas etapas:
 
 ### **Gerenciamento de Assinaturas**
 
-* **Cenário**: um serviço de assinatura envia mensagens personalizadas para cada assinatura vinculada a um perfil de cliente.
+* **Cenário**: um serviço de assinatura envia mensagens personalizadas para cada assinatura quando um evento é acionado para essa assinatura.
 * **Execução**:
    * Perfil: &quot;Jane&quot;.
-   * IDs complementares: `"Luma Yoga Program ", "Luma Fitness PlPrograman"`.
-   * O Jornada é executado separadamente para cada assinatura, com ofertas de renovação personalizadas.
+   * IDs complementares: `"Luma Yoga Program ", "Luma Fitness Program"`.
+   * Cada evento inclui uma ID de assinatura e detalhes sobre essa assinatura. O Jornada é executado separadamente para cada evento/assinatura, permitindo ofertas de renovação personalizadas por assinatura.
 
 ### **Recomendações de produto**
 
