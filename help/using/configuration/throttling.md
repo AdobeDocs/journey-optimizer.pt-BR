@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 48%
@@ -101,7 +101,7 @@ Ao criar ou atualizar uma configuração, o processo valida a configuração for
 Ao criar, excluir ou implantar a configuração de limitação, os seguintes erros podem ocorrer:
 
 * **ERR_THROTTLING_CONFIG_100**: configuração de limitação: o `<mandatory attribute>` é obrigatório
-* **ERR_THROTTLING_CONFIG_101**: configuração de limitação: o atributo maxThroughput é obrigatório e deve ser maior ou igual a 200 e menor ou igual a 5000
+* **ERR_THROTTLING_CONFIG_101**: configuração de limitação: o atributo maxThroughput é obrigatório e deve ser maior ou igual a 200 e menor ou igual a 5.000
 * **ERR_THROTTLING_CONFIG_104**: configuração de limitação: o atributo urlPattern está malformado
 * **ERR_THROTTLING_CONFIG_105**: configuração de limitação: curingas não são permitidos na parte do host do urlPattern
 * **ERR_THROTTLING_CONFIG_106**: configuração de limitação: conteúdo inválido

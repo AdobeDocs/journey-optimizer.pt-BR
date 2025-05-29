@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, integração
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 13%
+source-wordcount: '546'
+ht-degree: 12%
 
 ---
 
@@ -61,11 +61,11 @@ Quando solicitado, a conexão entre os ambientes Journey Optimizer e Adobe Campa
 
 ## Pré-requisitos {#prerequisites}
 
-No Adobe Campaign, você deve criar e publicar uma mensagem transacional e seu evento associado. Consulte a [documentação do Adobe Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+No Adobe Campaign, você deve criar e publicar uma mensagem transacional e seu evento associado. Consulte a [documentação do Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 Você pode criar sua carga JSON correspondente a cada mensagem seguindo o padrão abaixo. Em seguida, você colará essa carga ao configurar a ação no Journey Optimizer (veja abaixo).
 
-Exemplo:
++++ Exemplo
 
 ```json
 {
@@ -82,15 +82,19 @@ Exemplo:
 * **eventType**: o nome interno do evento do Campaign
 * **ctx**: variável baseada na personalização que você tem em sua mensagem
 
++++
+
 ## Configurar a ação {#configure-action}
 
-No Journey Optimizer, você deve configurar uma ação por mensagem transacional. Siga estas etapas:
+No Journey Optimizer, você deve configurar uma ação por mensagem transacional.
 
-1. Criar uma nova ação. [Saiba mais sobre ações personalizadas](../action/action.md).
+Para criar uma ação do Campaign, siga estas etapas:
+
+1. Criar uma nova ação. [Saiba como criar ações personalizadas](../action/action.md).
 1. Insira um nome e uma descrição.
 1. No campo **Tipo de ação**, selecione **Adobe Campaign Classic**.
+   ![](assets/accintegration1.png)
 1. Clique no campo **Carga** e cole um exemplo da carga JSON correspondente à mensagem do Campaign. Entre em contato com a Adobe para obter essa carga.
-1. Ajuste os diferentes campos para serem estáticos ou variáveis, dependendo se deseja mapeá-los na tela de Jornada. Determinados campos, como parâmetros de canal para campos de endereço de email e personalização (ctx), provavelmente serão definidos como variáveis para mapeamento no contexto da jornada.
+1. Defina cada campo como estático ou variável com base em se você deseja que ele seja mapeado na tela de Jornada. Por exemplo, campos como parâmetros de canal de email e campos de personalização (`ctx`) normalmente devem ser definidos como variáveis para que possam se adaptar dinamicamente na jornada.
 1. Clique em **Salvar**.
 
-![](assets/accintegration1.png)

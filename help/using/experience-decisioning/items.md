@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 15%
@@ -109,7 +109,7 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
    * **[!UICONTROL Evento de decisão]** (valor padrão): número máximo de vezes que uma oferta pode ser apresentada.
    * **[!UICONTROL Impressão]** (somente canais de entrada): número máximo de vezes que a oferta pode ser exibida a um usuário.
    * **[!UICONTROL Cliques]**: número máximo de vezes que um usuário pode clicar no item de decisão.
-   * **[!UICONTROL Evento personalizado]**: você pode definir um evento personalizado que será usado para limitar o número de vezes que o item é enviado. Por exemplo, você pode limitar o número de resgates até que sejam iguais a 10000 ou até que um determinado perfil tenha resgatado uma vez. Para fazer isso, use esquemas [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"} para criar uma regra de evento personalizada.
+   * **[!UICONTROL Evento personalizado]**: você pode definir um evento personalizado que será usado para limitar o número de vezes que o item é enviado. Por exemplo, você pode limitar o número de resgates até que correspondam a 10.000 ou até que um determinado perfil tenha resgatado uma vez. Para fazer isso, use esquemas [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"} para criar uma regra de evento personalizada.
 
    >[!NOTE]
    >

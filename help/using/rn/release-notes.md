@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+source-git-commit: 120a496baf8acc8af6831a5b63b855f609497d03
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1235'
 ht-degree: 35%
 
 ---
@@ -24,11 +24,30 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 ## Notas de versão de maio de 2025 {#25-5-rn}
 
-**Data de lançamento**: 20 a 21 de maio de 2025
+<!--**Release date**: May 20-21, 2025-->
 
 ### Novos recursos {#25-05-features}
 
 Os novos recursos incluídos nesta versão são detalhados abaixo.
+
+<table>
+<thead>
+<tr>
+<th><strong>Exibição de calendário para estoque de Campanha e Jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma visualização de calendário agora está disponível nas listas de jornadas e campanhas. Ele permite visualizar todas as jornadas e ativações de campanhas nas respectivas listas.</p>
+<p>No momento, essa alteração está disponível apenas para algumas organizações (disponibilidade limitada). Para solicitar acesso, use <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">este formulário</a>.</p>
+<img src="assets/do-not-localize/calendar.gif">
+<p>Para obter mais informações, consulte estas seções: <a href="../building-journeys/journey-ui.md">Procurar e filtrar suas jornadas</a>, <a href="../campaigns/modify-stop-campaign.md">Acessar campanhas</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 28 de maio de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -82,6 +101,80 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
+<th><strong>ID complementar para jornadas acionadas por eventos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível acionar jornadas usando uma ID de perfil juntamente com outro identificador, como uma ID de pedido, ID de assinatura ou ID de receita, permitindo que o mesmo perfil esteja na mesma jornada várias vezes de uma vez. Isso permite cenários como gerenciar vários pedidos ou assinaturas em paralelo, com cada instância seguindo seu próprio caminho pela jornada.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/supplemental-identifier.md">documentação detalhada</a>.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+<p>Data de disponibilidade: sábado, 23 de maio de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Simular variações de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Anteriormente disponível na versão beta, a simulação de variações de conteúdo agora está em disponibilidade geral. Ela permite visualizar diferentes variantes de conteúdo a partir de dados de entrada de amostra enviados de um arquivo CSV ou JSON, ou adicionados manualmente. Todos os atributos usados no conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados nos testes para criar diversas variantes.</p>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Com esta versão de Disponibilidade Geral, o recurso agora inclui suporte para conteúdo multilíngue e experimentos de conteúdo, permitindo que você teste variações em diferentes idiomas e tratamentos. Além disso, agora ele é compatível com atributos contextuais (além dos atributos de perfil), permitindo testes de conteúdo ainda mais dinâmicos e específicos.</p>
+<img src="assets/do-not-localize/variants.gif">
+<p>Para obter mais informações, consulte a <a href="../test-approve/simulate-sample-input.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: sábado, 23 de maio de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Sincronizar a programação de público-alvo de leitura com o trabalho de segmentação em lote</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível acionar execuções diárias de jornada após a conclusão da segmentação em lote. Essa opção agora está disponível em jornadas programadas diariamente para todos os clientes. Ele permite definir um período de até 6 horas para aguardar os dados do público-alvo de trabalhos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou ignoradas, se não estiverem prontas.</p>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+<p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#schedule">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quarta-feira, 20 de maio de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Provedor de SMS personalizado</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer agora permite configurar provedores de SMS adicionais além das opções padrão: Sinch, Infobip e Twilio. Com a configuração personalizada do provedor SMS, você pode integrar diretamente provedores de terceiros, aproveitar a personalização avançada de carga para mensagens dinâmicas e gerenciar preferências de consentimento (aceitação/recusa) para garantir a conformidade.</p>
+<p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p></td>
+<p>Data de disponibilidade: quarta-feira, 20 de maio de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Temas no Designer de email</strong><br/></th>
 </tr>
 </thead>
@@ -116,44 +209,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Sincronizar a programação de público-alvo de leitura com o trabalho de segmentação em lote</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível acionar execuções diárias de jornada após a conclusão da segmentação em lote. Essa opção agora está disponível em jornadas programadas diariamente para todos os clientes. Ele permite definir um período de até 6 horas para aguardar os dados do público-alvo de trabalhos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou ignoradas, se não estiverem prontas.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
-<img src="assets/do-not-localize/trigger-journeys.gif">
-<p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#schedule">documentação detalhada</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Exibição de calendário para estoque de Campanha e Jornada</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Uma visualização de calendário agora está disponível nas listas de jornadas e campanhas. Ele permite visualizar todas as jornadas e ativações de campanhas nas respectivas listas.</p>
-<p>No momento, essa alteração está disponível apenas para algumas organizações (disponibilidade limitada). Para solicitar acesso, use <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">este formulário</a>.</p>
-
-
-<img src="assets/do-not-localize/calendar.gif">
-<p>Para obter mais informações, consulte estas seções: <a href="../building-journeys/journey-ui.md">Procurar e filtrar suas jornadas</a>, <a href="../campaigns/modify-stop-campaign.md">Acessar campanhas</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 <!--<table>
 <thead>
 <tr>
@@ -176,24 +231,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 </tbody>
 </table>-->
 
-<table>
-<thead>
-<tr>
-<th><strong>Simular variações de conteúdo</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Anteriormente disponível na versão beta, a simulação de variações de conteúdo agora está em disponibilidade geral. Ela permite visualizar diferentes variantes de conteúdo a partir de dados de entrada de amostra enviados de um arquivo CSV ou JSON, ou adicionados manualmente. Todos os atributos usados no conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados nos testes para criar diversas variantes.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Com esta versão de Disponibilidade Geral, o recurso agora inclui suporte para conteúdo multilíngue e experimentos de conteúdo, permitindo que você teste variações em diferentes idiomas e tratamentos. Além disso, agora ele é compatível com atributos contextuais (além dos atributos de perfil), permitindo testes de conteúdo ainda mais dinâmicos e específicos.</p>
-<img src="assets/do-not-localize/variants.gif">
-<p>Para obter mais informações, consulte a <a href="../test-approve/simulate-sample-input.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: sábado, 23 de maio de 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <!--table>
 <thead>
@@ -209,41 +246,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 </tr>
 </tbody>
 </table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Provedor de SMS personalizado</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Journey Optimizer agora permite configurar provedores de SMS adicionais além das opções padrão: Sinch, Infobip e Twilio. Com a configuração personalizada do provedor SMS, você pode integrar diretamente provedores de terceiros, aproveitar a personalização avançada de carga para mensagens dinâmicas e gerenciar preferências de consentimento (aceitação/recusa) para garantir a conformidade.</p>
-<p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p></td>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>ID complementar para jornadas acionadas por eventos</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível acionar jornadas usando uma ID de perfil juntamente com outro identificador, como uma ID de pedido, ID de assinatura ou ID de receita, permitindo que o mesmo perfil esteja na mesma jornada várias vezes de uma vez. Isso permite cenários como gerenciar vários pedidos ou assinaturas em paralelo, com cada instância seguindo seu próprio caminho pela jornada.</p>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/supplemental-identifier.md">documentação detalhada</a>.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
-<p>Data de disponibilidade: sábado, 23 de maio de 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 ### Melhorias {#25-05-improv}
@@ -275,15 +277,15 @@ As melhorias incluídas nesta versão estão listadas abaixo.
   >
   >Esse recurso será implantado gradualmente em todos os ambientes nos próximos 30 dias.
 
-* Suporte para &#39;Redirecionar para URL&#39; de **no canal da Web**
+* Suporte a &#39;Redirecionar para URL&#39; do **no canal da Web** - Data de disponibilidade: 20 de maio de 2025
 
   O canal da Web do Journey Optimizer agora permite redirecionar os visitantes para outro URL existente, em vez de criar uma nova variação no editor visual. Esse recurso pode ser usado para executar experimentos comparando duas páginas completamente diferentes, em vez de apenas alterar alguns elementos em uma página. [Leia mais](../web/create-web.md#web-redirect-to-url)
 
-* **Pastas para modelos e fragmentos**
+* **Pastas para modelos e fragmentos** - Data de disponibilidade: 20 de maio de 2025
 
   As pastas permitem organizar os objetos de forma mais fácil e eficaz em uma hierarquia estruturada. Anteriormente disponíveis para apenas algumas organizações (disponibilidade limitada), as pastas agora estão disponíveis para todos os usuários (disponibilidade geral), permitindo o gerenciamento de modelos e fragmentos de conteúdo. Leia mais nas seções [Modelos de conteúdo](../content-management/access-content-templates.md#folders) e [Fragmentos](../content-management/manage-fragments.md#folders).
 
-* **Rastreamento de cliques em modelos de email**
+* **Rastreamento de cliques em modelos de email** - Data de disponibilidade: 20 de maio de 2025
 
   O rastreamento de cliques nos elementos `<area>` nos mapas de imagem no conteúdo de email agora tem suporte nativo no [!DNL Journey Optimizer]. Isso garante que as áreas do mapa de imagem recebam os mesmos dados de rastreamento de encapsulamento, dados de rastreamento e parâmetros anexados que os hiperlinks padrão. [Saiba mais sobre o rastreamento de mensagens](../email/message-tracking.md#manage-tracking)
 
@@ -292,7 +294,7 @@ As melhorias incluídas nesta versão estão listadas abaixo.
   
   Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
 
-* **Painel direito na lista de campanhas**
+* **Painel direito na lista de campanhas** - Data de disponibilidade: 20 de maio de 2025
 
   Na lista de campanhas, selecionar uma campanha agora abre um painel que exibe seus detalhes.
 
