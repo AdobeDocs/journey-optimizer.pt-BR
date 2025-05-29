@@ -8,7 +8,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 39%
+ht-degree: 48%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioridade"
->abstract="Atribua uma pontuação de prioridade à jornada. A prioridade é essencial para priorizar uma jornada quando há uma restrição imposta, como um limite de frequência. Insira um valor numérico (de 0 a 100). Observe que quanto maior o número, maior a prioridade."
+>abstract="Atribua uma pontuação de prioridade à jornada. A priorização é essencial para uma jornada que possui uma restrição imposta, como um limite de frequência. Insira um valor numérico (de 0 a 100). Observe que, quanto maior for o número, maior será a prioridade."
 
 >[!AVAILABILITY]
 >
@@ -48,4 +48,4 @@ Para atribuir uma pontuação de prioridade a uma jornada ou campanha, insira um
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445006?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

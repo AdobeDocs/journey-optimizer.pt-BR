@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '1543'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -158,7 +158,7 @@ Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
 >title="Redirecionar para outro URL"
->abstract="Insira um URL existente para o qual você deseja redirecionar os visitantes da página."
+>abstract="Insira um URL existente para o qual você deseja redirecionar visitantes da página."
 
 Ao criar uma experiência da Web, você pode redirecionar os visitantes para outro URL existente, em vez de criar uma nova variação no web designer.
 
@@ -266,4 +266,4 @@ Quando uma jornada ou campanha da Web está ativa, você pode interrompê-la par
 
 O vídeo abaixo mostra como criar uma campanha da Web, configurar suas propriedades, revisá-la e publicá-la.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449986/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

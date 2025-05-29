@@ -8,7 +8,7 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
 >title="Use perfis de teste para verificar o conteúdo"
->abstract="Use perfis de teste para visualizar e testar o conteúdo. Se você tiver adicionado campos personalizados, poderá verificar como eles são exibidos usando dados de perfil de teste."
+>abstract="Use perfis de teste para visualizar e testar o conteúdo. Se você tiver adicionado campos personalizados, será possível verificar como eles são exibidos por meio de dados do perfil de teste."
 
 Os perfis de teste são recipients adicionais que não correspondem aos critérios de direcionamento definidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md)
 
