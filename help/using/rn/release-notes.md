@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 120a496baf8acc8af6831a5b63b855f609497d03
+source-git-commit: 951056d22975a34af50faa450859d635b542f90f
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 35%
@@ -165,8 +165,9 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <td>
 <p>O Journey Optimizer agora permite configurar provedores de SMS adicionais além das opções padrão: Sinch, Infobip e Twilio. Com a configuração personalizada do provedor SMS, você pode integrar diretamente provedores de terceiros, aproveitar a personalização avançada de carga para mensagens dinâmicas e gerenciar preferências de consentimento (aceitação/recusa) para garantir a conformidade.</p>
 <p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p></td>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Data de disponibilidade: quarta-feira, 20 de maio de 2025</p>
+</td>
 </td>
 </tr>
 </tbody>
