@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 0%
+source-wordcount: '1182'
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ Depois que uma fórmula de classificação é criada, é possível atribuí-la a
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Criar fórmulas de classificação"
->abstract="As fórmulas permitem definir regras que determinarão qual item de decisão deve ser apresentado primeiro, em vez de considerar as pontuações de prioridade dos itens. Depois que uma fórmula de classificação é criada, é possível atribuí-la a uma estratégia de seleção."
+>abstract="As fórmulas permitem definir regras que determinarão qual item de decisão deverá ser apresentado primeiro, ao invés de considerar as pontuações de prioridade dos itens. Após a criação de uma fórmula de classificação, é possível atribuí-la a uma estratégia de seleção."
 
 Para criar uma fórmula de classificação, siga as etapas abaixo.
 
@@ -42,11 +42,17 @@ Para criar uma fórmula de classificação, siga as etapas abaixo.
 
    ![](assets/create-formula.png){width="80%"}
 
-1. Opcionalmente, clique em **[!UICONTROL Selecionar modelo de IA]** para definir o modelo que será usado como referência para criar sua fórmula de classificação. Toda vez que você se refere a uma pontuação de modelo ao definir sua fórmula abaixo, o modelo de IA selecionado será usado.
+1. Opcionalmente, clique em **[!UICONTROL Selecionar modelo de IA]** para definir o modelo que será usado como referência para criar sua fórmula de classificação.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Ao usar um modelo de IA incorporado a uma fórmula de classificação, os dados não são refletidos no [Relatório de taxa de conversão para tráfego de Retenção e Orientado por Modelo](../reports/campaign-global-report-cja-code.md#conversion-rate).
+   >[O construtor de fórmulas de IA não oferece suporte a modelos de otimização personalizados](../offers/ranking/personalized-optimization-model.md) que usam métricas contínuas.
+
+Toda vez que você se refere a uma pontuação de modelo ao definir sua fórmula abaixo, o modelo de IA selecionado será usado.
+
+    >[!CAUTION]
+    >
+    >Ao usar um modelo de IA incorporado em uma fórmula de classificação, os dados não são refletidos no relatório [Taxa de conversão para tráfego de Retenção e Controlado pelo Modelo](../reports/campaign-global-report-cja-code.md#conversion-rate).
 
 1. Defina as condições que determinarão a pontuação de classificação para os itens de decisão correspondentes. Você pode:
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ações de entrada, solução de problemas, jornada, depurar, autoajuda, verificação, erros
-source-git-commit: e3780d52960b7fbe5ada33cf4de65d22b15e7d1d
+source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Este guia fornece um processo passo a passo para depurar problemas relacionados 
 
 Antes de começar a solução de problemas, verifique o seguinte:
 
-1. Configure uma sessão **Assurance**. Saiba mais na [documentação do Adobe Experience Platform Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Configure uma sessão **Assurance**. Saiba mais na [documentação do Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 1. Navegue até a jornada que contém a ação de entrada para recuperar o nome da jornada e a ID da versão.
 
@@ -52,7 +52,7 @@ Antes de começar a solução de problemas, verifique o seguinte:
 
    ![](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. Obtenha o namespace e a ID do perfil para identificar o perfil que está encontrando problemas. Com base na sua configuração, o namespace pode ser ECID, email ou ID do cliente, por exemplo. Saiba como pesquisar um perfil na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+1. Obtenha o namespace e a ID do perfil para identificar o perfil que está encontrando problemas. Com base na sua configuração, o namespace pode ser ECID, email ou ID do cliente, por exemplo. Saiba como pesquisar um perfil na [documentação do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ## Cenário 1: o usuário não recebeu o conteúdo de entrada {#scenario-1}
 
@@ -67,7 +67,7 @@ Nesse cenário, um perfil inseriu a ação de entrada na jornada, mas mesmo depo
 
 2. **identidade &#39;joai&#39; definida nas identidades da plataforma**
 
-   A ação de entrada usa o namespace **&#39;joai&#39;** no perfil `segmentMembership` para ativar o perfil para a etapa de entrada. Verifique se ele foi definido nas Identidades da plataforma para a sandbox. Saiba mais sobre o [Experience Platform Identity Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home){target="_blank"}
+   A ação de entrada usa o namespace **&#39;joai&#39;** no perfil `segmentMembership` para ativar o perfil para a etapa de entrada. Verifique se ele foi definido nas Identidades da plataforma para a sandbox. Saiba mais sobre o [Experience Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}
 
 ### Etapas de depuração {#debugging-steps}
 
@@ -83,7 +83,7 @@ Comece verificando se o dispositivo/cliente está obtendo o conteúdo esperado.
 
 >[!TAB Canal no aplicativo]
 
-1. Vá para a sessão [Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} e selecione a seção **[!UICONTROL Mensagens no Aplicativo]** no painel esquerdo.
+1. Vá para a sessão [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} e selecione a seção **[!UICONTROL Mensagens no Aplicativo]** no painel esquerdo.
 
 1. Na guia **[!UICONTROL Mensagens no Dispositivo]**, clique na lista suspensa **[!UICONTROL Mensagens]** e verifique se há uma mensagem com o nome de jornada seguido de &quot;- Mensagem no aplicativo&quot;. Se presente, significa que a mensagem no aplicativo está presente no dispositivo/cliente e o problema pode estar relacionado ao acionador no aplicativo.
 
@@ -91,11 +91,11 @@ Comece verificando se o dispositivo/cliente está obtendo o conteúdo esperado.
 
 >[!TAB Canal da Web]
 
-Visite a página e inspecione a guia de rede, ou verifique a carga de resposta do Edge na seção **[!UICONTROL Edge Delivery]** da sessão [Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Visite a página e inspecione a guia de rede, ou verifique a carga de resposta do Edge na seção **[!UICONTROL Edge Delivery]** da sessão [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!TAB Canal de experiência baseado em código]
 
-Execute uma solicitação de curl usando a [API do Adobe](https://developer.adobe.com/data-collection-apis/docs/api/) e verifique a carga de resposta do Edge na seção **[!UICONTROL Edge Delivery]** da sessão [Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Execute uma solicitação de curl usando a [API do Adobe](https://developer.adobe.com/data-collection-apis/docs/api/) e verifique a carga de resposta do Edge na seção **[!UICONTROL Edge Delivery]** da sessão [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -127,7 +127,7 @@ Para depurar o comportamento do Edge Network, siga as etapas abaixo.
 
    Você pode verificar novamente se o segmento **joai** está presente na exibição do perfil do servidor de entrega do Edge Network, abrindo o elemento **segmentsMap** da seção Perfil e procurando a presença da ID de segmento **joai**.
 
-1. Se o servidor de entrega do Edge Network não exibir o perfil como estando no segmento **joai** relevante, vá para a próxima etapa.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Se o servidor de entrega do Edge Network não exibir o perfil como estando no segmento **joai** relevante, vá para a próxima etapa.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 #### Etapa 3: verificar se a associação de público-alvo joai se propagou para a Edge Network {#step-3}
 
@@ -158,7 +158,9 @@ Para verificar a presença do segmento **joai** no atributo `segmentMembership` 
 
    * Se não for exibido na visualização do perfil do servidor de entrega do Edge Network, pode haver um problema com a forma como o servidor de entrega está carregando o perfil do Edge.
 
-1. Se a ID de segmento **joai** não estiver presente ou se estiver no estado **[!UICONTROL encerrado]**, significa que ela (ainda) não foi propagada para o Edge. Aguarde de 15 a 30 minutos para que os valores de `segmentMembership` sejam propagados do Hub para a Edge.
+1. Se a ID de segmento **joai** não estiver presente ou se estiver no estado **[!UICONTROL encerrado]**, significa que ela (ainda) não foi propagada para o Edge.
+
+   Aguarde de 15 a 30 minutos para que os valores de `segmentMembership` sejam propagados do Hub para a Edge. Se ainda não estiver presente, vá para a próxima etapa.
 
 <!--The next step is to check whether the audience segment is present in the profile on the Hub.-->
 
@@ -174,8 +176,7 @@ Para verificar a presença do segmento **joai** no atributo `segmentMembership` 
 
 1. Navegue até o menu **[!UICONTROL Cliente]** > **[!UICONTROL Perfis]** no painel de navegação esquerdo [!DNL Journey Optimizer] e navegue até o perfil usando o namespace e a ID. Saiba mais sobre [Perfis de clientes em tempo real](../audience/get-started-profiles.md)
 
-1. Selecione a guia **[!UICONTROL Atributos]** e escolha a exibição **[!UICONTROL Hub]**.
-   <!--cannot see Hub/Edge wiews for the profile-->
+1. Selecione a guia **[!UICONTROL Atributos]** e escolha a exibição **[!UICONTROL Hub]**. <!--cannot see Hub/Edge wiews for the profile-->
 
 1. Clique em **[!UICONTROL Exibir JSON]** para abrir a exibição JSON do perfil.
 
@@ -187,9 +188,7 @@ Para verificar a presença do segmento **joai** no atributo `segmentMembership` 
 
 1. Se a ID de segmento **joai** não estiver presente ou se estiver no estado **[!UICONTROL encerrado]**, significa que o perfil não foi (ainda) qualificado corretamente no segmento de público-alvo **joai** especial ao entrar na ação de jornada de entrada correspondente.
 
-   >[!NOTE]
-   >
-   >Lembre-se de que pode levar de 15 a 30 minutos para que os valores `segmentMembership` sejam assimilados no perfil no Hub.
+   Aguarde de 15 a 30 minutos para que os valores `segmentMembership` sejam assimilados no perfil no Hub. Se ainda não estiver presente, vá para a próxima etapa.
 
 #### Etapa 5: se o cliente/dispositivo ainda não estiver obtendo o conteúdo esperado {#step-5}
 
@@ -223,9 +222,9 @@ Siga as mesmas etapas de depuração do [Cenário 1](#debugging-steps) para veri
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 ## Warnings and Notes {#warnings-and-notes}
 
