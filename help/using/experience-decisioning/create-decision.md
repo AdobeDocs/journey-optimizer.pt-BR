@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 0b7f76ca43ef8dda3861abf2c3b058cef725e967
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1735'
 ht-degree: 12%
 
 ---
@@ -215,6 +215,10 @@ Depois de criada, a política de decisão pode ser usada no [editor de personali
 1. Clique em cada pasta para expandi-la. Coloque o cursor do mouse no local desejado e clique no ícone + ao lado do atributo que deseja adicionar. Você pode adicionar quantos atributos desejar ao código.
 
    ![](assets/decision-code-based-add-decision-attributes.png)
+
+1. Certifique-se de envolver o loop `#each` dentro de um par de colchetes `[ ]` e adicionar uma vírgula antes de fechar `/each`.
+
+   ![](assets/decision-code-based-wrap-code.png)
 
 1. Você também pode adicionar qualquer outro atributo disponível no editor de personalização, como atributos de perfil.
 

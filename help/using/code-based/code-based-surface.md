@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 53%
+source-wordcount: '766'
+ht-degree: 50%
 
 ---
 
@@ -31,7 +31,11 @@ Uma superfície pode ser vista como um container em qualquer nível de hierarqui
 
 * Ela também pode se estender para partes específicas de containers de conteúdo para fins de não exibição ou exibição abstrata (por exemplo, blobs JSON fornecidos aos serviços).
 
-* Também pode ser uma superfície curinga que corresponde a várias definições de superfície do cliente (por exemplo, um local de Hero image em cada página do site pode ser traduzido em um URI de superfície como: web://mydomain.com/*#hero_image).
+* Também pode ser uma superfície curinga que corresponde a várias definições de superfície do cliente (por exemplo, um local de image hero em cada página do site pode ser traduzido em um URI de superfície como: web://mydomain.com/*#hero_image).
+
+>[!NOTE]
+>
+>Quando você tem várias ações de experiência baseadas em código sendo executadas na mesma superfície, a **[!UICONTROL Pontuação de prioridade]** da campanha ou da jornada determina o que é entregue ao usuário final se ele se qualificar para mais de uma ação. [Saiba mais sobre pontuações de prioridade](../conflict-prioritization/priority-scores.md)
 
 ## Identificador de superfície {#surface-uri}
 

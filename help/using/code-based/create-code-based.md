@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '698'
 ht-degree: 10%
 
 ---
@@ -41,9 +41,13 @@ Para adicionar uma atividade de **experiência baseada em código** a uma jornad
 
 1. Insira um **[!UICONTROL Rótulo]** e uma **[!UICONTROL Descrição]** para a mensagem.
 
-1. Selecione ou crie a [Configuração de experiência baseada em código](code-based-configuration.md) para usar.
+1. Selecione ou crie a configuração de experiência baseada em código para usar. [Saiba mais](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
+
+   >[!NOTE]
+   >
+   >Quando você tem várias ações de experiência baseadas em código usando a mesma configuração de canal, a **[!UICONTROL Pontuação de prioridade]** da jornada determina o que é entregue ao usuário final se ele se qualificar para mais de uma ação. [Saiba mais sobre pontuações de prioridade](../conflict-prioritization/priority-scores.md)
 
 1. Selecione o botão **[!UICONTROL Editar conteúdo]** e edite o conteúdo conforme desejado usando o editor de personalização. [Saiba mais](#edit-code)
 
@@ -67,9 +71,13 @@ Para começar a criar sua **experiência baseada em código** por meio de uma ca
 
 1. Selecione a ação **[!UICONTROL Experiência baseada em código]**.
 
-1. Selecione ou crie a configuração de experiência baseada em código. [Saiba mais](code-based-configuration.md)
+1. Selecione ou crie a configuração de experiência baseada em código para usar. [Saiba mais](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
+
+   >[!NOTE]
+   >
+   >Quando você tem várias ações de experiência baseadas em código usando a mesma configuração de canal, a **[!UICONTROL Pontuação de prioridade]** da campanha determina o que é entregue ao usuário final se ele se qualificar para mais de uma ação. [Saiba mais sobre pontuações de prioridade](../conflict-prioritization/priority-scores.md)
 
 1. Edite o conteúdo conforme desejado usando o editor de personalização. [Saiba mais](#edit-code)
 
@@ -123,4 +131,4 @@ Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar con
 
 O vídeo abaixo mostra como criar uma campanha de experiência baseada em código, configurar suas propriedades, testá-la e publicá-la.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449458/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)
