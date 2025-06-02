@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
+source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 12%
+source-wordcount: '1218'
+ht-degree: 7%
 
 ---
 
@@ -102,6 +102,8 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
 
    ![](assets/content_experiment_13.png)
 
+1. Ative o experimento de dimensionamento automático para implantar automaticamente a variação vencedora do seu experimento. [Saiba mais sobre como dimensionar o vencedor](#scale-winner)
+
 1. Clique em **[!UICONTROL Criar]** quando sua configuração estiver definida.
 
 ## Projetar seus tratamentos {#treatment-experiment}
@@ -127,4 +129,80 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
 1. Depois que o conteúdo da mensagem for definido, clique no botão **[!UICONTROL Simular conteúdo]** para controlar a renderização da entrega e verificar as configurações de personalização com perfis de teste. [Saiba mais](../content-management/preview-test.md)
 
 Depois de configurar sua experimentação, você pode acompanhar o sucesso do delivery com seu relatório. [Saiba mais](../reports/campaign-global-report-cja-experimentation.md)
+
+## Dimensionar o vencedor {#scale-winner}
+
+>[!AVAILABILITY]
+>
+>O recurso Dimensionar o vencedor é atualmente compatível com os seguintes canais:
+>
+>* Canais de entrada (por exemplo, Web, mensagem no aplicativo, experiência baseada em código) em qualquer jornada ou campanha.
+>* Canais de saída (por exemplo, email, notificação por push, SMS) em campanhas transacionais acionadas por API.
+
+Dimensionar o Vencedor permite implantar automática ou manualmente a variação vencedora de um experimento em todo o seu público-alvo. Esse recurso garante que, uma vez determinado o vencedor, você possa ampliar seu alcance e eficácia sem monitorar constantemente o experimento.
+
+Você pode escolher entre dois modos:
+
+* **Dimensionamento automático**: defina as configurações de dimensionamento automático ao criar seu experimento escolhendo o tempo e as condições para dimensionar o tratamento vencedor ou uma opção de fallback se nenhum vencedor surgir.
+
+* **Escala Manual**: analise manualmente os resultados do experimento e inicie a implantação do tratamento vencedor, mantendo o controle total sobre o tempo e as decisões.
+
+
+### Dimensionamento automático {#autoscaling}
+
+O dimensionamento automático permite definir regras predefinidas para quando implantar o tratamento vencedor ou um fallback, com base nos resultados do experimento.
+
+Observe que após o dimensionamento automático, o dimensionamento manual não estará mais disponível.
+
+Para ativar a escala automática em seus experimentos:
+
+1. Configure sua campanha ou jornada e configure seu experimento conforme necessário. [Saiba mais](#configure-experiment)
+
+1. Ative a opção de dimensionamento automático ao configurar seu experimento.
+
+   ![](assets/scale-winner-1.png)
+
+1. Selecione quando o vencedor deve ser dimensionado:
+
+   * Assim que o vencedor for encontrado.
+   * Após o experimento ficar ativo pelo tempo selecionado.
+
+     A hora de dimensionamento automático deve ser agendada antes da data de término do experimento. Se for definido para um período posterior à data de término, um aviso de validação será exibido e a campanha ou jornada não será publicada.
+
+   ![](assets/scale-winner-2.png)
+
+1. Escolha o comportamento de fallback se nenhum vencedor for encontrado por tempo de escala:
+
+   * Continue o experimento até que ele termine como programado.
+   * Dimensione o tratamento alternativo após um tempo especificado.
+
+Depois que todos os parâmetros forem atendidos, o tratamento vencedor ou alternativo será enviado para o público-alvo.
+
+### Dimensionamento manual {#manual-scaling}
+
+O dimensionamento manual oferece a capacidade de analisar os resultados do experimento e decidir quando implantar o tratamento vencedor de acordo com seu próprio cronograma.
+
+Observe que, se você dimensionar manualmente o vencedor antes do tempo de dimensionamento automático programado, a dimensionamento automático será cancelada.
+
+Para dimensionar manualmente o vencedor de seus experimentos:
+
+1. Configure sua campanha ou jornada e configure seu experimento conforme necessário. [Saiba mais](#configure-experiment)
+
+1. Deixe o experimento ser executado até que um vencedor seja identificado ou até que a significância estatística seja alcançada.
+
+1. Abra o painel da campanha ou selecione a atividade de canal na jornada.
+
+   Revise os resultados no menu **[!UICONTROL Experimento de Conteúdo]** para identificar o tratamento de melhor desempenho.
+
+   ![](assets/scale-winner-jo.png)
+
+1. Clique em **[!UICONTROL Dimensionar tratamento]** para encaminhar o tratamento vencedor ao restante do público-alvo.
+
+   ![](assets/scale-winner-campaign.png)
+
+1. Selecione o tratamento que deseja dimensionar no menu suspenso e clique em **[!UICONTROL Escala]**.
+
+   ![](assets/scale-winner-3.png)
+
+Observe que o dimensionamento do tratamento pode levar até uma hora. Você receberá uma notificação quando o processo de dimensionamento manual for concluído.
 
