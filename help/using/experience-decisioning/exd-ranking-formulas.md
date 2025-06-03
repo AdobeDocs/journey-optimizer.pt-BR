@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
+source-git-commit: 2f2caf8615af8e3526124e0d7ed91873ccb6edc3
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1179'
 ht-degree: 4%
 
 ---
@@ -48,11 +48,11 @@ Para criar uma fórmula de classificação, siga as etapas abaixo.
    >
    >[O construtor de fórmulas de IA não oferece suporte a modelos de otimização personalizados](../offers/ranking/personalized-optimization-model.md) que usam métricas contínuas.
 
-Toda vez que você se refere a uma pontuação de modelo ao definir sua fórmula abaixo, o modelo de IA selecionado será usado.
+   Toda vez que você se refere a uma pontuação de modelo ao definir sua fórmula abaixo, o modelo de IA selecionado será usado.
 
-    >[!CAUTION]
-    >
-    >Ao usar um modelo de IA incorporado em uma fórmula de classificação, os dados não são refletidos no relatório [Taxa de conversão para tráfego de Retenção e Controlado pelo Modelo](../reports/campaign-global-report-cja-code.md#conversion-rate).
+   >[!CAUTION]
+   >
+   >Ao usar um modelo de IA incorporado a uma fórmula de classificação, os dados não são refletidos no [Relatório de taxa de conversão para tráfego de Retenção e Orientado por Modelo](../reports/campaign-global-report-cja-code.md#conversion-rate).
 
 1. Defina as condições que determinarão a pontuação de classificação para os itens de decisão correspondentes. Você pode:
 
