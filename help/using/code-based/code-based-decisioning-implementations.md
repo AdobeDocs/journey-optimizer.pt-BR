@@ -5,17 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
-# Decisão em implementações de experiência baseadas em código
+# Decisão sobre implementações de experiências baseadas em código
 
 Ao usar a Decisão em experiências baseadas em código, considere adicionar os seguintes sinalizadores à implementação do cliente nos casos descritos abaixo.
 
@@ -28,15 +26,15 @@ Ao testar a [experiência baseada em código](create-code-based.md) com a tomada
 Depois de publicar sua campanha, adicione o sinalizador `dryRun` no bloco `data` do evento XDM na implementação do cliente:
 
     &quot;
-    &lbrace;
-    &quot;dados&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;dados&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;
 
 <!--
@@ -46,7 +44,7 @@ Depois de publicar sua campanha, adicione o sinalizador `dryRun` no bloco `data`
 
 ## Desduplicação de itens de decisão em implementações baseadas em código {#code-based-decisioning-deduplication}
 
-Ao usar [políticas de decisão](../experience-decisioning/create-decision.md) em suas experiências baseadas em código, saiba como aplicar a desduplicação às suas solicitações de decisão na implementação do cliente.
+Ao usar [políticas de decisão](../experience-decisioning/create-decision.md) em suas experiências baseadas em código, você pode aplicar a desduplicação às suas solicitações de decisão na implementação do cliente.
 
 As solicitações de decisão (por meio do Konductor) aceitam o sinalizador de desduplicação, que lida com a exclusividade de itens de decisão em uma única solicitação composta por várias políticas de decisão ou posicionamentos.
 
