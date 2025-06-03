@@ -117,4 +117,4 @@ Além disso, você também pode aproveitar o **Serviço de consulta** da Adobe E
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447620?quality=12&captions=por_br)

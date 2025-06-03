@@ -312,4 +312,4 @@ Para aplicar uma regra de limitação a uma jornada, acesse a jornada e abra sua
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
