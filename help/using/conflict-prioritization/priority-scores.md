@@ -3,12 +3,11 @@ title: Atribuir pontuações de prioridade a jornadas e campanhas
 description: Saiba como atribuir pontuações de prioridade a jornadas e campanhas.
 role: User
 level: Beginner
-badge: label="Disponibilidade limitada"
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 48%
+source-wordcount: '375'
+ht-degree: 35%
 
 ---
 
@@ -22,11 +21,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioridade"
->abstract="Atribua uma pontuação de prioridade à jornada. A priorização é essencial para uma jornada que possui uma restrição imposta, como um limite de frequência. Insira um valor numérico (de 0 a 100). Observe que, quanto maior for o número, maior será a prioridade."
-
->[!AVAILABILITY]
->
->Os recursos de conflito e priorização estão atualmente em disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão lançados de forma gradual para mais usuários no futuro. Entre em contato com a equipe de conta se tiver interesse em participar da lista de espera desses recursos.
+>abstract="Atribua uma pontuação de prioridade à jornada. A prioridade é essencial para priorizar uma jornada quando há uma restrição imposta, como um limite de frequência. Insira um valor numérico (de 0 a 100). Observe que, quanto maior for o número, maior será a prioridade."
 
 O Journey Optimizer permite atribuir uma pontuação de prioridade a uma jornada ou campanha. A prioridade é essencial para priorizar uma jornada, campanha ou ação quando há uma restrição imposta (como um limite de frequência). Em situações em que um cliente se qualifica para muitas jornadas, campanhas ou comunicações e você deseja ser seletivo quanto ao que ele deve informar e receber, você deve utilizar esse campo.
 
@@ -44,8 +39,8 @@ Para atribuir uma pontuação de prioridade a uma jornada ou campanha, insira um
 
 >[!IMPORTANT]
 >
->Para situações em que duas campanhas têm a mesma pontuação de prioridade, a campanha que foi ativada primeiro será exibida.
+>Se duas jornadas ou campanhas tiverem a mesma pontuação de prioridade, o sistema não terá um mecanismo de interrupção de vínculo. Certifique-se de que as pontuações de prioridade sejam exclusivas para evitar conflitos.
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445006?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

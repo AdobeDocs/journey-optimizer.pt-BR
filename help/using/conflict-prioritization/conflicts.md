@@ -3,20 +3,15 @@ title: Exibir possíveis conflitos em jornadas e campanhas
 description: Saiba como identificar possíveis conflitos em jornadas e campanhas.
 role: User
 level: Beginner
-badge: label="Disponibilidade limitada"
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 21%
+source-wordcount: '755'
+ht-degree: 16%
 
 ---
 
 # Detectar possíveis conflitos em jornadas e campanhas {#conflict}
-
->[!AVAILABILITY]
->
->Os recursos de conflito e priorização estão atualmente em disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão lançados de forma gradual para mais usuários no futuro. Entre em contato com a equipe de conta se tiver interesse em participar da lista de espera desses recursos.
 
 À medida que os profissionais de marketing aumentam o volume de Campanhas e Jornadas no Journey Optimizer, fica cada vez mais difícil para um profissional de marketing saber se estão bombardeando seus clientes com muitas interações de marketing. portanto, é essencial identificar facilmente quando há campanhas e jornadas sobrepostas para garantir que elas estejam alcançando o equilíbrio certo de comunicações de marketing e, ao mesmo tempo, reduzir o risco de fadiga do cliente.
 
@@ -27,10 +22,6 @@ As principais áreas a serem monitoradas quanto a possíveis sobreposições sã
 * **Canal**: há outras comunicações agendadas para o mesmo período? Em caso afirmativo, quantas?
 * **Conjunto de Regras de Limite**: que tipos de jornadas estou limitando e há sobreposição entre eles?
 * **Configuração de Canal**: há outras jornadas ou campanhas usando qualquer configuração de canal que esteja sendo usada na mesma jornada ou campanha que possam impedir a exibição da jornada ou campanha ao usuário final?
-
->[!NOTE]
->
->Em campanhas, a pontuação de prioridade está disponível somente para os canais de entrada da Web, no aplicativo e com base em código.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -74,7 +65,7 @@ Ao criar uma jornada ou campanha, o Journey Optimizer permite verificar sempre q
 
    >[!NOTE]
    >
-   >As campanhas recém-publicadas podem levar até 5 minutos para serem exibidas no visualizador de conflitos, devido ao armazenamento em cache implementado
+   >As jornadas e campanhas recém-publicadas podem levar de 3 a 7 minutos para serem exibidas no visualizador de conflitos, devido ao armazenamento em cache implementado.
 
 Para refinar ainda mais sua pesquisa por possíveis sobreposições, você pode filtrar sua lista de campanhas e jornadas com base nos campos relevantes. Para fazer isso, selecione o ícone de filtro na visualização de inventário. [Saiba como trabalhar com filtros](../start/search-filter-categorize.md#filter-lists)
 

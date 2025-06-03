@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -271,7 +271,7 @@ Anteriormente disponíveis para um conjunto de organizações (LA), os seguintes
 </tbody>
 </table>
 
-### Melhorias {#24-10-improvements}
+### Aprimoramentos {#24-10-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -471,7 +471,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 </table>
 
 
-### Melhorias {#24-9-improvements}
+### Aprimoramentos {#24-9-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -624,7 +624,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table>
 
-### Melhorias {#8-improvements}
+### Aprimoramentos {#8-improvements}
 
 Essa versão traz as melhorias listadas abaixo.
 
@@ -693,7 +693,7 @@ Essa versão traz os novos recursos listados abaixo.
 </tbody>
 </table>
 
-### Melhorias {#27-4-improvements}
+### Aprimoramentos {#27-4-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -811,7 +811,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table-->
 
-### Melhorias {#june24-improvements}
+### Aprimoramentos {#june24-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -973,7 +973,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table-->
 
-### Melhorias {#e-improvements}
+### Aprimoramentos {#e-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -1004,7 +1004,7 @@ As seguintes melhorias foram adicionadas desde a versão beta até a versão atu
 
   >[!AVAILABILITY]
   >
-  >No momento, esse recurso está na versão beta, disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.
+  >No momento, esse recurso está na versão beta e disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.
 
 <!--
 **Audiences**
@@ -1103,7 +1103,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table-->
 
-### Melhorias {#apr-improvements}
+### Aprimoramentos {#apr-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -1165,7 +1165,7 @@ Essa versão traz o novo recurso listado abaixo.
 </tbody>
 </table>
 
-### Melhorias {#mar-improvements}
+### Aprimoramentos {#mar-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -1230,7 +1230,7 @@ Essa versão traz os novos recursos listados abaixo.
 </table>
 
 
-### Melhorias {#feb-improvements}
+### Aprimoramentos {#feb-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -1266,7 +1266,7 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 
 **Regras de frequência**
 
-* Além de Email e Push, agora é possível criar regras de frequência para canais de SMS e de correspondência direta. As regras de frequência excluem automaticamente perfis excessivamente solicitados de mensagens e ações quando o limite de frequência é atingido. [Leia mais](../configuration/rule-sets.md)
+* Além de Email e Push, agora é possível criar regras de frequência para canais de SMS e de correspondência direta. As regras de frequência excluem automaticamente perfis excessivamente solicitados de mensagens e ações quando o limite de frequência é atingido. [Leia mais](../conflict-prioritization/rule-sets.md)
 
 <!--**Decision management**
 
@@ -1314,7 +1314,7 @@ Essa versão traz os novos recursos listados abaixo.
 </tbody>
 </table>
 
-### Melhorias {#jan24-improvements}
+### Aprimoramentos {#jan24-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -1342,7 +1342,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Regras de frequência**
 
-* **Limite de frequência semanal**: agora é possível especificar o número máximo de mensagens enviadas para um perfil de cliente por semana, além de por mês. O limite de frequência é baseado no período do calendário selecionado e redefinido no início do período correspondente. [Saiba mais](../configuration/rule-sets.md)
+* **Limite de frequência semanal**: agora é possível especificar o número máximo de mensagens enviadas para um perfil de cliente por semana, além de por mês. O limite de frequência é baseado no período do calendário selecionado e redefinido no início do período correspondente. [Saiba mais](../conflict-prioritization/rule-sets.md)
 
   >[!NOTE]
   >

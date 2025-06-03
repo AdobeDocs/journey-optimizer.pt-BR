@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '1960'
 ht-degree: 14%
 
 ---
@@ -46,7 +46,7 @@ Saiba mais sobre permissões [nesta seção](../administration/high-low-permissi
 
 Ao acessar conjuntos de regras pela primeira vez no menu **[!UICONTROL Administração]** > **[!UICONTROL Regras de negócio]**, um conjunto de regras padrão é pré-criado e está ativo: **Conjunto de Regras Padrão Global**.
 
-Esse conjunto de regras contém regras globais que podem ser aplicadas para controlar a frequência com que os usuários recebem mensagens em um ou vários canais, de modo semelhante a como as regras de negócios atuais operam. Todas as regras definidas nesse conjunto de regras se aplicam a todos os canais selecionados, independentemente de as comunicações serem enviadas de uma jornada ou campanha. [Saiba como trabalhar com regras de negócios](../configuration/rule-sets.md)
+Esse conjunto de regras contém regras globais que podem ser aplicadas para controlar a frequência com que os usuários recebem mensagens em um ou vários canais, de modo semelhante a como as regras de negócios atuais operam. Todas as regras definidas nesse conjunto de regras se aplicam a todos os canais selecionados, independentemente de as comunicações serem enviadas de uma jornada ou campanha. [Saiba como trabalhar com regras de negócios](../conflict-prioritization/rule-sets.md)
 
 Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, você pode criar **conjuntos de regras personalizados** que podem ser aplicados a qualquer campanha para restringir o número de mensagens enviadas nessa campanha. [Saiba como criar conjuntos de regras personalizados](#create)
 
@@ -63,10 +63,6 @@ Ao criar um conjunto de regras, é necessário especificar se as regras no conju
 
 * Domínio **Channel**: aplique regras de limitação para canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia.
 * Domínio **Jornada**: aplique regras de limite de entrada e simultaneidade a uma jornada. Por exemplo, não insira perfis em mais de uma jornada simultaneamente.
-
->[!AVAILABILITY]
->
->Enquanto os conjuntos de regras de domínio do **Canal** estão disponíveis para todos os usuários, os conjuntos de regras de domínio do **Jornada** estão disponíveis apenas para um conjunto limitado de usuários (Disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
 ## Criar seu primeiro conjunto de regras personalizado {#create-rule-set}
 
@@ -87,10 +83,6 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 1. Selecione o domínio do conjunto de regras. O domínio permite especificar se o conjunto de regras conterá regras de limitação específicas para canais de comunicação ou jornadas. [Saiba mais sobre as regras de limite de canal e jornada](#domain)
 
    ![](assets/rule-sets-create.png)
-
-   >[!AVAILABILITY]
-   >
-   >Enquanto os conjuntos de regras de domínio do **Canal** estão disponíveis para todos os usuários, os conjuntos de regras de domínio do **Jornada** estão disponíveis apenas para um conjunto limitado de usuários (Disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -140,10 +132,6 @@ Os parâmetros disponíveis para a regra dependem do domínio do conjunto de reg
 
    ![](assets/rule-set-capping-duration.png)
 
-   >[!AVAILABILITY]
-   >
-   >A duração &quot;Diária&quot; só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
-
    O prazo de validade do contador para cada período é o seguinte:
 
    * **[!UICONTROL Mensal]**: o limite de frequência é válido até o último dia do mês às 23:59:59 UTC. Por exemplo, a expiração mensal de janeiro é 01-31 23:59:59 UTC.
@@ -154,7 +142,7 @@ Os parâmetros disponíveis para a regra dependem do domínio do conjunto de reg
 
      >[!CAUTION]
      > 
-     >Para garantir a precisão das regras diárias de limite de frequência, escolha o namespace de prioridade mais alta ao criar uma campanha ou jornada. Saiba mais sobre a prioridade de namespace no [guia do serviço de identidade da plataforma](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+     >Para garantir a precisão das regras diárias de limite de frequência, escolha o namespace de prioridade mais alta ao criar uma campanha ou jornada. Saiba mais sobre a prioridade de namespace no [Guia do serviço de identidade da Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
    Observe que o valor do contador de perfil é atualizado assim que a comunicação é entregue. Esteja ciente disso ao enviar grandes volumes de comunicações, pois a taxa de transferência pode resultar no recebimento do email em minutos ou até horas após o início da comunicação (caso você esteja enviando milhões de comunicações simultaneamente).
 
@@ -324,4 +312,4 @@ Para aplicar uma regra de limitação a uma jornada, acesse a jornada e abra sua
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
