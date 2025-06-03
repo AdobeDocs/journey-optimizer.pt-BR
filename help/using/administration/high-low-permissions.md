@@ -9,31 +9,34 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: permissão, alto nível, baixo nível, perfil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
 
 # Níveis de permissão {#high-low-permissions}
 
-![](assets/do-not-localize/permissions.png)
 
 Cada função é composta de permissões que permitem aos usuários acessar os diferentes recursos.
+
 Eles podem ser divididos em dois tipos:
 
-* **Permissão de alto nível**: representa as diferentes permissões que podem ser atribuídas à **[!UICONTROL Função]**, como **[!DNL Publish journeys]** e **[!DNL Manage subdomains delegation]**. Permissões de alto nível abrangem permissões de baixo nível. Permissões de alto nível são detalhadas em [esta página](ootb-permissions.md).
+* **Permissão de alto nível**: representa as diferentes permissões que podem ser atribuídas à **[!UICONTROL Função]**, como **[!DNL Publish journeys]** e **[!DNL Manage subdomains delegation]**. As permissões de alto nível englobam permissões de baixo nível. Permissões de alto nível são detalhadas em [esta página](ootb-permissions.md).
 
 * **Permissão de baixo nível**: representa as diferentes permissões provenientes da permissão de alto nível.
 
 Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[!DNL Manage journeys]**. Dessa permissão resultam as permissões de baixo nível que permitirão ao administrador do Jornada gravar, ler e excluir jornadas.
 
+![](assets/do-not-localize/permissions.png){width="70%"}
+
+
 ## Jornada recurso {#journey-capability}
 
 * A permissão de alto nível **[!DNL Manage journeys]** permite que os usuários criem Jornadas novas e editem/excluam  existentes, bem como acesso aos objetos usados na tela de jornada para criar o fluxo de jornada.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico do Journey Optimizer:
 
@@ -53,7 +56,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL Publish journeys]** permite que os usuários publiquem jornadas.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
       * journeys.publish
       * journeys.read
@@ -62,7 +65,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL View journeys]** permite que os usuários naveguem e visualizem jornadas.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico do Journey Optimizer:
       * journeys.read
@@ -75,7 +78,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível do **[!DNL Manage journeys events, data sources and actions]** permite que os usuários definam configurações de eventos e dados.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico do Journey Optimizer:
       * jornada_events.read
@@ -97,7 +100,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL View journeys events, data sources and actions]** permite que os usuários usem eventos e dados no fluxo de jornada.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico do Journey Optimizer:
       * jornada_events.read
@@ -113,7 +116,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL View journeys report]** permite que os usuários façam relatórios de jornada somente leitura.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico do Journey Optimizer:
       * jornada_report.read
@@ -131,7 +134,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL Manage frequency rules]** permite que os usuários leiam, criem, editem, excluam e ativem/desativem regras de frequência.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico do Journey Optimizer:
       * frequency_rules.read
@@ -142,7 +145,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL View frequency rules]** permite que os usuários exibam regras de frequência.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico do Journey Optimizer:
       * frequency_rules.read
@@ -166,7 +169,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL Manage campaigns]** permite que os usuários criem campanhas novas e editem/excluam campanhas
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico do Journey Optimizer:
 
@@ -193,7 +196,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL View campaigns report]** permite que os usuários leiam e editem o relatório de campanhas.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico do Journey Optimizer:
       * campaign.read
@@ -207,7 +210,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL Manage decisions]** permite que os usuários criem novos e editem/excluam **[!DNL Activity entities]** existentes, bem como gerenciem os objetos usados nessas atividades para tomar decisões.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico para a gestão de decisões:
       * activities.read
@@ -233,7 +236,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL View decisions]** permite que os usuários usem uma Atividade existente e objetos comerciais relacionados para tomar as decisões.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico para a gestão de decisões:
       * activities.read
@@ -250,7 +253,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL Manage offers]** permite que os usuários criem, editem e excluam todas as ofertas, componentes, decisões de leitura e coleções.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico para a gestão de decisões:
       * offer_activity.read
@@ -272,7 +275,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL Manage ranking strategies]** permite que os usuários leiam, criem, editem e excluam estratégias de classificação.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico para a gestão de decisões:
       * ranking_strategy.read
@@ -289,7 +292,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 <!--
 * **[!DNL Manage Experience decisions]** high-level permission allows users to read, create, edit, and delete Decisioning entities.
 
-  +++ It includes the following low-level permissions:  
+  +++ This role includes the following low-level permissions:  
 
   * Experience decisions specific:
     * ranking_strategy.read
@@ -310,7 +313,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL Manage file routing]** permite que os usuários criem, editem e excluam configurações de roteamento de arquivos.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
 
       * file_routing.read
@@ -321,7 +324,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL Manage IP pools]** permite que os usuários criem, editem e excluam a definição de afinidade.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
       * IP_pools.read
       * IP_pools.write
@@ -346,7 +349,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL Manage messages general settings]** permite que os usuários criem, editem e excluam configurações globais no nível da sandbox.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico do Journey Optimizer:
       * messages_general_settings.read
@@ -409,7 +412,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL Manage subdomains delegations]** permite que os usuários criem, editem e excluam delegações de subdomínio (incluindo o pool de IP).
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
 
       * subdomains_delegation.read
@@ -420,7 +423,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL Manage suppression]** permite que os usuários definam o número de rejeições antes que um endereço de email seja adicionado à lista de supressão, bem como adicionar e excluir entradas da/para a lista de supressão.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
       * suppression_rules.read
       * suppression_rules.write
@@ -432,7 +435,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
 * A permissão de alto nível **[!DNL View file routing]** permite que os usuários exibam configurações de roteamento de arquivos.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
 
       * file_routing.read
@@ -479,7 +482,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 ### [!DNL View channel configuration] permission {#view-channel-surface}
 
 The **[!DNL View channel configuration]** high-level permission allows users to view channel configurations in order to know which channel configurations to use. 
-  +++ It includes the following low-level permissions:  
+  +++ This role includes the following low-level permissions:  
 
 * messages_presets.read
 * subdomains_delegation.read
@@ -490,7 +493,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 * A permissão de alto nível **[!DNL View suppression list]** permite que os usuários exibam o conteúdo e as configurações da lista de supressão.
 
-+++ Inclui as seguintes permissões de baixo nível:
++++ Essa função inclui as seguintes permissões de baixo nível:
 
    * Específico do Journey Optimizer:
       * suppression_list.view

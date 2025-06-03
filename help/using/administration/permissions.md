@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: produto, perfis, sandbox
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 6%
+source-wordcount: '726'
+ht-degree: 5%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 6%
 
 Com o produto [!DNL Journey Optimizer], você pode escolher entre várias **[!UICONTROL Funções]** preexistentes, cada uma com níveis variados de permissões, para atribuir aos seus usuários. Para obter mais informações sobre as **[!UICONTROL Funções]** disponíveis, consulte esta [página](ootb-product-profiles.md).
 
-Quando um usuário pertence a uma **[!UICONTROL Função]**, ele recebe acesso aos aplicativos e serviços da Adobe contidos no produto.
+Quando um usuário pertence a uma **[!UICONTROL Função]**, ele obtém acesso aos aplicativos e serviços da Adobe contidos no produto.
 
-Se as funções pré-existentes não atenderem às necessidades específicas da sua organização, você também poderá criar **[!UICONTROL Funções]** personalizadas para ajustar o acesso a determinadas funcionalidades ou objetos na interface. Dessa forma, você pode garantir que cada usuário tenha acesso somente aos recursos e ferramentas necessários para executar suas tarefas com eficiência.
+Se as funções pré-existentes não atenderem às necessidades específicas da sua organização, você também poderá criar **[!UICONTROL Funções]** personalizadas para ajustar o acesso a determinadas funcionalidades ou objetos na interface. Dessa forma, você garante que cada usuário tenha acesso apenas aos recursos e ferramentas necessárias para executar suas tarefas com eficiência.
 
 ## Atribuir uma função {#assigning-role}
 
-Você pode optar por atribuir uma **[!UICONTROL Função]** pronta para uso ou personalizada aos seus usuários.
+Você pode atribuir uma **[!UICONTROL Função]** pronta para uso ou personalizada aos seus usuários.
 
-A lista de todas as funções prontas para uso com permissões atribuídas pode ser encontrada na seção [Funções internas](ootb-product-profiles.md).
+A lista de todas as funções prontas para uso com permissões atribuídas está disponível na seção [Funções internas](ootb-product-profiles.md).
 
 Para atribuir uma **[!UICONTROL Função]**:
 
@@ -46,17 +46,17 @@ Para atribuir uma **[!UICONTROL Função]**:
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
+1. Digite seu nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
 
-   Se o usuário não tiver sido criado anteriormente no [!DNL Admin Console], consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=pt-BR).
+   Se o usuário não tiver sido criado anteriormente no [!DNL Admin Console], consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}.
 
    ![](assets/do-not-localize/access_control_4.png)
 
-O usuário deve receber um email de redirecionamento para sua instância.
+Seu usuário recebe um email redirecionando-o para sua instância.
 
-Para obter mais informações sobre o gerenciamento de usuários, consulte a [Documentação de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR).
+Para obter mais informações sobre gerenciamento de usuários, consulte a [Documentação de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR){target="_blank"}.
 
-Ao acessar a instância, o usuário verá uma exibição específica, dependendo das permissões atribuídas na **[!UICONTROL Função]**. Se o usuário não tiver o acesso correto a um recurso, a seguinte mensagem será exibida:
+Ao acessar a instância, o usuário vê uma exibição específica, dependendo das permissões atribuídas na **[!UICONTROL Função]**. Se o usuário não tiver o acesso correto a um recurso, a seguinte mensagem será exibida:
 
 `You don't have permission to access this feature. Permission needed: XX.`
 
@@ -75,13 +75,13 @@ Observe que se você modificar uma **[!UICONTROL Função]** pronta para uso ou 
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. O menu **[!UICONTROL Recursos]** exibe a lista de recursos que se aplicam ao produto **[!UICONTROL Experience Cloud - Aplicativos fornecidos pela Platform]**. Arraste e solte recursos para atribuir permissão.
+1. O menu **[!UICONTROL Recursos]** exibe a lista de recursos que se aplicam ao produto **[!UICONTROL Experience Cloud - Aplicativos fornecidos pela Platform]**. Arraste e solte recursos para atribuir permissões.
 
    No menu suspenso de recursos do **[!UICONTROL Jornada]**, escolhemos aqui a jornada de Publicação **[!UICONTROL Permissão]**.
 
    ![](assets/do-not-localize/access_control_14.png)
 
-1. Se necessário, em **[!UICONTROL Itens de permissão incluídos]**, clique no ícone X ao lado de remover permissões ou recursos da sua função.
+1. Se necessário, em **[!UICONTROL Itens de permissão incluídos]**, clique no ícone X para remover permissões ou recursos de sua função.
 
 1. Quando terminar, clique em **[!UICONTROL Salvar]**.
 
@@ -91,9 +91,9 @@ Se necessário, você também pode criar uma nova função com permissões espec
 
 O [!DNL Journey Optimizer] permite criar suas próprias **[!UICONTROL Funções]** e atribuir um conjunto de permissões e sandboxes aos usuários. Com **[!UICONTROL Funções]**, você pode autorizar ou negar acesso a determinadas funcionalidades ou objetos na interface.
 
-Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR){target="_blank"}.
 
-Neste exemplo, criaremos uma função chamada **Jornada somente leitura**, na qual concederemos direitos somente leitura ao recurso de Jornada. Os usuários só poderão acessar e exibir jornadas e não poderão acessar outros recursos, como o **[!DNL &#x200B; Decision management]** no [!DNL Journey Optimizer].
+Neste exemplo, criamos uma função chamada **Jornada somente leitura**, na qual concedemos direitos somente leitura ao recurso de Jornada. Os usuários só poderão acessar e exibir jornadas e não poderão acessar outros recursos, como o **[!DNL Decision management]** no [!DNL Journey Optimizer].
 
 Para criar nossa **Função somente leitura** **[!UICONTROL do Jornada]**:
 
@@ -109,7 +109,7 @@ Para criar nossa **Função somente leitura** **[!UICONTROL do Jornada]**:
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. Selecione entre os diferentes recursos, como **[!DNL Journeys]**, **[!DNL Segments]** ou **[!DNL Decision management]**, disponíveis em [!DNL Journey Optimizer], listados no menu à esquerda.
+1. Selecione dentre os diferentes recursos, como **[!DNL Journeys]**, **[!DNL Segments]** ou **[!DNL Decision management]**, disponíveis em [!DNL Journey Optimizer], listados no menu à esquerda.
 
    Aqui selecionamos o recurso **[!UICONTROL Jornada]**.
 
@@ -125,4 +125,4 @@ Para criar nossa **Função somente leitura** **[!UICONTROL do Jornada]**:
 
 Sua **[!UICONTROL Função]** foi criada e configurada. Agora é necessário atribuí-lo aos usuários.
 
-Para obter mais informações sobre criação e gerenciamento de funções, consulte a [documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=pt-BR).
+Para obter mais informações sobre criação e gerenciamento de funções, consulte a [documentação do Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}.
