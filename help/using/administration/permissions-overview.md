@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: permissões, direitos, restrições, acesso, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: fbcddcf10974f16eb6885ebb38b7be41f2e53639
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 3%
 
 ---
@@ -36,13 +36,14 @@ Para configurar o controle de acesso para o Journey Optimizer, você deve ter pr
 
 O gerenciamento de usuários no [!DNL Journey Optimizer] é baseado nestes conceitos-chave:
 
-* **[!UICONTROL Função]**: as funções se referem a uma coleção de usuários que compartilham as mesmas permissões e sandboxes. Essas funções permitem gerenciar facilmente o acesso e as permissões para diferentes grupos de usuários em sua organização. Uma função vem com um conjunto de direitos unitários que permitem aos usuários acessar determinadas funcionalidades ou objetos na interface. Com [!DNL Journey Optimizer], você pode escolher entre várias **[!UICONTROL Funções]** preexistentes, cada uma com níveis variados de permissões, para atribuir aos seus usuários. Saiba mais sobre as **funções internas** disponíveis em [esta página](ootb-product-profiles.md).
+* **[!UICONTROL Função]**: as funções se referem a uma coleção de usuários que compartilham as mesmas permissões e sandboxes. Essas funções permitem gerenciar facilmente o acesso e as permissões para diferentes grupos de usuários em sua organização. Uma função vem com um conjunto de direitos unitários que permitem aos usuários acessar determinadas funcionalidades ou objetos na interface.
+Com [!DNL Journey Optimizer], você pode escolher entre várias **[!UICONTROL Funções]** preexistentes, cada uma com níveis variados de permissões, para atribuir aos seus usuários. Saiba mais sobre as **funções internas** disponíveis em [esta página](ootb-product-profiles.md).
 
-* **[!UICONTROL Permissões]**: direitos unitários que permitem definir as autorizações atribuídas a **[!UICONTROL Funções]**. Cada permissão é coletada em recursos, por exemplo, Jornada ou Ofertas, que representam as diferentes funcionalidades ou objetos em [!DNL Journey Optimizer]. Saiba mais na seção [Níveis de permissão](high-low-permissions.md).
+* **[!UICONTROL Permissões]**: as permissões são direitos unitários que permitem definir as autorizações atribuídas a **[!UICONTROL Funções]**. Cada permissão é coletada em recursos, por exemplo, Jornada ou Ofertas, que representam as diferentes funcionalidades ou objetos em [!DNL Journey Optimizer]. Saiba mais na seção [Níveis de permissão](high-low-permissions.md).
 
   ![](assets/do-not-localize/permissions_2.png)
 
-* **[!UICONTROL Sandbox]**: sandboxes virtuais que particionam instâncias em ambientes virtuais separados e isolados. As sandboxes são atribuídas por meio de funções em Permissões. Saiba mais sobre [como usar sandboxes](sandboxes.md).
+* **[!UICONTROL Sandboxes]**: instâncias de partição de sandboxes virtuais em ambientes virtuais separados e isolados. As sandboxes são atribuídas por meio de funções em Permissões. Saiba mais sobre [como usar sandboxes](sandboxes.md).
 
 * **Controle de acesso baseado em objeto**: rótulos para limitar o acesso a um objeto. Essa abordagem protege os ativos digitais confidenciais de usuários não autorizados e garante maior proteção dos dados pessoais. Saiba mais sobre o [Gerenciamento de acesso baseado em objetos](object-based-access.md).
 
@@ -52,6 +53,7 @@ O gerenciamento de usuários no [!DNL Journey Optimizer] é baseado nestes conce
 ## Vamos nos aprofundar um pouco mais
 
 Agora que você entende os conceitos de controle de acesso no **[!DNL Journey Optimizer]**, é hora de se aprofundar nessas seções de documentação para começar a configurar permissões.
+
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -79,9 +81,7 @@ Agora que você entende os conceitos de controle de acesso no **[!DNL Journey Op
 <div>
 <a href="sandboxes.md"><strong>Gerenciar sandboxes</strong></a>
 </div>
-<p>
-</td>
-<td>
+<p></td>
 <td>
 <a href="attribute-based-access.md">
 <img alt="Controle de acesso baseado em atributos" src="assets/do-not-localize/data-access.jpeg">
@@ -91,5 +91,4 @@ Agora que você entende os conceitos de controle de acesso no **[!DNL Journey Op
 </div>
 <p>
 </td>
-<td>
 </tr></table>
