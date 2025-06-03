@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: permissões, direitos, restrições, acesso, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: fbcddcf10974f16eb6885ebb38b7be41f2e53639
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '438'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Para configurar o controle de acesso para o Journey Optimizer, você deve ter pr
 
 O gerenciamento de usuários no [!DNL Journey Optimizer] é baseado nestes conceitos-chave:
 
-* **[!UICONTROL Função]**: as funções se referem a uma coleção de usuários que compartilham as mesmas permissões e sandboxes. Essas funções permitem gerenciar facilmente o acesso e as permissões para diferentes grupos de usuários em sua organização. Uma função vem com um conjunto de direitos unitários que permitem aos usuários acessar determinadas funcionalidades ou objetos na interface.
+* **[!UICONTROL Funções]**: as funções se referem a uma coleção de usuários que compartilham as mesmas permissões e sandboxes. Essas funções permitem gerenciar facilmente o acesso e as permissões para diferentes grupos de usuários em sua organização. Uma função do vem com um conjunto de direitos unitários (permissões) que permitem que os usuários acessem determinadas funcionalidades ou objetos na interface.
 Com [!DNL Journey Optimizer], você pode escolher entre várias **[!UICONTROL Funções]** preexistentes, cada uma com níveis variados de permissões, para atribuir aos seus usuários. Saiba mais sobre as **funções internas** disponíveis em [esta página](ootb-product-profiles.md).
 
 * **[!UICONTROL Permissões]**: as permissões são direitos unitários que permitem definir as autorizações atribuídas a **[!UICONTROL Funções]**. Cada permissão é coletada em recursos, por exemplo, Jornada ou Ofertas, que representam as diferentes funcionalidades ou objetos em [!DNL Journey Optimizer]. Saiba mais na seção [Níveis de permissão](high-low-permissions.md).

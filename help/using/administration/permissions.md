@@ -9,18 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: produto, perfis, sandbox
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '710'
 ht-degree: 5%
 
 ---
 
 # Gerenciar usuários e funções {#manage-permissions}
-
->[!IMPORTANT]
->
-> Cada um dos procedimentos detalhados abaixo só podem ser executados por um **[!UICONTROL Produto]** ou um **[!UICONTROL Sistema]** administrador.
 
 **[!UICONTROL Funções]** referem-se a uma coleção de usuários que compartilham as mesmas permissões e sandboxes. Essas funções permitem gerenciar facilmente o acesso e as permissões para diferentes grupos de usuários em sua organização.
 
@@ -29,6 +25,12 @@ Com o produto [!DNL Journey Optimizer], você pode escolher entre várias **[!UI
 Quando um usuário pertence a uma **[!UICONTROL Função]**, ele obtém acesso aos aplicativos e serviços da Adobe contidos no produto.
 
 Se as funções pré-existentes não atenderem às necessidades específicas da sua organização, você também poderá criar **[!UICONTROL Funções]** personalizadas para ajustar o acesso a determinadas funcionalidades ou objetos na interface. Dessa forma, você garante que cada usuário tenha acesso apenas aos recursos e ferramentas necessárias para executar suas tarefas com eficiência.
+
+
+>[!IMPORTANT]
+>
+>As etapas e os procedimentos detalhados abaixo só podem ser executados por um administrador do **[!UICONTROL Produto]** ou do **[!UICONTROL Sistema]**.
+
 
 ## Atribuir uma função {#assigning-role}
 
@@ -48,7 +50,7 @@ Para atribuir uma **[!UICONTROL Função]**:
 
 1. Digite seu nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
 
-   Se o usuário não tiver sido criado anteriormente no [!DNL Admin Console], consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=pt-BR){target="_blank"}.
+   Se o usuário não tiver sido criado anteriormente no [!DNL Admin Console], consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}.
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -62,13 +64,15 @@ Ao acessar a instância, o usuário vê uma exibição específica, dependendo d
 
 ## Editar uma função existente {#edit-product-profile}
 
-Para **[!UICONTROL Funções]** predefinidas ou personalizadas, você pode decidir adicionar ou excluir permissões a qualquer momento.
+Para **[!UICONTROL Funções]** integradas ou personalizadas, você pode decidir adicionar ou excluir permissões a qualquer momento.
 
-Neste exemplo, queremos adicionar **[!UICONTROL Permissões]** relacionadas ao recurso **[!UICONTROL Jornada]** para usuários atribuídos à **[!UICONTROL Função]** do visualizador de Jornadas. Os usuários poderão publicar jornadas.
+No exemplo abaixo, queremos adicionar **[!UICONTROL Permissões]** relacionadas ao recurso **[!UICONTROL Jornada]** para usuários atribuídos à **[!UICONTROL Função]** do visualizador de Jornadas. Os usuários poderão publicar jornadas.
 
-Observe que se você modificar uma **[!UICONTROL Função]** pronta para uso ou personalizada, isso afetará todos os usuários atribuídos a esta **[!UICONTROL Função]**.
+>[!IMPORTANT]
+>
+>As alterações feitas em uma função interna ou personalizada afetarão todos os usuários atribuídos a essa função.
 
-1. Para atribuir uma função a um usuário no produto [!DNL Permissions], navegue até a guia **[!UICONTROL Funções]** e selecione a função desejada, aqui a **[!UICONTROL Função]** do visualizador de Jornadas.
+1. Para editar uma função no produto [!DNL Permissions], navegue até a guia **[!UICONTROL Funções]** e selecione a função desejada, aqui a **[!UICONTROL Função]** do visualizador de Jornadas.
    ![](assets/do-not-localize/access_control_5.png)
 
 1. No painel **[!UICONTROL Função]**, clique em **[!UICONTROL Editar]**.
@@ -85,7 +89,7 @@ Observe que se você modificar uma **[!UICONTROL Função]** pronta para uso ou 
 
 1. Quando terminar, clique em **[!UICONTROL Salvar]**.
 
-Se necessário, você também pode criar uma nova função com permissões específicas. Para obter mais informações, consulte [Criar uma nova função](#create-product-profile).
+Se necessário, você também pode criar uma nova função com permissões específicas.
 
 ## Criar uma nova função {#create-product-profile}
 
@@ -125,4 +129,4 @@ Para criar nossa **Função somente leitura** **[!UICONTROL do Jornada]**:
 
 Sua **[!UICONTROL Função]** foi criada e configurada. Agora é necessário atribuí-lo aos usuários.
 
-Para obter mais informações sobre criação e gerenciamento de funções, consulte a [documentação do Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre criação e gerenciamento de funções, consulte a [documentação do Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}.
