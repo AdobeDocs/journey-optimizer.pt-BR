@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
 source-wordcount: '2398'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -54,8 +54,8 @@ ht-degree: 95%
       + [Relatório em tempo real na sua jornada](using/building-journeys/report-journey.md)
    + Gerenciar jornadas{#manage-journey}
       + [Procurar e filtrar suas jornadas](using/building-journeys/journey-ui.md)
-      + [Entrada de perfil no jornada](using/building-journeys/entry-management.md)
-      + [Identificador suplementar em jornadas acionadas por eventos](using/building-journeys/supplemental-identifier.md)
+      + [Entrada de perfil em jornadas](using/building-journeys/entry-management.md)
+      + [Identificador complementar em jornadas acionadas por eventos](using/building-journeys/supplemental-identifier.md)
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
       + [Otimização de tempo de envio](using/building-journeys/send-time-optimization.md)
       + [Encerrar sua jornada](using/building-journeys/end-journey.md)
@@ -183,10 +183,10 @@ ht-degree: 95%
    + Etapas de criação{#create-ms-campaign}
       + [Criar uma campanha orquestrada](using/ms/create-ms-campaign.md)
       + [Definir configurações da campanha](using/ms/ms-campaign-settings.md)
-      + [Agendar e iniciar suas campanhas](using/ms/start-monitor-campaigns.md)
+      + [Agendar e iniciar campanhas](using/ms/start-monitor-campaigns.md)
       + [Criar consultas](using/ms/ms-query-modeler.md)
    + Atividades {#design-campaigns}
-      + [Introdução a atividades](using/ms/activities/about-activities.md)
+      + [Introdução às atividades](using/ms/activities/about-activities.md)
       + [Orquestrar atividades](using/ms/orchestrate-activities.md)
       + [And-join](using/ms/activities/and-join.md)
       + [Criar público-alvo](using/ms/activities/build-audience.md)
@@ -201,7 +201,7 @@ ht-degree: 95%
       + [Aguardar](using/ms/activities/wait.md)
    + Mensagens {#messages}
       + [Ações do canal](using/ms/activities/channels.md)
-      + [Personalizar seu conteúdo](using/ms/ms-personalization.md)
+      + [Personalizar o conteúdo](using/ms/ms-personalization.md)
       + [Testar e validar mensagens](using/ms/ms-proofs.md)
    + Relatórios e monitoramento {#report}
       + [Relatórios](using/ms/reporting-campaigns.md)
@@ -219,10 +219,10 @@ ht-degree: 95%
 + Testar e aprovar {#test}
    + Visualizar e testar conteúdo {#preview-test}
       + [Introdução à visualização e teste](using/content-management/preview-test.md)
-      + [Seleção de perfis de teste](using/content-management/test-profiles.md)
+      + [Selecionar perfis de teste](using/content-management/test-profiles.md)
       + [Visualizar usando perfis de teste](using/content-management/preview.md)
       + [Enviar provas usando dados de perfil de teste](using/content-management/proofs.md)
-      + [Teste da renderização do email](using/content-management/rendering.md)
+      + [Testar a renderização do email](using/content-management/rendering.md)
       + [Simular variações de conteúdo](using/test-approve/simulate-sample-input.md)
       + [Relatório de spam de email](using/content-management/spam-report.md)
    + Aprovar jornadas e campanhas {#approve}
@@ -242,7 +242,7 @@ ht-degree: 95%
             + [Importar seu conteúdo](using/email/existing-content.md)
             + [Programar seu próprio conteúdo](using/email/code-content.md)
             + [Usar modelos de email](using/email/use-email-templates.md)
-            + [Aproveitar temas de email](using/email/apply-email-themes.md)
+            + [Utilizar temas de email](using/email/apply-email-themes.md)
          + Projetar o conteúdo {#add-content}
             + [Usar componentes de conteúdo](using/email/content-components.md)
             + [Aproveitar fragmentos visuais](using/email/use-visual-fragments.md)
@@ -316,7 +316,7 @@ ht-degree: 95%
          + [Medidas de proteção e pré-requisitos](using/code-based/code-based-prerequisites.md)
          + [Superfícies de experiência baseada em código](using/code-based/code-based-surface.md)
          + [Amostras de métodos de implementação](using/code-based/code-based-implementation-samples.md)
-         + [Decisão em implementações de experiência baseadas em código](using/code-based/code-based-decisioning-implementations.md)
+         + [Decisão sobre implementações de experiências baseadas em código](using/code-based/code-based-decisioning-implementations.md)
          + [Criar configuração de experiência baseada em código](using/code-based/code-based-configuration.md)
       + Criar experiências baseadas em código {#create-code-based-experiences}
          + [Criar e compor experiências baseadas em código](using/code-based/create-code-based.md)
@@ -345,7 +345,7 @@ ht-degree: 95%
    + Páginas de destino {#landing-pages}
       + [Introdução às páginas de destino](using/landing-pages/get-started-lp.md)
       + [Criar uma página de destino](using/landing-pages/create-lp.md)
-      + [Gerenciar suas páginas de aterrissagem](using/landing-pages/manage-lp.md)
+      + [Gerenciar páginas de destino](using/landing-pages/manage-lp.md)
       + Criação de conteúdo {#landing-pages-design}
          + [Sobre modelos de página de destino](using/landing-pages/design-lp.md)
          + [Criar o conteúdo da página de destino](using/landing-pages/lp-content.md)
@@ -396,7 +396,7 @@ ht-degree: 95%
       + [Criar regras condicionais](using/personalization/create-conditions.md)
       + [Criar conteúdo dinâmico](using/personalization/dynamic-content.md)
    + Casos de uso entre soluções {#combine}
-      + [Combine soluções para gerenciar seu conteúdo](using/integrations/content-integrations.md)
+      + [Combine soluções para gerenciar o conteúdo](using/integrations/content-integrations.md)
       + [Trabalho com o Experience Manager Assets](using/integrations/assets.md)
       + [Trabalho com o Adobe Stock](using/integrations/stock.md)
       + [Trabalhar com o Adobe Express](using/integrations/express.md)
