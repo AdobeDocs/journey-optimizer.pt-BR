@@ -12,7 +12,7 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="Exibições de lista e calendário do Jornada"
->abstract="Além da lista de jornadas, o [!DNL Journey Optimizer] fornece uma exibição de calendário de suas jornadas, oferecendo uma representação visual clara de suas agendas. Você pode alternar entre as visualizações de lista e calendário a qualquer momento usando esses botões."
+>title="Visualizações de jornadas em lista e calendário"
+>abstract="Além da lista de jornadas, o [!DNL Journey Optimizer] fornece uma visualização de calendário das suas jornadas, oferecendo uma representação visual clara dos cronogramas. Você pode alternar entre as visualizações em lista e calendário a qualquer momento, usando estes botões."
 
 ## Painel da jornada {#dashboard-jo}
 

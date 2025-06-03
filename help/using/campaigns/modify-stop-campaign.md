@@ -12,7 +12,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -26,8 +26,8 @@ Além disso, você pode duplicar campanhas ativas (executadas uma vez ou com uma
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Exibições de lista e calendário de campanhas"
->abstract="Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma exibição do calendário de suas campanhas, oferecendo uma representação visual clara de suas agendas. Você pode alternar entre as visualizações de lista e calendário a qualquer momento usando esses botões."
+>title="Visualizações de campanhas em lista e calendário"
+>abstract="Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma visualização do calendário das suas campanhas, oferecendo uma representação visual clara dos cronogramas. Você pode alternar entre as visualizações em lista e calendário a qualquer momento, usando estes botões."
 
 As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**.
 
