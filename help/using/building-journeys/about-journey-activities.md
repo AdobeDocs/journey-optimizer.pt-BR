@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '597'
 ht-degree: 13%
 
 ---
@@ -22,23 +22,23 @@ Combine diferentes atividades de evento, orquestração e ação para criar cen�
 
 ## Atividades de eventos {#event-activities}
 
-As jornadas personalizadas são acionadas por eventos, como uma compra online. Depois que um perfil entra em uma jornada, ele se move como um indivíduo e nenhum dos dois indivíduos está se movendo na mesma taxa ou ao longo do mesmo caminho. Ao iniciar a jornada com um evento, a jornada é acionada ao receber o evento. Cada pessoa na jornada segue, individualmente, as próximas etapas definidas na jornada.
+As jornadas personalizadas são acionadas por eventos, como uma compra online. Depois que um perfil entra em uma jornada, ele se move como um indivíduo e nenhum dos dois indivíduos se move ao longo da mesma taxa ou ao longo do mesmo caminho. Ao iniciar a jornada com um evento, a jornada é acionada quando o evento é recebido. Cada pessoa na jornada segue, individualmente, as próximas etapas definidas na jornada.
 
-Os eventos configurados pelo usuário técnico (consulte [esta página](../event/about-events.md)) são todos exibidos na primeira categoria da paleta, no lado esquerdo da tela. As seguintes atividades de eventos estão disponíveis:
+Os eventos configurados pelo usuário técnico (consulte [esta página](../event/about-events.md)) são todos exibidos na primeira categoria da paleta, no lado esquerdo da tela. As seguintes atividades de evento estão disponíveis:
 
 * [Eventos gerais](../building-journeys/general-events.md)
 * [Reação](../building-journeys/reaction-events.md)
-* [Qualificação do público-alvo](../building-journeys/audience-qualification-events.md)
+* [Qualificação de público-alvo](../building-journeys/audience-qualification-events.md)
 
-![](assets/journey43.png)
+![Paleta de atividades de evento no designer de jornada](assets/journey43.png)
 
-Inicie a jornada arrastando e soltando uma atividade de evento. Você também pode clicar duas vezes nela.
+Para iniciar a jornada, arraste e solte uma atividade de evento. Você também pode clicar duas vezes nela.
 
-![](assets/journey44.png)
+![Arraste e solte a atividade de evento no designer de jornada](assets/journey44.png)
 
 ## Atividades de orquestração {#orchestration-activities}
 
-As atividades de orquestração são condições diferentes que ajudam a determinar a próxima etapa da jornada. Pode ser se a pessoa tiver um caso de suporte aberto ou não, a previsão do tempo em seu local atual, se ela concluiu uma compra ou não, ou atingiu 10.000 pontos de fidelidade.
+As atividades de orquestração são condições diferentes que ajudam a determinar a próxima etapa da jornada. Essas condições podem incluir se a pessoa tem um caso de suporte aberto, a previsão do tempo em seu local atual, se concluiu uma compra ou se atingiu 10.000 pontos de fidelidade.
 
 Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração estão disponíveis:
 
@@ -46,11 +46,11 @@ Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração e
 * [Aguardar](../building-journeys/wait-activity.md)
 * [Ler público-alvo](../building-journeys/read-audience.md)
 
-![](assets/journey49.png)
+![Paleta de atividades de orquestração no designer de jornada](assets/journey49.png)
 
 ## Atividades de ação {#action-activities}
 
-As ações são o que você deseja que aconteça como resultado de algum tipo de acionador, como enviar uma mensagem. É a parte da jornada que o cliente experimenta.
+As ações são o que você deseja que aconteça como resultado de algum tipo de acionador, como o envio de uma mensagem. É a parte da jornada que o cliente experimenta.
 
 Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Eventos]** e **[!UICONTROL Orquestração]**, você pode encontrar a categoria **[!UICONTROL Ações]**. As seguintes atividades de ação estão disponíveis:
 
@@ -58,13 +58,13 @@ Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Eventos]** e **[!UI
 * [Ações personalizadas](../building-journeys/using-custom-actions.md)
 * [Salto](../building-journeys/jump.md)
 
-![](assets/journey58.png)
+![Paleta de atividades de ação no designer de jornada](assets/journey58.png)
 
 Essas atividades representam os diferentes canais de comunicação disponíveis. É possível combiná-los para criar um cenário entre canais.
 
 <!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
 
-Você também pode configurar ações específicas para enviar mensagens para você:
+Você também pode configurar ações específicas para enviar mensagens:
 
 * Se você estiver usando um sistema de terceiros para enviar mensagens, poderá criar uma ação personalizada específica. [Saiba mais](../action/action.md)
 
@@ -77,7 +77,7 @@ Você também pode configurar ações específicas para enviar mensagens para vo
 
 ### Adicionar um rótulo
 
-A maioria das atividades permite definir um **[!UICONTROL Rótulo]**. Isso adiciona um sufixo ao nome que aparecerá na atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-la mais facilmente. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios. Você também pode adicionar uma **[!UICONTROL Descrição]** opcional.
+A maioria das atividades permite definir um **[!UICONTROL Rótulo]**. Isso adiciona um sufixo ao nome que aparece em sua atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-la mais facilmente. Também facilita a depuração em caso de erro e facilita a leitura dos relatórios. Você também pode adicionar uma **[!UICONTROL Descrição]** opcional.
 
 ![](assets/journey-action-label.png)
 
@@ -91,7 +91,7 @@ A maioria das atividades do exibe vários parâmetros avançados e/ou técnicos 
 
 ![](assets/journey-advanced-parameters.png)
 
-Para melhorar a compreensão, você pode ocultar esses parâmetros usando o botão **[!UICONTROL Ocultar campos somente leitura]**.
+Para melhorar a compreensão, oculte esses parâmetros usando o botão **[!UICONTROL Ocultar campos somente leitura]**.
 
 ![](assets/journey-hide-read-only-fields.png)
 

@@ -9,22 +9,22 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: jornada, mensagem, campanha, integração
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
 
 # Caso de uso: enviar uma mensagem usando o Campaign v7/v8 {#campaign-v7-v8-use-case}
 
-Esse caso de uso apresenta todas as etapas necessárias para enviar um email usando a integração com o Adobe Campaign v7 e o Adobe Campaign v8.
+Esse caso de uso explica todas as etapas necessárias para enviar um email usando a integração com o Adobe Campaign v7 e o Adobe Campaign v8.
 
 >[!NOTE]
 >
 >Para usar essa integração, você deve ter o Campaign v7/v8 build 9125 ou superior.
 
-Primeiro, criaremos um template de email transacional no Campaign. Em seguida, no Journey Optimizer, criaremos o evento, a ação e projetaremos a jornada.
+Primeiro, crie um template de email transacional no Campaign. Em seguida, no Journey Optimizer, crie o evento, a ação e crie a jornada.
 
 Para saber mais sobre a integração do Campaign, consulte estas páginas:
 
@@ -33,21 +33,21 @@ Para saber mais sobre a integração do Campaign, consulte estas páginas:
 
 **Adobe Campaign**
 
-A instância do Campaign precisa ser provisionada para essa integração. O recurso de mensagens transacionais precisa ser configurado.
+A instância do Campaign deve ser provisionada para essa integração. O recurso de mensagens transacionais deve ser configurado.
 
 1. Faça logon na instância de controle do Campaign.
 
-1. Em **Administração** > **Plataforma** > **Enumerações**, selecione a enumeração **Tipo de evento** (eventType). Crie um novo tipo de evento (&quot;jornada-evento&quot;, em nosso exemplo). Posteriormente, você terá que usar o nome interno do tipo de evento ao gravar o arquivo JSON.
+1. Em **Administração** > **Plataforma** > **Enumerações**, selecione a enumeração **Tipo de evento** (eventType). Crie um novo tipo de evento (&quot;jornada-evento&quot;, em nosso exemplo). Use o nome interno do tipo de evento ao gravar o arquivo JSON posteriormente.
 
    ![](assets/accintegration-uc-1.png)
 
-1. Desconecte e reconecte à instância para que a criação seja efetiva.
+1. Desconecte e reconecte à instância para que a criação entre em vigor.
 
 1. Em **Centro de Mensagens** > **Modelos de mensagens transacionais**, crie um novo modelo de email com base no tipo de evento criado anteriormente.
 
    ![](assets/accintegration-uc-2.png)
 
-1. Projete seu modelo. Neste exemplo, usamos personalização no nome do perfil e no número do pedido. O nome está na fonte de dados do Adobe Experience Platform e o número do pedido é um campo do evento do Journey Optimizer. Use os nomes de campo corretos no Campaign.
+1. Projete seu modelo. Neste exemplo, a personalização é aplicada ao nome do perfil e ao número do pedido. O nome está na fonte de dados do Adobe Experience Platform e o número do pedido é um campo do evento do Journey Optimizer. Use os nomes de campo corretos no Campaign.
 
    ![](assets/accintegration-uc-3.png)
 
@@ -55,7 +55,7 @@ A instância do Campaign precisa ser provisionada para essa integração. O recu
 
    ![](assets/accintegration-uc-4.png)
 
-1. Agora é necessário gravar a carga JSON correspondente ao modelo.
+1. Escreva a carga JSON correspondente ao modelo.
 
 ```
 {
@@ -75,11 +75,11 @@ A instância do Campaign precisa ser provisionada para essa integração. O recu
 
 **Journey Optimizer**
 
-1. Primeiro, é necessário criar um evento. Inclua o campo &quot;purchaseOrderNumber&quot;.
+1. Criar um evento. Inclua o campo &quot;purchaseOrderNumber&quot;.
 
    ![](assets/accintegration-uc-5.png)
 
-1. Em seguida, é necessário criar, no Journey Optimizer, uma ação correspondente ao seu template de Campanha. No menu suspenso **Tipo de ação**, selecione **Adobe Campaign Classic**.
+1. Crie uma ação no Journey Optimizer correspondente ao seu template de Campanha. No menu suspenso **Tipo de ação**, selecione **Adobe Campaign Classic**.
 
    ![](assets/accintegration-uc-6.png)
 
