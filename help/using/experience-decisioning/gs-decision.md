@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 20%
 
 ---
 
-# Introdução aos recursos de decisão do [!DNL Journey Optimizer] {#gs-decision}
+# Introdução aos recursos de decisão em [!DNL Journey Optimizer] {#gs-decision}
 
 Os recursos de decisão do [!DNL Journey Optimizer] permitem que você forneça as melhores ofertas e experiências personalizadas aos seus clientes em todos os pontos de contato, exatamente nos momentos certos. Esses recursos simplificam a personalização por meio de um catálogo centralizado de ofertas de marketing e um mecanismo de decisão avançado, que usa regras e critérios de classificação para fornecer o conteúdo mais relevante para cada indivíduo.
 
@@ -40,7 +40,7 @@ Por enquanto, o Experience Decisioning é compatível com o canal de experiênci
 
 ➡️ [Introdução à Decisão](../experience-decisioning/gs-experience-decisioning.md)
 
-## Gerenciamento de decisão {#decision-management}
+## Gestão de decisões {#decision-management}
 
 ![](assets/gs-decision-management.png)
 
