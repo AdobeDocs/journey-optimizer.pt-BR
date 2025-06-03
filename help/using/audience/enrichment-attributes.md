@@ -39,21 +39,21 @@ Estas são as ações que você pode executar usando os atributos de enriquecime
 >
 >Para usar atributos de enriquecimento de públicos-alvo criados usando workflows de composição, verifique se eles foram adicionados a um Grupo de campos no Data Source da &quot;ExperiencePlatform&quot;.
 >
-+++ Saiba como adicionar atributos de enriquecimento a um Grupo de campos>
+>+++ Saiba como adicionar atributos de enriquecimento a um Grupo de campos>
 >
-1. Navegue até &quot;Administração&quot; > &quot;Configuração&quot; > &quot;Fontes de dados&quot;.
-1. Selecione &quot;Experience Platform&quot; e crie ou edite um Grupo de campos.
-1. No seletor de schema, selecione o schema apropriado. O nome do esquema seguirá este formato: &quot;Esquema para audienceId:&quot; + a ID do público-alvo. Você pode encontrar a ID do público-alvo na tela de detalhes do público-alvo no inventário de público-alvo.
-1. Abra o seletor de campos, localize os atributos de enriquecimento que deseja adicionar e marque a caixa de seleção ao lado deles.
-1. Salve as alterações.
-1. Depois que os atributos de enriquecimento forem adicionados a um Grupo de campos, você poderá usá-los no Journey Optimizer nos locais listados acima.
+>1. Navegue até &quot;Administração&quot; > &quot;Configuração&quot; > &quot;Fontes de dados&quot;.
+>1. Selecione &quot;Experience Platform&quot; e crie ou edite um Grupo de campos.
+>1. No seletor de schema, selecione o schema apropriado. O nome do esquema seguirá este formato: &quot;Esquema para audienceId:&quot; + a ID do público-alvo. Você pode encontrar a ID do público-alvo na tela de detalhes do público-alvo no inventário de público-alvo.
+>1. Abra o seletor de campos, localize os atributos de enriquecimento que deseja adicionar e marque a caixa de seleção ao lado deles.
+>1. Salve as alterações.
+>1. Depois que os atributos de enriquecimento forem adicionados a um Grupo de campos, você poderá usá-los no Journey Optimizer nos locais listados acima.
 >
-Informações detalhadas sobre fontes de dados estão disponíveis nestas seções:
+>Informações detalhadas sobre fontes de dados estão disponíveis nestas seções:
 >
-* [Trabalhar com a fonte de dados do Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
-* [Configurar uma fonte de dados](../datasource/configure-data-sources.md)
+>* [Trabalhar com a fonte de dados do Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
+>* [Configurar uma fonte de dados](../datasource/configure-data-sources.md)
 >
-+++
+>+++
 
 
 
