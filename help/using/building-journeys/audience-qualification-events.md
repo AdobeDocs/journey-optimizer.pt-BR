@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: qualificação, eventos, público-alvo, jornada, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1236'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,10 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posteriormente
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
-### Observações importantes {#important-notes-segment-qualification}
+### Medidas de proteção e recomendações {#important-notes-segment-qualification}
+
+Siga as medidas de proteção e recomendações abaixo para criar jornadas de qualificação de público-alvo. Consulte também [Práticas recomendadas de qualificação de público-alvo](#best-practices-segments).
+
 
 * As jornadas de qualificação de público-alvo são projetadas principalmente para funcionar com públicos de transmissão: essa combinação garantirá uma melhor experiência em tempo real. É altamente recomendável usar apenas **público-alvo de streaming** na atividade de Qualificação de público-alvo.
 
@@ -55,7 +58,11 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posteriormente
 * Ao usar uma atividade **Qualificação de público-alvo** em uma jornada, essa atividade pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
 
 
-Consulte também [Práticas recomendadas de qualificação de público-alvo](#best-practices-segments) abaixo.
+>[!CAUTION]
+>
+>[As medidas de proteção para dados e segmentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR){target="_blank"} também se aplicam ao Adobe Journey Optimizer.
+
+
 
 ### Configurar a atividade {#configure-segment-qualification}
 
@@ -85,7 +92,7 @@ Para configurar a atividade **[!UICONTROL Qualificação de público-alvo]**, si
 
    >[!NOTE]
    >
-   >Observe que **[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem aos status de participação de público-alvo **Realized** e **Exited** da Adobe Experience Platform. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que **[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem aos status de participação de público-alvo **Realized** e **Exited** da Adobe Experience Platform. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Selecione um namespace. Isso só será necessário se o evento for posicionado como a primeira etapa da jornada. Por padrão, o campo é pré-preenchido com o último namespace usado.
 
@@ -127,7 +134,7 @@ Ao usar a qualificação de público-alvo para públicos-alvo transmitidos, há 
 
 Evite usar eventos abertos e enviados com segmentação por transmissão. Em vez disso, use sinais reais de atividade do usuário, como cliques, compras ou dados de beacon. Para frequência ou lógica de supressão, use regras de negócios em vez de enviar eventos. [Saiba mais](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Para obter mais informações sobre a segmentação por transmissão, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Para obter mais informações sobre a segmentação por transmissão, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 ### Como evitar sobrecargas {#overloads-speed-segment-qualification}
 
@@ -147,4 +154,4 @@ Antes de usar o público-alvo em uma jornada, avalie sempre primeiro o volume de
 
 Entenda os casos de uso aplicáveis às jornadas de qualificação de público-alvo neste vídeo. Saiba como criar uma jornada com Qualificação de público-alvo e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446209?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
