@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
+source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1375'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 Você pode copiar objetos como jornadas, ações personalizadas, modelos de conteúdo ou fragmentos em várias sandboxes usando recursos de exportação e importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.
 
-Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso propriamente dito, consulte a [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=pt-BR).
+Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso propriamente dito, consulte a [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ O Journey Optimizer permite exportar jornadas, ações personalizadas, modelos d
 
 ### Jornadas {#journeys}
 
-* Ao exportar uma jornada, além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: públicos-alvo, ações personalizadas, esquemas, eventos e ações. Para obter mais informações sobre objetos copiados, consulte esta [seção](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=pt-BR#abobe-journey-optimizer-objects).
+* Ao exportar uma jornada, além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: públicos-alvo, ações personalizadas, esquemas, eventos e ações. Para obter mais informações sobre objetos copiados, consulte esta [seção](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 * Não garantimos que todos os elementos vinculados sejam copiados para a sandbox de destino. É altamente recomendável executar uma verificação completa, por exemplo, antes de publicar uma jornada. Isso permite identificar qualquer objeto ausente em potencial.
 
@@ -72,7 +72,7 @@ Ao copiar campanhas, verifique se o objeto listado abaixo está validado na sand
 
 * **Configurações de canal**: as configurações de canal são copiadas junto com as campanhas. Depois que as campanhas são copiadas, as configurações de canal devem ser selecionadas manualmente na sandbox de destino.
 * **Variantes e configurações de experimentação**: as variantes e configurações de experimentos estão incluídas no processo de cópia da campanha. Valide essas configurações na sandbox de destino após a importação.
-  <!--* **Unified decisioning**: Decision policies and decision items are supported for export and import. Ensure that decision-related dependencies are correctly mapped in the target sandbox.-->
+* **Decisão unificada**: as políticas de decisão e os itens de decisão têm suporte para exportação e importação. Certifique-se de que as dependências relacionadas à decisão estejam mapeadas corretamente na sandbox de destino.
 
 ### Modelos de conteúdo {#content-templates}
 
@@ -82,17 +82,17 @@ Ao copiar campanhas, verifique se o objeto listado abaixo está validado na sand
 
 * Para evitar ainda mais a duplicação, é recomendável exportar modelos de conteúdo em um único pacote. Isso garante que o sistema gerencie a desduplicação com eficiência.
 
-<!--### Decisioning {#decisioning}
+### Decisão {#decisioning}
 
-* The objects below must be present in the destination sandbox before copying Decisioning objects:
+* Os objetos abaixo devem estar presentes na sandbox de destino antes de copiar objetos do Decisioning:
 
-   * Profile Attributes used across Decisioning objects,
-   * The field group of custom Offer Attributes,
-   * The schemas of Datastreams used for Context Attributes across Rules, Ranking or Capping.
+   * Atributos de perfil usados em objetos de Decisão,
+   * O grupo de campos de atributos de oferta personalizados,
+   * Os esquemas de sequências de dados usados para atributos de contexto em regras, classificação ou limite.
 
-* Sandbox copy for ranking formulas with AI Models is currently not supported.
+* No momento, não há suporte para cópia de sandbox para fórmulas de classificação com Modelos de IA.
 
-* When copying Decisioning entities, make sure you copy decision items **before** any other object. For example, if you copy a collection first, and there are no offers in the new sandbox, then that new collection will remain empty. -->
+* Ao copiar entidades de Decisão, copie os itens de decisão **antes** de qualquer outro objeto. Por exemplo, se você copiar uma coleção primeiro e não houver ofertas na nova sandbox, essa nova coleção permanecerá vazia.
 
 ### Fragmentos {#fragments}
 
