@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '334'
+ht-degree: 100%
 
 ---
 
@@ -19,21 +19,22 @@ ht-degree: 0%
 Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Journey Optimizer. Para obter uma lista de todos os recursos, melhorias e correções, confira as [Notas de versão](using/rn/release-notes.md) detalhadas. Visite a [página de atualizações da documentação](using/rn/documentation-updates.md) para ver as alterações mais recentes na documentação do produto.
 
 >[!BEGINTABS]
->[!TAB Versão de  maio de 2025]
 
-A versão de maio está disponível! Confira as notas de versão para descobrir novos recursos, alterações e melhorias.
+>[!TAB Versão de maio de 2025]
+
+A versão de maio já está disponível. Confira as notas de versão para descobrir novos recursos, alterações e melhorias.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB Integração do Adobe Express]
 
-O Adobe Journey Optimizer agora se integra ao Adobe Express, permitindo que você conecte facilmente seus ativos criativos à orquestração do jornada.
+O Adobe Journey Optimizer agora se integra ao Adobe Express, permitindo conectar facilmente seus ativos criativos à orquestração de jornada. 
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB Assistente de IA]
 
-✨ Mergulhe em uma experiência prática com nossa visualização de recursos ao vivo do [Assistente de IA](../help/using/content-management/gs-generative.md), projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas funcionalidades.
+✨ Mergulhe fundo em uma experiência prática com a prévia em tempo real do recurso [Assistente de IA](../help/using/content-management/gs-generative.md), projetada para permitir que você explore suas funcionalidades em primeira mão e entenda-as totalmente.
 
 [![saiba mais](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -46,7 +47,7 @@ Os relatórios do Journey Optimizer vêm com interoperabilidade aprimorada com o
 
 >[!ENDTABS]
 
-## Comece com as noções básicas!
+## Comece com as noções básicas.
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">

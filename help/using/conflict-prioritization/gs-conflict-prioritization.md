@@ -6,9 +6,9 @@ level: Beginner
 badge: label="Disponibilidade limitada"
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: f55f985375cf360ce55074cb227b6c424db05b5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 94%
 >
 >Os recursos de conflito e priorização estão atualmente em disponibilidade limitada para um grupo selecionado de clientes. Observe que esses recursos serão lançados de forma gradual para mais usuários no futuro. Entre em contato com a equipe de conta se tiver interesse em participar da lista de espera desses recursos.
 
-No Journey Optimizer, gerenciar o volume e o momento certo para uso de campanhas e jornadas é essencial para não sobrecarregar clientes com muitas interações. O Journey Optimizer oferece várias ferramentas para gerenciamento de conflitos e priorização.
+No Journey Optimizer, gerenciar o volume e o momento de início das campanhas e jornadas é essencial para não sobrecarregar clientes com muitas interações. O Journey Optimizer oferece várias ferramentas para gerenciamento de conflitos e priorização.
 
-Essas ferramentas estão disponíveis para campanhas e jornadas unitárias, de qualificação de público-alvo e de leitura de público.
+Essas ferramentas estão disponíveis para campanhas e jornadas unitárias, de qualificação de público-alvo e de público-alvo de leitura.
 
-Ao utilizar essas ferramentas, você pode garantir esforços de marketing mais simples e direcionados, fornecendo a mensagem certa no momento certo e, ao mesmo tempo, evitando conflitos e sobrecarga.
+Ao usar essas ferramentas, é possível garantir ações de marketing mais simples e direcionadas, fornecendo a mensagem certa no momento certo e evitando conflitos e sobrecarga.
 
 ## Ferramentas de gerenciamento de conflitos e priorizações {#tools}
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2031'
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ Os novos recursos incluídos nesta versão estão listados abaixo.
 <tr>
 <td>
 <p>O Adobe Journey Optimizer agora se integra ao Adobe Express, permitindo conectar facilmente seus ativos criativos à orquestração de jornada. Essa integração simplifica o processo de criação e implantação de conteúdo personalizado em campanhas. </p>
-<p>No momento, essa integração não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.</p>
+<p>No momento, essa integração não está disponível para uso com o Healthcare Shield ou com o Privacy and Security Shield.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>Para obter mais informações, consulte a <a href="../integrations/express.md">documentação detalhada</a>.</p>
 </td>
@@ -240,7 +240,7 @@ Os novos recursos incluídos nesta versão estão listados abaixo.
 </table>
 -->
 
-### Melhorias {#25-04-improv}
+### Aprimoramentos {#25-04-improv}
 
 **API de visualização de campanhas**
 
@@ -278,7 +278,7 @@ Há novas APIs disponíveis para visualizar campanhas, além dos recursos existe
 
 **Manuais de casos de uso**
 
-* **Criação e compartilhamento de manuais de reprodução (beta privado)** - Agora você pode criar, gerenciar e compartilhar seus próprios manuais de casos de uso. No momento, esse recurso só está disponível para um conjunto de organizações como um beta privado. Para obter acesso, entre em contato com o representante da Adobe. [Leia mais](../start/playbooks.md)
+* **Criação e compartilhamento de manuais de estratégia (beta privado)** - Agora é possível criar, gerenciar e compartilhar seus próprios manuais de estratégia de casos de uso. No momento, esse recurso está disponível apenas para algumas organizações como um beta privado. Para obter acesso, entre em contato com o(a) representante da Adobe. [Leia mais](../start/playbooks.md)
 
 **Navegação**
 
@@ -446,7 +446,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 </table-->
 
 
-### Melhorias {#25-03-improv}
+### Aprimoramentos {#25-03-improv}
 
 **Editor de personalização** (data de disponibilidade: 12 de março)
 
@@ -595,7 +595,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 </table>
 
 
-### Melhorias {#25-02-improvements}
+### Aprimoramentos {#25-02-improvements}
 
 As melhorias abaixo estão incluídas na atualização de fevereiro.
 

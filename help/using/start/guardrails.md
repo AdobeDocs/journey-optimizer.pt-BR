@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2504'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 
 Abaixo você encontrará medidas de proteção e limitações adicionais para o uso do [!DNL Adobe Journey Optimizer].
 
-Os direitos, as limitações de produto e as medidas de proteção de desempenho estão listados na [página de descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Os direitos, as limitações de produto e as medidas de proteção de desempenho estão listados na [página de descrição do produto do Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Você também precisa estar ciente das [Medidas de proteção aos dados de perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR){target="_blank"} antes de iniciar.
+Verifique também as [Medidas de proteção para dados do perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR){target="_blank"} antes de iniciar.
 
 ## Navegadores compatíveis {#browsers}
 
@@ -62,7 +62,7 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../sms/get-star
 
 As [campanhas da web](../web/get-started-web.md) do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. 
 
-As métricas de licença para cada pacote estão listadas na página [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+As métricas de licença para cada pacote estão listadas na página [Descrição do produto do Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Medidas de proteção de canal baseado em código {#code-based-guardrails}
 
@@ -124,7 +124,7 @@ As seguintes medidas de proteção se aplicam às [ações](../building-journeys
 * Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. Novas tentativas são executadas para todos os erros HTTP, exceto para HTTP 401, 403 e 404.
 * O evento **Reação** integrado permite que você reaja a ações predefinidas. Saiba mais [nesta página](../building-journeys/reaction-events.md). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado.
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
-* Um perfil não pode estar presente várias vezes na mesma jornada, ao mesmo tempo, para todas as [versões ativas da jornada](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Se a reentrada estiver ativada, um perfil poderá entrar novamente em uma jornada, mas não até que tenha saído totalmente da instância anterior da jornada. [Leia mais](../building-journeys/end-journey.md)
+* Um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo, em todas as [versões ativas da jornada](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Se a reentrada estiver ativada, um perfil poderá entrar novamente em uma jornada, mas não até que tenha saído totalmente da instância anterior da jornada. [Leia mais](../building-journeys/end-journey.md)
 
 ### Versões de jornada {#journey-versions-g}
 
@@ -212,13 +212,13 @@ A seguinte medida de proteção se aplica à atividade de [qualificação de pú
 
 ### Editor de expressão {#expression-editor}
 
-As seguintes medidas de proteção se aplicam ao [editor de expressão de jornada](../building-journeys/expression/expressionadvanced.md):
+As seguintes medidas de proteção se aplicam ao [editor de expressão da jornada](../building-journeys/expression/expressionadvanced.md):
 
 * Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de leitura de público-alvo, qualificação de público-alvo ou de evento de negócios. É necessário criar um novo público-alvo e usar uma condição de público-alvo na jornada.
-* Atributos `timeSeriesEvents` não podem ser usados no editor de expressão. Para acessar Eventos de experiência em nível de perfil, crie um novo grupo de campos com base em um esquema `XDM ExperienceEvent`.
+* Não é possível usar atributos `timeSeriesEvents` no editor de expressão. Para acessar eventos de experiência em nível de perfil, crie um novo grupo de campos com base em um esquema `XDM ExperienceEvent`.
 
 
-### Atividade No aplicativo {#in-app-activity-limitations}
+### Atividade no aplicativo {#in-app-activity-limitations}
 
 As seguintes medidas de proteção se aplicam à ação de **[!UICONTROL mensagem no aplicativo]**. Saiba mais sobre mensagens no aplicativo [nesta página](../in-app/create-in-app.md).
 
