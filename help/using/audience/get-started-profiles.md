@@ -54,4 +54,4 @@ Para acessar perfis, navegue até o menu **[!UICONTROL Cliente]** / **[!UICONTRO
 
 Saiba como a Adobe Experience Platform monta e atualiza Perfis de clientes em tempo real e como você pode acessar e usar esses perfis.
 
->[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31686?quality=12&captions=por_br)
