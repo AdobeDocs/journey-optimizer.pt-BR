@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 19%
@@ -36,7 +36,7 @@ ht-degree: 19%
 
 +++
 
-<br/><br/>
+<br/>
 
 Como profissional de marketing, você pode alternar o targeting dimension de uma entidade para outra entidade vinculada em uma campanha orquestrada e refinar seu direcionamento de público-alvo com base em diferentes conjuntos de dados, como a mudança de perfis de usuários para direcionamento de ações ou reservas específicas.
 

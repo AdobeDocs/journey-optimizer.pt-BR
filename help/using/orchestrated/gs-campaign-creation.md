@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 27%
@@ -32,7 +32,7 @@ ht-degree: 27%
 
 +++
 
-<br/><br/>
+<br/>
 
 Você pode criar campanhas orquestradas em uma tela visual para projetar processos entre canais, como segmentação, execução de campanha e processamento de arquivos.
 

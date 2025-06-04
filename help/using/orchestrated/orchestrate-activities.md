@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 +++
 
-<br/><br/>
+<br/>
 
 Depois que você [criar uma campanha orquestrada](gs-campaign-creation.md), seja do menu de campanha orquestrada ou de uma campanha, você poderá começar a orquestrar as diferentes tarefas que ela executará. Para fazer isso, uma tela visual é fornecida, permitindo que você construa um diagrama de campanha orquestrado. Neste diagrama, é possível adicionar várias atividades e conectá-las em ordem sequencial.
 

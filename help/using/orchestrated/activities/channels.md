@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 44%
@@ -26,7 +26,7 @@ ht-degree: 44%
 
 +++
 
-<br/><br/>
+<br/>
 
 O Adobe Journey Optimizer permite automatizar e executar campanhas de marketing em canais de entrada e saída. Você pode combinar atividades de canal na tela de campanha orquestrada para criar campanhas orquestradas entre canais que podem acionar ações com base no comportamento do cliente e nos dados. Os canais com suporte estão listados em [esta página](../../channels/gs-channels.md).
 

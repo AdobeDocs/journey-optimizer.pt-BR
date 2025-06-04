@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 44%
@@ -31,7 +31,7 @@ ht-degree: 44%
 
 +++
 
-<br/><br/>
+<br/>
 
 Como profissional de marketing, você pode criar consultas complexas facilmente usando uma interface amigável, permitindo que segmente seu público com base em uma grande variedade de critérios e comportamentos para adaptar suas campanhas com mais eficiência.
 
