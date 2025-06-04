@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 55%
+source-wordcount: '273'
+ht-degree: 11%
 
 ---
 
@@ -33,7 +33,9 @@ ht-degree: 55%
 
 <br/>
 
-A atividade **Aguardar** é uma atividade de **Controle de fluxo**. Ela é usada para permitir que um determinado período transcorra entre duas atividades que estão sendo executadas. Por exemplo, a espera de vários dias após uma atividade de entrega de email para depois analisar as aberturas e os cliques gerados durante esse período antes de executar qualquer operação de acompanhamento (email de lembrete, criação de público-alvo, etc.).
+A atividade **Wait** é um componente **Flow control** usado para introduzir um atraso entre duas atividades em uma campanha orquestrada. Isso ajuda a garantir que suas atividades de acompanhamento sejam mais cronometradas e relevantes para o engajamento do usuário.
+
+Por exemplo, você pode aguardar alguns dias após um delivery de email para rastrear aberturas e cliques antes de enviar uma mensagem de acompanhamento.
 
 ## Configuração{#wait-configuration}
 
@@ -41,12 +43,16 @@ Siga estas etapas para configurar a atividade **Aguardar**:
 
 1. Adicione uma atividade **Wait** à campanha orquestrada.
 
-1. Especifique a **Duração** da espera entre as transições de entrada e saída.
+1. Selecione o tipo de espera que melhor atenda às suas necessidades:
 
-1. Selecione a unidade de tempo no campo **Períodos**: segundos, minutos, horas, dias.
+   * **Duração**: especifique um atraso em segundos, minutos, horas ou dias antes de prosseguir para a próxima atividade.
+
+   * **Hora fixa**: Defina uma data e hora específicas após as quais a próxima atividade iniciará.
+
+   ![](../assets/wait_activity.png)
 
 ## Exemplo{#wait-example}
 
-O exemplo a seguir ilustra a atividade **Aguardar** em um caso de uso comum. Um convite é enviado por email para um evento. 24 horas após o envio, é feita uma entrega de SMS para a mesma população.
+O exemplo a seguir ilustra a atividade **Wait** em um caso de uso comum.  Um email com um código promocional é enviado para perfis que comemoram seus aniversários. Após 29 dias, um SMS é enviado para o mesmo grupo como um lembrete de que o código promocional de aniversário está prestes a expirar.
 
-![](../assets/workflow-wait-example.png)
+![](../assets/wait-example.png)

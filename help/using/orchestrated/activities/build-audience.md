@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 44%
+source-wordcount: '370'
+ht-degree: 33%
 
 ---
 
@@ -33,20 +33,9 @@ ht-degree: 44%
 
 <br/>
 
-Como profissional de marketing, você pode criar consultas complexas facilmente usando uma interface amigável, permitindo que segmente seu público com base em uma grande variedade de critérios e comportamentos para adaptar suas campanhas com mais eficiência.
+Como profissional de marketing, você pode criar segmentos complexos de público-alvo por meio de uma interface intuitiva, permitindo direcionar usuários com base em uma grande variedade de critérios e comportamentos para adaptar suas campanhas com mais eficiência.
 
-Para fazer isso, use a atividade de direcionamento **Criar público**. Essa atividade permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade de canal e sim na atividade **Criar público-alvo**.
-
-Para definir o público-alvo, você pode:
-
-* Selecione um público existente.
-* Selecione um filtro predefinido.
-* Crie um novo público-alvo com o modelador de consultas definindo e combinando critérios de filtragem.
-
->[!NOTE]
->
->Os públicos carregados de um arquivo não podem ser direcionados usando uma atividade Criar público. Para fazer isso, você precisa usar uma atividade **Carregar arquivo** seguida por uma atividade **Reconciliação**.
-
+Para fazer isso, use a atividade de direcionamento **Criar público**. Essa atividade define o público-alvo que entra na campanha orquestrada. Ao enviar mensagens como parte de uma campanha orquestrada, o público-alvo é definido na atividade **Criar público**, não dentro da campanha orquestrada.
 
 ## Configurar a atividade Criar público-alvo {#build-audience-configuration}
 
@@ -57,23 +46,24 @@ Para definir o público-alvo, você pode:
 
 Siga estas etapas para configurar a atividade **Criar público-alvo**:
 
-![](../assets/build-audience.png)
-
 1. Adicione uma atividade **Criar público-alvo**.
+
+   ![](../assets/build-audience.png)
+
 1. Defina um rótulo.
-1. Defina o tipo de público-alvo: **Crie o seu próprio** ou **Ler público-alvo**.
+
 1. Configure seu público seguindo as etapas detalhadas nas guias abaixo.
 
-
-Para criar sua própria query, siga estas etapas:
-
-1. Selecione **Crie sua própria (consulta)**.
 1. Escolha a **Dimensão de direcionamento**. O targeting dimension permite definir a população-alvo da operação: destinatários, beneficiários(as) de contrato, operadores(as), assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários.
+
 1. Clique em **Continuar**.
+
 1. Use o modelador de consultas para definir sua consulta. [Saiba mais sobre o modelador de consultas nesta seção](../orchestrated-query-modeler.md)
+
+1. Especifique se uma transição de saída deve ser gerada quando o público-alvo estiver vazio.
 
 ## Exemplos{#build-audience-examples}
 
-Este é um exemplo de uma campanha orquestrada com duas atividades **Build audience**. A primeira é direcionada ao público-alvo dos jogadores de pôquer, seguida de uma entrega por email. A segunda é direcionada ao público-alvo de clientes VIP, seguida de uma entrega de SMS.
+Este é um exemplo de uma campanha orquestrada com duas atividades **Build audience**. O primeiro é direcionado a perfis que têm itens em seus carrinhos, seguidos por um delivery de email. O segundo é direcionado a perfis com uma lista de desejos, seguido de um delivery de SMS.
 
-![](../assets/workflow-audience-example.png)
+![](../assets/build-audience-2.png)

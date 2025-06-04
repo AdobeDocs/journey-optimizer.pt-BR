@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 59%
+source-wordcount: '216'
+ht-degree: 27%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 59%
 >id="ajo_orchestration_fork"
 >title="Atividade Bifurcação"
 >abstract="A atividade **Bifurcação** permite criar transições de saída para iniciar várias atividades ao mesmo tempo."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_fork_transitions"
@@ -39,7 +38,7 @@ ht-degree: 59%
 
 <br/>
 
-A atividade **Bifurcação** é uma atividade de **Controle de fluxo**. Ela permite criar transições de saída para iniciar várias atividades ao mesmo tempo.
+A atividade **Fork** é um componente de **Controle de fluxo** que permite criar várias transições de saída, permitindo que várias atividades sejam executadas em paralelo.
 
 ## Configurar a atividade de bifurcação{#fork-configuration}
 
@@ -48,14 +47,11 @@ Siga estas etapas para configurar a atividade de **Bifurcação**:
 ![](../assets/workflow-fork.png)
 
 1. Adicione uma atividade **Fork** à sua campanha orquestrada.
-1. Clique em **Adicionar transição** para adicionar uma nova transição de saída. Por padrão, são definidas duas transições.
-1. Adicione um rótulo a cada transição.
 
-## Exemplo{#fork-example}
+1. Defina um **Rótulo**.
 
-No exemplo a seguir, estaremos usando duas atividades de **Bifurcação**:
+1. Atribua um rótulo a cada transição de saída. Por padrão, duas transições são fornecidas.
 
-* Uma antes das duas consultas, para executá-las ao mesmo tempo.
-* Uma após a interseção, para enviar um email e um SMS simultaneamente à população direcionada.
+1. Para remover uma transição, clique no ícone ![](../assets/do-not-localize/Smock_Delete_18_N.svg).
 
-![](../assets/workflow-fork-example.png)
+1. Se necessário, clique em **Adicionar transição** para adicionar uma transição de saída adicional.
