@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 01fbf78d15e620fa7b540e3a1a6972949a0c4795
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 42%
+source-wordcount: '621'
+ht-degree: 37%
 
 ---
 
@@ -50,12 +50,9 @@ ht-degree: 42%
 
 A atividade **Reconciliation** é uma atividade **Targeting** que permite definir o vínculo entre os dados no Adobe Journey Optimizer e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo.
 
-## Práticas recomendadas {#reconciliation-best-practices}
+A atividade Enrichment permite adicionar dados adicionais à campanha orquestrada, por exemplo, combinando dados de várias fontes ou vinculando a um recurso temporário. Por outro lado, a atividade Reconciliation é usada para corresponder dados não identificados ou externos com recursos existentes no banco de dados.
 
-Embora a atividade **Enrichment** permita a definição de dados adicionais para serem processados na campanha orquestrada (você pode usar uma atividade **Enrichment** para combinar dados provenientes de vários conjuntos ou para criar links para um recurso temporário), a atividade **Reconciliation** permite vincular dados não identificados aos recursos existentes.
-
->[!NOTE]
->A operação de reconciliação implica que os dados das dimensões vinculadas já estão no banco de dados.  Por exemplo, se você importar um arquivo de compras que mostre qual produto foi comprado, em que momento, por qual cliente, etc., o produto e o cliente já deverão existir no banco de dados.
+A reconciliação requer que os registros relacionados já existam no sistema. Por exemplo, se você importar um arquivo de compra listando produtos, carimbos de data e hora e informações do cliente, os produtos e os clientes já deverão estar presentes no banco de dados para estabelecer o link.
 
 ## Configurar a atividade de reconciliação {#reconciliation-configuration}
 

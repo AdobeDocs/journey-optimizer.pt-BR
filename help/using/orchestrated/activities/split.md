@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 01fbf78d15e620fa7b540e3a1a6972949a0c4795
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 78%
+source-wordcount: '878'
+ht-degree: 53%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 78%
 
 <br/>
 
-A atividade de **Divisão** é uma atividade de **Direcionamento** que permite segmentar as populações recebidas em vários subconjuntos com base em diferentes critérios de seleção, como regras de filtragem ou tamanho da população.
+A atividade **Split** é uma atividade **Targeting** que segmenta a população recebida em vários subconjuntos com base em critérios de seleção definidos, como regras de filtragem ou tamanho de população.
 
 ## Configurar a atividade de divisão {#split-configuration}
 
@@ -83,40 +83,39 @@ Siga estas etapas para configurar a atividade de **Divisão**:
 
 1. O painel de configuração da atividade é aberto com um subconjunto padrão. Clique em **Adicionar segmento** para adicionar quantos subconjuntos desejar e segmentar a população recebida.
 
-   ![](../assets/workflow-split.png)
+   ![](../assets/orchestrated-split-1.png)
 
    >[!IMPORTANT]
    >
-   >Quando a Atividade de **divisão** é executada, a população é segmentada nos diferentes subconjuntos na ordem em que são adicionados à atividade. Por exemplo, se o primeiro subconjunto recuperar 70% da população inicial, o próximo subconjunto adicionado aplicará seus critérios de seleção somente aos 30% restantes e assim por diante.
+   >A atividade **Split** processa subconjuntos na ordem em que são adicionados. Por exemplo, se o primeiro subconjunto capturar 70% da população, o próximo aplica seus critérios aos 30% restantes.
    >
-   >Antes de iniciar a campanha orquestrada, verifique se você solicitou os subconjuntos na ordem que atende às suas necessidades. Para fazer isso, use os botões de seta para alterar a posição de um subconjunto.
+   >Antes de executar a campanha orquestrada, verifique se os subconjuntos estão ordenados conforme pretendido. Use os botões de seta para ajustar a posição.
 
 1. Após a adição dos subconjuntos, a atividade mostrará tantas transições de saída quanto houver subconjuntos. Recomendamos alterar o rótulo de cada subconjunto para identificá-los facilmente na tela de campanha orquestrada.
 
-1. Configure como cada subconjunto deve filtrar a população recebida. Para fazer isso, siga estes passos:
+1. Configure filtros para cada subconjunto:
 
-   1. Abra o subconjunto para exibir suas propriedades.
+   1. Clique em um subconjunto para abrir suas configurações.
 
-   1. Para aplicar uma condição de filtragem ao subconjunto, clique em **[!UICONTROL Criar filtro]** e configure a regra de filtragem desejada usando o modelador de consultas. Por exemplo, inclua perfis da população recebida cujo endereço de email já exista no banco de dados.
+   1. Clique em **[!UICONTROL Criar filtro]** para definir regras de filtragem usando o modelador de consultas, por exemplo, selecione perfis com um endereço de email válido.
 
-   1. Para limitar o número de perfis selecionados pelo subconjunto, ative a opção **[!UICONTROL Habilitar limite]**, e especifique o número ou as porcentagens da população a serem incluídas.
+      ![](../assets/orchestrated-split-1.png)
 
-   1. Para desabilitar uma transição se a população recebida estiver vazia, alterne a opção **[!UICONTROL Ignorar transição vazia]** para. Se nenhum perfil corresponder ao subconjunto, a campanha orquestrada não fará a transição para a próxima atividade.
+   1. Para limitar o número de perfis selecionados, habilite **[!UICONTROL Habilitar limite]** e especifique um número ou porcentagem.
 
-      ![](../assets/workflow-split-subset.png)
+   1. Para ignorar uma transição quando o subconjunto estiver vazio, habilite **[!UICONTROL Ignorar transição vazia].**
 
-1. Após configurar todos os subconjuntos, é possível selecionar a população restante que não correspondeu a nenhum dos subconjuntos e incluí-la em uma transição de saída adicional. Para isso, ative a opção **[!UICONTROL Gerar complemento.]**
-
-   ![](../assets/workflow-split-complement.png)
+1. Para incluir perfis não correspondentes a nenhum subconjunto, habilite **[!UICONTROL Gerar complemento]**. Isso cria uma transição de saída adicional para a população restante.
 
    >[!NOTE]
    >
-   >A opção **[!UICONTROL Generate all subsets in the same table]** permite agrupar todos os subconjuntos em uma única transição de saída.
+   >Habilite **[!UICONTROL Gerar todos os subconjuntos na mesma tabela]** para agrupar todos os subconjuntos em uma única transição.
 
-1. A opção **[!UICONTROL Enable overlapping of output populations]** permite gerenciar populações pertencentes a vários subconjuntos:
+1. Use **[!UICONTROL Habilitar sobreposição de populações de saída]** para permitir que os perfis apareçam em vários subconjuntos:
 
-   * Quando a caixa não está marcada, a atividade Divisão garante que um destinatário não possa estar presente em diversas transições de saída, mesmo que atenda aos critérios de vários subconjuntos. Eles estarão no target da primeira guia com critérios correspondentes.
-   * Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. A prática recomendada é usar critérios exclusivos.
+   * **Se desmarcado**, cada perfil será atribuído a apenas um subconjunto, o primeiro cujos critérios ele corresponda mesmo que se qualifique para outros subconjuntos.
+
+   * **Se marcado**, os perfis poderão ser incluídos em vários subconjuntos se atenderem aos critérios de cada um.
 
 A atividade agora está configurada. Na execução orquestrada da campanha, a população será segmentada em diferentes subconjuntos, na ordem em que foram adicionados à atividade.
 
@@ -124,8 +123,10 @@ A atividade agora está configurada. Na execução orquestrada da campanha, a po
 
 No exemplo a seguir, a atividade de **[!UICONTROL Divisão]** é usada para segmentar um público-alvo em subconjuntos distintos com base no canal de comunicação que queremos usar:
 
-* **Subconjunto 1 “push”**: esse subconjunto inclui todos os perfis que instalaram nosso aplicativo móvel.
-* **Subconjunto 2 “sms”**: usuários de celular: para a população restante que não se enquadrou no subconjunto 1, o subconjunto 2 aplica uma regra de filtragem para selecionar perfis com telefones celulares no banco de dados.
-* **Transição de complemento**: essa transição captura todos os perfis restantes que não corresponderam ao subconjunto 1 nem ao subconjunto 2. Especificamente, inclui perfis que não instalaram o aplicativo móvel nem possuem um telefone celular, como usuários que não instalaram o aplicativo ou que não têm um número de celular registrado.
+* **Subconjunto 1 &quot;email&quot;**: inclui perfis que forneceram um número de telefone.
 
-![](../assets/workflow-split-example.png)
+* **Subconjunto 2 &quot;sms&quot;**: segmenta os perfis com um número de celular armazenado no banco de dados.
+
+* **Transição de complemento**: captura todos os perfis restantes que não atendem aos critérios de nenhum subconjunto.
+
+![](../assets/orchestrated-split-3.png)
