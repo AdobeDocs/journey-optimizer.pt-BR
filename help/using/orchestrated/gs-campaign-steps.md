@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 4465a69e-5b35-4580-a19d-af66f49f269f
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 3%
@@ -25,6 +25,8 @@ ht-degree: 3%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 * Acesse Campanhas orquestradas, explore sua lista de campanhas, adicione tags e descubra ações rápidas. Saiba mais
 * Criar/estender esquemas, configurar conjuntos de dados, configurar a assimilação de dados

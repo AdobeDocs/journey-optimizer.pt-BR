@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 17%
@@ -16,6 +16,11 @@ ht-degree: 17%
 
 
 # Criar uma campanha orquestrada {#create-first-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_creation_workflow"
+>title="Lista de campanhas orquestradas"
+>abstract="A guia **várias etapas** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada. "
 
 +++ Sumário
 
@@ -27,10 +32,7 @@ ht-degree: 17%
 
 +++
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_creation_workflow"
->title="Lista de campanhas orquestradas"
->abstract="A guia **várias etapas** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada. "
+<br/><br/>
 
 ## Criar a campanha
 

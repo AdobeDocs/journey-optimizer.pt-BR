@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 27%
@@ -30,6 +30,8 @@ ht-degree: 27%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 Ao criar uma campanha orquestrada ou orquestrar atividades de campanha orquestrada na tela, você pode acessar configurações avançadas relacionadas à campanha orquestrada. Por exemplo, é possível definir um fuso horário específico para a campanha orquestrada, gerenciar como ela deve se comportar em caso de erro ou gerenciar o atraso após o qual o histórico da campanha orquestrada deve ser removido.
 

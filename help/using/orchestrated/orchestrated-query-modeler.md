@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,13 @@ ht-degree: 2%
 
 +++
 
-*Em andamento*
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+Documentação em andamento
+
+>[!ENDSHADEBOX]
 
 As campanhas orquestradas vêm com um modelador de consultas que simplifica o processo de filtragem do banco de dados com base em vários critérios. O modelador de consultas gerencia consultas muito complexas e longas com eficiência, oferecendo flexibilidade e precisão aprimoradas. Também oferece suporte a filtros predefinidos em condições, permitindo que os usuários refinem consultas com facilidade enquanto utilizam expressões e operadores avançados para estratégias abrangentes de direcionamento e segmentação de público.
 
