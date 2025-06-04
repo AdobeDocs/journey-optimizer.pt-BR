@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 54d8b2fb-745d-459c-85d6-c224aa5e352e
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 4ba945e8213c9cc2e07ede8fe7f1b435cf942ff7
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 6%
@@ -33,4 +33,5 @@ ht-degree: 6%
 Documentação em andamento
 
 >[!ENDSHADEBOX]
->Como gerente de campanha, você pode enviar **versões de prova** de nossas mensagens personalizadas para uma lista predefinida de revisores internos, garantindo que todo o conteúdo, personalização e links funcionem conforme esperado antes da inicialização em escala completa.
+
+Como gerente de campanha, você pode enviar **versões de prova** de nossas mensagens personalizadas para uma lista predefinida de revisores internos, garantindo que todo o conteúdo, personalização e links funcionem conforme esperado antes da inicialização em escala completa.
