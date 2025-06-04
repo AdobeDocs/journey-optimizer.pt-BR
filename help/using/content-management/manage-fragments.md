@@ -97,8 +97,8 @@ Para navegar facilmente pelos fragmentos, é possível usar pastas para organiz�
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Novos status de fragmentos"
->abstract="Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status **Rascunho**, mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los **Ativos** e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. <br/>A publicação requer a permissão de usuário <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">Fragmento de publicação</a>."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="Saiba mais sobre permissões de fragmentos de conteúdo"
+>abstract="Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status **Rascunho**, mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los **Ativos** e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. <br/>A publicação requer a permissão de usuário <a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">Fragmento de publicação</a>."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="Saiba mais sobre permissões de fragmentos de conteúdo"
 
 Os fragmentos podem ter vários status:
 
