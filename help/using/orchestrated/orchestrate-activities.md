@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: b240d815826cd87b40cf0ed7dde9c9a28822dcba
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -79,8 +79,6 @@ Ao adicionar atividades, os botões de ação ficam disponíveis no painel de pr
 * Acesse os **Logs e tarefas** da atividade.
 
 Várias atividades de **Direcionamento**, como **Combinar** ou **Desduplicação**, permitem processar a população restante e incluí-la em uma transição de saída adicional. Por exemplo, se você estiver usando uma atividade **Split**, o complemento consiste na população que não corresponde a nenhum dos subconjuntos definidos anteriormente. Para usar este recurso, ative a opção **Gerar complemento**.
-
-![](assets/workflow-split-complement.png)
 
 ## Mover ou copiar atividades {#move-copy}
 
