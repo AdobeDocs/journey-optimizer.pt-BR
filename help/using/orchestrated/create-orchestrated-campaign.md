@@ -1,0 +1,108 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Criar campanhas orquestradas com o Journey Optimizer
+description: Saiba como criar uma campanha orquestrada com o Adobe Journey Optimizer
+badge: label="Alfa"
+hide: true
+hidefromtoc: true
+exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
+source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+workflow-type: tm+mt
+source-wordcount: '785'
+ht-degree: 17%
+
+---
+
+
+# Criar uma campanha orquestrada {#create-first-campaign}
+
++++ Sumário
+
+| Bem-vindo às campanhas orquestradas | Iniciar sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
+|---|---|---|---|
+| [Introdução a campanhas orquestradas](gs-orchestrated-campaigns.md)<br/><br/>[Etapas de configuração](configuration-steps.md)<br/><br/>[Etapas principais para a criação de campanhas orquestradas](gs-campaign-creation.md) | [Criar uma campanha orquestrada](create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](orchestrate-activities.md)<br/><br/>[Enviar mensagens com campanhas orquestradas](send-messages.md)<br/><br/>[Iniciar e monitorar a campanha](start-monitor-campaigns.md)<br/><br/>[Relatórios](reporting-campaigns.md) | [Trabalhar com o Query Modeler](orchestrated-query-modeler.md)<br/><br/>[Criar sua primeira consulta](build-query.md)<br/><br/>[Editar expressões](edit-expressions.md) | [Introdução às atividades](activities/about-activities.md)<br/><br/>Atividades:<br/>[And-join](activities/and-join.md) - [Criar público](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Eliminação de Duplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Divisão](activities/split.md) - [Espera](activities/wait.md) |
+
+{style="table-layout:fixed"}
+
++++
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_creation_workflow"
+>title="Lista de campanhas orquestradas"
+>abstract="A guia **várias etapas** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada. "
+
+## Criar a campanha
+
+Para criar uma campanha orquestrada, siga estas etapas:
+
+1. Para criar uma **campanha orquestrada**, navegue até o menu **Campanhas**.
+
+1. Clique no botão **[!UICONTROL Criar campanha orquestrada]**, no canto superior direito da tela.
+
+1. Na caixa de diálogo **Propriedades** da campanha orquestrada, selecione o modelo a ser usado para criar a campanha orquestrada (você também pode usar o modelo interno padrão). [Saiba mais sobre modelos de campanha orquestradas](#campaign-templates).
+
+1. Insira um rótulo para a campanha orquestrada. Além disso, recomendamos que você adicione uma descrição à sua campanha orquestrada, no campo dedicado da seção **[!UICONTROL Opções adicionais]** da tela.
+
+1. Expanda a seção **[!UICONTROL Opções adicionais]** para definir mais configurações para a campanha orquestrada.
+
+1. Clique no botão **[!UICONTROL Criar campanha orquestrada]** para confirmar a criação da campanha orquestrada.
+
+Sua campanha orquestrada agora está criada e disponível na lista de workflows. Agora é possível acessar a tela visual e começar a adicionar, configurar e orquestrar as tarefas que serão executadas. [Saiba como organizar atividades de campanha orquestradas](orchestrate-activities.md).
+
+## Definir as configurações da campanha
+
+Visão geral de novas configurações de administração> esquemas, campos de execução e política de mesclagem. [Saiba mais](configuration-steps.md)
+
+## Trabalhar com modelos de campanha orquestrada {#campaign-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_workflow_template_for_campaign"
+>title="Modelos de campanha orquestrada"
+>abstract="Os modelos de campanha orquestrada contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novas campanhas orquestradas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_workflow_template_creation_properties"
+>title="Propriedades da campanha orquestrada"
+>abstract="Os modelos de campanha orquestrada contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novas campanhas orquestradas. Nessa tela, insira o rótulo do modelo da campanha orquestrada e defina suas configurações, como nome interno, pasta, pastas de execução, fuso horário e grupo de supervisão."
+
+Os modelos de campanha orquestrada contêm configurações e atividades predefinidas que podem ser reutilizadas para criar novas campanhas orquestradas. Você pode selecionar o template da sua campanha orquestrada nas propriedades da campanha orquestrada, ao criar uma campanha orquestrada. Um template vazio é fornecido por padrão.
+
+Você pode criar um modelo a partir de uma campanha orquestrada existente ou criar um novo modelo do zero. Ambos os métodos são detalhados abaixo.
+
+>[!BEGINTABS]
+
+>[!TAB Criar um modelo a partir de uma campanha orquestrada existente]
+
+Para criar um template de campanha orquestrada a partir de uma campanha orquestrada existente, siga estas etapas:
+
+1. Abra o menu **Campanha** e navegue até a campanha orquestrada para salvar como um modelo.
+1. Clique nos três pontos à direita do nome da campanha orquestrada e escolha **Copiar como modelo**.
+1. Na janela pop-up, confirme a criação do template.
+1. Na tela do template de campanha orquestrada, verifique, adicione e configure as atividades conforme necessário.
+1. Navegue até as configurações, no botão **Configurações**, para alterar o nome do modelo de campanha orquestrada e insira uma descrição.
+1. Selecione a **pasta** e a **pasta de execução** do modelo. A pasta é o local onde o template de campanha orquestrada é salvo. A pasta de execução é a pasta onde as campanhas orquestradas criadas com base nesse template são salvas.
+1. Salve as alterações.
+
+O template de campanha orquestrada agora está disponível na lista de templates. Você pode criar uma campanha orquestrada com base nesse template. Essa campanha orquestrada será pré-configurada com as configurações e atividades definidas no template.
+
+
+>[!TAB Criar um modelo do zero]
+
+
+Para criar um template de campanha orquestrado do zero, siga estas etapas:
+
+1. Abra o menu **Campanha** e navegue até a guia **Modelos**. Você pode ver a lista de templates de campanha orquestrada disponíveis.
+1. Clique no botão **[!UICONTROL Criar modelo]** no canto superior direito da tela.
+1. Insira o rótulo e abra as opções adicionais para inserir uma descrição do template de campanha orquestrada.
+1. Selecione a pasta e a pasta de execução do modelo. A pasta é o local onde o template de campanha orquestrada é salvo. A pasta de execução é a pasta onde as campanhas orquestradas criadas com base nesse template são salvas.
+1. Clique no botão **Criar** para confirmar suas configurações.
+1. Na tela do template de campanha orquestrada, adicione e configure as atividades conforme necessário.
+
+   ![](assets/wf-template-activities.png){zoomable="yes"}
+
+1. Salve as alterações.
+
+O template de campanha orquestrada agora está disponível na lista de templates. Você pode criar uma campanha orquestrada com base nesse template. Essa campanha orquestrada será pré-configurada com as configurações e atividades definidas no template.
+
+>[!ENDTABS]
