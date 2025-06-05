@@ -7,10 +7,10 @@ feature: Get Started
 role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ Saiba como **identificar dados e criar esquemas e conjuntos de dados** para en
 
 >[!NOTE]
 >
->Saiba mais sobre a **ingestão de dados** na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
+>Saiba mais sobre a **assimilação de dados** na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
 
 As etapas para criar um namespace de identidade e um conjunto de dados habilitado para perfis e perfis de teste são detalhadas nas seções abaixo:
 
@@ -44,6 +44,6 @@ Além disso, para poder enviar mensagens em jornadas, você deve configurar as *
 
 * A configuração da **fonte de dados** permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas. Saiba mais sobre Fontes de dados [nesta seção](../../datasource/about-data-sources.md).
 
-* Os **Eventos** permitem acionar as jornadas de forma unitária para enviar mensagens, em tempo real, ao indivíduo que flui para a jornada. Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são padronizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de ingestão de streaming para eventos autenticados e não autenticados (como eventos do SDK móvel da Adobe). Saiba mais sobre eventos [nesta seção](../../event/about-events.md).
+* Os **Eventos** permitem acionar as jornadas de forma unitária para enviar mensagens, em tempo real, à pessoa que flui para a jornada. Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são padronizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de ingestão de streaming para eventos autenticados e não autenticados (como eventos do SDK móvel da Adobe). Saiba mais sobre eventos [nesta seção](../../event/about-events.md).
 
 * O [!DNL Journey Optimizer] vem com recursos de mensagem integrados: você pode criar suas mensagens em uma jornada e projetar o conteúdo. Se você estiver usando um sistema de terceiros para enviar mensagens, por exemplo, Adobe Campaign, crie uma **ação personalizada**. Saiba mais sobre ações [nesta seção](../../action/action.md).
