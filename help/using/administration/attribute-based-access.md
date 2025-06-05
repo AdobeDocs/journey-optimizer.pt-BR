@@ -38,7 +38,7 @@ Observe que as **[!UICONTROL Funções]**, **[!UICONTROL Políticas]** e **[!UIC
 
 >[!IMPORTANT]
 >
->>Antes de gerenciar permissões para uma função, crie uma política. Para obter mais informações, consulte a [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=pt-BR){target="_blank"}.
+>&#x200B;>Antes de gerenciar permissões para uma função, crie uma política. Para obter mais informações, consulte a [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=pt-BR){target="_blank"}.
 
 **[!UICONTROL Funções]** são um conjunto de usuários que compartilham as mesmas permissões, rótulos e sandboxes na sua organização. Cada usuário que pertence a uma **[!UICONTROL Função]** tem direito aos aplicativos e serviços da Adobe contidos no produto. Você também pode criar suas próprias **[!UICONTROL Funções]** para ajustar o acesso dos usuários a determinadas funcionalidades ou objetos na interface.
 
