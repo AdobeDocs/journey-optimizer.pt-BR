@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: b240d815826cd87b40cf0ed7dde9c9a28822dcba
+source-git-commit: 42c57cc8e6bd6a84495738fb987b271743c0dea7
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ Nessa etapa da configuração, o diagrama é exibido com um ícone de início, r
 
 Uma lista de atividades que podem ser adicionadas ao diagrama é exibida. As atividades disponíveis dependem da sua posição no diagrama de campanha orquestrada. Por exemplo, ao adicionar sua primeira atividade, é possível iniciar a campanha orquestrada direcionando um público, dividindo o caminho da campanha orquestrada ou definindo uma atividade **Wait** para atrasar a execução da campanha orquestrada. Por outro lado, depois de uma atividade **Criar público-alvo**, você pode refinar seu público-alvo com atividades de direcionamento, enviar uma entrega para seu público com atividades de canal ou organizar o processo de campanha orquestrada com atividades de controle de fluxo.
 
-![](assets/workflow-start.png){zoomable="yes"}
+![](assets/orchestrated-start.png){zoomable="yes"}
 
 Depois que uma atividade é adicionada ao diagrama, um painel direito é exibido, permitindo configurar a atividade recém-adicionada com configurações específicas. Informações detalhadas sobre como configurar cada atividade estão disponíveis em [esta seção](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png){zoomable="yes"}
+![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
 Repita esse processo para adicionar quantas atividades desejar, dependendo das tarefas que deseja que sua campanha orquestrada execute. Observe que você também pode inserir uma nova atividade entre duas atividades. Para fazer isso, clique no botão **+** na transição entre as atividades, selecione a atividade desejada e a configure no painel direito.
 
@@ -60,7 +60,7 @@ A barra de ferramentas localizada no canto superior direito da tela fornece opç
 * **Menos zoom** / **Menos zoom**: Menos zoom ou mais zoom na tela.
 * **Exibir mapa**: abre um instantâneo da tela mostrando que você está localizado.
 
-![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+![](assets/orchestrated-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## Gerenciar atividades {#manage}
 
@@ -74,8 +74,6 @@ Ao adicionar atividades, os botões de ação ficam disponíveis no painel de pr
 * **Desabilitar/Habilitar** a atividade. Quando a campanha orquestrada é executada, as atividades desabilitadas e as atividades a seguir no mesmo caminho não são executadas e a campanha orquestrada é interrompida.
 * **Pausar/Retomar** a atividade. Quando a campanha orquestrada é executada, ela é pausada na atividade pausada. A tarefa correspondente, bem como todas as que a seguem no mesmo caminho, não são executadas.
 * **Copiar** a atividade. Consulte [esta seção](#copy).
-* **Mover** uma atividade e todos os seus nós filhos para outra transição. Consulte [esta seção](#move)
-* Acesse as **Opções de execução** da atividade.
 * Acesse os **Logs e tarefas** da atividade.
 
 Várias atividades de **Direcionamento**, como **Combinar** ou **Desduplicação**, permitem processar a população restante e incluí-la em uma transição de saída adicional. Por exemplo, se você estiver usando uma atividade **Split**, o complemento consiste na população que não corresponde a nenhum dos subconjuntos definidos anteriormente. Para usar este recurso, ative a opção **Gerar complemento**.
@@ -90,75 +88,79 @@ Para copiar atividades, você tem duas opções:
 
 * copie uma atividade usando o botão de ação.
 
-  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
+  ![](assets/orchestrated-copy-1.png){zoomable="yes"}{width="70%"}
 
 * copie várias atividades usando o botão da barra de ferramentas.
 
-  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
+  ![](assets/orchestrated-copy-2.png){zoomable="yes"}{width="70%"}
 
 Para colar as atividades copiadas, clique no botão **+** em uma transição e selecione &quot;Colar atividade X&quot;.
 
-![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-### Mover atividades e seus nós filhos {#move}
+<!--
+### Move activities and their child nodes {#move}
 
-O Journey Optimizer permite mover uma atividade, juntamente com todo o conteúdo dos nós secundários (incluindo todas as transições e atividades dentro dela) para o final de outra transição na mesma campanha orquestrada.
+Journey Optimizer allows you to move an activity, along with the entire content of its child nodes (including all transitions and activities within it) to the end of another transition within the same orchestrated campaign.
 
-Esse processo desconecta a atividade e tudo o que está em sua transição de saída do local inicial, movendo-a para a nova transição de destino.
+This process disconnects the activity and everything in its outbound transition from the initial location, moving it to the new target transition.
 
-Para mover uma atividade:
+To move an activity:
 
-1. Selecione a atividade que deseja mover.
-1. No painel de propriedades da atividade, clique no botão **Mover**.
-1. Selecione a transição em que deseja colocar a atividade e sua transição de saída e, em seguida, confirme.
+1. Select the activity you wish to move.
+1. In the activity's properties pane, click the **Move** button.
+1. Select the transition where you want to place the activity and its outbound transition, then confirm.
 
 ![](assets/activity-move.png)
 
-## Opções de execução {#execution}
 
-Todas as atividades permitem gerenciar as opções de execução. Selecione uma atividade e clique no botão **Opções de execução**. Isso permite definir o modo de execução e o comportamento da atividade em caso de erros.
+## Execution options {#execution}
+
+All activities allow you to manage their execution options. Select an activity and click on the **Execution options** button. This lets you define the activity's execution mode and behavior in case of errors.
 
 ![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### Propriedades
 
-O campo **Execution** permite que você defina a ação a ser executada quando a tarefa for iniciada.
+### Properties
 
-O campo **Duração máxima da execução** permite especificar uma duração como &quot;30s&quot; ou &quot;1h&quot;. Se a atividade não for concluída após o término da duração especificada, um alerta será acionado. Isso não afeta o funcionamento da campanha orquestrada.
+The **Execution** field allows you to define the action to be carried out when the task is started.
 
-O campo **Fuso horário** permite selecionar o fuso horário da atividade. O Adobe Journey Optimizer permite gerenciar as diferenças de tempo entre vários países na mesma instância. A configuração aplicada é definida quando a instância é criada.
+The **Maximum execution duration** field allows you to specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the orchestrated campaign functions.
 
-**O campo Afinidade** permite forçar a execução de uma campanha orquestrada ou de uma atividade de campanha orquestrada em uma máquina específica. Para fazer isso, é necessário especificar uma ou várias afinidades para a campanha orquestrada ou atividade em questão.
+The **Time zone** field allows you to select the time zone of the activity. Adobe Journey Optimizer allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
 
-O campo **Behavior** permite definir o procedimento a ser seguido se tarefas assíncronas forem usadas.
+**The Affinity** field allows you to force an orchestrated campaign or an orchestrated campaign activity to execute on a particular machine. To do this, you must specify one or several affinities for the orchestrated campaign or activity in question.
 
-### Gerenciamento de erros
+The **Behavior** field allows you to define the procedure to follow if asynchronous tasks are used.
 
-O campo **Em caso de erro** permite que você especifique a ação a ser executada caso a atividade encontre um erro.
+### Error management
 
-### Script de inicialização
+The **In case of error** field allows you to specify the action to be carried out should the activity encounter an error.
 
-O **script de Inicialização** permite inicializar variáveis ou modificar propriedades da atividade. Clique no botão **Editar código** e digite o trecho de código a ser executado. O script é chamado quando a atividade é executada.
+### Initialization script
 
-## Exemplo {#example}
+The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes. 
 
-Este é um exemplo de campanha orquestrada projetado para enviar um email a todos os clientes (exceto clientes do VIP) com um email que estejam interessados em máquinas de café.
+## Example {#example}
+
+Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 
 ![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
-Para isso, as atividades abaixo foram adicionadas:
+To achieve this, activities below have been added:
 
-* Uma atividade **[!UICONTROL Fork]** que divide a campanha orquestrada em três caminhos (um para cada conjunto de clientes),
-* **[!UICONTROL Crie atividades de público-alvo]** para direcionar os três conjuntos de clientes:
+* A **[!UICONTROL Fork]** activity that divides the orchestrated campaign into three paths (one for each set of customer),
+* **[!UICONTROL Build audience]** activities to target the three sets of customers:
 
-   * Clientes com um email,
-   * Clientes pertencentes ao público-alvo pré-existente &quot;Interessado em máquina(s) de café&quot;,
-   * Clientes pertencentes ao público-alvo pré-existente &quot;VIP ou recompensa&quot;.
+    * Customers with an email,
+    * Customers belonging to the pre-existing "Interrested in Coffee Machine(s)" audience,
+    * Customers belonging to the pre-existing "VIP ro reward" audience.
 
-* Uma atividade **[!UICONTROL Combine]** que agrupa clientes com um email e aqueles interessados em máquinas de café,
-* Uma atividade **[!UICONTROL Combine]** que exclui clientes do VIP,
-* Uma atividade de **[!UICONTROL Entrega de email]** que envia um email para os clientes resultantes.
+* A **[!UICONTROL Combine]** activity that groups together customers with an email and those interested in coffee machines,
+* A **[!UICONTROL Combine]** activity that excludes VIP customers,
+* An **[!UICONTROL Email delivery]** activity that sends an email to the resulting customers. 
 
-Depois de concluir a campanha orquestrada, adicione uma atividade en **[!UICONTROL End]** ao final do diagrama. Essa atividade permite marcar visualmente o final de um fluxo de trabalho e não tem impacto funcional.
+Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
 
-Depois de criar com sucesso o diagrama de campanha orquestrada, você pode executar a campanha orquestrada e acompanhar o progresso de suas várias tarefas. [Saiba como iniciar uma campanha orquestrada e monitorar sua execução](start-monitor-campaigns.md)
+After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)
+-->
