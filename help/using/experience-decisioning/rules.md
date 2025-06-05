@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 8418b0c9251e090575671acb65f83bee911cd039
+source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 20%
 
 ---
@@ -42,13 +42,16 @@ Para criar uma regra de decisão, siga estas etapas:
 
 1. A tela de criação de regras de decisão é aberta. Nomeie a regra e forneça uma descrição.
 
-1. Crie a regra de decisão para atender às suas necessidades usando o Construtor de segmentos do Adobe Experience Platform. Para fazer isso, você pode aproveitar várias fontes de dados, como atributos de perfil, públicos-alvo ou dados de contexto provenientes da Adobe Experience Platform. [Saiba como aproveitar os dados de contexto](#context-data)
+1. Crie a regra de decisão para atender às suas necessidades usando o Construtor de segmentos do Adobe Experience Platform. Para fazer isso, você pode aproveitar várias fontes de dados, como:
+   * Atributos de item de perfil e decisão,
+   * Públicos-alvo,
+   * Dados de contexto provenientes do Adobe Experience Platform. [Saiba como aproveitar os dados de contexto](#context-data)
 
    ![](assets/decision-rules-build.png)
 
    >[!NOTE]
    >
-   >O Construtor de segmentos fornecido para criar regras de decisão apresenta algumas especificidades em comparação à usada com o serviço de Segmentação do Adobe Experience Platform.  No entanto, o processo global descrito na documentação ainda é válido para criar regras de decisões. [Saiba como criar definições de segmento](../audience/creating-a-segment-definition.md)
+   >O Construtor de segmentos fornecido para criar regras de decisão apresenta algumas especificidades em comparação à usada com o serviço de Segmentação do Adobe Experience Platform. No entanto, o processo global descrito na documentação ainda é válido para criar regras de decisões. [Saiba como criar definições de segmento](../audience/creating-a-segment-definition.md)
 
 1. À medida que você adiciona e configura novos campos no espaço de trabalho, o painel **[!UICONTROL Propriedades de público-alvo]** exibe informações sobre os perfis estimados pertencentes ao público-alvo. Clique em **[!UICONTROL Atualizar estimativa]** para atualizar os dados.
 
