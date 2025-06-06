@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 450f83eb53068df10a63d39d1a43483ad3c7e803
+source-git-commit: 04a21534d91e4fcfa550af50450ea241c9b1235c
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1798'
 ht-degree: 8%
 
 ---
@@ -44,6 +44,8 @@ Para adicionar condições em sua query, siga estas etapas:
 
    Você também pode iniciar seu query usando um filtro predefinido. Para fazer isso, clique no botão **[!UICONTROL Selecionar ou salvar filtro]** e escolha **[!UICONTROL Selecionar filtro predefinido]**.
 
+   ![imagem mostrando o construtor de regras](assets/rule-builder-add.png)
+
 1. Identifique o atributo do banco de dados a ser usado como critério para a sua condição. O ícone &quot;i&quot; ao lado de um atributo fornece informações sobre a tabela em que ele está armazenado e seu tipo de dados.
 
    ![imagem mostrando a seleção de um atributo](assets/rule-builder-select-attribute.png)
@@ -76,13 +78,11 @@ Para adicionar condições em sua query, siga estas etapas:
 
 1. Clique em **[!UICONTROL Confirmar]** para adicionar o atributo selecionado à sua condição.
 
-1. Um painel de propriedades é exibido, onde você pode configurar os valores desejados para o atributo.
+1. Um painel de propriedades é exibido, onde você pode configurar o valor desejado para o atributo.
 
    ![imagem mostrando o construtor de regras com uma condição adicionada](assets/rule-builder-condition.png)
 
-1. Selecione o **[!UICONTROL Operador]** a ser aplicado na lista suspensa.
-
-   Vários operadores estão disponíveis para uso. Os operadores disponíveis na lista suspensa dependem do tipo de dados do atributo.
+1. Selecione o **[!UICONTROL Operador]** a ser aplicado na lista suspensa. Vários operadores estão disponíveis para uso. Os operadores disponíveis na lista suspensa dependem do tipo de dados do atributo.
 
    +++Lista de operadores disponíveis
 
@@ -105,7 +105,7 @@ Para adicionar condições em sua query, siga estas etapas:
    | Curtir | Semelhante ao operador Contains, permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) como &#39;Jon%s&#39;. O caractere curinga atua como um &quot;joker&quot; para encontrar nomes como &quot;Jones&quot;. |
    | Not like | Semelhante ao operador Contains, permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) diferente de &#39;Smi%h&#39;. Os destinatários que têm &#39;Smith&#39; como sobrenome não serão retornados. |
 
-   +++
++++
 
 1. No campo **Value**, defina o valor esperado. Você também pode usar o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no ícone ![imagem mostrando o ícone do editor de expressão](assets/do-not-localize/rule-builder-icon-editor.svg). [Saiba como editar expressões](../orchestrated/edit-expressions.md)
 
@@ -115,7 +115,7 @@ Para adicionar condições em sua query, siga estas etapas:
 
    ![imagem mostrando a opção de predefinição](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
 
@@ -220,8 +220,10 @@ Depois de criar a consulta na tela, você pode verificá-la usando o painel **Pr
 * **Calcular**: atualiza e exibe o número de registros direcionados pela sua regra.
 * **Selecionar ou salvar filtro**: escolha um filtro predefinido existente para usar na tela ou salve sua consulta como um filtro predefinido para reutilização futura.
 
-  >[!IMPORTANT]
-  >
-  >Selecionar um filtro predefinido no painel Propriedades da regra substitui a regra que foi criada na tela pelo filtro selecionado.
+<br/>
+
+    >[!IMPORTANT]
+    >
+    >Selecione um filtro predefinido no painel de propriedades Regra para substituir a regra que foi criada na tela pelo filtro selecionado.
 
 Quando a regra estiver pronta, clique no botão **[!UICONTROL Confirmar]** no para salvá-la.
