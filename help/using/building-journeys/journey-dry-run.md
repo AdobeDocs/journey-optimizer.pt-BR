@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '743'
 ht-degree: 8%
 
 ---
@@ -90,7 +90,7 @@ Para cada atividade, você pode verificar:
 
 * **[!UICONTROL Informado]**: número total de indivíduos que entraram nesta atividade.
 * **[!UICONTROL Saída (atender aos critérios de saída)]**: Número total de indivíduos que saíram da jornada dessa atividade devido a um critério de saída.
-* **[!UICONTROL Saída (saída forçada)]**: Número total de indivíduos que saíram quando a jornada foi pausada.
+* **[!UICONTROL Saída (saída forçada)]**: Número total de indivíduos que saíram quando a jornada foi pausada. Essa métrica é sempre igual a zero para jornadas no modo de Execução em tempo real.
 * **[!UICONTROL Erro]**: número total de indivíduos que tiveram um erro nessa atividade.
 
 
