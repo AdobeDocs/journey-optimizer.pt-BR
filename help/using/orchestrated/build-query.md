@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar a primeira consulta
-description: Saiba como criar consultas para suas campanhas orquestradas
+title: Crie sua primeira regra
+description: Saiba como criar regras para suas campanhas orquestradas
 badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: f6f83405f59f444c5d9d2ec2e603ff5425c3d745
+source-git-commit: d2d9847347a41579e5f66d331b6769efa0ef5b21
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 12%
+source-wordcount: '1789'
+ht-degree: 8%
 
 ---
 
-# Criar a primeira consulta {#build-query}
+# Crie sua primeira regra {#build-query}
 
 +++ Sumário
 
@@ -28,303 +28,200 @@ ht-degree: 12%
 
 <br/>
 
->[!BEGINSHADEBOX]
+As principais etapas para criar regras para suas campanhas orquestradas são as seguintes:
 
-Documentação em andamento
+1. **Adicionar condições** - Crie condições personalizadas para filtrar sua consulta criando sua própria condição com atributos do banco de dados e expressões avançadas.
+1. **Combinar condições** - Organize as condições na tela usando grupos e operadores lógicos.
+1. **Verificar e validar a regra** - Verifique os dados resultantes da regra antes de salvá-la.
 
->[!ENDSHADEBOX]
+## Adicionar uma condição {#conditions}
 
-<!--
-The main steps to build rules for your orchestrated campaigns are as follows:
+Para adicionar condições em sua query, siga estas etapas:
 
-1. **Add conditions** - Create custom conditions to filter your query by building your own condition with attributes from the database and advanced expressions.
-1. **Combine conditions** - Arrange the conditions in the canvas using groups and logical operators.
-1. **Check and validate the rule** - Check the resulting data of your rule before saving it.
+1. Acesse o construtor de regras de uma atividade **[!UICONTROL Criar público-alvo]**.
 
-## Add a condition {#conditions}
+1. Clique no botão **Adicionar condição** para criar uma primeira condição para sua consulta.
 
-To add conditions in your query, follow these steps:
+   Você também pode iniciar seu query usando um filtro predefinido. Para fazer isso, clique no botão **[!UICONTROL Selecionar ou salvar filtro]** e escolha **[!UICONTROL Selecionar filtro predefinido]**.
 
-1. Access the rule builder from a **[!UICONTROL Build audience]** activity.
+1. Identifique o atributo do banco de dados a ser usado como critério para a sua condição. O ícone &quot;i&quot; ao lado de um atributo fornece informações sobre a tabela em que ele está armazenado e seu tipo de dados.
 
-1. Click the **Add condition** button to create a first condition for your query.
+   ![imagem mostrando a seleção de um atributo](assets/rule-builder-select-attribute.png)
 
-    You can also start your query using a predefined filter. To do so, click the **[!UICONTROL Select or save filter]** button and choose **[!UICONTROL Select predefined filter]**. 
+   >[!NOTE]
+   >
+   >O botão **Editar expressão** permite usar o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. [Saiba como editar expressões](expression-editor.md)
 
-1. Identify the attribute from the dabatase to use as criteria for your condition. The "i" icon next to an attribute provides information on the table where it is store and its data type.
+1. Clique na ![imagem que mostra o botão Mais ações](assets/do-not-localize/rule-builder-icon-more.svg) ao lado de um atributo para acessar estas opções adicionais:
 
-    ![image showing the selection of an attribute](assets/rule-builder-select-attribute.png)
++++ Distribuição de valores
 
-    >[!NOTE]
-    >
-    >The **Edit expression** button allows you to use the expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
+   Analise a distribuição de valores para um determinado atributo dentro da tabela. Esse recurso é útil para entender os valores disponíveis, suas contagens e porcentagens. Isso também ajuda a evitar problemas como inconsistências no uso de maiúsculas e minúsculas ou na ortografia ao criar consultas ou expressões.
 
-1. Click the ![image showing the More actions button](assets/do-not-localize/rule-builder-icon-more.svg) button next to an attribute to access these addititional options:
+   Para atributos com um grande número de valores, a ferramenta exibe apenas os primeiros vinte. Nesses casos, uma notificação de **[!UICONTROL Carregamento parcial]** é exibida para indicar essa limitação. Aplique filtros avançados para refinar os resultados exibidos e se concentrar em valores ou subconjuntos de dados específicos.
 
-    +++ Distribution of values
+   ![imagem mostrando a interface de Distribuição de valores](assets/rule-builder-distribution-values.png)
 
-    Analyze the distribution of values for a given attribute within the table. This feature is helpful for understanding the available values, their counts, and percentages. It also helps avoid issues such as inconsistent capitalization or spelling when building queries or creating expressions.
++++
 
-    For attributes with a large number of values, the tool displays only the first twenty. In such cases, a **[!UICONTROL Partial load]** notification appears to indicate this limitation. You can apply advanced filters to refine the displayed results and focus on specific values or subsets of data.
++++ Adicionar aos favoritos
 
-    ![image showing the Distribution of values interface](assets/rule-builder-distribution-values.png)
+   Adicionar atributos ao menu de favoritos fornece acesso rápido aos atributos usados com mais frequência. Você pode adicionar até 20 atributos aos favoritos. Atributos favoritos e recentes são associados a cada usuário dentro de uma organização, garantindo acessibilidade em diferentes computadores e proporcionando uma experiência contínua em todos os dispositivos.
 
-    +++
+   Para acessar os atributos que você adicionou aos favoritos, use o menu **[!UICONTROL Favoritos e recentes]**. Os atributos favoritos aparecem primeiro, seguido pelos usados recentemente, facilitando a localização dos atributos necessários. Para remover um atributo dos favoritos, clique no ícone de estrela novamente.
 
-    +++ Add to favorites
-    
-    Adding attributes to your favorites menu provides quick access to your most frequency used attributes. You can add up to 20 attributes to favorites. Favorite and recent attributes are associated with each user within an organization, ensuring accessibility across different machines and providing a seamless experience across devices.
-    
-    To access attributes you have favorited, use the **[!UICONTROL Favorites and recents]** menu. Favorite attributes appear first, followed by recently used ones, making it easy to locate the required attributes. To remove an attribute from favorites, select the star icon again.
+   ![imagem mostrando a interface de favoritos](assets/rule-builder-favorites.png)
 
-    ![image showing the favorites interface](assets/rule-builder-favorites.png)
++++
 
-    +++
+1. Clique em **[!UICONTROL Confirmar]** para adicionar o atributo selecionado à sua condição.
 
-1. Click **[!UICONTROL Confirm]** to add the selected attribute to your condition.
+1. Um painel de propriedades é exibido, onde você pode configurar os valores desejados para o atributo.
 
-1. A properties pane displays, where you can configure the desired values for the attribute.
+   ![imagem mostrando o construtor de regras com uma condição adicionada](assets/rule-builder-condition.png)
 
-    ![image showing the rule builder with a condition added](assets/rule-builder-condition.png)
+1. Selecione o **[!UICONTROL Operador]** a ser aplicado na lista suspensa.
 
-1. Select the **[!UICONTROL Operator]** to apply from the drop-down list. 
-    
-    Various operators are available for use. Operators available in the drop-down list depend on the attribute's data type.
+   Vários operadores estão disponíveis para uso. Os operadores disponíveis na lista suspensa dependem do tipo de dados do atributo.
 
-   +++List of available operators
+   +++Lista de operadores disponíveis
 
-    |Operator|Purpose|Example|
-    |---|---|---|
-    |Equal to|Returns a result identical to the data entered in the second Value column.|Last name (@lastName) equal to 'Jones' will return only recipients whose last name is Jones.|
-    |Not equal to|Returns all values not identical to the value entered.|Language (@language) not equal to 'English'.|
-    |Greater than|Returns a value greater than the value entered.|Age (@age) greater than 50 will return all values greater than '50', such as '51', '52'.|
-    |Less than|Returns a value smaller than the value entered.|Creation date (@created) before 'DaysAgo(100)' will return all recipients created less than 100 days ago.|
-    |Greater than or equal to|Returns all values equal to or greater than the value entered.|Age (@age) greater than or equal to '30' will return all recipients aged 30 or more.|
-    |Less than or equal to|Returns all values equal to or lower than the value entered.|Age (@age) less than or equal to '60' will return all recipients aged 60 or less.|
-    |Included in|Returns results included in the values indicated. These values must be separated by a comma.|Birth date (@birthDate) is included in '12/10/1979,12/10/1984' will return the recipients born between these dates.|
-    |Not in|Works like the Is included in operator. Here, recipients are excluded based on the values entered.|Birth date (@birthDate) is not included in '12/10/1979,12/10/1984'. Recipients born within these dates will not be returned.|
-    |Is empty|Returns results matching an empty value in the second Value column.|Mobile (@mobilePhone) is empty returns all recipients who do not have a mobile number.|
-    |Is not empty|Works in reverse to the Is empty operator. It is not necessary to enter data in the second Value column.|Email (@email) is not empty.|
-    |Starts with|Returns results starting with the value entered.|Account # (@account) starts with '32010'.|
-    |Does not start with|Returns results not starting with the value entered.|Account # (@account) does not start with '20'.|
-    |Contains|Returns results containing at least the value entered.|Email domain (@domain) contains 'mail' will return all domain names that contain 'mail', such as 'gmail.com'.|
-    |Does not contain|Returns results not containing the value entered.|Email domain (@domain) does not contain 'vo'. Domain names containing 'vo', such as 'voila.fr', will not appear in the results.|
-    |Like|Similar to the Contains operator, it lets you insert a % wildcard character in the value.|Last name (@lastName) like 'Jon%s'. The wildcard character acts as a "joker" to find names like "Jones".|
-    |Not like|Similar to the Contains operator, it lets you insert a % wildcard character in the value.|Last name (@lastName) not like 'Smi%h'. Recipients whose last name is 'Smith' will not be returned.|
+   | Operador | Finalidade | Exemplo |
+   |---|---|---|
+   | Igual a | Retorna um resultado idêntico aos dados inseridos na segunda coluna de valor. | Last name (@lastName) equal to &#39;Jones&#39; retornará apenas destinatários cujo sobrenome seja Jones. |
+   | Não é igual a | Retorna todos os valores não idênticos ao valor inserido. | Idioma (@language) não é igual a &#39;English&#39;. |
+   | Maior que | Retorna um valor maior que o valor digitado. | Age (@age) greater than 50 retornará todos os valores maiores que &#39;50&#39;, como &#39;51&#39;, &#39;52&#39;. |
+   | Menor que | Retorna um valor menor que o valor digitado. | Creation date (@created) before &#39;DaysAgo(100)&#39; retornará todos os destinatários criados menos de 100 dias atrás. |
+   | Maior que ou igual a | Retorna todos os valores iguais ou maiores que o valor inserido. | Age (@age) greater than or equal to &#39;30&#39; retornará todos os destinatários maiores de 30 anos ou mais. |
+   | Menor que ou igual a | Retorna todos os valores iguais ou inferiores ao valor inserido. | Age (@age) less than or equal to &#39;60&#39; retornará todos os destinatários com 60 anos ou menos. |
+   | Incluído em | Retorna resultados incluídos nos valores indicados. Esses valores devem ser separados por vírgula. | Birth date (@birthDate) is included in &#39;12/10/1979,12/10/1984&#39; retornará os destinatários nascidos entre essas datas. |
+   | Não está em | Funciona como o operador Is included in. Aqui, os recipients são excluídos com base nos valores inseridos. | A data de nascimento (@birthDate) não está incluída em &#39;12/10/1979,12/10/1984&#39;. Os recipients nascidos nessas datas não serão retornados. |
+   | Está vazio | Retorna os resultados que correspondem a um valor vazio na segunda coluna de valor. | Mobile (@mobilePhone) is empty retorna todos os destinatários que não têm número de celular. |
+   | Não está vazio | Funciona de forma inversa ao operador Is empty. Não é necessário inserir dados na segunda coluna de valor. | O email (@email) não está vazio. |
+   | Começa com | Retorna resultados iniciando com o valor inserido. | Account # (@account) começa com &#39;32010&#39;. |
+   | Não inicia com | Retorna resultados que não começam com o valor inserido. | Account # (@account) não começa com &#39;20&#39;. |
+   | Contains | Retorna resultados contendo pelo menos o valor inserido. | Email domain (@domain) contains &#39;mail&#39; retornará todos os nomes de domínio que contêm &#39;mail&#39;, como &#39;gmail.com&#39;. |
+   | Não contém | Retorna resultados não contendo o valor inserido. | O domínio de email (@domain) não contém &#39;vo&#39;. Nomes de domínio contendo &#39;vo&#39;, como &#39;voila.fr&#39;, não aparecerão nos resultados. |
+   | Curtir | Semelhante ao operador Contains, permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) como &#39;Jon%s&#39;. O caractere curinga atua como um &quot;joker&quot; para encontrar nomes como &quot;Jones&quot;. |
+   | Not like | Semelhante ao operador Contains, permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) diferente de &#39;Smi%h&#39;. Os destinatários que têm &#39;Smith&#39; como sobrenome não serão retornados. |
 
-    +++
++++
 
-1. In the **Value** field, define the expected value. You can also use the expression editor to manually define an expression using fields from the database and helper functions. To do this, click the ![image showing the expression editor icon](assets/do-not-localize/rule-builder-icon-editor.svg) icon. [Learn how to edit expressions](expression-editor.md)
+1. No campo **Value**, defina o valor esperado. Você também pode usar o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no ícone ![imagem mostrando o ícone do editor de expressão](assets/do-not-localize/rule-builder-icon-editor.svg). [Saiba como editar expressões](expression-editor.md)
 
-    For date-type attributes, predefined values are available using the **[!UICONTROL Presets]** option.
+   Para atributos do tipo data, os valores predefinidos estão disponíveis usando a opção **[!UICONTROL Predefinições]**.
 
-    +++See example
-    
-    ![image showing the preset option](assets/rule-builder-attribute-preset.png) 
+   +++Veja o exemplo
 
-    +++
+   ![imagem mostrando a opção de predefinição](assets/rule-builder-attribute-preset.png)
 
-### Custom conditions on linked tables (1-1 and 1-N links){#links}
++++
 
-Custom conditions allows you to query tables linked to the table currently used by your rule. This includes tables with a 1-1 cardinality link, or collection tables (1-N link).
+### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
 
-For a **1-1 link**, navigate to the linked table, select the desired attribute and define the expected value.
+As condições personalizadas permitem consultar tabelas vinculadas à tabela usada atualmente pela regra. Isso inclui tabelas com um link de cardinalidade 1-1 ou tabelas de coleção (link 1-N).
 
-You can also directly select a table link in the **Value** picker and confirm. In that case, values available for the selected table need to be selected using a dedicated picker, as shown in the example below.
+Para um link **1-1**, navegue até a tabela vinculada, selecione o atributo desejado e defina o valor esperado.
 
-+++Query example
+Você também pode selecionar diretamente um link de tabela no seletor de **Valor** e confirmar. Nesse caso, os valores disponíveis para a tabela selecionada precisam ser selecionados usando um seletor dedicado, como mostrado no exemplo abaixo.
 
-Here, the query is targeting brands whose label is "running". 
++++Exemplo de consulta
 
-1. Navigate inside the **Brand** table and select the **Label** attribute.
+Aqui, a consulta está direcionando marcas cujo rótulo é &quot;running&quot;.
 
-    ![Screenshot of the Brand table](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+1. Navegue dentro da tabela **Marca** e selecione o atributo **Etiqueta**.
 
-1. Define the expected value for the attribute.
+   ![Captura de tela da tabela Marca](assets/rule-builder-1-1-attribute.png)
 
-    ![Example of a defined expected value](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+1. Defina o valor esperado para o atributo.
 
-Here is a query sample where a table link has been selected directly. Available values for this table must be selected from a dedicated picker.
+   ![Captura de tela da tabela Marca](assets/rule-builder-1-1-attribute-value.png)
 
-![Example of a query sample](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+Esta é uma amostra de consulta em que um link de tabela foi selecionado diretamente. Os valores disponíveis para esta tabela devem ser selecionados em um seletor dedicado.
 
-+++ 
+![Captura de tela da tabela Marca](assets/rule-builder-1-1-attribute-table.png)
 
-For a **1-N link**, you can define sub-conditions to refine your query, as shown in the example below.
++++
 
-+++Query example
+Para um link **1-N**, você pode definir subcondições para refinar sua consulta, como mostrado no exemplo abaixo.
 
-Here, the query is targeting recipients who made purchases related to the BrewMaster product, for a total amount of at least 100$.
++++Exemplo de consulta
 
-1. Select the **Purchases** table and confirm.
+Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao produto Brewmsaster, por mais de 100$.
 
-    ![Screenshot of the Purchase table](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+1. Selecione a tabela **Compras** e confirme.
 
-1. An outbound transition is added, allowing you to create sub-conditions.
+1. Clique em **[!UICONTROL Adicionar condição]** para definir as subcondições a serem aplicadas à tabela selecionada.
 
-    ![Example of an outbound transition](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+   ![Captura de tela da tabela Compra](assets/rule-builder-1-n-purchase.png)
 
-1. Select the **Price** attribute and target purchases of 1000$ or more
+1. Adicione subcondições para atender às suas necessidades.
 
-    ![Screenshot of the Price attribute](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+   ![Captura de tela da tabela Compra](assets/rule-builder-1-n-collection.png)
 
-1. Add sub-conditions to suit your needs. Here we have added a condition to target profiles who purchased a BrewMaster product.
++++
 
-    ![Example of sub-conditions](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+### Condições personalizadas com dados agregados {#aggregate}
 
-+++ 
+As condições personalizadas permitem executar operações agregadas. Para fazer isso, você precisa selecionar diretamente um atributo de uma tabela de coleção:
 
-### Custom conditions with aggregate data {#aggregate}
+1. Navegue dentro da tabela de coleção desejada e selecione o atributo no qual deseja executar uma operação agregada.
 
-Custom conditions allow you to perform aggregate operations. To do this, you need to directly select an attribute from a collection table:
+1. No painel de propriedades, alterne a opção **Aggregate data** e selecione a função de agregação desejada.
 
-1. Navigate inside the desired collection table and select the attribute on which you want to perform an aggregate operation.
+   ![Captura de tela da opção Dados agregados](assets/rule-builder-aggregate.png)
 
-    ![Screenshot of the attribute list](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+## Combinar condições usando operadores {#operators}
 
-1. In the properties pane, toggle on the **Aggregate data** option and select the desired aggregate function.
+Cada vez que você adiciona uma nova condição à regra, ela é automaticamente vinculada à condição existente por um operador **AND**. Isso significa que os resultados das duas condições são combinados.
 
+Para alterar o operador entre condições, clique nele e selecione o operador desejado.
 
+![Exemplo de uma consulta](assets/rule-builder-change-operator.png)
 
+Os operadores disponíveis são:
 
+* **AND (Interseção)**: combina resultados que correspondem a todos os componentes de filtragem nas transições de saída.
+* **OR (União)**: inclui resultados que correspondem a pelo menos um dos componentes de filtragem nas transições de saída.
+* **EXCETO (Exclusão)**: exclui resultados que correspondem a todos os componentes de filtragem na transição de saída.
 
+## Manipular condições {#manipulate}
 
+A barra de ferramentas da tela do construtor de regras fornece opções para manipular facilmente as condições em sua regra:
 
-## Combine conditions with groups and operators
+| Ícone da barra de ferramentas | Descrição |
+|--- |--- |
+| ![Ícone Mover seleção para cima](assets/do-not-localize/rule-builder-icon-up.svg) | Mova o componente uma linha para cima. |
+| ![Ícone Mover seleção para baixo](assets/do-not-localize/rule-builder-icon-down.svg) | Mova o componente uma linha para baixo. |
+| ![Ícone de seleção de grupo](assets/do-not-localize/rule-builder-icon-group.svg) | Coloque dois componentes em um grupo. |
+| ![Ícone Desagrupar seleção](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Separe os componentes de um único grupo. |
+| ![Ícone Expandir tudo](assets/do-not-localize/rule-builder-icon-expand.svg) | Expanda todos os grupos. |
+| ![Recolher todo o ícone](assets/do-not-localize/rule-builder-icon-collapse.svg) | Recolher todos os grupos. |
+| ![Ícone Remover tudo](assets/do-not-localize/rule-builder-icon-delete.svg) | Remova todos os grupos e componentes. |
 
-Use **Group operators** (AND, OR, EXCEPT) allow you to group filtering components in the diagram. They are added on existing transitions before a filtering component. [Learn how to work with operators](#filtering)
+Dependendo das suas necessidades, talvez seja necessário criar grupos intermediários de componentes, agrupando os componentes em um mesmo grupo e vinculando-os.
 
-    Example: *Recipients who are Super VIP **AND** VIP to reward **OR** VIP Demo, **EXCEPT** recipients under 21 years old and above 45.
+* Para agrupar duas condições existentes, selecione uma das duas condições e clique no botão ![Mover ícone de seleção para cima](assets/do-not-localize/rule-builder-icon-up.svg) ou ![Mover ícone de seleção para baixo](assets/do-not-localize/rule-builder-icon-down.svg) para agrupá-lo com a condição acima ou abaixo.
 
+* Para agrupar uma condição existente com uma nova, selecione a condição, clique na ![imagem que mostra o botão Mais ações](assets/do-not-localize/rule-builder-icon-more.svg) e selecione **[!UICONTROL Adicionar grupo]**. Selecione o novo atributo a ser adicionado ao grupo e confirme.
 
+  ![](assets/rule-builder-edit-groups.png)
 
+No exemplo abaixo, criamos um grupo intermediário para clientes-alvo que compraram o produto BrewMaster ou VanillaVelvet.
 
+![](assets/rule-builder-groups.png)
 
+## Verificar e validar sua consulta
 
+Depois de criar a consulta na tela, você pode verificá-la usando o painel **Propriedades da regra**. As operações disponíveis são:
 
+* **Exibir resultados:** Exibe os dados resultantes da sua consulta.
+* **Visualização de código**: exibe uma versão baseada em código da consulta no SQL.
+* **Calcular**: atualiza e exibe o número de registros direcionados pela sua regra.
+* **Selecionar ou salvar filtro**: escolha um filtro predefinido existente para usar na tela ou salve sua consulta como um filtro predefinido para reutilização futura.
 
+  >[!IMPORTANT]
+  >
+  >Selecionar um filtro predefinido no painel Propriedades da regra substitui a regra que foi criada na tela pelo filtro selecionado.
 
-
-### Copy-paste components {#copy}
-
-The rule builder allows you to copy one or multiple filtering components and paste them at the end of a transition. This operation can be executed within the current query canvas, or in any canvas within your instance.
-
->[!NOTE]
->
->The copied selection is kept as long as you are working in your instance. If you log off and log back in, your selection will no longer be available for pasting.
-
->[!IMPORTANT]
->
->It is currently impossible to copy and paste components in the New Rule builder experience. To follow these next steps, please click the **[!UICONTROL Get back to the classic experience]** toggle at the top to use the Classic Rule builder.
-
-
-To copy-paste filtering components, follow these steps:
-
-1. Select the filtering component that you want to copy by clicking on it in the query canvas. To select multiple components, use the multiple selection tool available in the toolbar located at the upper-right corner of the canvas.
-
-1. Click the **[!UICONTROL Copy]** button in the component's properties pane or in the blue ribbon at the bottom of the screen if you have selected multiple components.
-
-    |Copy a single component|Copy multiple components|
-    |  ---  |  ---  |
-    |![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
-
-1. To paste the component(s), click the + button at the end of the desired transition and select **Paste n items**.
-
-    ![Example of pasting the components](assets/copy-paste.png){zoomable="yes"}
-
-## Combine filtering components with operators {#operators}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="Group"
->abstract="In this pane, you can change the operator used to link filtering conditions together."
-
-Each time you add a new filtering component to your query, it is automatically linked to the other component by an **AND** operator. This means that results from the two filtering components are combined.
-
-In this example, we have added a new audience-type filtering components on the second transition. The component is linked to the predefined filter condition with an **AND** operator, meaning that the query results include recipients targeted by the "Newsletter Subscribers - MADRID" predefined filter AND belonging to the "Purchasers (All time)" audience.
-
->[!BEGINTABS]
-
->[!TAB Classic rule builder]
-
-![Example of a query](assets/query-operator.png){zoomable="yes"}
-
-To change the operator used to link filtering conditions together, click on it and select the desired operator in the **Group** pane that opens on the right hand side.
-
-Available operators are:
-
-* **AND (Intersection)**: Combines results matching all the filtering components in the outbound transitions. 
-* **OR (Union)**: Includes results matching at least one of the filtering components in the outbound transitions.
-* **EXCEPT (Exclusion)**: Excludes results matching all the filtering componentns in the outbound transition. 
-
-![Example of a query](assets/query-operator-change.png){zoomable="yes"}
-
-In addition, you can create intermediate groups of components by grouping components into a same group and linking them together. That way, the AND operator will be put by default, you can then change it to the desired operator.
-
->[!TAB New rule builder]
-
-![Example of a query](assets/ruleb-9.png){zoomable="yes"}
-
-To change the operator used to link filtering conditions together, click on it, it will change to OR, EXCEPT and then back to AND, and select the desired operator.
-
-Available operators are:
-
-* **AND (Intersection)**: Combines results matching all the filtering components in the outbound transitions. 
-* **OR (Union)**: Includes results matching at least one of the filtering components in the outbound transitions.
-* **EXCEPT (Exclusion)**: Excludes results matching all the filtering componentns in the outbound transition.
-
-![Example of a query](assets/ruleb-10.gif){zoomable="yes"}
-
->[!ENDTABS]
-
-In the example below, we have created an intermediate group to include results from either the "VIP to reward" or "Super VIP" audiences.
-
->[!BEGINTABS]
-
->[!TAB Classic rule builder]
-
-![Example of a query](assets/query-intermediate-group.png){zoomable="yes"}
-
->[!TAB New rule builder]
-
-![Example of a query in the new rule builder](assets/ruleb-11.png){zoomable="yes"}
-
->[!ENDTABS]
-
-## Check and validate your query
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_ruleproperties"
->title="Rule properties"
->abstract="Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side.<br/>This pane allows you to display the resulting data, to retrieve an SQL code version of the query, and check the number of targeted records.<br/>Use the **Select or save filter** button to save your query as a predefined filter, or replace the canvas content with an existing filter."
-
-Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side  This pane displays when building a query to create an audience. Available operations are:
-
-* **View results:** Displays the data resulting from your query.
-* **Code view**: Displays a code-based version of the query in SQL.
-* **Calculate**: Updates and displays the number of records targeted by your query.
-* **Select or save filter**: Choose an existing predefined filter to use in the canvas, or save your query as a predefined filter for future reuse. [Learn how to work with predefined filters](../get-started/predefined-filters.md)
-
-    >[!IMPORTANT]
-    >
-    >Select a predefined filter from the Rule properties pane replaces the query that has been built in the canvas with the selected filter.
-
-When your query is ready, click the **[!UICONTROL Confirm]** button in the upper-right corner to save it.
-
-
->[!BEGINTABS]
-
->[!TAB Classic rule builder]
-
-You can modify your query at any time by opening it. Keep in mind that upon opening an existing query, it displays in a simplified view without the visiblity of  **+** buttons. To add new elements to the query, select a component or operator on the canvas to display the **+** buttons.
-
-![Example of a query](assets/edit-audience.png){zoomable="yes"}
-
->[!TAB New Rule builder]
-
-You can modify your query at any time by opening it, to do that, click on the **[!UICONTROL Add condition]** button on the top-left corner.
-
-![Example of a query in the new rule builder](assets/ruleb-11.png){zoomable="yes"}
-
->[!ENDTABS]
--->
+Quando a regra estiver pronta, clique no botão **[!UICONTROL Confirmar]** no para salvá-la.
