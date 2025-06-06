@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 7845b9823ca86014e74ce2a48483b645f672850a
+source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 8%
 
 ---
@@ -70,7 +70,7 @@ Durante a simulação, a jornada é executada com as seguintes especificidades:
 * Os nós **Ação de canal** com notificações por email, SMS ou push não são executados.
 * **As ações personalizadas** estão desabilitadas durante a execução Seca e suas respostas estão definidas como nulas.
 * **Os nós de espera** são ignorados durante a execução Dry.
-Você pode substituir os tempos limite do bloco de espera e, em seguida, se tiver blocos de espera com duração maior do que a duração permitida para a jornada de simulação, essa ramificação não será executada completamente.
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * **Fontes de dados externas** são executadas por padrão.
 
 >[!NOTE]
@@ -90,7 +90,7 @@ Para cada atividade, você pode verificar:
 
 * **[!UICONTROL Informado]**: número total de indivíduos que entraram nesta atividade.
 * **[!UICONTROL Saída (atender aos critérios de saída)]**: Número total de indivíduos que saíram da jornada dessa atividade devido a um critério de saída.
-* **[!UICONTROL Saída (saída forçada)]**: Número total de pessoas que saíram.
+* **[!UICONTROL Saída (saída forçada)]**: Número total de indivíduos que saíram quando a jornada foi pausada.
 * **[!UICONTROL Erro]**: número total de indivíduos que tiveram um erro nessa atividade.
 
 

@@ -1,0 +1,92 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Pausar uma jornada
+description: Saiba como pausar/retomar uma jornada
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
+hide: true
+hidefromtoc: true
+badge: label="Disponibilidade limitada" type="Informative"
+keywords: publicar, jornada, ao vivo, validade, verificar
+source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 3%
+
+---
+
+# Pausar uma jornada {#journey-pause}
+
+Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento. Uma jornada pode ser pausada por no máximo 14 dias. Você pode escolher se a jornada será retomada no final do período de pausa ou se será interrompida completamente.
+
+
+>[!AVAILABILITY]
+>
+>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+
+
+## Principais benefícios {#journey-dry-run-benefits}
+
+As jornadas de pausa e retomada oferecem aos profissionais de marketing maior controle e flexibilidade, permitindo que as jornadas ativas sejam temporariamente suspensas sem interromper a experiência do cliente. Quando pausada, nenhuma comunicação é enviada e os perfis permanecem em um estado suspenso até que a jornada seja retomada.
+
+Esse recurso reduz o risco de enviar mensagens não intencionais durante erros ou atualizações (por exemplo: alteração no conteúdo da mensagem), oferece suporte ao gerenciamento de jornadas mais seguro e aumenta a confiança do profissional. A visibilidade das jornadas pausadas e seu status diretamente na interface melhora ainda mais a transparência e a agilidade operacional.
+
+>[!CAUTION]
+>
+>As permissões para pausar e retomar jornadas estão restritas a usuários com a permissão de alto nível **[!DNL Publish journeys]**. Saiba mais sobre como gerenciar os direitos de acesso de [!DNL Journey Optimizer] usuários em [esta seção](../administration/permissions-overview.md).
+
+## Medidas de proteção e recomendações
+
+* Uma versão do jornada pode ser pausada por no máximo 14 dias.
+* As jornadas pausadas são consideradas em todas as regras de negócios, da mesma forma como se estivessem ativas.
+* Os perfis são &quot;descartados&quot; em uma jornada pausada quando atingem uma atividade de ação. Se eles permanecerem em espera durante o tempo em que uma jornada é pausada e saírem dessa espera quando ela for retomada, eles continuarão a jornada e não serão descartados.
+* Mesmo após a pausa, como os eventos continuam a ser processados, esses eventos são contados para a cota de 5ktps, após a qual a limitação aparece como unitária.
+* Os perfis que entraram na jornada, mas foram descartados durante a pausa, ainda seriam contados como perfis ativáveis.
+* Quando os perfis são mantidos em uma jornada pausada, no momento da retomada, os atributos do perfil são atualizados
+* As condições ainda são executadas em jornadas pausadas, portanto, se uma jornada tiver sido pausada devido a problemas de qualidade de dados, qualquer condição anterior a um nó de ação poderá ser avaliada com dados errados.
+* Para uma jornada de público-alvo de leitura incremental com base no público-alvo, a duração pausada é levada em consideração. Por exemplo, para uma jornada diária, se ela foi pausada no dia 2 e retomada no dia 5 do mês, a execução no dia 6 levará todos os perfis que se qualificaram do dia 1 ao dia 6. Esse não é o caso para qualificação de público-alvo ou jornadas baseadas em eventos (se uma qualificação de público-alvo ou um evento for recebido durante uma pausa, esses eventos serão descartados).
+* As jornadas pausadas são contadas em relação à cota de jornada ativa.
+* O tempo limite global de Jornada ainda se aplica a jornadas pausadas. Por exemplo, se um perfil esteve em uma jornada por 90 dias e a jornada estiver pausada, esse perfil ainda sairá da jornada no 91º dia.
+* Um novo status de jornada **Retomando** estará disponível quando uma jornada for retomada. Ele começa a ouvir os eventos do jornada novamente quando você clica em **Retomar**.  Há alguns atrasos para que os perfis na jornada sejam retomados. Quando a jornada vai de **Retomando** para **Ao vivo**, significa que todos os perfis foram retomados. **Retomar** pode levar algum tempo.
+* Se os perfis forem mantidos em uma jornada jornada e ela for retomada automaticamente após XX dias, os perfis continuarão a jornada e não serão descartados. Se desejar soltá-los, retome a jornada manualmente.
+  <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+
+## Como pausar uma jornada {#journey-pause-steps}
+
+Você pode pausar qualquer jornada ativa.
+
+Para pausar a jornada, siga estas etapas:
+
+1. Abra a jornada que deseja pausar.
+1. Clique no botão **...Mais** na seção superior direita da tela de jornada e selecione **Pausar**.
+
+   ![Pausar o botão de jornada](assets/pause-journey-button.png)
+
+1. Selecione como gerenciar os perfis que estão atualmente na jornada.
+
+   ![Opções de pausa da jornada](assets/pause-confirm.png){width="50%" align="left"}
+
+   É possível:
+
+   * Manter perfis
+   * Descartar perfis
+
+1. Clique no botão **Pausar** para confirmar.
+
+Uma jornada pode ser pausada por no máximo 14 dias.
+
+## Como retomar uma jornada pausada {#journey-resume-steps}
+
+As jornadas pausadas podem ser retomadas manualmente a qualquer momento.
+
+Para retomar uma jornada, siga estas etapas:
+
+1. Abra a jornada que deseja retomar.
+1. Clique no botão **...Mais** na seção superior direita da tela de jornada e selecione **Retomar**.
+
+
+
+
