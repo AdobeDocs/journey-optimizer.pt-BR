@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: f387eecbb7fd98adaa9911f5da7bed76d746cd7b
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 38%
+source-wordcount: '564'
+ht-degree: 31%
 
 ---
 
@@ -33,31 +33,11 @@ ht-degree: 38%
 
 <br/>
 
-A atividade **Enriquecimento** é uma atividade de **Direcionamento**. Ela permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em um fluxo de trabalho após atividades de segmentação.
+A atividade **[!UICONTROL Enrichment]** é uma atividade **[!UICONTROL Targeting]** que permite aprimorar os dados do público-alvo com atributos adicionais.
 
-Os dados de Enriquecimento podem vir:
-
-* **Da mesma tabela de trabalho** que a direcionada para a sua campanha orquestrada:
-
-  *Direcione um grupo de clientes e adicione o campo &quot;Data de nascimento&quot; à tabela de trabalho atual*.
-
-* **De outra tabela de trabalho**:
-
-  *Direcione um grupo de clientes e adicione os campos &quot;Quantidade&quot; e &quot;Tipo de produto&quot; da tabela &quot;Compra&quot;*.
-
-Após adicionar os dados de enriquecimento à campanha orquestrada, eles poderão ser usados nas atividades adicionadas após a atividade de **Enriquecimento** para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas com maior probabilidade de repercutir no público-alvo.
-
-Por exemplo, você pode adicionar à tabela de trabalho da campanha orquestrada informações relacionadas às compras dos clientes e usar esses dados para personalizar emails com a compra mais recente ou o valor gasto nessas compras.
+Você pode aproveitar essas informações para segmentar seu público com mais precisão, com base em comportamentos, preferências ou necessidades, e para criar mensagens personalizadas que se conectem melhor a cada perfil.
 
 ## Adicionar uma atividade Enrichment {#enrichment-configuration}
-
-Siga estas etapas para configurar a atividade **Enriquecimento**:
-
-1. Adicione atividades como **Criar público-alvo** e **Combinar**.
-1. Adicione uma atividade **Enriquecimento**
-1. Se várias transições tiverem sido configuradas na sua campanha orquestrada, você poderá usar o campo **[!UICONTROL Conjunto principal]** para definir qual transição deve ser usada como conjunto principal para enriquecer com dados.
-
-## Adicionar dados de enriquecimento {#enrichment-add}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
@@ -69,215 +49,239 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 >title="Atividade enriquecimento"
 >abstract="Após adicionar os dados de enriquecimento à campanha orquestrada, é possível utilizá-los nas atividades adicionadas após a atividade de enriquecimento para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham uma maior probabilidade de impacto no seu público-alvo."
 
+Siga estas etapas para configurar a atividade **Enriquecimento**:
+
+1. Adicione uma atividade **Enriquecimento**
+
 1. Clique em **Adicionar dados de enriquecimento** e selecione o atributo a ser usado para enriquecer os dados.
 
    Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da target dimension ou um link de coleção. Cada um desses tipos é detalhado nos exemplos abaixo:
+
    * [Atributo único de enriquecimento](#single-attribute)
-   * [Link da coleção](#collection-link)
+   * [Link de coleção](#collection-link)
 
-   >[!NOTE]
-   >
-   >O **botão Editar expressão** na tela de seleção de atributo permite criar expressões avançadas para selecionar o atributo.
-
-   ![](../assets/workflow-enrichment1.png)
-
-## Criar links entre tabelas {#create-links}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_enrichment_simplejoin"
->title="Definição de link"
->abstract="Crie um link entre os dados da tabela de trabalho e o Adobe Journey Optimizer. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, é preciso criar um link para a tabela do país para atualizar essas informações em seus perfis."
-
-A seção **[!UICONTROL Definição de link]** permite criar um link entre os dados da tabela de trabalho e o Adobe Journey Optimizer. Por exemplo, ao carregar dados de um arquivo que contenha o número da conta, o país e o email dos destinatários, é preciso criar um link para a tabela do país para atualizar essas informações em seus perfis.
-
-Há vários tipos de links disponíveis:
-
-* Link simples de cardinalidade **[!UICONTROL 1]**: cada registro do conjunto principal pode ser associado a um e a somente um registro dos dados vinculados.
-* Link simples de cardinalidade **[!UICONTROL 0 ou 1]**: cada registro do conjunto principal pode ser associado a 0 ou 1 registro dos dados vinculados, mas não a mais de um.
-* **[!UICONTROL N link de coleção de cardinalidade]**: cada registro do conjunto principal pode ser associado a 0, 1 ou mais registros (N) dos dados vinculados.
-
-Para criar um link, siga estas etapas:
-
-1. Na seção **[!UICONTROL Definição de link]**, clique no botão **[!UICONTROL Adicionar link]**.
-
-   ![](../assets/workflow-enrichment-link.png)
-
-1. Na lista suspensa **Tipo de relação**, escolha o tipo de link que deseja criar.
-
-1. Identifique o target ao qual deseja vincular o conjunto principal:
-
-   * Para vincular uma tabela existente no banco de dados, escolha **[!UICONTROL Esquema de banco de dados]** e selecione a tabela desejada no campo **[!UICONTROL Esquema de destino]**.
-   * Para vincular com dados da transição de entrada, escolha **Esquema temporário** e selecione a transição cujos dados você deseja usar.
-
-1. Defina os critérios de reconciliação para corresponder os dados do conjunto principal com o esquema vinculado. Há dois tipos de associações disponíveis:
-
-   * **Junção simples**: selecione um atributo específico para corresponder aos dados dos dois esquemas. Clique em **Adicionar junção** e selecione os atributos **Source** e **Destino** para usar como critérios de reconciliação.
-   * **Junção avançada**: crie uma junção usando condições avançadas. Clique em **Adicionar junção** e clique no botão **Criar condição** para abrir o modelador de consulta.
-
-Um exemplo de fluxo de trabalho usando links está disponível na seção [Exemplos](#link-example).
-
-## Reconciliação de dados {#reconciliation}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_enrichment_reconciliation"
->title="Reconciliação"
->abstract="A Atividade **enriquecimento** pode ser usada para reconciliar dados do esquema do Journey Optimizer com dados de outro esquema ou com dados provenientes de um esquema temporário, como os enviados por meio de uma Atividade carregar arquivo. Este tipo de link define uma reconciliação em direção a um registro exclusivo. O Journey Optimizer cria um link para uma tabela de destino adicionando uma chave estrangeira para armazenar uma referência ao registro exclusivo."
-
-A atividade **Enriquecimento** pode ser usada para reconciliar dados do esquema de banco de dados do Campaign com dados de outro esquema ou com dados provenientes de um esquema temporário, como os carregados por meio de uma atividade Carregar arquivo. Este tipo de link define uma reconciliação em direção a um registro exclusivo. O Journey Optimizer cria um link para uma tabela de destino adicionando uma chave estrangeira para armazenar uma referência ao registro exclusivo.
-
-Por exemplo, é possível usar essa opção para reconciliar o país de um perfil, que é especificado em um arquivo carregado, com um dos países disponíveis na tabela dedicada do banco de dados do Campaign.
-
-Siga as etapas para configurar uma atividade **Enriquecimento** com um link de reconciliação:
-
-1. Clique no botão **Adicionar link** na seção **Reconciliação**.
-1. Identifique os dados com os quais deseja criar um link de reconciliação.
-
-   * Para criar um link de reconciliação com dados do banco de dados do Campaign, selecione **Esquema de banco de dados** e escolha o esquema onde o destino está armazenado.
-   * Para criar um link de reconciliação com dados provenientes da transição de entrada, selecione **Esquema temporário** e escolha a transição de campanha orquestrada onde os dados de destino são armazenados.
-
-1. Os campos **Rótulo** e **Nome** são preenchidos automaticamente com base no esquema de destino selecionado. Você pode alterar os valores deles, se necessário.
-
-1. Na seção **Critérios de reconciliação**, especifique como deseja reconciliar dados das tabelas de origem e de destino:
-
-   * **Junção simples**: reconcilie um campo específico da tabela de origem com outro campo na tabela de destino. Para fazer isso, clique no botão **Adicionar junção** e especifique os campos **Source** e **Destino** a serem usados para a reconciliação.
-
-     >[!NOTE]
-     >
-     >Você pode usar um ou mais critérios de **associação simples**, caso em que todos eles devem ser verificados para que os dados possam ser vinculados.
-
-   * **Junção avançada**: use o modelador de consultas para configurar os critérios de reconciliação. Para fazer isso, clique no botão **Criar condição** e defina seus critérios de reconciliação criando sua própria regra usando as operações AND e OR.
-
-O exemplo abaixo mostra uma campanha orquestrada configurada para criar um link entre a tabela de perfis do Journey Optimizer e uma tabela temporária gerada por uma atividade **Carregar arquivo**. Neste exemplo, a atividade **Enrichment** reconcilia ambas as tabelas usando o endereço de email como critério de reconciliação.
-
-![](../assets/enrichment-reconciliation.png)
-
-## Adicionar ofertas {#add-offers}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_enrichment_offer_proposition"
->title="Apresentação da oferta"
->abstract="A atividade Enriquecimento permite adicionar ofertas para cada perfil."
-
-A atividade **[!UICONTROL Enrichment]** permite adicionar ofertas para cada perfil.
-
-Para fazer isso, siga as etapas para configurar uma atividade de **[!UICONTROL Enriquecimento]** com uma oferta:
-
-1. Na atividade **[!UICONTROL Enriquecimento]**, na seção **[!UICONTROL Apresentação da oferta]**, clique no botão **[!UICONTROL Adicionar oferta]**
-
-   ![](../assets/enrichment-addoffer.png)
-
-1. Você tem duas opções para a seleção da oferta:
-
-   * **[!UICONTROL Procure a melhor oferta na categoria]**: marque esta opção e especifique os parâmetros de chamada do mecanismo de oferta (espaço de oferta, categoria ou tema(s), data de contato, número de ofertas a serem mantidas). O mecanismo calculará as melhores ofertas para adicionar de acordo com esses parâmetros. Recomendamos completar o campo Category ou o campo Theme, em vez de ambos ao mesmo tempo.
-
-     ![](../assets/enrichment-bestoffer.png)
-
-   * **[!UICONTROL A predefined offer]**: marque esta opção e especifique um espaço de ofertas, uma oferta específica e uma data de contato para configurar diretamente a oferta que deseja adicionar, sem chamar o mecanismo de oferta.
-
-     ![](../assets/enrichment-predefinedoffer.png)
-
-1. Depois de selecionar sua oferta, clique no botão **[!UICONTROL Confirmar]**.
-
-Agora você pode usar a oferta na atividade de delivery.
-
-### Uso das ofertas da atividade Enrichment
-
-Em uma campanha orquestrada, se quiser usar as ofertas obtidas de uma atividade de enriquecimento no seu delivery, siga as etapas abaixo:
-
-1. Abra a atividade de delivery e acesse a edição de conteúdo. Clique no botão **[!UICONTROL Configurações de ofertas]** e selecione na lista suspensa o **[!UICONTROL Espaço de ofertas]** correspondente à sua oferta.
-Se quiser exibir somente as ofertas da atividade de enriquecimento, defina o número de **[!UICONTROL Propositions]** como 0 e salve as modificações.
-
-   ![](../assets/offers-settings.png)
-
-1. No designer de email, ao adicionar uma personalização com ofertas, clique no ícone **[!UICONTROL Propositions]** para exibir a(s) oferta(s) obtida(s) da atividade **[!UICONTROL Enrichment]**. Abra a oferta que deseja escolher clicando nela.
-
-   ![](../assets/offers-propositions.png)
-
-   Acesse **[!UICONTROL Funções de renderização]** e escolha **[!UICONTROL Renderização do HTML]** ou **[!UICONTROL Renderização do texto]** de acordo com suas necessidades.
-
-   ![](../assets/offers-rendering.png)
-
->[!NOTE]
->
->Se você optar por ter mais de uma oferta na atividade **[!UICONTROL Enriquecimento]** na opção **[!UICONTROL Número de ofertas a serem mantidas]**, todas as ofertas serão exibidas ao clicar no ícone **[!UICONTROL Propositions]**.
+   ![](../assets/enrichment-1.png)
 
 ## Exemplos {#example}
 
 ### Atributo único de enriquecimento {#single-attribute}
 
-Nesse caso, estamos apenas adicionando um atributo único de enriquecimento, por exemplo, a data de nascimento. Siga estas etapas:
+Neste exemplo, você enriquece o público-alvo com um único atributo, como a data de nascimento, do targeting dimension atual.
 
-1. Clique no campo **Atributo**.
-1. Selecione um campo simples da dimensão de direcionamento (data de nascimento, em nosso exemplo).
-1. Clique em **Confirmar**.
+Para fazer isso:
 
-![](../assets/workflow-enrichment2.png)
+1. Clique em **[!UICONTROL Adicionar dados de enriquecimento]**.
+
+1. Selecione um campo simples, como **[!UICONTROL Data de nascimento]**, da dimensão atual.
+
+   ![](../assets/enrichment-2.png)
+
+1. Clique em **[!UICONTROL Confirmar]**.
 
 ### Link de coleção {#collection-link}
 
-Neste caso de uso mais complexo, selecionaremos um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas. Vamos recuperar as três compras mais recentes que custam menos de US$ 100. Para isso, é necessário definir:
+Esse caso de uso enriquece seu público com dados de uma tabela vinculada. Por exemplo, você deseja recuperar as três compras mais recentes abaixo de US$ 100.
 
-* um atributo de enriquecimento: o campo **Price**
-* o número de linhas a serem recuperadas: 3
-* um filtro: filtrar itens que custam mais de US$ 100
-* uma classificação: classificação decrescente no campo **Data do pedido**.
+Para isso, configure o enriquecimento da seguinte maneira:
+
+* **Atributo de enriquecimento**: **[!UICONTROL Preço]**
+
+* **Número de registros a serem recuperados**: 3
+
+* **Filtro**: incluir apenas compras cujo **[!UICONTROL Preço]** seja inferior a $100
 
 #### Adicionar o atributo {#add-attribute}
 
-É aqui que você seleciona o link de coleção para usar como dados de enriquecimento.
+Primeiro, selecione o link de coleção que contém os dados que você deseja enriquecer.
 
-1. Clique no campo **Atributo**.
-1. Clique em **Exibir atributos avançados**.
-1. Selecione o campo **Preço** da tabela **Compras**.
+1. Clique em **[!UICONTROL Adicionar dados de enriquecimento]**.
 
-<!-- ![](../assets/workflow-enrichment3.png) -->
+1. Na tabela **[!UICONTROL Compras]**, selecione o campo **[!UICONTROL Preço]**.
+
+   ![](../assets/enrichment-2.png)
 
 #### Definir as configurações de coleção{#collection-settings}
 
-Em seguida, defina como os dados são coletados e o número de registros a serem recuperados.
+Em seguida, configure como os dados devem ser coletados e quantas entradas devem ser incluídas.
 
-1. Selecione **Coletar dados** no menu suspenso **Selecione como os dados são coletados**.
-1. Digite &quot;3&quot; no campo **Linhas a serem recuperadas (Colunas a serem criadas)**.
+1. Na lista suspensa **[!UICONTROL Selecionar como os dados serão coletados]**, escolha **[!UICONTROL Coletar dados]**.
 
-![](../assets/workflow-enrichment4bis.png)
+   ![](../assets/enrichment-4.png)
 
-Se quiser, por exemplo, obter o valor médio das compras de um cliente, selecione **Dados agregados** em vez disso, e depois selecione **Média** no menu suspenso **Função de agregação**.
+1. No campo **[!UICONTROL Linhas a recuperar (Colunas a serem criadas)]**, digite `3`.
 
-Use os campos **Rótulo** e **Alias** do seu atributo para torná-lo mais compreensível, como mostrado abaixo.
+1. Para executar uma agregação (por exemplo, valor médio de compra), selecione **[!UICONTROL Dados agregados]** e escolha **[!UICONTROL Média]** na lista suspensa **[!UICONTROL Função de agregação]**.
 
-![](../assets/workflow-enrichment5bis.png)
+   ![](../assets/enrichment-5.png)
+
+1. Use os campos **[!UICONTROL Rótulo]** e **[!UICONTROL Alias]** para facilitar a identificação dos atributos enriquecidos em atividades subsequentes.
 
 #### Definir os filtros{#collection-filters}
 
-Aqui, definimos o valor máximo do atributo de enriquecimento. Filtramos itens que custam mais de US$ 100.
-1. Clique em **Criar filtros**.
-1. Adicione os dois filtros a seguir: **Preço** existe E **Preço** é menor que 100. O primeiro filtra os valores NULL, pois seriam exibidos como o maior valor.
-1. Clique em **Confirmar**.
+Por fim, aplique filtros para garantir que apenas os registros relevantes sejam incluídos:
 
-![](../assets/workflow-enrichment6bis.png)
+1. Clique em **[!UICONTROL Criar filtros]**.
 
-#### Definir a classificação{#collection-sorting}
+1. Adicione estas duas condições:
 
-Agora precisamos aplicar a classificação para recuperar as três compras **mais recentes**.
+   * **[!UICONTROL Preço]** existe (para excluir NULLs)
 
-1. Ative a opção **Habilitar classificação**.
-1. Clique no campo **Atributo**.
-1. Selecione o campo **Data do pedido**.
-1. Clique em **Confirmar**.
-1. Selecione **Decrescente** no menu suspenso **Classificar**.
+   * **[!UICONTROL Preço]** é menor que 100
+
+   ![](../assets/enrichment-6.png)
+
+1. Clique em **[!UICONTROL Confirmar]**.
+
+
+<!--
+#### Define the sorting{#collection-sorting}
+
+We now need to apply sorting in order to retrieve the three **latest** purchases.
+
+1. Activate the **Enable sorting** option.
+1. Click inside the **Attribute** field.
+1. Select the **Order date** field.
+1. Click **Confirm**. 
+1. Select **Descending** from the **Sort** drop-down.
 
 ![](../assets/workflow-enrichment7bis.png)
 
-### Enriquecimento com dados vinculados {#link-example}
 
-O exemplo abaixo mostra uma campanha orquestrada configurada para criar um link entre duas transições. A primeira transição é direcionada aos dados do perfil usando uma atividade **Query**, enquanto a segunda transição inclui dados de compra armazenados em um arquivo carregado por meio de uma atividade Load file.
+## Data reconciliation {#reconciliation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_enrichment_reconciliation"
+>title="Reconciliation"
+>abstract="The **Enrichment** activity can be used to reconcile data from the Journey Optimizer schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. This type of link defines a reconciliation towards a unique record. Journey Optimizer creates a link to a target table by adding a foreign key in it for storing a reference to the unique record."
+
+The **Enrichment** activity can be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. This type of link defines a reconciliation towards a unique record. Journey Optimizer creates a link to a target table by adding a foreign key in it for storing a reference to the unique record.
+
+For example, you can use this option to reconcile a profile's country, specified in an uploaded file, with one of the countries available in the dedicated table of the Campaign database. 
+
+Follow the steps to configure an **Enrichment** activity with a reconciliation link: 
+
+1. Click the **Add link** button in the **Reconciliation** section.
+1. Identify the data you want to create a reconciliation link with.
+
+    * To create a reconciliation link with data from the Campaign database, select **Database schema** and choose the schema where the target is stored. 
+    * To create a reconciliation link with data coming from the input transition, select **Temporary schema** and choose the orchestrated campaign transition where the target data is stored. 
+
+1. The **Label** and **Name** fields are automatically populated based on the selected target schema. You can change their values if necessary.
+
+1. In the **Reconciliation criteria** section, specify how you want to reconcile data from the source and destination tables:
+
+    * **Simple join**: Reconcile a specific field from the source table with another field in the destination table. To do this, click the **Add join** button and specify the **Source** and **Destination** fields to use for the reconciliation.
+
+        >[!NOTE]
+        >
+        >You can use one or more **Simple join** criteria, in which case they must all be verified so that the data can be linked together.
+
+    * **Advanced join**: Use the query modeler to configure the reconciliation criteria. To do this, click the **Create condition** button then define your reconciliation criteria by building your own rule using AND and OR operations.
+
+The example below shows an orchestrated campaign configured to create a link between Journey Optimizer profiles table and a temporary table generated a **Load file** activity. In this example, the **Enrichment** activity reconciliates both tables using the email address as reconciliation criteria.
+
+![](../assets/enrichment-reconciliation.png)
+
+### Enrichment with linked data {#link-example}
+
+The example below shows an orchestrated campaign configured to create a link between two transitions. The first transitions targets profile data using a **Query** activity, while the second transition includes purchase data stored into a file loaded through a Load file activity.
 
 ![](../assets/enrichment-uc-link.png)
 
-* A primeira atividade **Enrichment** vincula o conjunto principal (dados da atividade **Query**) ao esquema da atividade **Load file**. Isso nos permite corresponder cada perfil direcionado pelo query com os dados de compra correspondentes.
+* The first **Enrichment** activity links the primary set (data from the **Query** activity) with the schema from the **Load file** activity. This allows us to match each profile targeted by the query with the corresponding purchase data.
 
-  ![](../assets/enrichment-uc-link-purchases.png)
+    ![](../assets/enrichment-uc-link-purchases.png)
 
-* Uma segunda atividade **Enrichment** é adicionada para enriquecer dados da tabela de campanha orquestrada com os dados de compra provenientes da atividade **Load file**. Isso nos permite usar esses dados em outras atividades do, por exemplo, para personalizar mensagens enviadas aos clientes com informações sobre suas compras.
+* A second **Enrichment** activity is added in order to enrich data from the orchestrated campaign table with the purchase data coming from the **Load file** activity. This allows us to use those data in further activities, for example, to personalize messages sent to the customers with information on their purchase.
 
-  ![](../assets/enrichment-uc-link-data.png)
+    ![](../assets/enrichment-uc-link-data.png)
+
+
+## Create links between tables {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_enrichment_simplejoin"
+>title="Link definition"
+>abstract="Create a link between the working table data and Adobe Journey Optimizer. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles."
+
+The **[!UICONTROL Link definition]** section allows you to create a link between the working table data and Adobe Journey Optimizer. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles.
+
+There are several types of links available:
+
+* **[!UICONTROL 1 cardinality simple link]**: Each record from the primary set can be associated with one and only one record from the linked data.
+* **[!UICONTROL 0 or 1 cardinality simple link]**: Each record from the primary set can be associated with 0 or 1 record from the linked data, but not more than one.
+* **[!UICONTROL N cardinality collection link]**: Each record from the primary set can be associated with 0, 1 or more (N) records from the linked data.
+
+To create a link, follow these steps:
+
+1. In the **[!UICONTROL Link definition]** section, click the **[!UICONTROL Add link]** button.
+
+    ![](../assets/workflow-enrichment-link.png)
+
+1. In the **Relation type** drop-down list, choose the type of link you want to create.
+
+1. Identify the target you want to link the primary set to:
+
+    * To link an existing table in the database, choose **[!UICONTROL Database schema]** and select the desired table from the **[!UICONTROL Target schema]** field.
+    * To link with data from the input transition, choose **Temporary schema** and select the transition whose data you want to use.
+
+1. Define the reconciliation criteria to match data from the primary set with the linked schema. There are two types of joins available:
+
+    * **Simple join**: Select a specific attribute to match data from the two schemas. Click **Add join** and select the **Source** and **Destination** attributes to use as reconciliation criteria. 
+    * **Advanced join**: Create a join using advanced conditions. Click **Add join** and click the **Create condition** button to open the query modeler.
+
+A workflow example using links is available in the [Examples](#link-example) section.
+
+## Add offers {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_enrichment_offer_proposition"
+>title="Offer proposition"
+>abstract="The Enrichment activity allows you to add offers for each profile."
+
+The **[!UICONTROL Enrichment]** activity allows you to add offers for each profile.
+
+To do so, follow the steps to configure an **[!UICONTROL Enrichment]** activity with an offer: 
+
+1. In the **[!UICONTROL Enrichment]** activity, at the **[!UICONTROL Offer proposition]** section, click on the **[!UICONTROL Add offer]** button
+
+    ![](../assets/enrichment-addoffer.png)
+
+1. You have two choices for the offer selection :
+
+    * **[!UICONTROL Search for the best offer in category]** : check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will calculate the best offer(s) to add according to these parameters. We recommend completing either the Category or the Theme field, rather than both at the same time.
+
+        ![](../assets/enrichment-bestoffer.png)
+
+    * **[!UICONTROL A predefined offer]** : check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the offer engine.
+
+        ![](../assets/enrichment-predefinedoffer.png)
+
+1. After selecting your offer, click on **[!UICONTROL Confirm]** button.
+
+You can now use the offer in the delivery activity.
+
+
+
+### Using the offers from Enrichment activity
+
+Within an orchestrated campaign, if you want to use the offers you get from an enrichment activity in your delivery, follow the steps below:
+
+1. Open the delivery activity and go in the content edition. Click on **[!UICONTROL Offers settings]** button and select in the drop-down list the **[!UICONTROL Offers space]** corresponding to your offer. 
+If you want to to view only offers from the enrichment activity, set the number of **[!UICONTROL Propositions]** to 0, and save the modifications.
+
+    ![](../assets/offers-settings.png) 
+
+1. In the email designer, when adding a personalization with offers, click on the **[!UICONTROL Propositions]** icon, it will display the offer(s) you get from the **[!UICONTROL Enrichment]** activity. Open the offer you want to choose by clicking on it.
+
+    ![](../assets/offers-propositions.png) 
+
+    Go in **[!UICONTROL Rendering functions]** and choose **[!UICONTROL HTML rendering]** or **[!UICONTROL Text rendering]** according to your needs.
+
+    ![](../assets/offers-rendering.png) 
+
+>[!NOTE]
+>
+>If you choose to have more than one offer in the **[!UICONTROL Enrichment]** activity at the **[!UICONTROL Number of offers to keep]** option, all the offers are displayed when clicking on the **[!UICONTROL Propositions]** icon.
+
+-->
