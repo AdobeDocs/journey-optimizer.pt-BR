@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 72bceb03a3e94b0f3c13dddb22c8d3b4de0fcb44
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '303'
 ht-degree: 4%
 
 ---
@@ -45,17 +45,7 @@ O construtor de regras fornece uma tela central onde você cria sua consulta e u
 
 ![Imagem mostrando a interface do construtor de regras](assets/rule-builder-interface.png)
 
-* A **tela central** é onde você adiciona e combina os diferentes componentes para criar sua regra. Uma barra de ferramentas fornece opções para manipular facilmente os componentes da regra:
-
-  | Ícone da barra de ferramentas | Descrição |
-  |--- |--- |
-  | ![Ícone Mover seleção para cima](assets/do-not-localize/rule-builder-icon-up.svg) | Mova o componente uma linha para cima. |
-  | ![Ícone Mover seleção para baixo](assets/do-not-localize/rule-builder-icon-down.svg) | Mova o componente uma linha para baixo. |
-  | ![Ícone de seleção de grupo](assets/do-not-localize/rule-builder-icon-group.svg) | Coloque dois componentes em um grupo. |
-  | ![Ícone Desagrupar seleção](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Separe os componentes de um único grupo. |
-  | ![Ícone Expandir tudo](assets/do-not-localize/rule-builder-icon-expand.svg) | Expanda todos os grupos. |
-  | ![Recolher todo o ícone](assets/do-not-localize/rule-builder-icon-collapse.svg) | Recolher todos os grupos. |
-  | ![Ícone Remover tudo](assets/do-not-localize/rule-builder-icon-delete.svg) | Remova todos os grupos e componentes. |
+* A **tela central** é onde você adiciona e combina os diferentes componentes para criar sua regra. [Saiba como criar uma regra](../orchestrated/build-query.md)
 
 * O painel **[!UICONTROL Propriedades da regra]** fornece informações sobre a regra. Ele permite executar várias operações para verificar a regra e garantir que ela atenda às suas necessidades.
 
