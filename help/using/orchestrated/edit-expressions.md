@@ -28,7 +28,7 @@ ht-degree: 43%
 
 <br/>
 
-# Editar expressões {#expression}
+&#x200B;# Editar expressões {#expression}
 
 A edição de uma expressão envolve a inserção manual de condições para formar uma regra. Esse modo permite usar funções avançadas, que permitem manipular os valores usados para realizar consultas específicas, como manipular datas, sequências de caracteres, campos numéricos e classificação.
 
