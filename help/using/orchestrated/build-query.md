@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: d2d9847347a41579e5f66d331b6769efa0ef5b21
+source-git-commit: d015c386e4f2b1a15bf97ab444a368ee39ae5ea9
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 8%
@@ -50,7 +50,7 @@ Para adicionar condições em sua query, siga estas etapas:
 
    >[!NOTE]
    >
-   >O botão **Editar expressão** permite usar o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. [Saiba como editar expressões](expression-editor.md)
+   >O botão **Editar expressão** permite usar o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. [Saiba como editar expressões](../orchestrated/edit-expressions.md)
 
 1. Clique na ![imagem que mostra o botão Mais ações](assets/do-not-localize/rule-builder-icon-more.svg) ao lado de um atributo para acessar estas opções adicionais:
 
@@ -105,9 +105,9 @@ Para adicionar condições em sua query, siga estas etapas:
    | Curtir | Semelhante ao operador Contains, permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) como &#39;Jon%s&#39;. O caractere curinga atua como um &quot;joker&quot; para encontrar nomes como &quot;Jones&quot;. |
    | Not like | Semelhante ao operador Contains, permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) diferente de &#39;Smi%h&#39;. Os destinatários que têm &#39;Smith&#39; como sobrenome não serão retornados. |
 
-   +++
++++
 
-1. No campo **Value**, defina o valor esperado. Você também pode usar o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no ícone ![imagem mostrando o ícone do editor de expressão](assets/do-not-localize/rule-builder-icon-editor.svg). [Saiba como editar expressões](expression-editor.md)
+1. No campo **Value**, defina o valor esperado. Você também pode usar o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no ícone ![imagem mostrando o ícone do editor de expressão](assets/do-not-localize/rule-builder-icon-editor.svg). [Saiba como editar expressões](../orchestrated/edit-expressions.md)
 
    Para atributos do tipo data, os valores predefinidos estão disponíveis usando a opção **[!UICONTROL Predefinições]**.
 
@@ -115,7 +115,7 @@ Para adicionar condições em sua query, siga estas etapas:
 
    ![imagem mostrando a opção de predefinição](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
 
