@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1402'
 ht-degree: 100%
 
 ---
@@ -249,12 +249,7 @@ Para alterar o idioma:
 >title="Posicionamento"
 >abstract="Um posicionamento determina onde os itens retornados do mecanismo de decisão aparecem em uma mensagem. Você pode acompanhar o desempenho em diferentes posicionamentos nos relatórios."
 
-<!-- Journey Dry Run - DOCAC-12459-->
 
->[!CONTEXTUALHELP]
->id="ajo_journey_dry_run"
->title="Teste sua jornada"
->abstract="Depois de projetar a jornada, execute um teste para confirmar sua funcionalidade e garantir que as etapas estejam corretas. Esse modo de publicação permite realizar um teste preliminar da jornada sem enviar comunicações para qualquer perfil."
 
 
 
