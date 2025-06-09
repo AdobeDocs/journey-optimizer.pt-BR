@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
+source-git-commit: 318733edf55c7a9b067f4456bda657aecdb613cf
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 8%
@@ -113,4 +113,4 @@ Você também pode acessar os **Últimos relatórios de 24 horas** e os **Relat�
 
 As jornadas de simulação devem ser interrompidas manualmente. Clique no botão **Fechar** para finalizar o teste e confirmar.
 
-Após 14 dias, as jornadas de execução seca fazem a transição automática para o status Rascunho.
+Após 14 dias, as jornadas de Execução Seca fazem a transição automática para o status **Rascunho**.
