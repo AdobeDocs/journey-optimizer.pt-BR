@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
+source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '704'
 ht-degree: 3%
 
 ---
 
 # Pausar uma jornada {#journey-pause}
 
-Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento. Uma jornada pode ser pausada por no máximo 14 dias. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> A jornada é automaticamente retomada no final do período de pausa. Você também pode [retomá-lo manualmente](#journey-resume-steps).
+Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> A jornada é automaticamente retomada no final do período de pausa. Você também pode [retomá-lo manualmente](#journey-resume-steps).
 
 
 >[!AVAILABILITY]
@@ -74,13 +74,11 @@ Para pausar a jornada, siga estas etapas:
 
 1. Clique no botão **Pausar** para confirmar.
 
-Uma jornada pode ser pausada por no máximo 14 dias.
-
 ## Como retomar uma jornada pausada {#journey-resume-steps}
 
-As jornadas pausadas podem ser retomadas manualmente a qualquer momento.
+As jornadas pausadas são retomadas automaticamente no final do período máximo de pausa de 14 dias. Eles podem ser retomados manualmente a qualquer momento.
 
-Para encerrar a pausa da jornada e começar a ouvir os eventos de jornada novamente, siga estas etapas:
+Para retomar uma jornada pausada e começar a ouvir eventos de jornada novamente, siga estas etapas:
 
 1. Abra a jornada que deseja retomar.
 1. Clique no botão **...Mais** na seção superior direita da tela de jornada e selecione **Retomar**.
