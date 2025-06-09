@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 841c918da9c330a652dc8c6e1e4396677783a1e2
+source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '821'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 >title="Teste sua jornada"
 >abstract="Depois de projetar a jornada, execute um teste para confirmar sua funcionalidade e garantir que as etapas estejam corretas. Esse modo de publicação permite realizar um teste preliminar da jornada sem enviar comunicações para qualquer perfil."
 
-O Jornada Dry run é um modo de publicação de jornada especial no Adobe Journey Optimizer que permite que os profissionais de marketing testem uma jornada usando dados de produção reais sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de marketing a ganhar confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la ao vivo.
+O Jornada Dry run é um modo de publicação de jornada especial no Adobe Journey Optimizer que permite que os profissionais de jornada testem uma jornada usando dados de produção reais sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de jornada a ganhar confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la ao vivo.
 
 
 >[!AVAILABILITY]
@@ -35,7 +35,7 @@ O Jornada Dry run é um modo de publicação de jornada especial no Adobe Journe
 
 ## Principais benefícios {#journey-dry-run-benefits}
 
-O Jornada Dry run aumenta a confiança do profissional e o sucesso da jornada, permitindo testes seguros e orientados por dados das jornadas do cliente usando dados de produção reais — sem o risco de entrar em contato com os clientes ou alterar as informações do perfil. Esse recurso permite que os profissionais de marketing validem o alcance do público-alvo e a lógica da ramificação antes de entrar em funcionamento, garantindo que as jornadas se alinhem às metas comerciais desejadas.
+O Jornada Dry run aumenta a confiança do profissional e o sucesso da jornada, permitindo testes seguros e orientados por dados das jornadas do cliente usando dados de produção reais — sem o risco de entrar em contato com os clientes ou alterar as informações do perfil. Esse recurso permite que os profissionais de jornada validem o alcance do público-alvo e a lógica da ramificação antes de entrar em funcionamento, garantindo que as jornadas se alinhem às metas de negócios desejadas.
 
 Com o Jornada Dry run, você obtém a capacidade de identificar problemas antecipadamente, otimizar estratégias de direcionamento e melhorar o design da jornada com base em dados reais, não em suposições. Integrado diretamente à tela do jornada, o Dry run oferece relatórios intuitivos e visibilidade dos principais indicadores de desempenho, permitindo que as equipes interajam com confiança e simplifiquem os fluxos de trabalho de aprovação. Isso aumenta a eficiência operacional, reduz o risco de lançamento e impulsiona melhores resultados de engajamento do cliente.
 
@@ -45,21 +45,23 @@ A jornada Dry run traz:
 
 1. **Ambiente de teste seguro**: perfis no modo de simulação não são contatados, garantindo que não haja risco de envio de comunicações ou de impacto nos dados dinâmicos.
 1. **Insights do público-alvo**: os profissionais de Jornada podem prever a acessibilidade do público-alvo em vários nós de jornada, incluindo recusas, exclusões e outras condições.
-1. **Feedback em tempo real**: as métricas são exibidas diretamente na tela de jornada, de modo semelhante aos relatórios em tempo real, permitindo que os profissionais de marketing refinem seu design de jornada.
+1. **Feedback em tempo real**: as métricas são exibidas diretamente na tela de jornada, de modo semelhante aos relatórios em tempo real, permitindo que os profissionais de jornada refinem seu design de jornada.
 
 
 >[!CAUTION]
 >
-> As permissões para iniciar o Dry Run estão restritas a usuários com a permissão de alto nível **[!DNL Publish journeys]**. As permissões para iniciar a interrupção do Dry Run estão restritas a usuários com a permissão de alto nível **[!DNL Manage journeys]**. Saiba mais sobre como gerenciar os direitos de acesso de [!DNL Journey Optimizer] usuários em [esta seção](../administration/permissions-overview.md).
+>As permissões para iniciar o Dry Run estão restritas a usuários com a permissão de alto nível **[!DNL Publish journeys]**. As permissões para parar o Dry Run estão restritas a usuários com a permissão de alto nível **[!DNL Manage journeys]**. Saiba mais sobre como gerenciar os direitos de acesso de [!DNL Journey Optimizer] usuários em [esta seção](../administration/permissions-overview.md).
 
 
 ## Medidas de proteção e limitações {#journey-dry-run-limitations}
 
 * O modo simulação não está disponível para jornadas que contêm eventos de reação.
+* Os perfis no modo de simulação são contados em perfis acionáveis.
+* As jornadas de simulação não afetam as regras de negócios.
 * Ao criar uma nova versão do jornada, se uma versão anterior do jornada for **Live**, a ativação do Dry run não será permitida na nova versão.
 * O Jornada Dry run gera stepEvents. Estes stepEvents têm um sinalizador específico e um ID de simulação:
    * `_experience.journeyOrchestration.stepEvents.inDryRun` retorna `true` se a Execução Seca estiver ativada, caso contrário `false`
-   * `_experience.journeyOrchestration.stepEvents.dryRunID`retorna a ID de uma instância de simulação
+   * `_experience.journeyOrchestration.stepEvents.dryRunID` retorna a ID de uma instância de simulação
 * Durante a simulação, a jornada é executada com as seguintes especificidades:
 
    * Os nós **Ação de canal**, incluindo emails, SMS ou notificações por push, não são executados.
@@ -67,11 +69,6 @@ A jornada Dry run traz:
    * **Os nós de espera** são ignorados durante a execução Dry.
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
    * **As fontes de dados**, incluindo as fontes de dados externas, são executadas por padrão.
-
->[!NOTE]
->
-> * Os perfis no modo de simulação são contados em perfis acionáveis.
-> * As jornadas de simulação não afetam as regras de negócios.
 
 ## Iniciar uma simulação {#journey-dry-run-start}
 
@@ -124,6 +121,8 @@ Você também pode acessar os **Últimos relatórios de 24 horas** e os **Relat�
 
 ## Parar uma simulação {#journey-dry-run-stop}
 
-As jornadas de execução sem erros **devem** ser interrompidas manualmente. Clique no botão **Fechar** para finalizar o teste e confirmar.
+As jornadas de execução sem erros **devem** ser interrompidas manualmente.
 
-Após 14 dias, as jornadas de Execução Seca fazem a transição automática para o status **Rascunho**.
+Clique no botão **Fechar** para finalizar o teste e confirmar.
+
+<!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
