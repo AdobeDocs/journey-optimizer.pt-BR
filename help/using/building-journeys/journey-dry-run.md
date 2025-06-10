@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 7%
@@ -81,7 +81,7 @@ Para ativar o Dry run, siga estas etapas:
 
    ![Iniciar a simulação de jornada](assets/dry-run-button.png)
 
-1. Confirmar a publicação
+1. Confirme a publicação.
 
    Uma mensagem de status, **Ativando Dry run**, é exibida enquanto a transição está ocorrendo.
 
