@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 6574735581de0872e78e8e05efea5c6a50dc59b1
+source-git-commit: 935ab0399da88c792104b7dc14793b69713951fc
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1734'
 ht-degree: 21%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 21%
 
 Para criar uma campanha orquestrada, siga estas etapas:
 
-1. Para criar uma **campanha orquestrada**, navegue até o menu **Campanhas**.
+1. Navegue até o menu **Campanhas**.
 
 1. Clique no botão **[!UICONTROL Criar campanha orquestrada]**, no canto superior direito da tela.
 

@@ -7,20 +7,15 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 6574735581de0872e78e8e05efea5c6a50dc59b1
+source-git-commit: 935ab0399da88c792104b7dc14793b69713951fc
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 27%
+source-wordcount: '496'
+ht-degree: 23%
 
 ---
 
 
-# Acesse e gerencie etapas para a criação de campanhas orquestradas {#orchestrated-campaign-creation}
-
->[!CONTEXTUALHELP]
->id="ajo_targeting_workflow_list"
->title="Campanha orquestrada"
->abstract="Nesta tela, é possível acessar a lista completa de campanhas orquestradas, verificar o status atual, as datas da última/próxima execução e criar uma nova campanha orquestrada."
+# Etapas principais para a criação de campanha orquestrada {#orchestrated-campaign-creation}
 
 +++ Sumário
 
