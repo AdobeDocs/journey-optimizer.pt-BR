@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2397612142da8b7bebebcc3a99b4fedfa453b9c0
+source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 96%
+source-wordcount: '2425'
+ht-degree: 95%
 
 ---
 
@@ -182,7 +182,7 @@ ht-degree: 96%
    + [Acessar e gerenciar campanhas orquestradas](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + Iniciar sua primeira campanha orquestrada{#launch}
       + [Etapas principais para a criação de campanha orquestrada](using/orchestrated/gs-campaign-creation.md)
-      + [Criar e configurar a campanha](using/orchestrated/create-orchestrated-campaign.md)
+      + [Criar e agendar a campanha](using/orchestrated/create-orchestrated-campaign.md)
       + [Orquestrar atividades](using/orchestrated/orchestrate-activities.md)
       + [Enviar mensagens com campanhas orquestradas](using/orchestrated/send-messages.md)
       + [Iniciar e monitorar a campanha](using/orchestrated/start-monitor-campaigns.md)
@@ -709,7 +709,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Esquemas integrados >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
    + [Consultas](using/data/get-started-queries.md)
 + Configuração de canais {#configuration}
-   + [Configurar canais](using/configuration/get-started-configuration.md)
+   + [Introdução à configuração de canais](using/configuration/get-started-configuration.md)
    + [Definir configurações de canal](using/configuration/channel-surfaces.md)
    + Configuração de canal guiada {#guided-setup}
       + [Introdução à configuração de canal guiada](using/configuration/set-mobile-config.md)
