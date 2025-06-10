@@ -5,14 +5,14 @@ title: Introdução aos recursos de relatórios e monitoramento em  [!DNL Adobe 
 description: Saiba como trabalhar com  [!DNL Adobe Journey Optimizer] recursos de relatórios e monitoramento.
 role: User
 level: Beginner
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: 8c391d7437798df4f40baa65003e16a8c56228ab
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 12%
+source-wordcount: '393'
+ht-degree: 13%
 
 ---
 
-# Introdução aos recursos de relatórios e monitoramento {#get-started-report}
+# Introdução aos recursos de relatórios {#get-started-report}
 
 O Adobe Journey Optimizer oferece insights acionáveis por meio de seus recursos de relatório robustos. Os relatórios estão disponíveis para campanhas, jornadas, landing pages, listas de assinaturas e muito mais. Os relatórios disponíveis estão listados abaixo.
 
@@ -102,6 +102,7 @@ Agora que você entende os tipos de relatórios no **[!DNL Journey Optimizer]**,
 
 ## Todos os relatórios de tempo por canal
 
+### Canais de saída
 
 Selecione um canal de saída para descobrir relatórios globais associados.
 
@@ -116,6 +117,7 @@ Selecione um canal de saída para descobrir relatórios globais associados.
 <div align="center"><a href="campaign-global-report-cja-direct.md"><strong>Correspondência direta</strong></a></div></td>
 </tr></table>
 
+### Experiências de entrada
 
 Selecione uma experiência de entrada para descobrir relatórios globais associados.
 
