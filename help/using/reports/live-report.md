@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 1%
@@ -17,8 +17,7 @@ ht-degree: 1%
 
 # Introdução aos relatórios em tempo real {#live-report}
 
-Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho das suas jornadas e mensagens em um painel integrado.
-Os dados estão disponíveis no **[!UICONTROL Relatório em tempo real]** assim que a entrega é enviada ou a jornada é executada a partir da guia **[!UICONTROL Últimas 24 horas]**.
+Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho das suas jornadas e mensagens em um painel integrado. Os dados estão disponíveis no **[!UICONTROL Relatório em tempo real]** assim que a entrega é enviada ou a jornada é executada a partir da guia **[!UICONTROL Últimas 24 horas]**.
 
 * Se quiser direcionar uma jornada no contexto de uma jornada, no menu **[!UICONTROL Jornadas]**, acesse o menu **[!UICONTROL Mais ações]** da jornada e clique no botão **[!UICONTROL Exibir relatório das últimas 24 horas]**.
 
@@ -68,15 +67,15 @@ O painel foi salvo. Suas diferentes alterações serão reaplicadas para um uso 
 
 >[!BEGINTABS]
 
->[!TAB Exportar seu relatório como um arquivo PDF]
+>[!TAB Exportar seu relatório como um arquivo do PDF]
 
-1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo de PDF]**.
+1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo do PDF]**.
 
    ![](assets/export_6.png)
 
 1. Na janela Imprimir, configure o documento conforme necessário. Observe que as opções podem variar dependendo do navegador.
 
-1. Escolha imprimir ou salvar seu relatório como PDF.
+1. Opte por imprimir ou salvar seu relatório como PDF.
 
 1. Localize a pasta onde deseja salvar o arquivo, renomeie-a se necessário e clique em Salvar.
 

@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2432'
 ht-degree: 95%
 
 ---
@@ -447,7 +447,8 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Trabalhar com atributos computados](using/audience/computed-attributes.md)
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso da licença](using/audience/license-usage.md)
-+ Rastrear e monitorar {#reporting}
++ Relatórios e monitoramento {#reporting}
+   + [Introdução a relatórios e monitoramento](using/reports/gs-reports.md)
    + Relatório em tempo real {#live-report}
       + [Introdução aos relatórios em tempo real](using/reports/live-report.md)
       + [Lista de métricas](using/reports/live-report-components.md)
@@ -485,7 +486,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Relatório de visão geral](using/reports/channel-report-cja.md)
       + [Relatório de páginas de destino](using/reports/lp-report-global-cja.md)
       + [Relatório da lista de assinaturas](using/reports/subscription-report-global-cja.md)
-   + Relatórios de jornada {#reports}
+   + Relatórios de jornada personalizados {#reports}
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
       + [Lista de campos de evento de etapa](using/reports/sharing-field-list.md)
       + Campos de evento de etapa herdados {#legacy-step-event-fields}

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 100%
@@ -59,8 +59,6 @@ Crie campanhas e jornadas nesta seção.
 
 * **[!UICONTROL Jornadas]**: crie, configure e orquestre suas jornadas de cliente. Combine as atividades de eventos, orquestração e ação para construir cenários entre canais de várias etapas. [Saiba mais](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Páginas de destino]** : crie, projete, teste e publique páginas de destino. Envie aos usuários e usuárias links para formulários online, nos quais há opções para aceitar ou recusar receber suas comunicações ou assinar serviços específicos. [Saiba mais](../landing-pages/get-started-lp.md)
-
 
 ### [!UICONTROL GESTÃO DE DECISÕES] {#left-nav-decision}
 
@@ -79,6 +77,9 @@ Crie e gerencie conteúdos nesta seção.
 * **[!UICONTROL Modelos de conteúdo]**: para um processo de design acelerado e aprimorado, crie modelos independentes e reutilize facilmente conteúdo personalizado em campanhas e jornadas do Journey Optimizer. [Saiba mais](../content-management/content-templates.md)
 
 * **[!UICONTROL Fragmentos]** : crie e gerencie fragmentos para simplificar o processo de design de email. Crie previamente blocos de conteúdo personalizados que podem ser usados para criar, de forma rápida, conteúdos de email. [Saiba mais](../content-management/fragments.md)
+
+* **[!UICONTROL Páginas de destino]** : crie, projete, teste e publique páginas de destino. Envie aos usuários e usuárias links para formulários online, nos quais há opções para aceitar ou recusar receber suas comunicações ou assinar serviços específicos. [Saiba mais](../landing-pages/get-started-lp.md)
+
 
 ### [!UICONTROL GERENCIAMENTO DE DADOS] {#left-nav-data}
 
