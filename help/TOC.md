@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: 2ea588d81b685c762ffe795a569f2099bdd86e31
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2430'
 ht-degree: 95%
 
 ---
@@ -448,7 +448,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso da licença](using/audience/license-usage.md)
 + Relatórios e monitoramento {#reporting}
-   + [Introdução a relatórios e monitoramento](using/reports/gs-reports.md)
+   + [Introdução aos relatórios](using/reports/gs-reports.md)
    + Relatório em tempo real {#live-report}
       + [Introdução aos relatórios em tempo real](using/reports/live-report.md)
       + [Lista de métricas](using/reports/live-report-components.md)
