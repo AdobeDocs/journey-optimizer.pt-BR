@@ -10,17 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 3%
+source-wordcount: '1047'
+ht-degree: 2%
 
 ---
 
 # Pausar uma jornada {#journey-pause}
 
-Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> A jornada é automaticamente retomada no final do período de pausa. Você também pode [retomá-lo manualmente](#journey-resume-steps).
-
+Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante a pausa, você pode [aplicar filtros globais](#journey-global-filters) para excluir perfis com base em seus atributos. A jornada é retomada automaticamente no final do período de pausa. Você também pode [retomá-lo manualmente](#journey-resume-steps).
 
 >[!AVAILABILITY]
 >
@@ -54,14 +53,14 @@ Esse recurso reduz o risco de enviar mensagens não intencionais durante erros o
 
 ## Como pausar uma jornada {#journey-pause-steps}
 
-Você pode pausar qualquer jornada ativa.
+Você pode pausar qualquer jornada do **Live**.
 
 Para pausar a jornada, siga estas etapas:
 
 1. Abra a jornada que deseja pausar.
 1. Clique no botão **...Mais** na seção superior direita da tela de jornada e selecione **Pausar**.
 
-   ![Pausar o botão de jornada](assets/pause-journey-button.png)
+   ![Pausar o botão de jornada](assets/pause-journey-button.png){width="80%" align="left"}
 
 1. Selecione como gerenciar os perfis que estão atualmente na jornada.
 
@@ -74,6 +73,11 @@ Para pausar a jornada, siga estas etapas:
 
 1. Clique no botão **Pausar** para confirmar.
 
+Na lista de suas jornadas, você pode pausar uma ou várias jornadas do **Live**. Para pausar um grupo de jornadas (_pausa em massa_), selecione-as na lista e clique no botão **Pausar** na barra azul na parte inferior da tela. O botão **Pausar** só estará disponível quando as jornadas do **Live** forem selecionadas.
+
+![Pausar duas jornadas ativas em massa a partir da barra inferior](assets/bulk-pause-journeys.png){width="80%" align="left"}
+
+
 ## Como retomar uma jornada pausada {#journey-resume-steps}
 
 As jornadas pausadas são retomadas automaticamente no final do período máximo de pausa de 14 dias. Eles podem ser retomados manualmente a qualquer momento.
@@ -85,6 +89,35 @@ Para retomar uma jornada pausada e começar a ouvir eventos de jornada novamente
 
    A jornada alterna para o status **Retomando**. A transição do status **Retomando** para **Ao Vivo** pode levar algum tempo: todos os perfis precisam ser retomados para que a jornada seja **Ao Vivo** novamente.
 
+1. Clique no botão **Retomar** para confirmar.
 
 
+Na lista de suas jornadas, você pode retomar uma ou várias jornadas **Pausadas**. Para retomar um grupo de jornadas (_retomada em massa_), selecione-as e clique no botão **Retomar**, localizado na barra azul na parte inferior da tela. Observe que o botão **Retomar** só estará disponível quando as jornadas **Pausadas** forem selecionadas.
 
+
+## Aplicar um filtro global a perfis em uma jornada pausada  {#journey-global-filters}
+
+Quando uma jornada é pausada, você pode aplicar um filtro global com base em atributos de perfil. Esse filtro permite a exclusão de perfis que correspondem à expressão definida no momento da retomada. Os perfis que correspondem aos critérios atualmente na jornada serão fechados, e os novos perfis que tentarem entrar serão bloqueados.
+
+Por exemplo, para excluir todos os clientes franceses das comunicações de marketing para a França, siga estas etapas:
+
+
+1. Navegue até a jornada pausada que você deseja modificar.
+
+1. Clique no ícone **Critérios de saída e Filtro global**.
+
+1. Nas configurações de Filtro global, defina um filtro com base nos atributos do perfil.
+
+1. Defina a expressão para excluir perfis em que o atributo de país é igual a França.
+
+1. Retome a jornada.
+
+   No momento da retomada, todos os perfis com o atributo de país definido como França serão excluídos automaticamente da jornada. Qualquer novo perfil com o atributo de país definido como França tentando inserir a jornada será bloqueado.
+
+Esteja ciente de que as exclusões de perfil para perfis atualmente na jornada e para novos perfis só ocorrerão quando eles atingirem um nó de ação.
+
+>[!CAUTION]
+>
+>* Você só pode definir **um** filtro global por jornada.
+>
+>* Você só pode criar, atualizar ou excluir um filtro global em **jornadas** em pausa.
