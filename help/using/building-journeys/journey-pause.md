@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1078'
 ht-degree: 2%
 
 ---
@@ -68,8 +68,8 @@ Para pausar a jornada, siga estas etapas:
 
    É possível:
 
-   * Perfis em espera - Os perfis aguardarão a retomada da jornada
-   * Descartar perfis - os perfis serão excluídos da jornada no nó da próxima ação
+   * **Suspender** perfis - Os perfis aguardarão a jornada ser retomada
+   * **Descartar** perfis - Os perfis serão excluídos da jornada no nó da próxima ação
 
 1. Clique no botão **Pausar** para confirmar.
 
@@ -101,16 +101,21 @@ Quando uma jornada é pausada, você pode aplicar um filtro global com base em a
 
 Por exemplo, para excluir todos os clientes franceses das comunicações de marketing para a França, siga estas etapas:
 
-
 1. Navegue até a jornada pausada que você deseja modificar.
 
 1. Clique no ícone **Critérios de saída e Filtro global**.
 
-1. Nas configurações de Filtro global, defina um filtro com base nos atributos do perfil.
+   ![Adicionar um filtro global a uma jornada pausada](assets/add-global-filter.png){width="50%" align="left"}
+
+1. Nas configurações de **Critérios de saída e Filtro global**, defina um filtro com base em atributos de perfil.
 
 1. Defina a expressão para excluir perfis em que o atributo de país é igual a França.
 
-1. Retome a jornada.
+   ![Adicionar um filtro global a uma jornada pausada](assets/add-country-filter.png){width="50%" align="left"}
+
+1. Salve seu filtro e clique no botão **Atualizar jornada** para aplicar as alterações.
+
+1. [Retomar a jornada](#journey-resume-steps).
 
    No momento da retomada, todos os perfis com o atributo de país definido como França serão excluídos automaticamente da jornada. Qualquer novo perfil com o atributo de país definido como França tentando inserir a jornada será bloqueado.
 
