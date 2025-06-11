@@ -26,7 +26,7 @@ Os direitos, as limitações de produto e as medidas de proteção de desempenho
 >
 >* [As medidas de proteção para dados e segmentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails){target="_blank"} também se aplicam ao Adobe Journey Optimizer.
 >
->* Consulte também [Medidas de proteção para a assimilação de dados no perfil do cliente em tempo real](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Consulte também [Medidas de proteção para a assimilação de dados no perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Navegadores compatíveis {#browsers}

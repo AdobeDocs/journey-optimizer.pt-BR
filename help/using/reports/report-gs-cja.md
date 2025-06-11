@@ -53,11 +53,11 @@ O acesso a esses recursos de relatórios depende do contexto e das áreas do pro
 
 * Se você **possui** o Customer Journey Analytics e tem acesso a um perfil de produto do Customer Journey Analytics, é necessário:
 
-   * Permissões de **[!UICONTROL Criação de público]** e **[!UICONTROL Exibição de público]** para o Customer Journey Analytics. [Saiba mais](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control){target="_blank"}
+   * Permissões de **[!UICONTROL Criação de público]** e **[!UICONTROL Exibição de público]** para o Customer Journey Analytics. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/technotes/access-control){target="_blank"}
 
    * Permissão **[!UICONTROL Gerenciar perfis]** para o Adobe Journey Optimizer. [Saiba mais](../administration/permissions.md)
 
-* Suas exibições de dados do Customer Journey Analytics precisam ser configuradas com a seguinte configuração: **Definir como exibição de dados padrão no Adobe Journey Optimizer**. [Saiba mais sobre visualizações de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+* Suas exibições de dados do Customer Journey Analytics precisam ser configuradas com a seguinte configuração: **Definir como exibição de dados padrão no Adobe Journey Optimizer**. [Saiba mais sobre visualizações de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
 
 ## Todos os relatórios de tempo por canal
