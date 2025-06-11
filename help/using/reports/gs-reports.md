@@ -5,7 +5,7 @@ title: Introdução aos recursos de relatórios e monitoramento em  [!DNL Adobe 
 description: Saiba como trabalhar com  [!DNL Adobe Journey Optimizer] recursos de relatórios e monitoramento.
 role: User
 level: Beginner
-source-git-commit: 95b47370f85f43b3fdc78dd661f0a0789169e544
+source-git-commit: 760579d13eb9f1e264dafb3f7b1e06cebd9aaaa2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 17%
@@ -126,7 +126,7 @@ Selecione uma experiência de entrada para descobrir os **relatórios globais de
 <div align="center"><p><strong>Canal no aplicativo</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Relatório de campanha</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Relatório de jornada</strong></a></p></div></td>
 <td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
 <div align="center"><p><strong>Canal da web</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Relatório de campanha</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Relatório de jornada</strong></a></p></div></td>
-<td>&lt;<img alt="Experiência baseada em código" src="../channels/assets/do-not-localize/code.png">
+<td><img alt="Experiência baseada em código" src="../channels/assets/do-not-localize/code.png">
 <div align="center"><p><strong>Experiências baseadas em código</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Relatório de campanha</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Relatório de jornada</strong></a></p></div></td>
 <td><img alt="Cartões de conteúdo" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>Cartões de conteúdo</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Relatório de campanha</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Relatório de jornada</strong></a></p></div></td>
