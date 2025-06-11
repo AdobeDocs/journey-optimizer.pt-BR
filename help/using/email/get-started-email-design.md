@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: ht
-source-wordcount: '608'
-ht-degree: 100%
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 * Melhore a experiência dos clientes criando mensagens personalizadas e dinâmicas com base em seus atributos de perfil. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md).
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Práticas recomendadas de design de email {#best-practices}
 
@@ -52,9 +52,9 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
 
 1. Na página inicial do Designer de email, escolha uma das seguintes opções para criar o design do email:
 
-   * **Projete seu email do zero** através da interface do Designer de email e aproveite as imagens do [Adobe Experience Manager Assets](../integrations/assets.md). Saiba como criar o design do conteúdo de email [nesta seção](content-from-scratch.md).
+   * **Crie seu email do zero** por meio da interface do Designer de Email e aproveite as imagens do [Adobe Experience Manager Assets](../integrations/assets.md). Saiba como criar o design do conteúdo de email [nesta seção](content-from-scratch.md).
 
-   * **Codifique ou cole um HTML bruto** diretamente no Designer de email. Saiba como codificar seu próprio conteúdo [nesta seção](code-content.md).
+   * **Codifique ou cole o HTML bruto** diretamente no Designer de email. Saiba como codificar seu próprio conteúdo [nesta seção](code-content.md).
 
      >[!NOTE]
      >
@@ -62,7 +62,7 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
 
    * **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar um conteúdo de email [nesta seção](existing-content.md).
 
-   * **Selecionar um conteúdo existente** de uma lista de modelos incorporados ou personalizados. Saiba como trabalhar com modelos de email [nesta seção](../email/use-email-templates.md).
+   * **Selecionar um conteúdo existente** de uma lista de modelos integrados ou personalizados. Saiba como trabalhar com modelos de email [nesta seção](../email/use-email-templates.md).
 
    ![](assets/email_designer_create_options.png)
 
@@ -74,8 +74,8 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
 
 Saiba como criar conteúdo de email com o editor de mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417587?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Saiba como configurar experimentos de conteúdo para testes A/B e explorar o conteúdo de email que melhor impulsiona seus objetivos de negócios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447336?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

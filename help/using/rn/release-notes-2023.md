@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '4377'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,7 @@ Essa versão traz os novos recursos listados abaixo.
 </tbody>
 </table>
 
-### Melhorias {#oct-2023-improvements}
+### Aprimoramentos {#oct-2023-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -174,7 +174,7 @@ Além disso, os atributos computados simplificam os fluxos de trabalho de jornad
 </tbody>
 </table>
 
-### Melhorias {#sept-2023-improvements}
+### Aprimoramentos {#sept-2023-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -293,7 +293,7 @@ Essa versão traz os novos recursos listados abaixo.
 
 
 
-### Melhorias {#aug-2023-improvements}
+### Aprimoramentos {#aug-2023-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -364,13 +364,13 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>Converter conteúdo de HTML para o designer de email</strong><br/></th>
+<th><strong>Converter seu conteúdo do HTML para o Designer de email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível importar e converter qualquer conteúdo de HTML no editor de email do Journey Optimizer. Os blocos de conteúdo são identificados automaticamente e disponibilizados no designer de email: use seus recursos de design eficientes para atualizá-los e personalizá-los.</p>
+<p>Agora é possível importar e converter qualquer conteúdo de HTML no editor de email do Journey Optimizer. Os blocos de conteúdo são identificados automaticamente e disponibilizados no Designer de email: use seus poderosos recursos de design para atualizá-los e personalizá-los!</p>
 <img src="assets/html-convert.png">
 <p>Para obter mais informações, consulte a <a href="../email/existing-content.md">documentação detalhada</a>.</p>
 </td>
@@ -413,7 +413,7 @@ A new option is available in the email surface settings to include email address
 </tbody>
 </table>
 
-### Melhorias {#july-2023-improvements}
+### Aprimoramentos {#july-2023-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
@@ -594,7 +594,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-### Melhorias {#may-2023-improvements}
+### Aprimoramentos {#may-2023-improvements}
 
 **Públicos-alvo**
 
@@ -1009,9 +1009,9 @@ Note that each widget can be resized and deleted as needed.
 
 * Uma nova subseção fornece recomendações sobre a criação de um endereço **Responder para (email)** e sobre como garantir uma gestão adequada das respostas. [Saiba mais](../email/email-settings.md#reply-to-email)
 
-* Ao criar ou editar **pools de IPs**, os registros PTR associados agora são exibidos na lista de IP e ao passar o cursor do mouse sobre os endereços IP selecionados. [Saiba mais](../configuration/ip-pools.md#create-ip-pool)
+* Ao criar ou editar **pools de IPs**, os registros PTR associados agora são exibidos na lista de IP e ao passar o mouse sobre os endereços IP selecionados. [Saiba mais](../configuration/ip-pools.md#create-ip-pool)
 
-* Depois que um pool de IP é selecionado em uma configuração de canal, as informações do registro PTR ficam visíveis ao passar o cursor do mouse sobre os endereços IP. [Saiba mais](../email/email-settings.md#subdomains-and-ip-pools)
+* Depois que um pool de IP é selecionado em uma configuração de canal, as informações do registro PTR ficam visíveis ao passar o mouse sobre os endereços IP. [Saiba mais](../email/email-settings.md#subdomains-and-ip-pools)
 
 * A interface de edição de [registros PTR](../configuration/ptr-records.md#edit-ptr-record) e [campos de execução](../configuration/primary-email-addresses.md) foi atualizada.
 

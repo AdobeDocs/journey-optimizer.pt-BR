@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: d5dd842d4fc906b454e1601ae850a12f457bcd7b
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 24%
@@ -38,7 +38,7 @@ ht-degree: 24%
 >[!AVAILABILITY]
 >
 >Esse recurso foi lançado como um beta privado. Ele será disponibilizado progressivamente a todos os clientes em versões futuras.
->Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
+>>Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
 
 O recurso Alinhamento da marca foi criado para ajudar você a criar, revisar e gerenciar conteúdo que se mantenha fiel às diretrizes da sua marca. Ele garante a consistência no tom, nas mensagens e na identidade visual em todas as campanhas de email, além de servir como uma verificação de qualidade antes do conteúdo ser publicado.
 
@@ -48,7 +48,7 @@ Depois que [sua marca for configurada e publicada](brands.md), avalie a pontuaç
 
 1. Crie sua [campanha de email](../campaigns/create-campaign.md).
 
-1. Abra o menu **[!UICONTROL Alinhamento da Marca]** no designer de email.
+1. Abra o menu **[!UICONTROL Alinhamento da marca]** no Designer de email.
 
    Seu conteúdo será avaliado automaticamente em relação à sua marca padrão. [Saiba como atribuir uma marca padrão](brands.md).
 

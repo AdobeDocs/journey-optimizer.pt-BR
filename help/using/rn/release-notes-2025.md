@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -212,7 +212,7 @@ Os novos recursos incluídos nesta versão estão listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>O recurso de pontuação de alinhamento à marca oferece um feedback claro diretamente no designer de email, ajudando você a ver se o conteúdo está alinhado ao tom, estilo e diretrizes da marca. Esse recurso está disponível na versão beta.</p>
+<p>O recurso de pontuação de alinhamento da marca oferece feedback claro diretamente no Designer de email, ajudando você a ver se o conteúdo está alinhado ao tom, estilo e diretrizes da sua marca. Esse recurso está disponível na versão beta.</p>
 <p>Para obter mais informações, consulte a <a href="../content-management/brands-score.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -270,7 +270,7 @@ Há novas APIs disponíveis para visualizar campanhas, além dos recursos existe
 
 * **Rastreamento personalizado de URL** - Data de disponibilidade: 30 de abril de 2025
 
-  Para aumentar a flexibilidade e o controle sobre as configurações de email, agora é possível personalizar todos os parâmetros de rastreamento de URL de uma só vez na configuração do canal de email, em vez de fazer isso no designer de email para cada link do conteúdo. [Leia mais](../email/surface-personalization.md#personalize-url-tracking)
+  Para aumentar a flexibilidade e o controle sobre suas configurações de email, agora você pode personalizar todos os parâmetros de rastreamento de URL de uma só vez no nível de configuração do canal de email, em vez de fazer isso no Designer de email para cada link no seu conteúdo. [Leia mais](../email/surface-personalization.md#personalize-url-tracking)
 
 * **Designer de email** - Data de disponibilidade: 1º de abril de 2025
 

@@ -10,7 +10,7 @@ role: User
 level: Beginner
 keywords: assets, integração
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 11%
@@ -51,10 +51,10 @@ Com uma licença Enterprise, os usuários obtêm acesso total ao editor do Adobe
 
 +++Casos de uso disponíveis para usuários e uma licença Enterprise para o Adobe Express
 
-* [Remover plano de fundo](https://helpx.adobe.com/br/express/create-and-edit-images/edit-images/remove-background.html)
-* [Remover objetos](https://helpx.adobe.com/br/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [Apagar](https://helpx.adobe.com/br/express/create-and-edit-images/edit-images/eraser.html)
-* [Inserir objeto](https://helpx.adobe.com/br/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [Remover plano de fundo](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [Remover objetos](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [Apagar](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [Inserir objeto](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
 * [Cortar](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
 * [Efeitos](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
@@ -149,7 +149,7 @@ A imagem agora está pronta para ser usada no conteúdo.
 
 Saiba como editar os seus ativos no Adobe Journey Optimizer com as ferramentas do Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455528/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

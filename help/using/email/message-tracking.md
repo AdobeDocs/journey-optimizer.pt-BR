@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 30%
@@ -173,7 +173,7 @@ Relatórios sobre aberturas e cliques estão disponíveis no [Live Report](../re
 
 O [rastreamento de URL](email-settings.md#url-tracking) é gerenciado no nível de configuração e se aplica a todas as URLs incluídas no conteúdo da sua mensagem.
 
-Você também pode [personalizar URLs individuais](../personalization/personalization-syntax.md#perso-urls) no designer de email. Para adicionar parâmetros de rastreamento de URL personalizados a um único link em seu conteúdo, siga as etapas abaixo.
+Você também pode [personalizar URLs individuais](../personalization/personalization-syntax.md#perso-urls) no Designer de email. Para adicionar parâmetros de rastreamento de URL personalizados a um único link em seu conteúdo, siga as etapas abaixo.
 
 1. Selecione um link e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
 

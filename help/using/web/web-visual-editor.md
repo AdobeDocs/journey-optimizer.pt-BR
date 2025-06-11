@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 8%
@@ -20,13 +20,13 @@ ht-degree: 8%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 No [!DNL Journey Optimizer], a criação no visual web é fornecida pela extensão de navegador do Chrome **Adobe Experience Cloud Visual Helper**. [Saiba mais](web-prerequisites.md#visual-authoring-prerequisites)
@@ -73,7 +73,7 @@ Para começar a criar sua experiência online usando o visual web designer, siga
 
 >[!NOTE]
 >
->O designer de conteúdo da Web é, em sua maioria, semelhante ao designer de email. Saiba mais sobre [como criar conteúdo com [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>O designer de conteúdo da Web é, em sua maioria, semelhante ao Email Designer. Saiba mais sobre [como criar conteúdo com [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 Após editar o conteúdo da Web, você pode gerenciar as modificações. [Saiba mais](manage-web-modifications.md)
 
@@ -89,8 +89,8 @@ Após editar o conteúdo da Web, você pode gerenciar as modificações. [Saiba 
    * [Divisor](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Imagem](../email/content-components.md#image)
-   * Cabeçalho - O uso deste componente é semelhante ao uso do componente **[!UICONTROL Texto]** no designer de email. [Saiba mais](../email/content-components.md#text)
-   * Parágrafo - O uso deste componente é semelhante ao uso do componente **[!UICONTROL Texto]** no designer de email. [Saiba mais](../email/content-components.md#text)
+   * Cabeçalho - O uso deste componente é semelhante ao uso do componente **[!UICONTROL Texto]** no Email Designer. [Saiba mais](../email/content-components.md#text)
+   * Parágrafo - O uso deste componente é semelhante ao uso do componente **[!UICONTROL Texto]** no Designer de email. [Saiba mais](../email/content-components.md#text)
    * Link
 
    ![](assets/web-designer-components.png)
@@ -170,4 +170,4 @@ A capacidade de alterar o tamanho do dispositivo foi projetada para sites respon
 
 O vídeo abaixo mostra como criar uma experiência na Web usando o web designer em campanhas do [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3452640/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
