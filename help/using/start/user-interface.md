@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 89%
+source-wordcount: '1694'
+ht-degree: 87%
 
 ---
 
@@ -226,7 +226,8 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 
 <!--ORCHESTRATED CAMPAIGNS - Overview page-->
 
-<!--ORCHESTRATED CAMPAIGNS SKU only-->
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS SKU only-->
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +256,7 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 >title="Canais disponíveis"
 >abstract="Email, SMS, Notificações por push, Mala direta"
 
-<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
@@ -268,6 +269,30 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="Canais disponíveis"
 >abstract="Email, SMS, Notificações por push, No aplicativo, Web, Experiências baseadas em código"
+
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_1"
+>title="Campanhas acionadas por API transacional"
+>abstract="Acionar mensagens em tempo real por meio de chamadas de API"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_2"
+>title="Mensagens de marketing"
+>abstract="Conteúdo promocional (requer aceitação, sujeito às regras de negócios)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_3"
+>title="Mensagens transacionais"
+>abstract="Conteúdo relacionado ao serviço (confirmação, alertas, não sujeito a consentimento de marketing)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_4"
+>title="Canais disponíveis"
+>abstract="Email, SMS, notificações por push"
 
 <!--APPROVAL POLICIES-->
 
