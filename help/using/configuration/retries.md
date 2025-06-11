@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: tentativas, rejeição, software, otimizador, erro
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e422a62f49864c89bdaaab2d4b7622dc90163a71
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '572'
 ht-degree: 9%
 
 ---
@@ -34,11 +34,11 @@ Se um delivery for bem-sucedido após uma tentativa, o contador de erros do ende
 
 Por exemplo:
 
-* Você envia um email na segunda-feira com um período de nova tentativa definido como 24 horas. Falha na entrega do endereço emma.jones@mail.com. O email é repetido até três vezes e o interrompe ao atingir o período de 24 horas de nova tentativa.
+* Você envia um email na segunda-feira com um período de nova tentativa definido como 24 horas. Falha na entrega do endereço `emma.jones@mail.com`. O email é repetido até três vezes e o interrompe ao atingir o período de 24 horas de nova tentativa.
 
-* Você envia outro email na quarta-feira. O emma.jones@mail.com, que já tem uma contagem de três erros, também é direcionado e novamente não é entregue - duas vezes. Dois outros erros são contabilizados.
+* Você envia outro email na quarta-feira. O `emma.jones@mail.com`, que já tem uma contagem de três erros, também é direcionado e novamente não é entregue - duas vezes. Dois outros erros são contabilizados.
 
-Desde que nenhuma outra entrega tenha sido tentada e bem-sucedida entre esses dois emails, o endereço emma.jones@mail.com é adicionado à lista de supressão devido ao impacto cumulativo de erros 3 + 2.
+Desde que nenhuma outra entrega tenha sido tentada e bem-sucedida entre esses dois emails, o endereço `emma.jones@mail.com` será adicionado à lista de supressão devido ao impacto cumulativo de erros 3 + 2.
 
 ## Edição do limite de novas tentativas {#edit-retry-threshold}
 
@@ -72,7 +72,7 @@ O **período de nova tentativa** é o período no qual qualquer mensagem de emai
 
 Por padrão, as tentativas serão executadas por **3.5 dias** (ou **84 horas**) a partir do momento em que a mensagem for adicionada à fila de emails.
 
-No entanto, para garantir que as tentativas de repetição não sejam mais executadas quando não forem mais necessárias, você pode alterar essa configuração de acordo com suas necessidades ao criar ou editar uma [configuração de canal](channel-surfaces.md) (ou seja, predefinição de mensagem) aplicável ao canal de email.
+No entanto, para garantir que as tentativas de repetição não sejam mais executadas quando não forem mais necessárias, você pode alterar essa configuração de acordo com suas necessidades ao criar ou editar uma [configuração de canal](channel-surfaces.md) aplicável ao canal de email.
 
 Por exemplo, você pode definir o período de nova tentativa para 24 horas para um email transacional relacionado à redefinição de senha e que contém um link válido por apenas um dia. Da mesma forma, para uma venda à meia-noite, é possível definir um período de nova tentativa de 6 horas.
 
