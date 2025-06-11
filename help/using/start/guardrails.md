@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '2514'
-ht-degree: 99%
+source-wordcount: '2513'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Os direitos, as limitações de produto e as medidas de proteção de desempenho
 >
 >* [As medidas de proteção para dados e segmentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails){target="_blank"} também se aplicam ao Adobe Journey Optimizer.
 >
->* Consulte também [Medidas de proteção para a assimilação de dados no perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Consulte também [Medidas de proteção para a assimilação de dados no perfil do cliente em tempo real](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Navegadores compatíveis {#browsers}
@@ -220,7 +220,7 @@ A seguinte medida de proteção se aplica à atividade de [qualificação de pú
 
 As seguintes medidas de proteção se aplicam ao [editor de expressão da jornada](../building-journeys/expression/expressionadvanced.md):
 
-* Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de leitura de público-alvo, qualificação de público-alvo ou de evento de negócios. É necessário criar um novo público-alvo e usar uma condição de público-alvo na jornada.
+* Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de leitura de público-alvo, qualificação de público-alvo ou de evento de negócios. Você deve criar um novo público-alvo e usar uma condição `inaudience` na jornada.
 * Não é possível usar atributos `timeSeriesEvents` no editor de expressão. Para acessar eventos de experiência em nível de perfil, crie um novo grupo de campos com base em um esquema `XDM ExperienceEvent`.
 
 
