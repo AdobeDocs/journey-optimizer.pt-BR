@@ -5,10 +5,10 @@ title: Introdução aos recursos de relatórios e monitoramento em  [!DNL Adobe 
 description: Saiba como trabalhar com  [!DNL Adobe Journey Optimizer] recursos de relatórios e monitoramento.
 role: User
 level: Beginner
-source-git-commit: 8c391d7437798df4f40baa65003e16a8c56228ab
+source-git-commit: 95b47370f85f43b3fdc78dd661f0a0789169e544
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 13%
+source-wordcount: '414'
+ht-degree: 17%
 
 ---
 
@@ -104,30 +104,30 @@ Agora que você entende os tipos de relatórios no **[!DNL Journey Optimizer]**,
 
 ### Canais de saída
 
-Selecione um canal de saída para descobrir relatórios globais associados.
+Selecione um canal de saída para descobrir os **relatórios globais contínuos** associados.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="campaign-global-report-cja-email.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a>
-<div align="center"><a href="campaign-global-report-cja-email.md"><strong>Email</strong></a></div></td>
+<td><img alt="email" src="../channels/assets/do-not-localize/email.png">
+<div align="center"><p><strong>Canal de email</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Relatório de campanha</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Relatório de jornada</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="campaign-global-report-cja-sms.md"><strong>SMS</strong></a></div></td>
+<div align="center"><p><strong>Canal de SMS</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Relatório de campanha</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Relatório de jornada</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><a href="campaign-global-report-cja-push.md"><strong>Notificação por push</strong></a></div></td>
+<div align="center"><p><strong>Canal de push</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Relatório de campanha</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Relatório de jornada</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-direct.md"><img alt="Correspondência direta" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><a href="campaign-global-report-cja-direct.md"><strong>Correspondência direta</strong></a></div></td>
+<div align="center"><p><strong>Canal de correspondência direta</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>Relatório de campanha</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>Relatório de jornada</strong></a></p></div></td>
 </tr></table>
 
 ### Experiências de entrada
 
-Selecione uma experiência de entrada para descobrir relatórios globais associados.
+Selecione uma experiência de entrada para descobrir os **relatórios globais de todos os tempos** associados.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="campaign-global-report-cja-inapp.md"><img alt="No aplicativo" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<td><img alt="No aplicativo" src="../channels/assets/do-not-localize/inapp.jpg">
 <div align="center"><p><strong>Canal no aplicativo</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Relatório de campanha</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Relatório de jornada</strong></a></p></div></td>
-<td><p><a href="campaign-global-report-cja-web.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a></p>
+<td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
 <div align="center"><p><strong>Canal da web</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Relatório de campanha</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Relatório de jornada</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-code.md"><img alt="Experiência baseada em código" src="../channels/assets/do-not-localize/code.png"></a>
+<td>&lt;<img alt="Experiência baseada em código" src="../channels/assets/do-not-localize/code.png">
 <div align="center"><p><strong>Experiências baseadas em código</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Relatório de campanha</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Relatório de jornada</strong></a></p></div></td>
-<td><a href="journey-global-report-cja-code.md"><img alt="Cartões de conteúdo" src="../channels/assets/do-not-localize/cards.png"></a>
+<td><img alt="Cartões de conteúdo" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>Cartões de conteúdo</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Relatório de campanha</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Relatório de jornada</strong></a></p></div></td>
 </tr></table>
