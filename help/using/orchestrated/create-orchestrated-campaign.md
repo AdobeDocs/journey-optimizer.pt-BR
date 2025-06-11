@@ -5,11 +5,12 @@ title: Criar e agendar campanhas orquestradas com o Journey Optimizer
 description: Saiba como criar uma campanha orquestrada com o Adobe Journey Optimizer
 badge: label="Alfa"
 hide: true
+hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 38d4cc896414fce2e8453940fb4674ce7e60fd2b
+source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 17%
+source-wordcount: '342'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +21,24 @@ ht-degree: 17%
 >id="ajo_campaign_creation_workflow"
 >title="Lista de campanhas orquestradas"
 >abstract="A guia **Orquestração** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada. "
+
++++ Sumário
+
+| Bem-vindo às campanhas orquestradas | Iniciar sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
+|---|---|---|---|
+| [Introdução a campanhas orquestradas](gs-orchestrated-campaigns.md)<br/><br/>[Etapas de configuração](configuration-steps.md)<br/><br/>[Acessar e gerenciar campanhas orquestradas](access-manage-orchestrated-campaigns.md) | [Etapas principais para a criação de campanha orquestrada](gs-campaign-creation.md)<br/><br/><b>[Criar e agendar a campanha](create-orchestrated-campaign.md)</b><br/><br/>[Orquestrar atividades](orchestrate-activities.md)<br/><br/>[Enviar mensagens com campanhas orquestradas](send-messages.md)<br/><br/>[Iniciar e monitorar a campanha](start-monitor-campaigns.md)<br/><br/>[Relatórios](reporting-campaigns.md) | [Trabalhar com o construtor de regras](orchestrated-rule-builder.md)<br/><br/>[Criar a primeira consulta](build-query.md)<br/><br/>[Editar expressões](edit-expressions.md) | [Introdução às atividades](activities/about-activities.md)<br/><br/>Atividades:<br/>[And-join](activities/and-join.md) - [Criar público](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Eliminação de Duplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Divisão](activities/split.md) - [Espera](activities/wait.md) |
+
+{style="table-layout:fixed"}
+
++++
+
+<br/>
+
+>[!BEGINSHADEBOX]
+
+Documentação em andamento
+
+>[!ENDSHADEBOX]
 
 ## Criar a campanha {#create}
 
