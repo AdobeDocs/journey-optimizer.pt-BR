@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 35ab5ee85ee573da64bf34d9ec007796ee589f59
+source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 90%
+source-wordcount: '1657'
+ht-degree: 89%
 
 ---
 
@@ -149,12 +149,16 @@ Na página inicial do [!DNL Adobe Journey Optimizer], os casos de uso do produto
 
 ![](assets/use-cases-home.png)
 
++++ **Casos de uso disponíveis**
+
 Os casos de uso disponíveis são:
 
 * **Crie perfis de teste** usando nosso modelo CSV para testar mensagens e jornadas personalizadas. Saiba como implementar esse caso de uso[nesta página](../audience/creating-test-profiles.md#use-case-1).
 * **Envie uma mensagem de aniversário aos clientes**, para enviar automaticamente um email parabenizando os clientes em seus aniversários. (em breve)
 * **Envie emails para integrar os novos clientes**, para enviar facilmente até dois emails de boas-vindas a clientes recém-registrados. (em breve)
 * **Envie mensagens de push a uma lista importada de clientes**, para enviar rapidamente uma notificação por push a uma lista de clientes importados de um arquivo CSV. (em breve)
+
++++
 
 Para saber mais sobre cada caso de uso, clique no link **[!UICONTROL Ver detalhes]**.
 
@@ -199,14 +203,17 @@ A interface está disponível nos seguintes idiomas:
 
 O idioma padrão da interface é determinado pelo idioma preferencial especificado no perfil do usuário.
 
-Para alterar o idioma:
++++ **Como alterar seu idioma**
 
-* Clique em **Preferências** em seu avatar, no canto superior direito.
-  ![](assets/preferences.png)
-* Em seguida, clique no idioma exibido sob seu endereço de email
-* Selecione o idioma de sua preferência e clique em **Salvar**. Você poderá selecionar um segundo idioma caso o componente utilizado não esteja traduzido para o seu primeiro idioma.
-  ![](assets/select-language.png)
+Para alterar o idioma, siga estas etapas:
 
+1. Clique em **Preferências** em seu avatar, no canto superior direito.
+   ![](assets/preferences.png)
+1. Em seguida, clique no idioma exibido sob seu endereço de email
+1. Selecione o idioma de sua preferência e clique em **Salvar**. Você poderá selecionar um segundo idioma caso o componente utilizado não esteja traduzido para o seu primeiro idioma.
+   ![](assets/select-language.png)
+
++++
 
 ## Saiba mais {#more}
 
