@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '2433'
+source-wordcount: '2434'
 ht-degree: 95%
 
 ---
@@ -233,6 +233,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Criar e gerenciar políticas de aprovação](using/test-approve/approval-policies.md)
       + [Solicitar aprovação](using/test-approve/request-approval.md)
       + [Aprovar uma solicitação](using/test-approve/review-approve-request.md)
+   + [Alertas do sistema](using/reports/alerts.md)
 + Canais de comunicação {#channels}
    + [Introdução a canais de comunicação](using/channels/gs-channels.md)
    + Canal de email {#email}
@@ -267,6 +268,10 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
          + [Parâmetros de cabeçalho](using/email/header-parameters.md)
          + [Rastreamento de URL](using/email/url-tracking.md)
          + [Personalizar configurações de email](using/email/surface-personalization.md)
+      + Entregabilidade por email {#deliverability}
+      + [Introdução à capacidade de entrega](using/reports/deliverability.md)
+      + [Sobre a lista de supressão](using/reports/suppression-list.md)
+      + [Novo requisito DMARC](using/configuration/dmarc-record-update.md)
    + Canal no aplicativo{#in-app}
       + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
       + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
@@ -448,7 +453,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Trabalhar com atributos computados](using/audience/computed-attributes.md)
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso da licença](using/audience/license-usage.md)
-+ Relatórios e monitoramento {#reporting}
++ Relatórios {#reporting}
    + [Introdução aos relatórios](using/reports/gs-reports.md)
    + Relatório em tempo real {#live-report}
       + [Introdução aos relatórios em tempo real](using/reports/live-report.md)
@@ -487,6 +492,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Relatório de visão geral](using/reports/channel-report-cja.md)
       + [Relatório de páginas de destino](using/reports/lp-report-global-cja.md)
       + [Relatório da lista de assinaturas](using/reports/subscription-report-global-cja.md)
+      + [Motivos de exclusão](using/reports/exclusion-list.md)
    + Relatórios de jornada personalizados {#reports}
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
       + [Lista de campos de evento de etapa](using/reports/sharing-field-list.md)
@@ -498,12 +504,6 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
          + [Campos de busca de dados](using/reports/sharing-fetch-fields.md)
          + [Campos de identidade](using/reports/sharing-identity-fields.md)
       + [Exemplos de consultas](using/reports/query-examples.md)
-   + Capacidade de entrega {#deliverability}
-      + [Introdução à capacidade de entrega](using/reports/deliverability.md)
-      + [Sobre a lista de supressão](using/reports/suppression-list.md)
-      + [Novo requisito DMARC](using/configuration/dmarc-record-update.md)
-   + [Alertas](using/reports/alerts.md)
-   + [Motivos de exclusão](using/reports/exclusion-list.md)
 + Recursos de decisão {#decisioning}
    + [Introdução aos recursos de decisão](using/experience-decisioning/gs-decision.md)
    + Decisão {#experience-decisioning}
