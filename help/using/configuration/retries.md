@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: tentativas, rejeição, software, otimizador, erro
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: e422a62f49864c89bdaaab2d4b7622dc90163a71
+source-git-commit: 0db7f514a2604ad09fbd9863a51d3c86d69eac41
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 9%
+source-wordcount: '567'
+ht-degree: 8%
 
 ---
 
@@ -46,7 +46,8 @@ Desde que nenhuma outra entrega tenha sido tentada e bem-sucedida entre esses do
 >id="ajo_admin_suppression_list_bounces"
 >title="Atualizar limite de novas tentativas"
 >abstract="Se o valor padrão não atender às suas necessidades, você poderá modificar o número permitido de rejeições temporárias consecutivas. Quando o contador de tentativas atinge o limite de erro de um endereço de email específico, esse endereço é adicionado à lista de supressão."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=pt-BR" text="Saiba mais sobre a lista de supressão"
+<!--
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"-->
 
 Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modificar o limite de erro seguindo as etapas abaixo.
 
