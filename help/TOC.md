@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 95%
@@ -269,9 +269,9 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
          + [Rastreamento de URL](using/email/url-tracking.md)
          + [Personalizar configurações de email](using/email/surface-personalization.md)
       + Entregabilidade por email {#deliverability}
-      + [Introdução à capacidade de entrega](using/reports/deliverability.md)
-      + [Sobre a lista de supressão](using/reports/suppression-list.md)
-      + [Novo requisito DMARC](using/configuration/dmarc-record-update.md)
+         + [Introdução à capacidade de entrega](using/reports/deliverability.md)
+         + [Sobre a lista de supressão](using/reports/suppression-list.md)
+         + [Novo requisito DMARC](using/configuration/dmarc-record-update.md)
    + Canal no aplicativo{#in-app}
       + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
       + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
@@ -468,6 +468,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Configurar o Customer Journey Analytics manualmente](using/reports/cja-ajo.md)
       + [Gerenciar seus relatórios](using/reports/report-cja-manage.md)
       + [Pré-requisitos de relatórios e experimentação](using/reports/reporting-configuration.md)
+      + [Motivos de exclusão](using/reports/exclusion-list.md)
       + Relatórios de campanha{#reporting}
          + [Relatório de campanha](using/reports/campaign-global-report-cja.md)
          + [Relatório de campanha baseada em código](using/reports/campaign-global-report-cja-code.md)
@@ -492,7 +493,6 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Relatório de visão geral](using/reports/channel-report-cja.md)
       + [Relatório de páginas de destino](using/reports/lp-report-global-cja.md)
       + [Relatório da lista de assinaturas](using/reports/subscription-report-global-cja.md)
-      + [Motivos de exclusão](using/reports/exclusion-list.md)
    + Relatórios de jornada personalizados {#reports}
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
       + [Lista de campos de evento de etapa](using/reports/sharing-field-list.md)
