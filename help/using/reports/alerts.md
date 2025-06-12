@@ -37,9 +37,9 @@ Você pode assinar cada alerta individualmente na interface selecionando a opç�
 
 ![](assets/alert-subscribe.png)
 
-Você também pode assinar alertas por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer são detalhadas abaixo.
+Você também pode assinar alertas por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer são detalhadas abaixo.
 
-Se ocorrer um comportamento inesperado, uma notificação de alerta será enviada aos assinantes. Com base nas preferências do usuário, os alertas são enviados por email e/ou diretamente na central de notificações da Journey Optimizer, no canto superior direito da interface do usuário. Por padrão, somente o alerta no aplicativo está ativado. Para habilitar o alerta por email, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
+Se ocorrer um comportamento inesperado, uma notificação de alerta será enviada aos assinantes. Com base nas preferências do usuário, os alertas são enviados por email e/ou diretamente na central de notificações da Journey Optimizer, no canto superior direito da interface do usuário. Por padrão, somente o alerta no aplicativo está ativado. Para habilitar o alerta por email, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.
 
 Quando um alerta é resolvido, os assinantes recebem uma notificação &quot;Resolvido&quot;.
 
