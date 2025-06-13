@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 13%
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Rótulos de gerenciamento de acesso"
->abstract="É possível limitar o acesso a um objeto com base nos rótulos de acesso. Essa abordagem protege os ativos digitais confidenciais de usuários não autorizados e garante maior proteção dos dados pessoais. **Certifique-se de selecionar apenas os rótulos para os quais tem permissão.**"
+>abstract="É possível limitar o acesso a um objeto com base nos rótulos de acesso. Esta abordagem protege ativos digitais sensíveis de usuários não autorizados e garante uma maior proteção dos dados pessoais. **Certifique-se de selecionar apenas os rótulos para os quais tem permissão.**"
 
 É possível limitar o acesso a um objeto com base nos rótulos de acesso. Essa abordagem protege os ativos digitais confidenciais de usuários não autorizados e garante maior proteção dos dados pessoais.
 
@@ -53,7 +53,7 @@ Saiba mais sobre permissões [nesta seção](../administration/permissions.md).
 
 Use rótulos para fornecer acesso aos usuários e aplicar a governança de dados e as políticas de consentimento. Esses rótulos de governança podem afetar o consumo downstream.
 
-Você pode criar rótulos no produto [!DNL Permissions]. Para obter mais detalhes, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=pt-BR){target="_blank"}.
+Você pode criar rótulos no produto [!DNL Permissions]. Para obter mais detalhes, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}.
 
 Você também pode criar **[!UICONTROL Rótulos]** diretamente no Journey Optimizer. Para criar um rótulo, siga estas etapas:
 
@@ -95,4 +95,4 @@ Para atribuir rótulos de uso de dados personalizados ou principais aos objetos 
 
 Para acessar este objeto, os usuários devem ter o **[!UICONTROL Rótulo]** específico incluído em suas **[!UICONTROL Funções]**. Por exemplo, um usuário com o rótulo C1 terá acesso somente a objetos com ou sem rótulo C1.
 
-Para obter mais detalhes sobre como atribuir um **[!UICONTROL Rótulo]** a uma **[!UICONTROL Função]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=pt-BR#manage-labels-for-a-role){target="_blank"}.
+Para obter mais detalhes sobre como atribuir um **[!UICONTROL Rótulo]** a uma **[!UICONTROL Função]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}.

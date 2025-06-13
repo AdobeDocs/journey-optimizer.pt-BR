@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
+source-git-commit: d17cff4cbe661cb8f41ef09ef9850f6010fc21e5
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ Os conjuntos de regras do **Canal** aplicam regras de limitação aos canais de 
 
 O uso de conjuntos de regras de canal permite definir o limite de frequência por tipo de comunicação para evitar sobrecarga de clientes com mensagens semelhantes. Por exemplo, você pode criar um conjunto de regras para limitar o número de **comunicações promocionais** enviadas aos seus clientes e outro conjunto de regras para limitar o número de **boletins informativos** enviados a eles. Dependendo do tipo de campanha que está sendo criada, você pode optar por aplicar a comunicação promocional ou o conjunto de regras de boletins informativos.
 
-## Criar uma regra de limite de canal
+## Criar uma regra de limitação de canal
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -151,4 +152,4 @@ In this scenario, an individual profile:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

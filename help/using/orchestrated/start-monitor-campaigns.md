@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
 workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 13%
 
 Depois de criar as tarefas orquestradas e projetadas para execução na tela, é possível publicá-las e monitorar como elas estão sendo executadas.
 
-## Agendar campanhas orquestradas {#schedule}
+## Programar campanhas orquestradas {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"

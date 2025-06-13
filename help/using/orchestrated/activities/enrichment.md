@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 
@@ -37,7 +37,7 @@ A atividade **[!UICONTROL Enrichment]** é uma atividade **[!UICONTROL Targeting
 
 Você pode aproveitar essas informações para segmentar seu público com mais precisão, com base em comportamentos, preferências ou necessidades, e para criar mensagens personalizadas que se conectem melhor a cada perfil.
 
-## Adicionar uma atividade Enrichment {#enrichment-configuration}
+## Adicionar uma atividade de enriquecimento {#enrichment-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"

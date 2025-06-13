@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Jornada simulação
+title: Execução de prática da jornada
 description: Saiba como publicar uma jornada no modo de simulação
 feature: Journeys
 role: User
@@ -14,11 +14,11 @@ exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Jornada simulação {#journey-dry-run}
+# Execução de prática da jornada {#journey-dry-run}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"

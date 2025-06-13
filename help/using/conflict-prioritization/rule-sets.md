@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 17%
+ht-degree: 22%
 
 ---
 
@@ -81,7 +81,7 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="Limite de regras"
->abstract="Definir a limitação para a regra. Dependendo do domínio do conjunto de regras e da seleção no campo Tipo de regra, esse campo pode definir o número máximo de mensagens que podem ser enviadas para um perfil ou o número máximo de jornadas que o perfil pode inserir ou nas quais pode ser inscrito simultaneamente."
+>abstract="Definir a limitação para a regra. Dependendo do domínio do conjunto de regras e da seleção no campo “Tipo de regra”, este campo pode definir o número máximo de mensagens que podem ser enviadas a um perfil ou o número máximo de jornadas das quais o perfil pode participar ou nas quais pode ser inscrito simultaneamente."
 
 Para criar um conjunto de regras, siga as etapas abaixo.
 
@@ -164,4 +164,4 @@ Seu status será alterado para **[!UICONTROL Inativo]** e a regra não se aplica
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
