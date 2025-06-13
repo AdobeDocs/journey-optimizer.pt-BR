@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
+source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -123,13 +123,13 @@ Por exemplo, para excluir todos os clientes franceses de uma jornada pausada, si
 
 1. Clique no ícone **Critérios de saída e Filtro global**.
 
-   ![Adicionar um filtro global a uma jornada pausada](assets/add-global-filter.png){width="50%" align="left"}
+   ![Adicionar um filtro global a uma jornada pausada](assets/add-global-filter.png)
 
 1. Nas configurações de **Critérios de saída e Filtro global**, clique em **Adicionar filtro global** para definir um filtro com base em atributos de perfil.
 
 1. Defina a expressão para excluir perfis em que o atributo de país é igual a França.
 
-   ![Adicionar um filtro global a uma jornada pausada](assets/add-country-filter.png){width="50%" align="left"}
+   ![Adicionar um filtro global a uma jornada pausada](assets/add-country-filter.png)
 
 1. Salve seu filtro e clique no botão **Atualizar jornada** para aplicar as alterações.
 
