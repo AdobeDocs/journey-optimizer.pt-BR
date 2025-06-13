@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -167,7 +167,7 @@ Esteja ciente de que as exclusões de perfil para perfis atualmente na jornada e
 
 Vamos ver o exemplo da jornada abaixo:
 
-![Amostra de uma jornada](assets/pause-journey-sample.png){width="50%" align="left"}
+![Amostra de uma jornada](assets/pause-journey-sample.png)
 
 Ao pausar esta jornada, você seleciona se os perfis estão **Descartados** ou **Suspensos** e, em seguida, o gerenciamento de perfis é o seguinte:
 
