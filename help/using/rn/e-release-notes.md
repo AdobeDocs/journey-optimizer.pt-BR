@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 35%
 
 ---
@@ -45,7 +45,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>As mensagens RCS (Rich Communication Services) agora são compatíveis com o Journey Optimizer, habilitando os seguintes recursos de mensagens aprimorados sujeitos ao suporte da operadora:</p>
+<p>As mensagens RCS (Rich Communication Services) agora são compatíveis com o Journey Optimizer, habilitando os seguintes recursos de mensagens aprimorados sujeitos ao suporte do provedor e da operadora:</p>
 <ul>
 <li>Suporte a remetente marcado e verificado: envie mensagens usando perfis comerciais verificados com elementos de marca (logotipo, nome do remetente etc.).</li>
 <li>Insights de delivery de mensagens: receba relatórios de delivery detalhados, incluindo atualizações de status de mensagem (por exemplo, enviado, entregue, lido).</li>
