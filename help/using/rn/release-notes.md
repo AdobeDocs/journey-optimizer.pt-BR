@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 101796a9221beeb1fa4950d806a91997ee6c9ae4
+source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 62%
+source-wordcount: '2164'
+ht-degree: 61%
 
 ---
 
@@ -30,7 +30,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 **Data de lançamento**: 17 a 18 de junho de 2025
 
-Consulte também [Notas de pré-lançamento do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Consulte também [Notas de pré-lançamento do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Novos recursos {#25-06-features}
 
@@ -201,6 +201,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
    * **Suporte a CSS personalizado** - o Journey Optimizer agora permite que você adicione CSS personalizado ao seu conteúdo de email diretamente no Designer de email.
    * **Suporte para o modo escuro** - O designer de email do Journey Optimizer agora oferece a capacidade de alternar para o modo escuro, onde é possível definir configurações específicas.
 
+* **Campanhas** - Nova navegação com guias para campanhas de ação. Esse novo padrão de navegação permite um acesso mais rápido à criação de conteúdo e oferece suporte à expansão adicional das configurações em campanhas.
 
 * **Decisão** - Data de disponibilidade: 3 de junho de 2025
 
