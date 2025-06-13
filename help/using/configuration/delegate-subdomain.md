@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomínio, delegação, domínio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 229f335f4a5880bd310fe2d522ab6b3d3160d72b
+source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2011'
 ht-degree: 21%
 
 ---
@@ -243,13 +243,13 @@ Depois que a solicitação for tratada pela Adobe, o domínio não delegado não
 
 >[!CAUTION]
 >
->Depois que a delegação de um subdomínio for cancelada:
+>Depois que a delegação de um subdomínio é cancelada, o seguinte se aplica:
 >
->   * Não é possível reativar as configurações de canal que estavam usando esse subdomínio.
->   * Não é possível delegar o subdomínio exato novamente por meio da interface. Caso deseje, entre em contato com o representante da Adobe.
+>* Não é possível reativar as configurações de canal que estavam usando esse subdomínio.
+>* Não é possível delegar o mesmo subdomínio novamente por meio da interface do usuário. Caso deseje, entre em contato com o representante da Adobe.
 
 ## Vídeo tutorial{#video}
 
 Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342240?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

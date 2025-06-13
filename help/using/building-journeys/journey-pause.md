@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 0c872f6bcc370c9f1557eca1b185fcb8fb0509f9
+source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2004'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Para pausar a jornada, siga estas etapas:
 
 Na lista de suas jornadas, você pode pausar uma ou várias jornadas do **Live**. Para pausar um grupo de jornadas (_pausa em massa_), selecione-as na lista e clique no botão **Pausar** na barra azul na parte inferior da tela. O botão **Pausar** só estará disponível quando as jornadas do **Live** forem selecionadas.
 
-![Pausar duas jornadas ativas em massa a partir da barra inferior](assets/bulk-pause-journeys.png){width="80%" align="left"}
+![Pausar duas jornadas ativas em massa a partir da barra inferior](assets/bulk-pause-journeys.png)
 
 ### Comportamento em jornadas pausadas
 
@@ -76,21 +76,20 @@ Quando uma jornada é pausada, as entradas novas são sempre descartadas, indepe
 
 O gerenciamento de perfis quando uma jornada é pausada depende da atividade. Os comportamentos estão detalhados abaixo. Para obter uma compreensão completa, consulte também esta [Amostra completa](#journey-pause-sample).
 
-| Atividade de Jornada | Gerenciamento de perfis | Notas |
-|-------------------------|--------------------------------------------------|------------------------|
-| [Qualificação de público-alvo](audience-qualification-events.md) | No primeiro nó: descartado <br> Em outros nós: mesmo comportamento de uma jornada em tempo real, no entanto, se a qualificação de público-alvo estiver após uma atividade de ação e o usuário for pausado nessa ação, a qualificação de público-alvo será descartada. |          |
-| [Evento comercial](general-events.md) | Descartado |    |
-| [Evento Unitário](general-events.md) | No primeiro nó: descartado <br>Em outros nós: o mesmo comportamento de uma jornada em tempo real, no entanto, se o evento ocorrer após uma atividade de ação e o usuário for pausado nessa ação, o evento será descartado. | Elabore sua mensagem |
-| [Ler público-alvo](read-audience.md) | Mesmo comportamento de uma jornada em tempo real, com algumas especificidades:<br> Se a opção Pausar for pressionada após o início da atividade de leitura de público-alvo, os perfis que entraram na jornada continuarão (até a próxima atividade de ação). À medida que o jornada lê os públicos-alvo em uma determinada velocidade, se o público-alvo completo ainda não tiver entrado, os perfis restantes na fila serão descartados. | - Para execuções únicas: não estamos mostrando nenhum erro no momento da retomada se a data programada for anterior à data de retomada. Esse cronograma seria ignorado. <br>- Para jornadas incrementais: <br> Se a pausa ocorrer antes da primeira ocorrência, no currículo o público completo será reproduzido. <br>Se ocorrer uma pausa, por exemplo, no quarto dia de uma recorrência diária e a jornada permanecer pausada até o nono dia, todos os perfis que entraram do quarto ao nono dia serão incluídos na retomada |
+| Atividade de Jornada | Gerenciamento de perfis |
+|-------------------------|--------------------------------------------------|
+| [Qualificação de público-alvo](audience-qualification-events.md) | No primeiro nó: descartado <br> Em outros nós: mesmo comportamento de uma jornada em tempo real, no entanto, se a qualificação de público-alvo estiver após uma atividade de ação e o usuário for pausado nessa ação, a qualificação de público-alvo será descartada. |
+| [Evento Unitário](general-events.md) | No primeiro nó: descartado <br>Em outros nós: o mesmo comportamento de uma jornada em tempo real, no entanto, se o evento ocorrer após uma atividade de ação e o usuário for pausado nessa ação, o evento será descartado. |
+| [Ler público-alvo](read-audience.md) | Mesmo comportamento de uma jornada em tempo real, com algumas especificidades:<br>1.  Se <strong>Pause</strong> foi pressionado após o início da atividade <strong>Read audience</strong>, os perfis que entraram na jornada continuarão (até a próxima atividade <strong>Action</strong>). À medida que o jornada lê os públicos-alvo em uma determinada velocidade, se o público-alvo completo ainda não tiver entrado, os perfis restantes na fila serão descartados.   <br>2. Para execuções únicas: não estamos mostrando nenhum erro no momento da retomada se a data programada for anterior à data da retomada. Esse cronograma seria ignorado. <br>3. Para jornadas incrementais: <br>- Se a pausa ocorrer antes da primeira ocorrência, no currículo o público-alvo completo será reproduzido. <br>- Se ocorrer uma pausa, por exemplo, no quarto dia de uma recorrência diária e a jornada permanecer pausada até o nono dia, todos os perfis que entraram do quarto ao nono dia serão incluídos |
 | [Reação](reaction-events.md) | O mesmo comportamento de uma jornada em tempo real. No entanto, se a reação ocorrer após uma atividade de ação e o usuário for pausado nessa ação, o evento será descartado. |
-| [Aguardar](wait-activity.md) | Mesmo comportamento que em uma jornada em tempo real |           |
-| [Condição](condition-activity.md) | Mesmo comportamento que em uma jornada em tempo real |         |
-| Decisão de conteúdo | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |            |
-| [Ação do canal](journeys-message.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |          |
-| [Ação personalizada](../action/action.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |            |
-| [Atualizar perfil](update-profiles.md) e [Pular](jump.md) |  |       |
-| [Source de Dados Externos](../datasource/external-data-sources.md) | Mesmo comportamento que em uma jornada em tempo real |           |
-| [Critério de saída](journey-properties.md#exit-criteria) | Mesmo comportamento que em uma jornada em tempo real |           |
+| [Aguardar](wait-activity.md) | Mesmo comportamento que em uma jornada em tempo real |
+| [Condição](condition-activity.md) | Mesmo comportamento que em uma jornada em tempo real |
+| Decisão de conteúdo | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
+| [Ação do canal](journeys-message.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
+| [Ação personalizada](../action/action.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
+| [Atualizar perfil](update-profiles.md) e [Pular](jump.md) | Mesmo comportamento que em uma jornada em tempo real |
+| [Source de Dados Externos](../datasource/external-data-sources.md) | Mesmo comportamento que em uma jornada em tempo real |
+| [Critério de saída](journey-properties.md#exit-criteria) | Mesmo comportamento que em uma jornada em tempo real |
 
 ## Como retomar uma jornada pausada {#journey-resume-steps}
 
