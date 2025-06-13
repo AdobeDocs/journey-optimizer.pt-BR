@@ -41,7 +41,7 @@ Esse recurso reduz o risco de enviar mensagens não intencionais durante erros o
 >
 >* As permissões para pausar e retomar jornadas estão restritas a usuários com a permissão de alto nível **[!DNL Publish journeys]**. Saiba mais sobre como gerenciar os direitos de acesso de [!DNL Journey Optimizer] usuários em [esta seção](../administration/permissions-overview.md).
 >
->* Antes de começar a usar o recurso pausar/retomar, [leia as Medidas de Proteção e as Limitações](journey-pause-guardrails).
+>* Antes de começar a usar o recurso pausar/retomar, [leia as Medidas de Proteção e as Limitações] (journey-pause-guardrails).
 
 
 ## Como pausar uma jornada {#journey-pause-steps}
