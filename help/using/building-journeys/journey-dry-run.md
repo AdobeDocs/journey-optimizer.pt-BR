@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '930'
 ht-degree: 5%
 
 ---
@@ -56,25 +56,10 @@ A jornada Dry run traz:
 
 >[!CAUTION]
 >
->As permissões para iniciar o Dry Run estão restritas a usuários com a permissão de alto nível **[!DNL Publish journeys]**. As permissões para parar o Dry Run estão restritas a usuários com a permissão de alto nível **[!DNL Manage journeys]**. Saiba mais sobre como gerenciar os direitos de acesso de [!DNL Journey Optimizer] usuários em [esta seção](../administration/permissions-overview.md).
+>* As permissões para iniciar o Dry Run estão restritas a usuários com a permissão de alto nível **[!DNL Publish journeys]**. As permissões para parar o Dry Run estão restritas a usuários com a permissão de alto nível **[!DNL Manage journeys]**. Saiba mais sobre como gerenciar os direitos de acesso de [!DNL Journey Optimizer] usuários em [esta seção](../administration/permissions-overview.md).
+>
+>* Antes de começar a usar o recurso Dry run, [leia as Medidas de Proteção e as Limitações](#journey-dry-run-limitations).
 
-
-## Medidas de proteção e limitações {#journey-dry-run-limitations}
-
-* O modo simulação não está disponível para jornadas que contêm eventos de reação.
-* Os perfis no modo de simulação são contados em perfis acionáveis.
-* As jornadas de simulação não afetam as regras de negócios.
-* Ao criar uma nova versão do jornada, se uma versão anterior do jornada for **Live**, a ativação do Dry run não será permitida na nova versão.
-* O Jornada Dry run gera stepEvents. Estes stepEvents têm um sinalizador específico e um ID de simulação:
-   * `_experience.journeyOrchestration.stepEvents.inDryRun` retorna `true` se a Execução Seca estiver ativada, caso contrário `false`
-   * `_experience.journeyOrchestration.stepEvents.dryRunID` retorna a ID de uma instância de simulação
-* Durante a simulação, a jornada é executada com as seguintes especificidades:
-
-   * Os nós **Ação de canal**, incluindo emails, SMS ou notificações por push, não são executados.
-   * **As ações personalizadas** estão desabilitadas durante a execução Seca e suas respostas estão definidas como nulas.
-   * **Os nós de espera** são ignorados durante a execução Dry.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **As fontes de dados**, incluindo as fontes de dados externas, são executadas por padrão.
 
 ## Iniciar uma simulação {#journey-dry-run-start}
 
@@ -132,3 +117,20 @@ As jornadas de execução sem erros **devem** ser interrompidas manualmente.
 Clique no botão **Fechar** para encerrar o teste e clique em **Voltar ao Rascunho** para confirmar.
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+
+## Medidas de proteção e limitações {#journey-dry-run-limitations}
+
+* O modo simulação não está disponível para jornadas que contêm eventos de reação.
+* Os perfis no modo de simulação são contados em perfis acionáveis.
+* As jornadas de simulação não afetam as regras de negócios.
+* Ao criar uma nova versão do jornada, se uma versão anterior do jornada for **Live**, a ativação do Dry run não será permitida na nova versão.
+* O Jornada Dry run gera stepEvents. Estes stepEvents têm um sinalizador específico e um ID de simulação:
+   * `_experience.journeyOrchestration.stepEvents.inDryRun` retorna `true` se a Execução Seca estiver ativada, caso contrário `false`
+   * `_experience.journeyOrchestration.stepEvents.dryRunID` retorna a ID de uma instância de simulação
+* Durante a simulação, a jornada é executada com as seguintes especificidades:
+
+   * Os nós **Ação de canal**, incluindo emails, SMS ou notificações por push, não são executados.
+   * **As ações personalizadas** estão desabilitadas durante a execução Seca e suas respostas estão definidas como nulas.
+   * **Os nós de espera** são ignorados durante a execução Dry.
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * **As fontes de dados**, incluindo as fontes de dados externas, são executadas por padrão.

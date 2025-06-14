@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -113,7 +113,7 @@ Para retomar uma jornada pausada e começar a ouvir eventos de jornada novamente
 Na lista de suas jornadas, você pode retomar uma ou várias jornadas **Pausadas**. Para retomar um grupo de jornadas (_retomada em massa_), selecione-as e clique no botão **Retomar**, localizado na barra azul na parte inferior da tela. Observe que o botão **Retomar** só estará disponível quando as jornadas **Pausadas** forem selecionadas.
 
 
-## Aplicar um filtro global a perfis em uma jornada pausada  {#journey-global-filters}
+## Aplicar um filtro global a perfis em uma jornada pausada {#journey-global-filters}
 
 Quando uma jornada é pausada, você pode aplicar um filtro global com base em atributos de perfil. Esse filtro permite a exclusão de perfis que correspondem à expressão definida no momento da retomada. Depois que o filtro global é definido, ele é aplicado aos nós de ação, mesmo para a entrada de novos perfis. Os perfis que correspondem aos critérios e aos novos perfis que tentam entrar serão excluídos da jornada **no nó da próxima ação** que encontrarem.
 
