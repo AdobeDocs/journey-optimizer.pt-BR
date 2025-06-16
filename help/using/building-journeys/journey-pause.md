@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: d1b1670992ba5da14f1a4d0bfab0a7b15b29dec3
+source-git-commit: 8e5213cf51183c68e87c2cec9cb12984acf8151a
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2021'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,8 @@ Para pausar a jornada, siga estas etapas:
 
    É possível:
 
-   * **Suspender** perfis - Os perfis aguardarão a jornada ser retomada
-   * **Descartar** perfis - Os perfis serão excluídos da jornada no nó da próxima ação
+   * **Reter** perfis - Os perfis aguardarão no próximo nó **Ação** para que a jornada seja retomada
+   * **Descartar** perfis - Os perfis serão excluídos da jornada no próximo nó **Ação**
 
 1. Clique no botão **Pausar** para confirmar.
 
@@ -77,12 +77,12 @@ Quando uma jornada é pausada, as entradas novas são sempre descartadas, indepe
 Quando uma jornada é pausada, o gerenciamento de perfil e a execução da atividade dependem dessa atividade. Os comportamentos estão detalhados abaixo. Para obter uma compreensão completa, consulte também esta [Amostra completa](#journey-pause-sample).
 
 
-| Atividade de Jornada | Ao pausar a jornada |
+| Atividade de Jornada | Quando a jornada está em pausa |
 |-------------------------|--------------------------------------------------|
-| [Qualificação de público-alvo](audience-qualification-events.md) | <ul> <li>No primeiro nó: o público-alvo é descartado </li><li>Em outros nós: Mesmo comportamento de uma jornada em tempo real. No entanto, se a qualificação de público-alvo for após uma atividade de <strong>Ação</strong> e o usuário estiver pausado nessa ação, a qualificação de público-alvo será descartada. </li></ul> |
-| [Evento Unitário](general-events.md) | <ul> <li>No primeiro nó: o evento é descartado</li><li>Em outros nós: Mesmo comportamento de uma jornada em tempo real. No entanto, se o evento ocorrer após uma atividade <strong>Ação</strong> e o usuário estiver pausado nessa ação, o evento será descartado. </li></ul> |
-| [Ler público-alvo](read-audience.md) | Mesmo comportamento que em uma jornada em tempo real, com algumas especificidades: <ol> <li> Se <strong>Pause</strong> foi pressionado após o início da atividade <strong>Read audience</strong>, os perfis que entraram na jornada continuarão (até a próxima atividade <strong>Action</strong>). À medida que o jornada lê os públicos-alvo em uma determinada velocidade, se o público-alvo completo ainda não tiver entrado, os perfis restantes na fila serão descartados.</li><li> Para execuções únicas: não estamos mostrando nenhum erro no momento da retomada se a data programada for anterior à data da retomada. Esse cronograma seria ignorado.</li><li>Para jornadas incrementais: <ul><li>Se a pausa ocorrer antes da primeira ocorrência, o público-alvo completo será reproduzido ao retomar. </li><li>Se ocorrer uma pausa, por exemplo, no quarto dia de uma recorrência diária e a jornada permanecer pausada até o nono dia, todos os perfis que entraram do quarto ao nono dia serão incluídos no currículo  </li></ul></ol> |
-| [Reação](reaction-events.md) | Mesmo comportamento de uma jornada em tempo real. No entanto, se a reação ocorrer após uma atividade <strong>Ação</strong> e o usuário estiver pausado nessa ação, o evento será descartado. |
+| [Qualificação de público-alvo](audience-qualification-events.md) | <ul> <li>No primeiro nó da tela: qualquer qualificação de perfil para o público-alvo é descartada </li><li>Em outros nós: Mesmo comportamento de uma jornada em tempo real. No entanto, se a qualificação de público-alvo for após uma atividade de <strong>Ação</strong> e o usuário estiver pausado nessa ação, a qualificação de público-alvo será descartada. </li></ul> |
+| [Evento Unitário](general-events.md) | <ul> <li>No primeiro nó da tela: o evento é descartado</li><li>Em outros nós: Mesmo comportamento de uma jornada em tempo real. No entanto, se o evento ocorrer após uma atividade <strong>Ação</strong> e o usuário estiver pausado nessa ação, o evento será descartado. </li></ul> |
+| [Ler público-alvo](read-audience.md) | Mesmo comportamento que em uma jornada em tempo real, com algumas especificidades: <ol> <li> Se <strong>Pause</strong> foi pressionado após o início da atividade <strong>Read audience</strong>, os perfis que entraram na jornada continuarão (até a próxima atividade <strong>Action</strong>). À medida que o jornada lê os públicos-alvo em uma determinada velocidade, se o público-alvo completo ainda não tiver entrado, os perfis restantes na fila serão descartados.</li><li> Para execuções únicas: nenhum erro será exibido na hora de retomada se a data programada for anterior à data de retomada. Esse cronograma seria ignorado.</li><li>Para jornadas incrementais: <ul><li>Se a pausa ocorrer antes da primeira ocorrência, o público-alvo completo será reproduzido ao retomar. </li><li>Se ocorrer uma pausa, por exemplo, no quarto dia de uma recorrência diária e a jornada permanecer pausada até o nono dia, todos os perfis que entraram do quarto ao nono dia serão incluídos no currículo  </li></ul></ol> |
+| [Reação](reaction-events.md) | Mesmo comportamento de uma jornada em tempo real. No entanto, se a reação ocorrer após uma atividade <strong>Ação</strong> e o usuário estiver pausado nessa ação, o evento de reação será descartado. |
 | [Aguardar](wait-activity.md) | Mesmo comportamento que em uma jornada em tempo real |
 | [Condição](condition-activity.md) | Mesmo comportamento que em uma jornada em tempo real |
 | Decisão de conteúdo | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
@@ -106,7 +106,7 @@ Para retomar uma jornada pausada e começar a ouvir eventos de jornada novamente
 1. Abra a jornada que deseja retomar.
 1. Clique no botão **...Mais** na seção superior direita da tela de jornada e selecione **Retomar**.
 
-   A jornada alterna para o status **Retomando**. Quando a jornada for retomada, as novas entradas começarão em um minuto. A retomada dos perfis que foram mantidos pode levar algum tempo.  Como todos os perfis devem ser retomados para que a jornada seja **Ativa** novamente, a transição do status **Retomando** para **Ativa** pode levar algum tempo.
+   A jornada alterna para o status **Retomando**. Quando a jornada for retomada, as novas entradas começarão em um minuto. A retomada dos perfis que foram mantidos pode levar algum tempo - os perfis são retomados a uma taxa de 5 mil tps.  Como todos os perfis devem ser retomados para que a jornada seja **Ativa** novamente, a transição do status **Retomando** para **Ativa** pode levar algum tempo.
 
 1. Clique no botão **Retomar** para confirmar.
 
@@ -116,7 +116,7 @@ Na lista de suas jornadas, você pode retomar uma ou várias jornadas **Pausadas
 
 ## Aplicar um filtro global a perfis em uma jornada pausada {#journey-global-filters}
 
-Quando uma jornada é pausada, você pode aplicar um filtro global com base em atributos de perfil. Esse filtro permite a exclusão de perfis que correspondem à expressão definida no momento da retomada. Depois que o filtro global é definido, ele é aplicado aos nós de ação, mesmo para a entrada de novos perfis. Os perfis que correspondem aos critérios e aos novos perfis que tentam entrar serão excluídos da jornada **no nó da próxima ação** que encontrarem.
+Quando uma jornada é pausada, você pode aplicar um filtro global com base em atributos de perfil. Esse filtro permite a exclusão de perfis que correspondem à expressão definida no momento da retomada. Depois que o filtro global for definido, ele será aplicado nos nós de ação, mesmo para a entrada de novos perfis. Os perfis existentes que correspondem aos critérios e os novos perfis que entram na jornada serão excluídos da jornada **no próximo nó de ação** que encontrarem.
 
 Por exemplo, para excluir todos os clientes franceses de uma jornada pausada, siga estas etapas:
 
@@ -136,7 +136,7 @@ Por exemplo, para excluir todos os clientes franceses de uma jornada pausada, si
 
 1. [Retomar a jornada](#journey-resume-steps).
 
-   No momento da retomada, todos os perfis com o atributo de país definido como França serão automaticamente excluídos da jornada no nó da próxima ação. Qualquer novo perfil com o atributo de país definido como França ao tentar inserir a jornada será bloqueado no nó da próxima ação.
+   No momento da retomada, todos os perfis com o atributo de país definido como França serão automaticamente excluídos da jornada no nó da próxima ação. Quaisquer novos perfis com o atributo de país definido como França, ao tentar inserir a jornada, também serão bloqueados no nó da próxima ação.
 
 Esteja ciente de que as exclusões de perfil para perfis atualmente na jornada e para novos perfis só ocorrerão quando eles atingirem um nó de ação.
 
@@ -157,9 +157,9 @@ Esteja ciente de que as exclusões de perfil para perfis atualmente na jornada e
 * Mesmo após a pausa, como os eventos continuam a ser processados, esses eventos são contados para o número de Eventos de Jornada por segundo de cota após o qual a limitação é considerada unitária
 * Quando os perfis são mantidos em uma jornada pausada, no momento da retomada, os atributos do perfil são atualizados
 * As condições ainda são executadas em jornadas pausadas, portanto, se uma jornada tiver sido pausada devido a problemas de qualidade de dados, qualquer condição anterior a um nó de ação poderá ser avaliada com dados errados
-* Para jornadas de **Leitura de público** baseadas em público incremental, a duração pausada é levada em consideração. Por exemplo, para uma jornada diária, se ela foi pausada no dia 2 e retomada no dia 5 do mês, a execução no dia 6 levará todos os perfis que se qualificaram do dia 1 ao dia 6. Esse não é o caso para qualificação de público ou jornadas baseadas em eventos (se uma qualificação de público ou um evento for recebido durante uma pausa, esses eventos serão descartados)
+* Para jornadas de **Leitura de público** baseadas em público incremental, a duração pausada é levada em consideração. Esse não é o caso para qualificação de público ou jornadas baseadas em eventos (se uma qualificação de público ou um evento for recebido durante uma pausa e for a primeira atividade na jornada, esses eventos serão descartados)
 * Se os perfis forem mantidos em uma jornada jornada e ela for retomada automaticamente após alguns dias, os perfis continuarão a jornada e não serão descartados. Se quiser soltá-los, você deve interromper a jornada
-* Em jornadas pausadas, os alertas não são acionados para alertas de segmentos em lote
+* No jornada pausado, os alertas não são acionados para [alertas de segmento em lote](../reports/alerts.md#alert-read-audiences)
 * Não há logs de auditoria no sistema quando o estado de pausa de 14 dias da jornada é encerrado
 * Alguns perfis descartados podem estar visíveis no Evento de etapa do Jornada, mas não podem estar visíveis nos relatórios. Por exemplo:
    * Descartar eventos comerciais para **Ler público**
@@ -181,7 +181,7 @@ Ao pausar esta jornada, você seleciona se os perfis estão **Descartados** ou *
 1. Atividades de **Push**/**Email**: durante uma jornada pausada, os perfis começam a aguardar ou são descartados (com base na escolha feita pelo usuário no momento da pausa) no nó da próxima ação. Os perfis começarão a aguardar ou serão descartados lá.
 1. **Eventos** após nós de **Ação**: se um perfil estiver aguardando um nó de **Ação** e houver uma atividade de **Evento** após ele, se esse evento for acionado, o perfil será descartado.
 
-De acordo com esse comportamento, você pode ver números de perfil aumentando em jornadas pausadas, principalmente em atividades antes de **Ações**. Por exemplo, nesse exemplo, a atividade **Wait** é ignorada, aumentando o número de perfis que passam pela atividade **Condition**.
+De acordo com esse comportamento, você pode ver números de perfil aumentando em jornadas pausadas, principalmente em atividades antes de **Ações**. Por exemplo, nesse exemplo, a atividade **Wait** ainda está habilitada, aumentando o número de perfis que passam pela atividade **Condition**, à medida que eles saem dela.
 
 Ao retomar esta jornada:
 
