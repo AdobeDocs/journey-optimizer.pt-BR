@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 33b60693d060e37873f9d505d0893839698036a8
+source-git-commit: d1b1670992ba5da14f1a4d0bfab0a7b15b29dec3
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2014'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,11 @@ Quando uma jornada é pausada, as entradas novas são sempre descartadas, indepe
 Quando uma jornada é pausada, o gerenciamento de perfil e a execução da atividade dependem dessa atividade. Os comportamentos estão detalhados abaixo. Para obter uma compreensão completa, consulte também esta [Amostra completa](#journey-pause-sample).
 
 
-| Atividade de Jornada | Impacto |
+| Atividade de Jornada | Ao pausar a jornada |
 |-------------------------|--------------------------------------------------|
 | [Qualificação de público-alvo](audience-qualification-events.md) | <ul> <li>No primeiro nó: o público-alvo é descartado </li><li>Em outros nós: Mesmo comportamento de uma jornada em tempo real. No entanto, se a qualificação de público-alvo for após uma atividade de <strong>Ação</strong> e o usuário estiver pausado nessa ação, a qualificação de público-alvo será descartada. </li></ul> |
 | [Evento Unitário](general-events.md) | <ul> <li>No primeiro nó: o evento é descartado</li><li>Em outros nós: Mesmo comportamento de uma jornada em tempo real. No entanto, se o evento ocorrer após uma atividade <strong>Ação</strong> e o usuário estiver pausado nessa ação, o evento será descartado. </li></ul> |
-| [Ler público-alvo](read-audience.md) | Mesmo comportamento que em uma jornada em tempo real, com algumas especificidades <ol> <li> Se <strong>Pause</strong> foi pressionado após o início da atividade <strong>Read audience</strong>, os perfis que entraram na jornada continuarão (até a próxima atividade <strong>Action</strong>). À medida que o jornada lê os públicos-alvo em uma determinada velocidade, se o público-alvo completo ainda não tiver entrado, os perfis restantes na fila serão descartados.</li><li> Para execuções únicas: não estamos mostrando nenhum erro no momento da retomada se a data programada for anterior à data da retomada. Esse cronograma seria ignorado.</li><li>Para jornadas incrementais: <ul><li>Se a pausa ocorrer antes da primeira ocorrência, o público-alvo completo será reproduzido ao retomar. </li><li>Se ocorrer uma pausa, por exemplo, no quarto dia de uma recorrência diária e a jornada permanecer pausada até o nono dia, todos os perfis que entraram do quarto ao nono dia serão incluídos no currículo  </li></ul></ol> |
+| [Ler público-alvo](read-audience.md) | Mesmo comportamento que em uma jornada em tempo real, com algumas especificidades: <ol> <li> Se <strong>Pause</strong> foi pressionado após o início da atividade <strong>Read audience</strong>, os perfis que entraram na jornada continuarão (até a próxima atividade <strong>Action</strong>). À medida que o jornada lê os públicos-alvo em uma determinada velocidade, se o público-alvo completo ainda não tiver entrado, os perfis restantes na fila serão descartados.</li><li> Para execuções únicas: não estamos mostrando nenhum erro no momento da retomada se a data programada for anterior à data da retomada. Esse cronograma seria ignorado.</li><li>Para jornadas incrementais: <ul><li>Se a pausa ocorrer antes da primeira ocorrência, o público-alvo completo será reproduzido ao retomar. </li><li>Se ocorrer uma pausa, por exemplo, no quarto dia de uma recorrência diária e a jornada permanecer pausada até o nono dia, todos os perfis que entraram do quarto ao nono dia serão incluídos no currículo  </li></ul></ol> |
 | [Reação](reaction-events.md) | Mesmo comportamento de uma jornada em tempo real. No entanto, se a reação ocorrer após uma atividade <strong>Ação</strong> e o usuário estiver pausado nessa ação, o evento será descartado. |
 | [Aguardar](wait-activity.md) | Mesmo comportamento que em uma jornada em tempo real |
 | [Condição](condition-activity.md) | Mesmo comportamento que em uma jornada em tempo real |
