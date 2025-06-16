@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: conjunto de dados, otimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '894'
 ht-degree: 2%
 
 ---
@@ -167,6 +167,12 @@ ORDER BY timestamp DESC;
 onde o formato de datas é: `YYYY-MM-DD HH:MM:SS`.
 
 Depois de identificados, remova esses endereços da lista de supressão do Journey Optimizer. [Saiba mais](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+
+
+>[!NOTE]
+>
+>Em algumas jornadas, `messageID` pode não ser único para cada entrega individual. Se uma jornada reenviar a mesma ação para o mesmo perfil, o mesmo `messageID` poderá ser reutilizado. Portanto, para rastrear ou atribuir eventos com precisão no nível de envio individual, combine os campos `journeyVersionID`, `journeyActionID` e `batchInstanceID` (para jornadas em lote) ou `identityMap` para obter uma exclusividade mais precisa.
+
 
 ## Conjunto de dados do evento de experiência de rastreamento de push {#push-tracking-experience-event-dataset}
 
