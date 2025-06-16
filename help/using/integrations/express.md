@@ -10,10 +10,10 @@ role: User
 level: Beginner
 keywords: assets, integração
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
+source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 11%
+source-wordcount: '576'
+ht-degree: 10%
 
 ---
 
@@ -52,6 +52,13 @@ Com uma licença Enterprise, os usuários têm acesso total ao editor da Web do 
 Para obter mais informações sobre casos de uso disponíveis para usuários com uma licença Enterprise para Adobe Express, consulte a [documentação da Adobe Express na Web](https://helpx.adobe.com/express/web.html).
 
 ## Uso do Adobe Express sem uma licença Enterprise  {#edit}
+
+Sem uma licença Enterprise, os usuários têm acesso aos seguintes casos de uso disponíveis com o Adobe Express:
+
+* [Redimensionar imagem](#resize)
+* [Remover plano de fundo](#background)
+* [Cortar imagem](#crop-image)
+* [Converter em JPEG ou PNG](#convert)
 
 ### Redimensionar imagem {#resize}
 
@@ -141,7 +148,7 @@ A imagem agora está pronta para ser usada no conteúdo.
 
 Saiba como editar os seus ativos no Adobe Journey Optimizer com as ferramentas do Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455528/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
