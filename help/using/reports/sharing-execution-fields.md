@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 190f757853f65b7434319047760c2efb43d2d702
+source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 4%
@@ -51,13 +51,11 @@ O tempo (em milissegundos) necessário para executar uma ação atual.
 
 Tipo: longo
 
->[!NOTE]
->
-> O campo `actionExecutionTime` representa o tempo total (em milissegundos) necessário para executar a ação, incluindo o tempo que a solicitação gastou aguardando na fila (se a limitação estiver configurada e o limite de taxa for atingido) e o tempo de execução real (incluindo a latência de rede para o ponto de extremidade externo).
->
-> O campo `Timestamp` indica a hora de término da execução da ação. Para determinar quando o perfil entrou no nó de ação personalizada, subtraia `actionExecutionTime` de `Timestamp`.
->
->Por exemplo, se `Timestamp` for &quot;2025-02-04 09:39:03 UTC&quot; e `actionExecutionTime` for 1.813.227 ms (~31 minutos), o perfil entrou no nó em aproximadamente &quot;2025-02-04 09:08:32 UTC&quot;.
+O campo `actionExecutionTime` representa o tempo total (em milissegundos) necessário para executar a ação, incluindo o tempo que a solicitação gastou aguardando na fila (se a limitação estiver configurada e o limite de taxa for atingido) e o tempo de execução real (incluindo a latência de rede para o ponto de extremidade externo).
+
+O campo `Timestamp` indica a hora de término da execução da ação. Para determinar quando o perfil entrou no nó de ação personalizada, subtraia `actionExecutionTime` de `Timestamp`.
+
+Por exemplo, se `Timestamp` for &quot;2025-02-04 09:39:03 UTC&quot; e `actionExecutionTime` for 1.813.227 ms (~31 minutos), o perfil entrou no nó em aproximadamente &quot;2025-02-04 09:08:32 UTC&quot;.
 
 
 
