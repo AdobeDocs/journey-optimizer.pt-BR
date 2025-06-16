@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 187ddc49d72a0ed5ce0ad6f7b910815ae2e59d34
+source-git-commit: 33b60693d060e37873f9d505d0893839698036a8
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Esse recurso reduz o risco de enviar mensagens não intencionais durante erros o
 >
 >* As permissões para pausar e retomar jornadas estão restritas a usuários com a permissão de alto nível **[!DNL Publish journeys]**. Saiba mais sobre como gerenciar os direitos de acesso de [!DNL Journey Optimizer] usuários em [esta seção](../administration/permissions-overview.md).
 >
->* Antes de começar a usar o recurso pausar/retomar, [leia as Medidas de Proteção e as Limitações](#journey-pause-guardrails).
+>* Antes de começar a usar o recurso pausar/retomar, [leia as Medidas de Proteção e as limitações](#journey-pause-guardrails).
 
 
 ## Como pausar uma jornada {#journey-pause-steps}
@@ -148,39 +148,42 @@ Esteja ciente de que as exclusões de perfil para perfis atualmente na jornada e
 
 ## Medidas de proteção e limitações {#journey-pause-guardrails}
 
-* Uma versão do jornada pode ser pausada por no máximo 14 dias.
-* As jornadas pausadas são consideradas em todas as regras de negócios, da mesma forma como se estivessem ativas.
-* Os perfis são &quot;descartados&quot; em uma jornada pausada quando atingem uma atividade de ação. Se eles permanecerem em espera durante o tempo em que uma jornada é pausada e saírem dessa espera depois que ela for retomada, eles continuarão a jornada e não serão descartados.
-* Mesmo após a pausa, como os eventos continuam a ser processados, esses eventos são contados para o número de Eventos de Jornada por segundo de cota após o qual a limitação é considerada unitária.
-* Os perfis que entraram na jornada, mas foram descartados durante a pausa, ainda seriam contados como perfis ativáveis.
+* Uma versão do jornada pode ser pausada por no máximo 14 dias
+* As jornadas pausadas são contadas para a cota de jornada ativa
+* Os perfis que tinham entrado na jornada, mas foram descartados durante a pausa, ainda seriam contados como perfis ativáveis
+* As jornadas pausadas são consideradas em todas as regras de negócios, da mesma forma como se estivessem ativas
+* O tempo limite global de Jornada ainda se aplica a jornadas pausadas. Por exemplo, se um perfil esteve em uma jornada por 90 dias e a jornada estiver pausada, esse perfil ainda sairá da jornada no 91º dia
+* Os perfis são **descartados** em uma jornada pausada quando atingem uma atividade de ação. Se eles permanecerem em espera durante o tempo em que uma jornada é pausada e saírem dessa espera depois que ela for retomada, eles continuarão a jornada e não serão descartados. [Consulte a amostra completa](#journey-pause-sample)
+* Mesmo após a pausa, como os eventos continuam a ser processados, esses eventos são contados para o número de Eventos de Jornada por segundo de cota após o qual a limitação é considerada unitária
 * Quando os perfis são mantidos em uma jornada pausada, no momento da retomada, os atributos do perfil são atualizados
-* As condições ainda são executadas em jornadas pausadas, portanto, se uma jornada tiver sido pausada devido a problemas de qualidade de dados, qualquer condição anterior a um nó de ação poderá ser avaliada com dados errados.
-* Para uma jornada de público-alvo de leitura incremental com base no público-alvo, a duração pausada é levada em consideração. Por exemplo, para uma jornada diária, se ela foi pausada no dia 2 e retomada no dia 5 do mês, a execução no dia 6 levará todos os perfis que se qualificaram do dia 1 ao dia 6. Esse não é o caso para qualificação de público-alvo ou jornadas baseadas em eventos (se uma qualificação de público-alvo ou um evento for recebido durante uma pausa, esses eventos serão descartados).
-* As jornadas pausadas são contadas em relação à cota de jornada ativa.
-* O tempo limite global de Jornada ainda se aplica a jornadas pausadas. Por exemplo, se um perfil esteve em uma jornada por 90 dias e a jornada estiver pausada, esse perfil ainda sairá da jornada no 91º dia.
-* Se os perfis forem mantidos em uma jornada jornada e ela for retomada automaticamente após alguns dias, os perfis continuarão a jornada e não serão descartados. Se quiser soltá-los, você deve parar a jornada.
-* Em jornadas pausadas, os alertas não são acionados para alertas de segmentos em lote.
-* Não há logs de auditoria no sistema quando o estado de pausa de 14 dias da jornada é encerrado.
-* Alguns perfis descartados podem estar visíveis no Evento de etapa do Jornada, mas não podem estar visíveis nos relatórios. Por exemplo: Descartar eventos comerciais para Público-alvo de leitura, trabalhos de Público-alvo de leitura sendo descartados devido à jornada pausada, eventos descartados quando a atividade do evento estava após uma ação em que o perfil estava aguardando.
-  <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+* As condições ainda são executadas em jornadas pausadas, portanto, se uma jornada tiver sido pausada devido a problemas de qualidade de dados, qualquer condição anterior a um nó de ação poderá ser avaliada com dados errados
+* Para jornadas de **Leitura de público** baseadas em público incremental, a duração pausada é levada em consideração. Por exemplo, para uma jornada diária, se ela foi pausada no dia 2 e retomada no dia 5 do mês, a execução no dia 6 levará todos os perfis que se qualificaram do dia 1 ao dia 6. Esse não é o caso para qualificação de público ou jornadas baseadas em eventos (se uma qualificação de público ou um evento for recebido durante uma pausa, esses eventos serão descartados)
+* Se os perfis forem mantidos em uma jornada jornada e ela for retomada automaticamente após alguns dias, os perfis continuarão a jornada e não serão descartados. Se quiser soltá-los, você deve interromper a jornada
+* Em jornadas pausadas, os alertas não são acionados para alertas de segmentos em lote
+* Não há logs de auditoria no sistema quando o estado de pausa de 14 dias da jornada é encerrado
+* Alguns perfis descartados podem estar visíveis no Evento de etapa do Jornada, mas não podem estar visíveis nos relatórios. Por exemplo:
+   * Descartar eventos comerciais para **Ler público**
+   * **Ler público-alvo** trabalhos sendo ignorados devido à jornada pausada
+   * Eventos descartados quando a atividade **Event** era posterior a uma ação em que o perfil estava aguardando
+     <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## Amostra completa {#journey-pause-sample}
 
 Vamos ver o exemplo da jornada abaixo:
 
-![Amostra de uma jornada](assets/pause-journey-sample.png)
+![Amostra de uma jornada](assets/pause-journey-sample.png){zoomable="yes"}
 
-Ao pausar esta jornada, você seleciona se os perfis estão **Descartados** ou **Suspensos** e, em seguida, o gerenciamento de perfis é o seguinte:
+Ao pausar esta jornada, você seleciona se os perfis estão **Descartados** ou **Suspensos**. Em seguida, o gerenciamento de perfis é o seguinte:
 
 1. Atividade **AddToCart**: todas as novas entradas de perfis estão bloqueadas. Se um perfil já tiver entrado na jornada antes de uma pausa, ele continuará até o nó da próxima ação.
 1. Atividade **Wait**: os perfis continuam a aguardar normalmente no nó e vão sair dele, mesmo se a jornada estiver em pausa.
 1. **Condição**: os perfis continuam a passar pelas condições e a mover para a ramificação direita com base na expressão definida na condição.
 1. Atividades de **Push**/**Email**: durante uma jornada pausada, os perfis começam a aguardar ou são descartados (com base na escolha feita pelo usuário no momento da pausa) no nó da próxima ação. Os perfis começarão a aguardar ou serão descartados lá.
-1. **Eventos** após os nós de ação: se um perfil estiver aguardando um nó de ação e houver um evento após ele, se esse evento for acionado, o perfil será descartado.
+1. **Eventos** após nós de **Ação**: se um perfil estiver aguardando um nó de **Ação** e houver uma atividade de **Evento** após ele, se esse evento for acionado, o perfil será descartado.
 
-De acordo com esse comportamento, é possível ver o aumento dos números de perfil na jornada pausada, principalmente em atividades antes de Ações. Por exemplo, nesse exemplo, a variável Wait é ignorada, aumentando o número de perfis que passam pela atividade Condition.
+De acordo com esse comportamento, você pode ver números de perfil aumentando em jornadas pausadas, principalmente em atividades antes de **Ações**. Por exemplo, nesse exemplo, a atividade **Wait** é ignorada, aumentando o número de perfis que passam pela atividade **Condition**.
 
 Ao retomar esta jornada:
 
 1. As novas entradas de jornada começam em um minuto
-1. Os perfis que estavam aguardando atualmente nas atividades jornada on Action são retomados a uma taxa de 5 mil tps. Em seguida, eles entrarão na Ação que estavam esperando e continuarão a jornada.
+1. Os perfis que estavam aguardando na jornada em **Atividades de ação** são retomados a uma taxa de 5 mil tps. Eles podem inserir a **Ação** que estavam esperando e continuar a jornada.
