@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 8e5213cf51183c68e87c2cec9cb12984acf8151a
+source-git-commit: 437868d49f4bc4123e370b60d09ba0bf644e43d9
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 0%
@@ -185,5 +185,5 @@ De acordo com esse comportamento, você pode ver números de perfil aumentando e
 
 Ao retomar esta jornada:
 
-1. As novas entradas de jornada começam em um minuto
+1. As novas entradas de jornada começam em um minuto.
 1. Os perfis que estavam aguardando na jornada em **Atividades de ação** são retomados a uma taxa de 5 mil tps. Eles podem inserir a **Ação** que estavam esperando e continuar a jornada.
