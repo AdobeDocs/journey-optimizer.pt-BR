@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
+source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 39%
+source-wordcount: '1674'
+ht-degree: 38%
 
 ---
 
@@ -229,9 +229,9 @@ Veja um exemplo do tipo de autenticação de portador:
 
 >[!NOTE]
 >
->O token de autenticação é armazenado em cache por jornada: se duas jornadas estiverem usando a mesma ação personalizada, cada jornada terá seu próprio token em cache. Esse token não é compartilhado entre essas jornadas.
+>* O token de autenticação é armazenado em cache por jornada: se duas jornadas estiverem usando a mesma ação personalizada, cada jornada terá seu próprio token em cache. Esse token não é compartilhado entre essas jornadas.
 >
->A duração do cache ajuda a evitar muitas chamadas para os pontos de extremidade de autenticação. A retenção do token de autenticação é armazenada em cache nos serviços; não há persistência. Se um serviço for reiniciado, ele será iniciado com um cache limpo. A duração padrão do cache é de 1 hora. Na carga de autenticação personalizada, ela pode ser adaptada especificando outra duração de retenção.
+>* A duração do cache ajuda a evitar muitas chamadas para os pontos de extremidade de autenticação. A retenção do token de autenticação é armazenada em cache nos serviços; não há persistência. Se um serviço for reiniciado, ele será iniciado com um cache limpo. A duração padrão do cache é de 1 hora. Na carga de autenticação personalizada, ela pode ser adaptada especificando outra duração de retenção.
 >
 
 Veja um exemplo do tipo de autenticação de cabeçalho:
@@ -269,3 +269,7 @@ Este é um exemplo da resposta da chamada de API de logon:
   "expiryDuration" : 5
 }
 ```
+
+>[!CAUTION]
+>
+>Ao configurar a autenticação personalizada para uma ação personalizada, observe que objetos JSON aninhados (por exemplo, sub-objetos dentro de `bodyParams`) atualmente **não são suportados**. Somente pares de valores chave simples serão incluídos na carga da solicitação final. Se o endpoint de autenticação exigir objetos aninhados, isso poderá resultar em campos ausentes e falhas de autenticação.
