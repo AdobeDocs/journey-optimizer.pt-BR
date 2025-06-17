@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2143'
 ht-degree: 70%
 
 ---
@@ -30,7 +30,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 **Data de lançamento**: 17 a 18 de junho de 2025
 
-Consulte também [Notas de pré-lançamento do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Consulte também [Notas de pré-lançamento do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Novos recursos {#25-06-features}
 
@@ -69,7 +69,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora é possível definir campos editáveis específicos em modelos de conteúdo JSON ou HTML que permitem que usuários não técnicos editem facilmente o conteúdo em uma exibição de formulário na criação do canal de experiência baseado em código, sem a necessidade de manipular qualquer código. Mais do que isso, ao definir os modelos de conteúdo de experiência baseados em código, agora é possível inserir políticas de decisão no modelo, aumentando a reutilização e a facilidade de uso.</p>
+<p>Agora é possível definir campos editáveis específicos em modelos de conteúdo JSON ou HTML que permitem que usuários não técnicos editem facilmente o conteúdo em uma exibição de formulário na criação do canal de experiência baseado em código, sem a necessidade de manipular qualquer código.<br />Mais do que isso, ao definir os modelos de conteúdo de experiência baseados em código, agora é possível inserir políticas de decisão no modelo, aumentando a reutilização e a facilidade de uso.</p>
 </td>
 </tr>
 </tbody>
@@ -85,7 +85,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>Além da delegação completa e do método CNAME, um novo método de configuração de subdomínio está disponível: o método de delegação Personalizado, que permite controlar e manter totalmente todos os aspectos do DNS necessários para entregar, renderizar e rastrear mensagens.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
 </tr>
 </tbody>
@@ -194,14 +193,17 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Experiências baseadas em código**
 
-  As políticas de decisão agora estão disponíveis em modelos de conteúdo de experiência baseados em código e no painel direito do editor de código.
+   * A adição de uma política de decisão agora está disponível em modelos de conteúdo de experiência baseados em código.
 
-* **Designer de email**
+   * Na tela de jornada de experiência ou edição de campanha baseada em código, agora é possível adicionar uma política de decisão diretamente, sem abrir o editor de personalização.
 
-   * **Suporte a CSS personalizado** - o Journey Optimizer agora permite que você adicione CSS personalizado ao seu conteúdo de email diretamente no Designer de email.
-   * **Suporte para o modo escuro** - O designer de email do Journey Optimizer agora oferece a capacidade de alternar para o modo escuro, onde é possível definir configurações específicas.
+* **Suporte a CSS personalizado no Designer de email**
 
-* **Campanhas** - Nova navegação com guias para campanhas de ação. Esse novo padrão de navegação permite um acesso mais rápido à criação de conteúdo e oferece suporte à expansão adicional das configurações em campanhas.
+  O Journey Optimizer agora permite adicionar CSS personalizado ao seu conteúdo de email diretamente no Designer de email.
+
+* **Nova navegação com guias para campanhas**
+
+  Um novo padrão de navegação permite um acesso mais rápido à criação de conteúdo e oferece suporte à expansão adicional das configurações em campanhas.
 
 * **Decisão**: data de disponibilidade: 3 de junho de 2025
 

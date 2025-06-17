@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8188749c47be0a3d91b9857d170bceb4747a3400
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 33%
+source-wordcount: '1022'
+ht-degree: 40%
 
 ---
 
@@ -83,7 +83,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora é possível definir campos editáveis específicos em modelos de conteúdo JSON ou HTML que permitem que usuários não técnicos editem facilmente o conteúdo em uma exibição de formulário na criação do canal de experiência baseado em código, sem a necessidade de manipular qualquer código. Mais do que isso, ao definir os modelos de conteúdo de experiência baseados em código, agora é possível inserir políticas de decisão no modelo, aumentando a reutilização e a facilidade de uso.</p>
+<p>Agora é possível definir campos editáveis específicos em modelos de conteúdo JSON ou HTML que permitem que usuários não técnicos editem facilmente o conteúdo em uma exibição de formulário na criação do canal de experiência baseado em código, sem a necessidade de manipular qualquer código.<br />Mais do que isso, ao definir os modelos de conteúdo de experiência baseados em código, agora é possível inserir políticas de decisão no modelo, aumentando a reutilização e a facilidade de uso.</p>
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>Além da delegação completa e do método CNAME, um novo método de configuração de subdomínio está disponível: o método de delegação Personalizado, que permite controlar e manter totalmente todos os aspectos do DNS necessários para entregar, renderizar e rastrear mensagens.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
 </tr>
 </tbody>
@@ -143,7 +142,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Execução de prática da jornada</strong><br/></th>
+<th><strong>Execução de prática de jornada</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -178,13 +177,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Dimensionar o vencedor do experimento</strong><br/></th>
+<th><strong>Dimensionar o experimento vencedor</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dimensione o vencedor da experimentação para implantar automática ou manualmente a variação vencedora de um experimento em todo o público-alvo. Esse recurso garante que, após identificar o melhor desempenho, seja possível maximizar seu alcance e eficácia sem necessidade de supervisão manual constante.</p>
+<p>A opção Dimensionar o experimento vencedor permite implantar de forma automática ou manual a variação vencedora de um experimento em todo o seu público-alvo. Esse recurso garante que, após identificar o melhor desempenho, seja possível maximizar seu alcance e eficácia sem necessidade de supervisão manual constante.</p>
 <p>Para obter mais informações, consulte a <a href="../content-management/content-experiment.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 2 de junho de 2025</p></td>
 </tr>
@@ -227,22 +226,26 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Experiências baseadas em código**
 
-  As políticas de decisão agora estão disponíveis em modelos de conteúdo de experiência baseados em código e no painel direito do editor de código.
+   * A adição de uma política de decisão agora está disponível em modelos de conteúdo de experiência baseados em código.
 
-* **Designer de email**
+   * Na tela de jornada de experiência ou edição de campanha baseada em código, agora é possível adicionar uma política de decisão diretamente, sem abrir o editor de personalização.
 
-   * **Suporte a CSS personalizado** - o Journey Optimizer agora permite que você adicione CSS personalizado ao seu conteúdo de email diretamente no Designer de email.
-   * **Suporte para o modo escuro** - O designer de email do Journey Optimizer agora oferece a capacidade de alternar para o modo escuro, onde é possível definir configurações específicas.
+* **Suporte a CSS personalizado no Designer de email**
 
+  O Journey Optimizer agora permite adicionar CSS personalizado ao seu conteúdo de email diretamente no Designer de email.
 
-* **Decisão** - Data de disponibilidade: 3 de junho de 2025
+* **Nova navegação com guias para campanhas**
+
+  Um novo padrão de navegação permite um acesso mais rápido à criação de conteúdo e oferece suporte à expansão adicional das configurações em campanhas.
+
+* **Decisão**: data de disponibilidade: 3 de junho de 2025
 
   Os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação. [Leia mais](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **Suporte a atributos de item de decisão para regras de decisão** - Data de disponibilidade: 4 de junho de 2025
+* **Suporte a atributos de item de decisão para regras de decisão** — Data de disponibilidade: 4 de junho de 2025
 
-  Agora você pode aproveitar os atributos de item de decisão para criar regras de decisão. [Leia mais](../experience-decisioning/rules.md#create)
+  Agora é possível usar atributos de item de decisão para criar regras de decisão. [Leia mais](../experience-decisioning/rules.md#create)
 
-* **Atualização da API de execução de mensagem interativa** - Data de disponibilidade: 6 de junho de 2025
+* **Atualização da API de execução de mensagem interativa** — Data de disponibilidade: 6 de junho de 2025
 
   A API de execução de mensagem interativa agora permite excluir a programação da execução de campanhas futuras. [Leia mais](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
