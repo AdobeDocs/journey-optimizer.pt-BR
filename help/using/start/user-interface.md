@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '1694'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Crie campanhas e jornadas nesta seção.
 
 * **[!UICONTROL Jornadas]**: crie, configure e orquestre suas jornadas de cliente. Combine as atividades de eventos, orquestração e ação para construir cenários entre canais de várias etapas. [Saiba mais](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Relatórios]** - os relatórios do Journey Optimizer são totalmente integrados aos recursos do Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e a confiabilidade dos dados. Essa integração perfeita entre o Journey Optimizer e o Customer Journey Analytics fornece uma visão mais clara das métricas de desempenho, permitindo que os usuários tomem decisões mais conscientes. [Saiba mais](../reports/report-gs-cja.md)
+* **[!UICONTROL Relatórios]**: os relatórios do Journey Optimizer são totalmente integrados aos recursos do Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e a confiabilidade dos dados. Essa integração perfeita entre o Journey Optimizer e o Customer Journey Analytics fornece uma visão mais clara das métricas de desempenho, permitindo que os usuários tomem decisões mais conscientes. [Saiba mais](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL GESTÃO DE DECISÕES] {#left-nav-decision}
@@ -203,7 +203,7 @@ A interface está disponível nos seguintes idiomas:
 
 O idioma padrão da interface é determinado pelo idioma preferencial especificado no perfil do usuário.
 
-+++ **Como alterar seu idioma**
++++ **Como alterar o idioma**
 
 Para alterar o idioma, siga estas etapas:
 
@@ -217,7 +217,7 @@ Para alterar o idioma, siga estas etapas:
 
 ## Saiba mais {#more}
 
-Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas específicas? Administrador da instância da sua empresa? [Siga seu próprio caminho para atingir suas metas com mais rapidez](quick-start.md)!
+Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas específicas? Administrador da instância da sua empresa? [Siga o seu próprio caminho para atingir os seus objetivos com muito mais rapidez](quick-start.md).
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
@@ -233,28 +233,28 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_1"
 >title="Orquestração de campanha"
->abstract="Dividir, combinar, enriquecer e manipular conjuntos de dados relacionais para definir seu público"
+>abstract="Dividir, combinar, enriquecer e manipular conjuntos de dados relacionais para definir seu público-alvo"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
->title="Aproveitar dados de várias entidades"
->abstract="Saiba como as campanhas orquestradas podem aproveitar os conjuntos de dados relacionais para enriquecer dados para segmentação e personalização"
+>title="Usar dados de várias entidades"
+>abstract="Saiba como campanhas orquestradas podem aproveitar conjuntos de dados relacionais para enriquecer dados para segmentação e personalização"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_3"
 >title="Segmentação ad-hoc e contagens exatas"
->abstract="Crie o segmento passo a passo com contagens exatas"
+>abstract="Criar o segmento passo a passo com contagens exatas"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="Canais disponíveis"
->abstract="Email, SMS, Notificações por push, Mala direta"
+>abstract="Email, SMS, notificações por push, correspondência direta"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
@@ -262,7 +262,7 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_1"
 >title="Interface guiada para criar e enviar uma campanha"
->abstract="Defina uma ou várias ações com um canal, escolha um público, defina um conteúdo, defina um agendamento e você está pronto para enviar"
+>abstract="Defina uma ou várias ações com um canal, escolha um público-alvo, defina um conteúdo, defina um cronograma e você estará pronto para enviar"
 
 
 >[!CONTEXTUALHELP]

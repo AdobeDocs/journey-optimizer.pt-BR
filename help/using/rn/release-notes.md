@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 61%
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 61%
 >title="Novidades?"
 >abstract="O **Adobe Journey Optimizer** está sempre fornecendo novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão."
 
-O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão. O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão. O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 
 ## Notas de versão antecipadas de junho de 2025 {#25-6-rn}
@@ -30,7 +30,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 **Data de lançamento**: 17 a 18 de junho de 2025
 
-Consulte também [Notas de pré-lançamento do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Consulte também [Notas de pré-lançamento do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Novos recursos {#25-06-features}
 
@@ -111,7 +111,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Execução de prática da jornada</strong><br/></th>
+<th><strong>Execução de prática de jornada</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -145,13 +145,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Dimensionar o vencedor do experimento</strong><br/></th>
+<th><strong>Dimensionar o experimento vencedor</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dimensione o vencedor da experimentação para implantar automática ou manualmente a variação vencedora de um experimento em todo o público-alvo. Esse recurso garante que, após identificar o melhor desempenho, seja possível maximizar seu alcance e eficácia sem necessidade de supervisão manual constante.</p>
+<p>A opção Dimensionar o experimento vencedor permite implantar de forma automática ou manual a variação vencedora de um experimento em todo o seu público-alvo. Esse recurso garante que, após identificar o melhor desempenho, seja possível maximizar seu alcance e eficácia sem necessidade de supervisão manual constante.</p>
 <p>Para obter mais informações, consulte a <a href="../content-management/content-experiment.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 2 de junho de 2025</p></td>
 </tr>
@@ -203,15 +203,15 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Campanhas** - Nova navegação com guias para campanhas de ação. Esse novo padrão de navegação permite um acesso mais rápido à criação de conteúdo e oferece suporte à expansão adicional das configurações em campanhas.
 
-* **Decisão** - Data de disponibilidade: 3 de junho de 2025
+* **Decisão**: data de disponibilidade: 3 de junho de 2025
 
   Os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação. [Leia mais](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **Suporte a atributos de item de decisão para regras de decisão** - Data de disponibilidade: 4 de junho de 2025
+* **Suporte a atributos de item de decisão para regras de decisão** — Data de disponibilidade: 4 de junho de 2025
 
-  Agora você pode aproveitar os atributos de item de decisão para criar regras de decisão. [Leia mais](../experience-decisioning/rules.md#create)
+  Agora é possível usar atributos de item de decisão para criar regras de decisão. [Leia mais](../experience-decisioning/rules.md#create)
 
-* **Atualização da API de execução de mensagem interativa** - Data de disponibilidade: 6 de junho de 2025
+* **Atualização da API de execução de mensagem interativa** — Data de disponibilidade: 6 de junho de 2025
 
   A API de execução de mensagem interativa agora permite excluir a programação da execução de campanhas futuras. [Leia mais](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
 
@@ -233,10 +233,10 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>Agora há uma exibição de calendário disponível nas listas de jornadas e campanhas. Ela permite ver todas as ativações de jornadas e campanhas nas respectivas listas.</p>
-<p>No momento, essa alteração está disponível apenas para algumas organizações (disponibilidade limitada). Para solicitar acesso, use <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">este formulário</a>.</p>
+<p>Essa alteração está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para solicitar acesso, use <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">este formulário</a>.</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>Para obter mais informações, consulte estas seções: <a href="../building-journeys/journey-ui.md">Procurar e filtrar suas jornadas</a>, <a href="../campaigns/modify-stop-campaign.md">Acessar campanhas</a>.</p>
-<p>Data de disponibilidade: quinta-feira, 28 de maio de 2025</p>
+<p>Para obter mais informações, consulte estas seções: <a href="../building-journeys/journey-ui.md">Procurar e filtrar jornadas</a>, <a href="../campaigns/modify-stop-campaign.md">Acessar campanhas</a>.</p>
+<p>Data de disponibilidade: 28 de maio de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -341,7 +341,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#schedule">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: quarta-feira, 20 de maio de 2025</p>
+<p>Data de disponibilidade: 20 de maio de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -359,7 +359,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <p>O Journey Optimizer agora permite configurar provedores de SMS adicionais além das opções padrão: Sinch, Infobip e Twilio. Com a configuração personalizada do provedor SMS, é possível integrar diretamente provedores de terceiros, aproveitar a personalização avançada de conteúdo para gerar mensagens dinâmicas e gerenciar preferências de consentimento (aceitação e recusa) para garantir a conformidade.</p>
 <p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p>
 <p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
-<p>Data de disponibilidade: quarta-feira, 20 de maio de 2025</p>
+<p>Data de disponibilidade: 20 de maio de 2025</p>
 </td>
 </td>
 </tr>
@@ -408,7 +408,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 
-* **Suporte a novos objetos de campanha para cópia da sandbox** - Data de disponibilidade: 15 de maio de 2025
+* **Suporte a novos objetos de campanha para cópia da sandbox** — Data de disponibilidade: 15 de maio de 2025
 
   Ao copiar campanhas em várias sandboxes usando os recursos de exportação e importação de pacotes, as seguintes dependências agora também são copiadas: configurações de canal, variantes e configurações de experimento, políticas e itens de decisão. [Leia mais](../configuration/copy-objects-to-sandbox.md)
 
@@ -428,15 +428,15 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
   >
   >Esse recurso será implantado gradualmente em todos os ambientes nos próximos 30 dias.
 
-* Suporte a &#39;Redirecionar para URL&#39; do **no canal da Web** - Data de disponibilidade: 20 de maio de 2025
+* **Suporte ao recurso “Redirecionar para URL” no canal da Web** — Data de disponibilidade: 20 de maio de 2025
 
   O canal da web do Journey Optimizer agora permite redirecionar visitantes para outro URL existente, em vez de criar uma nova variação no editor visual. Esse recurso pode ser usado para realizar experimentos comparando duas páginas completamente diferentes, em vez de apenas alterar alguns elementos em uma página. [Leia mais](../web/create-web.md#web-redirect-to-url)
 
-* **Pastas para modelos e fragmentos** - Data de disponibilidade: 20 de maio de 2025
+* **Pastas para modelos e fragmentos** — Data de disponibilidade: 20 de maio de 2025
 
   As pastas permitem organizar objetos com mais facilidade e eficácia, usando uma hierarquia estruturada. Anteriormente disponíveis para apenas algumas organizações (disponibilidade limitada), as pastas agora estão disponíveis para todos os usuários (disponibilidade geral), permitindo o gerenciamento de modelos e fragmentos de conteúdo. Saiba mais nas seções [Modelos de conteúdo](../content-management/access-content-templates.md#folders) e [Fragmentos](../content-management/manage-fragments.md#folders).
 
-* **Rastreamento de cliques em modelos de email** - Data de disponibilidade: 20 de maio de 2025
+* **Rastreamento de cliques em modelos de email** — Data de disponibilidade: 20 de maio de 2025
 
   O rastreamento de cliques em elementos `<area>` nos mapas de imagem de conteúdos de email agora é um recurso nativo do [!DNL Journey Optimizer]. Isso visa garantir que as áreas do mapa de imagem recebam o mesmo tratamento de rastreamento que os hiperlinks padrão, o que envolve a inclusão de códigos, dados e parâmetros de rastreamento. [Saiba mais sobre o rastreamento de mensagens](../email/message-tracking.md#manage-tracking)
 
@@ -445,7 +445,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
   
   Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
 
-* **Painel direito na lista de campanhas** - Data de disponibilidade: 20 de maio de 2025
+* **Painel direito na lista de campanhas** — Data de disponibilidade: 20 de maio de 2025
 
   Agora, selecionar uma campanha na lista abre um painel que exibe seus detalhes.
 

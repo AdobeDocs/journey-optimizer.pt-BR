@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 95%
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
       + [Simular a jornada](using/building-journeys/journey-simulation.md)
-      + [Jornada simulação](using/building-journeys/journey-dry-run.md)
+      + [Execução de prática de jornada](using/building-journeys/journey-dry-run.md)
       + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
       + [Relatório em tempo real na sua jornada](using/building-journeys/report-journey.md)
       + [Pausar uma jornada](using/building-journeys/journey-pause.md)
@@ -63,7 +63,7 @@ ht-degree: 95%
       + [Encerrar sua jornada](using/building-journeys/end-journey.md)
       + [Copiar uma jornada para outra sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Solucionar problemas da jornada](using/building-journeys/troubleshooting.md)
-      + [Solução de problemas de ações de entrada no jornada](using/building-journeys/troubleshooting-inbound.md)
+      + [Solução de problemas de ações de entrada na jornada](using/building-journeys/troubleshooting-inbound.md)
       + [Integrar a serviços inteligentes](using/building-journeys/ai-services-overview.md)
    + Atividades {#about-journey-building}
       + [Introdução às atividades de jornada](using/building-journeys/about-journey-activities.md)
@@ -180,7 +180,7 @@ ht-degree: 95%
    + [Introdução às campanhas orquestradas](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Etapas de configuração](using/orchestrated/configuration-steps.md)
    + [Acessar e gerenciar campanhas orquestradas](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + Iniciar sua primeira campanha orquestrada{#launch}
+   + Lançar a primeira campanha orquestrada{#launch}
       + [Etapas principais para a criação de campanha orquestrada](using/orchestrated/gs-campaign-creation.md)
       + [Criar e agendar a campanha](using/orchestrated/create-orchestrated-campaign.md)
       + [Orquestrar atividades](using/orchestrated/orchestrate-activities.md)
@@ -189,7 +189,7 @@ ht-degree: 95%
       + [Relatórios](using/orchestrated/reporting-campaigns.md)
    + Consultar o banco de dados {#query-database}
       + [Trabalhar com o construtor de regras](using/orchestrated/orchestrated-rule-builder.md)
-      + [Crie sua primeira regra](using/orchestrated/build-query.md)
+      + [Criar a primeira regra](using/orchestrated/build-query.md)
       + [Editar expressões](using/orchestrated/edit-expressions.md)
    + Atividades de campanhas orquestradas {#design-campaigns}
       + [Introdução às atividades](using/orchestrated/activities/about-activities.md)
@@ -738,7 +738,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
    + [Configurar regra de negócios](using/configuration/frequency-rules.md)
 + Configuração de jornada {#configure-journeys}
-   + [Introdução à configuração do jornada](using/configuration/about-data-sources-events-actions.md)
+   + [Introdução à configuração de jornadas](using/configuration/about-data-sources-events-actions.md)
    + Configuração de evento {#events-journeys}
       + [Trabalhar com eventos de jornada](using/event/about-events.md)
       + [Configurar um evento unitário](using/event/about-creating.md)
@@ -764,9 +764,9 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [API de limite](using/configuration/capping.md)
       + [API de limitação](using/configuration/throttling.md)
    + Enviar com as soluções da Adobe {#adobe-solutions}
-      + [Ação do Campaign Standard no jornada](using/action/acs-action.md)
-      + [Ação do Campaign v7/v8 no jornada](using/action/acc-action.md)
-      + [Ação do Marketo Engage no jornada](using/action/marketo-engage.md)
+      + [Ação do Campaign Standard em jornadas](using/action/acs-action.md)
+      + [Ação do Campaign v7/v8 em jornadas](using/action/acc-action.md)
+      + [Ação do Marketo Engage em jornadas](using/action/marketo-engage.md)
    + Gerenciamento de sandboxes {#sandbox}
       + [Usar e atribuir sandboxes](using/administration/sandboxes.md)
       + [Exportar objetos para outra sandbox](using/configuration/copy-objects-to-sandbox.md)
@@ -778,7 +778,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
    + [Permissões integradas](using/administration/ootb-permissions.md)
    + [Níveis de permissão](using/administration/high-low-permissions.md)
    + [Controle de acesso baseado em atributos](using/administration/attribute-based-access.md)
-   + [Controle de acesso no nível do objeto](using/administration/object-based-access.md)
+   + [Controle de acesso em nível de objeto](using/administration/object-based-access.md)
 + Privacidade {#privacy}
    + [Introdução à privacidade](using/privacy/get-started-privacy.md)
    + [Solicitações de privacidade](using/privacy/requests.md)
