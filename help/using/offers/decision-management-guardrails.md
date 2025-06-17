@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 70543fc2b70b388934c1b3f45e5405f02895a3af
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 15%
+source-wordcount: '295'
+ht-degree: 14%
 
 ---
 
@@ -24,9 +24,9 @@ A taxa de transferência de delivery corresponde ao número de respostas de deci
 
 | Grade de Proteção | Limite |
 | ------- | ------- |
-| Solicitações de API de decisão por segundo | 500 |
-| Solicitações de API do Edge Decisioning por segundo com a Segmentação do Edge | 1.500 |
-| Solicitações de API do Edge Decisioning por segundo sem segmentação do Edge | 5.000 |
+| Solicitações de API de decisão por segundo | 500 por organização |
+| Solicitações de API do Edge Decisioning por segundo com a Segmentação do Edge | 1.500 por organização |
+| Solicitações de API do Edge Decisioning por segundo sem segmentação do Edge | 5.000 por organização |
 | Ofertas retornadas por resposta | Até 30 por escopo de decisão ou 100 no total |
 | Número máximo de regras de oferta envolvidas por solicitação | 100 |
 
