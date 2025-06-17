@@ -30,7 +30,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 **Data de lançamento**: 17 a 18 de junho de 2025
 
-Consulte também [Notas de pré-lançamento do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Consulte também [Notas de pré-lançamento do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Novos recursos {#25-06-features}
 
