@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 38%
+source-wordcount: '1677'
+ht-degree: 33%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="Fontes de dados externas"
->abstract="Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias."
+>abstract="Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias."
 
 ## Trabalhar com fontes de dados externas {#gs-ext-data-sources}
 
-Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
+Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Somente caracteres alfanuméricos e sublinhados são permitidos. O comprimento m
 
    >[!CAUTION]
    >
-   >Recomendamos o uso de HTTPS por motivos de segurança. Observe também que não permitimos o uso de endereços da Adobe que não estejam disponíveis publicamente, bem como o uso de endereços IP.
+   >Recomendamos o uso de HTTPS por motivos de segurança. Observe também que não permitimos o uso de endereços Adobe que não estejam disponíveis publicamente, bem como o uso de endereços IP.
 
    ![](assets/journey27.png)
 

@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 14%
+source-wordcount: '424'
+ht-degree: 13%
 
 ---
 
-# Criar uma configuração de SMS/MMS {#message-preset-sms}
+# Criar uma configuração de SMS/MMS/RCS {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
@@ -22,7 +22,7 @@ ht-degree: 14%
 >abstract="Selecione o tipo de mensagens de texto que usam esta configuração: “Marketing” para mensagens promocionais que exigem consentimento do usuário ou “Transacional” para mensagens não comerciais, como uma redefinição de senha."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=pt-BR#sms-opt-out-management" text="Recusar mensagens de texto de marketing"
 
-Depois que o canal SMS/MMS for configurado, você deverá criar uma configuração de canal para enviar mensagens SMS e/ou MMS do **[!DNL Journey Optimizer]**.
+Depois que o canal SMS/MMS/RCS for configurado, você deverá criar uma configuração de canal para enviar mensagens SMS, RCS e MMS do **[!DNL Journey Optimizer]**.
 
 Para criar uma configuração de canal, siga estas etapas:
 

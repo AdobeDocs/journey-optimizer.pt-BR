@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 36%
+source-wordcount: '371'
+ht-degree: 33%
 
 ---
 
-# Introdução à configuração de SMS {#sms-configuration}
+# Introdução à configuração de SMS/MMS/RCS {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -37,7 +37,7 @@ ht-degree: 36%
 >title="Selecionar a configuração do fornecedor de SMS"
 >abstract="Selecione as credenciais da API configuradas para seu fornecedor de SMS."
 
-Antes de enviar SMS ou MMS, você deve configurar o ambiente do Adobe Journey Optimizer. Para fazer isso:
+Antes de enviar SMS, MMS ou RCS, você deve configurar o ambiente do Adobe Journey Optimizer. Para fazer isso:
 
 1. Integre as configurações do provedor com o Journey Optimizer.
 As etapas dependem do seu provedor de SMS. Navegue pelos links abaixo para acessar a documentação detalhada:
@@ -51,7 +51,7 @@ Estas etapas devem ser executadas por um [Administrador do Sistema](../start/pat
 
 ## Pré-requisitos{#sms-prerequisites}
 
-Atualmente, o Adobe Journey Optimizer está integrado a provedores de terceiros que oferecem serviços de mensagens de texto independentes do Adobe Journey Optimizer. Os provedores de mensagens de texto e MMS com suporte são: **Sinch**, **Twilio** e **Infobip**.
+Atualmente, o Adobe Journey Optimizer está integrado a provedores de terceiros que oferecem serviços de mensagens de texto independentes do Adobe Journey Optimizer. Os provedores de mensagens de texto e MMS com suporte são: **Sinch**, **Twilio** e **Infobip**. Observe que você pode configurar provedores de mensagens adicionais usando a [configuração de provedor personalizado](sms-configuration-custom.md).
 
 Antes da configuração do canal SMS, você deve criar uma conta com um desses provedores para obter o **Token de API** e a **ID de Serviço**, que você precisa configurar a conexão entre o Adobe Journey Optimizer e o provedor aplicável.
 

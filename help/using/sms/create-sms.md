@@ -8,21 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 9%
+source-wordcount: '1069'
+ht-degree: 3%
 
 ---
 
-# Criação de uma mensagem de texto (SMS/MMS) {#create-sms}
+# Criar uma mensagem SMS/MMS/RCS {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Criação de uma mensagem de texto"
->abstract="Para criar uma mensagem de texto (SMS/MMS), adicione uma ação de SMS na jornada ou campanha e comece a personalizá-la com o editor de personalização."
+>abstract="Para criar uma mensagem de texto (SMS/MMS/RCS), adicione uma ação de SMS em uma jornada ou campanha e comece a personalizá-la com o editor de personalização."
 
-Você pode criar e enviar mensagens de texto (SMS) e multimídia (MMS) com o Adobe Journey Optimizer. Primeiro, é necessário adicionar uma ação SMS em uma jornada ou campanha e, em seguida, definir o conteúdo da mensagem de texto, conforme detalhado abaixo. O Adobe Journey Optimizer também oferece recursos para testar suas mensagens de texto antes de enviá-las, para que você possa verificar a renderização, os atributos de personalização e todas as outras configurações.
+Você pode criar e enviar mensagens de texto (SMS), comunicação avançada (RCS) e multimídia (MMS) com o Adobe Journey Optimizer. Primeiro, é necessário adicionar uma ação SMS em uma jornada ou campanha e, em seguida, definir o conteúdo da mensagem de texto, conforme detalhado abaixo. O Adobe Journey Optimizer também oferece recursos para testar suas mensagens de texto antes de enviá-las, para que você possa verificar a renderização, os atributos de personalização e todas as outras configurações.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Você pode criar e enviar mensagens de texto (SMS) e multimídia (MMS) com o Ado
 
 ## Adicionar uma mensagem de texto {#create-sms-journey-campaign}
 
-Navegue pelas guias abaixo para saber como adicionar uma mensagem de texto (SMS/MMS) em uma campanha ou jornada.
+Navegue pelas guias abaixo para saber como adicionar uma mensagem de texto (SMS/MMS/RCS) em uma campanha ou jornada.
 
 >[!BEGINTABS]
 
@@ -90,18 +90,20 @@ Agora você pode começar a projetar o conteúdo da sua mensagem de texto a part
 
 >[!ENDTABS]
 
-## Definição do conteúdo do SMS{#sms-content}
+## Definir o conteúdo de SMS/RCS{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definição do conteúdo do SMS"
->abstract="Personalize as mensagens de texto (SMS/MMS) usando o editor de personalização para definir o conteúdo e incorporar elementos dinâmicos."
+>abstract="Personalize suas mensagens de texto (SMS/MMS/RCS) usando o editor de personalização para definir o conteúdo e incorporar elementos dinâmicos."
 
-Para configurar o conteúdo de SMS, siga as etapas abaixo. As configurações para MMS estão detalhadas em [esta seção](#mms-content).
+Para configurar o conteúdo da mensagem, siga as etapas abaixo. As configurações para MMS estão detalhadas em [esta seção](#mms-content).
 
 1. Na tela de configuração do jornada ou da campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo da mensagem de texto.
 
 1. Clique no campo **[!UICONTROL Mensagem]** para abrir o editor de personalização.
+
+   Para mensagens do RCS com Infobip, Twilio ou outros provedores de terceiros, cole a carga JSON necessária na sua[configuração de SMS personalizada](sms-configuration-custom.md#api-credential).
 
    ![](assets/sms-content.png)
 

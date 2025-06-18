@@ -12,11 +12,11 @@ exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
-# Introdução à configuração do jornada {#configure-journeys}
+# Introdução à configuração de jornadas {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
@@ -46,9 +46,9 @@ Os recursos de mensagem do Journey Optimizer são incorporados: basta adicionar 
 
 ## Navegar pelos campos do Adobe Experience Platform {#friendly-names-display}
 
-Ao definir a [carga útil do evento](../event/about-creating.md#define-the-payload-fields), [carga útil do grupo de campo](../datasource/configure-data-sources.md#define-field-groups) e selecionar campos no [editor de expressões](../building-journeys/expression/expressionadvanced.md), o nome de exibição é exibido além do nome do campo. Essas informações são recuperadas a partir da definição do schema no Experience Data Model.
+Ao definir a [carga útil do evento](../event/about-creating.md#define-the-payload-fields), [carga útil do grupo de campo](../datasource/configure-data-sources.md#define-field-groups) e selecionar campos no [editor de expressões](../building-journeys/expression/expressionadvanced.md), o nome de exibição é exibido além do nome do campo. Essas informações são recuperadas a partir da definição do esquema no Experience Data Model.
 
-Se descritores como &quot;xdm:alternateDisplayInfo&quot; forem fornecidos durante a configuração de schemas, os nomes de usuário simples substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos. Você pode configurar descritores de nome amigáveis por meio de uma chamada de API. Para obter mais informações, consulte o [guia do desenvolvedor do Registro de Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR){target="_blank"}.
+Se descritores como &quot;xdm:alternateDisplayInfo&quot; forem fornecidos durante a configuração de esquemas, os nomes de usuário simples substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos. Você pode configurar descritores de nome amigáveis por meio de uma chamada de API. Para obter mais informações, consulte o [guia do desenvolvedor do Registro de Esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR){target="_blank"}.
 
 ![](assets/xdm-from-descriptors.png)
 
@@ -56,4 +56,4 @@ Se um nome simples estiver disponível, o campo será exibido como `<friendly-na
 
 >[!NOTE]
 >
->Os nomes simples não são recuperados ao selecionar campos de uma união de schemas.
+>Os nomes simples não são recuperados ao selecionar campos de uma união de esquemas.

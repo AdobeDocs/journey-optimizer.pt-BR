@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 37313ca8a9527c934d8aeaf265e9674219726636
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1032'
 ht-degree: 9%
 
 ---
 
-# Configurar um provedor de SMS personalizado {#sms-configuration-custom}
+# Configurar um provedor personalizado {#sms-configuration-custom}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
@@ -31,11 +31,11 @@ ht-degree: 9%
 >title="Conteúdo do provedor"
 >abstract="Forneça o conteúdo da solicitação para garantir que os dados corretos sejam enviados para processamento e geração de resposta."
 
-Esse recurso permite integrar e configurar seus próprios provedores de SMS, oferecendo flexibilidade além dos provedores padrão (Sinch, Twilio e Infobip). Isso permite a criação, entrega, relatórios e gerenciamento de consentimento perfeitos por SMS.
+Esse recurso permite integrar e configurar seus próprios provedores de mensagens, oferecendo flexibilidade além das opções padrão (Sinch, Twilio e Infobip). Isso permite a criação, entrega, relatórios e gerenciamento de consentimento perfeitos para mensagens SMS e RCS.
 
-Com a configuração personalizada do provedor para SMS, você pode configurar provedores de SMS personalizados diretamente no Journey Optimizer, usar a personalização avançada de carga para mensagens dinâmicas e gerenciar preferências de consentimento (aceitação/recusa) para garantir a conformidade.
+Com a configuração personalizada do provedor, você pode conectar serviços de mensagens de terceiros diretamente no Journey Optimizer, personalizar cargas de mensagem para conteúdo dinâmico e gerenciar preferências de aceitação/recusa para garantir a conformidade entre os canais SMS e RCS.
 
-Para configurar seu provedor de SMS personalizado, siga as etapas abaixo:
+Para configurar seu provedor personalizado, siga as etapas abaixo:
 
 1. [Criar credencial de API](#api-credential)
 1. [Criar Webhook](#webhook)
@@ -44,7 +44,7 @@ Para configurar seu provedor de SMS personalizado, siga as etapas abaixo:
 
 ## Criar a credencial da API {#api-credential}
 
-Para enviar mensagens no Journey Optimizer usando um provedor personalizado não disponível imediatamente pela Adobe (por exemplo, Sinch, Infobip, Twilio), siga estas etapas:
+Para enviar mensagens SMS e RCS no Journey Optimizer usando um provedor personalizado não disponível imediatamente pela Adobe (por exemplo, Sinch, Infobip, Twilio), siga estas etapas:
 
 1. No painel à esquerda, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]**, selecione o menu **[!UICONTROL Credenciais da API]** em **[!UICONTROL Configurações de SMS]** e clique no botão **[!UICONTROL Criar novas credenciais de API]**.
 
@@ -73,6 +73,8 @@ Para enviar mensagens no Journey Optimizer usando um provedor personalizado não
    ![](assets/sms_byo_2.png)
 
 1. Adicione a **[!UICONTROL Carga do provedor]** para validar e personalizar as cargas da solicitação.
+
+   Para mensagens RCS, essa carga é usada posteriormente durante [design de conteúdo](create-sms.md#sms-content).
 
 1. Clique em **[!UICONTROL Enviar]** quando terminar de configurar suas credenciais de API.
 
