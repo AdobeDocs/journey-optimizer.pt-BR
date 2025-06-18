@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 22%
+source-wordcount: '944'
+ht-degree: 29%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 22%
 
 ### O que são conjuntos de regras? {#what}
 
-Os conjuntos de regras permitem **agrupar várias regras em conjuntos de regras** e aplicá-las às jornadas e campanhas de sua escolha. Isso oferece maior granularidade para limitar a frequência e a quantidade de jornadas que um cliente pode inserir em um determinado período de tempo ou controlar a frequência com que os usuários receberão uma mensagem, dependendo do tipo de comunicação.
+Os conjuntos de regras permitem **agrupar várias regras em conjuntos de regras** e aplicá-las às jornadas e campanhas de sua escolha. Dessa forma, você tem mais granularidade para limitar a frequência e a quantidade de jornadas que um cliente pode inserir em um determinado intervalo de tempo ou controlar a frequência com que os usuários receberão uma mensagem, dependendo do tipo de comunicação.
 
 Você pode criar dois tipos de conjuntos de regras:
 
@@ -87,7 +87,7 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 
 >[!NOTE]
 >
->Você pode criar até três conjuntos de regras locais de domínio do canal e até cinco conjuntos de regras locais de domínio do jornada.
+>É possível criar até 10 conjuntos de regras locais ativos para o domínio do canal e para o domínio do jornada.
 
 1. Acesse a lista **[!UICONTROL Conjuntos de regras]** e clique em **[!UICONTROL Criar conjunto de regras]**.
 
@@ -164,4 +164,4 @@ Seu status será alterado para **[!UICONTROL Inativo]** e a regra não se aplica
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

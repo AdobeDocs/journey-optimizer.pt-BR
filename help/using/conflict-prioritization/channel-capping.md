@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d17cff4cbe661cb8f41ef09ef9850f6010fc21e5
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1043'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ Para criar um conjunto de regras de canal, siga estas etapas:
 
 >[!NOTE]
 >
->Você pode criar até três conjuntos de regras locais de domínio do canal e até cinco conjuntos de regras locais de domínio do jornada.
+>É possível criar até 10 conjuntos de regras locais ativos para o domínio do canal e para o domínio do jornada.
 
 1. Acesse a lista **[!UICONTROL Conjuntos de regras]** e clique em **[!UICONTROL Criar conjunto de regras]**.
 
@@ -152,4 +152,4 @@ In this scenario, an individual profile:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
