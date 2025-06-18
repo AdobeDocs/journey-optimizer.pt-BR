@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Quando uma jornada é pausada, o gerenciamento de perfil e a execução da ativi
 | [Reação](reaction-events.md) | Mesmo comportamento de uma jornada em tempo real. No entanto, se a reação ocorrer após uma atividade <strong>Ação</strong> e o usuário estiver pausado nessa ação, o evento de reação será descartado. |
 | [Aguardar](wait-activity.md) | Mesmo comportamento que em uma jornada em tempo real |
 | [Condição](condition-activity.md) | Mesmo comportamento que em uma jornada em tempo real |
-| Decisão de conteúdo | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
+| [Decisão de conteúdo](content-decision.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
 | [Ação do canal](journeys-message.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
 | [Ação personalizada](../action/action.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
 | [Atualizar perfil](update-profiles.md) e [Pular](jump.md) | Mesmo comportamento que em uma jornada em tempo real |
