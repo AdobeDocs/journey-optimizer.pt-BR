@@ -163,7 +163,7 @@ As informações de recusa são armazenadas no **Conjunto de dados de serviço d
 
 >[!NOTE]
 >
->Se o método de mesclagem para sua política de mesclagem padrão do [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Perfis]** for **[!UICONTROL Precedência do conjunto de dados]**, habilite o **[!UICONTROL Conjunto de dados do Serviço de Consentimento da AJO]** e priorize-o na política de mesclagem. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>Se o método de mesclagem para sua política de mesclagem padrão do [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Perfis]** for **[!UICONTROL Precedência do conjunto de dados]**, habilite o **[!UICONTROL Conjunto de dados do Serviço de Consentimento da AJO]** e priorize-o na política de mesclagem. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR#dataset-precedence-profile){target="_blank"}
 >
 >Mesmo se nenhum lote tiver sido adicionado a esse conjunto de dados, ele ainda conterá as informações de aceitação/recusa.
 

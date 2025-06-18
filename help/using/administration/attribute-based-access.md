@@ -32,7 +32,7 @@ Neste exemplo, um rótulo é adicionado ao campo de esquema **Nacionalidade** pa
 
 1. Use o **[!UICONTROL Campo de esquema]** no Adobe Journey Optimizer.
 
-Observe que as **[!UICONTROL Funções]**, **[!UICONTROL Políticas]** e **[!UICONTROL Produtos]** também podem ser acessadas com a API de controle de acesso baseada em atributos. Para obter mais informações, consulte esta [documentação](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}.
+Observe que as **[!UICONTROL Funções]**, **[!UICONTROL Políticas]** e **[!UICONTROL Produtos]** também podem ser acessadas com a API de controle de acesso baseada em atributos. Para obter mais informações, consulte esta [documentação](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=pt-BR){target="_blank"}.
 
 ## Criar uma função e atribuir rótulos {#assign-role}
 
@@ -102,11 +102,11 @@ Observe que você também pode adicionar **[!UICONTROL Rótulo]** a **[!UICONTRO
 
    ![Editar rótulos de governança para o campo](assets/label_3.png)
 
-1. Selecione o **[!UICONTROL Rótulo]** correspondente. Nesse caso, os dados C2 - não podem ser exportados para terceiros. Para obter a lista detalhada dos rótulos disponíveis, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}.
+1. Selecione o **[!UICONTROL Rótulo]** correspondente. Nesse caso, os dados C2 - não podem ser exportados para terceiros. Para obter a lista detalhada dos rótulos disponíveis, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=pt-BR#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Personalize ainda mais seu esquema, se necessário, e ative-o. Para obter etapas detalhadas sobre como habilitar seu esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}.
+1. Personalize ainda mais seu esquema, se necessário, e ative-o. Para obter etapas detalhadas sobre como habilitar seu esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=pt-BR#profile){target="_blank"}.
 
 O campo do esquema agora só estará visível e poderá ser usado por usuários que fazem parte de um conjunto de funções com o rótulo C2. Ao aplicar um **[!UICONTROL Rótulo]** ao seu **[!UICONTROL Nome do campo]**, o **[!UICONTROL Rótulo]** será aplicado automaticamente ao campo **Nacionalidade** em cada esquema criado.
 
