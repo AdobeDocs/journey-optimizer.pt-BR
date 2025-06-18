@@ -193,7 +193,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >Cada organização está limitada à publicação de 25 públicos-alvo. Além disso, os usuários podem publicar no máximo 5 públicos-alvo por hora e 20 por dia.
->> Públicos-alvo únicos têm uma duração de 48 horas. Portanto, se 25 públicos-alvo forem publicados dentro desse período, públicos-alvo adicionais só poderão ser publicados após o período de 48 horas.
+>&#x200B;> Públicos-alvo únicos têm uma duração de 48 horas. Portanto, se 25 públicos-alvo forem publicados dentro desse período, públicos-alvo adicionais só poderão ser publicados após o período de 48 horas.
 
 Agora é possível selecionar dados específicos na tabela e criar um público-alvo diretamente nessas seleções, simplificando e simplificando o processo de criação de público-alvo.
 
