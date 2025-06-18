@@ -145,4 +145,4 @@ Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar con
 
 O vídeo abaixo mostra como criar uma campanha de experiência baseada em código, configurar suas propriedades, testá-la e publicá-la.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449458/?quality=12&learn=on&captions=por_br)
