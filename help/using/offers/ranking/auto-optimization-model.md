@@ -7,9 +7,9 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Os termos a seguir são úteis ao discutir a Otimização automática:
 
 O algoritmo subjacente à Otimização automática é **Amostragem de Thompson**. Nesta seção, discutimos a intuição por trás da Amostragem de Thompson.
 
-[Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, ou bandidos Bayesianos, é uma abordagem Bayesiana para o problema do bandido multi-armado.  A ideia básica é tratar a recompensa média ?? de cada oferta como uma **variável aleatória** e usar os dados que coletamos até agora para atualizar nossa &quot;crença&quot; sobre a recompensa média. Essa &quot;crença&quot; é representada matematicamente por uma **distribuição de probabilidade posterior** - essencialmente um intervalo de valores para a recompensa média, juntamente com a plausibilidade (ou probabilidade) de que a recompensa tenha esse valor para cada oferta. Em seguida, para cada decisão, **faremos uma amostra de um ponto de cada uma dessas distribuições de recompensa posteriores** e selecionaremos a oferta cuja recompensa de amostra teve o valor mais alto.
+[Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, ou bandidos Bayesianos, é uma abordagem Bayesiana para o problema do bandido multi-armado.  A ideia básica é tratar a média da recompensa 𝛍 de cada oferta como uma **variável aleatória** e usar os dados que coletamos até agora para atualizar nossa &quot;crença&quot; sobre a média da recompensa. Essa &quot;crença&quot; é representada matematicamente por uma **distribuição de probabilidade posterior** - essencialmente um intervalo de valores para a recompensa média, juntamente com a plausibilidade (ou probabilidade) de que a recompensa tenha esse valor para cada oferta. Em seguida, para cada decisão, **faremos uma amostra de um ponto de cada uma dessas distribuições de recompensa posteriores** e selecionaremos a oferta cuja recompensa de amostra teve o valor mais alto.
 
 Esse processo é ilustrado na figura abaixo, onde temos 3 ofertas diferentes. Inicialmente, não temos nenhuma evidência dos dados e assumimos que todas as ofertas têm uma distribuição de recompensa posterior uniforme. Tiramos uma amostra da distribuição de recompensa posterior de cada oferta. A amostra selecionada na distribuição da Oferta 2 tem o valor mais alto. Este é um exemplo de **exploração**. Depois de mostrar a Oferta 2, coletamos qualquer recompensa potencial (por exemplo, conversão/sem conversão) e atualizamos a distribuição posterior da Oferta 2 usando o Teorema de Bayes como explicado abaixo.  Continuamos esse processo e atualizamos as distribuições posteriores sempre que uma oferta é exibida e a recompensa é coletada. Na segunda figura, a Oferta 3 é selecionada - apesar de a Oferta 1 ter a maior recompensa média (sua distribuição de recompensa posterior é a mais à direita), o processo de amostragem de cada distribuição levou-nos a escolher uma Oferta 3 aparentemente abaixo do ideal. Ao fazer isso, oferecemos a nós mesmos a oportunidade de aprender mais sobre a verdadeira distribuição de recompensas da Oferta 3.
 
@@ -59,7 +59,7 @@ Eventualmente, se uma oferta (por exemplo, Oferta 1) for um vencedor claro, sua 
 
 +++**Detalhes técnicos**
 
-Para calcular/atualizar distribuições, usamos o **Teorema de Bayes**. Para cada oferta ***i***, queremos calcular seus ***P(??i | data)***, ou seja, para cada oferta ***i***, qual a probabilidade de um valor de recompensa **??i**, dados os dados que coletamos até agora para essa oferta.
+Para calcular/atualizar distribuições, usamos o **Teorema de Bayes**. Para cada oferta ***i***, queremos calcular seus ***P(𝛍i | data)***, ou seja, para cada oferta ***i***, a probabilidade de um valor de recompensa **𝛍i** ser, dados os dados que coletamos até agora para essa oferta.
 
 A partir do Teorema de Bayes:
 
@@ -86,11 +86,11 @@ Para otimização automática, como mostrado no exemplo acima, começamos com um
 
 Para aprofundar a amostragem de Thompson, leia os seguintes artigos de pesquisa:
 * [Uma Avaliação Empírica da Amostragem de Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
-* [Análise de Amostragem de Thompson para o Problema do Multi-armed Bandit](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
+* [Análise de Amostragem de Thompson para o problema do Multi-armed Bandit](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## Problema de arranque a frio {#cold-start}
 
-O problema de &quot;inicialização imediata&quot; ocorre quando uma nova oferta é adicionada a uma campanha e não há dados disponíveis sobre a taxa de conversão da nova oferta. Durante esse período, temos que criar uma estratégia com relação à frequência com que essa nova oferta é escolhida para que a queda de desempenho seja minimizada, enquanto coletamos informações sobre a taxa de conversão dessa nova oferta. Há várias soluções disponíveis para resolver esse problema. O segredo é encontrar um equilíbrio entre a exploração dessa nova oferta enquanto não sacrificamos muito a exploração. Atualmente, usamos &quot;distribuição uniforme&quot; como nossa suposição inicial sobre a taxa de conversão da nova oferta (distribuição anterior). Basicamente, damos a todos os valores de taxa de conversão probabilidade igual de ocorrência.
+O problema de &quot;inicialização imediata&quot; ocorre quando uma nova oferta é adicionada a uma campanha e não há dados disponíveis sobre a taxa de conversão da nova oferta. Durante esse período, temos que criar uma estratégia com relação à frequência com que essa nova oferta é escolhida para que a queda de desempenho seja minimizada, enquanto coletamos informações sobre a taxa de conversão dessa nova oferta. Há várias soluções disponíveis para resolver esse problema. A chave é encontrar um equilíbrio entre a exploração dessa nova oferta, enquanto não sacrificamos muito a exploração. Atualmente, usamos &quot;distribuição uniforme&quot; como nossa suposição inicial sobre a taxa de conversão da nova oferta (distribuição anterior). Basicamente, damos a todos os valores de taxa de conversão probabilidade igual de ocorrência.
 
 
 ![](../assets/ai-ranking-cold-start-strategies.png)

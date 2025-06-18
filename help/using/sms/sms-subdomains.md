@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdomínios, configuração
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '881'
 ht-degree: 20%
 
 ---
@@ -61,6 +61,10 @@ Para usar um subdomínio que já está delegado à Adobe, siga as etapas abaixo.
 1. Insira o prefixo que será exibido no URL do SMS.
 
    Somente caracteres alfanuméricos e hifens são permitidos.
+
+   >[!CAUTION]
+   >
+   >Não use os prefixos `cdn` ou `data`, pois eles são reservados para uso interno. Outros prefixos restritos ou reservados, como `dmarc` ou `spf`, também devem ser evitados.
 
 1. Selecione um subdomínio delegado na lista.
 
@@ -131,34 +135,17 @@ Observe que o subdomínio será marcado como **[!UICONTROL Falha]** se você nã
 
 ## Cancelar delegação de um subdomínio {#undelegate-subdomain}
 
-Se quiser cancelar a delegação de um subdomínio SMS, entre em contato com o representante da Adobe.
+Se quiser cancelar a delegação de um subdomínio SMS, entre em contato com o representante da Adobe com o subdomínio que deseja cancelar a delegação.
 
-No entanto, é necessário executar várias etapas na interface do usuário antes de acessar o Adobe.
+<!--
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
+
+Se o subdomínio SMS apontar para um registro CNAME, você poderá excluir o registro DNS CNAME que criou para o subdomínio SMS da solução de hospedagem (mas não exclua o subdomínio de email original, se houver).
 
 >[!NOTE]
 >
->Você só pode desdelegar subdomínios com o status **[!UICONTROL Sucesso]**. Subdomínios com os status **[!UICONTROL Rascunho]** e **[!UICONTROL Falha]** podem simplesmente ser excluídos da interface do usuário.
-
-Primeiro, execute as seguintes etapas no [!DNL Journey Optimizer]:
-
-1. Desative todas as configurações de canal associadas ao subdomínio. [Saiba como](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
-
-1. Interrompa as campanhas ativas associadas aos subdomínios. [Saiba como](../campaigns/modify-stop-campaign.md#stop)
-
-1. Interrompa as jornadas ativas associadas aos subdomínios. [Saiba como](../building-journeys/end-journey.md#stop-journey)
-
-1. Se o subdomínio SMS era um [novo subdomínio delegado](#sms-configure-new-subdomain), remova as entradas DNS associadas a esse subdomínio.
-
-Depois de concluir, entre em contato com o representante da Adobe com o subdomínio que você deseja cancelar a delegação.
+>Um subdomínio SMS pode apontar para um registro CNAME porque era um [subdomínio existente](#sms-use-existing-subdomain) delegado à Adobe usando o [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation) ou um [novo subdomínio SMS](#sms-configure-new-subdomain) que você configurou.
 
 Depois que a solicitação for tratada pela Adobe, o domínio não delegado não será mais exibido na página de inventário do subdomínio.
-
->[!CAUTION]
->
->Depois que a delegação de um subdomínio for cancelada:
->
->   * Não é possível reativar as configurações de canal que estavam usando esse subdomínio.
->   * Não é possível delegar o subdomínio exato novamente por meio da interface. Caso deseje, entre em contato com o representante da Adobe.

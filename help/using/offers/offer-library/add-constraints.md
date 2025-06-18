@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2715'
+source-wordcount: '2717'
 ht-degree: 15%
 
 ---
@@ -75,7 +75,7 @@ Por exemplo, se você definir as seguintes restrições:
 >title="Sobre a elegibilidade da oferta"
 >abstract="Nesta seção, é possível usar regras de decisão para definir as pessoas elegíveis para receber a oferta."
 
-<!--additional-url="https://video.tv.adobe.com/v/341377?captions=por_br" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -104,7 +104,7 @@ A seção **[!UICONTROL Qualificação da oferta]** permite restringir a oferta 
 
   >[!CAUTION]
   >
-  >No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
+  >No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
 
 Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
 
@@ -268,7 +268,7 @@ Cada região do hub está associada a uma ou mais regiões de borda. As regras d
 * Se houver uma regra correspondente, o contador de limite de frequência do perfil será incrementado.
 * Caso contrário, nenhum contador será criado para o perfil e a regra de limite de frequência não se aplica. Consequentemente, o perfil continuará a receber ofertas personalizadas mesmo se o limite for excedido.
 
-Por exemplo, considere a região do hub de sua organização como *NLD2* e você está enviando uma solicitação de decisão da Europa (*IRL1* região de borda). Neste cenário, a solicitação de decisão incrementará o contador do perfil, pois as regras estão disponíveis na região (Irlanda) *IRL1*. No entanto, se a solicitação de decisão se originar de uma região como o Japão (*JPN3*), que não é uma região de borda vinculada à região de hub (Holanda) *NLD2*, nenhum contador será criado e as regras de limite de frequência não serão impostas.
+Por exemplo, considere a região do hub da sua organização como *NLD2* e você está enviando uma solicitação de decisão da Europa (*IRL1* região de borda). Neste cenário, a solicitação de decisão incrementará o contador do perfil, pois as regras estão disponíveis na região (Irlanda) *IRL1*. No entanto, se a solicitação de decisão se originar de uma região como o Japão (*JPN3*), que não é uma região de borda vinculada à região de hub (Holanda) *NLD2*, nenhum contador será criado e as regras de limite de frequência não serão impostas.
 
 >[!NOTE]
 >

@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em temp
 
 * Aproveite **dados contextuais** de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros.
 
-* Use as **ações integradas** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
+* Use as **ações internas** para enviar mensagens criadas em [!DNL Journey Optimizer] ou criar **ações personalizadas** se você estiver usando um sistema de terceiros para enviar mensagens.
 
 * Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
 
@@ -32,7 +32,7 @@ O designer de jornadas do Journey Optimizer oferece todos os recursos que profis
 
 Saiba como criar e projetar sua primeira jornada [nesta página](journey-gs.md).
 
-➡️ [Conheça o Journey Optimizer no vídeo](#video)
+➡️ [Descobrir Journey Optimizer em vídeo](#video)
 
 ## Casos de uso{#uc-journey}
 
@@ -56,4 +56,4 @@ Saiba como criar jornadas nos seguintes casos de uso completos:
 
 Descubra os componentes de uma jornada e entenda os aspectos básicos da criação de uma jornada na tela.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430346?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

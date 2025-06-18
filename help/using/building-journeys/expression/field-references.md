@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: jornada, campo, expressão, evento
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Uma referência de campo pode ser anexada a um evento ou grupo de campos. As únicas informações relevantes são o nome do campo e seu caminho.
 
-Se estiver usando caracteres especiais em um campo, você precisará usar aspas duplas ou aspas simples. Estes são os casos em que as aspas são necessárias:
+Se você estiver usando caracteres especiais em um campo, será necessário usar aspas duplas ou aspas simples. Estes são os casos em que as aspas são necessárias:
 
 * o campo começa com caracteres numéricos
 * o campo começa com o caractere &quot;-&quot;

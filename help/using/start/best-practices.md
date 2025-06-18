@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '983'
 ht-degree: 4%
 
 ---
@@ -68,7 +68,7 @@ Você pode adotar várias práticas recomendadas que o ajudarão a permanecer na
 * Se a sua jornada **Ler público-alvo** tiver apenas uma ação, nenhuma espera/decisão ou otimização de tempo de envio, considere movê-la para Campanhas do Journey Optimizer. As campanhas são mais adequadas para o engajamento em uma única etapa. Uma das principais diferenças entre o Campaign e as Jornadas é se você acha importante ouvir ativamente o engajamento do usuário para determinar a próxima etapa e se engajar com outra ação.
 * Para diminuir o número de atividades em uma jornada, verifique as etapas de condição. Haverá muitas instâncias em que é possível mover as condições para a definição do segmento ou a composição do público-alvo.
 * Se as mesmas condições forem repetidas em várias jornadas (verificações de consentimento, supressões), considere movê-las como parte da definição do segmento. Por exemplo, se você tiver uma condição para verificar &quot;o endereço de email não está vazio&quot; em várias jornadas, inclua essa condição como parte da definição do segmento.
-* Se sua jornada tiver várias condições dividindo o público-alvo para ver os números em cada etapa, considere usar o Customer Journey Analytics ou outra solução de relatório mais adequada para análise.
+* Se sua jornada tiver várias condições dividindo o público-alvo para ver os números em cada etapa, considere usar o Customer Journey Analytics ou outra solução de relatórios mais adequada para análise.
 * Se você estiver se aproximando do limite de nós na tela, considere a consolidação de ações com parâmetros dinâmicos ou conteúdo para veicular o conteúdo correto em vez de nós explícitos.
 
 * Se você tiver uma jornada **Ler público-alvo** com segmento em lote (A) e estiver usando dentro do segmento de transmissão de jornada em Público-alvo (B) para excluir (ou seja, execute A-B), considere mover essa lógica para a lógica de segmentação e use a exclusão como parte da própria lógica de segmentação.

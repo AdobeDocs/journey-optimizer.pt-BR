@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 20%
@@ -45,7 +45,7 @@ Para criar uma regra de decisão, siga estas etapas:
 1. Crie a regra de decisão para atender às suas necessidades usando o Construtor de segmentos do Adobe Experience Platform. Para fazer isso, você pode aproveitar várias fontes de dados, como:
    * Atributos de item de perfil e decisão,
    * Públicos-alvo,
-   * Dados de contexto provenientes do Adobe Experience Platform. [Saiba como aproveitar os dados de contexto](#context-data)
+   * Dados de contexto provenientes do Adobe Experience Platform. [Saiba como aproveitar os dados de contexto](context-data.md)
 
    ![](assets/decision-rules-build.png)
 

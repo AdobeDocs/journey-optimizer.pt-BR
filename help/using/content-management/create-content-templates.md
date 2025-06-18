@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '680'
 ht-degree: 16%
 
 ---
@@ -70,6 +70,12 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
    * [Definir conteúdo de SMS](../sms/create-sms.md#sms-content)
    * [Definir conteúdo da correspondência direta](../direct-mail/create-direct-mail.md)
    * [Definir conteúdo no aplicativo](../in-app/design-in-app.md)
+   * [Definir conteúdo da Web](../web/create-web.md#edit-web-content)
+   * [Definir conteúdo de experiência baseado em código](../code-based/create-code-based.md)
+
+     >[!NOTE]
+     >
+     >Você pode adicionar políticas de decisão a modelos de conteúdo de experiência baseados em código. [Saiba mais](../experience-decisioning/create-decision.md#add-decision)
 
 1. Você pode testar seu conteúdo. [Saiba como](#test-template)
 

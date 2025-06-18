@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: página de aterrissagem, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 12%
+source-wordcount: '980'
+ht-degree: 13%
 
 ---
 
@@ -26,7 +26,7 @@ Um dos casos de uso mais comuns consiste em convidar seus clientes a [assinar um
 
 ![](assets/lp_subscription-uc.png)
 
-Por exemplo, digamos que você organize um evento no próximo mês e deseje iniciar uma campanha de registro de evento<!--to keep your customers that are interested updated on that event-->. Para fazer isso, você enviará um email incluindo um link para uma página de aterrissagem que permitirá que seus destinatários se registrem neste evento. Os usuários que se registrarem serão adicionados à lista de assinaturas criada para essa finalidade.
+Por exemplo, digamos que você organize um evento no próximo mês e deseje iniciar uma campanha de registro de evento<!--to keep your customers that are interested updated on that event-->. Para fazer isso, você enviará um email incluindo um link para uma página de aterrissagem que permitirá que seus destinatários se registrem nesse evento. Os usuários que se registrarem serão adicionados à lista de assinaturas criada para essa finalidade.
 
 ### Configurar uma landing page {#set-up-lp}
 
@@ -98,7 +98,7 @@ Para permitir que seus destinatários cancelem a inscrição de suas comunicaç�
 
 ### Gerenciamento de recusa {#opt-out-management}
 
-Oferecer aos destinatários a capacidade de cancelar a inscrição de recebimento de comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=pt-BR#regulations){target="_blank"}.
+Oferecer aos destinatários a capacidade de cancelar a inscrição para receber comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=pt-BR#regulations){target="_blank"}.
 
 Portanto, você sempre deve incluir um **link para cancelar a inscrição** em cada email enviado aos destinatários:
 
@@ -125,7 +125,7 @@ Para permitir que os recipients de um email cancelem a inscrição de suas comun
 
    >[!NOTE]
    >
-   >Referencie a subpágina na seção **[!UICONTROL Chamada para ação]** da página principal do componente **[!UICONTROL Formulário]**. [Saiba mais](design-lp.md)
+   >Certifique-se de fazer referência à subpágina na seção **[!UICONTROL Call to action]** da página principal do componente **[!UICONTROL Formulário]**. [Saiba mais](design-lp.md)
 
 1. Depois de configurar e definir o conteúdo das suas páginas, [publique](create-lp.md#publish) a página de aterrissagem.
 
@@ -153,7 +153,7 @@ Para permitir que os recipients de um email cancelem a inscrição de suas comun
 
    * Os dados do perfil são atualizados e não receberão comunicações de sua marca, a menos que você faça a assinatura novamente.
 
-Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
+Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -163,7 +163,7 @@ As informações de recusa são armazenadas no **Conjunto de dados de serviço d
 
 >[!NOTE]
 >
->Se o método de mesclagem para sua política de mesclagem padrão do [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Perfis]** for a **[!UICONTROL Precedência do Conjunto de Dados]**, habilite o **[!UICONTROL Conjunto de Dados de Serviço de Consentimento da AJO]** e priorize-o na política de mesclagem. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR#dataset-precedence-profile){target="_blank"}
+>Se o método de mesclagem para sua política de mesclagem padrão do [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Perfis]** for **[!UICONTROL Precedência do conjunto de dados]**, habilite o **[!UICONTROL Conjunto de dados do Serviço de Consentimento da AJO]** e priorize-o na política de mesclagem. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Mesmo se nenhum lote tiver sido adicionado a esse conjunto de dados, ele ainda conterá as informações de aceitação/recusa.
 

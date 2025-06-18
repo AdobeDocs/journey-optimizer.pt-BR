@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
-source-wordcount: '465'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ Consulte as seguintes seções para configurar a primeira jornada, adicionar ofe
 
    * Aproveite **dados contextuais** de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros.
 
-   * Use as **ações de canal integradas** (Email, SMS, Push, InApp) para enviar mensagens criadas no [!DNL Journey Optimizer] ou crie **ações personalizadas** se estiver usando um sistema de terceiros para enviar suas mensagens.
+   * Use as **ações de canal integradas** (Email, SMS, Push, InApp) para enviar mensagens criadas em [!DNL Journey Optimizer] ou criar **ações personalizadas** se você estiver usando um sistema de terceiros para enviar mensagens.
 
    * Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
 

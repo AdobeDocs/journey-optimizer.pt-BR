@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 100%
+source-wordcount: '1291'
+ht-degree: 96%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 100%
 
 ## Introdução às políticas de governança de dados {#gs}
 
-Com sua estrutura de [governança DULE (Aplicação e rotulagem de uso de dados)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=pt-BR){target="_blank"}, a Adobe Experience Platform permite gerenciar e aplicar políticas de governança de dados em seus canais **rotulando os campos** e criando **ações de marketing** para cada canal.
+Com sua [estrutura de governança DULE (Aplicação e Rotulagem de Uso de Dados)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=pt-BR){target="_blank"}, a Adobe Experience Platform permite que você gerencie e imponha políticas de governança de dados em seus canais ao **rotular seus campos** e criar **ações de marketing** para cada canal.
 
-Depois que os rótulos e as ações de marketing forem definidos, você poderá criar **políticas de governança de dados** que vinculam esses dois elementos. Por exemplo, você pode configurar uma política que associe um rótulo “ePHI” a uma ação de marketing de “direcionamento por email”, garantindo que os campos rotulados como “ePHI” não sejam usados para personalizar mensagens de email. [Saiba como criar políticas de governança de dados](#governance-policies)
+Depois que os rótulos e as ações de marketing forem definidos, você poderá criar **políticas de governança de dados** que vinculam esses dois elementos. Por exemplo, você pode configurar uma política que associe um rótulo “ePHI” a uma ação de marketing de “direcionamento por email”, garantindo que os campos rotulados como “ePHI” não sejam usados para personalizar mensagens de email. [Saiba como criar políticas de governança de dados](#policy)
 
 Depois de criar as políticas de governança, você pode aplicar as ações de marketing às suas jornadas/campanhas e ações personalizadas das jornadas.
 [Saiba como aplicar ações de marketing no Journey Optimizer](#apply-marketing-actions)
@@ -134,4 +134,4 @@ Os erros são visíveis no botão **[!UICONTROL Alertas]**. Clique no erro para 
 
 Esta caixa de diálogo indica que a configuração atual da jornada ou campanha viola uma política de governança de dados existente. Use o diagrama de linhagem de dados para entender quais outras alterações de configuração precisam ser feitas antes que você possa ativar sua jornada ou campanha.
 
-Para obter informações detalhadas, acesse a [documentação de violação da política de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+Informações detalhadas estão disponíveis na [documentação de violação da política de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 76%
 
 ---
 
@@ -21,9 +21,9 @@ Use o [!DNL Journey Optimizer] para enviar mensagens de texto (SMS/MMS) a client
 
 As mensagens de texto podem ser criadas e enviadas em uma jornada ou em uma campanha. Para MMS e SMS, use a ação SMS.
 
-* Em uma **Jornada**. Crie uma jornada, adicione uma atividade de SMS, defina configurações básicas e navegue até o painel direito **[!UICONTROL Ações: SMS]** para criar o conteúdo da mensagem SMS/MMS. Saiba como criar uma jornada [nesta página](../building-journeys/journey-gs.md).
+* Em uma **Jornada**. Crie uma jornada, adicione uma atividade de SMS, defina configurações básicas e navegue até o painel direito **[!UICONTROL Ações: SMS]** para criar o conteúdo para a mensagem SMS/MMS/RCS. Saiba como criar uma jornada [nesta página](../building-journeys/journey-gs.md).
 
-* Em uma **Campanha**. Crie uma campanha, selecione SMS como ação e defina configurações básicas, depois edite o conteúdo da mensagem SMS/MMS a ser enviada. Saiba como criar uma campanha [nesta página](../campaigns/create-campaign.md#configure).
+* Em uma **Campanha**. Crie uma campanha, selecione SMS como ação e defina as configurações básicas e edite o conteúdo da mensagem para definir a mensagem SMS/MMS/RCS que será enviada. Saiba como criar uma campanha [nesta página](../campaigns/create-campaign.md#configure).
 
 O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de serviço SMS (ou provedores de gateway SMS). Antes de criar sua mensagem SMS/MMS, configure seu provedor de serviço para mensagens de texto com o Journey Optimizer. [Saiba mais](sms-configuration.md).
 
@@ -70,7 +70,7 @@ O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de ser
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422698?learn=on&captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -79,6 +79,6 @@ O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de ser
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430380?quality=12&learn=on&captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
