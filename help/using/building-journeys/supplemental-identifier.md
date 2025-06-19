@@ -3,9 +3,9 @@ title: Identificador complementar em jornadas acionadas por eventos
 description: Saiba como usar o identificador complementar em jornadas acionadas por eventos.
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '928'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,7 @@ Ao fazer isso, as jornadas acionadas pelo evento são executadas no contexto da 
 
 Além disso, o Journey Optimizer permite aproveitar os atributos do identificador complementar (por exemplo, número de reserva, data de renovação da prescrição, tipo de produto) para personalização de mensagens, garantindo comunicações altamente relevantes. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
 
-## Medidas de proteção e limitações
+## Medidas de proteção e limitações {#guardrails}
 
 * **Limites de instância simultânea**: os perfis não podem ter mais de 10 instâncias de jornada simultâneas.
 
@@ -61,7 +61,14 @@ Além disso, o Journey Optimizer permite aproveitar os atributos do identificado
 
 * **Tipo de dados e estrutura de esquema**: o identificador complementar deve ser do tipo `string`. Ele pode ser um atributo de string independente ou pode ser um atributo de string dentro de uma matriz de objetos. O atributo de string independente resultará em uma única instância de jornada, enquanto o atributo de string dentro de uma matriz de objetos resultará em uma instância de jornada exclusiva por iteração da matriz de objetos. Não há suporte para matrizes de cadeia de caracteres e mapas.
 
-## Adicionar um identificador complementar e aproveitá-lo em uma jornada
+* **reentrada de Jornada**
+
+  O comportamento de reentrada da jornada com identificadores complementares segue a política de reentrada existente:
+
+   * Se a jornada não for reentrante, a mesma ID de perfil + ID complementar não poderá entrar na jornada novamente.
+   * Se a jornada for reentrante com uma janela de tempo, a mesma combinação de ID de perfil + ID complementar poderá entrar novamente após a janela de tempo definida.
+
+## Adicionar um identificador complementar e aproveitá-lo em uma jornada {#add}
 
 Para usar um identificador complementar em uma jornada, siga estas etapas:
 
@@ -88,6 +95,10 @@ Para usar um identificador complementar em uma jornada, siga estas etapas:
       ![](assets/supplemental-ID-event.png)
 
    1. Use o editor de expressão para selecionar o atributo marcado como a ID complementar.
+
+      >[!NOTE]
+      >
+      >Verifique se você está usando o editor de expressão no **[!UICONTROL modo Avançado]** para selecionar o atributo.
 
    1. Depois de selecionar a ID complementar, o namespace associado é exibido na tela de configuração do evento como somente leitura.
 

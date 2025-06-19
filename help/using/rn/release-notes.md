@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 43%
+source-wordcount: '1078'
+ht-degree: 44%
 
 ---
 
@@ -30,7 +30,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 **Data de lançamento**: quinta-feira, 18 de junho de 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#25-06-features}
 
@@ -202,6 +202,8 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
    * **Frequência de limite de redefinição por hora** - Agora é possível aplicar limite de hora em hora para conjuntos de regras de canal. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Entre em contato com o atendimento ao cliente para ativá-lo.
 
    * **Duração diária** - Anteriormente disponível em Disponibilidade limitada, o limite de frequência &quot;Diário&quot; nos conjuntos de regras do canal agora está disponível para todos os clientes.
+
+  Para obter mais informações, consulte a [documentação detalhada](../conflict-prioritization/channel-capping.md).
 
 * **Experiências baseadas em código**
 
