@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1957'
 ht-degree: 14%
 
 ---
@@ -72,7 +72,7 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 
 >[!NOTE]
 >
->É possível criar até 10 conjuntos de regras locais ativos para o domínio do canal e para o domínio do jornada.
+>É possível criar até 10 conjuntos de regras locais ativos para cada domínio de canal e para o domínio do jornada.
 
 1. Acesse a lista **[!UICONTROL Conjuntos de regras]** e clique em **[!UICONTROL Criar conjunto de regras]**.
 
@@ -197,7 +197,7 @@ Você também deve ativar o conjunto de regras para acessá-lo em campanhas/jorn
 
 >[!NOTE]
 >
->Pode levar até 20 minutos para que uma regra ou um conjunto de regras seja totalmente ativado. Não é necessário modificar mensagens ou republicar jornadas para que uma regra entre em vigor.
+>Pode levar até 10 minutos para que uma regra ou um conjunto de regras seja totalmente ativado. Não é necessário modificar mensagens ou republicar jornadas para que uma regra entre em vigor.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -253,7 +253,7 @@ Para cada regra no conjunto de regras, o botão **[!UICONTROL Mais ações]** pe
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Antes de ativar sua campanha, certifique-se de agendar a execução pelo menos 20 minutos no futuro.
+1. Antes de ativar sua campanha, certifique-se de agendar a execução pelo menos 10 minutos no futuro.
 
    Isso permite tempo suficiente para preencher os valores do contador no perfil da regra de negócios selecionada. Se você ativar a campanha imediatamente, os valores do contador do conjunto de regras não serão preenchidos nos perfis dos recipients e a mensagem não será contada em relação às regras de limite de frequência para os conjuntos de regras personalizados.
 
@@ -306,10 +306,10 @@ Para aplicar uma regra de limitação a uma jornada, acesse a jornada e abra sua
 
 >[!IMPORTANT]
 >
->Se uma jornada for ativada imediatamente, pode levar até 20 minutos para que o sistema comece a suprimir clientes. Você pode agendar sua jornada para começar pelo menos 20 minutos no futuro para evitar essa possibilidade.
+>Se uma jornada for ativada imediatamente, pode levar até 10 minutos para que o sistema comece a suprimir clientes. Você pode agendar sua jornada para começar pelo menos 10 minutos no futuro para evitar essa possibilidade.
 
 +++
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '945'
 ht-degree: 29%
 
 ---
@@ -87,7 +87,7 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 
 >[!NOTE]
 >
->É possível criar até 10 conjuntos de regras locais ativos para o domínio do canal e para o domínio do jornada.
+>É possível criar até 10 conjuntos de regras locais ativos para cada domínio de canal e para o domínio do jornada.
 
 1. Acesse a lista **[!UICONTROL Conjuntos de regras]** e clique em **[!UICONTROL Criar conjunto de regras]**.
 
@@ -127,7 +127,7 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Pode levar até 20 minutos para que uma regra ou um conjunto de regras seja totalmente ativado. Não é necessário modificar mensagens ou republicar jornadas para que uma regra entre em vigor.
+   >Pode levar até 10 minutos para que uma regra ou um conjunto de regras seja totalmente ativado. Não é necessário modificar mensagens ou republicar jornadas para que uma regra entre em vigor.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -164,4 +164,4 @@ Seu status será alterado para **[!UICONTROL Inativo]** e a regra não se aplica
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
