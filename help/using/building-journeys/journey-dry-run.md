@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 5%
+source-wordcount: '941'
+ht-degree: 4%
 
 ---
 
@@ -118,17 +118,19 @@ Clique no botão **Fechar** para encerrar o teste e clique em **Voltar ao Rascun
 
 ## Medidas de proteção e limitações {#journey-dry-run-limitations}
 
-* O modo simulação não está disponível para jornadas que contêm eventos de reação.
-* Os perfis no modo de simulação são contados em perfis acionáveis.
-* As jornadas de simulação não afetam as regras de negócios.
+* O modo simulação não está disponível para jornadas que contêm eventos de reação
+* Os perfis no modo simulação são contados em perfis acionáveis
+* Jornadas no modo simulação são contadas para a cota de jornada ativa
+* As jornadas de simulação não afetam as regras de negócios
 * Ao criar uma nova versão do jornada, se uma versão anterior do jornada for **Live**, a ativação do Dry run não será permitida na nova versão.
 * O Jornada Dry run gera stepEvents. Estes stepEvents têm um sinalizador específico e um ID de simulação:
    * `_experience.journeyOrchestration.stepEvents.inDryRun` retorna `true` se a Execução Seca estiver ativada, caso contrário `false`
    * `_experience.journeyOrchestration.stepEvents.dryRunID` retorna a ID de uma instância de simulação
+
 * Durante a simulação, a jornada é executada com as seguintes especificidades:
 
-   * Os nós **Ação de canal**, incluindo emails, SMS ou notificações por push, não são executados.
-   * **As ações personalizadas** estão desabilitadas durante a execução Seca e suas respostas estão definidas como nulas.
+   * Os nós **Ação de canal**, incluindo emails, SMS ou notificações por push, não são executados
+   * **As ações personalizadas** estão desabilitadas durante a execução Seca e suas respostas estão definidas como nulas
    * **Os nós de espera** são ignorados durante a execução Dry.
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **As fontes de dados**, incluindo as fontes de dados externas, são executadas por padrão.
+   * **As fontes de dados**, incluindo as fontes de dados externas, são executadas por padrão
