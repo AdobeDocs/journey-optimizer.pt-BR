@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 23%
+source-wordcount: '1471'
+ht-degree: 22%
 
 ---
 
@@ -34,7 +34,8 @@ ht-degree: 23%
 
 >[!AVAILABILITY]
 >
->Esse recurso foi lançado como um beta privado. Ele será disponibilizado progressivamente a todos os clientes em versões futuras.
+>Esse recurso está disponível como um beta privado. Ele será disponibilizado progressivamente a todos os clientes em versões futuras.
+>
 >Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
 
 As diretrizes da marca são um conjunto detalhado de regras e padrões que estabelecem a identidade visual e verbal de uma marca. Eles atuam como uma referência para manter uma representação de marca consistente em todas as plataformas de marketing e comunicação.
@@ -46,6 +47,8 @@ No [!DNL Journey Optimizer], agora há a opção de inserir e organizar manualme
 Para acessar o menu **[!UICONTROL Marcas]** em [!DNL Adobe Journey Optimizer], os usuários precisam receber as permissões **[!UICONTROL Gerenciar kit de marca]** ou **[!UICONTROL Habilitar assistente de IA]**. [Saiba mais](../administration/permissions.md)
 
 +++  Saiba como atribuir permissões relacionadas à marca
+
+Para atribuir permissões para marcas, siga estas etapas:
 
 1. No produto **Permissões**, abra a guia **Funções** e selecione a **função** desejada.
 
