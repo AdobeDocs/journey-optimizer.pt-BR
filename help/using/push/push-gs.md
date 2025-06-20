@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Esta página ajuda você a configurar e entender os principais serviços e fluxo
 
 >[!AVAILABILITY]
 >
->O novo **fluxo de trabalho de início rápido de integração móvel** está disponível. Use esse novo recurso do produto para configurar rapidamente o Mobile SDK para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados como um beta público. [Saiba mais](mobile-onboarding-wf.md)
+>O novo **fluxo de trabalho de início rápido de integração para dispositivos móveis** está disponível. Use esse novo recurso do produto para configurar rapidamente o Mobile SDK para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados como um beta público. [Saiba mais](mobile-onboarding-wf.md)
 >
 
 Saiba como criar notificações por push em [esta página](create-push.md).
@@ -42,7 +42,7 @@ A figura a seguir mostra os sistemas e serviços envolvidos com fluxos de dados 
 1. As cargas de push personalizadas são encaminhadas para um serviço interno de delivery de mensagens por push
 1. Esse serviço interno valida as credenciais do aplicativo associado à mensagem e
 1. Envia a mensagem para os serviços de mensagens do Apple e Google para entrega final
-1. Os comentários dos serviços de mensagens são anotados, erros e sucessos são registrados para relatórios no Jornada Live e no relatório Customer Journey Analytics
+1. Os comentários dos serviços de mensagens são anotados, erros e sucessos são registrados para relatórios no relatório do Jornada Live e Customer Journey Analytics
 1. As notificações por push são entregues aos dispositivos do usuário final
 1. As interações de notificação por push do usuário final são enviadas como Eventos de experiência do cliente do usuário final por meio da integração do SDK
 
@@ -56,7 +56,7 @@ A figura a seguir mostra os sistemas e serviços envolvidos com fluxos de dados 
 
 * **Adobe Experience Platform Mobile SDK**, que fornece APIs de integração no lado do cliente para seus dispositivos móveis por meio de SDKs compatíveis com Android e iOS. O SDK fornece uma extensão [!DNL Adobe Journey Optimizer] expondo uma variedade de APIs específicas para mensagens por push e habilita o fluxo de dados, como registrar o token de push ou enviar eventos de rastreamento de push ou quaisquer outros eventos de experiência personalizados para o Adobe Experience Platform. O SDK também fornece uma variedade de outras extensões que permitem outros recursos do Adobe Experience Cloud, bem como de parceiros de terceiros.
 
-  A integração do SDK também requer a configuração dos serviços [Coleção de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR){target="_blank"} do Adobe Experience Platform, como:
+  A integração do SDK também requer a configuração dos serviços de [Coleção de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR){target="_blank"} do Adobe Experience Platform, como:
 
    * Criar uma sequência de dados para configurar o perfil e os conjuntos de dados de evento de experiência nos quais os dados fluem para o Adobe Experience Platform
    * Criação da propriedade móvel do lado do cliente e adição de extensões. O SDK se integra estreitamente a essas extensões para fornecer uma experiência de coleta de dados contínua.
