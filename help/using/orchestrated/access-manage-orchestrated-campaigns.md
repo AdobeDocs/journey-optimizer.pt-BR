@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 919b462e869b8dd836fe45ee31441d3cc7ecf6b2
+source-git-commit: cd42bca1a36344f688b2d90e1c0b96a9ef2a53ce
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 22%
+source-wordcount: '610'
+ht-degree: 21%
 
 ---
 
@@ -72,14 +72,23 @@ As campanhas orquestradas podem ter vários status:
 * **[!UICONTROL Publicação]**: a campanha orquestrada está sendo publicada.
 * **[!UICONTROL Live]**: a campanha orquestrada foi publicada e está sendo executada.
 * **[!UICONTROL Agendado]**: a execução da campanha orquestrada foi agendada.
-* **[!UICONTROL Concluído]**: a execução da campanha orquestrada foi concluída.
-  <!--* **[!UICONTROL Closed]**: The orchestrated campaign xxxx-->
+* **[!UICONTROL Concluído]**: a execução da campanha orquestrada foi concluída. O status Completed é atribuído automaticamente até 3 dias após uma campanha concluir o envio de mensagens sem erro.
+* **[!UICONTROL Fechado]**: esse status é exibido quando uma campanha recorrente é interrompida.
+<!--Comment une campaign devient Closed?
+[CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
+= pas trouvé-->
 * **[!UICONTROL Arquivado]**: a campanha orquestrada foi arquivada. Todas as campanhas arquivadas são excluídas em uma reprogramação contínua 30 dias após a última data modificada. Você pode duplicar uma campanha arquivada, se necessário, para continuar trabalhando nela.
-* **[!UICONTROL Parado]**: a execução da campanha orquestrada foi interrompida. Para iniciar a campanha, você precisa duplicá-la.
+<!--Comment une campaign devient Archived?
+[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...)
+= pas trouvé -->
+* **[!UICONTROL Parado]**: a execução da campanha orquestrada foi interrompida. Para iniciar a campanha novamente, você precisa duplicá-la.
 
 ## Duplicar e excluir campanhas orquestradas {#duplicate-delete}
 
 Em alguns casos, pode ser necessário duplicar uma campanha orquestrada, por exemplo, para executar uma campanha que foi interrompida ou alterar a frequência de execução de uma campanha agendada. Para fazer isso, clique na ![imagem que mostra o botão Mais ações](assets/do-not-localize/rule-builder-icon-more.svg) no inventário de campanhas e selecione **[!UICONTROL Duplicar]**
+
+<!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
+[CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
 
 Para excluir uma campanha, clique na ![imagem que mostra o botão Mais ações](assets/do-not-localize/rule-builder-icon-more.svg) e selecione **[!UICONTROL Excluir]**.
 
