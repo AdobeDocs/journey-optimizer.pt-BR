@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 979b46eccf77db6e90cd47ceb7a40298bb481cc5
+source-git-commit: 919b462e869b8dd836fe45ee31441d3cc7ecf6b2
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '579'
 ht-degree: 22%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 22%
 >id="ajo_targeting_workflow_list"
 >title="Campanha orquestrada"
 >abstract="Nesta tela, é possível acessar a lista completa de campanhas orquestradas, verificar o status atual, as datas da última/próxima execução e criar uma nova campanha orquestrada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_campaign_action"
+>title="Ação"
+>abstract="Esta seção lista todas as ações usadas na campanha orquestrada."
 
 +++ Sumário
 
