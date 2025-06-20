@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
+source-git-commit: 97a791329f35ba64a1dca9aef7802e0f4103dbe5
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1114'
 ht-degree: 2%
 
 ---
@@ -44,6 +44,21 @@ Antes de começar, reveja as seguintes restrições e diretrizes:
 * **Canais com suporte**: por enquanto, esse recurso só está disponível para uso em canais de email, SMS e correspondência direta.
 * **Rotulagem e Imposição de Uso de Dados** não é imposta no momento para conjuntos de dados habilitados para pesquisa.
 * **Fragmentos**: no momento, a personalização da pesquisa do conjunto de dados não pode ser colocada dentro de expressões ou fragmentos visuais.
+
+### Decisão {#decisioning}
+
+A capacidade de aproveitar [!DNL Adobe Experience Platform] conjuntos de dados nas fórmulas e regras de classificação do Experience Decisioning será disponibilizada em breve.
+
+Entretanto, reveja as medidas de proteção atuais descritas abaixo:
+
+* Uma política de decisão é limitada a três conjuntos de dados,
+* Uma regra de decisão pode usar três conjuntos de dados,
+* Uma fórmula de classificação pode usar três conjuntos de dados,
+* Uma política de decisão é limitada a 1000 consultas de registro.
+
+>[!NOTE]
+>
+>Entre em contato com seu representante de conta se desejar ter acesso a esse recurso
 
 ## Ativar um conjunto de dados para pesquisa de dados {#enable}
 
@@ -117,11 +132,11 @@ Depois que um conjunto de dados for habilitado para personalização de pesquisa
 
    +++Onde recuperar uma ID de conjunto de dados?
 
-   As IDs dos conjuntos de dados podem ser recuperadas na interface do usuário do Adobe Experience Platform. Saiba como trabalhar com conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   As IDs dos conjuntos de dados podem ser recuperadas na interface do usuário do Adobe Experience Platform. Saiba como trabalhar com conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. Adapte a sintaxe de acordo com suas necessidades. Neste exemplo, queremos recuperar dados relacionados aos voos dos passageiros. A sintaxe é a seguinte:
 
@@ -148,11 +163,11 @@ Depois que um conjunto de dados for habilitado para personalização de pesquisa
 
      +++Onde recuperar uma ID de campo?
 
-     As IDs de campos podem ser recuperadas ao visualizar um conjunto de dados na interface do usuário do Adobe Experience Platform. Saiba como visualizar conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     As IDs de campos podem ser recuperadas ao visualizar um conjunto de dados na interface do usuário do Adobe Experience Platform. Saiba como visualizar conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    Neste exemplo, queremos usar informações relacionadas ao horário e ao portão de embarque dos passageiros. Portanto, adicionamos estas duas linhas:
 
