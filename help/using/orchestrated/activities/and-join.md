@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
+source-git-commit: 54b5591186dd51c0ea1fda6055d6c52fd079a748
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 63%
+source-wordcount: '334'
+ht-degree: 38%
 
 ---
 
@@ -48,13 +48,16 @@ Siga estas etapas para configurar a atividade **AND-join**:
 
 ![](../assets/workflow-andjoin.png)
 
-1. Adicione várias atividades, como atividades de canal, para formar pelo menos duas ramificações de execução diferentes.
-1. Adicione uma atividade **AND-join** a qualquer uma das ramificações.
-1. Na seção **Opções de mesclagem**, marque todas as atividades anteriores que você deseja mesclar.
-1. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada que deseja manter. A transição de saída só pode conter uma das populações de transição de entrada.
+1. Adicione várias atividades, como atividades de canal, para criar pelo menos duas ramificações de execução distintas.
+
+1. Insira uma atividade **AND-join** em uma das ramificações.
+
+1. Na seção **Opções de mesclagem**, selecione todas as atividades anteriores nas quais deseja ingressar.
+
+1. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada que deseja manter.
 
 ## Exemplo{#and-join-example}
 
-O exemplo a seguir mostra duas ramificações de campanha orquestradas com um delivery de email e SMS. A AND-join será acionada quando ambas as transições de entrada estiverem habilitadas. As notificações por push serão enviadas somente após a conclusão de ambas as entregas.
+Este exemplo ilustra duas ramificações de campanha coordenadas, cada uma com um delivery de email, um direcionando membros gold e o outro silver. O **AND-join** é ativado assim que ambas as transições de entrada são acionadas e o SMS é enviado somente após a conclusão de ambas as entregas de email, seguindo um atraso de 7 dias.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}
