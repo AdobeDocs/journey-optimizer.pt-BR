@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 11%
+source-wordcount: '984'
+ht-degree: 10%
 
 ---
 
@@ -51,6 +51,13 @@ A jornada Dry run traz:
 1. **Insights do público-alvo**: os profissionais de Jornada podem prever a acessibilidade do público-alvo em vários nós de jornada, incluindo recusas, exclusões e outras condições.
 1. **Feedback em tempo real**: as métricas são exibidas diretamente na tela de jornada, de modo semelhante aos relatórios em tempo real, permitindo que os profissionais de jornada refinem seu design de jornada.
 
+Durante a simulação, a jornada é executada com as seguintes especificidades:
+
+* Os nós **Ação de canal**, incluindo emails, SMS ou notificações por push, não são executados
+* **As ações personalizadas** estão desabilitadas durante a execução Seca e suas respostas estão definidas como nulas
+* **Os nós de espera** são ignorados durante a execução Dry.
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+* **As fontes de dados**, incluindo as fontes de dados externas, são executadas por padrão
 
 >[!CAUTION]
 >
@@ -86,7 +93,7 @@ As métricas são exibidas diretamente na tela de jornada.
 
 Para cada atividade, você pode verificar:
 
-* **[!UICONTROL Informado]**: número total de indivíduos que entraram nesta atividade.
+* **[!UICONTROL Informado]**: número total de indivíduos que entraram nesta atividade. Para atividades de **Ação**, como não são executadas no modo de execução em andamento, essa métrica indica que os perfis estão passando.
 * **[!UICONTROL Saída (atender aos critérios de saída)]**: Número total de indivíduos que saíram da jornada dessa atividade devido a um critério de saída.
 * **[!UICONTROL Saída (saída forçada)]**: Número total de indivíduos que saíram da jornada enquanto ela estava pausada devido a uma configuração de profissional de jornada. Essa métrica é sempre igual a zero para jornadas no modo de Execução em tempo real.
 * **[!UICONTROL Erro]**: número total de indivíduos que tiveram um erro nessa atividade.
@@ -127,10 +134,4 @@ Clique no botão **Fechar** para encerrar o teste e clique em **Voltar ao Rascun
    * `_experience.journeyOrchestration.stepEvents.inDryRun` retorna `true` se a Execução Seca estiver ativada, caso contrário `false`
    * `_experience.journeyOrchestration.stepEvents.dryRunID` retorna a ID de uma instância de simulação
 
-* Durante a simulação, a jornada é executada com as seguintes especificidades:
-
-   * Os nós **Ação de canal**, incluindo emails, SMS ou notificações por push, não são executados
-   * **As ações personalizadas** estão desabilitadas durante a execução Seca e suas respostas estão definidas como nulas
-   * **Os nós de espera** são ignorados durante a execução Dry.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **As fontes de dados**, incluindo as fontes de dados externas, são executadas por padrão
+* Ao analisar métricas de relatório do jornada usando o serviço de consulta da Adobe Experience Platform, os eventos de etapa gerados por Dry Run devem ser excluídos. Para fazer isso, defina o sinalizador `inDryRun` como `false`.
