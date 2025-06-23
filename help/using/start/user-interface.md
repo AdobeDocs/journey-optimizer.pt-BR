@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1670'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -277,7 +277,7 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_1"
 >title="Campanhas acionadas por API transacional"
->abstract="Acionar mensagens em tempo real por meio de chamadas de API"
+>abstract="Acione mensagens em tempo real por meio de chamadas de API"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
@@ -292,7 +292,7 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_4"
 >title="Canais disponíveis"
->abstract="Email, SMS, notificações por push"
+>abstract="Notificações por Email, SMS, Push"
 
 <!--APPROVAL POLICIES-->
 

@@ -269,7 +269,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
          + [Parâmetros de cabeçalho](using/email/header-parameters.md)
          + [Rastreamento de URL](using/email/url-tracking.md)
          + [Personalizar configurações de email](using/email/surface-personalization.md)
-      + Entregabilidade por email {#deliverability}
+      + Capacidade de entrega de email {#deliverability}
          + [Introdução à capacidade de entrega](using/reports/deliverability.md)
          + [Sobre a lista de supressão](using/reports/suppression-list.md)
          + [Novo requisito DMARC](using/configuration/dmarc-record-update.md)
