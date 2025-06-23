@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2035'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lan
 </table>
 
 
-Consulte também as [Notas de versão de outubro do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=pt-BR){target="_blank"} para mais alterações.
+Consulte também as [Notas de versão de outubro da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=pt-BR){target="_blank"} para mais alterações.
 
 ### Melhorias
 
@@ -111,8 +111,8 @@ Consulte também as [Notas de versão de outubro do Adobe Experience Platform](h
 
 ### Correções
 
-* Correção de um problema que impedia a exibição da lista de Jornada, da lista de Mensagens e do Designer de email quando o idioma do navegador não estava em inglês.
-* Correção de um erro de sintaxe que ocorria ao adicionar personalização usando uma expressão no Designer de email: os caracteres eram evitados incorretamente.
+* Correção de um problema que impedia a exibição da lista de jornadas, da lista de mensagens e do Designer de email quando o idioma do navegador não estava em inglês.
+* Correção de um erro de sintaxe que ocorria ao adicionar personalização usando uma expressão no Designer de email: os caracteres eram escapados incorretamente.
 * Correção de um problema que resultava em um erro 404 ao navegar no menu **Administração**.
 * Correção de um problema que acionava outras jornadas ativas ao testar uma jornada usando um evento comercial.
 
@@ -294,7 +294,7 @@ Consulte também as [Notas de versão de outubro do Adobe Experience Platform](h
 ### Correções
 
 * Correção de um problema de acessibilidade na navegação da guia de mensagem.
-* Correção de um problema de localização nos rótulos de Email Designer.
+* Correção de um problema de localização nos rótulos do Designer de email.
 * Correção de um problema ao selecionar mais de um nó em uma jornada e clicar em Excluir no painel de propriedades.
 * Correção de um problema que impedia a adição de um novo cabeçalho a uma ação usada em uma jornada.
 * Agora você pode descobrir o motivo pelo qual uma criação de predefinição de mensagem falhou por meio de um aviso mais explícito na interface do usuário.
@@ -365,4 +365,4 @@ Consulte também as [Notas de versão de outubro do Adobe Experience Platform](h
 * Correção de um problema em que as informações de IP estavam ausentes na tela Registros PTR .
 * A localização no painel de ofertas no Editor de expressão agora está implementada.
 * Corrigido o espaçamento incorreto em pop-ups de informações.
-* Correção de um problema no Designer de email ao carregar um arquivo HTML em que a folha de estilos interna com a propriedade `background-image` não era suportada.
+* Correção de um problema no Designer de email ao fazer upload de um arquivo HTML no qual a folha de estilos interna com a propriedade `background-image` não era compatível.

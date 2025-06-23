@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
 source-git-commit: a5b292e6eb4145fa29774fbeb4ce823bc71b849c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Essas tarefas podem ser realizadas usando o menu **[!UICONTROL Ciclo de vida de
 
 Ao executar operações de higiene de dados (como excluir identidades ou conjuntos de dados), esteja ciente de que os eventos de entrega históricos associados às identidades excluídas não aparecerão mais nos relatórios padrão ou nas consultas do datalake. Isso pode resultar em discrepâncias entre o número de emails relatados como **Entregues** e o número de emails **Recebidos** nas caixas de entrada dos destinatários, especialmente em jornadas mais antigas.
 
-Antes de executar exclusões em grande escala, valide e exporte quaisquer dados de entrega ou relatório necessários. Se a reconciliação for necessária após a higiene de dados, fale com o suporte da Adobe para acessar logs arquivados ou usar consultas do conjunto de dados do evento de feedback de mensagens para dados recentes.
+Antes de realizar exclusões em grande escala, valide e exporte quaisquer dados de entrega ou relatório necessários. Se a reconciliação for necessária após a higiene de dados, entre em contato com o suporte da Adobe para acessar logs arquivados ou usar consultas do conjunto de dados do evento de feedback de mensagem para dados recentes.
 
 ## Saiba mais {#data-hygiene-learn-more}
 

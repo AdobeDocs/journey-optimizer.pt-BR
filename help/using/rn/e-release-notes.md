@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 **As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**.  Links, telas e a documentação atualizada são publicados na data de lançamento.
 
-**Data de lançamento**: quinta-feira, 18 de junho de 2025
+**Data de lançamento**: 18 de junho de 2025
 
 
 ### Novos recursos {#25-06-features}
@@ -45,13 +45,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>O envio de mensagens por RCS (Serviços de Comunicação Avançada) agora é suportado no Journey Optimizer, habilitando os seguintes recursos de envio de mensagens aprimorados sujeitos ao suporte do provedor e da operadora:</p>
+<p>As mensagens do Rich Communication Services (RCS) agora são aceitas no Journey Optimizer, o que permite os seguintes recursos de mensagens aprimorados sujeitos ao suporte do provedor e da operadora:</p>
 <ul>
-<li>Suporte a remetente marcado e verificado: envie mensagens usando perfis comerciais verificados com elementos de marca (logotipo, nome do remetente etc.).</li>
-<li>Insights de delivery de mensagens: receba relatórios de delivery detalhados, incluindo atualizações de status de mensagem (por exemplo, enviado, entregue, lido).</li>
-<li>Rastreamento de link: incorpore e rastreie URLs em mensagens do RCS para análise de engajamento.</li>
-<li>Fallback para SMS: fallback automático para SMS quando o dispositivo do perfil não dá suporte a RCS ou está temporariamente inacessível via RCS.</li>
-<li>Composição básica de mensagem: envia mensagens RCS baseadas em texto com mídia opcional e elementos avançados, dependendo do suporte do provedor.</li>
+<li>Suporte a remetentes com marca e verificados: envie mensagens usando perfis de negócios verificados com elementos de marca (logotipo, nome do remetente, etc.).</li>
+<li>Insights de entregas de mensagens: receba relatórios de entrega detalhados, incluindo atualizações de status de mensagem (por exemplo, enviado, entregue, lido).</li>
+<li>Rastreamento de link: incorpore e rastreie URLs em mensagens RCS para análise de engajamento.</li>
+<li>Fallback para SMS: retorno automático para SMS quando o dispositivo do perfil não dá suporte a RCS ou está temporariamente inacessível via RCS.</li>
+<li>Composição básica de mensagem: envie mensagens RCS baseadas em texto com mídia opcional e elementos avançados, dependendo do suporte do provedor.</li>
 </ul>
 <!--p>For more information, refer to the <a href="../sms/sms-configuration.md">detailed documentation</a>.</p-->
 </td>
@@ -83,7 +83,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora é possível definir campos editáveis específicos em modelos de conteúdo JSON ou HTML que permitem que usuários não técnicos editem facilmente o conteúdo em uma exibição de formulário na criação do canal de experiência baseado em código, sem a necessidade de manipular qualquer código.<br />Mais do que isso, ao definir os modelos de conteúdo de experiência baseados em código, agora é possível inserir políticas de decisão no modelo, aumentando a reutilização e a facilidade de uso.</p>
+<p>Agora é possível definir campos editáveis específicos em modelos de conteúdo JSON ou HTML que habilitam usuários comuns a editar facilmente o conteúdo em uma exibição de formulário na criação do canal de experiência baseada em código, sem a necessidade de manipular qualquer código.<br />Mais do que isso, ao definir os modelos de conteúdo de experiência baseada em código, agora é possível inserir políticas de decisão no modelo, aprimorando a capacidade de reutilização e a facilidade de uso.</p>
 </td>
 </tr>
 </tbody>
@@ -98,7 +98,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Além da delegação completa e do método CNAME, um novo método de configuração de subdomínio está disponível: o método de delegação Personalizado, que permite controlar e manter totalmente todos os aspectos do DNS necessários para entregar, renderizar e rastrear mensagens.</p>
+<p>Além da delegação completa e do método CNAME, há um novo método de configuração de subdomínio disponível: o método de delegação personalizado, que permite controlar e manter totalmente todos os aspectos do DNS necessários para entregar, renderizar e rastrear mensagens.</p>
 </td>
 </tr>
 </tbody>
@@ -108,14 +108,14 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Atividade do Content Decisioning no jornada</strong><br/></th>
+<th><strong>Atividade de decisão de conteúdo em jornadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível incluir ofertas personalizadas em suas jornadas por meio de uma atividade dedicada de Decisão de conteúdo na tela de jornada e usá-las em atividades de jornada, incluindo condições e ações personalizadas.</p>
-<p>Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será lançado globalmente em uma versão futura.</p>
+<p>Agora é possível incluir ofertas personalizadas em suas jornadas por meio de uma atividade dedicada de Decisão de conteúdo na tela da jornada e usá-las em atividades da jornada, incluindo condições e ações personalizadas.</p>
+<p>Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.</p>
 </td>
 </tr>
 </tbody>
@@ -148,8 +148,8 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>O Jornada Dry run é um modo de publicação de jornada especial no Adobe Journey Optimizer que permite que os profissionais de jornada testem uma jornada usando dados de produção reais sem entrar em contato com clientes reais ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganhar confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la ao vivo.</p>
-<p>Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será lançado globalmente em uma versão futura.</p>
+<p>A execução de prática de jornada é um modo especial de publicação no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais sem entrar em contato com clientes do mundo real ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.</p>
+<p>Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.</p>
 </td>
 </tr>
 </tbody>
@@ -165,10 +165,10 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode pausar e retomar suas jornadas. Esse recurso oferece aos profissionais de jornadas maior controle e flexibilidade, permitindo que as jornadas ativas sejam temporariamente suspensas sem interromper a experiência do cliente. Quando pausada, nenhuma comunicação é enviada e os perfis permanecem em um estado suspenso até que a jornada seja retomada.</p>
-<p>Você pode pausar e retomar apenas uma jornada ou executar operações de pausa e retomada em massa para um grupo de jornadas.</p>
+<p>Agora é possível pausar e retomar jornadas. Esse recurso oferece aos profissionais de jornada maior controle e flexibilidade ao permitir que as jornadas ativas sejam temporariamente suspensas sem interromper a experiência do cliente. Quando pausada, nenhuma comunicação é enviada e os perfis permanecem em um estado suspenso até que a jornada seja retomada.</p>
+<p>É possível pausar e retomar apenas uma jornada ou executar operações de pausa e retomada em massa para um grupo de jornadas.</p>
 <p>Além disso, é possível aplicar filtros globais a jornadas pausadas para excluir perfis com base em seus atributos.</p>
-<p>Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será lançado globalmente em uma versão futura.</p>
+<p>Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.</p>
 </td>
 </tr>
 </tbody>
@@ -220,19 +220,19 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Conjuntos de regras de canal**
 
-   * **Janela de duração personalizada** para limitação - Um novo campo **Contagem de Repetição** está disponível na tela de configuração de conjuntos de regras de canal, permitindo que você aplique regras de limitação de frequência em vários dias, semanas ou meses, dependendo da duração especificada.
+   * **Janela de duração personalizada** para limites: um novo campo **Contagem de repetições** agora está disponível na tela de configuração de conjuntos de regras de canal, permitindo aplicar regras de limitação de frequência por vários dias, semanas ou meses, dependendo da duração especificada.
 
-   * **Duração por hora** - Agora é possível aplicar o limite de hora em hora para conjuntos de regras de canal.
+   * **Duração por hora**: agora é possível aplicar limites por hora para conjuntos de regras de canal.
 
 * **Experiências baseadas em código**
 
-   * A adição de uma política de decisão agora está disponível em modelos de conteúdo de experiência baseados em código.
+   * A adição de uma política de decisão agora está disponível em modelos de conteúdo de experiência baseada em código.
 
-   * Na tela de jornada de experiência ou edição de campanha baseada em código, agora é possível adicionar uma política de decisão diretamente, sem abrir o editor de personalização.
+   * Na tela de edição da jornada ou campanha da experiência baseada em código, agora é possível adicionar uma política de decisão diretamente, sem abrir o editor de personalização.
 
 * **Suporte a CSS personalizado no Designer de email**
 
-  O Journey Optimizer agora permite adicionar CSS personalizado ao seu conteúdo de email diretamente no Designer de email.
+  O Journey Optimizer agora permite adicionar CSS personalizado ao conteúdo do email diretamente no Designer de email.
 
 * **Nova navegação com guias para campanhas**
 
