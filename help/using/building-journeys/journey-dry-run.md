@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
+source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '996'
 ht-degree: 10%
 
 ---
@@ -91,7 +91,7 @@ As métricas são exibidas diretamente na tela de jornada.
 
 ![Monitorar a execução de simulação de jornada](assets/dry-run-metrics.png)
 
-Para cada atividade, você pode verificar:
+Para cada atividade, na caixa de atividades, você pode verificar:
 
 * **[!UICONTROL Informado]**: número total de indivíduos que entraram nesta atividade. Para atividades de **Ação**, como não são executadas no modo de execução em andamento, essa métrica indica que os perfis estão passando.
 * **[!UICONTROL Saída (atender aos critérios de saída)]**: Número total de indivíduos que saíram da jornada dessa atividade devido a um critério de saída.
@@ -99,7 +99,7 @@ Para cada atividade, você pode verificar:
 * **[!UICONTROL Erro]**: número total de indivíduos que tiveram um erro nessa atividade.
 
 
-No nível da jornada, você pode verificar:
+No nível da jornada, na seção superior esquerda da tela, você pode verificar:
 
 * O número total de **Perfis inseridos**
 * O número total de **Perfis encerrados**
