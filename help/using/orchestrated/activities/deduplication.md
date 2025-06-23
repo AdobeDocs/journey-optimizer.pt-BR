@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 35%
 
 +++ Sumário
 
-| Bem-vindo às campanhas orquestradas | Iniciar sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
+| Bem-vindo às campanhas orquestradas | Lançar a primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
 |---|---|---|---|
 | [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>[Etapas de configuração](../configuration-steps.md)<br/><br/>[Etapas principais para a criação de campanhas orquestradas](../gs-campaign-creation.md) | [Criar uma campanha orquestrada](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/>[Enviar mensagens com campanhas orquestradas](../send-messages.md)<br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Relatórios](../reporting-campaigns.md) | [Trabalhar com o Query Modeler](../orchestrated-rule-builder.md)<br/><br/>[Criar sua primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[And-join](and-join.md) - [Criar público](build-audience.md) - [Alterar dimensão](change-dimension.md) - [Combinar](combine.md) - [Eliminação de Duplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Divisão](split.md) - [Espera](wait.md) |
 
@@ -48,20 +48,20 @@ ht-degree: 35%
 
 <br/>
 
-A atividade **Deduplication** é uma atividade **Targeting**. Essa atividade permite excluir duplicados no(s) resultado(s) das atividades de entrada, por exemplo, perfis duplicados na lista de recipients. A atividade **Deduplication** geralmente é usada após as atividades de direcionamento e antes das atividades que permitem o uso de dados direcionados.
+A atividade **[!UICONTROL Deduplication]** é uma atividade **[!UICONTROL Targeting]**. Essa atividade permite excluir duplicados no(s) resultado(s) das atividades de entrada, por exemplo, perfis duplicados na lista de recipients. A atividade **[!UICONTROL Deduplication]** geralmente é usada após as atividades de direcionamento e antes das atividades que permitem o uso de dados direcionados.
 
 ## Configurar a atividade de desduplicação{#deduplication-configuration}
 
-Siga estas etapas para configurar a atividade **Desduplicação**:
+Siga estas etapas para configurar a atividade **[!UICONTROL Desduplicação]**:
 
 
-1. Adicione uma atividade **Deduplication** à sua campanha orquestrada.
+1. Adicione uma atividade **[!UICONTROL Deduplication]** à sua campanha orquestrada.
 
-1. Na seção **Campos para identificar duplicatas**, clique no botão **Adicionar atributo** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro.
+1. Na seção **[!UICONTROL Campos para identificar duplicatas]**, clique no botão **[!UICONTROL Adicionar atributo]** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro.
 
 ![](../assets/deduplication-1.png)
 
-1. Na seção **Configurações de desduplicação**, escolha quantos registros exclusivos devem ser mantidos usando o campo Duplicatas a serem mantidas. O padrão é 1, que mantém um registro por grupo duplicado. Defina como 0 para manter todas as duplicatas.
+1. Na seção **[!UICONTROL Configurações de desduplicação]**, escolha quantos registros exclusivos devem ser mantidos usando o campo Duplicatas a serem mantidas. O padrão é 1, que mantém um registro por grupo duplicado. Defina como 0 para manter todas as duplicatas.
 
    Por exemplo, se os registros A e B forem duplicatas de Y e o registro C for uma duplicata de Z:
 
@@ -69,19 +69,19 @@ Siga estas etapas para configurar a atividade **Desduplicação**:
    * **Se o valor do campo for 0**: todos os registros (A, B, C, Y, Z) serão mantidos.
    * **Se o valor do campo for 2**: C e Z serão mantidos, além de dois valores de A, B e Y, aleatoriamente ou com base no método de desduplicação.
 
-1. Escolha um **Método de Desduplicação**, isso define como o sistema decide quais registros manter de cada grupo de duplicatas:
+1. Escolha um **[!UICONTROL Método de Desduplicação]**, isso define como o sistema decide quais registros manter de cada grupo de duplicatas:
 
-   * **Seleção aleatória**: seleciona aleatoriamente o registro a ser mantido fora das duplicatas.
-   * **Usando uma expressão**: mantém registros com o valor mais alto ou mais baixo com base em uma expressão que você define.
-   * **Valores não vazios**: mantém registros em que o campo selecionado não está vazio, por exemplo, manter apenas perfis com um número de telefone.
-   * **Seguindo uma lista de valores**: permite priorizar valores específicos para um ou mais campos, por exemplo, você pode dar prioridade a registros com &quot;País&quot; definido como França. Clique em **Atributo** para escolher um campo ou criar uma expressão personalizada. Use o **Botão Adicionar** para inserir valores preferenciais na ordem de prioridade.
+   * **[!UICONTROL Seleção aleatória]**: seleciona aleatoriamente o registro a ser mantido fora das duplicatas.
+   * **[!UICONTROL Usando uma expressão]**: mantém registros com o valor mais alto ou mais baixo com base em uma expressão que você define.
+   * **[!UICONTROL Valores não vazios]**: mantém registros em que o campo selecionado não está vazio, por exemplo, manter apenas perfis com um número de telefone.
+   * **[!UICONTROL Seguindo uma lista de valores]**: permite priorizar valores específicos para um ou mais campos, por exemplo, você pode dar prioridade a registros com &quot;País&quot; definido como França. Clique em **[!UICONTROL Atributo]** para escolher um campo ou criar uma expressão personalizada. Use o **[!UICONTROL Botão Adicionar]** para inserir valores preferenciais na ordem de prioridade.
 
    ![](../assets/deduplication-2.png)
 
-1. Marque a opção **Gerar complemento** se desejar explorar a população restante. O complemento consiste de todas as duplicatas. Uma transição adicional será adicionada à atividade.
+1. Marque a opção **[!UICONTROL Gerar complemento]** se desejar explorar a população restante. O complemento consiste de todas as duplicatas. Uma transição adicional será adicionada à atividade.
 
 ## Exemplo{#deduplication-example}
 
-No exemplo a seguir, uma atividade **Deduplication** é usada para remover registros duplicados do público-alvo antes de enviar uma entrega. O público é filtrado pela primeira vez para incluir apenas perfis com um campo Email não vazio. Em seguida, a atividade **Deduplication** usa o endereço de email para identificar e excluir duplicatas.
+No exemplo a seguir, uma atividade **[!UICONTROL Deduplication]** é usada para remover registros duplicados do público-alvo antes de enviar uma entrega. O público é filtrado pela primeira vez para incluir apenas perfis com um campo Email não vazio. Em seguida, a atividade **[!UICONTROL Deduplication]** usa o endereço de email para identificar e excluir duplicatas.
 
 ![](../assets/deduplication-3.png)

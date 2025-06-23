@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 44%
 
 +++ Sumário
 
-| Bem-vindo às campanhas orquestradas | Iniciar sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
+| Bem-vindo às campanhas orquestradas | Lançar a primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
 |---|---|---|---|
 | [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>[Etapas de configuração](../configuration-steps.md)<br/><br/>[Etapas principais para a criação de campanhas orquestradas](../gs-campaign-creation.md) | [Criar uma campanha orquestrada](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/>[Enviar mensagens com campanhas orquestradas](../send-messages.md)<br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Relatórios](../reporting-campaigns.md) | [Trabalhar com o Query Modeler](../orchestrated-rule-builder.md)<br/><br/>[Criar sua primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[And-join](and-join.md) - [Criar público](build-audience.md) - [Alterar dimensão](change-dimension.md) - [Combinar](combine.md) - [Eliminação de Duplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Divisão](split.md) - [Espera](wait.md) |
 
@@ -40,7 +40,7 @@ Comece a criar sua campanha orquestrada com as atividades relevantes:
 
 * Antes de inserir uma atividade de canal, é necessário definir o público-alvo. O público-alvo é o principal alvo do delivery: os perfis que recebem as mensagens.
 
-* Para enviar uma entrega recorrente, inicie sua campanha orquestrada com uma atividade **Scheduler**. Você também pode usar uma atividade **Scheduler** para entregas únicas e únicas para definir a data de contato para essa entrega. Essa data de contato também pode ser definida nas configurações de delivery.
+* Para enviar uma entrega recorrente, inicie sua campanha orquestrada com uma atividade **[!UICONTROL Scheduler]**. Você também pode usar uma atividade **[!UICONTROL Scheduler]** para entregas únicas e únicas para definir a data de contato para essa entrega. Essa data de contato também pode ser definida nas configurações de delivery.
 
 ## Configurar a atividade canal {#create-a-delivery-in-a-workflow}
 
@@ -78,23 +78,23 @@ Para configurar um delivery no contexto de uma campanha orquestrada, siga as eta
    * Uma **Entrega única** é uma entrega única, enviada apenas uma vez, por exemplo, um email Black Friday.
    * Uma **entrega recorrente** é enviada várias vezes com base em sua frequência de execução. Cada vez que a campanha orquestrada é executada, o público é recalculado e o delivery é enviado ao público atualizado, com o conteúdo atualizado. Pode ser um informativo semanal ou um email de aniversário recorrente, por exemplo.
 
-1. Selecione um **Modelo** da entrega. Os modelos são configurações de entrega pré-definidas, específicas para um canal. Um modelo integrado está disponível para cada canal e é preenchido previamente por padrão.
+1. Selecione um **[!UICONTROL Modelo]** da entrega. Os modelos são configurações de entrega pré-definidas, específicas para um canal. Um modelo integrado está disponível para cada canal e é preenchido previamente por padrão.
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Você pode selecionar o modelo no painel esquerdo da configuração de atividade do canal. Se o público-alvo selecionado anteriormente não for compatível com o canal, não será possível selecionar um modelo. Para resolver isso, atualize a atividade **Criar público-alvo** para selecionar um público-alvo com o target mapping correto.
+   Você pode selecionar o modelo no painel esquerdo da configuração de atividade do canal. Se o público-alvo selecionado anteriormente não for compatível com o canal, não será possível selecionar um modelo. Para resolver isso, atualize a atividade **[!UICONTROL Criar público-alvo]** para selecionar um público-alvo com o target mapping correto.
 
-1. Clique em **Criar entrega**. Você pode então definir as configurações de mensagem e o conteúdo da mesma maneira que cria um delivery independente. Também é possível testar e simular o conteúdo.
+1. Clique em **[!UICONTROL Criar entrega]**. Você pode então definir as configurações de mensagem e o conteúdo da mesma maneira que cria um delivery independente. Também é possível testar e simular o conteúdo.
 
-1. Volte para o fluxo de trabalho. Para continuar o fluxo de trabalho, alterne a opção **Generate an outbound transition** para adicionar uma transição após a atividade do canal.
+1. Volte para o fluxo de trabalho. Para continuar o fluxo de trabalho, alterne a opção **[!UICONTROL Generate an outbound transition]** para adicionar uma transição após a atividade do canal.
 
-1. Clique em **Iniciar** para iniciar sua campanha orquestrada.
+1. Clique em **[!UICONTROL Iniciar]** para iniciar sua campanha orquestrada.
 
    Por padrão, iniciar uma campanha orquestrada aciona a etapa de preparação da mensagem, sem enviar imediatamente a mensagem.
 
-1. Abra a atividade do canal para confirmar o envio com o botão **Revisar e enviar**.
+1. Abra a atividade do canal para confirmar o envio com o botão **[!UICONTROL Revisar e enviar]**.
 
-1. No painel de entrega, clique em **Enviar**.
+1. No painel de entrega, clique em **[!UICONTROL Enviar]**.
 
 ## Exemplos {#cross-channel-workflow-sample}
 

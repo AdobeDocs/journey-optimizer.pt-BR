@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 54b5591186dd51c0ea1fda6055d6c52fd079a748
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 38%
@@ -33,7 +33,7 @@ ht-degree: 38%
 
 <br/>
 
-A atividade **AND-join** é uma atividade de **Controle de fluxo**. Ele permite sincronizar várias ramificações de execução de uma campanha orquestrada.
+A atividade **[!UICONTROL AND-join]** é uma atividade de **[!UICONTROL Controle de fluxo]**. Ele permite sincronizar várias ramificações de execução de uma campanha orquestrada.
 
 Essa atividade só acionará a transição de saída depois que todas as transições de entrada estiverem ativadas, ou seja, depois que todas as atividades anteriores estiverem concluídas. Isso permite verificar se determinadas atividades foram concluídas antes de continuar a executar a campanha orquestrada.
 
@@ -44,20 +44,20 @@ Essa atividade só acionará a transição de saída depois que todas as transi�
 >title="Opções de mesclagem"
 >abstract="Selecione de quais atividades deseja juntar. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada que deseja manter."
 
-Siga estas etapas para configurar a atividade **AND-join**:
+Siga estas etapas para configurar a atividade **[!UICONTROL AND-join]**:
 
 ![](../assets/workflow-andjoin.png)
 
 1. Adicione várias atividades, como atividades de canal, para criar pelo menos duas ramificações de execução distintas.
 
-1. Insira uma atividade **AND-join** em uma das ramificações.
+1. Insira uma atividade **[!UICONTROL AND-join]** em uma das ramificações.
 
-1. Na seção **Opções de mesclagem**, selecione todas as atividades anteriores nas quais deseja ingressar.
+1. Na seção **[!UICONTROL Opções de mesclagem]**, selecione todas as atividades anteriores nas quais deseja ingressar.
 
-1. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada que deseja manter.
+1. No menu suspenso **[!UICONTROL Conjunto principal]**, escolha a população de transição de entrada que deseja manter.
 
 ## Exemplo{#and-join-example}
 
-Este exemplo ilustra duas ramificações de campanha coordenadas, cada uma com um delivery de email, um direcionando membros gold e o outro silver. O **AND-join** é ativado assim que ambas as transições de entrada são acionadas e o SMS é enviado somente após a conclusão de ambas as entregas de email, seguindo um atraso de 7 dias.
+Este exemplo ilustra duas ramificações de campanha coordenadas, cada uma com um delivery de email, um direcionando membros gold e o outro silver. O **[!UICONTROL AND-join]** é ativado assim que ambas as transições de entrada são acionadas e o SMS é enviado somente após a conclusão de ambas as entregas de email, seguindo um atraso de 7 dias.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

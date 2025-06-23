@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 39%
+source-wordcount: '621'
+ht-degree: 32%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 39%
 
 <br/>
 
-A atividade **Reconciliation** é uma atividade **Targeting** que permite definir o vínculo entre os dados no Adobe Journey Optimizer e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo.
+A atividade **[!UICONTROL Reconciliation]** é uma atividade **[!UICONTROL Targeting]** que permite definir o vínculo entre os dados no Adobe Journey Optimizer e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo.
 
-A atividade **Enrichment** permite adicionar dados adicionais à campanha orquestrada, por exemplo, combinando dados de várias fontes ou vinculando a um recurso temporário. Por outro lado, a atividade **Reconciliation** é usada para corresponder dados não identificados ou externos com recursos existentes no banco de dados.
+A atividade **[!UICONTROL Enrichment]** permite adicionar dados adicionais à campanha orquestrada, por exemplo, combinando dados de várias fontes ou vinculando a um recurso temporário. Por outro lado, a atividade **[!UICONTROL Reconciliation]** é usada para corresponder dados não identificados ou externos com recursos existentes no banco de dados.
 
-**A reconciliação** requer que os registros relacionados já existam no sistema. Por exemplo, se você importar um arquivo de compra listando produtos, carimbos de data e hora e informações do cliente, os produtos e os clientes já deverão estar presentes no banco de dados para estabelecer o link.
+**[!UICONTROL A reconciliação]** requer que os registros relacionados já existam no sistema. Por exemplo, se você importar um arquivo de compra listando produtos, carimbos de data e hora e informações do cliente, os produtos e os clientes já deverão estar presentes no banco de dados para estabelecer o link.
 
 ## Configurar a atividade de reconciliação {#reconciliation-configuration}
 
@@ -83,22 +83,36 @@ A atividade **Enrichment** permite adicionar dados adicionais à campanha orques
 >title="Atributo de reconciliação"
 >abstract="Selecione o atributo a ser usado para reconciliar dados e clique em Confirmar."
 
-Siga estas etapas para configurar a atividade **Reconciliação**:
+Siga estas etapas para configurar a atividade **[!UICONTROL Reconciliação]**:
 
-1. Adicione uma atividade de **Reconciliação** à campanha orquestrada.
+1. Adicione uma atividade de **[!UICONTROL Reconciliação]** ao seu fluxo de trabalho.
 
-1. Selecione a nova dimensão de direcionamento. Uma dimensão permite definir a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes, etc.
+1. Escolha uma nova targeting dimension para definir seu público alvo, como recipients ou assinantes.
 
-1. Selecione os campos a serem usados para a reconciliação. É possível usar um ou mais critérios de reconciliação.
+1. Defina os campos a serem usados para corresponder seus dados de entrada com perfis existentes.
 
-   1. Para usar atributos para reconciliar dados, selecione a opção **Atributos simples**. O campo **Source** lista os campos disponíveis na transição de entrada, que devem ser reconciliados. O campo **Destination** corresponde aos campos da targeting dimension selecionada. Os dados são reconciliados quando a origem e o destino são iguais. Por exemplo, selecione os campos **Email** para desduplicar perfis com base em seus endereços de email.
+1. Para corresponder dados usando campos básicos, selecione **[!UICONTROL Atributos simples]**.
 
-      Para adicionar outro critério de reconciliação, clique no botão **Adicionar regra**. Se várias condições de associação forem especificadas, TODAS elas deverão ser verificadas para que os dados possam ser vinculados.
+1. Defina os campos correspondentes:
 
-      ![](../assets/workflow-reconciliation-criteria.png)
+   * **[!UICONTROL Source]**: lista os campos de dados de entrada.
 
-   1. Para usar outros atributos para reconciliar dados, selecione a opção **Condições avançadas de reconciliação**. Em seguida, você pode criar sua própria condição de reconciliação usando o modelador de consultas.
+   * **[!UICONTROL Destino]**: refere-se aos campos na targeting dimension selecionada.
 
-1. Você pode filtrar dados para reconciliar usando o botão **Criar filtro**. Isso permite criar uma condição personalizada usando o modelador de consultas.
+   Uma correspondência ocorre quando ambos os valores são iguais, por exemplo, correspondendo por **[!UICONTROL Email]** para identificar perfis.
 
-Por padrão, os dados não reconciliados são mantidos na transição de saída e disponibilizados na tabela de trabalho para uso futuro. Para remover dados não reconciliados, desative a opção **Manter dados não reconciliados**.
+   ![](../assets/workflow-reconciliation-criteria.png)
+
+1. Para adicionar mais regras correspondentes, clique em **[!UICONTROL Adicionar regra]**. Todas as condições devem ser atendidas para que uma correspondência ocorra.
+
+1. Para condições mais complexas, escolha **[!UICONTROL Condições avançadas de reconciliação]**. Use o [modelador de consultas](../orchestrated-rule-builder.md) para definir uma lógica personalizada.
+
+1. Para filtrar quais dados reconciliar, clique em **[!UICONTROL Criar filtro]** e defina sua condição no modelador de consultas.
+
+1. Por padrão, os registros sem correspondência são mantidos na transição de saída e armazenados na tabela de trabalho. Para removê-los, habilite a opção **[!UICONTROL Manter dados não reconciliados]**.
+
+## Exemplo {#example-reconciliation}
+
+Este exemplo usa a atividade **[!UICONTROL Reconciliação]** no Adobe Journey Optimizer para garantir que os emails sejam enviados somente para clientes reconhecidos. Os dados fluem por meio de uma atividade **[!UICONTROL Ler público-alvo]** que direciona os usuários com pedidos anteriores. A atividade **[!UICONTROL Reconciliation]** então corresponde esses dados de entrada aos perfis existentes no banco de dados usando o campo de email.
+
+![](../assets/workflow-reconciliation-sample-1.0.png)
