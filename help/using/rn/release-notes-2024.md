@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -265,7 +265,7 @@ Anteriormente disponíveis para um conjunto de organizações (LA), os seguintes
 <td>
 <p>Aproveite os dados da Adobe Experience Platform no editor de personalização para personalizar seu conteúdo. Para fazer isso, os conjuntos de dados necessários para a personalização da pesquisa devem primeiro ser habilitados por meio de uma chamada de API. Depois de concluído, você poderá usar os dados para personalizar o conteúdo no [!DNL Journey Optimizer].</p>
 <p>Esse recurso está atualmente disponível para todos os clientes como uma versão beta pública.</p>
-<p>Para obter mais informações, consulte a <a href="../personalization/lookup-aep-data.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../personalization/aep-data-perso.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>

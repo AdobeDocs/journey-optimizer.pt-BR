@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: cd42bca1a36344f688b2d90e1c0b96a9ef2a53ce
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 21%
+source-wordcount: '637'
+ht-degree: 20%
 
 ---
 
@@ -68,6 +68,9 @@ Cada campanha orquestrada contém:
 
 As campanhas orquestradas podem ter vários status:
 
+início recorrente à s&#39;executer , fait une query .click close: va continuer et se terminer quand elle sera allée jusqu&#39;au bout du diagrama
+
+
 * **[!UICONTROL Rascunho]**: A campanha orquestrada foi criada. Ele ainda não foi publicado.
 * **[!UICONTROL Publicação]**: a campanha orquestrada está sendo publicada.
 * **[!UICONTROL Live]**: a campanha orquestrada foi publicada e está sendo executada.
@@ -76,12 +79,13 @@ As campanhas orquestradas podem ter vários status:
 * **[!UICONTROL Fechado]**: esse status é exibido quando uma campanha recorrente é interrompida.
 <!--Comment une campaign devient Closed?
 [CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
-= pas trouvé-->
+= pas trouvé--> cexui qsui sont déjà entrés ocnitnuent. on ferme les portes d'entrée.
+
 * **[!UICONTROL Arquivado]**: a campanha orquestrada foi arquivada. Todas as campanhas arquivadas são excluídas em uma reprogramação contínua 30 dias após a última data modificada. Você pode duplicar uma campanha arquivada, se necessário, para continuar trabalhando nela.
 <!--Comment une campaign devient Archived?
-[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...)
+[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...) bouton bientôt visible. possible pour tout sauf les draft.
 = pas trouvé -->
-* **[!UICONTROL Parado]**: a execução da campanha orquestrada foi interrompida. Para iniciar a campanha novamente, você precisa duplicá-la.
+* **[!UICONTROL Parado]**: a execução da campanha orquestrada foi interrompida. Para iniciar a campanha novamente, você precisa duplicá-la. si erreur, triângulo avec restera
 
 ## Duplicar e excluir campanhas orquestradas {#duplicate-delete}
 
