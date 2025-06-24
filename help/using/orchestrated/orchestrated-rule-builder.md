@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 19e3e261f076a158a513a84e993db5851d9cf577
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 7%
+source-wordcount: '388'
+ht-degree: 10%
 
 ---
 
@@ -31,13 +31,17 @@ ht-degree: 7%
 
 As campanhas orquestradas vêm com um construtor de regras que simplifica o processo de filtragem do banco de dados com base em vários critérios. O construtor de regras gerencia consultas muito complexas e longas com eficiência, oferecendo flexibilidade e precisão aprimoradas.
 
-Também oferece suporte a filtros predefinidos em condições, permitindo que os usuários refinem consultas com facilidade enquanto utilizam expressões e operadores avançados para estratégias abrangentes de direcionamento e segmentação de público.
+Ele também oferece suporte a filtros predefinidos em condições, permitindo que você refine as consultas com facilidade enquanto usa expressões e operadores avançados para estratégias abrangentes de direcionamento e segmentação de público.
 
 ## Acessar o construtor de regras
 
-O construtor de regras está disponível ao criar uma consulta em uma atividade **[!UICONTROL Criar público-alvo]** para direcionar um público-alvo. Ele permite que você especifique a população que deseja direcionar e crie facilmente novos públicos-alvo personalizados para suas necessidades.
+O modelador de consultas está disponível em todo contexto onde é preciso definir regras para filtrar dados.
 
-![imagem mostrando uma atividade de compilação de público-alvo](assets/rule-builder-query.png)
+| Uso | Exemplo |
+|  ---  |  ---  |
+| **Criar públicos-alvo**: especifique a população que deseja direcionar em suas campanhas orquestradas usando uma atividade **[!UICONTROL Criar público-alvo]** e crie facilmente novos públicos-alvo adaptados às suas necessidades. [Saiba como criar públicos-alvo](../orchestrated/activities/build-audience.md) | ![Imagem mostrando como acessar a interface de criação de público-alvo](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Criar condição na tela de campanha**: aplique regras na tela de campanha usando uma atividade **[!UICONTROL Split]** para alinhar-se aos seus requisitos específicos. [Saiba como usar uma atividade de Split](../orchestrated/activities/split.md) | ![Imagem mostrando como acessar opções de personalização de fluxo de trabalho](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
+| **Criar filtros avançados**: crie regras para filtrar os dados exibidos em listas, como logs de fluxo de trabalho ou dimensões de direcionamento. | ![Imagem mostrando como personalizar filtros de lista](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## Interface do construtor de regras {#interface}
 
