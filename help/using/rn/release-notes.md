@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 3282f2f5b6fa4eacafc4b017ea0ca713b90cab82
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 72%
@@ -30,12 +30,29 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 **Data de lançamento**: 18 de junho de 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#25-06-features}
 
 Os novos recursos incluídos nesta versão são detalhados abaixo.
 
+<table>
+<thead>
+<tr>
+<th><strong>Conjuntos de dados do Adobe Experience Platform na decisão (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Anteriormente disponíveis para personalização, os conjuntos de dados do Adobe Experience Platform agora podem ser aproveitados para a tomada de decisão. Isso permite estender a definição dos atributos de decisão para dados adicionais nos conjuntos de dados para atualizações em massa que mudam periodicamente, sem precisar atualizar manualmente os atributos, um de cada vez. Por exemplo, disponibilidade, tempos de espera etc.</p>
+<p>Esse recurso está atualmente disponível para todos os clientes como uma versão beta pública. Entre em contato com o representante de sua conta se desejar obter acesso.</p>
+<p>Para obter mais informações, consulte a <a href="../experience-decisioning/aep-data-exd.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 20 de junho de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -185,25 +202,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <img src="assets/do-not-localize/gif-conflict.gif">
 <p>Para obter mais informações, consulte a <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 3 de junho de 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Conjuntos de dados do Adobe Experience Platform na decisão (beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Anteriormente disponíveis para personalização, os conjuntos de dados do Adobe Experience Platform agora podem ser aproveitados para a tomada de decisão. Isso permite estender a definição dos atributos de decisão para dados adicionais nos conjuntos de dados para atualizações em massa que mudam periodicamente, sem precisar atualizar manualmente os atributos, um de cada vez. Por exemplo, disponibilidade, tempos de espera etc.</p>
-<p>Esse recurso está atualmente disponível para todos os clientes como uma versão beta pública. Entre em contato com o representante de sua conta se desejar obter acesso.</p>
-<p>Para obter mais informações, consulte a <a href="../experience-decisioning/aep-data-exd.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: 20 de junho de 2025</p>
 </td>
 </tr>
 </tbody>
