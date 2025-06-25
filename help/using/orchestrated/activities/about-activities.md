@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 22655a1ad08bb96d7fee86eb31b0542e4ea669c7
+source-git-commit: d6145454256c880183cd84688c40714a5e232325
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 29%
@@ -44,7 +44,7 @@ Essas atividades são específicas para direcionamento. Elas permitem criar uma 
 
 ![Lista de atividades de direcionamento](../assets/targeting-activities.png){width="40%" align="left"}
 
-* [![Criar público-alvo](../assets/build-audience-icon.png)](build-audience.md): defina sua população de destino. Você pode selecionar um público existente ou usar o modelador de consultas para definir sua própria consulta.
+* [Criar público-alvo](build-audience.md): defina sua população de destino. Você pode selecionar um público existente ou usar o modelador de consultas para definir sua própria consulta.
 * [Alterar dimensão](change-dimension.md): altere a targeting dimension enquanto você estiver criando sua campanha orquestrada.
 * [Combinar](combine.md): executar segmentação na população de entrada. Você pode usar uma união, uma interseção ou uma exclusão.
 * [Desduplicação](deduplication.md): excluir duplicados no(s) resultado(s) das atividades de entrada.
