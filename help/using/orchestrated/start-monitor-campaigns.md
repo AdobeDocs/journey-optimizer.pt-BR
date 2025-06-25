@@ -6,10 +6,10 @@ description: Saiba como agendar e iniciar campanhas orquestradas com o Adobe Jou
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 50386efbb639031bfc41a0aa67f4f3b49603f03a
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 14%
+source-wordcount: '1197'
+ht-degree: 12%
 
 ---
 
@@ -38,8 +38,8 @@ Depois de criar as tarefas orquestradas e projetadas para execução na tela, é
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
->title="Atividade scheduler"
->abstract="A campanha **scheduler** permite agendar quando a campanha orquestrada será iniciada. Esta atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade da campanha orquestrada."
+>title="Scheduler"
+>abstract="Como gerente de campanha, você pode agendar campanhas para serem iniciadas automaticamente em horários específicos, permitindo um tempo preciso e dados de direcionamento precisos para comunicações de marketing."
 
 Como gerente de campanha, você pode agendar campanhas para serem iniciadas automaticamente em horários específicos, permitindo um tempo preciso e dados de direcionamento precisos para comunicações de marketing.
 
