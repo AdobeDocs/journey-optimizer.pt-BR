@@ -8,10 +8,11 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+exl-id: a2892f0a-5407-497c-97af-927de81055ac
+source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
 workflow-type: tm+mt
-source-wordcount: '2021'
-ht-degree: 0%
+source-wordcount: '2109'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +27,7 @@ Você pode pausar suas jornadas ativas, executar todas as alterações necessár
 
 >[!AVAILABILITY]
 >
->Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será lançado globalmente em uma versão futura.
+>Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.
 
 
 ## Principais benefícios {#journey-pause-benefits}
@@ -146,7 +147,11 @@ Esteja ciente de que as exclusões de perfil para perfis atualmente na jornada e
 
 ## Medidas de proteção e limitações {#journey-pause-guardrails}
 
-* Uma versão do jornada pode ser pausada por no máximo 14 dias
+* Uma versão do jornada pode ser pausada por até **14 dias**, com um máximo de **10 milhões de perfis** permitidos em jornadas pausadas em sua organização.
+Esse limite é verificado a cada 30 minutos. Isso significa que você pode exceder temporariamente o limite de 10 milhões, mas assim que o sistema detectá-lo, quaisquer perfis adicionais serão automaticamente descartados.
+
+  Se você retomar as jornadas para retornar o número de perfis retidos para o limite, a jornada será retomada imediatamente, mas pode levar até 30 minutos para que a contagem de perfis seja atualizada. Durante esse tempo, o sistema ainda poderá considerar esses perfis como pausados.
+
 * As jornadas pausadas são contadas para a cota de jornada ativa
 * Os perfis que tinham entrado na jornada, mas foram descartados durante a pausa, ainda seriam contados como perfis ativáveis
 * As jornadas pausadas são consideradas em todas as regras de negócios, da mesma forma como se estivessem ativas
