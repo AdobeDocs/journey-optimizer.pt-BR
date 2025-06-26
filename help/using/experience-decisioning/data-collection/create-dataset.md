@@ -69,4 +69,4 @@ agora você está pronto para criar um conjunto de dados usando esse esquema. Pa
 
 >[!NOTE]
 >
->Este conjunto de dados agora pode ser selecionado para coletar dados do evento ao [criar um modelo de IA]().
+>Este conjunto de dados agora pode ser selecionado para coletar dados do evento ao [criar um modelo de IA] ().
