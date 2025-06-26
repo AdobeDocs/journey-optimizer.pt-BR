@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '995'
 ht-degree: 10%
 
 ---
@@ -73,7 +73,7 @@ Você pode usar o recurso Dry run em qualquer jornada de rascunho sem erros.
 Para ativar o Dry run, siga estas etapas:
 
 1. Abra a jornada que deseja testar.
-1. Clique no botão **Execução seca**.
+1. Selecione o botão **Execução seca**.
 
    ![Iniciar a simulação de jornada](assets/dry-run-button.png)
 

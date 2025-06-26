@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: jornada, caso de uso, mensagem, assinantes, lista, ler
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 17%
@@ -46,8 +46,8 @@ Para configurar essa jornada, siga estas etapas:
 
       | Função | Descrição | Exemplo |
       | --- | --- | --- |
-      | `entry` | Consultar um elemento de mapa de acordo com o namespace selecionado | Consultar uma lista de assinaturas específica |
-      | `firstEntryKey` | Recuperar a primeira chave de entrada de um mapa | Recuperar o primeiro email dos assinantes |
+      | `entry` | Refere-se a um elemento de mapa de acordo com o namespace selecionado | Consultar uma lista de assinaturas específica |
+      | `firstEntryKey` | Recupera a primeira chave de entrada de um mapa | Recuperar o primeiro email dos assinantes |
 
       Neste exemplo, o nome da lista de assinaturas é `daily-email`. Os endereços de email são definidos como chaves no mapa `subscribers`, que está vinculado ao mapa da lista de assinaturas.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1767'
 ht-degree: 8%
 
 ---
@@ -105,13 +105,13 @@ O namespace de identidade é usado para identificar exclusivamente os perfis de 
 >* Verifique se cada evento no modo de teste é acionado na ordem correta e dentro da janela de espera configurada. Por exemplo, se houver uma espera de 60 segundos, o segundo evento deverá ser acionado somente após essa espera de 60 segundos ter decorrido e antes que o tempo limite expire.
 >
 
-### Configuração do evento {#trigger-events-configuration}
+### Configuração de evento {#trigger-events-configuration}
 
 Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface ajuda você a passar as informações corretas na carga do evento e garantir que o tipo de informação esteja correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
 
 ![](assets/journeytest4.png)
 
-A interface permite transmitir parâmetros de evento simples. Se você quiser passar coleções ou outros objetos avançados no evento, clique em **[!UICONTROL Exibição de Código]** para ver todo o código da carga e modificá-lo. Por exemplo, você pode copiar e colar informações de evento preparadas por um usuário técnico.
+A interface permite transmitir parâmetros de evento simples. Se você quiser passar coleções ou outros objetos avançados no evento, selecione **[!UICONTROL Visualização de código]** para ver todo o código da carga e modificá-lo. Por exemplo, você pode copiar e colar informações de evento preparadas por um usuário técnico.
 
 ![](assets/journeytest5.png)
 

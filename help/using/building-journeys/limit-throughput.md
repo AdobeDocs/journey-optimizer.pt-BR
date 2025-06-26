@@ -8,9 +8,9 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: jornada, fontes de dados, limite, taxa de transferência, personalizado, ações
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '753'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ Você pode modificar esse valor de 500 a 20.000 instâncias por segundo. Se voc�
 
 ![](assets/limit-throughput-2.png)
 
-Vamos ver um exemplo de **jornadas acionadas por público** que funcionam com uma população de **10 000 perfis** e enviam dados para um sistema externo com suporte a **100 solicitações/segundo**.
+Vamos ver um exemplo de **jornadas acionadas por público** que funcionam com uma população de **10.000 perfis** e enviam dados para um sistema externo com suporte a **100 solicitações/segundo**.
 
 1. Você pode definir seu Público-alvo de leitura para ler perfis com uma taxa de transferência de 500 perfis/segundo, o que significa que levará 20 segundos para ler todos os perfis. No segundo 1, você lerá 500 deles, no segundo mais 2 500, etc.
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 12%
+source-wordcount: '1175'
+ht-degree: 13%
 
 ---
 
@@ -31,12 +31,12 @@ Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]*
 
 A guia **[!UICONTROL Visão geral]** exibe um painel com as métricas principais relacionadas às suas jornadas.
 
-![Painel de jornada destacando a guia Visão Geral](assets/journeys-dashboard.png)
+![Painel de Jornada destacando a guia Visão Geral](assets/journeys-dashboard.png)
 
 * **Perfis processados**: número total de perfis processados nas últimas 24 horas
 * **Live jornada**: número total de jornadas ativas com tráfego nas últimas 24 horas. O Live jornada inclui **jornadas Unitárias** (baseadas em eventos) e **jornadas em Lote** (ler público).
 * **Taxa de erros**: taxa de todos os perfis com erro em comparação ao número total de perfis que entraram nas últimas 24 horas.
-* **Taxa de descarte**: taxa de todos os perfis descartados em comparação ao número total de perfis que entraram nas últimas 24 horas. Um perfil descartado representa alguém que não está qualificado para entrar na jornada, por exemplo, devido a um namespace incorreto ou devido a regras de reentrada.
+* **Taxa de descarte**: taxa de todos os perfis descartados em comparação ao número total de perfis que entraram nas últimas 24 horas. Um perfil descartado representa alguém que não está qualificado para entrar na jornada, por exemplo, devido a um namespace ou a regras de reentrada incorretas.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Além da lista de jornadas, o [!DNL Journey Optimizer] fornece uma exibição de
 
 >[!AVAILABILITY]
 >
->No momento, a exibição de calendário está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para solicitar acesso, use [este formulário](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>No momento, a exibição de calendário está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para solicitar acesso, use [este formulário](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"}.
 >
 >Esse recurso está em desenvolvimento ativo. Suas solicitações e informações são bem-vindas usando o botão **[!UICONTROL Comentários sobre a Beta]** no menu superior.
 

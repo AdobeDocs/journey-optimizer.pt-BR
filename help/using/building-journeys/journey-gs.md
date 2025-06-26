@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 24%
+source-wordcount: '768'
+ht-degree: 25%
 
 ---
 
@@ -38,19 +38,19 @@ As principais etapas para criar uma jornada são detalhadas nesta página. Elas 
 ![etapas de criação de jornadas: criar, projetar, testar e publicar](assets/journey-creation-process.png)
 
 
-Criar jornadas de clientes em várias etapas inicia uma sequência de interações, ofertas e mensagens entre canais em tempo real. Essa abordagem garante que os clientes estejam envolvidos nos momentos ideais com base em suas ações e sinais de negócios relevantes. Os públicos-alvo podem ser definidos com base no comportamento, nos dados contextuais e nos eventos comerciais. Os pré-requisitos dependem do seu caso de uso e do [tipo de jornada](entry-management.md#types-of-journeys) que você está criando.
+Crie jornadas de várias etapas para o cliente e inicie em tempo real uma sequência de interações, ofertas e mensagens entre canais. Essa abordagem garante que os clientes estejam envolvidos nos momentos ideais com base em suas ações e sinais de negócios relevantes. Os públicos-alvo são definidos com base no comportamento, nos dados contextuais e nos eventos comerciais. Os pré-requisitos dependem do seu caso de uso e do [tipo de jornada](entry-management.md#types-of-journeys) que você está criando.
 
-Antes de começar a criar a jornada, verifique se as etapas de configuração relevantes foram realizadas:
+Antes de começar a criar a jornada, verifique se as etapas de configuração relevantes foram concluídas:
 
-* Para acionar as jornadas de forma unitária quando um evento for recebido, é necessário **configurar um evento**. Você define as informações esperadas e como processá-las. [Leia mais](../event/about-events.md).
+* Se quiser acionar suas jornadas individualmente quando um evento for recebido, **configure um evento**. Defina as informações esperadas e como processá-las. [Leia mais](../event/about-events.md).
 
 <!--   ![](assets/jo-event7bis.png)  -->
 
-* Sua jornada também pode ouvir os públicos da Adobe Experience Platform para enviar mensagens em lote para um conjunto especificado de perfis. Para isso, você precisa **criar públicos-alvo**. [Leia mais](../audience/about-audiences.md).
+* Sua jornada também pode ouvir os públicos-alvo da Adobe Experience Platform para enviar mensagens em lotes para um conjunto especificado de perfis. Para isso, **crie públicos-alvo**. [Leia mais](../audience/about-audiences.md).
 
 <!--   ![](assets/segment2.png)  -->
 
-* Você pode definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, por exemplo, em suas condições. Esta conexão depende de uma **fonte de dados**. [Leia mais](../datasource/about-data-sources.md)
+* Defina uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, por exemplo, em suas condições. Esta conexão depende de uma **fonte de dados**. [Leia mais](../datasource/about-data-sources.md).
 
 <!--   ![](assets/jo-datasource.png)  -->
 
@@ -64,7 +64,7 @@ Como engenheiro de dados, as etapas para configurar suas jornadas, incluindo Fon
 
 >[!NOTE]
 >
->As medidas de proteção e limitações de jornada estão detalhadas nesta [página](../start/guardrails.md)
+>As medidas de proteção e limitações da jornada estão detalhadas [nesta página](../start/guardrails.md)
 
 ## Criar uma jornada {#jo-build}
 
@@ -82,7 +82,7 @@ Você pode então começar a projetar sua jornada.
 
 ## Projetar a jornada {#jo-design}
 
-O designer de jornada omnicanal ajuda a criar jornadas em várias etapas com públicos-alvo direcionados, atualizações com base em interações de clientes ou empresas em tempo real e mensagens omnicanal usando uma interface intuitiva de arrastar e soltar.
+O designer de jornada omnicanal ajuda a criar jornadas em várias etapas com públicos-alvo direcionados, atualizações com base em interações de clientes ou negócios em tempo real e mensagens omnicanal usando uma interface intuitiva de arrastar e soltar.
 
 ![](assets/journey38.png)
 
@@ -90,13 +90,13 @@ O designer de jornada omnicanal ajuda a criar jornadas em várias etapas com pú
 
    ![](assets/read-segment.png)
 
-1. Arraste e solte as próximas etapas que o indivíduo seguirá. Por exemplo, é possível adicionar uma condição seguida por uma ação de canal. Para saber mais sobre atividades, consulte [esta seção](about-journey-activities.md).
+1. Comece arrastando e soltando um evento ou uma atividade **Ler público-alvo** da paleta na tela. Para saber mais sobre design do jornada, consulte [esta seção](using-the-journey-designer.md).
 
 ## Testar a jornada {#jo-test}
 
-Depois de criar a jornada, você pode testá-la antes de publicar. O Journey Optimizer oferece o &quot;Modo de teste&quot; como uma maneira de exibir perfis de teste conforme eles se movem ao longo da jornada, detectando possíveis erros antes da ativação. A execução de testes rápidos permite verificar se as jornadas funcionam corretamente para que você possa publicá-las com confiança.
+Depois de criar a jornada, teste-a antes de publicar. A Journey Optimizer oferece um **Modo de teste** como uma maneira de exibir perfis de teste conforme eles se movem ao longo da jornada, detectando possíveis erros antes da ativação. A execução de testes rápidos garante que as jornadas funcionem corretamente para que você possa publicá-las com confiança. Saiba como testar sua jornada [nesta seção](testing-the-journey.md)
 
-Saiba mais nesta [seção](testing-the-journey.md)
+Você também pode executar sua jornada em **Dry run**. A execução de prática de jornada é um modo especial de publicação no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais sem entrar em contato com clientes do mundo real ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganhar confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la ao vivo. Saiba como publicar uma jornada no modo de Execução em Seco [nesta seção](journey-dry-run.md).
 
 ## Publicar a jornada {#jo-pub}
 
@@ -112,4 +112,4 @@ Saiba mais sobre relatórios do jornada nesta [seção](../reports/live-report.m
 
 >[!NOTE]
 >
->Se você precisar modificar para uma jornada do **live**, [crie uma nova versão](journey-ui.md#journey-versions) da jornada.
+>Se você precisar modificar uma jornada do **live**, [crie uma nova versão](journey-ui.md#journey-versions) da jornada.

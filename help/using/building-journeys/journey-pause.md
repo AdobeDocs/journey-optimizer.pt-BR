@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2106'
 ht-degree: 2%
 
 ---
@@ -103,7 +103,7 @@ As jornadas pausadas são retomadas automaticamente no final do período máximo
 Para retomar uma jornada pausada e começar a ouvir eventos de jornada novamente, siga estas etapas:
 
 1. Abra a jornada que deseja retomar.
-1. Clique no botão **...Mais** na seção superior direita da tela de jornada e selecione **Retomar**.
+1. Selecione o botão **...Mais** na seção superior direita da tela de jornada e depois **Retomar**.
 
    A jornada alterna para o status **Retomando**. Quando a jornada for retomada, as novas entradas começarão em um minuto. A retomada dos perfis que foram mantidos pode levar algum tempo - os perfis são retomados a uma taxa de 5 mil tps.  Como todos os perfis devem ser retomados para que a jornada seja **Ativa** novamente, a transição do status **Retomando** para **Ativa** pode levar algum tempo.
 
@@ -121,7 +121,7 @@ Por exemplo, para excluir todos os clientes franceses de uma jornada pausada, si
 
 1. Navegue até a jornada pausada que você deseja modificar.
 
-1. Clique no ícone **Critérios de saída e Filtro global**.
+1. Selecione o ícone **Critérios de saída e Filtro global**.
 
    ![Adicionar um filtro global a uma jornada pausada](assets/add-global-filter.png)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Depois de criar seu projeto no Adobe Developer Console, conceda ao desenvolvedor e ao API o controle de acesso com as permissões certas. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Depois de criar seu projeto no Adobe Developer Console, conceda ao desenvolvedor e ao API o controle de acesso com as permissões certas. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## Configurar o Source usando a entrada da API HTTP
 
@@ -49,11 +49,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-3.png)
 
-1. Selecione **Nova conta** e habilite a autenticação. Clique em **Conectar-se ao Source**.
+1. Selecione **Nova conta** e habilite a autenticação. Selecione **Conectar ao Source**.
 
    ![](assets/custom-action-aep-4.png)
 
-1. Clique em **Avançar** e selecione o Conjunto de Dados no qual deseja gravar os dados. Clique em **Avançar** e **Concluir**.
+1. Selecione **Avançar** e o Conjunto de Dados no qual você deseja gravar os dados. Clique em **Avançar** e **Concluir**.
 
    ![](assets/custom-action-aep-5.png)
 

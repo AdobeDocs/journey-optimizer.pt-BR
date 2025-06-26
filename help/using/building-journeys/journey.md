@@ -8,17 +8,17 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 93%
+source-wordcount: '418'
+ht-degree: 90%
 
 ---
 
 
 # Introdução a jornadas{#jo-general-principle}
 
-Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. É possível projetar cenários avançados em várias etapas com os seguintes recursos:
+Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. Você pode projetar cenários avançados em várias etapas com os seguintes recursos:
 
 * Envie uma **entrega unitária** em tempo real acionada quando um evento é recebido, ou **em lote** usando os públicos-alvo da Adobe Experience Platform.
 
@@ -56,4 +56,4 @@ Saiba como criar jornadas nos seguintes casos de uso completos:
 
 Descubra os componentes de uma jornada e entenda os aspectos básicos da criação de uma jornada na tela.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430346?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

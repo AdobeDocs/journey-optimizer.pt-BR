@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1716'
 ht-degree: 100%
 
 ---
@@ -340,3 +340,7 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 >abstract="Um posicionamento determina onde os itens retornados do mecanismo de decisão aparecem em uma mensagem. Você pode acompanhar o desempenho em diferentes posicionamentos nos relatórios."
 
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_simulation"
+>title="Simular a jornada"
+>abstract="A Simulação de jornada permite validar suas jornadas e ver como elas funcionam antes de serem ativadas. Ela usa dados de um modelo treinado para fornecer números em toda a jornada e ver como ela se comportará em um cenário real."

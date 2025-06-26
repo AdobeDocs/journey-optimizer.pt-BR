@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 96%
+source-wordcount: '1290'
+ht-degree: 95%
 
 ---
 
@@ -128,7 +128,7 @@ Se um dos campos rotulados como _ePHI1_ (o campo de tipo sanguíneo no exemplo) 
 
 Ao identificar um campo restrito em uma jornada, campanha ou ação personalizada, o sistema exibirá um erro, impedindo que você a publique. 
 
-Os erros são visíveis no botão **[!UICONTROL Alertas]**. Clique no erro para exibir informações detalhadas sobre a violação da política de governança de dados.
+Os erros são visíveis no botão **[!UICONTROL Alertas]**. Selecione o erro para exibir informações detalhadas sobre a violação da política de governança de dados que ocorreu.
 
 ![](assets/action-privacy8.png)
 

@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 41%
+source-wordcount: '600'
+ht-degree: 42%
 
 ---
 
 # Publicar a jornada {#publishing-the-journey}
 
-Para ativar uma jornada e permitir que novos perfis a insiram, você deve publicá-la. A publicação torna a jornada ativa e funcional. Antes de publicar, verifique se a jornada está completa e válida e corrija os erros, pois uma jornada não pode ser publicada se contiver erros.
+Você deve publicar uma jornada para ativá-la e disponibilizá-la para que novos perfis possam entrar na jornada. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Não é possível publicar uma jornada com erros.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -26,7 +26,7 @@ Para ativar uma jornada e permitir que novos perfis a insiram, você deve public
 
 As etapas para publicar uma jornada são detalhadas abaixo:
 
-1. Antes de publicar sua jornada, verifique se ela é válida e está livre de erros. As jornadas não podem ser publicadas se contiverem erros.
+1. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Não é possível publicar uma jornada com erros.
 
    * Saiba como testar sua jornada em [esta página](testing-the-journey.md).
    * Saiba como solucionar erros do jornada [nesta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
@@ -35,20 +35,17 @@ As etapas para publicar uma jornada são detalhadas abaixo:
 
    >[!NOTE]
    >
-   > Se a jornada estiver sujeita a uma política de aprovação, será necessário solicitar aprovação antes de publicá-la. [Saiba mais](../test-approve/gs-approval.md)
-
+   > Se sua jornada estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para publicar sua jornada. [Saiba mais](../test-approve/gs-approval.md)
 
    ![](assets/journeyuc1_18.png)
 
-Quando a jornada é publicada, ela está no modo **somente leitura**. Quando uma jornada é somente leitura, você só pode modificar os rótulos e as descrições da atividade, o nome da jornada e a descrição da jornada. Se precisar fazer mais modificações em uma jornada publicada, crie [uma nova versão](journey-ui.md#journey-versions) da jornada.
+Quando a jornada é publicada, ela está no modo **somente leitura**. No modo somente leitura, você só pode modificar os rótulos e as descrições da atividade, o nome da jornada e a descrição da jornada. Se precisar fazer modificações adicionais em uma jornada publicada, crie [uma nova versão](journey-ui.md#journey-versions) da jornada.
 
-Quando você interrompe uma jornada, ela é interrompida permanentemente: todas as pessoas que fluem na jornada são interrompidas permanentemente e a jornada para de permitir novas entradas. Se precisar executar a jornada novamente, duplique-a e publique a nova jornada.
-
+Quando você interrompe uma jornada, ela é interrompida permanentemente. Todos os indivíduos que fluem pela jornada são permanentemente interrompidos e a jornada para de permitir novas entradas. Se precisar executar a jornada novamente, duplique-a e publique a nova jornada.
 
 >[!IMPORTANT]
 >
->Se forem feitas alterações em uma decisão de oferta em uso na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.
-
+>Se forem feitas alterações em uma decisão de oferta usada na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la. Isso garante que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.
 
 ## Versões de jornada {#journey-versions}
 
@@ -90,4 +87,4 @@ Ao publicar uma nova versão de uma jornada, a versão anterior encerra automati
 
 Saiba como publicar uma jornada neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427939?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

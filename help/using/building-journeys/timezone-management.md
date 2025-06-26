@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: time zone, properties, jornada, condition, time, date, custom
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '360'
 ht-degree: 28%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 28%
 
 Você pode definir um fuso horário nas [propriedades](../building-journeys/journey-properties.md#timezone) da jornada.
 
-Para acessar as propriedades da jornada, clique no ícone de lápis na parte superior direita da tela.
+Para acessar as propriedades da jornada, selecione o ícone de lápis na parte superior direita da tela.
 
 Esse fuso horário será usado para cada atividade da jornada que contém um elemento de tempo, como:
 

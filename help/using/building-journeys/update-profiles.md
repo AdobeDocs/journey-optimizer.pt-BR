@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: perfil, atualização, jornada, atividade
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: dc226803d2df198bde9c525f82431161734f53f8
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '629'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ Use a atividade de ação **[!UICONTROL Atualizar Perfil]** para atualizar um pe
 * Como qualquer outra ação, é possível definir um caminho alternativo em caso de erro ou tempo limite, e não é possível colocar duas ações em paralelo.
 * A solicitação de atualização enviada para o Adobe Experience Platform é imediata/em um segundo. Normalmente, levará alguns segundos, mas às vezes mais, sem garantia. Como resultado, por exemplo, se uma ação estiver usando o &quot;campo 1&quot; atualizado por uma ação **Atualizar perfil** posicionada logo antes, você não deve esperar que o &quot;campo 1&quot; seja atualizado na ação.
 * A atividade **Atualizar perfil** não oferece suporte a campos XDM definidos como enumerações ou valores sugeridos.
-* A atividade **[!UICONTROL Atualizar perfil]** atualiza somente o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}, não o Data Lake.
+* A atividade **[!UICONTROL Atualizar perfil]** atualiza somente o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, não o Data Lake.
 
 ## Seleção do conjunto de dados {#dataset-selection}
 
@@ -67,7 +67,7 @@ Além disso, a configuração da atividade **Atualizar Perfil** não requer um n
 
      ![](assets/profileupdate4.png)
 
-   * Para definir um valor específico ou aproveitar funções avançadas, clique em **Modo avançado**.
+   * Para definir um valor específico ou aproveitar funções avançadas, selecione **Modo avançado**.
 
      ![](assets/profileupdate3.png)
 
