@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 10333b4dab32abe87b1e8b4f3e4d7b1e72eafb50
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 16%
+source-wordcount: '1008'
+ht-degree: 3%
 
 ---
 
@@ -34,123 +34,164 @@ Documentação em andamento
 
 >[!ENDSHADEBOX]
 
-<!--
+Este guia o orienta pelo processo de criação de um esquema relacional, configuração de um conjunto de dados para campanhas orquestradas, assimilação de dados por meio de uma fonte S3 e consulta dos dados assimilados na plataforma AP.
 
-This guide walks you through the process of creating a relational schema, configuring a dataset for orchestrated campaigns, ingesting data via an S3 source, and querying the ingested data in the AP platform. Each step is explained in detail with emphasis on why it is important.
+Neste exemplo, a configuração inclui a integração de duas entidades principais, **Transações de Fidelidade** e **Recompensas de Fidelidade**, e os vincula às entidades principais existentes **Destinatários** e **Marcas**.
 
+1. [Fazer upload do arquivo DDL](#upload-ddl)
 
-You have now:
+   Defina o modelo de dados relacionais para campanhas orquestradas, incluindo as entidades **Transações de Fidelidade** e **Recompensas de Fidelidade**, juntamente com as chaves e os atributos de controle de versão necessários.
 
-- Created a relational schema
-- Configured a CDC-enabled dataset
-- Ingested data via S3
-- Scheduled and monitored a data flow
-- Queried the ingested data
+1. [Selecionar Entidades](#entities)
 
-This setup is essential for running orchestrated AGO campaigns effectively and ensuring timely, accurate data synchronization.
+   Estabeleça relações significativas entre tabelas no esquema para criar um modelo de dados coeso e interconectado.
 
-## Create a relational schema / (-) Upload DDL file 
+1. [Esquema de link](#link-schema)
 
-1. Log in to the AP Platform.
+   Vincule a entidade **Transações de Fidelidade** a **Destinatários** e **Recompensas de Fidelidade** a **Marcas** para criar um modelo de dados conectado que ofereça suporte a jornadas personalizadas de clientes.
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [Dados de assimilação](#ingest)
 
-1. Click on **Create Schema**.
+   Traga dados para a Adobe Experience Platform de fontes compatíveis, como SFTP, armazenamento na nuvem ou bancos de dados.
 
-1. You will be prompted to select between two schema types:
+## Fazer upload do arquivo DDL {#upload-ddl}
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+Esta seção fornece orientação passo a passo sobre como criar um esquema relacional no Adobe Experience Platform fazendo upload de um arquivo DDL (Data Definition Language). Usar um arquivo DDL permite definir a estrutura do modelo de dados antecipadamente, incluindo tabelas, atributos, chaves e relacionamentos.
 
-    ![](assets/admin_schema_1.png)
+1. Faça logon na Plataforma AP.
 
-1. Select **Upload DDL file** to define an entity relationship diagram and create schemas.
+1. Navegue até **Gerenciamento de Dados** > **Esquema**.
 
-    The table structure must contain:
-    * At least one primary key
-    * A version identifier, such as a `lastmodified` field of type `datetime` or `number`.
+1. Clique em **Criar esquema**.
 
-1. Drag and drop your DDL file and click **[!UICONTROL Next]**.
+1. Você será solicitado a selecionar entre dois tipos de esquema:
 
-1. Set up each schema and its columns, ensuring that a primary key is specified. 
+   * **Padrão**
+   * **Relational**, usado especificamente para campanhas orquestradas
 
-    One attribute, such as `lastmodified`, must be designated as a version descriptor. This attribute, typically of type `datetime`, `long`, or `int`, is essential for ingestion processes to ensure that the dataset is updated with the latest data version.
+   ![](assets/admin_schema_1.png)
 
-1. Type-in your **[!UICONTROL Schema name]** and click **[!UICONTROL Done]**.
+1. Selecione **Carregar arquivo DDL** para definir um diagrama de relação de entidade e criar esquemas.
 
-    ![](assets/admin_schema_2.png)
+   A estrutura da tabela deve conter:
+   * Pelo menos uma chave primária
+   * Um identificador de versão, como um campo `lastmodified` do tipo `datetime` ou `number`.
 
-Verify the table and field definitions within the canvas. [Learn more in the section below](#entities)
+1. Arraste e solte seu arquivo DDL e clique em **[!UICONTROL Próximo]**.
 
-## Select entities {#entities}
+1. Digite seu **[!UICONTROL Nome do esquema]**.
 
-To create links between tables of your schema, follow these steps:
+1. Configure cada esquema e suas colunas, garantindo que uma chave primária seja especificada.
 
-1. Access the canvas view of your data model and choose the two tables you want to link
+   Um atributo, como `lastmodified`, deve ser designado como descritor de versão. Este atributo, normalmente do tipo `datetime`, `long` ou `int`, é essencial para processos de assimilação para garantir que o conjunto de dados seja atualizado com a versão de dados mais recente.
 
-1. Click the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
+   ![](assets/admin_schema_2.png)
 
-1. Fill in the given form to define the link and click **Apply** once configured.
+1. Clique em **[!UICONTROL Concluído]** depois de concluído.
 
-    ![](assets/admin_schema_3.png)
+Agora é possível verificar a tabela e as definições de campo na tela. [Saiba mais na seção abaixo](#entities)
 
-    **Cardinality**:
+## Selecionar entidades {#entities}
 
-     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+Para definir conexões lógicas entre tabelas no esquema, siga as etapas abaixo.
 
-    * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
+1. Acesse a visualização da tela do modelo de dados e escolha as duas tabelas que deseja vincular
 
-    * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+1. Clique no botão ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) ao lado do Source Join e arraste e guie a seta em direção ao Target Join para estabelecer a conexão.
 
-1. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
+   ![](assets/admin_schema_5.png)
 
-1. Use the toolbar to customize and adjust your canvas.
+1. Preencha o formulário fornecido para definir o link e clique em **Aplicar** depois de configurado.
 
-    ![](assets/toolbar.png)
+   ![](assets/toolbar.png)
 
-    * **Zoom in**: Magnify the canvas to see details of your data model more clearly.
+   **Cardinalidade**:
 
-    * **Zoom out**: Reduce the canvas size for a broader view of your data model.
+   * **1-N**: uma ocorrência da tabela de origem pode ter várias ocorrências correspondentes da tabela de destino, mas uma ocorrência da tabela de destino pode ter no máximo uma ocorrência correspondente da tabela de origem.
 
-    * **Fit view**: Adjust the zoom to fit all schemas within the visible area.
+   * **N-1**: uma ocorrência da tabela de destino pode ter várias ocorrências correspondentes da tabela de origem, mas uma ocorrência da tabela de origem pode ter no máximo uma ocorrência correspondente da tabela de destino.
 
-    * **Filter**: Choose which schema to display within the canvas.
+   * **1-1**: uma ocorrência da tabela de origem pode ter no máximo uma ocorrência correspondente da tabela de destino.
 
-    * **Force auto layout**: Automatically arrange schemas for better organization.
+1. Todos os links definidos no modelo de dados são representados como setas na exibição da tela. Clique em uma seta entre duas tabelas para exibir detalhes, fazer edições ou remover o link, conforme necessário.
 
-    * **Display map**: Toggle a minimap overlay to help navigate large or complex schema layouts more easily.
+   ![](assets/admin_schema_6.png)
 
-1. Click **Save** once done. This action creates the schemas and associated data sets, and enables the data set for use in Orchestrated Campaigns.
+1. Use a barra de ferramentas para personalizar e ajustar a tela.
 
-1. Click **[!UICONTROL Open Jobs]** to monitor the progress of the creation job. This process may take couple minutes, depending on the number of tables defined in the DDL file. 
+   ![](assets/toolbar.png)
 
-    ![](assets/admin_schema_4.png)
+   * **Ampliar**: aumente a tela para ver mais detalhes do seu modelo de dados com mais clareza.
 
-Doc AEP: https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/create-schema-ui
+   * **Reduzir**: reduza o tamanho da tela para obter uma exibição mais ampla do seu modelo de dados.
 
-## Add data
+   * **Ajustar exibição**: ajuste o zoom para ajustar todos os esquemas dentro da área visível.
 
-1. Set up
+   * **Filtro**: escolha o esquema a ser exibido na tela.
 
-1. Connect existing or new account
+   * **Forçar layout automático**: Organiza esquemas automaticamente para uma melhor organização.
 
-1. Select dataset fields
+   * **Exibir mapa**: alternar uma sobreposição de minimapa para ajudar a navegar mais facilmente por layouts de esquema grandes ou complexos.
 
-1. Map desired source fields to target dataset fields
+1. Clique em **Salvar** depois de concluído. Essa ação cria os esquemas e conjuntos de dados associados e habilita o conjunto de dados para uso em Campanhas orquestradas.
 
-1. 
+1. Clique em **[!UICONTROL Abrir trabalhos]** para monitorar o progresso do trabalho de criação. Esse processo pode levar alguns minutos, dependendo do número de tabelas definidas no arquivo DDL.
 
-## Set up sources
+   ![](assets/admin_schema_4.png)
 
-Adobe Experience Platform allows data to be ingested from external sources while providing you with the ability to structure, label, and enhance incoming data using Experience Platform services. You can ingest data from a variety of sources such as Adobe applications, cloud-based storages, databases, and many others.
+## Esquema de link {#link-schema}
 
-6 sources compatible avec data relationel, tout ce qui est fichier (data storage), SFTP, azure blob, amazon S3, database cloud snowflake, 
+Estabeleça uma relação entre o esquema **transações de fidelidade** e o esquema **Destinatários** para associar cada transação ao registro de cliente correto.
 
+1. Navegue até **[!UICONTROL Esquemas]** e abra as **transações de fidelidade** criadas anteriormente.
 
-![](assets/admin_sources_1.png)
+1. Clique em **[!UICONTROL Adicionar relacionamento]** nas **[!UICONTROL Propriedades do campo]** do cliente.
 
-https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
+   ![](assets/schema_1.png)
 
+1. Selecione **[!UICONTROL De muitos para um]** como o **[!UICONTROL Tipo]** de relação.
+
+1. Link para o esquema existente **Recipients**.
+
+   ![](assets/schema_2.png)
+
+1. Insira um **[!UICONTROL Nome do relacionamento do esquema atual]** e **[!UICONTROL Nome do relacionamento do esquema de referência]**.
+
+1. Clique em **[!UICONTROL Aplicar]** para salvar as alterações.
+
+Continue criando uma relação entre o esquema **recompensas de fidelidade** e o esquema **Marcas** para associar cada entrada de recompensa à marca apropriada.
+
+![](assets/schema_3.png)
+
+## Assimilar dados {#ingest}
+
+O Adobe Experience Platform permite que os dados sejam assimilados de fontes externas e, ao mesmo tempo, fornece a capacidade de estruturar, rotular e aprimorar os dados recebidos usando os serviços da Experience Platform. Você pode assimilar dados de várias fontes, como aplicativos Adobe, armazenamentos baseados na nuvem, bancos de dados e muitas outras.
+
+1. No menu **[!UICONTROL Conexões]**, acesse o menu **[!UICONTROL Fontes]**.
+
+1. Selecione a categoria **[!UICONTROL Armazenamento na nuvem]**, depois o Amazon S3 e clique em **[!UICONTROL Adicionar dados]**.
+
+   ![](assets/admin_sources_1.png)
+
+1. Conectar sua Conta S3:
+
+   * Com uma conta existente
+
+   * Com uma nova conta
+
+   [Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+
+   ![](assets/admin_sources_2.png)
+
+1. Navegue pela origem S3 conectada até localizar as duas pastas criadas anteriormente, ou seja, **recompensas de fidelidade** e **transações de fidelidade**.
+
+1. Clique em sua pasta.
+
+   A seleção de uma pasta garante que todos os arquivos atuais e futuros com a mesma estrutura sejam processados automaticamente, enquanto a seleção de um arquivo requer atualizações manuais para cada novo incremento de dados.
+
+   ![](assets/s3_config_1.png)
+
+1. Escolha o formato de Dados e clique em Próximo.
 
 <!--manual
 ## Create a relational schema manual
