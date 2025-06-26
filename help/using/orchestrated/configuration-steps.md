@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 10333b4dab32abe87b1e8b4f3e4d7b1e72eafb50
+source-git-commit: fad312d2951dc6d602fb27d24adad6de0192f650
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 3%
@@ -179,7 +179,7 @@ O Adobe Experience Platform permite que os dados sejam assimilados de fontes ext
 
    * Com uma nova conta
 
-   [Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -189,9 +189,11 @@ O Adobe Experience Platform permite que os dados sejam assimilados de fontes ext
 
    A seleção de uma pasta garante que todos os arquivos atuais e futuros com a mesma estrutura sejam processados automaticamente, enquanto a seleção de um arquivo requer atualizações manuais para cada novo incremento de dados.
 
-   ![](assets/s3_config_1.png)
+   ![](assets/S3_config_1.png)
 
 1. Escolha o formato de Dados e clique em Próximo.
+
+
 
 <!--manual
 ## Create a relational schema manual
