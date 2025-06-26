@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
 workflow-type: tm+mt
-source-wordcount: '2395'
-ht-degree: 18%
+source-wordcount: '2392'
+ht-degree: 15%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propriedades da jornada"
->abstract="Essa seção mostra as propriedades da jornada. Por padrão, os parâmetros somente leitura ficam ocultos. As configurações disponíveis dependem do status da jornada, das permissões e da configuração do produto."
+>abstract="Essa seção mostra as propriedades da jornada. Por padrão, os parâmetros somente leitura ficam ocultos. As configurações disponíveis dependem do status da jornada, de suas permissões e da configuração do produto."
 
 ## Acessar as propriedades de uma jornada {#access-properties}
 
-As propriedades de uma jornada são centralizadas no painel direito. Esta seção é exibida por padrão ao criar uma nova jornada. Para jornadas existentes, clique no ícone de lápis ao lado do nome da jornada para abri-lo.
+As propriedades de uma jornada são centralizadas no painel direito. Esta seção é exibida por padrão ao criar uma nova jornada. Para jornadas existentes, clique no ícone de lápis ao lado do nome da jornada para abri-la.
 
 Nesta seção, defina o nome da jornada, adicione uma descrição e defina as propriedades globais da jornada.
 
@@ -33,7 +33,7 @@ Nesta seção, defina o nome da jornada, adicione uma descrição e defina as pr
 
 * Atribua Tags unificadas da Adobe Experience Platform à sua jornada para classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
 * Selecione suas métricas do jornada. [Saiba como configurar e acompanhar suas métricas do jornada](success-metrics.md)
-* Gerenciar [entrada e reentrada](#entrance). O gerenciamento de entrada de perfis depende do tipo de jornadas. Há detalhes disponíveis em [esta página](entry-management.md)
+* Gerenciar [entrada e reentrada](#entrance). O gerenciamento de entrada de perfis depende do tipo de jornada. Há detalhes disponíveis em [esta página](entry-management.md)
 * Gerenciar [acesso aos dados](#manage-access)
 * Selecione a jornada e o perfil [fusos horários](#timezone)
 * Escolher [datas de início e término](#dates) personalizadas
@@ -46,7 +46,7 @@ Nesta seção, defina o nome da jornada, adicione uma descrição e defina as pr
 >
 >Para jornadas ao vivo, essa tela exibe somente a data da publicação e o nome do usuário que publicou a jornada.
 
-Os **detalhes técnicos da Cópia** permitem copiar informações técnicas sobre a jornada que a equipe de suporte pode usar para a solução de problemas. As seguintes informações foram copiadas: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+A opção **Copiar detalhes técnicos** permite copiar informações técnicas sobre a jornada que a equipe de suporte pode usar para a solução de problemas. As seguintes informações foram copiadas: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 Saiba mais sobre os campos técnicos relacionados a uma jornada para um determinado perfil e como usá-los [nesta página](expression/journey-properties.md).
 
@@ -54,7 +54,7 @@ Saiba mais sobre os campos técnicos relacionados a uma jornada para um determin
 
 O modo de entrada de perfil é definido no nível da jornada, no painel de configuração direito. As configurações estão descritas abaixo.
 
-O gerenciamento de entrada de perfis depende do tipo de jornadas. Saiba mais sobre a entrada de perfis e o gerenciamento de reentrada em [esta página](entry-management.md).
+O gerenciamento de entrada de perfis depende do tipo de jornada. Saiba mais sobre a entrada de perfis e o gerenciamento de reentrada em [esta página](entry-management.md).
 
 ### Permitir reentrada  {#allow-reentrance}
 
@@ -100,7 +100,7 @@ O fuso horário é definido no nível da jornada. Você pode inserir um fuso hor
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Data de término"
->abstract="Defina a data de término da jornada. Nessa data, os perfis ativos sairão automaticamente da jornada e nenhuma entrada nova será permitida."
+>abstract="Defina a data de término da jornada. Nessa data, os perfis ativos saem automaticamente da jornada e nenhuma nova entrada é permitida."
 
 Por padrão, os perfis podem inserir sua jornada assim que ela for publicada e podem permanecer até que o [tempo limite de jornada global](#global_timeout) seja atingido. A única exceção são as jornadas de público-alvo de leitura recorrente com **Forçar a reentrada na recorrência** ativada, que terminam na data de início da próxima ocorrência.
 
@@ -252,7 +252,7 @@ O Adobe Journey Optimizer usa políticas de mesclagem ao recuperar dados de perf
 
 O Adobe Journey Optimizer aplica a política de mesclagem usada em toda a jornada. Portanto, se vários públicos forem usados em uma jornada (por exemplo, usando em [`inAudience` funções](functions/functioninaudience.md)), isso criará inconsistências com a política de mesclagem usada pela jornada, um erro será gerado e a publicação será bloqueada. No entanto, se um público-alvo inconsistente for usado na personalização da mensagem, um alerta não será gerado, apesar da inconsistência. Por isso, é altamente recomendável verificar a política de mesclagem associada ao seu público-alvo quando ele for usado na personalização da mensagem.
 
-Para saber mais sobre as políticas de mesclagem, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Para saber mais sobre as políticas de mesclagem, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >
