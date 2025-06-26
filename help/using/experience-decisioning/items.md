@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -79,9 +79,9 @@ Basicamente, a saída de um público-alvo é uma lista de perfis, enquanto uma r
 
 +++
 
-* Para limitar a apresentação do item de decisão aos membros de um ou vários públicos-alvo da Adobe Experience Platform, selecione a opção **[!UICONTROL Visitantes que se encaixam em um ou vários públicos-alvo]**, adicione um ou vários públicos-alvo do painel esquerdo e combine-os usando os operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**. [Saiba mais sobre públicos](../audience/about-audiences.md).
+* Para limitar a apresentação do item de decisão aos membros de um ou vários públicos-alvo da Adobe Experience Platform, selecione a opção **[!UICONTROL Visitantes que se encaixam em um ou vários públicos-alvo]**, adicione um ou vários públicos-alvo do painel esquerdo e combine-os usando os operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md).
 
-* Para associar uma regra de decisão específica ao item de decisão, selecione **[!UICONTROL Por regra]** e arraste a regra desejada do painel esquerdo para a área central. [Saiba mais sobre regras de decisão](rules.md).
+* Para associar uma regra de decisão específica ao item de decisão, selecione **[!UICONTROL Por regra]** e arraste a regra desejada do painel esquerdo para a área central. [Saiba mais sobre regras de decisão](rules.md)
 
 ![](assets/item-constraints.png)
 
@@ -114,8 +114,8 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
    >[!NOTE]
    >
    >Para todos os eventos de limite, exceto o evento de decisão, o feedback da gestão de decisões pode não ser coletado automaticamente, o que pode resultar no aumento incorreto do contador de limite. Para garantir que cada evento de limite seja rastreado e contabilizado no contador de limite, verifique se o esquema usado para coletar eventos de experiência inclui o grupo de campos correto para esse evento. Informações detalhadas sobre a coleta de dados estão disponíveis na Documentação da gestão de decisões da Journey Optimizer:
-   >* [Coleta de dados de gerenciamento de decisão](../offers/data-collection/data-collection.md)
-   >* [Configurar a coleção de dados](../offers/data-collection/schema-requirement.md)
+   >* [Coleta de dados de gerenciamento de decisão](data-collection/data-collection.md)
+   >* [Configurar a coleção de dados](data-collection/schema-requirement.md)
 
 1. Escolha o tipo de limite:
 
