@@ -6,8 +6,7 @@ description: Saiba como criar um conjunto de dados para coletar eventos
 feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
-exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 9f77bb0bfae48e879335f72f07f106a2f0472f45
+source-git-commit: dd108b67ec252d391418d8af53de696bf9cd167d
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 7%
@@ -51,7 +50,7 @@ Comece criando o esquema que será usado no seu conjunto de dados:
 
 >[!NOTE]
 >
->Saiba mais sobre a criação de esquemas em [Noções básicas sobre a composição de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR#understanding-schemas){target="_blank"}.
+>Saiba mais sobre a criação de esquemas em [Noções básicas sobre a composição de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 agora você está pronto para criar um conjunto de dados usando esse esquema. Para fazer isso, siga as etapas abaixo:
 
