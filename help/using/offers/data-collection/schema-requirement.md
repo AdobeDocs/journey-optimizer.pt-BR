@@ -26,7 +26,7 @@ Abaixo estão os requisitos de esquema que você precisa implementar no código 
 
 >[!NOTE]
 >
->Os eventos de decisão não precisam ser enviados, pois o Gerenciamento de decisão gerará esses eventos automaticamente e os colocará no **[!UICONTROL conjunto de dados <!--to check--> de DecisionEvents]** gerados automaticamente.
+>Os eventos de decisão não precisam ser enviados, pois o Gerenciamento de decisão gerará esses eventos automaticamente e os colocará no **conjunto de dados <!--to check--> de DecisionEvents&rbrack;** gerados automaticamente.
 
 ## Rastrear impressões {#track-impressions}
 
