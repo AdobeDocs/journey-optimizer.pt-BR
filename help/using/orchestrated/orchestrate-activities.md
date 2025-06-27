@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: ecb62dfc6a04754cb5d549615047cfb8e5e8f518
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 2%
+source-wordcount: '737'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 <br/>
 
-Depois que você [criar uma campanha orquestrada](gs-campaign-creation.md), seja do menu de campanha orquestrada ou de uma campanha, você poderá começar a orquestrar as diferentes tarefas que ela executará. Para fazer isso, uma tela visual é fornecida, permitindo que você construa um diagrama de campanha orquestrado. Neste diagrama, é possível adicionar várias atividades e conectá-las em ordem sequencial.
+Depois que você tiver [criado uma campanha orquestrada](gs-campaign-creation.md), poderá começar a orquestrar as diferentes tarefas que ela executará. Para fazer isso, uma tela visual é fornecida, permitindo que você construa um diagrama de campanha orquestrado. Neste diagrama, é possível adicionar várias atividades e conectá-las em ordem sequencial.
 
 ## Adicionar atividades {#add}
 
@@ -38,110 +38,69 @@ Uma lista de atividades que podem ser adicionadas ao diagrama é exibida. As ati
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
-Depois que uma atividade é adicionada ao diagrama, um painel direito é exibido, permitindo configurar a atividade recém-adicionada com configurações específicas. Informações detalhadas sobre como configurar cada atividade estão disponíveis em [esta seção](activities/about-activities.md).
+Depois que uma atividade é adicionada ao diagrama, um painel direito é exibido, permitindo que você a configure com configurações específicas. Informações detalhadas sobre como configurar cada atividade estão disponíveis em [esta seção](activities/about-activities.md).
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
 Repita esse processo para adicionar quantas atividades desejar, dependendo das tarefas que deseja que sua campanha orquestrada execute. Observe que você também pode inserir uma nova atividade entre duas atividades. Para fazer isso, clique no botão **+** na transição entre as atividades, selecione a atividade desejada e a configure no painel direito.
 
-Para remover uma atividade, selecione-a na tela e clique no ícone **Excluir** nas propriedades da atividade.
+Você tem a opção de personalizar o nome das transições entre cada atividade. Para fazer isso, selecione a transição e altere seu rótulo no painel direito.
 
->[!TIP]
->
->Você tem a opção de personalizar o nome das transições entre cada atividade. Para fazer isso, selecione a transição e altere seu rótulo no painel direito.
+![](assets/canvas-transition.png)
 
-## A barra de ferramentas {#toolbar}
+## A barra de ferramentas da tela {#toolbar}
 
-A barra de ferramentas localizada no canto superior direito da tela fornece opções para manipular facilmente as atividades e navegar na tela:
+A barra de ferramentas da tela fornece opções para manipular facilmente as atividades e navegar na tela:
 
-* **Modo de seleção múltipla**: selecione várias atividades para excluí-las todas de uma vez ou copie-as e cole-as. Consulte [esta seção](#copy).
-* **Girar**: Alternar a tela verticalmente.
-* **Ajustar à tela**: adapte o nível de zoom da tela à sua tela.
-* **Menos zoom** / **Menos zoom**: Menos zoom ou mais zoom na tela.
-* **Exibir mapa**: abre um instantâneo da tela mostrando que você está localizado.
+![](assets/orchestrated-toolbar.png)
 
-![](assets/orchestrated-toolbar.png){zoomable="yes"}{width="50%"}
+![Ícone do modo de seleção múltipla](assets/do-not-localize/canvas-multiple.svg) Selecione várias atividades para excluí-las de uma vez ou copie-as e cole-as. [Saiba como copiar e colar atividades](#copy)
+
+![Ícone Girar](assets/do-not-localize/canvas-rotate.svg) Alterne a tela verticalmente.
+
+![Ícone Ajustar à tela](assets/do-not-localize/canvas-fit.svg) Adapte o nível de zoom da tela à tela.
+
+![Ícone de menos zoom](assets/do-not-localize/canvas-zoomout.svg) ![Ícone de mais zoom](assets/do-not-localize/canvas-zoomin.svg) Menos zoom ou na tela.
+
+![Ícone de configurações do Campaign](assets/do-not-localize/canvas-map.svg) Abre um instantâneo da tela mostrando que você está localizado.
 
 ## Gerenciar atividades {#manage}
 
 Ao adicionar atividades, os botões de ação ficam disponíveis no painel de propriedades, permitindo que você execute várias operações.
 
-![](assets/activity-action.png){zoomable="yes"}
+![](assets/activity-action.png)
 
-É possível:
+![Ícone Excluir](assets/do-not-localize/activity-delete.svg) Exclua a atividade da tela.
 
-* **Excluir** a atividade da tela.
-* **Desabilitar/Habilitar** a atividade. Quando a campanha orquestrada é executada, as atividades desabilitadas e as atividades a seguir no mesmo caminho não são executadas e a campanha orquestrada é interrompida.
-* **Pausar/Retomar** a atividade. Quando a campanha orquestrada é executada, ela é pausada na atividade pausada. A tarefa correspondente, bem como todas as que a seguem no mesmo caminho, não são executadas.
-* **Copiar** a atividade. Consulte [esta seção](#copy).
-* Acesse os **Logs e tarefas** da atividade.
+![Ícone Desabilitar](assets/do-not-localize/activity-disable.svg) ![Ícone Habilitar](assets/do-not-localize/activity-enable.svg) Desabilitar/Habilitar a atividade. Quando a campanha orquestrada é executada, as atividades desabilitadas e as atividades a seguir no mesmo caminho não são executadas e a campanha orquestrada é interrompida.
 
-Várias atividades de **Direcionamento**, como **Combinar** ou **Desduplicação**, permitem processar a população restante e incluí-la em uma transição de saída adicional. Por exemplo, se você estiver usando uma atividade **Split**, o complemento consiste na população que não corresponde a nenhum dos subconjuntos definidos anteriormente. Para usar este recurso, ative a opção **Gerar complemento**.
+![Ícone de Pausar](assets/do-not-localize/activity-pause.svg) ![Ícone Retomar](assets/do-not-localize/activity-resume.svg) Pausar/Retomar a atividade. Quando a campanha orquestrada é executada, ela é pausada na atividade pausada. A tarefa correspondente, bem como todas as que a seguem no mesmo caminho, não são executadas.
+
+![Ícone Copiar](assets/do-not-localize/activity-copy.svg) Copiar a atividade. [Saiba como copiar e colar atividades](#copy)
+
+![Ícone de logs e tarefas](assets/do-not-localize/activity-logs.svg) Acesse os logs e tarefas da atividade.
+
+Várias atividades de **Direcionamento**, como **Combinar** ou **Desduplicação**, permitem processar a população restante e incluí-la em uma transição de saída adicional. Por exemplo, se você estiver usando uma atividade **Split**, o complemento consiste na população que não corresponde a nenhum dos subconjuntos definidos anteriormente. Para usar este recurso, ative a opção **[!UICONTROL Gerar complemento]**.
 
 ## Mover ou copiar atividades {#move-copy}
 
 ### Atividades de copiar e colar {#copy}
 
-Você pode copiar atividades de campanha orquestradas e colá-las em qualquer fluxo de trabalho. A campanha orquestrada de destino pode estar em uma guia do navegador diferente.
+Você pode copiar atividades e colá-las em qualquer tela de campanha orquestrada. A campanha de destino pode estar em uma guia do navegador diferente.
 
-Para copiar atividades, você tem duas opções:
+* Para copiar uma atividade, clique no botão ![Copiar ícone](assets/do-not-localize/activity-copy.svg) no painel de propriedades da atividade.
+* Para copiar várias atividades, clique no ícone ![Modo de seleção múltipla](assets/do-not-localize/canvas-multiple.svg) na barra de ferramentas da tela.
 
-* copie uma atividade usando o botão de ação.
+| Copiar uma atividade | Copiar várias atividades |
+|  ---  |  ---  |
+|  |
+| ![](assets/orchestrated-copy-1.png){width="200" align="center" zoomable="yes"} | ![](assets/orchestrated-copy-2.png){width="200" align="center" zoomable="yes"} |
 
-  ![](assets/orchestrated-copy-1.png){zoomable="yes"}{width="70%"}
-
-* copie várias atividades usando o botão da barra de ferramentas.
-
-  ![](assets/orchestrated-copy-2.png){zoomable="yes"}{width="70%"}
-
-Para colar as atividades copiadas, clique no botão **+** em uma transição e selecione &quot;Colar atividade X&quot;.
+Para colar as atividades, clique no botão **+** em uma transição e selecione &quot;Colar atividade x&quot;.
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-<!--
-### Move activities and their child nodes {#move}
-
-Journey Optimizer allows you to move an activity, along with the entire content of its child nodes (including all transitions and activities within it) to the end of another transition within the same orchestrated campaign.
-
-This process disconnects the activity and everything in its outbound transition from the initial location, moving it to the new target transition.
-
-To move an activity:
-
-1. Select the activity you wish to move.
-1. In the activity's properties pane, click the **Move** button.
-1. Select the transition where you want to place the activity and its outbound transition, then confirm.
-
-![](assets/activity-move.png)
-
-
-## Execution options {#execution}
-
-All activities allow you to manage their execution options. Select an activity and click on the **Execution options** button. This lets you define the activity's execution mode and behavior in case of errors.
-
-![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
-
-
-### Properties
-
-The **Execution** field allows you to define the action to be carried out when the task is started.
-
-The **Maximum execution duration** field allows you to specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the orchestrated campaign functions.
-
-The **Time zone** field allows you to select the time zone of the activity. Adobe Journey Optimizer allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
-
-**The Affinity** field allows you to force an orchestrated campaign or an orchestrated campaign activity to execute on a particular machine. To do this, you must specify one or several affinities for the orchestrated campaign or activity in question.
-
-The **Behavior** field allows you to define the procedure to follow if asynchronous tasks are used.
-
-### Error management
-
-The **In case of error** field allows you to specify the action to be carried out should the activity encounter an error.
-
-### Initialization script
-
-The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes. 
-
-## Example {#example}
+<!--## Example {#example}
 
 Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 
@@ -162,5 +121,4 @@ To achieve this, activities below have been added:
 
 Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
 
-After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)
--->
+After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)-->
