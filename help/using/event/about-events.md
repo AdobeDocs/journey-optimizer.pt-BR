@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: events, event, jornada, definition, start
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 45%
+source-wordcount: '1079'
+ht-degree: 43%
 
 ---
 
@@ -61,7 +61,7 @@ Para eventos **unitários**, há dois tipos de ID de evento:
 
 >[!NOTE]
 >
->O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço principal de coleção de dados (DCCS) para acionar uma jornada. Não é possível usar eventos assimilados em lote ou eventos de conjuntos de dados internos do Journey Optimizer (feedback de mensagem, rastreamento de email etc.) para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, crie um público-alvo com base nesses eventos e use a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas ela pode causar desafios posteriores com base nas ações usadas. Esses dados não precisam necessariamente acessar o Perfil em tempo real. Se você quiser usar os eventos para segmentação ou pesquisa em uma jornada separada, recomendamos ativar o conjunto de dados para perfil.
+>O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço principal de coleção de dados (DCCS) para acionar uma jornada. Não é possível usar eventos assimilados em lote ou eventos de conjuntos de dados internos do Journey Optimizer (feedback de mensagem, rastreamento de email etc.) para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, crie um público-alvo com base nesses eventos e use a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas ela pode causar desafios posteriores com base nas ações usadas. Esses dados não precisam necessariamente acessar o Perfil em tempo real. Se você quiser usar os eventos para segmentação, recomendamos ativar o conjunto de dados para perfil.
 
 ## Ciclo de dados {#data-cycle}
 
@@ -83,8 +83,8 @@ Qualquer evento usado em jornadas Ativas, Rascunhos ou Fechadas não pode ser ex
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431510?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Entenda os casos de uso aplicáveis a eventos comerciais. Saiba como criar uma jornada usando um evento comercial e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417595?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

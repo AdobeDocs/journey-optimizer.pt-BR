@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor de expressão, dados, jornada
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: b69023669b6ca59ea5980b1a671a90c41eb665fb
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 57%
+source-wordcount: '711'
+ht-degree: 55%
 
 ---
 
@@ -29,7 +29,7 @@ Ele também está disponível sempre que for necessário definir parâmetros de 
 ![](../assets/journey65.png)
 
 
-O editor de expressão avançado oferece um conjunto de funções e operadores integrados, permitindo manipular valores e definir uma expressão que se ajuste especificamente às suas necessidades. O editor de expressão avançado também permite definir os valores do parâmetro de fonte de dados externa, manipular campos de mapa e coleções, como eventos de experiência.
+O editor de expressão avançado oferece um conjunto de funções e operadores integrados, permitindo manipular valores e definir uma expressão que se ajuste especificamente às suas necessidades. O editor de expressão avançado também permite definir os valores do parâmetro de fonte de dados externa, manipular campos de mapa e coleções.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Na parte esquerda da tela são exibidos os campos e as funções disponíveis:
 
   >[!CAUTION]
   >
-  >O uso de eventos de experiência em expressões/condições de jornada é suportado, mas não recomendado. Se o seu caso de uso exigir o uso de eventos de experiência, considere métodos alternativos, como [atributos computados](../../audience/computed-attributes.md), ou criar um segmento usando os eventos e incorporar esse segmento em [`inAudience` expressões](../../building-journeys/functions/functioninaudience.md).
+  >Não há suporte para criar expressões usando eventos de experiência. Abordagens alternativas e práticas recomendadas para criar expressões/lógica com eventos de experiência são referenciadas [aqui](../../building-journeys/exp-event-lookup.md)
 
 * **[!UICONTROL Públicos-alvo]**: se você tiver descartado um evento de **[!UICONTROL Qualificação de público-alvo]**, escolha o público-alvo que deseja usar na expressão. [Leia mais](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Fontes de dados]**: escolha na lista de campos disponíveis nos grupos de campos de suas fontes de dados. [Leia mais](../../datasource/about-data-sources.md)

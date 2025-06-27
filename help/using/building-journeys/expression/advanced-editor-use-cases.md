@@ -6,25 +6,36 @@ description: Saiba como criar expressões avançadas
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
+hide: true
+hidefromtoc: true
 keywords: expressão, condição, casos de uso, eventos
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
 
+
 # Exemplos de expressão avançada{#advanced-expression-examples}
 
-O editor de expressão avançado pode ser usado para criar condições que permitem filtrar usuários em suas jornadas. Essas condições permitem direcionar os usuários no prazo, data, local, duração ou ações, como compra ou abandono de carrinhos, para que eles possam ser redirecionados na jornada.
+O editor de expressão avançado pode ser usado para criar condições que permitem filtrar usuários em suas jornadas. Essas condições permitem direcionar os usuários no prazo, data, local, duração para que eles possam ser redirecionados na jornada.
 
 >[!CAUTION]
 >
->O uso de eventos de experiência em expressões/condições de jornada é suportado, mas não recomendado. Se o seu caso de uso exigir o uso de eventos de experiência, considere métodos alternativos, como [atributos computados](../../audience/computed-attributes.md), ou criar um segmento usando os eventos e incorporar esse segmento em [`inAudience` expressões](../../building-journeys/functions/functioninaudience.md).
+>Não há suporte para o uso de eventos de experiência em expressões/condições de jornada. Se o seu caso de uso exigir o uso de eventos de experiência, considere métodos alternativos. [Saiba mais](../exp-event-lookup.md)
 
 
 ## Criação de condições em Eventos de experiência
+
+
+>[!CAUTION]
+>
+>Não há suporte para o uso de eventos de experiência em expressões/condições de jornada. Se o seu caso de uso exigir o uso de eventos de experiência, considere métodos alternativos. [Saiba mais](../exp-event-lookup.md)
+>
+
+
 
 O editor de expressão avançado é obrigatório para executar consultas em séries de tempo, como uma lista de compras ou cliques anteriores em mensagens. Essas consultas não podem ser executadas usando o editor simples.
 
@@ -43,9 +54,9 @@ Por exemplo, digamos que você queira direcionar os clientes com um abandono de 
 
 Primeiro de tudo, clientes-alvo que navegaram na loja online, mas não finalizaram o pedido nos últimos sete dias.
 
-<!--**This expression looks for a specified value in a string value:**
+**Esta expressão procura um valor especificado em um valor de cadeia de caracteres:**
 
-`In ("addToCart", #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`
 
 **Esta expressão procura todos os eventos para este usuário especificado nos últimos 7 dias:**
 
@@ -151,5 +162,6 @@ substr(
 ```
 
 Explicação: Este exemplo usa as funções `substr` e `lastIndexOf` para remover chaves que delimitam a ID do CRM transmitida com um evento de inicialização de aplicativo móvel.
+
 
 Para obter mais informações sobre como usar o editor de expressão avançado, assista a [este vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=pt-BR).

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: integrado, origem, dados, plataforma, integração
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: f5ea4455fc0a8ed9e2819a260a8691fc1237844c
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 31%
+source-wordcount: '412'
+ht-degree: 26%
 
 ---
 
@@ -21,17 +21,19 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Fonte de dados da Adobe Experience Platform"
->abstract="A fonte de dados da Adobe Experience Platform define a conexão com o Real-Time Customer Profile. Essa fonte de dados é incorporada e pré-configurada e não pode ser excluída. Ela foi criada para recuperar e usar dados do Real-Time Customer Profile Service (por exemplo, verificar se a pessoa que inseriu uma jornada é uma mulher). Ela permite usar os dados de Perfil e de Eventos de experiência."
+>abstract="A fonte de dados da Adobe Experience Platform define a conexão com o Real-Time Customer Profile. Essa fonte de dados é incorporada e pré-configurada e não pode ser excluída. Ela foi criada para recuperar e usar dados do Real-Time Customer Profile Service (por exemplo, verificar se a pessoa que inseriu uma jornada é uma mulher). Ela permite usar os dados do Perfil."
 
-A fonte de dados da Adobe Experience Platform define a conexão com o Real-Time Customer Profile. Essa fonte de dados é incorporada e pré-configurada e não pode ser excluída. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de perfil do cliente em tempo real (por exemplo, verificar se a pessoa que inseriu uma jornada é do sexo feminino). Ela permite usar os dados de Perfil e de Eventos de experiência. Para obter mais informações sobre o Perfil do Cliente em tempo real da Adobe, consulte [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
+A fonte de dados da Adobe Experience Platform define a conexão com o Real-Time Customer Profile. Essa fonte de dados é incorporada e pré-configurada e não pode ser excluída. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de perfil do cliente em tempo real (por exemplo, verificar se a pessoa que inseriu uma jornada é do sexo feminino). Ela permite usar os dados do Perfil. Para obter mais informações sobre o Perfil do Cliente em tempo real da Adobe, consulte [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
 
 Para permitir a conexão com o Serviço de perfil do cliente em tempo real, devemos usar uma chave para identificar uma pessoa e um namespace que contextualiza a chave. Como resultado, você só poderá usar essa fonte de dados se suas jornadas começarem com um evento contendo uma chave e um namespace. [Saiba mais](../building-journeys/journey.md).
 
 Você pode editar o grupo de campos pré-configurado chamado &quot;ProfileFieldGroup&quot;, adicionar novos e remover os que não são usados em nenhum rascunho ou jornada em tempo real. [Saiba mais](../datasource/configure-data-sources.md#define-field-groups).
 
->[!NOTE]
+
+>[!CAUTION]
 >
->Você pode recuperar os 1000 eventos de experiência mais recentes criados há menos de um ano.
+>Não há suporte para o uso de eventos de experiência em expressões/condições de jornada. Se o seu caso de uso exigir o uso de eventos de experiência, considere métodos alternativos. [Saiba mais](../building-journeys/exp-event-lookup.md)
+
 
 As principais etapas para adicionar grupos de campos à fonte de dados integrada estão detalhadas abaixo:
 
@@ -45,7 +47,7 @@ As principais etapas para adicionar grupos de campos à fonte de dados integrada
 
    ![](assets/journey24.png)
 
-1. Selecione um esquema no menu suspenso **[!UICONTROL Esquema]**. Este campo lista os esquemas **Perfil** e **Eventos de experiência** disponíveis no Adobe Experience Platform. A criação do esquema é realizada no Adobe Experience Platform, não no Adobe Journey Optimizer.
+1. Selecione um esquema no menu suspenso **[!UICONTROL Esquema]**. A criação do esquema é realizada no Adobe Experience Platform, não no Adobe Journey Optimizer.
 1. Selecione os campos que serão usados e salve as alterações.
 
 

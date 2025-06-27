@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 62%
+source-wordcount: '956'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ Com o Adobe Journey Optimizer, você pode gerenciar, manter e exportar facilment
 
 >[!NOTE]
 >
-> Criada na Adobe Experience Platform, a Adobe Journey Optimizer está conectada nativamente ao [Perfil de cliente em tempo real do Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}. Essa fonte de dados integrada é pré-configurada e projetada para recuperar e usar dados do Perfil do cliente em tempo real (por exemplo, verificar se a pessoa que entrou em uma jornada é um cliente ou não). Ela permite usar os dados de Perfil e de Eventos de experiência. [Saiba mais](../datasource/adobe-experience-platform-data-source.md).
+> Criada na Adobe Experience Platform, a Adobe Journey Optimizer está conectada nativamente ao [Perfil de cliente em tempo real do Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}. Essa fonte de dados integrada é pré-configurada e projetada para recuperar e usar dados do Perfil do cliente em tempo real (por exemplo, verificar se a pessoa que entrou em uma jornada é um cliente ou não). Ela permite usar os dados do Perfil. [Saiba mais](../datasource/adobe-experience-platform-data-source.md).
 
 
 ## Adobe Customer Journey Analytics {#integration-cja}
@@ -63,7 +63,7 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 >[!TAB Fragmentos do AEM]
 
-Ao integrar o Adobe Experience Manager com o Adobe Journey Optimizer, agora é possível incorporar facilmente os Fragmentos de conteúdo do AEM ao conteúdo de email do Journey Optimizer. Essa conexão simplificada simplifica o processo de acesso e aproveitamento do conteúdo do AEM, permitindo a criação de campanhas e jornadas personalizadas e dinâmicas.
+Ao integrar o Adobe Experience Manager com o Adobe Journey Optimizer, agora é possível incorporar facilmente os Fragmentos de conteúdo do AEM ao conteúdo de email do Journey Optimizer. Essa conexão simplifica o processo de acesso e aproveitamento do conteúdo do AEM, permitindo a criação de campanhas e jornadas personalizadas e dinâmicas.
 
 [![saiba mais](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-fragments.md)
 
@@ -86,7 +86,7 @@ Saiba mais sobre o [Journey Optimizer + Stock](../integrations/stock.md).
 
 ## Adobe Express {#express}
 
-A integração do Adobe Express no Adobe Journey Optimizer permite acessar facilmente as poderosas ferramentas de edição do Adobe Express ao criar conteúdo. Essa integração permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos para JPEG ou PNG sem precisar alternar entre as soluções.
+A integração do Adobe Express ao Adobe Journey Optimizer permite acessar facilmente as poderosas ferramentas de edição do Adobe Express ao criar conteúdo. Essa integração permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos para JPEG ou PNG sem precisar alternar entre as soluções.
 
 Saiba mais sobre o [Journey Optimizer + Adobe Express](../integrations/express.md).
 
@@ -121,7 +121,7 @@ Saiba mais sobre o [Journey Optimizer + Campaign Standard](../building-journeys/
 
 Use os módulos do Adobe Journey Optimizer no Adobe Workfront para criar, ler, atualizar ou excluir registros, ou executar uma chamada de API personalizada para a API do Adobe Journey Optimizer.
 
-Uma visão geral da principal etapa dessa integração está disponível [nesta publicação do blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=pt){target="_blank"}.
+Uma visão geral da principal etapa dessa integração está disponível [nesta publicação do blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Saiba mais sobre o Journey Optimizer + Adobe Workfront [na documentação do Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=pt-BR){target="_blank"}.
 

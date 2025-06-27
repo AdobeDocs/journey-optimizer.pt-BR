@@ -8,16 +8,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sintaxe, editor, jornada
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '249'
 ht-degree: 5%
 
 ---
 
 # Sintaxe do editor de expressão avançado {#syntax}
 
-As noções básicas de sintaxe ao usar o [editor de expressão avançado](expressionadvanced.md) estão listadas abaixo. Exemplos de uso do editor de expressão avançado estão disponíveis em [esta página](advanced-editor-use-cases.md).
+As noções básicas de sintaxe ao usar o [editor de expressão avançado](expressionadvanced.md) estão listadas abaixo. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## Parênteses e prioridade da expressão {#parentheses-and-expression-priority}
 
