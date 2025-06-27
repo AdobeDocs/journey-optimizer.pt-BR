@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso de uso, vários canais, jornada, eventos
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 938f0b0247cc4b9d3e05a234082db534acbbbac5
+source-git-commit: f1d96aa3fb74c9aedefa026fc65a4dcc8a2b4109
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Use essa biblioteca como ponto de referência ao projetar jornadas, modelar dado
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="práticas recomendadas de pesquisa de eventos de experiência" src="../assets/do-not-localize/icon-content.svg" /></a> 
+    <img alt="práticas recomendadas de pesquisa de eventos de experiência" src="../assets/do-not-localize/icon_profile-audience.svg" /></a> 
     <br>Conheça padrões comuns e abordagens escaláveis para ajudá-lo a aproveitar ao máximo os Eventos de experiência no Adobe Journey Optimizer. Esses casos de uso são projetados para ajudar você a resolver desafios frequentes, como gerenciar recusas, controlar a frequência da mensagem, personalizar o conteúdo com base no comportamento do usuário e reagir a sinais em tempo real.
     </div>
       <div>
