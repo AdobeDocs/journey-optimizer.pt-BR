@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 4%
 
 ---
 
-# Caso de uso: usar ações personalizadas para gravar eventos de Jornada no Experience Platform {#custom-action-aep}
+# Usar ações personalizadas para gravar eventos de jornada na Experience Platform {#custom-action-aep}
 
 Este caso de uso explica como gravar eventos personalizados no Adobe Experience Platform a partir do Jornada usando Ações personalizadas e Chamadas autenticadas.
 
-## Configurar um projeto de E/S {#custom-action-aep-IO}
+## Configurar um projeto do desenvolvedor {#custom-action-aep-IO}
 
 1. Na Adobe Developer Console, clique em **Projeto** e abra seu projeto IO.
 
@@ -39,9 +39,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Depois de criar seu projeto no Adobe Developer Console, conceda ao desenvolvedor e ao API o controle de acesso com as permissões certas. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Depois de criar seu projeto no Adobe Developer Console, conceda ao desenvolvedor e ao API o controle de acesso com as permissões certas. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
-## Configurar o Source usando a entrada da API HTTP
+## Configurar a fonte usando a entrada da API HTTP
 
 1. Crie um endpoint no Adobe Experience Platform para gravar os dados do jornada.
 

@@ -9,14 +9,14 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: jornada, mensagem, campanha, integração
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
 
-# Caso de uso: enviar uma mensagem usando o Campaign v7/v8 {#campaign-v7-v8-use-case}
+# Enviar uma mensagem com o Campaign v7/v8 {#campaign-v7-v8-use-case}
 
 Esse caso de uso explica todas as etapas necessárias para enviar um email usando a integração com o Adobe Campaign v7 e o Adobe Campaign v8.
 

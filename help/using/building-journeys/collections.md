@@ -8,15 +8,15 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 6%
+source-wordcount: '428'
+ht-degree: 7%
 
 ---
 
 
-# Caso de uso: transmitir coleções dinamicamente usando ações personalizadas{#passing-collection}
+# Envio dinâmico de coleções usando ações personalizadas{#passing-collection}
 
 Você pode passar uma coleção em parâmetros de ação personalizados que serão preenchidos dinamicamente no tempo de execução. Há suporte para dois tipos de coleções:
 
