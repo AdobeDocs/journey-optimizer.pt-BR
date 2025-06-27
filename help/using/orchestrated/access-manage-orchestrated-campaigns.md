@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Acessar e gerenciar campanhas orquestradas
+title: Acessar e gerenciar campanha orquestrada
 description: Saiba mais sobre os principais princípios da criação de campanhas orquestradas com o Adobe Journey Optimizer
 badge: label="Alfa"
 hide: true
@@ -10,11 +10,11 @@ exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
 source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
-# Acessar e gerenciar campanhas orquestradas {#orchestrated-campaign-creation}
+# Acessar e gerenciar campanha orquestrada {#orchestrated-campaign-creation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
