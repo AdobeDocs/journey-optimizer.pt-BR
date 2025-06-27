@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 4c78163cfc34937888cd323b461246f5955232bb
+source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '435'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,6 @@ Antes de começar, reveja as seguintes restrições e diretrizes:
 * **O número de registros** está restrito a 5 milhões em conjuntos de dados de produção e 1 milhão em conjuntos de dados de sandbox de desenvolvimento.
 * **Rotulagem e Imposição de Uso de Dados** não é imposta no momento para conjuntos de dados habilitados para pesquisa.
 * **Os conjuntos de dados habilitados para pesquisa e usados na personalização não estão protegidos contra exclusão**. Cabe a você acompanhar quais conjuntos de dados estão sendo usados para personalização para garantir que eles não sejam excluídos ou removidos.
-* **Rotulagem e Imposição de Uso de Dados** não é imposta no momento para conjuntos de dados habilitados para pesquisa.
 
 ## Ativar um conjunto de dados para pesquisa de dados {#enable}
 
