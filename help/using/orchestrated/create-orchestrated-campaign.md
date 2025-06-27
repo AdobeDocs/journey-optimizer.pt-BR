@@ -7,20 +7,15 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 5%
+source-wordcount: '1125'
+ht-degree: 8%
 
 ---
 
 
 # Criar e agendar uma campanha orquestrada {#create-first-campaign}
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_creation_workflow"
->title="Lista de campanhas orquestradas"
->abstract="A guia **Orquestração** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada. "
 
 +++ Sumário
 
@@ -34,9 +29,14 @@ ht-degree: 5%
 
 <br/>
 
-Crie uma campanha orquestrada no [!DNL AAdobe Journey Optimizer] e configure seu agendamento de execução para controlar quando ele começa e com que frequência é executado. Opte por iniciar a campanha imediatamente, em uma data e hora específicas ou de forma recorrente usando opções de agendamento flexíveis, como frequências diárias, semanais ou mensais.
+Crie uma campanha orquestrada no [!DNL Adobe Journey Optimizer] e configure seu agendamento de execução para controlar quando ela começa e com que frequência é executada. Opte por iniciar a campanha imediatamente, em uma data e hora específicas ou de forma recorrente usando opções de agendamento flexíveis, como frequências diárias, semanais ou mensais.
 
-## Criar e agendar a campanha {#create}
+## Criar a campanha {#create}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_creation_workflow"
+>title="Lista de campanhas orquestradas"
+>abstract="A guia **Orquestração** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada. "
 
 Para criar uma campanha orquestrada, siga estas etapas:
 
@@ -54,9 +54,28 @@ Sua campanha orquestrada agora é criada e aparece na lista de campanhas orquest
 
 ## Programar a campanha {#schedule}
 
-Por padrão, as campanhas orquestradas começam quando ativadas manualmente e terminam após a execução de suas atividades associadas.
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_scheduler"
+>title="Scheduler"
+>abstract="Como gerente de campanha, você pode agendar campanhas para serem iniciadas automaticamente em horários específicos, permitindo um tempo preciso e dados de direcionamento precisos para comunicações de marketing."
 
-Se preferir atrasar a execução ou executar a campanha de transferência de dados de forma recorrente, é possível definir uma programação para a campanha.
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_validity"
+>title="Validade do Scheduler"
+>abstract="É possível definir um período de validade para o Scheduler. Pode ser permanente (padrão) ou pode ser válido até uma data específica."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_options"
+>title="Opções do Scheduler"
+>abstract="Defina a frequência do scheduler. Pode ser executado em um momento específico, uma ou várias vezes por dia, semana ou mês."
+
+Por padrão, as campanhas orquestradas começam quando ativadas manualmente e terminam após a execução de suas atividades associadas. Se preferir atrasar a execução ou executar a campanha de transferência de dados de forma recorrente, é possível definir uma programação para a campanha.
+
+Considere as seguintes práticas recomendadas ao agendar campanhas orquestradas para garantir o desempenho ideal e o comportamento esperado:
+
+* Não programe uma campanha orquestrada para execução por mais de 15 minutos, pois isso pode atrapalhar o desempenho geral do sistema e criar bloqueios no banco de dados.
+* Se quiser enviar uma mensagem instantânea na sua campanha orquestrada, você pode configurá-la para ser executada **Uma vez**.
+* Para enviar uma mensagem recorrente em sua campanha orquestrada, use as opções de **Agendamento** e defina a frequência de execução. A atividade recorrente de delivery não permite definir um agendamento.
 
 Para configurar o agendamento da campanha, siga estas etapas:
 
@@ -73,7 +92,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
    * **[!UICONTROL Data]**: selecione a data em que a campanha deve ser executada.
    * **[!UICONTROL Hora]**: selecione a hora específica em que a campanha deve ser executada.
 
-   +++
++++
 
    +++Diário
 
@@ -87,7 +106,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora de início]**: defina a hora em que a campanha deve ser executada a cada dia.
 
-   +++
++++
 
    +++Várias vezes ao dia
 
@@ -96,7 +115,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
    * **[!UICONTROL Horas selecionadas]**: selecione as horas específicas em que a campanha deve ser executada e configure sua recorrência diária (executar todos os dias da semana ou em determinados dias).
    * **[!UICONTROL Periodic]**: escolha executar a campanha a cada n minutos ou horas. Você também pode definir o intervalo de tempo no dia em que as execuções são permitidas.
 
-   +++
++++
 
    +++Semanal
 
@@ -107,7 +126,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
    * **[!UICONTROL Recorrência diária]**: escolha dias da semana específicos para execução (por exemplo, toda segunda e quinta-feira).
    * **[!UICONTROL Hora de início]**: defina a hora em que a campanha deve ser executada nos dias selecionados.
 
-   +++
++++
 
    +++Mensal
 
@@ -123,7 +142,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora de início]**: defina a hora em que a campanha deve ser executada.
 
-   +++
++++
 
 1. Use a configuração **[!UICONTROL Validity period]** para definir uma data de início e término específica, restringindo a execução da campanha a uma janela de tempo limitada.
 
@@ -132,6 +151,10 @@ Para configurar o agendamento da campanha, siga estas etapas:
 >[!NOTE]
 >
 >Ao agendar campanhas em [!DNL Adobe Journey Optimizer], verifique se a data/hora de início está alinhada com a primeira entrega desejada. Para campanhas recorrentes, se o horário agendado inicial já tiver passado, as campanhas serão transferidas para o próximo período disponível, de acordo com suas regras de recorrência.
+
+No exemplo a seguir, a atividade é configurada para que a campanha orquestrada seja executada duas vezes por dia, às 9h e às 12h, todos os dias da semana de 1º de outubro de 2025 a 1º de janeiro de 2026.
+
+![Agendador configurado para executar a campanha duas vezes por dia às 9h e às 12h](assets/scheduler-sample.png){width="50%" align="left"}
 
 ## Próximas etapas {#next}
 
