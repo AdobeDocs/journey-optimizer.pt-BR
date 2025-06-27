@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 16%
+source-wordcount: '626'
+ht-degree: 11%
 
 ---
 
@@ -28,7 +28,7 @@ Há duas maneiras de criar modelos de conteúdo:
 
 * Ao criar o conteúdo em uma campanha ou jornada, salve-o como template. [Saiba como](#save-as-template)
 
-Depois de salvo, seu template de conteúdo fica disponível para uso em uma campanha ou jornada. Seja criado do zero ou de um conteúdo anterior, agora é possível usar este modelo ao criar qualquer conteúdo no [!DNL Journey Optimizer]. [Saiba como](#use-content-templates)
+Depois de salvo, seu template de conteúdo fica disponível para uso em uma campanha ou jornada. Seja criado do zero ou de conteúdo anterior, você pode usar este modelo ao criar qualquer conteúdo dentro de [!DNL Journey Optimizer]. [Saiba como](#use-content-templates)
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Depois de salvo, seu template de conteúdo fica disponível para uso em uma camp
 
 >[!NOTE]
 >
->A partir de março de 2025, os modelos de conteúdo do tipo HTML serão descontinuados. Você ainda pode usar os modelos de conteúdo do HTML existentes criados anteriormente no [!DNL Journey Optimizer].
+>A partir de março de 2025, os modelos de conteúdo do tipo HTML serão descontinuados. Os modelos de conteúdo do HTML existentes criados anteriormente no [!DNL Journey Optimizer] ainda podem ser usados.
 
 Para criar um template de conteúdo do zero, siga as etapas abaixo.
 
@@ -58,9 +58,9 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
 
 1. Selecione ou crie tags Adobe Experience Platform a partir do campo **[!UICONTROL Tags]** para categorizar seu modelo para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
 
-1. Para atribuir rótulos de uso de dados principais ou personalizados ao modelo, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
+1. Para atribuir rótulos de uso de dados principais ou personalizados ao modelo, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
 
-1. Clique em **[!UICONTROL Criar]** e crie seu conteúdo conforme necessário, da mesma forma que faria com qualquer conteúdo dentro de uma jornada ou campanha, de acordo com o canal selecionado.
+1. Clique em **[!UICONTROL Criar]** e crie o conteúdo conforme necessário, da mesma forma que faria para qualquer conteúdo dentro de uma jornada ou campanha, de acordo com o canal selecionado.
 
    ![](assets/content-template-edition.png)
 
@@ -81,7 +81,7 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
 
 1. Quando o modelo estiver pronto, clique em **[!UICONTROL Salvar]**.
 
-1. Clique na seta ao lado do nome do modelo para voltar para a tela **[!UICONTROL Detalhes]**.
+1. Clique na seta ao lado do nome do modelo para retornar à tela **[!UICONTROL Detalhes]**.
 
    ![](assets/content-template-back.png)
 
@@ -89,14 +89,9 @@ Este modelo agora está pronto para ser usado na compilação de qualquer conte�
 
 >[!NOTE]
 >
->Ao criar um modelo de conteúdo de email, para aplicar rapidamente um estilo específico que se ajuste à sua marca e design, você pode aplicar um tema ao seu conteúdo. [Saiba mais](../email/apply-email-themes.md)
+>Ao criar um modelo de conteúdo de email, você pode aplicar rapidamente um estilo específico que se ajuste à sua marca e design aplicando um tema ao seu conteúdo. [Saiba mais](../email/apply-email-themes.md)
 
 ## Salvar conteúdo como modelo de conteúdo {#save-as-template}
-
->[!CONTEXTUALHELP]
->id="ajo_messages_depecrated_inventory"
->title="Saiba como migrar as mensagens"
->abstract="Em 25 de julho de 2022, o menu Mensagens desapareceu e as mensagens agora são criadas diretamente na jornada. Se você quiser reutilizar as mensagens herdadas nas jornadas, é necessário salvá-las como modelos."
 
 Ao criar qualquer conteúdo em uma campanha ou jornada, você pode salvá-lo para futura reutilização. Para fazer isso, siga as etapas abaixo.
 
@@ -106,7 +101,7 @@ Ao criar qualquer conteúdo em uma campanha ou jornada, você pode salvá-lo par
 
    ![](assets/content-template-button-save.png)
 
-   Se você estiver na [Designer de Email](../email/get-started-email-design.md), também poderá selecionar essa opção na lista suspensa **[!UICONTROL Mais]**, na parte superior direita da tela.
+   Se você estiver na [Designer de Email](../email/get-started-email-design.md), também poderá selecionar essa opção na lista suspensa **[!UICONTROL Mais]**, no canto superior direito da tela.
 
    ![](assets/content-template-more-button-save.png)
 
@@ -120,7 +115,7 @@ Ao criar qualquer conteúdo em uma campanha ou jornada, você pode salvá-lo par
 
 1. Selecione ou crie uma marca Adobe Experience Platform do campo **Marcas** para categorizar seu modelo. [Saiba mais](../start/search-filter-categorize.md#tags)
 
-1. Para atribuir rótulos de uso de dados principais ou personalizados ao modelo, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais](../administration/object-based-access.md).
+1. Para atribuir rótulos de uso de dados principais ou personalizados ao modelo, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais](../administration/object-based-access.md).
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -130,4 +125,5 @@ Agora você pode usar este modelo ao criar qualquer conteúdo dentro de [!DNL Jo
 
 >[!NOTE]
 >
->Qualquer alteração nesse novo modelo não será propagada para o conteúdo de onde vem. Da mesma forma, quando o conteúdo original é editado dentro desse conteúdo, o novo modelo não é modificado.
+>Qualquer alteração no novo modelo não será propagada para o conteúdo do qual se origina. Da mesma forma, quando o conteúdo original é editado, o novo modelo não é modificado.
+

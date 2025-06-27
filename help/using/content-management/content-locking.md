@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 32%
+source-wordcount: '1276'
+ht-degree: 29%
 
 ---
 
@@ -34,20 +34,20 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="Governança habilitada"
->abstract="O bloqueio de conteúdo é ativado e pode impedir que você faça modificações."
+>abstract="O bloqueio de conteúdo é ativado e impede modificações."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Somente leitura"
->abstract="Este conteúdo é de somente leitura e não pode ser modificado."
+>abstract="Este conteúdo está no modo somente leitura e não pode ser modificado."
 
-O Journey Optimizer permite bloquear o conteúdo em modelos de email, bloqueando todo o modelo ou estruturas e componentes específicos. Isso permite evitar edições ou exclusões não intencionais, dando a você maior controle sobre a personalização do modelo e melhorando a eficiência e a confiabilidade de suas campanhas de email.
+O Journey Optimizer permite bloquear o conteúdo em modelos de email, bloqueando todo o modelo ou estruturas e componentes específicos. Isso evita edições ou exclusões não intencionais, oferecendo maior controle sobre a personalização de modelos e melhorando a eficiência e a confiabilidade de suas campanhas de email.
 
 >[!IMPORTANT]
 >
->O bloqueio de conteúdo é um recurso em nível de editor para autores e não garante que o conteúdo não será editado quando for importado ou criado por meio da API.
+>O bloqueio de conteúdo é um recurso no nível do editor para autores e não garante que o conteúdo permanecerá sem edição quando importado ou criado por meio da API.
 
-O bloqueio de conteúdo pode ser aplicado no nível **estrutura** ou no nível **componente**. Estes são os principais princípios que se aplicam no nível da estrutura e do componente ao bloquear o conteúdo no seu modelo.
+O bloqueio de conteúdo pode ser aplicado no nível **estrutura** ou no nível **componente**. Abaixo estão os principais princípios que se aplicam no nível da estrutura e do componente ao bloquear conteúdo no seu modelo:
 
 * Quando uma estrutura está bloqueada:
 
@@ -65,7 +65,7 @@ O bloqueio de conteúdo pode ser aplicado no nível **estrutura** ou no nível *
 >
 >Os usuários com permissões para criar modelos de conteúdo podem ativar o bloqueio de conteúdo.
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Bloquear um modelo de email {#define}
 
@@ -95,7 +95,7 @@ Você pode ativar o bloqueio de conteúdo para um modelo de email diretamente no
    * [Saiba como bloquear estruturas](#lock-structures)
    * [Saiba como bloquear componentes](#lock-components)
 
-   Se você escolher o modo **[!UICONTROL Somente leitura]**, poderá prosseguir com a finalização e salvamento do modelo como de costume.
+   Se você escolheu o modo **[!UICONTROL Somente leitura]**, prossiga com a finalização e salvamento do modelo como de costume.
 
 Você pode ajustar as configurações de **[!UICONTROL Governança]** a qualquer momento ao criar o modelo selecionando o corpo do modelo. Para fazer isso, clique no link **[!UICONTROL Corpo]** no painel de navegação localizado na parte superior do painel do lado direito.
 
@@ -173,17 +173,16 @@ Ao usar um modelo com conteúdo bloqueado, a mensagem **[!UICONTROL Governança 
 
 Dependendo do tipo de bloqueio aplicado ao modelo, você pode executar ações diferentes nas estruturas e nos componentes do modelo. Para identificar rapidamente todas as áreas editáveis no modelo, ative a opção **[!UICONTROL Realçar áreas editáveis]**.
 
-Por exemplo, no modelo abaixo, todas as áreas são editáveis, exceto a imagem superior que foi bloqueada, o que significa que não é possível editá-la nem removê-la.
+Por exemplo, no modelo abaixo, todas as áreas são editáveis, exceto a imagem superior, que foi bloqueada, o que significa que não é possível editá-la ou removê-la.
 
 ![](assets/template-lock-highlight.png)
 
-Informações detalhadas sobre os diferentes tipos de bloqueio que podem ser aplicados. Consulte estas seções:
+Informações detalhadas sobre os diferentes tipos de bloqueio que podem ser aplicados estão disponíveis nestas seções:
 
 * [Bloquear estruturas](#lock-structures)
 * [Bloquear componentes](#lock-components)
 
-Estes são alguns exemplos de edição de emails e a configuração de bloqueio de conteúdo associada que foi configurada:
-
+Estes são alguns exemplos de edições de email e as configurações de bloqueio de conteúdo associadas que foram configuradas:
 
 | Tipo de bloqueio de conteúdo | Configuração do modelo | Edição de email |
 | ------- | ------- | ------- |
@@ -197,4 +196,4 @@ Estes são alguns exemplos de edição de emails e a configuração de bloqueio 
 
 Saiba como bloquear conteúdo em modelos de email.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451612?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

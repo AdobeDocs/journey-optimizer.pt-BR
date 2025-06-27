@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '587'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Content Ma
 
 ![](assets/content-template-list.png)
 
-Todos os modelos criados na sandbox atual - de uma jornada ou campanha usando a opção **[!UICONTROL Salvar como modelo]**, no menu **[!UICONTROL Modelos de conteúdo]** - são exibidos. [Saiba como criar modelos](#create-content-templates)
+Todos os modelos criados na sandbox atual—de uma jornada ou campanha usando a opção **[!UICONTROL Salvar como modelo]**, ou do menu **[!UICONTROL Modelos de conteúdo]**—são exibidos. [Saiba como criar modelos](#create-content-templates)
 
 O painel à esquerda permite organizar modelos de conteúdo em pastas. Por padrão, todos os modelos são exibidos. Ao selecionar uma pasta, somente os modelos e as pastas incluídos na pasta selecionada são exibidos. [Saiba mais](#folders)
 
@@ -31,12 +31,13 @@ O painel à esquerda permite organizar modelos de conteúdo em pastas. Por padr�
 Para localizar um item específico, comece digitando um nome no campo de pesquisa. Quando uma [pasta](#folders) é selecionada, a pesquisa se aplica a todos os modelos de conteúdo ou pastas no primeiro nível de hierarquia dessa pasta<!--(not nested items)-->.
 
 Você pode classificar modelos de conteúdo por:
+
 * Tipo
 * Canal
 * Data de criação ou modificação
 * Marcas - [Saiba mais sobre marcas](../start/search-filter-categorize.md#tags)
 
-Você também pode optar por exibir somente os itens que você mesmo criou ou modificou.
+Você também pode optar por exibir somente os itens criados ou modificados por você.
 
 ![](assets/content-template-list-filters.png)
 
@@ -46,7 +47,7 @@ Você também pode optar por exibir somente os itens que você mesmo criou ou mo
 
 ## Usar pastas para gerenciar modelos de conteúdo {#folders}
 
-Para navegar facilmente pelos modelos de conteúdo, você pode usar pastas para organizá-los com mais eficiência em uma hierarquia estruturada. Isso permite categorizar e gerenciar os itens de acordo com as necessidades da organização.
+Para navegar facilmente pelos modelos de conteúdo, use pastas para organizá-los com mais eficiência em uma hierarquia estruturada. Isso permite categorizar e gerenciar os itens de acordo com as necessidades da organização.
 
 ![](assets/content-template-folders.png)
 
@@ -74,7 +75,7 @@ Para navegar facilmente pelos modelos de conteúdo, você pode usar pastas para 
 
    ![](assets/content-template-folder-moved.png)
 
-1. Agora é possível navegar até a pasta que acabou de criar. Cada novo modelo de conteúdo que você [cria](create-content-templates.md) daqui é salvo na pasta atual.
+1. Navegue até a pasta que acabou de criar. Cada novo modelo de conteúdo que você [cria](create-content-templates.md) daqui é salvo na pasta atual.
 
    ![](assets/content-template-folder-create.png)
 
@@ -104,12 +105,13 @@ Selecione o modo de **[!UICONTROL exibição de grade]** para exibir cada modelo
 
 >[!NOTE]
 >
->Atualmente, as miniaturas adequadas só podem ser geradas para modelos de conteúdo de email do tipo HTML.
+>Miniaturas apropriadas só podem ser geradas para modelos de conteúdo de email do tipo HTML.
 
-Ao atualizar um conteúdo, talvez seja necessário aguardar alguns segundos antes que as alterações sejam refletidas na miniatura.
+Ao atualizar o conteúdo, aguarde alguns segundos para que as alterações sejam refletidas na miniatura.
 
 ## Exportar modelos de conteúdo para outra sandbox {#export}
 
 O Journey Optimizer permite copiar um modelo de conteúdo de uma sandbox para outra. Por exemplo, você pode copiar um modelo do seu ambiente de sandbox de Preparo para a sua sandbox de Produção.
 
 O processo de cópia é realizado por meio de uma **exportação e importação de pacotes** entre as sandboxes de origem e destino. Informações detalhadas sobre como exportar objetos e importá-los para uma sandbox de destino estão disponíveis nesta seção: [Copiar objetos para outra sandbox](../configuration/copy-objects-to-sandbox.md)
+

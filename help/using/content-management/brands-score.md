@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 24%
+source-wordcount: '286'
+ht-degree: 25%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 24%
 >[!AVAILABILITY]
 >
 >Esse recurso foi lançado como um beta privado. Ele será disponibilizado progressivamente a todos os clientes em versões futuras.
->&#x200B;>Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
+>>Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
 
-O recurso Alinhamento da marca foi criado para ajudar você a criar, revisar e gerenciar conteúdo que se mantenha fiel às diretrizes da sua marca. Ele garante a consistência no tom, nas mensagens e na identidade visual em todas as campanhas de email, além de servir como uma verificação de qualidade antes do conteúdo ser publicado.
+O recurso Alinhamento da marca ajuda você a criar, revisar e gerenciar conteúdo que segue as diretrizes da sua marca. Ele garante a consistência no tom, nas mensagens e na identidade visual em todas as campanhas de email, além de servir como uma verificação de qualidade antes do conteúdo ser publicado.
 
 ## Validar seu conteúdo com o alinhamento da marca {#validate-content}
 
@@ -50,7 +50,7 @@ Depois que [sua marca for configurada e publicada](brands.md), avalie a pontuaç
 
 1. Abra o menu **[!UICONTROL Alinhamento da marca]** no Designer de email.
 
-   Seu conteúdo será avaliado automaticamente em relação à sua marca padrão. [Saiba como atribuir uma marca padrão](brands.md).
+   O conteúdo é avaliado automaticamente em relação à marca padrão. [Saiba como atribuir uma marca padrão](brands.md).
 
    ![](assets/brand-score-1.png)
 
@@ -60,7 +60,7 @@ Depois que [sua marca for configurada e publicada](brands.md), avalie a pontuaç
 
 1. Navegue pela **Pontuação de alinhamento da marca** (Alta, Medium, Baixa) e revise os comentários detalhados.
 
-1. Clique no ícone de ![Texto alternativo de imagem de mergulho](assets/do-not-localize/Smock_FullScreen_18_N.svg "Tela cheia") para ver mais insights sobre sua pontuação.
+1. Clique no ícone ![Tela cheia para obter insights detalhados](assets/do-not-localize/Smock_FullScreen_18_N.svg "Tela cheia") para ver mais insights sobre sua pontuação.
 
    ![](assets/brand-score-3.png)
 
