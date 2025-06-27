@@ -34,7 +34,7 @@ ht-degree: 5%
 
 <br/>
 
-Crie uma campanha orquestrada no [!DNLAAdobe Journey Optimizer] e configure seu agendamento de execução para controlar quando ele começa e com que frequência é executado. Opte por iniciar a campanha imediatamente, em uma data e hora específicas ou de forma recorrente usando opções de agendamento flexíveis, como frequências diárias, semanais ou mensais.
+Crie uma campanha orquestrada no [!DNL AAdobe Journey Optimizer] e configure seu agendamento de execução para controlar quando ele começa e com que frequência é executado. Opte por iniciar a campanha imediatamente, em uma data e hora específicas ou de forma recorrente usando opções de agendamento flexíveis, como frequências diárias, semanais ou mensais.
 
 ## Criar e agendar a campanha {#create}
 
@@ -73,7 +73,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
    * **[!UICONTROL Data]**: selecione a data em que a campanha deve ser executada.
    * **[!UICONTROL Hora]**: selecione a hora específica em que a campanha deve ser executada.
 
-+++
+   +++
 
    +++Diário
 
@@ -87,7 +87,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora de início]**: defina a hora em que a campanha deve ser executada a cada dia.
 
-+++
+   +++
 
    +++Várias vezes ao dia
 
@@ -96,7 +96,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
    * **[!UICONTROL Horas selecionadas]**: selecione as horas específicas em que a campanha deve ser executada e configure sua recorrência diária (executar todos os dias da semana ou em determinados dias).
    * **[!UICONTROL Periodic]**: escolha executar a campanha a cada n minutos ou horas. Você também pode definir o intervalo de tempo no dia em que as execuções são permitidas.
 
-+++
+   +++
 
    +++Semanal
 
@@ -107,7 +107,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
    * **[!UICONTROL Recorrência diária]**: escolha dias da semana específicos para execução (por exemplo, toda segunda e quinta-feira).
    * **[!UICONTROL Hora de início]**: defina a hora em que a campanha deve ser executada nos dias selecionados.
 
-+++
+   +++
 
    +++Mensal
 
@@ -123,7 +123,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora de início]**: defina a hora em que a campanha deve ser executada.
 
-+++
+   +++
 
 1. Use a configuração **[!UICONTROL Validity period]** para definir uma data de início e término específica, restringindo a execução da campanha a uma janela de tempo limitada.
 
