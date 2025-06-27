@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso de uso, vários canais, jornada, eventos
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: a94d579086f8ab78e611b15d993bb8f12673ea36
+source-git-commit: 06d25d9344588d668304bbf5d6d3c2e7cd6659ef
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Use essa biblioteca como ponto de referência ao projetar jornadas, modelar dado
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="práticas recomendadas de pesquisa de eventos de experiência" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="práticas recomendadas de pesquisa de eventos de experiência" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br>Conheça padrões comuns e abordagens escaláveis para ajudá-lo a aproveitar ao máximo os Eventos de experiência no Adobe Journey Optimizer. Esses casos de uso são projetados para ajudar você a resolver desafios frequentes, como gerenciar recusas, controlar a frequência da mensagem, personalizar o conteúdo com base no comportamento do usuário e reagir a sinais em tempo real.
     </div>
       <div>
@@ -92,7 +92,7 @@ Use essa biblioteca como ponto de referência ao projetar jornadas, modelar dado
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="collections.md">
-<img alt="Envio dinâmico de coleções usando ações personalizadas" src="../assets/do-not-localize/icon-quick-start.svg">
+<img alt="Envio dinâmico de coleções usando ações personalizadas" src="../assets/do-not-localize/icon-configure.svg">
 </a>
 <div>
 <a href="collections.md"><strong>Envio dinâmico de coleções com ações personalizadas</strong></a>
