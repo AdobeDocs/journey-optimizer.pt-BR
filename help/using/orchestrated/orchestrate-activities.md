@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 185e4121a939f2b46b85865278a591c43ad01f27
+source-git-commit: 4d41920b9a0a1acadd97858718a2f80ee9ece8aa
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ Você tem a opção de personalizar o nome das transições entre cada atividade
 
 ![](assets/canvas-transition.png)
 
-## A barra de ferramentas da tela {#toolbar}
+### A barra de ferramentas da tela {#toolbar}
 
 A barra de ferramentas da tela fornece opções para manipular facilmente as atividades e navegar na tela:
 
@@ -64,7 +64,7 @@ A barra de ferramentas da tela fornece opções para manipular facilmente as ati
 
 ![Ícone de configurações do Campaign](assets/do-not-localize/canvas-map.svg) Abre um instantâneo da tela mostrando que você está localizado.
 
-## Gerenciar atividades {#manage}
+### Gerenciar atividades {#manage}
 
 Ao adicionar atividades, os botões de ação ficam disponíveis no painel de propriedades, permitindo que você execute várias operações.
 
@@ -82,7 +82,7 @@ Ao adicionar atividades, os botões de ação ficam disponíveis no painel de pr
 
 Várias atividades de **Direcionamento**, como **Combinar** ou **Desduplicação**, permitem processar a população restante e incluí-la em uma transição de saída adicional. Por exemplo, se você estiver usando uma atividade **Split**, o complemento consiste na população que não corresponde a nenhum dos subconjuntos definidos anteriormente. Para usar este recurso, ative a opção **[!UICONTROL Gerar complemento]**.
 
-## Atividades de copiar e colar {#copy}
+### Atividades de copiar e colar {#copy}
 
 Você pode copiar atividades e colá-las em qualquer tela de campanha orquestrada. A campanha de destino pode estar em uma guia do navegador diferente.
 
@@ -97,25 +97,25 @@ Para colar as atividades, clique no botão **+** em uma transição e selecione 
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-<!--## Example {#example}
+## Exemplo de diagrama {#example}
 
-Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
+Este é um exemplo de campanha orquestrada criado para enviar um email a todos os clientes que fizeram uma compra de pelo menos 100$, enquanto exclui todos os clientes que têm menos de 50 pontos de fidelidade.
 
-![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
+![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-To achieve this, activities below have been added:
+Para isso, as atividades abaixo foram adicionadas:
 
-* A **[!UICONTROL Fork]** activity that divides the orchestrated campaign into three paths (one for each set of customer),
-* **[!UICONTROL Build audience]** activities to target the three sets of customers:
+* Uma atividade **[!UICONTROL Fork]** divide a campanha orquestrada em três caminhos.
+* As atividades de **[!UICONTROL criação de público-alvo]** visam os três conjuntos de clientes:
 
-    * Customers with an email,
-    * Customers belonging to the pre-existing "Interrested in Coffee Machine(s)" audience,
-    * Customers belonging to the pre-existing "VIP ro reward" audience.
+   * Clientes com um email,
+   * Clientes que tenham feito uma compra de pelo menos 100$,
+   * Clientes com menos de 50 pontos de fidelidade.
 
-* A **[!UICONTROL Combine]** activity that groups together customers with an email and those interested in coffee machines,
-* A **[!UICONTROL Combine]** activity that excludes VIP customers,
-* An **[!UICONTROL Email delivery]** activity that sends an email to the resulting customers. 
+* Uma atividade **[!UICONTROL Combinar]** agrupa clientes com um email e aqueles que fizeram uma compra de pelo menos 100$,
+* Uma atividade **[!UICONTROL Combine]** exclui clientes com menos de 50 pontos de fidelidade,
+* Uma atividade de **[!UICONTROL Entrega de email]** envia um email para os clientes resultantes.
 
-Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
+## Próximas etapas {#next}
 
-After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)-->
+Depois de criar com sucesso o diagrama de campanha orquestrada, você pode executar a campanha orquestrada e acompanhar o progresso de suas várias tarefas. [Saiba como iniciar uma campanha orquestrada e monitorar sua execução](start-monitor-campaigns.md)
