@@ -6,10 +6,10 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
+source-git-commit: f8afef4729e50b7c9899bf7f2fe282347220dfac
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 9%
+source-wordcount: '780'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 9%
 
 | Bem-vindo às campanhas orquestradas | Lançar a primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
 |---|---|---|---|
-| [Introdução às campanhas orquestradas](gs-orchestrated-campaigns.md)<br/><br/>[Etapas de configuração](configuration-steps.md)<br/>&lt;br/[Acessar e gerenciar campanhas orquestradas](access-manage-orchestrated-campaigns.md) | [Etapas principais para a criação de campanha orquestrada](gs-campaign-creation.md)<br/><br/>[Criar e agendar a campanha](create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](orchestrate-activities.md)<br/><br/>[Enviar mensagens com campanhas orquestradas](send-messages.md)<br/><br/><b>[Iniciar e monitorar a campanha](start-monitor-campaigns.md)</b><br/><br/>[Relatórios](reporting-campaigns.md) | [Trabalhar com o construtor de regras](orchestrated-rule-builder.md)<br/><br/>[Criar a primeira consulta](build-query.md)<br/><br/>[Editar expressões](edit-expressions.md) | [Introdução às atividades](activities/about-activities.md)<br/><br/>Atividades:<br/>[And-join](activities/and-join.md) - [Criar público](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Eliminação de Duplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Divisão](activities/split.md) - [Espera](activities/wait.md) |
+| [Introdução a campanhas orquestradas](gs-orchestrated-campaigns.md)<br/><br/>[Etapas de configuração](configuration-steps.md)<br/><br/>[Acessar e gerenciar campanhas orquestradas](access-manage-orchestrated-campaigns.md) | [Etapas principais para a criação de campanha orquestrada](gs-campaign-creation.md)<br/><br/>[Criar e agendar a campanha](create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](orchestrate-activities.md)<br/><br/>[Enviar mensagens com campanhas orquestradas](send-messages.md)<br/><br/><b>[Iniciar e monitorar a campanha](start-monitor-campaigns.md)</b><br/><br/>[Relatórios](reporting-campaigns.md) | [Trabalhar com o construtor de regras](orchestrated-rule-builder.md)<br/><br/>[Criar a primeira consulta](build-query.md)<br/><br/>[Editar expressões](edit-expressions.md) | [Introdução às atividades](activities/about-activities.md)<br/><br/>Atividades:<br/>[And-join](activities/and-join.md) - [Criar público](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Eliminação de Duplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Divisão](activities/split.md) - [Espera](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -34,17 +34,27 @@ ht-degree: 9%
 
 Depois de criar as tarefas orquestradas e projetadas para execução na tela, é possível publicá-las e monitorar como elas estão sendo executadas.
 
-## Iniciar uma campanha orquestrada {#start}
+Você também pode executar a campanha no modo de teste para verificar sua execução e o resultado das diferentes atividades.
 
-Para iniciar uma campanha orquestrada, navegue até a guia **[!UICONTROL Orquestração]** do menu **[!UICONTROL Campanhas]** e selecione a campanha a ser iniciada e clique no botão **[!UICONTROL Reproduzir]**, no canto superior direito da tela.
+## Testar e publicar a campanha orquestrada {#test}
+
+O Journey Optimizer permite testar suas campanhas orquestradas antes de publicá-las. Isso permite verificar a execução e o resultado das várias tarefas que compõem a campanha, sem impacto funcional: todas as atividades na tela são executadas, exceto as atividades que têm impacto, como **[!UICONTROL Salvar público-alvo]** e atividades de canal.
+
+Para iniciar uma campanha orquestrada no modo de teste, abra a campanha orquestrada e clique no botão **[!UICONTROL Iniciar]**.
+
+![](assets/campaign-start.png){zoomable="yes"}
 
 Quando a campanha orquestrada estiver em execução, cada atividade na tela será executada em ordem sequencial, até que o final da campanha orquestrada seja atingido.
 
-Você pode acompanhar o progresso de perfis direcionados em tempo real usando um fluxo visual. Isso permite identificar rapidamente o status de cada atividade e o número de perfis em transição entre elas.
+Quando a campanha estiver pronta para entrar no ar, clique no botão **[!UICONTROL Publicar]**. O fluxo visual na tela é reiniciado, permitindo o progresso dos perfis no diagrama.
+
+## Fluxo visual de campanhas orquestradas
+
+Quando uma campanha orquestrada está em execução, no modo de teste ou em produção, é possível rastrear o progresso dos perfis direcionados por meio das diferentes tarefas em tempo real usando um fluxo visual. Isso permite identificar rapidamente o status de cada atividade e o número de perfis em transição entre elas.
 
 ![](assets/workflow-execution.png){zoomable="yes"}
 
-Em campanhas orquestradas, os dados transportados de uma atividade para outra por meio de transições são armazenados em uma tabela de trabalho temporária. Esses dados podem ser exibidos para cada transição. Para fazer isso, selecione uma transição para abrir as propriedades no lado direito da tela.
+Os dados transportados de uma atividade para outra por meio de transições são armazenados em uma tabela de trabalho temporária. Esses dados podem ser exibidos para cada transição. Para fazer isso, selecione uma transição para abrir as propriedades no lado direito da tela.
 
 * Clique em **[!UICONTROL Visualizar esquema]** para exibir o esquema da tabela de trabalho.
 * Clique em **[!UICONTROL Visualizar resultados]** para visualizar os dados transportados na transição selecionada.
@@ -55,7 +65,7 @@ Em campanhas orquestradas, os dados transportados de uma atividade para outra po
 
 ### Monitorar execução da atividade {#activities}
 
-Os indicadores visuais no canto superior direito de cada caixa de atividade permitem verificar a execução:
+Os indicadores visuais em cada caixa de atividade permitem verificar a execução:
 
 | Indicador visual | Descrição |
 |-----|------------|
