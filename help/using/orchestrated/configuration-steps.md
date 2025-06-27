@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1142'
 ht-degree: 3%
 
 ---
@@ -103,7 +103,7 @@ Para definir conexões lógicas entre tabelas no esquema, siga as etapas abaixo.
 
 1. Preencha o formulário fornecido para definir o link e clique em **Aplicar** depois de configurado.
 
-   ![](assets/toolbar.png)
+   ![](assets/admin_schema_3.png)
 
    **Cardinalidade**:
 
@@ -179,21 +179,43 @@ O Adobe Experience Platform permite que os dados sejam assimilados de fontes ext
 
    * Com uma nova conta
 
-   [Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
+1. Escolha o **[!UICONTROL Formato dos dados]**, **[!UICONTROL Delimitador]** e **[!UICONTROL Tipo de compactação]** da pasta.
+
 1. Navegue pela origem S3 conectada até localizar as duas pastas criadas anteriormente, ou seja, **recompensas de fidelidade** e **transações de fidelidade**.
 
-1. Clique em sua pasta.
+1. Selecione a pasta que contém seus dados.
 
-   A seleção de uma pasta garante que todos os arquivos atuais e futuros com a mesma estrutura sejam processados automaticamente, enquanto a seleção de um arquivo requer atualizações manuais para cada novo incremento de dados.
+   Selecionar uma pasta garante que todos os arquivos atuais e futuros com a mesma estrutura sejam processados automaticamente. A seleção de um único arquivo, no entanto, requer o upload manual de cada novo incremento de dados.
+
+   ![](assets/S3_config_2.png)
+
+1. Escolha o **[!UICONTROL Formato dos dados]**, **[!UICONTROL Delimitador]** e **[!UICONTROL Tipo de compactação]** da pasta. Verifique a precisão dos dados de amostra e clique em **[!UICONTROL Avançar]**.
 
    ![](assets/S3_config_1.png)
 
-1. Escolha o formato de Dados e clique em Próximo.
+1. Marque **[!UICONTROL Habilitar captura de dados de alteração]** para selecionar entre conjuntos de dados mapeados para esquemas relacionais e que tenham uma chave primária e um descritor de versão definidos.
 
+1. Selecione o [Conjunto de Dados criado anteriormente](#entities) e clique em **[!UICONTROL Avançar]**.
 
+   ![](assets/S3_config_3.png)
+
+1. Na janela **[!UICONTROL Mapping]**, verifique se cada atributo de arquivo de origem está mapeado corretamente com os campos correspondentes no esquema de destino.
+
+   Clique em **[!UICONTROL Avançar]** depois de concluído.
+
+   ![](assets/S3_config_4.png)
+
+1. Configure o fluxo de dados **[!UICONTROL Agendar]** com base na frequência desejada.
+
+1. Clique em **[!UICONTROL Concluir]** para criar o fluxo de dados. Ele será executado automaticamente de acordo com o agendamento definido.
+
+1. No menu **[!UICONTROL Conexões]**, selecione **[!UICONTROL Fontes]** e acesse a guia **[!UICONTROL Fluxos de Dados]** para rastrear a execução do fluxo, revisar registros assimilados e solucionar quaisquer erros.
+
+   ![](assets/S3_config_5.png)
 
 <!--manual
 ## Create a relational schema manual
