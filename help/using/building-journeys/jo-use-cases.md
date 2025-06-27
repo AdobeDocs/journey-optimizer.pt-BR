@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso de uso, vários canais, jornada, eventos
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
+source-git-commit: 938f0b0247cc4b9d3e05a234082db534acbbbac5
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Use essa biblioteca como ponto de referência ao projetar jornadas, modelar dado
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="práticas recomendadas de pesquisa de eventos de experiência" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="práticas recomendadas de pesquisa de eventos de experiência" src="../assets/do-not-localize/icon-content.svg" /></a> 
     <br>Conheça padrões comuns e abordagens escaláveis para ajudá-lo a aproveitar ao máximo os Eventos de experiência no Adobe Journey Optimizer. Esses casos de uso são projetados para ajudar você a resolver desafios frequentes, como gerenciar recusas, controlar a frequência da mensagem, personalizar o conteúdo com base no comportamento do usuário e reagir a sinais em tempo real.
     </div>
       <div>
@@ -47,7 +47,7 @@ Use essa biblioteca como ponto de referência ao projetar jornadas, modelar dado
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="amostras de query" src="../assets/do-not-localize/icon-data.svg"/></a> 
+    <img alt="amostras de query" src="../assets/do-not-localize/icon-configure.svg"/></a> 
     <br>Para criar seus casos de uso, você precisa consultar os conjuntos de dados do Adobe Journey Optimizer, como conjuntos de dados do sistema para assimilar eventos de experiência de rastreamento, o conjunto de dados para assimilar eventos de etapa em uma jornada, o conjunto de dados para assimilar apresentações de oferta aos usuários e muito mais.
     </div>
       <div>
