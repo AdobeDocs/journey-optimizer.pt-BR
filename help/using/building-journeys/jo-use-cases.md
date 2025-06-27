@@ -7,9 +7,10 @@ feature: Journeys, Use Cases
 role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso de uso, vários canais, jornada, eventos
-source-git-commit: 85b036ad8e06b10fc8c46b3ec03b7792491bd9b9
+exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
+source-git-commit: 4a14c76aeceba624cd252890e37ccf3e42049597
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '266'
 ht-degree: 15%
 
 ---
@@ -72,7 +73,7 @@ Use essa biblioteca como ponto de referência ao projetar jornadas, modelar dado
 <a href="ajo-ac.md">
 <img alt="Enviar uma mensagem usando o Campaign" src="../assets/do-not-localize/start-interface.jpeg">
 </a>
-<div><a href="ajo-ac.md"><strong>Enviar uma mensagem usando o Campaign v7/v8</strong>
+<div><a href="ajo-ac.md"><strong>Enviar com o Campaign v7/v8</strong>
 </div>
 <p>
 </td>
@@ -81,7 +82,7 @@ Use essa biblioteca como ponto de referência ao projetar jornadas, modelar dado
 <img alt="Enviar uma mensagem aos assinantes" src="../assets/do-not-localize/start-quick.png">
 </a>
 <div>
-<a href="message-to-subscribers-uc.md"><strong>Enviar uma mensagem aos assinantes</strong></a>
+<a href="message-to-subscribers-uc.md"><strong>Enviar para seus assinantes</strong></a>
 </div>
 <p></td>
 </tr></table>
@@ -107,6 +108,3 @@ Use essa biblioteca como ponto de referência ao projetar jornadas, modelar dado
 <p>
 </td>
 </tr></table>
-
-
-
