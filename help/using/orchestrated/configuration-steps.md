@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: fad312d2951dc6d602fb27d24adad6de0192f650
+source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 3%
@@ -179,7 +179,7 @@ O Adobe Experience Platform permite que os dados sejam assimilados de fontes ext
 
    * Com uma nova conta
 
-   [Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
