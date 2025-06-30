@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 62f16b6f582e6bf5620b75df4a75d4c15441ca4a
+source-git-commit: 3f4652445bb52850d7480e844c77a4b67dc4db10
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 24%
+source-wordcount: '370'
+ht-degree: 27%
 
 ---
 
@@ -20,13 +20,6 @@ ht-degree: 24%
 >id="ajo_orchestration_build_audience"
 >title="Atividade Criar público-alvo"
 >abstract="A atividade **Criar público-alvo** permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade de canal, mas em uma atividade **Criar público-alvo**."
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_read_audience"
->title="Atividade Criar público-alvo"
->abstract="A atividade **Ler público-alvo** permite selecionar um público-alvo existente que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público da mensagem não é definido na atividade de canal, mas em uma atividade de **Leitura de público** ou de **Criação de público**."
-
 
 +++ Sumário
 
