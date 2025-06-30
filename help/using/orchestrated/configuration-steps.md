@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
+source-git-commit: 4b4363bf89f80ee9203989f1ba66a8062dfd2719
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 3%
@@ -37,6 +37,8 @@ Documentação em andamento
 Este guia o orienta pelo processo de criação de um esquema relacional, configuração de um conjunto de dados para campanhas orquestradas, assimilação de dados por meio de uma fonte S3 e consulta dos dados assimilados na plataforma AP.
 
 Neste exemplo, a configuração inclui a integração de duas entidades principais, **Transações de Fidelidade** e **Recompensas de Fidelidade**, e os vincula às entidades principais existentes **Destinatários** e **Marcas**.
+
+![](assets/do-not-localize/schema_admin.png)
 
 1. [Fazer upload do arquivo DDL](#upload-ddl)
 
@@ -179,7 +181,7 @@ O Adobe Experience Platform permite que os dados sejam assimilados de fontes ext
 
    * Com uma nova conta
 
-   [Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
