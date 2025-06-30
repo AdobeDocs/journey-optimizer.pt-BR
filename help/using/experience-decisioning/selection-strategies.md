@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: b44eba66fd88f56b999937e7638bd6c5526fec43
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 20%
@@ -26,7 +26,7 @@ ht-degree: 20%
 >title="Restringir os perfis elegíveis"
 >abstract="Você pode restringir a seleção de ofertas para essa estratégia de seleção. Por padrão, todos os perfis são elegíveis, mas você pode usar públicos-alvo ou regras para limitar a seleção de ofertas somente a perfis específicos."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Usar públicos-alvo"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules" text="Usar regras de decisão"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Usar regras de decisão"
 
 Uma estratégia de seleção é reutilizável e consiste em uma coleção associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma [política de decisão](create-decision.md).
 
