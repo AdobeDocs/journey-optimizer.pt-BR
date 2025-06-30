@@ -40,12 +40,12 @@ Abaixo está um resumo de como o Journey Optimizer identifica possíveis conflit
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="Exibir possíveis conflitos"
->abstract="Verifique sempre que houver uma possibilidade de sobreposição com outras campanhas. Os conflitos são exibidos somente para campanhas ativas e agendadas. Observe que o botão fica disponível assim que você atribui qualquer uma das seguintes configurações: **[!UICONTROL Data de início/término]**, **[!UICONTROL Público-alvo]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuração de canal]** e **[!UICONTROL Conjunto de regras]**."
+>abstract="Verifique sempre que houver uma possibilidade de sobreposição com outras campanhas. Os conflitos são exibidos somente para campanhas ativas e agendadas. Observe que o botão fica disponível assim que você atribui qualquer uma das seguintes configurações: **[!UICONTROL Data inicial/final]**, **[!UICONTROL Público-alvo]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuração de canal]** e **[!UICONTROL Conjunto de regras]**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="Exibir possíveis conflitos"
->abstract="Verifique sempre que houver a possibilidade de sobreposição com outras jornadas. Os conflitos são exibidos somente nas jornadas ativas e agendadas. Observe que o botão fica disponível assim que você atribui qualquer uma das seguintes configurações: **[!UICONTROL Data de início/término]**, **[!UICONTROL Público-alvo]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuração de canal]** e **[!UICONTROL Conjunto de regras]**."
+>abstract="Verifique sempre que houver a possibilidade de sobreposição com outras jornadas. Os conflitos são exibidos somente nas jornadas ativas e agendadas. Observe que o botão fica disponível assim que você atribui qualquer uma das seguintes configurações: **[!UICONTROL Data inicial/final]**, **[!UICONTROL Público-alvo]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuração de canal]** e **[!UICONTROL Conjunto de regras]**."
 
 Ao criar uma jornada ou campanha, o Journey Optimizer permite verificar sempre que há uma possibilidade de sobreposição com outras jornadas ou campanhas. Para fazer isso, siga estes passos:
 
