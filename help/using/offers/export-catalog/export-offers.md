@@ -123,6 +123,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
      **Exemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
+
      **Campo:** idioma
      **Título:** Idioma
      **Descrição:** O idioma ou idiomas do recurso. \nOs idiomas são especificados no código de idioma conforme definido em [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que faz parte do BCP 47, que é usado em outro lugar no XDM.
