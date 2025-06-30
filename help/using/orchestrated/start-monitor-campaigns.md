@@ -77,8 +77,8 @@ Durante a execução (no modo de teste ou em tempo real), o fluxo visual mostra 
 
 1. Selecione uma transição.
 1. No painel direito:
-- Clique em **[!UICONTROL Visualizar esquema]** para exibir o esquema da tabela de trabalho.
-- Clique em **[!UICONTROL Visualizar resultados]** para ver os dados transportados.
+&#x200B;- Clique em **[!UICONTROL Visualizar esquema]** para exibir o esquema da tabela de trabalho.
+&#x200B;- Clique em **[!UICONTROL Visualizar resultados]** para ver os dados transportados.
 
 ![](assets/transition.png){zoomable="yes"}
 
