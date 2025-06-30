@@ -6,7 +6,8 @@ description: Saiba como usar a atividade Ler público em uma campanha orquestrad
 badge: label="Alfa"
 hide: true
 hidefromtoc: true
-source-git-commit: 64f886e733c0bf6ff8fd258fc24310a04397ba55
+exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
+source-git-commit: 4c712fa19296733595d275fb1c883dd8ca0eb58d
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 10%
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_read_audience"
+>id="ajo_orchestration_read_audience"
 >title="Atividade Criar público-alvo"
 >abstract="A atividade **Ler público-alvo** permite selecionar o público-alvo que entrará na campanha orquestrada. Esse público-alvo pode ser um público-alvo existente do Adobe Experience Platform ou um público-alvo extraído de um arquivo CSV. Ao enviar mensagens no contexto de uma campanha orquestrada, o público da mensagem não é definido na atividade de canal, mas em uma atividade de **Leitura de público** ou de **Criação de público**."
 
@@ -31,5 +32,3 @@ ht-degree: 10%
 {style="table-layout:fixed"}
 
 +++
-
-
