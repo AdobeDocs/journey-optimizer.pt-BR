@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 25%
@@ -56,7 +56,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
    O usuário deve receber um email de redirecionamento para sua instância.
 
-   +++
++++
 
 1. **Configurar atributos personalizados**: adapte o catálogo de itens aos seus requisitos específicos, configurando atributos personalizados no esquema do catálogo.
 
@@ -76,7 +76,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
 1. **Implementar métodos de classificação**: crie métodos de classificação e aplique-os nas estratégias de seleção para determinar a ordem de prioridade para selecionar itens de decisão.
 
-   ➡️ [Saiba como criar métodos de classificação](ranking.md)
+   ➡️ [Saiba como criar métodos de classificação](ranking/ranking.md)
 
 1. **Criar estratégias de seleção**: crie estratégias de seleção que aproveitem coleções, regras de decisão e métodos de classificação para identificar os itens de decisão adequados para exibição em perfis.
 

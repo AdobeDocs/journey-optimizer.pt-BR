@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: e63a21b5dcc8f227d56c696c8fd0825c75684189
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '729'
 ht-degree: 20%
 
 ---
@@ -98,9 +98,9 @@ Se várias ofertas estiverem qualificadas para uma determinada estratégia de se
 
 ### Prioridades de ofertas {#offer-priority}
 
-Por padrão, quando várias ofertas são qualificadas para um determinado posicionamento em uma política de decisão, os itens com a **prioridade** mais alta são entregues aos clientes primeiro.
+Por padrão, quando várias ofertas são qualificadas em uma política de decisão, os itens com a **prioridade** mais alta são entregues aos clientes primeiro.
 
-![](assets/item-priority.png)
+![](assets/item-priority.png){width=85%}
 
 As pontuações de prioridade das ofertas são atribuídas ao criar um [item de decisão](items.md).
 
@@ -108,17 +108,17 @@ As pontuações de prioridade das ofertas são atribuídas ao criar um [item de 
 
 Além da prioridade de oferta, o Journey Optimizer permite criar **fórmulas de classificação**. Essas fórmulas determinam qual oferta deve ser apresentada primeiro para determinada inserção, em vez de considerar as pontuações de prioridade das ofertas.
 
-Por exemplo, você pode aumentar a prioridade de todas as ofertas em que a data de término for inferior a 24 horas a partir de agora ou impulsionar ofertas da categoria &quot;em execução&quot; se o ponto de interesse do perfil for &quot;em execução&quot;. Saiba como criar uma fórmula de classificação em [esta seção](exd-ranking-formulas.md).
+Por exemplo, você pode aumentar a prioridade de todas as ofertas em que a data de término for inferior a 24 horas a partir de agora ou impulsionar ofertas da categoria &quot;em execução&quot; se o ponto de interesse do perfil for &quot;em execução&quot;. Saiba como criar uma fórmula de classificação em [esta seção](ranking/ranking-formulas.md).
 
 Depois de criada, é possível usar essa fórmula em uma estratégia de seleção. Se várias ofertas estiverem qualificadas para serem apresentadas ao usar essa estratégia de seleção, a decisão usará a fórmula selecionada para calcular qual oferta entregar primeiro.
 
 ### Classificação de IA {#ai-ranking}
 
-Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em determinado perfil ao selecionar um modelo de IA. Saiba como criar um modelo de IA em [esta seção](../offers/ranking/ai-models.md).
+Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em determinado perfil ao selecionar um modelo de IA. Saiba como criar um modelo de IA em [esta seção](ranking/create-ai-models.md).
 
 Depois que um modelo de IA é criado, você pode usá-lo em uma estratégia de seleção. Se várias ofertas forem qualificadas, o sistema de modelo treinado determinará qual oferta deve ser apresentada primeiro para essa estratégia de seleção.
 
 >[!NOTE]
 >
->Atualmente, o relatório [Medida de aumento](../offers/ranking/auto-optimization-model.md#lift) está disponível somente para o modelo de IA [Otimização personalizada](../offers/ranking/personalized-optimization-model.md).
+>Atualmente, o relatório [Medida de aumento](ranking/auto-optimization-model.md#lift) está disponível somente para o modelo de IA [Otimização personalizada](ranking/personalized-optimization-model.md).
 

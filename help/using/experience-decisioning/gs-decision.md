@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 20%
@@ -36,7 +36,7 @@ Nossa estrutura de decisão de última geração, projetada para unificar os flu
 * Configuração atualizada da política de decisão e da estratégia de seleção: permitir a reutilização dos componentes de decisão
 * Recursos de experimentação: testar a lógica de decisão em relação a outros componentes do conteúdo para medir o desempenho
 
-O Experience Decisioning é compatível com o canal de experiência baseada em código.
+A decisão é atualmente compatível com o canal de experiência baseado em código.
 
 ➡️ [Introdução à Decisão](../experience-decisioning/gs-experience-decisioning.md)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 2%
+source-wordcount: '869'
+ht-degree: 1%
 
 ---
 
@@ -139,7 +139,7 @@ A tabela **[!UICONTROL Desempenho dos itens de decisão]** avalia o desempenho d
 
 >[!NOTE]
 >
->A tabela **[!UICONTROL Estratégia de classificação]** fica disponível somente quando um modelo de IA é incorporado à campanha. [Saiba mais](../experience-decisioning/ranking.md)
+>A tabela **[!UICONTROL Estratégia de Classificação]** fica disponível somente quando um [modelo de IA](../experience-decisioning/ranking/ai-models.md) é incorporado à campanha. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decision-ranking-strategy.png)
 
@@ -161,7 +161,7 @@ As métricas principais exibidas incluem:
 
 >[!NOTE]
 >
->A **[!UICONTROL Taxa de conversão para tráfego de Retenção e Orientado a Modelo]** fica disponível somente quando um modelo de IA é incorporado à campanha. [Saiba mais](../experience-decisioning/ranking.md)
+>A **[!UICONTROL Taxa de conversão para tráfego de Retenção e Orientado a Modelo]** fica disponível somente quando um [modelo de IA](../experience-decisioning/ranking/ai-models.md) é incorporado à campanha. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 
@@ -173,4 +173,4 @@ O gráfico **[!UICONTROL Taxa de conversão para tráfego de Retenção e Orient
 
 >[!CAUTION]
 >
->Ao usar um modelo de IA incorporado em uma [fórmula de classificação](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), os dados não são refletidos no relatório de Taxa de conversão.
+>Ao usar um modelo de IA incorporado em uma [fórmula de classificação](../experience-decisioning/ranking/ranking-formulas.md), os dados não são refletidos no relatório de Taxa de conversão.

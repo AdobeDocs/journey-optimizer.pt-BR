@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2490'
 ht-degree: 97%
 
 ---
@@ -548,12 +548,18 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
          + [Configurar o catálogo de itens](using/experience-decisioning/catalogs.md)
          + [Criar itens de decisão](using/experience-decisioning/items.md)
          + [Gerenciar coleções de itens](using/experience-decisioning/collections.md)
-      + Configurar a seleção de itens  {#selection}
-         + [Criar regras de decisão](using/experience-decisioning/rules.md)
-         + [Criar métodos de classificação](using/experience-decisioning/ranking.md)
-         + [Usar o construtor de fórmulas de IA](using/experience-decisioning/exd-ranking-formulas.md)
+      + [Criar regras de decisão](using/experience-decisioning/rules.md)
+      + Criar classificações {#rankings}
+         + [Criar métodos de classificação](using/experience-decisioning/ranking/ranking.md)
+         + [Usar o construtor de fórmulas de IA](using/experience-decisioning/ranking/ranking-formulas.md)
+         + Modelos de IA {#ai-models}
+            + [Sobre modelos de IA](using/experience-decisioning/ranking/ai-models.md)
+            + [Modelo de otimização automática](using/experience-decisioning/ranking/auto-optimization-model.md)
+            + [Modelo de otimização personalizado](using/experience-decisioning/ranking/personalized-optimization-model.md)
+            + [Criar modelos de IA](using/experience-decisioning/ranking/create-ai-models.md)
+      + Usar dados do Adobe Experience Platform {#aep-data}
          + [Aproveitar dados de contexto](using/experience-decisioning/context-data.md)
-         + [Usar o Adobe Experience Platform para a tomada de decisão](using/experience-decisioning/aep-data-exd.md)
+         + [Usar o Adobe Experience Platform para a decisão](using/experience-decisioning/aep-data-exd.md)
       + [Criar estratégias de seleção](using/experience-decisioning/selection-strategies.md)
       + [Criar políticas de decisão](using/experience-decisioning/create-decision.md)
       + [Relatório de decisões](using/experience-decisioning/cja-reporting.md)
@@ -579,7 +585,6 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
          + [Fórmulas de classificação](using/offers/ranking/create-ranking-formulas.md)
          + Modelos de IA {#ai-models}
             + [Sobre modelos de IA](using/offers/ranking/ai-models.md)
-            + Tipos de modelo de IA {#ai-model-types}
             + [Modelo de otimização automática](using/offers/ranking/auto-optimization-model.md)
             + [Modelo de otimização personalizado](using/offers/ranking/personalized-optimization-model.md)
             + [Criar modelos de IA](using/offers/ranking/create-ranking-strategies.md)

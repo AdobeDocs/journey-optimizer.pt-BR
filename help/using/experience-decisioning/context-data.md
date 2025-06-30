@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 # Aproveitar dados de contexto no Decisioning {#context}
 
-Com o Decisioning, você pode aproveitar todas as informações disponíveis no Adobe Experience Platform para executar várias ações, como criar [regras de decisão](rules.md) ou [fórmulas de classificação](ranking.md). Por exemplo, você pode projetar uma regra de decisão que exija que o tempo atual seja ≥ 80 graus no momento em que a solicitação de decisão é feita.
+Com o Decisioning, você pode aproveitar todas as informações disponíveis no Adobe Experience Platform para executar várias ações, como criar [regras de decisão](rules.md) ou [fórmulas de classificação](ranking/ranking.md).
+
+Por exemplo, você pode projetar uma regra de decisão que exija que o tempo atual seja ≥ 80 graus no momento em que a solicitação de decisão é feita.
 
 >[!NOTE]
 >
@@ -27,7 +29,7 @@ Para usar dados de contexto, primeiro é necessário definir os dados que deseja
 
 As etapas para alimentar a Decisão com dados do Adobe Experience Platform são as seguintes:
 
-1. Crie um **esquema de Evento de Experiência** no Adobe Experience Platform e seu **conjunto de dados** associado. [Saiba como criar esquemas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Crie um **esquema de Evento de Experiência** no Adobe Experience Platform e seu **conjunto de dados** associado. [Saiba como criar esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. Criar um novo fluxo de dados do Adobe Experience Platform:
 
@@ -45,6 +47,6 @@ Depois que a sequência de dados é salva, as informações do conjunto de dados
 
 Para obter mais orientações sobre como trabalhar com o Adobe Experience Platform, explore os seguintes recursos:
 
-* [Esquemas do Experience Data Model (XDM)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [Conjuntos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [Datastreams](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/overview){target="_blank"}
+* [Esquemas do Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [Conjuntos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [Datastreams](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}

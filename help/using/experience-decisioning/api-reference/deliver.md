@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 10%
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 O Experience Decisioning está disponível hoje por meio do canal de experiência baseado em código.
 
-A experiência baseada em código é compatível com qualquer tipo de implementação de cliente:
+Experiências baseadas em código oferecem suporte a qualquer tipo de implementação de cliente:
 
 * Se você tiver uma implementação **do lado do cliente**, poderá usar um dos SDKs clientes do AEP: AEP Web SDK ou AEP Mobile SDK.
 * Se você tiver uma implementação **do lado do servidor**, poderá usar uma da API do AEP Edge Network.
