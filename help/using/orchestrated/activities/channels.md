@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 45%
+source-wordcount: '899'
+ht-degree: 21%
 
 ---
 
@@ -47,27 +47,39 @@ Comece a criar sua campanha orquestrada com as atividades relevantes:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="Atividade email"
->abstract="A Atividade email permite enviar emails na campanha em várias etapas, tanto mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de envio de emails para um destino calculado na mesma campanha em várias etapas. É possível combinar atividades canal em uma tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade Email permite enviar emails em sua campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ele serve para automatizar o processo de envio de emails para um público-alvo calculado na mesma campanha orquestrada. É possível combinar atividades canal em uma tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Atividade de SMS"
->abstract="A Atividade SMS permite enviar mensagens SMS na campanha em várias etapas, tanto mensagens únicas como recorrentes. Ela serve para automatizar o processo de envio de SMS a um destino calculado na mesma campanha em várias etapas. É possível combinar atividades canal na tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade de SMS permite enviar SMS em sua campanha orquestrada, para mensagens recorrentes e únicas. Ele serve para automatizar o processo de envio de SMS para um público-alvo calculado na mesma campanha orquestrada. É possível combinar atividades canal na tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_push"
+>title="Atividade de push"
+>abstract="A atividade Push permite enviar notificações por push como parte da campanha orquestrada. Ela permite a entrega de campanhas orquestradas únicas e recorrentes, automatizando o envio de notificações por push para um público-alvo predefinido na mesma campanha orquestrada. Você pode combinar atividades de canal na tela da campanha para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+
+
+<!--
+UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
->title="Atividade push para iOS"
->abstract="A Atividade push para iOS permite enviar notificações por push do iOS como parte da campanha em várias etapas. Ela permite a entrega de campanhas com várias etapas únicas e recorrentes, automatizando o envio de notificações por push para iOS a um destino predefinido no mesmo fluxo de trabalho. É possível combinar atividades do canal na tela do fluxo de trabalho para criar fluxos de trabalho entre canais que podem acionar ações com base no comportamento e nos dados de clientes."
+>title="Push iOS activity"
+>abstract="The Push iOS activity let you send iOS Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
->title="Atividade push para Android"
->abstract="A Atividade push para Android permite enviar notificações por push do Android como parte da campanha em várias etapas. Ela permite a entrega de mensagens únicas e recorrentes, automatizando o envio de notificações por push para Android a um destino predefinido na mesma campanha em várias etapas. É possível combinar atividades canal na tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>title="Push Android activity"
+>abstract="The Push Android activity ket you send Android Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same orchestrated campaign. You can combine channel activities into the orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="Atividade correspondência direta"
->abstract="A Atividade correspondência direta facilita o envio de correspondência direta na campanha em várias etapas para mensagens únicas e recorrentes. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. É possível combinar atividades canal na tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade de correspondência direta facilita o envio de correspondência direta dentro da campanha orquestrada, para mensagens recorrentes e únicas. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. Você pode combinar atividades de canal na tela de campanha orquestrada para criar campanhas entre canais que podem acionar ações com base no comportamento do cliente e nos dados."
 
 Para configurar um delivery no contexto de uma campanha orquestrada, siga as etapas abaixo:
 
@@ -86,7 +98,7 @@ Para configurar um delivery no contexto de uma campanha orquestrada, siga as eta
 
 1. Clique em **[!UICONTROL Criar entrega]**. Você pode então definir as configurações de mensagem e o conteúdo da mesma maneira que cria um delivery independente. Também é possível testar e simular o conteúdo.
 
-1. Volte para o fluxo de trabalho. Para continuar o fluxo de trabalho, alterne a opção **[!UICONTROL Generate an outbound transition]** para adicionar uma transição após a atividade do canal.
+1. Navegue de volta para a campanha orquestrada. Se quiser continuar sua campanha orquestrada, alterne a opção **[!UICONTROL Generate an outbound transition]** para adicionar uma transição após a atividade do canal.
 
 1. Clique em **[!UICONTROL Iniciar]** para iniciar sua campanha orquestrada.
 
