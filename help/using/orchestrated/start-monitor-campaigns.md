@@ -6,10 +6,10 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 02270bddf988e8a722e78d0b63fe157c74b586e4
+source-git-commit: 1c11521ab9f8df9a7147565ddd274f341c56cbdf
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 6%
+source-wordcount: '670'
+ht-degree: 7%
 
 ---
 
@@ -74,13 +74,6 @@ O fluxo visual é reiniciado e os perfis reais começam a fluir pela jornada em 
 Durante a execução (no modo de teste ou em tempo real), o fluxo visual mostra como os perfis se movem pela jornada em tempo real. O número de perfis que estão fazendo a transição entre tarefas é exibido.
 
 ![](assets/workflow-execution.png){zoomable="yes"}
-
-1. Selecione uma transição.
-1. No painel direito:
-&#x200B;- Clique em **[!UICONTROL Visualizar esquema]** para exibir o esquema da tabela de trabalho.
-&#x200B;- Clique em **[!UICONTROL Visualizar resultados]** para ver os dados transportados.
-
-![](assets/transition.png){zoomable="yes"}
 
 Os dados transportados de uma atividade para outra por meio de transições são armazenados em uma tabela de trabalho temporária. Esses dados podem ser exibidos para cada transição. Para inspecionar dados transmitidos entre atividades:
 
