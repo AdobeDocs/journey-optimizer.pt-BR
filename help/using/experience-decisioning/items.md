@@ -65,7 +65,7 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 >title="Adicionar públicos-alvo ou regras de decisão"
 >abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
 
-<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Use audiences"
+<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=pt-BR" text="Use audiences"
 >additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html&quot; text=&quot;Usar regras de decisão&quot;—>
 
 Por padrão, todos os perfis estarão qualificados para receber o item de decisão, mas você pode usar públicos ou regras para restringir o item somente a perfis específicos, ambas as soluções correspondentes a usos diferentes. Expanda a seção abaixo para obter mais informações:
