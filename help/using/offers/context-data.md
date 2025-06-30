@@ -1,20 +1,21 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Introdução aos dados de contexto
+title: Introdução a dados de contexto
 description: Saiba como aproveitar os dados de contexto na gestão de decisões.
+badge: label="Herdados" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 4%
 
 ---
 
-
-# Introdução aos dados de contexto {#context-data}
+# Introdução a dados de contexto {#context-data}
 
 Os dados enviados como parte da solicitação de decisão são considerados dados de contexto. Você pode aproveitar os dados de contexto no mecanismo de decisão, por exemplo, para projetar uma regra de decisão que exija que o tempo atual seja ≥ 80 graus no momento em que a solicitação de decisão é feita.
 
@@ -29,4 +30,3 @@ Informações detalhadas sobre como usar os dados de contexto em cada API estão
 
 * [Usar dados de contexto em solicitações do Edge Decisioning](context-data-edge.md)
 * [Usar dados de contexto em solicitações de decisão](context-data-decisioning.md)
-

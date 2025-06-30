@@ -3,13 +3,14 @@ product: experience platform
 solution: Experience Platform
 title: Dados de contexto e solicitações de decisão de borda
 description: Saiba como transmitir dados de contexto em solicitações do Edge Decisioning.
+badge: label="Herdados" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -50,11 +51,11 @@ Em vez de transmitir o contexto em um formato bastante livre usando a API de dec
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Saiba como trabalhar com esquemas no [guia do Experience Data Model (XDM) do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home){target="_blank"}
+   Saiba como trabalhar com esquemas no [guia do Experience Data Model (XDM) do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Crie um conjunto de dados (aqui, &quot;Contexto da oferta&quot;) e verifique se ele está ativado para o perfil.
 
-1. Crie uma nova sequência de dados a partir do menu **[!UICONTROL Coleção de Dados]** > **[!UICONTROL Sequências de Dados]**. Saiba como criar e configurar a sequência de dados no [guia de sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure){target="_blank"} do Adobe Experience Platform
+1. Crie uma nova sequência de dados a partir do menu **[!UICONTROL Coleção de Dados]** > **[!UICONTROL Sequências de Dados]**. Saiba como criar e configurar a sequência de dados no [guia de sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"} do Adobe Experience Platform
 
    Aqui, criamos uma sequência de dados de &quot;Contexto de oferta&quot;, com o esquema de evento &quot;Conteúdo de oferta&quot; selecionado.
 
@@ -145,7 +146,7 @@ Este é um exemplo de uma solicitação que transmite dados de contexto.
 
   ![](assets/context-edge-copy-scope.png)
 
-  +++
++++
 
 ```
 {

@@ -1,13 +1,14 @@
 ---
 title: Usar públicos-alvo de upload personalizados para a tomada de decisão
 description: Saiba como aproveitar Públicos de upload personalizados para decisões.
+badge: label="Herdados" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '533'
 ht-degree: 2%
 
 ---
@@ -23,14 +24,13 @@ Os dados de públicos-alvo de upload personalizados podem ser aproveitados na Ge
 
 Para obter mais informações sobre públicos-alvo de upload personalizado, consulte as seções:
 * [Introdução a públicos e Journey Optimizer](../audience/about-audiences.md)
-* [Importando uma audiência no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importando uma audiência no Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Leitura obrigatória {#must-read}
 
 * Esta funcionalidade é suportada somente no **Gerenciamento de decisões**, não na Decisão (anteriormente conhecida como &quot;Experience Decisioning&quot;).
 * Ele está disponível exclusivamente por meio de **solicitações de API de Decisão (Hub)** e não é suportado pela **API de Decisão da Edge** ou pela **decisão em lote**.
  
-
 ## Usar um público-alvo de upload personalizado como critério de qualificação {#eligibilty}
 
 Você pode usar um público-alvo de upload personalizado como critério de qualificação no nível de oferta ou de decisão. Depois de adicionados, esses critérios podem excluir ofertas ou coleções de ofertas da qualificação. Estes são os vários locais onde você pode aproveitar os públicos-alvo de upload personalizado para refinar as ofertas e a qualificação para decisões:

@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Modelo de otimização personalizado
 description: Saiba mais sobre modelos de otimização personalizados
+badge: label="Herdados" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 9188b144d1f98f57c585c3828420b9cd48d1d90a
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '807'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ## Visão geral {#overview}
 
-Ao aproveitar as tecnologias de ponta em aprendizagem de máquina e aprendizagem profunda supervisionadas, a otimização personalizada permite que um usuário empresarial (profissional de marketing) defina objetivos de negócios e utilize os dados de clientes para treinar modelos orientados a negócios a fim de fornecer ofertas personalizadas e maximizar KPIs.
+Ao aproveitar as tecnologias de última geração de aprendizado de máquina supervisionado e aprendizado profundo, a otimização personalizada permite que um usuário empresarial (profissional de marketing) defina objetivos de negócios e utiliza os dados de clientes para treinar modelos orientados a negócios a fim de fornecer ofertas personalizadas e maximizar KPIs.
 
 ![](../../rn/assets/do-not-localize/ai-ranking.gif)
 
@@ -39,7 +40,7 @@ Há três tipos de recursos:
 
 | Tipos de recursos | Como adicionar recursos aos modelos |
 |--------------|----------------------------|
-| Objetos de decisão (placementID, activityID, decisionScopeID) | Parte dos eventos de experiência de feedback da gestão de decisões enviados para a AEP |
+| Objetos de decisão (placementID, activityID, decisionScopeID) | Parte dos comentários da gestão de decisões que os eventos de experiência enviaram para a AEP |
 | Públicos-alvo | De 0 a 50 públicos-alvo podem ser adicionados como recursos ao criar o modelo de IA de classificação |
 | Dados de contexto | Parte dos Eventos de experiência de feedback de decisão enviados para a AEP. Dados de contexto disponíveis para adicionar ao esquema: Detalhes do Commerce, Detalhes do canal, Detalhes do aplicativo, Detalhes da Web, Detalhes do ambiente, Detalhes do dispositivo, placeContext |
 

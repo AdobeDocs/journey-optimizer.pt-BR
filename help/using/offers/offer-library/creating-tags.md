@@ -1,12 +1,13 @@
 ---
 title: Criar qualificadores de coleção
 description: Saiba como criar qualificadores de coleção para suas ofertas
+badge: label="Herdados" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 23%
@@ -24,7 +25,7 @@ Associar qualificadores de coleção (anteriormente conhecidos como &quot;tags&q
 
 Os qualificadores de coleção também podem ser usados para agrupar ofertas em coleções de ofertas. Consulte [Criar coleções](../offer-library/creating-collections.md).
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 A lista de qualificadores de coleção criados está acessível no menu **[!UICONTROL Componentes]**.
 
@@ -44,4 +45,4 @@ Para criar um qualificador de coleta, siga estas etapas:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341376?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

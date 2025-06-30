@@ -1,15 +1,16 @@
 ---
 title: Criar regras de decisão
 description: Saiba como criar regras de decisão para definir para quem as ofertas podem ser exibidas
+badge: label="Herdados" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 8%
 
 Por exemplo, você pode especificar que deseja que somente uma &#39;Oferta de roupas de inverno femininas&#39; seja exibida quando (Gênero = &#39;Feminino&#39;) e (Região = &#39;Nordeste&#39;).
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 Esta é uma lista de limitações que devem ser observadas ao trabalhar com regras de decisão:
 
@@ -69,8 +70,8 @@ Para criar uma regra de decisão, siga estas etapas:
 
 >[!CAUTION]
 >
->No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
+>No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
 
 ## Tutorial em vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341377?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

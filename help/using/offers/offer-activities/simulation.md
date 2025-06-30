@@ -1,14 +1,15 @@
 ---
 title: Criar simulações
 description: Saiba como simular quais ofertas serão entregues para um determinado posicionamento para validar sua lógica de decisão
+badge: label="Herdados" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '884'
 ht-degree: 12%
 
 ---
@@ -44,7 +45,7 @@ Para acessar este recurso, selecione a guia **[!UICONTROL Simulação]** no menu
 ➡️ [Discover this feature in video](#video)
 -->
 
-## Seleção de perfis de teste {#select-test-profiles}
+## Selecionar perfis de teste {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"

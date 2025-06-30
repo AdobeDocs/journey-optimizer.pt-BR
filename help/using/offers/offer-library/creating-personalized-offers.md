@@ -1,12 +1,13 @@
 ---
 title: Criar ofertas personalizadas
 description: Saiba como criar, configurar e gerenciar suas ofertas
+badge: label="Herdados" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 18%
@@ -21,7 +22,7 @@ Antes de criar uma oferta, verifique se você criou:
 * Se você quiser adicionar uma condição de qualificação: uma **regra de decisão** que definirá a condição sob a qual a oferta será apresentada. Consulte [Criar regras de decisão](../offer-library/creating-decision-rules.md).
 * Um ou vários **qualificadores de coleção** (anteriormente conhecidos como &quot;tags&quot;) que você pode associar à oferta. Consulte [Criar qualificadores de coleção](../offer-library/creating-tags.md).
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 A lista de ofertas personalizadas está acessível no menu **[!UICONTROL Ofertas]**.
 
@@ -171,4 +172,4 @@ Isso permite que você acesse informações detalhadas dessa oferta. Selecione a
 
 ## Tutorial em vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341360?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

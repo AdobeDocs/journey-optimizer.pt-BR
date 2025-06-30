@@ -1,12 +1,13 @@
 ---
 title: Criar decisões
 description: Saiba como criar decisões
+badge: label="Herdados" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 9%
@@ -25,7 +26,7 @@ A lista de decisões está acessível no menu **[!UICONTROL Ofertas]** > na guia
 
 Antes de criar uma decisão, verifique se os componentes abaixo foram criados na Biblioteca de ofertas:
 
-* [Disposições](../offer-library/creating-placements.md)
+* [Posicionamentos](../offer-library/creating-placements.md)
 * [Coleções](../offer-library/creating-collections.md)
 * [Ofertas personalizadas](../offer-library/creating-personalized-offers.md)
 * [Ofertas substitutas](../offer-library/creating-fallback-offers.md)
@@ -400,6 +401,6 @@ Isso permite que você acesse informações detalhadas para essa decisão. Selec
 
 Saiba como criar atividades de oferta na gestão de decisões.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409147?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

@@ -1,14 +1,15 @@
 ---
 title: Conjunto de dados de ofertas substitutas
 description: Esta seção lista todos os campos usados no conjunto de dados exportado para ofertas de fallback
+badge: label="Herdados" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -94,7 +95,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 
      **Campo: formato**
      **Título:** Formato
-     **Descrição:** A manifestação física ou digital do recurso. Normalmente, o Formato deve incluir o tipo de mídia do recurso. O formato pode ser usado para determinar o software, hardware ou outro equipamento necessário para exibir ou operar o recurso. A prática recomendada é selecionar um valor de um vocabulário controlado (por exemplo, a lista de [Tipos de Mídia da Internet](https://www.iana.org/) definindo formatos de mídia de computador).
+     **Descrição:** A manifestação física ou digital do recurso. Normalmente, o Formato deve incluir o tipo de mídia do recurso. O formato pode ser usado para determinar o software, hardware ou outro equipamento necessário para exibir ou operar o recurso. A prática recomendada é selecionar um valor de um vocabulário controlado (por exemplo, a lista de [Tipos de Mídia da Internet]&#x200B;(https://www.iana.org/) definindo formatos de mídia de computador).
      **Tipo:** cadeia de caracteres
      **Exemplo:** &quot;application/vnd.adobe.photoshop&quot;
 

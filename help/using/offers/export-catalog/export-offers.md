@@ -1,14 +1,15 @@
 ---
 title: Conjunto de dados de ofertas personalizadas
 description: Esta seção lista todos os campos usados no conjunto de dados exportado para ofertas
+badge: label="Herdados" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -122,7 +123,6 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
      **Exemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
-
      **Campo:** idioma
      **Título:** Idioma
      **Descrição:** O idioma ou idiomas do recurso. \nOs idiomas são especificados no código de idioma conforme definido em [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que faz parte do BCP 47, que é usado em outro lugar no XDM.

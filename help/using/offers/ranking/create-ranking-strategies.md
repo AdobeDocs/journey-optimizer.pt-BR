@@ -3,11 +3,12 @@ product: experience platform
 solution: Experience Platform
 title: Criar modelos de IA
 description: Saiba como criar modelos de IA para classificar ofertas
+badge: label="Herdados" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 23%
@@ -56,7 +57,7 @@ Para criar um modelo de IA, siga as etapas abaixo:
    >* **Eventos de impressão** (ofertas exibidas)
    >* **Eventos de conversão** (ofertas que resultam em cliques por email ou pela Web).
    >
-   >Esses eventos são capturados automaticamente usando a Web SDK ou a SDK móvel fornecida. Saiba mais sobre isso em [visão geral do Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR).
+   >Esses eventos são capturados automaticamente usando a Web SDK ou a SDK móvel fornecida. Saiba mais sobre isso em [visão geral do Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html).
 
 1. Selecione os conjuntos de dados nos quais os eventos de conversão e impressão são coletados. Saiba como criar esse conjunto de dados em [esta seção](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -68,7 +69,7 @@ Para criar um modelo de IA, siga as etapas abaixo:
 
 1. Se você estiver criando um modelo de IA **[!UICONTROL Otimização personalizada]**, selecione os segmentos a serem usados para treinar o modelo de IA.
 
-   ➡️ [Descubra este recurso no vídeo](#video)
+   ➡️ [Conheça este recurso no vídeo](#video)
 
    ![](../assets/ai-ranking-segments.png)
 
@@ -86,7 +87,7 @@ Para criar um modelo de IA, siga as etapas abaixo:
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-Agora, sempre que uma oferta for exibida e/ou clicada, você desejará que o evento correspondente seja capturado automaticamente pelo grupo de campos **[!UICONTROL Evento de experiência - Interações de apresentação]** usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=pt-BR#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou o Mobile SDK.
+Agora, sempre que uma oferta for exibida e/ou clicada, você desejará que o evento correspondente seja capturado automaticamente pelo grupo de campos **[!UICONTROL Evento de experiência - Interações de apresentação]** usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou o Mobile SDK.
 
 Para enviar tipos de evento (oferta exibida ou oferta clicada), você deve definir o valor correto para cada tipo de evento em um evento de experiência enviado para o Adobe Experience Platform. [Saiba como](../data-collection/schema-requirement.md)
 
@@ -94,4 +95,4 @@ Para enviar tipos de evento (oferta exibida ou oferta clicada), você deve defin
 
 Saiba como criar um modelo de otimização personalizado e como aplicá-lo a uma decisão.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445956?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

@@ -1,12 +1,13 @@
 ---
 title: Criar ofertas substitutas
 description: Saiba como criar ofertas substitutas para exibir clientes que não estão qualificados para nenhuma oferta
+badge: label="Herdados" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 4%
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 A oferta substituta é enviada aos clientes se eles não estiverem qualificados para outras ofertas. As etapas para criar uma oferta substituta consistem na criação de uma ou várias representações, como ao criar uma oferta.
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 A lista de ofertas substitutas está acessível no menu **[!UICONTROL Ofertas]**.
 
@@ -57,5 +58,5 @@ Para criar uma oferta substituta, siga estas etapas:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341361?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
