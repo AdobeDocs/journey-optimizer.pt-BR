@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 7c806d138b97d57afa583e98a1356bd3811f2eb8
+source-git-commit: 66e5d12e6d262014db5c7eb7603f678296591301
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 14%
+source-wordcount: '1753'
+ht-degree: 15%
 
 ---
 
@@ -64,9 +64,8 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 >id="ajo_exd_item_constraints"
 >title="Adicionar públicos-alvo ou regras de decisão"
 >abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
-
-<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=pt-BR" text="Use audiences"
->additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html&quot; text=&quot;Usar regras de decisão&quot;—>
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Usar públicos-alvo"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Usar regras de decisão"
 
 Por padrão, todos os perfis estarão qualificados para receber o item de decisão, mas você pode usar públicos ou regras para restringir o item somente a perfis específicos, ambas as soluções correspondentes a usos diferentes. Expanda a seção abaixo para obter mais informações:
 
