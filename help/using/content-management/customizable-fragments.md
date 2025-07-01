@@ -223,4 +223,4 @@ Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem editar 
 
 Este vídeo mostra como tornar os componentes do HTML em um fragmento editáveis, permitindo atualizações dinâmicas para conteúdo e estilo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464373/?learn=on&#x26;enablevpops&captions=por_br)
