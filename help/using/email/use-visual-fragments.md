@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '715'
 ht-degree: 2%
 
 ---
 
-# Adicionar fragmentos visuais aos emails {#use-visual-fragments}
+# Adicionar fragmentos visuais a emails {#use-visual-fragments}
 
 Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails em campanhas, jornadas ou modelos de conteúdo do Journey Optimizer. Essa funcionalidade permite pré-criar vários blocos de conteúdo personalizados que podem ser usados por usuários de marketing para reunir rapidamente o conteúdo de email em um processo de design aprimorado. [Saiba como criar e gerenciar fragmentos](../content-management/fragments.md).
 
@@ -85,11 +85,13 @@ Se determinadas partes do fragmento selecionado tiverem se tornado editáveis, v
 
 Para personalizar campos editáveis em um fragmento, siga estas etapas:
 
-1. Adicione o fragmento ao conteúdo e selecione-o para abrir o painel de propriedades no lado direito.
+1. Adicione o fragmento ao conteúdo.
 
-1. Todos os campos editáveis no fragmento são exibidos na guia **Configurações**, na seção **Fragmento**.
+1. Selecione para abrir o painel de propriedades no lado direito.
 
-   Campos editáveis são realçados em verde no painel de visualização quando selecionados no painel direito, facilitando a identificação do local no conteúdo.
+   Todos os campos editáveis no fragmento são exibidos na guia **Configurações**, na seção **Fragmento**.
+
+1. Quando você seleciona um campo editável no painel direito, ele é realçado em verde no painel de visualização central, facilitando a identificação do local no conteúdo.
 
    No exemplo abaixo, a imagem **origem** e o **texto alternativo** podem ser editados, bem como o botão &quot;Clique aqui&quot; **URL**.
 

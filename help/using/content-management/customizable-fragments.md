@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 0%
+source-wordcount: '1478'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Os fragmentos visuais e de expressão podem ser marcados como personalizáveis. 
 
 ![](../content-management/assets/do-not-localize/gif-fragments.gif)
 
-## Adicionar campos editáveis em fragmentos visuais {#visual}
+## Adicionar campos editáveis a fragmentos visuais {#visual}
 
 Para tornar partes de um fragmento visual editáveis, siga estas etapas:
 
@@ -57,7 +57,7 @@ Para tornar partes de um fragmento visual editáveis, siga estas etapas:
 
 1. Depois de adicionar o fragmento em um email, os usuários poderão personalizar todos os campos editáveis configurados no fragmento. [Saiba como personalizar campos editáveis em um fragmento visual](../email/use-visual-fragments.md#customize-fields)
 
-## Adicionar campos editáveis em componentes do HTML e fragmentos de expressão {#expression}
+## Adicionar campos editáveis a componentes do HTML e fragmentos de expressão {#expression}
 
 Para tornar editáveis partes de um componente do HTML ou de um fragmento de expressão, é necessário usar uma sintaxe específica no editor de expressão. Isso envolve declarar uma **variável** com um valor padrão que os usuários podem substituir após adicionar o fragmento ao seu conteúdo.
 
@@ -81,9 +81,11 @@ Por exemplo, no código abaixo, cada elemento destacado em vermelho pode se torn
 
 Para declarar uma variável e usá-la no fragmento, siga estas etapas:
 
-1. Abra o fragmento de expressão e edite o conteúdo no editor de personalização. Para componentes do HTML, selecione o componente no fragmento e clique no botão **Mostrar o código-fonte**.
+1. Abra o fragmento de expressão e edite o conteúdo no editor de personalização.
 
    ![](assets/fragment-html-edit.png)
+
+   Para componentes do HTML, selecione o componente no fragmento e clique no botão **Mostrar o código-fonte**.
 
 1. Declarar a variável que você deseja que os usuários editem. Navegue até o menu **Funções auxiliares** no painel de navegação esquerdo e adicione a função auxiliar **embutida**. A sintaxe a ser declarada e chamada para a variável é adicionada automaticamente no conteúdo.
 
@@ -135,3 +137,84 @@ Para fazer isso:
 1. Ao adicionar o fragmento de expressão ao seu conteúdo, os usuários podem alterar o valor da variável com sua escolha diretamente no editor de expressão. [Saiba como personalizar campos editáveis em um fragmento de expressão](../personalization/use-expression-fragments.md#customize-fields)
 
    ![](assets/fragment-expression-use.png)
+
+## Adicionar rich text a um fragmento personalizável {#rich-text}
+
+Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados a um fragmento editável usando componentes do HTML. Para isso, siga as etapas abaixo.
+
+➡️ [Saiba como adicionar e usar rich text a um componente do HTML em um fragmento editável neste vídeo](#video)
+
+### Criar um fragmento incluindo rich text {#add-rich-text}
+
+1. Crie um fragmento visual e comece a adicionar componentes.
+
+1. Adicione um [componente do HTML](../email/content-components.md#HTML) e abra o editor do HTML.
+
+1. Navegue até o menu **[!UICONTROL Funções auxiliares]** no painel de navegação esquerdo e adicione a função auxiliar **embutida**.
+
+1. Substitua `"name"` pela ID que deseja usar para o conteúdo editável, por exemplo &quot;EditableContent&quot;.
+
+1. Substitua `render_content` pelo código HTML correspondente ao conteúdo padrão que você deseja.
+
+   ![](assets/fragment-rich-editable-content.png)
+<!--
+    +++For example:
+
+    ```html
+
+    <h1>Main title</h1>
+
+    <h2>Subtitle One</h2>
+    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
+
+    <p class="bold">This text is bold.</p>
+    <p class="italic">This text is italic.</p>
+    <p class="bold-italic">This text is bold and italic.</p>
+
+    <ul>
+        <li>First bullet point</li>
+        <li>Second bullet point with more text</li>
+        <li>Third bullet point</li>
+    </ul>
+
+    <hr>
+
+    <h2>Subtitle Two</h2>
+    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
+
+    ```
+
+    +++
+-->
+
+1. No mesmo componente do HTML, adicione outra função auxiliar **inline** para seus elementos de estilo.
+
+1. Substitua `"name"` e `render_content` pela ID e pelo código HTML correspondentes ao estilo padrão desejado.
+
+   ![](assets/fragment-rich-editable-styling.png)
+
+1. Salve o conteúdo. Os campos editáveis selecionados são exibidos à direita.
+
+   ![](assets/fragment-rich-editable-fields.png)
+
+1. Publique o fragmento.
+
+### Usar fragmentos editáveis de rich text {#use-rich-text}
+
+Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem editar o conteúdo rich text e o estilo criados por você. Para usar fragmentos editáveis de rich text de um profissional de marketing, siga as etapas abaixo.
+
+1. Crie um email em uma campanha ou jornada e adicione o fragmento criado.
+
+   Você pode ver os dois campos editáveis criados no painel do lado direito.
+
+   ![](assets/fragment-use-rich-editable-fields.png)
+
+1. Você pode clicar em **[!UICONTROL Simular conteúdo]** para ver como o conteúdo editável e o estilo são renderizados.
+
+1. Selecione o ícone **[!UICONTROL Adicionar personalização]** ao lado de um dos campos editáveis e edite o estilo e/ou conteúdo CSS conforme desejado.
+
+## Vídeo tutorial {#video}
+
+Este vídeo mostra como tornar os componentes do HTML em um fragmento editáveis, permitindo atualizações dinâmicas para conteúdo e estilo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
