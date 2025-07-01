@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
+source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 1%
@@ -159,35 +159,6 @@ Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados 
 1. Substitua `render_content` pelo código HTML correspondente ao conteúdo avançado padrão que você deseja. É possível adicionar negrito, itálico, quebras de linha, listas com marcadores etc.
 
    ![](assets/fragment-rich-editable-content.png)
-<!--
-    +++For example:
-
-    ```html
-
-    <h1>Main title</h1>
-
-    <h2>Subtitle One</h2>
-    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
-
-    <p class="bold">This text is bold.</p>
-    <p class="italic">This text is italic.</p>
-    <p class="bold-italic">This text is bold and italic.</p>
-
-    <ul>
-        <li>First bullet point</li>
-        <li>Second bullet point with more text</li>
-        <li>Third bullet point</li>
-    </ul>
-
-    <hr>
-
-    <h2>Subtitle Two</h2>
-    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
-
-    ```
-
-    +++
--->
 
 1. No mesmo componente do HTML, adicione outra função auxiliar **inline** para seus elementos de estilo.
 
@@ -223,4 +194,4 @@ Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem editar 
 
 Este vídeo mostra como tornar os componentes do HTML em um fragmento editáveis, permitindo atualizações dinâmicas para conteúdo e estilo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464373/?learn=on&#x26;enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
