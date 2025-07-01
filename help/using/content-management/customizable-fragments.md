@@ -8,16 +8,18 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1510'
 ht-degree: 1%
 
 ---
 
 # Fragmentos personalizáveis {#customizable-fragments}
 
-Quando os fragmentos são usados em uma campanha ou ação de jornada, eles são bloqueados por padrão devido à herança. Isso significa que quaisquer alterações feitas em um fragmento são propagadas automaticamente para todas as campanhas e jornadas em que o fragmento é usado. Com fragmentos personalizáveis, campos específicos em um fragmento podem ser definidos como editáveis quando o fragmento é adicionado a uma campanha ou ação de jornada. Por exemplo, suponha que você tenha um fragmento com um banner, texto e botão. Você pode designar determinados campos, como imagem ou URL de destino do botão, como editáveis. Isso permite que os usuários modifiquem esses elementos quando incorporam o fragmento em sua campanha ou jornada, fornecendo uma experiência personalizada sem afetar o fragmento original.
+Quando os fragmentos são usados em uma campanha ou ação de jornada, eles são bloqueados por padrão devido à herança. Isso significa que quaisquer alterações feitas em um fragmento são propagadas automaticamente para todas as campanhas e jornadas em que o fragmento é usado.
+
+Com **fragmentos personalizáveis**, campos específicos dentro de um fragmento podem ser definidos como editáveis quando o fragmento é adicionado a uma campanha ou ação de jornada. Por exemplo, suponha que você tenha um fragmento com um banner, texto e botão. Você pode designar determinados campos, como imagem ou URL de destino do botão, como editáveis. Isso permite que os usuários modifiquem esses elementos quando incorporam o fragmento em sua campanha ou jornada, fornecendo uma experiência personalizada sem afetar o fragmento original.
 
 Fragmentos personalizáveis eliminam a necessidade de interromper a herança do fragmento, que anteriormente impedia que as alterações centralizadas no nível do fragmento fossem propagadas para as campanhas e jornadas. Essa abordagem permite que partes do conteúdo sejam ajustadas no momento do uso, oferecendo a flexibilidade de substituir valores padrão por detalhes específicos do contexto.
 
@@ -110,7 +112,7 @@ Para declarar uma variável e usá-la no fragmento, siga estas etapas:
 
    ![](assets/fragment-call-variable.png)
 
-1. Salve o fragmento.
+1. Salve e publique o fragmento.
 
 Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem substituir os valores padrão das variáveis pelos valores escolhidos:
 
@@ -118,7 +120,7 @@ Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem substit
 
 * Para componentes do HTML, a variável é exibida na lista de campos editáveis no Designer de email. [Saiba como personalizar campos editáveis em um fragmento visual](../email/use-visual-fragments.md#customize-fields)
 
-## Exemplo de fragmento de expressão editável {#example}
+### Exemplo de fragmento de expressão editável {#example}
 
 No exemplo abaixo, estamos criando um fragmento de expressão que apresenta novas coleções de esportes. Por padrão, o fragmento exibe este conteúdo: *Procurando mais? Não perca nossa última coleção de esportes!*
 
@@ -142,11 +144,11 @@ Para fazer isso:
 
 Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados a um fragmento editável usando componentes do HTML. Para isso, siga as etapas abaixo.
 
-➡️ [Saiba como adicionar e usar rich text a um componente do HTML em um fragmento editável neste vídeo](#video)
+➡️ [Saiba como adicionar e usar rich text a um fragmento editável neste vídeo](#video)
 
 ### Criar um fragmento incluindo rich text {#add-rich-text}
 
-1. Crie um fragmento visual e comece a adicionar componentes.
+1. Crie um [fragmento](create-fragments.md) visual e comece a adicionar componentes.
 
 1. Adicione um [componente do HTML](../email/content-components.md#HTML) e abra o editor do HTML.
 
@@ -154,7 +156,7 @@ Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados 
 
 1. Substitua `"name"` pela ID que deseja usar para o conteúdo editável, por exemplo &quot;EditableContent&quot;.
 
-1. Substitua `render_content` pelo código HTML correspondente ao conteúdo padrão que você deseja.
+1. Substitua `render_content` pelo código HTML correspondente ao conteúdo avançado padrão que você deseja. É possível adicionar negrito, itálico, quebras de linha, listas com marcadores etc.
 
    ![](assets/fragment-rich-editable-content.png)
 <!--
@@ -193,28 +195,32 @@ Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados 
 
    ![](assets/fragment-rich-editable-styling.png)
 
-1. Salve o conteúdo. Os campos editáveis selecionados são exibidos à direita.
+1. Salve o conteúdo. Os campos editáveis selecionados são exibidos no lado direito.
 
    ![](assets/fragment-rich-editable-fields.png)
 
-1. Publique o fragmento.
+1. Salve e [publique](create-fragments.md#publish) o fragmento.
 
 ### Usar fragmentos editáveis de rich text {#use-rich-text}
 
-Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem editar o conteúdo rich text e o estilo criados por você. Para usar fragmentos editáveis de rich text de um profissional de marketing, siga as etapas abaixo.
+Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem editar o conteúdo rich text e o estilo criados por você. Para usar fragmentos editáveis de rich text como profissional de marketing, siga as etapas abaixo.
 
-1. Crie um email em uma campanha ou jornada e adicione o fragmento criado.
+1. [Crie um email](../email/create-email.md) em uma campanha ou jornada e adicione o fragmento com rich text que foi [criado](#add-rich-text).
 
-   Você pode ver os dois campos editáveis criados no painel do lado direito.
+   Você pode ver os dois campos editáveis criados no lado direito.
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Você pode clicar em **[!UICONTROL Simular conteúdo]** para ver como o conteúdo editável e o estilo são renderizados.
+1. Você pode clicar em **[!UICONTROL Simular conteúdo]** para ver como o conteúdo editável e o estilo são renderizados. [Saiba mais sobre a visualização de conteúdo](preview-test.md)
 
-1. Selecione o ícone **[!UICONTROL Adicionar personalização]** ao lado de um dos campos editáveis e edite o estilo e/ou conteúdo CSS conforme desejado.
+1. Selecione o ícone **[!UICONTROL Adicionar personalização]** ao lado de um dos campos editáveis.
+
+1. No editor de personalização que é aberto, atualize o <!--CSS-->estilo e/ou conteúdo conforme desejado adicionando ou removendo elementos do campo editável.
+
+   ![](assets/fragment-rich-editable-fields-update-styling.png)
 
 ## Vídeo tutorial {#video}
 
 Este vídeo mostra como tornar os componentes do HTML em um fragmento editáveis, permitindo atualizações dinâmicas para conteúdo e estilo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464373/?learn=on&#x26;enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
