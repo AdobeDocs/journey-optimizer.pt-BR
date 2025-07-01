@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: cb335fd5610d70d801ae1c32dfe4d3ca9d1160ab
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 78%
+source-wordcount: '1103'
+ht-degree: 69%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 78%
 
 <br/>
 
-A atividade **[!UICONTROL Combinar]** é uma atividade **[!UICONTROL de Direcionamento]**. Essa atividade permite executar a segmentação na população de entrada. Dessa forma, é possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários públicos-alvo. Estes são os tipos de segmentação disponíveis:
+A atividade **[!UICONTROL Combinar]** é um tipo de atividade de **[!UICONTROL Direcionamento]** que permite segmentar efetivamente a população de entrada. Ele permite mesclar várias populações, excluir segmentos específicos ou reter apenas os dados compartilhados em vários targets.
 
-<!--
-The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
--->
+As seguintes opções de segmentação estão disponíveis:
 
-* A **[!UICONTROL União]** permite reagrupar o resultado de várias atividades em um só público-alvo.
-* A **[!UICONTROL Interseção]** permite manter somente os elementos comuns às diferentes populações de entrada na atividade.
-* A **[!UICONTROL Exclusão]** permite excluir elementos de uma população de acordo com determinados critérios.
+* **[!UICONTROL União]**: mescla os resultados de várias atividades em um único destino unificado.
+
+* **[!UICONTROL Interseção]**: retém apenas os elementos comuns em todas as populações de entrada.
+
+* **[!UICONTROL Exclusão]**: remove elementos de uma população com base em critérios especificados.
 
 ## Configurar a atividade Combinar {#combine-configuration}
 
@@ -62,7 +62,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 Siga estas etapas comuns para começar a configurar a atividade **[!UICONTROL Combinar]**:
 
-![](../assets/workflow-combine.png)
+![](../assets/orchestrated-combine.png)
 
 1. Adicione várias atividades, por exemplo, **[!UICONTROL Criar público-alvo]**, para formar pelo menos duas ramificações de execução diferentes.
 1. Adicione uma atividade **[!UICONTROL Combinar]** a qualquer uma das ramificações anteriores.
@@ -82,6 +82,10 @@ Na atividade **[!UICONTROL Combinar]**, você pode configurar uma **[!UICONTROL 
 * **[!UICONTROL Somente chaves]**: este é o modo padrão. A atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
 * **[!UICONTROL Uma seleção de colunas]**: selecione esta opção para definir a lista de colunas em que a reconciliação de dados é aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a união.
 
+No exemplo a seguir, estamos usando uma atividade **[!UICONTROL Combinar]** e adicionamos uma **[!UICONTROL União]** para recuperar todos os perfis das duas consultas: Membros de Fidelidade e Compradores para formar um público maior.
+
+![](../assets/orchestrated-union-example.png)
+
 ## Interseção {#combine-intersection}
 
 >[!CONTEXTUALHELP]
@@ -93,6 +97,11 @@ Na atividade **[!UICONTROL Combinar]**, você pode configurar uma **[!UICONTROL 
 
 1. Selecione o **[!UICONTROL Tipo de reconciliação]** para definir como as duplicatas são tratadas. Consulte a seção [União](#union).
 1. Marque a opção **[!UICONTROL Gerar complemento]** se desejar processar a população restante. O complemento conterá a união dos resultados de todas as atividades de entrada menos a intersecção. Será adicionada uma transição de saída adicional à atividade.
+
+O exemplo a seguir mostra a **[!UICONTROL Interseção]** entre duas atividades de consulta. Ela está sendo usada aqui para recuperar perfis com assinatura do programa de fidelidade e cuja última compra foi há menos de um mês.
+
+![](../assets/orchestrated-intersection-example.png)
+
 
 ## Exclusão {#combine-exclusion}
 
@@ -122,16 +131,9 @@ Na atividade **[!UICONTROL Combinar]**, é possível configurar uma **[!UICONTRO
 1. Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido ao mesmo targeting dimension como o público-alvo principal. Para fazer isso, clique em **[!UICONTROL Adicionar uma regra]** na seção **[!UICONTROL Regras de exclusão]** e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou de uma união.
 1. Marque a opção **[!UICONTROL Gerar complemento]** se desejar processar a população restante. Consulte a seção [Interseção](#intersection).
 
-## Exemplos{#combine-examples}
+O exemplo **[!UICONTROL Exclusão]** a seguir mostra duas consultas configuradas para filtrar perfis que compraram um produto. Os perfis que não têm uma associação de fidelidade são excluídos do primeiro conjunto.
 
-No exemplo a seguir, estamos usando uma atividade **[!UICONTROL Combine]** e adicionamos uma **[!UICONTROL Union]** para recuperar todos os perfis das duas consultas: pessoas entre 18 e 27 anos e pessoas entre 34 e 40 anos.
+Por que: você está executando uma campanha de fidelidade, portanto os não membros são irrelevantes.
 
-![](../assets/workflow-union-example.png)
+![](../assets/orchestrated-exclusion-example.png)
 
-O exemplo a seguir mostra a **[!UICONTROL Interseção]** entre duas atividades de consulta. Ela está sendo usada aqui para recuperar perfis com idade entre 18 e 27 anos cujo endereço de email foi fornecido.
-
-![](../assets/workflow-intersection-example.png)
-
-O exemplo **[!UICONTROL Exclusão]** a seguir mostra duas consultas configuradas para filtrar perfis com idade entre 18 e 27 anos e que têm um domínio de email Adobe. Os perfis com um domínio de email inválido são excluídos do primeiro conjunto.
-
-![](../assets/workflow-exclusion-example.png)
