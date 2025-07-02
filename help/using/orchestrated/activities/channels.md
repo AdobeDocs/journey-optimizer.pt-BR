@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 7842bd150b6c15f21a30b778d42520cc42237d82
+source-git-commit: 28284b3d42a0e78add3470ef128dd740f9cc9dfd
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 16%
+source-wordcount: '950'
+ht-degree: 15%
 
 ---
 
@@ -55,7 +55,7 @@ UNUSED IDs in BJ
 
 | Bem-vindo às campanhas orquestradas | Lançar a primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
 |---|---|---|---|
-| [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>[Etapas de configuração](../configuration-steps.md)<br/><br/>[Etapas principais para a criação de campanhas orquestradas](../gs-campaign-creation.md) | [Criar uma campanha orquestrada](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Relatórios](../reporting-campaigns.md) | [Trabalhar com o Query Modeler](../orchestrated-rule-builder.md)<br/><br/>[Criar sua primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[And-join](and-join.md) - [Criar público](build-audience.md) - [Alterar dimensão](change-dimension.md) - **[Atividades de canal](channels.md)** - [Combinar](combine.md) - [Eliminação de Duplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Divisão](split.md) - [Aguardar](wait.md) |
+| [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>[Etapas de configuração](../configuration-steps.md)<br/><br/>[Etapas principais para a criação de campanhas orquestradas](../gs-campaign-creation.md) | [Criar uma campanha orquestrada](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Relatórios](../reporting-campaigns.md) | [Trabalhar com o Query Modeler](../orchestrated-rule-builder.md)<br/><br/>[Criar sua primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[And-join](and-join.md) - [Criar público](build-audience.md) - [Alterar dimensão](change-dimension.md) - **[Atividades de canal](channels.md)** - [Combinar](combine.md) - [Eliminação de Duplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Divisão](split.md) - [Aguardar](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -63,17 +63,18 @@ UNUSED IDs in BJ
 
 <br/>
 
-O [!DNL Adobe Journey Optimizer] permite automatizar e executar campanhas de marketing em canais. Você pode combinar atividades de canal na tela de campanha orquestrada para criar campanhas orquestradas entre canais que podem acionar ações com base no comportamento do cliente e nos dados.
+O [!DNL Adobe Journey Optimizer] permite automatizar e executar campanhas de marketing em canais - email, SMS e notificações por push. Você pode combinar essas atividades de canal na tela da campanha para criar campanhas orquestradas entre canais que podem acionar ações com base no comportamento do cliente e nos dados.
 
-Por exemplo, você pode criar uma campanha de email de boas-vindas que inclui uma série de mensagens em diferentes canais, como email, SMS e push. Também é possível enviar um email de acompanhamento depois que alguém concluir uma compra ou enviar uma mensagem de aniversário personalizada para um cliente por SMS.
+Por exemplo:
+* Envie uma série de boas-vindas por email, SMS e push.
+* Enviar um email de acompanhamento após a compra.
+* Envie saudações personalizadas de aniversário por SMS.
 
-Usando atividades de canal, você pode criar campanhas abrangentes e personalizadas que envolvem clientes em vários pontos de contato e geram conversões. Os canais compatíveis são Email, SMS e Push.
+Usando atividades do canal, você pode criar campanhas abrangentes e personalizadas que envolvem clientes em vários pontos de contato e impulsionam conversões.
 
 >[!PREREQUISITES]
 >
->Antes de adicionar uma atividade de canal, é necessário definir o público-alvo. O público-alvo é o principal alvo do delivery: os perfis que recebem as mensagens. [Saiba como usar a atividade Criar público-alvo](build-audience.md)
-
-Para configurar um delivery no contexto de uma campanha orquestrada, siga as etapas abaixo.
+>Antes de adicionar uma atividade de canal, defina o público-alvo usando uma [Criar atividade de público-alvo](build-audience.md).
 
 ## Adicionar uma atividade de canal e definir suas propriedades {#add}
 
@@ -81,53 +82,57 @@ Para configurar um delivery no contexto de uma campanha orquestrada, siga as eta
 
    ![imagem mostrando a tela com atividades disponíveis](../assets/channel-add.png)
 
-1. Selecione a atividade adicionada e clique no botão **[!UICONTROL Editar email]**, **[!UICONTROL Editar SMS]** ou **[!UICONTROL Editar push]**, dependendo do canal escolhido.
+1. Selecione a atividade e clique em **[!UICONTROL Editar email]**, **[!UICONTROL Editar SMS]** ou **[!UICONTROL Editar push]**, dependendo do canal escolhido.
 
    ![imagem mostrando a tela com uma atividade Email](../assets/channel-edit.png)
 
-1. Na guia **[!UICONTROL Propriedades]**, insira uma descrição para a campanha e acesse a guia **[!UICONTROL Ações]** para configurar a atividade.
+1. Na guia **[!UICONTROL Propriedades]**, insira uma descrição e alterne para a guia **[!UICONTROL Ações]** para configurar a atividade.
 
 ## Definir as configurações do canal {#configuration}
 
 Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal para sua mensagem e definir configurações adicionais, como rastreamento, experimento de conteúdo ou conteúdo multilíngue.
 
-1. Escolha a configuração de canal a ser usada para a mensagem.
+1. Selecione uma configuração de canal.
 
    Uma configuração foi definida por um [Administrador do Sistema](../../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba como definir configurações de canal](../../configuration/channel-surfaces.md).
 
    ![imagem mostrando a seção Ações](../assets/channel-actions.png)
 
-1. Para email e SMS, use as opções na seção **[!UICONTROL Rastreamento de ação]** para acompanhar como seus destinatários reagem aos seus emails ou deliveries de SMS. Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../../reports/campaign-global-report-cja.md)
+1. Rastrear o engajamento (para email e SMS).
 
-1. Para notificações por push, use a opção **[!UICONTROL Modo de entrega rápida]** para enviar mensagens em alta velocidade em um canal de push para um público-alvo de tamanho inferior a 30 milhões.
+   Use a seção **[!UICONTROL Rastreamento de ação]** para acompanhar como seus destinatários reagem às suas entregas de email ou SMS. Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../../reports/campaign-global-report-cja.md)
+
+1. Ativar o modo Delivery rápido (para Push).
 
    O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas. A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios, quando você deseja enviar um alerta de push urgente em telefones celulares, por exemplo, notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias. Para obter mais informações sobre desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html).
 
-1. Use a seção **[!UICONTROL Experimento de conteúdo]** para definir vários tratamentos de entrega para medir qual deles tem melhor desempenho para o público-alvo. Clique no botão **[!UICONTROL Criar experimento]** e siga as etapas detalhadas nesta seção: [Criar um experimento de conteúdo](../../content-management/content-experiment.md).
+1. Crie um experimento de conteúdo.
+
+   Use a seção **[!UICONTROL Experimento de conteúdo]** para definir vários tratamentos de entrega para medir qual deles tem melhor desempenho para o público-alvo. Clique no botão **[!UICONTROL Criar experimento]** e siga as etapas detalhadas nesta seção: [Criar um experimento de conteúdo](../../content-management/content-experiment.md).
+
+1. Adicionar conteúdo multilíngue.
+
+   Use a seção **[!UICONTROL Idiomas]** para criar conteúdo em vários idiomas dentro da sua campanha. Para fazer isso, clique no botão **[!UICONTROL Adicionar idiomas]** e selecione as **[!UICONTROL configurações de idioma]** desejadas. Informações detalhadas sobre como configurar e usar recursos multilíngues estão disponíveis nesta seção: [Introdução a conteúdo multilíngue](../../content-management/multilingual-gs.md)
 
    ![imagem mostrando a seção de experimento de conteúdo](../assets/channel-experiment.png)
-
-1. Use a seção **[!UICONTROL Idiomas]** para criar conteúdo em vários idiomas dentro da sua campanha. Para fazer isso, clique no botão **[!UICONTROL Adicionar idiomas]** e selecione as **[!UICONTROL configurações de idioma]** desejadas. Informações detalhadas sobre como configurar e usar recursos multilíngues estão disponíveis nesta seção: [Introdução a conteúdo multilíngue](../../content-management/multilingual-gs.md)
 
 Quando a atividade do canal for configurada, selecione a guia **[!UICONTROL Conteúdo]** para definir seu conteúdo.
 
 ## Definição do conteúdo {#content}
 
-Use a guia **[!UICONTROL Conteúdo]** para definir o conteúdo da mensagem. O processo de criação de conteúdo depende do canal selecionado. Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas páginas a seguir.
+Alterne para a guia **[!UICONTROL Conteúdo]** para criar sua mensagem. O processo de etapas varia de acordo com o canal selecionado. Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas páginas a seguir.
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
-<td><a href="../../email/create-email.md"><img alt="email" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Email</strong></a></td>
-<td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>SMS</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Notificações por push</strong></a></td>
+<td><a href="../../email/create-email.md"><img alt="email" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Criar um email</strong></a></td>
+<td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>Criar um SMS</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Criar uma notificação por push</strong></a></td>
 </tr></table>
 
-Quando o conteúdo tiver sido definido, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o conteúdo com perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba mais](../../content-management/preview-test.md)
+Depois que o conteúdo for criado, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar seu conteúdo com perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba mais](../../content-management/preview-test.md)
 
 ## Próximas etapas {#next}
 
-Quando o conteúdo da mensagem estiver pronto, navegue de volta para a campanha orquestrada usando a seta **[!UICONTROL Voltar]**.
-
-Agora é possível concluir a orquestração de atividades na tela e publicar a campanha para iniciar o envio das mensagens. [Saiba como iniciar e monitorar campanhas orquestradas](../start-monitor-campaigns.md)
+Quando o conteúdo da mensagem estiver pronto, navegue de volta para a campanha orquestrada usando a seta **[!UICONTROL Voltar]**. Em seguida, você pode concluir a orquestração de atividades na tela e publicar a campanha para iniciar o envio das mensagens. [Saiba como iniciar e monitorar campanhas orquestradas](../start-monitor-campaigns.md)
 
 ![imagem mostrando o botão Voltar](../assets/channel-back.png)
 
