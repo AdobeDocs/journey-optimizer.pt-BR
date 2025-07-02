@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: d8b83bc46526f721d4dfaf62cf8ba4cbf5a56ce7
+source-git-commit: e01715416659270ddf75eb9fdb8f0eb03063bd7b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 14%
+source-wordcount: '256'
+ht-degree: 10%
 
 ---
 
@@ -28,8 +28,25 @@ ht-degree: 14%
 
 <br/>
 
->[!BEGINSHADEBOX]
+A campanha orquestrada oferece insights acionáveis por meio de seus eficientes recursos de relatório. Esses insights ajudam você a entender melhor o comportamento do público-alvo, medir o desempenho de cada etapa na jornada do cliente e tomar decisões orientadas por dados para otimizar campanhas futuras. Com métricas e visualizações detalhadas, é possível rastrear o engajamento e ajustar as estratégias de direcionamento para obter o máximo impacto.
 
-Documentação em andamento
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><img alt="email" src="../channels/assets/do-not-localize/email.png">
+<div align="center"><p><a href="../reports/campaign-global-report-cja-email.md"><strong>Canal de email</strong></a></p></div></td>
+<td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><p><a href="../reports/campaign-global-report-cja-sms.md"><strong>Canal de SMS</strong></a></p></div></td>
+<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><p><a href="../reports/campaign-global-report-cja-push.md"><strong>Canal de push</strong></p></a></div></td>
+</table>
 
->[!ENDSHADEBOX]
+
+## Tipos de relatórios {#reporting-types}
+
+
+| Tipo de relatório | Descrição |
+|-----|------------|
+| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho de suas campanhas orquestradas em um painel integrado. Os dados estão disponíveis no **[!UICONTROL Relatório em tempo real]** assim que a campanha orquestrada é executada a partir do menu **[!UICONTROL Exibir relatório nas últimas 24 horas]**. Saiba mais sobre os relatórios ao vivo [nesta seção](live-report.md). |
+| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | Os relatórios de campanha orquestrados são totalmente integrados aos recursos do Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados.  Saiba mais sobre todos os relatórios de tempo [nesta seção](report-gs-cja.md). |
+
+
+
