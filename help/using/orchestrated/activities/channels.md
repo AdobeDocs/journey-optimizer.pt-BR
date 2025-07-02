@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 1a4cd7df44cb54aaf4d18409574f5ceb9537935c
+source-git-commit: 85d322e5855c6e658a3a93dc0f3d644ef79437b5
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 16%
+source-wordcount: '985'
+ht-degree: 17%
 
 ---
 
@@ -99,29 +99,13 @@ Para configurar um delivery no contexto de uma campanha orquestrada, siga as eta
 
    Uma configuração foi definida por um [Administrador do Sistema](../../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba como definir configurações de canal](../../configuration/channel-surfaces.md).
 
-1. Dependendo do canal, várias opções estão disponíveis. Navegue pelas guias abaixo para obter mais informações:
-
-   >[!BEGINTABS]
-
-   >[!TAB Email]
-
-   Use as opções **[!UICONTROL Rastrear aberturas de email]** e **[!UICONTROL Rastrear cliques em links e botões no email]** para rastrear como seus destinatários reagem à sua entrega.
+1. Para email e SMS, use as opções de rastreamento para monitorar como os recipients reagem aos deliveries de email ou SMS.
 
    Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../reports/campaign-global-report-cja.md)
 
-   >[!TAB SMS]
+1. Para notificações por push, use a opção **[!UICONTROL Modo de entrega rápida]** para enviar mensagens em alta velocidade em um canal de push para um público-alvo de tamanho inferior a 30 milhões.
 
-   Use a opção **[!UICONTROL Rastrear cliques nos links no SMS]** para rastrear cliques nos links no SMS.
-
-   Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../reports/campaign-global-report-cja.md)
-
-   >[!TAB Push]
-
-   O modo de entrega rápida é um complemento do **[!DNL Journey Optimizer]** que permite o envio muito rápido de mensagens por push em grandes volumes.
-
-   Habilite a opção **[!UICONTROL Modo de entrega rápida]** para executar o envio de mensagens em alta velocidade no canal Push para um público-alvo de tamanho inferior a 30 milhões. [Saiba mais](../push/create-push.md#rapid-delivery)
-
-   >[!ENDTABS]
+   O modo de entrega rápida é um complemento do **[!DNL Journey Optimizer]** que permite o envio muito rápido de mensagens por push em grandes volumes. [Saiba mais](../push/create-push.md#rapid-delivery)
 
 1. A seção **[!UICONTROL Experimento de conteúdo]** permite definir vários tratamentos de entrega para medir qual deles tem melhor desempenho para o público-alvo.
 
