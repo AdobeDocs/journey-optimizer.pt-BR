@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
+source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 23%
@@ -65,6 +65,6 @@ Esse caso de uso envolve o envio de um SMS para perfis que criaram uma lista de 
 
 Comece com uma atividade **[!UICONTROL Criar público-alvo]** usando a dimensão de direcionamento **[!UICONTROL Lista de desejos]** para selecionar todas as listas de desejos relevantes.
 
-Em seguida, insira uma atividade **[!UICONTROL Change dimension]** para alternar o targeting dimension de **[!UICONTROL Wishlist]** para **&#x200B;**&#x200B;[!UICONTROL Recipient]**. Isso permite que a campanha orquestrada envie o SMS para os perfis associados a essas listas de desejos.
+Em seguida, insira uma atividade **[!UICONTROL Change dimension]** para alternar o targeting dimension de **[!UICONTROL Wishlist]** para **[!UICONTROL Recipient]**. Isso permite que a campanha orquestrada envie o SMS para os perfis associados a essas listas de desejos.
 
-![](../assets/change-dimension-example.png)
+![](../assets/orchestrated-change-dimension-example.png)

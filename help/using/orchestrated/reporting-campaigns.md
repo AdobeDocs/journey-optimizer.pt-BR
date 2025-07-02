@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 5e4d64c4236898683a1ebb5ab2a19be4fcd15d79
+source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 11%
 
 ---
@@ -34,20 +34,15 @@ A campanha orquestrada oferece insights acionáveis por meio de seus eficientes 
 ## Tipos de relatórios {#reporting-types}
 
 <table style="table-layout:auto; width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr style="text-align: left">
-      <th>Tipo de relatório</th>
-      <th>Descrição</th>
-    </tr>
-  </thead>
   <tbody>
-    <tr style="border: 0;">
+    <tr>
       <td><a href="../reports/live-report.md"><img alt="Relatório em tempo real" src="assets/last-24hours.png"></a></td>
       <td>
         Use o <b>Relatório ao vivo</b> para medir e visualizar em tempo real o impacto e o desempenho de suas campanhas orquestradas em um painel integrado. Os dados estão disponíveis no <b>Relatório em tempo real</b> assim que a campanha orquestrada é executada a partir do menu <b>Exibir relatório nas últimas 24 horas</b>. Saiba mais sobre os relatórios ao vivo <a href="../reports/live-report.md">nesta seção</a>.
       </td>
+        </br>
     </tr>
-    <tr style="border: 0; background-color: #FFFFFF;">
+    <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Relatório de tempo total" src="assets/all-time-report.png"></a></td>
       <td>
         Os relatórios de campanha orquestrados são totalmente integrados aos recursos do Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados. Saiba mais sobre <a href="../reports/report-gs-cja.md">todos os relatórios de tempo</a>.
