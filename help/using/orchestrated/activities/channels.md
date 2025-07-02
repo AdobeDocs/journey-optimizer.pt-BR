@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: d8b83bc46526f721d4dfaf62cf8ba4cbf5a56ce7
+source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 17%
@@ -20,7 +20,7 @@ ht-degree: 17%
 
 | Bem-vindo às campanhas orquestradas | Lançar a primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
 |---|---|---|---|
-| [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>[Etapas de configuração](../configuration-steps.md)<br/><br/>[Etapas principais para a criação de campanhas orquestradas](../gs-campaign-creation.md) | [Criar uma campanha orquestrada](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Relatórios](../reporting-campaigns.md) | [Trabalhar com o Query Modeler](../orchestrated-rule-builder.md)<br/><br/>[Criar sua primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[And-join](and-join.md) - [Criar público](build-audience.md) - [Alterar dimensão](change-dimension.md) - **[Atividades de canal](activities/channels.md)** - [Combinar](combine.md) - [Eliminação de Duplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Divisão](split.md) - [Aguardar](wait.md) |
+| [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>[Etapas de configuração](../configuration-steps.md)<br/><br/>[Etapas principais para a criação de campanhas orquestradas](../gs-campaign-creation.md) | [Criar uma campanha orquestrada](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Relatórios](../reporting-campaigns.md) | [Trabalhar com o Query Modeler](../orchestrated-rule-builder.md)<br/><br/>[Criar sua primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[And-join](and-join.md) - [Criar público](build-audience.md) - [Alterar dimensão](change-dimension.md) - **[Atividades de canal](channels.md)** - [Combinar](combine.md) - [Eliminação de Duplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Divisão](split.md) - [Aguardar](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -105,7 +105,7 @@ Para configurar um delivery no contexto de uma campanha orquestrada, siga as eta
 
 1. Para notificações por push, use a opção **[!UICONTROL Modo de entrega rápida]** para enviar mensagens em alta velocidade em um canal de push para um público-alvo de tamanho inferior a 30 milhões.
 
-   O modo de entrega rápida é um complemento do **[!DNL Journey Optimizer]** que permite o envio muito rápido de mensagens por push em grandes volumes. [Saiba mais](../push/create-push.md#rapid-delivery)
+   O modo de entrega rápida é um complemento do **[!DNL Journey Optimizer]** que permite o envio muito rápido de mensagens por push em grandes volumes. [Saiba mais](../../push/create-push.md#rapid-delivery)
 
 1. A seção **[!UICONTROL Experimento de conteúdo]** permite definir vários tratamentos de entrega para medir qual deles tem melhor desempenho para o público-alvo.
 
@@ -124,13 +124,13 @@ Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas seg
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../../email/create-email.md"><img alt="email" src="../../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../../email/create-email.md"><strong>Email</strong></a></div></td>
-<td><a href="../sms/../create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a>
+<td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><a href="../../sms/create-sms.md"><strong>SMS</strong></a></div></td>
-<td><a href="../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../../push/create-push.md"><strong>Notificação por push</strong></a></div></td>
 </tr></table>
 
-Depois que o conteúdo for definido, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o conteúdo com perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba mais](../content-management/preview-test.md).
+Depois que o conteúdo for definido, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o conteúdo com perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba mais](../../content-management/preview-test.md)
 
 ## Próximas etapas {#next}
 

@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: e01715416659270ddf75eb9fdb8f0eb03063bd7b
+source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 24%
+source-wordcount: '367'
+ht-degree: 23%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 24%
 
 | Bem-vindo às campanhas orquestradas | Lançar a primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
 |---|---|---|---|
-| [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>[Etapas de configuração](../configuration-steps.md)<br/><br/>[Etapas principais para a criação de campanhas orquestradas](../gs-campaign-creation.md) | [Criar uma campanha orquestrada](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Relatórios](../reporting-campaigns.md) | [Trabalhar com o Query Modeler](../orchestrated-rule-builder.md)<br/><br/>[Criar sua primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[And-join](and-join.md) - [Criar público](build-audience.md) - **[Alterar dimensão](change-dimension.md)** - [Combinar](combine.md) - [Eliminação de Duplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Divisão](split.md) - [Espera](wait.md) |
+| [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>[Etapas de configuração](../configuration-steps.md)<br/><br/>[Etapas principais para a criação de campanhas orquestradas](../gs-campaign-creation.md) | [Criar uma campanha orquestrada](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Relatórios](../reporting-campaigns.md) | [Trabalhar com o Query Modeler](../orchestrated-rule-builder.md)<br/><br/>[Criar sua primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[And-join](and-join.md) - [Criar público](build-audience.md) - **[Alterar dimensão](change-dimension.md)** - [Atividades de canal](channels.md) - [Combinar](combine.md) - [Eliminação de Duplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Divisão](split.md) - [Aguardar](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -65,6 +65,6 @@ Esse caso de uso envolve o envio de um SMS para perfis que criaram uma lista de 
 
 Comece com uma atividade **[!UICONTROL Criar público-alvo]** usando a dimensão de direcionamento **[!UICONTROL Lista de desejos]** para selecionar todas as listas de desejos relevantes.
 
-Em seguida, insira uma atividade **[!UICONTROL Change dimension]** para alternar o targeting dimension de **[!UICONTROL Wishlist]** para **&#x200B;**&#x200B;[!UICONTROL Recipient]**. Isso permite que a campanha orquestrada envie o SMS para os perfis associados a essas listas de desejos.
+Em seguida, insira uma atividade **[!UICONTROL Change dimension]** para alternar o targeting dimension de **[!UICONTROL Wishlist]** para ****[!UICONTROL Recipient]**. Isso permite que a campanha orquestrada envie o SMS para os perfis associados a essas listas de desejos.
 
 ![](../assets/change-dimension-example.png)
