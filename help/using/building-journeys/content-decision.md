@@ -7,11 +7,13 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
+badge: label="Disponibilidade limitada" type="Informative"
 keywords: atividade, decisão, decisão de conteúdo, política de decisão, tela, jornada
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
+source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 1%
+source-wordcount: '1030'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +21,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será lançado globalmente em uma versão futura.
+>Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.
 
 O [!DNL Journey Optimizer] permite incluir ofertas em suas jornadas por meio da atividade dedicada **decisão de conteúdo** na tela de jornada. Em seguida, você pode adicionar outras atividades (como [ações personalizadas](../action/about-custom-action-configuration.md)) às suas jornadas para direcionar seus públicos com essas ofertas personalizadas.
 
