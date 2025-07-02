@@ -5,10 +5,11 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -35,7 +36,7 @@ Ao aplicar o modelo de conteúdo ao seu conteúdo, os usuários poderão persona
 >[!CONTEXTUALHELP]
 >id="ajo_cbe_preview_form_fields"
 >title="Verificar a renderização dos campos de formulário"
->abstract="Em modelos de conteúdo JSON ou HTML, é possível definir campos editáveis específicos que permitirão que usuários não técnicos editem facilmente o conteúdo em experiências baseadas em código, sem a necessidade de manipular o código. Crie esses campos usando a sintaxe dedicada e visualize-os usando este botão."
+>abstract="Em modelos de conteúdo JSON ou HTML, é possível definir campos editáveis específicos que habilitam usuários comuns a editar facilmente o conteúdo em experiências baseadas em código, sem a necessidade de manipular código. Crie esses campos usando a sintaxe dedicada e visualize-os usando este botão."
 
 Para tornar alguns dos códigos JSON ou HTML editáveis, comece criando uma experiência baseada em código [modelo de conteúdo](../content-management/content-templates.md), em que é possível definir campos de formulário específicos.
 
@@ -201,7 +202,7 @@ Abaixo estão alguns exemplos de modelos JSON e HTML, alguns deles incluindo pol
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_form_fields"
 >title="O que são campos de formulário?"
->abstract="Essa experiência baseada em código contém campos de formulário que podem ser facilmente editados sem a necessidade de manipular o código no editor de personalização."
+>abstract="Essa experiência baseada em código contém campos de formulário que podem ser facilmente editados sem a necessidade de manipular código no editor de personalização."
 
 Agora que o modelo de conteúdo contendo campos de formulário editáveis predefinidos foi criado, você pode criar uma experiência baseada em código usando esse modelo de conteúdo.
 
@@ -245,5 +246,4 @@ Você poderá editar facilmente os campos de formulário a partir de uma jornada
 
 Saiba como adicionar campos editáveis a modelos de conteúdo de canal de experiência baseados em código.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463996/?learn=on&#x26;enablevpops&captions=por_br)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

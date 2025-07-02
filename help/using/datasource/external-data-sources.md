@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 33%
+ht-degree: 36%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="Fontes de dados externas"
->abstract="Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias."
+>abstract="Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias."
 
 ## Trabalhar com fontes de dados externas {#gs-ext-data-sources}
 
-Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
+Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
 
 >[!NOTE]
 >

@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
 workflow-type: tm+mt
 source-wordcount: '2392'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propriedades da jornada"
->abstract="Essa seção mostra as propriedades da jornada. Por padrão, os parâmetros somente leitura ficam ocultos. As configurações disponíveis dependem do status da jornada, de suas permissões e da configuração do produto."
+>abstract="Essa seção mostra as propriedades da jornada. Por padrão, os parâmetros somente leitura ficam ocultos. As configurações disponíveis dependem do status da jornada, das permissões e da configuração do produto."
 
 ## Acessar as propriedades de uma jornada {#access-properties}
 
@@ -95,12 +95,12 @@ O fuso horário é definido no nível da jornada. Você pode inserir um fuso hor
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Data inicial"
->abstract="Selecione a data em que os perfis podem começar a entrar na jornada. Se nenhuma data de início for definida, o padrão será a data de publicação da jornada."
+>abstract="Selecione a data em que os perfis podem começar a entrar na jornada. Se nenhuma data inicial for definida, o padrão será a data de publicação da jornada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Data final"
->abstract="Defina a data de término da jornada. Nessa data, os perfis ativos saem automaticamente da jornada e nenhuma nova entrada é permitida."
+>abstract="Defina a data de término da jornada. Nessa data, os perfis ativos sairão automaticamente da jornada e nenhuma entrada nova será permitida."
 
 Por padrão, os perfis podem inserir sua jornada assim que ela for publicada e podem permanecer até que o [tempo limite de jornada global](#global_timeout) seja atingido. A única exceção são as jornadas de público-alvo de leitura recorrente com **Forçar a reentrada na recorrência** ativada, que terminam na data de início da próxima ocorrência.
 
@@ -252,7 +252,7 @@ O Adobe Journey Optimizer usa políticas de mesclagem ao recuperar dados de perf
 
 O Adobe Journey Optimizer aplica a política de mesclagem usada em toda a jornada. Portanto, se vários públicos forem usados em uma jornada (por exemplo, usando em [`inAudience` funções](functions/functioninaudience.md)), isso criará inconsistências com a política de mesclagem usada pela jornada, um erro será gerado e a publicação será bloqueada. No entanto, se um público-alvo inconsistente for usado na personalização da mensagem, um alerta não será gerado, apesar da inconsistência. Por isso, é altamente recomendável verificar a política de mesclagem associada ao seu público-alvo quando ele for usado na personalização da mensagem.
 
-Para saber mais sobre as políticas de mesclagem, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Para saber mais sobre as políticas de mesclagem, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >

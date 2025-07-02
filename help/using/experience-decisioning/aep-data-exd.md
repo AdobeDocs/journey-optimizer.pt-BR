@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="Pesquisa de conjunto de dados"
->abstract="Usar dados do Adobe Experience Platform em regras de decisão permite definir critérios de qualificação com base em atributos dinâmicos e externos, garantindo que os itens de decisão sejam exibidos somente quando relevantes. Crie um mapeamento para definir como o conjunto de dados do Adobe Experience Platform se une aos dados em [!DNL Journey Optimizer]. Selecione o conjunto de dados com os atributos necessários e escolha uma chave de ligação que exista nos atributos do item de decisão e no conjunto de dados."
+>abstract="Usar dados da Adobe Experience Platform em regras de decisão permite definir critérios de elegibilidade com base em atributos dinâmicos e externos, garantindo que os itens de decisão sejam exibidos somente quando forem relevantes. Crie um mapeamento para definir como o conjunto de dados da Adobe Experience Platform se une aos dados em [!DNL Journey Optimizer]. Selecione o conjunto de dados com os atributos necessários e escolha uma chave de associação que exista nos atributos do item de decisão e no conjunto de dados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Pesquisa de conjunto de dados"
->abstract="As fórmulas de classificação definem a prioridade dos itens de decisão. Ao usar atributos de conjunto de dados do [!DNL Adobe Experience Platform], você pode ajustar dinamicamente a lógica de classificação para refletir condições reais. Crie um mapeamento para definir como o conjunto de dados do Adobe Experience Platform se une aos dados em [!DNL Journey Optimizer]. Selecione o conjunto de dados com os atributos necessários e escolha uma chave de ligação que exista nos atributos do item de decisão e no conjunto de dados"
+>abstract="As fórmulas de classificação definem a prioridade dos itens de decisão. Ao usar atributos de conjunto de dados do [!DNL Adobe Experience Platform], é possível ajustar dinamicamente a lógica de classificação para refletir condições reais. Crie um mapeamento para definir como o conjunto de dados da Adobe Experience Platform se associa aos dados em [!DNL Journey Optimizer]. Selecione o conjunto de dados com os atributos necessários e escolha uma chave de associação que exista nos atributos do item de decisão e no conjunto de dados"
 
 >[!AVAILABILITY]
 >

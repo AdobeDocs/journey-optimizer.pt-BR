@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 43%
+ht-degree: 47%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Eventos de jornada"
->abstract="Um evento está vinculado a uma pessoa. Relaciona-se com o comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site, etc.) ou com algo que acontece vinculado a uma pessoa (por exemplo, uma pessoa atingiu 10.000 pontos de fidelidade). O Journey Optimizer acompanha eventos unitários em jornadas para orquestrar as melhores ações futuras."
+>abstract="Um evento está vinculado a uma pessoa. Ele se refere ao comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site, etc.) ou a um acontecimento relacionado a uma pessoa (por exemplo, uma pessoa acumulou 10.000 pontos de fidelidade). O Journey Optimizer acompanha eventos unitários em jornadas para orquestrar as melhores ações futuras."
 
 Use eventos para acionar jornadas individualmente, fornecendo mensagens em tempo real a cada usuário ao entrarem na jornada.
 
@@ -83,8 +83,8 @@ Qualquer evento usado em jornadas Ativas, Rascunhos ou Fechadas não pode ser ex
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431510?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Entenda os casos de uso aplicáveis a eventos comerciais. Saiba como criar uma jornada usando um evento comercial e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417595?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

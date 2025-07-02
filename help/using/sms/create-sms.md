@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1069'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -90,12 +90,12 @@ Agora você pode começar a projetar o conteúdo da sua mensagem de texto a part
 
 >[!ENDTABS]
 
-## Definir o conteúdo de SMS/RCS{#sms-content}
+## Definição do conteúdo do SMS/RCS{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definição do conteúdo do SMS"
->abstract="Personalize suas mensagens de texto (SMS/MMS/RCS) usando o editor de personalização para definir o conteúdo e incorporar elementos dinâmicos."
+>abstract="Personalize as mensagens de texto (SMS/MMS/RCS) usando o editor de personalização para definir o conteúdo e incorporar elementos dinâmicos."
 
 Para configurar o conteúdo da mensagem, siga as etapas abaixo. As configurações para MMS estão detalhadas em [esta seção](#mms-content).
 
