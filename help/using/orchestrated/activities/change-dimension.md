@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: cfd94e714c0e99200ac9816315bdbb6c410f2a12
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 23%
+source-wordcount: '334'
+ht-degree: 26%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 23%
 
 <br/>
 
-Como profissional de marketing, você pode refinar a segmentação de público alternando de uma entidade de dados para outra entidade vinculada em uma campanha orquestrada. Isso permite mudar do direcionamento de perfis de usuários para o foco em ações específicas, como compras, reservas ou outras interações.
+Como profissional de marketing, você pode aprimorar a segmentação de público mudando de uma entidade de dados para uma relacionada em uma campanha orquestrada. Isso permite ir além dos perfis de usuário e se concentrar em comportamentos específicos, como compras, reservas ou outras interações.
 
-Para fazer isso, use a atividade **[!UICONTROL Change dimension]**. Ele permite alterar o targeting dimension durante a campanha orquestrada, com base na estrutura do modelo de dados e na dimensão de entrada.
+Para fazer isso, use a atividade **[!UICONTROL Change dimension]**. Ele permite ajustar o targeting dimension durante a campanha orquestrada.
 
 <!--
 >[!IMPORTANT]
@@ -53,18 +53,17 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Alterar dimensão]**
 
 1. Adicione uma atividade **[!UICONTROL Change dimension]** à sua campanha orquestrada.
 
-   ![](../assets/change-dimension.png)
+   ![](../assets/orchestrated-change-dimension.png)
 
 1. Defina a **[!UICONTROL Nova dimensão de destino]**. Durante a alteração de dimensão, todos os registros são mantidos.
 
-1. Execute a campanha orquestrada para ver o resultado. Compare os dados nas tabelas antes e depois da atividade de alteração de dimensão e compare a estrutura das tabelas de campanha orquestradas.
 
 ## Exemplo {#example}
 
-Esse caso de uso envolve o envio de um SMS para perfis que criaram uma lista de desejos no mês passado.
+Esse caso de uso se concentra no envio de um SMS para perfis que criaram uma lista de desejos no mês passado.
 
-Comece com uma atividade **[!UICONTROL Criar público-alvo]** usando a dimensão de direcionamento **[!UICONTROL Lista de desejos]** para selecionar todas as listas de desejos relevantes.
+Comece com uma atividade **[!UICONTROL Criar público-alvo]**, usando a dimensão de direcionamento **[!UICONTROL Lista de desejos]** para identificar todas as listas de desejos relevantes.
 
-Em seguida, insira uma atividade **[!UICONTROL Change dimension]** para alternar o targeting dimension de **[!UICONTROL Wishlist]** para **[!UICONTROL Recipient]**. Isso permite que a campanha orquestrada envie o SMS para os perfis associados a essas listas de desejos.
+Em seguida, adicione uma atividade **[!UICONTROL Change dimension]** para alternar o targeting dimension de **[!UICONTROL Wishlist]** para **[!UICONTROL Recipient].** Essa etapa garante que a campanha orquestrada segmente os perfis corretos vinculados a essas listas de desejos, permitindo que o SMS seja enviado aos perfis pretendidos.
 
 ![](../assets/orchestrated-change-dimension-example.png)

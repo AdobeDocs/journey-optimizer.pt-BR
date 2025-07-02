@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: ef0d0e54e566d168a4845cd1af57900d54aec0b7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '262'
 ht-degree: 11%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 11%
 
 A campanha orquestrada oferece insights acionáveis por meio de seus eficientes recursos de relatório. Esses insights ajudam você a entender melhor o comportamento do público-alvo, medir o desempenho de cada etapa na jornada do cliente e tomar decisões orientadas por dados para otimizar campanhas futuras. Com métricas e visualizações detalhadas, é possível rastrear o engajamento e ajustar as estratégias de direcionamento para obter o máximo impacto.
 
+![](assets/report-orchestrated.png)
 
 ## Tipos de relatórios {#reporting-types}
 
@@ -45,7 +46,7 @@ A campanha orquestrada oferece insights acionáveis por meio de seus eficientes 
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Relatório de tempo total" src="assets/all-time-report.png"></a></td>
       <td>
-        Os relatórios de campanha orquestrados são totalmente integrados aos recursos do Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados. Saiba mais sobre <a href="../reports/report-gs-cja.md">todos os relatórios de tempo</a>.
+        <b>O relatório All time</b> é totalmente integrado aos recursos do Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados. Saiba mais sobre todos os relatórios de tempo <a href="../reports/report-gs-cja.md">nesta seção</a>.
       </td>
     </tr>
   </tbody>
