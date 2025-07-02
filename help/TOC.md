@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 7a2c5c414dcb63d362f7decebb281d00b72e9ae7
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2485'
 ht-degree: 97%
 
 ---
@@ -184,7 +184,6 @@ ht-degree: 97%
       + [Etapas principais para a criação de campanha orquestrada](using/orchestrated/gs-campaign-creation.md)
       + [Criar e agendar a campanha](using/orchestrated/create-orchestrated-campaign.md)
       + [Orquestrar atividades](using/orchestrated/orchestrate-activities.md)
-      + [Enviar mensagens com campanhas orquestradas](using/orchestrated/send-messages.md)
       + [Iniciar e monitorar a campanha](using/orchestrated/start-monitor-campaigns.md)
       + [Relatórios](using/orchestrated/reporting-campaigns.md)
    + Consultar o banco de dados {#query-database}
@@ -196,6 +195,7 @@ ht-degree: 97%
       + [And-join](using/orchestrated/activities/and-join.md)
       + [Criar público-alvo](using/orchestrated/activities/build-audience.md)
       + [Mudar dimensão](using/orchestrated/activities/change-dimension.md)
+      + [Atividades do canal](using/orchestrated/activities/channels.md)
       + [Combinar](using/orchestrated/activities/combine.md)
       + [Desduplicação](using/orchestrated/activities/deduplication.md)
       + [Enriquecimento](using/orchestrated/activities/enrichment.md)
@@ -205,7 +205,6 @@ ht-degree: 97%
       + [Divisão](using/orchestrated/activities/split.md)
       + [Teste](using/orchestrated/activities/test.md)
       + [Aguardar](using/orchestrated/activities/wait.md)
-      + [Atividades do canal](using/orchestrated/activities/channels.md)
 + Campanhas {#campaigns}
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
    + [Criar uma campanha](using/campaigns/create-campaign.md)
