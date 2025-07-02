@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: e01715416659270ddf75eb9fdb8f0eb03063bd7b
+source-git-commit: d4cee2680dbe631d93f43d7d165d6874b9e41a47
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 10%
@@ -45,8 +45,8 @@ A campanha orquestrada oferece insights acionáveis por meio de seus eficientes 
 
 | Tipo de relatório | Descrição |
 |-----|------------|
-| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho de suas campanhas orquestradas em um painel integrado. Os dados estão disponíveis no **[!UICONTROL Relatório em tempo real]** assim que a campanha orquestrada é executada a partir do menu **[!UICONTROL Exibir relatório nas últimas 24 horas]**. Saiba mais sobre os relatórios ao vivo [nesta seção](live-report.md). |
-| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | Os relatórios de campanha orquestrados são totalmente integrados aos recursos do Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados.  Saiba mais sobre todos os relatórios de tempo [nesta seção](report-gs-cja.md). |
+| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho de suas campanhas orquestradas em um painel integrado. Os dados estão disponíveis no **[!UICONTROL Relatório em tempo real]** assim que a campanha orquestrada é executada a partir do menu **[!UICONTROL Exibir relatório nas últimas 24 horas]**. Saiba mais sobre os relatórios ao vivo [nesta seção](../reports/live-report.md). |
+| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | Os relatórios de campanha orquestrados são totalmente integrados aos recursos do Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados.  Saiba mais sobre todos os relatórios de tempo [nesta seção](../reports/report-gs-cja.md). |
 
 
 
