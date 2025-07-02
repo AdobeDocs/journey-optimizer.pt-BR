@@ -65,6 +65,6 @@ Esse caso de uso envolve o envio de um SMS para perfis que criaram uma lista de 
 
 Comece com uma atividade **[!UICONTROL Criar público-alvo]** usando a dimensão de direcionamento **[!UICONTROL Lista de desejos]** para selecionar todas as listas de desejos relevantes.
 
-Em seguida, insira uma atividade **[!UICONTROL Change dimension]** para alternar o targeting dimension de **[!UICONTROL Wishlist]** para ****[!UICONTROL Recipient]**. Isso permite que a campanha orquestrada envie o SMS para os perfis associados a essas listas de desejos.
+Em seguida, insira uma atividade **[!UICONTROL Change dimension]** para alternar o targeting dimension de **[!UICONTROL Wishlist]** para **&#x200B;**&#x200B;[!UICONTROL Recipient]**. Isso permite que a campanha orquestrada envie o SMS para os perfis associados a essas listas de desejos.
 
 ![](../assets/change-dimension-example.png)
