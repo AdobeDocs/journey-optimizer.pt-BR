@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: cb335fd5610d70d801ae1c32dfe4d3ca9d1160ab
+source-git-commit: 01c9b947ce9459944c5c16ef177b55e889eb3634
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 69%
+source-wordcount: '1096'
+ht-degree: 48%
 
 ---
 
@@ -62,7 +62,7 @@ As seguintes opções de segmentação estão disponíveis:
 
 Siga estas etapas comuns para começar a configurar a atividade **[!UICONTROL Combinar]**:
 
-![](../assets/orchestrated-combine.png)
+![](../assets/orchestrated-union.png)
 
 1. Adicione várias atividades, por exemplo, **[!UICONTROL Criar público-alvo]**, para formar pelo menos duas ramificações de execução diferentes.
 1. Adicione uma atividade **[!UICONTROL Combinar]** a qualquer uma das ramificações anteriores.
@@ -77,12 +77,13 @@ Siga estas etapas comuns para começar a configurar a atividade **[!UICONTROL Co
 >title="Opções de reconciliação"
 >abstract="Selecione o **Tipo de reconciliação** para definir como lidar com duplicatas. A opção **Chaves** está ativada por padrão, o que significa que a atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Use a opção **Uma seleção de colunas** para definir a lista de colunas nas quais a reconciliação de dados será aplicada."
 
-Na atividade **[!UICONTROL Combinar]**, você pode configurar uma **[!UICONTROL União]**. Para isso, você precisa selecionar o **[!UICONTROL Tipo de reconciliação]** para definir como as duplicatas são tratadas:
+Na atividade **[!UICONTROL Combinar]**, é possível configurar uma **[!UICONTROL União]** selecionando um **[!UICONTROL Tipo de reconciliação]** para determinar como os registros duplicados são gerenciados:
 
-* **[!UICONTROL Somente chaves]**: este é o modo padrão. A atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
-* **[!UICONTROL Uma seleção de colunas]**: selecione esta opção para definir a lista de colunas em que a reconciliação de dados é aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a união.
+* **[!UICONTROL Somente chaves]** (padrão): retém um único registro quando várias transições de entrada compartilham a mesma chave. Essa opção só é aplicável quando as populações de entrada são homogêneas.
 
-No exemplo a seguir, estamos usando uma atividade **[!UICONTROL Combinar]** e adicionamos uma **[!UICONTROL União]** para recuperar todos os perfis das duas consultas: Membros de Fidelidade e Compradores para formar um público maior.
+* **[!UICONTROL Uma seleção de colunas]**: permite especificar quais colunas são usadas para reconciliação de dados. Selecione **[!UICONTROL Adicionar atributo]**.
+
+No exemplo a seguir, uma atividade **[!UICONTROL Combinar]** é usada com uma **[!UICONTROL União]** para mesclar os resultados de duas consultas, **Membros de Fidelidade** e **Compradores**, em um público-alvo único e maior que inclui todos os perfis de ambos os segmentos.
 
 ![](../assets/orchestrated-union-example.png)
 
@@ -95,10 +96,15 @@ No exemplo a seguir, estamos usando uma atividade **[!UICONTROL Combinar]** e ad
 
 Na atividade **[!UICONTROL Combinar]**, você pode configurar uma **[!UICONTROL Interseção]**. Para isso, você precisa seguir as etapas adicionais abaixo:
 
-1. Selecione o **[!UICONTROL Tipo de reconciliação]** para definir como as duplicatas são tratadas. Consulte a seção [União](#union).
-1. Marque a opção **[!UICONTROL Gerar complemento]** se desejar processar a população restante. O complemento conterá a união dos resultados de todas as atividades de entrada menos a intersecção. Será adicionada uma transição de saída adicional à atividade.
+1. Selecione o **[!UICONTROL Tipo de reconciliação]** para definir como as duplicatas são tratadas:
 
-O exemplo a seguir mostra a **[!UICONTROL Interseção]** entre duas atividades de consulta. Ela está sendo usada aqui para recuperar perfis com assinatura do programa de fidelidade e cuja última compra foi há menos de um mês.
+   * **[!UICONTROL Somente chaves]** (padrão): retém um único registro quando várias transições de entrada compartilham a mesma chave. Essa opção só é aplicável quando as populações de entrada são homogêneas.
+
+   * **[!UICONTROL Uma seleção de colunas]**: permite especificar quais colunas são usadas para reconciliação de dados. Selecione **[!UICONTROL Adicionar atributo]**.
+
+1. Habilite **[!UICONTROL Gerar conclusão]** se desejar processar a população restante. O complemento contém a união de todos os resultados da atividade de entrada, excluindo a interseção. Uma transição de saída adicional é adicionada à atividade.
+
+O exemplo a seguir ilustra o uso da **[!UICONTROL Interseção]** entre duas atividades de consulta. É usado para identificar perfis que são **Membros do programa de fidelidade** e que fizeram uma compra no mês passado.
 
 ![](../assets/orchestrated-intersection-example.png)
 
@@ -127,13 +133,13 @@ O exemplo a seguir mostra a **[!UICONTROL Interseção]** entre duas atividades 
 
 Na atividade **[!UICONTROL Combinar]**, é possível configurar uma **[!UICONTROL Exclusão]**. Para isso, você precisa seguir as etapas adicionais abaixo:
 
-1. Na seção **[!UICONTROL Conjuntos para unir]**, selecione o **[!UICONTROL Conjunto principal]** das transições de entrada. Esse é o conjunto a partir do qual os elementos são excluídos. Os outros conjuntos correspondem a elementos antes de serem excluídos do conjunto principal.
-1. Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido ao mesmo targeting dimension como o público-alvo principal. Para fazer isso, clique em **[!UICONTROL Adicionar uma regra]** na seção **[!UICONTROL Regras de exclusão]** e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou de uma união.
-1. Marque a opção **[!UICONTROL Gerar complemento]** se desejar processar a população restante. Consulte a seção [Interseção](#intersection).
+1. Na seção **[!UICONTROL Conjuntos para ingressar]**, escolha o **[!UICONTROL Conjunto principal]**, que representa a população principal. Os registros encontrados nos outros conjuntos são excluídos deste conjunto principal.
+
+1. Quando necessário, você pode ajustar tabelas de entrada para alinhar destinos de diferentes dimensões. Para excluir um target de outra dimensão, ele deve primeiro ser trazido para o mesmo targeting dimension como a população principal. Para fazer isso, clique em **[!UICONTROL Adicionar uma regra]** e defina as condições para alterar a dimensão. A reconciliação é feita usando um atributo ou uma junção.
+
+1. Habilite **[!UICONTROL Gerar conclusão]** se desejar processar a população restante. O complemento contém a união de todos os resultados da atividade de entrada, excluindo a interseção. Uma transição de saída adicional é adicionada à atividade.
 
 O exemplo **[!UICONTROL Exclusão]** a seguir mostra duas consultas configuradas para filtrar perfis que compraram um produto. Os perfis que não têm uma associação de fidelidade são excluídos do primeiro conjunto.
-
-Por que: você está executando uma campanha de fidelidade, portanto os não membros são irrelevantes.
 
 ![](../assets/orchestrated-exclusion-example.png)
 
