@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7a2c5c414dcb63d362f7decebb281d00b72e9ae7
+source-git-commit: 9bbaad0c7d6bbbb7b35b8d3b72d8a5adc29f28db
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 97%
+source-wordcount: '2488'
+ht-degree: 98%
 
 ---
 
@@ -190,6 +190,7 @@ ht-degree: 97%
       + [Trabalhar com o construtor de regras](using/orchestrated/orchestrated-rule-builder.md)
       + [Criar a primeira regra](using/orchestrated/build-query.md)
       + [Editar expressões](using/orchestrated/edit-expressions.md)
+      + [Redirecionamento](using/orchestrated/retarget.md)
    + Atividades de campanhas orquestradas {#design-campaigns}
       + [Introdução às atividades](using/orchestrated/activities/about-activities.md)
       + [And-join](using/orchestrated/activities/and-join.md)
@@ -202,6 +203,7 @@ ht-degree: 97%
       + [Bifurcação](using/orchestrated/activities/fork.md)
       + [Público-alvo de leitura](using/orchestrated/activities/read-audience.md)
       + [Reconciliação](using/orchestrated/activities/reconciliation.md)
+      + [Salvar público-alvo](using/orchestrated/activities/save-audience.md)
       + [Divisão](using/orchestrated/activities/split.md)
       + [Teste](using/orchestrated/activities/test.md)
       + [Aguardar](using/orchestrated/activities/wait.md)
