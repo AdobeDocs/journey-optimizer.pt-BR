@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 28284b3d42a0e78add3470ef128dd740f9cc9dfd
+source-git-commit: de769ae29f933e3bfa520e67b9193666f3f2cef5
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 36%
@@ -59,7 +59,7 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Desduplicação]**:
 
 1. Na seção **[!UICONTROL Campos para identificar duplicatas]**, clique no botão **[!UICONTROL Adicionar atributo]** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro.
 
-![](../assets/deduplication-1.png)
+   ![](../assets/deduplication-1.png)
 
 1. Na seção **[!UICONTROL Configurações de desduplicação]**, escolha quantos registros exclusivos devem ser mantidos usando o campo Duplicatas a serem mantidas. O padrão é 1, que mantém um registro por grupo duplicado. Defina como 0 para manter todas as duplicatas.
 
