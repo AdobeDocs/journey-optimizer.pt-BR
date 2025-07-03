@@ -1,20 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Teste e valide suas mensagens em campanhas orquestradas com o Journey Optimizer
-description: Saiba como enviar provas, validar seu conteúdo e personalização em uma campanha orquestrada com o Adobe Journey Optimizer
-badge: label="Alfa"
+title: Iniciar e monitorar campanhas orquestradas com o Adobe Journey Optimizer
+description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe Journey Optimizer.
 hide: true
 hidefromtoc: true
-exl-id: 54d8b2fb-745d-459c-85d6-c224aa5e352e
 source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '107'
 ht-degree: 11%
 
 ---
 
-# Testar e validar mensagens {#orchestrated-proofs}
+# Redirecionamento {#retarget}
 
 +++ Sumário
 
@@ -25,12 +23,9 @@ ht-degree: 11%
 {style="table-layout:fixed"}
 
 +++
-<br/>
 
 >[!BEGINSHADEBOX]
 
 Documentação em andamento
 
 >[!ENDSHADEBOX]
-
-Como gerente de campanha, você pode enviar **versões de prova** de nossas mensagens personalizadas para uma lista predefinida de revisores internos, garantindo que todo o conteúdo, personalização e links funcionem conforme esperado antes da inicialização em escala completa.
