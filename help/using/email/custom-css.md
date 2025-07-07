@@ -139,6 +139,7 @@ Abaixo estão exemplos de CSS válido.
   }
 }
 ```
+
 +++
 
 +++ Exemplos de CSS inválido
@@ -165,6 +166,7 @@ Sintaxe inválida, como chaves ausentes, não é aceita:
 body {
   background: red;
 ```
+
 +++
 
 ## Implementação técnica {#implementation}
@@ -205,6 +207,7 @@ Seu CSS personalizado é adicionado ao final da seção `<head>` como parte de u
   </body>
 </html>
 ```
+
 +++
 
 O CSS personalizado não é interpretado ou validado pelo painel **[!UICONTROL Configurações]** do Email Designer. Ela é totalmente independente e só pode ser modificada por meio da opção **[!UICONTROL Adicionar CSS personalizado]**.
