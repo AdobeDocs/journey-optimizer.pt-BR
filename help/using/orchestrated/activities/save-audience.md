@@ -6,10 +6,11 @@ description: Saiba como usar a atividade Salvar público-alvo em uma campanha or
 badge: label="Alfa"
 hide: true
 hidefromtoc: true
-source-git-commit: 8a5026cdeb63b7b261ec0dfa690c5bd41d7de772
+exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
+source-git-commit: ab3cfbdc5c48b5fea47817d39fb8429e096439ff
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 3%
+source-wordcount: '345'
+ht-degree: 4%
 
 ---
 
@@ -32,26 +33,28 @@ Essa atividade é particularmente útil para preservar segmentos de público cal
 
 ## Configurar a atividade Save audience {#save-audience-configuration}
 
-Siga estas etapas para configurar a atividade **Salvar público-alvo**:
+Siga estas etapas para configurar a atividade **[!UICONTROL Salvar público-alvo]**:
 
-1. Adicione uma atividade **Save audience** à sua campanha orquestrada.
+1. Adicione uma atividade **[!UICONTROL Save audience]** à sua campanha orquestrada.
 
-1. No menu suspenso **Modo**, selecione a ação que deseja executar:
+1. Insira um **[!UICONTROL Rótulo de público-alvo]** que identificará o público-alvo salvo.
 
-   * **Criar ou atualizar um público existente**: definir um **Rótulo de público-alvo**. Se o público-alvo já existir, ele será atualizado; caso contrário, um novo público-alvo será criado.
+1. Clique em **[!UICONTROL Adicionar atributo de público-alvo]** para definir como os dados de público-alvo são estruturados e armazenados para futura reutilização.
 
-   * **Atualizar um público-alvo** existente: escolha o **Público-alvo** que deseja atualizar na lista de públicos-alvo existentes.
+   ![](../assets/save-audience-1.png)
 
-1. Selecione o **Modo de atualização** que se aplica aos públicos existentes:
+1. Em seguida, selecione o **[!UICONTROL Campo de identidade principal]** &#x200B;e o **[!UICONTROL Namespace de identidade]** apropriados para garantir a resolução precisa do perfil.
 
-   * **Substituir conteúdo do público-alvo por novos dados**: todo o conteúdo do público-alvo é substituído e os dados antigos são perdidos. Somente os dados da transição de entrada da atividade **Salvar público-alvo** são retidos. Essa opção apaga o tipo de público-alvo e o targeting dimension do público-alvo atualizado.
+   ![](../assets/save-audience-2.png)
 
-   * **Concluir público-alvo com novos dados**: o conteúdo antigo do público-alvo é retido e os dados da transição de entrada da atividade **Salvar público-alvo** são adicionados a ele.
+1. Finalize sua configuração salvando e publicando a campanha orquestrada. Isso gerará e armazenará seu público.
 
-1. Marque a opção **Generate an outbound transition** se desejar adicionar uma transição após a atividade **Save audience**.
+O conteúdo do público-alvo salvo ficará disponível na exibição detalhada do público-alvo, que pode ser acessada no menu **[!UICONTROL Públicos-alvo]**.
 
-O conteúdo do público-alvo salvo ficará disponível na exibição detalhada do público-alvo, que pode ser acessada no menu **Públicos-alvo**. As colunas disponíveis nesta exibição correspondem às da transição de entrada da atividade **Salvar público-alvo** da campanha orquestrada.
+![](../assets/save-audience-3.png)
 
 ## Exemplo {#save-audience-example}
 
-O exemplo a seguir ilustra uma simples atualização de público-alvo do direcionamento. Um programador executa a campanha orquestrada uma vez por mês. Um query recupera todos os perfis que fizeram assinatura nos diferentes aplicativos disponíveis. A atividade **Salvar público-alvo** atualiza o público-alvo removendo os perfis que cancelaram a assinatura do serviço desde a última execução orquestrada da campanha e adicionando perfis que fizeram assinatura recentemente.
+O exemplo a seguir demonstra como criar um público-alvo simples usando o direcionamento. Uma consulta identifica todos os perfis que fizeram uma compra nos últimos 30 dias. A atividade **[!UICONTROL Salvar público-alvo]** captura esses perfis para criar um público-alvo reutilizável de compradores recentes.
+
+![](../assets/save-audience-4.png)
