@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 8%
@@ -149,8 +149,8 @@ Abaixo estão alguns exemplos de modelos JSON e HTML, alguns deles incluindo pol
 >
 >Ao fazer referência aos campos em linha na carga JSON:
 >
->   * Os campos do tipo sequência de caracteres devem ser colocados entre aspas duplas.
->   * Inteiros ou boolianos NÃO devem ser colocados entre aspas duplas. (Veja o campo `number_of_items` no exemplo acima.)
+>* Os campos do tipo sequência de caracteres devem ser colocados entre aspas duplas.
+>* Inteiros ou boolianos NÃO devem ser colocados entre aspas duplas. (Veja o campo `number_of_items` no exemplo acima.)
 
 **Modelo JSON com decisão:**
 
@@ -246,4 +246,4 @@ Você poderá editar facilmente os campos de formulário a partir de uma jornada
 
 Saiba como adicionar campos editáveis a modelos de conteúdo de canal de experiência baseados em código.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463996/?learn=on&#x26;enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
