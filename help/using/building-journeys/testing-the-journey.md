@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 392bf9871ee39aa8a5279661814daff9482be0fd
 workflow-type: tm+mt
 source-wordcount: '1767'
 ht-degree: 8%
@@ -29,7 +29,7 @@ Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode c
 
 >[!NOTE]
 >
->Antes de testar a jornada, você deve resolver todos os erros, se houver. Saiba como verificar erros antes de testar em [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+>Antes de testar a jornada, você deve resolver todos os erros, se houver. Saiba como verificar erros antes de testar em [esta seção](../building-journeys/troubleshooting.md).
 
 Para usar o modo de teste, siga estas etapas:
 
