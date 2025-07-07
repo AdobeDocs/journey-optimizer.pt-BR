@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 2%
@@ -25,11 +25,11 @@ Verifique se os campos usados em suas consultas têm valores associados no esque
 
 * id: exclusiva para todas as entradas de evento de etapa. Dois eventos de etapa diferentes não podem ter a mesma ID.
 * instanceId: instanceID é o mesmo para todos os eventos de etapa associados a um perfil em uma execução de jornada. Se um perfil entrar novamente na jornada, uma instanceId diferente será usada. Essa nova instanceId será a mesma para todos os eventos de etapa da instância reinserida (do início ao fim).
-* profileID: a identidade do perfil que corresponde ao namespace da jornada.
+* profileID: a identidade do perfil correspondente ao namespace da jornada.
 
 >[!NOTE]
 >
->Para fins de solução de problemas, recomendamos usar journeyVersionID em vez de journeyVersionName ao consultar jornadas. Saiba mais sobre os atributos de propriedades de jornada [nesta seção](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Para fins de solução de problemas, recomendamos usar journeyVersionID em vez de journeyVersionName ao consultar jornadas. Saiba mais sobre os atributos de propriedades de jornada [nesta seção](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 ## Casos de uso básicos/consultas comuns {#common-queries}
 
