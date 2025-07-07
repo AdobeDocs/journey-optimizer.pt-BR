@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 90%
+source-wordcount: '387'
+ht-degree: 87%
 
 ---
 
@@ -40,13 +40,7 @@ No designer de jornada, profissionais de marketing podem enviar mensagens indivi
 
 O [designer de jornada](using-the-journey-designer.md) fornece [ações de canal integradas](journeys-message.md) que oferecem suporte a mensagens de saída, como emails, notificações por push e SMS/MMS, bem como canais de entrada, incluindo aplicativos móveis, sites e experiências baseadas em código criadas diretamente no Journey Optimizer. Também é possível usar sistemas de terceiros para enviar mensagens, seja via email, texto ou outros canais. O Journey Optimizer inclui [ações personalizadas](using-custom-actions.md) para permitir que esses sistemas sejam integrados a jornadas diretamente do designer de jornada.
 
-Saiba como criar jornadas nos seguintes casos de uso completos:
-
-* [Enviar mensagens de vários canais](journeys-uc.md)
-* [Enviar uma mensagem usando o Campaign v7/v8](ajo-ac.md)
-* [Enviar uma mensagem aos assinantes](message-to-subscribers-uc.md)
-* [Envio dinâmico de coleções usando ações personalizadas](collections.md)
-* [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](limit-throughput.md)
+Saiba como criar jornadas [nestes casos de uso completos](jo-use-cases.md).
 
 >[!NOTE]
 >
@@ -56,4 +50,4 @@ Saiba como criar jornadas nos seguintes casos de uso completos:
 
 Descubra os componentes de uma jornada e entenda os aspectos básicos da criação de uma jornada na tela.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430346?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
