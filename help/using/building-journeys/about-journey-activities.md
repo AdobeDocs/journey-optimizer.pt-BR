@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 13%
+source-wordcount: '688'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
 
 Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
 
-## Atividades de eventos {#event-activities}
+## Atividades de evento {#event-activities}
 
 As jornadas personalizadas são acionadas por eventos, como uma compra online. Depois que um perfil entra em uma jornada, ele se move como um indivíduo e nenhum dos dois indivíduos se move ao longo da mesma taxa ou ao longo do mesmo caminho. Ao iniciar a jornada com um evento, a jornada é acionada quando o evento é recebido. Cada pessoa na jornada segue, individualmente, as próximas etapas definidas na jornada.
 
@@ -62,8 +62,6 @@ Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Eventos]** e **[!UI
 
 Essas atividades representam os diferentes canais de comunicação disponíveis. É possível combiná-los para criar um cenário entre canais.
 
-<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
-
 Você também pode configurar ações específicas para enviar mensagens:
 
 * Se você estiver usando um sistema de terceiros para enviar mensagens, poderá criar uma ação personalizada específica. [Saiba mais](../action/action.md)
@@ -80,7 +78,7 @@ Você também pode configurar ações específicas para enviar mensagens:
 
 A maioria das atividades permite definir um **[!UICONTROL Rótulo]**. Isso adiciona um sufixo ao nome que aparece em sua atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-la mais facilmente. Também facilita a depuração em caso de erro e facilita a leitura dos relatórios. Você também pode adicionar uma **[!UICONTROL Descrição]** opcional.
 
-![](assets/journey-action-label.png)
+![Campos de rótulo e descrição nas propriedades da atividade de jornada](assets/journey-action-label.png)
 
 >[!NOTE]
 >
@@ -90,18 +88,24 @@ A maioria das atividades permite definir um **[!UICONTROL Rótulo]**. Isso adici
 
 A maioria das atividades do exibe vários parâmetros avançados e/ou técnicos que você não pode modificar.
 
-![](assets/journey-advanced-parameters.png)
+![Campos de parâmetros avançados nas propriedades da atividade de jornada](assets/journey-advanced-parameters.png)
 
 Para melhorar a compreensão, oculte esses parâmetros usando o botão **[!UICONTROL Ocultar campos somente leitura]**.
 
-![](assets/journey-hide-read-only-fields.png)
+![Ocultar o ícone de campos somente leitura nas propriedades da atividade de jornada](assets/journey-hide-read-only-fields.png)
 
 Em alguns contextos específicos, é possível substituir os valores desses parâmetros para uso específico. Para forçar um valor, clique no ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo. [Saiba mais](../configuration/primary-email-addresses.md#journey-parameters)
 
-![](assets/journey-enable-parameter-override.png)
+![Habilitar a opção de substituição de parâmetro nas propriedades da atividade de email](assets/journey-enable-parameter-override.png)
 
 ### Adicionar um caminho alternativo
 
 A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcar a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
-![](assets/journey42.png)
+![Adicionar uma opção de caminho alternativo nas propriedades da atividade de Condição](assets/journey42.png)
+
+## Solução de problemas {#troubleshooting}
+
+Antes de testar e publicar sua jornada, verifique se todas as atividades estão configuradas corretamente. Não é possível executar testes ou publicações se os erros ainda forem detectados pelo sistema.
+
+Saiba como solucionar erros nas atividades e na jornada [nesta página](troubleshooting.md).
