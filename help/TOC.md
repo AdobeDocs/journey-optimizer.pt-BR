@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9bbaad0c7d6bbbb7b35b8d3b72d8a5adc29f28db
+source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
 workflow-type: tm+mt
-source-wordcount: '2488'
-ht-degree: 98%
+source-wordcount: '2491'
+ht-degree: 97%
 
 ---
 
@@ -61,9 +61,11 @@ ht-degree: 98%
       + [Otimização de tempo de envio](using/building-journeys/send-time-optimization.md)
       + [Encerrar sua jornada](using/building-journeys/end-journey.md)
       + [Copiar uma jornada para outra sandbox](using/building-journeys/copy-to-sandbox.md)
-      + [Solucionar problemas da jornada](using/building-journeys/troubleshooting.md)
-      + [Solução de problemas de ações de entrada na jornada](using/building-journeys/troubleshooting-inbound.md)
       + [Integrar a serviços inteligentes](using/building-journeys/ai-services-overview.md)
+   + Solução de problemas {#troubleshoot-journey}
+      + [Solução de problemas de erros de jornada](using/building-journeys/troubleshooting.md)
+      + [Solucionar problemas de execução da jornada](using/building-journeys/troubleshooting-execution.md)
+      + [Solução de problemas de ações de entrada](using/building-journeys/troubleshooting-inbound.md)
    + Atividades {#about-journey-building}
       + [Introdução às atividades de jornada](using/building-journeys/about-journey-activities.md)
       + [Eventos gerais](using/building-journeys/general-events.md)
