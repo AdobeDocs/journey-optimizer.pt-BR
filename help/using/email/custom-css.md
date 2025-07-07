@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: css, editor, resumo, email
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: edf82b966588a792c660430ced2cfe72c6b88216
+source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 7%
@@ -142,6 +142,7 @@ Abaixo estão exemplos de CSS válido.
 
 +++
 
+
 +++ Exemplos de CSS inválido
 
 Se um CSS inválido for inserido, uma mensagem de erro será exibida, indicando que o CSS não pode ser salvo. Abaixo estão exemplos de CSS inválido.
@@ -209,6 +210,7 @@ Seu CSS personalizado é adicionado ao final da seção `<head>` como parte de u
 ```
 
 +++
+
 
 O CSS personalizado não é interpretado ou validado pelo painel **[!UICONTROL Configurações]** do Email Designer. Ela é totalmente independente e só pode ser modificada por meio da opção **[!UICONTROL Adicionar CSS personalizado]**.
 
