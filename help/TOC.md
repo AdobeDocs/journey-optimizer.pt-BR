@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+source-git-commit: fa53fbe84a0d9c20a47e3d9f312b1673ab0611ca
 workflow-type: tm+mt
-source-wordcount: '2494'
+source-wordcount: '2493'
 ht-degree: 97%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 97%
       + [Solução de problemas de erros de jornada](using/building-journeys/troubleshooting.md)
       + [Solução de problemas de execução do jornada](using/building-journeys/troubleshooting-execution.md)
       + [Solução de problemas de ações de entrada](using/building-journeys/troubleshooting-inbound.md)
-      + [Solucionar problemas de uma ação personalizada](using/action/troubleshoot-custom-action.md)
+      + [Solução de problemas de ações personalizadas](using/action/troubleshoot-custom-action.md)
 + Campanhas orquestradas {#orchestrated-campaigns}
    + [Introdução às campanhas orquestradas](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Etapas de configuração](using/orchestrated/configuration-steps.md)
