@@ -10,10 +10,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 keywords: correspondência direta, mensagem, campanha
-source-git-commit: 6f239f9bb9dbce871fbbdd89c460d9ac39706e1e
+source-git-commit: 088e89013235883d0a8b433fa348ee33a34e7a8c
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 25%
+source-wordcount: '760'
+ht-degree: 19%
 
 ---
 
@@ -29,9 +29,7 @@ Correspondência direta é um canal offline que permite personalizar e gerar os 
 
 Ao criar uma mensagem de correspondência direta, o [!DNL Journey Optimizer] gera automaticamente um arquivo contendo todos os perfis direcionados e dados selecionados, como endereços postais e atributos de perfil. Esse arquivo é enviado ao servidor de sua escolha para que possa ser acessado pelo provedor de correspondência direta de terceiros escolhido, o qual realizará o processo de envio para você.
 
-Você precisará trabalhar com o provedor de correspondência direta de terceiros de sua escolha para obter todos os consentimentos necessários de seus clientes, se aplicável, para que seus clientes possam receber suas correspondências.
-
-Seu uso dos serviços de mala direta está sujeito a termos e condições adicionais do provedor de correspondência direta de terceiros aplicável. A Adobe não controla e não se responsabiliza pelo uso de produtos de terceiros. Para qualquer problema ou solicitação de assistência relacionada ao correio de sua mensagem de correspondência direta, entre em contato com o provedor de correspondência direta de terceiros escolhido.
+Você precisa trabalhar com o provedor de correspondência direta de terceiros escolhido para obter os consentimentos necessários de seus clientes, se aplicável, para que seus clientes possam receber emails. Seu uso dos serviços de mala direta está sujeito a termos e condições adicionais do provedor de correspondência direta de terceiros aplicável. A Adobe não controla e não se responsabiliza pelo uso de produtos de terceiros. Para qualquer problema ou solicitação de assistência relacionada ao correio de sua mensagem de correspondência direta, entre em contato com o provedor de correspondência direta de terceiros escolhido.
 
 >[!NOTE]
 >
@@ -58,11 +56,9 @@ Antes de criar uma mensagem de mala direta, verifique se você configurou um rot
 
 ## Criar uma configuração de correspondência direta {#direct-mail-surface}
 
-Uma configuração de correspondência direta contém as configurações para a formatação do arquivo que contém os dados do público-alvo e será usada pelo provedor de email. Você também pode definir para onde o arquivo será exportado selecionando a configuração de roteamento do arquivo.
+Uma configuração de correspondência direta contém as configurações para a formatação do arquivo que contém os dados do público-alvo e será usada pelo provedor de email. Você também deve definir para onde o arquivo será exportado selecionando a configuração de roteamento do arquivo. Informações detalhadas sobre como criar uma configuração de correspondência direta estão disponíveis na seção [Configuração de correspondência direta](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
 
-Informações detalhadas sobre como criar uma configuração de correspondência direta estão disponíveis na seção [Configuração de correspondência direta](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
-
-Quando a configuração de correspondência direta estiver pronta, você poderá criar e adicionar uma ação de correspondência direta na jornada.
+Quando a configuração de correspondência direta estiver pronta, você poderá adicionar uma ação de correspondência direta na jornada.
 
 ## Adicione uma ação de Correspondência direta à jornada
 
@@ -70,24 +66,20 @@ Para adicionar uma ação de correspondência direta em uma jornada, siga estas 
 
 1. Abra a jornada e arraste e solte uma atividade de **[!UICONTROL Correspondência direta]** da seção **Ações** da paleta.
 
-1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria) e escolha a configuração de mensagem a ser usada. O campo **[!UICONTROL configuração]** é preenchido previamente, por padrão, com a última configuração usada para esse canal pelo usuário.
+1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria) e escolha a configuração de mensagem a ser usada. O campo **[!UICONTROL configuração]** é preenchido previamente, por padrão, com a última configuração usada para esse canal pelo usuário. Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
 
-   Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md)
-
-1. Agora você pode configurar o arquivo de extração para enviar ao seu provedor de correspondência direta. Para fazer isso, clique no botão **[!UICONTROL Editar conteúdo]**.
+1. Configure o arquivo de extração para enviar ao seu provedor de correspondência direta. Para fazer isso, clique no botão **[!UICONTROL Editar conteúdo]**.
 
    ![](assets/direct-mail-add-journey.png)
 
-1. Ajuste as propriedades do arquivo de extração, como o nome do arquivo, ou as colunas a serem exibidas. Para obter mais informações sobre como configurar as propriedades do arquivo de extração, consulte esta seção. [Criar uma mensagem de correspondência direta](../direct-mail/create-direct-mail.md#extraction-file)
+1. Ajuste as propriedades do arquivo de extração, como o nome do arquivo, ou as colunas a serem exibidas. Para obter mais informações sobre como configurar as propriedades do arquivo de extração, consulte esta seção: [Criar uma mensagem de correspondência direta](../direct-mail/create-direct-mail.md#extraction-file).
 
    ![](assets/direct-mail-journey-content.png)
 
 1. Depois que o conteúdo do arquivo de extração for definido, você poderá usar perfis de teste para visualizá-lo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
 
-   Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** e adicione um perfil de teste para verificar como é a renderização do arquivo de extração usando os dados do perfil de teste.
+   Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** e adicione um perfil de teste para verificar como é a renderização do arquivo de extração usando os dados do perfil de teste. Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
 
    ![](assets/direct-mail-simulate.png){width="800" align="center"}
-
-   Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
 
 Quando o arquivo de extração estiver pronto, conclua a configuração da [jornada](../building-journeys/journey-gs.md) para enviá-lo.
