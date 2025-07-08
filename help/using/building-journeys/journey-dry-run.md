@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 21%
+source-wordcount: '864'
+ht-degree: 24%
 
 ---
 
@@ -87,24 +87,10 @@ Para ativar o Dry run, siga estas etapas:
 
 Depois que a publicação no modo Seco for iniciada, você poderá visualizar a execução da jornada e como os perfis avançam por ramificações e nós de jornada.
 
-As métricas são exibidas diretamente na tela de jornada.
+As métricas são exibidas diretamente na tela de jornada. Saiba mais sobre métricas e relatórios ao vivo do jornada em [Relatório ao vivo na tela de jornada](report-journey.md).
 
 ![Monitorar a execução de simulação de jornada](assets/dry-run-metrics.png)
 
-Para cada atividade, na caixa de atividades, você pode verificar:
-
-* **[!UICONTROL Informado]**: número total de indivíduos que entraram nesta atividade. Para atividades de **Ação**, como não são executadas no modo de execução em andamento, essa métrica indica que os perfis estão passando.
-* **[!UICONTROL Saída (atender aos critérios de saída)]**: Número total de indivíduos que saíram da jornada dessa atividade devido a um critério de saída.
-* **[!UICONTROL Saída (saída forçada)]**: Número total de indivíduos que saíram da jornada enquanto ela estava pausada devido a uma configuração de profissional de jornada. Essa métrica é sempre igual a zero para jornadas no modo de Execução em tempo real.
-* **[!UICONTROL Erro]**: número total de indivíduos que tiveram um erro nessa atividade.
-
-
-No nível da jornada, na seção superior esquerda da tela, você pode verificar:
-
-* O número total de **Perfis inseridos**
-* O número total de **Perfis encerrados**
-* O número total de **Perfis com erro**
-* O número total de **Perfis descartados** na jornada
 
 Você também pode acessar os **Últimos relatórios de 24 horas** e os **Relatórios de tempo integral** para o Dry run. Para acessar esses relatórios, clique no botão **Exibir relatório** no canto superior direito da tela de jornada.
 
