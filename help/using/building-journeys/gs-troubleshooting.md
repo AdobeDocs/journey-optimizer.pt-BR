@@ -33,6 +33,6 @@ Obtenha ajuda para diagnosticar problemas com eventos de entrada, webhooks e aci
 * **[Solucionar problemas de uma ação personalizada](../action/troubleshoot-custom-action.md)**
 Saiba como depurar e validar ações personalizadas, incluindo manipulação de dados, erros de resposta e falhas de integração.
 
-Além disso, verifique esta [publicação do blog da Adobe Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"} detalhando **códigos de erro comuns** e como resolvê-los de maneira eficaz.
+Além disso, verifique esta [publicação do blog da Adobe Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt){target="_blank"} detalhando **códigos de erro comuns** e como resolvê-los de maneira eficaz.
 
 Esses recursos ajudarão você a isolar problemas rapidamente, validar sua configuração e fazer com que suas jornadas funcionem sem problemas novamente.
