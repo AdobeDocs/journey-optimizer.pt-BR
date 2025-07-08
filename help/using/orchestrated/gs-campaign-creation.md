@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 4840dd87f82d3c9b8cfa5a565ee661bb492cff50
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '367'
 ht-degree: 3%
 
 ---
@@ -43,24 +43,30 @@ Esta página aborda as etapas essenciais para criar e iniciar uma campanha orque
 
 ## Etapa 1: criar e agendar a campanha {#create}
 
-Antes de mais nada, você precisa criar sua campanha orquestrada e definir *quando* ela deverá ser executada. Seja um push único ou uma jornada recorrente, você terá controle total sobre o tempo e a frequência.
+Antes de mais nada, você precisa criar sua campanha orquestrada e definir *quando* ela deverá ser executada. Quer seja uma campanha de push única ou de vários canais recorrente, você terá controle total sobre o tempo e a frequência.
 
-👉 [Saiba como criar e agendar uma campanha](../orchestrated/create-orchestrated-campaign.md)
+➡️ [Saiba como criar e agendar uma campanha](../orchestrated/create-orchestrated-campaign.md)
 
 ## Etapa 2: Orquestrar atividades de campanha {#orchestrate}
 
 Depois que a campanha é criada, é hora de projetar a lógica por trás dela. Usando uma tela visual, você pode combinar atividades de direcionamento, entrega e controle de fluxo para moldar a experiência do cliente.
 
-👉 [Saiba como organizar atividades](../orchestrated/orchestrate-activities.md)
+➡️ [Saiba como organizar atividades](../orchestrated/orchestrate-activities.md)
 
 ## Etapa 3: iniciar e monitorar a campanha {#start}
 
 Você está quase lá! Execute sua campanha no modo de teste primeiro para detectar problemas. Em seguida, publique-o e monitore a execução em tempo real. Rastreie o progresso, verifique se há erros e veja como os perfis fluem em cada etapa.
 
-👉 [Saiba como iniciar e monitorar uma campanha](../orchestrated/start-monitor-campaigns.md)
+➡️ [Saiba como iniciar e monitorar uma campanha](../orchestrated/start-monitor-campaigns.md)
 
 ## Etapa 4: Analisar e relatar resultados {#report}
 
 Após o lançamento, use relatórios integrados para entender o que funcionou e o que poderia ser melhorado. Painéis em tempo real e análises detalhadas ajudam a otimizar campanhas futuras e refinar sua estratégia.
 
-👉 [Saiba mais sobre os relatórios](../orchestrated/reporting-campaigns.md)
+➡️ [Saiba mais sobre os relatórios](../orchestrated/reporting-campaigns.md)
+
+## Para ir além: redirecionar com base no envolvimento {#retarget}
+
+Depois que a campanha for executada, você poderá ir um passo além, redirecionando perfis com base em como eles interagiram com a mensagem, independentemente de terem aberto ou clicado em um link. Isso permite o acompanhamento com mensagens personalizadas, o reengajamento de usuários inativos ou a duplicação de interesses.
+
+➡️ [Saiba como redirecionar com base em eventos de feedback](../orchestrated/retarget.md)
