@@ -53,6 +53,6 @@ Explore as páginas abaixo para se aprofundar em tópicos específicos de soluç
 
 -->
 
-Além disso, verifique esta [publicação do blog da Adobe Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"} detalhando **códigos de erro comuns** e como resolvê-los de maneira eficaz.
+Além disso, verifique esta [publicação do blog da Adobe Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt){target="_blank"} detalhando **códigos de erro comuns** e como resolvê-los de maneira eficaz.
 
 Esses recursos ajudarão você a isolar problemas rapidamente, validar sua configuração e fazer com que suas jornadas funcionem sem problemas novamente.
