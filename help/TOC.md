@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2494'
 ht-degree: 97%
 
 ---
@@ -175,9 +175,11 @@ ht-degree: 97%
       + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
       + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
    + Solução de problemas {#troubleshoot-journey}
+      + [Solucionar problemas das jornadas](using/building-journeys/gs-troubleshooting.md)
       + [Solução de problemas de erros de jornada](using/building-journeys/troubleshooting.md)
       + [Solução de problemas de execução do jornada](using/building-journeys/troubleshooting-execution.md)
       + [Solução de problemas de ações de entrada](using/building-journeys/troubleshooting-inbound.md)
+      + [Solucionar problemas de uma ação personalizada](using/action/troubleshoot-custom-action.md)
 + Campanhas orquestradas {#orchestrated-campaigns}
    + [Introdução às campanhas orquestradas](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Etapas de configuração](using/orchestrated/configuration-steps.md)
@@ -770,7 +772,6 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
    + Configuração da ação {#action-journeys}
       + [Introdução a ações personalizadas](using/action/action.md)
       + [Configurar uma ação personalizada](using/action/about-custom-action-configuration.md)
-      + [Solucionar problemas de uma ação personalizada](using/action/troubleshoot-custom-action.md)
       + [Usar as respostas de chamada da API em ações personalizadas](using/action/action-response.md)
 + Conectar seus sistemas e ambientes {#connect-systems}
    + [Integrar a outras soluções](using/integrations/ajo-integrations.md)

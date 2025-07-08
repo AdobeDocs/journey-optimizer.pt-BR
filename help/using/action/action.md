@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: ações, jornada, mensagens, envio, conexões
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 48%
+source-wordcount: '285'
+ht-degree: 46%
 
 ---
 
@@ -44,8 +44,10 @@ Para exibir a lista de ações ou configurar uma nova ação, selecione **[!UICO
 
 ![](assets/custom1.png)
 
+Saiba como solucionar problemas de uma ação personalizada [nesta página dedicada](../action/troubleshoot-custom-action.md).
+
 ## Vídeo tutorial {#video}
 
 Saiba como configurar ações personalizadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430278?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

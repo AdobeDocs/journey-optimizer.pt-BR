@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1704'
 ht-degree: 20%
 
 ---
@@ -149,7 +149,7 @@ Por padrão, o Adobe Journey Optimizer é compatível com TLS 1.3 para ações p
 
 Você pode usar o MTLS (Mutual Transport Layer Security) para garantir segurança aprimorada em conexões de saída para ações personalizadas de Adobe Journey Optimizer. O mTLS é um método de segurança completo para autenticação mútua que garante que ambas as partes que compartilham informações sejam quem afirmam ser antes que os dados sejam compartilhados. O mTLS inclui uma etapa adicional em comparação ao TLS, na qual o servidor também solicita o certificado do cliente e o verifica ao final.
 
-A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definir os parâmetros de carga {#define-the-message-parameters}
 
@@ -186,3 +186,8 @@ Na configuração do campo, você deve:
 >
 >Se você configurar parâmetros opcionais enquanto permite valores Nulos, os parâmetros não preenchidos por um profissional do jornada serão enviados como Nulos.
 >
+
+
+## Solução de problemas
+
+Saiba como solucionar problemas de uma ação personalizada [nesta página dedicada](../action/troubleshoot-custom-action.md).
