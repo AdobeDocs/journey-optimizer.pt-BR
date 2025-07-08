@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -98,7 +98,7 @@ Os indicadores visuais de status ajudam você a entender o desempenho de cada at
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logs e tarefas"
->abstract="A tela **Logs and tasks** fornece um histórico da execução de campanha orquestrada, registrando todas as ações de usuário e encontrando erros."
+>abstract="A tela **Logs e tarefas** fornece um histórico da execução orquestrada da campanha, registrando todas as ações do usuário e erros encontrados."
 
 O monitoramento de logs e tarefas é uma etapa essencial para analisar campanhas orquestradas e garantir que elas estejam sendo executadas corretamente. Os logs e as tarefas podem ser acessados pelo botão **[!UICONTROL Logs]**, que está disponível nos modos de teste e ativo na barra de ferramentas da tela ou no painel de propriedades de cada atividade.
 

@@ -10,7 +10,7 @@ exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 15%
+ht-degree: 33%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
->title="Atividade email"
->abstract="A atividade Email permite enviar emails em sua campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ele serve para automatizar o processo de envio de emails para um público-alvo calculado na mesma campanha orquestrada. É possível combinar atividades canal em uma tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>title="Atividade de email"
+>abstract="A atividade Email permite enviar emails dentro de sua campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de envio de emails para um público-alvo calculado dentro da mesma campanha orquestrada. É possível combinar atividades canal em uma tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Atividade de SMS"
->abstract="A atividade de SMS permite enviar SMS em sua campanha orquestrada, para mensagens recorrentes e únicas. Ele serve para automatizar o processo de envio de SMS para um público-alvo calculado na mesma campanha orquestrada. É possível combinar atividades canal na tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade SMS permite enviar SMS dentro da sua campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de envio de SMS para um público-alvo calculado dentro de uma mesma campanha orquestrada. É possível combinar atividades de canal na tela da campanha em várias etapas para criar campanhas entre canais que possam acionar ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="Atividade de push"
->abstract="A atividade Push permite enviar notificações por push como parte da campanha orquestrada. Ela permite a entrega de campanhas orquestradas únicas e recorrentes, automatizando o envio de notificações por push para um público-alvo predefinido na mesma campanha orquestrada. Você pode combinar atividades de canal na tela da campanha para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade Push permite enviar notificações por push como parte da campanha orquestrada. Ela permite a entrega de campanhas orquestradas únicas e recorrentes, automatizando o envio de notificações por push para um público-alvo predefinido dentro da mesma campanha orquestrada. É possível combinar atividades de canal na tela da campanha para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 <!--
 UNUSED IDs in BJ
@@ -48,8 +48,8 @@ UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
->title="Atividade correspondência direta"
->abstract="A atividade de correspondência direta facilita o envio de correspondência direta dentro da campanha orquestrada, para mensagens recorrentes e únicas. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. Você pode combinar atividades de canal na tela de campanha orquestrada para criar campanhas entre canais que podem acionar ações com base no comportamento do cliente e nos dados."
+>title="Atividade de correspondência direta"
+>abstract="A atividade Correspondência direta facilita o envio de correspondência direta na campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. É possível combinar atividades de canal na tela de campanha orquestrada para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 
 +++ Sumário

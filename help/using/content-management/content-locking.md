@@ -10,7 +10,7 @@ exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
 source-wordcount: '1276'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Somente leitura"
->abstract="Este conteúdo está no modo somente leitura e não pode ser modificado."
+>abstract="Este conteúdo está em modo somente leitura e não pode ser modificado."
 
 O Journey Optimizer permite bloquear o conteúdo em modelos de email, bloqueando todo o modelo ou estruturas e componentes específicos. Isso evita edições ou exclusões não intencionais, oferecendo maior controle sobre a personalização de modelos e melhorando a eficiência e a confiabilidade de suas campanhas de email.
 
@@ -196,4 +196,4 @@ Estes são alguns exemplos de edições de email e as configurações de bloquei
 
 Saiba como bloquear conteúdo em modelos de email.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451612?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

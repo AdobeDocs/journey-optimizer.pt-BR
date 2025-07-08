@@ -10,7 +10,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 27%
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Atividade Criar público-alvo"
->abstract="A atividade **Criar público-alvo** permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade de canal, mas em uma atividade **Criar público-alvo**."
+>abstract="A atividade **Criar público-alvo** permite definir o público-alvo que entrará na campanha orquestrada. Ao enviar mensagens no contexto de uma campanha orquestrada, o público-alvo da mensagem não é definido na atividade do canal, mas em uma atividade **Criar público-alvo**."
 
 +++ Sumário
 
