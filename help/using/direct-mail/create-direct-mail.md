@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
+source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '749'
 ht-degree: 18%
 
 ---
@@ -55,7 +55,7 @@ Para criar uma campanha de correspondência direta, siga estas etapas:
 
 1. Na seção **[!UICONTROL Ações]**, escolha a **[!UICONTROL correspondência direta]**.
 
-1. Selecione ou crie uma nova configuração a ser usada por uma **[!UICONTROL Configuração de correspondência direta]**. [Saiba como criar uma configuração de correspondência direta](direct-mail-configuration.md#direct-mail-surface).
+1. Selecione ou crie uma **[!UICONTROL Configuração de correspondência direta]** para usar. [Saiba como criar uma configuração de correspondência direta](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
 

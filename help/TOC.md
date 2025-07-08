@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
+source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
-source-wordcount: '2496'
-ht-degree: 97%
+source-wordcount: '2502'
+ht-degree: 96%
 
 ---
 
@@ -313,6 +313,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Criação de uma correspondência direta](using/direct-mail/create-direct-mail.md)
       + [Verificação e envio de uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
       + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
+      + [Enviar mensagens de correspondência direta com o jornada](using/direct-mail/direct-mail-journeys.md)
    + Canal da web {#web}
       + [Introdução ao canal da web](using/web/get-started-web.md)
       + Configurar o canal da web {#configure-web-channel}
