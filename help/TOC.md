@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
+source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 97%
@@ -356,20 +356,6 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Criar uma mensagem LINE](using/line/create-line.md)
       + [Verificar e enviar mensagens LINE](using/line/send-line.md)
 + Gestão de conteúdo {#content-management}
-   + Páginas de destino {#landing-pages}
-      + [Introdução às páginas de destino](using/landing-pages/get-started-lp.md)
-      + [Criar uma página de destino](using/landing-pages/create-lp.md)
-      + [Gerenciar páginas de destino](using/landing-pages/manage-lp.md)
-      + Criação de conteúdo {#landing-pages-design}
-         + [Sobre modelos de página de destino](using/landing-pages/design-lp.md)
-         + [Criar o conteúdo da página de destino](using/landing-pages/lp-content.md)
-         + [Criar modelos](using/landing-pages/lp-templates.md)
-         + [Adicionar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
-      + [Criar uma lista de assinaturas](using/landing-pages/subscription-list.md)
-      + [Aprenda mais por meio de casos de uso](using/landing-pages/lp-use-cases.md)
-      + Configurar páginas de destino {#lp-configuration}
-         + [Configurar subdomínios de página de destino](using/landing-pages/lp-subdomains.md)
-         + [Definir predefinições da página de destino](using/landing-pages/lp-presets.md)
    + Personalização {#personalization}
       + [Introdução à personalização](using/personalization/personalize.md)
       + [Adicionar personalização](using/personalization/personalization-build-expressions.md)
@@ -392,6 +378,20 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
          + [Notificação do status do pedido](using/personalization/personalization-use-case.md)
          + [Email de abandono do carrinho](using/personalization/personalization-use-case-helper-functions.md)
          + [Email de receitas do plano de saúde](using/personalization/perso-uc-plan-prescriptions.md)
+   + Páginas de destino {#landing-pages}
+      + [Introdução às páginas de destino](using/landing-pages/get-started-lp.md)
+      + [Criar uma página de destino](using/landing-pages/create-lp.md)
+      + [Gerenciar páginas de destino](using/landing-pages/manage-lp.md)
+      + Criação de conteúdo {#landing-pages-design}
+         + [Sobre modelos de página de destino](using/landing-pages/design-lp.md)
+         + [Criar o conteúdo da página de destino](using/landing-pages/lp-content.md)
+         + [Criar modelos](using/landing-pages/lp-templates.md)
+         + [Adicionar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
+      + [Criar uma lista de assinaturas](using/landing-pages/subscription-list.md)
+      + [Aprenda mais por meio de casos de uso](using/landing-pages/lp-use-cases.md)
+      + Configurar páginas de destino {#lp-configuration}
+         + [Configurar subdomínios de página de destino](using/landing-pages/lp-subdomains.md)
+         + [Definir predefinições da página de destino](using/landing-pages/lp-presets.md)
    + Modelos de conteúdo {#content-templates}
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
       + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
