@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
-source-git-commit: fa53fbe84a0d9c20a47e3d9f312b1673ab0611ca
+source-git-commit: 6ede06256038f781cfb8307bacc4e731b0323a8c
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Explore as páginas abaixo para se aprofundar em tópicos específicos de soluç
     <div><strong>Solução de problemas de execução da jornada</strong><br/> Saiba como solucionar problemas de eventos de jornada, verificar se os perfis inseriram sua jornada, como eles navegam por ela e se as mensagens são enviadas.</div>
     </td>
     <td>
-    <a href="./building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
+    <a href="..building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
     <div><strong>Solucionar problemas de ações de entrada</strong><br/>Saiba como depurar problemas relacionados a ações de entrada em uma jornada para ajudá-lo a identificá-las e resolvê-las sozinho.</div>
     </td>
     <td>
@@ -45,7 +45,7 @@ Explore as páginas abaixo para se aprofundar em tópicos específicos de soluç
   <tr style="border: 0;">
     <td align="center"><a href="../building-journeys/troubleshooting.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="../building-journeys/troubleshooting-execution.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="./building-journeys/troubleshooting-inbound.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="../building-journeys/troubleshooting-inbound.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="../action/troubleshoot-custom-action.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
@@ -91,12 +91,12 @@ Explore as páginas abaixo para se aprofundar em tópicos específicos de soluç
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="Compreender códigos de erro comuns" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br>Além disso, verifique esta publicação do blog da Comunidade da Adobe detalhando <strong>códigos de erro comuns</strong> e como resolvê-los de maneira eficaz.
     </div>
       <div>
-     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt" target="_blank">Saiba mais</a></div>
+     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">Saiba mais</a></div>
     </div>
   </td>
 </tr>
