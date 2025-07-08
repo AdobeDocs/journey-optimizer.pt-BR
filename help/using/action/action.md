@@ -50,4 +50,4 @@ Saiba como solucionar problemas de uma ação personalizada [nesta página dedic
 
 Saiba como configurar ações personalizadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430278?quality=12&captions=por_br)
