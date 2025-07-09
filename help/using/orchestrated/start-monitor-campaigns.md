@@ -6,9 +6,9 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: e316c3dbbec028f7501990486506779656990c20
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '738'
 ht-degree: 9%
 
 ---
@@ -38,7 +38,9 @@ Você também pode executar a campanha no modo de teste para verificar sua execu
 
 ## Teste sua campanha antes de publicar {#test}
 
-O Journey Optimizer permite testar campanhas orquestradas antes de elas serem ativadas. No modo de teste, todas as atividades na tela são executadas, exceto **[!UICONTROL Salvar público-alvo]** atividades e atividades de canal. Não há impacto funcional nos seus dados ou público-alvo.
+O [!DNL Journey Optimizer] permite que você teste campanhas orquestradas antes de entrar em produção. Quando uma campanha é criada, ela entra no estado **Rascunho** por padrão. Nesse estado, é possível executar a campanha manualmente para testar o fluxo.
+
+Todas as atividades na tela são executadas, exceto **[!UICONTROL Salvar público-alvo]** atividades e atividades de canal. Não há impacto funcional nos seus dados ou público-alvo.
 
 Para testar uma campanha:
 
@@ -47,7 +49,9 @@ Para testar uma campanha:
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Cada atividade na campanha é executada sequencialmente até que o final do diagrama seja atingido. Durante a execução do teste, é possível gerenciar a campanha usando a barra de ação na tela. A partir daí, você pode:
+Cada atividade na campanha é executada sequencialmente até que o final do diagrama seja atingido.
+
+Durante o teste, é possível controlar a execução da campanha usando a barra de ação na tela. A partir daí, você pode:
 
 * **Parar** a execução a qualquer momento.
 * **Inicie** a execução novamente.
@@ -59,6 +63,8 @@ Se ocorrer um erro ou aviso durante a execução, você será notificado por mei
 
 Você também pode identificar rapidamente as atividades com falha usando os [indicadores visuais de status](#activities) exibidos diretamente em cada atividade. Para obter uma solução de problemas detalhada, abra os [logs da campanha](#logs-tasks), que fornecem informações detalhadas sobre o erro e seu contexto.
 
+Depois de validada, a campanha pode ser publicada.
+
 ## Publicar a campanha {#publish}
 
 Depois que sua campanha for testada e estiver pronta, clique em **[!UICONTROL Publicar]** para ativá-la.
@@ -66,6 +72,8 @@ Depois que sua campanha for testada e estiver pronta, clique em **[!UICONTROL Pu
 ![](assets/campaign-publish.png){zoomable="yes"}
 
 O fluxo visual é reiniciado e os perfis reais começam a fluir pela jornada em tempo real.
+
+Se a ação de publicação falhar (por exemplo, devido à falta de conteúdo da mensagem), você será alertado e deverá corrigir o problema antes de tentar novamente. Ao ser publicada com êxito, a campanha muda do status de **Rascunho** para **Online** e começa a ser executada (imediatamente ou conforme agendado).
 
 ## Monitorar a execução da campanha {#monitor}
 
