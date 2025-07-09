@@ -5,15 +5,16 @@ feature: Direct Mail
 topic: Content Management
 role: User
 level: Beginner
+badge: label="Disponibilidade limitada" type="Informative"
 hidefromtoc: true
 hide: true
 robots: noindex
 googlebot: noindex
 keywords: correspondência direta, mensagem, campanha
 exl-id: 44886355-ee3a-4323-899a-35d967487924
-source-git-commit: ca6e2834f92585094d3316e9259e3370cfad22fc
+source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '774'
 ht-degree: 19%
 
 ---
@@ -24,6 +25,10 @@ ht-degree: 19%
 >id="ajo_journey_direct_mail"
 >title="Atividade de término"
 >abstract="Correspondência direta é um canal offline que permite personalizar e gerar os arquivos de extração exigidos por provedores de correspondência direta de terceiros para o envio a clientes."
+
+>[!AVAILABILITY]
+>
+>Esse recurso só está disponível para algumas organizações (disponibilidade limitada).
 
 Correspondência direta é um canal offline que permite personalizar e gerar os arquivos de extração exigidos por provedores de correspondência direta de terceiros para o envio a clientes.
 
