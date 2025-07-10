@@ -5,11 +5,13 @@ title: Notas de versão de 2023
 description: Notas de versão do Journey Optimizer 2023
 feature: Release Notes
 topic: Content Management
+hide: true
+hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
+source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -923,7 +925,7 @@ Note that each widget can be resized and deleted as needed.
 
 * O campo **Período de espera de reentrada** foi adicionado às propriedades da jornada. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. [Saiba mais](../building-journeys/journey-properties.md#entrance)
 
-* Foram realizadas melhorias nas **datas de início e término da jornada**. Se você não tiver especificado uma data de início, ela agora será adicionada automaticamente no momento da publicação. Agora é possível adicionar uma data final para jornadas de **Público-alvo de leitura**. Isso permite que os perfis saiam automaticamente quando a data for atingida. [Saiba mais](../building-journeys/journey-gs.md#dates)
+* Foram realizadas melhorias nas **datas inicial e final da jornada**. Se você não tiver especificado uma data inicial, ela agora será adicionada automaticamente no momento da publicação. Agora é possível adicionar uma data final para jornadas de **Público-alvo de leitura**. Isso permite que os perfis saiam automaticamente quando a data for atingida. [Saiba mais](../building-journeys/journey-gs.md#dates)
 
 <!--
 
