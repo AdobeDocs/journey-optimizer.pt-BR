@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: a1af07fd8e95864ec758717b35e93555eada03f0
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 17%
+source-wordcount: '620'
+ht-degree: 15%
 
 ---
 
@@ -50,13 +50,11 @@ Capacitando decisões orientadas por dados, a Orquestração de campanhas aprove
 
 ## Pré-requisitos
 
->[!BEGINSHADEBOX]
+Antes de trabalhar com Campanhas orquestradas, é essencial garantir que você tenha as permissões apropriadas. O acesso às campanhas Orquestradas é restrito aos usuários atribuídos a um **[!UICONTROL Perfil de Produto]** relevante, como o Administrador do Orchestrated Campaign, o Aprovador do Orchestrated Campaign, o Gerente do Orchestrated Campaign ou o Visualizador do Orchestrated Campaign.
 
-Documentação em andamento
+Se não conseguir acessar as funcionalidades do Orchestrated campaign, entre em contato com o administrador para solicitar as permissões necessárias.
 
->[!ENDSHADEBOX]
-
-<!--prerequisites & permissions-->
+➡️[Saiba mais sobre perfis de produtos relacionados a Campanhas Orquestradas](../administration/ootb-product-profiles.md)
 
 ## Vamos nos aprofundar um pouco mais
 
