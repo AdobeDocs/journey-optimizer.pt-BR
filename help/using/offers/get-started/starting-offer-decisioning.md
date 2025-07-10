@@ -1,24 +1,24 @@
 ---
-title: Introdução à Gestão de decisões
+title: Introdução à gestão de decisões
 description: Saiba como o Adobe Journey Optimizer pode ajudar você a enviar aos clientes a oferta certa na hora certa
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Introdução à Gestão de decisões {#about-decision-management}
+# Introdução à gestão de decisões {#about-decision-management}
 
 >[!TIP]
 >
->A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio do canal de experiência baseado em código! [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
+>A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio do canal de experiência baseada em código! [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 Use o [!DNL Journey Optimizer] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos-alvo com ofertas personalizadas.
 
@@ -37,11 +37,11 @@ Os benefícios incluem:
 * Workflows aprimorados: em vez de criar várias entregas ou campanhas, as equipes de marketing podem aprimorar os workflows criando uma única entrega e variar as ofertas em diferentes partes do modelo,
 * Controle a quantidade de vezes que uma oferta é exibida em campanhas e clientes.
 
-➡️ [Saiba mais sobre o Gerenciamento de decisões nestes vídeos](#video)
+➡️ [Saiba mais sobre a Gestão de decisões nestes vídeos](#video)
 
 >[!NOTE]
 >
->Se você for um usuário do [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target="_blank"} aproveitando o aplicativo **Offer Decisioning**, todos os recursos de Gestão de Decisões descritos nesta seção também se aplicam a você.
+>Se você for um usuário da [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target="_blank"} que utiliza o aplicativo **Offer Decisioning**, todos os recursos de gestão de decisões descritos nesta seção também se aplicam a você.
 
 ## Sobre ofertas e decisões {#about-offers-and-decisions}
 
@@ -73,7 +73,7 @@ Os recursos e a integração da Gestão de decisões com a Adobe Experience Plat
 
 ## Conceder acesso à Gestão de decisões {#granting-acess-to-decision-management}
 
-As permissões para acessar e usar os recursos de decisão são gerenciadas com o [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/managing/user-guide.html){target="_blank"}.
+As permissões para acessar e usar recursos de decisão são gerenciadas usando o [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/managing/user-guide.html){target="_blank"}.
 
 Para conceder acesso à funcionalidade de gestão de decisões, é necessário criar um **[!UICONTROL perfil de produto]** e atribuir as permissões correspondentes aos usuários. Saiba mais sobre como gerenciar usuários e permissões do [!DNL Journey Optimizer] [nesta seção](../../administration/permissions.md).
 
@@ -115,12 +115,12 @@ Você pode encontrar abaixo a lista dos principais conceitos com os quais trabal
 
 O vídeo abaixo fornece uma introdução aos principais recursos, arquitetura e casos de uso da Gestão de decisões:
 
->[!VIDEO](https://video.tv.adobe.com/v/340418?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definir e gerenciar ofertas {#use-offer-decisioning}
 
 O vídeo abaixo mostra como usar a Gestão de decisões para definir e gerenciar suas ofertas e aproveitar os dados do cliente em tempo real.
 
->[!VIDEO](https://video.tv.adobe.com/v/340355?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

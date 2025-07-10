@@ -10,9 +10,9 @@ level: Experienced
 keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1290'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 ## Introdução às políticas de governança de dados {#gs}
 
-Com sua [estrutura de governança DULE (Aplicação e Rotulagem de Uso de Dados)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=pt-BR){target="_blank"}, a Adobe Experience Platform permite que você gerencie e imponha políticas de governança de dados em seus canais ao **rotular seus campos** e criar **ações de marketing** para cada canal.
+Com sua estrutura de [governança de rotulagem e aplicação de uso de dados (DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=pt-BR){target="_blank"}, a Adobe Experience Platform permite que você gerencie e aplique políticas de governança de dados em seus canais ao **rotular seus campos** e criar **ações de marketing** para cada canal.
 
 Depois que os rótulos e as ações de marketing forem definidos, você poderá criar **políticas de governança de dados** que vinculam esses dois elementos. Por exemplo, você pode configurar uma política que associe um rótulo “ePHI” a uma ação de marketing de “direcionamento por email”, garantindo que os campos rotulados como “ePHI” não sejam usados para personalizar mensagens de email. [Saiba como criar políticas de governança de dados](#policy)
 
@@ -128,10 +128,10 @@ Se um dos campos rotulados como _ePHI1_ (o campo de tipo sanguíneo no exemplo) 
 
 Ao identificar um campo restrito em uma jornada, campanha ou ação personalizada, o sistema exibirá um erro, impedindo que você a publique. 
 
-Os erros são visíveis no botão **[!UICONTROL Alertas]**. Selecione o erro para exibir informações detalhadas sobre a violação da política de governança de dados que ocorreu.
+Os erros são visíveis no botão **[!UICONTROL Alertas]**. Clique no erro para exibir informações detalhadas sobre a violação da política de governança de dados ocorrida.
 
 ![](assets/action-privacy8.png)
 
 Esta caixa de diálogo indica que a configuração atual da jornada ou campanha viola uma política de governança de dados existente. Use o diagrama de linhagem de dados para entender quais outras alterações de configuração precisam ser feitas antes que você possa ativar sua jornada ou campanha.
 
-Informações detalhadas estão disponíveis na [documentação de violação da política de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+Informações detalhadas estão disponíveis na [documentação sobre violação da política de uso de dados.](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.

@@ -5,7 +5,7 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Os conjuntos de regras permitem **agrupar várias regras em conjuntos de regras*
 
 * **Latência de atualização do contador de perfil**
 
-  Pode levar até 10 minutos depois que um cliente entrar em uma jornada para que o valor do contador de perfil seja atualizado.
+  Pode levar até 10 minutos depois que um cliente entrar em uma jornada para que o valor do contador de perfis seja atualizado.
 
   Se um perfil inserir duas jornadas em uma janela curta, a segunda jornada pode não reconhecer corretamente que o limite de frequência já foi atingido, possivelmente permitindo que o perfil insira ambas as jornadas.
 
