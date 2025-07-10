@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '968'
 ht-degree: 1%
 
 ---
@@ -75,6 +75,8 @@ Ao adicionar atividades, os botões de ação ficam disponíveis no painel de pr
 ![Ícone Desabilitar](assets/do-not-localize/activity-disable.svg) ![Ícone Habilitar](assets/do-not-localize/activity-enable.svg) Desabilitar/Habilitar a atividade. Quando a campanha orquestrada é executada, as atividades desabilitadas e as atividades a seguir no mesmo caminho não são executadas e a campanha orquestrada é interrompida.
 
 ![Ícone de Pausar](assets/do-not-localize/activity-pause.svg) ![Ícone Retomar](assets/do-not-localize/activity-resume.svg) Pausar/Retomar a atividade. Quando a campanha orquestrada é executada, ela é pausada na atividade pausada. A tarefa correspondente, bem como todas as que a seguem no mesmo caminho, não são executadas.
+
+    Você pode usar qualquer atividade na tela como um ponto de interrupção para pausar a execução da campanha. Isso significa que a campanha será executada somente até essa atividade e, em seguida, pausará a execução. Ao pausar a execução, o mecanismo de segmentação mantém os dados temporários disponíveis para visualização. É possível selecionar a transição de entrada antes da atividade pausada para visualizar os dados transportados. Saiba mais nesta seção: [Monitoramento de fluxo visual](../orchestrated/start-monitor-campaigns.md#flow).
 
 ![Ícone Copiar](assets/do-not-localize/activity-copy.svg) Copiar a atividade. [Saiba como copiar e colar atividades](#copy)
 

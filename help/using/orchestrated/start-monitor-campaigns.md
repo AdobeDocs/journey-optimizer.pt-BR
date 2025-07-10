@@ -6,10 +6,10 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: e316c3dbbec028f7501990486506779656990c20
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 9%
+source-wordcount: '774'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="Publicar campanha orquestrada"
->abstract="Para iniciar a campanha, você deve publicá-la. Certifique-se de que todos os avisos foram resolvidos antes da publicação."
+>abstract="Para iniciar a campanha, você deve publicá-la. Verifique se todos os erros foram apagados antes da publicação."
 
 +++ Sumário
 
@@ -71,9 +71,13 @@ Depois que sua campanha for testada e estiver pronta, clique em **[!UICONTROL Pu
 
 ![](assets/campaign-publish.png){zoomable="yes"}
 
+>[!NOTE]
+>
+>Se o botão **[!UICONTROL Publicar]** estiver desabilitado (esmaecido), acesse os logs na barra de ações e verifique as mensagens de erro. Todos os erros devem ser corrigidos antes de poder publicar uma campanha.
+
 O fluxo visual é reiniciado e os perfis reais começam a fluir pela jornada em tempo real.
 
-Se a ação de publicação falhar (por exemplo, devido à falta de conteúdo da mensagem), você será alertado e deverá corrigir o problema antes de tentar novamente. Ao ser publicada com êxito, a campanha muda do status de **Rascunho** para **Online** e começa a ser executada (imediatamente ou conforme agendado).
+Se a ação de publicação falhar (por exemplo, devido à falta de conteúdo da mensagem), você será alertado e deverá corrigir o problema antes de tentar novamente. Após a publicação bem-sucedida, a campanha começa a ser executada (imediatamente ou de acordo com o agendamento), muda do status de **Rascunho** para **Online** e torna-se &quot;Somente leitura&quot;.
 
 ## Monitorar a execução da campanha {#monitor}
 
