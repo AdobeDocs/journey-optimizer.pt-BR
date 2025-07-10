@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
-workflow-type: ht
-source-wordcount: '847'
-ht-degree: 100%
+source-git-commit: 7fb853a898a84ff31c7a24b48f963f06c4d10b6f
+workflow-type: tm+mt
+source-wordcount: '873'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,9 @@ Por padrão, somente os conjuntos de dados assimilados são exibidos. Se quiser 
 
 >[!NOTE]
 >
->A partir de 1º de novembro de 2024, a segmentação de transmissão se tornou incompatível com o uso de eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do Journey Optimizer. Além disso, com início em fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) está sendo implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer. [Saiba mais](datasets-ttl.md)
+>A partir de 1º de novembro de 2024, a segmentação por transmissão não oferecerá mais suporte a eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use Regras de negócio. Você pode encontrar mais detalhes em [esta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação do caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+>
+>Além disso, com início em fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) está sendo implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer. [Saiba mais](datasets-ttl.md)
 
 Selecione o nome de um conjunto de dados para acessar a tela de atividade do Conjunto de dados e ver os detalhes do conjunto de dados selecionado. A guia Atividade inclui um gráfico que visualiza a taxa de mensagens que estão sendo consumidas, bem como uma lista de lotes bem-sucedidos e com falha.
 
