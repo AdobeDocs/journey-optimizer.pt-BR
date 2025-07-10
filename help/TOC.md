@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
 source-wordcount: '2502'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 96%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Casos de uso {#journey-use-cases}
-      + [Aprenda mais por meio de casos de uso](using/building-journeys/jo-use-cases.md)
+      + [Aprenda por meio de casos de uso](using/building-journeys/jo-use-cases.md)
       + [Pesquisa de evento de experiência](using/building-journeys/exp-event-lookup.md)
       + [Enviar mensagens de vários canais](using/building-journeys/journeys-uc.md)
       + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/ajo-ac.md)
@@ -295,7 +295,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
          + [Fluxo de notificação por push](using/push/push-gs.md)
          + [Configurar canal de notificação por push](using/push/push-configuration.md)
          + [Fluxo de trabalho de início rápido de integração para dispositivos móveis](using/push/mobile-onboarding-wf.md)
-   + Canal SMS/MMS/RCS{#sms}
+   + Canal de SMS/MMS/RCS{#sms}
       + [Introdução às mensagens de texto](using/sms/get-started-sms.md)
       + [Criar uma mensagem SMS/MMS/RCS](using/sms/create-sms.md)
       + [Verificação e envio de mensagens de texto](using/sms/send-sms.md)
@@ -392,7 +392,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
          + [Criar modelos](using/landing-pages/lp-templates.md)
          + [Adicionar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
       + [Criar uma lista de assinaturas](using/landing-pages/subscription-list.md)
-      + [Aprenda mais por meio de casos de uso](using/landing-pages/lp-use-cases.md)
+      + [Aprenda por meio de casos de uso](using/landing-pages/lp-use-cases.md)
       + Configurar páginas de destino {#lp-configuration}
          + [Configurar subdomínios de página de destino](using/landing-pages/lp-subdomains.md)
          + [Definir predefinições da página de destino](using/landing-pages/lp-presets.md)
@@ -564,9 +564,9 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
             + [Modelo de otimização automática](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modelo de otimização personalizado](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Criar modelos de IA](using/experience-decisioning/ranking/create-ai-models.md)
-      + Usar dados do Adobe Experience Platform {#aep-data}
+      + Usar dados da Adobe Experience Platform {#aep-data}
          + [Aproveitar dados de contexto](using/experience-decisioning/context-data.md)
-         + [Usar o Adobe Experience Platform para a decisão](using/experience-decisioning/aep-data-exd.md)
+         + [Usar a Adobe Experience Platform para decisão](using/experience-decisioning/aep-data-exd.md)
       + [Criar estratégias de seleção](using/experience-decisioning/selection-strategies.md)
       + [Criar políticas de decisão](using/experience-decisioning/create-decision.md)
       + [Relatório de decisões](using/experience-decisioning/cja-reporting.md)
@@ -728,7 +728,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Exportar conjuntos de dados do Journey Optimizer](using/data/export-datasets.md)
       + [Exemplos de consultas](using/data/datasets-query-examples.md)
       + [Esquemas integrados >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
-   + [Usar dados do Adobe Experience Platform](using/data/lookup-aep-data.md)
+   + [Usar dados da Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuração de canais {#configuration}
    + [Introdução à configuração de canais](using/configuration/get-started-configuration.md)

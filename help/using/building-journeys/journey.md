@@ -11,20 +11,20 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
 
 # Introdução a jornadas{#jo-general-principle}
 
-Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. Você pode projetar cenários avançados em várias etapas com os seguintes recursos:
+Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. É possível projetar cenários avançados em várias etapas com os seguintes recursos:
 
 * Envie uma **entrega unitária** em tempo real acionada quando um evento é recebido, ou **em lote** usando os públicos-alvo da Adobe Experience Platform.
 
 * Aproveite **dados contextuais** de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros.
 
-* Use as **ações internas** para enviar mensagens criadas em [!DNL Journey Optimizer] ou criar **ações personalizadas** se você estiver usando um sistema de terceiros para enviar mensagens.
+* Use as **ações integradas** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou crie **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
 
 * Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
 
@@ -32,7 +32,7 @@ O designer de jornadas do Journey Optimizer oferece todos os recursos que profis
 
 Saiba como criar e projetar sua primeira jornada [nesta página](journey-gs.md).
 
-➡️ [Descobrir Journey Optimizer em vídeo](#video)
+➡️ [Conheça o Journey Optimizer neste vídeo](#video)
 
 ## Casos de uso{#uc-journey}
 
@@ -50,4 +50,4 @@ Saiba como criar jornadas [nestes casos de uso completos](jo-use-cases.md).
 
 Descubra os componentes de uma jornada e entenda os aspectos básicos da criação de uma jornada na tela.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430346?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
