@@ -6,14 +6,14 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 0ae8372c179707a87a6b512a5420753a4aaef754
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 11%
+source-wordcount: '591'
+ht-degree: 2%
 
 ---
 
-# Redirecionamento {#retarget}
+# Criação de consultas de redirecionamento {#retarget}
 
 +++ Sumário
 
@@ -24,8 +24,83 @@ ht-degree: 11%
 {style="table-layout:fixed"}
 
 +++
+
+</br>
+
 >[!BEGINSHADEBOX]
 
 Documentação em andamento
 
 >[!ENDSHADEBOX]
+
+O redirecionamento permite acompanhar os recipients com base em como eles responderam a uma campanha orquestrada anterior. Por exemplo, você pode enviar um segundo email para perfis que receberam, mas não clicaram no primeiro.
+
+A campanha orquestrada fornece duas fontes de dados principais para isso:
+
+- **Feedback de Mensagem**: captura eventos relacionados à entrega, por exemplo, mensagem enviada, aberta, rejeitada, etc.
+
+- **Acompanhamento de email**: captura as ações do usuário, por exemplo, cliques e aberturas.
+
+## Criar uma regra de redirecionamento baseada em comentários
+
+A Regra de Redirecionamento Baseada em Comentários permite redirecionar destinatários com base em eventos de entrega de mensagens capturados no conjunto de dados **Comentários de Mensagens**. Esses eventos incluem resultados como mensagens que estão sendo enviadas, abertas, rejeitadas ou marcadas como spam.
+
+Usando esses dados, você pode definir regras para identificar os recipients que receberam uma mensagem anterior, mas não se envolveram com ela, permitindo a comunicação de acompanhamento com base em status de delivery específicos.
+
+1. Crie uma nova **Campanha orquestrada**.
+
+2. Adicione uma atividade **Criar Público** e defina o targeting dimension como **Recipient (caas)**.
+
+3. No **Construtor de Regras**, clique em **Adicionar Condição** e selecione **Comentários sobre a Mensagem** no Seletor de Atributos. Clique em **Confirmar**.
+
+4. Adicione uma condição para **Status de Feedback** e defina o valor como **Mensagem Enviada**.
+
+5. Para direcionar uma campanha orquestrada específica:
+
+   - Adicione outra condição, pesquise por `entity` e navegue até:\
+     `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
+
+   - Selecione **Nome da campanha orquestrada** e especifique o nome da campanha.
+
+6. Para direcionar uma mensagem ou atividade específica dentro dessa campanha orquestrada:
+
+   - Adicione outra condição, pesquise por `entity` e navegue até:\
+     `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
+
+   - Selecione **Nome da Ação de Campanha Orquestrada** e especifique o nome da ação de campanha.
+
+     Nomes de ações podem ser encontrados clicando no ![ícone de Informações](assets/do-not-localize/info-icon.svg) ao lado de uma atividade na tela.
+
+   >[!TIP]
+   >
+   >Em vez de usar nomes, você também pode filtrar pela **ID da campanha** (UUID), que pode ser encontrada nas propriedades da campanha.
+
+## Criar uma regra de redirecionamento baseada em rastreamento
+
+A regra de redirecionamento baseada em rastreamento segmenta os destinatários com base em suas interações com uma mensagem, usando dados do conjunto de dados **Acompanhamento de email**. Ele captura as ações do usuário, como aberturas de email e cliques em links.
+
+Para redirecionar destinatários com base nas interações de mensagem (por exemplo, abrir ou clicar), use a entidade **Acompanhamento de email** da seguinte maneira:
+
+1. Crie uma nova **Campanha orquestrada** e adicione uma atividade **Criar público** com **Destinatário (caas)** como dimensão de direcionamento para se concentrar nos destinatários anteriores da campanha orquestrada.
+
+1. Adicione uma nova condição para o **Acompanhamento de emails**. Clique em **Confirmar** para criar uma condição &quot;O Acompanhamento de Email Existe, como&quot;.
+
+1. Nessa condição, adicione uma condição e procure pelo atributo **Tipo de Interação**.
+
+1. Nas opções de condição personalizadas, use **Incluído em** como operador e selecione um ou mais valores dependendo do seu caso de uso. Por exemplo:
+   - **Mensagem Aberta**
+   - **Link de Mensagem Clicado**
+
+1. Para associar os dados de rastreamento a uma campanha específica:
+
+   - Adicione uma condição no bloco de rastreamento de email.
+
+   - Navegue até `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
+
+   - Adicione condições para o **Nome da Campanha Orquestrada** e, se necessário, o **Nome da Ação da Campanha Orquestrada**.
+
+     Nomes de ações podem ser encontrados clicando no ![ícone de Informações](assets/do-not-localize/info-icon.svg) ao lado de uma atividade na tela.
+
+   >[!TIP]
+   >
+   >Em vez de usar nomes, você também pode filtrar pela **ID da campanha** (UUID), que pode ser encontrada nas propriedades da campanha.
