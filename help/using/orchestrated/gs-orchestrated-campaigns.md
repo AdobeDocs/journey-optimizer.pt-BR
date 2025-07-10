@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3bbbc09e05958579782e8e70974a241f1154d319
+source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '498'
 ht-degree: 6%
 
 ---
@@ -43,21 +43,16 @@ Este módulo traz a **orquestração de campanhas em lote** para [!DNL Journey O
 
 A Orquestração de campanhas é construída em torno de quatro pilares principais:
 
-1. **Públicos-alvo sob demanda**
-
-   Consulte instantaneamente em conjuntos de dados para criar segmentos de público-alvo usando qualquer combinação de tipos de dados e dimensões.
-
-1. **Segmentação e envio de várias entidades**
-
-   Vá além das campanhas com base em pessoas — use entidades como catálogos de produtos, locais de loja ou dados de serviço para direcionar com precisão.
-
-1. **Visibilidade e precisão de pré-envio**
-
-   Obtenha contagens exatas de segmentação e o escopo completo da campanha antes do lançamento, garantindo a precisão e a confiança.
-
-1. **Fluxos de Trabalho de Campanha em Várias Etapas**
-
-   Projete campanhas com várias etapas, desde mensagens diárias até campanhas complexas, como promoções sazonais ou lançamentos de produtos importantes.
+<table>
+<tr style="border: 0;">
+<td><img alt="Públicos-alvo sob demanda" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Públicos-alvo por demanda</b><br/>Consulte instantaneamente entre conjuntos de dados para criar segmentos de público-alvo usando qualquer combinação de tipos de dados e dimensões.</td></tr>
+<tr style="border: 0;">
+<td><img alt="Segmentação e envio de várias entidades" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Segmentação e envio de várias entidades</b><br/>Vá além das campanhas com base em pessoas; use entidades como catálogos de produtos, locais de lojas ou dados de serviço para direcionar com precisão.</td></tr>
+<tr style="border: 0;">
+<td><img alt="Visibilidade e precisão de pré-envio" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Visibilidade e precisão de pré-envio</b><br/>Obtenha contagens exatas de segmentação e escopo completo da campanha antes do lançamento, garantindo precisão e confiança.</td></tr>
+<tr style="border: 0;">
+<td><img alt="Fluxos de trabalho de campanha em várias etapas" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Fluxos de trabalho de campanha em várias etapas</b><br/>Crie campanhas em várias etapas, desde mensagens diárias até campanhas complexas, como promoções sazonais ou grandes lançamentos de produtos.</td></tr>
+</table>
 
 ## Campanhas e jornadas orquestradas
 
