@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
+source-git-commit: e6944928e40b471a86085c126ff678002357e66c
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 6%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
@@ -32,26 +32,19 @@ A Orquestração de Campanhas no [!DNL Adobe Journey Optimizer] possibilita camp
 
 Embora o marketing entre canais seja essencial, campanhas orquestradas o tornam ininterrupto. Com uma interface visual do tipo arrastar e soltar, você pode projetar e automatizar fluxos de trabalho de marketing complexos, desde a segmentação até a entrega de mensagens, em vários canais. Tudo acontece em um ambiente intuitivo, criado para oferecer velocidade, controle e eficiência.
 
-Este módulo traz a **orquestração de campanhas em lote** para [!DNL Journey Optimizer], permitindo que você:
-
-* Criar e executar **campanhas em várias etapas** (por exemplo, promoções sazonais, lançamentos de novos produtos),
-* Enviar **mensagens personalizadas e consistentes** através de qualquer canal,
-* Coordene **a segmentação, o processamento de arquivos e o gerenciamento de tarefas** em um único local,
-* Capacite a colaboração por meio de aprovações e atribuições de tarefas
-
 ## Principais recursos
 
 A Orquestração de campanhas é construída em torno de quatro pilares principais:
 
-<table>
+<table style="table-layout:fixed">
 <tr style="border: 0;">
-<td><img alt="Públicos-alvo sob demanda" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Públicos-alvo por demanda</b><br/>Consulte instantaneamente entre conjuntos de dados para criar segmentos de público-alvo usando qualquer combinação de tipos de dados e dimensões.</td></tr>
+<td><img alt="Públicos-alvo sob demanda" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Públicos-alvo por demanda</b><br/>Consulte instantaneamente entre conjuntos de dados para criar segmentos de público-alvo usando qualquer combinação de tipos de dados e dimensões.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentação e envio de várias entidades" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Segmentação e envio de várias entidades</b><br/>Vá além das campanhas com base em pessoas; use entidades como catálogos de produtos, locais de lojas ou dados de serviço para direcionar com precisão.</td></tr>
+<td><img alt="Segmentação e envio de várias entidades" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>Segmentação e envio de várias entidades</b><br/>Vá além das campanhas com base em pessoas; use entidades como catálogos de produtos, locais de lojas ou dados de serviço para direcionar com precisão.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Visibilidade e precisão de pré-envio" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Visibilidade e precisão de pré-envio</b><br/>Obtenha contagens exatas de segmentação e escopo completo da campanha antes do lançamento, garantindo precisão e confiança.</td></tr>
+<td><img alt="Visibilidade e precisão de pré-envio" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>Visibilidade e precisão de pré-envio</b><br/>Obtenha contagens exatas de segmentação e escopo completo da campanha antes do lançamento, garantindo precisão e confiança.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Fluxos de trabalho de campanha em várias etapas" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Fluxos de trabalho de campanha em várias etapas</b><br/>Crie campanhas em várias etapas, desde mensagens diárias até campanhas complexas, como promoções sazonais ou grandes lançamentos de produtos.</td></tr>
+<td><img alt="Fluxos de trabalho de campanha em várias etapas" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>Fluxos de trabalho de campanha em várias etapas</b><br/>Crie campanhas em várias etapas, desde mensagens diárias até campanhas complexas, como promoções sazonais ou grandes lançamentos de produtos.</td></tr>
 </table>
 
 ## Campanhas e jornadas orquestradas
