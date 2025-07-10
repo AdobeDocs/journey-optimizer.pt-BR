@@ -28,7 +28,7 @@ ht-degree: 6%
 
 <br/>
 
-# Introdução à Orquestração de campanha {#gs}
+&#x200B;# Introdução à Orquestração de campanha {#gs}
 
 A Orquestração de Campanhas no [!DNL Adobe Journey Optimizer] possibilita campanhas de marketing sofisticadas e iniciadas pela marca em todos os canais, ajudando você a impulsionar o engajamento, a receita e a fidelidade do cliente em escala.
 
