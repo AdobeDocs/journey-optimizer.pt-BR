@@ -37,7 +37,7 @@ Por padrão, somente os conjuntos de dados assimilados são exibidos. Se quiser 
 
 >[!NOTE]
 >
->A partir de 1º de novembro de 2024, a segmentação por transmissão não oferecerá mais suporte a eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use Regras de negócio. Você pode encontrar mais detalhes em [esta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação do caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+>A partir de 1º de novembro de 2024, a segmentação por transmissão não oferecerá mais suporte a eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use Regras de negócio. Você pode encontrar mais detalhes em [esta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação do caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=pt){target="_blank"}.
 >
 >Além disso, com início em fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) está sendo implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer. [Saiba mais](datasets-ttl.md)
 
