@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '283'
 ht-degree: 13%
 
 ---
@@ -32,8 +32,13 @@ ht-degree: 13%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentação em andamento
+
+>[!ENDSHADEBOX]
 
 A atividade **[!UICONTROL Wait]** é um componente **[!UICONTROL Flow control]** usado para introduzir um atraso entre duas atividades em uma campanha orquestrada. Isso ajuda a garantir que suas atividades de acompanhamento sejam mais cronometradas e relevantes para o engajamento do usuário.
 

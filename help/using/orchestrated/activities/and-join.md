@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 37%
+source-wordcount: '344'
+ht-degree: 36%
 
 ---
 
@@ -33,6 +33,12 @@ ht-degree: 37%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentação em andamento
+
+>[!ENDSHADEBOX]
 
 A atividade **[!UICONTROL AND-join]** é uma atividade de **[!UICONTROL Controle de fluxo]**. Ele permite sincronizar várias ramificações de execução de uma campanha orquestrada.
 

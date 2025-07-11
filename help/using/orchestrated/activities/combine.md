@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1106'
 ht-degree: 48%
 
 ---
@@ -31,8 +31,13 @@ ht-degree: 48%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentação em andamento
+
+>[!ENDSHADEBOX]
 
 A atividade **[!UICONTROL Combinar]** é um tipo de atividade de **[!UICONTROL Direcionamento]** que permite segmentar efetivamente a população de entrada. Ele permite mesclar várias populações, excluir segmentos específicos ou reter apenas os dados compartilhados em vários targets.
 

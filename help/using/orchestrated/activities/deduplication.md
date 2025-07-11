@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '699'
 ht-degree: 35%
 
 ---
@@ -47,8 +47,13 @@ ht-degree: 35%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentação em andamento
+
+>[!ENDSHADEBOX]
 
 A atividade **[!UICONTROL Deduplication]** é uma atividade **[!UICONTROL Targeting]**. Essa atividade permite excluir duplicados no(s) resultado(s) das atividades de entrada, por exemplo, perfis duplicados na lista de recipients. A atividade **[!UICONTROL Deduplication]** geralmente é usada após as atividades de direcionamento e antes das atividades que permitem o uso de dados direcionados.
 

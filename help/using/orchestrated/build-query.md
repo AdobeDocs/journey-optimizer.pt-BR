@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1805'
 ht-degree: 8%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 8%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentação em andamento
+
+>[!ENDSHADEBOX]
 
 As principais etapas para criar regras para suas campanhas orquestradas são as seguintes:
 
@@ -105,7 +111,7 @@ Para adicionar condições em sua query, siga estas etapas:
    | Curtir | Semelhante ao operador Contains, permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) como &#39;Jon%s&#39;. O caractere curinga atua como um &quot;joker&quot; para encontrar nomes como &quot;Jones&quot;. |
    | Not like | Semelhante ao operador Contains, permite inserir um caractere curinga % no valor. | Sobrenome (@lastName) diferente de &#39;Smi%h&#39;. Os destinatários que têm &#39;Smith&#39; como sobrenome não serão retornados. |
 
-   +++
++++
 
 1. No campo **Value**, defina o valor esperado. Você também pode usar o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no ícone ![imagem mostrando o ícone do editor de expressão](assets/do-not-localize/rule-builder-icon-editor.svg). [Saiba como editar expressões](../orchestrated/edit-expressions.md)
 
@@ -115,7 +121,7 @@ Para adicionar condições em sua query, siga estas etapas:
 
    ![imagem mostrando a opção de predefinição](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
 

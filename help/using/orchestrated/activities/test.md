@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '462'
 ht-degree: 29%
 
 ---
@@ -36,8 +36,13 @@ ht-degree: 29%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentação em andamento
+
+>[!ENDSHADEBOX]
 
 A atividade **[!UICONTROL Teste]** é uma atividade de **[!UICONTROL Controle de fluxo]**. Ela permite habilitar transições com base nas condições especificadas.
 

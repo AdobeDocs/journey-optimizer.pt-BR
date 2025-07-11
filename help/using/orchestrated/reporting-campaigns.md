@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '269'
 ht-degree: 9%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 9%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentação em andamento
+
+>[!ENDSHADEBOX]
 
 A campanha orquestrada oferece insights acionáveis por meio de seus eficientes recursos de relatório. Esses insights ajudam você a entender melhor o comportamento do público-alvo, medir o desempenho de cada etapa na jornada do cliente e tomar decisões orientadas por dados para otimizar campanhas futuras. Com métricas e visualizações detalhadas, é possível rastrear o engajamento e ajustar as estratégias de direcionamento para obter o máximo impacto.
 

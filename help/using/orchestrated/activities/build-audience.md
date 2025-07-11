@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 33%
 
 ---
@@ -34,6 +34,12 @@ ht-degree: 33%
 
 <br/>
 
+>[!BEGINSHADEBOX]
+
+Documentação em andamento
+
+>[!ENDSHADEBOX]
+
 Como profissional de marketing, você pode criar segmentos complexos de público-alvo por meio de uma interface intuitiva, permitindo direcionar usuários com base em uma grande variedade de critérios e comportamentos para adaptar suas campanhas com mais eficiência.
 
 Para fazer isso, use a atividade de direcionamento **[!UICONTROL Criar público]**. Essa atividade define o público-alvo que entra na campanha orquestrada. Ao enviar mensagens como parte de uma campanha orquestrada, o público-alvo é definido na atividade **[!UICONTROL Criar público]**, não dentro da campanha orquestrada.
@@ -55,7 +61,7 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Criar público-alvo]
 
 1. Configure seu público seguindo as etapas detalhadas nas guias abaixo.
 
-1. Escolha a **[!UICONTROL Dimensão de direcionamento]**. O targeting dimension permite definir a população-alvo da operação: destinatários, beneficiários(as) de contrato, operadores(as), assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários.
+1. Escolha a **[!UICONTROL Dimensão de direcionamento]**. A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários(as) de contrato, operadores(as), assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários.
 
 1. Clique em **[!UICONTROL Continuar]**.
 

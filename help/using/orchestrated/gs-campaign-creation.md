@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 4840dd87f82d3c9b8cfa5a565ee661bb492cff50
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '370'
 ht-degree: 3%
 
 ---
@@ -29,6 +29,12 @@ ht-degree: 3%
 
 <br/>
 
+>[!BEGINSHADEBOX]
+
+Documentação em andamento
+
+>[!ENDSHADEBOX]
+
 Esta página aborda as etapas essenciais para criar e iniciar uma campanha orquestrada, desde a configuração e o design até o monitoramento e os relatórios.
 
 <!--
@@ -43,7 +49,7 @@ Esta página aborda as etapas essenciais para criar e iniciar uma campanha orque
 
 ## Etapa 1: criar e agendar a campanha {#create}
 
-Antes de mais nada, você precisa criar sua campanha orquestrada e definir *quando* ela deverá ser executada. Quer seja uma campanha de push única ou de vários canais recorrente, você terá controle total sobre o tempo e a frequência.
+Antes de mais nada, você precisa criar sua campanha orquestrada e definir *quando* ela deverá ser executada. Seja uma única vez ou uma campanha multicanal recorrente, você terá controle total sobre o tempo e a frequência.
 
 ➡️ [Saiba como criar e agendar uma campanha](../orchestrated/create-orchestrated-campaign.md)
 
