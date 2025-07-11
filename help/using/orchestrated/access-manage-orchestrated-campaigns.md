@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: b65078c34b114ff118d24f3c93b23b35bad7227e
+source-git-commit: d464668582fbb4bea6f8d4ef57e17f80b5d83378
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '691'
 ht-degree: 21%
 
 ---
@@ -85,4 +85,4 @@ As campanhas orquestradas podem ter vários status:
 * **[!UICONTROL Concluído]**: a execução da campanha orquestrada foi concluída. O status Completed é atribuído automaticamente até 3 dias após uma campanha concluir o envio de mensagens sem erro.
 * **[!UICONTROL Fechado]**: esse status é exibido quando uma campanha recorrente é fechada. A campanha continua sua execução até que todas as atividades tenham sido concluídas, mas nenhum perfil mais pode entrar na campanha.
 * **[!UICONTROL Arquivado]**: a campanha orquestrada foi arquivada. Todas as campanhas arquivadas são excluídas em uma reprogramação contínua 30 dias após a última data modificada. Você pode duplicar uma campanha arquivada, se necessário, para continuar trabalhando nela.
-* **[!UICONTROL Parado]**: a execução da campanha orquestrada foi interrompida. Para iniciar a campanha novamente, você precisa duplicá-la. si erreur, triângulo avec restera
+* **[!UICONTROL Parado]**: a execução da campanha orquestrada foi interrompida. Para iniciar a campanha novamente, você precisa duplicá-la.
