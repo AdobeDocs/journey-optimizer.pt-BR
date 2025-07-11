@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
+source-git-commit: c39248867a5e9f21ef4c87122585226104f4a587
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '453'
 ht-degree: 7%
 
 ---
@@ -38,7 +38,7 @@ Embora o marketing entre canais seja essencial, campanhas orquestradas o tornam 
 
 A Orquestração de campanhas é construída em torno de quatro pilares principais:
 
-<table>
+<table style="table-layout:auto">
 <tr style="border: 0;">
 <td><img alt="Públicos-alvo sob demanda" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Públicos-alvo por demanda</b><br/>Consulte instantaneamente entre conjuntos de dados para criar segmentos de público-alvo usando qualquer combinação de tipos de dados e dimensões.</td></tr>
 <tr style="border: 0;">
@@ -69,7 +69,7 @@ Se não conseguir acessar as funcionalidades do Orchestrated campaign, entre em 
 
 Agora que você entende o que são campanhas orquestradas, é hora de se aprofundar nessas seções de documentação para começar a trabalhar com o recurso.
 
-&lt;tabela&quot;><tr style="border: 0; text-align: center;">
+<table><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="Acessar e gerenciar fluxos de trabalho" src="assets/do-not-localize/workflow-access.jpeg">
