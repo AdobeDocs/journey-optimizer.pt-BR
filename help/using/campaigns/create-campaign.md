@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1283'
 ht-degree: 22%
 
 ---
@@ -65,7 +65,7 @@ Para definir a população direcionada por uma campanha de marketing agendada, s
 
 1. Na seção **Público-alvo**, clique no botão **[!UICONTROL Selecionar público-alvo]** para exibir a lista de públicos-alvo do Adobe Experience Platform disponíveis. Saiba mais sobre públicos em [esta seção](../audience/about-audiences.md).
 
-1. No campo **[!UICONTROL Tipo de identidade]**, escolha o tipo de chave a ser usado para identificar os indivíduos do público-alvo selecionado. Você pode usar um tipo de identidade existente ou criar um novo usando o Serviço de identidade da Adobe Experience Platform. Os namespaces de Identidade Padrão estão listados em [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+1. No campo **[!UICONTROL Tipo de identidade]**, escolha o tipo de chave a ser usado para identificar os indivíduos do público-alvo selecionado. Você pode usar um tipo de identidade existente ou criar um novo usando o Serviço de identidade da Adobe Experience Platform. Os namespaces de Identidade Padrão estão listados em [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
    Somente um tipo de identidade é permitido por campanha. Indivíduos pertencentes a um segmento que não tem o tipo de identidade selecionado entre suas diferentes identidades não podem ser alvos da campanha.
 
@@ -158,6 +158,11 @@ Além do conteúdo da mensagem propriamente dita, você pode definir as seguinte
 >id="ajo_campaigns_schedule_triggers"
 >title="Acionadores de ação da campanha"
 >abstract="Defina uma frequência na qual a mensagem da campanha deve ser enviada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_throttling"
+>title="Controle da taxa de limitação"
+>abstract="Controle da taxa de limitação"
 
 Por padrão, as campanhas programadas começam assim que são ativadas manualmente e terminam assim que a mensagem é enviada uma vez.
 
