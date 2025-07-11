@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 34788c05cdcdcbc0c261df3f931a5bc1786fff5f
+source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '454'
 ht-degree: 7%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 7%
 A Orquestração de Campanhas no [!DNL Adobe Journey Optimizer] possibilita campanhas de marketing sofisticadas e iniciadas pela marca em todos os canais, ajudando você a impulsionar o engajamento, a receita e a fidelidade do cliente em escala.
 
 Embora o marketing entre canais seja essencial, campanhas orquestradas o tornam ininterrupto. Com uma interface visual do tipo arrastar e soltar, você pode projetar e automatizar fluxos de trabalho de marketing complexos, desde a segmentação até a entrega de mensagens, em vários canais. Tudo acontece em um ambiente intuitivo, criado para oferecer velocidade, controle e eficiência.
+
+![](assets/canvas-example-diagram.png){zoomable="yes"}
 
 ## Principais recursos
 
@@ -61,13 +63,13 @@ Antes de trabalhar com Campanhas orquestradas, é essencial garantir que você t
 
 Se não conseguir acessar as funcionalidades do Orchestrated campaign, entre em contato com o administrador para solicitar as permissões necessárias.
 
-➡️[Saiba mais sobre perfis de produtos relacionados a Campanhas Orquestradas](../administration/ootb-product-profiles.md)
+➡️ [Saiba mais sobre perfis de produtos relacionados a Campanhas Orquestradas](../administration/ootb-product-profiles.md)
 
 ## Vamos nos aprofundar um pouco mais
 
 Agora que você entende o que são campanhas orquestradas, é hora de se aprofundar nessas seções de documentação para começar a trabalhar com o recurso.
 
-<table style="table-layout:fixed"><tr style="border: 0;">
+&lt;tabela&quot;><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="Acessar e gerenciar fluxos de trabalho" src="assets/do-not-localize/workflow-access.jpeg">
