@@ -6,10 +6,10 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 0ae8372c179707a87a6b512a5420753a4aaef754
+source-git-commit: b1bee7a5ee05e0e535a982c31bafafdc760d21ae
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,72 +35,99 @@ Documentação em andamento
 
 O redirecionamento permite acompanhar os recipients com base em como eles responderam a uma campanha orquestrada anterior. Por exemplo, você pode enviar um segundo email para perfis que receberam, mas não clicaram no primeiro.
 
-A campanha orquestrada fornece duas fontes de dados principais para isso:
+A **[!UICONTROL Campanha Orquestrada]** fornece duas fontes de dados principais para isso:
 
-- **Feedback de Mensagem**: captura eventos relacionados à entrega, por exemplo, mensagem enviada, aberta, rejeitada, etc.
+* **[!UICONTROL Feedback de Mensagem]**: captura eventos relacionados à entrega, por exemplo, mensagem enviada, aberta, rejeitada, etc.
+* **[!UICONTROL Acompanhamento de email]**: captura as ações do usuário, por exemplo, cliques e aberturas.
 
-- **Acompanhamento de email**: captura as ações do usuário, por exemplo, cliques e aberturas.
-
-## Criar uma regra de redirecionamento baseada em comentários
+## Criar uma regra de redirecionamento baseada em comentários {#feedback-retarget}
 
 A Regra de Redirecionamento Baseada em Comentários permite redirecionar destinatários com base em eventos de entrega de mensagens capturados no conjunto de dados **Comentários de Mensagens**. Esses eventos incluem resultados como mensagens que estão sendo enviadas, abertas, rejeitadas ou marcadas como spam.
 
-Usando esses dados, você pode definir regras para identificar os recipients que receberam uma mensagem anterior, mas não se envolveram com ela, permitindo a comunicação de acompanhamento com base em status de delivery específicos.
+Usando esses dados, você pode definir regras para identificar os recipients que receberam uma mensagem anterior, permitindo a comunicação de acompanhamento com base em status de delivery específicos.
 
-1. Crie uma nova **Campanha orquestrada**.
+1. Crie uma nova **[!UICONTROL Campanha orquestrada]**.
 
-2. Adicione uma atividade **Criar Público** e defina o targeting dimension como **Recipient (caas)**.
+1. Adicione uma atividade **[!UICONTROL Criar Público]** e defina o targeting dimension como **[!UICONTROL Recipient (caas)]**.
 
-3. No **Construtor de Regras**, clique em **Adicionar Condição** e selecione **Comentários sobre a Mensagem** no Seletor de Atributos. Clique em **Confirmar**.
+1. No **[!UICONTROL Construtor de Regras]**, clique em **[!UICONTROL Adicionar Condição]** e selecione **[!UICONTROL Comentários sobre a Mensagem]** no **[!UICONTROL Seletor de Atributos]**. Clique em **[!UICONTROL Confirmar]** para criar uma **Condição Feedback de Mensagem como**.
 
-4. Adicione uma condição para **Status de Feedback** e defina o valor como **Mensagem Enviada**.
+   ![](assets/retarget_1.png)
 
-5. Para direcionar uma campanha orquestrada específica:
+1. Escolha o atributo **[!UICONTROL Status de Feedback]** para direcionar eventos de entrega de mensagens.
 
-   - Adicione outra condição, pesquise por `entity` e navegue até:\
-     `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
++++ Passo a passo detalhado
 
-   - Selecione **Nome da campanha orquestrada** e especifique o nome da campanha.
+   1. Adicione outra condição vinculada ao atributo **[!UICONTROL Feedback da mensagem]**.
 
-6. Para direcionar uma mensagem ou atividade específica dentro dessa campanha orquestrada:
+   1. Procure o atributo **[!UICONTROL Status do feedback]** e clique em **[!UICONTROL Confirmar]**.
 
-   - Adicione outra condição, pesquise por `entity` e navegue até:\
-     `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
+      ![](assets/retarget_3.png)
 
-   - Selecione **Nome da Ação de Campanha Orquestrada** e especifique o nome da ação de campanha.
+   1. No menu suspenso **[!UICONTROL Condição personalizada]**, escolha qual status de entrega rastrear no menu suspenso **[!UICONTROL Valor]**.
 
-     Nomes de ações podem ser encontrados clicando no ![ícone de Informações](assets/do-not-localize/info-icon.svg) ao lado de uma atividade na tela.
+      ![](assets/retarget_4.png)
 
-   >[!TIP]
-   >
-   >Em vez de usar nomes, você também pode filtrar pela **ID da campanha** (UUID), que pode ser encontrada nas propriedades da campanha.
++++
+
+1. Escolha o atributo **[!UICONTROL Nome da Campanha Orquestrada]** para direcionar uma campanha orquestrada específica.
+
++++ Passo a passo detalhado
+
+   1. Adicione outra condição vinculada ao atributo **[!UICONTROL Feedback da mensagem]**, pesquise por **[!UICONTROL entidade]** e navegue até:
+
+      `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign entity`.
+
+   1. Selecione **[!UICONTROL Nome da Campanha Orquestrada]**.
+
+      ![](assets/retarget_5.png)
+
+   1. No menu **[!UICONTROL Condição personalizada]**, especifique o nome da campanha no campo **[!UICONTROL Valor]**.
+
++++
+
+1. Escolha o atributo **[!UICONTROL Nome da Ação de Campanha Orquestrada]** para direcionar uma mensagem ou atividade específica em uma campanha orquestrada.
+
++++ Passo a passo detalhado
+
+   1. Adicione outra condição vinculada ao atributo **[!UICONTROL Feedback da mensagem]**, pesquise por **[!UICONTROL entidade]** e navegue até:
+
+      `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign entity`.
+
+   1. Selecione **[!UICONTROL Nome da Ação de Campanha Orquestrada]**.
+
+      ![](assets/retarget_6.png)
+
+   1. No menu **[!UICONTROL Condição personalizada]**, especifique o nome da ação de campanha no campo **[!UICONTROL Valor]**.
+
+      Nomes de ações podem ser encontrados clicando no ![ícone de Informações](assets/do-not-localize/info-icon.svg) ao lado de uma atividade na tela.
+
+   ++
+
+1. Como alternativa, você também pode filtrar pela **[!UICONTROL ID da campanha]** (UUID), que pode ser encontrada nas propriedades da campanha.
 
 ## Criar uma regra de redirecionamento baseada em rastreamento
 
-A regra de redirecionamento baseada em rastreamento segmenta os destinatários com base em suas interações com uma mensagem, usando dados do conjunto de dados **Acompanhamento de email**. Ele captura as ações do usuário, como aberturas de email e cliques em links.
+A regra de redirecionamento baseada em rastreamento segmenta os destinatários com base em suas interações com uma mensagem, usando dados do conjunto de dados **[!UICONTROL Acompanhamento de email]**. Ele captura as ações do usuário, como aberturas de email e cliques em links.
 
-Para redirecionar destinatários com base nas interações de mensagem (por exemplo, abrir ou clicar), use a entidade **Acompanhamento de email** da seguinte maneira:
+Para redirecionar destinatários com base nas interações de mensagem (por exemplo, abrir ou clicar), use a entidade **[!UICONTROL Acompanhamento de email]** da seguinte maneira:
 
-1. Crie uma nova **Campanha orquestrada** e adicione uma atividade **Criar público** com **Destinatário (caas)** como dimensão de direcionamento para se concentrar nos destinatários anteriores da campanha orquestrada.
+1. Crie uma nova **[!UICONTROL Campanha orquestrada]**.
 
-1. Adicione uma nova condição para o **Acompanhamento de emails**. Clique em **Confirmar** para criar uma condição &quot;O Acompanhamento de Email Existe, como&quot;.
+1. Adicione uma atividade **[!UICONTROL Build Audience]** e defina o targeting dimension como **[!UICONTROL Recipient (caas)]** para se concentrar em recipients de campanhas orquestradas anteriores.
 
-1. Nessa condição, adicione uma condição e procure pelo atributo **Tipo de Interação**.
+1. No **[!UICONTROL Construtor de Regras]**, clique em **[!UICONTROL Adicionar Condição]** e selecione **[!UICONTROL Acompanhamento de Email]** no **[!UICONTROL Seletor de Atributos]**.
 
-1. Nas opções de condição personalizadas, use **Incluído em** como operador e selecione um ou mais valores dependendo do seu caso de uso. Por exemplo:
-   - **Mensagem Aberta**
-   - **Link de Mensagem Clicado**
+   Clique em **[!UICONTROL Confirmar]** para criar uma **Condição**.
 
-1. Para associar os dados de rastreamento a uma campanha específica:
+   ![](assets/retarget_2.png)
 
-   - Adicione uma condição no bloco de rastreamento de email.
+1. Para direcionar as interações dos perfis com uma mensagem, adicione outra condição vinculada ao atributo **[!UICONTROL Acompanhamento de email]** e procure pelo atributo **[!UICONTROL Tipo de Interação]**.
 
-   - Navegue até `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
+   ![](assets/retarget_7.png)
 
-   - Adicione condições para o **Nome da Campanha Orquestrada** e, se necessário, o **Nome da Ação da Campanha Orquestrada**.
+1. Nas opções de condição personalizadas, use **[!UICONTROL Incluído em]** como operador e selecione um ou mais valores dependendo do seu caso de uso, por exemplo, **[!UICONTROL Mensagem Aberta]** ou **[!UICONTROL Link de Mensagem Clicado]**.
 
-     Nomes de ações podem ser encontrados clicando no ![ícone de Informações](assets/do-not-localize/info-icon.svg) ao lado de uma atividade na tela.
+   ![](assets/retarget_8.png)
 
-   >[!TIP]
-   >
-   >Em vez de usar nomes, você também pode filtrar pela **ID da campanha** (UUID), que pode ser encontrada nas propriedades da campanha.
+1. Para associar os dados de rastreamento a uma campanha específica, adicione uma nova condição **[!UICONTROL Feedback da mensagem]** e siga as etapas detalhadas [nesta seção](#feedback-retarget).
