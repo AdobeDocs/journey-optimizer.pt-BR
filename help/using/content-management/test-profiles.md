@@ -1,18 +1,18 @@
 ---
-title: Seleção de perfis de teste
+title: Selecionar perfis de teste
 description: Saiba como selecionar perfis de teste para visualizar e testar o conteúdo.
 feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
+source-git-commit: 95a6d032808bc735a27a98dcb61efefa93cf5047
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 16%
 
 ---
 
-# Seleção de perfis de teste {#select-test-profiles}
+# Selecionar perfis de teste {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
@@ -23,7 +23,7 @@ Os perfis de teste são recipients adicionais que não correspondem aos critéri
 
 Antes de usar perfis de teste para testar seu conteúdo, primeiro é necessário selecioná-los. Para fazer isso, siga estes passos:
 
-1. Na tela de edição de conteúdo da sua mensagem ou no Designer de Email, clique no botão **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Resumo do conteúdo]**.
+1. Na tela de edição de conteúdo da sua mensagem ou no Designer de Email, clique no botão **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo]**.
 
 1. Clique no botão **[!UICONTROL Gerenciar perfis de teste]** e selecione o namespace a ser usado para identificar perfis de teste clicando no ícone de seleção **[!UICONTROL Namespace de identidade]**. [Saiba mais sobre os namespaces de identidade da Adobe Experience Platform](../audience/get-started-identity.md).
 
