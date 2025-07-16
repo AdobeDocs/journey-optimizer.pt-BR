@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="Publicar campanha orquestrada"
->abstract="Para iniciar a campanha, você deve publicá-la. Verifique se todos os erros foram apagados antes da publicação."
+>abstract="Para iniciar a campanha, você deve publicá-la. Certifique-se de que todos os erros tenham sido resolvidos antes da publicação."
 
 +++ Sumário
 

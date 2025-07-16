@@ -1,5 +1,5 @@
 ---
-title: Enviar mensagens de correspondência direta com o jornada
+title: Enviar mensagens de correspondência direta com jornadas
 description: Saiba como criar e enviar mensagens de correspondência direta com o jornada.
 feature: Direct Mail
 topic: Content Management
@@ -15,11 +15,11 @@ exl-id: 44886355-ee3a-4323-899a-35d967487924
 source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 19%
+ht-degree: 28%
 
 ---
 
-# Enviar mensagens de correspondência direta com o jornada {#direct-mail-journeys}
+# Enviar mensagens de correspondência direta com jornadas {#direct-mail-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"
@@ -45,7 +45,7 @@ Você precisa trabalhar com o provedor de correspondência direta de terceiros e
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_frequency"
 >title="Escolha a região do AWS"
->abstract="Se a configuração de roteamento de arquivos for enviada usando o jornada, você poderá especificar a frequência com que o arquivo será enviado ao servidor."
+>abstract="Se a configuração de roteamento de arquivo for enviada por meio de jornadas, é possível especificar a frequência com a qual o arquivo será enviado ao servidor."
 
 Antes de criar uma mensagem de mala direta, verifique se você configurou um roteamento de arquivo que especifica o servidor onde o arquivo de extração deve ser carregado e armazenado. Para fazer isso, siga estes passos:
 
@@ -53,7 +53,7 @@ Antes de criar uma mensagem de mala direta, verifique se você configurou um rot
 
 1. Defina as propriedades de configuração de roteamento de arquivos, como o nome e o tipo de servidor a ser usado. Informações detalhadas sobre como definir uma configuração de roteamento de arquivo estão disponíveis na seção [Configuração de correspondência direta](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
 
-   Se a configuração de roteamento de arquivos for enviada usando o jornada, você poderá especificar a frequência com que o arquivo será enviado ao servidor.
+   Se a configuração de roteamento de arquivo for enviada por meio de jornadas, é possível especificar a frequência com a qual o arquivo será enviado ao servidor.
 
    ![](assets/file-routing-journey.png)
 
