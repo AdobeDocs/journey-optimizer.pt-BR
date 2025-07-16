@@ -6,10 +6,10 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: b1bee7a5ee05e0e535a982c31bafafdc760d21ae
+source-git-commit: 811a04c1ce74627b48143da4cd78d6cc644f4ba5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '641'
+ht-degree: 1%
 
 ---
 
@@ -39,6 +39,8 @@ A **[!UICONTROL Campanha Orquestrada]** fornece duas fontes de dados principais 
 
 * **[!UICONTROL Feedback de Mensagem]**: captura eventos relacionados à entrega, por exemplo, mensagem enviada, aberta, rejeitada, etc.
 * **[!UICONTROL Acompanhamento de email]**: captura as ações do usuário, por exemplo, cliques e aberturas.
+
+![](assets/do-not-localize/retarget-schema.png)
 
 ## Criar uma regra de redirecionamento baseada em comentários {#feedback-retarget}
 
@@ -102,7 +104,7 @@ Usando esses dados, você pode definir regras para identificar os recipients que
 
       Nomes de ações podem ser encontrados clicando no ![ícone de Informações](assets/do-not-localize/info-icon.svg) ao lado de uma atividade na tela.
 
-   ++
++++
 
 1. Como alternativa, você também pode filtrar pela **[!UICONTROL ID da campanha]** (UUID), que pode ser encontrada nas propriedades da campanha.
 
