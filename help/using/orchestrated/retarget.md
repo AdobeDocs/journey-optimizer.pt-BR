@@ -6,9 +6,9 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 811a04c1ce74627b48143da4cd78d6cc644f4ba5
+source-git-commit: 175762a1d843f55dd9dcbb1cb0ac107a27a370b0
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -33,9 +33,9 @@ Documentação em andamento
 
 >[!ENDSHADEBOX]
 
-O redirecionamento permite acompanhar os recipients com base em como eles responderam a uma campanha orquestrada anterior. Por exemplo, você pode enviar um segundo email para perfis que receberam, mas não clicaram no primeiro.
+O redirecionamento permite acompanhar os recipients com base em como eles responderam a uma campanha orquestrada anterior. Por exemplo, você pode enviar um segundo email para recipients que receberam, mas não clicaram no primeiro.
 
-A **[!UICONTROL Campanha Orquestrada]** fornece duas fontes de dados principais para isso:
+A **[!UICONTROL Campanha Orquestrada]** fornece dois atributos principais para isso:
 
 * **[!UICONTROL Feedback de Mensagem]**: captura eventos relacionados à entrega, por exemplo, mensagem enviada, aberta, rejeitada, etc.
 * **[!UICONTROL Acompanhamento de email]**: captura as ações do usuário, por exemplo, cliques e aberturas.
@@ -44,7 +44,7 @@ A **[!UICONTROL Campanha Orquestrada]** fornece duas fontes de dados principais 
 
 ## Criar uma regra de redirecionamento baseada em comentários {#feedback-retarget}
 
-A Regra de Redirecionamento Baseada em Comentários permite redirecionar destinatários com base em eventos de entrega de mensagens capturados no conjunto de dados **Comentários de Mensagens**. Esses eventos incluem resultados como mensagens que estão sendo enviadas, abertas, rejeitadas ou marcadas como spam.
+A Regra de Redirecionamento Baseada em Comentários permite redirecionar destinatários com base em eventos de entrega de mensagens capturados no atributo **[!UICONTROL Comentários de Mensagens]**. Esses eventos incluem resultados como mensagens que estão sendo enviadas, abertas, rejeitadas ou marcadas como spam.
 
 Usando esses dados, você pode definir regras para identificar os recipients que receberam uma mensagem anterior, permitindo a comunicação de acompanhamento com base em status de delivery específicos.
 
@@ -88,7 +88,7 @@ Usando esses dados, você pode definir regras para identificar os recipients que
 
 +++
 
-1. Escolha o atributo **[!UICONTROL Nome da Ação de Campanha Orquestrada]** para direcionar uma mensagem ou atividade específica em uma campanha orquestrada.
+1. Escolha o atributo **[!UICONTROL Nome da Ação da Campanha Orquestrada]** para direcionar uma mensagem ou atividade específica em uma campanha orquestrada.
 
 +++ Passo a passo detalhado
 
@@ -102,15 +102,20 @@ Usando esses dados, você pode definir regras para identificar os recipients que
 
    1. No menu **[!UICONTROL Condição personalizada]**, especifique o nome da ação de campanha no campo **[!UICONTROL Valor]**.
 
-      Nomes de ações podem ser encontrados clicando no ![ícone de Informações](assets/do-not-localize/info-icon.svg) ao lado de uma atividade na tela.
+      Nomes de ações podem ser encontrados clicando no ícone ![Informações](assets/do-not-localize/info-icon.svg) ao lado do campo Rótulo da sua atividade.
 
 +++
 
 1. Como alternativa, você também pode filtrar pela **[!UICONTROL ID da campanha]** (UUID), que pode ser encontrada nas propriedades da campanha.
 
-## Criar uma regra de redirecionamento baseada em rastreamento
+Agora você configurou uma regra de redirecionamento baseada em comentários para identificar destinatários com base no status de entrega de uma mensagem anterior, como enviada, aberta, rejeitada ou marcada como spam. Com esse público definido, você pode adicionar um email de acompanhamento ou refinar ainda mais seu direcionamento [configurando uma regra de redirecionamento baseada em Rastreamento](#tracking-based), que usa dados de interação do usuário.
 
-A regra de redirecionamento baseada em rastreamento segmenta os destinatários com base em suas interações com uma mensagem, usando dados do conjunto de dados **[!UICONTROL Acompanhamento de email]**. Ele captura as ações do usuário, como aberturas de email e cliques em links.
+![](assets/retarget_9.png)
+
+
+## Criar uma regra de redirecionamento baseada em rastreamento {#tracking-based}
+
+A regra de redirecionamento baseada em rastreamento segmenta os destinatários com base em suas interações com uma mensagem, usando dados do atributo **[!UICONTROL Acompanhamento de email]**. Ele captura as ações do usuário, como aberturas de email e cliques em links.
 
 Para redirecionar destinatários com base nas interações de mensagem (por exemplo, abrir ou clicar), use a entidade **[!UICONTROL Acompanhamento de email]** da seguinte maneira:
 
@@ -124,7 +129,7 @@ Para redirecionar destinatários com base nas interações de mensagem (por exem
 
    ![](assets/retarget_2.png)
 
-1. Para direcionar as interações dos perfis com uma mensagem, adicione outra condição vinculada ao atributo **[!UICONTROL Acompanhamento de email]** e procure pelo atributo **[!UICONTROL Tipo de Interação]**.
+1. Para direcionar as interações dos destinatários com uma mensagem, adicione outra condição vinculada ao atributo **[!UICONTROL Acompanhamento de email]** e procure pelo atributo **[!UICONTROL Tipo de Interação]**.
 
    ![](assets/retarget_7.png)
 
@@ -132,4 +137,7 @@ Para redirecionar destinatários com base nas interações de mensagem (por exem
 
    ![](assets/retarget_8.png)
 
-1. Para associar os dados de rastreamento a uma campanha específica, adicione uma nova condição **[!UICONTROL Feedback da mensagem]** e siga as etapas detalhadas [nesta seção](#feedback-retarget).
+Agora você configurou uma regra de redirecionamento baseada em Rastreamento para direcionar destinatários com base em suas interações com uma mensagem anterior, como aberturas de email ou cliques em links, usando dados do atributo **[!UICONTROL Rastreamento de email]**. Com esse público definido, você pode adicionar uma ação de acompanhamento ou refinar ainda mais seu direcionamento combinando-o com uma [regra de redirecionamento baseada em comentários](#feedback-retarget) para incluir resultados de mensagens como enviados, rejeitados ou marcados como spam.
+
+
+![](assets/retarget_10.png)
