@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '422'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,11 @@ Depois de criar e configurar a credencial da API, agora é necessário criar uma
 
 O Adobe Journey Optimizer oferece suporte a mensagens RCS por meio do Twilio usando o recurso [Provedor de SMS personalizado](sms-configuration-custom.md). Isso permite a entrega de mensagens avançadas e interativas por meio de perfis empresariais verificados, incorporando elementos como carrosséis, botões e conteúdo multimídia.
 
+➡️ [Saiba como o Twilio oferece suporte ao RCS na documentação do Twilio](https://www.twilio.com/docs/rcs)
+
 Para habilitar mensagens RCS com Twilio, novas credenciais de API devem ser configuradas por meio de um Provedor de SMS Personalizado. As credenciais SMS do Twilio existentes não são compatíveis, pois o RCS requer um formato de carga distinto.
+
+Para configurar o RCS com Twilio:
 
 1. **Registrar para Mensagens RCS no Twilio**
 
