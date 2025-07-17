@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
+source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2526'
 ht-degree: 98%
 
 ---
@@ -263,7 +263,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
             + [Aproveitar fragmentos visuais](using/email/use-visual-fragments.md)
             + [Adicionar links e rastrear mensagens](using/email/message-tracking.md)
             + [Inserir ofertas personalizadas](using/email/add-offers-email.md)
-            + [Gerar a versão de texto](using/email/text-version-email.md)
+            + [Gerar versão de texto](using/email/text-version-email.md)
             + [Adicionar metadados](using/email/email-metadata.md)
             + [Adicionar CSS personalizado](using/email/custom-css.md)
          + Editar estilo {#edit-style}
@@ -271,6 +271,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
             + [Editar configurações de fundo](using/email/backgrounds.md)
             + [Ajustar o alinhamento vertical e o preenchimento](using/email/alignment-and-padding.md)
             + [Adicionar atributos de estilo incorporado](using/email/inline-styling.md)
+            + [Definir conteúdo no modo escuro](using/email/dark-mode.md)
       + [Gerenciar opção de não participação de email](using/email/email-opt-out.md)
       + Configurar canal de email {#configure-email}
          + [Introdução à configuração de email](using/email/get-started-email-config.md)
@@ -440,7 +441,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
          + [Avaliar a pontuação de alinhamento da marca](using/content-management/brands-score.md)
    + Conteúdo multilíngue{#content-multilingual}
       + [Introdução ao conteúdo multilíngue](using/content-management/multilingual-gs.md)
-      + [Criar uma localização](using/content-management/multilingual-locale.md)
+      + [Criar uma localidade](using/content-management/multilingual-locale.md)
       + [Criar um provedor de idioma](using/content-management/multilingual-provider.md)
       + [Criação do conteúdo multilíngue com tradução manual](using/content-management/multilingual-manual.md)
       + [Criação do conteúdo multilíngue com tradução automática](using/content-management/multilingual-automated.md)
