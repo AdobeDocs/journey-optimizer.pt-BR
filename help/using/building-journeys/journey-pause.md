@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 1215cdc3ed6050ca061f8d97281d52ade352611e
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2117'
 ht-degree: 8%
 
 ---
@@ -87,7 +87,7 @@ Quando uma jornada é pausada, o gerenciamento de perfil e a execução da ativi
 | [Decisão de conteúdo](content-decision.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
 | [Ação do canal](journeys-message.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
 | [Ação personalizada](../action/action.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
-| [Atualizar perfil](update-profiles.md) e [Pular](jump.md) | Mesmo comportamento que em uma jornada em tempo real |
+| [Atualizar perfil](update-profiles.md) e [Pular](jump.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
 | [Source de Dados Externos](../datasource/external-data-sources.md) | Mesmo comportamento que em uma jornada em tempo real |
 | [Critério de saída](journey-properties.md#exit-criteria) | Mesmo comportamento que em uma jornada em tempo real |
 
@@ -182,7 +182,7 @@ Ao pausar esta jornada, você seleciona se os perfis estão **Descartados** ou *
 1. Atividade **Wait**: os perfis continuam a aguardar normalmente no nó e vão sair dele, mesmo se a jornada estiver em pausa.
 1. **Condição**: os perfis continuam a passar pelas condições e a mover para a ramificação direita com base na expressão definida na condição.
 1. Atividades de **Push**/**Email**: durante uma jornada pausada, os perfis começam a aguardar ou são descartados (com base na escolha feita pelo usuário no momento da pausa) no nó da próxima ação. Os perfis começarão a aguardar ou serão descartados lá.
-1. **Eventos** após nós de **Ação**: se um perfil estiver aguardando um nó de **Ação** e houver uma atividade de **Evento** após ele, se esse evento for acionado, o perfil será descartado.
+1. **Eventos** após nós de **Ação**: se um perfil estiver aguardando um nó de **Ação** e houver uma atividade de **Evento** após ele, se esse evento for acionado, o evento será descartado.
 
 De acordo com esse comportamento, você pode ver números de perfil aumentando em jornadas pausadas, principalmente em atividades antes de **Ações**. Por exemplo, nesse exemplo, a atividade **Wait** ainda está habilitada, aumentando o número de perfis que passam pela atividade **Condition**, à medida que eles saem dela.
 
