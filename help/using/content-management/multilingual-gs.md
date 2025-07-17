@@ -100,4 +100,4 @@ Para o conteúdo multilíngue, as seguintes configurações devem ser definidas:
 
 Saiba como criar conteúdo em vários idiomas em uma única campanha ou jornada.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430921/)
+>[!VIDEO](https://video.tv.adobe.com/v/3452118?captions=por_br)
