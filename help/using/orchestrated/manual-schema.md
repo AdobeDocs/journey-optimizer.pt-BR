@@ -53,8 +53,8 @@ O exemplo a seguir define manualmente o schema de Associações de fidelidade pa
 
 1. Forneça um **Nome do esquema** (por exemplo, `test_demo_ck001`).
 1. Escolher **Tipo de Esquema**:
-   - **Tipo de Registro** (necessário para campanhas AGO)
-   - **Série Temporal** (não aplicável aqui)
+   &#x200B;- **Tipo de Registro** (necessário para campanhas AGO)
+   &#x200B;- **Série Temporal** (não aplicável aqui)
 1. Clique em **Concluir** para prosseguir para a tela de design do esquema.
 
 ## Selecionar entidades e campos para importar
