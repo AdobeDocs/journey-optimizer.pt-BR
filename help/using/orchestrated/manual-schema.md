@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: c5a0c6401add384685c9d7ab2c623076ea4bf793
+source-git-commit: aefc95b755074dfa043bad7dfd4acbd8dfb8e939
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 7%
@@ -53,8 +53,8 @@ O exemplo a seguir define manualmente o schema de Associações de fidelidade pa
 
 1. Forneça um **Nome do esquema** (por exemplo, `test_demo_ck001`).
 1. Escolher **Tipo de Esquema**:
-   &#x200B;- **Tipo de Registro** (necessário para campanhas AGO)
-   &#x200B;- **Série Temporal** (não aplicável aqui)
+   **Tipo de Registro** (necessário para campanhas AGO)
+   **Série Temporal** (não aplicável aqui)
 1. Clique em **Concluir** para prosseguir para a tela de design do esquema.
 
 ## Selecionar entidades e campos para importar
