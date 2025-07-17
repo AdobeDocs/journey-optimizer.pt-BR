@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
+source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2523'
 ht-degree: 98%
 
 ---
@@ -182,7 +182,11 @@ ht-degree: 98%
       + [Solução de problemas de ações personalizadas](using/action/troubleshoot-custom-action.md)
 + Campanhas orquestradas {#orchestrated-campaigns}
    + [Introdução às campanhas orquestradas](using/orchestrated/gs-orchestrated-campaigns.md)
-   + [Etapas de configuração](using/orchestrated/configuration-steps.md)
+   + Gerenciar esquemas relacionais e conjuntos de dados {#schemas-datasets}
+      + [Introdução a esquemas e conjuntos de dados](using/orchestrated/gs-schemas.md)
+      + [Esquema manual](using/orchestrated/manual-schema.md)
+      + [Esquema de upload de arquivo](using/orchestrated/file-upload-schema.md)
+      + [Assimilar dados](using/orchestrated/ingest-data.md)
    + [Acessar e gerenciar campanhas orquestradas](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + [Medidas de proteção e limitações](using/orchestrated/guardrails.md)
    + Lançar a primeira campanha orquestrada{#launch}
@@ -313,7 +317,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Criação de uma correspondência direta](using/direct-mail/create-direct-mail.md)
       + [Verificação e envio de uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
       + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
-      + [Enviar mensagens de correspondência direta com o jornada](using/direct-mail/direct-mail-journeys.md)
+      + [Enviar mensagens de correspondência direta com jornadas](using/direct-mail/direct-mail-journeys.md)
    + Canal da web {#web}
       + [Introdução ao canal da web](using/web/get-started-web.md)
       + Configurar o canal da web {#configure-web-channel}
