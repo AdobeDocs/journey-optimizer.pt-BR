@@ -21,7 +21,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="Traduções"
->abstract="O recurso multilíngue permite que você crie facilmente conteúdo em vários idiomas em uma única campanha ou jornada. Na página Traduções, é possível configurar projetos, selecionar provedores de tradução ou gerenciar dicionários específicos do idioma"
+>abstract="O recurso multilíngue permite que você crie facilmente conteúdo em vários idiomas em uma única campanha ou jornada. Na página Traduções, é possível configurar projetos, selecionar provedores de tradução ou gerenciar dicionários específicos da localidade"
 
 O recurso multilíngue permite criar conteúdo em vários idiomas facilmente em uma única campanha ou jornada. Com esse recurso, você pode alternar entre idiomas ao editar sua campanha, simplificando todo o processo de edição e melhorando sua capacidade de gerenciar com eficiência o conteúdo multilíngue.
 
@@ -52,7 +52,7 @@ Para problemas ou solicitações de assistência relacionados às suas traduçõ
 
 Para o conteúdo multilíngue, as seguintes configurações devem ser definidas:
 
-* Para usar o recurso de Tradução no Journey Optimizer, é necessário atribuir a API à função correspondente. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Para usar o recurso de Tradução no Journey Optimizer, é necessário atribuir a API à função correspondente. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * Para começar a criar conteúdo multilíngue, os usuários precisam ter a permissão **[!UICONTROL Gerenciar configurações de idioma]**. Para o fluxo automatizado, os usuários também precisarão de permissões relacionadas aos recursos do **[!UICONTROL Serviço de Tradução]**. [Saiba mais sobre permissões](../administration/permissions.md)
 
@@ -100,4 +100,4 @@ Para o conteúdo multilíngue, as seguintes configurações devem ser definidas:
 
 Saiba como criar conteúdo em vários idiomas em uma única campanha ou jornada.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452118?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

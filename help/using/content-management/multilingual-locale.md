@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar código de idioma
+title: Criar localidade
 description: Saiba como criar uma localidade para conteúdo multilíngue no Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
@@ -16,12 +16,12 @@ ht-degree: 29%
 
 ---
 
-# Criar código de idioma {#multilingual-locale}
+# Criar localidade {#multilingual-locale}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_locale"
->title="Adicionar código de idioma"
->abstract="Ao configurar suas preferências de idioma, você tem a opção de criar outros códigos de idioma se o desejado não estiver disponível para o seu conteúdo multilíngue."
+>title="Adicionar localidade"
+>abstract="Ao configurar suas preferências de idioma, você tem a opção de criar localidades adicionais se o desejado não estiver disponível para o seu conteúdo multilíngue."
 
 Ao definir as configurações de idioma, conforme descrito na seção [Criar configurações de idioma](multilingual-manual.md#language-settings), se uma localidade específica não estiver disponível para o seu conteúdo multilíngue, você terá a flexibilidade de criar quantas novas localidades forem necessárias usando o menu **[!UICONTROL Tradução]**.
 

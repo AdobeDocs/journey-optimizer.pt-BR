@@ -21,12 +21,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
 >title="Adicionar provedor"
->abstract="Adicione provedores de tradução e códigos de idiomas conforme necessário. Isso permite gerenciar quais provedores e códigos de idioma estão ativos no projeto, proporcionando a flexibilidade para ajustar recursos e públicos-alvo com base nos requisitos e no escopo atuais do projeto."
+>abstract="Adicione provedores de tradução e localidades conforme necessário. Isso permite gerenciar quais provedores e localidades estão ativos no projeto, proporcionando a flexibilidade para ajustar recursos e públicos-alvo com base nos requisitos e no escopo atuais do projeto."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_provider"
 >title="Editar provedor"
->abstract="Modifique os provedores de tradução existentes e adicione códigos de idiomas conforme necessário. Essa funcionalidade permite controlar quais provedores e códigos de idioma estão ativos no projeto, oferecendo a flexibilidade de ajustar recursos e públicos-alvo específicos de acordo com as necessidades e metas atuais do projeto."
+>abstract="Modifique os provedores de tradução existentes e adicione localidades conforme necessário. Essa funcionalidade permite controlar quais provedores e localidades estão ativos no projeto, oferecendo a flexibilidade de ajustar recursos e públicos-alvo específicos de acordo com as necessidades e metas atuais do projeto."
 
 >[!IMPORTANT]
 >
@@ -53,12 +53,12 @@ Siga estas etapas para criar conteúdo multilíngue usando a tradução automát
 >[!CONTEXTUALHELP]
 >id="ajo_multi_create_project"
 >title="Criar projeto"
->abstract="Para começar a criar conteúdo multilíngue, inicie o projeto de tradução, identifique o código do idioma de destino e selecione o idioma ou dialeto regional apropriado para o público-alvo. Depois disso, escolha um provedor de tradução que se alinhe às necessidades do seu projeto."
+>abstract="Para começar a criar conteúdo multilíngue, inicie o projeto de tradução, identifique a localidade de destino e selecione o idioma ou dialeto regional apropriado para o público-alvo. Depois disso, escolha um provedor de tradução que se alinhe às necessidades do seu projeto."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_project"
 >title="Editar projeto"
->abstract="Atualize seu projeto de tradução para incorporar códigos de idioma adicionais, permitindo expandir o conteúdo para alcançar um público-alvo maior."
+>abstract="Atualize seu projeto de tradução para incorporar localidades adicionais, permitindo expandir o conteúdo para alcançar um público-alvo maior."
 
 Inicie o projeto de tradução especificando o Local de destino, indicando o idioma ou a região específica para o conteúdo. Em seguida, você pode escolher seu Provedor de tradução.
 
@@ -166,7 +166,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
 
    1. Em Coleção de dados da Adobe Experience Platform, acesse as Propriedades da tag.
 
-   1. Acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. Na seção **[!UICONTROL IF]** da regra, adicione um evento configurado conforme abaixo:
 
@@ -199,7 +199,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
 
       * Clique no botão **[!UICONTROL Manter alterações]** para confirmar e salvar sua regra.
 
-   +++
++++
 
 1. Arraste e solte as localidades para reordená-las e gerenciar sua prioridade na lista.
 
