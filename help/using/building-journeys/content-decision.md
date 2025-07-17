@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: atividade, decisão, decisão de conteúdo, política de decisão, tela, jornada
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
+source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1027'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Para configurar a atividade **[!UICONTROL Decisão de conteúdo]**, siga as etap
 
    ![Adicionar uma decisão de conteúdo à jornada](assets/journey-content-decision.png){width=100%}
 
-1. Como opção, adicione um rótulo e uma descrição à atividade.
+1. Opcionalmente, adicione um rótulo e uma descrição à atividade.
 
 1. Clique em **[!UICONTROL Adicionar política de decisão]**. [Saiba mais sobre políticas de decisão](../experience-decisioning/create-decision.md)
 
@@ -63,9 +63,9 @@ Para configurar a atividade **[!UICONTROL Decisão de conteúdo]**, siga as etap
 
 1. Organize a ordem de avaliação conforme necessário.
 
-   Ao adicionar vários itens e/ou estratégias de decisão, eles serão avaliados em ordem sequencial, indicados com números à esquerda de cada objeto ou grupo de objetos. Para alterar a sequência padrão, você pode arrastar e soltar os objetos e/ou grupos para reordená-los como desejado. [Saiba mais](../experience-decisioning/create-decision.md#evaluation-order)
+   Ao adicionar vários itens e/ou estratégias de decisão, eles são avaliados em ordem sequencial, indicados com números à esquerda de cada objeto ou grupo de objetos. Para alterar a sequência padrão, você pode arrastar e soltar os objetos e/ou grupos para reordená-los como desejado. [Saiba mais](../experience-decisioning/create-decision.md#evaluation-order)
 
-1. Como opção, adicione uma oferta substituta. [Saiba mais](../experience-decisioning/create-decision.md#fallback)
+1. (opcional) Adicione uma oferta substituta. [Saiba mais](../experience-decisioning/create-decision.md#fallback)
 
 1. Revise e salve a política de decisão.
 
@@ -85,7 +85,7 @@ Para aproveitar a saída de uma atividade de decisão de conteúdo, você pode a
 
 1. Na categoria **[!UICONTROL Orquestração]**, solte uma atividade **[!UICONTROL Condição]** na tela. [Saiba mais](condition-activity.md#add-condition-activity)
 
-1. Opcionalmente, renomeie **[!UICONTROL Path1]**, que corresponde à primeira expressão que você definirá, para um rótulo mais relevante.
+1. (opcional) Renomeie **[!UICONTROL Path1]**, que corresponde à primeira expressão que você define, para um rótulo mais relevante.
 
 1. Para este primeiro caminho, clique dentro do campo **[!UICONTROL Expression]** ou use o ícone Editar para adicionar uma expressão.
 
@@ -103,7 +103,7 @@ Para aproveitar a saída de uma atividade de decisão de conteúdo, você pode a
 
    >[!NOTE]
    >
-   >Qualquer rótulo restrito definido em um atributo, em um evento de experiência de jornada usado em uma regra de decisão (como dados de contexto) ou no [esquema de ofertas](../experience-decisioning/catalogs.md#access-catalog-schema), não resultará em violação de política para DULE ou consentimento. Saiba mais sobre políticas de governança de dados em [esta seção](../action/action-privacy.md)
+   >Qualquer rótulo restrito definido em um atributo, em um evento de experiência de jornada usado em uma regra de decisão (como dados de contexto) ou no [esquema de ofertas](../experience-decisioning/catalogs.md#access-catalog-schema), resulta em violação de política para DULE ou consentimento. Saiba mais sobre políticas de governança de dados em [esta seção](../action/action-privacy.md)
 
 1. Para verificar se alguma oferta foi retornada para os perfis que entram na jornada, use a função [listSize](functions/functionlistsize.md) com a seguinte sintaxe: `listSize(@decision{ContentdecisionName.items})>0`
 
