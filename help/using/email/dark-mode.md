@@ -10,14 +10,15 @@ level: Beginner, Intermediate
 keywords: modo escuro, email, cor, editor
 hide: true
 hidefromtoc: true
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
+source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1701'
 ht-degree: 1%
 
 ---
 
-# Definir conteúdo no modo escuro {#dark-mode}
+# Gerenciar conteúdo no modo escuro {#dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
@@ -144,13 +145,19 @@ Para definir configurações personalizadas do modo escuro, siga as etapas abaix
 
    <!--![](assets/dark-mode-custom.png)-->
 
-1. Depois que todas as alterações do modo escuro forem feitas, clique em **[!UICONTROL Simular conteúdo]**.
+1. A qualquer momento, você pode **[!UICONTROL Alternar para o modo de exibição ativo]** para verificar como o conteúdo pode ser renderizado em vários tamanhos de dispositivo. Nesta exibição, selecione o botão Modo escuro na parte superior da tela para visualizar a versão em modo escuro do seu conteúdo em diferentes dispositivos.
+
+   ![](assets/dark-mode-live-view.png){width="80%" align="center"}
+
+   >[!CAUTION]
+   >
+   >A visualização em tempo real é uma visualização genérica criada para comparar a aparência da renderização em vários tamanhos de dispositivo. A renderização final pode variar de acordo com o cliente de email do recipient.
+
+1. Quando estiver satisfeito com as alterações do modo escuro, clique em **[!UICONTROL Simular conteúdo]**.
 
    ![](assets/dark-mode-simulate.png)
 
-1. Selecione **[!UICONTROL Renderizar email]** e conecte-se à sua conta Litmus. Você pode ver a renderização final do modo escuro para vários clientes de email.
-
-   ![](assets/dark-mode-email-rendering.png){width="80%"}
+1. Selecione **[!UICONTROL Renderizar email]** e conecte-se à sua conta Litmus. Você pode ver a renderização final do modo escuro para vários clientes de email. Saiba mais sobre [Renderização de email](../content-management/rendering.md).
 
    >[!WARNING]
    >
