@@ -6,10 +6,10 @@ description: Saiba mais sobre as medidas de proteção e limitações das campan
 hide: true
 hidefromtoc: true
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 5%
+source-wordcount: '575'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,60 @@ Isso garante a assimilação confiável de dados e é essencial ao usar o Change
 
 ## Esquemas relacionais / limitações de assimilação de dados
 
-* Número de Esquemas - O número máximo de esquemas relacionais (tabelas no armazenamento de dados relacional) é 200
-* Tamanho do esquema relacional - O tamanho máximo do esquema relacional para a orquestração de campanha será de 100 GB.
-* Frequência de assimilação de dados - A frequência de assimilação de dados em lote para a orquestração de campanha não deve exceder um a cada quinze minutos.
-* Alterações/Atualizações - As atualizações/alterações diárias devem estar abaixo de 20% do total de registros de um determinado esquema relacional
+* Até 200 esquemas relacionais (tabelas) são suportados no armazenamento de dados relacional.
+
+* O tamanho total de um esquema relacional usado para a Orquestração de campanha não deve exceder 100 GB.
+
+* A assimilação em lote para a Orquestração de campanha não deve ocorrer com mais frequência do que uma vez a cada 15 minutos.
+
+* As alterações diárias em um esquema relacional devem permanecer abaixo de 20% da contagem total de registros.
+
+## Modelagem de dados
+
+* O descritor de versão é obrigatório em todos os esquemas, incluindo tabelas de fatos.
+
+* Uma chave primária é necessária para cada tabela.
+
+* O table_name atribuído durante a criação do conjunto de dados é usado na interface do usuário de segmentação e nos recursos de personalização.
+
+  Esse nome é permanente e não pode ser alterado após a criação.
+
+* Os grupos de campos não são aceitos no momento.
+
+## Ingestão de dados
+
+* É necessária a assimilação de perfil + dados relacionais.
+
+* Um campo de tipo de alteração é necessário para assimilação baseada em arquivo, enquanto o log de tabela deve ser ativado para assimilação no Cloud DB. Isso é necessário para a Captura de dados de alteração (CDC).
+
+* A latência da assimilação à disponibilidade dos dados no Snowflake varia de 15 minutos a 2 horas, dependendo do volume de dados, da simultaneidade e do tipo de operações (as inserções são mais rápidas que as atualizações).
+
+* O monitoramento de dados no Snowflake está em desenvolvimento; atualmente, não há confirmação nativa para a assimilação bem-sucedida.
+
+* Não há suporte para atualizações diretas no Snowflake ou no conjunto de dados. Todas as alterações devem fluir pelas fontes CDC.
+
+  O serviço de consulta é somente leitura.
+
+* ETL não é compatível — os clientes devem fornecer dados no formato necessário.
+
+* Atualizações parciais não são permitidas. Cada linha deve ser fornecida como um registro completo.
+
+* A assimilação depende do Serviço de consulta e do Data Distiller.
+
+## Segmentação
+
+* A LOV (Lista de Valores) e as listas discriminadas estão disponíveis no momento.
+
+* Públicos salvos são listas estáticas, seu conteúdo reflete os dados disponíveis no momento em que a campanha é executada.
+
+* Anexar a um público-alvo salvo não é suportado. As atualizações exigem uma substituição completa.
+
+* Os públicos devem consistir somente em atributos escalares; não há suporte para mapas e matrizes.
+
+* A segmentação suporta principalmente dados relacionais. Embora a combinação com dados de perfil seja permitida, trazer grandes conjuntos de dados de perfil pode afetar o desempenho. Para evitar isso:
+
+* As medidas de proteção estão em vigor, como limitar o número de atributos de perfil selecionados em lote ou públicos de transmissão.
+
+* Os públicos-alvo de leitura não são armazenados em cache — cada execução de campanha aciona uma leitura completa.
+
+  A otimização é necessária para públicos-alvo grandes ou complexos.

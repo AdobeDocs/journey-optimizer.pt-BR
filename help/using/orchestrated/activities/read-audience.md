@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 40%
+source-wordcount: '417'
+ht-degree: 19%
 
 ---
 
@@ -43,3 +43,36 @@ O conteúdo desta página não é final e pode estar sujeito a alterações.
 
 >[!ENDSHADEBOX]
 
+A atividade **[!UICONTROL Ler público-alvo]** permite recuperar um público-alvo existente, salvo ou importado anteriormente, e reutilizá-lo em uma campanha orquestrada. Essa atividade é especialmente útil para direcionar um conjunto predefinido de perfis sem a necessidade de executar um novo processo de segmentação.
+
+Depois que o público-alvo é carregado, você pode refiná-lo selecionando um campo de identidade exclusivo e enriquecendo o público-alvo com atributos de perfil adicionais para fins de direcionamento, personalização ou relatórios.
+
+## Configurar a atividade Ler público {#read-audience-configuration}
+
+Siga estas etapas para configurar a atividade **[!UICONTROL Ler público-alvo]**:
+
+1. Adicione uma atividade **[!UICONTROL Read audience]** à sua campanha orquestrada.
+
+   ![](../assets/read-audience-1.png)
+
+1. Insira um **[!UICONTROL Rótulo]** para sua atividade.
+
+1. Clique em ![ícone de pesquisa de pasta](../assets/do-not-localize/folder-search.svg) para selecionar o público-alvo que deseja direcionar para sua campanha orquestrada.
+
+   ![](../assets/read-audience-2.png)
+
+1. Selecione a **[!UICONTROL Entidade]** usada para identificar de forma exclusiva os perfis do seu público-alvo.
+
+   ![](../assets/read-audience-3.png)
+
+1. Selecione **[!UICONTROL Adicionar atributo de perfil]** para enriquecer o público-alvo selecionado com dados adicionais. O público-alvo resultante conterá uma lista de recipients, cada um enriquecido com os atributos de perfil selecionados.
+
+1. Escolha os **[!UICONTROL Atributos]** que você deseja adicionar ao seu público-alvo.
+
+   ![](../assets/read-audience-4.png)
+
+## Exemplo
+
+No exemplo abaixo, a atividade **[!UICONTROL Ler público-alvo]** é usada para recuperar um público-alvo criado e salvo anteriormente de perfis que assinaram o boletim informativo. O público-alvo é então enriquecido com o atributo **Loyalty subscription** para habilitar o direcionamento de usuários que são membros registrados do programa de fidelidade.
+
+![](../assets/read-audience-5.png)

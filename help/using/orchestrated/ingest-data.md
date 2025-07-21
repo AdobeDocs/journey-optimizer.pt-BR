@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -60,7 +60,7 @@ Você pode configurar um fluxo de dados para assimilar dados de uma origem do Am
 
    * Com uma nova conta
 
-   [Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -80,7 +80,7 @@ Você pode configurar um fluxo de dados para assimilar dados de uma origem do Am
 
 1. Marque **[!UICONTROL Habilitar captura de dados de alteração]** para selecionar entre conjuntos de dados mapeados para esquemas relacionais e que tenham uma chave primária e um descritor de versão definidos.
 
-1. Selecione o [Conjunto de Dados criado anteriormente](#entities) e clique em **[!UICONTROL Avançar]**.
+1. Selecione o [Conjunto de Dados criado anteriormente](file-upload-schema.md) e clique em **[!UICONTROL Avançar]**.
 
    ![](assets/S3_config_3.png)
 
