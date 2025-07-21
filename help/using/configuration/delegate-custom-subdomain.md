@@ -14,7 +14,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: 64ff860167439e1b098918cd913f2361f7365a50
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
@@ -40,12 +40,12 @@ Para configurar um subdomínio personalizado, siga as etapas abaixo.
    >
    >Você não pode usar o mesmo domínio de envio para enviar mensagens de [!DNL Adobe Journey Optimizer] e de outro produto, como [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage].
 
-## Criar os registros DNS {#create-dns-records}
+## Criar os registros de DNS {#create-dns-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_dns"
->title="Gerar os registros DNS correspondentes"
->abstract="Para delegar um subdomínio personalizado ao Adobe, é necessário copiar e colar as informações do servidor de nomes exibidas na interface do Journey Optimizer na solução de hospedagem de domínio para gerar os registros DNS correspondentes."
+>title="Gerar os registros de DNS correspondentes"
+>abstract="Para delegar um subdomínio personalizado à Adobe, é necessário copiar e colar as informações do servidor de nomes exibidas na interface do Journey Optimizer na sua solução de hospedagem de domínio para gerar os registros de DNS correspondentes."
 
 1. A lista de registros que serão colocados em seus servidores DNS é exibida. Copie esses registros, um por um ou baixando um arquivo CSV.
 
@@ -57,12 +57,12 @@ Para configurar um subdomínio personalizado, siga as etapas abaixo.
 
    ![](assets/subdomain-custom-submit.png){width="75%"}
 
-## Carregar o certificado SSL {#upload-ssl-certificate}
+## Fazer upload do certificado SSL {#upload-ssl-certificate}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom-ssl"
->title="Gerar a solicitação de assinatura de certificado"
->abstract="Ao configurar um novo subdomínio personalizado, você precisa gerar a Solicitação de assinatura de certificado (CSR), preenchê-la e enviá-la à Autoridade de certificação para obter o certificado SSL que você precisa fazer upload para o Journey Optimizer."
+>title="Gerar a solicitação de assinatura do certificado"
+>abstract="Ao configurar um novo subdomínio personalizado, é necessário gerar a solicitação de assinatura do certificado (CSR, na sigla em inglês), preenchê-la e enviá-la à autoridade de certificação para obter o certificado SSL a ser enviado para o Journey Optimizer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
@@ -89,12 +89,12 @@ Para configurar um subdomínio personalizado, siga as etapas abaixo.
 
 1. Depois de recuperado, clique em **[!UICONTROL Carregar certificado SSL]** e carregar o certificado para [!DNL Journey Optimizer] no formato .pem.
 
-## Conclua as etapas do Loop de comentários {#feedback-loop-steps}
+## Concluir as etapas do loop de comentários {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"
->title="Conclua as etapas do Loop de comentários"
->abstract="Vá para a página do Yahoo! Hub do Remetente e preencha o formulário para verificar a propriedade do domínio. Insira o endereço de email de relatório FBL listado abaixo e use o OTP que será recebido para verificar a propriedade no Yahoo! Hub do remetente."
+>title="Concluir as etapas do loop de comentários"
+>abstract="Acesse o Yahoo! Sender Hub e preencha o formulário para confirmar a propriedade do domínio. Insira o endereço de email para a geração de relatórios FBL listado abaixo e use o OTP que será recebido para confirmar a propriedade no Yahoo! Sender Hub."
 
 1. Vá para o [Yahoo! Site do Hub do Remetente ](https://senders.yahooinc.com/) e preencha o formulário necessário para verificar a propriedade do domínio.
 
@@ -110,7 +110,7 @@ Para configurar um subdomínio personalizado, siga as etapas abaixo.
    >
    >A solicitação OTP só pode ser feita em dias da semana. Não há suporte nos finais de semana. <!--Add times + timezone-->
 
-1. Digite o OTP no Yahoo! Hub do remetente.
+1. Digite o OTP no Yahoo! Sender Hub.
 
 1. Verifique se você concluiu todas as etapas do Loop de Comentários.
 

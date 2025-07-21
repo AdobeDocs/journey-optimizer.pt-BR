@@ -12,7 +12,7 @@ keywords: configuração, configurar, mensagens, canal, sandbox, otimizador
 source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 45%
+ht-degree: 48%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_rate_controls"
->title="Controles de taxa para canais"
->abstract="Controles de taxa para canais"
+>title="Controles de taxas dos canais"
+>abstract="Controles de taxas dos canais"
 
 Ao acessar o [!DNL Journey Optimizer] pela primeira vez, você é provisionado com uma sandbox de produção e aloca um determinado número de IPs dependendo do seu contrato.
 
