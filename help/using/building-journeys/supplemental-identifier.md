@@ -3,9 +3,9 @@ title: Identificador complementar em jornadas acionadas por eventos
 description: Saiba como usar o identificador complementar em jornadas acionadas por eventos.
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
+source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '945'
 ht-degree: 8%
 
 ---
@@ -29,6 +29,8 @@ Neste exemplo, adicionamos uma ID de reserva como identificador complementar.
 Ao fazer isso, as jornadas acionadas pelo evento são executadas no contexto da ID de perfil associada ao identificador complementar (aqui, a ID de reserva). Uma instância da jornada é executada para cada iteração do identificador complementar. Isso permite várias entradas da mesma ID de perfil no jornada, caso tenham feito reservas diferentes.
 
 Além disso, o Journey Optimizer permite aproveitar os atributos do identificador complementar (por exemplo, número de reserva, data de renovação da prescrição, tipo de produto) para personalização de mensagens, garantindo comunicações altamente relevantes. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Medidas de proteção e limitações {#guardrails}
 
@@ -188,3 +190,9 @@ Para usar um identificador complementar em uma jornada, siga estas etapas:
    * Perfil: &quot;Alex&quot;.
    * IDs complementares: `"productID1234", "productID5678"`.
    * O Jornada é executado separadamente para cada produto, com oportunidades personalizadas de venda adicional.
+
+## Vídeo tutorial {#video}
+
+Saiba como habilitar e aplicar um identificador complementar no [!DNL Adobe Journey Optimizer].
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
