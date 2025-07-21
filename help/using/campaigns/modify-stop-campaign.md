@@ -1,26 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Modificar ou interromper uma campanha
-description: Saiba como modificar, interromper ou duplicar campanhas ativas no Journey Optimizer
+title: Acessar e gerenciar campanhas
+description: Saiba como acessar e gerenciar suas campanhas no Journey Optimizer.
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 5%
+source-wordcount: '879'
+ht-degree: 6%
 
 ---
 
-# Gerenciar campanhas {#modify-stop-campaign}
-
-Depois que uma campanha é ativada, você pode modificá-la ou interrompê-la a qualquer momento. Essas operações estão disponíveis somente para campanhas com uma execução recorrente.
-
-Além disso, você pode duplicar campanhas ativas (executadas uma vez ou com uma execução recorrente) para criar novas campanhas e arquivar campanhas concluídas ou interrompidas.
+# Acessar e gerenciar campanhas {#modify-stop-campaign}
 
 ## Acessar campanhas {#access}
 
@@ -31,11 +27,27 @@ Além disso, você pode duplicar campanhas ativas (executadas uma vez ou com uma
 
 As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**.
 
+>[!BEGINTABS]
+
+>[!TAB Campanhas de ação]
+
+Selecione a guia **[!UICONTROL Ação]** para acessar a lista de campanhas de ação.
+
 Por padrão, a lista mostra todas as campanhas com os status **[!UICONTROL Rascunho]**, **[!UICONTROL Agendado]** e **[!UICONTROL Ativo]**. Para exibir campanhas interrompidas, concluídas e arquivadas, é necessário limpar o filtro.
 
 ![](assets/create-campaign-list.png)
 
-Você também pode filtrar a lista com base no tipo de campanha e no canal, ou nas tags atribuídas às campanhas ao criá-las. [Saiba como atribuir tags a uma campanha](create-campaign.md#create)
+>[!TAB Campanhas acionadas por API]
+
+Selecione a guia **[!UICONTROL API acionada]** para acessar a lista de campanhas acionadas por API.
+
+Por padrão, a lista mostra todas as campanhas com os status **[!UICONTROL Rascunho]**, **[!UICONTROL Agendado]** e **[!UICONTROL Ativo]**. Para exibir campanhas interrompidas, concluídas e arquivadas, é necessário limpar o filtro.
+
+![](assets/api-triggered-list.png)
+
+>[!ENDTABS]
+
+Você também pode filtrar a lista com base no tipo de campanha e no canal, ou nas tags atribuídas às campanhas ao criá-las.
 
 ## Calendário de campanhas {#calendar}
 
@@ -70,12 +82,12 @@ Para exibir detalhes de uma campanha específica, selecione-a na lista. Um paine
 As campanhas podem ter vários status:
 
 * **[!UICONTROL Rascunho]**: a campanha está sendo editada e não foi ativada.
-* **[!UICONTROL Ativando]**: a campanha está sendo ativada.
-* **[!UICONTROL Processando]** *(somente campanhas de email)*: a exportação de público-alvo foi concluída, a campanha está sendo publicada.
-* **[!UICONTROL Ao vivo]**: A campanha foi ativada.
 * **[!UICONTROL Agendado]**: a campanha está configurada para ser ativada em uma data de início específica.
+* **[!UICONTROL Ao vivo]**: A campanha foi ativada.
+* **[!UICONTROL Em revisão]**: a campanha foi enviada para aprovação para ser publicada. [Saiba como trabalhar com aprovações](../test-approve/gs-approval.md)
 * **[!UICONTROL Parada]**: a campanha foi interrompida manualmente. Não é possível ativá-lo ou reutilizá-lo. [Saiba como interromper uma campanha](modify-stop-campaign.md#stop)
 * **[!UICONTROL Concluído]**: a campanha foi concluída. Esse status é atribuído automaticamente 3 dias após a ativação de uma campanha ou na data final da campanha, se houver uma execução recorrente.
+* **[!UICONTROL Falha]**: a execução da campanha falhou. Verifique os logs para identificar o problema.
 * **[!UICONTROL Arquivado]**: a campanha foi arquivada. [Saiba como arquivar campanhas](modify-stop-campaign.md#archive)
 
 >[!NOTE]
@@ -86,11 +98,13 @@ Quando ocorre um erro em uma de suas campanhas, um ícone de aviso é exibido ju
 
 ![](assets/campaign-alerts.png)
 
-## Modificar uma campanha recorrente {#modify}
+## Modificar e parar campanhas de ações recorrentes {#modify}
 
-Para modificar e criar uma nova versão de uma campanha recorrente, siga estas etapas:
+### Modificar uma campanha de ação
 
-1. Abra a campanha e clique no botão **[!UICONTROL Modificar campanha]**.
+Para modificar e criar uma nova versão de uma campanha de ação recorrente, siga estas etapas:
+
+1. Abra a campanha de ação e clique no botão **[!UICONTROL Modificar campanha]**.
 
 1. Uma nova versão da campanha é criada. Você pode verificar a versão disponível clicando em **[!UICONTROL Abrir versão disponível]**.
 
@@ -106,7 +120,7 @@ Para modificar e criar uma nova versão de uma campanha recorrente, siga estas e
    >
    >Ativar o rascunho substituirá a versão ao vivo da campanha.
 
-## Interromper uma campanha recorrente {#stop}
+### Interromper uma campanha de ação {#stop}
 
 Para interromper uma campanha recorrente, abra-a e clique no botão **[!UICONTROL Parar campanha]**.
 
@@ -116,11 +130,9 @@ Para interromper uma campanha recorrente, abra-a e clique no botão **[!UICONTRO
 >
 >Interromper uma campanha não interromperá um envio em andamento, mas interromperá um envio agendado ou as próximas ocorrências se o envio já estiver em andamento.
 
-<!-- inbound campaign (inapp): can stop and resume -->
-
 ## Duplicar uma campanha {#duplicate}
 
-Você pode duplicar uma campanha em tempo real para criar uma nova. Para fazer isso, abra a campanha e clique em **[!UICONTROL Duplicar]**.
+Você pode duplicar uma campanha para criar uma nova. Para fazer isso, abra a campanha e clique em **[!UICONTROL Duplicar]**.
 
 ![](assets/create-campaign-duplicate.png)
 
@@ -132,4 +144,4 @@ Para evitar isso, você pode arquivar campanhas concluídas e interrompidas que 
 
 ![](assets/create-campaign-archive.png)
 
-As campanhas arquivadas podem ser recuperadas usando o filtro dedicado na lista. [Saiba como acessar campanhas](get-started-with-campaigns.md#access)
+As campanhas arquivadas podem ser recuperadas usando o filtro dedicado na lista.
