@@ -96,7 +96,7 @@ Verifique os seguintes pré-requisitos antes de começar a criar sua primeira ca
 
    O usuário deve receber um email de redirecionamento para sua instância.
 
-   +++
++++
 
 1. **Você precisa de um público-alvo**. Os públicos-alvo precisam estar disponíveis antes de criar a campanha. [Introdução aos públicos](../audience/about-audiences.md).
 
