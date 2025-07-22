@@ -95,10 +95,10 @@ Para quaisquer valores de cabeçalho de variável, parâmetros de consulta/camin
 
 Nomes dos parâmetros:
 
-* Parâmetros de cabeçalho: cabeçalho.<parameter-name>
-* Parâmetros de consulta: consulta.<parameter-name>
-* Parâmetros de carga: carga.<parameter-name>
-* Parâmetros de caminho: dynamic_path.<parameter-name>
+* Parâmetros de cabeçalho: cabeçalho.&lt;parameter-name>
+* Parâmetros de consulta: consulta.&lt;parameter-name>
+* Parâmetros de carga: carga.&lt;parameter-name>
+* Parâmetros de caminho: dynamic_path.&lt;parameter-name>
 
 Por exemplo:
 
