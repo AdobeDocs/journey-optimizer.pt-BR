@@ -7,14 +7,20 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: b575f2363059a24e7192f436fac62001f79a3dbc
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '431'
 ht-degree: 3%
 
 ---
 
 # Salvar público-alvo {#save-audience}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_save_audience"
+>title="Salvar atividade do público"
+>abstract="A atividade **Salvar público-alvo** é uma atividade **de Direcionamento** que permite atualizar um público-alvo existente ou criar um novo público a partir da população gerada anteriormente na campanha orquestrada. Após criado, esses públicos são adicionados à lista de públicos-alvo do aplicativo e podem ser acessados no menu **Públicos-alvo**."
+
 
 +++ Sumário
 
