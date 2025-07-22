@@ -7,9 +7,9 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: ea541231b16947908197748202e62227c5752966
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1152'
 ht-degree: 11%
 
 ---
@@ -47,17 +47,23 @@ Crie uma campanha orquestrada no [!DNL Adobe Journey Optimizer] e configure seu 
 
 Para criar uma campanha orquestrada, siga estas etapas:
 
-1. Vá para o menu **[!UICONTROL Campanhas]**, selecione a guia **[!UICONTROL Orquestração]** e clique em **[!UICONTROL Criar campanha]**.
+1. Navegue até o menu **[!UICONTROL Campanhas]** e selecione a guia **[!UICONTROL Orquestração]**.
+
+1. Clique no botão **[!UICONTROL Criar campanha]** e selecione o tipo de campanha **[!UICONTROL Orquestração - Marketing]**.
+
+   ![](assets/create-modal.png)
+
+1. Defina as propriedades da campanha. Para fazer isso, clique no botão ![Configurações da campanha](assets/do-not-localize/campaign-settings.svg) ao lado do nome da campanha.
 
    ![](assets/inventory-create.png)
 
 1. Insira um nome e uma descrição para a campanha.
 
-1. *(opcional)* Use o campo **[!UICONTROL Marcas]** para atribuir Marcas Unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-los facilmente e melhorar a pesquisa na lista de campanhas orquestradas. [Saiba como trabalhar com marcas](../start/search-filter-categorize.md#tags).
+<!--1. Merge policy-->
 
-1. Clique em **[!UICONTROL Criar]**.
+1. Use o campo **[!UICONTROL Tags]** para atribuir Tags unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-los facilmente e melhorar a pesquisa na lista de campanhas orquestradas. [Saiba como trabalhar com marcas](../start/search-filter-categorize.md#tags).
 
-Sua campanha orquestrada agora é criada e aparece na lista de campanhas orquestradas. Você pode atualizar essas propriedades a qualquer momento clicando no ícone ![Configurações da campanha](assets/do-not-localize/campaign-settings.svg) na tela de campanha.
+1. Clique em **[!UICONTROL Salvar]**.
 
 ## Agendar a campanha {#schedule}
 
@@ -99,7 +105,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
    * **[!UICONTROL Data]**: selecione a data em que a campanha deve ser executada.
    * **[!UICONTROL Hora]**: selecione a hora específica em que a campanha deve ser executada.
 
-   +++
++++
 
    +++Diário
 
@@ -113,7 +119,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora de início]**: defina a hora em que a campanha deve ser executada a cada dia.
 
-   +++
++++
 
    +++Várias vezes ao dia
 
@@ -122,7 +128,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
    * **[!UICONTROL Horas selecionadas]**: selecione as horas específicas em que a campanha deve ser executada e configure sua recorrência diária (executar todos os dias da semana ou em determinados dias).
    * **[!UICONTROL Periodic]**: escolha executar a campanha a cada n minutos ou horas. Você também pode definir o intervalo de tempo no dia em que as execuções são permitidas.
 
-   +++
++++
 
    +++Semanal
 
@@ -133,7 +139,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
    * **[!UICONTROL Recorrência diária]**: escolha dias da semana específicos para execução (por exemplo, toda segunda e quinta-feira).
    * **[!UICONTROL Hora de início]**: defina a hora em que a campanha deve ser executada nos dias selecionados.
 
-   +++
++++
 
    +++Mensal
 
@@ -149,7 +155,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora de início]**: defina a hora em que a campanha deve ser executada.
 
-   +++
++++
 
 1. Use a configuração **[!UICONTROL Validity period]** para definir uma data de início e término específica, restringindo a execução da campanha a uma janela de tempo limitada.
 
