@@ -44,7 +44,7 @@ Este guia orienta você pelo processo de criação de um esquema relacional, con
 
    Defina a estrutura do modelo de dados, incluindo tabelas, atributos e relações. Opte por criar o esquema manualmente na interface do usuário ou fazer upload de um arquivo DDL para uma configuração mais rápida.
 
-1. [Esquema de link](file-upload-md)
+1. [Esquema de link] (file-upload-md)
 
    estabeleça relações entre seus esquemas para garantir a consistência dos dados e habilitar consultas entre entidades. Por exemplo, vincule transações de fidelidade a recipients ou recompensas a marcas.
 
