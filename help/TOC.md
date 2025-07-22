@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: b731dfbf00557b96585dc4133f246bfb101bee98
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 95%
@@ -180,42 +180,6 @@ ht-degree: 95%
       + [Solução de problemas de execução do jornada](using/building-journeys/troubleshooting-execution.md)
       + [Solução de problemas de ações de entrada](using/building-journeys/troubleshooting-inbound.md)
       + [Solução de problemas de ações personalizadas](using/action/troubleshoot-custom-action.md)
-+ Campanhas orquestradas {#orchestrated-campaigns}
-   + [Introdução às campanhas orquestradas](using/orchestrated/gs-orchestrated-campaigns.md)
-   + Gerenciar esquemas relacionais e conjuntos de dados {#schemas-datasets}
-      + [Introdução a esquemas e conjuntos de dados](using/orchestrated/gs-schemas.md)
-      + [Esquema manual](using/orchestrated/manual-schema.md)
-      + [Esquema de upload de arquivo](using/orchestrated/file-upload-schema.md)
-      + [Assimilar dados](using/orchestrated/ingest-data.md)
-   + [Acessar e gerenciar campanhas orquestradas](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + [Medidas de proteção e limitações](using/orchestrated/guardrails.md)
-   + Lançar a primeira campanha orquestrada{#launch}
-      + [Etapas principais para criar uma campanha orquestrada](using/orchestrated/gs-campaign-creation.md)
-      + [Criar e agendar a campanha](using/orchestrated/create-orchestrated-campaign.md)
-      + [Orquestrar atividades](using/orchestrated/orchestrate-activities.md)
-      + [Iniciar e monitorar a campanha](using/orchestrated/start-monitor-campaigns.md)
-      + [Relatórios](using/orchestrated/reporting-campaigns.md)
-   + Consultar o banco de dados {#query-database}
-      + [Trabalhar com o construtor de regras](using/orchestrated/orchestrated-rule-builder.md)
-      + [Criar a primeira regra](using/orchestrated/build-query.md)
-      + [Editar expressões](using/orchestrated/edit-expressions.md)
-      + [Redirecionamento](using/orchestrated/retarget.md)
-   + Atividades de campanhas orquestradas {#design-campaigns}
-      + [Introdução às atividades](using/orchestrated/activities/about-activities.md)
-      + [And-join](using/orchestrated/activities/and-join.md)
-      + [Criar público-alvo](using/orchestrated/activities/build-audience.md)
-      + [Mudar dimensão](using/orchestrated/activities/change-dimension.md)
-      + [Atividades do canal](using/orchestrated/activities/channels.md)
-      + [Combinar](using/orchestrated/activities/combine.md)
-      + [Desduplicação](using/orchestrated/activities/deduplication.md)
-      + [Enriquecimento](using/orchestrated/activities/enrichment.md)
-      + [Bifurcação](using/orchestrated/activities/fork.md)
-      + [Público-alvo de leitura](using/orchestrated/activities/read-audience.md)
-      + [Reconciliação](using/orchestrated/activities/reconciliation.md)
-      + [Salvar público-alvo](using/orchestrated/activities/save-audience.md)
-      + [Divisão](using/orchestrated/activities/split.md)
-      + [Teste](using/orchestrated/activities/test.md)
-      + [Aguardar](using/orchestrated/activities/wait.md)
 + Campanhas {#campaigns}
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
    + [Acessar e gerenciar campanhas](using/campaigns/modify-stop-campaign.md)
@@ -236,6 +200,42 @@ ht-degree: 95%
       + [Agendar a campanha](using/campaigns/api-triggered-campaign-schedule.md)
       + [Revisar e ativar a campanha](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Acionar a execução da campanha](using/campaigns/trigger-campaigns.md)
+   + Campanhas orquestradas {#orchestrated-campaigns}
+      + [Introdução às campanhas orquestradas](using/orchestrated/gs-orchestrated-campaigns.md)
+      + Gerenciar esquemas relacionais e conjuntos de dados {#schemas-datasets}
+         + [Introdução a esquemas e conjuntos de dados](using/orchestrated/gs-schemas.md)
+         + [Esquema manual](using/orchestrated/manual-schema.md)
+         + [Esquema de upload de arquivo](using/orchestrated/file-upload-schema.md)
+         + [Assimilar dados](using/orchestrated/ingest-data.md)
+      + [Acessar e gerenciar campanhas orquestradas](using/orchestrated/access-manage-orchestrated-campaigns.md)
+      + [Medidas de proteção e limitações](using/orchestrated/guardrails.md)
+      + Lançar a primeira campanha orquestrada{#launch}
+         + [Etapas principais para criar uma campanha orquestrada](using/orchestrated/gs-campaign-creation.md)
+         + [Criar e agendar a campanha](using/orchestrated/create-orchestrated-campaign.md)
+         + [Orquestrar atividades](using/orchestrated/orchestrate-activities.md)
+         + [Iniciar e monitorar a campanha](using/orchestrated/start-monitor-campaigns.md)
+         + [Relatórios](using/orchestrated/reporting-campaigns.md)
+      + Consultar o banco de dados {#query-database}
+         + [Trabalhar com o construtor de regras](using/orchestrated/orchestrated-rule-builder.md)
+         + [Criar a primeira regra](using/orchestrated/build-query.md)
+         + [Editar expressões](using/orchestrated/edit-expressions.md)
+         + [Redirecionamento](using/orchestrated/retarget.md)
+      + Atividades de campanhas orquestradas {#design-campaigns}
+         + [Introdução às atividades](using/orchestrated/activities/about-activities.md)
+         + [And-join](using/orchestrated/activities/and-join.md)
+         + [Criar público-alvo](using/orchestrated/activities/build-audience.md)
+         + [Mudar dimensão](using/orchestrated/activities/change-dimension.md)
+         + [Atividades do canal](using/orchestrated/activities/channels.md)
+         + [Combinar](using/orchestrated/activities/combine.md)
+         + [Desduplicação](using/orchestrated/activities/deduplication.md)
+         + [Enriquecimento](using/orchestrated/activities/enrichment.md)
+         + [Bifurcação](using/orchestrated/activities/fork.md)
+         + [Público-alvo de leitura](using/orchestrated/activities/read-audience.md)
+         + [Reconciliação](using/orchestrated/activities/reconciliation.md)
+         + [Salvar público-alvo](using/orchestrated/activities/save-audience.md)
+         + [Divisão](using/orchestrated/activities/split.md)
+         + [Teste](using/orchestrated/activities/test.md)
+         + [Aguardar](using/orchestrated/activities/wait.md)
 + Gerenciamento de conflitos e priorização {#conflict-prioritization}
    + [Introdução ao gerenciamento de conflitos e priorização](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar possíveis conflitos](using/conflict-prioritization/conflicts.md)
