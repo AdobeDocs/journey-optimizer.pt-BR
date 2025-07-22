@@ -95,7 +95,7 @@ Para quaisquer valores de cabeçalho de variável, parâmetros de consulta/camin
 
 Nomes dos parâmetros:
 
-* Parâmetros de cabeçalho: cabeçalho.<parameter-name>
+* Parâmetros de cabeçalho: cabeçalho.&lt;parameter-name>
 * Parâmetros de consulta: `query.<parameter-name>`
 * Parâmetros de carga: `payload.<parameter-name>`
 * Parâmetros de Caminho: `dynamic_path.<parameter-name>`
