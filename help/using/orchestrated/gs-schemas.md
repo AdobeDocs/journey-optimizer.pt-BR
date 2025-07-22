@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
+source-git-commit: 8470791182d2487539d2d2300edb4d6e0cfeadb4
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 5%
@@ -44,7 +44,7 @@ Este guia orienta você pelo processo de criação de um esquema relacional, con
 
    Defina a estrutura do modelo de dados, incluindo tabelas, atributos e relações. Opte por criar o esquema manualmente na interface do usuário ou fazer upload de um arquivo DDL para uma configuração mais rápida.
 
-1. [Esquema de link] (file-upload-md)
+1. [Esquema de link](file-upload-schema.md)
 
    estabeleça relações entre seus esquemas para garantir a consistência dos dados e habilitar consultas entre entidades. Por exemplo, vincule transações de fidelidade a recipients ou recompensas a marcas.
 
