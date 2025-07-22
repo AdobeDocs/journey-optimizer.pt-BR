@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: cf29013bd7578f6b04543d04e85c714ce7728f36
+source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1184'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Para quaisquer valores de cabeçalho de variável, parâmetros de consulta/camin
 
 Nomes dos parâmetros:
 
-* Parâmetros de cabeçalho: cabeçalho.&lt;parameter-name>
+* Parâmetros de cabeçalho: `header.<parameter-name>`
 * Parâmetros de consulta: `query.<parameter-name>`
 * Parâmetros de carga: `payload.<parameter-name>`
 * Parâmetros de Caminho: `dynamic_path.<parameter-name>`
