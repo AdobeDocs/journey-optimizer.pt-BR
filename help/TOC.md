@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b731dfbf00557b96585dc4133f246bfb101bee98
+source-git-commit: f5d1bc27afadbf875fe4dd3149ce090a8773e0f9
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2591'
 ht-degree: 95%
 
 ---
@@ -387,6 +387,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Usar dados da Adobe Experience Platform para personalização (Beta)](using/personalization/aep-data-perso.md)
       + Lista de funções auxiliares {#functions}
          + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
+         + [Auxiliar de Pesquisa de Dados Externos](using/personalization/external-data-lookup.md)
          + [Funções de agregação](using/personalization/functions/aggregation.md)
          + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
          + [Matrizes e funções de lista](using/personalization/functions/arrays-list.md)
@@ -748,6 +749,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Exemplos de consultas](using/data/datasets-query-examples.md)
       + [Esquemas integrados >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
    + [Usar dados da Adobe Experience Platform](using/data/lookup-aep-data.md)
+   + [Personalizar conteúdo usando um endpoint externo](using/data/external-endpoint-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuração de canais {#configuration}
    + [Introdução à configuração de canais](using/configuration/get-started-configuration.md)
