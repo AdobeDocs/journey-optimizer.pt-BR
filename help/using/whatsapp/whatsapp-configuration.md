@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: acb87d0c7c3b8b1bde033f9483ecdeca5cee3325
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 5%
@@ -115,8 +115,6 @@ Depois de criar e configurar a credencial da API, agora é necessário criar uma
 Depois que suas credenciais da API do WhatsApp forem criadas com êxito, o próximo passo é criar um webhook e definir as configurações de entrada.
 
 1. No painel à esquerda, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]**, selecione o menu **[!UICONTROL Webhooks do WhatsApp]** em **[!UICONTROL Configurações do WhatsApp]** e clique no botão **[!UICONTROL Criar Webhook]**.
-
-   ![](assets/sms_byo_5.png)
 
 1. Digite um [!UICONTROL Nome] para seu webhook.
 
