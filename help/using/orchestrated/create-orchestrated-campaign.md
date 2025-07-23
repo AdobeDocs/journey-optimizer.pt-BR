@@ -105,7 +105,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
    * **[!UICONTROL Data]**: selecione a data em que a campanha deve ser executada.
    * **[!UICONTROL Hora]**: selecione a hora específica em que a campanha deve ser executada.
 
-+++
+   +++
 
    +++Diariamente
 
@@ -119,7 +119,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora inicial]**: defina a hora em que a campanha deve ser executada a cada dia.
 
-+++
+   +++
 
    +++Várias vezes ao dia
 
@@ -128,7 +128,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
    * **[!UICONTROL Horas selecionadas]**: selecione as horas específicas em que a campanha deve ser executada e configure sua recorrência diária (executar em todos os dias da semana ou em determinados dias).
    * **[!UICONTROL Periódico]**: opte por executar a campanha a cada n minutos ou horas. Você também pode definir o intervalo de tempo no dia em que as execuções são permitidas.
 
-+++
+   +++
 
    +++Semanalmente
 
@@ -139,7 +139,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
    * **[!UICONTROL Recorrência diária]**: escolha dias da semana específicos para a execução (por exemplo, toda segunda e quinta).
    * **[!UICONTROL Hora inicial]**: defina a hora em que a campanha deve ser executada nos dias selecionados.
 
-+++
+   +++
 
    +++Mensalmente
 
@@ -155,7 +155,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora inicial]**: defina a hora em que a campanha deve ser executada.
 
-+++
+   +++
 
 1. Use a configuração **[!UICONTROL Período de validade]** para definir uma data inicial e uma data final específicas, restringindo a execução da campanha a uma janela de tempo limitada.
 
