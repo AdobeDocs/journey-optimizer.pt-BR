@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: ea541231b16947908197748202e62227c5752966
+source-git-commit: c0f5ba3a8d5a361cdae3dd432ddbe54c5b79fe36
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 11%
@@ -57,13 +57,13 @@ Para criar uma campanha orquestrada, siga estas etapas:
 
    ![](assets/inventory-create.png)
 
-1. Insira um nome e uma descrição para a campanha.
+   1. Insira um nome e uma descrição para a campanha.
 
-<!--1. Merge policy-->
+      <!--1. Merge policy-->
 
-1. Use o campo **[!UICONTROL Tags]** para atribuir Tags unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-los facilmente e melhorar a pesquisa na lista de campanhas orquestradas. [Saiba como trabalhar com marcas](../start/search-filter-categorize.md#tags).
+   1. Use o campo **[!UICONTROL Tags]** para atribuir Tags unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-los facilmente e melhorar a pesquisa na lista de campanhas orquestradas. [Saiba como trabalhar com marcas](../start/search-filter-categorize.md#tags).
 
-1. Clique em **[!UICONTROL Salvar]**.
+   1. Clique em **[!UICONTROL Salvar]**.
 
 ## Agendar a campanha {#schedule}
 
@@ -105,7 +105,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
    * **[!UICONTROL Data]**: selecione a data em que a campanha deve ser executada.
    * **[!UICONTROL Hora]**: selecione a hora específica em que a campanha deve ser executada.
 
-   +++
++++
 
    +++Diário
 
@@ -119,7 +119,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora de início]**: defina a hora em que a campanha deve ser executada a cada dia.
 
-   +++
++++
 
    +++Várias vezes ao dia
 
@@ -128,7 +128,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
    * **[!UICONTROL Horas selecionadas]**: selecione as horas específicas em que a campanha deve ser executada e configure sua recorrência diária (executar todos os dias da semana ou em determinados dias).
    * **[!UICONTROL Periodic]**: escolha executar a campanha a cada n minutos ou horas. Você também pode definir o intervalo de tempo no dia em que as execuções são permitidas.
 
-   +++
++++
 
    +++Semanal
 
@@ -139,7 +139,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
    * **[!UICONTROL Recorrência diária]**: escolha dias da semana específicos para execução (por exemplo, toda segunda e quinta-feira).
    * **[!UICONTROL Hora de início]**: defina a hora em que a campanha deve ser executada nos dias selecionados.
 
-   +++
++++
 
    +++Mensal
 
@@ -155,7 +155,7 @@ Para configurar o agendamento da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora de início]**: defina a hora em que a campanha deve ser executada.
 
-   +++
++++
 
 1. Use a configuração **[!UICONTROL Validity period]** para definir uma data de início e término específica, restringindo a execução da campanha a uma janela de tempo limitada.
 
