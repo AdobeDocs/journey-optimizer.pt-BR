@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Usar a atividade de reconciliação
-description: Saiba como usar a atividade de Reconciliação em uma campanha orquestrada
+description: Saiba como usar a atividade de reconciliação em uma campanha orquestrada
 badge: label="Alfa"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 30%
+ht-degree: 93%
 
 ---
 
@@ -37,11 +37,11 @@ ht-degree: 30%
 >abstract="Complemento de geração de reconciliação"
 
 
-+++ Sumário
++++ Índice 
 
-| Bem-vindo às campanhas orquestradas | Lançar a primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
+| Bem-vindo(a) às campanhas orquestradas | Lançar a sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
 |---|---|---|---|
-| [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar Esquemas e Conjuntos de Dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carregamento de arquivo](../file-upload-schema.md)</li><li>[Assimilar dados](../ingest-data.md)</li></ul>[Acessar e gerenciar campanhas orquestradas](../access-manage-orchestrated-campaigns.md) | [Etapas principais para criar uma campanha orquestrada](../gs-campaign-creation.md)<br/><br/>[Criar e agendar a campanha](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Relatórios](../reporting-campaigns.md) | [Trabalhar com o construtor de regras](../orchestrated-rule-builder.md)<br/><br/>[Criar a primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md)<br/><br/>[Redirecionamento](../retarget.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[And-join](and-join.md) - [Criar público](build-audience.md) - [Alterar dimensão](change-dimension.md) - [Atividades de canal](channels.md) - [Combinar](combine.md) - [Desduplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - <b>[Reconciliação](reconciliation.md)</b> - [Salvar público](save-audience.md) - [Divisão](split.md) - [Espera](wait.md) |
+| [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar Esquemas e Conjuntos de Dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carregamento de arquivo](../file-upload-schema.md)</li><li>[Assimilar dados](../ingest-data.md)</li></ul>[Acessar e gerenciar campanhas orquestradas](../access-manage-orchestrated-campaigns.md) | [Etapas principais para criar uma campanha orquestrada](../gs-campaign-creation.md)<br/><br/>[Criar e programar a campanha](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Geração de relatórios](../reporting-campaigns.md) | [Trabalhar com o construtor de regras](../orchestrated-rule-builder.md)<br/><br/>[Criar a sua primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md)<br/><br/>[Redirecionamento](../retarget.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[Associação](and-join.md) - [Criar público-alvo](build-audience.md) - [Mudar dimensão](change-dimension.md) - [Atividades de canal](channels.md) - [Combinar](combine.md) - [Desduplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - <b>[Reconciliação](reconciliation.md)</b> - [Salvar público-alvo](save-audience.md) - [Divisão](split.md) - [Aguardar](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -57,11 +57,11 @@ O conteúdo desta página não é final e pode estar sujeito a alterações.
 
 >[!ENDSHADEBOX]
 
-A atividade **[!UICONTROL Reconciliation]** é uma atividade **[!UICONTROL Targeting]** que permite definir o vínculo entre os dados no Adobe Journey Optimizer e os dados em uma tabela de trabalho, por exemplo, dados carregados de um arquivo externo.
+A atividade **[!UICONTROL Reconciliação]** é uma atividade de **[!UICONTROL Direcionamento]** que permite definir o vínculo entre os dados do banco de dados do Adobe Journey Optimizer e os dados de uma tabela de trabalho, como, por exemplo, dados carregados de um arquivo externo. 
 
-A atividade **[!UICONTROL Enrichment]** permite adicionar dados adicionais à campanha orquestrada, por exemplo, combinando dados de várias fontes ou vinculando a um recurso temporário. Por outro lado, a atividade **[!UICONTROL Reconciliation]** é usada para corresponder dados não identificados ou externos com recursos existentes no banco de dados.
+A atividade **[!UICONTROL Enriquecimento]** permite adicionar dados à campanha orquestrada, como, por exemplo, combinando-se dados de várias fontes ou vinculando-se os dados a um recurso temporário. Em contraste, a atividade **[!UICONTROL Reconciliação]** é usada para corresponder dados não identificados ou externos a recursos existentes no banco de dados.
 
-**[!UICONTROL A reconciliação]** requer que os registros relacionados já existam no sistema. Por exemplo, se você importar um arquivo de compra listando produtos, carimbos de data e hora e informações do cliente, os produtos e os clientes já deverão estar presentes no banco de dados para estabelecer o link.
+A **[!UICONTROL Reconciliação]** exige que os registros relacionados já existam no sistema. Por exemplo, se você importar um arquivo de compra listando produtos, carimbos de data/hora e informações dos clientes, os produtos e os clientes já precisam estar presentes no banco de dados para estabelecer o vínculo.
 
 ## Configurar a atividade de reconciliação {#reconciliation-configuration}
 
@@ -94,34 +94,34 @@ A atividade **[!UICONTROL Enrichment]** permite adicionar dados adicionais à ca
 
 Siga estas etapas para configurar a atividade **[!UICONTROL Reconciliação]**:
 
-1. Adicione uma atividade de **[!UICONTROL Reconciliação]** ao seu fluxo de trabalho.
+1. Adicione uma atividade **[!UICONTROL Reconciliação]** ao seu fluxo de trabalho.
 
-1. Escolha uma nova targeting dimension para definir seu público alvo, como recipients ou assinantes.
+1. Escolha uma nova dimensão de direcionamento para definir a quem você está direcionando, como destinatários ou assinantes.
 
-1. Defina os campos a serem usados para corresponder seus dados de entrada com perfis existentes.
+1. Defina os campos a serem usados para corresponder os seus dados de entrada a perfis existentes.
 
-1. Para corresponder dados usando campos básicos, selecione **[!UICONTROL Atributos simples]**.
+1. Para corresponder os dados por meio de campos básicos, selecione **[!UICONTROL Atributos simples]**.
 
-1. Defina os campos correspondentes:
+1. Defina os campos de correspondência:
 
-   * **[!UICONTROL Source]**: lista os campos de dados de entrada.
+   * **[!UICONTROL Origem]**: lista os campos dos dados de entrada.
 
-   * **[!UICONTROL Destino]**: refere-se aos campos na targeting dimension selecionada.
+   * **[!UICONTROL Destino]**: refere-se aos campos na dimensão de direcionamento selecionada.
 
-   Uma correspondência ocorre quando ambos os valores são iguais, por exemplo, correspondendo por **[!UICONTROL Email]** para identificar perfis.
+   Uma correspondência ocorre quando ambos os valores são iguais, como, por exemplo, quando o **[!UICONTROL Email]** corresponde ao identificar perfis.
 
    ![](../assets/workflow-reconciliation-criteria.png)
 
-1. Para adicionar mais regras correspondentes, clique em **[!UICONTROL Adicionar regra]**. Todas as condições devem ser atendidas para que uma correspondência ocorra.
+1. Para adicionar mais regras de correspondência, clique em **[!UICONTROL Adicionar regra]**. Para que uma correspondência ocorra, todas as condições precisam ser satisfeitas.
 
-1. Para condições mais complexas, escolha **[!UICONTROL Condições avançadas de reconciliação]**. Use o [modelador de consultas](../orchestrated-rule-builder.md) para definir uma lógica personalizada.
+1. Para condições mais complexas, escolha **[!UICONTROL Condições de reconciliação avançadas]**. Use o [modelador de consultas](../orchestrated-rule-builder.md) para definir uma lógica personalizada.
 
-1. Para filtrar quais dados reconciliar, clique em **[!UICONTROL Criar filtro]** e defina sua condição no modelador de consultas.
+1. Para filtrar quais dados reconciliar, clique em **[!UICONTROL Criar filtro]** e defina a condição no modelador de consultas.
 
-1. Por padrão, os registros sem correspondência são mantidos na transição de saída e armazenados na tabela de trabalho. Para removê-los, habilite a opção **[!UICONTROL Manter dados não reconciliados]**.
+1. Por padrão, registros sem correspondência são mantidos na transição de saída e armazenados na tabela de trabalho. Para removê-los, habilite a opção **[!UICONTROL Manter dados não reconciliados]**.
 
 ## Exemplo {#example-reconciliation}
 
-Este exemplo usa a atividade **[!UICONTROL Reconciliação]** no Adobe Journey Optimizer para garantir que os emails sejam enviados somente para clientes reconhecidos. Os dados fluem por meio de uma atividade **[!UICONTROL Ler público-alvo]** que direciona os usuários com pedidos anteriores. A atividade **[!UICONTROL Reconciliation]** então corresponde esses dados de entrada aos perfis existentes no banco de dados usando o campo de email.
+Este exemplo usa a atividade **[!UICONTROL Reconciliação]** no Adobe Journey Optimizer para garantir que os emails sejam enviados somente a clientes reconhecidos. Os dados fluem por meio de uma atividade **[!UICONTROL Público-alvo de leitura]** direcionada a usuários com pedidos anteriores. Então, a atividade **[!UICONTROL Reconciliação]** corresponde esses dados de entrada aos perfis existentes no banco de dados, usando o campo de email.
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)

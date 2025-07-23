@@ -10,18 +10,18 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 3%
+ht-degree: 78%
 
 ---
 
 
 # Etapas principais para criar uma campanha orquestrada {#orchestrated-campaign-creation}
 
-+++ Sumário
++++ Índice 
 
-| Bem-vindo às campanhas orquestradas | Lançar a primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
+| Bem-vindo(a) às campanhas orquestradas | Lançar a sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
 |---|---|---|---|
-| [Introdução a campanhas orquestradas](gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar Esquemas e Conjuntos de Dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carregamento de arquivo](file-upload-schema.md)</li><li>[Assimilar dados](ingest-data.md)</li></ul>[Acesse e gerencie campanhas orquestradas](access-manage-orchestrated-campaigns.md)<br/><br/><b>[Etapas principais para criar uma campanha orquestrada](gs-campaign-creation.md)</b> | [Criar e agendar a campanha](create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](start-monitor-campaigns.md)<br/><br/>[Relatórios](reporting-campaigns.md) | [Trabalhar com o construtor de regras](orchestrated-rule-builder.md)<br/><br/>[Criar a primeira consulta](build-query.md)<br/><br/>[Editar expressões](edit-expressions.md)<br/><br/>[Redirecionamento](retarget.md) | [Introdução às atividades](activities/about-activities.md)<br/><br/>Atividades:<br/>[And-join](activities/and-join.md) - [Criar público](activities/build-audience.md) - [Alterar dimensão](activities/change-dimension.md) - [Atividades de canal](activities/channels.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público](activities/save-audience.md) - [Divisão](activities/split.md) - [Espera](activities/wait.md) |
+| [Introdução a campanhas orquestradas](gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar Esquemas e Conjuntos de Dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carregamento de arquivo](file-upload-schema.md)</li><li>[Assimilar dados](ingest-data.md)</li></ul>[Acesse e gerencie campanhas orquestradas](access-manage-orchestrated-campaigns.md)<br/><br/><b>[Etapas principais para criar uma campanha orquestrada](gs-campaign-creation.md)</b> | [Criar e programar a campanha](create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](start-monitor-campaigns.md)<br/><br/>[Geração de relatórios](reporting-campaigns.md) | [Trabalhar com o construtor de regras](orchestrated-rule-builder.md)<br/><br/>[Criar a sua primeira consulta](build-query.md)<br/><br/>[Editar expressões](edit-expressions.md)<br/><br/>[Redirecionamento](retarget.md) | [Introdução às atividades](activities/about-activities.md)<br/><br/>Atividades:<br/>[Associação](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Mudar dimensão](activities/change-dimension.md) - [Atividades de canal](activities/channels.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Divisão](activities/split.md) - [Aguardar](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -37,7 +37,7 @@ O conteúdo desta página não é final e pode estar sujeito a alterações.
 
 >[!ENDSHADEBOX]
 
-Esta página aborda as etapas essenciais para criar e iniciar uma campanha orquestrada, desde a configuração e o design até o monitoramento e os relatórios.
+Esta página aborda as etapas essenciais para criar e iniciar uma campanha orquestrada, desde a configuração e elaboração até o monitoramento e os relatórios.
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
@@ -49,32 +49,32 @@ Esta página aborda as etapas essenciais para criar e iniciar uma campanha orque
 
 
 
-## Etapa 1: criar e agendar a campanha {#create}
+## Etapa 1: criar e programar a sua campanha {#create}
 
-Antes de mais nada, você precisa criar sua campanha orquestrada e definir *quando* ela deverá ser executada. Seja uma única vez ou uma campanha multicanal recorrente, você terá controle total sobre o tempo e a frequência.
+Antes de mais nada, você precisa criar a sua campanha orquestrada e definir *quando* ela deve ser executada. Seja uma única vez ou uma campanha multicanal recorrente, você terá controle total sobre o tempo e a frequência.
 
-➡️ [Saiba como criar e agendar uma campanha](../orchestrated/create-orchestrated-campaign.md)
+➡️ [Saiba como criar e programar uma campanha](../orchestrated/create-orchestrated-campaign.md)
 
-## Etapa 2: Orquestrar atividades de campanha {#orchestrate}
+## Etapa 2: orquestrar atividades da campanha {#orchestrate}
 
-Depois que a campanha é criada, é hora de projetar a lógica por trás dela. Usando uma tela visual, você pode combinar atividades de direcionamento, entrega e controle de fluxo para moldar a experiência do cliente.
+Depois que a campanha é criada, é hora de projetar a lógica por trás dela. Usando uma tela visual, você pode combinar atividades de direcionamento, entrega e controle do fluxo para moldar a experiência do cliente.
 
-➡️ [Saiba como organizar atividades](../orchestrated/orchestrate-activities.md)
+➡️ [Saiba como orquestrar atividades](../orchestrated/orchestrate-activities.md)
 
-## Etapa 3: iniciar e monitorar a campanha {#start}
+## Etapa 3: iniciar e monitorar a sua campanha {#start}
 
-Você está quase lá! Execute sua campanha no modo de teste primeiro para detectar problemas. Em seguida, publique-o e monitore a execução em tempo real. Rastreie o progresso, verifique se há erros e veja como os perfis fluem em cada etapa.
+Você está quase lá! Execute a sua campanha no modo de teste primeiro para detectar problemas. Em seguida, publique-a e monitore a execução em tempo real. Rastreie o progresso, verifique se há erros e veja como os perfis fluem por cada etapa.
 
 ➡️ [Saiba como iniciar e monitorar uma campanha](../orchestrated/start-monitor-campaigns.md)
 
-## Etapa 4: Analisar e relatar resultados {#report}
+## Etapa 4: analisar e relatar resultados {#report}
 
-Após o lançamento, use relatórios integrados para entender o que funcionou e o que poderia ser melhorado. Painéis em tempo real e análises detalhadas ajudam a otimizar campanhas futuras e refinar sua estratégia.
+Após o lançamento, use os relatórios integrados para entender o que funcionou e o que pode ser melhorado. Painéis em tempo real e análises aprofundadas ajudam a otimizar campanhas futuras e refinar a sua estratégia.
 
-➡️ [Saiba mais sobre os relatórios](../orchestrated/reporting-campaigns.md)
+➡️ [Saiba mais sobre a geração de relatórios](../orchestrated/reporting-campaigns.md)
 
-## Para ir além: redirecionar com base no envolvimento {#retarget}
+## Para ir mais fundo: redirecionar com base no engajamento {#retarget}
 
-Depois que a campanha for executada, você poderá ir um passo além, redirecionando perfis com base em como eles interagiram com a mensagem, independentemente de terem aberto ou clicado em um link. Isso permite o acompanhamento com mensagens personalizadas, o reengajamento de usuários inativos ou a duplicação de interesses.
+Depois que a campanha for executada, você poderá ir além, redirecionando perfis com base em como eles interagiram com a mensagem, seja abrindo ou clicando em um link. Isso permite realizar o acompanhamento com mensagens personalizadas, reengajar usuários inativos ou explorar o interesse.
 
 ➡️ [Saiba como redirecionar com base em eventos de feedback](../orchestrated/retarget.md)

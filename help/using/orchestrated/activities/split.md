@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Usar a atividade Split
-description: Saiba como usar a atividade de Split em uma campanha orquestrada
+title: Usar a atividade Divisão
+description: Saiba como usar a atividade Divisão em uma campanha orquestrada
 badge: label="Alfa"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 52%
+ht-degree: 95%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 52%
 >abstract="A atividade **Divisão** permite segmentar as populações recebidas em vários subconjuntos com base em diferentes critérios de seleção, como regras de filtragem ou tamanho da população."
 
 
-+++ Sumário
++++ Índice 
 
-| Bem-vindo às campanhas orquestradas | Lançar a primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
+| Bem-vindo(a) às campanhas orquestradas | Lançar a sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
 |---|---|---|---|
-| [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar Esquemas e Conjuntos de Dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carregamento de arquivo](../file-upload-schema.md)</li><li>[Assimilar dados](../ingest-data.md)</li></ul>[Acessar e gerenciar campanhas orquestradas](../access-manage-orchestrated-campaigns.md) | [Etapas principais para criar uma campanha orquestrada](../gs-campaign-creation.md)<br/><br/>[Criar e agendar a campanha](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Relatórios](../reporting-campaigns.md) | [Trabalhar com o construtor de regras](../orchestrated-rule-builder.md)<br/><br/>[Criar a primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md)<br/><br/>[Redirecionamento](../retarget.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[And-join](and-join.md) - [Criar público](build-audience.md) - [Alterar dimensão](change-dimension.md) - [Atividades de canal](channels.md) - [Combinar](combine.md) - [Desduplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Salvar público](save-audience.md) - <b>[Divisão](split.md)</b> - [Espera](wait.md) |
+| [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar Esquemas e Conjuntos de Dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carregamento de arquivo](../file-upload-schema.md)</li><li>[Assimilar dados](../ingest-data.md)</li></ul>[Acessar e gerenciar campanhas orquestradas](../access-manage-orchestrated-campaigns.md) | [Etapas principais para criar uma campanha orquestrada](../gs-campaign-creation.md)<br/><br/>[Criar e programar a campanha](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Geração de relatórios](../reporting-campaigns.md) | [Trabalhar com o construtor de regras](../orchestrated-rule-builder.md)<br/><br/>[Criar a sua primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md)<br/><br/>[Redirecionamento](../retarget.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[Associação](and-join.md) - [Criar público-alvo](build-audience.md) - [Mudar dimensão](change-dimension.md) - [Atividades de canal](channels.md) - [Combinar](combine.md) - [Desduplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Salvar público-alvo](save-audience.md) - <b>[Divisão](split.md)</b> - [Aguardar](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -43,9 +43,9 @@ O conteúdo desta página não é final e pode estar sujeito a alterações.
 
 >[!ENDSHADEBOX]
 
-A atividade **[!UICONTROL Split]** é uma atividade **[!UICONTROL Targeting]** que segmenta a população recebida em vários subconjuntos com base em critérios de seleção definidos, como regras de filtragem ou tamanho de população.
+A atividade **[!UICONTROL Divisão]** é uma atividade de **[!UICONTROL Direcionamento]** que segmenta as populações de entrada em vários subconjuntos com base em critérios de seleção definidos, como regras de filtragem ou tamanho da população.
 
-## Configurar a atividade de divisão {#split-configuration}
+## Configurar a atividade Divisão {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
@@ -87,9 +87,9 @@ A atividade **[!UICONTROL Split]** é uma atividade **[!UICONTROL Targeting]** q
 >title="Habilitar sobreposição de populações de saída"
 >abstract=" A opção **[!UICONTROL Habilitar sobreposição de populações de saída]** permite gerenciar populações pertencentes a vários subconjuntos. Quando a caixa não está marcada, a atividade Divisão garante que um destinatário não possa estar presente em diversas transições de saída, mesmo que atenda aos critérios de vários subconjuntos. Eles estarão no público-alvo da primeira guia com critérios correspondentes. Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. "
 
-Siga estas etapas para configurar a atividade de **[!UICONTROL Divisão]**:
+Siga estas etapas para configurar a atividade **[!UICONTROL Divisão]**:
 
-1. Adicione uma atividade **[!UICONTROL Split]** à sua campanha orquestrada.
+1. Adicione uma atividade **[!UICONTROL Divisão]** à sua campanha orquestrada.
 
 1. O painel de configuração da atividade é aberto com um subconjunto padrão. Clique em **[!UICONTROL Adicionar segmento]** para adicionar quantos subconjuntos desejar e segmentar a população recebida.
 
@@ -97,46 +97,46 @@ Siga estas etapas para configurar a atividade de **[!UICONTROL Divisão]**:
 
    >[!IMPORTANT]
    >
-   >A atividade **Split** processa subconjuntos na ordem em que são adicionados. Por exemplo, se o primeiro subconjunto capturar 70% da população, o próximo aplica seus critérios aos 30% restantes.
+   >A atividade **Divisão** processa os subconjuntos na ordem em que foram adicionados. Por exemplo, se o primeiro subconjunto captar 70% da população, o próximo aplicará seus critérios aos 30% restantes.
    >
    >Antes de executar a campanha orquestrada, verifique se os subconjuntos estão ordenados conforme pretendido. Use os botões de seta para ajustar a posição.
 
-1. Após a adição dos subconjuntos, a atividade mostrará tantas transições de saída quanto houver subconjuntos. Recomendamos alterar o rótulo de cada subconjunto para identificá-los facilmente na tela de campanha orquestrada.
+1. Após a adição dos subconjuntos, a atividade mostrará tantas transições de saída quanto houver subconjuntos. É altamente recomendável alterar o rótulo de cada subconjunto para identificá-lo facilmente na tela da campanha orquestrada.
 
 1. Configure filtros para cada subconjunto:
 
    1. Clique em um subconjunto para abrir suas configurações.
 
-   1. Clique em **[!UICONTROL Criar filtro]** para definir regras de filtragem usando o modelador de consultas, por exemplo, selecione perfis com um endereço de email válido.
+   1. Clique em **[!UICONTROL Criar filtro]** para definir regras de filtragem, usando o modelador de consultas, por exemplo, selecionar perfis com um endereço de email válido.
 
       ![](../assets/orchestrated-split-1.png)
 
-   1. Para limitar o número de perfis selecionados, habilite **[!UICONTROL Habilitar limite]** e especifique um número ou porcentagem.
+   1. Para limitar o número de perfis selecionados, ative a opção de **[!UICONTROL Habilitar limite]** e especifique um número ou porcentagem.
 
-   1. Para ignorar uma transição quando o subconjunto estiver vazio, habilite **[!UICONTROL Ignorar transição vazia].**
+   1. Para ignorar uma transição quando o subconjunto estiver vazio, ative a opção de **[!UICONTROL Ignorar transição vazia].**
 
-1. Para incluir perfis não correspondentes a nenhum subconjunto, habilite **[!UICONTROL Gerar complemento]**. Isso cria uma transição de saída adicional para a população restante.
+1. Para incluir perfis que não correspondam a nenhum subconjunto, ative a opção de **[!UICONTROL Gerar complemento]**. Isso cria uma transição de saída adicional para a população restante.
 
    >[!NOTE]
    >
-   >Habilite **[!UICONTROL Gerar todos os subconjuntos na mesma tabela]** para agrupar todos os subconjuntos em uma única transição.
+   >Ative a opção de **[!UICONTROL Gerar todos os subconjuntos na mesma tabela]** para agrupar todos os subconjuntos em uma mesma transição.
 
 1. Use **[!UICONTROL Habilitar sobreposição de populações de saída]** para permitir que os perfis apareçam em vários subconjuntos:
 
-   * **Se desmarcado**, cada perfil será atribuído a apenas um subconjunto, o primeiro cujos critérios ele corresponda mesmo que se qualifique para outros subconjuntos.
+   * **Se desmarcado**, cada perfil será atribuído a apenas um subconjunto, o primeiro cujos critérios ele satisfizer, mesmo que se qualifique para outros subconjuntos.
 
-   * **Se marcado**, os perfis poderão ser incluídos em vários subconjuntos se atenderem aos critérios de cada um.
+   * **Se marcado**, os perfis poderão ser incluídos em vários subconjuntos se satisfizerem os critérios de cada um deles.
 
-A atividade agora está configurada. Na execução orquestrada da campanha, a população será segmentada em diferentes subconjuntos, na ordem em que foram adicionados à atividade.
+A atividade agora está configurada. Na execução da campanha orquestrada, a população será segmentada entre os diferentes subconjuntos, na ordem em que foram adicionados à atividade.
 
 ## Exemplo{#split-example}
 
 No exemplo a seguir, a atividade de **[!UICONTROL Divisão]** é usada para segmentar um público-alvo em subconjuntos distintos com base no canal de comunicação que queremos usar:
 
-* **Subconjunto 1 &quot;email&quot;**: inclui perfis que forneceram um número de telefone.
+* **Subconjunto 1 “email”**: inclui perfis que forneceram um número de telefone.
 
-* **Subconjunto 2 &quot;sms&quot;**: segmenta os perfis com um número de celular armazenado no banco de dados.
+* **Subconjunto 2 “sms”**: segmenta os perfis com um número de celular armazenado no banco de dados.
 
-* **Transição de complemento**: captura todos os perfis restantes que não atendem aos critérios de nenhum subconjunto.
+* **Transição de complemento**: capta todos os perfis restantes que não satisfazem os critérios de nenhum subconjunto.
 
 ![](../assets/orchestrated-split-3.png)

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Usar a atividade Combinar
-description: Saiba como usar a atividade Combinar
+description: Saiba como usar a atividade de combinar
 badge: label="Alfa"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 47%
+ht-degree: 96%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 47%
 >title="Atividade de combinar"
 >abstract="A atividade **Combinar** permite executar a segmentação na população de entrada. Dessa forma, é possível combinar várias populações, excluir uma parte delas ou manter apenas dados comuns a vários públicos-alvo."
 
-+++ Sumário
++++ Índice 
 
-| Bem-vindo às campanhas orquestradas | Lançar a primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
+| Bem-vindo(a) às campanhas orquestradas | Lançar a sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
 |---|---|---|---|
-| [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar Esquemas e Conjuntos de Dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carregamento de arquivo](../file-upload-schema.md)</li><li>[Assimilar dados](../ingest-data.md)</li></ul>[Acessar e gerenciar campanhas orquestradas](../access-manage-orchestrated-campaigns.md) | [Etapas principais para criar uma campanha orquestrada](../gs-campaign-creation.md)<br/><br/>[Criar e agendar a campanha](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Relatórios](../reporting-campaigns.md) | [Trabalhar com o construtor de regras](../orchestrated-rule-builder.md)<br/><br/>[Criar a primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md)<br/><br/>[Redirecionamento](../retarget.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[And-join](and-join.md) - [Criar público](build-audience.md) - [Alterar dimensão](change-dimension.md) - [Atividades de canal](channels.md) - <b>[Combinar](combine.md)</b> - [Desduplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Salvar público](save-audience.md) - [Divisão](split.md) - [Espera](wait.md) |
+| [Introdução a campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar Esquemas e Conjuntos de Dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carregamento de arquivo](../file-upload-schema.md)</li><li>[Assimilar dados](../ingest-data.md)</li></ul>[Acessar e gerenciar campanhas orquestradas](../access-manage-orchestrated-campaigns.md) | [Etapas principais para criar uma campanha orquestrada](../gs-campaign-creation.md)<br/><br/>[Criar e programar a campanha](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Geração de relatórios](../reporting-campaigns.md) | [Trabalhar com o construtor de regras](../orchestrated-rule-builder.md)<br/><br/>[Criar a sua primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md)<br/><br/>[Redirecionamento](../retarget.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[Associação](and-join.md) - [Criar público-alvo](build-audience.md) - [Mudar dimensão](change-dimension.md) - [Atividades de canal](channels.md) - <b>[Combinar](combine.md)</b> - [Desduplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Salvar público-alvo](save-audience.md) - [Divisão](split.md) - [Aguardar](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -41,13 +41,13 @@ O conteúdo desta página não é final e pode estar sujeito a alterações.
 
 >[!ENDSHADEBOX]
 
-A atividade **[!UICONTROL Combinar]** é um tipo de atividade de **[!UICONTROL Direcionamento]** que permite segmentar efetivamente a população de entrada. Ele permite mesclar várias populações, excluir segmentos específicos ou reter apenas os dados compartilhados em vários targets.
+A atividade **[!UICONTROL Combinar]** é um tipo de atividade de **[!UICONTROL Direcionamento]** que permite segmentar efetivamente a população de entrada. Ela permite mesclar várias populações, excluir segmentos específicos ou reter apenas os dados compartilhados em vários alvos.
 
 As seguintes opções de segmentação estão disponíveis:
 
-* **[!UICONTROL União]**: mescla os resultados de várias atividades em um único destino unificado.
+* **[!UICONTROL União]**: mescla os resultados de várias atividades em um único público-alvo unificado.
 
-* **[!UICONTROL Interseção]**: retém apenas os elementos comuns em todas as populações de entrada.
+* **[!UICONTROL Interseção]**: retém apenas os elementos compartilhados por todas as populações de entrada.
 
 * **[!UICONTROL Exclusão]**: remove elementos de uma população com base em critérios especificados.
 
@@ -85,13 +85,13 @@ Siga estas etapas comuns para começar a configurar a atividade **[!UICONTROL Co
 >title="Opções de reconciliação"
 >abstract="Selecione o **Tipo de reconciliação** para definir como lidar com duplicatas. A opção **Chaves** está ativada por padrão, o que significa que a atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Use a opção **Uma seleção de colunas** para definir a lista de colunas nas quais a reconciliação de dados será aplicada."
 
-Na atividade **[!UICONTROL Combinar]**, é possível configurar uma **[!UICONTROL União]** selecionando um **[!UICONTROL Tipo de reconciliação]** para determinar como os registros duplicados são gerenciados:
+Na atividade **[!UICONTROL Combinar]**, é possível configurar uma **[!UICONTROL União]**, selecionando-se um **[!UICONTROL Tipo de reconciliação]** para determinar como os registros duplicados são gerenciados:
 
-* **[!UICONTROL Somente chaves]** (padrão): retém um único registro quando várias transições de entrada compartilham a mesma chave. Essa opção só é aplicável quando as populações de entrada são homogêneas.
+* **[!UICONTROL Somente chaves]** (padrão): retém um único registro quando várias transições de entrada compartilham a mesma chave. Esta opção aplica-se somente quando as populações de entrada são homogêneas.
 
-* **[!UICONTROL Uma seleção de colunas]**: permite especificar quais colunas são usadas para reconciliação de dados. Selecione **[!UICONTROL Adicionar atributo]**.
+* **[!UICONTROL Uma seleção de colunas]**: permite especificar quais colunas são usadas para a reconciliação de dados. Selecione **[!UICONTROL Adicionar atributo]**.
 
-No exemplo a seguir, uma atividade **[!UICONTROL Combinar]** é usada com uma **[!UICONTROL União]** para mesclar os resultados de duas consultas, **Membros de Fidelidade** e **Compradores**, em um público-alvo único e maior que inclui todos os perfis de ambos os segmentos.
+No exemplo a seguir, uma atividade **[!UICONTROL Combinar]** é usada com **[!UICONTROL União]** para mesclar os resultados de duas consultas, **Membros de fidelidade** e **Compradores** em um mesmo público-alvo maior que inclui todos os perfis de ambos os segmentos.
 
 ![](../assets/orchestrated-union-example.png)
 
@@ -106,13 +106,13 @@ Na atividade **[!UICONTROL Combinar]**, você pode configurar uma **[!UICONTROL 
 
 1. Selecione o **[!UICONTROL Tipo de reconciliação]** para definir como as duplicatas são tratadas:
 
-   * **[!UICONTROL Somente chaves]** (padrão): retém um único registro quando várias transições de entrada compartilham a mesma chave. Essa opção só é aplicável quando as populações de entrada são homogêneas.
+   * **[!UICONTROL Somente chaves]** (padrão): retém um único registro quando várias transições de entrada compartilham a mesma chave. Esta opção aplica-se somente quando as populações de entrada são homogêneas.
 
-   * **[!UICONTROL Uma seleção de colunas]**: permite especificar quais colunas são usadas para reconciliação de dados. Selecione **[!UICONTROL Adicionar atributo]**.
+   * **[!UICONTROL Uma seleção de colunas]**: permite especificar quais colunas são usadas para a reconciliação de dados. Selecione **[!UICONTROL Adicionar atributo]**.
 
-1. Habilite **[!UICONTROL Gerar conclusão]** se desejar processar a população restante. O complemento contém a união de todos os resultados da atividade de entrada, excluindo a interseção. Uma transição de saída adicional é adicionada à atividade.
+1. Habilite a opção de **[!UICONTROL Gerar complemento]** se quiser processar a população restante. O complemento contém a união de todos os resultados das atividades de entrada, excluindo a interseção. Uma transição de saída adicional é adicionada à atividade.
 
-O exemplo a seguir ilustra o uso da **[!UICONTROL Interseção]** entre duas atividades de consulta. É usado para identificar perfis que são **Membros do programa de fidelidade** e que fizeram uma compra no mês passado.
+O exemplo a seguir ilustra o uso da **[!UICONTROL Interseção]** entre duas atividades de consulta. Ela é usada para identificar perfis que são **Membros de fidelidade** e que fizeram uma compra no mês passado.
 
 ![](../assets/orchestrated-intersection-example.png)
 
@@ -141,13 +141,13 @@ O exemplo a seguir ilustra o uso da **[!UICONTROL Interseção]** entre duas ati
 
 Na atividade **[!UICONTROL Combinar]**, é possível configurar uma **[!UICONTROL Exclusão]**. Para isso, você precisa seguir as etapas adicionais abaixo:
 
-1. Na seção **[!UICONTROL Conjuntos para ingressar]**, escolha o **[!UICONTROL Conjunto principal]**, que representa a população principal. Os registros encontrados nos outros conjuntos são excluídos deste conjunto principal.
+1. Na seção **[!UICONTROL Conjuntos a serem associados]**, selecione o **[!UICONTROL Conjunto primário]**, que representa a população principal. Os registros encontrados nos outros conjuntos são excluídos desse conjunto principal.
 
-1. Quando necessário, você pode ajustar tabelas de entrada para alinhar destinos de diferentes dimensões. Para excluir um target de outra dimensão, ele deve primeiro ser trazido para o mesmo targeting dimension como a população principal. Para fazer isso, clique em **[!UICONTROL Adicionar uma regra]** e defina as condições para alterar a dimensão. A reconciliação é feita usando um atributo ou uma junção.
+1. Quando necessário, você pode ajustar tabelas de entrada para alinhar destinos de diferentes dimensões. Para excluir um público-alvo de outra dimensão, ele precisa primeiro ser trazido para a mesma dimensão de direcionamento da população principal. Para isso, clique em **[!UICONTROL Adicionar uma regra]** e defina as condições para alterar a dimensão. A reconciliação é feita com base em um atributo ou uma associação.
 
-1. Habilite **[!UICONTROL Gerar conclusão]** se desejar processar a população restante. O complemento contém a união de todos os resultados da atividade de entrada, excluindo a interseção. Uma transição de saída adicional é adicionada à atividade.
+1. Habilite a opção **[!UICONTROL Gerar complemento]** se quiser processar a população restante. O complemento contém a união de todos os resultados das atividades de entrada, excluindo a interseção. Uma transição de saída adicional é adicionada à atividade.
 
-O exemplo **[!UICONTROL Exclusão]** a seguir mostra duas consultas configuradas para filtrar perfis que compraram um produto. Os perfis que não têm uma associação de fidelidade são excluídos do primeiro conjunto.
+O exemplo de **[!UICONTROL Exclusão]** a seguir mostra duas consultas configuradas para filtrar perfis que compraram um produto. Os perfis que não tiverem uma associação de fidelidade serão excluídos do primeiro conjunto.
 
 ![](../assets/orchestrated-exclusion-example.png)
 
