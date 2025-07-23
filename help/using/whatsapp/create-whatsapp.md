@@ -9,14 +9,14 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 4%
+source-wordcount: '766'
+ht-degree: 7%
 
 ---
+
 
 # Criar uma mensagem de WhatsApp {#create-whatsapp}
 
@@ -24,10 +24,10 @@ ht-degree: 4%
 
 **Índice**
 
-* [Introdução a mensagens do WhatsApp](get-started-whatsapp.md)
+* [Introdução às mensagens do WhatsApp](get-started-whatsapp.md)
 * [Introdução à configuração do WhatsApp](whatsapp-configuration.md)
 * **[Criar uma mensagem do WhatsApp](create-whatsapp.md)**
-* [Verificar e enviar suas mensagens do WhatsApp](send-whatsapp.md)
+* [Verificar e enviar mensagens do WhatsApp](send-whatsapp.md)
 
 >[!ENDSHADEBOX]
 
@@ -154,8 +154,7 @@ Observe que seu modelo do WhatsApp deve ser aprovado primeiro pelo Meta antes de
 
 1. Use o botão **[!UICONTROL Simular conteúdo]** para pré-visualizar o conteúdo da mensagem do WhatsApp, URLs encurtadas e conteúdo personalizado. [Saiba mais](send-whatsapp.md)
 
-Depois de executar os testes e validar o conteúdo, você pode enviar a mensagem do WhatsApp para o público-alvo. Estas etapas estão detalhadas em [esta página](send-whatsapp.md)
-
+Depois de executar os testes e validar o conteúdo, você pode [enviar a mensagem do WhatsApp](send-whatsapp.md) para o seu público-alvo e monitorar o desempenho por meio dos [relatórios](../reports/campaign-global-report-cja.md).
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
