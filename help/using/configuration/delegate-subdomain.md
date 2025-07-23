@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomínio, delegação, domínio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '1999'
 ht-degree: 21%
 
 ---
@@ -99,7 +99,7 @@ Para delegar totalmente um novo subdomínio ao Adobe, siga as etapas abaixo:
 
    >[!NOTE]
    >
-   >Todos os registros ausentes, ou seja, os registros ainda não criados em sua solução de hospedagem, serão listados.
+   >Verifique se todos os registros foram criados corretamente antes de continuar.
 
 1. Depois que as verificações forem bem-sucedidas, o subdomínio obterá o status **[!UICONTROL Success]**. Ele está pronto para ser usado para enviar mensagens.
 
@@ -164,7 +164,7 @@ Para configurar um subdomínio usando CNAMEs, siga as etapas abaixo:
 
    >[!NOTE]
    >
-   >Todos os registros ausentes, ou seja, os registros ainda não criados em sua solução de hospedagem, serão listados.
+   >Verifique se todos os registros foram criados corretamente antes de continuar.
 
 1. O Adobe gera um registro de validação de URL CDN SSL. Copie este registro de validação na plataforma de hospedagem. Se você criou corretamente esse registro na sua solução de hospedagem, marque a caixa &quot;Eu confirmo...&quot; e clique em **[!UICONTROL Enviar]**.
 
@@ -252,4 +252,4 @@ Depois que a solicitação for tratada pela Adobe, o domínio não delegado não
 
 Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342240?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
