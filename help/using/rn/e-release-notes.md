@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 47665bc3cbe1221ba872bcd2b1dac94fea5ec63a
+source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 22%
+source-wordcount: '897'
+ht-degree: 19%
 
 ---
 
@@ -82,7 +82,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>Agora você pode adicionar políticas de decisão em jornadas de email e campanhas. As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue para cada membro do público.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
 <p>Esse recurso só está disponível para um conjunto de organizações. No momento, ele não está disponível para uso com o Healthcare Shield e com o Privacy and Security Shield (Disponibilidade limitada).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -177,7 +176,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>Anteriormente lançado com Disponibilidade limitada, o uso de IDs complementares no jornada agora está disponível para todos os ambientes. Com esta versão de Disponibilidade geral, o recurso agora inclui suporte para jornadas Read audience.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
