@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 4f881bfc32a5f168a93b51c9a69398881790050c
+source-git-commit: c1013cd39dc1d85448e78e5406706a06fbc00de9
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 18%
@@ -19,9 +19,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="campaigns_overview_orchestrated"
->abstract="<b>Orquestração de campanha</b><br/>Dividir, combinar, enriquecer e manipular conjuntos de dados relacionais para definir seu público-alvo<br/><br/>"
-
-<b>Aproveite dados de várias entidades</b><br/>Saiba como as campanhas orquestradas podem aproveitar os conjuntos de dados relacionais para enriquecer dados de segmentação e personalização<br/><br/><b>Segmentação ad-hoc e contagens exatas</b><br/>Crie seu segmento passo a passo com contagens exatas<br/><br/><b>Canais disponíveis</b><br/>Email, SMS, Notificações por push, Correspondência direta&quot;
+>abstract="<b>Orquestração de campanha</b><br/>Dividir, combinar, enriquecer e manipular conjuntos de dados relacionais para definir seu público-alvo<br/><br/> <b>Aproveite dados de várias entidades</b><br/>Saiba como as campanhas orquestradas podem aproveitar os conjuntos de dados relacionais para enriquecer dados de segmentação e personalização<br/><br/><b>Segmentação ad-hoc e contagens exatas</b><br/>Crie seu segmento passo a passo com contagens exatas<br/><br/><b>Canais disponíveis</b><br/>Email, SMS, Notificações por push, Correspondência direta"
 
 +++ Índice 
 
