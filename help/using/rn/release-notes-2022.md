@@ -11,7 +11,7 @@ hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3599'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 **Jornadas**
 
-* A opção de **Forçar a reentrada na recorrência** foi adicionada em parâmetros de programação de público-alvo de leitura recorrentes. Essa opção permite fazer com que todos os perfis ainda presentes na jornada saiam automaticamente na próxima execução. Quando a opção estiver desativada, os perfis devem concluir a jornada antes de entrar novamente em outra ocorrência. [Saiba mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* A opção de **Forçar a reentrada na recorrência** foi adicionada a parâmetros recorrentes do cronograma de ler público-alvo. Essa opção permite fazer com que todos os perfis ainda presentes na jornada saiam automaticamente na próxima execução. Quando a opção estiver desativada, os perfis devem concluir a jornada antes de entrar novamente em outra ocorrência. [Saiba mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Administração**
 
@@ -262,7 +262,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <td>
 <p>Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/3414156?captions=por_br">vídeo do recurso</a>.
+<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/346680">vídeo do recurso</a>.
 </td>
 </tr>
 </tbody>
