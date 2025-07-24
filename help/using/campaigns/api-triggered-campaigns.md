@@ -9,15 +9,20 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 5%
+source-wordcount: '233'
+ht-degree: 4%
 
 ---
 
 
 # Trabalhar com campanhas acionadas por API {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_api_triggered"
+>title="Campanhas acionadas por API"
+>abstract="**Campanhas acionadas pela API transacional**<br/> Acionar mensagens em tempo real por meio de chamadas de API <br/><br/>**Mensagens de marketing**<br/> Conteúdo promocional (requer aceitação, sujeito às regras de negócios)<br/><br/>**Mensagens transacionais**<br/> Conteúdo relacionado a serviços (confirmação, alertas, não sujeito a consentimento de marketing)<br/><br/>**Canais disponíveis**<br/> Notificações por email, SMS, push"
 
 ## Sobre campanhas acionadas por API {#about}
 
@@ -43,4 +48,4 @@ Os canais disponíveis para campanhas acionadas por API são mensagens de email,
 
 Saiba como criar uma campanha e acioná-la a partir de um sistema externo com base em interações do usuário, usando a API REST de execução de mensagem interativa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452730?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
