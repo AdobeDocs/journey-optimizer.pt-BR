@@ -19,7 +19,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="campaigns_overview_orchestrated"
->abstract="<b>Orquestração de campanha</b><br/>Dividir, combinar, enriquecer e manipular conjuntos de dados relacionais para definir seu público-alvo<br/><br/>
+>abstract="<b>Orquestração de campanha</b><br/>Dividir, combinar, enriquecer e manipular conjuntos de dados relacionais para definir seu público-alvo<br/><br/>"
 
 <b>Aproveite dados de várias entidades</b><br/>Saiba como as campanhas orquestradas podem aproveitar os conjuntos de dados relacionais para enriquecer dados de segmentação e personalização<br/><br/><b>Segmentação ad-hoc e contagens exatas</b><br/>Crie seu segmento passo a passo com contagens exatas<br/><br/><b>Canais disponíveis</b><br/>Email, SMS, Notificações por push, Correspondência direta&quot;
 
