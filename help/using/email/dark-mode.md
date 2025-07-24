@@ -11,10 +11,10 @@ keywords: modo escuro, email, cor, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
+source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 8%
+source-wordcount: '1674'
+ht-degree: 9%
 
 ---
 
@@ -153,7 +153,7 @@ Para definir configurações personalizadas do modo escuro, siga as etapas abaix
    >
    >A visualização em tempo real é uma visualização genérica criada para comparar a aparência da renderização em vários tamanhos de dispositivo. A renderização final pode variar de acordo com o cliente de email do recipient.
 
-1. Quando estiver satisfeito com as alterações do modo escuro, clique em **[!UICONTROL Simular conteúdo]**.
+1. Quando estiver satisfeito com as alterações do modo escuro, clique em **[!UICONTROL Simular Conteúdo]**.
 
    ![](assets/dark-mode-simulate.png)
 
@@ -209,13 +209,13 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## Clientes de email que oferecem suporte ao modo escuro {#supporting-email-clients}
 
-Abaixo está uma lista dos principais clientes de email que oferecem suporte ao modo escuro. No entanto, algumas versões dos clientes de email listados não são compatíveis com o modo escuro, portanto, também são apresentadas nesta tabela para fins de clareza e precisão.
+Abaixo está uma lista dos principais clientes de email que oferecem suporte ao modo escuro.
 
->[!WARNING]
+>[!NOTE]
 >
->A renderização final no modo escuro depende de cada cliente de email, portanto, os resultados podem variar de um para o outro. Para ver uma simulação que se aproxime o máximo possível do resultado final de cada cliente de email, use a opção [Renderização de email](../content-management/rendering.md).
+>Algumas versões desses clientes de email não são compatíveis com o modo escuro, portanto, também são apresentadas nesta tabela para fins de clareza.
 
-| Clientes de email que oferecem suporte ao modo escuro | Versões compatíveis | Versões incompatíveis |
+| Clientes de email que oferecem suporte ao modo escuro | Versões compatíveis | *Versões sem suporte* |
 |---------|----------|---------|
 | Apple Mail macOS | 12.4, 16.0 | *10.3* |
 | Apple Mail iOS | 13.0, 16.1 | *12.2* |
@@ -237,13 +237,17 @@ Abaixo está uma lista dos principais clientes de email que oferecem suporte ao 
 | WEB.DE (iOs e Android) | 2022-06 | N/D |
 | Free.fr | 2022-2012 | N/D |
 
+>[!WARNING]
+>
+>A renderização final no modo escuro depende de cada cliente de email, portanto, os resultados podem variar de um para o outro.
+
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
 * Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
 -->
 
-## Os clientes de e-mail NÃO suportam o modo escuro {#non-supporting-email-clients}
+## Clientes de email que não oferecem suporte ao modo escuro {#non-supporting-email-clients}
 
 Alguns clientes de email permitem que os usuários alternem sua interface para o modo escuro, mas essa configuração não afeta a forma como os emails do HTML são exibidos. Independentemente de a interface estar no modo claro ou escuro, seu email será renderizado da mesma forma. Esta é uma lista desses clientes:
 
