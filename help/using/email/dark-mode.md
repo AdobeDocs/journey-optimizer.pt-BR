@@ -14,7 +14,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
 workflow-type: tm+mt
 source-wordcount: '1701'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Alternar para o modo escuro"
->abstract="Alterne para o modo escuro, onde é possível visualizar como ele pode ser renderizado e definir configurações personalizadas específicas. <br>Cuidado: a renderização final depende do cliente de email do destinatário. Nem todos os clientes de email oferecem suporte ao modo escuro personalizado."
+>abstract="Alterne para o modo escuro, que permite visualizar a renderização e definir configurações personalizadas específicas. <br>Cuidado: a renderização final depende do cliente de email do destinatário. Nem todos os clientes de email aceitam o modo escuro."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="Usar uma imagem específica para o modo escuro"
->abstract="Você pode selecionar outra imagem que será exibida quando o modo escuro estiver ativado. <br>Cuidado: a adição de uma imagem específica para o modo escuro não garante que ela seja renderizada corretamente em todos os clientes de email. Nem todos os clientes de email oferecem suporte ao modo escuro personalizado."
+>abstract="Você pode selecionar outra imagem a ser exibida quando o modo escuro estiver ativado. <br>Cuidado: a adição de uma imagem específica para o modo escuro não garante que ela será renderizada corretamente em todos os clientes de email. Nem todos os clientes de email aceitam o modo escuro."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Alternar para o modo escuro"
->abstract="Alterne para o modo escuro para visualizar como ele pode ser renderizado no suporte a clientes de email. <br>Cuidado: a renderização final depende do cliente de email do destinatário. Nem todos os clientes de email oferecem suporte ao modo escuro personalizado."
+>abstract="Alterne para o modo escuro para visualizar a renderização nos clientes de email compatíveis. <br>Cuidado: a renderização final depende do cliente de email do destinatário. Nem todos os clientes de email aceitam o modo escuro."
 
 Ao criar seus emails, o [!DNL Journey Optimizer] [Designer de email](get-started-email-design.md) permite que você alterne para o **[!UICONTROL Modo escuro]**, no qual é possível definir configurações personalizadas específicas. Quando o modo escuro estiver ativado, os clientes de email de suporte exibirão as configurações definidas para esse modo.
 
