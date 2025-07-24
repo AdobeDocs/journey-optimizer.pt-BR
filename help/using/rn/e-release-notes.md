@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
+source-git-commit: 085a86b0869a10536300329acc27914f12be6d7b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '924'
 ht-degree: 17%
 
 ---
@@ -82,7 +82,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>Agora você pode adicionar políticas de decisão em jornadas de email e campanhas. As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue para cada membro do público.</p>
-<p>Esse recurso só está disponível para um conjunto de organizações. No momento, ele não está disponível para uso com o Healthcare Shield e com o Privacy and Security Shield (Disponibilidade limitada).</p>
+<p>No momento, esse recurso não está disponível para uso com o Healthcare Shield e com o Privacy and Security Shield (Disponibilidade limitada).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
