@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Notas de pré-lançamento do Journey Optimizer
-description: Notas de pré-lançamento do Journey Optimizer
+description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
+source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 19%
+source-wordcount: '933'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 **As notas de pré-lançamento abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**. Links, telas e a documentação atualizada são publicados nas [notas de versão](release-notes.md), na data de lançamento.
 
 
-## Notas de versão antecipadas de 25 de julho {#25-7-rn}
+## Notas de pré-lançamento de 25 de julho {#25-7-rn}
 
 
 **As notas de pré-lançamento abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**. Links, telas e a documentação atualizada são publicados na data de lançamento.
@@ -118,6 +118,12 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>O Journey Optimizer agora capacita você com as ferramentas para fornecer conteúdo personalizado e otimizado para o público de suas campanhas, permitindo que você execute experimentos de conteúdo, crie direcionamentos com base em regras e use combinações avançadas de ambos para maximizar a eficiência de suas campanhas.</p>
+<p>Com a Otimização, você pode:</p>
+<ul>
+<li>Executar experimentos de conteúdo</li>
+<li>Aproveitar as regras de direcionamento</li>
+<li>Use combinações avançadas de experimentação e direcionamento em uma única campanha</li></ul>
+<P>Quando a campanha estiver ativa, os perfis serão avaliados em relação aos critérios definidos e, com base nos critérios de correspondência, eles serão entregues com a experiência ou o conteúdo apropriado da campanha.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,7 +164,6 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <li>A capacidade de ver campanhas de rascunho se você tiver definido uma data de início e término</li>
 <li>Uma nova configuração para ocultar e mostrar os itens do calendário em execução por muito tempo</li>
 </ul>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
