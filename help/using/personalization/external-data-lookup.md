@@ -8,17 +8,17 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
+exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
+source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1198'
 ht-degree: 1%
 
 ---
 
-
 # Auxiliar de Pesquisa de Dados Externos
 
-O auxiliar do `externalDataLookup` no Editor de personalização do [!DNL Journey Optmizer] pode ser usado para buscar dados dinamicamente de um terminal externo para uso na geração de conteúdo para canais de entrada, como os canais de Experiência baseada em Código, Web e Mensagens no Aplicativo.
+O auxiliar do `externalDataLookup` no Editor de personalização do [!DNL Journey Optimizer] pode ser usado para buscar dados dinamicamente de um terminal externo para uso na geração de conteúdo para canais de entrada, como os canais de Experiência baseada em Código, Web e Mensagens no Aplicativo.
 
 >[!AVAILABILITY]
 >
@@ -35,14 +35,14 @@ Depois que a Ação é definida, ela pode ser usada:
 
 Consulte Ações personalizadas em [!DNL Journey Optimizer] Campanhas de canais de entrada e Jornada#GuardrailsandGuidelines também.
 
-* Por padrão, [!DNL Journey Optimizer] usa um tempo limite de 300 ms ao chamar um ponto de extremidade externo. Contate a Engenharia do [!DNL Journey Optimizer] para aumentar este tempo limite para um ponto de extremidade.
-* No Editor do Personalization, o [!DNL Journey Optimizer] não permite que você navegue pelo esquema da resposta do ponto de extremidade ao inserir expressões e não valida referências a atributos JSON da resposta usada em expressões.
-* Os tipos de dados compatíveis com parâmetros de variáveis de carga útil a serem substituídos por meio do externalDataLookup helper são String, Integer, Decimal, Boolean, listString, listInt, listInteger, listDecimal.
-* As alterações na configuração de uma Ação não são refletidas nas chamadas externalDataLookup correspondentes em campanhas e jornadas ativas. Para que uma alteração seja refletida, é necessário copiar ou modificar campanhas ou jornadas ativas que estejam usando a Ação em um auxiliar externalDataLookup.
-* O uso de variáveis ainda não é suportado nos parâmetros auxiliares da pesquisa de dados externos.
-* No momento, não há suporte para Caminho dinâmico de URL.  - Aprimoramentos de ações personalizadas de entrada#DynamicPathSegments.
-* A renderização de várias passagens é suportada.
-* Atualmente, as opções de autenticação na configuração Ação não são suportadas pelo auxiliar externalDataLookup. Enquanto isso, para a autenticação baseada em chave de API ou outras chaves de autorização de texto sem formatação, você pode especificá-las como campos de cabeçalho na configuração Ação.
+* **Tempo limite padrão** - Por padrão, [!DNL Journey Optimizer] usa um tempo limite de 300 ms ao chamar um ponto de extremidade externo. Entre em contato com seu representante da Adobe para aumentar esse tempo limite de um endpoint.
+* **Navegação de esquema de resposta e validação de expressão** - No editor de personalização, não é possível navegar pelo esquema da resposta do ponto de extremidade ao inserir expressões. [!DNL Journey Optimizer] não valida referências a atributos JSON da resposta usada em expressões.
+* **Tipos de dados com suporte para parâmetros** - Os tipos de dados com suporte para parâmetros variáveis de carga a serem substituídos por meio do auxiliar externalDataLookup são `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger`, `listDecimal`.
+* **Atualização automática para ações atualizadas** - As alterações em uma configuração Action não são refletidas nas chamadas externalDataLookup correspondentes em campanhas e jornadas ativas. Para que uma alteração seja refletida, é necessário copiar ou modificar campanhas ou jornadas ativas que estejam usando a Ação em um auxiliar externalDataLookup.
+* **Substituição de variável** - Por enquanto, não há suporte para o uso de variáveis nos parâmetros auxiliares externalDataLookup.
+* **Caminho dinâmico** - Por enquanto, não há suporte para o caminho de URL dinâmico.
+* **Renderização de várias passagens** - Há suporte para a renderização de várias passagens.
+* **Autenticação** - Por enquanto, o auxiliar externalDataLookup não oferece suporte às opções de autenticação na configuração Ação. Enquanto isso, para a autenticação baseada em chave de API ou outras chaves de autorização de texto sem formatação, você pode especificá-las como campos de cabeçalho na configuração Ação.
 
 ## Configurar uma ação e usar o auxiliar
 
@@ -102,15 +102,21 @@ Nomes dos parâmetros:
 
 Por exemplo:
 
-`{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
+{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
 
 Os valores de parâmetro podem ser valores fixos ou personalizados referenciando campos de perfil ou outros atributos contextuais, por exemplo:
 
-`{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}`
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}
+```
 
 Parâmetros de carga podem ser fornecidos usando a notação de pontos para fazer referência a atributos JSON aninhados, por exemplo:
 
-`{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}`
+```
+{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}
+```
 
 ### Acessar o resultado
 
@@ -174,7 +180,9 @@ Se você quiser lidar com tempos limite ou erros de maneira mais adequada mostra
 
 Por exemplo, você pode mostrar um valor de fallback para um único atributo como este:
 
-`First video description: {%=result.videos[0].description ?: "none found" %}`
+```
+First video description: {%=result.videos[0].description ?: "none found" %}
+```
 
 ou você pode renderizar condicionalmente um bloco inteiro de conteúdo como este:
 
@@ -196,7 +204,7 @@ Por exemplo:
 
 Na Seção Edge Delivery do rastreamento de garantia como parte dos detalhes de execução, um novo bloco customActions foi adicionado com detalhes de solicitação e resposta semelhantes ao abaixo. A seção de erros deve ajudar na depuração se houver problemas ao executar uma ação personalizada
 
-![](assets/external-data-troubleshoot.png)
+![](assets/external-data-troubleshoot.png "largura=50%")
 
 ## Perguntas frequentes
 
@@ -204,7 +212,9 @@ Na Seção Edge Delivery do rastreamento de garantia como parte dos detalhes de 
 
   Use o menu Atributos contextuais > Sequência de dados > Evento para navegar pelo esquema do Evento de experiência que você está usando e insira o atributo relevante como um valor de parâmetro como este:
 
-  `{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}`
+  ```
+  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+  ```
 
 * [!DNL Journey Optimizer] faz algum armazenamento em cache de respostas do ponto de extremidade externo?
 
