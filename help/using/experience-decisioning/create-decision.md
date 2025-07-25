@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 13%
+source-wordcount: '1841'
+ht-degree: 15%
 
 ---
 
@@ -26,6 +26,16 @@ ht-degree: 13%
 >title="Defina uma política de decisão"
 >abstract="Uma política de decisão permite selecionar os melhores itens do mecanismo de decisão e entregá-los ao público-alvo correto."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Sobre a decisão"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="Política de decisão"
+>abstract="Uma política de decisão permite selecionar os melhores itens do mecanismo de decisão e entregá-los a cada público-alvo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="Posicionamento"
+>abstract="Um posicionamento determina onde os itens retornados do mecanismo de decisão aparecem em uma mensagem. Você pode acompanhar o desempenho em diferentes posicionamentos nos relatórios."
 
 As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para escolher o melhor conteúdo a ser entregue, dependendo do público.
 
