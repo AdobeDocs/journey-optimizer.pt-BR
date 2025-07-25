@@ -6,7 +6,7 @@ description: Saiba como mapear um esquema relacional para o perfil do cliente
 badge: label="Alfa"
 hide: true
 hidefromtoc: true
-source-git-commit: 70d397614dc0e5b5ce94cc4221a28d47dc9b476d
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 11%
@@ -58,7 +58,7 @@ Comece configurando a orquestração de campanhas, mapeando um esquema relaciona
 
    Neste exemplo, o perfil do cliente está vinculado a várias assinaturas, cada uma representada por um único `crmID` no esquema `Recipient`. Ao configurar o **[!UICONTROL Dimension de Destino]** para usar o esquema `Recipient` e sua identidade `crmID`, você poderá enviar mensagens no nível de assinatura, em vez de no perfil principal do cliente, garantindo que cada contrato ou linha receba sua própria mensagem personalizada.
 
-   [Saiba mais na documentação da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition#identity)
+   [Saiba mais na documentação da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
@@ -108,4 +108,4 @@ Após configurar seu **[!UICONTROL Target Dimension]**, é necessário definir s
 
 1. Depois de configurado, clique em **[!UICONTROL Enviar]**.
 
-Seu canal agora está pronto para uso com Campanhas orquestradas e as mensagens serão entregues de acordo com o target dimension selecionado.
+Seu canal agora está pronto para uso com **Campanhas orquestradas** e as mensagens serão entregues de acordo com o target dimension selecionado.

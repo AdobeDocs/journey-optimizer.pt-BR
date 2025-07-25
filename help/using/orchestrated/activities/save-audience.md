@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 67%
+source-wordcount: '466'
+ht-degree: 52%
 
 ---
 
@@ -54,11 +54,13 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Salvar público-alvo
 
 1. Insira um **[!UICONTROL Rótulo do público-alvo]** que identificará o público-alvo salvo.
 
-1. Clique em **[!UICONTROL Adicionar atributo do público-alvo]** para definir como os dados do público-alvo são estruturados e armazenados para reutilização no futuro.
+1. Escolha um **[!UICONTROL Campo de mapeamento de perfil &#x200B;]** na Targeting dimension do Campaign.
+
+   ➡️ [Siga as etapas detalhadas nesta página para criar sua dimensão de Direcionamento de Campanha](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. Em seguida, selecione o **[!UICONTROL Campo de identidade principal]** e o **[!UICONTROL Namespace de identidade]** apropriados para garantir uma resolução correta do perfil.
+1. Clique em **[!UICONTROL Adicionar mapeamentos de público-alvo]** se desejar associar o público-alvo salvo a campos de identidade adicionais.
 
    ![](../assets/save-audience-2.png)
 
@@ -66,10 +68,8 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Salvar público-alvo
 
 O conteúdo do público-alvo salvo ficará disponível na visualização detalhada do público-alvo, que pode ser acessada no menu **[!UICONTROL Públicos-alvo]**.
 
-![](../assets/save-audience-3.png)
-
 ## Exemplo {#save-audience-example}
 
-O exemplo a seguir demonstra como criar um público-alvo simples com o direcionamento. Uma consulta identifica todos os perfis que fizeram uma compra nos últimos 30 dias. A atividade **[!UICONTROL Salvar público-alvo]** capta esses perfis para criar um público-alvo reutilizável de compradores recentes.
+O exemplo a seguir demonstra como criar um público-alvo simples com o direcionamento. Um query identifica todos os recipients que reservaram uma viagem nos últimos 30 dias filtrando essa população na campanha orquestrada. Ao escolher **Recipients - CRMID** como a **Targeting dimension**, o público-alvo será direcionado a cada evento de reserva individual, em vez de somente ao destinatário como um todo. A atividade **[!UICONTROL Salvar público-alvo]** capta esses perfis para criar um público-alvo reutilizável de compradores recentes.
 
-![](../assets/save-audience-4.png)
+![](../assets/save-audience-3.png)
