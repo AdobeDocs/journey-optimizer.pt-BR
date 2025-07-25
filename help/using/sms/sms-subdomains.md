@@ -8,7 +8,7 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdomínios, configuração
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 20%
@@ -78,11 +78,11 @@ Para usar um subdomínio que já está delegado à Adobe, siga as etapas abaixo.
 
    >[!CAUTION]
    >
-   >Se você selecionar um domínio que foi delegado à Adobe usando o [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation), deverá criar o registro DNS na sua plataforma de hospedagem. Para gerar o registro DNS, o processo é o mesmo de quando você configura um novo subdomínio SMS. Saiba mais em [esta seção](#sms-configure-new-subdomain).
+   >Se você selecionar um domínio que foi delegado à Adobe usando o [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-setup), deverá criar o registro DNS na sua plataforma de hospedagem. Para gerar o registro DNS, o processo é o mesmo de quando você configura um novo subdomínio SMS. Saiba mais em [esta seção](#sms-configure-new-subdomain).
 
 1. Clique em **[!UICONTROL Enviar]**.
 
-1. Depois de enviado, o subdomínio é exibido na lista com o status **[!UICONTROL Processando]**. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Depois de enviado, o subdomínio é exibido na lista com o status **[!UICONTROL Processando]**. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
    Antes de poder usar esse subdomínio para enviar mensagens, você deve aguardar até que o Adobe execute as verificações necessárias, que podem levar **até 4 horas**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
@@ -127,7 +127,7 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
 
    Ao configurar um novo subdomínio SMS, ele sempre aponta para um registro CNAME.
 
-1. Depois que a delegação de subdomínio for enviada, o subdomínio será exibido na lista com o status **[!UICONTROL Processando]**. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Depois que a delegação de subdomínio for enviada, o subdomínio será exibido na lista com o status **[!UICONTROL Processando]**. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
 Antes de usar um subdomínio para enviar mensagens SMS, você deve aguardar até que o Adobe execute as verificações necessárias, que podem levar até 4 horas.<!--Learn more in [this section](#subdomain-validation).--> Depois que as verificações forem bem-sucedidas, o subdomínio obterá o status **[!UICONTROL Sucesso]**. Ele está pronto para ser usado para criar configurações de canal SMS.
 
@@ -146,6 +146,6 @@ Se o subdomínio SMS apontar para um registro CNAME, você poderá excluir o reg
 
 >[!NOTE]
 >
->Um subdomínio SMS pode apontar para um registro CNAME porque era um [subdomínio existente](#sms-use-existing-subdomain) delegado à Adobe usando o [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation) ou um [novo subdomínio SMS](#sms-configure-new-subdomain) que você configurou.
+>Um subdomínio SMS pode apontar para um registro CNAME porque era um [subdomínio existente](#sms-use-existing-subdomain) delegado à Adobe usando o [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-setup) ou um [novo subdomínio SMS](#sms-configure-new-subdomain) que você configurou.
 
 Depois que a solicitação for tratada pela Adobe, o domínio não delegado não será mais exibido na página de inventário do subdomínio.

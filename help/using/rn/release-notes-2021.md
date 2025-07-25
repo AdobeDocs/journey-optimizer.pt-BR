@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
-workflow-type: ht
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lan
 <td>
 <p>O Adobe Journey Optimizer agora é compatível com CNAMEs. Um registro CNAME ou Nome canônico é um registro que aponta para outro endereço de domínio em vez de um endereço IP. A delegação de subdomínio CNAME permite criar um subdomínio e usar CNAMEs para apontar para registros específicos da Adobe. Com essa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS para configurar o ambiente para enviar, renderizar e rastrear emails.</p>
 <p>Esse método é recomendado se as políticas de sua organização restringirem o método completo de delegação de subdomínio.</p>
-<p>Saiba mais sobre a delegação de subdomínios CNAME na <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">documentação detalhada</a>.</p>
+<p>Saiba mais sobre a delegação de subdomínios CNAME na <a href="../configuration/delegate-subdomain.md#cname-subdomain-setup">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>

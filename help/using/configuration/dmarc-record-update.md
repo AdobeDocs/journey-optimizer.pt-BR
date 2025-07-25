@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomínio, domínio, email, dmarc, registro
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 96%
@@ -39,7 +39,7 @@ Consequentemente, a Adobe recomenda que você se certifique de ter o registro DM
 ou
    * Configure o DMARC nos subdomínios delegados **na interface de configuração do[!DNL Journey Optimizer]** – sem trabalho extra na solução de hospedagem. [Saiba como](dmarc-record.md#implement-dmarc)
 
-* Se você configurou os subdomínios de envio com o [CNAME](delegate-subdomain.md#cname-subdomain-delegation), siga uma das opções abaixo:
+* Se você configurou os subdomínios de envio com o [CNAME](delegate-subdomain.md#cname-subdomain-setup), siga uma das opções abaixo:
 
    * Configure o DMARC nos subdomínios ou no domínio principal dos subdomínios **na sua solução de hospedagem**.
 ou

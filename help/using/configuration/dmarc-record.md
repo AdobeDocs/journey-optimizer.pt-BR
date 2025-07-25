@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomínio, domínio, email, dmarc, registro
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 11%
@@ -104,7 +104,7 @@ Para verificar se você tem um registro DMARC configurado para todos os subdomí
 
    * [Totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) à Adobe, nenhuma outra ação é necessária.
 
-   * Configurado com [CNAME](delegate-subdomain.md#cname-subdomain-delegation), você deve copiar o registro DNS para o DMARC na solução de hospedagem para gerar os registros DNS correspondentes.
+   * Configurado com [CNAME](delegate-subdomain.md#cname-subdomain-setup), você deve copiar o registro DNS para o DMARC na solução de hospedagem para gerar os registros DNS correspondentes.
 
      ![](assets/dmarc-record-edit-cname.png)
 
