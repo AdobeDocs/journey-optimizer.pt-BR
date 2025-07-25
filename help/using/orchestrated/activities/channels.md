@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 2201cc8b9c0c7813c13156937e1cf319660c1039
+source-git-commit: 3c3ef1555c587b3e50e3b70596fbac98e87d414e
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 82%
+source-wordcount: '1213'
+ht-degree: 77%
 
 ---
 
@@ -101,25 +101,29 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 
 Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal para a sua mensagem e definir configurações adicionais, como rastreamento, experimento de conteúdo ou conteúdo multilíngue.
 
-1. Selecione uma configuração de canal.
+1. **Selecionar uma configuração de canal**
 
    Uma configuração é definida por um [Administrador do sistema](../../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba como definir as configurações de canal](../../configuration/channel-surfaces.md).
 
    ![imagem mostrando a seção de ações](../assets/channel-actions.png)
 
-1. Rastrear engajamento (para email e SMS).
+1. **Aplicar regras de limitação**
+
+   Na lista suspensa **[!UICONTROL Conjunto de regras]**, selecione um conjunto de regras de canal para aplicar regras de limitação à sua campanha. O uso de conjuntos de regras de canal permite definir o limite de frequência por tipo de comunicação para evitar sobrecarga de clientes com mensagens semelhantes. [Saiba como trabalhar com conjuntos de regras](../conflict-prioritization/rule-sets.md)
+
+1. **Rastrear engajamento** (Email e SMS)
 
    Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como os seus destinatários reagem às suas entregas de email ou SMS. Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre os relatórios da campanha](../../reports/campaign-global-report-cja.md)
 
-1. Habilite o modo de entrega rápida (para push).
+1. **Habilitar o modo de entrega rápida** (push)
 
    O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite um envio muito rápido de mensagens por push em grandes volumes por meio das campanhas. A entrega rápida é usada quando um atraso na entrega das mensagens seria crítico para os negócios, quando você deseja enviar um alerta por push urgente a telefones celulares, como, por exemplo, notícias de última hora para usuários que instalaram o seu aplicativo de canal de notícias. Para mais informações sobre desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html).
 
-1. Crie um experimento de conteúdo.
+1. **Criar um experimento de conteúdo**
 
    Use a seção de **[!UICONTROL Experimento de conteúdo]** para definir vários tratamentos de entrega a fim de medir qual apresenta o melhor desempenho para o seu público-alvo. Clique no botão **[!UICONTROL Criar experimento]** e siga as etapas detalhadas nesta seção: [Criar um experimento de conteúdo](../../content-management/content-experiment.md).
 
-1. Adicione um conteúdo multilíngue.
+1. **Adicionar conteúdo multilíngue**
 
    Use a seção **[!UICONTROL Idiomas]** para criar conteúdo em vários idiomas dentro da sua campanha. Para isso, clique no botão **[!UICONTROL Adicionar idiomas]** e selecione as **[!UICONTROL Configurações de idioma]** desejadas. Informações detalhadas sobre como configurar e usar recursos multilíngues estão disponíveis nesta seção: [Introdução a conteúdo multilíngue](../../content-management/multilingual-gs.md)
 
