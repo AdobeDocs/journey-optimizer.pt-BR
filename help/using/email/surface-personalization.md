@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração, subdomínio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1171'
 ht-degree: 6%
 
 ---
@@ -128,7 +128,7 @@ Para usar variáveis personalizadas para seus parâmetros de cabeçalho de confi
 
 Para usar parâmetros de rastreamento de URL personalizados, siga as etapas abaixo.
 
-1. Vá para a seção **[!UICONTROL parâmetros de rastreamento de URL]** da sua configuração de canal de email.
+1. Vá para a seção **[!UICONTROL parâmetros de rastreamento de URL]** da sua configuração de canal de email. [Saiba mais](url-tracking.md)
 
 1. Clique no ícone Editar ao lado de cada campo. Além dos atributos contextuais, você pode selecionar atributos de perfil.
 

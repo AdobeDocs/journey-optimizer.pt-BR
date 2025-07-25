@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1214'
 ht-degree: 30%
 
 ---
@@ -48,6 +48,10 @@ Quando ativadas, essas opções rastreiam o comportamento dos recipients das sua
 ## Inserir links {#insert-links}
 
 Quando o [rastreamento é habilitado](#enable-tracking), todos os links incluídos no conteúdo da mensagem são rastreados.
+
+>[!NOTE]
+>
+>Links de fragmentos usados em um email também são rastreados. [Saiba mais sobre fragmentos](../content-management/fragments.md)
 
 Para inserir links no conteúdo do email, siga as etapas abaixo:
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '710'
 ht-degree: 14%
 
 ---
@@ -79,7 +79,13 @@ Após configurar as propriedades do fragmento, o Designer de email ou o editor d
 
   ![](assets/fragment-expression-editor.png)
 
-Quando o conteúdo estiver pronto, clique no botão **[!UICONTROL Salvar]**. O fragmento é criado e adicionado à lista de fragmentos com o status **[!UICONTROL Rascunho]**. Você pode visualizá-la e publicá-la para torná-la disponível em jornadas e campanhas.
+Quando o conteúdo estiver pronto, clique no botão **[!UICONTROL Salvar]**.
+
+>[!NOTE]
+>
+>Fragmentos visuais não podem exceder 100 KB. Os fragmentos de expressão não podem exceder 200 KB.
+
+O fragmento é criado e adicionado à lista de fragmentos com o status **[!UICONTROL Rascunho]**. Você pode visualizá-la e publicá-la para torná-la disponível em jornadas e campanhas.
 
 ## Pré-visualizar e publicar o fragmento {#publish}
 
