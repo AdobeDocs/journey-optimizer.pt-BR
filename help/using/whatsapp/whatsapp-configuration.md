@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: fa65d30fd55fa7f9392623352ff3c77192cc77dc
+source-git-commit: 9af09d694f58d169dcf4448562129ed0b37f35df
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '773'
 ht-degree: 4%
 
 ---
@@ -81,11 +81,11 @@ Depois de criar e configurar a credencial da API, agora é necessário criar uma
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="Insira suas palavras-chave"
->abstract="Você pode definir palavras-chave para acionar respostas automáticas específicas, como Aceitar, Recusar, Ajuda ou Padrão, com base no texto dos usuários. As palavras-chave não diferenciam maiúsculas de minúsculas; por exemplo, stop e STOP são tratadas da mesma forma."
+>abstract="Você pode definir palavras-chave para acionar respostas automáticas específicas com base no texto dos usuários. As palavras-chave não diferenciam maiúsculas de minúsculas; por exemplo, stop e STOP são tratadas da mesma forma."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
->title=" URL de retorno"
+>title="URL de retorno"
 >abstract="A solicitação de validação e as notificações do webhook para este objeto são enviadas para a URL especificada."
 
 >[!CONTEXTUALHELP]
