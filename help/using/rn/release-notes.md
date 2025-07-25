@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6efd3dc193f48421483909d6cd054723f7fa1753
+source-git-commit: a750a64105cc3939d8d6e2c96e109d6a39e21a9e
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 66%
@@ -66,7 +66,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <td>
 <p>Agora você pode criar e personalizar suas próprias marcas para definir claramente sua identidade visual e verbal nas comunicações. Com a pontuação de alinhamento da marca, você pode receber feedback em tempo real sobre o desempenho do seu conteúdo em refletir o tom, o estilo e as diretrizes da sua marca, ajudando você a permanecer consistente no mesmo lugar com cada mensagem que envia.</p>
 <p>Anteriormente lançado no Beta, esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><img src="assets/do-not-localize/brand-score.gif"/></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -245,7 +245,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 **Data de lançamento**: 18 de junho de 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#25-06-features}
 
