@@ -423,36 +423,36 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
-* **Conjuntos de regras de canal**
+&#x200B;* **Conjuntos de regras de canal**
 
-   * **Janela de duração personalizada** para limitação: um novo campo **Todos** agora está disponível na tela de configuração de conjuntos de regras de canal, permitindo que você aplique regras de limitação de frequência em vários dias, semanas ou meses, dependendo da duração especificada.
+   &#x200B;* **Janela de duração personalizada** para limitação: um novo campo **Todos** agora está disponível na tela de configuração de conjuntos de regras de canal, permitindo que você aplique regras de limitação de frequência em vários dias, semanas ou meses, dependendo da duração especificada.
 
-   * **Frequência de limitação de redefinição por hora**: agora você pode aplicar a limitação por hora para conjuntos de regras de canal. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Entre em contato com o atendimento ao cliente para habilitá-la.
+   &#x200B;* **Frequência de limitação de redefinição por hora**: agora você pode aplicar a limitação por hora para conjuntos de regras de canal. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Entre em contato com o atendimento ao cliente para habilitá-la.
 
-   * **Duração diária**: anteriormente em disponibilidade limitada, o limite de frequência “Diário” nos conjuntos de regras do canal agora está disponível para todos os clientes.
+   &#x200B;* **Duração diária**: anteriormente em disponibilidade limitada, o limite de frequência “Diário” nos conjuntos de regras do canal agora está disponível para todos os clientes.
 
   Para obter mais informações, consulte a [documentação detalhada](../conflict-prioritization/channel-capping.md).
 
-* **Experiências baseadas em código**
+&#x200B;* **Experiências baseadas em código**
 
-   * A adição de uma política de decisão agora está disponível em modelos de conteúdo de experiência baseada em código, nos quais ela pode ser usada para aproveitar ofertas em campos de formulário editáveis. [Leia mais](../code-based/code-based-form-fields.md)
+   &#x200B;* A adição de uma política de decisão agora está disponível em modelos de conteúdo de experiência baseada em código, nos quais ela pode ser usada para aproveitar ofertas em campos de formulário editáveis. [Leia mais](../code-based/code-based-form-fields.md)
 
-   * Na jornada de experiência baseada em código ou na tela de edição de campanha, agora você pode adicionar diretamente uma política de decisão sem abrir o editor de personalização. [Leia mais](../code-based/create-code-based.md#edit-code)
+   &#x200B;* Na jornada de experiência baseada em código ou na tela de edição de campanha, agora você pode adicionar diretamente uma política de decisão sem abrir o editor de personalização. [Leia mais](../code-based/create-code-based.md#edit-code)
 
-* **Suporte a CSS personalizado no Designer de email**
+&#x200B;* **Suporte a CSS personalizado no Designer de email**
 
   O Journey Optimizer agora permite adicionar CSS personalizado ao conteúdo do email diretamente no Designer de email. [Leia mais](../email/custom-css.md)
 
-* **Nova navegação com guias para campanhas**
+&#x200B;* **Nova navegação com guias para campanhas**
 
   Um novo padrão de navegação permite acesso mais rápido à criação de conteúdo e oferece suporte à expansão de configurações em todas as campanhas. [Leia mais](../campaigns/create-campaign.md)
 
-* **Decisão**
+&#x200B;* **Decisão**
 
-   * **Decisão e cópia da sandbox** (data de disponibilidade: 3 de junho de 2025): os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação. [Leia mais](../configuration/copy-objects-to-sandbox.md#decisioning)
+   &#x200B;* **Decisão e cópia da sandbox** (data de disponibilidade: 3 de junho de 2025): os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação. [Leia mais](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **Suporte a atributos de item de decisão para regras de decisão** (data de disponibilidade: 4 de junho de 2025): agora você pode aproveitar os atributos de item de decisão para criar regras de decisão. [Leia mais](../experience-decisioning/rules.md#create)
+   &#x200B;* **Suporte a atributos de item de decisão para regras de decisão** (data de disponibilidade: 4 de junho de 2025): agora você pode aproveitar os atributos de item de decisão para criar regras de decisão. [Leia mais](../experience-decisioning/rules.md#create)
 
-* **Atualização da API de execução de mensagem interativa** — Data de disponibilidade: 6 de junho de 2025
+&#x200B;* **Atualização da API de execução de mensagem interativa** — Data de disponibilidade: 6 de junho de 2025
 
   A API de execução de mensagem interativa agora permite excluir o cronograma da execução de campanhas futuras. [Leia mais](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
