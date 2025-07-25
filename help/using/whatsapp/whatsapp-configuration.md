@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 2e1f77da8354d793a2d3465790f5e4574eb27a14
+source-git-commit: d71dfb4f791c48997e448147b414fede49023b91
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '748'
 ht-degree: 5%
 
 ---
@@ -72,6 +72,26 @@ Estas etapas devem ser executadas por um [Administrador do Sistema](../start/pat
 Depois de criar e configurar a credencial da API, agora é necessário criar uma configuração de canal para mensagens do WhatsApp. [Saiba mais](#whatsapp-configuration)
 
 ## Criar Webhook {#WhatsApp-webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
+>title="Categoria de palavra-chave de entrada"
+>abstract="<br/><b>Aceitar</b>: envia sua resposta automática definida quando um usuário se inscreve. <br/><b>Opt-Out</b>: envia sua resposta automática definida quando um usuário cancela a assinatura. <br/><b>Ajuda</b>: envia sua resposta automática definida quando um usuário solicita ajuda ou suporte. <br/><b>Padrão</b>: envia sua resposta automática de fallback quando nenhuma palavra-chave é correspondente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_inbound_keyword"
+>title="Insira suas palavras-chave"
+>abstract= "You can define keywords to trigger specific auto-responses, such as for Opt-In, Opt-Out, Help, or Default, based on what users text. Keywords are not case-sensitive, e.g., "stop" and "STOP" are treated the same."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_webhook_url"
+>title=" URL de retorno"
+>abstract="A solicitação de validação e as notificações do webhook para este objeto são enviadas para a URL especificada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_verify_token"
+>title="Verificar token"
+>abstract="O token que o Meta ecoa para confirmar e verificar o URL de retorno de chamada durante o processo de verificação."
 
 >[!NOTE]
 >
