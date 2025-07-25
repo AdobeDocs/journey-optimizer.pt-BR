@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 38%
+source-wordcount: '426'
+ht-degree: 37%
 
 ---
 
@@ -61,11 +61,13 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Ler público-alvo]**
 
    ![](../assets/read-audience-2.png)
 
-1. Selecione a **[!UICONTROL Entidade]** usada para identificar de forma exclusiva os perfis do seu público-alvo.
+1. Escolha uma **[!UICONTROL Entidade&#x200B;]** na Targeting dimension do Campaign.
+
+   ➡️ [Siga as etapas detalhadas nesta página para criar sua dimensão de Direcionamento de Campanha](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 
-1. Selecione **[!UICONTROL Adicionar atributo de perfil]** para enriquecer o público-alvo selecionado com dados adicionais. O público-alvo resultante conterá uma lista de recipients, cada um enriquecido com os atributos de perfil selecionados.
+1. Selecione **[!UICONTROL Adicionar atributo]** para enriquecer o público-alvo selecionado com dados adicionais. O público-alvo resultante conterá uma lista de recipients, cada um enriquecido com os atributos de perfil selecionados.
 
 1. Escolha os **[!UICONTROL Atributos]** que você deseja adicionar ao seu público-alvo.
 

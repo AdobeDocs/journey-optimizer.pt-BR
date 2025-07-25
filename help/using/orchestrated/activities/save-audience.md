@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 52%
+source-wordcount: '480'
+ht-degree: 45%
 
 ---
 
@@ -54,7 +54,7 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Salvar público-alvo
 
 1. Insira um **[!UICONTROL Rótulo do público-alvo]** que identificará o público-alvo salvo.
 
-1. Escolha um **[!UICONTROL Campo de mapeamento de perfil &#x200B;]** na Targeting dimension do Campaign.
+1. Escolha um **[!UICONTROL Campo de mapeamento de perfil&#x200B;]** na Targeting dimension do Campaign.
 
    ➡️ [Siga as etapas detalhadas nesta página para criar sua dimensão de Direcionamento de Campanha](../target-dimension.md)
 
@@ -66,7 +66,10 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Salvar público-alvo
 
 1. Para finalizar a configuração, salve e publique a campanha orquestrada. Isso gerará e armazenará o seu público-alvo.
 
-O conteúdo do público-alvo salvo ficará disponível na visualização detalhada do público-alvo, que pode ser acessada no menu **[!UICONTROL Públicos-alvo]**.
+O conteúdo do público-alvo salvo ficará disponível na exibição detalhada do público-alvo, que pode ser acessada no menu **[!UICONTROL Públicos-alvo]** ou pode ser selecionado ao direcionar um público-alvo, por exemplo, com uma atividade **[!UICONTROL Ler público-alvo]**.
+
+![](../assets/save-audience-4.png)
+
 
 ## Exemplo {#save-audience-example}
 
