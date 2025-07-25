@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdomínio, otimizador, delegação
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 30%
+source-wordcount: '859'
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ A criação de um subdomínio para campanhas de email permite que as marcas isol
 
 Se você compartilhar um domínio e ele for bloqueado ou adicionado à lista de bloqueios, isso poderá afetar seu delivery de email corporativo. No entanto, problemas de reputação ou bloqueios em um domínio específico para suas comunicações de marketing por email afetarão apenas esse fluxo de email. Usar seu domínio principal como remetente ou endereço &quot;De&quot; para vários fluxos de email também pode interromper a autenticação de email, fazendo com que suas mensagens sejam bloqueadas ou colocadas na pasta de spam.
 
->[!NOTE]
+>[!CAUTION]
 >
 >Você não pode usar o mesmo domínio de envio para enviar mensagens de [!DNL Adobe Journey Optimizer] e de outro produto, como [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage].
 
@@ -54,54 +54,56 @@ Embora esses requisitos estejam sendo gerenciados por meio de componentes hosped
 
 ## Métodos de configuração de subdomínio {#subdomain-delegation-methods}
 
-A configuração de subdomínio permite configurar uma subseção do seu domínio (tecnicamente uma &quot;zona DNS&quot;) para usar com o Adobe Campaign. Os métodos de configuração disponíveis são:
+A configuração de subdomínio permite configurar uma subseção do seu domínio (tecnicamente uma &quot;zona DNS&quot;) para usar com o Adobe Campaign.
 
-* **Delegação completa do subdomínio para o Adobe** (recomendado): o subdomínio é totalmente delegado ao Adobe. O Adobe pode controlar e manter todos os aspectos do DNS necessários para entregar, renderizar e rastrear mensagens. [Saiba mais sobre a delegação completa de subdomínio](delegate-subdomain.md#full-subdomain-delegation)
+Os métodos de configuração disponíveis são os seguintes.
 
-* **Uso de CNAMEs**: crie um subdomínio e use CNAMEs para apontar para os registros específicos da Adobe. Usando essa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS. [Saiba mais sobre a delegação de subdomínio CNAME](delegate-subdomain.md#cname-subdomain-delegation)
+### Delegar totalmente um subdomínio à Adobe (recomendado) {#full-subdomain-delegation}
+
+O [!DNL Journey Optimizer] permite delegar totalmente os subdomínios à Adobe diretamente da interface do produto. Ao fazer isso, o Adobe poderá enviar mensagens como um serviço gerenciado, controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
+
+<!--The subdomain is fully delegated to Adobe. Adobe is able to control and maintain all aspects of DNS that are required for delivering, rendering and tracking messages.-->
+
+Você pode confiar no Adobe para manter a infraestrutura de DNS necessária para atender aos requisitos de capacidade de entrega padrão do setor para seus domínios de envio de marketing por email, enquanto continua mantendo e controlando DNS para seus domínios de email internos.
+
+>[!IMPORTANT]
+>
+>A delegação de subdomínio completa é o método preferido.
+
+Saiba como delegar completamente um subdomínio ao Adobe nesta [seção](delegate-subdomain.md#set-up-subdomain).
+
+### Configurar um subdomínio com CNAMEs {#cname-subdomain-setup}
+
+Se você tiver políticas de restrição específicas de domínio e quiser que o Adobe tenha controle parcial sobre o DNS, poderá optar por realizar todas as atividades relacionadas ao DNS da sua parte.
+
+A configuração do subdomínio CNAME permite criar um subdomínio e usar CNAMEs para apontar para registros específicos do Adobe. Com essa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS para configurar o ambiente para enviar, renderizar e rastrear emails.
 
 >[!CAUTION]
 >
->* A delegação de subdomínio completa é o método preferido.
+>O método CNAME é recomendado se as políticas de sua organização restringirem o método completo de delegação de subdomínio. Essa abordagem exige que você mantenha e gerencie registros DNS por conta própria.
 >
->* O método CNAME é recomendado se as políticas de sua organização restringirem o método completo de delegação de subdomínio. Essa abordagem exige que você mantenha e gerencie registros DNS por conta própria. O Adobe não poderá ajudar na alteração, manutenção ou gerenciamento de DNS em um subdomínio configurado por meio do método CNAME.
+>O Adobe não poderá ajudar na alteração, manutenção ou gerenciamento de DNS em um subdomínio configurado por meio do método CNAME.
+
+Saiba como criar um subdomínio usando CNAMEs para apontar para registros específicos do Adobe em [esta seção](delegate-subdomain.md#cname-subdomain-setup).
+
+## Comparação dos métodos de configuração
 
 A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o nível de esforço necessário:
 
 | Método de configuração | Como funciona | Nível de esforço |
 |---|---|---|
 | **Delegação completa** | Crie o subdomínio e o registro de namespace. A Adobe irá configurar todos os registros DNS necessários para o Adobe Campaign.<br/><br/>Nesta configuração, a Adobe é totalmente responsável pelo gerenciamento do subdomínio e de todos os registros DNS. | Baixo |
-| **CNAME, método personalizado** | Crie o subdomínio e o registro de namespace. A Adobe fornecerá os registros que serão colocados em seus servidores DNS e configurará os valores correspondentes em servidores DNS do Adobe Campaign.<br/><br/>Nessa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS. | Alto |
+| **método CNAME** | Crie o subdomínio e o registro de namespace. A Adobe fornecerá os registros que serão colocados em seus servidores DNS e configurará os valores correspondentes em servidores DNS do Adobe Campaign.<br/><br/>Nessa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS. | Alto |
 
-Outras informações sobre a delegação de domínios estão disponíveis [nesta documentação](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=pt-BR).
+<!--
+| Configuration method | How it works | Level of effort |
+|---|---|---|
+| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
+| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |
+| **Custom delegation method** |  Create the subdomain and namespace record - Adobe will then provide the records to be placed in your DNS servers. Upload the SSL Certificate obtained from the Certificate Authority and complete the Feedback Loop steps by verifying domain ownership and reporting email address.<br/><br/>In this setup, you have full responsibility for maintaining DNS. | Very high |-->
 
-Se você tiver qualquer dúvida sobre os métodos de configuração de subdomínio, entre em contato com a Adobe ou, eventualmente, entre em contato com o Atendimento ao cliente para solicitar a consultoria de capacidade de entrega.
+Outras informações sobre a delegação de domínios estão disponíveis [nesta documentação](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=pt-BR){target="_blank"}.
 
-## Acessar subdomínios delegados {#access-delegated-subdomains}
+Se você tiver qualquer pergunta relacionada aos métodos de configuração de subdomínio, entre em contato com a Adobe ou com o Atendimento ao cliente para solicitar a consultoria de capacidade de entrega.
 
-Todos os subdomínios delegados são exibidos no menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Subdomínios]**. Os filtros estão disponíveis para ajudar a refinar a lista (data de delegação, usuário ou status).
-
-![](assets/subdomain-list.png)
-
-A coluna **[!UICONTROL Status]** fornece informações sobre o processo de delegação de subdomínio:
-
-* **[!UICONTROL Rascunho]**: a delegação de subdomínio foi salva como rascunho. Clique no nome do subdomínio para retomar o processo de delegação,
-* **[!UICONTROL Processando]**: o subdomínio está passando por várias verificações de configuração antes de ser usado,
-* **[!UICONTROL Sucesso]**: o subdomínio passou pelas verificações com êxito e pode ser usado para entregar mensagens,
-* **[!UICONTROL Falha]**: uma ou várias verificações falharam após o envio da delegação de subdomínio.
-
-Para acessar informações detalhadas sobre um subdomínio com o status **[!UICONTROL Sucesso]**, abra-o na lista.
-
-![](assets/subdomain-delegated.png)
-
-É possível:
-
-* Recupere o nome do subdomínio (somente leitura) configurado durante o processo de delegação, bem como os URLs gerados (recursos, mirror pages, URLs de rastreamento),
-
-* Adicione um registro TXT de verificação de site do Google ao subdomínio para garantir que ele seja verificado (consulte [Adicionar um registro TXT do Google a um subdomínio](google-txt.md)).
-
-
->[!CAUTION]
->
->A configuração de subdomínio é comum a todos os ambientes. Portanto, qualquer modificação em um subdomínio também afetará as sandboxes de produção.
 
