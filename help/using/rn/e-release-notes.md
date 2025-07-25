@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 085a86b0869a10536300329acc27914f12be6d7b
+source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 17%
+source-wordcount: '948'
+ht-degree: 16%
 
 ---
 
@@ -45,9 +45,9 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer agora oferece suporte a mensagens diretas do WhatsApp, permitindo uma integração perfeita em suas jornadas e campanhas para melhorar a comunicação e o engajamento do recipient.</p>
+<p>O Journey Optimizer agora oferece suporte a mensagens diretas do WhatsApp, permitindo uma integração perfeita em suas jornadas e campanhas para melhorar a comunicação e o engajamento do recipient. Este canal nativo oferece integração de modelo WhatsApp pronta para uso, pré-visualização de mensagens, personalização, relatórios de entrega, webhooks, gerenciamento de consentimento de aceitação e recusa e muito mais.</p>
 <p>Anteriormente lançado no Beta, esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
