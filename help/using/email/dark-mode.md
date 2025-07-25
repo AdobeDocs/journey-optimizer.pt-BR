@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Alternar para o modo escuro
 description: Saiba como usar o modo escuro no Designer de email
+badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -11,10 +12,10 @@ keywords: modo escuro, email, cor, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 9%
+source-wordcount: '1677'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +35,10 @@ ht-degree: 9%
 >id="ac_edition_darkmode_preview"
 >title="Alternar para o modo escuro"
 >abstract="Alterne para o modo escuro para visualizar a renderização nos clientes de email compatíveis. <br>Cuidado: a renderização final depende do cliente de email do destinatário. Nem todos os clientes de email aceitam o modo escuro."
+
+>[!AVAILABILITY]
+>
+>No momento, esse recurso está na versão beta e disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.
 
 Ao criar seus emails, o [!DNL Journey Optimizer] [Designer de email](get-started-email-design.md) permite que você alterne para o **[!UICONTROL Modo escuro]**, no qual é possível definir configurações personalizadas específicas. Quando o modo escuro estiver ativado, os clientes de email de suporte exibirão as configurações definidas para esse modo.
 
@@ -91,9 +96,10 @@ Para acessar o modo escuro no Designer de email e pré-visualizar as configuraç
 
 1. Na página inicial do Designer de Email, selecione a opção **[!UICONTROL Design do zero]**. [Saiba mais](content-from-scratch.md)
 
-   >[!NOTE]
-   >
-   >Atualmente você não pode mudar para o modo escuro se selecionar um [modelo de email](use-email-templates.md) ou se aplicar um [tema](apply-email-themes.md).
+<!--Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
+    >[!NOTE]
+    >
+    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
 
 1. Adicione [estruturas](content-from-scratch.md) e [componentes de conteúdo](content-components.md) ao seu conteúdo.
 
@@ -104,12 +110,8 @@ Para acessar o modo escuro no Designer de email e pré-visualizar as configuraç
 1. A visualização padrão do modo escuro é exibida.
 
    ![](assets/dark-mode-default.png)
-<!--
-    >[!NOTE]
-    >
-    >Dark mode applies to all elements, except images and icons.-->
 
-Por padrão, a pré-visualização do modo escuro do Email Designer aplica o esquema de cor &quot;inversão de cor completa&quot; a todos os elementos, exceto imagens e ícones. <!--It fully inverts all colors for all the elements (texts, buttons, etc.)-->
+Por padrão, a pré-visualização do modo escuro do Email Designer aplica o esquema de cor &quot;inversão de cor completa&quot; a todos os elementos, exceto imagens e ícones.
 
 Isso significa que ele detecta áreas com elementos claros e escuros e os inverte, de modo que os planos de fundo claros se tornam escuros e o texto escuro se torna claro, enquanto os planos de fundo escuros se tornam claros e o texto claro se torna escuro.
 
@@ -135,7 +137,7 @@ Para utilizar o estilo de modo escuro personalizado do Designer de email, o Jour
 
 Para definir configurações personalizadas do modo escuro, siga as etapas abaixo.
 
-1. Verifique se o **[!UICONTROL Modo escuro]** está habilitado no Designer de Email. [Saiba como](#preview-dark-mode)
+1. Alterne para a visualização do **[!UICONTROL Modo escuro]** no Designer de email. [Saiba como](#preview-dark-mode)
 
 1. Edite quaisquer atributos de cor de estilo, como texto, planos de fundo, botão etc.
 

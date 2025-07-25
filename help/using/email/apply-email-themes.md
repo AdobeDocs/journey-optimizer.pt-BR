@@ -3,20 +3,21 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Experiência aprimorada de criação de email
 description: Saiba como simplificar a criação de emails com temas e módulos reutilizáveis, garantindo a consistência do design e a eficiência em suas campanhas.
+badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: Temas de email, Módulos, Reutilização, Consistência de marca, Design de email, CSS personalizado, Otimização móvel
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 3%
+source-wordcount: '822'
+ht-degree: 7%
 
 ---
 
-# Aplicar temas ao seu conteúdo de email {#apply-email-themes}
+# Aplicar temas ao conteúdo do email {#apply-email-themes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_theme"
@@ -27,7 +28,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->No momento, esse recurso está na versão beta, disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.
+>No momento, esse recurso está na versão beta e disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.
 
 Com temas, os usuários não técnicos têm a capacidade de criar conteúdo reutilizável que se adapta a uma marca e idioma de design específicos, adicionando estilo personalizado sobre os modelos padrão<!-- to achieve brand specific results-->.
 
