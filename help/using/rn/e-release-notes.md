@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
+source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 16%
+source-wordcount: '941'
+ht-degree: 17%
 
 ---
 
@@ -216,9 +216,8 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 - **Jornadas**
    - **Aprimoramentos de ferramenta de sandbox do Jornada** - Ao copiar jornadas em várias sandboxes usando os recursos de exportação e importação de pacotes, os seguintes recursos também estão disponíveis:
-      - Selecionar um evento existente no destino
       - Cópia de um evento independentemente de uma jornada
-      - Detecção de relacionamentos de grupos de campos/fontes de dados, vinculação a eles no destino, se existirem, criação deles, se não existirem.
+      - Detectar eventos, grupos de campos e fontes de dados e vinculá-los ao destino, se existirem, criando-os, se não existirem.
   <!-- [Read more](../FILE.md) -->
 
 - **Canal - InApp**
