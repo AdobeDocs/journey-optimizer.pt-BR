@@ -6,10 +6,10 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 73%
+source-wordcount: '810'
+ht-degree: 68%
 
 ---
 
@@ -48,7 +48,9 @@ Você também poderá executar a campanha no modo de teste para verificar sua ex
 
 O [!DNL Journey Optimizer] permite que você teste campanhas orquestradas antes de entrar em produção. Quando uma campanha é criada, ela entra no estado **Rascunho** por padrão. Nesse estado, é possível executar a campanha manualmente para testar o fluxo.
 
-Todas as atividades na tela são executadas, exceto **[!UICONTROL Salvar público-alvo]** atividades e atividades de canal. Não há nenhum impacto funcional nos seus dados ou público-alvo.
+>[!IMPORTANT]
+>
+>Todas as atividades na tela são executadas, exceto **[!UICONTROL Salvar público-alvo]** atividades e atividades de canal. Não há impacto funcional nos seus dados ou público-alvo.**
 
 Para testar uma campanha:
 
@@ -63,13 +65,19 @@ Durante o teste, é possível controlar a execução da campanha usando a barra 
 
 * **Parar** a execução a qualquer momento.
 * **Iniciar** a execução novamente.
-* **Retomar** a execução, se ela tiver sido pausada anteriormente devido a um problema.
+* **Retomar** a execução se ela tiver sido pausada anteriormente.
 
-Se ocorrer um erro ou aviso durante a execução, você será notificado por meio do ícone **[!UICONTROL Alertas]** / **[!UICONTROL Aviso]** na barra de ferramentas da tela.
+O ícone **[!UICONTROL Alertas]** / **[!UICONTROL Aviso]** na barra de ferramentas da tela notifica sobre problemas, incluindo avisos que podem aparecer de forma proativa antes da execução e erros que ocorrem durante ou após a execução.
 
 ![](assets/campaign-warning.png){zoomable="yes"}
 
 Você também pode identificar rapidamente as atividades com falhas, usando os [indicadores visuais de status](#activities) exibidos diretamente em cada atividade. Para obter uma resolução de problemas detalhada, abra os [logs da campanha](#logs-tasks), que fornecem informações detalhadas sobre o erro e seu contexto.
+
+<!--WAITING FOR PM's TEST TO UNHIDE
+
+If you have added channel activities in the canvas, you can preview and test the content of your messages using the **[!UICONTROL Simulate Content]** button. [Learn how to work with channel activities](activities/channels.md)
+
+-->
 
 Depois de validada, a campanha pode ser publicada.
 
