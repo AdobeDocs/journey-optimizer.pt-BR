@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: supressão, lista, rejeição, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1adf4db1e76645b2c369b39d54ef97aff5be963d
+source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1600'
 ht-degree: 22%
 
 ---
@@ -71,7 +71,7 @@ Os possíveis motivos para uma falha de delivery são:
 
 | Motivo | Descrição | Categoria |
 | --- | --- | --- |
-| **[!UICONTROL Destinatário inválido]** | O destinatário é inválido ou não existe. | Grave |
+| **[!UICONTROL Destinatário inválido]** | O endereço do destinatário é inválido ou não existe. | Grave |
 | **[!UICONTROL Rejeição leve]** | A mensagem teve rejeição temporária por um motivo diferente dos erros temporários listados nesta tabela, como ao enviar acima da taxa permitida recomendada por um ISP. | Suave |
 | **[!UICONTROL Falha de DNS]** | A mensagem foi rejeitada devido a uma falha de DNS. | Suave |
 | **[!UICONTROL Caixa de Correio Cheia]** | A mensagem foi rejeitada porque a caixa de entrada do destinatário está cheia e não pode receber mais mensagens. | Suave |
