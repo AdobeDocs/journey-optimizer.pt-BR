@@ -6,10 +6,10 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 11%
+ht-degree: 7%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 11%
 
 +++ Índice 
 
-| Bem-vindo(a) às campanhas orquestradas | Lançar a sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
+| Bem-vindo às campanhas orquestradas | Iniciar sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
 |---|---|---|---|
-| [Introdução a campanhas orquestradas](gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar Esquemas e Conjuntos de Dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carregamento de arquivo](file-upload-schema.md)</li><li>[Assimilar dados](ingest-data.md)</li></ul>[Acesse e gerencie campanhas orquestradas](access-manage-orchestrated-campaigns.md)<br/><br/>[Etapas principais para criar uma campanha orquestrada](gs-campaign-creation.md) | [Criar e programar a campanha](create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](start-monitor-campaigns.md)<br/><br/>[Geração de relatórios](reporting-campaigns.md) | [Trabalhar com o construtor de regras](orchestrated-rule-builder.md)<br/><br/>[Criar a sua primeira consulta](build-query.md)<br/><br/>[Editar expressões](edit-expressions.md)<br/><br/><b>[Redirecionamento](retarget.md)</b> | [Introdução às atividades](activities/about-activities.md)<br/><br/>Atividades:<br/>[Associação](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Mudar dimensão](activities/change-dimension.md) - [Atividades de canal](activities/channels.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Divisão](activities/split.md) - [Aguardar](activities/wait.md) |
+| [Introdução às campanhas orquestradas](gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar esquemas e conjuntos de dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carregamento de arquivo](file-upload-schema.md)</li><li>[Assimilar dados](ingest-data.md)</li></ul>[Acesse e gerencie campanhas orquestradas](access-manage-orchestrated-campaigns.md)<br/><br/>[Etapas principais para criar uma campanha orquestrada](gs-campaign-creation.md) | [Criar e programar a campanha](create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](start-monitor-campaigns.md)<br/><br/>[Geração de relatórios](reporting-campaigns.md) | [Trabalhar com o construtor de regras](orchestrated-rule-builder.md)<br/><br/>[Criar a sua primeira consulta](build-query.md)<br/><br/>[Editar expressões](edit-expressions.md)<br/><br/><b>[Redirecionamento](retarget.md)</b> | [Introdução às atividades](activities/about-activities.md)<br/><br/>Atividades:<br/>[Associação](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Mudar dimensão](activities/change-dimension.md) - [Atividades de canal](activities/channels.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Divisão](activities/split.md) - [Aguardar](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -35,7 +35,7 @@ O conteúdo desta página não é final e pode estar sujeito a alterações.
 
 >[!ENDSHADEBOX]
 
-O redirecionamento permite acompanhar os recipients com base em como eles responderam a uma campanha orquestrada anterior. Por exemplo, você pode enviar um segundo email para recipients que receberam, mas não clicaram no primeiro.
+O redirecionamento permite que você acompanhe os recipients com base em como eles responderam a uma campanha orquestrada anterior. Por exemplo, você pode enviar um segundo email para recipients que receberam, mas não clicaram no primeiro.
 
 A **[!UICONTROL Campanha Orquestrada]** fornece dois atributos principais para isso:
 
@@ -75,7 +75,7 @@ Usando esses dados, você pode definir regras para identificar os recipients que
 
 +++
 
-1. Escolha o atributo **[!UICONTROL Nome da Campanha Orquestrada]** para direcionar uma campanha orquestrada específica.
+1. Escolha o atributo **[!UICONTROL Nome da Campanha Orquestrada]** para direcionar uma campanha Orquestrada específica.
 
 +++ Passo a passo detalhado
 
@@ -91,7 +91,7 @@ Usando esses dados, você pode definir regras para identificar os recipients que
 
 +++
 
-1. Escolha o atributo **[!UICONTROL Nome da Ação da Campanha Orquestrada]** para direcionar uma mensagem ou atividade específica em uma campanha orquestrada.
+1. Escolha o atributo **[!UICONTROL Nome da Ação da Campanha Orquestrada]** para direcionar uma mensagem ou atividade específica em uma campanha Orquestrada.
 
 +++ Passo a passo detalhado
 
@@ -124,7 +124,7 @@ Para redirecionar destinatários com base nas interações de mensagem (por exem
 
 1. Crie uma nova **[!UICONTROL Campanha orquestrada]**.
 
-1. Adicione uma atividade **[!UICONTROL Build Audience]** e defina o targeting dimension como **[!UICONTROL Recipient (caas)]** para se concentrar em recipients de campanhas orquestradas anteriores.
+1. Adicione uma atividade **[!UICONTROL Build Audience]** e defina o targeting dimension como **[!UICONTROL Recipient (caas)]** para se concentrar nos recipients anteriores da campanha Orquestrada.
 
 1. No **[!UICONTROL Construtor de Regras]**, clique em **[!UICONTROL Adicionar Condição]** e selecione **[!UICONTROL Acompanhamento de Email]** no **[!UICONTROL Seletor de Atributos]**.
 

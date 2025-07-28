@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar e programar campanhas orquestradas com o Journey Optimizer
-description: Saiba como criar e programar uma campanha orquestrada com o Adobe Journey Optimizer
+title: Criar e agendar campanhas orquestradas com o Journey Optimizer
+description: Saiba como criar e agendar uma campanha orquestrada com o Adobe Journey Optimizer
 badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 8738499dc20f8617d7b4f6d9cf456f1c9e31bd0f
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 82%
+ht-degree: 62%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 82%
 
 +++ Índice 
 
-| Bem-vindo(a) às campanhas orquestradas | Lançar a sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
+| Bem-vindo às campanhas orquestradas | Iniciar sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
 |---|---|---|---|
-| [Introdução a campanhas orquestradas](gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar Esquemas e Conjuntos de Dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carregamento de arquivo](file-upload-schema.md)</li><li>[Assimilar dados](ingest-data.md)</li></ul>[Acesse e gerencie campanhas orquestradas](access-manage-orchestrated-campaigns.md)<br/><br/>[Etapas principais para criar uma campanha orquestrada](gs-campaign-creation.md) | <b>[Criar e programar a campanha](create-orchestrated-campaign.md)</b><br/><br/>[Orquestrar atividades](orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](start-monitor-campaigns.md)<br/><br/>[Geração de relatórios](reporting-campaigns.md) | [Trabalhar com o construtor de regras](orchestrated-rule-builder.md)<br/><br/>[Criar a sua primeira consulta](build-query.md)<br/><br/>[Editar expressões](edit-expressions.md)<br/><br/>[Redirecionamento](retarget.md) | [Introdução às atividades](activities/about-activities.md)<br/><br/>Atividades:<br/>[Associação](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Mudar dimensão](activities/change-dimension.md) - [Atividades de canal](activities/channels.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Divisão](activities/split.md) - [Aguardar](activities/wait.md) |
+| [Introdução às campanhas orquestradas](gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar esquemas e conjuntos de dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carregamento de arquivo](file-upload-schema.md)</li><li>[Assimilar dados](ingest-data.md)</li></ul>[Acesse e gerencie campanhas orquestradas](access-manage-orchestrated-campaigns.md)<br/><br/>[Etapas principais para criar uma campanha orquestrada](gs-campaign-creation.md) | <b>[Criar e programar a campanha](create-orchestrated-campaign.md)</b><br/><br/>[Orquestrar atividades](orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](start-monitor-campaigns.md)<br/><br/>[Geração de relatórios](reporting-campaigns.md) | [Trabalhar com o construtor de regras](orchestrated-rule-builder.md)<br/><br/>[Criar a sua primeira consulta](build-query.md)<br/><br/>[Editar expressões](edit-expressions.md)<br/><br/>[Redirecionamento](retarget.md) | [Introdução às atividades](activities/about-activities.md)<br/><br/>Atividades:<br/>[Associação](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Mudar dimensão](activities/change-dimension.md) - [Atividades de canal](activities/channels.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Divisão](activities/split.md) - [Aguardar](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -36,16 +36,16 @@ O conteúdo desta página não é final e pode estar sujeito a alterações.
 
 >[!ENDSHADEBOX]
 
-Crie uma campanha orquestrada no [!DNL Adobe Journey Optimizer] e configure o cronograma de sua execução para controlar quando ela começará e com que frequência será executada. Opte por iniciar a campanha imediatamente, em uma data e hora específicas, ou de forma recorrente, usando as opções de programação flexíveis, como frequência diária, semanal ou mensal.
+Crie uma campanha Orquestrada no [!DNL Adobe Journey Optimizer] e configure seu cronograma de execução para controlar quando ela é iniciada e com que frequência é executada. Opte por iniciar a campanha imediatamente, em uma data e hora específicas, ou de forma recorrente, usando as opções de programação flexíveis, como frequência diária, semanal ou mensal.
 
 ## Criar a campanha {#create}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Lista de campanhas orquestradas"
->abstract="A guia **Orquestração** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada. "
+>abstract="A guia **Orquestração** lista todas as campanhas Orquestradas. Clique no nome de uma campanha Orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada."
 
-Para criar uma campanha orquestrada, siga estas etapas:
+Para criar uma campanha Orquestrada, siga estas etapas:
 
 1. Navegue até o menu **[!UICONTROL Campanhas]** e selecione a guia **[!UICONTROL Orquestração]**.
 
@@ -63,7 +63,7 @@ Para criar uma campanha orquestrada, siga estas etapas:
 
       No [!DNL Adobe Experience Platform], cada público-alvo está vinculado a uma política de mesclagem específica, que define como as informações de perfil são combinadas para formar um perfil mesclado. Ao selecionar uma política de mesclagem na atividade Ler público, somente os públicos-alvo com base na mesma política de mesclagem ficam disponíveis. Por padrão, o sistema usa a política de mesclagem padrão, mas você pode alterá-la se necessário. Para obter mais informações sobre políticas de mesclagem, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
-   1. Use o campo **[!UICONTROL Tags]** para atribuir Tags unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-las facilmente e melhorar a pesquisa a partir da lista de campanhas orquestradas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags).
+   1. Use o campo **[!UICONTROL Tags]** para atribuir Tags unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-los facilmente e melhorar a pesquisa na lista Campanhas orquestradas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags).
 
    1. Clique em **[!UICONTROL Salvar]**.
 
@@ -86,11 +86,11 @@ Para criar uma campanha orquestrada, siga estas etapas:
 
 Por padrão, as campanhas orquestradas começam quando ativadas manualmente e terminam após a execução de suas atividades associadas. Se preferir atrasar a execução ou executar a campanha de forma recorrente, é possível definir uma programação para a campanha.
 
-Considere as seguintes práticas recomendadas ao programar campanhas orquestradas para garantir o desempenho ideal e o comportamento esperado:
+Considere as seguintes práticas recomendadas ao agendar campanhas orquestradas para garantir o desempenho ideal e o comportamento esperado:
 
-* Não agende uma campanha orquestrada para ser executada com uma frequência maior que a cada 15 minutos, pois isso pode prejudicar o desempenho geral do sistema e criar bloqueios no banco de dados.
-* Se quiser enviar uma mensagem instantânea na sua campanha orquestrada, é possível configurá-la para ser executada **Uma vez**.
-* Para enviar uma mensagem recorrente na sua campanha orquestrada, use as opções de **Agendamento** e defina a frequência de execução. A atividade de entrega recorrente não permite definir um cronograma.
+* Não programe uma campanha Orquestrada para execução por mais de 15 minutos, pois ela pode atrapalhar o desempenho geral do sistema e criar bloqueios no banco de dados.
+* Se quiser enviar uma mensagem única na sua campanha Orquestrada, você pode configurá-la para ser executada **uma vez**.
+* Para enviar uma mensagem recorrente em sua campanha Orquestrada, é necessário usar as opções de **Agendamento** e definir a frequência de execução. A atividade de entrega recorrente não permite definir um cronograma.
 
 Para configurar o cronograma da campanha, siga estas etapas:
 
@@ -107,7 +107,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
    * **[!UICONTROL Data]**: selecione a data em que a campanha deve ser executada.
    * **[!UICONTROL Hora]**: selecione a hora específica em que a campanha deve ser executada.
 
-   +++
++++
 
    +++Diariamente
 
@@ -121,7 +121,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora inicial]**: defina a hora em que a campanha deve ser executada a cada dia.
 
-   +++
++++
 
    +++Várias vezes ao dia
 
@@ -130,7 +130,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
    * **[!UICONTROL Horas selecionadas]**: selecione as horas específicas em que a campanha deve ser executada e configure sua recorrência diária (executar em todos os dias da semana ou em determinados dias).
    * **[!UICONTROL Periódico]**: opte por executar a campanha a cada n minutos ou horas. Você também pode definir o intervalo de tempo no dia em que as execuções são permitidas.
 
-   +++
++++
 
    +++Semanalmente
 
@@ -141,7 +141,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
    * **[!UICONTROL Recorrência diária]**: escolha dias da semana específicos para a execução (por exemplo, toda segunda e quinta).
    * **[!UICONTROL Hora inicial]**: defina a hora em que a campanha deve ser executada nos dias selecionados.
 
-   +++
++++
 
    +++Mensalmente
 
@@ -157,7 +157,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora inicial]**: defina a hora em que a campanha deve ser executada.
 
-   +++
++++
 
 1. Use a configuração **[!UICONTROL Período de validade]** para definir uma data inicial e uma data final específicas, restringindo a execução da campanha a uma janela de tempo limitada.
 
@@ -167,7 +167,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
 >
 >Ao agendar campanhas no [!DNL Adobe Journey Optimizer], verifique se a data/hora inicial está de acordo com a primeira entrega desejada. Para campanhas recorrentes, se o horário programado inicial já tiver passado, as campanhas serão transferidas para o próximo período disponível, de acordo com as suas regras de recorrência.
 
-No exemplo a seguir, a atividade é configurada para que a campanha orquestrada seja executada duas vezes por dia, às 9h e às 12h, todos os dias da semana, de 1.º de outubro de 2025 a 1.º de janeiro de 2026.
+No exemplo a seguir, a atividade é configurada para que a campanha Orquestrada seja executada duas vezes por dia às 9h e às 12h, todos os dias da semana de 1º de outubro de 2025 a 1º de janeiro de 2026.
 
 ![Scheduler configurado para executar a campanha duas vezes por dia, às 9h e às 12h](assets/scheduler-sample.png){width="50%" align="left"}
 
