@@ -113,7 +113,7 @@ Para adicionar condições à sua consulta, siga estas etapas:
    | É como | Semelhante ao operador “Contém”, permite inserir um caractere curinga % no valor. | O sobrenome (@lastName) é como “Jon%s”. O caractere atua como um “curinga” para encontrar nomes como “Jones”. |
    | Não é como | Semelhante ao operador “Contém”, permite inserir um caractere curinga % no valor. | O sobrenome (@lastName) não é como “Smi%h”. Destinatários cujo sobrenome for “Smi%h” não serão retornados. |
 
-+++
+   +++
 
 1. No campo **Valor**, defina o valor esperado. Você também pode usar o editor de expressão para definir manualmente uma expressão, usando campos do banco de dados e funções auxiliares. Para isso, clique no ícone ![imagem mostrando o ícone do editor de expressão](assets/do-not-localize/rule-builder-icon-editor.svg). [Saiba como editar expressões](../orchestrated/edit-expressions.md)
 
@@ -123,7 +123,7 @@ Para adicionar condições à sua consulta, siga estas etapas:
 
    ![imagem mostrando a opção de predefinição](assets/rule-builder-attribute-preset.png)
 
-+++
+   +++
 
 ### Condições personalizadas em tabelas vinculadas (vínculos 1-1 e 1-N){#links}
 
