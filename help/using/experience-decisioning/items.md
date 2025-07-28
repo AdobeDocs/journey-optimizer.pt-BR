@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 66e5d12e6d262014db5c7eb7603f678296591301
+source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1788'
 ht-degree: 15%
 
 ---
@@ -129,11 +129,11 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
 
 1. Na lista suspensa **[!UICONTROL Redefinir frequência de limite]**, defina a frequência com que o contador de limite é redefinido. Para fazer isso, defina o período de tempo para a contagem (diariamente, semanalmente ou mensalmente) e insira o número de dias/semanas/meses de sua escolha. Por exemplo, se você deseja que a contagem de limite seja redefinida a cada 2 semanas, selecione **[!UICONTROL Semanalmente]** na lista suspensa correspondente e digite **2** no outro campo.
 
-   >[!NOTE]
-   >
-   >A redefinição do contador de limite de frequência ocorre às **12h UTC**, no dia definido ou no primeiro dia da semana/mês quando aplicável. O dia de início da semana é **domingo**. Qualquer duração escolhida não pode exceder **2 anos** (ou seja, o número correspondente de meses, semanas ou dias).
-   >
-   >Depois de publicar seu item de decisão, você não poderá alterar o período de tempo (mensal, semanal ou diário) selecionado para a frequência. Você ainda pode editar o limite de frequência se o item tiver o status **[!UICONTROL Rascunho]** e nunca tiver sido publicado antes com o limite de frequência habilitado.
+   * A redefinição do contador de limite de frequência ocorre às **12h UTC**, no dia definido ou no primeiro dia da semana/mês quando aplicável. O dia de início da semana é **domingo**. Qualquer duração escolhida não pode exceder **2 anos** (ou seja, o número correspondente de meses, semanas ou dias).
+
+   * Depois de publicar seu item de decisão, você não poderá alterar o período de tempo (mensal, semanal ou diário) selecionado para a frequência. Você ainda pode editar o limite de frequência se o item tiver o status **[!UICONTROL Rascunho]** e nunca tiver sido publicado antes com o limite de frequência habilitado.
+
+   * Pode haver um tempo de buffer de até 15 minutos antes que os eventos sejam contados para restrições de limite de frequência, seja quando o item de decisão for aprovado ou quando o limite for criado, o que ocorrer por último.
 
 1. Clique em **[!UICONTROL Criar]** para confirmar a criação da regra de limitação. Você pode criar até 10 regras para um único item de decisão. Para fazer isso, clique no botão **[!UICONTROL Criar limite]** e repita as etapas acima.
 

@@ -1,15 +1,15 @@
 ---
 title: Adicionar restrições a uma oferta
 description: Saiba como definir as condições para que uma oferta seja exibida
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
 workflow-type: tm+mt
-source-wordcount: '2718'
+source-wordcount: '2752'
 ht-degree: 15%
 
 ---
@@ -76,7 +76,7 @@ Por exemplo, se você definir as seguintes restrições:
 >title="Sobre a elegibilidade da oferta"
 >abstract="Nesta seção, é possível usar regras de decisão para definir as pessoas elegíveis para receber a oferta."
 
-<!--additional-url="https://video.tv.adobe.com/v/341377?captions=por_br" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -105,7 +105,7 @@ A seção **[!UICONTROL Qualificação da oferta]** permite restringir a oferta 
 
   >[!CAUTION]
   >
-  >No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
+  >No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
 
 Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
 
@@ -254,11 +254,11 @@ O campo **[!UICONTROL Redefinir frequência de limite]** permite definir com que
 
 ![](../assets/offer-capping-frequency.png)
 
->[!NOTE]
->
->A redefinição do contador de limite de frequência ocorre às **12h UTC**, no dia definido ou no primeiro dia da semana/mês quando aplicável. O dia de início da semana é **domingo**. Qualquer duração escolhida não pode exceder **2 anos** (ou seja, o número correspondente de meses, semanas ou dias).
->
->Depois de publicar sua oferta, você não poderá alterar o período de tempo (mensal, semanal ou diário) selecionado para a frequência. Você ainda poderá editar o limite de frequência se a oferta tiver o status **[!UICONTROL Rascunho]** e nunca tiver sido publicada antes com o limite de frequência habilitado.
+* A redefinição do contador de limite de frequência ocorre às **12h UTC**, no dia definido ou no primeiro dia da semana/mês quando aplicável. O dia de início da semana é **domingo**. Qualquer duração escolhida não pode exceder **2 anos** (ou seja, o número correspondente de meses, semanas ou dias).
+
+* Depois de publicar sua oferta, você não poderá alterar o período de tempo (mensal, semanal ou diário) selecionado para a frequência. Você ainda poderá editar o limite de frequência se a oferta tiver o status **[!UICONTROL Rascunho]** e nunca tiver sido publicada antes com o limite de frequência habilitado.
+
+* Pode haver um tempo de buffer de até 15 minutos antes que os eventos sejam contados para restrições de limite de frequência, seja quando a oferta for aprovada ou quando o limite for criado, o que ocorrer por último.
 
 +++ **Leitura obrigatória: APIs de Limite de frequência e Gerenciamento de decisão**
 
