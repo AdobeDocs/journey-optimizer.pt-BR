@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
+source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 13%
@@ -81,7 +81,7 @@ Após configurar as propriedades do fragmento, o Designer de email ou o editor d
 
 >[!NOTE]
 >
->Quando o rastreamento é ativado em uma jornada ou campanha, se você adicionar links a um fragmento e se esse fragmento for usado em um email, esses links serão rastreados como todos os outros links incluídos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
+>Quando o rastreamento é ativado em uma jornada ou campanha, se você adicionar links a um fragmento e se esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links incluídos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
 
 Quando o conteúdo estiver pronto, clique no botão **[!UICONTROL Salvar]**.
 
