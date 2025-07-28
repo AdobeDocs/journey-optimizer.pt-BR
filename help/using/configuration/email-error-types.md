@@ -10,7 +10,7 @@ level: Experienced
 keywords: tentativas, rejeição, soft, ignorado, hard, otimizador, erro
 hide: true
 hidefromtoc: true
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 11%
@@ -18,7 +18,7 @@ ht-degree: 11%
 ---
 
 
-# Tipos de erro de email
+# Tipos de erro de email {#email-error-types}
 
 Possíveis motivos de falha de delivery são múltiplos. A tabela abaixo detalha todos os erros que podem ocorrer ao enviar deliveries de email com [!DNL Journey Optimizer], juntamente com sua descrição e tipo de erro.
 
