@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1859'
 ht-degree: 9%
 
 ---
@@ -455,7 +455,7 @@ A função a seguir retorna o comprimento do nome da cidade do perfil.
 {%= length(profile.homeAddress.city) %}
 ```
 
-## Curtir{#like}
+## É como{#like}
 
 A função `like` é usada para determinar se uma cadeia de caracteres corresponde a um padrão especificado.
 
@@ -665,13 +665,34 @@ A função `replaceAll` é usada para substituir todas as subsequências de um t
 
 ## Cortar à direita {#rightTrim}
 
-A função `rightTrim` é usada para remover espaços em branco do final de uma cadeia de caracteres.
+A função `rightTrim` remove espaços em branco do final de uma cadeia de caracteres.
 
 **Sintaxe**
 
 ```sql
 {%= rightTrim(string) %}
 ```
+
+## SHA256 {#sha256}
+
+A função `SHA256` calcula e retorna o hash sha256 de uma cadeia de caracteres.
+
+**Sintaxe**
+
+```sql
+{{
+
+{%= sha256(string) %}
+: string}}
+```
+
+**Exemplo**
+
+```sql
+{%= sha256("Eliechxh")%}
+```
+
+retorna: `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
 
 ## Divisão {#split}
 
@@ -683,7 +704,7 @@ A função `split` é usada para dividir uma cadeia de caracteres por um determi
 {%= split(string,string) %}
 ```
 
-## Inicia com{#startsWith}
+## Começa com{#startsWith}
 
 A função `startsWith` é usada para determinar se uma sequência de caracteres inicia com uma subsequência especificada.
 

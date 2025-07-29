@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 17%
+source-wordcount: '968'
+ht-degree: 16%
 
 ---
 
@@ -222,4 +222,8 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 - **Canal - InApp**
    - **Pares de Chave/Valor no aplicativo** - Com mensagens no aplicativo, você pode definir pares de Chave e Valor para incluir variáveis personalizadas na carga da mensagem. Esses pares de valor-chave permitem que você transmita dados adicionais com base em sua configuração específica e caso de uso.
+  <!-- [Read more](../FILE.md) -->
+
+- **Personalização**
+   - Uma nova função auxiliar, &quot;SHA256&quot;, foi adicionada ao editor de personalização. Esta função é usada para calcular e retornar o hash sha256 de uma string.
   <!-- [Read more](../FILE.md) -->

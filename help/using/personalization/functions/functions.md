@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2399'
 ht-degree: 27%
 
 ---
@@ -44,7 +44,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="aggregation.md#average">Média</a></td><td>Esta função retorna a média aritmética de todos os valores selecionados dentro da matriz.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">Contagem</a></td><td>Esta função retorna o número de elementos dentro da matriz especificada.</td>
+        <td><a href="aggregation.md#count">Count</a></td><td>Esta função retorna o número de elementos dentro da matriz especificada.</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-only-null">Somente contagem nula</a></td><td>Esta função conta o número de valores nulos na lista.</td>
@@ -89,7 +89,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="arrays-list.md#subset">Subconjunto de</a></td><td>Esta função determina se uma matriz específica (matriz A) é um subconjunto de outra matriz (matriz B), isto é, se todos os elementos na matriz A são elementos da matriz B</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#sum">Somar</a></td><td>Esta função retorna a soma de todos os valores selecionados na matriz.</td>
+        <td><a href="aggregation.md#sum">Sum</a></td><td>Esta função retorna a soma de todos os valores selecionados na matriz.</td>
     </tr>
     <tr>
     <td><a href="arrays-list.md#superset">Superconjunto de</a></td><td>Esta função determina se uma matriz específica (matriz A) é um superconjunto de outra matriz (matriz B), isto é, se essa matriz A contém todos os elementos na matriz B</td>
@@ -345,7 +345,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#length">Comprimento</a></td><td>Esta função é usada para obter o número de caracteres em uma sequência ou expressão</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">Curtir</a></td><td>Esta função é usada para determinar se uma sequência de caracteres corresponde a um padrão especificado.</td>
+        <td><a href="string.md#like">É como</a></td><td>Esta função é usada para determinar se uma sequência de caracteres corresponde a um padrão especificado.</td>
     </tr>
     <tr>
         <td><a href="string.md#lower">Minúsculas</a></td><td>Esta função converte uma sequência de caracteres em letras minúsculas.</td>
@@ -378,10 +378,13 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#rightTrim">Cortar à direita</a></td><td>Esta função remove os espaços em branco do final de uma sequência de caracteres. </td>
     </tr>
     <tr>
+        <td><a href="string.md#sha256">SHA256</a></td><td>Esta função calcula e retorna o hash sha256 de uma sequência de caracteres.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#split">Divisão</a></td><td>Esta função é usada para dividir uma sequência de caracteres por um determinado caractere.</td>
     </tr>
     <tr>
-        <td><a href="string.md#startsWith">Inicia com</a></td><td>Esta função é usada para determinar se uma sequência de caracteres inicia com uma subsequência especificada.</td>
+        <td><a href="string.md#startsWith">Começa com</a></td><td>Esta função é usada para determinar se uma sequência de caracteres inicia com uma subsequência especificada.</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-date">String para data</a></td><td>Esta função converte um valor de sequência de caracteres em um valor de data-hora.</td>
