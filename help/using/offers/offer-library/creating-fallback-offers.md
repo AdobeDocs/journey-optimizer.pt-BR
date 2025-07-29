@@ -1,15 +1,15 @@
 ---
 title: Criar ofertas substitutas
 description: Saiba como criar ofertas substitutas para exibir clientes que não estão qualificados para nenhuma oferta
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '337'
 ht-degree: 4%
 
 ---
@@ -44,6 +44,10 @@ Para criar uma oferta substituta, siga estas etapas:
 
    ![](../assets/fallback_content.png)
 
+   >[!CAUTION]
+   >
+   >As ofertas substitutas devem conter todas as representações usadas em uma [decisão](../offer-activities/create-offer-activities.md). Por exemplo, se você tiver cinco ofertas em uma decisão e cada uma delas tiver uma representação diferente, cinco representações deverão ser incluídas na oferta substituta.
+
 1. Depois que as representações da oferta substituta forem adicionadas, um resumo será exibido. Se tudo estiver configurado corretamente e sua oferta substituta estiver pronta para ser apresentada aos clientes, clique em **[!UICONTROL Concluir]** e selecione **[!UICONTROL Salvar e aprovar]**.
 
    Você também pode salvar a oferta substituta como rascunho para editá-la e aprová-la posteriormente.
@@ -58,5 +62,5 @@ Para criar uma oferta substituta, siga estas etapas:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341361?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

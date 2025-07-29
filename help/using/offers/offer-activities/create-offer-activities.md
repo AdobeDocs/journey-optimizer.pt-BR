@@ -1,16 +1,16 @@
 ---
 title: Criar decisões
 description: Saiba como criar decisões
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
-source-wordcount: '2511'
-ht-degree: 9%
+source-wordcount: '2549'
+ht-degree: 7%
 
 ---
 
@@ -312,15 +312,19 @@ A seleção é a seguinte:
 >title="Adicionar uma oferta substituta"
 >abstract="Depois de definir os escopos de decisão, defina a oferta substituta que será apresentada como último recurso a clientes que não corresponderem às restrições e regras de elegibilidade da oferta."
 
-Depois de definir os escopos de decisão, defina a oferta substituta que será apresentada como último recurso a clientes que não corresponderem às restrições e regras de elegibilidade da oferta.
+Após definir os escopos de decisão, defina a [oferta substituta](../offer-library/creating-fallback-offers.md) que será apresentada como último recurso para os clientes que não correspondem às regras de qualificação e restrições da oferta.
 
-Para fazer isso, selecione-o na lista de ofertas substitutas disponíveis para os posicionamentos definidos na decisão e clique em **[!UICONTROL Avançar]**.
+Para fazer isso, selecione-o na lista de ofertas substitutas disponíveis para os posicionamentos definidos na decisão.
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->Você pode clicar no link **[!UICONTROL Abrir biblioteca de ofertas]** para exibir a lista de ofertas em uma nova guia.
+>As ofertas substitutas devem conter todas as representações usadas em uma decisão. Por exemplo, se você tiver cinco ofertas em uma decisão e cada uma delas tiver uma representação diferente, cinco representações deverão ser incluídas na oferta substituta.
+
+Depois de selecionado, clique em **[!UICONTROL Avançar]**.
+
+Você pode clicar no link **[!UICONTROL Abrir biblioteca de ofertas]** para exibir a lista de ofertas em uma nova guia.
 
 ## Revisar e salvar a decisão {#review}
 
@@ -401,6 +405,6 @@ Isso permite que você acesse informações detalhadas para essa decisão. Selec
 
 Saiba como criar atividades de oferta na gestão de decisões.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409147?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 
