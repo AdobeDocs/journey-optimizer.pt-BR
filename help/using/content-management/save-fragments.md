@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 12%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 12%
 Ao editar o conteúdo no [!DNL Journey Optimizer], você pode salvar todo o conteúdo ou parte dele como fragmento para futura reutilização. Você pode salvar o conteúdo como fragmento [do Designer de email](#save-as-visual-fragment) ou [do editor de expressão](#save-as-expression-fragment).
 
 >[!NOTE]
+>
+>Não há suporte para [Atributos contextuais](../personalization/personalization-build-expressions.md) em fragmentos.
 >
 >Quando o rastreamento é ativado em uma jornada ou campanha, se os links estiverem presentes em um fragmento salvo e se esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links incluídos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
 
@@ -37,7 +39,7 @@ Para salvar o conteúdo do Designer de email como fragmento, siga estas etapas:
    >
    >Fragmentos visuais não podem exceder 100 KB.
 
-1. A tela **[!UICONTROL Salvar como fragmento]** é exibida. Lá, selecione os elementos que deseja incluir no fragmento, incluindo campos de personalização e conteúdo dinâmico. Observe que os atributos contextuais não são suportados em fragmentos.
+1. A tela **[!UICONTROL Salvar como fragmento]** é exibida. Lá, selecione os elementos que deseja incluir no fragmento, incluindo campos de personalização e conteúdo dinâmico.
 
    ![](assets/fragment-save-as-screen.png)
 

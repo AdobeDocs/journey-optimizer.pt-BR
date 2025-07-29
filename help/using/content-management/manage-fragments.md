@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5c4d3f0b143313ecf761a93914150352e8a9f981
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 19%
+source-wordcount: '1428'
+ht-degree: 17%
 
 ---
 
@@ -113,7 +113,7 @@ Os fragmentos podem ter vários status:
 
 >[!CAUTION]
 >
->Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status **Rascunho**, mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los **Ativos** e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. A publicação requer a permissão de usuário [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
+>Desde que os status do **Rascunho** e do **Live** foram introduzidos na versão de junho de 2024 do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status de **Rascunho**, mesmo que sejam usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los **Ativos** e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. A publicação requer a permissão de usuário [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Editar um fragmento {#edit-fragments}
 

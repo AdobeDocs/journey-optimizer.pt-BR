@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '2497'
-ht-degree: 97%
+source-wordcount: '2639'
+ht-degree: 92%
 
 ---
 
@@ -91,8 +91,14 @@ As medidas de proteção e limitações aplicáveis à delegação de subdomíni
 
 As seguintes medidas de proteção se aplicam aos [fragmentos](../content-management/fragments.md):
 
+* Para criar, editar, arquivar e publicar fragmentos, você precisa das permissões de **[!DNL Manage library items]** e **[Publicar fragmento]** incluídas no perfil de produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
 * Os fragmentos visuais só estão disponíveis para o canal de email.
 * Os fragmentos de expressão não estão disponíveis para o canal interno do aplicativo.
+* Fragmentos visuais não podem exceder 100 KB. Os fragmentos de expressão não podem exceder 200 KB.
+* Para usar um fragmento em uma jornada ou campanha, ele deve estar no status **Ativo**.
+* Não há suporte para [Atributos contextuais](../personalization/personalization-build-expressions.md) dentro de fragmentos.
+* Fragmentos visuais não são compatíveis entre os modos Usar temas e Estilo manual. Para poder usar um fragmento em um conteúdo no qual deseja aplicar um tema, esse fragmento deve ser criado no modo Usar temas. [Saiba mais sobre temas](../email/apply-email-themes.md)
+* Quando o rastreamento é ativado em uma jornada ou campanha, se você adicionar links a um fragmento e se esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links incluídos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
 
 ## Medidas de proteção de públicos-alvo {#audience}
 

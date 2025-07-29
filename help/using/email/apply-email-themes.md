@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de email, Módulos, Reutilização, Consistência de marca, Design de email, CSS personalizado, Otimização móvel
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 7%
+source-wordcount: '832'
+ht-degree: 6%
 
 ---
 
@@ -53,19 +53,19 @@ Key Benefits:
 
 * Ao criar um email do zero, você pode optar por começar a criar o conteúdo usando um tema para aplicar rapidamente um estilo específico que se ajuste à sua marca e design.
 
-  Se você escolher o modo Clássico, não será possível aplicar temas, a menos que redefina seu email.
+  Se você escolher o modo Estilo manual, não será possível aplicar temas, a menos que redefina seu email.
 
-* [Fragmentos](../content-management/fragments.md) não são compatíveis entre os modos Tema e Clássico.
+* [Fragmentos](../content-management/fragments.md) não são compatíveis entre os modos Usar Temas e Estilo Manual.
 
-  Para poder usar um fragmento em um conteúdo no qual um tema é aplicado, esse fragmento deve ser criado no modo Tema.
+  Para poder usar um fragmento em um conteúdo no qual um tema é aplicado, esse fragmento deve ser criado no modo Usar temas.
 
 * Se estiver usando um conteúdo criado no HTML, você estará no [modo de compatibilidade](existing-content.md) e não poderá aplicar temas a esse conteúdo.
 
-  Para aproveitar totalmente todos os recursos do Designer de email, incluindo temas, você deve criar um novo conteúdo no modo Tema ou converter o conteúdo do HTML importado. [Saiba mais](existing-content.md)
+  Para aproveitar totalmente todos os recursos do Designer de email, incluindo temas, você deve criar um novo conteúdo no modo Usar temas ou converter o conteúdo do HTML importado. [Saiba mais](existing-content.md)
 
-<!--If using a content created in Classic mode or HTML, you cannot apply themes to this content. You must create a new content in Theme mode.
+<!--If using a content created in Manual Styling mode or HTML, you cannot apply themes to this content. You must create a new content in Use Themes mode.
 
-If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Classic mode, the rendering may not be optimal.-->
+If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Manual Styling mode, the rendering may not be optimal.-->
 
 ## Criar um tema {#create-and-edit-themes}
 
@@ -127,15 +127,15 @@ Para aplicar temas de estilo padrão ou personalizados a um email, siga as etapa
 
    * Selecione um [modelo de email](use-email-templates.md) interno para abrir o Designer de email. Um tema padrão específico para cada modelo é aplicado automaticamente.
 
-   * Crie um [novo conteúdo do zero](content-from-scratch.md) e selecione **[!UICONTROL Tema]** para começar com um tema de estilo predefinido.
+   * Crie um [novo conteúdo do zero](content-from-scratch.md) e selecione **[!UICONTROL Usar Tema]s** para começar com um tema de estilo predefinido.
 
      ![](assets/theme-from-scratch.png)
 
      >[!CAUTION]
      >
-     >Se você escolher o modo Clássico, não será possível aplicar temas, a menos que redefina seu email.
+     >Se você escolher o modo Estilo manual, não será possível aplicar temas, a menos que redefina seu email.
      >
-     >Para usar um [fragmento](../content-management/fragments.md) no modo Tema, este fragmento deve ter sido criado sozinho usando o modo Tema.
+     >Para usar um [fragmento](../content-management/fragments.md) no modo Usar temas, este fragmento deve ter sido criado sozinho usando o modo Usar temas.
 
 1. No Designer de Email, clique no botão **[!UICONTROL Temas]** no painel direito. O tema padrão ou o tema do modelo é exibido. Você pode alternar entre as duas variantes de cor para esse tema.
 
