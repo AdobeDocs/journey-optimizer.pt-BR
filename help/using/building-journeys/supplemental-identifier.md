@@ -199,4 +199,4 @@ Para usar um identificador complementar em uma jornada, siga estas etapas:
 
 Saiba como habilitar e aplicar um identificador complementar no [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464797?quality=12&captions=por_br)
