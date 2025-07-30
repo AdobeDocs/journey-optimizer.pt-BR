@@ -1,19 +1,18 @@
 ---
 title: Alinhamento da marca
 description: Saiba como criar, validar e gerenciar conteúdo na marca usando a pontuação da marca.
-badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 25%
+source-wordcount: '265'
+ht-degree: 19%
 
 ---
 
-# Alinhamento da marca (Beta){#brands-score}
+# Alinhamento da marca {#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
@@ -37,8 +36,7 @@ ht-degree: 25%
 
 >[!AVAILABILITY]
 >
->Esse recurso foi lançado como um beta privado. Ele será disponibilizado progressivamente a todos os clientes em versões futuras.
->&#x200B;>Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
+>Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
 
 O recurso Alinhamento da marca ajuda você a criar, revisar e gerenciar conteúdo que segue as diretrizes da sua marca. Ele garante a consistência no tom, nas mensagens e na identidade visual em todas as campanhas de email, além de servir como uma verificação de qualidade antes do conteúdo ser publicado.
 

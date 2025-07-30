@@ -3,7 +3,7 @@ title: Identificador complementar em jornadas acionadas por eventos
 description: Saiba como usar o identificador complementar em jornadas acionadas por eventos.
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 664f38b4ff56ce871599400f898e23a8d04f7816
+source-git-commit: 5e4297fb0e2d0b910c9fe102299162e8bb46a311
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 8%
@@ -199,4 +199,4 @@ Para usar um identificador complementar em uma jornada, siga estas etapas:
 
 Saiba como habilitar e aplicar um identificador complementar no [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464797?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
