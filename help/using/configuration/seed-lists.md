@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: seed list, seed list, seed, configuração
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '985'
 ht-degree: 22%
 
 ---
@@ -155,5 +155,7 @@ Agora que sua lista de seeds foi criada, você pode usá-la em qualquer campanha
 Agora, sempre que uma mensagem de email for enviada aos seus clientes por meio dessa campanha ou jornada, os endereços de email na seed list selecionada também a receberão nas mesmas condições, ao mesmo tempo e com o mesmo conteúdo que os recipients direcionados.
 
 >[!NOTE]
+>
+>[Modo de teste](../building-journeys/testing-the-journey.md) O jornada não envia emails para a lista de propagação. Para verificar seu conteúdo de email, use a funcionalidade de [visualização e teste](../content-management/preview-test.md) antes de enviar sua mensagem.
 >
 >Para jornadas recorrentes, o delivery de email é enviado aos seed addresses em cada execução de jornada, desde que pelo menos um perfil chegue ao nó de email.
