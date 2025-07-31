@@ -9,16 +9,20 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 30%
+source-wordcount: '1274'
+ht-degree: 28%
 
 ---
 
 # Adicionar links e rastrear mensagens {#tracking}
 
 Use o [!DNL Journey Optimizer] para adicionar links ao seu conteúdo e rastrear as mensagens enviadas para monitorar o comportamento dos destinatários.
+
+>[!NOTE]
+>
+>Quando links são incluídos no seu conteúdo, eles expiram **25 meses** após o envio da mensagem, exceto links para uma mirror page, que expira após **90 dias**. Depois que o atraso expirar, os links não estarão mais disponíveis.
 
 ## Ativar rastreamento {#enable-tracking}
 
@@ -79,7 +83,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
    >
    >Para interpretar URLs, [!DNL Journey Optimizer] está em conformidade com a sintaxe de URI ([padrão RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), que desabilita alguns caracteres internacionais especiais em URLs. Ao tentar enviar a prova ou o email, se você retornar um erro envolvendo um URL adicionado ao seu conteúdo, será possível codificar o URL da sequência de caracteres como uma solução alternativa.
 
-1. Você pode personalizar seus links. [Saiba mais](../personalization/personalization-syntax.md#perso-urls)
+1. Você pode personalizar seus links. [Saiba mais](../personalization/personalization-build-expressions.md)
 
 1. Salve as alterações.
 
@@ -91,6 +95,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 >
 >As mensagens de email do tipo Marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida na [configuração de canal](../configuration/channel-surfaces.md#email-type) ao criar a mensagem.
 
+Depois que a mensagem é enviada, o período de retenção de um link é de **25 meses**. Após esse atraso, o link não estará mais disponível.
 
 ## Link para uma mirror page {#mirror-page}
 
@@ -104,7 +109,7 @@ Para adicionar um link a uma mirror page no email, [insira um link](#insert-link
 
 A mirror page é criada automaticamente. Depois que o email for enviado, quando os destinatários clicarem no link da mirror page, o conteúdo do email será exibido no navegador web padrão.
 
-O período de retenção de uma mirror page é de **60 dias**. Após esse atraso, a mirror page não estará mais disponível.
+O período de retenção de uma mirror page é de **90 dias**. Após esse atraso, a mirror page não estará mais disponível.
 
 >[!CAUTION]
 >
@@ -177,7 +182,7 @@ Relatórios sobre aberturas e cliques estão disponíveis no [Live Report](../re
 
 O [rastreamento de URL](email-settings.md#url-tracking) é gerenciado no nível de configuração e se aplica a todas as URLs incluídas no conteúdo da sua mensagem.
 
-Você também pode [personalizar URLs individuais](../personalization/personalization-syntax.md#perso-urls) no Designer de email. Para adicionar parâmetros de rastreamento de URL personalizados a um único link em seu conteúdo, siga as etapas abaixo.
+Você também pode personalizar URLs individuais no Designer de email. Para adicionar parâmetros de rastreamento de URL personalizados a um único link em seu conteúdo, siga as etapas abaixo.
 
 1. Selecione um link e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
 
@@ -185,7 +190,7 @@ Você também pode [personalizar URLs individuais](../personalization/personaliz
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Adicione o parâmetro de rastreamento de URL e selecione o atributo de perfil de sua escolha no editor de personalização.
+1. Adicione o parâmetro de rastreamento da URL e selecione o atributo de perfil de sua escolha no [editor de personalização](../personalization/personalization-build-expressions.md).
 
    ![](assets/message-tracking-perso-parameter.png)
 
