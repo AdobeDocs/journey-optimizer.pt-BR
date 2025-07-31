@@ -118,7 +118,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos recipients e visita
 
       ![](assets/decision-code-based-create.png)
 
-+++
+   +++
 
    +++Menu de decisão do Designer **[!UICONTROL email]**
 
@@ -128,7 +128,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos recipients e visita
 
       ![](assets/decision-policy-email-designer.png)
 
-+++
+   +++
 
 1. Forneça um nome e selecione um catálogo (atualmente limitado ao catálogo padrão **[!UICONTROL Ofertas]**).
 
@@ -236,7 +236,7 @@ Oferta 5 - 50
 
      As ofertas classificadas agora são as seguintes: Oferta 5 , Oferta 3, Oferta 4, Oferta 2, Oferta 1, Oferta 6.
 
-+++
+   +++
 
 1. Clique em **[!UICONTROL Avançar]**
 
@@ -291,13 +291,13 @@ Depois de criada, a política de decisão e os atributos vinculados aos itens de
 
    ![](assets/decision-policy-placement.png)
 
-+++
+   +++
 
    +++Inserir código de política de decisão na experiência baseada em código
 
    ![](assets/decision-code-based-add-decision.png)
 
-+++
+   +++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ Agora você pode adicionar todos os atributos de decisão desejados dentro desse
 >[!NOTE]
 >
 >Para o rastreamento de itens da política de decisão, o atributo `trackingToken` precisa ser adicionado da seguinte maneira para o conteúdo da política de decisão:
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Clique em cada pasta para expandi-la. Coloque o cursor do mouse no local desejado e clique no ícone + ao lado do atributo que deseja adicionar. Você pode adicionar quantos atributos desejar ao código.
 
