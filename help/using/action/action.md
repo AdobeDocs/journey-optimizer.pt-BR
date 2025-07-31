@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: ações, jornada, mensagens, envio, conexões
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 46%
@@ -24,7 +24,6 @@ ht-degree: 46%
 >abstract="As ações são conexões através das quais você fornece experiências personalizadas em tempo real para clientes, como notificações por push, email, SMS ou qualquer outro meio de engajamento digital usado em sua empresa."
 
 As ações são conexões através das quais você fornece experiências personalizadas em tempo real para clientes, como notificações por push, email, SMS ou qualquer outro meio de engajamento digital usado em sua empresa.
-
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -50,4 +49,4 @@ Saiba como solucionar problemas de uma ação personalizada [nesta página dedic
 
 Saiba como configurar ações personalizadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430278?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
