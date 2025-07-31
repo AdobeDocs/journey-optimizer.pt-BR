@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: bfa6e54673fc51d1bd6c253cc17a0018e3d7815b
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1786'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](gs-generative.md#generative-guardrails) relacionadas.
-></br>
+>></br>
 >
->Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
 
 Depois de criar e personalizar seus emails, aproveite o poder do Assistente de IA no Journey Optimizer, alimentado pela IA gerativa, para elevar seu conteúdo.
 
@@ -47,8 +47,6 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de e
 1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
 1. Selecione sua **[!UICONTROL Marca]** para garantir que o conteúdo gerado por IA esteja alinhado às especificações da sua marca. [Saiba mais](brands.md) sobre marcas.
-
-   Observe que o recurso Marcas é lançado como um beta privado e estará progressivamente disponível para todos os clientes em versões futuras.
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
@@ -84,7 +82,13 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de e
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
-1. Navegue pelas **[!UICONTROL Variações]** geradas e clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada.
+1. Navegue pelas **[!UICONTROL Variações]** geradas e clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada ou **[!UICONTROL Aplicar]** para substituir o conteúdo atual.
+
+1. Clique no ícone de porcentagem para exibir sua **[!UICONTROL Pontuação de alinhamento da marca]** e identificar quaisquer desalinhamentos com sua marca.
+
+   Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
+
+   ![](assets/full-email-7.png){zoomable="yes"}
 
 1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
@@ -95,6 +99,8 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de e
    Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
 
    ![](assets/full-email-5.png){zoomable="yes"}
+
+1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
@@ -120,8 +126,6 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo de
 
 1. Selecione sua **[!UICONTROL Marca]** para garantir que o conteúdo gerado por IA esteja alinhado às especificações da sua marca. [Saiba mais](brands.md) sobre marcas.
 
-   Observe que o recurso Marcas é lançado como um beta privado e estará progressivamente disponível para todos os clientes em versões futuras.
-
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas.
@@ -145,7 +149,15 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo de
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
-1. Navegue pelas **[!UICONTROL Variações]** geradas e clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada.
+1. Navegue pelas **[!UICONTROL Variações]** geradas.
+
+   Clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada ou clique em **[!UICONTROL Aplicar]** para substituir o conteúdo atual.
+
+1. Clique no ícone de porcentagem para exibir sua **[!UICONTROL Pontuação de alinhamento da marca]** e identificar quaisquer desalinhamentos com sua marca.
+
+   Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
+
+   ![](assets/text-genai-6.png){zoomable="yes"}
 
 1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
@@ -155,13 +167,15 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo de
 
    * **[!UICONTROL Resumir]**: informações extensas podem sobrecarregar destinatários de email. Use o Assistente de IA para condensar os pontos principais em resumos claros e concisos que chamem a atenção e os incentivem a ler mais.
 
-   * **[!UICONTROL Refrase]**:O Assistente de IA pode reformular sua mensagem de diferentes maneiras, mantendo sua escrita atualizada e engajando públicos diversos.
+   * O Assistente de IA de **[!UICONTROL Refrase]**:The pode reformular sua mensagem de diferentes maneiras, mantendo sua escrita atualizada e envolvente para públicos diversos.
 
    * **[!UICONTROL Usar linguagem mais simples]**: use o AI Assistant para simplificar sua linguagem, garantindo clareza e acessibilidade para um público-alvo maior.
 
    Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
 
    ![](assets/text-genai-5.png){zoomable="yes"}
+
+1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
@@ -189,8 +203,6 @@ No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar s
 
 1. Selecione sua **[!UICONTROL Marca]** para garantir que o conteúdo gerado por IA esteja alinhado às especificações da sua marca. [Saiba mais](brands.md) sobre marcas.
 
-   Observe que o recurso Marcas é lançado como um beta privado e estará progressivamente disponível para todos os clientes em versões futuras.
-
 1. Ajuste o conteúdo descrevendo o que você deseja gerar no campo **[!UICONTROL Prompt]**.
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas.
@@ -216,9 +228,26 @@ No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar s
 
 1. Navegue pelas **[!UICONTROL sugestões de variação]** para encontrar o ativo desejado.
 
-   Clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada.
+   Clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada ou em **[!UICONTROL Aplicar]** para substituir o conteúdo atual.
 
-1. Escolha **[!UICONTROL Gerar Semelhante]** se desejar exibir imagens relacionadas a essa variante.
+1. Clique no ícone de porcentagem para exibir sua **[!UICONTROL Pontuação de alinhamento da marca]** e identificar quaisquer desalinhamentos com sua marca.
+
+   Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
+
+   <!--
+    ![](assets/image-genai-7.png){zoomable="yes"}
+    -->
+
+1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
+
+   * **[!UICONTROL Gerar Semelhante]** para exibir imagens relacionadas a esta variante.
+   * **[!UICONTROL Edite no Adobe Express]** para personalizar ainda mais seu ativo.
+
+[Saiba mais sobre a integração do Adobe Express](../integrations/express.md)
+
+   * **[!UICONTROL Salve]** para armazenar os ativos para acesso posterior.
+
+   ![](assets/image-genai-5.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
