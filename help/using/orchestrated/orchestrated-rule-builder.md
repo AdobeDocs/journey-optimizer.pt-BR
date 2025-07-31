@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 77%
+ht-degree: 68%
 
 ---
 
@@ -43,13 +43,13 @@ Ele também permite utilizar filtros predefinidos com condições, permitindo qu
 
 ## Acessar o construtor de regras
 
-O modelador de consultas está disponível em todo contexto onde é preciso definir regras para filtrar dados.
+O construtor de regras está disponível em todos os contextos nos quais você precisa definir regras para filtrar dados.
 
 | Uso | Exemplo |
 |  ---  |  ---  |
 | **Criar públicos-alvo**: especifique a população que deseja direcionar em suas campanhas orquestradas usando uma atividade **[!UICONTROL Criar público-alvo]** e crie facilmente novos públicos-alvo adaptados às suas necessidades. [Saiba como criar públicos-alvo](../orchestrated/activities/build-audience.md) | ![Imagem mostrando como acessar a interface de criação de públicos-alvo](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
 | **Criar condição na tela da campanha**: aplique regras na tela da campanha, usando uma atividade **[!UICONTROL Divisão]** de acordo com os seus requisitos específicos. [Saiba como usar a atividade divisão](../orchestrated/activities/split.md) | ![Imagem mostrando como acessar as opções de personalização do fluxo de trabalho](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
-| **Criar filtros avançados**: crie regras para filtrar os dados exibidos em listas, como logs do fluxo de trabalho ou dimensões de direcionamento. | ![Imagem mostrando como personalizar os filtros de lista](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
+| **Criar filtros avançados**: crie regras para filtrar os dados exibidos em listas como logs de campanha ou dimensões de direcionamento. | ![Imagem mostrando como personalizar os filtros de lista](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## Interface do construtor de regras {#interface}
 

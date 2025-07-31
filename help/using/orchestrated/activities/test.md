@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -64,7 +64,7 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Testar]**:
 
 1. Você pode adicionar várias transições de saída a uma atividade **[!UICONTROL Testar]**. Para isso, clique no botão **[!UICONTROL Adicionar condição]** e configure o rótulo e a condição associada para cada transição.
 v
-1. Durante a execução da campanha orquestrada, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, as campanhas Orquestradas continuarão no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, os fluxos de trabalho serão interrompidos nesse ponto.
+1. Durante a execução da campanha orquestrada, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, as campanhas Orquestradas continuarão no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, a campanha será interrompida nesse ponto.
 
 ## Exemplo {#example}
 

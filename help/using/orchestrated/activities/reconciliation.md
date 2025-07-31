@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 83%
+source-wordcount: '654'
+ht-degree: 75%
 
 ---
 
@@ -73,8 +73,7 @@ A **[!UICONTROL Reconciliação]** exige que os registros relacionados já exist
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="Regras de reconciliação"
->abstract="Selecione as regras de reconciliação a serem usadas para a desduplicação. Para usar atributos, selecione a opção **Atributos simples** e escolha os campos origem e destino. Para criar sua própria condição de reconciliação usando o modelador de consultas, selecione a opção **Condições de reconciliação avançadas**."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/query-database/query-modeler-overview" text="Trabalhar com o modelador de consultas"
+>abstract="Selecione as regras de reconciliação a serem usadas para a desduplicação. Para usar atributos, selecione a opção **Atributos simples** e escolha os campos origem e destino. Para criar sua própria condição de reconciliação usando o construtor de regras, selecione a opção **Condições avançadas de reconciliação**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
@@ -94,7 +93,7 @@ A **[!UICONTROL Reconciliação]** exige que os registros relacionados já exist
 
 Siga estas etapas para configurar a atividade **[!UICONTROL Reconciliação]**:
 
-1. Adicione uma atividade **[!UICONTROL Reconciliação]** ao seu fluxo de trabalho.
+1. Adicione uma atividade de **[!UICONTROL Reconciliação]** à tela.
 
 1. Escolha uma nova dimensão de direcionamento para definir a quem você está direcionando, como destinatários ou assinantes.
 
@@ -114,9 +113,9 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Reconciliação]**:
 
 1. Para adicionar mais regras de correspondência, clique em **[!UICONTROL Adicionar regra]**. Para que uma correspondência ocorra, todas as condições precisam ser satisfeitas.
 
-1. Para condições mais complexas, escolha **[!UICONTROL Condições de reconciliação avançadas]**. Use o [modelador de consultas](../orchestrated-rule-builder.md) para definir uma lógica personalizada.
+1. Para condições mais complexas, escolha **[!UICONTROL Condições de reconciliação avançadas]**. Use o [construtor de regras](../orchestrated-rule-builder.md) para definir uma lógica personalizada.
 
-1. Para filtrar quais dados reconciliar, clique em **[!UICONTROL Criar filtro]** e defina a condição no modelador de consultas.
+1. Para filtrar quais dados reconciliar, clique em **[!UICONTROL Criar filtro]** e defina sua condição no construtor de regras.
 
 1. Por padrão, registros sem correspondência são mantidos na transição de saída e armazenados na tabela de trabalho. Para removê-los, habilite a opção **[!UICONTROL Manter dados não reconciliados]**.
 
