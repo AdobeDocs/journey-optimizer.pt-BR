@@ -8,21 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1684'
 ht-degree: 2%
 
 ---
 
-# Geração de página de aterrissagem com o Assistente de IA {#generative-lp}
+# Geração de páginas de destino com o Assistente de IA {#generative-lp}
 
 >[!IMPORTANT]
 >
 >* Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](gs-generative.md#generative-guardrails) relacionadas.
 >
 >
->* Você deve aceitar o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
+>* Você deve aceitar o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
 
 Transforme suas páginas de aterrissagem com o Assistente de IA no Journey Optimizer, viabilizado pela IA gerativa.
 
@@ -74,11 +74,17 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de L
 
    Os arquivos carregados anteriormente estão disponíveis no menu suspenso **[!UICONTROL Ativos de marca carregados]**. Basta alternar os ativos que deseja incluir na geração.
 
-   ![](assets/lp-full-gen-5.png){zoomable="yes"}
-
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
-1. Navegue pelas **[!UICONTROL Variações]** geradas e clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada.
+1. Navegue pelas **[!UICONTROL Variações]** geradas.
+
+   Clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada ou clique em **[!UICONTROL Aplicar]** para substituir o conteúdo atual.
+
+1. Clique no ícone de porcentagem para exibir sua **[!UICONTROL Pontuação de alinhamento da marca]** e identificar quaisquer desalinhamentos com sua marca.
+
+   Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
+
+   ![](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
@@ -89,6 +95,8 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de L
    Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
 
    ![](assets/lp-full-gen-6.png){zoomable="yes"}
+
+1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
@@ -129,11 +137,18 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo da
 
    Os arquivos carregados anteriormente estão disponíveis no menu suspenso **[!UICONTROL Ativos de marca carregados]**. Basta alternar os ativos que deseja incluir na geração.
 
-   ![](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
-1. Navegue pelas **[!UICONTROL Variações]** geradas e clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada.
+1. Navegue pelas **[!UICONTROL Variações]** geradas.
+
+   Clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada ou clique em **[!UICONTROL Aplicar]** para substituir o conteúdo atual.
+
+1. Clique no ícone de porcentagem para exibir sua **[!UICONTROL Pontuação de alinhamento da marca]** e identificar quaisquer desalinhamentos com sua marca.
+
+   Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
+
+   ![](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
@@ -143,13 +158,15 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo da
 
    * **[!UICONTROL Resumir]**: informações extensas podem sobrecarregar os destinatários da página de aterrissagem. Use o Assistente de IA para condensar os pontos principais em resumos claros e concisos que chamem a atenção e os incentivem a ler mais.
 
-   * **[!UICONTROL Refrase]**:O Assistente de IA pode reformular sua mensagem de diferentes maneiras, mantendo sua escrita atualizada e engajando públicos diversos.
+   * O Assistente de IA de **[!UICONTROL Refrase]**:The pode reformular sua mensagem de diferentes maneiras, mantendo sua escrita atualizada e envolvente para públicos diversos.
 
    * **[!UICONTROL Usar linguagem mais simples]**: use o AI Assistant para simplificar sua linguagem, garantindo clareza e acessibilidade para um público-alvo maior.
 
    Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
 
    ![](assets/lp-text-gen-5.png){zoomable="yes"}
+
+1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
@@ -196,13 +213,28 @@ No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar s
 
 1. Quando estiver satisfeito com a configuração do prompt, clique em **[!UICONTROL Gerar]**.
 
-1. Navegue pelas **[!UICONTROL sugestões de variação]** para encontrar o ativo desejado.
+1. Navegue pelas **[!UICONTROL Variações]** geradas.
 
-   Clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada.
+   Clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada ou clique em **[!UICONTROL Aplicar]** para substituir o conteúdo atual.
 
-1. Escolha **[!UICONTROL Gerar Semelhante]** se desejar exibir imagens relacionadas a essa variante.
+1. Clique no ícone de porcentagem para exibir sua **[!UICONTROL Pontuação de alinhamento da marca]** e identificar quaisquer desalinhamentos com sua marca.
+
+   Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
 
    ![](assets/lp-image-gen-4.png){zoomable="yes"}
+
+1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
+
+   * **[!UICONTROL Gerar Semelhante]** para exibir imagens relacionadas a esta variante.
+   * **[!UICONTROL Edite no Adobe Express]** para personalizar ainda mais seu ativo.
+
+[Saiba mais sobre a integração do Adobe Express](../integrations/express.md)
+
+   * **[!UICONTROL Salve]** para armazenar os ativos para acesso posterior.
+
+   ![](assets/lp-image-gen-5.png){zoomable="yes"}
+
+1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 

@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
+source-git-commit: 0a6db9c9537563fea5d56289d78b9ed49d703734
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 28%
+source-wordcount: '1352'
+ht-degree: 26%
 
 ---
 
@@ -102,7 +102,7 @@ Vamos ver um exemplo para um tempo limite de 5 segundos.
 
 **Como posso configurar uma regra de limitação ou limitação? Existe uma regra padrão?**
 
-Para criar regras de limitação ou limitação, consulte [esta seção](../configuration/external-systems.md#capping). Por padrão, não há regra de limitação, mas um limite de 300.000 chamadas em um minuto definido para todas as ações personalizadas, por host e por sandbox. Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. É necessário considerar isso em jornadas baseadas em público-alvo, definindo uma taxa de leitura apropriada (5.000 perfis por segundo ao utilizar ações personalizadas). Se necessário, é possível substituir essa configuração definindo um limite máximo ou limite maior por meio das APIs de Limite/Limitação.
+Para criar regras de limitação ou limitação, consulte [esta seção](../configuration/external-systems.md#capping). Por padrão, não há regra de limitação, mas um limite de 300.000 chamadas em um minuto definido para todas as ações personalizadas, por host e por sandbox. Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. Se necessário, é possível substituir essa configuração definindo um limite máximo ou limite maior por meio das APIs de Limite/Limitação.
 
 **Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período mínimo de espera entre tentativas?**
 

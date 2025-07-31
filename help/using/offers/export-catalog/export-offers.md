@@ -1,15 +1,15 @@
 ---
 title: Conjunto de dados de ofertas personalizadas
 description: Esta seção lista todos os campos usados no conjunto de dados exportado para ofertas
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Cada vez que uma oferta é modificada, o conjunto de dados gerado automaticamente para ofertas de conteúdo personalizado é atualizado.
 
-![](../assets/dataset-offers.png)
-
 O lote bem-sucedido mais recente no conjunto de dados é exibido à direita. A visualização hierárquica do esquema do conjunto de dados é exibida no painel esquerdo.
+
+![](../assets/dataset-offers.png)
 
 >[!NOTE]
 >
->Saiba como acessar os conjuntos de dados exportados para cada objeto da Biblioteca de ofertas em [esta seção](../export-catalog/access-dataset.md).
+>As ofertas personalizadas excluídas são marcadas como arquivadas no conjunto de dados.
 
 Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[!UICONTROL Repositório de Objetos de Decisão - Ofertas Personalizadas]**.
 
@@ -97,7 +97,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 +++_experience > decisão > conteúdo > componentes
 
 **Campo:** componentes
-**Descrição:** Os componentes do conteúdo que representam a opção de decisão, incluindo todas as suas variantes de idioma. Componentes específicos são encontrados por &quot;dx:format&quot;, &quot;dc:subject&quot; e &quot;dc:language&quot; ou uma combinação dos mesmos. Esses metadados são usados para localizar ou representar o conteúdo associado a uma oferta e integrá-lo de acordo com o contrato de posicionamento.
+**Descrição:** Os componentes do conteúdo que representam a opção de decisão, incluindo todas as suas variantes de idioma. Componentes específicos são encontrados por &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; ou uma combinação dos mesmos. Esses metadados são usados para localizar ou representar o conteúdo associado a uma oferta e integrá-lo de acordo com o contrato de posicionamento.
 **Tipo:** matriz
 **Obrigatório:** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
@@ -123,7 +123,6 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
      **Exemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
-
      **Campo:** idioma
      **Título:** Idioma
      **Descrição:** O idioma ou idiomas do recurso. \nOs idiomas são especificados no código de idioma conforme definido em [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que faz parte do BCP 47, que é usado em outro lugar no XDM.
@@ -145,7 +144,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
    * **name**
 
      **Campo:** nome
-     **Descrição:** Alguma dica sobre onde localizar o repositório que armazena o ativo externo pelo \&quot;repo:id\&quot;.
+     **Descrição:** Uma dica sobre onde localizar o repositório que armazena o ativo externo pelo \&quot;repo:id\&quot;.
      **Tipo:** cadeia de caracteres
 
    * **IDdoRepositório**

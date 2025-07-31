@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 1a7ffacba9b90e2c018dde91814c7e321ba21135
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2621'
 ht-degree: 92%
 
 ---
@@ -149,7 +149,7 @@ As seguintes medidas de proteção se aplicam às [versões da jornada](../start
 
 As seguintes medidas de proteção se aplicam às [ações personalizadas](../action/action.md) de jornadas:
 
-* Um limite máximo de 300.000 chamadas em um minuto é definido para todas as ações personalizadas, por host e por sandbox. Consulte [esta página](../action/about-custom-action-configuration.md). Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. É necessário considerar isso em jornadas baseadas em público-alvo, definindo uma taxa de leitura apropriada (5.000 perfis por segundo ao utilizar ações personalizadas). Se necessário, é possível substituir essa configuração aumentando o limite máximo por meio das APIs de limite e limitação. Consulte [esta página](../configuration/external-systems.md).
+* Um limite máximo de 300.000 chamadas em um minuto é definido para todas as ações personalizadas, por host e por sandbox. Consulte [esta página](../action/about-custom-action-configuration.md). Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. Se necessário, é possível substituir essa configuração aumentando o limite máximo por meio das APIs de limite e limitação. Consulte [esta página](../configuration/external-systems.md).
 * O URL de ação personalizada não aceita parâmetros dinâmicos.
 * Os métodos de chamada POST, PUT e GET são compatíveis
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou “$”
@@ -211,6 +211,9 @@ As seguintes medidas de proteção se aplicam à atividade de [leitura de públi
 * Uma jornada só pode ter uma atividade de **público-alvo de leitura**.
 * Consulte também as recomendações de como usar a atividade **Público-alvo de leitura** descritas [nesta página](../building-journeys/read-audience.md).
 * As novas tentativas são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **público-alvo de leitura** ou um **evento de negócios**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado.
+
+
+Consulte também [esta página](../building-journeys/read-audience.md#must-read).
 
 ### Qualificação de público-alvo {#audience-qualif-g}
 

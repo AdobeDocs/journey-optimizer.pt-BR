@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '247'
 ht-degree: 9%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 9%
 >[!IMPORTANT]
 >
 >Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](gs-generative.md#generative-guardrails) relacionadas.
-></br>
+>></br>
 >
->Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
 
 Depois de criar e personalizar suas mensagens, eleve o conteúdo com o Assistente de IA no Adobe Journey Optimizer, que inclui o recurso Experimento de conteúdo. Essa ferramenta permite definir vários tratamentos de delivery, conteúdo variável, para medir o desempenho do público-alvo.
 
@@ -44,9 +44,7 @@ Depois de criar e personalizar suas mensagens, eleve o conteúdo com o Assistent
 
    ![](assets/experiment-genai-3.png)
 
-1. Na janela Experimento de Conteúdo, acesse o botão **[!UICONTROL Configurações do experimento]** para configurar o experimento. [Saiba mais sobre o Experimento de Conteúdo](../content-management/content-experiment.md)
-
-   ![](assets/experiment-genai-4.png)
+1. A partir do Experimento de conteúdo, você pode começar a configurar sua experimentação de conteúdo. [Saiba mais sobre o Experimento de Conteúdo](../content-management/content-experiment.md)
 
 1. Quando o experimento de Conteúdo estiver pronto, na página de resumo da campanha, você pode clicar em **[!UICONTROL Revisar para ativar]** para exibir um resumo da campanha. Os alertas são exibidos se qualquer parâmetro estiver incorreto ou ausente. [Saiba mais](../content-management/content-experiment.md#treatment-experiment)
 
