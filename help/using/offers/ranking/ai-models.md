@@ -3,15 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Introdução a modelos de IA
 description: Saiba mais sobre os modelos de IA que permitem classificar ofertas
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: c79b860d4220b3125bbee2240e047552a04fe118
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 14%
+source-wordcount: '371'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ Por exemplo, você pode selecionar um modelo de IA para o canal de email e outro
 
 >[!IMPORTANT]
 >
->Por enquanto, os modelos de classificação não são compatíveis com os canais criados pela Journey Optimizer.
+>Atualmente, os modelos de IA não são compatíveis com os canais criados no Journey Optimizer.
 
 ## Tipos de modelo de IA {#ai-model-types}
 
@@ -53,6 +53,6 @@ As principais etapas para criar e usar modelos de IA são as seguintes:
 
    >[!IMPORTANT]
    >
-   >Os modelos de classificação exigem que os eventos de feedback sejam enviados como eventos de experiência para serem coletados. [Saiba mais sobre a coleção de dados de Gestão de decisão](../data-collection/data-collection.md)
+   >Os modelos de IA exigem que os eventos de feedback sejam enviados como eventos de experiência para serem coletados. [Saiba mais sobre a coleção de dados de Gestão de decisão](../data-collection/data-collection.md)
 
 1. Atribua o modelo de IA a um posicionamento em uma decisão para classificar ofertas elegíveis. [Saiba mais](../offer-activities/configure-offer-selection.md)
