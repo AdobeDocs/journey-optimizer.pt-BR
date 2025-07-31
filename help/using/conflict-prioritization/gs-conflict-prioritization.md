@@ -4,10 +4,10 @@ description: Saiba como aproveitar as ferramentas de conflito e priorização do
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ As **Pontuações de prioridade** ajudam a controlar quais campanhas ou jornadas
 
 ### Conjuntos de regras
 
-Os conjuntos de regras permitem **agrupar várias regras em conjuntos de regras** e aplicá-las às jornadas e campanhas de sua escolha. Dessa forma, você tem mais granularidade para limitar a frequência e a quantidade de jornadas que um cliente pode inserir em um determinado intervalo de tempo ou controlar a frequência com que os usuários receberão uma mensagem, dependendo do tipo de comunicação.
+Os conjuntos de regras permitem **agrupar várias regras em conjuntos de regras** e aplicá-las às jornadas e campanhas de sua escolha. Isso oferece maior granularidade para limitar a frequência e a quantidade de jornadas que um cliente pode inserir em um determinado período de tempo ou controlar a frequência com que os usuários receberão uma mensagem, dependendo do tipo de comunicação. [Saiba como trabalhar com conjuntos de regras](../conflict-prioritization/rule-sets.md)
 
 * **Limitação e arbitragem de jornada**
 
