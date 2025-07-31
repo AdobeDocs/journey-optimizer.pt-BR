@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: c90189d4b064e00bd2f2bdde67230aeb84dd97f6
+source-git-commit: f8134fd1e030fb969747a37acd657f62fd398c75
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1701'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 Você pode copiar objetos como jornadas, ações personalizadas, modelos de conteúdo ou fragmentos em várias sandboxes usando recursos de exportação e importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.
 
-Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso propriamente dito, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=pt-BR#abobe-journey-optimizer-objects){target="_blank"} do Adobe Experience Platform.
+Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso propriamente dito, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"} do Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ O Journey Optimizer permite exportar jornadas, ações personalizadas, modelos d
 
 +++ Jornadas
 
-* **Dependências copiadas** - Ao exportar uma jornada, além da própria jornada, o Journey Optimizer jornada também copia a maioria dos objetos dos quais ela depende: públicos-alvo, ações personalizadas, esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=pt-BR#abobe-journey-optimizer-objects){target="_blank"} do Adobe Experience Platform.
+* **Dependências copiadas** - Ao exportar uma jornada, além da própria jornada, o Journey Optimizer jornada também copia a maioria dos objetos dos quais ela depende: públicos-alvo, ações personalizadas, esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"} do Adobe Experience Platform.
 
 * **Validação manual recomendada** - Não garantimos que todos os elementos vinculados sejam copiados para a sandbox de destino. É altamente recomendável executar uma verificação completa, por exemplo, antes de publicar uma jornada. Isso permite identificar qualquer objeto ausente em potencial.
 
@@ -62,13 +62,8 @@ O Journey Optimizer permite exportar jornadas, ações personalizadas, modelos d
 
    * Ao copiar uma jornada para outra sandbox, se você selecionar &quot;usar existente&quot; para uma ação personalizada durante o processo de importação, a ação personalizada existente selecionada deverá ser a mesma que a ação personalizada de origem (ou seja, mesma configuração, parâmetros etc.). Caso contrário, a nova cópia da jornada terá erros que não poderão ser resolvidos na tela.
 
-<!--* **Data sources, field groups and events** - When copying a journey that uses events, data sources, or field groups, the import process automatically checks whether components with the same name and type already exist in the target sandbox.
+* **Fontes de dados, grupos de campos e eventos** - Ao copiar uma jornada que usa eventos, fontes de dados ou grupos de campos, o processo de importação verifica automaticamente se já existem componentes com o mesmo nome e tipo na sandbox de destino. Por exemplo, um evento unitário será substituído por um evento unitário na sandbox do target com o mesmo nome. O mesmo se aplica a eventos comerciais, fontes de dados personalizadas e grupos de campos baseados em API e esquema usados em jornadas. Se um evento unitário da sandbox de origem tiver o mesmo nome que uma sandbox de destino de evento comercial, ele não será copiado nem criado, isso se aplica a todos os outros componentes também.
 
-   * If a match is found, the existing components in the target sandbox are reused by the imported journey.
-   * If no match is found, the system creates new components.
-
-   This ensures that journeys relying on these elements remain functional after import, with minimal manual adjustment.
--->
 +++
 
 +++ Campanhas
