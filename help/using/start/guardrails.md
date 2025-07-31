@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1a7ffacba9b90e2c018dde91814c7e321ba21135
+source-git-commit: bb3b07dc5dbb5ef50470caf52da2e10fcaf21a5e
 workflow-type: tm+mt
-source-wordcount: '2621'
-ht-degree: 92%
+source-wordcount: '2624'
+ht-degree: 91%
 
 ---
 
@@ -166,7 +166,7 @@ As seguintes medidas de proteção se aplicam às [ações personalizadas](../a
 
 As seguintes medidas de proteção se aplicam aos [eventos](../event/about-events.md) de jornadas:
 
-* O Journey Optimizer oferece suporte a um volume máximo de 5.000 eventos de jornada de entrada por segundo.
+* Para cada organização, a Journey Optimizer oferece suporte a um volume máximo de 5.000 eventos de jornada de entrada por segundo.
 * As jornadas acionadas por eventos podem levar até 5 minutos para processar a primeira ação na jornada.
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 * Os eventos comerciais não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
