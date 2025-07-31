@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 9%
+source-wordcount: '1033'
+ht-degree: 8%
 
 ---
 
@@ -84,7 +84,17 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
    ![](assets/email_campaign_edit_content.png)
 
-   Na seção **[!UICONTROL Cabeçalho]** da tela **[!UICONTROL Editar conteúdo]**, os campos **[!UICONTROL De nome]**, **[!UICONTROL De email]** e **[!UICONTROL Cco]** estão configurados na configuração de email selecionada. [Saiba mais](email-settings.md) <!--check if same for journey-->
+1. Ative a opção **[!UICONTROL Habilitar a decisão]** se desejar adicionar políticas de decisão em seu email.
+
+   As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue para cada membro do público. [Saiba como adicionar uma política de decisão em um email](../experience-decisioning/create-decision.md#add)
+
+   ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
+
+   >[!AVAILABILITY]
+   >
+   >Por enquanto, a criação de políticas de decisão por email não está disponível para organizações que compraram as ofertas complementares do Adobe Healthcare Shield ou do Privacy and Security Shield.
+
+1. Na seção **[!UICONTROL Cabeçalho]**, verifique os campos **[!UICONTROL Do nome]**, **[!UICONTROL Do email]** e **[!UICONTROL Cco]**. Eles são configurados na configuração de email selecionada. [Saiba mais](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -92,9 +102,7 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
    >[!NOTE]
    >
-   >* A linha de assunto é obrigatória.
-   >
-   >* A linha de assunto não deve incluir quebras de linha.
+   >A linha de assunto é obrigatória. Não deve incluir quebras de linha.
 
 1. Clique no botão **[!UICONTROL Editar corpo do email]** para acessar o Designer de email e começar a criar seu conteúdo. [Saiba mais](get-started-email-design.md)
 

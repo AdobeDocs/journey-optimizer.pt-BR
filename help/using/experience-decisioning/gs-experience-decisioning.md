@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 25%
 
 ---
@@ -56,7 +56,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
    O usuário deve receber um email de redirecionamento para sua instância.
 
-   +++
++++
 
 1. **Configurar atributos personalizados**: adapte o catálogo de itens aos seus requisitos específicos, configurando atributos personalizados no esquema do catálogo.
 
@@ -82,7 +82,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
    ➡️ [Saiba como criar estratégias de seleção na interface do usuário](selection-strategies.md) na interface do usuário (e na [documentação da API](api-reference/selection-strategies/create.md))
 
-1. **Crie uma política de decisão e incorpore-a à sua campanha baseada em código**: as políticas de decisão combinam várias estratégias de seleção para determinar os itens de decisão qualificados a serem exibidos para o público-alvo desejado.
+1. **Crie uma política de decisão e incorpore-a à sua jornada/campanha baseada em código ou email**: as políticas de decisão combinam várias estratégias de seleção para determinar os itens de decisão qualificados a serem exibidos para o público-alvo desejado.
 
    ➡️ [Saiba como trabalhar com políticas de decisão](create-decision.md)
 ➡️ Para entregar com êxito a oferta por meio do canal de experiência baseado em código, siga as etapas de implementação em [esta seção](../code-based/code-based-implementation-samples.md).

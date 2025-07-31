@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 95%
+source-wordcount: '2594'
+ht-degree: 94%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
    + [Práticas recomendadas](using/start/best-practices.md)
 + Jornadas {#orchestrate-journeys}
    + [Introdução a jornadas](using/building-journeys/journey.md)
-   + Criar uma jornada{#create-journey}
+   + Criar uma jornada {#create-journey}
       + [Criar a primeira jornada](using/building-journeys/journey-gs.md)
       + [Definir as propriedades da jornada](using/building-journeys/journey-properties.md)
       + [Configurar e rastrear as métricas da jornada](using/building-journeys/success-metrics.md)
@@ -53,7 +53,7 @@ ht-degree: 95%
       + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
       + [Pausar uma jornada](using/building-journeys/journey-pause.md)
       + [Relatório em tempo real na sua jornada](using/building-journeys/report-journey.md)
-   + Gerenciar jornadas{#manage-journey}
+   + Gerenciar jornadas {#manage-journey}
       + [Procurar e filtrar suas jornadas](using/building-journeys/journey-ui.md)
       + [Entrada de perfil em jornadas](using/building-journeys/entry-management.md)
       + [Identificador complementar em jornadas acionadas por eventos](using/building-journeys/supplemental-identifier.md)
@@ -452,7 +452,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Experimento de conteúdo com IA](using/content-management/generative-experimentation.md)
       + [Página de destino com IA](using/content-management/generative-lp.md)
       + [Casos de uso do Assistente de IA](using/content-management/generative-uc.md)
-      + Marcas (beta){#brands}
+      + Marcas {#brands}
          + [Criar e gerenciar marcas](using/content-management/brands.md)
          + [Avaliar a pontuação de alinhamento da marca](using/content-management/brands-score.md)
    + Conteúdo multilíngue{#content-multilingual}
@@ -585,6 +585,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
             + [Modelo de otimização automática](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modelo de otimização personalizado](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Criar modelos de IA](using/experience-decisioning/ranking/create-ai-models.md)
+      + [Trabalhar com inserções](using/experience-decisioning/placements.md)
       + Usar dados da Adobe Experience Platform {#aep-data}
          + [Aproveitar dados de contexto](using/experience-decisioning/context-data.md)
          + [Usar a Adobe Experience Platform para decisão](using/experience-decisioning/aep-data-exd.md)
