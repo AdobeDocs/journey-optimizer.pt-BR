@@ -56,7 +56,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
    O usuário deve receber um email de redirecionamento para sua instância.
 
-+++
+   +++
 
 1. **Configurar atributos personalizados**: adapte o catálogo de itens aos seus requisitos específicos, configurando atributos personalizados no esquema do catálogo.
 
