@@ -6,10 +6,10 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 5e52573689ab06084441390299b01e112e699244
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 56%
+source-wordcount: '841'
+ht-degree: 54%
 
 ---
 
@@ -73,11 +73,7 @@ O ícone **[!UICONTROL Alertas]** / **[!UICONTROL Aviso]** na barra de ferrament
 
 Você também pode identificar rapidamente as atividades com falhas, usando os [indicadores visuais de status](#activities) exibidos diretamente em cada atividade. Para obter uma resolução de problemas detalhada, abra os [logs da campanha](#logs-tasks), que fornecem informações detalhadas sobre o erro e seu contexto.
 
-<!--WAITING FOR PM's TEST TO UNHIDE
-
-If you have added channel activities in the canvas, you can preview and test the content of your messages using the **[!UICONTROL Simulate Content]** button. [Learn how to work with channel activities](activities/channels.md)
-
--->
+Se você tiver adicionado atividades de canal na tela, poderá visualizar e testar o conteúdo de suas mensagens usando o botão **[!UICONTROL Simular Conteúdo]**. [Saiba como trabalhar com atividades de canal](activities/channels.md)
 
 Depois de validada, a campanha pode ser publicada.
 

@@ -7,7 +7,7 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 59%
@@ -53,7 +53,7 @@ Estas atividades são especificamente para direcionamento. Elas permitem criar u
 
 ![Lista de atividades de direcionamento](../assets/targeting-activities.png){width="40%" align="left"}
 
-* [Criar público-alvo](build-audience.md): defina a sua população-alvo. Você pode selecionar um público-alvo já existente ou usar o modelador de consultas para definir a sua própria consulta.
+* [Criar público-alvo](build-audience.md): defina a sua população-alvo. Você pode selecionar um público-alvo existente ou usar o criador de regras para definir sua própria consulta.
 * [Alterar dimensão](change-dimension.md): altere a targeting dimension enquanto você estiver criando sua campanha Orquestrada.
 * [Combinar](combine.md): aplique uma segmentação à sua população de entrada. Você pode usar uma união, uma interseção ou uma exclusão.
 * [Desduplicação](deduplication.md): exclua duplicatas no(s) resultado(s) das atividades de entrada.

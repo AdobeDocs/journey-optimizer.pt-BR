@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, design, formatação
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 27%
+source-wordcount: '1222'
+ht-degree: 26%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 27%
 
 O botão de alternância **[!UICONTROL Formatação avançada]** ativa opções adicionais para personalizar a experiência.
 
-Depois que a mensagem no aplicativo for criada e o conteúdo definido e personalizado, você poderá revisá-la e ativá-la. As notificações serão enviadas de acordo com o agendamento da campanha. Saiba mais sobre [esta página](send-in-app.md).
+Depois que a mensagem no aplicativo for criada e o conteúdo definido e personalizado, você poderá revisá-la e ativá-la. As notificações serão enviadas de acordo com o agendamento da campanha. Saiba mais [nesta página](send-in-app.md).
 
 ## Layout da mensagem {#message-layout}
 
@@ -239,6 +239,22 @@ Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você pode
 * **[!UICONTROL Canto arredondado da mensagem]**: permite que você adicione o canto arredondado à sua notificação no aplicativo alterando o **[!UICONTROL Raio do canto]**.
 
 +++
+
+## Guia Dados {#data-tab}
+
+Na guia **Dados**, é possível definir uma **[!UICONTROL Chave]**&#x200B; e um **[!UICONTROL Valor]** para incluir variáveis personalizadas na carga. Esses pares chave/valor permitem transmitir dados adicionais, dependendo da configuração específica.
+
+Para obter mais informações, consulte a [Documentação para desenvolvedores](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
+
+1. Na guia **[!UICONTROL Dados]**, selecione **[!UICONTROL Adicionar par de chave/valor]**.
+
+   ![](assets/in-app-data-menu.png)
+
+1. Preencha os campos **[!UICONTROL Chave]**&#x200B; e **[!UICONTROL Valor]**.
+
+   ![](assets/in-app-data-menu-1.png)
+
+1. Clique em ![](assets/do-not-localize/Smock_Delete_18_N.svg) para excluir qualquer par necessário.
 
 **Tópicos relacionados:**
 

@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 5e52573689ab06084441390299b01e112e699244
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 57%
+source-wordcount: '1213'
+ht-degree: 58%
 
 ---
 
@@ -161,15 +161,11 @@ Ao acessar o editor de personalização por meio de uma campanha Orquestrada, du
 
 Para obter uma visão geral detalhada de como usar o editor de personalização, consulte [Introdução à personalização](../../personalization/personalize.md)
 
-<!--WAITING FOR PM's TEST TO UNHIDE
+## Verificar e testar o conteúdo
 
-## Check and test your content
+Depois que o conteúdo for criado, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o seu conteúdo com perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba mais](../../content-management/preview-test.md)
 
-Once the content is created, use the **[!UICONTROL Simulate Content]** button to preview and test your content with test profiles or sample input data uploaded from a CSV / JSON file, or added manually. [Learn more](../../content-management/preview-test.md)
-
-![image showing the Simulate Content button](../assets/channel-simulate.png)
-
--->
+![imagem mostrando o botão de simular conteúdo](../assets/channel-simulate.png)
 
 ## Próximas etapas {#next}
 

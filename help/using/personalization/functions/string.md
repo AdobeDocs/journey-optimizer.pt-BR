@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+source-git-commit: 1f16b095b3b063f3fb881aee0b2a928644e19143
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 9%
@@ -680,10 +680,7 @@ A função `SHA256` calcula e retorna o hash sha256 de uma cadeia de caracteres.
 **Sintaxe**
 
 ```sql
-{{
-
-{%= sha256(string) %}
-: string}}
+{%= sha256(string) %} : string
 ```
 
 **Exemplo**
