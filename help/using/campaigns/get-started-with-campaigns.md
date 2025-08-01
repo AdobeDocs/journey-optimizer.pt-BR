@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Programação de campanha"
->abstract="Por padrão, as campanhas começam com uma ativação manual e terminam imediatamente após a mensagem ser enviada uma vez. Você tem a flexibilidade de definir a data e hora específicas para o envio da mensagem. Além disso, é possível especificar uma data final para campanhas de ação recorrentes. Nos acionadores de ação, você também pode configurar a frequência de envio de mensagens de acordo com suas preferências."
+>abstract="Por padrão, as campanhas começam com uma ativação manual e terminam imediatamente após a mensagem ser enviada uma vez. Você tem a flexibilidade de definir a data e hora específicas para o envio da mensagem. Além disso, é possível especificar uma data final para campanhas de ação recorrente. Nos acionadores de ação, você também pode configurar a frequência de envio de mensagens de acordo com suas preferências."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -62,15 +62,15 @@ Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a u
 
 ![](assets/gs-campaigns.png)
 
-Você pode criar diferentes tipos de campanhas no Journey Optimizer:
+É possível criar diferentes tipos de campanhas no Journey Optimizer:
 
 * **Campanhas de ação**
 
-  As campanhas de ação (ou campanhas programadas) permitem comunicações em lote ad hoc simples para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, anúncios, avisos legais ou atualizações de políticas.
+  As campanhas de ação (ou campanhas programadas) permitem criar comunicações ad-hoc simples em lote para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, comunicados, avisos legais ou atualizações de políticas.
 
 * **Campanhas acionadas por API**
 
-  As campanhas acionadas por API permitem que as comunicações de marketing alcancem um público-alvo na hora certa ou mensagens transacionais/operacionais para um indivíduo, como uma redefinição de senha, em que a necessidade pode envolver a personalização não apenas usando o atributo de perfil, mas também os dados de contexto em tempo real no acionador, que é uma carga de API REST.
+  Campanhas acionadas por API permitem que as comunicações de marketing alcancem um público-alvo na hora certa ou que mensagens transacionais/operacionais cheguem a uma pessoa, como uma redefinição de senha, em que a necessidade pode envolver personalização, não apenas usando o atributo de perfil, mas também os dados de contexto em tempo real no acionador, que é um conteúdo da API REST.
 
 <!--* **Orchestrated campaigns**
 
@@ -82,7 +82,7 @@ Você pode criar diferentes tipos de campanhas no Journey Optimizer:
 
 Verifique os seguintes pré-requisitos antes de começar a criar sua primeira campanha no [!DNL Journey Optimizer]:
 
-1. **Você precisa de permissões adequadas**. As campanhas só estão disponíveis para usuários com acesso a um **[!UICONTROL Perfil de produto]** relacionado à campanha, como administrador da campanha, aprovador da campanha, gerente da campanha e/ou visualizador da campanha. Se não conseguir acessar campanhas, suas permissões deverão ser estendidas.
+1. **Você precisa de permissões adequadas**. As campanhas só estão disponíveis para usuários com acesso a um **[!UICONTROL perfil de produto]** relacionado à campanha, como admins de campanha, o(a) aprovador(a) da campanha, gerente da campanha e/ou visualizador(a) da campanha. Se não for possível acessar as campanhas, é preciso obter permissões adicionais. 
 
    +++Saiba como atribuir uma função relacionada à campanha
 
@@ -96,15 +96,15 @@ Verifique os seguintes pré-requisitos antes de começar a criar sua primeira ca
 
    O usuário deve receber um email de redirecionamento para sua instância.
 
-   +++
++++
 
-1. **Você precisa de um público-alvo**. Os públicos-alvo precisam estar disponíveis antes de criar a campanha. [Introdução aos públicos](../audience/about-audiences.md).
+1. **Você precisa de um público-alvo**. Os públicos-alvo precisam estar disponíveis antes de criar a campanha. [Introdução aos públicos-alvo](../audience/about-audiences.md).
 
 1. **Você precisa de uma configuração de canal**. Para selecionar um canal, é necessário ter a configuração de canal correspondente (ou seja, predefinição) criada e disponível. [Saiba como definir as configurações de canal](../configuration/channel-surfaces.md).
 
 ## Vamos nos aprofundar um pouco mais
 
-Agora que você conhece as campanhas do [!DNL Journey Optimizer], é hora de se aprofundar nessas seções de documentação para começar a criar suas primeiras campanhas.
+Agora que você conhece as campanhas do [!DNL Journey Optimizer], é hora de se aprofundar nessas seções da documentação para começar a criar suas primeiras campanhas.
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
 <td><a href="create-campaign.md"><img alt="campanhas de ação" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">Campanhas de ação</a></td>

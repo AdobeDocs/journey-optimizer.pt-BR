@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '2594'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -175,9 +175,9 @@ ht-degree: 94%
       + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
       + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
    + Solução de problemas {#troubleshoot-journey}
-      + [Solucionar problemas das jornadas](using/building-journeys/gs-troubleshooting.md)
+      + [Solucionar problemas de jornadas](using/building-journeys/gs-troubleshooting.md)
       + [Solução de problemas de erros de jornada](using/building-journeys/troubleshooting.md)
-      + [Solução de problemas de execução do jornada](using/building-journeys/troubleshooting-execution.md)
+      + [Solução de problemas de execução da jornada](using/building-journeys/troubleshooting-execution.md)
       + [Solução de problemas de ações de entrada](using/building-journeys/troubleshooting-inbound.md)
       + [Solução de problemas de ações personalizadas](using/action/troubleshoot-custom-action.md)
 + Campanhas {#campaigns}
@@ -186,17 +186,17 @@ ht-degree: 94%
    + Campanhas de ação {#action-campaigns}
       + [Trabalhar com campanhas de ação](using/campaigns/create-campaign.md)
       + [Definir as propriedades da campanha](using/campaigns/campaign-properties.md)
-      + [Configurar a ação de campanha](using/campaigns/campaign-action.md)
+      + [Configurar a ação da campanha](using/campaigns/campaign-action.md)
       + [Editar o conteúdo da campanha](using/campaigns/campaign-content.md)
-      + [Definir o público da campanha](using/campaigns/campaign-audience.md)
+      + [Definir o público-alvo da campanha](using/campaigns/campaign-audience.md)
       + [Agendar a campanha](using/campaigns/campaign-schedule.md)
       + [Revisar e ativar uma campanha de ação](using/campaigns/review-activate-campaign.md)
    + Campanhas acionadas por API {#api-triggered-campaigns}
       + [Trabalhar com campanhas acionadas por API](using/campaigns/api-triggered-campaigns.md)
       + [Definir as propriedades da campanha](using/campaigns/api-triggered-campaign-properties.md)
-      + [Configurar a ação de campanha](using/campaigns/api-triggered-campaign-action.md)
+      + [Configurar a ação da campanha](using/campaigns/api-triggered-campaign-action.md)
       + [Editar o conteúdo da campanha](using/campaigns/api-triggered-campaign-content.md)
-      + [Definir o público da campanha](using/campaigns/api-triggered-campaign-audience.md)
+      + [Definir o público-alvo da campanha](using/campaigns/api-triggered-campaign-audience.md)
       + [Agendar a campanha](using/campaigns/api-triggered-campaign-schedule.md)
       + [Revisar e ativar a campanha](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Acionar a execução da campanha](using/campaigns/trigger-campaigns.md)
@@ -205,7 +205,7 @@ ht-degree: 94%
       + Gerenciar esquemas relacionais e conjuntos de dados {#schemas-datasets}
          + [Introdução a esquemas e conjuntos de dados](using/orchestrated/gs-schemas.md)
          + [Esquema manual](using/orchestrated/manual-schema.md)
-         + [Esquema de upload de arquivo](using/orchestrated/file-upload-schema.md)
+         + [Esquema de upload do arquivo](using/orchestrated/file-upload-schema.md)
          + [Assimilar dados](using/orchestrated/ingest-data.md)
       + [Acessar e gerenciar campanhas orquestradas](using/orchestrated/access-manage-orchestrated-campaigns.md)
       + [Criar um Targeting dimension](using/orchestrated/target-dimension.md)
@@ -278,7 +278,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
             + [Aproveitar fragmentos visuais](using/email/use-visual-fragments.md)
             + [Adicionar links e rastrear mensagens](using/email/message-tracking.md)
             + [Inserir ofertas personalizadas](using/email/add-offers-email.md)
-            + [Gerar versão de texto](using/email/text-version-email.md)
+            + [Gerar a versão de texto](using/email/text-version-email.md)
             + [Adicionar metadados](using/email/email-metadata.md)
             + [Adicionar CSS personalizado](using/email/custom-css.md)
          + Editar estilo {#edit-style}
@@ -388,7 +388,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Usar dados da Adobe Experience Platform para personalização (Beta)](using/personalization/aep-data-perso.md)
       + Lista de funções auxiliares {#functions}
          + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
-         + [Auxiliar de Pesquisa de Dados Externos](using/personalization/external-data-lookup.md)
+         + [Auxiliar de pesquisa de dados externo](using/personalization/external-data-lookup.md)
          + [Funções de agregação](using/personalization/functions/aggregation.md)
          + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
          + [Matrizes e funções de lista](using/personalization/functions/arrays-list.md)
