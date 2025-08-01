@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 25%
+source-wordcount: '521'
+ht-degree: 24%
 
 ---
 
@@ -28,7 +28,7 @@ Esses itens de decisão são perfeitamente integrados em uma grande variedade de
 
 >[!IMPORTANT]
 >
->As políticas de decisão estão disponíveis para uso em campanhas de experiência baseadas em código somente.
+>As políticas de decisão estão disponíveis para uso somente em experiências baseadas em código e campanhas de email.
 
 ➡️ Um caso de uso completo que mostra como criar decisões e usá-las em experimentos de conteúdo com o canal de experiência baseado em código é apresentado em [esta seção](experience-decisioning-uc.md).
 
@@ -56,7 +56,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
    O usuário deve receber um email de redirecionamento para sua instância.
 
-   +++
++++
 
 1. **Configurar atributos personalizados**: adapte o catálogo de itens aos seus requisitos específicos, configurando atributos personalizados no esquema do catálogo.
 
