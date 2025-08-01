@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -70,24 +70,24 @@ O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de ser
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422698?learn=on&captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-  +++
++++
 
 * O vídeo abaixo ajuda a entender melhor quais recursos para dispositivos móveis o Adobe Journey Optimizer oferece aos profissionais de marketing.
 
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430380?quality=12&learn=on&captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-  +++
++++
 
-* O vídeo abaixo ajuda a configurar e enviar mensagens RCS interativas e da marca no Adobe Journey Optimizer usando um provedor de SMS personalizado.
+* O vídeo abaixo ajuda a configurar e enviar mensagens RCS interativas com a identidade da marca no Adobe Journey Optimizer usando um provedor de SMS personalizado. 
 
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464760?captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
-  +++
++++
