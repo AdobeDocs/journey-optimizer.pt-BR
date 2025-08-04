@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2495'
 ht-degree: 11%
 
 ---
@@ -67,7 +67,7 @@ As principais etapas para aproveitar as políticas de decisão em suas mensagens
 * **Tipo de rastreamento e links** - Para rastrear links gerados pela decisão, defina-os no esquema como &quot;Assets de decisão&quot;. Os links baseados em atributos não são rastreáveis.
 * **Aninhamento da política de decisão em emails** - Não é possível aninhar várias políticas de decisão em um componente de email principal que já tenha uma política de decisão associada.
 * **jornadas/campanhas duplicadas com decisão** - Se você duplicar uma jornada ou campanha que inclui uma política de decisão, a versão duplicada fará referência ao email original ou à experiência baseada em código, causando erros. Sempre reconfigure a política de decisão após a duplicação.
-* **Políticas de consentimento** - As atualizações das políticas de consentimento podem levar até 24 horas para entrarem em vigor. Se uma política de decisão fizer referência a um atributo vinculado a uma política de consentimento atualizada recentemente, as alterações não serão aplicadas imediatamente.
+* **Políticas de consentimento** - As atualizações das políticas de consentimento levam até 48 horas para entrarem em vigor. Se uma política de decisão fizer referência a um atributo vinculado a uma política de consentimento atualizada recentemente, as alterações não serão aplicadas imediatamente.
 
   Da mesma forma, se novos atributos de perfil sujeitos a uma política de consentimento forem adicionados a uma política de decisão, eles serão utilizáveis, mas a política de consentimento associada a eles não será aplicada até que o atraso tenha passado.
 
@@ -118,7 +118,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos recipients e visita
 
       ![](assets/decision-code-based-create.png)
 
-   +++
++++
 
    +++Menu de decisão do Designer **[!UICONTROL email]**
 
@@ -128,7 +128,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos recipients e visita
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. Forneça um nome e selecione um catálogo (atualmente limitado ao catálogo padrão **[!UICONTROL Ofertas]**).
 
@@ -236,7 +236,7 @@ Oferta 5 - 50
 
      As ofertas classificadas agora são as seguintes: Oferta 5 , Oferta 3, Oferta 4, Oferta 2, Oferta 1, Oferta 6.
 
-   +++
++++
 
 1. Clique em **[!UICONTROL Avançar]**
 
@@ -291,13 +291,13 @@ Depois de criada, a política de decisão e os atributos vinculados aos itens de
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
    +++Inserir código de política de decisão na experiência baseada em código
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ Agora você pode adicionar todos os atributos de decisão desejados dentro desse
 >[!NOTE]
 >
 >Para o rastreamento de itens da política de decisão, o atributo `trackingToken` precisa ser adicionado da seguinte maneira para o conteúdo da política de decisão:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Clique em cada pasta para expandi-la. Coloque o cursor do mouse no local desejado e clique no ícone + ao lado do atributo que deseja adicionar. Você pode adicionar quantos atributos desejar ao código.
 
