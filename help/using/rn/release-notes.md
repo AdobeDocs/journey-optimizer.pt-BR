@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 638cf11c6967ce1d9e1f9c1d58421c75098e89b5
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 70%
+source-wordcount: '2124'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Data de lançamento**: quarta-feira, 29 de julho de 2025
 
@@ -87,6 +87,22 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <p>Esse recurso está disponível em Disponibilidade limitada. Entre em contato com seu representante da Adobe para obter acesso.</p>
 Para obter mais informações, consulte a <a href="../experience-decisioning/create-decision.md">documentação detalhada</a></p>
 </td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal LINE </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Adobe Journey Optimizer expandiu seus recursos entre canais para incluir suporte para o canal LINE. Esse aprimoramento permite criar, editar e visualizar experiências LINE, garantindo interações mais personalizadas e envolventes. Com o LINE, você pode se conectar com mais clientes, enviar conteúdo relevante e melhorar seu engajamento.</p>
+<p>Anteriormente disponível, apenas para solicitação, o canal LINE agora está disponível para todos os usuários (Disponibilidade geral).</p>
+<p>Para obter mais informações, consulte a <a href="../line/get-started-line.md">documentação detalhada</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -264,7 +280,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 **Data de lançamento**: 18 de junho de 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#25-06-features}
 
