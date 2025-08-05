@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Usar a atividade Público-alvo de leitura
 description: Saiba como usar a atividade Ler público em uma campanha orquestrada
-badge: label="Alfa"
-hide: true
-hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 16%
+source-wordcount: '465'
+ht-degree: 6%
 
 ---
+
 
 # Público-alvo de leitura {#read-audience}
 
@@ -22,28 +20,6 @@ ht-degree: 16%
 >title="Atividade Criar público-alvo"
 >abstract="A atividade **Ler público-alvo** permite selecionar o público-alvo que entrará na campanha Orquestrada. Esse público-alvo pode ser um público-alvo existente da Adobe Experience Platform ou um público-alvo extraído de um arquivo CSV. Ao enviar mensagens no contexto de uma campanha Orquestrada, o público-alvo da mensagem não é definido na atividade do canal, mas em uma atividade de **Leitura de público** ou de **Criação de público-alvo**."
 
-
-+++ Índice 
-
-| Bem-vindo às campanhas orquestradas | Iniciar sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
-|---|---|---|---|
-| [Introdução às campanhas orquestradas](../gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar esquemas e conjuntos de dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carregamento de arquivo](../file-upload-schema.md)</li><li>[Assimilar dados](../ingest-data.md)</li></ul>[Acessar e gerenciar campanhas orquestradas](../access-manage-orchestrated-campaigns.md) | [Etapas principais para criar uma campanha Orquestrada](../gs-campaign-creation.md)<br/><br/>[Criar e agendar a campanha](../create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](../orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](../start-monitor-campaigns.md)<br/><br/>[Relatórios](../reporting-campaigns.md) | [Trabalhar com o construtor de regras](../orchestrated-rule-builder.md)<br/><br/>[Criar a sua primeira consulta](../build-query.md)<br/><br/>[Editar expressões](../edit-expressions.md)<br/><br/>[Redirecionamento](../retarget.md) | [Introdução às atividades](about-activities.md)<br/><br/>Atividades:<br/>[Associação](and-join.md) - [Criar público-alvo](build-audience.md) - [Mudar dimensão](change-dimension.md) - [Atividades de canal](channels.md) - [Combinar](combine.md) - [Desduplicação](deduplication.md) - [Enriquecimento](enrichment.md) - [Bifurcação](fork.md) - [Reconciliação](reconciliation.md) - [Salvar público-alvo](save-audience.md) - [Divisão](split.md) - [Aguardar](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-O conteúdo desta página não é final e pode estar sujeito a alterações.
-
->[!ENDSHADEBOX]
-
 A atividade **[!UICONTROL Ler público-alvo]** permite recuperar um público-alvo existente, salvo ou importado anteriormente, e reutilizá-lo em uma campanha Orquestrada. Essa atividade é especialmente útil para direcionar um conjunto predefinido de perfis sem a necessidade de executar um novo processo de segmentação.
 
 Depois que o público-alvo é carregado, você pode refiná-lo selecionando um campo de identidade exclusivo e enriquecendo o público-alvo com atributos de perfil adicionais para fins de direcionamento, personalização ou relatórios.
@@ -52,27 +28,43 @@ Depois que o público-alvo é carregado, você pode refiná-lo selecionando um c
 
 Siga estas etapas para configurar a atividade **[!UICONTROL Ler público-alvo]**:
 
+1. Antes de adicionar a atividade **[!UICONTROL Ler público-alvo]**, selecione uma **[!UICONTROL política de mesclagem]** nas configurações do Campaign.
+
+   ![](../assets/read-audience-6.png)
+
 1. Adicione uma atividade **[!UICONTROL Read audience]** à sua campanha Orquestrada.
 
    ![](../assets/read-audience-1.png)
 
-1. Insira um **[!UICONTROL Rótulo]** para sua atividade.
+1. Insira um **[!UICONTROL Rótulo]** para sua atividade. Esse rótulo servirá como o nome do público-alvo.
 
 1. Clique em ![ícone de pesquisa de pasta](../assets/do-not-localize/folder-search.svg) para selecionar o público-alvo que deseja direcionar para sua campanha orquestrada.
 
    ![](../assets/read-audience-2.png)
 
-1. Escolha uma **[!UICONTROL Entidade&#x200B;]** na Targeting dimension do Campaign.
+1. Escolha uma **[!UICONTROL Entidade&#x200B;]** na Targeting dimension do Campaign. Essa configuração define a entidade de público-alvo e o atributo usado para reconciliar o público-alvo com o target dimension.
 
    ➡️ [Siga as etapas detalhadas nesta página para criar sua dimensão de Direcionamento de Campanha](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 
-1. Selecione **[!UICONTROL Adicionar atributo]** para enriquecer o público-alvo selecionado com dados adicionais. O público-alvo resultante conterá uma lista de recipients, cada um enriquecido com os atributos de perfil selecionados.
+1. Selecione [!UICONTROL Adicionar atributo] para enriquecer o público-alvo selecionado com dados adicionais. Esta etapa permite adicionar atributos de perfil ao público-alvo, resultando em uma lista de recipients aprimorada com esses atributos.
 
-1. Escolha os **[!UICONTROL Atributos]** que você deseja adicionar ao seu público-alvo.
+1. Escolha os **[!UICONTROL Atributos]** que você deseja adicionar ao seu público-alvo. O seletor de atributos exibe campos do **Esquema de Perfil de União**:
+
+   * Para públicos baseados em CSV, isso inclui atributos de **Perfil** e atributos de nível de público personalizados. Esses atributos podem ser encontrados no seguinte caminho de esquema:
+
+     `<audienceid> > _ajobatchjourneystage > audienceEnrichment > CustomerAudienceUpload > <audienceid>`
+
+   * Para públicos-alvo padrão do AEP, somente os atributos **Perfil** estão disponíveis, pois não apresentam campos específicos de público-alvo inseridos.
+
+   >[!NOTE]
+   >
+   > Embora alguns atributos possam aparecer no seletor, sua disponibilidade no tempo de execução depende de os dados do público-alvo terem sido reconciliados e mesclados com êxito com o **Perfil do Adobe Experience Platform**.
 
    ![](../assets/read-audience-4.png)
+
+Depois que um público-alvo é criado, ele é disponibilizado em modo somente leitura e não pode mais ser editado. Ele só poderá ser usado depois que o processo de criação for totalmente concluído.
 
 ## Exemplo
 

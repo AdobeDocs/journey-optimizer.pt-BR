@@ -8,17 +8,17 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 4%
 
 ---
 
-
 # Revisar e ativar a campanha acionada pela API {#api-review}
 
-Depois que a campanha de ação é configurada, é necessário revisar o parâmetro e o conteúdo antes de ativá-la. Para fazer isso, siga estes passos:
+Depois que a campanha Action for configurada, é necessário revisar o parâmetro e o conteúdo antes de ativá-la. Para fazer isso, siga estes passos:
 
 >[!IMPORTANT]
 >

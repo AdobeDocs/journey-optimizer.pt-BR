@@ -6,13 +6,14 @@ description: Saiba como acessar e gerenciar suas campanhas no Journey Optimizer.
 feature: Campaigns
 topic: Content Management
 role: User
+mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 6%
+source-wordcount: '1475'
+ht-degree: 16%
 
 ---
 
@@ -25,13 +26,23 @@ ht-degree: 6%
 >title="Visualizações de campanhas em lista e calendário"
 >abstract="Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma visualização do calendário das suas campanhas, oferecendo uma representação visual clara dos cronogramas. Você pode alternar entre as visualizações em lista e calendário a qualquer momento, usando estes botões."
 
+>[!CONTEXTUALHELP]
+>id="ajo_targeting_workflow_list"
+>title="Inventário de campanhas orquestradas"
+>abstract="Nesta tela, você pode acessar a lista completa de campanhas orquestradas, verificar seu status atual, datas de última/próxima execução e criar uma nova campanha orquestrada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_campaign_action"
+>title="Ação"
+>abstract="Esta seção lista todas as ações usadas na campanha Orquestrada."
+
 As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**.
 
 >[!BEGINTABS]
 
 >[!TAB Campanhas de ação]
 
-Selecione a guia **[!UICONTROL Ação]** para acessar a lista de campanhas de ação.
+Selecione a guia **[!UICONTROL Ação]** para acessar a lista de campanhas de Ação.
 
 Por padrão, a lista mostra todas as campanhas com os status **[!UICONTROL Rascunho]**, **[!UICONTROL Agendado]** e **[!UICONTROL Ativo]**. Para exibir campanhas interrompidas, concluídas e arquivadas, é necessário limpar o filtro.
 
@@ -45,9 +56,85 @@ Por padrão, a lista mostra todas as campanhas com os status **[!UICONTROL Rascu
 
 ![](assets/api-triggered-list.png)
 
+>[!TAB Campanhas orquestradas]
+
+Selecione a guia **[!UICONTROL Orquestração]** para acessar a lista de campanhas Orquestradas.
+
+![imagem mostrando o inventário de campanhas orquestradas](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
+
+Cada campanha orquestrada na lista exibe informações como o [status](#status) atual da campanha, o canal e as tags associados ou a última vez que ela foi modificada. Você pode personalizar as colunas exibidas, clicando no botão ![Configurar layout](assets/do-not-localize/inventory-configure-layout.svg).
+
 >[!ENDTABS]
 
-Você também pode filtrar a lista com base no tipo de campanha e no canal, ou nas tags atribuídas às campanhas ao criá-las.
+Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. Por exemplo, você pode filtrar campanhas para exibir somente aquelas associadas a um determinado canal ou tag, ou aquelas criadas durante um intervalo de datas específico.
+
+A ![imagem que mostra o botão “Mais ações”](assets/do-not-localize/rule-builder-icon-more.svg) no inventário de campanhas permite executar as diversas operações detalhadas abaixo.
+
+![imagem mostrando o inventário de campanhas](assets/inventory-actions.png)
+
+* **[!UICONTROL Exibir o relatório de todos os tempos]** / **[!UICONTROL Exibir o relatório das últimas 24 horas]** - Acesse relatórios para medir e visualizar o impacto e o desempenho de suas campanhas.
+* **[!UICONTROL Editar tags]**: edite as tags associadas à campanha.
+* **[!UICONTROL Duplicar]** - Em alguns casos, pode ser necessário duplicar uma campanha, por exemplo, para executar uma campanha Orquestrada que tenha sido interrompida.
+* **[!UICONTROL Excluir]**: exclua a campanha. Esta ação está disponível somente para campanhas do **[!UICONTROL Rascunho]**.
+* **[!UICONTROL Arquivar]**: arquive a campanha. Todas as campanhas arquivadas são excluídas em um prazo contínuo 30 dias após a data da última modificação. Essa ação está disponível para todas as campanhas, exceto **[!UICONTROL Rascunhos]** de campanha.
+
+Para campanhas acionadas por Ação e API, as ações adicionais abaixo estão disponíveis:
+
+* **[!UICONTROL Adicionar ao pacote]** - Adicione a campanha a um pacote para exportá-la para outra sandbox. [Exportar objetos para outra sandbox](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Abrir versão de rascunho]** - Se uma nova versão da campanha tiver sido criada e ainda não tiver sido ativada, você poderá acessar sua versão de rascunho usando esta ação.
+
+## Status e alertas da campanha {#statuses}
+
+As campanhas podem ter vários status:
+
+>[!BEGINTABS]
+
+>[!TAB Campanhas de ação]
+
+* **[!UICONTROL Rascunho]**: a campanha está sendo editada e não foi ativada.
+* **[!UICONTROL Agendado]**: a campanha está configurada para ser ativada em uma data de início específica.
+* **[!UICONTROL Ao vivo]**: A campanha foi ativada.
+* **[!UICONTROL Em revisão]**: a campanha foi enviada para aprovação para ser publicada. [Saiba como trabalhar com aprovações](../test-approve/gs-approval.md)
+* **[!UICONTROL Parada]**: a campanha foi interrompida manualmente. Não é possível ativá-lo ou reutilizá-lo. [Saiba como interromper uma campanha](modify-stop-campaign.md#stop)
+* **[!UICONTROL Concluído]**: a campanha foi concluída. Esse status é atribuído automaticamente 3 dias após a ativação de uma campanha ou na data final da campanha, se houver uma execução recorrente.
+* **[!UICONTROL Falha]**: a execução da campanha falhou. Verifique os logs para identificar o problema.
+* **[!UICONTROL Arquivado]**: a campanha foi arquivada. [Saiba como arquivar campanhas](modify-stop-campaign.md#archive)
+
+>[!NOTE]
+>
+>O ícone &quot;Abrir versão de rascunho&quot; ao lado do status **[!UICONTROL Ativo]** ou **[!UICONTROL Agendado]** indica que uma nova versão de uma campanha acionada por Ação ou API foi criada e ainda não foi ativada.
+
+>[!TAB Campanhas acionadas por API]
+
+* **[!UICONTROL Rascunho]**: a campanha está sendo editada e não foi ativada.
+* **[!UICONTROL Agendado]**: a campanha está configurada para ser ativada em uma data de início específica.
+* **[!UICONTROL Ao vivo]**: A campanha foi ativada.
+* **[!UICONTROL Em revisão]**: a campanha foi enviada para aprovação para ser publicada. [Saiba como trabalhar com aprovações](../test-approve/gs-approval.md)
+* **[!UICONTROL Parada]**: a campanha foi interrompida manualmente. Não é possível ativá-lo ou reutilizá-lo. [Saiba como interromper uma campanha](modify-stop-campaign.md#stop)
+* **[!UICONTROL Concluído]**: a campanha foi concluída. Esse status é atribuído automaticamente 3 dias após a ativação de uma campanha ou na data final da campanha, se houver uma execução recorrente.
+* **[!UICONTROL Falha]**: a execução da campanha falhou. Verifique os logs para identificar o problema.
+* **[!UICONTROL Arquivado]**: a campanha foi arquivada. [Saiba como arquivar campanhas](modify-stop-campaign.md#archive)
+
+>[!NOTE]
+>
+>O ícone &quot;Abrir versão de rascunho&quot; ao lado do status **[!UICONTROL Ativo]** ou **[!UICONTROL Agendado]** indica que uma nova versão de uma campanha acionada por Ação ou API foi criada e ainda não foi ativada.
+
+>[!TAB Campanhas orquestradas]
+
+* **[!UICONTROL Rascunho]**: A campanha Orquestrada foi criada. Ela ainda não foi publicada.
+* **[!UICONTROL Publicação]**: a campanha Orquestrada está sendo publicada.
+* **[!UICONTROL Live]**: a campanha orquestrada foi publicada e está sendo executada.
+* **[!UICONTROL Agendado]**: a execução da campanha Orquestrada foi agendada.
+* **[!UICONTROL Concluído]**: a execução da campanha Orquestrada foi concluída. O status “Concluída” é atribuído automaticamente até três dias após uma campanha concluir o envio de mensagens sem erros.
+* **[!UICONTROL Encerrada]**: este status é exibido quando uma campanha recorrente é encerrada. A campanha continua sendo executada até que todas as atividades tenham sido concluídas, mas nenhum outro perfil poderá entrar na campanha.
+* **[!UICONTROL Arquivado]**: a campanha Orquestrada foi arquivada. Todas as campanhas arquivadas são excluídas dentro de um prazo contínuo 30 dias após a data da última modificação. Você pode duplicar uma campanha arquivada, se necessário, para continuar trabalhando nela.
+* **[!UICONTROL Parado]**: a execução da campanha Orquestrada foi interrompida. Para iniciar a campanha novamente, você precisa duplicá-la.
+
+>[!ENDTABS]
+
+Quando ocorre um erro em uma de suas campanhas, um ícone de aviso é exibido junto com o status da campanha. Clique nele para exibir informações relacionadas ao alerta. Esses alertas podem ocorrer em várias situações, como quando a mensagem da campanha não foi publicada ou se a configuração escolhida estiver incorreta.
+
+![](assets/campaign-alerts.png)
 
 ## Calendário de campanhas {#calendar}
 
@@ -55,7 +142,7 @@ Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma exibição d
 
 >[!AVAILABILITY]
 >
->No momento, a exibição de calendário está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para solicitar acesso, use [este formulário](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>No momento, a exibição de Calendário está disponível apenas para campanhas acionadas por Ação e API para um conjunto de organizações (Disponibilidade limitada). Para solicitar acesso, use [este formulário](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
 >
 >Esse recurso está em desenvolvimento ativo. Suas solicitações e informações são bem-vindas usando o botão **[!UICONTROL Comentários sobre a Beta]** no menu superior.
 
@@ -77,34 +164,13 @@ Para exibir detalhes de uma campanha específica, selecione-a na lista. Um paine
 
 ![lista de campanhas com o painel de informações aberto](assets/campaign-rail.png)
 
-## Status e alertas da campanha {#statuses}
-
-As campanhas podem ter vários status:
-
-* **[!UICONTROL Rascunho]**: a campanha está sendo editada e não foi ativada.
-* **[!UICONTROL Agendado]**: a campanha está configurada para ser ativada em uma data de início específica.
-* **[!UICONTROL Ao vivo]**: A campanha foi ativada.
-* **[!UICONTROL Em revisão]**: a campanha foi enviada para aprovação para ser publicada. [Saiba como trabalhar com aprovações](../test-approve/gs-approval.md)
-* **[!UICONTROL Parada]**: a campanha foi interrompida manualmente. Não é possível ativá-lo ou reutilizá-lo. [Saiba como interromper uma campanha](modify-stop-campaign.md#stop)
-* **[!UICONTROL Concluído]**: a campanha foi concluída. Esse status é atribuído automaticamente 3 dias após a ativação de uma campanha ou na data final da campanha, se houver uma execução recorrente.
-* **[!UICONTROL Falha]**: a execução da campanha falhou. Verifique os logs para identificar o problema.
-* **[!UICONTROL Arquivado]**: a campanha foi arquivada. [Saiba como arquivar campanhas](modify-stop-campaign.md#archive)
-
->[!NOTE]
->
->O ícone &quot;Abrir versão de rascunho&quot; ao lado do status **[!UICONTROL Ativo]** ou **[!UICONTROL Agendado]** indica que uma nova versão da campanha foi criada e ainda não foi ativada. [Saiba mais](modify-stop-campaign.md#modify).
-
-Quando ocorre um erro em uma de suas campanhas, um ícone de aviso é exibido junto com o status da campanha. Clique nele para exibir informações relacionadas ao alerta. Esses alertas podem ocorrer em várias situações, como quando a mensagem da campanha não foi publicada ou se a configuração escolhida estiver incorreta.
-
-![](assets/campaign-alerts.png)
-
-## Modificar e parar campanhas de ações recorrentes {#modify}
+## Modificar e parar campanhas de Ação recorrentes {#modify}
 
 ### Modificar uma campanha de ação
 
-Para modificar e criar uma nova versão de uma campanha de ação recorrente, siga estas etapas:
+Para modificar e criar uma nova versão de uma campanha de Ação recorrente, siga estas etapas:
 
-1. Abra a campanha de ação e clique no botão **[!UICONTROL Modificar campanha]**.
+1. Abra a campanha Ação e clique no botão **[!UICONTROL Modificar campanha]**.
 
 1. Uma nova versão da campanha é criada. Você pode verificar a versão disponível clicando em **[!UICONTROL Abrir versão disponível]**.
 
@@ -129,12 +195,6 @@ Para interromper uma campanha recorrente, abra-a e clique no botão **[!UICONTRO
 >[!IMPORTANT]
 >
 >Interromper uma campanha não interromperá um envio em andamento, mas interromperá um envio agendado ou as próximas ocorrências se o envio já estiver em andamento.
-
-## Duplicar uma campanha {#duplicate}
-
-Você pode duplicar uma campanha para criar uma nova. Para fazer isso, abra a campanha e clique em **[!UICONTROL Duplicar]**.
-
-![](assets/create-campaign-duplicate.png)
 
 ## Arquivar uma campanha {#archive}
 

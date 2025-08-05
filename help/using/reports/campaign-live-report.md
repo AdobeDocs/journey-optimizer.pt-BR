@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '3492'
-ht-degree: 27%
+source-wordcount: '3521'
+ht-degree: 26%
 
 ---
 
@@ -35,6 +35,9 @@ A página **[!UICONTROL Relatório ao vivo]** da campanha será exibida com as s
 * [SMS](#sms-live)
 * [Web](#web-tab)
 * [Correspondência direta](#direct-mail-tab)
+
+>[!AVAILABILITY]
+>As campanhas orquestradas são compatíveis apenas com os canais SMS, Email e Push. Outros canais (no aplicativo, Web, correspondência direta etc.) não estão disponíveis em campanhas orquestradas e não aparecem nos relatórios.
 
 O **[!UICONTROL Relatório ao vivo]** da campanha é dividido em widgets diferentes detalhando o sucesso e os erros da sua campanha. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](../reports/live-report.md#modify-dashboard).
 
@@ -196,7 +199,7 @@ O widget **[!UICONTROL Email - Desempenho por data]** oferece uma visão geral d
 
 ![](assets/campaign_email_live_error.png)
 
-Os gráficos e tabelas **[!UICONTROL Motivos do Erro]** fornecem informações sobre os erros específicos ocorridos durante o processo de envio nas últimas 24 horas. Essas informações são valiosas para entender a natureza e a frequência dos erros.
+Os gráficos e tabelas **[!UICONTROL Motivos do Erro]** fornecem à insight os erros específicos que ocorreram durante o processo de envio nas últimas 24 horas. Essas informações são valiosas para entender a natureza e a frequência dos erros.
 
 ### Motivos para exclusão {#email-exclude-reasons}
 

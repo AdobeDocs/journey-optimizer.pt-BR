@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Revisar e ativar uma campanha de ação
-description: Saiba como revisar e ativar campanhas de ação no [!DNL Journey Optimizer].
+title: Revisar e ativar uma campanha de Ação
+description: Saiba como revisar e ativar campanhas de Ação no [!DNL Journey Optimizer].
 feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
 keywords: campaign, review, validation, ativating, ativating, otimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 3%
@@ -17,9 +17,9 @@ ht-degree: 3%
 ---
 
 
-# Revisar e ativar a campanha de ação {#action-campaign-review}
+# Revisar e ativar a campanha de Ação {#action-campaign-review}
 
-Depois que a campanha de ação é configurada, é necessário revisar o parâmetro e o conteúdo antes de ativá-la. Para fazer isso, siga estes passos:
+Depois que a campanha Action for configurada, é necessário revisar o parâmetro e o conteúdo antes de ativá-la. Para fazer isso, siga estes passos:
 
 >[!IMPORTANT]
 >

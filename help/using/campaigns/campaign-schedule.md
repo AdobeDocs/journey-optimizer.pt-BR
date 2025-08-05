@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Agendar a campanha de ação
-description: Saiba como agendar a campanha de ação.
+title: Programar a campanha de ação
+description: Saiba como agendar a campanha Ação.
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: b183eeb8-606f-444d-9302-274f159c3847
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 1%
+ht-degree: 16%
 
 ---
 
-
-# Agendar a campanha de ação {#action-campaign-schedule}
+# Programar a campanha de ação {#action-campaign-schedule}
 
 Use a guia **[!UICONTROL Agendamento]** para definir o agendamento da campanha.
 
@@ -29,7 +29,7 @@ A opção **[!UICONTROL Campaign end]** permite especificar quando uma campanha 
 
 >[!NOTE]
 >
->Ao agendar campanhas em [!DNL Adobe Journey Optimizer], verifique se a data/hora de início está alinhada com a primeira entrega desejada. Para campanhas recorrentes, se o horário agendado inicial já tiver passado, as campanhas serão transferidas para o próximo período disponível, de acordo com suas regras de recorrência.
+>Ao agendar campanhas no [!DNL Adobe Journey Optimizer], verifique se a data/hora inicial está de acordo com a primeira entrega desejada. Para campanhas recorrentes, se o horário programado inicial já tiver passado, as campanhas serão transferidas para o próximo período disponível, de acordo com as suas regras de recorrência.
 
 Outras opções de agendamento estão disponíveis com base no canal de campanha:
 

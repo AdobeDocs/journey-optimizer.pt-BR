@@ -3,97 +3,83 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Medidas de proteção e limitações para campanhas orquestradas
 description: Saiba mais sobre as medidas de proteção e limitações das campanhas orquestradas
-hide: true
-hidefromtoc: true
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 10%
+source-wordcount: '432'
+ht-degree: 2%
 
 ---
 
+
 # Medidas de proteção e limitações {#guardrails}
 
-+++ Índice 
+Abaixo você encontrará medidas de proteção e limitações adicionais para usar campanhas orquestradas.
 
-| Bem-vindo às campanhas orquestradas | Iniciar sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
-|---|---|---|---|
-| [Introdução às campanhas orquestradas](gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar esquemas e conjuntos de dados relacionais:</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carregamento de arquivo](file-upload-schema.md)</li><li>[Assimilar dados](ingest-data.md)</li></ul>[Acesse e gerencie campanhas orquestradas](access-manage-orchestrated-campaigns.md)<br/><br/>[Etapas principais para criar uma campanha orquestrada](gs-campaign-creation.md) | [Criar e programar a campanha](create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](start-monitor-campaigns.md)<br/><br/>[Geração de relatórios](reporting-campaigns.md) | [Trabalhar com o construtor de regras](orchestrated-rule-builder.md)<br/><br/>[Criar a sua primeira consulta](build-query.md)<br/><br/>[Editar expressões](edit-expressions.md)<br/><br/>[Redirecionamento](retarget.md) | [Introdução às atividades](activities/about-activities.md)<br/><br/>Atividades:<br/>[Associação](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Mudar dimensão](activities/change-dimension.md) - [Atividades de canal](activities/channels.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Divisão](activities/split.md) - [Aguardar](activities/wait.md) |
+## Limitações do fluxo de dados
 
-{style="table-layout:fixed"}
+### Design e armazenamento de dados
 
-+++
+* O armazenamento de dados relacional oferece suporte a **no máximo 200 tabelas** (esquemas).
 
-## Limitações do fluxo de dados para o conjunto de dados
+* Para campanhas orquestradas, o tamanho total de qualquer esquema individual **não deve exceder 100 GB**.
 
-Cada conjunto de dados na Adobe Experience Platform só pode ser associado a um fluxo de dados ativo por vez. Essa cardinalidade 1:1 é estritamente imposta pela plataforma.
+* As atualizações diárias de um esquema devem ser **limitadas a menos de 20%** de sua contagem total de registros para manter o desempenho e a estabilidade.
 
-Se você precisar alternar fontes de dados (por exemplo, do Amazon S3 para o Salesforce):
+* Os dados relacionais são o modelo principal compatível com casos de uso de assimilação, modelagem de dados e segmentação.
 
-Você deve excluir o fluxo de dados existente conectado ao conjunto de dados.
+* Os esquemas usados para direcionamento devem conter pelo menos **um campo de identidade do tipo`String`**, mapeado para um namespace de identidade definido.
 
-Em seguida, crie um novo fluxo de dados com a nova origem mapeada para o mesmo conjunto de dados.
-
-Isso garante a assimilação confiável de dados e é essencial ao usar o Change Data Capture (CDC), que depende de uma chave primária definida e de um atributo de controle de versão (por exemplo, modificado pela última vez) para atualizações incrementais.
-
-
-## Esquemas relacionais / limitações de assimilação de dados
-
-* Até 200 esquemas relacionais (tabelas) são suportados no armazenamento de dados relacional.
-
-* O tamanho total de um esquema relacional usado para a Orquestração de campanha não deve exceder 100 GB.
-
-* A assimilação em lote para a Orquestração de campanha não deve ocorrer com mais frequência do que uma vez a cada 15 minutos.
-
-* As alterações diárias em um esquema relacional devem permanecer abaixo de 20% da contagem total de registros.
-
-## Modelagem de dados
-
-* O descritor de versão é obrigatório em todos os esquemas, incluindo tabelas de fatos.
-
-* Uma chave primária é necessária para cada tabela.
-
-* O table_name atribuído durante a criação do conjunto de dados é usado na interface do usuário de segmentação e nos recursos de personalização.
-
-  Esse nome é permanente e não pode ser alterado após a criação.
-
-* Os grupos de campos não são aceitos no momento.
-
-## Ingestão de dados
+### Ingestão de dados
 
 * É necessária a assimilação de perfil + dados relacionais.
 
-* Um campo de tipo de alteração é necessário para assimilação baseada em arquivo, enquanto o log de tabela deve ser ativado para assimilação no Cloud DB. Isso é necessário para a Captura de dados de alteração (CDC).
+* Toda assimilação deve ocorrer via **fontes do Change Data Capture**:
 
-* A latência da assimilação à disponibilidade dos dados no Snowflake varia de 15 minutos a 2 horas, dependendo do volume de dados, da simultaneidade e do tipo de operações (as inserções são mais rápidas que as atualizações).
+   * Para **baseado em arquivo**: o campo `change_type` é obrigatório.
 
-* O monitoramento de dados no Snowflake está em desenvolvimento; atualmente, não há confirmação nativa para a assimilação bem-sucedida.
+   * Para **baseado em nuvem**: o log de tabela deve estar habilitado.
 
-* Não há suporte para atualizações diretas no Snowflake ou no conjunto de dados. Todas as alterações devem fluir pelas fontes CDC.
+* **Não há suporte para atualizações diretas no Snowflake ou em conjuntos de dados**. O sistema é somente leitura. Todas as alterações devem ser aplicadas por meio do Change Data Capture.
 
-  O serviço de consulta é somente leitura.
+* **Não há suporte para processos ETL**. Os dados devem ser totalmente transformados no formato necessário antes da assimilação.
 
-* ETL não é compatível — os clientes devem fornecer dados no formato necessário.
+* **Não são permitidas atualizações parciais**. Cada linha deve ser fornecida como um registro completo.
 
-* Atualizações parciais não são permitidas. Cada linha deve ser fornecida como um registro completo.
+* A assimilação em lote para a Orquestração de campanha é limitada a **uma vez a cada 15 minutos**.
 
-* A assimilação depende do Serviço de consulta e do Data Distiller.
+* A latência de assimilação, tempo desde a assimilação até a disponibilidade no Snowflake, normalmente varia de **15 minutos a 2 horas**, dependendo do(a):
 
-## Segmentação
+   * Volume de dados
 
-* A LOV (Lista de Valores) e as listas discriminadas estão disponíveis no momento.
+   * Simultaneidade do sistema
 
-* Públicos salvos são listas estáticas, seu conteúdo reflete os dados disponíveis no momento em que a campanha é executada.
+   * Tipo de operação, por exemplo, inserções são mais rápidas que atualizações
 
-* Anexar a um público-alvo salvo não é suportado. As atualizações exigem uma substituição completa.
+### Modelagem de dados
 
-* Os públicos devem consistir somente em atributos escalares; não há suporte para mapas e matrizes.
+* Todos os esquemas, incluindo tabelas de fatos, devem incluir **um descritor de versão** para garantir o controle de versão e a rastreabilidade adequados.
 
-* A segmentação suporta principalmente dados relacionais. Embora a combinação com dados de perfil seja permitida, trazer grandes conjuntos de dados de perfil pode afetar o desempenho. Para evitar isso:
+* Cada tabela deve ter uma **chave primária** definida para oferecer suporte à integridade de dados e às operações downstream.
 
-* As medidas de proteção estão em vigor, como limitar o número de atributos de perfil selecionados em lote ou públicos de transmissão.
+* O `table_name` atribuído durante a criação do conjunto de dados é permanente e usado em todos os recursos de segmentação e personalização.
 
-* Os públicos-alvo de leitura não são armazenados em cache — cada execução de campanha aciona uma leitura completa.
+* **Não há suporte para** grupos de campos na estrutura de modelagem de dados atual.
 
-  A otimização é necessária para públicos-alvo grandes ou complexos.
+## Limitações de atividades
+
+* Somente **atributos escalares têm suporte** nas definições de público-alvo; **não são permitidos mapas e matrizes**.
+
+* **As atividades de segmentação dependem principalmente de dados relacionais**. Embora os dados do perfil possam ser incluídos, o uso de grandes conjuntos de dados de perfil pode afetar o desempenho.
+
+* **Os limites são aplicados ao número de atributos de perfil** que podem ser usados em lotes e públicos de streaming para manter a eficiência do sistema.
+
+* **Lista de Valores (LOVs)** e **enumerações** são totalmente compatíveis.
+
+* **Os públicos-alvo de leitura não são armazenados em cache**, cada execução de campanha aciona uma avaliação completa do público-alvo a partir dos dados subjacentes.
+
+* **A otimização é altamente recomendada** ao trabalhar com definições de público-alvo grandes ou complexas para garantir o desempenho.
+
+* **As atividades dos públicos salvos são estáticas**, refletem os dados disponíveis no momento da execução da campanha.
+
+* **Não há suporte para anexar a uma atividade de Público-alvo salvo**. Quaisquer modificações exigem uma substituição completa do público-alvo.

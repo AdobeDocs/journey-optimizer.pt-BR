@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 638cf11c6967ce1d9e1f9c1d58421c75098e89b5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2124'
-ht-degree: 71%
+source-wordcount: '1361'
+ht-degree: 31%
 
 ---
 
@@ -20,15 +20,88 @@ ht-degree: 71%
 >title="Novidades?"
 >abstract="O **Adobe Journey Optimizer** está sempre fornecendo novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão."
 
-O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão. O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest){target="_blank"}.
+O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão. O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+
+## Orquestração de campanha  
+
+**Data de disponibilidade**: 4 de agosto de 2025
+
+O Journey Optimizer agora inclui a **Orquestração de campanha**, um novo recurso criado especificamente para campanhas em lote iniciadas pela marca. Esta versão apresenta uma tela de orquestração de campanha e uma modelagem de dados aprimorada, trabalhando em conjunto para permitir que os profissionais de marketing planejem, direcionem e entreguem campanhas personalizadas entre canais.
+
+![Orquestração de campanha do GIF](assets/do-not-localize/release.gif)
+
+Inclui [Esquemas e conjuntos de dados relacionais](#oc-relational) e [Tela de campanha](#oc-canvas). Juntas, essas duas inovações desbloqueiam um novo padrão para orquestrar campanhas em lote no Journey Optimizer. Os principais recursos estão listados abaixo.
+
+### Principais recursos {#oc-capabilities}
+
+* **Fluxos de trabalho de várias etapas**
+
+  Impulsione sofisticadas campanhas em lote com vários canais com a nova tela de orquestração de campanhas criada com propósitos específicos.
+
+* **Públicos-alvo sob demanda**
+
+  Segmente públicos-alvo sob demanda para ativação imediata.
+
+* **Segmentação de várias entidades**
+
+  Crie públicos-alvo usando o contexto comercial (dimensões que não sejam de pessoas), como produtos, lojas, renovações, reservas e muito mais.
+
+* **Visibilidade de pré-envio**
+
+  Revise, refine e otimize públicos-alvo e campanhas antes do lançamento e enquanto as campanhas estão em execução
+
+### Tela do Campaign {#oc-canvas}
+
+Uma interface de orquestração visual totalmente nova, criada especificamente para campanhas em lote. Essa tela permite:
+
+* Planejamento visual de fluxos de campanha em várias etapas e vários canais
+
+* Suporte para públicos-alvo sob demanda criados a partir de consultas relacionais
+
+* Divisão de público avançada, esperas e lógica condicional
+
+* Contagens precisas de pré-envio após a aplicação de regras de negócios e filtros
+
+### Esquemas e conjuntos de dados relacionais {#oc-relational}
+
+O Adobe Experience Platform agora é compatível com entidades relacionais (por exemplo, produtos, lojas, reservas, contratos) vinculadas a perfis com base em pessoas. Isso permite a segmentação e a personalização em estruturas de dados multidimensionais, permitindo casos de uso como:
+
+* Uma mensagem por reserva, assinatura ou contrato
+
+* Segmentação com base em atributos de entidade relacionados (por exemplo, categoria de produto ou local de loja)
+
+* Endereçamento aprimorado (por exemplo, enviar para todos os contatos conhecidos vinculados a uma entidade)
+
+### Por que é importante
+
+Essa versão oferece aos profissionais de marketing total controle sobre o marketing em lote baseado em públicos-alvo e iniciado pela marca, combinando modelagem de dados flexível com uma experiência de orquestração criada especificamente. Ele foi projetado especificamente para orquestração de campanhas em lote de jornadas em tempo real, enquanto oferece personalização e escalabilidade avançadas.
+
+### Saiba mais
+
+Saiba mais na [documentação de orquestração de campanha](../orchestrated/gs-orchestrated-campaigns.md).
+
+<!--
+## August '25 pre release notes {#25-7-rn}
+
+**Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
+
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**Release date**: August 19, 2025
+
+
+### New capabilities {#Aug-25-8-features}
+
+New capabilities coming with this release are detailed below.
+
+### Improvements {#Aug-25-8-improv}
+
+Improvements coming with this release are listed below.
+-->
 
 
 ## Notas de versão de julho de 2025 {#25-7-rn}
-
-<!--
-**Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Data de lançamento**: quarta-feira, 29 de julho de 2025
 
@@ -77,7 +150,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Usar o Experience Decisioning no canal de email</strong><br/></th>
+<th><strong>Usar decisão no canal de email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -135,28 +208,7 @@ Para obter mais informações, consulte a <a href="../experience-decisioning/cre
 </table>
 -->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dark mode in the Email Designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
-<p>Note the following:</p>
-<ul>
-<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
-<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
-</ul>
-<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
-<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a>. </p>
-</td>
-</tr>
-</tbody>
-</table-->
+
 
 <table>
 <thead>
@@ -176,30 +228,6 @@ Para obter mais informações, consulte a <a href="../experience-decisioning/cre
 </tbody>
 </table>
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Calendar view</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A calendar view is now available in the journeys and campaigns lists. It allows you to visualize all journeys and campaigns activations in the respective lists.</p>
-<p>Previously available in Limited Availability, this feature is now available to all environments. With this General Availability release, the feature includes:</p>
-<ul>
-<li>Design improvements for the navigation in dates</li>
-<li>The ability to see draft campaigns if you have set a start and end date</li>
-<li>A new setting to hide and show calendar items running for a long time</li>
-</ul>
-<img src="assets/do-not-localize/calendar.gif">
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -219,6 +247,19 @@ Para obter mais informações, consulte a <a href="../experience-decisioning/cre
 </tbody>
 </table>
 
+### Alertas no produto
+
+Agora você pode assinar **alertas por email e no produto** para lançamentos de produtos da Journey Optimizer.
+
+Para se inscrever:
+
+* Navegue até **Preferências do Adobe Experience Cloud**
+* Em **Notificações**, encontre **Novas versões do Journey Optimizer**
+* Ativar notificações no aplicativo e por email
+
+![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+
+
 ### Alteração nas condições da jornada {#ee-change@}
 
 A partir de 8 de julho, em novas organizações de clientes, a criação de expressões usando eventos de experiência não será mais aceita no editor de expressão usado em condições de jornada. Como resultado, os eventos de experiência na [fonte de dados da Experience Platform](../datasource/adobe-experience-platform-data-source.md) não poderão ser usados para criar expressões. Abordagens alternativas e práticas recomendadas para criar expressões/lógica com eventos de experiência são apresentadas [aqui](../building-journeys/exp-event-lookup.md).
@@ -231,266 +272,44 @@ Saiba mais [nesta seção de Perguntas frequentes](../building-journeys/exp-even
 
 Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
-- **Campanhas**
+* **Campanhas**
 
-   - **Várias ações de entrada em campanhas** - Para simplificar a orquestração de campanhas, agora é possível definir várias ações de entrada em uma única campanha. Esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, Cartões de conteúdo ou ações da Web para locais diferentes ao mesmo tempo, cada ação contendo um conteúdo específico.
+   * **Várias ações de entrada em campanhas** - Para simplificar a orquestração de campanhas, agora é possível definir várias ações de entrada em uma única campanha. Esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, Cartões de conteúdo ou ações da Web para locais diferentes ao mesmo tempo, cada ação contendo um conteúdo específico.
   <!-- [Read more](../FILE.md) -->
 
-   - **Reorganização do inventário de campanhas** - Campanhas programadas e acionadas por API agora são divididas em guias separadas no inventário de campanhas para facilitar a navegação e o gerenciamento.
+   * **Reorganização do inventário de campanhas** - Campanhas programadas e acionadas por API agora são divididas em guias separadas no inventário de campanhas para facilitar a navegação e o gerenciamento.
 
 [Leia mais](../campaigns/modify-stop-campaign.md)
 
-- **Gerenciamento de dados**
-   - **Atualização de conjuntos de dados do sistema de Gerenciamento de decisões** - As ofertas personalizadas e substitutas excluídas agora são marcadas como arquivadas nos conjuntos de dados &quot;decision_object_repository_personalized_offers&quot; e &quot;decision_object_repository_fallback_offers&quot;. Os registros existentes no conjunto de dados não são alterados.
+* **Gerenciamento de dados**
+   * **Atualização de conjuntos de dados do sistema de Gerenciamento de decisões** - As ofertas personalizadas e substitutas excluídas agora são marcadas como arquivadas nos conjuntos de dados &quot;decision_object_repository_personalized_offers&quot; e &quot;decision_object_repository_fallback_offers&quot;. Os registros existentes no conjunto de dados não são alterados.
 
 [Leia mais](../offers/export-catalog/access-dataset.md)
 
-- **Jornadas**
-   - **Aprimoramentos de ferramenta de sandbox do Jornada** - Ao copiar jornadas em várias sandboxes usando os recursos de exportação e importação de pacotes, os seguintes recursos também estão disponíveis:
-      - Selecionar um evento existente no destino
-      - Cópia de um evento independentemente de uma jornada
-      - Detecção de relacionamentos de grupos de campos/fontes de dados, vinculação a eles no destino, se existirem, criação deles, se não existirem.
+* **Jornadas**
+   * **Aprimoramentos de ferramenta de sandbox do Jornada** - Ao copiar jornadas em várias sandboxes usando os recursos de exportação e importação de pacotes, os seguintes recursos também estão disponíveis:
+      * Selecionar um evento existente no destino
+      * Cópia de um evento independentemente de uma jornada
+      * Detecção de relacionamentos de grupos de campos/fontes de dados, vinculação a eles no destino, se existirem, criação deles, se não existirem.
 
 [Leia mais](../configuration/copy-objects-to-sandbox.md)
 
-- **Canal - No aplicativo**
-   - **Pares de Chave/Valor no aplicativo** - Com mensagens no aplicativo, você pode definir pares de Chave e Valor para incluir variáveis personalizadas na carga da mensagem. Esses pares de valor-chave permitem que você transmita dados adicionais com base em sua configuração específica e caso de uso. [Leia mais](../in-app/design-in-app.md)
+* **Canal - No aplicativo**
+   * **Pares de Chave/Valor no aplicativo** - Com mensagens no aplicativo, você pode definir pares de Chave e Valor para incluir variáveis personalizadas na carga da mensagem. Esses pares de valor-chave permitem que você transmita dados adicionais com base em sua configuração específica e caso de uso. [Leia mais](../in-app/design-in-app.md)
 
-- **Canal - Cartão de Conteúdo**
+* **Canal - Cartão de Conteúdo**
 
-   - **Desqualificação de campanha baseada em regras** - Ao editar regras de entrega adicionais, a opção Regras de entrega anterior foi substituída por três tipos de regras distintos para controlar melhor o tempo e a visibilidade da mensagem:
-      - Mostrar mensagem se: condições que determinam quando o cartão de conteúdo é exibido.
-      - Ignorar mensagem se: condições que ocultam temporariamente o cartão de conteúdo. Ele pode reaparecer se as condições de exibição forem atendidas novamente.
-      - Desqualificar mensagem se: condições que impedem permanentemente que o cartão de conteúdo seja exibido novamente.
+   * **Desqualificação de campanha baseada em regras** - Ao editar regras de entrega adicionais, a opção Regras de entrega anterior foi substituída por três tipos de regras distintos para controlar melhor o tempo e a visibilidade da mensagem:
+      * Mostrar mensagem se: condições que determinam quando o cartão de conteúdo é exibido.
+      * Ignorar mensagem se: condições que ocultam temporariamente o cartão de conteúdo. Ele pode reaparecer se as condições de exibição forem atendidas novamente.
+      * Desqualificar mensagem se: condições que impedem permanentemente que o cartão de conteúdo seja exibido novamente.
 
 [Leia mais](../content-card/design-content-card.md)
 
-- **Decisão**
-   - **APIs de ferramentas de migração** - A equipe da Journey Optimizer está trabalhando atualmente em APIs de ferramentas de migração para migrar entidades de Gestão de decisões para o Decisioning. Essa ferramenta permite a migração perfeita entre sandboxes com recursos de resolução de dependência e reversão. Se estiver interessado, entre em contato com o representante da Adobe.
+* **Decisão**
+   * **APIs de ferramentas de migração** - A equipe da Journey Optimizer está trabalhando atualmente em APIs de ferramentas de migração para migrar entidades de Gestão de decisões para o Decisioning. Essa ferramenta permite a migração perfeita entre sandboxes com recursos de resolução de dependência e reversão. Se estiver interessado, entre em contato com o representante da Adobe.
 
-- **Personalização**
-   - Uma nova função auxiliar, &quot;SHA256&quot;, foi adicionada ao editor de personalização. Esta função é usada para calcular e retornar o hash sha256 de uma string.
+* **Personalização**
+   * Uma nova função auxiliar, &quot;SHA256&quot;, foi adicionada ao editor de personalização. Esta função é usada para calcular e retornar o hash sha256 de uma string.
 
 [Leia mais](../personalization/functions/string.md#sha256)
-
-## Notas de versão de junho de 2025 {#25-6-rn}
-
-<!--
-**Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
-
-**Data de lançamento**: 18 de junho de 2025
-
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
-
-### Novos recursos {#25-06-features}
-
-Os novos recursos incluídos nesta versão são detalhados abaixo.
-
-<table>
-<thead>
-<tr>
-<th><strong>Conjuntos de dados da Adobe Experience Platform na decisão (beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Anteriormente disponíveis para personalização, os conjuntos de dados da Adobe Experience Platform agora podem ser aproveitados para a decisão. Isso permite estender a definição dos atributos de decisão para dados adicionais nos conjuntos de dados para atualizações em massa que mudam periodicamente, sem precisar atualizar manualmente os atributos um de cada vez. Por exemplo, disponibilidade, tempos de espera etc.</p>
-<p>Esse recurso está atualmente disponível para todos os clientes como uma versão beta pública. Entre em contato com o representante da sua conta se desejar obter acesso.</p>
-<p>Para obter mais informações, consulte a <a href="../experience-decisioning/aep-data-exd.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: 20 de junho de 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Mensagens RCS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>As mensagens do Rich Communication Services (RCS) agora são aceitas no Journey Optimizer, o que permite os seguintes recursos de mensagens aprimorados sujeitos ao suporte do provedor e da operadora:</p>
-<ul>
-<li>Suporte a remetentes com marca e verificados: envie mensagens usando perfis de negócios verificados com elementos de marca (logotipo, nome do remetente, etc.).</li>
-<li>Insights de entregas de mensagens: receba relatórios de entrega detalhados, incluindo atualizações de status de mensagem (por exemplo, enviado, entregue, lido).</li>
-<li>Rastreamento de link: incorpore e rastreie URLs em mensagens RCS para análise de engajamento.</li>
-<li>Fallback para SMS: retorno automático para SMS quando o dispositivo do perfil não dá suporte a RCS ou está temporariamente inacessível via RCS.</li>
-<li>Composição básica de mensagem: envie mensagens RCS baseadas em texto com mídia opcional e elementos avançados, dependendo do suporte do provedor.</li>
-</ul>
-<p>Para obter mais informações, consulte a <a href="../sms/sms-configuration.md">documentação detalhada</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Campos de formulário no conteúdo de experiência baseado em código</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível definir campos editáveis específicos em modelos de conteúdo JSON ou HTML que habilitam usuários comuns a editar facilmente o conteúdo em uma exibição de formulário na criação do canal de experiência baseada em código, sem a necessidade de manipular qualquer código.<br />Mais do que isso, ao definir os modelos de conteúdo da experiência baseada em código, agora é possível inserir políticas de decisão no modelo, aumentando a capacidade de reutilização e a facilidade de uso.</p>
-<img src="assets/do-not-localize/form-fields.gif">
-<p>Para obter mais informações, consulte a <a href="../code-based/code-based-form-fields.md">documentação detalhada</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Custom delegation method for subdomains</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking messages.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
-
-<table>
-<thead>
-<tr>
-<th><strong>Atividade de decisão de conteúdo em jornadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível incluir ofertas personalizadas em suas jornadas por meio de uma atividade dedicada de decisão de conteúdo na tela da jornada e usá-las em atividades da jornada, incluindo condições e ações personalizadas.</p>
-<img src="assets/do-not-localize/content-decision.gif">
-<p>Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.</p>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/content-decision.md">documentação detalhada</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Execução de prática de jornada</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A execução de prática de jornada é um modo especial de publicação no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais sem entrar em contato com clientes do mundo real ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.</p>
-<img src="assets/do-not-localize/DryRun.gif">
-<p>Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.</p>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/journey-dry-run.md">documentação detalhada</a>.</p>
-
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Pausar e retomar jornadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível pausar e retomar jornadas. Esse recurso oferece aos profissionais de jornada maior controle e flexibilidade ao permitir que as jornadas ativas sejam temporariamente suspensas sem interromper a experiência do cliente. Quando pausada, nenhuma comunicação é enviada e os perfis permanecem em um estado suspenso até que a jornada seja retomada.</p>
-<p>É possível pausar e retomar apenas uma jornada ou executar operações de pausa e retomada em massa para um grupo de jornadas.</p>
-<p>Além disso, é possível aplicar filtros globais a jornadas pausadas para excluir perfis com base em seus atributos.</p>
-<img src="assets/do-not-localize/PauseResume.gif">
-<p>Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.</p>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/journey-pause.md">documentação detalhada</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Dimensionar o experimento vencedor</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A opção Dimensionar o experimento vencedor permite implantar de forma automática ou manual a variação vencedora de um experimento em todo o seu público-alvo. Esse recurso garante que, após identificar o melhor desempenho, seja possível maximizar seu alcance e eficácia sem necessidade de supervisão manual constante.</p>
-<p>Para obter mais informações, consulte a <a href="../content-management/content-experiment.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: 2 de junho de 2025</p></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Conflito e priorização</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>No Journey Optimizer, gerenciar o volume e o momento de início das campanhas e jornadas é essencial para não sobrecarregar clientes com muitas interações. O Journey Optimizer agora oferece várias ferramentas para o gerenciamento de conflitos e a priorização, antes disponíveis apenas para um número limitado de organizações (disponibilidade limitada), mas que agora estão em disponibilidade geral.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Esta versão de disponibilidade geral também inclui os seguintes aprimoramentos:</p>
-<ul>
-<li>Suporte estendido: as ferramentas de gerenciamento de conflitos agora oferecem suporte às jornadas unitárias, jornadas de qualificação de público-alvo e jornadas de público-alvo de leitura.</li>
-<li>Solução de problemas aprimorada: agora há dois novos campos de evento de etapa disponíveis no serviço de consulta, permitindo analisar por que um perfil foi rejeitado de uma jornada ou campanha.</li>
-<li>Relatórios aprimorados: os relatórios agora indicam qual regra específica excluiu um perfil de uma jornada ou campanha, fornecendo maior transparência e insights acionáveis.</li></ul>
-<img src="assets/do-not-localize/gif-conflict.gif">
-<p>Para obter mais informações, consulte a <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: 3 de junho de 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Aprimoramentos {#25-06-improv}
-
-Os aprimoramentos incluídos nesta versão estão listados abaixo.
-
-- **Conjuntos de regras de canal**
-
-   - **Janela de duração personalizada** para limitação: um novo campo **Todos** agora está disponível na tela de configuração de conjuntos de regras de canal, permitindo que você aplique regras de limitação de frequência em vários dias, semanas ou meses, dependendo da duração especificada.
-
-   - **Frequência de limitação de redefinição por hora**: agora você pode aplicar a limitação por hora para conjuntos de regras de canal. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Entre em contato com o atendimento ao cliente para habilitá-la.
-
-   - **Duração diária**: anteriormente em disponibilidade limitada, o limite de frequência “Diário” nos conjuntos de regras do canal agora está disponível para todos os clientes.
-
-  Para obter mais informações, consulte a [documentação detalhada](../conflict-prioritization/channel-capping.md).
-
-- **Experiências baseadas em código**
-
-   - A adição de uma política de decisão agora está disponível em modelos de conteúdo de experiência baseada em código, nos quais ela pode ser usada para aproveitar ofertas em campos de formulário editáveis. [Leia mais](../code-based/code-based-form-fields.md)
-
-   - Na jornada de experiência baseada em código ou na tela de edição de campanha, agora você pode adicionar diretamente uma política de decisão sem abrir o editor de personalização. [Leia mais](../code-based/create-code-based.md#edit-code)
-
-- **Suporte a CSS personalizado no Designer de email**
-
-  O Journey Optimizer agora permite adicionar CSS personalizado ao conteúdo do email diretamente no Designer de email. [Leia mais](../email/custom-css.md)
-
-- **Nova navegação com guias para campanhas**
-
-  Um novo padrão de navegação permite acesso mais rápido à criação de conteúdo e oferece suporte à expansão de configurações em todas as campanhas. [Leia mais](../campaigns/create-campaign.md)
-
-- **Decisão**
-
-   - **Decisão e cópia da sandbox** (data de disponibilidade: 3 de junho de 2025): os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação. [Leia mais](../configuration/copy-objects-to-sandbox.md#decisioning)
-
-   - **Suporte a atributos de item de decisão para regras de decisão** (data de disponibilidade: 4 de junho de 2025): agora você pode aproveitar os atributos de item de decisão para criar regras de decisão. [Leia mais](../experience-decisioning/rules.md#create)
-
-- **Atualização da API de execução de mensagem interativa** — Data de disponibilidade: 6 de junho de 2025
-
-  A API de execução de mensagem interativa agora permite excluir o cronograma da execução de campanhas futuras. [Leia mais](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}

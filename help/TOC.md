@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2591'
 ht-degree: 98%
 
 ---
@@ -202,14 +202,14 @@ ht-degree: 98%
       + [Acionar a execução da campanha](using/campaigns/trigger-campaigns.md)
    + Campanhas orquestradas {#orchestrated-campaigns}
       + [Introdução às campanhas orquestradas](using/orchestrated/gs-orchestrated-campaigns.md)
-      + Gerenciar esquemas relacionais e conjuntos de dados {#schemas-datasets}
-         + [Introdução a esquemas e conjuntos de dados](using/orchestrated/gs-schemas.md)
-         + [Esquema manual](using/orchestrated/manual-schema.md)
-         + [Esquema de upload do arquivo](using/orchestrated/file-upload-schema.md)
-         + [Assimilar dados](using/orchestrated/ingest-data.md)
-      + [Acessar e gerenciar campanhas orquestradas](using/orchestrated/access-manage-orchestrated-campaigns.md)
-      + [Criar um Targeting dimension](using/orchestrated/target-dimension.md)
       + [Medidas de proteção e limitações](using/orchestrated/guardrails.md)
+      + Configuração de dados {#configuration}
+         + Gerenciar esquemas relacionais e conjuntos de dados {#schemas-datasets}
+            + [Introdução a esquemas e conjuntos de dados](using/orchestrated/gs-schemas.md)
+            + [Esquema manual](using/orchestrated/manual-schema.md)
+            + [Esquema de upload do arquivo](using/orchestrated/file-upload-schema.md)
+            + [Assimilar dados](using/orchestrated/ingest-data.md)
+         + [Criar um Targeting dimension](using/orchestrated/target-dimension.md)
       + Iniciar sua primeira campanha orquestrada{#launch}
          + [Etapas principais para criar uma campanha orquestrada](using/orchestrated/gs-campaign-creation.md)
          + [Criar e agendar a campanha](using/orchestrated/create-orchestrated-campaign.md)

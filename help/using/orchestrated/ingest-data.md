@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Etapas de configuração
 description: Saiba como trazer dados para a Adobe Experience Platform de fontes compatíveis, como SFTP, armazenamento na nuvem ou bancos de dados.
-badge: label="Alfa"
-hide: true
-hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 36%
+source-wordcount: '656'
+ht-degree: 22%
 
 ---
 
+
 # Assimilar dados {#ingest-data}
-
-+++ Índice 
-
-| Bem-vindo às campanhas orquestradas | Iniciar sua primeira campanha orquestrada | Consultar o banco de dados | Atividades de campanhas orquestradas |
-|---|---|---|---|
-| [Introdução às campanhas orquestradas](gs-orchestrated-campaigns.md)<br/><br/>Criar e gerenciar esquemas e conjuntos de dados relacionais</br> <ul><li>[Introdução a Esquemas e Conjuntos de Dados](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carregamento de arquivo](file-upload-schema.md)</li><li>[Assimilar dados](ingest-data.md)</li></ul>[Acesse e gerencie campanhas orquestradas](access-manage-orchestrated-campaigns.md)<br/><br/>[Etapas principais para criar uma campanha orquestrada](gs-campaign-creation.md) | [Criar e programar a campanha](create-orchestrated-campaign.md)<br/><br/>[Orquestrar atividades](orchestrate-activities.md)<br/><br/>[Iniciar e monitorar a campanha](start-monitor-campaigns.md)<br/><br/>[Geração de relatórios](reporting-campaigns.md) | [Trabalhar com o construtor de regras](orchestrated-rule-builder.md)<br/><br/>[Criar a sua primeira consulta](build-query.md)<br/><br/>[Editar expressões](edit-expressions.md)<br/><br/>[Redirecionamento](retarget.md) | [Introdução às atividades](activities/about-activities.md)<br/><br/>Atividades:<br/>[Associação](activities/and-join.md) - [Criar público-alvo](activities/build-audience.md) - [Mudar dimensão](activities/change-dimension.md) - [Atividades de canal](activities/channels.md) - [Combinar](activities/combine.md) - [Desduplicação](activities/deduplication.md) - [Enriquecimento](activities/enrichment.md) - [Bifurcação](activities/fork.md) - [Reconciliação](activities/reconciliation.md) - [Salvar público-alvo](activities/save-audience.md) - [Divisão](activities/split.md) - [Aguardar](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-</br>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-O conteúdo desta página não é final e pode estar sujeito a alterações.
-
->[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -58,33 +36,53 @@ As seguintes origens são compatíveis com o uso de campanhas orquestradas:
   <tbody>
     <tr>
       <td rowspan="3">Armazenamento na nuvem</td>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Data Warehouses da nuvem</td>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Uploads baseados em arquivo</td>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Upload de arquivo local<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Upload de arquivo local<a></td>
     </tr>
 
 </tbody>
 </table>
+
+## Diretrizes para a higiene de dados do esquema relacional {#cdc}
+
+Para conjuntos de dados habilitados com a **[!UICONTROL captura de dados de alteração]**, todas as alterações de dados, incluindo exclusões, são automaticamente espelhadas do sistema de origem para a Adobe Experience Platform.
+
+Como as Campanhas do Adobe Journey Optimizer exigem que todos os conjuntos de dados integrados sejam habilitados com a **[!UICONTROL captura de dados de alteração]**, é responsabilidade do cliente gerenciar as exclusões na origem. Qualquer registro excluído do sistema de origem será removido automaticamente do conjunto de dados correspondente no Adobe Experience Platform.
+
+Para excluir registros por meio da assimilação baseada em arquivo, o arquivo de dados do cliente deve marcar o registro usando um valor `D` no campo `Change Request Type`. Isso indica que o registro deve ser excluído no Adobe Experience Platform, espelhando o sistema de origem.
+
+Se o cliente quiser excluir registros somente do Adobe Experience Platform sem afetar os dados de origem originais, as seguintes opções estarão disponíveis:
+
+* **Tabela de Proxy ou Limpa para Replicação de captura de dados de Alteração**
+
+  O cliente pode criar um proxy ou uma tabela de origem limpa para controlar quais registros são replicados no Adobe Experience Platform. As exclusões podem ser gerenciadas seletivamente nessa tabela intermediária.
+
+* **Exclusão via Data Distiller**
+
+  Se licenciado, o **Data Distiller** poderá ser usado para oferecer suporte a operações de exclusão diretamente no Adobe Experience Platform, independentemente do sistema de origem.
+
+  [Saiba mais sobre o Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## Configurar um fluxo de dados
 
@@ -105,6 +103,8 @@ Este exemplo demonstra como configurar um fluxo de dados que assimila dados estr
    ![](assets/S3_config_1.png)
 
 1. Na página **[!UICONTROL Detalhes do conjunto de dados]**, marque **[!UICONTROL Habilitar captura de dados de alteração]** para exibir somente conjuntos de dados mapeados para esquemas relacionais e incluir uma chave primária e um descritor de versão.
+
+[Saiba mais sobre diretrizes para a higiene de dados de esquemas relacionais](#cdc)
 
    >[!IMPORTANT]
    >
@@ -133,4 +133,5 @@ Este exemplo demonstra como configurar um fluxo de dados que assimila dados estr
 1. No menu **[!UICONTROL Conexões]**, selecione **[!UICONTROL Fontes]** e acesse a guia **[!UICONTROL Fluxos de dados]** para rastrear a execução do fluxo, revisar registros assimilados e solucionar quaisquer erros.
 
    ![](assets/S3_config_5.png)
+
 

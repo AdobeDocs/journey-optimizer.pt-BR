@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bb3b07dc5dbb5ef50470caf52da2e10fcaf21a5e
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 91%
+source-wordcount: '2648'
+ht-degree: 90%
 
 ---
 
@@ -112,7 +113,6 @@ As medidas de proteção e limitações que devem ser consideradas ao trabalhar 
 
 * [Medidas de proteção e limitações do serviço de decisão](../experience-decisioning/decisioning-guardrails.md)
 * [Medidas de proteção e limitações da gestão de decisões](../offers/decision-management-guardrails.md)
-
 
 ## Medidas de proteção de jornada {#journeys-guardrails}
 
@@ -259,3 +259,7 @@ As seguintes medidas de proteção se aplicam às atividades do **[!UICONTROL Ca
 
 * As atividades do Adobe Campaign não podem ser usadas com uma atividade Público-alvo de leitura ou Qualificação de público-alvo.
 * As atividades de campanha não podem ser usadas com as outras atividades de canais: cartão, experiência baseada em código, email, push, sms, mensagens no aplicativo e web.
+
+## Medidas de proteção da Orquestração de campanha {#orchestration-guardrails}
+
+As medidas de proteção e limitações que devem ser consideradas ao trabalhar com o Campaign Orchestration são detalhadas nesta seção: [Medidas de proteção e limitações do gerenciamento de decisão](../orchestrated/guardrails.md).

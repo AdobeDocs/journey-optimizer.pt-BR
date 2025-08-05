@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Você pode acessar o relatório de Campanha clicando no botão **[!UICONTROL Rel
 
 ![](assets/cja-email-kpis.png)
 
-Os KPIs (Indicadores-chave de desempenho) da **[!UICONTROL Campanha]** funcionam como um painel abrangente, fornecendo uma análise das métricas essenciais associadas à sua campanha. Isso abrange detalhes como a contagem de cliques e o número de mensagens entregues, oferecendo uma visão abrangente da eficiência e do nível de engajamento da campanha.
+Os KPIs (Indicadores-chave de desempenho) da **[!UICONTROL Campanha]** funcionam como um painel abrangente, fornecendo uma análise das métricas essenciais associadas à sua campanha. Isso abrange detalhes como a contagem de cliques e o número de mensagens entregues, oferecendo uma insight abrangente na eficiência e no nível de engajamento da campanha.
 
 Os KPIs variam com base nos canais usados em sua campanha.
 
@@ -44,6 +44,9 @@ Os KPIs variam com base nos canais usados em sua campanha.
 * **[!UICONTROL Exibições]**: número de vezes que a mensagem foi aberta.
 
 +++
+
+>[!AVAILABILITY]
+>As campanhas orquestradas são compatíveis apenas com os canais SMS, Email e Push. Outros canais (no aplicativo, Web, correspondência direta etc.) não estão disponíveis em campanhas orquestradas e não aparecem nos relatórios.
 
 ### Visão geral da campanha {#delivery-global}
 

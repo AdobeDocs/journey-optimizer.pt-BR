@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1536'
 ht-degree: 10%
 
 ---
@@ -90,6 +90,7 @@ Ao criar uma configuração de canal de email, você pode definir valores person
 O painel de navegação permite selecionar a origem para personalização. As fontes disponíveis são:
 
 * **[!UICONTROL Atributos do perfil]** : lista todas as referências associadas ao esquema de perfil descrito na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+* **[!UICONTROL Atributos do público-alvo]**: esta pasta é específica para campanhas orquestradas. Ele contém atributos calculados diretamente na tela da campanha. [Saiba como adicionar personalização em campanhas orquestradas](../orchestrated/activities/channels.md#add-personalization)
 * **[!UICONTROL Públicos-alvo]** : lista todos os públicos-alvo criados no serviço de Segmentação do Adobe Experience Platform. Mais informações sobre segmentação estão disponíveis [aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 * **[!UICONTROL Decisões de oferta]** : lista todas as ofertas associadas a uma disposição específica. Selecione o posicionamento e insira as ofertas no conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Atributos contextuais]**: quando uma atividade de ação de canal (email, push, SMS) é usada em uma jornada ou campanha, os atributos contextuais relacionados a eventos e propriedades ficam disponíveis para personalização. Um exemplo de personalização que utiliza atributos contextuais é apresentado em [esta seção](personalization-use-case.md).
