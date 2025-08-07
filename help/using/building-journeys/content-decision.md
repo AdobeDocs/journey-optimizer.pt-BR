@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: atividade, decisão, decisão de conteúdo, política de decisão, tela, jornada
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
+source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1120'
 ht-degree: 3%
 
 ---
@@ -72,6 +72,16 @@ Para configurar a atividade **[!UICONTROL Decisão de conteúdo]**, siga as etap
    ![Resumo da política de decisão](assets/journey-content-decision-policy.png){width=70%}<!--reshoot or change screen-->
 
 Agora você está pronto para aproveitar o resultado dessa atividade de decisão de conteúdo na jornada.
+
+## Medidas de proteção e limitações {#guardrails}
+
+**Políticas de consentimento**
+
+As atualizações das políticas de consentimento levam até 48 horas para entrarem em vigor. Se uma política de decisão fizer referência a um atributo vinculado a uma política de consentimento atualizada recentemente, as alterações não serão aplicadas imediatamente.
+
+Da mesma forma, se novos atributos de perfil sujeitos a uma política de consentimento forem adicionados a uma política de decisão, eles serão utilizáveis, mas a política de consentimento associada a eles não será aplicada até que o atraso tenha passado.
+
+As políticas de consentimento só estão disponíveis para organizações com o Adobe Healthcare Shield ou o complemento Privacy and Security Shield.
 
 ## Usar a saída da atividade de decisão de conteúdo {#use-content-decision-output}
 
