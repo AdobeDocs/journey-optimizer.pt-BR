@@ -5,10 +5,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 19%
+source-wordcount: '292'
+ht-degree: 18%
 
 ---
 
@@ -69,3 +69,13 @@ Depois que [sua marca for configurada e publicada](brands.md), avalie a pontuaç
 1. Edite seu conteúdo com base nas recomendações para melhorar o alinhamento da marca.
 
 1. Reavalie manualmente o conteúdo depois de fazer alterações para atualizar sua pontuação de alinhamento.
+
+## Vídeo tutorial {#video}
+
+O vídeo abaixo mostra como criar e personalizar suas próprias marcas para definir claramente sua identidade visual e verbal nas comunicações.
+
++++ Ver vídeo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+
++++
