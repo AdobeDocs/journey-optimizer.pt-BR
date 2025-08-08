@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar a ação de campanha
+title: Configurar a ação da campanha
 description: Saiba como configurar a ação de campanha.
 feature: Campaigns
 topic: Content Management
@@ -9,17 +9,17 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 10%
+source-wordcount: '809'
+ht-degree: 28%
 
 ---
 
+# Configurar a ação da campanha {#action-campaign-action}
 
-# Configurar a ação de campanha {#action-campaign-action}
-
-Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal para sua mensagem e definir configurações adicionais, como rastreamento, experimento de conteúdo ou conteúdo multilíngue.
+Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal para a sua mensagem e definir configurações adicionais, como rastreamento, experimento de conteúdo ou conteúdo multilíngue.
 
 1. **Escolher o canal**
 
@@ -31,19 +31,25 @@ Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal 
    >
    >Os canais disponíveis variam com base no modelo de licenciamento e nos complementos.
 
+   Se você selecionar um canal de entrada (experiência baseada em código, mensagem no aplicativo, Cartão de conteúdo ou ação da Web), poderá adicionar mais ações de entrada, para um total de até 10 ações em uma única campanha. [Saiba como](#multi-action)
+
 1. **Selecionar uma configuração de canal**
 
-   Uma configuração foi definida por um [Administrador do Sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba como definir configurações de canal](../configuration/channel-surfaces.md)
+   Uma configuração é definida por um [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba como definir configurações de canal](../configuration/channel-surfaces.md)
 
    ![](assets/create-campaign-action.png)
 
-1. **Criar um experimento de conteúdo**
+1. **Aproveitar Otimização**
 
-   Use a seção **[!UICONTROL Experimento de conteúdo]** para definir vários tratamentos de entrega para medir qual deles tem melhor desempenho para o público-alvo. Clique no botão **[!UICONTROL Criar experimento]** e siga as etapas detalhadas nesta seção: [Criar um experimento de conteúdo](../content-management/content-experiment.md).
+   Use a seção **[!UICONTROL Otimização de Mensagens]** para executar experimentos de conteúdo, aproveitar regras de direcionamento ou usar combinações avançadas de experimentação e direcionamento. Essas diferentes opções e as etapas a serem seguidas estão detalhadas nesta seção: [Otimização em campanhas](campaigns-message-optimization.md).
+<!--
+1. **Create a content experiment**
+
+    Use the **[!UICONTROL Content experiment]** section to define multiple delivery treatments in order to measure which one performs best for your target audience. Click the **[!UICONTROL Create experiment]** button then follow the steps detailed in this section: [Create a content experiment](../content-management/content-experiment.md).-->
 
 1. **Adicionar conteúdo multilíngue**
 
-   Use a seção **[!UICONTROL Idiomas]** para criar conteúdo em vários idiomas dentro da sua campanha. Para fazer isso, clique no botão **[!UICONTROL Adicionar idiomas]** e selecione as **[!UICONTROL configurações de idioma]** desejadas. Informações detalhadas sobre como configurar e usar recursos multilíngues estão disponíveis nesta seção: [Introdução a conteúdo multilíngue](../content-management/multilingual-gs.md)
+   Use a seção **[!UICONTROL Idiomas]** para criar conteúdo em vários idiomas dentro da sua campanha. Para isso, clique no botão **[!UICONTROL Adicionar idiomas]** e selecione as **[!UICONTROL Configurações de idioma]** desejadas. Informações detalhadas sobre como configurar e usar recursos multilíngues estão disponíveis nesta seção: [Introdução ao conteúdo multilíngue](../content-management/multilingual-gs.md).
 
 Configurações adicionais estão disponíveis, dependendo do canal de comunicação selecionado. Expanda as seções abaixo para obter mais informações.
 
@@ -55,13 +61,13 @@ Na lista suspensa **[!UICONTROL Regras de negócio]**, selecione um conjunto de 
 
 +++**Rastrear envolvimento** (Email, SMS).
 
-Use a seção **[!UICONTROL Rastreamento de ação]** para acompanhar como seus destinatários reagem às suas entregas de email ou SMS. Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../reports/campaign-global-report-cja.md)
+Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como os seus destinatários reagem às suas entregas de email ou SMS. Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre os relatórios da campanha](../reports/campaign-global-report-cja.md)
 
 +++
 
 +++**Habilitar o modo de entrega rápida** (Push).
 
-O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas. A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios, quando você deseja enviar um alerta de push urgente em telefones celulares, por exemplo, notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias. Para obter mais informações sobre desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html).
+O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite um envio muito rápido de mensagens por push em grandes volumes por meio das campanhas. A entrega rápida é usada quando um atraso na entrega das mensagens seria crítico para os negócios, quando você deseja enviar um alerta por push urgente a telefones celulares, como, por exemplo, notícias de última hora para usuários que instalaram o seu aplicativo de canal de notícias. Para mais informações sobre desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html).
 
 +++
 
@@ -82,6 +88,37 @@ Para campanhas de cartão de conteúdo, você pode habilitar regras de entrega a
 Para mensagens no aplicativo, você pode usar o botão **[!UICONTROL Editar acionadores]** para escolher os eventos e critérios que acionam sua mensagem. [Saiba como criar uma mensagem no aplicativo](../in-app/create-in-app.md)
 
 +++
+
+## Adicionar várias ações de entrada {#multi-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_action"
+>title="Adicionar várias ações de entrada"
+>abstract="Você pode selecionar várias ações de entrada em uma única campanha. Esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, Cartões de conteúdo ou ações da Web para locais diferentes ao mesmo tempo, cada ação contendo um conteúdo específico."
+
+Para simplificar a orquestração de campanhas, você pode definir várias ações de entrada em uma única campanha, cada uma com um conteúdo específico.
+
+>[!NOTE]
+>
+>Essa capacidade só está disponível para canais de entrada. No momento, não há suporte para canais de saída como email.
+
+Essa capacidade permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da Web para diferentes locais ao mesmo tempo, sem a necessidade de criar várias campanhas. Isso facilita a implantação da sua campanha e permite relatórios mais suaves, com todos os dados consolidados em uma única campanha.
+
+Por exemplo, você pode enviar uma experiência baseada em código para vários endpoints com conteúdo ligeiramente diferente. Para fazer isso, crie várias ações baseadas em código na mesma campanha, cada uma com uma configuração de endpoint diferente.
+
+Para definir várias ações de entrada em uma campanha, siga as etapas abaixo.
+
+1. Selecione uma ação de entrada (**Experiência baseada em código**, **Mensagem no aplicativo**, **Cartão de Conteúdo** ou **Web**) na seção **[!UICONTROL Ações]**.
+
+1. Selecione a configuração de canal e defina um conteúdo específico para essa ação.
+
+1. Use o botão **[!UICONTROL Adicionar ação]** para selecionar outra ação de entrada na lista suspensa.
+
+   ![](assets/create-campaign-multi-action.png){width="80%"}
+
+1. Continue da mesma forma para adicionar mais ações. Você pode adicionar até 10 ações de entrada em uma campanha.
+
+Quando a campanha estiver [online](review-activate-campaign.md), todas as ações serão ativadas simultaneamente.
 
 ## Próximas etapas {#next}
 

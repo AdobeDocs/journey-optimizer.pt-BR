@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 879837d8dd1a36ab7d6ad180cb77a2b186c07eb5
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2598'
 ht-degree: 98%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 98%
    + Gerenciar jornadas {#manage-journey}
       + [Procurar e filtrar suas jornadas](using/building-journeys/journey-ui.md)
       + [Entrada de perfil em jornadas](using/building-journeys/entry-management.md)
-      + [Usar identificadores complementares no jornada](using/building-journeys/supplemental-identifier.md)
+      + [Usar identificadores complementares em jornadas](using/building-journeys/supplemental-identifier.md)
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
       + [Otimização de tempo de envio](using/building-journeys/send-time-optimization.md)
       + [Encerrar sua jornada](using/building-journeys/end-journey.md)
@@ -187,6 +187,7 @@ ht-degree: 98%
       + [Trabalhar com campanhas de ação](using/campaigns/create-campaign.md)
       + [Definir as propriedades da campanha](using/campaigns/campaign-properties.md)
       + [Configurar a ação da campanha](using/campaigns/campaign-action.md)
+      + [Utilizar a otimização de mensagens em uma campanha](using/campaigns/campaigns-message-optimization.md)
       + [Editar o conteúdo da campanha](using/campaigns/campaign-content.md)
       + [Definir o público-alvo da campanha](using/campaigns/campaign-audience.md)
       + [Agendar a campanha](using/campaigns/campaign-schedule.md)
