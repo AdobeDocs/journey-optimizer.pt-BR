@@ -4,9 +4,9 @@ product: journey optimizer
 title: Medidas de proteção e limitações para campanhas orquestradas
 description: Saiba mais sobre as medidas de proteção e limitações das campanhas orquestradas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '445'
 ht-degree: 2%
 
 ---
@@ -83,3 +83,7 @@ Abaixo você encontrará medidas de proteção e limitações adicionais para us
 * **As atividades dos públicos salvos são estáticas**, refletem os dados disponíveis no momento da execução da campanha.
 
 * **Não há suporte para anexar a uma atividade de Público-alvo salvo**. Quaisquer modificações exigem uma substituição completa do público-alvo.
+
+## Limitações de canal
+
+Somente os canais SMS, Push e Email são compatíveis com campanhas orquestradas.
