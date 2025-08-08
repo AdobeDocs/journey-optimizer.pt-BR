@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 879837d8dd1a36ab7d6ad180cb77a2b186c07eb5
 workflow-type: tm+mt
-source-wordcount: '2591'
+source-wordcount: '2592'
 ht-degree: 98%
 
 ---
@@ -203,6 +203,7 @@ ht-degree: 98%
    + Campanhas orquestradas {#orchestrated-campaigns}
       + [Introdução às campanhas orquestradas](using/orchestrated/gs-orchestrated-campaigns.md)
       + [Medidas de proteção e limitações](using/orchestrated/guardrails.md)
+      + [Perguntas frequentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuração de dados {#configuration}
          + Gerenciar esquemas relacionais e conjuntos de dados {#schemas-datasets}
             + [Introdução a esquemas e conjuntos de dados](using/orchestrated/gs-schemas.md)
@@ -788,7 +789,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
       + [Configurar um evento unitário](using/event/about-creating.md)
       + [Sobre esquemas de ExperienceEvent](using/event/experience-event-schema.md)
       + [Trabalhar com dados do Adobe Analytics](using/event/about-analytics.md)
-      + [Configurar um evento comercial](using/event/about-creating-business.md)
+      + [Configurar um evento de negócios](using/event/about-creating-business.md)
       + [Etapas adicionais para enviar eventos](using/event/additional-steps-to-send-events-to-journey.md)
    + Configuração da fonte de dados{#data-source-journeys}
       + [Introdução a fontes de dados](using/datasource/about-data-sources.md)
