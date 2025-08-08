@@ -7,7 +7,7 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1116'
-ht-degree: 63%
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,7 @@ Crie uma campanha Orquestrada no [!DNL Adobe Journey Optimizer] e configure seu 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Lista de campanhas orquestradas"
->abstract="A guia **Orquestração** lista todas as campanhas Orquestradas. Clique no nome de uma campanha Orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada."
+>abstract="A guia **Orquestração** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada. "
 
 Para criar uma campanha Orquestrada, siga estas etapas:
 
@@ -85,7 +85,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
    * **[!UICONTROL Data]**: selecione a data em que a campanha deve ser executada.
    * **[!UICONTROL Hora]**: selecione a hora específica em que a campanha deve ser executada.
 
-   +++
++++
 
    +++Diariamente
 
@@ -99,7 +99,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora inicial]**: defina a hora em que a campanha deve ser executada a cada dia.
 
-   +++
++++
 
    +++Várias vezes ao dia
 
@@ -108,7 +108,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
    * **[!UICONTROL Horas selecionadas]**: selecione as horas específicas em que a campanha deve ser executada e configure sua recorrência diária (executar em todos os dias da semana ou em determinados dias).
    * **[!UICONTROL Periódico]**: opte por executar a campanha a cada n minutos ou horas. Você também pode definir o intervalo de tempo no dia em que as execuções são permitidas.
 
-   +++
++++
 
    +++Semanalmente
 
@@ -119,7 +119,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
    * **[!UICONTROL Recorrência diária]**: escolha dias da semana específicos para a execução (por exemplo, toda segunda e quinta).
    * **[!UICONTROL Hora inicial]**: defina a hora em que a campanha deve ser executada nos dias selecionados.
 
-   +++
++++
 
    +++Mensalmente
 
@@ -135,7 +135,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
 
    * **[!UICONTROL Hora inicial]**: defina a hora em que a campanha deve ser executada.
 
-   +++
++++
 
 1. Use a configuração **[!UICONTROL Período de validade]** para definir uma data inicial e uma data final específicas, restringindo a execução da campanha a uma janela de tempo limitada.
 

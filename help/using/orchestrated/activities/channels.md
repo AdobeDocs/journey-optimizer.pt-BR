@@ -7,7 +7,7 @@ exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 60%
+ht-degree: 74%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="Atividade de email"
->abstract="A atividade Email permite enviar emails na campanha Orquestrada, tanto para mensagens únicas quanto recorrentes. Ele serve para automatizar o processo de envio de emails para um público-alvo calculado dentro da mesma campanha orquestrada. É possível combinar atividades canal em uma tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A Atividade email permite enviar emails dentro da campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de envio de emails a um público-alvo calculado na mesma campanha orquestrada. É possível combinar atividades canal em uma tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Atividade de SMS"
->abstract="A atividade SMS permite enviar SMS em sua campanha Orquestrada, para mensagens únicas e recorrentes. Ele serve para automatizar o processo de envio de SMS para um público-alvo calculado na mesma campanha Orquestrada. É possível combinar atividades de canal na tela da campanha em várias etapas para criar campanhas entre canais que possam acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A Atividade SMS permite enviar SMS na campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de envio de SMS a um público-alvo calculado na mesma campanha orquestrada. É possível combinar atividades de canal na tela da campanha em várias etapas para criar campanhas entre canais que possam acionar ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="Atividade de push"
->abstract="A atividade Push permite enviar notificações por push como parte da campanha orquestrada. Ele permite a entrega de campanhas orquestradas únicas e recorrentes, automatizando o envio de notificações por push para um destino predefinido na mesma campanha orquestrada. É possível combinar atividades de canal na tela da campanha para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A Atividade Push permite enviar notificações por push como parte da campanha orquestrada. Ela permite a entrega de campanhas orquestradas únicas e recorrentes, automatizando o envio de notificações por push para um público-alvo predefinido na mesma campanha orquestrada. É possível combinar atividades de canal na tela da campanha para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 <!--
 UNUSED IDs in BJ
@@ -47,7 +47,7 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="Atividade de correspondência direta"
->abstract="A atividade de correspondência direta facilita o envio de correspondência direta dentro da campanha Orquestrada, para mensagens únicas e recorrentes. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. Você pode combinar atividades de canal na tela de campanha Orquestrada para criar campanhas entre canais que podem acionar ações com base no comportamento do cliente e nos dados."
+>abstract="A Atividade correspondência direta facilita o envio de correspondência direta na campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. É possível combinar atividades de canal na tela da campanha orquestrada para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 O [!DNL Adobe Journey Optimizer] permite automatizar e executar campanhas de marketing em vários canais: email, SMS e notificações por push. Você pode combinar essas atividades de canal na tela da campanha para criar campanhas orquestradas entre canais que podem acionar ações com base no comportamento do cliente e nos dados.
 

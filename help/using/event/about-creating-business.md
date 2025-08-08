@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar um evento comercial
+title: Configurar um evento de negócios
 description: Saiba como criar um evento comercial
 feature: Journeys, Events
 topic: Administration
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 ---
 
-# Configurar um evento comercial {#configure-a-business-event}
+# Configurar um evento de negócios {#configure-a-business-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"
@@ -31,7 +31,7 @@ Eventos comerciais podem ser &quot;um produto está de volta no estoque&quot;, &
 
 >[!NOTE]
 >
->Você também pode assistir ao caso de uso de evento comercial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=pt-BR). Observe que o esquema não precisa ser ativado para o perfil.
+>Você também pode assistir ao caso de uso de evento comercial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Observe que o esquema não precisa ser ativado para o perfil.
 
 ## Observações importantes {#important-notes}
 
@@ -44,7 +44,7 @@ Eventos comerciais podem ser &quot;um produto está de volta no estoque&quot;, &
 * Depois que um evento comercial é acionado, haverá um atraso para que o público-alvo seja exportado de 15 minutos para até uma hora.
 * Ao testar um evento comercial, você precisa passar os parâmetros do evento e o identificador do perfil de teste que inserirá a jornada em teste. Além disso, ao testar uma jornada baseada em evento comercial, você só pode acionar uma única entrada de perfil. Consulte [esta seção](../building-journeys/testing-the-journey.md#test-business). No modo de teste, não há modo de &quot;Visualização de código&quot; disponível.
 * O que acontece com os indivíduos que estão atualmente na jornada se um novo evento comercial chegar? Ela se comporta da mesma forma que quando os indivíduos ainda estão em uma jornada recorrente quando uma nova recorrência acontece. O caminho deles foi finalizado. Como resultado, os profissionais de marketing devem prestar atenção para evitar a criação de jornadas muito longas se esperam eventos comerciais frequentes.
-* Os eventos comerciais não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
+* Os eventos de negócios não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
 
 ## Vários eventos comerciais {#multiple-business-events}
 

@@ -7,7 +7,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -28,12 +28,12 @@ Você pode utilizar essas informações para segmentar o seu público-alvo com m
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="Dados de enriquecimento"
->abstract="Selecione os dados a serem usados para enriquecer sua campanha orquestrada. É possível selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da dimensão de destino, ou um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas."
+>abstract="Selecione os dados a serem usados para enriquecer a campanha orquestrada. É possível selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da dimensão de destino, ou um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="Atividade enriquecimento"
->abstract="Depois que os dados de enriquecimento forem adicionados à campanha Orquestrada, eles poderão ser usados nas atividades adicionadas após a atividade de Enriquecimento para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas com maior probabilidade de repercutir com seu público-alvo."
+>abstract="Após adicionar os dados de enriquecimento à campanha orquestrada, é possível utilizá-los nas atividades adicionadas após a atividade de enriquecimento para separar clientes em grupos distintos com base em seus comportamentos, preferências e necessidades, ou para criar mensagens e campanhas de marketing personalizadas que tenham uma maior probabilidade de impacto no seu público-alvo."
 
 Siga estas etapas para configurar a atividade **Enriquecimento**:
 

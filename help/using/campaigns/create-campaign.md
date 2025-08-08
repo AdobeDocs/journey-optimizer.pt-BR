@@ -13,7 +13,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 25%
+ht-degree: 52%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"
 >title="Campanhas de ação"
->abstract="**Interface guiada para criar e enviar uma campanha**<br/> Defina uma ou várias ações com um canal, escolha um público, defina um conteúdo e um agendamento e você estará pronto para enviar <br/><br/>**Canais disponíveis**<br/> Email, SMS, Notificações por push, no aplicativo, Web, Experiências baseadas em código"
+>abstract="**Interface guiada para criar e enviar uma campanha**<br/> Defina uma ou várias ações em um canal, escolha um público-alvo, defina o conteúdo e crie uma programação para começar a enviar <br/><br/>**Canais disponíveis**<br/> Email, SMS, notificações por push, no aplicativo, web, experiências baseadas em código"
 
 ## Sobre campanhas de ação {#about}
 
@@ -48,4 +48,4 @@ As campanhas de ação (ou campanhas programadas) permitem criar comunicações 
 
 Saiba como criar uma campanha de Ação.
 
->[!VIDEO](https://video.tv.adobe.com/v/3414156?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

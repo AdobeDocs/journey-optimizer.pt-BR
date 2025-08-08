@@ -7,7 +7,7 @@ exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 17%
+ht-degree: 23%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="Salvar atividade de público-alvo"
->abstract="A atividade **Salvar público-alvo** é uma atividade **de Direcionamento** que permite atualizar um público-alvo existente ou criar um novo público a partir da população gerada anteriormente na campanha Orquestrada. Após criados, esses públicos-alvo são adicionados à lista de públicos-alvo do aplicativo e podem ser acessados pelo menu **Públicos-alvo**."
+>abstract="A Atividade **Salvar público-alvo** é uma atividade de **Direcionamento** que permite atualizar um público-alvo existente ou criar um novo a partir da população gerada anteriormente na campanha orquestrada. Após criados, esses públicos-alvo são adicionados à lista de públicos-alvo do aplicativo e podem ser acessados pelo menu **Públicos-alvo**."
 
 A atividade **[!UICONTROL Salvar público-alvo]** é uma atividade de **[!UICONTROL Direcionamento]** usada para criar um novo público-alvo ou atualizar um já existente com base na população gerada anteriormente na campanha Orquestrada. Depois de salvo, o público é adicionado à lista de públicos-alvo do aplicativo e torna-se acessível pelo menu **[!UICONTROL Públicos-alvo]**.
 

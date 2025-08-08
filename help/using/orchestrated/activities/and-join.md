@@ -7,7 +7,7 @@ exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 71%
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="Atividade AND-join"
->abstract="A atividade **And-join** permite sincronizar várias ramificações de execução de uma campanha Orquestrada. Ela é acionada quando todas as atividades anteriores forem concluídas. Isso permite que você verifique se determinadas atividades foram concluídas antes de continuar a executar a campanha Orquestrada."
+>abstract="A Atividade **AND-join** permite sincronizar várias ramificações de execução de uma campanha orquestrada. Ela é acionada quando todas as atividades anteriores forem concluídas. Isso permite se certificar de que determinadas atividades foram concluídas antes de continuar a execução da campanha orquestrada."
 
 A atividade **[!UICONTROL Associação]** é uma atividade de **[!UICONTROL Controle de fluxo]**. Ele permite sincronizar várias ramificações de execução de uma campanha orquestrada.
 

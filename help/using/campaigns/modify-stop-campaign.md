@@ -13,7 +13,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1475'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="Inventário de campanhas orquestradas"
->abstract="Nesta tela, você pode acessar a lista completa de campanhas orquestradas, verificar seu status atual, datas de última/próxima execução e criar uma nova campanha orquestrada."
+>abstract="Nesta tela, é possível acessar a lista completa de campanhas orquestradas, verificar o status atual, as datas da última/próxima execução e criar uma nova campanha orquestrada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_campaign_action"
 >title="Ação"
->abstract="Esta seção lista todas as ações usadas na campanha Orquestrada."
+>abstract="Esta seção lista todas as ações usadas na campanha orquestrada."
 
 As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**.
 
