@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Agora é possível enviar mensagens do WhatsApp diretamente pelo Journey Optimiz
 Integrar o WhatsApp com o Journey Optimizer requer o seguinte:
 
 * Conta do Meta Business Manager
-* [Conta Comercial do WhatsApp com nome de remetente e número de telefone verificados](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [Conta comercial do WhatsApp com nome de remetente e número de telefone verificados](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [Token de autorização do usuário com permissões apropriadas](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [Modelos da Meta aprovados](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
@@ -46,7 +46,7 @@ Os seguintes limites se aplicam ao canal do WhatsApp:
 
 * O canal do WhatsApp no Adobe Journey Optimizer é pronto para HIPAA, mas os fornecedores terceirizados não estão incluídos na cobertura do BAA da Adobe. Os clientes são responsáveis por sua própria conformidade e validação do fornecedor.
 
-* Observe que mensagens de resposta automatizadas ou predefinidas ainda não são compatíveis.
+* Observe que mensagens de resposta automatizadas ou predefinidas ainda não são permitidas.
 
 * A partir de abril de 2025, a entrega de todas as mensagens de modelo de marketing para usuários do WhatsApp que têm um número de telefone dos Estados Unidos (um número composto pelo código de país +1 e um código de área dos EUA) foi temporariamente suspensa. [Saiba mais na documentação da Meta](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
 
@@ -54,11 +54,11 @@ Os seguintes limites se aplicam ao canal do WhatsApp:
 
 ## Vídeo tutorial {#video}
 
-O vídeo abaixo mostra como integrar o WhatsApp como um canal nativo no Adobe Journey Optimizer para fornecer mensagens seguras, em tempo real e personalizadas em escala.
+O vídeo abaixo mostra como integrar o WhatsApp como um canal nativo ao Adobe Journey Optimizer para fornecer mensagens seguras, em tempo real e personalizadas em grande escala.
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470249?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

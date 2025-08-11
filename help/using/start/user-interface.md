@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1681'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -181,19 +181,19 @@ Em cada página, use os botões de ajuda contextual para saber mais sobre um rec
 
 ## Alertas no produto
 
-Você pode assinar **alertas por email e no produto** para lançamentos de produtos da Journey Optimizer.
+Você pode se inscrever para receber **alertas por email e no produto** sobre lançamentos do Journey Optimizer.
 
-Para se inscrever:
+Para inscrever-se:
 
-1. Navegue até **Preferências do Adobe Experience Cloud**
-1. Em **Notificações**, encontre **Novas versões do Journey Optimizer**
-1. Ativar notificações no aplicativo e por email
+1. Acesse as **Preferências da Adobe Experience Cloud**
+1. Em **Notificações**, procure **Novas versões do Journey Optimizer**
+1. Habilitar notificações no aplicativo e por email
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
 ## Assistente de IA {#ai-assistant}
 
-O Assistente de IA é um recurso da interface do usuário que você pode usar para navegar e entender conceitos do Adobe e obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos na Adobe Experience Cloud, incluindo o Adobe Journey Optimizer.
+O Assistente de IA é um recurso da interface do usuário que você pode usar para navegar e entender conceitos da Adobe, bem como obter insights operacionais para o seu ambiente específico. Ele está disponível em vários produtos na Adobe Experience Cloud, incluindo o Adobe Journey Optimizer.
 
 Para acessar o Assistente de IA, clique no ícone na barra superior. O Assistente de IA é exibido na seção direita da tela.
 
@@ -253,7 +253,7 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="Usar dados de várias entidades"
->abstract="Saiba como campanhas orquestradas podem aproveitar conjuntos de dados relacionais no enriquecimento de dados para segmentação e personalização"
+>abstract="Saiba como as campanhas orquestradas podem utilizar conjuntos de dados relacionais para enriquecer dados para segmentação e personalização"
 
 
 

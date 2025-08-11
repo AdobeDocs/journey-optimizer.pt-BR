@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4203'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -231,7 +231,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
    * **Decisão e cópia da sandbox** (data de disponibilidade: 3 de junho de 2025): os objetos de decisão agora podem ser copiados entre sandboxes, simplificando os fluxos de trabalho de teste e implantação. [Leia mais](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **Suporte a atributos de item de decisão para regras de decisão** (data de disponibilidade: 4 de junho de 2025) * Agora você pode aproveitar os atributos de item de decisão para criar regras de decisão. [Leia mais](../experience-decisioning/rules.md#create)
+   * **Compatibilidade de atributos de itens de decisão para regras de tomada de decisão** (data de disponibilidade: 4 de junho de 2025) * Agora, você pode utilizar os atributos de itens de decisão para criar regras de tomada de decisão. [Leia mais](../experience-decisioning/rules.md#create)
 
 * **Atualização da API de execução de mensagem interativa** — Data de disponibilidade: 6 de junho de 2025
 
@@ -306,7 +306,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 </ul>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado com disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../integrations/aem-dynamic.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 23 de maio de 2025</p>
 </td>
@@ -361,7 +361,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>Agora é possível acionar execuções diárias da jornada após a conclusão da segmentação em lote Essa opção agora está disponível em jornadas agendadas diariamente para todos os clientes. Ela permite definir uma janela de tempo de até 6 horas para aguardar os dados de público-alvo de trabalhos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas. </p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado com disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#schedule">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 20 de maio de 2025</p>
@@ -381,7 +381,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <td>
 <p>O Journey Optimizer agora permite configurar provedores de SMS adicionais além das opções padrão: Sinch, Infobip e Twilio. Com a configuração personalizada do provedor SMS, é possível integrar diretamente provedores de terceiros, aproveitar a personalização avançada de conteúdo para gerar mensagens dinâmicas e gerenciar preferências de consentimento (aceitação e recusa) para garantir a conformidade.</p>
 <p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado com disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Data de disponibilidade: 20 de maio de 2025</p>
 </td>
 </td>

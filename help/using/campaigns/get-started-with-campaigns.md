@@ -10,9 +10,9 @@ level: Beginner
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '708'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Programação de campanha"
->abstract="Por padrão, as campanhas começam com uma ativação manual e terminam imediatamente após a mensagem ser enviada uma vez. Você tem a flexibilidade de definir a data e hora específicas para o envio da mensagem. Além disso, você pode especificar uma data de término para campanhas Action recorrentes. Nos acionadores de ação, você também pode configurar a frequência de envio de mensagens de acordo com suas preferências."
+>abstract="Por padrão, as campanhas começam com uma ativação manual e terminam imediatamente após a mensagem ser enviada uma vez. Você tem a flexibilidade de definir a data e hora específicas para o envio da mensagem. Além disso, é possível especificar uma data final para campanhas com ações recorrentes. Nos acionadores de ação, você também pode configurar a frequência de envio de mensagens de acordo com suas preferências."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -74,13 +74,13 @@ Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a u
 
 * **Campanhas orquestradas**
 
-  A Orquestração de campanhas no Adobe Journey Optimizer capacita campanhas de marketing sofisticadas e iniciadas pela marca em todos os canais, ajudando você a impulsionar o engajamento, a receita e a fidelidade do cliente em escala.
+  A orquestração de campanhas no Adobe Journey Optimizer permite a criação de campanhas de marketing sofisticadas e iniciadas pela marca em todos os canais, ajudando a impulsionar o engajamento, a receita e a fidelidade do cliente em grande escala.
 
-  Embora o marketing entre canais seja essencial, as campanhas orquestradas o tornam ininterrupto. Com uma interface visual do tipo arrastar e soltar, você pode projetar e automatizar fluxos de trabalho de marketing complexos, desde a segmentação até a entrega de mensagens, em vários canais. Tudo acontece em um ambiente intuitivo, criado para oferecer velocidade, controle e eficiência.
+  Embora o marketing entre canais seja essencial, as campanhas orquestradas permitem que ele flua melhor. Com uma interface visual do tipo arrastar e soltar, você pode projetar e automatizar fluxos de trabalho de marketing complexos, desde a segmentação até a entrega de mensagens, em vários canais. Tudo acontece em um ambiente intuitivo, criado para proporcionar velocidade, controle e eficiência.
 
 ## Pré-requisitos {#prerequisites}
 
-Antes de criar sua campanha, verifique os pré-requisitos abaixo.
+Antes de criar a sua campanha, verifique os pré-requisitos abaixo.
 
 ### Permissões
 
@@ -90,32 +90,32 @@ As campanhas só estão disponíveis para usuários com as permissões apropriad
 
 >[!TAB Campanhas de ação]
 
-Administrador do Campaign
+Administrador da campanha
 Aprovador da campanha
 Gerente de campanha
 Visualizador da campanha
 
 >[!TAB Campanhas acionadas por API]
 
-Administrador do Campaign
+Administrador da campanha
 Aprovador da campanha
 Gerente de campanha
 Visualizador da campanha
 
 >[!TAB Campanhas orquestradas]
 
-Administrador orquestrado do Campaign
-Aprovador de campanha orquestrada
-Gerenciador de campanhas orquestrado
-Visualizador de campanha orquestrado
+Administrador de campanhas orquestradas
+Aprovador de campanhas orquestradas
+Gerenciador de campanhas orquestradas
+Visualizador de campanhas orquestradas
 
 >[!ENDTABS]
 
-Se não conseguir acessar as funcionalidades do Campaign, entre em contato com o administrador para solicitar as permissões necessárias.
+Se não conseguir acessar as funcionalidades da campanha, entre em contato com o administrador para solicitar as permissões necessárias.
 
 +++Saiba como atribuir uma função relacionada à campanha
 
-1. Para atribuir uma função a um usuário no produto [!DNL Permissions], navegue até a guia **[!UICONTROL Funções]** e selecione uma das **[!UICONTROL Funções]** detalhadas acima relacionadas à campanha interna.
+1. Para atribuir uma função a um usuário no produto [!DNL Permissions], navegue até a guia **[!UICONTROL Funções]** e selecione uma das **[!UICONTROL Funções]** integradas relacionadas à campanha detalhadas acima.
 
 1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
 

@@ -10,13 +10,13 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2648'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Medidas de proteção e limitações {#limitations}
+# Proteções e limitações {#limitations}
 
 Abaixo você encontrará medidas de proteção e limitações adicionais para o uso do [!DNL Adobe Journey Optimizer].
 
@@ -86,20 +86,20 @@ As seguintes medidas de proteção se aplicam às [páginas de destino](../land
 
 ## Medidas de proteção de subdomínios {#subdomain-guardrails}
 
-As medidas de proteção e limitações aplicáveis à delegação de subdomínio no Journey Optimizer estão detalhadas em [esta página](../configuration/delegate-subdomain.md#guardrails).
+As medidas de proteção e limitações aplicáveis à delegação de subdomínios no Journey Optimizer estão detalhadas [nesta página](../configuration/delegate-subdomain.md#guardrails).
 
 ## Medidas de proteção de fragmentos {#fragments-guardrails}
 
 As seguintes medidas de proteção se aplicam aos [fragmentos](../content-management/fragments.md):
 
-* Para criar, editar, arquivar e publicar fragmentos, você precisa das permissões de **[!DNL Manage library items]** e **[Publicar fragmento]** incluídas no perfil de produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
+* Para criar, editar, arquivar e publicar fragmentos, você precisa das permissões de **[!DNL Manage library items]** e **[Publicar fragmento]** inclusas no perfil do produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
 * Os fragmentos visuais só estão disponíveis para o canal de email.
 * Os fragmentos de expressão não estão disponíveis para o canal interno do aplicativo.
-* Fragmentos visuais não podem exceder 100 KB. Os fragmentos de expressão não podem exceder 200 KB.
-* Para usar um fragmento em uma jornada ou campanha, ele deve estar no status **Ativo**.
-* Não há suporte para [Atributos contextuais](../personalization/personalization-build-expressions.md) dentro de fragmentos.
-* Fragmentos visuais não são compatíveis entre os modos Usar temas e Estilo manual. Para poder usar um fragmento em um conteúdo no qual deseja aplicar um tema, esse fragmento deve ser criado no modo Usar temas. [Saiba mais sobre temas](../email/apply-email-themes.md)
-* Quando o rastreamento é ativado em uma jornada ou campanha, se você adicionar links a um fragmento e se esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links incluídos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
+* Fragmentos visuais não podem exceder 100 KB. Fragmentos de expressão não podem exceder 200 KB.
+* Para usar um fragmento em uma jornada ou campanha, ele precisa estar no status **Ativo**.
+* [Atributos contextuais](../personalization/personalization-build-expressions.md) não são permitidos dentro de fragmentos.
+* Fragmentos visuais não são compatíveis entre os modos de uso de temas e estilo manual. Para poder usar um fragmento em um conteúdo ao qual deseja aplicar um tema, esse fragmento precisa ser criado no modo de uso de temas. [Saiba mais sobre temas](../email/apply-email-themes.md)
+* Quando o rastreamento é habilitado em uma jornada ou campanha, se você adicionar links a um fragmento e esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links inclusos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
 
 ## Medidas de proteção de públicos-alvo {#audience}
 
@@ -166,12 +166,12 @@ As seguintes medidas de proteção se aplicam às [ações personalizadas](../a
 
 As seguintes medidas de proteção se aplicam aos [eventos](../event/about-events.md) de jornadas:
 
-* Para cada organização, a Journey Optimizer oferece suporte a um volume máximo de 5.000 eventos de jornada de entrada por segundo.
+* Para cada organização, o Journey Optimizer permite um volume máximo de 5 mil eventos de jornada de entrada por segundo.
 * As jornadas acionadas por eventos podem levar até 5 minutos para processar a primeira ação na jornada.
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 * Os eventos comerciais não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
-* As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada do perfil é temporariamente bloqueada por 5 minutos. Por exemplo, se um evento acionar uma jornada em 12:01 para um perfil específico e outra chegar em 12:03 (seja o mesmo evento ou outro acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
-* O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço principal de coleção de dados (DCCS) para acionar uma jornada. Não é possível usar eventos assimilados em lote ou eventos de conjuntos de dados internos do Journey Optimizer (feedback de mensagem, rastreamento de email etc.) para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, é necessário criar um público-alvo com base nesses eventos e usar a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas não é recomendada, pois pode causar desafios no downstream com base nas ações usadas.
+* As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada do perfil é temporariamente bloqueada por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12:01 para um perfil específico e outra chegar às 12:03 (seja o mesmo evento ou outro que está acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
+* O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Não é possível usar eventos assimilados em lote ou eventos de conjuntos de dados internos do Journey Optimizer (feedback de mensagem, rastreamento de email etc.) para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, é necessário criar um público-alvo com base nesses eventos e usar a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas não é recomendada, pois pode causar desafios no downstream com base nas ações usadas.
 
 ### Fontes de dados {#data-sources-g}
 
@@ -260,6 +260,6 @@ As seguintes medidas de proteção se aplicam às atividades do **[!UICONTROL Ca
 * As atividades do Adobe Campaign não podem ser usadas com uma atividade Público-alvo de leitura ou Qualificação de público-alvo.
 * As atividades de campanha não podem ser usadas com as outras atividades de canais: cartão, experiência baseada em código, email, push, sms, mensagens no aplicativo e web.
 
-## Medidas de proteção da Orquestração de campanha {#orchestration-guardrails}
+## Proteções da orquestração de campanhas {#orchestration-guardrails}
 
-As medidas de proteção e limitações que devem ser consideradas ao trabalhar com o Campaign Orchestration são detalhadas nesta seção: [Medidas de proteção e limitações do gerenciamento de decisão](../orchestrated/guardrails.md).
+As proteções e limitações que precisam ser consideradas ao trabalhar com a orquestração de campanhas estão detalhadas nesta seção: [Proteções e limitações da gestão de decisões](../orchestrated/guardrails.md).
