@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '2598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -184,14 +184,14 @@ ht-degree: 98%
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
    + [Acessar e gerenciar campanhas](using/campaigns/modify-stop-campaign.md)
    + Campanhas de ação {#action-campaigns}
-      + [Trabalhar com campanhas de ação](using/campaigns/create-campaign.md)
+      + [Trabalhar com campanhas de ações](using/campaigns/create-campaign.md)
       + [Definir as propriedades da campanha](using/campaigns/campaign-properties.md)
       + [Configurar a ação da campanha](using/campaigns/campaign-action.md)
       + [Utilizar a otimização de mensagens em uma campanha](using/campaigns/campaigns-message-optimization.md)
       + [Editar o conteúdo da campanha](using/campaigns/campaign-content.md)
       + [Definir o público-alvo da campanha](using/campaigns/campaign-audience.md)
       + [Agendar a campanha](using/campaigns/campaign-schedule.md)
-      + [Revisar e ativar uma campanha de ação](using/campaigns/review-activate-campaign.md)
+      + [Revisar e ativar uma campanha de ações](using/campaigns/review-activate-campaign.md)
    + Campanhas acionadas por API {#api-triggered-campaigns}
       + [Trabalhar com campanhas acionadas por API](using/campaigns/api-triggered-campaigns.md)
       + [Definir as propriedades da campanha](using/campaigns/api-triggered-campaign-properties.md)
@@ -203,7 +203,7 @@ ht-degree: 98%
       + [Acionar a execução da campanha](using/campaigns/trigger-campaigns.md)
    + Campanhas orquestradas {#orchestrated-campaigns}
       + [Introdução às campanhas orquestradas](using/orchestrated/gs-orchestrated-campaigns.md)
-      + [Medidas de proteção e limitações](using/orchestrated/guardrails.md)
+      + [Proteções e limitações](using/orchestrated/guardrails.md)
       + [Perguntas frequentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuração de dados {#configuration}
          + Gerenciar esquemas relacionais e conjuntos de dados {#schemas-datasets}
@@ -211,8 +211,8 @@ ht-degree: 98%
             + [Esquema manual](using/orchestrated/manual-schema.md)
             + [Esquema de upload do arquivo](using/orchestrated/file-upload-schema.md)
             + [Assimilar dados](using/orchestrated/ingest-data.md)
-         + [Criar um Targeting dimension](using/orchestrated/target-dimension.md)
-      + Iniciar sua primeira campanha orquestrada{#launch}
+         + [Criar uma dimensão de direcionamento](using/orchestrated/target-dimension.md)
+      + Lançar a sua primeira campanha orquestrada{#launch}
          + [Etapas principais para criar uma campanha orquestrada](using/orchestrated/gs-campaign-creation.md)
          + [Criar e agendar a campanha](using/orchestrated/create-orchestrated-campaign.md)
          + [Orquestrar atividades](using/orchestrated/orchestrate-activities.md)
@@ -587,7 +587,7 @@ Definir regras de limitação de mensagens e jornadas {#capping-rules}
             + [Modelo de otimização automática](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modelo de otimização personalizado](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Criar modelos de IA](using/experience-decisioning/ranking/create-ai-models.md)
-      + [Trabalhar com inserções](using/experience-decisioning/placements.md)
+      + [Trabalhar com posicionamentos](using/experience-decisioning/placements.md)
       + Usar dados da Adobe Experience Platform {#aep-data}
          + [Aproveitar dados de contexto](using/experience-decisioning/context-data.md)
          + [Usar a Adobe Experience Platform para decisão](using/experience-decisioning/aep-data-exd.md)
