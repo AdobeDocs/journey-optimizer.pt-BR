@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
+workflow-type: tm+mt
 source-wordcount: '2648'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../sms/get-star
 
 As [campanhas da web](../web/get-started-web.md) do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. 
 
-As métricas de licença para cada pacote estão listadas na página [Descrição do produto do Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+As métricas de licença para cada pacote estão listadas na página [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Medidas de proteção de canal baseado em código {#code-based-guardrails}
 
@@ -105,7 +105,7 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
 
 Você pode publicar até 10 composições de público-alvo em uma determinada sandbox. Se tiver atingido esse limite, será necessário excluir uma composição para liberar espaço e publicar uma nova.
 
-Saiba mais sobre as composições de públicos-alvo [nesta página](../audience/get-started-audience-orchestration.md).
+Saiba mais sobre a composição de público-alvo [nesta página](../audience/get-started-audience-orchestration.md).
 
 ## Medidas de proteção de decisão e gestão de decisões {#decisioning-guardrails}
 
@@ -169,7 +169,7 @@ As seguintes medidas de proteção se aplicam aos [eventos](../event/about-event
 * Para cada organização, o Journey Optimizer permite um volume máximo de 5 mil eventos de jornada de entrada por segundo.
 * As jornadas acionadas por eventos podem levar até 5 minutos para processar a primeira ação na jornada.
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
-* Os eventos comerciais não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
+* Os eventos de negócios não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
 * As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada do perfil é temporariamente bloqueada por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12:01 para um perfil específico e outra chegar às 12:03 (seja o mesmo evento ou outro que está acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
 * O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Não é possível usar eventos assimilados em lote ou eventos de conjuntos de dados internos do Journey Optimizer (feedback de mensagem, rastreamento de email etc.) para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, é necessário criar um público-alvo com base nesses eventos e usar a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas não é recomendada, pois pode causar desafios no downstream com base nas ações usadas.
 
