@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6326e1e3056f41f1550ac785bcbf83af175b37cc
+source-git-commit: 1f53a578e91cd26e0e062c20b371a344ad709a8f
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 55%
+source-wordcount: '1030'
+ht-degree: 47%
 
 ---
 
@@ -18,12 +18,10 @@ ht-degree: 55%
 
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas no fim de cada mês nas [notas de versão](release-notes.md).
 
-**As notas de pré-lançamento abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade da versão**. Links, telas e a documentação atualizada são publicados nas [notas de versão](release-notes.md), na data de lançamento.
 
+## Notas de pré-lançamento de agosto de 2025 {#25-8-rn}
 
-## Notas de pré-lançamento de agosto de 2025 {#25-7-rn}
-
-**As notas de pré-lançamento abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade da versão**. Links, telas e a documentação atualizada são publicados na data de lançamento.
+**As notas de pré-lançamento abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**. Links, telas e documentação atualizada são publicados nas notas de versão, na data de lançamento.
 
 Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
@@ -64,9 +62,9 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <p>Agora há uma exibição de calendário disponível nas listas de jornadas e campanhas. Ela permite ver todas as ativações de jornadas e campanhas nas respectivas listas.</p>
 <p>Anteriormente lançado com disponibilidade limitada, este recurso já está disponível para todos os ambientes. Nesta versão com disponibilidade geral, o recurso inclui:</p>
 <ul>
-<li>Melhorias de design para a navegação pelas datas</li>
-<li>A possibilidade de ver rascunhos de campanha, se você tiver definido as datas inicial e final</li>
-<li>Uma nova configuração para ocultar e mostrar os itens do calendário em execução por muito tempo</li>
+<li>Melhorias de design para a navegação em datas,</li>
+<li>A capacidade de ver campanhas de rascunho se você tiver definido uma data de início e término,</li>
+<li>Uma nova configuração para ocultar e mostrar os itens do calendário em execução por muito tempo.</li>
 </ul>
 <p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
@@ -110,7 +108,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <p>Aproveite os dados da Adobe Experience Platform no editor de personalização para personalizar seu conteúdo. Para fazer isso, os conjuntos de dados necessários para a personalização da pesquisa devem primeiro ser habilitados por meio de uma chamada de API. Depois de concluído, você poderá usar os dados para personalizar o conteúdo no [!DNL Journey Optimizer].</p>
 <p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Esta versão de disponibilidade geral também inclui os seguintes aprimoramentos:</p>
 <ul>
-<li>Suporte a canais de entrada</li>
+<li>Suporte de canais de entrada,</li>
 <li>A função auxiliar "datasetLookup" agora pode ser usada em fragmentos de expressão e visuais para personalizar o conteúdo usando dados de conjuntos de dados do Adobe Experience Platform,</li>
 <li>Uma opção no conjunto de dados agora permite habilitar conjuntos de dados para personalização de pesquisa, sem precisar executar uma chamada de API.</li>
 </ul>
@@ -179,16 +177,15 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 
 Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
+- **Administração**
+   - **Alertas de monitoramento de configuração de canal** - Agora você pode assinar para receber alertas do sistema, por email ou na central de notificações da Journey Optimizer, caso ocorra uma falha de configuração de canal ou se um registro DNS estiver ausente.
 
 - **Campanhas**
    - **Controle de taxa em campanhas de saída** - Agora é possível habilitar o controle de taxa de limitação para campanhas de saída (email, SMS, notificações por push), permitindo que você evite a sobrecarga em sistemas downstream, como páginas de aterrissagem ou plataformas de atendimento ao cliente.
    - **Agendamento de campanha de ação** - Os agendadores diários, semanais e mensais da campanha foram atualizados para melhorar a granularidade. Por exemplo, agora você pode definir o número de semanas/meses entre programações, definir em qual dia executar e decidir parar após um número específico de ocorrências ou em uma data específica.
 
-- **Administração**
-   - **Alertas de monitoramento de configuração de canal** - Agora você pode assinar para receber alertas do sistema, por email ou na central de notificações da Journey Optimizer, caso ocorra uma falha de configuração de canal ou se um registro DNS estiver ausente.
-
 - **Canal - Push**
-   - **Data de expiração da notificação por push** - Agora é possível especificar uma data de expiração para cada notificação por push, o que impede que mensagens com detecção de hora (como vendas de Black Friday) sejam enviadas após uma determinada data e, portanto, evita a entrega de uma experiência ruim a seus clientes.
+   - **Data de expiração da notificação por push** - Agora é possível especificar uma data de expiração para cada notificação por push, o que impede que mensagens com detecção de hora (como vendas de Black Friday) sejam enviadas após uma determinada data, evitando assim a entrega de uma experiência ruim aos clientes.
 
 - **Canal - Email**
    - **Anexos do PDF para emails** - Agora é possível anexar arquivos estáticos do PDF a mensagens de email enviadas com o Journey Optimizer.
