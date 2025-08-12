@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 98%
+source-wordcount: '1460'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,10 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 **Data de disponibilidade**: 4 de agosto de 2025
 
 O Journey Optimizer agora inclui a **Orquestração de campanha**, um novo recurso criado especificamente para campanhas em lotes iniciadas pela marca. Esta versão apresenta uma tela de orquestração de campanhas e uma modelagem de dados aprimorada, que funcionam em conjunto para permitir que os profissionais de marketing planejem, direcionem e entreguem campanhas personalizadas entre canais.
+
+>[!IMPORTANT]
+>
+>Para acessar o Campaign Orchestration, sua licença deve incluir o pacote **Journey Optimizer - Campanhas e Jornadas** ou **Journey Optimizer - Campanhas**. Entre em contato com o representante da Adobe para confirmar sua licença e atualizar, se necessário.
 
 ![GIF da orquestração de campanhas](assets/do-not-localize/release.gif)
 
@@ -86,7 +90,7 @@ Saiba mais na [documentação da orquestração de campanhas](../orchestrated/gs
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
