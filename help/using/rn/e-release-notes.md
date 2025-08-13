@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ef4488941837a7473d92633b600ea4574dc955bf
+source-git-commit: 8e0dff6082f5fec6768d1bf284936468fd19208d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 33%
+source-wordcount: '967'
+ht-degree: 32%
 
 ---
 
@@ -219,6 +219,8 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 * **Canal - SMS**
 
    * **Recusa difusa** - Quando habilitada, a opção **Recusa difusa** detecta mensagens de entrada que se assemelham muito às palavras-chave de recusa definidas (por exemplo, &#39;CANCIL&#39;) e envia automaticamente uma resposta de confirmação para verificar a intenção de cancelamento de inscrição do usuário. Se o usuário confirmar por meio do prompt definido, a subscrição será cancelada.
+
+     Observe que a **Não participação difusa** só está disponível com o Sinch e o Infobip.
 
    * **Verificar Conexão de SMS** - Agora é possível testar e verificar facilmente suas credenciais de API de SMS no Adobe Journey Optimizer, enviando uma mensagem de exemplo para um dispositivo designado.
 
