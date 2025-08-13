@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 33%
+source-wordcount: '411'
+ht-degree: 32%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 33%
 >id="ajo_admin_sms_configuration"
 >title="Selecionar a configuração do fornecedor de SMS"
 >abstract="Selecione as credenciais da API configuradas para seu fornecedor de SMS."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_fuzzy_opt_out"
+>title="Opção de não participação aproximada"
+>abstract="&quot;Quando ativado, a opção de recusa difusa detecta mensagens de entrada que se parecem muito com as palavras-chave de recusa definidas (por exemplo, &quot;CANCIL&quot;) e envia automaticamente uma resposta de confirmação para verificar a intenção de cancelamento de inscrição do usuário. Se o usuário confirmar por meio do prompt definido, a subscrição será cancelada."
 
 Antes de enviar SMS, MMS ou RCS, você deve configurar o ambiente do Adobe Journey Optimizer. Para fazer isso:
 
