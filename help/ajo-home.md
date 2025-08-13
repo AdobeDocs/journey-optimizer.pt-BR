@@ -1,121 +1,99 @@
 ---
-keywords: Journey Optimizer;início;tópicos populares
-title: Documentação do produto Journey Optimizer
-description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
-product: journey optimizer
-exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+product: Journey Optimizer
+title: Documentação do Adobe Journey Optimizer
+description: Documentação do Adobe Journey Optimizer
+redpen-status: CREATED_||_2025-08-11_21-21-01
+source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 10%
 
 ---
 
-# Documentação do Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
-## Novidades
+# Documentação do Adobe Journey Optimizer{#section-overview}
 
-Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Journey Optimizer. Para obter uma lista de todos os recursos, melhorias e correções, confira as [Notas de versão](using/rn/release-notes.md) detalhadas. Visite a [página de atualizações da documentação](using/rn/documentation-updates.md) para ver as alterações mais recentes na documentação do produto.
+O Adobe Journey Optimizer capacita as equipes a projetar e fornecer experiências personalizadas e perfeitas do cliente em canais como email, SMS e muito mais. Ao combinar ferramentas avançadas para a orquestração de campanhas, gestão de dados e tomada de decisões, ajuda a criar jornadas que se adaptam às necessidades do cliente em tempo real. Esta documentação oferece um roteiro para dominar a plataforma - da exploração de seus recursos e integrações mais recentes ao aprendizado de como gerenciar públicos, configurar jornadas e analisar o desempenho. Seja você um profissional de marketing, analista de dados ou gerente de campanha, encontrará guias passo a passo, práticas recomendadas e recursos personalizados para ajudá-lo a atingir suas metas com confiança.
 
->[!BEGINTABS]
+## Começar a explorar
 
->[!TAB Versão de julho de 2025]
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-A versão de julho já está disponível. Confira as notas de versão para descobrir novos recursos, alterações e melhorias.
+Novidades do Adobe Journey Optimizer
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+Fique atualizado com as notas de versão mais recentes, os novos recursos e as alterações na documentação do Adobe Journey Optimizer.
 
->[!TAB Orquestração de campanhas]       
+[Visualizar as novidades](./rp_landing_pages/whats-new-landing-page.md)
+:::
 
-O Journey Optimizer agora inclui a **Orquestração de campanhas**, um novo recurso criado especificamente para campanhas em lotes iniciadas pela marca. Esta versão apresenta uma tela de orquestração de campanhas e uma modelagem de dados aprimorada, que funcionam em conjunto para permitir que os profissionais de marketing planejem, direcionem e entreguem campanhas personalizadas entre canais.
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+Introdução ao Adobe Journey Optimizer
 
->[!TAB Adobe Express]
+Saiba mais sobre as noções básicas do Adobe Journey Optimizer, incluindo seus recursos, arquitetura e interface do usuário.
 
-A integração do Adobe Express ao Adobe Journey Optimizer permite acessar facilmente as poderosas ferramentas de edição do Adobe Express ao criar conteúdo. Essa integração permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos para JPEG ou PNG sem precisar alternar entre as soluções.
+[Introdução](./rp_landing_pages/get-started-landing-page.md)
+:::
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-<!--
->[!TAB AI Assistant]
+Guia abrangente para Jornadas
 
-Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
+Projete, orquestre, gerencie e otimize jornadas personalizadas do cliente com este guia detalhado.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[Explorar Jornadas](./rp_landing_pages/orchestrate-journeys-landing-page.md)
+:::
 
->[!TAB Fragmento de conteúdo do AEM]
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
-Ao integrar o Adobe Experience Manager as a Cloud Service com o Adobe Journey Optimizer, agora é possível incorporar facilmente os Fragmentos de conteúdo do AEM ao conteúdo do Journey Optimizer. Essa conexão simplifica o processo de acesso e aproveitamento do conteúdo do AEM, permitindo a criação de campanhas e jornadas personalizadas e dinâmicas.
+Noções básicas e gerenciamento de campanhas
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
+Orientação detalhada sobre como criar, gerenciar e otimizar vários tipos de campanha para um direcionamento eficaz.
+
+[Saiba mais sobre campanhas](./rp_landing_pages/campaigns-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+Canais de comunicação
+
+Configure e gerencie emails, SMS, notificações por push e outros canais para interações personalizadas com o cliente.
+
+[Explorar canais](./using/channels/gs-channels.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+
+Gerenciamento e priorização de conflitos
+
+Saiba como priorizar e gerenciar conflitos de comunicação entre campanhas e jornadas de maneira eficaz.
+
+[Saiba mais sobre o gerenciamento de conflitos](./rp_landing_pages/conflict-prioritization-landing-page.md)
+:::
+
+::::
 
 
->[!ENDTABS]
+## Recursos adicionais
 
-## Comece com as noções básicas.
-
-<table style="table-layout:fixed">
-  <tr style="border: 0;">
-    <td>
-    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
-    <div><strong>Guias de início rápido</strong><br/>Saiba como atingir suas metas mais rapidamente no Journey Optimizer com uma abordagem personalizada, dependendo da sua função.</div>
-    </td>
-    <td>
-    <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>Interface</strong><br/>Saiba como navegar e otimizar sua experiência no Journey Optimizer.</div>
-    </td>
-    <td>
-    <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Criação da sua primeira jornada</strong><br/>Projete e orquestre jornadas omnicanais personalizadas para harmonizar o alcance de marketing com o engajamento individual do cliente. 
-    </div>
-    </td>
-    <td>
-    <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong>Lançamento da sua primeira campanha</strong><br/>Crie e inicie sua primeira campanha no Journey Optimizer para fornecer um conteúdo direcionado e único a um público-alvo específico.</div>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td align="center"><a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    </tr>
-</table>
-
-## Explorar a documentação
-
-<table style="table-layout:auto">
-  <tr style="border: 0;">
-    <td>
-      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>Experiência do cliente</strong><br/><a href="using/building-journeys/journey.md">Jornadas</a> - <a href="using/campaigns/get-started-with-campaigns.md">Campanhas</a> - <a href="using/landing-pages/get-started-lp.md">Páginas de destino</a> - <a href="using/reports/live-report.md">Relatórios</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">Gestão de decisões</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Configuração<br/>Administração</strong><br/><a href="using/configuration/channel-surfaces.md">Superfícies de canal</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configurar jornadas</a>  - <a href="using/administration/permissions-overview.md">Controle de acesso</a> - <a href="using/administration/sandboxes.md">Gerenciamento de sandboxes</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>Canais de comunicação</strong><br/><a href="using/email/get-started-email.md">Email</a> - <a href="using/sms/get-started-sms.md">SMS</a> - <a href="using/in-app/get-started-in-app.md">In-app</a> - <a href="using/push/get-started-push.md">Notificações por push</a> - <a href="using/direct-mail/get-started-direct-mail.md">Correspondência direta</a> - <a href="using/web/get-started-web.md">Web</a>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td>
-      <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>Gerenciamento de conteúdo</strong><br/><a href="using/integrations/assets.md">Ativos e imagens</a> - <a href="using/personalization/personalize.md">Personalização</a> - <a href="using/content-management/content-templates.md">Conteúdo</a> reutilizável <a href="using/personalization/dynamic-content.md">e</a> dinâmico - <a href="using/content-management/preview-test.md">Teste e pré-visualização de conteúdo</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>Perfis e públicos-alvo</strong><br/><a href="using/audience/about-audiences.md">Públicos-alvo</a> - <a href="using/audience/get-started-profiles.md">Perfis</a> - <a href="using/audience/get-started-identity.md">Identidades</a> - <a href="using/audience/license-usage.md">Uso da licença</a> - <a href="using/privacy/get-started-privacy.md">Gerenciamento de privacidade</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
-      <strong>Gerenciamento de dados</strong><br/><a href="using/data/get-started-schemas.md">Esquemas</a> - <a href="using/data/get-started-datasets.md">Conjuntos de dados</a> - <a href="using/data/get-started-queries.md">Consultas</a>
-    </td>
-  </tr>
-</table>
+- **[Teste, Validação e Aprovação](./rp_landing_pages/test-landing-page.md)** - Teste e aprove seu conteúdo, suas jornadas e suas campanhas para garantir a qualidade e a precisão antes da implantação.
+- **[Públicos-alvo, Perfis e Identidades](./rp_landing_pages/audiences-profiles-identities-landing-page.md)** - Gerencie públicos-alvo, perfis e identidades para permitir o direcionamento e a personalização eficientes.
+- **[Relatórios Abrangentes](./rp_landing_pages/reporting-landing-page.md)** - Analise e otimize jornadas, campanhas e canais com recursos avançados de relatórios.
+- **[Recursos de decisão](./rp_landing_pages/decisioning-landing-page.md)** - Aproveite as ferramentas de decisão para criar e gerenciar ofertas personalizadas e otimizar fluxos de trabalho de marketing.
+- **[Gerenciamento abrangente de dados](./rp_landing_pages/data-management-landing-page.md)** - gerencie dados de maneira eficiente com ferramentas para governança, uso de esquema e recursos de consulta.
+- **[Configuração de canal](./rp_landing_pages/configuration-landing-page.md)** - Configure e otimize os canais de comunicação para obter conformidade e melhorar o desempenho da campanha.
+- **[Configuração do Jornada](./rp_landing_pages/configure-journeys-landing-page.md)** - Configure fontes de dados, eventos e ações para criar jornadas de clientes perfeitas.
+- **[Conectar sistemas e ambientes](./rp_landing_pages/connect-systems-landing-page.md)** - Integre o Adobe Journey Optimizer a sistemas externos, APIs e soluções da Adobe.
+- **[Gerenciamento do Controle de Acesso](./rp_landing_pages/access-control-landing-page.md)** - Controle o acesso, as funções e as permissões dos usuários para proteger os dados e garantir a governança.
+- **[Privacidade, consentimento e governança de dados](./rp_landing_pages/privacy-landing-page.md)** - gerencie a privacidade, o consentimento e a governança dos dados para cumprir as regulamentações e proteger informações confidenciais.
 
 ## Recursos adicionais
 

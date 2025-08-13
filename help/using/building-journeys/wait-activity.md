@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 17%
@@ -53,7 +53,7 @@ No modo de teste, o parâmetro **[!UICONTROL Tempo de espera em teste]** permite
 
 ### Canais de espera e móveis {#wait-mobile-channels}
 
-Se você quiser mostrar uma [mensagem no aplicativo](../in-app/create-in-app.md) logo após enviar uma [notificação por push](../push/get-started-push.md), use uma atividade **Aguardar** para permitir que o tempo de carga da mensagem no aplicativo seja propagado. Normalmente, recomenda-se uma espera de 5 a 15 minutos, mas os tempos exatos podem variar dependendo da complexidade da carga útil e das necessidades de personalização.
+Se você quiser mostrar uma [mensagem no aplicativo](../in-app/create-in-app.md) logo após enviar uma [notificação por push](../../rp_landing_pages/push-landing-page.md), use uma atividade **Aguardar** para permitir que o tempo de carga da mensagem no aplicativo seja propagado. Normalmente, recomenda-se uma espera de 5 a 15 minutos, mas os tempos exatos podem variar dependendo da complexidade da carga útil e das necessidades de personalização.
 
 ## Configuração {#wait-configuration}
 

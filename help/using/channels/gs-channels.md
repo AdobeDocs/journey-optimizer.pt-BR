@@ -6,12 +6,13 @@ description: Saiba como trabalhar com canais de comunicação do  [!DNL Adobe Jo
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: f365a5819575990b92ca589557d37c3f274bd4d7
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 51%
 
 ---
+
 
 # Introdução aos canais do [!DNL Adobe Journey Optimizer] {#get-started-email}
 
@@ -23,51 +24,108 @@ O Adobe Journey Optimizer oferece uma variedade de canais nativos para interagir
 
 Os canais de saída para entrega de mensagens envolvem o envio de mensagens para clientes sem interação prévia. Os exemplos incluem campanhas de email e notificações por push, nos quais você entra em contato de forma proativa com seu público-alvo. No [!DNL Adobe Journey Optimizer], os canais de saída com suporte são:
 
-* **Email**: entregue mensagens personalizadas diretamente para as caixas de entrada dos seus clientes.
-* **SMS/MMS/RCS**: envie mensagens de texto para alcançar usuários em seus dispositivos móveis.
-* **Notificação por push**: interaja com usuários com notificações instantâneas em seus dispositivos, gerando ação imediata.
-* **Correspondência direta**: utilize a correspondência física para criar uma conexão tangível com seu público-alvo.
+:::: landing-cards-container
 
-Selecione um canal para se aprofundar e descobrir como aproveitá-lo de maneira eficaz em sua estratégia de marketing.
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../email/get-started-email.md"><img alt="email" src="assets/do-not-localize/email.png"></a>
-<div align="center"><a href="../email/get-started-email.md"><strong>Email</strong></a></div></td>
-<td><a href="../sms/get-started-sms.md"><img alt="SMS" src="assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="../sms/get-started-sms.md"><strong>SMS</strong></a></div></td>
-<td><a href="../push/get-started-push.md"><img alt="push" src="assets/do-not-localize/push.png"></a>
-<div align="center"><a href="../push/get-started-push.md"><strong>Notificação por push</strong></a></div></td>
-<td><a href="../direct-mail/get-started-direct-mail.md"><img alt="Correspondência direta" src="assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>Correspondência direta</strong></a></div></td>
-</tr></table>
+Canal de email
+
+Descubra como criar, configurar e otimizar campanhas de email, incluindo personalização, capacidade de entrega e práticas recomendadas de conformidade.
+
+[Saiba mais sobre o Canal de email](../../rp_landing_pages/email-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+Canal de notificação por push
+
+Saiba como criar, configurar e enviar notificações por push para iOS e Android, incluindo opções avançadas como notificações silenciosas e modo de entrega rápida.
+
+[Saiba mais sobre Notificações por push](../../rp_landing_pages/push-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+
+Mensagens SMS/MMS/RCS
+
+Entenda como criar, gerenciar e configurar mensagens SMS, MMS e RCS para fins de marketing e transacionais, incluindo conformidade e personalização.
+
+[Saiba mais sobre mensagens SMS/MMS/RCS](../../rp_landing_pages/sms-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+
+Campanhas de correspondência direta
+
+Descubra como criar e gerenciar campanhas de correspondência direta, incluindo a exportação de arquivos de extração para provedores de terceiros e a garantia de conformidade com o consentimento do usuário.
+
+[Saiba mais sobre Campanhas de correspondência direta](../../rp_landing_pages/direct-mail-landing-page.md)
+:::
+
+::::
 
 ## Experiências do aplicativo móvel e da Web {#inbound-channels}
 
 Com experiências de entrada de aplicativos móveis e da Web, os clientes iniciam interações. Os exemplos incluem mensagens no aplicativo e experiências baseadas na web, as quais permitem que os usuários interajam com o conteúdo do seu jeito. No [!DNL Adobe Journey Optimizer], os canais de entrada com suporte são:
 
-* **No aplicativo**: comunique-se com usuários em seu aplicativo móvel ou da web para aprimorar a experiência deles.
-* **Web**: use mensagens baseadas na web para interagir com usuários que navegam no seu site.
-* **Experiência baseada em código**: implemente experiências personalizadas por meio de codificação para oportunidades exclusivas de engajamento.
-* **Cartões de conteúdo**: compartilhe conteúdo dinâmico diretamente nos seus aplicativos ou sites para manter os usuários informados e engajados.
+:::: landing-cards-container
 
-Selecione um canal para se aprofundar e descobrir como aproveitá-lo de maneira eficaz em sua estratégia de marketing.
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../in-app/get-started-in-app.md"><img alt="No aplicativo" src="assets/do-not-localize/inapp.jpg"></a>
-<div align="center"><a href="../in-app/get-started-in-app.md"><strong>No aplicativo</strong></a></div></td>
-<td><a href="../web/get-started-web.md"><img alt="Web" src="assets/do-not-localize/web.jpg"></a>
-<div align="center"><a href="../web/get-started-web.md"><strong>Web</strong></a></div></td>
-<td><a href="../code-based/get-started-code-based.md"><img alt="Experiência baseada em código" src="assets/do-not-localize/code.png"></a>
-<div align="center"><a href="../code-based/get-started-code-based.md"><strong>Experiência baseada em código</strong></a></div></td>
-<td><a href="../content-card/get-started-content-card.md"><img alt="Cartões de conteúdo" src="assets/do-not-localize/cards.png"></a>
-<div align="center"><a href="../content-card/get-started-content-card.md"><strong>Cartões de conteúdo</strong></a></div></td>
-</tr></table>
+Mensagens no aplicativo
 
+Aprenda a configurar, projetar e personalizar notificações no aplicativo para plataformas móveis e da Web, a fim de engajar os públicos-alvo nos aplicativos.
+
+[Saiba mais sobre Mensagens no aplicativo](../../rp_landing_pages/in-app-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+
+Web
+
+Saiba como criar, configurar e personalizar experiências na Web e integrar canais da Web a estratégias de marketing de saída.
+
+[Saiba mais sobre o canal da Web](../../rp_landing_pages/web-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Experiência baseada em código
+
+Mergulhe em experiências baseadas em código para fornecer conteúdo personalizado em plataformas digitais usando SDKs e APIs.
+
+[Saiba mais sobre a experiência baseada em código](../../rp_landing_pages/code-based-experience-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
+
+Cartões de conteúdo
+
+Descubra como configurar, criar e projetar cartões de conteúdo para mensagens envolventes e personalizadas em aplicativos para dispositivos móveis e sites.
+
+[Saiba mais sobre a experiência baseada em código](../../rp_landing_pages/content-card-landing-page.md)
+:::
+
+::::
+
+
+## Recursos adicionais
+
+- **[Mensagens do WhatsApp](../../rp_landing_pages/whatsapp-landing-page.md)** - Saiba como integrar e usar mensagens do WhatsApp por meio da API da nuvem do Meta para campanhas de comunicação personalizadas e compatíveis.
+- **[Mensagens LINE](../../rp_landing_pages/line-landing-page.md)** - Descubra como configurar, criar e personalizar mensagens LINE para uma comunicação eficaz em campanhas e jornadas.
 
 ## Canais em jornadas e campanhas {#leverage}
 
 No Adobe Journey Optimizer, é possível usar os canais de comunicação em dois contextos principais:
 
-* **Jornadas**: crie experiências do cliente ininterruptas em vários pontos de contato. Automatize interações com base no comportamento e nas preferências do usuário, garantindo comunicações oportunas e relevantes que orientam os usuários pela jornada com a sua marca. [Saiba como criar e executar uma jornada](../building-journeys/journey-gs.md).
+- **Jornadas**: crie experiências do cliente ininterruptas em vários pontos de contato. Automatize interações com base no comportamento e nas preferências do usuário, garantindo comunicações oportunas e relevantes que orientam os usuários pela jornada com a sua marca. [Saiba como criar e executar uma jornada](../building-journeys/journey-gs.md).
 
-* **Campanhas**: implemente campanhas de marketing específicas que utilizem um determinado canal para atingir objetivos específicos. Tanto na promoção de um novo produto quanto no impulsionamento de vendas sazonais, as campanhas permitem que você crie estratégias de mensagens focadas e adequadas ao seu público-alvo. [Saiba como criar e executar uma campanha](../campaigns/get-started-with-campaigns.md).
+- **Campanhas**: implemente campanhas de marketing específicas que utilizem um determinado canal para atingir objetivos específicos. Tanto na promoção de um novo produto quanto no impulsionamento de vendas sazonais, as campanhas permitem que você crie estratégias de mensagens focadas e adequadas ao seu público-alvo. [Saiba como criar e executar uma campanha](../campaigns/get-started-with-campaigns.md).
