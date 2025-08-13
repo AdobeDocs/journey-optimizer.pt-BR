@@ -20,7 +20,7 @@ As sandboxes no Adobe Journey Optimizer são como espaços de trabalho virtuais 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Gerenciar e atribuir sandboxes
 
@@ -30,7 +30,7 @@ Saiba como gerenciar e atribuir sandboxes para ambientes de particionamento, atr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Copiar objetos entre sandboxes
 

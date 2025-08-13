@@ -20,7 +20,7 @@ Os perfis no Adobe Journey Optimizer permitem criar visualizações unificadas d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução aos perfis
 
@@ -30,7 +30,7 @@ Saiba como criar, gerenciar e utilizar perfis no Adobe Journey Optimizer para pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como criar perfis de teste
 
@@ -40,7 +40,7 @@ Orientação passo a passo sobre como criar perfis de teste para teste de jornad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Trabalhar com atributos computados
 

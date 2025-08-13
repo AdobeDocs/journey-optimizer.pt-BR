@@ -20,7 +20,7 @@ Imagine criar comunicações tão personalizadas para seu público-alvo que elas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Tutorial do Personalization de notificação de status do pedido
 
@@ -30,7 +30,7 @@ Saiba como criar notificações por push personalizadas para atualizações de s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Guia do Personalization para e-mail de abandono de carrinho
 
@@ -40,7 +40,7 @@ Descubra como personalizar os emails de abandono do carrinho usando funções au
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Exemplo de Personalization de email de prescrição de plano de saúde
 

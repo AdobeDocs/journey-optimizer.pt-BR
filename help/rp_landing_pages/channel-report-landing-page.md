@@ -20,7 +20,7 @@ O &quot;Relatório de todos os tempos&quot; no Adobe Journey Optimizer é a sua 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao relatório de tempo integral
 
@@ -30,7 +30,7 @@ Saiba como acessar e aproveitar o recurso &quot;Relatório contínuo&quot; no Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Lista abrangente de métricas
 
@@ -40,7 +40,7 @@ Explore definições detalhadas de métricas usadas em canais de entrega como em
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar manualmente o Customer Journey Analytics
 
@@ -50,7 +50,7 @@ Guia passo a passo para configurar manualmente a integração com o Customer Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Gerenciar seus relatórios
 
@@ -60,7 +60,7 @@ Saiba como analisar, personalizar, exportar e agendar relatórios, bem como cria
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Configurar fontes de dados de relatórios
 
@@ -70,7 +70,7 @@ Configure fontes de dados e conjuntos de dados para ativar a experimentação e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Motivos de exclusão
 

@@ -20,7 +20,7 @@ A seção &quot;Configurar canal de cartão de conteúdo&quot; no Adobe Journey 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Pré-requisitos da configuração do canal de cartões de conteúdo
 
@@ -30,7 +30,7 @@ Saiba mais sobre as configurações necessárias para ativar o canal de Cartões
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Configurar o canal de cartões de conteúdo no Journey Optimizer
 
@@ -40,7 +40,7 @@ Siga as instruções passo a passo para definir superfícies de URI e criar conf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Configurar o suporte a cartões de conteúdo no Mobile SDK
 
@@ -50,7 +50,7 @@ Habilite e personalize cartões de conteúdo em aplicativos móveis usando os SD
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Configurar o suporte a cartões de conteúdo no Web SDK
 

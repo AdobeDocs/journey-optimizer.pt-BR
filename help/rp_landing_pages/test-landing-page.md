@@ -20,7 +20,7 @@ Os recursos &quot;Testar e aprovar&quot; no Adobe Journey Optimizer permitem que
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Visualizar, testar e validar conteúdo
 
@@ -30,7 +30,7 @@ Saiba como visualizar, testar e validar conteúdo personalizado usando perfis de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Fluxos de trabalho de aprovação para Jornadas e campanhas
 
@@ -40,7 +40,7 @@ Entenda como configurar, gerenciar e executar processos de aprovação para gara
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
 
 Acessar e assinar alertas do sistema
 

@@ -20,7 +20,7 @@ A seção Matemática no Adobe Journey Optimizer permite que você execute cálc
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Função random
 
@@ -30,7 +30,7 @@ Saiba como usar a função &quot;random&quot; para gerar números aleatórios en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Função round
 

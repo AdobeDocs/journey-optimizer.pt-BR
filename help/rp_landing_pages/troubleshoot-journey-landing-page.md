@@ -21,7 +21,7 @@ Quando uma jornada do cliente não se comporta conforme esperado, identificar a 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Solucionar erros antes de testar ou publicar a Jornada
 
@@ -31,7 +31,7 @@ Identifique e resolva erros em toda a jornada, problemas de atividade e defina a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Solução de problemas de execução do Live Jornada no Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ Diagnosticar problemas com validação de evento, entrada de perfil, navegação
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Solução de problemas de ações de entrada no Adobe Journey Optimizer Jornada
 
@@ -51,7 +51,7 @@ Depurar problemas de ação de entrada, como conteúdo ausente ou entrega contí
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Solução de problemas de ações personalizadas no Adobe Journey Optimizer
 
@@ -64,4 +64,4 @@ Valide e depure ações personalizadas usando o recurso &quot;Enviar solicitaç�
 
 ### Recursos adicionais
 
-Além disso, confira [esta publicação do blog da Adobe Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884) detalhando códigos de erro comuns e como resolvê-los de maneira eficaz.
+Além disso, confira [esta publicação do blog da Adobe Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt) detalhando códigos de erro comuns e como resolvê-los de maneira eficaz.

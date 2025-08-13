@@ -20,7 +20,7 @@ As atividades no Adobe Journey Optimizer são a base que dá vida às jornadas d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução às atividades de Jornada
 
@@ -30,7 +30,7 @@ Saiba mais sobre atividades de evento, orquestração e ação no Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Uso de eventos gerais
 
@@ -40,7 +40,7 @@ Descubra como usar eventos gerais para acionar jornadas e gerenciar tempos limit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Configurar eventos de reação
 
@@ -50,7 +50,7 @@ Explore como reagir a dados de rastreamento como cliques em mensagens ou abertur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Eventos de qualificação de público-alvo
 
@@ -60,7 +60,7 @@ Saiba como acionar ações e condições com base nos status de participação d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Uso da Atividade de Condição
 
@@ -70,7 +70,7 @@ Defina vários caminhos em uma jornada com base em critérios como hora, fonte d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
 
 Configurando a Atividade de Espera
 

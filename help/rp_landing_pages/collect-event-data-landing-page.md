@@ -20,7 +20,7 @@ A coleta de dados do evento no Adobe Journey Optimizer permite rastrear as princ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução à Coleta de dados do Gerenciamento de decisão
 
@@ -30,7 +30,7 @@ Saiba mais sobre os fundamentos da coleta de dados para a Gestão de decisões, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Como criar um conjunto de dados para coletar eventos de experiência
 
@@ -40,7 +40,7 @@ Siga as instruções passo a passo para criar um conjunto de dados e um esquema 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configuração da captura de dados do evento para a gestão de decisões
 

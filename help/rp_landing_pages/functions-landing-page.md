@@ -20,7 +20,7 @@ As funções auxiliares no Adobe Journey Optimizer permitem personalizar experi�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução às funções auxiliares
 
@@ -30,7 +30,7 @@ Saiba como usar funções auxiliares para manipulação e personalização de da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Biblioteca de funções de agregação
 
@@ -40,7 +40,7 @@ Descubra funções para resumir vários valores em um único valor para personal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Biblioteca de Funções Aritméticas
 
@@ -50,7 +50,7 @@ Explore como as funções aritméticas executam cálculos como adição, subtra�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Referência de funções de matriz e lista
 
@@ -60,7 +60,7 @@ Saiba como manipular matrizes e listas com funções como contagem, recuperaçã
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
 
 Biblioteca de Funções de Data e Hora
 
@@ -70,7 +70,7 @@ Use funções de data e hora para manipular e formatar datas para workflows de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Biblioteca booleana de funções de comparação
 

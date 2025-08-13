@@ -20,7 +20,7 @@ As fontes de dados na Adobe Journey Optimizer permitem que você se conecte a si
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução às Fontes de dados
 
@@ -30,7 +30,7 @@ Saiba mais sobre fontes de dados, seus tipos, casos de uso e grupos de campos. I
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Como configurar uma Source de dados
 
@@ -40,7 +40,7 @@ Guia passo a passo sobre configuração de fontes de dados e gerenciamento de gr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Adobe Experience Platform Data Source
 
@@ -50,7 +50,7 @@ Saiba como configurar a fonte de dados integrada do Adobe Experience Platform pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Configuração de fontes de dados externas
 

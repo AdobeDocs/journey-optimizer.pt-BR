@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # Públicos-alvo, perfis e identidade{#section-overview}
 
-Públicos, perfis e identidades no Adobe Journey Optimizer dependem dos recursos do [Perfil do cliente em tempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) da Adobe para potencializar experiências personalizadas. O **Audiences** permite segmentar clientes que usam dados avançados, **profiles** fornecem insights em tempo real enriquecidos com comportamentos e atributos, e **identidades** conectam interações entre canais usando o Gráfico de identidade. Esses elementos funcionam juntos para permitir mensagens direcionadas e jornadas consistentes para o cliente. Esta seção explica como ativar públicos-alvo, gerenciar perfis e mapear identidades para unificar dados e fornecer experiências relevantes e oportunas.
+Públicos, perfis e identidades no Adobe Journey Optimizer dependem dos recursos do [Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/home) da Adobe para potencializar experiências personalizadas. O **Audiences** permite segmentar clientes que usam dados avançados, **profiles** fornecem insights em tempo real enriquecidos com comportamentos e atributos, e **identidades** conectam interações entre canais usando o Gráfico de identidade. Esses elementos funcionam juntos para permitir mensagens direcionadas e jornadas consistentes para o cliente. Esta seção explica como ativar públicos-alvo, gerenciar perfis e mapear identidades para unificar dados e fornecer experiências relevantes e oportunas.
 
 ## Públicos, perfis e identidade
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Gerenciamento de público-alvo e Personalization
 
@@ -30,7 +30,7 @@ Saiba como criar, gerenciar e ativar públicos-alvo usando atributos de segmenta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=pt-BR)
 
 Perfis: gerenciar e otimizar os dados do cliente
 
@@ -40,7 +40,7 @@ Entenda como usar perfis, atributos computados e perfis de teste para criar visu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=pt-BR)
 
 Introdução às identidades
 
@@ -50,7 +50,7 @@ Descubra como gerenciar as identidades do cliente usando o Gráfico de identidad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Painel de Uso da Licença
 

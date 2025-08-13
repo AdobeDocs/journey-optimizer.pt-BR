@@ -38,7 +38,7 @@ As notificações por push podem ser criadas:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Criar e configurar notificações por push
 
@@ -48,7 +48,7 @@ Guia passo a passo para criar e configurar notificações por push, incluindo o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Projetar a notificação por push
 
@@ -58,7 +58,7 @@ Descubra como projetar e personalizar notificações por push com mídia, botõe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Visualizar, validar e enviar notificações por push
 
@@ -68,7 +68,7 @@ Saiba como visualizar, validar e enviar notificações por push, garantindo o su
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configuração da notificação por push
 

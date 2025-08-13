@@ -20,7 +20,7 @@ Delegar subdomínios de email no Adobe Journey Optimizer permite que os administ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução à delegação de subdomínio
 
@@ -30,7 +30,7 @@ Saiba mais sobre os benefícios, os métodos de configuração e as consideraç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Delegar um subdomínio
 
@@ -40,7 +40,7 @@ Orientação passo a passo para delegar subdomínios à Adobe, incluindo delega�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Configurar Registros Do DMARC
 
@@ -50,7 +50,7 @@ Configure registros do DMARC para aprimorar a segurança e a capacidade de entre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Adicionar um registro TXT do Google
 
@@ -60,7 +60,7 @@ Verifique os subdomínios para a capacidade de entrega do Gmail adicionando regi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Acessar e editar registros PTR
 
@@ -70,7 +70,7 @@ Gerencie registros PTR para subdomínios delegados, incluindo edição e noçõe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Criar pools de IP
 

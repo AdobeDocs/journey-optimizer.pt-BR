@@ -20,7 +20,7 @@ Os relatórios no Adobe Journey Optimizer têm como objetivo transformar dados b
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução aos relatórios
 
@@ -30,7 +30,7 @@ Saiba mais sobre os recursos de relatórios no Adobe Journey Optimizer, incluind
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Relatórios ao vivo
 
@@ -40,7 +40,7 @@ Explore ferramentas de relatório em tempo real para medir e otimizar jornadas, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Relatório de Tempo Todo
 
@@ -50,7 +50,7 @@ Entenda métricas, integração com o Customer Journey Analytics e ferramentas p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Relatórios de Jornada personalizados
 

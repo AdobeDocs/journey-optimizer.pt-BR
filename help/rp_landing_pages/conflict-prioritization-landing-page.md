@@ -20,7 +20,7 @@ O gerenciamento de conflitos e a priorização no Adobe Journey Optimizer ajudam
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao Gerenciamento de conflitos
 
@@ -30,7 +30,7 @@ Saiba como usar ferramentas como detecção de conflitos, pontuações de priori
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Identificar possíveis conflitos
 
@@ -40,7 +40,7 @@ Descubra métodos para detectar e resolver conflitos de campanha e jornadas, gar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Atribuir pontuações de prioridade às campanhas
 
@@ -50,7 +50,7 @@ Saiba como atribuir pontuações de prioridade numéricas a jornadas e campanhas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Definir regras de limitação de mensagens e Jornadas
 
