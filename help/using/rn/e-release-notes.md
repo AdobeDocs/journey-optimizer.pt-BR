@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: b0901a86eaa1d9a0482caf689043a1029313f6c5
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 35%
+source-wordcount: '929'
+ht-degree: 34%
 
 ---
 
@@ -205,6 +205,8 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
    * **Controle de taxa em campanhas de saída** - Agora é possível habilitar o controle de taxa de limitação para campanhas de saída (email, SMS, notificações por push), permitindo que você evite a sobrecarga em sistemas downstream, como páginas de aterrissagem ou plataformas de atendimento ao cliente.
 
    * **Agendamento de campanha de ação** - Os agendadores diários, semanais e mensais da campanha foram atualizados para melhorar a granularidade. Por exemplo, agora você pode definir o número de semanas/meses entre programações, definir em qual dia executar e decidir parar após um número específico de ocorrências ou em uma data específica.
+
+   * **Campanhas de ação transacional agendadas** - As campanhas de ação transacional agendadas agora estão disponíveis para enviar comunicações transacionais em lote e baseadas em público por canais de email, SMS e push.
 
 * **Canal - Push**
 
