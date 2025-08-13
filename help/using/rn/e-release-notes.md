@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7f9828c1781468155702d9f8fd475736a7656188
+source-git-commit: 7df443d5bf64f862f4adce43a34f14d13fd36733
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1038'
 ht-degree: 47%
 
 ---
@@ -182,7 +182,8 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>O Journey Optimizer agora permite criar formulários personalizados e aproveitá-los em páginas de aterrissagem para capturar atributos de perfil no conjunto de dados definido para cada formulário.</p>
-<p>No momento, esse recurso está na versão beta e disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.</p>
+<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
+<p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -216,4 +217,3 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 - **Jornadas**
    - **Jornada operações em massa** - Na lista de jornadas, agora é possível selecionar vários itens. Após a seleção, é possível pausar ou retomar até 10 jornadas por vez.
-
