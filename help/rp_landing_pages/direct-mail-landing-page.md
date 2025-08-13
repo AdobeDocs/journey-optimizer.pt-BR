@@ -20,7 +20,7 @@ A Correspondência direta no Adobe Journey Optimizer possibilita que você entre
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução às campanhas de correspondência direta
 
@@ -30,7 +30,7 @@ Saiba mais sobre as campanhas de correspondência direta no Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Como criar uma campanha de correspondência direta
 
@@ -40,7 +40,7 @@ Guia passo a passo para criar campanhas de correspondência direta e configurar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como verificar e enviar uma campanha de correspondência direta
 
@@ -50,7 +50,7 @@ Visualize, valide, ative e gerencie o consentimento para campanhas de correspond
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar canal de correspondência direta
 

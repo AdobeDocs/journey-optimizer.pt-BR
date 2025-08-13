@@ -20,7 +20,7 @@ A Adobe Journey Optimizer também pode enviar mensagens por meio de outras solu�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Integrar o Adobe Journey Optimizer com o Adobe Campaign Standard
 
@@ -30,7 +30,7 @@ Saiba como integrar o Adobe Journey Optimizer ao Adobe Campaign Standard para ha
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Integração do Adobe Journey Optimizer com o Adobe Campaign v7/v8
 
@@ -40,7 +40,7 @@ Descubra como conectar o Adobe Journey Optimizer com o Adobe Campaign v7/v8 para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Integrar o Adobe Journey Optimizer com o Marketo Engage
 

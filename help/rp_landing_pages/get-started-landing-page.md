@@ -20,7 +20,7 @@ O Adobe Journey Optimizer capacita as empresas a criar experiências personaliza
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Principais recursos do Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Descubra os principais recursos, casos de uso e arquitetura da Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Visão geral da arquitetura do Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Entenda como o Adobe Journey Optimizer se integra ao Adobe Experience Platform p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Conceitos principais: áreas funcionais no Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Saiba mais sobre as principais áreas funcionais do Adobe Journey Optimizer e co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Funções e responsabilidades no Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Obtenha uma visão geral das funções e dos fluxos de trabalho necessários par
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Visão geral da interface do usuário do Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Navegue pela interface do Adobe Journey Optimizer e explore seus recursos, inclu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Pesquisar, filtrar e organizar conteúdo no Adobe Journey Optimizer
 

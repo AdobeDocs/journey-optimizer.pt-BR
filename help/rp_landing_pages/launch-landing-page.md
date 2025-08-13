@@ -20,7 +20,7 @@ Iniciar sua primeira campanha orquestrada no Adobe Journey Optimizer permite cri
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Guia passo a passo para a criação de uma campanha orquestrada
 
@@ -30,7 +30,7 @@ Saiba mais sobre as principais etapas para criar, gerenciar e analisar uma campa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Criar e agendar uma campanha orquestrada
 
@@ -40,7 +40,7 @@ Descubra como criar e configurar propriedades de campanha, agendamentos de execu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Orquestrar atividades do Campaign
 
@@ -50,7 +50,7 @@ Domine a tela visual para projetar e configurar atividades para suas campanhas o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Iniciar e monitorar suas campanhas
 
@@ -60,7 +60,7 @@ Saiba como testar, publicar e monitorar suas campanhas orquestradas para uma exe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Relatórios para campanhas orquestradas
 

@@ -20,7 +20,7 @@ A capacidade de fornecimento de email tem a ver com garantir que seus emails che
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução à entregabilidade por email
 
@@ -30,7 +30,7 @@ Saiba mais sobre os conceitos, as práticas recomendadas e as ferramentas para o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Noções Básicas Sobre Listas de Supressão
 
@@ -40,7 +40,7 @@ Descubra como as listas de supressão protegem a reputação do remetente e melh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Conformidade com os novos requisitos da DMARC
 
