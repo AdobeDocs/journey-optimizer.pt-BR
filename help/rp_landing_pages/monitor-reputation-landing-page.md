@@ -20,7 +20,7 @@ O gerenciamento da integridade de suas campanhas de email começa com o monitora
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gerenciar a lista de supressão
 
@@ -30,7 +30,7 @@ Saiba como controlar a capacidade de entrega de emails gerenciando listas de sup
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gerenciamento de Tentativas e Listas de Supressão
 
@@ -40,7 +40,7 @@ Entenda e configure mecanismos de repetição para erros de devolução temporá
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Configuração da Lista de permissões
 

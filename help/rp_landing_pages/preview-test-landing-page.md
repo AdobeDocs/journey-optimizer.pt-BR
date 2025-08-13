@@ -20,7 +20,7 @@ A visualização e o teste de conteúdo no Adobe Journey Optimizer garantem que 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Como visualizar e testar seu conteúdo no Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Saiba como usar perfis de teste e dados de entrada de amostra para visualizar e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Como selecionar perfis de teste no Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Descubra como selecionar e gerenciar perfis de teste para visualizar e testar o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Pré-Visualizar Seu Conteúdo Usando Perfis De Teste
 
@@ -50,7 +50,7 @@ Guia passo a passo para visualizar conteúdo personalizado usando perfis de test
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Enviar Provas Usando Dados De Perfil De Teste
 
@@ -60,7 +60,7 @@ Teste e valide suas mensagens de email enviando provas usando os dados do perfil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 Como testar a renderização de email com o Litmus no Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Integre o Litmus para pré-visualizar a renderização de email em clientes de e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Como simular e testar variações de conteúdo no Adobe Journey Optimizer
 

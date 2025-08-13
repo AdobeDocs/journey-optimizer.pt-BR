@@ -20,7 +20,7 @@ A configuração do Jornada no Adobe Journey Optimizer permite criar experiênci
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à Configuração do Jornada
 
@@ -30,7 +30,7 @@ Saiba como configurar Fontes de dados, Eventos e Ações para habilitar a entreg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configuração de evento no Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Aprenda a configurar e gerenciar eventos que acionam jornadas, incluindo eventos
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuração do Data Source no Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Entenda e gerencie fontes de dados, incluindo tipos pré-configurados e externos
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Configuração e uso de ações personalizadas
 

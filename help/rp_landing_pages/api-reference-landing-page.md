@@ -20,7 +20,7 @@ A seção Referência de API no Adobe Journey Optimizer desbloqueia as ferrament
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à API de biblioteca de ofertas
 
@@ -30,7 +30,7 @@ Saiba como integrar a API da Biblioteca de ofertas para gestão de decisões, co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fornecer ofertas usando APIs do Adobe Journey Optimizer
 

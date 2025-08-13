@@ -20,7 +20,7 @@ O gerenciamento de regras de limitação de mensagens e jornadas no Adobe Journe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Trabalhar com conjuntos de regras
 
@@ -30,7 +30,7 @@ Saiba como criar, gerenciar e ativar conjuntos de regras para controlar a frequ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Limite de Jornada e arbitragem
 
@@ -40,7 +40,7 @@ Descubra como definir limites de simultaneidade e entrada de jornada, priorizar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Limite de frequência por canal
 

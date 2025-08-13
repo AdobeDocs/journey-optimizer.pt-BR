@@ -20,7 +20,7 @@ As landing pages no Adobe Journey Optimizer permitem que você crie páginas da 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução às landing pages
 
@@ -30,7 +30,7 @@ Saiba mais sobre as noções básicas das páginas de aterrissagem, sua funciona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar e publicar páginas de destino
 
@@ -40,7 +40,7 @@ Orientação passo a passo para criar, configurar, testar e publicar páginas de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gerenciar suas landing pages
 
@@ -50,7 +50,7 @@ Acesse, organize e execute ações como publicar, duplicar e marcar páginas de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Design de conteúdo para páginas de aterrissagem
 
@@ -60,7 +60,7 @@ Crie e personalize landing pages com modelos, formulários e recursos avançados
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar e Gerenciar Listas de Assinaturas
 
@@ -70,7 +70,7 @@ Configure listas de assinaturas para gerenciar perfis de participação e simpli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casos de uso da landing page
 

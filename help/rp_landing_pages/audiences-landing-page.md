@@ -20,7 +20,7 @@ O Audiences no Adobe Journey Optimizer ajuda você a se conectar com as pessoas 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução aos públicos
 
@@ -30,7 +30,7 @@ Saiba mais sobre os fundamentos de gerenciamento de público-alvo, segmentação
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar e gerenciar públicos-alvo
 
@@ -40,7 +40,7 @@ Descubra fluxos de trabalho avançados para criação, composição e enriquecim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Ativar públicos em campanhas e Jornadas
 
@@ -50,7 +50,7 @@ Entenda como ativar públicos-alvo e usá-los com eficiência em campanhas e jor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Aproveitar atributos de enriquecimento
 

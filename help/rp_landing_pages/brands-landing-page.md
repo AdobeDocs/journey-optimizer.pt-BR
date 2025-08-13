@@ -20,7 +20,7 @@ No Adobe Journey Optimizer, o recurso &quot;Marcas&quot; permite definir e mante
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Crie e gerencie suas diretrizes de marca
 
@@ -30,7 +30,7 @@ Saiba como definir, personalizar e manter as diretrizes da marca para uma identi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Avaliar a pontuação do alinhamento da marca
 

@@ -20,7 +20,7 @@ O gerenciamento do consentimento é fundamental para aumentar a confiança do se
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gerenciar a opção de não participação e o consentimento da Personalization
 
@@ -30,7 +30,7 @@ Saiba como gerenciar preferências de recusa e aplicar o consentimento de person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Trabalhar com políticas de consentimento
 

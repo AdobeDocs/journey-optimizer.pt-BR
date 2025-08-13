@@ -20,7 +20,7 @@ A seção &quot;Configurar ofertas&quot; no Adobe Journey Optimizer permite que 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar Ofertas Personalizadas
 
@@ -30,7 +30,7 @@ Saiba como criar e gerenciar ofertas personalizadas com orientação passo a pas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adicionar representações a ofertas
 
@@ -40,7 +40,7 @@ Defina e configure onde as ofertas são exibidas usando representações, enquan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adicionar restrições às ofertas
 

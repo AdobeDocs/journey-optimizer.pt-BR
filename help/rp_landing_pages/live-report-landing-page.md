@@ -20,7 +20,7 @@ O recurso Relatório ao vivo no Adobe Journey Optimizer permite rastrear e anali
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao relatório em tempo real
 
@@ -30,7 +30,7 @@ Saiba como acessar, personalizar e exportar relatórios ao vivo para monitorar j
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Lista de métricas
 
@@ -40,7 +40,7 @@ Entenda as definições e categorias de métricas usadas em Relatórios ao vivo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Jornada relatório ao vivo
 
@@ -50,7 +50,7 @@ Analisar o desempenho das jornadas e dos canais de comunicação associados em t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Relatório ao vivo da campanha
 
@@ -60,7 +60,7 @@ Visualize o desempenho da campanha em vários canais, como email, push, SMS, Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Relatório ao vivo da landing page
 
@@ -70,7 +70,7 @@ Avalie o desempenho da página de aterrissagem com métricas em tempo real, como
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Relatório ao vivo da assinatura
 

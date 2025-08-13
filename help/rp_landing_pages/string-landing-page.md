@@ -20,7 +20,7 @@ Cadeias de caracteres são os blocos fundamentais de dados baseados em texto, e 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referência de função concat
 
@@ -30,7 +30,7 @@ Saiba como combinar strings ou uma lista de strings usando a função &quot;conc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso da função &quot;contain&quot;
 
@@ -40,7 +40,7 @@ Descubra como verificar a presença de uma cadeia de caracteres em outra cadeia.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função containIgnoreCase
 
@@ -50,7 +50,7 @@ Entenda como executar verificações de contenção de cadeia que não diferenci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referência de função endWith
 
@@ -60,7 +60,7 @@ Saiba como verificar se uma string termina com um sufixo específico.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função endWithIgnoreCase
 
@@ -70,7 +70,7 @@ Verifique se uma string termina com um sufixo, ignorando a diferenciação entre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referência da função equalIgnoreCase
 

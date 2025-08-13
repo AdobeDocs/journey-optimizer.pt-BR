@@ -20,7 +20,7 @@ Os dados de contexto capacitam o Adobe Journey Optimizer a criar experiências m
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução aos dados de contexto
 
@@ -30,7 +30,7 @@ Saiba como usar dados de contexto no mecanismo de decisão do Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilização de dados de contexto em solicitações do Edge Decisioning
 
@@ -40,7 +40,7 @@ Descubra como transmitir dados de contexto em solicitações do Edge Decisioning
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Utilização de dados de contexto em solicitações de decisão e regras de elegibilidade
 

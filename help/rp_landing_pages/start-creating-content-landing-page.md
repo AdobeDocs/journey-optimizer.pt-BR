@@ -20,7 +20,7 @@ A criação de conteúdo no Adobe Journey Optimizer tem tudo a ver com flexibili
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar conteúdo de email do zero
 
@@ -30,7 +30,7 @@ Saiba como criar e personalizar conteúdo de email usando o Designer de email do
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Importar conteúdo de email existente
 
@@ -40,7 +40,7 @@ Importe conteúdo do HTML para o Adobe Journey Optimizer, ajuste os elementos de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Programar seu próprio conteúdo de email
 
@@ -50,7 +50,7 @@ Codifique manualmente seu conteúdo de email usando o HTML bruto no modo &quot;C
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Trabalhar com modelos de email
 
@@ -60,7 +60,7 @@ Economize tempo usando modelos de email de amostra ou personalizados para simpli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Aproveitar temas de email
 

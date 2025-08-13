@@ -20,7 +20,7 @@ A criação de conteúdo no Adobe Journey Optimizer permite criar páginas de at
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar uma página de aterrissagem no Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Saiba como criar páginas de aterrissagem do zero, usar HTML bruto, importar HTM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Criar e personalizar conteúdo da página de destino
 
@@ -40,7 +40,7 @@ Adicione componentes como formulários, personalize seus estilos e use dados con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Trabalhar com modelos de página de destino
 
@@ -50,7 +50,7 @@ Salve as landing pages como modelos e reutilize-as para simplificar seu fluxo de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Usar JavaScript personalizado em páginas de aterrissagem
 

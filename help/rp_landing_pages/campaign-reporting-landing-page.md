@@ -20,7 +20,7 @@ Os relatórios de campanha no Adobe Journey Optimizer permitem desbloquear insig
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Visão geral do relatório de campanha
 
@@ -30,7 +30,7 @@ Saiba como analisar o desempenho da campanha usando métricas principais, como t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Relatório de campanha baseado em código
 
@@ -40,7 +40,7 @@ Entenda como avaliar experiências personalizadas e estratégias de tomada de de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Relatório de campanha de cartão de conteúdo
 
@@ -50,7 +50,7 @@ Analise campanhas de Cartão de conteúdo com métricas como exibição e tendê
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Relatório de campanha de correspondência direta
 
@@ -60,7 +60,7 @@ Avalie a eficiência das campanhas de correspondência direta analisando o statu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
 
 Relatório de campanha de email
 
@@ -70,7 +70,7 @@ Obtenha insights sobre métricas de desempenho de email, taxas de engajamento e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
 
 Relatório de campanha de experimentação
 

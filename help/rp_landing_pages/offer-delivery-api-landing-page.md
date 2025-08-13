@@ -20,7 +20,7 @@ As APIs de entrega de ofertas da Adobe Journey Optimizer permitem que você forn
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução às APIs de entrega de ofertas
 
@@ -30,7 +30,7 @@ Saiba mais sobre as APIs disponíveis para fornecer ofertas personalizadas, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fornecer ofertas usando a API de decisão
 
@@ -40,7 +40,7 @@ Crie e entregue ofertas de marketing personalizadas usando a API de decisão com
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Fornecer ofertas usando a API do Edge Decisioning
 
@@ -50,7 +50,7 @@ Implemente a entrega personalizada de ofertas usando o Adobe Experience Platform
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uso da API de decisão em lote para entrega de ofertas
 

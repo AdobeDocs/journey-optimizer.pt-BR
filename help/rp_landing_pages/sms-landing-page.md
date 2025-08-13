@@ -20,7 +20,7 @@ O canal SMS/MMS/RCS no Adobe Journey Optimizer permite que você envolva os clie
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução a mensagens de texto
 
@@ -30,7 +30,7 @@ Saiba como configurar, criar e gerenciar mensagens SMS, MMS e RCS no Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Como criar mensagens SMS, MMS e RCS
 
@@ -40,7 +40,7 @@ Guia passo a passo para projetar, configurar e enviar mensagens de texto persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Marque e envie suas mensagens de texto
 
@@ -50,7 +50,7 @@ Pré-visualizar, validar e enviar mensagens enquanto garante o sucesso da entreg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gerenciar opção de não participação de mensagem de texto
 
@@ -60,7 +60,7 @@ Garanta a conformidade com os padrões do setor gerenciando processos de recusa 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar subdomínios de SMS
 
@@ -70,7 +70,7 @@ Configure subdomínios SMS para entrega de mensagens, incluindo configuração, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configurar SMS/MMS/Canais RCS
 

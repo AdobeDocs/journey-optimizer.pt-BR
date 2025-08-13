@@ -20,7 +20,7 @@ A configuração de páginas de aterrissagem no Adobe Journey Optimizer permite 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar subdomínios de página de destino
 
@@ -30,7 +30,7 @@ Saiba como configurar, gerenciar e cancelar a delegação de subdomínios para h
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definir predefinições da página inicial
 

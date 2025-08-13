@@ -94,7 +94,7 @@ Clique na sua função abaixo para acessar orientações específicas adaptadas 
 
 Para saber mais sobre os principais recursos e personalidades do Journey Optimizer, assista ao vídeo de introdução. O vídeo aborda a interface do usuário do e destaca os principais recursos com base em fluxos de trabalho específicos à função.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430320?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Recursos adicionais
 

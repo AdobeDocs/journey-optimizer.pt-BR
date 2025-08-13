@@ -20,7 +20,7 @@ Configurar o canal de email no Adobe Journey Optimizer é o seu gateway para cri
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à configuração de email
 
@@ -30,7 +30,7 @@ Saiba mais sobre as etapas essenciais para configurar recursos de email, incluin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definir configurações de email
 
@@ -40,7 +40,7 @@ Defina configurações de email para entrega, conformidade e personalização co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Ativar e configurar o cancelamento de inscrição da lista
 
@@ -50,7 +50,7 @@ Saiba como habilitar o recurso &quot;List unsubscribe&quot; para incluir URLs de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar parâmetros de cabeçalho de email
 
@@ -60,7 +60,7 @@ Personalize endereços de email de remetente e resposta, trate de erros e encami
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Configurar o rastreamento de URL para o canal de email
 
@@ -70,7 +70,7 @@ Configure parâmetros de rastreamento de URL para medir a eficiência das campan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Configurações personalizadas de email
 

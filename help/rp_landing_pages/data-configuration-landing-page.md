@@ -20,7 +20,7 @@ A configuração de dados no Adobe Journey Optimizer trata da configuração da 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gerenciar esquemas relacionais e conjuntos de dados
 
@@ -30,7 +30,7 @@ Saiba como criar e gerenciar esquemas relacionais, configurar conjuntos de dados
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Como configurar um Targeting Dimension
 

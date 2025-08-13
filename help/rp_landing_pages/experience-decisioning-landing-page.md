@@ -20,7 +20,7 @@ O recurso de decisão do Adobe Journey Optimizer permite que você forneça ofer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao serviço de decisão
 
@@ -30,7 +30,7 @@ Saiba mais sobre os fundamentos da Decisão no Adobe Journey Optimizer, incluind
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Medidas de proteção e limitações da decisão
 
@@ -40,7 +40,7 @@ Entenda as restrições e práticas recomendadas para usar o Decisioning de mane
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referência da API: entrega de ofertas
 
@@ -50,7 +50,7 @@ Saiba como fornecer ofertas usando o canal de experiência baseada em código co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gerenciar itens de decisão e catálogos
 
@@ -60,7 +60,7 @@ Configure e gerencie itens de decisão, catálogos e coleções para organizar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Criar regras de decisão
 
@@ -70,7 +70,7 @@ Defina as regras de decisão para direcionar os públicos com precisão usando r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Criar classificações com modelos de IA
 
