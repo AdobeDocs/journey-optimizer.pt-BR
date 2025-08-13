@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0d9d5324a8ca2c02fd18c01808e45be83952cc91
+source-git-commit: 804dfd79ac48b0030213e9a3ba944146a4fe8c15
 workflow-type: tm+mt
-source-wordcount: '2875'
+source-wordcount: '2878'
 ht-degree: 98%
 
 ---
@@ -509,6 +509,7 @@ ht-degree: 98%
       + [Trabalhar com fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments.md)
       + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
+      + [Trabalhar com integrações](using/integrations/external-sources.md)
    + Assistente de IA para geração de conteúdo {#ai-assistant}
       + [Assistente de IA para geração de conteúdo](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introdução ao Assistente de IA](using/content-management/gs-generative.md)
