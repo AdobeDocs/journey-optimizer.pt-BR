@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: definições, email, configuração
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
+exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 93%
+source-wordcount: '712'
+ht-degree: 90%
 
 ---
-
 
 # Parâmetros de cabeçalho {#email-header}
 
@@ -64,7 +64,7 @@ Se você receber um erro ao enviar a configuração de email, isto significa que
 
 >[!NOTE]
 >
->Se o subdomínio do endereço inserido for um domínio [totalmente delegado](../configuration/delegate-subdomain.md#full-subdomain-delegation) à Adobe, entre em contato com o departamento executivo de conta da Adobe.
+>Se o subdomínio do endereço inserido for um domínio [totalmente delegado](../configuration/delegate-subdomain.md#full-subdomain-delegation) à Adobe, entre em contato com o representante da Adobe.
 
 ## Email de encaminhamento {#forward-email}
 
