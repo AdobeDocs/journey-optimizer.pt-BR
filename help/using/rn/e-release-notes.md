@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: da1562edb6ba8e98210c5c6add4fa16ca025d9f7
+source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1033'
 ht-degree: 32%
 
 ---
@@ -164,11 +164,12 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer é compatível com uma nova atividade de Ação genérica que permite configurar ações únicas e ações de saída de vários canais, permitindo uma configuração de ação simplificada na tela de jornada. Em especial, este novo recurso permite:</p>
+<p>O Journey Optimizer é compatível com uma nova atividade de Ação genérica que permite configurar grupos de ações únicas e de ações de entrada múltiplas, permitindo uma configuração de ação simplificada na tela de jornada. Em especial, este novo recurso permite:</p>
 <ul>
 <li>Uma configuração de ação nativa simplificada na tela de jornada.</li>
 <li>A capacidade de criar nós de entrada de várias ações.</li>
 <li>A capacidade de adicionar otimização a qualquer ação de canal integrada.</li>
+<li>A capacidade de adicionar opções de experimentação e multilíngues a qualquer ação.</li>
 </ul>
 <p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
