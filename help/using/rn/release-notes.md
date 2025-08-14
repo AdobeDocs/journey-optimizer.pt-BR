@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 32bc229e3d34e705d7f89530db9b3fbc3b136071
+source-git-commit: e8edafaff94ae9498f3d0eb3d696b38cd25e4c0a
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1662'
 ht-degree: 48%
 
 ---
@@ -281,6 +281,10 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
    * **Jornada operações em massa** - Na lista de jornadas, agora é possível selecionar vários itens. Após a seleção, é possível pausar ou retomar até 10 jornadas por vez.
 
    * **Suporte a Redirecionamento (302) em Ações Personalizadas** - As ações personalizadas agora podem lidar com redirecionamentos HTTP 302 com base em solicitações. Isso permite que as jornadas se integrem a APIs que redirecionam solicitações para URLs localizados ou específicos da região. Os redirecionamentos são seguidos automaticamente, garantindo que o conteúdo correto seja entregue sem configuração extra.
+
+* **Conjuntos de dados**
+
+   * **Repositório de objetos do Experience Decisioning - Itens de oferta personalizados** - O conjunto de dados de exportação interno agora captura todos os atributos de oferta e o status do ciclo de vida, permitindo a personalização e os relatórios completos.
 
 ## Orquestração de campanha  
 
