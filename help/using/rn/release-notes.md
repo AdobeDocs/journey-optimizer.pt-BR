@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 32bc229e3d34e705d7f89530db9b3fbc3b136071
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1638'
 ht-degree: 48%
 
 ---
@@ -254,7 +254,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Canal - Email**
 
-   * **Anexos do PDF para emails** - Agora é possível anexar arquivos estáticos do PDF a mensagens de email enviadas com o Journey Optimizer.
+   * **Anexos do PDF para emails** - Agora é possível anexar arquivos estáticos do PDF a mensagens de email enviadas com o Journey Optimizer. Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.
 
 * **Canal - SMS**
 
