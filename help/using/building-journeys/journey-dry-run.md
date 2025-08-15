@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Execução de prática de jornada
+title: Teste de simulação de jornada
 description: Saiba como publicar uma jornada no modo de simulação
 feature: Journeys
 role: User
@@ -15,20 +15,20 @@ ht-degree: 16%
 
 ---
 
-# Execução de prática de jornada {#journey-dry-run}
+# Teste de simulação de jornada {#journey-dry-run}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="Modo de execução de prática"
->abstract="Esta jornada está em execução de prática. A Execução de prática da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la."
+>title="Modo de teste de simulação"
+>abstract="Esta jornada está em teste de simulação. O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
->title="Publicar uma jornada no modo de execução de prática"
->abstract="A Execução de prática da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais. Depois de projetar a jornada, execute um teste para confirmar sua funcionalidade e garantir que as etapas estejam corretas. Esse modo de publicação permite realizar um teste preliminar da jornada sem enviar comunicações para qualquer perfil."
+>title="Publicar uma jornada no modo de teste de simulação"
+>abstract="O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais. Depois de projetar a jornada, execute um teste para confirmar sua funcionalidade e garantir que as etapas estejam corretas. Esse modo de publicação permite realizar um teste preliminar da jornada sem enviar comunicações para qualquer perfil."
 
-A Execução de prática da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.
+O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.
 
 
 ## Principais benefícios {#journey-dry-run-benefits}
@@ -120,7 +120,7 @@ Os links para as últimas 24 horas e relatórios de todos os tempos estão dispo
 1. Clique em **Voltar ao rascunho** para confirmar.
 
 
-## Medidas de proteção e limitações {#journey-dry-run-limitations}
+## Proteções e limitações {#journey-dry-run-limitations}
 
 * Os perfis no modo simulação são contados em perfis acionáveis
 * Jornadas no modo simulação são contadas para a cota de jornada ativa
