@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
 workflow-type: tm+mt
 source-wordcount: '2881'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
    + [Principais recursos](using/start/get-started.md)
    + [Arquitetura](using/start/architecture-concepts-redpen.md)
    + [Conceitos principais](using/start/functional-areas-redpen.md)
-   + [Terminologia principal](using/start/terminology-md-redpen.md)
+   + [Principal terminologia](using/start/terminology-md-redpen.md)
    + Funções e responsabilidades {#quick-start}
       + [Visão geral](using/start/quick-start.md)
       + [Introdução para profissionais de marketing](using/start/path/marketer.md)
@@ -47,7 +47,7 @@ ht-degree: 98%
    + [Trabalhar com o Assistente de IA](using/start/ai-assistant.md)
    + [Medidas de proteção](using/start/guardrails.md)
    + [Práticas recomendadas](using/start/best-practices.md)
-   + [Playbooks](using/start/playbooks.md)
+   + [Manuais de estratégia](using/start/playbooks.md)
 + Jornadas {#orchestrate-journeys}
    + [Jornadas](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introdução a jornadas](using/building-journeys/journey.md)
@@ -58,7 +58,7 @@ ht-degree: 98%
       + [Configurar e rastrear as métricas da jornada](using/building-journeys/success-metrics.md)
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
-      + [Execução de prática de jornada](using/building-journeys/journey-dry-run.md)
+      + [Teste de simulação de jornada](using/building-journeys/journey-dry-run.md)
       + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
       + [Pausar uma jornada](using/building-journeys/journey-pause.md)
       + [Relatório em tempo real na sua jornada](using/building-journeys/report-journey.md)
@@ -274,8 +274,8 @@ ht-degree: 98%
    + [Introdução ao gerenciamento de conflitos e priorização](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar possíveis conflitos](using/conflict-prioritization/conflicts.md)
    + [Atribuir pontuações de prioridade](using/conflict-prioritization/priority-scores.md)
-   + Definir regras de limite de mensagem e jornada {#capping-rules}
-      + [Definir regras de limite de mensagem e jornada](/help/rp_landing_pages/capping-rules-landing-page.md)
+   + Definir regras de limites de mensagens e jornada {#capping-rules}
+      + [Definir regras de limites de mensagens e jornada](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Trabalhar com conjuntos de regras](using/conflict-prioritization/rule-sets.md)
       + [Limite e arbitragem de jornada](using/conflict-prioritization/journey-capping.md)
       + [Limite de frequência por canal e tipo de comunicação](using/conflict-prioritization/channel-capping.md)
@@ -328,7 +328,7 @@ ht-degree: 98%
             + [Ajustar o alinhamento vertical e o preenchimento](using/email/alignment-and-padding.md)
             + [Adicionar atributos de estilo incorporado](using/email/inline-styling.md)
             + [Definir conteúdo no modo escuro](using/email/dark-mode.md)
-      + [Gerenciar opção de não participação de email](using/email/email-opt-out.md)
+      + [Gerenciar recusa de email](using/email/email-opt-out.md)
       + Configurar canal de email {#configure-email}
          + [Configurar canal de email](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Introdução à configuração de email](using/email/get-started-email-config.md)
@@ -364,7 +364,7 @@ ht-degree: 98%
       + [Introdução às mensagens de texto](using/sms/get-started-sms.md)
       + [Criar uma mensagem SMS/MMS/RCS](using/sms/create-sms.md)
       + [Verificação e envio de mensagens de texto](using/sms/send-sms.md)
-      + [Gerenciar opção de não participação de mensagem de texto](using/sms/sms-opt-out.md)
+      + [Gerenciar recusa de mensagem de texto](using/sms/sms-opt-out.md)
       + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
       + Configurar canal de SMS/MMS/RCS {#configure-sms}
          + [Configurar canal de SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
@@ -390,8 +390,8 @@ ht-degree: 98%
          + [Configurar subdomínios da Web](using/web/web-delegated-subdomains.md)
          + [Criar configuração do canal da Web](using/web/web-configuration.md)
       + [Criação de experiências da Web](using/web/create-web.md)
-      + Páginas da Web de autor {#author-web-pages}
-         + [Páginas da Web de autor](/help/rp_landing_pages/author-web-pages-landing-page.md)
+      + Criar páginas da web {#author-web-pages}
+         + [Criar páginas da web](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [Trabalhar com o web designer](using/web/web-visual-editor.md)
          + [Usar o editor não visual](using/web/web-non-visual-editor.md)
          + [Gerenciar modificações](using/web/manage-web-modifications.md)
@@ -434,8 +434,8 @@ ht-degree: 98%
       + [Configurar canal LINE no Journey Optimizer](using/line/line-configuration.md)
       + [Criar uma mensagem LINE](using/line/create-line.md)
       + [Verificar e enviar mensagens LINE](using/line/send-line.md)
-+ Gestão de conteúdo {#content-management}
-   + [Gestão de conteúdo](/help/rp_landing_pages/content-management-landing-page.md)
++ Gerenciamento de conteúdo {#content-management}
+   + [Gerenciamento de conteúdo](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalização {#personalization}
       + [Personalização](/help/rp_landing_pages/personalization-landing-page.md)
       + [Introdução à personalização](using/personalization/personalize.md)
@@ -915,8 +915,8 @@ ht-degree: 98%
       + [Introdução a ações personalizadas](using/action/action.md)
       + [Configurar uma ação personalizada](using/action/about-custom-action-configuration.md)
       + [Usar as respostas de chamada da API em ações personalizadas](using/action/action-response.md)
-+ Conectar seus sistemas e ambientes {#connect-systems}
-   + [Conectar seus sistemas e ambientes](/help/rp_landing_pages/connect-systems-landing-page.md)
++ Conectar sistemas e ambientes {#connect-systems}
+   + [Conectar sistemas e ambientes](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Integrar a outras soluções](using/integrations/ajo-integrations.md)
    + [Trabalhar com APIs do Journey Optimizer](using/configuration/ajo-apis.md)
    + Integrar jornadas a sistemas externos {#external-systems}
