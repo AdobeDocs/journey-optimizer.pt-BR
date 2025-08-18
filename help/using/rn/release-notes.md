@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2afc9c4eb2a0433a22f1b369824086db2f5618ec
+source-git-commit: 5414f5a4c7bec643151f556375e0c58367d1c3bd
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 44%
+source-wordcount: '1749'
+ht-degree: 65%
 
 ---
 
@@ -68,9 +68,9 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <p>Agora há uma exibição de calendário disponível nas listas de jornadas e campanhas. Ela permite ver todas as ativações de jornadas e campanhas nas respectivas listas.</p>
 <p>Anteriormente lançado com disponibilidade limitada, este recurso já está disponível para todos os ambientes. Nesta versão com disponibilidade geral, o recurso inclui:</p>
 <ul>
-<li>Melhorias de design para a navegação em datas,</li>
-<li>A capacidade de ver campanhas de rascunho se você tiver definido uma data de início e término,</li>
-<li>Uma nova configuração para ocultar e mostrar os itens do calendário em execução por muito tempo.</li>
+<li>Melhorias de design para a navegação pelas datas,</li>
+<li>A possibilidade de ver rascunhos de campanha, se tiver definido as datas inicial e final,</li>
+<li>Uma nova configuração para ocultar e exibir os itens do calendário em execução por muito tempo.</li>
 </ul>
 <p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
@@ -115,7 +115,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <p>Com esta versão, foram introduzidos os seguintes aprimoramentos:</p>
 <ul>
 <li>Suporte de canais de entrada,</li>
-<li>A função auxiliar "datasetLookup" agora pode ser usada em fragmentos de expressão e visuais para personalizar o conteúdo usando dados de conjuntos de dados do Adobe Experience Platform,</li>
+<li>A função auxiliar "datasetLookup" agora pode ser usada em fragmentos de expressão e visuais para personalizar o conteúdo usando dados de conjuntos de dados da Adobe Experience Platform,</li>
 <li>Uma opção no conjunto de dados agora permite habilitar conjuntos de dados para personalização de pesquisa, sem precisar executar uma chamada de API.</li>
 </ul>
 <p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
@@ -147,16 +147,16 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Otimização do caminho de jornada</strong><br/></th>
+<th><strong>Otimização do caminho da jornada</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer agora capacita você com as ferramentas para otimizar suas jornadas, aproveitando estruturas de IA e experimentação e garantindo, ao mesmo tempo, usabilidade e diferenciação perfeitas entre as funcionalidades de condição e otimização.</p>
-<p>Use a otimização de caminho para direcionar, experimentar ou usar a IA para determinar a sequência de comunicações, o tempo entre eles, as combinações de canais e tudo o que você pode sonhar na tela de jornada.</p>
+<p><!--Journey Optimizer now empowers you with the tools to optimize your journeys by leveraging AI and experimentation frameworks while ensuring seamless usability and differentiation between condition and optimization functionalities.--></p>
+<p>Use a nova atividade Otimizar para direcionar, experimentar ou usar a IA para determinar a sequência de comunicações, o tempo entre elas, as combinações de canais e tudo o que você pode sonhar na tela de jornada.</p>
 <p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--img src="assets/do-not-localize/optimize.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -277,15 +277,15 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
       * **Agendas diárias, semanais ou mensais**: você pode especificar se a agenda recorrente deve parar em uma data específica ou após um determinado número de ocorrências.
 
-   * **Campanhas de ação transacional agendadas** - As campanhas de ação transacional agendadas agora estão disponíveis para enviar comunicações transacionais em lote e baseadas em público por canais de email, SMS e push.
+   * **Campanhas de ação transacional agendadas** - As campanhas de ação transacional agendadas agora estão disponíveis para enviar comunicações transacionais em lote e baseadas em público-alvo por canais de email, SMS e push.
 
 * **Canal - Push**
 
-   * **Data de expiração da notificação por push** - Agora é possível especificar uma data de expiração para cada notificação por push, o que impede que mensagens com detecção de hora (como vendas de Black Friday) sejam enviadas após uma determinada data, evitando assim a entrega de uma experiência ruim aos clientes.
+   * **Data de expiração da notificação por push** - Agora é possível especificar uma data de expiração para cada notificação por push, o que impede que mensagens sensíveis ao tempo (como promoções de Black Friday) sejam enviadas após uma determinada data, evitando assim a entrega de uma experiência ruim aos clientes.
 
 * **Canal - SMS**
 
-   * **Recusa difusa** - Quando habilitada, a opção **Recusa difusa** detecta mensagens de entrada que se assemelham muito às palavras-chave de recusa definidas (por exemplo, &#39;CANCIL&#39;) e envia automaticamente uma resposta de confirmação para verificar a intenção de cancelamento de inscrição do usuário. Se o usuário confirmar por meio do prompt definido, a subscrição será cancelada.
+   * **Recusa difusa**: quando habilitada, a opção **Recusa difusa** detecta mensagens de entrada que se assemelham às palavras-chave de recusa definidas (por exemplo, &quot;CANCILAR&quot;) e envia automaticamente uma resposta de confirmação para verificar a intenção de cancelamento de assinatura do usuário. Se o usuário confirmar por meio do prompt definido, sua inscrição será cancelada.
 
      Observe que a **Não participação difusa** só está disponível com o Sinch e o Infobip.
 
@@ -293,9 +293,9 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Configuração**
 
-   * **Suporte a domínio dinâmico** - O Journey Optimizer agora oferece suporte à personalização em URLs de rastreamento para domínios predefinidos listados no nível de configuração de canal.
+   * **Suporte a domínio dinâmico**: o Journey Optimizer agora oferece suporte à personalização em URLs de rastreamento para domínios predefinidos listados no nível da configuração de canais.
 
-   * **Os atributos personalizados são compatíveis com a URL de cancelamento de inscrição com um clique**. Com o Journey Optimizer, se você estiver gerenciando o consentimento fora do Adobe, poderá definir um ponto de extremidade personalizado externo definindo seu próprio link de cancelamento de inscrição com um clique na configuração do email. Quando os destinatários clicam no link de cancelamento de inscrição, o Journey Optimizer anexa alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento.
+   * **Suporte a atributos personalizados com URL de cancelar assinatura com um clique**: com o Journey Optimizer, se estiver gerenciando consentimento fora da Adobe, você poderá configurar um ponto de acesso externo personalizado definindo seu próprio link de cancelamento de inscrição com um clique na configuração do email. Quando os destinatários clicam no link de cancelar assinatura, o Journey Optimizer anexa alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento.
 
      Para personalizar ainda mais seu link de cancelamento de inscrição com um clique, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento.
 
@@ -305,7 +305,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Jornadas**
 
-   * **Jornada operações em massa** - Na lista de jornadas, agora é possível selecionar vários itens. Após a seleção, é possível pausar ou retomar até 10 jornadas por vez.
+   * **Operações em massa de jornada**: na lista de jornadas, agora é possível selecionar vários itens. Após a seleção, é possível pausar ou retomar até 10 jornadas por vez.
 
    * **Suporte a Redirecionamento (302) em Ações Personalizadas** - As ações personalizadas agora podem lidar com redirecionamentos HTTP 302 com base em solicitações. Isso permite que as jornadas se integrem a APIs que redirecionam solicitações para URLs localizados ou específicos da região. Os redirecionamentos são seguidos automaticamente, garantindo que o conteúdo correto seja entregue sem configuração extra.
 
@@ -321,7 +321,7 @@ O Journey Optimizer agora inclui a **Orquestração de campanha**, um novo recur
 
 >[!IMPORTANT]
 >
->Para acessar o Campaign Orchestration, sua licença deve incluir o pacote **Journey Optimizer - Campanhas e Jornadas** ou **Journey Optimizer - Campanhas**. Entre em contato com o representante da Adobe para confirmar sua licença e atualizar, se necessário.
+>Para acessar a Orquestração de campanha, sua licença deve incluir o pacote **Journey Optimizer – Campanhas e jornadas** ou **Journey Optimizer – Campanhas**. Entre em contato com o representante da Adobe para confirmar sua licença e atualizá-la, se necessário.
 
 ![GIF da orquestração de campanhas](assets/do-not-localize/release.gif)
 
@@ -359,7 +359,7 @@ Uma interface de orquestração visual totalmente nova, criada especificamente p
 
 ### Esquemas e conjuntos de dados relacionais {#oc-relational}
 
-O Adobe Journey Optimizer agora é compatível com entidades relacionais (por exemplo, produtos, lojas, reservas, contratos) vinculadas a perfis com base em pessoas. Isso permite a segmentação e a personalização em estruturas de dados multidimensionais, permitindo casos de uso como:
+O Adobe Journey Optimizer agora permite entidades relacionais (por exemplo: produtos, lojas, reservas, contratos) vinculadas a perfis com base em pessoas. Isso permite a segmentação e a personalização em estruturas de dados multidimensionais, permitindo casos de uso como:
 
 * Uma mensagem por reserva, assinatura ou contrato
 
