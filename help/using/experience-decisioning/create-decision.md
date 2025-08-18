@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
 workflow-type: tm+mt
 source-wordcount: '2495'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ As políticas de decisão são containers para suas ofertas que aproveitam o mec
 
 As principais etapas para aproveitar as políticas de decisão em suas mensagens são as seguintes:
 
-1. [Criar uma política de decisão em uma experiência baseada em email ou código](#add-decision)
+1. [Criar uma política de decisão em uma experiência baseada em código ou email](#add-decision)
 
    Defina uma política de decisão em seu email ou experiência baseada em código escolhendo o número de itens a serem retornados, configurando estratégias de seleção, opções de fallback e ordem de avaliação.
 
@@ -62,7 +62,7 @@ As principais etapas para aproveitar as políticas de decisão em suas mensagens
 
 ## Medidas de proteção e limitações
 
-* **Disponibilidade limitada - Política de decisão em emails** - Por enquanto, a criação de política de decisão em emails está disponível em Disponibilidade limitada. Entre em contato com seu representante da Adobe para obter acesso.
+* **Disponibilidade limitada - Política de decisão em emails** - Por enquanto, a criação de política de decisão em emails está disponível em Disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.
 * **Mirror pages** - Por enquanto, os itens de decisão não são renderizados em mirror pages de email.
 * **Tipo de rastreamento e links** - Para rastrear links gerados pela decisão, defina-os no esquema como &quot;Assets de decisão&quot;. Os links baseados em atributos não são rastreáveis.
 * **Aninhamento da política de decisão em emails** - Não é possível aninhar várias políticas de decisão em um componente de email principal que já tenha uma política de decisão associada.
@@ -75,7 +75,7 @@ As principais etapas para aproveitar as políticas de decisão em suas mensagens
 
 * **Classificação de IA** - Por enquanto, a classificação de IA não é compatível com o canal de email em jornadas com decisão.
 
-## Criar uma política de decisão em uma experiência baseada em email ou código {#add-decision}
+## Criar uma política de decisão em uma experiência baseada em código ou email {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -120,7 +120,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos recipients e visita
 
    +++
 
-   +++Menu de decisão do Designer **[!UICONTROL email]**
+   +++Menu de **[!UICONTROL Decisão]** do Designer de email
 
    1. Selecione um componente, clique no ícone **[!UICONTROL Decisão]** na barra de ferramentas ou no painel de propriedades e selecione **[!UICONTROL Adicionar nova política]**.
 
@@ -138,7 +138,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos recipients e visita
 
    Para emails, vários itens só podem ser retornados em um componente de conteúdo de **[!UICONTROL Grade de repetição]**. Expanda a seção abaixo para obter mais detalhes:
 
-+++ Retornar vários itens de decisão por email
+   +++ Retornar vários itens de decisão por email
 
    1. Arraste um componente **[!UICONTROL Repetir Grade]** para a tela e configure-o conforme desejado usando o painel **[!UICONTROL Configurações]**.
 
@@ -150,7 +150,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos recipients e visita
 
    ![](assets/decision-policy-repeat-number.png)
 
-+++
+   +++
 
 1. Clique em **[!UICONTROL Next]**.
 
@@ -314,7 +314,7 @@ Agora você pode adicionar todos os atributos de decisão desejados dentro desse
 >[!NOTE]
 >
 >Para o rastreamento de itens da política de decisão, o atributo `trackingToken` precisa ser adicionado da seguinte maneira para o conteúdo da política de decisão:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Clique em cada pasta para expandi-la. Coloque o cursor do mouse no local desejado e clique no ícone + ao lado do atributo que deseja adicionar. Você pode adicionar quantos atributos desejar ao código.
 

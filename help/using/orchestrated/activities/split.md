@@ -7,7 +7,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ A atividade **[!UICONTROL Divisão]** é uma atividade de **[!UICONTROL Direcion
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="Filtro da atividade de divisão"
->abstract="Para aplicar uma condição de filtragem ao subconjunto, clique em **[!UICONTROL Criar filtro]** e configure a regra de filtragem desejada usando o construtor de regras. Por exemplo, inclua perfis da população recebida cujo endereço de email já exista no banco de dados."
+>abstract="Para aplicar uma condição de filtragem ao subconjunto, clique em **[!UICONTROL Criar filtro]** e configure a regra de filtragem desejada com o construtor de regras. Por exemplo, inclua perfis da população recebida cujo endereço de email já exista no banco de dados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"

@@ -7,7 +7,7 @@ exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -50,7 +50,7 @@ A **[!UICONTROL Reconciliação]** exige que os registros relacionados já exist
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="Regras de reconciliação"
->abstract="Selecione as regras de reconciliação a serem usadas para a desduplicação. Para usar atributos, selecione a opção **Atributos simples** e escolha os campos origem e destino. Para criar sua própria condição de reconciliação usando o construtor de regras, selecione a opção **Condições avançadas de reconciliação**."
+>abstract="Selecione as regras de reconciliação a serem usadas para a desduplicação. Para usar atributos, selecione a opção **Atributos simples** e escolha os campos origem e destino. Para criar a sua própria condição de reconciliação com o construtor de regras, selecione a opção **Condições de reconciliação avançadas**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"

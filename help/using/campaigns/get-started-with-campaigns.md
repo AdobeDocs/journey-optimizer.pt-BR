@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -113,7 +113,7 @@ Visualizador de campanhas orquestradas
 
 Se não conseguir acessar as funcionalidades da campanha, entre em contato com o administrador para solicitar as permissões necessárias.
 
-+++Saiba como atribuir uma função relacionada à campanha
++++Saiba como atribuir função relacionada à campanha
 
 1. Para atribuir uma função a um usuário no produto [!DNL Permissions], navegue até a guia **[!UICONTROL Funções]** e selecione uma das **[!UICONTROL Funções]** integradas relacionadas à campanha detalhadas acima.
 
