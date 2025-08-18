@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6783'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -630,7 +630,7 @@ Essa versão traz as melhorias listadas abaixo.
 
 **Jornadas**
 
-* Na atividade **Condição**, por padrão, a **[!UICONTROL Condição de tempo]** agora é definida por hora, de 00:00 a 12:00. [Leia mais](../building-journeys/condition-activity.md#time_condition)
+* Na atividade **Condição**, por padrão, a **[!UICONTROL condição de tempo]** agora é definida por hora, das 00:00 às 12:00. [Leia mais](../building-journeys/condition-activity.md#time_condition)
 * Ao criar as jornadas, os alertas agora são exibidos ao selecionar o botão **Alertas**, para que se alinhar a outros alertas e proporcionar uma experiência consistente aos usuários. [Leia mais](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * As opções de zoom na barra de ferramentas da jornada foram aprimoradas: a porcentagem de zoom agora está visível e é possível redefinir mais facilmente o valor do zoom.
 

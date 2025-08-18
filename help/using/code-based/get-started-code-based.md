@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Com o recurso **experiência baseada em código**, é possível definir experiê
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️ Um caso de uso completo que mostra como usar experimentos de conteúdo para comparar decisões com o canal de experiência baseado em código é apresentado em [esta seção](../experience-decisioning/experience-decisioning-uc.md).
+➡️ Um caso de uso de ponta a ponta que mostra como usar experimentos de conteúdo para comparar decisões com o canal de experiência baseado em código é apresentado [nesta seção](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Quando usar canais baseados em código em vez de outros canais {#code-based-vs-other-channels}
 
@@ -53,7 +53,7 @@ Para executar casos de uso da Web, é possível usar o canal da web ou a experi�
 **Web**
 
 * Edite o conteúdo usando o editor visual do [designer da web](../web/web-visual-editor.md){target="_blank"} ou o [editor não visual](../web/web-non-visual-editor.md) da web.
-* Você precisa do [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"} - uma implementação no lado do cliente.
+* É necessário ter o [SDK da web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"}, uma implementação do lado do cliente.
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * O canal da Web permite modificar tudo na página e tem uma lista predefinida de ações que podem ser usadas para fazer alterações. [Saiba mais](../web/web-visual-editor.md){target="_blank"}
 * É fácil de configurar e começar a usar.
@@ -62,7 +62,7 @@ Para executar casos de uso da Web, é possível usar o canal da web ou a experi�
 **Experiência baseada em código**
 
 * Editar o conteúdo usando o [Editor de personalização](create-code-based.md#edit-code).
-* Você precisa da [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"} - implementação no lado do cliente ou da [API do AEP Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR){target="_blank"} - implementação no lado do servidor.
+* É necessário ter o [SDK da web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"}, implementação do lado do cliente, ou a [API do servidor da Edge Network da AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR){target="_blank"}, implementação do lado do servidor.
 * A experiência baseada em código requer trabalho de desenvolvimento anterior em sua implementação para garantir que os aplicativos possam interpretar e entregar o conteúdo publicado na borda pelo [!DNL Journey Optimizer] para estes locais. [Saiba mais](code-based-surface.md)
 * Ela requer mais planejamento e pode alterar apenas as coisas que os desenvolvedores especificam. Portanto, é essencial identificar os componentes (banner inicial, imagem hero, barra de menu, etc.) nos aplicativos que precisam ser modificados para personalização ou teste e trabalhar com a equipe de desenvolvimento na criação da implementação necessária para lidar com essas alterações.
 * Ela permite usar o conteúdo de código JSON.
