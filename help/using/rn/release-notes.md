@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: eefc6cd7804a14e289d2f1aa3a136f3e6215852c
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 62%
@@ -68,7 +68,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <li>Uma nova configuração para ocultar e exibir os itens do calendário em execução por muito tempo.</li>
 </ul>
 <p><img src="assets/do-not-localize/calendar.gif"/></p>
-<p>Para mais informações, consulte a <a href="../building-journeys/journey-ui.md#journeys-calendar">documentação detalhada</a></p>
+<p>Para mais informações, consulte a <a href="../building-journeys/journey-ui.md#calendar">documentação detalhada</a></p>
 </td>
 </tr>
 </tbody>
