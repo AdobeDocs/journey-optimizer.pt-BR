@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: text, email, version, plain, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 75%
@@ -28,7 +28,7 @@ Se preferir usar um conteúdo diferente para a versão de texto sem formatação
 
    ![](assets/text_version_3.png)
 
-1. Use o botão **[!UICONTROL Sincronizar com HTML]** para desabilitar a sincronização.
+1. Use o botão de alternância **[!UICONTROL Sincronizar com HTML]** para desabilitar a sincronização.
 
    ![](assets/text_version_1.png)
 
@@ -42,4 +42,4 @@ Se preferir usar um conteúdo diferente para a versão de texto sem formatação
 >
 >* Alterações feitas na exibição de **[!UICONTROL Texto sem formatação]** não serão refletidas na exibição de HTML.
 >
->* Se você habilitar novamente a opção **[!UICONTROL Sincronizar com HTML]** após atualizar o conteúdo de texto sem formatação, suas alterações serão perdidas e substituídas pelo conteúdo de texto gerado pela versão HTML.
+>* Se você habilitar novamente a opção **[!UICONTROL Sincronizar com o HTML]** depois de atualizar o conteúdo de texto sem formatação, suas alterações serão perdidas e substituídas pelo conteúdo de texto gerado pela versão do HTML.

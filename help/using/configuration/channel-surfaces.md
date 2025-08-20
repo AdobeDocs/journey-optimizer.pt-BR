@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1804'
 ht-degree: 12%
 
 ---
@@ -140,6 +140,8 @@ Depois de criadas, as configurações de canal podem ter os seguintes status:
 * **[!UICONTROL Ativo]**: a configuração de canal foi verificada e pode ser selecionada para criar mensagens.
 * **[!UICONTROL Falha]**: uma ou várias verificações falharam durante a verificação da configuração do canal.
 * **[!UICONTROL Desativado]**: a configuração do canal está desativada. Ele não pode ser usado para criar novas mensagens.
+
+### Motivos de falha na configuração do canal {#channel-config-failure}
 
 Em caso de falha na criação de um canal, os detalhes sobre cada possível motivo de falha são descritos abaixo.
 

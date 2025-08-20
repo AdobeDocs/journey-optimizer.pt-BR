@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2392'
-ht-degree: 17%
+source-wordcount: '2733'
+ht-degree: 15%
 
 ---
 
@@ -262,10 +262,10 @@ Para saber mais sobre as políticas de mesclagem, consulte a [documentação do 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="Critérios de saída da jornada"
->abstract="Esta seção mostra as opções de critérios de saída. É possível criar uma ou várias regras de critérios de saída para a sua jornada."
+>title="Critérios de saída"
+>abstract="Esta seção mostra as opções de critérios de saída. É possível criar uma ou várias regras de critérios de saída e filtros para a jornada."
 
-### Descrição {#exit-criteria-desc}
+### Jornada critérios de saída {#exit-criteria-desc}
 
 Ao adicionar critérios de saída, você faz com que os perfis saiam da jornada assim que um evento ocorrer (por exemplo: Compra) ou eles se qualificarem para um público-alvo. Isso impedirá que o usuário obtenha mais comunicações da jornada.
 
@@ -275,7 +275,7 @@ Talvez você queira remover perfis de uma jornada quando eles não atenderem mai
 
 Um profissional de marketing tem uma jornada promocional com uma série de comunicações. Cada uma dessas comunicações tem como objetivo orientar o cliente a fazer uma compra. Assim que a compra for feita, o cliente não deverá receber o restante das mensagens na série. Ao definir um critério de saída, os perfis que fizeram uma compra são removidos da jornada.
 
-### Configuração e utilização {#exit-criteria-config}
+#### Configuração e utilização {#exit-criteria-config}
 
 Os critérios de saída são definidos no nível da jornada. Uma jornada pode ter vários critérios de saída. Se você tiver definido vários critérios de saída, a avaliação acontece de cima para baixo com uma lógica de `OR`. Portanto, se você tiver o Critério de saída A e o Critério de saída B, ele será avaliado como A **OR** B. Os critérios são avaliados em cada etapa da jornada.
 
@@ -296,12 +296,39 @@ Você pode adicionar vários critérios de saída.
 
 ![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
-### Medidas de proteção e limitações {#exit-criteria-guardrails}
 
-As seguintes medidas de proteção e limitações se aplicam ao recurso de critérios de saída do jornada:
+### Critérios de saída baseados no atributo de perfil {#profile-exit-criteria}
+
+Os Critérios de saída com base em atributos de perfil oferecem maior controle sobre jornadas pausadas, permitindo definir regras que removem automaticamente perfis específicos antes que a jornada seja retomada. É possível definir condições de saída com base nos atributos do perfil, como local, status ou preferências, para garantir que somente os perfis relevantes continuem na jornada depois que ela for retomada.
+
+Por exemplo, você pode [pausar uma jornada](journey-pause.md), adicionar uma condição de saída para remover todos os perfis localizados na França e retomar a jornada sabendo que esses perfis serão excluídos na próxima etapa da ação. Essa lógica se aplica aos perfis que já estão na jornada e a quaisquer novos perfis que se qualifiquem após a retomada da jornada.
+
+Esse recurso funciona com a funcionalidade Pausar/Retomar, ajudando você a gerenciar jornadas com mais segurança e flexibilidade. Ele minimiza a intervenção manual, reduz o risco de enviar comunicações irrelevantes ou não compatíveis e mantém sua lógica de jornada alinhada às necessidades atuais dos negócios.
+
+Consulte esta seção para saber como [usar os critérios de saída do atributo de perfil no jornada pausado](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
+
+### Proteções e limitações {#exit-criteria-guardrails}
+
+As seguintes medidas de proteção e limitações se aplicam ao recurso [Critérios de saída do Jornada](#exit-criteria-desc):
 
 * Os critérios de saída são definidos somente em estado de rascunho
 * Jornada a coerência de namespace entre eventos e critérios de saída baseados em eventos
+
+As seguintes medidas de proteção se aplicam ao usar o recurso [Critérios de Saída Baseados em Atributo de Perfil](#profile-exit-criteria):
+
+* **Os critérios de saída se aplicam ao nível da ação**\
+  Os critérios de saída &quot;Atributo de perfil&quot; são avaliados somente nas etapas de ação. Diferentemente de outros tipos de critérios de saída, eles não se aplicam globalmente na jornada.\
+  Se você retomar uma jornada e alguns perfis atenderem à condição de saída, eles serão excluídos no nó da próxima ação.\
+  Os novos perfis que entrarem na jornada após a retomada também serão avaliados e excluídos no primeiro nó de ação, se atenderem à condição.
+
+* **Uma regra de saída baseada em perfil por jornada**\
+  Você pode definir apenas um critério de saída &quot;Atributo de perfil&quot; por jornada. Essa limitação ajuda a manter a clareza e evita conflitos na lógica de jornada.
+
+* **Disponível somente em jornadas pausadas**\
+  Você pode adicionar ou editar os critérios de saída do &quot;Atributo de perfil&quot; somente quando a jornada está pausada.
+
+   * Em uma **jornada de rascunho**, a opção *Atributo de Perfil* aparece desabilitada (somente leitura), enquanto as opções *Evento* e *Público-alvo* permanecem ativas.
+   * Em uma jornada **pausada**, a opção *Atributo de Perfil* torna-se editável, e as opções *Evento* e *Público* tornam-se somente leitura.
 
 ## Jornada programação {#schedule}
 

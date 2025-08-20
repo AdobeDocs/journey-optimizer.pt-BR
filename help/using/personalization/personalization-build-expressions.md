@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1560'
 ht-degree: 10%
 
 ---
@@ -30,7 +30,7 @@ Na interface do editor de personalização, você pode selecionar, organizar, pe
 
 ![](assets/perso_ee1.png)
 
-## Onde posso adicionar personalização
+## Onde posso adicionar personalização {#where}
 
 Você pode adicionar personalização em **[!DNL Journey Optimizer]** em todos os campos com o ícone ![adicionar personalização](assets/do-not-localize/add-perso-icon.svg). Expanda as seções abaixo para obter mais detalhes.
 
@@ -44,7 +44,7 @@ Ele também pode ser adicionado em outras seções do seu conteúdo. Por exemplo
 
 +++
 
-+++Designer de email
++++Email Designer
 
 Ao editar o conteúdo de email na [Designer de email](../email/get-started-email-design.md), você pode adicionar personalização em blocos de texto e em URLs usando o ícone na barra de ferramentas contextual.
 
@@ -76,6 +76,18 @@ Amostra de URLs personalizados:
 >Ao editar um URL personalizado no editor de personalização, as funções auxiliares e a associação de públicos-alvo são desativadas por motivos de segurança.
 >
 >Não há suporte para espaços nos tokens de personalização usados em urls.
+
+Com disponibilidade limitada, o Journey Optimizer também oferece suporte à personalização completa/básica de URL. Por exemplo:
+
+```
+<a href="{{profile.social.link}}" />
+<a href="{{profile.social.baseUrl}}/profile" />
+<a href="https://{{profile.social.baseUrl}}/profile" />
+```
+
+>[!WARNING]
+>
+>A lista de domínios aceitos deve ser fornecida ao Adobe antecipadamente.
 
 +++
 

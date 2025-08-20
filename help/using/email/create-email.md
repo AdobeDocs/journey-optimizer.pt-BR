@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 8%
+source-wordcount: '1026'
+ht-degree: 9%
 
 ---
 
@@ -92,7 +92,7 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
    >[!AVAILABILITY]
    >
-   >Por enquanto, a criação de políticas de decisão por email não está disponível para organizações que compraram as ofertas complementares do Adobe Healthcare Shield ou do Privacy and Security Shield.
+   >Por enquanto, a criação de políticas de decisão por e-mail está disponível em Disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.
 
 1. Na seção **[!UICONTROL Cabeçalho]**, verifique os campos **[!UICONTROL Do nome]**, **[!UICONTROL Do email]** e **[!UICONTROL Cco]**. Eles são configurados na configuração de email selecionada. [Saiba mais](email-settings.md) <!--check if same for journey-->
 

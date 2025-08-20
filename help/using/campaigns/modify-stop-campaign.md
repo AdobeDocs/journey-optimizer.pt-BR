@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 19%
+source-wordcount: '1548'
+ht-degree: 18%
 
 ---
 
@@ -140,16 +140,6 @@ Quando ocorre um erro em uma de suas campanhas, um ícone de aviso é exibido ju
 
 Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma exibição do calendário de suas campanhas, oferecendo uma representação visual clara de suas agendas.
 
->[!AVAILABILITY]
->
->No momento, a exibição de Calendário está disponível apenas para campanhas acionadas por Ação e API para um conjunto de organizações (Disponibilidade limitada). Para solicitar acesso, use [este formulário](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
->
->Esse recurso está em desenvolvimento ativo. Suas solicitações e informações são bem-vindas usando o botão **[!UICONTROL Comentários sobre a Beta]** no menu superior.
-
-O calendário exibe todas as campanhas programadas para a semana atual. Use os botões de seta acima do calendário para navegar entre semanas.
-
-![exibição de calendário mostrando campanhas ativas](assets/campaigns-timeline.png)
-
 Como as campanhas são representadas:
 
 * Por padrão, a grade de calendário mostra todas as campanhas ativas e programadas para a semana selecionada. Opções de filtro adicionais podem mostrar ativações concluídas, interrompidas e concluídas ou ativações de um determinado tipo ou canal.
@@ -158,11 +148,43 @@ Como as campanhas são representadas:
 * Se nenhuma hora de início for especificada, a hora de ativação manual mais próxima será usada para posicioná-la no calendário.
 * As campanhas são exibidas como intervalos de tempo de 1 hora, mas isso não reflete a hora real de envio ou de conclusão.
 
-Para obter mais detalhes sobre uma campanha, clique no bloco visual para abrir os detalhes.
+Para navegar no calendário do Campaigns:
 
-Para exibir detalhes de uma campanha específica, selecione-a na lista. Um painel de informações será aberto com várias informações sobre a campanha, como tipo, acesso aos relatórios ou as tags atribuídas.
+1. Clique no ícone do ![calendário](assets/do-not-localize/Smock_Calendar_18_N.svg) para acessar o calendário do Campaigns.
 
-![lista de campanhas com o painel de informações aberto](assets/campaign-rail.png)
+1. Use os botões de seta ou o seletor de datas acima do calendário para se mover entre semanas.
+
+   O calendário exibe todas as campanhas programadas para a semana atual.
+
+   ![exibição de calendário mostrando campanhas ativas](assets/campaigns-timeline.png)
+
+1. Clique no ícone de ![engrenagem](assets/do-not-localize/Smock_Gears_18_N.png) para alternar a exibição de itens que abrangem vários dias ou semanas.
+
+   ![exibição de calendário mostrando campanhas ativas](assets/campaign-long-term.png)
+
+1. Clique no ícone ![adicionar calendário](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) para gerenciar e adicionar até três calendários externos.
+
+   ![exibição de calendário mostrando calendários externos](assets/campaign-external-calendar.png)
+
+1. Arraste e solte seus arquivos CSV contendo nomes de eventos, datas de início e datas de término.
+
+   Os eventos carregados são exibidos para todos os usuários em sua organização e exibidos nos calendários do Jornada e do Campaign.
+
+   +++O formato CSV deve ser o seguinte:
+
+   | Coluna1 | Coluna2 | Coluna3 |
+   |-|-|-|
+   | Nome do evento | Data inicial no formato mm/dd/aa | Data final no formato mm/dd/aa |
+
+   +++
+
+1. Se necessário, você pode ocultar, reexibir ou remover calendários externos adicionados.
+
+   ![exibição de calendário mostrando calendários externos](assets/campaign-manage-calendar.png)
+
+1. Para obter mais detalhes sobre uma campanha, clique no bloco visual para abrir os detalhes. Um painel de informações será aberto com várias informações sobre a campanha, como tipo, acesso aos relatórios ou as tags atribuídas.
+
+   ![lista de campanhas com o painel de informações aberto](assets/campaign-rail.png)
 
 ## Modificar e parar campanhas de Ação recorrentes {#modify}
 

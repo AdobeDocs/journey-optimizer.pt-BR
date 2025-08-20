@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomínio, delegação, domínio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1906'
+source-wordcount: '1891'
 ht-degree: 18%
 
 ---
@@ -176,11 +176,10 @@ Para configurar um subdomínio usando CNAMEs, siga as etapas abaixo.
 Para concluir a delegação de subdomínio, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Enviar]**.
-
-   >[!NOTE]
-   >
-   >Se ocorrer um erro ao tentar enviar um subdomínio personalizado, consulte [esta seção](#check-list).
-
+<!--
+    >[!NOTE]
+    >
+    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).-->
 
 1. Você pode criar os registros e enviar a configuração de subdomínio posteriormente usando o botão **[!UICONTROL Salvar como rascunho]**.
 
@@ -273,4 +272,4 @@ Depois que a solicitação for tratada pela Adobe, o domínio não delegado não
 
 Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342240?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

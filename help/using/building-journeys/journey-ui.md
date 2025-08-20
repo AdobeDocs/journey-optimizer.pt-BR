@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 13%
+source-wordcount: '1391'
+ht-degree: 11%
 
 ---
 
@@ -48,21 +48,11 @@ A guia **[!UICONTROL Procurar]** mostra a lista de jornadas existentes. Você po
 
 ![Painel de jornada destacando a guia Procurar](assets/journeys-browse.png)
 
+Na lista da jornada, todas as versões da jornada são exibidas com o número da versão. Quando você pesquisa uma jornada, as versões mais recentes são exibidas na parte superior da lista na primeira vez que o aplicativo é aberto. Em seguida, você pode definir a classificação desejada e o aplicativo a manterá como uma preferência de usuário. A versão da jornada também é exibida na parte superior da interface de edição da jornada, acima da tela. Saiba mais sobre o [gerenciamento de versão do jornada](publishing-the-journey.md#journey-versions-journey-versions).
+
 ### Calendário do Jornada {#calendar}
 
 Além da lista de jornadas, o [!DNL Journey Optimizer] fornece uma exibição de calendário de suas jornadas, oferecendo uma representação visual clara de suas agendas.
-
->[!AVAILABILITY]
->
->No momento, a exibição de calendário está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para solicitar acesso, use [este formulário](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"}.
->
->Esse recurso está em desenvolvimento ativo. Suas solicitações e informações são bem-vindas usando o botão **[!UICONTROL Comentários sobre a Beta]** no menu superior.
-
-Para acessar o modo de exibição de calendário, abra a lista jornadas e clique no ícone ![calendário](assets/do-not-localize/timeline-icon.svg).
-
-O calendário exibe todas as jornadas programadas para a semana atual. Use os botões de seta acima do calendário para navegar entre semanas.
-
-![exibição de calendário mostrando jornadas ao vivo](assets/timeline-journeys.png)
 
 Como as jornadas são representadas:
 
@@ -72,10 +62,43 @@ Como as jornadas são representadas:
 * Se nenhuma hora de início for especificada, a hora de ativação manual mais próxima será usada para posicioná-la no calendário.
 * As jornadas são exibidas como intervalos de tempo de 1 hora, mas isso não reflete a hora real de envio ou de conclusão.
 
-Para obter mais detalhes sobre uma jornada, clique no bloco visual para abrir e explorar os detalhes.
+Para navegar no seu calendário de Jornadas:
 
-Na lista da jornada, todas as versões da jornada são exibidas com o número da versão. Quando você pesquisa uma jornada, as versões mais recentes são exibidas na parte superior da lista na primeira vez que o aplicativo é aberto. Em seguida, você pode definir a classificação desejada e o aplicativo a manterá como uma preferência de usuário. A versão da jornada também é exibida na parte superior da interface de edição da jornada, acima da tela. Saiba mais sobre o [gerenciamento de versão do jornada](publishing-the-journey.md#journey-versions-journey-versions).
+1. Para acessar o modo de exibição de calendário, abra a lista jornadas e clique no ícone ![calendário](assets/do-not-localize/timeline-icon.svg).
 
+1. Use os botões de seta ou o seletor de datas acima do calendário para se mover entre semanas.
+
+   O calendário exibe todas as jornadas programadas para a semana atual.
+
+   ![exibição de calendário mostrando jornadas ao vivo](assets/timeline-journeys.png)
+
+1. Clique no ícone de ![engrenagem](assets/do-not-localize/Smock_Gears_18_N.png) para alternar a exibição de itens que abrangem vários dias ou semanas.
+
+   ![exibição de calendário mostrando campanhas ativas](assets/journey-calendar-1.png)
+
+1. Clique no ícone ![adicionar calendário](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) para gerenciar e adicionar até três calendários externos.
+
+   ![exibição de calendário mostrando calendários externos](assets/journey-calendar-2.png)
+
+1. Arraste e solte seus arquivos CSV contendo nomes de eventos, datas de início e datas de término.
+
+   Os eventos carregados são exibidos para todos os usuários em sua organização e exibidos nos calendários do Jornada e do Campaign.
+
+   +++O formato CSV deve ser o seguinte:
+
+   | Coluna1 | Coluna2 | Coluna3 |
+   |-|-|-|
+   | Nome do evento | Data inicial no formato mm/dd/aa | Data final no formato mm/dd/aa |
+
+   +++
+
+1. Se necessário, você pode ocultar, reexibir ou remover calendários externos adicionados.
+
+   ![exibição de calendário mostrando calendários externos](assets/journey-calendar-3.png)
+
+1. Para obter mais detalhes sobre uma jornada, clique no bloco visual para abrir e explorar os detalhes.
+
+   ![lista de campanhas com o painel de informações aberto](assets/journey-calendar-4.png)
 
 
 ## Filtrar suas jornadas {#journey-filter}
@@ -115,7 +138,7 @@ Saiba mais sobre os tipos de jornadas e o gerenciamento de entradas associado ne
 O status da jornada depende do seu ciclo de vida. Pode ser:
 
 * **Fechada**: a jornada foi fechada usando o botão **Fechar para novas entradas**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente.
-* **Rascunho**: a jornada está em seu primeiro estágio. Ele ainda não foi publicado.
+* **Rascunho**: a jornada está em seu primeiro estágio. Ela ainda não foi publicada.
 * **Rascunho (Teste)**: o modo de teste foi ativado usando o botão **Modo de teste**.
 * **Concluído**: a jornada alterna automaticamente para esse status após o [tempo limite global](journey-properties.md#global_timeout) de 91 dias. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada.
 * **Ao vivo**: a jornada foi publicada usando o botão **Publicar**.
@@ -144,3 +167,19 @@ Para fazer isso, siga as etapas abaixo:
    ![](assets/duplicate-jo2.png)
 
 1. A nova jornada é criada e está disponível na lista de jornadas.
+
+
+## Operações em massa {#bulk-operations}
+
+Na lista de suas jornadas, você pode pausar várias jornadas do **Live**. Para pausar um grupo de jornadas (_pausa em massa_), selecione-as na lista e clique no botão **Pausar** na barra azul na parte inferior da tela. O botão **Pausar** só estará disponível quando as jornadas do **Live** forem selecionadas.
+
+![Pausar duas jornadas ativas em massa a partir da barra inferior](assets/bulk-pause-journeys.png)
+
+Você também pode retomar uma ou várias jornadas **Paused**. Para retomar um grupo de jornadas (_retomada em massa_), selecione-as e clique no botão **Retomar**, localizado na barra azul na parte inferior da tela. Observe que o botão **Retomar** só estará disponível quando as jornadas **Pausadas** forem selecionadas.
+
+[Saiba mais sobre as jornadas Pausar/Retomar](journey-pause.md).
+
+>[!NOTE]
+>
+>Você pode pausar/retomar até 10 jornadas por operação.
+

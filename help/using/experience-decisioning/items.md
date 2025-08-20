@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1907'
 ht-degree: 14%
 
 ---
@@ -51,6 +51,24 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
    >A prioridade é um tipo de dados inteiro. Todos os atributos que são tipos de dados inteiros devem conter valores inteiros (sem decimais).
 
 1. O campo **Tags** permite atribuir Tags unificadas do Adobe Experience Platform aos itens de decisão. Isso permite classificá-los facilmente e melhorar a pesquisa. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
+
+1. Use fragmentos para adicionar vários conteúdos ao item de decisão, por exemplo, se você quiser exibir conteúdos diferentes para vários modelos de dispositivos móveis. [Saiba mais sobre fragmentos](../content-management/fragments.md)
+
+   >[!AVAILABILITY]
+   >
+   >Os fragmentos nos itens de decisão estão disponíveis atualmente apenas para um conjunto de organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o representante da Adobe.
+
+   Na seção **[!UICONTROL Fragmentos]**, selecione os fragmentos publicados que deseja usar e atribua a eles uma chave de referência. É possível aproveitar esses fragmentos nas políticas de decisão. [Saiba como](create-decision.md#fragments)
+
+   ![](assets/item-fragments.png){width=70%}
+
+   Você só pode selecionar fragmentos publicados e adicionar até seis fragmentos em um item de decisão.
+
+   >[!WARNING]
+   >
+   >Atualmente, há suporte apenas para [fragmentos de expressão](../personalization/use-expression-fragments.md).
+   >
+   >Fragmentos aninhados (fragmentos que fazem referência a outros fragmentos) não podem ser usados. A [aprovação](#approve) do item de decisão falhará se você adicionar esse fragmento.
 
 1. Especifique atributos personalizados (opcional). Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são definidos no schema do catálogo dos itens de decisão. [Saiba como trabalhar com catálogos](catalogs.md)
 
@@ -137,14 +155,16 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
 
    ![](assets/item-capping-rules.png)
 
+<!--* Identifying how many times a given customer has been shown a decision item. 
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
+
+## Revisar e aprovar o item de decisão {#approve}
+
 1. Depois que as regras de qualificação e limite do item de decisão forem definidas, clique em **[!UICONTROL Avançar]** para revisar e salvar o item.
 
 1. O item de decisão agora aparece na lista, com o status **[!UICONTROL Rascunho]**. Quando estiver pronto para ser apresentado aos perfis, clique no botão de reticências e selecione **[!UICONTROL Aprovar]**.
 
    ![](assets/item-approve.png)
-
-<!--* Identifying how many times a given customer has been shown a decision item. 
-If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
 ## Gerenciar itens de decisão {#manage}
 

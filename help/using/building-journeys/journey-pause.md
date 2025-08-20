@@ -6,13 +6,12 @@ description: Saiba como pausar e retomar uma jornada em tempo real
 feature: Journeys
 role: User
 level: Intermediate
-badge: label="Disponibilidade limitada" type="Informative"
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2169'
-ht-degree: 7%
+source-wordcount: '2225'
+ht-degree: 6%
 
 ---
 
@@ -23,11 +22,8 @@ ht-degree: 7%
 >title="Pausar sua jornada"
 >abstract="Pause uma jornada em tempo real para impedir a entrada de novos perfis. Escolha se deseja descartar os perfis que estão atualmente na jornada ou mantê-los no lugar. Se retidos, eles retomarão a execução na próxima atividade de ação depois que a jornada for reiniciada. Perfeito para atualizações ou interrupções de emergência sem perder o progresso."
 
-Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante a pausa, você pode [aplicar filtros globais](#journey-global-filters) para excluir perfis com base em seus atributos. A jornada é retomada automaticamente no final do período de pausa. Você também pode [retomá-lo manualmente](#journey-resume-steps).
+Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante a pausa, você pode [aplicar os critérios de saída do atributo de perfil](#journey-global-filters) para excluir perfis com base em seus atributos. A jornada é retomada automaticamente no final do período de pausa. Você também pode [retomá-lo manualmente](#journey-resume-steps).
 
->[!AVAILABILITY]
->
->Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.
 
 
 ## Principais benefícios {#journey-pause-benefits}
@@ -65,11 +61,15 @@ Para pausar a jornada, siga estas etapas:
 
 1. Clique no botão **Pausar** para confirmar.
 
+O número máximo de perfis que podem ser mantidos em jornadas pausadas para sua Organização está visível no inventário de jornadas. Ela só é visível quando pelo menos uma jornada está pausada. Esse indicador também mostra o número total de jornadas pausadas. Ele é atualizado a cada 30 minutos. Saiba mais em [Medidas de proteção e limitações](#guardrails-and-limitations).
+
+![Número de jornadas e perfis pausados no momento](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+
 Na lista de suas jornadas, você pode pausar uma ou várias jornadas do **Live**. Para pausar um grupo de jornadas (_pausa em massa_), selecione-as na lista e clique no botão **Pausar** na barra azul na parte inferior da tela. O botão **Pausar** só estará disponível quando as jornadas do **Live** forem selecionadas.
 
 ![Pausar duas jornadas ativas em massa a partir da barra inferior](assets/bulk-pause-journeys.png)
 
-### Comportamento em jornadas pausadas
+## Lógica de execução do jornada pausada {#journey-pause-exec}
 
 Quando uma jornada é pausada, as entradas novas são sempre descartadas, independentemente do modo Manter/Descartar.
 
@@ -113,23 +113,23 @@ Para retomar uma jornada pausada e começar a ouvir eventos de jornada novamente
 Na lista de suas jornadas, você pode retomar uma ou várias jornadas **Pausadas**. Para retomar um grupo de jornadas (_retomada em massa_), selecione-as e clique no botão **Retomar**, localizado na barra azul na parte inferior da tela. Observe que o botão **Retomar** só estará disponível quando as jornadas **Pausadas** forem selecionadas.
 
 
-## Aplicar um filtro global a perfis em uma jornada pausada {#journey-global-filters}
+## Aplicar um critério de saída em uma jornada pausada {#journey-global-filters}
 
-Quando uma jornada é pausada, você pode aplicar um filtro global com base em atributos de perfil. Esse filtro permite a exclusão de perfis que correspondem à expressão definida no momento da retomada. Depois que o filtro global for definido, ele será aplicado nos nós de ação, mesmo para a entrada de novos perfis. Os perfis existentes que correspondem aos critérios e os novos perfis que entram na jornada serão excluídos da jornada **no próximo nó de ação** que encontrarem.
+Quando uma jornada é pausada, você pode aplicar um critério de saída com base nos atributos do perfil. Esse filtro permite a exclusão de perfis que correspondem à expressão definida no momento da retomada. Depois que os critérios de saída baseados em atributo de perfil forem definidos, eles serão aplicados nos nós de ação, mesmo para a entrada de novos perfis. Os perfis existentes que correspondem aos critérios e os novos perfis que entram na jornada serão excluídos da jornada **no próximo nó de ação** que encontrarem.
 
 Por exemplo, para excluir todos os clientes franceses de uma jornada pausada, siga estas etapas:
 
 1. Navegue até a jornada pausada que você deseja modificar.
 
-1. Selecione o ícone **Critérios de saída e Filtro global**.
+1. Selecione o ícone **Critérios de saída**.
 
-   ![Adicionar um filtro global a uma jornada pausada](assets/add-global-filter.png)
+   ![Adicionar um critério de saída de atributo de perfil a uma jornada pausada](assets/add-global-filter.png)
 
-1. Nas configurações de **Critérios de saída e Filtro global**, clique em **Adicionar filtro global** para definir um filtro com base em atributos de perfil.
+1. Nas configurações de **Critério de saída**, clique em **Adicionar critério de saída** para definir um filtro com base em atributos de perfil.
 
 1. Defina a expressão para excluir perfis em que o atributo de país é igual a França.
 
-   ![Adicionar um filtro global a uma jornada pausada](assets/add-country-filter.png)
+   ![Adicionar um critério de saída de atributo de perfil a uma jornada pausada](assets/add-country-filter.png)
 
 1. Salve seu filtro e clique no botão **Atualizar jornada** para aplicar as alterações.
 
@@ -137,15 +137,17 @@ Por exemplo, para excluir todos os clientes franceses de uma jornada pausada, si
 
    No momento da retomada, todos os perfis com o atributo de país definido como França serão automaticamente excluídos da jornada no nó da próxima ação. Quaisquer novos perfis com o atributo de país definido como França, ao tentar inserir a jornada, também serão bloqueados no nó da próxima ação.
 
-Esteja ciente de que as exclusões de perfil para perfis atualmente na jornada e para novos perfis só ocorrerão quando eles atingirem um nó de ação.
+Esteja ciente de que as exclusões de perfil para perfis atualmente na jornada e para novos perfis só ocorrerão **quando eles atingirem um nó de ação**.
 
 >[!CAUTION]
 >
->* Você só pode definir **um** filtro global por jornada.
+>* Você só pode definir **um** critérios de saída baseados em atributo de perfil por jornada.
 >
->* Você só pode criar, atualizar ou excluir um filtro global em **jornadas** em pausa.
+>* Você só pode criar, atualizar ou excluir um critério de saída baseado em atributo de perfil nas jornadas **Pausadas**.
+>
+>* Saiba mais sobre os critérios de saída baseados em Atributo de perfil [nesta seção](journey-properties.md#profile-exit-criteria).
 
-## Medidas de proteção e limitações {#journey-pause-guardrails}
+## Proteções e limitações {#journey-pause-guardrails}
 
 * Uma versão do jornada pode ser pausada por até **14 dias**, com um máximo de **10 milhões de perfis** permitidos em jornadas pausadas em sua organização.
 Esse limite é verificado a cada 30 minutos. Isso significa que você pode exceder temporariamente o limite de 10 milhões, mas assim que o sistema detectá-lo, quaisquer perfis adicionais serão automaticamente descartados.
@@ -169,7 +171,8 @@ Esse limite é verificado a cada 30 minutos. Isso significa que você pode exced
    * Descartar eventos comerciais para **Ler público**
    * **Ler público-alvo** trabalhos sendo ignorados devido à jornada pausada
    * Eventos descartados quando a atividade **Event** era posterior a uma ação em que o perfil estava aguardando
-     <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+
+
 
 ## Amostra completa {#journey-pause-sample}
 

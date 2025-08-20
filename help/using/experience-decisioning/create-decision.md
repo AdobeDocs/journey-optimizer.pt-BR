@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2495'
-ht-degree: 12%
+source-wordcount: '2745'
+ht-degree: 11%
 
 ---
 
@@ -314,7 +314,7 @@ Agora você pode adicionar todos os atributos de decisão desejados dentro desse
 >[!NOTE]
 >
 >Para o rastreamento de itens da política de decisão, o atributo `trackingToken` precisa ser adicionado da seguinte maneira para o conteúdo da política de decisão:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Clique em cada pasta para expandi-la. Coloque o cursor do mouse no local desejado e clique no ícone + ao lado do atributo que deseja adicionar. Você pode adicionar quantos atributos desejar ao código.
 
@@ -327,6 +327,57 @@ Agora você pode adicionar todos os atributos de decisão desejados dentro desse
 1. Você também pode adicionar qualquer outro atributo disponível no editor de personalização, como atributos de perfil.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+### Aproveitar fragmentos {#fragments}
+
+Se a política de decisão contiver itens de decisão, incluindo fragmentos, você poderá aproveitar esses fragmentos no código de política de decisão. [Saiba mais sobre fragmentos](../content-management/fragments.md)
+
+>[!AVAILABILITY]
+>
+>No momento, esse recurso só está disponível para algumas organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o representante da Adobe.
+
+Por exemplo, digamos que você queira exibir conteúdos diferentes para vários modelos de dispositivos móveis. Certifique-se de ter adicionado fragmentos correspondentes a esses dispositivos ao item de decisão que você está usando na política de decisão. [Saiba como](items.md#attributes).
+
+![](assets/item-fragments.png){width=70%}
+
+Depois de concluído, você pode usar um dos seguintes métodos:
+
+>[!BEGINTABS]
+
+>[!TAB Inserir o código diretamente]
+
+Basta copiar e colar o bloco de código abaixo no código de política de decisão. Substitua `variable` pela ID do fragmento e `placement` pela chave de referência do fragmento:
+
+```
+{% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
+{{fragment id = variable}}
+```
+
+>[!TAB Siga as etapas detalhadas]
+
+1. Navegue até as **[!UICONTROL funções auxiliares]** e adicione a **função Let** `{% let variable = expression %} {{variable}}` ao painel de código, onde você pode declarar a variável para o fragmento.
+
+   ![](assets/decision-let-function.png)
+
+1. Use a função **de** Mapa **>** Obter`{%= get(map, string) %}` para criar sua expressão. O mapa é o fragmento referenciado no item de decisão e a sequência pode ser o modelo de dispositivo inserido no item de decisão como a **[!UICONTROL Chave de referência do fragmento]**.
+
+   ![](assets/decision-map-function.png)
+
+1. Você também pode usar um atributo contextual que contenha essa ID de modelo de dispositivo.
+
+   ![](assets/decision-contextual-attribute.png)
+
+1. Adicione a variável escolhida para o fragmento como a ID do fragmento.
+
+   ![](assets/decision-fragment-id.png)
+
+>[!ENDTABS]
+
+A ID do fragmento e a chave de referência serão selecionadas na seção **[!UICONTROL Fragmentos]** do item de decisão.
+
+>[!WARNING]
+>
+>Se a chave do fragmento estiver incorreta ou se o conteúdo do fragmento não for válido, a renderização falhará, causando erro na chamada do Edge.
 
 ## Etapas finais {#final-steps}
 

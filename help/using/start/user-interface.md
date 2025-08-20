@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: ht
-source-wordcount: '1681'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1750'
+ht-degree: 94%
 
 ---
 
@@ -179,15 +179,19 @@ Em cada página, use os botões de ajuda contextual para saber mais sobre um rec
 ![](assets/do-not-localize/Context-help.gif)
 
 
-## Alertas no produto
+## Notificações no produto {#in-product-notifications}
 
-Você pode se inscrever para receber **alertas por email e no produto** sobre lançamentos do Journey Optimizer.
+Você pode habilitar os **alertas no produto e por email** para serem notificados sobre vários eventos que podem ser de seu interesse: falhas detectadas pelo sistema, solicitações de aprovação e/ou versões de produtos [!DNL Journey Optimizer].
 
-Para inscrever-se:
+Para ativar essas notificações, siga as etapas abaixo.
 
-1. Acesse as **Preferências da Adobe Experience Cloud**
-1. Em **Notificações**, procure **Novas versões do Journey Optimizer**
-1. Habilitar notificações no aplicativo e por email
+1. Navegue até [!DNL Adobe Experience Cloud] **[!UICONTROL Preferências]**.
+1. Em **[!UICONTROL Notificações]**, encontre **[!UICONTROL Journey Optimizer]**.
+1. Ative as notificações no aplicativo e/ou por email conforme desejado:
+
+   * **[!UICONTROL Alertas]**: quando ocorrer uma falha, você poderá obter notificações do sistema para os alertas nos quais está inscrito. [Saiba mais](../reports/alerts.md)
+   * **[!UICONTROL Aprovações]**: você é notificado quando alguém está solicitando sua aprovação de um objeto ou acesso a um objeto.
+   * **[!UICONTROL Novas versões]**: você será informado sobre qualquer nova versão do produto [!DNL Journey Optimizer].
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 

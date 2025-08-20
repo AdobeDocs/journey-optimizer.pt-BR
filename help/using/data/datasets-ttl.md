@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 17%
+source-wordcount: '689'
+ht-degree: 18%
 
 ---
 
@@ -45,13 +45,14 @@ A tabela abaixo lista todos os conjuntos de dados afetados e seu respectivo temp
 | Repositório de objetos de decisão - Ofertas substitutas | 13 meses | n/d |
 | Repositório de objetos de decisão - Posicionamentos | 13 meses | n/d |
 | Repositório de objetos de decisão - Atividades | 13 meses | n/d |
+| Repositório de objetos do Experience Decisioning - Itens de oferta personalizados | 13 meses | n/d |
 | ODE DecisionEvents - decisão de produção | 13 meses | n/d |
 
 ## Perguntas frequentes {#faq}
 
 Veja a seguir uma lista de respostas para perguntas frequentes sobre a SSL de conjuntos de dados.
 
-+++Essa alteração se aplica somente às sandboxes de produção ou também se aplica às sandboxes de desenvolvimento?
++++Essa alteração se aplicará somente às sandboxes de produção ou também se aplicará às sandboxes de desenvolvimento?
 
 Essa alteração será aplicada a todos os tipos de sandbox.
 
@@ -63,29 +64,29 @@ Os dados do conjunto de dados gerados pelo sistema no perfil são descartados ap
 
 +++
 
-+++Se os dados de um conjunto de dados gerado pelo sistema forem enviados para [!DNL Customer Journey Analytics] (CJA), os dados no CJA também serão afetados pelo TTL?
++++Se os dados de um conjunto de dados gerado pelo sistema forem enviados para o [!DNL Customer Journey Analytics] (CJA), os dados no CJA também serão afetados pelo TTL?
 
 Os dados em [!DNL Customer Journey Analytics] são mantidos em sincronia com o Experience Platform. Portanto, uma remoção de dados devido a um TTL em dados do conjunto de dados gerados pelo sistema também afetará os dados em [!DNL Customer Journey Analytics].
 
 +++
 
-+++ Os clientes podem aumentar o TTL para dados do conjunto de dados do sistema [!DNL Journey Optimizer] no armazenamento de perfil?
++++ Os clientes podem aumentar o TTL para dados do conjunto de dados do sistema [!DNL Journey Optimizer] no armazenamento de perfil? 
 
 As extensões TTLs não são compatíveis no momento. No entanto, está previsto o trabalho de otimização do processo TTL para permitir essas solicitações de extensão a partir do último semestre de 2025.
 
 >[!NOTE]
 >
->Os dados armazenados no perfil estão sujeitos ao direito Total de volume de dados. Portanto, qualquer aumento no armazenamento de dados no perfil como resultado de uma extensão TTL contaria em relação ao direito ao Volume de dados total. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=pt-BR){target=_blank}
+>Os dados armazenados no perfil estão sujeitos ao direito Total de volume de dados. Portanto, qualquer aumento no armazenamento de dados no perfil como resultado de uma extensão TTL contaria em relação ao direito ao Volume de dados total. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
-+++Os clientes podem aumentar o TTL para os dados do conjunto de dados do sistema [!DNL Journey Optimizer] no data lake?
++++Os clientes podem aumentar o TTL para os dados do conjunto de dados do sistema [!DNL Journey Optimizer] no data lake? 
 
-As extensões TTLs não são compatíveis no momento. Os clientes podem exportar dados por meio do Destinos para reter os dados por mais tempo. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=pt-BR){target=_blank}. Além disso, os clientes com um direito ao **[!DNL Data Distiller]** podem criar conjuntos de dados derivados para armazenar os dados no data lake sem um TTL. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+As extensões TTLs não são compatíveis no momento. Os clientes podem exportar dados por meio do Destinos para reter os dados por mais tempo. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. Além disso, os clientes com um direito ao **[!DNL Data Distiller]** podem criar conjuntos de dados derivados para armazenar os dados no data lake sem um TTL. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
-+++Os seguintes recursos serão afetados pelos TTLs?
++++Os recursos a seguir serão afetados pelos TTLs? 
 
 * **Repositório de pesquisa**: Não
 * **limite de Jornada**: Não
@@ -105,7 +106,7 @@ As extensões TTLs não são compatíveis no momento. Os clientes podem exportar
 
 +++
 
-+++Que carimbo de data e hora é usado para aplicar o TTL (por exemplo, para casos de uso de preenchimento retroativo)?
++++Qual carimbo de data e hora é usado para aplicar o TTL (por exemplo, para casos de uso de preenchimento retroativo)? 
 
 O carimbo de data e hora do evento é usado (ou seja, não a data de assimilação).
 

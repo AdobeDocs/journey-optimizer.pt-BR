@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,16 @@ Para configurar o Twilio com o Journey Optimizer, é necessário criar uma nova 
 1. No menu **[!UICONTROL Credenciais da API]**, clique no ícone de compartimento para excluir suas credenciais da API.
 
 1. Para modificar as credenciais existentes, localize as credenciais de API desejadas e clique na opção **[!UICONTROL Editar]** para fazer as alterações necessárias.
+
+1. Clique em **[!UICONTROL Verificar conexão de SMS]**, a partir de suas credenciais de API existentes, para testar e verificar suas credenciais de API de SMS enviando uma mensagem de exemplo para um dispositivo designado.
+
+1. Preencha os campos **Número** e **Mensagem** e clique em **[!UICONTROL Verificar conexão]**.
+
+   >[!IMPORTANT]
+   >
+   >A mensagem deve ser estruturada para se alinhar ao formato de carga do provedor.
+
+   ![](assets/verify-connection.png)
 
 Depois de criar e configurar a credencial da API, agora é necessário criar uma configuração de canal para mensagens SMS e MMS. [Saiba mais](sms-configuration-surface.md)
 
