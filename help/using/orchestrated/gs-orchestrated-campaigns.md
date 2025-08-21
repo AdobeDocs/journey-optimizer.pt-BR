@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introdução às campanhas orquestradas
-description: Saiba como começar com campanhas orquestradas
-short-description: Descubra recursos e casos de uso da chave de campanha orquestrada.
+description: Saiba como começar a usar as campanhas orquestradas
+short-description: Descubra os principais recursos e casos de uso das campanhas orquestradas.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 30%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ A Orquestração de Campanhas no [!DNL Adobe Journey Optimizer] possibilita camp
 
 >[!IMPORTANT]
 >
->Para acessar o Campaign Orchestration, sua licença deve incluir o pacote **Journey Optimizer - Campanhas e Jornadas** ou **Journey Optimizer - Campanhas**. Entre em contato com o representante da Adobe para confirmar sua licença e atualizar, se necessário.
+>Para acessar a Orquestração de campanha, sua licença deve incluir o pacote **Journey Optimizer – Campanhas e jornadas** ou **Journey Optimizer – Campanhas**. Entre em contato com o representante da Adobe para confirmar sua licença e atualizá-la, se necessário.
 
 Embora o marketing entre canais seja essencial, as campanhas orquestradas permitem que ele flua melhor. Com uma interface visual do tipo arrastar e soltar, você pode projetar e automatizar fluxos de trabalho de marketing complexos, desde a segmentação até a entrega de mensagens, em vários canais. Tudo acontece em um ambiente intuitivo, criado para proporcionar velocidade, controle e eficiência.
 
