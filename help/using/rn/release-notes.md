@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: eefc6cd7804a14e289d2f1aa3a136f3e6215852c
 workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 62%
+ht-degree: 77%
 
 ---
 
@@ -186,7 +186,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Anexos do PDF para emails</strong><br/></th>
+<th><strong>Anexos de PDF para emails</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -194,9 +194,9 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <td>
 <p>Agora é possível anexar um arquivo PDF estático a uma mensagem de email enviada com o Journey Optimizer.</p>
 <ul>
-<li>Você pode enviar até 6 mensagens com um anexo do PDF por perfil por ano.</li>
-<li>O tamanho máximo permitido para cada anexo é de 5 MB.</li>
-<li>Para qualquer tamanho ou volume adicional, você pode adquirir um complemento de pacote de anexos. Para obter mais detalhes, entre em contato com o representante da Adobe.</li>
+<li>É possível enviar até 6 mensagens com um anexo PDF por perfil em um ano.</li>
+<li>O tamanho máximo para cada anexo é 5 MB.</li>
+<li>Para qualquer tamanho ou volume adicional, é possível adquirir um complemento de pacote de anexos. Para obter mais informações, entre em contato com o representante da Adobe.</li>
 </ul>
 <p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
@@ -266,13 +266,13 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
    * **Controle de taxa em campanhas de saída** - Agora é possível habilitar o controle de taxa para campanhas de saída (email, SMS, notificações por push), permitindo que você evite a sobrecarga em sistemas downstream, como páginas de aterrissagem ou plataformas de atendimento ao cliente. [Leia mais](../campaigns/campaign-schedule.md#rate-control)
 
-   * **Agendamento de campanha de ação** - Os agendadores de campanha diários, semanais e mensais foram atualizados para fornecer controle mais detalhado sobre agendamentos recorrentes:
+   * **Agendamento de campanha de ação**: os agendadores de campanha diários, semanais e mensais foram atualizados para fornecer controle mais detalhado sobre agendamentos recorrentes:
 
       * **Recorrência semanal**: agora é possível optar por repetir a campanha toda semana ou a cada duas semanas e selecionar o(s) dia(s) da semana em que ela deve ser executada.
 
       * **Recorrência mensal**: agora é possível optar por repetir a campanha todos os meses ou a cada dois meses e selecionar o dia do mês em que ela deve ser executada.
 
-      * **Agendas diárias, semanais ou mensais**: você pode especificar se a agenda recorrente deve parar em uma data específica ou após um determinado número de ocorrências.
+      * **Agendas diárias, semanais ou mensais**: é possível especificar se a agenda recorrente deve parar em uma data específica ou após um determinado número de ocorrências.
 
    * **Campanhas de ação transacional agendadas** - As campanhas de ação transacional agendadas agora estão disponíveis para enviar comunicações transacionais em lote e baseadas em público-alvo por canais de email, SMS e push.
 
@@ -310,7 +310,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
    * **Operações em massa de jornada**: na lista de jornadas, agora é possível selecionar vários itens. Após a seleção, é possível pausar ou retomar até 10 jornadas por vez.
 
-   * **Suporte a Redirecionamento (302) em Ações Personalizadas** - As ações personalizadas agora podem lidar com redirecionamentos HTTP 302 com base em solicitações. Isso permite que as jornadas se integrem a APIs que redirecionam solicitações para URLs localizados ou específicos da região. Os redirecionamentos são seguidos automaticamente, garantindo que o conteúdo correto seja entregue sem configuração extra.
+   * **Suporte a redirecionamento (302) em ações personalizadas**: as ações personalizadas agora podem processar redirecionamentos HTTP 302 por solicitação. Isso permite que as jornadas se integrem a APIs que redirecionam solicitações para URLs localizados ou específicos da região. Os redirecionamentos são seguidos automaticamente, garantindo que o conteúdo correto seja entregue sem configuração extra.
 
 * **Conjuntos de dados**
 
