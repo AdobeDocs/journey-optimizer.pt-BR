@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1033'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -164,10 +164,10 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer é compatível com uma nova atividade de Ação genérica que permite configurar grupos de ações únicas e de ações de entrada múltiplas, permitindo uma configuração de ação simplificada na tela de jornada. Em especial, este novo recurso permite:</p>
+<p>O Journey Optimizer é compatível com uma nova Atividade de ação genérica que permite configurar ações únicas e grupos de ação de entrada multiação, possibilitando uma configuração de ação simplificada na tela da jornada. Em especial, este novo recurso permite:</p>
 <ul>
-<li>Uma configuração de ação nativa simplificada na tela de jornada.</li>
-<li>A capacidade de criar nós de entrada de várias ações.</li>
+<li>Uma configuração de ação nativa simplificada na tela da jornada.</li>
+<li>A capacidade de criar nós de entrada multiação.</li>
 <li>A capacidade de adicionar otimização a qualquer ação de canal integrada.</li>
 <li>A capacidade de adicionar opções de experimentação e multilíngues a qualquer ação.</li>
 </ul>
@@ -227,9 +227,9 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
    * **Recusa difusa**: quando habilitada, a opção **Recusa difusa** detecta mensagens de entrada que se assemelham às palavras-chave de recusa definidas (por exemplo, &quot;CANCILAR&quot;) e envia automaticamente uma resposta de confirmação para verificar a intenção de cancelamento de assinatura do usuário. Se o usuário confirmar por meio do prompt definido, sua inscrição será cancelada.
 
-     Observe que a **Não participação difusa** só está disponível com o Sinch e o Infobip.
+     Observe que a **Recusa difusa** só está disponível com o Sinch e o Infobip.
 
-   * **Verificar Conexão de SMS** - Agora é possível testar e verificar facilmente suas credenciais de API de SMS no Adobe Journey Optimizer, enviando uma mensagem de exemplo para um dispositivo designado.
+   * **Verificar conexão SMS**: agora é possível testar e verificar facilmente as credenciais da API de SMS no Adobe Journey Optimizer enviando uma mensagem de exemplo para um dispositivo designado.
 
 * **Configuração**
 
@@ -241,7 +241,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Decisão**
 
-   * **Anexar fragmentos a itens de decisão** - O Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão, que podem ser aproveitados em campanhas de experiência baseadas em código por meio de políticas de decisão.
+   * **Anexar fragmentos a itens de decisão** - O Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão, que podem ser aproveitados em campanhas de experiência baseada em código por meio de políticas de decisão.
 
 * **Jornadas**
 

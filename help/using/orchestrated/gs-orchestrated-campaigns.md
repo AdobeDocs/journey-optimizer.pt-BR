@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introdução às campanhas orquestradas
 description: Saiba como começar a usar as campanhas orquestradas
-short-description: Descubra os principais recursos e casos de uso das campanhas orquestradas.
+short-description: Descubra os principais recursos e casos de uso de campanhas orquestradas.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '619'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >title="campaigns_overview_orchestrated"
 >abstract="<b>Orquestração de campanha</b><br/>Dividir, combinar, enriquecer e manipular conjuntos de dados relacionais para definir o público-alvo<br/><br/> <b>Aproveite dados multientidade</b><br/>Saiba como as campanhas orquestradas podem aproveitar os conjuntos de dados relacionais no enriquecimento de dados para segmentação e personalização<br/><br/><b>Segmentação ad-hoc e contagens exatas</b><br/>Crie seu segmento passo a passo com contagens exatas<br/><br/><b>Canais disponíveis</b><br/>Email, SMS, Notificações por push, Correspondência direta"
 
-A Orquestração de Campanhas no [!DNL Adobe Journey Optimizer] possibilita campanhas de marketing sofisticadas e iniciadas pela marca em todos os canais, ajudando você a impulsionar o engajamento, a receita e a fidelidade do cliente em escala.
+A orquestração de campanhas no [!DNL Adobe Journey Optimizer] viabiliza campanhas de marketing sofisticadas e iniciadas pela marca em vários canais, ajudando a impulsionar o engajamento, a receita e a fidelidade do cliente em grande escala.
 
 >[!IMPORTANT]
 >
@@ -36,45 +36,45 @@ A Orquestração de campanhas é construída em torno de quatro pilares principa
 
 <table style="table-layout:auto">
 <tr style="border: 0;">
-<td><img alt="Públicos-alvo sob demanda" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Públicos-alvo por demanda</b><br/>Consulte instantaneamente entre conjuntos de dados para criar segmentos de público-alvo usando qualquer combinação de tipos de dados e dimensões.</td></tr>
+<td><img alt="Públicos-alvo sob demanda" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Públicos-alvo sob demanda</b><br/>Consulte instantaneamente os conjuntos de dados para criar segmentos de público-alvo usando qualquer combinação de tipos de dados e dimensões.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentação e envio de várias entidades" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentação e envio de várias entidades</b><br/>Vá além das campanhas com base em pessoas; use entidades como catálogos de produtos, locais de lojas ou dados de serviço para direcionar com precisão.<br/><br/>
-Suportar envio de vários níveis, em que uma mensagem é enviada por Perfil e por entidade secundária associada. Essas entidades secundárias podem incluir endereços de contato, reservas, assinaturas, contratos ou outros dados vinculados. Por exemplo, isso permite que campanhas sejam enviadas para todos os endereços conhecidos de um Perfil ou para cada reserva associada a esse Perfil.</td></tr>
+<td><img alt="Segmentação e envio de várias entidades" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentação e envio de várias entidades</b><br/>Vá além das campanhas com base em pessoas: use entidades como catálogos de produtos, locais de armazenamento ou dados de serviço para direcionar com precisão.<br/><br/>
+Dá suporte ao envio de vários níveis, em que uma mensagem é enviada por perfil e por entidade secundária associada. Essas entidades secundárias podem incluir endereços de contato, reservas, assinaturas, contratos ou outros dados vinculados. Por exemplo, isso permite que campanhas sejam enviadas para todos os endereços conhecidos de um perfil ou para cada reserva associada a esse perfil.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Visibilidade e precisão de pré-envio" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilidade e precisão de pré-envio</b><br/>Obtenha contagens exatas de segmentação e escopo completo da campanha antes do lançamento, garantindo precisão e confiança.</td></tr>
+<td><img alt="Visibilidade e precisão de pré-envio" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilidade e precisão de pré-envio</b><br/>Obtenha contagens exatas de segmentação e o escopo completo da campanha antes do lançamento, garantindo precisão e confiança.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Fluxos de trabalho de campanha em várias etapas" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>Fluxos de trabalho de campanha em várias etapas</b><br/>Crie campanhas em várias etapas, desde mensagens diárias até campanhas complexas, como promoções sazonais ou grandes lançamentos de produtos.</td></tr>
+<td><img alt="Fluxos de trabalho da campanha em várias etapas" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>Fluxos de trabalho da campanha em várias etapas</b><br/>Crie campanhas em várias etapas, desde mensagens diárias até campanhas complexas, como promoções sazonais ou grandes lançamentos de produtos.</td></tr>
 </table>
 
-## Campanhas e jornadas orquestradas
+## Campanhas orquestradas e jornadas
 
-Embora a visualização Campanhas orquestradas tenha semelhanças com as jornadas, ela resolve diferentes objetivos e casos de uso:
+Embora a visualização de campanhas orquestradas tenha semelhanças com as jornadas, ela tem diferentes objetivos e casos de uso:
 
-* **Jornadas** - 1 a 1 tela onde cada perfil percorre as diferentes etapas em seu próprio ritmo. O estado de cada cliente é mantido em seu contexto para acionar ações em tempo real.
+* **Jornadas** - tela 1 para 1 onde cada perfil percorre as diferentes etapas em seu próprio ritmo. O estado de cada cliente é mantido em seu contexto para iniciar ações em tempo real.
 
-* **Campanhas orquestradas** - Ao contrário do jornada, as campanhas orquestradas operam usando uma tela de lote que calcula segmentos. Todos os perfis são processados juntos ao mesmo tempo.
+* **Campanhas orquestradas** - Ao contrário de jornadas, as campanhas orquestradas operam usando uma tela em lote que calcula segmentos. Todos os perfis são processados juntos e ao mesmo tempo.
 
-Ambas as telas são otimizadas para seus respectivos casos de uso: a tela de Jornada publica jornadas que tendem a permanecer por um período mais longo, enquanto a tela do Campaign é projetada para execuções iterativas e incrementais de uma campanha em lote.
+Ambas as telas são otimizadas para seus respectivos casos de uso: a tela de jornada publica jornadas que tendem a permanecer por um período mais longo, enquanto a tela de campanha é projetada para execuções iterativas e incrementais de uma campanha em lote.
 
 ## O que há dentro de uma campanha orquestrada? {#gs-ms-campaign-inside}
 
-A tela de campanha orquestrada é uma representação do que deveria acontecer. Ele descreve as várias tarefas a serem executadas e como elas estão vinculadas.
+A tela da campanha orquestrada é uma representação do que deve acontecer. Ela descreve as várias tarefas a serem executadas e como elas estão vinculadas.
 
-![imagem mostrando uma tela de campanha orquestrada](assets/canvas-example.png)
+![imagem mostrando a tela de uma campanha orquestrada](assets/canvas-example.png)
 
-Cada campanha Orquestrada contém:
+Cada campanha orquestrada contém:
 
 * **Atividades**: uma atividade é uma tarefa a ser executada. As várias atividades são representadas no diagrama por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
 
-  Em um diagrama de campanha Orquestrado, uma determinada atividade pode produzir várias tarefas, principalmente quando há um loop ou ações recorrentes.
+  No diagrama de uma campanha orquestrada, uma determinada atividade pode gerar várias tarefas, principalmente quando há um ciclo ou ações recorrentes.
 
 * **Transições**: as transições vinculam uma atividade de origem a uma atividade de destino e definem sua sequência.
 
-* **Tabelas de trabalho**: as tabelas de trabalho contêm todas as informações transportadas pela transição. Cada campanha Orquestrada usa várias tabelas de trabalho. Os dados transmitidos nessas tabelas podem ser usados durante o ciclo de vida da campanha Orquestrada.
+* **Tabelas de trabalho**: as tabelas de trabalho contêm todas as informações transportadas pela transição. Cada campanha orquestrada usa várias tabelas de trabalho. Os dados transmitidos nessas tabelas podem ser usados durante todo o ciclo de vida da campanha orquestrada.
 
 ## Vamos nos aprofundar um pouco mais
 
-Agora que você entende o que são campanhas orquestradas, é hora de se aprofundar nessas seções de documentação para começar a trabalhar com o recurso.
+Agora que você entende o que são campanhas orquestradas, é hora de se aprofundar nestas seções da documentação para começar a trabalhar com o recurso.
 
 <table><tr style="border: 0; text-align: center;">
 <td>

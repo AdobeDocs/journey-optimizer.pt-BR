@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5119'
 ht-degree: 100%
 
@@ -83,13 +83,13 @@ Para mais informações, consulte a <a href="../experience-decisioning/create-de
 <table>
 <thead>
 <tr>
-<th><strong>Execução de teste da jornada</strong><br/></th>
+<th><strong>Teste de simulação de jornada</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A execução de prática de jornada é um modo especial de publicação no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais sem entrar em contato com clientes do mundo real ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.</p>
+<p>O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>Anteriormente lançado com disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para mais informações, consulte a <a href="../building-journeys/journey-dry-run.md">documentação detalhada</a></p>
@@ -289,13 +289,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Execução de prática de jornada</strong><br/></th>
+<th><strong>Teste de simulação de jornada</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A execução de prática de jornada é um modo especial de publicação no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais sem entrar em contato com clientes do mundo real ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.</p>
+<p>O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/journey-dry-run.md">documentação detalhada</a>.</p>
