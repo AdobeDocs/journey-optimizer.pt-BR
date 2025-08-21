@@ -20,22 +20,22 @@ ht-degree: 50%
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="Sobre os componentes de conteúdo"
+>title="Sobre os componentes do conteúdo"
 >abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um email."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="Sobre os componentes de conteúdo"
+>title="Sobre os componentes do conteúdo"
 >abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="Sobre os componentes de conteúdo"
+>title="Sobre os componentes do conteúdo"
 >abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de um fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="Sobre os componentes de conteúdo"
+>title="Sobre os componentes do conteúdo"
 >abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um modelo."
 
 Ao criar seu conteúdo de email, os **[!UICONTROL Componentes de conteúdo]** permitem personalizar ainda mais seu email com componentes brutos que podem ser editados depois de colocados no email.
@@ -169,7 +169,7 @@ Use o componente **[!UICONTROL Imagem]** para inserir um arquivo de imagem do se
 
 1. Na guia **[!UICONTROL Configurações]**, clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos ou em **[!UICONTROL Importar mídia]** para carregar um ativo para a Adobe Experience Manager Assets.
 
-   Para saber mais sobre [!DNL Adobe Experience Manager Assets], consulte a [documentação do Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=pt-BR){target="_blank"}.
+   Para saber mais sobre [!DNL Adobe Experience Manager Assets], consulte a [documentação do Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >

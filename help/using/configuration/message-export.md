@@ -15,7 +15,7 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="Reter e exportar o conteúdo enviado"
->abstract="Selecionar essa opção permite gravar o conteúdo do email ou das mensagens SMS enviadas usando essa configuração em um conjunto de dados [!DNL Experience Platform]. Os registros são retidos por 3 dias, durante os quais você pode exportá-los para seu próprio armazenamento."
+>abstract="Selecionar esta opção permite gravar o conteúdo dos emails ou mensagens SMS enviados, utilizando-se esta configuração, em um conjunto de dados [!DNL Experience Platform]. Os registros são retidos por três dias corridos, durante os quais podem ser exportados para o seu próprio armazenamento."
 
 >[!AVAILABILITY]
 >
@@ -38,7 +38,7 @@ Os registros são mantidos no **Conjunto de Dados de Exportação de Mensagens d
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
@@ -67,9 +67,9 @@ Antes de poder exportar seus dados, você deve configurar o processo de exporta�
 >
 >Essa configuração deve ser definida para cada sandbox.
 
-1. Escolha um [tipo de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/destination-types){target="_blank"} do Experience Platform. Uma lista de plataformas de destino disponíveis que estão prontas para receber dados está disponível em [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Escolha um [tipo de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"} do Experience Platform. Uma lista de plataformas de destino disponíveis que estão prontas para receber dados está disponível em [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. No [!DNL Experience Platform], configure seu destino definindo credenciais, bucket/container, prefixo de caminho e opções de segurança. [Saiba como](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. No [!DNL Experience Platform], configure seu destino definindo credenciais, bucket/container, prefixo de caminho e opções de segurança. [Saiba como](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Crie um fluxo de exportação do conjunto de dados usando os seguintes dados:
 
