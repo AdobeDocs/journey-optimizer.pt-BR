@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
+source-git-commit: 0334d0b6d2fc9665ee1fe407502117679cf220f2
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 21%
@@ -48,7 +49,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
 
 1. Selecione a atividade de canal integrada que deseja aproveitar no jornada.
 
-   ![](assets/journey-action-type-code-based.png)
+   ![](assets/journey-action-type-cbe.png)
 
 1. Adicione um rótulo à sua ação e selecione **[!UICONTROL Configurar ação]**.
 
