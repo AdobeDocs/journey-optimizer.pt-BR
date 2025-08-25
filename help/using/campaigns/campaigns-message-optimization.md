@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Otimização de mensagem
-description: Aproveite a otimização de mensagens para criar campanhas de marketing personalizadas e otimizadas.
+description: Aproveite a otimização de mensagens para criar jornadas e campanhas de marketing personalizadas e otimizadas.
 role: User
 level: Intermediate
 keywords: otimização de campanha, experimentação, direcionamento, teste A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1047'
 ht-degree: 6%
 
 ---
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Saiba como utilizar a otimização de mensagens em campanhas acionadas por ações ou API. Você aprenderá a direcionar subconjuntos do público-alvo, criar variações de mensagem por local, habilitar o conteúdo de fallback e executar vários experimentos em uma mesma campanha. Este tutorial também aborda como gerenciar campanhas com vários canais e, ao mesmo tempo, manter a consistência das mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470373?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
