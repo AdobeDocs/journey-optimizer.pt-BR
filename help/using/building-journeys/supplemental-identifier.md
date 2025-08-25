@@ -2,9 +2,9 @@
 title: Usar identificadores complementares em jornadas
 description: Saiba como usar identificadores complementares no jornada.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1236'
 ht-degree: 5%
 
 ---
@@ -66,6 +66,8 @@ Além disso, o Journey Optimizer permite aproveitar os atributos do identificado
 
    * Se a jornada não for reentrante, a mesma ID de perfil + ID complementar não poderá entrar na jornada novamente.
    * Se a jornada for reentrante com uma janela de tempo, a mesma combinação de ID de perfil + ID complementar poderá entrar novamente após a janela de tempo definida.
+
+* **DULE (Rotulagem e Imposição de Uso de Dados)** - Nenhuma verificação de validação de DULE é executada na ID complementar. Isso significa que esse atributo não será considerado quando a jornada estiver procurando por violações da política de governança de dados.
 
 * **Configuração de eventos downstream**
 
@@ -138,6 +140,10 @@ Para usar um identificador complementar em uma jornada Ler público, siga estas 
       >Certifique-se de não marcar o atributo como **Identidade principal**.
 
    1. Selecione o namespace a ser associado à ID complementar. Deve ser um namespace de identificador não pessoal.
+
+      >[!NOTE]
+      >
+      >Depois de aplicar o namespace de identidade não pessoal a um esquema, você deve criar um novo evento (para jornadas acionadas por eventos) ou um novo grupo de campos (para jornadas de público-alvo de leitura) para usar o identificador complementar. As entidades existentes não podem ser atualizadas para reconhecer o novo identificador.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -244,4 +250,4 @@ Em uma matriz de objetos com a ID complementar como `bookingNum` e um atributo n
 
 Saiba como habilitar e aplicar um identificador complementar no [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464797?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
