@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
+source-git-commit: c19c0df82ade193984710f6c2bdae6acd55a6fb5
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 75%
+source-wordcount: '1672'
+ht-degree: 73%
 
 ---
 
@@ -157,31 +157,29 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 </tbody>
 </table-->
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Action activity in journeys</strong><br/></th>
+<th><strong>Atividade de ação em jornadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer supports a new generic Action activity that enables you to configure both single actions and multi-action inbound action groups, allowing for streamlined action configuration within the journey canvas. In particular, this new feature allows for:</p>
+<p>O Journey Optimizer é compatível com uma nova Atividade de ação genérica que permite configurar ações únicas e grupos de ação de entrada multiação, possibilitando uma configuração de ação simplificada na tela da jornada. Em especial, este novo recurso permite:</p>
 <ul>
-<li>A simplified native action configuration within the journey canvas.</li>
-<li>The capacity to create multi-action inbound nodes.</li>
-<li>The ability to add optimization to any built-in channel action.</li>
-<li>The ability to add both experimentation and multi-lingual options to any action.</li>
+<li>Uma configuração de ação nativa simplificada na tela da jornada.</li>
+<li>A capacidade de criar grupos de ação de entrada de várias ações.</li>
+<li>A capacidade de adicionar otimização a qualquer ação de canal integrada.</li>
+<li>A capacidade de adicionar opções de experimentação e multilíngues a qualquer ação.</li>
 </ul>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Para mais informações, consulte a <a href="../building-journeys/journey-action.md">documentação detalhada</a></p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
@@ -236,7 +234,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer agora capacita você com as ferramentas para fornecer conteúdo personalizado e otimizado para seu público, permitindo que você execute experimentos de conteúdo, crie direcionamento baseado em regras e use combinações avançadas de ambos para maximizar a eficiência de suas campanhas<!-- and journeys-->.</p>
+<p>O Journey Optimizer agora capacita você com as ferramentas para fornecer conteúdo personalizado e otimizado para seu público-alvo, permitindo que você execute experimentos de conteúdo, crie direcionamento baseado em regras e use combinações avançadas de ambos para maximizar a eficiência de suas campanhas e jornadas.</p>
 <p>Com a otimização, você pode:</p>
 <ul>
 <li>Testar múltiplas variações de conteúdo para identificar as mensagens mais eficazes.</li>
@@ -245,9 +243,9 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <li>Filtrar usuários que não correspondem aos critérios da variante.</li>
 <li>Garantir mecanismos de fallback para manter o engajamento dos usuários.</li>
 </ul>
-<P>Após a jornada <!--/campaign is live-->, os perfis são avaliados com base nos critérios definidos e nos critérios correspondentes, eles são entregues com a experiência ou o conteúdo apropriado.</p>
+<P>Quando a jornada ou campanha estiver ativa, os perfis serão avaliados em relação aos critérios definidos e, com base nos critérios de correspondência, serão entregues com a experiência ou o conteúdo apropriado.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p><!--Previously released on August 8 in campaigns only, this capacity is now also available in journeys starting from August 19.-->Data de disponibilidade: sábado, 8 de agosto de 2025</p>
+<p>Lançado anteriormente em 8 de agosto somente em campanhas do, essa capacidade agora também está disponível no jornada a partir de 22 de agosto.</p>
 <p>Para mais informações, consulte a <a href="../campaigns/campaigns-message-optimization.md">documentação detalhada</a></p>
 </td>
 </tr>
@@ -302,6 +300,12 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
      Para personalizar ainda mais seu link de cancelamento de inscrição com um clique, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento. [Leia mais](../email/list-unsubscribe.md#custom-attributes)
 
+* **Conjuntos de dados**
+
+   * **Repositório de objetos do Experience Decisioning - Itens de oferta personalizados** - O conjunto de dados de exportação interno agora captura todos os atributos de oferta e o status do ciclo de vida, permitindo a personalização e os relatórios completos. [Leia mais](../data/export-datasets.md)
+
+   * Verificação de versão introduzida por meio do campo `etag` para melhorar a consistência e rastrear alterações para oferecer itens com mais confiabilidade.
+
 * **Decisão**
 
    * **Anexar fragmentos a itens de decisão** - O Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão, que podem ser aproveitados em campanhas de experiência baseadas em código por meio de políticas de decisão. Esse recurso está disponível em Disponibilidade limitada para um conjunto de clientes. [Leia mais](../experience-decisioning/create-decision.md#fragments)
@@ -312,11 +316,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
    * **Suporte a redirecionamento (302) em ações personalizadas**: as ações personalizadas agora podem processar redirecionamentos HTTP 302 por solicitação. Isso permite que as jornadas se integrem a APIs que redirecionam solicitações para URLs localizados ou específicos da região. Os redirecionamentos são seguidos automaticamente, garantindo que o conteúdo correto seja entregue sem configuração extra.
 
-* **Conjuntos de dados**
-
-   * **Repositório de objetos do Experience Decisioning - Itens de oferta personalizados** - O conjunto de dados de exportação interno agora captura todos os atributos de oferta e o status do ciclo de vida, permitindo a personalização e os relatórios completos. [Leia mais](../data/export-datasets.md)
-
-   * Verificação de versão introduzida por meio do campo `etag` para melhorar a consistência e rastrear alterações para oferecer itens com mais confiabilidade.
+   * **Várias ações de entrada no jornada** - Para simplificar sua orquestração de jornadas, agora é possível definir várias ações de entrada em uma única jornada. Anteriormente disponível em campanhas, esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, Cartões de conteúdo ou ações da Web a locais diferentes ao mesmo tempo, cada ação contendo um conteúdo específico. [Leia mais](../building-journeys/journey-action.md#multi-action)
 
 ## Orquestração de campanha  
 
