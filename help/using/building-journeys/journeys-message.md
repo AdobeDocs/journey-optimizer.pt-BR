@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 12%
+source-wordcount: '513'
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Ação de canal integrada"
->abstract="O Journey Optimizer inclui recursos de ação de canal integrada. Você pode simplesmente adicionar, à sua jornada, uma atividade de mensagem (email, mensagem de texto (SMS/MMS), push) ou experiência de entrada (no aplicativo, Web, experiência baseada em código, cartão de conteúdo) e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
+>abstract="O Journey Optimizer inclui recursos de ação de canal integrada. É possível adicionar à jornada uma mensagem (email, mensagem de texto (SMS/MMS), push) ou uma atividade de experiência de entrada (no aplicativo, web, experiência baseada em código, cartão de conteúdo) e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
 
 O [!DNL Journey Optimizer] vem com recursos de ação de canal incorporados que são usados para enviar mensagens: quando um perfil entra nessa atividade, uma mensagem é enviada a ele.
 
@@ -43,6 +43,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
 
    ![](assets/journey-web-activity.png)
 
+1. Você também pode selecionar a atividade **[!UICONTROL Ação]**, que permite selecionar várias ações de entrada. [Saiba mais](journey-action.md)
 
 1. Configure sua atividade. Diretrizes de configuração detalhadas estão disponíveis nos links abaixo.
 

@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2886'
 ht-degree: 99%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 99%
       + [Condição](using/building-journeys/condition-activity.md)
       + [Aguardar](using/building-journeys/wait-activity.md)
       + [Público-alvo de leitura](using/building-journeys/read-audience.md)
+      + [Atividade de ação](using/building-journeys/journey-action.md)
       + [Ações de canal integradas](using/building-journeys/journeys-message.md)
       + [Ações personalizadas](using/building-journeys/using-custom-actions.md)
       + [Decisão de conteúdo](using/building-journeys/content-decision.md)
@@ -210,7 +211,6 @@ ht-degree: 99%
       + [Trabalhar com campanhas de ações](using/campaigns/create-campaign.md)
       + [Definir as propriedades da campanha](using/campaigns/campaign-properties.md)
       + [Configurar a ação da campanha](using/campaigns/campaign-action.md)
-      + [Utilizar a otimização de mensagens em uma campanha](using/campaigns/campaigns-message-optimization.md)
       + [Editar o conteúdo da campanha](using/campaigns/campaign-content.md)
       + [Definir o público-alvo da campanha](using/campaigns/campaign-audience.md)
       + [Agendar a campanha](using/campaigns/campaign-schedule.md)
@@ -540,6 +540,7 @@ ht-degree: 99%
          + [Notas técnicas](/help/rp_landing_pages/technotes-landing-page.md)
          + [Compreenda cálculos estatísticos](using/content-management/experiment-calculations.md)
          + [Compreenda cálculos estatísticos no Relatório de experimentação](using/content-management/experiment-report-calculations.md)
+   + [Aproveitar a otimização de mensagens](using/campaigns/campaigns-message-optimization.md)
 + Públicos-alvo, perfis e identidade {#audiences-profiles-identities}
    + [Públicos-alvo, perfis e identidade](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + Públicos-alvo {#audiences}
