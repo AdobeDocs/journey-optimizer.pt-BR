@@ -4,7 +4,7 @@ product: journey optimizer
 title: Medidas de proteção e limitações para campanhas orquestradas
 description: Saiba mais sobre as medidas de proteção e limitações das campanhas orquestradas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 ---
 
 
-# Medidas de proteção e limitações {#guardrails}
+# Proteções e limitações {#guardrails}
 
 Abaixo você encontrará medidas de proteção e limitações adicionais para usar campanhas orquestradas.
 
@@ -36,7 +36,7 @@ Abaixo você encontrará medidas de proteção e limitações adicionais para us
 
 * Toda assimilação deve ocorrer via **fontes do Change Data Capture**:
 
-   * Para **baseado em arquivo**: o campo `change_type` é obrigatório.
+   * Para **baseado em arquivo**: o campo `_change_request_type` é obrigatório.
 
    * Para **baseado em nuvem**: o log de tabela deve estar habilitado.
 

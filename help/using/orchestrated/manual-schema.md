@@ -4,9 +4,9 @@ product: journey optimizer
 title: Etapas de configuração
 description: Saiba como criar esquemas relacionais diretamente pela interface do usuário.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '853'
 ht-degree: 3%
 
 ---
@@ -58,7 +58,7 @@ Em seguida, adicione atributos para definir a estrutura do esquema. Esses campos
 
 Qualquer esquema usado para direcionamento deve incluir pelo menos um campo de identidade do tipo `String` com um namespace de identidade associado. Isso garante a compatibilidade com os recursos de definição de metas e resolução de identidade da Adobe Journey Optimizer.
 
-+++Os seguintes recursos são compatíveis ao criar esquemas relacionais no Adobe Experience Platform
++++Os seguintes recursos são suportados ao criar esquemas relacionais no Adobe Experience Platform
 
 * **ENUMERAÇÃO**\
   Os campos ENUM são suportados na criação de esquema manual e baseado em DDL, permitindo que você defina atributos com um conjunto fixo de valores permitidos.
@@ -79,7 +79,7 @@ Qualquer esquema usado para direcionamento deve incluir pelo menos um campo de i
 
    Neste exemplo, adicionamos os atributos detalhados na tabela abaixo ao esquema **Associações de fidelidade**.
 
-+++ Exemplos de atributos
+   +++ Exemplos de atributos
 
    | Nome do atributo | Tipo de dados | Atributos Adicionais |
    |-|-|-|
@@ -92,7 +92,7 @@ Qualquer esquema usado para direcionamento deve incluir pelo menos um campo de i
    | is_ative | BOOLEANO | Obrigatório |
    | última modificação | DATETIME | Obrigatório |
 
-+++
+   +++ 
 
 1. Atribua os campos apropriados como a **[!UICONTROL Chave Primária]** e o **[!UICONTROL Descritor de Versão]**.
 
@@ -100,7 +100,7 @@ Qualquer esquema usado para direcionamento deve incluir pelo menos um campo de i
 
    * Pelo menos uma chave primária
    * Um identificador de versão, como um campo `lastmodified` do tipo `datetime` ou `number`.
-   * Para a assimilação do CDC (Change Data Capture), uma coluna especial chamada `_change_request_type` do tipo `String`, que indica o tipo de alteração de dados (por exemplo, inserir, atualizar, excluir) e habilita o processamento incremental.
+   * Para a assimilação do CDC (Change Data Capture), uma coluna especial chamada `_change_request_type` do tipo `String`, que indica o tipo de alteração de dados (por exemplo, inserir, atualizar, excluir) e habilita o processamento incremental. Observe que `_change_request_type` não deve fazer parte do esquema da tabela, ele só deve ser adicionado ao arquivo de dados durante a assimilação.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 
