@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 13%
 
 ---
@@ -39,7 +39,7 @@ A opção **[!UICONTROL Campaign end]** permite especificar quando uma campanha 
 
 Esse recurso é particularmente útil para evitar sobrecarga em sistemas downstream, como páginas de aterrissagem ou plataformas de atendimento ao cliente. Por exemplo, você pode definir um limite de taxa de 165 mensagens por segundo para garantir uma entrega estável sem sobrecarregar os sistemas de downstream.
 
-Para definir o controle de taxa, habilite a opção **[!UICONTROL Entrega acelerada]** na seção **[!UICONTROL Configurações de entrega]** e especifique a **[!UICONTROL Taxa de entrega]** desejada.
+Para definir o controle de taxa, habilite a opção **[!UICONTROL Entrega acelerada]** na seção **[!UICONTROL Configurações de entrega]** e especifique a **[!UICONTROL Taxa de entrega]** desejada por segundo.
 
 ![](assets/throttling-rate-control.png)
 
