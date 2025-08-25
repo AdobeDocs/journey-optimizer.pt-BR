@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 68cb46a45bf3fe8b8847109519889a9cf20157d3
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 11%
@@ -62,7 +62,7 @@ Como as jornadas são representadas:
 * Se nenhuma hora de início for especificada, a hora de ativação manual mais próxima será usada para posicioná-la no calendário.
 * As jornadas são exibidas como intervalos de tempo de 1 hora, mas isso não reflete a hora real de envio ou de conclusão.
 
-Para navegar no seu calendário de Jornadas:
+Para navegar no seu calendário do Jornada:
 
 1. Para acessar o modo de exibição de calendário, abra a lista jornadas e clique no ícone ![calendário](assets/do-not-localize/timeline-icon.svg).
 
