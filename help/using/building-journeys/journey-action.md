@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: 0334d0b6d2fc9665ee1fe407502117679cf220f2
+source-git-commit: e74074702c82ede09dc311a16e0f67a84b931fa2
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 21%
@@ -140,7 +140,7 @@ Para definir várias ações de entrada em um único nó de ação de jornada, s
 
 1. Você é direcionado para a guia **[!UICONTROL Ações]** da tela de configuração da ação de jornada.
 
-   ![](assets/journey-multi-action-configuration.png)
+   ![](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. Selecione uma ação de entrada (**Experiência baseada em código**, **Mensagem no aplicativo**, **Cartão de Conteúdo** ou **Web**) na seção **[!UICONTROL Ações]**.
 
