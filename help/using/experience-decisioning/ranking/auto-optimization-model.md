@@ -6,9 +6,10 @@ description: Saiba mais sobre os modelos de otimização automática
 feature: Ranking, Decision Management
 role: User
 level: Experienced
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
@@ -97,3 +98,7 @@ O problema de &quot;inicialização imediata&quot; ocorre quando uma nova oferta
 Por exemplo, se estivermos interessados em medir o desempenho de uma estratégia de Thompson Sampling (TS) usada no serviço de classificação, e o KPI for taxa de conversão (CVR), o &quot;aumento&quot; da estratégia de TS em relação à estratégia de linha de base é definido como:
 
 ![](../assets/ai-ranking-lift.png)
+
+>[!NOTE]
+>
+>Atualmente, o relatório de Medição de aumento está disponível apenas para o [Modelo de IA de otimização personalizada](personalized-optimization-model.md). [Saiba mais sobre os relatórios de decisão](../../reports/campaign-global-report-cja-code.md#decisioning-reporting)

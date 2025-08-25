@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,10 @@ As métricas principais exibidas incluem:
 * **[!UICONTROL Cliques]**: número total de vezes que usuários clicaram em experiências personalizadas que foram exibidas a eles.
 
 * **[!UICONTROL Taxa de conversão]**: porcentagem de exibições que resultaram em ações do usuário (por exemplo, cliques), indicando o sucesso do modelo em envolver usuários.
+
+>[!NOTE]
+>
+>Atualmente, o relatório [Medida de aumento](../experience-decisioning/ranking/auto-optimization-model.md#lift) está disponível somente para o modelo de IA [Otimização personalizada](../experience-decisioning/ranking/personalized-optimization-model.md). Se você precisar de relatórios de medição de aumento, use o Modelo de otimização personalizado.
 
 ### Taxa de conversão para tráfego de Retenção e Orientado a Modelo {#conversion-rate}
 
