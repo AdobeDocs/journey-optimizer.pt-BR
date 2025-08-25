@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adicionar uma ação de canal interna a uma jornada
-description: Saiba como adicionar uma ação de canal integrada a uma jornada
+title: Usar a atividade de jornada Ação
+description: Saiba como adicionar uma atividade Ação genérica para configurar ações únicas e grupos de ação de entrada de várias ações na tela de jornada.
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: e74074702c82ede09dc311a16e0f67a84b931fa2
+source-git-commit: 6ca732dc6f784897d76dabb605e398497b2ffdd6
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '991'
 ht-degree: 21%
 
 ---
