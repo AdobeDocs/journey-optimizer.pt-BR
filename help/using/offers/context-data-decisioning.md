@@ -3,7 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Dados de contexto e solicitações de decisão
 description: Saiba como transmitir dados de contexto em solicitações de decisão.
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced

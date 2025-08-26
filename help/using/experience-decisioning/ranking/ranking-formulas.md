@@ -172,7 +172,7 @@ Para aproveitar os atributos relacionados aos itens de decisão nas fórmulas, s
 
 Você pode criar muitas fórmulas de classificação diferentes de acordo com suas necessidades. Abaixo estão alguns exemplos.
 
-+++Aumentar ofertas com determinado atributo de oferta com base no atributo de perfil
++++Aumente as ofertas com determinado atributo de oferta com base no atributo de perfil
 
 Se o perfil estiver na cidade correspondente à oferta, duplique a prioridade para todas as ofertas nessa cidade.
 
@@ -184,7 +184,7 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 
 +++
 
-+++Impulsionar ofertas em que a data de término é daqui a menos de 24 horas
++++Impulsione ofertas em que a data final seja anterior a 24 horas a partir de agora
 
 **Fórmula de classificação:**
 
@@ -224,7 +224,7 @@ Diante disso, para um perfil como:
 
 +++
 
-+++Impulsionar ofertas com base nos dados de contexto {#context-data}
++++Aumentar ofertas com base nos dados de contexto {#context-data}
 
 [!DNL Journey Optimizer] permite que você impulsione determinadas ofertas com base nos dados de contexto que estão sendo transmitidos na chamada. Por exemplo, se `contextData.weather=hot` for passado, a prioridade de todas as ofertas com `attribute=hot` deverá ser aumentada.
 

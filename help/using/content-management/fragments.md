@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 13%
+ht-degree: 19%
 
 ---
 
@@ -36,7 +36,7 @@ Para aproveitar ao máximo os fragmentos:
 
 ## Antes de começar {#fragment-prerequisites}
 
-Para criar, editar, arquivar e publicar fragmentos, você precisa das permissões de **[!DNL Manage library items]** e **[Publicar fragmento]** incluídas no perfil de produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
+Para criar, editar, arquivar e publicar fragmentos, você precisa das permissões de **[!DNL Manage library items]** e **[Publicar fragmento]** inclusas no perfil do produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
 
 Nesta versão, as seguintes limitações se aplicam:
 
@@ -64,4 +64,4 @@ Saiba como gerenciar, criar e usar **fragmentos visuais** no [!DNL Journey Optim
 
 Saiba como gerenciar, criar e usar **fragmentos de expressão** em [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438922/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

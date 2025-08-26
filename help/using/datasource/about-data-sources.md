@@ -11,8 +11,8 @@ keywords: dados, origem, jornada, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 52%
+source-wordcount: '343'
+ht-degree: 65%
 
 ---
 
@@ -30,7 +30,7 @@ A configuração da fonte de dados permite definir uma conexão com um sistema p
 * [definição de espera personalizada](../building-journeys/wait-activity.md#custom)
 * [definição de fuso horário](../building-journeys/timezone-management.md)
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 Essa configuração não é necessária se suas jornadas só usarem os dados locais provenientes de uma carga útil do evento. Por exemplo, se sua jornada for composta por um evento seguido por uma atividade de ação de canal que usa apenas dados do evento, não será necessário configurar uma fonte de dados.
 
@@ -49,7 +49,7 @@ Para cada fonte de dados, você define as informações que serão recuperadas u
 >
 >Não há suporte para relações de esquema em fontes de dados.
 
-Para obter mais informações sobre como configurar uma Adobe Experience Platform Data Source e uma fonte de dados externa e como localizar e usar dados em uma jornada, assista a este [tutorial em vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre como configurar uma fonte de dados da Adobe Experience Platform e uma fonte de dados externa, e como localizar e usar dados em uma jornada, assista a este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Vídeo tutorial {#video}
 

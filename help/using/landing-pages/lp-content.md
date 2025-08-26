@@ -105,7 +105,7 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
    ![](assets/lp_designer-form-text-field.png)
 
-1. Depois de adicionar todas as caixas de seleção e/ou campos de texto desejados, clique em **[!UICONTROL Chamada para ação]** para expandir a seção correspondente. Ela permite definir o comportamento do botão no componente **[!UICONTROL Formulário]**.
+1. Depois de ter adicionado todas as caixas de seleção e/ou campos de texto desejados, clique em **[!UICONTROL Call to action]** para expandir a seção correspondente. Ela permite definir o comportamento do botão no componente **[!UICONTROL Formulário]**.
 
    ![](assets/lp_designer-form-call-to-action.png)
 

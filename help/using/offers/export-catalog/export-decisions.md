@@ -1,7 +1,7 @@
 ---
 title: Conjunto de dados de decisões
 description: Esta seção lista todos os campos usados no conjunto de dados exportado para decisões
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 
 +++
 
-+++_experience > decisão > critérios > optionSelection
++++_experience > decisioning > criteria > optionSelection
 
 **Campo:** optionSelection
 **Título:** Seleção de Opção
@@ -111,11 +111,11 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 
 +++
 
-+++_experience > decisão > critérios > inserções
++++_experience > decisioning > criteria > posicionamentos
 
 **Campo:** posicionamentos
 **Título:** Restrições de posicionamento
-**Descrição:** A restrição de posicionamento declara que este critério só é aplicável para os posicionamentos listados. A seleção de opção é considerada somente quando o posicionamento de destino está na lista `xdm:placements`. Caso contrário, todo o critério de decisão será ignorado. Quando a lista &quot;xdm:placements&quot; é omitida ou está vazia, o critério é considerado para qualquer posicionamento direcionado. As disposições listadas aqui impõem critérios implícitos para a seleção de opções. Uma opção a ser considerada deve ter uma representação para a inserção direcionada.
+**Descrição:** A restrição de posicionamento declara que este critério só é aplicável para os posicionamentos listados. A seleção de opção é considerada somente quando o posicionamento de destino está na lista `xdm:placements`. Caso contrário, todo o critério de decisão será ignorado. Quando a lista &#39;xdm:placements&#39; é omitida ou está vazia, o critério é considerado para qualquer posicionamento direcionado. As disposições listadas aqui impõem critérios implícitos para a seleção de opções. Uma opção a ser considerada deve ter uma representação para a inserção direcionada.
 **Tipo:** matriz
 
 * Identificador de posicionamento
@@ -206,16 +206,16 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 
 +++
 
-+++_experience > decisão > critérios > classificação
++++_experiência > decisão > critérios > classificação
 
 **Campo:** classificação
 **Título:** Detalhes da Classificação
 **Descrição:** Classificação (prioridade). Define como a \&quot;melhor opção\&quot; é determinada dado o contexto do critério de decisão. Entre todas as opções selecionadas que atendem às restrições de perfil, a classificação decidirá as opções principais (ou N principais) a serem propostas.
 **Tipo:** objeto
 
-+++
++++ 
 
-+++_experience > decisão > critérios > classificação > ordem
++++_experience > decisioning > criteria > ranking > order
 
 **Campo:** ordem
 **Título:** Avaliação da Ordem

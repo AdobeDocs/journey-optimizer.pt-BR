@@ -25,7 +25,7 @@ Em outras palavras, uma superfície pode ser vista como um container em qualquer
 
 * Ela também pode se estender para partes específicas de containers de conteúdo para fins de não exibição ou exibição abstrata (por exemplo, blobs JSON fornecidos aos serviços).
 
-* Também pode ser uma superfície curinga que corresponde a várias definições de superfície do cliente (por exemplo, um local de Hero image em cada página do site pode ser traduzido em um URI de superfície como: web://mydomain.com/*#hero_image).
+* Também pode ser uma superfície curinga que corresponde a várias definições de superfície do cliente (por exemplo, um local de image hero em cada página do site pode ser traduzido em um URI de superfície como: web://mydomain.com/*#hero_image).
 
 Basicamente, um URI de superfície é composto por várias seções:
 

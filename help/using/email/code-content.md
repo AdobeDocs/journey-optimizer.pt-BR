@@ -11,7 +11,7 @@ keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '194'
 ht-degree: 68%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 68%
 
 Use o modo **[!UICONTROL Desenvolver você mesmo]** para importar um HTML bruto e/ou desenvolver o conteúdo do email. Este método requer conhecimento sobre HTML.
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 >[!CAUTION]
 >

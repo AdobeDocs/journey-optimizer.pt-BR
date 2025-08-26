@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -479,7 +479,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Uso da licença**: o painel de uso da licença agora mostra os Perfis engajáveis, em vez de Públicos-alvo engajáveis. [Saiba mais](../audience/license-usage.md)
 
-**Gestão de conteúdo**
+**Gerenciamento de conteúdo**
 
 Agora você pode exportar modelos e fragmentos de conteúdo entre sandboxes. [Saiba mais](../configuration/copy-objects-to-sandbox.md)
 
@@ -1127,7 +1127,7 @@ Esta versão vem com as melhorias listadas abaixo.
 * O uso do Controle de acesso em nível de objeto agora está disponível para configurações de canal. [Leia mais](../configuration/channel-surfaces.md#create-channel-surface)
 * Ao habilitar o cancelamento de inscrição da lista em uma configuração de canais, agora é possível definir o nível de consentimento para se alinhar à forma como você gerencia o consentimento de todas as outras fontes. [Leia mais](../email/email-settings.md#list-unsubscribe)
 
-**Gestão de conteúdo**
+**Gerenciamento de conteúdo**
 
 * Agora é possível simular modelos de conteúdo para todos os canais. [Leia mais](../content-management/content-templates.md#test-templates)
 

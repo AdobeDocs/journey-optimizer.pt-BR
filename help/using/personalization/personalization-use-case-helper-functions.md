@@ -11,7 +11,7 @@ keywords: expressão, editor, auxiliares, caso de uso, personalização
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: c9627cfd1d717d56744f0287738b1303194c23e1
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1037'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 1. Crie um evento cujo esquema inclua a matriz `productListItems`.
 1. Defina todos os campos dessa matriz como campos de carga para esse evento.
 
-   Saiba mais sobre o tipo de dados do item de lista de produtos na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}.
+   Saiba mais sobre o tipo de dados do item de lista de produtos na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Crie uma jornada que comece com este evento.
 1. Adicione uma atividade de **Email** à jornada.
@@ -67,18 +67,18 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 
 1. Na paleta esquerda da página inicial do Designer de email, arraste e solte três componentes de estrutura no corpo da mensagem.
 
-1. Arraste e solte um componente de conteúdo de HTML em cada novo componente de estrutura.
+1. Arraste e solte um componente de conteúdo do HTML em cada novo componente de estrutura.
 
    ![](assets/personalization-uc-helpers-2.png)
 
 ## Etapa 3: insira o nome do cliente em letras maiúsculas {#uppercase-function}
 
-1. Na página inicial do Designer de email, clique no componente de HTML onde deseja adicionar o nome do cliente.
+1. Na página inicial do Designer de email, clique no componente do HTML ao qual deseja adicionar o nome do cliente.
 1. Na barra de ferramentas contextual, clique em **[!UICONTROL Mostrar o código-fonte]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. Na janela **[!UICONTROL Editar HTML]**, adicione a função de sequência de caracteres `upperCase`:
+1. Na janela **[!UICONTROL Editar HTML]**, adicione a função de cadeia de caracteres `upperCase`:
    1. No menu esquerdo, selecione **[!UICONTROL funções auxiliares]**.
    1. Use o campo de pesquisa para localizar &quot;caixa alta&quot;.
    1. Nos resultados da pesquisa, adicione a função `upperCase`. Para fazer isso, clique no sinal de adição (+) ao lado de `{%= upperCase(string) %}: string`.
@@ -105,7 +105,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Saiba mais sobre o tipo de dados do nome da pessoa na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=pt-BR){target="_blank"}.
+      Saiba mais sobre o tipo de dados de nome de pessoa na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Clique em **[!UICONTROL Validar]** e em **[!UICONTROL Salvar]**.
 
@@ -117,7 +117,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 
 1. Reabra o conteúdo da mensagem.
 
-1. Na página inicial do Designer de email, clique no componente de HTML onde deseja listar o conteúdo do carrinho.
+1. Na página inicial do Designer de email, clique no componente do HTML onde deseja listar o conteúdo do carrinho.
 1. Na barra de ferramentas contextual, clique em **[!UICONTROL Mostrar o código-fonte]**.
 
    ![](assets/personalization-uc-helpers-3.png)
@@ -184,7 +184,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 
 1. Adicione os tokens de personalização para o nome do item, a quantidade e o preço:
 
-   1. Remova o espaço reservado &quot;#name&quot; da tabela de HTML.
+   1. Remova o espaço reservado &quot;#name&quot; da tabela do HTML.
    1. A partir dos resultados da pesquisa anterior, adicione o token **[!UICONTROL Name]** à expressão.
 
    Repita essas etapas duas vezes:
@@ -214,7 +214,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 
 ## Etapa 5: inserir uma observação específica do produto {#if-helper}
 
-1. Na página inicial do Designer de email, clique no componente de HTML onde deseja inserir a nota.
+1. Na página inicial do Designer de email, clique no componente do HTML onde deseja inserir a nota.
 1. Na barra de ferramentas contextual, clique em **[!UICONTROL Mostrar o código-fonte]**.
 
    ![](assets/personalization-uc-helpers-3.png)

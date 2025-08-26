@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Pesquisar um item de decisão {#lookup-decision-items}
 
-Para pesquisar itens de decisão específicos, faça uma solicitação GET à API da biblioteca de ofertas que inclua a ID no caminho da solicitação.
+Para pesquisar itens de decisão específicos, faça uma solicitação do GET para a API da biblioteca de ofertas que inclua a ID no caminho da solicitação.
 
 **Formato da API**
 

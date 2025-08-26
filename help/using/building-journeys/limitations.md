@@ -38,10 +38,10 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 ## Limitações de ações personalizadas {#custom-actions-limitations}
 
 * O URL de ação personalizada não aceita parâmetros dinâmicos. 
-* Somente os métodos de chamada POST e PUT são suportados. 
+* Somente os métodos de chamada POST e PUT são compatíveis. 
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou &quot;$&quot;. 
 * Endereços IP não são permitidos. 
-* Endereços de Adobe internos (.adobe.) não são permitidos.
+* Endereços Adobe internos (.adobe.) não são permitidos.
 
 ## Limitações de eventos {#events-limitations}
 

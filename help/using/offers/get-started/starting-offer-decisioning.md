@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 100%
 
@@ -115,12 +115,12 @@ Você pode encontrar abaixo a lista dos principais conceitos com os quais trabal
 
 O vídeo abaixo fornece uma introdução aos principais recursos, arquitetura e casos de uso da Gestão de decisões:
 
->[!VIDEO](https://video.tv.adobe.com/v/340418?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definir e gerenciar ofertas {#use-offer-decisioning}
 
 O vídeo abaixo mostra como usar a Gestão de decisões para definir e gerenciar suas ofertas e aproveitar os dados do cliente em tempo real.
 
->[!VIDEO](https://video.tv.adobe.com/v/340355?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

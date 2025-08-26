@@ -34,7 +34,7 @@ Ao fazer upload de um arquivo DDL, você pode definir a estrutura do modelo de d
 
 Os uploads de arquivo de esquema baseados em Excel são compatíveis. Baixe o [modelo fornecido](assets/template.zip) para preparar facilmente as definições do esquema.
 
-+++Os seguintes recursos são compatíveis ao criar esquemas relacionais no Adobe Experience Platform
++++Os seguintes recursos são suportados ao criar esquemas relacionais no Adobe Experience Platform
 
 * **ENUMERAÇÃO**\
   Os campos ENUM são suportados na criação de esquema manual e baseado em DDL, permitindo que você defina atributos com um conjunto fixo de valores permitidos.

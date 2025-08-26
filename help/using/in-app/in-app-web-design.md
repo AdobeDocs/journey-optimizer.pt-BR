@@ -33,7 +33,7 @@ Para editar o conteúdo da mensagem no aplicativo, clique no botão **[!UICONTRO
 
 O botão de alternância **[!UICONTROL Formatação avançada]** ativa opções adicionais para personalizar a experiência.
 
-Depois que a mensagem no aplicativo for criada e o conteúdo definido e personalizado, você poderá revisá-la e ativá-la. As notificações serão enviadas de acordo com o agendamento da campanha. Saiba mais sobre [esta página](send-in-app.md).
+Depois que a mensagem no aplicativo for criada e o conteúdo definido e personalizado, você poderá revisá-la e ativá-la. As notificações serão enviadas de acordo com o agendamento da campanha. Saiba mais [nesta página](send-in-app.md).
 
 ## Layout da mensagem {#message-layout}
 

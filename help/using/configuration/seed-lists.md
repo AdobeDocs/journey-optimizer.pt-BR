@@ -32,17 +32,17 @@ Os seed addresses não são perfis reais nem perfis de teste, pois não incluem 
 
   Por exemplo:
 
-+++ Se você for um gerente de marketing:
+  +++ Se você for um gerente de marketing:
 
   Você deseja que todos os membros da equipe recebam cópias das mensagens enviadas ao mesmo tempo que os clientes. Dessa forma, sua equipe pode garantir que as mensagens sejam enviadas com o layout esperado, URLs ativos, texto e imagens corretos - tudo conforme planejado antes da execução.
 
-+++
+  +++
 
-+++ Se você for um proprietário de produto:
+  +++ Se você for um proprietário de produto:
 
   Você precisa rastrear as mensagens reais enviadas aos clientes. Na verdade, sua equipe e liderança podem estar interessadas em algumas campanhas e precisam ser adicionadas em uma base ad hoc para receber cópias da mensagem no momento do delivery.
 
-+++
+  +++
 
 * Outro motivo para usar seed lists é a proteção da sua lista de endereçamento. Inserir seed addresses em sua lista de mala direta permite que você seja notado, se ela estiver sendo usada por um terceiro, pois esses seed addresses receberão as entregas enviadas à sua lista de mala direta.
 

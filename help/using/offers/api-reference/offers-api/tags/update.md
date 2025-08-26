@@ -16,7 +16,7 @@ ht-degree: 11%
 
 # Atualizar um qualificador de coleção {#update-collection-qualifier}
 
-Você pode modificar ou atualizar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) fazendo uma solicitação PATCH para a API da biblioteca de ofertas.
+Você pode modificar ou atualizar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) fazendo uma solicitação do PATCH para a API da biblioteca de ofertas.
 
 Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte a [documentação oficial do Patch JSON](https://jsonpatch.com/).
 

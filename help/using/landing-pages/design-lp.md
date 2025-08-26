@@ -12,7 +12,7 @@ exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -22,7 +22,7 @@ Para começar a criar conteúdo para sua [página principal](create-lp.md#config
 
 ![](assets/lp_open-designer.png)
 
-A partir daí, você pode:
+Nela, você pode:
 
 * **Crie sua página de aterrissagem do zero** por meio da interface do designer de conteúdo e utilize imagens do [Adobe Experience Manager Assets](../integrations/assets.md). Saiba como criar seu conteúdo <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
 

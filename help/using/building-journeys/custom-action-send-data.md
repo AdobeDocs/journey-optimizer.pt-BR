@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Enviar dados para a AEP
-description: Saiba como enviar dados para a AEP
+title: Enviar dados para o AEP
+description: Saiba como enviar dados para o AEP
 feature: Journeys, Use Cases
 topic: Content Management
 role: User, Data Engineer

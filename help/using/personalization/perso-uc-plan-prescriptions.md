@@ -56,7 +56,7 @@ Nesse caso de uso, queremos enviar um único email para cada perfil, incluindo t
 
 </ul>
 
->[!TAB Modelo de HTML]
+>[!TAB Modelo do HTML]
 
 ```html
 <p>Hi {{profile.person.firstName}} {{profile.person.lastName}},</p>

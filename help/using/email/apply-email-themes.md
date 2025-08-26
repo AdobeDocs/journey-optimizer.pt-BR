@@ -49,7 +49,7 @@ Key Benefits:
 - **Customization**: Add custom CSS and mobile-specific styles for advanced designs.
 - **Scalability**: Eliminate repetitive styling tasks, enabling faster email creation.-->
 
-## Medidas de proteção e limitações {#themes-guardrails}
+## Proteções e limitações {#themes-guardrails}
 
 * Ao criar um email do zero, você pode optar por começar a criar o conteúdo usando um tema para aplicar rapidamente um estilo específico que se ajuste à sua marca e design.
 

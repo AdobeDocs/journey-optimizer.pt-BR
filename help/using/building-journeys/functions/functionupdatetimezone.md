@@ -9,7 +9,7 @@ keywords: updateTimeZone, função, expressão, jornada
 exl-id: 1bf4662e-55d0-4631-af93-1430ec7ed7e2
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '61'
 ht-degree: 9%
 
 ---
@@ -41,7 +41,7 @@ Retorna um datetime.
 
 `updateTimeZone( toDateTime("2023-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
-Retorna 28T17:15:30.123+02:00.
+Retorna 28/08/2023:15:30.123+02:00.
 
 <!--`updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), toTimeZone("Europe/Paris")))`
 Returns "2019-08-28T17:15:30.123+02:00".-->

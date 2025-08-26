@@ -3,7 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Modelos de otimização automática
 description: Saiba mais sobre os modelos de otimização automática
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced

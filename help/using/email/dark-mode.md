@@ -15,7 +15,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -46,7 +46,7 @@ Ao criar seus emails, o [!DNL Journey Optimizer] [Designer de email](get-started
 >
 >A renderização final no modo escuro depende do cliente de email do recipient.
 >
->Nem todos os clientes de email oferecem suporte ao modo escuro personalizado. <!--[See the list](#non-supporting-email-clients)-->Além disso, alguns clientes de email aplicam somente seu próprio modo escuro padrão para todos os emails recebidos. Nesse caso, as configurações personalizadas definidas no Designer de email não podem ser renderizadas.
+>Nem todos os clientes de email permitem o modo escuro. <!--[See the list](#non-supporting-email-clients)-->Além disso, alguns clientes de email aplicam somente seu próprio modo escuro padrão para todos os emails recebidos. Nesse caso, as configurações personalizadas definidas no Designer de email não podem ser renderizadas.
 
 Uma lista de clientes de email que dão suporte ao modo escuro é apresentada em [esta seção](#supporting-email-clients).
 
@@ -72,7 +72,7 @@ Na verdade, a forma como o modo escuro é aplicado pelos clientes de email pode 
 
 * Outros clientes de email oferecem a opção de renderizar o modo escuro personalizado (como com o método `@media (prefers-color-scheme: dark)`). Nesse caso, as configurações específicas definidas no Designer de email devem ser exibidas. Saiba como definir configurações personalizadas do modo escuro no Email Designer em [esta seção](#define-custom-dark-mode).
 
-## Modo escuro no Designer de email {#dark-mode-email-designer}
+## Modo escuro no designer de email {#dark-mode-email-designer}
 
 Quando se trata do modo escuro no Designer de email, há dois aspectos a serem considerados:
 
@@ -131,7 +131,7 @@ Depois de alternar para o **[!UICONTROL modo escuro]**, você pode optar por edi
 
 >[!WARNING]
 >
->Nem todos os clientes de email oferecem suporte ao modo escuro. Além disso, alguns clientes de email aplicam apenas seu próprio modo escuro padrão para todos os emails recebidos. Em ambos os casos, as configurações personalizadas definidas no Designer de email não podem ser renderizadas.
+>Nem todos os clientes de email oferecem suporte ao modo escuro. Além disso, alguns clientes de email aplicam seu próprio modo escuro padrão para todos os emails recebidos. Em ambos os casos, as configurações personalizadas definidas no designer de email não podem ser renderizadas.
 
 Para utilizar o estilo de modo escuro personalizado do Designer de email, o Journey Optimizer usa o <!-- `@media (prefers-color-scheme: dark)` method--> Consulta CSS `@media (prefers-color-scheme: dark)`, que detecta se o cliente de email do usuário está definido para o modo escuro e aplica o design de tema escuro definido no seu email.
 

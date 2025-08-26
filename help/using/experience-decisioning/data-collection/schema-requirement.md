@@ -8,7 +8,8 @@ role: Developer, Data Engineer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
+source-git-commit: 0bba63855360d0dcd7daa98a2083f23995b88b94
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -27,7 +28,7 @@ Abaixo estão os requisitos de esquema que você precisa implementar no código 
 
 >[!NOTE]
 >
->Os eventos de decisão não precisam ser enviados, pois o Gerenciamento de decisão gerará esses eventos automaticamente e os colocará no **conjunto de dados <!--to check--> de DecisionEvents&rbrack;** gerados automaticamente.
+>Os eventos de decisão não precisam ser enviados, pois o Gerenciamento de decisão gerará esses eventos automaticamente e os colocará no **[!UICONTROL conjunto de dados]** de DecisionEvents<!--to check--> gerados automaticamente.
 
 ## Rastrear impressões {#track-impressions}
 
@@ -108,4 +109,4 @@ Para eventos personalizados, o esquema usado no conjunto de dados também deve t
 >* POST /ee/v2/interage
 >* POST /ee/v2/collect
 >
->Se você estiver usando a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} ou a [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=pt-BR){target="_blank"}, a conexão será feita automaticamente.
+>Se você estiver usando a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} ou a [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, a conexão será feita automaticamente.

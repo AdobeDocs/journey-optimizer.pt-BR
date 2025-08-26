@@ -123,7 +123,7 @@ Ao criar uma regra [que corresponda a várias páginas](#web-page-matching-rule)
         <td></td>
     </tr>
     <tr>
-        <td>Inicia com</td>
+        <td>Começa com</td>
         <td>Corresponde a todos os caminhos (incluindo subcaminhos) que começam com a cadeia de caracteres inserida.</td>
         <td></td>
     </tr>

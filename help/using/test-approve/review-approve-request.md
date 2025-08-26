@@ -49,4 +49,4 @@ Após o envio da solicitação, o criador de jornadas/campanhas é notificado po
 
 >[!NOTE]
 >
-> Se você não estiver recebendo a notificação de aprovação por meio de um email, será necessário atualizar as preferências das assinaturas nos perfis de Experience Cloud. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences)
+> Se você não estiver recebendo a notificação de aprovação por meio de um email, será necessário atualizar as preferências das assinaturas nos perfis do Experience Cloud. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences)

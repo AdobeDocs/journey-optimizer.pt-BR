@@ -12,7 +12,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
 workflow-type: tm+mt
 source-wordcount: '1485'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -39,7 +39,7 @@ A Otimização de tempo de envio está disponível apenas para os tipos de açã
 
 >[!AVAILABILITY]
 >
->* O recurso de Otimização de tempo de envio é ativado para clientes do Adobe Journey Optimizer mediante solicitação. Entre em contato com o Atendimento ao cliente da Adobe ou com seu representante da Adobe para ativar o recurso para sua organização.
+>* O recurso de Otimização de tempo de envio é ativado para clientes do Adobe Journey Optimizer mediante solicitação. Entre em contato com o Atendimento ao cliente da Adobe ou com o(a) representante da Adobe para ativar o recurso em sua organização.
 >
 >* A Otimização de Tempo de Envio se aplica somente aos canais de **Email** e **Notificação por push**.
 >
@@ -142,14 +142,14 @@ Isso pode ocorrer por vários motivos:
 
 +++
 
-+++Como a Otimização de hora de envio sabe o fuso horário de um usuário?
++++Como a Otimização de hora de envio conhece o fuso horário de um usuário?
 
 A Otimização de tempo de envio usa o campo de perfil `timeZone` para determinar o fuso horário de um usuário. Se não estiver disponível para esse usuário, a Otimização de tempo de envio tenta inferir o fuso horário de um usuário a partir de outras informações geográficas no perfil do usuário, como país e estado.
 
 +++
 
 
-+++A Otimização de hora de envio enviará mensagens de push aos usuários durante a noite no fuso horário local?
++++A Otimização de tempo de envio enviará mensagens de push aos usuários durante a noite no fuso horário local?
 
 A Otimização de tempo de envio pode enviar mensagens de push aos usuários durante a noite em seu fuso horário local nas seguintes circunstâncias:
 

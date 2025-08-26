@@ -12,7 +12,7 @@ exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -69,7 +69,7 @@ Para criar um conjunto de regras de canal, siga estas etapas:
 
      >[!AVAILABILITY]
      >
-     >Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Entre em contato com o atendimento ao cliente para ativá-lo.
+     >Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Entre em contato com o atendimento ao cliente para habilitá-la.
 
    * **[!UICONTROL Diariamente]** - O limite de frequência diária é válido para o dia até 23:59:59 UTC e é redefinido para 0 no início do dia seguinte.
    * **[!UICONTROL Semanalmente]** - O limite de frequência é válido até sábado, 23:59:59 UTC dessa semana, pois a semana do calendário começa no domingo. A data de expiração se aplica independentemente de quando a regra foi criada. Por exemplo, se a regra for criada na quinta-feira, ela será válida até o sábado às 23:59:59.
@@ -166,4 +166,4 @@ In this scenario, an individual profile:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

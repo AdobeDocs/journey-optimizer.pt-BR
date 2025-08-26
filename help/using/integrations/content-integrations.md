@@ -12,7 +12,7 @@ exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 18%
+ht-degree: 27%
 
 ---
 
@@ -46,7 +46,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 ### Fragmentos
 
-Ao integrar o Adobe Experience Manager com o Adobe Journey Optimizer, agora é possível incorporar facilmente os Fragmentos de conteúdo do AEM ao conteúdo de email do Journey Optimizer. Essa conexão simplificada simplifica o processo de acesso e aproveitamento do conteúdo do AEM, permitindo a criação de campanhas e jornadas personalizadas e dinâmicas.
+Ao integrar o Adobe Experience Manager com o Adobe Journey Optimizer, agora é possível incorporar facilmente os Fragmentos de conteúdo do AEM ao conteúdo de email do Journey Optimizer. Essa conexão simplifica o processo de acesso e aproveitamento do conteúdo do AEM, permitindo a criação de campanhas e jornadas personalizadas e dinâmicas.
 
 Saiba mais sobre o [Journey Optimizer + fragmentos do Adobe Experience Manager](../integrations/aem-fragments.md).
 
@@ -69,7 +69,7 @@ Saiba mais sobre o [Journey Optimizer + Stock](../integrations/stock.md).
 
 ## Adobe Express {#express}
 
-A integração do Adobe Express no Adobe Journey Optimizer permite acessar facilmente as poderosas ferramentas de edição do Adobe Express ao criar conteúdo. Essa integração permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos para JPEG ou PNG sem precisar alternar entre as soluções.
+A integração do Adobe Express ao Adobe Journey Optimizer permite acessar facilmente as poderosas ferramentas de edição do Adobe Express ao criar conteúdo. Essa integração permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos para JPEG ou PNG sem precisar alternar entre as soluções.
 
 Para acessar o menu **[!DNL Adobe Express]**, acesse suas **configurações de imagem** do Designer de email e clique em **[!UICONTROL Editar no Adobe Express]**.
 

@@ -11,7 +11,7 @@ hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -115,7 +115,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 * Correção de um problema que impedia a exibição da lista de jornadas, da lista de mensagens e do Designer de email quando o idioma do navegador não estava em inglês.
 * Correção de um erro de sintaxe que ocorria ao adicionar personalização usando uma expressão no Designer de email: os caracteres eram escapados incorretamente.
 * Correção de um problema que resultava em um erro 404 ao navegar no menu **Administração**.
-* Correção de um problema que acionava outras jornadas ativas ao testar uma jornada usando um evento comercial.
+* Correção de um problema que acionava outras jornadas ativas ao testar uma jornada usando um evento de negócios.
 
 
 ## Versão de setembro de 2021 {#september-2021-release}

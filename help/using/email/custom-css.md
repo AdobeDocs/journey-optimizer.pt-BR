@@ -12,7 +12,7 @@ exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
 source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -174,7 +174,7 @@ body {
 
 Seu CSS personalizado é adicionado ao final da seção `<head>` como parte de uma marca `<style>` com o atributo `data-name="global-custom"`, como no exemplo abaixo. Isso garante que os estilos personalizados sejam aplicados globalmente ao conteúdo.
 
-+++ Ver exemplo
++++ Ver exemplo 
 
 ```html
 <!DOCTYPE html>
@@ -235,13 +235,13 @@ Se o CSS personalizado não for aplicado, considere as opções abaixo.
 
 * Verifique se a marca de estilo `global-custom` tem o atributo `data-disabled` definido como `true`. Se esse for o caso, o CSS personalizado não será aplicado.
 
-+++ Por exemplo:
+  +++ Por exemplo:
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * Certifique-se de que seu CSS não seja substituído por outras regras CSS, incluindo qualquer [tema](apply-email-themes.md) aplicado ao seu conteúdo.
 
@@ -249,7 +249,7 @@ Se o CSS personalizado não for aplicado, considere as opções abaixo.
 
    * Considere adicionar `!important` às suas declarações para garantir que elas tenham prioridade.
 
-+++ Por exemplo:
+     +++ Por exemplo:
 
      ```css
      .acr-Form {
@@ -257,4 +257,4 @@ Se o CSS personalizado não for aplicado, considere as opções abaixo.
      }
      ```
 
-+++
+     +++

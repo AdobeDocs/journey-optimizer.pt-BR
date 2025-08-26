@@ -1,5 +1,5 @@
 ---
-title: Auxiliar de Pesquisa de Dados Externos
+title: Auxiliar de pesquisa de dados externo
 description: Guia abrangente para usar o Auxiliar de pesquisa de dados externos para personalização dinâmica no Adobe Journey Optimizer.
 feature: Personalization
 topic: Personalization
@@ -12,11 +12,11 @@ exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Auxiliar de Pesquisa de Dados Externos
+# Auxiliar de pesquisa de dados externo
 
 O auxiliar do `externalDataLookup` no Editor de personalização do [!DNL Journey Optimizer] pode ser usado para buscar dados dinamicamente de um terminal externo para uso na geração de conteúdo para canais de entrada, como os canais de Experiência baseada em Código, Web e Mensagens no Aplicativo.
 
@@ -218,4 +218,4 @@ Na Seção Edge Delivery do rastreamento de garantia como parte dos detalhes de 
 
 * [!DNL Journey Optimizer] faz algum armazenamento em cache de respostas do ponto de extremidade externo?
 
-  No momento não. Esse recurso será compatível no futuro.
+  No momento não. Esse recurso será permitido no futuro.

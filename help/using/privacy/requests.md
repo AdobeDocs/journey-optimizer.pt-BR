@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -22,10 +22,10 @@ As solicitações de privacidade podem ser criadas e gerenciadas no menu **[!UIC
 
 ![](assets/requests.png)
 
-Para obter mais informações sobre o Privacy Service e como criar e gerenciar solicitações de privacidade, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre o Privacy Service e como criar e gerenciar solicitações de privacidade, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"}.
 
-<!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR)-->
+<!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)-->
 
 ## Gerencie solicitações individuais de privacidade de dados que você pode enviar ao Adobe Journey Optimizer {#data-privacy-requests}
 

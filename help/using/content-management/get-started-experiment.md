@@ -11,8 +11,8 @@ keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 99%
+source-wordcount: '2002'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Os experimentos de conteúdo permitem otimizar o conteúdo para as ações em Ca
 
 Os experimentos são um conjunto de testes aleatórios, o que, no contexto de testes online, significa que alguns usuários selecionados aleatoriamente são expostos a uma determinada variação de uma mensagem e outro conjunto de usuários selecionado aleatoriamente recebe tratamento diverso. Depois de enviar a mensagem, você pode medir as métricas de resultado em que está interessado. Por exemplo, aberturas de emails ou cliques.
 
-➡️ [Esta seção](../experience-decisioning/experience-decisioning-uc.md) apresenta um caso de uso completo que mostra como usar experimentos de conteúdo para comparar decisões com o canal de experiência baseado em código.
+➡️ Um caso de uso de ponta a ponta que mostra como usar experimentos de conteúdo para comparar decisões com o canal de experiência baseado em código é apresentado [nesta seção](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Por que executar experimentos?
 
@@ -89,13 +89,13 @@ Determine a métrica que você objetiva e se as alterações feitas podem ter al
 Por exemplo, é improvável que a alteração do conteúdo do corpo da mensagem afete as taxas de abertura de email.
 +++
 
-+++Execute o teste no tamanho correto do público-alvo ou por tempo suficiente
++++Execute o teste no tamanho correto do público ou por tempo suficiente
 
 Se você executar seus testes por mais tempo, será possível detectar diferenças menores na métrica de meta entre os tratamentos. No entanto, se o valor da linha de base de sua métrica de meta for pequeno, você precisará de tamanhos de amostra maiores.
-O número de usuários que devem ser incluídos em seu experimento depende do tamanho do efeito que você deseja detectar, da variação ou propagação de sua métrica de meta, bem como de sua tolerância para erros falsos positivos e falsos negativos. Em Experimentos clássicos, você pode usar uma [calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR){_blank} para determinar por quanto tempo deve executar o teste.
-+++
+O número de usuários que devem ser incluídos em seu experimento depende do tamanho do efeito que você deseja detectar, da variação ou propagação de sua métrica de meta, bem como de sua tolerância para erros falsos positivos e falsos negativos. Em Experimentos clássicos, você pode usar uma [calculadora de tamanho de amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR){_blank} para determinar por quanto tempo você deve executar seu teste.
++++ 
 
-+++Entender a incerteza estatística
++++Compreender a incerteza estatística
 
 Se você estiver executando um experimento em que 1.000 usuários viram um tratamento e a taxa de conversão é definida como 5%. Essa seria a taxa de conversão real se todos os seus usuários estivessem incluídos? Qual seria a taxa de conversão real?
 Os métodos estatísticos nos fornecem uma maneira de formalizar essa incerteza. Um dos conceitos mais importantes a se entender ao executar experimentos online é que as taxas de conversão observadas são consistentes com uma gama de taxas de conversão verdadeiras subjacentes, o que significa que você deve esperar até que essas estimativas sejam precisas o suficiente, antes de tentar chegar a uma conclusão. Os Intervalos de confiança e Confiança nos ajudam a quantificar essa incerteza.
@@ -123,13 +123,13 @@ Observe que uma descrição completa dos resultados deve considerar todas as evi
 
 Para entender os cálculos estatísticos, consulte esta [página](../content-management/experiment-calculations.md).
 
-### 1. Comparar métricas normalizadas {#normalized-metrics}
+### &#x200B;1. Comparar métricas normalizadas {#normalized-metrics}
 
 Ao comparar o desempenho de dois tratamentos, você deve sempre comparar as métricas normalizadas para levar em conta quaisquer diferenças no número de perfis expostos a cada tratamento.
 
 Por exemplo, se o objetivo do experimento estiver definido como **[!UICONTROL Aberturas únicas]** e um determinado tratamento foi mostrado para 10.000 Perfis com 200 Aberturas únicas registradas, então isso representa uma **[!UICONTROL Taxa de conversão]** de 2%. Para métricas não exclusivas, por exemplo, métrica Aberturas, a métrica normalizada é mostrada como uma **[!UICONTROL Contagem por perfil]**, enquanto para métricas contínuas como Preço total, a métrica normalizada é mostrada como um **[!UICONTROL Total por Perfil]**.
 
-### 2. Foco nos intervalos de confiança {#confidence-intervals}
+### &#x200B;2. Foco nos intervalos de confiança {#confidence-intervals}
 
 Quando você executa experimentos em amostras de seus perfis, a taxa de conversão observada para um determinado tratamento representa uma estimativa da verdadeira taxa de conversão subjacente.
 
@@ -141,17 +141,17 @@ Se os intervalos de confiança para dois tratamentos mal se sobrepõem, isso sig
 
 A Adobe usa intervalos de confiança válidos de 95% a qualquer momento, ou Sequências de confiança, o que significa que os resultados podem ser visualizados com segurança a qualquer momento durante o experimento.
 
-### 3. Entenda o aumento {#understand-lift}
+### &#x200B;3. Entenda o aumento {#understand-lift}
 
 O resumo do relatório do Experimento mostra o **[!UICONTROL aumento em relação à linha de base]**, que é uma medida da melhora da porcentagem na taxa de conversão de um determinado tratamento em relação à linha de base. Para definir com precisão, é a diferença no desempenho entre um determinado tratamento e a linha de base, dividido pelo desempenho da linha de base expresso como uma porcentagem.
 
-### 3. Compreenda a confiança {#understand-confidence}
+### &#x200B;3. Compreenda a confiança {#understand-confidence}
 
 Embora você deva se concentrar principalmente no **[!UICONTROL Intervalo de confiança]** para o desempenho de cada tratamento, a Adobe também mostra a Confiança, que é uma medida probabilística da quantidade de evidências de que um determinado tratamento é igual ao tratamento de linha de base. Uma confiança maior indica menos evidência para o pressuposto de que os tratamentos de linha de base e os que não são de linha de base têm desempenho igual. Mais precisamente, a confiança exibida é uma probabilidade (expressa como uma porcentagem) em que teríamos observado uma diferença menor nas taxas de conversão entre um determinado tratamento e a linha de base, se na realidade não houvesse diferença nas taxas de conversão subjacentes verdadeiras. Em termos de valores p, a confiança exibida é 1 - valor p.
 
 A Adobe usa Confiança &quot;Válido a qualquer momento&quot; e valores p &quot;Válido a qualquer momento&quot; que são consistentes com as Sequências de Confiança descritas acima.
 
-### 4. Significância estatística
+### &#x200B;4. Significância estatística
 
 Ao executar Experimentos, um resultado é considerado estatisticamente significativo se for muito improvável que tenha sido observado com uma hipótese nula de que um determinado tratamento e a linha de base têm taxas/desempenho de conversão subjacentes verdadeiros idênticos.
 

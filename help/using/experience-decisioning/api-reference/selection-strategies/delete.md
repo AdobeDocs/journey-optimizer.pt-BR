@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # Excluir uma estratégia de seleção {#delete-selection-strategy}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma estratégia de seleção. Isso é feito executando uma solicitação DELETE para a API da Biblioteca de ofertas usando a id da estratégia de seleção que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma estratégia de seleção. Isso é feito executando uma solicitação do DELETE para a API da Biblioteca de ofertas usando a ID da estratégia de seleção que você deseja excluir.
 
 **Formato da API**
 

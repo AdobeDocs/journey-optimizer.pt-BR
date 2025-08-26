@@ -110,7 +110,7 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++
 
-+++O que acontece com um perfil específico em uma jornada específica em um período específico
++++O que acontece com um perfil específico em uma jornada específica em um intervalo de tempo específico
 
 _Consulta do Data Lake_
 
@@ -139,7 +139,7 @@ ORDER BY timestamp;
 
 +++
 
-+++Quanto tempo decorreu entre dois nós
++++Quanto tempo decorreu entre dois nós 
 
 Essas consultas podem ser usadas, por exemplo, para estimar o tempo gasto em uma atividade de espera. Isso permite verificar se a atividade de espera está configurada corretamente.
 
@@ -268,7 +268,7 @@ WHERE
 
 +++
 
-+++Como verificar os detalhes de um serviceEvent
++++Como verificar os detalhes de um serviceEvent 
 
 O conjunto de dados de Eventos de etapa de Jornada contém todos os stepEvents e serviceEvents. stepEvents são usados em relatórios, pois se relacionam a atividades (evento, ações etc.) de perfis em uma jornada. serviceEvents são armazenados no mesmo conjunto de dados e indicam informações adicionais para fins de depuração, por exemplo, o motivo para um descarte de evento de experiência.
 
@@ -320,7 +320,7 @@ Esta consulta retorna todos os erros diferentes que ocorreram ao executar uma a�
 
 ## Consultas baseadas em perfil {#profile-based-queries}
 
-+++Localiza se um perfil inseriu uma Jornada específica
++++Localizar se um perfil inseriu uma Jornada específica
 
 _Consulta do Data Lake_
 
@@ -344,7 +344,7 @@ O resultado deve ser maior que 0. Esta consulta retorna o número exato de vezes
 
 +++
 
-+++Localiza se um perfil recebeu uma mensagem específica
++++Descubra se um perfil recebeu uma mensagem específica
 
 Método 1: se o nome da mensagem não for exclusivo na jornada (ela é usada em vários locais).
 
@@ -396,7 +396,7 @@ A consulta retorna a lista de todas as mensagens juntamente com sua contagem inv
 
 +++
 
-+++Localiza todas as mensagens recebidas por um perfil nos últimos 30 dias
++++Localizar todas as mensagens recebidas por um perfil nos últimos 30 dias
 
 _Consulta do Data Lake_
 
@@ -424,7 +424,7 @@ A consulta retorna a lista de todas as mensagens juntamente com sua contagem inv
 
 +++
 
-+++Localiza todas as jornadas inseridas por um perfil nos últimos 30 dias
++++Localizar todas as jornadas inseridas por um perfil nos últimos 30 dias
 
 _Consulta do Data Lake_
 
@@ -478,7 +478,7 @@ O query retorna, para o período definido, o número de perfis que entraram na j
 
 ## Consultas relacionadas ao público-alvo de leitura {#read-segment-queries}
 
-+++Tempo necessário para concluir um trabalho de exportação de público-alvo
++++Tempo necessário para concluir um trabalho de exportação de público
 
 _Consulta do Data Lake_
 
@@ -512,7 +512,7 @@ A consulta retorna a diferença de tempo, em minutos, entre o momento em que o t
 
 +++
 
-+++Número de perfis que foram descartados pela jornada porque estavam duplicados
++++Número de perfis descartados pela jornada porque estavam duplicados
 
 _Consulta do Data Lake_
 
@@ -560,7 +560,7 @@ A consulta retorna todas as IDs de perfil que foram descartadas pela jornada por
 
 +++
 
-+++Número de perfis que foram descartados pela jornada devido a nenhum mapa de identidade
++++Número de perfis que foram descartados pela jornada devido à falta de um mapa de identidade
 
 _Consulta do Data Lake_
 
@@ -732,7 +732,7 @@ Se nenhum registro for retornado, significa que:
 
 +++
 
-+++Obter métricas em perfis exportados, incluindo descartes e métricas de trabalho de exportação para cada trabalho de exportação
++++Obter métricas sobre perfis exportados, incluindo descartes e métricas de trabalho de exportação para cada trabalho de exportação
 
 _Consulta do Data Lake_
 
@@ -917,7 +917,7 @@ Esta consulta retorna todos os eventos (eventos externos/eventos de qualificaç�
 
 ## Consultas baseadas em eventos {#event-based-queries}
 
-+++Verifica se um evento comercial foi recebido para uma jornada
++++Verificar se um evento comercial foi recebido para uma jornada
 
 _Consulta do Data Lake_
 
@@ -999,7 +999,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 +++
 
-+++Verifica a contagem de todos os eventos descartados por stateMachine por errorCode
++++Verifique a contagem de todos os eventos descartados por stateMachine por errorCode
 
 _Consulta do Data Lake_
 
@@ -1019,7 +1019,7 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 +++
 
-+++Marque todos os eventos descartados porque a reentrada não foi permitida
++++Verificar todos os eventos descartados porque a reentrada não foi permitida
 
 _Consulta do Data Lake_
 
@@ -1073,7 +1073,7 @@ A consulta retorna, para o período definido, a contagem de jornadas exclusivas 
 
 ## Consultas em instâncias do jornada {#journey-instances-queries}
 
-+++Número de perfis em um estado específico em um momento específico
++++Número de perfis em um estado específico por um tempo específico
 
 _Consulta do Data Lake_
 

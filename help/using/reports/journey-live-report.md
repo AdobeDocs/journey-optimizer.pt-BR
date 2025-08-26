@@ -66,7 +66,7 @@ Observe que a contagem de perfis de um nó só é atualizada depois que o perfil
 
 ![](assets/journey_live_statistics.png)
 
-Os **[!UICONTROL Indicadores-chave de desempenho (KPIs) das Estatísticas de Jornada]** funcionam como um painel abrangente, fornecendo uma análise das métricas essenciais associadas à sua jornada nas últimas 24 horas. Isso inclui detalhes como a contagem de perfis inseridos e instâncias de jornadas individuais com falha, oferecendo um insight abrangente sobre a eficácia e o nível de engajamento da jornada.
+Os **[!UICONTROL Indicadores-chave de desempenho (KPIs) das Estatísticas de Jornada]** funcionam como um painel abrangente, fornecendo uma análise das métricas essenciais associadas à sua jornada nas últimas 24 horas. Isso inclui detalhes como a contagem de perfis inseridos e instâncias de jornadas individuais com falha, oferecendo uma insight abrangente sobre a eficácia e o nível de engajamento da jornada.
 
 +++ Saiba mais sobre as métricas de estatísticas da Jornada
 

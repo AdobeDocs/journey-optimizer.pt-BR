@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> O uso dos serviços de tradução de um Provedor de tradução está sujeito a termos e condições adicionais desse provedor aplicável. Como soluções de terceiros, os serviços de tradução estão disponíveis para usuários do Adobe Journey Optimizer por meio de uma integração. A Adobe não controla e não é responsável por produtos de terceiros.
+> O uso dos serviços de tradução de um Provedor de tradução está sujeito a termos e condições adicionais desse provedor aplicável. Como soluções de terceiros, os serviços de tradução estão disponíveis para usuários do Adobe Journey Optimizer por meio de uma integração. A Adobe não controla e não se responsabiliza por produtos de terceiros.
 
 O Adobe Journey Optimizer integra-se a provedores de tradução de terceiros que oferecem serviços de tradução automática e humana, independentemente do Adobe Journey Optimizer.
 

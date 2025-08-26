@@ -98,7 +98,7 @@ Use uma **[!UICONTROL Condição de tempo]** para executar ações diferentes de
 >
 >* O fuso horário não é específico de uma condição e é definido no nível da jornada nas propriedades da jornada. Saiba mais [nesta página](../building-journeys/timezone-management.md).
 >
->* Por padrão, a **[!UICONTROL Condição de hora]** é definida por hora, das 00:00 às 12:00.
+>* Por padrão, a **[!UICONTROL Condição de tempo]** é definida por hora, de 00:00 a 12:00.
 
 ![](assets/journey51.png)
 
@@ -175,4 +175,4 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

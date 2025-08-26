@@ -3,7 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Dados de contexto e solicitações de decisão de borda
 description: Saiba como transmitir dados de contexto em solicitações do Edge Decisioning.
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
@@ -51,11 +51,11 @@ Em vez de transmitir o contexto em um formato bastante livre usando a API de dec
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Saiba como trabalhar com esquemas no [guia do Experience Data Model (XDM) do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home){target="_blank"}
+   Saiba como trabalhar com esquemas no [guia do Experience Data Model (XDM) do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Crie um conjunto de dados (aqui, &quot;Contexto da oferta&quot;) e verifique se ele está ativado para o perfil.
 
-1. Crie uma nova sequência de dados a partir do menu **[!UICONTROL Coleção de Dados]** > **[!UICONTROL Sequências de Dados]**. Saiba como criar e configurar a sequência de dados no [guia de sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure){target="_blank"} do Adobe Experience Platform
+1. Crie uma nova sequência de dados a partir do menu **[!UICONTROL Coleção de Dados]** > **[!UICONTROL Sequências de Dados]**. Saiba como criar e configurar a sequência de dados no [guia de sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"} do Adobe Experience Platform
 
    Aqui, criamos uma sequência de dados de &quot;Contexto de oferta&quot;, com o esquema de evento &quot;Conteúdo de oferta&quot; selecionado.
 
@@ -142,7 +142,7 @@ Este é um exemplo de uma solicitação que transmite dados de contexto.
 * As informações sobre o tipo de dispositivo são passadas no nó `xdm:ContextData`.
 * No nó `decisionScopes`, copie e cole o escopo de decisão da [decisão de oferta](#decision) configurada anteriormente.
 
-  +++Onde recuperar o escopo de decisão
+  +++Onde recuperar o escopo da decisão
 
   ![](assets/context-edge-copy-scope.png)
 

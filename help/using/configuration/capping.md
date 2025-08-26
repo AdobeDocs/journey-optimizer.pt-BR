@@ -10,7 +10,7 @@ keywords: external, API, otimizer, capping
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '735'
 ht-degree: 6%
 
 ---
@@ -112,7 +112,7 @@ Os possíveis erros são:
 
 * **ERR_ENDPOINTCONFIG_100**: configuração de limitação: url ausente ou inválida
 * **ERR_ENDPOINTCONFIG_101**: configuração de limitação: url malformada
-* **ERR_ENDPOINTCONFIG_102**: configuração de limitação: url malformada: caractere curinga em url não permitido em host:port
+* **ERR_ENDPOINTCONFIG_102**: configuração de limitação: url malformada: curinga na url não permitido no host:port
 * **ERR_ENDPOINTCONFIG_103**: configuração de limitação: métodos HTTP ausentes
 * **ERR_ENDPOINTCONFIG_104**: configuração de limitação: nenhuma classificação de chamada definida
 * **ERR_ENDPOINTCONFIG_107**: configuração de limitação: contagem máxima inválida de chamadas (maxCallsCount)
@@ -131,7 +131,7 @@ Esta seção lista casos de uso importantes para gerenciar configurações de li
 
 Detalhes sobre cada comando de API estão disponíveis na [descrição da API e coleção do Postman](#description).
 
-+++Criar e implantar uma nova configuração de limitação
++++Criar e implantar uma nova configuração de limite
 
 Chamadas de API a serem usadas:
 
@@ -164,7 +164,7 @@ Chamadas de API a serem usadas:
 
 +++
 
-+++Exclui uma configuração de limite implantada em uma etapa
++++Excluir uma configuração de limite implantada em uma etapa
 
 Em apenas uma chamada de API, você pode desimplantar e excluir a configuração usando o parâmetro `forceDelete`.
 
@@ -175,7 +175,7 @@ Chamadas de API a serem usadas:
 
 +++
 
-+++Atualizar uma configuração de limitação já implantada
++++Atualizar uma configuração de limite já implantada
 
 >[!NOTE]
 >

@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="Personalizar a notificação por push."
->abstract="Para redigir a mensagem, insira o conteúdo nos campos **Título** e **Corpo**. Para incluir tokens de personalização, abra a caixa de diálogo de personalização."
+>abstract="Para compor a mensagem, insira o conteúdo nos campos **Título** e **Corpo**. Para incluir tokens de personalização, abra a caixa de diálogo de personalização."
 
 Para redigir a mensagem, clique nos campos **[!UICONTROL Título]** e **[!UICONTROL Corpo]**. Use o editor de personalização para definir conteúdo, personalizar dados e adicionar conteúdo dinâmico. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no editor de personalização.
 
@@ -71,7 +71,7 @@ Depois de adicionada, a mídia é exibida à direita do corpo de notificação.
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="Adicione botões para a interação com a notificação por push."
->abstract="Nesta seção, adicione botões call-to-action à mensagem. Para o Apple iOS, especifique um identificador de categoria de notificação. Para o Google Android, é possível incluir texto personalizado e destinos para cada botão."
+>abstract="Nesta seção, adicione botões de chamada para ação à mensagem. Para Apple iOS, especifique um identificador de categoria de notificação. Para Google Android, é possível incluir texto e destinos personalizados para cada botão."
 
 Crie uma notificação acionável adicionando botões ao seu conteúdo de push.
 

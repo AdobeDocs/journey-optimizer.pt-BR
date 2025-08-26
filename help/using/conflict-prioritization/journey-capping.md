@@ -76,7 +76,7 @@ Para criar uma regra de limite de jornada, siga estas etapas:
 
    +++
 
-   +++Configurar uma regra de limite de simultaneidade de jornada
+   +++Configurar uma regra de limite de simultaneidade de jornada 
 
    1. No campo **[!UICONTROL Limite]**, defina o número máximo de jornadas nas quais um perfil pode ser inscrito simultaneamente.
 
@@ -117,4 +117,4 @@ Além disso, você também pode aproveitar o **Serviço de consulta** da Adobe E
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447620?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

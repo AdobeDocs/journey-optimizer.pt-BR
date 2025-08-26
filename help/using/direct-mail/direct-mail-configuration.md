@@ -9,7 +9,7 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1364'
 ht-degree: 22%
 
 ---
@@ -89,7 +89,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 Se você selecionou **[!UICONTROL Amazon S3]** como o **[!UICONTROL Tipo de servidor]**, preencha os detalhes e as credenciais do seu servidor:
 
-* **Nome do bucket do AWS**:Para saber onde encontrar o nome do seu bucket do AWS, consulte [esta página](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+* **nome do bucket do AWS**:To saiba onde encontrar o nome do seu bucket do AWS, consulte [esta página](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
 * **Chave de acesso do AWS**: para saber onde encontrar sua ID de chave de acesso do AWS, consulte [esta página](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
@@ -145,7 +145,7 @@ Se você selecionou **[!UICONTROL Zona de Aterrissagem de Dados]** como o **[!UI
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 

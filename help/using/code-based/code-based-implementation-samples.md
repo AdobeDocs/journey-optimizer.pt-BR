@@ -39,7 +39,7 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
 
 ### Como funciona - Web SDK {#client-side-how}
 
-1. O [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} está incluído na página.
+1. O [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} está incluído na página.
 
 1. Você precisa usar o comando `sendEvent` e especificar o [URI de superfície](code-based-surface.md)<!--( or location/path)--> para buscar conteúdo de personalização.
 
@@ -138,14 +138,14 @@ As solicitações para a API do Adobe Experience Platform são necessárias para
 
 ## Implementação do lado do servidor {#server-side-implementation}
 
-Se você tiver uma implementação do lado do servidor, poderá usar uma da API Edge Network da AEP.
+Se você tiver uma implementação do lado do servidor, poderá usar uma da API do AEP Edge Network.
 
-As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda pelas jornadas e campanhas de experiência baseadas em código em uma amostra da implementação da API Edge Network para uma página da Web e a exibição do conteúdo personalizado.
+As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda pelas jornadas e campanhas de experiência baseadas em código em uma amostra da implementação da API do Edge Network para uma página da Web e a exibição do conteúdo personalizado.
 
 ### Como funciona
 
 1. A página da Web é solicitada e todos os cookies armazenados anteriormente pelo navegador com o prefixo `kndctr_` são incluídos.
-1. Quando a página é solicitada no servidor de aplicativos, um evento é enviado ao [ponto de extremidade de coleta de dados interativa](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR) para buscar conteúdo de personalização. Este aplicativo de exemplo usa alguns métodos auxiliares para simplificar a compilação e o envio de solicitações para a API (consulte [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Mas a solicitação é simplesmente uma `POST` com uma carga que contém um evento e uma consulta. Os cookies (se disponíveis) da etapa anterior estão incluídos com a solicitação na matriz `meta>state>entries`.
+1. Quando a página é solicitada no servidor de aplicativos, um evento é enviado ao [ponto de extremidade de coleta de dados interativa](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR) para buscar conteúdo de personalização. Este aplicativo de exemplo usa alguns métodos auxiliares para simplificar a criação e o envio de solicitações para a API (consulte [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Mas a solicitação é simplesmente uma `POST` com uma carga que contém um evento e uma consulta. Os cookies (se disponíveis) da etapa anterior estão incluídos com a solicitação na matriz `meta>state>entries`.
 
    ```javascript
    fetch(
@@ -226,7 +226,7 @@ As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda p
    ).then((res) => res.json());
    ```
 
-1. A experiência JSON das jornadas de experiência e campanha baseadas em código é lida da resposta e usada ao produzir a resposta HTML.
+1. A experiência JSON das jornadas de experiência e da campanha baseadas em código é lida a partir da resposta e usada ao produzir a resposta do HTML.
 
 1. Para jornadas de experiência e campanhas baseadas em código, os eventos de exibição devem ser enviados manualmente na implementação para indicar quando o conteúdo da jornada ou da campanha foi exibido. Neste exemplo, a notificação é enviada no lado do servidor durante o ciclo de vida da solicitação.
 
@@ -305,5 +305,5 @@ As solicitações para a API do Adobe Experience Platform são necessárias para
 
 Se você tiver uma implementação híbrida, verifique os links abaixo.
 
-* Blog da Adobe Tech: [Personalization híbrido no Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentação do SDK: [Personalização híbrida usando o Web SDK e a API do Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=pt-BR){target="_blank"}
+* Blog técnico da Adobe: [Personalization híbrido no Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
+* Documentação do SDK: [Personalização híbrida usando o Web SDK e a API do Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}

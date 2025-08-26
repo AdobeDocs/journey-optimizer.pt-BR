@@ -12,11 +12,11 @@ exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 source-git-commit: d89eb9e569cb6de2edc5f20bdcf669972ccc8a8b
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Solucionar problemas das jornadas {#troubleshooting}
+# Solucionar problemas de jornadas {#troubleshooting}
 
 Quando uma jornada do cliente não se comporta conforme esperado, identificar a causa raiz pode ser desafiador. Para ajudá-lo a resolver problemas com eficiência, você pode encontrar abaixo recursos de solução de problemas pelas áreas de problema mais comuns. Se você vir falhas de jornada, inconsistências de execução ou problemas no nível da ação, cada seção fornece orientação direcionada para investigá-las e resolvê-las.
 
@@ -56,9 +56,9 @@ Explore as páginas abaixo para se aprofundar em tópicos específicos de soluç
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="Compreender códigos de erro comuns" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Além disso, confira <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt" target="_blank">esta publicação do blog da Adobe Community</a> detalhando <strong>códigos de erro comuns</strong> e como resolvê-los de maneira eficaz.
+    <br>Além disso, confira <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">esta publicação do blog da Adobe Community</a> detalhando <strong>códigos de erro comuns</strong> e como resolvê-los de maneira eficaz.
     </div>
   </td>
 </tr>

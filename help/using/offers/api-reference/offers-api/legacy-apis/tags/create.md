@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # Criar um qualificador de coleção {#create-tag}
 
-Você pode criar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) fazendo uma solicitação POST para a API [!DNL Offer Library] e, ao mesmo tempo, fornecendo sua ID de contêiner.
+Você pode criar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) fazendo uma solicitação POST para a API [!DNL Offer Library] e, ao mesmo tempo, fornecendo sua ID de container.
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 

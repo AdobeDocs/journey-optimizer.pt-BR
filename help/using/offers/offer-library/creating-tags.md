@@ -1,7 +1,7 @@
 ---
 title: Criar qualificadores de coleção
 description: Saiba como criar qualificadores de coleção para suas ofertas
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
@@ -45,4 +45,4 @@ Para criar um qualificador de coleta, siga estas etapas:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341376?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '177'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Uma oferta personalizada é uma mensagem de marketing personalizável baseada em regras de elegibilidade e restrições.
 
-Você pode pesquisar ofertas personalizadas específicas fazendo uma solicitação GET para a API **Biblioteca de Ofertas** que inclua a oferta personalizada `@id` ou o nome da oferta personalizada no caminho da solicitação.
+Você pode pesquisar ofertas personalizadas específicas fazendo uma solicitação GET para a API **Biblioteca de Ofertas** que inclui a oferta personalizada `@id` ou o nome da oferta personalizada no caminho da solicitação.
 
 **Formato da API**
 
@@ -31,7 +31,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | `{CONTAINER_ID}` | O container onde as ofertas personalizadas estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | Define o schema associado às ofertas personalizadas. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
 | `id` | Uma cadeia de caracteres usada para corresponder à propriedade `@id` das entidades. A string é exatamente igual. Os parâmetros &quot;id&quot; e &quot;name&quot; não podem ser usados juntos. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | Uma sequência de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Discount offer` |
+| `name` | Uma cadeia de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Discount offer` |
 
 **Solicitação**
 

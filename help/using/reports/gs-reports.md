@@ -5,10 +5,11 @@ title: Introdução aos recursos de relatórios no  [!DNL Adobe Journey Optimize
 description: Saiba como acessar e trabalhar com  [!DNL Adobe Journey Optimizer] relatórios.
 role: User
 level: Beginner
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 15%
+ht-degree: 24%
 
 ---
 
@@ -19,9 +20,9 @@ O Adobe Journey Optimizer oferece insights acionáveis por meio de seus recursos
 Além disso, para otimizar a capacidade de entrega de suas experiências do [!DNL Journey Optimizer], recomendamos usar as práticas recomendadas listadas [nesta seção](deliverability.md).
 
 
-## Tipos de relatórios {#reporting-types}
+## Tipos de relatório {#reporting-types}
 
-* **Relatórios ao vivo das últimas 24 horas** - Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho das suas jornadas e mensagens em um painel integrado. Os dados estão disponíveis no **[!UICONTROL Relatório em tempo real]** assim que a entrega é enviada ou a jornada é executada a partir da guia **[!UICONTROL Últimas 24 horas]**. Saiba mais sobre os relatórios ao vivo [nesta seção](live-report.md).
+* **Relatórios ao vivo das últimas 24 horas** - Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho das suas jornadas e mensagens em um painel integrado. Os dados estão disponíveis no **[!UICONTROL Relatório em tempo real]** assim que a entrega é enviada ou a jornada é executada a partir da guia **[!UICONTROL Últimas 24 horas]**. Saiba mais sobre os relatórios em tempo real [nesta seção](live-report.md).
 
   ![](assets/report_journey.png)
 

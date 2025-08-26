@@ -53,7 +53,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 
 +++
 
-+++ _experience > decisão > calendarConstraints
++++ _experience > decisão > calendarConstraints 
 
 **Campo:** calendarConstraints
 **Título:** Detalhes de Restrição de Calendário
@@ -94,7 +94,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 
 +++
 
-+++_experience > decisão > conteúdo > componentes
++++_experience > decisioning > content > components
 
 **Campo:** componentes
 **Descrição:** Os componentes do conteúdo que representam a opção de decisão, incluindo todas as suas variantes de idioma. Componentes específicos são encontrados por &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; ou uma combinação dos mesmos. Esses metadados são usados para localizar ou representar o conteúdo associado a uma oferta e integrá-lo de acordo com o contrato de posicionamento.
@@ -123,7 +123,6 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
      **Exemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
-
      **Campo:** idioma
      **Título:** Idioma
      **Descrição:** O idioma ou idiomas do recurso. \nOs idiomas são especificados no código de idioma conforme definido em [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que faz parte do BCP 47, que é usado em outro lugar no XDM.
@@ -182,7 +181,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
   **Tipo:** cadeia de caracteres
   **Exemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-+++_experience > decisão > conteúdo > Posicionamento
++++_experience > decisioning > contents > Placement
 
 **Campo:** posicionamento
 **Título:** Posicionamento
@@ -330,7 +329,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 
 +++
 
-+++_experience > decisão > classificação > Prioridade
++++_experiência > decisão > classificação > Prioridade
 
 **Campo:** prioridade
 **Título:** Prioridade
@@ -357,7 +356,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 **Campo:** _repo
 **Tipo:** objeto
 
-+++
++++ 
 
 +++ _repo > ETag de Opção de Decisão
 

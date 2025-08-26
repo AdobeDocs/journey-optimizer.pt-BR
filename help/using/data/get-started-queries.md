@@ -11,7 +11,7 @@ exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -23,9 +23,9 @@ O Editor de consulta oferece suporte ao desenvolvimento de consultas para análi
 
 ![](assets/queries-home.png)
 
-Saiba como usar o Editor de consulta [nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=pt-BR){target="_blank"}.
+Saiba como usar o Editor de consultas em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=pt-BR){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [Documentação do Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR){target="_blank"}
->* [Vídeo de visão geral do serviço de consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=pt-BR){target="_blank"}
+>* [Vídeo de visão geral do Serviço de consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=pt-BR){target="_blank"}

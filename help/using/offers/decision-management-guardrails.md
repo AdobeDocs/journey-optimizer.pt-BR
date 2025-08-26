@@ -1,7 +1,7 @@
 ---
 title: Medidas de proteção e limitações da gestão de decisões
 description: Saiba mais sobre as medidas de proteção e limitações do gerenciamento de decisão.
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decisioning
 role: User
 level: Intermediate

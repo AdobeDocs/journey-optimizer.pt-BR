@@ -11,7 +11,7 @@ exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 13%
+ht-degree: 25%
 
 ---
 
@@ -65,9 +65,9 @@ Após configurar as propriedades do fragmento, o Designer de email ou o editor d
 
 >[!NOTE]
 >
->Não há suporte para [Atributos contextuais](../personalization/personalization-build-expressions.md) dentro de fragmentos.
+>[Atributos contextuais](../personalization/personalization-build-expressions.md) não são permitidos dentro de fragmentos.
 >
->Quando o rastreamento é ativado em uma jornada ou campanha, se você adicionar links a um fragmento e se esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links incluídos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
+>Quando o rastreamento é habilitado em uma jornada ou campanha, se você adicionar links a um fragmento e esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links inclusos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
 
 * Para fragmentos visuais, edite o conteúdo conforme necessário, da mesma forma que faria para qualquer email dentro de uma jornada ou campanha. [Saiba mais](../email/get-started-email-design.md)
 
@@ -79,7 +79,7 @@ Após configurar as propriedades do fragmento, o Designer de email ou o editor d
 
   >[!CAUTION]
   >
-  >Os fragmentos não são compatíveis entre os modos Usar temas e Estilo manual. Para poder usar um fragmento em um conteúdo no qual deseja aplicar um tema, esse fragmento deve ser criado no modo Usar temas. [Saiba mais sobre temas](../email/apply-email-themes.md)
+  >Os fragmentos não são compatíveis entre os modos Usar temas e Estilo manual. Para poder usar um fragmento em um conteúdo ao qual deseja aplicar um tema, esse fragmento precisa ser criado no modo de uso de temas. [Saiba mais sobre temas](../email/apply-email-themes.md)
 
 * Para fragmentos de expressão, aproveite o editor de personalização do [!DNL Journey Optimizer] com todos os seus recursos de personalização e criação para criar o conteúdo do fragmento. [Saiba mais](../personalization/personalization-build-expressions.md)
 
@@ -89,7 +89,7 @@ Quando o conteúdo estiver pronto, clique no botão **[!UICONTROL Salvar]**.
 
 >[!NOTE]
 >
->Fragmentos visuais não podem exceder 100 KB. Os fragmentos de expressão não podem exceder 200 KB.
+>Fragmentos visuais não podem exceder 100 KB. Fragmentos de expressão não podem exceder 200 KB.
 
 O fragmento é criado e adicionado à lista de fragmentos com o status **[!UICONTROL Rascunho]**. Você pode visualizá-la e publicá-la para torná-la disponível em jornadas e campanhas.
 

@@ -110,7 +110,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
 
    +++
 
-   +++Semanalmente
+   +++Semanal
 
    Execute a campanha semanalmente, com opções de dias específicos.
 
@@ -121,7 +121,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
 
    +++
 
-   +++Mensalmente
+   +++Mensal
 
    Execute a campanha mensalmente, com opções de dias específicos.
 

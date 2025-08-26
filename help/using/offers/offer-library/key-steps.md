@@ -1,7 +1,7 @@
 ---
 title: Etapas principais para criar uma oferta
 description: Descubra as principais etapas necessárias para criar uma oferta
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User

@@ -29,7 +29,7 @@ Você pode acessar seu relatório de jornada por correspondência direta clicand
 
 ![](assets/cja-direct-sending-stat.png)
 
-A tabela **[!UICONTROL Estatísticas de Envio]** fornece informações sobre o desempenho das jornadas de correspondência direta. Veja as métricas principais, como o número de recipients alvos e as peças entregues com êxito, ajudando você a medir o alcance e a eficácia de suas correspondências.
+A tabela **[!UICONTROL Estatísticas de Envio]** fornece uma insight do desempenho das jornadas de correspondência direta. Veja as métricas principais, como o número de recipients alvos e as peças entregues com êxito, ajudando você a medir o alcance e a eficácia de suas correspondências.
 
 +++ Saiba mais sobre como enviar métricas de estatísticas
 
@@ -69,7 +69,7 @@ A tabela **[!UICONTROL Motivos de Erro]** permite identificar os erros específi
 
 ## Motivos para exclusão {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 A tabela **[!UICONTROL Motivos da exclusão]** mostra visualmente os diversos fatores que levaram à exclusão de perfis de usuário do público-alvo direcionado, impedindo-o de receber suas mensagens de correspondência direta.
 

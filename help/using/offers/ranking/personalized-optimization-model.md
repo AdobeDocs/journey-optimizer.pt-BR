@@ -3,7 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Modelo de otimização personalizado
 description: Saiba mais sobre modelos de otimização personalizados
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced

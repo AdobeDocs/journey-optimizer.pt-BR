@@ -1,7 +1,7 @@
 ---
 title: Criar coleções
 description: Saiba como organizar ofertas usando coleções
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management, Collections
 topic: Integrations
 role: User
@@ -89,6 +89,6 @@ Para criar uma coleção, siga estas etapas:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3409146?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

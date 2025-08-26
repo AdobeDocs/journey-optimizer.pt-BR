@@ -15,7 +15,7 @@ ht-degree: 12%
 
 # Criar uma inserção {#create-placement}
 
-Você pode criar um posicionamento fazendo uma solicitação POST para a API [!DNL Offer Library] e fornecendo a ID do contêiner.
+Você pode criar um posicionamento fazendo uma solicitação POST para a API [!DNL Offer Library] e fornecendo a ID do container.
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 

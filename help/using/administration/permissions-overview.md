@@ -12,7 +12,7 @@ exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -45,7 +45,7 @@ Com [!DNL Journey Optimizer], você pode escolher entre várias **[!UICONTROL Fu
 
 * **[!UICONTROL Sandboxes]**: instâncias de partição de sandboxes virtuais em ambientes virtuais separados e isolados. As sandboxes são atribuídas por meio de funções em Permissões. Saiba mais sobre [como usar sandboxes](sandboxes.md).
 
-* **Controle de acesso baseado em objeto**: rótulos para limitar o acesso a um objeto. Essa abordagem protege os ativos digitais confidenciais de usuários não autorizados e garante maior proteção dos dados pessoais. Saiba mais sobre o [Gerenciamento de acesso baseado em objetos](object-based-access.md).
+* **Controle de acesso baseado em objeto**: rótulos para limitar o acesso a um objeto. Esta abordagem protege ativos digitais sensíveis de usuários não autorizados e garante uma maior proteção dos dados pessoais. Saiba mais sobre o [Gerenciamento de acesso baseado em objetos](object-based-access.md).
 
 * **Controle de acesso baseado em atributos**: autorizações para gerenciar o acesso a dados de equipes ou grupos de usuários específicos. O controle de acesso baseado em atributos permite aos administradores controlar o acesso a objetos e/ou recursos específicos com base em atributos. Os atributos podem ser metadados adicionados a um objeto, como um rótulo adicionado a um campo ou segmento de esquema. Um administrador define políticas de acesso que incluem atributos para gerenciar permissões de acesso do usuário. Saiba mais sobre o [Gerenciamento de acesso baseado em atributos](attribute-based-access.md).
 

@@ -522,7 +522,7 @@ Os KPIs do **[!UICONTROL desempenho da Web]** oferecem insights abrangentes sobr
 
 * **[!UICONTROL Interações]**: número total de interações com sua página da Web. Isso inclui qualquer ação realizada pelos usuários, como cliques ou quaisquer outras interações.
 
-+++
++++ 
 
 ### Resumo da Web {#web-summary}
 
@@ -541,7 +541,7 @@ O gráfico **[!UICONTROL Resumo da Web]** mostra a evolução das suas experiên
 
 * **[!UICONTROL Interações]**: número total de interações com sua página da Web. Isso inclui qualquer ação realizada pelos usuários, como cliques ou quaisquer outras interações.
 
-+++
++++ 
 
 ### Interações por elemento {#web-interactions}
 

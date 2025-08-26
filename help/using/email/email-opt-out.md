@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -34,13 +34,13 @@ Para inserir um link de cancelamento de subscrição no seu conteúdo de email, 
 
 Quando um recipient clica no link para opção de não participação, a solicitação de cancelamento de inscrição é processada adequadamente.
 
-Para verificar se a escolha do perfil correspondente foi atualizada, vá para Experience Platform e [navegue até esse perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#attributes-tab). Na guia **[!UICONTROL Atributos]**, é possível ver que o valor de **[!UICONTROL opção]** foi alterado para **[!UICONTROL não]**. Saiba mais na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+Para verificar se a escolha do perfil correspondente foi atualizada, vá para Experience Platform e [navegue até esse perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Na guia **[!UICONTROL Atributos]**, é possível ver que o valor de **[!UICONTROL opção]** foi alterado para **[!UICONTROL não]**. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
 >[!NOTE]
 >
->Ocasionalmente, os eventos de cancelamento de inscrição podem levar mais tempo para refletir no nível do perfil devido ao processamento de dados downstream. Aguarde algum tempo para que o sistema seja atualizado.
+>Ocasionalmente, eventos de cancelamento de assinatura podem demorar mais para serem aplicados no nível do perfil devido ao processamento de dados posteriores. Aguarde um tempo para que o sistema seja atualizado.
 
 ## Recusa em uma etapa {#opt-out-one-step}
 
@@ -89,7 +89,7 @@ Para implementar esse modo de cancelamento de subscrição, você deve criar e p
 
 ### Pré-requisitos {#prereq-lp}
 
-Para configurar um mecanismo de recusa em duas etapas, você deve criar suas próprias páginas de aterrissagem de unsubscription. A primeira landing page será vinculada da sua mensagem e deverá conter um botão de chamada para ação. Uma mensagem de confirmação deve ser exibida quando o usuário clicar no botão.
+Para configurar um mecanismo de recusa em duas etapas, você deve criar suas próprias páginas de aterrissagem de unsubscription. A primeira landing page será vinculada a partir da sua mensagem e deverá conter um botão call-to-action. Uma mensagem de confirmação deve ser exibida quando o usuário clicar no botão.
 
 Saiba como criar uma página de aterrissagem no Adobe Journey Optimizer para gerenciar cancelamentos de assinatura [nesta página](../landing-pages/lp-use-cases.md#opt-out).
 
@@ -134,7 +134,7 @@ Corpo da solicitação:
 }
 ```
 
-[!DNL Journey Optimizer] usa esses parâmetros para atualizar a escolha do perfil correspondente por meio da chamada de API [Adobe Developer](https://developer.adobe.com){target="_blank"}.
+O [!DNL Journey Optimizer] usa esses parâmetros para atualizar a escolha do perfil correspondente por meio da chamada de API do [Adobe Developer](https://developer.adobe.com){target="_blank"}.
 
 +++
 

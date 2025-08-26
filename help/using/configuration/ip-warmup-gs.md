@@ -11,7 +11,7 @@ keywords: IP, capacidade de entrega
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 73%
 
 ---
@@ -52,7 +52,7 @@ As principais etapas para implementar um plano de aquecimento de IP são as segu
 
 Saiba como criar e executar um plano de aquecimento de IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453845/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >

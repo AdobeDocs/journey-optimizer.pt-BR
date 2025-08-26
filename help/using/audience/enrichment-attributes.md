@@ -39,7 +39,7 @@ Estas são as ações que você pode executar usando os atributos de enriquecime
 >
 >Para usar atributos de enriquecimento de públicos-alvo criados usando workflows de composição, verifique se eles foram adicionados a um Grupo de campos no Data Source da &quot;ExperiencePlatform&quot;.
 >
->+++ Saiba como adicionar atributos de enriquecimento a um Grupo de campos>
+>+++ Saiba como adicionar atributos de enriquecimento a um Grupo de campos
 >
 >1. Navegue até &quot;Administração&quot; > &quot;Configuração&quot; > &quot;Fontes de dados&quot;.
 >1. Selecione &quot;Experience Platform&quot; e crie ou edite um Grupo de campos.

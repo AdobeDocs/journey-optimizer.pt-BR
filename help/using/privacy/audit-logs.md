@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Com o Journey Optimizer, você pode identificar as ações executadas pelos usuários no sistema em vários serviços e recursos como jornadas, mensagens, páginas de destino etc.
 
-Isso permite aumentar a visibilidade das atividades realizadas no sistema, solucionar problemas e ajudar sua empresa a cumprir os regulamentos e as políticas corporativas de gerenciamento de dados.
+Isso permite aumentar a visibilidade das atividades realizadas no sistema, solucionar problemas e ajudar seu negócio a cumprir os regulamentos e as políticas corporativas de gerenciamento de dados.
 
 Cada ação é registrada com metadados em “logs de auditoria”, que são acessíveis na Adobe Experience Platform. Para obter mais informações sobre logs de auditoria, incluindo como visualizá-los e gerenciá-los na interface ou na API, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=pt-BR).
 

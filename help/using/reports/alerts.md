@@ -61,7 +61,7 @@ Eles são listados a seguir e cada alerta é detalhado abaixo.
 
 1. Use o mesmo método para **[!UICONTROL Cancelar inscrição]**.
 
-1. Você também pode assinar alertas por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
+1. Você também pode assinar alertas por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
 
 1. Se ocorrer um comportamento inesperado e/ou se um determinado conjunto de condições em suas operações for atingido (como um problema em potencial quando o sistema viola um limite), as notificações de alerta serão entregues a todos os usuários em sua organização que se subscreveram a elas.
 
@@ -71,7 +71,7 @@ Com base nas preferências do assinante, os alertas são enviados por email e/ou
 >
 >Por padrão, somente o alerta no aplicativo está ativado.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 Quando um alerta é resolvido, os assinantes recebem uma notificação &quot;Resolvido&quot;.
 

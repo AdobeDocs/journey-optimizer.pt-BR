@@ -35,7 +35,7 @@ A operação a seguir retorna o preço médio de todas as ordens.
 {%=average(orders.order.price)%}
 ```
 
-## Contagem{#count}
+## Count{#count}
 
 A função `count` retorna o número de elementos dentro da matriz especificada.
 
@@ -89,7 +89,7 @@ A operação a seguir retorna o preço mais baixo de todas as ordens.
 {%=min(orders.order.price) %}
 ```
 
-## Somar{#sum}
+## Sum{#sum}
 
 A função `sum` retorna a soma de todos os valores selecionados na matriz.
 

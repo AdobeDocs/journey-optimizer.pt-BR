@@ -8,8 +8,8 @@ level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 11%
+source-wordcount: '1032'
+ht-degree: 13%
 
 ---
 
@@ -595,7 +595,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Vincular ao início do dia {#truncate-day}
 
-A função `truncateToStartOfDay` é usada para modificar uma determinada data-hora, definindo-a para o início do dia com a hora definida como 00:00.
+A função `truncateToStartOfDay` é usada para modificar uma determinada data-hora definindo-a como o início do dia com a hora definida como 00:00.
 
 **Sintaxe**
 
@@ -612,7 +612,7 @@ A função `truncateToStartOfDay` é usada para modificar uma determinada data-h
 
 ## truncateToStartOfQuarter {#truncate-quarter}
 
-A função `truncateToStartOfQuarter` é usada para truncar uma data e hora no primeiro dia de seu trimestre (por exemplo, 1° de janeiro, 1° de abril, 1° de julho, 1° de outubro) às 00:00.
+A função `truncateToStartOfQuarter` é usada para truncar uma data-hora para o primeiro dia de seu trimestre (por exemplo, 1º de janeiro, 1º de abril, 1º de julho, 1º de outubro) em 00:00.
 
 **Sintaxe**
 
@@ -646,7 +646,7 @@ A função `truncateToStartOfWeek` modifica uma determinada data-hora definindo-
 
 ## truncateToStartOfYear {#truncate-year}
 
-A função `truncateToStartOfYear` é usada para modificar uma determinada data-hora, truncando-a para o primeiro dia do ano (1º de janeiro) às 00:00.
+A função `truncateToStartOfYear` é usada para modificar uma determinada data-hora, truncando-a para o primeiro dia do ano (1º de janeiro) em 00:00.
 
 **Sintaxe**
 

@@ -40,7 +40,7 @@ Usando esses dados, você pode definir regras para identificar os recipients que
 
 1. Escolha o atributo **[!UICONTROL Status de Feedback]** para direcionar eventos de entrega de mensagens.
 
-+++ Passo a passo detalhado
+   +++ Passo a passo detalhado
 
    1. Adicione outra condição vinculada ao atributo **[!UICONTROL Feedback da mensagem]**.
 
@@ -52,11 +52,11 @@ Usando esses dados, você pode definir regras para identificar os recipients que
 
       ![](assets/retarget_4.png){zoomable="yes"}
 
-+++
+   +++
 
 1. Escolha o atributo **[!UICONTROL Nome da Campanha Orquestrada]** para direcionar uma campanha Orquestrada específica.
 
-+++ Passo a passo detalhado
+   +++ Passo a passo detalhado
 
    1. Adicione outra condição vinculada ao atributo **[!UICONTROL Feedback da mensagem]**, pesquise por **[!UICONTROL entidade]** e navegue até:
 
@@ -68,11 +68,11 @@ Usando esses dados, você pode definir regras para identificar os recipients que
 
    1. No menu **[!UICONTROL Condição personalizada]**, especifique o nome da campanha no campo **[!UICONTROL Valor]**.
 
-+++
+   +++
 
 1. Escolha o atributo **[!UICONTROL Nome da Ação da Campanha Orquestrada]** para direcionar uma mensagem ou atividade específica em uma campanha Orquestrada.
 
-+++ Passo a passo detalhado
+   +++ Passo a passo detalhado
 
    1. Adicione outra condição vinculada ao atributo **[!UICONTROL Feedback da mensagem]**, pesquise por **[!UICONTROL entidade]** e navegue até:
 
@@ -86,7 +86,7 @@ Usando esses dados, você pode definir regras para identificar os recipients que
 
       Nomes de ações podem ser encontrados clicando no ícone ![Informações](assets/do-not-localize/info-icon.svg) ao lado do campo Rótulo da sua atividade.
 
-+++
+   +++
 
 1. Como alternativa, você também pode filtrar pela **[!UICONTROL ID da campanha]** (UUID), que pode ser encontrada nas propriedades da campanha.
 

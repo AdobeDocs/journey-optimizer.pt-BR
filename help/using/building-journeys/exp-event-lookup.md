@@ -7,7 +7,7 @@ exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -51,9 +51,9 @@ Para suprimir perfis que demonstraram determinados comportamentos, use públicos
 
 Saiba mais:
 
-* [Construtor de segmentos do Adobe Experience Platform - Eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [Construtor de segmentos do Adobe Experience Platform - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [Construtor de segmentos do Adobe Experience Platform - Restrições de tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [Construtor de segmentos do Adobe Experience Platform - Restrições de tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de públicos-alvo em condições](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -70,9 +70,9 @@ Para impedir o envio de mensagens a perfis que receberam comunicações em uma j
 
 Saiba mais sobre como usar os públicos-alvo:
 
-* [Construtor de segmentos do Adobe Experience Platform - Eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [Construtor de segmentos do Adobe Experience Platform - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [Construtor de segmentos do Adobe Experience Platform - Restrições de tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [Construtor de segmentos do Adobe Experience Platform - Restrições de tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de públicos-alvo em condições](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -92,9 +92,9 @@ Para incluir ou excluir perfis com base no fato de terem recebido uma mensagem e
 
 Saiba mais:
 
-* [Construtor de segmentos do Adobe Experience Platform - Eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [Construtor de segmentos do Adobe Experience Platform - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [Construtor de segmentos do Adobe Experience Platform - Restrições de tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [Construtor de segmentos do Adobe Experience Platform - Restrições de tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de públicos-alvo em condições](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -104,8 +104,8 @@ Saiba mais:
 
 Para personalizar as comunicações com base no carrinho mais recente ou procurar eventos em vários tipos de carrinho ou exibições de produto:
 
-* Se você tiver acesso ao [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configure consultas automatizadas para extrair os dados necessários do evento, manipulá-los para se ajustarem ao caso de uso e gravá-los em um conjunto de dados habilitado para perfil para ativação.
-* Se os dados de abandono puderem ser modelados no perfil com atributos escalares, considere usar atributos Calculados para capturar as informações mais recentes e, em seguida, fazer referência a esses atributos na jornada para criar a comunicação. [Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Se você tiver acesso ao [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configure consultas automatizadas para extrair os dados necessários do evento, manipulá-los para se ajustarem ao caso de uso e gravá-los em um conjunto de dados habilitado para perfil para ativação.
+* Se os dados de abandono puderem ser modelados no perfil com atributos escalares, considere usar atributos Calculados para capturar as informações mais recentes e, em seguida, fazer referência a esses atributos na jornada para criar a comunicação. [Saiba mais na documentação da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Saída da jornada baseada em comportamento
@@ -122,7 +122,7 @@ Para acionar jornadas com base em compras e suprimir se o valor estiver acima/ab
 
 Saiba mais:
 
-* Adobe Experience Platform [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Adobe Experience Platform [Visão geral dos atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -130,7 +130,7 @@ Saiba mais:
 
 Não há mais suporte para o uso de eventos de experiência em expressões/condições de jornada. Os impactos estão listados nas Perguntas frequentes abaixo:
 
-+++Quais recursos específicos foram afetados?
++++Quais recursos específicos serão afetados? 
 
 Somente a pesquisa de eventos de experiência no editor de expressão é afetada. Os seguintes recursos **não** foram afetados e permanecem os mesmos:
 
@@ -150,13 +150,13 @@ Somente a pesquisa de eventos de experiência no editor de expressão é afetada
 
 +++
 
-+++Minha organização atual da Adobe é afetada por essa atualização?
++++Minha organização atual da Adobe é afetada por essa atualização? 
 
 Sua organização da Adobe só será afetada se você ainda não estiver usando a pesquisa de evento de experiência. Se você já estiver utilizando os eventos de experiência na [fonte de dados do Experience Platform](../datasource/adobe-experience-platform-data-source.md), sua organização da Adobe continuará a ser compatível com a pesquisa de evento de experiência.
 
 +++
 
-+++Tenho uma nova Organização da Adobe. Como posso resolver meu caso de uso que requer dados de evento de experiência?
++++Eu tenho uma nova Organização da Adobe. Como posso resolver meu caso de uso que requer dados de evento de experiência? 
 
 Abordagens alternativas e práticas recomendadas envolvendo eventos de experiência estão disponíveis acima para atingir os casos de uso desejados.
 

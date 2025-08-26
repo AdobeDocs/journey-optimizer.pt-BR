@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Excluir um item de decisão {#delete-decision-item}
 
-Para remover um item de decisão, execute uma solicitação DELETE para a API da Biblioteca de ofertas com a ID do item de decisão que você deseja excluir.
+Para remover um item de decisão, execute uma solicitação do DELETE para a API da Biblioteca de ofertas com a ID do item de decisão que você deseja excluir.
 
 **Formato da API**
 

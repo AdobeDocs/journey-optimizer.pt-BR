@@ -1,7 +1,7 @@
 ---
 title: Configurar seleção de ofertas em decisões
 description: Saiba como gerenciar a seleção de ofertas em decisões
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
@@ -10,7 +10,7 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -61,7 +61,7 @@ Se várias ofertas forem elegíveis para serem apresentadas neste posicionamento
 
 ## Classificação de IA {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
 Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em determinado perfil ao selecionar um modelo de IA. Saiba como criar um modelo de IA em [esta seção](../ranking/create-ranking-strategies.md).
 

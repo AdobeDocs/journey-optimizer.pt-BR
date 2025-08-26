@@ -30,7 +30,7 @@ Para acessar seus relatórios, selecione **[!UICONTROL Exibir relatório das úl
 
 A página de aterrissagem **[!UICONTROL Relatório ao vivo]** é dividida em widgets diferentes detalhando o sucesso e os erros da sua entrega. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](live-report.md).
 
-+++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório ao vivo Página de destino.
++++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório ao vivo Landing page.
 
 O widget **[!UICONTROL Desempenho da página de aterrissagem]** detalha as informações principais relativas à sua mensagem nas últimas 24 horas por meio de KPIs:
 

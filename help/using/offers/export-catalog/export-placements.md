@@ -1,7 +1,7 @@
 ---
 title: Conjunto de dados de inserções
 description: Esta seção lista todos os campos usados no conjunto de dados exportado para inserções
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer

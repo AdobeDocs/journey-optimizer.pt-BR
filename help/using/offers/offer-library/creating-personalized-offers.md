@@ -1,7 +1,7 @@
 ---
 title: Criar ofertas personalizadas
 description: Saiba como criar, configurar e gerenciar suas ofertas
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
@@ -172,4 +172,4 @@ Isso permite que você acesse informações detalhadas dessa oferta. Selecione a
 
 ## Tutorial em vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341360?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

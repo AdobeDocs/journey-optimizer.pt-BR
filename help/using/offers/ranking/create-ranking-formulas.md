@@ -1,7 +1,7 @@
 ---
 title: Fórmulas de classificação
 description: Saiba como criar fórmulas para classificar ofertas
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Ranking, Decision Management
 topic: Integrations
 role: User
@@ -169,7 +169,7 @@ Estes são exemplos ilustrando como usar dados de contexto em fórmulas de class
 >
 >Nos exemplos de API do Edge Decisioning, substitua `<OrgID>` pela ID de locatário da organização.
 
-+++Aumenta a prioridade da oferta em 10, se o canal dos dados de contexto corresponder ao canal preferido do cliente
++++Aumente a prioridade da oferta em 10 se o canal dos dados de contexto corresponder ao canal preferido do cliente
 
 >[!BEGINTABS]
 
@@ -185,7 +185,7 @@ Estes são exemplos ilustrando como usar dados de contexto em fórmulas de class
 
 +++
 
-+++Aumenta a prioridade de todas as ofertas com &quot;attribute=hot&quot; se &quot;contextData.weather=hot&quot; for transmitido na chamada.
++++Aumente a prioridade de todas as ofertas com &quot;attribute=hot&quot; se &quot;contextData.weather=hot&quot; for transmitido na chamada.
 
 >[!BEGINTABS]
 
@@ -217,7 +217,7 @@ Estes são exemplos ilustrando como usar dados de contexto em fórmulas de class
 
 +++
 
-+++Aumento de temperatura
++++Aumento de tempo
 
 >[!BEGINTABS]
 

@@ -1,7 +1,7 @@
 ---
 title: Interface do usuário da biblioteca de ofertas
 description: Saiba mais sobre a interface do usuário da Biblioteca de ofertas
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User

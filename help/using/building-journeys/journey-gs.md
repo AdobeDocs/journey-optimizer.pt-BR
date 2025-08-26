@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 25%
+ht-degree: 28%
 
 ---
 
@@ -96,7 +96,7 @@ O designer de jornada omnicanal ajuda a criar jornadas em várias etapas com pú
 
 Depois de criar a jornada, teste-a antes de publicar. A Journey Optimizer oferece um **Modo de teste** como uma maneira de exibir perfis de teste conforme eles se movem ao longo da jornada, detectando possíveis erros antes da ativação. A execução de testes rápidos garante que as jornadas funcionem corretamente para que você possa publicá-las com confiança. Saiba como testar sua jornada [nesta seção](testing-the-journey.md)
 
-Você também pode executar sua jornada em **Dry run**. A execução de prática de jornada é um modo especial de publicação no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais sem entrar em contato com clientes do mundo real ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganhar confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la ao vivo. Saiba como publicar uma jornada no modo de Execução em Seco [nesta seção](journey-dry-run.md).
+Você também pode executar sua jornada em **Dry run**. O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganhar confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la ao vivo. Saiba como publicar uma jornada no modo de Execução em Seco [nesta seção](journey-dry-run.md).
 
 ## Publicar a jornada {#jo-pub}
 

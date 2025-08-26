@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Excluir uma coleção de itens {#delete-decision-item}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma coleção de itens. Isso é feito executando uma solicitação DELETE para a API da Biblioteca de ofertas usando a ID da coleção de itens que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma coleção de itens. Isso é feito executando uma solicitação do DELETE para a API da Biblioteca de ofertas usando a ID da coleção de itens que você deseja excluir.
 
 **Formato da API**
 

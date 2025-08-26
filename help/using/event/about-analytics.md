@@ -12,7 +12,7 @@ exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -61,7 +61,7 @@ Isso ativa o conector de origem do Analytics para esse conjunto de relatórios. 
 
 ![](assets/ajo-aa_4.png)
 
-Saiba mais sobre o conector de origem do Adobe Analytics na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=pt-BR){target="_blank"} e no [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre o conector de origem do Adobe Analytics na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} e no [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## Ativar esta configuração {#activate-analytics-data}
 

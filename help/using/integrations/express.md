@@ -13,7 +13,7 @@ exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 10%
+ht-degree: 18%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 >title="Integração do Adobe Express"
 >abstract="Comece a personalizar seus ativos com a integração do Adobe Express. Esse recurso permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos em JPEG ou PNG."
 
-A integração do Adobe Express no Adobe Journey Optimizer permite acessar facilmente as poderosas ferramentas de edição do Adobe Express ao criar conteúdo. Essa integração permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos para JPEG ou PNG sem precisar alternar entre as soluções.
+A integração do Adobe Express ao Adobe Journey Optimizer permite acessar facilmente as poderosas ferramentas de edição do Adobe Express ao criar conteúdo. Essa integração permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos para JPEG ou PNG sem precisar alternar entre as soluções.
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
 
@@ -49,7 +49,7 @@ Com uma licença Enterprise, os usuários têm acesso total ao editor da Web do 
 
 ![](assets/express-licence.png)
 
-Para obter mais informações sobre casos de uso disponíveis para usuários com uma licença Enterprise para Adobe Express, consulte a [documentação da Adobe Express na Web](https://helpx.adobe.com/br/express/web.html).
+Para obter mais informações sobre casos de uso disponíveis para usuários com uma licença Enterprise para Adobe Express, consulte a [documentação da Adobe Express na Web](https://helpx.adobe.com/express/web.html).
 
 ## Uso do Adobe Express sem uma licença Enterprise  {#edit}
 
@@ -148,7 +148,7 @@ A imagem agora está pronta para ser usada no conteúdo.
 
 Saiba como editar os seus ativos no Adobe Journey Optimizer com as ferramentas do Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455528/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

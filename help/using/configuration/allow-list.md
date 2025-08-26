@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -66,7 +66,7 @@ Para ativar a lista de permissões, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >After you activate the allowed list, there is a 10-minute delay before it takes effect in your journeys and campaigns. Similarly, updates to both the allowed list and suppression list can take up to 10 minutes to reflect.
+   >Depois de ativar a lista de permissões, há um atraso de 10 minutos antes de ela entrar em vigor em suas jornadas e campanhas. Da mesma forma, as atualizações nas listas de lista de permissões e supressão podem levar até 10 minutos para serem refletidas.
 
 A lógica de lista de permissões se aplica quando o recurso está ativo. Saiba mais [nesta seção](#logic).
 
@@ -90,7 +90,7 @@ Para desativar a lista de permissões, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >After you deactivate the allowed list, there is a 10-minute delay before it takes effect in your journeys and campaigns. Similarly, updates to both the allowed list and suppression list can take up to 10 minutes to reflect.
+   >Depois de desativar a lista de permissões, há um atraso de 10 minutos antes de ela entrar em vigor em suas jornadas e campanhas. Da mesma forma, as atualizações nas listas de lista de permissões e supressão podem levar até 10 minutos para serem refletidas.
 
 A lógica de lista de permissões não se aplica quando o recurso é desativado. Saiba mais [nesta seção](#logic).
 
@@ -140,7 +140,7 @@ Para fazer isso, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Todos os caracteres ASCII entre 32 e 126 são permitidos no campo **[!UICONTROL Motivo]**. The full list can be found on [this page](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"} for example.
+   >Todos os caracteres ASCII entre 32 e 126 são permitidos no campo **[!UICONTROL Motivo]**. Para referência, consulte a lista completa [nesta página](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}.
 
 1. Clique em **[!UICONTROL Enviar]**.
 
@@ -152,7 +152,7 @@ Para preencher a lista de permissões, você também pode chamar a API de supres
 
 Você pode executar as operações **Adicionar**, **Excluir** e **Obter**.
 
-Learn more about making API calls in the [Adobe Experience Platform APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=pt-BR){target="_blank"} reference documentation.
+Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Baixar a lista de permissões {#download-allowed-list}
 
@@ -207,7 +207,7 @@ Quando a lista de permissões é [desativada](#deactivate-allow-list), todos os 
 
 ## Relatório de exclusão {#reporting}
 
-Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. To do this, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} to make the API calls below.
+Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para fazer as chamadas de API abaixo.
 
 Para obter o **número de emails** que não foram enviados porque os destinatários não estavam na lista de permissões, use a seguinte consulta:
 

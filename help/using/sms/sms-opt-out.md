@@ -69,8 +69,8 @@ As IDs alfanuméricas do remetente são somente para mensagens unidirecionais e 
 
 * O vídeo abaixo ajuda você a saber como configurar a aceitação dupla de SMS.
 
-+++ Ver vídeo
+  +++ Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440282/?learn=on&captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
-+++
+  +++

@@ -19,7 +19,7 @@ ht-degree: 17%
 >title="Relatório de spam de email"
 >abstract="O relatório de spam permite verificar sua pontuação de spam no conteúdo de email. Essa pontuação indica se os ISPs ou provedores de caixa de correio consideram sua mensagem como spam ou não. Quanto menor a pontuação, melhor. Se a pontuação do conteúdo de email for superior a 2, considere corrigir os problemas que estão causando a falha dos testes."
 
-Você pode verificar sua pontuação de spam no conteúdo de e-mail em um relatório dedicado de spam. Usando o [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, a Adobe Journey Optimizer pode testar seu conteúdo de email e atribuir a ele uma pontuação para indicar se os provedores de ISPs ou de Caixa de Correio o considerarão como spam ou não.
+Você pode verificar sua pontuação de spam no conteúdo de e-mail em um relatório dedicado de spam. Usando o [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, o Adobe Journey Optimizer pode testar seu conteúdo de email e atribuir a ele uma pontuação para indicar se os ISPs ou provedores de caixa de correio o considerarão como spam ou não.
 
 Ao editar ou visualizar seu conteúdo de email, o botão **[!UICONTROL Relatório de spam]** fornece pontuação e aviso para melhorar as pontuações de cada item individual listado.
 

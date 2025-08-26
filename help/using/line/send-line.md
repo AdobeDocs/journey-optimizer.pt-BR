@@ -7,7 +7,8 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
+exl-id: fd8437c6-0052-4116-af60-5624569bda65
+source-git-commit: d11d389259057b20c3803643ca40266b9cb4302c
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -39,4 +40,3 @@ Você deve verificar os alertas na seção superior do editor. Alguns deles são
 > Se sua campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para poder enviar suas mensagens de texto. [Saiba mais](../test-approve/gs-approval.md)
 
 Quando a mensagem LINE estiver pronta, conclua a configuração da [jornada](../building-journeys/journey-gs.md) ou da [campanha](../campaigns/create-campaign.md) para enviá-la.
-

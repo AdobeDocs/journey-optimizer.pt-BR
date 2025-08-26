@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 source-git-commit: 28c811c330d367c1a99bdd8184a62b1dd45b608d
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '232'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ Os qualificadores de coleção (anteriormente conhecidos como &quot;tags&quot;) 
 
 Qualificadores de coleção também podem ser usados para agrupar ofertas em coleções.
 
-GET Você pode exibir uma lista de todos os qualificadores de coleção em um contêiner executando uma única solicitação para a API da Biblioteca de ofertas.
+Você pode exibir uma lista de todos os qualificadores de coleção em um contêiner executando uma única solicitação do GET para a API da Biblioteca de ofertas.
 
 **Formato da API**
 
@@ -39,7 +39,7 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `property` | Um filtro de propriedade opcional: <ul><li>As propriedades são agrupadas por operação AND.</li><li>Os parâmetros podem ser repetidos da seguinte forma: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] or property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>As expressões de propriedade estão no formato `[ !]field[op]value`, com `op` em `[==,!=,<=,>=,<,>,~]`, com suporte para expressões regulares.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Um filtro de propriedade opcional: <ul><li>As propriedades são agrupadas por operação AND.</li><li>Os parâmetros podem ser repetidos da seguinte forma: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] or property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>As expressões de propriedade estão no formato `[!]field[op]value`, com `op` em `[==,!=,<=,>=,<,>,~]`, com suporte para expressões regulares.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Classificar os resultados por uma propriedade específica. Adicionar um - antes do nome (orderby=-name) classificará os itens pelo nome em ordem decrescente (Z-A). As expressões de caminho estão no formato de caminhos separados por pontos. Este parâmetro pode ser repetido assim: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limitar o número de posicionamentos retornados. | `limit=5` |
 

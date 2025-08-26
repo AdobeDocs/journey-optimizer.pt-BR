@@ -38,7 +38,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
 1. **Atribuir permissões apropriadas**. A decisão está disponível somente para usuários com acesso a uma **[!UICONTROL função]** relacionada à decisão, como Gerentes de decisão. Se não conseguir acessar o Decisioning, suas permissões deverão ser estendidas.
 
-   +++Saiba como atribuir a função de Gerentes de decisão
+   +++Saiba como atribuir a função Gerentes de decisão
 
    1. Para atribuir uma função a um usuário no produto [!DNL Permissions], navegue até a guia **[!UICONTROL Funções]** e selecione Gerenciadores de decisão.
 

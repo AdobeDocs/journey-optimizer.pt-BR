@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Terminologia principal
+title: Principal terminologia
 description: Terminologia principal no AJO
 feature: Get Started
 role: Admin, Data Engineer, Developer, User

@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -139,7 +139,7 @@ Depois de configurar sua experimentação, você pode acompanhar o sucesso do de
 >* Canais de entrada (por exemplo, Web, mensagem no aplicativo, experiência baseada em código) em qualquer jornada ou campanha.
 >* Canais de saída (por exemplo, email, notificação por push, SMS) em campanhas transacionais acionadas por API.
 
-Dimensionar o Vencedor permite implantar automática ou manualmente a variação vencedora de um experimento em todo o seu público-alvo. Esse recurso garante que, uma vez determinado o vencedor, você possa ampliar seu alcance e eficácia sem monitorar constantemente o experimento.
+A opção “Dimensionar o vencedor” permite implantar de forma automática ou manual a variação vencedora de um experimento em todo o seu público-alvo. Esse recurso garante que, uma vez determinado o vencedor, você possa ampliar seu alcance e eficácia sem monitorar constantemente o experimento.
 
 Você pode escolher entre dois modos:
 

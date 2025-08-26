@@ -15,7 +15,7 @@ keywords: mensagem, frequência, regras, pressão
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1266'
 ht-degree: 14%
 
 ---
@@ -37,7 +37,7 @@ Por exemplo, para uma marca, uma regra poderia ser não enviar mais de 4 mensage
 >
 >As regras de negócios são diferentes do gerenciamento de recusa, que permite que os usuários cancelem a inscrição do recebimento de comunicações de uma marca. [Saiba mais](../privacy/opt-out.md#opt-out-management)
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Acessar regras de negócios {#access-rules}
 
@@ -134,7 +134,7 @@ O limite de frequência diária é válido para o dia até 23:59:59 UTC e é red
 
 >[!NOTE]
 >
->Para garantir a precisão das regras diárias de limite de frequência, é recomendado o uso de [segmentação por transmissão](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=pt-BR){target="_blank"}. Saiba mais sobre os métodos de avaliação de público em [esta seção](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Para garantir a precisão das regras diárias de limite de frequência, é recomendado o uso de [segmentação por transmissão](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}. Saiba mais sobre os métodos de avaliação de público em [esta seção](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Ativar uma regra de negócios {#activate-rule}
 

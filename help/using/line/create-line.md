@@ -11,7 +11,7 @@ exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -70,7 +70,7 @@ Agora você pode começar a criar o conteúdo da sua mensagem SMS usando o botã
    * Uma vez
    * Diariamente
    * Semanal
-   * Mês
+   * Month
 
 Agora você pode começar a projetar o conteúdo da sua mensagem de texto a partir do botão **[!UICONTROL Editar conteúdo]**, conforme detalhado abaixo.
 

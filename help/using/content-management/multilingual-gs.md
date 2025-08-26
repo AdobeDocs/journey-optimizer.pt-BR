@@ -52,11 +52,11 @@ Para problemas ou solicitações de assistência relacionados às suas traduçõ
 
 Para o conteúdo multilíngue, as seguintes configurações devem ser definidas:
 
-* Para usar o recurso de Tradução no Journey Optimizer, é necessário atribuir a API à função correspondente. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Para usar o recurso de Tradução no Journey Optimizer, é necessário atribuir a API à função correspondente. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * Para começar a criar conteúdo multilíngue, os usuários precisam ter a permissão **[!UICONTROL Gerenciar configurações de idioma]**. Para o fluxo automatizado, os usuários também precisarão de permissões relacionadas aos recursos do **[!UICONTROL Serviço de Tradução]**. [Saiba mais sobre permissões](../administration/permissions.md)
 
-+++ Saiba como atribuir permissões relacionadas multilíngues
+  +++ Saiba como atribuir permissões relacionadas multilíngues
 
    1. No produto **Permissões**, abra a guia **Funções** e selecione a **função** desejada.
 
@@ -76,11 +76,11 @@ Para o conteúdo multilíngue, as seguintes configurações devem ser definidas:
 
    1. Se o usuário não tiver sido criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).
 
-+++
+  +++
 
 * Se você não conseguir acessar a página Tradução, será necessário habilitar o recurso Tradução e receber **[!UICONTROL Permissões relacionadas ao serviço de Tradução]**. [Saiba mais](../administration/ootb-permissions.md)
 
-+++ Saiba como habilitar o recurso de Tradução
+  +++ Saiba como habilitar o recurso de Tradução
 
    1. Se você estiver vendo a seguinte página de erro, isso indica que o recurso **[!UICONTROL Tradução]** ainda não foi habilitado. Entre em contato com o administrador da organização e da sandbox para solicitar acesso.
 
@@ -94,10 +94,10 @@ Para o conteúdo multilíngue, as seguintes configurações devem ser definidas:
 
    1. Se esse procedimento falhar, você ainda verá a mesma página de erro. Nesse caso, entre em contato com o representante da Adobe para obter mais assistência.
 
-+++
+  +++
 
 ## Vídeo tutorial {#video}
 
 Saiba como criar conteúdo em vários idiomas em uma única campanha ou jornada.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452118?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

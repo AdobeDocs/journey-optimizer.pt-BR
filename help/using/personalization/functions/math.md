@@ -8,7 +8,7 @@ level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 11%
 
 ---
@@ -39,7 +39,7 @@ Ele aceita um número e uma string representando o local e retorna uma string fo
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Você pode usar formatação e localidades válidas conforme resumido em [Documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Localidades com suporte](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Você pode usar formatação e localidades válidas conforme resumido na [Documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e nas [Localidades com suporte](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Exemplo**
 

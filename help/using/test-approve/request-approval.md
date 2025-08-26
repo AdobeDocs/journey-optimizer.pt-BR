@@ -20,7 +20,7 @@ O acesso ao fluxo de trabalho de aprovação é determinado pelo seu caso de uso
 
    * **Campanhas**: se nenhuma política de aprovação estiver ativa para o objeto Campanha em uma sandbox, as campanhas exibirão o botão **[!UICONTROL Ativar]**, permitindo que você as ative sem precisar de aprovação.
 
-   * **Jornadas**: se nenhuma política de aprovação estiver ativa para o objeto de Jornada, o jornada exibirá o botão **[!UICONTROL Publish]**, permitindo que você publique diretamente.
+   * **Jornadas**: se nenhuma política de aprovação estiver ativa para o objeto de Jornada, o jornada exibirá o botão **[!UICONTROL Publicar]**, permitindo que você publique diretamente.
 
 * **Existem políticas de Aprovação Ativas**
 

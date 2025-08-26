@@ -26,15 +26,15 @@ Ao testar a [experiência baseada em código](create-code-based.md) com a tomada
 Depois de publicar sua campanha, adicione o sinalizador `dryRun` no bloco `data` do evento XDM na implementação do cliente:
 
     &quot;
-    &lbrace;
-    &quot;dados&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;dados&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;
 
 <!--
@@ -137,7 +137,7 @@ Digamos que você tenha a mesma política de decisão com a disposição do cabe
 
       * O item de decisão de fallback (também exclusivo) ou um item de decisão vazio é transmitido para a segunda proposta.
 
-+++Resposta de exemplo de decisão (`allowDuplicateDecisionItems` = `true`)
++++Decisionando resposta de amostra (`allowDuplicateDecisionItems` = `true`)
 
 ```
 {
@@ -213,7 +213,7 @@ Digamos que você tenha a mesma política de decisão com a disposição do cabe
 
 +++
 
-+++Resposta de exemplo de decisão (`allowDuplicateDecisionItems` = `false`)
++++Decisionando resposta de amostra (`allowDuplicateDecisionItems` = `false`)
 
 ```
 {

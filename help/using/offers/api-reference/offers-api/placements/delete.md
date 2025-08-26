@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Excluir uma inserção {#delete-placement}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma inserção. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando a ID do posicionamento que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) um posicionamento. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando a ID do posicionamento que você deseja excluir.
 
 **Formato da API**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/placements/offerPlacemen
 
 Uma resposta bem-sucedida retorna o status HTTP 200 e um corpo em branco.
 
-Você pode confirmar a exclusão tentando uma solicitação de pesquisa (GET) para a inserção e deve receber um status HTTP 404 (Não encontrado) porque a inserção foi removida.
+Você pode confirmar a exclusão tentando uma solicitação de pesquisa (GET) para o posicionamento e deve receber um status HTTP 404 (Não encontrado) porque o posicionamento foi removido.

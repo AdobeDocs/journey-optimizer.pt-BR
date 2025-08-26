@@ -15,7 +15,7 @@ ht-degree: 14%
 
 # Criar uma decisão {#create-decision}
 
-Você pode criar uma decisão fazendo uma solicitação POST para a API [!DNL Offer Library] e fornecendo sua ID de contêiner.
+Você pode criar uma decisão fazendo uma solicitação POST para a API [!DNL Offer Library] e fornecendo a ID do contêiner.
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 

@@ -11,7 +11,7 @@ hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
 
@@ -241,7 +241,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 ### Outras alterações{#sept-2022-other}
 
 * O modo de disparo de jornada foi substituído pelo modo de entrega rápida de campanha. [Saiba mais](../push/create-push.md#rapid-delivery)
-* Para melhorar o desempenho, os grupos de campos de evento de experiência não podem mais ser usados em jornadas que comecem com atividades de público-alvo de leitura, qualificação de público-alvo ou evento comercial. Essa alteração se aplica somente a novas jornadas. As existentes manterão o comportamento atual. [Saiba mais](../start/guardrails.md#expression-editor)
+* Para melhorar o desempenho, os grupos de campos de evento de experiência não podem mais ser usados em jornadas que comecem com atividades de público-alvo de leitura, qualificação de público-alvo ou evento de negócios. Essa alteração se aplica somente a novas jornadas. As existentes manterão o comportamento atual. [Saiba mais](../start/guardrails.md#expression-editor)
 * A limitação de 1 hora para jornadas de público-alvo de leitura programadas foi removida. Essas jornadas agora podem ser executadas sem atraso.
 
 
@@ -262,7 +262,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <td>
 <p>Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/3414156?captions=por_br">vídeo do recurso</a>.
+<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/346680">vídeo do recurso</a>.
 </td>
 </tr>
 </tbody>

@@ -10,7 +10,7 @@ exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -24,4 +24,4 @@ Saiba mais sobre conectores de fonte e como configurá-los no Journey Optimizer 
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Saiba mais sobre como assimilar dados de fontes externas com conectores de fontes na [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre como assimilar dados de fontes externas com conectores do Source na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR){target="_blank"}.

@@ -27,7 +27,7 @@ A página do relatório é exibida com as seguintes guias:
 * [Campanhas](#campaign)
 * [Canais](#channel)
 
-Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home).
+Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Destaques {#highlights}
 
@@ -79,7 +79,7 @@ Ao clicar no nome de qualquer jornada listada nesta tabela, é possível explora
 
 ![](assets/cja-channel-campaigns.png)
 
-A tabela **[!UICONTROL Campanha]** funciona como um painel abrangente, apresentando uma visão geral detalhada das métricas críticas para sua campanha. Ele apresenta dados essenciais, como o número de perfis e envios, fornecendo um insight abrangente sobre o desempenho e os níveis de engajamento da campanha.
+A tabela **[!UICONTROL Campanha]** funciona como um painel abrangente, apresentando uma visão geral detalhada das métricas críticas para sua campanha. Ele apresenta dados essenciais, como o número de perfis e envios, fornecendo uma insight abrangente sobre os níveis de desempenho e engajamento da campanha.
 
 Ao clicar no nome de qualquer campanha listada nesta tabela, você pode explorar facilmente cada campanha individualmente, obtendo acesso imediato ao relatório abrangente em uma nova guia.
 

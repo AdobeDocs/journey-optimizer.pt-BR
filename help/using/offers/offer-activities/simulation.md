@@ -1,7 +1,7 @@
 ---
 title: Criar simulações
 description: Saiba como simular quais ofertas serão entregues para um determinado posicionamento para validar sua lógica de decisão
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User

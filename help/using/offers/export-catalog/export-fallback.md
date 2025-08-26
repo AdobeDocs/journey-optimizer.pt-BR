@@ -71,7 +71,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 
 +++
 
-+++_experience > decisão > conteúdo > componentes
++++_experience > decisioning > content > components
 
 **Campo:** componentes
 **Descrição:** Os componentes do conteúdo que representam a opção de decisão, incluindo todas as suas variantes de idioma. Componentes específicos são encontrados por &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; ou uma combinação dos mesmos. Esses metadados são usados para localizar ou representar o conteúdo associado a uma oferta e integrá-lo de acordo com o contrato de posicionamento.
@@ -168,7 +168,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 **Descrição:** Posicionamento a ser seguido. O valor é o URI (@id) do posicionamento de oferta referenciado. Consulte schema https://ns.adobe.com/experience/decisioning/placement.
 **Tipo:** cadeia de caracteres
 
-+++
++++ 
 
 +++ _experience > decisão > Status do ciclo de vida
 

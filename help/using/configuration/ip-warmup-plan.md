@@ -22,7 +22,7 @@ Depois de criar uma ou mais [campanhas de aquecimento de IP](ip-warmup-campaign.
 
 Para acessar, criar, editar e excluir os planos de aquecimento de IP, você deve ter a função de **[!UICONTROL Consultor de avaliação de entrega]** ou permissões relacionadas aos planos de aquecimento de IP.
 
-+++Saiba como atribuir a função de Consultor de capacidade de entrega ou as permissões relacionadas a planos de aquecimento de IP
++++Saiba como atribuir a função Consultor de capacidade de entrega ou as permissões relacionadas aos planos de aquecimento de IP
 
 O controle de acesso no nível do objeto permite proteger dados e conceder acesso específico para visualizar e gerenciar seus planos. Se nenhum rótulo for atribuído ao seu plano de aquecimento de IP, ele será aberto para visualização e edição por todos os usuários.
 
@@ -155,7 +155,7 @@ aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.hu;yahoo.co.uk;yahoo.cn;ya
 mac.com;icloud.com;apple.com;me.com
 +++
 
-+++Conversão
++++Comcast
 comcast.net
 +++
 
@@ -175,7 +175,7 @@ inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
 wp.pl;o2.pl
 +++
 
-+++Internet Unida
++++Internet Unificada
 gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
@@ -183,7 +183,7 @@ gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
 +++
 
-+++DoCoMo
++++Docomo
 docomo.ne.jp
 +++
 

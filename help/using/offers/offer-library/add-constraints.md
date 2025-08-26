@@ -76,7 +76,7 @@ Por exemplo, se você definir as seguintes restrições:
 >title="Sobre a elegibilidade da oferta"
 >abstract="Nesta seção, é possível usar regras de decisão para definir as pessoas elegíveis para receber a oferta."
 
-<!--additional-url="https://video.tv.adobe.com/v/341377?captions=por_br" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -105,7 +105,7 @@ A seção **[!UICONTROL Qualificação da oferta]** permite restringir a oferta 
 
   >[!CAUTION]
   >
-  >No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
+  >No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
 
 Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
 

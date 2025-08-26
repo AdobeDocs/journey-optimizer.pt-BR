@@ -7,7 +7,7 @@ exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Para adicionar condições à sua consulta, siga estas etapas:
 
 1. Clique na ![imagem que mostra o botão “Mais ações”](assets/do-not-localize/rule-builder-icon-more.svg) ao lado de um atributo para acessar estas opções adicionais:
 
-+++ Distribuição de valores
+   +++ Distribuição de valores
 
    Analise a distribuição de valores referente a um determinado atributo dentro da tabela. Esse recurso é útil para entender os valores disponíveis, suas contagens e porcentagens. Isso também ajuda a evitar problemas como inconsistências no uso de maiúsculas e minúsculas ou na ortografia ao criar consultas ou expressões.
 
@@ -50,9 +50,9 @@ Para adicionar condições à sua consulta, siga estas etapas:
 
    ![imagem mostrando a interface de distribuição de valores](assets/rule-builder-distribution-values.png)
 
-+++
+   +++
 
-+++ Adicionar aos favoritos
+   +++ Adicionar aos favoritos
 
    Adicionar atributos ao menu de favoritos agiliza o acesso aos atributos usados com mais frequência. Você pode adicionar até 20 atributos aos favoritos. Atributos favoritos e recentes são associados a cada usuário dentro de uma organização, garantindo acessibilidade em diferentes computadores e proporcionando uma experiência contínua em todos os dispositivos.
 
@@ -60,7 +60,7 @@ Para adicionar condições à sua consulta, siga estas etapas:
 
    ![imagem mostrando a interface dos favoritos](assets/rule-builder-favorites.png)
 
-+++
+   +++
 
 1. Clique em **[!UICONTROL Confirmar]** para adicionar o atributo selecionado à sua condição.
 
@@ -127,7 +127,7 @@ Esta é uma amostra de consulta em que um vínculo de tabela foi selecionado dir
 
 ![Captura de tela da tabela “Marca”](assets/rule-builder-1-1-attribute-table.png)
 
-+++
++++ 
 
 Para um vínculo **1-N**, você pode definir subcondições para refinar a sua consulta, como mostrado no exemplo abaixo.
 
@@ -145,7 +145,7 @@ Aqui, a consulta é direcionada a destinatários que fizeram compras relacionada
 
    ![Captura de tela da tabela “Compra”](assets/rule-builder-1-n-collection.png)
 
-+++
++++ 
 
 ### Condições personalizadas com dados agregados {#aggregate}
 

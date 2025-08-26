@@ -1,7 +1,7 @@
 ---
 title: Usar ofertas personalizadas em um email
 description: Descubra um exemplo completo mostrando todas as etapas necessárias para configurar ofertas e usá-las em um email.
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management, Email
 topic: Integrations
 role: User

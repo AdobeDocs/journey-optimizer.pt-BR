@@ -144,7 +144,7 @@ Para definir as configurações de experiência baseada em código para platafor
 
    O URL de visualização é um deep link configurado pelo desenvolvedor do aplicativo. Isso garante que todos os URLs correspondentes ao esquema de deep link sejam abertos no aplicativo, em vez de em um navegador móvel da Web. Entre em contato com o desenvolvedor do aplicativo para obter o esquema de deep link configurado para ele.
 
-+++  Os seguintes recursos podem ajudá-lo a configurar deep links para a implementação do seu aplicativo
+   +++  Os seguintes recursos podem ajudá-lo a configurar deep links para a implementação do seu aplicativo
 
    * Para o Android:
 
@@ -156,11 +156,11 @@ Para definir as configurações de experiência baseada em código para platafor
 
       * [Suporte a links universais no seu aplicativo](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
-+++
+   +++
 
    >[!NOTE]
    >
-   >Se você encontrar problemas ao visualizar a experiência, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >Se você encontrar problemas ao visualizar a experiência, consulte [esta documentação](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Outras plataformas {#other}
 

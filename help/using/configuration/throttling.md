@@ -343,7 +343,7 @@ Chamadas de API a serem usadas:
 
 +++
 
-+++Exclui uma configuração de limitação implantada
++++Excluir uma configuração de limitação implantada
 
 Em apenas uma chamada de API, você pode desimplantar e excluir a configuração usando o parâmetro `forceDelete`.
 
@@ -354,7 +354,7 @@ Chamadas de API a serem usadas:
 
 +++
 
-+++Atualiza uma configuração de limitação já implantada
++++Atualizar uma configuração de limitação já implantada
 
 >[!NOTE]
 >
