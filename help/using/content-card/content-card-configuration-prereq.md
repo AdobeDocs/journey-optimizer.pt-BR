@@ -19,12 +19,12 @@ Para que o Adobe Journey Optimizer exiba corretamente os cartões de conteúdo, 
 
 * **Coleta de dados do Adobe Experience Platform**
 
-  [Criar uma sequência de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) e [adicionar o serviço Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep). Habilite as opções de **[!UICONTROL Segmentação do Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. Isso garante que os eventos do Journey Optimizer sejam manipulados pelo Adobe Experience Platform Edge Network.
-Adicione o grupo de campos **Evento de experiência - Interação de apresentação** ao conjunto de dados para incluir esses dados em seus relatórios. [Saiba mais sobre sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+  [Criar uma sequência de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure) e [adicionar o serviço Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure#aep). Habilite as opções de **[!UICONTROL Segmentação do Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. Isso garante que os eventos do Journey Optimizer sejam manipulados pelo Adobe Experience Platform Edge Network.
+Adicione o grupo de campos **Evento de experiência - Interação de apresentação** ao conjunto de dados para incluir esses dados em seus relatórios. [Saiba mais sobre sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 
-  Verifique se a política de mesclagem padrão tem a **Política de mesclagem ativa na Edge** habilitada no menu **[!UICONTROL Cliente]** > **[!UICONTROL Perfis]** > **[!UICONTROL Políticas de mesclagem]** do Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+  Verifique se a política de mesclagem padrão tem a **Política de mesclagem ativa na Edge** habilitada no menu **[!UICONTROL Cliente]** > **[!UICONTROL Perfis]** > **[!UICONTROL Políticas de mesclagem]** do Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR#configure){target="_blank"}
 
   >[!NOTE]
   >
@@ -44,6 +44,6 @@ Adicione o grupo de campos **Evento de experiência - Interação de apresentaç
 
 * **Experimentos de conteúdo**
 
-  Verifique se o conjunto de dados usado na [sequência de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank) do seu aplicativo também está incluído na sua configuração de relatório de experimento de conteúdo. Os dados do aplicativo não serão exibidos nos relatórios se os conjuntos de dados não corresponderem.
+  Verifique se o conjunto de dados usado na [sequência de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/overview#_blank) do seu aplicativo também está incluído na sua configuração de relatório de experimento de conteúdo. Os dados do aplicativo não serão exibidos nos relatórios se os conjuntos de dados não corresponderem.
 
   Saiba como adicionar conjuntos de dados para relatórios de experimento de conteúdo [esta seção](../reports/reporting-configuration.md).

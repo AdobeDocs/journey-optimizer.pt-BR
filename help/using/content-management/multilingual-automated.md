@@ -166,7 +166,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
 
    1. Em Coleção de dados da Adobe Experience Platform, acesse as Propriedades da tag.
 
-   1. Acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. Na seção **[!UICONTROL IF]** da regra, adicione um evento configurado conforme abaixo:
 

@@ -31,7 +31,7 @@ Os públicos-alvo podem ter dois status:
 * realizado: a entidade se qualifica para a definição do segmento.
 * encerrado: a entidade está saindo da definição do segmento.
 
-Somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+Somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa que você tem um segmentMembership com o status inserido/existente.
 

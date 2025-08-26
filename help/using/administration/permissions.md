@@ -50,7 +50,7 @@ Para atribuir uma **[!UICONTROL Função]**:
 
 1. Digite seu nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
 
-   Se o usuário não tiver sido criado anteriormente no [!DNL Admin Console], consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}.
+   Se o usuário não tiver sido criado anteriormente no [!DNL Admin Console], consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=pt-BR){target="_blank"}.
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -129,4 +129,4 @@ Para criar nossa **Função somente leitura** **[!UICONTROL do Jornada]**:
 
 Sua **[!UICONTROL Função]** foi criada e configurada. Agora é necessário atribuí-lo aos usuários.
 
-Para obter mais informações sobre criação e gerenciamento de funções, consulte a [documentação do Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}.
+Para obter mais informações sobre criação e gerenciamento de funções, consulte a [documentação do Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=pt-BR){target="_blank"}.

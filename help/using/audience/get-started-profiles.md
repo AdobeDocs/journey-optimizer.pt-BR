@@ -36,7 +36,7 @@ Aproveite o Perfil do cliente em tempo real no [!DNL Adobe Journey Optimizer] pa
 >
 >* [Documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR){target="_blank"}
 >* [Medidas de proteção padrão para dados e segmentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails){target="_blank"}
->* &#x200B;[Documentação de assimilação de dados](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
+>* &#x200B;[Documentação de assimilação de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Painel de perfis
 
