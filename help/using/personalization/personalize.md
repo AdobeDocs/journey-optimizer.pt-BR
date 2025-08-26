@@ -97,11 +97,11 @@ Agora que você conhece a personalização no **[!DNL Journey Optimizer]**, é h
 
 Saiba como usar informações de evento contextual de uma jornada para personalizar uma mensagem.
 
->[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448138?quality=12&captions=por_br)
 
 Saiba como adicionar personalização baseada em perfil a uma mensagem e como usar a associação de público-alvo como pré-condição para um bloco de personalização.
 
->[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3417586?quality=12&captions=por_br)
 
 Saiba como aproveitar o playground do editor de personalização para gravar e testar o código de personalização usando dados de amostra.
 

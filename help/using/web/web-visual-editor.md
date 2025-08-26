@@ -170,4 +170,4 @@ A capacidade de alterar o tamanho do dispositivo foi projetada para sites respon
 
 O vídeo abaixo mostra como criar uma experiência na Web usando o web designer em campanhas do [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452640/?quality=12&learn=on&captions=por_br)

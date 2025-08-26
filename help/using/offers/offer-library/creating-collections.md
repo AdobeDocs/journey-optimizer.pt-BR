@@ -89,6 +89,6 @@ Para criar uma coleção, siga estas etapas:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3409146?quality=12&captions=por_br)
 
 

@@ -86,5 +86,5 @@ Para criar uma inserção, siga estas etapas:
 
 Saiba como criar inserções na gestão de decisões.
 
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341392?quality=12&captions=por_br)
 

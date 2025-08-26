@@ -62,5 +62,5 @@ Para criar uma oferta substituta, siga estas etapas:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341361?quality=12&captions=por_br)
 
