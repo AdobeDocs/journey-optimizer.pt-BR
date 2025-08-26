@@ -2,10 +2,10 @@
 title: Usar identificadores complementares em jornadas
 description: Saiba como usar identificadores complementares no jornada.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
+source-git-commit: c46ad0283eec025cbf6183bf1aac0e3808450e21
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 5%
+source-wordcount: '1257'
+ht-degree: 4%
 
 ---
 
@@ -101,6 +101,8 @@ Para usar um identificador complementar em uma jornada acionada por evento, siga
 
    1. Selecione o namespace a ser associado à ID complementar. Deve ser um namespace de identificador não pessoal.
 
+      Depois de aplicar o namespace de identidade não pessoal a um esquema, você deve criar um novo evento para usar o identificador complementar. As entidades existentes não podem ser atualizadas para reconhecer o novo identificador.
+
 1. **Adicionar a ID complementar ao evento**
 
    1. Crie ou edite o evento desejado. [Saiba como configurar um evento unitário](../event/about-creating.md)
@@ -141,9 +143,7 @@ Para usar um identificador complementar em uma jornada Ler público, siga estas 
 
    1. Selecione o namespace a ser associado à ID complementar. Deve ser um namespace de identificador não pessoal.
 
-      >[!NOTE]
-      >
-      >Depois de aplicar o namespace de identidade não pessoal a um esquema, você deve criar um novo evento (para jornadas acionadas por eventos) ou um novo grupo de campos (para jornadas de público-alvo de leitura) para usar o identificador complementar. As entidades existentes não podem ser atualizadas para reconhecer o novo identificador.
+      Depois de aplicar o namespace de identidade que não seja de pessoa a um esquema, você deve criar um novo grupo de campos para usar o identificador complementar. As entidades existentes não podem ser atualizadas para reconhecer o novo identificador.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -250,4 +250,4 @@ Em uma matriz de objetos com a ID complementar como `bookingNum` e um atributo n
 
 Saiba como habilitar e aplicar um identificador complementar no [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464797?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
