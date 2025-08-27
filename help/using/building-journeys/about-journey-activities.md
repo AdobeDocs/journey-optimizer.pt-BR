@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '689'
 ht-degree: 16%
 
 ---
@@ -42,7 +42,7 @@ As atividades de orquestração são condições diferentes que ajudam a determi
 
 Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração estão disponíveis:
 
-* [Otimizar](optimize.md)
+<!--* [Optimize](optimize.md)-->
 * [Ler público-alvo](read-audience.md)
 * [Aguardar](wait-activity.md)
 * [Decisão de conteúdo](content-decision.md)
