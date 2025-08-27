@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: otimização de campanha, experimentação, direcionamento, teste A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,7 @@ Para configurar a experimentação e determinar qual mensagem impulsiona mais co
    >
    >Se você estiver em uma jornada, adicione uma atividade de **[!UICONTROL Ação]**, escolha uma atividade de canal e selecione **[!UICONTROL Configurar ação]**. [Saiba mais](../building-journeys/journey-action.md#add-action)
 
-1. Na guia **[!UICONTROL Ações]**, selecione pelo menos duas ações de entrada, por exemplo, [experiência baseada em código](../code-based/get-started-code-based.md) e [No aplicativo](../../rp_landing_pages/in-app-landing-page.md).
+1. Na guia **[!UICONTROL Ações]**, selecione duas ações de entrada, por exemplo, [experiência baseada em código](../code-based/get-started-code-based.md) e [No aplicativo](../../rp_landing_pages/in-app-landing-page.md).
 
 1. Na seção **[!UICONTROL Otimização]**, selecione **[!UICONTROL Criar experimento]**.
 
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Saiba como utilizar a otimização de mensagens em campanhas acionadas por ações ou API. Você aprenderá a direcionar subconjuntos do público-alvo, criar variações de mensagem por local, habilitar o conteúdo de fallback e executar vários experimentos em uma mesma campanha. Este tutorial também aborda como gerenciar campanhas com vários canais e, ao mesmo tempo, manter a consistência das mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470373?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

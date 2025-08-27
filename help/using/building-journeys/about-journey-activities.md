@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 15%
+source-wordcount: '690'
+ht-degree: 16%
 
 ---
 
@@ -42,11 +42,12 @@ As atividades de orquestração são condições diferentes que ajudam a determi
 
 Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração estão disponíveis:
 
-* [Condição](../building-journeys/condition-activity.md)
-* [Aguardar](../building-journeys/wait-activity.md)
-* [Ler público-alvo](../building-journeys/read-audience.md)
+* [Otimizar](optimize.md)
+* [Ler público-alvo](read-audience.md)
+* [Aguardar](wait-activity.md)
+* [Decisão de conteúdo](content-decision.md)
 
-![Paleta de atividades de orquestração no designer de jornada](assets/journey49.png)
+![Paleta de atividades de orquestração no designer de jornada](assets/journey-orchestration-activities.png)
 
 ## Atividades de ação {#action-activities}
 
