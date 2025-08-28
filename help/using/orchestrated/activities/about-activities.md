@@ -4,10 +4,10 @@ product: journey optimizer
 title: Trabalhar com atividades de campanha orquestradas
 description: Saiba como organizar atividades de campanha
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 66%
 
 ---
 
@@ -30,6 +30,8 @@ Estas atividades são especificamente para direcionamento. Elas permitem criar u
 
 ![Lista de atividades de direcionamento](../assets/targeting-activities.png){width="40%" align="left"}
 
+As atividades de direcionamento disponíveis são:
+
 * [Criar público-alvo](build-audience.md): defina a sua população-alvo. Você pode selecionar um público-alvo existente ou usar o criador de regras para definir sua própria consulta.
 * [Alterar dimensão](change-dimension.md): altere a targeting dimension enquanto você estiver criando sua campanha Orquestrada.
 * [Combinar](combine.md): aplique uma segmentação à sua população de entrada. Você pode usar uma união, uma interseção ou uma exclusão.
@@ -49,9 +51,11 @@ O Adobe Journey Optimizer permite automatizar e executar campanhas de marketing 
 >title="Atividade de término"
 >abstract="A Atividade de **término** permite marcar graficamente o fim de uma campanha orquestrada. Essa atividade não tem impacto funcional e, portanto, é opcional."
 
-![Lista de atividades de controle do fluxo](../assets/flow-control-activities.png){width="30%" align="left"}
+As atividades a seguir são específicas para organizar e executar campanhas orquestradas. Sua principal tarefa é coordenar as outras atividades.
 
-As atividades a seguir são específicas para organizar e executar campanhas orquestradas. Sua principal tarefa é coordenar as outras atividades:
+![Lista de atividades de controle do fluxo](../assets/flow-control-activities.png){width="20%" align="left"}
+
+As atividades de controle de fluxo disponíveis são:
 
 * [And-join](and-join.md): sincroniza várias ramificações de execução de uma campanha Orquestrada.
 * [Bifurcação](fork.md): crie transições de saída para iniciar várias atividades ao mesmo tempo.

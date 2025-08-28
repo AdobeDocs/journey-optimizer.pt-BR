@@ -4,10 +4,10 @@ product: journey optimizer
 title: Etapas de configuração
 description: Saiba como trazer dados para a Adobe Experience Platform de fontes compatíveis, como SFTP, armazenamento na nuvem ou bancos de dados.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 22%
+source-wordcount: '699'
+ht-degree: 21%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 22%
 >O Adobe Experience Platform impõe uma relação rigorosa um para um entre os fluxos de dados e conjuntos de dados. Isso permite manter a sincronização entre a origem e o conjunto de dados para uma assimilação incremental precisa.
 
 A Adobe Experience Platform permite a assimilação de dados de fontes externas, além de permitir estruturar, rotular e aprimorar os dados recebidos por meio dos serviços da Experience Platform. Você pode assimilar dados de várias fontes, como aplicativos Adobe, armazenamentos baseados na nuvem, bancos de dados e muitas outras.
+
+Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas). Os dados assimilados com sucesso na Experience Platform são armazenados no data lake como conjuntos de dados.
 
 ## Fontes compatíveis para campanhas orquestradas {#supported}
 
@@ -36,29 +38,29 @@ As seguintes origens são compatíveis com o uso de campanhas orquestradas:
   <tbody>
     <tr>
       <td rowspan="3">Armazenamento na nuvem</td>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Data Warehouses da nuvem</td>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Uploads baseados em arquivo</td>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Upload de arquivo local<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Upload de arquivo local<a></td>
     </tr>
 
 </tbody>
@@ -82,7 +84,7 @@ Se o cliente quiser excluir registros somente do Adobe Experience Platform sem a
 
   Se licenciado, o **Data Distiller** poderá ser usado para oferecer suporte a operações de exclusão diretamente no Adobe Experience Platform, independentemente do sistema de origem.
 
-  [Saiba mais sobre o Data Distiller](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/overview)
+  [Saiba mais sobre o Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## Configurar um fluxo de dados
 
@@ -98,7 +100,7 @@ Este exemplo demonstra como configurar um fluxo de dados que assimila dados estr
 
    ![](assets/admin_sources_2.png)
 
-1. Escolha os dados que deseja assimilar na Adobe Experience Platform.
+1. Escolha os dados que serão assimilados na Adobe Experience Platform.
 
    ![](assets/S3_config_1.png)
 
@@ -120,7 +122,7 @@ Este exemplo demonstra como configurar um fluxo de dados que assimila dados estr
 
    Observe que o tamanho máximo suportado é 100 MB.
 
-1. Na janela **[!UICONTROL Mapeamento]**, verifique se cada atributo de arquivo de origem está mapeado corretamente com os campos correspondentes no esquema de público-alvo.
+1. Na janela **[!UICONTROL Mapping]**, verifique se cada atributo de arquivo de origem está mapeado corretamente com os campos correspondentes no esquema de destino. [Saiba mais sobre dimensões de direcionamento](target-dimension.md).
 
    Clique em **[!UICONTROL Próximo]** quando terminar.
 

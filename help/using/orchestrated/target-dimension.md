@@ -4,9 +4,9 @@ product: journey optimizer
 title: Crie sua Targeting dimension
 description: Saiba como mapear um esquema relacional para o perfil do cliente
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Configurar uma Targeting dimension {#configuration}
 
-Com as **[!UICONTROL Campanhas orquestradas]**, você pode projetar e fornecer comunicações direcionadas no nível da entidade, aproveitando os recursos de esquema relacional da Adobe Experience Platform.
+Com as **[!UICONTROL Campanhas orquestradas]**, você pode projetar e fornecer comunicações direcionadas no nível da entidade, aproveitando os recursos de esquema relacional da Adobe Experience Platform. A Experience Platform usa esquemas para descrever a estrutura dos dados de forma consistente e reutilizável. Quando os dados são assimilados na Experience Platform, eles são estruturados de acordo com um esquema XDM.
 
 Embora a segmentação de **[!UICONTROL Campanhas orquestradas]** funcione principalmente em esquemas relacionais, a entrega de mensagens real sempre ocorre no nível **Perfil**.
 
@@ -30,7 +30,7 @@ Ao configurar o direcionamento, você define dois aspectos principais:
 
 * **Vinculação de perfis**
 
-  O sistema deve entender como o esquema de destino mapeia para o `Profile`. Isso é feito por meio de um campo de identidade compartilhado — um que existe tanto no esquema de destino quanto no esquema `Profile` e está configurado como um namespace de identidade.
+  O sistema deve entender como o esquema de destino mapeia para o esquema `Profile`. Isso é feito por meio de um campo de identidade compartilhado — um que existe tanto no esquema de destino quanto no esquema `Profile` e está configurado como um namespace de identidade.
 
 ## Crie sua Targeting dimension {#targeting-dimension}
 
@@ -50,7 +50,7 @@ Comece configurando a orquestração de campanhas, mapeando um esquema relaciona
 
    Neste exemplo, o perfil do cliente está vinculado a várias assinaturas, cada uma representada por um único `crmID` no esquema `Recipient`. Ao configurar o **[!UICONTROL Dimension de Destino]** para usar o esquema `Recipient` e sua identidade `crmID`, você poderá enviar mensagens no nível de assinatura, em vez de no perfil principal do cliente, garantindo que cada contrato ou linha receba sua própria mensagem personalizada.
 
-   [Saiba mais na documentação da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition#identity)
+   [Saiba mais na documentação da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
