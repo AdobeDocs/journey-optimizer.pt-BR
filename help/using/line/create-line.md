@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
-source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
+source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 6%
+source-wordcount: '648'
+ht-degree: 5%
 
 ---
 
@@ -77,6 +77,18 @@ Agora você pode começar a projetar o conteúdo da sua mensagem de texto a part
 >[!ENDTABS]
 
 ## Definir o conteúdo do LINE{#line-content}
+
+O Adobe Journey Optimizer oferece suporte aos seguintes tipos de mensagem para LINE:
+
+* **Texto**: envia mensagens de texto simples ou formatadas.
+* **Adesivos**: incorpore os adesivos nativos do LINE para adicionar caractere e expressividade.
+* **Imagens**: anexe imagens para aprimorar o apelo visual.
+* **Vídeos**: compartilhe conteúdo de vídeo para comunicação dinâmica.
+* **Locais**: envia informações de localização com mapas.
+* **Modelos**: utilize modelos predefinidos para mensagens consistentes.
+* **Mensagens do Flex**: crie layouts complexos com conteúdo avançado usando as Mensagens do Flex baseadas em JSON.
+
+Esses tipos de mensagens podem ser configurados ao editar o conteúdo JSON diretamente, permitindo estratégias de mensagens dinâmicas e personalizadas.
 
 Para configurar o conteúdo LINE, siga as etapas abaixo.
 
