@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: dados, fonte, configuração, campo
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 521b643dfea095c2e9499db60038dc7202fc8648
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 8%
+source-wordcount: '615'
+ht-degree: 7%
 
 ---
 
@@ -60,7 +60,7 @@ O número de jornadas que usam um grupo de campos é exibido no campo **[!UICONT
 
 Você pode adicionar ou remover campos de um grupo de campos que não é usado em nenhum rascunho ou jornada em tempo real.
 
-Você pode adicionar, mas não pode remover, um campo de um grupo de campos usado em uma ou mais jornadas de rascunho ou ativas. Isso evitará quebrar as jornadas.
+Se o grupo de campos for usado em uma ou mais jornadas de rascunho ou ativas, você poderá adicionar novos campos incrementalmente a partir do esquema selecionado, mas não poderá desmarcar/remover/modificar campos que já foram selecionados. Atualizações em um grupo de campos não são permitidas se campos existentes de esquema já em uso por jornadas de rascunho ou em tempo real forem modificados — por exemplo, alterar o tipo de dados de um campo. Isso evitará a quebra de jornadas
 
 Para excluir um campo de um grupo de campos usado em uma ou mais jornadas, siga estas etapas. Vamos usar um exemplo de um grupo de campos chamado &quot;Grupo de campos A&quot;.
 
