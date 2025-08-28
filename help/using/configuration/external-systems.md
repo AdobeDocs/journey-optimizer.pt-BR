@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0a6db9c9537563fea5d56289d78b9ed49d703734
+source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 26%
+source-wordcount: '1499'
+ht-degree: 24%
 
 ---
 
@@ -76,7 +76,15 @@ Para **ações personalizadas**, é necessário avaliar a capacidade de sua API 
 >
 >Como as respostas agora são compatíveis, você deve usar ações personalizadas em vez de fontes de dados para casos de uso de fontes de dados externas. Para obter mais informações sobre respostas, consulte esta [seção](../action/action-response.md)
 
-## Tempo limite e tentativas{#timeout}
+## Endpoints com tempo de resposta lento {#response-time}
+
+Quando um ponto de extremidade tem um tempo de resposta superior a 0,75 segundos, suas chamadas de ação personalizadas são roteadas por um **serviço de ação personalizada lenta** dedicado em vez do serviço padrão.
+
+Esse serviço de ação personalizada lenta aplica um limite de 150.000 chamadas a cada 30 segundos. O limite é aplicado usando uma janela deslizante, que pode começar a qualquer milissegundo dentro desse período de 30 segundos. Quando a janela estiver cheia, as chamadas adicionais serão rejeitadas com erros de limite. O sistema não espera pelo próximo intervalo fixo, mas começa a limitar imediatamente depois que o limite de 30 segundos é atingido.
+
+Como endpoints lentos podem causar atrasos em todas as ações em fila no pipeline, é recomendável não configurar ações personalizadas com endpoints com tempos de resposta lentos. O roteamento dessas ações para o serviço lento ajuda a proteger o desempenho geral do sistema e impede a latência adicional de outras ações personalizadas.
+
+## Tempo limite e tentativas {#timeout}
 
 Se a regra de limitação ou limitação for atendida, a regra de tempo limite será aplicada.
 
