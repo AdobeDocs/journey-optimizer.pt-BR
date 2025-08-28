@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 10a228a500ac1c89f9fc400d6e7606f4b1717052
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 >title="Pausar sua jornada"
 >abstract="Pause uma jornada em tempo real para impedir a entrada de novos perfis. Escolha se deseja descartar os perfis que estão atualmente na jornada ou mantê-los no lugar. Se retidos, eles retomarão a execução na próxima atividade de ação depois que a jornada for reiniciada. Perfeito para atualizações ou interrupções de emergência sem perder o progresso."
 
-Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante a pausa, você pode [aplicar os critérios de saída do atributo de perfil](#journey-global-filters) para excluir perfis com base em seus atributos. A jornada é retomada automaticamente no final do período de pausa. Você também pode [retomá-lo manualmente](#journey-resume-steps).
+Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante a pausa, você pode [aplicar os critérios de saída do atributo de perfil](#journey-exit-criteria) para excluir perfis com base em seus atributos. A jornada é retomada automaticamente no final do período de pausa. Você também pode [retomá-lo manualmente](#journey-resume-steps).
 
 
 
@@ -113,7 +113,7 @@ Para retomar uma jornada pausada e começar a ouvir eventos de jornada novamente
 Na lista de suas jornadas, você pode retomar uma ou várias jornadas **Pausadas**. Para retomar um grupo de jornadas (_retomada em massa_), selecione-as e clique no botão **Retomar**, localizado na barra azul na parte inferior da tela. Observe que o botão **Retomar** só estará disponível quando as jornadas **Pausadas** forem selecionadas.
 
 
-## Aplicar um critério de saída em uma jornada pausada {#journey-global-filters}
+## Aplicar um critério de saída em uma jornada pausada {#journey-exit-criteria}
 
 Quando uma jornada é pausada, você pode aplicar um critério de saída com base nos atributos do perfil. Esse filtro permite a exclusão de perfis que correspondem à expressão definida no momento da retomada. Depois que os critérios de saída baseados em atributo de perfil forem definidos, eles serão aplicados nos nós de ação, mesmo para a entrada de novos perfis. Os perfis existentes que correspondem aos critérios e os novos perfis que entram na jornada serão excluídos da jornada **no próximo nó de ação** que encontrarem.
 
@@ -123,7 +123,7 @@ Por exemplo, para excluir todos os clientes franceses de uma jornada pausada, si
 
 1. Selecione o ícone **Critérios de saída**.
 
-   ![Adicionar um critério de saída de atributo de perfil a uma jornada pausada](assets/add-global-filter.png)
+   ![Adicionar um critério de saída de atributo de perfil a uma jornada pausada](assets/add-exit-criteria.png)
 
 1. Nas configurações de **Critério de saída**, clique em **Adicionar critério de saída** para definir um filtro com base em atributos de perfil.
 
