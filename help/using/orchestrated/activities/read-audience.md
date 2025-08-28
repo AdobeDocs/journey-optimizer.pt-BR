@@ -4,16 +4,15 @@ product: journey optimizer
 title: Usar a atividade Público-alvo de leitura
 description: Saiba como usar a atividade Ler público em uma campanha orquestrada
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 63ca1aab5190c58031dbab13651639bba4363964
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 16%
+source-wordcount: '650'
+ht-degree: 11%
 
 ---
 
 
 # Público-alvo de leitura {#read-audience}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
@@ -23,6 +22,20 @@ ht-degree: 16%
 A atividade **[!UICONTROL Ler público-alvo]** permite recuperar um público-alvo existente, salvo ou importado anteriormente, e reutilizá-lo em uma campanha Orquestrada. Essa atividade é especialmente útil para direcionar um conjunto predefinido de perfis sem a necessidade de executar um novo processo de segmentação.
 
 Depois que o público-alvo é carregado, você pode refiná-lo selecionando um campo de identidade exclusivo e enriquecendo o público-alvo com atributos de perfil adicionais para fins de direcionamento, personalização ou relatórios.
+
+## Ler cache de público {#cache}
+
+Ao testar uma campanha Orquestrada, a atividade **[!UICONTROL Ler público-alvo]** normalmente leva algum tempo para buscar dados, o que pode tornar a execução do teste mais longa. Para acelerar, um cache de **[!UICONTROL Leitura de Público]** está disponível.
+
+O cache armazena o público juntamente com os atributos selecionados por **até duas horas**. Durante esse período, qualquer execução de teste subsequente pode usar os resultados em cache, evitando a necessidade de buscar os dados novamente. Após o **período de duas horas**, os dados deverão ser recuperados novamente.
+
+O cache é salvo para cada campanha orquestrada, não para o próprio público. Se o mesmo público for usado em uma atividade **[!UICONTROL Read Audience]** dentro de outra campanha orquestrada, o sistema ainda precisará buscar os dados novamente.
+
+O cache não é retido nos seguintes casos:
+
+* Quando a atividade **[!UICONTROL Ler público-alvo]** é atualizada com novos atributos, o cache é atualizado com os novos dados de atributos. Consequentemente, a primeira execução de teste após a atualização levará mais tempo, pois os dados precisam ser recuperados novamente.
+
+* Quando a campanha Orquestrada é publicada, os dados mais recentes são obtidos ao executar a campanha Orquestrada em tempo real.
 
 ## Configurar a atividade Ler público {#read-audience-configuration}
 
@@ -48,7 +61,7 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Ler público-alvo]**
 
    ![](../assets/read-audience-3.png)
 
-1. Selecione [!UICONTROL Adicionar atributo] para enriquecer o público-alvo selecionado com dados adicionais. Esta etapa permite adicionar atributos de perfil ao público-alvo, resultando em uma lista de recipients aprimorada com esses atributos.
+1. Selecione **[!UICONTROL Adicionar atributo]** para enriquecer o público-alvo selecionado com dados adicionais. Esta etapa permite adicionar atributos de perfil ao público-alvo, resultando em uma lista de recipients aprimorada com esses atributos.
 
 1. Escolha os **[!UICONTROL Atributos]** que você deseja adicionar ao seu público-alvo. O seletor de atributos exibe campos do **Esquema de Perfil de União**:
 
