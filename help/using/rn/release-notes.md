@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1702'
 ht-degree: 72%
 
 ---
@@ -283,7 +283,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Canal - Cartões de conteúdo**
 
-   * **Modelos de layout de cartão de conteúdo** - O canal de cartão de conteúdo agora fornece layouts de mensagem OOTB que simplificarão sua experiência de criação. Esta versão inclui modelos de layout de Imagem pequena, Imagem grande e Somente imagem.
+   * **Modelos de layout de cartão de conteúdo** - O canal de cartão de conteúdo agora fornece layouts de mensagem OOTB que simplificarão sua experiência de criação. Esta versão inclui modelos de layout de Imagem pequena, Imagem grande e Somente imagem. [Leia mais](../content-card/design-content-card.md)
 
 * **Canal - Push**
 
