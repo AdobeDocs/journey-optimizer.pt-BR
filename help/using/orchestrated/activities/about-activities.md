@@ -4,10 +4,10 @@ product: journey optimizer
 title: Trabalhar com atividades de campanha orquestradas
 description: Saiba como organizar atividades de campanha
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
+source-git-commit: 2e04d3022ff6e8427e80a5a22cae367c4995730a
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 66%
+source-wordcount: '407'
+ht-degree: 63%
 
 ---
 
@@ -23,6 +23,11 @@ Todas as atividades estão detalhadas nas seções abaixo:
 * [Atividades de controle do fluxo](#flow-control)
 
 ![Lista de atividades disponíveis na tela](../assets/orchestrated-activities.png){width="80%" align="left"}
+
+
+>[!NOTE]
+>
+>Dependendo do modelo de licenciamento, das permissões e da implementação, as atividades disponíveis podem ser diferentes.
 
 ## Atividades de direcionamento {#targeting}
 
