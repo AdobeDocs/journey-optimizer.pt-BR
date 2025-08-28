@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 24%
+source-wordcount: '1615'
+ht-degree: 22%
 
 ---
 
@@ -119,3 +119,14 @@ Para uma determinada chamada, um máximo de três tentativas pode ser executado 
 **Onde posso configurar o tempo limite? Existe um valor máximo?**
 
 Em cada jornada, é possível definir uma duração de tempo limite. A duração do tempo limite é configurada nas propriedades de uma jornada. A duração do tempo limite deve estar entre 1 segundo e 30 segundos. Consulte [esta seção](../configuration/external-systems.md#timeout) e [esta página](../building-journeys/journey-properties.md#timeout_and_error).
+
+**Qual é o número máximo de conexões abertas pelo Journey Optimizer quando ações personalizadas são usadas?**
+
+Com o proxy IP habilitado e uma configuração de limitação definida no endpoint de destino, o número de conexões é baseado na taxa (que são estimativas, números não garantidos):
+
+* entre 200 e 2000 c/s: 50 conexões
+* entre 2000 e 3000: 75 conexões
+* entre 3000 e 4000: 100 conexões
+* entre 4000 e 5000: 125 conexões
+
+Se nenhuma configuração de limitação for definida em um endpoint, o mecanismo da Journey Optimizer será dimensionado para aumentar e chegar a um número alto de conexões (mais de 2.000). Para obter um número limitado de conexões, os clientes precisam usar uma configuração de limitação.
