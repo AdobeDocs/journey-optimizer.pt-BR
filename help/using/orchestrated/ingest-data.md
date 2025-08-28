@@ -38,29 +38,29 @@ As seguintes origens são compatíveis com o uso de campanhas orquestradas:
   <tbody>
     <tr>
       <td rowspan="3">Armazenamento na nuvem</td>
-      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Data Warehouses da nuvem</td>
-      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
+      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Uploads baseados em arquivo</td>
-      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Upload de arquivo local<a></td>
+      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Upload de arquivo local<a></td>
     </tr>
 
 </tbody>
@@ -84,7 +84,7 @@ Se o cliente quiser excluir registros somente do Adobe Experience Platform sem a
 
   Se licenciado, o **Data Distiller** poderá ser usado para oferecer suporte a operações de exclusão diretamente no Adobe Experience Platform, independentemente do sistema de origem.
 
-  [Saiba mais sobre o Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
+  [Saiba mais sobre o Data Distiller](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/overview)
 
 ## Configurar um fluxo de dados
 
