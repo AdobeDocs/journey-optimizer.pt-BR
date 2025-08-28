@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 13%
@@ -442,10 +442,10 @@ Onde a primeira string é o atributo de data, o segundo valor é como você gost
 
 **Exemplo**
 
-A operação a seguir retornará a data no seguinte formato: MM/DD/AA e local FRANÇA.
+A operação a seguir retornará a data no seguinte formato: MM/dd/AA e localidade FRANÇA.
 
 ```sql
-{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
+{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY", "fr_FR") %}
 ```
 
 ## Obter CurrentZonedDateTime {#get-current-zoned-date-time}
