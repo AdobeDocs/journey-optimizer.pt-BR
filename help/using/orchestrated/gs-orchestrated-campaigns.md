@@ -5,10 +5,10 @@ title: Introdução às campanhas orquestradas
 description: Saiba como começar a usar as campanhas orquestradas
 short-description: Descubra os principais recursos e casos de uso de campanhas orquestradas.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -64,9 +64,9 @@ A tela da campanha orquestrada é uma representação do que deve acontecer. Ela
 
 Cada campanha orquestrada contém:
 
-* **Atividades**: uma atividade é uma tarefa a ser executada. As várias atividades são representadas no diagrama por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
+* **Atividades**: uma atividade é uma tarefa a ser executada. As várias atividades são representadas na tela por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
 
-  No diagrama de uma campanha orquestrada, uma determinada atividade pode gerar várias tarefas, principalmente quando há um ciclo ou ações recorrentes.
+  Em uma tela de campanha orquestrada, uma determinada atividade pode produzir várias tarefas, principalmente quando há um loop ou ações recorrentes.
 
 * **Transições**: as transições vinculam uma atividade de origem a uma atividade de destino e definem sua sequência.
 

@@ -4,27 +4,27 @@ product: journey optimizer
 title: Criar campanhas orquestradas com o Adobe Journey Optimizer
 description: Saiba como criar campanhas orquestradas com o Adobe Journey Optimizer
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 56%
+source-wordcount: '886'
+ht-degree: 50%
 
 ---
 
 
 # Atividades da campanha orquestrada {#orchestrate}
 
-Depois que você tiver [criado uma campanha Orquestrada](gs-campaign-creation.md), poderá começar a orquestrar as diferentes tarefas que ela executará. Para fazer isso, uma tela visual é fornecida, permitindo que você crie um diagrama de campanha Orquestrado. Nesse diagrama, é possível adicionar várias atividades e conectá-las em ordem sequencial.
+Depois que você tiver [criado uma campanha Orquestrada](gs-campaign-creation.md), poderá começar a orquestrar as diferentes tarefas que ela executará. Para fazer isso, uma tela visual é fornecida, permitindo que você construa uma tela de campanha orquestrada. Nessa tela, é possível adicionar várias atividades e conectá-las em ordem sequencial.
 
 ## Adicionar atividades {#add}
 
-Nessa etapa da configuração, o diagrama é exibido com um ícone de início, representando o início da campanha Orquestrada. Para adicionar a primeira atividade, clique no botão **+** conectado ao ícone de início.
+Nesta etapa da configuração, a tela Orchestrated campaign é exibida com um ícone de início, representando o início da sua campanha Orchestrated. Para adicionar a primeira atividade, clique no botão **+** conectado ao ícone de início.
 
-Uma lista de atividades que podem ser adicionadas ao diagrama é exibida. As atividades disponíveis dependem da sua posição no diagrama Campanha orquestrada. Por exemplo, ao adicionar sua primeira atividade, você pode iniciar a campanha Orquestrada direcionando um público-alvo, dividindo o caminho da campanha Orquestrada ou definindo uma atividade **Wait** para atrasar a execução da campanha Orquestrada. Por outro lado, após uma atividade **Criar público-alvo**, você pode refinar seu público-alvo com atividades de direcionamento, enviar uma entrega para seu público com atividades de canal ou organizar o processo Campanha orquestrada com atividades de controle de fluxo.
+Uma lista de atividades que podem ser adicionadas à tela de campanha Orquestrada é exibida. As atividades disponíveis dependem da sua posição na tela de campanha Orquestrada. Por exemplo, ao adicionar sua primeira atividade, você pode iniciar a campanha Orquestrada direcionando um público-alvo, dividindo o caminho da campanha Orquestrada ou definindo uma atividade **Wait** para atrasar a execução da campanha Orquestrada. Por outro lado, após uma atividade **Criar público-alvo**, você pode refinar seu público-alvo com atividades de direcionamento, enviar uma entrega para seu público com atividades de canal ou organizar o processo Campanha orquestrada com atividades de controle de fluxo.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
-Depois que uma atividade é adicionada ao diagrama, aparece um painel à direita, permitindo que você a ajuste com configurações específicas. Informações detalhadas de como configurar cada atividade estão disponíveis [nesta seção](activities/about-activities.md).
+Depois que uma atividade é adicionada à tela, um painel direito é exibido, permitindo que você a configure com configurações específicas. Informações detalhadas de como configurar cada atividade estão disponíveis [nesta seção](activities/about-activities.md).
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
@@ -85,7 +85,7 @@ Para colar as atividades, clique no botão **+** em uma transição e selecione 
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-## Exemplo de diagrama {#example}
+## Exemplo de tela de desenho {#example}
 
 Este é um exemplo de campanha orquestrada criada para enviar um email a todos os clientes que fizeram uma compra de pelo menos 100$, enquanto exclui todos os clientes que têm menos de 50 pontos de fidelidade.
 
@@ -106,4 +106,4 @@ Para isso, as atividades abaixo foram adicionadas:
 
 ## Próximas etapas {#next}
 
-Depois de criar com sucesso o diagrama de campanha Orquestrado, você pode executar a campanha Orquestrada e acompanhar o progresso de suas várias tarefas. [Saiba como iniciar uma campanha Orquestrada e monitorar sua execução](start-monitor-campaigns.md)
+Depois de projetar com êxito a tela de campanha Orquestrada, você pode executar a campanha Orquestrada e acompanhar o progresso de suas várias tarefas. [Saiba como iniciar uma campanha Orquestrada e monitorar sua execução](start-monitor-campaigns.md)

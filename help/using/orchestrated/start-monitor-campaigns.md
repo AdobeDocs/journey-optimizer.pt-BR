@@ -4,10 +4,10 @@ product: journey optimizer
 title: Iniciar e monitorar campanhas orquestradas com o Adobe Journey Optimizer
 description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe Journey Optimizer.
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 55%
+ht-degree: 53%
 
 ---
 
@@ -35,7 +35,7 @@ Para testar uma campanha Orquestrada, abra a campanha e selecione **[!UICONTROL 
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Cada atividade da campanha é executada sequencialmente até que o fim do diagrama seja atingido. Durante o teste, é possível controlar a execução da campanha usando a barra de ação na tela. Nela, você pode:
+Cada atividade na campanha é executada sequencialmente até que o final da tela seja atingido. Durante o teste, é possível controlar a execução da campanha usando a barra de ação na tela. Nela, você pode:
 
 * **Parar** a execução a qualquer momento.
 * **Iniciar** a execução novamente.
@@ -115,4 +115,4 @@ Em ambas as guias, você pode escolher as colunas exibidas e sua ordem, aplicar 
 
 ## Próximas etapas {#next}
 
-Depois de iniciar o diagrama de campanha Orquestrado, você pode usar os recursos de relatórios do Journey Optimizer para obter insights, como entender o comportamento do público-alvo e medir o desempenho de cada etapa na jornada do cliente. [Saiba mais sobre os relatórios de campanhas orquestradas](../orchestrated/reporting-campaigns.md)
+Depois de iniciar a tela de campanha Orquestrada, você pode usar os recursos de relatórios do Journey Optimizer para obter insights, como entender o comportamento do público-alvo e medir o desempenho de cada etapa na jornada do cliente. [Saiba mais sobre os relatórios de campanhas orquestradas](../orchestrated/reporting-campaigns.md)
