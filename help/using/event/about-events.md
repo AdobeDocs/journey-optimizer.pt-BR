@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: events, event, jornada, definition, start
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
+source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1084'
 ht-degree: 47%
 
 ---
@@ -73,7 +73,11 @@ Depois de chegar através das APIs de assimilação de streaming, os eventos flu
 
 Para eventos gerados pelo sistema, o Pipeline filtra os eventos que têm uma carga contendo [!DNL Journey Optimizer] eventIDs (consulte o processo de criação de eventos abaixo) fornecidos por [!DNL Journey Optimizer] e contidos na carga do evento. Para eventos baseados em regras, o sistema identifica o evento usando a condição eventID. Esses eventos são acompanhados pelo [!DNL Journey Optimizer] e a jornada correspondente é acionada.
 
-## Atualizar e deletar um evento
+## Atualizar e deletar um evento {#update-event}
+
+
+## Atualizar e deletar um evento {#update-event}
+
 
 Para evitar a quebra de jornadas existentes, ao editar um evento usado em uma jornada de rascunho, ativa ou fechada, é possível apenas alterar o nome, a descrição ou adicionar campos de carga útil.
 
@@ -83,8 +87,8 @@ Qualquer evento usado em jornadas Ativas, Rascunhos ou Fechadas não pode ser ex
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431510?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Entenda os casos de uso aplicáveis a eventos de negócios. Saiba como criar uma jornada usando um evento de negócios e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417595?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
