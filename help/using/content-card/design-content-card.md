@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
+source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '555'
 ht-degree: 2%
 
 ---
@@ -27,9 +27,15 @@ Na seção **[!UICONTROL Layout do cartão de conteúdo]**, escolha uma das trê
 
 * **[!UICONTROL Imagem pequena]**: exibe uma imagem compacta junto com o texto, ideal para mensagens em que o conteúdo tem prioridade sobre as imagens.
 
+  Consulte a Documentação do Adobe Developer [para iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) e [para Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/) para saber mais.
+
 * **[!UICONTROL Imagem grande]**: apresenta uma imagem proeminente acima ou ao lado do texto, tornando as exibições o foco principal da mensagem.
 
+  Consulte a Documentação do Adobe Developer [para iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) e [para Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/) para saber mais.
+
 * **[!UICONTROL Somente imagem]**: mostra a imagem sem o texto de acompanhamento, perfeita para mensagens orientadas por visuais ou imagens autônomas.
+
+  Consulte a Documentação do Adobe Developer [para iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) e [para Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/) para saber mais.
 
 ## Guia Conteúdo {#content-tab}
 
@@ -37,17 +43,17 @@ Na guia **[!UICONTROL Conteúdo]**, você pode personalizar seus cartões de con
 
 ### Conteúdo do texto {#title-body}
 
-Para redigir a mensagem, digite o texto nos campos **[!UICONTROL Título]** e **[!UICONTROL Corpo]**.
-
 ![](assets/content-card-design-2.png)
+
+Para redigir a mensagem, digite o texto nos campos **[!UICONTROL Título]** e **[!UICONTROL Corpo]**.
 
 Se desejar personalizar ainda mais sua mensagem, use o ícone **[!UICONTROL Personalization]** para adicionar elementos personalizados. Para obter instruções detalhadas sobre como usar os recursos de personalização, consulte [esta seção](../personalization/personalize.md).
 
 ### Mídia {#add-media}
 
-O campo **[!UICONTROL Mídia]** permite que você aprimore seus cartões de conteúdo adicionando mídia, o que pode tornar sua apresentação mais envolvente para os usuários finais.
-
 ![](assets/content-card-design-3.png)
+
+O campo **[!UICONTROL Mídia]** permite que você aprimore seus cartões de conteúdo adicionando mídia, o que pode tornar sua apresentação mais envolvente para os usuários finais.
 
 Para incluir mídia, digite a URL da mídia que deseja usar ou clique no ícone **[!UICONTROL Selecionar Assets]** para escolher entre os ativos armazenados na biblioteca do Assets. [Saiba mais sobre o gerenciamento de ativos](../integrations/assets.md).
 
@@ -57,11 +63,38 @@ Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você pode
 
 +++
 
-### Botão Fechar {#close-button}
+### Botões {#add-buttons}
+
+![](assets/content-card-design-4.png)
+
+Adicione botões para que os usuários interajam com seus cartões de conteúdo.
+
+1. Clique no **[!UICONTROL Botão Adicionar]** para criar um novo botão de ação.
+
+1. Edite o campo de botão **[!UICONTROL Título]** para especificar o rótulo que será exibido no botão.
+
+1. Selecione um **[!UICONTROL Interagir evento]** para definir qual ação será acionada quando os usuários clicarem ou interagirem com o botão.
+
+1. No campo **[!UICONTROL Destino]**, digite a URL da Web ou o deep link para o qual os usuários serão direcionados após interagirem com o botão.
+
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
+
++++
+-->
+
+### Botão Ignorar {#close-button}
 
 ![](assets/content-card-design-1.png)
 
-Escolha o **[!UICONTROL Estilo]** do seu **[!UICONTROL botão Fechar]** para personalizar sua aparência.
+Escolha o **[!UICONTROL Estilo]** para seu **[!UICONTROL botão Dispensar]** para personalizar sua aparência.
 
 Você pode selecionar entre os seguintes estilos:
 
@@ -84,33 +117,6 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 -->
 
 
-
-### Botões {#add-buttons}
-
-Adicione botões para que os usuários interajam com seus cartões de conteúdo.
-
-![](assets/content-card-design-4.png)
-
-1. Clique no **[!UICONTROL Botão Adicionar]** para criar um novo botão de ação.
-
-1. Edite o campo de botão **[!UICONTROL Título]** para especificar o rótulo que será exibido no botão.
-
-1. Selecione um **[!UICONTROL Interagir evento]** para definir qual ação será acionada quando os usuários clicarem ou interagirem com o botão.
-
-1. No campo **[!UICONTROL Destino]**, digite a URL da Web ou o deep link para o qual os usuários serão direcionados após interagirem com o botão.
-
-<!--
-+++More options with advanced formatting
-
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
-
-* the **[!UICONTROL Font]**
-* the **[!UICONTROL Pt size]**
-* the **[!UICONTROL Font Color]**
-* the **[!UICONTROL Alignment]**
-
-+++
--->
 
 ### Comportamento ao clicar
 
