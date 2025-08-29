@@ -4,9 +4,9 @@ product: journey optimizer
 title: Criar e agendar campanhas orquestradas com o Journey Optimizer
 description: Saiba como criar e agendar uma campanha orquestrada com o Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a58d71b3cdb5e83f80b064673f0a6d087b7c191d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1122'
 ht-degree: 66%
 
 ---
@@ -31,9 +31,7 @@ Para criar uma campanha Orquestrada, siga estas etapas:
 
    ![](assets/create-modal.png)
 
-1. Defina as propriedades da campanha. Para fazer isso, clique no botão ![Configurações da campanha](assets/do-not-localize/campaign-settings.svg) ao lado do nome da campanha.
-
-   ![](assets/inventory-create.png)
+1. Defina as propriedades da campanha.
 
    1. Insira um **[!UICONTROL Nome]** e uma **[!UICONTROL Descrição]** para a campanha.
 
@@ -44,6 +42,11 @@ Para criar uma campanha Orquestrada, siga estas etapas:
    1. Use o campo **[!UICONTROL Tags]** para atribuir Tags unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-los facilmente e melhorar a pesquisa na lista Campanhas orquestradas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags).
 
    1. Clique em **[!UICONTROL Salvar]**.
+
+
+   Você pode acessar as propriedades da campanha a qualquer momento usando o botão ![Ícone de configurações da campanha](assets/do-not-localize/campaign-settings.svg) ao lado do nome da campanha.
+
+   ![](assets/inventory-create.png)
 
 ## Agendar a campanha {#schedule}
 
