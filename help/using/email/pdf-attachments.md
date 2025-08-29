@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Anexar um arquivo do PDF a um email
+title: Anexar um arquivo PDF a um email
 description: Saiba como anexar arquivos estáticos do PDF a um email
 feature: Email Design
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 24%
+ht-degree: 41%
 
 ---
 
-# Anexar um arquivo do PDF a um email {#pdf-attachments}
+# Anexar um arquivo PDF a um email {#pdf-attachments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
->title="Adicionar um anexo do PDF"
->abstract="Navegue para selecionar um arquivo PDF para anexar ao seu email.</br>Você pode enviar até 6 mensagens com um anexo do PDF por perfil por ano. O tamanho máximo para cada anexo é 5 MB.</br>Para qualquer tamanho ou volume adicional, você pode comprar um complemento de pacote de anexos. Para obter mais informações, entre em contato com o representante da Adobe."
+>title="Adicionar um anexo em PDF"
+>abstract="Navegue para selecionar um arquivo PDF para anexar ao seu email.</br>É possível enviar até seis mensagens com um anexo em PDF por perfil, por ano. O tamanho máximo para cada anexo é 5 MB.</br>Para qualquer tamanho ou volume adicional, é possível adquirir um complemento de pacote de anexos. Para obter mais informações, entre em contato com o representante da Adobe."
 
 >[!AVAILABILITY]
 >
@@ -49,7 +49,7 @@ Para anexar um arquivo do PDF a uma mensagem de email, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Ao criar mensagens, você acessa o repositório do Assets Essentials diretamente de dentro da interface da Journey Optimizer. Para saber mais sobre a interface do usuário incorporada [!DNL Assets Essentials], consulte a [documentação do Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=pt-BR){target="_blank"}.
+   >Ao criar mensagens, você acessa o repositório do Assets Essentials diretamente de dentro da interface da Journey Optimizer. Para saber mais sobre a interface do usuário incorporada [!DNL Assets Essentials], consulte a [documentação do Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 1. Use o filtro **[!UICONTROL PDF]** na seção **[!UICONTROL Tipo MIME]** para restringir a seleção ao formato de arquivo correto.
 

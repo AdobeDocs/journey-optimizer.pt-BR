@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
 >title="Controle de taxa"
->abstract="Defina o Controle de taxa para sua campanha especificando os limites de taxa desejados. Esse recurso é particularmente útil para evitar sobrecarga em sistemas downstream, como páginas de aterrissagem ou plataformas de atendimento ao cliente."
+>abstract="Defina o controle de taxa para a sua campanha, especificando os limites de taxa desejados. Esse recurso é particularmente útil para evitar sobrecarga em sistemas downstream, como páginas de destino ou plataformas de atendimento ao cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"

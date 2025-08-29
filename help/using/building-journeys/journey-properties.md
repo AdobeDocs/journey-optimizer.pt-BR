@@ -263,7 +263,7 @@ Para saber mais sobre as políticas de mesclagem, consulte a [documentação do 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Critérios de saída"
->abstract="Esta seção mostra as opções de critérios de saída. É possível criar uma ou várias regras de critérios de saída e filtros para a jornada."
+>abstract="Esta seção mostra as opções de critérios de saída. É possível criar uma ou várias regras e filtros de critérios de saída para a sua jornada."
 
 ### Jornada critérios de saída {#exit-criteria-desc}
 
