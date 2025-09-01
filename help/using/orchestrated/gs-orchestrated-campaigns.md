@@ -5,10 +5,10 @@ title: Introdução às campanhas orquestradas
 description: Saiba como começar a usar as campanhas orquestradas
 short-description: Descubra os principais recursos e casos de uso de campanhas orquestradas.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
+source-git-commit: 94c7594e9a12b0bc91bb01989b5dd25afb662cfe
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,8 @@ A orquestração de campanhas no [!DNL Adobe Journey Optimizer] viabiliza campan
 Embora o marketing entre canais seja essencial, as campanhas orquestradas permitem que ele flua melhor. Com uma interface visual do tipo arrastar e soltar, você pode projetar e automatizar fluxos de trabalho de marketing complexos, desde a segmentação até a entrega de mensagens, em vários canais. Tudo acontece em um ambiente intuitivo, criado para proporcionar velocidade, controle e eficiência.
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
+
+➡️ [Descubra campanhas orquestradas em vídeo](#video-oc)
 
 ## Principais recursos
 
@@ -71,6 +73,15 @@ Cada campanha orquestrada contém:
 * **Transições**: as transições vinculam uma atividade de origem a uma atividade de destino e definem sua sequência.
 
 * **Tabelas de trabalho**: as tabelas de trabalho contêm todas as informações transportadas pela transição. Cada campanha orquestrada usa várias tabelas de trabalho. Os dados transmitidos nessas tabelas podem ser usados durante todo o ciclo de vida da campanha orquestrada.
+
+
+## Vídeo de introdução {#video-oc}
+
+Saiba mais sobre os principais conceitos e recursos disponíveis com campanhas orquestradas.
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
+
 
 ## Vamos nos aprofundar um pouco mais
 
