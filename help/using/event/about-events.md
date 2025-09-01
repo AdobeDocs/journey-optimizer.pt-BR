@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: events, event, jornada, definition, start
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 461bf985a890d0f2f2723241846df0666248eea0
+source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 47%
@@ -30,7 +30,6 @@ Na configuração do evento, configure os eventos esperados nas jornadas. Os dad
 A configuração do evento é **obrigatória** e deve ser executada por um engenheiro de dados.
 
 Você pode configurar dois tipos de eventos: **Eventos unitários** e **Eventos comerciais**.
-
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -76,16 +75,16 @@ Para eventos gerados pelo sistema, o Pipeline filtra os eventos que têm uma car
 ## Atualizar e deletar um evento {#update-event}
 
 
-Para evitar a quebra de jornadas existentes, ao editar um evento usado em uma jornada de rascunho, ativa ou fechada, é possível apenas alterar o nome, a descrição ou adicionar campos de carga útil.
+Para evitar a quebra de jornadas existentes, ao editar um evento usado em uma jornada do **Rascunho**, do **Ao Vivo** ou do **Fechado**, você só poderá alterar o nome, a descrição ou adicionar campos de carga.
 
-Qualquer evento usado em jornadas Ativas, Rascunhos ou Fechadas não pode ser excluído. Para excluir um evento usado, você deve interromper as jornadas que o utilizam e/ou removê-lo das jornadas de rascunho onde é usado. Você pode verificar o campo **[!UICONTROL Usado em]**. Ele exibe o número de jornadas que usam esse evento específico. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas correspondentes.
+Não é possível excluir nenhum evento usado nas jornadas do **Live**, **Rascunho** ou **Fechadas**. Para excluir um evento usado, você deve interromper as jornadas que o utilizam e/ou removê-lo das jornadas de rascunho onde é usado. Você pode verificar o campo **[!UICONTROL Usado em]**. Ele exibe o número de jornadas que usam esse evento específico. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas correspondentes.
 
 ## Vídeos tutoriais {#video}
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431510?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Entenda os casos de uso aplicáveis a eventos de negócios. Saiba como criar uma jornada usando um evento de negócios e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417595?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
