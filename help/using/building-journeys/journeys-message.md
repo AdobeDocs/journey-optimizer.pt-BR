@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 18%
+source-wordcount: '557'
+ht-degree: 17%
 
 ---
 
@@ -120,13 +120,17 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
       </tr>
       </table>
 
->[!NOTE]
->
->* Cada atividade de experiência de entrada vem com uma atividade de 3 dias **Aguardar**. [Saiba mais](wait-activity.md#auto-wait-node)
->
->* Para emails e notificações por push, é possível ativar a Otimização de tempo de envio. [Saiba mais](send-time-optimization.md)
+   >[!NOTE]
+   >
+   >* Cada atividade de experiência de entrada vem com uma atividade de 3 dias **Aguardar**. [Saiba mais](wait-activity.md#auto-wait-node)
+   >
+   >* Para emails e notificações por push, é possível ativar a Otimização de tempo de envio. [Saiba mais](send-time-optimization.md)
 
+1. Dependendo da atividade, é possível exibir parâmetros avançados específicos do canal selecionado e substituir alguns valores padrão, como o endereço de execução. [Saiba mais](../about-journey-activities.md#advanced-parameters)
 
+   >[!NOTE]
+   >
+   >Se os parâmetros avançados estiverem ocultos, clique no botão **[!UICONTROL Mostrar campos somente leitura]** na parte superior do painel direito.
 
 ## Atualizar um conteúdo ao vivo {#update-live-content}
 

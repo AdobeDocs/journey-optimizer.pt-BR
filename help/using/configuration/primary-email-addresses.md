@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, execução, e-mail, destino, perfil, otimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 20%
+source-wordcount: '522'
+ht-degree: 19%
 
 ---
 
@@ -68,6 +68,12 @@ O campo de execução é atualizado e agora será usado como o endereço princip
 
 ## Substituir o campo de execução padrão {#override-default-execution-address}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_execution_address"
+>title="Definir um valor personalizado"
+>abstract="Em alguns casos específicos, é possível substituir o endereço de execução padrão. Use o ícone **Habilitar substituição de parâmetro** à direita do campo para definir um endereço principal personalizado."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Sobre o endereço de execução"
+
 Para casos de uso específicos, é possível substituir o conjunto de campos de execução globalmente e definir um valor diferente no nível de configuração de email ou no nível de jornada.
 
 Substituir esse valor pode ser útil, por exemplo, para:
@@ -83,9 +89,9 @@ Quando um endereço de execução é definido na configuração de email, ele é
 
 ### Nos parâmetros de jornada {#journey-parameters}
 
-Ao adicionar uma ação de **[!UICONTROL Email]** a uma [jornada](../email/create-email.md#create-email-journey-campaign), o endereço de email principal é exibido nos parâmetros avançados de jornada.
+Ao adicionar uma ação de **[!UICONTROL Email]** ou **[!UICONTROL SMS]** a uma [jornada](../email/create-email.md#create-email-journey-campaign), o endereço de email principal é exibido nos parâmetros avançados de jornada.
 
-Em alguns contextos específicos, é possível substituir esse valor usando o ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo **[!UICONTROL endereço]**.
+Em alguns contextos específicos, é possível substituir esse valor usando o ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo.
 
 ![](assets/journey-enable-parameter-override.png)
 

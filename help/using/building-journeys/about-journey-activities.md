@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 16%
+source-wordcount: '716'
+ht-degree: 15%
 
 ---
 
@@ -91,13 +91,19 @@ A maioria das atividades do exibe vários parâmetros avançados e/ou técnicos 
 
 ![Campos de parâmetros avançados nas propriedades da atividade de jornada](assets/journey-advanced-parameters.png)
 
-Para melhorar a compreensão, oculte esses parâmetros usando o botão **[!UICONTROL Ocultar campos somente leitura]**.
+Para melhorar a compreensão, oculte esses parâmetros usando o botão **[!UICONTROL Ocultar campos somente leitura]** na parte superior do painel direito.
 
 ![Ocultar o ícone de campos somente leitura nas propriedades da atividade de jornada](assets/journey-hide-read-only-fields.png)
 
 Em alguns contextos específicos, é possível substituir os valores desses parâmetros para uso específico. Para forçar um valor, clique no ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo. [Saiba mais](../configuration/primary-email-addresses.md#journey-parameters)
 
 ![Habilitar a opção de substituição de parâmetro nas propriedades da atividade de email](assets/journey-enable-parameter-override.png)
+
+>[!NOTE]
+>
+>Se os parâmetros avançados estiverem ocultos, clique no botão **[!UICONTROL Mostrar campos somente leitura]**
+>
+>![Mostrar ícone de campos somente leitura nas propriedades da atividade de jornada](assets/journey-show-read-only-fields.png){width=60%}
 
 ### Adicionar um caminho alternativo
 
