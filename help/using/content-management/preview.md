@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Depois que [perfis de teste](test-profiles.md) forem selecionados, você poderá visualizar seu conteúdo usando os dados deles. Siga estas etapas:
 
-1. Na tela de edição de conteúdo da sua mensagem ou no Designer de Email, clique no botão **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Resumo do conteúdo]**.
+1. Na tela de edição de conteúdo da sua mensagem ou no Designer de Email, clique no botão **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo]**.
 
 1. Selecione um perfil de teste. Você pode verificar os valores disponíveis nas colunas. Use as setas para a direita/esquerda para navegar pelos dados.
 

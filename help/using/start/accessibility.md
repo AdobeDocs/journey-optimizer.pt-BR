@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 7558d323f73382b8cb40b45eb9d79ca037eb574d
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,9 @@ Acessibilidade refere-se a uma série de recursos que tornam um produto de softw
 
 Para ajudar a atingir a meta de conformidade de acessibilidade, o [!DNL Journey Optimizer] segue as práticas recomendadas e internacionalmente reconhecidas das Diretrizes de acessibilidade para conteúdo web (WCAG) 2.1, nível A e nível AA. Saiba mais na versão mais recente do [relatório de conformidade para acessibilidade do Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}.
 
+>[!NOTE]
+>
+>As diretrizes para criar conteúdo acessível para seus emails e landing pages estão detalhadas em [esta seção](../email/accessible-content.md).
 
 Os recursos de acessibilidade no [!DNL Adobe Journey Optimizer] são herdados da Adobe Experience Platform:
 
