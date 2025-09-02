@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: email, design, acessibilidade
 hide: true
 hidefromtoc: true
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
 workflow-type: tm+mt
 source-wordcount: '1612'
 ht-degree: 0%
@@ -33,7 +33,6 @@ O [!DNL Journey Optimizer] [Designer de email](content-from-scratch.md), que per
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## Garantir a legibilidade do texto {#text-readability}
 
 Use a guia **[!UICONTROL Estilos]** do componente **[!UICONTROL Texto]** para garantir que o texto seja legível, por exemplo, usando contraste de cores adequado e fontes simples. [Saiba mais](content-components.md#text)
@@ -325,7 +324,9 @@ Os leitores de tela leem:
 >
 >Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
 
-## Fornecer navegação pelo teclado e suporte de foco <!--for landing pages--> {#keyboard}
+## Fornecer navegação pelo teclado e suporte de foco {#keyboard}
+
+<!--for landing pages-->
 
 Fornecer navegação pelo teclado e suporte de foco permite que as pessoas que não podem usar um mouse acessem e interajam totalmente com o conteúdo. Também melhora a usabilidade geral, oferecendo a todos os usuários uma maneira clara e consistente de percorrer as informações.
 
