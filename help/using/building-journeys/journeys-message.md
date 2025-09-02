@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
+source-git-commit: 25847b9252b54e63c9ceb4641fb53a80d3bf89bd
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 17%
@@ -126,7 +126,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
    >
    >* Para emails e notificações por push, é possível ativar a Otimização de tempo de envio. [Saiba mais](send-time-optimization.md)
 
-1. Dependendo da atividade, é possível exibir parâmetros avançados específicos do canal selecionado e substituir alguns valores padrão, como o endereço de execução. [Saiba mais](../about-journey-activities.md#advanced-parameters)
+1. Dependendo da atividade, é possível exibir parâmetros avançados específicos do canal selecionado e substituir alguns valores padrão, como o endereço de execução. [Saiba mais](about-journey-activities.md#advanced-parameters)
 
    >[!NOTE]
    >
