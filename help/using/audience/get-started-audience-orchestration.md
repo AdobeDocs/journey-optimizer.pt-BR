@@ -24,28 +24,28 @@ ht-degree: 51%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
->title="Publicar o público"
->abstract="Publique a composição para salvar os públicos resultantes na Adobe Experience Platform."
+>title="Publicar o público-alvo"
+>abstract="Publique a composição para salvar os públicos-alvos resultantes na Adobe Experience Platform."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
 >title="Atividade de público-alvo"
->abstract="A atividade de público permite incluir em sua composição perfis adicionais pertencentes a um público existente."
+>abstract="A atividade de público-alvo permite incluir em sua composição perfis adicionais pertencentes a um público-alvo existente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
 >title="Tipos de mesclagem"
->abstract="Especifique como os perfis dos públicos selecionados devem ser mesclados."
+>abstract="Especifique como os perfis dos públicos-alvos selecionados devem ser mesclados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="Excluir tipo"
->abstract="Use o tipo Excluir público para excluir perfis pertencentes a um público existente. O tipo Excluir usando atributo permite excluir perfis com base em um atributo específico."
+>abstract="Use o tipo Excluir público-alvo para excluir perfis pertencentes a um público-alvo existente. O tipo Excluir usando atributo permite excluir perfis com base em um atributo específico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
 >title="Atividade Excluir"
->abstract="A atividade Excluir permite excluir perfis de sua composição ao selecionar um público existente ou usar uma regra."
+>abstract="A atividade Excluir permite excluir perfis de sua composição ao selecionar um público-alvo existente ou usar uma regra."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -55,17 +55,17 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
 >title="Conjunto de dados de enriquecimento"
->abstract="Selecione o conjunto de dados de enriquecimento que contém os dados que você deseja associar ao público."
+>abstract="Selecione o conjunto de dados de enriquecimento que contém os dados que você deseja associar ao público-alvo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
 >title="Critérios de enriquecimento"
->abstract="Selecione os campos a serem usados como chave de reconciliação entre o conjunto de dados de origem, ou seja, o público, e o conjunto de dados de enriquecimento."
+>abstract="Selecione os campos a serem usados como chave de reconciliação entre o conjunto de dados de origem, ou seja, o público-alvo, e o conjunto de dados de enriquecimento."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="Atributos de enriquecimento"
->abstract="Selecione um ou vários atributos do conjunto de dados de enriquecimento para associar ao público. Após a publicação da composição, esses atributos são associados ao público-alvo e podem ser aproveitados em campanhas do Journey Optimizer para personalizar entregas."
+>abstract="Selecione um ou vários atributos do conjunto de dados de enriquecimento para associar ao público-alvo. Após a publicação da composição, esses atributos são associados ao público-alvo e podem ser aproveitados em campanhas do Journey Optimizer para personalizar entregas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
@@ -85,7 +85,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="Atividade de divisão"
->abstract="A atividade de divisão permite dividir a composição em vários caminhos. Ao publicar a composição, um público será salvo na Adobe Experience Platform para cada caminho."
+>abstract="A atividade de divisão permite dividir a composição em vários caminhos. Ao publicar a composição, um público-alvo será salvo na Adobe Experience Platform para cada caminho."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
@@ -122,7 +122,7 @@ A composição de público-alvo é acessível no menu **[!UICONTROL Públicos-al
 
 * A guia **[!UICONTROL Procurar]** lista todos os públicos-alvo existentes armazenados na Adobe Experience Platform.
 
-* A guia **[!UICONTROL Composições]** permite criar workflows de composição em que é possível combinar e organizar públicos-alvo para criar novos.
+* A guia **[!UICONTROL Composições]** permite criar fluxos de trabalho de composição em que é possível combinar e organizar públicos-alvo para criar novos.
 
 ## Criar um fluxo de trabalho de composição {#create}
 
@@ -146,7 +146,7 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
 
    ![](assets/audiences-properties.png)
 
-1. Configure sua composição adicionando quantas atividades forem necessárias entre as atividades de **[!UICONTROL Público]** e **[!UICONTROL Salvar]**. Para obter mais informações sobre como criar uma composição, consulte a [Documentação de composição de público-alvo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-composition).
+1. Configure sua composição adicionando quantas atividades forem necessárias entre as atividades de **[!UICONTROL Público]** e **[!UICONTROL Salvar]**. Para obter mais informações sobre como criar uma composição, consulte a [Documentação de composição de público-alvo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
 
    ![](assets/audiences-publish.png)
 
@@ -179,4 +179,4 @@ As composições podem ter vários status:
 
 >[!NOTE]
 >
->No momento, a composição de público-alvo não está integrada ao recurso de redefinição da sandbox. Antes de iniciar uma redefinição de sandbox, é necessário excluir as composições manualmente para garantir que os dados do público-alvo associado sejam limpos corretamente. Informações detalhadas estão disponíveis na [Documentação de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR#delete-audience-compositions) do Adobe Experience Platform
+>No momento, a composição de público-alvo não está integrada ao recurso de redefinição da sandbox. Antes de iniciar uma redefinição de sandbox, é necessário excluir as composições manualmente para garantir que os dados do público-alvo associado sejam limpos corretamente. Informações detalhadas estão disponíveis na [Documentação de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions) do Adobe Experience Platform
