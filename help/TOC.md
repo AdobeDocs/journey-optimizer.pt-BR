@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: 61a8d887b6dc81e21dfd3810684fd9c01db487a6
 workflow-type: tm+mt
-source-wordcount: '2892'
+source-wordcount: '2891'
 ht-degree: 99%
 
 ---
@@ -535,6 +535,7 @@ ht-degree: 99%
       + [Criar um provedor de idioma](using/content-management/multilingual-provider.md)
       + [Criação do conteúdo multilíngue com tradução manual](using/content-management/multilingual-manual.md)
       + [Criação do conteúdo multilíngue com tradução automática](using/content-management/multilingual-automated.md)
+   + [Otimização de mensagem](using/campaigns/campaigns-message-optimization.md)
    + Experimento de conteúdo {#content-experiment}
       + [Experimento de conteúdo](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introdução ao experimento de conteúdo](using/content-management/get-started-experiment.md)
@@ -543,7 +544,6 @@ ht-degree: 99%
          + [Notas técnicas](/help/rp_landing_pages/technotes-landing-page.md)
          + [Compreenda cálculos estatísticos](using/content-management/experiment-calculations.md)
          + [Compreenda cálculos estatísticos no Relatório de experimentação](using/content-management/experiment-report-calculations.md)
-   + [Aproveitar a otimização de mensagens](using/campaigns/campaigns-message-optimization.md)
 + Públicos-alvo, perfis e identidade {#audiences-profiles-identities}
    + [Públicos-alvo, perfis e identidade](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + Públicos-alvo {#audiences}
