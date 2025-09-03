@@ -6,10 +6,10 @@ description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orches
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: e63fd5dc50100000a810e2dfcb8c8e8827628b0c
+source-git-commit: a6a8521254005159b410790f88877d0591a16d15
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 1%
+source-wordcount: '1091'
+ht-degree: 4%
 
 ---
 
@@ -19,13 +19,15 @@ Você encontrará abaixo Perguntas frequentes sobre as campanhas do Adobe Journe
 
 Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para levantar sua pergunta.
 
-## O que são campanhas orquestradas? {#what-are-oc}
+## O que é a orquestração de campanhas? {#what-are-oc}
 
-As campanhas orquestradas no Adobe Journey Optimizer ajudam as marcas a executar campanhas de marketing complexas, de um para muitos, em escala. Eles foram projetados para engajamento iniciado pela marca, como promoções, campanhas sazonais ou comunicações baseadas em conta.
+O Campaign Orchestration é um recurso do Journey Optimizer que oferece suporte a fluxos de trabalho de etapa única ou de várias etapas que aproveitam o armazenamento de dados relacional para criar e segmentar públicos-alvo com a finalidade de envolvimento em lote.
 
-Comparado às campanhas de envio único, elas trazem a **orquestração e o sequenciamento** para o marketing de saída: os públicos-alvo se movem em conjunto por um fluxo de trabalho de várias etapas, em vez de receberem uma explosão única.
+Ela traz um novo tipo de campanha para a Journey Optimizer: **Campanhas orquestradas**. As campanhas orquestradas ajudam as marcas a executar campanhas de marketing complexas, de um para muitos, em escala. Eles foram projetados para engajamento iniciado pela marca, como promoções, campanhas sazonais ou comunicações baseadas em conta.
 
-## O que posso fazer com campanhas orquestradas? {#what-can-i-do}
+Comparado às campanhas de envio único/ação, eles trazem a **orquestração e o sequenciamento** para o marketing de saída: os públicos-alvo se movem em conjunto por um fluxo de trabalho de várias etapas, em vez de receberem uma explosão única.
+
+## O que posso fazer com uma campanha orquestrada? {#what-can-i-do}
 
 Os principais recursos incluem:
 
@@ -45,10 +47,14 @@ Os principais recursos incluem:
 
 >[!ENDSHADEBOX]
 
+## Como acessar a orquestração do Campaign? {#access-oc}
+
+Para acessar a Orquestração de campanha, sua licença deve incluir o pacote **Journey Optimizer – Campanhas e jornadas** ou **Journey Optimizer – Campanhas**. Entre em contato com o representante da Adobe para confirmar sua licença e atualizá-la, se necessário.
+
 
 ## Quais canais são compatíveis? {#channels}
 
-As campanhas orquestradas aceitam **notificações por email, SMS e por push**.
+Você pode criar campanhas orquestradas para enviar **emails**, **SMS** e **notificações por push**.
 
 
 >[!BEGINSHADEBOX]
