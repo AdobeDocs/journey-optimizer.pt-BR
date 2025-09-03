@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Usar dados do Adobe Experience Platform para a tomada de decisão (Beta)
+title: Usar dados da Adobe Experience Platform para decisão
 description: Saiba como usar os dados do Adobe Experience Platform para a tomada de decisões.
-badge: label="Beta" type="Informative"
+badge: label="Disponibilidade limitada" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expressão, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 25%
+source-wordcount: '812'
+ht-degree: 24%
 
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 25%
 
 >[!AVAILABILITY]
 >
->Esse recurso está atualmente disponível para todos os clientes como uma versão beta pública. Entre em contato com o representante da sua conta se desejar obter acesso.
+>No momento, esse recurso está disponível para todos os clientes como uma versão de disponibilidade limitada.
 
 [!DNL Journey Optimizer] permite que você aproveite os dados de [!DNL Adobe Experience Platform] para a Decisão. Isso permite estender a definição dos atributos de decisão para dados adicionais nos conjuntos de dados para atualizações em massa que mudam periodicamente, sem precisar atualizar manualmente os atributos um de cada vez. Por exemplo, disponibilidade, tempos de espera etc.
+
+Antes de iniciar, os conjuntos de dados necessários para a personalização da pesquisa devem ser habilitados primeiro para a pesquisa. Informações detalhadas estão disponíveis nesta seção: [Usar dados do Adobe Experience Platform](../data/lookup-aep-data.md).
 
 ## Medidas de proteção e limitações {#guidelines}
 
@@ -43,10 +45,6 @@ Antes de começar, observe as seguintes restrições e diretrizes:
 * Uma regra de decisão pode usar três conjuntos de dados.
 * Uma fórmula de classificação pode usar três conjuntos de dados.
 * Quando uma política de decisão é avaliada, o sistema executa até 1000 consultas (pesquisas) de conjunto de dados no total. Cada mapeamento do conjunto de dados usado por um item de decisão conta como uma consulta. Exemplo: se um item de decisão usar dois conjuntos de dados, avaliar essa oferta contará como duas consultas para o limite de 1000 consultas.
-
-## Ativar um conjunto de dados para pesquisa de dados {#enable}
-
-Para usar dados de um conjunto de dados [!DNL Adobe Experience Platform] para a tomada de decisão, primeiro você deve habilitá-lo para a pesquisa por meio de uma chamada de API. Para obter instruções detalhadas, consulte esta seção: [Aproveitar conjuntos de dados do Adobe Experience Platform no Journey Optimizer](../data/lookup-aep-data.md).
 
 ## Aproveitar os dados do Adobe Experience Platform {#leverage-aep-data}
 

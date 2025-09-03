@@ -1,46 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Usar dados da Adobe Experience Platform para personalização (Beta)
+title: Usar dados da Adobe Experience Platform para personalização
 description: Saiba como usar os dados do Adobe Experience Platform para personalização.
-badge: label="Beta" type="Informative"
+badge: label="Disponibilidade limitada" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expressão, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 3%
+source-wordcount: '648'
+ht-degree: 2%
 
 ---
 
-# Usar dados da Adobe Experience Platform para personalização{#aep-data}
+# Usar dados da Adobe Experience Platform para personalização {#aep-data}
 
 >[!AVAILABILITY]
 >
->No momento, esse recurso está disponível para todos os clientes como um beta público.
->
->Para usar esse recurso, primeiro você deve aceitar os termos beta para sua organização exibidos ao adicionar as novas funções auxiliares &quot;datasetLookup&quot; no editor de personalização.
+>No momento, esse recurso está disponível para todos os clientes como uma versão de disponibilidade limitada.
 
-O Journey Optimizer permite aproveitar os dados do Adobe Experience Platform no editor de personalização para [personalizar seu conteúdo](../personalization/personalize.md). Para fazer isso, os conjuntos de dados necessários para a personalização da pesquisa devem ser habilitados primeiro por meio de uma chamada de API, conforme descrito abaixo. Depois de concluído, você poderá usar os dados para personalizar o conteúdo no [!DNL Journey Optimizer].
+O Journey Optimizer permite aproveitar os dados dos conjuntos de dados de registros do Adobe Experience Platform no editor de personalização para [personalizar seu conteúdo](../personalization/personalize.md). Antes de iniciar, os conjuntos de dados necessários para a personalização da pesquisa devem ser habilitados primeiro para a pesquisa. Informações detalhadas estão disponíveis nesta seção: [Usar dados do Adobe Experience Platform](../data/lookup-aep-data.md).
 
-## Restrições e diretrizes do Beta {#guidelines}
-
-Antes de começar, reveja as seguintes restrições e diretrizes:
-
-* **Canais com suporte**: por enquanto, esse recurso só está disponível para uso em canais de email, SMS e correspondência direta.
-* **Fragmentos**: no momento, a personalização da pesquisa do conjunto de dados não pode ser colocada dentro de expressões ou fragmentos visuais.
-
-## Ativar um conjunto de dados para pesquisa de dados {#enable}
-
-Para aproveitar os dados do conjunto de dados para personalização, é necessário usar uma chamada de API para recuperar o status e habilitar o serviço de pesquisa. Informações detalhadas estão disponíveis nesta seção: [Aproveitar conjuntos de dados do Adobe Experience Platform [!DNL Journey Optimizer]](../data/lookup-aep-data.md)
-
-## Aproveitar um conjunto de dados para personalização {#leverage}
-
-Depois que um conjunto de dados for habilitado para personalização de pesquisa usando uma chamada de API, você poderá usar seus dados para personalizar seu conteúdo no [!DNL Journey Optimizer].
+Depois que um conjunto de dados é habilitado para personalização de pesquisa, você pode usar seus dados para personalizar seu conteúdo no [!DNL Journey Optimizer].
 
 1. Abra o editor de personalização, que está disponível em todos os contextos, onde é possível definir personalização, como mensagens. [Saiba como trabalhar com o editor de personalização](../personalization/personalization-build-expressions.md)
 
@@ -69,7 +54,7 @@ Depois que um conjunto de dados for habilitado para personalização de pesquisa
 
    +++Onde recuperar uma ID de conjunto de dados?
 
-   As IDs dos conjuntos de dados podem ser recuperadas na interface do usuário do Adobe Experience Platform. Saiba como trabalhar com conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   As IDs dos conjuntos de dados podem ser recuperadas na interface do usuário do Adobe Experience Platform. Saiba como trabalhar com conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
@@ -100,7 +85,7 @@ Depois que um conjunto de dados for habilitado para personalização de pesquisa
 
      +++Onde recuperar uma ID de campo?
 
-     As IDs de campos podem ser recuperadas ao visualizar um conjunto de dados na interface do usuário do Adobe Experience Platform. Saiba como visualizar conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     As IDs de campos podem ser recuperadas ao visualizar um conjunto de dados na interface do usuário do Adobe Experience Platform. Saiba como visualizar conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
