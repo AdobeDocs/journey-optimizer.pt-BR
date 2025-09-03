@@ -6,7 +6,7 @@ description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orches
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6a0b4f7da2794f6ffd9af51440f1bca8aa5e7fb1
+source-git-commit: e63fd5dc50100000a810e2dfcb8c8e8827628b0c
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 1%
@@ -80,7 +80,7 @@ refinado.
 
 >[!BEGINSHADEBOX]
 
-**Exemplo** - Direcione todos os destinatários com assinaturas que expiram nos próximos 3ad-h0 dias: na Orquestração de campanhas, a consulta pode começar com o esquema Assinaturas, pesquise apenas a coluna de data de expiração desse esquema e retorne todas as assinaturas que expiram e, em seguida, reverta para os dados do destinatário relacionados a essas IDs de assinaturas específicas que retornam resultados de forma mais rápida e eficiente do que os modelos de dados que iniciam cada consulta no nível do destinatário.
+**Exemplo** - Direcione todos os destinatários com assinaturas que vencem nos próximos 30 dias. No Campaign Orchestration, a consulta pode começar com o schema Subscriptions, pesquisar apenas a coluna Data de expiração desse esquema e retornar todas as assinaturas que estão prestes a expirar e, em seguida, acumular para os dados do recipient relacionados a essas IDs de assinaturas específicas que retornam resultados de forma mais rápida e eficiente do que os modelos de dados que começam cada consulta no nível do recipient.
 
 >[!ENDSHADEBOX]
 
