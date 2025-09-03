@@ -6,10 +6,10 @@ description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orches
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
+source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 2%
+source-wordcount: '991'
+ht-degree: 1%
 
 ---
 
@@ -71,6 +71,18 @@ As campanhas orquestradas aceitam **notificações por email, SMS e por push**.
 
 >[!ENDSHADEBOX]
 
+## O que é a segmentação de várias entidades? {#multi-entity}
+
+O Campaign Orchestration no Adobe Journey Optimizer usa um banco de dados relacional. Esse tipo de modelo de dados tem esquemas separados de dados que são conectados por meio de relações 1:1 ou 1:many. Isso permite que os usuários iniciem um query em qualquer esquema - não apenas no nível do recipient - e, em seguida, virem e voltarem para outros esquemas relacionados, como compras, produtos, reservas ou detalhes do recipient, proporcionando grande flexibilidade em como segmentos e públicos-alvo podem ser criados e
+refinado.
+
+>[!BEGINSHADEBOX]
+
+**Exemplo** - Direcione todos os destinatários com assinaturas que expiram nos próximos 3ad-h0 dias: na Orquestração de campanhas, a consulta pode começar com o esquema Assinaturas, pesquise apenas a coluna de data de expiração desse esquema e retorne todas as assinaturas que expiram e, em seguida, reverta para os dados do destinatário relacionados a essas IDs de assinaturas específicas que retornam resultados de forma mais rápida e eficiente do que os modelos de dados que iniciam cada consulta no nível do destinatário.
+
+>[!ENDSHADEBOX]
+
+
 ## Como funciona o modelo de dados? {#data-model}
 
 As campanhas usam um **banco de dados relacional**. Isso permite consultar diferentes conjuntos de dados (por exemplo, clientes, produtos, assinaturas) e conectá-los de forma flexível para segmentação avançada.
@@ -108,7 +120,7 @@ Sim. Você pode usar perfis de clientes juntamente com dados vinculados (como co
 
 ## E quanto a permissões e consentimento? {#permissions}
 
-As permissões e o consentimento são gerenciados centralmente no Adobe Experience Platform. As mesmas regras se aplicam a Jornadas e Campanhas orquestradas para garantir a conformidade e a experiência consistente do cliente.
+As permissões e o consentimento para campanhas e jornadas orquestradas são gerenciados centralmente no Adobe Experience Platform. Essas configurações são aplicadas em ambas as soluções para cada recipient antes do envio.
 
 >[!BEGINSHADEBOX]
 
@@ -116,13 +128,13 @@ As permissões e o consentimento são gerenciados centralmente no Adobe Experien
 
 * Aplique a **governança centralizada** — evite gerenciar o consentimento separadamente no nível da campanha.
 * Auditoria periódica de dados de consentimento para detectar inconsistências.
-* Respeite as **opções de não participação específicas do canal**—não suponha que o consentimento global abranja todos os canais.
+* Respeite as **opções de não participação específicas do canal** — não assuma que o consentimento global abranja todos os canais.
 
 >[!ENDSHADEBOX]
 
 ## Posso fazer a segmentação ad-hoc? {#ad-hoc}
 
-Sim. Com a **Segmentação em tempo real**, você pode criar consultas complexas no local e ativá-las instantaneamente nos canais de saída.
+No Campaign Orchestration, nós nos referimos à segmentação ad-hoc como &quot;Segmentação em tempo real&quot;, onde você pode acessar todos os dados disponíveis na loja relacional em tempo real, criar uma consulta complexa sobre ela e obter o resultado para ativação instantânea por meio de canais de saída (por exemplo: Email + SMS).
 
 >[!BEGINSHADEBOX]
 
@@ -133,6 +145,11 @@ Sim. Com a **Segmentação em tempo real**, você pode criar consultas complexas
 * Valide a contagem de público-alvo antes da ativação para evitar o envio insuficiente ou excessivo.
 
 >[!ENDSHADEBOX]
+
+## Os dados no banco de dados relacional podem ser usados para personalização de mensagens? {#relational-personalization}
+
+Sim. Na Orquestração de campanhas, um perfil de recipient conhecido como &quot;Entidade de Pessoas&quot; pode ser atualizado e esses dados são usados para personalização. Além disso, dados enriquecidos de entidades vinculadas no banco de dados relacional também podem ser usados para personalização.
+
 
 ## Isso apoia a tomada de decisões? {#decisioning}
 
@@ -161,3 +178,4 @@ Sim, siga as práticas recomendadas abaixo:
 * Sempre que possível, **enviar horários alternados** para evitar a sobrecarga dos sistemas downstream (por exemplo, call centers, sites).
 * Estabeleça uma **rotina de monitoramento** — rastreie os logs de entrega, as taxas de erro e as opções de não participação após cada envio.
 * Execute a **análise pós-campanha** no Customer Journey Analytics para refinar o direcionamento e a orquestração para o próximo ciclo.
+
