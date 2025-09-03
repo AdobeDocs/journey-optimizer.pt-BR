@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d69b04be97951a5a57228ea839cb9b9c274a92c2
+source-git-commit: 45e50b7d9fa93bd1b01c25afcb358f67a789f90c
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1822'
 ht-degree: 68%
 
 ---
@@ -40,6 +40,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <li>Monitoramento aprimorado para rastrear o status de assimilação de dados e saber quando os conjuntos de dados estão prontos para pesquisa.</li>
 <li>Diretrizes e medidas de proteção atualizadas para garantir desempenho e confiabilidade ideais.</li></ul></p>
 <p>Para mais informações, consulte a <a href="../data/lookup-aep-data.md">documentação detalhada</a></p>
+<p>Data de disponibilidade: 1º de setembro de 2025</p>
 </td>
 </tr>
 </tbody>
