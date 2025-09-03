@@ -4,9 +4,9 @@ product: journey optimizer
 title: Etapas de configuração
 description: Saiba como criar esquemas relacionais diretamente pela interface do usuário.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
+source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '868'
 ht-degree: 3%
 
 ---
@@ -149,6 +149,8 @@ Agora é necessário ativar seu conjunto de dados para Orquestrar campanhas.
 ## Habilitar conjunto de dados para campanhas orquestradas {#enable}
 
 Depois de criar seu conjunto de dados, é necessário ativá-lo explicitamente para Campanhas orquestradas. Essa etapa garante que seu conjunto de dados esteja disponível para orquestração e personalização em tempo real no Adobe Journey Optimizer.
+
+Consulte a [documentação do Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) para validar ou habilitar a Extensão do Orchestrated Campaign no conjunto de dados.
 
 1. Localize seu conjunto de dados na lista **[!UICONTROL Conjuntos de dados]**.
 
