@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 01fa6efc5c5717e15e1dbb618f5d65feb7ffaed6
+source-git-commit: 6e602312371934726370c3ae10cd13080459f6db
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -42,12 +42,27 @@ O Assistente de IA no Adobe Journey Optimizer, com tecnologia Microsoft Azure Op
 
 O Assistente de IA oferece suporte à geração **em vários idiomas**, permitindo que você alcance e envolva diversos públicos globais. O Assistente de IA está disponível nos seguintes idiomas:
 
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;background-color: #FFFFFF;">
+<table style="table-layout:fixed; border: 0; text-align: center; background-color: #FFFFFF;">
   <tr>
-    <td><ul><li>Francês</li><li>espanhol</li><li>Alemão</li><li>Italiano</li></ul></td>
-    <td><ul><li>Japonês</li><li>Sueco</li><li>Holandês</li><li>Norueguês</li></ul></td>
+    <td>
+      <ul>
+        <li>Francês</li>
+        <li>espanhol</li>
+        <li>Alemão</li>
+        <li>Italiano</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Japonês</li>
+        <li>Sueco</li>
+        <li>Holandês</li>
+        <li>Norueguês</li>
+      </ul>
+    </td>
   </tr>
 </table>
+
 
 Use o Assistente de IA do Adobe Journey Optimizer para otimizar o impacto da mensagem, experimentando diferentes títulos principais e imagens. Gere múltiplas variantes e crie um experimento para compará-las. Aproveitando o **Experimento de conteúdo do Journey Optimizer**, você pode definir vários tratamentos de mensagens para medir qual tem o melhor desempenho para seu público-alvo. É possível optar por variar o conteúdo da entrega ou o assunto. O público-alvo da mensagem é alocado aleatoriamente em cada tratamento para determinar qual funciona melhor de acordo com a métrica especificada. Saiba mais sobre o Experimento de conteúdo [nesta seção](../content-management/content-experiment.md).
 
@@ -96,7 +111,7 @@ As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na 
 * Use um modelo personalizado ou específico da marca para criar seu conteúdo de email usando o Assistente de IA no Adobe Journey Optimizer. Recomenda-se um modelo de email com 8-10 imagens, no máximo.
 * Relate resultados problemáticos usando os ícones de “polegar para cima”, “polegar para baixo” ou o sinalizador ao selecionar variantes.
 * O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html)
+* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 As seguintes limitações se aplicam ao Assistente de IA no Journey Optimizer:
 
