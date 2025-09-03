@@ -6,9 +6,9 @@ description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orches
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
+source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1010'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ As campanhas usam um **banco de dados relacional**. Isso permite consultar difer
 
 ## Posso personalizar mensagens com esses dados? {#personalization}
 
-Sim. Você pode usar perfis de clientes juntamente com dados vinculados (como compras ou assinaturas) para personalizar o conteúdo em todos os canais compatíveis.
+Sim. Na Orquestração de campanhas, um perfil de recipient conhecido como &quot;Entidade de Pessoas&quot; pode ser atualizado e esses dados são usados para personalização. Além disso, dados enriquecidos de entidades vinculadas no banco de dados relacional também podem ser usados para personalização. Você pode usar perfis de clientes juntamente com dados vinculados (como compras ou assinaturas) para personalizar o conteúdo em todos os canais compatíveis.
 
 >[!BEGINSHADEBOX]
 
@@ -114,8 +114,10 @@ Sim. Você pode usar perfis de clientes juntamente com dados vinculados (como co
 
 ## Ele se integra a outras soluções da Adobe? {#integrations}
 
+Sim. A orquestração de campanha é integrada nativamente com:
+
 * **Customer Journey Analytics**: os relatórios de orquestração de campanha estão disponíveis.
-* **Real-Time CDP**: os públicos-alvo criados nas Campanhas podem ser lidos na CDP.
+* **Real-Time CDP**: os públicos-alvo criados nas Campanhas podem ser lidos no Real-Time CDP.
 * **Federated Audience Composition (FAC)**: disponível como um complemento.
 
 ## E quanto a permissões e consentimento? {#permissions}
@@ -146,10 +148,6 @@ No Campaign Orchestration, nós nos referimos à segmentação ad-hoc como &quot
 
 >[!ENDSHADEBOX]
 
-## Os dados no banco de dados relacional podem ser usados para personalização de mensagens? {#relational-personalization}
-
-Sim. Na Orquestração de campanhas, um perfil de recipient conhecido como &quot;Entidade de Pessoas&quot; pode ser atualizado e esses dados são usados para personalização. Além disso, dados enriquecidos de entidades vinculadas no banco de dados relacional também podem ser usados para personalização.
-
 
 ## Isso apoia a tomada de decisões? {#decisioning}
 
@@ -179,3 +177,11 @@ Sim, siga as práticas recomendadas abaixo:
 * Estabeleça uma **rotina de monitoramento** — rastreie os logs de entrega, as taxas de erro e as opções de não participação após cada envio.
 * Execute a **análise pós-campanha** no Customer Journey Analytics para refinar o direcionamento e a orquestração para o próximo ciclo.
 
+
+
+>[!MORELIKETHIS]
+>
+>* [Medidas de proteção e limitações para campanhas orquestradas](../orchestrated/guardrails.md)
+>* [Introdução a esquemas e conjuntos de dados em campanhas orquestradas](../orchestrated/gs-schemas.md)
+>* [Crie sua primeira campanha orquestrada](../orchestrated/gs-campaign-creation.md)
+>* [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
