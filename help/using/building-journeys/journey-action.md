@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 21%
+source-wordcount: '976'
+ht-degree: 9%
 
 ---
 
@@ -65,45 +65,69 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
 
 1. Configure sua atividade de acordo com o canal selecionado. Saiba como configurar ações de canal integradas em [esta seção](journeys-message.md).
 
-1. Use a seção **[!UICONTROL Otimização]** para executar experimentos de conteúdo, aproveitar regras de direcionamento ou usar combinações avançadas de experimentação e direcionamento. Estas diferentes opções e as etapas a serem seguidas estão detalhadas em [esta seção](../campaigns/campaigns-message-optimization.md).
+1. Use a seção **[!UICONTROL Otimização]** para executar experimentos de conteúdo, aproveitar regras de direcionamento ou usar combinações avançadas de experimentação e direcionamento.
 
-1. Use a seção **[!UICONTROL Idiomas]** para criar conteúdo em vários idiomas dentro da sua ação de jornada. Para isso, clique no botão **[!UICONTROL Adicionar idiomas]** e selecione as **[!UICONTROL Configurações de idioma]** desejadas. Informações detalhadas sobre como configurar e usar recursos multilíngues estão disponíveis em [esta seção](../content-management/multilingual-gs.md).
+   Estas diferentes opções e as etapas a serem seguidas estão detalhadas em [esta seção](../campaigns/campaigns-message-optimization.md).
+
+1. Use a seção **[!UICONTROL Idiomas]** para criar conteúdo em vários idiomas dentro da sua ação de jornada. Para fazer isso, clique no botão **[!UICONTROL Adicionar idiomas]** e selecione as **[!UICONTROL configurações de idioma]** desejadas.
+
+   Informações detalhadas sobre como configurar e usar recursos multilíngues estão disponíveis em [esta seção](../content-management/multilingual-gs.md).
 
 Configurações adicionais estão disponíveis, dependendo do canal de comunicação selecionado. Expanda as seções abaixo para obter mais informações.
 
 +++**Aplicar regras de limitação** (Email, Correspondência direta, Push, SMS)
 
-Na lista suspensa **[!UICONTROL Regras de negócio]**, selecione um conjunto de regras para aplicar regras de limitação à sua ação de jornada. O uso de conjuntos de regras de canal permite definir o limite de frequência por tipo de comunicação para evitar sobrecarga de clientes com mensagens semelhantes. [Saiba como trabalhar com conjuntos de regras](../conflict-prioritization/rule-sets.md)
+Na lista suspensa **[!UICONTROL Regras de negócio]**, selecione um conjunto de regras para aplicar regras de limitação à sua ação de jornada.
+
+O uso de conjuntos de regras de canal permite definir o limite de frequência por tipo de comunicação para evitar sobrecarga de clientes com mensagens semelhantes.
+
+[Saiba como trabalhar com conjuntos de regras](../conflict-prioritization/rule-sets.md)
 
 +++
 
 +++**Rastrear envolvimento** (Email, SMS).
 
-Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como os seus destinatários reagem às suas entregas de email ou SMS. Os resultados do rastreamento podem ser acessados no relatório de jornada depois que a jornada for executada. [Saiba mais sobre os relatórios do jornada](../reports/journey-global-report-cja.md)
+Use a seção **[!UICONTROL Rastreamento de ação]** para acompanhar como seus destinatários reagem às suas entregas de email ou SMS.
+
+Os resultados do rastreamento podem ser acessados no relatório de jornada depois que a jornada for executada.
+
+[Saiba mais sobre relatórios do jornada](../reports/journey-global-report-cja.md)
 
 +++
 
 +++**Habilitar o modo de entrega rápida** (Push).
 
-O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite um envio muito rápido de mensagens por push em grandes volumes por meio das campanhas. A entrega rápida é usada quando um atraso na entrega das mensagens seria crítico para os negócios, quando você deseja enviar um alerta por push urgente a telefones celulares, como, por exemplo, notícias de última hora para usuários que instalaram o seu aplicativo de canal de notícias. Para mais informações sobre desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html).
+O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas.
+
+A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios, quando você deseja enviar um alerta de push urgente em telefones celulares, por exemplo, notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias.
+
+Para mais informações sobre desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html).
 
 +++
 
 +++**Atribuir pontuações de prioridade** (Web, No aplicativo, Baseado em código)
 
-Na seção **[!UICONTROL Gerenciamento de conflitos]**, atribua uma pontuação de prioridade à ação de jornada, permitindo que você priorize uma ação de entrada quando houver várias ações de jornada ou campanhas usando a mesma configuração de canal. Insira um valor numérico (de 0 a 100). Observe que, quanto maior o número, maior a prioridade. Por padrão, a pontuação de prioridade da ação é herdada da pontuação de prioridade geral da jornada. [Saiba como atribuir pontuações de prioridade a jornadas e campanhas](../conflict-prioritization/priority-scores.md)
+Na seção **[!UICONTROL Gerenciamento de conflitos]**, você pode atribuir uma pontuação de prioridade à ação de jornada, permitindo que você priorize uma ação de entrada quando houver várias ações de jornada ou campanhas usando a mesma configuração de canal.
+
+Por padrão, a pontuação de prioridade da ação é herdada da pontuação de prioridade geral da jornada.
+
+[Saiba como atribuir pontuações de prioridade a ações de canal](../conflict-prioritization/priority-scores.md#priority-action)
 
 +++
 
 +++**Definir regras de entrega adicionais** (Cartões de conteúdo)
 
-Para jornadas de cartão de conteúdo, é possível habilitar regras de entrega adicionais para escolher os eventos e critérios que acionam sua mensagem. [Saiba como criar cartões de conteúdo](../content-card/create-content-card.md)
+Para jornadas de cartão de conteúdo, é possível habilitar regras de entrega adicionais para escolher os eventos e critérios que acionam sua mensagem.
+
+[Saiba como criar cartões de conteúdo](../content-card/create-content-card.md)
 
 +++
 
 +++**Definir acionadores** (no aplicativo)
 
-Para mensagens no aplicativo, você pode usar o botão **[!UICONTROL Editar acionadores]** para escolher os eventos e critérios que acionam sua mensagem. [Saiba como criar uma mensagem no aplicativo](../in-app/create-in-app.md)
+Para mensagens no aplicativo, você pode usar o botão **[!UICONTROL Editar acionadores]** para escolher os eventos e critérios que acionam sua mensagem.
+
+[Saiba como criar uma mensagem no aplicativo](../in-app/create-in-app.md)
 
 +++
 
