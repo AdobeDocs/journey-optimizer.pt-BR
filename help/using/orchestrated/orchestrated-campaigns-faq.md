@@ -6,7 +6,7 @@ description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orches
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
+source-git-commit: 6a0b4f7da2794f6ffd9af51440f1bca8aa5e7fb1
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 1%
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 # Perguntas frequentes {#faq-oc}
 
-Você encontrará abaixo as Perguntas frequentes sobre as Campanhas Orquestradas da Adobe Journey Optimizer.
+Você encontrará abaixo Perguntas frequentes sobre as campanhas do Adobe Journey Optimizer Orchestrated.
 
 Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para levantar sua pergunta.
 
 ## O que são campanhas orquestradas? {#what-are-oc}
 
-Campanhas orquestradas no Adobe Journey Optimizer ajudam as marcas a executar campanhas de marketing complexas, de um para muitos, em escala. Eles foram projetados para engajamento iniciado pela marca, como promoções, campanhas sazonais ou comunicações baseadas em conta.
+As campanhas orquestradas no Adobe Journey Optimizer ajudam as marcas a executar campanhas de marketing complexas, de um para muitos, em escala. Eles foram projetados para engajamento iniciado pela marca, como promoções, campanhas sazonais ou comunicações baseadas em conta.
 
 Comparado às campanhas de envio único, elas trazem a **orquestração e o sequenciamento** para o marketing de saída: os públicos-alvo se movem em conjunto por um fluxo de trabalho de várias etapas, em vez de receberem uma explosão única.
 
@@ -50,6 +50,7 @@ Os principais recursos incluem:
 
 As campanhas orquestradas aceitam **notificações por email, SMS e por push**.
 
+
 >[!BEGINSHADEBOX]
 
 **Recommendations**
@@ -60,14 +61,15 @@ As campanhas orquestradas aceitam **notificações por email, SMS e por push**.
 
 >[!ENDSHADEBOX]
 
-## Como as Campanhas orquestradas são diferentes das Jornadas? {#oc-vs-journeys}
+
+## Como as campanhas orquestradas são diferentes do Jornada? {#oc-vs-journeys}
 
 * **Campanhas orquestradas**: ideal para **campanhas em lote, de um para muitos**. Públicos-alvo inteiros se movem pela tela de campanha juntos.
 * **Jornadas**: ideal para o engajamento **em tempo real, um para um**. Cada cliente percorre a jornada em seu próprio ritmo, acionado por comportamento ou eventos.
 
 >[!BEGINSHADEBOX]
 
-**Dica** - Muitas organizações usam **as duas opções juntas**—Jornadas para experiências acionadas e reativas e Campanhas Orquestradas para iniciativas planejadas baseadas em calendário.
+**Dica** - Muitas organizações usam **as duas opções juntas**—Jornadas para experiências acionadas e reativas e campanhas orquestradas para iniciativas planejadas baseadas em calendário.
 
 >[!ENDSHADEBOX]
 
@@ -151,11 +153,11 @@ No Campaign Orchestration, nós nos referimos à segmentação ad-hoc como &quot
 
 ## Isso apoia a tomada de decisões? {#decisioning}
 
-Atualmente, o decisioning não usa dados relacionais de Campanhas orquestradas.
+Atualmente, o decisioning não usa dados relacionais de campanhas orquestradas.
 
 ## Como funciona a implantação entre ambientes? {#deployment}
 
-Os objetos criados em Campanhas orquestradas (por exemplo, públicos, fluxos de trabalho) são vinculados à sandbox em que são criados. Os fluxos de trabalho padrão de empacotamento e implantação entre ambientes (dev, stage, prod) não estão disponíveis no momento para Campanhas orquestradas.
+Objetos criados em campanhas orquestradas (por exemplo, públicos, fluxos de trabalho) são vinculados à sandbox em que são criados. Os workflows padrão de empacotamento e implantação em ambientes (desenvolvimento, preparo, produção) não estão disponíveis no momento para campanhas orquestradas.
 
 >[!BEGINSHADEBOX]
 
