@@ -72,4 +72,4 @@ Para atribuir uma pontuação de prioridade às ações de entrada definidas na 
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445006?quality=12&captions=por_br)
