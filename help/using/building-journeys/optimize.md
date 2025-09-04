@@ -13,9 +13,9 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 3cda7aad46e6961c7d19706bad060565b92d7b19
+source-git-commit: cc657dced3e7069cb3700d75f67b3cfb4f6da1e0
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1219'
 ht-degree: 3%
 
 ---
@@ -50,6 +50,11 @@ Através da atividade **Otimizar**, você pode executar as seguintes ações nos
 Quando a jornada estiver ativa, os perfis serão avaliados de acordo com os critérios definidos e, com base nos critérios de correspondência, serão enviados pelo caminho apropriado da jornada.
 
 ## Usar experimentação {#experimentation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_path_experiment_success_metric"
+>title="Métrica de sucesso"
+>abstract="A métrica de sucesso é usada para rastrear e avaliar o tratamento com melhor desempenho em um experimento."
 
 A experimentação permite testar caminhos diferentes com base em uma divisão aleatória para determinar qual tem o melhor desempenho com base em métricas de sucesso predefinidas.
 
