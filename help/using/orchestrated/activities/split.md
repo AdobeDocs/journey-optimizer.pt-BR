@@ -4,7 +4,8 @@ product: journey optimizer
 title: Usar a atividade Divisão
 description: Saiba como usar a atividade de Split em uma campanha orquestrada
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 88%
@@ -89,13 +90,13 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Divisão]**:
 
    1. Para limitar o número de perfis selecionados, ative a opção de **[!UICONTROL Habilitar limite]** e especifique um número ou porcentagem.
 
-   1. Para ignorar uma transição quando o subconjunto estiver vazio, ative a opção de **[!UICONTROL Ignorar transição vazia].**
+   1. Para ignorar uma transição quando o subconjunto estiver vazio, habilite a opção de **[!UICONTROL Ignorar transição vazia].**
 
-1. Para incluir perfis que não correspondam a nenhum subconjunto, ative a opção de **[!UICONTROL Gerar complemento]**. Isso cria uma transição de saída adicional para a população restante.
+1. Para incluir perfis que não correspondam a nenhum subconjunto, habilite a opção de **[!UICONTROL Gerar complemento]**. Isso cria uma transição de saída adicional para a população restante.
 
    >[!NOTE]
    >
-   >Ative a opção de **[!UICONTROL Gerar todos os subconjuntos na mesma tabela]** para agrupar todos os subconjuntos em uma mesma transição.
+   >Habilite a opção de **[!UICONTROL Gerar todos os subconjuntos na mesma tabela]** para agrupar todos os subconjuntos em uma mesma transição.
 
 1. Use **[!UICONTROL Habilitar sobreposição de populações de saída]** para permitir que os perfis apareçam em vários subconjuntos:
 

@@ -4,7 +4,8 @@ product: journey optimizer
 title: Criar esquemas relacionais para campanhas orquestradas
 description: Saiba como criar e gerenciar esquemas relacionais para suas campanhas orquestradas
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 75%
