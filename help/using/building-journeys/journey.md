@@ -7,8 +7,9 @@ feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
+version: Journey Orchestration
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
+source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%

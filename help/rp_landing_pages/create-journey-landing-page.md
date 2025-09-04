@@ -4,13 +4,14 @@ product: Journey Optimizer
 title: Criar uma jornada
 description: Criar uma jornada
 redpen-status: CREATED_||_2025-08-11_20-07-02
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+version: Journey Orchestration
+exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
+source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
-
 
 # Criar uma jornada{#section-overview}
 
@@ -20,7 +21,7 @@ A criação de uma jornada no Adobe Journey Optimizer permite criar experiência
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Como criar sua primeira Jornada de cliente
 
@@ -30,7 +31,7 @@ Saiba como criar, projetar, testar e publicar sua primeira jornada do cliente co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definir e gerenciar propriedades da Jornada
 
@@ -40,7 +41,7 @@ Configure regras de entrada, configurações relacionadas ao tempo, gerenciament
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Como criar sua Jornada
 
@@ -50,7 +51,7 @@ Use a interface de arrastar e soltar para criar jornadas de marketing personaliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Como testar sua Jornada
 
@@ -60,7 +61,7 @@ Teste suas jornadas com perfis simulados e detecte erros antes de entrar em func
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Testando Jornadas com o modo de simulação
 
@@ -70,7 +71,7 @@ Valide suas jornadas com dados de produção reais sem entrar em contato com os 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Publicação de uma Jornada
 
