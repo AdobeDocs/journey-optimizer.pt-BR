@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 3ab8957d0aec6f30853de5537e03f0e7bec2017c
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 15%
@@ -138,6 +138,7 @@ Um indivíduo só poderá inserir uma atividade de espera se tiver tempo suficie
 A partir da versão de junho de 2024 do Adobe Journey Optimizer, o tempo limite global do jornada mudou de 30 para 91 dias. Os impactos estão listados nas Perguntas frequentes abaixo:
 
 **Para Jornadas Unitárias**
+
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
