@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomínio, delegação, domínio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1906'
 ht-degree: 18%
 
 ---
@@ -106,6 +106,10 @@ Para configurar um novo subdomínio em [!DNL Journey Optimizer], siga as etapas 
    * Configuração de CNAME - [Saiba mais](about-subdomain-delegation.md#cname-subdomain-setup)
 
      Saiba como configurar subdomínios com CNAMEs nesta [seção dedicada](#cname-subdomain-setup)
+
+   * Delegação personalizada - [Saiba mais](about-subdomain-delegation.md#custom-subdomain-delegation)
+
+     Saiba como configurar subdomínios personalizados nesta [seção dedicada](delegate-custom-subdomain.md)
 
    <!--![](assets/subdomain-method-full.png)-->
 
@@ -272,4 +276,4 @@ Depois que a solicitação for tratada pela Adobe, o domínio não delegado não
 
 Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342240?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
