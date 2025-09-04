@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 40%
@@ -52,6 +52,6 @@ Erros e avisos globais para a jornada aparecem primeiro na lista. Os erros e avi
 
 ## Adicionar um caminho alternativo {#canvas-add-path}
 
-Você pode definir uma ação de fallback em caso de erro para as seguintes atividades de jornada: **[!UICONTROL Condição]** e **[!UICONTROL Ação]**.
+Você pode definir uma ação de fallback em caso de erro para as seguintes atividades de jornada: **[!UICONTROL Otimizar]** e **[!UICONTROL Ação]**.
 
 A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é resolver a questão. Para evitar a interrupção da jornada, você também pode marcar a opção **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** nas propriedades da atividade. Saiba mais [nesta seção](../building-journeys/using-the-journey-designer.md#paths).

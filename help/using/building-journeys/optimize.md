@@ -12,9 +12,9 @@ badge: label="Disponibilidade limitada" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1197'
 ht-degree: 3%
 
 ---
@@ -57,59 +57,109 @@ Quando a jornada estiver ativa, os perfis serão avaliados de acordo com os crit
 
 A experimentação permite testar caminhos diferentes com base em uma divisão aleatória para determinar qual tem o melhor desempenho com base em métricas de sucesso predefinidas.
 
-Para configurar a experimentação em uma jornada, siga as etapas abaixo.
+Para configurar a experimentação de caminho em uma jornada, siga as etapas abaixo.
 
 Digamos que você deseje comparar três caminhos:
 
 * um caminho com um email;
-* um segundo caminho com um nó Wait de dois dias e um email;
+* um segundo caminho com um nó **[!UICONTROL Wait]** de dois dias e um email;
 * um terceiro caminho com um email e, em seguida, uma mensagem SMS.
 
-1. Solte a atividade **[!UICONTROL Otimizar]** na tela de jornada.
+1. Na seção **[!UICONTROL Orquestração]**, arraste e solte a atividade **[!UICONTROL Otimizar]** na tela de jornada.
 
-1. Adicione um rótulo opcional para identificar a atividade nos relatórios e logs do modo de teste.
+1. Adicione um rótulo opcional, que pode ser útil para identificar a atividade em relatórios e logs do modo de teste.
 
 1. Selecione **[!UICONTROL Experimento]** na lista suspensa **[!UICONTROL Método]**.
 
-   ![](assets/journey-optimize-experiment.png){width=85%}
+   ![](assets/journey-optimize-experiment.png){width=75%}
 
-1. Clique em **[!UICONTROL Configurações de experimento]**.
+1. Clique em **[!UICONTROL Criar experimento]**.
 
-1. Projete e configure seu experimento conforme desejado. [Saiba como](../content-management/content-experiment.md)
+1. Selecione a **[!UICONTROL Métrica de sucesso]** que você deseja definir para o seu experimento.
+
+   <!--Need to have the list of all default metrics + a description for each.
+    Explain why the metric selection is important.
+    Are there custom metrics? If so explain.
+    If possible, add best practices and examples for each metrics (could even be a dedicated section).
+    Consider adding an example in this step: For this example, select this metric to test xxx.
+    -->
+
+   ![](assets/journey-optimize-experiment-metrics.png){width=70%}
+
+<!--1. Change the **[!UICONTROL Title]** of your treatment to better differentiate them.-->
+
+1. Você pode optar por adicionar um grupo de **[!UICONTROL Contenção]** à sua entrega. Este grupo não receberá nenhum conteúdo deste experimento.
+
+   >[!NOTE]
+   >
+   >A ativação da barra de alternância ocupará automaticamente 10% da sua população. Você pode ajustar essa porcentagem, se necessário.
 
    <!--
-    ![](../campaigns/assets/msg-optimization-create-experiment.png){width=85%}
-    Replace with appropriate screenshot
-    The experiment applies to all the activities in the journey.TBC
-   -->
+    [!IMPORTANT]
+    >
+    >DOES THIS APPLY TO PATH EXPERIMENT? When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
 
-Quando a jornada estiver ativa, os usuários serão atribuídos aleatoriamente para percorrer caminhos diferentes. [!DNL Journey Optimizer] rastreia qual caminho gera mais compras e fornece insights acionáveis.
+1. Você pode alocar uma porcentagem precisa para cada **[!UICONTROL Tratamento]** ou simplesmente alternar na barra de alternância **[!UICONTROL Distribuir uniformemente]**.
 
-<!--Follow the success of your journey with the [Experimentation journey report](../reports/campaign-global-report-cja-experimentation.md). Is there a report specific to experimentation in journey?-->
+   ![](assets/journey-optimize-experiment-treatments.png){width=80%}
 
-### Casos de uso com o experimento {#uc-experiment}
+1. Clique em **[!UICONTROL Criar]**.
+
+1. Defina os elementos desejados para cada ramificação resultante do experimento, por exemplo:
+
+   * Arraste e solte uma atividade [Email](../email/create-email.md) na primeira ramificação (**Tratamento A**).
+
+   * Arraste e solte uma atividade [Aguardar](wait-activity.md) de dois dias na primeira ramificação, seguida por uma atividade [Email](../email/create-email.md) (**Tratamento B**).
+
+   * Arraste e solte uma atividade [Email](../email/create-email.md) na terceira ramificação, seguida por uma atividade [SMS](../sms/create-sms.md) (**Tratamento C**).
+
+   ![](assets/journey-optimize-experiment-ex.png){width=100%}
+
+1. Opcionalmente, use o **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** para definir uma ação de fallback. [Saiba mais](using-the-journey-designer.md#paths)
+
+1. Selecione uma ação de canal e use o botão **[!UICONTROL Editar conteúdo]** para acessar as ferramentas de design.
+
+   ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
+
+1. A partir daí, usando o painel esquerdo, você pode navegar entre os diferentes conteúdos para cada ação em seu experimento. Projete todo o conteúdo conforme necessário.
+
+   ![](assets/journey-optimize-experiment-content.png){width=100%}
+
+1. [Publique](publishing-the-journey.md) sua jornada.
+
+Quando a jornada estiver ativa, os usuários serão atribuídos aleatoriamente para percorrer caminhos diferentes. [!DNL Journey Optimizer] rastreia qual caminho tem melhor desempenho e fornece insights acionáveis.
+
+Siga o sucesso da sua jornada com o [relatório de jornadas](../reports/journey-global-report-cja.md) de Otimizar/Experimentar. <!--Need a doc page on reporting specific to path experimentation in journey - [Path experimentation journey report](../xxx) such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+
+### Casos de uso de experimentos {#uc-experiment}
 
 Os exemplos a seguir mostram como usar a atividade **[!UICONTROL Otimizar]** com o método **[!UICONTROL Experimento]** para determinar qual caminho funciona melhor em geral.
 
-**Eficácia do canal**
++++Eficácia do canal
 
 Teste se o envio da primeira mensagem por email ou por SMS gera conversões mais altas.
 
 * Use a taxa de conversão como a métrica de otimização (por exemplo: compras, inscrições).
 
-![](assets/journey-optimize-experiment-uc.png)
+<!--![](assets/journey-optimize-experiment-uc.png)-->
 
-**Frequência da mensagem**
++++
+
++++Frequência da mensagem
 
 Execute um experimento para verificar se o envio de um email contra três emails em uma semana resulta em mais compras.
 
 * Use compras ou a taxa de cancelamento de inscrição como a métrica de otimização.
 
-**Tempo de espera entre comunicações**
++++
+
++++Tempo de espera entre as comunicações
 
 Compare uma espera de 24 horas com uma de 72 horas antes de um acompanhamento para determinar qual tempo maximiza o engajamento.
 
 * Use a taxa de click-through ou a receita como a métrica de otimização.
+
++++
 
 ## Aproveitar o direcionamento {#targeting}
 
@@ -117,27 +167,27 @@ O direcionamento permite determinar regras ou qualificações específicas que d
 
 Ao contrário da experimentação, que é uma atribuição aleatória de um determinado caminho, o direcionamento é determinístico em termos de garantir que o público ou perfil correto entre no caminho especificado.
 
-Com o direcionamento, regras específicas podem ser definidas com base em:
+<!--With targeting, specific rules can be defined based on:
 
-* **Atributos de perfil de usuário**, como localização (por exemplo, geolocalização), idade ou preferências. Por exemplo, os usuários nos EUA veem uma promoção &quot;Golden Gate&quot;, enquanto os usuários na França veem uma promoção &quot;Torre Eiffel&quot;.
+* **User profile attributes** such as location (eg. geo-targeting), age, or preferences. For example, users in the US receive a "Golden Gate" promotion, while users in France receive an "Eiffel Tower" promotion.
 
-* **Dados contextuais**, como tipo de dispositivo (por exemplo, direcionamento de dispositivo), hora do dia ou detalhes da sessão. Por exemplo, os usuários de desktop recebem conteúdo otimizado para desktop, enquanto os usuários móveis recebem conteúdo otimizado para dispositivos móveis.
+* **Contextual data** such as device type (eg. device-targeting), time of day, or session details. For example, desktop users receive desktop-optimized content, while mobile users receive mobile-optimized content.
 
-* **Públicos-alvo** que podem ser usados para incluir ou excluir perfis que tenham uma associação de público-alvo específica.
+* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.-->
 
 Para configurar o direcionamento em uma jornada, siga as etapas abaixo.
 
-1. Solte a atividade **[!UICONTROL Otimizar]** na tela de jornada.
+1. Na seção **[!UICONTROL Orquestração]**, arraste e solte a atividade **[!UICONTROL Otimizar]** na tela de jornada.
 
-1. Adicione um rótulo opcional para identificar a atividade nos relatórios e logs do modo de teste.
+1. Adicione um rótulo opcional, que pode ser útil para identificar a atividade em relatórios e logs do modo de teste.
 
-1. Selecione **[!UICONTROL Direcionamento]** na lista suspensa **[!UICONTROL Método]**.
+1. Selecione **[!UICONTROL Regra de direcionamento]** na lista suspensa **[!UICONTROL Método]**.
 
-   ![](assets/journey-optimize-targeting.png){width=85%}
+   ![](assets/journey-optimize-targeting.png){width=75%}
 
 1. Clique em **[!UICONTROL Criar regra de direcionamento]**.
 
-1. Use o construtor de regras para definir seus critérios. Por exemplo, defina uma regra para residentes dos EUA, uma regra para residentes da França e uma regra para residentes da Índia.
+1. Use o construtor de regras para definir seus critérios. Por exemplo, defina uma regra para membros Gold do programa de Fidelidade (`loyalty.status.equals("Gold", false)`) e uma regra para os outros membros (`loyalty.status.notEqualTo("Gold", false)`).
 
    ![](assets/journey-targeting-rule.png)
 
@@ -145,41 +195,51 @@ Para configurar o direcionamento em uma jornada, siga as etapas abaixo.
 
 1. Salve as configurações da regra de direcionamento.
 
-1. De volta à jornada, solte ações específicas para personalizar cada caminho. Por exemplo, você pode criar um email específico para residentes dos EUA, outro email para residentes da França e assim por diante.
+1. De volta à jornada, solte ações específicas para personalizar cada caminho. Por exemplo, crie um email com ofertas personalizadas para membros do Gold Loyalty e um lembrete SMS para todos os outros membros.
 
    ![](assets/journey-targeting-paths.png)
 
-1. Crie o conteúdo apropriado para cada grupo definido pelas suas configurações de regra de direcionamento. Você pode navegar facilmente entre os diferentes caminhos.
+1. Opcionalmente, use o **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** para definir uma ação de fallback. [Saiba mais](using-the-journey-designer.md#paths)
+
+1. Crie o conteúdo apropriado para cada ação correspondente a um grupo definido pelas suas configurações de regra de direcionamento. É possível navegar facilmente entre os diferentes conteúdos de cada ação.
 
    ![](assets/journey-targeting-design.png)
 
-   Neste exemplo, projete um caminho específico para residentes dos EUA, um caminho diferente para residentes franceses e outro caminho para residentes da Índia.
+   Neste exemplo, crie um email com ofertas especiais para membros Gold e um lembrete SMS para os outros membros.
 
-Quando a jornada estiver ativa, o caminho especificado para cada segmento será processado para que os residentes dos EUA insiram um caminho específico, os residentes da França insiram um caminho diferente e assim por diante.
+1. [Publique](publishing-the-journey.md) sua jornada.
 
-### Casos de uso com direcionamento {#uc-targeting}
+Quando a jornada estiver ativa, o caminho especificado para cada segmento será processado para que os membros Gold insiram o caminho com as ofertas de email, enquanto os outros membros insiram o caminho com o lembrete SMS.
+
+### Direcionamento de casos de uso {#uc-targeting}
 
 Os exemplos a seguir mostram como usar a atividade **[!UICONTROL Otimizar]** com o método **[!UICONTROL Direcionamento]** para personalizar caminhos para diferentes subpúblicos.
 
-**Canais específicos do segmento**
++++Canais específicos do segmento
 
 Os membros do programa de fidelidade com o status Gold podem receber ofertas personalizadas por email, enquanto todos os outros membros são direcionados a lembretes de SMS.
 
 * Use a receita por perfil ou taxa de conversão como a métrica de otimização.
 
-![](assets/journey-optimize-targeting-uc.png)
+<!--![](assets/journey-optimize-targeting-uc.png)-->
 
-**Direcionamento baseado em comportamento**
++++
+
++++Segmentação baseada em comportamento
 
 Os clientes que abriram um email, mas não clicaram, podem receber uma notificação por push, enquanto aqueles que não abriram recebem um SMS.
 
 * Use a taxa de click-through ou as conversões downstream como a métrica de otimização.
 
-**Direcionamento do histórico de compras**
++++
+
++++Direcionamento do histórico de compras
 
 Os clientes que compraram recentemente podem entrar em um caminho curto de &quot;Obrigado + Venda cruzada&quot;, enquanto aqueles sem histórico de compra entram em uma jornada de criação mais longa.
 
 * Use a taxa de repetição de compra ou a taxa de envolvimento como a métrica de otimização.
+
++++
 
 ## Adicionar uma condição {#conditions}
 
