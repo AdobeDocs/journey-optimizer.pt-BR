@@ -11,9 +11,9 @@ keywords: integração
 hide: true
 hidefromtoc: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
+source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,18 @@ Você pode usar esse recurso para acessar dados externos e extrair conteúdo de 
 * **Informações sobre preços** dos produtos.
 * **Recomendações de produto** dos mecanismos de recomendação.
 * **Atualizações de logística** como status de entrega.
+
+## Limitações do Beta {#limitations}
+
+A versão beta tem as seguintes limitações:
+
+* Somente há suporte para canais de saída.
+
+* Somente o formato JSON é compatível com respostas de chamada de API. As saídas de imagem binária bruta e HTML não estão disponíveis.
+
+* Somente APIs de recuperação direcionadas a conteúdo específico são compatíveis, APIs de listagem não estão disponíveis.
+
+* O recurso de integrações está disponível para Jornadas e Campanhas, mas não é compatível com Fragmentos.
 
 ## Configurar a integração {#configure}
 
