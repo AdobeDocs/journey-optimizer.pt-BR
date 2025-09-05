@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 1%
+source-wordcount: '1216'
+ht-degree: 0%
 
 ---
 
@@ -61,7 +61,7 @@ Eles são listados a seguir e cada alerta é detalhado abaixo.
 
 1. Use o mesmo método para **[!UICONTROL Cancelar inscrição]**.
 
-1. Você também pode assinar alertas por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
+1. Você também pode assinar alertas por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
 
 1. Se ocorrer um comportamento inesperado e/ou se um determinado conjunto de condições em suas operações for atingido (como um problema em potencial quando o sistema viola um limite), as notificações de alerta serão entregues a todos os usuários em sua organização que se subscreveram a elas.
 
@@ -71,7 +71,7 @@ Com base nas preferências do assinante, os alertas são enviados por email e/ou
 >
 >Por padrão, somente o alerta no aplicativo está ativado.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 Quando um alerta é resolvido, os assinantes recebem uma notificação &quot;Resolvido&quot;.
 
@@ -173,50 +173,50 @@ O alerta de **Registro DNS de Domínio do AJO ausente** é disparado quando o si
 
 Se as alterações não resolverem o problema, o mesmo alerta será acionado novamente no dia seguinte.
 
-<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?
+<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?-->
 
-### AJO channel configuration failure {#alert-channel-config-failure}
+### Falha na configuração do canal do AJO {#alert-channel-config-failure}
 
 >[!IMPORTANT]
 >
->This alert applies only to **email** channel configurations using the [custom subdomain](../configuration/delegate-custom-subdomain.md) delegation type. ///Other channel types (such as SMS, push, or in-app) are not covered by this alert.///
+>Este alerta se aplica somente às configurações de canal de **email** que usam o tipo de delegação [subdomínio personalizado](../configuration/delegate-custom-subdomain.md). <!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
 
-This alert is triggered in case the system audit detects email channel configuration issues. These issues may include misconfigured channel settings, invalid DNS configuration, suppression list issue, IP inconsistency, or any other errors that can impact email delivery.
+Esse alerta é disparado caso a auditoria do sistema detecte problemas de configuração do canal de email. Esses problemas podem incluir configurações de canal mal definidas, configuração DNS inválida, problemas da lista de supressão, inconsistência de IP ou quaisquer outros erros que possam afetar a entrega de email.
 
-If you receive such an alert, the resolution steps are listed below:
+Se você receber esse alerta, as etapas de resolução estão listadas abaixo:
 
-1. Click the alert to be directed to the impacted [email channel configuration](../email/get-started-email-config.md) in the [!DNL Journey Optimizer] interface.
+1. Clique no alerta a ser direcionado para a [configuração do canal de email](../email/get-started-email-config.md) afetada na interface [!DNL Journey Optimizer].
 
-   For guidance on editing channel configurations, see [this section](../configuration/channel-surfaces.md#edit-channel-surface).
+   Para obter orientação sobre como editar configurações de canal, consulte [esta seção](../configuration/channel-surfaces.md#edit-channel-surface).
 
-1. Review the configuration details and error messages provided. Common failure reasons include:
+1. Revise os detalhes da configuração e as mensagens de erro fornecidas. Os motivos comuns de falha incluem:
 
-   * SPF validation failed
-   * DKIM validation failed
-   * MX record validation failed
-   * Invalid DNS records
-
-   >[!NOTE]
-   >
-   >The possible configuration failure reasons are listed in [this section](../configuration/channel-surfaces.md).
-
-1. Resolve the issue:
-
-   * Update the channel configuration as needed.
-   * You may need to fix specific DNS issues mentioned in the alert.
+   * Falha na validação do SPF
+   * Falha na validação do DKIM
+   * Falha na validação do registro MX
+   * Registros DNS inválidos
 
    >[!NOTE]
    >
-   >As a single domain can be associated with multiple channel configurations, resolving DNS issues for one channel configuration may automatically fix related issues across several configurations.
+   >Os possíveis motivos de falha na configuração estão listados em [esta seção](../configuration/channel-surfaces.md).
 
-If the change does not resolve the issue, the same alert will be triggered again the next day.
+1. Resolva o problema:
 
-When resolving email configuration issues, keep in mind the best practices listed below:
+   * Atualize a configuração do canal conforme necessário.
+   * Talvez seja necessário corrigir problemas específicos de DNS mencionados no alerta.
 
-* Act promptly - Address configuration failures as soon as they are detected to avoid disruptions in email delivery.
-* Check all configurations - If the alert indicates multiple impacted email configurations, review and fix each of them.
+   >[!NOTE]
+   >
+   >Como um único domínio pode ser associado a várias configurações de canal, a resolução de problemas de DNS para uma configuração de canal pode corrigir automaticamente problemas relacionados em várias configurações.
 
-### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+Se a alteração não resolver o problema, o mesmo alerta será acionado novamente no dia seguinte.
+
+Ao resolver problemas de configuração de email, lembre-se das práticas recomendadas listadas abaixo:
+
+* Agir imediatamente - Solucionar falhas de configuração assim que forem detectadas, para evitar interrupções no delivery de email.
+* Verificar todas as configurações - se o alerta indicar várias configurações de email afetadas, revise e corrija cada uma delas.
+
+<!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
 
 This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
 
