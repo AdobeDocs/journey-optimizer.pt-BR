@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 14%
+source-wordcount: '2125'
+ht-degree: 12%
 
 ---
 
@@ -109,7 +109,7 @@ Ao selecionar públicos ou regras de decisão, você pode ver informações sobr
 
 ## Definir regras de limitação {#capping}
 
-O limite é usado como uma restrição para definir o número máximo de vezes que uma oferta pode ser apresentada. Limitar o número de vezes que os usuários obtêm ofertas específicas permite evitar o excesso de solicitações de seus clientes e, portanto, otimizar cada ponto de contato com a melhor oferta. Você pode criar até 10 limites para um determinado item de decisão.
+O limite é usado como uma restrição para definir o número máximo de vezes que um item de oferta pode ser apresentado. Limitar o número de vezes que os usuários obtêm ofertas específicas permite evitar o excesso de solicitações de seus clientes e, portanto, otimizar cada ponto de contato com a melhor oferta. Você pode criar até 10 limites para um determinado item de decisão.
 
 ![](assets/item-capping.png)
 
@@ -118,7 +118,17 @@ O limite é usado como uma restrição para definir o número máximo de vezes q
 >
 >O valor do contador de limite pode levar até 3 segundos para ser atualizado. Por exemplo, digamos que você esteja exibindo um banner da Web com uma oferta no seu site. Se um determinado usuário navegar para a próxima página do seu site em menos de 3 segundos, o valor do contador não será incrementado para esse usuário.
 
-Para definir regras de limite para o item de decisão, clique no botão **[!UICONTROL Criar limite]** e siga estas etapas:
+Ao configurar regras de limite, você pode referenciar atributos armazenados em conjuntos de dados do Adobe Experience Platform para definir limites. Para usar um conjunto de dados, selecione-o na seção **[!UICONTROL Conjunto de Dados]**.
+
+![](assets/exd-lookup-capping.png)
+
+>[!NOTE]
+>
+>No momento, esse recurso está disponível como uma Disponibilidade limitada para todos os usuários. Informações detalhadas sobre como usá-lo estão disponíveis nesta seção: [Usar dados do Adobe Experience Platform para a Decisão](../experience-decisioning/aep-data-exd.md)
+
+Para definir regras de limite para o item de decisão, clique no botão **[!UICONTROL Criar limite]** e siga as etapas detalhadas abaixo.
+
+![](assets/item-capping-create.png)
 
 1. Defina qual **[!UICONTROL Evento de limite]** será considerado para aumentar o contador.
 
@@ -139,9 +149,31 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
 
    * Selecione **[!UICONTROL Por perfil]** para definir quantas vezes a oferta pode ser proposta ao mesmo usuário. Por exemplo, se você for um banco com uma oferta de &quot;Cartão de crédito Platinum&quot;, não desejará que essa oferta seja exibida mais de 5 vezes por perfil. Na verdade, você acredita que, se o usuário tiver visto a oferta cinco vezes e não tiver atuado nela, ele terá uma chance maior de agir na próxima melhor oferta.
 
-1. No campo **[!UICONTROL Limite de contagem de limite]**, especifique o número de vezes que a oferta pode ser apresentada a todos os usuários ou por perfis, dependendo do tipo de limite selecionado. O número deve ser um inteiro maior que 0.
+1. Defina o limite de limite. Para fazer isso, você pode inserir um valor estático ou calcular o limite usando uma expressão. Expanda as seções abaixo para obter mais detalhes.
+
+   +++Limite estático
+
+   No campo **[!UICONTROL Limite de contagem de limite]**, especifique o número de vezes que a oferta pode ser apresentada a todos os usuários ou por perfis, dependendo do tipo de limite selecionado. O número deve ser um inteiro maior que 0.
 
    Por exemplo, você definiu um evento de limite personalizado, como o número de check-outs que são considerados. Se você inserir 10 no campo **[!UICONTROL Limite de contagem de limite]**, nenhuma outra oferta será enviada após 10 check-outs.
+
+   +++
+
+   +++Limite de expressão
+
+   Em vez de usar um valor estático para o limite de limite, você pode definir sua própria expressão. Isso permite calcular o limite dinamicamente usando atributos de decisão e/ou atributos externos de um conjunto de dados da Adobe Experience Platform.
+
+   Por exemplo, um profissional de marketing pode decidir adicionar um multiplicador para ajustar a exposição. Por exemplo, eles poderiam multiplicar o inventário disponível por dois, permitindo que a oferta fosse mostrada para o dobro de clientes que as unidades disponíveis. Essa abordagem antecipa que nem todos os clientes farão a conversão, garantindo um melhor alcance sem venda excessiva.
+
+   >[!NOTE]
+   >
+   >A regra de limite **expressões** estão disponíveis no momento como uma Disponibilidade limitada para todos os usuários. Eles só têm suporte para o tipo de limite **[!UICONTROL No total]**.
+
+   Para usar uma expressão, habilite a opção **[!UICONTROL Expression]** e edite a expressão conforme desejado.
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   +++
 
 1. Na lista suspensa **[!UICONTROL Redefinir frequência de limite]**, defina a frequência com que o contador de limite é redefinido. Para fazer isso, defina o período de tempo para a contagem (diariamente, semanalmente ou mensalmente) e insira o número de dias/semanas/meses de sua escolha. Por exemplo, se você deseja que a contagem de limite seja redefinida a cada 2 semanas, selecione **[!UICONTROL Semanalmente]** na lista suspensa correspondente e digite **2** no outro campo.
 
@@ -188,3 +220,4 @@ Selecionar um item de decisão ou clicar no botão de reticências permite as a�
   ![](assets/item-undo.png)
 
 * **[!UICONTROL Arquivar]**: define o status do item de decisão como **[!UICONTROL Arquivado]**. O item de decisão ainda está disponível na lista, mas você não pode definir seu status novamente como **[!UICONTROL Rascunho]** ou **[!UICONTROL Aprovado]**. Você só pode duplicá-la ou excluí-la.
+

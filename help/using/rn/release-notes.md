@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c6179566226331d2169c3abc50a069262db80d85
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 68%
+source-wordcount: '2051'
+ht-degree: 67%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 68%
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão. O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
 ## Atualizações de setembro de 2025 {#sep-updates}
+
+### Novos recursos {#Sep-25-features}
 
 <table>
 <thead>
@@ -76,7 +78,8 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <li>A função auxiliar "datasetLookup" agora pode ser usada em fragmentos de expressão.</li>
 <li>Uma opção na interface de gerenciamento do conjunto de dados agora permite habilitar conjuntos de dados baseados em registro para personalização de pesquisa, sem precisar executar uma chamada de API.</li>
 <li>Monitoramento aprimorado para rastrear o status de assimilação de dados e saber quando os conjuntos de dados estão prontos para pesquisa.</li>
-<li>Diretrizes e medidas de proteção atualizadas para garantir desempenho e confiabilidade ideais.</li></ul></p>
+<li>Diretrizes e medidas de proteção atualizadas para garantir desempenho e confiabilidade ideais.</li>
+<li>Os conjuntos de dados do Adobe Experience Platform agora podem ser aproveitados nas regras de limite da Decisão.</li></ul></p>
 <p>Para mais informações, consulte a <a href="../data/lookup-aep-data.md">documentação detalhada</a></p>
 <p>Data de disponibilidade: 1º de setembro de 2025</p>
 </td>
@@ -84,7 +87,9 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 </tbody>
 </table>
 
-### Aprimoramentos {#Sept-25-8-improv}
+### Aprimoramentos {#Sep-25-improv}
+
+* **Expressão para regras de limitação de decisão** - Agora você pode criar suas próprias expressões para definir o limite de uma regra de limitação para um item de decisão. [Leia mais](../experience-decisioning/items.md#capping)
 
 * **Administração**
 
