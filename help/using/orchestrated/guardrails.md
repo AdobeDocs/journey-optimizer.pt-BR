@@ -5,10 +5,10 @@ title: Medidas de proteção e limitações para campanhas orquestradas
 description: Saiba mais sobre as medidas de proteção e limitações das campanhas orquestradas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 2%
+source-wordcount: '460'
+ht-degree: 1%
 
 ---
 
@@ -31,31 +31,31 @@ Abaixo você encontrará medidas de proteção e limitações adicionais para us
 
 * Os esquemas usados para direcionamento devem conter pelo menos **um campo de identidade do tipo`String`**, mapeado para um namespace de identidade definido.
 
-### Ingestão de dados
+* O número médio de atributos por esquema **não deve exceder 50 colunas** para manter a capacidade de gerenciamento e o desempenho.
+
+### Assimilação de dados
 
 * É necessária a assimilação de perfil + dados relacionais.
 
 * Toda assimilação deve ocorrer via **fontes do Change Data Capture**:
 
-   * Para **baseado em arquivo**: o campo `_change_request_type` é obrigatório.
+   * Para **baseado em arquivo**: o campo `_change_request_type` é obrigatório. Os valores com suporte são `U` (substituição) ou `D` (exclusão).
 
    * Para **baseado em nuvem**: o log de tabela deve estar habilitado.
 
-* **Não há suporte para atualizações diretas no Snowflake ou em conjuntos de dados**. O sistema é somente leitura. Todas as alterações devem ser aplicadas por meio do Change Data Capture.
-
-* **Não há suporte para processos ETL**. Os dados devem ser totalmente transformados no formato necessário antes da assimilação.
-
-* **Não são permitidas atualizações parciais**. Cada linha deve ser fornecida como um registro completo.
+* **Não são permitidas atualizações parciais de registros**. Cada linha deve ser fornecida como um registro completo.
 
 * A assimilação em lote para a Orquestração de campanha é limitada a **uma vez a cada 15 minutos**.
 
-* A latência de assimilação, tempo desde a assimilação até a disponibilidade no Snowflake, normalmente varia de **15 minutos a 2 horas**, dependendo do(a):
+* A latência de assimilação, no armazenamento relacional, normalmente varia de **15 minutos a 2 horas**, dependendo de:
 
    * Volume de dados
 
    * Simultaneidade do sistema
 
    * Tipo de operação, por exemplo, inserções são mais rápidas que atualizações
+
+* **A relação entre o fluxo de dados e o conjunto de dados é de 1 a 1**. Isso significa que apenas uma fonte pode alimentar um conjunto de dados em um determinado momento. Para alternar a origem, o fluxo de dados existente deve ser excluído e um novo fluxo de dados deve ser criado com a nova origem.
 
 ### Modelagem de dados
 
@@ -75,7 +75,7 @@ Abaixo você encontrará medidas de proteção e limitações adicionais para us
 
 * **Os limites são aplicados ao número de atributos de perfil** que podem ser usados em lotes e públicos de streaming para manter a eficiência do sistema.
 
-* **Lista de Valores (LOVs)** e **enumerações** são totalmente compatíveis.
+* **Enumerações** são totalmente compatíveis.
 
 * **Os públicos-alvo de leitura não são armazenados em cache**, cada execução de campanha aciona uma avaliação completa do público-alvo a partir dos dados subjacentes.
 

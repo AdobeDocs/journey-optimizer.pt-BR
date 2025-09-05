@@ -5,10 +5,10 @@ title: Etapas de configuração
 description: Saiba como criar um esquema relacional no Adobe Experience Platform fazendo upload de uma DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 58%
+source-wordcount: '1041'
+ht-degree: 52%
 
 ---
 
@@ -39,6 +39,19 @@ Os uploads de arquivo de esquema baseados em Excel são compatíveis. Baixe o [m
 
 * **ENUMERAÇÃO**\
   Os campos ENUM são suportados na criação de esquema manual e baseado em DDL, permitindo que você defina atributos com um conjunto fixo de valores permitidos.
+Exemplo:
+
+  ```
+  CREATE TABLE orders (
+  order_id     INT NOT NULL,
+  product_id   INT NOT NULL,
+  order_date   DATE NOT NULL,
+  customer_id  INT NOT NULL,
+  quantity     INT NOT NULL,
+  order_status enum ('PENDING', 'SHIPPED', 'DELIVERED', 'CANCELLED'),
+  PRIMARY KEY (order_id, product_id)
+  );
+  ```
 
 * **Rótulo do esquema para governança de dados**\
   A rotulagem é compatível no nível do campo de esquema para aplicar políticas de governança de dados, como controle de acesso e restrições de uso. Para obter mais detalhes, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
@@ -61,9 +74,10 @@ Os uploads de arquivo de esquema baseados em Excel são compatíveis. Baixe o [m
 1. Selecione **[!UICONTROL Fazer upload de arquivo DDL]** para definir um diagrama de relações de entidades e criar esquemas.
 
    A estrutura da tabela precisa conter:
-   * Pelo menos uma chave primária
+   * Pelo menos uma chave primária.
    * Um identificador de versão, como um campo `lastmodified` do tipo `datetime` ou `number`.
-   * Para assimilação do Change Data Capture (CDC), uma coluna especial chamada `_change_request_type` do tipo `String`, que indica o tipo de alteração de dados (por exemplo, inserir, atualizar, excluir) e habilita processamento incremental
+   * Para a assimilação do CDC (Change Data Capture), uma coluna especial chamada `_change_request_type` do tipo `String`, que indica o tipo de alteração de dados (por exemplo, inserir, atualizar, excluir) e habilita o processamento incremental.
+   * O arquivo DDL não deve definir mais de 200 tabelas.
 
 
    >[!IMPORTANT]
@@ -79,9 +93,13 @@ Os uploads de arquivo de esquema baseados em Excel são compatíveis. Baixe o [m
 
 1. Configure cada esquema e suas colunas, certificando-se de que uma chave primária seja especificada.
 
-   Um atributo, como `lastmodified`, precisa ser designado como descritor de versão. Esse atributo, normalmente do tipo `datetime`, `long` ou `int`, é essencial para processos de ingestão, a fim de garantir que o conjunto de dados seja atualizado com a versão mais recente dos dados.
+   Um atributo, como `lastmodified`, deve ser designado como descritor de versão (tipo `datetime`, `long` ou `int`) para garantir que os conjuntos de dados sejam atualizados com os dados mais recentes. Os usuários podem alterar o descritor de versão, que se torna obrigatório depois de definido. Um atributo não pode ser uma chave primária (PK) e um descritor de versão ao mesmo tempo.
 
    ![](assets/admin_schema_2.png)
+
+1. Marcar um atributo como `identity` e mapeá-lo para um namespace de identidade definido.
+
+1. Renomeie, exclua ou adicione uma descrição a cada tabela.
 
 1. Clique em **[!UICONTROL Concluído]** quando terminar.
 
@@ -94,6 +112,10 @@ Para definir conexões lógicas entre tabelas no esquema, siga as etapas abaixo.
 1. Acesse a visualização da tela do seu modelo de dados e escolha as duas tabelas que deseja vincular
 
 1. Clique no botão ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) ao lado da associação de origem e arraste e guie a seta em direção à associação de público-alvo para estabelecer a conexão.
+
+   >[!NOTE]
+   >
+   >As chaves compostas terão suporte se forem definidas no arquivo DDL.
 
    ![](assets/admin_schema_5.png)
 
