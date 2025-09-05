@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 152ff131334b5ad62df3e63e4ad529950f522f5a
+source-git-commit: c6179566226331d2169c3abc50a069262db80d85
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 70%
+source-wordcount: '2011'
+ht-degree: 68%
 
 ---
 
@@ -83,6 +83,12 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 </tr>
 </tbody>
 </table>
+
+### Aprimoramentos {#Sept-25-8-improv}
+
+* **Administração**
+
+  **Alertas de monitoramento de configuração de canal** - Agora você pode assinar para receber alertas do sistema por email ou na central de notificações da Journey Optimizer, caso ocorra um erro de configuração de canal de email usando o tipo de delegação de subdomínio personalizado. [Leia mais](../reports/alerts.md#alert-dns-record-missing)
 
 ## Notas de versão de agosto de 2025 {#25-8-rn}
 
