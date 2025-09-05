@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
+source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '2063'
 ht-degree: 67%
 
 ---
@@ -90,6 +90,10 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 ### Aprimoramentos {#Sep-25-improv}
 
 * **Expressão para regras de limitação de decisão** - Agora você pode criar suas próprias expressões para definir o limite de uma regra de limitação para um item de decisão. [Leia mais](../experience-decisioning/items.md#capping)
+
+  >[!NOTE]
+  >
+  >No momento, esse recurso está disponível como uma Disponibilidade limitada para todos os usuários.
 
 * **Administração**
 
