@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
+source-git-commit: ef042e3a93dccc29d66eb9ab7d837f7914a8959d
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2753'
 ht-degree: 15%
 
 ---
@@ -76,7 +76,7 @@ Por exemplo, se você definir as seguintes restrições:
 >title="Sobre a elegibilidade da oferta"
 >abstract="Nesta seção, é possível usar regras de decisão para definir as pessoas elegíveis para receber a oferta."
 
-<!--additional-url="https://video.tv.adobe.com/v/341377?captions=por_br" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -105,7 +105,7 @@ A seção **[!UICONTROL Qualificação da oferta]** permite restringir a oferta 
 
   >[!CAUTION]
   >
-  >No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
+  >No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
 
 Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
 
@@ -273,7 +273,7 @@ Por exemplo, considere a região do hub da sua organização como *NLD2* e você
 
 >[!NOTE]
 >
->Quando os contadores são propagados de borda a hub ou de hub a região de borda, um atraso de alguns minutos pode ser aplicado.
+>Quando os contadores são propagados de borda a hub ou de hub a região de borda, um atraso de até 30 minutos pode ser aplicado.
 
 Para obter mais informações sobre quais regiões de hub e borda estão associadas à sua organização, entre em contato com o representante da Adobe.
 
