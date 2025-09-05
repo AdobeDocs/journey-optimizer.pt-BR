@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: f622f81e3b31ca9eb4a4ae75c4edf6a10b4b286a
+source-git-commit: 17e3c3e123415b6fb464fbf5de1ab3882a3ad73e
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 3%
@@ -71,7 +71,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
 ## Gerar imagem semelhante
 
-![](assets/do-not-localize/uc-image-similar.gif)
+<!--![](assets/do-not-localize/uc-image-similar.gif)-->
 
 1. Depois de configurar sua campanha, selecione **[!UICONTROL Editar conteúdo]**.
 
