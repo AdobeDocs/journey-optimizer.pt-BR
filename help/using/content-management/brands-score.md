@@ -76,6 +76,6 @@ O vídeo abaixo mostra como criar e personalizar suas próprias marcas para defi
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470551/?learn=on&captions=por_br)
 
 +++

@@ -195,6 +195,6 @@ O vídeo abaixo mostra como criar uma jornada do WhatsApp em várias etapas usan
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470287/?learn=on&captions=por_br")
 
 +++
