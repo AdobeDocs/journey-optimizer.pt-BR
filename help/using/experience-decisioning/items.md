@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2186'
 ht-degree: 12%
 
 ---
@@ -108,6 +108,11 @@ Ao selecionar públicos ou regras de decisão, você pode ver informações sobr
 >As estimativas de perfil não estão disponíveis quando os parâmetros da regra incluem dados que não estão no perfil, como dados de contexto. Por exemplo, uma regra de elegibilidade que exige que o tempo atual seja ≥ 80 graus.
 
 ## Definir regras de limitação {#capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_expression"
+>title="Expressão"
+>abstract="Em vez de usar um valor estático para o limite de limite, você pode definir sua própria expressão. Isso permite calcular o limite dinamicamente usando atributos de decisão e/ou atributos externos de um conjunto de dados da Adobe Experience Platform.<br/><br/>A regra de limite **expressões** estão disponíveis no momento como uma Disponibilidade limitada para todos os usuários. Eles só têm suporte para o tipo de limite **[!UICONTROL No total]**."
 
 O limite é usado como uma restrição para definir o número máximo de vezes que um item de oferta pode ser apresentado. Limitar o número de vezes que os usuários obtêm ofertas específicas permite evitar o excesso de solicitações de seus clientes e, portanto, otimizar cada ponto de contato com a melhor oferta. Você pode criar até 10 limites para um determinado item de decisão.
 

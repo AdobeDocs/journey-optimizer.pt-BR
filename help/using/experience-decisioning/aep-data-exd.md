@@ -10,24 +10,39 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 19%
+source-wordcount: '1132'
+ht-degree: 7%
 
 ---
 
 # Usar dados da Adobe Experience Platform para o serviço de decisão {#aep-data}
 
 >[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset"
+>title="Pesquisa de conjunto de dados
+>abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset_create"
+>title="Pesquisa de conjunto de dados"
+>abstract="Selecione o conjunto de dados com os atributos necessários entre todos os conjuntos de dados do Adobe Experience Platform que foram ativados para pesquisa e selecione uma chave de mapeamento (por exemplo, número do voo ou ID do cliente) que exista nos atributos do item de decisão e no conjunto de dados.&quot;
+
+>[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="Pesquisa de conjunto de dados"
->abstract="Usar dados da Adobe Experience Platform em regras de decisão permite definir critérios de elegibilidade com base em atributos dinâmicos e externos, garantindo que os itens de decisão sejam exibidos somente quando forem relevantes. Crie um mapeamento para definir como o conjunto de dados da Adobe Experience Platform se une aos dados em [!DNL Journey Optimizer]. Selecione o conjunto de dados com os atributos necessários e escolha uma chave de associação que exista nos atributos do item de decisão e no conjunto de dados."
+>abstract="Selecione o conjunto de dados do Adobe Experience Platform com os atributos necessários. Se o conjunto de dados não for exibido na lista, verifique se ele foi habilitado para pesquisa e se você criou um mapeamento de pesquisa de conjunto de dados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Pesquisa de conjunto de dados"
->abstract="As fórmulas de classificação definem a prioridade dos itens de decisão. Ao usar atributos de conjunto de dados do [!DNL Adobe Experience Platform], é possível ajustar dinamicamente a lógica de classificação para refletir condições reais. Crie um mapeamento para definir como o conjunto de dados da Adobe Experience Platform se associa aos dados em [!DNL Journey Optimizer]. Selecione o conjunto de dados com os atributos necessários e escolha uma chave de associação que exista nos atributos do item de decisão e no conjunto de dados"
+>abstract="Use atributos de conjuntos de dados [!DNL Adobe Experience Platform] para ajustar dinamicamente a lógica de classificação para refletir condições reais. Clique em **[!UICONTROL Adicionar conjunto de dados]** para selecionar o conjunto de dados do Adobe Experience Platform com os atributos necessários. Se o conjunto de dados não for exibido na lista, verifique se ele foi habilitado para pesquisa e se você criou um mapeamento de pesquisa de conjunto de dados."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_dataset"
+>title="Adicionar conjunto de dados&quot;
+>abstract="Use atributos de conjuntos de dados [!DNL Adobe Experience Platform] para definir critérios de limite com base em atributos dinâmicos e externos. Clique em **[!UICONTROL Adicionar conjunto de dados]** para selecionar o conjunto de dados do Adobe Experience Platform com os atributos necessários. Se o conjunto de dados não for exibido na lista, verifique se ele foi habilitado para pesquisa e se você criou um mapeamento de pesquisa de conjunto de dados.&quot;
 
 >[!AVAILABILITY]
 >
@@ -55,7 +70,7 @@ Para usar atributos do Adobe Experience Platform para a tomada de decisões, é 
 
 1. Configure o mapeamento:
 
-   1. Clique em **[!UICONTROL Selecionar conjunto de dados]** para exibir todas as Adobe Experience Platform que foram habilitadas para pesquisa. Selecione o conjunto de dados com os atributos necessários.
+   1. Clique em **[!UICONTROL Selecionar conjunto de dados]** para exibir todos os conjuntos de dados do Adobe Experience Platform que foram habilitados para pesquisa. Selecione o conjunto de dados com os atributos necessários.
 
    1. Clique em **[!UICONTROL Selecionar chave]** para escolher uma chave de associação (por exemplo, número do voo ou ID do cliente) que exista nos atributos do item de decisão e no conjunto de dados.
 

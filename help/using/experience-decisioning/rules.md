@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 20%
+source-wordcount: '549'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Criar regras de decisão"
->abstract="As regras de decisão permitem definir o público-alvo dos itens de decisão aplicando restrições diretamente no nível do item de decisão ou em uma estratégia de seleção específica. Isso permite controlar com precisão quais itens devem ser apresentados a quem."
+>abstract="As regras de decisão permitem definir o público-alvo dos itens de decisão aplicando restrições diretamente no nível do item de decisão ou em uma estratégia de seleção específica. Isso permite controlar com precisão quais itens devem ser apresentados a quem.<br/><br/>Selecione **[!UICONTROL Criar regra com conjunto de dados]** para usar os dados do Adobe Experience Platform nas regras de decisão. Isso permite definir critérios de qualificação com base em atributos dinâmicos e externos, garantindo que os itens de decisão sejam exibidos somente quando relevantes."
 
 ## Sobre as regras de decisão {#about}
 
