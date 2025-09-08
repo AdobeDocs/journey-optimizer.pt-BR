@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 35%
+source-wordcount: '816'
+ht-degree: 34%
 
 ---
 
@@ -21,13 +21,18 @@ ht-degree: 35%
 
 Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal para a sua mensagem e definir configurações adicionais, como rastreamento, experimento de conteúdo ou conteúdo multilíngue.
 
+
+
 1. **Escolher o canal**
 
    Navegue até a guia **[!UICONTROL Ações]**, clique no botão **[!UICONTROL Adicionar ação]** e selecione o canal de comunicação.
 
    ![](assets/create-campaign-add-action.png)
 
+
    >[!NOTE]
+   >
+   >Os canais com suporte são: [Email](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notificações por push](../push/get-started-push.md), [WhatsApp](../whatsapp/get-started-whatsapp.md), [LINE](../line/get-started-line.md), [Correspondência direta](../direct-mail/get-started-direct-mail.md), [No aplicativo](../in-app/get-started-in-app.md), [Web](../web/get-started-web.md), [Experiências baseadas em código](../code-based/get-started-code-based.md).
    >
    >Os canais disponíveis variam com base no modelo de licenciamento e nos complementos.
 

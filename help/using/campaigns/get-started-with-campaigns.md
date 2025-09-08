@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d07d4c2001bd9e9d08539788073757bc1034c9ec
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 89%
+source-wordcount: '753'
+ht-degree: 85%
 
 ---
 
@@ -66,7 +66,7 @@ Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a u
 
 * **Campanhas de ação**
 
-  As campanhas de ação (ou campanhas programadas) permitem criar comunicações ad-hoc simples em lote para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, comunicados, avisos legais ou atualizações de políticas.
+  As campanhas de ação (ou campanhas programadas) permitem comunicações em lote ad hoc simples para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, anúncios, avisos legais ou atualizações de políticas. Os canais compatíveis são:
 
 * **Campanhas acionadas por API**
 
