@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: d07d4c2001bd9e9d08539788073757bc1034c9ec
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '750'
+ht-degree: 89%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campanha"
->abstract="**Campanhas programadas** são executadas imediatamente ou em uma data especificada e devem enviar mensagens de marketing. Campanhas **acionadas por API** são executadas usando uma chamada de API. O objetivo é enviar mensagens de marketing (mensagens promocionais que exigem o consentimento da pessoa) ou mensagens transacionais (mensagens não comerciais, que também podem ser enviadas a perfis não assinantes em contextos específicos)."
+>abstract="Selecione o tipo de campanha. Os canais disponíveis variam de acordo com o tipo selecionado. <br>**Campanhas agendadas** (Campanhas de ação) - Ideal para comunicações em lote simples e únicas que você pode agendar para execução em um horário específico.<br>**Campanhas acionadas por API** - Ativadas por meio de uma chamada de API, permitindo o envio automatizado de mensagens baseadas em eventos diretamente de sistemas externos.<br>**Campanhas orquestradas** - Forneça uma tela visual de arrastar e soltar para projetar e automatizar fluxos de trabalho de marketing complexos, com várias etapas, desde a segmentação de público até a entrega personalizada de mensagens entre canais."
 
 Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado.
 

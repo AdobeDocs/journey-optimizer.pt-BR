@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
+source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 15%
+source-wordcount: '1863'
+ht-degree: 14%
 
 ---
 
@@ -37,11 +37,6 @@ Ver todos os status e alertas da campanha [nesta seção](#statuses).
 
 
 ## Acessar campanhas {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_view"
->title="Visualizações de campanhas em lista e calendário"
->abstract="Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma visualização do calendário das suas campanhas, oferecendo uma representação visual clara dos cronogramas. Você pode alternar entre as visualizações em lista e calendário a qualquer momento, usando estes botões."
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
@@ -89,15 +84,15 @@ A ![imagem que mostra o botão “Mais ações”](assets/do-not-localize/rule-b
 
 ![imagem mostrando o inventário de campanhas](assets/inventory-actions.png)
 
-* **[!UICONTROL Exibir o relatório de todos os tempos]** / **[!UICONTROL Exibir o relatório das últimas 24 horas]** - Acesse relatórios para medir e visualizar o impacto e o desempenho de suas campanhas.
-* **[!UICONTROL Editar tags]**: edite as tags associadas à campanha.
-* **[!UICONTROL Duplicar]** - Em alguns casos, pode ser necessário duplicar uma campanha, por exemplo, para executar uma campanha Orquestrada que tenha sido interrompida.
-* **[!UICONTROL Excluir]**: exclua a campanha. Esta ação está disponível somente para campanhas do **[!UICONTROL Rascunho]**.
-* **[!UICONTROL Arquivar]**: arquive a campanha. Todas as campanhas arquivadas são excluídas em um prazo contínuo 30 dias após a data da última modificação. Essa ação está disponível para todas as campanhas, exceto **[!UICONTROL Rascunhos]** de campanha.
+* **[!UICONTROL Exibir o relatório de todos os tempos]** / **[!UICONTROL Exibir o relatório das últimas 24 horas]** - Acesse relatórios para medir e visualizar o impacto e o desempenho de suas campanhas. Saiba mais sobre [relatórios de campanha](../reports/campaign-global-report-cja.md).
+* **[!UICONTROL Editar marcas]** - Edita as marcas associadas à campanha. Saiba como [usar tags em suas campanhas](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL Duplicar]** - Use esta opção para duplicar uma campanha, por exemplo, para executar uma campanha Orquestrada que foi interrompida. [Saiba mais](#duplicate-a-campaign)
+* **[!UICONTROL Excluir]** - Use esta opção para excluir uma campanha. [Saiba mais](#delete-a-campaign)
+* **[!UICONTROL Arquivar]**: arquive a campanha. Todas as campanhas arquivadas são excluídas em um prazo contínuo 30 dias após a data da última modificação. Esta ação está disponível para todas as campanhas, exceto as campanhas de **[!UICONTROL Rascunho]**. Saiba mais sobre [arquivamento de campanha](#archive-a-campaign).
 
 Para campanhas acionadas por Ação e API, as ações adicionais abaixo estão disponíveis:
 
-* **[!UICONTROL Adicionar ao pacote]** - Adicione a campanha a um pacote para exportá-la para outra sandbox. [Exportar objetos para outra sandbox](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Adicionar ao pacote]** - Adicione a campanha a um pacote para exportá-la para outra sandbox. Saiba como [exportar objetos para outra sandbox](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Abrir versão de rascunho]** - Se uma nova versão da campanha tiver sido criada e ainda não tiver sido ativada, você poderá acessar sua versão de rascunho usando esta ação.
 
 ## Ciclo de vida da campanha {#statuses}
@@ -154,6 +149,11 @@ Quando ocorre um erro em uma de suas campanhas, um ícone de aviso é exibido ju
 ![](assets/campaign-alerts.png)
 
 ## Calendário de campanhas {#calendar}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="Visualizações de campanhas em lista e calendário"
+>abstract="Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma visualização do calendário das suas campanhas, oferecendo uma representação visual clara dos cronogramas. Você pode alternar entre as visualizações em lista e calendário a qualquer momento, usando estes botões."
 
 Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma exibição do calendário de suas campanhas, oferecendo uma representação visual clara de suas agendas.
 
@@ -244,3 +244,23 @@ Para evitar isso, você pode arquivar campanhas concluídas e interrompidas que 
 ![](assets/create-campaign-archive.png)
 
 As campanhas arquivadas podem ser recuperadas usando o filtro dedicado na lista.
+
+
+## Excluir uma campanha {#delete}
+
+Para excluir uma campanha, use as reticências ![imagem mostrando o botão Mais ações](assets/do-not-localize/rule-builder-icon-more.svg) e selecione **[!UICONTROL Excluir]**.
+
+![](assets/delete-a-campaign.png){width="70%" align="left"}
+
+>[!IMPORTANT]
+>
+>Esta opção está disponível somente para campanhas do **[!UICONTROL Rascunho]**.
+
+
+## Duplicar uma campanha {#duplicate}
+
+Para duplicar uma campanha, por exemplo, se ela tiver sido interrompida, use as reticências ![imagem que mostra o botão Mais ações](assets/do-not-localize/rule-builder-icon-more.svg) e selecione **[!UICONTROL Duplicar]**.
+
+Insira o nome da campanha e confirme.
+
+A campanha é criada e adicionada à lista de campanhas.
