@@ -94,7 +94,7 @@ Para mensagens no aplicativo, você pode usar o botão **[!UICONTROL Editar acio
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action"
 >title="Adicionar várias ações de entrada"
->abstract="Você pode selecionar várias ações de entrada em uma mesma campanha. Este recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da web para locais diferentes ao mesmo tempo, cada ação com um conteúdo específico."
+>abstract="Você pode selecionar várias ações de entrada em uma mesma campanha. Este recurso permite entregar várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da web para locais diferentes ao mesmo tempo, cada ação com um conteúdo específico."
 
 Para simplificar a orquestração de campanhas, você pode definir várias ações de entrada em uma única campanha, cada uma com um conteúdo específico.
 

@@ -13,16 +13,16 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
-# Usar a atividade Ação {#add-a-message-in-a-journey}
+# Usar a Atividade de ação {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="Atividade de ação"
->abstract="A atividade genérica **Action** permite configurar uma única ação de canal nativo e várias atividades de entrada com a capacidade de adicionar otimização a qualquer ação de canal incorporada."
+>abstract="A atividade genérica **Ação** permite configurar uma única ação de canal nativa e várias atividades de entrada com a capacidade de adicionar otimização a qualquer ação de canal integrada."
 
 >[!AVAILABILITY]
 >
@@ -137,7 +137,7 @@ Para mensagens no aplicativo, você pode usar o botão **[!UICONTROL Editar acio
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="Adicionar várias ações de entrada"
->abstract="É possível selecionar várias ações de entrada em uma única jornada. Este recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da web para locais diferentes ao mesmo tempo, cada ação com um conteúdo específico."
+>abstract="É possível selecionar várias ações de entrada em uma única jornada. Este recurso permite entregar várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da web para locais diferentes ao mesmo tempo, cada ação com um conteúdo específico."
 
 Para simplificar a orquestração de jornadas, é possível definir várias ações de entrada em uma única ação de jornada.
 

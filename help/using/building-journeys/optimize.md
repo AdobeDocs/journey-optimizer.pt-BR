@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '1220'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="Otimizar atividade"
->abstract="A atividade **Otimizar** permite definir como as pessoas avançam na sua jornada criando vários caminhos com base em critérios específicos, incluindo experimentação, direcionamento e condições específicas."
+>abstract="A Atividade **otimizar** permite definir como as pessoas avançam pela jornada ao criar vários caminhos com base em critérios específicos, incluindo experimentação, direcionamento e condições específicas. "
 
 >[!AVAILABILITY]
 >
@@ -241,7 +241,7 @@ Os clientes que compraram recentemente podem entrar em um caminho curto de &quot
 
 ## Adicionar uma condição {#conditions}
 
-Você pode adicionar uma condição para definir como as pessoas avançam pela jornada criando vários caminhos com base em critérios específicos. Você também pode configurar um caminho alternativo para lidar com tempos limite ou erros, garantindo uma experiência contínua.
+Você pode adicionar uma condição para definir como as pessoas avançam pela jornada criando vários caminhos com base em critérios específicos. Também é possível configurar um caminho alternativo para lidar com tempos limite ou erros, garantindo uma experiência contínua.
 
 ![](assets/journey-condition.png)
 

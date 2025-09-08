@@ -7,7 +7,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 17%
+ht-degree: 34%
 
 ---
 
@@ -24,12 +24,12 @@ Em situações em que um cliente se qualifica para muitas jornadas, campanhas ou
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Prioridade"
->abstract="Atribua uma pontuação de prioridade à campanha. A prioridade é essencial para priorizar uma campanha quando há uma restrição imposta, como um limite de frequência.</br>Insira um valor numérico (de 0 a 100). Observe que, quanto maior o número, maior a prioridade. Para situações em que duas campanhas têm a mesma pontuação de prioridade, a campanha que foi ativada primeiro será exibida."
+>abstract="Atribua uma pontuação de prioridade à campanha. A prioridade é essencial para priorizar uma campanha quando há uma restrição imposta, como um limite de frequência. </br>Insira um valor numérico (de 0 a 100). Observe que, quanto maior o número, maior a prioridade. Para situações em que duas campanhas têm a mesma pontuação de prioridade, a campanha que foi ativada primeiro será exibida."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioridade"
->abstract="Atribua uma pontuação de prioridade à jornada. A prioridade é essencial para priorizar uma jornada quando há uma restrição imposta, como um limite de frequência.</br>Insira um valor numérico (de 0 a 100). Observe que, quanto maior o número, maior a prioridade. Para situações em que duas jornadas têm a mesma pontuação de prioridade, a jornada que foi ativada primeiro será exibida."
+>abstract="Atribua uma pontuação de prioridade à jornada. A prioridade é essencial para priorizar uma jornada quando há uma restrição imposta, como um limite de frequência. </br>Insira um valor numérico (de 0 a 100). Observe que, quanto maior o número, maior a prioridade. Para situações em que duas jornadas têm a mesma pontuação de prioridade, a jornada que foi ativada primeiro será exibida."
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -54,7 +54,7 @@ Se você estava criando esta campanha e queria garantir que o conteúdo dela fos
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
 >title="Prioridade"
->abstract="Atribua uma pontuação de prioridade à ação de jornada. A prioridade é essencial para priorizar uma ação de entrada quando há várias ações ou campanhas do jornada usando a mesma configuração de canal.</br>Insira um valor numérico (de 0 a 100). Observe que, quanto maior o número, maior a prioridade. Por padrão, a pontuação de prioridade da ação é herdada da pontuação de prioridade geral da jornada."
+>abstract="Atribua uma pontuação de prioridade à ação da jornada. A prioridade é essencial para priorizar uma ação de entrada quando há várias ações de jornada ou campanhas com a mesma configuração de canais.</br>Insira um valor numérico (de 0 a 100). Observe que, quanto maior o número, maior a prioridade. Por padrão, a pontuação de prioridade da ação é herdada da pontuação de prioridade geral da jornada."
 
 O Journey Optimizer também permite atribuir uma pontuação de prioridade às ações do canal de entrada na atividade **[!UICONTROL Ação]**.
 
@@ -72,4 +72,4 @@ Para atribuir uma pontuação de prioridade às ações de entrada definidas na 
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445006?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
