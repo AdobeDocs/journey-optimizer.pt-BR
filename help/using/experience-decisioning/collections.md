@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7ecabe24cfb7e81e6760c9841c97353921c374bb
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 48%
+source-wordcount: '518'
+ht-degree: 36%
 
 ---
 
@@ -43,7 +43,16 @@ Para criar uma coleção, siga estas etapas:
 1. Adicione uma ou várias regras para determinar os itens a serem incluídos na coleção. Para fazer isso:
 
    1. Escolha um atributo de item para usar como critério. A lista de atributos inclui todos os atributos padrão e personalizados definidos no esquema de catálogo. [Saiba mais sobre o catálogo de itens](catalogs.md)
-   1. Selecione o operador desejado e insira o valor para filtrar.
+   1. Selecione o operador desejado e insira o valor para filtrar. Verifique explicitamente cada nome de oferta ou crie e atribua uma tag &quot;luma-summer&quot; a cada oferta.
+
+      >[!NOTE]
+      >
+      >O operador **CONTAINS** não dá suporte a correspondências parciais ou curingas. Funciona como um operador **IN**, o que significa que você deve fornecer uma matriz de valores exatos para o atributo.
+      >
+      >Por exemplo, digamos que você tenha várias ofertas de verão que deseja incluir em uma coleção: *&quot;luma-summer-yoga&quot;*, *&quot;luma-summer-fitness&quot;* e *&quot;luma-summer-running&quot;*. Para incluir esses itens, você precisa definir uma regra, como &quot;Nome da oferta&quot; CONTÉM &quot;luma-summer-yoga&quot;, &quot;luma-summer-fitness&quot;, &quot;luma-summer-running&quot;. Essa regra retorna somente as ofertas que correspondem exatamente a um dos nomes na lista.
+      >
+      >Se você precisar de uma correspondência parcial (por exemplo, todas as ofertas que contêm *&quot;luma-summer&quot;*), isso não é suportado no momento. Você precisa especificar explicitamente cada nome de oferta ou atribuir uma tag *&quot;luma-summer&quot;* a cada oferta e usar essa tag na sua regra.
+
    1. Repita essas etapas para adicionar quantas regras forem necessárias. Quando várias regras são adicionadas, você pode escolher entre os operadores **And** e **Or** para combiná-las. Para fazer isso, clique no selo do operador para alternar entre as duas opções.
    1. Clique no botão **[!UICONTROL Visualizar coleção]** para exibir os itens que atendem às regras definidas.
 
