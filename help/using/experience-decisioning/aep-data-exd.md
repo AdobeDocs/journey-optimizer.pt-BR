@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
+source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1161'
 ht-degree: 7%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
 >title="Pesquisa de conjunto de dados"
->abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+>abstract="Para usar atributos do Adobe Experience Platform para a tomada de decisões, é necessário criar um mapeamento para definir como o conjunto de dados do Adobe Experience Platform se une aos dados no [!DNL Journey Optimizer]."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="Pesquisa de conjunto de dados"
->abstract="Selecione o conjunto de dados com os atributos necessários entre todos os conjuntos de dados do Adobe Experience Platform que foram ativados para pesquisa e selecione uma chave de mapeamento (por exemplo, número do voo ou ID do cliente) que exista nos atributos do item de decisão e no conjunto de dados."
+>abstract="Selecione o conjunto de dados com os atributos necessários entre todos os conjuntos de dados do Adobe Experience Platform que foram habilitados para pesquisa e selecione uma chave de mapeamento (por exemplo, número do voo ou ID do cliente) que exista nos atributos do item de decisão e no conjunto de dados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
