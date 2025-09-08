@@ -32,7 +32,7 @@ Entregas de email podem ser criadas:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como criar um email
 
@@ -42,7 +42,7 @@ Guia passo a passo para adicionar, configurar e testar ações de email em jorna
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Projetar e otimizar conteúdo de email
 
@@ -52,7 +52,7 @@ Explore ferramentas e práticas recomendadas para criar conteúdo de email respo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Gerenciar opção de não participação de email
 
@@ -62,7 +62,7 @@ Configure mecanismos de recusa de um clique ou duas etapas para gerenciar as pre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar canal de email
 
@@ -72,7 +72,7 @@ Defina e gerencie configurações de email, como delegação de subdomínio, lis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Dominar a entregabilidade de email
 
