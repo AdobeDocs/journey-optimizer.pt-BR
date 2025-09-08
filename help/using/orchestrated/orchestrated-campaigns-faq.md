@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: a72ad0289df18df123832c5b83c301e539ebce60
+source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 4%
 
 ---
@@ -71,12 +71,12 @@ Você pode criar campanhas orquestradas para enviar **emails**, **SMS** e **noti
 
 ## Como as campanhas orquestradas são diferentes do Jornada? {#oc-vs-journeys}
 
-* **Campanhas orquestradas**: ideal para **campanhas em lote, de um para muitos**. Públicos-alvo inteiros se movem pela tela de campanha juntos.
+* **Campanhas orquestradas**: ideal para **campanhas em lote, de um para muitos**. Os públicos-alvo avançam em massa, de acordo com uma programação.
 * **Jornadas**: ideal para o engajamento **em tempo real, um para um**. Cada cliente percorre a jornada em seu próprio ritmo, acionado por comportamento ou eventos.
 
 >[!BEGINSHADEBOX]
 
-**Dica** - Muitas organizações usam **as duas opções juntas**—Jornadas para experiências acionadas e reativas e campanhas orquestradas para iniciativas planejadas baseadas em calendário.
+**Prática recomendada**: use-as juntas — Jornadas para experiências acionadas e reativas e Campanhas orquestradas para iniciativas planejadas baseadas em calendário.
 
 >[!ENDSHADEBOX]
 
@@ -160,7 +160,7 @@ No Campaign Orchestration, nós nos referimos à segmentação ad-hoc como &quot
 
 ## Isso apoia a tomada de decisões? {#decisioning}
 
-Atualmente, o decisioning não usa dados relacionais de campanhas orquestradas.
+Sim. A Decisão pode usar dados relacionais de campanhas orquestradas. Depois que o esquema relacional é conectado aos esquemas XDM, os dados XDM podem ser usados na tomada de decisão.
 
 ## Como funciona a implantação entre ambientes? {#deployment}
 
