@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '5119'
 ht-degree: 100%
@@ -149,7 +149,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
    * **Reorganização do inventário de campanhas**: campanhas programadas e acionadas por API agora são divididas em guias separadas no inventário de campanhas para facilitar a navegação e o gerenciamento.
 
-[Saiba mais](../campaigns/modify-stop-campaign.md)
+[Saiba mais](../campaigns/manage-campaigns.md)
 
 * **Gerenciamento de dados**
    * **Atualização de conjuntos de dados do sistema de gestão de decisões**: as ofertas personalizadas e substitutas excluídas agora são marcadas como arquivadas nos conjuntos de dados “decision_object_repository_personalized_offers” e “decision_object_repository_fallback_offers”. Os registros existentes no conjunto de dados não são alterados.
@@ -423,7 +423,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <p>Agora há uma exibição de calendário disponível nas listas de jornadas e campanhas. Ela permite ver todas as ativações de jornadas e campanhas nas respectivas listas.</p>
 <p>Essa alteração está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para solicitar acesso, use <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">este formulário</a>.</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>Para obter mais informações, consulte estas seções: <a href="../building-journeys/journey-ui.md">Procurar e filtrar jornadas</a>, <a href="../campaigns/modify-stop-campaign.md">Acessar campanhas</a>.</p>
+<p>Para obter mais informações, consulte estas seções: <a href="../building-journeys/journey-ui.md">Procurar e filtrar jornadas</a>, <a href="../campaigns/manage-campaigns.md">Acessar campanhas</a>.</p>
 <p>Data de disponibilidade: 28 de maio de 2025</p>
 </td>
 </tr>

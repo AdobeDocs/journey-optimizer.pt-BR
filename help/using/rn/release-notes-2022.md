@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -60,7 +60,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 **Campanhas**
 
-* Agora é possível arquivar campanhas concluídas e interrompidas. [Saiba mais](../campaigns/modify-stop-campaign.md#archive)
+* Agora é possível arquivar campanhas concluídas e interrompidas. [Saiba mais](../campaigns/manage-campaigns.md#archive)
 
 
 ## Versão de setembro de 2022{#sept-2022-release}
@@ -262,7 +262,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <td>
 <p>Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/3414156?captions=por_br">vídeo do recurso</a>.
+<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/346680">vídeo do recurso</a>.
 </td>
 </tr>
 </tbody>
@@ -465,7 +465,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar o recurso Email Cco (com cópia oculta) para armazenar emails enviados pelo Adobe Journey Optimizer. Ative essa opção nas predefinições de email para que cada email enviado seja copiado de forma oculta para o endereço do Cco.</p>
+<p>Agora você pode usar o recurso Email Cco (com cópia oculta) para armazenar emails enviados pelo Adobe Journey Optimizer. Habilite essa opção nas predefinições de email para que cada email enviado seja copiado de forma oculta para o endereço do Cco.</p>
 <p>Para obter mais informações, consulte a <a href="../configuration/archiving-support.md#bcc-email">documentação detalhada</a>.</p>
 </td>
 </tr>

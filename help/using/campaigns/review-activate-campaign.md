@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: campaign, review, validation, ativating, ativating, otimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 3%
@@ -41,7 +41,7 @@ Depois que a campanha Action for configurada, é necessário revisar o parâmetr
 
    O status **[!UICONTROL Concluído]** é atribuído automaticamente à campanha três dias após sua ativação ou na data final da campanha, se ela tiver uma execução recorrente. [Saiba mais sobre os status das campanhas](get-started-with-campaigns.md#statuses).
 
-   Se nenhuma data final tiver sido especificada, a campanha manterá o status **[!UICONTROL Ativo]**. Para alterá-la, é necessário interromper a campanha manualmente. [Saiba como interromper uma campanha](modify-stop-campaign.md)
+   Se nenhuma data final tiver sido especificada, a campanha manterá o status **[!UICONTROL Ativo]**. Para alterá-la, é necessário interromper a campanha manualmente. [Saiba como interromper uma campanha](manage-campaigns.md)
 
 1. Depois que uma campanha é ativada, você pode verificar as informações a qualquer momento abrindo-a. O resumo permite obter estatísticas sobre o número de perfis segmentados e ações entregues e com falha.
 

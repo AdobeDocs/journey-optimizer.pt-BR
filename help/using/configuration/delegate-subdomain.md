@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomínio, delegação, domínio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 18%
@@ -253,7 +253,7 @@ Primeiro, execute as seguintes etapas no [!DNL Journey Optimizer]:
 
    Você precisa levantar uma solicitação dedicada para cada [página de aterrissagem](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) ou [subdomínio da Web](../web/web-delegated-subdomains.md#undelegate-subdomain).
 
-1. Interrompa as campanhas ativas associadas aos subdomínios. [Saiba como](../campaigns/modify-stop-campaign.md#stop)
+1. Interrompa as campanhas ativas associadas aos subdomínios. [Saiba como](../campaigns/manage-campaigns.md#stop)
 
 1. Interrompa as jornadas ativas associadas aos subdomínios. [Saiba como](../building-journeys/end-journey.md#stop-journey)
 
@@ -276,4 +276,4 @@ Depois que a solicitação for tratada pela Adobe, o domínio não delegado não
 
 Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342240?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

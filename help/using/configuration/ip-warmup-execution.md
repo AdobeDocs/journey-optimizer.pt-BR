@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '2635'
 ht-degree: 11%
@@ -162,7 +162,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Como opção, você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada caso haja atrasos na [avaliação do público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#how-segmentation-works){target="_blank"}. Para fazer isso, clique no ícone Propriedades na parte superior esquerda, ao lado do nome do plano e use a lista suspensa **[!UICONTROL Tentar novamente o tempo de execução]** para selecionar uma duração - até 240 minutos (4 horas).
+1. Como opção, você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada caso haja atrasos na [avaliação do público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Para fazer isso, clique no ícone Propriedades na parte superior esquerda, ao lado do nome do plano e use a lista suspensa **[!UICONTROL Tentar novamente o tempo de execução]** para selecionar uma duração - até 240 minutos (4 horas).
 
    >[!NOTE]
    >
@@ -220,7 +220,7 @@ Para ativar uma execução, selecione o botão **[!UICONTROL Ativar]**. Em segui
 
 Ao executar vários planos de aquecimento de IP simultaneamente, todos direcionados ao mesmo pool de IP e domínios, é fundamental antecipar as possíveis consequências. Por exemplo, se um ISP impor um limite diário de 100 emails, a execução de vários planos direcionados aos mesmos domínios poderá ultrapassar esse limite.
 
-Certifique-se de ter agendado tempo suficiente para permitir que a [avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#how-segmentation-works){target="_blank"} seja executada.
+Certifique-se de ter agendado tempo suficiente para permitir que a [avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} seja executada.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -304,7 +304,7 @@ Em geral, para medir o impacto do seu plano, você pode verificar o desempenho d
 
 ![](assets/ip-warmup-plan-reports.png)
 
-Você também pode acessar os relatórios do [menu Campanhas](../campaigns/modify-stop-campaign.md#access), pois seu plano pode usar campanhas diferentes.
+Você também pode acessar os relatórios do [menu Campanhas](../campaigns/manage-campaigns.md#access), pois seu plano pode usar campanhas diferentes.
 
 
 ## Gerencie seu plano {#manage-plan}
