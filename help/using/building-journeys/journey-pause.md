@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2429'
 ht-degree: 6%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 6%
 >abstract="Pause uma jornada em tempo real para impedir a entrada de novos perfis. Escolha se deseja descartar os perfis que estão atualmente na jornada ou mantê-los no lugar. Se retidos, eles retomarão a execução na próxima atividade de ação depois que a jornada for reiniciada. Perfeito para atualizações ou interrupções de emergência sem perder o progresso."
 
 Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante a pausa, você pode [aplicar os critérios de saída do atributo de perfil](#journey-exit-criteria) para excluir perfis com base em seus atributos. A jornada é retomada automaticamente no final do período de pausa. Você também pode [retomá-lo manualmente](#journey-resume-steps).
-
-
 
 ## Principais benefícios {#journey-pause-benefits}
 
@@ -91,6 +89,9 @@ Quando uma jornada é pausada, o gerenciamento de perfil e a execução da ativi
 | [Atualizar perfil](update-profiles.md) e [Pular](jump.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
 | [Source de Dados Externos](../datasource/external-data-sources.md) | Mesmo comportamento que em uma jornada em tempo real |
 | [Critério de saída](journey-properties.md#exit-criteria) | Mesmo comportamento que em uma jornada em tempo real |
+
+
+Saiba como solucionar problemas de descartes em [esta seção](#discards-troubleshoot).
 
 ## Como retomar uma jornada pausada {#journey-resume-steps}
 
@@ -195,3 +196,50 @@ Ao retomar esta jornada:
 
 1. As novas entradas de jornada começam em um minuto.
 1. Os perfis que estavam aguardando na jornada em **Atividades de ação** são retomados a uma taxa de 5 mil tps. Eles podem inserir a **Ação** que estavam esperando e continuar a jornada.
+
+## Solução de problemas de descartes de perfis em jornadas pausadas  {#discards-troubleshoot}
+
+Você pode usar o [Serviço de consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
+
+* Para descartes que ocorrem antes que o perfil entre na jornada, use o seguinte código:
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'PAUSED_JOURNEY_VERSION'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId>  
+  ```
+
+  Isso listará as descartes que ocorreram no ponto de entrada da jornada:
+
+   1. Quando uma jornada de público-alvo está em execução e o primeiro nó ainda está em processamento, se a jornada estiver pausada, todos os perfis não processados serão descartados.
+
+   1. Quando um novo evento unitário chega ao nó de início (para acionar uma entrada) enquanto a jornada está pausada, o evento é descartado.
+
+* Para que os descartes ocorram quando o perfil já estiver na jornada, use o seguinte código:
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'JOURNEY_IN_PAUSED_STATE'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId> 
+  ```
+
+  Esse comando lista as descartes que ocorrem quando perfis estão em uma jornada:
+
+   1. Se a jornada estiver pausada com a opção de descarte ativada e um perfil já tiver sido inserido antes da pausa, esse perfil será descartado quando atingir o nó da próxima ação.
+
+   1. Se a jornada foi pausada com a opção de suspensão selecionada, mas os perfis foram descartados porque excederam a cota de 10 milhões, esses perfis ainda serão descartados quando atingirem o próximo nó de ação.
+
+
+
