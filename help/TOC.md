@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: d7a291fc8e203b2e5b77969b406591544882b26e
 workflow-type: tm+mt
-source-wordcount: '2899'
-ht-degree: 98%
+source-wordcount: '2903'
+ht-degree: 99%
 
 ---
 
@@ -304,6 +304,7 @@ ht-degree: 98%
    + [Introdução a canais de comunicação](using/channels/gs-channels.md)
    + Canal de email {#email}
       + [Canal de email](/help/rp_landing_pages/email-landing-page.md)
+      + [Introdução a emails](using/email/get-started-email.md)
       + [Criar um email](using/email/create-email.md)
       + Projetar o conteúdo do email {#design-email}
          + [Projetar o conteúdo do email](/help/rp_landing_pages/design-email-landing-page.md)
