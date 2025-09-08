@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
 workflow-type: tm+mt
-source-wordcount: '1742'
-ht-degree: 16%
+source-wordcount: '1772'
+ht-degree: 15%
 
 ---
 
@@ -23,7 +23,7 @@ Antes de começar com campanhas, verifique os seguintes pré-requisitos listados
 
 * **Acessar campanhas**. Você pode acessar campanhas da [lista de campanhas](#access) ou do [calendário da campanha](#calendar).
 
-* **Crie a campanha**. As etapas de criação dependem do [tipo de campanha](get-started-with-campaigns.md#get-started-with-campaigns) que você criar. Saiba como criar uma [campanha de ação](../campaigns/create-campaign.md), uma [campanha acionada por API](../campaigns/api-triggered-campaigns.md) ou uma [campanha orquestrada](../orchestrated/create-orchestrated-campaign.md).
+* **Crie a campanha**. As etapas de criação dependem do [tipo de campanha](get-started-with-campaigns.md#get-started-with-campaigns). Saiba como criar uma [campanha de ação](../campaigns/create-campaign.md), uma [campanha acionada por API](../campaigns/api-triggered-campaigns.md) ou uma [campanha orquestrada](../orchestrated/create-orchestrated-campaign.md).
 
 * **Definir as propriedades da campanha**. Saiba como definir propriedades para uma [campanha de ação](../campaigns/campaign-properties.md), para uma [campanha acionada por API](../campaigns/api-triggered-campaign-properties.md) ou para uma [campanha orquestrada](../orchestrated/create-orchestrated-campaign.md).
 
@@ -53,7 +53,7 @@ Ver todos os status e alertas da campanha [nesta seção](#statuses).
 >title="Ação"
 >abstract="Esta seção lista todas as ações usadas na campanha orquestrada."
 
-As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**.
+As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**. Use as guias para procurar campanhas, por tipo: **Campanhas de Ação**, **Campanhas acionadas por API** e **Campanhas orquestradas**. Saiba mais sobre o [tipo de campanha](get-started-with-campaigns.md#get-started-with-campaigns). Os tipos disponíveis dependem do contrato de licença e das permissões.
 
 >[!BEGINTABS]
 
