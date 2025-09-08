@@ -10,9 +10,9 @@ level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1048'
 ht-degree: 1%
 
 ---
@@ -64,6 +64,8 @@ A página de detalhes do experimento está dividida na seguinte seção:
 
 ![](assets/experiment-monitor-outcome.png)
 
+O **[!UICONTROL resultado do experimento]** fornece uma visão rápida da variação vencedora no seu experimento.
+
 ### Configuração {#set-up}
 
 ![](assets/experiment-monitor-hypothesis.png)
@@ -112,7 +114,7 @@ Na parte inferior do widget, você encontrará um resumo conciso da sua configur
 
 * **[!UICONTROL Público-alvo]**: os segmentos de usuários definidos direcionados durante o experimento.
 
-## Oportunidades {#opportunities}
+### Oportunidades {#opportunities}
 
 >[!AVAILABILITY]
 >
@@ -175,7 +177,6 @@ A tabela **[!UICONTROL Resultados]** fornece uma análise detalhada do desempenh
 >O recurso Insights de experimentação é limitado a experimentos com alterações baseadas em texto.
 
 ![](assets/experiment-monitor-insights.png)
-
 
 **[!UICONTROL Insights de experimento]** são aprendizados gerados por IA derivados deste experimento. Esses insights ficam disponíveis assim que o experimento atinge significância estatística e fornece compreensão contextual do que contribuiu para seu sucesso. Eles destacam os principais atributos presentes no tratamento vencedor, distintos do controle, que provavelmente influenciaram o resultado.
 

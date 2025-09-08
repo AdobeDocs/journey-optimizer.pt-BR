@@ -10,9 +10,9 @@ level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '960'
 ht-degree: 1%
 
 ---
@@ -67,13 +67,13 @@ Observe que os usuários somente com uma licença do Target podem acessá-la som
 </tr></table>
 -->
 
-## O Que É Teste A/B?
+## O que é teste A/B?
 
 O teste A/B é o processo de comparar duas ou mais versões de algo para determinar qual tem melhor desempenho em relação a uma meta definida.
 
 Os participantes são atribuídos aleatoriamente a uma versão, conhecida como variante, e seu comportamento é rastreado. Os resultados mostram se uma versão supera estatisticamente as outras.
 
-## Terminologia principal
+## Principal terminologia
 
 | Termo | Definição |
 |-|-|
@@ -119,7 +119,7 @@ Exemplo: _Acreditamos que alterar X aumentará Y devido a Z._
 
   Mantenha um registro claro do que foi testado, por quê e o que você aprendeu. Isso constrói o conhecimento institucional e evita erros recorrentes.
 
-## Métricas comuns e o que elas indicam
+## Métricas comuns
 
 | Métrica | O que ele mede | Quando usar |
 |-|-|-|
@@ -136,11 +136,11 @@ Exemplo: _Acreditamos que alterar X aumentará Y devido a Z._
 Um bom experimento não apenas produz uma vitória, ele produz um aprendizado claro e acionável.
 Veja o que procurar:
 
-&check; **Confiança estatística**: é improvável que a diferença entre as variantes seja devido ao acaso.
-&check; **Alinhamento com metas**: a métrica primária reflete o progresso significativo em direção a um objetivo comercial.
-&check; **Impacto Secundário**: nenhum efeito colateral negativo significativo em métricas relacionadas.
-&check; **Escalabilidade**: o resultado pode informar decisões futuras ou ser generalizado para outras áreas.
-&check; **Clareza**: a causa do resultado é razoavelmente isolada e compreendida.
+&amp;check; **Confiança estatística**: é improvável que a diferença entre as variantes seja devido ao acaso.
+&amp;check; **Alinhamento com metas**: a métrica primária reflete o progresso significativo em direção a um objetivo comercial.
+&amp;check; **Impacto Secundário**: nenhum efeito colateral negativo significativo em métricas relacionadas.
+&amp;check; **Escalabilidade**: o resultado pode informar decisões futuras ou ser generalizado para outras áreas.
+&amp;check; **Clareza**: a causa do resultado é razoavelmente isolada e compreendida.
 
 Experimentação não é apenas encontrar a versão &quot;melhor&quot;, é sobre a construção de conhecimento através de testes e iteração. Quando bem feitos, os experimentos revelam insights que impulsionam decisões mais inteligentes, melhores experiências do usuário e resultados melhores.
 
