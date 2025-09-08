@@ -21,13 +21,13 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
->title="Pesquisa de conjunto de dados
+>title="Pesquisa de conjunto de dados"
 >abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="Pesquisa de conjunto de dados"
->abstract="Selecione o conjunto de dados com os atributos necessários entre todos os conjuntos de dados do Adobe Experience Platform que foram ativados para pesquisa e selecione uma chave de mapeamento (por exemplo, número do voo ou ID do cliente) que exista nos atributos do item de decisão e no conjunto de dados.&quot;
+>abstract="Selecione o conjunto de dados com os atributos necessários entre todos os conjuntos de dados do Adobe Experience Platform que foram ativados para pesquisa e selecione uma chave de mapeamento (por exemplo, número do voo ou ID do cliente) que exista nos atributos do item de decisão e no conjunto de dados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -41,8 +41,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="Adicionar conjunto de dados&quot;
->abstract="Use atributos de conjuntos de dados [!DNL Adobe Experience Platform] para definir critérios de limite com base em atributos dinâmicos e externos. Clique em **[!UICONTROL Adicionar conjunto de dados]** para selecionar o conjunto de dados do Adobe Experience Platform com os atributos necessários. Se o conjunto de dados não for exibido na lista, verifique se ele foi habilitado para pesquisa e se você criou um mapeamento de pesquisa de conjunto de dados.&quot;
+>title="Adicionar conjunto de dados"
+>abstract="Use atributos de conjuntos de dados [!DNL Adobe Experience Platform] para definir critérios de limite com base em atributos dinâmicos e externos. Clique em **[!UICONTROL Adicionar conjunto de dados]** para selecionar o conjunto de dados do Adobe Experience Platform com os atributos necessários. Se o conjunto de dados não for exibido na lista, verifique se ele foi habilitado para pesquisa e se você criou um mapeamento de pesquisa de conjunto de dados."
 
 >[!AVAILABILITY]
 >
