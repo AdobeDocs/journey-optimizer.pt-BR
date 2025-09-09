@@ -20,7 +20,7 @@ As atividades de campanha orquestrada no Adobe Journey Optimizer permitem criar 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Trabalhar com atividades de campanha orquestrada
 
@@ -30,7 +30,7 @@ Saiba mais sobre direcionamento, canais e atividades de controle de fluxo para p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Utilizar a Atividade AND-join
 
@@ -40,7 +40,7 @@ Sincronize várias ramificações de execução garantindo que as tarefas anteri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Atividade Criar público-alvo
 
@@ -50,7 +50,7 @@ Defina e configure segmentos de público-alvo para as campanhas com a atividade 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Atividade Mudar dimensão
 
@@ -60,7 +60,7 @@ Melhore o direcionamento alternando as entidades de dados na campanha.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Atividades de canal
 
@@ -70,7 +70,7 @@ Configure notificações por email, SMS, push e correspondência direta para a o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Atividade combinar
 
