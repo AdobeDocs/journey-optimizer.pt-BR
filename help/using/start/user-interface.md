@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -181,17 +181,17 @@ Em cada página, use os botões de ajuda contextual para saber mais sobre um rec
 
 ## Notificações no produto {#in-product-notifications}
 
-Você pode habilitar os **alertas no produto e por email** para serem notificados sobre vários eventos que podem ser de seu interesse: falhas detectadas pelo sistema, solicitações de aprovação e/ou versões de produtos [!DNL Journey Optimizer].
+É possível habilitar **alertas no produto e por email** para o envio de notificações sobre vários eventos que podem ser de seu interesse: falhas detectadas pelo sistema, solicitações de aprovação e/ou versões de produto do [!DNL Journey Optimizer].
 
-Para ativar essas notificações, siga as etapas abaixo.
+Para habilitar essas notificações, siga as etapas abaixo.
 
 1. Navegue até [!DNL Adobe Experience Cloud] **[!UICONTROL Preferências]**.
-1. Em **[!UICONTROL Notificações]**, encontre **[!UICONTROL Journey Optimizer]**.
-1. Ative as notificações no aplicativo e/ou por email conforme desejado:
+1. Em **[!UICONTROL Notificações]**, procure por **[!UICONTROL Journey Optimizer]**.
+1. Habilite as notificações no aplicativo e/ou por email conforme desejado:
 
-   * **[!UICONTROL Alertas]**: quando ocorrer uma falha, você poderá obter notificações do sistema para os alertas nos quais está inscrito. [Saiba mais](../reports/alerts.md)
-   * **[!UICONTROL Aprovações]**: você é notificado quando alguém está solicitando sua aprovação de um objeto ou acesso a um objeto.
-   * **[!UICONTROL Novas versões]**: você será informado sobre qualquer nova versão do produto [!DNL Journey Optimizer].
+   * **[!UICONTROL Alertas]**: quando ocorrer uma falha, você receberá notificações do sistema referentes aos alertas nos quais você se inscreveu. [Saiba mais](../reports/alerts.md)
+   * **[!UICONTROL Aprovações]**: você receberá uma notificação quando alguém solicitar a aprovação de um objeto ou o acesso a ele.
+   * **[!UICONTROL Novas versões]**: informações sobre qualquer novo lançamento de produto do [!DNL Journey Optimizer].
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 

@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
 >title="Controle de taxa"
->abstract="Defina o controle de taxa para a sua campanha, especificando os limites de taxa desejados. Esse recurso é particularmente útil para evitar sobrecarga em sistemas downstream, como páginas de destino ou plataformas de atendimento ao cliente."
+>abstract="Defina o controle de taxa da campanha, especificando os limites de taxa desejados. Esse recurso é particularmente útil para evitar sobrecarga em sistemas downstream, como páginas de destino ou plataformas de atendimento ao cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
@@ -113,7 +113,7 @@ Visualizador de campanhas orquestradas
 
 Se não conseguir acessar as funcionalidades da campanha, entre em contato com o administrador para solicitar as permissões necessárias.
 
-+++Saiba como atribuir função relacionada à campanha
++++Saiba como atribuir uma função relacionada à campanha
 
 1. Para atribuir uma função a um usuário no produto [!DNL Permissions], navegue até a guia **[!UICONTROL Funções]** e selecione uma das **[!UICONTROL Funções]** integradas relacionadas à campanha detalhadas acima.
 

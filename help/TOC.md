@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b4ed25390e9f499a12649713eb963799de55caa5
 workflow-type: tm+mt
 source-wordcount: '2917'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -255,8 +255,8 @@ ht-degree: 98%
          + [Criar a sua primeira regra](using/orchestrated/build-query.md)
          + [Editar expressões](using/orchestrated/edit-expressions.md)
          + [Redirecionamento](using/orchestrated/retarget.md)
-      + Atividades orquestradas de campanhas {#design-campaigns}
-         + [Atividades orquestradas de campanhas](/help/rp_landing_pages/design-campaigns-landing-page.md)
+      + Atividades de campanhas orquestradas {#design-campaigns}
+         + [Atividades de campanhas orquestradas](/help/rp_landing_pages/design-campaigns-landing-page.md)
          + [Introdução às atividades](using/orchestrated/activities/about-activities.md)
          + [And-join](using/orchestrated/activities/and-join.md)
          + [Criar público-alvo](using/orchestrated/activities/build-audience.md)
@@ -316,7 +316,7 @@ ht-degree: 98%
             + [Programar seu próprio conteúdo](using/email/code-content.md)
             + [Usar modelos de email](using/email/use-email-templates.md)
             + [Utilizar temas de email](using/email/apply-email-themes.md)
-            + [Anexar arquivos do PDF aos seus emails](using/email/pdf-attachments.md)
+            + [Anexar arquivos PDF a emails](using/email/pdf-attachments.md)
          + Projetar o conteúdo {#add-content}
             + [Projetar o conteúdo](/help/rp_landing_pages/add-content-landing-page.md)
             + [Usar componentes de conteúdo](using/email/content-components.md)
