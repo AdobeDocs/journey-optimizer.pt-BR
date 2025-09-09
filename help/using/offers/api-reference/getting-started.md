@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 76%
+source-wordcount: '382'
+ht-degree: 70%
 
 ---
 
@@ -55,6 +55,10 @@ Todas as solicitações que contêm um conteúdo (POST, PUT, PATCH) exigem um ca
 
 * `Content-Type: application/json`
 
+>[!NOTE]
+>
+>As verificações de permissão são aplicadas de acordo com os perfis de produto atribuídos. Somente as permissões concedidas no perfil de produto associado determinam quais recursos podem ser acessados ou gerenciados por meio da API.
+
 ## Próximas etapas {#next-steps}
 
 Este documento cobriu os conhecimento necessários para fazer chamadas para a API da [!DNL Offer Library]. Agora você pode prosseguir para as chamadas de amostra fornecidas neste manual do desenvolvedor e seguir suas instruções.
@@ -68,5 +72,5 @@ Este documento cobriu os conhecimento necessários para fazer chamadas para a AP
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342833?quality=12&captions=por_br) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 
