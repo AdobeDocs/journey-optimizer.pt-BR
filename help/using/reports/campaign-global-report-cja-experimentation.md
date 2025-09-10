@@ -1,22 +1,21 @@
 ---
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
-workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 8%
-
----
-@ -0,0 +1,71 @@
----
-solução: Journey Optimizer
-produto: otimizador de jornada
+solution: Journey Optimizer
+product: journey optimizer
 title: Relatório de campanha
 description: Saiba como usar os dados de experimentação no relatório de campanha
-recurso: Relatórios
-tópico: Gestão de conteúdo
-função: usuário
-nível: intermediário
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 9%
+
 ---
+
+
 # Relatório de campanha de experimentação {#campaign-global-report-cja-experimentation}
 
 >[!CONTEXTUALHELP]
