@@ -11,10 +11,10 @@ keywords: atividade, condição, tela, jornada, otimização
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 6%
+source-wordcount: '1297'
+ht-degree: 5%
 
 ---
 
@@ -50,7 +50,7 @@ Quando a jornada estiver ativa, os perfis serão avaliados de acordo com os crit
 ## Usar experimentação {#experimentation}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_path_experiment_success_metric"
+>id="ajo_path_experiment_success_metric"
 >title="Métrica de sucesso"
 >abstract="A métrica de sucesso é usada para rastrear e avaliar o tratamento com melhor desempenho em um experimento."
 
@@ -70,7 +70,7 @@ Digamos que você deseje comparar três caminhos:
 
 1. Selecione **[!UICONTROL Experimento]** na lista suspensa **[!UICONTROL Método]**.
 
-   ![](assets/journey-optimize-experiment.png){width=75%}
+   ![](assets/journey-optimize-experiment.png){width=65%}
 
 1. Clique em **[!UICONTROL Criar experimento]**.
 
@@ -137,15 +137,17 @@ Teste se o envio da primeira mensagem por email ou por SMS gera conversões mais
 
 ➡️ Use a taxa de conversão como a métrica de otimização (por exemplo: compras, inscrições).
 
-![](assets/journey-optimize-experiment-uc.png)
+![](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
 +++Frequência da mensagem
 
-➡️ Execute um experimento para verificar se o envio de um email contra três emails durante uma semana resulta em mais compras.
+Execute um experimento para verificar se o envio de um email contra três emails em uma semana resulta em mais compras.
 
-Use compras ou a taxa de cancelamento de inscrição como a métrica de otimização.
+➡️ Use compras ou a taxa de cancelamento de inscrição como a métrica de otimização.
+
+![](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -155,9 +157,16 @@ Compare uma espera de 24 horas com uma de 72 horas antes de um acompanhamento pa
 
 ➡️ Use a taxa de click-through ou a receita como a métrica de otimização.
 
+![](assets/journey-optimize-experiment-uc-wait.png)
+
 +++
 
 ## Aproveitar o direcionamento {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_path_targeting_fallback"
+>title="O que é caminho de fallback?"
+>abstract="O fallback cria um novo caminho para o público-alvo que não atende a nenhuma das regras de direcionamento definidas acima.</br>Se você não selecionar esta opção, qualquer público-alvo que não se qualifique para uma regra de direcionamento não entrará no caminho de fallback."
 
 As regras de direcionamento permitem determinar regras ou qualificações específicas que devem ser atendidas para que um cliente possa se qualificar para inserir um dos caminhos de jornada, com base em segmentos específicos de público-alvo<!-- depending on profile attributes or contextual attributes-->.
 
@@ -179,7 +188,7 @@ Para configurar o direcionamento em uma jornada, siga as etapas abaixo.
 
 1. Selecione **[!UICONTROL Regra de direcionamento]** na lista suspensa **[!UICONTROL Método]**.
 
-   ![](assets/journey-optimize-targeting.png){width=70%}
+   ![](assets/journey-optimize-targeting.png){width=60%}
 
 1. Clique em **[!UICONTROL Criar regra de direcionamento]**.
 
@@ -187,7 +196,11 @@ Para configurar o direcionamento em uma jornada, siga as etapas abaixo.
 
    ![](assets/journey-targeting-rule.png)
 
-1. Selecione o **[!UICONTROL Habilitar conteúdo de fallback]**, conforme necessário. O conteúdo de fallback permite que o público receba um conteúdo padrão quando nenhuma regra de direcionamento for qualificada. Se você não selecionar essa opção, qualquer público-alvo que não se qualifique para uma regra de direcionamento definida acima não inserirá um caminho de fallback.
+1. Selecione a opção **[!UICONTROL Habilitar conteúdo de fallback]**, conforme necessário. Essa ação cria um caminho de fallback para o público-alvo que não atende a nenhuma das regras de direcionamento definidas acima.
+
+   >[!NOTE]
+   >
+   >Se você não selecionar essa opção, qualquer público-alvo que não se qualifique para uma regra de direcionamento não entrará no caminho de fallback.
 
 1. Clique em **[!UICONTROL Criar]** para salvar suas configurações de regra de direcionamento.
 
@@ -195,7 +208,11 @@ Para configurar o direcionamento em uma jornada, siga as etapas abaixo.
 
    ![](assets/journey-targeting-paths.png)
 
-1. Opcionalmente, use o **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** para definir uma ação de fallback. [Saiba mais](using-the-journey-designer.md#paths)
+1. Se você selecionou a opção **[!UICONTROL Habilitar conteúdo de fallback]** ao definir as configurações de regra, defina uma ou mais ações para o caminho de fallback que foi adicionado automaticamente.
+
+   ![](assets/journey-targeting-fallback.png){width=70%}
+
+1. Opcionalmente, use o **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** para definir uma ação alternativa se ocorrerem problemas. [Saiba mais](using-the-journey-designer.md#paths)
 
 1. Crie o conteúdo apropriado para cada ação correspondente a cada grupo definido pelas suas configurações de regra de direcionamento. É possível navegar facilmente entre os diferentes conteúdos de cada ação.
 
@@ -219,7 +236,7 @@ Os membros do programa de fidelidade com o status Gold podem receber ofertas per
 
 ➡️ Use a receita por perfil ou taxa de conversão como a métrica de otimização.
 
-![](assets/journey-optimize-targeting-uc.png)
+![](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -229,6 +246,8 @@ Os clientes que abriram um email, mas não clicaram, podem receber uma notifica�
 
 ➡️ Use a taxa de click-through ou conversões downstream como a métrica de otimização.
 
+![](assets/journey-optimize-targeting-uc-behavior.png)
+
 +++
 
 +++Direcionamento do histórico de compras
@@ -236,6 +255,8 @@ Os clientes que abriram um email, mas não clicaram, podem receber uma notifica�
 Os clientes que compraram recentemente podem entrar em um caminho curto de &quot;Obrigado + Venda cruzada&quot;, enquanto aqueles sem histórico de compra entram em uma jornada de criação mais longa.
 
 ➡️ Use a taxa de repetição de compra ou a taxa de envolvimento como a métrica de otimização.
+
+![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 

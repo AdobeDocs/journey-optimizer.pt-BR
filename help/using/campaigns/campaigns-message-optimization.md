@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: otimização de campanha, experimentação, direcionamento, teste A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 6%
+source-wordcount: '1088'
+ht-degree: 5%
 
 ---
 
@@ -36,6 +36,11 @@ A diferença entre experimentos e direcionamento pode ser descrita da seguinte m
 ➡️ [Saiba mais sobre a otimização em uma campanha neste vídeo](#video)
 
 ## Aproveitar o direcionamento {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_targeting_fallback"
+>title="O que é conteúdo de fallback?"
+>abstract="O conteúdo de fallback permite que o público receba um conteúdo padrão quando nenhuma regra de direcionamento for qualificada.</br>Se você não selecionar esta opção, os públicos-alvo que não se qualificarem para uma regra de direcionamento definida acima não receberão conteúdo."
 
 O direcionamento fornece conteúdo personalizado para segmentos de público-alvo específicos com base em atributos de perfil do usuário ou atributos contextuais.
 
@@ -67,7 +72,7 @@ Para configurar o direcionamento, siga as etapas abaixo.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Selecione o **[!UICONTROL Habilitar conteúdo de fallback]**, conforme necessário. O conteúdo de fallback permite que o público receba um conteúdo padrão quando nenhuma regra de direcionamento for qualificada.
+1. Selecione a opção **[!UICONTROL Habilitar conteúdo de fallback]**, conforme necessário. O conteúdo de fallback permite que o público receba um conteúdo padrão quando nenhuma regra de direcionamento for qualificada.
 
    >[!NOTE]
    >
@@ -181,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Saiba como utilizar a otimização de mensagens em campanhas acionadas por ações ou API. Você aprenderá a direcionar subconjuntos do público-alvo, criar variações de mensagem por local, habilitar o conteúdo de fallback e executar vários experimentos em uma mesma campanha. Este tutorial também aborda como gerenciar campanhas com vários canais e, ao mesmo tempo, manter a consistência das mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470373?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
