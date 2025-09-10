@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1127'
 ht-degree: 16%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 16%
 
 O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.
 
+➡️ [Saiba mais sobre o teste simples do jornada neste vídeo](#dry-run-video)
 
 ## Principais benefícios {#journey-dry-run-benefits}
 
@@ -144,3 +145,8 @@ Se exportar dados de stepEvent para **sistemas externos**, você poderá filtrar
 
 Ao analisar **métricas de relatórios do jornada** usando o serviço Adobe Experience Platform Query, os eventos de etapa gerados por Dry Run devem ser excluídos. Para fazer isso, defina o sinalizador `inDryRun` como `false`.
 
+## Vídeo tutorial {#dry-run-video}
+
+Saiba como testar suas jornadas neste vídeo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
