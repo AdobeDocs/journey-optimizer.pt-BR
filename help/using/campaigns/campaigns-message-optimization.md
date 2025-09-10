@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Saiba como utilizar a otimização de mensagens em campanhas acionadas por ações ou API. Você aprenderá a direcionar subconjuntos do público-alvo, criar variações de mensagem por local, habilitar o conteúdo de fallback e executar vários experimentos em uma mesma campanha. Este tutorial também aborda como gerenciar campanhas com vários canais e, ao mesmo tempo, manter a consistência das mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470373?quality=12&captions=por_br)
