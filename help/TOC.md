@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2926'
 ht-degree: 99%
 
 ---
@@ -41,14 +41,14 @@ ht-degree: 99%
       + [Introdução para engenheiros de dados](using/start/path/data-engineer.md)
       + [Introdução para administradores](using/start/path/administrator.md)
       + [Introdução para desenvolvedores](using/start/path/developer.md)
-   + [Interface do usuário](using/start/user-interface.md)
-   + [Pesquisar, filtrar, categorizar](using/start/search-filter-categorize.md)
-   + [Acessibilidade](using/start/accessibility.md)
+   + Interface do usuário {#ui}
+      + [Introdução à interface](using/start/user-interface.md)
+      + [Pesquisar, filtrar, categorizar](using/start/search-filter-categorize.md)
+      + [Acessibilidade](using/start/accessibility.md)
    + [Trabalhar com o Assistente de IA](using/start/ai-assistant.md)
-   + [Medidas de proteção](using/start/guardrails.md)
-   + [Práticas recomendadas](using/start/best-practices.md)
+   + [Manuais de estratégia de casos de uso ](using/start/playbooks.md)
+   + [Medidas de proteção e limitações](using/start/guardrails.md)
    + [Solução de problemas](using/start/troubleshooting.md)
-   + [Manuais de estratégia](using/start/playbooks.md)
 + Jornadas {#orchestrate-journeys}
    + [Jornadas](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introdução a jornadas](using/building-journeys/journey.md)
