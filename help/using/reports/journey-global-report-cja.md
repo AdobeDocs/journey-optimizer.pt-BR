@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '971'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ O **relatório de Jornadas** pode ser acessado diretamente da sua jornada com o 
 
 ![](assets/gs-cja-report-3.png)
 
-Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home).
+Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Visão geral da jornada {#journey-global}
 
@@ -85,7 +85,7 @@ O widget **[!UICONTROL Erros de ação]** detalha os diferentes erros que ocorre
 
 ![](assets/cja-journey-canvas.png)
 
-O widget **[!UICONTROL Tela de Jornada]** permite rastrear visualmente a trajetória dos perfis direcionados à medida que eles navegam pela jornada. [Saiba mais na documentação do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+O widget **[!UICONTROL Tela de Jornada]** permite rastrear visualmente a trajetória dos perfis direcionados à medida que eles navegam pela jornada. [Saiba mais na documentação do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Aprimore sua personalização da tela com as seguintes opções:
 
@@ -145,5 +145,23 @@ A tabela **[!UICONTROL Visão geral do evento]** mostra quantos perfis atendem a
 +++ Saiba mais sobre as métricas de Estatísticas do Jornada
 
 * **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para seus eventos.
+
++++
+
+## Visão geral de direcionamento {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+Se você configurar **[!UICONTROL Regras de direcionamento]** para o seu conteúdo, a tabela **[!UICONTROL Visão geral do direcionamento]** fornecerá uma exibição detalhada das principais métricas de engajamento, mostrando como os perfis direcionados para cada regra interagiram com seu conteúdo.
+
+➡️ [Saiba mais sobre as regras de direcionamento](../campaigns/campaigns-message-optimization.md)
+
++++ Saiba mais sobre as métricas da visão geral de direcionamento
+
+* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para seus eventos.
+
+* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em um email.
+
+* **[!UICONTROL Taxa de cliques únicos]**: porcentagem de perfis segmentados que clicaram pelo menos uma vez.
 
 +++

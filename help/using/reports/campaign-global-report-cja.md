@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 2%
+source-wordcount: '603'
+ht-degree: 1%
 
 ---
 
@@ -104,5 +104,23 @@ A tabela **[!UICONTROL Rótulo do link rastreado]** oferece informações essenc
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em sua mensagem.
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em sua mensagem.
+
++++
+
+## Visão geral de direcionamento {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+Se você configurar **[!UICONTROL Regras de direcionamento]** para o seu conteúdo, a tabela **[!UICONTROL Visão geral do direcionamento]** fornecerá uma exibição detalhada das principais métricas de engajamento, mostrando como os perfis direcionados para cada regra interagiram com seu conteúdo.
+
+➡️ [Saiba mais sobre as regras de direcionamento](../campaigns/campaigns-message-optimization.md)
+
++++ Saiba mais sobre as métricas da visão geral de direcionamento
+
+* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para seus eventos.
+
+* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em um email.
+
+* **[!UICONTROL Taxa de cliques únicos]**: porcentagem de perfis segmentados que clicaram pelo menos uma vez.
 
 +++
