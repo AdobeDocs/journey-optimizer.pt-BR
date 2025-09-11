@@ -12,10 +12,10 @@ keywords: modo escuro, email, cor, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: 0501691c29d82dd1b8c94e0366e66cf5534cd1d2
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 13%
+source-wordcount: '1481'
+ht-degree: 11%
 
 ---
 
@@ -40,37 +40,82 @@ ht-degree: 13%
 >
 >No momento, esse recurso está na versão beta e disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.
 
-Ao criar seus emails, o [!DNL Journey Optimizer] [Designer de email](get-started-email-design.md) permite que você alterne para o **[!UICONTROL Modo escuro]**, no qual é possível definir configurações personalizadas específicas. Quando o modo escuro estiver ativado, os clientes de email de suporte exibirão as configurações definidas para esse modo.
+Ao criar seus emails, o [!DNL Journey Optimizer] [Designer de Email](get-started-email-design.md) permite que você alterne para a exibição **[!UICONTROL Modo escuro]**.
 
->[!WARNING]
->
->A renderização final no modo escuro depende do cliente de email do recipient.
->
->Nem todos os clientes de email permitem o modo escuro. <!--[See the list](#non-supporting-email-clients)-->Além disso, alguns clientes de email aplicam somente seu próprio modo escuro padrão para todos os emails recebidos. Nesse caso, as configurações personalizadas definidas no Designer de email não podem ser renderizadas.
+Nesta exibição de modo escuro do <!--Email Designer -->você também pode definir configurações personalizadas específicas que serão exibidas pelos clientes de email de suporte quando o modo escuro estiver ativado.
 
-Uma lista de clientes de email que dão suporte ao modo escuro é apresentada em [esta seção](#supporting-email-clients).
+<!--When designing your emails, the Journey Optimizer Email Designer allows you to switch to Dark mode where you can define specific custom settings. When dark mode is on, the supporting email clients will display the settings that you defined for this mode.-->
 
 ## O que é o modo escuro? {#what-is-dark-mode}
 
-O modo escuro permite que clientes e aplicativos de email compatíveis exibam emails com planos de fundo mais escuros e cores mais claras para texto, botões e outros elementos da interface do usuário. Ele permite reduzir a tensão ocular, economizar bateria e melhorar a legibilidade em ambientes com pouca luminosidade, proporcionando uma experiência de visualização mais confortável.
+A forma como o modo escuro é renderizado nos vários clientes de email é complexa. Primeiro, vamos definir o modo escuro.
+
+O modo escuro permite que os clientes e aplicativos de email de suporte exibam emails com planos de fundo mais escuros e cores mais claras para texto, botões e outros elementos da interface do usuário. Ele permite reduzir a tensão ocular, economizar bateria e melhorar a legibilidade em ambientes com pouca luminosidade, proporcionando uma experiência de visualização mais confortável.
 
 <!--Dark Mode uses a dark color palette with light text and UI elements to reduce eye strain, save battery life, and improve readability in low-light environments.-->
 
-Como uma tendência crescente nos principais sistemas operacionais e aplicativos (Apple Mail, Gmail, Outlook, Twitter, Slack), ela se tornou uma consideração importante no design moderno de email para garantir que o conteúdo permaneça legível e visualmente atraente para todos os usuários.
+Como uma tendência crescente nos principais sistemas operacionais e aplicativos<!-- (Apple Mail, Gmail, Outlook, Twitter, Slack)-->, ela se tornou uma consideração importante no design de email moderno para garantir que o conteúdo permaneça legível e visualmente atraente para todos os usuários.
 
-No entanto, não é possível garantir que seu email terá a mesma aparência no modo escuro em todos os dispositivos. Algumas alterações visuais também podem ser causadas pelo aplicativo de email ou dispositivo que substitui o design original.
+## Medidas de proteção {#guardrails}
 
-Na verdade, a forma como o modo escuro é aplicado pelos clientes de email pode variar da seguinte maneira<!--between different devices and apps-->:
+As expectativas em termos de renderização no modo escuro devem ser consideradas com cautela, pois a forma como ela é aplicada pelos diferentes clientes de email pode variar bastante.
 
-* Nem todos os clientes de email oferecem suporte a esse recurso.
+<!--The dark mode final rendering depends on the recipient's email client. It is not possible to guarantee that your email will look the same in dark mode across all devices.-->
 
-  >[!NOTE]
-  >
-  >Uma lista de clientes de email que não oferecem suporte ao modo escuro é apresentada em [esta seção](#non-supporting-email-clients).
+Antes de usar o modo escuro no Designer de email do [!DNL Journey Optimizer], é fundamental entender como os principais clientes de email lidam com ele. Há três casos a distinguir:
 
-* Alguns clientes de email ajustam automaticamente cores, planos de fundo e imagens. Nesse caso, se você definir configurações personalizadas no Designer de email, essas configurações provavelmente não serão renderizadas.
+<!--
+* Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
-* Outros clientes de email oferecem a opção de renderizar o modo escuro personalizado (como com o método `@media (prefers-color-scheme: dark)`). Nesse caso, as configurações específicas definidas no Designer de email devem ser exibidas. Saiba como definir configurações personalizadas do modo escuro no Email Designer em [esta seção](#define-custom-dark-mode).
+* Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
+-->
+
+### Clientes sem suporte para o modo escuro {#not-supporting}
+
+Alguns clientes de email não oferecem suporte a esse recurso, como:
+* Yahoo!Mail
+* AOL
+
+Se você definir configurações personalizadas de modo escuro ou não no Email Designer, esses clientes de email nunca exibirão renderização de modo escuro. <!--Regardless of whether the interface is in light or dark mode, your email will render the same.-->
+
+### Clientes que aplicam seu próprio modo escuro {#default-support}
+
+Alguns clientes de email aplicam sistematicamente seu próprio modo escuro padrão para todos os emails recebidos. Cores, planos de fundo, imagens etc. são automaticamente ajustadas com as configurações do modo escuro específicas do cliente de email.
+
+Esses clientes são, por exemplo:
+
+* Gmail (Webmail Para Desktop, iOS, Android, Webmail Para Dispositivos Móveis)
+* Windows do Outlook
+* Outlook Windows Mail
+
+Nesse caso, se você definir configurações personalizadas do modo escuro no Designer de email, essas configurações serão substituídas pelas configurações do cliente de email.
+
+É importante entender que esses clientes de email lidam com o modo escuro, mas o design específico do modo escuro não será renderizado.
+
+<!--In this case, the custom settings that you defined in the Email Designer cannot be rendered.-->
+
+<!--Some visual changes may also be caused by the email app or device overriding the original design.-->
+
+### Clientes que oferecem suporte ao modo escuro personalizado {#custom-support}
+
+Outros clientes de email oferecem a opção de renderizar o modo escuro personalizado com a consulta `@media (prefers-color-scheme: dark)`, que é o método usado pelo Designer de Email [!DNL Journey Optimizer].
+
+Esta é uma lista dos principais clientes que lidam com essa opção:
+
+* Apple Mail macOS
+* Apple Mail iOS
+* Outlook macOS
+* Outlook.com
+* Outlook iOS
+* Outlook Android
+
+Nesse caso, as configurações específicas definidas no Designer de email devem ser exibidas.
+
+>[!NOTE]
+>
+>Saiba como definir configurações personalizadas do modo escuro com o Email Designer em [esta seção](#define-custom-dark-mode).
+
+No entanto, podem aplicar-se algumas restrições. Por exemplo, alguns clientes de email, como o Apple Mail 16 (macOs 13), não gerarão o modo escuro se as imagens estiverem presentes no conteúdo de email.
 
 ## Modo escuro no designer de email {#dark-mode-email-designer}
 
@@ -131,7 +176,12 @@ Depois de alternar para o **[!UICONTROL modo escuro]**, você pode optar por edi
 
 >[!WARNING]
 >
->Nem todos os clientes de email oferecem suporte ao modo escuro. Além disso, alguns clientes de email aplicam seu próprio modo escuro padrão para todos os emails recebidos. Em ambos os casos, as configurações personalizadas definidas no designer de email não podem ser renderizadas.
+>A renderização final no modo escuro depende de cada cliente de email, portanto, os resultados podem variar de um para o outro. [Saiba mais](#guardrails)
+
+<!--
+>[!WARNING]
+>
+>Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.-->
 
 Para utilizar o estilo de modo escuro personalizado do Designer de email, o Journey Optimizer usa o <!-- `@media (prefers-color-scheme: dark)` method--> Consulta CSS `@media (prefers-color-scheme: dark)`, que detecta se o cliente de email do usuário está definido para o modo escuro e aplica o design de tema escuro definido no seu email.
 
@@ -173,9 +223,9 @@ O modo escuro pode alterar cores, planos de fundo e imagens — às vezes substi
 
 **Otimize suas imagens e logotipos**
 
-* Evite imagens com fundos brancos ou claros codificados.
-
 * Salve logotipos e ícones como PNGs com fundo transparente para evitar caixas brancas visíveis no modo escuro.
+
+* Evite imagens com fundos brancos ou claros codificados.
 
 * Se a transparência não for uma opção, coloque as imagens em um plano de fundo sólido no design para evitar inversões de cores estranhas.
 
@@ -184,6 +234,10 @@ O modo escuro pode alterar cores, planos de fundo e imagens — às vezes substi
 * Verifique se há contraste suficiente entre o texto e as cores do plano de fundo para facilitar a leitura nos modos claro e escuro.
 
 * Evite depender apenas das cores do plano de fundo para o conteúdo crítico. Alguns clientes substituem as cores do plano de fundo no modo escuro, portanto, verifique se as informações principais ainda estão visíveis.
+
+<!--**Inline critical styles**
+
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
 
 **Criar conteúdo acessível no modo escuro**
 
@@ -209,65 +263,70 @@ The best practices for designing accesible content in dark mode are listed in [t
 
 * Use a opção [Renderização de email](../content-management/rendering.md) que usa o Litmus para simular seus designs nos principais clientes de email (Apple Mail, Gmail, Outlook) e ver como as cores e as imagens se comportam no modo escuro.
 
-<!--**Inline critical styles**
+<!--
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+## Email clients supporting dark mode {#supporting-email-clients}
 
-## Clientes de email que oferecem suporte ao modo escuro {#supporting-email-clients}
-
-Abaixo está uma lista dos principais clientes de email que oferecem suporte ao modo escuro.
+Below is a list of the main email clients supporting dark mode using the with the `@media (prefers-color-scheme: dark)` query.
 
 >[!NOTE]
 >
->Algumas versões desses clientes de email não são compatíveis com o modo escuro, portanto, também são apresentadas nesta tabela para fins de clareza.
+>Some versions of these email clients do not support dark mode, so they are also presented in this table for the sake of clarity.
 
-| Clientes de email que oferecem suporte ao modo escuro | Versões compatíveis | *Versões sem suporte* |
+| Email clients supporting custom dark mode| Compatible versions | *Unsupported versions* |
 |---------|----------|---------|
-| Apple Mail macOS | 12.4, 16.0 | *10.3* |
+| Apple Mail macOS| 12.4, 16.0 | *10.3* |
 | Apple Mail iOS | 13.0, 16.1 | *12.2* |
-| Outlook macOS | 2019, 16.70, 16.80 | N/D |
-| Outlook.com | 2019-07, 2022-12 | N/D |
-| Outlook iOS | 2020-01, 2022-12 | N/D |
-| Outlook Android | 2023-03 | *2020-01, 2022-12* |
-| Email da Samsung (Android) | 6,1 | *6.0* |
-| Mozilla Thunderbird (macOS) | 68,4 | *60.8, 78.5, 91.13* |
-| Fastmail (Webmail Para Desktop) | 2022-2012 | *2021-07* |
-| EI (Webmail para desktop) | 2020-06 | *2022-12* |
-| Webmail para desktop laranja | 2019-08, 2021-03, 2022-12, 2024-04 | N/D |
-| IOS Laranja | 2022-12, 2024-04 | *1* de 2020 |
-| Android Laranja | 2024-04 | *2020-01, 2022-12* |
-| LaPoste.net | 2021-08, 2022-12 | N/D |
-| Webmail para desktop SFR | 2019-08, 2022-12 | N/D |
-| GMX (iOs e Android) | 2022-06 | N/D |
-| 1&amp;1 (Webmail da área de trabalho e Android) | 2022-06 | N/D |
-| WEB.DE (iOs e Android) | 2022-06 | N/D |
-| Free.fr | 2022-2012 | N/D |
+| Outloook macOS | 2019, 16.70, 16.80 | NA |
+| Outlook.com | 2019-07, 2022-12 | NA |
+| Outloook iOS | 2020-01, 2022-12 | NA |
+| Outloook Android | 2023-03 | *2020-01, 2022-12* |
+
+| Other email clients supporting custom dark mode| Compatible versions | *Unsupported versions* |
+|---------|----------|---------|
+| Samsung Email (Android) | 6.1 | *6.0* |
+| Mozilla Thunderbird (macOS) | 68.4 | *60.8, 78.5, 91.13* |
+| Fastmail (Desktop Webmail)| 2022-12 | *2021-07* |
+| HEY (Desktop Webmail)| 2020-06 | *2022-12* |
+| Orange Desktop Webmail| 2019-08, 2021-03, 2022-12, 2024-04 | NA |
+| Orange iOS | 2022-12, 2024-04 | *2020-01* |
+| Orange Android | 2024-04 | *2020-01, 2022-12* |
+| LaPoste.net | 2021-08, 2022-12 | NA |
+| SFR  Desktop Webmail | 2019-08, 2022-12 | NA |
+| GMX (iOs and Android) | 2022-06 | NA |
+| 1&1 (Desktop Webmail and Android) | 2022-06 | NA |
+| WEB.DE (iOs and Android) | 2022-06 | NA |
+| Free.fr | 2022-12 | NA |
 
 >[!WARNING]
 >
->A renderização final no modo escuro depende de cada cliente de email, portanto, os resultados podem variar de um para o outro.
+>The dark mode final rendering depends on each email client, so results can vary from one to another.
 
-<!--
-* Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
+## Email clients not supporting dark mode {#non-supporting-email-clients}
 
-* Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
--->
+Some email clients allow users to switch their interface to dark mode, but this setting does not affect how HTML emails are displayed.  Here is a list of those clients:
 
-## Clientes de email que não oferecem suporte ao modo escuro {#non-supporting-email-clients}
-
-Alguns clientes de email permitem que os usuários alternem sua interface para o modo escuro, mas essa configuração não afeta a forma como os emails do HTML são exibidos. Independentemente de a interface estar no modo claro ou escuro, seu email será renderizado da mesma forma. Esta é uma lista desses clientes:
-
-| Clientes de email que não oferecem suporte ao modo escuro |
+| Main email clients with their own dark mode| 
 |---------|
-| Gmail (Webmail Para Desktop, iOS, Android, Webmail Para Dispositivos Móveis) |
-| Windows do Outlook |
+| Gmail (Desktop Webmail, iOS, Android, Mobile Webmail) | 
+| Outloook Windows |
 | Outlook Windows Mail |
-| Yahoo!Mail |
-| AOL |
+
+Other email clients do not support dark mode at all:
+
+| Main email clients not supporting dark mode| 
+|---------|
+| Yahoo!Mail | 
+| AOL | 
+
+| Other mail clients not supporting dark mode| 
+|---------|
 | ProtonMail |
-| IOS SFR |
-| ANDROID SFR |
-| Webmail para desktop GMX |
-| Mail.ru |
-| Webmail da área de trabalho do WEB.DE |
+| SFR iOS |
+| SFR Android | 
+| GMX Desktop Webmail | 
+| Mail.ru | 
+| WEB.DE Desktop Webmail | 
 | T-online.de |
+
+-->
