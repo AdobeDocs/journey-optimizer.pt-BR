@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 24%
@@ -22,7 +22,7 @@ ht-degree: 24%
 
 ## O que é a decisão {#about}
 
-O serviço de Decisão simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de escolha sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
+O serviço de decisão simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
 
 Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada através do [novo canal de experiência baseado em código](../code-based/get-started-code-based.md), acessível em campanhas do Journey Optimizer.
 
@@ -64,7 +64,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
 1. **Crie itens de decisão** para mostrar ao seu público-alvo direcionado.
 
-   ➡️ [Saiba como criar itens de decisão](items.md) na interface do usuário (e na [documentação da API](api-reference/decisions-items/create.md))
+   ➡️ [Saiba como criar itens de decisão](items.md) na interface do usuário (e na [documentação sobre APIs](api-reference/decisions-items/create.md))
 
 1. **Organizar com coleções**: use coleções para categorizar itens de decisão com base em regras baseadas em atributos. Incorpore coleções nas estratégias de seleção para determinar qual coleção de itens de decisão deve ser considerada.
 

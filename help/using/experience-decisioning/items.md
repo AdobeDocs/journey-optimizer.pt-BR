@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '2186'
 ht-degree: 12%
@@ -85,7 +85,7 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 
 Por padrão, todos os perfis estarão qualificados para receber o item de decisão, mas você pode usar públicos ou regras para restringir o item somente a perfis específicos, ambas as soluções correspondentes a usos diferentes. Expanda a seção abaixo para obter mais informações:
 
-+++Uso de públicos-alvo vs. regras de decisão
++++Uso de públicos-alvo versus regras de decisão
 
 Basicamente, a saída de um público-alvo é uma lista de perfis, enquanto uma regra de decisão é uma função executada sob demanda em relação a um único perfil durante o processo de decisão.
 
