@@ -12,10 +12,10 @@ keywords: modo escuro, email, cor, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
+source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 11%
+source-wordcount: '1527'
+ht-degree: 4%
 
 ---
 
@@ -24,21 +24,16 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Alternar para o modo escuro"
->abstract="Alterne para o modo escuro, que permite visualizar a renderização e definir configurações personalizadas específicas. <br>Cuidado: a renderização final depende do cliente de email do destinatário. Nem todos os clientes de email aceitam o modo escuro."
-
->[!CONTEXTUALHELP]
->id="ac_edition_darkmode_image"
->title="Usar uma imagem específica para o modo escuro"
->abstract="Você pode selecionar outra imagem a ser exibida quando o modo escuro estiver ativado. <br>Cuidado: a adição de uma imagem específica para o modo escuro não garante que ela será renderizada corretamente em todos os clientes de email. Nem todos os clientes de email aceitam o modo escuro."
+>abstract="Alterne para o modo escuro, onde é possível visualizar como ele pode ser renderizado e definir configurações personalizadas específicas. <br>A renderização final depende do cliente de email do destinatário. Observe que todos os clientes de email não são compatíveis com o modo escuro personalizado."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Alternar para o modo escuro"
->abstract="Alterne para o modo escuro para visualizar a renderização nos clientes de email compatíveis. <br>Cuidado: a renderização final depende do cliente de email do destinatário. Nem todos os clientes de email aceitam o modo escuro."
+>abstract="Alterne para o modo escuro para visualizar a renderização nos clientes de email compatíveis. <br>A renderização final depende do cliente de email do destinatário. Observe que todos os clientes de email não são compatíveis com o modo escuro."
 
 >[!AVAILABILITY]
 >
->No momento, esse recurso está na versão beta e disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.
+>No momento, esse recurso está na versão beta e só está disponível para clientes beta. <!--To join the beta program, contact your Adobe representative.-->
 
 Ao criar seus emails, o [!DNL Journey Optimizer] [Designer de Email](get-started-email-design.md) permite que você alterne para a exibição **[!UICONTROL Modo escuro]**.
 
@@ -73,6 +68,7 @@ Antes de usar o modo escuro no Designer de email do [!DNL Journey Optimizer], é
 ### Clientes sem suporte para o modo escuro {#not-supporting}
 
 Alguns clientes de email não oferecem suporte a esse recurso, como:
+
 * Yahoo!Mail
 * AOL
 
@@ -80,7 +76,9 @@ Se você definir configurações personalizadas de modo escuro ou não no Email 
 
 ### Clientes que aplicam seu próprio modo escuro {#default-support}
 
-Alguns clientes de email aplicam sistematicamente seu próprio modo escuro padrão para todos os emails recebidos. Cores, planos de fundo, imagens etc. são automaticamente ajustadas com as configurações do modo escuro específicas do cliente de email.
+Alguns clientes de email aplicam sistematicamente seu próprio modo escuro padrão para todos os emails recebidos. Cores, planos de fundo, imagens etc. são automaticamente ajustadas com as configurações do modo escuro específicas do cliente de email, o que significa que nenhuma modificação externa é possível.
+
+<!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
 Esses clientes são, por exemplo:
 
@@ -173,6 +171,11 @@ Isso significa que ele detecta áreas com elementos claros e escuros e os invert
 Here you can see that we have applied a different background, defined another image and change the color of the text and button.-->
 
 ### Definir modo escuro personalizado {#define-custom-dark-mode}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_darkmode_image"
+>title="Usar uma imagem específica para o modo escuro"
+>abstract="Você pode selecionar outra imagem a ser exibida quando o modo escuro estiver ativado. <br>A adição de uma imagem específica para o modo escuro não garante sua renderização correta em todos os clientes de email. Observe que todos os clientes de email não são compatíveis com o modo escuro personalizado."
 
 Depois de alternar para o **[!UICONTROL modo escuro]**, você pode optar por editar elementos de estilo específicos do seu conteúdo, que será exibido somente quando o modo escuro estiver habilitado no cliente de email do destinatário, desde que ele seja compatível com esse recurso.
 
