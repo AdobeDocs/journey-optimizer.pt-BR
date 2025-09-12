@@ -10,9 +10,9 @@ level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -71,11 +71,13 @@ O **[!UICONTROL resultado do experimento]** fornece uma visão rápida da varia�
 
 ### Configuração {#set-up}
 
-![](assets/experiment-monitor-hypothesis.png)
-
 A **[!UICONTROL Hipótese]** captura as alterações planejadas a serem testadas e documenta o impacto esperado na métrica primária. Definir uma **[!UICONTROL Hipótese]** clara garante que cada experimento tenha um objetivo mensurável, tornando mais fácil avaliar os resultados e determinar se as alterações levam a melhorias significativas.
 
+Observe que para que os [insights do experimento](#insights) sejam gerados, é necessário confirmar os detalhes da hipótese e do tratamento e a significância estatística a ser atingida.
+
 1. Clique em **[!UICONTROL Adicionar]** para criar uma **[!UICONTROL Hipótese]** para seu experimento.
+
+   ![](assets/experiment-monitor-setup-1.png)
 
 1. Digite sua **[!UICONTROL Hipótese]** detalhando as alterações feitas e como elas afetarão a métrica primária.
 
@@ -83,7 +85,9 @@ A **[!UICONTROL Hipótese]** captura as alterações planejadas a serem testadas
 
 1. Clique em **[!UICONTROL Revisar]** para adicionar ou substituir a imagem para cada Tratamento.
 
-1. Selecione **[!UICONTROL Adicionar imagem]** ou **[!UICONTROL Substituir imagem]** para escolher entre seus arquivos locais a melhor captura de tela para seus **[!UICONTROL Tratamentos]**.
+   ![](assets/experiment-monitor-setup-2.png)
+
+1. As imagens de tratamento são geradas automaticamente, mas se necessário, você pode selecionar **[!UICONTROL Adicionar imagem]** ou **[!UICONTROL Substituir imagem]** para carregar uma captura de tela preferencial de seus arquivos locais para seus **[!UICONTROL Tratamentos]**.
 
    Observe que a captura de tela deve capturar a página inteira.
 
@@ -109,7 +113,7 @@ Você também pode ver um instantâneo em tempo real do desempenho do tratamento
 
 * **[!UICONTROL Métrica de sucesso]** da Journey Optimizer ou a **[!UICONTROL métrica primária]** da Adobe Target, dependendo do que foi configurado durante a criação do experimento.
 
-Na parte inferior do widget, você encontrará um resumo conciso da sua configuração de experimento, incluindo:
+Na parte inferior do widget, você pode encontrar um resumo da sua configuração de experimento, incluindo:
 
 * **[!UICONTROL Métrica de sucesso]** da Journey Optimizer ou a **[!UICONTROL métrica primária]** da Adobe Target, dependendo do que foi configurado durante a criação do experimento.
 
@@ -123,17 +127,17 @@ Na parte inferior do widget, você encontrará um resumo conciso da sua configur
 >
 >O recurso Oportunidades é limitado a experimentos com alterações baseadas em texto.
 
-![](assets/experiment-monitor-opportunities.png)
-
 O painel **[!UICONTROL Oportunidades]** exibe recomendações geradas por IA projetadas para aprimorar o desempenho do teste e alinhar-se a objetivos de negócios mais amplos e KPIs.
 
-1. Selecione a oportunidade desejada e clique em **[!UICONTROL Exibir oportunidade]**.
+Observe que para que as oportunidades de Experimento sejam geradas, primeiro é necessário [confirmar a hipótese e os detalhes de tratamento](#set-up).
+
+1. Navegue pela oportunidade sugerida e clique em **[!UICONTROL Exibir oportunidade]**.
+
+   ![](assets/experiment-monitor-opportunities.png)
 
 1. Selecionar uma oportunidade abre a janela **Detalhes da oportunidade**, que descreve um tratamento ou variação específica sugerida pela Experimentation Accelerator. Essa visualização inclui:
 
    * **[!UICONTROL Hipótese]**: uma hipótese gerada por IA que explica o resultado esperado do tratamento sugerido.
-
-   * **[!UICONTROL Novo exemplo de tratamento de texto]**: palavras ou frases que demonstram o estilo que a IA recomenda usar.
 
    * **[!UICONTROL Razão]**: uma explicação de por que a Experimentation Accelerator sugeriu esta oportunidade.
 
@@ -142,12 +146,19 @@ O painel **[!UICONTROL Oportunidades]** exibe recomendações geradas por IA pro
       * **[!UICONTROL Potencial de aprendizado]**: uma estimativa de quanto novo insight a oportunidade pode oferecer, com base no quão diferente é do que foi testado anteriormente.
 
       * **[!UICONTROL Potencial de conversão]**: uma estimativa da probabilidade da oportunidade de superar os tratamentos atuais, com base em semelhanças com estratégias que historicamente têm funcionado bem.
+   <!--
+   * **[!UICONTROL New text treatment example]**: Words or phrases that demonstrate the style the AI recommends using.
+   -->
 
-1. Você pode optar por **[!UICONTROL Compartilhar]** sua oportunidade ou ativá-la diretamente selecionando **[!UICONTROL Abrir Experimento]**.
+   ![](assets/experiment-monitor-opportunities-2.png)
+
+1. Você pode adicioná-lo diretamente ao seu experimento selecionando **[!UICONTROL Abrir experimento]**.
 
 1. Se o experimento original foi criado e gerenciado no Adobe Journey Optimizer, esta ação abrirá o **[!UICONTROL Painel de experimentação de conteúdo]** dentro dessa campanha.
 
    Para experimentos originados de **[!DNL Adobe Target]**, as alterações sugeridas serão carregadas no fluxo de trabalho de experimentação de **[!DNL Adobe Target]**.
+
+   ➡️ [Saiba mais na documentação do Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. Na exibição de experimento, as mesmas **[!UICONTROL Oportunidades de experimentação]** da IA apresentadas pela Experimentation Accelerator são acessíveis.
 
@@ -163,9 +174,9 @@ A tabela **[!UICONTROL Resultados]** fornece uma análise detalhada do desempenh
 
 * **[!UICONTROL Local]**: posição de classificação do tratamento com base no desempenho, indicando como ele se compara a outros tratamentos.
 
-* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas mensagens.
-
 * **[!UICONTROL Métrica de sucesso]** da Journey Optimizer ou a **[!UICONTROL métrica primária]** da Adobe Target, dependendo do que foi configurado durante a criação do experimento.
+
+* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas mensagens.
 
 * **[!UICONTROL Aumento]**: medida da melhora da porcentagem na taxa de conversão de um determinado tratamento em relação à linha de base.
 
@@ -179,10 +190,12 @@ A tabela **[!UICONTROL Resultados]** fornece uma análise detalhada do desempenh
 >
 >O recurso Insights de experimentação é limitado a experimentos com alterações baseadas em texto.
 
-![](assets/experiment-monitor-insights.png)
-
 **[!UICONTROL Insights de experimento]** são aprendizados gerados por IA derivados deste experimento. Esses insights ficam disponíveis assim que o experimento atinge significância estatística e fornece compreensão contextual do que contribuiu para seu sucesso. Eles destacam os principais atributos presentes no tratamento vencedor, distintos do controle, que provavelmente influenciaram o resultado.
 
 Observe que para que os insights do experimento sejam gerados, primeiro é necessário [confirmar os detalhes da hipótese e do tratamento](#set-up) e a significância estatística a ser atingida.
 
 Clique em **[!UICONTROL Exibir detalhes]** para saber mais sobre cada insights.
+
+</br>
+
+![](assets/experiment-monitor-insights.png)
