@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Acelerador de experimentação
+title: Monitor do Experimentation Accelerator
 description: Melhore sua capacidade de conduzir experimentos com eficiência e gerar insights
 feature: Experimentation
 topic: Content Management
@@ -10,19 +10,22 @@ level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 hide: true
 hidefromtoc: true
-source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1069'
 ht-degree: 1%
 
 ---
 
-# Guia Experimentos {#monitor}
+# Acompanhe seus experimentos {#monitor}
 
 >[!BEGINSHADEBOX]
 
 * [Introdução à Experimentation Accelerator](experiment-accelerator.md)
-* **[Guia Experimentos](experiment-accelerator-monitor.md)**
+* [Uso de dados na IA com o Experimentation Accelerator](experiment-accelerator-security.md)
+* [Práticas recomendadas do Experimentation Accelerator](experiment-accelerator-best-practices.md)
+* **[Monitorar experimentos](experiment-accelerator-monitor.md)**
+* [Métricas de experimentação](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
@@ -180,6 +183,6 @@ A tabela **[!UICONTROL Resultados]** fornece uma análise detalhada do desempenh
 
 **[!UICONTROL Insights de experimento]** são aprendizados gerados por IA derivados deste experimento. Esses insights ficam disponíveis assim que o experimento atinge significância estatística e fornece compreensão contextual do que contribuiu para seu sucesso. Eles destacam os principais atributos presentes no tratamento vencedor, distintos do controle, que provavelmente influenciaram o resultado.
 
-Observe que para que os insights do experimento sejam gerados, primeiro é necessário [confirmar a hipótese e os detalhes de tratamento](#set-up).
+Observe que para que os insights do experimento sejam gerados, primeiro é necessário [confirmar os detalhes da hipótese e do tratamento](#set-up) e a significância estatística a ser atingida.
 
 Clique em **[!UICONTROL Exibir detalhes]** para saber mais sobre cada insights.
