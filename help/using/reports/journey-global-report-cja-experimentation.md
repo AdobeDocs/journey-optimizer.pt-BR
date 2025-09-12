@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b63dea783a2f85d17aacc12c23a9f63d880aeeee
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,12 @@ Seu relatório de Jornada fornece uma visão completa do desempenho de seu exper
 No Journey Optimizer, a experimentação do jornada é dividida em dois tipos:
 
 * [Experimentos de conteúdo](../content-management/content-experiment.md)
+
+  Observe que as tabelas e os KPIs detalhados para o experimento de conteúdo são iguais aos de um experimento de caminho. Consulte a [documentação abaixo](#experimentation) se você configurou um experimento de Conteúdo.
+
 * [Experimentos de caminho](../building-journeys/optimize.md)
 
 ## Experimento de caminho {#experimentation}
-
->[!NOTE]
->
-> As tabelas e os KPIs detalhados para o experimento de Conteúdo são os mesmos de um experimento de Caminho. Consulte a documentação abaixo se tiver configurado um experimento de Conteúdo.
 
 ### KPIs de experimentação {#experimentation-kpis}
 
