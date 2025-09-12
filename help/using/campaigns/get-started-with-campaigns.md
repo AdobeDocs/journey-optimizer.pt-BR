@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
+source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '879'
 ht-degree: 70%
 
 ---
@@ -57,6 +57,31 @@ ht-degree: 70%
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campanha"
 >abstract="Selecione o tipo de campanha. Os canais disponíveis variam de acordo com o tipo selecionado. <br>**Campanhas agendadas** (Campanhas de ação) - Ideal para comunicações em lote simples e únicas que você pode agendar para execução em um horário específico.<br>**Campanhas acionadas por API** - Ativadas por meio de uma chamada de API, permitindo o envio automatizado de mensagens baseadas em eventos diretamente de sistemas externos.<br>**Campanhas orquestradas** - Forneça uma tela visual de arrastar e soltar para projetar e automatizar fluxos de trabalho de marketing complexos, com várias etapas, desde a segmentação de público até a entrega personalizada de mensagens entre canais."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_orchestration"
+>title="Campanhas"
+>abstract="Crie seu fluxo de segmentação, crie suas mensagens entre canais e planeje suas campanhas. Canais compatíveis: email, SMS, notificação por push."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_marketing"
+>title="Campanhas"
+>abstract="Envie entregas de saída individuais ou recorrentes, ou ações de entrada em andamento."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_transactional"
+>title="Campanhas"
+>abstract="Entregue ações transacionais de saída únicas ou recorrentes."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_marketing"
+>title="Campanhas"
+>abstract="Envie comunicações de marketing personalizadas aos seus públicos-alvo. Canais compatíveis: email, SMS, notificações por push."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_transactional"
+>title="Campanhas"
+>abstract="Envie comunicações transacionais a perfis individuais ou conjuntos de perfis. Canais compatíveis: email, SMS, notificações por push."
 
 Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado.
 
