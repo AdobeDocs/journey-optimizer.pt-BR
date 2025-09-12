@@ -98,11 +98,11 @@ Exemplo: _Acreditamos que alterar X aumentará Y devido a Z._
 Um bom experimento não apenas produz uma vitória, ele produz um aprendizado claro e acionável.
 Veja o que procurar:
 
-&amp;check; **Confiança estatística**: é improvável que a diferença entre as variantes seja devido ao acaso.
-&amp;check; **Alinhamento com metas**: a métrica primária reflete o progresso significativo em direção a um objetivo comercial.
-&amp;check; **Impacto Secundário**: nenhum efeito colateral negativo significativo em métricas relacionadas.
-&amp;check; **Escalabilidade**: o resultado pode informar decisões futuras ou ser generalizado para outras áreas.
-&amp;check; **Clareza**: a causa do resultado é razoavelmente isolada e compreendida.
+&check; **Confiança estatística**: é improvável que a diferença entre as variantes seja devido ao acaso.
+&check; **Alinhamento com metas**: a métrica primária reflete o progresso significativo em direção a um objetivo comercial.
+&check; **Impacto Secundário**: nenhum efeito colateral negativo significativo em métricas relacionadas.
+&check; **Escalabilidade**: o resultado pode informar decisões futuras ou ser generalizado para outras áreas.
+&check; **Clareza**: a causa do resultado é razoavelmente isolada e compreendida.
 
 Experimentação não é apenas encontrar a versão &quot;melhor&quot;, é sobre a construção de conhecimento através de testes e iteração. Quando bem feitos, os experimentos revelam insights que impulsionam decisões mais inteligentes, melhores experiências do usuário e resultados melhores.
 
