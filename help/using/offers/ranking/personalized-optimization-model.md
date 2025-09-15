@@ -8,10 +8,10 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 6%
+source-wordcount: '944'
+ht-degree: 5%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 6%
 Ao aproveitar as tecnologias de última geração de aprendizado de máquina supervisionado e aprendizado profundo, a otimização personalizada permite que um usuário empresarial (profissional de marketing) defina objetivos de negócios e utiliza os dados de clientes para treinar modelos orientados a negócios a fim de fornecer ofertas personalizadas e maximizar KPIs.
 
 ![](../../rn/assets/do-not-localize/ai-ranking.gif)
+
+## Requisitos do conjunto de dados
+
+Para treinar um modelo de otimização personalizado, o conjunto de dados deve atender aos seguintes requisitos mínimos:
+
+* Pelo menos 2 ofertas no conjunto de dados devem ter pelo menos 250 eventos de exibição e 25 eventos bem-sucedidos (por exemplo, cliques ou conversões) nos últimos 30 dias.
+* Ofertas com menos de 250 exibições e/ou 25 eventos bem-sucedidos nos últimos 30 dias estão qualificados para inclusão no tráfego personalizado, mas são tratadas pelo modelo de personalização como tendo desempenho no nível da oferta com pior pontuação * até excederem esse limite.
+* Ofertas com menos de 250 exibições e/ou 25 eventos bem-sucedidos nos últimos 30 dias permanecerão qualificadas para inclusão no tráfego de exploração.
+
+Até a primeira vez que um modelo de otimização personalizado for treinado, as ofertas em uma estratégia de seleção que utilizam um modelo de otimização personalizado serão atendidas aleatoriamente.
 
 ## Principais premissas e limitações do modelo {#key}
 

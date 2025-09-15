@@ -8,9 +8,9 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 0%
 # Modelos de otimização automática {#auto-optimization-model}
 
 Um modelo de otimização automática visa fornecer ofertas que maximizam o retorno (KPIs) definido pelos clientes empresariais. Esses KPIs podem estar na forma de taxas de conversão, receita etc. Nesse ponto, a Otimização automática se concentra na otimização de cliques na oferta com a conversão de oferta como destino. A otimização automática não é personalizada e é otimizada com base no desempenho &quot;global&quot; das ofertas.
+
+## Requisitos do conjunto de dados
+
+Para treinar um modelo de otimização automática, o conjunto de dados deve atender aos seguintes requisitos mínimos:
+
+* Pelo menos 2 ofertas no conjunto de dados devem ter pelo menos 100 eventos de exibição e 5 eventos de clique nos últimos 14 dias.
+* As ofertas com menos de 100 exibições e/ou eventos de 5 cliques nos últimos 14 dias serão tratadas pelo modelo como novas ofertas e só estarão qualificadas para serem atendidas pelo bandido de exploração.
+* Ofertas com mais de 100 exibições e eventos de 5 cliques nos últimos 14 dias serão tratadas pelo modelo como ofertas existentes e estão qualificadas para serem atendidas por bandidos de exploração e pesquisa.
+
+Até a primeira vez que um modelo de otimização automática for treinado, as ofertas em uma estratégia de seleção que utiliza um modelo de otimização automática serão atendidas aleatoriamente.
 
 ## Limitações {#limitations}
 
