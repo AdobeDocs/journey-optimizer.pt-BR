@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 4%
@@ -224,7 +224,7 @@ Diante disso, para um perfil como:
 
 +++
 
-+++Aumentar ofertas com base nos dados de contexto {#context-data}
++++Aumentar ofertas com base em dados de contexto
 
 [!DNL Journey Optimizer] permite que você impulsione determinadas ofertas com base nos dados de contexto que estão sendo transmitidos na chamada. Por exemplo, se `contextData.weather=hot` for passado, a prioridade de todas as ofertas com `attribute=hot` deverá ser aumentada.
 
