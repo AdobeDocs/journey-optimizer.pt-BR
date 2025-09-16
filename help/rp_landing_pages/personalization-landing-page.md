@@ -20,7 +20,7 @@ A personalização no Adobe Journey Optimizer permite criar experiências do cli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução à personalização
 
@@ -30,7 +30,7 @@ Saiba mais sobre as noções básicas de personalização no Adobe Journey Optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Adicionar e validar a personalização
 
@@ -50,7 +50,7 @@ Analise as regras e exemplos de sintaxe de personalização baseada em manipulad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Reutilizar fragmentos de expressão
 

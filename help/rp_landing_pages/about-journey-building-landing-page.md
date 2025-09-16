@@ -20,7 +20,7 @@ As atividades no Adobe Journey Optimizer são os elementos que dão vida às jor
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução às atividades de jornada
 
@@ -30,7 +30,7 @@ Saiba mais sobre atividades de evento, orquestração e ação no Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Uso de eventos gerais
 

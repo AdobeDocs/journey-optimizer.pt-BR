@@ -40,7 +40,7 @@ Domine as regras de sintaxe, instruções condicionais e tipos de dados necessá
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Funções do Adobe Journey Optimizer
 

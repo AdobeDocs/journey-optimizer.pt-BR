@@ -20,7 +20,7 @@ As campanhas de ação no Adobe Journey Optimizer capacitam você a entregar men
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Criar uma campanha de ação
 
@@ -40,7 +40,7 @@ Instruções passo a passo sobre como definir propriedades de campanha, como nom
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Configurar ações da campanha
 
@@ -50,7 +50,7 @@ Guia para configurar ações de campanha, incluindo seleção de canal, otimiza�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Aproveitar a otimização de mensagens
 

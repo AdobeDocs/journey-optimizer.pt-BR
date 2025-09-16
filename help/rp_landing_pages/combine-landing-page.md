@@ -50,7 +50,7 @@ Descubra como obter, licenciar e personalizar imagens do Adobe Stock para uso em
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=pt-BR)
 
 Editar os seus ativos com o Adobe Express
 
@@ -60,7 +60,7 @@ Saiba como redimensionar, cortar e remover fundos de ativos com o Adobe Express 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Trabalhar com fragmentos de conteúdo do AEM
 

@@ -40,7 +40,7 @@ Descubra como acessar, organizar e gerenciar modelos de conteúdo, incluindo a c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Criar modelos de conteúdo
 
@@ -70,7 +70,7 @@ Valide modelos de email testando renderização, variações e provas antes de u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Usar modelos de conteúdo
 

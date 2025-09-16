@@ -30,7 +30,7 @@ Saiba como adicionar e personalizar componentes como textos, botões, imagens e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=pt-BR)
 
 Utilizar fragmentos visuais
 

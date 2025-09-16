@@ -40,7 +40,7 @@ Guia passo a passo para criar, configurar e gerenciar políticas de aprovação,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como solicitar aprovação para jornadas e campanhas
 

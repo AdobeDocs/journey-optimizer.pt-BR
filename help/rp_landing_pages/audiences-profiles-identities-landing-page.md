@@ -30,7 +30,7 @@ Saiba como criar, gerenciar e ativar públicos-alvo usando atributos de segmenta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=pt-BR)
 
 Perfis: gerenciar e otimizar os dados do cliente
 

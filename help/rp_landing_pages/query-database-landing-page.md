@@ -20,7 +20,7 @@ Descubra como explorar todo o potencial dos dados do seu público-alvo com as ef
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Uso do Construtor de regras para campanhas orquestradas
 
@@ -30,7 +30,7 @@ Saiba como criar e gerenciar regras de segmentação e direcionamento de públic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Como criar a primeira regra no Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Tutorial passo a passo sobre como criar e validar regras para filtrar e direcion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Como editar expressões no Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Domine o Editor de expressão para definir manualmente as regras de consulta e a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Criação de consultas de redirecionamento no Adobe Journey Optimizer
 

@@ -50,7 +50,7 @@ Configure provedores de tradução externos para uma integração fluida e um ge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Criar conteúdo multilíngue com tradução manual
 

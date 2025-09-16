@@ -30,7 +30,7 @@ Saiba mais sobre os conceitos e processos para gerenciar permissões de usuário
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Gerenciar usuários e funções
 
@@ -40,7 +40,7 @@ Orientações passo a passo para atribuir, editar e criar funções a fim de con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Funções integradas
 
@@ -70,7 +70,7 @@ Saiba mais sobre permissões de alto e baixo níveis, e como elas proporcionam u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Controle de acesso baseado em atributos
 

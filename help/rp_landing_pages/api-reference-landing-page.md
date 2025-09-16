@@ -30,7 +30,7 @@ Saiba como integrar a API da biblioteca de ofertas para gestão de decisões, co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Entregar ofertas por meio das APIs do Adobe Journey Optimizer
 

@@ -20,7 +20,7 @@ Os Públicos-alvo no Adobe Journey Optimizer ajudam você a se conectar com as p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução aos públicos-alvo
 
@@ -40,7 +40,7 @@ Descubra fluxos de trabalho avançados para criação, composição e enriquecim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Ativar públicos-alvo em campanhas e jornadas
 

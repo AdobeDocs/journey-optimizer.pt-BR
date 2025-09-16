@@ -20,7 +20,7 @@ O gerenciamento da integridade das suas campanhas de email começa com o monitor
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Gerenciar a lista de supressão
 
@@ -40,7 +40,7 @@ Entenda e configure mecanismos de novas tentativas para erros de devolução tem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Configurar listas de permissões
 
