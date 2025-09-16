@@ -8,72 +8,72 @@ version: Journey Orchestration
 exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
 source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Criar uma jornada{#section-overview}
 
-A criação de uma jornada no Adobe Journey Optimizer permite criar experiências personalizadas e automatizadas do cliente que se adaptam a comportamentos e preferências individuais. Esteja você projetando uma campanha de marketing ou orquestrando fluxos de trabalho de suporte ao cliente, aprenderá a configurar elementos-chave como acionadores, públicos-alvo e ações usando uma interface intuitiva de arrastar e soltar. Desde a configuração de propriedades e cenários de teste até o rastreamento do desempenho em tempo real e o gerenciamento de atualizações, cada etapa se baseia na próxima para garantir que sua jornada seja impactante e não tenha erros. Dominando essas ferramentas, você terá tudo de que precisa para oferecer em todos os canais momentos perfeitos e orientados por dados.
+A criação de uma jornada no Adobe Journey Optimizer permite criar experiências personalizadas e automatizadas do cliente que se adaptam a comportamentos e preferências individuais. Esteja criando uma campanha de marketing ou orquestrando fluxos de trabalho de suporte ao cliente, você aprenderá a configurar elementos-chave como acionadores, públicos-alvo e ações usando uma interface intuitiva de arrastar e soltar. Desde a configuração de propriedades e cenários de teste até o rastreamento do desempenho em tempo real e o gerenciamento de atualizações, cada etapa se baseia na próxima para garantir que sua jornada seja impactante e não tenha erros. Dominando essas ferramentas, você terá tudo de que precisa para oferecer em todos os canais momentos perfeitos e orientados por dados.
 
 ## Criar uma jornada
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Como criar sua primeira Jornada de cliente
+Como criar sua primeira Jornada do cliente
 
 Saiba como criar, projetar, testar e publicar sua primeira jornada do cliente com uma orientação passo a passo.
 
-[Iniciar a primeira jornada](../using/building-journeys/journey-gs.md)
+[Criar sua primeira jornada](../using/building-journeys/journey-gs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Definir e gerenciar propriedades da Jornada
+Definir e gerenciar propriedades da jornada
 
 Configure regras de entrada, configurações relacionadas ao tempo, gerenciamento de acesso e muito mais para suas jornadas.
 
-[Definir propriedades da jornada](../using/building-journeys/journey-properties.md)
+[Definir as propriedades da jornada](../using/building-journeys/journey-properties.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Como criar sua Jornada
 
 Use a interface de arrastar e soltar para criar jornadas de marketing personalizadas em várias etapas.
 
-[Conheça o design da jornada](../using/building-journeys/using-the-journey-designer.md)
+[Conheça o design de jornada](../using/building-journeys/using-the-journey-designer.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Como testar sua Jornada
+Como testar a jornada
 
-Teste suas jornadas com perfis simulados e detecte erros antes de entrar em funcionamento.
+Teste suas jornadas com perfis simulados e detecte erros antes de ativá-las.
 
 [Teste a jornada](../using/building-journeys/testing-the-journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
-Testando Jornadas com o modo de simulação
+Teste de jornadas com o modo de execução de teste
 
 Valide suas jornadas com dados de produção reais sem entrar em contato com os clientes ou atualizar perfis.
 
-[Saiba mais sobre o Dry Run](../using/building-journeys/journey-dry-run.md)
+[Saiba mais sobre a execução de teste](../using/building-journeys/journey-dry-run.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Publicação de uma Jornada
+Publicação de uma jornada
 
 Saiba como publicar sua jornada, gerenciar versões e garantir a validade.
 
@@ -85,6 +85,6 @@ Saiba como publicar sua jornada, gerenciar versões e garantir a validade.
 
 ## Recursos adicionais
 
-- **[Gerenciamento de Jornadas Pausadas](../using/building-journeys/journey-pause.md)** - Pausar e retomar jornadas ativas com segurança, gerenciar perfis e aplicar filtros globais durante as pausas.
-- **[Configurar e Rastrear Métricas de Jornada](../using/building-journeys/success-metrics.md)** - Defina, atribua e monitore métricas para avaliar o sucesso das suas jornadas.
-- **[Relatórios ao Vivo na Tela do Jornada](../using/building-journeys/report-journey.md)** - Monitore métricas do jornada em tempo real e obtenha insights sobre o desempenho diretamente da tela.
+- **[Gerenciamento de jornadas pausadas](../using/building-journeys/journey-pause.md)**: pause e retome jornadas ativas com segurança, gerencie perfis e aplique filtros globais durante as pausas.
+- **[Configurar e rastrear métricas de jornada](../using/building-journeys/success-metrics.md)**: defina, atribua e monitore métricas para avaliar o sucesso das jornadas.
+- **[Relatórios ao vivo na Tela de jornada](../using/building-journeys/report-journey.md)**: monitore métricas da jornada em tempo real e obtenha insights sobre o desempenho diretamente da tela.

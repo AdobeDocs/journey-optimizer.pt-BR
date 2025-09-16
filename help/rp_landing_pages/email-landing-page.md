@@ -7,14 +7,14 @@ redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 27%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Canal de email{#section-overview}
 
-O canal de email no Adobe Journey Optimizer permite que você projete, configure e entregue campanhas de email impactantes com precisão e criatividade. Quer você esteja criando mensagens personalizadas com a intuitiva Designer de email, configurando jornadas e campanhas de email sofisticadas ou gerenciando opções de não participação para fins de conformidade, este canal reúne todos os aspectos do marketing por email em um só lugar. Comece configurando o canal de email para obter a capacidade de entrega e a personalização ideais e, em seguida, explore as ferramentas para criar conteúdo dinâmico que repercuta com seu público-alvo. Saiba mais sobre tópicos avançados como gerenciamento da reputação do remetente e conformidade com o DMARC para garantir que seus emails cheguem onde devem. Desde a configuração contínua até o design eficiente e a entrega estratégica, o canal de email o capacita a transformar seu marketing por email em um mecanismo confiável orientado por dados para o engajamento do cliente.
+O canal de email no Adobe Journey Optimizer permite projetar, configurar e entregar campanhas de email impactantes com precisão e criatividade. Quer você esteja criando mensagens personalizadas com a intuitiva Designer de email, configurando jornadas e campanhas de email sofisticadas ou gerenciando opções de não participação para fins de conformidade, este canal reúne todos os aspectos do marketing por email em um só lugar. Comece configurando o canal de email para obter a capacidade de entrega e a personalização ideais e, em seguida, explore as ferramentas para criar conteúdo dinâmico que repercuta com seu público-alvo. Saiba mais sobre tópicos avançados como gerenciamento da reputação do remetente e conformidade com o DMARC para garantir que seus emails cheguem onde devem. Desde a configuração contínua até o design eficiente e a entrega estratégica, o canal de email o capacita a transformar seu marketing por email em um mecanismo confiável orientado por dados para o engajamento do cliente.
 
 Entregas de email podem ser criadas:
 
@@ -32,7 +32,7 @@ Entregas de email podem ser criadas:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Como criar um email
 
@@ -42,7 +42,7 @@ Guia passo a passo para adicionar, configurar e testar ações de email em jorna
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Projetar e otimizar conteúdo de email
 
@@ -52,17 +52,17 @@ Explore ferramentas e práticas recomendadas para criar conteúdo de email respo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-Gerenciar opção de não participação de email
+Gerenciar recusa de email
 
-Configure mecanismos de recusa de um clique ou duas etapas para gerenciar as preferências do usuário e manter a conformidade.
+Configure mecanismos de recusa com um clique ou em duas etapas para gerenciar as preferências do usuário e manter a conformidade.
 
-[Configurar opções de não participação de email](../using/email/email-opt-out.md)
+[Configurar recusas de email](../using/email/email-opt-out.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar canal de email
 
@@ -72,9 +72,9 @@ Defina e gerencie configurações de email, como delegação de subdomínio, lis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Dominar a entregabilidade de email
+Como dominar a capacidade de entrega de email
 
 Entenda e otimize a capacidade de entrega de email com ferramentas, práticas recomendadas e insights acionáveis para melhorar a reputação do remetente.
 
