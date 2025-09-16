@@ -5,10 +5,10 @@ title: Criar expressões
 description: Criar expressões
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ Domine as regras de sintaxe, instruções condicionais e tipos de dados necessá
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Funções do Adobe Journey Optimizer
 
@@ -48,5 +48,27 @@ Acesse um guia abrangente sobre funções para manipulação de dados, avaliaç�
 
 [Descubra as funções disponíveis](main-functions-journey-landing-page.md)
 :::
+
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Exemplos de consultas em conjuntos de dados do Journey Optimizer e casos de uso relacionados
+
+Acesse exemplos práticos de consultas SQL para analisar e gerenciar dados em conjuntos de dados do Journey Optimizer para vários casos de uso.
+
+[Descubra casos de uso](../using/data/datasets-query-examples.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Exemplo de consultas SQL para análise de dados
+
+Acesse exemplos de consultas SQL para analisar dados do Journey Optimizer em um data lake, desde a resolução de problemas até a geração de relatórios e segmentação de públicos-alvo.
+
+[Explorar a criação de jornadas](../using/reports/query-examples.md)
+:::
+
 
 ::::
