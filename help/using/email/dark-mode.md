@@ -3,18 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Alternar para o modo escuro
 description: Saiba como usar o modo escuro no Designer de email
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: modo escuro, email, cor, editor
-hide: true
-hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
+source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1513'
 ht-degree: 4%
 
 ---
@@ -30,10 +27,6 @@ ht-degree: 4%
 >id="ac_edition_darkmode_preview"
 >title="Alternar para o modo escuro"
 >abstract="Alterne para o modo escuro para visualizar a renderização nos clientes de email compatíveis. <br>A renderização final depende do cliente de email do destinatário. Observe que todos os clientes de email não são compatíveis com o modo escuro."
-
->[!AVAILABILITY]
->
->No momento, esse recurso está na versão beta e só está disponível para clientes beta. <!--To join the beta program, contact your Adobe representative.-->
 
 Ao criar seus emails, o [!DNL Journey Optimizer] [Designer de Email](get-started-email-design.md) permite que você alterne para a exibição **[!UICONTROL Modo escuro]**.
 
