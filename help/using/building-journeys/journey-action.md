@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -33,7 +33,7 @@ O [!DNL Journey Optimizer] vem com uma nova atividade genérica **Action** que p
 Ele permite:
 
 * Uma configuração de ação nativa simplificada na tela da jornada.
-* A capacidade de criar grupos de ação de entrada de várias ações.
+* A capacidade de criar grupos de ação de entrada multiação.
 * A capacidade de adicionar otimização a qualquer ação de canal integrada.
 
 >[!NOTE]
@@ -102,7 +102,7 @@ O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que perm
 
 A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios, quando você deseja enviar um alerta de push urgente em telefones celulares, por exemplo, notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias.
 
-Para mais informações sobre desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html).
+Para mais informações sobre desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
