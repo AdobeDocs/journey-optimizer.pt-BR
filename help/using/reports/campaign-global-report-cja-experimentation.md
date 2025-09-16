@@ -20,7 +20,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="Métrica de sucesso"
+>title="Métricas de sucesso"
 >abstract="O valor total da métrica sucesso, anteriormente selecionado ao criar seus experimentos, dividido pelo número de perfis."
 
 ## Experimentação {#experimentation}

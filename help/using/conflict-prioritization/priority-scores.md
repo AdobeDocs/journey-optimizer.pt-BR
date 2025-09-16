@@ -7,7 +7,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -49,7 +49,7 @@ Se você estava criando esta campanha e queria garantir que o conteúdo dela fos
 >
 >Se duas jornadas ou campanhas tiverem a mesma pontuação de prioridade, o sistema não terá um mecanismo de interrupção de vínculo. Certifique-se de que as pontuações de prioridade sejam exclusivas para evitar conflitos.
 
-## Atribuir pontuações de prioridade às ações do canal de entrada {#priority-action}
+## Atribuir pontuações de prioridade às ações de canal de entrada {#priority-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
@@ -72,4 +72,4 @@ Para atribuir uma pontuação de prioridade às ações de entrada definidas na 
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445006?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

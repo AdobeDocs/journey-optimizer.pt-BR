@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
 source-wordcount: '1257'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -51,8 +51,8 @@ Quando a jornada estiver ativa, os perfis serão avaliados de acordo com os crit
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
->title="Métrica de sucesso"
->abstract="A métrica de sucesso é usada para rastrear e avaliar o tratamento com melhor desempenho em um experimento."
+>title="Métricas de sucesso"
+>abstract="As métricas de sucesso são usadas para controlar e avaliar o tratamento com melhor desempenho em um experimento."
 
 A experimentação permite testar caminhos diferentes com base em uma divisão aleatória para determinar qual tem o melhor desempenho com base em métricas de sucesso predefinidas.
 

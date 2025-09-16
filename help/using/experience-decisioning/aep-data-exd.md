@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 7%
+ht-degree: 25%
 
 ---
 
@@ -22,27 +22,27 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
 >title="Pesquisa de conjunto de dados"
->abstract="Para usar atributos do Adobe Experience Platform para a tomada de decisões, é necessário criar um mapeamento para definir como o conjunto de dados do Adobe Experience Platform se une aos dados no [!DNL Journey Optimizer]."
+>abstract="Para usar atributos da Adobe Experience Platform na tomada de decisões, é necessário criar um mapeamento para definir como o conjunto de dados da Adobe Experience Platform se une aos dados no [!DNL Journey Optimizer]."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="Pesquisa de conjunto de dados"
->abstract="Selecione o conjunto de dados com os atributos necessários entre todos os conjuntos de dados do Adobe Experience Platform que foram habilitados para pesquisa e selecione uma chave de mapeamento (por exemplo, número do voo ou ID do cliente) que exista nos atributos do item de decisão e no conjunto de dados."
+>abstract="Selecione o conjunto de dados com os atributos necessários entre todos os conjuntos de dados da Adobe Experience Platform que foram habilitados para pesquisa e escolha uma chave de mapeamento (por exemplo, número do voo ou ID do cliente) que exista nos atributos do item de decisão e no conjunto de dados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="Pesquisa de conjunto de dados"
->abstract="Selecione o conjunto de dados do Adobe Experience Platform com os atributos necessários. Se o conjunto de dados não for exibido na lista, verifique se ele foi habilitado para pesquisa e se você criou um mapeamento de pesquisa de conjunto de dados."
+>abstract="Selecione o conjunto de dados da Adobe Experience Platform com os atributos necessários. Se o conjunto de dados não for exibido na lista, verifique se ele foi habilitado para pesquisa e se você criou um mapeamento de pesquisa de conjunto de dados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Pesquisa de conjunto de dados"
->abstract="Use atributos de conjuntos de dados [!DNL Adobe Experience Platform] para ajustar dinamicamente a lógica de classificação para refletir condições reais. Clique em **[!UICONTROL Adicionar conjunto de dados]** para selecionar o conjunto de dados do Adobe Experience Platform com os atributos necessários. Se o conjunto de dados não for exibido na lista, verifique se ele foi habilitado para pesquisa e se você criou um mapeamento de pesquisa de conjunto de dados."
+>abstract="Use atributos de conjuntos de dados da [!DNL Adobe Experience Platform] para ajustar dinamicamente a lógica de classificação e refletir condições reais. Clique em **[!UICONTROL Adicionar conjunto de dados]** para selecionar o conjunto de dados da Adobe Experience Platform com os atributos necessários. Se o conjunto de dados não for exibido na lista, verifique se ele foi habilitado para pesquisa e se você criou um mapeamento de pesquisa de conjunto de dados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="Adicionar conjunto de dados"
->abstract="Use atributos de conjuntos de dados [!DNL Adobe Experience Platform] para definir critérios de limite com base em atributos dinâmicos e externos. Clique em **[!UICONTROL Adicionar conjunto de dados]** para selecionar o conjunto de dados do Adobe Experience Platform com os atributos necessários. Se o conjunto de dados não for exibido na lista, verifique se ele foi habilitado para pesquisa e se você criou um mapeamento de pesquisa de conjunto de dados."
+>abstract="Use atributos de conjuntos de dados da [!DNL Adobe Experience Platform] para definir critérios de limite com base em atributos dinâmicos e externos. Clique em **[!UICONTROL Adicionar conjunto de dados]** para selecionar o conjunto de dados da Adobe Experience Platform com os atributos necessários. Se o conjunto de dados não for exibido na lista, verifique se ele foi habilitado para pesquisa e se você criou um mapeamento de pesquisa de conjunto de dados."
 
 >[!AVAILABILITY]
 >
