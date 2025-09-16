@@ -1,80 +1,80 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Configuração de evento
-description: Configuração de evento
+title: Configuração de eventos
+description: Configuração de eventos
 redpen-status: CREATED_||_2025-08-11_21-10-50
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
+# Configuração de eventos{#section-overview}
 
-# Configuração de evento{#section-overview}
+A configuração de eventos no Adobe Journey Optimizer refere-se à configuração de acionadores que iniciam as jornadas personalizadas do cliente. Quer você esteja reagindo a ações individuais do usuário (eventos unitários) ou transmitindo atualizações para públicos-alvo mais amplos (eventos de negócios), essas configurações transformam dados em momentos acionáveis. Você verá como diferentes tipos de evento, como acionadores específicos de perfil, eventos baseados no público-alvo e integrações do Adobe Analytics, encaixam-se na estrutura geral da jornada. Com tópicos que variam de esquemas de dados e definições do conteúdo à transmissão em tempo real baseada em API, esta seção permite criar jornadas dinâmicas, precisas e impactantes.
 
-A configuração de eventos no Adobe Journey Optimizer trata da configuração de acionadores que iniciam as jornadas personalizadas do cliente. Quer você esteja reagindo a ações individuais do usuário (eventos unitários) ou transmitindo atualizações para públicos mais amplos (eventos comerciais), essas configurações transformam dados em momentos acionáveis. Você explorará como diferentes tipos de eventos — como acionadores específicos de perfil, eventos baseados em público-alvo e integrações do Adobe Analytics — se encaixam na estrutura de jornada maior. Com tópicos que variam de esquemas de dados e definições de carga útil à transmissão em tempo real baseada em API, esta seção possibilita criar jornadas dinâmicas, precisas e impactantes.
-
-## Configuração de evento
+## Configuração de eventos
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Trabalhar com eventos de Jornada
+Trabalhar com eventos de jornadas
 
-Saiba mais sobre os eventos de jornada, seus tipos, ciclo de vida e configuração para acionar jornadas personalizadas de maneira eficaz.
+Saiba mais sobre os eventos de jornadas, seus tipos, ciclo de vida e configurações para acionar jornadas personalizadas de maneira eficaz.
 
 [Saiba mais](../using/event/about-events.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Configurar um evento unitário
 
-Siga um guia passo a passo para configurar eventos unitários, incluindo a definição de cargas e tipos de identidade.
+Siga o guia passo a passo para configurar eventos unitários, incluindo a definição do conteúdo e dos tipos de identidade.
 
 [Introdução](../using/event/about-creating.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esquemas ExperienceEvent
 
-Entenda os requisitos e as configurações do esquema para assimilação de eventos e funcionalidades avançadas.
+Entenda os requisitos e as configurações do esquema de ingestão de eventos e funcionalidades avançadas.
 
 [Leia as diretrizes](../using/event/experience-event-schema.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Integração do Adobe Analytics
 
 Saiba como integrar dados do Adobe Analytics para automatizar jornadas e criar experiências personalizadas.
 
-[Exibir tutorial](../using/event/about-analytics.md)
+[Visualizar tutorial](../using/event/about-analytics.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Configurar um evento comercial
+Configurar um evento de negócios
 
-Instruções detalhadas sobre a configuração de eventos comerciais, incluindo a definição do esquema e a configuração da carga.
+Instruções detalhadas sobre a configuração de eventos de negócios, incluindo a definição do esquema e a configuração do conteúdo.
 
-[Iniciar configuração](../using/event/about-creating-business.md)
+[Iniciar a configuração](../using/event/about-creating-business.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Enviar eventos usando APIs de transmissão
+Enviar eventos com as APIs de transmissão
 
-Explore etapas adicionais para enviar eventos usando APIs de assimilação de streaming, incluindo preparação de carga útil e chamadas de API.
+Confira as etapas adicionais para enviar eventos por meio das APIs de ingestão de transmissão, incluindo preparação do conteúdo e chamadas de API.
 
 [Siga o guia](../using/event/additional-steps-to-send-events-to-journey.md)
 :::

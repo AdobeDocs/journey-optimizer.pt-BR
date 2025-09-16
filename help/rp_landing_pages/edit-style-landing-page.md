@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: Editar estilo
 description: Editar estilo
 redpen-status: CREATED_||_2025-08-11_20-32-57
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
-workflow-type: tm+mt
+exl-id: c4269d5d-95fa-4b00-add5-42a26ab0de9f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
-
 # Editar estilo{#section-overview}
 
-O Designer de email do Adobe Journey Optimizer inclui ferramentas de estilo avançadas que ajudam você a criar emails responsivos e visualmente envolventes. Você pode personalizar layouts, ajustar o alinhamento e o espaçamento, personalizar planos de fundo e ajustar a aparência de blocos de conteúdo individuais. Esses recursos fornecem controle preciso sobre o design, permitindo criar e-mails sofisticados que refletem sua marca e repercutem com seu público-alvo.
+O designer de email do Adobe Journey Optimizer inclui ferramentas de estilo avançadas que ajudam a criar emails responsivos e visualmente envolventes. Você pode personalizar layouts, ajustar o alinhamento e o espaçamento, personalizar fundos e ajustar a aparência de blocos de conteúdo individuais. Esses recursos fornecem um controle preciso do design, permitindo criar emails sofisticados alinhados à sua marca e adequados ao seu público-alvo.
 
-## Editar recursos de estilo
+## Recursos de edição de estilos
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Personalizar estilos de email
 
@@ -30,33 +30,33 @@ Saiba como ajustar parâmetros de estilo, como corpo do email, estrutura e compo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Personalizar plano de fundo do email
+Personalizar fundo do email
 
-Descubra como definir cores e imagens de fundo em diferentes níveis da estrutura de email no Designer de email do Adobe Journey Optimizer.
+Descubra como definir cores e imagens de fundo em diferentes níveis da estrutura do email no designer de email do Adobe Journey Optimizer.
 
 [Editar configurações de fundo](../using/email/backgrounds.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Ajustar alinhamento vertical e preenchimento
+Ajustar o alinhamento vertical e o preenchimento
 
-Instruções passo a passo para modificar o alinhamento vertical e o preenchimento nos componentes da estrutura do seu design de email.
+Instruções passo a passo para modificar o alinhamento vertical e o preenchimento nos componentes da estrutura do design de emails.
 
 [Ajustar o alinhamento vertical e o preenchimento](../using/email/alignment-and-padding.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adicionar atributos de estilo em linha
 
-Saiba como personalizar atributos de estilo em linha para elementos individuais em seu conteúdo de email usando a interface do Designer de email.
+Saiba como personalizar atributos de estilo em linha para elementos individuais do conteúdo do seu email, usando a interface do designer de email.
 
-[Adicionar atributos de estilo incorporado](../using/email/inline-styling.md)
+[Adicionar atributos de estilo em linha](../using/email/inline-styling.md)
 :::
 
 ::::

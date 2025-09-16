@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: Criar e gerenciar decisões
 description: Criar e gerenciar decisões
 redpen-status: CREATED_||_2025-08-11_21-01-28
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Criar e gerenciar decisões{#section-overview}
 
-No Adobe Journey Optimizer, a criação e o gerenciamento de decisões permitem que você forneça as ofertas mais relevantes aos seus clientes no momento certo. As decisões atuam como contêineres inteligentes que avaliam os dados do cliente e as regras de negócios para selecionar a melhor oferta para cada indivíduo. Você aprenderá a definir escopos de decisão, configurar métodos de classificação como prioridade ou IA e definir opções de fallback para garantir que nenhum cliente fique sem uma oferta. Desde a elaboração de sua primeira decisão até o teste com simulações, este guia detalha cada etapa, fornecendo as ferramentas para personalizar experiências e impulsionar um engajamento significativo.
+No Adobe Journey Optimizer, a criação e o gerenciamento de decisões permitem que você forneça as ofertas mais relevantes aos seus clientes no momento certo. As decisões atuam como containers inteligentes que avaliam os dados dos clientes e as regras de negócios para selecionar a melhor oferta para cada pessoa física. Você aprenderá a definir escopos de decisão, configurar métodos de classificação, como prioridade ou IA, e definir opções de fallback para garantir que nenhum cliente fique sem uma oferta. Desde a elaboração da sua primeira decisão até o teste com simulações, este guia detalha cada etapa, fornecendo as ferramentas para personalizar experiências e impulsionar um engajamento significativo.
 
 ## Criar e gerenciar decisões
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar decisões no Adobe Journey Optimizer
 
@@ -30,21 +30,21 @@ Saiba como criar decisões, definir escopos, definir ofertas substitutas e geren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configurar métodos de seleção de oferta
+Configurar métodos de seleção de ofertas
 
-Explore como configurar métodos de classificação para decisões, incluindo pontuações de prioridade, fórmulas e modelos de IA.
+Explore como configurar métodos de classificação de decisões, incluindo pontuações de prioridade, fórmulas e modelos de IA.
 
-[Saiba mais sobre os métodos de seleção de oferta](../using/offers/offer-activities/configure-offer-selection.md)
+[Saiba mais sobre os métodos de seleção de ofertas](../using/offers/offer-activities/configure-offer-selection.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Simular Decisões De Oferta
+Simular decisões de oferta
 
-Teste e valide a lógica de decisão simulando quais ofertas serão entregues a perfis de teste específicos.
+Teste e valide a lógica de decisão, simulando quais ofertas serão entregues a perfis de teste específicos.
 
 [Saiba como simular decisões](../using/offers/offer-activities/simulation.md)
 :::

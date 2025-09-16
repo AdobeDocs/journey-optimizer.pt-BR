@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Gerenciamento de conflitos e priorização
-description: Gerenciamento de conflitos e priorização
+title: Gerenciamento e priorização de conflitos
+description: Gerenciamento e priorização de conflitos
 redpen-status: CREATED_||_2025-08-11_20-29-02
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 02176308-efeb-49dc-88a6-bc886dc8fc9b
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
+# Gerenciamento e priorização de conflitos{#section-overview}
 
-# Gerenciamento de conflitos e priorização{#section-overview}
-
-O gerenciamento de conflitos e a priorização no Adobe Journey Optimizer ajudam você a fornecer comunicações relevantes e cronometradas, evitando a fadiga do cliente e garantindo que as mensagens certas cheguem ao seu público-alvo. Usando ferramentas como a detecção de conflitos, pontuações de prioridade e conjuntos de regras, você pode simplificar campanhas e jornadas para evitar sobreposições e equilibrar a frequência entre canais. Quer você esteja definindo limites na frequência com que as mensagens são enviadas ou decidindo quais campanhas têm prioridade, esses recursos trabalham juntos para simplificar a tomada de decisões e otimizar sua estratégia de marketing. Analise detalhadamente como essas ferramentas podem transformar suas campanhas em experiências perfeitas e impactantes.
+O gerenciamento e a priorização de conflitos no Adobe Journey Optimizer ajudam a fornecer comunicações relevantes e programadas, evitando a fadiga do cliente e garantindo que as mensagens certas cheguem ao seu público-alvo. Usando ferramentas como detecção de conflitos, pontuações de prioridade e conjuntos de regras, você pode simplificar campanhas e jornadas para evitar sobreposições e equilibrar a frequência entre canais. Quer você esteja definindo limites para a frequência de envio das mensagens ou decidindo quais campanhas têm prioridade, esses recursos trabalham juntos para simplificar a tomada de decisão e otimizar a sua estratégia de marketing. Analise detalhadamente como essas ferramentas podem transformar as suas campanhas em experiências fluidas e impactantes.
 
 ## Gerenciamento e priorização de conflitos
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Introdução ao Gerenciamento de conflitos
+Introdução ao gerenciamento de conflitos
 
 Saiba como usar ferramentas como detecção de conflitos, pontuações de prioridade e conjuntos de regras para simplificar campanhas e evitar sobrecarregar os clientes.
 
@@ -30,31 +30,31 @@ Saiba como usar ferramentas como detecção de conflitos, pontuações de priori
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Identificar possíveis conflitos
 
-Descubra métodos para detectar e resolver conflitos de campanha e jornadas, garantindo comunicações de marketing equilibradas.
+Descubra métodos para detectar e resolver conflitos em campanhas e jornadas, garantindo comunicações de marketing equilibradas.
 
 [Leia o artigo](../using/conflict-prioritization/conflicts.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Atribuir pontuações de prioridade às campanhas
+Atribuir pontuações de prioridade a campanhas
 
 Saiba como atribuir pontuações de prioridade numéricas a jornadas e campanhas para gerenciar conflitos e priorizar comunicações de maneira eficaz.
 
-[Ler o tutorial](../using/conflict-prioritization/priority-scores.md)
+[Leia o tutorial](../using/conflict-prioritization/priority-scores.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Definir regras de limitação de mensagens e Jornadas
+Definir regras de limite de mensagens e jornadas
 
-Crie e gerencie regras para limite de frequência e gerenciamento de entrada de jornada para otimizar a eficiência da comunicação.
+Crie e gerencie regras de limite da frequência e gerenciamento de entradas de jornadas para otimizar a eficiência da comunicação.
 
 [Explore a seção](capping-rules-landing-page.md)
 :::

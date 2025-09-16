@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Jornadas
 description: Jornadas
 redpen-status: CREATED_||_2025-08-11_20-21-13
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # Jornadas{#section-overview}
 
-As jornadas no Adobe Journey Optimizer permitem criar jornadas personalizadas e em várias etapas do cliente que se adaptam em tempo real ao comportamento e às necessidades do seu público-alvo. Usando uma tela intuitiva de arrastar e soltar, você pode orquestrar mensagens e ações em vários canais, aproveitando dados contextuais e o direcionamento de público-alvo para obter o máximo impacto. Esteja você explorando acionadores em tempo real, gerenciando propriedades do jornada ou usando ferramentas avançadas como ações e expressões personalizadas, esta seção fornece um roteiro claro. Mergulhe em guias passo a passo, casos de uso e dicas de solução de problemas para projetar e refinar com confiança as jornadas que proporcionam experiências relevantes e oportunas ao cliente.
+As jornadas no Adobe Journey Optimizer permitem criar jornadas do cliente personalizadas e em várias etapas que se adaptam em tempo real ao comportamento e às necessidades do seu público-alvo. Usando uma tela intuitiva de arrastar e soltar, você pode orquestrar mensagens e ações em vários canais, aproveitando dados contextuais e o direcionamento de público-alvo para obter o máximo impacto. Esteja você explorando acionadores em tempo real, gerenciando propriedades da jornada ou usando ferramentas avançadas como ações e expressões personalizadas, esta seção fornece um roteiro claro. Mergulhe em guias passo a passo, casos de uso e dicas de solução de problemas para projetar e refinar com confiança as jornadas que proporcionam experiências relevantes e oportunas ao cliente.
 
-## Visão geral do Jornada
+## Visão geral de jornadas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Introdução ao Adobe Journey Optimizer Jornada
+Introdução às jornadas do Adobe Journey Optimizer
 
-Saiba como criar jornadas de clientes em tempo real em várias etapas usando as ferramentas intuitivas de arrastar e soltar da Adobe Journey Optimizer e dados contextuais.
+Saiba como criar jornadas de clientes em tempo real em várias etapas usando as ferramentas intuitivas de arrastar e soltar do Adobe Journey Optimizer e dados contextuais.
 
-[Introdução a jornadas](../using/building-journeys/journey.md)
+[Introdução às jornadas](../using/building-journeys/journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Guia abrangente para criar e gerenciar Jornadas
+Guia abrangente para criar e gerenciar jornadas
 
-Orientação passo a passo sobre design, teste, publicação e rastreamento de jornadas do cliente para criar campanhas omnicanais personalizadas.
+Orientação passo a passo sobre design, teste, publicação e rastreamento de jornadas do cliente para criar campanhas onicanais personalizadas.
 
 [Explorar a criação de jornadas](create-journey-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Guia abrangente para gerenciamento de Jornadas
+Guia abrangente para gerenciar jornadas
 
 Gerencie as jornadas do cliente com eficiência com ferramentas para filtragem, gerenciamento de perfil, fusos horários e técnicas de otimização.
 
-[Saiba mais sobre o gerenciamento de jornadas](manage-journey-landing-page.md)
+[Saiba mais sobre o gerenciamento de jornada](manage-journey-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Atividades no Adobe Journey Optimizer
 
-Descubra como configurar e usar atividades como acionadores, etapas de decisão, gerenciamento de público-alvo e mensagens personalizadas no jornada.
+Descubra como configurar e usar atividades como acionadores, etapas de decisão, gerenciamento de público-alvo e mensagens personalizadas em jornadas.
 
 [Explorar atividades](about-journey-building-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Criação de expressões no Adobe Journey Optimizer
 
-Criação de expressão principal para workflows dinâmicos, manipulação de dados e orquestração de jornadas avançada usando ferramentas e sintaxe avançadas.
+Domine a criação de expressões para fluxos de trabalho dinâmicos, manipulação de dados e orquestração de jornada avançada usando ferramentas e sintaxe avançadas.
 
 [Saiba mais sobre expressões](building-advanced-conditions-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casos de uso prático do Adobe Journey Optimizer
 
 Explore aplicativos reais do Adobe Journey Optimizer, incluindo mensagens multicanais e integração com sistemas externos.
 
-[Casos de uso do Discover](journey-use-cases-landing-page.md)
+[Descubra casos de uso](journey-use-cases-landing-page.md)
 :::
 
 ::::
@@ -84,4 +84,4 @@ Explore aplicativos reais do Adobe Journey Optimizer, incluindo mensagens multic
 
 ## Recursos adicionais
 
-- **[Solução de problemas de Jornadas do cliente](troubleshoot-journey-landing-page.md)** - Diagnostique e resolva problemas de execução de jornada com ferramentas, códigos de erro e práticas recomendadas para depuração e otimização.
+- **[Solução de problemas de jornadas do cliente](troubleshoot-journey-landing-page.md)**: diagnostique e resolva problemas de execução de jornada com ferramentas, códigos de erro e práticas recomendadas para depuração e otimização.

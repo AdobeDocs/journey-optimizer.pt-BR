@@ -4,59 +4,59 @@ product: Journey Optimizer
 title: Canal da web
 description: Canal da web
 redpen-status: CREATED_||_2025-08-11_20-40-58
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 3ff0809b-2d60-477b-9a4c-c6c2324c1a10
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Canal da web{#section-overview}
 
-O canal da Web no Adobe Journey Optimizer permite criar experiências personalizadas diretamente no seu site, ajudando você a se conectar com os clientes de maneiras significativas. Quer você esteja aprimorando o engajamento com conteúdo personalizado ou integrando campanhas da Web com outros canais sem interrupção, como email, SMS e notificações por push, esse recurso oferece um kit de ferramentas versátil para atingir suas metas de marketing. Você descobrirá como configurar o canal da Web, definir e personalizar experiências da Web e monitorar seu impacto, tudo usando ferramentas intuitivas como editores visuais e não visuais. Cada subtópico se baseia no último, orientando você passo a passo para dominar a personalização e otimização da Web com confiança.
+O canal da web do Adobe Journey Optimizer permite criar experiências personalizadas diretamente no seu site, ajudando a estabelecer uma conexão com os clientes de maneira significativa. Quer você esteja aprimorando o engajamento com um conteúdo personalizado ou integrando campanhas da web a outros canais, como email, SMS e notificações por push, esse recurso oferece um kit de ferramentas versátil para atingir as suas metas de marketing. Você descobrirá como configurar o canal da web, definir e personalizar experiências da web, e monitorar seu impacto, tudo isso por meio de ferramentas intuitivas, como editores visuais e não visuais. Cada subtópico baseia-se no anterior, fornecendo orientações passo a passo para dominar a personalização e otimização para a web com confiança.
 
-## Documentação do canal da Web
+## Documentação do canal da web
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Introdução ao canal da Web
+Introdução ao canal da web
 
-Saiba como criar e gerenciar experiências personalizadas da Web no Adobe Journey Optimizer. Obtenha uma visão geral dos recursos, benefícios e pré-requisitos.
+Saiba como criar e gerenciar experiências da web personalizadas no Adobe Journey Optimizer. Obtenha uma visão geral dos recursos, benefícios e pré-requisitos.
 
 [Comece aqui](../using/web/get-started-web.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configurar canal da Web
+Configurar o canal da web
 
-Configure e gerencie canais da Web, incluindo subdomínios, regras de correspondência de URL e ações de marketing, para fornecer conteúdo personalizado com eficiência.
+Configure e gerencie canais da web, incluindo subdomínios, regras de correspondência de URL e ações de marketing, para fornecer um conteúdo personalizado com eficiência.
 
 [Configurar agora](configure-web-channel-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Criar e gerenciar experiências da Web
+Criar e gerenciar experiências da web
 
-Guia passo a passo para criar, editar, testar e publicar experiências personalizadas da Web para campanhas e jornadas.
+Guia passo a passo para criar, editar, testar e publicar experiências personalizadas da web para campanhas e jornadas.
 
 [Saiba como](../using/web/create-web.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
-Criar e gerenciar páginas da Web
+Criar e gerenciar páginas da web
 
-Descubra ferramentas e práticas recomendadas para criar, editar, monitorar e personalizar páginas da Web, incluindo SPAs e rastreamento de cliques.
+Descubra ferramentas e práticas recomendadas para criar, editar, monitorar e personalizar páginas da web, incluindo SPAs e rastreamento de cliques.
 
-[Explorar ferramentas de criação](author-web-pages-landing-page.md)
+[Explore as ferramentas de criação](author-web-pages-landing-page.md)
 :::
 
 ::::

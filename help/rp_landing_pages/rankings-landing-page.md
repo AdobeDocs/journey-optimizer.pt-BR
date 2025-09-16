@@ -4,49 +4,49 @@ product: Journey Optimizer
 title: Criar classificações
 description: Criar classificações
 redpen-status: CREATED_||_2025-08-11_21-00-00
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # Criar classificações{#section-overview}
 
-As classificações no Adobe Journey Optimizer permitem que você personalize quais ofertas aparecem primeiro para o seu público, garantindo que as opções mais relevantes estejam sempre na frente e no centro. Se você preferir usar fórmulas de classificação simples e baseadas em regras ou modelos de IA sofisticados que se adaptam ao comportamento do usuário, esse recurso ajuda a otimizar o envolvimento do cliente e a gerar resultados. Você descobrirá como as fórmulas de classificação permitem definir regras personalizadas, enquanto os modelos de IA aproveitam insights orientados por dados para uma priorização mais inteligente. Além disso, você aprenderá a atribuir essas classificações facilmente a inserções, fornecendo controle total sobre como as ofertas são apresentadas em cada interação com o cliente.
+As classificações do Adobe Journey Optimizer permitem que você personalize quais ofertas aparecerão primeiro para o seu público-alvo, garantindo que as opções mais relevantes estejam sempre em destaque. Se você preferir usar fórmulas de classificação simples e baseadas em regras, ou modelos de IA sofisticados que se adaptam ao comportamento do usuário, esse recurso ajuda a otimizar o engajamento dos clientes e gerar resultados. Você descobrirá como as fórmulas de classificação permitem definir regras personalizadas, enquanto os modelos de IA utilizam insights orientados por dados para uma priorização mais inteligente. Além disso, você aprenderá a atribuir essas classificações a posicionamentos facilmente, obtendo controle total de como as ofertas são apresentadas em cada interação com o cliente.
 
 ## Criar classificações
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução às classificações
 
-Saiba mais sobre as noções básicas das classificações no Adobe Journey Optimizer, incluindo fórmulas de classificação e modelos de IA para otimizar inserções de ofertas.
+Saiba mais sobre as noções básicas das classificações do Adobe Journey Optimizer, incluindo fórmulas de classificação e modelos de IA para otimizar posicionamentos de ofertas.
 
 [Leia o guia](../using/offers/ranking/get-started-rankings.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Criando e Usando Fórmulas de Classificação
+Criar e usar fórmulas de classificação
 
-Siga as instruções passo a passo para criar fórmulas de classificação usando a sintaxe do PQL e dados de contexto, com exemplos práticos incluídos.
+Siga as instruções passo a passo para criar fórmulas de classificação, usando a sintaxe PQL e dados contextuais, incluindo exemplos práticos.
 
-[Explorar o tutorial](../using/offers/ranking/create-ranking-formulas.md)
+[Explore o tutorial](../using/offers/ranking/create-ranking-formulas.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Modelos de IA para classificação de ofertas
 
-Descubra como modelos de IA como otimização automática e otimização personalizada podem ser usados para classificar ofertas e otimizar KPIs de negócios.
+Descubra como modelos de IA, como otimização automática e otimização personalizada, podem ser usados para classificar ofertas e otimizar os KPIs da empresa.
 
-[Saiba mais sobre modelos de IA](ai-models-landing-page.md)
+[Saiba mais sobre os modelos de IA](ai-models-landing-page.md)
 :::
 
 ::::

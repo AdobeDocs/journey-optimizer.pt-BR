@@ -4,34 +4,34 @@ product: Journey Optimizer
 title: Canal no aplicativo
 description: Canal no aplicativo
 redpen-status: CREATED_||_2025-08-11_20-36-05
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 79283c99-af70-4871-a72a-dec0b2e39c5a
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Canal no aplicativo{#section-overview}
 
-O canal no aplicativo no Adobe Journey Optimizer permite que você se conecte aos usuários do aplicativo em tempo real por meio de notificações personalizadas exibidas diretamente no aplicativo móvel ou da Web. Se você deseja orientar os usuários durante a integração, promover um novo recurso ou compartilhar ofertas exclusivas, as mensagens no aplicativo oferecem uma maneira envolvente de fornecer conteúdo relevante exatamente quando mais importa. Esta seção fornece um roteiro claro para dominar as mensagens no aplicativo. Desde definir as configurações necessárias e projetar mensagens visualmente atraentes até criar campanhas direcionadas e analisar seu impacto. Cada tópico tem como base o último, permitindo que você crie experiências significativas e amigáveis com confiança.
+O canal no aplicativo no Adobe Journey Optimizer permite que você se conecte aos usuários do aplicativo em tempo real por meio de notificações personalizadas exibidas diretamente no aplicativo móvel ou na Web. Se você deseja orientar os usuários durante a integração, promover um novo recurso ou compartilhar ofertas exclusivas, as mensagens no aplicativo oferecem uma maneira envolvente de fornecer conteúdo relevante exatamente quando mais importa. Esta seção fornece um roteiro claro para dominar as mensagens no aplicativo. Desde definir as configurações necessárias e criar mensagens visualmente atraentes até criar campanhas direcionadas e analisar seu impacto. Cada tópico tem como base o último, permitindo que você crie experiências relevantes e intuitivas com confiança.
 
 ## Recursos do canal no aplicativo
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configuração do canal no aplicativo
+Configuração de canais no aplicativo
 
-Guia passo a passo para configurar permissões, configurações de delivery e pré-requisitos para enviar mensagens no aplicativo.
+Guia passo a passo para configurar permissões, configurações de entrega e pré-requisitos para enviar mensagens no aplicativo.
 
 [Configurar o ambiente](../using/in-app/inapp-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar mensagens móveis no aplicativo
 
@@ -41,33 +41,33 @@ Saiba como criar, configurar e publicar mensagens móveis no aplicativo usando a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Criar mensagens no aplicativo da Web
 
 Configure e crie campanhas de mensagens no aplicativo da Web com acionadores, direcionamento de público-alvo e frequência de entrega.
 
-[Configurar mensagens da Web](../using/in-app/create-in-app-web.md)
+[Definir mensagens da web](../using/in-app/create-in-app-web.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
 
-Projetar e personalizar conteúdo no aplicativo
+Criar e personalizar conteúdo no aplicativo
 
 Explore opções de layout, personalize o conteúdo e use formatação avançada para aprimorar as mensagens no aplicativo.
 
-[Projetar a mensagem](../using/in-app/design-in-app.md)
+[Criar a mensagem](../using/in-app/design-in-app.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
-Marque e envie sua notificação no aplicativo
+Verificação e envio da notificação no aplicativo
 
 Visualize, teste, revise e ative as notificações no aplicativo com o Adobe Journey Optimizer.
 
-[Envie sua notificação](../using/in-app/send-in-app.md)
+[Enviar a notificação](../using/in-app/send-in-app.md)
 :::
 
 ::::

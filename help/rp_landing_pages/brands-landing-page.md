@@ -4,39 +4,39 @@ product: Journey Optimizer
 title: Marcas
 description: Marcas
 redpen-status: CREATED_||_2025-08-12_00-41-41
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-
 # Marcas{#section-overview}
 
-No Adobe Journey Optimizer, o recurso &quot;Marcas&quot; permite definir e manter a identidade exclusiva da sua marca em todas as suas iniciativas de marketing. Ao configurar diretrizes visuais e verbais claras — como cores, logotipos, estilos de escrita e imagens — você garante que cada parte do conteúdo repercuta com seu público-alvo e reforce sua marca. Você explorará como criar e personalizar essas diretrizes, definir preferências padrão para integração contínua e usar ferramentas como o Assistente de IA para gerar conteúdo consistente e sob marca. Mergulhe em tópicos como estilo de escrita, conteúdo visual e alinhamento da marca para ver como esses elementos funcionam juntos para criar uma experiência unificada para seus clientes.
+No Adobe Journey Optimizer, o recurso de “Marcas” permite definir e manter a identidade exclusiva da sua marca em todas as suas iniciativas de marketing. Ao configurar diretrizes visuais e verbais claras, como cores, logotipos, estilos de escrita e imagens, você garante que cada parte do conteúdo se adeque ao seu público-alvo e reforce a sua marca. Você verá como criar e personalizar essas diretrizes, definir preferências padrão para integração contínua e usar ferramentas como o Assistente de IA para gerar um conteúdo consistente e alinhado à marca. Mergulhe de cabeça em tópicos como estilo de escrita, conteúdo visual e alinhamento à marca para ver como esses elementos funcionam juntos para criar uma experiência unificada para os seus clientes.
 
 ## Recursos de marcas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Crie e gerencie suas diretrizes de marca
+Criar e gerenciar as diretrizes da sua marca
 
-Saiba como definir, personalizar e manter as diretrizes da marca para uma identidade visual e verbal consistente usando o Adobe Journey Optimizer.
+Saiba como definir, personalizar e manter as diretrizes da marca para uma identidade visual e verbal consistente no Adobe Journey Optimizer.
 
-[Introdução às diretrizes de marca](../using/content-management/brands.md)
+[Introdução às diretrizes da marca](../using/content-management/brands.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Avaliar a pontuação do alinhamento da marca
+Avaliar a sua pontuação de alinhamento à marca
 
-Entenda e utilize o recurso Alinhamento da marca para validar a adesão do conteúdo às diretrizes da marca e melhorar a consistência.
+Entenda e utilize o recurso de alinhamento à marca para validar a adesão do conteúdo às diretrizes da marca e melhorar a consistência.
 
-[Saiba mais sobre o alinhamento da marca](../using/content-management/brands-score.md)
+[Saiba mais sobre o alinhamento à marca](../using/content-management/brands-score.md)
 :::
 
 ::::

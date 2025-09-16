@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Relatório em tempo real
 description: Relatório em tempo real
 redpen-status: CREATED_||_2025-08-11_20-47-56
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Relatório em tempo real{#section-overview}
 
-O recurso Relatório ao vivo no Adobe Journey Optimizer permite rastrear e analisar o desempenho em tempo real de suas campanhas, jornadas e mensagens, tudo em um painel dinâmico e personalizável. Se você deseja monitorar o engajamento do email, as taxas de entrega de SMS ou as conversões de páginas de aterrissagem, os Relatórios em tempo real oferecem insights claros para ajudar a otimizar os resultados. Você aprenderá a personalizar painéis de acordo com suas necessidades, exportar dados para análise mais profunda e explorar métricas detalhadas em diferentes canais de comunicação. Mergulhe em tópicos secundários, como relatórios do Jornada e do Campaign, para descobrir tendências acionáveis, identificar problemas e tomar decisões orientadas por dados com confiança.
+O recurso de relatório em tempo real do Adobe Journey Optimizer permite rastrear e analisar o desempenho em tempo real das suas campanhas, jornadas e mensagens, tudo em um painel dinâmico e personalizável. Queira você monitorar o engajamento dos emails, as taxas de entrega de SMS ou as conversões de páginas de destino, os relatórios em tempo real oferecem insights claros para ajudar a otimizar os resultados. Você aprenderá a personalizar painéis de acordo com as suas necessidades, exportar dados para uma análise mais profunda e explorar métricas detalhadas em diferentes canais de comunicação. Confira os tópicos derivados, como relatórios de jornadas e campanhas, para descobrir tendências acionáveis, identificar problemas e tomar decisões orientadas por dados com confiança.
 
-## Recursos do relatório ao vivo
+## Recursos do relatório em tempo real
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao relatório em tempo real
 
-Saiba como acessar, personalizar e exportar relatórios ao vivo para monitorar jornadas e mensagens em tempo real.
+Saiba como acessar, personalizar e exportar relatórios em tempo real para monitorar jornadas e mensagens em tempo real.
 
-[Explorar o tutorial](../using/reports/live-report.md)
+[Explore o tutorial](../using/reports/live-report.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Lista de métricas
 
-Entenda as definições e categorias de métricas usadas em Relatórios ao vivo para jornada, emails, SMS e muito mais.
+Entenda as definições e categorias de métricas usadas nos relatórios em tempo real para jornadas, emails, SMS e muito mais.
 
-[Exibir a referência de métricas](../using/reports/live-report-components.md)
+[Visualizar a referência de métricas](../using/reports/live-report-components.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Jornada relatório ao vivo
+Relatório em tempo real da jornada
 
-Analisar o desempenho das jornadas e dos canais de comunicação associados em tempo real nas últimas 24 horas.
+Analise o desempenho das jornadas e dos canais de comunicação associados em tempo real nas últimas 24 horas.
 
-[Acessar o guia de relatório do Jornada](../using/reports/journey-live-report.md)
+[Acessar o guia de relatório da jornada](../using/reports/journey-live-report.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Relatório ao vivo da campanha
+Relatório em tempo real da campanha
 
-Visualize o desempenho da campanha em vários canais, como email, push, SMS, Web e correspondência direta.
+Visualize o desempenho da campanha em vários canais, como email, push, SMS, web e correspondência direta.
 
-[Saiba mais sobre os relatórios do Campaign](../using/reports/campaign-live-report.md)
+[Saiba mais sobre a geração de relatórios da campanha](../using/reports/campaign-live-report.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Relatório ao vivo da landing page
+Relatório em tempo real da página de destino
 
-Avalie o desempenho da página de aterrissagem com métricas em tempo real, como visitas, conversões e rejeições.
+Avalie o desempenho da página de destino com métricas em tempo real, como visitas, conversões e rejeições.
 
-[Mergulhe nos relatórios de landing page](../using/reports/lp-report-live.md)
+[Mergulhe de cabeça na geração de relatórios da página de destino](../using/reports/lp-report-live.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Relatório ao vivo da assinatura
+Relatório em tempo real de assinaturas
 
-Monitore tendências de assinatura e cancelamento de assinatura em tempo real para otimizar o envolvimento do público-alvo.
+Monitore tendências de assinatura e cancelamento de assinaturas em tempo real para otimizar o engajamento do público-alvo.
 
-[Saiba mais sobre Relatórios de subscrição](../using/reports/subscription-report-live.md)
+[Saiba mais sobre a geração de relatórios de assinaturas](../using/reports/subscription-report-live.md)
 :::
 
 ::::

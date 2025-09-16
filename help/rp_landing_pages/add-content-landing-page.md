@@ -1,82 +1,82 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Projetar o conteúdo
-description: Projetar o conteúdo
+title: Projetar o seu conteúdo
+description: Projetar o seu conteúdo
 redpen-status: CREATED_||_2025-08-11_20-32-28
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
+# Projetar o seu conteúdo{#section-overview}
 
-# Projetar o conteúdo{#section-overview}
+A criação de conteúdo no Adobe Journey Optimizer envolve criar experiências de email personalizadas e impactantes que se conectam ao seu público-alvo. Quer você esteja adicionando layouts dinâmicos, fragmentos visuais reutilizáveis ou links personalizados, as ferramentas trabalham em conjunto para oferecer controle total sobre o design de emails. Você também descobrirá como integrar metadados para fins de acessibilidade, personalizar ofertas para obter mais relevância e até aplicar estilos avançados com um CSS personalizado. Com orientações passo a passo, esses recursos permitem criar emails que, além de ser visualmente impressionantes, também são personalizados para atender às suas metas e às necessidades do seu público-alvo.
 
-A criação de conteúdo no Adobe Journey Optimizer envolve criar experiências de email personalizadas e impactantes que se conectam ao seu público-alvo. Quer você esteja adicionando layouts dinâmicos, fragmentos visuais reutilizáveis ou links personalizados, cada ferramenta trabalha em conjunto para oferecer controle total sobre o design de email. Você também descobrirá como integrar metadados para acessibilidade, personalizar ofertas para maior relevância e até mesmo aplicar estilos avançados usando CSS personalizado. Com orientação passo a passo, esses recursos capacitam você a criar emails que não são apenas visualmente impressionantes, mas também são personalizados para atender às suas metas e às necessidades do seu público-alvo.
-
-## Projetar o conteúdo
+## Projetar o seu conteúdo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Usar componentes de conteúdo
 
-Saiba como adicionar e personalizar componentes como texto, botões, imagens e muito mais para criar layouts de email dinâmicos.
+Saiba como adicionar e personalizar componentes como textos, botões, imagens e muito mais para criar layouts de email dinâmicos.
 
 [Começar a usar componentes de conteúdo](../using/email/content-components.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
-Aproveitar fragmentos visuais
+Utilizar fragmentos visuais
 
-Descubra como criar fragmentos reutilizáveis para simplificar o design de email e melhorar a consistência do conteúdo.
+Descubra como criar fragmentos reutilizáveis para simplificar o design de emails e melhorar a consistência do conteúdo.
 
-[Saiba mais sobre fragmentos visuais](../using/email/use-visual-fragments.md)
+[Saiba mais sobre os fragmentos visuais](../using/email/use-visual-fragments.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Adicionar links e rastrear mensagens
 
-Ative o rastreamento, insira links e gerencie aparências de links para otimizar suas campanhas de email.
+Habilite o rastreamento, insira links e gerencie a aparência dos links para otimizar as suas campanhas de email.
 
-[Explorar rastreamento e links](../using/email/message-tracking.md)
+[Explore o rastreamento e os links](../using/email/message-tracking.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Inserir Ofertas Personalizadas
+Inserir ofertas personalizadas
 
-Use a gestão de decisões para exibir dinamicamente ofertas personalizadas sob medida para seu público-alvo.
+Use a gestão de decisões para exibir dinamicamente ofertas personalizadas feitas sob medida para o seu público-alvo.
 
 [Adicionar ofertas personalizadas](../using/email/add-offers-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
-Gerar versão de texto
+Gerar versão em texto
 
-Crie e personalize a versão em texto sem formatação do seu email para destinatários que não conseguem visualizar o conteúdo do HTML.
+Crie e personalize a versão em texto sem formatação do seu email para destinatários que não conseguem visualizar o conteúdo em HTML.
 
-[Criar uma versão de texto](../using/email/text-version-email.md)
+[Criar uma versão em texto](../using/email/text-version-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adicionar metadados
 
-Melhorar a legibilidade e a acessibilidade do email configurando metadados como pré-cabeçalhos e idioma do documento.
+Melhore a legibilidade e a acessibilidade dos emails, configurando metadados como pré-cabeçalhos e idioma do documento.
 
-[Configurar metadados de email](../using/email/email-metadata.md)
+[Configurar metadados dos emails](../using/email/email-metadata.md)
 :::
 
 ::::
@@ -84,4 +84,4 @@ Melhorar a legibilidade e a acessibilidade do email configurando metadados como 
 
 ## Recursos adicionais
 
-- **[Adicionar CSS personalizado](../using/email/custom-css.md)** - obtenha controle de estilo avançado aplicando CSS personalizado ao seu conteúdo de email.
+- **[Adicionar CSS personalizado](../using/email/custom-css.md)**: obtenha um controle de estilo avançado, aplicando um CSS personalizado ao conteúdo do seu email.

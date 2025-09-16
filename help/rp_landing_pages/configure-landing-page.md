@@ -1,62 +1,62 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Configurar canal de cartão de conteúdo
-description: Configurar canal de cartão de conteúdo
+title: Configurar canal de cartões de conteúdo
+description: Configurar canal de cartões de conteúdo
 redpen-status: CREATED_||_2025-08-11_20-43-03
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 430e1c63-0f82-4515-9cc2-2e1346742da5
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
+# Configurar canal de cartões de conteúdo{#section-overview}
 
-# Configurar canal de cartão de conteúdo{#section-overview}
+A seção “Configurar canal de cartões de conteúdo” no Adobe Journey Optimizer permite que você forneça experiências personalizadas e envolventes na web, em dispositivos móveis e em outras plataformas, por meio de cartões de conteúdo dinâmico. Ao definir superfícies com pontos de contato específicos identificados por meio de URIs exclusivos e personalizar configurações, você pode personalizar como as suas mensagens aparecem e interagem com os usuários. Esta seção detalha as etapas essenciais de configuração, desde a integração com SDKs da Adobe Experience Platform até a resolução de problemas e o refinamento dos seus designs. Quer você esteja criando regras para personalização na web ou utilizando os recursos móveis do SDK para rastrear interações dos usuários, cada tópico cria um caminho claro para ajudar a otimizar a entrega de conteúdo e impulsionar um engajamento significativo.
 
-A seção &quot;Configurar canal de cartão de conteúdo&quot; no Adobe Journey Optimizer permite que você forneça experiências personalizadas e envolventes na Web, em dispositivos móveis e em outras plataformas por meio de cartões de conteúdo dinâmico. Ao definir superfícies com pontos de contato específicos identificados por meio de URIs exclusivos e personalizar configurações, você pode personalizar como suas mensagens aparecem e interagem com os usuários. Esta seção percorre etapas essenciais de configuração, desde a integração com SDKs da Adobe Experience Platform até a solução de problemas e o refinamento de seus designs. Quer você esteja criando regras para personalização na Web ou aproveitando os recursos móveis do SDK para rastrear interações do usuário, cada tópico cria um caminho claro para ajudá-lo a otimizar a entrega de conteúdo e impulsionar um engajamento significativo.
-
-## Configurar canal de cartão de conteúdo
+## Configurar canal de cartões de conteúdo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Pré-requisitos da configuração do canal de cartões de conteúdo
 
-Saiba mais sobre as configurações necessárias para ativar o canal de Cartões de conteúdo no Adobe Journey Optimizer.
+Saiba mais sobre as configurações necessárias para ativar o canal de cartões de conteúdo no Adobe Journey Optimizer.
 
-[Exibir pré-requisitos](../using/content-card/content-card-configuration-prereq.md)
+[Visualizar pré-requisitos](../using/content-card/content-card-configuration-prereq.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Configurar o canal de cartões de conteúdo no Journey Optimizer
+Configurar canal de cartões de conteúdo no Journey Optimizer
 
-Siga as instruções passo a passo para definir superfícies de URI e criar configurações de cartão de conteúdo para várias plataformas.
+Siga as instruções passo a passo para definir superfícies de URI e criar configurações de cartões de conteúdo para várias plataformas.
 
-[Iniciar configuração](../using/content-card/content-card-configuration.md)
+[Iniciar a configuração](../using/content-card/content-card-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Configurar o suporte a cartões de conteúdo no Mobile SDK
+Configurar a compatibilidade com cartões de conteúdo no SDK móvel
 
-Habilite e personalize cartões de conteúdo em aplicativos móveis usando os SDKs móveis da Adobe Experience Platform.
+Habilite e personalize cartões de conteúdo em aplicativos móveis com os SDKs móveis da Adobe Experience Platform.
 
-[Configurar o Mobile SDK](../using/content-card/content-card-lp.md)
+[Configurar SDK móvel](../using/content-card/content-card-lp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Configurar o suporte a cartões de conteúdo no Web SDK
+Configurar a compatibilidade com cartões de conteúdo no SDK da web
 
-Implemente cartões de conteúdo em aplicativos da Web com o Adobe Experience Platform Web SDK para personalização dinâmica.
+Implemente cartões de conteúdo em aplicativos da web com o SDK da web da Adobe Experience Platform para uma personalização dinâmica.
 
-[Configurar o Web SDK](../using/content-card/content-card-configuration-sdk.md)
+[Configurar SDK da web](../using/content-card/content-card-configuration-sdk.md)
 :::
 
 ::::

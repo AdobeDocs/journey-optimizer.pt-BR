@@ -4,33 +4,33 @@ product: Journey Optimizer
 title: Públicos-alvo, perfis e identidade
 description: Públicos-alvo, perfis e identidade
 redpen-status: CREATED_||_2025-08-11_20-47-03
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
-workflow-type: tm+mt
+exl-id: 29d45bbb-8351-48c6-8672-dda4b1c25e29
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Públicos-alvo, perfis e identidade{#section-overview}
 
-Públicos, perfis e identidades no Adobe Journey Optimizer dependem dos recursos do [Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/home) da Adobe para potencializar experiências personalizadas. O **Audiences** permite segmentar clientes que usam dados avançados, **profiles** fornecem insights em tempo real enriquecidos com comportamentos e atributos, e **identidades** conectam interações entre canais usando o Gráfico de identidade. Esses elementos funcionam juntos para permitir mensagens direcionadas e jornadas consistentes para o cliente. Esta seção explica como ativar públicos-alvo, gerenciar perfis e mapear identidades para unificar dados e fornecer experiências relevantes e oportunas.
+Públicos-alvo, perfis e identidades no Adobe Journey Optimizer dependem dos recursos do [Perfil do cliente em tempo real da Adobe](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/home) para a viabilização de experiências personalizadas. Os **Públicos-alvo** permitem segmentar clientes com dados aprimorados, os **perfis** fornecem insights em tempo real enriquecidos com comportamentos e atributos e as **identidades** conectam interações entre canais com o Gráfico de identidade. Esses elementos funcionam juntos para habilitar mensagens direcionadas e jornadas do cliente consistentes. Esta seção explica como ativar públicos-alvo, gerenciar perfis e mapear identidades para unificar dados e fornecer experiências relevantes e oportunas.
 
-## Públicos, perfis e identidade
+## Públicos-alvo, perfis e identidade
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Gerenciamento de público-alvo e Personalization
+Gerenciamento de público-alvo e personalização
 
 Saiba como criar, gerenciar e ativar públicos-alvo usando atributos de segmentação e enriquecimento para campanhas de marketing personalizadas.
 
-[Explorar o gerenciamento de público-alvo](audiences-landing-page.md)
+[Explorar o Gerenciamento de público-alvo](audiences-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
 
 Perfis: gerenciar e otimizar os dados do cliente
 
@@ -40,23 +40,23 @@ Entenda como usar perfis, atributos computados e perfis de teste para criar visu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
 
-Introdução às identidades
+Introdução a identidades
 
-Descubra como gerenciar as identidades do cliente usando o Gráfico de identidade e as ferramentas para o mapeamento da interação entre canais.
+Descubra como gerenciar as identidades de clientes com o Gráfico de identidade e as ferramentas para o mapeamento da interações entre canais.
 
 [Ler sobre identidades](../using/audience/get-started-identity.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Painel de Uso da Licença
+Painel de uso de licenças
 
-Monitore o uso de licenças da sua organização e perfis ativáveis usando o Painel de uso de licenças.
+Monitore o uso de licenças da organização e perfis engajáveis com o Painel de uso de licenças.
 
-[Exibir Guia de Uso de Licença](../using/audience/license-usage.md)
+[Exibir Guia de uso de licenças](../using/audience/license-usage.md)
 :::
 
 ::::

@@ -4,39 +4,39 @@ product: Journey Optimizer
 title: Matemática
 description: Matemática
 redpen-status: CREATED_||_2025-08-11_20-16-12
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 2df9c6ea-be94-475f-9997-16f10db22f03
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '86'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # Matemática{#section-overview}
 
-A seção Matemática no Adobe Journey Optimizer permite que você execute cálculos precisos e transformações de dados em suas jornadas, ajudando você a tomar decisões mais inteligentes orientadas por dados.
+A seção de matemática do Adobe Journey Optimizer permite que você execute cálculos e transformações de dados precisos nas suas jornadas, ajudando a tomar decisões mais inteligentes orientadas por dados.
 
-## Funções matemáticas na Adobe Journey Optimizer
+## Funções de matemática do Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Função random
+Função “random”
 
-Saiba como usar a função &quot;random&quot; para gerar números aleatórios entre 0 e 1 no Adobe Journey Optimizer.
+Saiba como usar a função “random” para gerar números aleatórios entre 0 e 1 no Adobe Journey Optimizer.
 
-[Explorar a função aleatória](../using/building-journeys/functions/functionrandom.md)
+[Explorar a função “random”](../using/building-journeys/functions/functionrandom.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Função round
+Função “round”
 
-Entenda a função &quot;round&quot;, sua sintaxe e como arredondar números para o número inteiro mais próximo no Adobe Journey Optimizer.
+Entenda a função “round”, sua sintaxe e como arredondar números para o número inteiro mais próximo no Adobe Journey Optimizer.
 
-[Saiba mais sobre a função round](../using/building-journeys/functions/functionround.md)
+[Saiba mais sobre a função “round”](../using/building-journeys/functions/functionround.md)
 :::
 
 ::::

@@ -1,72 +1,72 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Páginas da Web de autor
-description: Páginas da Web de autor
+title: Criar páginas da web
+description: Criar páginas da web
 redpen-status: CREATED_||_2025-08-11_20-40-34
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 6f1ce53e-ab5a-4c77-bbd6-fc049e3dc4f5
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
+# Criar páginas da web{#section-overview}
 
-# Páginas da Web de autor{#section-overview}
+Descubra como criar, personalizar e otimizar experiências da web com as ferramentas potentes do Adobe Journey Optimizer. Quer você esteja projetando páginas visualmente impressionantes com o designer da web, aplicando modificações precisas com o editor não visual ou gerenciando e monitorando as suas campanhas, esta seção aborda tudo o que você precisa saber. Saiba como aprimorar o engajamento dos usuários com o rastreamento de cliques, gerenciar atualizações de conteúdo com eficiência e até personalizar aplicativos de página única (SPAs, na sigla em inglês) com visualizações dinâmicas. Cada tópico foi projetado para ajudar a criar experiências da web suaves, responsivas, focadas na conversão e alinhadas às suas metas. Vamos ver como essas ferramentas funcionam juntas para aprimorar as suas campanhas da web.
 
-Descubra como criar, personalizar e otimizar experiências da Web com as ferramentas poderosas do Adobe Journey Optimizer. Se você está projetando páginas visualmente impressionantes com o Web Designer, aplicando modificações precisas com o editor não visual ou gerenciando e monitorando suas campanhas, esta seção aborda você. Saiba como aprimorar o engajamento do usuário com o rastreamento de cliques, gerenciar atualizações de conteúdo com eficiência e até mesmo personalizar aplicativos de página única (SPAs) com exibições dinâmicas. Cada tópico foi projetado para ajudá-lo a criar experiências da Web ágeis, responsivas e focadas em conversão que se alinhem às suas metas. Vamos explorar como essas ferramentas funcionam juntas para elevar suas campanhas da Web!
-
-## Páginas da Web do autor
+## Criar páginas da web
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Editar conteúdo usando o Web Designer
+Editar um conteúdo com o designer da web
 
-Saiba como usar o designer visual da Web no Adobe Journey Optimizer para criar e editar páginas da Web, adicionar componentes, personalizar conteúdo e testar designs responsivos.
+Saiba como usar o designer visual da web do Adobe Journey Optimizer para criar e editar páginas da web, adicionar componentes, personalizar o conteúdo e testar designs responsivos.
 
-[Comece a editar com o Web Designer](../using/web/web-visual-editor.md)
+[Começar a editar com o designer da web](../using/web/web-visual-editor.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Editar conteúdo da Web usando o editor não visual
+Editar o conteúdo da web com o editor não visual
 
-Descubra como usar o editor não visual para modificações na Web, incluindo a adição de seletores de CSS, a modificação do conteúdo principal e o rastreamento de cliques.
+Descubra como usar o editor não visual para modificações na web, incluindo adição de seletores de CSS, modificação do conteúdo principal e rastreamento de cliques.
 
-[Explorar o editor não visual](../using/web/web-non-visual-editor.md)
+[Explore o editor não visual](../using/web/web-non-visual-editor.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Gerenciar modificações na Web no Adobe Journey Optimizer
+Gerenciar modificações na web no Adobe Journey Optimizer
 
-Saiba como gerenciar modificações na Web usando o painel Modificações, incluindo a adição de seletores de CSS, código personalizado e práticas recomendadas para o gerenciamento de código.
+Saiba como gerenciar modificações na web por meio do painel “Modificações”, incluindo adição de seletores de CSS, código personalizado e práticas recomendadas de gerenciamento de código.
 
-[Gerenciar suas modificações](../using/web/manage-web-modifications.md)
+[Gerenciar as suas modificações](../using/web/manage-web-modifications.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Monitorar suas experiências na Web
+Monitorar as suas experiências da web
 
-Entenda como monitorar o envolvimento da Web usando relatórios e rastreamento de cliques para otimizar o desempenho e as interações do usuário.
+Entenda como monitorar o engajamento na web, usando relatórios e rastreamento de cliques, para otimizar o desempenho e as interações dos usuários.
 
-[Comece a monitorar suas experiências na Web](../using/web/monitor-web-experiences.md)
+[Começar a monitorar as suas experiências da web](../using/web/monitor-web-experiences.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Como criar aplicativos de página única no Adobe Journey Optimizer
 
-Saiba como criar SPAs, definir exibições, descobrir exibições e aplicar modificações usando o editor visual do designer da Web.
+Saiba como criar SPAs, definir visualizações, descobrir visualizações e aplicar modificações com o editor visual do designer da web.
 
-[SPAs de autor no Journey Optimizer](../using/web/web-spa.md)
+[Criar SPAs no Journey Optimizer](../using/web/web-spa.md)
 :::
 
 ::::

@@ -4,37 +4,37 @@ product: Journey Optimizer
 title: Configuração de dados
 description: Configuração de dados
 redpen-status: CREATED_||_2025-08-11_20-24-01
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: e1c20d14-4d0e-4ef9-9745-ca8ffe706f0b
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # Configuração de dados{#section-overview}
 
-A configuração de dados no Adobe Journey Optimizer trata da configuração da base para jornadas eficazes do cliente, organizando e conectando seus dados. Quer você esteja definindo esquemas relacionais para estruturar seus dados, vinculando-os a perfis de clientes para personalização ou configurando canais para entrega de mensagens precisa, esse processo garante que suas campanhas sejam alimentadas por insights limpos e acionáveis. Você explorará como criar esquemas manualmente ou com uploads de arquivo, configurar conjuntos de dados e mapear perfis para comunicação direcionada. Cada etapa é criada para permitir experiências orquestradas de clientes em tempo real, com ferramentas para transformar dados brutos em interações significativas.
+A configuração de dados no Adobe Journey Optimizer serve de base para jornadas eficazes do cliente, organizando e conectando os seus dados. Quer você esteja definindo esquemas relacionais para estruturar os seus dados, vinculando-os a perfis de clientes para personalização ou configurando canais para uma entrega de mensagens precisa, este processo garante que as suas campanhas sejam alimentadas por insights claros e acionáveis. Você verá como criar esquemas manualmente ou com uploads de arquivos, configurar conjuntos de dados e mapear perfis para uma comunicação direcionada. Cada etapa foi elaborada para permitir experiências orquestradas do cliente em tempo real, com ferramentas para transformar dados brutos em interações significativas.
 
 ## Configuração de dados
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Gerenciar esquemas relacionais e conjuntos de dados
+Gerenciar esquemas e conjuntos de dados relacionais
 
 Saiba como criar e gerenciar esquemas relacionais, configurar conjuntos de dados e assimilar dados na Adobe Experience Platform para campanhas orquestradas.
 
-[Explorar gerenciamento de esquema e conjunto de dados](schemas-datasets-landing-page.md)
+[Explore o gerenciamento de esquemas e conjuntos de dados](schemas-datasets-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Como configurar um Targeting Dimension
+Como configurar uma dimensão de direcionamento
 
-Guia passo a passo para mapear esquemas relacionais para perfis de clientes e configurar canais para comunicação direcionada em campanhas orquestradas.
+Guia passo a passo para mapear esquemas relacionais para perfis de clientes e configurar canais para uma comunicação direcionada em campanhas orquestradas.
 
 [Saiba como configurar dimensões de direcionamento](../using/orchestrated/target-dimension.md)
 :::

@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Cartões de conteúdo
 description: Cartões de conteúdo
 redpen-status: CREATED_||_2025-08-11_20-43-30
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
-
 
 # Cartões de conteúdo{#section-overview}
 
@@ -23,17 +23,17 @@ Esse recurso permite que profissionais de marketing apresentem conteúdo de míd
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar canal de cartões de conteúdo
 
-Configure e integre o canal de Cartões de conteúdo para plataformas da Web, móveis e de quiosques com personalização dinâmica.
+Configure e integre o canal de cartões de conteúdo para plataformas da web, dispositivos móveis e quiosques com uma personalização dinâmica.
 
 [Configurar o canal](configure-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar e configurar cartões de conteúdo
 
@@ -43,13 +43,13 @@ Tutorial passo a passo para criar, personalizar e implementar cartões de conte�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Criar cartões de conteúdo
 
-Projete e personalize cartões de conteúdo com mensagens, mídia, botões de ação e dados personalizados.
+Crie e personalize cartões de conteúdo com mensagens, mídias, botões de ação e dados personalizados.
 
-[Saiba mais sobre como criar cartões de conteúdo](../using/content-card/design-content-card.md)
+[Saiba mais sobre a criação de cartões de conteúdo](../using/content-card/design-content-card.md)
 :::
 
 ::::

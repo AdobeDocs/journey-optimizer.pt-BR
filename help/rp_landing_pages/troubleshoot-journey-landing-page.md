@@ -1,61 +1,61 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Solução de problemas
-description: Solução de problemas
+title: Resolução de problemas
+description: Resolução de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
-source-git-commit: 54542a9172e34e0d9bc7c06ed4a6d0bd7778f31b
-workflow-type: tm+mt
+exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
+# Resolução de problemas{#section-overview}
 
-# Solução de problemas{#section-overview}
+Quando uma jornada do cliente não se comporta conforme esperado, identificar a causa pode ser desafiador. Para ajudar a resolver problemas de eficiência, você encontrará abaixo recursos de resolução de problemas divididos pelas áreas de problemas mais comuns. Se você vir falhas da jornada, inconsistências de execução ou problemas na camada das ações, cada seção fornece orientações direcionadas para investigá-los e resolvê-los.
 
-Quando uma jornada do cliente não se comporta conforme esperado, identificar a causa raiz pode ser desafiador. Para ajudá-lo a resolver problemas com eficiência, você pode encontrar abaixo recursos de solução de problemas pelas áreas de problema mais comuns. Se você vir falhas de jornada, inconsistências de execução ou problemas no nível da ação, cada seção fornece orientação direcionada para investigá-las e resolvê-las.
-
-## Solução de problemas
+## Resolução de problemas
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Solucionar erros antes de testar ou publicar a Jornada
+Resolver erros antes de testar ou publicar a sua jornada
 
-Identifique e resolva erros em toda a jornada, problemas de atividade e defina ações de fallback para garantir testes e publicações sem problemas.
+Identifique e resolva erros em toda a jornada e problemas de atividade, e defina ações substitutas para garantir testes e publicações fluidos.
 
-[Resolver erros de jornada](../using/building-journeys/troubleshooting.md)
+[Resolver erros na jornada](../using/building-journeys/troubleshooting.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Solução de problemas de execução do Live Jornada no Adobe Journey Optimizer
+Resolução de problemas de execução da jornada em tempo real no Adobe Journey Optimizer
 
-Diagnosticar problemas com validação de evento, entrada de perfil, navegação de jornada e entrega de mensagens durante a execução ao vivo.
+Diagnostique problemas de validação de eventos, entrada de perfil, navegação da jornada e entrega de mensagens durante a execução em tempo real.
 
-[Corrigir problemas de jornada ao vivo](../using/building-journeys/troubleshooting-execution.md)
+[Corrigir problemas na jornada em tempo real](../using/building-journeys/troubleshooting-execution.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Solução de problemas de ações de entrada no Adobe Journey Optimizer Jornada
+Resolução de problemas de ações de entrada em jornadas do Adobe Journey Optimizer
 
-Depurar problemas de ação de entrada, como conteúdo ausente ou entrega contínua após a saída do perfil, usando guias detalhados passo a passo.
+Depure problemas de ação de entrada, como conteúdo ausente ou entrega contínua após a saída do perfil, usando guias passo a passo detalhados.
 
 [Depurar ações de entrada](../using/building-journeys/troubleshooting-inbound.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Solução de problemas de ações personalizadas no Adobe Journey Optimizer
+Resolução de problemas de ações personalizadas no Adobe Journey Optimizer
 
-Valide e depure ações personalizadas usando o recurso &quot;Enviar solicitação de teste&quot; para garantir que as chamadas da API e as configurações de autenticação estejam corretas.
+Valide e depure ações personalizadas com o recurso “Enviar solicitação de teste” para garantir que as chamadas da API e as configurações de autenticação estejam corretas.
 
 [Validar ações personalizadas](../using/action/troubleshoot-custom-action.md)
 :::
@@ -64,4 +64,4 @@ Valide e depure ações personalizadas usando o recurso &quot;Enviar solicitaç�
 
 ### Recursos adicionais
 
-Além disso, confira [esta publicação do blog da Adobe Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt) detalhando códigos de erro comuns e como resolvê-los de maneira eficaz.
+Além disso, confira [esta publicação do blog da comunidade da Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884), que detalha códigos de erro comuns e como resolvê-los de maneira eficaz.

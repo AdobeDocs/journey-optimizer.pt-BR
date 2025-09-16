@@ -4,49 +4,49 @@ product: Journey Optimizer
 title: Configurar o canal da web
 description: Configurar o canal da web
 redpen-status: CREATED_||_2025-08-11_20-39-49
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 07c6d86f-7077-4ba1-8da4-fc6752a4484d
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Configurar o canal da web{#section-overview}
 
-A configuração do canal da Web no Adobe Journey Optimizer permite que você forneça conteúdo personalizado e dinâmico diretamente para os visitantes do site. Ao aprender a configurar os pré-requisitos necessários, gerenciar subdomínios e definir propriedades da Web direcionadas, você obterá as ferramentas para criar experiências da Web perfeitas e personalizadas. Cada etapa, seja para garantir que sua implementação esteja pronta, delegar subdomínios ou criar regras precisas de correspondência de URL, desempenha um papel exclusivo na otimização de como o público-alvo interage com a marca online. Esta seção guiará você pelo processo, tornando simples projetar, entregar e refinar campanhas da Web impactantes com confiança.
+A configuração do canal da web no Adobe Journey Optimizer permite que você forneça um conteúdo personalizado e dinâmico diretamente aos visitantes do site. Aprendendo a configurar os pré-requisitos necessários, gerenciar subdomínios e definir propriedades da web direcionadas, você obterá as ferramentas para criar experiências da web fluidas e personalizadas. Cada etapa, seja para garantir que a sua implementação esteja pronta, delegar subdomínios ou criar regras precisas de correspondência de URL, desempenha um papel exclusivo na otimização da interação do público-alvo com a sua marca na web. Esta seção apresentará um passo a passo do processo, simplificando a criação, a entrega e o refinamento de campanhas da web impactantes com confiança.
 
-## Configurar canal da Web
+## Configurar o canal da web
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Pré-requisitos do canal da Web
+Pré-requisitos do canal da web
 
-Saiba mais sobre os pré-requisitos necessários para configurar e usar recursos de canal da Web, incluindo requisitos de configuração para criação, entrega e relatórios.
+Saiba mais sobre os pré-requisitos necessários para configurar e usar os recursos do canal da web, incluindo os requisitos de configuração para criação, entrega e geração de relatórios.
 
-[Explorar pré-requisitos](../using/web/web-prerequisites.md)
+[Explore os pré-requisitos](../using/web/web-prerequisites.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configurar subdomínios da Web
+Configurar subdomínios da web
 
-Orientação passo a passo sobre como configurar, gerenciar e cancelar a delegação de subdomínios da Web para publicação de conteúdo no Adobe Journey Optimizer.
+Orientações passo a passo de como configurar, gerenciar e cancelar a delegação de subdomínios da web para publicação de conteúdo no Adobe Journey Optimizer.
 
 [Saiba como configurar subdomínios](../using/web/web-delegated-subdomains.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Criar e configurar um canal da Web
+Criar e configurar um canal da web
 
-Instruções para configurar um canal da Web, incluindo regras de correspondência de URL, propriedades da Web e atribuição de ações de marketing.
+Instruções para configurar um canal da web, incluindo regras de correspondência de URL, propriedades da web e atribuição de ações de marketing.
 
-[Comece a configurar seu canal da Web](../using/web/web-configuration.md)
+[Comece a configurar o seu canal da web](../using/web/web-configuration.md)
 :::
 
 ::::

@@ -4,59 +4,59 @@ product: Journey Optimizer
 title: Públicos-alvo
 description: Públicos-alvo
 redpen-status: CREATED_||_2025-08-11_20-46-11
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: c3b9f97d-7c2f-436c-abba-60b7c0726ee4
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-
 # Públicos-alvo{#section-overview}
 
-O Audiences no Adobe Journey Optimizer ajuda você a se conectar com as pessoas certas, na hora certa, organizando os clientes em grupos significativos com base em seus comportamentos, preferências e características. Esteja você definindo segmentos, carregando listas personalizadas ou combinando dados de várias fontes, esse recurso permite criar campanhas e jornadas altamente personalizadas. Você explorará ferramentas para segmentação, métodos para ativar públicos em tempo real e técnicas para enriquecer perfis de clientes e fornecer experiências personalizadas.
+Os Públicos-alvo no Adobe Journey Optimizer ajudam você a se conectar com as pessoas certas, na hora certa, organizando os clientes em grupos significativos com base em seus comportamentos, preferências e características. Esteja definindo segmentos, enviando listas personalizadas ou combinando dados de várias fontes, esse recurso permite criar campanhas e jornadas altamente personalizadas. Você explorará ferramentas para segmentação, métodos para ativar públicos-alvo em tempo real e técnicas para enriquecer perfis de clientes e fornecer experiências personalizadas.
 
-## Visão geral dos públicos
+## Visão geral dos públicos-alvo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Introdução aos públicos
+Introdução aos públicos-alvo
 
-Saiba mais sobre os fundamentos de gerenciamento de público-alvo, segmentação e ativação no Adobe Journey Optimizer.
+Saiba mais sobre os fundamentos do gerenciamento de público-alvo, da segmentação e da ativação no Adobe Journey Optimizer.
 
 [Explorar noções básicas de público-alvo](../using/audience/about-audiences.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar e gerenciar públicos-alvo
 
-Descubra fluxos de trabalho avançados para criação, composição e enriquecimento de público, incluindo importações de CSV e fontes de dados federadas.
+Descubra fluxos de trabalho avançados para criação, composição e enriquecimento de público-alvo, incluindo importações de CSV e fontes de dados federadas.
 
-[Saiba como criar públicos](create-landing-page.md)
+[Saiba como criar públicos-alvo](create-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Ativar públicos em campanhas e Jornadas
+Ativar públicos-alvo em campanhas e jornadas
 
 Entenda como ativar públicos-alvo e usá-los com eficiência em campanhas e jornadas para personalização direcionada.
 
-[Saiba mais sobre o Audience Activation](../using/audience/target-audiences.md)
+[Saber mais sobre a Audience Activation](../using/audience/target-audiences.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Aproveitar atributos de enriquecimento
+Usar atributos de enriquecimento
 
-Use atributos de enriquecimento para personalizar campanhas e jornadas com insights avançados de público-alvo.
+Use atributos de enriquecimento para personalizar campanhas e jornadas com insights aprimorados de público-alvo.
 
-[Saiba Mais Sobre Atributos De Enriquecimento](../using/audience/enrichment-attributes.md)
+[Saiba mais sobre Atributos de enriquecimento](../using/audience/enrichment-attributes.md)
 :::
 
 ::::

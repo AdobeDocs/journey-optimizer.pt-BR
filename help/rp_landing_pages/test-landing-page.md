@@ -4,49 +4,49 @@ product: Journey Optimizer
 title: Testar e aprovar
 description: Testar e aprovar
 redpen-status: CREATED_||_2025-08-11_20-30-59
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: a770412f-2f80-459d-8cce-32212154d154
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # Testar e aprovar{#section-overview}
 
-Os recursos &quot;Testar e aprovar&quot; no Adobe Journey Optimizer permitem que você aperfeiçoe com confiança suas campanhas e jornadas antes do lançamento. Quer você esteja visualizando conteúdo personalizado com perfis de teste, garantindo que os emails sejam exibidos perfeitamente em todos os dispositivos ou validando se suas jornadas atendem aos padrões organizacionais por meio de fluxos de trabalho de aprovação estruturados, esta seção o orienta passo a passo. Explore como simular cenários do mundo real, capturar erros em potencial antecipadamente e gerenciar aprovações com eficiência - tudo para garantir que suas campanhas sejam precisas, polidas e prontas para fornecer experiências excepcionais para os clientes. Com instruções claras e ferramentas práticas, você se sentirá preparado para testar, refinar e entrar em operação com confiança.
+Os recursos de “Testar e aprovar” do Adobe Journey Optimizer permitem que você aperfeiçoe com confiança as suas campanhas e jornadas antes do lançamento. Quer você esteja visualizando um conteúdo personalizado com perfis de teste, garantindo que os emails sejam exibidos perfeitamente em todos os dispositivos ou validando se as suas jornadas satisfazem os padrões organizacionais por meio de fluxos de trabalho de aprovação estruturados, esta seção apresenta orientações passo a passo. Confira como simular casos do mundo real, detectar erros em potencial antecipadamente e gerenciar aprovações com eficiência, tudo isso para garantir que as suas campanhas estejam corretas, polidas e prontas para fornecer experiências excepcionais aos clientes. Com instruções claras e ferramentas práticas, você se preparará para testar, refinar e entrar em operação com confiança.
 
-## Testar e aprovar conteúdo
+## Testar e aprovar o conteúdo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Visualizar, testar e validar conteúdo
+Visualizar, testar e validar o conteúdo
 
-Saiba como visualizar, testar e validar conteúdo personalizado usando perfis de teste, testes de renderização de email, avaliações de pontuação de spam e muito mais.
+Saiba como visualizar, testar e validar um conteúdo personalizado por meio de perfis de teste, testes de renderização de email, avaliações de pontuação de spam e muito mais.
 
-[Explorar conteúdo de visualização e teste](preview-test-landing-page.md)
+[Explore a prévia e teste do conteúdo](preview-test-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Fluxos de trabalho de aprovação para Jornadas e campanhas
+Fluxos de trabalho de aprovação para jornadas e campanhas
 
 Entenda como configurar, gerenciar e executar processos de aprovação para garantir o controle de qualidade de jornadas e campanhas.
 
-[Saiba Mais Sobre Fluxos De Trabalho De Aprovação](approve-landing-page.md)
+[Saiba mais sobre fluxos de trabalho de aprovação](approve-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Acessar e assinar alertas do sistema
 
 Descubra como gerenciar alertas do sistema, assinar notificações e solucionar problemas em jornadas e campanhas.
 
-[Exibir Guia de Alertas do Sistema](../using/reports/alerts.md)
+[Visualizar o guia de alertas do sistema](../using/reports/alerts.md)
 :::
 
 ::::

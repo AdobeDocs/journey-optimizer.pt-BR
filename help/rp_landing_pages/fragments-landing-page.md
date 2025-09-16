@@ -4,25 +4,25 @@ product: Journey Optimizer
 title: Fragmentos de conteúdo reutilizáveis
 description: Fragmentos de conteúdo reutilizáveis
 redpen-status: CREATED_||_2025-08-12_00-39-41
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: 8ec67807-8bcb-4510-bcba-ccf6e710ceb9
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # Fragmentos de conteúdo reutilizáveis{#section-overview}
 
-Fragmentos de conteúdo reutilizáveis no Adobe Journey Optimizer ajudam a economizar tempo e garantir consistência, permitindo que você crie conteúdos modulares — como blocos de texto, imagens ou expressões dinâmicas — que podem ser usados em várias campanhas de email e jornadas de clientes. Quer você esteja criando um novo email de marketing ou personalizando uma mensagem, esses fragmentos simplificam o fluxo de trabalho e mantêm o alinhamento da marca. Esta seção explora os diferentes tipos de fragmentos (visual e de expressão), como criá-los e salvá-los e até mesmo como personalizá-los para casos de uso específicos. Você também receberá dicas sobre como gerenciar, organizar e reutilizar fragmentos de maneira eficaz para simplificar sua estratégia de conteúdo.
+Os fragmentos de conteúdo reutilizáveis no Adobe Journey Optimizer ajudam a economizar tempo e garantir consistência, permitindo a criação de módulos de conteúdo, como blocos de texto, imagens ou expressões dinâmicas, que podem ser usados em várias campanhas de email e jornadas do cliente. Seja na criação de um novo email de marketing ou na personalização uma mensagem, esses fragmentos simplificam o fluxo de trabalho e mantêm o alinhamento da marca. Esta seção explora os diferentes tipos de fragmentos (visual e de expressão), como criá-los e salvá-los e até mesmo como personalizá-los para casos de uso específicos. Você também receberá dicas sobre como gerenciar, organizar e reutilizar fragmentos de maneira eficaz para simplificar a estratégia de conteúdo.
 
 ## Fragmentos de conteúdo reutilizáveis
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Introdução ao uso de fragmentos
+Introdução aos fragmentos
 
 Saiba mais sobre as noções básicas de criação, gerenciamento e reutilização de fragmentos visuais e de expressão para simplificar a criação de conteúdo em campanhas do Adobe Journey Optimizer.
 
@@ -30,7 +30,7 @@ Saiba mais sobre as noções básicas de criação, gerenciamento e reutilizaç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Como criar fragmentos reutilizáveis
 
@@ -40,33 +40,33 @@ Siga um guia passo a passo para criar fragmentos visuais e de expressão reutili
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Salvar conteúdo existente como fragmentos
+Salvar conteúdos existentes como fragmentos
 
-Descubra como salvar conteúdo como fragmentos visuais ou de expressão reutilizáveis diretamente do Designer de email ou do editor de personalização.
+Descubra como salvar conteúdos como fragmentos visuais ou de expressão reutilizáveis diretamente a partir do Designer de email ou do editor de personalização.
 
-[Salvar conteúdo como fragmentos](../using/content-management/save-fragments.md)
+[Salvar conteúdos como fragmentos](../using/content-management/save-fragments.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Uso de fragmentos personalizáveis
+Usar de fragmentos personalizáveis
 
-Saiba como tornar campos específicos editáveis em fragmentos para personalização dinâmica sem quebrar a herança em campanhas e jornadas.
+Saiba como tornar campos específicos editáveis em fragmentos para personalização dinâmica sem interromper a herança em campanhas e jornadas.
 
-[Personalizar os fragmentos](../using/content-management/customizable-fragments.md)
+[Personalizar fragmentos](../using/content-management/customizable-fragments.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gerenciamento de fragmentos de conteúdo
 
 Obtenha instruções detalhadas sobre organização, edição, arquivamento e exportação de fragmentos reutilizáveis para um gerenciamento de conteúdo eficiente.
 
-[Gerenciar os fragmentos](../using/content-management/manage-fragments.md)
+[Gerenciar fragmentos](../using/content-management/manage-fragments.md)
 :::
 
 ::::
