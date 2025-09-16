@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: d3766e14edc5dcbde4d984f24a16800cfb84e76c
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '913'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio do canal de experiência baseada em código! [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
+>A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e canais de email! [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 Use o [!DNL Journey Optimizer] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos-alvo com ofertas personalizadas.
 
@@ -34,7 +34,7 @@ A capacidade de gerenciamento de decisão consiste em dois componentes principai
 Os benefícios incluem:
 
 * Melhor desempenho da campanha fornecendo ofertas personalizadas em vários canais,
-* Workflows aprimorados: em vez de criar várias entregas ou campanhas, as equipes de marketing podem aprimorar os workflows criando uma única entrega e variar as ofertas em diferentes partes do modelo,
+* Fluxos de trabalho aprimorados: em vez de criar várias entregas ou campanhas, as equipes de marketing podem aprimorar os fluxos de trabalho criando uma única entrega e variar as ofertas em diferentes partes do modelo,
 * Controle a quantidade de vezes que uma oferta é exibida em campanhas e clientes.
 
 ➡️ [Saiba mais sobre a Gestão de decisões nestes vídeos](#video)
@@ -115,12 +115,12 @@ Você pode encontrar abaixo a lista dos principais conceitos com os quais trabal
 
 O vídeo abaixo fornece uma introdução aos principais recursos, arquitetura e casos de uso da Gestão de decisões:
 
->[!VIDEO](https://video.tv.adobe.com/v/340418?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definir e gerenciar ofertas {#use-offer-decisioning}
 
 O vídeo abaixo mostra como usar a Gestão de decisões para definir e gerenciar suas ofertas e aproveitar os dados do cliente em tempo real.
 
->[!VIDEO](https://video.tv.adobe.com/v/340355?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 
