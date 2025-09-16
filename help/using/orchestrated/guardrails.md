@@ -5,9 +5,9 @@ title: Medidas de proteção e limitações para campanhas orquestradas
 description: Saiba mais sobre as medidas de proteção e limitações das campanhas orquestradas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
+source-git-commit: 359a2e5b60ba035e300f452e1211245f8f689609
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Proteções e limitações {#guardrails}
 
-Abaixo você encontrará medidas de proteção e limitações adicionais para usar campanhas orquestradas.
+Você encontrará abaixo as medidas de proteção e limitações ao usar campanhas orquestradas.
 
 ## Limitações do fluxo de dados
 
