@@ -6,10 +6,10 @@ description: Saiba como começar a usar as campanhas orquestradas
 short-description: Descubra os principais recursos e casos de uso de campanhas orquestradas.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -74,7 +74,7 @@ A tela da campanha orquestrada é uma representação do que deve acontecer. Ela
 
 Cada campanha orquestrada contém:
 
-* **Atividades**: uma atividade é uma tarefa a ser executada. As várias atividades são representadas na tela por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
+* **Atividades**: uma atividade é uma tarefa a ser executada. As [várias atividades](activities/about-activities.md) são representadas na tela por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
 
   Na tela de uma campanha orquestrada, uma determinada atividade pode gerar várias tarefas, principalmente quando há um ciclo ou ações recorrentes.
 

@@ -5,10 +5,10 @@ title: Trabalhar com atividades de campanha orquestradas
 description: Saiba como organizar atividades de campanha
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 63%
+ht-degree: 61%
 
 ---
 
@@ -28,7 +28,10 @@ Todas as atividades estão detalhadas nas seções abaixo:
 
 >[!NOTE]
 >
->Dependendo do modelo de licenciamento, das permissões e da implementação, as atividades disponíveis podem ser diferentes.
+>* Dependendo do modelo de licenciamento, das permissões e da implementação, as atividades disponíveis podem ser diferentes.
+>
+>* O número de atividades em uma campanha orquestrada é limitado a 500.
+
 
 ## Atividades de direcionamento {#targeting}
 
@@ -48,7 +51,9 @@ As atividades de direcionamento disponíveis são:
 
 ## Atividades de canal {#channel}
 
-O Adobe Journey Optimizer permite automatizar e executar campanhas de marketing em diversos canais. Você pode combinar atividades de canal na tela para criar uma campanha orquestrada entre canais que pode acionar ações com base no comportamento do cliente. As seguintes atividades de **Canal** estão disponíveis: email e SMS. [Saiba como criar uma ação de canal no contexto de uma campanha orquestrada](channels.md).
+O Adobe Journey Optimizer permite automatizar e executar campanhas de marketing em diversos canais. Você pode combinar [atividades de canal](channels.md) na tela para criar uma campanha Orquestrada entre canais que pode acionar ações com base no comportamento do cliente.
+
+Saiba como [criar uma ação de canal em uma campanha orquestrada](channels.md).
 
 ## Atividades de controle do fluxo {#flow-control}
 

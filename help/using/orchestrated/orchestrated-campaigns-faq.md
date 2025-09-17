@@ -5,7 +5,7 @@ title: Perguntas frequentes sobre campanhas orquestradas
 description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orchestrated
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 9ae0d910f6246b87683b04db97bbdb7355beb349
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 3%
@@ -16,9 +16,9 @@ ht-degree: 3%
 
 Você encontrará abaixo Perguntas frequentes sobre as campanhas do Adobe Journey Optimizer Orchestrated.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
-## O que é a orquestração de campanhas? {#what-are-oc}
++++ O que é a orquestração de campanhas? {#what-are-oc}
 
 O Campaign Orchestration é um recurso do Journey Optimizer que oferece suporte a fluxos de trabalho de etapa única ou de várias etapas que aproveitam o armazenamento de dados relacional para criar e segmentar públicos-alvo com a finalidade de envolvimento em lote.
 
@@ -26,7 +26,9 @@ Ela traz um novo tipo de campanha para a Journey Optimizer: **Campanhas orquestr
 
 Comparado às campanhas de envio único/ação, eles trazem a **orquestração e o sequenciamento** para o marketing de saída: os públicos-alvo se movem em conjunto por um fluxo de trabalho de várias etapas, em vez de receberem uma explosão única.
 
-## O que posso fazer com uma campanha orquestrada? {#what-can-i-do}
++++
+
++++ O que posso fazer com uma campanha orquestrada?
 
 Os principais recursos incluem:
 
@@ -46,13 +48,17 @@ Os principais recursos incluem:
 
 >[!ENDSHADEBOX]
 
-## Como acessar a orquestração do Campaign? {#access-oc}
++++
+
++++ Como acessar a orquestração do Campaign?
 
 Para acessar a Orquestração de campanha, sua licença deve incluir o pacote **Journey Optimizer – Campanhas e jornadas** ou **Journey Optimizer – Campanhas**. Entre em contato com o representante da Adobe para confirmar sua licença e atualizá-la, se necessário.
 
 Saiba mais sobre o modelo de licenciamento do Campaign Orchestration em [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-## Como as campanhas orquestradas são diferentes do Jornada? {#oc-vs-journeys}
++++
+
++++ Como as campanhas orquestradas são diferentes do Jornada?
 
 * **Campanhas orquestradas**: ideal para **campanhas em lote, de um para muitos**. Os públicos-alvo avançam em massa, de acordo com uma programação.
 * **Jornadas**: ideal para o engajamento **em tempo real, um para um**. Cada cliente percorre a jornada em seu próprio ritmo, acionado por comportamento ou eventos.
@@ -63,7 +69,9 @@ Saiba mais sobre o modelo de licenciamento do Campaign Orchestration em [descri�
 
 >[!ENDSHADEBOX]
 
-## O que é a segmentação de várias entidades? {#multi-entity}
++++
+
++++ O que é a segmentação de várias entidades?
 
 O Campaign Orchestration no Adobe Journey Optimizer usa um banco de dados relacional. Esse tipo de modelo de dados tem esquemas separados de dados que são conectados por meio de relações 1:1 ou 1:many. Isso permite que os usuários iniciem um query em qualquer esquema - não apenas no nível do recipient - e, em seguida, virem e voltarem para outros esquemas relacionados, como compras, produtos, reservas ou detalhes do recipient, proporcionando grande flexibilidade em como segmentos e públicos-alvo podem ser criados e
 refinado.
@@ -74,8 +82,9 @@ refinado.
 
 >[!ENDSHADEBOX]
 
++++
 
-## Como funciona o modelo de dados? {#data-model}
++++ Como funciona o modelo de dados?
 
 As campanhas usam um **banco de dados relacional**. Isso permite consultar diferentes conjuntos de dados (por exemplo, clientes, produtos, assinaturas) e conectá-los de forma flexível para segmentação avançada.
 
@@ -89,7 +98,9 @@ As campanhas usam um **banco de dados relacional**. Isso permite consultar difer
 
 >[!ENDSHADEBOX]
 
-## Posso personalizar mensagens com dados relacionais? {#personalization}
++++
+
++++ Posso personalizar mensagens com dados relacionais?
 
 Sim. Na Orquestração de campanhas, um perfil de recipient conhecido como &quot;Entidade de Pessoas&quot; pode ser atualizado e esses dados são usados para personalização. Além disso, dados enriquecidos de entidades vinculadas no banco de dados relacional também podem ser usados para personalização. Você pode usar perfis de clientes juntamente com dados vinculados (como compras ou assinaturas) para personalizar o conteúdo em todos os canais compatíveis.
 
@@ -103,6 +114,8 @@ Sim. Na Orquestração de campanhas, um perfil de recipient conhecido como &quot
 
 >[!ENDSHADEBOX]
 
++++
+
 <!--
 ## Do Orchestrated campaigns integrate with other Adobe solutions? {#integrations}
 
@@ -112,32 +125,44 @@ Yes. Campaign orchestration is natively integrated with:
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
-## Quais canais são compatíveis? {#channels}
++++ Quais canais são compatíveis?
 
 Você pode criar campanhas orquestradas para enviar **emails**, **SMS** e **notificações por push**.
 
-## É possível iniciar várias comunicações e canais diferentes na mesma campanha orquestrada?
++++
+
++++ É possível iniciar várias comunicações e canais diferentes na mesma campanha orquestrada?
 
 Sim, as campanhas orquestradas oferecem suporte à orquestração entre canais.
 
-## Os templates de campanha orquestrados estão disponíveis?
++++
+
++++ Os templates de campanha orquestrados estão disponíveis?
 
 Não, você não pode definir ou usar modelos de campanha, mas pode usar modelos de conteúdo para suas comunicações.
 
-## O designer de conteúdo é responsável por mensagens específicas para campanhas orquestradas?
++++
+
++++ O designer de conteúdo é responsável por mensagens específicas para campanhas orquestradas?
 
 Não, o designer de conteúdo, incluindo o Designer de email, é comum em todos os recursos do Journey Optimizer.
 
-## Como os diferentes canais são conectados nas campanhas Orquestradas?
++++
+
++++ Como os diferentes canais são conectados nas campanhas Orquestradas?
 
 O componente de canal e o tempo de execução são comuns a todas as campanhas do Journey Optimizer, no entanto, os canais compatíveis diferem.
 
-## As campanhas orquestradas podem se conectar com canais de saída (web, inApp)?
++++
+
+
++++ As campanhas orquestradas podem se conectar com canais de saída (web, inApp)?
 
 Não, os canais de saída não são compatíveis com campanhas orquestradas.
 
++++
 
-## E quanto a permissões e consentimento? {#permissions}
++++ E quanto a permissões e consentimento?
 
 As permissões e o consentimento para campanhas e jornadas orquestradas são gerenciados centralmente no Adobe Experience Platform. Essas configurações são aplicadas em ambas as soluções para cada recipient antes do envio.
 
@@ -151,7 +176,10 @@ As permissões e o consentimento para campanhas e jornadas orquestradas são ger
 
 >[!ENDSHADEBOX]
 
-## Posso fazer a segmentação ad-hoc em campanhas orquestradas? {#ad-hoc}
++++
+
+
++++ Posso fazer a segmentação ad-hoc em campanhas orquestradas?
 
 No Campaign Orchestration, nós nos referimos à segmentação ad-hoc como &quot;Segmentação em tempo real&quot;, onde você pode acessar todos os dados disponíveis na loja relacional em tempo real, criar uma consulta complexa sobre ela e obter o resultado para ativação instantânea por meio de canais de saída (por exemplo: Email + SMS).
 
@@ -165,15 +193,23 @@ No Campaign Orchestration, nós nos referimos à segmentação ad-hoc como &quot
 
 >[!ENDSHADEBOX]
 
-## O Campaign Orchestration acessa apenas dados carregados por lote ou também pode consultar tabelas atualizadas em tempo real (como dados do Analytics)?
++++
+
+
++++ O Campaign Orchestration acessa apenas dados carregados por lote ou também pode consultar tabelas atualizadas em tempo real (como dados do Analytics)?
 
 O Journey Optimizer Campaign Orchestration pode criar primeiro uma consulta ad-hoc com base em Esquemas relacionais. Os Esquemas Relacionais suportam Origens em Lote somente por enquanto. Além disso, oferece suporte para o recurso Ler público-alvo de qualquer tipo de público-alvo da Adobe Experience Platform.
 
-## As campanhas orquestradas são compatíveis com a tomada de decisão? {#decisioning}
++++
+
++++ As campanhas orquestradas são compatíveis com a tomada de decisão?
 
 Sim. A Decisão pode usar dados relacionais de campanhas orquestradas. Depois que o esquema relacional é conectado aos esquemas XDM, os dados XDM podem ser usados na tomada de decisão.
 
-## Como funciona a implantação entre ambientes? {#deployment}
++++
+
+
++++ Como funciona a implantação entre ambientes?
 
 Objetos criados em campanhas orquestradas (por exemplo, públicos, fluxos de trabalho) são vinculados à sandbox em que são criados. Os workflows padrão de empacotamento e implantação em ambientes (desenvolvimento, preparo, produção) não estão disponíveis no momento para campanhas orquestradas.
 
@@ -187,6 +223,8 @@ Objetos criados em campanhas orquestradas (por exemplo, públicos, fluxos de tra
 
 >[!ENDSHADEBOX]
 
++++
+
 <!--
 ## Are there recommended practices for running campaigns at scale? {#scale}
 
@@ -199,14 +237,15 @@ Yes, follow the best practices below:
 * Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
 -->
 
-## Qual é a relação entre Entidades de Destinatário e Perfil?
++++ Qual é a relação entre Entidades de Destinatário e Perfil?
 
 A segmentação é executada nos recipients ao enviar para o Perfil do Adobe Experience Platform. A dimensão de destino do Recipient estende o Perfil unificado com dados adicionais que são usados para segmentação em campanhas orquestradas, enquanto o Recipient é reconciliado com o Perfil no tempo de execução para enviar mensagens e verificar a política de consentimento e as regras de negócios. Essa reconciliação é útil para unificar regras de negócios e aplicativos de consentimento no nível do perfil
 
 ![](assets/recipients-and-profiles.png)
 
++++
 
-## Em quais casos é recomendável usar Entidades de destinatário vs. de perfil?
++++ Em quais casos é recomendável usar Entidades de destinatário vs. de perfil?
 
 Responder &quot;Sim&quot; sugere o melhor armazenamento de dados, mas sempre confirme a melhor abordagem com base no caso de uso e nas restrições com o representante da Adobe.
 
@@ -218,20 +257,25 @@ Responder &quot;Sim&quot; sugere o melhor armazenamento de dados, mas sempre con
 | Há necessidades específicas para criação, avaliação e ativação de públicos-alvo? | Os dados comportamentais podem ser limitados a `<` 90 dias usando agregados pré-calculados? |
 |  | Os dados são necessários para personalizar mensagens em tempo real? |
 
++++
 
-## Qual é o número máximo de atividades por campanha orquestrada?
++++ Qual é o número máximo de atividades por campanha orquestrada?
 
 O número de atividades em uma campanha orquestrada é limitado a 500.
 
-## É possível executar enriquecimentos para acrescentar dados adicionais?
++++
+
++++ É possível executar enriquecimentos para acrescentar dados adicionais?
 
 Sim, você pode enriquecer dados da loja relacional e dos públicos da Adobe Experience Platform.
 
-## Todos os filtros devem ser definidos por meio de públicos-alvo ou algum tipo de filtro pode ser configurado?
++++
+
++++ Todos os filtros devem ser definidos por meio de públicos-alvo ou algum tipo de filtro pode ser configurado?
 
 As campanhas orquestradas são compatíveis com Filtros predefinidos: é possível definir e salvar uma consulta como filtro e adicioná-la aos favoritos para ser reutilizada em tarefas de segmentação adicionais.
 
-
++++
 
 >[!MORELIKETHIS]
 >
