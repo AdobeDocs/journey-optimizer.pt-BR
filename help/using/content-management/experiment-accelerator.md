@@ -10,7 +10,7 @@ level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 hide: true
 hidefromtoc: true
-source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
+source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 14%
@@ -68,7 +68,7 @@ Para usar o **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, voc�
 * **[!UICONTROL Exibir experimentos]**
 * **[!UICONTROL Gerenciar metadados do experimento]**
 
-+++ Saiba como atribuir permissões relacionadas ao Experiment
++++ Saiba como atribuir permissões relacionadas ao experimento
 
 1. No produto **[!DNL Permissions]**, vá para a guia **[!UICONTROL Funções]** e selecione a **[!UICONTROL Função]** desejada.
 
