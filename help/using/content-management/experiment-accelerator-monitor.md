@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Monitor do Experimentation Accelerator
+title: Monitor do Journey Optimizer Experimentation Accelerator
 description: Melhore sua capacidade de conduzir experimentos com eficiência e gerar insights
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 hide: true
 hidefromtoc: true
-source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1122'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-* [Introdução à Experimentation Accelerator](experiment-accelerator.md)
-* [Uso de dados na IA com o Experimentation Accelerator](experiment-accelerator-security.md)
-* [Práticas recomendadas do Experimentation Accelerator](experiment-accelerator-best-practices.md)
+* [Introdução à Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
+* [Uso de dados na IA com o Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
+* [Práticas recomendadas do Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
 * **[Monitorar experimentos](experiment-accelerator-monitor.md)**
 * [Métricas de experimentação](experiment-accelerator-metrics.md)
 
@@ -135,11 +135,11 @@ Observe que para que as oportunidades de Experimento sejam geradas, primeiro é 
 
    ![](assets/experiment-monitor-opportunities.png)
 
-1. Selecionar uma oportunidade abre a janela **Detalhes da oportunidade**, que descreve um tratamento ou variação específica sugerida pela Experimentation Accelerator. Essa visualização inclui:
+1. Selecionar uma oportunidade abre a janela **Detalhes da oportunidade**, que descreve um tratamento ou variação específica sugerida pela Journey Optimizer Experimentation Accelerator. Essa visualização inclui:
 
    * **[!UICONTROL Hipótese]**: uma hipótese gerada por IA que explica o resultado esperado do tratamento sugerido.
 
-   * **[!UICONTROL Razão]**: uma explicação de por que a Experimentation Accelerator sugeriu esta oportunidade.
+   * **[!UICONTROL Razão]**: uma explicação de por que a Journey Optimizer Experimentation Accelerator sugeriu esta oportunidade.
 
    * **[!UICONTROL Avaliação da oportunidade]**: uma avaliação dupla da recomendação com base em:
 
@@ -158,9 +158,9 @@ Observe que para que as oportunidades de Experimento sejam geradas, primeiro é 
 
    Para experimentos originados de **[!DNL Adobe Target]**, as alterações sugeridas serão carregadas no fluxo de trabalho de experimentação de **[!DNL Adobe Target]**.
 
-   ➡️ [Saiba mais na documentação do Adobe Target](https://experienceleague.adobe.com/pt-br/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Saiba mais na documentação do Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
-1. Na exibição de experimento, as mesmas **[!UICONTROL Oportunidades de experimentação]** da IA apresentadas pela Experimentation Accelerator são acessíveis.
+1. Na exibição de experimento, as mesmas **[!UICONTROL Oportunidades de experimentação]** da IA apresentadas pela Journey Optimizer Experimentation Accelerator são acessíveis.
 
    Selecione **[!UICONTROL Exibir]** para abrir os detalhes da oportunidade.
 
