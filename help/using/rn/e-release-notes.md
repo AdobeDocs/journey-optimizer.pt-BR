@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
+source-git-commit: 87406499a11060bceffd2709b7a907b97d72c8a9
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 29%
@@ -235,8 +235,8 @@ Adição de uma opção ao criar ou definir a Política de aprovação para impe
 
   Para personalizar ainda mais o endereço de email de cancelamento de inscrição, agora é possível definir atributos personalizados que serão anexados ao evento de consentimento. Esse recurso já está disponível para o link personalizado de cancelamento de inscrição com um clique desde a versão de 25 de agosto.
 
-- **Suporte mTLS para SMS BYOP**\
-  Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar a autenticação TLS mútua (mTLS), que requer que o cliente e o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida.
+- ***Suporte mTLS para Canal SMS**
+Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar a autenticação TLS mútua (mTLS), que requer que o cliente e o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida.
 
 - **Esquemas baseados em modelo**\
   Para obter uma experiência mais clara e intuitiva, os Esquemas relacionais agora são chamados de Esquemas baseados em modelo em campanhas orquestradas.
