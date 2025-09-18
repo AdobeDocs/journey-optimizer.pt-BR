@@ -3,9 +3,9 @@ title: Usar identificadores complementares em jornadas
 description: Saiba como usar identificadores complementares no jornada.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1366'
 ht-degree: 4%
 
 ---
@@ -17,45 +17,37 @@ ht-degree: 4%
 >title="Usar identificador complementar"
 >abstract="O identificador complementar é um identificador secundário que fornece contexto adicional para a execução de uma jornada. Para defini-lo, selecione o campo a ser usado como o identificador complementar e escolha um namespace para associar a ele."
 
-Por padrão, as jornadas são executadas no contexto de uma **ID de perfil**. Isso significa que, desde que o perfil esteja ativo em uma determinada jornada, ele não poderá inserir outra jornada novamente. Para evitar isso, [!DNL Journey Optimizer] permite capturar um **identificador complementar**, como uma ID de pedido, ID de assinatura, ID de receita, além da ID de perfil.
-Neste exemplo, adicionamos uma ID de reserva como identificador complementar.
+<!--
+By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
+In this example, we have added a booking ID as a supplemental identifier. 
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
 
-Ao fazer isso, as jornadas são executadas no contexto da ID de perfil associada ao identificador complementar (aqui, a ID de reserva). Uma instância da jornada é executada para cada iteração do identificador complementar. Isso permite várias entradas da mesma ID de perfil no jornada, caso tenham feito reservas diferentes.
+By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
 
-Além disso, o Journey Optimizer permite aproveitar os atributos do identificador complementar (por exemplo, número de reserva, data de renovação da prescrição, tipo de produto) para personalização de mensagens, garantindo comunicações altamente relevantes. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px; border: none;">
+      <p>Por padrão, as jornadas são executadas no contexto de uma <b>ID de perfil</b>. Isso significa que, desde que o perfil esteja ativo em uma determinada jornada, ele não poderá inserir outra jornada novamente. Para evitar isso, o Journey Optimizer permite capturar um <b>identificador complementar</b>, como uma ID de pedido, ID de assinatura, ID de receita, além da ID de perfil.  
+      <p>Neste exemplo, adicionamos uma <b>ID de reserva</b> como identificador complementar.</p>
+      <p>Ao fazer isso, as jornadas são executadas no contexto da ID de perfil associada ao identificador complementar (aqui, a ID de reserva). Uma instância da jornada é executada para cada iteração do identificador complementar. Isso permite várias entradas da mesma ID de perfil no jornada, caso tenham feito reservas diferentes.</p>
+      <p>Além disso, o Journey Optimizer permite aproveitar os atributos do identificador complementar (por exemplo, número de reserva, data de renovação da prescrição, tipo de produto) para personalização de mensagens, garantindo comunicações altamente relevantes.</p>
+    </td>
+    <td style="vertical-align: top; border: none; text-align: center; width: 40%;">
+      <img src="assets/event-supplemental-id.png" alt="Exemplo de identificador complementar" style="max-width:100%;" />
+    </td>
+  </tr>
+</table>
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
 ## Medidas de proteção e limitações {#guardrails}
 
-* **jornadas com suporte**: por enquanto, o uso de identificadores complementares está disponível para jornadas **acionadas por eventos** e **Ler público**. Não está disponível para jornadas de qualificação de público-alvo.
+* **jornadas com suporte**: os identificadores complementares têm suporte para jornadas **acionadas por evento** e **Ler público**. Eles **não são suportados** para jornadas de qualificação de público-alvo (ou seja, jornadas que começam com uma atividade de qualificação de público-alvo).
 
 * **Limites de instância simultânea**: os perfis não podem ter mais de 10 instâncias de jornada simultâneas.
-
-<!--* **Array depth**: Supplemental identifier objects can have a maximum depth of 3 levels (2 levels of nesting).
-
-    +++Example
-
-    ```
-    [
-    (level 1) "Atorvastatin" : {
-    "description" : "used to lower cholesterol",
-    "renewal_date" : "11/20/25",
-    "dosage" : "10mg"
-    (level 2) "ingredients" : [
-    (level 3) "Atorvastatin calcium",
-    "lactose monohydrate",
-    "microcrystalline cellulose",
-    "other" ]
-    }
-    ]
-    ```
-
-    +++
--->
-* **Critério de saída**: os critérios de saída, se acionados, sairiam de todas as instâncias do perfil ativas na jornada nesse momento. Ela não seria contextual à combinação de ID de perfil + identificador complementar.
 
 * **Regras de frequência**: cada instância do jornada criada a partir do uso de identificador complementar conta para o limite de frequência, mesmo que o uso de identificadores complementares resulte em várias instâncias do jornada.
 
@@ -77,8 +69,20 @@ Além disso, o Journey Optimizer permite aproveitar os atributos do identificado
 * **Ler jornadas de público-alvo**
 
    * A ID complementar estará desativada se você usar um evento comercial.
-
    * A ID complementar deve ser um campo do perfil (ou seja, não um campo de evento/contexto).
+   * Para jornadas de público-alvo de leitura usando IDs complementares, a taxa de leitura da atividade de público-alvo de leitura para cada instância do jornada é limitada a no máximo 500 perfis por segundo.
+
+## Comportamento dos critérios de saída com IDs complementares {#exit-criteria}
+
+Pré-condição: Jornada ativada para ID complementar (por meio de atividades de evento unitário ou público-alvo de leitura)
+
+A tabela abaixo explica o comportamento dos perfis em uma jornada complementar habilitada para ID quando os critérios de saída são configurados:
+
+| Configuração dos critérios de saída | Comportamento quando os critérios de saída são atendidos |
+| ---------------------------- | ---------------------------------- |
+| Com base em um evento de ID não complementar | Todas as instâncias do perfil correspondente nessa jornada são encerradas. |
+| Com base em um evento de ID complementar <br/>*Observação: o namespace de ID complementar deve corresponder ao do nó inicial.* | Somente o perfil correspondente + instância de ID complementar é encerrado. |
+| Com base em um público-alvo | Todas as instâncias do perfil correspondente nessa jornada são encerradas. |
 
 ## Adicionar um identificador complementar e aproveitá-lo em uma jornada {#add}
 
@@ -251,4 +255,4 @@ Em uma matriz de objetos com a ID complementar como `bookingNum` e um atributo n
 
 Saiba como habilitar e aplicar um identificador complementar no [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464797?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

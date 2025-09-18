@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 100%
+source-wordcount: '2708'
+ht-degree: 97%
 
 ---
 
@@ -196,29 +196,10 @@ Você pode escolher uma dessas duas soluções:
 
 * Configure uma jornada que não use o perfil imediatamente. Por exemplo, se a jornada for projetada para confirmar a criação de uma conta, o evento de experiência pode conter informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc.).
 
-### Atualizar perfil {#update-profile-g}
 
-Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Atualizar perfil]**. Elas são listadas [nesta página](../building-journeys/update-profiles.md).
+### Identificadores suplementares {#supplemental}
 
-### Público-alvo de leitura {#read-segment-g}
-
-As seguintes medidas de proteção se aplicam à atividade de [leitura de público-alvo](../building-journeys/read-audience.md) da jornada:
-
-* Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Eles só são avaliados diariamente no momento da avaliação diária do lote.
-* Para jornadas que usam uma atividade de **público-alvo de leitura**, há um número máximo de jornadas que podem ser iniciadas ao mesmo tempo. O sistema ainda realizará novas tentativas, mas você deve evitar ter mais de cinco jornadas (com **Público-alvo de leitura**, agendadas ou iniciando “o mais rápido possível”) que se iniciem ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, em intervalos de 5 a 10 minutos.
-* A atividade de **público-alvo de leitura** não pode ser usada com atividades do Adobe Campaign.
-* A atividade de **público-alvo de leitura** só pode ser usada como a primeira atividade de uma jornada ou após uma atividade de evento de negócios.
-* Uma jornada só pode ter uma atividade de **público-alvo de leitura**.
-* Consulte também as recomendações de como usar a atividade **Público-alvo de leitura** descritas [nesta página](../building-journeys/read-audience.md).
-* As novas tentativas são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **público-alvo de leitura** ou um **evento de negócios**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado.
-
-Consulte também [esta página](../building-journeys/read-audience.md#must-read).
-
-### Qualificação de público-alvo {#audience-qualif-g}
-
-A seguinte medida de proteção se aplica à atividade de [qualificação de público-alvo](../building-journeys/audience-qualification-events.md) da jornada:
-
-* A atividade Qualificação de público-alvo não pode ser usada com atividades do Adobe Campaign.
+Aplicam-se medidas de proteção específicas à utilização de identificadores suplementares em jornadas. Eles estão listados em [esta página](../building-journeys/supplemental-identifier.md#guardrails)
 
 ### Editor de expressão {#expression-editor}
 
@@ -227,8 +208,23 @@ As seguintes medidas de proteção se aplicam ao [editor de expressão da jornad
 * Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de público-alvo de leitura, qualificação de público-alvo ou de evento de negócios. É necessário criar um novo público-alvo e usar uma condição `inaudience` na jornada.
 * Não é possível usar atributos `timeSeriesEvents` no editor de expressão. Para acessar eventos de experiência em nível de perfil, crie um novo grupo de campos com base em um esquema `XDM ExperienceEvent`.
 
+### Jornada atividades {#activities}
 
-### Atividade no aplicativo {#in-app-activity-limitations}
+#### Atividade de Qualificação de público-alvo {#audience-qualif-g}
+
+A seguinte medida de proteção se aplica à atividade de [qualificação de público-alvo](../building-journeys/audience-qualification-events.md) da jornada:
+
+* A atividade Qualificação de público-alvo não pode ser usada com atividades do Adobe Campaign.
+* Identificadores complementares não são compatíveis com jornadas de qualificação de Público-alvo.
+
+#### Atividades do Campaign {#ac-g}
+
+As seguintes medidas de proteção se aplicam às atividades do **[!UICONTROL Campaign v7/v8]** e **[!UICONTROL Campaign Standard]**:
+
+* As atividades do Adobe Campaign não podem ser usadas com uma atividade Público-alvo de leitura ou Qualificação de público-alvo.
+* As atividades de campanha não podem ser usadas com as outras atividades de canais: cartão, experiência baseada em código, email, push, sms, mensagens no aplicativo e web.
+
+#### Atividade no aplicativo {#in-app-activity-limitations}
 
 As seguintes medidas de proteção se aplicam à ação de **[!UICONTROL mensagem no aplicativo]**. Saiba mais sobre mensagens no aplicativo [nesta página](../in-app/create-in-app.md).
 
@@ -248,16 +244,28 @@ As seguintes medidas de proteção se aplicam à ação de **[!UICONTROL mensage
 
 * O tamanho do conteúdo da mensagem no aplicativo é limitado a 2 Mb. A inclusão de imagens grandes pode prejudicar o processo de publicação.
 
-### Atividade Salto {#jump-g}
+#### Atividade Salto {#jump-g}
 
 Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Salto]**. Elas são listadas [nesta página](../building-journeys/jump.md#jump-limitations).
 
-### Atividades do Campaign {#ac-g}
+#### Ler atividade de público {#read-segment-g}
 
-As seguintes medidas de proteção se aplicam às atividades do **[!UICONTROL Campaign v7/v8]** e **[!UICONTROL Campaign Standard]**:
+As seguintes medidas de proteção se aplicam à atividade de [leitura de público-alvo](../building-journeys/read-audience.md) da jornada:
 
-* As atividades do Adobe Campaign não podem ser usadas com uma atividade Público-alvo de leitura ou Qualificação de público-alvo.
-* As atividades de campanha não podem ser usadas com as outras atividades de canais: cartão, experiência baseada em código, email, push, sms, mensagens no aplicativo e web.
+* Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Eles só são avaliados diariamente no momento da avaliação diária do lote.
+* Para jornadas que usam uma atividade de **público-alvo de leitura**, há um número máximo de jornadas que podem ser iniciadas ao mesmo tempo. O sistema ainda realizará novas tentativas, mas você deve evitar ter mais de cinco jornadas (com **Público-alvo de leitura**, agendadas ou iniciando “o mais rápido possível”) que se iniciem ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, em intervalos de 5 a 10 minutos.
+* A atividade de **público-alvo de leitura** não pode ser usada com atividades do Adobe Campaign.
+* A atividade de **público-alvo de leitura** só pode ser usada como a primeira atividade de uma jornada ou após uma atividade de evento de negócios.
+* Uma jornada só pode ter uma atividade de **público-alvo de leitura**.
+* Consulte também as recomendações de como usar a atividade **Público-alvo de leitura** descritas [nesta página](../building-journeys/read-audience.md).
+* As novas tentativas são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **público-alvo de leitura** ou um **evento de negócios**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado.
+* Para jornadas que usam IDs complementares, a taxa de leitura da atividade de público-alvo de leitura para cada instância do jornada é limitada a no máximo 500 perfis por segundo.
+
+Consulte também [esta página](../building-journeys/read-audience.md#must-read).
+
+#### Atualizar atividade do perfil {#update-profile-g}
+
+Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Atualizar perfil]**. Elas são listadas [nesta página](../building-journeys/update-profiles.md).
 
 ## Proteções da orquestração de campanhas {#orchestration-guardrails}
 
