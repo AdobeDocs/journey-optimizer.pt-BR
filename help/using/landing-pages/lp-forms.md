@@ -11,10 +11,10 @@ keywords: landing page, landing page, criação, página, formulário
 badge: label="Disponibilidade limitada" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
+source-git-commit: 67283fe92282ce23c97c29fa2c0ad78132cc184a
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Para capturar dados de perfil com suas páginas de aterrissagem do [!DNL Journey
 >id="ajo_lp_form_connection"
 >title="Selecione o endpoint a ser usado"
 >abstract="Defina o ponto de encerramento da transmissão para onde os dados são enviados ao enviar o formulário."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Criar uma conexão de transmissão da API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Criar uma conexão de transmissão da API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +68,7 @@ Ao criar uma predefinição:
 
    >[!NOTE]
    >
-   >Saiba mais sobre como criar uma conexão de origem de streaming na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Saiba mais sobre como criar uma conexão de origem de streaming na [documentação do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. Você pode digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
 
@@ -85,6 +85,12 @@ Para acessar a lista de formulários, selecione **[!UICONTROL Content Management
 Todos os formulários existentes são exibidos. Você pode filtrar formulários com base no status, data de criação ou data de modificação.
 
 ## Criar um formulário {#create-form}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_form_preset"
+>title="Selecionar uma predefinição"
+>abstract="Escolha uma predefinição predefinida que contenha a conexão a ser usada e um conjunto de dados predefinido para seu formulário."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Criação de uma predefinição de formulário"
 
 Para criar um formulário, siga as etapas abaixo.
 
@@ -129,7 +135,7 @@ Para criar um formulário, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
 >title="Página de agradecimento"
->abstract="Configure o que acontece quando alguém preenche ou encaminha um formulário."
+>abstract="Configure o que acontece quando alguém preenche ou encaminha o formulário."
 
 Na seção **[!UICONTROL Página de agradecimento]**, configure o que acontece quando um usuário preenche o formulário.
 
