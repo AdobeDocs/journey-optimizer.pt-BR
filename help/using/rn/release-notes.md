@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4aa1a6ecabb7b742bce084bb96865f965531d77
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 88%
+source-wordcount: '2226'
+ht-degree: 87%
 
 ---
 
@@ -111,6 +111,8 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 </table>
 
 ### Aprimoramentos {#Sep-25-improv}
+
+* **Frequência de limitação de redefinição por hora**: agora você pode aplicar a limitação por hora para conjuntos de regras de canal. Anteriormente disponível em Disponibilidade limitada, esse recurso agora está disponível para todos os ambientes e permite escolher 1 hora (anteriormente, 3 horas). [Leia mais](../conflict-prioritization/channel-capping.md). Data de disponibilidade: 17 de setembro
 
 * **Suporte a domínio dinâmico** - o Journey Optimizer agora oferece suporte à personalização completa/básica de URL para domínios predefinidos aceitos pelo Adobe. [Leia mais](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 

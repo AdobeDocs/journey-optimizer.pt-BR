@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 6%
+source-wordcount: '1226'
+ht-degree: 5%
 
 ---
 
@@ -65,12 +65,7 @@ Para criar um conjunto de regras de canal, siga estas etapas:
 
    O prazo de validade do contador para cada período é o seguinte:
 
-   * **[!UICONTROL Por hora]** - O limite de frequência é válido para o número de horas selecionado (mínimo de 3 horas). O contador é redefinido automaticamente no início de cada janela de tempo. Para um limite de frequência de 3 horas, ele é redefinido a cada 3 horas, coincidindo com o final de uma hora UTC.
-
-     >[!AVAILABILITY]
-     >
-     >Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Entre em contato com o atendimento ao cliente para habilitá-la.
-
+   * **[!UICONTROL Por hora]** - O limite de frequência é válido para o número de horas selecionado. O contador é redefinido automaticamente no início de cada janela de tempo. Para um limite de frequência de 1 hora, ele é redefinido a cada hora, coincidindo com o final de uma hora UTC.
    * **[!UICONTROL Diariamente]** - O limite de frequência diária é válido para o dia até 23:59:59 UTC e é redefinido para 0 no início do dia seguinte.
    * **[!UICONTROL Semanalmente]** - O limite de frequência é válido até sábado, 23:59:59 UTC dessa semana, pois a semana do calendário começa no domingo. A data de expiração se aplica independentemente de quando a regra foi criada. Por exemplo, se a regra for criada na quinta-feira, ela será válida até o sábado às 23:59:59.
    * **[!UICONTROL Mensal]** - O limite de frequência é válido até o último dia do mês às 23:59:59 UTC. Por exemplo, a expiração mensal de janeiro é 01-31 23:59:59 UTC.
@@ -83,7 +78,7 @@ Para criar um conjunto de regras de canal, siga estas etapas:
 
 1. O campo **[!UICONTROL A cada]** permite repetir as regras de limite de frequência em várias horas, dias, semanas ou meses, dependendo da duração especificada. Exemplo: aplique a regra de limite de frequência por 2 semanas.
 
-   Insira um valor que corresponda ao tipo de duração selecionado: 3-23 para Por hora, 1-30 para Diário, 1-4 para Semanal e 1-3 para Mensal.
+   Insira um valor que corresponda ao tipo de duração selecionado: 1-23 para Por hora, 1-30 para Diário, 1-4 para Semanal e 1-3 para Mensal.
 
    O contador é automaticamente redefinido para 0 quando uma nova janela de tempo é iniciada. Para um limite de frequência de 2 dias, esse reinício ocorre a cada dois dias à meia-noite UTC.
 
@@ -166,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
