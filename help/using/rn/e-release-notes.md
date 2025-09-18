@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 59a6413fb111c3ac595416d8e5933b981bc64d3c
+source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 26%
+source-wordcount: '1540'
+ht-degree: 29%
 
 ---
 
@@ -77,13 +77,13 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent</strong><br/></th>
+<th><strong>O Journey Agent chegou!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Journey Agent permite que os usuários do Journey Optimizer criem, analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, os profissionais podem detectar e resolver rapidamente conflitos de agendamento ou público-alvo, analisar pontos de queda e desempenho e identificar jornadas de melhor desempenho para replicar em campanhas futuras.</p>
+<p>O Assistente de IA agora inclui habilidades essenciais do Journey Agent para Journey Optimizer, permitindo que os profissionais analisem jornadas por meio de uma interface de linguagem natural. Com essas novas habilidades, os usuários podem analisar e criar jornadas (em breve) para detectar e resolver possíveis conflitos de agendamento ou público-alvo.</p>
 </td>
 </tr>
 </tbody>
@@ -110,6 +110,24 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Formulários personalizados de página de destino</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Com o [!DNL Journey Optimizer], agora é possível capturar atributos de perfil por meio das páginas de destino.</p>
+<p>Crie, projete e gerencie formulários personalizados adaptados às suas necessidades com base em um conjunto de dados específico. Em seguida, é possível usar esses formulários em páginas de destino para adicionar os atributos de perfil de sua escolha ao conjunto de dados definido para cada formulário.</p>
+<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
+<!--p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
