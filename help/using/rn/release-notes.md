@@ -487,72 +487,72 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 
 Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
-* **Administração**
+&#x200B;* **Administração**
 
-   * **Configuração de canais e alertas de monitoramento**: agora é possível se inscrever para receber alertas do sistema por email ou pela central de notificações do Journey Optimizer, caso <!--a channel configuration failure happens or if --> haja um registro DNS ausente. [Leia mais](../reports/alerts.md#alert-dns-record-missing)
+   &#x200B;* **Configuração de canais e alertas de monitoramento**: agora é possível se inscrever para receber alertas do sistema por email ou pela central de notificações do Journey Optimizer, caso <!--a channel configuration failure happens or if --> haja um registro DNS ausente. [Leia mais](../reports/alerts.md#alert-dns-record-missing)
 
-* **Assistente de IA**
+&#x200B;* **Assistente de IA**
 
-   * **Geração de conteúdo em vários idiomas**: o conteúdo agora pode ser gerado em francês, espanhol, alemão, italiano, japonês, sueco, holandês e norueguês. [Leia mais](../content-management/generative-uc.md#languages)
+   &#x200B;* **Geração de conteúdo em vários idiomas**: o conteúdo agora pode ser gerado em francês, espanhol, alemão, italiano, japonês, sueco, holandês e norueguês. [Leia mais](../content-management/generative-uc.md#languages)
 
      Data de disponibilidade: 25 de agosto
 
 
-* **Campanhas**
+&#x200B;* **Campanhas**
 
-   * **Controle de taxa em campanhas de saída**: agora é possível habilitar o controle de taxa para campanhas de saída (email, SMS, notificações por push), permitindo evitar a sobrecarga em sistemas downstream, como páginas de destino ou plataformas de atendimento ao cliente. [Leia mais](../campaigns/campaign-schedule.md#rate-control)
+   &#x200B;* **Controle de taxa em campanhas de saída**: agora é possível habilitar o controle de taxa para campanhas de saída (email, SMS, notificações por push), permitindo evitar a sobrecarga em sistemas downstream, como páginas de destino ou plataformas de atendimento ao cliente. [Leia mais](../campaigns/campaign-schedule.md#rate-control)
 
-   * **Agendamento de campanha de ação**: os agendadores de campanha diários, semanais e mensais foram atualizados para fornecer controle mais detalhado sobre agendamentos recorrentes:
+   &#x200B;* **Agendamento de campanha de ação**: os agendadores de campanha diários, semanais e mensais foram atualizados para fornecer controle mais detalhado sobre agendamentos recorrentes:
 
-      * **Recorrência semanal**: agora é possível optar por repetir a campanha toda semana ou a cada duas semanas e selecionar o(s) dia(s) da semana em que ela deve ser executada.
+      &#x200B;* **Recorrência semanal**: agora é possível optar por repetir a campanha toda semana ou a cada duas semanas e selecionar o(s) dia(s) da semana em que ela deve ser executada.
 
-      * **Recorrência mensal**: agora é possível optar por repetir a campanha todos os meses ou a cada dois meses e selecionar o dia do mês em que ela deve ser executada.
+      &#x200B;* **Recorrência mensal**: agora é possível optar por repetir a campanha todos os meses ou a cada dois meses e selecionar o dia do mês em que ela deve ser executada.
 
-      * **Agendas diárias, semanais ou mensais**: é possível especificar se a agenda recorrente deve parar em uma data específica ou após um determinado número de ocorrências.
+      &#x200B;* **Agendas diárias, semanais ou mensais**: é possível especificar se a agenda recorrente deve parar em uma data específica ou após um determinado número de ocorrências.
 
-   * **Campanhas de ação transacional agendadas**: as campanhas de ação transacional agendadas agora estão disponíveis para enviar comunicações transacionais em lote e baseadas em público-alvo por canais de email, SMS e push.
+   &#x200B;* **Campanhas de ação transacional agendadas**: as campanhas de ação transacional agendadas agora estão disponíveis para enviar comunicações transacionais em lote e baseadas em público-alvo por canais de email, SMS e push.
 
-* **Canal: cartões de conteúdo**
+&#x200B;* **Canal: cartões de conteúdo**
 
-   * **Modelos de layout de cartões de conteúdo**: o canal de cartões de conteúdo agora oferece layouts de mensagem prontos para uso que simplificarão a experiência de criação. Esta versão inclui os modelos de layout Imagem pequena, Imagem grande e Somente imagem. [Leia mais](../content-card/design-content-card.md)
+   &#x200B;* **Modelos de layout de cartões de conteúdo**: o canal de cartões de conteúdo agora oferece layouts de mensagem prontos para uso que simplificarão a experiência de criação. Esta versão inclui os modelos de layout Imagem pequena, Imagem grande e Somente imagem. [Leia mais](../content-card/design-content-card.md)
 
-* **Canal - Push**
+&#x200B;* **Canal - Push**
 
-   * **Data de expiração da notificação por push** - Agora é possível especificar uma data de expiração para cada notificação por push, o que impede que mensagens sensíveis ao tempo (como promoções de Black Friday) sejam enviadas após uma determinada data, evitando assim a entrega de uma experiência ruim aos clientes.
+   &#x200B;* **Data de expiração da notificação por push** - Agora é possível especificar uma data de expiração para cada notificação por push, o que impede que mensagens sensíveis ao tempo (como promoções de Black Friday) sejam enviadas após uma determinada data, evitando assim a entrega de uma experiência ruim aos clientes.
 
-* **Canal - SMS**
+&#x200B;* **Canal - SMS**
 
-   * **Recusa difusa**: quando habilitada, a opção **Recusa difusa** detecta mensagens de entrada que se assemelham às palavras-chave de recusa definidas (por exemplo, &quot;CANCILAR&quot;) e envia automaticamente uma resposta de confirmação para verificar a intenção de cancelamento de assinatura do usuário. Se o usuário confirmar por meio da solicitação definida, sua inscrição será cancelada. [Leia mais](../sms/sms-configuration-sinch.md)
+   &#x200B;* **Recusa difusa**: quando habilitada, a opção **Recusa difusa** detecta mensagens de entrada que se assemelham às palavras-chave de recusa definidas (por exemplo, &quot;CANCILAR&quot;) e envia automaticamente uma resposta de confirmação para verificar a intenção de cancelamento de assinatura do usuário. Se o usuário confirmar por meio da solicitação definida, sua inscrição será cancelada. [Leia mais](../sms/sms-configuration-sinch.md)
 
      >[!NOTE]
      >
      >A **Recusa difusa** só está disponível com o Sinch e o Infobip.
 
-   * **Verificar conexão SMS**: agora é possível testar e verificar facilmente as credenciais da API de SMS no Adobe Journey Optimizer enviando uma mensagem de exemplo para um dispositivo designado. [Leia mais](../sms/sms-configuration-sinch.md)
+   &#x200B;* **Verificar conexão SMS**: agora é possível testar e verificar facilmente as credenciais da API de SMS no Adobe Journey Optimizer enviando uma mensagem de exemplo para um dispositivo designado. [Leia mais](../sms/sms-configuration-sinch.md)
 
-* **Configuração**
+&#x200B;* **Configuração**
 
-   * **Suporte a atributos personalizados com URL de cancelar assinatura com um clique**: com o Journey Optimizer, se estiver gerenciando consentimento fora da Adobe, você poderá configurar um ponto de acesso externo personalizado definindo seu próprio link de cancelamento de inscrição com um clique na configuração do email. Quando os destinatários clicam no link de cancelar assinatura, o Journey Optimizer anexa alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento.
+   &#x200B;* **Suporte a atributos personalizados com URL de cancelar assinatura com um clique**: com o Journey Optimizer, se estiver gerenciando consentimento fora da Adobe, você poderá configurar um ponto de acesso externo personalizado definindo seu próprio link de cancelamento de inscrição com um clique na configuração do email. Quando os destinatários clicam no link de cancelar assinatura, o Journey Optimizer anexa alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento.
 
      Para personalizar ainda mais o link de cancelamento de assinatura com um clique, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento. [Leia mais](../email/list-unsubscribe.md#custom-attributes)
 
-* **Conjuntos de dados**
+&#x200B;* **Conjuntos de dados**
 
-   * **Repositório de objetos da decisão de experiências - Itens de oferta personalizados**: o conjunto de dados de exportação integrado agora capta todos os atributos de oferta e status do ciclo de vida, permitindo um processo completo de personalização e geração de relatórios. [Leia mais](../data/export-datasets.md)
+   &#x200B;* **Repositório de objetos da decisão de experiências - Itens de oferta personalizados**: o conjunto de dados de exportação integrado agora capta todos os atributos de oferta e status do ciclo de vida, permitindo um processo completo de personalização e geração de relatórios. [Leia mais](../data/export-datasets.md)
 
-   * Adição da verificação de versão por meio do campo `etag` para melhorar a consistência, rastrear alterações e oferecer itens de forma mais confiável.
+   &#x200B;* Adição da verificação de versão por meio do campo `etag` para melhorar a consistência, rastrear alterações e oferecer itens de forma mais confiável.
 
-* **Decisão**
+&#x200B;* **Decisão**
 
-   * **Anexar fragmentos a itens de decisão**: o Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão que podem ser aproveitados em campanhas de experiência baseada em código por meio de políticas de decisão. Esse recurso está disponível em Disponibilidade limitada para um conjunto de clientes. [Leia mais](../experience-decisioning/create-decision.md#fragments)
+   &#x200B;* **Anexar fragmentos a itens de decisão**: o Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão que podem ser aproveitados em campanhas de experiência baseada em código por meio de políticas de decisão. Esse recurso está disponível em Disponibilidade limitada para um conjunto de clientes. [Leia mais](../experience-decisioning/create-decision.md#fragments)
 
-* **Jornadas**
+&#x200B;* **Jornadas**
 
-   * **Operações em massa de jornada**: na lista de jornadas, agora é possível selecionar vários itens. Após a seleção, é possível pausar ou retomar até 10 jornadas por vez.
+   &#x200B;* **Operações em massa de jornada**: na lista de jornadas, agora é possível selecionar vários itens. Após a seleção, é possível pausar ou retomar até 10 jornadas por vez.
 
-   * **Suporte a redirecionamento (302) em ações personalizadas**: as ações personalizadas agora podem processar redirecionamentos HTTP 302 por solicitação. Isso permite que as jornadas se integrem a APIs que redirecionam solicitações para URLs localizados ou específicos da região. Os redirecionamentos são seguidos automaticamente, garantindo que o conteúdo correto seja entregue sem configuração extra.
+   &#x200B;* **Suporte a redirecionamento (302) em ações personalizadas**: as ações personalizadas agora podem processar redirecionamentos HTTP 302 por solicitação. Isso permite que as jornadas se integrem a APIs que redirecionam solicitações para URLs localizados ou específicos da região. Os redirecionamentos são seguidos automaticamente, garantindo que o conteúdo correto seja entregue sem configuração extra.
 
-   * **Várias ações de entrada em jornadas**: para simplificar a orquestração de jornada, agora é possível definir várias ações de entrada em uma única jornada. Anteriormente disponível nas campanhas, esse recurso permite fornecer várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da web para locais diferentes ao mesmo tempo, e cada ação com um conteúdo específico. [Leia mais](../building-journeys/journey-action.md#multi-action)
+   &#x200B;* **Várias ações de entrada em jornadas**: para simplificar a orquestração de jornada, agora é possível definir várias ações de entrada em uma única jornada. Anteriormente disponível nas campanhas, esse recurso permite fornecer várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da web para locais diferentes ao mesmo tempo, e cada ação com um conteúdo específico. [Leia mais](../building-journeys/journey-action.md#multi-action)
 
 ## Orquestração de campanha  
 
@@ -570,19 +570,19 @@ Inclui [Esquemas e conjuntos de dados relacionais](#oc-relational) e [Tela da ca
 
 ### Principais recursos {#oc-capabilities}
 
-* **Fluxos de trabalho em várias etapas**
+&#x200B;* **Fluxos de trabalho em várias etapas**
 
   Crie campanhas sofisticadas em lotes em vários canais com a nova tela de orquestração de campanhas.
 
-* **Públicos-alvo sob demanda**
+&#x200B;* **Públicos-alvo sob demanda**
 
   Segmente públicos-alvo sob demanda para ativação imediata.
 
-* **Segmentação de várias entidades**
+&#x200B;* **Segmentação de várias entidades**
 
   Crie públicos-alvo com base no contexto comercial (dimensões que não sejam de pessoas), como produtos, lojas, renovações, reservas e muito mais.
 
-* **Visibilidade pré-envio**
+&#x200B;* **Visibilidade pré-envio**
 
   Revise, refine e otimize públicos-alvo e campanhas antes do lançamento e enquanto as campanhas estão em execução
 
@@ -590,23 +590,23 @@ Inclui [Esquemas e conjuntos de dados relacionais](#oc-relational) e [Tela da ca
 
 Uma interface de orquestração visual totalmente nova, criada especificamente para campanhas em lotes. Essa tela permite:
 
-* Planejamento visual de fluxos de campanha em várias etapas e vários canais
+&#x200B;* Planejamento visual de fluxos de campanha em várias etapas e vários canais
 
-* Compatibilidade com públicos-alvo sob demanda criados a partir de consultas relacionais
+&#x200B;* Compatibilidade com públicos-alvo sob demanda criados a partir de consultas relacionais
 
-* Divisão avançada de públicos-alvo, esperas e lógica condicional
+&#x200B;* Divisão avançada de públicos-alvo, esperas e lógica condicional
 
-* Contagens precisas pré-envio após a aplicação de regras de negócios e filtros
+&#x200B;* Contagens precisas pré-envio após a aplicação de regras de negócios e filtros
 
 ### Esquemas e conjuntos de dados relacionais {#oc-relational}
 
 O Adobe Journey Optimizer agora permite entidades relacionais (por exemplo: produtos, lojas, reservas, contratos) vinculadas a perfis com base em pessoas. Isso permite a segmentação e a personalização em estruturas de dados multidimensionais, permitindo casos de uso como:
 
-* Uma mensagem por reserva, assinatura ou contrato
+&#x200B;* Uma mensagem por reserva, assinatura ou contrato
 
-* Segmentação baseada em atributos da entidade relacionada (por exemplo, categoria do produto ou localização da loja)
+&#x200B;* Segmentação baseada em atributos da entidade relacionada (por exemplo, categoria do produto ou localização da loja)
 
-* Capacidade de endereçamento aprimorada (por exemplo, enviar a todos os contatos conhecidos vinculados a uma entidade)
+&#x200B;* Capacidade de endereçamento aprimorada (por exemplo, enviar a todos os contatos conhecidos vinculados a uma entidade)
 
 ### Por que isso importa
 
