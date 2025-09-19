@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
+source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
 workflow-type: tm+mt
-source-wordcount: '3045'
+source-wordcount: '3064'
 ht-degree: 67%
 
 ---
@@ -260,6 +260,8 @@ Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar
 
 * **Suporte à pesquisa de conjunto de dados no jornada**\
   Uma nova atividade no jornada, **Pesquisa de conjunto de dados**, permite recuperar dinamicamente dados de conjuntos de dados de registros Adobe Experience Platform durante o tempo de execução. Ao aproveitar esse recurso, você pode acessar dados que podem não residir no perfil ou na carga do evento, garantindo que as interações do cliente sejam relevantes e oportunas.
+
+  Essa atividade só está disponível para um conjunto de organizações (Disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
 * **Simulação de variações de conteúdo para todos os canais de entrada**\
   Anteriormente disponível apenas para os canais de Email, SMS e Notificação por push, a simulação de variações de conteúdo agora também se aplica a todos os canais de entrada.
