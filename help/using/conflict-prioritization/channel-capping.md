@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
+source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1225'
 ht-degree: 5%
 
 ---
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
