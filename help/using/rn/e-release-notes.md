@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2ebdb37b390988941f29a5e6ecfe147984450d51
+source-git-commit: 8d732c417d23e47a16d58999e00a2019b9db34a8
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 29%
+source-wordcount: '1529'
+ht-degree: 30%
 
 ---
 
@@ -117,9 +117,9 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <p>O Journey Optimizer Experimentation Accelerator é um produto de IA projetado para elevar o nível das suas experiências. Criado para usuários do Adobe Journey Optimizer e do Adobe Target, ele unifica o gerenciamento de experiências, fornece insights e oportunidades alimentadas por IA e introduz um novo agente de experimentação.</p>
 <p>Você pode esperar por:</p>
 <ul>
-<li><strong>Inventário de experimentos unificado:</strong> visualize, filtre e gerencie rapidamente todos os experimentos da Adobe Journey Optimizer e da Adobe Target em um espaço de trabalho central. O novo alternador de equipe permite que os usuários personalizem as visualizações por equipe e função, garantindo que as pessoas certas vejam os experimentos mais relevantes.</li>
+<li><strong>Inventário de experimentos unificado:</strong> visualize, filtre e gerencie rapidamente todos os experimentos da Adobe Journey Optimizer e da Adobe Target em um espaço de trabalho central.</li>
 <li><strong>Insights e oportunidades de experimentos de IA:</strong> vá além das leituras estatísticas com insights e recomendações orientados pela GenAI. Cada experimento agora apresenta oportunidades acionáveis, completas com lógica de apoio, para que as equipes possam decidir com mais confiança o que testar a seguir.</li>
-<li><strong>Suporte a MAB (Multi-Armed Bandit):</strong> maximize o impacto enquanto reduz o tráfego desperdiçado com experimentos de Multi-Armed Bandit. Em vez de dividir públicos uniformemente, o MAB aloca automaticamente mais visitantes para as variações de melhor desempenho em tempo real, para que você possa entregar melhores experiências a mais clientes enquanto ainda aprende o que funciona.</li>
+<li><strong>Suporte a MAB (Multi-Armed Bandit) no Journey Optimizer:</strong> maximize o impacto enquanto reduz o tráfego desperdiçado com experimentos de Multi-Armed Bandit. Em vez de dividir públicos uniformemente, o MAB aloca automaticamente mais visitantes para as variações de melhor desempenho em tempo real, para que você possa entregar melhores experiências a mais clientes enquanto ainda aprende o que funciona.</li>
 </ul>
 </td>
 </tr>
