@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5f601a79244a9f10bb9762656449729184b887ec
+source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
 workflow-type: tm+mt
-source-wordcount: '2975'
-ht-degree: 69%
+source-wordcount: '3045'
+ht-degree: 67%
 
 ---
 
@@ -270,9 +270,9 @@ Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar
 * **Suporte de Redirecionamento em Ações Personalizadas do Jornada**\
   Redirecionamentos (302) agora são permitidos nas Ações personalizadas do Jornada.
 
-<!--* **High throughput mode for API triggered email campaigns**  
-  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
-  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.-->
+* **Modo de alta taxa de transferência para campanhas de email acionadas por API**\
+  Um novo modo de alta taxa de transferência agora está disponível em campanhas acionadas por API. Esse modo foi projetado para mensagens em tempo real em larga escala (até 5.000 transações por segundo) e fornece maior disponibilidade com menor latência.\
+  Esse recurso só está disponível para o canal de email, em organizações que compraram a oferta complementar de mensagens transacionais de alta taxa de transferência da Adobe. Entre em contato com seu representante da Adobe para obter mais detalhes.
 
 * **Frequência de limitação de redefinição por hora**: agora você pode aplicar a limitação por hora para conjuntos de regras de canal. Anteriormente disponível em Disponibilidade limitada, esse recurso agora está disponível para todos os ambientes e permite escolher 1 hora (anteriormente, 3 horas). [Leia mais](../conflict-prioritization/channel-capping.md). Data de disponibilidade: 17 de setembro
 
