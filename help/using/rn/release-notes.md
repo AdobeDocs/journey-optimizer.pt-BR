@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
+source-git-commit: a05d7e022a0b154848405a6b5d27d399a24161db
 workflow-type: tm+mt
-source-wordcount: '3064'
+source-wordcount: '3093'
 ht-degree: 67%
 
 ---
@@ -103,7 +103,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tbody>
 <tr>
 <td>
-<p>O Assistente de IA agora inclui habilidades essenciais do Journey Agent para Journey Optimizer, permitindo que os profissionais analisem jornadas por meio de uma interface de linguagem natural. Com essas novas habilidades, os usuários podem analisar e criar jornadas (em breve) para detectar e resolver possíveis conflitos de agendamento ou público-alvo.</p>
+<p>Desenvolvido pela Adobe Experience Platform Agent Orchestrator, o Journey Agent está disponível na Journey Optimizer. Ele permite analisar jornadas por meio de uma interface de linguagem natural. O agente detectará conflitos de público-alvo ou agendamento e suspensões de perfil em uma jornada para ajudar você a tomar medidas para resolvê-los. Em breve você poderá criar jornadas com suporte técnico.</p>
 </td>
 </tr>
 </tbody>
@@ -240,9 +240,12 @@ Adição de uma opção ao criar ou definir a Política de aprovação para impe
 
 * **Novos Alertas de Jornada**\
   Novos alertas pré-configurados estão disponíveis para jornada:
+
    * Taxa de descarte de perfil excedida: a taxa de descartes de perfil em perfis inseridos nos últimos 5 minutos excedeu o limite.
    * Taxa de erro de ação personalizada excedida: taxa de erros de ação personalizada para chamadas HTTP bem-sucedidas ao longo dos últimos 5 minutos excedeu o limite.
    * Taxa de erro de perfil excedida: Taxa de perfis com erro em relação aos perfis inseridos nos últimos 5 minutos excedeu o limite.
+
+  Você pode modificar valores de limite e assinar alertas individuais em nível de jornada em comparação com os alertas globais.
 
 * **Parâmetros de corpo JSON aninhados agora têm suporte na autenticação personalizada**\
   Ao configurar a autenticação personalizada para uma ação personalizada, objetos JSON aninhados (por exemplo, subobjetos em `bodyParams`) agora são suportados.
@@ -252,7 +255,7 @@ Adição de uma opção ao criar ou definir a Política de aprovação para impe
 
   Para personalizar ainda mais o endereço de email de cancelamento de inscrição, agora é possível definir atributos personalizados que serão anexados ao evento de consentimento. Esse recurso já está disponível para o link personalizado de cancelamento de inscrição com um clique desde a versão de 25 de agosto.
 
-* ***Suporte mTLS para Canal SMS**
+* **Suporte mTLS para Canal SMS**
 Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar a autenticação TLS mútua (mTLS), que requer que o cliente e o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida.
 
 * **Esquemas baseados em modelo**\
