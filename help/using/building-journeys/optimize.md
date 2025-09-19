@@ -11,9 +11,9 @@ keywords: atividade, condição, tela, jornada, otimização
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1298'
 ht-degree: 6%
 
 ---
@@ -74,7 +74,7 @@ Digamos que você deseje comparar três caminhos:
 
 1. Clique em **[!UICONTROL Criar experimento]**.
 
-1. Selecione a **[!UICONTROL Métrica de sucesso]** que você deseja definir para o seu experimento.
+1. Selecione a **[!UICONTROL Métrica de sucesso]** que você deseja definir para o seu experimento. Saiba mais sobre as métricas disponíveis e como configurar a lista em [esta seção](success-metrics.md).
 
    <!--Need to have the list of all default metrics + a description for each.
     Explain why the metric selection is important.
@@ -125,7 +125,7 @@ Digamos que você deseje comparar três caminhos:
 
 Quando a jornada estiver ativa, os usuários serão atribuídos aleatoriamente para percorrer caminhos diferentes. [!DNL Journey Optimizer] rastreia qual caminho tem melhor desempenho e fornece insights acionáveis.
 
-<!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+Siga o sucesso da sua jornada com o relatório Experimento de caminho de Jornada. [Saiba mais](../reports/journey-global-report-cja-experimentation.md)
 
 ### Casos de uso de experimentos {#uc-experiment}
 
@@ -224,7 +224,7 @@ Para configurar o direcionamento em uma jornada, siga as etapas abaixo.
 
 Quando a jornada estiver ativa, o caminho especificado para cada segmento será processado para que os membros Gold insiram o caminho com as ofertas de email, enquanto os outros membros insiram o caminho com o lembrete SMS.
 
-<!--Follow the success of your journey with the Journey Path Targeting report.Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+Siga o sucesso da sua jornada com o relatório de Jornada. [Saiba mais](../reports/journey-global-report-cja.md#targeting)
 
 ### Casos de uso da regra de direcionamento {#uc-targeting}
 
