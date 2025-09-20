@@ -30,7 +30,7 @@ Obtenha uma visão geral das principais funções disponíveis, categorizadas po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Usar a função inAudience
 

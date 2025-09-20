@@ -20,7 +20,7 @@ A seção de referência da API do Adobe Journey Optimizer desbloqueia as ferram
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução à API da biblioteca de ofertas
 

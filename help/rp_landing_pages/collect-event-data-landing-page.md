@@ -30,7 +30,7 @@ Saiba mais sobre os fundamentos da coleta de dados para a gestão de decisões, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Como criar um conjunto de dados para coletar eventos de experiência
 
@@ -40,7 +40,7 @@ Siga as instruções passo a passo para criar um conjunto de dados e um esquema 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar a captação de dados de eventos para a gestão de decisões
 

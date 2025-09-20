@@ -20,7 +20,7 @@ A configuração de canais no Adobe Journey Optimizer permite gerenciar como as 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução à configuração de canais
 
@@ -30,7 +30,7 @@ Saiba mais sobre as etapas para configurar canais no Adobe Journey Optimizer, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Definir e gerenciar a configuração de canais
 
@@ -40,7 +40,7 @@ Siga um guia detalhado para criar, editar, desativar e monitorar as configuraç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configuração de canais guiada
 
@@ -50,7 +50,7 @@ Configure canais móveis e da Web com eficiência usando instruções passo a pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
 
 Delegar e gerenciar subdomínios de email
 
@@ -60,7 +60,7 @@ Saiba como delegar e configurar subdomínios de email para otimizar a capacidade
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Implementar um plano de aquecimento de IP
 
@@ -70,7 +70,7 @@ Crie e execute planos de aquecimento de IP para estabelecer a reputação do rem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Monitorar a capacidade de entrega de emails e a reputação
 

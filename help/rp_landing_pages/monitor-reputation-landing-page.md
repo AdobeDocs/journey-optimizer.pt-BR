@@ -30,7 +30,7 @@ Saiba como controlar a capacidade de entrega de emails por meio do gerenciamento
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Gerenciar novas tentativas e listas de supressão
 

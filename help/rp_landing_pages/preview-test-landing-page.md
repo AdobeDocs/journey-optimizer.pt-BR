@@ -20,7 +20,7 @@ A visualização e o teste de conteúdo no Adobe Journey Optimizer garantem que 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Como visualizar e testar conteúdo no Adobe Journey Optimizer
 

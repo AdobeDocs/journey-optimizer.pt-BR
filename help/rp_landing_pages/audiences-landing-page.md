@@ -30,7 +30,7 @@ Saiba mais sobre os fundamentos do gerenciamento de público-alvo, da segmentaç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Criar e gerenciar públicos-alvo
 
@@ -50,7 +50,7 @@ Entenda como ativar públicos-alvo e usá-los com eficiência em campanhas e jor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Usar atributos de enriquecimento
 

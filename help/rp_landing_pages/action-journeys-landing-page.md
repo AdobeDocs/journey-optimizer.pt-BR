@@ -30,7 +30,7 @@ Saiba como configurar e usar ações personalizadas no Adobe Journey Optimizer p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Como configurar ações personalizadas
 

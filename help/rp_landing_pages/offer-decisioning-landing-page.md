@@ -20,7 +20,7 @@ A Gestão de decisões no Adobe Journey Optimizer permite que você entregue a o
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução à gestão de decisões
 
@@ -50,7 +50,7 @@ Saiba como classificar ofertas usando fórmulas e modelos de IA para otimizar o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Criar e gerenciar ofertas
 

@@ -40,7 +40,7 @@ Domine o editor de personalização para criar conteúdo personalizado para emai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Noções básicas sobre a sintaxe de personalização
 
@@ -60,7 +60,7 @@ Aproveite os fragmentos de expressão reutilizáveis para uma personalização e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
 
 Usar dados da Adobe Experience Platform para personalização (Beta)
 
@@ -70,7 +70,7 @@ Saiba como usar conjuntos de dados da AEP com a função auxiliar “datasetLook
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
 
 Guia de referência de funções auxiliares
 

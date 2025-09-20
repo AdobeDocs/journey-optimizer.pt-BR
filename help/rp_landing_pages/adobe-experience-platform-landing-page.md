@@ -20,7 +20,7 @@ A Adobe Experience Platform serve de base para fornecer experiências do cliente
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Usar a função inAudience
 

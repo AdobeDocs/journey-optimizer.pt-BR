@@ -20,7 +20,7 @@ A criação de conteúdo no Adobe Journey Optimizer envolve criar experiências 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Usar componentes de conteúdo
 
@@ -40,7 +40,7 @@ Descubra como criar fragmentos reutilizáveis para simplificar o design de email
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Adicionar links e rastrear mensagens
 
@@ -50,7 +50,7 @@ Habilite o rastreamento, insira links e gerencie a aparência dos links para oti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Inserir ofertas personalizadas
 
@@ -60,7 +60,7 @@ Use a gestão de decisões para exibir dinamicamente ofertas personalizadas feit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=pt-BR)
 
 Gerar versão em texto
 
@@ -70,7 +70,7 @@ Crie e personalize a versão em texto sem formatação do seu email para destina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Adicionar metadados
 

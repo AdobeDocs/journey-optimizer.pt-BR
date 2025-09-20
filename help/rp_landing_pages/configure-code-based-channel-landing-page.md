@@ -30,7 +30,7 @@ Saiba mais sobre os pré-requisitos para usar experiências baseadas em código,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Superfícies da experiência baseada em código
 
@@ -50,7 +50,7 @@ Obtenha orientação passo a passo para implementar experiências baseadas em c�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Decisão sobre implementações de experiências baseadas em código
 
@@ -60,7 +60,7 @@ Saiba como configurar a desduplicação e gerenciar solicitações de decisão e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Criar configuração de experiência baseada em código
 

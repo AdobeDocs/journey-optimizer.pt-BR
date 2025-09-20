@@ -30,7 +30,7 @@ Saiba como criar e gerenciar campanhas de ação, incluindo propriedades, açõe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Definir as propriedades da campanha de ação
 
@@ -60,7 +60,7 @@ Use o direcionamento e a experimentação para maximizar o engajamento e criar c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=pt-BR)
 
 Editar conteúdo da campanha
 
@@ -70,7 +70,7 @@ Projete, teste e configure conteúdo para suas campanhas de ação em vários ca
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR)
 
 Definir público-alvo da campanha
 

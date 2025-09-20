@@ -20,7 +20,7 @@ O controle de acesso do Adobe Journey Optimizer permite que os administradores g
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao controle de acesso
 
@@ -50,7 +50,7 @@ Descubra as funções predefinidas e as permissões associadas a elas para geren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Permissões integradas
 
@@ -60,7 +60,7 @@ Entenda as permissões disponíveis e suas funcionalidades para configurar o con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Níveis de permissão
 

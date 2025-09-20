@@ -30,7 +30,7 @@ Saiba como gerenciar a privacidade no Adobe Journey Optimizer e na Adobe Experie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Gerenciar solicitações de privacidade
 
