@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 085afa8223330bf695167d6d203d3c44948910ac
+source-git-commit: 0c27f2cec8200e6f65c22caec560dbea5bc80042
 workflow-type: tm+mt
-source-wordcount: '3072'
-ht-degree: 67%
+source-wordcount: '3097'
+ht-degree: 66%
 
 ---
 
@@ -532,6 +532,8 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
    * **Suporte a atributos personalizados com URL de cancelar assinatura com um clique**: com o Journey Optimizer, se estiver gerenciando consentimento fora da Adobe, você poderá configurar um ponto de acesso externo personalizado definindo seu próprio link de cancelamento de inscrição com um clique na configuração do email. Quando os destinatários clicam no link de cancelar assinatura, o Journey Optimizer anexa alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento.
 
      Para personalizar ainda mais o link de cancelamento de assinatura com um clique, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento. [Leia mais](../email/list-unsubscribe.md#custom-attributes)
+
+   * **Solicitações de cancelamento de inscrição com um clique** - Introduzimos melhorias que fortalecem ainda mais a manipulação de solicitações de cancelamento de inscrição com um clique configuradas no Adobe Managed, garantindo um processamento confiável e consistente.
 
 * **Conjuntos de dados**
 
