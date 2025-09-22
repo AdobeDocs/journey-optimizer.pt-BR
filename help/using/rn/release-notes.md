@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a05d7e022a0b154848405a6b5d27d399a24161db
+source-git-commit: 085afa8223330bf695167d6d203d3c44948910ac
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3072'
 ht-degree: 67%
 
 ---
@@ -258,8 +258,9 @@ Adição de uma opção ao criar ou definir a Política de aprovação para impe
 * **Suporte mTLS para Canal SMS**
 Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar a autenticação TLS mútua (mTLS), que requer que o cliente e o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida.
 
-* **Esquemas baseados em modelo**\
-  Para obter uma experiência mais clara e intuitiva, os Esquemas relacionais agora são chamados de Esquemas baseados em modelo em campanhas orquestradas.
+<!--* **Model-based Schemas**  
+  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
+-->
 
 * **Suporte à pesquisa de conjunto de dados no jornada**\
   Uma nova atividade no jornada, **Pesquisa de conjunto de dados**, permite recuperar dinamicamente dados de conjuntos de dados de registros Adobe Experience Platform durante o tempo de execução. Ao aproveitar esse recurso, você pode acessar dados que podem não residir no perfil ou na carga do evento, garantindo que as interações do cliente sejam relevantes e oportunas.
