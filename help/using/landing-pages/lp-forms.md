@@ -11,10 +11,11 @@ keywords: landing page, landing page, criação, página, formulário
 badge: label="Disponibilidade limitada" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: 67283fe92282ce23c97c29fa2c0ad78132cc184a
+exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
+source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1137'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +33,7 @@ Para capturar dados de perfil com suas páginas de aterrissagem do [!DNL Journey
 >id="ajo_lp_form_connection"
 >title="Selecione o endpoint a ser usado"
 >abstract="Defina o ponto de encerramento da transmissão para onde os dados são enviados ao enviar o formulário."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Criar uma conexão de transmissão da API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Criar uma conexão de transmissão da API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +69,7 @@ Ao criar uma predefinição:
 
    >[!NOTE]
    >
-   >Saiba mais sobre como criar uma conexão de origem de streaming na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Saiba mais sobre como criar uma conexão de origem de streaming na [documentação do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. Você pode digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
 
@@ -90,7 +91,7 @@ Todos os formulários existentes são exibidos. Você pode filtrar formulários 
 >id="ajo_lp_form_preset"
 >title="Selecionar uma predefinição"
 >abstract="Escolha uma predefinição predefinida que contenha a conexão a ser usada e um conjunto de dados predefinido para seu formulário."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Criação de uma predefinição de formulário"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Criação de uma predefinição de formulário"
 
 Para criar um formulário, siga as etapas abaixo.
 
