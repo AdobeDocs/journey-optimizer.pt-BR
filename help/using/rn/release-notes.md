@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c27f2cec8200e6f65c22caec560dbea5bc80042
+source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
 workflow-type: tm+mt
 source-wordcount: '3097'
 ht-degree: 66%
@@ -292,6 +292,8 @@ Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar
 
 * **Alertas de monitoramento de configuração de canal** - Agora você pode assinar para receber alertas do sistema por email ou na central de notificações da Journey Optimizer, caso ocorra um erro de configuração de canal de email usando o tipo de delegação de subdomínio personalizado. [Leia mais](../reports/alerts.md#alert-dns-record-missing)
 
+* **Solicitações de cancelamento de inscrição com um clique** - Introduzimos melhorias que fortalecem ainda mais a manipulação de solicitações de cancelamento de inscrição com um clique configuradas no Adobe Managed, garantindo um processamento confiável e consistente.
+
 
 ## Notas de versão de agosto de 2025 {#25-8-rn}
 
@@ -532,8 +534,6 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
    * **Suporte a atributos personalizados com URL de cancelar assinatura com um clique**: com o Journey Optimizer, se estiver gerenciando consentimento fora da Adobe, você poderá configurar um ponto de acesso externo personalizado definindo seu próprio link de cancelamento de inscrição com um clique na configuração do email. Quando os destinatários clicam no link de cancelar assinatura, o Journey Optimizer anexa alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento.
 
      Para personalizar ainda mais o link de cancelamento de assinatura com um clique, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento. [Leia mais](../email/list-unsubscribe.md#custom-attributes)
-
-   * **Solicitações de cancelamento de inscrição com um clique** - Introduzimos melhorias que fortalecem ainda mais a manipulação de solicitações de cancelamento de inscrição com um clique configuradas no Adobe Managed, garantindo um processamento confiável e consistente.
 
 * **Conjuntos de dados**
 
