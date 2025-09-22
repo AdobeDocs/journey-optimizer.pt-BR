@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: dcbb83e72377838281e1762bb99230e7fe52ab4c
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1273'
 ht-degree: 30%
 
 ---
@@ -84,7 +84,7 @@ Você pode ativar o bloqueio de conteúdo para um modelo de email diretamente no
 
    ![](assets/template-lock-enable.png)
 
-1. Se você selecionou o modo **[!UICONTROL Bloqueio de conteúdo]**, poderá definir ainda mais como os usuários podem interagir com o modelo. Ative a opção **[!UICONTROL Habilitar edição de conteúdo]** e escolha uma das seguintes opções:
+1. Se você selecionou o modo **[!UICONTROL Bloqueio de conteúdo]**, poderá definir ainda mais como os usuários podem interagir com o modelo. Ative a opção **[!UICONTROL Habilitar adição de conteúdo]** e escolha uma das seguintes opções:
 
    * **[!UICONTROL Permitir adição de estrutura e conteúdo]**: os usuários podem adicionar estruturas entre as existentes e adicionar componentes ou fragmentos de conteúdo em estruturas editáveis.
 
@@ -145,7 +145,7 @@ Para bloquear um componente específico em uma estrutura:
 
    ![](assets/template-lock-component.png)
 
-   * **[!UICONTROL Bloqueio de conteúdo editável somente]**: bloqueia os estilos do componente, mas permite a edição de conteúdo.
+   * **[!UICONTROL Somente conteúdo editável]**: bloqueia os estilos do componente, mas permite a edição de conteúdo.
    * **[!UICONTROL Bloqueado]**: bloqueia totalmente o conteúdo e os estilos do componente.
 
    >[!NOTE]
@@ -169,7 +169,7 @@ No exemplo abaixo, a governança é ativada para o corpo do template. A *Estrutu
 >title="Realçar áreas editáveis"
 >abstract="Dependendo do tipo de bloqueio aplicado ao modelo, você pode executar ações diferentes nas estruturas e nos componentes do modelo. Para identificar rapidamente todas as áreas editáveis no modelo, ative a opção **[!UICONTROL Realçar áreas editáveis]**."
 
-Ao usar um modelo com conteúdo bloqueado, a mensagem **[!UICONTROL Governança habilitada]** é exibida no painel direito.
+Ao usar um modelo com conteúdo bloqueado, uma mensagem é exibida no painel direito.
 
 Dependendo do tipo de bloqueio aplicado ao modelo, você pode executar ações diferentes nas estruturas e nos componentes do modelo. Para identificar rapidamente todas as áreas editáveis no modelo, ative a opção **[!UICONTROL Realçar áreas editáveis]**.
 
@@ -196,4 +196,4 @@ Estes são alguns exemplos de edições de email e as configurações de bloquei
 
 Saiba como bloquear conteúdo em modelos de email.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451612?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

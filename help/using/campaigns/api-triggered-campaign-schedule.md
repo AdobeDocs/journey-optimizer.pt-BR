@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
+source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 1%
@@ -51,4 +51,4 @@ Para definir o controle de taxa, habilite a opção **[!UICONTROL Entrega aceler
 
 ## Próximas etapas {#next}
 
-Quando a configuração e o conteúdo da campanha estiverem prontos, você poderá revisá-los e ativá-los. [Saiba mais](review-activate-campaign.md)
+Quando a configuração e o conteúdo da campanha estiverem prontos, você poderá revisá-los e ativá-los. [Saiba mais](../campaigns/review-activate-api-triggered-campaign.md)

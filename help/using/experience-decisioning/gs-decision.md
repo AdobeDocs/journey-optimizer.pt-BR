@@ -6,26 +6,26 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 9bf642227facd44401a33a1047b53018478ed35a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 20%
+source-wordcount: '287'
+ht-degree: 31%
 
 ---
 
 # Introdução aos recursos de decisão em [!DNL Journey Optimizer] {#gs-decision}
 
-Os recursos de decisão do [!DNL Journey Optimizer] permitem que você forneça as melhores ofertas e experiências personalizadas aos seus clientes em todos os pontos de contato, exatamente nos momentos certos. Esses recursos simplificam a personalização por meio de um catálogo centralizado de ofertas de marketing e um mecanismo de decisão avançado, que usa regras e critérios de classificação para fornecer o conteúdo mais relevante para cada indivíduo.
+Os recursos de decisão do [!DNL Journey Optimizer] permitem que você forneça as melhores ofertas e experiências personalizadas aos seus clientes em todos os pontos de contato, exatamente nos momentos certos. Esses recursos simplificam a personalização por meio de um catálogo centralizado de ofertas de marketing e um mecanismo de decisão avançado, que usa regras e critérios de classificação para fornecer o conteúdo mais relevante para cada pessoa física.
 
 Principais benefícios:
 
 * Melhor desempenho da campanha fornecendo ofertas personalizadas em vários canais,
-* Workflows aprimorados: em vez de criar várias entregas ou campanhas, as equipes de marketing podem aprimorar os workflows criando uma única entrega e variar as ofertas em diferentes partes do modelo,
+* Fluxos de trabalho aprimorados: em vez de criar várias entregas ou campanhas, as equipes de marketing podem aprimorar os fluxos de trabalho criando uma única entrega e variar as ofertas em diferentes partes do modelo,
 * Controle a quantidade de vezes que uma oferta é exibida em campanhas e clientes.
 
 Atualmente, o [!DNL Journey Optimizer] fornece as duas soluções principais detalhadas abaixo.
 
-## Decisão {#decisioning}
+## Tomada de decisão {#decisioning}
 
 ![](assets/gs-decisioning.png)
 
@@ -46,6 +46,6 @@ A decisão é atualmente compatível com o canal de experiência baseado em cód
 
 Nosso recurso estabelecido na Journey Optimizer, a Gestão de decisões, usa uma biblioteca central de ofertas de marketing e um mecanismo de decisão que aplica regras e restrições aos perfis do cliente em tempo real, aproveitando os dados do Adobe Experience Platform para fornecer a oferta certa na hora certa.
 
-Atualmente, o Gerenciamento de decisões é compatível com quatro canais: Email, Mensagens no aplicativo, Notificações por push e SMS.
+O Gerenciamento de decisões é compatível com os seguintes canais: email, mensagens no aplicativo, notificações por push, SMS e correspondência direta.
 
 ➡️ [Introdução ao Gerenciamento de decisão](../offers/get-started/starting-offer-decisioning.md)

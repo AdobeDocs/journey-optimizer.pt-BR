@@ -9,16 +9,16 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 4%
 
 ---
 
 # Revisar e ativar a campanha acionada pela API {#api-review}
 
-Depois que a campanha Action for configurada, é necessário revisar o parâmetro e o conteúdo antes de ativá-la. Para fazer isso, siga estes passos:
+Depois que a campanha acionada pela API for configurada, é necessário revisar o parâmetro e o conteúdo antes de ativá-la. Para fazer isso, siga estes passos:
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,6 @@ Depois que a campanha Action for configurada, é necessário revisar o parâmetr
    O status **[!UICONTROL Concluído]** é atribuído automaticamente à campanha três dias após sua ativação ou na data final da campanha, se ela tiver uma execução recorrente. [Saiba mais sobre os status das campanhas](get-started-with-campaigns.md#statuses).
 
    Se nenhuma data final tiver sido especificada, a campanha manterá o status **[!UICONTROL Ativo]**. Para alterá-la, é necessário interromper a campanha manualmente. [Saiba como interromper uma campanha](manage-campaigns.md)
-
 
 1. Depois que uma campanha é ativada, você pode verificar as informações a qualquer momento abrindo-a. O resumo permite obter estatísticas sobre o número de perfis segmentados e ações entregues e com falha.
 
