@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 001e05db-e343-4a95-9694-274a8c50d08c
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '742'
 ht-degree: 2%
 
 ---
 
 # Práticas recomendadas do Journey Optimizer Experimentation Accelerator {#content-experiment-best-practices}
-
->[!BEGINSHADEBOX]
-
-* [Introdução à Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* **[práticas recomendadas da Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)**
-* [Privacidade, segurança e governança no Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
-* [Monitorar experimentos](experiment-accelerator-monitor.md)
-* [Métricas de experimentação](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 ## O que é teste A/B?
 
@@ -98,11 +87,11 @@ Exemplo: _Acreditamos que alterar X aumentará Y devido a Z._
 Um bom experimento não apenas produz uma vitória, ele produz um aprendizado claro e acionável.
 Veja o que procurar:
 
-&check; **Confiança estatística**: é improvável que a diferença entre as variantes seja devido ao acaso.
-&check; **Alinhamento com metas**: a métrica primária reflete o progresso significativo em direção a um objetivo comercial.
-&check; **Impacto Secundário**: nenhum efeito colateral negativo significativo em métricas relacionadas.
-&check; **Escalabilidade**: o resultado pode informar decisões futuras ou ser generalizado para outras áreas.
-&check; **Clareza**: a causa do resultado é razoavelmente isolada e compreendida.
+&amp;check; **Confiança estatística**: é improvável que a diferença entre as variantes seja devido ao acaso.
+&amp;check; **Alinhamento com metas**: a métrica primária reflete o progresso significativo em direção a um objetivo comercial.
+&amp;check; **Impacto Secundário**: nenhum efeito colateral negativo significativo em métricas relacionadas.
+&amp;check; **Escalabilidade**: o resultado pode informar decisões futuras ou ser generalizado para outras áreas.
+&amp;check; **Clareza**: a causa do resultado é razoavelmente isolada e compreendida.
 
 Experimentação não é apenas encontrar a versão &quot;melhor&quot;, é sobre a construção de conhecimento através de testes e iteração. Quando bem feitos, os experimentos revelam insights que impulsionam decisões mais inteligentes, melhores experiências do usuário e resultados melhores.
 

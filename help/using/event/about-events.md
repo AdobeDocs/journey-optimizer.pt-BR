@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: events, event, jornada, definition, start
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: a766eee95490660b013cae5378903d0ab3001e64
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 47%
+source-wordcount: '1538'
+ht-degree: 33%
 
 ---
 
@@ -72,6 +72,43 @@ Depois de chegar através das APIs de assimilação de streaming, os eventos flu
 
 Para eventos gerados pelo sistema, o Pipeline filtra os eventos que têm uma carga contendo [!DNL Journey Optimizer] eventIDs (consulte o processo de criação de eventos abaixo) fornecidos por [!DNL Journey Optimizer] e contidos na carga do evento. Para eventos baseados em regras, o sistema identifica o evento usando a condição eventID. Esses eventos são acompanhados pelo [!DNL Journey Optimizer] e a jornada correspondente é acionada.
 
+
+## Sobre a taxa de transferência de eventos do Jornada {#event-thoughput}
+
+A Adobe Journey Optimizer oferece suporte a um volume máximo de 5.000 eventos de jornada por segundo em nível de organização, em todas as sandboxes. Esta cota se aplica a todos os eventos usados no jornada ativo, que inclui jornadas do **Live**, **Dry run**, **Closed** e **Paused**. Quando essa cota é atingida, novos eventos são enfileirados com uma taxa de processamento de 5.000 por segundo. O tempo máximo que um evento pode passar na fila é de **24 horas**.
+
+Os seguintes tipos de eventos são contados para a cota de 5.000 TPS:
+
+* **Eventos Unitários Externos**: Inclui eventos com base em regras e gerados pelo sistema. Se o mesmo evento bruto se qualificar para várias definições de regra, cada regra qualificada será contada como um evento separado. Mais detalhes abaixo.
+
+* **Eventos de qualificação de público-alvo**: se o mesmo público-alvo de streaming for usado em várias jornadas, cada uso será contado separadamente. Por exemplo, usar o mesmo público-alvo em uma atividade de qualificação de público-alvo em duas jornadas resulta na contagem de dois eventos.
+
+* **Eventos de reação**: eventos acionados por reações de perfil (email aberto, email clicado, etc.) em uma jornada.
+
+* **Eventos comerciais**: eventos não vinculados a um perfil específico, mas a um evento comercial.
+
+* **Eventos do Analytics**: se a [integração com o Adobe Analytics para acionar o jornada](about-analytics.md) tiver sido habilitada, esses eventos também serão incluídos.
+
+* **Retomar Eventos**: evento técnico disparado quando um perfil é retomado de uma jornada pausada. Saiba mais sobre [retomada de jornadas pausadas](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
+
+* **Eventos de Conclusão do Nó de Espera**: quando um perfil sai de um nó de espera, um evento técnico é gerado para retomar a jornada.
+
+>[!NOTE]
+>
+>Exceto para eventos de espera e retomada, todos os outros tipos de evento também contam para a cota quando usados em jornadas com base em públicos-alvo de leitura.
+
+### Sobre eventos brutos qualificados para várias definições de regras
+
+O mesmo evento bruto pode se qualificar para várias definições de regra no jornada. Quando um evento é configurado na seção **Administração**, para o mesmo esquema de evento, várias regras de evento podem ser definidas. Digamos, por exemplo, que temos um evento de compra que tem os campos city e purchaseValue. Vamos considerar os seguintes cenários:
+
+1. Um evento **E1** chamado `newYorkPurchases` é criado com uma definição de regra informando que `city=='New York'`. Esse evento pode ser usado em 10 jornadas, mas ainda será contado apenas como 1 evento, quando ele vier.
+
+1. Agora, digamos que um evento **E2** chamado `highValuePurchases` com `purchaseValue > 1000` como uma definição de regra também seja criado, no mesmo esquema de evento que **E1**. Nesse caso, o mesmo evento de entrada será avaliado em relação a duas regras: `newYorkPurchases` e `highValuePurchases`. Agora, pode acontecer que uma compra em Nova York também seja uma compra de alto valor.
+
+   Nesse caso, o Journey Optimizer criará dois eventos, **E1** e **E2**, a partir do mesmo evento de entrada, o que fará com que esse único evento de entrada conte como dois eventos.
+
+   Observe que esses eventos começam a ser contados quando são usados em uma jornada ativa, incluindo a jornada **Em tempo real**, **Execução seca**, **Fechada** e **Pausada**.
+
 ## Atualizar e deletar um evento {#update-event}
 
 
@@ -83,8 +120,8 @@ Não é possível excluir nenhum evento usado nas jornadas do **Live**, **Rascun
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431510?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Entenda os casos de uso aplicáveis a eventos de negócios. Saiba como criar uma jornada usando um evento de negócios e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417595?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

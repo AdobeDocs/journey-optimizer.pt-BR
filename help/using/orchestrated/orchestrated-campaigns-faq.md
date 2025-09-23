@@ -5,10 +5,10 @@ title: Perguntas frequentes sobre campanhas orquestradas
 description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orchestrated
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '1430'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Você encontrará abaixo Perguntas frequentes sobre as campanhas do Adobe Journey Optimizer Orchestrated.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ O que é a orquestração de campanhas?
 
@@ -177,13 +177,13 @@ No Campaign Orchestration, nós nos referimos à segmentação ad-hoc como &quot
 
 +++ O Campaign Orchestration acessa apenas dados carregados por lote ou também pode consultar tabelas atualizadas em tempo real (como dados do Analytics)?
 
-O Journey Optimizer Campaign Orchestration pode criar primeiro uma consulta ad-hoc com base em Esquemas relacionais. Os Esquemas Relacionais suportam Origens em Lote somente por enquanto. Além disso, oferece suporte para o recurso Ler público-alvo de qualquer tipo de público-alvo da Adobe Experience Platform.
+O Journey Optimizer Campaign Orchestration pode criar primeiro uma consulta ad-hoc com base em esquemas baseados em modelo. Por enquanto, os esquemas baseados em modelo são compatíveis apenas com origens em lote. Além disso, oferece suporte para o recurso Ler público-alvo de qualquer tipo de público-alvo da Adobe Experience Platform.
 
 +++
 
 +++ As campanhas orquestradas são compatíveis com a tomada de decisão?
 
-Sim. A Decisão pode usar dados relacionais de campanhas orquestradas. Depois que o esquema relacional é conectado aos esquemas XDM, os dados XDM podem ser usados na tomada de decisão.
+Sim. A Decisão pode usar dados relacionais de campanhas orquestradas. Depois que o esquema baseado em modelo é conectado aos esquemas XDM, os dados XDM podem ser usados na tomada de decisão.
 
 +++
 

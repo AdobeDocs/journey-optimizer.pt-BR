@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 98%
+source-wordcount: '2954'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 98%
       + [Pesquisar, filtrar, categorizar](using/start/search-filter-categorize.md)
       + [Acessibilidade](using/start/accessibility.md)
    + [Trabalhar com o Assistente de IA](using/start/ai-assistant.md)
-   + [Manuais de estratégia de casos de uso ](using/start/playbooks.md)
+   + [Manuais de estratégia de casos de uso](using/start/playbooks.md)
    + [Medidas de proteção e limitações](using/start/guardrails.md)
    + [Resolução de problemas](using/start/troubleshooting.md)
 + Jornadas {#orchestrate-journeys}
@@ -235,8 +235,8 @@ ht-degree: 98%
       + [Perguntas frequentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuração de dados {#data-configuration}
          + [Configuração de dados](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Gerenciar esquemas relacionais e conjuntos de dados {#schemas-datasets}
-            + [Gerenciar esquemas e conjuntos de dados relacionais](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Gerenciar esquemas e conjuntos de dados baseados em modelo {#schemas-datasets}
+            + [Gerenciar esquemas e conjuntos de dados baseados em modelo](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Introdução a esquemas e conjuntos de dados](using/orchestrated/gs-schemas.md)
             + [Esquema manual](using/orchestrated/manual-schema.md)
             + [Esquema de upload do arquivo](using/orchestrated/file-upload-schema.md)
@@ -351,7 +351,7 @@ ht-degree: 98%
          + [Novo requisito DMARC](using/configuration/dmarc-record-update.md)
    + Canal no aplicativo {#in-app}
       + [Canal no aplicativo](/help/rp_landing_pages/in-app-landing-page.md)
-      + [Introdução ao aplicativo](using/in-app/get-started-in-app.md)
+      + [Introdução ao canal “In-app”](using/in-app/get-started-in-app.md)
       + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
       + [Criar uma mensagem para o aplicativo móvel](using/in-app/create-in-app.md)
       + [Criar uma mensagem para o aplicativo web](using/in-app/create-in-app-web.md)
@@ -542,19 +542,20 @@ ht-degree: 98%
       + [Criar um provedor de idioma](using/content-management/multilingual-provider.md)
       + [Criação do conteúdo multilíngue com tradução manual](using/content-management/multilingual-manual.md)
       + [Criação do conteúdo multilíngue com tradução automática](using/content-management/multilingual-automated.md)
-   + [Otimização de mensagem](using/campaigns/campaigns-message-optimization.md)
+   + [Otimização de mensagens](using/campaigns/campaigns-message-optimization.md)
    + Experimento de conteúdo {#content-experiment}
       + [Experimento de conteúdo](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introdução ao experimento de conteúdo](using/content-management/get-started-experiment.md)
       + [Criar um experimento de conteúdo](using/content-management/content-experiment.md)
       + Acelerador de experimento {#experiment}
-         + [Introdução ao acelerador de experimentos](using/content-management/experiment-accelerator.md)
-         + [Uso de dados na IA com o Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
+         + [Introdução ao Acelerador de experimento](using/content-management/experiment-accelerator.md)
+         + [Uso de dados na IA com o Acelerador de experimentação](using/content-management/experiment-accelerator-security.md)
          + [Práticas recomendadas do acelerador de experimento](using/content-management/experiment-accelerator-best-practices.md)
          + [Monitor do acelerador de experimento](using/content-management/experiment-accelerator-monitor.md)
          + [Métricas do acelerador de experimento](using/content-management/experiment-accelerator-metrics.md)
       + Notas técnicas {#technotes}
          + [Notas técnicas](/help/rp_landing_pages/technotes-landing-page.md)
+         + [Teste A/B versus Multi-armed bandit](using/content-management/mab-vs-ab.md)
          + [Compreenda cálculos estatísticos](using/content-management/experiment-calculations.md)
          + [Compreenda cálculos estatísticos no Relatório de experimentação](using/content-management/experiment-report-calculations.md)
 + Públicos-alvo, perfis e identidade {#audiences-profiles-identities}

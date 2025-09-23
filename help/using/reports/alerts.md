@@ -8,19 +8,18 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
+source-git-commit: 21adeb5128b22bf7b2e7e6c2cff9c31159741cee
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
 
 # Acessar e assinar alertas do sistema {#alerts}
 
-Ao criar jornadas e campanhas, use o botão **Alertas** para verificar e resolver erros antes de executá-los ou publicá-los:
+Ao criar jornadas e campanhas, use o botão **Alertas** para verificar e resolver erros antes de executá-los ou publicá-los.
 
-* Saiba como solucionar problemas das jornadas nesta [página](../building-journeys/troubleshooting.md).
-* Saiba como revisar suas campanhas em [esta página](../campaigns/review-activate-campaign.md).
+
 
 No menu dedicado **[!UICONTROL Alertas]**, você também pode assinar alertas do sistema [!DNL Adobe Journey Optimizer], conforme detalhado nesta página.
 
@@ -42,18 +41,34 @@ Eles são listados a seguir e cada alerta é detalhado abaixo.
 
    * o alerta [Falha da Ação Personalizada de Jornada](#alert-custom-actions)
    * o alerta [Acionador de Leitura de Público-alvo sem Êxito](#alert-read-audiences)
+<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
+   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
+   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
 
 * Alertas específicos para configuração de canal:
 
    * o alerta [ do registro DNS de domínio do AJO ](#alert-dns-record-missing)está ausente
-  <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
-   * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+   * alerta de [falha na configuração do canal do AJO](#alert-channel-config-failure)
+     <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Assinatura de alertas {#subscribe-alerts}
 
-1. Você pode assinar cada alerta individualmente na interface de usuário selecionando a opção **[!UICONTROL Assinar]**.
+Se ocorrer um comportamento inesperado e/ou se um determinado conjunto de condições em suas operações for atingido (como um problema em potencial quando o sistema viola um limite), as notificações de alerta serão entregues a todos os usuários em sua organização que se subscreveram a elas.
 
-   ![](assets/alert-subscribe.png){width=80%}
+É possível assinar cada alerta individualmente na interface do usuário, globalmente a partir do menu **[!UICONTROL Alertas]** (consulte [Assinatura global](#global-subscription))<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->.
+
+Com base nas preferências do assinante, os alertas são enviados por email e/ou diretamente no centro de notificações da Journey Optimizer, no canto superior direito da interface do usuário (notificações no aplicativo). Selecione como você deseja receber esses alertas nas [!DNL Adobe Experience Cloud] **[!UICONTROL Preferências]**. [Saiba mais](../start/user-interface.md#in-product-alerts)
+
+Quando um alerta é resolvido, os assinantes recebem uma notificação &quot;Resolvido&quot;.
+
+
+### Assinatura global {#global-subscription}
+
+Para assinar/cancelar a assinatura de um alerta para todas as jornadas e campanhas, siga estas etapas:
+
+1. Navegue até o painel **[!UICONTROL Alertas]** no menu esquerdo e selecione a opção **[!UICONTROL Assinar]** para o alerta no qual deseja se inscrever.
+
+   ![Assinando um alerta](assets/alert-subscribe.png){width=80%}
 
    >[!NOTE]
    >
@@ -61,37 +76,28 @@ Eles são listados a seguir e cada alerta é detalhado abaixo.
 
 1. Use o mesmo método para **[!UICONTROL Cancelar inscrição]**.
 
-1. Você também pode assinar alertas por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
+Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
 
-1. Se ocorrer um comportamento inesperado e/ou se um determinado conjunto de condições em suas operações for atingido (como um problema em potencial quando o sistema viola um limite), as notificações de alerta serão entregues a todos os usuários em sua organização que se subscreveram a elas.
+<!--DOCAC-13465
+### Unitary subscription {#unitary-subscription}
 
-Com base nas preferências do assinante, os alertas são enviados por email e/ou diretamente no centro de notificações da Journey Optimizer, no canto superior direito da interface do usuário (notificações no aplicativo). Selecione como você deseja receber esses alertas nas [!DNL Adobe Experience Cloud] **[!UICONTROL Preferências]**. [Saiba mais](../start/user-interface.md#in-product-alerts)
+To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 
->[!NOTE]
->
->Por padrão, somente o alerta no aplicativo está ativado.
+1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
+      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
 
-Quando um alerta é resolvido, os assinantes recebem uma notificação &quot;Resolvido&quot;.
+1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
+   
+1. To unsubscribe to an alert, unselect it from the same screen.
 
-## Gerenciar alertas {#manage-alerts}
+1. Click **[!UICONTROL Save]** to confirm.
+-->
 
-Para gerenciar alertas, selecione um item e use o botão **[!UICONTROL Mais ações]**.
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
-![](assets/alert-more-actions.png){width=80%}
 
-Por padrão, todos os alertas são ativados. Para desabilitar um alerta, selecione a opção **[!UICONTROL Desabilitar alerta]** no menu **[!UICONTROL Mais ações]**. Todos os assinantes deste alerta não receberão mais as notificações relacionadas.
 
-Selecione **[!UICONTROL Gerenciar assinantes de alertas]** para ver a lista de usuários que assinaram o alerta. Use o campo em branco para adicionar mais assinantes.
-
-![](assets/alert-subscribers.png){width=80%}
-
-Os possíveis status de alerta estão listados abaixo:
-
-* **[!UICONTROL Habilitado]** - O alerta está habilitado e está monitorando a condição do acionador no momento.
-* **[!UICONTROL Desabilitado]** - O alerta está desabilitado e não está monitorando a condição do acionador no momento. Você não receberá notificações para este alerta.
-* **[!UICONTROL Acionado]** - A condição de acionador do alerta está sendo atendida no momento.
 
 ## Jornada alertas {#journey-alerts}
 
@@ -99,9 +105,12 @@ Os possíveis status de alerta estão listados abaixo:
 >
 >Os alertas específicos do Adobe Journey Optimizer se aplicam somente às jornadas **live**. Os alertas não são acionados para jornadas no modo de teste.
 
+
 ### Falha na ação personalizada de Jornada {#alert-custom-actions}
 
 Esse alerta avisa se uma ação personalizada falhar. Consideramos que houve uma falha em que mais de 1% dos erros ocorreram em uma ação personalizada específica nos últimos 5 minutos. Isso é avaliado a cada 30 segundos.
+
+Clique no nome do alerta para verificar os detalhes e a configuração do alerta.
 
 ![](assets/alerts-custom-action.png)
 
@@ -144,6 +153,26 @@ Para solucionar problemas de alertas do **Ler público-alvo**, verifique sua con
 ![](assets/alert-troubleshooting-0.png)
 
 ![](assets/alert-troubleshooting-1.png)
+
+<!--DOCAC-13465
+
+### Profile Discard Rate Exceeded {#alert-discard-rate}
+
+This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+Click the name of the alert to check the alert details and configuration.
+
+
+### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+
+This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+### Profile Error Rate Exceeded {#alert-profile-error-rate}
+
+This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+Click the name of the alert to check the alert details and configuration.
+-->
 
 ## Alertas de configuração {#configuration-alerts}
 
@@ -220,7 +249,61 @@ Ao resolver problemas de configuração de email, lembre-se das práticas recome
 
 This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
 
+## Gerenciar alertas {#manage-alerts}
+
+### Editar um alerta
+
+Você pode verificar os detalhes de um alerta clicando na linha correspondente. Os canais de nome, status e notificação são exibidos no painel esquerdo.
+<!--DOCAC-13465
+For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+
+![](assets/alert-more-actions.png){width=60%}
+
+<!--DOCAC-13465
+#### Define a custom threshold {#custom-threshold}
+
+You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+
+To change the threshold:
+
+1. Browse to the **Alerts** screen
+1. Click the **[!UICONTROL More actions]** button of the alert to update
+1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
 
 
+![](assets/alert-threshold.png){width=60%}
+
+>[!CAUTION]
+>
+>The threshold levels are global across all journeys and cannot be individually modified per journey.
+-->
+
+### Desativar um alerta
+
+Por padrão, todos os alertas são ativados. Para desabilitar um alerta, selecione a opção **[!UICONTROL Desabilitar alerta]**: todos os assinantes deste alerta não receberão mais as notificações relacionadas.
 
 
+### Status de alerta
+
+Os possíveis status de alerta estão listados abaixo:
+
+* **[!UICONTROL Habilitado]** - O alerta está habilitado e está monitorando a condição do acionador no momento.
+* **[!UICONTROL Desabilitado]** - O alerta está desabilitado e não está monitorando a condição do acionador no momento. Você não receberá notificações para este alerta.
+* **[!UICONTROL Acionado]** - A condição de acionador do alerta está sendo atendida no momento.
+
+
+### Exibir e atualizar assinantes {#manage-subscribers}
+
+Selecione **[!UICONTROL Gerenciar assinantes de alertas]** para ver a lista de usuários que assinaram o alerta.
+
+![](assets/alert-subscribers.png){width=80%}
+
+Para adicionar mais assinantes, insira seus emails separados por vírgula e selecione **[!UICONTROL Atualizar]**.
+
+Para remover os assinantes, exclua seus endereços de email dos assinantes atuais e selecione **[!UICONTROL Atualizar]**.
+
+## Recursos adicionais {#additional-resources-alerts}
+
+
+* Saiba como solucionar problemas das jornadas nesta [página](../building-journeys/troubleshooting.md).
+* Saiba como revisar suas campanhas em [esta página](../campaigns/review-activate-campaign.md).

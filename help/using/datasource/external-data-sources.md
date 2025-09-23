@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: 4d979ccc421221993a752dd41bc22ea3d83e7555
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 36%
+source-wordcount: '1647'
+ht-degree: 37%
 
 ---
 
@@ -272,4 +272,4 @@ Este é um exemplo da resposta da chamada de API de logon:
 
 >[!CAUTION]
 >
->Ao configurar a autenticação personalizada para uma ação personalizada, observe que objetos JSON aninhados (por exemplo, sub-objetos dentro de `bodyParams`) atualmente **não são suportados**. Somente pares de valores chave simples serão incluídos na carga da solicitação final. Se o endpoint de autenticação exigir objetos aninhados, isso poderá resultar em campos ausentes e falhas de autenticação.
+>Ao configurar a autenticação personalizada para uma ação personalizada, observe que objetos JSON aninhados (por exemplo, sub-objetos dentro de `bodyParams`) são **suportados**.

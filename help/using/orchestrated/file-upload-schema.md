@@ -2,32 +2,32 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Etapas de configuração
-description: Saiba como criar um esquema relacional no Adobe Experience Platform fazendo upload de uma DDL
+description: Saiba como criar um esquema baseado em modelo no Adobe Experience Platform fazendo upload de uma DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 52%
+source-wordcount: '1043'
+ht-degree: 50%
 
 ---
 
 
-# Criar esquemas relacionais usando um arquivo DDL {#file-upload-schema}
+# Criar esquemas baseados em modelo usando um arquivo DDL {#file-upload-schema}
 
-Defina o modelo de dados relacionais necessário para campanhas orquestradas, criando esquemas como **Associações de Fidelidade**, **Transações de Fidelidade** e **Recompensas de Fidelidade**. Cada esquema deve incluir uma chave primária, um atributo de controle de versão e relações apropriadas com entidades de referência, como **Destinatários** ou **Marcas**.
+Defina o modelo de dados baseado em modelo necessário para campanhas orquestradas, criando esquemas como **Associações de Fidelidade**, **Transações de Fidelidade** e **Recompensas de Fidelidade**. Cada esquema deve incluir uma chave primária, um atributo de controle de versão e relações apropriadas com entidades de referência, como **Destinatários** ou **Marcas**.
 
 Os esquemas podem ser criados manualmente por meio da interface ou importados em massa usando um arquivo DDL.
 
-Esta seção apresenta um passo a passo de como criar um esquema relacional na Adobe Experience Platform por meio do upload de um arquivo de linguagem de definição de dados (DDL, na sigla em inglês). Usar um arquivo DDL permite definir a estrutura do modelo de dados com antecedência, incluindo tabelas, atributos, chaves e relacionamentos.
+Esta seção fornece orientação passo a passo sobre como criar um esquema baseado em modelo no Adobe Experience Platform fazendo upload de um arquivo DDL (Data Definition Language). Usar um arquivo DDL permite definir a estrutura do modelo de dados com antecedência, incluindo tabelas, atributos, chaves e relacionamentos.
 
-1. [Carregue um arquivo DDL](#ddl-upload) para criar esquemas relacionais e definir sua estrutura.
+1. [Carregue um arquivo DDL](#ddl-upload) para criar esquemas baseados em modelo e definir sua estrutura.
 
 1. [Definir relações](#relationships) entre tabelas no modelo de dados.
 
-1. [Vincular esquemas](#link-schema) para conectar seus dados relacionais a entidades de perfil existentes, como Destinatários ou Marcas.
+1. [Vincule esquemas](#link-schema) para conectar seus dados baseados em modelo a entidades de perfil existentes, como Destinatários ou Marcas.
 
-1. [Assimilar dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
+1. [Assimile dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
 
 ## Fazer upload de um arquivo DDL{#ddl-upload}
 
@@ -35,7 +35,7 @@ Ao fazer upload de um arquivo DDL, você pode definir a estrutura do modelo de d
 
 Os uploads de arquivo de esquema baseados em Excel são compatíveis. Baixe o [modelo fornecido](assets/template.zip) para preparar facilmente as definições do esquema.
 
-+++Os seguintes recursos são suportados ao criar esquemas relacionais no Adobe Experience Platform
++++Os seguintes recursos são compatíveis ao criar esquemas baseados em modelo no Adobe Experience Platform
 
 * **ENUMERAÇÃO**\
   Os campos ENUM são suportados na criação de esquema manual e baseado em DDL, permitindo que você defina atributos com um conjunto fixo de valores permitidos.
@@ -57,7 +57,7 @@ Exemplo:
   A rotulagem é compatível no nível do campo de esquema para aplicar políticas de governança de dados, como controle de acesso e restrições de uso. Para obter mais detalhes, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
 
 * **Chave Composta**\
-  As chaves primárias compostas são suportadas em definições de esquema relacional, permitindo o uso de vários campos juntos para identificar registros de forma exclusiva.
+  As chaves primárias compostas são compatíveis com definições de esquema baseadas em modelo, permitindo o uso de vários campos juntos para identificar registros de forma exclusiva.
 
 +++
 
@@ -67,7 +67,7 @@ Exemplo:
 
 1. Clique em **Criar Esquema**.
 
-1. Selecione **[!UICONTROL Relacional]** como seu **Tipo de esquema**.
+1. Selecione **[!UICONTROL Baseado em modelo]** como seu **Tipo de esquema**.
 
    ![](assets/admin_schema_1.png)
 
@@ -155,7 +155,7 @@ Para definir conexões lógicas entre tabelas no esquema, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Abrir trabalhos]** para monitorar o progresso da tarefa de criação. Esse processo pode levar alguns minutos, dependendo do número de tabelas definidas no arquivo DDL.
 
-   Você também pode acessar seus trabalhos relacionais abrindo a janela **[!UICONTROL Carregar arquivo DDL]** e selecionando **[!UICONTROL Exibir todos os Trabalhos relacionais]**.
+   Você também pode acessar seus trabalhos de importação de DDL abrindo a janela **[!UICONTROL Carregar arquivo DDL]** e selecionando **[!UICONTROL Exibir todos os trabalhos de importação de DDL]**.
 
    ![](assets/admin_schema_4.png)
 

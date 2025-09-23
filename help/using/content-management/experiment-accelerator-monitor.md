@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 40a57083-d7b1-416b-af87-4b603b83052d
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # Acompanhe seus experimentos {#monitor}
-
->[!BEGINSHADEBOX]
-
-* [Introdução à Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* [Uso de dados na IA com o Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
-* [Práticas recomendadas do Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
-* **[Monitorar experimentos](experiment-accelerator-monitor.md)**
-* [Métricas de experimentação](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 A guia **[!UICONTROL Experimentos]** centraliza o rastreamento e a análise de testes do Adobe Journey Optimizer e do Adobe Target. Você pode exibir todos os experimentos, revisar KPIs e filtrar ou pesquisar para localizar testes específicos.
 
@@ -158,7 +147,7 @@ Observe que para que as oportunidades de Experimento sejam geradas, primeiro é 
 
    Para experimentos originados de **[!DNL Adobe Target]**, as alterações sugeridas serão carregadas no fluxo de trabalho de experimentação de **[!DNL Adobe Target]**.
 
-   ➡️ [Saiba mais na documentação do Adobe Target](https://experienceleague.adobe.com/pt-br/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Saiba mais na documentação do Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. Na exibição de experimento, as mesmas **[!UICONTROL Oportunidades de experimentação]** da IA apresentadas pela Journey Optimizer Experimentation Accelerator são acessíveis.
 

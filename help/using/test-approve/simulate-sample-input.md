@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: 03b22446ee06b5a6c20145c4b9abed95ac24e8bb
+source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '956'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,10 @@ Todos os atributos usados em seu conteúdo para personalização são detectados
 
 Antes de começar a testar seu conteúdo usando exemplos de dados de entrada, considere as seguintes medidas de proteção e pré-requisitos.
 
-* **Canais** - A simulação de variações de conteúdo só está disponível para os canais de email, SMS e notificação por push.
+* **Canais** - A simulação de variações de conteúdo está disponível para:
+
+   * Os canais de email, SMS e notificação por push;
+   * todos os canais de entrada (Web, experiência baseada em código, no aplicativo, cartões de Conteúdo).
 
 * **Recursos com suporte** - As variações de conteúdo podem ser usadas com [!DNL Journey Optimizer] recursos de conteúdo multilíngue e experimentos de conteúdo. Isso permite testar mensagens em vários idiomas e otimizar o conteúdo por meio de experimentação.
 
@@ -42,7 +45,7 @@ Antes de começar a testar seu conteúdo usando exemplos de dados de entrada, co
 
   >[!NOTE]
   >
-  >Por enquanto, a renderização da caixa de entrada e os relatórios de spam não estão disponíveis na experiência atual:. Para usar esses recursos, selecione o botão **[!UICONTROL Simular conteúdo]** no seu conteúdo para acessar a interface de usuário anterior.
+  >Por enquanto, a renderização da caixa de entrada e os relatórios de spam não estão disponíveis na experiência atual. Para usar esses recursos, selecione o botão **[!UICONTROL Simular conteúdo]** no seu conteúdo para acessar a interface de usuário anterior.
 
 * **Atributos** - Há suporte para atributos de perfil e contextuais.
 

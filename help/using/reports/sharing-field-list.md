@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 10%
+source-wordcount: '601'
+ht-degree: 9%
 
 ---
 
@@ -77,11 +77,11 @@ Saiba mais sobre eventTypes [nesta seção](#discarded-events).
 Esta categoria contém os campos de evento de etapa originais. Consulte esta [seção](../reports/sharing-legacy-fields.md).
 
 
-## Solução de problemas de tipos de eventos descartados em jornada_step_events  {#discarded-events}
+## Solução de problemas de tipos de evento descartados em eventos de etapa do Jornada  {#discarded-events}
 
-Ao consultar jornada_step_events para registros com `eventCode = 'discard'`, você pode encontrar vários eventTypes.
+Ao consultar eventos de etapa de jornada para registros com `eventCode = 'discard'`, você pode encontrar vários eventTypes.
 
-Abaixo estão definições, causas comuns e etapas de solução de problemas para os eventTypes de descarte mais frequentes:
+Abaixo estão definições, causas comuns e etapas de solução de problemas para o descarte mais frequente `eventTypes`:
 
 * EXTERNAL_KEY_COMPUTATION_ERROR: o sistema não pôde calcular um identificador exclusivo (chave externa) para o cliente a partir dos dados do evento.
 Causas comuns: identificadores de clientes ausentes ou malformados (por exemplo, email, ID do cliente) na carga do evento.
