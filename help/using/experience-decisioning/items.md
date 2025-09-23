@@ -79,7 +79,7 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="Adicionar públicos-alvo ou regras de decisão"
->abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos.
+>abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
 
 <!--
 >"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
