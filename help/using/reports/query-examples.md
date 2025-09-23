@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1554'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,8 @@ AND _experience.journeyOrchestration.stepEvents.nodeType='start'
 AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
+Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
@@ -473,6 +475,9 @@ ORDER BY DATE(timestamp) desc
 ```
 
 O query retorna, para o período definido, o número de perfis que entraram na jornada a cada dia. Se um perfil inserido por meio de várias identidades, ele será contado duas vezes. Se a reentrada estiver ativada, a contagem de perfis poderá ser duplicada em dias diferentes se ela entrar novamente na jornada em dias diferentes.
+
+Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step_events](../reports/sharing-field-list.md#discarded-events).
+
 
 +++
 
@@ -969,6 +974,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
+Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step_events](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 +++Verifique se um evento externo de um perfil foi descartado por qualquer outro motivo
@@ -997,6 +1004,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
+Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step_events](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 +++Verifique a contagem de todos os eventos descartados por stateMachine por errorCode
@@ -1016,6 +1025,8 @@ SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, CO
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
+
+Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
@@ -1043,6 +1054,8 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
+Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step_events](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 ## Consultas comuns baseadas em jornada {#journey-based-queries}
@@ -1068,6 +1081,7 @@ ORDER BY DATE(timestamp) desc
 ```
 
 A consulta retorna, para o período definido, a contagem de jornadas exclusivas que são acionadas a cada dia. Um único acionamento de jornada em vários dias será contado uma vez por dia.
+
 
 +++
 
