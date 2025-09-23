@@ -147,7 +147,7 @@ Observe que para que as oportunidades de Experimento sejam geradas, primeiro é 
 
    Para experimentos originados de **[!DNL Adobe Target]**, as alterações sugeridas serão carregadas no fluxo de trabalho de experimentação de **[!DNL Adobe Target]**.
 
-   ➡️ [Saiba mais na documentação do Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Saiba mais na documentação do Adobe Target](https://experienceleague.adobe.com/pt-br/docs/target/using/activities/abtest/test-ab)
 
 1. Na exibição de experimento, as mesmas **[!UICONTROL Oportunidades de experimentação]** da IA apresentadas pela Journey Optimizer Experimentation Accelerator são acessíveis.
 
