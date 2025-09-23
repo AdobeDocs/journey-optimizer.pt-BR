@@ -5,9 +5,9 @@ title: Perguntas frequentes sobre campanhas orquestradas
 description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orchestrated
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f82e725b58dbb2fdea70455a203d83b13b0e4a2b
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1430'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Você encontrará abaixo Perguntas frequentes sobre as campanhas do Adobe Journey Optimizer Orchestrated.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ O que é a orquestração de campanhas?
 
@@ -253,11 +253,11 @@ As campanhas orquestradas são compatíveis com Filtros predefinidos: é possív
 +++
 
 
+## Recursos adicionais
 
+Para obter mais informações e atualizações, explore os seguintes recursos:
 
->[!MORELIKETHIS]
->
->* [Medidas de proteção e limitações para campanhas orquestradas](../orchestrated/guardrails.md)
->* [Introdução a esquemas e conjuntos de dados em campanhas orquestradas](../orchestrated/gs-schemas.md)
->* [Crie sua primeira campanha orquestrada](../orchestrated/gs-campaign-creation.md)
->* [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Medidas de proteção e limitações para campanhas orquestradas](../orchestrated/guardrails.md)
+* [Introdução a esquemas e conjuntos de dados em campanhas orquestradas](../orchestrated/gs-schemas.md)
+* [Crie sua primeira campanha orquestrada](../orchestrated/gs-campaign-creation.md)
+* [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
