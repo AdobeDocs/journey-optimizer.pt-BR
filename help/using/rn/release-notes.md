@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
+source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
 workflow-type: tm+mt
-source-wordcount: '3097'
+source-wordcount: '3111'
 ht-degree: 66%
 
 ---
@@ -237,7 +237,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 
 * **Permissões de política de aprovação**
 Adição de uma opção ao criar ou definir a Política de aprovação para impedir que os criadores de Jornadas/campanhas aprovem seus próprios objetos.
-
+<!-->
 * **Novos Alertas de Jornada**\
   Novos alertas pré-configurados estão disponíveis para jornada:
 
@@ -246,6 +246,7 @@ Adição de uma opção ao criar ou definir a Política de aprovação para impe
    * Taxa de erro de perfil excedida: Taxa de perfis com erro em relação aos perfis inseridos nos últimos 5 minutos excedeu o limite.
 
   Você pode modificar valores de limite e assinar alertas individuais em nível de jornada em comparação com os alertas globais.
+-->
 
 * **Parâmetros de corpo JSON aninhados agora têm suporte na autenticação personalizada**\
   Ao configurar a autenticação personalizada para uma ação personalizada, objetos JSON aninhados (por exemplo, subobjetos em `bodyParams`) agora são suportados.
@@ -258,9 +259,9 @@ Adição de uma opção ao criar ou definir a Política de aprovação para impe
 * **Suporte mTLS para Canal SMS**
 Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar a autenticação TLS mútua (mTLS), que requer que o cliente e o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida.
 
-<!--* **Model-based Schemas**  
-  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
--->
+
+* **Esquemas baseados em modelo**\
+  Os Esquemas relacionais agora são chamados de Esquemas baseados em modelo em campanhas orquestradas.
 
 * **Suporte à pesquisa de conjunto de dados no jornada**\
   Uma nova atividade no jornada, **Pesquisa de conjunto de dados**, permite recuperar dinamicamente dados de conjuntos de dados de registros Adobe Experience Platform durante o tempo de execução. Ao aproveitar esse recurso, você pode acessar dados que podem não residir no perfil ou na carga do evento, garantindo que as interações do cliente sejam relevantes e oportunas.
