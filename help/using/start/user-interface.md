@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
 workflow-type: tm+mt
 source-wordcount: '1807'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Os principais conceitos de navegação nas interfaces comuns à Adobe Experience
 
 >[!NOTE]
 >
->* Os componentes e recursos disponíveis em seu ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
+>* Os componentes e recursos disponíveis no ambiente dependem de suas [permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
 >
 >* Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
 >
@@ -211,7 +211,7 @@ A interface está disponível nos seguintes idiomas:
 * Francês
 * Alemão
 * Italiano
-* Espanhol
+* espanhol
 * Português (Brasil)
 * Japonês
 * Coreano
@@ -361,4 +361,4 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Atividade de pesquisa do conjunto de dados"
->abstract="A atividade **[!UICONTROL Pesquisa de conjunto de dados]** permite recuperar dados dinamicamente dos conjuntos de dados de registro do Adobe Experience Platform durante o tempo de execução. Ao aproveitar esse recurso, você pode acessar dados que podem não residir no perfil ou na carga do evento, garantindo que as interações do cliente sejam relevantes e oportunas."
+>abstract="A atividade **[!UICONTROL Pesquisa de conjunto de dados]** permite recuperar dados dinamicamente dos conjuntos de dados de registro da Adobe Experience Platform durante o tempo de execução. Esse recurso permite acessar dados que podem não residir no perfil ou no conteúdo do evento, garantindo que as interações do cliente sejam relevantes e oportunas."

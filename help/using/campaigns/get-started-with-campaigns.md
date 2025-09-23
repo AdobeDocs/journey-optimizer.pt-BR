@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -56,17 +56,17 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campanha"
->abstract="Selecione o tipo de campanha. Os canais disponíveis variam de acordo com o tipo selecionado. <br>**Campanhas agendadas** (Campanhas de ação) - Ideal para comunicações em lote simples e únicas que você pode agendar para execução em um horário específico.<br>**Campanhas acionadas por API** - Ativadas por meio de uma chamada de API, permitindo o envio automatizado de mensagens baseadas em eventos diretamente de sistemas externos.<br>**Campanhas orquestradas** - Forneça uma tela visual de arrastar e soltar para projetar e automatizar fluxos de trabalho de marketing complexos, com várias etapas, desde a segmentação de público até a entrega personalizada de mensagens entre canais."
+>abstract="Selecione o tipo de campanha. Os canais disponíveis variam de acordo com o tipo selecionado. <br>**Campanhas agendadas** (campanhas de ação): ideais para comunicações em lote simples e únicas que você pode agendar para execução em um horário específico.<br>**Campanhas acionadas por API**: ativadas por meio de uma chamada de API, permitindo o envio automatizado de mensagens baseadas em eventos diretamente de sistemas externos.<br>**Campanhas orquestradas**: fornece uma tela visual com interface de arrastar e soltar para projetar e automatizar fluxos de trabalho de marketing complexos e com várias etapas, desde a segmentação de público-alvo até a entrega personalizada de mensagens entre canais."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campanhas"
->abstract="Crie seu fluxo de segmentação, crie suas mensagens entre canais e planeje suas campanhas. Canais compatíveis: email, SMS, notificação por push."
+>abstract="Crie um fluxo de segmentação, crie mensagens entre canais e planeje as campanhas. Canais compatíveis: email, SMS, notificação por push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
 >title="Campanhas"
->abstract="Envie entregas de saída individuais ou recorrentes, ou ações de entrada em andamento."
+>abstract="Envie entregas de saída individuais ou recorrentes, ou ações de entrada contínuas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
@@ -87,21 +87,21 @@ Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a u
 
 ![](assets/gs-campaigns.png)
 
-Você pode criar diferentes tipos de campanhas no Journey Optimizer. Os canais e casos de uso compatíveis variam dependendo do tipo de campanha. Esses tipos estão listados abaixo.
+É possível criar diferentes tipos de campanhas no Journey Optimizer. Os canais e casos de uso compatíveis variam de acordo com o tipo de campanha. Esses tipos estão listados abaixo.
 
 * **Campanhas de ação**
 
-  As campanhas de ação (ou campanhas programadas) permitem comunicações em lote ad hoc simples para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, anúncios, avisos legais ou atualizações de políticas. Saiba mais sobre os recursos das campanhas de ação, casos de uso e canais com suporte [nesta página](create-campaign.md).
+  As campanhas de ação (ou campanhas programadas) permitem criar comunicações ad-hoc simples em lote para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, comunicados, avisos legais ou atualizações de políticas. Saiba mais sobre os recursos das campanhas de ação, casos de uso e canais com suporte [nesta página](create-campaign.md).
 
 * **Campanhas acionadas por API**
 
-  As campanhas acionadas por API permitem que as comunicações de marketing alcancem um público-alvo na hora certa ou mensagens transacionais/operacionais para um indivíduo, como uma redefinição de senha, em que a necessidade pode envolver a personalização não apenas usando o atributo de perfil, mas também os dados de contexto em tempo real no acionador, que é uma carga de API REST. Saiba mais sobre recursos de campanhas acionadas por API, casos de uso e canais com suporte [nesta página](api-triggered-campaigns.md).
+  Campanhas acionadas por API permitem que as comunicações de marketing alcancem um público-alvo na hora certa ou que mensagens transacionais/operacionais cheguem a uma pessoa física específica, como uma redefinição de senha; nesses casos, a necessidade pode envolver a personalização, exigindo não apenas o atributo de perfil, mas também os dados de contexto em tempo real no acionador, que é um conteúdo da API REST. Saiba mais sobre recursos de campanhas acionadas por API, casos de uso e canais com suporte [nesta página](api-triggered-campaigns.md).
 
 * **Campanhas orquestradas**
 
   A orquestração de campanhas no Adobe Journey Optimizer permite a criação de campanhas de marketing sofisticadas e iniciadas pela marca em todos os canais, ajudando a impulsionar o engajamento, a receita e a fidelidade do cliente em grande escala.
 
-  Embora o marketing entre canais seja essencial, as campanhas orquestradas permitem que ele flua melhor. Com uma interface visual do tipo arrastar e soltar, você pode projetar e automatizar fluxos de trabalho de marketing complexos, desde a segmentação até a entrega de mensagens, em vários canais. Tudo acontece em um ambiente intuitivo, criado para oferecer velocidade, controle e eficiência. Saiba mais sobre os recursos de Campanhas orquestradas, casos de uso e canais suportados [nesta página](../orchestrated/gs-orchestrated-campaigns.md).
+  Embora o marketing entre canais seja essencial, as campanhas orquestradas permitem que ele flua melhor. Com uma interface visual do tipo arrastar e soltar, você pode projetar e automatizar fluxos de trabalho de marketing complexos, desde a segmentação até a entrega de mensagens, em vários canais. Tudo acontece em um ambiente intuitivo, criado para proporcionar velocidade, controle e eficiência. Saiba mais sobre os recursos de Campanhas orquestradas, casos de uso e canais com suporte [nesta página](../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Pré-requisitos {#prerequisites}
 

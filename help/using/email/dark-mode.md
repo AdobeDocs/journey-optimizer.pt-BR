@@ -12,7 +12,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Alternar para o modo escuro"
->abstract="Alterne para o modo escuro, onde é possível visualizar como ele pode ser renderizado e definir configurações personalizadas específicas. <br>A renderização final depende do cliente de email do destinatário. Observe que todos os clientes de email não são compatíveis com o modo escuro personalizado."
+>abstract="Alterne para o modo escuro, que permite pré-visualizar a renderização e definir configurações personalizadas. <br>A renderização final depende do cliente de email do destinatário. Observe que todos os clientes de email não são compatíveis com o modo escuro personalizado."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
@@ -168,7 +168,7 @@ Here you can see that we have applied a different background, defined another im
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="Usar uma imagem específica para o modo escuro"
->abstract="Você pode selecionar outra imagem a ser exibida quando o modo escuro estiver ativado. <br>A adição de uma imagem específica para o modo escuro não garante sua renderização correta em todos os clientes de email. Observe que todos os clientes de email não são compatíveis com o modo escuro personalizado."
+>abstract="Você pode selecionar outra imagem a ser exibida quando o modo escuro estiver ativado. <br>A adição de uma imagem específica para o modo escuro não garante que ela será renderizada corretamente em todos os clientes de email. Observe que todos os clientes de email não são compatíveis com o modo escuro personalizado."
 
 Depois de alternar para o **[!UICONTROL modo escuro]**, você pode optar por editar elementos de estilo específicos do seu conteúdo, que será exibido somente quando o modo escuro estiver habilitado no cliente de email do destinatário, desde que ele seja compatível com esse recurso.
 

@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
 source-wordcount: '1298'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -165,8 +165,8 @@ Compare uma espera de 24 horas com uma de 72 horas antes de um acompanhamento pa
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
->title="O que é caminho de fallback?"
->abstract="Os caminhos de fallback permitem que o público-alvo insira um caminho alternativo quando nenhuma regra de direcionamento é qualificada. </br>Se você não selecionar essa opção, qualquer público-alvo que não se qualifique para uma regra de direcionamento não entrará no caminho de fallback e sairá da jornada."
+>title="O que é um caminho substituto?"
+>abstract="Os caminhos substitutos permitem que o público-alvo entre em um caminho alternativo quando nenhuma regra de direcionamento for qualificada. </br>Se não selecionar essa opção, qualquer público-alvo que não se qualifique para uma regra de direcionamento não entrará no caminho de substituição e sairá da jornada."
 
 As regras de direcionamento permitem determinar regras ou qualificações específicas que devem ser atendidas para que um cliente possa se qualificar para inserir um dos caminhos de jornada, com base em segmentos específicos de público-alvo<!-- depending on profile attributes or contextual attributes-->.
 
