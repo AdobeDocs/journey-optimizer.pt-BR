@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0d58a5075e6459ee7d46192f7bc1c9ee0b8b70bf
+source-git-commit: 40b0ad9ce1a4d9a4cbb120a600de2da78988aae8
 workflow-type: tm+mt
 source-wordcount: '3032'
 ht-degree: 68%
@@ -237,6 +237,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 
 * **Permissões de política de aprovação**
 Adição de uma opção ao criar ou definir a Política de aprovação para impedir que os criadores de Jornadas/campanhas aprovem seus próprios objetos.
+
 <!--
 * **New Journey Alerts**  
   New pre-configured alerts are available for journeys:
