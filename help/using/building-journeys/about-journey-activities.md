@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '718'
 ht-degree: 15%
 
 ---
@@ -47,6 +47,7 @@ Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração e
 * [Ler público-alvo](read-audience.md)
 * [Aguardar](wait-activity.md)
 * [Decisão de conteúdo](content-decision.md)
+* [Pesquisa de conjunto de dados](dataset-lookup.md)
 
 ![Paleta de atividades de orquestração no designer de jornada](assets/journey-orchestration-activities.png)
 
@@ -112,7 +113,7 @@ A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. 
 
 ![Adicionar uma opção de caminho alternativo nas propriedades da atividade de Condição](assets/journey42.png)
 
-## Solução de problemas {#troubleshooting}
+## Resolução de problemas {#troubleshooting}
 
 Antes de testar e publicar sua jornada, verifique se todas as atividades estão configuradas corretamente. Não é possível executar testes ou publicações se os erros ainda forem detectados pelo sistema.
 

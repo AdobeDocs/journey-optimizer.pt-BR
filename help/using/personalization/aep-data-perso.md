@@ -10,7 +10,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 3%
@@ -23,7 +23,7 @@ ht-degree: 3%
 >
 >No momento, esse recurso está disponível para todos os clientes como uma versão de disponibilidade limitada.
 >
->Por enquanto, a função auxiliar &quot;datasetLookup&quot; pode ser usada em fragmentos de expressão para um conjunto limitado de clientes. Para obter acesso, entre em contato com o(a) representante da Adobe.
+>Por enquanto, a função auxiliar &quot;datasetLookup&quot; pode ser usada em fragmentos de expressão para um conjunto limitado de clientes. Para obter acesso, entre em contato com um representante da Adobe.
 
 O Journey Optimizer permite aproveitar os dados dos conjuntos de dados de registros do Adobe Experience Platform no editor de personalização para [personalizar seu conteúdo](../personalization/personalize.md). Antes de iniciar, os conjuntos de dados necessários para a personalização da pesquisa devem ser habilitados primeiro para a pesquisa. Informações detalhadas estão disponíveis nesta seção: [Usar dados do Adobe Experience Platform](../data/lookup-aep-data.md).
 
@@ -56,7 +56,7 @@ Depois que um conjunto de dados é habilitado para personalização de pesquisa,
 
    +++Onde recuperar uma ID de conjunto de dados?
 
-   As IDs dos conjuntos de dados podem ser recuperadas na interface do usuário do Adobe Experience Platform. Saiba como trabalhar com conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   As IDs dos conjuntos de dados podem ser recuperadas na interface do usuário do Adobe Experience Platform. Saiba como trabalhar com conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
@@ -87,7 +87,7 @@ Depois que um conjunto de dados é habilitado para personalização de pesquisa,
 
      +++Onde recuperar uma ID de campo?
 
-     As IDs de campos podem ser recuperadas ao visualizar um conjunto de dados na interface do usuário do Adobe Experience Platform. Saiba como visualizar conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     As IDs de campos podem ser recuperadas ao visualizar um conjunto de dados na interface do usuário do Adobe Experience Platform. Saiba como visualizar conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
