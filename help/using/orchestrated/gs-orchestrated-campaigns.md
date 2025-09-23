@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Embora o marketing entre canais seja essencial, as campanhas orquestradas permit
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-➡️ [Descubra campanhas orquestradas em vídeo](#video-oc)
+➡️ [Descubra campanhas orquestradas nesse vídeo](#video-oc)
 
 ## Principais recursos
 
