@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
+source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 10%
@@ -21,17 +21,33 @@ ht-degree: 10%
 
 Use a guia **[!UICONTROL Agendamento]** para definir o agendamento da campanha.
 
-## Definir datas de início e término
+## Definir uma data de início da campanha
 
-Por padrão, as campanhas de ação começam assim que são ativadas manualmente e terminam assim que a mensagem é enviada uma vez. Se você não quiser executar sua campanha logo após a ativação, poderá especificar uma data e hora em que a mensagem deverá ser enviada usando a opção **[!UICONTROL Início da campanha]**.
+Por padrão, as campanhas de ação começam assim que são ativadas manualmente e terminam assim que a mensagem é enviada uma vez.
 
-A opção **[!UICONTROL Campaign end]** permite especificar quando uma campanha deve parar de ser executada. Fora das datas especificadas, a campanha não será executada.
+Se você não quiser executar sua campanha logo após a ativação, especifique uma data e hora em que a mensagem deverá ser enviada na seção **[!UICONTROL Início da campanha]**.
 
-![](assets/create-campaign-schedule.png)
+![](assets/campaign-start.png)
 
 >[!NOTE]
 >
 >Ao agendar campanhas no [!DNL Adobe Journey Optimizer], verifique se a data/hora inicial está de acordo com a primeira entrega desejada. Para campanhas recorrentes, se o horário programado inicial já tiver passado, as campanhas serão transferidas para o próximo período disponível, de acordo com as suas regras de recorrência.
+
+## Definir uma frequência de execução
+
+Para ações de **Email**, **SMS** e **Notificação por push**, você pode definir uma frequência na qual a mensagem da campanha deve ser enviada. Para fazer isso, use as opções **[!UICONTROL Action triggers]** na tela de criação da campanha para especificar se a campanha deve ser executada diariamente, semanalmente ou mensalmente.
+
+![](assets/campaign-frequency.png)
+
+>[!NOTE]
+>
+>Para ações de **email**, você pode criar campanhas específicas de ativação do plano de aquecimento de IP. O agendamento da campanha será orientado pelo plano de aquecimento de IP ao qual será associado, o que significa que o agendamento não será mais definido na própria campanha. [Saiba como criar campanhas de aquecimento de IP](../configuration/ip-warmup-campaign.md).
+
+## Definir uma data final
+
+A seção **[!UICONTROL Fim da campanha]** permite especificar quando uma campanha deve parar de ser executada. Fora das datas especificadas, a campanha não será executada.
+
+![](assets/campaign-end.png)
 
 ## Definir controle de taxa
 
@@ -49,16 +65,6 @@ Para definir o controle de taxa, habilite a opção **[!UICONTROL Entrega aceler
 >[!IMPORTANT]
 >
 >Ao definir uma taxa de delivery, o período máximo para o qual o público-alvo da campanha pode ser executado é de 12 horas. Se a taxa de delivery for definida com um valor que não permita que todo o público-alvo receba a mensagem no período de 12 horas, os perfis restantes serão excluídos da campanha. Você pode ver a contagem desses perfis excluídos no relatório da campanha.
-
-## Definir uma frequência de execução
-
-Para ações de email, SMS e notificação por push, você pode definir uma frequência na qual a mensagem da campanha deve ser enviada. Para fazer isso, use as opções **[!UICONTROL Action triggers]** na tela de criação da campanha para especificar se a campanha deve ser executada diariamente, semanalmente ou mensalmente.
-
-![](assets/action-triggers.png)
-
-## Definir planos de aquecimento de IP
-
-Para ações de email, você pode criar campanhas específicas de ativação do plano de aquecimento de IP. O agendamento da campanha será orientado pelo plano de aquecimento de IP ao qual será associado, o que significa que o agendamento não será mais definido na própria campanha. [Saiba como criar campanhas de aquecimento de IP](../configuration/ip-warmup-campaign.md).
 
 ## Próximas etapas {#next}
 
