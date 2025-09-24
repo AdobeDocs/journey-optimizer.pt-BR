@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c708f33079da6d3e739dcec86870623fad40a69b
+source-git-commit: 4bb9b6d614a434f3906fded06cbcaef14f1cb255
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1798'
 ht-degree: 43%
 
 ---
@@ -276,7 +276,7 @@ Os recursos e melhorias a seguir estão direcionados para os próximos dias.
 <p>Crie, projete e gerencie formulários personalizados adaptados às suas necessidades com base em um conjunto de dados específico. Em seguida, é possível usar esses formulários em páginas de destino para adicionar os atributos de perfil de sua escolha ao conjunto de dados definido para cada formulário.</p>
 <p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>Para mais informações, consulte a <a href="../landing-pages/lp-forms.md">documentação detalhada</a></p>
+<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p-->
 </td>
 </tr>
 </tbody>
@@ -310,11 +310,15 @@ Os recursos e melhorias a seguir estão direcionados para os próximos dias.
 * **Novos Alertas de Jornada**\
   Novos alertas pré-configurados estão disponíveis para jornada:
 
-   * [Taxa de Descarte de Perfil Excedida](../reports/alerts.md#profile-discard-rate-exceeded): Taxa de descartes de perfil para perfis inseridos nos últimos 5 minutos excedeu o limite.
-   * [Taxa de Erro de Ação Personalizada Excedida](../reports/alerts.md#custom-action-error-rate-exceeded): Taxa de erros de ação personalizada para chamadas HTTP bem-sucedidas durante os últimos 5 minutos excedeu o limite.
-   * [Taxa de Erro de Perfil Excedida](../reports/alerts.md#profile-error-rate-exceeded): Taxa de perfis com erro em relação aos perfis inseridos nos últimos 5 minutos excedeu o limite.
+   * Taxa de descarte de perfil excedida: a taxa de descartes de perfil em perfis inseridos nos últimos 5 minutos excedeu o limite.
+   * Taxa de erro de ação personalizada excedida: taxa de erros de ação personalizada para chamadas HTTP bem-sucedidas ao longo dos últimos 5 minutos excedeu o limite.
+   * Taxa de erro de perfil excedida: Taxa de perfis com erro em relação aos perfis inseridos nos últimos 5 minutos excedeu o limite.
+<!--
+  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-  Você pode modificar valores de limite e assinar alertas individuais em nível de jornada em comparação com os alertas globais.
+Você pode modificar valores de limite e assinar alertas individuais em nível de jornada em comparação com os alertas globais.
 
 
 * **Suporte a atributos personalizados com URL de cancelamento de inscrição com um clique**\
