@@ -11,10 +11,10 @@ level: Intermediate
 keywords: expressão, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 5%
+source-wordcount: '757'
+ht-degree: 6%
 
 ---
 
@@ -55,15 +55,6 @@ Antes de começar, reveja as seguintes restrições e diretrizes:
 >[!NOTE]
 >
 >Se forem necessários volumes adicionais além das medidas de proteção listadas acima, entre em contato com o representante da Adobe.
-
-### Considerações adicionais sobre desempenho
-
-As recomendações abaixo são orientações para evitar atrasos no delivery:
-
-| Consideração | Limite recomendado | Descrição |
-| ------- | ------- | ------- |
-| Atributos por pesquisa | Até 20 | Número de campos de dados recuperados por registro em uma única atividade de pesquisa. |
-| Atividades de pesquisa | Até 5 por jornada | Cada jornada pode conter até 5 atividades de pesquisa separadas. Cada pesquisa pode direcionar a um conjunto de dados diferente. |
 
 ## Ativar um conjunto de dados para pesquisa de dados {#enable}
 
