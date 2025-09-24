@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 12ece43b9a52150baa71fab09653c6212aea6643
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 11%
+source-wordcount: '1444'
+ht-degree: 10%
 
 ---
 
@@ -138,18 +138,19 @@ Saiba mais sobre os tipos de jornadas e o gerenciamento de entradas associado ne
 
 O status da jornada depende do seu ciclo de vida. Pode ser:
 
-* **Fechada**: a jornada foi fechada usando o botão **Fechar para novas entradas**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente.
 * **Rascunho**: a jornada está em seu primeiro estágio. Ela ainda não foi publicada.
-* **Rascunho (Teste)**: o modo de teste foi ativado usando o botão **Modo de teste**.
+* **Rascunho (Teste)**: o modo de teste foi ativado usando o botão **Modo de teste**. [Saiba mais](../building-journeys/testing-the-journey.md)
 * **Concluído**: a jornada alterna automaticamente para esse status após o [tempo limite global](journey-properties.md#global_timeout) de 91 dias. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada.
-* **Ao vivo**: a jornada foi publicada usando o botão **Publicar**.
-* **Parada**: a jornada foi desligada usando o botão **Parada**. Todos os indivíduos saem instantaneamente da jornada.
+* **Ao vivo**: a jornada foi publicada usando o botão **Publicar**. [Saiba mais](../building-journeys/publishing-the-journey.md)
+* **Pausado**: a jornada em tempo real foi pausada, usando o botão **Pausar**. [Saiba mais](../building-journeys/journey-pause.md)
+* **Parada**: a jornada foi desligada usando o botão **Parada**. Todos os indivíduos saem instantaneamente da jornada. [Saiba mais](../building-journeys/end-journey.md#stop-a-journey)
+* **Fechada**: a jornada foi fechada usando o botão **Fechar para novas entradas**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente. [Saiba mais](../building-journeys/end-journey.md)
 
 >[!NOTE]
 >
->* O ciclo de vida de criação do Jornada também inclui um conjunto de status intermediários que não estão disponíveis para filtragem: &quot;Publicação&quot; (entre &quot;Rascunho&quot; e &quot;Ao vivo&quot;), &quot;Ativando modo de teste&quot; ou &quot;Desativando modo de teste&quot; (entre &quot;Rascunho&quot; e &quot;Rascunho (teste)&quot;) e &quot;Parando&quot; (entre &quot;Ao vivo&quot; e &quot;Parado&quot;). Quando uma jornada está em um estado intermediário, ela fica como de somente leitura.
+>* O ciclo de vida de criação de Jornada também inclui um conjunto de status intermediários que não estão disponíveis para filtragem: **Publicação** (entre &quot;Rascunho&quot; e &quot;Ao Vivo&quot;), **Ativação do modo de teste** ou **Desativação do modo de teste** (entre **Rascunho** e **Rascunho (teste)**), **Parada** (entre **Ao Vivo** e **Parado**), **Retomando** (entre **Paused** e **Live**), **Pausing** (entre **Live** e **Paused**) Quando uma jornada está em um estado intermediário, ela é somente leitura.
 >
->* Se você precisar modificar para uma jornada do **live**, [crie uma nova versão](#journey-versions) da jornada.
+>* Se você precisar modificar para uma jornada do **Live**, [crie uma nova versão](#journey-versions) da jornada. Você também pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento. [Saiba mais sobre como pausar o jornada](../building-journeys/journey-pause.md)
 
 
 ## Duplicar uma jornada {#duplicate-a-journey}
