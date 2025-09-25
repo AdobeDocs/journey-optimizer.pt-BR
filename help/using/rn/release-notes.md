@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
+source-git-commit: 83ed772d25cbf3e54c5ab45cff3803cb062cdfd6
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 43%
+source-wordcount: '1812'
+ht-degree: 44%
 
 ---
 
@@ -28,6 +28,22 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 **Data de lançamento**: 23 a 24 de setembro de 2025
 
 ### Novos recursos {#sept-25-9-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>API pública para recuperar jornadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma nova API do Journey Optimizer agora está disponível para recuperar jornadas e seus objetos associados, como campanhas e superfícies.</p>
+<p>Para mais informações, consulte a <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">documentação detalhada</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -198,21 +214,6 @@ Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar
 ### Em breve {#sept-25-9-soon}
 
 Nos próximos dias, os recursos e aprimoramentos a seguir estão programados para serem lançados. **As informações estão sujeitas a alterações**. Links, telas e documentação atualizados serão compartilhados assim que essas atualizações estiverem ativas na produção.
-
-<table>
-<thead>
-<tr>
-<th><strong>API pública para recuperar jornadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Uma nova API do Journey Optimizer agora está disponível para recuperar jornadas e seus objetos associados, como campanhas e superfícies.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
