@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e20ece04067d14970883643693c540c73c38a6bc
+source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 45%
+source-wordcount: '1766'
+ht-degree: 44%
 
 ---
 
@@ -76,8 +76,8 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <tbody>
 <tr>
 <td>
-<p>Desenvolvido pela <a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Journey Agent está disponível na Journey Optimizer. Ele permite analisar jornadas por meio de uma interface de linguagem natural. O agente detectará conflitos de público-alvo ou agendamento e suspensões de perfil em uma jornada para ajudar você a tomar medidas para resolvê-los. Em breve você poderá criar jornadas com suporte técnico.</p>
-<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentação detalhada</a></p>
+<p>Desenvolvido pela <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Journey Agent está disponível na Journey Optimizer. Ele permite analisar jornadas por meio de uma interface de linguagem natural. O agente detectará conflitos de público-alvo ou agendamento e suspensões de perfil em uma jornada para ajudar você a tomar medidas para resolvê-los. Em breve você poderá criar jornadas com suporte técnico.</p>
+<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentação detalhada</a></p>
 </td>
 </tr>
 </tbody>
@@ -154,7 +154,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <tbody>
 <tr>
 <td>
-<p>Lançado anteriormente na versão beta pública, esse recurso agora está disponível para todos os ambientes em disponibilidade limitada. Nesta versão, os seguintes aprimoramentos foram introduzidos:</p>
+<p>Anteriormente lançado em beta público, esse recurso agora está disponível para todos os ambientes. Nesta versão, os seguintes aprimoramentos foram introduzidos:</p>
 <ul><li>Suporte para personalização de pesquisa de conjunto de dados em canais de entrada.</li>
 <li>A função auxiliar "datasetLookup" agora pode ser usada em fragmentos de expressão. Por enquanto, esse recurso está disponível para um conjunto limitado de clientes. Para obter acesso, entre em contato com um representante da Adobe.</li>
 <li>Uma opção na interface de gerenciamento de conjuntos de dados agora permite habilitar conjuntos de dados para personalização de pesquisa, sem precisar executar uma chamada de API.</li>
