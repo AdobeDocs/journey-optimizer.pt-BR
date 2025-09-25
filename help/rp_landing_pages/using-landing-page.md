@@ -4,33 +4,24 @@ product: Journey Optimizer
 title: Ajuda do Adobe Journey Optimizer
 description: Ajuda do Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 93%
 
 ---
 
 
 # Ajuda do Adobe Journey Optimizer{#section-overview}
 
-O Adobe Journey Optimizer capacita equipes a projetar e fornecer experiências personalizadas e fluidas ao cliente em canais como email, SMS e outros. Ao combinar ferramentas avançadas para a orquestração de campanhas, gestão de dados e tomada de decisões, ele ajuda a criar jornadas que se adaptam às necessidades do cliente em tempo real. Esta documentação oferece um roteiro para dominar a plataforma: da exploração de seus recursos e integrações mais recentes ao aprendizado de como gerenciar públicos-alvo, configurar jornadas e analisar o desempenho. Seja um profissional de marketing, analista de dados ou gerente de campanha, você encontrará guias passo a passo, práticas recomendadas e recursos personalizados que ajudarão a alcançar objetivos com confiança.
+O Adobe Journey Optimizer capacita equipes a projetar e fornecer experiências personalizadas e fluidas ao cliente em canais como email, SMS e outros. Ao combinar ferramentas avançadas para a orquestração de campanhas, gestão de dados e tomada de decisões, ele ajuda a criar jornadas que se adaptam às necessidades do cliente em tempo real. Esta documentação oferece um roteiro para dominar a plataforma: da exploração de seus recursos e integrações mais recentes ao aprendizado de como gerenciar públicos-alvo, configurar jornadas e analisar o desempenho. Seja você um profissional de marketing, analista de dados ou gerente de campanha, encontrará guias passo a passo, práticas recomendadas e recursos personalizados para ajudá-lo a atingir suas metas com confiança.
 
 ## Ajuda do Adobe Journey Optimizer
 
 :::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
-
-Novidades do Adobe Journey Optimizer
-
-Atualize-se com as notas de versão mais recentes, os novos recursos e as alterações na documentação do Adobe Journey Optimizer.
-
-[Visualizar as novidades](whats-new-landing-page.md)
-:::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao Adobe Journey Optimizer
 
@@ -40,7 +31,7 @@ Saiba mais sobre as noções básicas do Adobe Journey Optimizer, incluindo seus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guia abrangente para jornadas
 
@@ -50,7 +41,7 @@ Projete, orquestre, gerencie e otimize jornadas personalizadas do cliente com es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Noções básicas e gerenciamento de campanhas
 
@@ -60,7 +51,7 @@ Orientação detalhada sobre como criar, gerenciar e otimizar vários tipos de c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gerenciamento de conflitos e priorização
 
