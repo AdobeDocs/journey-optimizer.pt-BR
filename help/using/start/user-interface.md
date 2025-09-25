@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 100%
+source-wordcount: '1903'
+ht-degree: 92%
 
 ---
 
@@ -355,3 +355,30 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 >id="ajo_journey_business_rules"
 >title="Conjunto de regras"
 >abstract="Conjunto de regras"
+
+<!-- WEBHOOKS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings"
+>title="Habiltiar webhooks"
+>abstract="Ative os webhooks para receber feedback em tempo real sobre o status de execução de suas mensagens. Antes de ativar esta opção, verifique se você configurou um webhook no menu **Administração** / **Canais** / **Webhook de comentários**."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_create"
+>title="Webhooks de comentários"
+>abstract="Os webhooks de feedback permitem receber feedback em tempo real sobre o status de execução das mensagens enviadas com campanhas acionadas pela API transacional. Somente uma configuração de webhook por organização + combinação de sandbox é permitida."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_configuration"
+>title="Configuração básica"
+>abstract="Nesta seção, insira um nome descritivo para identificar o webhook e selecione os canais para os quais esse webhook deve receber feedback (Email e/ou SMS). No campo URL do Webhook, forneça o endpoint HTTPS onde os eventos de feedback devem ser entregues."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_authentication"
+>title="Autenticação"
+>abstract="Se o seu ponto de extremidade requer autenticação JWT, selecione **Autenticação JWT** na lista e forneça os detalhes necessários."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_header_parameters"
+>title="Parâmetros de cabeçalho"
+>abstract="Nesta seção, você pode configurar cabeçalhos personalizados adicionais a serem enviados com cada solicitação de webhook."
