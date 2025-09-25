@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1202'
 ht-degree: 2%
 
 ---
@@ -168,11 +168,11 @@ Por exemplo, você pode buscar e executar um loop pelos itens para retornar uma 
 ]
 ```
 
-## Solução de problemas
+## Resolução de problemas
 
 ### Tempos limite e tratamento de erros
 
-[!DNL Journey Optimizer] usa um tempo limite estrito ao chamar o ponto de extremidade externo para manter as características de desempenho de alta taxa de transferência e baixa latência para o AEP Edge Network.
+[!DNL Journey Optimizer] usa um tempo limite estrito ao chamar o ponto de extremidade externo para manter as características de desempenho de alta taxa de transferência e baixa latência para o Adobe Experience Platform Edge Network.
 
 Se o ponto de extremidade atingir o tempo limite ou se houver qualquer outro tipo de erro que chegue ao ponto de extremidade, a variável resultante estará vazia. Nesse caso, todas as referências a atributos na variável result também estarão vazias. Se você estiver apenas exibindo o atributo no conteúdo, ele será exibido em branco. Se você estiver tentando percorrer um atributo de matriz no resultado, ele não retornará itens.
 
@@ -198,7 +198,7 @@ ou você pode renderizar condicionalmente um bloco inteiro de conteúdo como est
 
 ### Depuração
 
-Para ajudar na depuração, os detalhes de tempo limite e erro para pesquisas de dados externas são incluídos na visualização do Edge Delivery no AEP Assurance. Se você não estiver vendo os resultados esperados para um auxiliar externalDataLookup em uma ação de entrada, poderá iniciar uma sessão do Assurance, iniciar uma chamada do [!DNL Journey Optimizer] de uma implementação da Web ou móvel e usar o modo de exibição do Edge Delivery para verificar detalhes de tempo limite ou erro.
+Para ajudar na depuração, os detalhes de tempo limite e erro para pesquisas de dados externas são incluídos na exibição do Edge Delivery no Adobe Experience Platform Assurance. Se você não estiver vendo os resultados esperados para um auxiliar externalDataLookup em uma ação de entrada, poderá iniciar uma sessão do Assurance, iniciar uma chamada do [!DNL Journey Optimizer] de uma implementação da Web ou móvel e usar o modo de exibição do Edge Delivery para verificar detalhes de tempo limite ou erro.
 
 Por exemplo:
 
