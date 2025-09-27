@@ -70,7 +70,7 @@ Defina regras de decisão para direcionar os públicos-alvo com precisão, usand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Criar classificações com modelos de IA
 

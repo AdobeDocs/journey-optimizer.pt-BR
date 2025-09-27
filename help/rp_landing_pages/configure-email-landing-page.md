@@ -40,7 +40,7 @@ Defina configurações de email para capacidade de entrega, conformidade e perso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Habilitar e configurar o cancelamento de assinatura da lista
 
@@ -60,7 +60,7 @@ Personalize endereços de email de remetentes e para resposta, lide com erros e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Configurar rastreamento de URL para o canal de email
 

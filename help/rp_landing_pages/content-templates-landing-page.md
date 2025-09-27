@@ -20,7 +20,7 @@ Os modelos de conteúdo no Adobe Journey Optimizer são ferramentas eficientes p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução aos modelos de conteúdo
 
@@ -40,7 +40,7 @@ Descubra como acessar, organizar e gerenciar modelos de conteúdo, incluindo a c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Criar modelos de conteúdo
 
@@ -60,7 +60,7 @@ Saiba como bloquear seções ou modelos inteiros para evitar edições ou exclus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Testar modelos de conteúdo
 

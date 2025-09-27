@@ -50,7 +50,7 @@ Descubra como obter, licenciar e personalizar imagens do Adobe Stock para uso em
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=pt-BR)
 
 Editar os seus ativos com o Adobe Express
 

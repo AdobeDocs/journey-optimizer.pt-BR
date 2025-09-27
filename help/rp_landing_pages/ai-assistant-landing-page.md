@@ -50,7 +50,7 @@ Crie e personalize o conteúdo de notificação por push com IA, incluindo texto
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=pt-BR)
 
 Geração de conteúdo de SMS com IA
 

@@ -70,7 +70,7 @@ Defina vários caminhos em uma jornada com base em critérios como hora, fonte d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
 
 Configuração de atividade de espera
 

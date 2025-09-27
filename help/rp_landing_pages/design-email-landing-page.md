@@ -20,7 +20,7 @@ O recurso Projetar conteúdo de email no Adobe Journey Optimizer permite criar e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao design de email
 
@@ -40,7 +40,7 @@ Explore métodos para criar conteúdo de email, importar HTML, codificar emails,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Projetar conteúdo no Adobe Journey Optimizer
 

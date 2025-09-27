@@ -20,7 +20,7 @@ As atividades de campanha orquestrada no Adobe Journey Optimizer permitem criar 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Trabalhar com atividades da campanha orquestrada
 
@@ -50,7 +50,7 @@ Defina e configure segmentos de público-alvo para suas campanhas usando a ativi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Atividade Mudar dimensão
 
@@ -60,7 +60,7 @@ Melhore o direcionamento alternando entre entidades de dados na campanha.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Atividades de canal
 

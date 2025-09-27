@@ -40,7 +40,7 @@ Orientações passo a passo de como configurar, gerenciar e cancelar a delegaç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Criar e configurar um canal da web
 

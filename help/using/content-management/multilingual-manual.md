@@ -85,7 +85,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
    >
    >Esses pré-requisitos são necessários apenas para os canais de cartões no aplicativo e de Conteúdo.
 
-   1. Na Coleção de dados da Adobe Experience Platform, acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Na Coleção de dados da Adobe Experience Platform, acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. Na seção **[!UICONTROL IF]** da regra, adicione um evento configurado conforme abaixo:
 

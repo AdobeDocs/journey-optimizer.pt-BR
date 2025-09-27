@@ -30,7 +30,7 @@ Saiba como criar e gerenciar campanhas de ação, incluindo propriedades, açõe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Definir as propriedades da campanha de ação
 
@@ -50,7 +50,7 @@ Guia para configurar ações de campanha, incluindo seleção de canal, otimiza�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Aproveitar a otimização de mensagens
 

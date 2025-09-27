@@ -160,7 +160,7 @@ Para definir as configurações de experiência baseada em código para platafor
 
    >[!NOTE]
    >
-   >Se você encontrar problemas ao visualizar a experiência, consulte [esta documentação](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >Se você encontrar problemas ao visualizar a experiência, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Outras plataformas {#other}
 

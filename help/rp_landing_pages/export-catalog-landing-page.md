@@ -20,7 +20,7 @@ Exportar o catálogo de oferta no Adobe Journey Optimizer é como abrir as porta
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Guia para exportar catálogos de oferta
 

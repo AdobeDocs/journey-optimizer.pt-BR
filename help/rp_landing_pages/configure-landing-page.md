@@ -30,7 +30,7 @@ Saiba mais sobre as configurações necessárias para ativar o canal de cartões
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Configurar canal de cartões de conteúdo no Journey Optimizer
 

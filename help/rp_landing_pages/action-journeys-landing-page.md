@@ -40,7 +40,7 @@ Tutorial passo a passo para configurar ações personalizadas, incluindo protoco
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Usar as respostas de chamada de API em ações personalizadas
 

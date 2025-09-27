@@ -70,7 +70,7 @@ Crie e execute planos de aquecimento de IP para estabelecer a reputação do rem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Monitorar a capacidade de entrega de emails e a reputação
 

@@ -20,7 +20,7 @@ A criação de conteúdo no Adobe Journey Optimizer envolve criar experiências 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Usar componentes de conteúdo
 
@@ -50,7 +50,7 @@ Habilite o rastreamento, insira links e gerencie a aparência dos links para oti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Inserir ofertas personalizadas
 

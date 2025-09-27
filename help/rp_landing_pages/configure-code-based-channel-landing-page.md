@@ -50,7 +50,7 @@ Obtenha orientação passo a passo para implementar experiências baseadas em c�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Decisão sobre implementações de experiências baseadas em código
 

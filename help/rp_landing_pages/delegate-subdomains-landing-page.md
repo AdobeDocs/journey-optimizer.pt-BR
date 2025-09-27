@@ -20,7 +20,7 @@ A delegação de subdomínios de email no Adobe Journey Optimizer permite que os
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução à delegação de subdomínios
 
@@ -30,7 +30,7 @@ Saiba mais sobre os benefícios, os métodos de configuração e as consideraç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Delegar um subdomínio
 
