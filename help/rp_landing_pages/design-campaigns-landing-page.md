@@ -30,7 +30,7 @@ Saiba mais sobre direcionamento, canal e atividades de controle de fluxo para pr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Utilização da atividade AND-join
 
@@ -40,7 +40,7 @@ Sincronize várias ramificações de execução garantindo que as tarefas anteri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Atividade Criar público-alvo
 
@@ -70,7 +70,7 @@ Configure email, SMS, notificações por push e correspondência direta para a o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Atividade Combinar
 

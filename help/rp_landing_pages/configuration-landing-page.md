@@ -40,7 +40,7 @@ Siga um guia detalhado para criar, editar, desativar e monitorar as configuraç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configuração de canais guiada
 
@@ -60,7 +60,7 @@ Saiba como delegar e configurar subdomínios de email para otimizar a capacidade
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Implementar um plano de aquecimento de IP
 

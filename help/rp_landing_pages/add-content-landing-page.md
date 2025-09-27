@@ -60,7 +60,7 @@ Use a gestão de decisões para exibir dinamicamente ofertas personalizadas feit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=pt-BR)
 
 Gerar versão em texto
 
@@ -70,7 +70,7 @@ Crie e personalize a versão em texto sem formatação do seu email para destina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Adicionar metadados
 

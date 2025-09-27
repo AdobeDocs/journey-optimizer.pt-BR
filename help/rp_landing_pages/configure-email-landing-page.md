@@ -20,7 +20,7 @@ A configuração do canal de email do Adobe Journey Optimizer é a porta de entr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução à configuração de email
 
@@ -30,7 +30,7 @@ Saiba mais sobre as etapas essenciais para configurar os recursos de email, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Definir as configurações de email
 
@@ -50,7 +50,7 @@ Saiba como habilitar o recurso de “Cancelar assinatura da lista” para inclui
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar parâmetros de cabeçalho do email
 

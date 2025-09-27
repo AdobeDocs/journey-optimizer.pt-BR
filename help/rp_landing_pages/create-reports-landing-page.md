@@ -20,7 +20,7 @@ A criação de relatórios de gestão de decisões no Adobe Journey Optimizer pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Trabalhar com eventos de gestão de decisões
 

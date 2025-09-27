@@ -23,7 +23,7 @@ Esse recurso permite que profissionais de marketing apresentem conteúdo de míd
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar canal de cartões de conteúdo
 
@@ -33,7 +33,7 @@ Configure e integre o canal de cartões de conteúdo para plataformas da web, di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Criar e configurar cartões de conteúdo
 

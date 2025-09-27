@@ -40,7 +40,7 @@ Descubra como usar o editor não visual para modificações na web, incluindo ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Gerenciar modificações na web no Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Saiba como gerenciar modificações na web por meio do painel “Modificações�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Monitorar as suas experiências da web
 

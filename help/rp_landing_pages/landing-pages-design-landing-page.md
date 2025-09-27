@@ -40,7 +40,7 @@ Adicione componentes como formulários, personalize seus estilos e use dados con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Trabalhe com modelos de páginas de destino
 

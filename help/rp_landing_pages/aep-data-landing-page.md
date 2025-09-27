@@ -30,7 +30,7 @@ Saiba como integrar dados contextuais da Adobe Experience Platform à tomada de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Usar dados da Adobe Experience Platform para a tomada de decisão
 

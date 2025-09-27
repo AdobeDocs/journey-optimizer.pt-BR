@@ -20,7 +20,7 @@ A configuração do canal da web no Adobe Journey Optimizer permite que você fo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Pré-requisitos do canal da web
 

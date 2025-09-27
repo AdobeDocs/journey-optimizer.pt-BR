@@ -50,7 +50,7 @@ Entenda como solicitar aprovação para jornadas e campanhas, incluindo fluxos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Revisar e aprovar solicitações de jornadas e campanhas
 

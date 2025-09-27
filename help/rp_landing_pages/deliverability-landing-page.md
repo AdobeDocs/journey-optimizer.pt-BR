@@ -20,7 +20,7 @@ A capacidade de entrega de email tem a ver com garantir que seus emails cheguem 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução à capacidade de entrega de email
 

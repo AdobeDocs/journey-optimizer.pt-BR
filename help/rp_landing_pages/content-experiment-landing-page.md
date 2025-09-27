@@ -30,7 +30,7 @@ Saiba mais sobre os fundamentos dos experimentos de conteúdo, sua finalidade e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Criar e dimensionar experimentos de conteúdo
 

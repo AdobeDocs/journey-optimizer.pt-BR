@@ -30,7 +30,7 @@ Saiba como usar ferramentas como detecção de conflitos, pontuações de priori
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Identificar possíveis conflitos
 
@@ -40,7 +40,7 @@ Descubra métodos para detectar e resolver conflitos em campanhas e jornadas, ga
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Atribuir pontuações de prioridade a campanhas
 

@@ -20,7 +20,7 @@ A implementação de um plano de aquecimento de IP no Adobe Journey Optimizer ga
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução aos planos de aquecimento de IP
 

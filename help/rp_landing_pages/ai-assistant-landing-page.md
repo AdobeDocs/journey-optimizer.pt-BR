@@ -30,7 +30,7 @@ Saiba como acessar e configurar o recurso Assistente de IA para aprimorar a cria
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
 
 Geração de conteúdo de email com IA
 
@@ -70,7 +70,7 @@ Melhore o conteúdo e os visuais da página da Web com o Assistente de IA, garan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=pt-BR)
 
 Geração de página de destino com IA
 

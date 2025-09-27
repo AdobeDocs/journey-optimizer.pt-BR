@@ -30,7 +30,7 @@ Saiba mais sobre os pré-requisitos para usar experiências baseadas em código,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Superfícies da experiência baseada em código
 
@@ -40,7 +40,7 @@ Entenda as superfícies e seus identificadores, composição e uso em experiênc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Amostras de métodos de implementação
 

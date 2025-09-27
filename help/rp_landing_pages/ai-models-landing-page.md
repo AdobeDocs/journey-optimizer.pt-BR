@@ -20,7 +20,7 @@ Os modelos de IA do Adobe Journey Optimizer ajudam a tomar decisões mais inteli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução aos modelos de IA
 
@@ -40,7 +40,7 @@ Descubra como os modelos de otimização automática usam algoritmos como a amos
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Noções básicas sobre modelos de otimização personalizada
 

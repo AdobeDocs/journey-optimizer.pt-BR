@@ -30,7 +30,7 @@ Saiba mais sobre os canais de comunicação de saída e entrada disponíveis no 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
 
 Canal de email
 

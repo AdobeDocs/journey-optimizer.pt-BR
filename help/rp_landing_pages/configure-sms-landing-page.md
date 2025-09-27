@@ -20,7 +20,7 @@ O canal de SMS/MMS/RCS do Adobe Journey Optimizer permite que as empresas se con
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução à configuração do canal de SMS/MMS/RCS
 
@@ -60,7 +60,7 @@ Instruções para configurar as credenciais da API do Twilio e habilitar mensage
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Configurar um provedor de SMS personalizado
 

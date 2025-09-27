@@ -50,7 +50,7 @@ Simplifique a criação de conteúdo por meio de modelos reutilizáveis para um 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Fragmentos de conteúdo reutilizáveis
 
@@ -60,7 +60,7 @@ Saiba como criar e gerenciar fragmentos de conteúdo reutilizáveis para fins de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Conteúdo dinâmico no Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Use regras condicionais para criar um conteúdo dinâmico e personalizado para e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Casos de uso entre soluções
 

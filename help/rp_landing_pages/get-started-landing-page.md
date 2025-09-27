@@ -20,7 +20,7 @@ O Adobe Journey Optimizer capacita as empresas a criar experiências de clientes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Principais recursos do Adobe Journey Optimizer
 

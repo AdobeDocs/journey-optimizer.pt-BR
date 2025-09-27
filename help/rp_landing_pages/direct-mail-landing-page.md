@@ -40,7 +40,7 @@ Guia passo a passo para criar campanhas de correspondência direta e configurar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como verificar e enviar uma campanha de correspondência direta
 

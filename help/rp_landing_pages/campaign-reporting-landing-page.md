@@ -60,7 +60,7 @@ Avalie a eficiência das campanhas de correspondência direta, analisando o stat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=pt-BR)
 
 Relatório de campanha com email
 

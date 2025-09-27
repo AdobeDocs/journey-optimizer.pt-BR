@@ -40,7 +40,7 @@ Descubra como definir cores e imagens de fundo em diferentes níveis da estrutur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Ajustar o alinhamento vertical e o preenchimento
 

@@ -30,7 +30,7 @@ Entenda como o Adobe Journey Optimizer se conecta a outras soluções da Adobe e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Trabalhar com as APIs do Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Gerencie ambientes virtuais, funções e fluxos de trabalho efetivamente com san
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução aos conectores de origem
 

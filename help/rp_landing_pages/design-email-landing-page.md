@@ -30,7 +30,7 @@ Saiba mais sobre as noções básicas de design de email no Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Criar e otimizar conteúdo de email
 
@@ -50,7 +50,7 @@ Descubra ferramentas e práticas recomendadas para usar componentes, fragmentos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Editar estilo: personalizar designs de email
 

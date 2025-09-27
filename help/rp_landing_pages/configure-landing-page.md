@@ -40,7 +40,7 @@ Siga as instruções passo a passo para definir superfícies de URI e criar conf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Configurar a compatibilidade com cartões de conteúdo no SDK móvel
 
@@ -50,7 +50,7 @@ Habilite e personalize cartões de conteúdo em aplicativos móveis com os SDKs 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Configurar a compatibilidade com cartões de conteúdo no SDK da web
 

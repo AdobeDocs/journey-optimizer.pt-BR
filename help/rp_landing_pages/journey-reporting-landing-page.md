@@ -20,7 +20,7 @@ Os relatórios de jornada no Adobe Journey Optimizer fornecem ferramentas eficie
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Análise de relatórios de jornada
 
