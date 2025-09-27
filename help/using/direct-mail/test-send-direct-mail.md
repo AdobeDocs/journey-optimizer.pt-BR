@@ -10,7 +10,7 @@ exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ Depois de enviado, você pode medir o impacto da campanha de correspondência di
 
 ## Gerenciar o consentimento para correspondência direta {#dm-consent-management}
 
-Em [!DNL Journey Optimizer], o consentimento é gerido pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"} da Experience Platform. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações.
+No [!DNL Journey Optimizer], o consentimento é gerenciado pelo [esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"} da Experience Platform. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações.
 
 Se um perfil optou por não receber correspondência direta, nos atributos de perfil correspondentes do Experience Platform, o valor de `consents.marketing.postalMail.val` será `n` e o perfil correspondente será excluído das entregas subsequentes.
 

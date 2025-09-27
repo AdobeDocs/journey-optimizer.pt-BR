@@ -6,7 +6,7 @@ description: Páginas de destino
 redpen-status: CREATED_||_2025-08-12_00-37-59
 exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ As páginas de destino no Adobe Journey Optimizer permitem criar páginas da Web
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução às páginas de destino
 
@@ -30,7 +30,7 @@ Conheça as noções básicas sobre páginas de destino, sua funcionalidade e in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar e publicar páginas de destino
 
@@ -40,7 +40,7 @@ Orientação passo a passo para criar, configurar, testar e publicar páginas de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gerenciar páginas de destino
 
@@ -50,7 +50,7 @@ Acesse, organize e execute ações como publicar, duplicar e marcar páginas de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Design de conteúdo para páginas de destino
 
@@ -60,7 +60,7 @@ Crie e personalize páginas de destino com modelos, formulários e recursos avan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar e gerenciar listas de assinatura
 
@@ -70,7 +70,7 @@ Configure listas de assinaturas para gerenciar perfis de participação e simpli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casos de uso de página de destino
 

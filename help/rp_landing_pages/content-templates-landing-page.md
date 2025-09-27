@@ -6,7 +6,7 @@ description: Modelos de conteúdo
 redpen-status: CREATED_||_2025-08-12_00-38-47
 exl-id: a745742a-61c4-420e-bbd8-b3d72d782fb3
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Os modelos de conteúdo no Adobe Journey Optimizer são ferramentas eficientes p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução aos modelos de conteúdo
 
@@ -30,7 +30,7 @@ Saiba mais sobre as noções básicas de criação e gerenciamento de modelos de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Acessar e gerenciar modelos 
 
@@ -40,7 +40,7 @@ Descubra como acessar, organizar e gerenciar modelos de conteúdo, incluindo a c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Criar modelos de conteúdo
 
@@ -50,7 +50,7 @@ Guia passo a passo sobre como criar modelos de conteúdo reutilizáveis do zero 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Bloquear conteúdo em modelos de email
 
@@ -60,7 +60,7 @@ Saiba como bloquear seções ou modelos inteiros para evitar edições ou exclus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Testar modelos de conteúdo
 
@@ -70,7 +70,7 @@ Valide modelos de email testando renderização, variações e provas antes de u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Usar modelos de conteúdo
 

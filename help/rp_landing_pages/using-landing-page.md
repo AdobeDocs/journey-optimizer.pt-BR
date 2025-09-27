@@ -21,7 +21,7 @@ O Adobe Journey Optimizer capacita equipes a projetar e fornecer experiências p
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Saiba mais sobre as noções básicas do Adobe Journey Optimizer, incluindo seus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guia abrangente para jornadas
 
@@ -41,7 +41,7 @@ Projete, orquestre, gerencie e otimize jornadas personalizadas do cliente com es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Noções básicas e gerenciamento de campanhas
 
@@ -51,7 +51,7 @@ Orientação detalhada sobre como criar, gerenciar e otimizar vários tipos de c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gerenciamento de conflitos e priorização
 

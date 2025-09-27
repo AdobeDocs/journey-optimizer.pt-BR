@@ -70,7 +70,7 @@ O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de ser
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422698?learn=on&captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
   +++
 
@@ -79,7 +79,7 @@ O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de ser
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430380?quality=12&learn=on&captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
   +++
 
@@ -88,6 +88,6 @@ O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de ser
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464760?captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
   +++

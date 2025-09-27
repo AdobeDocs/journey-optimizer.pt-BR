@@ -10,7 +10,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
 source-wordcount: '2549'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -405,6 +405,6 @@ Isso permite que você acesse informações detalhadas para essa decisão. Selec
 
 Saiba como criar atividades de oferta na gestão de decisões.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409147?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

@@ -6,7 +6,7 @@ description: Gerenciamento de conteúdo
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Os recursos de gerenciamento de conteúdo do Adobe Journey Optimizer permitem cr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Personalização no Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Saiba como implementar e otimizar recursos de personalização para criar experi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Páginas de destino no Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Descubra ferramentas e tutoriais para criar, gerenciar e otimizar páginas de de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Modelos de conteúdo do Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Simplifique a criação de conteúdo por meio de modelos reutilizáveis para um 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fragmentos de conteúdo reutilizáveis
 
@@ -60,7 +60,7 @@ Saiba como criar e gerenciar fragmentos de conteúdo reutilizáveis para fins de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Conteúdo dinâmico no Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Use regras condicionais para criar um conteúdo dinâmico e personalizado para e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Casos de uso entre soluções
 

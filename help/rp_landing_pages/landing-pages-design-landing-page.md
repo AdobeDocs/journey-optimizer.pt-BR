@@ -6,7 +6,7 @@ description: Criação de conteúdo
 redpen-status: CREATED_||_2025-08-12_00-36-39
 exl-id: 19ce7788-af7e-4949-a51f-eddc4ece2898
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ A criação de conteúdo no Adobe Journey Optimizer permite criar páginas de de
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar uma página de destino no Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Saiba como criar páginas de destino do zero, usar um HTML bruto, importar um HT
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Criar e personalizar o conteúdo de uma página de destino
 
@@ -40,7 +40,7 @@ Adicione componentes como formulários, personalize seus estilos e use dados con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Trabalhe com modelos de páginas de destino
 
@@ -50,7 +50,7 @@ Salve as páginas de destino como modelos e reutilize-os para simplificar o seu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Usar um JavaScript personalizado em páginas de destino
 

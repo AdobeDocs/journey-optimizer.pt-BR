@@ -6,7 +6,7 @@ description: Relatório de todo o histórico
 redpen-status: CREATED_||_2025-08-11_20-52-29
 exl-id: cc658ad0-79ec-4403-bdda-18f0c428d3fa
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ O “Relatório de todo o histórico” do Adobe Journey Optimizer é a sua port
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao relatório de todo o histórico
 
@@ -30,7 +30,7 @@ Saiba como acessar e aproveitar o recurso “Relatório de todo o histórico” 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Lista abrangente de métricas
 
@@ -40,7 +40,7 @@ Confira definições detalhadas das métricas usadas nos canais de entrega, como
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar o Customer Journey Analytics manualmente
 
@@ -50,7 +50,7 @@ Guia passo a passo para configurar manualmente a integração com o Customer Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gerenciar os seus relatórios
 
@@ -60,7 +60,7 @@ Saiba como analisar, personalizar, exportar e programar relatórios, bem como cr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Configurar fontes de dados da geração de relatórios
 
@@ -70,7 +70,7 @@ Configure fontes de dados e conjuntos de dados para ativar a experimentação e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Motivos de exclusão
 

@@ -101,7 +101,7 @@ Os **KPIs de decisão** fornecem informações importantes sobre o envolvimento 
 
 ![](assets/cja-engagement-funnel.png)
 
-A tabela **[!UICONTROL Funil de participação]** monitora o desempenho de experiências personalizadas avaliando com que eficiência cada estágio do funil direciona as interações do usuário.
+A tabela **[!UICONTROL Envolvimento do Funnel]** monitora o desempenho de experiências personalizadas avaliando com que eficiência cada estágio da funnel direciona as interações do usuário.
 
 * **[!UICONTROL Exibições]**: número total de vezes que experiências personalizadas foram exibidas ou apresentadas aos usuários em vários pontos de contato.
 
@@ -115,11 +115,11 @@ A tabela **[!UICONTROL Principais itens de decisão por CTR]** destaca o desempe
 
 * **[!UICONTROL Taxa de Click-through (CTR)]**: porcentagem de usuários que clicam em um link, anúncio ou recomendação em comparação ao número de vezes que ele foi exibido.
 
-### Funil de engajamento por estratégia de seleção {#engagement-funnel-selection}
+### Envolvimento do funnel por estratégia de seleção {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
-A tabela **[!UICONTROL Funil de envolvimentos por estratégia de seleção]** ajuda a monitorar e analisar com que eficiência diferentes estratégias de seleção estão envolvendo usuários com experiências personalizadas.
+A tabela **[!UICONTROL Estratégia de engajamento do Funnel por seleção]** ajuda a monitorar e analisar com que eficiência diferentes estratégias de seleção estão envolvendo usuários com experiências personalizadas.
 
 * **[!UICONTROL Exibições]**: número total de vezes que experiências personalizadas foram exibidas ou apresentadas aos usuários em vários pontos de contato.
 

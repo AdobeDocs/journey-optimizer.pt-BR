@@ -6,7 +6,7 @@ description: Agregação
 redpen-status: CREATED_||_2025-08-11_20-12-06
 exl-id: fd46c749-c77a-4cda-94ec-58c58d136595
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ As funções de agregação do Adobe Journey Optimizer permitem resumir, analisa
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “avg” do Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Saiba como usar a função “avg” para calcular o valor médio em expressões
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Documentação da função “count”
 
@@ -40,7 +40,7 @@ Entenda a função “count” para agregar dados em listas, incluindo sintaxe, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “countOnlyNull”: contar valores nulos em listas
 
@@ -50,7 +50,7 @@ Descubra como a função “countOnlyNull” conta valores nulos em uma lista, c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Visão geral da função “countWithNull”
 
@@ -60,7 +60,7 @@ Saiba como a função “countWithNull” conta todos os elementos de uma lista,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “distinctCount” do Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Explore a função “distinctCount” para contar valores únicos em uma lista,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “distinctCountWithNull”: contar valores únicos (incluindo nulos)
 

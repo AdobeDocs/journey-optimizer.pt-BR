@@ -24,14 +24,13 @@ Os dados de públicos-alvo de upload personalizados podem ser aproveitados na Ge
 
 Para obter mais informações sobre públicos-alvo de upload personalizado, consulte as seções:
 * [Introdução a públicos e Journey Optimizer](../audience/about-audiences.md)
-* [Importando uma audiência no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importando uma audiência no Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Leitura obrigatória {#must-read}
 
 * Esta funcionalidade é suportada somente no **Gerenciamento de decisões**, não na Decisão (anteriormente conhecida como &quot;Experience Decisioning&quot;).
 * Ele está disponível exclusivamente por meio de **solicitações de API de Decisão (Hub)** e não é suportado pela **API de Decisão da Edge** ou pela **decisão em lote**.
  
-
 ## Usar um público-alvo de upload personalizado como critério de qualificação {#eligibilty}
 
 Você pode usar um público-alvo de upload personalizado como critério de qualificação no nível de oferta ou de decisão. Depois de adicionados, esses critérios podem excluir ofertas ou coleções de ofertas da qualificação. Estes são os vários locais onde você pode aproveitar os públicos-alvo de upload personalizado para refinar as ofertas e a qualificação para decisões:

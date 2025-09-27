@@ -6,7 +6,7 @@ description: Atividades
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ As atividades no Adobe Journey Optimizer são os elementos que dão vida às jor
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução às atividades de jornada
 
@@ -30,7 +30,7 @@ Saiba mais sobre atividades de evento, orquestração e ação no Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Uso de eventos gerais
 
@@ -40,7 +40,7 @@ Descubra como usar eventos gerais para acionar jornadas e gerenciar tempos limit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configuração de eventos de reação
 
@@ -50,7 +50,7 @@ Saiba como reagir a dados de rastreamento como cliques em mensagens ou aberturas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Eventos de qualificação de público-alvo
 
@@ -60,7 +60,7 @@ Saiba como acionar ações e condições com base nos status de participação d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utilização da atividade de condição
 
@@ -70,7 +70,7 @@ Defina vários caminhos em uma jornada com base em critérios como hora, fonte d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Configuração de atividade de espera
 

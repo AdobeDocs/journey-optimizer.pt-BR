@@ -42,7 +42,7 @@ Use o modo **[!UICONTROL Desenvolver você mesmo]** para importar um HTML bruto 
 
    >[!NOTE]
    >
-   >Essa ação abre o template selecionado no Designer de email. Em seguida, você pode concluir o design do seu email ou voltar para o editor de códigos usando a opção **[!UICONTROL Alternar para o editor de códigos]**.
+   >Essa ação abre o modelo selecionado no Designer de email. Em seguida, você pode concluir o design do seu email ou voltar para o editor de códigos usando a opção **[!UICONTROL Alternar para o editor de códigos]**.
 
 1. Clique no botão **[!UICONTROL Visualizar]** para verificar o design da mensagem e a personalização usando perfis de teste. [Saiba mais](../content-management/preview-test.md)
 

@@ -6,7 +6,7 @@ description: Perfis
 redpen-status: CREATED_||_2025-08-11_20-46-38
 exl-id: 9fc17481-1983-4462-b904-4b24d69c797d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Os perfis no Adobe Journey Optimizer permitem criar visualizações unificadas d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução a perfis
 
@@ -30,7 +30,7 @@ Saiba como criar, gerenciar e utilizar perfis no Adobe Journey Optimizer para pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Como criar perfis de teste
 
@@ -40,7 +40,7 @@ Orientação passo a passo sobre como criar perfis de teste para teste de jornad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Trabalhar com atributos computados
 

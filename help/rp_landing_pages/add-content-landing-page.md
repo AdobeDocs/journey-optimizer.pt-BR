@@ -6,7 +6,7 @@ description: Projetar o seu conteúdo
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ A criação de conteúdo no Adobe Journey Optimizer envolve criar experiências 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Usar componentes de conteúdo
 
@@ -30,7 +30,7 @@ Saiba como adicionar e personalizar componentes como textos, botões, imagens e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 Utilizar fragmentos visuais
 
@@ -40,7 +40,7 @@ Descubra como criar fragmentos reutilizáveis para simplificar o design de email
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Adicionar links e rastrear mensagens
 
@@ -50,7 +50,7 @@ Habilite o rastreamento, insira links e gerencie a aparência dos links para oti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Inserir ofertas personalizadas
 
@@ -60,7 +60,7 @@ Use a gestão de decisões para exibir dinamicamente ofertas personalizadas feit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 Gerar versão em texto
 
@@ -70,7 +70,7 @@ Crie e personalize a versão em texto sem formatação do seu email para destina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adicionar metadados
 

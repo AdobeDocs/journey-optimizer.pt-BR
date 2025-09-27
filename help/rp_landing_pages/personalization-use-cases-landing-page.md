@@ -6,7 +6,7 @@ description: Casos de uso de personalização
 redpen-status: CREATED_||_2025-08-12_00-35-09
 exl-id: 1b351130-3caa-4389-9caf-1a56e263f085
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Imagine criar comunicações tão personalizadas para o seu público-alvo, que e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Tutorial de personalização de notificações de status do pedido
 
@@ -30,7 +30,7 @@ Saiba como criar notificações por push personalizadas para atualizações de s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Guia de personalização para emails de abandono de carrinho
 
@@ -40,7 +40,7 @@ Descubra como personalizar emails de abandono do carrinho, usando funções auxi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Exemplo de personalização de emails de prescrição de plano de saúde
 

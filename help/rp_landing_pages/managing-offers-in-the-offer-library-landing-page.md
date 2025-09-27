@@ -6,7 +6,7 @@ description: Criar e gerenciar ofertas
 redpen-status: CREATED_||_2025-08-11_21-00-55
 exl-id: 4578e8fe-341e-4678-b21f-d344f0a9a63d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ A seção “Criar e gerenciar ofertas” do Adobe Journey Optimizer permite cri
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar ofertas no Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Saiba como criar ofertas personalizadas, configurar representações e definir r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Como criar ofertas substitutas
 
@@ -40,7 +40,7 @@ Tutorial passo a passo sobre como criar ofertas substitutas para clientes que n�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Como criar e gerenciar coleções de ofertas
 

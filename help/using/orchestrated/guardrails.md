@@ -33,7 +33,7 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * O número médio de atributos por esquema **não deve exceder 50 colunas** para manter a capacidade de gerenciamento e o desempenho.
 
-* Esquemas baseados em modelo não podem ser habilitados para **Perfis** do Adobe Experience Platform. Somente esquemas XDM padrão são suportados para **Perfis** do Adobe Experience Platform. Os esquemas baseados em modelo podem ser ativados para Campanhas orquestradas ou Campanhas de ação. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Esquemas baseados em modelo não podem ser habilitados para **Perfis** do Adobe Experience Platform. Somente esquemas XDM padrão são suportados para **Perfis** do Adobe Experience Platform. Os esquemas baseados em modelo podem ser ativados para Campanhas orquestradas ou Campanhas de ação. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Assimilação de dados
 

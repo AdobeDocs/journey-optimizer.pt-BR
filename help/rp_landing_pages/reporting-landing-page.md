@@ -6,7 +6,7 @@ description: Relatórios
 redpen-status: CREATED_||_2025-08-11_20-54-26
 exl-id: 37e906eb-8ae0-4988-93bf-00eb135199b2
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Os relatórios no Adobe Journey Optimizer visam transformar dados brutos em insi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução aos relatórios
 
@@ -30,7 +30,7 @@ Saiba mais sobre os recursos de relatórios no Adobe Journey Optimizer, incluind
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Relatórios ao vivo
 
@@ -40,7 +40,7 @@ Explore ferramentas de relatório em tempo real para medir e otimizar jornadas, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Relatórios históricos
 
@@ -50,7 +50,7 @@ Entenda métricas, a integração com o Customer Journey Analytics e ferramentas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Relatórios de jornada personalizados
 

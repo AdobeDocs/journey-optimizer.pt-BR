@@ -13,7 +13,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 46%
+ht-degree: 54%
 
 ---
 
@@ -55,4 +55,4 @@ As campanhas de ação (ou campanhas programadas) permitem criar comunicações 
 
 Saiba como criar uma campanha de Ação.
 
->[!VIDEO](https://video.tv.adobe.com/v/3414156?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

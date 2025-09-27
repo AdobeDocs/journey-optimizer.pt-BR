@@ -6,7 +6,7 @@ description: Canal da web
 redpen-status: CREATED_||_2025-08-11_20-40-58
 exl-id: 3ff0809b-2d60-477b-9a4c-c6c2324c1a10
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ O canal da web do Adobe Journey Optimizer permite criar experiências personaliz
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao canal da web
 
@@ -30,7 +30,7 @@ Saiba como criar e gerenciar experiências da web personalizadas no Adobe Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar o canal da web
 
@@ -40,7 +40,7 @@ Configure e gerencie canais da web, incluindo subdomínios, regras de correspond
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar e gerenciar experiências da web
 
@@ -50,7 +50,7 @@ Guia passo a passo para criar, editar, testar e publicar experiências personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Criar e gerenciar páginas da web
 

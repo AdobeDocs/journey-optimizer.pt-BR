@@ -6,7 +6,7 @@ description: Criar classificações
 redpen-status: CREATED_||_2025-08-11_21-00-00
 exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ As classificações do Adobe Journey Optimizer permitem que você personalize qu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução às classificações
 
@@ -30,7 +30,7 @@ Saiba mais sobre as noções básicas das classificações do Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar e usar fórmulas de classificação
 
@@ -40,7 +40,7 @@ Siga as instruções passo a passo para criar fórmulas de classificação, usan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Modelos de IA para classificação de ofertas
 

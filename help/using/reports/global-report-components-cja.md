@@ -675,11 +675,11 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td>Número total de vezes que experiências personalizadas foram exibidas ou apresentadas a usuários em vários pontos de contato.<br/> </td> 
 </tr>
 <tr> 
-   <td>Funil de Participação<br/> </td> 
-   <td>Monitora o desempenho de experiências personalizadas avaliando com que eficiência cada estágio do funil direciona as interações do usuário.<br/> </td> 
+   <td>Envolvimento com o Funnel<br/> </td> 
+   <td>Monitora o desempenho de experiências personalizadas avaliando com que eficiência cada estágio do funnel direciona as interações do usuário.<br/> </td> 
 </tr>
 <tr> 
-   <td>Funil de Envolvimento por Estratégia de Seleção<br/> </td> 
+   <td>Estratégia de Envolvimento do Funnel por Seleção<br/> </td> 
    <td>Monitora e analisa a eficiência com que diferentes estratégias de seleção estão envolvendo usuários com experiências personalizadas.<br/> </td> 
 </tr>
 <tr> 

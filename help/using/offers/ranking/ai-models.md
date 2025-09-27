@@ -63,4 +63,4 @@ As principais etapas para criar e usar modelos de IA são as seguintes:
 
 Saiba como criar um modelo de IA para o Offer Decisioning e como aplicá-lo a uma decisão.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445649?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

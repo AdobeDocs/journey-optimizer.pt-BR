@@ -31,7 +31,7 @@ Estas etapas devem ser executadas por um [Administrador do Sistema](../start/pat
 1. Configure suas credenciais de API, conforme detalhado abaixo:
 
    * **Token de API**: insira seu token de API. Saiba mais em [Metadocumentação](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-   * **ID da Conta Comercial**: insira o número exclusivo relacionado ao seu portfólio comercial. Saiba mais em [Metadocumentação](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
+   * **ID da Conta Comercial**: insira o número exclusivo relacionado ao seu portfólio comercial. Saiba mais em [Documentação do Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
    ![](assets/whatsapp-api.png)
 
@@ -125,7 +125,7 @@ Depois que suas credenciais da API do WhatsApp forem criadas com êxito, o próx
 
 1. Para modificar a configuração existente e acessar a **[!UICONTROL URL do Webhook]** ou o **[!UICONTROL toker de verificação do Webhook]**, localize o Webhook desejado e clique na opção **[!UICONTROL Editar]** para fazer as alterações necessárias.
 
-1. Copie o **[!UICONTROL toker de verificação do Webhook]** gerado aqui e cole-o na interface Meta como parte da configuração do Webhook.
+1. Copie o **[!UICONTROL toker de verificação do Webhook]** gerado aqui e cole-o na interface do Meta como parte da configuração do Webhook.
 
    Para obter instruções detalhadas sobre como e onde adicionar este token de verificação, consulte a [Metadocumentação](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product).
 
@@ -180,6 +180,6 @@ O vídeo abaixo mostra como configurar o canal do WhatsApp no Adobe Journey Opti
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470273/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

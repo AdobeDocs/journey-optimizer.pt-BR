@@ -6,7 +6,7 @@ description: Gerenciar jornadas
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ O gerenciamento de jornadas no Adobe Journey Optimizer se resume em fornecer as 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Procurar e filtrar jornadas
 
@@ -30,7 +30,7 @@ Saiba como navegar, filtrar e gerenciar jornadas com eficiência, incluindo mét
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Entrada de perfil em jornadas
 
@@ -40,7 +40,7 @@ Entenda como os perfis entram nas jornadas, incluindo regras de reentrada para e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Usar identificadores complementares em jornadas
 
@@ -50,7 +50,7 @@ Descubra como usar identificadores complementares para personalização aprimora
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gerenciamento de fuso horário
 
@@ -60,7 +60,7 @@ Saiba como configurar fusos horários fixos e definidos por perfil para garantir
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Otimização de tempo de envio
 
@@ -70,7 +70,7 @@ Maximize o engajamento para mensagens de email e por push prevendo tempos de env
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Encerrar a jornada
 

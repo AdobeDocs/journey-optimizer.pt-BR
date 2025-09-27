@@ -10,7 +10,7 @@ exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Para ajudar a atingir a meta de conformidade de acessibilidade, o [!DNL Journey 
 
 >[!NOTE]
 >
->As diretrizes para criar conteúdo acessível para seus emails e landing pages estão detalhadas em [esta seção](../email/accessible-content.md).
+>As diretrizes para criar conteúdo acessível para seus emails e páginas de destino estão detalhadas [nesta seção](../email/accessible-content.md).
 
 Os recursos de acessibilidade no [!DNL Adobe Journey Optimizer] são herdados da Adobe Experience Platform:
 

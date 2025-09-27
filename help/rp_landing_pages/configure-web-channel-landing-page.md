@@ -6,7 +6,7 @@ description: Configurar o canal da web
 redpen-status: CREATED_||_2025-08-11_20-39-49
 exl-id: 07c6d86f-7077-4ba1-8da4-fc6752a4484d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ A configuração do canal da web no Adobe Journey Optimizer permite que você fo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Pré-requisitos do canal da web
 
@@ -30,7 +30,7 @@ Saiba mais sobre os pré-requisitos necessários para configurar e usar os recur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar subdomínios da web
 
@@ -40,7 +40,7 @@ Orientações passo a passo de como configurar, gerenciar e cancelar a delegaç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar e configurar um canal da web
 

@@ -6,7 +6,7 @@ description: Notas técnicas
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ As notas técnicas do Adobe Journey Optimizer fornecem uma visão dos bastidores
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Cálculos estatísticos usados em experimentos do Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Saiba mais sobre metodologias estatísticas avançadas, como sequências de conf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Noções básicas de cálculos estatísticos nos relatórios de experimentação
 

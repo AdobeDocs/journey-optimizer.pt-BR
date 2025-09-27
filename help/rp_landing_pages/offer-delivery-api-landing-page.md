@@ -6,7 +6,7 @@ description: Entregar ofertas com APIs
 redpen-status: CREATED_||_2025-08-11_21-04-29
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ As APIs de entrega de ofertas do Adobe Journey Optimizer permitem que você forn
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução às APIs de entrega de ofertas
 
@@ -30,7 +30,7 @@ Saiba mais sobre as APIs disponíveis para fornecer ofertas personalizadas, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Entregar ofertas com a API de tomada de decisão
 
@@ -40,7 +40,7 @@ Crie e entregue ofertas de marketing personalizadas usando a API de tomada de de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Entregar ofertas com a API de tomada de decisão na borda
 
@@ -50,7 +50,7 @@ Implemente uma entrega de ofertas personalizadas com o SDK da web da Adobe Exper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Usar a API de tomada de decisão em lotes para entregar ofertas
 

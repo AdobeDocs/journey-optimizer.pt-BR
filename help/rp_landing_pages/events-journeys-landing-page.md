@@ -6,7 +6,7 @@ description: Configuração de eventos
 redpen-status: CREATED_||_2025-08-11_21-10-50
 exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ A configuração de eventos no Adobe Journey Optimizer refere-se à configuraç�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Trabalhar com eventos de jornadas
 
@@ -30,7 +30,7 @@ Saiba mais sobre os eventos de jornadas, seus tipos, ciclo de vida e configuraç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Configurar um evento unitário
 
@@ -40,7 +40,7 @@ Siga o guia passo a passo para configurar eventos unitários, incluindo a defini
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esquemas ExperienceEvent
 
@@ -50,7 +50,7 @@ Entenda os requisitos e as configurações do esquema de ingestão de eventos e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Integração do Adobe Analytics
 
@@ -60,7 +60,7 @@ Saiba como integrar dados do Adobe Analytics para automatizar jornadas e criar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configurar um evento de negócios
 
@@ -70,7 +70,7 @@ Instruções detalhadas sobre a configuração de eventos de negócios, incluind
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Enviar eventos com as APIs de transmissão
 

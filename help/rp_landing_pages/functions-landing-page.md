@@ -6,7 +6,7 @@ description: Lista de funções auxiliares
 redpen-status: CREATED_||_2025-08-12_00-34-42
 exl-id: 39d68cae-8d6b-4e34-bcd9-75d9531bc6aa
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ As funções auxiliares do Adobe Journey Optimizer permitem personalizar experi�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução às funções auxiliares
 
@@ -30,7 +30,7 @@ Saiba como usar funções auxiliares para manipulação e personalização de da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Biblioteca de funções de agregação
 
@@ -40,7 +40,7 @@ Descubra funções para resumir vários valores em um mesmo valor para fins de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Biblioteca de funções aritméticas
 
@@ -50,7 +50,7 @@ Veja como as funções aritméticas executam cálculos como adição, subtraçã
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referência de funções de matriz e lista
 
@@ -60,7 +60,7 @@ Saiba como manipular matrizes e listas com funções como contagem, recuperaçã
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Biblioteca de funções de data/hora
 
@@ -70,7 +70,7 @@ Use funções de data e hora para manipular e formatar datas em fluxos de trabal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Biblioteca de funções booleanas e de comparação
 

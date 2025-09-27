@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 53%
+ht-degree: 60%
 
 ---
 
@@ -59,4 +59,4 @@ Os canais disponíveis para campanhas acionadas por API são mensagens de email,
 
 Saiba como criar uma campanha e acioná-la a partir de um sistema externo com base em interações do usuário, usando a API REST de execução de mensagem interativa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452730?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

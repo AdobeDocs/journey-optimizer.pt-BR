@@ -49,7 +49,7 @@ Com uma licença Enterprise, os usuários têm acesso total ao editor da Web do 
 
 ![](assets/express-licence.png)
 
-Para obter mais informações sobre casos de uso disponíveis para usuários com uma licença Enterprise para Adobe Express, consulte a [documentação da Adobe Express na Web](https://helpx.adobe.com/br/express/web.html).
+Para obter mais informações sobre casos de uso disponíveis para usuários com uma licença Enterprise para Adobe Express, consulte a [documentação da Adobe Express na Web](https://helpx.adobe.com/express/web.html).
 
 ## Uso do Adobe Express sem uma licença Enterprise  {#edit}
 
@@ -148,7 +148,7 @@ A imagem agora está pronta para ser usada no conteúdo.
 
 Saiba como editar os seus ativos no Adobe Journey Optimizer com as ferramentas do Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455528/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

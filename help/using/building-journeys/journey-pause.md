@@ -199,7 +199,7 @@ Ao retomar esta jornada:
 
 ## Solução de problemas de descartes de perfis em jornadas pausadas {#discards-troubleshoot}
 
-Você pode usar o [Serviço de consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
+Você pode usar o [Serviço de consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
 
 * Para descartes que ocorrem antes que o perfil entre na jornada, use o seguinte código:
 

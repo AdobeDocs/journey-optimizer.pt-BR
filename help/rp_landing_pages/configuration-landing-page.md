@@ -6,7 +6,7 @@ description: Configuração de canais
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ A configuração de canais no Adobe Journey Optimizer permite gerenciar como as 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à configuração de canais
 
@@ -30,7 +30,7 @@ Saiba mais sobre as etapas para configurar canais no Adobe Journey Optimizer, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definir e gerenciar a configuração de canais
 
@@ -40,7 +40,7 @@ Siga um guia detalhado para criar, editar, desativar e monitorar as configuraç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuração de canais guiada
 
@@ -50,7 +50,7 @@ Configure canais móveis e da Web com eficiência usando instruções passo a pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Delegar e gerenciar subdomínios de email
 
@@ -60,7 +60,7 @@ Saiba como delegar e configurar subdomínios de email para otimizar a capacidade
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Implementar um plano de aquecimento de IP
 
@@ -70,7 +70,7 @@ Crie e execute planos de aquecimento de IP para estabelecer a reputação do rem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Monitorar a capacidade de entrega de emails e a reputação
 

@@ -112,7 +112,7 @@ Quando uma atividade de **[!UICONTROL Jump]** é configurada em uma jornada, um 
 
 ![](assets/jump7.png)
 
-## Solução de problemas {#jump-troubleshoot}
+## Resolução de problemas {#jump-troubleshoot}
 
 Ocorrem erros se:
 

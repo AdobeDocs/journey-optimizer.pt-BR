@@ -15,13 +15,13 @@ version: Journey Orchestration
 source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 2%
+ht-degree: 29%
 
 ---
 
 # Solucionar problemas de jornadas {#troubleshooting}
 
-Quando uma jornada do cliente não se comporta conforme esperado, identificar a causa raiz pode ser desafiador. Para ajudá-lo a resolver problemas com eficiência, você pode encontrar abaixo recursos de solução de problemas pelas áreas de problema mais comuns. Se você vir falhas de jornada, inconsistências de execução ou problemas no nível da ação, cada seção fornece orientação direcionada para investigá-las e resolvê-las.
+Quando uma jornada do cliente não se comporta conforme esperado, identificar a causa pode ser desafiador. Para ajudar a resolver problemas de eficiência, você encontrará abaixo recursos de resolução de problemas divididos pelas áreas de problemas mais comuns. Se você vir falhas da jornada, inconsistências de execução ou problemas na camada das ações, cada seção fornece orientações direcionadas para investigá-los e resolvê-los.
 
 Explore as páginas abaixo para se aprofundar em tópicos específicos de solução de problemas:
 
@@ -59,9 +59,9 @@ Explore as páginas abaixo para se aprofundar em tópicos específicos de soluç
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="Compreender códigos de erro comuns" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Além disso, confira <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt" target="_blank">esta publicação do blog da Adobe Community</a> detalhando <strong>códigos de erro comuns</strong> e como resolvê-los de maneira eficaz.
+    <br>Além disso, confira <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">esta publicação do blog da Adobe Community</a> detalhando <strong>códigos de erro comuns</strong> e como resolvê-los de maneira eficaz.
     </div>
   </td>
 </tr>

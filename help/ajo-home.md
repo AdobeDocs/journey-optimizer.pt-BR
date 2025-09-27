@@ -49,7 +49,7 @@ A integração do Adobe Express ao Adobe Journey Optimizer permite acessar facil
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Notas de versão mais recentes
 
@@ -59,7 +59,7 @@ Mantenha-se atualizado com as notas de versão mais recentes, os novos recursos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução
 
@@ -69,7 +69,7 @@ Saiba mais sobre as noções básicas do Journey Optimizer, incluindo seus recur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guia abrangente para jornadas
 
@@ -79,7 +79,7 @@ Projete, orquestre, gerencie e otimize jornadas personalizadas do cliente com es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Noções básicas e gerenciamento de campanhas
 
@@ -89,7 +89,7 @@ Orientação detalhada sobre como criar, gerenciar e otimizar vários tipos de c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canais de comunicação
 
@@ -99,7 +99,7 @@ Configure e gerencie emails, SMS, notificações por push e outros canais para i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gerenciamento de conflitos e priorização
 

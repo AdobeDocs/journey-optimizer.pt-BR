@@ -6,7 +6,7 @@ description: Capacidade de entrega de email
 redpen-status: CREATED_||_2025-08-11_20-34-41
 exl-id: 1657152e-4a93-4664-a56f-3ea7f9e69098
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ A capacidade de entrega de email tem a ver com garantir que seus emails cheguem 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução à capacidade de entrega de email
 
@@ -30,7 +30,7 @@ Saiba mais sobre os conceitos, as práticas recomendadas e as ferramentas para o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Noções básicas sobre listas de supressão
 
@@ -40,7 +40,7 @@ Descubra como as listas de supressão protegem a reputação do remetente e melh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Conformidade com o novo requisito DMARC
 

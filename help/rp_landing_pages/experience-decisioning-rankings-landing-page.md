@@ -6,7 +6,7 @@ description: Criar classificações
 redpen-status: CREATED_||_2025-08-11_20-56-11
 exl-id: 11edd7b2-0319-4576-9fef-042c239b25be
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ No Adobe Journey Optimizer, a criação de classificações permite priorizar co
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Como criar e usar métodos de classificação
 
@@ -30,7 +30,7 @@ Saiba como criar e configurar métodos de classificação, incluindo fórmulas e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Usar o construtor de fórmulas com IA
 
@@ -40,7 +40,7 @@ Explore como usar o construtor de fórmulas com IA para criar fórmulas de class
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Noções básicas e implementação de modelos de IA
 

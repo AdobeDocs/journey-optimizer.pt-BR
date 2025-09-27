@@ -6,7 +6,7 @@ description: Gerenciar itens de decisão
 redpen-status: CREATED_||_2025-08-11_20-55-07
 exl-id: b6490231-e2c8-40c0-9127-128bab76493f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ O gerenciamento de itens de decisão no Adobe Journey Optimizer garante que as o
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar o catálogo de itens
 
@@ -30,7 +30,7 @@ Saiba como configurar e gerenciar o catálogo de itens no recurso de tomada de d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar e gerenciar itens de decisão
 
@@ -40,7 +40,7 @@ Descubra como criar, configurar e gerenciar itens de decisão, incluindo atribut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Gerenciar coleções de itens
 

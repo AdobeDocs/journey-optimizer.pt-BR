@@ -149,4 +149,4 @@ Ao analisar **métricas de relatórios do jornada** usando o serviço Adobe Expe
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464687/?learn=on&enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

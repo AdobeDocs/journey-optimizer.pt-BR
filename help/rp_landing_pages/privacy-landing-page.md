@@ -6,7 +6,7 @@ description: Privacidade
 redpen-status: CREATED_||_2025-08-11_21-20-29
 exl-id: d6c8e958-de3b-4aec-8b3b-8b0b3daa0098
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ As ferramentas de privacidade do Adobe Journey Optimizer permitem que você gere
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Visão geral do gerenciamento de privacidade
 
@@ -30,7 +30,7 @@ Saiba como gerenciar a privacidade no Adobe Journey Optimizer e na Adobe Experie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Gerenciar solicitações de privacidade
 
@@ -40,7 +40,7 @@ Siga as instruções passo a passo para criar e tratar solicitações de privaci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Logs de auditoria para ações dos usuários
 
@@ -50,7 +50,7 @@ Rastreie e monitore ações executadas em recursos do Adobe Journey Optimizer po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Executar operações de ciclo de vida dos dados
 
@@ -60,7 +60,7 @@ Descubra como gerenciar as tarefas de ciclo de vida dos dados, como atualizar e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Gerenciamento de consentimento
 
@@ -70,7 +70,7 @@ Gerencie as preferências e políticas de consentimento dos destinatários para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Políticas de governança de dados
 

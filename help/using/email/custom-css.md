@@ -225,7 +225,7 @@ Se você quiser usar o CSS personalizado com o conteúdo importado para o Design
 <!--
 * If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.-->
 
-## Solução de problemas {#troubleshooting}
+## Resolução de problemas {#troubleshooting}
 
 Se o CSS personalizado não for aplicado, considere as opções abaixo.
 

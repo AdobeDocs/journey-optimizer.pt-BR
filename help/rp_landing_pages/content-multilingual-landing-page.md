@@ -6,7 +6,7 @@ description: Conteúdo multilíngue
 redpen-status: CREATED_||_2025-08-12_00-43-28
 exl-id: 3f02694e-2237-4022-8e05-b76a5a1443b5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ O recurso de conteúdo multilíngue do Adobe Journey Optimizer permite que você
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao conteúdo multilíngue
 
@@ -30,7 +30,7 @@ Saiba como configurar e usar o recurso de conteúdo multilíngue do Adobe Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Como criar uma localidade para o conteúdo multilíngue
 
@@ -40,7 +40,7 @@ Siga as instruções passo a passo para criar e gerenciar novas localidades para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adicionar e configurar provedores de idiomas
 
@@ -50,7 +50,7 @@ Configure provedores de tradução externos para uma integração fluida e um ge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Criar conteúdo multilíngue com tradução manual
 
@@ -60,7 +60,7 @@ Saiba como criar manualmente campanhas e jornadas multilíngues personalizadas p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Criar conteúdo multilíngue com tradução automática
 

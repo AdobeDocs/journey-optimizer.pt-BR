@@ -9,7 +9,7 @@ level: Experienced
 keywords: editor de expressão, dados, jornada
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 334af3ae4732c6b01bb0da404b415aaaf906a3f5
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 55%

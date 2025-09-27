@@ -6,7 +6,7 @@ description: Projetar conteúdo de email
 redpen-status: CREATED_||_2025-08-11_20-33-11
 exl-id: 21ba6677-f158-4d9d-8b01-304c4d3841ee
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ O recurso Projetar conteúdo de email no Adobe Journey Optimizer permite criar e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao design de email
 
@@ -30,7 +30,7 @@ Saiba mais sobre as noções básicas de design de email no Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar e otimizar conteúdo de email
 
@@ -40,7 +40,7 @@ Explore métodos para criar conteúdo de email, importar HTML, codificar emails,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Projetar conteúdo no Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Descubra ferramentas e práticas recomendadas para usar componentes, fragmentos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Editar estilo: personalizar designs de email
 

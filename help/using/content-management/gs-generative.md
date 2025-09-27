@@ -11,7 +11,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: cf9c6370af9541dc0e1361eb42c942d1744a1aae
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 97%
 
 O Assistente de IA no Adobe Journey Optimizer, com tecnologia Microsoft Azure OpenAI e Adobe Firefly, traz sugestões proativas de variação de conteúdo para texto e imagens. Esse novo recurso fornece **geração de texto e imagens baseada em prompts**. A geração de imagens é gerenciada pelo Adobe Firefly.
 
-O Assistente de IA oferece suporte à geração **em vários idiomas**, permitindo que você alcance e envolva diversos públicos globais. O Assistente de IA está disponível nos seguintes idiomas:
+O Assistente de IA oferece suporte à geração **em vários idiomas**, permitindo alcançar e engajar diversos públicos-alvo em todo o mundo. O Assistente de IA está disponível nos seguintes idiomas:
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -114,7 +114,7 @@ As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na 
 * Use um modelo personalizado ou específico da marca para criar seu conteúdo de email usando o Assistente de IA no Adobe Journey Optimizer. Recomenda-se um modelo de email com 8-10 imagens, no máximo.
 * Relate resultados problemáticos usando os ícones de “polegar para cima”, “polegar para baixo” ou o sinalizador ao selecionar variantes.
 * O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html)
+* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 As seguintes limitações se aplicam ao Assistente de IA no Journey Optimizer:
 

@@ -68,7 +68,7 @@ Para enviar mensagens, você precisa seguir as etapas de configuração listadas
 
    * Gerenciar o número de dias durante os quais são executadas tentativas antes do envio de endereços de email para a lista de supressão. [Saiba mais](manage-suppression-list.md)
 
-   * Ativar a **Opção de email CCO** para manter uma cópia das mensagens enviadas a pessoas físicas. [Saiba mais](archiving-support.md#enable-bcc)
+   * Habilitar a **Opção de email CCO** para manter uma cópia das mensagens enviadas a pessoas físicas. [Saiba mais](archiving-support.md#enable-bcc)
 
    * Configure as **regras de negócio** para evitar o excesso de solicitações de seus destinatários. [Saiba mais](../conflict-prioritization/rule-sets.md)
 

@@ -6,7 +6,7 @@ description: Assistente de IA para geração de conteúdo
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ O Assistente de IA do Adobe Journey Optimizer revoluciona a criação de conteú
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao Assistente de IA
 
@@ -30,7 +30,7 @@ Saiba como acessar e configurar o recurso Assistente de IA para aprimorar a cria
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Geração de conteúdo de email com IA
 
@@ -40,7 +40,7 @@ Descubra como usar o Assistente de IA para criar, personalizar e otimizar conte�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Geração de conteúdo de notificação por push
 
@@ -50,7 +50,7 @@ Crie e personalize o conteúdo de notificação por push com IA, incluindo texto
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Geração de conteúdo de SMS com IA
 
@@ -60,7 +60,7 @@ Use o Assistente de IA para gerar e refinar conteúdo de SMS que repercuta com s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Conteúdo de página da Web e geração de ativos
 
@@ -70,7 +70,7 @@ Melhore o conteúdo e os visuais da página da Web com o Assistente de IA, garan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
 
 Geração de página de destino com IA
 

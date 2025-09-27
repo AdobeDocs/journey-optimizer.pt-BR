@@ -6,7 +6,7 @@ description: Monitorar endereços de email
 redpen-status: CREATED_||_2025-08-11_21-08-58
 exl-id: cbc8b2af-9df7-4523-88eb-fe73f74f2b01
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ O gerenciamento da integridade das suas campanhas de email começa com o monitor
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gerenciar a lista de supressão
 
@@ -30,7 +30,7 @@ Saiba como controlar a capacidade de entrega de emails por meio do gerenciamento
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gerenciar novas tentativas e listas de supressão
 
@@ -40,7 +40,7 @@ Entenda e configure mecanismos de novas tentativas para erros de devolução tem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Configurar listas de permissões
 

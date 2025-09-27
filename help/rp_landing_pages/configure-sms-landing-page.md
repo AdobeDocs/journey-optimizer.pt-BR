@@ -6,7 +6,7 @@ description: Configurar canal de SMS/MMS/RCS
 redpen-status: CREATED_||_2025-08-11_20-38-02
 exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ O canal de SMS/MMS/RCS do Adobe Journey Optimizer permite que as empresas se con
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à configuração do canal de SMS/MMS/RCS
 
@@ -30,7 +30,7 @@ Saiba como configurar o canal de SMS, MMS e RCS no Adobe Journey Optimizer, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Configurar o provedor Sinch para mensagens SMS/MMS/RCS
 
@@ -40,7 +40,7 @@ Instruções detalhadas sobre a configuração de credenciais da API do Sinch pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Configurar o provedor Infobip para SMS, MMS e RCS
 
@@ -50,7 +50,7 @@ Orientações detalhadas sobre a integração do Infobip como provedor de mensag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Configurar o provedor Twilio para mensagens SMS/MMS/RCS
 
@@ -60,7 +60,7 @@ Instruções para configurar as credenciais da API do Twilio e habilitar mensage
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configurar um provedor de SMS personalizado
 
@@ -70,7 +70,7 @@ Configure provedores de SMS personalizados, criando credenciais de API, gerencia
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Criar uma configuração do canal de SMS/MMS/RCS
 

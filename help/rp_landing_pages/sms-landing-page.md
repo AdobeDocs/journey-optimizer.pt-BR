@@ -6,7 +6,7 @@ description: Canal de SMS/MMS/RCS
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ O canal de SMS/MMS/RCS do Adobe Journey Optimizer permite a você engajar os cli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução às mensagens de texto
 
@@ -30,7 +30,7 @@ Saiba como configurar, criar e gerenciar mensagens SMS, MMS e RCS no Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Como criar mensagens SMS, MMS e RCS
 
@@ -40,7 +40,7 @@ Guia passo a passo para elaborar, configurar e enviar mensagens de texto persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verificar e enviar mensagens de texto
 
@@ -50,7 +50,7 @@ Visualize, valide e envie mensagens, garantindo o sucesso da entrega e a adesão
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gerenciar recusas de mensagens de texto
 
@@ -60,7 +60,7 @@ Garanta a conformidade com os padrões do setor, gerenciando processos de recusa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar subdomínios de SMS
 
@@ -70,7 +70,7 @@ Configure subdomínios de SMS para a entrega de mensagens, incluindo configuraç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configurar canais de SMS/MMS/RCS
 

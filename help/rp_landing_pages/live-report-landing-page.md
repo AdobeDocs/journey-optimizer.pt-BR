@@ -6,7 +6,7 @@ description: Relatório em tempo real
 redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ O recurso de relatório em tempo real do Adobe Journey Optimizer permite rastrea
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao relatório em tempo real
 
@@ -30,7 +30,7 @@ Saiba como acessar, personalizar e exportar relatórios em tempo real para monit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Lista de métricas
 
@@ -40,7 +40,7 @@ Entenda as definições e categorias de métricas usadas nos relatórios em temp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Relatório em tempo real da jornada
 
@@ -50,7 +50,7 @@ Analise o desempenho das jornadas e dos canais de comunicação associados em te
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Relatório em tempo real da campanha
 
@@ -60,7 +60,7 @@ Visualize o desempenho da campanha em vários canais, como email, push, SMS, web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Relatório em tempo real da página de destino
 
@@ -70,7 +70,7 @@ Avalie o desempenho da página de destino com métricas em tempo real, como visi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Relatório em tempo real de assinaturas
 

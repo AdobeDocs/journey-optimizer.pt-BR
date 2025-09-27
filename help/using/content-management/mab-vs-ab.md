@@ -4,7 +4,8 @@ description: Saiba mais sobre Teste A/B versus bandit multiarmado
 feature: A/B Testing, Experimentation
 role: User
 level: Experienced
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
+source-git-commit: 4b0355c4e871e89c1b3eeea978959a2d97fa475d
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 2%
@@ -132,4 +133,3 @@ As principais limitações dos métodos Multi-armed bandit são:
 | Você tem tráfego limitado e deseja otimizar o Retorno do investimento rapidamente | Multi-Armed Bandit |
 | Você tem alto tráfego e pode arcar com a aprendizagem mais lenta | A/B |
 | As partes interessadas precisam de pontos de decisão claros | A/B |
-

@@ -1182,7 +1182,7 @@ Esta versão vem com as melhorias listadas abaixo.
 Novos status intermediários foram adicionados ao ciclo de vida de criação de jornada:
 
 * Status **Publicando** entre o status **Rascunho** e o status **Ativo**
-* Status **Interrompendo** entre o status **Ativo** e o status **Parado** 
+* Status **Interrompendo** entre o status **Ativo** e o status **Parado**
 * Os status **Ativando o modo de teste** ou **Desativando o modo de teste** entre o status **Rascunho** e o status **Rascunho (teste)**
 
 Quando uma jornada está em um estado intermediário, ela fica como somente de leitura. [Saiba mais](../building-journeys/journey-gs.md#filter)

@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## O que são os manuais de casos de uso? {#gs}
 
-Os Manuais de casos de uso são workflows predefinidos abordando casos de uso comuns que podem ser executados usando a Adobe Experience Platform e o Journey Optimizer.
+Os Manuais de casos de uso são fluxos de trabalho predefinidos abordando casos de uso comuns que podem ser executados usando a Adobe Experience Platform e o Journey Optimizer.
 
 ![imagem animada exibindo Manuais de casos de uso](../rn/assets/do-not-localize/playbooks.gif){width="85%"}
 

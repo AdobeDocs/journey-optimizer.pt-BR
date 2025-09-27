@@ -1,6 +1,6 @@
 ---
 title: Introdução ao serviço de decisão
-description: Saiba mais sobre Decisões
+description: Saiba mais sobre decisão
 feature: Decisioning
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 

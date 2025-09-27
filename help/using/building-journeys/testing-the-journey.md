@@ -106,7 +106,7 @@ O namespace de identidade é usado para identificar exclusivamente os perfis de 
 >* Verifique se cada evento no modo de teste é acionado na ordem correta e dentro da janela de espera configurada. Por exemplo, se houver uma espera de 60 segundos, o segundo evento deverá ser acionado somente após essa espera de 60 segundos ter decorrido e antes que o tempo limite expire.
 >
 
-### Configuração de evento {#trigger-events-configuration}
+### Configuração de eventos {#trigger-events-configuration}
 
 Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface ajuda você a passar as informações corretas na carga do evento e garantir que o tipo de informação esteja correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
 

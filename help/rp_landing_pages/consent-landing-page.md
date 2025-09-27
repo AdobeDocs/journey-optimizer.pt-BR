@@ -6,7 +6,7 @@ description: Gerenciar consentimento
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ O gerenciamento de consentimento é fundamental para aumentar a confiança do se
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gerenciar recusas e consentimento de personalização
 
@@ -30,7 +30,7 @@ Saiba como gerenciar as preferências de recusa e aplicar o consentimento de per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Trabalhar com políticas de consentimento
 
