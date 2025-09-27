@@ -246,4 +246,4 @@ Você poderá editar facilmente os campos de formulário a partir de uma jornada
 
 Saiba como adicionar campos editáveis a modelos de conteúdo de canal de experiência baseados em código.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463996/?learn=on&#x26;enablevpops&captions=por_br)

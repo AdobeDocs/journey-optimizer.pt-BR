@@ -55,4 +55,4 @@ As campanhas de ação (ou campanhas programadas) permitem criar comunicações 
 
 Saiba como criar uma campanha de Ação.
 
->[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3414156?quality=12&captions=por_br)
