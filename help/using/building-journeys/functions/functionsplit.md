@@ -8,7 +8,7 @@ level: Experienced
 keywords: split, função, expressão, jornada
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 version: Journey Orchestration
-source-git-commit: 334af3ae4732c6b01bb0da404b415aaaf906a3f5
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 14%
