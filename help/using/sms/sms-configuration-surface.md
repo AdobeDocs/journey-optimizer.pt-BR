@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 14%
+source-wordcount: '474'
+ht-degree: 13%
 
 ---
 
@@ -40,7 +40,7 @@ Para criar uma configuração de canal, siga estas etapas:
 
 1. Defina as **configurações de SMS**.
 
-   ![](assets/sms-surface-settings.png)
+   ![](assets/sms-surface-settings.png){width=80%}
 
    Comece selecionando o **[!UICONTROL Tipo de SMS]** que será enviado com a configuração: **[!UICONTROL Transacional]** ou **[!UICONTROL Marketing]**.
 
@@ -59,13 +59,17 @@ Para criar uma configuração de canal, siga estas etapas:
 
 1. Digite o **[!UICONTROL Número do remetente]** &#x200B;que você deseja usar para suas comunicações.
 
-1. Selecione o **[!UICONTROL Campo de Execução do SMS]** para selecionar o **[!UICONTROL atributo de perfil]** associado aos números de telefone dos perfis.
-
 1. Se você quiser usar a função de redução de URL em suas mensagens SMS, selecione um item na lista **[!UICONTROL Subdomínio]**.
 
    >[!NOTE]
    >
    >Para selecionar um subdomínio, verifique se você configurou anteriormente pelo menos um subdomínio SMS/MMS. [Saiba como](sms-subdomains.md)
+
+1. Na seção **[!UICONTROL Execution dimension]**, use o **[!UICONTROL SMS Execution Field]** para selecionar entre os atributos do perfil o número de telefone que você deseja usar em prioridade se vários números estiverem disponíveis no banco de dados. [Saiba mais](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+
+   >[!NOTE]
+   >
+   >Por padrão, [!DNL Journey Optimizer] usa o número de telefone especificado nas [configurações gerais](../configuration/primary-email-addresses.md) no nível da sandbox. Atualizar esse campo substitui o valor padrão para as jornadas e campanhas que usam essa configuração.
 
 1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Enviar]** para confirmar. Você também pode salvar a configuração do canal como rascunho e retomar a configuração posteriormente.
 

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, execução, e-mail, destino, perfil, otimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 19%
+source-wordcount: '607'
+ht-degree: 23%
 
 ---
 
@@ -35,6 +35,10 @@ Nesse caso, [!DNL Journey Optimizer] usa **[!UICONTROL Campos de execução]** p
 Para verificar os campos que são usados por padrão no momento, acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Campos de execuções]**.
 
 ![](assets/primary-address-execution-fields.png)
+
+>[!NOTE]
+>
+>Os campos de execução estão disponíveis para os canais de email e SMS.
 
 Os valores atuais são usados para todos os deliveries no nível da sandbox. Você pode atualizar esses campos, se necessário.
 
@@ -66,7 +70,7 @@ O campo de execução é atualizado e agora será usado como o endereço princip
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Substituir o campo de execução padrão {#override-default-execution-address}
+## Substitua o campo de execução padrão nos parâmetros de jornada {#override-execution-address-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
@@ -74,24 +78,16 @@ O campo de execução é atualizado e agora será usado como o endereço princip
 >abstract="Em alguns casos específicos, é possível substituir o endereço de execução padrão. Use o ícone **Habilitar substituição de parâmetro** à direita do campo para definir um endereço principal personalizado."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Sobre o endereço de execução"
 
-Para casos de uso específicos, é possível substituir o conjunto de campos de execução globalmente e definir um valor diferente no nível de configuração de email ou no nível de jornada.
+Para casos de uso específicos, é possível substituir o conjunto de campos de execução globalmente e definir um valor diferente no nível da jornada.
 
 Substituir esse valor pode ser útil, por exemplo, para:
 
 * Teste um email. É possível adicionar seu próprio endereço de email: depois de publicar a jornada, o email será enviado para você.
 * Enviar um email aos assinantes de uma lista. Saiba mais [neste caso de uso](../building-journeys/message-to-subscribers-uc.md).
 
-### Na configuração do email
-
-Você pode alterar o campo de execução padrão definido nas [configurações gerais](#admin-settings) ao definir uma configuração de canal de email. [Saiba mais](../email/email-settings.md#execution-address)
-
-Quando um endereço de execução é definido na configuração de email, ele é usado como o endereço principal e substitui a configuração geral no nível da sandbox.
-
-### Nos parâmetros de jornada {#journey-parameters}
-
 Ao adicionar uma ação de **[!UICONTROL Email]** ou **[!UICONTROL SMS]** a uma [jornada](../email/create-email.md#create-email-journey-campaign), o endereço de email principal é exibido nos parâmetros avançados de jornada.
 
-Em alguns contextos específicos, é possível substituir esse valor usando o ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo.
+Substitua esse valor usando o ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo.
 
 ![](assets/journey-enable-parameter-override.png)
 
@@ -99,4 +95,23 @@ Em alguns contextos específicos, é possível substituir esse valor usando o í
 >
 >A substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterar o endereço de email, pois o valor definido como o endereço principal nos **[!UICONTROL Campos de execução]** é o que deve ser usado.
 
+## Substituir o campo de execução padrão na configuração do canal {#override-execution-address-channel-config}
 
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="Substituir o endereço de execução padrão a ser usado"
+>abstract="Quando vários endereços de email ou números de telefone estiverem disponíveis no banco de dados (pessoal, profissional etc.), você poderá escolher qual deles priorizar para envio. O endereço principal é definido no nível da sandbox, mas aqui você pode substituir a configuração padrão para essa configuração de canal específica."
+
+Você pode alterar o endereço de execução padrão de uma [configuração de canal](channel-surfaces.md) de email ou SMS específica.
+
+Para fazer isso, vá para a seção **[!UICONTROL Execution dimension]** e edite o campo em **[!UICONTROL Execution Address]**.
+
+![](assets/sms-config-execution-address.png){width=85%}
+
+Em seguida, selecione um item na lista de campos XDM do tipo email disponíveis.
+
+![](assets/sms-config-execution-field.png)
+
+O campo de execução é atualizado e, em seguida, usado como o endereço principal das campanhas ou jornadas que usam essa configuração de canal. Ele substitui a [configuração geral](#admin-settings) definida no nível da sandbox.
+
+<!--[Learn more on the execution address in the email configuration ](../email/email-settings.md#execution-address)-->

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 98%
 
 ---
 
@@ -187,11 +187,6 @@ Use os **[!UICONTROL parâmetros de rastreamento de URL]** para medir a eficáci
 
 ## Endereço de execução {#execution-address}
 
->[!CONTEXTUALHELP]
->id="ajo_email_config_execution_address"
->title="Substituir o endereço de execução padrão a ser usado"
->abstract="Quando vários endereços de email estão disponíveis no banco de dados (pessoal, profissional etc.), você pode escolher qual deles priorizar para envio. O endereço principal é definido no nível da sandbox, mas aqui você pode substituir a configuração padrão para essa configuração de email específica."
-
 Ao direcionar um perfil, pode haver vários endereços de email disponíveis no banco de dados (endereço de email profissional, endereço de email pessoal etc.).
 
 Nesse caso, o [!DNL Journey Optimizer] usa o endereço especificado nos **[!UICONTROL Campos de execução]** no nível da sandbox para determinar qual endereço de email do serviço de perfil usar com prioridade. [Saiba mais](../configuration/primary-email-addresses.md)
@@ -202,8 +197,6 @@ Nesse caso, o [!DNL Journey Optimizer] usa o endereço especificado nos **[!UICO
 
 No entanto, é possível alterar esse campo de execução padrão no nível de configuração do canal de email. É possível aplicar essa configuração a campanhas ou jornadas específicas.
 
-Para fazer isso, edite o campo **[!UICONTROL Endereço de entrega]** e selecione um item na lista de campos XDM do tipo email disponíveis.
+Para fazer isso, edite o campo **[!UICONTROL Endereço de entrega]** e selecione um item na lista de campos XDM do tipo email disponíveis. [Saiba mais](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
-
-O campo de execução é atualizado e usado como o endereço principal. Isso substitui a configuração geral no nível da sandbox.
