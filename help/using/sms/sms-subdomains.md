@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdomínios, configuração
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 9f66606e2673554f7dfb40dd48cfc17eca2ca06b
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 20%
+source-wordcount: '1008'
+ht-degree: 18%
 
 ---
 
@@ -133,14 +133,23 @@ Antes de usar um subdomínio para enviar mensagens SMS, você deve aguardar até
 
 Observe que o subdomínio será marcado como **[!UICONTROL Falha]** se você não criar o registro de validação na solução de hospedagem.
 
+## Medidas de proteção {#guardrails}
+
+Atualmente, a interface do usuário [!DNL Journey Optimizer] não oferece suporte à exclusão ou desdelegação de subdomínios SMS depois de configurados.
+
+No entanto, ao testar recursos em [!DNL Journey Optimizer], talvez seja necessário criar um subdomínio SMS. Após a conclusão do teste, isso pode levar a ambientes desorganizados com configurações desnecessárias, pois a interface do usuário não permite remover ou desdelegar subdomínios SMS.
+
+Estas são algumas etapas e considerações recomendadas:
+
+<!--As an alternative action, create a new SMS subdomain for future use cases and avoid using the existing one if it is no longer needed.-->
+
+* Como prática recomendada, mantenha um ambiente organizado criando apenas os componentes e as configurações necessários.
+* Em situações em que há um impacto nos negócios, entre em contato com o representante da Adobe, que pode ajudar na remoção/desdelegação do subdomínio SMS. [Saiba mais](#undelegate-subdomain)
+* Se for necessária mais assistência, entre em contato com a Adobe para obter orientação sobre como gerenciar sua instância de maneira eficaz.
+
 ## Cancelar delegação de um subdomínio {#undelegate-subdomain}
 
 Se quiser cancelar a delegação de um subdomínio SMS, entre em contato com o representante da Adobe com o subdomínio que deseja cancelar a delegação.
-
-<!--
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/manage-campaigns.md#stop)
-
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
 Se o subdomínio SMS apontar para um registro CNAME, você poderá excluir o registro DNS CNAME que criou para o subdomínio SMS da solução de hospedagem (mas não exclua o subdomínio de email original, se houver).
 
