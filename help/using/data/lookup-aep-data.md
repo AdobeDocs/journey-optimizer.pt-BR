@@ -10,10 +10,10 @@ level: Intermediate
 keywords: expressão, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 6%
+source-wordcount: '752'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +35,7 @@ Antes de começar, reveja as seguintes restrições e diretrizes:
 * Os conjuntos de dados habilitados para pesquisa não devem conter Informações pessoais identificáveis (PII).
 * Os conjuntos de dados habilitados para pesquisa e usados na personalização não estão protegidos contra exclusão. Cabe a você acompanhar quais conjuntos de dados estão sendo usados para personalização para garantir que eles não sejam excluídos ou removidos.
 * Os conjuntos de dados devem ser associados a um esquema que NÃO seja do tipo Perfil ou Evento.
-* Os esquemas devem ter uma identidade primária. Somente uma única chave primária pode ser usada para pesquisas.
+* A assimilação de dados de transmissão é compatível com conjuntos de dados habilitados para pesquisa. Lembre-se de que o processamento da assimilação ainda deve ser concluído antes que os dados estejam disponíveis para personalização ou decisão.
 
 ### Direito ao serviço de pesquisa
 
