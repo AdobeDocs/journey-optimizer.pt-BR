@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2954'
 ht-degree: 99%
 
 ---
@@ -290,7 +290,7 @@ ht-degree: 99%
       + [Selecionar perfis de teste](using/content-management/test-profiles.md)
       + [Visualizar usando perfis de teste](using/content-management/preview.md)
       + [Enviar provas usando dados de perfil de teste](using/content-management/proofs.md)
-      + [Testar a renderização do email](using/content-management/rendering.md)
+      + [Testar o e-mail rendering](using/content-management/rendering.md)
       + [Simular variações de conteúdo](using/test-approve/simulate-sample-input.md)
       + [Geração automática de variantes de conteúdo](using/test-approve/simulate-sample-input-generated.md)
       + [Relatório de spam de email](using/content-management/spam-report.md)
@@ -395,7 +395,7 @@ ht-degree: 99%
       + [Introdução ao canal da web](using/web/get-started-web.md)
       + Configurar o canal da web {#configure-web-channel}
          + [Configurar o canal da web](/help/rp_landing_pages/configure-web-channel-landing-page.md)
-         + [Pré-requisitos do canal web](using/web/web-prerequisites.md)
+         + [Pré-requisitos do canal da web](using/web/web-prerequisites.md)
          + [Configurar subdomínios da Web](using/web/web-delegated-subdomains.md)
          + [Criar configuração do canal da Web](using/web/web-configuration.md)
       + [Criação de experiências da Web](using/web/create-web.md)
@@ -911,6 +911,7 @@ ht-degree: 99%
    + [Usar listas de seeds](using/configuration/seed-lists.md)
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
+   + [Criar webhooks de comentários](using/configuration/feedback-webhooks.md)
 + Configuração de jornada {#configure-journeys}
    + [Configuração de jornada](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [Introdução à configuração de jornadas](using/configuration/about-data-sources-events-actions.md)
