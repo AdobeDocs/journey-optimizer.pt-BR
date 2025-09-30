@@ -20,7 +20,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
 >title="Delegar um subdomínio da web"
->abstract="Você configurará o subdomínio para uso do canal web. Você pode usar um subdomínio que já tenha sido delegado à Adobe ou configurar outro subdomínio."
+>abstract="Você configurará o subdomínio para uso do canal da web. Você pode usar um subdomínio que já tenha sido delegado à Adobe ou configurar outro subdomínio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
