@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 96afe15b89b0a8291d5682bbfaa67404b5ebef93
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 7%
+source-wordcount: '767'
+ht-degree: 8%
 
 ---
 
@@ -73,7 +73,7 @@ Se o posicionamento selecionado for do tipo imagem, você poderá adicionar cont
 
 >[!NOTE]
 >
-> Para trabalhar com o [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=pt-BR){target="_blank"}, é necessário implantar o [!DNL Assets Essentials] para sua organização e verificar se os usuários fazem parte dos **Usuários consumidores do Assets Essentials** e/ou dos **Usuários do Assets Essentials** perfis de produto. Saiba mais sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=pt-BR){target="_blank"}.
+> Para trabalhar com o [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, é necessário implantar o [!DNL Assets Essentials] para sua organização e verificar se os usuários fazem parte dos **Usuários consumidores do Assets Essentials** e/ou dos **Usuários do Assets Essentials** perfis de produto. Saiba mais sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Escolha a opção **[!UICONTROL Biblioteca de ativos]**.
 
@@ -89,9 +89,9 @@ Se o posicionamento selecionado for do tipo imagem, você poderá adicionar cont
 
 ### Adicionar arquivos HTML ou JSON {#html-json}
 
-Se o posicionamento selecionado for do tipo HTML, você também poderá adicionar conteúdo HTML ou JSON provenientes da [biblioteca do Adobe Experience Cloud Asset](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=pt-BR){target="_blank"}).
+Se o posicionamento selecionado for do tipo HTML, você também poderá adicionar conteúdo HTML ou JSON provenientes da [biblioteca do Adobe Experience Cloud Asset](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
 
-Por exemplo, você criou um modelo de email do HTML no [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=pt-BR){target="_blank"} e deseja usar esse arquivo para o seu conteúdo de oferta. Em vez de criar um novo arquivo, basta carregar o modelo na **Biblioteca de Ativos** para poder reutilizá-lo nas representações de oferta.
+Por exemplo, você criou um modelo de email do HTML no [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} e deseja usar esse arquivo para o seu conteúdo de oferta. Em vez de criar um novo arquivo, basta carregar o modelo na **Biblioteca de Ativos** para poder reutilizá-lo nas representações de oferta.
 
 Para reutilizar o conteúdo em uma representação, navegue pela **Biblioteca de Ativos** conforme descrito em [esta seção](#images) e selecione o arquivo HTML ou JSON de sua escolha.
 
@@ -103,15 +103,11 @@ Para adicionar conteúdo de um local público externo, selecione **[!UICONTROL U
 
 Você pode personalizar URLs usando o editor de personalização. Saiba mais sobre a [personalização](../../personalization/personalize.md#use-expression-editor).
 
-
-Você também pode inserir um fragmento de conteúdo do Adobe Experience Manager diretamente na sua oferta clicando em **[!UICONTROL Fragmento de conteúdo]**. Observe que para acessar o Fragmento de conteúdo em Ofertas, a disposição selecionada deve ser do tipo JSON.
-Saiba mais sobre a [integração de fragmento de conteúdo com o Journey Optimizer](../../integrations/aem-fragments.md).
-
 ![](../assets/offer-content-url.png)
 
 Por exemplo, você deseja personalizar a imagem mostrada como uma oferta. Você quer que os usuários que favorecem as férias da cidade vejam o horizonte de Nova York e os usuários que favorecem as férias da praia para ver o Havaí costa norte.
 
-Use o editor de personalização para recuperar atributos de Perfil armazenados no Adobe Experience Platform usando esquemas de união. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=pt-BR){target="_blank"}
+Use o editor de personalização para recuperar atributos de Perfil armazenados no Adobe Experience Platform usando esquemas de união. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
