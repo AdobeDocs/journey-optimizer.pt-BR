@@ -28,7 +28,7 @@ O exemplo a seguir define manualmente o esquema **Associações de fidelidade** 
 
 1. [Assimile dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
 
-➡️ [Saiba mais sobre esquemas manuais baseados em modelo na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Saiba mais sobre esquemas manuais baseados em modelo na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Criar seu esquema {#schema}
 
