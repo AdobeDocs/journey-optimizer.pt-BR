@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 71b4c2b711858731cfd0f627a5ff97fe9eb817a2
+source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 9%
+source-wordcount: '1352'
+ht-degree: 7%
 
 ---
 
@@ -175,6 +175,16 @@ Se as palavras-chave de aceitação ou recusa não forem fornecidas, as mensagen
 
 Depois que as credenciais da API forem criadas com êxito, a próxima etapa é criar um webhook e definir as configurações de entrada. Essa configuração garante que seu sistema possa receber e processar corretamente mensagens ou dados recebidos.
 
+Ao configurar um webhook, você pode definir sua finalidade com base no tipo de dados que deseja capturar:
+
+* **[!UICONTROL Entrada]**: use esta opção se desejar capturar respostas de consentimento, como aceitação ou recusa, e coletar preferências do usuário.
+
+* **[!UICONTROL Feedback]**: escolha esta opção para rastrear eventos de entrega e participação, incluindo confirmações de leitura e interações de usuário, para oferecer suporte a relatórios e análises.
+
+>[!BEGINTABS]
+
+>[!TAB Entrada]
+
 1. No painel à esquerda, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]**, selecione o menu **[!UICONTROL Webhooks de SMS]** em **[!UICONTROL Configurações de SMS]** e clique no botão **[!UICONTROL Criar Webhook]**.
 
    ![](assets/sms_byo_5.png)
@@ -185,17 +195,21 @@ Depois que as credenciais da API forem criadas com êxito, a próxima etapa é c
 
    * **[!UICONTROL Selecionar fornecedor de SMS]**: personalizado.
 
-   * **[!UICONTROL Selecionar credenciais de API]**: escolha no menu suspenso suas [credenciais de API configuradas anteriormente](#api-credential).
+   * **[!UICONTROL Tipo]**: Entrada.
 
-   * **[!UICONTROL Palavras-chave de aceitação]**: insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua mensagem de aceitação. Para várias palavras-chave, use valores separados por vírgulas.
+   * **[!UICONTROL Credenciais da API]**: escolha no menu suspenso suas [credenciais de API configuradas anteriormente](#api-credential).
 
-   * **[!UICONTROL Mensagem de aceitação]**: digite a resposta personalizada que é enviada automaticamente como sua Mensagem de aceitação.
+1. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar suas categorias de palavras-chave e, em seguida, configure-as da seguinte maneira:
 
-   * **[!UICONTROL Palavras-chave de recusa]**: insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua mensagem de recusa. Para várias palavras-chave, use valores separados por vírgulas.
+   * **[!UICONTROL Categoria de Palavra-chave de Entrada]**: Escolha suas categorias de palavra-chave: **[!UICONTROL Aceitação]**, **[!UICONTROL Recusa]**, **[!UICONTROL Ajuda]** ou **[!UICONTROL Padrão]**.
 
-   * **[!UICONTROL Mensagem de recusa]**: digite a resposta personalizada que é enviada automaticamente como sua Mensagem de recusa.
+   * **[!UICONTROL Inserir uma palavra-chave]**: insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua mensagem. Para várias palavras-chave, use valores separados por vírgulas.
+
+   * **[!UICONTROL Mensagem de Resposta]**: Digite a resposta personalizada que é enviada automaticamente.
 
    ![](assets/sms_byo_6.png)
+
+1. Habilite a opção **[!UICONTROL Não participação difusa]** para detectar mensagens que se assemelham a palavras-chave de não participação (por exemplo, &#39;CANCIL&#39;).
 
 1. Clique em **[!UICONTROL Exibir editor de carga]** para validar e personalizar suas cargas de solicitação.
 
@@ -214,6 +228,41 @@ Depois que as credenciais da API forem criadas com êxito, a próxima etapa é c
 Depois de criar e definir as configurações de entrada para o Webhook, agora é necessário criar uma [configuração de canal](sms-configuration-surface.md) para mensagens SMS.
 
 Depois de configurado, você pode aproveitar todos os recursos de canal prontos para uso, como criação de mensagens, personalização, rastreamento de links e relatórios.
+
+>[!TAB Feedback]
+
+1. No painel à esquerda, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]**, selecione o menu **[!UICONTROL Webhooks de SMS]** em **[!UICONTROL Configurações de SMS]** e clique no botão **[!UICONTROL Criar Webhook]**.
+
+   ![](assets/sms_byo_5.png)
+
+1. Defina as configurações do Webhook, conforme detalhado abaixo:
+
+   * **[!UICONTROL Nome]**: digite um nome para o seu Webhook.
+
+   * **[!UICONTROL Selecionar fornecedor de SMS]**: personalizado.
+
+   * **[!UICONTROL Tipo]**: Comentários.
+
+1. Clique em **[!UICONTROL Exibir editor de carga]** para validar e personalizar suas cargas de solicitação.
+
+   Você pode personalizar dinamicamente seu conteúdo usando atributos de perfil do e garantir que dados precisos sejam enviados para processamento e geração de resposta com a ajuda de funções auxiliares integradas.
+
+1. Clique em **[!UICONTROL Enviar]** quando terminar a configuração do seu Webhook.
+
+1. No menu **[!UICONTROL Webhooks]**, clique no ![ícone bin](assets/do-not-localize/Smock_Delete_18_N.svg) para excluir seu Webhook.
+
+1. Para modificar a configuração existente, localize o Webhook desejado e clique na opção **[!UICONTROL Editar]** para fazer as alterações necessárias.
+
+1. Acesse e copie sua nova **[!UICONTROL URL do Webhook]** do **[!UICONTROL Webhook]** enviado anteriormente.
+
+   ![](assets/sms_byo_7.png)
+
+Depois de criar e definir as configurações de entrada para o Webhook, agora é necessário criar uma [configuração de canal](sms-configuration-surface.md) para mensagens SMS.
+
+Depois de configurado, você pode aproveitar todos os recursos de canal prontos para uso, como criação de mensagens, personalização, rastreamento de links e relatórios.
+
+>[!ENDTABS]
+
 
 ## Vídeo tutorial {#video}
 
