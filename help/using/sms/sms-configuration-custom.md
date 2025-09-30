@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
+source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1357'
 ht-degree: 7%
 
 ---
@@ -199,17 +199,19 @@ Ao configurar um webhook, você pode definir sua finalidade com base no tipo de 
 
    * **[!UICONTROL Credenciais da API]**: escolha no menu suspenso suas [credenciais de API configuradas anteriormente](#api-credential).
 
+   * **[!UICONTROL Número de Telefone do Remetente &#x200B;]**: digite o número de telefone do Remetente &#x200B;que você deseja usar para suas comunicações.
+
+     ![](assets/webhook-inbound.png)
+
 1. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar suas categorias de palavras-chave e, em seguida, configure-as da seguinte maneira:
 
    * **[!UICONTROL Categoria de Palavra-chave de Entrada]**: Escolha suas categorias de palavra-chave: **[!UICONTROL Aceitação]**, **[!UICONTROL Recusa]**, **[!UICONTROL Ajuda]** ou **[!UICONTROL Padrão]**.
 
-   * **[!UICONTROL Inserir uma palavra-chave]**: insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua mensagem. Para várias palavras-chave, use valores separados por vírgulas.
+   * **[!UICONTROL Inserir uma palavra-chave]**: insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua mensagem. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar várias palavras-chave.
 
-   * **[!UICONTROL Mensagem de Resposta]**: Digite a resposta personalizada que é enviada automaticamente.
+   * **[!UICONTROL Mensagem de resposta]**: selecione no menu suspenso a resposta personalizada que é enviada automaticamente.
 
    ![](assets/sms_byo_6.png)
-
-1. Habilite a opção **[!UICONTROL Não participação difusa]** para detectar mensagens que se assemelham a palavras-chave de não participação (por exemplo, &#39;CANCIL&#39;).
 
 1. Clique em **[!UICONTROL Exibir editor de carga]** para validar e personalizar suas cargas de solicitação.
 
@@ -243,6 +245,8 @@ Depois de configurado, você pode aproveitar todos os recursos de canal prontos 
 
    * **[!UICONTROL Tipo]**: Comentários.
 
+   ![](assets/webhook-feedback.png)
+
 1. Clique em **[!UICONTROL Exibir editor de carga]** para validar e personalizar suas cargas de solicitação.
 
    Você pode personalizar dinamicamente seu conteúdo usando atributos de perfil do e garantir que dados precisos sejam enviados para processamento e geração de resposta com a ajuda de funções auxiliares integradas.
@@ -255,7 +259,7 @@ Depois de configurado, você pode aproveitar todos os recursos de canal prontos 
 
 1. Acesse e copie sua nova **[!UICONTROL URL do Webhook]** do **[!UICONTROL Webhook]** enviado anteriormente.
 
-   ![](assets/sms_byo_7.png)
+   ![](assets/sms_byo_8.png)
 
 Depois de criar e definir as configurações de entrada para o Webhook, agora é necessário criar uma [configuração de canal](sms-configuration-surface.md) para mensagens SMS.
 
