@@ -5,10 +5,10 @@ title: Etapas de configuração
 description: Saiba como criar um esquema baseado em modelo no Adobe Experience Platform fazendo upload de uma DDL
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 2%
+source-wordcount: '470'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Este guia aborda o processo de criação de um esquema baseado em modelo, config
 
 ## Principais conceitos
 
-No contexto de campanhas orquestradas, um **conjunto de dados** é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas). Os dados assimilados com sucesso na Experience Platform são armazenados no data lake como conjuntos de dados.
+No contexto de campanhas orquestradas, um **conjunto de dados** é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (linhas) e campos (colunas). Os dados assimilados com sucesso na Experience Platform são armazenados no data lake como conjuntos de dados.
 
 Um **esquema** representa e valida a estrutura e o formato dos dados. Ele fornece uma definição abstrata de um objeto do mundo real (como uma pessoa) e descreve quais dados devem ser incluídos em cada instância desse objeto (como nome, aniversário e assim por diante).
 
@@ -52,6 +52,8 @@ Especifica:
 
 Organizar esquemas ou tabelas em um modelo de dados baseado em modelo é estruturar seus dados em várias tabelas. Certifique-se de que cada tabela armazene um tipo de entidade/esquema
 
+➡️ [Saiba mais sobre esquemas na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+
 ## Etapas de implementação {#implementation}
 
 Para assimilar dados e criar um schema baseado em modelo, siga estas etapas:
@@ -62,7 +64,7 @@ Para assimilar dados e criar um schema baseado em modelo, siga estas etapas:
 
    Ao criar o esquema manualmente, o conjunto de dados também deve ser criado e ativado manualmente. Ao usar um arquivo DDL, a criação e a ativação do conjunto de dados são automáticas.
 
-1. [Vincular esquema](file-upload-schema.md)
+1. [Vincular esquemas](file-upload-schema.md)
 
    Estabeleça relacionamentos entre seus esquemas para garantir a consistência dos dados e habilitar consultas entre entidades. Por exemplo, vincule transações de fidelidade a recipients ou recompensas a marcas.
 
@@ -70,7 +72,7 @@ Para assimilar dados e criar um schema baseado em modelo, siga estas etapas:
 
    Depois de definir seu esquema, você precisa criar um conjunto de dados com base nele. Esse conjunto de dados atua como o armazenamento para seus dados assimilados.
 
-1. [Ativar campanha orquestrada](manual-schema.md#enable)
+1. [Ativar campanhas orquestradas](manual-schema.md#enable)
 
    O conjunto de dados armazena os dados assimilados e deve estar ativado para Campanhas orquestradas para garantir que esteja acessível no Adobe Journey Optimizer.
 

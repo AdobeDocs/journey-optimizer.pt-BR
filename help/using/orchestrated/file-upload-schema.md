@@ -5,10 +5,10 @@ title: Etapas de configuração
 description: Saiba como criar um esquema baseado em modelo no Adobe Experience Platform fazendo upload de uma DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 50%
+source-wordcount: '1080'
+ht-degree: 46%
 
 ---
 
@@ -28,6 +28,8 @@ Esta seção fornece orientação passo a passo sobre como criar um esquema base
 1. [Vincule esquemas](#link-schema) para conectar seus dados baseados em modelo a entidades de perfil existentes, como Destinatários ou Marcas.
 
 1. [Assimile dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
+
+➡️ [Saiba mais sobre esquemas baseados em modelo na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Fazer upload de um arquivo DDL{#ddl-upload}
 
@@ -91,7 +93,7 @@ Exemplo:
 
 1. Digite o **[!UICONTROL Nome do esquema]**.
 
-1. Configure cada esquema e suas colunas, certificando-se de que uma chave primária seja especificada.
+1. Configure cada esquema e suas colunas, garantindo que uma chave primária e um descritor de versão sejam especificados.
 
    Um atributo, como `lastmodified`, deve ser designado como descritor de versão (tipo `datetime`, `long` ou `int`) para garantir que os conjuntos de dados sejam atualizados com os dados mais recentes. Os usuários podem alterar o descritor de versão, que se torna obrigatório depois de definido. Um atributo não pode ser uma chave primária (PK) e um descritor de versão ao mesmo tempo.
 
@@ -107,7 +109,7 @@ Agora, é possível verificar a tabela e as definições de campos na tela. [Sai
 
 ## Definir relacionamentos {#relationships}
 
-Para definir conexões lógicas entre tabelas no esquema, siga as etapas abaixo.
+Você pode especificar relações diretamente no arquivo DDL ao criar seu esquema. Se preferir definir relações fora do arquivo, faça isso na interface seguindo as etapas abaixo.
 
 1. Acesse a visualização da tela do seu modelo de dados e escolha as duas tabelas que deseja vincular
 
