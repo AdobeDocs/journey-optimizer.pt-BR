@@ -4,13 +4,13 @@ product: journey optimizer
 title: API de limitação
 description: Saiba como trabalhar com a API de limitação
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 48%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 48%
 
 A API de limitação ajuda a criar, configurar e monitorar as configurações de limitação para limitar o número de eventos enviados por segundo.
 
-Esta seção fornece informações globais sobre como trabalhar com a API. Uma descrição detalhada da API está disponível na [documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
+Esta seção fornece informações globais sobre como trabalhar com a API. Uma descrição detalhada da API está disponível na [documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 ## Leitura obrigatória
 
 * **Uma configuração por organização:** No momento, apenas uma configuração é permitida por organização. Uma configuração deve ser definida em uma sandbox de produção (fornecida por meio de `x-sandbox-name` nos cabeçalhos).
 * **Aplicativo de nível da organização:** uma configuração é aplicada no nível da organização.
 * **Tratamento de limite de API:** quando o limite definido na API é atingido, mais eventos são enfileirados por até 6 horas. Este valor não pode ser modificado.
-* **`maxHttpConnections`parâmetro:** O parâmetro &#39;maxHttpConnections&#39; é um parâmetro opcional disponível na API Capping que permite restringir apenas o número de conexões que o Journey Optimizer abrirá no sistema externo. [Saiba como trabalhar com a API de Limite](../configuration/capping.md)
+* Parâmetro **`maxHttpConnections`:** O parâmetro `maxHttpConnections` é um parâmetro opcional disponível na API Capping, que permite restringir apenas o número de conexões que o Journey Optimizer abrirá com o sistema externo. [Saiba como trabalhar com a API de Limite](../configuration/capping.md)
 
   Se você quiser restringir o número de conexões, mas também limitar essas chamadas externas, poderá definir duas configurações, uma limitação e uma limitação, no mesmo endpoint. Ambas as configurações podem coexistir para um endpoint. Para definir &quot;maxHttpConnections&quot; para um ponto de extremidade limitado, use a API de limitação para definir o limite de limitação e a API de limitação para definir &quot;maxHttpConnections&quot;. Ao chamar a API de limitação, você pode definir o limite de limitação para algo mais alto que o limite de limitação, de modo que a regra de limitação nunca entre em vigor.
 
@@ -45,20 +45,21 @@ A tabela abaixo lista os comandos disponíveis para a API de limitação. Inform
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Recuperar uma configuração de limitação |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Excluir uma configuração de limitação |
 
-Além disso, uma coleção do Postman está disponível [aqui](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) para ajudá-lo na configuração de teste.
+Além disso, uma coleção do Postman está disponível [aqui](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"} para ajudá-lo na configuração de teste.
 
-Esta coleção foi configurada para compartilhar a coleção de Variáveis Postman gerada por meio das __[Integrações do Console Adobe I/O](https://console.adobe.io/integrations) > Experimente > Baixar para Postman__, que gera um arquivo de Ambiente Postman com os valores de integrações selecionados.
+Esta coleção foi configurada para compartilhar a coleção de Variáveis Postman gerada por meio das **[Integrações do Console Adobe I/O](https://console.adobe.io/integrations) > Experimente > Baixar para Postman**, que gera um arquivo de Ambiente Postman com os valores de integrações selecionados.
 
 Após o download e o upload para o Postman, é necessário adicionar três variáveis: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
+
 * `{JO_HOST}` : [!DNL Journey Optimizer] URL do Gateway.
 * `{BASE_PATH}` : ponto de entrada para a API.
-* `{SANDBOX_NAME}` : o cabeçalho **x-sandbox-name** (por exemplo, “prod”) correspondente ao nome da sandbox na qual as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR) para obter mais informações.
+* `{SANDBOX_NAME}` : o cabeçalho **x-sandbox-name** (por exemplo, “prod”) correspondente ao nome da sandbox na qual as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR){target="_blank"} para obter mais informações.
 
 ## Configuração de limitação {#configuration}
 
 Esta é a estrutura de uma configuração de limitação. Os atributos **name** e **description** são opcionais.
 
-```
+```json
 {
     "name": "<given name - free text>",
     "description": "<given description - free text>"
@@ -70,7 +71,7 @@ Esta é a estrutura de uma configuração de limitação. Os atributos **name** 
 
 Exemplo:
 
-```
+```json
 {
   "name": "throttling-config-external",
   "description": "example of throttling config for an external endpoint",
@@ -88,7 +89,7 @@ Exemplo:
 
 Ao criar ou atualizar uma configuração, o processo valida a configuração fornecida e retorna o status de validação, identificado por seu identificador exclusivo, como:
 
-```
+```json
 "ok" or "error"
 ```
 
@@ -123,7 +124,7 @@ Ao criar, excluir ou implantar a configuração de limitação, os seguintes err
 
 Ao tentar criar uma configuração em uma sandbox de não produção:
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1463,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Operation not allowed on throttling config: non prod sandbox\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:384\",\"schema\":\"throttlingConfigs$ui-tests\"}",
@@ -133,7 +134,7 @@ Ao tentar criar uma configuração em uma sandbox de não produção:
 
 Caso a sandbox fornecida não exista:
 
-```
+```json
 {
     "status": 500,
     "error": "{\"code\":4000,\"family\":\"INTERNAL_ERROR\",\"message\":\"INTERNAL ERROR\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.common.exceptions.ApiErrorException:43\"}",
@@ -143,7 +144,7 @@ Caso a sandbox fornecida não exista:
 
 Ao tentar criar outra configuração:
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1465,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Can't create throttling config: only one config allowed per org\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:108\",\"schema\":\"throttlingConfigs$prod\"}",
@@ -163,7 +164,7 @@ Ao atualizar uma configuração já implantada, os novos valores são considerad
 
 **Criação - POST**
 
-```
+```json
 {
     "canDeploy": {
         "validationStatus": "ok"
@@ -200,7 +201,7 @@ Ao atualizar uma configuração já implantada, os novos valores são considerad
 
 **Atualizar - PUT**
 
-```
+```json
 {
     "updatedElement": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -238,7 +239,7 @@ Ao atualizar uma configuração já implantada, os novos valores são considerad
 
 **Ler (após a atualização) - GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -270,7 +271,7 @@ Ao atualizar uma configuração já implantada, os novos valores são considerad
 
 **Ler (após a implantação) - GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",

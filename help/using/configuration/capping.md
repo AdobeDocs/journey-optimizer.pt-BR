@@ -4,13 +4,13 @@ product: journey optimizer
 title: API de limite
 description: Saiba como trabalhar com a API de limite
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '730'
 ht-degree: 6%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 6%
 
 A API de limite ajuda a criar, configurar e monitorar as configurações de limite.
 
-Esta seção fornece informações globais sobre como trabalhar com a API. Uma descrição detalhada da API está disponível na [documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
+Esta seção fornece informações globais sobre como trabalhar com a API. Uma descrição detalhada da API está disponível na [documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 ## Descrição da API de limite e coleção do Postman {#description}
 
-A tabela abaixo lista os comandos disponíveis para a API de limitação. Informações detalhadas, incluindo amostras de solicitações, parâmetros e formatos de resposta estão disponíveis na [documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
+A tabela abaixo lista os comandos disponíveis para a API de limitação. Informações detalhadas, incluindo amostras de solicitações, parâmetros e formatos de resposta estão disponíveis na [documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}.
 
 | Método | Caminho | Descrição |
 |---|---|---|
@@ -46,13 +46,13 @@ Esta coleção foi configurada para compartilhar a coleção de Variáveis Postm
 Após o download e o upload para o Postman, é necessário adicionar três variáveis: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Optimizer] URL do Gateway.
 * `{BASE_PATH}` : ponto de entrada para a API.
-* `{SANDBOX_NAME}` : o cabeçalho **x-sandbox-name** (por exemplo, “prod”) correspondente ao nome da sandbox na qual as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR) para obter mais informações.
+* `{SANDBOX_NAME}` : o cabeçalho **x-sandbox-name** (por exemplo, “prod”) correspondente ao nome da sandbox na qual as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR){target="_blank"} para obter mais informações.
 
 ## Configuração do endpoint
 
 Esta é a estrutura básica de uma configuração de endpoint:
 
-```
+```json
 {
     "url": "<endpoint URL>",  //wildcards are allowed in the endpoint URL
     "methods": [ "<HTTP method such as GET, POST, >, ...],
@@ -75,12 +75,12 @@ Esta é a estrutura básica de uma configuração de endpoint:
 >
 >O valor máximo que pode ser definido é 400. Se nada for especificado, o sistema poderá abrir até vários milhares de conexões, dependendo do dimensionamento dinâmico do sistema.
 >
->Quando a configuração de limitação é implantada, se nenhum valor &quot;maxHttpConnection&quot; for fornecido, um &quot;maxHttpConnection = -1&quot; padrão será adicionado à configuração implantada, significando que o Journey Optimizer usará o valor do sistema padrão.
+>Quando a configuração de limitação é implantada, se nenhum valor `maxHttpConnections` tiver sido definido, um `maxHttpConnections = -1` padrão será adicionado à configuração implantada, e o Journey Optimizer usará o valor padrão do sistema.
 
 Exemplo:
 
-```
-`{
+```json
+{
   "url": "https://api.example.org/data/2.5/*",
   "methods": [
     "GET"
@@ -104,7 +104,7 @@ Exemplo:
 
 Quando um método **canDeploy** é chamado, o processo valida a configuração e retorna o status de validação identificado por sua Identificação Exclusiva:
 
-```
+```json
 "ok" or "error"
 ```
 
