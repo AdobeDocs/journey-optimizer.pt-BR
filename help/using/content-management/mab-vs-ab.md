@@ -5,29 +5,22 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
-source-git-commit: 4b0355c4e871e89c1b3eeea978959a2d97fa475d
+source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 2%
+source-wordcount: '607'
+ht-degree: 1%
 
 ---
 
 # Experimentos de A/B vs Multi-armed bandit {#mab-vs-ab}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
->title="Experiment type"
->abstract="Experiment type determines how traffic is allocated between treatments during your test. Choose the method that best aligns with your goals:</br>
->
->* **A/B Experiment**: Splits traffic as you define between treatments and measures performance until results are statistically significant. Best for learning which treatment performs better in a controlled comparison.
->
->* **Multi-armed Bandit**: Shifts traffic toward higher-performing treatments as data is collected, balancing speed and optimization. Useful when you want to maximize conversions during the experiment.
->
->* **Bring your own Multi-armed Bandit**: Use your own algorithm to decide traffic allocation, giving you flexibility if you have a custom model or strategy."
--->
+>title="Tipo de experimento"
+>abstract="O tipo de experimento determina como o tráfego é alocado entre os tratamentos durante o teste. Escolha o método que melhor se alinha às suas metas:</br><b>Experimento A/B</b>: divide o tráfego conforme você define entre tratamentos e mede o desempenho até que os resultados sejam estatisticamente significativos. Melhor para saber qual tratamento tem melhor desempenho em uma comparação controlada.</br><b>Multi-armed Bandit</b>: desloca o tráfego em direção a tratamentos de maior desempenho à medida que os dados são coletados, equilibrando a velocidade e a otimização. Útil quando você deseja maximizar as conversões durante o experimento.</br><b>Traga seu próprio Multi-armed Bandit</b>: use seu próprio algoritmo para decidir a alocação de tráfego, proporcionando flexibilidade se você tiver um modelo ou estratégia personalizada."
 
 Esta página fornece uma comparação detalhada dos experimentos do **A/B** e do **Multi-Armed Bandit**, explicando suas respectivas forças, limitações e os cenários nos quais cada abordagem é mais eficaz.
+
 
 ## A/B {#ab-test}
 
