@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expressão, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: eb0da59bbdaa16eb381dda965cd06fb8548a945a
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '833'
 ht-degree: 5%
 
 ---
@@ -32,10 +32,22 @@ O Journey Optimizer permite aproveitar os dados do Adobe Experience Platform com
 
 Antes de começar, reveja as seguintes restrições e diretrizes:
 
-* Os conjuntos de dados habilitados para pesquisa não devem conter Informações pessoais identificáveis (PII).
-* Os conjuntos de dados habilitados para pesquisa e usados na personalização não estão protegidos contra exclusão. Cabe a você acompanhar quais conjuntos de dados estão sendo usados para personalização para garantir que eles não sejam excluídos ou removidos.
-* Os conjuntos de dados devem ser associados a um esquema que NÃO seja do tipo Perfil ou Evento.
-* A assimilação de dados de transmissão é compatível com conjuntos de dados habilitados para pesquisa. Lembre-se de que o processamento da assimilação ainda deve ser concluído antes que os dados estejam disponíveis para personalização ou decisão.
+* **Nenhuma PII nos conjuntos de dados** - Os conjuntos de dados habilitados para pesquisa não devem conter informações pessoais identificáveis (PII).
+
+* 
+   * **Risco de exclusão** - Os conjuntos de dados usados na personalização não estão protegidos contra exclusão. Você deve rastrear quais conjuntos de dados estão sendo usados para garantir que eles não sejam removidos.
+
+* **Tipo de esquema** - Os conjuntos de dados devem ser associados a um esquema que seja **NOT** do tipo Perfil ou Evento.
+
+* **Manter a opção de pesquisa ativada** - Evitar ativar e desativar repetidamente os conjuntos de dados. Isso pode levar a um comportamento inesperado de indexação. A prática recomendada é deixar o conjunto de dados ativado enquanto você planejar usá-lo para pesquisas.
+
+* **Exclusão de lote de dados** - A remoção de um lote de dados do conjunto de dados remove completamente todas as chaves correspondentes do serviço de pesquisa. Por exemplo:
+
+  **Lote 1**: Sku1, Sku2, Sku3\
+  **Lote 2**: Sku1, Sku2, Sku3, Sku4, Sku5, Sku6\
+  **Lote 3**: Sku7, Sku8, Sku9, Sku10
+
+  Se você excluir o **Lote 1**, Sku1, Sku2 e Sku3 serão removidos do repositório de pesquisa. Os dados de pesquisa resultantes conterão: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
 
 ### Direito ao serviço de pesquisa
 
