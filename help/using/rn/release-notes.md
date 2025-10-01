@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c25e3898e02342c90c6495cd979b91657fb03379
+source-git-commit: 0b7adefe5eb2a2f89330437cc09a1361870c6041
 workflow-type: tm+mt
-source-wordcount: '1946'
-ht-degree: 38%
+source-wordcount: '1876'
+ht-degree: 40%
 
 ---
 
@@ -77,8 +77,8 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <tbody>
 <tr>
 <td>
-<p>Desenvolvido pela <a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Journey Agent está disponível na Journey Optimizer. Ele permite analisar jornadas por meio de uma interface de linguagem natural. O agente detectará conflitos de público-alvo ou agendamento e suspensões de perfil em uma jornada para ajudar você a tomar medidas para resolvê-los. Em breve você poderá criar jornadas com suporte técnico.</p>
-<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentação detalhada</a></p>
+<p>Desenvolvido pela <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Journey Agent está disponível na Journey Optimizer. Ele permite analisar jornadas por meio de uma interface de linguagem natural. O agente detectará conflitos de público-alvo ou agendamento e suspensões de perfil em uma jornada para ajudar você a tomar medidas para resolvê-los. Em breve você poderá criar jornadas com suporte técnico.</p>
+<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentação detalhada</a></p>
 <p>Data de disponibilidade: 24 de setembro de 2025</p>
 </td>
 </tr>
@@ -349,12 +349,5 @@ Você pode modificar valores de limite e assinar alertas individuais em nível d
   Com o Journey Optimizer, se você estiver gerenciando o consentimento fora do Adobe, é possível definir um terminal personalizado externo definindo seu próprio link de cancelamento de inscrição com um clique na configuração do email. Quando os destinatários clicam no link de cancelar assinatura, o Journey Optimizer anexa alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento.
 
   Para personalizar ainda mais o endereço de email de cancelamento de inscrição, agora é possível definir atributos personalizados que serão anexados ao evento de consentimento. Esse recurso já está disponível para o link personalizado de cancelamento de inscrição com um clique desde a versão de 25 de agosto.
-
-  <!-- Availability date: Sept XX, 2025-->
-
-
-* **Modo de alta taxa de transferência para campanhas de email acionadas por API**\
-  Um novo modo de alta taxa de transferência agora está disponível em campanhas acionadas por API. Esse modo foi projetado para mensagens em tempo real em larga escala (até 5.000 transações por segundo) e fornece maior disponibilidade com menor latência.\
-  Esse recurso só está disponível para o canal de email, em organizações que compraram a oferta complementar de mensagens transacionais de alta taxa de transferência da Adobe. Entre em contato com seu representante da Adobe para obter mais detalhes.
 
   <!-- Availability date: Sept XX, 2025-->
