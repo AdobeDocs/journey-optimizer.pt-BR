@@ -15,7 +15,7 @@ exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
 source-wordcount: '1575'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -27,18 +27,18 @@ ht-degree: 2%
 
 Para capturar dados de perfil com suas páginas de aterrissagem do [!DNL Journey Optimizer] e enriquecer seus conjuntos de dados do [!DNL Experience Platform], você pode usar formulários em suas páginas de aterrissagem.
 
-## Criação de uma predefinição de formulário {#create-form-preset}
+## Criar uma predefinição de formulário {#create-form-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
->title="Selecione o endpoint a ser usado"
->abstract="Defina o ponto de encerramento da transmissão para onde os dados são enviados ao enviar o formulário."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Criar uma conexão de transmissão da API HTTP"
+>title="Selecionar o ponto de acesso a ser usado"
+>abstract="Defina o ponto de acesso de transmissão para onde os dados serão mandados ao enviar o formulário."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Criar uma conexão de transmissão com a API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="Selecionar um conjunto de dados"
->abstract="Defina um conjunto de dados em que as respostas do formulário serão armazenadas e refletidas. Você pode digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista."
+>abstract="Defina um conjunto de dados em que as respostas do formulário serão armazenadas e refletidas. É possível digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista."
 
 Antes de criar um formulário, é necessário criar uma predefinição dedicada em que você seleciona o ponto de extremidade da conexão para o qual os dados de envio de formulário são enviados e o conjunto de dados em que os dados capturados pelo formulário serão armazenados.
 
@@ -71,7 +71,7 @@ Ao criar uma predefinição:
    >
    >Saiba mais sobre como criar uma conexão de origem de streaming na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
-1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. Você pode digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
+1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. É possível digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
 
    >[!NOTE]
    >
@@ -87,13 +87,13 @@ Todos os formulários existentes são exibidos. Você pode filtrar formulários 
 
 ![](assets/lp_form-list.png)
 
-## Criar um formulário {#create-form}
+## Criar e projetar um formulário {#create-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
 >title="Selecionar uma predefinição"
->abstract="Escolha uma predefinição predefinida que contenha a conexão a ser usada e um conjunto de dados predefinido para seu formulário."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Criação de uma predefinição de formulário"
+>abstract="Escolha uma predefinição que contenha a conexão a ser usada e um conjunto de dados predefinido para o formulário."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Criar uma predefinição de formulário"
 
 Para criar um formulário, siga as etapas abaixo.
 
@@ -185,11 +185,11 @@ Depois de selecionar um atributo de campo ou adicionar um campo personalizado, v
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
 
-### Configurar a página de agradecimento {#thank-you-page}
+### Configure a página de agradecimento {#thank-you-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
->title="Página de agradecimento"
+>title="Página de agradecimento "
 >abstract="Configure o que acontece quando alguém preenche ou encaminha o formulário."
 
 Na seção **[!UICONTROL Página de agradecimento]**, configure o que acontece quando um usuário preenche o formulário.
