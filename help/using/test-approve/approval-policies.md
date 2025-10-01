@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 36136c8fce1b6bd9113d95787afbcff5a7605ddf
+source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '525'
 ht-degree: 13%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->Para criar políticas de aprovação, você deve ter privilégios de administrador do sistema ou do produto no Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home)
+>Para criar políticas de aprovação, você deve ter privilégios de administrador do sistema ou do produto no Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 As políticas de aprovação permitem que os administradores estabeleçam um processo de validação para jornadas e campanhas. Este sistema descreve condições específicas que determinam se uma jornada ou campanha precisa de aprovação. Essas políticas podem variar em complexidade, desde simplesmente exigir que todas as campanhas sejam revisadas por um usuário ou equipe específica até estabelecer critérios com base em quem criou a campanha.
 
@@ -51,9 +51,11 @@ Para criar uma política de aprovação, siga estas etapas:
 
 1. Selecione se a política se aplicará a **[!UICONTROL Jornadas]** ou **[!UICONTROL Campanhas]**.
 
-1. Habilite o **[!UICONTROL Bloquear autoaprovação]** para impedir que os criadores de Jornadas/Campanhas aprovem seus próprios objetos.
+<!--
+1. Enable the **[!UICONTROL Block self-approval]** to prevent Journey/Campaign creators from approving their own objects.
 
-   ![](assets/policy_create_2.png)
+    ![](assets/policy_create_2.png)
+-->
 
 Agora você pode refinar as condições para especificar quem pode iniciar a solicitação de aprovação e quem pode validá-la.
 

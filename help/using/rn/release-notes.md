@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8def78063b8477eb2eaf0a95602b7d311eb1ad2e
+source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 39%
+source-wordcount: '1862'
+ht-degree: 40%
 
 ---
 
@@ -77,8 +77,8 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <tbody>
 <tr>
 <td>
-<p>Desenvolvido pela <a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Journey Agent está disponível na Journey Optimizer. Ele permite analisar jornadas por meio de uma interface de linguagem natural. O agente detectará conflitos de público-alvo ou agendamento e suspensões de perfil em uma jornada para ajudar você a tomar medidas para resolvê-los. Em breve você poderá criar jornadas com suporte técnico.</p>
-<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentação detalhada</a></p>
+<p>Desenvolvido pela <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Journey Agent está disponível na Journey Optimizer. Ele permite analisar jornadas por meio de uma interface de linguagem natural. O agente detectará conflitos de público-alvo ou agendamento e suspensões de perfil em uma jornada para ajudar você a tomar medidas para resolvê-los. Em breve você poderá criar jornadas com suporte técnico.</p>
+<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentação detalhada</a></p>
 <p>Data de disponibilidade: 24 de setembro de 2025</p>
 </td>
 </tr>
@@ -178,9 +178,6 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
   Data de disponibilidade: 29 de setembro de 2025
 
-* **Permissões de política de aprovação**
-Adição de uma opção ao criar ou definir a Política de aprovação para impedir que os criadores de Jornadas/campanhas aprovem seus próprios objetos. [Leia mais](../test-approve/approval-policies.md) - Data de disponibilidade: 23 de setembro de 2025
-
 * **Suporte mTLS para Canal SMS**
 Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar a autenticação TLS mútua (mTLS), que requer que o cliente e o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida. [Leia mais](../sms/sms-configuration-custom.md) - Data de disponibilidade: 23 de setembro de 2025
 
@@ -226,6 +223,11 @@ Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar
    * Agora você pode acessar respostas indefinidas de palavras-chave de entrada enviadas por uma mensagem SMS, incluindo erros de digitação, palavras ou frases que não estão explicitamente definidos na configuração. Eles são armazenados no conjunto de dados do **Evento de experiência de rastreamento de email do AJO**, em **InboundMessage**, por 13 meses. Disponível somente com Sinch, Infobip e provedor de SMS personalizado. - Data de disponibilidade: 23 de setembro de 2025
 
 * **WhatsApp** - Agora você pode optar por usar o endereço de execução padrão para WhatsApp ou configurar um endereço personalizado.
+
+<!--
+* **Approval policy permissions**
+  Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects. [Read more](../test-approve/approval-policies.md) - Availability date: Sept 23, 2025 
+-->
 
 ### Em breve {#sept-25-9-soon}
 
