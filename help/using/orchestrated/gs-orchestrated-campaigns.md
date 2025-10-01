@@ -6,10 +6,10 @@ description: Saiba como começar a usar as campanhas orquestradas
 short-description: Descubra os principais recursos e casos de uso de campanhas orquestradas.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
+source-git-commit: 97f9c32435667fecb950892ed6f6531085055e59
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '652'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="campaigns_overview_orchestrated"
->abstract="<b>Orquestração de campanha</b><br/>Dividir, combinar, enriquecer e manipular conjuntos de dados relacionais para definir o público-alvo<br/><br/> <b>Aproveite dados multientidade</b><br/>Saiba como as campanhas orquestradas podem aproveitar os conjuntos de dados relacionais no enriquecimento de dados para segmentação e personalização<br/><br/><b>Segmentação ad-hoc e contagens exatas</b><br/>Crie seu segmento passo a passo com contagens exatas<br/><br/><b>Canais disponíveis</b><br/>Email, SMS, Notificações por push, Correspondência direta"
+>abstract="<b>Orquestração de campanha</b><br/>Dividir, combinar, enriquecer e manipular conjuntos de dados relacionais para definir o público-alvo<br/><br/> <b>Aproveite dados de várias entidades</b><br/>Saiba como as campanhas orquestradas podem aproveitar os conjuntos de dados relacionais para enriquecer dados de segmentação e personalização<br/><br/><b>Segmentação ad-hoc e contagens exatas</b><br/>Crie seu segmento passo a passo com contagens exatas<br/><br/><b>Canais disponíveis</b><br/>Notificações por email, SMS, push"
 
 A orquestração de campanhas no [!DNL Adobe Journey Optimizer] viabiliza campanhas de marketing sofisticadas e iniciadas pela marca em vários canais, ajudando a impulsionar o engajamento, a receita e a fidelidade do cliente em grande escala.
 
