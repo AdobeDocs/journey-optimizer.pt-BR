@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2825'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Essa alteração será implementada nas **sandboxes de clientes existentes** em 
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-Você não pode usar o mesmo domínio de envio para enviar mensagens de email de [!DNL Adobe Journey Optimizer] e de outro produto, como [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage], por exemplo.
+Não é possível usar o mesmo domínio de envio para enviar mensagens de email do [!DNL Adobe Journey Optimizer] e de outro produto, como o [!DNL Adobe Campaign] ou o [!DNL Adobe Marketo Engage] por exemplo.
 
 ### Medidas de proteção de SMS {#sms-guardrails}
 
@@ -64,21 +64,21 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../sms/get-star
 * A sincronização de feedback da mensagem não está disponível no momento para MMS.
 * O gerenciamento de consentimento opera no nível do canal SMS para MMS.
 
-### Medidas de proteção do canal de entrada {#inbound-guardrails}
+### Medidas de proteção de canal de entrada {#inbound-guardrails}
 
-* O Journey Optimizer oferece suporte a um volume de pico de 5.000 solicitações de entrada por segundo. Esta proteção se aplica a todas as solicitações de entrada, que podem se originar de qualquer um dos canais de entrada com suporte da Journey Optimizer ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)).
+* O Journey Optimizer aceita um volume máximo de 5.000 solicitações de entrada por segundo. Essa medida de proteção se aplica a todas as solicitações de entrada, que podem se originar de qualquer um dos canais de entrada compatíveis com o Journey Optimizer ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)).
 
-  Os canais de entrada do Journey Optimizer têm como alvo novos perfis que podem não ter sido envolvidos antes em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. 
+  Os canais de entrada do Journey Optimizer direcionam novos perfis que talvez não tenham sido engajados antes em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. 
 
   As métricas de licença para cada pacote estão listadas na página [Descrição do produto do Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-* O Journey Optimizer oferece suporte a no máximo 500 ações de entrada ativas a qualquer momento. Essas ações de entrada ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)) serão contadas se fizerem parte de uma campanha ativa ou se forem um nó usado em uma jornada ativa. Depois de atingir esse número, é necessário desativar campanhas ou jornadas mais antigas que estejam usando ações de entrada antes de poder iniciar novas.
+* O Journey Optimizer aceita no máximo 500 ações de entrada ativas a qualquer momento. Essas ações de entrada ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)) são contadas se fizerem parte de uma campanha ativa ou se forem um nó usado em uma jornada ativa. Ao atingir esse número, é preciso desativar campanhas ou jornadas mais antigas que estejam usando ações de entrada antes de poder lançar novas.
 
-* Para usar ações de [experiência baseada em código](../code-based/get-started-code-based.md) em [!DNL Journey Optimizer] e fornecer carga de conteúdo de código que pode ser usada por seus aplicativos, siga os pré-requisitos detalhados em [esta página](../code-based/code-based-prerequisites.md).
+* Para usar ações de [experiência baseada em código](../code-based/get-started-code-based.md) no [!DNL Journey Optimizer] e entregar conteúdo útil de conteúdo de código que pode ser usada por seus aplicativos, siga os pré-requisitos detalhados [nesta página](../code-based/code-based-prerequisites.md).
 
-### Proteções de mensagem transacional {#transactional-message-guardrails}
+### Medidas de proteção de mensagem transacional {#transactional-message-guardrails}
 
-O Journey Optimizer oferece suporte a um volume máximo de 500 mensagens transacionais por segundo em campanhas.
+O Journey Optimizer aceita um volume máximo de 500 mensagens transacionais por segundo em campanhas.
 
 ## Medidas de proteção das páginas de destino {#lp-guardrails}
 
@@ -171,7 +171,7 @@ As seguintes medidas de proteção se aplicam às [ações personalizadas](../a
 
 As seguintes medidas de proteção se aplicam aos [eventos](../event/about-events.md) de jornadas:
 
-* O Journey Optimizer oferece suporte a um volume máximo de 5.000 eventos de jornada de entrada por segundo em todas as sandboxes. Saiba mais sobre esta limitação [nesta página](../event/about-events.md#event-thoughput).
+* O Journey Optimizer aceita um volume máximo de 5.000 eventos de jornada de entrada por segundo, em todas as sandboxes. Saiba mais sobre essa limitação [nesta página](../event/about-events.md#event-thoughput).
 * As jornadas acionadas por eventos podem levar até 5 minutos para processar a primeira ação na jornada.
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 * Os eventos de negócios não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
@@ -204,7 +204,7 @@ Você pode escolher uma dessas duas soluções:
 
 ### Identificadores suplementares {#supplemental}
 
-Aplicam-se medidas de proteção específicas à utilização de identificadores suplementares em jornadas. Elas são listadas [nesta página](../building-journeys/supplemental-identifier.md#guardrails).
+Existem medidas de proteção específicas para o uso de identificadores suplementares em jornadas. Elas são listadas [nesta página](../building-journeys/supplemental-identifier.md#guardrails).
 
 ### Editor de expressão {#expression-editor}
 
@@ -213,14 +213,14 @@ As seguintes medidas de proteção se aplicam ao [editor de expressão da jornad
 * Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de público-alvo de leitura, qualificação de público-alvo ou de evento de negócios. É necessário criar um novo público-alvo e usar uma condição `inaudience` na jornada.
 * Não é possível usar atributos `timeSeriesEvents` no editor de expressão. Para acessar eventos de experiência em nível de perfil, crie um novo grupo de campos com base em um esquema `XDM ExperienceEvent`.
 
-### Jornada atividades {#activities}
+### Atividades de jornada {#activities}
 
-#### Atividade de Qualificação de público-alvo {#audience-qualif-g}
+#### Atividade de qualificação de público-alvo {#audience-qualif-g}
 
 A seguinte medida de proteção se aplica à atividade de [qualificação de público-alvo](../building-journeys/audience-qualification-events.md) da jornada:
 
 * A atividade Qualificação de público-alvo não pode ser usada com atividades do Adobe Campaign.
-* Identificadores complementares não são compatíveis com jornadas de qualificação de Público-alvo.
+* Identificadores suplementares não são aceitos para jornadas de qualificação de público-alvo.
 
 #### Atividades do Campaign {#ac-g}
 
@@ -253,7 +253,7 @@ As seguintes medidas de proteção se aplicam à ação de **[!UICONTROL mensage
 
 Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Salto]**. Elas são listadas [nesta página](../building-journeys/jump.md#jump-limitations).
 
-#### Ler atividade de público {#read-segment-g}
+#### Atividade Ler público-alvo {#read-segment-g}
 
 As seguintes medidas de proteção se aplicam à atividade de [leitura de público-alvo](../building-journeys/read-audience.md) da jornada:
 
@@ -264,11 +264,11 @@ As seguintes medidas de proteção se aplicam à atividade de [leitura de públi
 * Uma jornada só pode ter uma atividade de **público-alvo de leitura**.
 * Consulte também as recomendações de como usar a atividade **Público-alvo de leitura** descritas [nesta página](../building-journeys/read-audience.md).
 * As novas tentativas são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **público-alvo de leitura** ou um **evento de negócios**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado.
-* Para jornadas que usam IDs complementares, a taxa de leitura da atividade de público-alvo de leitura para cada instância do jornada é limitada a no máximo 500 perfis por segundo.
+* Para jornadas que usam IDs suplementares, a taxa de leitura da atividade Ler público-alvo para cada instância de jornada é limitada a um máximo de 500 perfis por segundo.
 
 Consulte também [esta página](../building-journeys/read-audience.md#must-read).
 
-#### Atualizar atividade do perfil {#update-profile-g}
+#### Atividade Atualizar perfil {#update-profile-g}
 
 Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Atualizar perfil]**. Elas são listadas [nesta página](../building-journeys/update-profiles.md).
 

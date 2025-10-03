@@ -6,9 +6,9 @@ description: Campanhas orquestradas
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ As campanhas orquestradas no Adobe Journey Optimizer permitem que você crie e e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução às campanhas orquestradas
 
@@ -30,7 +30,7 @@ Saiba mais sobre os principais recursos, componentes e distinções das campanha
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Medidas de proteção e limitações
 
@@ -40,17 +40,17 @@ Entenda as restrições e limitações a serem consideradas ao usar campanhas or
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuração de dados para campanhas orquestradas
 
-Configure esquemas, conjuntos de dados e canais baseados em modelo para garantir a preparação dos dados para campanhas orquestradas.
+Configure esquemas, conjuntos de dados e canais baseados em modelos para garantir a disponibilidade dos dados para campanhas orquestradas.
 
 [Explorar configuração de dados](data-configuration-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Iniciar e gerenciar campanhas orquestradas
 
@@ -60,7 +60,7 @@ Um guia passo a passo para criar, orquestrar, monitorar e analisar sua primeira 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Consultar o banco de dados de campanhas orquestradas
 
@@ -70,7 +70,7 @@ Domine a consulta do banco de dados para direcionar, segmentar e redirecionar p�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Guia abrangente de atividades de campanha
 
@@ -83,5 +83,5 @@ Descubra as atividades de direcionamento, canal e controle de fluxo disponíveis
 
 ## Recursos adicionais
 
-- **[Perguntas frequentes](../using/orchestrated/orchestrated-campaigns-faq.md)** - Explore as perguntas frequentes sobre as campanhas do Adobe Journey Optimizer Orchestrated.
+- **[Perguntas frequentes](../using/orchestrated/orchestrated-campaigns-faq.md)**: confira as perguntas frequentes (FAQ) sobre campanhas orquestradas do Adobe Journey Optimizer.
 

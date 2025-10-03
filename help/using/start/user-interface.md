@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1903'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -360,25 +360,25 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings"
->title="Habiltiar webhooks"
->abstract="Ative os webhooks para receber feedback em tempo real sobre o status de execução de suas mensagens. Antes de ativar esta opção, verifique se você configurou um webhook no menu **Administração** / **Canais** / **Webhook de comentários**."
+>title="Habilitar webhooks"
+>abstract="Habilite webhooks para receber feedback em tempo real sobre o status de execução de suas mensagens. Antes de ativar esta opção, configure um webhook no menu **Administração** / **Canais** / **Webhook de feedback**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_create"
->title="Webhooks de comentários"
->abstract="Os webhooks de feedback permitem receber feedback em tempo real sobre o status de execução das mensagens enviadas com campanhas acionadas pela API transacional. Somente uma configuração de webhook por organização + combinação de sandbox é permitida."
+>title="Webhooks de feedback"
+>abstract="Os webhooks de feedback permitem receber feedback em tempo real sobre o status de execução de mensagens enviadas com campanhas acionadas por API transacional. Somente uma configuração de webhook por combinação de Organização + sandbox é permitida."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_configuration"
 >title="Configuração básica"
->abstract="Nesta seção, insira um nome descritivo para identificar o webhook e selecione os canais para os quais esse webhook deve receber feedback (Email e/ou SMS). No campo URL do Webhook, forneça o endpoint HTTPS onde os eventos de feedback devem ser entregues."
+>abstract="Nesta seção, insira um nome descritivo para identificar o webhook e selecione o(s) canal(is) para os quais este webhook deve receber feedback (email e/ou SMS). No campo URL do Webhook, forneça o ponto de acesso HTTPS onde os eventos de feedback devem ser entregues."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_authentication"
 >title="Autenticação"
->abstract="Se o seu ponto de extremidade requer autenticação JWT, selecione **Autenticação JWT** na lista e forneça os detalhes necessários."
+>abstract="Se o seu ponto de acesso exigir autenticação JWT, selecione **Autenticação JWT** na lista e forneça os detalhes necessários."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="Parâmetros de cabeçalho"
->abstract="Nesta seção, você pode configurar cabeçalhos personalizados adicionais a serem enviados com cada solicitação de webhook."
+>abstract="Nesta seção, é possível configurar cabeçalhos personalizados adicionais a serem enviados com cada solicitação de webhook."
