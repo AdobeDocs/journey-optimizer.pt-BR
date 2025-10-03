@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0d32f1f79314694a34e1e996ed405a4484dc863d
 workflow-type: tm+mt
 source-wordcount: '1726'
-ht-degree: 44%
+ht-degree: 90%
 
 ---
 
@@ -48,18 +48,18 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer Experimentation Accelerator</strong><br/></th>
+<th><strong>Acelerador de experimentação do Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer Experimentation Accelerator é um produto de IA projetado para elevar o nível das suas experiências. Criado para usuários do Adobe Journey Optimizer e do Adobe Target, ele unifica o gerenciamento de experiências, fornece insights e oportunidades alimentadas por IA e introduz um novo agente de experimentação.</p>
+<p>O Acelerador de experimentação do Journey Optimizer é um produto de IA desenvolvido para elevar o nível das suas experiências. Criado para usuários do Adobe Journey Optimizer e do Adobe Target, ele unifica o gerenciamento de experiências, fornece oportunidades e insights alimentados por IA e introduz um novo agente de experimentação.</p>
 <p>Você pode esperar por:</p>
 <ul>
-<li><strong>Inventário de experimentos unificado:</strong> visualize, filtre e gerencie rapidamente todos os experimentos da Adobe Journey Optimizer e da Adobe Target em um espaço de trabalho central.</li>
-<li><strong>Insights e oportunidades de experimentos de IA:</strong> vá além das leituras estatísticas com insights e recomendações orientados pela GenAI. Cada experimento agora apresenta oportunidades acionáveis, completas com lógica de apoio, para que as equipes possam decidir com mais confiança o que testar a seguir.</li>
-<li><strong>Suporte a MAB (Multi-Armed Bandit) no Journey Optimizer:</strong> maximize o impacto enquanto reduz o tráfego desperdiçado com experimentos de Multi-Armed Bandit. Em vez de dividir públicos uniformemente, o MAB aloca automaticamente mais visitantes para as variações de melhor desempenho em tempo real, para que você possa entregar melhores experiências a mais clientes enquanto ainda aprende o que funciona.</li></ul>
+<li><strong>Inventário de experimentos unificado:</strong> visualize, filtre e gerencie rapidamente todos os experimentos do Adobe Journey Optimizer e do Adobe Target em um espaço de trabalho central.</li>
+<li><strong>Insights e oportunidades de experimentos de IA:</strong> vá além das leituras estatísticas com insights e recomendações orientados por IA generativa. Cada experimento agora apresenta oportunidades acionáveis e completas com lógica de apoio para que as equipes possam decidir com mais confiança o que testar a seguir.</li>
+<li><strong>Suporte a MAB (Multi-Armed Bandit) no Journey Optimizer:</strong> maximize o impacto enquanto reduz o tráfego desperdiçado com experimentos de Multi-Armed Bandit. Em vez de dividir públicos-alvo uniformemente, o MAB aloca automaticamente mais visitantes para as variações de melhor desempenho em tempo real, para que você possa entregar melhores experiências a mais clientes enquanto ainda aprende o que funciona.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
 <p>Para mais informações, consulte a <a href="../content-management/experiment-accelerator.md">documentação detalhada</a></p>
 <p>Data de disponibilidade: 23 de setembro de 2025</p>
@@ -77,7 +77,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <tbody>
 <tr>
 <td>
-<p>Desenvolvido pela <a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Journey Agent está disponível na Journey Optimizer. Ele permite analisar jornadas por meio de uma interface de linguagem natural. O agente detectará conflitos de público-alvo ou agendamento e suspensões de perfil em uma jornada para ajudar você a tomar medidas para resolvê-los. Em breve você poderá criar jornadas com suporte técnico.</p>
+<p>Desenvolvido pelo <a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Journey Agent está disponível no Journey Optimizer. Ele permite analisar jornadas por meio de uma interface de linguagem natural. O agente detectará conflitos de público-alvo ou agendamento e suspensões de perfil em uma jornada para ajudar você a tomar medidas para resolvê-los. Em breve, você poderá criar jornadas com suporte agentivo.</p>
 <p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentação detalhada</a></p>
 <p>Data de disponibilidade: 24 de setembro de 2025</p>
 </td>
@@ -156,7 +156,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <tbody>
 <tr>
 <td>
-<p>Anteriormente lançado em beta público, esse recurso agora está disponível para todos os ambientes. Nesta versão, os seguintes aprimoramentos foram introduzidos:</p>
+<p>Lançado anteriormente em beta público, esse recurso agora está disponível para todos os ambientes. Nesta versão, os seguintes aprimoramentos foram introduzidos:</p>
 <ul><li>Suporte para personalização de pesquisa de conjunto de dados em canais de entrada.</li>
 <li>A função auxiliar "datasetLookup" agora pode ser usada em fragmentos de expressão. Por enquanto, esse recurso está disponível para um conjunto limitado de clientes. Para obter acesso, entre em contato com um representante da Adobe.</li>
 <li>Uma opção na interface de gerenciamento de conjuntos de dados agora permite habilitar conjuntos de dados para personalização de pesquisa, sem precisar executar uma chamada de API.</li>
@@ -173,42 +173,42 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 ### Aprimoramentos {#sept-25-9-improvements}
 
-* **Suporte de Webhook para campanhas acionadas por API**\
-  As campanhas acionadas por API agora oferecem suporte a webhooks. Configure um URL de webhook para receber atualizações de status em tempo real para cada mensagem, melhorando a observabilidade e permitindo o monitoramento e a automação contínuos. [Leia mais](../configuration/feedback-webhooks.md)
+* **Suporte a webhook para campanhas acionadas por API**\
+  Campanhas acionadas por API agora oferecem suporte a webhooks. Configure um URL de webhook para receber atualizações de status em tempo real para cada mensagem, melhorando a observabilidade e permitindo o monitoramento e a automação contínuos. [Leia mais](../configuration/feedback-webhooks.md)
 
   Data de disponibilidade: 29 de setembro de 2025
 
-* **Suporte mTLS para Canal SMS**
-Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar a autenticação TLS mútua (mTLS), que requer que o cliente e o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida. [Leia mais](../sms/sms-configuration-custom.md) - Data de disponibilidade: 23 de setembro de 2025
+* **Suporte a mTLS para Canal de SMS**
+Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar a autenticação TLS mútua (mTLS), que exige que o cliente e o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida. [Leia mais](../sms/sms-configuration-custom.md) - Data de disponibilidade: 23 de setembro de 2025
 
 * **Esquemas baseados em modelo**\
   Os esquemas baseados em modelo agora podem ser usados pelo para oferecer suporte às suas necessidades de modelagem relacional em campanhas orquestradas. [Leia mais](../orchestrated/gs-schemas.md) - Data de disponibilidade: 23 de setembro de 2025
 
-* **Suporte à pesquisa de conjunto de dados no jornada**\
-  Uma nova atividade no jornada, **Pesquisa de conjunto de dados**, permite recuperar dinamicamente dados de conjuntos de dados de registros Adobe Experience Platform durante o tempo de execução. Ao aproveitar esse recurso, você pode acessar dados que podem não residir no perfil ou na carga do evento, garantindo que as interações do cliente sejam relevantes e oportunas. [Leia mais](../building-journeys/dataset-lookup.md) - Data de disponibilidade: 23 de setembro de 2025
+* **Suporte à pesquisa de conjunto de dados em jornadas**\
+  A nova atividade em jornadas **Consulta de conjunto de dados** permite recuperar dados dinamicamente de conjuntos de dados de registros da Adobe Experience Platform durante o tempo de execução. Ao aproveitar esse recurso, é possível acessar dados que podem não estar no perfil ou no conteúdo do evento, garantindo que as interações com o cliente sejam relevantes e oportunas. [Leia mais](../building-journeys/dataset-lookup.md) - Data de disponibilidade: 23 de setembro de 2025
 
-  Essa atividade só está disponível para um conjunto de organizações (Disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+  Esta atividade está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
 
-* **Suporte de Redirecionamento em Ações Personalizadas do Jornada**\
-  Redirecionamentos (302) agora são permitidos nas Ações personalizadas do Jornada. - Data de disponibilidade: 23 de setembro de 2025
+* **Redirecionar suporte em ações personalizadas da jornada**\
+  Redirecionamentos (302) agora são aceitos em Ações personalizadas da jornada. - Data de disponibilidade: 23 de setembro de 2025
 
-* **Alertas de monitoramento de configuração de canais**: agora você pode se inscrever para receber alertas do sistema por email ou pela central de notificações do Journey Optimizer caso ocorra um erro de configuração de canal de email ao usar o tipo de delegação de subdomínio personalizado. [Leia mais](../reports/alerts.md#alert-channel-config-failure) - Data de disponibilidade: 23 de setembro de 2025
+* **Alertas de monitoramento de configuração de canais**: agora você pode se inscrever para receber alertas do sistema por email ou pela central de notificações do Journey Optimizer caso ocorra um erro de configuração de canais de email ao usar o tipo de delegação de subdomínio personalizado. [Leia mais](../reports/alerts.md#alert-channel-config-failure) - Data de disponibilidade: 23 de setembro de 2025
 
-* **Solicitações de cancelamento de inscrição com um clique** - Introduzimos melhorias que fortalecem ainda mais a manipulação de solicitações de cancelamento de inscrição com um clique configuradas no Adobe Managed, garantindo um processamento confiável e consistente. - Data de disponibilidade: 23 de setembro de 2025
+* **Solicitações para cancelar assinatura com um clique**: introduzimos melhorias que fortalecem ainda mais o tratamento de solicitações para cancelar assinatura com um clique configuradas no Adobe Managed, garantindo um processamento confiável e consistente. - Data de disponibilidade: 23 de setembro de 2025
 
-* **Parâmetros de corpo JSON aninhados agora têm suporte na autenticação personalizada**\
-  Ao configurar a autenticação personalizada para uma ação personalizada, objetos JSON aninhados (por exemplo, subobjetos em `bodyParams`) agora são suportados. [Leia mais](../datasource/external-data-sources.md#custom-authentication-mode) - Data de disponibilidade: 18 de setembro de 2025
+* **Parâmetros de corpo JSON aninhados agora são aceitos na autenticação personalizada**\
+  Ao configurar a autenticação personalizada para uma ação personalizada, objetos JSON aninhados (por exemplo, subobjetos dentro de `bodyParams`) agora são aceitos. [Leia mais](../datasource/external-data-sources.md#custom-authentication-mode) - Data de disponibilidade: 18 de setembro de 2025
 
-* **Frequência de limitação de redefinição por hora**: agora você pode aplicar a limitação por hora para conjuntos de regras de canal. Anteriormente disponível em Disponibilidade limitada, esse recurso agora está disponível para todos os ambientes e permite escolher 1 hora (anteriormente, 3 horas). [Leia mais](../conflict-prioritization/channel-capping.md) - Data de disponibilidade: 17 de setembro de 2025
+* **Frequência de limitação de redefinição por hora**: agora é possível aplicar limite por hora para conjuntos de regras de canal. Anteriormente disponível em Disponibilidade limitada, esse recurso agora está disponível para todos os ambientes e permite que você escolha 1 hora (anteriormente 3 horas). [Leia mais](../conflict-prioritization/channel-capping.md) - Data de disponibilidade: 17 de setembro de 2025
 
 * **Simulação de variações de conteúdo para todos os canais de entrada**\
-  Anteriormente disponível apenas para os canais de Email, SMS e Notificação por push, a simulação de variações de conteúdo agora também se aplica a todos os canais de entrada. [Leia mais](../test-approve/simulate-sample-input.md) - Data de disponibilidade: 17 de setembro de 2025
+  Anteriormente disponível apenas para os canais de email, SMS e notificação por push, a simulação de variações de conteúdo agora também se aplica a todos os canais de entrada. [Leia mais](../test-approve/simulate-sample-input.md) - Data de disponibilidade: 17 de setembro de 2025
 
-* **Expressão para regras de limite do serviço de decisão**: agora você pode criar suas próprias expressões para definir o limite de uma regra de um item de decisão. [Leia mais](../experience-decisioning/items.md#capping) - Data de disponibilidade: 16 de setembro de 2025
+* **Expressão para regras de limite do serviço de decisão**: agora é possível criar suas próprias expressões para definir o limite de uma regra de um item de decisão. [Leia mais](../experience-decisioning/items.md#capping) - Data de disponibilidade: 16 de setembro de 2025
 
 * **Suporte a domínio dinâmico**: o Journey Optimizer agora oferece suporte à personalização completa e do URL base de domínios predefinidos aceitos pela Adobe. [Leia mais](../personalization/personalization-build-expressions.md#where) - Data de disponibilidade: 12 de setembro de 2025
 
-  Esse recurso está disponível em Disponibilidade limitada para um conjunto de clientes.
+  Esse recurso está em disponibilidade limitada para alguns clientes.
 
 * **Webhooks** - Esta versão apresenta os seguintes aprimoramentos para Webhooks ao configurar um provedor de SMS personalizado:
 
@@ -229,7 +229,7 @@ Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar
 
 ### Em breve {#sept-25-9-soon}
 
-Nos próximos dias, os recursos e aprimoramentos a seguir estão programados para serem lançados. **As informações estão sujeitas a alterações**. Links, telas e documentação atualizados serão compartilhados assim que essas atualizações estiverem ativas na produção.
+Os recursos e aprimoramentos a seguir estão programados para serem lançados nos próximos dias. **As informações estão sujeitas a alterações**. Links, telas e documentação atualizados serão compartilhados assim que essas atualizações estiverem ativas na produção.
 
 <!--table>
 <thead>
@@ -316,9 +316,9 @@ Nos próximos dias, os recursos e aprimoramentos a seguir estão programados par
 <ul>
 <li>É possível enviar até 6 mensagens com um anexo PDF por perfil em um ano.</li>
 <li>O tamanho máximo para cada anexo é 5 MB.</li>
-<li>Para qualquer tamanho ou volume adicional, você pode comprar o complemento Anexos da PDF. Para obter mais informações, entre em contato com o representante da Adobe.</li>
+<li>Para qualquer tamanho ou volume adicional, é possível comprar o complemento Anexos em PDF. Para obter mais informações, entre em contato com um representante da Adobe.</li>
 </ul>
-<p>Anteriormente lançado com disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <!--p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p>
 <p>Availability date: Sept XX, 2025</p-->
@@ -329,25 +329,25 @@ Nos próximos dias, os recursos e aprimoramentos a seguir estão programados par
 
 
 
-* **Novos Alertas de Jornada**\
-  Novos alertas pré-configurados estão disponíveis para jornada:
+* **Novos alertas de jornada**\
+  Novos alertas pré-configurados estão disponíveis para jornadas:
 
-   * Taxa de descarte de perfil excedida: a taxa de descartes de perfil em perfis inseridos nos últimos 5 minutos excedeu o limite.
-   * Taxa de erro de ação personalizada excedida: taxa de erros de ação personalizada para chamadas HTTP bem-sucedidas ao longo dos últimos 5 minutos excedeu o limite.
-   * Taxa de erro de perfil excedida: Taxa de perfis com erro em relação aos perfis inseridos nos últimos 5 minutos excedeu o limite.
+   * Taxa de descarte de perfil excedida: a proporção de descartes de perfil em relação aos perfis inseridos nos últimos 5 minutos excedeu o limite.
+   * Taxa de erros de ação personalizada excedida: a proporção de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos cinco minutos excedeu o limite.
+   * Taxa de erro de perfil excedida: a proporção de perfis com erro em relação aos perfis inseridos nos últimos cinco minutos excedeu o limite.
 <!--
   * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
   * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
   * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-Você pode modificar valores de limite e assinar alertas individuais em nível de jornada em comparação com os alertas globais.
+É possível modificar os valores limite e assinar alertas individuais em nível de jornada em vez de alertas globais.
 
 <!-- Availability date: Sept XX, 2025-->
 
 
-* **Suporte a atributos personalizados com URL de cancelamento de inscrição com um clique**\
-  Com o Journey Optimizer, se você estiver gerenciando o consentimento fora do Adobe, é possível definir um terminal personalizado externo definindo seu próprio link de cancelamento de inscrição com um clique na configuração do email. Quando os destinatários clicam no link de cancelar assinatura, o Journey Optimizer anexa alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento.
+* **Suporte a atributos personalizados com URL para cancelar assinatura com um clique**\
+  Com o Journey Optimizer, se estiver gerenciando o consentimento fora da Adobe, poderá definir um ponto de acesso externo personalizado definindo seu próprio link para cancelar assinatura com um clique na configuração de email. Quando os destinatários clicam no link para cancelar assinatura, o Journey Optimizer anexa alguns parâmetros padrão específicos do perfil ao evento de atualização de consentimento.
 
-  Para personalizar ainda mais o endereço de email de cancelamento de inscrição, agora é possível definir atributos personalizados que serão anexados ao evento de consentimento. Esse recurso já está disponível para o link personalizado de cancelamento de inscrição com um clique desde a versão de 25 de agosto.
+  Para personalizar ainda mais o endereço de email para cancelar assinatura, agora você pode definir atributos personalizados que serão anexados ao evento de consentimento. Esse recurso já está disponível para o link personalizado para cancelar assinatura com um clique desde o lançamento de 25 de agosto.
 
   <!-- Availability date: Sept XX, 2025-->

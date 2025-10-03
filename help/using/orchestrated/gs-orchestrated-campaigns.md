@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 97f9c32435667fecb950892ed6f6531085055e59
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -74,7 +74,7 @@ A tela da campanha orquestrada é uma representação do que deve acontecer. Ela
 
 Cada campanha orquestrada contém:
 
-* **Atividades**: uma atividade é uma tarefa a ser executada. As [várias atividades](activities/about-activities.md) são representadas na tela por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
+* **Atividades**: uma atividade é uma tarefa a ser executada. As [várias atividades](activities/about-activities.md) são representadas na tela por ícones. Cada atividade tem propriedades específicas e outras propriedades que são comuns a todas as atividades.
 
   Na tela de uma campanha orquestrada, uma determinada atividade pode gerar várias tarefas, principalmente quando há um ciclo ou ações recorrentes.
 

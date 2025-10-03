@@ -235,8 +235,8 @@ ht-degree: 99%
       + [Perguntas frequentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuração de dados {#data-configuration}
          + [Configuração de dados](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Gerenciar esquemas e conjuntos de dados baseados em modelo {#schemas-datasets}
-            + [Gerenciar esquemas e conjuntos de dados baseados em modelo](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Gerenciar esquemas e conjuntos de dados baseados em modelos {#schemas-datasets}
+            + [Gerenciar esquemas e conjuntos de dados baseados em modelos](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Introdução a esquemas e conjuntos de dados](using/orchestrated/gs-schemas.md)
             + [Esquema manual](using/orchestrated/manual-schema.md)
             + [Esquema de upload do arquivo](using/orchestrated/file-upload-schema.md)
@@ -483,7 +483,7 @@ ht-degree: 99%
          + [Criar o conteúdo da página de destino](using/landing-pages/lp-content.md)
          + [Criar modelos](using/landing-pages/lp-templates.md)
          + [Adicionar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
-      + [Usar formulários em suas páginas de aterrissagem](using/landing-pages/lp-forms.md)
+      + [Usar formulários em suas páginas de destino](using/landing-pages/lp-forms.md)
       + [Criar uma lista de assinaturas](using/landing-pages/subscription-list.md)
       + [Aprenda por meio de casos de uso](using/landing-pages/lp-use-cases.md)
       + Configurar páginas de destino {#lp-configuration}
@@ -555,7 +555,7 @@ ht-degree: 99%
          + [Métricas do acelerador de experimento](using/content-management/experiment-accelerator-metrics.md)
       + Notas técnicas {#technotes}
          + [Notas técnicas](/help/rp_landing_pages/technotes-landing-page.md)
-         + [Teste A/B versus Multi-armed bandit](using/content-management/mab-vs-ab.md)
+         + [Teste A/B x Multi-armed bandit](using/content-management/mab-vs-ab.md)
          + [Compreenda cálculos estatísticos](using/content-management/experiment-calculations.md)
          + [Compreenda cálculos estatísticos no Relatório de experimentação](using/content-management/experiment-report-calculations.md)
 + Públicos-alvo, perfis e identidade {#audiences-profiles-identities}
