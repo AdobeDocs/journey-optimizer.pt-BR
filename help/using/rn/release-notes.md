@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d2c6c2cabc40d896fa3bf2bd401fe1c15e7c8054
+source-git-commit: 0d32f1f79314694a34e1e996ed405a4484dc863d
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 40%
+source-wordcount: '1726'
+ht-degree: 44%
 
 ---
 
@@ -77,8 +77,8 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <tbody>
 <tr>
 <td>
-<p>Desenvolvido pela <a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Journey Agent está disponível na Journey Optimizer. Ele permite analisar jornadas por meio de uma interface de linguagem natural. O agente detectará conflitos de público-alvo ou agendamento e suspensões de perfil em uma jornada para ajudar você a tomar medidas para resolvê-los. Em breve você poderá criar jornadas com suporte técnico.</p>
-<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentação detalhada</a></p>
+<p>Desenvolvido pela <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Journey Agent está disponível na Journey Optimizer. Ele permite analisar jornadas por meio de uma interface de linguagem natural. O agente detectará conflitos de público-alvo ou agendamento e suspensões de perfil em uma jornada para ajudar você a tomar medidas para resolvê-los. Em breve você poderá criar jornadas com suporte técnico.</p>
+<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentação detalhada</a></p>
 <p>Data de disponibilidade: 24 de setembro de 2025</p>
 </td>
 </tr>
@@ -150,7 +150,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <table>
 <thead>
 <tr>
-<th><strong>Usar dados do Adobe Experience Platform para personalização e decisão</strong><br/></th>
+<th><strong>Usar dados da Adobe Experience Platform para personalização e tomada de decisão</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -231,41 +231,41 @@ Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar
 
 Nos próximos dias, os recursos e aprimoramentos a seguir estão programados para serem lançados. **As informações estão sujeitas a alterações**. Links, telas e documentação atualizados serão compartilhados assim que essas atualizações estiverem ativas na produção.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Novo canal de notificações por push da Web</strong><br/></th>
+<th><strong>New Web Push notifications channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Adobe Journey Optimizer agora é compatível com notificações por push na Web, expandindo o canal de push para além dos dispositivos móveis. Você pode enviar notificações facilmente para navegadores móveis e de desktop, permitindo que alcançar os clientes diretamente em seus dispositivos sem exigir um aplicativo.</p>
-<p>Esse aprimoramento permite envolver os usuários com mensagens oportunas e personalizadas em tempo real, aproveitando os mesmos fluxos de trabalho de criação e recursos de direcionamento já disponíveis para push móvel.</p>
-<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
+<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
+<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Monitoramento e relatórios de ação personalizada</strong><br/></th>
+<th><strong>Custom action monitoring and reporting</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O monitoramento de ação personalizada e os relatórios agora estão disponíveis. Esse recurso oferece melhor visibilidade da integridade e da execução da jornada, incluindo status do ciclo de vida e alertas de desempenho. Agora você pode entender rapidamente quando, onde e por que uma situação anômala está ocorrendo em uma ação personalizada.</p>
-<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
+<p>Custom action monitoring and reporting is now available. This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p>
 </td>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
