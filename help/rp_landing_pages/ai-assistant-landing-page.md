@@ -20,7 +20,7 @@ O Assistente de IA do Adobe Journey Optimizer revoluciona a criação de conteú
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao Assistente de IA
 
@@ -40,7 +40,7 @@ Descubra como usar o Assistente de IA para criar, personalizar e otimizar conte�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
 
 Geração de conteúdo de notificação por push
 
@@ -60,7 +60,7 @@ Use o Assistente de IA para gerar e refinar conteúdo de SMS que repercuta com s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=pt-BR)
 
 Conteúdo de página da Web e geração de ativos
 

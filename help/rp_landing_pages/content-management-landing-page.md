@@ -20,7 +20,7 @@ Os recursos de gerenciamento de conteúdo do Adobe Journey Optimizer permitem cr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Personalização no Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Descubra ferramentas e tutoriais para criar, gerenciar e otimizar páginas de de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Modelos de conteúdo do Adobe Journey Optimizer
 

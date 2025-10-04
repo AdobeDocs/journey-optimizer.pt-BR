@@ -70,7 +70,7 @@ Configure provedores de SMS personalizados, criando credenciais de API, gerencia
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Criar uma configuração do canal de SMS/MMS/RCS
 

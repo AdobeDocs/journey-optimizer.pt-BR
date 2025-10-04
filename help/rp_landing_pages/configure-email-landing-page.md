@@ -70,7 +70,7 @@ Configure parâmetros de rastreamento de URL para medir a eficiência das campan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Configurações de email personalizadas
 

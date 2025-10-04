@@ -20,7 +20,7 @@ A coleta de dados de eventos no Adobe Journey Optimizer permite rastrear as prin
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução à coleta de dados para a gestão de decisões
 

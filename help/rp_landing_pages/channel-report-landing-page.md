@@ -40,7 +40,7 @@ Confira definições detalhadas das métricas usadas nos canais de entrega, como
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar o Customer Journey Analytics manualmente
 

@@ -20,7 +20,7 @@ O Adobe Journey Optimizer permite tomar decisões mais inteligentes e rápidas c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Utilizar dados contextuais na tomada de decisão
 

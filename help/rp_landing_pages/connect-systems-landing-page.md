@@ -60,7 +60,7 @@ Configure o Adobe Journey Optimizer para integrar-se ao Adobe Campaign, Marketo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Gerenciamento de sandboxes do Adobe Journey Optimizer
 

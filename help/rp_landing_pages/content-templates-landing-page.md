@@ -50,7 +50,7 @@ Guia passo a passo sobre como criar modelos de conteúdo reutilizáveis do zero 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Bloquear conteúdo em modelos de email
 
@@ -70,7 +70,7 @@ Valide modelos de email testando renderização, variações e provas antes de u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Usar modelos de conteúdo
 

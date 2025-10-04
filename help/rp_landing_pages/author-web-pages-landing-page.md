@@ -20,7 +20,7 @@ Descubra como criar, personalizar e otimizar experiências da web com as ferrame
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Editar um conteúdo com o designer da web
 
@@ -30,7 +30,7 @@ Saiba como usar o designer visual da web do Adobe Journey Optimizer para criar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Editar o conteúdo da web com o editor não visual
 
@@ -60,7 +60,7 @@ Entenda como monitorar o engajamento na web, usando relatórios e rastreamento d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Como criar aplicativos de página única no Adobe Journey Optimizer
 

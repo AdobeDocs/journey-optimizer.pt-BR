@@ -30,7 +30,7 @@ Saiba mais sobre os fundamentos das campanhas no Adobe Journey Optimizer, inclui
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Acessar e gerenciar campanhas
 
@@ -50,7 +50,7 @@ Orientação passo a passo para criar, personalizar e ativar campanhas de ação
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Campanhas acionadas por API
 

@@ -30,7 +30,7 @@ Saiba mais sobre os pré-requisitos necessários para configurar e usar os recur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar subdomínios da web
 

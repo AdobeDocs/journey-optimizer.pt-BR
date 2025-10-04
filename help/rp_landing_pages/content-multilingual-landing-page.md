@@ -30,7 +30,7 @@ Saiba como configurar e usar o recurso de conteúdo multilíngue do Adobe Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como criar uma localidade para o conteúdo multilíngue
 
@@ -50,7 +50,7 @@ Configure provedores de tradução externos para uma integração fluida e um ge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Criar conteúdo multilíngue com tradução manual
 
