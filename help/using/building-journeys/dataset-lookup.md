@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 3a682f0fc6a6f9a3a505dfd99bd8d54dfd41a077
+source-git-commit: 5b7847957cc0fa176a32c7e0b01d5f41fd424610
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 15%
@@ -125,9 +125,9 @@ Os dados recuperados pela atividade **[!UICONTROL Pesquisa de conjunto de dados]
 
 1. **Atividade de pesquisa do conjunto de dados**:
 
-* Conjunto de dados: `products-dataset` (SKU como chave primária).
-* Chaves de Pesquisa: `list(@event{purchase_event.products.sku})`.
-* Campos a Retornar: `["SKU", "category", "price"]`.
+   * Conjunto de dados: `products-dataset` (SKU como chave primária).
+   * Chaves de Pesquisa: `list(@event{purchase_event.products.sku})`.
+   * Campos a Retornar: `["SKU", "category", "price"]`.
 
 1. **Atividade de condição**:
 
