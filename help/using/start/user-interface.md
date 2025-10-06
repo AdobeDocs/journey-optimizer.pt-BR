@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
-workflow-type: ht
-source-wordcount: '1903'
+source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
+workflow-type: tm+mt
+source-wordcount: '1895'
 ht-degree: 100%
 
 ---
@@ -343,18 +343,6 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 >id="ajo_journey_simulation"
 >title="Simular a jornada"
 >abstract="A Simulação de jornada permite validar suas jornadas e ver como elas funcionam antes de serem ativadas. Ela usa dados de um modelo treinado para fornecer números em toda a jornada e ver como ela se comportará em um cenário real."
-
-<!-- QUIET HOURS -->
-
->[!CONTEXTUALHELP]
->id="ajo_rule_type"
->title="Tipo de regra"
->abstract="Tipo de regra"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_business_rules"
->title="Conjunto de regras"
->abstract="Conjunto de regras"
 
 <!-- WEBHOOKS -->
 

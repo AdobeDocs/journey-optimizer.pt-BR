@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 29%
+source-wordcount: '1018'
+ht-degree: 27%
 
 ---
 
@@ -74,6 +74,11 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 >abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="Tipo de regra"
+>abstract="Selecione o tipo de regra desejado para seu conjunto de regras de canal: use o tipo **Limite de frequência** para aplicar regras de limite a canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia. Selecione **Período de silêncio** (disponível em Disponibilidade limitada) para definir exclusões com base no tempo para garantir que nenhuma mensagem seja enviada durante períodos específicos de tempo.&quot;
+
+>[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
 >title="Selecionar a categoria da regra da mensagem"
 >abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de frequência correspondentes à categoria selecionada serão automaticamente aplicadas a essa mensagem. Atualmente, somente a categoria Marketing está disponível."
@@ -82,6 +87,11 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 >id="ajo_rule_set_rule_capping"
 >title="Limite de regras"
 >abstract="Definir a limitação para a regra. Dependendo do domínio do conjunto de regras e da seleção no campo “Tipo de regra”, este campo pode definir o número máximo de mensagens que podem ser enviadas a um perfil ou o número máximo de jornadas das quais o perfil pode participar ou nas quais pode ser inscrito simultaneamente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_business_rules"
+>title="Conjunto de regras"
+>abstract="Selecione o conjunto de regras a ser aplicado à sua ação personalizada."
 
 Para criar um conjunto de regras, siga as etapas abaixo.
 
@@ -164,4 +174,4 @@ Seu status será alterado para **[!UICONTROL Inativo]** e a regra não se aplica
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
