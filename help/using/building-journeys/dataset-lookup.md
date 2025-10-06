@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
+source-git-commit: 3a682f0fc6a6f9a3a505dfd99bd8d54dfd41a077
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -33,7 +33,7 @@ Principais benefícios:
 
 >[!AVAILABILITY]
 >
->Essa atividade só está disponível para um conjunto de organizações (Disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+>Esta atividade está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
 
 ## Leitura obrigatória {#must-read}
 
@@ -124,6 +124,7 @@ Os dados recuperados pela atividade **[!UICONTROL Pesquisa de conjunto de dados]
 1. **Evento de compra**: capturar SKUs do carrinho do usuário.
 
 1. **Atividade de pesquisa do conjunto de dados**:
+
 * Conjunto de dados: `products-dataset` (SKU como chave primária).
 * Chaves de Pesquisa: `list(@event{purchase_event.products.sku})`.
 * Campos a Retornar: `["SKU", "category", "price"]`.
@@ -133,7 +134,7 @@ Os dados recuperados pela atividade **[!UICONTROL Pesquisa de conjunto de dados]
    * Filtrar SKUs em que a categoria é &quot;residência&quot;.
 
      ```
-     @event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookupActivity1.entities.all(currentDatasetLookupField.category == ‘household’).sku} ) )} 
+     @event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookupActivity1.entities.all(currentDatasetLookupField.category == 'household').sku} ) )} 
      ```
 
    OR
@@ -141,7 +142,7 @@ Os dados recuperados pela atividade **[!UICONTROL Pesquisa de conjunto de dados]
    * Agregar o total gasto em produtos domésticos e compará-lo ao limite de US$ 40.
 
      ```
-     sum(@event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookUpActivity1.entities.all(currentDatasetLookupField.category == ‘household’).sku} ) )}.price}, ',', true ) > 40
+     sum(@event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookUpActivity1.entities.all(currentDatasetLookupField.category == 'household').sku} ) )}.price}, ',', true ) > 40
      ```
 
 1. **Editor Personalization**:
