@@ -42,7 +42,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 <p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Para mais informações, consulte a <a href="../email/pdf-attachments.md">documentação detalhada</a></p>
-<p>Data de disponibilidade: 30 de setembro de 2025</p-->
+<p>Data de disponibilidade: 30 de setembro de 2025&lt;/p-->
 </td>
 </tr>
 </tbody>
