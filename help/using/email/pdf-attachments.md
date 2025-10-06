@@ -8,12 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: email, mensagem, anexo, pdf, editor
-badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
-source-git-commit: f5588c1a1d8f88b3de321e6499575ce0c11a0655
+source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 37%
+source-wordcount: '339'
+ht-degree: 38%
 
 ---
 
@@ -22,11 +21,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="Adicionar um anexo em PDF"
->abstract="Navegue para selecionar um arquivo PDF para anexar ao seu email.</br>É possível enviar até seis mensagens com um anexo em PDF por perfil, por ano. O tamanho máximo para cada anexo é 5 MB.</br>Para qualquer tamanho ou volume adicional, é possível adquirir um complemento de pacote de anexos. Para obter mais informações, entre em contato com o representante da Adobe."
-
->[!AVAILABILITY]
->
->Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+>abstract="Navegue para selecionar um arquivo PDF para anexar ao seu email.</br>É possível enviar até seis mensagens com um anexo em PDF por perfil, por ano. O tamanho máximo para cada anexo é 5 MB.</br>Para qualquer tamanho ou volume adicional, é possível adquirir um complemento de pacote de anexos. Para obter mais informações, entre em contato com um representante da Adobe."
 
 Você pode anexar um arquivo PDF estático às mensagens de email enviadas com [!DNL Journey Optimizer].
 
@@ -36,7 +31,7 @@ Você pode anexar um arquivo PDF estático às mensagens de email enviadas com [
 >
 >* O tamanho máximo para cada anexo é 5 MB.
 >
->Para qualquer tamanho ou volume adicional, você pode comprar o complemento Anexos da PDF. Para obter mais informações, entre em contato com o representante da Adobe.
+>Para qualquer tamanho ou volume adicional, é possível comprar o complemento Anexos em PDF. Para obter mais informações, entre em contato com um representante da Adobe.
 
 Para anexar um arquivo do PDF a uma mensagem de email, siga as etapas abaixo.
 
@@ -50,7 +45,7 @@ Para anexar um arquivo do PDF a uma mensagem de email, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Ao criar mensagens, você acessa o repositório do Assets Essentials diretamente de dentro da interface da Journey Optimizer. Para saber mais sobre a interface do usuário incorporada [!DNL Assets Essentials], consulte a [documentação do Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=pt-BR){target="_blank"}.
+   >Ao criar mensagens, você acessa o repositório do Assets Essentials diretamente de dentro da interface da Journey Optimizer. Para saber mais sobre a interface do usuário incorporada [!DNL Assets Essentials], consulte a [documentação do Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 1. Use o filtro **[!UICONTROL PDF]** na seção **[!UICONTROL Tipo MIME]** para restringir a seleção ao formato de arquivo correto.
 
