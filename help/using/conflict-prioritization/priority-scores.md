@@ -4,7 +4,7 @@ description: Saiba como atribuir pontuações de prioridade a jornadas e campanh
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
+source-git-commit: be1538495ea7427fd8c4b8ea781db74bf557c22f
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 35%
@@ -56,7 +56,7 @@ Se você estava criando esta campanha e queria garantir que o conteúdo dela fos
 >title="Prioridade"
 >abstract="Atribua uma pontuação de prioridade à ação da jornada. A prioridade é essencial para priorizar uma ação de entrada quando há várias ações de jornada ou campanhas com a mesma configuração de canais.</br>Insira um valor numérico (de 0 a 100). Observe que, quanto maior o número, maior a prioridade. Por padrão, a pontuação de prioridade da ação é herdada da pontuação de prioridade geral da jornada."
 
-O Journey Optimizer também permite atribuir uma pontuação de prioridade às ações do canal de entrada na atividade **[!UICONTROL Ação]**.
+O Journey Optimizer também permite atribuir uma pontuação de prioridade às ações do canal de entrada na atividade [Ação](../building-journeys/journey-action.md).
 
 Isso permite priorizar uma ação de entrada quando há várias ações ou campanhas do jornada usando a mesma configuração de canal.
 
@@ -72,4 +72,4 @@ Para atribuir uma pontuação de prioridade às ações de entrada definidas na 
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445006?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
