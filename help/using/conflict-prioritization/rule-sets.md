@@ -76,7 +76,7 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Tipo de regra"
->abstract="Selecione o tipo de regra desejado para seu conjunto de regras de canal: use o tipo **Limite de frequência** para aplicar regras de limite a canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia. Selecione **Período de silêncio** (disponível em Disponibilidade limitada) para definir exclusões com base no tempo para garantir que nenhuma mensagem seja enviada durante períodos específicos de tempo.&quot;
+>abstract="Selecione o tipo de regra desejado para seu conjunto de regras de canal: use o tipo **Limite de frequência** para aplicar regras de limite a canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia. Selecione **Período de silêncio** (disponível em Disponibilidade limitada) para definir exclusões com base no tempo para garantir que nenhuma mensagem seja enviada durante períodos específicos de tempo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
