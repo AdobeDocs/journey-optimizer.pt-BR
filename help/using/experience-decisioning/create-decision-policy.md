@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 8%
@@ -234,3 +234,4 @@ Para fazer isso, clique no botão **[!UICONTROL Decisão]** no painel de proprie
 Agora que você entende como criar uma política de decisão, está pronto para usá-la em [!DNL Journey Optimizer] canais para entregar ofertas.
 
 ➡️ [Saiba como usar políticas de decisão em mensagens](../experience-decisioning/use-decision-policy.md)
+
