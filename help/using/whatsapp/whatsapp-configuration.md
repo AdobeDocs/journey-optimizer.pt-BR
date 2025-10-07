@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 16%
+source-wordcount: '836'
+ht-degree: 15%
 
 ---
 
@@ -84,7 +84,7 @@ Depois de criar e configurar sua credencial de API, agora é necessário criar s
 >
 >Sem palavras-chave de aceitação ou recusa especificadas, as mensagens de consentimento padrão não são ativadas.
 
-Depois que suas credenciais da API do WhatsApp forem criadas com êxito, o próximo passo é criar um webhook e definir as configurações de entrada.
+Depois que suas credenciais da API do WhatsApp forem criadas com êxito, você poderá configurar Webhooks para capturar respostas de entrada para gerenciar o consentimento de aceitação e recusa e para receber relatórios do delivery, incluindo confirmações de leitura, quando disponíveis.
 
 1. No painel à esquerda, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]**, selecione o menu **[!UICONTROL Webhooks do WhatsApp]** em **[!UICONTROL Configurações do WhatsApp]** e clique no botão **[!UICONTROL Criar Webhook]**.
 
@@ -180,6 +180,6 @@ O vídeo abaixo mostra como configurar o canal do WhatsApp no Adobe Journey Opti
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470273/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
