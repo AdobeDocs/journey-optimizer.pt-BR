@@ -19,7 +19,7 @@ ht-degree: 19%
 >id="ajo_exd_config_strategies"
 >title="Defina as estratégias de seleção"
 >abstract="As estratégias de seleção são reutilizáveis e consistem em uma coleção associada a uma restrição de elegibilidade e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma política de decisão."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision" text="Criar políticas de decisão&quot;—>
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision" text="Criar políticas de decisão&quot;—>"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
@@ -88,7 +88,7 @@ Para criar uma estratégia de seleção, siga as etapas abaixo.
 >id="ajo_exd_strategy_ranking"
 >title="Definir como classificar ofertas"
 >abstract="Se várias ofertas são elegíveis para uma determinada estratégia de seleção, escolha o método que selecionará a melhor oferta para cada perfil ao criar uma estratégia de seleção: prioridade ou fórmula de classificação."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="Criar políticas de decisão&quot;—>
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="Criar políticas de decisão&quot;—>"
 
 Se várias ofertas estiverem qualificadas para uma determinada estratégia de seleção, você poderá escolher o método que selecionará a melhor oferta para cada perfil ao criar uma estratégia de seleção. Você pode classificar ofertas por:
 
