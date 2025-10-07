@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1721'
 ht-degree: 7%
 
 ---
@@ -88,9 +88,9 @@ Após ter adicionado uma nova política de decisão ao seu conteúdo, a tela de 
 
    ![](assets/decision-code-based-details.png)
 
-   Para o canal Email, o campo **[!UICONTROL Número de itens]** é definido como 1 por padrão e não pode ser modificado a menos que a política de decisão seja adicionada de um componente de **[!UICONTROL Grade de Repetição]**. Para retornar vários itens em um email, você precisa adicionar um componente de conteúdo de **[!UICONTROL Grade de repetição]** para poder selecionar vários itens no campo **[!UICONTROL Número de itens]**. Expanda a seção abaixo para obter mais detalhes:
+   Para o canal Email, o campo **[!UICONTROL Número de itens]** é definido como 1 por padrão e não pode ser modificado a menos que a política de decisão seja adicionada de um componente de **[!UICONTROL Grade de Repetição]**. Expanda a seção abaixo para obter mais detalhes:
 
-   +++Retornar vários itens de decisão por email
+   +++Retorne vários itens de decisão por email usando um componente **[!UICONTROL Repetir grade]**
 
    1. Arraste um componente **[!UICONTROL Repetir Grade]** no seu email e configure-o como desejado usando o painel **[!UICONTROL Configurações]**.
 
@@ -114,13 +114,9 @@ A seção **[!UICONTROL Sequência de estratégia]** permite selecionar os itens
 
    ![](assets/decision-code-based-strategy-sequence.png)
 
-   * **[!UICONTROL Estratégia de seleção]** - As estratégias de decisão usam coleções associadas a restrições de qualificação e métodos de classificação para determinar os itens a serem mostrados.
+   * **[!UICONTROL Estratégia de seleção]** - As estratégias de decisão usam coleções associadas a restrições de qualificação e métodos de classificação para determinar os itens a serem mostrados. Você pode selecionar uma ou várias estratégias de seleção existentes ou criar uma nova usando o botão **[!UICONTROL Criar estratégia de seleção]**. [Saiba como criar estratégias de seleção](selection-strategies.md)
 
-     Você pode selecionar uma ou várias estratégias de seleção existentes ou criar uma nova usando o botão **[!UICONTROL Criar estratégia de seleção]**. [Saiba como criar estratégias de seleção](selection-strategies.md)
-
-   * **[!UICONTROL Item de decisão]** - Selecione itens de decisão únicos sem precisar executar uma estratégia de seleção.
-
-     Você só pode selecionar um item de decisão por vez. Quaisquer restrições de qualificação definidas para o item serão aplicadas.
+   * **[!UICONTROL Item de decisão]** - Selecione itens de decisão únicos sem precisar executar uma estratégia de seleção. Você só pode selecionar um item de decisão por vez. Quaisquer restrições de qualificação definidas para o item serão aplicadas.
 
    >[!NOTE]
    >
@@ -227,9 +223,7 @@ Você pode editar ou excluir uma política de decisão a qualquer momento usando
 
 ## Atribuir uma inserção (email) {#placement}
 
-Para emails, é necessário definir um posicionamento para o componente associado à política de decisão.
-
-Para fazer isso, clique no botão **[!UICONTROL Decisão]** no painel de propriedades do componente e selecione **[!UICONTROL Atribuir posicionamento]**. [Saiba como trabalhar com posicionamentos](../experience-decisioning/placements.md)
+Para emails, é necessário definir um posicionamento para o componente associado à política de decisão. Para fazer isso, clique no botão **[!UICONTROL Decisão]** no painel de propriedades do componente e selecione **[!UICONTROL Atribuir posicionamento]**. [Saiba como trabalhar com posicionamentos](../experience-decisioning/placements.md)
 
 ![](assets/decision-policy-rail.png)
 

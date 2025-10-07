@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
 workflow-type: tm+mt
 source-wordcount: '1428'
 ht-degree: 17%
@@ -21,7 +21,7 @@ ht-degree: 17%
 
 Para gerenciar os fragmentos, acesse a lista de fragmentos do menu esquerdo **[!UICONTROL Gerenciamento de conteúdo]** > **[!UICONTROL Fragmentos]**.
 
-Todos os fragmentos criados na sandbox atual - [no menu **[!UICONTROL Fragmentos]**](#create-fragments), usando a opção [Salvar como fragmento](#save-as-fragment) - são exibidos.
+Todos os fragmentos criados na sandbox atual - [no menu **[!UICONTROL Fragmentos]**](create-fragments.md#create-fragments), usando a opção [Salvar como fragmento](save-fragments.md) - são exibidos.
 
 O painel à esquerda permite organizar fragmentos em pastas. Por padrão, todos os fragmentos são exibidos. Ao selecionar uma pasta, somente os fragmentos e as pastas incluídos na pasta selecionada são exibidos. [Saiba mais](#folders)
 

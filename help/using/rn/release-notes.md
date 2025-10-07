@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3dfe3887edf4bd55402e849e8fea239e918fa930
+source-git-commit: b0198df405217c7870a471d271987da08d0e2308
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 88%
+source-wordcount: '1505'
+ht-degree: 86%
 
 ---
 
@@ -250,14 +250,14 @@ Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar
 
 <!--
 * **Approval policy permissions**
-  Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects. [Read more](../test-approve/approval-policies.md) - Availability date: Sept 23, 2025 
--->
+  Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects. [Read more](../test-approve/approval-policies.md) - Availability date: Sept 23, 2025-->
 
-### Em breve {#sept-25-9-soon}
+<!--
+### Coming soon {#sept-25-9-soon}
 
-Os recursos e aprimoramentos a seguir estão programados para serem lançados nos próximos dias. **As informações estão sujeitas a alterações**. Links, telas e documentação atualizados serão compartilhados assim que essas atualizações estiverem ativas na produção.
+In the next few days, the following capabilities and enhancements are scheduled for release. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>New Web Push notifications channel</strong><br/></th>
@@ -273,9 +273,9 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>Custom action monitoring and reporting</strong><br/></th>
@@ -291,9 +291,9 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>New source connectors for loyalty apps</strong><br/></th>
@@ -306,49 +306,52 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <table>
 <thead>
 <tr>
-<th><strong>Formulários personalizados de página de destino</strong><br/></th>
+<th><strong>Landing page custom forms</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Com o [!DNL Journey Optimizer], agora é possível capturar atributos de perfil por meio das páginas de destino.</p>
-<p>Crie, projete e gerencie formulários personalizados adaptados às suas necessidades com base em um conjunto de dados específico. Em seguida, é possível usar esses formulários em páginas de destino para adicionar os atributos de perfil de sua escolha ao conjunto de dados definido para cada formulário.</p>
-<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
+<p>With [!DNL Journey Optimizer], you can now capture profile attributes though your landing pages.</p>
+<p>Create, design and manage custom forms tailored to your needs based on a specific dataset. You can then leverage these forms in landing pages to add the profile attributes of your choice into the dataset defined for each form.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
+<p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-* **Novos alertas de jornada**\
-  Novos alertas pré-configurados estão disponíveis para jornadas:
+* **New Journey Alerts**  
+  New pre-configured alerts are available for journeys:
 
-   * Taxa de descarte de perfil excedida: a proporção de descartes de perfil em relação aos perfis inseridos nos últimos 5 minutos excedeu o limite.
-   * Taxa de erros de ação personalizada excedida: a proporção de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos cinco minutos excedeu o limite.
-   * Taxa de erro de perfil excedida: a proporção de perfis com erro em relação aos perfis inseridos nos últimos cinco minutos excedeu o limite.
-<!--
+  * Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
+
+
   * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
   * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
-  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
+  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
-É possível modificar os valores limite e assinar alertas individuais em nível de jornada em vez de alertas globais.
+  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
 
-<!-- Availability date: Sept XX, 2025-->
+  Availability date: Sept XX, 2025
 
 
-* **Suporte a atributos personalizados com URL para cancelar assinatura com um clique**\
-  Com o Journey Optimizer, se estiver gerenciando o consentimento fora da Adobe, poderá definir um ponto de acesso externo personalizado definindo seu próprio link para cancelar assinatura com um clique na configuração de email. Quando os destinatários clicam no link para cancelar assinatura, o Journey Optimizer anexa alguns parâmetros padrão específicos do perfil ao evento de atualização de consentimento.
+* **Custom attributes support with One-click unsubscribe URL**  
+  With Journey Optimizer, if you are managing consent outside of Adobe, you can set an external custom endpoint by defining your own one-click unsubscribe link in the email configuration. When your recipients click the unsubscribe link, Journey Optimizer appends some default profile-specific parameters to the consent update event. 
 
-  Para personalizar ainda mais o endereço de email para cancelar assinatura, agora você pode definir atributos personalizados que serão anexados ao evento de consentimento. Esse recurso já está disponível para o link personalizado para cancelar assinatura com um clique desde o lançamento de 25 de agosto.
+  To further personalize the unsubscribe email address, you can now define custom attributes that will be appended to the consent event. This capability has already been available for the custom one-click unsubscribe link since the August 25 release.
 
-  <!-- Availability date: Sept XX, 2025-->
+  Availability date: Sept XX, 2025
+
+-->

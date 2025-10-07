@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Depois que uma política de decisão é criada, a política e os atributos vincu
 
 >[!ENDTABS]
 
-1. O código da política de decisão é adicionado. Essa sequência será repetida o número de vezes que você deseja que a política de decisão seja retornada. Por exemplo, se você optar por retornar dois itens ao [criar a decisão](#add-decision), a mesma sequência será repetida duas vezes.
+Quando o código da política de decisão for adicionado, essa sequência será repetida o número de vezes que você deseja que a política de decisão seja retornada. Por exemplo, se você optar por retornar dois itens ao [criar a decisão](#add-decision), a mesma sequência será repetida duas vezes.
 
 ## Aproveitar atributos de itens de decisão {#attributes}
 
@@ -64,7 +64,7 @@ Agora você pode adicionar todos os atributos de decisão desejados dentro desse
 >[!NOTE]
 >
 >Para o rastreamento de itens da política de decisão, o atributo `trackingToken` precisa ser adicionado da seguinte forma para o conteúdo da política de decisão:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Para adicionar um atributo, clique no ícone &quot;+&quot; ao lado dele. Você pode adicionar quantos atributos desejar ao código.
 
