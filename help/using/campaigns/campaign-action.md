@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -21,14 +21,11 @@ ht-degree: 34%
 
 Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal para a sua mensagem e definir configurações adicionais, como rastreamento, experimento de conteúdo ou conteúdo multilíngue.
 
-
-
 1. **Escolher o canal**
 
    Navegue até a guia **[!UICONTROL Ações]**, clique no botão **[!UICONTROL Adicionar ação]** e selecione o canal de comunicação.
 
    ![](assets/create-campaign-add-action.png)
-
 
    >[!NOTE]
    >

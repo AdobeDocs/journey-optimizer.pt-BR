@@ -7,12 +7,13 @@ feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
+mini-toc-levels: 1
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 60%
 
 ---
 
@@ -83,82 +84,93 @@ ht-degree: 100%
 >title="Campanhas"
 >abstract="Envie comunicações transacionais a perfis individuais ou conjuntos de perfis. Canais compatíveis: email, SMS, notificações por push."
 
-Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado.
+Use campanhas do [!DNL Journey Optimizer] para fornecer conteúdo único a um público específico em vários canais. Ao contrário das jornadas, que executam ações passo a passo, as campanhas executam ações simultaneamente — imediatamente ou em um cronograma definido.
 
 ![](assets/gs-campaigns.png)
 
-É possível criar diferentes tipos de campanhas no Journey Optimizer. Os canais e casos de uso compatíveis variam de acordo com o tipo de campanha. Esses tipos estão listados abaixo.
+## Tipos de campanha
 
-* **Campanhas de ação**
+[!DNL Journey Optimizer] dá suporte a três tipos de campanha. Cada tipo se encaixa em diferentes casos de uso e oferece suporte a diferentes canais.
 
-  As campanhas de ação (ou campanhas programadas) permitem criar comunicações ad-hoc simples em lote para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, comunicados, avisos legais ou atualizações de políticas. Saiba mais sobre os recursos das campanhas de ação, casos de uso e canais com suporte [nesta página](create-campaign.md).
-
-* **Campanhas acionadas por API**
-
-  Campanhas acionadas por API permitem que as comunicações de marketing alcancem um público-alvo na hora certa ou que mensagens transacionais/operacionais cheguem a uma pessoa física específica, como uma redefinição de senha; nesses casos, a necessidade pode envolver a personalização, exigindo não apenas o atributo de perfil, mas também os dados de contexto em tempo real no acionador, que é um conteúdo da API REST. Saiba mais sobre recursos de campanhas acionadas por API, casos de uso e canais com suporte [nesta página](api-triggered-campaigns.md).
-
-* **Campanhas orquestradas**
-
-  A orquestração de campanhas no Adobe Journey Optimizer permite a criação de campanhas de marketing sofisticadas e iniciadas pela marca em todos os canais, ajudando a impulsionar o engajamento, a receita e a fidelidade do cliente em grande escala.
-
-  Embora o marketing entre canais seja essencial, as campanhas orquestradas permitem que ele flua melhor. Com uma interface visual do tipo arrastar e soltar, você pode projetar e automatizar fluxos de trabalho de marketing complexos, desde a segmentação até a entrega de mensagens, em vários canais. Tudo acontece em um ambiente intuitivo, criado para proporcionar velocidade, controle e eficiência. Saiba mais sobre os recursos de Campanhas orquestradas, casos de uso e canais com suporte [nesta página](../orchestrated/gs-orchestrated-campaigns.md).
-
-## Pré-requisitos {#prerequisites}
-
-Antes de criar a sua campanha, verifique os pré-requisitos abaixo.
-
-### Permissões
-
-As campanhas só estão disponíveis para usuários com as permissões apropriadas listadas abaixo. [Saiba mais sobre as funções integradas do Journey Optimizer](../administration/ootb-product-profiles.md)
+![](assets/campaign-modal.png)
 
 >[!BEGINTABS]
 
->[!TAB Campanhas de ação]
+>[!TAB Campanhas orquestradas]
 
-Administrador da campanha
-Aprovador da campanha
-Gerente de campanha
-Visualizador da campanha
+**Campanhas orquestradas** campanhas de marketing sofisticadas e iniciadas pela marca em todos os canais, ajudando você a impulsionar a participação, a receita e a fidelidade do cliente em grande escala.
+
+Embora o marketing entre canais seja essencial, as campanhas orquestradas permitem que ele flua melhor. Com uma interface visual do tipo arrastar e soltar, você pode projetar e automatizar fluxos de trabalho de marketing complexos, desde a segmentação até a entrega de mensagens, em vários canais. Tudo acontece em um ambiente intuitivo, criado para proporcionar velocidade, controle e eficiência.
+
+➡️ [Saiba como trabalhar com campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md).
+
+>[!TAB Campanhas de ação (ou campanhas agendadas)]
+
+**Campanhas de ação**, também conhecidas como campanhas agendadas, permitem comunicações ad hoc em lote simples.
+
+* **Agendado - Marketing** - Para casos de uso de marketing, como ofertas promocionais, campanhas de participação, anúncios, avisos legais ou atualizações de políticas. Requer a aceitação dos recipients.
+* **Agendado - Transacional** - Ao contrário das campanhas de Marketing, as campanhas Transacionais não exigem a participação dos destinatários. Use esta categoria para comunicações relacionadas a interrupções, emergências e cancelamentos. Canais compatíveis: email, SMS, notificação por push.
+
+➡️ [Saiba como trabalhar com campanhas de ação](create-campaign.md)
 
 >[!TAB Campanhas acionadas por API]
 
-Administrador da campanha
-Aprovador da campanha
-Gerente de campanha
-Visualizador da campanha
+**Campanhas acionadas por API** permitem acionar a execução da campanha usando uma chamada de API. Essas comunicações podem ser enviadas onde a necessidade pode envolver personalização, não apenas por um atributo de perfil de redefinição de senha, mas também pelos dados de contexto em tempo real no acionador, que é uma carga da API REST.
 
->[!TAB Campanhas orquestradas]
+* **API acionada - Marketing** - Enviar comunicações de marketing personalizadas para públicos-alvo direcionados.
+* **API acionada - Transacional** - Envia mensagens seguindo uma ação executada por um indivíduo, como uma solicitação de redefinição de senha, compra de carrinho, etc.
 
-Administrador de campanhas orquestradas
-Aprovador de campanhas orquestradas
-Gerenciador de campanhas orquestradas
-Visualizador de campanhas orquestradas
+➡️ [Saiba como trabalhar com campanhas acionadas por API](api-triggered-campaigns.md)
+
 
 >[!ENDTABS]
 
-Se não conseguir acessar as funcionalidades da campanha, entre em contato com o administrador para solicitar as permissões necessárias.
+## Canais compatíveis por tipo de campanha {#channels}
 
-+++Saiba como atribuir uma função relacionada à campanha
+A tabela abaixo mostra a disponibilidade de cada canal em diferentes tipos de campanha, indicando onde eles são compatíveis.
 
-1. Para atribuir uma função a um usuário no produto [!DNL Permissions], navegue até a guia **[!UICONTROL Funções]** e selecione uma das **[!UICONTROL Funções]** integradas relacionadas à campanha detalhadas acima.
+| Canal | Ação (Marketing) | Ação (Transacional) | Acionado pela API (Marketing) | Acionado pela API (Transacional) | Orquestrado |
+|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
+| Email | ✅ | ✅ | ✅ | ✅ | ✅ |
+| SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Notificações por push | ✅ | ✅ | ✅ | ✅ | ✅ |
+| No aplicativo | ✅ | — | — | — | — |
+| Correspondência direta | ✅ | — | — | — | — |
+| Web | ✅ | — | — | — | — |
+| Exp. baseado em código | ✅ | — | — | — | — |
+| Cartões de conteúdo | ✅ | — | — | — | — |
+| WhatsApp | ✅ | — | — | — | — |
+| Linha | ✅ | — | — | — | — |
 
-1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
+## Pré-requisitos {#prerequisites}
 
-1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
+Antes de trabalhar com campanhas, verifique se você revisou os pré-requisitos abaixo.
 
-   Se o usuário não foi criado anteriormente, consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users).
+* **Públicos-alvo** Os públicos-alvo precisam estar disponíveis antes da criação da campanha. [Introdução aos públicos-alvo](../audience/about-audiences.md).
 
-O usuário deve receber um email de redirecionamento para sua instância.
+* **Configurações de canal** - Para selecionar um canal, é necessário ter a configuração de canal correspondente (ou seja, predefinição) criada e disponível. [Saiba como definir as configurações de canal](../configuration/channel-surfaces.md).
 
-+++
+* **Permissões** - As campanhas só estão disponíveis para os usuários com as permissões apropriadas listadas abaixo. Se não conseguir acessar as funcionalidades do Campaign, entre em contato com o administrador para solicitar as permissões necessárias. [Saiba mais sobre as funções integradas do Journey Optimizer](../administration/ootb-product-profiles.md)
 
-### Público-alvo
+  | Tipo de campanha | Permissões |
+  |----------------------------|----------------------------------------------------------------------------|
+  | **Campanhas de ação** | Administrador da campanha<br>Aprovador da campanha<br>Gerente da campanha<br>Visualizador da campanha |
+  | **Campanhas acionadas por API** | Administrador da campanha<br>Aprovador da campanha<br>Gerente da campanha<br>Visualizador da campanha |
+  | **Campanhas orquestradas** | Administrador Orquestrado Da Campanha<br>Aprovador Orquestrado Da Campanha<br>Gerente Orquestrado Da Campanha<br>Visualizador Orquestrado Da Campanha |
 
-Os públicos-alvo precisam estar disponíveis antes de criar a campanha. [Introdução aos públicos-alvo](../audience/about-audiences.md).
+  +++Saiba como atribuir uma função relacionada à campanha
 
-### Configuração de canais
+   1. Para atribuir uma função a um usuário no produto [!DNL Permissions], navegue até a guia **[!UICONTROL Funções]** e selecione uma das **[!UICONTROL Funções]** integradas relacionadas à campanha detalhadas acima.
 
-Para selecionar um canal, é necessário ter a configuração de canal correspondente (ou seja, predefinição) criada e disponível. [Saiba como definir as configurações de canal](../configuration/channel-surfaces.md).
+   1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
+
+   1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
+
+      Se o usuário não foi criado anteriormente, consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users).
+
+  O usuário deve receber um email de redirecionamento para sua instância.
+
+  +++
 
 ## Vamos nos aprofundar um pouco mais
 

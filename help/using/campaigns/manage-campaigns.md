@@ -10,33 +10,14 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 14%
+source-wordcount: '1709'
+ht-degree: 15%
 
 ---
 
 # Acessar e gerenciar campanhas {#manage-campaigns}
-
-Antes de começar com campanhas, verifique os seguintes pré-requisitos listados [nesta seção](get-started-with-campaigns.md#permissions). Depois que esses pré-requisitos forem atendidos, você poderá começar a criar sua campanha:
-
-* **Acessar campanhas**. Você pode acessar campanhas da [lista de campanhas](#access) ou do [calendário da campanha](#calendar).
-
-* **Crie a campanha**. As etapas de criação dependem do [tipo de campanha](get-started-with-campaigns.md#get-started-with-campaigns). Saiba como criar uma [campanha de ação](../campaigns/create-campaign.md), uma [campanha acionada por API](../campaigns/api-triggered-campaigns.md) ou uma [campanha orquestrada](../orchestrated/create-orchestrated-campaign.md).
-
-* **Definir as propriedades da campanha**. Saiba como definir propriedades para uma [campanha de ação](../campaigns/campaign-properties.md), para uma [campanha acionada por API](../campaigns/api-triggered-campaign-properties.md) ou para uma [campanha orquestrada](../orchestrated/create-orchestrated-campaign.md).
-
-* **Defina os canais e o conteúdo da campanha**. Saiba como definir o conteúdo de uma [campanha de ação](../campaigns/campaign-content.md), uma [campanha acionada por API](../campaigns/api-triggered-campaign-content.md) ou uma [campanha orquestrada](../orchestrated/orchestrate-activities.md).
-
-* **Agendar sua campanha** - Você pode verificar as campanhas agendadas [no calendário da campanha](#calendar).
-
-Em seguida, comece a testar, melhore e refine sua campanha antes de executá-la. Assim que a campanha estiver ativa, você poderá monitorá-la e acessar os relatórios.
-
-Ver todos os status e alertas da campanha [nesta seção](#statuses).
-
-
-## Acessar campanhas {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"

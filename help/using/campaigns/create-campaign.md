@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 54%
+source-wordcount: '189'
+ht-degree: 51%
 
 ---
 
@@ -40,6 +40,8 @@ As campanhas de ação (ou campanhas programadas) permitem criar comunicações 
 
 ## Etapas principais para a criação de campanhas de Ação {#steps}
 
+Antes de começar com campanhas, verifique os seguintes pré-requisitos listados [nesta seção](get-started-with-campaigns.md#permissions). Depois que esses pré-requisitos forem atendidos, você poderá começar a criar sua campanha:
+
 1. [Definir as propriedades da campanha Action](campaign-properties.md)
 1. [Configurar a ação da campanha](campaign-action.md)
 1. [Editar o conteúdo da campanha de ação](campaign-content.md)
@@ -47,12 +49,8 @@ As campanhas de ação (ou campanhas programadas) permitem criar comunicações 
 1. [Programar a campanha de ação](campaign-schedule.md)
 1. [Revisar e ativar a campanha de ação](review-activate-campaign.md)
 
->[!IMPORTANT]
->
->Antes de criar sua campanha, verifique se você revisou os [pré-requisitos gerais da campanha](../campaigns/get-started-with-campaigns.md#prerequisites).
-
 ## Vídeos tutoriais {#video}
 
 Saiba como criar uma campanha de Ação.
 
->[!VIDEO](https://video.tv.adobe.com/v/3414156?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

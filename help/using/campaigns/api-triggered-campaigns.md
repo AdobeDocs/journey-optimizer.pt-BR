@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 60%
+source-wordcount: '275'
+ht-degree: 58%
 
 ---
 
@@ -43,6 +43,8 @@ Os canais disponíveis para campanhas acionadas por API são mensagens de email,
 
 ## Etapas principais para a criação de campanhas acionadas por API {#steps}
 
+Antes de começar com campanhas, verifique os seguintes pré-requisitos listados [nesta seção](get-started-with-campaigns.md#permissions). Depois que esses pré-requisitos forem atendidos, você poderá começar a criar sua campanha:
+
 1. [Definir as propriedades da campanha](api-triggered-campaign-properties.md)
 1. [Configurar a ação da campanha](api-triggered-campaign-action.md)
 1. [Editar o conteúdo da campanha](api-triggered-campaign-content.md)
@@ -51,12 +53,8 @@ Os canais disponíveis para campanhas acionadas por API são mensagens de email,
 1. [Revisar e ativar a campanha](review-activate-api-triggered-campaign.md)
 1. [Acionar a execução da campanha](trigger-campaigns.md)
 
->[!IMPORTANT]
->
->Antes de criar sua campanha, verifique se você revisou os [pré-requisitos gerais da campanha](../campaigns/get-started-with-campaigns.md#prerequisites).
-
 ## Vídeos tutoriais {#video}
 
 Saiba como criar uma campanha e acioná-la a partir de um sistema externo com base em interações do usuário, usando a API REST de execução de mensagem interativa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452730?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
