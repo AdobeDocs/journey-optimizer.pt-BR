@@ -5,10 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 8%
+source-wordcount: '1745'
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 8%
 >abstract="A sequência da estratégia de seleção determina qual estratégia será avaliada primeiro. Pelo menos uma estratégia é necessária. Os itens de decisão em estratégias combinadas serão avaliados em conjunto."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Criação de estratégias"
 
-Para apresentar a melhor oferta dinâmica e experiência aos seus clientes, adicione uma política de decisão ao seu conteúdo em uma campanha ou jornada e configure os itens a serem retornados e a estratégia de seleção a ser usada. Para isso, siga as etapas abaixo.
+Para apresentar a melhor oferta dinâmica e experiência aos seus clientes, adicione uma política de decisão ao seu conteúdo em uma campanha ou jornada e configure os itens a serem retornados e a estratégia de seleção a ser usada. Para isso, siga as etapas abaixo:
+
+1. [Adicionar uma política de decisão](#add) - Do editor do Personalization ou do Designer de email.
+1. [Configurar a política de decisão](#configurre) - Adicione um nome e especifique o número de itens a serem retornados.
+1. [Configurar uma sequência de estratégia](#strategy) - Selecione os itens a serem retornados com a política de decisão.
+1. [Selecionar ofertas substitutas](#fallback) (opcional) - Selecione os itens a serem exibidos se nenhum item ou estratégia de seleção estiver qualificado.
+1. [Revisar e salvar](#review) a estratégia de seleção
 
 >[!AVAILABILITY]
 >
@@ -51,9 +57,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos seus clientes, adic
    >
    >Observe que qualquer política de decisão configurada no email não será salva no modelo. Se você aplicar o template a outro email, precisará reconfigurar a política.
 
-1. Abra o editor de personalização para criar a política de decisão.
-
-   Para emails, você também pode usar um menu dedicado no Designer de email para criar uma política de decisão. Expanda as seções abaixo para explorar os dois métodos.
+1. Abra o **editor de personalização** para criar a política de decisão. Para emails, você também pode usar um menu dedicado no **Designer de email** para criar uma política de decisão. Expanda as seções abaixo para explorar os dois métodos.
 
    +++Criar uma política de decisão pelo editor do Personalization
 
@@ -74,7 +78,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos seus clientes, adic
 
    +++
 
-## Configurar os detalhes da política de decisão {#configure}
+## Configurar a política de decisão {#configure}
 
 Após ter adicionado uma nova política de decisão ao seu conteúdo, a tela de configuração da política de decisão é aberta.
 
@@ -84,9 +88,9 @@ Após ter adicionado uma nova política de decisão ao seu conteúdo, a tela de 
 
    ![](assets/decision-code-based-details.png)
 
-   Para retornar vários itens em um email, é necessário usar um componente de conteúdo de **[!UICONTROL Grade de repetição]**. Expanda a seção abaixo para obter mais detalhes:
+   Para o canal Email, o campo **[!UICONTROL Número de itens]** é definido como 1 por padrão e não pode ser modificado a menos que a política de decisão seja adicionada de um componente de **[!UICONTROL Grade de Repetição]**. Para retornar vários itens em um email, você precisa adicionar um componente de conteúdo de **[!UICONTROL Grade de repetição]** para poder selecionar vários itens no campo **[!UICONTROL Número de itens]**. Expanda a seção abaixo para obter mais detalhes:
 
-   +++ Retornar vários itens de decisão por email
+   +++Retornar vários itens de decisão por email
 
    1. Arraste um componente **[!UICONTROL Repetir Grade]** no seu email e configure-o como desejado usando o painel **[!UICONTROL Configurações]**.
 
@@ -102,7 +106,7 @@ Após ter adicionado uma nova política de decisão ao seu conteúdo, a tela de 
 
 1. Clique em **[!UICONTROL Next]**.
 
-## Selecionar itens e configurar estratégias de seleção {#select}
+## Configurar uma sequência de estratégia {#strategy}
 
 A seção **[!UICONTROL Sequência de estratégia]** permite selecionar os itens de decisão e configurar estratégias de seleção para apresentar com a política de decisão.
 
@@ -203,7 +207,7 @@ Você pode selecionar qualquer item da lista, que exibe todos os itens de decis�
 >[!NOTE]
 > Os fallbacks são opcionais. É possível selecionar até o número de itens solicitados. Se nenhum for elegível e nenhum fallback for definido, nada será exibido.
 
-## Revisar e salvar a política de decisão {#save}
+## Revisar e salvar a política de decisão {#review}
 
 Após configurar uma estratégia de seleção e adicionar ofertas substitutas, clique em **[!UICONTROL Avançar]** para revisar e salvar sua política de decisão e em **[!UICONTROL Criar]** para confirmar a criação da política.
 
