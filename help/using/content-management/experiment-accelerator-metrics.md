@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 664f6bafd4cfb4d86b7a449c279484ca49933247
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 2%
@@ -49,6 +49,8 @@ Os seguintes valores de resumo estão disponíveis para referência rápida:
 Cada valor inclui uma alteração de porcentagem em relação ao período anterior, tornando fácil ver se o desempenho está melhorando, diminuindo ou permanecendo estável.
 
 ### Efeito do experimento
+
+![](assets/experiment-monitor-metrics-3.png)
 
 Esta seção exibe todos os experimentos ativos dentro do período selecionado (Últimos 90 dias, Últimos 30 dias ou Últimos 7 dias) e destaca sua contribuição para a métrica.
 
