@@ -5,9 +5,9 @@ title: Medidas de proteção e limitações para campanhas orquestradas
 description: Saiba mais sobre as medidas de proteção e limitações das campanhas orquestradas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '508'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * O número médio de atributos por esquema **não deve exceder 50 colunas** para manter a capacidade de gerenciamento e o desempenho.
 
-* Esquemas baseados em modelo não podem ser habilitados para **Perfis** do Adobe Experience Platform. Somente esquemas XDM padrão são suportados para **Perfis** do Adobe Experience Platform. Os esquemas baseados em modelo podem ser ativados para Campanhas orquestradas ou Campanhas de ação. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Esquemas baseados em modelo não podem ser habilitados para **Perfis** do Adobe Experience Platform. Somente esquemas XDM padrão são suportados para **Perfis** do Adobe Experience Platform. Os esquemas baseados em modelo podem ser ativados para Campanhas orquestradas ou Campanhas de ação. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Assimilação de dados
 
@@ -68,6 +68,8 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 * O `table_name` atribuído durante a criação do conjunto de dados é permanente e usado em todos os recursos de segmentação e personalização.
 
 * **Não há suporte para** grupos de campos na estrutura de modelagem de dados atual.
+
+* O suporte para chaves primárias compostas com fluxos de upload de arquivo não está disponível no momento.
 
 ## Limitações de atividades
 
