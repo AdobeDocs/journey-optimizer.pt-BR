@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: email, design, acessibilidade
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: dc7b24223bd32a75b87946733a6b098811e007d9
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 0%
@@ -31,8 +31,8 @@ De acordo com isso, as práticas recomendadas para criar conteúdo acessível co
 >Esta página trata de tornar o seu conteúdo acessível a todos os seus destinatários, para garantir que pessoas com deficiência possam ler, entender e interagir com seus emails e landing pages criadas com o [!DNL Journey Optimizer].
 >
 >Por outro lado, a acessibilidade da própria interface [!DNL Journey Optimizer] está detalhada em [esta seção](../start/accessibility.md).
-> 
->## Garantir a legibilidade do texto {#text-readability}
+
+## Garantir a legibilidade do texto {#text-readability}
 
 Use a guia **[!UICONTROL Estilos]** do componente **[!UICONTROL Texto]** para garantir que o texto seja legível, por exemplo, usando contraste de cores adequado e fontes simples. [Saiba mais](content-components.md#text)
 
