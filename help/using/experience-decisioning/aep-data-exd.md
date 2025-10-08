@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
+source-git-commit: 813e7a61a69e73afe3f2f9fc808c551d85bd22a0
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1200'
 ht-degree: 25%
 
 ---
@@ -44,15 +44,17 @@ ht-degree: 25%
 >title="Adicionar conjunto de dados"
 >abstract="Use atributos de conjuntos de dados da [!DNL Adobe Experience Platform] para definir critérios de limite com base em atributos dinâmicos e externos. Clique em **[!UICONTROL Adicionar conjunto de dados]** para selecionar o conjunto de dados da Adobe Experience Platform com os atributos necessários. Se o conjunto de dados não for exibido na lista, verifique se ele foi habilitado para pesquisa e se você criou um mapeamento de pesquisa de conjunto de dados."
 
+[!DNL Journey Optimizer] permite que você aproveite os dados de [!DNL Adobe Experience Platform] para a Decisão. Isso permite estender a definição dos atributos de decisão para dados adicionais nos conjuntos de dados para atualizações em massa que mudam periodicamente, sem precisar atualizar manualmente os atributos um de cada vez. Por exemplo, disponibilidade, tempos de espera etc.
+
 >[!AVAILABILITY]
 >
 >No momento, esse recurso está disponível para todos os clientes como uma versão de disponibilidade limitada.
 
-[!DNL Journey Optimizer] permite que você aproveite os dados de [!DNL Adobe Experience Platform] para a Decisão. Isso permite estender a definição dos atributos de decisão para dados adicionais nos conjuntos de dados para atualizações em massa que mudam periodicamente, sem precisar atualizar manualmente os atributos um de cada vez. Por exemplo, disponibilidade, tempos de espera etc.
+## Medidas de proteção e limitações {#guardrails}
 
->[!IMPORTANT]
->
->[!DNL Journey Optimizer]oferece suporte a até 1.000 pesquisas para uma única política de decisão.
+* **Canais com suporte** - A pesquisa de conjunto de dados com decisão funciona atualmente para Ações Personalizadas de Email e Jornada. <!--Support for code-based experience channels is coming soon.-->
+* **Uso de atributo** - A funcionalidade de pesquisa do conjunto de dados para a tomada de decisão estende as definições de item de decisão com atributos adicionais — ela não estende atributos aos perfis
+* Limites de pesquisa: [!DNL Journey Optimizer] suporta até 1.000 pesquisas por política de decisão única.
 
 ## Pré-requisitos
 
