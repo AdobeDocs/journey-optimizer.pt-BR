@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
+source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Agora você pode adicionar todos os atributos de decisão desejados dentro desse
 >[!NOTE]
 >
 >Para o rastreamento de itens da política de decisão, o atributo `trackingToken` precisa ser adicionado da seguinte forma para o conteúdo da política de decisão:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Para adicionar um atributo, clique no ícone &quot;+&quot; ao lado dele. Você pode adicionar quantos atributos desejar ao código.
 
@@ -78,13 +78,13 @@ Você também pode adicionar qualquer outro atributo disponível no editor de pe
 
 ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Aproveitar fragmentos {#fragments}
+## Aproveitar fragmentos (experiência baseada em código) {#fragments}
 
 Se a política de decisão contiver itens de decisão, incluindo fragmentos, você poderá aproveitar esses fragmentos no código de política de decisão. [Saiba mais sobre fragmentos](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
->No momento, esse recurso só está disponível para algumas organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o representante da Adobe.
+>No momento, esse recurso só está disponível para o canal de experiência baseado em código e para um conjunto de organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o representante da Adobe.
 
 Por exemplo, digamos que você queira exibir conteúdos diferentes para vários modelos de dispositivos móveis. Certifique-se de ter adicionado fragmentos correspondentes a esses dispositivos ao item de decisão que você está usando na política de decisão. [Saiba como](items.md#attributes).
 
