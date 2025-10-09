@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: 672489bc8ac3cfd02f963a963bc6a584a65e9efe
 workflow-type: tm+mt
-source-wordcount: '2969'
+source-wordcount: '2968'
 ht-degree: 99%
 
 ---
@@ -452,7 +452,7 @@ ht-degree: 99%
       + [Adicionar personalização](using/personalization/personalization-build-expressions.md)
       + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
       + [Reutilizar fragmentos de expressão](using/personalization/use-expression-fragments.md)
-      + [Usar dados da Adobe Experience Platform para personalização (Beta)](using/personalization/aep-data-perso.md)
+      + [Usar dados da Adobe Experience Platform para personalização](using/personalization/aep-data-perso.md)
       + Lista de funções auxiliares {#functions}
          + [Lista de funções auxiliares](/help/rp_landing_pages/functions-landing-page.md)
          + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
@@ -493,7 +493,7 @@ ht-degree: 99%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
