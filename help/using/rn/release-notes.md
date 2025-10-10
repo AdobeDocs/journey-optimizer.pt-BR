@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b0198df405217c7870a471d271987da08d0e2308
+source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 86%
+source-wordcount: '1625'
+ht-degree: 81%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 86%
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão. O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
 ## Atualizações de outubro de 2025 {#25-10-rn}
+
+### Novos recursos {#25-10-features}
 
 <table>
 <thead>
@@ -64,6 +66,20 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 </tr>
 </tbody>
 </table>
+
+### Aprimoramentos {#25-10-improvements}
+
+**Suporte a atributos personalizados para Mailto (cancelar inscrição)**
+
+Com o Journey Optimizer, se você estiver gerenciando o consentimento fora do Adobe, é possível definir endpoints personalizados externos ao definir seu próprio link de cancelamento de inscrição com um clique e um endereço de email de cancelamento de inscrição personalizado na configuração de email. Quando os destinatários clicam no link para cancelar assinatura, o Journey Optimizer anexa alguns parâmetros padrão específicos do perfil ao evento de atualização de consentimento.
+
+Para personalizar ainda mais os endpoints personalizados, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento.
+
+>[!AVAILABILITY]
+>
+>Esse recurso já está disponível para a **[!UICONTROL URL para Cancelamento de Inscrição com Um Clique]** personalizada desde agosto de 25 e agora é lançado para a opção **[!UICONTROL Mailto (cancelar inscrição)]** em Disponibilidade Limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+
+Data de disponibilidade: 6 de outubro de 2025
 
 ## Notas de versão de setembro de 2025 {#25-9-rn}
 
@@ -343,14 +359,6 @@ In the next few days, the following capabilities and enhancements are scheduled 
   * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
   You can modify threshold values and subscribe to individual journey-level alerts vs globally.
-
-  Availability date: Sept XX, 2025
-
-
-* **Custom attributes support with One-click unsubscribe URL**  
-  With Journey Optimizer, if you are managing consent outside of Adobe, you can set an external custom endpoint by defining your own one-click unsubscribe link in the email configuration. When your recipients click the unsubscribe link, Journey Optimizer appends some default profile-specific parameters to the consent update event. 
-
-  To further personalize the unsubscribe email address, you can now define custom attributes that will be appended to the consent event. This capability has already been available for the custom one-click unsubscribe link since the August 25 release.
 
   Availability date: Sept XX, 2025
 
