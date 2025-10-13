@@ -6,9 +6,9 @@ feature: Release Notes
 description: Noções básicas sobre o ciclo de versão do Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
+source-git-commit: 0de90d707c02e11bfb8a6af7b22d4273a8b6b88d
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ O [!DNL Adobe Journey Optimizer] geralmente segue uma cadência de lançamento m
 >
 > No final de cada trimestre, as versões podem ser antecipadas e distribuídas até duas semanas antes do final do mês para se alinharem às programações trimestrais ou às versões dependentes do produto.
 
-Embora a versão mensal introduza o conjunto principal de novos recursos e correções, a abordagem de entrega contínua permite que atualizações adicionais sejam implantadas entre os ciclos, quando prontas. As notas de versão e a documentação relacionada são atualizadas adequadamente.
+Embora a versão mensal introduza o conjunto principal de novos recursos e correções, a abordagem de entrega contínua permite que atualizações adicionais sejam implantadas entre os ciclos, quando prontas. As notas de versão e a documentação relacionada são atualizadas adequadamente e a data de disponibilidade é mencionada. Todas as alterações lançadas durante o mês são consolidadas nas notas de versão mensais na data de lançamento.
 
 
 ## Caminhos de liberação {#release-paths}
