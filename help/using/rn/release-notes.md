@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 82bc2fd4ab90e31b86c9da8472018897131a8d05
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 76%
+source-wordcount: '1774'
+ht-degree: 74%
 
 ---
 
@@ -31,6 +31,24 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 Os novos recursos e aprimoramentos lançados nas últimas semanas estão listados abaixo, com a data de disponibilidade. Elas serão agrupadas com o conteúdo das próximas notas de versão no final do mês. Consulte também as [notas de versão mais recentes abaixo](#latest-rn).
 
 ### Novos recursos {#updates-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Auxiliar de metadados de execução</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma nova função auxiliar "executionMetadata" está disponível no editor de personalização. Ele permite anexar informações contextuais a qualquer ação nativa e capturá-las em um conjunto de dados para exportação para sistemas externos.</p>
+<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
+<p>Para mais informações, consulte a <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">documentação detalhada</a></p>
+<p>Data de disponibilidade: 13 de outubro de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2422'
 ht-degree: 27%
 
 ---
@@ -436,6 +436,9 @@ Os auxiliares estão detalhados em [esta página](helpers.md).
     </tr>
     <tr>
         <td><a href="helpers.md#each">Each</a></td><td>Esta função é usada para iterar em uma matriz.</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#execution-metadata">Metadados da execução</a></td><td>Este auxiliar captura metadados de valor chave personalizados durante a renderização da mensagem para que eles possam ser armazenados no objeto de metadados de execução em tempo de execução</td>
     </tr>
     <tr>
         <td><a href="helpers.md#if-function">Se</a></td><td>Esta função é usada para definir um bloco condicional - se a expressão evaluation retornar true, o bloco será renderizado</td>
