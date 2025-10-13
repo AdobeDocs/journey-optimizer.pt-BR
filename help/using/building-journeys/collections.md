@@ -9,10 +9,10 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 8f25fd5110777c148246864b364d02e4c6bf00da
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 7%
+source-wordcount: '563'
+ht-degree: 6%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 7%
 
 Você pode passar uma coleção em parâmetros de ação personalizados que serão preenchidos dinamicamente no tempo de execução. Há suporte para dois tipos de coleções:
 
-* coleções simples: matrizes de tipos de dados simples, por exemplo, com uma listString:
+* **coleções simples**: matrizes de tipos de dados simples, por exemplo, com uma listString:
 
-  ```
+  ```json
   {
    "deviceTypes": [
        "android",
@@ -32,9 +32,9 @@ Você pode passar uma coleção em parâmetros de ação personalizados que ser�
   }
   ```
 
-* coleções de objetos: uma matriz de objetos JSON, por exemplo:
+* o **coleções de objetos**: uma matriz de objetos JSON, por exemplo:
 
-  ```
+  ```json
   {
   "products":[
      {
@@ -56,30 +56,12 @@ Você pode passar uma coleção em parâmetros de ação personalizados que ser�
   }
   ```
 
-## Limitações {#limitations}
-
-* Matrizes aninhadas de objetos em uma matriz de objetos não têm suporte no momento. Por exemplo:
-
-  ```
-  {
-  "products":[
-    {
-       "id":"productA",
-       "name":"A",
-       "price":20,
-       "locations": [{"name": "Paris"}, {"name": "London"}]
-    },
-   ]
-  }
-  ```
-
-* Para testar coleções usando o modo de teste, é necessário usar o modo de visualização de código. No momento, o modo de exibição de código não é compatível com eventos comerciais. Você só pode enviar uma coleção com um único elemento.
 
 ## Procedimento geral {#general-procedure}
 
-Nesta seção, usaremos o seguinte exemplo de carga JSON. Esta é uma matriz de objetos com um campo que é uma coleção simples.
+Nesta seção, usamos o exemplo de carga JSON a seguir. Esta é uma matriz de objetos com um campo que é uma coleção simples.
 
-```
+```json
 {
   "ctxt": {
     "products": [
@@ -103,9 +85,9 @@ Nesta seção, usaremos o seguinte exemplo de carga JSON. Esta é uma matriz de 
 }
 ```
 
-Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você precisa ter pelo menos um objeto.
+Você pode ver que `products` é uma matriz de dois objetos. Você precisa ter pelo menos um objeto.
 
-1. Crie sua ação personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
+1. Crie sua ação personalizada. Saiba mais [nesta página](../action/about-custom-action-configuration.md).
 
 1. Na seção **[!UICONTROL Parâmetros de ação]**, cole o exemplo de JSON. A estrutura exibida é estática: ao colar a carga, todos os campos são definidos como constantes.
 
@@ -117,7 +99,7 @@ Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você pre
    >
    >O tipo de campo é inferido automaticamente de acordo com o exemplo de carga útil.
 
-1. Se você quiser passar objetos dinamicamente, precisará defini-los como variáveis. Neste exemplo, definimos &quot;products&quot; como variável. Todos os campos de objeto incluídos no objeto são definidos como variáveis automaticamente.
+1. Se você quiser passar objetos dinamicamente, precisará defini-los como variáveis. Neste exemplo, definimos `products` como variável. Todos os campos de objeto incluídos no objeto são definidos como variáveis automaticamente.
 
    >[!NOTE]
    >
@@ -125,31 +107,83 @@ Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você pre
 
 1. Para cada campo, defina o rótulo que será exibido na tela de jornada.
 
-   ![](assets/uc-collection-2.png)
+   ![](assets/uc-collection-2.png){width="70%" align="left"}
 
-1. Crie sua jornada e adicione a ação personalizada que você criou. Consulte [esta página](../building-journeys/using-custom-actions.md).
+1. Crie sua jornada e adicione a ação personalizada que você criou. Saiba mais [nesta página](../building-journeys/using-custom-actions.md).
 
-1. Na seção **[!UICONTROL Parâmetros de ação]**, defina o parâmetro de matriz (&quot;products&quot; em nosso exemplo) usando o editor de expressão avançado.
+1. Na seção **[!UICONTROL Parâmetros de ação]**, defina o parâmetro de matriz (`products` em nosso exemplo) usando o editor de expressão avançado.
 
    ![](assets/uc-collection-3.png)
 
-1. Para cada um dos campos de objeto a seguir, digite o nome do campo correspondente do esquema XDM de origem. Se os nomes forem idênticos, isso não será necessário. No nosso exemplo, precisamos definir apenas &quot;product id&quot; e &quot;color&quot;.
+1. Para cada um dos campos de objeto a seguir, digite o nome do campo correspondente do esquema XDM de origem. Se os nomes forem idênticos, isso não será necessário. Em nosso exemplo, precisamos apenas definir `product id` e &quot;cor&quot;.
 
-   ![](assets/uc-collection-4.png)
+   ![](assets/uc-collection-4.png){width="50%" align="left"}
 
 Para o campo de matriz, também é possível usar o editor de expressão avançado para executar a manipulação de dados. No exemplo a seguir, usamos as funções [filtro](functions/functionfilter.md) e [interseção](functions/functionintersect.md):
 
 ![](assets/uc-collection-5.png)
 
+## Limitações {#limitations}
+
+* **Suporte para Matrizes Aninhadas em Ações Personalizadas**
+
+  O Adobe Journey Optimizer oferece suporte a matrizes aninhadas de objetos em **cargas de resposta** de ação personalizada, mas esse suporte é limitado em **cargas de solicitação**.
+
+  Nas cargas de solicitação, matrizes aninhadas só são suportadas quando contêm um número fixo de itens, conforme definido na configuração de ação personalizada. Por exemplo, se uma matriz aninhada sempre incluir exatamente três itens, ela poderá ser configurada como uma constante. Quando o número de itens precisa ser dinâmico, somente as matrizes não aninhadas (matrizes no nível inferior) podem ser definidas como variáveis.
+
+  Exemplo:
+
+   1. O exemplo a seguir ilustra um **caso de uso não suportado**.
+
+      Neste exemplo, a matriz products inclui uma matriz aninhada (`locations`) com um número dinâmico de itens, para o qual não há suporte em cargas de solicitação.
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "locations": [
+            { "name": "Paris" },
+            { "name": "London" }
+            ]
+         }
+      ]
+      }
+      ```
+
+   2. Exemplo compatível, com itens fixos definidos como constantes.
+
+      Nesse caso, os locais aninhados são substituídos por campos fixos (`location1`, `location2`), permitindo que a carga permaneça válida dentro da configuração com suporte.
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "location1": { "name": "Paris" },
+            "location2": { "name": "London" }
+         }
+      ]
+      }
+      ```
+
+
+* Para testar coleções usando o modo de teste, é necessário usar o modo de visualização de código. No momento, o modo de exibição de código não é compatível com eventos comerciais. Você só pode enviar uma coleção com um único elemento.
+
+
 ## Casos específicos{#examples}
 
 Para tipos heterogêneos e arrays de arrays, o array é definido com o tipo listAny. Você só pode mapear itens individuais, mas não pode alterar a matriz para a variável.
 
-![](assets/uc-collection-heterogeneous.png)
+![](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
 
 Exemplo de tipo heterogêneo:
 
-```
+```json
 {
     "data_mixed-types": [
         "test",
@@ -162,7 +196,7 @@ Exemplo de tipo heterogêneo:
 
 Exemplo de matriz de matrizes:
 
-```
+```json
 {
     "data_multiple-arrays": [
         [
