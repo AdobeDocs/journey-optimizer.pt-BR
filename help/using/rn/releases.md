@@ -6,9 +6,9 @@ feature: Release Notes
 description: Noções básicas sobre o ciclo de versão do Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 0de90d707c02e11bfb8a6af7b22d4273a8b6b88d
+source-git-commit: 625dfbb66effb30172f6faf56db6fe512aef909a
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Como parte desse modelo:
 
 ## Tempo e cadência da versão {#release-timing}
 
-O [!DNL Adobe Journey Optimizer] geralmente segue uma cadência de lançamento mensal, com implantações que geralmente ocorrem durante a última semana de cada mês. As notas de versão mensais e a documentação relacionada são publicadas às terças-feiras. As notas de pré-lançamento são publicadas às sextas-feiras antes da semana de lançamento.
+O [!DNL Adobe Journey Optimizer] geralmente segue uma cadência de lançamento mensal, com implantações que geralmente ocorrem durante a última semana de cada mês. As notas de versão mensais e a documentação relacionada são publicadas às terças-feiras da semana de lançamento. As notas de pré-lançamento são publicadas às sextas-feiras antes da semana de lançamento.
 
 >[!TIP]
 >
 > No final de cada trimestre, as versões podem ser antecipadas e distribuídas até duas semanas antes do final do mês para se alinharem às programações trimestrais ou às versões dependentes do produto.
 
-Embora a versão mensal introduza o conjunto principal de novos recursos e correções, a abordagem de entrega contínua permite que atualizações adicionais sejam implantadas entre os ciclos, quando prontas. As notas de versão e a documentação relacionada são atualizadas adequadamente e a data de disponibilidade é mencionada. Todas as alterações lançadas durante o mês são consolidadas nas notas de versão mensais na data de lançamento.
+Embora a versão mensal introduza o conjunto principal de novos recursos e correções, a abordagem de entrega contínua permite que atualizações adicionais sejam implantadas entre os ciclos, quando prontas. As notas de versão são atualizadas adequadamente na seção _Atualizações mais recentes_, e a data de disponibilidade é mencionada. Todas as alterações lançadas durante o mês são consolidadas nas notas de versão mensais na data de lançamento.
 
 
 ## Caminhos de liberação {#release-paths}
@@ -48,10 +48,10 @@ Os recursos no Journey Optimizer seguem caminhos de versão diferentes, dependen
 
 Os caminhos de versão comuns incluem:
 
-* **Direto para GA** — Algumas melhorias menores ou incrementais vão direto para GA (Disponibilidade Geral).
-* **LA → GA** — Os recursos estão disponíveis primeiro para um público-alvo limitado (disponibilidade limitada) antes da implantação geral.
+* **Direto para disponibilidade geral** — alguns novos recursos e melhorias vão direto para Disponibilidade Geral (GA).
+* **LA → GA** — Alguns recursos estão disponíveis primeiro para um público-alvo limitado (disponibilidade limitada) antes da implantação geral.
 * **Beta → LA → GA** — Recursos maiores ou experimentais avançam por todas as fases para teste e validação.
-* **Beta → GA** — Alguns recursos estáveis do Beta podem ser movidos diretamente para GA sem uma fase intermediária de LA.
+* **Beta → GA** — Alguns recursos estáveis do Beta podem ser movidos diretamente para GA, sem uma fase intermediária de LA.
 
 >[!TIP]
 >
@@ -62,14 +62,14 @@ Os caminhos de versão comuns incluem:
 
 | **Rótulo** | **Propósito** | **Disponibilidade** | **Observações sobre a Chave** |
 |------------|-------------|------------------|----------------|
-| **Beta** | Teste antecipado e coleta de feedback. | Restrito a clientes ou organizações selecionados que participam do programa Beta da Adobe. | * Não destinado ao uso em produção.<br>* A funcionalidade ou o design podem mudar antes da disponibilidade geral.<br>- O feedback ajuda a refinar a implementação final. |
-| **Disponibilidade Limitada (DL)** | Implantação controlada para validação e monitoramento. | Ativado somente para clientes ou ambientes selecionados (por exemplo, sandboxes de desenvolvimento). | * O recurso é quase final e monitorado ativamente.<br>- Usado para validar o desempenho e a escalabilidade antes do lançamento geral.O acesso <br>* requer aprovação do Adobe. |
-| **Disponibilidade Geral** | Versão ampla da funcionalidade totalmente compatível. | Ativado por padrão para todas as organizações elegíveis. | * Pronto para produção e com suporte total.<br>* Licenciamento ou direitos podem ser aplicados.<br>* Pode ser implantado progressivamente entre regiões. |
+| **Beta** | Teste antecipado e coleta de feedback. | Restrito a clientes ou organizações selecionados que participam do programa Beta da Adobe. | - Não destinado a utilização na produção.<br>- A funcionalidade ou o design podem mudar antes do GA.<br>- O feedback ajuda a refinar a implementação final. |
+| **Disponibilidade Limitada (DL)** | Implantação controlada para validação e monitoramento. | Ativado somente para clientes ou ambientes selecionados (por exemplo, sandboxes de desenvolvimento). | - O recurso é quase final e monitorado ativamente.<br>- Usado para validar o desempenho e a escalabilidade antes do lançamento geral.<br>- O acesso requer aprovação do Adobe. |
+| **Disponibilidade Geral** | Versão ampla da funcionalidade totalmente compatível. | Ativado por padrão para todas as organizações elegíveis. | - Pronto para produção e com suporte total.<br> - Licenciamento ou direitos podem se aplicar.<br> - Pode ser implantado progressivamente entre regiões. |
 
 
 ## Implantação e disponibilidade {#rollout}
 
-Mesmo após um anúncio no GA, a implantação pode ocorrer gradualmente entre organizações ou regiões. Se um novo recurso não aparecer imediatamente em seu ambiente, ele normalmente estará disponível em alguns dias ou semanas após o lançamento.
+Mesmo após um anúncio no GA, a implantação pode ocorrer gradualmente entre organizações ou regiões. Se um novo recurso não aparecer imediatamente em seu ambiente, ele normalmente estará disponível em alguns dias após o lançamento.
 
 Essa implantação gradual ajuda a Adobe a monitorar a estabilidade, o desempenho e a experiência do usuário antes de concluir a implantação.
 
