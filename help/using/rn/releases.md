@@ -21,7 +21,7 @@ O [!DNL Adobe Journey Optimizer] é atualizado regularmente para fornecer novos 
 
 O [!DNL Adobe Journey Optimizer] opera em um modelo de entrega contínua, permitindo uma abordagem escalável e em fases para a implantação de recursos. Esse modelo permite que a Adobe ofereça inovações com mais rapidez e garanta estabilidade e desempenho contínuos durante a implantação.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 > Como o [!DNL Adobe Journey Optimizer] usa entrega contínua, novos recursos podem aparecer progressivamente entre organizações ou regiões.
 
@@ -35,7 +35,7 @@ Como parte desse modelo:
 
 O [!DNL Adobe Journey Optimizer] geralmente segue uma cadência de lançamento mensal, com implantações que geralmente ocorrem durante a última semana de cada mês. As notas de versão mensais e a documentação relacionada são publicadas às terças-feiras. As notas de pré-lançamento são publicadas às sextas-feiras antes da semana de lançamento.
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 > No final de cada trimestre, as versões podem ser antecipadas e distribuídas até duas semanas antes do final do mês para se alinharem às programações trimestrais ou às versões dependentes do produto.
 
@@ -53,7 +53,7 @@ Os caminhos de versão comuns incluem:
 * **Beta → LA → GA** — Recursos maiores ou experimentais avançam por todas as fases para teste e validação.
 * **Beta → GA** — Alguns recursos estáveis do Beta podem ser movidos diretamente para GA sem uma fase intermediária de LA.
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 > Se você estiver interessado em obter acesso antecipado a recursos no Beta ou em Disponibilidade limitada, entre em contato com o representante da Adobe para discutir as opções de participação.
 
