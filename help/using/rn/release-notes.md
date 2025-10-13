@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a530a183c3eba87dcee59d42162fad9c0c32942
+source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 81%
+source-wordcount: '1712'
+ht-degree: 76%
 
 ---
 
@@ -20,11 +20,17 @@ ht-degree: 81%
 >title="Novidades?"
 >abstract="O **Adobe Journey Optimizer** está sempre fornecendo novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão."
 
-O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão. O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+O [!DNL Adobe Journey Optimizer] segue um **modelo de entrega contínua**, permitindo que a Adobe forneça novos recursos, aprimoramentos e correções continuamente. Essa abordagem habilita uma **implantação escalonável e em fases** de recursos para garantir desempenho e estabilidade em todos os ambientes.
 
-## Atualizações de outubro de 2025 {#25-10-rn}
+Devido a este modelo, as notas de versão são **atualizadas entre as versões mensais**.  Uma seção dedicada de [Atualizações mais recentes](#updates-rn) destaca novos recursos e melhorias à medida que são implantados na produção, para que você sempre seja informado sobre todas as alterações em tempo real. <!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
 
-### Novos recursos {#25-10-features}
+O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Atualizações mais recentes {#updates-rn}
+
+Os novos recursos e aprimoramentos lançados nas últimas semanas estão listados abaixo, com a data de disponibilidade. Elas serão agrupadas com o conteúdo das próximas notas de versão no final do mês. Consulte também as [notas de versão mais recentes abaixo](#latest-rn).
+
+### Novos recursos {#updates-features}
 
 <table>
 <thead>
@@ -67,7 +73,7 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 </tbody>
 </table>
 
-### Aprimoramentos {#25-10-improvements}
+### Aprimoramentos {#updates-improvements}
 
 **Suporte a atributos personalizados para o endereço Mailto (cancelar inscrição)**
 
@@ -81,7 +87,7 @@ Para personalizar ainda mais os endpoints personalizados, agora é possível def
 
 Data de disponibilidade: 6 de outubro de 2025
 
-## Notas de versão de setembro de 2025 {#25-9-rn}
+## Notas de versão de setembro de 2025 {#latest-rn}
 
 **Data de lançamento**: 23 a 24 de setembro de 2025
 
