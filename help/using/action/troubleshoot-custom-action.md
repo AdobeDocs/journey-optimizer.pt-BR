@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '642'
 ht-degree: 2%
 
 ---
@@ -80,7 +80,7 @@ Como administrador do Journey Optimizer, você também pode usar ferramentas ext
 
 * Esse recurso de teste no produto elimina a necessidade de copiar manualmente os detalhes de configuração entre as ferramentas, reduzindo o risco de erros.
 
-## Solução de problemas {#troubleshoot-custom-action-check}
+## Resolução de problemas {#troubleshoot-custom-action-check}
 
 Se a solicitação falhar, você pode verificar:
 
@@ -88,3 +88,13 @@ Se a solicitação falhar, você pode verificar:
 * O método de solicitação (GET vs. POST) e a carga útil correspondente.
 * O endpoint da API e os cabeçalhos definidos na ação personalizada.
 * Use os dados de resposta para identificar possíveis erros de configuração.
+
+## Recursos adicionais
+
+Navegue pelas seções abaixo para saber mais sobre como configurar e usar suas ações personalizadas:
+
+* [Introdução a ações personalizadas](../action/action.md) - Saiba o que é uma ação personalizada e como ela ajuda você a se conectar a sistemas de terceiros
+* [Configurar ações personalizadas](../action/about-custom-action-configuration.md) - Saiba como criar e configurar uma ação personalizada
+* [Usar ações personalizadas](../building-journeys/using-custom-actions.md) - Saiba como usar ações personalizadas em suas jornadas
+* [Envio de coleções em parâmetros de ação personalizados](../building-journeys/collections.md) - Saiba como enviar uma coleção em parâmetros de ação personalizados que é preenchida dinamicamente no tempo de execução
+

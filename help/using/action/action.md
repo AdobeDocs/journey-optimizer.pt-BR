@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: ações, jornada, mensagens, envio, conexões
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 46%
+source-wordcount: '358'
+ht-degree: 37%
 
 ---
 
@@ -49,4 +49,14 @@ Saiba como solucionar problemas de uma ação personalizada [nesta página dedic
 
 Saiba como configurar ações personalizadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430278?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+
+## Recursos adicionais
+
+Navegue pelas seções abaixo para saber mais sobre como configurar e usar suas ações personalizadas:
+
+* [Configurar ações personalizadas](../action/about-custom-action-configuration.md) - Saiba como criar e configurar uma ação personalizada
+* [Usar ações personalizadas](../building-journeys/using-custom-actions.md) - Saiba como usar ações personalizadas em suas jornadas
+* [Envio de coleções em parâmetros de ação personalizados](../building-journeys/collections.md) - Saiba como enviar uma coleção em parâmetros de ação personalizados que é preenchida dinamicamente no tempo de execução
+* [Solução de problemas de ação personalizada](../action/troubleshoot-custom-action.md) - Saiba como solucionar problemas de uma ação personalizada
+

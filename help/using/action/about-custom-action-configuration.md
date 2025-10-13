@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 19%
+source-wordcount: '1829'
+ht-degree: 18%
 
 ---
 
@@ -26,6 +26,34 @@ ht-degree: 19%
 Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que as jornadas enviem chamadas de API para um sistema de terceiros, use ações personalizadas para configurar a conexão com sua jornada. Por exemplo, você pode conectar aos seguintes sistemas com ações personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase etc.
 
 As ações personalizadas são ações adicionais definidas por usuários técnicos e disponibilizadas aos profissionais de marketing. Depois de configuradas, elas são exibidas na paleta esquerda da jornada, na categoria **[!UICONTROL Ação]**. Saiba mais [nesta página](../building-journeys/about-journey-activities.md#action-activities).
+
+
+## Etapas de configuração {#configuration-steps}
+
+Estas são as principais etapas necessárias para configurar uma ação personalizada:
+
+1. Na seção de menu ADMINISTRAÇÃO, selecione **[!UICONTROL Configurações]**. Na seção **[!UICONTROL Ações]**, clique em **[!UICONTROL Gerenciar]**. Clique em **[!UICONTROL Criar ação]** para criar uma nova ação. O painel de configuração de ação é aberto no lado direito da tela.
+
+   ![](assets/custom2.png)
+
+1. Digite um nome para a ação.
+
+   >[!NOTE]
+   >
+   >Somente caracteres alfanuméricos e sublinhados são permitidos. O comprimento máximo é de 30 caracteres.
+
+1. Adicione uma descrição à ação. Esta etapa é opcional.
+1. O número de jornadas que usam esta ação é exibido no campo **[!UICONTROL Usado em]**. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas usando esta ação.
+1. Defina os diferentes parâmetros de **[!UICONTROL Configuração de URL]**. Consulte [esta página](../action/about-custom-action-configuration.md#url-configuration).
+1. Configure a seção **[!UICONTROL Autenticação]**. Essa configuração é a mesma das fontes de dados.  Consulte [esta seção](../datasource/external-data-sources.md#custom-authentication-mode).
+1. Defina os **[!UICONTROL Parâmetros de ação]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Clique em **[!UICONTROL Salvar]**.
+
+   A ação personalizada agora está configurada e pronta para ser usada em suas jornadas. Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
+
+   >[!NOTE]
+   >
+   >Quando uma ação personalizada é usada em uma jornada, a maioria dos parâmetros é somente leitura. Você só pode modificar os campos **[!UICONTROL Nome]**, **[!UICONTROL Descrição]**, **[!UICONTROL URL]** e a seção **[!UICONTROL Autenticação]**.
 
 ## Limitações{#custom-actions-limitations}
 
@@ -66,33 +94,6 @@ No Journey Optimizer, você pode aplicar políticas de consentimento e governan�
 * [Governança de dados](../action/action-privacy.md).
 * [Consentimento](../action/action-privacy.md).
 
-
-## Etapas de configuração {#configuration-steps}
-
-Estas são as principais etapas necessárias para configurar uma ação personalizada:
-
-1. Na seção de menu ADMINISTRAÇÃO, selecione **[!UICONTROL Configurações]**. Na seção **[!UICONTROL Ações]**, clique em **[!UICONTROL Gerenciar]**. Clique em **[!UICONTROL Criar ação]** para criar uma nova ação. O painel de configuração de ação é aberto no lado direito da tela.
-
-   ![](assets/custom2.png)
-
-1. Digite um nome para a ação.
-
-   >[!NOTE]
-   >
-   >Somente caracteres alfanuméricos e sublinhados são permitidos. O comprimento máximo é de 30 caracteres.
-
-1. Adicione uma descrição à ação. Esta etapa é opcional.
-1. O número de jornadas que usam esta ação é exibido no campo **[!UICONTROL Usado em]**. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas usando esta ação.
-1. Defina os diferentes parâmetros de **[!UICONTROL Configuração de URL]**. Consulte [esta página](../action/about-custom-action-configuration.md#url-configuration).
-1. Configure a seção **[!UICONTROL Autenticação]**. Essa configuração é a mesma das fontes de dados.  Consulte [esta seção](../datasource/external-data-sources.md#custom-authentication-mode).
-1. Defina os **[!UICONTROL Parâmetros de ação]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
-1. Clique em **[!UICONTROL Salvar]**.
-
-   A ação personalizada agora está configurada e pronta para ser usada em suas jornadas. Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
-
-   >[!NOTE]
-   >
-   >Quando uma ação personalizada é usada em uma jornada, a maioria dos parâmetros é somente leitura. Você só pode modificar os campos **[!UICONTROL Nome]**, **[!UICONTROL Descrição]**, **[!UICONTROL URL]** e a seção **[!UICONTROL Autenticação]**.
 
 ## Configuração do endpoint {#url-configuration}
 
@@ -156,7 +157,7 @@ Por padrão, o Adobe Journey Optimizer é compatível com TLS 1.3 para ações p
 
 Você pode usar o MTLS (Mutual Transport Layer Security) para garantir segurança aprimorada em conexões de saída para ações personalizadas de Adobe Journey Optimizer. O mTLS é um método de segurança completo para autenticação mútua que garante que ambas as partes que compartilham informações sejam quem afirmam ser antes que os dados sejam compartilhados. O mTLS inclui uma etapa adicional em comparação ao TLS, na qual o servidor também solicita o certificado do cliente e o verifica ao final.
 
-A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definir os parâmetros de carga {#define-the-message-parameters}
 
@@ -195,6 +196,15 @@ Na configuração do campo, você deve:
 >
 
 
-## Solução de problemas
+* [Solução de problemas de ação personalizada](../action/troubleshoot-custom-action.md) - Saiba como solucionar problemas de uma ação personalizada
 
-Saiba como solucionar problemas de uma ação personalizada [nesta página dedicada](../action/troubleshoot-custom-action.md).
+
+## Recursos adicionais
+
+Navegue pelas seções abaixo para saber mais sobre como configurar, usar e solucionar problemas de ações personalizadas:
+
+* [Introdução a ações personalizadas](../action/action.md) - Saiba o que é uma ação personalizada e como ela ajuda você a se conectar a sistemas de terceiros
+* [Usar ações personalizadas](../building-journeys/using-custom-actions.md) - Saiba como usar ações personalizadas em suas jornadas
+* [Solução de problemas de ação personalizada](../action/troubleshoot-custom-action.md) - Saiba como solucionar problemas de uma ação personalizada
+* [Envio de coleções em parâmetros de ação personalizados](../building-journeys/collections.md) - Saiba como enviar uma coleção em parâmetros de ação personalizados que é preenchida dinamicamente no tempo de execução
+
