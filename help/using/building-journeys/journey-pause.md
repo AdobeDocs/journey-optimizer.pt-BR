@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2481'
 ht-degree: 6%
 
 ---
@@ -57,6 +57,8 @@ Para pausar a jornada, siga estas etapas:
 
    * **Reter** perfis - Os perfis aguardarão no próximo nó **Ação** para que a jornada seja retomada
    * **Descartar** perfis - Os perfis serão excluídos da jornada no próximo nó **Ação**
+
+   Quando você pausa uma jornada, presume-se que planeja retomá-la em algum momento. No entanto, uma jornada não pode permanecer pausada indefinidamente. Para evitar isso, você pode definir por quanto tempo a jornada deve permanecer pausada (entre 1 e 14 dias). Após o número selecionado de dias, a jornada é retomada automaticamente.
 
 1. Clique no botão **Pausar** para confirmar.
 
@@ -199,7 +201,7 @@ Ao retomar esta jornada:
 
 ## Solução de problemas de descartes de perfis em jornadas pausadas {#discards-troubleshoot}
 
-Você pode usar o [Serviço de consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
+Você pode usar o [Serviço de consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
 
 * Para descartes que ocorrem antes que o perfil entre na jornada, use o seguinte código:
 
