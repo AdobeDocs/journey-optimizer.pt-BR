@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: e7567a68425c8fba5fc0f0b84b494b20d9f4df89
+source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 16%
@@ -75,7 +75,7 @@ Depois de adicionada, a mídia é exibida à direita do corpo de notificação.
 
 Crie uma notificação acionável adicionando botões ao seu conteúdo de push.
 
-Se a tela do dispositivo estiver bloqueada, esses botões não serão exibidos: somente o **Título** e a **Mensagem** da notificação estarão visíveis. Se o dispositivo estiver desbloqueado, os recipients verão os botões.
+Se a tela do dispositivo estiver bloqueada, esses botões não serão exibidos: somente então o **Título** e a **Mensagem** da notificação estarão visíveis. Se o dispositivo estiver desbloqueado, os recipients verão os botões.
 
 Na versão do Android, é possível adicionar até três botões.
 
