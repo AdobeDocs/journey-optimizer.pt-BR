@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1843'
 ht-degree: 6%
 
 ---
@@ -264,9 +264,9 @@ Para ativar a escala automática em seus experimentos:
    * Assim que o vencedor for encontrado.
    * Após o experimento ficar ativo pelo tempo selecionado.
 
-A hora de dimensionamento automático deve ser agendada antes da data de término do experimento. Se for definido para um período posterior à data de término, um aviso de validação será exibido e a campanha ou jornada não será publicada.
+   A hora de dimensionamento automático deve ser agendada antes da data de término do experimento. Se for definido para um período posterior à data de término, um aviso de validação será exibido e a campanha ou jornada não será publicada.
 
-    ![](assets/scale-winner-2.png)
+   ![](assets/scale-winner-2.png)
 
 1. Escolha o comportamento de fallback se nenhum vencedor for encontrado por tempo de escala:
 
