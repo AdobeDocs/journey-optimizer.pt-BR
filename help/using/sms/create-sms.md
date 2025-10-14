@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 89955157e37f3312ccc8d033a26f5a8664aebfe1
+source-git-commit: c52821a657aead38a4d08540e60686cfe117a95e
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1109'
 ht-degree: 8%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->O RCS Upscale não é um serviço pronto para HIPAA e não deve ser usado para coletar, armazenar ou processar dados pessoais confidenciais, incluindo dados de saúde permitidos (por exemplo, informações pessoais de saúde ou PHI), que sua organização pode ter permissão para processar no Journey Optimizer.
+>O RCS não é um serviço pronto para HIPAA e não deve ser usado para coletar, armazenar ou processar dados pessoais confidenciais, incluindo dados de saúde permitidos, por exemplo, informações pessoais de saúde, que sua organização pode ter permissão para processar no Journey Optimizer.
 
 Você pode criar e enviar mensagens de texto (SMS), comunicação avançada (RCS) e multimídia (MMS) com o Adobe Journey Optimizer. Primeiro, é necessário adicionar uma ação SMS em uma jornada ou campanha e, em seguida, definir o conteúdo da mensagem de texto, conforme detalhado abaixo. O Adobe Journey Optimizer também oferece recursos para testar suas mensagens de texto antes de enviá-las, para que você possa verificar a renderização, os atributos de personalização e todas as outras configurações.
 
