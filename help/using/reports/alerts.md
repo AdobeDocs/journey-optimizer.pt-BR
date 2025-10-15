@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
+source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1836'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 1%
 # Acessar e assinar alertas do sistema {#alerts}
 
 Ao criar jornadas e campanhas, use o botão **Alertas** para verificar e resolver erros antes de executá-los ou publicá-los.
-
-
 
 No menu dedicado **[!UICONTROL Alertas]**, você também pode assinar alertas do sistema [!DNL Adobe Journey Optimizer], conforme detalhado nesta página.
 
@@ -47,7 +45,7 @@ Eles são listados a seguir e cada alerta é detalhado abaixo.
 
 * Alertas específicos para configuração de canal:
 
-   * o alerta [&#x200B; do registro DNS de domínio do AJO &#x200B;](#alert-dns-record-missing)está ausente
+   * o alerta [ do registro DNS de domínio do AJO ](#alert-dns-record-missing)está ausente
    * alerta de [falha na configuração do canal do AJO](#alert-channel-config-failure)
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
@@ -76,7 +74,7 @@ Para assinar/cancelar a assinatura de um alerta para todas as jornadas e campanh
 
 1. Use o mesmo método para **[!UICONTROL Cancelar inscrição]**.
 
-Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
+Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
 
 ### Assinatura unitária {#unitary-subscription}
 
@@ -92,10 +90,7 @@ Para assinar/cancelar a assinatura de um alerta para uma jornada específica, si
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
-
-
-
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Jornada alertas {#journey-alerts}
 
@@ -158,16 +153,30 @@ Esse alerta avisará se a proporção de descartes de perfil em relação aos pe
 
 Clique no nome do alerta para verificar os detalhes e a configuração do alerta.
 
+Há vários motivos pelos quais um perfil pode ser descartado, o que informará o método de solução de problemas. Alguns motivos comuns estão listados abaixo:
+
+* Perfil descartado na entrada porque já está vivo nessa jornada unitária. Para resolver isso, verifique se o perfil tem tempo suficiente para sair da jornada antes que o próximo evento chegue para esse perfil.
+* A identidade não está definida para o perfil ou o namespace usado pela jornada de público-alvo de leitura não está sendo utilizado nesse perfil. Para resolver isso, verifique se o namespace na jornada corresponde ao namespace de identidade usado pelos perfis.
+* Taxa de transferência de evento excedida. Para resolver isso, certifique-se de que os eventos que entram no sistema não excedam esses limites.
+
 
 ### Taxa de erros de ação personalizada excedida {#alert-custom-action-error-rate}
 
 Este alerta avisa se a proporção de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos 5 minutos excedeu o limite. O limite padrão está definido como 20%, mas você pode [definir um limite personalizado](#custom-threshold).
+
+Podem ocorrer erros de ações personalizadas por vários motivos. É possível:
+
+* Verifique se a ação personalizada está configurada corretamente
+* Verifique se o endpoint pode ser acessado e se a ação personalizada pode acessá-lo por meio do verificador de conectividade da ação personalizada
+* Verifique as credenciais de autenticação, verifique a conectividade com a Internet etc.
 
 ### Taxa de erros do perfil excedida {#alert-profile-error-rate}
 
 Este alerta avisa se a proporção de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos 5 minutos excedeu o limite. O limite padrão está definido como 20%, mas você pode [definir um limite personalizado](#custom-threshold).
 
 Clique no nome do alerta para verificar os detalhes e a configuração do alerta.
+
+Para evitar isso, você pode consultar os dados nos eventos da etapa para entender onde e por que o perfil falhou na jornada.
 
 ## Alertas de configuração {#configuration-alerts}
 
@@ -295,7 +304,6 @@ Para adicionar mais assinantes, insira seus emails separados por vírgula e sele
 Para remover os assinantes, exclua seus endereços de email dos assinantes atuais e selecione **[!UICONTROL Atualizar]**.
 
 ## Recursos adicionais {#additional-resources-alerts}
-
 
 * Saiba como solucionar problemas das jornadas nesta [página](../building-journeys/troubleshooting.md).
 * Saiba como revisar suas campanhas em [esta página](../campaigns/review-activate-campaign.md).
