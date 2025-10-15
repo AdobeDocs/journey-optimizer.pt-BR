@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
+source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1855'
 ht-degree: 6%
 
 ---
@@ -67,6 +67,10 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="Métricas de sucesso"
 >abstract="A métrica de sucesso é usada para rastrear e avaliar o tratamento com melhor desempenho em um experimento. Certifique-se de configurar seu conjunto de dados para determinadas métricas antes de usá-lo."
+
+>[!AVAILABILITY]
+>
+>A Correspondência direta oferece suporte à funcionalidade de Retenção, mas atualmente não oferece suporte a Tratamentos.
 
 Para seu experimento de conteúdo, você pode escolher entre três tipos de experimento:
 

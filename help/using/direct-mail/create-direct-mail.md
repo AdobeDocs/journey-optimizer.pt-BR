@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
+source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 18%
+source-wordcount: '761'
+ht-degree: 17%
 
 ---
 
@@ -32,6 +32,10 @@ Para criar mensagens de correspondência direta, crie uma campanha agendada e co
 
 
 ## Criar uma campanha de correspondência direta{#create-dm-campaign}
+
+>[!AVAILABILITY]
+>
+>A Correspondência direta oferece suporte à funcionalidade de Retenção, mas atualmente não oferece suporte a Tratamentos.
 
 Para criar uma campanha de correspondência direta, siga estas etapas:
 
