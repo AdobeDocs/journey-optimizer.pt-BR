@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
+source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 0%
+source-wordcount: '1650'
+ht-degree: 1%
 
 ---
 
@@ -41,13 +41,13 @@ Eles são listados a seguir e cada alerta é detalhado abaixo.
 
    * o alerta [Falha da Ação Personalizada de Jornada](#alert-custom-actions)
    * o alerta [Acionador de Leitura de Público-alvo sem Êxito](#alert-read-audiences)
-<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
-   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
-   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
+   * o alerta [Taxa de Descarte de Perfil Excedida](#alert-discard-rate)
+   * o alerta [Taxa de Erro de Ação Personalizada Excedida](#alert-custom-action-error-rate)
+   * o alerta [Taxa de Erro de Perfil Excedida](#alert-profile-error-rate)
 
 * Alertas específicos para configuração de canal:
 
-   * o alerta [&#x200B; do registro DNS de domínio do AJO &#x200B;](#alert-dns-record-missing)está ausente
+   * o alerta [ do registro DNS de domínio do AJO ](#alert-dns-record-missing)está ausente
    * alerta de [falha na configuração do canal do AJO](#alert-channel-config-failure)
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
@@ -55,7 +55,7 @@ Eles são listados a seguir e cada alerta é detalhado abaixo.
 
 Se ocorrer um comportamento inesperado e/ou se um determinado conjunto de condições em suas operações for atingido (como um problema em potencial quando o sistema viola um limite), as notificações de alerta serão entregues a todos os usuários em sua organização que se subscreveram a elas.
 
-Você pode assinar cada alerta individualmente na interface do usuário, globalmente a partir do menu **[!UICONTROL Alertas]** (consulte [Assinatura global](#global-subscription))<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->.
+É possível assinar cada alerta individualmente na interface do usuário, seja globalmente, pelo menu **[!UICONTROL Alertas]** (consulte [Assinatura global](#global-subscription)), ou unitária para uma jornada específica (consulte [Assinatura unitária](#unitary-subscription)).
 
 Com base nas preferências do assinante, os alertas são enviados por email e/ou diretamente no centro de notificações da Journey Optimizer, no canto superior direito da interface do usuário (notificações no aplicativo). Selecione como você deseja receber esses alertas nas [!DNL Adobe Experience Cloud] **[!UICONTROL Preferências]**. [Saiba mais](../start/user-interface.md#in-product-alerts)
 
@@ -76,25 +76,23 @@ Para assinar/cancelar a assinatura de um alerta para todas as jornadas e campanh
 
 1. Use o mesmo método para **[!UICONTROL Cancelar inscrição]**.
 
-Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
+Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
 
-<!--DOCAC-13465
-### Unitary subscription {#unitary-subscription}
+### Assinatura unitária {#unitary-subscription}
 
-To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
+Para assinar/cancelar a assinatura de um alerta para uma jornada específica, siga estas etapas:
 
-1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
+1. Navegue até o inventário de jornadas e selecione a opção **[!UICONTROL Assinar alertas]** para uma jornada específica.
 
-      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
+   ![Assinando um alerta para uma jornada específica](assets/subscribe-journey-alert.png){width=80%}
 
-1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
-   
-1. To unsubscribe to an alert, unselect it from the same screen.
+1. Escolha os alertas. Os seguintes alertas estão disponíveis: [Taxa de Descarte de Perfil Excedida](#alert-discard-rate), [Taxa de Erro de Ação Personalizada Excedida](#alert-custom-action-error-rate) e [Taxa de Erro de Perfil Excedida](#alert-profile-error-rate).
 
-1. Click **[!UICONTROL Save]** to confirm.
--->
+1. Para cancelar a inscrição em um alerta, desmarque-o na mesma tela.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
+1. Clique em **[!UICONTROL Salvar]** para confirmar.
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -154,25 +152,22 @@ Para solucionar problemas de alertas do **Ler público-alvo**, verifique sua con
 
 ![](assets/alert-troubleshooting-1.png)
 
-<!--DOCAC-13465
+### Taxa de descarte do perfil excedida {#alert-discard-rate}
 
-### Profile Discard Rate Exceeded {#alert-discard-rate}
+Esse alerta avisará se a proporção de descartes de perfil em relação aos perfis inseridos nos últimos 5 minutos exceder o limite. O limite padrão está definido como 20%, mas você pode [definir um limite personalizado](#custom-threshold).
 
-This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
-
-Click the name of the alert to check the alert details and configuration.
+Clique no nome do alerta para verificar os detalhes e a configuração do alerta.
 
 
-### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+### Taxa de erros de ação personalizada excedida {#alert-custom-action-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+Este alerta avisa se a proporção de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos 5 minutos excedeu o limite. O limite padrão está definido como 20%, mas você pode [definir um limite personalizado](#custom-threshold).
 
-### Profile Error Rate Exceeded {#alert-profile-error-rate}
+### Taxa de erros do perfil excedida {#alert-profile-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+Este alerta avisa se a proporção de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos 5 minutos excedeu o limite. O limite padrão está definido como 20%, mas você pode [definir um limite personalizado](#custom-threshold).
 
-Click the name of the alert to check the alert details and configuration.
--->
+Clique no nome do alerta para verificar os detalhes e a configuração do alerta.
 
 ## Alertas de configuração {#configuration-alerts}
 
@@ -254,29 +249,26 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### Editar um alerta
 
 Você pode verificar os detalhes de um alerta clicando na linha correspondente. Os canais de nome, status e notificação são exibidos no painel esquerdo.
-<!--DOCAC-13465
-For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+Para alertas de Jornada, use o botão **[!UICONTROL Mais ações]** para editá-los. Você pode então definir um [limite personalizado](#custom-threshold) para esses alertas.
 
 ![](assets/alert-more-actions.png){width=60%}
 
-<!--DOCAC-13465
-#### Define a custom threshold {#custom-threshold}
+#### Definir um limite personalizado {#custom-threshold}
 
-You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+Você pode definir limites para os [alertas de Jornada](#journey-alerts). O limite de alertas acima do padrão é de 20%.
 
-To change the threshold:
+Para alterar o limite:
 
-1. Browse to the **Alerts** screen
-1. Click the **[!UICONTROL More actions]** button of the alert to update
-1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
+1. Navegar até a tela **Alertas**
+1. Clique no botão **[!UICONTROL Mais ações]** do alerta para atualizar
+1. Insira o novo limite e confirme. O novo limite se aplica a **todas** jornadas
 
 
 ![](assets/alert-threshold.png){width=60%}
 
 >[!CAUTION]
 >
->The threshold levels are global across all journeys and cannot be individually modified per journey.
--->
+>Os níveis de limite são globais em todas as jornadas e não podem ser modificados individualmente por jornada.
 
 ### Desativar um alerta
 
