@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
+source-git-commit: 0cace4defb2c52b729f1427e856b2fc87df5ec50
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1893'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ No menu esquerdo, em **[!UICONTROL Administração]**, clique em **[!UICONTROL A
 
 * Alertas específicos para configuração de canal:
 
-   * o alerta [&#x200B; do registro DNS de domínio do AJO &#x200B;](#alert-dns-record-missing)está ausente
+   * o alerta [ do registro DNS de domínio do AJO ](#alert-dns-record-missing)está ausente
    * alerta de [falha na configuração do canal do AJO](#alert-channel-config-failure)
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
@@ -72,7 +72,7 @@ Para assinar/cancelar a assinatura de um alerta para todas as jornadas e campanh
 
 1. Use o mesmo método para **[!UICONTROL Cancelar inscrição]**.
 
-Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
+Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
 
 ### Assinatura unitária {#unitary-subscription}
 
@@ -80,7 +80,7 @@ Para assinar/cancelar a assinatura de um alerta para uma jornada específica, si
 
 1. Navegue até o inventário de jornadas e selecione a opção **[!UICONTROL Assinar alertas]** para uma jornada específica.
 
-   ![Assinando um alerta para uma jornada específica](assets/subscribe-journey-alert.png){width=80%}
+   ![Assinando um alerta para uma jornada específica](assets/subscribe-journey-alert.png){width=75%}
 
 1. Escolha os alertas. Os seguintes alertas estão disponíveis: [Taxa de Descarte de Perfil Excedida](#alert-discard-rate), [Taxa de Erro de Ação Personalizada Excedida](#alert-custom-action-error-rate) e [Taxa de Erro de Perfil Excedida](#alert-profile-error-rate).
 
@@ -88,13 +88,30 @@ Para assinar/cancelar a assinatura de um alerta para uma jornada específica, si
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Jornada alertas {#journey-alerts}
+
+
+Todas as notificações de jornada disponíveis na interface do usuário estão listadas abaixo.
 
 >[!CAUTION]
 >
 >Os alertas específicos do Adobe Journey Optimizer se aplicam somente às jornadas **live**. Os alertas não são acionados para jornadas no modo de teste.
+
+### Falha ao ler o acionador de público-alvo {#alert-read-audiences}
+
+Este alerta avisa se uma atividade **Ler público-alvo** não processou nenhum perfil 10 minutos após o horário agendado de execução. Essa falha pode ser causada por problemas técnicos ou porque o público-alvo está vazio. Se essa falha for causada por problemas técnicos, esteja ciente de que ainda podem ocorrer tentativas, dependendo do tipo de problema (por exemplo: se a criação do trabalho de exportação falhar, tentaremos novamente a cada 10mn para um máximo de 1h).
+
+![](assets/read-audience-alert.png)
+
+Os alertas sobre atividades de **Ler público-alvo** se aplicam somente a jornadas recorrentes. As atividades de **Ler Público** em jornadas ativas com agendamento para execução de **Uma Vez** ou **Assim que possível** são ignoradas.
+
+Os alertas em **Ler público-alvo** são resolvidos quando um perfil entra no nó **Ler público-alvo**.
+
+O nome de inscrição do evento de E/S correspondente ao alerta **Falha no Acionador de Leitura de Público** é **Atrasos, Falhas e Erros de leitura de público-alvo de Jornada**.
+
+Para solucionar problemas de alertas do **Ler público-alvo**, verifique sua contagem de públicos na interface do Experience Platform.
 
 
 ### Falha na ação personalizada de Jornada {#alert-custom-actions}
@@ -103,7 +120,8 @@ Esse alerta avisa se uma ação personalizada falhar. Consideramos que houve uma
 
 Clique no nome do alerta para verificar os detalhes e a configuração do alerta.
 
-![](assets/alerts-custom-action.png)
+<!--
+![](assets/alerts-custom-action.png)-->
 
 Os alertas de ações personalizadas são resolvidos quando, nos últimos 5 minutos:
 
@@ -115,41 +133,21 @@ O nome de inscrição do evento de E/S correspondente ao alerta de ação person
 
 Para solucionar problemas de alertas de **Ação personalizada**:
 
-* Verifique sua ação personalizada usando o modo de teste em outra jornada:
+* Verifique sua ação personalizada usando o [modo de teste](../building-journeys/testing-the-journey.md) em outra jornada.
 
-  ![](assets/alert-troubleshooting-2.png)
-
-* Verifique o relatório de jornadas para ver os motivos do erro na ação.
-
-  ![](assets/alert-troubleshooting-3.png)
+* Verifique seu [relatório de jornadas](../reports/journey-live-report.md) para ver os motivos do erro na ação.
 
 * Verifique stepEvents da jornada para obter mais informações sobre &quot;failureReason&quot;.
 
-* Verifique a configuração de ação personalizada e valide se a autenticação ainda está OK. Execute uma verificação manual com o Postman, por exemplo.
-
-### Falha ao ler o acionador de público-alvo {#alert-read-audiences}
-
-Este alerta avisa se uma atividade **Ler público-alvo** não processou nenhum perfil 10 minutos após o horário agendado de execução. Essa falha pode ser causada por problemas técnicos ou porque o público-alvo está vazio. Se essa falha for causada por problemas técnicos, esteja ciente de que ainda podem ocorrer tentativas, dependendo do tipo de problema (por exemplo: se a criação do trabalho de exportação falhar, tentaremos novamente a cada 10mn para um máximo de 1h).
-
-![](assets/alerts1.png)
-
-Os alertas sobre atividades de **Ler público-alvo** se aplicam somente a jornadas recorrentes. As atividades de **Ler Público** em jornadas ativas com agendamento para execução de **Uma Vez** ou **Assim que possível** são ignoradas.
-
-Os alertas em **Ler público-alvo** são resolvidos quando um perfil entra no nó **Ler público-alvo**.
-
-O nome de inscrição do evento de E/S correspondente ao alerta **Falha no Acionador de Leitura de Público** é **Atrasos, Falhas e Erros de leitura de público-alvo de Jornada**.
-
-Para solucionar problemas de alertas do **Ler público-alvo**, verifique sua contagem de públicos na interface do Experience Platform.
-
-![](assets/alert-troubleshooting-0.png)
-
-![](assets/alert-troubleshooting-1.png)
+* Verifique a configuração da ação personalizada e confirme se a autenticação ainda é válida. Execute uma verificação manual com o Postman, por exemplo.
 
 ### Taxa de descarte do perfil excedida {#alert-discard-rate}
 
 Esse alerta avisará se a proporção de descartes de perfil em relação aos perfis inseridos nos últimos 5 minutos exceder o limite. O limite padrão está definido como 20%, mas você pode [definir um limite personalizado](#custom-threshold).
 
 Clique no nome do alerta para verificar os detalhes e a configuração do alerta.
+
+![](assets/profile-discard-alert.png)
 
 Há vários motivos pelos quais um perfil pode ser descartado, o que informará o método de solução de problemas. Alguns motivos comuns estão listados abaixo:
 
@@ -162,7 +160,7 @@ Há vários motivos pelos quais um perfil pode ser descartado, o que informará 
 
 Este alerta avisa se a proporção de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos 5 minutos excedeu o limite. O limite padrão está definido como 20%, mas você pode [definir um limite personalizado](#custom-threshold).
 
-Podem ocorrer erros de ações personalizadas por vários motivos. É possível:
+Podem ocorrer erros de ações personalizadas por vários motivos. Para solucionar esses erros, você pode:
 
 * Verifique se a ação personalizada está configurada corretamente
 * Verifique se o endpoint pode ser acessado e se a ação personalizada pode acessá-lo por meio do verificador de conectividade da ação personalizada
@@ -174,9 +172,11 @@ Este alerta avisa se a proporção de erros de ação personalizada para chamada
 
 Clique no nome do alerta para verificar os detalhes e a configuração do alerta.
 
-Para evitar isso, você pode consultar os dados nos eventos da etapa para entender onde e por que o perfil falhou na jornada.
+Para solucionar problemas de erro de perfil, consulte os dados na etapa de eventos para entender onde e por que o perfil falhou na jornada.
 
 ## Alertas de configuração {#configuration-alerts}
+
+Os alertas de monitoramento de configuração de canal disponíveis na interface do usuário estão listados abaixo.
 
 ### Registro DNS de domínio do AJO ausente {#alert-dns-record-missing}
 
