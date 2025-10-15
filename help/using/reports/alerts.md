@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
+source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1865'
 ht-degree: 1%
 
 ---
@@ -19,21 +19,19 @@ ht-degree: 1%
 
 Ao criar jornadas e campanhas, use o botão **Alertas** para verificar e resolver erros antes de executá-los ou publicá-los.
 
-No menu dedicado **[!UICONTROL Alertas]**, você também pode assinar alertas do sistema [!DNL Adobe Journey Optimizer], conforme detalhado nesta página.
+* Saiba como solucionar problemas das jornadas nesta [página](../building-journeys/troubleshooting.md)
 
-## Acessar alertas {#access-alerts}
+* Saiba como revisar suas campanhas em [esta página](../campaigns/review-activate-campaign.md)
 
-Quando ocorrer uma falha, você poderá obter alertas do sistema na central de notificações da Journey Optimizer (alertas no aplicativo) e/ou receber um email. Para acessar esses alertas, siga as etapas abaixo.
 
-<!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
+Além dessas, quando um determinado conjunto de condições é atingido, mensagens de alerta podem ser enviadas a todos os usuários em sua organização que se inscreveram neles. Esses alertas estão disponíveis no menu dedicado **[!UICONTROL Alertas]**. A Adobe Experience Platform fornece várias regras de alerta predefinidas que você pode ativar para sua organização. Além disso, você pode assinar alertas de sistema específicos do [!DNL Adobe Journey Optimizer], conforme detalhados nesta página.
 
 >[!NOTE]
 >
 >Saiba mais sobre alertas no Adobe Experience Platform em [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR){target="_blank"}.
 
-No menu esquerdo, em **[!UICONTROL Administração]**, clique em **[!UICONTROL Alertas]**. Vários alertas pré-configurados para o Journey Optimizer estão disponíveis.
+No menu esquerdo, em **[!UICONTROL Administração]**, clique em **[!UICONTROL Alertas]**. Vários alertas pré-configurados para o Journey Optimizer estão disponíveis na guia **Procurar**.
 
-Eles são listados a seguir e cada alerta é detalhado abaixo.
 
 * Alertas específicos de jornadas:
 
@@ -45,7 +43,7 @@ Eles são listados a seguir e cada alerta é detalhado abaixo.
 
 * Alertas específicos para configuração de canal:
 
-   * o alerta [&#x200B; do registro DNS de domínio do AJO &#x200B;](#alert-dns-record-missing)está ausente
+   * o alerta [ do registro DNS de domínio do AJO ](#alert-dns-record-missing)está ausente
    * alerta de [falha na configuração do canal do AJO](#alert-channel-config-failure)
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
@@ -74,7 +72,7 @@ Para assinar/cancelar a assinatura de um alerta para todas as jornadas e campanh
 
 1. Use o mesmo método para **[!UICONTROL Cancelar inscrição]**.
 
-Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
+Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
 
 ### Assinatura unitária {#unitary-subscription}
 
@@ -90,7 +88,7 @@ Para assinar/cancelar a assinatura de um alerta para uma jornada específica, si
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Jornada alertas {#journey-alerts}
 
