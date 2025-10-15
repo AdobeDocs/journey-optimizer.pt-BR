@@ -39,7 +39,7 @@ Para aprimorar a eficiência do marketing e manter a consistência da marca, voc
 
 >[!INFO]
 >
->Para ir além, confira esta [visão geral](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} e uma [demonstração](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
+>Para ir além, confira esta [visão geral](https://business.adobe.com/br/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} e uma [demonstração](https://business.adobe.com/br/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
