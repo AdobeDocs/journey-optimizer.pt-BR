@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f9102c10aa58be0e1a7280aa53fd97b3f792b9e9
+source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -85,35 +85,34 @@ Abaixo estão definições, causas comuns e etapas de solução de problemas par
 
 * EXTERNAL_KEY_COMPUTATION_ERROR: o sistema não pôde calcular um identificador exclusivo (chave externa) para o cliente a partir dos dados do evento.
 
-|---|---|
-| **Causas comuns** | Identificadores do cliente ausentes ou malformados (por exemplo, email, ID do cliente) na carga do evento. |
-| **Solução de problemas** | Verifique a configuração do evento para identificadores necessários, certifique-se de que os dados do evento estejam completos e formatados corretamente. |
+  **Causas comuns**: identificadores de clientes ausentes ou malformados (por exemplo, email, ID de cliente) na carga do evento.
+
+  **Solução de problemas**: verifique a configuração do evento para identificadores necessários, certifique-se de que os dados do evento estejam completos e formatados corretamente.
 
 * NO_INTERESTED_JORNADA_FOR_SEGMENTMEMBERSHIP_EVENT: um evento de qualificação de segmento foi recebido, mas nenhuma jornada está configurada para responder a esse segmento.
 
+  **Causas comuns**: nenhuma jornada usa o segmento como um acionador, as jornadas estão em estado de rascunho/interrompido ou as IDs de segmento não correspondem.
 
-|---|---|
-| **Causas comuns** | Nenhuma jornada usa o segmento como um acionador, as jornadas estão em estado de rascunho/interrompido ou as IDs de segmento não correspondem. |
-| **Solução de problemas** | Verifique se pelo menos uma jornada está ativa e configurada para o segmento. Verifique as IDs do segmento. |
+  **Solução de problemas**: verifique se pelo menos uma jornada está ativa e configurada para o segmento. Verifique as IDs do segmento.
 
-### JORNADA_INSTANCE_ID_NOT_CREATE: o sistema falhou ao criar uma instância do jornada para o cliente.
+* JORNADA_INSTANCE_ID_NOT_CREATE: o sistema falhou ao criar uma instância do jornada para o cliente.
 
-|---|---|
-| **Causas comuns** | Eventos duplicados, grande volume de eventos, restrições de recursos do sistema. |
-| **Solução de problemas** | Implemente a desduplicação, evite picos de tráfego, otimize o design da jornada e entre em contato com o suporte se for persistente. |
+  **Causas comuns**: eventos duplicados, volume de eventos alto, restrições de recursos do sistema.
 
-### EVENT_WITH_NO_JORNADA: um evento foi recebido, mas nenhuma jornada ativa está configurada para responder a ele
+  **Solução de problemas**: implemente a desduplicação, evite picos de tráfego, otimize o design da jornada e contate o suporte se for persistente.
 
-|---|---|
-| **Causas comuns** | Incompatibilidade de nome/ID de evento, jornada não publicada, sandbox/organização incorreta, modo de teste/incompatibilidade de perfil. |
-| **Solução de problemas** | Verifique a configuração do evento e do jornada, verifique o status do jornada e use as ferramentas de depuração. |
+* EVENT_WITH_NO_JORNADA: um evento foi recebido, mas nenhuma jornada ativa está configurada para responder a ele
 
-Para descartes que ocorrem em jornadas pausadas:
+  **Causas comuns**: nome/ID de evento incompatível, jornada não publicada, sandbox/organização incorreta, modo de teste/perfil incompatível.
 
-* **PAUSED_JORNADA_VERSION**: descartes que ocorreram no ponto de entrada da jornada
-* **JORNADA_IN_PAUSED_STATE**: Descarta o que ocorreu quando os perfis estão em uma jornada
+  **Solução de problemas**: verifique a configuração do evento e do jornada, verifique o status do jornada, use as ferramentas de depuração.
 
-Saiba mais sobre esses eventos e como solucioná-los na [seção Pausar uma Jornada](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+* Para descartes que ocorrem em jornadas pausadas:
+
+   * **PAUSED_JORNADA_VERSION**: descartes que ocorreram no ponto de entrada da jornada
+   * **JORNADA_IN_PAUSED_STATE**: Descarta o que ocorreu quando os perfis estão em uma jornada
+
+  Saiba mais sobre esses eventos e como solucioná-los na [seção Pausar uma Jornada](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
 
 ## Recursos adicionais
 
