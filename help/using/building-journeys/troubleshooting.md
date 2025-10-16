@@ -10,7 +10,7 @@ level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 40%
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 Nesta seção, saiba como solucionar problemas do jornada antes de testar ou publicar. Todos os controles enumerados a seguir podem ser efetuados quando a jornada estiver em modo de teste ou mesmo ativa. Recomenda-se que todas as verificações a seguir sejam feitas no modo de teste, para então prosseguir com a publicação. Saiba mais sobre o modo de teste em [esta página](../building-journeys/testing-the-journey.md).
 
-Saiba como solucionar problemas de eventos do jornada, verificar se perfis entraram na sua jornada, como eles navegam por ela e se as mensagens são enviadas [nesta página](troubleshooting-execution.md).
+Saiba como solucionar problemas de eventos do jornada, verificar se os perfis inseriram sua jornada, como eles navegam por ela e se as mensagens são enviadas [nesta página](troubleshooting-execution.md).
 
 Se você estiver usando ações de entrada, saiba como solucionar problemas deles [nesta página](troubleshooting-inbound.md).
 

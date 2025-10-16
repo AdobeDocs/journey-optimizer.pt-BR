@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 12ece43b9a52150baa71fab09653c6212aea6643
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1443'
 ht-degree: 10%
 
 ---
@@ -81,7 +81,7 @@ Para navegar no seu calendário do Jornada:
 
    ![exibição de calendário mostrando calendários externos](assets/journey-calendar-2.png)
 
-1. Arraste e solte seus arquivos CSV contendo nomes de eventos, datas de início e datas de término.
+1. Arraste e solte seus arquivos CSV contendo nomes de evento, datas de início e datas de término.
 
    Os eventos carregados são exibidos para todos os usuários em sua organização e exibidos nos calendários do Jornada e do Campaign.
 
