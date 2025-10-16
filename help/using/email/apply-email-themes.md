@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de email, Módulos, Reutilização, Consistência de marca, Design de email, CSS personalizado, Otimização móvel
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '831'
 ht-degree: 6%
 
 ---
@@ -127,7 +127,7 @@ Para aplicar temas de estilo padrão ou personalizados a um email, siga as etapa
 
    * Selecione um [modelo de email](use-email-templates.md) interno para abrir o Designer de email. Um tema padrão específico para cada modelo é aplicado automaticamente.
 
-   * Crie um [novo conteúdo do zero](content-from-scratch.md) e selecione **[!UICONTROL Usar Tema]s** para começar com um tema de estilo predefinido.
+   * Crie um [novo conteúdo do zero](content-from-scratch.md) e selecione **[!UICONTROL Usar Temas]** para começar com um tema de estilo predefinido.
 
      ![](assets/theme-from-scratch.png)
 
