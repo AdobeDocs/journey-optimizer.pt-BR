@@ -10,10 +10,9 @@ level: Intermediate, Experienced
 keywords: jornada, eventos de etapa, análises, relatórios, monitoramento, XDM
 hide: true
 hidefromtoc: true
-exl-id: 9f8e7d6c-5b4a-3928-1756-849302a11c2b
-source-git-commit: 17ea20a6b16965775bda98d7db1f12e28b037aaf
+source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -165,7 +164,6 @@ Entenda a estrutura de dados completa dos eventos de etapa do jornada:
 
 - Combine eventos de etapa de jornada com [dados de feedback da mensagem](../data/datasets-query-examples.md#message-feedback-event-dataset) para atribuição completa
 - Use a análise baseada em tempo para entender a velocidade da jornada e os gargalos
-- Crie análises de coorte para comparar diferentes [variações de jornada](../building-journeys/testing-the-journey.md)
 
 ### Recursos avançados de análise {#advanced-analytics}
 
@@ -177,13 +175,6 @@ Os eventos de etapa de Jornada podem ser analisados usando o [Customer Journey A
 - Análise preditiva dos resultados da jornada
 
 Saiba como [configurar o Customer Journey Analytics](report-gs-cja.md) para dados do Journey Optimizer.
-
-**Decisão em tempo real**
-Use os padrões de evento de etapa do jornada para:
-
-- Acionar a [personalização](../personalization/personalize.md) em tempo real
-- Implementar a [otimização de jornada dinâmica](../building-journeys/optimize.md)
-- Habilitar recomendações contextuais de próxima ação com a [Gestão de Decisões](../offers/get-started/starting-offer-decisioning.md)
 
 ## Recursos adicionais {#additional-resources}
 
@@ -199,7 +190,6 @@ Use os padrões de evento de etapa do jornada para:
 - **[Gerenciamento de dados](../data/export-datasets.md)**: exportação e gerenciamento de dados do jornada
 - **[Privacidade e governança](../privacy/audit-logs.md)**: considerações de governança de dados para eventos do jornada
 
-Os eventos de etapa de Jornada formam a base da análise de jornada avançada no Adobe Journey Optimizer. Ao entender e aproveitar esses eventos de maneira eficaz, você pode obter insights profundos sobre o comportamento do cliente, [otimizar o desempenho da jornada](../building-journeys/optimize.md) e criar mais [experiências personalizadas](../personalization/personalize.md) para seus clientes.
 
 **Próximas etapas:**
 
