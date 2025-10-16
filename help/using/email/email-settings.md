@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -30,13 +30,13 @@ Defina as configurações de email na seção dedicada da configuração de cana
 
 A configuração de email é selecionada para o envio de comunicações seguindo a lógica abaixo:
 
-* Isso não se aplica a execuções de jornadas em lote que foram iniciadas antes de configurar a superfície de email. As alterações são aplicadas na próxima recorrência ou na nova execução.
+* Isso não se aplica a execuções de jornadas em lote que foram iniciadas antes de configurar a superfície de email. A alteração é recebida na próxima recorrência ou nova execução.
 
 * No caso de mensagens transacionais, a alteração é aplicada imediatamente na próxima comunicação (com um atraso de até cinco minutos).
 
 >[!NOTE]
 >
->As configurações de email atualizadas são aplicadas automaticamente nas jornadas ou campanhas em que são usadas.
+>As configurações de email atualizadas são selecionadas automaticamente nas jornadas ou campanhas nas quais a configuração é usada.
 
 ## Tipo de email {#email-type}
 

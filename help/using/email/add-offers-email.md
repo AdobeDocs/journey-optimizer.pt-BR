@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: ofertas, decisão, emails, personalização, decisão
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
 
 # Adicionar ofertas personalizadas {#deliver-personalized-offers}
 
-Em emails do [!DNL Journey Optimizer], você pode inserir decisões que aproveitarão o mecanismo de Gestão de decisões para escolher a melhor oferta a ser entregue aos clientes.
+Em emails do [!DNL Journey Optimizer], você pode inserir decisões que aproveitarão o mecanismo da Gestão de decisões para escolher a melhor oferta a ser entregue aos clientes.
 
 Por exemplo, você pode adicionar uma decisão que exibirá no email uma oferta de desconto especial que varia de acordo com o nível de fidelidade do recipient.
 
