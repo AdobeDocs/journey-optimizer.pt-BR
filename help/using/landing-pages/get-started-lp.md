@@ -9,14 +9,14 @@ role: User
 level: Beginner
 keywords: destino, página de destino, início, introdução
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 94%
 
 ---
 
-# Introdução às páginas de destino {#get-sarted-lp}
+# Introdução às páginas de destino {#get-started-lp}
 
 Uma página de destino é uma página da Web independente para a qual o usuário é direcionado depois de clicar em um email, site, anúncio ou qualquer outro local digital.
 
@@ -71,4 +71,4 @@ O [!DNL Journey Optimizer] permite criar e projetar páginas de destino para dir
 
 O vídeo abaixo mostra como criar uma lista de assinaturas, configurar páginas de destino para oferecer assinaturas ou cancelar assinaturas de um serviço, integrar a opção de assinatura ou cancelamento a uma mensagem e configurar jornadas relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/344402?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 68%
@@ -121,7 +121,7 @@ Saiba mais sobre o [Journey Optimizer + Campaign Standard](../building-journeys/
 
 Use os módulos do Adobe Journey Optimizer no Adobe Workfront para criar, ler, atualizar ou excluir registros, ou executar uma chamada de API personalizada para a API do Adobe Journey Optimizer.
 
-Uma visão geral da principal etapa dessa integração está disponível [nesta publicação do blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=pt){target="_blank"}.
+Uma visão geral da principal etapa dessa integração está disponível [nesta publicação do blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Saiba mais sobre o Journey Optimizer + Adobe Workfront [na documentação do Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=pt-BR){target="_blank"}.
 

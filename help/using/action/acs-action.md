@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, standard, integration, capping, action
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 3%
@@ -58,7 +58,7 @@ Para configurar uma ação do Campaign Standard, siga estas etapas:
    >
    >* O URL começa com https
    >
-   >* A organização associada a esta instância do Adobe Campaign Standard é a mesma que o OrganizationRG da Journey Optimizer
+   >* A Organização associada a essa instância do Adobe Campaign Standard é a mesma Organização da Journey Optimizer
 
 Quando esta configuração for concluída, três ações estarão disponíveis na categoria **[!UICONTROL Ação]** ao criar uma jornada: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]**. [Saiba como usá-los](../building-journeys/using-adobe-campaign-standard.md).
 

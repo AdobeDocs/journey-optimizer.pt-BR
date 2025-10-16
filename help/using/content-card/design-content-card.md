@@ -6,16 +6,16 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 2%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
 # Criar conteúdo de cartões de conteúdo {#design-content-card}
 
-A construção de criação para Cartões fornece uma experiência de criação baseada em formulário que fornece aos profissionais de marketing entradas básicas que podem ser usadas para serem renderizadas pelo desenvolvedor.
+A construção de criação para Cartões fornece uma experiência de criação baseada em formulário que fornece aos profissionais de marketing entradas básicas que podem ser renderizadas pelos desenvolvedores.
 
 Depois que o conteúdo é definido e personalizado, você pode revisá-lo e ativá-lo. Sua campanha será enviada de acordo com o agendamento definido. [Saiba mais nesta página](../campaigns/review-activate-campaign.md).
 
@@ -90,7 +90,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 +++
 -->
 
-### Botão Ignorar {#close-button}
+### Botão Dispensar {#close-button}
 
 ![](assets/content-card-design-1.png)
 

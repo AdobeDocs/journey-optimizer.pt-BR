@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuração, configurar, mensagens, canal, sandbox, otimizador
-source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 48%
+ht-degree: 43%
 
 ---
 
@@ -68,7 +68,7 @@ Para enviar mensagens, você precisa seguir as etapas de configuração listadas
 
    * Gerenciar o número de dias durante os quais são executadas tentativas antes do envio de endereços de email para a lista de supressão. [Saiba mais](manage-suppression-list.md)
 
-   * Habilitar a **Opção de email CCO** para manter uma cópia das mensagens enviadas a pessoas físicas. [Saiba mais](archiving-support.md#enable-bcc)
+   * Habilite a **opção de email com CCO** para manter uma cópia das mensagens enviadas aos indivíduos. [Saiba mais](archiving-support.md#enable-bcc)
 
    * Configure as **regras de negócio** para evitar o excesso de solicitações de seus destinatários. [Saiba mais](../conflict-prioritization/rule-sets.md)
 

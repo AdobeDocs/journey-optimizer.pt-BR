@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: integrado, origem, dados, plataforma, integração
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 27%
@@ -37,7 +37,7 @@ Você pode editar o grupo de campos pré-configurado chamado &quot;ProfileFieldG
 
 As principais etapas para adicionar grupos de campos à fonte de dados integrada estão detalhadas abaixo:
 
-1. Na lista de fontes de dados, selecione a fonte de dados **Adobe Experience Platform** interna.
+1. Na lista de fontes de dados, selecione a fonte de dados interna **Adobe Experience Platform**.
 
    Essa ação abre o painel de configuração da fonte de dados no lado direito da tela.
 

@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: schemas, XDM, plataforma, streaming, assimilação, jornada
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Assim, um pré-requisito importante para configurar eventos para o [!DNL Journey
 
 >[!CAUTION]
 >
->Pesquisas de eventos de experiência em condições de jornada não são mais suportadas. Procure práticas recomendadas alternativas aqui. Se você tiver um caso de uso de jornada acionado por evento que ainda precise de pesquisa de eventos de experiência e não possa ser compatível por meio de nenhuma das alternativas listadas, entre em contato com o representante da Adobe e ajudaremos você a atingir sua meta.
+>Pesquisas de eventos de experiência em condições de jornada não são mais suportadas. Procure práticas recomendadas alternativas aqui. Se você tiver um caso de uso de jornada acionado por evento que ainda precise de pesquisa de eventos de experiência e não possa ser suportado por meio de nenhuma das alternativas listadas, entre em contato com o representante da Adobe e ajudaremos você a atingir sua meta.
 >
 >O acesso ao contexto do evento inicial de uma jornada não é afetado.
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=pt-BR).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 58%
+source-wordcount: '955'
+ht-degree: 59%
 
 ---
 
@@ -115,7 +115,7 @@ Embora o marketing entre canais seja essencial, as campanhas orquestradas permit
 
 >[!TAB Campanhas acionadas por API]
 
-**Campanhas acionadas por API** permitem acionar a execução da campanha usando uma chamada de API. Essas comunicações podem ser enviadas onde a necessidade pode envolver personalização, não apenas por um atributo de perfil de redefinição de senha, mas também pelos dados de contexto em tempo real no acionador, que é uma carga de API REST.
+**Campanhas acionadas por API** permitem acionar a execução da campanha usando uma chamada de API. Essas comunicações podem ser enviadas onde a necessidade pode envolver personalização, não apenas usando atributos de perfil como redefinição de senha, mas também dados de contexto em tempo real no acionador, que é uma carga da API REST.
 
 * **API acionada - Marketing** - Enviar comunicações de marketing personalizadas para públicos-alvo direcionados.
 * **API acionada - Transacional** - Envia mensagens seguindo uma ação executada por um indivíduo, como uma solicitação de redefinição de senha, compra de carrinho, etc.

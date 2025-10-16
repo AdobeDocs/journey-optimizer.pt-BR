@@ -6,14 +6,14 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Introdução ao canal baseado em código {#get-sarted-code-based}
+# Introdução ao canal baseado em código {#get-started-code-based}
 
 O [!DNL Journey Optimizer] permite personalizar e testar as experiências que você deseja entregar aos clientes em todos os seus pontos de contato, como aplicativos Web, aplicativos móveis, aplicativos de desktop, consoles de vídeo, dispositivos conectados à TV, smart TVs, quiosques, ATMs, assistentes de voz, dispositivos IoT, etc.
 
@@ -30,7 +30,7 @@ Com o recurso **experiência baseada em código**, é possível definir experiê
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️ Um caso de uso de ponta a ponta que mostra como usar experimentos de conteúdo para comparar decisões com o canal de experiência baseado em código é apresentado [nesta seção](../experience-decisioning/experience-decisioning-uc.md).
+➡️ Um caso de uso completo que mostra como usar experimentos de conteúdo para comparar decisões com o canal de experiência baseado em código é apresentado em [esta seção](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Quando usar canais baseados em código em vez de outros canais {#code-based-vs-other-channels}
 

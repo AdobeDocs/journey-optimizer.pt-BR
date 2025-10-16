@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: permissões, direitos, restrições, acesso, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '436'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 [!DNL Journey Optimizer] permite definir e gerenciar as permissões atribuídas a usuários diferentes. As permissões são um conjunto de direitos e restrições que autorizam ou negam acesso aos recursos e funcionalidades do produto.
 
-O controle de acesso de [!DNL Journey Optimizer] é fornecido através das **Permissões** na Adobe Experience Cloud. Essa funcionalidade aproveita funções e políticas, que vinculam usuários com permissões e sandboxes.
+O controle de acesso de [!DNL Journey Optimizer] é fornecido por meio de **Permissões** na Adobe Experience Cloud. Essa funcionalidade aproveita funções e políticas, que vinculam usuários com permissões e sandboxes.
 
 Para configurar o controle de acesso para o Journey Optimizer, você deve ter privilégios de administrador do sistema ou do produto para sua organização. A função mínima que pode conceder ou retirar permissões é um administrador de produto. Outras funções de administrador que podem gerenciar permissões são administradores do sistema (sem restrições). Consulte o [artigo da Central de ajuda da Adobe](https://helpx.adobe.com/br/enterprise/using/admin-roles.html){target="_blank"} sobre funções administrativas para obter mais informações.
 

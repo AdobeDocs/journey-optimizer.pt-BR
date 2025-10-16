@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, design, formatação
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 26%
@@ -23,7 +23,7 @@ ht-degree: 26%
 
 É possível editar o conteúdo no aplicativo para configurar as opções de experiência:
 
-* Em uma **[!UICONTROL Campanha]**, no menu **[!UICONTROL Ação]**, para configurar o conteúdo da mensagem, clique no botão **[!UICONTROL Editar conteúdo]**.
+* Em uma **[!UICONTROL Campanha]**, no menu **[!UICONTROL Ação]**, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo da mensagem.
 
   ![](assets/edit-in-app-content.png)
 

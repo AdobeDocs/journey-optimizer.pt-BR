@@ -7,9 +7,9 @@ feature: Journeys, Data Sources
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
-keywords: dados, origem, jornada, plataforma
+keywords: dados, fonte, jornada, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 65%
@@ -49,7 +49,7 @@ Para cada fonte de dados, você define as informações que serão recuperadas u
 >
 >Não há suporte para relações de esquema em fontes de dados.
 
-Para obter mais informações sobre como configurar uma fonte de dados da Adobe Experience Platform e uma fonte de dados externa, e como localizar e usar dados em uma jornada, assista a este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre como configurar uma fonte de dados da Adobe Experience Platform e uma fonte de dados externa, e como localizar e usar dados em uma jornada, assista a este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Vídeo tutorial {#video}
 

@@ -1,19 +1,19 @@
 ---
-title: Introdução ao canal Web
-description: Saiba mais sobre o canal Web no Journey Optimizer
+title: Introdução ao canal da web
+description: Saiba mais sobre o canal da web no Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Introdução ao canal Web {#get-sarted-web}
+# Introdução ao canal da web {#get-started-web}
 
 O [!DNL Journey Optimizer] permite criar visualmente e entregar experiências personalizadas da Web para seus clientes.
 

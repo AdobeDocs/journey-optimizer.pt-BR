@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 58%
+source-wordcount: '273'
+ht-degree: 38%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 58%
 
 ## Sobre campanhas acionadas por API {#about}
 
-Campanhas acionadas por API permitem que as comunicações de marketing alcancem um público-alvo na hora certa ou que mensagens transacionais/operacionais cheguem a uma pessoa, como uma redefinição de senha, em que a necessidade pode envolver personalização, não apenas usando o atributo de perfil, mas também os dados de contexto em tempo real no acionador, que é um conteúdo da API REST.
+As campanhas acionadas por API permitem que as comunicações de marketing alcancem um público-alvo na hora certa ou que mensagens transacionais/operacionais sejam enviadas a um indivíduo, como uma redefinição de senha, em que a necessidade pode envolver a personalização, não apenas usando atributos de perfil, mas também dados de contexto em tempo real no acionador, que é uma carga de API REST.
 
 Para fazer isso, primeiro é necessário criar uma campanha acionada por API no Journey Optimizer e, em seguida, iniciar sua execução por meio de uma chamada de API usando a [API REST de Execução de Mensagem Interativa](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
@@ -57,4 +57,4 @@ Antes de começar com campanhas, verifique os seguintes pré-requisitos listados
 
 Saiba como criar uma campanha e acioná-la a partir de um sistema externo com base em interações do usuário, usando a API REST de execução de mensagem interativa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452730?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

@@ -4,7 +4,7 @@ description: Saiba como criar regras de limitação para suas jornadas e como ar
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 450a6accf11d72d56e6b93cec9ec89dc8cf3c8f3
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 18%
@@ -80,7 +80,7 @@ Para criar uma regra de limite de jornada, siga estas etapas:
 
    1. No campo **[!UICONTROL Limite]**, defina o número máximo de jornadas nas quais um perfil pode ser inscrito simultaneamente.
 
-   1. Use o campo **[!UICONTROL Priorização antecipada]** para arbitrar as entradas de jornada com base nas pontuações de prioridade em um período escolhido (por exemplo, 1 dia, 7 dias, 30 dias).
+   1. Use o campo **[!UICONTROL Análise de prioridade]** para arbitrar entradas de jornada com base em pontuações de prioridade em um período escolhido (por exemplo, 1 dia, 7 dias, 30 dias).
 
       Essa opção verifica as próximas jornadas de leitura de público-alvo agendadas para o restante da semana para determinar se o perfil deve ser impedido de entrar na jornada devido a uma jornada de prioridade mais alta chegando. Ajuda a priorizar a entrada em jornadas de valor mais alto se um perfil for elegível para várias jornadas.
 
@@ -115,8 +115,8 @@ Quando uma jornada estiver ativa, você poderá verificar no relatório de jorna
 
 ![](assets/journey-report.png)
 
-Além disso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para criar consultas para identificar qual regra fez com que um perfil não entrasse em uma determinada jornada. Um exemplo de consulta está disponível em [esta seção](../reports/query-examples.md#common-queries).
+Além disso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para criar consultas para identificar qual regra fez com que um perfil não entrasse em uma determinada jornada. Um exemplo de consulta está disponível em [esta seção](../reports/query-examples.md#common-queries).
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447620?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

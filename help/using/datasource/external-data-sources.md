@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 4d979ccc421221993a752dd41bc22ea3d83e7555
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1647'
-ht-degree: 37%
+ht-degree: 34%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="Fontes de dados externas"
->abstract="Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias."
+>abstract="Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada do Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias."
 
 ## Trabalhar com fontes de dados externas {#gs-ext-data-sources}
 
-Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
+Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada do Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ A chamada é composta de um URL principal (_https://api.adobeweather.org/weather
 
 >[!TIP]
 >
->Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer &#x200B;](#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
+>Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer ](#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
 
 ## Criar e configurar uma fonte de dados externa {#create-ext-data-sources}
 

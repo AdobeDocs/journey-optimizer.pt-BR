@@ -4,7 +4,7 @@ description: Saiba como identificar possíveis conflitos em jornadas e campanhas
 role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 16%
@@ -13,7 +13,7 @@ ht-degree: 16%
 
 # Detectar possíveis conflitos em jornadas e campanhas {#conflict}
 
-À medida que os profissionais de marketing aumentam o volume de Campanhas e Jornadas no Journey Optimizer, fica cada vez mais difícil para um profissional de marketing saber se estão bombardeando seus clientes com muitas interações de marketing. portanto, é essencial identificar facilmente quando há campanhas e jornadas sobrepostas para garantir que elas estejam alcançando o equilíbrio certo de comunicações de marketing e, ao mesmo tempo, reduzir o risco de fadiga do cliente.
+À medida que os profissionais de marketing aumentam o volume de Campanhas e Jornadas no Journey Optimizer, fica cada vez mais difícil para um profissional de marketing saber se estão bombardeando seus clientes com muitas interações de marketing. Portanto, é essencial identificar facilmente quando há campanhas e jornadas sobrepostas para garantir que elas estejam alcançando o equilíbrio certo de comunicações de marketing e, ao mesmo tempo, reduzir o risco de fadiga do cliente.
 
 As principais áreas a serem monitoradas quanto a possíveis sobreposições são:
 

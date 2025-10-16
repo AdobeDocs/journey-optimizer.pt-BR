@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 51%
+ht-degree: 50%
 
 ---
 
@@ -99,13 +99,13 @@ ht-degree: 51%
 
 >[!BEGINSHADEBOX]
 
-Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se você for um cliente somente do Perfil do cliente em tempo real e não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=pt-BR){target="_blank"}.
+Esta documentação fornece informações detalhadas sobre como trabalhar com a composição de público no Adobe Journey Optimizer. Se você for um cliente somente do Perfil do cliente em tempo real e não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=pt-BR){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 A composição de público-alvo permite criar **fluxos de trabalho de composição**, nos quais você pode combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo.
 
-Depois de concluído, os **públicos-alvo resultantes** são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados nas campanhas e jornadas da Journey Optimizer para clientes-alvo. Saiba como direcionar públicos-alvo no Journey Optimizer
+Depois de concluído, os **públicos-alvo resultantes** são salvos novamente na Adobe Experience Platform, juntamente com os públicos-alvo existentes, e podem ser aproveitados em campanhas e jornadas do Journey Optimizer para clientes-alvo. Saiba como direcionar públicos-alvo no Journey Optimizer
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
@@ -146,7 +146,7 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
 
    ![](assets/audiences-properties.png)
 
-1. Configure sua composição adicionando quantas atividades forem necessárias entre as atividades de **[!UICONTROL Público]** e **[!UICONTROL Salvar]**. Para obter mais informações sobre como criar uma composição, consulte a [Documentação de composição de público-alvo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-composition).
+1. Configure sua composição adicionando quantas atividades forem necessárias entre as atividades de **[!UICONTROL Público]** e **[!UICONTROL Salvar]**. Para obter mais informações sobre como criar uma composição, consulte a [Documentação de composição de público-alvo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
 
    ![](assets/audiences-publish.png)
 
@@ -179,4 +179,4 @@ As composições podem ter vários status:
 
 >[!NOTE]
 >
->No momento, a composição de público-alvo não está integrada ao recurso de redefinição da sandbox. Antes de iniciar uma redefinição de sandbox, é necessário excluir as composições manualmente para garantir que os dados do público-alvo associado sejam limpos corretamente. Informações detalhadas estão disponíveis na [Documentação de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR#delete-audience-compositions) do Adobe Experience Platform
+>No momento, a composição de público-alvo não está integrada ao recurso de redefinição da sandbox. Antes de iniciar uma redefinição de sandbox, é necessário excluir as composições manualmente para garantir que os dados do público-alvo associado sejam limpos corretamente. Informações detalhadas estão disponíveis na [Documentação de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions) do Adobe Experience Platform

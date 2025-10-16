@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 15%
+source-wordcount: '1707'
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 15%
 >title="Ação"
 >abstract="Esta seção lista todas as ações usadas na campanha orquestrada."
 
-As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**. Use as guias para procurar campanhas, por tipo: **Campanhas de Ação**, **Campanhas acionadas por API** e **Campanhas orquestradas**. Saiba mais sobre o [tipo de campanha](get-started-with-campaigns.md#get-started-with-campaigns). Os tipos disponíveis dependem do contrato de licença e das permissões.
+As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**. Use as guias para procurar campanhas por tipo: **Ações** campanhas, **Campanhas acionadas por API** e **Campanhas orquestradas**. Saiba mais sobre os [tipos de campanhas](get-started-with-campaigns.md#get-started-with-campaigns). Os tipos disponíveis dependem do contrato de licença e das permissões.
 
 >[!BEGINTABS]
 
@@ -69,7 +69,7 @@ A ![imagem que mostra o botão “Mais ações”](assets/do-not-localize/rule-b
 * **[!UICONTROL Editar marcas]** - Edita as marcas associadas à campanha. Saiba como [usar tags em suas campanhas](../start/search-filter-categorize.md#add-tags-to-an-object)
 * **[!UICONTROL Duplicar]** - Use esta opção para duplicar uma campanha, por exemplo, para executar uma campanha Orquestrada que foi interrompida. [Saiba mais](#duplicate-a-campaign)
 * **[!UICONTROL Excluir]** - Use esta opção para excluir uma campanha. [Saiba mais](#delete-a-campaign)
-* **[!UICONTROL Arquivar]**: arquive a campanha. Todas as campanhas arquivadas são excluídas em um prazo contínuo 30 dias após a data da última modificação. Esta ação está disponível para todas as campanhas, exceto as campanhas de **[!UICONTROL Rascunho]**. Saiba mais sobre [arquivamento de campanha](#archive-a-campaign).
+* **[!UICONTROL Arquivar]**: arquive a campanha. Todas as campanhas arquivadas são excluídas em uma programação contínua 30 dias após sua última data modificada. Esta ação está disponível para todas as campanhas, exceto as campanhas de **[!UICONTROL Rascunho]**. Saiba mais sobre [arquivamento de campanha](#archive-a-campaign).
 
 Para campanhas acionadas por Ação e API, as ações adicionais abaixo estão disponíveis:
 

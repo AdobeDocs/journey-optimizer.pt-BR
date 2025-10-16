@@ -9,16 +9,16 @@ role: User
 level: Beginner
 keywords: assets, integração
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '694'
 ht-degree: 27%
 
 ---
 
 # Combine soluções e aplicativos para gerenciar seu conteúdo {#combine-solutions}
 
-Para criar mensagens e conteúdo para ativação em jornadas e campanhas de clientes omnicanal, os profissionais de marketing e experiência do cliente precisam de opções de criação fáceis de usar, incluindo IA gerativa no fluxo de trabalho, recursos de edição, ativos, modelos e gerenciamento de fragmentos.  Com o Adobe Journey Optimizer, você pode combinar facilmente suas soluções e aplicativos da Adobe para aproveitar ao máximo as ferramentas da Adobe. Essas integrações nativas ajudam a resolver casos de uso específicos e a estender o escopo funcional da Adobe Journey Optimizer.
+Para criar mensagens e conteúdo para ativação em jornadas e campanhas de clientes omnicanal, os profissionais de marketing e experiência do cliente precisam de opções de criação fáceis de usar, incluindo IA gerativa no fluxo de trabalho, recursos de edição, ativos, modelos e gerenciamento de fragmentos.  Com o Adobe Journey Optimizer, você pode combinar facilmente suas soluções e aplicativos da Adobe para aproveitar ao máximo suas ferramentas do Adobe. Essas integrações nativas ajudam a resolver casos de uso específicos e a estender o escopo funcional da Adobe Journey Optimizer.
 
 ## Adobe Experience Manager {#integration-aem}
 
