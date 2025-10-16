@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: df3abb7da17eb21e5e4120b55bdeb61fec3e202d
+source-git-commit: 3b736463615dac1bd5de7c7cee3ae46e9a2526da
 workflow-type: tm+mt
 source-wordcount: '2990'
 ht-degree: 98%
@@ -65,10 +65,10 @@ ht-degree: 98%
       + [Relatório em tempo real na sua jornada](using/building-journeys/report-journey.md)
    + Gerenciar jornadas {#manage-journey}
       + [Gerenciar jornadas](/help/rp_landing_pages/manage-journey-landing-page.md)
-      + [Trabalhar com eventos de etapa do jornada](using/reports/journey-step-events-overview.md)
       + [Procurar e filtrar suas jornadas](using/building-journeys/journey-ui.md)
       + [Entrada de perfil em jornadas](using/building-journeys/entry-management.md)
       + [Usar identificadores complementares em jornadas](using/building-journeys/supplemental-identifier.md)
+      + [Trabalhar com eventos de etapa do jornada](using/reports/journey-step-events-overview.md)
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
       + [Otimização de tempo de envio](using/building-journeys/send-time-optimization.md)
       + [Encerrar sua jornada](using/building-journeys/end-journey.md)
@@ -498,7 +498,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
