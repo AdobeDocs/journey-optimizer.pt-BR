@@ -11,20 +11,20 @@ keywords: jornada, eventos de etapa, análises, relatórios, monitoramento, XDM
 hide: true
 hidefromtoc: true
 exl-id: 9f8e7d6c-5b4a-3928-1756-849302a11c2b
-source-git-commit: df3abb7da17eb21e5e4120b55bdeb61fec3e202d
+source-git-commit: 17ea20a6b16965775bda98d7db1f12e28b037aaf
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '968'
 ht-degree: 1%
 
 ---
 
 # Trabalhar com eventos de etapa do jornada {#work-with-journey-step-events}
 
-Os eventos de etapa de Jornada são eventos gerados automaticamente que capturam informações detalhadas sobre cada etapa que um perfil realiza à medida que avançam por uma jornada no Adobe Journey Optimizer. Esses eventos fornecem visibilidade abrangente do desempenho do jornada e habilitam recursos avançados de análise.
+Os eventos de etapa de Jornada são eventos gerados automaticamente que capturam informações detalhadas sobre cada etapa que um [perfil](../audience/get-started-profiles.md) realiza à medida que avança em uma [jornada](../building-journeys/journey.md) no Adobe Journey Optimizer. Estes eventos fornecem visibilidade abrangente do [desempenho do jornada](../building-journeys/report-journey.md) e habilitam recursos de análise avançados.
 
 ## O que são eventos de etapa de jornada? {#what-are-step-events}
 
-Os eventos de etapa de Jornada são eventos XDM (Experience Data Model) gerados pelo sistema que o Adobe Journey Optimizer cria e envia automaticamente para a Adobe Experience Platform sempre que um perfil se move de um nó para outro em uma jornada. Cada evento corresponde a uma ação ou transição específica na experiência de jornada do cliente.
+Os eventos de etapa de Jornada são eventos [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"} gerados pelo sistema que a Adobe Journey Optimizer cria e envia automaticamente para a [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target="_blank"} sempre que um perfil se move de um nó para outro em uma jornada. Cada evento corresponde a uma [atividade de jornada](../building-journeys/about-journey-activities.md) específica ou transição na experiência de jornada do cliente.
 
 Há dois tipos principais de eventos de etapa de jornada:
 
@@ -35,16 +35,18 @@ Há dois tipos principais de eventos de etapa de jornada:
 
 Os eventos de etapa de Jornada são gerados automaticamente para várias atividades de jornada:
 
-- **Eventos de entrada**: quando um perfil entra em uma jornada
-- **Execução da ação**: quando mensagens são enviadas ou ações personalizadas são executadas
-- **Avaliação de condição**: quando os perfis passam pelos pontos de decisão
-- **Atividades de espera**: quando perfis entram e saem dos nós de espera
-- **Eventos de saída**: quando perfis concluem ou saem de uma jornada
+- **Eventos de entrada**: quando um perfil [entra em uma jornada](../building-journeys/entry-management.md)
+- **Execução da ação**: quando [mensagens são enviadas](../building-journeys/journeys-message.md) ou [ações personalizadas](../building-journeys/using-custom-actions.md) são executadas
+- **Avaliação de condição**: quando os perfis passam por [condições](../building-journeys/condition-activity.md) e pontos de decisão
+- **Atividades de espera**: quando perfis entram e saem [nós de espera](../building-journeys/wait-activity.md)
+- **Eventos de saída**: quando os perfis são concluídos ou [sair de uma jornada](../building-journeys/end-journey.md)
 - **Tratamento de erros**: quando ocorrerem erros durante a execução da jornada
 
 >[!NOTE]
 >
->Os eventos de etapa de Jornada são ativados por padrão em todas as instâncias. Não é possível modificar ou atualizar os esquemas e conjuntos de dados que foram criados durante o provisionamento para eventos da etapa. Esses esquemas e conjuntos de dados estão no modo somente leitura.
+>Os eventos de etapa de Jornada são ativados por padrão em todas as instâncias. Não é possível modificar ou atualizar os [esquemas e conjuntos de dados](sharing-overview.md) que foram criados durante o provisionamento para eventos de etapa. Esses esquemas e conjuntos de dados estão no modo somente leitura.
+
+Saiba mais sobre [esquemas de evento de etapa do jornada](sharing-field-list.md).
 
 ## Por que os eventos de etapa do jornada são importantes {#why-step-events-matter}
 
@@ -52,21 +54,21 @@ Os eventos de etapa de Jornada fornecem valor essencial para organizações que 
 
 ### Análise e monitoramento em tempo real {#real-time-analytics}
 
-- **Acompanhamento de desempenho da Jornada**: monitore em tempo real como os perfis fluem pelas suas jornadas
-- **Análise de conversão**: entender pontos de distribuição e caminhos de conversão bem-sucedidos
-- **Detecção de erros**: identifique e solucione problemas à medida que ocorrerem
+- **Acompanhamento de desempenho da Jornada**: monitore como os perfis fluem em suas jornadas em tempo real usando [relatórios ao vivo](live-report.md)
+- **Análise de conversão**: entender os pontos de devolução e os caminhos de conversão bem-sucedidos com a [análise do jornada](journey-global-report-cja.md)
+- **Detecção de erros**: identifique e solucione problemas à medida que eles ocorrem por meio de [monitoramento e alertas](alerts.md)
 
 ### Integração de dados e insights {#data-integration}
 
-- **Análise entre plataformas**: combinar dados do jornada com outras fontes de dados do Adobe Experience Platform
-- **Visualização do Customer 360**: crie perfis abrangentes do cliente que incluam interações do jornada
-- **Modelagem de atribuição**: conecte os pontos de contato do jornada aos resultados de negócios downstream
+- **Análise entre plataformas**: combinar dados do jornada com outras [fontes de dados do Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
+- **Visualização do cliente 360**: criar [perfis de clientes](../audience/get-started-profiles.md) abrangentes que incluam interações do jornada
+- **Modelagem de atribuição**: conecte os pontos de contato do jornada aos resultados comerciais downstream usando o [Customer Journey Analytics](cja-ajo.md)
 
 ### Oportunidades de otimização {#optimization}
 
-- **Insights de teste A/B**: analisar o desempenho de diferentes caminhos de jornada
-- **Aprimoramento do Personalization**: use os dados de comportamento da jornada para melhorar experiências futuras
-- **Eficiência operacional**: identificar gargalos e otimizar o design da jornada
+- **Insights de teste A/B**: analisar o desempenho de diferentes caminhos de jornada usando [experimentação](campaign-global-report-cja-experimentation.md)
+- **Aprimoramento do Personalization**: use os dados de comportamento de jornada para melhorar experiências futuras com [conteúdo dinâmico](../personalization/dynamic-content.md)
+- **Eficiência operacional**: identificar gargalos e otimizar o [design da jornada](../building-journeys/using-the-journey-designer.md)
 
 ## Como usar os eventos de etapa do jornada {#how-to-use-step-events}
 
@@ -74,21 +76,25 @@ Os eventos de etapa de Jornada fornecem valor essencial para organizações que 
 
 Os dados do evento de etapa do Jornada são armazenados automaticamente no Adobe Experience Platform e podem ser acessados por meio de:
 
-1. **Consultas do Data Lake**: use SQL para consultar o conjunto de dados `journey_step_events`
-2. **Customer Journey Analytics**: analisar dados de jornada por meio de ferramentas de análise avançadas
-3. **Relatório em tempo real**: acesse dados por meio dos recursos de relatório integrados da Journey Optimizer
+1. **Consultas do Data Lake**: Use SQL para consultar o conjunto de dados `journey_step_events` com o [Serviço de Consulta](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR){target="_blank"}
+2. **Customer Journey Analytics**: analisar dados de jornada por meio de [ferramentas de análise avançadas](cja-ajo.md)
+3. **Relatórios em tempo real**: acesse dados por meio dos [recursos de relatórios internos](gs-reports.md) da Journey Optimizer
 4. **APIs**: acesse programaticamente os dados do evento para aplicativos personalizados
+
+Saiba mais sobre [o acesso aos conjuntos de dados](../data/datasets-query-examples.md).
 
 ### Principais pontos de dados disponíveis {#key-data-points}
 
 Os eventos de etapa de Jornada capturam informações abrangentes, incluindo:
 
-- **Identificação da Jornada**: ID, versão e nome da Jornada
-- **Informações do perfil**: ID do perfil e identidades associadas
-- **Detalhes da etapa**: nome do nó, tipo de etapa e status de execução
+- **Identificação da Jornada**: [ID da Jornada, versão e nome](sharing-journey-fields.md)
+- **Informações do perfil**: [ID do perfil e identidades associadas](sharing-identity-fields.md)
+- **Detalhes da etapa**: [Nome do nó, tipo de etapa e status de execução](sharing-common-fields.md)
 - **Carimbos de data e hora**: tempo preciso de cada etapa de jornada
-- **Resultados da ação**: status de sucesso/falha e detalhes da execução
-- **Informações de erro**: códigos de erro detalhados e descrições quando ocorrem problemas
+- **Resultados da ação**: [Status de êxito/falha e detalhes da execução](sharing-execution-fields.md)
+- **Informações de erro**: [descrições e códigos de erro](sharing-field-list.md#discarded-events) detalhados quando ocorrem problemas
+
+Explorar todas as [definições de campo disponíveis](sharing-field-list.md).
 
 ### Casos de uso comuns {#common-use-cases}
 
@@ -120,6 +126,8 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 - Identificar onde os perfis saem com mais frequência da jornada
 - Medir o tempo gasto em diferentes fases da jornada
 
+Saiba mais sobre [técnicas de consulta para análise do funnel](query-examples.md#common-queries).
+
 ## Amostras e recursos {#samples-resources}
 
 ### Exemplos e modelos de consulta {#query-examples}
@@ -143,9 +151,9 @@ Entenda a estrutura de dados completa dos eventos de etapa do jornada:
 
 **Otimização do desempenho**
 
-- Use `journeyVersionID` em vez de `journeyVersionName` para melhorar o desempenho da consulta
+- Use `journeyVersionID` em vez de `journeyVersionName` para melhorar o desempenho da consulta ([saiba mais sobre as propriedades da jornada](../building-journeys/expression/journey-properties.md))
 - Filtrar por intervalos de datas para melhorar a velocidade da consulta em conjuntos de dados grandes
-- Aproveitar as identidades de perfil que correspondem à configuração do namespace do jornada
+- Aproveite as identidades de perfil que correspondem à sua [configuração de namespace de jornada](../building-journeys/entry-management.md)
 
 **Qualidade dos dados**
 
@@ -155,32 +163,34 @@ Entenda a estrutura de dados completa dos eventos de etapa do jornada:
 
 **Estratégias de análise**
 
-- Combine eventos de etapa de jornada com dados de feedback da mensagem para atribuição completa
+- Combine eventos de etapa de jornada com [dados de feedback da mensagem](../data/datasets-query-examples.md#message-feedback-event-dataset) para atribuição completa
 - Use a análise baseada em tempo para entender a velocidade da jornada e os gargalos
-- Criar análises de coorte para comparar diferentes variações de jornada
+- Crie análises de coorte para comparar diferentes [variações de jornada](../building-journeys/testing-the-journey.md)
 
 ### Recursos avançados de análise {#advanced-analytics}
 
 **integração com o Customer Journey Analytics**
-Os eventos de etapa de Jornada podem ser analisados usando o Customer Journey Analytics para:
+Os eventos de etapa de Jornada podem ser analisados usando o [Customer Journey Analytics](cja-ajo.md) para:
 
 - Modelagem de atribuição avançada
 - Visualização de jornada entre canais
 - Análise preditiva dos resultados da jornada
 
+Saiba como [configurar o Customer Journey Analytics](report-gs-cja.md) para dados do Journey Optimizer.
+
 **Decisão em tempo real**
 Use os padrões de evento de etapa do jornada para:
 
-- Acionar personalização em tempo real
-- Implementar a otimização dinâmica do jornada
-- Ativar recomendações contextuais de próxima ação
+- Acionar a [personalização](../personalization/personalize.md) em tempo real
+- Implementar a [otimização de jornada dinâmica](../building-journeys/optimize.md)
+- Habilitar recomendações contextuais de próxima ação com a [Gestão de Decisões](../offers/get-started/starting-offer-decisioning.md)
 
 ## Recursos adicionais {#additional-resources}
 
 ### Links de documentação {#documentation-links}
 
 - **[Visão geral do compartilhamento de etapas do Jornada](sharing-overview.md)**: entender como os dados do jornada fluem para o Adobe Experience Platform
-- **[Dicionário de esquemas internos](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)**: referência de esquema XDM completa
+- **[Dicionário de esquemas internos](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}**: referência de esquema XDM completa
 - **[Relatórios do Journey Optimizer](report-gs-cja.md)**: visão geral dos recursos de relatórios no Journey Optimizer
 
 ### Guias de integração {#integration-guides}
@@ -189,4 +199,10 @@ Use os padrões de evento de etapa do jornada para:
 - **[Gerenciamento de dados](../data/export-datasets.md)**: exportação e gerenciamento de dados do jornada
 - **[Privacidade e governança](../privacy/audit-logs.md)**: considerações de governança de dados para eventos do jornada
 
-Os eventos de etapa de Jornada formam a base da análise de jornada avançada no Adobe Journey Optimizer. Ao entender e aproveitar esses eventos de maneira eficaz, você pode obter insights profundos sobre o comportamento do cliente, otimizar o desempenho da jornada e criar experiências mais personalizadas para seus clientes.
+Os eventos de etapa de Jornada formam a base da análise de jornada avançada no Adobe Journey Optimizer. Ao entender e aproveitar esses eventos de maneira eficaz, você pode obter insights profundos sobre o comportamento do cliente, [otimizar o desempenho da jornada](../building-journeys/optimize.md) e criar mais [experiências personalizadas](../personalization/personalize.md) para seus clientes.
+
+**Próximas etapas:**
+
+- Comece com [criando seus primeiros relatórios de jornada](sharing-overview.md)
+- Explore [exemplos de consulta](query-examples.md) para casos de uso específicos
+- Saiba mais sobre as [práticas recomendadas de gerenciamento de jornadas](../building-journeys/journey.md)
