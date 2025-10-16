@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '982'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ Esta seção o guiará sobre como dimensionar com as duas limitações a seguir:
 
 Você pode adotar várias práticas recomendadas que o ajudarão a permanecer nas medidas de proteção e usar o sistema com eficiência.
 
-* Se você estiver se aproximando do limite de jornadas ativas, a primeira etapa a ser realizada é ir para a guia **Visão geral** em **Jornadas** para ver quantas jornada jornadas estavam ativas nas últimas 24 horas que tinham perfis ativos. Você pode verificar o número de perfis que entram e saem da jornada nesta seção para determinar isso.
+* Se você estiver se aproximando do limite de jornadas ativas, a primeira etapa a ser executada é acessar a guia **Visão geral** em **Jornadas** para ver quantas jornadas estavam ativas nas últimas 24 horas com perfis ativos. Você pode verificar o número de perfis que entram e saem da jornada nesta seção para determinar isso.
 
   ![](assets/journey-guardrails2.png)
 
@@ -71,4 +71,4 @@ Você pode adotar várias práticas recomendadas que o ajudarão a permanecer na
 * Se sua jornada tiver várias condições dividindo o público-alvo para ver os números em cada etapa, considere usar o Customer Journey Analytics ou outra solução de relatórios mais adequada para análise.
 * Se você estiver se aproximando do limite de nós na tela, considere a consolidação de ações com parâmetros dinâmicos ou conteúdo para veicular o conteúdo correto em vez de nós explícitos.
 
-* Se você tiver uma jornada **Ler público-alvo** com segmento em lote (A) e estiver usando dentro do segmento de transmissão de jornada em Público-alvo (B) para excluir (ou seja, execute A-B), considere mover essa lógica para a lógica de segmentação e use a exclusão como parte da própria lógica de segmentação.
+* Se você tiver uma jornada **Read Audience** com segmento em lote (A) e estiver usando um segmento de transmissão inAudience (B) na jornada a ser excluído (ou seja, execute A-B), considere mover essa lógica para a lógica de segmentação e usar a exclusão como parte da própria lógica de segmentação.
