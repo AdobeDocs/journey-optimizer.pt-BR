@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 13%
+source-wordcount: '1034'
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ A função `addDays` ajusta uma determinada data por um número especificado de 
 
 +++
 
-## Adicionar horas {#add-hours}
+## Adicionar Horas {#add-hours}
 
 A função `addHours` ajusta uma determinada data por um número especificado de horas, usando valores positivos para incrementar e valores negativos para decrementar.
 
@@ -51,9 +51,9 @@ A função `addHours` ajusta uma determinada data por um número especificado de
 
 +++
 
-## Adicionar minutos {#add-minutes}
+## Adicionar Minutos {#add-minutes}
 
-A função `addMinutes` ajusta uma determinada data por um número especificado de minutos, usando valores positivos para incrementar e valores negativos para decrementar
+A função `addMinutes` ajusta uma determinada data por um número especificado de minutos, usando valores positivos para incrementar e valores negativos para decrementar.
 
 **Sintaxe**
 
@@ -87,7 +87,7 @@ A função `addMonths` ajusta uma determinada data por um número especificado d
 
 ## Adicionar segundos {#add-seconds}
 
-O `addSeconds` ajusta uma determinada data por um número especificado de segundos, usando valores positivos para incrementar e valores negativos para decrementar.
+A função `addSeconds` ajusta uma determinada data por um número especificado de segundos, usando valores positivos para incrementar e valores negativos para decrementar.
 
 **Sintaxe**
 
@@ -104,7 +104,7 @@ O `addSeconds` ajusta uma determinada data por um número especificado de segund
 
 ## Adicionar anos {#add-years}
 
-O `addYears` ajusta uma determinada data por um número especificado de anos, usando valores positivos para incrementar e valores negativos para diminuir.
+A função `addYears` ajusta uma determinada data por um número especificado de anos, usando valores positivos para incrementar e valores negativos para decrementar.
 
 **Sintaxe**
 
@@ -139,7 +139,7 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## Idade em dias {#age-days}
+## Idade (em dias) {#age-days}
 
 A função `ageInDays` calcula a idade de uma determinada data em dias, ou seja, o número de dias decorridos entre a determinada data e a data atual, negativo para datas futuras e positivo para datas passadas.
 
@@ -211,7 +211,7 @@ A função `convertZonedDateTime` converte uma data-hora em um determinado fuso 
 
 +++
 
-## Hora atual em milissegundos{#current-time}
+## Tempo atual em milissegundos{#current-time}
 
 A função `currentTimeInMillis` é usada para recuperar a hora atual em milissegundos da época.
 
@@ -253,7 +253,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Dia do mês {#day-month}
 
-`dayOfWeek` retorna o número que representa o dia do mês.
+`dayOfMonth` retorna o número que representa o dia do mês.
 
 **Sintaxe**
 
@@ -343,7 +343,7 @@ A função `extractHours` extrai o componente de hora de um determinado carimbo 
 
 +++
 
-## Extrair minutos {#extract-minutes}
+## Extrair Minutos {#extract-minutes}
 
 A função `extractMinutes` extrai o componente de minuto de um carimbo de data/hora especificado.
 
@@ -355,7 +355,7 @@ A função `extractMinutes` extrai o componente de minuto de um carimbo de data/
 
 +++Exemplo
 
-* Entrada: `{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
+* Entrada: `{%= extractMinutes(stringToDate("2024-11-01T17:19:51Z"))%}`
 * Saída: `19`
 
 +++
@@ -465,7 +465,7 @@ A função `getCurrentZonedDateTime` retorna a data e a hora atuais com informa�
 
 +++
 
-## Diferença em horas {#hours-difference}
+## Diferença de Horas {#hours-difference}
 
 A função `diffInHours` retorna a diferença entre duas datas em termos de horas.
 
@@ -482,7 +482,7 @@ A função `diffInHours` retorna a diferença entre duas datas em termos de hora
 
 +++
 
-## Diferença em minutos{#diff-minutes}
+## Diferença de Minutos{#diff-minutes}
 
 A função `diffInMinutes` é usada para retornar a diferença entre duas datas em termos de minutos.
 
@@ -499,7 +499,7 @@ A função `diffInMinutes` é usada para retornar a diferença entre duas datas 
 
 +++
 
-## Diferença em meses {#months-difference}
+## Diferença de meses {#months-difference}
 
 A função `diffInMonths` retorna a diferença entre duas datas em termos de meses.
 
@@ -593,7 +593,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## Vincular ao início do dia {#truncate-day}
+## Truncar para o início do dia {#truncate-day}
 
 A função `truncateToStartOfDay` é usada para modificar uma determinada data-hora definindo-a como o início do dia com a hora definida como 00:00.
 
@@ -639,7 +639,7 @@ A função `truncateToStartOfWeek` modifica uma determinada data-hora definindo-
 
 +++Exemplo
 
-* Entrada: `truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
+* Entrada: `{%= truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
 * Saída: `2024-11-18T00:00Z // monday`
 
 +++
@@ -681,7 +681,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## Diferença em anos {#diff-years}
+## Diferença de anos {#diff-years}
 
 A função `diffInYears` é usada para retornar a diferença entre duas datas em termos de anos.
 

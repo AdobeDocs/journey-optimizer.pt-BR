@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '2422'
-ht-degree: 27%
+ht-degree: 2%
 
 ---
 
@@ -65,13 +65,13 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="arrays-list.md#first-n">Primeiro N na matriz</a></td><td>Esta função retorna os primeiros itens "N" em uma matriz quando classificados em ordem crescente com base na expressão numérica fornecida</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">Em</a></td><td>Esta função é usada para determinar se um item é membro de uma matriz ou lista</td>
+        <td><a href="arrays-list.md#in">Entrada</a></td><td>Esta função é usada para determinar se um item é membro de uma matriz ou lista</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#includes">Inclui</a></td><td>Esta função determina se uma matriz ou lista contém um determinado item.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">Intersecta</a></td><td>Esta função determina se duas matrizes ou listas têm pelo menos um membro comum.</td>
+        <td><a href="arrays-list.md#intersects">Interseta</a></td><td>Esta função determina se duas matrizes ou listas têm pelo menos um membro comum.</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#last-n">Último N na matriz</a></td><td>Esta função retorna os últimos itens "N" em uma matriz quando classificados em ordem crescente com base na expressão numérica fornecida</td>
@@ -103,10 +103,10 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="dates.md#add-days">Adicionar dias</a></td><td>Esta função ajusta uma determinada data por um número especificado de dias, usando valores positivos para incrementar e valores negativos para diminuir.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-hours">Adicionar horas</a></td><td>Esta função ajusta uma determinada data por um número especificado de horas, usando valores positivos para incrementar e valores negativos para diminuir.</td>
+        <td><a href="dates.md#add-hours">Adicionar Horas</a></td><td>Esta função ajusta uma determinada data por um número especificado de horas, usando valores positivos para incrementar e valores negativos para diminuir.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-minutes">Adicionar minutos</a></td><td>Esta função ajusta uma determinada data por um número especificado de minutos, usando valores positivos para incrementar e valores negativos para diminuir.</td>
+        <td><a href="dates.md#add-minutes">Adicionar Minutos</a></td><td>Esta função ajusta uma determinada data por um número especificado de minutos, usando valores positivos para incrementar e valores negativos para diminuir.</td>
     </tr>
     <tr>
         <td><a href="dates.md#add-months">Adicionar meses</a></td><td>Esta função ajusta uma determinada data por um número especificado de meses, usando valores positivos para incrementar e valores negativos para diminuir.</td>
@@ -121,19 +121,19 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="dates.md#age">Idade</a></td><td>Esta função recupera a idade de uma determinada data.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#age-days">Idade em dias</a></td><td>Essa função calcula a idade de uma determinada data em dias, ou seja, o número de dias decorridos entre a data especificada e a data atual, negativo para datas futuras e positivo para datas passadas.</td>
+        <td><a href="dates.md#age-days">Idade (em dias)</a></td><td>Essa função calcula a idade de uma determinada data em dias, ou seja, o número de dias decorridos entre a data especificada e a data atual, negativo para datas futuras e positivo para datas passadas.</td>
     </tr>
     <tr>
         <td><a href="dates.md#age-months">Idade em meses</a></td><td>Essa função calcula a idade de uma determinada data em meses, ou seja, o número de meses decorridos entre a data especificada e a data atual , negativo para datas futuras e positivo para datas passadas.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#compare-dates">Comparar datas</a></td><td>Esta função compara a primeira data de entrada com a outra. Retorna 0 se date1 for igual a date2, -1 se date1 for anterior a date2, e 1 se date1 for posterior a date2.</td>
+        <td><a href="dates.md#compare-dates">Comparar datas</a></td><td>Esta função compara a primeira data de entrada com a outra. Retorna 0 se data1 for igual a data2, -1 se data1 for anterior a data2 e 1 se data1 for posterior a data2.</td>
     </tr>
     <tr>
         <td><a href="dates.md#convert-zoned-date-time">Converter ZonedDateTime</a></td><td>Esta função converte uma data-hora em um determinado fuso horário.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">Hora atual em milissegundos</a></td><td>Esta função recupera a hora atual em milissegundos da época.</td>
+        <td><a href="dates.md#current">Tempo atual em milissegundos</a></td><td>Esta função recupera a hora atual em milissegundos da época.</td>
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">Diferença de data</a></td><td>Esta função recupera a diferença entre duas datas em número de dias.</td>
@@ -148,19 +148,19 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="dates.md#day-year">Dia do ano</a></td><td>Esta função recupera o dia do ano.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#diff-seconds">Diferença em segundos</a></td><td>Esta função retorna a diferença entre duas datas em segundos.</td>
+        <td><a href="dates.md#diff-seconds">Diferença em segundos</a></td><td>Esta função retorna a diferença entre duas datas em termos de segundos.</td>
     </tr>
     <tr>
         <td><a href="dates.md#extract-hours">Extrair horas</a></td><td>Esta função extrai o componente de hora de um determinado carimbo de data e hora.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#extract-minutes">Extrair minutos</a></td><td>Esta função extrai o componente de minutos de um determinado carimbo de data e hora.</td>
+        <td><a href="dates.md#extract-minutes">Extrair Minutos</a></td><td>Esta função extrai o componente de minuto de um determinado carimbo de data e hora.</td>
     </tr>
     <tr>
         <td><a href="dates.md#extract-months">Extrair meses</a></td><td>Esta função extrai o componente de mês de um determinado carimbo de data e hora.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#extract-seconds">Extrair segundos</a></td><td>Esta função extrai o componente de segundos de um determinado carimbo de data e hora.</td>
+        <td><a href="dates.md#extract-seconds">Extrair segundos</a></td><td>Esta função extrai o segundo componente de um determinado carimbo de data e hora.</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date">Formatar data</a></td><td>Essa função formata um valor de data e hora.</td>
@@ -172,13 +172,13 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="dates.md#get-current-zoned-date-time">Obter CurrentZonedDateTime</a></td><td>Esta função retorna a data e a hora atuais com informações de fuso horário.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#hours-difference">Diferença em horas</a></td><td>Esta função retorna a diferença entre duas datas em termos de horas.</td>
+        <td><a href="dates.md#hours-difference">Diferença de Horas</a></td><td>Esta função retorna a diferença entre duas datas em termos de horas.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#diff-minutes">Diferença em minutos</a></td><td>Esta função retorna a diferença entre duas datas em termos de minutos.</td>
+        <td><a href="dates.md#diff-minutes">Diferença de Minutos</a></td><td>Esta função retorna a diferença entre duas datas em termos de minutos.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#months-difference">Diferença em meses</a></td><td>Esta função retorna a diferença entre duas datas em termos de meses.</td>
+        <td><a href="dates.md#months-difference">Diferença de meses</a></td><td>Esta função retorna a diferença entre duas datas em termos de meses.</td>
     </tr>
     <tr>
         <td><a href="dates.md#set-days">Definir dias</a></td><td>Esta função define o dia do mês para a data-hora especificada.</td>
@@ -193,28 +193,27 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="dates.md#to-utc">Para UTC</a></td><td>Esta função converte um datetime em UTC.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-day">Vincular ao início do dia</a></td><td>Esta função modifica uma determinada data/hora, definindo-a como o início do dia com a hora definida como 0h00.</td>
+        <td><a href="dates.md#truncate-day">Truncar para o início do dia</a></td><td>Esta função modifica uma determinada data-hora definindo-a para o início do dia com a hora definida como 00:00.</td>
     </tr>
     <tr>
         <td><a href="dates.md#truncate-quarter">truncateToStartOfQuarter</a></td><td>Essa função trunca uma data-hora para o primeiro dia de seu trimestre (por exemplo, Jan 1, Abr 1, Jul 1, Out 1) às 00:00.
 </td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-week">truncateToStartOfWeek</a></td><td>Esta função modifica uma determinada data/hora, definindo-a como o início da semana (segunda-feira, às 0h00).</td>
+        <td><a href="dates.md#truncate-week">truncateToStartOfWeek</a></td><td>Essa função modifica uma determinada data-hora definindo-a para o início da semana (segunda-feira às 00:00).</td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-year">truncateToStartOfYear</a></td><td>Esta função modifica uma determinada data/hora, vinculando-a ao primeiro dia do ano (1.º de janeiro), às 0h00.</td>
+        <td><a href="dates.md#truncate-year">truncateToStartOfYear</a></td><td>Essa função modifica uma determinada data-hora, truncando-a para o primeiro dia do ano (1º de janeiro) às 00:00.</td>
     </tr>
     <tr>
         <td><a href="dates.md#week-of-year">Semana do ano</a></td><td>Esta função retorna a semana do ano.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#diff-years">Diferença em anos</a></td><td>Esta função retorna a diferença entre duas datas em termos de anos.</td>
+        <td><a href="dates.md#diff-years">Diferença de anos</a></td><td>Esta função retorna a diferença entre duas datas em termos de anos.</td>
     </tr>
 </table>
-</table>
 
-### Mapear funções {#map-functions}
+### Mapear Funções {#map-functions}
 
 <table>
     <tr>
@@ -247,7 +246,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="math.md#round-up">Arredondar para cima</a></td><td>Esta função arredonda um número para cima.</td>
     </tr>
     <tr>
-    <td><a href="math.md#to-hex-string">Para hex string</a></td><td>converte qualquer número em sua cadeia de caracteres hexadecimal.</td>
+    <td><a href="math.md#to-hex-string">Para hex string</a></td><td>Converte qualquer número em sua cadeia de caracteres hexadecimal.</td>
     </tr>
     <tr>
     <td><a href="math.md#to-int">ToInt</a></td><td>Converte qualquer um desses tipos (número, duplo, int, longo, flutuante, curto, byte, booleano, string) em um inteiro.</td>
@@ -274,7 +273,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
     </tr>
 </table>
 
-### Funções de strings {#string-functions}
+### Funções de string {#string-functions}
 
 <table>
     <tr>
@@ -321,7 +320,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#get-url-host">Obter host de URL</a></td><td>Esta função é usada para obter o host de URL.</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-path">Obter caminho de URL</a></td><td>Esta função é usada para obter o caminho do URL</td>
+        <td><a href="string.md#get-url-path">Obter caminho do URL</a></td><td>Esta função é usada para obter o caminho do URL</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-protocol">Obter protocolo de URL</a></td><td>Esta função é usada para obter o protocolo de URL</td>
@@ -333,7 +332,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#isEmpty">IsEmpty</a></td><td>Esta função é usada para verificar se uma sequência de caracteres ou expressão está vazia.</td>
     </tr>
     <tr>
-        <td><a href="string.md#is-not-empty">Não está vazio</a></td><td>Esta função retorna verdadeiro se a string no parâmetro não estiver vazia.</td>
+        <td><a href="string.md#is-not-empty">Não Está Vazio</a></td><td>Esta função retorna verdadeiro se a sequência de caracteres no parâmetro não estiver vazia.</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">Último índice de</a></td><td>Esta função retorna a posição (no primeiro argumento) da última ocorrência do segundo parâmetro. Retorna -1 se não houver correspondência.</td>
@@ -342,7 +341,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#leftTrim">Cortar à esquerda</a></td><td>Esta função remove os espaços em branco do início de uma sequência de caracteres.</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">Comprimento</a></td><td>Esta função é usada para obter o número de caracteres em uma sequência ou expressão</td>
+        <td><a href="string.md#length">Length</a></td><td>Esta função é usada para obter o número de caracteres em uma sequência ou expressão</td>
     </tr>
     <tr>
         <td><a href="string.md#like">É como</a></td><td>Esta função é usada para determinar se uma sequência de caracteres corresponde a um padrão especificado.</td>
@@ -351,19 +350,19 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#lower">Minúsculas</a></td><td>Esta função converte uma sequência de caracteres em letras minúsculas.</td>
     </tr>
     <tr>
-        <td><a href="string.md#mask">Mascarar</a></td><td>Esta função é usada para substituir uma parte de uma sequência de caracteres por caracteres "X".</td>
+        <td><a href="string.md#mask">Máscara</a></td><td>Esta função é usada para substituir uma parte de uma sequência de caracteres por caracteres "X".</td>
     </tr>
     <tr>
-        <td><a href="string.md#matches">Corresponde</a></td><td>Esta função é usada para determinar se uma sequência de caracteres corresponde a uma expressão regular específica.</td>
+        <td><a href="string.md#matches">Corresponde</a></td><td>Esta função é usada para determinar se uma sequência de caracteres corresponde a uma expressão regular específica</td>
     </tr>
     <tr>
-        <td><a href="string.md#md5">MD5</a></td><td>Esta função retorna o hash md5 da string de entrada.</td>
+        <td><a href="string.md#md5">MD5</a></td><td>Esta função retorna o hash md5 da sequência de caracteres de entrada.</td>
     </tr>
     <tr>
         <td><a href="string.md#notEqualTo">Não é igual a</a></td><td>Esta função é usada para determinar se uma sequência de caracteres não é igual à sequência especificada.</td>
     </tr>
     <tr>
-        <td><a href="string.md#not-equal-with-ignore-case">Não é igual a sem diferenciar maiúsculas e minúsculas</a></td><td>Esta função compara duas strings ignorando maiúsculas e minúsculas.</td>
+        <td><a href="string.md#not-equal-with-ignore-case">Diferente de Ignorar Maiúsculas e Minúsculas</a></td><td>Esta função compara duas sequências de caracteres ignorando maiúsculas e minúsculas.</td>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">Grupo de expressão regular</a></td><td>Esta função é usada para extrair informações específicas com base na expressão regular fornecida.</td>
@@ -387,16 +386,16 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#startsWith">Começa com</a></td><td>Esta função é usada para determinar se uma sequência de caracteres inicia com uma subsequência especificada.</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">String para data</a></td><td>Esta função converte um valor de sequência de caracteres em um valor de data-hora.</td>
+        <td><a href="string.md#string-to-date">Sequência de caracteres para data</a></td><td>Esta função converte um valor de sequência de caracteres em um valor de data-hora.</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-integer">String para número inteiro</a></td><td>Esta função converte um valor de string em um valor inteiro.</td>
+        <td><a href="string.md#string-to-integer">Sequência de caracteres para inteiro</a></td><td>Esta função converte um valor de sequência de caracteres em um valor inteiro.</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-number">String para número</a></td><td>Esta função é usada para converter uma string em número. Ela retorna a mesma string como saída para entrada inválida.</td>
+        <td><a href="string.md#string-to-number">Sequência de caracteres para número</a></td><td>Esta função é usada para converter uma sequência de caracteres em número. Ele retorna a mesma string que a saída para entrada inválida.</td>
     </tr>
     <tr>
-        <td><a href="string.md#sub-string">Substring</a></td><td>Esta função retorna a substring da expressão de string entre o índice inicial e o índice final.</td>
+        <td><a href="string.md#sub-string">Substring</a></td><td>Esta função retorna a subsequência de caracteres da expressão de sequência de caracteres entre o índice inicial e o índice final.</td>
     </tr>
     <tr>
         <td><a href="string.md#titleCase">Primeira letra da palavra maiúscula</a></td><td>Esta função é usada para colocar em maiúsculas as primeiras letras de cada palavra de uma sequência de caracteres.</td>
@@ -405,7 +404,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#to-bool">Para booleano</a></td><td>Esta função converte um valor de argumento em um valor booleano, dependendo de seu tipo.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time">Para data hora</a></td><td>Esta função é usada para converter uma string em data. Ela retorna a data da época como saída para entrada inválida.</td>
+        <td><a href="string.md#to-date-time">Para data hora</a></td><td>Esta função é usada para converter sequência de caracteres em data. Retorna a data da época como saída para entrada inválida.</td>
     </tr>
     <tr>
         <td><a href="string.md#to-date-time-only">Somente para data e hora</a></td><td>Esta função converte um valor de argumento em um valor somente de data e hora. Retorna a data da época como saída para entrada inválida.</td>
@@ -417,10 +416,10 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#upper">Maiúscula</a></td><td>Esta função converte uma sequência de caracteres em letras maiúsculas.</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-decode">Decodificação de URL</a></td><td>Esta função é usada para decodificar uma string codificada em URL.</td>
+        <td><a href="string.md#url-decode">Decodificação de URL</a></td><td>Esta função é usada para decodificar uma sequência de caracteres codificada em URL.</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">Codificação de URL</a></td><td>Esta função é usada para codificar uma string em URL.</td>
+        <td><a href="string.md#url-encode">Codificação de URL</a></td><td>Esta função é usada para codificar uma sequência de caracteres em URL.</td>
     </tr>
 </table>
 
@@ -438,7 +437,7 @@ Os auxiliares estão detalhados em [esta página](helpers.md).
         <td><a href="helpers.md#each">Each</a></td><td>Esta função é usada para iterar em uma matriz.</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#execution-metadata">Metadados da execução</a></td><td>Este auxiliar captura metadados de valor chave personalizados durante a renderização da mensagem para que eles possam ser armazenados no objeto de metadados de execução em tempo de execução</td>
+        <td><a href="helpers.md#execution-metadata">Metadados de execução</a></td><td>Este auxiliar captura metadados de valor chave personalizados durante a renderização da mensagem para que eles possam ser armazenados no objeto de metadados de execução em tempo de execução</td>
     </tr>
     <tr>
         <td><a href="helpers.md#if-function">Se</a></td><td>Esta função é usada para definir um bloco condicional - se a expressão evaluation retornar true, o bloco será renderizado</td>
@@ -447,10 +446,10 @@ Os auxiliares estão detalhados em [esta página](helpers.md).
         <td><a href="helpers.md#let">Let</a></td><td>Essa função permite que uma expressão seja armazenada como uma variável a ser usada posteriormente em uma consulta</td>
     </tr>
    <tr>
-        <td><a href="helpers.md#unless">Unless</a></td><td>Esta função é usada para definir um bloco condicional - se a expressão evaluation retornar false, o bloco será renderizado</td>
+        <td><a href="helpers.md#unless">A menos que</a></td><td>Esta função é usada para definir um bloco condicional - se a expressão evaluation retornar false, o bloco será renderizado</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#with">With</a></td><td>Esta função é usada para alterar o token de avaliação da parte do modelo</td>
+        <td><a href="helpers.md#with">Com</a></td><td>Esta função é usada para alterar o token de avaliação da parte do modelo</td>
     </tr>
 </table>
 

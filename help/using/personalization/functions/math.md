@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 11%
+source-wordcount: '244'
+ht-degree: 6%
 
 ---
 
@@ -71,7 +71,7 @@ A função `roundDown` é usada para arredondar para baixo um número.
 
 ## Arredondar para cima {#round-up}
 
-A função `Count only null` é usada arredondando um número para cima.
+A função `roundUp` é usada para arredondar um número para cima.
 
 **Sintaxe**
 
@@ -109,7 +109,7 @@ A função `toInt` é usada para converter qualquer um desses tipos (número, du
 
 **Exemplo**
 
-Esta query retorna o valor inteiro de 42,6, ou seja, 42.
+Esta consulta retorna o valor inteiro de 42,6, ou seja, 42.
 
 ```sql
 {%= toInt(42.6) %}: integer

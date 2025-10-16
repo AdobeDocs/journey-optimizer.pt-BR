@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 6%
@@ -99,7 +99,7 @@ A instrução `elseif` especificará uma nova condição para testar se a primei
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
    Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
-   {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
+   {%else if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"%}
    Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
    {%/if%}
    ```
@@ -109,7 +109,7 @@ A instrução `elseif` especificará uma nova condição para testar se a primei
 >Para saber mais sobre públicos-alvo e o serviço de segmentação, consulte [esta seção](../../audience/about-audiences.md).
 
 
-## Unless{#unless}
+## A menos que{#unless}
 
 O auxiliar `unless` é usado para definir um bloco condicional. Por oposição ao auxiliar `if`, se a avaliação da expressão retornar falso, o bloco será renderizado.
 
@@ -127,7 +127,7 @@ Renderize algum conteúdo com base na extensão de endereço de email:
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
 Some Normal Content
 {%else%}
-Some edu specific content Content
+Some edu specific content
 {%/unless%}
 ```
 
@@ -163,7 +163,7 @@ Renderize uma lista de produtos que este usuário tem em seu carrinho:
 {{/each}}
 ```
 
-## With{#with}
+## Com{#with}
 
 O auxiliar `with` é usado para alterar o token de avaliação da parte do modelo.
 
@@ -212,7 +212,7 @@ O exemplo a seguir permite calcular a soma total dos preços dos produtos no car
 {{sum}}
 ```
 
-## Metadados da execução {#execution-metadata}
+## Metadados de execução {#execution-metadata}
 
 >[!AVAILABILITY]
 >

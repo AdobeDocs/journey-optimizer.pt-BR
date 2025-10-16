@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -131,7 +131,7 @@ A operação a seguir retorna as cinco primeiras ordens com o preço mais baixo.
 {%= topN(orders,price, 5) %}
 ```
 
-## Em{#in}
+## Entrada{#in}
 
 A função `in` é usada para determinar se um item é membro de uma matriz ou lista.
 
@@ -167,7 +167,7 @@ A operação a seguir define as pessoas cuja cor favorita inclui vermelho.
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## Intersecta{#intersects}
+## Interseta{#intersects}
 
 A função `intersects` é usada para determinar se duas matrizes ou listas têm pelo menos um membro comum.
 
@@ -285,5 +285,5 @@ A função `supersetOf` é usada para determinar se uma matriz específica (matr
 A operação seguinte define as pessoas que comeram sushi e pizza pelo menos uma vez.
 
 ```sql
-{%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
+{%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```
