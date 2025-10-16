@@ -11,10 +11,10 @@ keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
+source-git-commit: 32848633cdfb5683b45286fcdd22711a82d591b5
 workflow-type: tm+mt
-source-wordcount: '2363'
-ht-degree: 1%
+source-wordcount: '4094'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -68,6 +68,22 @@ Uma jornada consiste em:
 * **Ações personalizadas**: integração com sistemas de terceiros
 
 Saiba mais sobre [atividades de jornada](about-journey-activities.md).
+
++++
+
++++ Como posso escolher entre uma jornada unitária e uma jornada de público-alvo de leitura?
+
+Usar **jornadas unitárias** quando:
+
+* Você precisa reagir às ações individuais do cliente em tempo real (por exemplo, confirmação de compra, abandono do carrinho)
+* Cada cliente deve seguir seu próprio ritmo
+* Acione com base em eventos específicos
+
+Usar **jornadas de leitura de público-alvo** quando:
+
+* Você está enviando comunicações em lote para um grupo (por exemplo, informativo mensal, campanhas promocionais)
+* Todos os clientes devem receber a mensagem quase ao mesmo tempo
+* Você está direcionando um segmento de público-alvo predefinido
 
 +++
 
@@ -150,6 +166,104 @@ Saiba mais sobre [atualizações de perfil](update-profiles.md).
 
 +++
 
++++ Como faço para enviar um email imediatamente depois que alguém faz uma compra?
+
+Criar uma **jornada unitária acionada por evento**:
+
+1. Configurar um evento de &quot;Compra&quot; com os detalhes do pedido
+2. Adicione o evento como ponto de entrada de jornada
+3. Siga imediatamente com uma ação de Email
+4. Projete o email de confirmação do pedido com detalhes personalizados do pedido
+5. Publicar a jornada
+
+A jornada será acionada automaticamente sempre que um evento de compra for recebido, enviando o email de confirmação em tempo real.
+
+Saiba mais sobre [configuração de evento](../event/about-events.md) e [ações de email](journeys-message.md).
+
++++
+
++++ Posso reenviar uma mensagem se alguém não abrir ou clicar nela?
+
+Sim. Use uma **atividade de condição** combinada com **atividades de espera**:
+
+1. Adicionar uma atividade Wait (por exemplo, aguardar 3 dias)
+2. Adicionar uma atividade de Condição verificando se o email foi aberto ou clicado
+3. Criar dois caminhos:
+   * **Se aberto/clicado**: encerre a jornada ou continue com as próximas etapas
+   * **Se não for aberto/clicado**: enviar um email de lembrete com uma linha de assunto diferente
+
+**Prática recomendada**: limitar o número de reenvios para evitar a exibição de spam (normalmente, um a dois lembretes no máximo).
+
+Saiba mais sobre [eventos de reação](reaction-events.md).
+
++++
+
++++ Como criar uma jornada de abandono de carrinho?
+
+Crie uma jornada acionada por eventos com lógica de espera e condição:
+
+1. **Configurar um evento &quot;Carrinho Abandonado&quot;**: disparado quando itens são adicionados, mas o check-out não é concluído em um período
+2. **Adicione uma atividade de espera**: aguarde de de 1 a 2 horas para dar ao cliente tempo para concluir naturalmente
+3. **Adicionar uma Condição**: verifique se a compra foi concluída durante a espera
+4. **Se não adquirido**: enviar um email de lembrete de abandono com conteúdo do carrinho
+5. **Opcional**: adicione outra espera (24 horas) e envie um segundo lembrete com um incentivo (por exemplo, desconto de 10%)
+
+Saiba mais sobre [casos de uso do jornada](jo-use-cases.md).
+
++++
+
++++ Como dividir clientes em caminhos diferentes com base em seu histórico de compras?
+
+Use uma **Atividade de condição** com associação de público-alvo ou atributos de perfil:
+
+1. Adicionar uma atividade de Condição à jornada
+2. Criar vários caminhos com base em critérios:
+   * **Caminho 1**: clientes de alto valor (compras totais > $1000)
+   * **Caminho 2**: Clientes comuns (compras totais de US$ 100 a US$ 1.000)
+   * **Caminho 3**: novos clientes (total de compras &lt; US$ 100)
+3. Adicionar mensagens ou ofertas diferentes para cada caminho
+
+Saiba mais sobre [condições](condition-activity.md) e [qualificação de público-alvo](audience-qualification-events.md).
+
++++
+
++++ Como gerenciar fusos horários diferentes na jornada?
+
+O Journey Optimizer fornece várias opções para o gerenciamento de fuso horário:
+
+* **Fuso horário do perfil**: as mensagens são enviadas com base no fuso horário de cada indivíduo armazenado em seu perfil
+* **Fuso horário fixo**: todas as mensagens usam um fuso horário específico definido por você
+* **Aguardar até um horário específico**: use a atividade Aguardar para enviar mensagens em um horário específico no fuso horário local do recipient (por exemplo, 10 AM)
+
+**Exemplo**: para enviar um email de &quot;Bom dia&quot; às 9h no fuso horário de cada cliente, use uma atividade de espera com &quot;Aguardar até uma data/hora fixa&quot; e habilite a opção de fuso horário.
+
+Saiba mais sobre o [gerenciamento de fuso horário](timezone-management.md).
+
++++
+
++++ Por quanto tempo devo esperar entre mensagens na minha jornada?
+
+**Práticas recomendadas para tempos de espera**:
+
+* **Mensagens transacionais** (confirmações de pedidos): enviar imediatamente
+* **Série de boas-vindas**: 1 a 3 dias entre emails
+* **Conteúdo educacional**: 3 a 7 dias entre mensagens
+* **Campanhas promocionais**: pelo menos 7 dias entre ofertas
+* **Reengajamento**: 14 a 30 dias para usuários inativos
+
+**Fatores a serem considerados**:
+
+* Padrões do setor e expectativas dos clientes
+* Urgência e importância da mensagem
+* Sua frequência geral de mensagens em todos os canais
+* Padrões de engajamento do cliente
+
+**Dica**: use as regras de limite de jornada para limitar o número total de mensagens recebidas por um cliente em todas as jornadas.
+
+Saiba mais sobre [atividades de espera](wait-activity.md) e [limite de jornada](../conflict-prioritization/journey-capping.md).
+
++++
+
 ## Teste e publicação
 
 +++ Como faço para testar minha jornada antes de publicá-la?
@@ -202,6 +316,26 @@ Saiba mais sobre [versões do jornada](journey-ui.md#journey-versions).
 * **Pausar**: interromper temporariamente a jornada e retomá-la mais tarde (disponível para tipos de jornada específicos)
 
 Saiba mais sobre o [encerramento de jornadas](end-journey.md).
+
++++
+
++++ Qual é a diferença entre &quot;Fechar para novas entradas&quot; e &quot;Parar&quot;?
+
+**Fechar para novas entradas**:
+
+* Novos perfis não podem entrar na jornada
+* Os perfis que já estão na jornada continuam e concluem o caminho
+* Use isso quando quiser direcionar uma jornada
+* Exemplo: uma campanha sazonal que terminou, mas você deseja que os clientes existentes concluam sua experiência
+
+**Parar**:
+
+* Encerra imediatamente a jornada para todos os perfis
+* Todos os perfis que estão na jornada foram encerrados
+* Use isso para situações urgentes ou erros críticos
+* Exemplo: recall de produto exigindo interrupção imediata das mensagens promocionais
+
+Saiba mais sobre [opções de pausa de jornada](journey-pause.md).
 
 +++
 
@@ -277,6 +411,113 @@ Quando uma ação falha (por exemplo, tempo limite da chamada da API, erro de de
 **Prática recomendada**: definir valores de tempo limite apropriados para ações externas e caminhos alternativos para cenários de falha críticos.
 
 Saiba mais sobre [respostas da ação](../action/action-response.md).
+
++++
+
++++ Posso ver quem está atualmente na minha jornada?
+
+Sim. Use o **Relatório de Jornada ao Vivo** para exibir:
+
+* Número de perfis atualmente na jornada
+* Número de perfis em cada atividade
+* Perfis que entraram nas últimas 24 horas
+* Métricas de execução em tempo real
+
+Para ver perfis individuais, use **jornada eventos de etapa** no Customer Journey Analytics ou consultar os conjuntos de dados de evento de etapa diretamente.
+
+Saiba mais sobre o [jornada live reporting](report-journey.md).
+
++++
+
++++ Por que minhas mensagens não estão sendo enviadas na minha jornada?
+
+**Razões e soluções comuns**:
+
+* **Problemas de consentimento**: os destinatários não optaram por receber comunicações
+Solução: verifique as políticas de consentimento e o status de aceitação
+
+* **Lista de supressão**: endereços de email estão na lista de supressão
+Solução: revise a lista de supressão para devoluções ou reclamações
+
+* **Informações de contato inválidas**: endereços de email/números de telefone ausentes ou malformados
+Solução: valide a qualidade dos dados do perfil
+
+* **Jornada não publicada**: a jornada ainda está no modo de rascunho
+Solução: publique a jornada para ativá-la
+
+* **Mensagem não aprovada**: o conteúdo da mensagem requer aprovação antes do envio
+Solução: envie para aprovação ou verifique o status de aprovação
+
+* **Problema de configuração de canal**: a configuração de email/SMS está incorreta
+Solução: verifique as configurações e a autenticação do canal
+
+Saiba mais sobre [solução de problemas](troubleshooting.md) e [gerenciamento de consentimento](../action/consent.md).
+
++++
+
++++ Como personalizar mensagens na minha jornada?
+
+Você pode personalizar mensagens usando o **editor de personalização**:
+
+**Dados de personalização disponíveis**:
+
+* **Atributos do perfil**: nome, sobrenome, email, campos personalizados
+* **Dados do evento**: detalhes da compra, comportamento de navegação, atividade do aplicativo
+* **Dados contextuais**: variáveis de Jornada, dados de API externos
+* **Associação de público-alvo**: qualificações de segmento
+* **Atributos computados**: valores pré-calculados
+
+**Exemplo de personalização**:
+
+* &quot;Olá {{profile.firstName}}, obrigado pela sua compra do {{event.productName}}&quot;
+* &quot;Com base no seu nível de fidelidade ({{profile.loyaltyTier}}), esta é uma oferta especial&quot;
+* Blocos de conteúdo dinâmico que mudam com base nas preferências do cliente
+
+Saiba mais sobre a [personalização](../personalization/personalize.md).
+
++++
+
++++ Posso enviar mensagens diferentes com base no canal preferido?
+
+Sim. Use uma **Atividade de condição** para verificar o canal preferencial:
+
+1. Adicionar uma condição verificando profile.preferredChannel
+2. Crie caminhos separados para cada canal:
+   * **Caminho de email**: enviar mensagem de email
+   * **Caminho do SMS**: Enviar mensagem SMS
+   * **Caminho de push**: enviar notificação por push
+3. Adicionar um caminho padrão para perfis sem uma preferência
+
+**Abordagem alternativa**: use **ações de vários canais** onde o Journey Optimizer seleciona automaticamente o melhor canal com base nas preferências e disponibilidade do perfil.
+
+Saiba mais sobre [ações de canal](journeys-message.md).
+
++++
+
++++ Posso excluir determinados clientes da minha jornada?
+
+Sim, há várias maneiras de excluir clientes:
+
+**Na entrada da jornada**:
+
+* Usar definições de público-alvo com regras de exclusão
+* Adicionar condições de entrada que filtram perfis específicos
+* Configurar requisitos de namespace
+
+**Na jornada**:
+
+* Adicione uma atividade de Condição no início da jornada para sair de perfis indesejados
+* Verificar atributos de exclusão (por exemplo, status do VIP, contas de teste)
+* Usar qualificação de público-alvo para identificar perfis a serem excluídos
+
+**Exemplo de cenários de exclusão**:
+
+* Excluir clientes que compraram recentemente
+* Excluir clientes do VIP de promoções padrão
+* Excluir funcionários e contas de teste
+* Excluir clientes em regiões específicas
+
+Saiba mais sobre [gerenciamento de entradas](entry-management.md) e [condições](condition-activity.md).
 
 +++
 
@@ -358,6 +599,124 @@ A **Atividade de salto** permite a transição de perfis de uma jornada para out
 Quando um perfil atinge uma atividade Jump, ele sai da jornada atual e entra na jornada do target no ponto de partida.
 
 Saiba mais sobre [a atividade de salto](jump.md).
+
++++
+
++++ Como criar uma jornada de série de boas-vindas?
+
+Uma série de boas-vindas típica inclui vários pontos de contato ao longo de vários dias:
+
+**Exemplo de estrutura**:
+
+1. **Entrada**: Público-alvo de novos assinantes ou evento quando alguém se inscrever
+2. **Email 1 - Boas-vindas imediatas**: obrigado e introdução
+3. **Aguardar**: 2 dias
+4. **Email 2 - Introdução**: tutorial ou guia do produto
+5. **Aguardar**: 3 dias
+6. **Condição**: o cliente fez uma compra?
+   * **Sim**: encerrar ou mover para a jornada do cliente
+   * **Não**: continuar série de boas-vindas
+7. **Email 3 - Incentivo**: desconto especial para compradores pela primeira vez
+8. **Aguardar**: 5 dias
+9. **Email 4 - Envolvimento**: best-sellers ou conteúdo popular
+
+**Práticas recomendadas**:
+
+* Mantenha-o em 3-5 emails em 2-3 semanas
+* Cada email deve ter uma finalidade clara e o call-to-action
+* Monitore as taxas de abertura e ajuste o tempo/conteúdo de acordo
+* Saia dos clientes antecipadamente se eles se converterem ou se engajarem profundamente
+
+Saiba mais sobre [casos de uso do jornada](jo-use-cases.md).
+
++++
+
++++ Posso testar caminhos diferentes A/B na minha jornada?
+
+Sim. Use a **Atividade Otimizar** (disponível em pacotes Journey Optimizer específicos) ou crie divisões de teste manualmente:
+
+**Usando a atividade Otimize**:
+
+* Divide automaticamente o tráfego entre variantes
+* Testa diferentes mensagens, ofertas ou caminhos de jornada inteiros
+* Mede o desempenho e declara um vencedor
+
+**Teste manual com Condição**:
+
+* Criar uma condição que divide aleatoriamente os perfis (por exemplo, usando uma função de número aleatório)
+* Enviar experiências diferentes para cada divisão
+* Medir resultados usando relatórios de jornada
+
+**O que você pode testar**:
+
+* Diferentes linhas de assunto de email
+* Conteúdo alternativo da mensagem
+* Diferentes tempos de espera
+* Várias ofertas ou incentivos
+* Caminhos de jornada totalmente diferentes
+
+Saiba mais sobre [otimizar atividade](optimize.md) e [experimentos de conteúdo](../content-management/content-experiment.md).
+
++++
+
++++ Como faço para acionar uma jornada quando o inventário está baixo?
+
+Criar uma **jornada de eventos comerciais**:
+
+1. **Configurar um evento comercial**: configure um evento acionado pelo sistema de inventário quando o estoque ficar abaixo de um limite
+2. **Selecionar público-alvo**: escolha perfis para notificar (por exemplo, clientes que visualizaram o produto, assinantes para reabastecer alertas)
+3. **Adicionar ação de mensagem**: enviar email de notificação ou push
+4. **Personalizar conteúdo**: incluir detalhes do produto, nível de estoque atual, mensagens de urgência
+
+**Exemplo de eventos comerciais**:
+
+* Alerta de baixo inventário
+* Notificação de queda de preço
+* Produto em estoque
+* Anúncio de venda do Flash
+* Promoções baseadas no clima
+
+Saiba mais sobre [eventos comerciais](general-events.md).
+
++++
+
++++ Posso pausar uma jornada para uma pessoa específica sem parar toda a jornada?
+
+Embora não seja possível pausar uma jornada para perfis individuais diretamente, é possível obter resultados semelhantes:
+
+**Opções**:
+
+* **Adicionar ao público-alvo de exclusão**: crie um público-alvo de perfis para excluir e adicione uma condição verificando esse público-alvo em pontos estratégicos na jornada
+* **Atualizar atributo de perfil**: Defina um sinalizador &quot;pausar&quot; no perfil e use condições para ignorar ações para perfis sinalizados
+* **Ação personalizada**: use um sistema externo para rastrear perfis pausados e verificar o status por meio de uma chamada de API
+* **Saída manual**: para casos urgentes, você pode remover perfis de teste manualmente
+
+**Observação**: as alterações na Jornada afetam somente os novos participantes. Os perfis que já estão na jornada seguem o caminho original, a menos que a jornada seja totalmente interrompida.
+
++++
+
++++ Qual é a diferença entre uma Condição e uma atividade de Espera?
+
+**Atividade de condição**:
+
+* **Propósito**: cria caminhos diferentes com base na lógica (if/then)
+* **Função**: avalia os dados e encaminha os perfis de acordo
+* **Casos de uso**: segmentar clientes, verificar status, ramificação com base no comportamento
+* **Exemplo**: se o cliente for o VIP, envie uma oferta premium; caso contrário, envie uma oferta padrão
+
+**Atividade de espera**:
+
+* **Propósito**: pausa a jornada por um período
+* **Função**: mantém perfis em um ponto específico antes de continuar
+* **Casos de uso**: intervalo entre mensagens, espera pelo horário comercial, criação de atrasos
+* **Exemplo**: aguarde 3 dias após o email de boas-vindas antes de enviar a próxima mensagem
+
+**Eles trabalham juntos**:
+
+* Aguarde um período e use uma Condição para verificar se algo aconteceu durante a espera
+* Exemplo: aguarde 7 dias e, em seguida, verifique se o cliente fez uma compra
+
+Saiba mais sobre [condições](condition-activity.md) e [atividades de espera](wait-activity.md).
 
 +++
 
