@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 35%
+ht-degree: 32%
 
 ---
 
@@ -69,7 +69,7 @@ Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como o
 
 +++**Habilitar o modo de entrega rápida** (Push).
 
-O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite um envio muito rápido de mensagens por push em grandes volumes por meio das campanhas. A entrega rápida é usada quando um atraso na entrega das mensagens seria crítico para os negócios, quando você deseja enviar um alerta por push urgente a telefones celulares, como, por exemplo, notícias de última hora para usuários que instalaram o seu aplicativo de canal de notícias. Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../push/create-push.md#rapid-delivery).
+O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas. A entrega rápida é usada quando um atraso na entrega das mensagens seria crítico para os negócios, quando você deseja enviar um alerta por push urgente a telefones celulares, como, por exemplo, notícias de última hora para usuários que instalaram o seu aplicativo de canal de notícias. Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../push/create-push.md#rapid-delivery).
 
 Para mais informações sobre desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -104,9 +104,9 @@ Para simplificar a orquestração de campanhas, você pode definir várias açõ
 
 >[!NOTE]
 >
->Essa capacidade só está disponível para canais de entrada. No momento, não há suporte para canais de saída como email.
+>Esse recurso só está disponível para canais de entrada. No momento, não há suporte para canais de saída como email.
 
-Essa capacidade permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da Web para diferentes locais ao mesmo tempo, sem a necessidade de criar várias campanhas. Isso facilita a implantação da sua campanha e permite relatórios mais suaves, com todos os dados consolidados em uma única campanha.
+Esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da Web a diferentes locais ao mesmo tempo, sem a necessidade de criar várias campanhas. Isso facilita a implantação da sua campanha e permite relatórios mais suaves, com todos os dados consolidados em uma única campanha.
 
 Por exemplo, você pode enviar uma experiência baseada em código para vários endpoints com conteúdo ligeiramente diferente. Para fazer isso, crie várias ações baseadas em código na mesma campanha, cada uma com uma configuração de endpoint diferente.
 

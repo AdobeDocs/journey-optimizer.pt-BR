@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: otimização de campanha, experimentação, direcionamento, teste A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -72,7 +72,7 @@ Para configurar o direcionamento, siga as etapas abaixo.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Selecione a opção **[!UICONTROL Habilitar conteúdo de fallback]**, conforme necessário. O conteúdo de fallback permite que o público receba um conteúdo padrão quando nenhuma regra de direcionamento for qualificada.
+1. Selecione a opção **[!UICONTROL Habilitar conteúdo de fallback]**, conforme necessário. O conteúdo de substituição permite que o público-alvo receba um conteúdo padrão quando nenhuma regra de direcionamento for qualificada.
 
    >[!NOTE]
    >
@@ -90,7 +90,7 @@ Para configurar o direcionamento, siga as etapas abaixo.
 
 1. [Ative](review-activate-campaign.md) sua jornada ou campanha.
 
-Uma vez que a jornada/campanha é em tempo real, o conteúdo personalizado para cada target é enviado para que os residentes dos EUA recebam uma mensagem específica, os residentes da França recebam uma mensagem diferente e assim por diante.
+Uma vez que a jornada/campanha esteja ativa, o conteúdo personalizado para cada target é enviado para que os residentes dos EUA recebam uma mensagem específica, os residentes da França recebam uma mensagem diferente e assim por diante.
 
 <!--Default content:
 
@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Saiba como utilizar a otimização de mensagens em campanhas acionadas por ações ou API. Você aprenderá a direcionar subconjuntos do público-alvo, criar variações de mensagem por local, habilitar o conteúdo de fallback e executar vários experimentos em uma mesma campanha. Este tutorial também aborda como gerenciar campanhas com vários canais e, ao mesmo tempo, manter a consistência das mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470373?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

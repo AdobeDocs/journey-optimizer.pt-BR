@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1708'
 ht-degree: 15%
 
 ---
@@ -164,7 +164,7 @@ Para navegar no calendário do Campaigns:
 
    ![exibição de calendário mostrando calendários externos](assets/campaign-external-calendar.png)
 
-1. Arraste e solte seus arquivos CSV contendo nomes de eventos, datas de início e datas de término.
+1. Arraste e solte seus arquivos CSV contendo nomes de evento, datas de início e datas de término.
 
    Os eventos carregados são exibidos para todos os usuários em sua organização e exibidos nos calendários do Jornada e do Campaign.
 
