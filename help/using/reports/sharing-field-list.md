@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 97c1d0f2e9f8100f70d5c4e40325abddc5e3dfbd
+source-git-commit: f9102c10aa58be0e1a7280aa53fd97b3f792b9e9
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -83,18 +83,30 @@ Ao consultar eventos de etapa de jornada para registros com `eventCode = 'discar
 
 Abaixo estão definições, causas comuns e etapas de solução de problemas para o descarte mais frequente `eventTypes`:
 
-* **EXTERNAL_KEY_COMPUTATION_ERROR**: o sistema não pôde computar um identificador exclusivo (chave externa) para o cliente a partir dos dados do evento.
-   * Causas comuns: identificadores de clientes ausentes ou malformados (por exemplo, email, ID do cliente) na carga do evento.
-   * Solução de problemas: verifique a configuração do evento para identificadores necessários, verifique se os dados do evento estão completos e formatados corretamente.
-* **NO_INTERESTED_JORNADA_FOR_SEGMENTMEMBERSHIP_EVENT**: um evento de qualificação de segmento foi recebido, mas nenhuma jornada está configurada para responder a este segmento.
-   * Causas comuns: nenhuma jornada usa o segmento como um acionador, as jornadas estão em estado de rascunho/interrompido ou as IDs de segmento não correspondem.
-   * Solução de problemas: verifique se pelo menos uma jornada está ativa e configurada para o segmento. Verifique as IDs do segmento.
-* **JORNADA_INSTANCE_ID_NOT_CREATE**: o sistema falhou ao criar uma instância do jornada para o cliente.
-   * Causas comuns: eventos duplicados, volume de eventos alto, restrições de recursos do sistema.
-   * Solução de problemas: implemente a desduplicação, evite picos de tráfego, otimize o design da jornada e entre em contato com o suporte se for persistente.
-* **EVENT_WITH_NO_JORNADA**: um evento foi recebido, mas nenhuma jornada ativa está configurada para responder a ele.
-   * Causas comuns: incompatibilidade de nome/ID do evento, jornada não publicada, sandbox/organização incorreta, modo de teste/incompatibilidade de perfil.
-   * Solução de problemas: verifique a configuração do evento e do jornada, verifique o status do jornada e use as ferramentas de depuração.
+* EXTERNAL_KEY_COMPUTATION_ERROR: o sistema não pôde calcular um identificador exclusivo (chave externa) para o cliente a partir dos dados do evento.
+
+|---|---|
+| **Causas comuns** | Identificadores do cliente ausentes ou malformados (por exemplo, email, ID do cliente) na carga do evento. |
+| **Solução de problemas** | Verifique a configuração do evento para identificadores necessários, certifique-se de que os dados do evento estejam completos e formatados corretamente. |
+
+* NO_INTERESTED_JORNADA_FOR_SEGMENTMEMBERSHIP_EVENT: um evento de qualificação de segmento foi recebido, mas nenhuma jornada está configurada para responder a esse segmento.
+
+
+|---|---|
+| **Causas comuns** | Nenhuma jornada usa o segmento como um acionador, as jornadas estão em estado de rascunho/interrompido ou as IDs de segmento não correspondem. |
+| **Solução de problemas** | Verifique se pelo menos uma jornada está ativa e configurada para o segmento. Verifique as IDs do segmento. |
+
+### JORNADA_INSTANCE_ID_NOT_CREATE: o sistema falhou ao criar uma instância do jornada para o cliente.
+
+|---|---|
+| **Causas comuns** | Eventos duplicados, grande volume de eventos, restrições de recursos do sistema. |
+| **Solução de problemas** | Implemente a desduplicação, evite picos de tráfego, otimize o design da jornada e entre em contato com o suporte se for persistente. |
+
+### EVENT_WITH_NO_JORNADA: um evento foi recebido, mas nenhuma jornada ativa está configurada para responder a ele
+
+|---|---|
+| **Causas comuns** | Incompatibilidade de nome/ID de evento, jornada não publicada, sandbox/organização incorreta, modo de teste/incompatibilidade de perfil. |
+| **Solução de problemas** | Verifique a configuração do evento e do jornada, verifique o status do jornada e use as ferramentas de depuração. |
 
 Para descartes que ocorrem em jornadas pausadas:
 
