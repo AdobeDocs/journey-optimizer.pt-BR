@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -218,4 +218,4 @@ Na Seção Edge Delivery do rastreamento de garantia como parte dos detalhes de 
 
 * [!DNL Journey Optimizer] faz algum armazenamento em cache de respostas do ponto de extremidade externo?
 
-  No momento não. Esse recurso será permitido no futuro.
+  No momento não. Esse recurso será compatível no futuro.

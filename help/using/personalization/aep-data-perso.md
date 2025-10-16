@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '707'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ Depois que um conjunto de dados é habilitado para personalização de pesquisa,
 
      >[!NOTE]
      >
-     >O valor inserido para este campo pode ser uma ID de campo (*profile.packages.packageSKU*), um campo passado em um evento de jornada (*context.jornada.events.event_ID.productSKU*) ou um valor estático (*sku007653*). Em qualquer caso, o sistema usará o valor e pesquisará no conjunto de dados para verificar se ele corresponde a uma chave.
+     >O valor inserido para este campo pode ser uma ID de campo (`profile.packages.packageSKU`), um campo passado em um evento de jornada (`context.journey.events.event_ID.productSKU`) ou um valor estático (`sku007653`). Em qualquer caso, o sistema usará o valor e pesquisará no conjunto de dados para verificar se ele corresponde a uma chave.
      >
      >Se estiver usando um valor de sequência literal para a chave, mantenha o texto entre aspas. Por exemplo: `{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`. Se estiver usando um valor de atributo como uma chave dinâmica, remova as aspas. Por exemplo: `{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
@@ -56,7 +56,7 @@ Depois que um conjunto de dados é habilitado para personalização de pesquisa,
 
    +++Onde recuperar uma ID de conjunto de dados?
 
-   As IDs dos conjuntos de dados podem ser recuperadas na interface do usuário do Adobe Experience Platform. Saiba como trabalhar com conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   As IDs dos conjuntos de dados podem ser recuperadas na interface do usuário do Adobe Experience Platform. Saiba como trabalhar com conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
@@ -84,12 +84,12 @@ Depois que um conjunto de dados é habilitado para personalização de pesquisa,
    >
    >Não há limites rígidos no número de campos que podem ser obtidos usando a função auxiliar. No entanto, para obter o melhor desempenho, é recomendável manter o número de campos abaixo de 50 para evitar impacto na taxa de transferência.
 
-   * **resultado** é o valor atribuído ao parâmetro **resultado** na função auxiliar **MultiEntity**. Neste exemplo, &quot;voo&quot;.
+   * **resultado** é o valor atribuído ao parâmetro **resultado** na função auxiliar **datasetLookup**. Neste exemplo, &quot;voo&quot;.
    * **fieldID** é a identificação do campo que você deseja recuperar. Esta ID é visível na interface do usuário [!DNL Adobe Experience Platform] ao navegar pelo esquema de registro relacionado ao seu conjunto de dados:
 
      +++Onde recuperar uma ID de campo?
 
-     As IDs de campos podem ser recuperadas ao visualizar um conjunto de dados na interface do usuário do Adobe Experience Platform. Saiba como visualizar conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     As IDs de campos podem ser recuperadas ao visualizar um conjunto de dados na interface do usuário do Adobe Experience Platform. Saiba como visualizar conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 

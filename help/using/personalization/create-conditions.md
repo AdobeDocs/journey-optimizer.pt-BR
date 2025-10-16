@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, condicional, regras
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '604'
 ht-degree: 8%
 
 ---
@@ -56,7 +56,7 @@ As etapas para criar uma regra condicional são as seguintes:
 
 1. Crie a regra condicional de acordo com suas necessidades. Para fazer isso, arraste e solte e organize os atributos desejados do menu esquerdo na tela de desenho.
 
-   As etapas para combinar atributos na tela são semelhantes à experiência de construção de segmentos. Para obter mais informações sobre como trabalhar com a tela do construtor de regras, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#rule-builder-canvas).
+   As etapas para combinar atributos na tela são semelhantes à experiência de construção de segmentos. Para obter mais informações sobre como trabalhar com a tela do construtor de regras, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
@@ -74,7 +74,7 @@ As etapas para criar uma regra condicional são as seguintes:
 
 ## Salvar uma regra condicional {#save}
 
-Se houver regras de condição que serão reutilizadas com frequência, salve-as na biblioteca de condições. Todas as regras salvas são compartilhadas e podem ser acessadas e usadas por indivíduos em sua organização.
+Se houver regras de condição que serão reutilizadas com frequência, você poderá salvá-las na biblioteca de condições. Todas as regras salvas são compartilhadas e podem ser acessadas e usadas por indivíduos em sua organização.
 
 >[!NOTE]
 >
