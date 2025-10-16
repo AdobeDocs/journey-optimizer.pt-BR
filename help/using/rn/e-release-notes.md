@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1a5f6be689c9e91ee0dc0b5f024dbe8020424337
+source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 29%
+source-wordcount: '1209'
+ht-degree: 40%
 
 ---
 
@@ -29,40 +29,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 
 ### Novos recursos {#oct-25-10-features}
 
-<table>
-<thead>
-<tr>
-<th><strong>Canal de correspondência direta no jornada</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Anteriormente limitado a Campanhas, o canal de correspondência direta agora está disponível na tela de jornada, permitindo que você incorpore a correspondência direta às suas jornadas. A correspondência direta agora pode ser usada em cenários de jornada em lote e 1:1, com suporte para configuração de extração de arquivos e configurações de frequência baseadas em tempo.</p>
-<p> Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Nova API para recuperar Campanhas de ação</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Uma nova API do Journey Optimizer agora está disponível, permitindo recuperar e inspecionar programaticamente dados relacionados à campanha, como detalhes, versões e configurações.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -115,6 +82,41 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>O canal de correspondência direta agora está disponível em campanhas orquestradas. A Atividade correspondência direta facilita o envio de correspondência direta na campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. É possível combinar atividades de canal na tela da campanha orquestrada para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal de correspondência direta no jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Anteriormente limitado a Campanhas, o canal de correspondência direta agora está disponível na tela de jornada, permitindo que você incorpore a correspondência direta às suas jornadas. A correspondência direta agora pode ser usada em cenários de jornada em lote e 1:1, com suporte para configuração de extração de arquivos e configurações de frequência baseadas em tempo.</p>
+<p> Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nova API para recuperar Campanhas de ação</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma nova API do Journey Optimizer agora está disponível, permitindo recuperar e inspecionar programaticamente dados relacionados à campanha, como detalhes, versões e configurações.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -193,20 +195,18 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 </tr>
 </tbody>
 </table>
-
 <table>
 <thead>
 <tr>
-<th><strong>Nova função Auxiliar de metadados de execução</strong><br/></th>
+<th><strong>Auxiliar de metadados de execução</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Uma nova função auxiliar de executionMetadata está disponível no editor de personalização. Ele permite anexar informações contextuais a qualquer ação nativa e capturá-las em um conjunto de dados para exportação para sistemas externos.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>Uma nova função auxiliar "executionMetadata" está disponível no editor de personalização. Ele permite anexar informações contextuais a qualquer ação nativa e capturá-las em um conjunto de dados para exportação para sistemas externos.</p>
+<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
+<p>Para mais informações, consulte a <a href="../personalization/functions/helpers.md#execution-metadata">documentação detalhada</a></p>
 <p>Data de disponibilidade: 13 de outubro de 2025</p>
 </td>
 </tr>
@@ -216,22 +216,40 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
-<th><strong>Agente de experimento</strong><br/></th>
+<th><strong>O agente de experimentação está aqui!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Agente de experimentação é uma ferramenta alimentada por IA que moderniza como você pode executar e gerenciar experimentos digitais em sites, emails, mensagens por push e aplicativos. Criado com base na plataforma de IA do Adobe Experience Platform e em ferramentas de experimentação, o Agente de experimentação ajuda a executar experimentos com mais eficiência, organizar metas comerciais e gerar insights acionáveis, destacando o que funcionou, o que não funcionou e onde experimentar em seguida.</p>
-<p>Como parte do novo recurso do Experimentation Accelerator, o agente oferece:</p>
+<p>Com a tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Agente de experimentação está disponível na Journey Optimizer. </p>
+<p>O Agente de experimentação é uma ferramenta alimentada por IA que moderniza como você pode executar e gerenciar experimentos digitais em sites, emails, mensagens por push e aplicativos. Ele ajuda você a executar experimentos com mais eficiência, organizar metas de negócios e gerar insights acionáveis, destacando o que funcionou, o que não funcionou e onde experimentar em seguida.</p>
+<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentação detalhada</a></p>
+<p>Data de disponibilidade: 10 de outubro de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Anexos de PDF para emails</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível anexar um arquivo PDF estático a uma mensagem de email enviada com o Journey Optimizer.</p>
 <ul>
-<li><strong>Desempenho:</strong> uma visão clara do que aconteceu no experimento</li>
-<li><strong>Insights:</strong> uma explicação do motivo pelo qual os resultados ocorreram</li>
-<li><strong>Oportunidades:</strong> orientação sobre as próximas ações a serem realizadas</li>
+<li>É possível enviar até 6 mensagens com um anexo PDF por perfil em um ano.</li>
+<li>O tamanho máximo para cada anexo é 5 MB.</li>
+<li>Para qualquer tamanho ou volume adicional, é possível comprar o complemento Anexos em PDF. Para obter mais informações, entre em contato com um representante da Adobe.</li>
 </ul>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<p>Data de disponibilidade: 9 de outubro de 2025</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>Para mais informações, consulte a <a href="../email/pdf-attachments.md">documentação detalhada</a></p>
+<p>Data de disponibilidade: 30 de setembro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -247,43 +265,40 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>Uma nova API do Journey Optimizer agora está disponível para recuperar jornadas e seus objetos associados, como campanhas e superfícies.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>Para mais informações, consulte a <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">documentação detalhada</a></p>
 <p>Data de disponibilidade: 25 de setembro de 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 ### Aprimoramentos
 
-- **Campanhas, Experience Decisioning, Jornadas**
-   - **Selecionar regras reutilizáveis no Direcionamento** - Agora você pode aproveitar o construtor de regras ao usar as regras de Direcionamento com o recurso de Otimização de Mensagem em jornadas e campanhas. <!-- [Read more](../FILE.md) -->
+**Selecionar regras reutilizáveis no Direcionamento**
 
-- **Canal - WhatsApp**
-   - **Campo de execução para canal do WhatsApp** - Além de email e SMS, agora é possível atualizar o campo de execução padrão do WhatsApp. Também é possível substituir o campo de execução definido globalmente nos parâmetros avançados da atividade de jornada do WhatsApp ou na configuração do canal do WhatsApp. <!-- [Read more](../FILE.md) -->
+Agora você pode aproveitar o construtor de regras ao usar as regras de direcionamento com o recurso de Otimização de mensagem em jornadas e campanhas. <!-- [Read more](../FILE.md) -->
 
-- **Permissões**
-   - **O criador de Jornadas/Campanhas não deve ser capaz de aprovar**. Adicionada uma opção ao criar ou definir a Política de Aprovação para impedir que os criadores de Jornadas/Campanhas aprovem seus próprios objetos. <!-- [Read more](../FILE.md) -->
+**Campo de execução para o canal do WhatsApp**
 
-- **Canal - Push**
-   - **Atividades móveis ao vivo - Beta privado** - As atividades ao vivo fornecem atualizações em tempo real e experiências interativas em aplicativos móveis, permitindo que os usuários permaneçam informados sobre eventos ou tarefas em andamento diretamente na tela do dispositivo. Esse recurso melhora a participação fornecendo informações em tempo real, como rastreamento de progresso, atualizações de eventos ou conteúdo interativo, sem exigir que os usuários abram o aplicativo. <!-- [Read more](../FILE.md) -->
+Além de e-mail e SMS, agora é possível atualizar o campo de execução padrão do WhatsApp. Também é possível substituir o campo de execução definido globalmente nos parâmetros avançados da atividade de jornada do WhatsApp ou na configuração do canal do WhatsApp. <!-- [Read more](../FILE.md) -->
 
-- **Jornadas**
-   - **Novos alertas de Jornada** - Data de disponibilidade: 14 de outubro de 2025
-Novos alertas pré-configurados estão disponíveis para o jornada: Taxa de descarte de perfil excedida (Taxa de descartes de perfil para perfis inseridos nos últimos 5 minutos excedeu o limite), Taxa de erro de ação personalizada excedida (Taxa de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos 5 minutos excedeu o limite), Taxa de erro de perfil excedida (Taxa de perfis com erro para perfis inseridos nos últimos 5 minutos excedeu o limite). <!-- [Read more](../FILE.md) -->
+**Permissões**
 
-- **Configuração**
-   - **Suporte a atributos personalizados com URL de cancelamento de inscrição com um clique** - Data de disponibilidade: 6 de outubro de 2025
-Com o Journey Optimizer, se você estiver gerenciando o consentimento fora do Adobe, é possível definir um terminal personalizado externo definindo seu próprio link de cancelamento de inscrição com um clique na configuração do email. Quando os destinatários clicam no link de cancelamento de inscrição, o Journey Optimizer anexa alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento. Para personalizar ainda mais o endereço de email para cancelar assinatura, agora você pode definir atributos personalizados que serão anexados ao evento de consentimento. Esse recurso já está disponível para o URL personalizado de cancelamento de inscrição com um clique desde 25 de agosto e agora é lançado para a opção Mailto (cancelar inscrição) em Disponibilidade limitada. Entre em contato com seu representante da Adobe para obter acesso. <!-- [Read more](../FILE.md) -->
+**Novos alertas de jornada**
 
-- **Canal - Email**
-   - **Anexos do PDF para emails** - Data de disponibilidade: 30 de setembro de 2025
-Agora é possível anexar um arquivo PDF estático a uma mensagem de email enviada com o Journey Optimizer. Você pode enviar até 6 mensagens com um anexo do PDF por perfil por ano. O tamanho máximo permitido para cada anexo é de 5 MB. Para qualquer tamanho ou volume adicional, você pode comprar o complemento de anexo do PDF. Para obter mais informações, entre em contato com um representante da Adobe.
+Novos alertas pré-configurados estão disponíveis para o jornada: [Taxa de Descarte de Perfil Excedida](../reports/alerts.md#alert-discard-rate) (Taxa de descartes de perfil para perfis inseridos nos últimos 5 minutos excedeu o limite), [Taxa de Erro de Ação Personalizada Excedida](../reports/alerts.md#alert-custom-action-error-rate) (Taxa de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos 5 minutos excedeu o limite) e [Taxa de Erro de Perfil Excedida](../reports/alerts.md#alert-profile-error-rate) (Taxa de perfis com erro para perfis inseridos nos últimos 5 minutos excedeu o limite). É possível modificar os valores limite e assinar alertas individuais em nível de jornada em vez de alertas globais.
 
-  >[!AVAILABILITY]
-  >
-  >Anteriormente lançado com disponibilidade limitada, essa melhoria agora está disponível para todos os ambientes (disponibilidade geral).
+Data de disponibilidade: 14 de outubro de 2025
 
-  <!-- [Read more](../FILE.md) -->
+**Suporte a atributos personalizados para o endereço Mailto (cancelar inscrição)**
 
+Com o Journey Optimizer, se você estiver gerenciando o consentimento fora do Adobe, é possível definir endpoints personalizados externos ao definir seu próprio link de cancelamento de inscrição com um clique e um endereço de email de cancelamento de inscrição personalizado na configuração de email. Quando os destinatários clicam no link para cancelar assinatura, o Journey Optimizer anexa alguns parâmetros padrão específicos do perfil ao evento de atualização de consentimento.
+
+Para personalizar ainda mais os endpoints personalizados, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento. [Leia mais](../email/list-unsubscribe.md#custom-attributes)
+
+>[!AVAILABILITY]
+>
+>Esse recurso já está disponível para a **[!UICONTROL URL para Cancelamento de Inscrição com Um Clique]** personalizada desde agosto de 25 e agora é lançado para a opção **[!UICONTROL Mailto (cancelar inscrição)]** em Disponibilidade Limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+
+Data de disponibilidade: 6 de outubro de 2025
