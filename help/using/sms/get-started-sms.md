@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ Use o [!DNL Journey Optimizer] para enviar mensagens de texto (SMS/MMS/RCS) pa
 
 As mensagens de texto podem ser criadas e enviadas em uma jornada ou em uma campanha. Para SMS, MMS e RCS, use a ação SMS.
 
-* Em uma **jornada**. Crie uma jornada, adicione uma atividade de SMS e defina configurações básicas. Em seguida, navegue até o painel direito Ações: SMS para criar o conteúdo para a mensagem SMS, MMS ou RCS. [Saiba como criar uma jornada](../building-journeys/journey-gs.md)
+* Em uma **jornada**. Crie uma jornada, adicione uma atividade de SMS e defina configurações básicas. Em seguida, navegue até o painel Ações de SMS à direita para criar o conteúdo para a mensagem SMS, MMS ou RCS. [Saiba como criar uma jornada](../building-journeys/journey-gs.md)
 
 * Em uma **Campanha**. Crie uma campanha, selecione SMS como sua ação e defina as configurações básicas. Em seguida, edite o conteúdo da mensagem para definir a mensagem SMS, MMS ou RCS que será enviada. [Saiba como criar uma campanha](../campaigns/create-campaign.md#configure)
 
@@ -70,7 +70,7 @@ O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de ser
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422698?learn=on&captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
   +++
 
@@ -79,7 +79,7 @@ O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de ser
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430380?quality=12&learn=on&captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
   +++
 
@@ -88,6 +88,6 @@ O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de ser
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464760?captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
   +++

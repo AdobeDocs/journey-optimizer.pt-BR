@@ -8,7 +8,7 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdomínios, configuração
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 9f66606e2673554f7dfb40dd48cfc17eca2ca06b
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 18%
@@ -157,4 +157,4 @@ Se o subdomínio SMS apontar para um registro CNAME, você poderá excluir o reg
 >
 >Um subdomínio SMS pode apontar para um registro CNAME porque era um [subdomínio existente](#sms-use-existing-subdomain) delegado à Adobe usando o [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-setup) ou um [novo subdomínio SMS](#sms-configure-new-subdomain) que você configurou.
 
-Depois que a solicitação for tratada pela Adobe, o domínio não delegado não será mais exibido na página de inventário do subdomínio.
+Depois que sua solicitação é tratada pela Adobe, o domínio não delegado não é mais exibido na página de inventário de subdomínio.

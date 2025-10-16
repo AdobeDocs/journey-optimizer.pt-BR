@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 16%
@@ -21,7 +21,7 @@ De acordo com os padrões e regulamentos do setor, todas as mensagens de marketi
 
 >[!IMPORTANT]
 >
->As comunicações de mensagem de texto podem estar sujeitas a vários requisitos de conformidade legal, dependendo da natureza, do local de onde você está enviando suas mensagens de texto e do local de seus destinatários. Enquanto a Adobe Journey Optimizer lida com as mensagens em códigos curtos, códigos longos e números de chamada gratuita conforme detalhado abaixo, consulte seu departamento jurídico para garantir que suas comunicações de mensagem de texto estejam em conformidade com todos os requisitos de conformidade legal aplicáveis.
+>As comunicações de mensagem de texto podem estar sujeitas a vários requisitos de conformidade legal, dependendo de sua natureza, do local de onde você está enviando suas mensagens de texto e do local de seus destinatários. Enquanto a Adobe Journey Optimizer lida com mensagens em códigos curtos, códigos longos e números de chamada gratuita conforme detalhado abaixo, consulte seu departamento jurídico para garantir que suas comunicações de mensagens de texto estejam em conformidade com todos os requisitos de conformidade legal aplicáveis.
 >
 
 ## Palavras-chave de entrada nativas {#sms-native-keywords}
@@ -71,6 +71,6 @@ As IDs alfanuméricas do remetente são somente para mensagens unidirecionais e 
 
   +++ Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440282/?learn=on&captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++
