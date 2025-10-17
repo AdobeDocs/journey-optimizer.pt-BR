@@ -11,9 +11,9 @@ keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 26516db5251e096f6caaafb2c217238aa614da3e
+source-git-commit: 31da84ab3fe4edabaf49f7b078ef0b2fdae3f6c5
 workflow-type: tm+mt
-source-wordcount: '4340'
+source-wordcount: '4446'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -716,18 +716,23 @@ Saiba mais sobre [eventos comerciais](general-events.md).
 
 +++
 
-+++ Posso pausar uma jornada para uma pessoa específica sem parar toda a jornada?
++++ O que são políticas de mesclagem e como elas afetam as jornadas?
 
-Embora não seja possível pausar uma jornada para perfis individuais diretamente, é possível obter resultados semelhantes:
+As **políticas de mesclagem** determinam como o Adobe Experience Platform combina dados de várias fontes para criar uma exibição de perfil unificada. Eles definem regras para a priorização de dados e a identificação quando fragmentos de perfil existem em diferentes conjuntos de dados.
 
-**Opções**:
+**Impacto no jornada**:
 
-* **Adicionar ao público-alvo de exclusão**: crie um público-alvo de perfis para excluir e adicione uma condição verificando esse público-alvo em pontos estratégicos na jornada
-* **Atualizar atributo de perfil**: Defina um sinalizador &quot;pausar&quot; no perfil e use condições para ignorar ações para perfis sinalizados
-* **Ação personalizada**: use um sistema externo para rastrear perfis pausados e verificar o status por meio de uma chamada de API
-* **Saída manual**: para casos urgentes, você pode remover perfis de teste manualmente
+* As jornadas usam a política de mesclagem associada ao público ou evento para determinar quais dados de perfil estão disponíveis
+* A política de mesclagem afeta quais atributos e identidades estão acessíveis em condições de jornada, personalização e ações
+* Diferentes políticas de mesclagem podem resultar na utilização de diferentes dados de perfil na jornada
 
-**Observação**: as alterações na Jornada afetam somente os novos participantes. Os perfis que já estão na jornada seguem o caminho original, a menos que a jornada seja totalmente interrompida.
+**Práticas recomendadas**:
+
+* Verifique se a política de mesclagem usada pela jornada está alinhada aos requisitos de governança de dados
+* Entenda quais conjuntos de dados estão incluídos em sua política de mesclagem para saber quais dados estão disponíveis
+* Use políticas de mesclagem consistentes em públicos-alvo e jornadas relacionados para obter resultados previsíveis
+
+Saiba mais sobre [políticas de mesclagem](../audience/get-started-profiles.md) e [gerenciamento de identidade](../audience/get-started-identity.md).
 
 +++
 
@@ -764,7 +769,7 @@ As medidas de proteção importantes incluem:
 
 * **Complexidade da Jornada**: máximo de atividades, caminhos e níveis de aninhamento
 * **Taxa de transferência**: taxas de envio de mensagem e limites de chamada de API
-* **Tempo de vida**: duração máxima da jornada (por exemplo, 91 dias para jornadas unitárias)
+* **Vida útil**: duração máxima da jornada (por exemplo, 91 dias)
 * **Tamanho do público-alvo**: limites nos tamanhos de lote de públicos-alvo de leitura
 * **Complexidade de expressão**: limites de caracteres em condições e personalização
 
@@ -778,7 +783,7 @@ Exibir [medidas de proteção e limitações](../start/guardrails.md) concluída
 
 * Mantenha o foco das jornadas em casos de uso específicos
 * Usar nomenclatura descritiva para atividades
-* Adicionar notas e rótulos para lógica complexa
+* Adicionar descrições e rótulos para lógica complexa
 * Agrupar jornadas relacionadas com tags
 
 **Desempenho**:
@@ -791,6 +796,8 @@ Exibir [medidas de proteção e limitações](../start/guardrails.md) concluída
 **Testando**:
 
 * Sempre testar jornadas antes de publicar
+* Usar o modo de teste para validar a lógica da jornada e percorrer a jornada
+* Use o modo de simulação para testar com dados reais de produção sem entrar em contato com os clientes
 * Testar todos os caminhos e cenários condicionais
 * Usar perfis de teste realistas
 * Validar personalização e conteúdo dinâmico
@@ -798,7 +805,7 @@ Exibir [medidas de proteção e limitações](../start/guardrails.md) concluída
 **Manutenção**:
 
 * Analisar regularmente o desempenho da jornada
-* Arquivar ou fechar jornadas não usadas
+* Parar ou fechar jornadas não usadas
 * Lógica de jornada de documentos e regras de negócios
 * Plano para controle de versão do jornada
 
@@ -808,11 +815,18 @@ Saiba mais sobre [práticas recomendadas de design do jornada](using-the-journey
 
 +++ Quantas atividades posso adicionar a uma jornada?
 
-Embora não haja um limite rigoroso no número de atividades, jornadas muito complexas (mais de 50 atividades) podem se tornar difíceis de manter e solucionar problemas. Grandes jornadas com muitas ramificações e condições podem afetar o tempo de processamento e a legibilidade.
+As jornadas são limitadas a no máximo 50 atividades. No entanto, recomendamos manter suas jornadas mais simples para melhorar a capacidade de manutenção e o desempenho.
 
-**Prática recomendada**: se sua jornada se tornar muito complexa, considere dividi-la em várias jornadas usando a atividade de salto, criando subjornadas reutilizáveis ou simplificando a lógica com condições mais eficientes.
+À medida que as jornadas se aproximam de 50 atividades, elas podem se tornar muito complexas e difíceis de manter, solucionar problemas e entender. Grandes jornadas com muitas ramificações e condições também podem afetar o tempo de processamento, a legibilidade e a colaboração em equipe.
 
-Saiba mais sobre [design do jornada](using-the-journey-designer.md).
+**Prática recomendada**: mantenha suas jornadas concentradas e gerenciáveis. Se sua jornada estiver se tornando complexa, considere:
+
+* Dividindo-o em várias jornadas usando a atividade Jump
+* Criação de padrões reutilizáveis em jornadas mais simples
+* Simplificação da lógica com condições mais eficientes
+* Verificar se todas as atividades são necessárias
+
+Saiba mais sobre [design do jornada](using-the-journey-designer.md) e [medidas de proteção e limitações](../start/guardrails.md).
 
 +++
 
@@ -820,26 +834,26 @@ Saiba mais sobre [design do jornada](using-the-journey-designer.md).
 
 **Considerações sobre o design**:
 
-* Usar entrada baseada em público para comunicações em lote em vez de eventos individuais
-* Implementar tempos de espera adequados para distribuir o volume de mensagens
-* Usar regras de limite para evitar sobrecarga do sistema
-* Otimizar a lógica de condição para reduzir a complexidade do processamento
+* Use [entrada baseada em público-alvo](read-audience.md) para comunicações em lote em vez de eventos individuais
+* Implementar os [tempos de espera](wait-activity.md) apropriados para difundir o volume de mensagens
+* Aproveite as [regras de limitação](../conflict-prioritization/journey-capping.md) para evitar sobrecarga do sistema
+* Otimizar a [lógica de condição](condition-activity.md) para reduzir a complexidade do processamento
 
 **Monitoramento**:
 
-* Rastrear métricas de jornada regularmente
-* Monitorar o desempenho da API para ações personalizadas
-* Revisar taxas de erro e ocorrências de tempo limite
-* Configurar alertas para falhas críticas de jornada
+* Rastrear [métricas de jornada](report-journey.md) regularmente
+* Monitorar o desempenho da API para [ações personalizadas](using-custom-actions.md)
+* Revise taxas de erro e ocorrências de tempo limite usando [ferramentas de solução de problemas](troubleshooting.md)
+* Assinar [alertas de jornada](../reports/alerts.md) falhas críticas de jornada
 
 **Otimização**:
 
-* Use o modo de teste e a simulação para validar o desempenho antes da publicação
-* Limitar chamadas de fonte de dados externa a cenários essenciais
-* Armazenar dados acessados com frequência em cache quando possível
-* Revisar e otimizar o desempenho do delivery de mensagens
+* Use o [modo de teste](testing-the-journey.md) e a [execução a seco](journey-dry-run.md) para validar o desempenho antes da publicação
+* Minimize chamadas de API externas por meio de [ações personalizadas](using-custom-actions.md) para evitar latência e dependência em sistemas de terceiros
+* Armazene dados usados com frequência no Adobe Experience Platform usando [pesquisa de conjunto de dados](dataset-lookup.md) em vez de fazer chamadas externas, quando possível
+* Revisar e otimizar o desempenho da [entrega de mensagens](journeys-message.md)
 
-Saiba mais sobre [otimização de jornada](../start/guardrails.md).
+Saiba mais sobre [medidas de proteção e limitações](../start/guardrails.md).
 
 +++
 
