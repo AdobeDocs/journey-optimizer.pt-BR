@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 93179c7612eda244e512f8144ca396660a8a7537
+source-git-commit: 2c077e81aedf0a36ae15065a6cb15c88d22dd888
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 44%
+source-wordcount: '1034'
+ht-degree: 41%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 44%
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas no fim de cada mês nas [notas de versão](release-notes.md).
 
 
-## Notas de pré-lançamento de 25 de outubro {#25-10-rn}
+## Notas de pré-lançamento de 25 de outubro {#oct-25-10-rn}
 
 **As notas de pré-lançamento abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade da versão**. Links, telas e a documentação atualizada são publicados nas notas de versão na data de lançamento.
 
@@ -196,6 +196,24 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Regras de direcionamento reutilizáveis</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer agora permite criar regras a partir de um menu de interface dedicado e aproveitá-las ao criar o direcionamento, como parte da Otimização de conteúdo em uma campanha ou jornada, na atividade Otimizar jornada.</p>
+<p>As regras de direcionamento estão disponíveis no momento para organizações que compraram a oferta complementar do Decisioning e estão disponíveis sob demanda para as outras organizações (disponibilidade limitada).</p>
+<p>Esse recurso será implantado progressivamente para todos os clientes. Enquanto isso, entre em contato com o representante da Adobe para obter acesso.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -246,7 +264,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <td>
 <p>Com a tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Agente de experimentação está disponível na Journey Optimizer. </p>
 <p>O Agente de experimentação é uma ferramenta alimentada por IA que moderniza como você pode executar e gerenciar experimentos digitais em sites, emails, mensagens por push e aplicativos. Ele ajuda você a executar experimentos com mais eficiência, organizar metas de negócios e gerar insights acionáveis, destacando o que funcionou, o que não funcionou e onde experimentar em seguida.</p>
-<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=pt-BR" target="_blank">documentação detalhada</a></p>
+<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentação detalhada</a></p>
 <p>Data de disponibilidade: 10 de outubro de 2025</p>
 </td>
 </tr>
@@ -297,13 +315,9 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 
 ### Aprimoramentos
 
-**Selecionar regras reutilizáveis no Direcionamento**
-
-Agora você pode aproveitar o construtor de regras ao usar as regras de direcionamento com o recurso de Otimização de mensagem em jornadas e campanhas. <!-- [Read more](../FILE.md) -->
-
 **Campo de execução para o canal do WhatsApp**
 
-Além de e-mail e SMS, agora é possível atualizar o campo de execução padrão do WhatsApp. Também é possível substituir o campo de execução definido globalmente nos parâmetros avançados da atividade de jornada do WhatsApp ou na configuração do canal do WhatsApp. <!-- [Read more](../FILE.md) -->
+Além de email e SMS, você pode saber como atualizar o campo de execução padrão para seus deliveries do WhatsApp no nível da sandbox. Também é possível substituir o campo de execução definido globalmente, alterando-o nos parâmetros avançados da atividade de jornada do WhatsApp ou na configuração do canal do WhatsApp. <!-- [Read more](../FILE.md) -->
 
 **Suporte a atributos personalizados para o endereço Mailto (cancelar inscrição)**
 
