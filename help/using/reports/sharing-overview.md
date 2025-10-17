@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 4%
+source-wordcount: '620'
+ht-degree: 3%
 
 ---
 
@@ -26,6 +26,10 @@ Além dos [relatórios em tempo real](live-report.md) e dos [recursos de relató
 Por exemplo, você configurou uma jornada que envia vários emails. Esse recurso permite combinar dados do [!DNL Journey Optimizer] com dados de eventos downstream, como quantas conversões ocorreram, quanto de engajamento aconteceu no site ou quantas transações ocorreram no armazenamento. As informações da jornada podem ser combinadas com dados no Adobe Experience Platform, a partir de outras propriedades digitais ou de propriedades offline, para fornecer uma visualização mais abrangente do desempenho.
 
 O [!DNL Journey Optimizer] cria automaticamente os esquemas e fluxos necessários em conjuntos de dados para a Adobe Experience Platform para cada etapa que um indivíduo realiza em uma jornada. Um evento de etapa corresponde a um indivíduo movendo-se de um nó para outro em uma jornada. Por exemplo, em uma jornada que tenha um evento, uma condição e uma ação, os eventos de três etapas são enviados para o Adobe Experience Platform.
+
+>[!NOTE]
+>
+>Além dos eventos de etapa no nível do perfil, o sistema também gera eventos internos para atividades de **Ler público**. Esses eventos, chamados de `segmentExportJob` eventos, registram o ciclo de vida do nó Read Audience (como criação de trabalho de exportação, enfileiramento, conclusão e erros) e são gerados por atividade Read Audience, não por perfil individual. Como resultado, esses eventos podem não ter um identificador de perfil associado (UPMID). Esses eventos internos são úteis para monitorar e solucionar problemas de desempenho de Leitura de Público e podem ser consultados usando os campos documentados na [seção serviceEvents](../reports/sharing-field-list.md#servicevents-field). Para obter exemplos de consulta sobre como trabalhar com eventos segmentExportJob, consulte [Consultas relacionadas ao Público-alvo de Leitura](../reports/query-examples.md#read-segment-queries).
 
 Há casos em que vários eventos podem ser criados para o mesmo nó. Por exemplo, no caso da atividade Wait:
 
@@ -69,6 +73,6 @@ O fluxo de trabalho geral é:
 
 * [!DNL Customer Journey Analytics] assimila o conjunto de dados de &quot;Evento de etapa de Jornada&quot;.
 * O campo **profileID** no esquema associado de &quot;Evento de Etapa de Jornada para Journey Orchestration&quot; está definido como um campo de Identidade. Em [!DNL Customer Journey Analytics], você pode vincular esse conjunto de dados a qualquer outro que tenha o mesmo valor que o identificador baseado em pessoa.
-* Para usar este conjunto de dados no [!DNL Customer Journey Analytics], para análise de jornada entre canais, consulte a [documentação do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=pt-BR){target="_blank"}.
+* Para usar este conjunto de dados no [!DNL Customer Journey Analytics], para análise de jornada entre canais, consulte a [documentação do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [Trabalhar com o Customer Journey Analytics](cja-ajo.md){target="_blank"}

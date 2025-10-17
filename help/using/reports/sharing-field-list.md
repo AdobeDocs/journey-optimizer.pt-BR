@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: faf6e63e3951b67997836107ae518b294526206b
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '649'
 ht-degree: 9%
 
 ---
@@ -57,7 +57,7 @@ Para journeyStepEvent, também é necessário adicionar campos relacionados à i
 
 ## serviceEvents {#servicevents-field}
 
-Este mixin contém todos os campos correspondentes a um trabalho de exportação de perfil.
+Este mixin contém todos os campos correspondentes a um trabalho de exportação de perfil. Esses eventos são gerados por atividade **Read Audience** para rastrear o ciclo de vida das operações de exportação de público (em fila, iniciado, concluído, erros). Diferentemente dos eventos de etapa regulares, serviceEvents não estão vinculados a perfis individuais, mas ao próprio nó Ler público, o que significa que eles podem não ter um identificador de perfil associado.
 
 | Nome do campo | Tipo | Descrição |
 |---|---|------------|
