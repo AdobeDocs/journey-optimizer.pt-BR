@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 13552b3731a20fc9ca2d93a18c0a2c9fdf9378fa
+source-git-commit: 243d4e74c15057bc4bd334876a1bc87969d396e0
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 27%
@@ -106,7 +106,7 @@ Normalmente, essas etapas de configuração são executadas por um Administrador
 <a href="create-sms.md">
 <img alt="Lead" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>Criar uma mensagem de texto</strong>
+<div><a href="create-sms.md"><strong>Criar uma mensagem de texto</strong></a>
 </div>
 <p>Projetar e personalizar conteúdo SMS, MMS ou RCS</p>
 </td>
@@ -201,7 +201,7 @@ Saiba como configurar, criar e incluir mensagens de SMS nas jornadas do cliente.
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422698?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Descubra os recursos abrangentes de mensagens móveis que a Adobe Journey Optimi
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430380?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Saiba como configurar e enviar mensagens RCS interativas e alinhadas à marca no
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464760?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
