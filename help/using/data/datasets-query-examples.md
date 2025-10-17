@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: conjunto de dados, otimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
+source-git-commit: f1a00e734f22cb660e442ebe8c0dde3468e29768
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1066'
 ht-degree: 2%
 
 ---
@@ -175,6 +175,10 @@ ORDER BY timestamp DESC;
 onde o formato de datas é: `YYYY-MM-DD HH:MM:SS`.
 
 Depois de identificados, remova esses endereços da lista de supressão do Journey Optimizer. [Saiba mais](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+
+>[!NOTE]
+>
+>Ao referenciar o identityMap no conjunto de dados do evento de feedback de mensagem, observe que ele reflete apenas a identidade usada no tempo de execução. Para notificações por push, um evento &quot;enviado&quot; dependeria apenas da ECID vinculada ao token de push usado para enviar esta notificação, enquanto um evento &quot;exclusão&quot; poderia depender de uma identidade personalizada. Por exemplo, se um perfil foi excluído porque nenhum token de push foi encontrado, a identidade usada no nível da campanha de jornada ou ação será selecionada para registrar esse evento. Se precisar de namespaces adicionais (por exemplo, IDs personalizadas), associe esses registros de feedback com um conjunto de dados relacionado ao perfil (por exemplo: profile_snapshot ones) para recuperar a lista de identidade completa.
 
 
 
