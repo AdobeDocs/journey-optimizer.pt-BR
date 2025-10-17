@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 70ffd26772ae9907278af92a46af30b9d1bb1309
+source-git-commit: 93179c7612eda244e512f8144ca396660a8a7537
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 44%
@@ -207,7 +207,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>Novos alertas pré-configurados estão disponíveis para monitorar a execução do jornada:</p>
-<ul><li><a href="./reports/alerts.md#alert-discard-rate">Taxa de Descarte de Perfil Excedida</a>: Taxa de descartes de perfil para perfis inseridos nos últimos 5 minutos excedeu o limite</li>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate">Taxa de Descarte de Perfil Excedida</a>: Taxa de descartes de perfil para perfis inseridos nos últimos 5 minutos excedeu o limite</li>
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">Taxa de Erro de Ação Personalizada Excedida</a>: Taxa de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos 5 minutos excedeu o limite</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate">Taxa de Erro de Perfil Excedida</a>: Taxa de perfis com erro em relação aos perfis inseridos nos últimos 5 minutos excedeu o limite</li>.</ul> <p>É possível modificar os valores limite e assinar alertas individuais em nível de jornada em vez de alertas globais.</p>
 <p>Para mais informações, consulte a <a href="../reports/alerts.md">documentação detalhada</a></p>
@@ -246,7 +246,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <td>
 <p>Com a tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Agente de experimentação está disponível na Journey Optimizer. </p>
 <p>O Agente de experimentação é uma ferramenta alimentada por IA que moderniza como você pode executar e gerenciar experimentos digitais em sites, emails, mensagens por push e aplicativos. Ele ajuda você a executar experimentos com mais eficiência, organizar metas de negócios e gerar insights acionáveis, destacando o que funcionou, o que não funcionou e onde experimentar em seguida.</p>
-<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=pt-BR" target="_blank">documentação detalhada</a></p>
+<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentação detalhada</a></p>
 <p>Data de disponibilidade: 10 de outubro de 2025</p>
 </td>
 </tr>
