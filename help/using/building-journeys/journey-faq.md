@@ -11,9 +11,9 @@ keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: d55aff6dd3773ad59ab45d2b6d7ced7b9a64de5d
+source-git-commit: 26516db5251e096f6caaafb2c217238aa614da3e
 workflow-type: tm+mt
-source-wordcount: '4189'
+source-wordcount: '4340'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -100,10 +100,11 @@ Siga estas etapas principais:
 
 1. **Configurar pré-requisitos**: configure eventos, fontes de dados e ações conforme necessário
 2. **Criar a jornada**: navegue até o menu Jornadas e clique em &quot;Criar Jornada&quot;
-3. **Definir propriedades da jornada**: Defina o nome, a descrição, o namespace e outras configurações da jornada
+3. **Definir propriedades da jornada**: Defina o nome, a descrição e outras configurações da jornada
 4. **Criar a jornada**: arraste e solte atividades da paleta na tela
 5. **Testar a jornada**: use o modo de teste para validar a lógica de jornada
-6. **Publicar a jornada**: ative a jornada para ativá-la
+6. **Dry run da jornada**: use Dry run para testar a jornada usando dados de produção reais sem entrar em contato com clientes reais ou atualizar informações de perfil
+7. **Publicar a jornada**: ative a jornada para ativá-la
 
 Siga o [guia passo a passo](journey-gs.md).
 
@@ -124,9 +125,17 @@ Saiba mais sobre a [configuração do jornada](../configuration/about-data-sourc
 
 +++ Posso usar dados de sistemas externos em minha jornada?
 
-Sim. Você pode configurar **fontes de dados externas** para recuperar informações de serviços de API de terceiros e usá-las em condições de jornada, personalização ou ações. Isso permite enriquecer a experiência do cliente com dados em tempo real do seu CRM, sistemas de fidelidade, serviços meteorológicos ou outras plataformas externas.
+Sim, há várias abordagens para aproveitar dados externos:
 
-Saiba mais sobre [fontes de dados externas](../datasource/external-data-sources.md).
+**Práticas recomendadas**:
+
+* **Ações personalizadas**: chame APIs externas por meio de ações personalizadas para recuperar ou enviar dados para sistemas de terceiros. Essa é a abordagem recomendada para interações em tempo real com sistemas externos.
+* **Pesquisa de conjunto de dados**: se você puder carregar dados de sistemas externos na Adobe Experience Platform, use o recurso de pesquisa de conjunto de dados para recuperar informações armazenadas em conjuntos de dados do Experience Platform.
+* **Fontes de dados externas**: configure-as para recuperar informações de serviços de API de terceiros (menos recomendado do que as abordagens acima).
+
+Essas opções permitem enriquecer a experiência do cliente com dados do seu CRM, sistemas de fidelidade, serviços meteorológicos ou outras plataformas externas.
+
+Saiba mais sobre [ações personalizadas](using-custom-actions.md) e [pesquisa de conjunto de dados](dataset-lookup.md).
 
 +++
 
@@ -146,7 +155,9 @@ Saiba mais sobre [condições](condition-activity.md).
 
 Sim. O Journey Optimizer inclui **ações de canal integradas** que permitem enviar mensagens por email, notificações por push, SMS/MMS/RCS, mensagens no aplicativo, experiências da Web, experiências baseadas em código, correspondência direta, cartões de conteúdo, WhatsApp e LINE. Você pode criar o conteúdo da mensagem diretamente no Journey Optimizer e adicioná-lo como atividades de ação em sua jornada.
 
-Saiba mais sobre [mensagens no jornada](journeys-message.md).
+Para canais sem suporte nativo, você pode usar **ações personalizadas** para integrar-se a plataformas de mensagens externas e enviar mensagens por meio de qualquer canal de terceiros.
+
+Saiba mais sobre [mensagens no jornada](journeys-message.md) e [ações personalizadas](using-custom-actions.md).
 
 +++
 
@@ -155,7 +166,6 @@ Saiba mais sobre [mensagens no jornada](journeys-message.md).
 Use a **Atividade de espera** para pausar a jornada por uma duração especificada ou até uma data/hora específica. As atividades de espera são úteis para:
 
 * Envio de mensagens de acompanhamento após um atraso (por exemplo, 3 dias após a compra)
-* Aguardando o horário comercial antes de tomar uma ação
 * Criar campanhas de gotejamento com intervalos de tempo
 * Combinação com condições para criar cenários de tempo limite
 
@@ -189,13 +199,13 @@ Saiba mais sobre [configuração de evento](../event/about-events.md) e [ações
 
 +++ Posso reenviar uma mensagem se alguém não abrir ou clicar nela?
 
-Sim. Use uma **atividade de condição** combinada com **atividades de espera**:
+Sim. Usar um **Evento de reação** com um **Tempo limite**:
 
-1. Adicionar uma atividade Wait (por exemplo, aguardar 3 dias)
-2. Adicionar uma atividade de Condição verificando se o email foi aberto ou clicado
+1. Após enviar a mensagem, adicione um evento de reação que escuta aberturas ou cliques de email
+2. Configurar um período de tempo limite (por exemplo, 3 dias) no evento de reação
 3. Criar dois caminhos:
-   * **Se aberto/clicado**: encerre a jornada ou continue com as próximas etapas
-   * **Se não for aberto/clicado**: enviar um email de lembrete com uma linha de assunto diferente
+   * **Se aberto/clicado**: continuar com as próximas etapas ou finalizar a jornada
+   * **Caminho de tempo limite (não aberto/clicado)**: envia um email de lembrete com outra linha de assunto
 
 **Prática recomendada**: limitar o número de reenvios para evitar a exibição de spam (normalmente, um a dois lembretes no máximo).
 
@@ -205,15 +215,17 @@ Saiba mais sobre [eventos de reação](reaction-events.md).
 
 +++ Como criar uma jornada de abandono de carrinho?
 
-Crie uma jornada acionada por eventos com lógica de espera e condição:
+Criar uma jornada acionada por evento usando um evento de reação com um tempo limite:
 
 1. **Configurar um evento &quot;Carrinho Abandonado&quot;**: disparado quando itens são adicionados, mas o check-out não é concluído em um período
-2. **Adicione uma atividade de espera**: aguarde de de 1 a 2 horas para dar ao cliente tempo para concluir naturalmente
-3. **Adicionar uma Condição**: verifique se a compra foi concluída durante a espera
-4. **Se não adquirido**: enviar um email de lembrete de abandono com conteúdo do carrinho
-5. **Opcional**: adicione outra espera (24 horas) e envie um segundo lembrete com um incentivo (por exemplo, desconto de 10%)
+2. **Adicionar um evento de reação**: configure-o para ouvir um evento de compra
+3. **Definir um período de tempo limite**: defina um tempo limite (por exemplo, 1-2 horas) no evento Reação para dar ao cliente tempo para concluir naturalmente
+4. **Criar dois caminhos**:
+   * **Se o evento de compra ocorrer**: encerre a jornada ou continue com o fluxo pós-compra
+   * **Caminho de tempo limite (sem compra)**: envia um email de lembrete de abandono com o conteúdo do carrinho
+5. **Opcional**: adicione outro evento de Reação com tempo limite (24 horas) e envie um segundo lembrete com um incentivo (por exemplo, desconto de 10%)
 
-Saiba mais sobre [casos de uso do jornada](jo-use-cases.md).
+Saiba mais sobre [casos de uso do jornada](jo-use-cases.md) e [eventos de reação](reaction-events.md).
 
 +++
 
@@ -238,9 +250,6 @@ O Journey Optimizer fornece várias opções para o gerenciamento de fuso horár
 
 * **Fuso horário do perfil**: as mensagens são enviadas com base no fuso horário de cada indivíduo armazenado em seu perfil
 * **Fuso horário fixo**: todas as mensagens usam um fuso horário específico definido por você
-* **Aguardar até um horário específico**: use a atividade Aguardar para enviar mensagens em um horário específico no fuso horário local do recipient (por exemplo, 10 AM)
-
-**Exemplo**: para enviar um email de &quot;Bom dia&quot; às 9h no fuso horário de cada cliente, use uma atividade de espera com &quot;Aguardar até uma data/hora fixa&quot; e habilite a opção de fuso horário.
 
 Saiba mais sobre o [gerenciamento de fuso horário](timezone-management.md).
 
@@ -288,10 +297,10 @@ Saiba mais sobre [modo de teste](testing-the-journey.md) e [simulação](journey
 
 Ao publicar uma jornada:
 
-* A jornada fica **ativa** e pronta para aceitar novos perfis
+* A jornada fica **Ativa** e pronta para aceitar novos perfis
 * Perfis podem ser inseridos com base nos critérios de entrada (evento ou público)
 * Mensagens e ações começam a ser executadas para perfis que se movem pela jornada
-* Não é possível editar diretamente uma jornada publicada (é necessário criar uma nova versão)
+* Você só pode editar itens limitados em uma jornada publicada (é necessário criar uma nova versão se desejar editar mais)
 
 Saiba mais sobre [publicação de jornadas](publishing-the-journey.md).
 
@@ -299,7 +308,21 @@ Saiba mais sobre [publicação de jornadas](publishing-the-journey.md).
 
 +++ Posso modificar uma jornada já publicada?
 
-Não é possível editar diretamente uma jornada em tempo real. Para fazer alterações:
+Sim, mas com limitações. É possível editar determinados elementos de uma jornada em tempo real:
+
+**O que você pode editar**:
+
+* Jornada propriedades (nome, descrição)
+* Conteúdo da mensagem em atividades de mensagem existentes
+* Algumas configurações de jornada
+
+**O que você não pode editar**:
+
+* Estrutura de jornada (adição/remoção de atividades)
+* Condições de entrada
+* Jornada lógica da tela
+
+**Para fazer alterações estruturais**:
 
 1. **Criar uma nova versão**: duplicar a jornada publicada para criar uma versão de rascunho
 2. **Faça suas alterações**: edite a versão de rascunho conforme necessário
@@ -318,7 +341,7 @@ Saiba mais sobre [versões do jornada](journey-ui.md#journey-versions).
 
 * **Fechar para novas entradas**: impedir a entrada de novos perfis, permitindo que os perfis existentes concluam a jornada
 * **Parar imediatamente**: encerra a jornada e sai de todos os perfis que estão nela no momento
-* **Pausar**: interromper temporariamente a jornada e retomá-la mais tarde (disponível para tipos de jornada específicos)
+* **Pausar**: interromper temporariamente a jornada e retomá-la mais tarde
 
 Saiba mais sobre o [encerramento de jornadas](end-journey.md).
 
@@ -340,7 +363,7 @@ Saiba mais sobre o [encerramento de jornadas](end-journey.md).
 * Use isso para situações urgentes ou erros críticos
 * Exemplo: recall de produto exigindo interrupção imediata das mensagens promocionais
 
-Saiba mais sobre [opções de pausa de jornada](journey-pause.md).
+Saiba mais sobre [como encerrar jornadas](end-journey.md) e [como publicar jornadas](publishing-the-journey.md).
 
 +++
 
@@ -350,10 +373,9 @@ Saiba mais sobre [opções de pausa de jornada](journey-pause.md).
 
 É possível monitorar a execução da jornada usando:
 
-* **Relatório ao vivo da Jornada**: visualize métricas e KPIs em tempo real para sua jornada
-* **Relatório de Tempo Total de Jornada**: analise o desempenho da jornada usando o Customer Journey Analytics
+* **Relatório ao vivo da Jornada**: visualize métricas e KPIs em tempo real para sua jornada. Você também pode analisar os resultados da execução do teste de simulação aqui.
+* **Relatório de Tempo Total de Jornada**: analise o desempenho da jornada usando o Customer Journey Analytics. Você também pode analisar os resultados da execução do teste de simulação aqui.
 * **Eventos de Etapa de Jornada**: acesse dados de execução detalhados para relatórios personalizados
-* **Painel de Jornada Dry Run**: revise os resultados da execução do teste antes de entrar em funcionamento
 
 Saiba mais sobre [relatórios do jornada](report-journey.md).
 
@@ -395,6 +417,7 @@ A Journey Optimizer fornece vários recursos de solução de problemas:
 
 * **Indicadores de erro**: alertas visuais na tela de jornada realçam problemas de configuração
 * **Modo de teste**: percorra a jornada para identificar onde ocorrem os problemas
+* **Modo de simulação**: teste a jornada usando dados de produção reais sem entrar em contato com os clientes para validar o direcionamento e a execução
 * **Relatórios de Jornada**: revise as métricas de execução para encontrar afunilamentos ou erros
 * **Jornada eventos de etapa**: analise dados de execução detalhados para entender o comportamento do perfil
 
@@ -409,15 +432,17 @@ Saiba mais sobre [jornadas de solução de problemas](troubleshooting.md).
 
 +++
 
-+++ O que acontece se uma ação falhar em uma jornada?
+<!--
++++ What happens if an action fails in a journey?
 
-Quando uma ação falha (por exemplo, tempo limite da chamada da API, erro de delivery de mensagem), a jornada continua por padrão, a menos que configurado de outra forma. Você pode definir atividades de condição para lidar com cenários de falha, e erros são registrados em relatórios de jornada e eventos de etapa para monitoramento.
+When an action fails (e.g., API call timeout, message delivery error), the journey continues by default unless configured otherwise. You can define condition activities to handle failure scenarios, and errors are logged in journey reports and step events for monitoring.
 
-**Prática recomendada**: definir valores de tempo limite apropriados para ações externas e caminhos alternativos para cenários de falha críticos.
+**Best practice**: Set appropriate timeout values for external actions and define alternative paths for critical failure scenarios.
 
-Saiba mais sobre [respostas da ação](../action/action-response.md).
+Learn more about [action responses](../action/action-response.md).
 
 +++
+-->
 
 +++ Posso ver quem está atualmente na minha jornada?
 
@@ -450,8 +475,9 @@ Solução: valide a qualidade dos dados do perfil
 * **Jornada não publicada**: a jornada ainda está no modo de rascunho
 Solução: publique a jornada para ativá-la
 
-* **Mensagem não aprovada**: o conteúdo da mensagem requer aprovação antes do envio
-Solução: envie para aprovação ou verifique o status de aprovação
+<!-- 
+* **Message not approved**: Message content requires approval before sending
+  Solution: Submit for approval or check approval status-->
 
 * **Problema de configuração de canal**: a configuração de email/SMS está incorreta
 Solução: verifique as configurações e a autenticação do canal
@@ -493,7 +519,8 @@ Sim. Use uma **Atividade de condição** para verificar o canal preferencial:
    * **Caminho de push**: enviar notificação por push
 3. Adicionar um caminho padrão para perfis sem uma preferência
 
-**Abordagem alternativa**: use **ações de vários canais** onde o Journey Optimizer seleciona automaticamente o melhor canal com base nas preferências e disponibilidade do perfil.
+<!--
+**Alternative approach**: Use **multi-channel actions** where Journey Optimizer automatically selects the best channel based on profile preferences and availability.-->
 
 Saiba mais sobre [ações de canal](journeys-message.md).
 
@@ -505,15 +532,15 @@ Sim, há várias maneiras de excluir clientes:
 
 **Na entrada da jornada**:
 
-* Usar definições de público-alvo com regras de exclusão
-* Adicionar condições de entrada que filtram perfis específicos
-* Configurar requisitos de namespace
+* Usar [definições de público-alvo](../audience/creating-a-segment-definition.md) com regras de exclusão
+* Adicionar [condições de entrada](entry-management.md) que filtram perfis específicos
+* Configure [o atributo de perfil com base nos critérios de saída](journey-properties.md) nas propriedades do jornada para excluir automaticamente perfis com base em atributos específicos
 
 **Na jornada**:
 
-* Adicione uma atividade de Condição no início da jornada para sair de perfis indesejados
+* Adicione uma [Atividade de condição](condition-activity.md) no início da jornada para sair de perfis indesejados
 * Verificar atributos de exclusão (por exemplo, status do VIP, contas de teste)
-* Usar qualificação de público-alvo para identificar perfis a serem excluídos
+* Use a [qualificação de público-alvo](audience-qualification-events.md) para identificar perfis a serem excluídos
 
 **Exemplo de cenários de exclusão**:
 
@@ -521,8 +548,6 @@ Sim, há várias maneiras de excluir clientes:
 * Excluir clientes do VIP de promoções padrão
 * Excluir funcionários e contas de teste
 * Excluir clientes em regiões específicas
-
-Saiba mais sobre [gerenciamento de entradas](entry-management.md) e [condições](condition-activity.md).
 
 +++
 
@@ -545,10 +570,11 @@ Sim, dependendo das **configurações de reentrada**:
 * **Permitir reentrada**: perfis podem entrar na jornada várias vezes depois de concluí-la
 * **Período de espera de reentrada**: defina um tempo mínimo entre as entradas de jornada (por exemplo, 7 dias)
 * **Forçar reentrada no evento**: acione uma nova instância do jornada mesmo que o perfil já esteja na jornada
+* **Identificador complementar**: use uma ID complementar para permitir que os perfis insiram novamente a jornada várias vezes para entidades diferentes (por exemplo, pedidos, reservas ou transações diferentes), mesmo que já estejam na jornada
 
-**Prática recomendada**: usar regras de reentrada para evitar a fadiga da mensagem e garantir o ritmo apropriado.
+**Prática recomendada**: usar regras de reentrada para evitar a fadiga da mensagem e garantir o ritmo apropriado. Considere o uso de identificadores complementares para jornadas transacionais em que os perfis precisam inserir várias vezes para transações diferentes.
 
-Saiba mais sobre o [gerenciamento de entradas](entry-management.md).
+Saiba mais sobre [gerenciamento de entradas](entry-management.md) e [identificadores suplementares](supplemental-identifier.md).
 
 +++
 
@@ -568,7 +594,12 @@ Saiba mais sobre [otimização de tempo de envio](send-time-optimization.md).
 
 +++ O que são regras de limite de jornada?
 
-O **limite de Jornada** permite limitar o número de vezes que um perfil pode entrar em jornadas em um período de tempo especificado, evitando a fadiga da mensagem e garantindo uma experiência ideal para o cliente. Você pode definir o máximo de entradas por perfil em jornadas ou jornadas específicas, definir janelas de tempo (diariamente, semanalmente, mensalmente) e priorizar jornadas quando várias jornadas competem pelo mesmo perfil.
+O **limite de Jornada** permite controlar como os perfis interagem com o jornada, evitando a fadiga da mensagem e garantindo uma experiência ideal para o cliente:
+
+* **Limite de entrada**: limitar o número de vezes que um perfil pode inserir jornadas dentro de um período de tempo especificado
+* **Limite de simultaneidade**: limitar o número de jornadas que um perfil pode ter simultaneamente
+
+Você pode definir o máximo de entradas ou simultaneidade por perfil em jornadas ou jornadas específicas, definir janelas de tempo (diariamente, semanalmente, mensalmente) e priorizar jornadas quando várias jornadas competem pelo mesmo perfil.
 
 Saiba mais sobre [limite de jornada](../conflict-prioritization/journey-capping.md).
 
@@ -578,7 +609,7 @@ Saiba mais sobre [limite de jornada](../conflict-prioritization/journey-capping.
 
 Sim. Use **ações personalizadas** para chamar APIs de terceiros (CRM, automação de marketing, sistemas de fidelidade), enviar dados para sistemas externos, recuperar informações em tempo real para decisões e acionar fluxos de trabalho em plataformas externas.
 
-As ações personalizadas oferecem suporte à autenticação (chave da API, OAuth 2.0), personalização de carga de solicitação/resposta, manipulação de erros e tempos limite e parâmetros dinâmicos do contexto de jornada.
+As ações personalizadas oferecem suporte à autenticação (chave de API, autenticação personalizada), personalização de carga de solicitação/resposta, tratamento de erros e tempos limite e parâmetros dinâmicos do contexto de jornada.
 
 Saiba mais sobre [Ações personalizadas](using-custom-actions.md).
 
@@ -638,15 +669,15 @@ Saiba mais sobre [casos de uso do jornada](jo-use-cases.md).
 
 +++ Posso testar caminhos diferentes A/B na minha jornada?
 
-Sim. Use a **Atividade Otimizar** (disponível em pacotes Journey Optimizer específicos) ou crie divisões de teste manualmente:
+Sim. Use a **Atividade Otimizar** (Disponibilidade Limitada) ou crie manualmente divisões de teste:
 
-**Usando a atividade Otimize**:
+**Usando a atividade Otimize** com o método Experiment:
 
-* Divide automaticamente o tráfego entre variantes
-* Testa diferentes mensagens, ofertas ou caminhos de jornada inteiros
-* Mede o desempenho e declara um vencedor
+* Divide aleatoriamente o tráfego entre caminhos diferentes para determinar qual tem o melhor desempenho
+* Testa diferentes mensagens, ofertas, tempos de espera ou caminhos de jornada inteiros
+* Mede o desempenho com base em métricas de sucesso predefinidas e declara um vencedor
 
-**Teste manual com Condição**:
+**Usando a atividade Otimize** com o método de condição da fonte de dados:
 
 * Criar uma condição que divide aleatoriamente os perfis (por exemplo, usando uma função de número aleatório)
 * Enviar experiências diferentes para cada divisão
