@@ -11,9 +11,9 @@ keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 32848633cdfb5683b45286fcdd22711a82d591b5
+source-git-commit: d55aff6dd3773ad59ab45d2b6d7ced7b9a64de5d
 workflow-type: tm+mt
-source-wordcount: '4094'
+source-wordcount: '4189'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -37,10 +37,11 @@ Saiba mais sobre [jornadas](journey.md).
 
 +++ Quais são os diferentes tipos de jornadas?
 
-O Adobe Journey Optimizer oferece suporte a três tipos de jornadas:
+O Adobe Journey Optimizer é compatível com quatro tipos de jornadas:
 
 * **jornadas Unitárias**: acionadas individualmente por um evento (por exemplo, uma compra, entrada no aplicativo). Os perfis são inseridos um de cada vez na jornada quando o evento ocorre.
 * **Ler jornadas de Público-Alvo**: Inicie com um público-alvo do Adobe Experience Platform e envie mensagens em lote para todos os perfis desse público-alvo.
+* **jornadas de qualificação de público-alvo**: acionadas quando os perfis se qualificam para (ou saem de) um segmento de público-alvo específico. Os perfis entram na jornada conforme atendem aos critérios de público-alvo.
 * **jornadas de eventos comerciais**: acionadas por eventos comerciais (por exemplo, atualizações de ações, alertas meteorológicos) que afetam vários perfis simultaneamente.
 
 Saiba mais sobre [tipos de jornada](entry-management.md#types-of-journeys).
@@ -51,9 +52,13 @@ Saiba mais sobre [tipos de jornada](entry-management.md#types-of-journeys).
 
 jornada **As** são orquestrações de várias etapas que reagem a eventos ou públicos-alvo, permitindo lógica complexa, condições, tempos de espera e vários pontos de contato ao longo do ciclo de vida do cliente.
 
-**Campanhas** são comunicações únicas ou recorrentes enviadas a um público específico, ideais para mensagens autônomas, como anúncios promocionais ou boletins informativos.
+**Campanhas** vêm em três tipos:
 
-**Prática recomendada**: use jornadas para participação contínua em várias etapas e campanhas para comunicações autônomas direcionadas.
+* **Campanhas de ação**: comunicações únicas ou recorrentes enviadas a um público específico, ideais para mensagens autônomas, como anúncios promocionais ou boletins informativos.
+* **Campanhas acionadas por API**: campanhas acionadas por meio de chamadas de API, permitindo a integração com sistemas externos para enviar mensagens com base em eventos em tempo real ou lógica de negócios.
+* **Campanhas orquestradas**: campanhas baseadas em público, em várias etapas, criadas em uma tela que pode incluir condições, tempos de espera e várias ações para criar experiências programadas e coordenadas.
+
+**Prática recomendada**: use jornadas para envolvimento complexo acionado por eventos com orquestração avançada; campanhas de ação para comunicações programadas baseadas em público; campanhas acionadas por API para acionamento programático de sistemas externos; e campanhas orquestradas para comunicações em várias etapas com requisitos específicos de campanha.
 
 +++
 
