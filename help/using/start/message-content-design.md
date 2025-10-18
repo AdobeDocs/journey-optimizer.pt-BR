@@ -35,7 +35,7 @@ Domine o design de email com o Designer de email, crie layouts responsivos, apli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
 
 Criar notificações por push
 
