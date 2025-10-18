@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: Criar conteúdo da mensagem
 description: Criar conteúdo da mensagem
-feature: Email Design, SMS, Push, In App, Content Management
+feature: Email Design, SMS, Push, In App
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: conteúdo, design, email, push, sms, personalização, modelos
-source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
+source-git-commit: ef12790e3199457d94c2c7d56c60bb9571921f77
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Domine o design de email com o Designer de email, crie layouts responsivos, apli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Criar notificações por push
 
