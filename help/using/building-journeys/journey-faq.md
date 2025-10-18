@@ -11,7 +11,7 @@ keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
+source-git-commit: 50c609b3d5c90e64800fb96d9c57d6c2bfa35a66
 workflow-type: tm+mt
 source-wordcount: '4531'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -56,9 +56,9 @@ jornada **[As](journey.md)** são orquestrações de várias etapas que reagem a
 
 * **[Campanhas de ação](../campaigns/create-campaign.md)**: comunicações únicas ou recorrentes enviadas a um público específico, ideais para mensagens autônomas, como anúncios promocionais ou boletins informativos.
 * **[Campanhas acionadas por API](../campaigns/api-triggered-campaigns.md)**: campanhas acionadas por meio de chamadas de API, permitindo a integração com sistemas externos para enviar mensagens com base em eventos em tempo real ou lógica de negócios.
-* **[Campanhas orquestradas](../orchestrated/get-started-orchestrated.md)**: campanhas baseadas em público, em várias etapas, criadas em uma tela que pode incluir condições, tempos de espera e várias ações para criar experiências programadas e coordenadas.
+* **[Campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)**: campanhas baseadas em público, em várias etapas, criadas em uma tela que pode incluir condições, tempos de espera e várias ações para criar experiências programadas e coordenadas.
 
-**Prática recomendada**: use o [jornada](journey.md) para envolvimento complexo acionado por eventos com orquestração avançada; [campanhas de ação](../campaigns/create-campaign.md) para comunicações agendadas baseadas em público; [campanhas acionadas por API](../campaigns/api-triggered-campaigns.md) para acionamento programático de sistemas externos; e [campanhas orquestradas](../orchestrated/get-started-orchestrated.md) para comunicações em várias etapas com requisitos específicos de campanha.
+**Prática recomendada**: use o [jornada](journey.md) para envolvimento complexo acionado por eventos com orquestração avançada; [campanhas de ação](../campaigns/create-campaign.md) para comunicações agendadas baseadas em público; [campanhas acionadas por API](../campaigns/api-triggered-campaigns.md) para acionamento programático de sistemas externos; e [campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) para comunicações em várias etapas com requisitos específicos de campanha.
 
 +++
 
