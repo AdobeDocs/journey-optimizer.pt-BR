@@ -11,9 +11,9 @@ keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: b53080c5a4100c66b91fe10f156a18e932a5e68b
+source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
 workflow-type: tm+mt
-source-wordcount: '4446'
+source-wordcount: '4531'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -510,19 +510,25 @@ Saiba mais sobre a [personalização](../personalization/personalize.md).
 
 +++ Posso enviar mensagens diferentes com base no canal preferido?
 
-Sim. Use uma **Atividade de condição** para verificar o canal preferencial:
+Sim. Use uma **[Atividade de condição](condition-activity.md)** para rotear perfis com base em seu canal preferido:
 
-1. Adicionar uma condição verificando profile.preferredChannel
-2. Crie caminhos separados para cada canal:
-   * **Caminho de email**: enviar mensagem de email
-   * **Caminho do SMS**: Enviar mensagem SMS
-   * **Caminho de push**: enviar notificação por push
-3. Adicionar um caminho padrão para perfis sem uma preferência
+1. Adicione uma [Atividade de condição](condition-activity.md) à sua jornada
+2. Crie um caminho para cada canal verificando o atributo de perfil de canal preferido (por exemplo, `profile.preferredChannel`)
+3. Configurar caminhos específicos do canal:
+   * **Caminho de email**: adicionar uma [ação de email](../email/create-email.md) com conteúdo otimizado para email
+   * **Caminho do SMS**: adicionar uma [ação de SMS](../sms/create-sms.md) com mensagens concisas
+   * **Caminho de push**: adicionar uma [ação de notificação por push](../push/create-push.md) com conteúdo curto e acionável
+   * **Caminho no aplicativo**: adicionar uma [ação de mensagem no aplicativo](../in-app/create-in-app.md) para usuários engajados do aplicativo
+4. Adicione um caminho padrão para perfis sem uma preferência, roteando-os para o canal principal
 
-<!--
-**Alternative approach**: Use **multi-channel actions** where Journey Optimizer automatically selects the best channel based on profile preferences and availability.-->
+**Práticas recomendadas**:
 
-Saiba mais sobre [ações de canal](journeys-message.md).
+* Verifique se os dados do seu perfil incluem preferências de canal precisas
+* Projete o conteúdo apropriado para os pontos fortes e limitações de cada canal
+* Usar [superfícies de canal](../configuration/channel-surfaces.md) para gerenciar configurações de canal
+* Testar todos os caminhos para garantir a entrega adequada da mensagem
+
+Saiba mais sobre [condições](condition-activity.md), [ações de mensagem](journeys-message.md) e [seleção de canal](../channels/gs-channels.md).
 
 +++
 
