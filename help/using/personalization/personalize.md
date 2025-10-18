@@ -105,4 +105,4 @@ Saiba como adicionar personalização baseada em perfil a uma mensagem e como us
 
 Saiba como aproveitar o playground do editor de personalização para gravar e testar o código de personalização usando dados de amostra.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475957?captions=por_br&quality=12)
