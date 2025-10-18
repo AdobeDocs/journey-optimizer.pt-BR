@@ -11,7 +11,7 @@ keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 31da84ab3fe4edabaf49f7b078ef0b2fdae3f6c5
+source-git-commit: b53080c5a4100c66b91fe10f156a18e932a5e68b
 workflow-type: tm+mt
 source-wordcount: '4446'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -50,15 +50,15 @@ Saiba mais sobre [tipos de jornada](entry-management.md#types-of-journeys).
 
 +++ Qual é a diferença entre uma jornada e uma campanha?
 
-jornada **As** são orquestrações de várias etapas que reagem a eventos ou públicos-alvo, permitindo lógica complexa, condições, tempos de espera e vários pontos de contato ao longo do ciclo de vida do cliente.
+jornada **[As](journey.md)** são orquestrações de várias etapas que reagem a eventos ou públicos-alvo, permitindo lógica complexa, condições, tempos de espera e vários pontos de contato ao longo do ciclo de vida do cliente.
 
-**Campanhas** vêm em três tipos:
+**[Campanhas](../campaigns/get-started-with-campaigns.md)** vêm em três tipos:
 
-* **Campanhas de ação**: comunicações únicas ou recorrentes enviadas a um público específico, ideais para mensagens autônomas, como anúncios promocionais ou boletins informativos.
-* **Campanhas acionadas por API**: campanhas acionadas por meio de chamadas de API, permitindo a integração com sistemas externos para enviar mensagens com base em eventos em tempo real ou lógica de negócios.
-* **Campanhas orquestradas**: campanhas baseadas em público, em várias etapas, criadas em uma tela que pode incluir condições, tempos de espera e várias ações para criar experiências programadas e coordenadas.
+* **[Campanhas de ação](../campaigns/create-campaign.md)**: comunicações únicas ou recorrentes enviadas a um público específico, ideais para mensagens autônomas, como anúncios promocionais ou boletins informativos.
+* **[Campanhas acionadas por API](../campaigns/api-triggered-campaigns.md)**: campanhas acionadas por meio de chamadas de API, permitindo a integração com sistemas externos para enviar mensagens com base em eventos em tempo real ou lógica de negócios.
+* **[Campanhas orquestradas](../orchestrated/get-started-orchestrated.md)**: campanhas baseadas em público, em várias etapas, criadas em uma tela que pode incluir condições, tempos de espera e várias ações para criar experiências programadas e coordenadas.
 
-**Prática recomendada**: use jornadas para envolvimento complexo acionado por eventos com orquestração avançada; campanhas de ação para comunicações programadas baseadas em público; campanhas acionadas por API para acionamento programático de sistemas externos; e campanhas orquestradas para comunicações em várias etapas com requisitos específicos de campanha.
+**Prática recomendada**: use o [jornada](journey.md) para envolvimento complexo acionado por eventos com orquestração avançada; [campanhas de ação](../campaigns/create-campaign.md) para comunicações agendadas baseadas em público; [campanhas acionadas por API](../campaigns/api-triggered-campaigns.md) para acionamento programático de sistemas externos; e [campanhas orquestradas](../orchestrated/get-started-orchestrated.md) para comunicações em várias etapas com requisitos específicos de campanha.
 
 +++
 
