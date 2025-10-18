@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
+source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 28%
+source-wordcount: '1344'
+ht-degree: 27%
 
 ---
 
@@ -114,6 +114,8 @@ O período de retenção de uma mirror page é de **90 dias**. Após esse atraso
 >[!CAUTION]
 >
 >* Os links de mirror pages são gerados automaticamente e não podem ser editados. Eles contêm todos os dados personalizados criptografados necessários para renderizar o email original. Como resultado, o uso de atributos personalizados com valores grandes pode gerar URLs de mirror pages longos, o que pode impedir que o link funcione em navegadores da Web com tamanho máximo de URLs.
+>
+>* Ao criar emails que dependem muito da personalização em tempo de execução (por exemplo, `#each` loops, objetos aninhados, grandes dados de carga), as URLs de mirror page podem se tornar excessivamente grandes, especialmente em campanhas acionadas por API que usam muitos dados contextuais de cargas. Isso pode causar erros de HTTP (404, 422, 502) em navegadores ou clientes de email. A Adobe recomenda limitar a amplitude e a profundidade dos campos dinâmicos, reduzir a dependência de fragmentos complexos e nivelar as estruturas de personalização para evitar falhas de link.
 >
 >* Na [prova](../content-management/proofs.md) enviada aos perfis de teste, o link para a mirror page não está ativo. Ela só estará ativa nas mensagens finais.
 
