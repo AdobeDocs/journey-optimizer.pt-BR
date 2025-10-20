@@ -11,8 +11,8 @@ keywords: definições, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

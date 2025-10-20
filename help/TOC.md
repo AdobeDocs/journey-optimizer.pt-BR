@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -500,7 +500,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -707,7 +707,7 @@ ht-degree: 98%
          + [Aproveitar dados de contexto](using/experience-decisioning/context-data.md)
          + [Usar a Adobe Experience Platform para decisão](using/experience-decisioning/aep-data-exd.md)
       + [Criar estratégias de seleção](using/experience-decisioning/selection-strategies.md)
-      + Fornecer ofertas usando políticas de decisão {#decision-policies}
+      + Enviar ofertas usando políticas de decisão {#decision-policies}
          + [Introdução às políticas de decisão](using/experience-decisioning/create-decision.md)
          + [Criar políticas de decisão](using/experience-decisioning/create-decision-policy.md)
          + [Usar políticas de decisão em mensagens](using/experience-decisioning/use-decision-policy.md)
@@ -921,7 +921,7 @@ ht-degree: 98%
    + [Usar listas de seeds](using/configuration/seed-lists.md)
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
-   + [Criar webhooks de comentários](using/configuration/feedback-webhooks.md)
+   + [Criar webhooks de feedback](using/configuration/feedback-webhooks.md)
 + Configuração de jornada {#configure-journeys}
    + [Configuração de jornada](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [Introdução à configuração de jornadas](using/configuration/about-data-sources-events-actions.md)

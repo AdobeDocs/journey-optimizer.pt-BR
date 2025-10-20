@@ -12,8 +12,8 @@ keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 59%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,13 +84,13 @@ ht-degree: 59%
 >title="Campanhas"
 >abstract="Envie comunicações transacionais a perfis individuais ou conjuntos de perfis. Canais compatíveis: email, SMS, notificações por push."
 
-Use campanhas do [!DNL Journey Optimizer] para fornecer conteúdo único a um público específico em vários canais. Ao contrário das jornadas, que executam ações passo a passo, as campanhas executam ações simultaneamente — imediatamente ou em um cronograma definido.
+Use campanhas do [!DNL Journey Optimizer] para fornecer conteúdo único a um público-alvo específico em vários canais. Ao contrário das jornadas, que executam ações passo a passo, as campanhas realizam ações simultaneamente: imediatamente ou em um cronograma definido.
 
 ![](assets/gs-campaigns.png)
 
 ## Tipos de campanha
 
-[!DNL Journey Optimizer] dá suporte a três tipos de campanha. Cada tipo se encaixa em diferentes casos de uso e oferece suporte a diferentes canais.
+O [!DNL Journey Optimizer] é compatível com três tipos de campanha. Cada tipo se encaixa em diferentes casos de uso e oferece suporte a diferentes canais.
 
 ![](assets/campaign-modal.png)
 
@@ -98,29 +98,29 @@ Use campanhas do [!DNL Journey Optimizer] para fornecer conteúdo único a um p�
 
 >[!TAB Campanhas orquestradas]
 
-**Campanhas orquestradas** campanhas de marketing sofisticadas e iniciadas pela marca em todos os canais, ajudando você a impulsionar a participação, a receita e a fidelidade do cliente em grande escala.
+As **campanhas orquestradas** viabilizam campanhas de marketing sofisticadas e iniciadas pela marca em vários canais, ajudando a impulsionar o engajamento, a receita e a fidelidade do cliente em grande escala.
 
 Embora o marketing entre canais seja essencial, as campanhas orquestradas permitem que ele flua melhor. Com uma interface visual do tipo arrastar e soltar, você pode projetar e automatizar fluxos de trabalho de marketing complexos, desde a segmentação até a entrega de mensagens, em vários canais. Tudo acontece em um ambiente intuitivo, criado para proporcionar velocidade, controle e eficiência.
 
-➡️ [Saiba como trabalhar com campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md).
+➡️ [Saiba como trabalhar com campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md).
 
 >[!TAB Campanhas de ação (ou campanhas agendadas)]
 
 **Campanhas de ação**, também conhecidas como campanhas agendadas, permitem comunicações ad hoc em lote simples.
 
-* **Agendado - Marketing** - Para casos de uso de marketing, como ofertas promocionais, campanhas de participação, anúncios, avisos legais ou atualizações de políticas. Requer a aceitação dos recipients.
-* **Agendado - Transacional** - Ao contrário das campanhas de Marketing, as campanhas Transacionais não exigem a participação dos destinatários. Use esta categoria para comunicações relacionadas a interrupções, emergências e cancelamentos. Canais compatíveis: email, SMS, notificação por push.
+* **Agendado - Marketing** - Para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, anúncios, avisos legais ou atualizações de políticas. Exige a aceitação dos destinatários.
+* **Agendado - Transacional** - Ao contrário das campanhas de marketing, as campanhas transacionais não exigem a aceitação dos destinatários. Use esta categoria para comunicações relacionadas a interrupções, emergências e cancelamentos. Canais compatíveis: email, SMS, notificação por push.
 
-➡️ [Saiba como trabalhar com campanhas de ação](create-campaign.md)
+➡️ [Saiba como trabalhar com campanhas de ação](create-campaign.md)
 
 >[!TAB Campanhas acionadas por API]
 
 **Campanhas acionadas por API** permitem acionar a execução da campanha usando uma chamada de API. Essas comunicações podem ser enviadas onde a necessidade pode envolver personalização, não apenas usando atributos de perfil como redefinição de senha, mas também dados de contexto em tempo real no acionador, que é uma carga da API REST.
 
-* **API acionada - Marketing** - Enviar comunicações de marketing personalizadas para públicos-alvo direcionados.
-* **API acionada - Transacional** - Envia mensagens seguindo uma ação executada por um indivíduo, como uma solicitação de redefinição de senha, compra de carrinho, etc.
+* **Acionada por API - Marketing** - Enviar comunicações de marketing personalizadas para públicos-alvo direcionados.
+* **Acionada por API - Transacional** - Enviar mensagens seguindo uma ação realizada por uma pessoa física, como uma solicitação de redefinição de senha, compra de carrinho, etc.
 
-➡️ [Saiba como trabalhar com campanhas acionadas por API](api-triggered-campaigns.md)
+➡️ [Saiba como trabalhar com campanhas acionadas por API](api-triggered-campaigns.md)
 
 
 >[!ENDTABS]
@@ -129,7 +129,7 @@ Embora o marketing entre canais seja essencial, as campanhas orquestradas permit
 
 A tabela abaixo mostra a disponibilidade de cada canal em diferentes tipos de campanha, indicando onde eles são compatíveis.
 
-| Canal | Ação (Marketing) | Ação (Transacional) | Acionado pela API (Marketing) | Acionado pela API (Transacional) | Orquestrado |
+| Canal | Ação (Marketing) | Ação (Transacional) | Acionada por API (Marketing) | Acionada por API (Transacional) | Orquestrada |
 |----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
 | Email | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -137,26 +137,26 @@ A tabela abaixo mostra a disponibilidade de cada canal em diferentes tipos de ca
 | No aplicativo | ✅ | — | — | — | — |
 | Correspondência direta | ✅ | — | — | — | — |
 | Web | ✅ | — | — | — | — |
-| Exp. baseado em código | ✅ | — | — | — | — |
+| Experiência baseada em código | ✅ | — | — | — | — |
 | Cartões de conteúdo | ✅ | — | — | — | — |
 | WhatsApp | ✅ | — | — | — | — |
 | Linha | ✅ | — | — | — | — |
 
 ## Pré-requisitos {#prerequisites}
 
-Antes de trabalhar com campanhas, verifique se você revisou os pré-requisitos abaixo.
+Antes de trabalhar com campanhas, certifique-se de analisar os pré-requisitos abaixo.
 
-* **Públicos-alvo** Os públicos-alvo precisam estar disponíveis antes da criação da campanha. [Introdução aos públicos-alvo](../audience/about-audiences.md).
+* **Públicos-alvo** Os públicos-alvo precisam estar disponíveis antes de criar a campanha. [Introdução aos públicos-alvo](../audience/about-audiences.md).
 
 * **Configurações de canal** - Para selecionar um canal, é necessário ter a configuração de canal correspondente (ou seja, predefinição) criada e disponível. [Saiba como definir as configurações de canal](../configuration/channel-surfaces.md).
 
-* **Permissões** - As campanhas só estão disponíveis para os usuários com as permissões apropriadas listadas abaixo. Se não conseguir acessar as funcionalidades do Campaign, entre em contato com o administrador para solicitar as permissões necessárias. [Saiba mais sobre as funções integradas do Journey Optimizer](../administration/ootb-product-profiles.md)
+* **Permissões** - As campanhas estão disponíveis apenas aos usuários com as permissões apropriadas listadas abaixo. Se não conseguir acessar as funcionalidades da campanha, entre em contato com o(a) admin para solicitar as permissões necessárias. [Saiba mais sobre as funções integradas do Journey Optimizer](../administration/ootb-product-profiles.md)
 
   | Tipo de campanha | Permissões |
   |----------------------------|----------------------------------------------------------------------------|
-  | **Campanhas de ação** | Administrador da campanha<br>Aprovador da campanha<br>Gerente da campanha<br>Visualizador da campanha |
-  | **Campanhas acionadas por API** | Administrador da campanha<br>Aprovador da campanha<br>Gerente da campanha<br>Visualizador da campanha |
-  | **Campanhas orquestradas** | Administrador Orquestrado Da Campanha<br>Aprovador Orquestrado Da Campanha<br>Gerente Orquestrado Da Campanha<br>Visualizador Orquestrado Da Campanha |
+  | **Campanhas de ação** | Admin da campanha<br>Aprovador da campanha<br>Gerente da campanha<br>Visualizador da campanha |
+  | **Campanhas acionadas por API** | Admin da campanha<br>Aprovador da campanha<br>Gerente da campanha<br>Visualizador da campanha |
+  | **Campanhas orquestradas** | Admin de campanha orquestrada<br>Aprovador de campanha orquestrada<br>Gerente de campanha orquestrada<br>Visualizador de campanha orquestrada |
 
   +++Saiba como atribuir uma função relacionada à campanha
 

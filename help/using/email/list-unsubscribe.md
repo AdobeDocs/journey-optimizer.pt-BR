@@ -11,8 +11,8 @@ keywords: definições, email, configuração
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -123,13 +123,13 @@ O **[!UICONTROL URL de cancelamento de assinataura com um clique]** deve ser u
 
 Com a opção **[!UICONTROL Gerenciado pelo cliente]** selecionada, se você inserir pontos de acesso personalizados e usá-los em uma campanha ou jornada, o [!DNL Journey Optimizer] acrescentará alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento <!--sent to the custom endpoint --> quando seus destinatários clicarem no link de cancelamento de assinatura.
 
-Para personalizar ainda mais seus pontos de extremidade<!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->, você pode definir atributos personalizados que também serão anexados ao evento de consentimento.
+Para personalizar ainda mais os pontos de acesso <!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->, é possível definir atributos personalizados que também serão anexados ao evento de consentimento.
 
 >[!AVAILABILITY]
 >
->Para a opção **[!UICONTROL Mailto (cancelar assinatura)]**, esse recurso está disponível em Disponibilidade Limitada. Entre em contato com seu representante da Adobe para obter acesso. Nesse caso, você precisa usar os novos parâmetros de consulta descritos na **seção Mailto (cancelar assinatura) com atributos personalizados (Disponibilidade Limitada)** [abaixo](#configure-decrypt-api).
+>Para a opção **[!UICONTROL Mailto (cancelar assinatura)]**, esse recurso está em disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso. Nesse caso, é necessário usar os novos parâmetros de consulta descritos na seção **Mailto (cancelar assinatura) com atributos personalizados (Disponibilidade limitada)** [abaixo](#configure-decrypt-api).
 
-Para definir atributos personalizados para seus pontos de extremidade, use a seção **[!UICONTROL parâmetros de rastreamento de URL]**. Todos os parâmetros de rastreamento de URL definidos na seção correspondente serão anexados ao final dos endpoints personalizados, além dos parâmetros padrão. [Saiba como definir o rastreamento personalizado de URL](url-tracking.md)
+Para definir atributos personalizados de pontos de acesso, use a seção **[!UICONTROL parâmetros de rastreamento de URL]**. Todos os parâmetros de rastreamento de URL definidos na seção correspondente serão anexados ao final dos pontos de acesso personalizados em adição aos parâmetros padrão. [Saiba como definir o rastreamento personalizado de URL](url-tracking.md)
 
 ### Configurar a API de descriptografia {#configure-decrypt-api}
 
@@ -233,15 +233,15 @@ Resposta de consentimento:
 
 +++
 
-+++ Mailto (cancelar inscrição) com atributos personalizados (disponibilidade limitada)
++++ Mailto (cancelar assinatura) com atributos personalizados (Disponibilidade limitada)
 
 Se você utiliza a opção **[!UICONTROL Mailto (cancelar assinatura)]**, clicar no link de cancelamento de assinatura enviará um email pré-preenchido para o endereço de cancelamento especificado.
 
-A partir de outubro de 2025, se estiver usando a opção **[!UICONTROL Gerenciado pelo cliente]** para o ponto de extremidade **[!UICONTROL Mailto (cancelar assinatura)]**, você poderá definir atributos personalizados que serão anexados ao evento de consentimento. Nesse caso, você precisa usar os parâmetros de consulta descritos abaixo.
+A partir de outubro de 2025, se estiver usando a opção **[!UICONTROL Gerenciado pelo cliente]** para o ponto de acesso **[!UICONTROL Mailto (cancelar assinatura)]**, será possível definir atributos personalizados que serão anexados ao evento de consentimento. Nesse caso, é necessário usar os parâmetros de consulta descritos abaixo.
 
 >[!AVAILABILITY]
 >
->Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 A chamada GET é a seguinte.
 
@@ -249,23 +249,23 @@ Ponto de acesso: https://platform.adobe.io/journey/imp/consent/decrypt
 
 Parâmetros de consulta:
 
-* **emailParamsSub**: cadeia de caracteres extraída do assunto do email recebido no endereço Mailto.
+* **emailParamsSub**: string extraída do assunto do email recebido no endereço Mailto.
 
    * Exemplo: *unsubscribev1.abc*
 
    * Valor analisado: *v1.abc*
 
-* **emailParamsBody**: cadeia de caracteres extraída do corpo do email (se presente) no formato *unsubscribev1.xyz*.
+* **emailParamsBody**: string extraída do corpo do email (se presente) no formato *unsubscribev1.xyz*.
 
    * Valor analisado: *v1.xyz*
 
-Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
->Se você estava usando a implementação anterior (por exemplo: https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>), é necessário usar os novos parâmetros **emailParamsSub** e **emailParamsBody** em vez de **emailParams**. Entre em contato com seu representante da Adobe para obter mais informações.
+>Se estava usando a implementação anterior (por exemplo: https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>), é necessário usar os novos parâmetros **emailParamsSub** e **emailParamsBody** em vez de **emailParams**. Entre em contato com o representante da Adobe para obter mais informações.
 
-Os parâmetros **emailParamsSub** e **emailParamsBody** serão incluídos no evento de atualização de consentimento enviado aos pontos de extremidade personalizados.
+Os parâmetros **emailParamsSub** e **emailParamsBody** serão incluídos no evento de atualização de consentimento enviado aos pontos de acesso personalizados.
 
 Requisitos do cabeçalho:
 

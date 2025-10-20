@@ -11,8 +11,8 @@ mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
-source-wordcount: '2823'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -274,4 +274,4 @@ Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Atualiz
 
 ## Proteções da orquestração de campanhas {#orchestration-guardrails}
 
-As medidas de proteção e limitações que devem ser consideradas ao trabalhar com o Campaign Orchestration são detalhadas nesta seção: [Medidas de proteção e limitações](../orchestrated/guardrails.md).
+As medidas de proteção e limitações que precisam ser consideradas ao trabalhar com a orquestração de campanhas estão detalhadas nesta seção: [Medidas de proteção e limitações](../orchestrated/guardrails.md).

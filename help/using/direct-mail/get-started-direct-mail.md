@@ -9,8 +9,8 @@ keywords: correspondência direta, mensagem, campanha
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ As principais etapas para enviar mensagens de correspondência direta são as se
 
 >[!AVAILABILITY]
 >
->Mensagens de correspondência direta só podem ser criadas no contexto de campanhas programadas. Eles não estão disponíveis para uso em campanhas orquestradas e acionadas por API ou em jornadas.
+>Mensagens de correspondência direta só podem ser criadas no contexto de campanhas programadas. Não estão disponíveis para uso em campanhas orquestradas e acionadas por API ou em jornadas.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
