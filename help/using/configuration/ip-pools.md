@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, pools, grupo, subdomínios, capacidade de entrega
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 12%
@@ -112,6 +112,7 @@ Para verificar o status de atualização do pool de IP, clique no botão **[!UIC
 >[!NOTE]
 >
 >Depois que um Pool de IP for atualizado com êxito, talvez seja necessário aguardar:
+>
 >* alguns minutos antes de ser consumido pelas mensagens unitárias,
 >* até o próximo lote para que o pool de IP seja efetivo em mensagens em lote.
 

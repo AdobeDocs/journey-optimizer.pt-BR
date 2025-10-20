@@ -8,7 +8,7 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 0%
@@ -96,6 +96,7 @@ Para otimização automática, como mostrado no exemplo acima, começamos com um
 **Tópicos relacionados**:
 
 Para aprofundar a amostragem de Thompson, leia os seguintes artigos de pesquisa:
+
 * [Uma Avaliação Empírica da Amostragem de Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
 * [Análise de Amostragem de Thompson para o problema do Multi-armed Bandit](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 

@@ -4,12 +4,12 @@ product: journey optimizer
 title: Áreas Funcionais
 description: Áreas funcionais no AJO
 feature: Get Started
-role: Admin, Data Engineer, Developer, User
+role: Admin, Developer, User
 level: Beginner
 redpen-status: PASS_||_2025-04-28_15-13-07
 exl-id: c9b02ae2-e07b-41f4-90cc-b2c0966f1ed1
 hide: true
-source-git-commit: 72ff06a7d87d6d9e5bfc0c6462ea4d60a98fc940
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 0%
@@ -41,6 +41,7 @@ O Adobe Journey Optimizer (AJO) inclui várias áreas funcionais principais que 
 Trate o gerenciamento de dados como a base para todo o envolvimento do cliente. Uma base de dados bem estruturada garante que cada decisão, mensagem e jornada use informações precisas e organizadas.
 
 **Componentes-chave**:
+
 - **Criação e gerenciamento de esquema**: defina a estrutura dos dados do cliente.
    - Exemplo: crie um esquema descrevendo campos como &quot;Nome,&quot; &quot;Endereço de email&quot; e &quot;Histórico de compras&quot;.
 - **Configuração do conjunto de dados**: organize os dados em contêineres lógicos.
@@ -60,6 +61,7 @@ Trate o gerenciamento de dados como a base para todo o envolvimento do cliente. 
 As ferramentas de gerenciamento de clientes conectam pontos de dados distintos para fornecer uma imagem coesa de cada cliente. Essa compreensão garante que você possa fornecer experiências relevantes e personalizadas.
 
 **Componentes-chave**:
+
 - **Perfil de cliente em tempo real**: visualização unificada de cada cliente.
    - Exemplo: combine o histórico de navegação na Web, as interações do aplicativo e as compras offline em um único perfil.
 - **Resolução de identidade**: vincular dados do cliente entre dispositivos e canais.
@@ -80,6 +82,7 @@ As ferramentas de gerenciamento de clientes conectam pontos de dados distintos p
 As ferramentas de gerenciamento de conteúdo garantem que as equipes criem e entreguem mensagens personalizadas com eficiência, mantendo a consistência e a relevância em cada ponto de contato.
 
 **Componentes-chave**:
+
 - **Editores de conteúdo**: criar e formatar mensagens visualmente ou com código.
    - Exemplo: use o editor visual para criar uma campanha de email promovendo vendas de feriados.
 - **Gerenciamento de ativos digitais**: organize e use imagens e outras mídias.
@@ -101,6 +104,7 @@ As ferramentas de gerenciamento de conteúdo garantem que as equipes criem e ent
 O Gerenciamento de decisões garante que a personalização opere em escala, fornecendo valor máximo por meio da automação inteligente.
 
 **Componentes-chave**:
+
 - **Biblioteca de ofertas**: repositório central de ofertas de marketing.
    - Exemplo: armazenar ofertas como &quot;Cupom com 20% de desconto&quot; ou &quot;Envio gratuito&quot; em uma biblioteca compartilhada.
 - **Regras de decisão**: lógica para selecionar o conteúdo ideal.
@@ -122,6 +126,7 @@ O Gerenciamento de decisões garante que a personalização opere em escala, for
 O Gerenciamento de jornadas garante que as experiências se sintam adaptáveis e perfeitas, orientando os indivíduos com base em suas preferências e ações.
 
 **Componentes-chave**:
+
 - **Designer de Jornadas**: tela visual para criar caminhos de clientes.
    - Exemplo: crie uma jornada que envia um email de boas-vindas quando um cliente se inscreve.
 - **Acionadores de Jornada**: eventos que iniciam ou avançam jornadas.
@@ -143,6 +148,7 @@ O Gerenciamento de jornadas garante que as experiências se sintam adaptáveis e
 As conexões garantem que os dados entrem no AJO de maneira eficaz e cheguem aos clientes de maneira confiável por meio dos pontos de contato certos.
 
 **Componentes-chave**:
+
 - **Conectores do Source**: importar dados para a plataforma.
    - Exemplo: use um conector para trazer dados de compra de uma plataforma de comércio eletrônico.
 - **Configuração de canal**: configurar e gerenciar mecanismos de entrega.
@@ -162,6 +168,7 @@ As conexões garantem que os dados entrem no AJO de maneira eficaz e cheguem aos
 As ferramentas de administração e privacidade garantem que a integridade dos dados seja protegida e que todas as políticas legais e organizacionais sejam seguidas.
 
 **Componentes-chave**:
+
 - **Gerenciamento de usuários e de acesso**: controlar acesso e permissões.
    - Exemplo: atribuir permissões específicas a equipes de marketing e TI.
 - **Configuração de sandbox**: ambientes separados para desenvolvimento e teste.

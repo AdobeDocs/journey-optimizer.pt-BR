@@ -12,7 +12,7 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 17%
@@ -30,7 +30,7 @@ Com **condições**, é possível definir como as pessoas avançam pela jornada 
 
 >[!AVAILABILITY]
 >
->Essas condições estão disponíveis por meio da atividade **Otimizar**, que pode ser acessada sob demanda em Disponibilidade Limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+>Essas condições estão disponíveis por meio da atividade **Otimizar**, que pode ser acessada sob demanda em Disponibilidade Limitada. Entre em contato com o representante da Adobe para obter acesso.
 >
 >Se você não tiver acesso a essa capacidade, ainda poderá usar a [Atividade de condição](condition-activity.md) herdada.
 
@@ -192,4 +192,4 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

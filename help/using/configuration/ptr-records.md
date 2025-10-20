@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomínio, PTR, registros, DNS, domínio, email
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 11%
@@ -153,6 +153,7 @@ Depois que o processo de validação for bem-sucedido, o novo subdomínio será 
 Se o processo de validação falhar, o registro PTR mais antigo será exibido. O subdomínio válido que foi associado anteriormente ao endereço IP permanece inalterado.
 
 Os possíveis tipos de erro de atualização são os seguintes:
+
 * Falha ao criar um novo DNS de encaminhamento para o registro PTR
 * Falha ao atualizar o registro
 * Falha ao reintegrar as afinidades

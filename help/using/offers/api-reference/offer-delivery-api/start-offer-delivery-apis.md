@@ -3,10 +3,10 @@ title: Introdução às APIs de entrega de ofertas
 description: Saiba mais sobre as APIs disponíveis para fornecer ofertas personalizadas.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
@@ -20,6 +20,7 @@ Você pode entregar ofertas usando a API de **Decisão** ou a **Decisão da Edge
 Nesta página, você encontrará informações sobre funcionalidades específicas disponíveis com as APIs da **Decisão** e do **Edge Decisioning**. Embora ambos permitam entregar ofertas aos seus clientes, recomendamos usar a API do **Edge Decisioning** sempre que possível para casos de uso de entrada e para garantir melhor latência e taxa de transferência na sua plataforma.
 
 Para obter mais informações sobre como trabalhar com as APIs, consulte estas seções:
+
 * [API de decisão](decisioning-api.md)
 * [API de decisão do Edge](edge-decisioning-api.md)
 * [API de decisão em lote](batch-decisioning-api.md)

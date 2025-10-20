@@ -3,10 +3,10 @@ title: Auxiliares
 description: Auxiliares
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 6%
@@ -134,8 +134,8 @@ Some edu specific content
 ## Each{#each}
 
 O auxiliar `each` é usado para iterar sobre uma matriz.
-A sintaxe do auxiliar é ```{{#each ArrayName}}``` YourContent {{/each}}
-Podemos fazer referência a itens de matriz individuais usando a palavra-chave **this** dentro do bloco. O índice do elemento da matriz pode ser renderizado usando {{@index}}.
+A sintaxe do auxiliar é ```{{#each ArrayName}}``` YourContent `{{/each}}`
+Podemos fazer referência a itens de matriz individuais usando a palavra-chave **this** dentro do bloco. O índice do elemento da matriz pode ser renderizado usando `{{@index}}`.
 
 **Sintaxe**
 
@@ -216,7 +216,7 @@ O exemplo a seguir permite calcular a soma total dos preços dos produtos no car
 
 >[!AVAILABILITY]
 >
->Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 O auxiliar `executionMetadata` permite capturar e armazenar dinamicamente pares de valores-chave personalizados no contexto de execução da mensagem.
 

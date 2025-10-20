@@ -3,10 +3,10 @@ title: Introdução
 description: Saiba como começar a usar a API da Biblioteca de ofertas para executar operações importantes usando o mecanismo de decisão.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
@@ -72,5 +72,5 @@ Este documento cobriu os conhecimento necessários para fazer chamadas para a AP
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342833?quality=12&captions=por_br) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 

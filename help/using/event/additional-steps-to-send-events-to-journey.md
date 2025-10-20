@@ -5,11 +5,11 @@ title: Etapas adicionais para enviar eventos a uma jornada
 description: Saiba mais sobre as etapas adicionais para enviar eventos a uma jornada
 feature: Journeys, Events
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: etapas, configuração, jornada, eventos, fluxo, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 3%
@@ -90,4 +90,4 @@ Este é um exemplo de um evento de APIs de assimilação de fluxo:
 
 Para facilitar a identificação do local onde colar a parte de &quot;dados&quot;, você pode usar uma ferramenta de visualização JSON, como o [formatador JSON](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Para solucionar problemas de APIs de assimilação de fluxo, consulte a [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR){target="_blank"}.
+Para solucionar problemas de APIs de assimilação de fluxo, consulte a [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.

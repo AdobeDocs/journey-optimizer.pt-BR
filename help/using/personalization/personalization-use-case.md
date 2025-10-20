@@ -5,11 +5,11 @@ title: Notificação de status do pedido; caso de uso do Personalization&dois po
 description: Saiba como personalizar uma mensagem com informações de perfil, decisão de oferta e contexto.
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: expressão, editor, caso de uso, personalização
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 2%
@@ -110,4 +110,4 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
 O vídeo abaixo mostra um caso de uso semelhante que utiliza dados contextuais de uma jornada para personalizar um email.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428533?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 11%
@@ -99,11 +99,11 @@ Ao criar uma regra [que corresponda a várias páginas](#web-page-matching-rule)
 
   | Operador  | Descrição  | Exemplos  |
   |---|---|---|
-  | Igual a  | Correspondência exata do domínio.  |
+  | Igual a  | Correspondência exata do domínio.  | |
   | Começa com  | Corresponde a todos os domínios (incluindo subdomínios) que começam com a cadeia de caracteres inserida.  | Exemplo: &quot;Começa com: dev&quot; -> corresponde a todos os domínios e subdomínios que começam com &quot;dev&quot;, como: dev.example.com, dev.products.example.com, developer.example.com  |
   | Termina com  | Corresponde a todos os domínios (incluindo subdomínios) que terminam com a cadeia de caracteres inserida.  | Ex: &quot;Termina com: exemplo.com&quot; -> corresponde a todos os domínios e subdomínios que terminam com &quot;exemplo.com&quot;, como: stage.example.com, prod.example.com, myexample.com  |
   | Correspondência de curinga  | O operador &quot;Correspondência de curinga&quot; permite que o usuário defina uma correspondência de curinga no meio da cadeia de caracteres, como &quot;dev.*.example.com&quot;. As regras de validação indicam que o valor deve conter apenas um curinga (asterisco) quando o operador for &quot;correspondente a um curinga&quot;.  | Exemplo: &quot;Correspondência curinga: dev.*.example.com&quot; -> corresponde a domínios como: dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
-  | Qualquer  | Corresponde a todos os domínios; útil ao testar um caminho específico entre domínios  |
+  | Qualquer  | Corresponde a todos os domínios; útil ao testar um caminho específico entre domínios  |  |
 
 
 * **Caminho**

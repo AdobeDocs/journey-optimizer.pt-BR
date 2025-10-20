@@ -5,11 +5,11 @@ title: Usar fragmentos de expressão
 description: Saiba como usar fragmentos de expressão no editor de personalização  [!DNL Journey Optimizer] .
 feature: Personalization, Fragments
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: expressão, editor, biblioteca, personalização
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 0%

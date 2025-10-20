@@ -5,10 +5,10 @@ title: campos de execução de ação de eventos journeyStep
 description: campos de execução de ação de eventos journeyStep
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 4%
@@ -67,6 +67,7 @@ Tipo de erro que ocorre quando a ação é chamada.
 Tipo: sequência de caracteres
 
 Valores:
+
 * http
 * limite
 * timeout
@@ -113,12 +114,12 @@ Indica o tipo de ação.
 Valores:
 
 * interno
-* Email do ACS
-* SMS DO ACS
-* ACS Push
+   * Email do ACS
+   * SMS DO ACS
+   * ACS Push
 * cliente
-* Épsilon
-* ...
+   * Épsilon
+   * ...
 
 Tipo: sequência de caracteres
 

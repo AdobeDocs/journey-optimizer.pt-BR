@@ -11,7 +11,7 @@ keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 50c609b3d5c90e64800fb96d9c57d6c2bfa35a66
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '4531'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -500,8 +500,8 @@ Você pode personalizar mensagens usando o **editor de personalização**:
 
 **Exemplo de personalização**:
 
-* &quot;Olá {{profile.firstName}}, obrigado pela sua compra do {{event.productName}}&quot;
-* &quot;Com base no seu nível de fidelidade ({{profile.loyaltyTier}}), esta é uma oferta especial&quot;
+* &quot;Olá `{{profile.firstName}}`, obrigado pela sua compra do `{{event.productName}}`&quot;
+* &quot;Com base no seu nível de fidelidade (`{{profile.loyaltyTier}}`), esta é uma oferta especial&quot;
 * Blocos de conteúdo dinâmico que mudam com base nas preferências do cliente
 
 Saiba mais sobre a [personalização](../personalization/personalize.md).

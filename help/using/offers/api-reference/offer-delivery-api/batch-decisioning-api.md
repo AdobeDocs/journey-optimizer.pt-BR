@@ -3,10 +3,10 @@ title: API de decisão em lote
 description: Saiba como usar a API de decisão em lote para selecionar as melhores ofertas para perfis de públicos-alvo em um escopo de decisão predefinido.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Para fazer isso, a organização deve:
 
 * Exportar o conjunto de dados para a API do fornecedor de delivery de mensagens.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=pt-BR) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -102,12 +102,12 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | Propriedade | Descrição | Exemplo |
 | -------- | ----------- | ------- |
-| `xdm:activityId` | O identificador exclusivo da decisão. |
+| `xdm:activityId` | O identificador exclusivo da decisão. |  |
 | `xdm:dataSetId` | O dataSet de saída no qual os eventos de decisão podem ser gravados. | `6196b4a1a63bd118dafe093c` |
 | `xdm:includeContent` | Este é um campo opcional e é `false` por padrão. Se `true`, o conteúdo da oferta será incluído nos eventos de decisão do conjunto de dados. | `false` |
-| `xdm:itemCount` | Este campo é opcional e mostra o número de itens, como opções solicitadas para o escopo da decisão. Por padrão, a API retorna uma opção por escopo, mas você pode solicitar mais opções explicitamente especificando esse campo. É possível solicitar no mínimo 1 e no máximo 30 opções por escopo. | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:itemCount` | Este campo é opcional e mostra o número de itens, como opções solicitadas para o escopo da decisão. Por padrão, a API retorna uma opção por escopo, mas você pode solicitar mais opções explicitamente especificando esse campo. É possível solicitar no mínimo 1 e no máximo 30 opções por escopo. | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | O identificador de posicionamento exclusivo. | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:propositionRequests` | Um invólucro que contém o `placementId` e `activityId` |
+| `xdm:propositionRequests` | Um invólucro que contém o `placementId` e `activityId` |  |
 | `xdm:segmentIds` | O valor é uma matriz que contém o identificador exclusivo do público-alvo. Ele só pode conter um valor. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 Consulte a [documentação do Gerenciamento de decisões](../../get-started/starting-offer-decisioning.md) para obter uma visão geral dos principais conceitos e propriedades.

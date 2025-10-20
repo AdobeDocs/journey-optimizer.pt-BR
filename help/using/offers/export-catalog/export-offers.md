@@ -4,10 +4,10 @@ description: Esta seção lista todos os campos usados no conjunto de dados expo
 badge: label="Legado" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 0%
@@ -179,7 +179,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
   **Campo:** linkURL
   **Descrição:** Um localizador de recursos exclusivo opcional para interações do usuário. Esse URL é usado para indicar o usuário final a em um agente do usuário e pode ser rastreado.
   **Tipo:** cadeia de caracteres
-  **Exemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Exemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > contents > Placement
 
@@ -243,6 +243,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 **Descrição:** determina se há restrições definidas no momento e como elas são expressas. Pode ser por meio de uma regra ou de uma ou mais associações de público-alvo.
 **Tipo:** cadeia de caracteres
 **Valores possíveis:**
+
 * &quot;none&quot; (padrão)
 * &quot;eligibilityRule&quot;: &quot;A restrição de perfil é expressa como uma única regra que deve ser avaliada como verdadeira antes que a ação restrita seja permitida.&quot;
 * &quot;anySegments&quot;: &quot;A restrição de perfil é expressa como um ou mais públicos-alvo e o perfil deve ser um membro de pelo menos um deles antes que a ação restrita seja permitida.&quot;

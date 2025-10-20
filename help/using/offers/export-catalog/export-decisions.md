@@ -4,10 +4,10 @@ description: Esta seção lista todos os campos usados no conjunto de dados expo
 badge: label="Legado" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 0%
@@ -160,6 +160,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 **Descrição:** determina se há restrições definidas no momento e como elas são expressas. Pode ser por meio de uma regra ou de uma ou mais associações de público-alvo.
 **Tipo:** cadeia de caracteres
 **Valores possíveis:**
+
 * &quot;none&quot; (padrão)
 * &quot;eligibilityRule&quot;: &quot;A restrição de perfil é expressa como uma única regra que deve ser avaliada como verdadeira antes que a ação restrita seja permitida.&quot;
 * &quot;anySegments&quot;: &quot;A restrição de perfil é expressa como um ou mais públicos-alvo e o perfil deve ser um membro de pelo menos um deles antes que a ação restrita seja permitida.&quot;

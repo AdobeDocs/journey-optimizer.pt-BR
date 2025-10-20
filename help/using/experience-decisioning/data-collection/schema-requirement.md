@@ -4,12 +4,12 @@ solution: Experience Platform
 title: Configurar captura de eventos
 description: Saiba como configurar seu esquema de oferta para capturar eventos
 feature: Ranking, Datasets, Decision Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
-source-git-commit: 0bba63855360d0dcd7daa98a2083f23995b88b94
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -109,4 +109,4 @@ Para eventos personalizados, o esquema usado no conjunto de dados também deve t
 >* POST /ee/v2/interage
 >* POST /ee/v2/collect
 >
->Se você estiver usando a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} ou a [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=pt-BR){target="_blank"}, a conexão será feita automaticamente.
+>Se você estiver usando a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} ou a [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, a conexão será feita automaticamente.

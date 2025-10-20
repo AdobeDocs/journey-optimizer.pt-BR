@@ -4,12 +4,12 @@ product: journey optimizer
 title: Funções de gerenciamento de coleções
 description: Saiba mais sobre os tipos de dados nas funções de gerenciamento de coleções
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: query, coleções, funções, carga, jornada
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 3%

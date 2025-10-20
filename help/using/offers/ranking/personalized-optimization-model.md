@@ -8,7 +8,7 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 5%
@@ -60,6 +60,7 @@ O modelo tem duas fases:
 * Na fase **inferência online**, as ofertas de candidatos são classificadas com base nas pontuações em tempo real geradas pelo modelo. Ao contrário das técnicas tradicionais de filtragem colaborativa, que é difícil incluir recursos para usuários e ofertas, a otimização personalizada é um método de recomendação baseado em deep learning, além de ser capaz de incluir e aprender padrões de interação de recursos complexos e não lineares.
 
 Este é um exemplo simplificado para ilustrar a ideia básica por trás da otimização personalizada. Suponha que tenhamos um conjunto de dados que armazena interações históricas entre usuários e ofertas, o que é mostrado na Figura 1. Há:
+
 * Duas ofertas, offer_1 e offer_2,
 * Dois recursos, feature_1 e feature_2,
 * Uma coluna de resposta.

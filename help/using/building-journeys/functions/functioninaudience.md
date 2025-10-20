@@ -3,12 +3,12 @@ product: journey optimizer
 title: inAudience
 description: Saiba mais sobre a função no Audience
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: inAudience, função, expressão, jornada
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -32,7 +32,7 @@ Os públicos-alvo podem ter dois status:
 * realizado: a entidade se qualifica para a definição do segmento.
 * encerrado: a entidade está saindo da definição do segmento.
 
-Somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results).
+Somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
 `inAudience('audienceName') == true` significa que você tem um segmentMembership com o status inserido.
 

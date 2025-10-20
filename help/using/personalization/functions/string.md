@@ -3,17 +3,17 @@ title: Biblioteca de funções de string
 description: Biblioteca de funções de string
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1f16b095b3b063f3fb881aee0b2a928644e19143
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1859'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
-# Funções de strings {#string}
+# Funções de string {#string}
 
 Saiba como usar funções de string no editor de personalização.
 
@@ -309,7 +309,7 @@ A função `getUrlHost` é usada para recuperar o nome de host de uma URL.
 
 Retorna &quot;www.myurl.com&quot;
 
-## Obter caminho de URL {#get-url-path}
+## Obter caminho do URL {#get-url-path}
 
 A função `getUrlPath` é usada para recuperar o caminho após o nome de domínio de uma URL.
 
@@ -386,7 +386,7 @@ A função a seguir retornará &#39;true&#39; se o número de telefone celular d
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## Não está vazio {#is-not-empty}
+## Não Está Vazio {#is-not-empty}
 
 A função `isNotEmpty` é usada para determinar se uma cadeia de caracteres não está vazia.
 
@@ -437,7 +437,7 @@ A função `leftTrim` é usada para remover espaços em branco do início de uma
 {%= leftTrim(string) %}
 ```
 
-## Comprimento {#length}
+## Length {#length}
 
 A função `length` é usada para obter o número de caracteres em uma cadeia de caracteres ou expressão.
 
@@ -514,7 +514,7 @@ A consulta a seguir determina, sem distinção entre maiúsculas e minúsculas, 
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## Mascarar {#mask}
+## Máscara {#mask}
 
 A função `Mask` é usada para substituir uma parte de uma cadeia de caracteres por caracteres &quot;X&quot;.
 
@@ -575,7 +575,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Não é igual a sem diferenciar maiúsculas e minúsculas {#not-equal-with-ignore-case}
+## Diferente de Ignorar Maiúsculas e Minúsculas {#not-equal-with-ignore-case}
 
 A função `notEqualWithIgnoreCase` é usada para comparar duas cadeias de caracteres ignorando maiúsculas e minúsculas.
 
@@ -725,7 +725,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 {%= startsWith(person.name,"Joe") %}
 ```
 
-## String para data {#string-to-date}
+## Sequência de caracteres para data {#string-to-date}
 
 A função `stringToDate` converte um valor de cadeia de caracteres em um valor de data-hora. Leva dois argumentos: representação de string de uma representação de data-hora e representação de string do formatador.
 
@@ -741,7 +741,7 @@ A função `stringToDate` converte um valor de cadeia de caracteres em um valor 
 {= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
 ```
 
-## String para número inteiro {#string-to-integer}
+## Sequência de caracteres para inteiro {#string-to-integer}
 
 A função `string_to_integer` é usada para converter um valor de cadeia de caracteres em um valor inteiro.
 
@@ -751,7 +751,7 @@ A função `string_to_integer` é usada para converter um valor de cadeia de car
 {= string_to_integer(string) %}: int
 ```
 
-## String para número {#string-to-number}
+## Sequência de caracteres para número {#string-to-number}
 
 A função `stringToNumber` é usada para converter uma cadeia de caracteres em número. Ele retorna a mesma string que a saída para entrada inválida.
 

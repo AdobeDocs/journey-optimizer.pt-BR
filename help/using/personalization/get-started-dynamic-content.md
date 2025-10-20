@@ -5,11 +5,11 @@ title: Introdução ao conteúdo dinâmico
 description: Saiba mais sobre conteúdo dinâmico
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: expressão, editor, introdução, condições, iniciar
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 60%
@@ -36,4 +36,4 @@ As regras condicionais podem ser aproveitadas no Email Designer e no editor de p
 
 Saiba como Criar conteúdo dinâmico com o construtor de regras de condição.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417876?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

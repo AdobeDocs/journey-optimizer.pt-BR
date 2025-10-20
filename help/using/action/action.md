@@ -5,11 +5,11 @@ title: Introdução a ações
 description: Saiba como trabalhar com ações
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: ações, jornada, mensagens, envio, conexões
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 37%
@@ -49,7 +49,7 @@ Saiba como solucionar problemas de uma ação personalizada [nesta página dedic
 
 Saiba como configurar ações personalizadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430278?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## Recursos adicionais
 

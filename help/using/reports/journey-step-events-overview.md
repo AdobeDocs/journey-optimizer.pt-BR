@@ -5,12 +5,12 @@ title: Trabalhar com eventos de etapa do jornada
 description: Saiba como trabalhar com eventos de etapa do jornada no Adobe Journey Optimizer - entenda o que são, por que são importantes e como usá-los para análise e otimização
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin, User
+role: Engineer, Admin, User
 level: Intermediate, Experienced
 keywords: jornada, eventos de etapa, análises, relatórios, monitoramento, XDM
 hide: true
 hidefromtoc: true
-source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 1%
