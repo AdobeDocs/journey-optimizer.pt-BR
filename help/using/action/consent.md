@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: políticas, governança, plataforma, healthcare shield, consentimento
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 93%
+source-wordcount: '1244'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 Seus dados podem estar sujeitos a restrições de uso definidas por sua organização ou por regulamentos legais. Portanto, é importante garantir que suas operações de dados no Journey Optimizer estejam em conformidade com as [políticas de uso de dados](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=pt-BR){target="_blank"}. Essas políticas são regras da Adobe Experience Platform que definem quais ações de marketing você tem permissão para realizar nos dados.
 
-Por padrão, se um perfil tiver optado por não receber comunicações suas, o perfil correspondente será excluído das próximas entregas. Você pode criar uma **política de consentimento** que substitua essa lógica padrão. Por exemplo, você pode criar políticas de consentimento na Experience Platform para excluir clientes que não consentiram em receber comunicações para um determinado canal. Na ausência de uma política personalizada, a política padrão é aplicada.
+Por padrão, se um perfil tiver optado por não receber comunicações suas, o perfil correspondente será excluído das próximas entregas. Você pode criar uma **política de consentimento** que substitua essa lógica padrão. Por exemplo, você pode criar uma política de consentimento no Experience Platform para excluir clientes que não consentiram em receber comunicação para um determinado canal. Na ausência de uma política personalizada, a política padrão é aplicada.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Estas são as principais etapas nas quais aplicar as políticas de consentimento
 
 1. Criar uma política de consentimento na Adobe Experience Platform com uma ação de marketing associada. [Saiba como criar uma política de consentimento](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=pt-BR#consent-policy){target="_blank"}
 
-2. Aplique políticas de consentimento no Adobe Journey Optimizer usando configurações de canal ou ações personalizadas de jornadas.
+2. Aplique políticas de consentimento no Adobe Journey Optimizer usando configurações de canal ou ações personalizadas de jornada.
 
    * Crie uma configuração de canais com uma ação de marketing associada. Ao criar uma comunicação usando a configuração de canais, ela herdará a ação de marketing que foi associada e aplicará as políticas de consentimento correspondentes definidas na Adobe Experience Platform. [Saiba como aproveitar as políticas de consentimento por meio das configurações de canal](#surface-marketing-actions)
 
@@ -61,7 +61,7 @@ Por exemplo, caso queira criar uma política de consentimento para direcionar ap
 
       >[!NOTE]
       >
-      >As principais ações de marketing fornecidas prontas para uso pela Adobe estão listadas em [esta tabela](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=pt-BR#core-actions){target="_blank"}. As etapas para criar uma ação de marketing personalizada estão listadas em [esta seção](https://experienceleague.adobe.com/docs/?lang=pt-BR Experience-platform/data-governance/policies/user-guide.html?lang=pt-BR#create-marketing-action){target="_blank"}.
+      >As principais ações de marketing fornecidas prontas para uso pela Adobe estão listadas em [esta tabela](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=pt-BR#core-actions){target="_blank"}. As etapas para criar uma ação de marketing personalizada estão listadas em [esta seção](https://experienceleague.adobe.com/docs/ Experience-platform/data-governance/policies/user-guide.html?lang=pt-BR#create-marketing-action){target="_blank"}.
 
    1. Selecione o que acontece quando a ação de marketing é aplicada. Neste exemplo, selecione **[!UICONTROL Consentimento de marketing por email]**.
 
@@ -69,7 +69,7 @@ Por exemplo, caso queira criar uma política de consentimento para direcionar ap
 
 1. Salve e [habilite](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=pt-BR#enable){target="_blank"} esta política.
 
-1. No Journey Optimizer, crie uma superfície de email. [Saiba como](../configuration/channel-surfaces.md#create-channel-surface)
+1. No Journey Optimizer, crie uma configuração de canal de email. [Saiba como](../configuration/channel-surfaces.md#create-channel-surface)
 
 1. Nos detalhes da configuração de email, selecione a ação de marketing **[!UICONTROL Direcionamento de email]**.
 

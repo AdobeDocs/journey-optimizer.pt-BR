@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
+source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2999'
+ht-degree: 98%
 
 ---
 
@@ -500,7 +500,7 @@ ht-degree: 0%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -982,5 +982,6 @@ ht-degree: 0%
       + [Gerenciar consentimento](/help/rp_landing_pages/consent-landing-page.md)
       + [Gerenciar recusa](using/privacy/opt-out.md)
       + [Trabalhar com políticas de consentimento](using/action/consent.md)
+      + [Gerencie as preferências dos clientes](using/action/preference-center.md)
    + [Governança de dados](using/action/action-privacy.md)
    + [Configurar e gerir chaves gerenciadas pelo cliente](using/privacy/cmk.md)
