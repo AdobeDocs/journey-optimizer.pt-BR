@@ -4,14 +4,14 @@ product: journey optimizer
 title: Introdução a esquemas
 description: Saiba como usar esquemas da Adobe Experience Platform no Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: esquemas, plataforma, dados, estrutura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

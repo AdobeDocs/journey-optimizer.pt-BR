@@ -4,12 +4,12 @@ product: journey optimizer
 title: Tipos de dados
 description: Saiba mais sobre os tipos de dados em expressões avançadas
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: expressão, dados, tipo de dados, jornada
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 5%

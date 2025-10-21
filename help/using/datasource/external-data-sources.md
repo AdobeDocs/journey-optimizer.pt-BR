@@ -5,11 +5,11 @@ title: Fontes de dados externas
 description: Saiba como configurar fontes de dados externas
 feature: Journeys, Data Sources, Integrations
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 34%
@@ -46,7 +46,7 @@ A chamada é composta de um URL principal (_https://api.adobeweather.org/weather
 
 >[!TIP]
 >
->Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer &#x200B;](#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
+>Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer ](#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
 
 ## Criar e configurar uma fonte de dados externa {#create-ext-data-sources}
 

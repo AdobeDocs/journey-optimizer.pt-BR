@@ -4,12 +4,12 @@ product: journey optimizer
 title: Funções
 description: Saiba mais sobre funções
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: função, expressões, editor, jornada
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
