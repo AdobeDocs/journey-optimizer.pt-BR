@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '637'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ Os Relatórios de canal são uma ferramenta poderosa que fornece uma visão gera
 
 Os Relatórios de canal são totalmente personalizáveis, então você pode redimensionar ou remover widgets para criar um painel que atenda às suas necessidades específicas. Você também pode exportar os dados do relatório para um arquivo PDF ou CSV para análise adicional.
 
-Saiba mais sobre as diferentes métricas e widgets disponíveis para os Relatórios de canal em [esta página](channel-report.md).
+Saiba mais sobre as diferentes métricas e widgets disponíveis para os Relatórios de canal no <!--[this page](channel-report.md)-->.
 
 ## Antes de começar {#manage-reports-prereq}
 

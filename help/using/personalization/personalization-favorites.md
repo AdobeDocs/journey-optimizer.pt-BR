@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, atributo, personalização
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -20,14 +20,20 @@ ht-degree: 0%
 
 Adicionar atributos diferentes ao menu de favoritos fornece acesso rápido aos itens usados com mais frequência. Para adicionar um atributo aos favoritos, clique no menu de reticências e escolha **[!UICONTROL Adicionar aos favoritos]**.
 
+<!--
 ![](assets/favorite-option.png)
+-->
 
 Para acessar os itens que você marcou como favoritos, use o menu **[!UICONTROL Favoritos]** no painel esquerdo.
 
 Nessa lista, é possível adicionar rapidamente o objeto de personalização à expressão atual.
 
+<!--
 ![](assets/favorite-list.png)
+-->
 
 Se não quiser mais ver um item na lista de favoritos, você pode removê-lo dos favoritos.
 
+<!--
 ![](assets/favorite-remove.png)
+-->

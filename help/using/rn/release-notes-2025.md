@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 4bb16689d9af805a077b4c87540bd23162f84bbb
-workflow-type: ht
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+workflow-type: tm+mt
 source-wordcount: '6603'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <li>A capacidade de adicionar otimização a qualquer ação de canal integrada.</li>
 <li>A capacidade de adicionar opções de experimentação e multilíngues a qualquer ação.</li>
 </ul>
-<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
+<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Para mais informações, consulte a <a href="../building-journeys/journey-action.md">documentação detalhada</a></p>
 </td>
@@ -151,7 +151,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <li>O tamanho máximo para cada anexo é 5 MB.</li>
 <li>Para qualquer tamanho ou volume adicional, é possível adquirir um complemento de pacote de anexos. Para obter mais informações, entre em contato com um representante da Adobe.</li>
 </ul>
-<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
+<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Para mais informações, consulte a <a href="../email/pdf-attachments.md">documentação detalhada</a></p>
 </td>
@@ -379,7 +379,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>Agora, você pode adicionar políticas de decisão a campanhas e jornadas por email. As políticas de decisão são recipientes para as suas ofertas que utilizam o mecanismo de tomada de decisão para retornar dinamicamente o melhor conteúdo a ser entregue a cada membro do público-alvo.</p>
-<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
+<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.</p>
 Para mais informações, consulte a <a href="../experience-decisioning/create-decision.md">documentação detalhada</a></p>
 </td>
 </tr>
@@ -1393,6 +1393,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 **Editor de personalização** (data de disponibilidade: 12 de março)
 
 O editor de personalização do Journey Optimizer foi atualizado com novos recursos:
+
 * **Design do editor de código atualizado**: uma interface mais simples e moderna para melhorar a usabilidade e o foco.
 * **Pesquisar e substituir**: adição da funcionalidade para localizar e substituir rapidamente o conteúdo no editor.
 * **Desfazer e refazer**: permite reverter ou reaplicar facilmente as alterações.

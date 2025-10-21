@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -35,7 +35,9 @@ O relatório de cartões de conteúdo pode ser acessado diretamente do Campaign 
 
 ## Exibir tendência de &amp; cliques {#display-click}
 
+<!--
 ![](assets/content-card-report-1.png)
+-->
 
 Os gráficos de **[!UICONTROL Tendência de exibição e clique]** ajudam você a entender o alcance geral da mensagem e o número de perfis únicos envolvidos.
 
@@ -51,7 +53,9 @@ Os gráficos de **[!UICONTROL Tendência de exibição e clique]** ajudam você 
 
 ## Dados de rastreamento {#tracking-data}
 
+<!--
 ![](assets/content-card-report-2.png)
+-->
 
 A tabela **[!UICONTROL Dados de rastreamento]** oferece um instantâneo detalhado da atividade do perfil vinculada aos seus cartões de Conteúdo, fornecendo insights essenciais sobre engajamento e eficácia do cartão de Conteúdo.
 

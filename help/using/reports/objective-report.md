@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '477'
 ht-degree: 4%
 
 ---
@@ -22,15 +22,17 @@ ht-degree: 4%
 
 O relatório global da campanha pode ser acessado diretamente do Campaign com o botão **[!UICONTROL Exibir relatório]**.
 
-O **[!UICONTROL Relatório global]** da campanha está dividido em widgets diferentes detalhando o sucesso e os erros da campanha. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](../reports/global-report.md#modify-dashboard).
+O **[!UICONTROL Relatório global]** da campanha está dividido em widgets diferentes detalhando o sucesso e os erros da campanha. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta <!--[section](../reports/global-report.md#modify-dashboard)-->.
 
-Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](global-report.md#list-of-components-global.md)
+Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte <!--[this page](global-report.md#list-of-components-global.md)-->
 
 ## Guia Campanha {#campaign-global-objectives}
 
 ### Entrega {#delivery-global-objectives}
 
+<!--
 ![](assets/campaign_report_global_1.png)
+-->
 
 O widget **[!UICONTROL Estatísticas]** da campanha detalha as principais informações relativas à sua campanha:
 
@@ -58,7 +60,9 @@ Com o widget **[!UICONTROL Objetivo da campanha]**, você também pode optar por
 
 ### Relatório de experimentação {#experimentation-global-objectives}
 
+<!--
 ![](assets/experimentation_report_3.png)
+-->
 
 A guia **[!UICONTROL Experimentação]** fornece informações importantes sobre o desempenho de cada variante e identifica a mais bem-sucedida.
 

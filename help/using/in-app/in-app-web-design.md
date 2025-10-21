@@ -8,9 +8,9 @@ level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 hide: true
 hidefromtoc: true
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '775'
 ht-degree: 7%
 
 ---
@@ -89,7 +89,8 @@ O campo **[!UICONTROL Mídia]** permite adicionar mídia à mensagem no aplicati
 
 ![](assets/in_app_web_design_3.png)
 
-Digite sua URL de mídia ou clique no ícone **[!UICONTROL Selecionar Assets]** para adicionar diretamente os ativos armazenados na biblioteca do Assets à mensagem no aplicativo. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets-essentials.md).
+Digite sua URL de mídia ou clique no ícone **[!UICONTROL Selecionar Assets]** para adicionar diretamente os ativos armazenados na biblioteca do Assets à mensagem no aplicativo. <!--[Learn more about asset management](../content-management/assets-essentials.md).-->
+
 Você também pode adicionar um **[!UICONTROL texto alternativo]** para aplicativos de leitura de tela.
 
 +++Mais opções com formatação avançada
