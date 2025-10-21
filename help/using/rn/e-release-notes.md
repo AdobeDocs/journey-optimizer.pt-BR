@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ecf54bbcb2cc62b5f13434cfbf1e369cd145d93
+source-git-commit: d09fc3ed670a50b6a99bcf660353ee37d31c7501
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 44%
+source-wordcount: '1089'
+ht-degree: 52%
 
 ---
 
@@ -160,23 +160,23 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Suporte à decisão no canal de email</strong><br/></th>
+<th><strong>Decisioning support in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora, você pode adicionar políticas de decisão a campanhas e jornadas por email. As políticas de decisão são recipientes para as suas ofertas que utilizam o mecanismo de tomada de decisão para retornar dinamicamente o melhor conteúdo a ser entregue a cada membro do público-alvo.</p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<img src="assets/do-not-localize/FILE.gif">
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -206,7 +206,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>O Journey Optimizer agora permite criar regras a partir de um menu de interface dedicado e aproveitá-las ao criar o direcionamento, como parte da Otimização de conteúdo em uma campanha ou jornada, na atividade Otimizar jornada.</p>
-<p>As regras de direcionamento estão atualmente em Disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
+<p>As regras de direcionamento estão atualmente em Disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.</p>
 <p>Observe que esse recurso só está disponível para organizações que compraram a oferta complementar do Decisioning. Ele será implantado progressivamente para todos os clientes.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
@@ -227,7 +227,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <p>Agora é possível aplicar temas pré-aprovados rapidamente para garantir a consistência da marca em todos os emails, acelerar o processo de criação de campanha e produzir emails de alta qualidade de forma independente, reduzindo a dependência de equipes de design.</p>
 <p>Anteriormente lançado na versão beta, esse recurso agora está disponível para várias organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <img src="assets/do-not-localize/themes.gif">
-<p>Para obter mais informações, consulte a <a href="../email/apply-email-themes.md">documentação detalhada</a>.</p>
+<p>Para mais informações, consulte a <a href="../email/apply-email-themes.md">documentação detalhada</a></p>
 <!--p>Availability date: October 22, 2025</p-->
 </td>
 </tr>
@@ -248,7 +248,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">Taxa de Erro de Ação Personalizada Excedida</a>: Taxa de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos 5 minutos excedeu o limite</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate">Taxa de Erro de Perfil Excedida</a>: Taxa de perfis com erro em relação aos perfis inseridos nos últimos 5 minutos excedeu o limite.</li></ul> <p>É possível modificar os valores limite e assinar alertas individuais em nível de jornada em vez de alertas globais.</p>
 <p>Para mais informações, consulte a <a href="../reports/alerts.md">documentação detalhada</a></p>
-<p>Data de disponibilidade: 14 de outubro de 2025</p>
+<p>Data de disponibilidade: quarta-feira, 14 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -264,9 +264,9 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>Uma nova função auxiliar "executionMetadata" está disponível no editor de personalização. Ele permite anexar informações contextuais a qualquer ação nativa e capturá-las em um conjunto de dados para exportação para sistemas externos.</p>
-<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.</p>
+<p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.</p>
 <p>Para mais informações, consulte a <a href="../personalization/functions/helpers.md#execution-metadata">documentação detalhada</a></p>
-<p>Data de disponibilidade: 13 de outubro de 2025</p>
+<p>Data de disponibilidade: terça-feira, 13 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -283,8 +283,8 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <td>
 <p>Com a tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, o Agente de experimentação está disponível na Journey Optimizer. </p>
 <p>O Agente de experimentação é uma ferramenta alimentada por IA que moderniza como você pode executar e gerenciar experimentos digitais em sites, emails, mensagens por push e aplicativos. Ele ajuda você a executar experimentos com mais eficiência, organizar metas de negócios e gerar insights acionáveis, destacando o que funcionou, o que não funcionou e onde experimentar em seguida.</p>
-<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=pt-BR" target="_blank">documentação detalhada</a></p>
-<p>Data de disponibilidade: 10 de outubro de 2025</p>
+<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentação detalhada</a></p>
+<p>Data de disponibilidade: sábado, 10 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -334,18 +334,22 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 
 ### Aprimoramentos
 
+**Decisão em emails por meio de modelos de IA**
+
+Agora você pode usar os modelos de IA para otimizar o melhor conteúdo do seu email por meio do uso do Decisioning. Por exemplo, esse recurso permite otimizar o melhor conteúdo com base em eventos personalizados, como compras, cliques de botão, adicionar ao carrinho etc.
+
 **Campo de execução para o canal do WhatsApp**
 
 Além de email e SMS, você pode saber como atualizar o campo de execução padrão para seus deliveries do WhatsApp no nível da sandbox. Também é possível substituir o campo de execução definido globalmente, alterando-o nos parâmetros avançados da atividade de jornada do WhatsApp ou na configuração do canal do WhatsApp. <!-- [Read more](../FILE.md) -->
 
-**Suporte a atributos personalizados para o endereço Mailto (cancelar inscrição)**
+**Suporte a atributos personalizados para endereço Mailto (cancelar assinatura)**
 
-Com o Journey Optimizer, se você estiver gerenciando o consentimento fora do Adobe, é possível definir endpoints personalizados externos ao definir seu próprio link de cancelamento de inscrição com um clique e um endereço de email de cancelamento de inscrição personalizado na configuração de email. Quando os destinatários clicam no link para cancelar assinatura, o Journey Optimizer anexa alguns parâmetros padrão específicos do perfil ao evento de atualização de consentimento.
+Com o Journey Optimizer, se você estiver gerenciando consentimento fora da Adobe, é possível configurar pontos de acesso externos personalizados por definir seu próprio link de cancelamento de assinatura com um clique e um endereço de email de cancelamento de assinatura personalizado na configuração de email. Quando os destinatários clicam no link para cancelar a assinatura, o Journey Optimizer anexa alguns parâmetros padrão específicos do perfil ao evento de atualização de consentimento.
 
-Para personalizar ainda mais os endpoints personalizados, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento. [Leia mais](../email/list-unsubscribe.md#custom-attributes)
+Para customizar ainda mais os pontos de acesso personalizados, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento. [Leia mais](../email/list-unsubscribe.md#custom-attributes)
 
 >[!AVAILABILITY]
 >
->Esse recurso já está disponível para a **[!UICONTROL URL para Cancelamento de Inscrição com Um Clique]** personalizada desde agosto de 25 e agora é lançado para a opção **[!UICONTROL Mailto (cancelar inscrição)]** em Disponibilidade Limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+>Esse recurso já está disponível para o **[!UICONTROL URL de cancelamento de assinatura com um clique]** personalizado desde agosto de 2025 e agora foi lançado para a opção **[!UICONTROL Mailto (cancelar assinatura)]** em disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 Data de disponibilidade: 6 de outubro de 2025
