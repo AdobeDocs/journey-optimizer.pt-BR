@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: d6905059dbf1504407c49f76415e4c6eb819bed7
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 49%
@@ -268,7 +268,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tr>
 <td>
 <p>O Journey Optimizer Experimentation Accelerator agora inclui o Agente de experimentação, uma ferramenta conversacional alimentada por IA que permite a você interagir com seus experimentos, insights e oportunidades. Ele melhora a experiência do Journey Optimizer Experimentation Accelerator, ajudando você a executar experimentos com mais eficiência, descobrir o que funciona e descobrir onde otimizar a seguir.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=pt-BR" target="_blank">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: sábado, 10 de outubro de 2025</p>
 </td>
 </tr>
@@ -348,7 +348,7 @@ Data de disponibilidade: 6 de outubro de 2025
 
 Os recursos e aprimoramentos a seguir estão programados para serem lançados nos próximos dias. **As informações estão sujeitas a alterações**. Links, telas e documentação atualizados serão compartilhados assim que essas atualizações estiverem ativas na produção.
 
-### Novos recursos {#oct-25-10-soon-features}
+#### Novos recursos {#oct-25-10-soon-features}
 
 <table>
 <thead>
@@ -369,7 +369,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 </tbody>
 </table>
 
-### Aprimoramentos {#oct-25-10-soon-improvements}
+#### Aprimoramentos {#oct-25-10-soon-improvements}
 
 **Decisão em emails por meio de modelos de IA**
 
