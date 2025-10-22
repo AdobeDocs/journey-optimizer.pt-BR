@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '3003'
 ht-degree: 98%
 
 ---
@@ -284,8 +284,9 @@ ht-degree: 98%
    + Definir regras de limites de mensagens e jornada {#capping-rules}
       + [Definir regras de limites de mensagens e jornada](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Trabalhar com conjuntos de regras](using/conflict-prioritization/rule-sets.md)
-      + [Limite e arbitragem de jornada](using/conflict-prioritization/journey-capping.md)
-      + [Limite de frequência por canal e tipo de comunicação](using/conflict-prioritization/channel-capping.md)
+      + [Gerenciar limite e arbitragem de jornada](using/conflict-prioritization/journey-capping.md)
+      + [Definir limite de frequência por canal e tipo](using/conflict-prioritization/channel-capping.md)
+      + [Definir horas de silêncio](using/conflict-prioritization/quiet-hours.md)
 + Testar e aprovar {#test}
    + [Testar e aprovar](/help/rp_landing_pages/test-landing-page.md)
    + Visualizar e testar conteúdo {#preview-test}
@@ -500,7 +501,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)

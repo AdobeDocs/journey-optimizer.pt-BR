@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 27%
+source-wordcount: '1062'
+ht-degree: 25%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Conjuntos de regras"
->abstract="Use conjuntos de regras para aplicar limites de frequência a diferentes tipos de comunicações de marketing. Você também pode criar conjuntos de regras para excluir jornadas para parte do público-alvo com base em regras de limite de frequência."
+>abstract="Use conjuntos de regras para aplicar regras de limite de frequência ou de horas de silêncio a diferentes tipos de comunicações de marketing. Você também pode criar conjuntos de regras para excluir jornadas para parte do público-alvo com base em regras de limite de frequência."
 
 ## Introdução aos conjuntos de regras {#gs}
 
@@ -31,7 +31,11 @@ Os conjuntos de regras permitem **agrupar várias regras em conjuntos de regras*
 
 Você pode criar dois tipos de conjuntos de regras:
 
-* Os conjuntos de regras do **Canal** aplicam regras de limitação aos canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia.
+* Os conjuntos de regras do **Canal** aplicam regras aos canais de comunicação. Eles permitem definir:
+
+   * **Regras de limite de frequência** - *Não envie mais de 1 email ou comunicação SMS por dia.*
+   * **Regras do Período de Silêncio** (Disponibilidade Limitada) - *Não enviar mensagens de email fora do período das 8h00 às 9h00.*
+
 * Os conjuntos de regras **Jornada** aplicam regras de limite de simultaneidade e de entrada a uma jornada. Por exemplo, não insira perfis em mais de uma jornada simultaneamente.
 
 ➡️ [Conheça este recurso no vídeo](#video)
@@ -76,7 +80,7 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Tipo de regra"
->abstract="Selecione o tipo de regra desejado para seu conjunto de regras de canal: use o tipo **Limite de frequência** para aplicar regras de limite a canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia. Selecione **Período de silêncio** (disponível em Disponibilidade limitada) para definir exclusões com base no tempo para garantir que nenhuma mensagem seja enviada durante períodos específicos de tempo."
+>abstract="Selecione o tipo de regra desejado para seu conjunto de regras de canal: use o tipo **Limite de frequência** para aplicar regras de limite a canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia. Selecione **Período de silêncio** (disponível em Disponibilidade limitada) para definir exclusões com base no tempo para garantir que nenhuma mensagem seja enviada durante períodos específicos de tempo.&quot;
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -107,7 +111,7 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 
 1. Selecione o domínio do conjunto de regras e clique em **[!UICONTROL Salvar]**.
 
-   * Domínio **Channel**: aplique regras de limitação para canais de comunicação.
+   * Domínio **Channel**: aplique regras de limitação ou de período de silêncio aos canais de comunicação.
    * Domínio **Jornada**: aplique regras de limite de entrada e simultaneidade a uma jornada.
 
    ![](assets/rule-sets-create.png)
@@ -116,10 +120,11 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 
 1. Configure os parâmetros de regra para atender às suas necessidades. Os parâmetros disponíveis para a regra dependem do domínio do conjunto de regras selecionado em sua criação.
 
-   Informações detalhadas sobre como configurar o jornada e as regras de limite de canal estão disponíveis nestas seções:
+   Informações detalhadas sobre como configurar o jornada e as regras de canal estão disponíveis nestas seções:
 
    * [limite de Jornada](../conflict-prioritization/journey-capping.md)
    * [Limite de frequência por canal e tipo de comunicação](../conflict-prioritization/channel-capping.md)
+   * [Período de silêncio](../conflict-prioritization/quiet-hours.md) (disponível em Disponibilidade limitada)
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar a criação da regra. Sua mensagem foi adicionada ao conjunto de regras, com o status **[!UICONTROL Rascunho]**.
 
@@ -146,7 +151,8 @@ Para criar um conjunto de regras, siga as etapas abaixo.
    Informações detalhadas sobre como aplicar o conjunto de regras estão disponíveis nestas seções:
 
    * [Aplicar um conjunto de regras a uma jornada](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [Aplicar regras de limitação a uma mensagem](../conflict-prioritization/channel-capping.md#apply)
+   * [Aplicar regras de limitação a ações de jornada e campanha](../conflict-prioritization/channel-capping.md#apply)
+   * [Aplicar regras de horários de silêncio ao jornada e à campanha](../conflict-prioritization/quiet-hours.md#apply)
 
 ## Acessar e gerenciar conjuntos de regras {#access-rule-sets}
 
@@ -174,4 +180,4 @@ Seu status será alterado para **[!UICONTROL Inativo]** e a regra não se aplica
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, execução, e-mail, destino, perfil, otimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 23%
+source-wordcount: '641'
+ht-degree: 20%
 
 ---
 
@@ -34,17 +34,15 @@ Nesse caso, [!DNL Journey Optimizer] usa **[!UICONTROL Campos de execução]** p
 
 Para verificar os campos que são usados por padrão no momento, acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Campos de execuções]**.
 
-![](assets/primary-address-execution-fields.png)
+![](assets/primary-address-execution-fields.png){width=90%}
 
 >[!NOTE]
 >
->Os campos de execução estão disponíveis para os canais de email e SMS.
+>Os campos de execução estão disponíveis para os canais de email, SMS e WhatsApp.
 
 Os valores atuais são usados para todos os deliveries no nível da sandbox. Você pode atualizar esses campos, se necessário.
 
-Na maioria dos casos, você alterará um campo de execução globalmente e definirá um valor que deve ser usado para todas as mensagens de email ou SMS. <!--[Learn how](#admin-settings)-->
-
-<!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
+Na maioria dos casos, você alterará um campo de execução globalmente e definirá um valor que deve ser usado para todas as mensagens de email, SMS ou WhatsApp.
 
 ## Atualizar as configurações de Administração {#admin-settings}
 
@@ -54,15 +52,15 @@ Para alterar os campos de execução globalmente no nível da sandbox, siga as e
 
 1. Clique em **[!UICONTROL Editar]** para alterar os valores padrão.
 
-   ![](assets/primary-address.png)
+   ![](assets/primary-address-edit.png){width=70%}
 
 1. Clique no campo atual de sua escolha ou no ícone de edição para selecionar um novo campo.
 
-   ![](assets/primary-address-edit.png)
+   ![](assets/primary-address-edit-field.png){width=70%}
 
 1. A lista de campos XDM do tipo email disponíveis é exibida. Selecione o campo a ser usado.
 
-   ![](assets/primary-address-select-field.png)
+   ![](assets/primary-address-select-field.png){width=90%}
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar sua escolha.
 
@@ -82,18 +80,18 @@ Para casos de uso específicos, é possível substituir o conjunto de campos de 
 
 Substituir esse valor pode ser útil, por exemplo, para:
 
-* Teste um email. É possível adicionar seu próprio endereço de email: depois de publicar a jornada, o email será enviado para você.
-* Enviar um email aos assinantes de uma lista. Saiba mais [neste caso de uso](../building-journeys/message-to-subscribers-uc.md).
+* Teste o delivery. Você pode adicionar seu próprio endereço de email ou número de telefone: depois de publicar a jornada, o email, SMS ou mensagem de WhatsApp é enviado para você.
+* Enviar uma mensagem aos assinantes de uma lista. Saiba mais [neste caso de uso](../building-journeys/message-to-subscribers-uc.md).
 
-Ao adicionar uma ação de **[!UICONTROL Email]** ou **[!UICONTROL SMS]** a uma [jornada](../email/create-email.md#create-email-journey-campaign), o endereço de email principal é exibido nos parâmetros avançados de jornada.
+Ao adicionar uma ação de **[!UICONTROL Email]**, **[!UICONTROL SMS]** ou **[!UICONTROL WhatsApp]** a uma [jornada](../email/create-email.md#create-email-journey-campaign), o endereço de email ou número de telefone principal é exibido nos parâmetros avançados de jornada.
 
 Substitua esse valor usando o ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo.
 
-![](assets/journey-enable-parameter-override.png)
+![](assets/journey-enable-parameter-override.png){width=85%}
 
 >[!CAUTION]
 >
->A substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterar o endereço de email, pois o valor definido como o endereço principal nos **[!UICONTROL Campos de execução]** é o que deve ser usado.
+>A substituição de endereço de email ou número de telefone deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterá-lo, pois o valor definido como o endereço principal nos **[!UICONTROL Campos de execução]** no nível da sandbox é o que deve ser usado.
 
 ## Substituir o campo de execução padrão na configuração do canal {#override-execution-address-channel-config}
 
@@ -102,9 +100,13 @@ Substitua esse valor usando o ícone **[!UICONTROL Habilitar substituição de p
 >title="Substituir o endereço de execução padrão a ser usado"
 >abstract="Quando vários endereços de email ou números de telefone estiverem disponíveis no banco de dados (pessoal, profissional etc.), você poderá escolher qual deles priorizar para envio. O endereço principal é definido no nível da sandbox, mas aqui você pode substituir a configuração padrão para essa configuração de canal específica."
 
-Você pode alterar o endereço de execução padrão de uma [configuração de canal](channel-surfaces.md) de email ou SMS específica.
+Você pode alterar o endereço de execução padrão de uma [configuração de canal](channel-surfaces.md) de email, SMS ou WhatsApp específica.
 
-Para fazer isso, vá para a seção **[!UICONTROL Execution dimension]** e edite o campo em **[!UICONTROL Execution Address]**.
+Para fazer isso, vá para a seção **[!UICONTROL Execution dimension]** e edite o campo dedicado em **[!UICONTROL Execution Address]**.
+
+>[!NOTE]
+>
+>Para o [canal do WhatsApp](../whatsapp/whatsapp-configuration.md#whatsapp-configuration), o **[!UICONTROL Campo de Execução do WhatsApp]** está na seção **[!UICONTROL Configurações do WhatsApp]**.
 
 ![](assets/sms-config-execution-address.png){width=85%}
 

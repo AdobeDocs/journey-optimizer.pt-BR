@@ -11,10 +11,10 @@ keywords: atividade, condição, tela, jornada, otimização
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 15a143956156458cf78d02a4cf92300e97cef949
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 10%
+source-wordcount: '1461'
+ht-degree: 9%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 10%
 
 >[!AVAILABILITY]
 >
->Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 A atividade **Otimizar** permite definir como as pessoas avançam na sua jornada criando vários **caminhos** com base em critérios específicos, incluindo experimentação, direcionamento e condições específicas, garantindo o máximo de envolvimento e sucesso na criação de jornadas altamente personalizadas e eficazes.
 
@@ -53,7 +53,7 @@ Quando a jornada estiver ativa, os perfis serão avaliados de acordo com os crit
 >id="ajo_path_experiment_success_metric"
 >title="Métricas de sucesso"
 >abstract="As métricas de sucesso são usadas para controlar e avaliar o tratamento com melhor desempenho em um experimento."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurar e rastrear as métricas da jornada"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurar e rastrear as métricas da jornada"
 
 A experimentação permite testar caminhos diferentes com base em uma divisão aleatória para determinar qual tem o melhor desempenho com base em métricas de sucesso predefinidas.
 
@@ -186,9 +186,33 @@ Para configurar o direcionamento em uma jornada, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Criar regra de direcionamento]**.
 
-1. Use o construtor de regras para definir seus critérios. Por exemplo, defina uma regra para membros Gold do programa de Fidelidade (`loyalty.status.equals("Gold", false)`) e uma regra para os outros membros (`loyalty.status.notEqualTo("Gold", false)`).
+1. Clique em **[!UICONTROL Criar regra]** > **[!UICONTROL Criar novo]** e use o construtor de regras para definir seus critérios.
+
+   ![](assets/journey-targeting-create-rule.png){width=100%}
+
+   Por exemplo, defina uma regra para membros Gold do programa de Fidelidade (`loyalty.status.equals("Gold", false)`) e uma regra para os outros membros (`loyalty.status.notEqualTo("Gold", false)`).
 
    ![](assets/journey-targeting-rule.png)
+
+1. Você também pode clicar em **[!UICONTROL Criar regra]** > **[!UICONTROL Selecionar regra]** para selecionar uma regra de direcionamento existente criada no menu **[!UICONTROL Regras]**. [Saiba mais](../experience-decisioning/rules.md)
+
+   ![](assets/journey-targeting-select-rule.png){width=70%}
+
+   Nesse caso, a fórmula que compõe a regra é simplesmente copiada para a atividade de jornada. Quaisquer alterações subsequentes dessa regra no menu **[!UICONTROL Regras]** não afetarão a cópia da jornada.
+
+   >[!AVAILABILITY]
+   >
+   >[A criação de regras de direcionamento](../experience-decisioning/rules.md#create) pelo menu dedicado [!DNL Journey Optimizer] está disponível no momento para organizações que compraram a oferta complementar do Decisioning e estão disponíveis sob demanda para as outras organizações (Disponibilidade limitada).
+   >
+   >Essa capacidade será implantada progressivamente para todos os clientes. Enquanto isso, entre em contato com o representante da Adobe para obter acesso.
+
+1. Depois de adicionar uma regra, você ainda pode modificá-la. Escolha **[!UICONTROL Editar em linha]** para atualizá-la em movimento usando o construtor de regras ou **[!UICONTROL Selecione a regra]** para escolher outra regra existente.
+
+   ![](assets/journey-targeting-modify-rule.png){width=100%}
+
+   >[!NOTE]
+   >
+   >Editar uma regra em linha não afeta a regra existente da qual ela se origina.
 
 1. Selecione a opção **[!UICONTROL Habilitar caminho de fallback]**, conforme necessário. Essa ação cria um caminho de fallback para o público-alvo que não atende a nenhuma das regras de direcionamento definidas acima.
 

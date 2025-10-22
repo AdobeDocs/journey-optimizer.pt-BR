@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Otimização de mensagens
+title: Otimização em campanhas e jornadas
 description: Aproveite a otimização de mensagens para criar jornadas e campanhas de marketing personalizadas e otimizadas.
 role: User
 level: Intermediate
 keywords: otimização de campanha, experimentação, direcionamento, teste A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 11%
+source-wordcount: '1253'
+ht-degree: 8%
 
 ---
 
@@ -68,11 +68,35 @@ Para configurar o direcionamento, siga as etapas abaixo.
 
    ![](assets/msg-optimization-select-targeting.png){width=85%}
 
-1. Use o construtor de regras para definir seus critérios. Por exemplo, defina uma regra para residentes dos EUA, uma regra para residentes da França e uma regra para residentes da Índia.
+1. Clique em **[!UICONTROL Criar regra]** > **[!UICONTROL Criar novo]** e use o construtor de regras para definir seus critérios onde você for.
+
+   ![](assets/msg-optimization-create-rule.png){width=100%}
+
+   Por exemplo, defina uma regra para residentes dos EUA, uma regra para residentes da França e uma regra para residentes da Índia.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Selecione a opção **[!UICONTROL Habilitar conteúdo de fallback]**, conforme necessário. O conteúdo de substituição permite que o público-alvo receba um conteúdo padrão quando nenhuma regra de direcionamento for qualificada.
+1. Você também pode clicar em **[!UICONTROL Criar regra]** > **[!UICONTROL Selecionar regra]** para selecionar uma regra de direcionamento existente criada no menu **[!UICONTROL Regras]**. [Saiba mais](../experience-decisioning/rules.md)
+
+   ![](assets/msg-optimization-select-rule.png){width=70%}
+
+   Nesse caso, a fórmula que compõe a regra é simplesmente copiada para a jornada ou campanha. Quaisquer alterações subsequentes dessa regra no menu **[!UICONTROL Regras]** não afetarão a jornada ou a cópia da campanha.
+
+   >[!AVAILABILITY]
+   >
+   >[A criação de regras de direcionamento](../experience-decisioning/rules.md#create) pelo menu dedicado [!DNL Journey Optimizer] está disponível no momento para organizações que compraram a oferta complementar do Decisioning e estão disponíveis sob demanda para as outras organizações (Disponibilidade limitada).
+   >
+   >Essa capacidade será implantada progressivamente para todos os clientes. Enquanto isso, entre em contato com o representante da Adobe para obter acesso.
+
+1. Depois de adicionar uma regra, você ainda pode modificá-la. Escolha **[!UICONTROL Editar em linha]** para atualizá-la em movimento usando o construtor de regras ou **[!UICONTROL Selecione a regra]** para escolher outra regra existente.
+
+   ![](assets/msg-optimization-modify-rule.png){width=100%}
+
+   >[!NOTE]
+   >
+   >Editar uma regra em linha não afeta a regra existente da qual ela se origina.
+
+1. Selecione a opção **[!UICONTROL Habilitar conteúdo de fallback]**, conforme necessário. O conteúdo de fallback permite que o público receba um conteúdo padrão quando nenhuma regra de direcionamento for qualificada.
 
    >[!NOTE]
    >
@@ -186,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Saiba como utilizar a otimização de mensagens em campanhas acionadas por ações ou API. Você aprenderá a direcionar subconjuntos do público-alvo, criar variações de mensagem por local, habilitar o conteúdo de fallback e executar vários experimentos em uma mesma campanha. Este tutorial também aborda como gerenciar campanhas com vários canais e, ao mesmo tempo, manter a consistência das mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470373?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
