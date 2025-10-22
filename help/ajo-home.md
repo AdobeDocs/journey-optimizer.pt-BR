@@ -21,8 +21,7 @@ O Adobe Journey Optimizer capacita equipes a projetar e fornecer experiências p
 Tenha um vislumbre dos últimos aprimoramentos na documentação e no produto do Journey Optimizer. Para obter uma lista de todos os recursos, melhorias e correções, verifique as [Notas de versão](using/rn/release-notes.md) detalhadas.
 
 >[!BEGINTABS]
-
->Versão de [!TAB out. 25]
+>[!TAB Versão de  out. 25]
 
 A versão de outubro do Journey Optimizer está disponível. Descubra os novos recursos e melhorias lançados este mês nas Notas de versão.
 
