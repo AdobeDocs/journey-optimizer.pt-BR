@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 25%
+source-wordcount: '462'
+ht-degree: 24%
 
 ---
 
@@ -26,6 +26,10 @@ Aproveite o Perfil do cliente em tempo real no [!DNL Adobe Journey Optimizer] pa
 
 **Assimilação de dados** - Conecte-se a várias fontes de dados para assimilar dados comportamentais, transacionais, financeiros e operacionais. Assimile dados em tempo real ou por meio de uploads em lote para manter os perfis atualizados constantemente.
 
+>[!NOTE]
+>
+>Ao assimilar dados, os emails fazem distinção entre maiúsculas e minúsculas, o que significa que perfis duplicados podem ser criados (por exemplo, um perfil para John.Greene@luma.com, outro perfil para john.green@luma.com) e usados ao direcionar esses perfis em suas jornadas e campanhas do [!DNL Journey Optimizer].
+
 **Gráfico de identidade** - Combine dados de diferentes fontes usando identidades de clientes, como IDs de fidelidade ou IDs de sistema de CRM. &#x200B;Crie uma visualização abrangente do cliente, mapeando os relacionamentos entre diferentes identidades nos conjuntos de dados de uma marca. &#x200B;
 
 **Envolvimento do cliente** - Use o perfil do cliente em tempo real para fornecer experiências contextuais e personalizadas, como ofertas e mensagens direcionadas. &#x200B;Envolva os clientes em vários canais, incluindo campanhas de marketing, suporte ao cliente e atualizações transacionais. &#x200B;
@@ -36,7 +40,7 @@ Aproveite o Perfil do cliente em tempo real no [!DNL Adobe Journey Optimizer] pa
 >
 >* [Documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR){target="_blank"}
 >* [Medidas de proteção padrão para dados e segmentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails){target="_blank"}
->* &#x200B;[Documentação de assimilação de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/home){target="_blank"}
+>* &#x200B;[Documentação de assimilação de dados](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Painel de perfis
 
@@ -54,4 +58,4 @@ Para acessar perfis, navegue até o menu **[!UICONTROL Cliente]** / **[!UICONTRO
 
 Saiba como a Adobe Experience Platform monta e atualiza Perfis de clientes em tempo real e como você pode acessar e usar esses perfis.
 
->[!VIDEO](https://video.tv.adobe.com/v/31686?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

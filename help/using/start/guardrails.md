@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2860'
+ht-degree: 98%
 
 ---
 
@@ -106,11 +106,13 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
 * Fragmentos visuais não são compatíveis entre os modos de uso de temas e estilo manual. Para poder usar um fragmento em um conteúdo ao qual deseja aplicar um tema, esse fragmento precisa ser criado no modo de uso de temas. [Saiba mais sobre temas](../email/apply-email-themes.md)
 * Quando o rastreamento é habilitado em uma jornada ou campanha, se você adicionar links a um fragmento e esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links inclusos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
 
-## Medidas de proteção de públicos-alvo {#audience}
+## Medidas de proteção de públicos-alvo e perfis {#audience}
 
-Você pode publicar até 10 composições de público-alvo em uma determinada sandbox. Se tiver atingido esse limite, será necessário excluir uma composição para liberar espaço e publicar uma nova.
+* Você pode publicar até 10 composições de público-alvo em uma determinada sandbox. Se tiver atingido esse limite, será necessário excluir uma composição para liberar espaço e publicar uma nova.
 
-Saiba mais sobre a composição de público-alvo [nesta página](../audience/get-started-audience-orchestration.md).
+  Saiba mais sobre a composição de público-alvo [nesta página](../audience/get-started-audience-orchestration.md).
+
+* Ao assimilar dados, os emails fazem distinção entre maiúsculas e minúsculas. Isso significa que perfis duplicados podem ser criados (por exemplo, um perfil para John.Greene@luma.com, outro perfil para john.green@luma.com) e usados ao direcionar esses perfis em suas jornadas e campanhas do [!DNL Journey Optimizer].
 
 ## Medidas de proteção de decisão e gestão de decisões {#decisioning-guardrails}
 
