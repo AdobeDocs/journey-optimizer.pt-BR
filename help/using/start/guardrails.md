@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
+source-git-commit: d983d10124be2bad645ad3d8f14c38c26a453d5a
 workflow-type: tm+mt
 source-wordcount: '2860'
 ht-degree: 98%
@@ -112,7 +112,7 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
 
   Saiba mais sobre a composição de público-alvo [nesta página](../audience/get-started-audience-orchestration.md).
 
-* Ao assimilar dados, os emails fazem distinção entre maiúsculas e minúsculas. Isso significa que perfis duplicados podem ser criados (por exemplo, um perfil para John.Greene@luma.com, outro perfil para john.green@luma.com) e usados ao direcionar esses perfis em suas jornadas e campanhas do [!DNL Journey Optimizer].
+* Ao assimilar dados, os emails fazem distinção entre maiúsculas e minúsculas. Isso significa que perfis duplicados podem ser criados (por exemplo, um perfil para John.Greene@luma.com, outro perfil para john.greene@luma.com) e usados ao direcionar esses perfis em suas jornadas e campanhas do [!DNL Journey Optimizer].
 
 ## Medidas de proteção de decisão e gestão de decisões {#decisioning-guardrails}
 
