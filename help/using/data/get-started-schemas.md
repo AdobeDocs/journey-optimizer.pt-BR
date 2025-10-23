@@ -10,8 +10,8 @@ keywords: esquemas, plataforma, dados, estrutura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 100%
 
 ---
 

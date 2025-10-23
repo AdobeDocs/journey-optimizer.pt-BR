@@ -11,9 +11,9 @@ keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 4afd8e455ca0d61ad860ec735c30f1b36bb54e1b
 workflow-type: tm+mt
-source-wordcount: '4531'
+source-wordcount: '4526'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -744,19 +744,12 @@ Saiba mais sobre [políticas de mesclagem](../audience/get-started-profiles.md) 
 
 +++ Qual é a diferença entre uma Condição e uma atividade de Espera?
 
-**Atividade de condição**:
-
-* **Propósito**: cria caminhos diferentes com base na lógica (if/then)
-* **Função**: avalia os dados e encaminha os perfis de acordo
-* **Casos de uso**: segmentar clientes, verificar status, ramificação com base no comportamento
-* **Exemplo**: se o cliente for o VIP, envie uma oferta premium; caso contrário, envie uma oferta padrão
-
-**Atividade de espera**:
-
-* **Propósito**: pausa a jornada por um período
-* **Função**: mantém perfis em um ponto específico antes de continuar
-* **Casos de uso**: intervalo entre mensagens, espera pelo horário comercial, criação de atrasos
-* **Exemplo**: aguarde 3 dias após o email de boas-vindas antes de enviar a próxima mensagem
+| | **Atividade de Condição** | **Atividade de espera** |
+|---|---|---|
+| **Propósito** | Cria caminhos diferentes com base na lógica (if/then) | Pausa a jornada por um período |
+| **Função** | Avalia dados e roteia perfis de acordo | Mantém os perfis em um ponto específico antes de continuar |
+| **Caso de uso** | Segmentar clientes, verificar status, ramificação com base em comportamento | Tempo entre mensagens, espera pelo horário comercial, criação de atrasos |
+| **Exemplo** | Se o cliente for a VIP, enviar oferta premium; caso contrário, enviar oferta padrão | Aguardar 3 dias após o email de boas-vindas antes de enviar a próxima mensagem |
 
 **Eles trabalham juntos**:
 
