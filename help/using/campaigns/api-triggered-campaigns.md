@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 38%
+source-wordcount: '271'
+ht-degree: 35%
 
 ---
 
@@ -30,14 +30,11 @@ As campanhas acionadas por API permitem que as comunicações de marketing alcan
 
 Para fazer isso, primeiro é necessário criar uma campanha acionada por API no Journey Optimizer e, em seguida, iniciar sua execução por meio de uma chamada de API usando a [API REST de Execução de Mensagem Interativa](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
-Os canais disponíveis para campanhas acionadas por API são mensagens de email, SMS e push.
-
 ➡️ [Conheça este recurso no vídeo](#video)
-
 
 >[!NOTE]
 >
->Os canais com suporte são: [Email](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notificações por push](../push/get-started-push.md).
+>Os canais com suporte são: [Email](../email/get-started-email.md), [SMS](../sms/get-started-sms.md), [Notificações por push](../push/get-started-push.md). Atualmente, as campanhas acionadas pela API de alta taxa de transferência são compatíveis apenas com o canal de email.
 >
 >Os canais disponíveis variam com base no modelo de licenciamento e nos complementos.
 
@@ -57,4 +54,4 @@ Antes de começar com campanhas, verifique os seguintes pré-requisitos listados
 
 Saiba como criar uma campanha e acioná-la a partir de um sistema externo com base em interações do usuário, usando a API REST de execução de mensagem interativa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452730?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

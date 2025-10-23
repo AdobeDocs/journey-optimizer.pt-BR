@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '3003'
+source-wordcount: '3011'
 ht-degree: 98%
 
 ---
@@ -231,6 +231,7 @@ ht-degree: 98%
       + [Agendar a campanha](using/campaigns/api-triggered-campaign-schedule.md)
       + [Revisar e ativar a campanha](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Acionar a execução da campanha](using/campaigns/trigger-campaigns.md)
+      + [Ativar o modo de alta taxa de transferência para campanhas acionadas por API](using/campaigns/api-triggered-high-throughput.md)
    + Campanhas orquestradas {#orchestrated-campaigns}
       + [Campanhas orquestradas](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Introdução às campanhas orquestradas](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -501,7 +502,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)

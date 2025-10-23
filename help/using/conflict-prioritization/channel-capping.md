@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1226'
 ht-degree: 5%
 
 ---
@@ -116,7 +116,7 @@ Para aplicar um conjunto de regras a uma mensagem, siga estas etapas:
 
 1. Antes de ativar sua jornada ou campanha, certifique-se de agendar sua execução pelo menos 10 minutos no futuro.
 
-   Isso permite tempo suficiente para preencher os valores do contador no perfil da regra de negócios selecionada. Se você ativar a campanha imediatamente, os valores do contador do conjunto de regras não serão preenchidos nos perfis dos recipients e a mensagem não será contada em relação às regras de limite de frequência para os conjuntos de regras personalizados. Além disso, o limite pode não funcionar corretamente para jornadas e campanhas ativadas imediatamente e campanhas acionadas por API.
+   Isso permite tempo suficiente para preencher os valores do contador no perfil da regra de negócios selecionada. Se você ativar a campanha imediatamente, os valores do contador do conjunto de regras não serão preenchidos nos perfis dos recipients e a mensagem não será contada em relação às regras de limite de frequência para os conjuntos de regras personalizados. Além disso, o limite pode não funcionar corretamente para jornadas e campanhas ativadas imediatamente e campanhas acionadas pela API.
 
    ![](assets/rule-set-schedule-campaign.png)
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

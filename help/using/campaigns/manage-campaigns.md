@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1709'
 ht-degree: 14%
 
 ---
@@ -78,7 +78,7 @@ Para campanhas acionadas por Ação e API, as ações adicionais abaixo estão d
 
 ## Ciclo de vida da campanha {#statuses}
 
-No Adobe Journey Optimizer, cada campanha passa por um ciclo de vida refletido pelo status na interface. Os status disponíveis variam dependendo do tipo de campanha — Ação, acionada por API ou Orquestrada. Use as guias abaixo para explorar o ciclo de vida e os status específicos de cada tipo de campanha.
+No Adobe Journey Optimizer, cada campanha passa por um ciclo de vida refletido pelo status na interface. Os status disponíveis variam dependendo do tipo de campanha — Ação, API acionada ou Orquestrada. Use as guias abaixo para explorar o ciclo de vida e os status específicos de cada tipo de campanha.
 
 >[!BEGINTABS]
 

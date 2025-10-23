@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d6905059dbf1504407c49f76415e4c6eb819bed7
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 49%
+source-wordcount: '1122'
+ht-degree: 45%
 
 ---
 
@@ -182,23 +182,23 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table-->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>High throughput messaging for API triggered email campaigns</strong><br/></th>
+<th><strong>Mensagens de alta taxa de transferência para campanhas de email acionadas por API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A new high throughput transactional messaging mode is available in API triggered campaigns. This mode is designed for large-scale, real-time transactional messaging and supports up to 5,000 transactions per second with higher availability. This mode also supports transactional messages without referencing or creating customer profiles, such as guest checkout, order confirmation, password resets, security notifications, and one-time passwords for two-factor authentication.</p>
-<p>This capability is only available for the email channel, for organizations that have purchased the Adobe High Throughput Transactional Messaging add-on offering. Contact your Adobe representative for more details.</p>
-<p>For more information, refer to the <a href="../campaigns/api-triggered-campaign-action.md">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
+<p>Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real em larga escala e aceita até 5.000 transações por segundo com maior disponibilidade. Esse modo também aceita mensagens transacionais sem fazer referência ou criar perfis de clientes, como check-out de convidado, confirmação de pedido, redefinições de senha, notificações de segurança e outros avisos operacionais/de serviço.</p>
+<p>Esse recurso só está disponível para o canal de email, em organizações que compraram a oferta complementar de mensagens transacionais de alta taxa de transferência da Adobe. Entre em contato com seu representante da Adobe para obter mais informações.</p>
+<p>Para obter mais informações, consulte a <a href="../campaigns/api-triggered-high-throughput.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 22 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <table>
 <thead>
@@ -268,7 +268,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tr>
 <td>
 <p>O Journey Optimizer Experimentation Accelerator agora inclui o Agente de experimentação, uma ferramenta conversacional alimentada por IA que permite a você interagir com seus experimentos, insights e oportunidades. Ele melhora a experiência do Journey Optimizer Experimentation Accelerator, ajudando você a executar experimentos com mais eficiência, descobrir o que funciona e descobrir onde otimizar a seguir.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=pt-BR" target="_blank">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: sábado, 10 de outubro de 2025</p>
 </td>
 </tr>

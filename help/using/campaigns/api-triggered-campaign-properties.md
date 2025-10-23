@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 24%
+source-wordcount: '297'
+ht-degree: 20%
 
 ---
 
@@ -27,6 +27,18 @@ Para criar uma nova campanha acionada por API, siga estas etapas:
    * **[!UICONTROL API acionada - Marketing]** - Selecione esse tipo de campanha acionada por API para enviar comunicações de marketing personalizadas a públicos-alvo direcionados.
 
    * **[!UICONTROL API acionada - Transacional]** - As campanhas transacionais são destinadas a enviar mensagens transacionais, ou seja, mensagens enviadas após uma ação executada por um indivíduo: solicitação de redefinição de senha, compra de carrinho, etc.
+
+     +++Modo de alto rendimento
+
+     Para campanhas acionadas por API transacional, é possível habilitar o modo **[!UICONTROL Alta Taxa de Transferência]**. Esse modo foi projetado para mensagens em tempo real em larga escala (até 5.000 transações por segundo) e fornece maior disponibilidade com menor latência. [Saiba como trabalhar com o modo de Reagrupamento](../campaigns/api-triggered-high-throughput.md)
+
+     >[!AVAILABILITY]
+     >
+     >Atualmente, o modo de alta taxa de transferência está disponível somente para o canal de email e na região dos EUA.
+     >
+     >Esse recurso só está disponível para organizações que compraram a oferta complementar **Mensagens transacionais de alta taxa de transferência** da Adobe. Entre em contato com seu representante da Adobe para obter mais informações.
+
+     +++
 
    ![](assets/api-triggered-modal.png)
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: campaign, review, validation, ativating, ativating, otimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 1d3638499a9e8261a5f1b09744b82642198a5d5d
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '218'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,10 @@ Depois que sua campanha for ativada, é necessário recuperar a solicitação de
 
    ![](assets/api-triggered-curl.png)
 
-1. Use essa solicitação de cURL nas APIs para criar sua carga e acionar a campanha. Para obter mais informações, consulte a [documentação da API de Execução de Mensagens Interativas](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+   >[!IMPORTANT]
+   >
+   >Os pontos de extremidade na seção cURL diferem entre as [campanhas padrão e de alta taxa de transferência](../campaigns/api-triggered-high-throughput.md).
+
+1. Use essa solicitação de cURL nas APIs para criar sua carga e acionar a campanha. Para obter mais informações, consulte a [documentação da API de Execução de Mensagens Interativas](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution), onde todos os pontos de extremidade para campanhas padrão e de Alta Taxa de Transferência são listados.
 
    Exemplos de chamadas de API também estão disponíveis em [esta página](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).

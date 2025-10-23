@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 55%
+source-wordcount: '438'
+ht-degree: 52%
 
 ---
 
@@ -28,7 +28,7 @@ Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal 
 
    >[!NOTE]
    >
-   >Os canais com suporte são: [Email](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notificações por push](../push/get-started-push.md).
+   >Os canais com suporte são: [Email](../email/get-started-email.md), [SMS](../sms/get-started-sms.md), [Notificações por push](../push/get-started-push.md). Atualmente, as campanhas acionadas pela API de alta taxa de transferência são compatíveis apenas com o canal de email.
    >
    >Os canais disponíveis variam com base no modelo de licenciamento e nos complementos.
 
@@ -36,7 +36,7 @@ Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal 
 
    Uma configuração é definida por um [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba como definir configurações de canal](../configuration/channel-surfaces.md)
 
-   ![](assets/create-campaign-action.png)
+   ![](assets/api-triggered-create-campaign-action.png)
 
 1. **Aproveitar Otimização**
 
