@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: email, design, acessibilidade
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 0%
+source-wordcount: '1638'
+ht-degree: 1%
 
 ---
 
@@ -142,9 +142,9 @@ Para verificar de maneira mais consistente se o conteúdo está acessível de ma
 
 ## Usar modo escuro {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
-
 O modo escuro melhora a acessibilidade visual para usuários com sensibilidade à luz ou deficiências visuais, para melhorar a experiência de visualização.
+
+O Designer de email permite alternar para o modo de exibição **[!UICONTROL Escuro]** e definir configurações personalizadas específicas que serão exibidas pelos clientes de email de suporte. [Saiba mais](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
