@@ -6,9 +6,9 @@ topic: Integrations, Content Management
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 9bd0b149acdce17b8157e6c0e747353e0dd00cc8
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '958'
 ht-degree: 7%
 
 ---
@@ -53,6 +53,8 @@ Muitas vezes, eles são uma combinação de vários atributos, além de eventos 
 
 * Ao criar [direcionamento de otimização de conteúdo](../campaigns/campaigns-message-optimization.md#targeting) em jornadas ou campanhas;
 * Ao compilar [otimização de caminho de jornada](../building-journeys/optimize.md#targeting).
+
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Regras de acesso {#access}
 
@@ -129,3 +131,9 @@ Para criar uma regra, siga estas etapas:
 >Uma sequência de regras pode ter até 15 KB para caracteres codificados em UTF-8. É equivalente a 15.000 caracteres ASCII (1 byte cada) ou 3.750-7.500 caracteres não ASCII (2-4 bytes cada).
 >
 >[Saiba mais sobre as Medidas de proteção e limitações das Regras de elegibilidade](decisioning-guardrails.md#eligibility-rules)
+
+## Vídeo tutorial {#video}
+
+Saiba como criar, duplicar e aplicar **regras de direcionamento** reutilizáveis no Adobe Journey Optimizer para personalizar campanhas com eficiência com base em atributos de cliente, como região, idioma e comportamento, economizando tempo e melhorando a precisão do público-alvo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
