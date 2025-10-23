@@ -6,9 +6,9 @@ description: Saiba como acessar e trabalhar com  [!DNL Adobe Journey Optimizer] 
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '448'
 ht-degree: 24%
 
 ---
@@ -133,3 +133,13 @@ Selecione uma experiência de entrada para descobrir os **relatórios globais de
 <td><img alt="Cartões de conteúdo" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>Cartões de conteúdo</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Relatório de campanha</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Relatório de jornada</strong></a></p></div></td>
 </tr></table>
+
+### Vídeo tutorial {#video}
+
+Saiba como usar o Relatório de tempo integral no Adobe Journey Optimizer de maneira eficiente.
+
++++Ver vídeo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++

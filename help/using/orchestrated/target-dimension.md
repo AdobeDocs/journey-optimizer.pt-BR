@@ -5,9 +5,9 @@ title: Crie sua Targeting dimension
 description: Saiba como mapear um esquema relacional para o perfil do cliente
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,8 @@ Ao configurar o direcionamento, você define dois aspectos principais:
 
   O sistema deve entender como o esquema de destino mapeia para o esquema `Profile`. Isso é feito por meio de um campo de identidade compartilhado — um que existe tanto no esquema de destino quanto no esquema `Profile` e está configurado como um namespace de identidade.
 
+➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+
 ## Crie sua Targeting dimension {#targeting-dimension}
 
 Comece configurando a orquestração de campanhas, mapeando um esquema relacional para o perfil do cliente.
@@ -51,7 +53,7 @@ Comece configurando a orquestração de campanhas, mapeando um esquema relaciona
 
    Neste exemplo, o perfil do cliente está vinculado a várias assinaturas, cada uma representada por um único `crmID` no esquema `Recipient`. Ao configurar o **[!UICONTROL Dimension de Destino]** para usar o esquema `Recipient` e sua identidade `crmID`, você poderá enviar mensagens no nível de assinatura, em vez de no perfil principal do cliente, garantindo que cada contrato ou linha receba sua própria mensagem personalizada.
 
-   [Saiba mais na documentação da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition#identity)
+   [Saiba mais na documentação da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
