@@ -80,7 +80,7 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Tipo de regra"
->abstract="Selecione o tipo de regra desejado para seu conjunto de regras de canal: use o tipo **Limite de frequência** para aplicar regras de limite a canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia. Selecione **Período de silêncio** (disponível em Disponibilidade limitada) para definir exclusões com base no tempo para garantir que nenhuma mensagem seja enviada durante períodos específicos de tempo."
+>abstract="Selecione o tipo de regra desejado para seu conjunto de regras de canal: use o tipo **Limite de frequência** para aplicar regras de limite a canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia. Selecione **Período de silêncio** (disponível em Disponibilidade limitada) para definir exclusões com base no tempo para garantir que nenhuma mensagem seja enviada durante períodos específicos de tempo.&quot;
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -180,4 +180,4 @@ Seu status será alterado para **[!UICONTROL Inativo]** e a regra não se aplica
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
