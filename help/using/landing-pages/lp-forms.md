@@ -9,12 +9,10 @@ role: User
 level: Beginner
 keywords: landing page, landing page, criação, página, formulário
 badge: label="Disponibilidade limitada" type="Informative"
-hidefromtoc: true
-hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
+source-git-commit: c91bfc19a8c68b7b914c552349f50e7d47d150df
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1572'
 ht-degree: 9%
 
 ---
@@ -23,7 +21,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+>No momento, esse recurso está na disponibilidade limitada para clientes nos Estados Unidos e na Austrália. Entre em contato com o representante da Adobe para obter acesso.
 
 Para capturar dados de perfil com suas páginas de aterrissagem do [!DNL Journey Optimizer] e enriquecer seus conjuntos de dados do [!DNL Experience Platform], você pode usar formulários em suas páginas de aterrissagem.
 
@@ -53,9 +51,13 @@ Ao criar uma predefinição:
    * **Conexão de destino** - onde os dados são armazenados ou consumidos.
    * **Fluxo do Source** - o pipeline que move os dados da conexão de origem para [!DNL Experience Platform], manipulando o mapeamento, a transformação e a validação.
 
+<!--
 >[!NOTE]
 >
-> Para acessar e editar predefinições de formulário, você deve ter a permissão **[!UICONTROL Gerenciar predefinições de formulário]** na sandbox de produção. Saiba mais sobre permissões em [esta seção](../administration/high-low-permissions.md#administration-permissions).<!--TBC-->
+> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
+-->
+
+Para criar uma predefinição de formulário, siga as etapas abaixo.
 
 1. Para acessar o inventário **[!UICONTROL Predefinições de formulário]**, selecione **[!UICONTROL Administração]** > **[!UICONTROL Canais]** >**[!UICONTROL Configurações de formulário]** no menu esquerdo.
 
@@ -75,7 +77,7 @@ Ao criar uma predefinição:
 
    >[!NOTE]
    >
-   >Atualmente, apenas [!DNL Adobe Experience Platform] conjuntos de dados estão disponíveis para seleção. Somente um conjunto de dados pode ser selecionado de cada vez.
+   >Atualmente, apenas [!DNL Adobe Experience Platform] conjuntos de dados estão disponíveis para seleção. Um conjunto de dados pode ser selecionado de cada vez. [Saiba mais sobre conjuntos de dados](../data/get-started-datasets.md)
 
 1. Clique em **[!UICONTROL Publicar]**. Sua predefinição agora está pronta para ser usada em um formulário.
 
@@ -192,7 +194,7 @@ Depois de selecionar um atributo de campo ou adicionar um campo personalizado, v
 >title="Página de agradecimento "
 >abstract="Configure o que acontece quando alguém preenche ou encaminha o formulário."
 
-Na seção **[!UICONTROL Página de agradecimento]**, configure o que acontece quando um usuário preenche o formulário.
+De volta aos detalhes do formulário, na **[!UICONTROL página de agradecimento]**, configure o que acontece quando um usuário preenche o formulário.
 
 ![](assets/lp_create-form-thank-you.png){width=70%}
 
@@ -239,7 +241,7 @@ Depois que um formulário for publicado, você ainda poderá editá-lo. Siga as 
 
 ## Usar o formulário em uma página de destino {#leverage-form-in-lp}
 
-Agora é possível incorporar esse formulário em uma página de aterrissagem para capturar dados correspondentes aos atributos definidos no formulário e salvá-los no conjunto de dados selecionado. Siga as etapas abaixo.
+Agora é possível incorporar este formulário em uma página de aterrissagem para capturar dados correspondentes aos atributos definidos no formulário e salvá-los no conjunto de dados selecionado. Siga as etapas abaixo.
 
 1. Crie uma landing page. [Saiba como](create-lp.md#create-landing-page)
 
@@ -263,7 +265,7 @@ Agora é possível incorporar esse formulário em uma página de aterrissagem pa
 
    >[!NOTE]
    >
-   >Você pode atualizar o formulário selecionado usando o botão **[!UICONTROL Editar formulário]**. O formulário é aberto em uma nova guia. As etapas para editar o conteúdo do formulário são as mesmas descritas em [esta seção](#create-form).
+   >Você pode atualizar o formulário selecionado usando o botão **[!UICONTROL Editar formulário]**. O formulário é aberto em uma nova guia. As etapas para editar o conteúdo do formulário estão detalhadas em [esta seção](#create-form).
 
 1. Na seção **[!UICONTROL Tipo de acompanhamento]**, configure o que acontece quando um usuário preenche o formulário:
 
