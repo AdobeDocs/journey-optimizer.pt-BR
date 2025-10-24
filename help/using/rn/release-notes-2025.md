@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 23a6a0d0766959a2a073512e805b14edb1a323f0
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '7883'
-ht-degree: 100%
+source-wordcount: '7884'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <li><strong>Insights e oportunidades de experimentos de IA:</strong> vá além das leituras estatísticas com insights e recomendações orientados por IA generativa. Cada experimento agora apresenta oportunidades acionáveis e completas com lógica de apoio para que as equipes possam decidir com mais confiança o que testar a seguir.</li>
 <li><strong>Suporte a MAB (Multi-Armed Bandit) no Journey Optimizer:</strong> maximize o impacto enquanto reduz o tráfego desperdiçado com experimentos de Multi-Armed Bandit. Em vez de dividir públicos-alvo uniformemente, o MAB aloca automaticamente mais visitantes para as variações de melhor desempenho em tempo real, para que você possa entregar melhores experiências a mais clientes enquanto ainda aprende o que funciona.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>Para mais informações, consulte a <a href="../content-management/experiment-accelerator.md">documentação detalhada</a></p>
+<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">documentação detalhada</a></p>
 <p>Data de disponibilidade: 3 de outubro de 2025</p>
 </td>
 </tr>

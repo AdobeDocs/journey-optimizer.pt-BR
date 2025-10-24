@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '3011'
+source-wordcount: '2992'
 ht-degree: 98%
 
 ---
@@ -502,7 +502,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -555,13 +555,8 @@ ht-degree: 98%
    + Experimento de conteúdo {#content-experiment}
       + [Experimento de conteúdo](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introdução ao experimento de conteúdo](using/content-management/get-started-experiment.md)
+      + [Introdução ao Acelerador de experimento](using/content-management/experiment-accelerator-gs.md)
       + [Criar um experimento de conteúdo](using/content-management/content-experiment.md)
-      + Acelerador de experimento {#experiment}
-         + [Introdução ao Acelerador de experimento](using/content-management/experiment-accelerator.md)
-         + [Uso de dados na IA com o Acelerador de experimentação](using/content-management/experiment-accelerator-security.md)
-         + [Práticas recomendadas do acelerador de experimento](using/content-management/experiment-accelerator-best-practices.md)
-         + [Monitor do acelerador de experimento](using/content-management/experiment-accelerator-monitor.md)
-         + [Métricas do acelerador de experimento](using/content-management/experiment-accelerator-metrics.md)
       + Notas técnicas {#technotes}
          + [Notas técnicas](/help/rp_landing_pages/technotes-landing-page.md)
          + [Teste A/B x Multi-armed bandit](using/content-management/mab-vs-ab.md)
