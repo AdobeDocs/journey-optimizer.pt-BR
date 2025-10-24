@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: cd47db2e8fd20049cb7598160e99555b448c7012
+source-git-commit: 9b7e10643aaa4cd6c82e0355c45fa810352f21c0
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1400'
 ht-degree: 7%
 
 ---
@@ -210,9 +210,11 @@ Ao configurar um webhook, você pode definir sua finalidade com base no tipo de 
 
 1. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar suas categorias de palavras-chave e, em seguida, configure-as da seguinte maneira:
 
-   * **[!UICONTROL Categoria de Palavra-chave de Entrada]**: Escolha suas categorias de palavra-chave: **[!UICONTROL Aceitação]**, **[!UICONTROL Recusa]**, **[!UICONTROL Ajuda]** ou **[!UICONTROL Padrão]**.
+   * **[!UICONTROL Categoria de Palavra-chave de Entrada]**: Escolha suas categorias de palavra-chave: **[!UICONTROL Aceitação]**, **[!UICONTROL Recusa]**, **[!UICONTROL Aceitação Dupla]**, **[!UICONTROL Ajuda]** ou **[!UICONTROL Personalizado]**.
 
    * **[!UICONTROL Inserir uma palavra-chave]**: insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua mensagem. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar várias palavras-chave.
+
+     Para **[!UICONTROL Palavra-chave personalizada]**, use palavras-chave não relacionadas a consentimento para ações baseadas em lote em uma jornada.
 
    * **[!UICONTROL Mensagem de resposta]**: selecione no menu suspenso a resposta personalizada que é enviada automaticamente.
 
