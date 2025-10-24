@@ -8,11 +8,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: políticas, governança, plataforma, consentimento, proteção da saúde
-hide: true
-hidefromtoc: true
-source-git-commit: 95f101c3d8f875dbf7988f10b106fc58f705e926
+source-git-commit: bbea90bd21bd19941e8c8df93c8ec7a8a2769d77
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '859'
 ht-degree: 4%
 
 ---
@@ -59,19 +57,19 @@ Digamos que você queira direcionar seus clientes por meio de jornadas e campanh
    >
    >O consentimento do cliente e as preferências de contato são tópicos complexos. Para saber como as preferências de consentimento e contexto podem ser coletadas, processadas e filtradas no [!DNL Experience Platform], é recomendável ler os seguintes documentos:
    >
-   >* Para saber mais sobre os grupos de campos de esquema necessários para coletar dados de consentimento, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Ele detalha como processar os dados de consentimento coletados dos clientes e integrá-los aos perfis de clientes armazenados.
-   >* Para saber mais sobre o grupo de campos Consentimento e Preferência, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Para adicionar campos de preferência personalizados ao esquema, siga as etapas em [esta seção](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
+   >* Para saber mais sobre os grupos de campos de esquema necessários para coletar dados de consentimento, consulte [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Ele detalha como processar os dados de consentimento coletados dos clientes e integrá-los aos perfis de clientes armazenados.
+   >* Para saber mais sobre o grupo de campos Consentimento e Preferência, consulte [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Para adicionar campos de preferência personalizados ao esquema, siga as etapas em [esta seção](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
 
 1. Crie uma página para capturar as preferências dos clientes. Use um dos seguintes métodos:
 
-   * Crie uma página da Web para registrar as preferências dos clientes usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home){target="_blank"}.
+   * Crie uma página da Web para registrar as preferências dos clientes usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}.
 
    * Use uma [!DNL Journey Optimizer] [página de aterrissagem](../landing-pages/create-lp.md) que inclua formulários para capturar as preferências de seus clientes por meio de dados de perfil.  [Saiba mais sobre formulários](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
      >[!NOTE]
      >
-     >Certifique-se de que o domínio da landing page que está sendo usada pertence à marca de nível superior e não a uma submarca. Isso é para garantir a confiança entre os usuários finais. <!--Please clarify-->
+     >Certifique-se de que o domínio da landing page que está sendo usada pertence à marca superior e não a uma submarca. De fato, as preferências coletadas são armazenadas nos dados do perfil, que estão no nível superior da marca.
 
 1. Nessa página, os clientes podem atualizar suas preferências, como assinaturas de tópico, marcando ou desmarcando caixas de seleção.
 
