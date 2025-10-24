@@ -10,9 +10,9 @@ level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: dee9dc2c2229314940def5f0279699d877d50df6
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1560'
 ht-degree: 19%
 
 ---
@@ -39,6 +39,10 @@ Os seguintes tipos de condições estão disponíveis:
 * [Limite de perfil](#profile_cap)
 
 Você também pode usar um público-alvo em uma condição de jornada. [Saiba mais](#using-a-segment)
+
+>[!NOTE]
+>
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adicionar e gerenciar caminhos de condição {#about_condition}
 
@@ -176,4 +180,4 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
