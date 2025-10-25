@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: email, design, acessibilidade
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
 source-wordcount: '1638'
 ht-degree: 1%
@@ -73,7 +73,7 @@ Para garantir que seu conteúdo seja visualmente acessível, siga as práticas r
 * Otimize seu design para layouts móveis e responsivos, garantindo que os botões sejam grandes e espaçados corretamente.
 * Teste regularmente entre dispositivos e tamanhos de tela para manter a acessibilidade.
 
-No [!DNL Journey Optimizer], o tamanho e o espaçamento dos diferentes elementos no seu conteúdo podem ser refinados usando os parâmetros de estilo e atributos do painel **[!UICONTROL Estilos]** do Email Designer. [Saiba mais](get-started-email-style.md)
+No [!DNL Journey Optimizer], o tamanho e o espaçamento dos diferentes elementos no seu conteúdo podem ser refinados usando os parâmetros de estilo e atributos do painel **[!UICONTROL Estilos]** do Email Designer. [Saiba como](get-started-email-style.md)
 
 Por exemplo, você pode atualizar o [plano de fundo](backgrounds.md) ou alterar as margens, o preenchimento e o alinhamento para melhorar a acessibilidade visual do seu conteúdo. [Saiba mais](alignment-and-padding.md)
 
@@ -89,7 +89,7 @@ Além disso, o Designer de email do [!DNL Journey Optimizer] permite que você v
 
 ## Usar texto alternativo para imagens {#alt-text}
 
-Use o componente **[!UICONTROL Imagem]** para fornecer texto alternativo para imagens. [Saiba mais](content-components.md#image)
+Use o componente **[!UICONTROL Imagem]** para fornecer texto alternativo para imagens. [Saiba como](content-components.md#image)
 
 ![](assets/accessible-alt-text.png){width="90%"}
 
@@ -144,7 +144,7 @@ Para verificar de maneira mais consistente se o conteúdo está acessível de ma
 
 O modo escuro melhora a acessibilidade visual para usuários com sensibilidade à luz ou deficiências visuais, para melhorar a experiência de visualização.
 
-O Designer de email permite alternar para o modo de exibição **[!UICONTROL Escuro]** e definir configurações personalizadas específicas que serão exibidas pelos clientes de email de suporte. [Saiba mais](dark-mode.md)
+O Designer de email permite alternar para o modo de exibição **[!UICONTROL Escuro]** e definir configurações personalizadas específicas que serão exibidas pelos clientes de email de suporte. [Saiba como](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 

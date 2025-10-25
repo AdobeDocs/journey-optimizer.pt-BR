@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: componentes, Email Designer, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 50%
+source-wordcount: '1448'
+ht-degree: 48%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 50%
 Ao criar seu conteúdo de email, os **[!UICONTROL Componentes de conteúdo]** permitem personalizar ainda mais seu email com componentes brutos que podem ser editados depois de colocados no email.
 
 É possível adicionar quantos componentes de conteúdo forem necessários dentro de um ou mais componentes de estrutura, que definem o layout do seu email.
+
+>[!NOTE]
+>
+>A [Lei Europeia de Acessibilidade](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} declara que todas as comunicações digitais devem ser acessíveis. Siga as diretrizes específicas listadas em [esta página](accessible-content.md) ao aproveitar os componentes de conteúdo para criar emails em [!DNL Journey Optimizer], como o uso de fontes acessíveis, formatos legíveis e o fornecimento de texto alternativo para imagens.
 
 ## Adicionar componentes de conteúdo {#add-content-components}
 
@@ -169,7 +173,7 @@ Use o componente **[!UICONTROL Imagem]** para inserir um arquivo de imagem do se
 
 1. Na guia **[!UICONTROL Configurações]**, clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos ou em **[!UICONTROL Importar mídia]** para carregar um ativo para a Adobe Experience Manager Assets.
 
-   Para saber mais sobre [!DNL Adobe Experience Manager Assets], consulte a [documentação do Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=pt-BR){target="_blank"}.
+   Para saber mais sobre [!DNL Adobe Experience Manager Assets], consulte a [documentação do Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >
@@ -180,7 +184,7 @@ Use o componente **[!UICONTROL Imagem]** para inserir um arquivo de imagem do se
 1. Clique no componente recém-adicionado e configure as propriedades da imagem:
 
    * **[!UICONTROL Título da imagem]** permite definir um título para a imagem.
-   * **[!UICONTROL Texto alternativo]** permite definir a legenda vinculada à imagem. Isso corresponde ao atributo HTML alternativo.
+   * **[!UICONTROL Texto alternativo]** permite definir a legenda vinculada à imagem. Isso corresponde ao atributo alt HTML. [Saiba mais](../email/accessible-content.md#alt-text)
 
    ![](assets/email_designer_10.png)
 

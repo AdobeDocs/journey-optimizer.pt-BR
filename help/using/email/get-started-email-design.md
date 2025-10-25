@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '654'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,10 @@ Consulte na tabela abaixo as práticas recomendadas de design de emails:
 | Recomendado | Use com cuidado | Não recomendado |
 |-|-|-|
 | <ul><li><b>Layouts estáticos baseados em tabela</b> para a estrutura</li> <li><b>Tabelas em HTML e tabelas aninhadas</b> para consistência do layout</li> <li><b>Larguras do modelo</b> entre 600 px e 800 px </li> <li><b>CSS simples e em linha</b> para o estilo </li> <li><b>Fontes seguras para a web</b> para compatibilidade universal</li> | <ul><li><b>Imagens de fundo</b> podem não aparecer em certas plataformas de email.</li><li><b>Fontes da web personalizadas</b> não têm compatibilidade universal.</li><li><b>Layouts largos</b> podem ser exibidos incorretamente em telas menores.</li><li>Os <b>mapas de imagem</b> oferecem funcionalidade limitada.</li><li>O <b>CSS incorporado</b> às vezes é removido durante a entrega do email.</li> | <ul><li>Geralmente, o <b>JavaScript</b> não é compatível com ambientes de email.</li> <li> Tags <b>`<iframe>`</b> estão bloqueadas na maioria das plataformas. </li> <li>O <b>Flash</b> está obsoleto e não é mais compatível.</li> <li><b>Áudios integrados</b> muitas vezes não podem ser reproduzidos.</li> <li><b>Vídeos integrados</b> são incompatíveis com várias plataformas de email.</li> <li> <b>Formulários</b> não funcionam nos emails.</li> <li> A disposição em camadas de `<div>` pode causar problemas de renderização.</li> |
+
+>[!NOTE]
+>
+>A [Lei Europeia de Acessibilidade](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} declara que todas as comunicações digitais devem ser acessíveis. Além das práticas recomendadas de design de email listadas nesta seção, siga também as diretrizes listadas em [esta página](accessible-content.md) específicas para criar conteúdo acessível com o Designer de email.
 
 ## Etapas principais para criar conteúdo de email {#key-steps}
 
@@ -74,8 +78,8 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
 
 Saiba como criar conteúdo de email com o editor de mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417587?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Saiba como configurar experimentos de conteúdo para testes A/B e explorar o conteúdo de email que melhor impulsiona seus objetivos de negócios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447336?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

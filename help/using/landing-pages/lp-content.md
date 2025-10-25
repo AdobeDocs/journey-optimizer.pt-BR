@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landing page, landing page, criação, página, formulário, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1336'
 ht-degree: 9%
 
 ---
@@ -33,6 +33,10 @@ Para criar conteúdo específico que permita aos usuários selecionar e enviar s
 >Você também pode criar uma página de aterrissagem de click-through sem um componente de **[!UICONTROL Formulário]**. Nesse caso, a landing page será exibida para os usuários, mas eles não precisarão enviar nenhum formulário. Isso pode ser útil se você quiser apenas mostrar uma landing page sem exigir qualquer ação de seus recipients, como aceitação ou recusa, ou se quiser fornecer informações que não exijam entrada do usuário.
 
 Com o designer de conteúdo da página de aterrissagem, você também pode aproveitar os dados contextuais provenientes da página principal em uma subpágina. [Saiba mais](#use-primary-page-context)
+
+>[!NOTE]
+>
+>A [Lei Europeia de Acessibilidade](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} declara que todas as comunicações digitais devem ser acessíveis. Siga as diretrizes específicas listadas em [esta página](../email/accessible-content.md) ao criar o conteúdo em [!DNL Journey Optimizer].
 
 ## Usar o componente de formulário {#use-form-component}
 

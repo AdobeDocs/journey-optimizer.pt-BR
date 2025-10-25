@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: conteúdo, editor, email, iniciar
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 52%
+source-wordcount: '700'
+ht-degree: 50%
 
 ---
 
@@ -60,7 +60,11 @@ ht-degree: 52%
 >abstract="O Designer permite definir facilmente o layout do modelo selecionando a estrutura da coluna."
 
 
-Use o Adobe Journey Optimizer Designer para definir facilmente a estrutura do seu conteúdo. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma do conteúdo em segundos.
+Use o Designer de email do [!DNL Adobe Journey Optimizer] para definir facilmente a estrutura do seu conteúdo. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma do conteúdo em segundos.
+
+>[!NOTE]
+>
+>A [Lei Europeia de Acessibilidade](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} declara que todas as comunicações digitais devem ser acessíveis. Siga as diretrizes específicas listadas em [esta página](accessible-content.md) ao criar o conteúdo em [!DNL Journey Optimizer].
 
 Para começar a criar o conteúdo, siga as etapas abaixo:
 
