@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 78%
+source-wordcount: '397'
+ht-degree: 75%
 
 ---
 
@@ -44,6 +44,10 @@ Para configurar um parâmetro de rastreamento de URL, insira os valores desejado
 
 Os seguintes valores predefinidos estão disponíveis por meio do editor de personalização:
 
+* **ID do perfil de mensagem**: atributo orientado por mensagem que identifica exclusivamente cada mensagem enviada para cada perfil direcionado em uma entrega.
+
+* **ID da oferta**: ID da oferta usada no email.
+
 * **ID da ação de origem**: ID da ação de email adicionada à jornada ou campanha.
 
 * **Nome da ação de origem**: nome da ação de email adicionada à jornada ou campanha.
@@ -53,8 +57,6 @@ Os seguintes valores predefinidos estão disponíveis por meio do editor de pers
 * **Nome de origem**: nome da jornada ou campanha com a qual o email foi enviado.
 
 * **ID da versão de origem**: ID da versão da jornada ou campanha com a qual o email foi enviado.
-
-* **ID da oferta**: ID da oferta usada no email.
 
 >[!NOTE]
 >
