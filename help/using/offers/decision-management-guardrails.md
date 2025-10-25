@@ -6,10 +6,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 14%
+source-wordcount: '348'
+ht-degree: 12%
 
 ---
 
@@ -89,3 +89,9 @@ A taxa de transferência de delivery corresponde ao número de respostas de deci
 | Posicionamentos | 1000 |
 | Modelo de classificação de IA | 5 |
 | Limite de frequência - Número máximo de regras de limite por oferta | 10 |
+
+## Configurações  {#configurations}
+
+O número total de configurações aceitas pelo Gerenciamento de decisão não pode exceder 20.000.
+
+A contagem total de configurações é o número total de [regras de limitação](offer-library/add-constraints.md#capping) existentes em sua sandbox. Para cada regra de limitação aplicada em todos os [posicionamentos](offer-library/creating-placements.md), a regra deve ser multiplicada em todos os posicionamentos associados à oferta especificada.
