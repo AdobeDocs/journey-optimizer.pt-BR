@@ -11,9 +11,9 @@ keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: d1b031dffa860eb4618d985a53ed13b66f136654
+source-git-commit: 0b4dc91b945d17647029d89e294221ff97a26881
 workflow-type: tm+mt
-source-wordcount: '4568'
+source-wordcount: '4938'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -73,6 +73,63 @@ Uma jornada consiste em:
 * **Ações personalizadas**: integração com sistemas de terceiros
 
 Saiba mais sobre [atividades de jornada](about-journey-activities.md).
+
++++
+
++++ Quais tipos de público-alvo são compatíveis com as jornadas e quais são suas limitações?
+
+O Adobe Journey Optimizer é compatível com três tipos de público-alvo, cada um com características e medidas de proteção diferentes:
+
+**1. Públicos-alvo de transmissão**
+
+* **Descrição**: públicos avaliados em tempo real à medida que os dados do perfil são alterados
+* **Avaliação**: avaliação contínua quando atributos de perfil ou eventos correspondem aos critérios do segmento
+* **Uso da Jornada**: suportado nas atividades Read Audience, Audience Qualification e Condition
+* **Recomendado para**: envolvimento em tempo real com base em alterações de comportamento ou atualizações de perfil
+* **Medidas de proteção**:
+   * O tamanho máximo do público depende da sua licença do Journey Optimizer
+   * Latência de avaliação normalmente abaixo de 5 minutos
+   * Lógica de segmento complexa pode afetar o desempenho da avaliação
+
+**2. Públicos em lote**
+
+* **Descrição**: públicos avaliados de acordo com um agendamento (normalmente diariamente)
+* **Avaliação**: processado em trabalhos em lotes em intervalos agendados
+* **Uso da Jornada**: com suporte em atividades Read Audience e Condition; suporte limitado em jornadas de Qualificação de Público
+* **Melhor para**: campanhas regulares, boletins informativos, comunicações programadas
+* **Medidas de proteção**:
+   * A avaliação ocorre uma vez por dia (padrão) ou no cronograma configurado
+   * Os perfis podem não refletir alterações em tempo real até a próxima avaliação
+   * A atividade Ler público-alvo pode processar públicos-alvo de grandes lotes com eficiência
+
+**3. Carregar públicos (Carregamento personalizado)**
+
+* **Descrição**: públicos-alvo criados por meio do carregamento de arquivos CSV com identificadores de perfil
+* **Avaliação**: lista estática atualizada somente quando novos arquivos são carregados
+* **Uso da Jornada**: suportado nas atividades Ler Público e Condição; **não suportado** nas jornadas de Qualificação de Público
+* **Melhor para**: campanhas únicas, importações de listas externas, comunicações direcionadas
+* **Medidas de proteção**:
+   * Limites de tamanho de arquivo CSV aplicáveis (verifique a documentação do produto para limites atuais)
+   * Os membros do público-alvo são estáticos até serem atualizados com um novo upload
+   * O namespace de identidade deve corresponder ao namespace de jornada
+   * Os perfis devem existir no Adobe Experience Platform
+
+**considerações específicas da Jornada**:
+
+* **Ler jornadas de Público-Alvo**: há suporte para os três tipos de público-alvo; a exportação em lote ocorre quando a jornada é executada
+* **jornadas de qualificação de público-alvo**: públicos-alvo de transmissão recomendados; públicos-alvo em lote têm detecção de qualificação atrasada; públicos-alvo de carregamento não suportados
+* **Atividades de condição**: todos os tipos de público-alvo podem ser usados para verificar a associação
+* **Alinhamento de namespace**: o namespace de identidade de público-alvo deve corresponder ao namespace da jornada para a identificação adequada do perfil
+
+**Práticas recomendadas**:
+
+* Use **públicos-alvo de streaming** para jornadas orientadas por eventos e em tempo real que exigem resposta imediata
+* Use **públicos-alvo em lote** para comunicações agendadas em que a avaliação diária é suficiente
+* Use **carregar públicos-alvo** para campanhas ocasionais direcionadas com listas externas
+* Monitorar o tamanho do público-alvo e avaliar o desempenho em implantações de grande escala
+* Considere as taxas de atualização do público-alvo ao projetar o tempo de jornada e as condições de entrada
+
+Saiba mais sobre [públicos-alvo](../audience/about-audiences.md), [criação de segmentos](../audience/creating-a-segment-definition.md) e [carregamento personalizado de públicos-alvo](../audience/custom-upload.md).
 
 +++
 
