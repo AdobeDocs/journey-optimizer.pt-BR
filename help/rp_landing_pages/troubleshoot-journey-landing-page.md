@@ -25,7 +25,7 @@ Esta página reúne recursos essenciais para ajudá-lo a monitorar a integridade
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
 
 Acessar e assinar alertas do sistema
 
@@ -35,7 +35,7 @@ Saiba como acessar alertas do sistema, assinar notificações e monitorar evento
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Referência de códigos de erro
 
@@ -45,7 +45,7 @@ Entenda códigos de erro comuns no Adobe Journey Optimizer e encontre resoluçõ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Resolver erros antes de testar ou publicar a sua jornada
 
@@ -55,7 +55,7 @@ Identifique e resolva erros em toda a jornada e problemas de atividade, e defina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Solução de problemas de execução do Live Jornada
 
@@ -65,7 +65,7 @@ Diagnostique problemas de validação de eventos, entrada de perfil, navegação
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Solução de problemas de ações de entrada no Jornada
 
@@ -75,7 +75,7 @@ Depure problemas de ação de entrada, como conteúdo ausente ou entrega contín
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Solução de problemas de ações personalizadas
 
