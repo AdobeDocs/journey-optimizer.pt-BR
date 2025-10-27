@@ -20,7 +20,7 @@ A Adobe Journey Optimizer aproveita o poder da inteligência artificial e do apr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Assistente de IA para geração de conteúdo
 
@@ -30,7 +30,7 @@ Aproveite a IA gerativa para criar e personalizar conteúdo em emails, SMS, noti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Otimização de tempo de envio
 
@@ -40,7 +40,7 @@ Use a IA para prever o momento ideal para enviar mensagens e maximizar o envolvi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Modelos de IA para a decisão
 
@@ -50,7 +50,7 @@ Crie modelos de otimização automática e personalizada para classificar e forn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Conhecimento de produto do AI Assistant
 
@@ -60,7 +60,7 @@ Obtenha respostas instantâneas e insights operacionais sobre o Adobe Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Experimentação de conteúdo com IA
 
@@ -70,7 +70,7 @@ Gere várias variações de conteúdo e execute experimentos para identificar o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Integração da IA do cliente
 
