@@ -22,7 +22,7 @@ Esta seção apresenta os principais recursos da plataforma, desde a orquestraç
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Principais recursos
 
@@ -32,7 +32,7 @@ Descubra os principais recursos, casos de uso e arquitetura do Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Visão geral da arquitetura
 
@@ -42,7 +42,7 @@ Entenda como o Adobe Journey Optimizer integra-se à Adobe Experience Platform p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Funções e responsabilidades
 
@@ -52,7 +52,7 @@ Obtenha uma visão geral das funções e dos fluxos de trabalho necessários par
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Visão geral da interface do usuário
 
@@ -62,7 +62,7 @@ Navegue pela interface do Adobe Journey Optimizer e explore seus recursos, inclu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Pesquisar, filtrar e organizar conteúdo
 
@@ -72,7 +72,7 @@ Use os recursos de pesquisa, filtro e marcação para gerenciar e organizar jorn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Medidas de proteção e limitações
 
