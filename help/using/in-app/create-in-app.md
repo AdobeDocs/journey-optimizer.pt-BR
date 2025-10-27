@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
+source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2076'
 ht-degree: 12%
 
 ---
@@ -110,7 +110,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
    1. Escolha a frequência do acionador quando a mensagem no aplicativo estiver ativa:
 
       * **[!UICONTROL Mostrar sempre]**: sempre mostrar a mensagem quando os eventos selecionados no menu suspenso **[!UICONTROL Acionador do aplicativo móvel]** ocorrerem.
-      * **[!UICONTROL Mostrar uma vez]**: mostrar esta mensagem somente na primeira vez que os eventos selecionados no menu suspenso **[!UICONTROL Acionador do aplicativo móvel]** ocorrerem.
+      * **[!UICONTROL Mostrar uma vez]**: esta mensagem aparece apenas uma vez por sessão de usuário e permanece visível em todas as janelas ou atividades até ser fechada. Para limitá-lo a uma determinada tela ou fazer com que ele seja descartado automaticamente, use a lógica personalizada com o delegado de mensagens.
       * **[!UICONTROL Mostrar até clicar]**: mostra esta mensagem quando os eventos selecionados no menu suspenso **[!UICONTROL Acionador do aplicativo móvel]** ocorrerem até que um evento de interação seja enviado pela SDK com uma ação de &quot;clicado&quot;.
 
 1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
@@ -236,7 +236,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451887?quality=12&learn=on&captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +244,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445293/?learn=on&autoplay=true&captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
