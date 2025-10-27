@@ -5,10 +5,10 @@ title: Resolução de problemas
 description: Resolução de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 7894041f841ed14eb3feb626f7d8d818c1b464fa
+source-git-commit: eca6378093abcb2a75ebfee56be82bb2257d514d
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 31%
+source-wordcount: '402'
+ht-degree: 26%
 
 ---
 
@@ -25,7 +25,7 @@ Esta página reúne recursos essenciais para ajudá-lo a monitorar a integridade
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Acessar e assinar alertas do sistema
 
@@ -35,7 +35,7 @@ Saiba como acessar alertas do sistema, assinar notificações e monitorar evento
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referência de códigos de erro
 
@@ -45,7 +45,7 @@ Entenda códigos de erro comuns no Adobe Journey Optimizer e encontre resoluçõ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Resolver erros antes de testar ou publicar a sua jornada
 
@@ -55,9 +55,9 @@ Identifique e resolva erros em toda a jornada e problemas de atividade, e defina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Resolução de problemas de execução da jornada em tempo real no Adobe Journey Optimizer
+Solução de problemas de execução do Live Jornada
 
 Diagnostique problemas de validação de eventos, entrada de perfil, navegação da jornada e entrega de mensagens durante a execução em tempo real.
 
@@ -65,9 +65,9 @@ Diagnostique problemas de validação de eventos, entrada de perfil, navegação
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Resolução de problemas de ações de entrada em jornadas do Adobe Journey Optimizer
+Solução de problemas de ações de entrada no Jornada
 
 Depure problemas de ação de entrada, como conteúdo ausente ou entrega contínua após a saída do perfil, usando guias passo a passo detalhados.
 
@@ -75,9 +75,9 @@ Depure problemas de ação de entrada, como conteúdo ausente ou entrega contín
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Resolução de problemas de ações personalizadas no Adobe Journey Optimizer
+Solução de problemas de ações personalizadas
 
 Valide e depure ações personalizadas com o recurso “Enviar solicitação de teste” para garantir que as chamadas da API e as configurações de autenticação estejam corretas.
 
