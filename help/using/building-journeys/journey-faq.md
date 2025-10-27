@@ -11,9 +11,9 @@ keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 0b4dc91b945d17647029d89e294221ff97a26881
+source-git-commit: aece514b3ce21fa7b7a7ada546b4757ce00fa912
 workflow-type: tm+mt
-source-wordcount: '4938'
+source-wordcount: '4568'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -76,62 +76,65 @@ Saiba mais sobre [atividades de jornada](about-journey-activities.md).
 
 +++
 
-+++ Quais tipos de público-alvo são compatíveis com as jornadas e quais são suas limitações?
+<!-- WAITING FOR VALIDATION
 
-O Adobe Journey Optimizer é compatível com três tipos de público-alvo, cada um com características e medidas de proteção diferentes:
++++ What types of audiences are supported in journeys and what are their limitations?
 
-**1. Públicos-alvo de transmissão**
+Adobe Journey Optimizer supports three types of audiences, each with different characteristics and guardrails:
 
-* **Descrição**: públicos avaliados em tempo real à medida que os dados do perfil são alterados
-* **Avaliação**: avaliação contínua quando atributos de perfil ou eventos correspondem aos critérios do segmento
-* **Uso da Jornada**: suportado nas atividades Read Audience, Audience Qualification e Condition
-* **Recomendado para**: envolvimento em tempo real com base em alterações de comportamento ou atualizações de perfil
-* **Medidas de proteção**:
-   * O tamanho máximo do público depende da sua licença do Journey Optimizer
-   * Latência de avaliação normalmente abaixo de 5 minutos
-   * Lógica de segmento complexa pode afetar o desempenho da avaliação
+**1. Streaming audiences**
 
-**2. Públicos em lote**
+* **Description**: Audiences that evaluate in real-time as profile data changes
+* **Evaluation**: Continuous evaluation when profile attributes or events match segment criteria
+* **Journey usage**: Supported in Read Audience, Audience Qualification, and Condition activities
+* **Best for**: Real-time engagement based on behavioral changes or profile updates
+* **Guardrails**:
+  * Maximum audience size depends on your Journey Optimizer license
+  * Evaluation latency typically under 5 minutes
+  * Complex segment logic may impact evaluation performance
 
-* **Descrição**: públicos avaliados de acordo com um agendamento (normalmente diariamente)
-* **Avaliação**: processado em trabalhos em lotes em intervalos agendados
-* **Uso da Jornada**: com suporte em atividades Read Audience e Condition; suporte limitado em jornadas de Qualificação de Público
-* **Melhor para**: campanhas regulares, boletins informativos, comunicações programadas
-* **Medidas de proteção**:
-   * A avaliação ocorre uma vez por dia (padrão) ou no cronograma configurado
-   * Os perfis podem não refletir alterações em tempo real até a próxima avaliação
-   * A atividade Ler público-alvo pode processar públicos-alvo de grandes lotes com eficiência
+**2. Batch audiences**
 
-**3. Carregar públicos (Carregamento personalizado)**
+* **Description**: Audiences evaluated on a scheduled basis (typically daily)
+* **Evaluation**: Processed in batch jobs at scheduled intervals
+* **Journey usage**: Supported in Read Audience and Condition activities; limited support in Audience Qualification journeys
+* **Best for**: Regular campaigns, newsletters, scheduled communications
+* **Guardrails**:
+  * Evaluation occurs once per day (default) or at configured schedule
+  * Profiles may not reflect real-time changes until next evaluation
+  * Read Audience activity can process large batch audiences efficiently
 
-* **Descrição**: públicos-alvo criados por meio do carregamento de arquivos CSV com identificadores de perfil
-* **Avaliação**: lista estática atualizada somente quando novos arquivos são carregados
-* **Uso da Jornada**: suportado nas atividades Ler Público e Condição; **não suportado** nas jornadas de Qualificação de Público
-* **Melhor para**: campanhas únicas, importações de listas externas, comunicações direcionadas
-* **Medidas de proteção**:
-   * Limites de tamanho de arquivo CSV aplicáveis (verifique a documentação do produto para limites atuais)
-   * Os membros do público-alvo são estáticos até serem atualizados com um novo upload
-   * O namespace de identidade deve corresponder ao namespace de jornada
-   * Os perfis devem existir no Adobe Experience Platform
+**3. Upload audiences (Custom upload)**
 
-**considerações específicas da Jornada**:
+* **Description**: Audiences created by uploading CSV files with profile identifiers
+* **Evaluation**: Static list updated only when new files are uploaded
+* **Journey usage**: Supported in Read Audience and Condition activities; **not supported** in Audience Qualification journeys
+* **Best for**: One-time campaigns, external list imports, targeted communications
+* **Guardrails**:
+  * CSV file size limits apply (check product documentation for current limits)
+  * Audience members are static until refreshed with new upload
+  * Identity namespace must match journey namespace
+  * Profiles must exist in Adobe Experience Platform
 
-* **Ler jornadas de Público-Alvo**: há suporte para os três tipos de público-alvo; a exportação em lote ocorre quando a jornada é executada
-* **jornadas de qualificação de público-alvo**: públicos-alvo de transmissão recomendados; públicos-alvo em lote têm detecção de qualificação atrasada; públicos-alvo de carregamento não suportados
-* **Atividades de condição**: todos os tipos de público-alvo podem ser usados para verificar a associação
-* **Alinhamento de namespace**: o namespace de identidade de público-alvo deve corresponder ao namespace da jornada para a identificação adequada do perfil
+**Journey-specific considerations**:
 
-**Práticas recomendadas**:
+* **Read Audience journeys**: All three audience types supported; batch export occurs when journey runs
+* **Audience Qualification journeys**: Streaming audiences recommended; batch audiences have delayed qualification detection; upload audiences not supported
+* **Condition activities**: All audience types can be used to check membership
+* **Namespace alignment**: Audience identity namespace must match the journey's namespace for proper profile identification
 
-* Use **públicos-alvo de streaming** para jornadas orientadas por eventos e em tempo real que exigem resposta imediata
-* Use **públicos-alvo em lote** para comunicações agendadas em que a avaliação diária é suficiente
-* Use **carregar públicos-alvo** para campanhas ocasionais direcionadas com listas externas
-* Monitorar o tamanho do público-alvo e avaliar o desempenho em implantações de grande escala
-* Considere as taxas de atualização do público-alvo ao projetar o tempo de jornada e as condições de entrada
+**Best practices**:
 
-Saiba mais sobre [públicos-alvo](../audience/about-audiences.md), [criação de segmentos](../audience/creating-a-segment-definition.md) e [carregamento personalizado de públicos-alvo](../audience/custom-upload.md).
+* Use **streaming audiences** for real-time, event-driven journeys requiring immediate response
+* Use **batch audiences** for scheduled communications where daily evaluation is sufficient
+* Use **upload audiences** for targeted one-time campaigns with external lists
+* Monitor audience size and evaluation performance in large-scale deployments
+* Consider audience refresh rates when designing journey timing and entry conditions
+
+Learn more about [audiences](../audience/about-audiences.md), [creating segments](../audience/creating-a-segment-definition.md), and [custom upload audiences](../audience/custom-upload.md).
 
 +++
+-->
 
 +++ Como posso escolher entre uma jornada unitária e uma jornada de público-alvo de leitura?
 
