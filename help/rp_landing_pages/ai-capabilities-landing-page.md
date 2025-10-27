@@ -30,7 +30,7 @@ Aproveite a IA gerativa para criar e personalizar conteúdo em emails, SMS, noti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
 
 Otimização de tempo de envio
 
@@ -70,7 +70,7 @@ Gere várias variações de conteúdo e execute experimentos para identificar o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg?lang=pt-BR)
 
 Integração da IA do cliente
 
