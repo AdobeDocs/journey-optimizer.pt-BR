@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '532'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,11 @@ Esta página explica como as campanhas com alta taxa de transferência diferem d
    * Toda a personalização deve ser incluída na carga da API como **dados contextuais**. [Saiba como personalizar o conteúdo usando dados contextuais](../campaigns/api-triggered-campaign-action.md#contextual)
    * A personalização baseada em perfil não é compatível. Se as variáveis de perfil forem usadas, ocorrerão erros de validação.
 
+* **Configurações de canal personalizadas** - As configurações de canal que usam [personalização baseada em perfil](../email/surface-personalization.md) não podem ser usadas com campanhas de alta taxa de transferência. Somente superfícies sem personalização de perfil podem ser usadas.
+
 * **Ponto de extremidade de API** - As campanhas com Alta Taxa de Transferência usam um ponto de extremidade diferente das campanhas acionadas pela API padrão. Para obter detalhes, consulte [Executar uma campanha acionada por API](../campaigns/trigger-campaigns.md#trigger).
 
-* **Exclusividade da campanha**: campanhas de alta taxa de transferência não usam Perfis do Adobe. As mensagens são entregues independentemente de um perfil existir ou não.
+* **Exclusividade da campanha** - Campanhas de alta taxa de transferência não usam Perfis do Adobe. As mensagens são entregues independentemente de um perfil existir ou não.
 
   Além disso, uma campanha não pode ser usada para casos de uso habilitados para perfil e não perfis. Se precisar de ambos, crie duas campanhas separadas e verifique se o sistema de chamada decide qual delas acionar com base no contexto.
 
