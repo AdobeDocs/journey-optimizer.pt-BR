@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
-source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
+source-git-commit: 4521990a02092365f996a81299ada55433639fb7
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '622'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,15 @@ Esta página explica como as campanhas com alta taxa de transferência diferem d
 * **Exclusividade da campanha** - Campanhas de alta taxa de transferência não usam Perfis do Adobe. As mensagens são entregues independentemente de um perfil existir ou não.
 
   Além disso, uma campanha não pode ser usada para casos de uso habilitados para perfil e não perfis. Se precisar de ambos, crie duas campanhas separadas e verifique se o sistema de chamada decide qual delas acionar com base no contexto.
+
+* **Conjuntos de dados para feedback e rastreamento** - Os dados de feedback e rastreamento para campanhas de alta taxa de transferência são armazenados em conjuntos de dados dedicados que não estão habilitados para perfis. Como resultado, esses eventos não são compilados em perfis, mesmo se um perfil correspondente existir.
+
+  Os conjuntos de dados usados são:
+
+   * **Conjunto de Dados de Evento de Feedback de Mensagens do AJO - Não Perfil**
+   * **Conjunto De Dados De Evento De Experiência De Acompanhamento De Email Do AJO - Não Perfil**
+
+* **Alocação de taxa de transferência** - A taxa de transferência provisionada no complemento Alta Taxa de Transferência é reservada exclusivamente para campanhas de alta taxa de transferência. Não há compartilhamento de taxa de transferência entre campanhas padrão e campanhas acionadas pela API de alta taxa de transferência.
 
 ## Escolha entre campanhas com taxa de transferência padrão vs. alta
 
