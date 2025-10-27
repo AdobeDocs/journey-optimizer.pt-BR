@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '2998'
+ht-degree: 97%
 
 ---
 
@@ -202,13 +202,6 @@ ht-degree: 98%
       + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
       + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
-   + Resolução de problemas {#troubleshoot-journey}
-      + [Resolução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-      + [Referência de códigos de erro](using/building-journeys/error-codes-reference.md)
-      + [Solução de problemas de erros de jornada](using/building-journeys/troubleshooting.md)
-      + [Solução de problemas de execução da jornada](using/building-journeys/troubleshooting-execution.md)
-      + [Solução de problemas de ações de entrada](using/building-journeys/troubleshooting-inbound.md)
-      + [Solução de problemas de ações personalizadas](using/action/troubleshoot-custom-action.md)
 + Campanhas {#campaigns}
    + [Campanhas](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
@@ -278,8 +271,8 @@ ht-degree: 98%
          + [Divisão](using/orchestrated/activities/split.md)
          + [Teste](using/orchestrated/activities/test.md)
          + [Aguardar](using/orchestrated/activities/wait.md)
-+ Gerenciamento de conflitos e priorização {#conflict-prioritization}
-   + [Gerenciamento e priorização de conflitos](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
++ Conflito e priorização {#conflict-prioritization}
+   + [Gerenciamento de conflitos e priorização](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Introdução ao gerenciamento de conflitos e priorização](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar possíveis conflitos](using/conflict-prioritization/conflicts.md)
    + [Atribuir pontuações de prioridade](using/conflict-prioritization/priority-scores.md)
@@ -307,7 +300,15 @@ ht-degree: 98%
       + [Criar e gerenciar políticas de aprovação](using/test-approve/approval-policies.md)
       + [Solicitar aprovação](using/test-approve/request-approval.md)
       + [Aprovar uma solicitação](using/test-approve/review-approve-request.md)
++ Monitorar e solucionar problemas {#monitor}
+   + [Monitoramento e solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Alertas do sistema](using/reports/alerts.md)
+   + [Referência de códigos de erro](using/building-journeys/error-codes-reference.md)
+   + Solução de problemas do Jornada {#troubleshoot-journey}
+      + [Solução de problemas de erros de jornada](using/building-journeys/troubleshooting.md)
+      + [Solução de problemas de execução da jornada](using/building-journeys/troubleshooting-execution.md)
+      + [Solução de problemas de ações de entrada](using/building-journeys/troubleshooting-inbound.md)
+      + [Solução de problemas de ações personalizadas](using/action/troubleshoot-custom-action.md)
 + Canais de comunicação {#channels}
    + [Introdução a canais de comunicação](using/channels/gs-channels.md)
    + Canal de email {#email}
@@ -503,7 +504,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)

@@ -11,9 +11,9 @@ keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 4afd8e455ca0d61ad860ec735c30f1b36bb54e1b
+source-git-commit: d1b031dffa860eb4618d985a53ed13b66f136654
 workflow-type: tm+mt
-source-wordcount: '4526'
+source-wordcount: '4568'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -729,7 +729,11 @@ As **políticas de mesclagem** determinam como o Adobe Experience Platform combi
 **Impacto no jornada**:
 
 * As jornadas usam a política de mesclagem associada ao público ou evento para determinar quais dados de perfil estão disponíveis
-* A política de mesclagem afeta quais atributos e identidades estão acessíveis em condições de jornada, personalização e ações
+   * Em Ler jornadas de qualificação de público ou público-alvo: a política de mesclagem do público-alvo é usada
+   * Em jornadas de eventos unitários: a política de mesclagem padrão é usada
+   * Nas jornadas de eventos comerciais: a política de mesclagem do público-alvo na seguinte atividade Ler público é usada
+
+* A política de mesclagem afeta quais atributos estão acessíveis em condições de jornada, personalização e ações
 * Diferentes políticas de mesclagem podem resultar na utilização de diferentes dados de perfil na jornada
 
 **Práticas recomendadas**:
