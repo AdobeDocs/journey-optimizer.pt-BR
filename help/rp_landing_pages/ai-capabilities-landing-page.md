@@ -5,10 +5,10 @@ title: Recursos de IA no Adobe Journey Optimizer
 description: Recursos de IA no Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 9d0460d303a3701ad7ff5b7f2487ac6ccdd6facd
+source-git-commit: 2b377fea2f54c15d04fd0fc16633951c58598580
 workflow-type: tm+mt
 source-wordcount: '1013'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ A Adobe Journey Optimizer aproveita o poder da inteligência artificial e do apr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/sparkles.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Assistente de IA para geração de conteúdo
 
@@ -30,7 +30,7 @@ Aproveite a IA gerativa para criar e personalizar conteúdo em emails, SMS, noti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Otimização de tempo de envio
 
@@ -40,7 +40,7 @@ Use a IA para prever o momento ideal para enviar mensagens e maximizar o envolvi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Modelos de IA para a decisão
 
@@ -50,7 +50,7 @@ Crie modelos de otimização automática e personalizada para classificar e forn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Conhecimento de produto do AI Assistant
 
@@ -60,7 +60,7 @@ Obtenha respostas instantâneas e insights operacionais sobre o Adobe Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/experiment.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Experimentação de conteúdo com IA
 
@@ -70,7 +70,7 @@ Gere várias variações de conteúdo e execute experimentos para identificar o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integração da IA do cliente
 
