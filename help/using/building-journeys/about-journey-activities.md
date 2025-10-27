@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '722'
 ht-degree: 15%
 
 ---
@@ -118,3 +118,5 @@ A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. 
 Antes de testar e publicar sua jornada, verifique se todas as atividades estão configuradas corretamente. Não é possível executar testes ou publicações se os erros ainda forem detectados pelo sistema.
 
 Saiba como solucionar erros nas atividades e na jornada [nesta página](troubleshooting.md).
+
+Consulte também **[Monitoramento e solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**.

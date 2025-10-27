@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 05b8e6c4500d5ec3b6c2c3b0230499a369c8d8ac
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 93%
+source-wordcount: '427'
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ Saiba como criar jornadas [nos seguintes casos de uso de ponta a ponta](jo-use-c
 
 Descubra os componentes de uma jornada e entenda os aspectos básicos da criação de uma jornada na tela.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430346?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Recursos adicionais {#additional-resources}
 
@@ -59,3 +59,4 @@ Descubra os componentes de uma jornada e entenda os aspectos básicos da criaç�
 * [Referência a códigos de erro](error-codes-reference.md) - Jornada códigos de erro e etapas de solução de problemas
 * [Alertas](../reports/alerts.md) - Configurar alertas para monitoramento de jornadas
 * [Solução de problemas](troubleshooting.md) - Problemas e soluções comuns do jornada
+* [Monitoramento e solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) - Ferramentas e recursos para monitorar e solucionar problemas de suas jornadas

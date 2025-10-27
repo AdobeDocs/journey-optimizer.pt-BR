@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '2998'
+source-wordcount: '2999'
 ht-degree: 97%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 97%
    + [Trabalhar com o Assistente de IA](using/start/ai-assistant.md)
    + [Manuais de estratégia de casos de uso](using/start/playbooks.md)
    + [Medidas de proteção e limitações](using/start/guardrails.md)
-   + [Resolução de problemas](using/start/troubleshooting.md)
 + Jornadas {#orchestrate-journeys}
    + [Jornadas](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introdução a jornadas](using/building-journeys/journey.md)
@@ -304,6 +303,7 @@ ht-degree: 97%
    + [Monitoramento e solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Alertas do sistema](using/reports/alerts.md)
    + [Referência de códigos de erro](using/building-journeys/error-codes-reference.md)
+   + [Artigos de solução de problemas](using/start/troubleshooting.md)
    + Solução de problemas do Jornada {#troubleshoot-journey}
       + [Solução de problemas de erros de jornada](using/building-journeys/troubleshooting.md)
       + [Solução de problemas de execução da jornada](using/building-journeys/troubleshooting-execution.md)
@@ -504,7 +504,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
