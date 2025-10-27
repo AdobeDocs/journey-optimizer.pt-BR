@@ -5,10 +5,10 @@ title: Introdução
 description: Introdução
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: 08599d8a9249115a4ce7f339b3565b7805db83e4
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 91%
+source-wordcount: '374'
+ht-degree: 78%
 
 ---
 
@@ -20,9 +20,9 @@ O Adobe Journey Optimizer capacita as empresas a criar experiências de clientes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Principais recursos do Adobe Journey Optimizer
+Principais recursos
 
 Descubra os principais recursos, casos de uso e arquitetura do Adobe Journey Optimizer para fornecer experiências do cliente personalizadas.
 
@@ -30,9 +30,9 @@ Descubra os principais recursos, casos de uso e arquitetura do Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Visão geral da arquitetura do Adobe Journey Optimizer
+Visão geral da arquitetura
 
 Entenda como o Adobe Journey Optimizer integra-se à Adobe Experience Platform para permitir uma personalização orientada por dados em grande escala.
 
@@ -40,9 +40,9 @@ Entenda como o Adobe Journey Optimizer integra-se à Adobe Experience Platform p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Funções e responsabilidades no Adobe Journey Optimizer
+Funções e responsabilidades
 
 Obtenha uma visão geral das funções e dos fluxos de trabalho necessários para implementar e gerenciar o Adobe Journey Optimizer de maneira eficaz.
 
@@ -50,9 +50,9 @@ Obtenha uma visão geral das funções e dos fluxos de trabalho necessários par
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Visão geral da interface do usuário do Adobe Journey Optimizer
+Visão geral da interface do usuário
 
 Navegue pela interface do Adobe Journey Optimizer e explore seus recursos, incluindo o gerenciamento de jornadas e as ferramentas de tomada de decisão.
 
@@ -60,9 +60,9 @@ Navegue pela interface do Adobe Journey Optimizer e explore seus recursos, inclu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Pesquisar, filtrar e organizar conteúdo no Adobe Journey Optimizer
+Pesquisar, filtrar e organizar conteúdo
 
 Use os recursos de pesquisa, filtro e marcação para gerenciar e organizar jornadas, campanhas e outros ativos com eficiência.
 
@@ -70,9 +70,9 @@ Use os recursos de pesquisa, filtro e marcação para gerenciar e organizar jorn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Medidas de proteção e limitações no Adobe Journey Optimizer
+Medidas de proteção e limitações
 
 Saiba mais sobre restrições e práticas recomendadas para usar os recursos do Adobe Journey Optimizer de maneira eficaz.
 
@@ -86,8 +86,8 @@ Saiba mais sobre restrições e práticas recomendadas para usar os recursos do 
 
 - **[Aprofunde-se nos conceitos principais](../using/start/functional-areas-redpen.md)**: conheça as principais áreas funcionais do Adobe Journey Optimizer e como elas funcionam juntas para otimizar as jornadas do cliente.
 - **[Terminologia principal do Adobe Journey Optimizer](../using/start/terminology-md-redpen.md)**: entenda os termos e conceitos essenciais para usar o Adobe Journey Optimizer com confiança e implementar estratégias de marketing de maneira eficaz.
-- **[Recursos de acessibilidade do Adobe Journey Optimizer](../using/start/accessibility.md)**: saiba mais sobre os recursos de acessibilidade e a conformidade com os padrões da WCAG para garantir a inclusão de todos os usuários.
-- **[Introdução ao Assistente de IA do Adobe Journey Optimizer](../using/start/ai-assistant.md)**: utilize o Assistente de IA para navegar por conceitos e obter insights operacionais no Adobe Journey Optimizer.
+- **[Recursos de acessibilidade](../using/start/accessibility.md)** - Saiba mais sobre os recursos de acessibilidade e a conformidade com os padrões da WCAG para garantir a inclusão de todos os usuários.
+- **[Introdução ao Assistente de IA](../using/start/ai-assistant.md)** - Use o Assistente de IA para navegar pelos conceitos e obter insights operacionais no Adobe Journey Optimizer.
 - **[Artigos de solução de problemas](../using/start/troubleshooting.md)** - Cada seção de solução de problemas fornece respostas a perguntas frequentes e soluções para problemas.
 - **[Monitoramento e solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - Descubra ferramentas abrangentes para monitorar o desempenho do jornada, identificar possíveis problemas e resolvê-los rapidamente quando eles surgirem.
 
