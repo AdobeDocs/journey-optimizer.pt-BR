@@ -5,10 +5,10 @@ title: Resolução de problemas
 description: Resolução de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ Quando uma jornada do cliente não se comporta conforme esperado, identificar a 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Resolver erros antes de testar ou publicar a sua jornada
 
@@ -31,7 +31,7 @@ Identifique e resolva erros em toda a jornada e problemas de atividade, e defina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Resolução de problemas de execução da jornada em tempo real no Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ Diagnostique problemas de validação de eventos, entrada de perfil, navegação
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Resolução de problemas de ações de entrada em jornadas do Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Depure problemas de ação de entrada, como conteúdo ausente ou entrega contín
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Resolução de problemas de ações personalizadas no Adobe Journey Optimizer
 
@@ -60,8 +60,14 @@ Valide e depure ações personalizadas com o recurso “Enviar solicitação de 
 [Validar ações personalizadas](../using/action/troubleshoot-custom-action.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+Referência de códigos de erro
+
+Entenda códigos de erro comuns no Adobe Journey Optimizer e encontre resoluções rápidas para problemas em jornadas, campanhas e mensagens.
+
+[Exibir referência de códigos de erro](../using/building-journeys/error-codes-reference.md)
+:::
+
 ::::
-
-### Recursos adicionais
-
-Além disso, confira [esta publicação do blog da comunidade da Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt), que detalha códigos de erro comuns e como resolvê-los de maneira eficaz.
