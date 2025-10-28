@@ -10,10 +10,10 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 84f4bdf3f79d8f19b615c68a03e25b24f435f952
+source-git-commit: 46fe967c55db9f37221a616e7979bd3fafd6b070
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 8%
+source-wordcount: '1842'
+ht-degree: 7%
 
 ---
 
@@ -68,6 +68,10 @@ Para usar o modo de teste, siga estas etapas:
 1. Para ativar o modo de teste, clique no botão **[!UICONTROL Modo de teste]**, localizado no canto superior direito.
 
    ![](assets/journeytest1.png)
+
+   >[!NOTE]
+   >
+   >Depois de ativar o modo de Teste, aguarde aproximadamente de 1 a 2 minutos antes de acionar uma entrada de perfil. Isso permite que o pacote de decisão se propague totalmente pelo sistema de decisão. Acionar uma entrada de perfil imediatamente após a ativação do modo Teste pode causar falha ocasional na jornada.
 
 1. Se a jornada tiver pelo menos uma atividade **Wait**, defina o parâmetro **[!UICONTROL Wait time]** para definir o tempo que cada atividade de espera e tempo limite de evento durarão no modo de teste. O tempo padrão é de 10 segundos para esperas e tempos limite de evento. Isso garantirá que você obtenha os resultados do teste rapidamente.
 
