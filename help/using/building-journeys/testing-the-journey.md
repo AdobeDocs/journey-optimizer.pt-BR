@@ -10,9 +10,9 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 84f4bdf3f79d8f19b615c68a03e25b24f435f952
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1800'
 ht-degree: 8%
 
 ---
@@ -31,6 +31,37 @@ Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode c
 >[!NOTE]
 >
 >Antes de testar a jornada, você deve resolver todos os erros, se houver. Saiba como verificar erros antes de testar em [esta seção](../building-journeys/troubleshooting.md).
+
+## Observações importantes {#important_notes}
+
+### Limitações gerais
+
+* **Perfis de teste somente** - Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de Perfil do Cliente em Tempo Real podem inserir uma jornada no modo de teste. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md).
+* **Requisito de namespace** - O modo de teste está disponível somente para jornadas de rascunho que usam um namespace. O modo de teste precisa verificar se uma pessoa que entra na jornada é um perfil de teste ou não e, portanto, deve ser capaz de acessar o Adobe Experience Platform.
+* **Limite de perfil** - Um máximo de 100 perfis de teste podem inserir uma jornada durante uma única sessão de teste.
+* **Acionamento de evento** - Os eventos só podem ser acionados na interface. Eventos não podem ser disparados de sistemas externos usando uma API.
+* **Públicos-alvo de carregamento personalizados** - o modo de teste de Jornada não oferece suporte ao enriquecimento de atributo de [público-alvo de carregamento personalizado](../audience/custom-upload.md).
+
+### Comportamento durante e após o teste
+
+* **Desabilitando o modo de teste** - Quando você desabilita o modo de teste, todos os perfis que estão ou foram inseridos na jornada são removidos e os relatórios são limpos.
+* **Flexibilidade de reativação** - Você pode habilitar e desabilitar o modo de teste quantas vezes forem necessárias.
+* **Desativação automática** - as Jornadas que permanecem inativas no modo de teste por **durante uma semana** revertem automaticamente para o status Rascunho para otimizar o desempenho e evitar o uso de recursos obsoletos.
+* **Edição e publicação** - Enquanto o modo de teste estiver ativo, você não poderá modificar a jornada. No entanto, você pode publicar a jornada diretamente. Não é necessário desativar o modo de teste antes de.
+
+### Execução
+
+* **Comportamento de divisão** - Quando a jornada atinge uma divisão, a ramificação superior é sempre selecionada. Reordene as ramificações se desejar que um caminho diferente seja testado.
+* **Tempo de evento** - Se a jornada incluir*vários eventos, acione cada evento em sequências. Enviar um evento muito cedo (antes da conclusão do primeiro nó de espera) ou muito tarde (após o tempo limite configurado) descartará o evento e enviará o perfil para um caminho de tempo limite. Sempre confirmar se as referências aos campos de carga útil do evento permanecem válidas, enviando a carga útil dentro da janela definida
+* **Janela de data ativa** - Verifique se a janela de [datas/hora de início e término](journey-properties.md#dates) configurada pela jornada inclui a hora atual ao iniciar o modo de teste. Caso contrário, os eventos de teste acionados serão descartados silenciosamente.
+* **Eventos de reação** - Para eventos de reação com tempo limite, o tempo de espera mínimo e padrão é de 40 segundos.
+* **Conjuntos de dados de teste** - Os eventos acionados no modo de teste são armazenados em conjuntos de dados dedicados rotulados da seguinte maneira: `JOtestmode - <schema of your event>`
+
+<!--
+* Fields from related entities are hidden from the test mode.
+-->
+
+## Ativar o modo de teste
 
 Para usar o modo de teste, siga estas etapas:
 
@@ -59,25 +90,6 @@ Para usar o modo de teste, siga estas etapas:
    ![](assets/journeyuctest2.png)
 
 1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Depois que os testes forem concluídos, você poderá publicar sua jornada. Consulte [esta página](../building-journeys/publishing-the-journey.md).
-
-## Observações importantes {#important_notes}
-
-* No modo de teste, você só pode acionar eventos usando a interface. Eventos não podem ser disparados de sistemas externos usando uma API.
-* Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de perfil do cliente em tempo real têm permissão para entrar na jornada testada. Consulte esta [seção](../audience/creating-test-profiles.md).
-* O modo de teste só está disponível em jornadas de rascunho que usam um namespace. O modo de teste precisa verificar se uma pessoa que entra na jornada é um perfil de teste ou não e, portanto, deve ser capaz de acessar o Adobe Experience Platform.
-* O número máximo de perfis de teste que podem inserir uma jornada durante uma sessão de teste é 100.
-* Quando você desativa o modo de teste, ele esvazia as jornadas de todas as pessoas que entraram anteriormente ou que estão atualmente nele. Também apaga os relatórios.
-* Você pode ativar/desativar o modo de teste quantas vezes forem necessárias.
-* Não é possível modificar a jornada quando o modo de teste está ativado. Quando estiver no modo de teste, você poderá publicar a jornada diretamente; não é necessário desativar o modo de teste antes de.
-* Ao atingir uma divisão, a ramificação superior é sempre escolhida. É possível reorganizar a posição das ramificações de divisão se quiser que o teste escolha um caminho diferente.
-* Para otimizar o desempenho e evitar o uso de recursos obsoletos, todas as jornadas no modo de teste que não forem acionadas por uma semana retornarão para o status **Rascunho**.
-* Os eventos acionados pelo modo de teste são armazenados em conjuntos de dados dedicados. Esses conjuntos de dados são rotulados da seguinte maneira: `JOtestmode - <schema of your event>`
-* Ao testar jornadas que incluem vários eventos, você deve acionar cada evento em sequência. Enviar um evento muito cedo (antes da conclusão do primeiro nó de espera) ou muito tarde (após o tempo limite configurado) descartará o evento e enviará o perfil a um caminho de tempo limite. Sempre confirmar se as referências aos campos de carga útil do evento permanecem válidas, enviando a carga útil dentro da janela definida
-* Certifique-se de que a janela [datas/hora de início e término](journey-properties.md#dates) configurada pela jornada inclua a hora atual ao iniciar o modo de teste. Caso contrário, os eventos de teste acionados serão descartados silenciosamente.
-
-<!--
-* Fields from related entities are hidden from the test mode.
--->
 
 ## Acionar os eventos {#firing_events}
 
