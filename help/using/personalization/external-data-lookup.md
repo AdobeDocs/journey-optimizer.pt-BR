@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 1%
+source-wordcount: '1241'
+ht-degree: 2%
 
 ---
 
@@ -206,16 +206,24 @@ Na Seção Edge Delivery do rastreamento de garantia como parte dos detalhes de 
 
 ![](assets/external-data-troubleshoot.png "largura=50%")
 
-## Perguntas frequentes
+## Perguntas frequentes {#faq-external-data}
 
-* Como passar um atributo contextual da solicitação como parâmetro para uma pesquisa de dados externa?
+Você encontrará abaixo as Perguntas frequentes sobre o Auxiliar de pesquisa de dados externos.
 
-  Use o menu Atributos contextuais > Sequência de dados > Evento para navegar pelo esquema do Evento de experiência que você está usando e insira o atributo relevante como um valor de parâmetro como este:
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
-  ```
-  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
-  ```
++++ Como passar um atributo contextual da solicitação como parâmetro para uma pesquisa de dados externa?
 
-* [!DNL Journey Optimizer] faz algum armazenamento em cache de respostas do ponto de extremidade externo?
+Use o menu Atributos contextuais > Sequência de dados > Evento para navegar pelo esquema do Evento de experiência que você está usando e insira o atributo relevante como um valor de parâmetro como este:
 
-  No momento não. Esse recurso será compatível no futuro.
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+```
+
++++
+
++++ [!DNL Journey Optimizer] faz algum armazenamento em cache de respostas do ponto de extremidade externo?
+
+No momento não. Esse recurso será compatível no futuro.
+
++++
