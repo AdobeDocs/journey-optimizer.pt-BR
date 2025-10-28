@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 460ac269404842001f320df6404db474a34c30b7
+source-git-commit: d21f22dcab625c4dd60d74468c7afdb29041a54d
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7890'
 ht-degree: 99%
 
 ---
@@ -222,7 +222,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <td>
 <p>Agora é possível pausar e retomar jornadas. Esse recurso oferece aos profissionais de jornada maior controle e flexibilidade ao permitir que as jornadas ativas sejam temporariamente suspensas sem interromper a experiência do cliente. Quando pausada, nenhuma comunicação é enviada e os perfis permanecem em um estado suspenso até que a jornada seja retomada.</p>
 <p>É possível pausar e retomar apenas uma jornada ou executar operações de pausa e retomada em massa para um grupo de jornadas.</p>
-<p>Além disso, é possível aplicar filtros globais a jornadas pausadas para excluir perfis com base em seus atributos.</p>
+<p>Além disso, você pode aplicar critérios de saída baseados em atributos de perfil (anteriormente chamados de "filtro global") a jornadas pausadas para excluir perfis com base em seus atributos.</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
 <p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para mais informações, consulte a <a href="../building-journeys/journey-pause.md">documentação detalhada</a></p>
