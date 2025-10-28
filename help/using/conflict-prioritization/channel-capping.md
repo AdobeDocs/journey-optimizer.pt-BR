@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1219'
 ht-degree: 5%
 
 ---
@@ -67,7 +67,7 @@ Para criar um conjunto de regras de canal, siga estas etapas:
 
    * **[!UICONTROL Por hora]** - O limite de frequência é válido para o número de horas selecionado. O contador é redefinido automaticamente no início de cada janela de tempo. Para um limite de frequência de 1 hora, ele é redefinido a cada hora, coincidindo com o final de uma hora UTC.
    * **[!UICONTROL Diariamente]** - O limite de frequência diária é válido para o dia até 23:59:59 UTC e é redefinido para 0 no início do dia seguinte.
-   * **[!UICONTROL Semanalmente]** - O limite de frequência é válido até sábado, 23:59:59 UTC dessa semana, pois a semana do calendário começa no domingo. A data de expiração se aplica independentemente de quando a regra foi criada. Por exemplo, se a regra for criada na quinta-feira, ela será válida até o sábado às 23:59:59.
+   * **[!UICONTROL Semanalmente]** - O limite de frequência é válido até sábado, 23:59:59 UTC dessa semana. A data de expiração se aplica independentemente de quando a regra foi criada. Por exemplo, se a regra for criada na quinta-feira, ela será válida até o sábado às 23:59:59.
    * **[!UICONTROL Mensal]** - O limite de frequência é válido até o último dia do mês às 23:59:59 UTC. Por exemplo, a expiração mensal de janeiro é 01-31 23:59:59 UTC.
 
    >[!IMPORTANT]
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
