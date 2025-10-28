@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
+source-git-commit: af4a5965c9268baf88c5306f1aa20d305ee7e501
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1457'
 ht-degree: 4%
 
 ---
@@ -221,6 +221,22 @@ Diante disso, para um perfil como:
                     ]}
 }
 ```
+
++++
+
++++Impulsionar ofertas com base no CEP e na receita anual de um perfil
+
+Neste exemplo, o sistema sempre tenta mostrar uma oferta de correspondência de CEP primeiro e retorna a uma oferta geral se nenhuma correspondência for encontrada, evitando mostrar ofertas destinadas a outros códigos postais.
+
+```pql
+if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 10000, if( not offer.luma.offerDetails.zipCode,_luma.annualIncome / 1000, -9999) )
+```
+
+O que a fórmula faz:
+
+* Se a oferta tiver o mesmo CEP do usuário, atribua a ele uma pontuação muito alta para que seja escolhido primeiro.
+* Se a oferta não tiver um CEP (é uma oferta geral), atribua a ela uma pontuação normal com base na renda do usuário.
+* Se a oferta tiver um CEP diferente do usuário, atribua a ela uma pontuação muito baixa para que não seja selecionada.
 
 +++
 
