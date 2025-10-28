@@ -4,9 +4,9 @@ product: journey optimizer
 title: Ciclo de versão do Adobe Journey Optimizer
 feature: Release Notes
 description: Noções básicas sobre o ciclo de versão do Adobe Journey Optimizer
-source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
+source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '920'
 ht-degree: 1%
 
 ---
@@ -90,6 +90,10 @@ Você pode assinar **alertas por email e no produto** para lançamentos de produ
 ![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
 ## Perguntas frequentes {#faq}
+
+Você encontrará abaixo Perguntas frequentes sobre o ciclo de lançamento do Adobe Journey Optimizer.
+
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ Quando as versões do Adobe Journey Optimizer estão programadas?
 

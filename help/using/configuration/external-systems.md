@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 20%
+source-wordcount: '1654'
+ht-degree: 19%
 
 ---
 
@@ -33,7 +33,7 @@ Quando o Journey Optimizer executa uma chamada para uma API externa, as medidas 
 
 >[!TIP]
 >
->Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
+>Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
 
 ## APIs de limitação e limitação {#capping}
 
@@ -106,21 +106,31 @@ Vamos ver um exemplo para um tempo limite de 5 segundos.
    * Se uma das três tentativas for bem-sucedida antes do final dos 5 segundos, a chamada será executada e não haverá erro.
    * Se o fim da duração do tempo limite for atingido durante as tentativas, a chamada será cancelada e contada como um erro de tempo limite no relatório.
 
-## Perguntas frequentes{#faq}
+## Perguntas frequentes {#faq}
 
-**Como posso configurar uma regra de limitação ou limitação? Existe uma regra padrão?**
+Você encontrará abaixo perguntas frequentes sobre a integração do Journey Optimizer com sistemas externos.
+
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
+
++++ Como posso configurar uma regra de limitação ou limitação? Há uma regra padrão?
 
 Para criar regras de limitação ou limitação, consulte [esta seção](../configuration/external-systems.md#capping). Por padrão, não há regra de limitação, mas um limite de 300.000 chamadas em um minuto definido para todas as ações personalizadas, por host e por sandbox. Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. Se necessário, é possível substituir essa configuração definindo um limite máximo ou limite maior por meio das APIs de Limite/Limitação.
 
-**Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período mínimo de espera entre tentativas?**
++++
+
++++ Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período mínimo de espera entre tentativas?
 
 Para uma determinada chamada, um máximo de três tentativas pode ser executado após a primeira chamada, até que a duração do tempo limite seja atingida. O número de tentativas e o tempo entre cada nova tentativa não podem ser alterados. Consulte [esta seção](../configuration/external-systems.md#timeout).
 
-**Onde posso configurar o tempo limite? Existe um valor máximo?**
++++
+
++++ Onde posso configurar o tempo limite? Há um valor máximo?
 
 Em cada jornada, é possível definir uma duração de tempo limite. A duração do tempo limite é configurada nas propriedades de uma jornada. A duração do tempo limite deve estar entre 1 segundo e 30 segundos. Consulte [esta seção](../configuration/external-systems.md#timeout) e [esta página](../building-journeys/journey-properties.md#timeout_and_error).
 
-**Qual é o número máximo de conexões abertas pelo Journey Optimizer quando ações personalizadas são usadas?**
++++
+
++++ Qual é o número máximo de conexões abertas pelo Journey Optimizer quando ações personalizadas são usadas?
 
 Com o proxy IP habilitado e uma configuração de limitação definida no endpoint de destino, o número de conexões é baseado na taxa (que são estimativas, números não garantidos):
 
@@ -130,3 +140,5 @@ Com o proxy IP habilitado e uma configuração de limitação definida no endpoi
 * entre 4000 e 5000: 125 conexões
 
 Se nenhuma configuração de limitação for definida em um endpoint, o mecanismo da Journey Optimizer será dimensionado para aumentar e chegar a um número alto de conexões (mais de 2.000). Para obter um número limitado de conexões, os clientes precisam usar uma configuração de limitação.
+
++++
