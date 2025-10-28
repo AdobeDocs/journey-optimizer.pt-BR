@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, sintaxe, personalização
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,8 @@ em que:
 * As palavras **true**, **false**, **null** e **undefined** só são permitidas na primeira parte de uma expressão de caminho.
 
 * Em Handlebars, os valores retornados por {{expression}} são **HTML-escaped**. Se a expressão contiver `&`, a saída HTML-escaped retornada será gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;triple-stash&quot;.
+
+  Suponha que o valor do campo `profile.person.name` seja &quot;Mark &amp; Mary&quot;. A sintaxe `{{profile.person.name}}` exibirá `Mark &amp; Mary`, enquanto `{{{profile.person.name}}}` exibirá `Mark & Mary`.
 
 * Em relação a argumentos de funções literais, o analisador de linguagem de modelo não oferece suporte ao símbolo único de barra invertida sem escape (`\`). Este caractere deve ser evitado com um símbolo de barra invertida adicional (`\`). Exemplo:
 
