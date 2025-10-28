@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 6b3005dd9483ff5311e4bf6b4f13d254c6be41d6
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1550'
 ht-degree: 10%
 
 ---
@@ -162,8 +162,6 @@ As opções disponíveis são:
 1. **[!UICONTROL Pills]**: exibir atributos como &quot;pílulas&quot; compactas para melhorar a legibilidade, ocultando caminhos de atributos longos. Clique em um atributo para exibir seu caminho completo.
 
    >[!NOTE]
-   >
-   >A exibição de pílulas será gradualmente lançada em todos os ambientes nos próximos 30 dias.
    >
    >Essa opção só está disponível para atributos de perfil, atributos contextuais e mídia dinâmica.
 
