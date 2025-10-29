@@ -10,19 +10,14 @@ level: Beginner
 keywords: email, modelo, imagem, HTML, IA, design, accelerator
 hide: true
 hidefromtoc: true
-source-git-commit: 86bf80c56a1bd50872d014a7aa92407227c823f8
+source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1484'
 ht-degree: 3%
 
 ---
 
 # Converter imagens em modelos do HTML com o Acelerador de modelo {#image-to-html}
-
->[!CONTEXTUALHELP]
->id="ajo_template_accelerator"
->title="Acelerador de modelo"
->abstract="Use o Acelerador de modelo para converter designs de imagem estática (JPEG ou PNG) em modelos de email do HTML totalmente personalizáveis. Esse recurso alimentado por IA ajuda a transformar rapidamente designs visuais em conteúdo de email responsivo e editável. Observação: todo o conteúdo existente em seu email será excluído quando você fizer upload de uma imagem para conversão."
 
 >[!AVAILABILITY]
 >
@@ -32,7 +27,7 @@ ht-degree: 3%
 
 O Acelerador de Modelos é um recurso inovador alimentado por IA, disponível no menu **Modelos de conteúdo**, que acelera consideravelmente a criação de emails, convertendo designs de imagens estáticas em modelos de conteúdo de email do HTML totalmente personalizáveis. Essa ferramenta permite que os profissionais de marketing transformem designs visuais de designers gráficos ou ferramentas de design em modelos de email responsivos e editáveis que podem ser salvos na biblioteca Modelos de conteúdo e reutilizados em várias jornadas e campanhas.
 
-Ao utilizar a tecnologia de IA gerativa, o Acelerador de modelo analisa o layout, a tipografia, as cores e os elementos visuais da imagem e gera um código HTML limpo e estruturado que mantém a fidelidade do design e, ao mesmo tempo, garante total capacidade de edição e compatibilidade com o Designer de email.
+Ao utilizar a tecnologia de IA gerativa, o conversor de imagem do Acelerador de modelo para HTML analisa o layout, a tipografia, as cores e os elementos visuais na imagem e gera um código HTML limpo e estruturado que mantém a fidelidade do design enquanto garante total capacidade de edição e compatibilidade com o Designer de email.
 
 **Principais benefícios:**
 
@@ -111,7 +106,7 @@ Saiba mais sobre [como trabalhar com modelos de email](use-email-templates.md) e
 
 ## Práticas recomendadas {#best-practices}
 
-Para obter ótimos resultados ao usar o Acelerador de modelo, siga estas recomendações:
+Para obter ótimos resultados ao usar o conversor imagem para HTML, siga estas recomendações:
 
 **Antes de começar**
 
@@ -161,7 +156,7 @@ Esteja ciente das seguintes limitações ao usar o conversor de Imagem para HTML
 
 >[!NOTE]
 >
->O Acelerador de modelo foi projetado para fornecer um ponto de partida sólido para a criação de emails. O HTML gerado deve ser revisado e refinado usando o Designer de email para garantir que ele atenda aos seus requisitos exatos.
+>O conversor de imagem para HTML foi projetado para fornecer um forte ponto de partida para a criação de emails. O HTML gerado deve ser revisado e refinado usando o Designer de email para garantir que ele atenda aos seus requisitos exatos.
 
 ## Perguntas frequentes {#faq}
 
