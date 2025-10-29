@@ -11,32 +11,45 @@ badge: label="Disponibilidade limitada" type="Informative"
 keywords: email, modelo, imagem, HTML, AI, design, conversor
 hide: true
 hidefromtoc: true
-source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
+source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1769'
 ht-degree: 3%
 
 ---
 
 # Converter imagens em modelos do HTML com a imagem no conversor do HTML {#image-to-html}
 
+
+
+## Visão geral {#overview}
+
+O conversor de imagem para HTML é um recurso inovador alimentado por IA, disponível no menu **Modelos de conteúdo**, que acelera bastante a criação de emails, convertendo designs de imagens estáticas em modelos de conteúdo de email do HTML totalmente personalizáveis e modulares. Essa ferramenta sem código permite que os profissionais de marketing transformem designs visuais de designers gráficos ou ferramentas de design em modelos de email responsivos e editáveis que podem ser salvos na biblioteca de Modelos de conteúdo e depois reutilizados em várias jornadas e campanhas, sem a necessidade de conhecimento técnico.
+
 >[!AVAILABILITY]
 >
 >Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
-## Visão geral {#overview}
-
-O conversor de imagem para HTML é um recurso inovador alimentado por IA, disponível no menu **Modelos de conteúdo**, que acelera bastante a criação de emails, convertendo designs de imagens estáticas em modelos de conteúdo de email do HTML totalmente personalizáveis. Essa ferramenta permite que os profissionais de marketing transformem designs visuais de designers gráficos ou ferramentas de design em modelos de email responsivos e editáveis que podem ser salvos na biblioteca Modelos de conteúdo e reutilizados em várias jornadas e campanhas.
-
-Ao utilizar a tecnologia de IA gerativa, o conversor de imagem para HTML analisa o layout, a tipografia, as cores e os elementos visuais da imagem e gera um código HTML limpo e estruturado que mantém a fidelidade do design enquanto garante total capacidade de edição e compatibilidade com o Designer de email.
+Ao utilizar a tecnologia de IA gerativa, o conversor de imagem para HTML analisa o layout, a tipografia, as cores e os elementos visuais da imagem e gera um código HTML limpo e modular que mantém a fidelidade do design e, ao mesmo tempo, garante total capacidade de edição e compatibilidade com o Designer de email. Isso elimina o processo manual e demorado de conversão de modelos em HTML e reduz a dependência de recursos de desenvolvimento.
 
 **Principais benefícios:**
 
-* **Criação acelerada**: reduza o tempo de criação de email convertendo instantaneamente modelos de design em modelos de conteúdo reutilizáveis
-* **Designer-developer bridge**: elimine a necessidade de codificação manual do HTML ao trabalhar com designs visuais
-* **Fidelidade de design**: mantenha a integridade do design original ao criar conteúdo editável
-* **Reusabilidade**: salvar modelos na biblioteca de Modelos de Conteúdo para uso em várias jornadas e campanhas
+* **Design para HTML em minutos**: com a tecnologia de IA, a conversão sem código transforma imagens estáticas em modelos editáveis e modulares em minutos, reduzindo drasticamente o tempo de criação de modelos
+* **Capacita usuários não técnicos**: reduz a dependência de equipes de design ou desenvolvimento. Os profissionais de marketing podem gerar e personalizar modelos com o mínimo de conhecimento técnico
+* **Migração de plataforma simplificada**: converta modelos externos ou designs de outras plataformas em HTML pronto para AJO sem esforço
+* **Criar uma biblioteca de modelos reutilizável**: criar uma biblioteca de modelos escalável e consistente com a marca que possa ser usada em várias jornadas e campanhas
+* **Fidelidade de design**: mantenha a consistência visual com seu design original ao criar conteúdo totalmente editável
 * **Compatibilidade de email**: gerar HTML que funcione perfeitamente com o Designer de email e entre clientes de email
+
+## Casos de uso comuns {#use-cases}
+
+O conversor de imagem para HTML é ideal para:
+
+* **Migração de plataforma**: migrando de outra plataforma de marketing por email? Converter seus designs de email existentes em modelos do HTML prontos para AJO sem reconstruir do zero
+* **Conversão do modelo de design**: transforme modelos de design de ferramentas como Photoshop, Figma ou outro software de design em modelos de email funcionais
+* **Criação rápida de modelo**: gere modelos de email rapidamente para campanhas com limite de tempo sem esperar pelos recursos do desenvolvedor
+* **Criando bibliotecas de modelos**: crie uma biblioteca abrangente de modelos consistentes com a marca que os membros da equipe não técnica possam personalizar e implantar
+* **Redução das dependências técnicas**: permitir que os profissionais de marketing criem e repitam modelos de email de maneira independente, acelerando a execução da campanha
 
 ## Pré-requisitos {#prerequisites}
 
@@ -206,6 +219,12 @@ A imagem para o conversor HTML está disponível com disponibilidade limitada. V
 +++Posso reutilizar modelos convertidos em várias campanhas?
 
 Sim! Os modelos criados com o conversor de imagem para HTML são salvos automaticamente na biblioteca de Modelos de conteúdo. Você pode acessá-los e reutilizá-los em qualquer email nas suas jornadas e campanhas. [Saiba mais](../content-management/content-templates.md)
+
++++
+
++++Posso usar isso para migração de plataforma?
+
+Sim! O conversor de imagem para HTML é ideal para migrar de outras plataformas de marketing por email. Basta exportar ou capturar a tela de seus designs de email existentes da plataforma anterior e convertê-los em modelos do HTML prontos para AJO sem precisar recriá-los do zero.
 
 +++
 
