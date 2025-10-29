@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 6%
+source-wordcount: '592'
+ht-degree: 5%
 
 ---
 
@@ -107,10 +107,11 @@ A operação a seguir retorna a primeira das cinco ordens principais com o preç
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## Primeiro `n` na matriz {#first-n}
+## Classificar e obter o primeiro N na matriz {#first-n}
 
-A função `topN` é usada para retornar os primeiros `N` itens em uma matriz, quando classificados em ordem crescente com base na expressão numérica fornecida.
+A função `topN` classifica uma matriz em ordem decrescente com base na expressão numérica fornecida e retorna os primeiros `N` itens. Se o tamanho da matriz for menor que `N`, ela retornará toda a matriz classificada.
 
+Esta função
 **Sintaxe**
 
 ```sql
@@ -205,9 +206,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Último `n` na matriz{#last-n}
+## Classificar e obter o último N na matriz {#last-n}
 
-A função `bottomN` é usada para retornar os últimos `N` itens em uma matriz, quando classificados em ordem crescente com base na expressão numérica fornecida.
+A função `bottomN` classifica uma matriz em ordem crescente com base na expressão numérica fornecida e retorna os primeiros `N` itens. Se o tamanho da matriz for menor que `N`, ela retornará toda a matriz classificada.
 
 **Sintaxe**
 
