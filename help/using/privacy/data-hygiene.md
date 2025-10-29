@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,4 +38,4 @@ Antes de realizar exclusões em grande escala, valide e exporte quaisquer dados 
 Para obter mais informações sobre o Privacy Service e como executar operações de ciclo de vida de dados, consulte a documentação da Adobe Experience Platform:
 
 * [Visão geral do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR)
-* [Ciclo de vida dos dados no Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=pt-BR)
+* [Ciclo de vida de dados na Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=pt-BR)

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Use as guias dedicadas para definir as configurações de notificação por push
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
-<img alt="Cliente potencial" src="../assets/do-not-localize/push-create.jpg">
+<img alt="Lead" src="../assets/do-not-localize/push-create.jpg">
 </a>
 <div><a href="create-push.md"><strong>Criar uma notificação por push</strong>
 </div>
@@ -48,7 +48,7 @@ Use as guias dedicadas para definir as configurações de notificação por push
 </td>
 <td>
 <a href="design-push.md">
-<img alt="Pouco frequentes" src="../assets/do-not-localize/push-design.jpg">
+<img alt="Pouco frequente" src="../assets/do-not-localize/push-design.jpg">
 </a>
 <div>
 <a href="design-push.md"><strong>Projetar a notificação por push</strong></a>

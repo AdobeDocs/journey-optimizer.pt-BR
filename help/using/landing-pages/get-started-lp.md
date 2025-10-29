@@ -10,9 +10,9 @@ level: Beginner
 keywords: destino, página de destino, início, introdução
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Uma página de destino é uma página da Web independente para a qual o usuário
 
 O [!DNL Journey Optimizer] permite criar e projetar páginas de destino para direcionar seus usuários a formulários online, em que eles podem aceitar ou recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.
 
-➡️ [Saiba mais sobre como configurar assinaturas e criar páginas de aterrissagem neste vídeo](#video)
+➡️ [Saiba como configurar assinaturas e criar páginas de destino neste vídeo](#video)
 
 * Aproveite os recursos de design de conteúdo do [!DNL Journey Optimizer] para criar com facilidade **páginas de destino responsivas**.
 * Configure **fluxos de aceitação e recusa** de forma rápida e fácil.
@@ -33,7 +33,7 @@ O [!DNL Journey Optimizer] permite criar e projetar páginas de destino para dir
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="Cliente potencial" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="Lead" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>Criar páginas de destino</strong>
 </div>
@@ -41,7 +41,7 @@ O [!DNL Journey Optimizer] permite criar e projetar páginas de destino para dir
 </td>
 <td>
 <a href="subscription-list.md">
-<img alt="Pouco frequentes" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="Pouco frequente" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="subscription-list.md"><strong>Criar listas de assinatura</strong></a>
@@ -71,4 +71,4 @@ O [!DNL Journey Optimizer] permite criar e projetar páginas de destino para dir
 
 O vídeo abaixo mostra como criar uma lista de assinaturas, configurar páginas de destino para oferecer assinaturas ou cancelar assinaturas de um serviço, integrar a opção de assinatura ou cancelamento a uma mensagem e configurar jornadas relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/344402?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
