@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 4%
+source-wordcount: '663'
+ht-degree: 2%
 
 ---
 
@@ -56,8 +56,6 @@ O campo `actionExecutionTime` representa o tempo total (em milissegundos) necess
 O campo `Timestamp` indica a hora de término da execução da ação. Para determinar quando o perfil entrou no nó de ação personalizada, subtraia `actionExecutionTime` de `Timestamp`.
 
 Por exemplo, se `Timestamp` for &quot;2025-02-04 09:39:03 UTC&quot; e `actionExecutionTime` for 1.813.227 ms (~31 minutos), o perfil entrou no nó em aproximadamente &quot;2025-02-04 09:08:32 UTC&quot;.
-
-
 
 
 ## actionExecutionError {#actionexecutionerror-field}
@@ -106,6 +104,56 @@ Tipo: sequência de caracteres
 Código de erro do actionExecOrigError.
 
 Tipo: sequência de caracteres
+
+## actionOriginEndpoint {#actionoriginendpoint}
+
+URI do ponto de extremidade de ação personalizada usado na ação.
+
+Tipo: sequência de caracteres
+
+## actionOriginMethod {#actionoriginmethod}
+
+Isso descreve o método usado na solicitação HTTP (GET ou POST).
+
+Tipo: sequência de caracteres
+
+## actionOriginIsMTLS {#actionoriginismtls}
+
+Descreve se o MTLS está habilitado para o endpoint.
+
+Tipo: booleano
+
+## actionIsProxy {#actionisproxy}
+
+Descreve se um proxy HTTP com intervalo de endereços IP definido é usado para a chamada.
+
+Tipo: booleano
+
+## actionExecutionOriginStartTime {#actionexecutionoriginstarttime}
+
+Descreve o carimbo de data e hora em que a solicitação HTTP é iniciada. No caso de uma nova tentativa, esse é o carimbo de data e hora em que a nova tentativa final é iniciada. O carimbo de data e hora usa o formato ISO8601 no fuso horário UTC.
+
+Observe que esse carimbo de data e hora normalmente será exibido um pouco depois que o perfil entrar no nó de ação personalizada ou significativamente depois de entrar no nó, em caso de limitação.
+
+Tipo: carimbo de data e hora
+
+## actionExecutionOriginTime {#actionexecutionorigintime}
+
+Descreve o tempo de resposta da chamada HTTP. Em caso de nova tentativa, esse é o tempo gasto pela tentativa final. Ele mede o tempo entre o início da solicitação HTTP e o retorno da resposta completa do servidor. Observe que isso exclui qualquer tempo gasto aguardando na fila em caso de limitação.
+
+Tipo: longo
+
+## actionIsThrottled {#actionisthrottled}
+
+Descreve se a limitação está habilitada para o endpoint.
+
+Tipo: booleano
+
+## actionWaitTime {#actionwaittime}
+
+Descreve quando o limite de taxa configurado é atingido para um endpoint limitado, as chamadas são enfileiradas e processadas na taxa configurada. Este campo relata o tempo que a chamada gastou aguardando na fila antes de ser executada. Especificado somente se actionIsThrottled == true.
+
+Tipo: longo
 
 ## actionBusinessType {#actionbusinesstype-field}
 

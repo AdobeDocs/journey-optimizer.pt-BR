@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 913104934e78b61b91ea3fca21ee80372050a1fb
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 48%
+source-wordcount: '1297'
+ht-degree: 47%
 
 ---
 
@@ -31,6 +31,24 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 **Data de lançamento**: quinta-feira, 22 de outubro de 2025
 
 ### Novos recursos {#oct-25-10-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitoramento e relatórios de ação personalizada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Esse recurso oferece melhor visibilidade da integridade e do desempenho do endpoint de ação personalizada. Um novo painel de monitoramento de ação personalizada e campos correspondentes no conjunto de dados de eventos de etapa do jornada ajudarão você a monitorar chamadas, erros, taxa de transferência, tempo de resposta e tempo de espera da fila bem-sucedidos para seus pontos de extremidade de ação personalizada. Agora você pode entender rapidamente quando, onde e por que uma situação anômala está ocorrendo em uma ação personalizada.</p>
+<p>No momento, esse recurso está em Disponibilidade limitada para clientes.</p>
+<p>Para obter mais informações, consulte a <a href="../action/reporting.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quarta-feira, 28 de outubro de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -71,24 +89,6 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Custom action monitoring and reporting</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
-<img src="assets/do-not-localize/FILE.gif">
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <!--table>
 <thead>
@@ -288,7 +288,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tr>
 <td>
 <p>O Journey Optimizer Experimentation Accelerator agora inclui o Agente de experimentação, uma ferramenta conversacional alimentada por IA que permite a você interagir com seus experimentos, insights e oportunidades. Ele melhora a experiência do Journey Optimizer Experimentation Accelerator, ajudando você a executar experimentos com mais eficiência, descobrir o que funciona e descobrir onde otimizar a seguir.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=pt-BR" target="_blank">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: sábado, 10 de outubro de 2025</p>
 </td>
 </tr>

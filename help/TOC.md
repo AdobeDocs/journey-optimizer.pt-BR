@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '3006'
+source-wordcount: '3010'
 ht-degree: 97%
 
 ---
@@ -506,7 +506,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -945,6 +945,7 @@ ht-degree: 97%
       + [Introdução a ações personalizadas](using/action/action.md)
       + [Configurar uma ação personalizada](using/action/about-custom-action-configuration.md)
       + [Usar as respostas de chamada da API em ações personalizadas](using/action/action-response.md)
+      + [Monitorar suas ações personalizadas](using/action/reporting.md)
 + Conectar sistemas e ambientes {#connect-systems}
    + [Conectar sistemas e ambientes](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Integrar a outras soluções](using/integrations/ajo-integrations.md)
