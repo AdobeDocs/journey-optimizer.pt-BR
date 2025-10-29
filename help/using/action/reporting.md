@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ Para acessar a página de relatórios **[!UICONTROL Ação personalizada]**, cli
 ![](assets/monitor-1.png)
 
 ➡️ [Saiba mais sobre como configurar suas Ações personalizadas](../action/about-custom-action-configuration.md)
+
+Além da página de relatórios **[!UICONTROL Ação personalizada]**, você pode usar **[!DNL Adobe Experience Platform Query Service]** para criar consultas para relatar métricas de desempenho de ação personalizada. Exemplos de consulta estão disponíveis em [esta seção](../reports/query-examples.md).
 
 ## KPIs {#kpis}
 
