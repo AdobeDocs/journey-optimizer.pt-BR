@@ -1,23 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Converter imagens em modelos do HTML com o Acelerador de modelo
-description: Saiba como usar o Acelerador de modelo habilitado por IA para converter designs de imagem em modelos de email editáveis do HTML
+title: Converter imagens em modelos do HTML com a imagem no conversor do HTML
+description: Saiba como usar o conversor de imagem alimentada por IA para HTML para converter designs de imagem em modelos de email editáveis do HTML
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner
-keywords: email, modelo, imagem, HTML, IA, design, accelerator
+badge: label="Disponibilidade limitada" type="Informative"
+keywords: email, modelo, imagem, HTML, AI, design, conversor
 hide: true
 hidefromtoc: true
-source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
+source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1564'
 ht-degree: 3%
 
 ---
 
-# Converter imagens em modelos do HTML com o Acelerador de modelo {#image-to-html}
+# Converter imagens em modelos do HTML com a imagem no conversor do HTML {#image-to-html}
 
 >[!AVAILABILITY]
 >
@@ -25,9 +26,9 @@ ht-degree: 3%
 
 ## Visão geral {#overview}
 
-O Acelerador de Modelos é um recurso inovador alimentado por IA, disponível no menu **Modelos de conteúdo**, que acelera consideravelmente a criação de emails, convertendo designs de imagens estáticas em modelos de conteúdo de email do HTML totalmente personalizáveis. Essa ferramenta permite que os profissionais de marketing transformem designs visuais de designers gráficos ou ferramentas de design em modelos de email responsivos e editáveis que podem ser salvos na biblioteca Modelos de conteúdo e reutilizados em várias jornadas e campanhas.
+O conversor de imagem para HTML é um recurso inovador alimentado por IA, disponível no menu **Modelos de conteúdo**, que acelera bastante a criação de emails, convertendo designs de imagens estáticas em modelos de conteúdo de email do HTML totalmente personalizáveis. Essa ferramenta permite que os profissionais de marketing transformem designs visuais de designers gráficos ou ferramentas de design em modelos de email responsivos e editáveis que podem ser salvos na biblioteca Modelos de conteúdo e reutilizados em várias jornadas e campanhas.
 
-Ao utilizar a tecnologia de IA gerativa, o conversor de imagem do Acelerador de modelo para HTML analisa o layout, a tipografia, as cores e os elementos visuais na imagem e gera um código HTML limpo e estruturado que mantém a fidelidade do design enquanto garante total capacidade de edição e compatibilidade com o Designer de email.
+Ao utilizar a tecnologia de IA gerativa, o conversor de imagem para HTML analisa o layout, a tipografia, as cores e os elementos visuais da imagem e gera um código HTML limpo e estruturado que mantém a fidelidade do design enquanto garante total capacidade de edição e compatibilidade com o Designer de email.
 
 **Principais benefícios:**
 
@@ -39,7 +40,7 @@ Ao utilizar a tecnologia de IA gerativa, o conversor de imagem do Acelerador de 
 
 ## Pré-requisitos {#prerequisites}
 
-Antes de usar o conversor Modelo - imagem para HTML, verifique se você tem:
+Antes de usar o conversor de imagem para HTML, verifique se você tem:
 
 * Acesso ao Adobe Journey Optimizer com o Designer de email
 * Um arquivo de imagem no formato JPEG ou PNG contendo seu design de email
@@ -73,7 +74,7 @@ Para converter um design de imagem em um modelo de email do HTML totalmente pers
 
    >[!NOTE]
    >
-   >O processo de geração pode levar até 5 minutos, dependendo da complexidade e do tamanho do design de imagem. Seja paciente enquanto a IA analisa e converte sua imagem.
+   >O processo de geração pode levar até 5 minutos, dependendo da complexidade e do tamanho do design de imagem. O processamento da IA ocorre em segundo plano, para que você possa sair dessa tela e trabalhar em outras tarefas enquanto a conversão estiver em andamento. Você não precisa manter a tela aberta.
 
 1. Quando a conversão for concluída, seu modelo de conteúdo será salvo automaticamente como rascunho. Em seguida, você pode revisar e editar o modelo HTML gerado na tela Designer de email.
 
@@ -150,7 +151,7 @@ Esteja ciente das seguintes limitações ao usar o conversor de Imagem para HTML
 
 * **Layouts complexos**: projetos altamente complexos com camadas complexas, formas incomuns ou elementos não padrão podem não ser perfeitamente convertidos. Designs mais simples geralmente produzem melhores resultados.
 
-* **Tempo de processamento**: o processo de conversão pode levar até 5 minutos, dependendo da complexidade e do tamanho da sua imagem. O modelo é salvo automaticamente como rascunho após a conclusão da conversão.
+* **Tempo de processamento**: o processo de conversão pode levar até 5 minutos, dependendo da complexidade e do tamanho da sua imagem. O processamento da IA acontece em segundo plano, permitindo que você trabalhe em outras tarefas sem manter a tela aberta. O modelo é salvo automaticamente como rascunho após a conclusão da conversão.
 
 * **Disponibilidade limitada**: como um recurso de Disponibilidade limitada, a imagem para o conversor HTML está sendo aprimorada continuamente. A funcionalidade e a precisão podem variar, e seus comentários ajudam a aprimorar o recurso.
 
@@ -174,7 +175,7 @@ O conversor de imagem para HTML é compatível com os formatos de imagem JPEG (.
 
 +++Quanto tempo leva o processo de conversão?
 
-A conversão pode levar até 5 minutos, dependendo da complexidade e do tamanho do design de imagem. Quando a conversão estiver concluída, o arquivo será salvo automaticamente como rascunho para que você o revise e edite.
+A conversão pode levar até 5 minutos, dependendo da complexidade e do tamanho do design de imagem. O processamento da IA acontece em segundo plano, para que você possa sair e trabalhar em outras tarefas; não é necessário manter a tela aberta. Quando a conversão estiver concluída, o arquivo será salvo automaticamente como rascunho para que você o revise e edite.
 
 +++
 
