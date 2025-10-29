@@ -6,10 +6,10 @@ description: Saiba como trabalhar com canais de comunicação do  [!DNL Adobe Jo
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: d2ae91dd8f9f3ef8a38db12ea3c9356ca9a27c53
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 85%
+source-wordcount: '566'
+ht-degree: 92%
 
 ---
 
@@ -132,20 +132,15 @@ No Adobe Journey Optimizer, é possível usar os canais de comunicação em dois
 
 A tabela abaixo mostra a disponibilidade de cada canal em diferentes jornadas e campanhas, indicando onde são compatíveis.
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Atualizado upstream
-| Canal              | Jornadas | Campanhas de ação (marketing) | Campanhas de ação (transacionais) | Campanhas acionadas por API (Marketing) | Campanhas acionadas por API (transacionais) | Campanhas orquestradas |
-=======
-| Canal              | Jornadas | Campanhas de ação (Marketing) | Campanhas de ação (transacional) | Campanhas acionadas por API | Campanhas orquestradas |
-&#x200B;>>>>>>>>>>Alterações no stash
->&#x200B;>>>>>>>>>|—|—|—|—|—|—|
->&#x200B;>>>>>>>>>| E-mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->&#x200B;>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->&#x200B;>>>>>>>>>| Notificação por push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->&#x200B;>>>>>>>>>| No aplicativo               | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Correspondência direta          | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Exp. baseado em código      | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Cartões de conteúdo        | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Linha                 | ✅ | ✅ | — | — | — | — |
-> 
+| Canal | Jornadas | Campanhas de ação (Marketing) | Campanhas de ação (transacional) | Campanhas acionadas por API | Campanhas orquestradas |
+|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
+| Email | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| SMS | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Notificações por push | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| No aplicativo | ✅ | ✅ | — | — | — | — |
+| Correspondência direta | ✅ | ✅ | — | — | — | — |
+| Web | ✅ | ✅ | — | — | — | — |
+| Experiência baseada em código | ✅ | ✅ | — | — | — | — |
+| Cartões de conteúdo | ✅ | ✅ | — | — | — | — |
+| WhatsApp | ✅ | ✅ | — | — | — | — |
+| Linha | ✅ | ✅ | — | — | — | — |
