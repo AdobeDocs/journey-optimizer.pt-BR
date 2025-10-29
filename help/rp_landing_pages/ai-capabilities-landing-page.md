@@ -96,7 +96,7 @@ Agente de experimentação
 
 Execute e gerencie experimentos digitais com insights alimentados por IA. Obtenha resumos de desempenho, análise de conteúdo e recomendações para seus próximos testes.
 
-[Agente de Experimentação de Descoberta](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+[Agente de Experimentação de Descoberta](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 :::
 
 :::
@@ -133,7 +133,7 @@ Coordene vários agentes de IA para trabalhar em conjunto de maneira contínua. 
 Os Adobe Experience Cloud AI Agents estendem os recursos de IA para além do Journey Optimizer, permitindo interações em linguagem natural para tarefas complexas de marketing:
 
 - **[Agente de Análise de Jornada](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - Execute a análise de fallout de jornada, detecte sobreposições de público-alvo e agendamento e receba recomendações acionáveis para otimizar o desempenho da jornada.
-- **[Agente de experimentação](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analise resultados de experimentos, identifique padrões vencedores e descubra novas oportunidades para testes entre canais.
+- **[Agente de experimentação](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analise resultados de experimentos, identifique padrões vencedores e descubra novas oportunidades para testes entre canais.
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - Crie e gerencie segmentos de público-alvo por meio de IA conversacional, analise a composição do público-alvo e otimize as estratégias de segmentação.
 - **[Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - Coordene vários agentes especializados para solucionar desafios de marketing complexos e de várias etapas com eficiência.
 
