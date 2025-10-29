@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 52%
+source-wordcount: '449'
+ht-degree: 50%
 
 ---
 
@@ -28,9 +28,9 @@ Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal 
 
    >[!NOTE]
    >
-   >Os canais com suporte são: [Email](../email/get-started-email.md), [SMS](../sms/get-started-sms.md), [Notificações por push](../push/get-started-push.md). Atualmente, as campanhas acionadas pela API de alta taxa de transferência são compatíveis apenas com o canal de email.
+   >Para obter mais informações sobre os canais com suporte, consulte a tabela nesta seção: [Canais em jornadas e campanhas](../channels/gs-channels.md#channels). Os canais disponíveis variam com base no modelo de licenciamento e nos complementos.
    >
-   >Os canais disponíveis variam com base no modelo de licenciamento e nos complementos.
+   >Atualmente, as campanhas acionadas pela API de alta taxa de transferência são compatíveis apenas com o canal de email.
 
 1. **Selecionar uma configuração de canal**
 

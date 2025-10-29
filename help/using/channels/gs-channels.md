@@ -6,10 +6,10 @@ description: Saiba como trabalhar com canais de comunicação do  [!DNL Adobe Jo
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 96%
+source-wordcount: '586'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,7 @@ Os canais de saída para entrega de mensagens envolvem o envio de mensagens para
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal de email
 
@@ -37,7 +37,7 @@ Descubra como criar, configurar e otimizar campanhas de email, incluindo persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canal de notificação por push
 
@@ -47,7 +47,7 @@ Saiba como criar, configurar e enviar notificações por push para iOS e Android
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Mensagens por SMS/MMS/RCS
 
@@ -57,7 +57,7 @@ Entenda como criar, gerenciar e configurar mensagens por SMS, MMS e RCS para fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campanhas de correspondência direta
 
@@ -75,7 +75,7 @@ Com experiências de entrada de aplicativos móveis e da Web, os clientes inicia
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Mensagens no aplicativo
 
@@ -85,7 +85,7 @@ Aprenda a configurar, projetar e personalizar notificações no aplicativo para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Saiba como criar, configurar e personalizar experiências na web e integrar cana
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Experiência baseada em código
 
@@ -105,7 +105,7 @@ Utilize as experiências baseadas em código para fornecer conteúdo personaliza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Cartões de conteúdo
 
@@ -122,10 +122,30 @@ Descubra como configurar, criar e projetar cartões de conteúdo para mensagens 
 - **[Mensagens do WhatsApp](../../rp_landing_pages/whatsapp-landing-page.md)**: saiba como integrar e usar mensagens do WhatsApp por meio da API da nuvem do Meta para campanhas de comunicação personalizadas e compatíveis.
 - **[Mensagens do LINE](../../rp_landing_pages/line-landing-page.md)**: descubra como configurar, criar e personalizar mensagens do LINE para uma comunicação eficaz em campanhas e jornadas.
 
-## Canais em jornadas e campanhas {#leverage}
+## Canais em jornadas e campanhas {#channels}
 
 No Adobe Journey Optimizer, é possível usar os canais de comunicação em dois contextos principais:
 
 - **Jornadas**: crie experiências do cliente ininterruptas em vários pontos de contato. Automatize interações com base no comportamento e nas preferências do usuário, garantindo comunicações oportunas e relevantes que orientam os usuários pela jornada com a sua marca. [Saiba como criar e executar uma jornada](../building-journeys/journey-gs.md).
 
 - **Campanhas**: implemente campanhas de marketing específicas que utilizem um determinado canal para atingir objetivos específicos. Tanto na promoção de um novo produto quanto no impulsionamento de vendas sazonais, as campanhas permitem que você crie estratégias de mensagens focadas e adequadas ao seu público-alvo. [Saiba como criar e executar uma campanha](../campaigns/get-started-with-campaigns.md).
+
+A tabela abaixo mostra a disponibilidade de cada canal em diferentes jornadas e campanhas, indicando onde são compatíveis.
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; Atualizado upstream
+| Canal              | Jornadas | Campanhas de ação (marketing) | Campanhas de ação (transacionais) | Campanhas acionadas por API (Marketing) | Campanhas acionadas por API (transacionais) | Campanhas orquestradas |
+=======
+| Canal              | Jornadas | Campanhas de ação (Marketing) | Campanhas de ação (transacional) | Campanhas acionadas por API | Campanhas orquestradas |
+>>>>>>>>>>Alterações no stash
+>>>>>>>>>>|—|—|—|—|—|—|
+>>>>>>>>>>| E-mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>>>>>>>>>>| Notificação por push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>>>>>>>>>>| No aplicativo               | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| Correspondência direta          | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| Exp. baseado em código      | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| Cartões de conteúdo        | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| Linha                 | ✅ | ✅ | — | — | — | — |
+> 

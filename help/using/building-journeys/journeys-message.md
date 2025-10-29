@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '554'
 ht-degree: 17%
 
 ---
@@ -34,7 +34,7 @@ Para adicionar uma ação de canal integrada à sua jornada, arraste e solte uma
 
 ## Adicionar uma mensagem em uma jornada  {#add-msg-in-journey}
 
-Com ações de canal integradas, é possível configurar mensagens de saída ou de entrada. Os canais de entrada compatíveis são email, mensagem de texto (SMS/MMS) e notificações por push. Os canais de saída compatíveis são: No aplicativo, Web, experiência baseada em código e cartão de conteúdo.
+Com ações de canal integradas, é possível configurar mensagens de saída ou de entrada. Para obter mais informações sobre os canais disponíveis no jornada, consulte a tabela nesta seção: [Canais em jornadas e campanhas](../channels/gs-channels.md#channels).
 
 Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaixo.
 

@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal 
 
    >[!NOTE]
    >
-   >Os canais com suporte são: [Email](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notificações por push](../push/get-started-push.md), [WhatsApp](../whatsapp/get-started-whatsapp.md), [LINE](../line/get-started-line.md), [Correspondência direta](../direct-mail/get-started-direct-mail.md), [No aplicativo](../in-app/get-started-in-app.md), [Web](../web/get-started-web.md), [Experiências baseadas em código](../code-based/get-started-code-based.md).
+   >Para obter mais informações sobre os canais com suporte, consulte a tabela nesta seção: [Canais em jornadas e campanhas](../channels/gs-channels.md#channels).
    >
    >Os canais disponíveis variam com base no modelo de licenciamento e nos complementos.
 

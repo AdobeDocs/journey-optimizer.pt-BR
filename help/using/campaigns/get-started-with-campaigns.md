@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 92%
+source-wordcount: '931'
+ht-degree: 89%
 
 ---
 
@@ -90,7 +90,7 @@ Use campanhas do [!DNL Journey Optimizer] para fornecer conteúdo único a um p�
 
 ## Tipos de campanha
 
-O [!DNL Journey Optimizer] é compatível com três tipos de campanha. Cada tipo se encaixa em diferentes casos de uso e oferece suporte a diferentes canais.
+O [!DNL Journey Optimizer] é compatível com três tipos de campanha. Cada tipo se encaixa em diferentes casos de uso e oferece suporte a diferentes canais. Para obter mais informações sobre os canais disponíveis com cada tipo de campanha, consulte a tabela nesta seção: [Canais em jornadas e campanhas](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -124,23 +124,6 @@ Embora o marketing entre canais seja essencial, as campanhas orquestradas permit
 
 
 >[!ENDTABS]
-
-## Canais compatíveis por tipo de campanha {#channels}
-
-A tabela abaixo mostra a disponibilidade de cada canal em diferentes tipos de campanha, indicando onde eles são compatíveis.
-
-| Canal | Ação (Marketing) | Ação (Transacional) | Acionada por API (Marketing) | Acionada por API (Transacional) | Orquestrada |
-|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
-| Email | ✅ | ✅ | ✅ | ✅ | ✅ |
-| SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Notificações por push | ✅ | ✅ | ✅ | ✅ | ✅ |
-| No aplicativo | ✅ | — | — | — | — |
-| Correspondência direta | ✅ | — | — | — | — |
-| Web | ✅ | — | — | — | — |
-| Experiência baseada em código | ✅ | — | — | — | — |
-| Cartões de conteúdo | ✅ | — | — | — | — |
-| WhatsApp | ✅ | — | — | — | — |
-| Linha | ✅ | — | — | — | — |
 
 ## Pré-requisitos {#prerequisites}
 

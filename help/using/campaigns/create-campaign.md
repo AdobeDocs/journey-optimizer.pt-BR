@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '190'
 ht-degree: 51%
 
 ---
@@ -34,7 +34,7 @@ As campanhas de ação (ou campanhas programadas) permitem criar comunicações 
 
 >[!NOTE]
 >
->Os canais com suporte são: [Email](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notificações por push](../push/get-started-push.md), [WhatsApp](../whatsapp/get-started-whatsapp.md), [LINE](../line/get-started-line.md), [Correspondência direta](../direct-mail/get-started-direct-mail.md), [No aplicativo](../in-app/get-started-in-app.md), [Web](../web/get-started-web.md), [Experiências baseadas em código](../code-based/get-started-code-based.md).
+>Para obter mais informações sobre os canais com suporte, consulte a tabela nesta seção: [Canais em jornadas e campanhas](../channels/gs-channels.md#channels).
 >
 >Os canais disponíveis variam com base no modelo de licenciamento e nos complementos.
 
@@ -53,4 +53,4 @@ Antes de começar com campanhas, verifique os seguintes pré-requisitos listados
 
 Saiba como criar uma campanha de Ação.
 
->[!VIDEO](https://video.tv.adobe.com/v/3414156?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
