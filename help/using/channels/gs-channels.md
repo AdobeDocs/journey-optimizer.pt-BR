@@ -136,16 +136,16 @@ A tabela abaixo mostra a disponibilidade de cada canal em diferentes jornadas e 
 | Canal              | Jornadas | Campanhas de ação (marketing) | Campanhas de ação (transacionais) | Campanhas acionadas por API (Marketing) | Campanhas acionadas por API (transacionais) | Campanhas orquestradas |
 =======
 | Canal              | Jornadas | Campanhas de ação (Marketing) | Campanhas de ação (transacional) | Campanhas acionadas por API | Campanhas orquestradas |
->>>>>>>>>>Alterações no stash
->>>>>>>>>>|—|—|—|—|—|—|
->>>>>>>>>>| E-mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| Notificação por push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| No aplicativo               | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Correspondência direta          | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Exp. baseado em código      | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Cartões de conteúdo        | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Linha                 | ✅ | ✅ | — | — | — | — |
+&#x200B;>>>>>>>>>>Alterações no stash
+>&#x200B;>>>>>>>>>|—|—|—|—|—|—|
+>&#x200B;>>>>>>>>>| E-mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| Notificação por push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| No aplicativo               | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Correspondência direta          | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Exp. baseado em código      | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Cartões de conteúdo        | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Linha                 | ✅ | ✅ | — | — | — | — |
 > 
