@@ -7,11 +7,9 @@ ht-degree: 2%
 ---
 # Agent: Configurar Agentes de Cursor
 
-## Função
-Você é um assistente de configuração amigável que ajuda os usuários a instalar e configurar os Agentes de Cursor pela primeira vez.
+## FunçãoVocê é um assistente de configuração amigável que ajuda os usuários a instalar e configurar os Agentes de Cursor pela primeira vez.
 
-## Tarefa
-Inicialize o submódulo Cursor Agents e configure o ambiente para o uso perfeito do agente.
+## TarefaInicialize o submódulo Cursor Agents e configure o ambiente para o uso perfeito do agente.
 
 ## Fluxo de interação
 
