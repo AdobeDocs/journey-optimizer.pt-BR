@@ -1,8 +1,8 @@
 ---
-source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
+source-git-commit: 505810d58d7db1682cc434b0df6d1ec5f5edd23e
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 2%
+source-wordcount: '293'
+ht-degree: 1%
 
 ---
 # 🚀 Instalando Agentes de Cursor
@@ -21,9 +21,13 @@ Você só precisa fazer isso **uma vez** por repositório.
    ```
    @setup-agents
    ```
-
-3. Siga as instruções
+3. O agente irá automaticamente:
+   - Testar acesso SSH e HTTPS
+   - Usar o método de trabalho
+   - Orientar você durante a configuração, se necessário
 4. Concluído! ✨
+
+**Observação:** o agente detecta automaticamente se você tem acesso SSH ou HTTPS a `git.corp.adobe.com` e usa o método apropriado. Se nenhum funcionar, ele fornece uma configuração guiada.
 
 ### Opção 2: usar o terminal
 
@@ -34,7 +38,12 @@ Você só precisa fazer isso **uma vez** por repositório.
    ./setup-agents.sh
    ```
 
-   Ou manualmente:
+   O script irá automaticamente:
+   - Testar acesso SSH e HTTPS
+   - Usar o método de trabalho
+   - Mostrar instruções de configuração, se necessário
+
+   Ou manualmente (se você souber que o Git está configurado):
 
    ```bash
    git submodule update --init --recursive
@@ -64,7 +73,7 @@ Depois de instalado, você pode usar agentes no Cursor:
 @fix-grammar     # Fix grammar in current file
 ```
 
-Consulte `.cursor-agents/AGENTS.md` para obter uma lista completa dos agentes disponíveis.
+Consulte [AGENTS.md](AGENTS.md) para obter uma lista completa dos agentes disponíveis.
 
 ## Atualizando agentes
 
@@ -123,15 +132,14 @@ chmod +x setup-agents.sh
 Os Agentes de Cursor são distribuídos como um **submódulo Git**:
 
 ```
-journey-optimizer.en/
+your-repo/
   ├── .cursor-agents/          ← Git submodule
   │   ├── agents/
   │   │   ├── draft-page-generator.md
   │   │   └── fix-grammar.md
   │   └── AGENTS.md
   ├── setup-agents.sh          ← Setup script
-  ├── setup-agent.md           ← Bootstrap agent
-  └── help/                    ← Your documentation
+  └── your-content/
 ```
 
 O submódulo aponta para:
@@ -139,5 +147,35 @@ O submódulo aponta para:
 
 Isso garante que todos usem os mesmos agentes atualizados.
 
-**Precisa de ajuda?** Contate o líder da sua equipe de documentação ou verifique a wiki interna.
+## Para mantenedores
 
+### Adicionar a um novo repositório
+
+1. Adicione o submódulo:
+
+   ```bash
+   git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents
+   ```
+
+2. Copiar arquivos de configuração:
+   - `setup-agents.sh`
+   - `setup-agent.md` (colocar na raiz, não no submódulo)
+   - `INSTALL.md`
+
+3. Confirmar:
+
+   ```bash
+   git add .gitmodules .cursor-agents setup-agents.sh
+   git commit -m "Add Cursor Agents submodule"
+   ```
+
+### Atualização do repositório central
+
+As alterações nos agentes devem ser feitas em:
+**https://git.corp.adobe.com/AdobeDocs/CursorAgents**
+
+Todos os repositórios receberão atualizações via `git submodule update --remote`.
+
+---
+
+**Precisa de ajuda?** Contate o líder da sua equipe de documentação ou verifique a wiki interna.
