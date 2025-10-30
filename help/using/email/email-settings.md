@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Para começar a criar um email, é preciso configurar o canal de email e definir
 >
 >Para preservar sua reputação e melhorar a capacidade de entrega, configure os subdomínios que serão usados para enviar emails antes de criar uma configuração de email. [Saiba mais](../configuration/about-subdomain-delegation.md)
 >
->Antes de criar uma configuração de canal de email, você deve ter criado pelo menos um pool de IPs. [Saiba mais](../configuration/ip-pools.md)
+>Antes de criar uma configuração de canal de email, é necessário ter criado pelo menos um pool de IP. [Saiba mais](../configuration/ip-pools.md)
 
 Defina as configurações de email na seção dedicada da configuração de canal, conforme detalhado abaixo.
 
@@ -32,13 +32,13 @@ Defina as configurações de email na seção dedicada da configuração de cana
 
 A configuração de email é selecionada para o envio de comunicações seguindo a lógica abaixo:
 
-* Isso não se aplica a execuções de jornadas em lote que foram iniciadas antes de configurar a superfície de email. A alteração é recebida na próxima recorrência ou nova execução.
+* Isso não se aplica a execuções de jornadas em lote que foram iniciadas antes de configurar a superfície de email. A alteração é aplicada na próxima recorrência ou na nova execução.
 
 * No caso de mensagens transacionais, a alteração é aplicada imediatamente na próxima comunicação (com um atraso de até cinco minutos).
 
 >[!NOTE]
 >
->As configurações de email atualizadas são selecionadas automaticamente nas jornadas ou campanhas nas quais a configuração é usada.
+>As configurações de email atualizadas são aplicadas automaticamente nas jornadas ou campanhas em que essas configurações são usadas.
 
 ## Tipo de email {#email-type}
 

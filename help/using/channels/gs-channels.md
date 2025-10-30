@@ -9,7 +9,7 @@ exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2ae91dd8f9f3ef8a38db12ea3c9356ca9a27c53
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -109,7 +109,7 @@ Utilize as experiências baseadas em código para fornecer conteúdo personaliza
 
 Cartões de conteúdo
 
-Descubra como configurar, criar e projetar cartões de conteúdo para mensagens envolventes e personalizadas em aplicativos para dispositivos móveis e sites.
+Descubra como configurar, criar e projetar cartões de conteúdo para mensagens envolventes e personalizadas em aplicativos móveis e sites.
 
 [Saiba mais sobre a experiência baseada em código](../../rp_landing_pages/content-card-landing-page.md)
 :::

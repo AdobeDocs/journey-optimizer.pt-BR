@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,8 @@ O Adobe Journey Optimizer capacita equipes a projetar e fornecer experiências p
 Tenha um vislumbre dos últimos aprimoramentos na documentação e no produto do Journey Optimizer. Para obter uma lista de todos os recursos, melhorias e correções, verifique as [Notas de versão](using/rn/release-notes.md) detalhadas.
 
 >[!BEGINTABS]
->[!TAB Versão de  out. 25]
+
+>[!TAB Versão de outubro de 2025]
 
 A versão de outubro do Journey Optimizer está disponível. Descubra os novos recursos e melhorias lançados este mês nas Notas de versão.
 
@@ -48,7 +49,7 @@ A integração do Adobe Express ao Adobe Journey Optimizer permite acessar facil
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Notas de versão mais recentes
 
@@ -58,7 +59,7 @@ Fique atualizado com as últimas notas de versão, novos recursos e melhorias no
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução
 
@@ -68,7 +69,7 @@ Aprenda os conceitos básicos do Journey Optimizer, incluindo seus recursos, arq
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guia abrangente para jornadas
 
@@ -78,7 +79,7 @@ Projete, orquestre, gerencie e otimize jornadas personalizadas do cliente com es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Noções básicas e gerenciamento de campanhas
 
@@ -88,7 +89,7 @@ Orientação detalhada sobre como criar, gerenciar e otimizar vários tipos de c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canais de comunicação
 
@@ -98,7 +99,7 @@ Configure e gerencie emails, SMS, notificações por push e outros canais para i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gerenciamento de conflitos e priorização
 

@@ -12,7 +12,7 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Para que as políticas de governança de dados sejam aplicadas no Journey Optimi
 
 ### Aplicar ações de marketing a jornadas e campanhas {#journeys-campaigns}
 
-Depois de criar políticas de governança, você deve aplicar as ações de marketing relevantes às **configurações de canal** do Journey Optimizer. Para fazer isso, siga estes passos:
+Depois de criar as políticas de governança, é necessário aplicar as ações de marketing relevantes nas **configurações de canal** do Journey Optimizer. Para fazer isso, siga estes passos:
 
 1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Configurações de canal]**.
 

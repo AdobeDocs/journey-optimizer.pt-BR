@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campanha"
->abstract="Selecione o tipo de campanha. Os canais disponíveis variam de acordo com o tipo selecionado. <br>**Campanhas agendadas** (campanhas de ação): ideais para comunicações em lote simples e únicas que você pode agendar para execução em um horário específico.<br>**Campanhas acionadas por API** - Ativadas por meio de uma chamada de API, permitindo o envio automatizado de mensagens baseadas em eventos diretamente de sistemas externos.<br>**Campanhas orquestradas**: fornece uma tela visual com interface de arrastar e soltar para projetar e automatizar fluxos de trabalho de marketing complexos e com várias etapas, desde a segmentação de público-alvo até a entrega personalizada de mensagens entre canais."
+>abstract="Selecione o tipo de campanha. Os canais disponíveis variam de acordo com o tipo selecionado. <br>**Campanhas agendadas** (campanhas de ação): ideais para comunicações em lote simples e únicas que você pode agendar para execução em um horário específico.<br>**Campanhas acionadas por API**: ativadas por meio de uma chamada de API, permitindo o envio automatizado de mensagens baseadas em eventos diretamente de sistemas externos.<br>**Campanhas orquestradas**: fornece uma tela visual com interface de arrastar e soltar para projetar e automatizar fluxos de trabalho de marketing complexos e com várias etapas, desde a segmentação de público-alvo até a entrega personalizada de mensagens entre canais."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
@@ -115,7 +115,7 @@ Embora o marketing entre canais seja essencial, as campanhas orquestradas permit
 
 >[!TAB Campanhas acionadas por API]
 
-**Campanhas acionadas por API** permitem acionar a execução da campanha usando uma chamada de API. Essas comunicações podem ser enviadas onde a necessidade pode envolver personalização, não apenas usando atributos de perfil como redefinição de senha, mas também dados de contexto em tempo real no acionador, que é uma carga da API REST.
+**Campanhas acionadas por API** permitem acionar a execução da campanha usando uma chamada de API. Essas comunicações podem ser enviadas quando houver necessidade de personalização, não apenas com atributos de perfil como redefinição de senha, mas também dados de contexto em tempo real no acionador, que é um conteúdo da API REST.
 
 * **Acionada por API - Marketing** - Enviar comunicações de marketing personalizadas para públicos-alvo direcionados.
 * **Acionada por API - Transacional** - Enviar mensagens seguindo uma ação realizada por uma pessoa física, como uma solicitação de redefinição de senha, compra de carrinho, etc.

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
 source-wordcount: '3010'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 + Jornadas {#orchestrate-journeys}
    + [Jornadas](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introdução a jornadas](using/building-journeys/journey.md)
-   + [PERGUNTAS FREQUENTES DO JORNADA](using/building-journeys/journey-faq.md)
+   + [Perguntas frequentes sobre jornadas](using/building-journeys/journey-faq.md)
    + Criar uma jornada {#create-journey}
       + [Criar uma jornada](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Criar a primeira jornada](using/building-journeys/journey-gs.md)
@@ -69,7 +69,7 @@ ht-degree: 97%
       + [Procurar e filtrar suas jornadas](using/building-journeys/journey-ui.md)
       + [Entrada de perfil em jornadas](using/building-journeys/entry-management.md)
       + [Usar identificadores complementares em jornadas](using/building-journeys/supplemental-identifier.md)
-      + [Trabalhar com eventos de etapa do jornada](using/reports/journey-step-events-overview.md)
+      + [Trabalhar com eventos de etapa da jornada](using/reports/journey-step-events-overview.md)
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
       + [Otimização de tempo de envio](using/building-journeys/send-time-optimization.md)
       + [Encerrar sua jornada](using/building-journeys/end-journey.md)
@@ -198,7 +198,7 @@ ht-degree: 97%
       + [Enviar mensagens de vários canais](using/building-journeys/journeys-uc.md)
       + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/ajo-ac.md)
       + [Enviar uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
-      + [Envio de coleções em parâmetros de ação personalizados](using/building-journeys/collections.md)
+      + [Passar coleções para parâmetros de ação personalizada](using/building-journeys/collections.md)
       + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
       + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
@@ -225,11 +225,11 @@ ht-degree: 97%
       + [Agendar a campanha](using/campaigns/api-triggered-campaign-schedule.md)
       + [Revisar e ativar a campanha](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Acionar a execução da campanha](using/campaigns/trigger-campaigns.md)
-      + [Ativar o modo de alta taxa de transferência para campanhas acionadas por API](using/campaigns/api-triggered-high-throughput.md)
+      + [Ativar modo de taxa de transferência alta para campanhas acionadas por API](using/campaigns/api-triggered-high-throughput.md)
    + Campanhas orquestradas {#orchestrated-campaigns}
       + [Campanhas orquestradas](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Introdução às campanhas orquestradas](using/orchestrated/gs-orchestrated-campaigns.md)
-      + [Proteções e limitações](using/orchestrated/guardrails.md)
+      + [Medidas de proteção e limitações](using/orchestrated/guardrails.md)
       + [Perguntas frequentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuração de dados {#data-configuration}
          + [Configuração de dados](/help/rp_landing_pages/data-configuration-landing-page.md)
@@ -240,7 +240,7 @@ ht-degree: 97%
             + [Esquema de upload do arquivo](using/orchestrated/file-upload-schema.md)
             + [Assimilar dados](using/orchestrated/ingest-data.md)
          + [Criar uma dimensão de direcionamento](using/orchestrated/target-dimension.md)
-         + [Definir uma configuração de canal](using/orchestrated/channel-config.md)
+         + [Criar uma configuração de canais](using/orchestrated/channel-config.md)
       + Lançar a sua primeira campanha orquestrada {#launch}
          + [Lançar a sua primeira campanha orquestrada](/help/rp_landing_pages/launch-landing-page.md)
          + [Etapas principais para criar uma campanha orquestrada](using/orchestrated/gs-campaign-creation.md)
@@ -279,9 +279,9 @@ ht-degree: 97%
    + Definir regras de limites de mensagens e jornada {#capping-rules}
       + [Definir regras de limites de mensagens e jornada](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Trabalhar com conjuntos de regras](using/conflict-prioritization/rule-sets.md)
-      + [Gerenciar limite e arbitragem de jornada](using/conflict-prioritization/journey-capping.md)
+      + [Gerenciar limites de jornada e arbitragem](using/conflict-prioritization/journey-capping.md)
       + [Definir limite de frequência por canal e tipo](using/conflict-prioritization/channel-capping.md)
-      + [Definir horas de silêncio](using/conflict-prioritization/quiet-hours.md)
+      + [Definir períodos de silêncio](using/conflict-prioritization/quiet-hours.md)
 + Testar e aprovar {#test}
    + [Testar e aprovar](/help/rp_landing_pages/test-landing-page.md)
    + Visualizar e testar conteúdo {#preview-test}
@@ -318,7 +318,7 @@ ht-degree: 97%
       + [Criar um email](using/email/create-email.md)
       + Projetar conteúdo de email {#design-email}
          + [Projetar conteúdo de email](/help/rp_landing_pages/design-email-landing-page.md)
-         + [Criar conteúdo da mensagem](using/start/message-content-design.md)
+         + [Projetar conteúdo da mensagem](using/start/message-content-design.md)
          + [Introdução ao design de email](using/email/get-started-email-design.md)
          + Começar a criar conteúdo {#start-creating-content}
             + [Começar a criar conteúdo](/help/rp_landing_pages/start-creating-content-landing-page.md)
@@ -373,7 +373,7 @@ ht-degree: 97%
       + [Introdução às notificações por push](using/push/get-started-push.md)
       + [Criar uma notificação por push](using/push/create-push.md)
       + [Projetar a notificação por push](using/push/design-push.md)
-      + [Criar a notificação por push da Web](using/push/design-push-web.md)
+      + [Projetar a notificação por push da web](using/push/design-push-web.md)
       + [Verificação e envio da notificação por push](using/push/send-push.md)
       + Configurar notificações por push {#push-config}
          + [Configurar notificações por push](/help/rp_landing_pages/push-config-landing-page.md)
@@ -506,7 +506,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
