@@ -5,9 +5,9 @@ title: Recursos de IA no Adobe Journey Optimizer
 description: Recursos de IA no Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 7db2932d6f4c6455cc323103c89e6d673d50efd0
+source-git-commit: f3c1cfcbc2a76b698399de70493d3fd5136f11d5
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1443'
 ht-degree: 3%
 
 ---
@@ -90,7 +90,7 @@ Avalie como seu conteúdo gerado por IA está alinhado às diretrizes da sua mar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Acelerador de experimentos
 
@@ -100,13 +100,13 @@ Acelere seu processo de experimentação de conteúdo com insights e recomendaç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-APIs alimentadas por IA
+Insights operacionais do Jornada (Beta)
 
-Acesse os recursos de IA e aprendizado de máquina do Journey Optimizer programaticamente por meio de APIs.
+Obtenha insights operacionais instantâneos sobre suas jornadas diretamente no Assistente de IA usando consultas de linguagem natural.
 
-[Descubra APIs alimentadas por IA](../using/configuration/ajo-apis.md)
+[Saiba mais sobre o Jornada Insights](../using/start/ai-assistant.md)
 :::
 
 ::::
@@ -118,7 +118,7 @@ Acesse os recursos de IA e aprendizado de máquina do Journey Optimizer programa
 Os Adobe Experience Cloud AI Agents estendem os recursos de IA para além do Journey Optimizer, permitindo interações em linguagem natural para tarefas complexas de marketing:
 
 - **[Agente de Análise de Jornada](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - Execute a análise de fallout de jornada, detecte sobreposições de público-alvo e agendamento e receba recomendações acionáveis para otimizar o desempenho da jornada.
-- **[Agente de experimentação](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analise resultados de experimentos, identifique padrões vencedores e descubra novas oportunidades para testes entre canais.
+- **[Agente de experimentação](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analise resultados de experimentos, identifique padrões vencedores e descubra novas oportunidades para testes entre canais.
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - Crie e gerencie segmentos de público-alvo por meio de IA conversacional, analise a composição do público-alvo e otimize as estratégias de segmentação.
 - **[Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - Coordene vários agentes especializados para solucionar desafios de marketing complexos e de várias etapas com eficiência.
 
