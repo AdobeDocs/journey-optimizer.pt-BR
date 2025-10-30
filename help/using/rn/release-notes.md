@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 181999b096f6f65f25ba5220868aab3aaeafb807
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 86%
@@ -22,7 +22,7 @@ ht-degree: 86%
 
 O [!DNL Adobe Journey Optimizer] segue um modelo de entrega contínua, permitindo que a Adobe forneça novos recursos, melhorias e correções também de forma contínua. Essa abordagem permite uma implantação escalável e em fases de recursos para garantir desempenho e estabilidade em todos os ambientes.
 
-Devido a esse modelo, as notas de versão são atualizadas entre as versões mensais.  Uma seção dedicada de [Atualizações mais recentes](#latest-updates) destaca novos recursos e melhorias à medida que são implantados na produção, para que você sempre seja informado sobre todas as alterações em tempo real. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte [ciclo de lançamento do Journey Optimizer](#releases.md).
+Devido a esse modelo, as notas de versão são atualizadas entre as versões mensais.  Uma seção dedicada de [Atualizações mais recentes](#latest-updates) destaca novos recursos e melhorias à medida que são implantados na produção, para que você sempre seja informado sobre todas as alterações em tempo real. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte [ciclo de lançamento do Journey Optimizer](releases.md).
 
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
