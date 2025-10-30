@@ -61,7 +61,7 @@ Por exemplo, caso queira criar uma política de consentimento para direcionar ap
 
       >[!NOTE]
       >
-      >As principais ações de marketing prontas para uso fornecidas pela Adobe estão listadas [nesta tabela](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=pt-BR#core-actions){target="_blank"}. As etapas para criar uma ação de marketing personalizada estão listadas [nesta seção](https://experienceleague.adobe.com/docs/ Experience-platform/data-governance/policies/user-guide.html?lang=pt-BR#create-marketing-action){target="_blank"}.
+      >As principais ações de marketing prontas para uso fornecidas pela Adobe estão listadas [nesta tabela](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=pt-BR#core-actions){target="_blank"}. As etapas para criar uma ação de marketing personalizada estão listadas [nesta seção](https://experienceleague.adobe.com/docs/?lang=pt-BR Experience-platform/data-governance/policies/user-guide.html?lang=pt-BR#create-marketing-action){target="_blank"}.
 
    1. Selecione o que acontece quando a ação de marketing é aplicada. Neste exemplo, selecione **[!UICONTROL Consentimento de marketing por email]**.
 
