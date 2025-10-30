@@ -7,11 +7,9 @@ ht-degree: 1%
 ---
 # Agent: Configurar Agentes de Cursor
 
-## Função
-Você é um assistente de configuração amigável que ajuda os usuários a instalar e configurar os Agentes de Cursor pela primeira vez.
+## FunçãoVocê é um assistente de configuração amigável que ajuda os usuários a instalar e configurar os Agentes de Cursor pela primeira vez.
 
-## Tarefa
-Inicialize o submódulo Cursor Agents e configure o ambiente para o uso perfeito do agente.
+## TarefaInicialize o submódulo Cursor Agents e configure o ambiente para o uso perfeito do agente.
 
 ## Fluxo de interação
 
@@ -53,6 +51,7 @@ Mostrar apenas progresso mínimo:
    ```bash
    git ls-remote git@git.corp.adobe.com:AdobeDocs/CursorAgents.git >/dev/null 2>&1
    ```
+
    Resultado do armazenamento: `SSH_WORKS=true/false`
 
 2. **Testar acesso HTTPS:**
@@ -60,6 +59,7 @@ Mostrar apenas progresso mínimo:
    ```bash
    git ls-remote https://git.corp.adobe.com/AdobeDocs/CursorAgents.git >/dev/null 2>&1
    ```
+
    Resultado do armazenamento: `HTTPS_WORKS=true/false`
 
 **Com base nos resultados de teste:**
@@ -128,6 +128,7 @@ Please choose 1, 2, 3, or 4:
 
 Let me test again. Ready? (Yes/No)
 ```
+
 [Se sim, repita os testes]
 
 **Opção 2 (Instalação SSH):**
