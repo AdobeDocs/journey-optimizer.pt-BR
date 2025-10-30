@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '680'
 ht-degree: 89%
 
 ---
@@ -65,12 +65,12 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
      >Em uma campanha, você também pode selecionar o botão **[!UICONTROL Editor de código]** da tela **[!UICONTROL Editar conteúdo]**. [Saiba mais](create-email.md#define-email-content)
 
    * **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar um conteúdo de email [nesta seção](existing-content.md).
-<!-- DOCAC-13676
-    * **Convert image designs to HTML templates** using the AI-powered image to HTML converter. Learn how to transform static images into editable email templates in [this section](image-to-html.md).-->
 
-    * **Selecione um conteúdo** existente em uma lista de modelos incorporados ou personalizados. Saiba como trabalhar com modelos de email [nesta seção](../email/use-email-templates.md).
-    
-    ![](assets/email_designer_create_options.png)
+   * **Converter designs de imagem em modelos do HTML** usando o conversor de imagem habilitada por IA para HTML. Saiba como transformar imagens estáticas em modelos de email editáveis em [esta seção](image-to-html.md).
+
+   * **Selecionar um conteúdo existente** de uma lista de modelos integrados ou personalizados. Saiba como trabalhar com modelos de email [nesta seção](../email/use-email-templates.md).
+
+   ![](assets/email_designer_create_options.png)
 
 1. Depois que o conteúdo do email tiver sido definido e personalizado, você poderá exportar o conteúdo para validação ou para uso posterior. Clique em **[!UICONTROL Exportar HTML]** para salvar em seu computador um arquivo zip que contém o HTML e os ativos.
 
@@ -80,8 +80,8 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
 
 Saiba como criar conteúdo de email com o editor de mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417587?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Saiba como configurar experimentos de conteúdo para testes A/B e explorar o conteúdo de email que melhor impulsiona seus objetivos de negócios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447336?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
