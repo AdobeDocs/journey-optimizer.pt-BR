@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
+source-git-commit: 148fde1fd0a7d8f4b24fab11a398ce6ac0a0c807
 workflow-type: tm+mt
-source-wordcount: '2861'
-ht-degree: 100%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,11 @@ Essa alteração será implementada nas **sandboxes de clientes existentes** em 
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-Não é possível usar o mesmo domínio de envio para enviar mensagens de email do [!DNL Adobe Journey Optimizer] e de outro produto, como o [!DNL Adobe Campaign] ou o [!DNL Adobe Marketo Engage] por exemplo.
+As seguintes medidas de proteção se aplicam ao [canal de email](../email/get-started-email.md):
+
+* Não é possível usar o mesmo domínio de envio para enviar mensagens de email do [!DNL Adobe Journey Optimizer] e de outro produto, como o [!DNL Adobe Campaign] ou o [!DNL Adobe Marketo Engage] por exemplo.
+
+Ao projetar mensagens de email, o sistema verifica as principais configurações e exibe alertas de avisos (recomendações e práticas recomendadas) e erros (bloqueando problemas que impedem teste ou ativação). Saiba mais sobre alertas de email e requisitos de validação em [esta seção](../email/create-email.md#check-email-alerts).
 
 ### Medidas de proteção de SMS {#sms-guardrails}
 
