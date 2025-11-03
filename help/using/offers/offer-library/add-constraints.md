@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: ef042e3a93dccc29d66eb9ab7d837f7914a8959d
+source-git-commit: 7878e51e4ffb84ec84acee26872b5ab69900e806
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2729'
 ht-degree: 15%
 
 ---
@@ -76,7 +76,7 @@ Por exemplo, se você definir as seguintes restrições:
 >title="Sobre a elegibilidade da oferta"
 >abstract="Nesta seção, é possível usar regras de decisão para definir as pessoas elegíveis para receber a oferta."
 
-<!--additional-url="https://video.tv.adobe.com/v/341377?captions=por_br" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -105,7 +105,7 @@ A seção **[!UICONTROL Qualificação da oferta]** permite restringir a oferta 
 
   >[!CAUTION]
   >
-  >No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
+  >No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
 
 Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
 
@@ -148,11 +148,7 @@ Basicamente, a saída de um público-alvo é uma lista de perfis, enquanto uma r
 
 O limite é usado como uma restrição para definir o número máximo de vezes que uma oferta pode ser apresentada. Limitar o número de vezes que os usuários obtêm ofertas específicas permite evitar o excesso de solicitações de seus clientes e, portanto, otimizar cada ponto de contato com a melhor oferta.
 
-Você pode adicionar até 10 regras de limitação para uma determinada oferta. Para definir uma regra de limite, clique no botão **[!UICONTROL Criar limite]** e siga as etapas abaixo:
-
->[!CAUTION]
->
->Não é possível ativar ou desativar o limite de frequência para ofertas criadas anteriormente. Para fazer isso, é necessário criar uma nova oferta.
+Você pode adicionar até 10 regras de limitação para uma determinada oferta. Para definir uma regra de limite, clique no botão **[!UICONTROL Criar limite]** e siga as etapas abaixo.
 
 1. Defina qual **[!UICONTROL Evento de limite]** será considerado para aumentar o contador. [Saiba mais](#capping-event)
 
