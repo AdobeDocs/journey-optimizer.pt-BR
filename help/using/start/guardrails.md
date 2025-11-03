@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 148fde1fd0a7d8f4b24fab11a398ce6ac0a0c807
+source-git-commit: e83b49e887e60d12f15252360062c749ed8bd641
 workflow-type: tm+mt
-source-wordcount: '2908'
-ht-degree: 98%
+source-wordcount: '2929'
+ht-degree: 96%
 
 ---
 
@@ -228,6 +228,8 @@ A seguinte medida de proteção se aplica à atividade de [qualificação de pú
 * A atividade Qualificação de público-alvo não pode ser usada com atividades do Adobe Campaign.
 * Identificadores suplementares não são aceitos para jornadas de qualificação de público-alvo.
 
+Saiba mais sobre taxas de processamento e limites de taxa de transferência do jornada em [esta seção](../building-journeys/entry-management.md#journey-processing-rate).
+
 #### Atividades do Campaign {#ac-g}
 
 As seguintes medidas de proteção se aplicam às atividades do **[!UICONTROL Campaign v7/v8]** e **[!UICONTROL Campaign Standard]**:
@@ -264,7 +266,7 @@ Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Salto]*
 As seguintes medidas de proteção se aplicam à atividade de [leitura de público-alvo](../building-journeys/read-audience.md) da jornada:
 
 * Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Eles só são avaliados diariamente no momento da avaliação diária do lote.
-* Para jornadas que usam uma atividade de **público-alvo de leitura**, há um número máximo de jornadas que podem ser iniciadas ao mesmo tempo. O sistema ainda realizará novas tentativas, mas você deve evitar ter mais de cinco jornadas (com **Público-alvo de leitura**, agendadas ou iniciando “o mais rápido possível”) que se iniciem ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, em intervalos de 5 a 10 minutos.
+* Para jornadas que usam uma atividade de **público-alvo de leitura**, há um número máximo de jornadas que podem ser iniciadas ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais de cinco jornadas (com **Ler público**, agendado ou iniciando &quot;o mais rápido possível&quot;), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos. Saiba mais sobre as taxas de processamento de jornada em [esta seção](../building-journeys/entry-management.md#journey-processing-rate).
 * A atividade de **público-alvo de leitura** não pode ser usada com atividades do Adobe Campaign.
 * A atividade de **público-alvo de leitura** só pode ser usada como a primeira atividade de uma jornada ou após uma atividade de evento de negócios.
 * Uma jornada só pode ter uma atividade de **público-alvo de leitura**.

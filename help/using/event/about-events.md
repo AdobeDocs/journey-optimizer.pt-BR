@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: events, event, jornada, definition, start
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 33%
+source-wordcount: '1555'
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 33%
 
 Use eventos para acionar jornadas individualmente, fornecendo mensagens em tempo real a cada usuário ao entrarem na jornada.
 
-Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são padronizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de ingestão de streaming para eventos autenticados e não autenticados (como eventos do SDK móvel da Adobe). Você pode usar vários eventos (em etapas diferentes de uma jornada) e várias jornadas podem usar o mesmo evento.
+Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são padronizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de ingestão de transmissão para eventos autenticados e não autenticados (como eventos do Adobe Mobile SDK). Você pode usar vários eventos (em etapas diferentes de uma jornada) e várias jornadas podem usar o mesmo evento.
 
 A configuração do evento é **obrigatória** e deve ser executada por um engenheiro de dados.
 
@@ -66,7 +66,7 @@ Para eventos **unitários**, há dois tipos de ID de evento:
 
 Eventos são chamadas POST API. Os eventos são enviados para o Adobe Experience Platform por meio de APIs de assimilação de streaming. O destino do URL de eventos enviados por meio de APIs de mensagens transacionais é chamado de &quot;inlet&quot;. A carga útil de eventos segue a formatação XDM.
 
-A carga contém informações necessárias para que as APIs de Assimilação de streaming funcionem (no cabeçalho) e as informações necessárias para que [!DNL Journey Optimizer] funcionem e as informações que serão usadas em jornadas (no corpo, por exemplo, a quantidade de um carrinho abandonado). Há dois modos para a ingestão de fluxo, autenticados e não autenticados. Para obter detalhes sobre as APIs de ingestão de fluxo, consulte [este link](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR){target="_blank"}.
+A carga contém informações necessárias para que as APIs de Assimilação de streaming funcionem (no cabeçalho) e as informações necessárias para que [!DNL Journey Optimizer] funcionem e as informações que serão usadas em jornadas (no corpo, por exemplo, a quantidade de um carrinho abandonado). Há dois modos para a ingestão de transmissão, autenticados e não autenticados. Para obter detalhes sobre as APIs de ingestão de transmissão, consulte [este link](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR){target="_blank"}.
 
 Depois de chegar através das APIs de assimilação de streaming, os eventos fluem para um serviço interno chamado Pipeline e, em seguida, para o Adobe Experience Platform. Se o esquema do evento tiver o sinalizador de Serviço de perfil do cliente em tempo real habilitado e uma ID de conjunto de dados que também tenha o sinalizador de Perfil do cliente em tempo real, ele fluirá para o Serviço de perfil do cliente em tempo real.
 
@@ -76,6 +76,8 @@ Para eventos gerados pelo sistema, o Pipeline filtra os eventos que têm uma car
 ## Sobre a taxa de transferência de eventos do Jornada {#event-thoughput}
 
 A Adobe Journey Optimizer oferece suporte a um volume máximo de 5.000 eventos de jornada por segundo em nível de organização, em todas as sandboxes. Esta cota se aplica a todos os eventos usados no jornada ativo, que inclui jornadas do **Live**, **Dry run**, **Closed** e **Paused**. Quando essa cota é atingida, novos eventos são enfileirados com uma taxa de processamento de 5.000 por segundo. O tempo máximo que um evento pode passar na fila é de **24 horas**.
+
+Para obter mais detalhes sobre as taxas de processamento da jornada e como os diferentes tipos de jornada afetam a taxa de transferência, consulte [esta seção](../building-journeys/entry-management.md#journey-processing-rate).
 
 Os seguintes tipos de eventos são contados para a cota de 5.000 TPS:
 
@@ -120,8 +122,8 @@ Não é possível excluir nenhum evento usado nas jornadas do **Live**, **Rascun
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431510?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Entenda os casos de uso aplicáveis a eventos de negócios. Saiba como criar uma jornada usando um evento de negócios e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417595?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

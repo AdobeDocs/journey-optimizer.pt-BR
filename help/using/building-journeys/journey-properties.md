@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2748'
 ht-degree: 15%
 
 ---
@@ -55,7 +55,7 @@ Saiba mais sobre os campos técnicos relacionados a uma jornada para um determin
 
 O modo de entrada de perfil é definido no nível da jornada, no painel de configuração direito. As configurações estão descritas abaixo.
 
-O gerenciamento de entrada de perfis depende do tipo de jornada. Saiba mais sobre a entrada de perfis e o gerenciamento de reentrada em [esta página](entry-management.md).
+O gerenciamento de entrada de perfis depende do tipo de jornada. Saiba mais sobre a entrada de perfis e o gerenciamento de reentrada em [esta página](entry-management.md). Saiba mais sobre as taxas de processamento de jornada e como os perfis fluem pelas jornadas em [esta seção](entry-management.md#journey-processing-rate).
 
 ### Permitir reentrada  {#allow-reentrance}
 
@@ -309,7 +309,7 @@ Esse recurso funciona com a funcionalidade Pausar/Retomar, ajudando você a gere
 
 Consulte esta seção para saber como [usar os critérios de saída do atributo de perfil no jornada pausado](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
 
-### Proteções e limitações {#exit-criteria-guardrails}
+### Medidas de proteção e limitações {#exit-criteria-guardrails}
 
 As seguintes medidas de proteção e limitações se aplicam ao recurso [Critérios de saída do Jornada](#exit-criteria-desc):
 

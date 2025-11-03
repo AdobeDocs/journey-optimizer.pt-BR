@@ -10,9 +10,9 @@ level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '664'
 ht-degree: 17%
 
 ---
@@ -81,7 +81,7 @@ Selecione o tipo **Personalizado** para definir uma data personalizada, usando u
 
 A expressão no editor deve fornecer um formato `dateTimeOnly`. Consulte [esta página](expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly, consulte [esta página](expression/data-types.md).
 
-A prática recomendada é usar datas personalizadas específicas para seus perfis e evitar o uso da mesma data para todos. Por exemplo, não defina `toDateTimeOnly('2024-01-01T01:11:00Z')`, mas sim `toDateTimeOnly(@event{Event.productDeliveryDate})`, que é específico para cada perfil. Esteja ciente de que o uso de datas fixas pode causar problemas na execução da jornada.
+A prática recomendada é usar datas personalizadas específicas para seus perfis e evitar o uso da mesma data para todos. Por exemplo, não defina `toDateTimeOnly('2024-01-01T01:11:00Z')`, mas sim `toDateTimeOnly(@event{Event.productDeliveryDate})`, que é específico para cada perfil. Esteja ciente de que o uso de datas fixas pode causar problemas na execução da jornada. Saiba mais sobre o impacto das atividades de espera na taxa de processamento da jornada em [esta seção](entry-management.md#wait-activities-impact).
 
 
 >[!NOTE]

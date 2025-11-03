@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '781'
 ht-degree: 27%
 
 ---
@@ -39,6 +39,8 @@ As principais etapas para criar uma jornada são detalhadas nesta página. Elas 
 
 
 Crie jornadas de várias etapas para o cliente e inicie em tempo real uma sequência de interações, ofertas e mensagens entre canais. Essa abordagem garante que os clientes estejam envolvidos nos momentos ideais com base em suas ações e sinais de negócios relevantes. Os públicos-alvo são definidos com base no comportamento, nos dados contextuais e nos eventos comerciais. Os pré-requisitos dependem do seu caso de uso e do [tipo de jornada](entry-management.md#types-of-journeys) que você está criando.
+
+Saiba mais sobre como os perfis fluem pelas jornadas e taxas de processamento de jornada em [esta seção](entry-management.md#journey-processing-rate).
 
 Antes de começar a criar a jornada, verifique se as etapas de configuração relevantes foram concluídas:
 

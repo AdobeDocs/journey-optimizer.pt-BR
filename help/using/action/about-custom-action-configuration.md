@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '1829'
-ht-degree: 16%
+source-wordcount: '1838'
+ht-degree: 15%
 
 ---
 
@@ -74,7 +74,7 @@ As ações personalizadas só oferecem suporte ao formato JSON ao usar [solicita
 
 Ao escolher um ponto de acesso para destino usando uma ação personalizada, verifique se:
 
-* Esse ponto de acesso pode suportar a taxa de transferência da jornada, usando configurações da [API de limitação](../configuration/throttling.md) ou da [API de limite](../configuration/capping.md) para limitá-la. Tenha cuidado, pois uma configuração de limitação não pode ficar abaixo de 200 TPS. Qualquer ponto de acesso como destino precisará oferecer suporte a pelo menos 200 TPS.
+* Esse ponto de acesso pode suportar a taxa de transferência da jornada, usando configurações da [API de limitação](../configuration/throttling.md) ou da [API de limite](../configuration/capping.md) para limitá-la. Tenha cuidado, pois uma configuração de limitação não pode ficar abaixo de 200 TPS. Qualquer terminal direcionado precisará oferecer suporte a pelo menos 200 TPS. Saiba mais sobre as taxas de processamento de jornada em [esta seção](../building-journeys/entry-management.md#journey-processing-rate).
 * Esse ponto de acesso precisa ter um tempo de resposta o mais baixo possível. Dependendo da taxa de transferência esperada, ter um tempo de resposta alto pode afetar a taxa de transferência real.
 
 Um limite máximo de 300.000 chamadas em um minuto é definido para todas as ações personalizadas. Além disso, o limite padrão é executado por host e por sandbox. Por exemplo, em uma sandbox, se você tiver dois endpoints com o mesmo host (por exemplo, `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), o limite será aplicado a todos os endpoints no host adobe.com. &quot;endpoint1&quot; e &quot;endpoint2&quot; compartilharão a mesma configuração de limitação e fazer com que um endpoint atinja o limite terá impacto no outro endpoint.
@@ -157,7 +157,7 @@ Por padrão, o Adobe Journey Optimizer é compatível com TLS 1.3 para ações p
 
 Você pode usar o MTLS (Mutual Transport Layer Security) para garantir segurança aprimorada em conexões de saída para ações personalizadas de Adobe Journey Optimizer. O mTLS é um método de segurança completo para autenticação mútua que garante que ambas as partes que compartilham informações sejam quem afirmam ser antes que os dados sejam compartilhados. O mTLS inclui uma etapa adicional em comparação ao TLS, na qual o servidor também solicita o certificado do cliente e o verifica ao final.
 
-A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definir os parâmetros de carga {#define-the-message-parameters}
 
