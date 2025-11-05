@@ -5,7 +5,9 @@ title: Funções
 description: Funções
 redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+hide: true
+hidefromtoc: true
+source-git-commit: 6c07fcc79c49698df748c6fc6fbd75a59c5b11c1
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 80%
@@ -20,7 +22,7 @@ As funções do Adobe Journey Optimizer permitem criar expressões dinâmicas e 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funções principais do Adobe Journey Optimizer
 
@@ -30,7 +32,7 @@ Obtenha uma visão geral das principais funções disponíveis, categorizadas po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Usar a função inAudience
 
@@ -40,7 +42,7 @@ Entenda como avaliar a associação de públicos-alvo com a função inAudience 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Referência de funções de agregação
 
@@ -50,7 +52,7 @@ As funções de agregação principais executam operações como médias, contag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 Funções de conversão
 
@@ -60,7 +62,7 @@ Transforme tipos de dados com funções de conversão para manipular entradas de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Funções de data do Adobe Journey Optimizer
 
@@ -70,7 +72,7 @@ Saiba como manipular e avaliar valores de data e hora por meio de funções pode
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Funções de lista do Adobe Journey Optimizer
 
@@ -85,4 +87,4 @@ Utilize as funções de lista para operações como desduplicação, filtragem, 
 ## Recursos adicionais
 
 - **[Funções matemáticas](math-landing-page.md)**: explore as funções matemáticas, como aleatório e arredondamento, para cálculos numéricos em expressões de jornadas.
-- **[Funções de string do Adobe Journey Optimizer](string-landing-page.md)**: manipule strings com as funções de concatenação, extração de substrings, formatação e muito mais em expressões de jornadas.
+- **[Funções de string do Adobe Journey Optimizer](../using/building-journeys/functions/string-functions.md)**: manipule strings com as funções de concatenação, extração de substrings, formatação e muito mais em expressões de jornadas.
