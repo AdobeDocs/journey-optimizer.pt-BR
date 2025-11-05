@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de email, Módulos, Reutilização, Consistência de marca, Design de email, CSS personalizado, Otimização móvel
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
+source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 3%
@@ -146,7 +146,7 @@ Para aplicar temas de estilo padrão ou personalizados a um modelo de conteúdo 
 
 1. Quando um tema for selecionado em um modelo de conteúdo, você poderá clicar no botão **[!UICONTROL Editar tema]** para atualizá-lo. [Saiba mais](#create-and-edit-themes)
 
-   ![](assets/theme-edit-in-template.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/theme-edit-in-template.png){width="40%"}
 
    >[!NOTE]
    >
@@ -170,7 +170,7 @@ Você pode alternar temas a qualquer momento. O conteúdo do email permanece ina
 
 Quando um componente é selecionado, é possível desbloquear seu estilo usando o ícone dedicado na guia **[!UICONTROL Estilos]**.
 
-![](assets/theme-unlock-style.png){width="90%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style.png){width="90%"}
 
 O tema selecionado ainda é aplicado a esse componente, mas você pode substituir seus elementos de estilo. Se você alterar temas, o novo tema será aplicado somente aos elementos de estilo que não foram substituídos.<!--can you revert this action?-->
 
@@ -180,7 +180,7 @@ Por exemplo, se você desbloquear um componente de texto, poderá alterar <!--th
 
 Se você alterar temas, <!--the font size is still 14 and -->a cor da fonte ainda será vermelha para esse componente, mas a cor do plano de fundo desse componente será alterada com o novo tema:
 
-![](assets/theme-unlock-style-ex-colored.png){width="80%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style-ex-colored.png){width="80%"}
 
 ## Aproveitar temas em um fragmento {#leverage-themes-fragment}
 
@@ -192,7 +192,7 @@ Para criar um fragmento compatível com temas, siga as etapas abaixo.
 
 1. Selecione **[!UICONTROL Usar Temas]** para começar com um tema de estilo predefinido.
 
-   ![](assets/fragment-use-themes.png){width="100%" align="center" zoomable="yes"}
+   ![](assets/fragment-use-themes.png){width="100%"}
 
    >[!CAUTION]
    >
@@ -206,11 +206,11 @@ Para criar um fragmento compatível com temas, siga as etapas abaixo.
 
 1. É possível selecionar outros temas para visualizar o conteúdo do fragmento. Para fazer isso, selecione a seta ao lado do tema padrão e clique em **[!UICONTROL Selecionar temas]**.
 
-   ![](assets/fragment-select-themes.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/fragment-select-themes.png){width="40%"}
 
 1. Você pode navegar entre as guias **[!UICONTROL Temas do Adobe]** e **[!UICONTROL Meus temas]** e selecionar até cinco temas compatíveis (de ambas as guias) para o fragmento.
 
-   ![](assets/fragment-select-compatible-themes.png){width=70% align="center" zoomable="yes"}
+   ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
@@ -220,7 +220,7 @@ Para criar um fragmento compatível com temas, siga as etapas abaixo.
 
 1. Selecione novamente a seta ao lado do **[!UICONTROL Tema padrão]**. Agora é possível alternar entre os diferentes temas selecionados para visualizar cada renderização de estilo.
 
-   ![](assets/fragment-selected-themes.png){width=90% align="center" zoomable="yes"}
+   ![](assets/fragment-selected-themes.png){width=90%}
 
 1. Clique em **[!UICONTROL Selecionar temas]** novamente para adicionar mais temas ou alterar sua seleção.
 
@@ -232,16 +232,16 @@ Para criar um fragmento compatível com temas, siga as etapas abaixo.
 
 1. Selecione o ícone **[!UICONTROL Temas]** no painel direito e clique no botão **[!UICONTROL Gerar tema do conteúdo]**.
 
-   ![](assets/generate-theme.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme.png){width=100%}
 
 1. A janela **[!UICONTROL Criar um tema]** é aberta. O [!DNL Journey Optimizer] detecta automaticamente os elementos de estilo e os consolida em um novo tema.
 
-   ![](assets/generate-theme-create-window.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-create-window.png){width=90%}
 
 1. Forneça um nome para o tema.
 
 1. Faça seus próprios ajustes, conforme necessário, da mesma forma que faz ao criar um tema do zero, como adicionar uma variante de cor, editar fontes etc. [Saiba como](#create-and-edit-themes)
 
-   ![](assets/generate-theme-colors.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-colors.png){width=90%}
 
 1. Clique em **[!UICONTROL Salvar]** para armazenar este novo tema para reutilização. Agora é possível aplicar esse tema ao seu conteúdo, como qualquer outro tema. [Saiba como](#leverage-themes-fragment)
