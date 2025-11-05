@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
-source-wordcount: '2987'
+source-wordcount: '2978'
 ht-degree: 98%
 
 ---
@@ -121,17 +121,7 @@ ht-degree: 98%
          + Data {#date}
             + [Funções de data](using/building-journeys/functions/date-functions.md)
          + Lista {#list}
-            + [Lista](/help/rp_landing_pages/list-landing-page.md)
-            + [distinct](using/building-journeys/functions/functiondistinct.md)
-            + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
-            + [filtro](using/building-journeys/functions/functionfilter.md)
-            + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [no](using/building-journeys/functions/functionin.md)
-            + [interseção](using/building-journeys/functions/functionintersect.md)
-            + [limite](using/building-journeys/functions/functionlimit.md)
-            + [listSize](using/building-journeys/functions/functionlistsize.md)
-            + [serializeList](using/building-journeys/functions/functionserializelist.md)
-            + [sort](using/building-journeys/functions/functionsort.md)
+            + [Listar funções](using/building-journeys/functions/list-functions.md)
          + Matemática {#math}
             + [Matemática](/help/rp_landing_pages/math-landing-page.md)
             + [random](using/building-journeys/functions/functionrandom.md)
@@ -477,7 +467,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)

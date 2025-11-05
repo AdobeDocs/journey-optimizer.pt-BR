@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -262,7 +262,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <td>
 <p>Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/3414156?captions=por_br">vídeo do recurso</a>.
+<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/346680">vídeo do recurso</a>.
 </td>
 </tr>
 </tbody>
@@ -617,7 +617,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 **Jornadas**
 
 * **Público-alvo de leitura** - Jornadas de público-alvo de leitura únicas agora são atualizadas para o status “Concluído” 30 dias após a execução da jornada. Para públicos-alvo de leitura agendados, isso acontece 30 dias após a execução da última ocorrência. [Saiba mais](../building-journeys/read-audience.md)
-* **Editor de expressão** - A função [limite](../building-journeys/functions/functionlimit.md) foi adicionada para limitar o número de itens de uma lista. A função [classificar](../building-journeys/functions/functionsort.md) agora permite classificar um objeto de lista. O suporte a listObject também foi adicionado às funções [disctinct](../building-journeys/functions/functiondistinct.md) e [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
+* **Editor de expressão** - A função [limite](../building-journeys/functions/list-functions.md#limit) foi adicionada para limitar o número de itens de uma lista. A função [classificar](../building-journeys/functions/list-functions.md#sort) agora permite classificar um objeto de lista. O suporte a listObject também foi adicionado às funções [disctinct](../building-journeys/functions/list-functions.md#distinct) e [distinctWithNull](../building-journeys/functions/list-functions.md#distinctWithNull).
 
 **Administração**
 

@@ -11,7 +11,7 @@ badge: label="Disponibilidade limitada" type="Informative"
 keywords: atividade, decisão, decisão de conteúdo, política de decisão, tela, jornada
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
@@ -116,7 +116,7 @@ Para aproveitar a saída de uma atividade de decisão de conteúdo, você pode a
    >
    >Qualquer rótulo restrito definido em um atributo, em um evento de experiência de jornada usado em uma regra de decisão (como dados de contexto) ou no [esquema de ofertas](../experience-decisioning/catalogs.md#access-catalog-schema), resulta em violação de política para DULE ou consentimento. Saiba mais sobre políticas de governança de dados em [esta seção](../action/action-privacy.md)
 
-1. Para verificar se alguma oferta foi retornada para os perfis que entram na jornada, use a função [listSize](functions/functionlistsize.md) com a seguinte sintaxe: `listSize(@decision{ContentdecisionName.items})>0`
+1. Para verificar se alguma oferta foi retornada para os perfis que entram na jornada, use a função [listSize](functions/list-functions.md#listSize) com a seguinte sintaxe: `listSize(@decision{ContentdecisionName.items})>0`
 
    >[!NOTE]
    >

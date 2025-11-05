@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -152,7 +152,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 <p>Agora é possível enviar coleções ou uma lista de dados nos parâmetros de ação personalizados que serão preenchidos dinamicamente no tempo de execução. Há suporte para dois tipos de coleções: coleções simples e coleções de objetos. As ações personalizadas criadas anteriormente continuarão funcionando. </p>
 <p>Para mais informações sobre coleções, consulte a <a href="../building-journeys/collections.md"> documentação detalhada</a>. </p>
 <p>As funções de filtro e interseção foram adicionadas à lista de funções disponíveis no editor de expressão avançado. Isso oferece mais possibilidades para filtragem e comparação de coleção.</p>
-<p>Consulte a documentação nas funções <a href="../building-journeys/functions/functionfilter.md">filtro</a> e <a href="../building-journeys/functions/functionintersect.md">interseção</a>.</p>
+<p>Consulte a documentação nas funções <a href="../building-journeys/functions/list-functions.md#filter">filtro</a> e <a href="../building-journeys/functions/list-functions.md#intersect">interseção</a>.</p>
 </td>
 </tr>
 </tbody>
