@@ -3,17 +3,17 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Experiência aprimorada de criação de email
 description: Saiba como simplificar a criação de emails com temas e módulos reutilizáveis, garantindo a consistência do design e a eficiência em suas campanhas.
-badge: label="Beta" type="Informative"
+badge: label="Disponibilidade limitada" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: Temas de email, Módulos, Reutilização, Consistência de marca, Design de email, CSS personalizado, Otimização móvel
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
+source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 6%
+source-wordcount: '1567'
+ht-degree: 3%
 
 ---
 
@@ -24,32 +24,15 @@ ht-degree: 6%
 >title="Aplicar um tema ao email"
 >abstract="Selecione um tema para o email para aplicar rapidamente um estilo específico que se ajuste à sua marca e design."
 
-<!--This documentation provides a comprehensive guide to using themes to streamline your email creation process. With the ability to define reusable themes and leverage pre-designed modules, marketers can create professional, brand-aligned emails faster and with less effort.-->
-
 >[!AVAILABILITY]
 >
->No momento, esse recurso está na versão beta e disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.
+>Esse recurso está com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 Com temas, os usuários não técnicos têm a capacidade de criar conteúdo reutilizável que se adapta a uma marca e idioma de design específicos, adicionando estilo personalizado sobre os modelos padrão<!-- to achieve brand specific results-->.
 
 Esse recurso permite que os profissionais de marketing aproveitem emails visualmente atraentes e consistentes com a marca de forma mais rápida e com menos esforço, ao mesmo tempo em que fornece opções avançadas de personalização para necessidades de design exclusivas.
 
-<!--What is the Enhanced Email Authoring Experience?
-
-This feature introduces two key components to simplify and enhance email creation:
-
-* **Theme Management System**: A centralized system for creating, customizing, and applying reusable themes to emails. Themes ensure consistent styling across campaigns and eliminate the need for repetitive manual styling.
-
-* **Modules**: Pre-designed, reusable content blocks that abstract common email elements (e.g., titles, descriptions, images, and links). Modules are built using customizable low-level components, offering flexibility while maintaining design standards.
-
-Key Benefits:
-
-- **Consistency**: Ensure all emails align with your brand's design guidelines.
-- **Efficiency**: Save time by reusing themes and modules across campaigns.
-- **Customization**: Add custom CSS and mobile-specific styles for advanced designs.
-- **Scalability**: Eliminate repetitive styling tasks, enabling faster email creation.-->
-
-## Proteções e limitações {#themes-guardrails}
+## Medidas de proteção e limitações {#themes-guardrails}
 
 * Ao criar um email do zero, você pode optar por começar a criar o conteúdo usando um tema para aplicar rapidamente um estilo específico que se ajuste à sua marca e design.
 
@@ -57,15 +40,19 @@ Key Benefits:
 
 * [Fragmentos](../content-management/fragments.md) não são compatíveis entre os modos Usar Temas e Estilo Manual.
 
-  Para poder usar um fragmento em um conteúdo no qual um tema é aplicado, esse fragmento deve ser criado no modo Usar temas.
+   * Para usar um [fragmento](../content-management/fragments.md) em um conteúdo com tema, este fragmento deve ter sido criado por si mesmo, usando temas. [Saiba mais](#leverage-themes-fragment)
 
-* Se estiver usando um conteúdo criado no HTML, você estará no [modo de compatibilidade](existing-content.md) e não poderá aplicar temas a esse conteúdo.
+   * Ao usar um fragmento em um conteúdo de email, aplique um tema definido para esse fragmento. Deixar de fazer isso pode causar problemas de exibição, especialmente no Outlook 2021 e em versões anteriores. [Saiba mais](#leverage-themes-fragment)
 
-  Para aproveitar totalmente todos os recursos do Designer de email, incluindo temas, você deve criar um novo conteúdo no modo Usar temas ou converter o conteúdo do HTML importado. [Saiba mais](existing-content.md)
+* Se estiver usando um conteúdo criado no HTML, você estará no [modo de compatibilidade](existing-content.md) e não poderá aplicar temas diretamente a esse conteúdo.
 
-<!--If using a content created in Manual Styling mode or HTML, you cannot apply themes to this content. You must create a new content in Use Themes mode.
+   * Para aplicar temas, primeiro salve o conteúdo importado [como um novo modelo](../content-management/create-content-templates.md#save-as-template) e, em seguida, converta este modelo em um conteúdo compatível com temas. Em seguida, você pode usar esse template para criar o conteúdo de email. Saiba como converter um modelo criado com estilo manual [nesta seção](#theme-convertor).
 
-If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Manual Styling mode, the rendering may not be optimal.-->
+   * Você também pode converter o conteúdo importado do HTML. [Saiba mais](existing-content.md)
+
+  <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
+
+<!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
 ## Criar um tema {#create-and-edit-themes}
 
@@ -77,11 +64,15 @@ Para definir um tema que você pode aproveitar em seu conteúdo de email futuro,
 
    ![](assets/theme-create.png)
 
-1. Você pode selecionar o tema padrão ou usar uma Adobe ou um modelo personalizado. Neste exemplo, selecione o tema padrão e clique em **[!UICONTROL Criar]**.
+1. Selecione um tema do Adobe. Neste exemplo, selecione o **[!UICONTROL Tema padrão]** e clique em **[!UICONTROL Criar]**.
 
    ![](assets/theme-select.png)
 
-1. Na guia **[!UICONTROL Configurações gerais]**, comece a definir seu tema dando a ele um nome específico para sua marca. Você pode ajustar a largura padrão de seus emails e também exportar o tema atual para [compartilhá-lo em sandboxes](../configuration/copy-objects-to-sandbox.md).
+1. Você também pode selecionar um modelo personalizado na guia **[!UICONTROL Meus temas]** e clicar em **[!UICONTROL Editar]** para atualizá-lo.
+
+   ![](assets/theme-edit.png)
+
+1. Na guia **[!UICONTROL Configurações gerais]**, comece a definir seu tema dando a ele um nome específico que corresponda à sua marca. Você pode ajustar a largura padrão do visor para seus emails e também exportar o tema atual para [compartilhá-lo em sandboxes](../configuration/copy-objects-to-sandbox.md).
 
    <!--![](assets/theme-general-settings.png)-->
 
@@ -95,11 +86,11 @@ Para definir um tema que você pode aproveitar em seu conteúdo de email futuro,
 
      ![](assets/theme-colors.gif)
 
-   * Clique em **[!UICONTROL Adicionar variante]** para criar várias variantes de cores, como o modo claro e escuro, em que cada variante tem sua própria paleta de cores e controles de nuance.
+   * Clique em **[!UICONTROL Adicionar variante]** para criar várias variantes de cores, como o modo claro e escuro, em que cada variante do tema tem sua própria paleta de cores e controles de nuance.
 
      ![](assets/theme-colors-variant.png)
 
-   * Para cada variante, clique no ícone Editar para editar qualquer elemento individual. É possível usar a paleta padrão criada ou qualquer cor personalizada.
+   * Para cada variante, clique no ícone **[!UICONTROL Editar]** para editar qualquer elemento individual. É possível usar a paleta padrão criada ou qualquer cor personalizada.
 
      ![](assets/theme-colors-edit-variant.gif)
 
@@ -113,15 +104,17 @@ Para definir um tema que você pode aproveitar em seu conteúdo de email futuro,
 
 1. Usando as outras guias à direita, você pode gerenciar separadamente cada elemento de botão, divisor, formatação de imagem adicional e espaçamento do layout de grade para esse tema.
 
-   <!--![](assets/theme-buttons.png)-->
+   ![](assets/theme-buttons.png)
 
-1. Clique em **[!UICONTROL Salvar]** para armazenar este tema para uso futuro.
+1. Clique em **[!UICONTROL Salvar]** para armazenar este tema para uso futuro. Agora ele é exibido na guia **[!UICONTROL Meus temas]**.
 
-## Aplicar temas a um email {#apply-themes}
+<!--A little strange upon hitting Save, because once the theme is created, you need to hit Close to go back to Design your template screen, then click Cancel if you don't want to proceed with template creation.-->
 
-Para aplicar temas de estilo padrão ou personalizados a um email, siga as etapas abaixo.
+## Aplicar temas a um conteúdo de email {#apply-themes-email}
 
-1. Em [!DNL Journey Optimizer], [adicione uma ação de email](create-email.md) a uma jornada ou campanha e [edite seu corpo de email](get-started-email-design.md#key-steps).
+Para aplicar temas de estilo padrão ou personalizados a um modelo de conteúdo ou a um email, siga as etapas abaixo.
+
+1. Em [!DNL Journey Optimizer], [adicione uma ação de email](create-email.md) a uma jornada ou campanha, ou crie um email [modelo de conteúdo](../content-management/create-content-templates.md#create-template-from-scratch) e [edite o corpo do email](get-started-email-design.md#key-steps).
 
 1. Você pode selecionar uma das seguintes ações:
 
@@ -133,9 +126,9 @@ Para aplicar temas de estilo padrão ou personalizados a um email, siga as etapa
 
      >[!CAUTION]
      >
-     >Se você escolher o modo Estilo manual, não será possível aplicar temas, a menos que redefina seu email.
+     >Se você escolher o modo Estilo manual, não será possível aplicar temas, a menos que redefina o design.
      >
-     >Para usar um [fragmento](../content-management/fragments.md) no modo Usar temas, este fragmento deve ter sido criado sozinho usando o modo Usar temas.
+     >Para usar um [fragmento](../content-management/fragments.md) em um conteúdo com tema, este fragmento deve ter sido criado por si mesmo, usando temas. [Saiba mais](#leverage-themes-fragment)
 
 1. No Designer de Email, clique no botão **[!UICONTROL Temas]** no painel direito. O tema padrão ou o tema do modelo é exibido. Você pode alternar entre as duas variantes de cor para esse tema.
 
@@ -145,31 +138,110 @@ Para aplicar temas de estilo padrão ou personalizados a um email, siga as etapa
 
    ![](assets/theme-hero-change.png)
 
-1. Clique em **[!UICONTROL Temas personalizados]** e selecione o tema criado.
+1. Clique em **[!UICONTROL Meus temas]** e selecione um tema criado.
 
    ![](assets/theme-select-custom.png)
 
-1. Clique fora da lista suspensa. O tema personalizado recém-selecionado aplica automaticamente seus estilos a todos os componentes de email. É possível alternar entre as duas variantes de cores.
+1. Clique fora da lista suspensa. O tema personalizado recém-selecionado aplica automaticamente seus estilos a todos os componentes de email. É possível alternar entre as variantes de cor, se houver.
 
-1. Quando um componente é selecionado, ainda é possível desbloquear seu estilo usando o ícone dedicado.
+1. Quando um tema for selecionado em um modelo de conteúdo, você poderá clicar no botão **[!UICONTROL Editar tema]** para atualizá-lo. [Saiba mais](#create-and-edit-themes)
 
-   ![](assets/theme-unlock-style.png)
+   ![](assets/theme-edit-in-template.png){width="40%" align="center" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >Esta opção não está disponível ao usar temas em conteúdos de email.
+
+1. Se você aproveitar um tema usando várias variantes de cores, poderá escolher uma variante específica para um determinado componente de estrutura. Isso permite definir uma variante de cor para todo o conteúdo e usar uma variante diferente para apenas uma estrutura específica.
+
+   >[!NOTE]
+   >
+   >Não é possível executar esta ação em componentes de conteúdo.
+
+   Para fazer isso, selecione um componente de estrutura, clique na **[!UICONTROL opção Usar variante de tema específica]** da guia **[!UICONTROL Estilos]** à direita e aplique a variante desejada a essa estrutura.
+
+   ![](assets/theme-structure-variant.png)
+
+   Neste exemplo, a primeira variante de cor do tema atual é aplicada a todo o conteúdo do email, mas a terceira variante de cor é aplicada à estrutura selecionada. É possível ver que as cores do fundo do corpo e do visor para essa estrutura específica são diferentes do restante do conteúdo.
 
 Você pode alternar temas a qualquer momento. O conteúdo do email permanece inalterado, mas os estilos são atualizados para refletir o novo tema.
 
-<!--
->[!NOTE]
-> - Themes apply styles globally. Ensure your theme is finalized before applying it to multiple emails.
-> - Switching themes may override custom styles applied to individual components.
+### Desbloquear estilos {#unlocking-styles}
 
->[!CAUTION]
-> - When using fragments, the email's theme will override the fragment's styles. A warning will be displayed in the editor if there is a conflict.
+Quando um componente é selecionado, é possível desbloquear seu estilo usando o ícone dedicado na guia **[!UICONTROL Estilos]**.
 
-## Example Use Cases {#example-use-cases}
+![](assets/theme-unlock-style.png){width="90%" align="center" zoomable="yes"}
 
-### 1. Creating a New Theme
-- A marketer creates a theme with their brand's colors, fonts, and button styles.
-- The theme is saved and reused across multiple email campaigns.
+O tema selecionado ainda é aplicado a esse componente, mas você pode substituir seus elementos de estilo. Se você alterar temas, o novo tema será aplicado somente aos elementos de estilo que não foram substituídos.<!--can you revert this action?-->
 
-### 2. Switching Themes
-- A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.-->
+Por exemplo, se você desbloquear um componente de texto, poderá alterar <!--the font size from 11 to 14 and -->a cor da fonte de preto para vermelho:
+
+![](assets/theme-unlock-style-ex-white.png){width="80%" align="center" zoomable="yes"}
+
+Se você alterar temas, <!--the font size is still 14 and -->a cor da fonte ainda será vermelha para esse componente, mas a cor do plano de fundo desse componente será alterada com o novo tema:
+
+![](assets/theme-unlock-style-ex-colored.png){width="80%" align="center" zoomable="yes"}
+
+## Aproveitar temas em um fragmento {#leverage-themes-fragment}
+
+Para aproveitar um fragmento em um modelo ou email com [temas aplicados](#apply-themes-email), este fragmento deve ter sido criado por conta própria usando temas. Caso contrário, você não poderá usar esse fragmento no conteúdo temático.
+
+Para criar um fragmento compatível com temas, siga as etapas abaixo.
+
+1. No [!DNL Journey Optimizer], crie um fragmento visual e clique em **[!UICONTROL Criar]** para criar o conteúdo do fragmento. [Saiba como](../content-management/create-fragments.md)
+
+1. Selecione **[!UICONTROL Usar Temas]** para começar com um tema de estilo predefinido.
+
+   ![](assets/fragment-use-themes.png){width="100%" align="center" zoomable="yes"}
+
+   >[!CAUTION]
+   >
+   >Se você escolher o modo Estilo manual, não será possível aplicar temas, a menos que redefina o design do fragmento.
+
+1. Uma vez no Designer de email, você pode começar a criar o fragmento.
+
+1. Clique no botão **[!UICONTROL Temas]** no painel direito. O tema padrão é exibido. Você pode alternar entre as diferentes variantes de cor para esse tema.
+
+   ![](assets/fragment-default-theme.png){width="100%" align="center" zoomable="yes"}
+
+1. É possível selecionar outros temas para visualizar o conteúdo do fragmento. Para fazer isso, selecione a seta ao lado do tema padrão e clique em **[!UICONTROL Selecionar temas]**.
+
+   ![](assets/fragment-select-themes.png){width="40%" align="center" zoomable="yes"}
+
+1. Você pode navegar entre as guias **[!UICONTROL Temas do Adobe]** e **[!UICONTROL Meus temas]** e selecionar até cinco temas compatíveis (de ambas as guias) para o fragmento.
+
+   ![](assets/fragment-select-compatible-themes.png){width=70% align="center" zoomable="yes"}
+
+   >[!CAUTION]
+   >
+   >Ao usar o fragmento em um conteúdo de email, [aplique um tema](#apply-themes-email) definido para esse fragmento. Deixar de fazer isso pode causar problemas de exibição, especialmente no Outlook 2021 e em versões anteriores.
+
+1. Clique em **[!UICONTROL Fechar]**.
+
+1. Selecione novamente a seta ao lado do **[!UICONTROL Tema padrão]**. Agora é possível alternar entre os diferentes temas selecionados para visualizar cada renderização de estilo.
+
+   ![](assets/fragment-selected-themes.png){width=90% align="center" zoomable="yes"}
+
+1. Clique em **[!UICONTROL Selecionar temas]** novamente para adicionar mais temas ou alterar sua seleção.
+
+## Tornar um modelo compatível com temas {#theme-convertor}
+
+[!DNL Journey Optimizer] permite converter um modelo que foi criado usando o estilo manual em um conteúdo compatível com tema. Isso pode ser particularmente útil se você criou modelos de conteúdo antes de os temas serem introduzidos no [!DNL Journey Optimizer], ou se você estiver importando conteúdo externo.
+
+1. Abra um [modelo de conteúdo](../content-management/create-content-templates.md) do email e edite o conteúdo usando o Designer de Email.
+
+1. Selecione o ícone **[!UICONTROL Temas]** no painel direito e clique no botão **[!UICONTROL Gerar tema do conteúdo]**.
+
+   ![](assets/generate-theme.png){width=100% align="center" zoomable="yes"}
+
+1. A janela **[!UICONTROL Criar um tema]** é aberta. O [!DNL Journey Optimizer] detecta automaticamente os elementos de estilo e os consolida em um novo tema.
+
+   ![](assets/generate-theme-create-window.png){width=100% align="center" zoomable="yes"}
+
+1. Forneça um nome para o tema.
+
+1. Faça seus próprios ajustes, conforme necessário, da mesma forma que faz ao criar um tema do zero, como adicionar uma variante de cor, editar fontes etc. [Saiba como](#create-and-edit-themes)
+
+   ![](assets/generate-theme-colors.png){width=100% align="center" zoomable="yes"}
+
+1. Clique em **[!UICONTROL Salvar]** para armazenar este novo tema para reutilização. Agora é possível aplicar esse tema ao seu conteúdo, como qualquer outro tema. [Saiba como](#leverage-themes-fragment)

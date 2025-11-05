@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 181999b096f6f65f25ba5220868aab3aaeafb807
+source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 86%
+source-wordcount: '1357'
+ht-degree: 84%
 
 ---
 
@@ -26,15 +26,30 @@ Devido a esse modelo, as notas de versão são atualizadas entre as versões men
 
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
-<!--
-## Latest updates {#latest-updates}
+## Atualizações mais recentes {#latest-updates}
 
+Os novos recursos e aprimoramentos lançados nas últimas semanas estão listados abaixo, com a data de disponibilidade. Elas serão agrupadas com o conteúdo das próximas notas de versão no final do mês. Consulte também as [notas de versão mais recentes abaixo](#latest-rn).
 
-New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
+#### Novos recursos {#oct-25-10-soon-features}
 
--->
-
-
+<table>
+<thead>
+<tr>
+<th><strong>Temas no Designer de email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível aplicar temas pré-aprovados rapidamente para garantir a consistência da marca em todos os emails, acelerar o processo de criação de campanha e produzir emails de alta qualidade de forma independente, reduzindo a dependência de equipes de design.</p>
+<p>Lançado anteriormente na versão beta, esse recurso agora está disponível para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>Para obter mais informações, consulte a <a href="../email/apply-email-themes.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 5 de novembro de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notas de versão de outubro de 2025 {#oct-25-10-rn}
 
