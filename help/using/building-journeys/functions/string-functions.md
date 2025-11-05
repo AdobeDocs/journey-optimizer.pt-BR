@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: string, funções, expressão, jornada, texto, manipulação
 version: Journey Orchestration
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1127'
 ht-degree: 15%
 
 ---
@@ -20,15 +20,16 @@ As funções de string permitem manipular e trabalhar com valores de texto nas e
 
 Use funções de string quando precisar:
 
-* Concatenar e combinar vários valores de texto
-* Pesquisar padrões ou substrings de texto específicos
-* Comparar strings com correspondência que diferencia maiúsculas de minúsculas ou que não diferencia maiúsculas de minúsculas
-* Extrair partes do texto usando operações de subsequência de caracteres
-* Transformar texto em maiúsculas ou minúsculas
-* Verificar se as cadeias de caracteres estão vazias ou contêm valores específicos
-* Substituir padrões de texto por novos valores
-* Dividir strings em matrizes para processamento adicional
-* Validar texto com base em expressões regulares
+* Concatenar e combinar vários valores de texto ([concat](#concat))
+* Pesquisar padrões ou subcadeias de texto específicos ([contain](#contain), [containIgnoreCase](#containIgnoreCase), [indexOf](#indexOf), [lastIndexOf](#lastIndexOf), [matchRegExp](#matchRegExp))
+* Comparar cadeias de caracteres com correspondência que diferencia maiúsculas de minúsculas ou que não diferencia maiúsculas de minúsculas ([equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase))
+* A verificação da cadeia de caracteres inicia e termina ([startWith](#startWith), [startWithIgnoreCase](#startWithIgnoreCase), [endWith](#endWith), [endWithIgnoreCase](#endWithIgnoreCase))
+* Extrair partes do texto usando operações de subcadeia de caracteres ([substr](#substr))
+* Transformar texto em maiúsculas ou minúsculas ([upper](#upper), [lower](#lower), [trim](#trim))
+* Verifique se as cadeias de caracteres estão vazias ou contêm valores específicos ([isEmpty](#isEmpty), [isNotEmpty](#isNotEmpty))
+* Substituir padrões de texto por novos valores ([replace](#replace), [replaceAll](#replaceAll))
+* Dividir cadeias de caracteres em matrizes para processamento adicional ([split](#split))
+* Obter comprimento da cadeia de caracteres ([length](#length)) ou gerar identificadores exclusivos ([uuid](#uuid))
 
 As funções de sequência fornecem recursos abrangentes de manipulação de texto, permitindo um processamento sofisticado de dados e uma lógica condicional baseada no conteúdo do texto nas expressões de jornada.
 

@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: data, funções, expressão, jornada, hora
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '791'
 ht-degree: 12%
 
 ---
@@ -20,9 +20,9 @@ As funções de data permitem manipular e trabalhar com valores de data e hora n
 
 Use funções de data quando precisar:
 
-* Obter a hora ou data atual com manipulação de fuso horário específica
-* Verificar se uma data está em um intervalo de tempo específico (passado ou futuro)
-* Modificar componentes de data e hora (horas, dias, fusos horários)
+* Obtenha a hora ou data atual com a manipulação de fuso horário específica ([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
+* Verifique se uma data está em um intervalo de tempo específico ([inLastDays](#inLastDays), [inLastHours](#inLastHours), [inLastMonths](#inLastMonths), [inLastYears](#inLastYears), [inNextDays](#inNextDays), [inNextHours](#inNextHours), [inNextMonths](#inNextMonths), [inNextYears](#inNextYears))
+* Modificar componentes de data e hora ([setHours](#setHours), [setDays](#setDays), [updateTimeZone](#updateTimeZone))
 * Realizar cálculos e comparações com base no tempo
 * Converter entre diferentes formatos de hora e representações
 

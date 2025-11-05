@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: conversão, funções, expressão, jornada, tipo, conversão
 version: Journey Orchestration
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '957'
 ht-degree: 6%
 
 ---
@@ -20,9 +20,10 @@ As funções de conversão permitem transformar dados de um tipo para outro nas 
 
 Use as funções de conversão quando precisar:
 
-* Converter valores de string em tipos numéricos, booleanos ou de data
-* Transformar datas e horas entre diferentes formatos e representações
-* Transmitir valores numéricos entre tipos inteiros e decimais
+* Converter valores de cadeia de caracteres em tipos numéricos, booleanos ou de data ([toInteger](#toInteger), [toDecimal](#toDecimal), [toBool](#toBool))
+* Transforme datas e horas entre diferentes formatos e representações ([toDateTime](#toDateTime), [toDateTimeOnly](#toDateTimeOnly), [toDateOnly](#toDateOnly))
+* Conversão de valores numéricos entre tipos inteiros e decimais ([toInteger](#toInteger), [toDecimal](#toDecimal))
+* Converter valores para formato de cadeia de caracteres ([toString](#toString)) ou duração ([toDuration](#toDuration))
 * Garantir compatibilidade de tipo para comparações e operações
 * Processar dados de fontes externas que podem ter diferentes formatos de tipo
 
