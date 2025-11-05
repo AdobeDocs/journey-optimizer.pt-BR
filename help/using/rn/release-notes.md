@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
+source-git-commit: 8984a055ef8235d554b6772b0afa0b10e899b2a7
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 84%
@@ -30,7 +30,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 Os novos recursos e aprimoramentos lançados nas últimas semanas estão listados abaixo, com a data de disponibilidade. Elas serão agrupadas com o conteúdo das próximas notas de versão no final do mês. Consulte também as [notas de versão mais recentes abaixo](#latest-rn).
 
-#### Novos recursos {#oct-25-10-soon-features}
+### Novos recursos {#oct-25-10-soon-features}
 
 <table>
 <thead>
