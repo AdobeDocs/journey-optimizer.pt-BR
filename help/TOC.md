@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
 workflow-type: tm+mt
-source-wordcount: '3007'
-ht-degree: 99%
+source-wordcount: '3000'
+ht-degree: 98%
 
 ---
 
@@ -117,15 +117,7 @@ ht-degree: 99%
          + Agregação {#aggregation}
             + [Funções de agregação](using/building-journeys/functions/aggregation-functions.md)
          + Conversão {#conversion}
-            + [Conversão](/help/rp_landing_pages/conversion-landing-page.md)
-            + [toBool](using/building-journeys/functions/functiontobool.md)
-            + [toDateOnly](using/building-journeys/functions/functiontodateonly.md)
-            + [toDateTime](using/building-journeys/functions/functiontodatetime.md)
-            + [toDateTimeOnly](using/building-journeys/functions/functiontodatetimeonly.md)
-            + [toDecimal](using/building-journeys/functions/functiontodecimal.md)
-            + [toDuration](using/building-journeys/functions/functiontoduration.md)
-            + [toInteger](using/building-journeys/functions/functiontointeger.md)
-            + [toString](using/building-journeys/functions/functiontostring.md)
+            + [Funções de conversão](using/building-journeys/functions/conversion-functions.md)
          + Data {#date}
             + [Data](/help/rp_landing_pages/date-landing-page.md)
             + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
@@ -499,7 +491,7 @@ ht-degree: 99%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)

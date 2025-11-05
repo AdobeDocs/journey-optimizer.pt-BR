@@ -5,7 +5,9 @@ title: Conversão
 description: Conversão
 redpen-status: CREATED_||_2025-08-11_20-13-12
 exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+hide: true
+hidefromtoc: true
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
@@ -20,63 +22,63 @@ A seção de conversão do Adobe Journey Optimizer permite transformar dados em 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “toBool”
 
 Converta vários tipos de dados em valores booleanos com a função “toBool”.
 
-[Saiba como usar a função “toBool”](../using/building-journeys/functions/functiontobool.md)
+[Saiba como usar a função “toBool”](../using/building-journeys/functions/conversion-functions.md#toBool)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “toDateOnly”
 
 Converta representações de data no tipo “dateOnly” com a função “toDateOnly”.
 
-[Saiba como usar a função “toDateOnly”](../using/building-journeys/functions/functiontodateonly.md)
+[Saiba como usar a função “toDateOnly”](../using/building-journeys/functions/conversion-functions.md#toDateOnly)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “toDateTime”
 
 Converta várias entradas em um valor de data/hora com a função “toDateTime”.
 
-[Saiba como usar a função “toDateTime”](../using/building-journeys/functions/functiontodatetime.md)
+[Saiba como usar a função “toDateTime”](../using/building-journeys/functions/conversion-functions.md#toDateTime)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “toDateTimeOnly”
 
 Converta um valor em um formato de data/hora sem fuso horário com a função “toDateTimeOnly”.
 
-[Saiba como usar a função “toDateTimeOnly”](../using/building-journeys/functions/functiontodatetimeonly.md)
+[Saiba como usar a função “toDateTimeOnly”](../using/building-journeys/functions/conversion-functions.md#toDateTimeOnly)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “toDecimal”
 
 Converta vários tipos de dados em valores decimais com a função “toDecimal”.
 
-[Saiba como usar a função “toDecimal”](../using/building-journeys/functions/functiontodecimal.md)
+[Saiba como usar a função “toDecimal”](../using/building-journeys/functions/conversion-functions.md#toDecimal)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “toDuration”
 
 Converta argumentos em valores de duração, usando strings ou milissegundos, com a função “toDuration”.
 
-[Saiba como usar a função “toDuration”](../using/building-journeys/functions/functiontoduration.md)
+[Saiba como usar a função “toDuration”](../using/building-journeys/functions/conversion-functions.md#toDuration)
 :::
 
 ::::
@@ -84,5 +86,5 @@ Converta argumentos em valores de duração, usando strings ou milissegundos, co
 
 ## Recursos adicionais
 
-- **[Função “toInteger”](../using/building-journeys/functions/functiontointeger.md)**: converta vários tipos de dados em números inteiros com a função “toInteger”.
-- **[Função “toString”](../using/building-journeys/functions/functiontostring.md)**: converta tipos de dados em suas representações em strings com a função “toString”.
+- **[Função “toInteger”](../using/building-journeys/functions/conversion-functions.md#toInteger)**: converta vários tipos de dados em números inteiros com a função “toInteger”.
+- **[Função “toString”](../using/building-journeys/functions/conversion-functions.md#toString)**: converta tipos de dados em suas representações em strings com a função “toString”.
