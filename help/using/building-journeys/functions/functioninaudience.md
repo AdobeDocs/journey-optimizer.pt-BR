@@ -1,73 +1,123 @@
 ---
 product: journey optimizer
-title: inAudience
-description: Saiba mais sobre a função no Audience
+title: função inAudience
+description: Saiba mais sobre a função Adobe Experience Platform no Audience
 feature: Journeys
 role: Developer
 level: Experienced
-keywords: inAudience, função, expressão, jornada
+keywords: inAudience, função, expressão, jornada, público-alvo, segmentação
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '598'
+ht-degree: 2%
 
 ---
 
-# inAudience {#inAudience}
+# função inAudience {#inAudience}
 
-Verifica se um indivíduo pertence a um determinado público-alvo.
+A função `inAudience` é uma função Adobe Experience Platform que permite verificar se um indivíduo em sua jornada pertence a um público-alvo específico. Essa função avançada permite criar caminhos de jornada personalizados com base na associação ao público, permitindo segmentação e direcionamento sofisticados nas experiências do cliente.
 
->[!NOTE]
->
->Você pode recuperar até 100 públicos-alvo.
+Use a função `inAudience` quando precisar:
 
-O nome do público-alvo deve ser uma constante de sequência. Não pode ser uma referência de campo nem uma expressão.
+* [Caminhos de jornada de ramificação com base na associação do público-alvo](../condition-activity.md#using-a-segment)
+* Aplicar lógica condicional que depende de um perfil pertencer a um segmento específico
+* Direcione grupos específicos de clientes com experiências personalizadas
+* Avaliar a participação do público-alvo em tempo real nas condições de jornada
+* Combinar várias verificações de público-alvo para criar regras complexas de direcionamento
 
-Os públicos-alvo são definidos na [Adobe Experience Platform](https://platform.adobe.com/audience/overview). O editor de expressão fornece uma lista de públicos preenchida automaticamente.
+A função avalia a associação de público-alvo em tempo real e retorna um valor booleano, tornando-a ideal para nós de decisão e expressões condicionais. Os públicos são definidos e gerenciados no [Adobe Experience Platform](https://platform.adobe.com/audience/overview){target="_blank"} (saiba mais sobre o [trabalho com públicos](../../audience/about-audiences.md) no Journey Optimizer), e o editor de expressão fornece sugestões de preenchimento automático para ajudar você a referenciá-los com precisão.
 
-Os públicos-alvo podem ter dois status:
+**Status do público-alvo:**
 
-* realizado: a entidade se qualifica para a definição do segmento.
-* encerrado: a entidade está saindo da definição do segmento.
+Os públicos-alvo podem ter dois status de participação:
 
-Somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results).
+* **Realizado**: o indivíduo se qualifica para a definição de público-alvo e é um membro ativo
+* **Encerrado**: o indivíduo saiu do público-alvo e não se qualifica mais
 
-`inAudience('audienceName') == true` significa que você tem um segmentMembership com o status inserido.
+Apenas indivíduos com o status **Realizado** serão considerados membros ativos do público-alvo. Quando a função retorna `true`, ela confirma que o indivíduo tem o status realizado; quando retorna `false`, ela indica o status encerrado. Para obter mais informações sobre a avaliação de público, consulte a [documentação do Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
-`inAudience('audienceName') == false` significa que você tem um segmentMembership com status encerrado.
-
-
->[!IMPORTANT]
->
->A alteração do nome de um público-alvo existente não atualiza automaticamente nenhuma referência a esse público-alvo nas expressões do jornada. Se o nó de condição usar `inAudience('oldAudienceName')`, você deverá editar manualmente a expressão para usar o novo nome. Se isso não for feito, a condição de jornada será interrompida.
-
-## Categoria
-
-Adobe Experience Platform
-
-## Sintaxe da função
++++Sintaxe
 
 `inAudience(<parameter>)`
 
-## Parâmetros
++++
+
++++Parâmetros
 
 | Parâmetro | Descrição | Tipo |
 |--- |--- |--- |
 | Público-alvo | O nome do público | `<string>` |
 
-## Assinatura e tipo retornado
+**Restrições importantes:**
+
+* O nome do público-alvo deve ser uma constante de sequência
+* Ele não pode ser uma referência de campo ou uma expressão
+* Você pode recuperar até 100 públicos-alvo em uma única jornada
+
++++
+
++++Assinatura e tipo retornado
 
 `inAudience(<string>)`
 
-Retorna um valor booleano.
+Retorna um valor booleano:
+* `true`: O indivíduo é um membro da audiência (status realizado)
 
-## Exemplo
+* `false`: O indivíduo não é membro da audiência (status de saída)
+
++++
+
++++Exemplos
 
 `inAudience("men over 50")`
 
-Explicação:
+Retorna **true** se o indivíduo na instância do jornada fizer parte do público-alvo da Adobe Experience Platform chamado &quot;homens acima de 50&quot;, caso contrário **false**.
 
-A função retornará **[!UICONTROL true]** se o indivíduo na instância do jornada fizer parte do público-alvo da Adobe Experience Platform chamado &quot;homens acima de 50&quot;, caso contrário **[!UICONTROL false]**.
+**Casos de uso prático:**
+
+```
+// Simple audience check in a condition
+inAudience("Premium Customers") == true
+
+// Multiple audience evaluation
+inAudience("High Value Customers") == true AND inAudience("Active Last 30 Days") == true
+
+// Negation check
+inAudience("Unsubscribed") == false
+```
+
++++
+
+## Medidas de proteção e limitações {#guardrails}
+
+Ao usar a função `inAudience` em suas jornadas, esteja ciente das seguintes medidas de proteção e limitações:
+
+**Limite de recuperação de público-alvo:**
+* Você pode recuperar até 100 públicos-alvo em uma única jornada
+* O editor de expressão fornece uma lista de públicos-alvo disponíveis preenchida automaticamente para ajudar você a referenciá-los corretamente
+
+**Restrições de parâmetro:**
+* O nome do público-alvo deve ser uma constante de sequência
+* Não há suporte para referências e expressões de campo como parâmetros
+
+**Alterações no nome do público-alvo:**
+* Alterar o nome de um público-alvo existente no Adobe Experience Platform não atualiza automaticamente nenhuma referência a esse público-alvo nas expressões de jornada
+* Se o nó de condição usar `inAudience('oldAudienceName')`, você deverá editar manualmente a expressão para usar o novo nome
+* Se o nome do público-alvo não for atualizado, a condição de jornada será interrompida e poderá resultar em um comportamento de jornada incorreto
+
+**Considerações sobre a política de mesclagem:**
+* Ao usar vários públicos com a função `inAudience`, inconsistências com políticas de mesclagem podem causar erros ou alertas
+* Consulte [Propriedades da Jornada](../journey-properties.md) para obter mais informações sobre o comportamento da política de mesclagem
+
+## Tópicos relacionados
+
+Saiba mais sobre como usar públicos-alvo na Adobe Journey Optimizer:
+
+* **[Sobre públicos-alvo](../../audience/about-audiences.md)** - Entenda como os públicos-alvo funcionam no Adobe Experience Platform e no Journey Optimizer, inclusive como criá-los e gerenciá-los
+* **[Atividade Ler público-alvo](../read-audience.md)** - Use públicos-alvo para acionar a entrada de jornada e fazer com que todos os membros do público-alvo insiram uma jornada
+* **[Eventos de qualificação de público-alvo](../audience-qualification-events.md)** - Ouça as entradas e saídas do perfil dos públicos-alvo para acionar ações de jornada em tempo real
+* **[Uso de públicos-alvo em condições](../condition-activity.md#using-a-segment)** - Crie caminhos de jornada condicionais com base na associação de público-alvo usando a atividade de Condição
+* **[Propriedades da Jornada - Políticas de mesclagem](../journey-properties.md)** - Entenda como as políticas de mesclagem funcionam ao usar vários públicos com a função inAudience
 

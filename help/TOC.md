@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '2947'
 ht-degree: 98%
 
 ---
@@ -112,22 +112,13 @@ ht-degree: 98%
       + Funções {#main-functions-journey}
          + [Funções](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [Funções principais](using/building-journeys/expression/functions.md)
-         + Adobe Experience Platform {#adobe-experience-platform}
-            + [inAudience](using/building-journeys/functions/functioninaudience.md)
-         + Agregação {#aggregation}
-            + [Funções de agregação](using/building-journeys/functions/aggregation-functions.md)
-         + Conversão {#conversion}
-            + [Funções de conversão](using/building-journeys/functions/conversion-functions.md)
-         + Data {#date}
-            + [Funções de data](using/building-journeys/functions/date-functions.md)
-         + Lista {#list}
-            + [Listar funções](using/building-journeys/functions/list-functions.md)
-         + Matemática {#math}
-            + [Matemática](/help/rp_landing_pages/math-landing-page.md)
-            + [random](using/building-journeys/functions/functionrandom.md)
-            + [round](using/building-journeys/functions/functionround.md)
-         + String {#string}
-            + [Funções de string](using/building-journeys/functions/string-functions.md)
+         + [função inAudience](using/building-journeys/functions/functioninaudience.md)
+         + [Funções de agregação](using/building-journeys/functions/aggregation-functions.md)
+         + [Funções de conversão](using/building-journeys/functions/conversion-functions.md)
+         + [Funções de data](using/building-journeys/functions/date-functions.md)
+         + [Listar funções](using/building-journeys/functions/list-functions.md)
+         + [Funções matemáticas](using/building-journeys/functions/math-functions.md)
+         + [Funções de string](using/building-journeys/functions/string-functions.md)
    + Casos de uso {#journey-use-cases}
       + [Casos de uso](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Aprenda por meio de casos de uso](using/building-journeys/jo-use-cases.md)
@@ -444,7 +435,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
