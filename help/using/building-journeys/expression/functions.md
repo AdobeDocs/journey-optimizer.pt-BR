@@ -9,7 +9,7 @@ level: Experienced
 keywords: função, expressões, editor, jornada
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -31,15 +31,15 @@ Esta é a lista de funções compatíveis.
 | Categoria | Função |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inAudience](../functions/functioninaudience.md) |
-| Agregação | [avg](../functions/functionavg.md) |
-| Agregação | [count](../functions/functioncount.md) |
-| Agregação | [countOnlyNull](../functions/functioncountonlynull.md) |
-| Agregação | [countWithNull](../functions/functioncountwithnull.md) |
-| Agregação | [distinctCount](../functions/functiondistinctcount.md) |
-| Agregação | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
-| Agregação | [max](../functions/functionmax.md) |
-| Agregação | [min](../functions/functionmin.md) |
-| Agregação | [sum](../functions/functionsum.md) |
+| Agregação | [avg](../functions/aggregation-functions.md#avg) |
+| Agregação | [count](../functions/aggregation-functions.md#count) |
+| Agregação | [countOnlyNull](../functions/aggregation-functions.md#countOnlyNull) |
+| Agregação | [countWithNull](../functions/aggregation-functions.md#countWithNull) |
+| Agregação | [distinctCount](../functions/aggregation-functions.md#distinctCount) |
+| Agregação | [distinctCountWithNull](../functions/aggregation-functions.md#distinctCountWithNull) |
+| Agregação | [max](../functions/aggregation-functions.md#max) |
+| Agregação | [min](../functions/aggregation-functions.md#min) |
+| Agregação | [sum](../functions/aggregation-functions.md#sum) |
 | Conversão | [toBool](../functions/functiontobool.md) |
 | Conversão | [toDateOnly](../functions/functiontodateonly.md) |
 | Conversão | [toDateTime](../functions/functiontodatetime.md) |
