@@ -8,9 +8,9 @@ level: Experienced
 keywords: inAudience, função, expressão, jornada, público-alvo, segmentação
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
+source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ A função `inAudience` é uma função Adobe Experience Platform que permite ve
 
 Use a função `inAudience` quando precisar:
 
-* [Caminhos de jornada de ramificação com base na associação do público-alvo](../condition-activity.md#using-a-segment)
+* Caminhos de jornada de ramificação com base na associação do público-alvo. [Saiba mais](../condition-activity.md#using-a-segment)
 * Aplicar lógica condicional que depende de um perfil pertencer a um segmento específico
 * Direcione grupos específicos de clientes com experiências personalizadas
 * Avaliar a participação do público-alvo em tempo real nas condições de jornada
@@ -36,7 +36,7 @@ Os públicos-alvo podem ter dois status de participação:
 * **Realizado**: o indivíduo se qualifica para a definição de público-alvo e é um membro ativo
 * **Encerrado**: o indivíduo saiu do público-alvo e não se qualifica mais
 
-Apenas indivíduos com o status **Realizado** serão considerados membros ativos do público-alvo. Quando a função retorna `true`, ela confirma que o indivíduo tem o status realizado; quando retorna `false`, ela indica o status encerrado. Para obter mais informações sobre a avaliação de público, consulte a [documentação do Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+Apenas indivíduos com o status **Realizado** serão considerados membros ativos do público-alvo. Quando a função retorna `true`, ela confirma que o indivíduo tem o status realizado; quando retorna `false`, ela indica o status encerrado. Para obter mais informações sobre a avaliação de público, consulte a [documentação do Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintaxe
 
