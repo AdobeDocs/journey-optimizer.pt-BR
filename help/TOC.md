@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '2987'
 ht-degree: 98%
 
 ---
@@ -119,21 +119,7 @@ ht-degree: 98%
          + Conversão {#conversion}
             + [Funções de conversão](using/building-journeys/functions/conversion-functions.md)
          + Data {#date}
-            + [Data](/help/rp_landing_pages/date-landing-page.md)
-            + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
-            + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
-            + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
-            + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
-            + [inLastYears](using/building-journeys/functions/functioninlastyears.md)
-            + [inNextDays](using/building-journeys/functions/functioninnextdays.md)
-            + [inNextHours](using/building-journeys/functions/functioninnexthours.md)
-            + [inNextMonths](using/building-journeys/functions/functioninnextmonths.md)
-            + [inNextYears](using/building-journeys/functions/functioninnextyears.md)
-            + [now](using/building-journeys/functions/functionnow.md)
-            + [nowWithDelta](using/building-journeys/functions/functionnowwithdelta.md)
-            + [setHours](using/building-journeys/functions/functionsethours.md)
-            + [setDays](using/building-journeys/functions/functionsetdays.md)
-            + [updateTimeZone](using/building-journeys/functions/functionupdatetimezone.md)
+            + [Funções de data](using/building-journeys/functions/date-functions.md)
          + Lista {#list}
             + [Lista](/help/rp_landing_pages/list-landing-page.md)
             + [distinct](using/building-journeys/functions/functiondistinct.md)
@@ -491,7 +477,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
