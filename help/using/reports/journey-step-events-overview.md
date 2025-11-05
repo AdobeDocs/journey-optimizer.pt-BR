@@ -4,11 +4,10 @@ product: journey optimizer
 title: Trabalhar com eventos de etapa da jornada
 description: Saiba como trabalhar com eventos de etapa do jornada no Adobe Journey Optimizer - entenda o que são, por que são importantes e como usá-los para análise e otimização
 feature: Journeys, Reporting
-topic: Content Management
 role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: jornada, eventos de etapa, análises, relatórios, monitoramento, XDM
-source-git-commit: 9320777cfb75fd1370c11b601908644ba17ff21e
+source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -19,7 +18,7 @@ ht-degree: 2%
 
 Os eventos de etapa de Jornada são eventos gerados automaticamente que capturam informações detalhadas sobre cada etapa que um [perfil](../audience/get-started-profiles.md) realiza à medida que avança em uma [jornada](../building-journeys/journey.md) no Adobe Journey Optimizer. Estes eventos fornecem visibilidade abrangente do [desempenho do jornada](../building-journeys/report-journey.md) e habilitam recursos de análise avançados.
 
-## O que são eventos de etapa de jornada? {#what-are-step-events}
+## O que são eventos de etapa de jornada {#what-are-step-events}
 
 Os eventos de etapa de Jornada são eventos [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"} gerados pelo sistema que a Adobe Journey Optimizer cria e envia automaticamente para a [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target="_blank"} sempre que um perfil se move de um nó para outro em uma jornada. Cada evento corresponde a uma [atividade de jornada](../building-journeys/about-journey-activities.md) específica ou transição na experiência de jornada do cliente.
 
