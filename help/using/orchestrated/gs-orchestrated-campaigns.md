@@ -6,10 +6,10 @@ description: Saiba como começar a usar as campanhas orquestradas
 short-description: Descubra os principais recursos e casos de uso de campanhas orquestradas.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 97%
+source-wordcount: '779'
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ Saiba mais sobre os principais conceitos e recursos disponíveis com campanhas o
 
 ## Vamos nos aprofundar um pouco mais
 
-Agora que você entende o que são campanhas orquestradas, é hora de se aprofundar nestas seções da documentação para começar a trabalhar com o recurso.
+Agora que você entende o que são campanhas orquestradas, é hora de se aprofundar nessas seções de documentação para começar a trabalhar com o recurso.
 
 <table><tr style="border: 0; text-align: center;">
 <td>
@@ -121,3 +121,13 @@ Agora que você entende o que são campanhas orquestradas, é hora de se aprofun
 </div>
 <p></td>
 </tr></table>
+
+## Recursos adicionais
+
+* **[Crie sua primeira regra](build-query.md)** - Domine o construtor de regras para criar consultas direcionadas e segmente seus públicos com precisão usando dados relacionais.
+* **[Criar esquemas relacionais](gs-schemas.md)** - Entenda como definir e configurar esquemas relacionais para aproveitar dados de várias entidades em suas campanhas.
+* **[Relatórios para campanhas orquestradas](reporting-campaigns.md)** - Acompanhe e analise o desempenho da sua campanha com métricas e insights detalhados de relatórios.
+* **[Iniciar e monitorar campanhas](start-monitor-campaigns.md)** - Conheça as práticas recomendadas para iniciar campanhas e monitorar sua execução em tempo real.
+* **[Medidas de proteção e limitações](guardrails.md)** - Revise medidas de proteção, limitações e práticas recomendadas importantes para garantir o desempenho ideal da campanha.
+* **[Perguntas frequentes](orchestrated-campaigns-faq.md)** - Encontre respostas para perguntas comuns sobre recursos, funcionalidades e casos de uso de campanhas orquestradas.
+* **[Tutoriais de campanha orquestrados](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - Explore tutoriais em vídeo passo a passo que abrangem recursos e práticas recomendadas.

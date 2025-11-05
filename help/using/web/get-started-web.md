@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '163'
-ht-degree: 100%
+source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 64%
 
 ---
 
@@ -67,5 +67,14 @@ Conheça as etapas detalhadas para criar uma campanha da web [neste vídeo](crea
 <p>
 </td>
 </tr></table>
+
+## Recursos adicionais
+
+* **[Criar experiências da Web](create-web.md)** - Saiba como criar e configurar campanhas da Web e jornadas para modificar o conteúdo da Web.
+* **[Pré-requisitos do canal da Web](web-prerequisites.md)** - Entenda os requisitos técnicos e a configuração necessários para a implementação do canal da Web.
+* **[Editar conteúdo da Web](create-web.md#edit-web-content)** - Domine o designer da Web para modificar páginas usando modos de edição visuais ou não visuais.
+* **[Gerenciar modificações na Web](manage-web-modifications.md)** - Saiba como organizar, aplicar e gerenciar modificações em suas experiências na Web.
+* **[Monitorar experiências da Web](monitor-web-experiences.md)** - Acompanhe e analise o desempenho de suas campanhas da Web com relatórios detalhados.
+* **[Tutoriais do Web Campaign](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre os recursos de canal da Web e as práticas recomendadas.
 
 
