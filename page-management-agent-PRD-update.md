@@ -7,12 +7,11 @@ ht-degree: 1%
 ---
 # PRD atualizado para o Agente de gerenciamento de página (Agente de estrutura)
 
-## URL da página wiki
-https://wiki.corp.adobe.com/display/~simonetn/%3CUC-12%3E+Structure+Agent
+## URL da página wikihttps://wiki.corp.adobe.com/display/~simonetn/%3CUC-12%3E+Structure+Agent
 
----
+&#x200B;---
 
-# &#x200B;1. Resumo
+&#x200B;# &#x200B;1. Resumo
 
 O **Agente de Gerenciamento de Página** (antigo &quot;Agente de Estrutura&quot;) ajuda os autores a reorganizar a documentação com segurança, movendo, excluindo ou renomeando páginas enquanto gerencia automaticamente todos os impactos em todo o repositório.
 
@@ -22,9 +21,9 @@ O **Agente de Gerenciamento de Página** (antigo &quot;Agente de Estrutura&quot;
 
 JIRA > DOCAC-13695
 
----
+&#x200B;---
 
-# &#x200B;2. Declaração de problemas
+&#x200B;# &#x200B;2. Declaração de problemas
 
 Os repositórios de documentação exigem alterações estruturais frequentes. Estas operações são atualmente **manuais e extremamente propensas a erros**, resultando em:
 
@@ -40,9 +39,9 @@ Os repositórios de documentação exigem alterações estruturais frequentes. E
 
 O **Agente de Gerenciamento de Página** automatiza todo esse processo, concluindo em menos de 1 minuto com 100% de precisão.
 
----
+&#x200B;---
 
-# &#x200B;3. Objetivos e principais resultados (OKR)
+&#x200B;# &#x200B;3. Objetivos e principais resultados (OKR)
 
 | **Objetivo** | **Resultados principais** | **Status** |
 |---------------|-----------------|-----------|
@@ -52,9 +51,9 @@ O **Agente de Gerenciamento de Página** automatiza todo esse processo, concluin
 | Reduzir o tempo de criação | 95% de redução (3h → 1min) | ✅ **OBTIDO** |
 | Operações transparentes | Pré-execução com 100% de visibilidade | ✅ **OBTIDO** |
 
----
+&#x200B;---
 
-# &#x200B;4. Operações de três núcleos
+&#x200B;# &#x200B;4. Operações de três núcleos
 
 ## 📦 Mover uma página
 
@@ -84,9 +83,9 @@ Alterar nome de arquivo ao manter na mesma pasta:
 - Mantém todos os links âncora
 - Atualiza referências de página relacionadas
 
----
+&#x200B;---
 
-# &#x200B;5. Fluxo de trabalho (16 etapas)
+&#x200B;# &#x200B;5. Fluxo de trabalho (16 etapas)
 
 | **Etapa** | **Ação** | **Detalhes** |
 |----------|-----------|-------------|
@@ -107,9 +106,9 @@ Alterar nome de arquivo ao manter na mesma pasta:
 | &#x200B;15. Preparação da Confirmação | Gerar mensagem de confirmação | Resumo detalhado com estatísticas |
 | &#x200B;16. Estágios opcionais | Adição de Git, se solicitado | Recurso de conveniência |
 
----
+&#x200B;---
 
-# &#x200B;6. Requisitos funcionais
+&#x200B;# &#x200B;6. Requisitos funcionais
 
 | **ID** | **Requisito** | **Prioridade** | **Status** |
 |--------|----------------|-------------|-----------|
@@ -126,9 +125,9 @@ Alterar nome de arquivo ao manter na mesma pasta:
 | FR-11 | Mostrar progresso transparente | P1 | ✅ Implementado |
 | FR-12 | Verificar todas as alterações | P1 | ✅ Implementado |
 
----
+&#x200B;---
 
-# &#x200B;7. Execução Técnica
+&#x200B;# &#x200B;7. Execução Técnica
 
 ## Algoritmo de detecção de link
 
@@ -162,9 +161,9 @@ New image: ![](../campaigns/assets/image.png)
 Resolves:  help/using/campaigns/assets/image.png ✅
 ```
 
----
+&#x200B;---
 
-# &#x200B;8. Formato do relatório de impacto
+&#x200B;# &#x200B;8. Formato do relatório de impacto
 
 Relatório abrangente que mostra:
 
@@ -188,9 +187,9 @@ Relatório abrangente que mostra:
 - 2 referências principais atualizadas
 - **Total: 18 arquivos modificados em ~30 segundos**
 
----
+&#x200B;---
 
-# &#x200B;9. Requisitos não funcionais
+&#x200B;# &#x200B;9. Requisitos não funcionais
 
 | **Categoria** | **Requisito** | **Atingido** |
 |--------------|----------------|-------------|
@@ -202,27 +201,17 @@ Relatório abrangente que mostra:
 | **Verificação** | Validar alterações | ✅ Verificações automatizadas |
 | **Auditabilidade** | Concluir log de alterações | ✅ Confirmações detalhadas |
 
----
+&#x200B;---
 
-# &#x200B;10. Métricas de sucesso
+&#x200B;# &#x200B;10. Métricas de sucesso
 
-## Quantitativo
-- **Economia de tempo:** redução de 95% (2 a 3 horas → &lt;1 minuto)
-- **Precisão:** 100% das referências detectadas e atualizadas
-- **Confiabilidade:** 0 links desfeitos após a refatoração
-- **Desempenho:** 30-45 segundos para operações típicas
-- **Cobertura:** 7 tipos de impacto analisados
+## Quantitativo- **Economia de tempo:** redução de 95% (2 a 3 horas → &lt;1 minuto)- **Precisão:** 100% das referências detectadas e atualizadas- **Confiabilidade:** 0 links desfeitos após a refatoração- **Desempenho:** 30-45 segundos para operações típicas- **Cobertura:** 7 tipos de impacto analisados
 
-## Qualitative
-- ✅ Autores podem refatorar com confiança
-- ✅ Transparência completa
-- ✅ Controle de segurança explícito
-- ✅ Nenhuma limpeza manual necessária
-- ✅ Auditabilidade completa
+## Qualitative- ✅ Autores podem refatorar com confiança- ✅ Transparência completa- ✅ Controle de segurança explícito- ✅ Nenhuma limpeza manual necessária- ✅ Auditabilidade completa
 
----
+&#x200B;---
 
-# &#x200B;11. Riscos e atenuações
+&#x200B;# &#x200B;11. Riscos e atenuações
 
 | **Risco** | **Impacto** | **Mitigação** |
 |----------|-----------|---------------|
@@ -234,9 +223,9 @@ Relatório abrangente que mostra:
 | Caminhos relativos complexos | Referências de imagem corrompidas | ✅ Resolução de caminho testada |
 | Operações em larga escala | Atualizações incompletas | ✅ Algoritmos eficientes |
 
----
+&#x200B;---
 
-# &#x200B;12. Instruções de utilização
+&#x200B;# &#x200B;12. Instruções de utilização
 
 ## Início rápido
 
@@ -293,9 +282,9 @@ Agent: ✅ Complete! All changes verified.
        Ready to commit.
 ```
 
----
+&#x200B;---
 
-# &#x200B;13. Melhorias futuras
+&#x200B;# &#x200B;13. Melhorias futuras
 
 **Recursos Planejados:**
 - Operações em lote (mover/renomear várias páginas)
@@ -309,9 +298,9 @@ Agent: ✅ Complete! All changes verified.
 - Visualização do Diff
 - Exportar relatórios de impacto
 
----
+&#x200B;---
 
-# &#x200B;14. Documentação e recursos
+&#x200B;# &#x200B;14. Documentação e recursos
 
 - **Arquivo do Agente:** `.cursor-agents/agents/page-management-agent.md`
 - **Referência rápida:** `.cursor-agents/AGENTS.md`
@@ -323,25 +312,15 @@ Agent: ✅ Complete! All changes verified.
 - Solução de problemas: `TROUBLESHOOTING.md`
 - Todos os Agentes: `AGENTS.md`
 
----
+&#x200B;---
 
-# &#x200B;15. Notas de versão
+&#x200B;# &#x200B;15. Notas de versão
 
-## v1.5.0 (novembro de 2025) — Versão inicial
-- ✅ Concluir a implementação das operações Mover/Excluir/Renomear
-- ✅ Análise de impacto abrangente (7 tipos de referência)
-- ✅ Execução transparente com acompanhamento de progresso
-- ✅ Verificação e validação automatizadas
-- ✅ Geração detalhada da mensagem de confirmação
-- ✅ Verificação de versão silenciosa
-- ✅ Política de novo início (sem sangria de contexto)
+## v1.5.0 (novembro de 2025) — Versão inicial- ✅ Concluir a implementação das operações Mover/Excluir/Renomear- ✅ Análise de impacto abrangente (7 tipos de referência)- ✅ Execução transparente com acompanhamento de progresso- ✅ Verificação e validação automatizadas- ✅ Geração detalhada da mensagem de confirmação- ✅ Verificação de versão silenciosa- ✅ Política de novo início (sem sangria de contexto)
 
-## Limitações conhecidas
-- Somente operações de página única (lote em breve)
-- Exige árvore de trabalho limpa para segurança (aviso fornecido)
-- Confirmação manual necessária (confirmação automática em breve)
+## Limitações conhecidas- Somente operações de página única (lote em breve)- Exige árvore de trabalho limpa para segurança (aviso fornecido)- Confirmação manual necessária (confirmação automática em breve)
 
----
+&#x200B;---
 
 *Última atualização: 6 de novembro de 2025*
 
