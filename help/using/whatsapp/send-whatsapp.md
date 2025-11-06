@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 3%
@@ -39,4 +39,4 @@ Você deve verificar os alertas na seção superior do editor. Alguns deles são
 >
 > Se sua campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para poder enviar suas mensagens de texto. [Saiba mais](../test-approve/gs-approval.md)
 
-Quando a mensagem do WhatsApp estiver pronta, conclua a configuração da [jornada](../building-journeys/publishing-the-journey.md) ou da [campanha](../campaigns/review-activate-campaign.md) para enviá-la.
+Quando a mensagem do WhatsApp estiver pronta, conclua a configuração da [jornada](../building-journeys/publish-journey.md) ou da [campanha](../campaigns/review-activate-campaign.md) para enviá-la.

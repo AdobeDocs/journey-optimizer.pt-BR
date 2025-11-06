@@ -11,7 +11,7 @@ keywords: atividade, condição, tela, jornada, otimização
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 9%
@@ -53,7 +53,7 @@ Quando a jornada estiver ativa, os perfis serão avaliados de acordo com os crit
 >id="ajo_path_experiment_success_metric"
 >title="Métricas de sucesso"
 >abstract="As métricas de sucesso são usadas para controlar e avaliar o tratamento com melhor desempenho em um experimento."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurar e rastrear as métricas da jornada"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurar e rastrear as métricas da jornada"
 
 A experimentação permite testar caminhos diferentes com base em uma divisão aleatória para determinar qual tem o melhor desempenho com base em métricas de sucesso predefinidas.
 
@@ -115,7 +115,7 @@ Digamos que você deseje comparar três caminhos:
 
    ![](assets/journey-optimize-experiment-content.png){width=100%}
 
-1. [Publique](publishing-the-journey.md) sua jornada.
+1. [Publique](publish-journey.md) sua jornada.
 
 Quando a jornada estiver ativa, os usuários serão atribuídos aleatoriamente para percorrer caminhos diferentes. [!DNL Journey Optimizer] rastreia qual caminho tem melhor desempenho e fornece insights acionáveis.
 
@@ -238,7 +238,7 @@ Para configurar o direcionamento em uma jornada, siga as etapas abaixo.
 
    Neste exemplo, crie um email com ofertas especiais para membros Gold e um lembrete SMS para os outros membros.
 
-1. [Publique](publishing-the-journey.md) sua jornada.
+1. [Publique](publish-journey.md) sua jornada.
 
 Quando a jornada estiver ativa, o caminho especificado para cada segmento será processado para que os membros Gold insiram o caminho com as ofertas de email, enquanto os outros membros insiram o caminho com o lembrete SMS.
 

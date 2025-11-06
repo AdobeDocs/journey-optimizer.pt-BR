@@ -10,7 +10,7 @@ level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 16%
@@ -26,7 +26,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->Este recurso é oferecido com disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 O [!DNL Journey Optimizer] vem com uma nova atividade genérica **Action** que permite configurar uma única ação de canal interna e também várias atividades de entrada.
 
@@ -179,7 +179,7 @@ Para definir várias ações de entrada em um único nó de ação de jornada, s
 
 1. Continue da mesma forma para adicionar mais ações. Você pode adicionar até 10 ações de entrada em um grupo de ações de jornada.
 
-Quando a jornada estiver [ativa](publishing-the-journey.md), todas as ações serão ativadas simultaneamente.
+Quando a jornada estiver [ativa](publish-journey.md), todas as ações serão ativadas simultaneamente.
 <!--
 ## Next steps {#next}
 

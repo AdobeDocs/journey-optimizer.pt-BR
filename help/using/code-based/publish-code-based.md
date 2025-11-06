@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Para ativar sua experiência baseada em código a partir de uma jornada, siga as
 
    >[!NOTE]
    >
-   >Saiba mais sobre a publicação de jornadas em [esta seção](../building-journeys/publishing-the-journey.md).
+   >Saiba mais sobre a publicação de jornadas em [esta seção](../building-journeys/publish-journey.md).
 
 Sua jornada baseada em código pega o status do **[!UICONTROL Live]** e agora está visível para o público selecionado. Cada recipient da jornada pode ver suas modificações.
 

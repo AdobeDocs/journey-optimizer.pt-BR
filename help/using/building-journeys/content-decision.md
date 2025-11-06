@@ -11,7 +11,7 @@ badge: label="Disponibilidade limitada" type="Informative"
 keywords: atividade, decisão, decisão de conteúdo, política de decisão, tela, jornada
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
@@ -166,9 +166,9 @@ Abaixo está o exemplo completo de uma jornada que usa uma atividade de decisão
 
 ![Concluir jornada](assets/journey-content-decision-full-journey.png)
 
-<!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
+<!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-Assim que a jornada for [ativada](publishing-the-journey.md):
+Assim que a jornada for [ativada](publish-journey.md):
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

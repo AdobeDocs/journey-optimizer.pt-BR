@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ Agora você pode adicionar todos os atributos de decisão desejados dentro desse
 >[!NOTE]
 >
 >Para o rastreamento de itens da política de decisão, o atributo `trackingToken` precisa ser adicionado da seguinte forma para o conteúdo da política de decisão:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Para adicionar um atributo, clique no ícone &quot;+&quot; ao lado dele. Você pode adicionar quantos atributos desejar ao código.
 
@@ -166,7 +166,7 @@ No tempo de execução, o conteúdo da campanha (incluindo o conteúdo de fragme
 
 Quando o conteúdo estiver pronto, revise e publique sua campanha ou jornada:
 
-* [Publicar uma jornada](../building-journeys/publishing-the-journey.md)
+* [Publicar uma jornada](../building-journeys/publish-journey.md)
 * [Revisar como ativar uma campanha](../campaigns/review-activate-campaign.md)
 * [Publicar e ativar uma experiência baseada em código](../code-based/publish-code-based.md)
 

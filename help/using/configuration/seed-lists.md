@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: seed list, seed list, seed, configuração
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 22%
@@ -73,7 +73,7 @@ Use o botão **[!UICONTROL Excluir]** para remover permanentemente uma entrada.
 
 >[!CAUTION]
 >
->Não é possível excluir uma lista de propagação usada em uma [campanha](../campaigns/review-activate-campaign.md) ou [jornada](../building-journeys/publishing-the-journey.md) ativa. Você precisa desativar a campanha/jornada ou editá-la para usar outra configuração que não tenha a lista de propagação selecionada. [Saiba mais sobre como usar uma lista de propagação](#use-seed-list)
+>Não é possível excluir uma lista de propagação usada em uma [campanha](../campaigns/review-activate-campaign.md) ou [jornada](../building-journeys/publish-journey.md) ativa. Você precisa desativar a campanha/jornada ou editá-la para usar outra configuração que não tenha a lista de propagação selecionada. [Saiba mais sobre como usar uma lista de propagação](#use-seed-list)
 
 Você pode clicar no nome de uma lista de propagação para editá-la. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -150,7 +150,7 @@ Agora que sua lista de seeds foi criada, você pode usá-la em qualquer campanha
 
    ![](assets/seed-list-campaign-email.png)
 
-1. Ative sua [campanha](../campaigns/review-activate-campaign.md) ou publique sua [jornada](../building-journeys/publishing-the-journey.md).
+1. Ative sua [campanha](../campaigns/review-activate-campaign.md) ou publique sua [jornada](../building-journeys/publish-journey.md).
 
 Agora, sempre que uma mensagem de email for enviada aos seus clientes por meio dessa campanha ou jornada, os endereços de email na seed list selecionada também a receberão nas mesmas condições, ao mesmo tempo e com o mesmo conteúdo que os recipients direcionados.
 

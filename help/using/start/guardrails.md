@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: e83b49e887e60d12f15252360062c749ed8bd641
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '2929'
 ht-degree: 96%
@@ -143,7 +143,7 @@ As seguintes medidas de proteção se aplicam às [ações](../building-journeys
 * Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. Novas tentativas são executadas para todos os erros HTTP, exceto para HTTP 401, 403 e 404.
 * O evento **Reação** integrado permite que você reaja a ações predefinidas. Saiba mais [nesta página](../building-journeys/reaction-events.md). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado.
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
-* Um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo, em todas as [versões ativas da jornada](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Se a reentrada estiver habilitada, um perfil poderá entrar novamente em uma jornada, mas não até que tenha saído totalmente da instância anterior da jornada. [Leia mais](../building-journeys/end-journey.md)
+* Um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo, em todas as [versões ativas da jornada](../building-journeys/publish-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Se a reentrada estiver habilitada, um perfil poderá entrar novamente em uma jornada, mas não até que tenha saído totalmente da instância anterior da jornada. [Leia mais](../building-journeys/end-journey.md)
 
 ### Versões de jornada {#journey-versions-g}
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 18%
@@ -63,7 +63,7 @@ Para adicionar uma atividade **Web** a uma jornada, siga estas etapas:
 
 1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
 
-1. Quando a experiência da Web estiver pronta, finalize a configuração e publique sua jornada para ativá-la. [Saiba mais](../building-journeys/publishing-the-journey.md)
+1. Quando a experiência da Web estiver pronta, finalize a configuração e publique sua jornada para ativá-la. [Saiba mais](../building-journeys/publish-journey.md)
 
 Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
 
@@ -206,7 +206,7 @@ Para ativar sua experiência online a partir de uma jornada, siga as etapas abai
 
    >[!NOTE]
    >
-   >Saiba mais sobre a publicação de jornadas em [esta seção](../building-journeys/publishing-the-journey.md).
+   >Saiba mais sobre a publicação de jornadas em [esta seção](../building-journeys/publish-journey.md).
 
 Sua jornada da Web está no status **[!UICONTROL Live]** e agora é somente leitura. Cada destinatário da jornada pode ver as modificações adicionadas ao site.
 
@@ -266,4 +266,4 @@ Quando uma jornada ou campanha da Web está ativa, você pode interrompê-la par
 
 O vídeo abaixo mostra como criar uma campanha da Web, configurar suas propriedades, revisá-la e publicá-la.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449986/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

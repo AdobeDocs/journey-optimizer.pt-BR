@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
-source-git-commit: fa4849cfbb43d74ab85437f00acf6da750080cca
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '5125'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -374,7 +374,7 @@ Ao publicar uma jornada:
 * Mensagens e ações começam a ser executadas para perfis que se movem pela jornada
 * Você só pode editar itens limitados em uma jornada publicada (é necessário criar uma nova versão se desejar editar mais)
 
-Saiba mais sobre [publicação de jornadas](publishing-the-journey.md).
+Saiba mais sobre [publicação de jornadas](publish-journey.md).
 
 +++
 
@@ -435,7 +435,7 @@ Saiba mais sobre o [encerramento de jornadas](end-journey.md).
 * Use isso para situações urgentes ou erros críticos
 * Exemplo: recall de produto exigindo interrupção imediata das mensagens promocionais
 
-Saiba mais sobre [como encerrar jornadas](end-journey.md) e [como publicar jornadas](publishing-the-journey.md).
+Saiba mais sobre [como encerrar jornadas](end-journey.md) e [como publicar jornadas](publish-journey.md).
 
 +++
 

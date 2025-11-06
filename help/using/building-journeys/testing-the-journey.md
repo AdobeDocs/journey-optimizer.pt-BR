@@ -10,7 +10,7 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 46fe967c55db9f37221a616e7979bd3fafd6b070
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 7%
@@ -93,7 +93,7 @@ Para usar o modo de teste, siga estas etapas:
 
    ![](assets/journeyuctest2.png)
 
-1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Depois que os testes forem concluídos, você poderá publicar sua jornada. Consulte [esta página](../building-journeys/publishing-the-journey.md).
+1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Depois que os testes forem concluídos, você poderá publicar sua jornada. Consulte [esta página](../building-journeys/publish-journey.md).
 
 ## Acionar os eventos {#firing_events}
 

@@ -9,7 +9,7 @@ level: Intermediate
 keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Você também pode [parar uma jornada](#stop-journey), somente em caso de emerg�
 
 >[!IMPORTANT]
 >
->* Não é possível reiniciar ou excluir uma jornada [fechada](#close-journey) ou [interrompida](#stop-journey). Você pode [criar uma nova versão](publishing-the-journey.md#journey-versions-journey-versions) ou [duplicá-la](journey-ui.md#duplicate-a-journey-duplicate-a-journey).
+>* Não é possível reiniciar ou excluir uma jornada [fechada](#close-journey) ou [interrompida](#stop-journey). Você pode [criar uma nova versão](publish-journey.md#journey-versions-journey-versions) ou [duplicá-la](journey-ui.md#duplicate-a-journey-duplicate-a-journey).
 >
 >* Somente as jornadas concluídas podem ser excluídas.
 

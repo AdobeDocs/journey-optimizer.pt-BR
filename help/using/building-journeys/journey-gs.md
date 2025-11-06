@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 27%
+source-wordcount: '875'
+ht-degree: 24%
 
 ---
 
@@ -102,7 +102,7 @@ Você também pode executar sua jornada em **Dry run**. O teste de simulação d
 
 ## Publicar a jornada {#jo-pub}
 
-Você deve publicar uma jornada para ativá-la e disponibilizá-la para que novos perfis a insiram. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Não é possível publicar uma jornada com erros. Saiba mais sobre a publicação do jornada nesta [seção](publishing-the-journey.md).
+Você deve publicar uma jornada para ativá-la e disponibilizá-la para que novos perfis a insiram. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Não é possível publicar uma jornada com erros. Saiba mais sobre a publicação do jornada nesta [seção](publish-journey.md).
 
 ![](assets/jo-journeyuc2_32bis.png)
 
@@ -111,6 +111,16 @@ Após a publicação, é possível monitorar a jornada usando as ferramentas de 
 ![](assets/jo-dynamic_report_journey_12.png)
 
 Saiba mais sobre relatórios do jornada nesta [seção](../reports/live-report.md).
+
+## Recursos adicionais
+
+* **[visão geral do designer do Jornada](using-the-journey-designer.md)** - Domine a interface da tela do jornada para projetar e organizar jornadas do cliente.
+* **[Atividades de Jornada](about-journey-activities.md)** - Descubra todas as atividades disponíveis, incluindo eventos, ações e componentes de orquestração.
+* **[Testando jornadas](testing-the-journey.md)** - Saiba como testar suas jornadas usando o modo de teste antes de publicar na produção.
+* **[jornadas de Publicação](publish-journey.md)** - Entenda o processo de publicação do jornada e como gerenciar jornadas ativas.
+* **[Relatórios de Jornadas](report-journey.md)** - Acompanhe e analise o desempenho da jornada com métricas e insights detalhados.
+* **[jornadas de Solução de Problemas](troubleshooting.md)** - Encontre soluções para problemas comuns de jornada e práticas recomendadas para depuração.
+* **[tutoriais do Jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre a criação de jornadas e práticas recomendadas.
 
 >[!NOTE]
 >
