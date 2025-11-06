@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: 493f72a9d49974830d8d29b0c19046adfd9724a6
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 88%
 
 ---
 
 # Introdução ao Assistente de IA {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_assistant_prompt"
+>title="Exemplos de prompt"
+>abstract="Explore a documentação do Journey Optimizer abaixo para saber como criar prompts efetivos que produzam conteúdo de marketing de alta conversão e sob a marca."
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -114,7 +120,7 @@ As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na 
 * Use um modelo personalizado ou específico da marca para criar seu conteúdo de email usando o Assistente de IA no Adobe Journey Optimizer. Recomenda-se um modelo de email com 8-10 imagens, no máximo.
 * Relate resultados problemáticos usando os ícones de “polegar para cima”, “polegar para baixo” ou o sinalizador ao selecionar variantes.
 * O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html)
+* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 As seguintes limitações se aplicam ao Assistente de IA no Journey Optimizer:
 
@@ -161,3 +167,12 @@ As seguintes limitações se aplicam ao Assistente de IA no Journey Optimizer:
 <p>
 </td>
 </tr></table>
+
+## Recursos adicionais
+
+* **[Assistente de IA para email](generative-email.md)** - Saiba como usar o Assistente de IA para gerar e otimizar variações de conteúdo de email.
+* **[Assistente de IA para notificações por push](generative-push.md)** - Saiba como criar conteúdo atraente de notificação por push com a assistência de IA.
+* **[Assistente de IA para SMS](generative-sms.md)** - Gere variações eficazes de mensagens SMS usando a criação de conteúdo habilitada por IA.
+* **[Assistente de IA para experiências da Web](generative-web.md)** - Saiba como criar e otimizar conteúdo da Web com o Assistente de IA.
+* **[Experimentação gerativa](generative-experimentation.md)** - Entenda como combinar conteúdo gerado por IA com experimentação.
+* **[Tutoriais do Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre os recursos do Assistente de IA e as práticas recomendadas.
