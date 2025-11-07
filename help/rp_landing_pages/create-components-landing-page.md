@@ -40,7 +40,7 @@ Defina regras de decisão para personalizar ofertas, direcionando segmentos de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=pt-BR)
 
 Como criar e gerenciar qualificadores de coleção no Adobe Journey Optimizer
 

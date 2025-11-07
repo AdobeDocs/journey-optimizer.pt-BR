@@ -20,7 +20,7 @@ Os casos de uso entre soluções do Adobe Journey Optimizer permitem que você i
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Combinar soluções da Adobe para gerenciar o conteúdo
 
@@ -30,7 +30,7 @@ Saiba como integrar o Adobe Journey Optimizer a outras soluções da Adobe, como
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
 
 Usar o Adobe Experience Manager Assets
 
@@ -40,7 +40,7 @@ Orientações passo a passo sobre como integrar, carregar e gerenciar ativos do 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=pt-BR)
 
 Trabalhar com imagens do Adobe Stock
 
@@ -60,7 +60,7 @@ Saiba como redimensionar, cortar e remover fundos de ativos com o Adobe Express 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Trabalhar com fragmentos de conteúdo do AEM
 

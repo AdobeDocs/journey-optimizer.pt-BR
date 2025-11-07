@@ -20,7 +20,7 @@ Os relatórios de jornada personalizados do Adobe Journey Optimizer permitem ras
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Criar e analisar relatórios de jornada
 
@@ -30,7 +30,7 @@ Saiba como criar relatórios de jornada, entender esquemas e conjuntos de dados,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Lista de campos de eventos de etapas
 
@@ -40,7 +40,7 @@ Explore a lista abrangente dos campos de eventos de etapas, categorizados e desc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Campos de eventos de etapas herdados
 
@@ -50,7 +50,7 @@ Entenda os campos de eventos de etapas herdados usados no Adobe Journey Optimize
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Exemplo de consultas SQL para análise de dados
 

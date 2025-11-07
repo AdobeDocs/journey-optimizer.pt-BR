@@ -40,6 +40,6 @@ As principais etapas para enviar mensagens de correspondência direta são as se
 * **[Configurar canal de correspondência direta](direct-mail-configuration.md)** - Definir superfícies de correspondência direta e configurações de roteamento de arquivos.
 * **[Correspondência direta no jornada](direct-mail-journeys.md)** - Descubra como usar ações de correspondência direta nas jornadas do cliente.
 * **[Testar e enviar correspondência direta](test-send-direct-mail.md)** - Saiba como testar, validar e publicar suas entregas de correspondência direta.
-* **[Tutoriais de correspondência direta](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre recursos de correspondência direta e práticas recomendadas.
+* **[Tutoriais de correspondência direta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre recursos de correspondência direta e práticas recomendadas.
 
 

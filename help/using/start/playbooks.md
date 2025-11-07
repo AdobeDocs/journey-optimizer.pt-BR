@@ -61,4 +61,4 @@ Além de aproveitar manuais de estratégia predefinidos, é possível criar e co
 
 Defina metadados manualmente ou usando os recursos de IA, associe ativos técnicos como esquemas e segmentos e compartilhe seus manuais de estratégia em diferentes organizações IMS.
 
-Para obter mais informações sobre como criar e compartilhar manuais de estratégia, consulte a documentação dos manuais de casos de uso: [crie e compartilhe seus próprios manuais de estratégia com o Assistente de IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html#sharing-playbooks-sandboxes){target="_blank"}.
+Para obter mais informações sobre como criar e compartilhar manuais de estratégia, consulte a documentação dos manuais de casos de uso: [crie e compartilhe seus próprios manuais de estratégia com o Assistente de IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=pt-BR#sharing-playbooks-sandboxes){target="_blank"}.

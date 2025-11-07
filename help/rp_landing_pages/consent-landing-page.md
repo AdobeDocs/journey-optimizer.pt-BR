@@ -20,7 +20,7 @@ O gerenciamento de consentimento é fundamental para aumentar a confiança do se
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Gerenciar recusas e consentimento de personalização
 

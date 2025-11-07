@@ -40,7 +40,7 @@ Descubra como transmitir dados contextuais em solicitações de tomada de decis�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Usar dados contextuais em solicitações de tomada de decisão e regras de elegibilidade
 

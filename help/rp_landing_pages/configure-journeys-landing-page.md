@@ -40,7 +40,7 @@ Aprenda a configurar e gerenciar eventos que acionam jornadas, incluindo eventos
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configuração de Fonte de dados no Adobe Journey Optimizer
 

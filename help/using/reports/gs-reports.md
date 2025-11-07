@@ -144,4 +144,4 @@ Saiba como usar o Relatório de tempo integral no Adobe Journey Optimizer de man
 
 +++
 
-Explore mais tutoriais em vídeo sobre relatórios e análises em [Tutoriais de relatórios](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
+Explore mais tutoriais em vídeo sobre relatórios e análises em [Tutoriais de relatórios](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}

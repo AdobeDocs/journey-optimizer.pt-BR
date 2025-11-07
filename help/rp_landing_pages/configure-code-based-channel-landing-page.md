@@ -40,7 +40,7 @@ Entenda as superfícies e seus identificadores, composição e uso em experiênc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Amostras de métodos de implementação
 
@@ -60,7 +60,7 @@ Saiba como configurar a desduplicação e gerenciar solicitações de decisão e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Criar configuração de experiência baseada em código
 

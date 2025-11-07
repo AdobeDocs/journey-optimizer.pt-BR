@@ -50,7 +50,7 @@ Saiba como atribuir pontuações de prioridade numéricas a jornadas e campanhas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Definir regras de limite de mensagens e jornadas
 

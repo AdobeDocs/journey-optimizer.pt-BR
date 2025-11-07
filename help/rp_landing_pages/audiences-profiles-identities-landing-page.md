@@ -20,7 +20,7 @@ Públicos-alvo, perfis e identidades no Adobe Journey Optimizer dependem dos rec
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Gerenciamento de público-alvo e personalização
 
@@ -30,7 +30,7 @@ Saiba como criar, gerenciar e ativar públicos-alvo usando atributos de segmenta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=pt-BR)
 
 Perfis: gerenciar e otimizar os dados do cliente
 
@@ -40,7 +40,7 @@ Entenda como usar perfis, atributos computados e perfis de teste para criar visu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=pt-BR)
 
 Introdução a identidades
 
@@ -50,7 +50,7 @@ Descubra como gerenciar as identidades de clientes com o Gráfico de identidade 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Painel de uso de licenças
 

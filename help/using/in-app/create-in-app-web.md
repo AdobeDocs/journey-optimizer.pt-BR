@@ -20,9 +20,9 @@ ht-degree: 7%
 
 Para configurar seu canal no aplicativo da Web, siga as etapas abaixo:
 
-* Instale a extensão de tag do Web SDK para oferecer suporte a Mensagens no aplicativo da Web. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
+* Instale a extensão de tag do Web SDK para oferecer suporte a Mensagens no aplicativo da Web. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=pt-BR){target="_blank"}
 
-* Personalize seus acionadores. As mensagens no aplicativo da Web são compatíveis com dois tipos de acionadores: dados enviados para a plataforma e acionadores manuais. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html){target="_blank"}
+* Personalize seus acionadores. As mensagens no aplicativo da Web são compatíveis com dois tipos de acionadores: dados enviados para a plataforma e acionadores manuais. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=pt-BR){target="_blank"}
 
 * Crie sua configuração da Web no aplicativo. [Saiba mais](inapp-configuration.md)
 

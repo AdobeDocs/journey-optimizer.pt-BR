@@ -30,7 +30,7 @@ Saiba mais sobre as noções básicas de criação e gerenciamento de modelos de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Acessar e gerenciar modelos 
 
@@ -60,7 +60,7 @@ Saiba como bloquear seções ou modelos inteiros para evitar edições ou exclus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Testar modelos de conteúdo
 
@@ -70,7 +70,7 @@ Valide modelos de email testando renderização, variações e provas antes de u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Usar modelos de conteúdo
 

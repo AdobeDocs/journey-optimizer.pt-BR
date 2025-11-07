@@ -40,7 +40,7 @@ Um guia passo a passo sobre a criação, a configuração e o dimensionamento de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Técnicas estatísticas avançadas para experimentação
 

@@ -20,7 +20,7 @@ O controle de acesso do Adobe Journey Optimizer permite que os administradores g
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao controle de acesso
 
@@ -30,7 +30,7 @@ Saiba mais sobre os conceitos e processos para gerenciar permissões de usuário
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Gerenciar usuários e funções
 
@@ -40,7 +40,7 @@ Orientações passo a passo para atribuir, editar e criar funções a fim de con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Funções integradas
 
@@ -50,7 +50,7 @@ Descubra as funções predefinidas e as permissões associadas a elas para geren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Permissões integradas
 
@@ -60,7 +60,7 @@ Entenda as permissões disponíveis e suas funcionalidades para configurar o con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Níveis de permissão
 
@@ -70,7 +70,7 @@ Saiba mais sobre permissões de alto e baixo níveis, e como elas proporcionam u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Controle de acesso baseado em atributos
 

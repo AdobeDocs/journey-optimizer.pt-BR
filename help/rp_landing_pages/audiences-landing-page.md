@@ -20,7 +20,7 @@ Os Públicos-alvo no Adobe Journey Optimizer ajudam você a se conectar com as p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução aos públicos-alvo
 
@@ -30,7 +30,7 @@ Saiba mais sobre os fundamentos do gerenciamento de público-alvo, da segmentaç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Criar e gerenciar públicos-alvo
 
@@ -40,7 +40,7 @@ Descubra fluxos de trabalho avançados para criação, composição e enriquecim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Ativar públicos-alvo em campanhas e jornadas
 
@@ -50,7 +50,7 @@ Entenda como ativar públicos-alvo e usá-los com eficiência em campanhas e jor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Usar atributos de enriquecimento
 

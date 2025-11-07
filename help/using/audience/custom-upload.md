@@ -27,7 +27,7 @@ Durante o processo de upload personalizado, especifique o atributo CSV a ser usa
 
 ![](assets/import-audience.png)
 
-Informações detalhadas sobre como importar públicos estão disponíveis na [documentação do Serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} do Adobe Experience Platform.
+Informações detalhadas sobre como importar públicos estão disponíveis na [documentação do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} do Adobe Experience Platform.
 
 Saiba como fazer upload de públicos-alvo no formato CSV em vídeo:
 
