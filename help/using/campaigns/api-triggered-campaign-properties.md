@@ -36,7 +36,7 @@ Para criar uma nova campanha acionada por API, siga estas etapas:
      >
      >Atualmente, o modo de alta taxa de transferência está disponível somente para o canal de email e na região dos EUA.
      >
-     >Esse recurso só está disponível para organizações que compraram a oferta complementar **Mensagens transacionais de alta taxa de transferência** da Adobe. Entre em contato com seu representante da Adobe para obter mais informações.
+     >Esse recurso só está disponível para organizações que compraram a oferta complementar **Mensagens transacionais de alta taxa de transferência** da Adobe. Entre em contato com o representante da Adobe para obter mais informações.
 
      +++
 

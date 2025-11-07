@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '561'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 90%
 
 ---
 
@@ -83,3 +83,10 @@ O processo de aprovação global é o seguinte:
 Você pode monitorar todas as solicitações de aprovação e alteração que foram enviadas para uma determinada jornada ou campanha. Para fazer isso, clique no ícone **[!UICONTROL Mostrar trilha de auditoria]** localizado na seção superior direita da tela de jornada ou na tela de revisão da campanha.
 
 ![](assets/monitor-requests.png)
+
+## Recursos adicionais
+
+* **[Criar políticas de aprovação](approval-policies.md)** - Saiba como configurar políticas de aprovação para impor fluxos de trabalho de revisão para campanhas e jornadas.
+* **[Solicitar aprovação](request-approval.md)** - Entenda como enviar conteúdo para aprovação e acompanhar o status de aprovação.
+* **[Revisar e aprovar solicitações](review-approve-request.md)** - Saiba como revisar, aprovar ou rejeitar solicitações de aprovação como aprovador.
+* **[Simular com entradas de exemplo](simulate-sample-input.md)** - Saiba como testar e validar conteúdo usando dados de perfil de exemplo.

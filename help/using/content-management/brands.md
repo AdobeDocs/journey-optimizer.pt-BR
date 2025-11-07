@@ -10,7 +10,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -318,7 +318,7 @@ A seção **[!UICONTROL Conteúdo visual]** define os padrões de imagem e desig
       <td>Evite complexos demais.</td>
     </tr>
     <tr>
-      <td>Padrões de ícones</td>
+      <td>Ícone padrões</td>
       <td>Use um sistema de grade de 24px consistente.</td>
       <td>Não misture dimensões de ícone, use espessuras de traçado inconsistentes ou desvie das regras de grade.</td>
     </tr>

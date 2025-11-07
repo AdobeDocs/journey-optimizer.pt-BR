@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->Este recurso está atualmente no **beta privado** e pode não estar disponível em seu ambiente. Entre em contato com o seu representante da Adobe para obter acesso.
+>Este recurso está atualmente no **beta privado** e pode não estar disponível em seu ambiente. Entre em contato com o representante da Adobe para obter acesso.
 
 O [!DNL Journey Optimizer] apresenta uma simulação baseada em IA que pode gerar automaticamente várias variantes para testar seu conteúdo. Esse recurso reduz a necessidade de criar variantes manualmente, facilitando a validação da lógica de personalização em modelos complexos.
 

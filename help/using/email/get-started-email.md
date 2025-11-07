@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: email, iniciar, criação, visualização
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 66%
 
 ---
 
@@ -109,3 +109,12 @@ Entregas de email podem ser criadas:
 <p>
 </td>
 </tr></table>
+
+## Recursos adicionais
+
+* **[Criar um email](create-email.md)** - Saiba como criar mensagens de email em campanhas e jornadas com instruções passo a passo.
+* **[Criar conteúdo de email](get-started-email-design.md)** - Descubra as diferentes maneiras de criar seu conteúdo de email, do zero ou usando modelos.
+* **[Configuração de email](get-started-email-config.md)** - Entenda como definir configurações de email, incluindo superfícies de email, subdomínios e pools de IP.
+* **[Personalização e estilo de email](get-started-email-style.md)** - Técnicas de estilo mestre, incluindo CSS personalizado, alinhamento, preenchimento e suporte para modo escuro.
+* **[Rastrear e monitorar emails](message-tracking.md)** - Saiba como rastrear aberturas de mensagens, cliques e gerenciar o rastreamento de URL para análise de desempenho.
+* **[Tutoriais do canal de email](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre recursos de email e práticas recomendadas.

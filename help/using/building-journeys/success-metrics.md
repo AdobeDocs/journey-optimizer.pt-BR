@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ A lista de métricas varia dependendo dos [grupos de campos](https://experiencel
 
 Se seu conjunto de dados não estiver configurado, apenas as seguintes métricas estarão disponíveis: **[!UICONTROL Clique]**, **[!UICONTROL Clique Único]**, **[!UICONTROL Taxa de Click-through]** e **[!UICONTROL Taxa de Abertura]**.
 
-Observe que com uma licença do Customer Journey Analytics é possível criar métricas de sucesso personalizadas. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Observe que com uma licença do Customer Journey Analytics é possível criar métricas de sucesso personalizadas. [Saiba mais](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Métricas | Grupo de campos relacionado |
@@ -45,7 +45,7 @@ Observe que com uma licença do Customer Journey Analytics é possível criar m�
 | Page Views | Grupo de campos da Web |
 | Inicializações do aplicativo | Grupo de campos móvel |
 | Primeiras inicializações do aplicativo | Grupo de campos móvel |
-| Instalações de aplicativo | Grupo de campos móvel |
+| Instalações de aplicativos | Grupo de campos móvel |
 | Atualizações do aplicativo | Grupo de campos móvel |
 | Compras | Grupo de campos Detalhes do Commerce |
 | Check-outs | Grupo de campos Detalhes do Commerce |
@@ -53,8 +53,8 @@ Observe que com uma licença do Customer Journey Analytics é possível criar m�
 | Aberturas do carrinho | Grupo de campos Detalhes do Commerce |
 | Visualizações do carrinho | Grupo de campos Detalhes do Commerce |
 | Remoções do carrinho | Grupo de campos Detalhes do Commerce |
-| Visualizações de produto | Grupo de campos Detalhes do Commerce |
-| Salvos para mais tarde | Grupo de campos Detalhes do Commerce |
+| Exibições do produto | Grupo de campos Detalhes do Commerce |
+| Salvar para mais tarde | Grupo de campos Detalhes do Commerce |
 
 ## Atribuição {#attribution}
 
@@ -70,7 +70,7 @@ Cada métrica vem com uma atribuição definida que determina quais pontos de co
 
   Com as licenças do Journey Optimizer e da Customer Journey Analytics, é possível criar métricas personalizadas com configurações de atribuição específicas ou alterar as atribuições das métricas integradas.
 
-  Saiba mais sobre [Modelos de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Saiba mais sobre [Modelos de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Atribuir suas métricas de jornada {#assign}
 

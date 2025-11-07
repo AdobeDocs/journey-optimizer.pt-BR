@@ -14,7 +14,7 @@ exl-id: a8908b11-2288-4d53-897c-3f99cb5ceab4
 source-git-commit: 0cb73489981659c3f231b9def40e0e483ed3aef8
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
@@ -29,9 +29,9 @@ Esses erros podem ser encontrados no [Conjunto de Dados de Eventos de Feedback d
 | **Indeterminado** | Ignorado | 1 | Não é possível classificar a mensagem de rejeição SMTP recebida do ISP. |
 | **Destinatário inválido** | Rejeição permanente | 10 | O endereço do destinatário não é válido. |
 | **Destinatário recusado** | Rejeição permanente | 15 | O ISP do destinatário recusou a mensagem e o ISP pode bloquear o remetente se o destinatário não for suprimido. |
-| **Rejeição leve** | Rejeição temporária | 20 | Ocorreu uma falha temporária na mensagem. Ele pode ter êxito em tentativas futuras. |
-| **Falha de DNS** | Rejeição temporária | 21 | Falha temporária de DNS na entrega da mensagem. Ele pode ter êxito em tentativas futuras. |
-| **Caixa de Correio Cheia** | Rejeição temporária | 22 | Ocorreu uma falha temporária de entrega na mensagem porque a caixa de correio do destinatário estava cheia. |
+| **Rejeição leve** | Rejeição leve | 20 | Ocorreu uma falha temporária na mensagem. Ele pode ter êxito em tentativas futuras. |
+| **Falha de DNS** | Rejeição leve | 21 | Falha temporária de DNS na entrega da mensagem. Ele pode ter êxito em tentativas futuras. |
+| **Caixa de Correio Cheia** | Rejeição leve | 22 | Ocorreu uma falha temporária de entrega na mensagem porque a caixa de correio do destinatário estava cheia. |
 | **Muito Grande** | Ignorado | 23 | Ocorreu uma falha temporária de entrega na mensagem porque o tamanho da mensagem excedeu o limite do destinatário. |
 | **Tempo limite** | Ignorado | 24 | A entrega da mensagem falhou porque a validade da mensagem expirou ou demorou muito para ser enviada para o ISP. |
 | **Falha do administrador** | Administrador | 25 | Falha no delivery devido a alguma configuração de política na infraestrutura de envio de email. |
@@ -40,7 +40,7 @@ Esses erros podem ser encontrados no [Conjunto de Dados de Eventos de Feedback d
 | **Bloqueio de email** | Ignorado | 50 | O delivery apresentou falha temporária devido ao alto volume ou limites de taxa do ISP. |
 | **Bloqueio de spam** | Ignorado | 51 | A entrega apresentou falha temporária porque o ISP considerou os domínios ou IPs do remetente uma fonte de spam conhecida. |
 | **Conteúdo de spam** | Ignorado | 52 | O delivery sofreu uma falha temporária porque o ISP classificou o conteúdo do email como spam. |
-| **Retransmissão negada** | Rejeição temporária | 54 | Não foi possível aceitar a mensagem porque o domínio de destino não está incluído na lista de permissões para retransmissão. |
+| **Retransmissão negada** | Rejeição leve | 54 | Não foi possível aceitar a mensagem porque o domínio de destino não está incluído na lista de permissões para retransmissão. |
 | **Resposta automática** | Ignorado | 60 | Estas mensagens são descartadas por [!DNL Journey Optimizer] quando recebidas, a menos que o encaminhamento esteja habilitado. |
 | **Falha transitória** | Ignorado | 70 | O delivery será repetido com uma taxa reduzida ou poderá ser adiado em caso de suspensão. |
-| **Resposta-Desafio** | Rejeição temporária | 100 | A entrega pode falhar permanentemente, pois [!DNL Journey Optimizer] não oferece suporte a um mecanismo de autenticação de resposta a desafio. |
+| **Resposta-Desafio** | Rejeição leve | 100 | A entrega pode falhar permanentemente, pois [!DNL Journey Optimizer] não oferece suporte a um mecanismo de autenticação de resposta a desafio. |

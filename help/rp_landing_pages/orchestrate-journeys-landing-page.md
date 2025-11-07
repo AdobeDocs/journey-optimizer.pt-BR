@@ -5,10 +5,10 @@ title: Jornadas
 description: Jornadas
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
-source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ As jornadas no Adobe Journey Optimizer permitem criar jornadas personalizadas e 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução às jornadas do Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Saiba como criar jornadas de clientes em tempo real em várias etapas usando as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Guia abrangente para criar e gerenciar jornadas
 
@@ -40,7 +40,7 @@ Orientação passo a passo sobre design, teste, publicação e rastreamento de j
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Guia abrangente para gerenciar jornadas
 
@@ -50,7 +50,7 @@ Gerencie as jornadas do cliente com eficiência com ferramentas para filtragem, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Atividades no Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Descubra como configurar e usar atividades como acionadores, etapas de decisão,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Criação de expressões no Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Domine a criação de expressões para fluxos de trabalho dinâmicos, manipulaç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casos de uso prático do Adobe Journey Optimizer
 
@@ -87,5 +87,7 @@ Explore aplicativos reais do Adobe Journey Optimizer, incluindo mensagens multic
 - **[Solução de problemas de jornadas do cliente](troubleshoot-journey-landing-page.md)**: diagnostique e resolva problemas de execução de jornada com ferramentas, códigos de erro e práticas recomendadas para depuração e otimização.
 
 - **[Assinar alertas de jornada](../using/reports/alerts.md)**: descubra como gerenciar alertas do sistema, assinar notificações e solucionar problemas em jornadas e campanhas.
+
+- **[Tutoriais do Jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Saiba mais sobre a criação de jornadas por meio de tutoriais em vídeo práticos, que abrangem recursos, funcionalidades e práticas recomendadas.
 
 

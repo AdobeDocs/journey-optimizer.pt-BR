@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Relatório de assinaturas
+title: Relatório de subscrição
 description: Saiba como usar os dados de seus serviços de assinatura com o Relatório de assinatura
 feature: Journeys, Subscriptions
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: d1c4ae5f-2f5c-4e25-a8b4-4c5fe254bfb9
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# Relatório de assinaturas {#subscription-report-global-cja}
+# Relatório de subscrição {#subscription-report-global-cja}
 
 O **Relatório de assinatura** oferece informações essenciais sobre assinaturas e cancelamentos de assinaturas de perfis associados a listas específicas, ajudando você a entender a eficácia de diferentes campanhas e iniciativas de assinatura na geração de engajamento e conversões.
 
@@ -23,7 +23,7 @@ Para acessar seus relatórios, clique no ícone **[!UICONTROL Relatório]** da l
 
 ![](assets/cja-sub-access.png)
 
-Para saber mais sobre o espaço de trabalho do Customer Journey Analytics e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home).
+Para saber mais sobre o espaço de trabalho do Customer Journey Analytics e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Adições à lista de assinaturas
 

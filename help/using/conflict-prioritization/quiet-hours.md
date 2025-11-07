@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Definir horas de silêncio
+title: Definir períodos de silêncio
 description: Saiba como criar e aplicar horas de silêncio
 feature: Rules
 topic: Content Management
@@ -12,16 +12,16 @@ keywords: mensagem, frequência, regras, pressão
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
 
-# Definir horas de silêncio {#quiet-hours}
+# Definir períodos de silêncio {#quiet-hours}
 
 ## O que são horas de silêncio
 
-O **Período de silêncio** permite definir exclusões com base no tempo para **emails**, **SMS**, **Push** e **WhatsApp** canais. Elas garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade.
+O **Período de silêncio** permite definir exclusões com base no tempo para **emails**, **SMS**, **Push** e **WhatsApp** canais. Elas garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando a respeitar as preferências do cliente e os requisitos de conformidade.
 
 Você pode aplicar horas de silêncio por meio de **conjuntos de regras**, que podem ser atribuídos a ações individuais em campanhas ou jornadas para obter um controle preciso.
 
@@ -34,7 +34,7 @@ Ao simplificar esses processos, você pode aprimorar a experiência do cliente, 
 
 >[!AVAILABILITY]
 >
->Atualmente, as regras de horário de silêncio estão disponíveis apenas para um conjunto de organizações (Disponibilidade limitada). Para ser adicionado à lista de espera, entre em contato com o representante da Adobe.
+>As regras do período de silêncio estão disponíveis atualmente apenas para algumas organizações (disponibilidade limitada). Para a adição na lista de espera, entre em contato com o representante da Adobe.
 
 
 ➡️ [Conheça este recurso no vídeo](#video)
@@ -187,4 +187,4 @@ Depois que sua jornada ou campanhas forem ativadas e executadas, você poderá e
 
 Saiba como usar o recurso de horários de silêncio no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475857?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

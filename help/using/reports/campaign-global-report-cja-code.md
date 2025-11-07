@@ -97,7 +97,7 @@ Os **KPIs de decisão** fornecem informações importantes sobre o envolvimento 
 
 * **[!UICONTROL Taxa de fallback]**: porcentagem de instâncias em que nenhuma estratégia de seleção foi qualificada, resultando na exibição de uma opção genérica ou menos específica.
 
-### Funil de engajamento {#engagement-funnel}
+### Envolvimento com a funnel {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 

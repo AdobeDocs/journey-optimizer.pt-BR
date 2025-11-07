@@ -34,7 +34,7 @@ Os seguintes tipos de mensagem são suportados no WhatsApp:
 | Vídeos | Deve ser 3GPP ou MP4, com menos de 16 MB, e hospedado via URL. |
 | Áudio | Disponível somente para mensagens de resposta. Deve ser o formato AAC, AMR, MP3, MP4 audio ou OGG, hospedado em um URL e menos de 16 MB. |
 | Documentos | Deve ter menos de 100 MB, hospedado em um URL e em um dos seguintes formatos: .txt, .xls/.xlsx, .doc/.docx, .ppt/.pptx ou .pdf. |
-| Texto do corpo | Aceita conteúdo dinâmico por meio de parâmetros. |
+| Corpo de texto | Aceita conteúdo dinâmico por meio de parâmetros. |
 | Texto do rodapé | Aceita conteúdo dinâmico por meio de parâmetros. |
 
 A seguinte opção do call-to-action está disponível para suas mensagens do WhatsApp:
@@ -106,7 +106,7 @@ Agora você pode começar a projetar o conteúdo de sua mensagem do WhatsApp usa
 
 >[!BEGINSHADEBOX]
 
-Antes de criar sua mensagem de WhatsApp no Journey Optimizer, você primeiro precisa criar e projetar seu modelo no Meta. [Saiba mais](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+Antes de criar sua mensagem de WhatsApp no Journey Optimizer, primeiro é necessário criar e projetar seu modelo no Meta. [Saiba mais](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
 Observe que seu modelo do WhatsApp deve ser aprovado primeiro pelo Meta antes de usá-lo no Journey Optimizer. Esse processo geralmente leva algumas horas, mas pode levar até 24 horas. [Saiba mais](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
@@ -195,6 +195,6 @@ O vídeo abaixo mostra como criar uma jornada do WhatsApp em várias etapas usan
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470287/?learn=on&captions=por_br")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

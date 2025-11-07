@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '619'
 ht-degree: 22%
 
 ---
@@ -86,4 +86,14 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
    ➡️ [Saiba como trabalhar com políticas de decisão](create-decision.md)
 ➡️ Para entregar com êxito a oferta por meio do canal de experiência baseado em código, siga as etapas de implementação em [esta seção](../code-based/code-based-implementation-samples.md).
+
+## Recursos adicionais
+
+* **[Criar itens de decisão](items.md)** - Saiba como criar e gerenciar itens de decisão, incluindo ofertas, variações de conteúdo e experiências.
+* **[Configurar catálogos de decisão](catalogs.md)** - Entenda como organizar itens de decisão em catálogos para melhorar o gerenciamento.
+* **[Definir estratégias de seleção](selection-strategies.md)** - Descubra como criar estratégias de seleção com regras de qualificação e métodos de classificação.
+* **[Criar políticas de decisão](create-decision-policy.md)** - Saiba como criar políticas de decisão que combinam estratégias e restrições.
+* **[Modelos de classificação e IA](ranking/ranking.md)** - Fórmulas de classificação mestre e modelos de IA para decisões personalizadas.
+* **[Medidas de proteção de decisão](decisioning-guardrails.md)** - Revise limitações importantes e práticas recomendadas para a implementação da decisão.
+* **[Tutoriais de decisão](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre recursos de decisão e práticas recomendadas.
 

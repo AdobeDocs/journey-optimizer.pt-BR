@@ -20,7 +20,7 @@ As classificações do Adobe Journey Optimizer permitem que você personalize qu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução às classificações
 
@@ -30,7 +30,7 @@ Saiba mais sobre as noções básicas das classificações do Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar e usar fórmulas de classificação
 
@@ -40,7 +40,7 @@ Siga as instruções passo a passo para criar fórmulas de classificação, usan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Modelos de IA para classificação de ofertas
 

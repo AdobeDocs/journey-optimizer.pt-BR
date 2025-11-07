@@ -22,7 +22,7 @@ As funções do Adobe Journey Optimizer permitem criar expressões dinâmicas e 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funções principais do Adobe Journey Optimizer
 
@@ -32,7 +32,7 @@ Obtenha uma visão geral das principais funções disponíveis, categorizadas po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Usar a função inAudience
 
@@ -42,7 +42,7 @@ Entenda como avaliar a associação de públicos-alvo com a função inAudience 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Referência de funções de agregação
 
@@ -52,7 +52,7 @@ As funções de agregação principais executam operações como médias, contag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 Funções de conversão
 
@@ -62,7 +62,7 @@ Transforme tipos de dados com funções de conversão para manipular entradas de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Funções de data do Adobe Journey Optimizer
 
@@ -72,7 +72,7 @@ Saiba como manipular e avaliar valores de data e hora por meio de funções pode
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Funções de lista do Adobe Journey Optimizer
 

@@ -277,4 +277,4 @@ Depois que a solicitação for tratada pela Adobe, o domínio não delegado não
 
 Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342240?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

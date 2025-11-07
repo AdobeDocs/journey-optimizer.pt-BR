@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ativar o modo de alta taxa de transferência para campanhas acionadas por API
+title: Ativar modo de taxa de transferência alta para campanhas acionadas por API
 description: Saiba como ativar o modo Alta taxa de transferência para campanhas acionadas por API.
 feature: Campaigns, API
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 source-git-commit: 4521990a02092365f996a81299ada55433639fb7
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Ativar o modo de alta taxa de transferência para campanhas acionadas por API {#high-throughput}
+# Ativar modo de taxa de transferência alta para campanhas acionadas por API {#high-throughput}
 
 O modo Alta Taxa de Transferência foi projetado para organizações que precisam de **mensagens transacionais em tempo real de grande escala** (até 5.000 transações por segundo). Diferentemente das campanhas acionadas pela API comum, as campanhas de alta taxa de transferência operam independentemente dos Perfis do Adobe e exigem um modelo de configuração diferente.
 

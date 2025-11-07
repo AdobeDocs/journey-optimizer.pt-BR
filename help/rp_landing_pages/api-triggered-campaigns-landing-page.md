@@ -20,7 +20,7 @@ As campanhas acionadas por API do Adobe Journey Optimizer permitem que você ent
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar e gerenciar campanhas acionadas por API
 
@@ -30,7 +30,7 @@ Saiba como criar, configurar e gerenciar campanhas acionadas por API no Adobe Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definir as propriedades da campanha acionada por API
 
@@ -40,7 +40,7 @@ Siga as instruções passo a passo para definir propriedades como nomenclatura, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar a ação da campanha acionada por API
 
@@ -50,7 +50,7 @@ Saiba como configurar ações, selecionar canais de comunicação, otimizar a en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Editar e personalizar o conteúdo de uma campanha acionada por API
 
@@ -60,7 +60,7 @@ Personalize o conteúdo da campanha com base em dados contextuais. Saiba como pr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Definir o público-alvo de uma campanha acionada por API
 
@@ -70,7 +70,7 @@ Configure o público-alvo da campanha, selecionando perfis, configurando tipos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Agendar uma campanha acionada por API
 

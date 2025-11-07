@@ -20,7 +20,7 @@ O gerenciamento de esquemas e conjuntos de dados relacionais no Adobe Journey Op
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução a esquemas e conjuntos de dados relacionais
 
@@ -30,7 +30,7 @@ Saiba como criar esquemas, configurar conjuntos de dados e assimilar dados para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configurar um esquema relacional manual
 
@@ -40,7 +40,7 @@ Instruções detalhadas de como criar esquemas manualmente, adicionar atributos,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Criar esquemas relacionais com um arquivo DDL
 
@@ -50,7 +50,7 @@ Defina esquemas por meio do carregamento de arquivos DDL, vinculação de tabela
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Assimilar dados para campanhas do Adobe Journey Optimizer
 

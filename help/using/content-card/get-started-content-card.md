@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 70%
 
 ---
 
@@ -46,3 +46,9 @@ Esse recurso permite que profissionais de marketing apresentem conteúdo de míd
 <p>
 </td>
 </tr></table>
+
+## Recursos adicionais
+
+* **[Cartões de conteúdo em páginas de aterrissagem](content-card-lp.md)** - Descubra como implementar cartões de conteúdo em páginas de aterrissagem para um engajamento aprimorado.
+* **[Relatórios de cartão de conteúdo](content-card-report.md)** - Rastreie e analise o desempenho do cartão de conteúdo com métricas e insights detalhados.
+* **[Tutoriais do cartão de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre os recursos do cartão de conteúdo e as práticas recomendadas.

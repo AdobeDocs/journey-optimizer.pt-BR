@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuração, configurar, mensagens, canal, sandbox, otimizador
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 43%
+source-wordcount: '397'
+ht-degree: 34%
 
 ---
 
@@ -73,3 +73,12 @@ Para enviar mensagens, você precisa seguir as etapas de configuração listadas
    * Configure as **regras de negócio** para evitar o excesso de solicitações de seus destinatários. [Saiba mais](../conflict-prioritization/rule-sets.md)
 
    * Determine qual endereço de email e/ou número de telefone deve ser usado com prioridade para seus destinatários quando vários endereços/números estiverem disponíveis na Adobe Experience Platform. [Saiba mais](primary-email-addresses.md)
+
+## Recursos adicionais
+
+* **[Configurar superfícies dos canais](channel-surfaces.md)** - Saiba como configurar e gerenciar superfícies de canais para email, push, SMS e outros canais.
+* **[Delegação de subdomínio](delegate-subdomain.md)** - Entenda como delegar subdomínios à Adobe para capacidade de entrega de email e identidade visual.
+* **[Warmup de IP](ip-warmup-gs.md)** - Descubra as práticas recomendadas para warmup de endereço IP para melhorar a capacidade de entrega de emails e a reputação do remetente.
+* **[Gerenciar lista de supressão](manage-suppression-list.md)** - Saiba como gerenciar listas de supressão para lidar com rejeições e manter a higiene das listas.
+* **[Configurar aplicativos móveis](set-mobile-config.md)** - Defina configurações de aplicativos móveis para notificações por push e mensagens no aplicativo.
+* **[Tutoriais de configuração](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre a configuração do canal e as práticas recomendadas.

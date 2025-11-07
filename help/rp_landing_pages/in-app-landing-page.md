@@ -21,7 +21,7 @@ O canal no aplicativo no Adobe Journey Optimizer permite que você se conecte ao
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuração de canais no aplicativo
 
@@ -31,7 +31,7 @@ Guia passo a passo para configurar permissões, configurações de entrega e pr�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar mensagens móveis no aplicativo
 
@@ -41,7 +41,7 @@ Saiba como criar, configurar e publicar mensagens móveis no aplicativo usando a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Criar mensagens no aplicativo da Web
 
@@ -51,7 +51,7 @@ Configure e crie campanhas de mensagens no aplicativo da Web com acionadores, di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
 
 Criar e personalizar conteúdo no aplicativo
 
@@ -61,7 +61,7 @@ Explore opções de layout, personalize o conteúdo e use formatação avançada
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Verificação e envio da notificação no aplicativo
 

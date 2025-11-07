@@ -17,9 +17,9 @@ ht-degree: 83%
 
 # Introdução a consultas {#queries-gs}
 
-O Editor de consulta é uma ferramenta interativa fornecida pelo Serviço de consulta da Adobe Experience Platform que permite gravar, validar e executar consultas para dados de experiência do cliente na interface [!DNL Adobe Journey Optimizer].
+O Editor de consultas é uma ferramenta interativa fornecida pelo Serviço de consulta da Adobe Experience Platform que permite gravar, validar e executar consultas para dados de experiência do cliente na interface [!DNL Adobe Journey Optimizer].
 
-O Editor de consulta oferece suporte ao desenvolvimento de consultas para análise e exploração de dados e permite que você execute consultas interativas para fins de desenvolvimento, bem como consultas não interativas para preencher [conjuntos de dados](get-started-datasets.md).
+O Editor de consultas oferece suporte ao desenvolvimento de consultas para análise e exploração de dados e permite que você execute consultas interativas para fins de desenvolvimento, bem como consultas não interativas para preencher [conjuntos de dados](get-started-datasets.md).
 
 ![](assets/queries-home.png)
 

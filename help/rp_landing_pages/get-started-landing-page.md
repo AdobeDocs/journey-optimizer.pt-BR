@@ -5,10 +5,10 @@ title: Introdução
 description: Introdução
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -22,7 +22,7 @@ Esta seção apresenta os principais recursos da plataforma, desde a orquestraç
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Principais recursos
 
@@ -32,7 +32,7 @@ Descubra os principais recursos, casos de uso e arquitetura do Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Visão geral da arquitetura
 
@@ -42,7 +42,7 @@ Entenda como o Adobe Journey Optimizer integra-se à Adobe Experience Platform p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Funções e responsabilidades
 
@@ -52,7 +52,7 @@ Obtenha uma visão geral das funções e dos fluxos de trabalho necessários par
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Visão geral da interface do usuário
 
@@ -62,7 +62,7 @@ Navegue pela interface do Adobe Journey Optimizer e explore seus recursos, inclu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Pesquisar, filtrar e organizar conteúdo
 
@@ -72,13 +72,13 @@ Use os recursos de pesquisa, filtro e marcação para gerenciar e organizar jorn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Medidas de proteção e limitações
 
 Saiba mais sobre restrições e práticas recomendadas para usar os recursos do Adobe Journey Optimizer de maneira eficaz.
 
-[Explore os conceitos principais](../using/start/guardrails.md)
+[Verificar medidas de proteção e limitações](../using/start/guardrails.md)
 :::
 
 ::::

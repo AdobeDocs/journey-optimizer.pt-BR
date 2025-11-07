@@ -23,7 +23,7 @@ Para acessar seus relatórios, selecione **[!UICONTROL Relatório]** no menu ava
 
 ![](assets/cja-lp.png)
 
-Para saber mais sobre o espaço de trabalho do Customer Journey Analytics e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home).
+Para saber mais sobre o espaço de trabalho do Customer Journey Analytics e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Taxa de conversão da landing page {#lp-conversion}
 
@@ -67,7 +67,7 @@ O gráfico **[!UICONTROL Desempenho da página de aterrissagem ao longo do tempo
 
 * **[!UICONTROL Conversão da página de aterrissagem]**: número de pessoas que interagiram com a página de aterrissagem, por exemplo, inscritas em um formulário, em relação ao número total de visitas.
 
-## Desempenho da página de destino {#lp-performance}
+## Desempenho da landing page {#lp-performance}
 
 ![](assets/cja-lp-performance.png)
 

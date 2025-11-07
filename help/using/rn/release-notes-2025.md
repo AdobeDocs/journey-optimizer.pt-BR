@@ -42,7 +42,7 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <li><strong>Insights e oportunidades de experimentos de IA:</strong> vá além das leituras estatísticas com insights e recomendações orientados por IA generativa. Cada experimento agora apresenta oportunidades acionáveis e completas com lógica de apoio para que as equipes possam decidir com mais confiança o que testar a seguir.</li>
 <li><strong>Suporte a MAB (Multi-Armed Bandit) no Journey Optimizer:</strong> maximize o impacto enquanto reduz o tráfego desperdiçado com experimentos de Multi-Armed Bandit. Em vez de dividir públicos-alvo uniformemente, o MAB aloca automaticamente mais visitantes para as variações de melhor desempenho em tempo real, para que você possa entregar melhores experiências a mais clientes enquanto ainda aprende o que funciona.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">documentação detalhada</a></p>
+<p>Para mais informações, consulte a <a href="https://experienceleague.adobe.com/pt-br/docs/experimentation-accelerator/using/overview">documentação detalhada</a></p>
 <p>Data de disponibilidade: 3 de outubro de 2025</p>
 </td>
 </tr>

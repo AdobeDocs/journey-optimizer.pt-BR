@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -46,7 +46,7 @@ As políticas de decisão são containers para suas ofertas que aproveitam o mec
 
 >[!AVAILABILITY]
 >
->Por enquanto, as políticas de decisão estão disponíveis para todos os clientes para o Canal de experiência baseado em código. Eles estão disponíveis para o canal de email como uma Disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+>Por enquanto, as políticas de decisão estão disponíveis para todos os clientes para o Canal de experiência baseado em código. Eles estão disponíveis para o canal de email como uma Disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 ## Principais etapas {#key}
 

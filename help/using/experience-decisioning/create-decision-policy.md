@@ -41,7 +41,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos seus clientes, adic
 
 >[!AVAILABILITY]
 >
->Por enquanto, as políticas de decisão estão disponíveis para todos os clientes para o canal de **Experiência baseada em código**. Eles estão disponíveis para o canal **Email** como uma Disponibilidade Limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+>Por enquanto, as políticas de decisão estão disponíveis para todos os clientes para o canal de **Experiência baseada em código**. Eles estão disponíveis para o canal **Email** como uma Disponibilidade Limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 ## Adicionar uma política de decisão {#add}
 

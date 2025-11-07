@@ -4,10 +4,10 @@ description: Saiba como aproveitar as ferramentas de conflito e priorização do
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 88%
 
 ---
 
@@ -68,3 +68,12 @@ Os conjuntos de regras permitem **agrupar várias regras em conjuntos de regras*
 * **Ativações simultâneas em jornadas de qualificação de público-alvo**
 
   Quando várias jornadas de qualificação de público-alvo são ativadas pelo mesmo evento de qualificação de público-alvo, as contagens de limite de entrada não serão precisas. Se as contagens estiverem abaixo do limite, a jornada continuará a arbitrar, mas não poderá obter as contagens mais atualizadas com ativações simultâneas.
+
+## Recursos adicionais
+
+* **[Gerenciar conflitos](conflicts.md)** - Saiba como identificar e resolver conflitos entre campanhas e jornadas sobrepostas.
+* **[Definir pontuações de prioridade](priority-scores.md)** - Entenda como atribuir e usar pontuações de prioridade para controlar a precedência de entrega de mensagens.
+* **[Configurar limite de frequência](channel-capping.md)** - Saiba como definir limites de frequência de nível de canal para evitar mensagens excessivas.
+* **[Criar conjuntos de regras](rule-sets.md)** - Saiba como criar regras de negócios para gerenciamento avançado de conflitos e governança de mensagens.
+* **[limite específico da Jornada](journey-capping.md)** - Configure regras de limite no nível da jornada para controlar a frequência de mensagens no jornada.
+* **[Tutoriais sobre gerenciamento de conflitos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre gerenciamento de conflitos e priorização.

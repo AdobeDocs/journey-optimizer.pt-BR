@@ -11,7 +11,7 @@ exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -69,7 +69,7 @@ A tabela **[!UICONTROL Motivos de Erro]** permite identificar os erros específi
 
 ## Motivos para exclusão {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 A tabela **[!UICONTROL Motivos da exclusão]** mostra visualmente os diversos fatores que levaram à exclusão de perfis de usuário do público-alvo direcionado, impedindo-o de receber suas mensagens de correspondência direta.
 

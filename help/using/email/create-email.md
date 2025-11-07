@@ -92,7 +92,7 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
    >[!AVAILABILITY]
    >
-   >Por enquanto, a criação de políticas de decisão por e-mail está disponível em Disponibilidade limitada. Entre em contato com o seu representante da Adobe para obter acesso.
+   >Por enquanto, a criação de políticas de decisão por e-mail está disponível em Disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 1. Na seção **[!UICONTROL Cabeçalho]**, verifique os campos **[!UICONTROL Do nome]**, **[!UICONTROL Do email]** e **[!UICONTROL Cco]**. Eles são configurados na configuração de email selecionada. [Saiba mais](email-settings.md) <!--check if same for journey-->
 

@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 31fcdf7e0cb63df24b01be13b2a4a8822768e1b7
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Use a guia **[!UICONTROL Público-alvo]** para definir o público da campanha.
 
 ## Selecione o tipo de identidade
 
-No campo **[!UICONTROL Tipo de identidade]**, escolha o tipo de chave a ser usado para identificar os indivíduos do público-alvo selecionado. Você pode usar um tipo de identidade existente ou criar um novo usando o Serviço de identidade da Adobe Experience Platform. Os namespaces de Identidade Padrão estão listados em [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+No campo **[!UICONTROL Tipo de identidade]**, escolha o tipo de chave a ser usado para identificar os indivíduos do público-alvo selecionado. Você pode usar um tipo de identidade existente ou criar um novo usando o Serviço de identidade da Adobe Experience Platform. Os namespaces de Identidade Padrão estão listados em [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
 Somente um tipo de identidade é permitido por campanha. Indivíduos pertencentes a um segmento que não tem o tipo de identidade selecionado entre suas diferentes identidades não podem ser alvos da campanha. Saiba mais sobre tipos de identidade e namespaces na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target="_blank"}.
 
@@ -51,7 +51,7 @@ Para ativar a criação de perfil na execução da campanha, alterne a opção *
 >
 >Perfis desconhecidos são criados no **Conjunto de Dados de Perfil de Mensagens Interativas do AJO**, em três namespaces padrão (email, telefone e ECID), respectivamente, para cada canal de saída (Email, SMS e Push). No entanto, se você estiver usando um namespace personalizado, a identidade será criada com o mesmo namespace personalizado.
 >
->A criação de perfil na execução não está disponível para [campanhas de Alta Taxa de Transferência](../campaigns/api-triggered-high-throughput.md), pois esse modo não depende de perfis do Adobe: o sistema não verificará se os perfis existem ou não.
+>A criação de perfil na execução não está disponível para [campanhas de Alta Taxa de Transferência](../campaigns/api-triggered-high-throughput.md), pois esse modo não depende de perfis do Adobe. O sistema não verificará se os perfis existem ou não.
 
 ## Habilitar webhooks {#webhook}
 

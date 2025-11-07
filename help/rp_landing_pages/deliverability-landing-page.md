@@ -20,7 +20,7 @@ A capacidade de entrega de email tem a ver com garantir que seus emails cheguem 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução à capacidade de entrega de email
 
@@ -30,7 +30,7 @@ Saiba mais sobre os conceitos, as práticas recomendadas e as ferramentas para o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Noções básicas sobre listas de supressão
 
@@ -40,7 +40,7 @@ Descubra como as listas de supressão protegem a reputação do remetente e melh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Conformidade com o novo requisito DMARC
 

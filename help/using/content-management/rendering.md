@@ -1,5 +1,5 @@
 ---
-title: Testar a renderização do email
+title: Testar o e-mail rendering
 description: Saiba como testar a renderização de email.
 feature: Preview
 role: User
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 ---
 
-# Testar a renderização do email {#email-rendering}
+# Testar o e-mail rendering {#email-rendering}
 
 Você pode aproveitar sua conta do **Litmus** no [!DNL Journey Optimizer] para visualizar instantaneamente sua **renderização de email** em clientes de email populares. Em seguida, você pode garantir que seu conteúdo de email tenha uma ótima aparência e funcione corretamente em cada caixa de entrada.
 

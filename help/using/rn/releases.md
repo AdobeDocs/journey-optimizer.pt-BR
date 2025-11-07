@@ -93,7 +93,7 @@ Você pode assinar **alertas por email e no produto** para lançamentos de produ
 
 Você encontrará abaixo Perguntas frequentes sobre o ciclo de lançamento do Adobe Journey Optimizer.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ Quando as versões do Adobe Journey Optimizer estão programadas?
 

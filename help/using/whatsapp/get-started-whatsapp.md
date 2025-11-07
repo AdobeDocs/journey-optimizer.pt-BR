@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,13 @@ O vídeo abaixo mostra como integrar o WhatsApp como um canal nativo ao Adobe Jo
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470249?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
+
+## Recursos adicionais de aprendizado
+
+Explore mais tutoriais em vídeo sobre mensagens e configuração do WhatsApp.
+
+➡️ [Tutoriais do canal do WhatsApp](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
 

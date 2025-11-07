@@ -20,7 +20,7 @@ A criação de públicos-alvo no Adobe Journey Optimizer permite definir, gerenc
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar definições de segmento no Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Saiba como definir segmentos de público-alvo, incluindo instruções passo a pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Introdução à composição de público-alvo
 
@@ -40,7 +40,7 @@ Descubra como criar fluxos de trabalho que combinam, enriquecem e gerenciam os p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
 
 Como importar públicos-alvo por meio do upload de um CSV personalizado
 
@@ -50,7 +50,7 @@ Descubra como importar públicos-alvo por meio de arquivos CSV e mapear atributo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Composição de público-alvo federado
 

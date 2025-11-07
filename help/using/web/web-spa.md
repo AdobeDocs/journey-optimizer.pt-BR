@@ -35,7 +35,7 @@ Uma exibição pode ser definida como um site inteiro ou um grupo de elementos v
 
 As exibições XDM podem ser usadas no Adobe [!DNL Journey Optimizer] para capacitar os profissionais de marketing a executar campanhas de personalização e experimentação da Web em SPAs por meio do editor visual da Web. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR){target="_blank"}
 
-Para acessar e criar exibições na interface do usuário do [!DNL Journey Optimizer], siga as etapas listadas em [esta seção](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR#implement-xdm-views){target="_blank"}.
+Para acessar e criar exibições na interface do usuário do [!DNL Journey Optimizer], siga as etapas listadas em [esta seção](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Descobrir exibições no web designer {#discover-views}
 
@@ -90,4 +90,4 @@ Este vídeo explica como:
 * Aplicar modificações de site em várias exibições ou em todas as que foram descobertas
 * Realizar ações em massa em modificações
 
->[!VIDEO](https://video.tv.adobe.com/v/3446890/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

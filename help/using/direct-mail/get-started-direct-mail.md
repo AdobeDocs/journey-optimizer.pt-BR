@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '236'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 76%
 
 ---
 
@@ -33,5 +33,13 @@ As principais etapas para enviar mensagens de correspondência direta são as se
 >Mensagens de correspondência direta só podem ser criadas no contexto de campanhas programadas. Não estão disponíveis para uso em campanhas orquestradas e acionadas por API ou em jornadas.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
+
+## Recursos adicionais
+
+* **[Criar correspondência direta](create-direct-mail.md)** - Saiba como criar entregas de correspondência direta e configurar arquivos de extração para canais offline.
+* **[Configurar canal de correspondência direta](direct-mail-configuration.md)** - Definir superfícies de correspondência direta e configurações de roteamento de arquivos.
+* **[Correspondência direta no jornada](direct-mail-journeys.md)** - Descubra como usar ações de correspondência direta nas jornadas do cliente.
+* **[Testar e enviar correspondência direta](test-send-direct-mail.md)** - Saiba como testar, validar e publicar suas entregas de correspondência direta.
+* **[Tutoriais de correspondência direta](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre recursos de correspondência direta e práticas recomendadas.
 
 

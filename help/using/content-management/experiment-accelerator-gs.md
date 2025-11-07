@@ -39,4 +39,4 @@ Os principais benefícios incluem:
 
 * **Collaboration perfeito**: compartilhe resultados facilmente e gerencie funções de equipe com alertas em tempo real.
 
-➡️ [Acessar a documentação do Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
+➡️ [Acessar a documentação do Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/pt-br/docs/experimentation-accelerator/using/overview)

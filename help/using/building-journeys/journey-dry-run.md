@@ -122,7 +122,7 @@ Os links para as últimas 24 horas e relatórios de todos os tempos estão dispo
 1. Clique em **Voltar ao rascunho** para confirmar.
 
 
-## Proteções e limitações {#journey-dry-run-limitations}
+## Medidas de proteção e limitações {#journey-dry-run-limitations}
 
 * Os perfis no modo simulação são contados em perfis acionáveis
 * Jornadas no modo simulação são contadas para a cota de jornada ativa
@@ -149,4 +149,4 @@ Ao analisar **métricas de relatórios do jornada** usando o serviço Adobe Expe
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464687/?learn=on&enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

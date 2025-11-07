@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -149,7 +149,8 @@ Antes de trabalhar com campanhas, certifique-se de analisar os pré-requisitos a
 
    1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
 
-      Se o usuário não foi criado anteriormente, consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users).
+      Se o usuário não tiver sido criado anteriormente, consulte a [documentação sobre Adicionar usuários](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users){target="_blank"}
+
 
   O usuário deve receber um email de redirecionamento para sua instância.
 

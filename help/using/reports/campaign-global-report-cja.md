@@ -84,9 +84,9 @@ Observe que as métricas variam com base nos canais usados na campanha.
 
 ![](assets/cja-campaign-funnel.png)
 
-O gráfico **[!UICONTROL Resultados do funil da campanha]** apresenta uma análise detalhada do envolvimento dos seus perfis com as suas mensagens, oferecendo informações valiosas sobre como vários perfis interagiram com o seu conteúdo.
+O gráfico de **[!UICONTROL resultados do Campaign funnel]** apresenta uma análise detalhada do engajamento dos seus perfis com as suas mensagens, oferecendo informações valiosas sobre como vários perfis interagiram com o seu conteúdo.
 
-+++ Saiba mais sobre as métricas de resultados do funil do Campaign
++++ Saiba mais sobre as métricas de resultados do Campaign funnel
 
 * **[!UICONTROL Entregues]**: número de emails enviados com êxito em relação ao número total de mensagens enviadas.
 

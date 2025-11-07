@@ -20,7 +20,7 @@ Os relatórios de jornada no Adobe Journey Optimizer fornecem ferramentas eficie
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Análise de relatórios de jornada
 
@@ -30,7 +30,7 @@ Saiba como analisar e otimizar o desempenho da jornada usando métricas, ferrame
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Relatórios de jornada baseados em código
 
@@ -40,7 +40,7 @@ Entenda e analise métricas para engajamento em experiências baseadas em códig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Engajamento do cartão de conteúdo
 
@@ -50,7 +50,7 @@ Saiba como medir e avaliar o engajamento do usuário com cartões de conteúdo u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Métricas de correspondência direta
 
@@ -60,7 +60,7 @@ Analise e interprete as métricas principais de campanhas de correspondência di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
 Relatório de jornada de email
 
@@ -70,7 +70,7 @@ Obtenha insights sobre desempenho de email, engajamento e métricas de entrega p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Insights de mensagens no aplicativo
 
