@@ -10,10 +10,10 @@ level: Intermediate
 keywords: action, custom, API, jornada, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 21%
+source-wordcount: '427'
+ht-degree: 20%
 
 ---
 
@@ -29,6 +29,8 @@ Use ações personalizadas para habilitar a conexão com um sistema de terceiros
 Saiba mais sobre ações personalizadas em [esta seção](../action/action.md).
 
 Saiba como criar e configurar uma ação personalizada em [esta página](../action/about-custom-action-configuration.md).
+
+Saiba como usar respostas de chamada de API de ações personalizadas para personalização em [esta página](../action/action-response.md).
 
 ## Consentimento e governança de dados {#privacy}
 
