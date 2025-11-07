@@ -140,7 +140,7 @@ Saiba como usar o Relatório de tempo integral no Adobe Journey Optimizer de man
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422698?captions=por_br&learn=on)
 
 +++
 
