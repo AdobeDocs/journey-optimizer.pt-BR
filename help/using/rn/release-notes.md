@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b24c89f966fe6eeb58d019bc85cedc89ee13f113
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 84%
+source-wordcount: '1456'
+ht-degree: 79%
 
 ---
 
@@ -31,6 +31,29 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 Os novos recursos e aprimoramentos lançados nas últimas semanas estão listados abaixo, com a data de disponibilidade. Elas serão agrupadas com o conteúdo das próximas notas de versão no final do mês. Consulte também as [notas de versão mais recentes abaixo](#latest-rn).
 
 ### Novos recursos {#features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Novos alertas de jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Três novos alertas de jornada agora estão disponíveis para ajudá-lo a monitorar e rastrear os eventos de ciclo de vida da jornada e o desempenho da ação personalizada:</p>
+<ul>
+<li><strong>Jornada publicada</strong>: receba notificações quando uma jornada for publicada por um profissional na tela de jornada.</li>
+<li><strong>Jornada concluída</strong>: obtenha alertas quando uma jornada for concluída, com definições específicas baseadas no tipo de jornada (Público de Leitura ou Acionado por Evento).</li>
+<li><strong>Limite de Ação Personalizada Acionado</strong>: seja notificado quando o limite for ativado em um ponto de extremidade de ação personalizada.</li>
+</ul>
+<p>Esses alertas podem ser assinados no nível da organização ou para jornadas específicas.</p>
+<p>Para obter mais informações, consulte a <a href="../reports/alerts.md#journey-alerts">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 5 de novembro de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

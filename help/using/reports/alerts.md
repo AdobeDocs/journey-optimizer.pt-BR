@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 1%
+source-wordcount: '2153'
+ht-degree: 2%
 
 ---
 
@@ -32,6 +32,7 @@ Além dessas, quando um determinado conjunto de condições é atingido, mensage
 
 No menu esquerdo, em **[!UICONTROL Administração]**, clique em **[!UICONTROL Alertas]**. Vários alertas pré-configurados para o Journey Optimizer estão disponíveis na guia **Procurar**.
 
+![](assets/updated-alerts-list.png){width=50%}
 
 * Alertas específicos de jornadas:
 
@@ -39,10 +40,13 @@ No menu esquerdo, em **[!UICONTROL Administração]**, clique em **[!UICONTROL A
    * o alerta [Taxa de Erro de Ação Personalizada Excedida](#alert-custom-action-error-rate) (substitui o alerta anterior Falha de Ação Personalizada de Jornada)
    * o alerta [Taxa de Descarte de Perfil Excedida](#alert-discard-rate)
    * o alerta [Taxa de Erro de Perfil Excedida](#alert-profile-error-rate)
+   * o alerta [Jornada publicada](#alert-journey-published)
+   * o alerta [Jornada concluída](#alert-journey-finished)
+   * o alerta [Limite de ação personalizada](#alert-custom-action-capping) foi acionado
 
 * Alertas específicos para configuração de canal:
 
-   * o alerta [&#x200B; do registro DNS de domínio do AJO &#x200B;](#alert-dns-record-missing)está ausente
+   * o alerta [ do registro DNS de domínio do AJO ](#alert-dns-record-missing)está ausente
    * alerta de [falha na configuração do canal do AJO](#alert-channel-config-failure)
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
@@ -71,7 +75,7 @@ Para assinar/cancelar a assinatura de um alerta para todas as jornadas e campanh
 
 1. Use o mesmo método para **[!UICONTROL Cancelar inscrição]**.
 
-Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
+Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
 
 ### Assinatura unitária {#unitary-subscription}
 
@@ -81,13 +85,13 @@ Para assinar/cancelar a assinatura de um alerta para uma jornada específica, si
 
    ![Assinando um alerta para uma jornada específica](assets/subscribe-journey-alert.png){width=75%}
 
-1. Escolha os alertas. Os seguintes alertas estão disponíveis: [Taxa de Descarte de Perfil Excedida](#alert-discard-rate), [Taxa de Erro de Ação Personalizada Excedida](#alert-custom-action-error-rate) e [Taxa de Erro de Perfil Excedida](#alert-profile-error-rate).
+1. Escolha os alertas. Os seguintes alertas estão disponíveis: [Taxa de Descarte de Perfil Excedida](#alert-discard-rate), [Taxa de Erro de Ação Personalizada Excedida](#alert-custom-action-error-rate), [Taxa de Erro de Perfil Excedida](#alert-profile-error-rate), [Jornada Publicada](#alert-journey-published), [Jornada Concluída](#alert-journey-finished) e [Limite de Ação Personalizada Disparado](#alert-custom-action-capping).
 
 1. Para cancelar a inscrição em um alerta, desmarque-o na mesma tela.
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Jornada alertas {#journey-alerts}
 
@@ -101,8 +105,6 @@ Todas as notificações de jornada disponíveis na interface do usuário estão 
 ### Falha ao ler o acionador de público-alvo {#alert-read-audiences}
 
 Este alerta avisa se uma atividade **Ler público-alvo** não processou nenhum perfil 10 minutos após o horário agendado de execução. Essa falha pode ser causada por problemas técnicos ou porque o público-alvo está vazio. Se essa falha for causada por problemas técnicos, esteja ciente de que ainda podem ocorrer tentativas, dependendo do tipo de problema (por exemplo: se a criação do trabalho de exportação falhar, tentaremos novamente a cada 10mn para um máximo de 1h).
-
-![](assets/read-audience-alert.png)
 
 Os alertas sobre atividades de **Ler público-alvo** se aplicam somente a jornadas recorrentes. As atividades de **Ler Público** em jornadas ativas com agendamento para execução de **Uma Vez** ou **Assim que possível** são ignoradas.
 
@@ -153,6 +155,42 @@ Esse alerta avisará se a proporção de perfis com erro em relação aos perfis
 Clique no nome do alerta para verificar os detalhes e a configuração do alerta.
 
 Para solucionar problemas de erro de perfil, consulte os dados na etapa de eventos para entender onde e por que o perfil falhou na jornada.
+
+### Jornada publicada {#alert-journey-published}
+
+Esse alerta notifica quando uma jornada foi publicada por um profissional na tela de jornada.
+
+Este é um alerta informativo que ajuda você a rastrear os eventos de ciclo de vida da jornada em sua organização. Não há critérios de resolução, pois esta é uma notificação única.
+
+### Jornada concluída {#alert-journey-finished}
+
+Este alerta notifica quando uma jornada é concluída. A definição de &quot;concluído&quot; varia dependendo do tipo de jornada:
+
+| Tipo de jornada | Recorrente? | Tem data de término? | Definição de &quot;concluído&quot; |
+|--------------|------------|---------------|--------------------------|
+| Público-alvo de leitura | Não | n/d | 91 dias após o início da execução |
+| Público-alvo de leitura | Sim | Não | 91 dias após o início da execução |
+| Público-alvo de leitura | Sim | Sim | Quando a data final é alcançada |
+| Jornada acionada por evento | n/d | Sim | Quando a data final é alcançada |
+| Jornada acionada por evento | n/d | Não | Quando fechado na interface do usuário ou por meio da API |
+
+Este é um alerta informativo que ajuda a monitorar a conclusão da jornada. Não há critérios de resolução, pois esta é uma notificação única.
+
+### Limite de ação personalizada acionado {#alert-custom-action-capping}
+
+Esse alerta avisa quando o limite é acionado em uma ação personalizada. O limite é usado para limitar o número de chamadas enviadas para um ponto de extremidade externo para evitar a sobrecarga do ponto de extremidade.
+
+Clique no nome do alerta para verificar os detalhes e a configuração do alerta.
+
+Quando o limite é acionado, significa que o número máximo de chamadas de API foi atingido dentro do período definido e outras chamadas estão sendo limitadas ou colocadas em fila. Saiba mais sobre como limitar ações personalizadas nesta [página](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices).
+
+Esse alerta é resolvido quando o limite não está mais ativo ou quando nenhum perfil atinge a ação personalizada durante o período de avaliação.
+
+Para solucionar problemas de limite:
+
+* Revise a configuração de limitação em sua ação personalizada para garantir que os limites sejam apropriados para seu caso de uso.
+* Verifique se o volume de chamadas de API é maior do que o esperado e considere ajustar o design da jornada ou as configurações de limite.
+* Monitore o endpoint externo para garantir que ele consiga lidar com a carga esperada.
 
 ## Alertas de configuração {#configuration-alerts}
 
