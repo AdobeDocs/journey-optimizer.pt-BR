@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expressão, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c910664b343f8143579e4a22ff101d38476c4585
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '866'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Antes de começar, reveja as seguintes restrições e diretrizes:
 
 * **Nenhuma PII nos conjuntos de dados** - Os conjuntos de dados habilitados para pesquisa não devem conter informações pessoais identificáveis (PII).
 
-* &#x200B;
+* 
    * **Risco de exclusão** - Os conjuntos de dados usados na personalização não estão protegidos contra exclusão. Você deve rastrear quais conjuntos de dados estão sendo usados para garantir que eles não sejam removidos.
 
 * **Tipo de esquema** - Os conjuntos de dados devem ser associados a um esquema que seja **NOT** do tipo Perfil ou Evento.
@@ -48,6 +48,8 @@ Antes de começar, reveja as seguintes restrições e diretrizes:
   **Lote 3**: Sku7, Sku8, Sku9, Sku10
 
   Se você excluir o **Lote 1**, Sku1, Sku2 e Sku3 serão removidos do repositório de pesquisa. Os dados de pesquisa resultantes conterão: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
+
+* **Nenhuma pesquisa encadeada** - As pesquisas de conjunto de dados não podem ser encadeadas. Em outras palavras, não é possível usar o resultado de uma pesquisa como uma variável para, em seguida, se tornar a chave para executar uma segunda pesquisa.
 
 ### Direito ao serviço de pesquisa
 
