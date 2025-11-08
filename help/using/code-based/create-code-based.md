@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 9%
@@ -123,9 +123,9 @@ Para editar o conteúdo de sua experiência baseada em código, siga as etapas a
 
 1. Você pode adicionar fragmentos de expressão HTML ou JSON, se necessário. [Saiba como](../personalization/use-expression-fragments.md)
 
-   Também é possível salvar parte do conteúdo do código como fragmento. [Saiba como](../content-management/fragments.md#save-as-expression-fragment)
+   Também é possível salvar parte do conteúdo do código como fragmento. [Saiba como](../content-management/fragments.md#visual-expression)
 
-1. Com experiências baseadas em código, é possível usar o recurso Decisão. Selecione o ícone **[!UICONTROL Política de decisão]** na barra esquerda e clique em **[!UICONTROL Adicionar política de decisão]**. [Saiba mais](../experience-decisioning/create-decision.md#add-decision)
+1. Com experiências baseadas em código, é possível usar o recurso Decisão. Selecione o ícone **[!UICONTROL Política de decisão]** na barra esquerda e clique em **[!UICONTROL Adicionar política de decisão]**. [Saiba mais](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -135,7 +135,7 @@ Para editar o conteúdo de sua experiência baseada em código, siga as etapas a
 
    <!--![](assets/code-based-campaign-show-decisioning.png)-->
 
-   As etapas detalhadas para criar uma política de decisão são apresentadas em [esta seção](../experience-decisioning/create-decision.md#add-decision).
+   As etapas detalhadas para criar uma política de decisão são apresentadas em [esta seção](../experience-decisioning/create-decision.md#create-decision).
 
 1. Clique em **[!UICONTROL Salvar e fechar]** para confirmar as alterações.
 
@@ -145,4 +145,4 @@ Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar con
 
 O vídeo abaixo mostra como criar uma campanha de experiência baseada em código, configurar suas propriedades, testá-la e publicá-la.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449458/?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 18%
@@ -131,7 +131,7 @@ Na lista de ofertas, você pode selecionar a oferta para exibir suas propriedade
 
 ![](../assets/offer_created.png)
 
-Selecione o botão **[!UICONTROL Editar]** para voltar para o modo de edição de oferta, no qual você pode modificar os [detalhes](#create-offer), [representações](#representations) da oferta, bem como editar as [regras de qualificação e restrições](#eligibility).
+Selecione o botão **[!UICONTROL Editar]** para voltar para o modo de edição de oferta, no qual você pode modificar os [detalhes](#create-offer), [representações](add-representations.md#representations) da oferta, bem como editar as [regras de qualificação e restrições](add-constraints.md#eligibility).
 
 Selecione uma oferta aprovada e clique em **[!UICONTROL Desfazer aprovação]** para retornar o status da oferta para **[!UICONTROL Rascunho]**.
 
@@ -166,10 +166,10 @@ Depois que uma oferta é criada, você pode clicar no nome na lista.
 
 ![](../assets/offer_click-name.png)
 
-Isso permite que você acesse informações detalhadas dessa oferta. Selecione a guia **[!UICONTROL Log de alterações]** para [monitorar todas as alterações](../get-started/user-interface.md#monitoring-changes) feitas na oferta.
+Isso permite que você acesse informações detalhadas dessa oferta. Selecione a guia **[!UICONTROL Log de alterações]** para [monitorar todas as alterações](../get-started/user-interface.md#changes-logs) feitas na oferta.
 
 ![](../assets/offer_information.png)
 
 ## Tutorial em vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341360?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

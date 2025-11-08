@@ -10,7 +10,7 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 24%
@@ -124,4 +124,4 @@ Saiba mais sobre relatórios do jornada nesta [seção](../reports/live-report.m
 
 >[!NOTE]
 >
->Se você precisar modificar uma jornada do **live**, [crie uma nova versão](journey-ui.md#journey-versions) da jornada.
+>Se você precisar modificar uma jornada do **live**, [crie uma nova versão](journey-ui.md#journey-filter) da jornada.

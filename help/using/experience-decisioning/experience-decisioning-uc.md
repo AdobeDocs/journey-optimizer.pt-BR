@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 4%
@@ -124,7 +124,7 @@ Depois de configurar as duas estratégias de seleção, crie uma campanha de exp
 
 1. Salve as alterações e clique em **[!UICONTROL Criar]**. A nova decisão foi adicionada em **[!UICONTROL Política de decisão]**.
 
-1. Clique no botão **[!UICONTROL Inserir política]**. O código correspondente à política de decisão é adicionado. Em seguida, adicione todos os atributos desejados ao código, incluindo atributos de perfil. [Saiba mais](create-decision.md#use-decision-policy)
+1. Clique no botão **[!UICONTROL Inserir política]**. O código correspondente à política de decisão é adicionado. Em seguida, adicione todos os atributos desejados ao código, incluindo atributos de perfil. [Saiba mais](create-decision.md#create-decision)
 
    ![](assets/exd-uc-experiment-insert-policy.png){width="90%"}
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 <!--Do not modify - Legal Review Done -->
 
-No [!DNL Adobe Journey Optimizer], ao definir uma nova configuração de canais de email, após [selecionar um subdomínio](email-settings.md#subdomains-and-ip-pools) da lista, a opção **[!UICONTROL Habilitar cancelamento de assinatura na lista]** é exibida. Esta opção está habilitada por padrão.
+No [!DNL Adobe Journey Optimizer], ao definir uma nova configuração de canais de email, após [selecionar um subdomínio](email-settings.md#ip-pools) da lista, a opção **[!UICONTROL Habilitar cancelamento de assinatura na lista]** é exibida. Esta opção está habilitada por padrão.
 
 ![](assets/preset-list-unsubscribe.png)
 

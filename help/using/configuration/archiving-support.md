@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: arquivamento, mensagens, HIPAA, CCO, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -123,7 +123,7 @@ Para acessar este conjunto de dados por meio da interface, selecione **[!UICONTR
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-Para executar consultas nesse conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
+Para executar consultas nesse conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -148,7 +148,7 @@ Dependendo das informações que você está procurando, é possível executar a
 
    >[!NOTE]
    >
-   >Para obter o parâmetro `<journey version id>`selecione a [versão do jornada](../building-journeys/journey.md#journey-versions) correspondente no menu **[!UICONTROL gerenciamento de Jornadas]** > **[!UICONTROL Jornada]**. O ID da versão do jornada é exibido no final do URL exibido no navegador da Web.
+   >Para obter o parâmetro `<journey version id>`selecione a [versão do jornada](../building-journeys/journey.md#uc-journey) correspondente no menu **[!UICONTROL gerenciamento de Jornadas]** > **[!UICONTROL Jornada]**. O ID da versão do jornada é exibido no final do URL exibido no navegador da Web.
    >
    >![](assets/preset-bcc-action-id.png)
 
@@ -234,7 +234,7 @@ O cabeçalho `x-message-profile-id` também é armazenado nos seguintes conjunto
 
 * Para acessar esses conjuntos de dados por meio da interface, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Conjuntos de dados]** > **[!UICONTROL Procurar]**. Saiba mais sobre como acessar conjuntos de dados em [esta seção](../data/get-started-datasets.md#access-datasets).
 
-* Use o Editor de Consultas fornecido pelo [Serviço de Consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
+* Use o Editor de Consultas fornecido pelo [Serviço de Consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
 
 Abaixo estão alguns exemplos de consultas que você pode executar para recuperar informações correspondentes às suas cópias CCO.
 

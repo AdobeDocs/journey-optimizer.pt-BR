@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 90%
@@ -65,7 +65,7 @@ Se você receber um erro ao enviar a configuração de email, isto significa que
 
 >[!NOTE]
 >
->Se o subdomínio do endereço inserido for um domínio [totalmente delegado](../configuration/delegate-subdomain.md#full-subdomain-delegation) à Adobe, entre em contato com o representante da Adobe.
+>Se o subdomínio do endereço inserido for um domínio [totalmente delegado](../configuration/delegate-subdomain.md#set-up-subdomain) à Adobe, entre em contato com o representante da Adobe.
 
 ## Email de encaminhamento {#forward-email}
 

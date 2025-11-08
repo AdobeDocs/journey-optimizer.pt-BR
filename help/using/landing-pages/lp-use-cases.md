@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: página de aterrissagem, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 13%
@@ -48,7 +48,7 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Publicar](create-lp.md#publish) a página de aterrissagem.
+1. [Publicar](create-lp.md#publish-landing-page) a página de aterrissagem.
 
 1. Em uma [jornada](../building-journeys/journey.md), adicione uma atividade **Email** para direcionar tráfego para a página de aterrissagem de registro.
 
@@ -127,7 +127,7 @@ Para permitir que os recipients de um email cancelem a inscrição de suas comun
    >
    >Certifique-se de fazer referência à subpágina na seção **[!UICONTROL Call to action]** da página principal do componente **[!UICONTROL Formulário]**. [Saiba mais](design-lp.md)
 
-1. Depois de configurar e definir o conteúdo das suas páginas, [publique](create-lp.md#publish) a página de aterrissagem.
+1. Depois de configurar e definir o conteúdo das suas páginas, [publique](create-lp.md#publish-landing-page) a página de aterrissagem.
 
 1. [Criar uma mensagem de email](../email/get-started-email-design.md) em uma jornada.
 
@@ -163,7 +163,7 @@ As informações de recusa são armazenadas no **Conjunto de dados de serviço d
 
 >[!NOTE]
 >
->Se o método de mesclagem para sua política de mesclagem padrão do [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Perfis]** for **[!UICONTROL Precedência do conjunto de dados]**, habilite o **[!UICONTROL Conjunto de dados do Serviço de Consentimento da AJO]** e priorize-o na política de mesclagem. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR#dataset-precedence-profile){target="_blank"}
+>Se o método de mesclagem para sua política de mesclagem padrão do [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Perfis]** for **[!UICONTROL Precedência do conjunto de dados]**, habilite o **[!UICONTROL Conjunto de dados do Serviço de Consentimento da AJO]** e priorize-o na política de mesclagem. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Mesmo se nenhum lote tiver sido adicionado a esse conjunto de dados, ele ainda conterá as informações de aceitação/recusa.
 
@@ -171,7 +171,7 @@ As informações de recusa são armazenadas no **Conjunto de dados de serviço d
 
 **Consulte também:**
 
-* [Recusar com um clique](../email/email-opt-out.md#one-click-opt-out-link)
+* [Recusar com um clique](../email/email-opt-out.md#one-click-opt-out)
 * [Link para opção de não participação no cabeçalho do email](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
@@ -182,7 +182,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)
 
 * **Unsubscribe link in header**
 

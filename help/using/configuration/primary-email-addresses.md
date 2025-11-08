@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: principal, execução, e-mail, destino, perfil, otimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 20%
@@ -83,7 +83,7 @@ Substituir esse valor pode ser útil, por exemplo, para:
 * Teste o delivery. Você pode adicionar seu próprio endereço de email ou número de telefone: depois de publicar a jornada, o email, SMS ou mensagem de WhatsApp é enviado para você.
 * Enviar uma mensagem aos assinantes de uma lista. Saiba mais [neste caso de uso](../building-journeys/message-to-subscribers-uc.md).
 
-Ao adicionar uma ação de **[!UICONTROL Email]**, **[!UICONTROL SMS]** ou **[!UICONTROL WhatsApp]** a uma [jornada](../email/create-email.md#create-email-journey-campaign), o endereço de email ou número de telefone principal é exibido nos parâmetros avançados de jornada.
+Ao adicionar uma ação de **[!UICONTROL Email]**, **[!UICONTROL SMS]** ou **[!UICONTROL WhatsApp]** a uma [jornada](../email/create-email.md#create-email), o endereço de email ou número de telefone principal é exibido nos parâmetros avançados de jornada.
 
 Substitua esse valor usando o ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 25%
@@ -151,7 +151,7 @@ Para criar um conjunto de regras, siga as etapas abaixo.
    Informações detalhadas sobre como aplicar o conjunto de regras estão disponíveis nestas seções:
 
    * [Aplicar um conjunto de regras a uma jornada](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [Aplicar regras de limitação a ações de jornada e campanha](../conflict-prioritization/channel-capping.md#apply)
+   * [Aplicar regras de limitação a ações de jornada e campanha](../conflict-prioritization/channel-capping.md#apply-frequency-rule)
    * [Aplicar regras de horários de silêncio ao jornada e à campanha](../conflict-prioritization/quiet-hours.md#apply)
 
 ## Acessar e gerenciar conjuntos de regras {#access-rule-sets}
@@ -180,4 +180,4 @@ Seu status será alterado para **[!UICONTROL Inativo]** e a regra não se aplica
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

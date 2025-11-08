@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d21f22dcab625c4dd60d74468c7afdb29041a54d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 99%
@@ -407,7 +407,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Campanhas**
 
-   * **Controle de taxa em campanhas de saída**: agora é possível habilitar o controle de taxa para campanhas de saída (email, SMS, notificações por push), permitindo evitar a sobrecarga em sistemas downstream, como páginas de destino ou plataformas de atendimento ao cliente. [Leia mais](../campaigns/campaign-schedule.md#rate-control)
+   * **Controle de taxa em campanhas de saída**: agora é possível habilitar o controle de taxa para campanhas de saída (email, SMS, notificações por push), permitindo evitar a sobrecarga em sistemas downstream, como páginas de destino ou plataformas de atendimento ao cliente. [Leia mais](../campaigns/campaign-schedule.md#set-rate-control)
 
    * **Agendamento de campanha de ação**: os agendadores de campanha diários, semanais e mensais foram atualizados para fornecer controle mais detalhado sobre agendamentos recorrentes:
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração, subdomínio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 6%
@@ -70,7 +70,7 @@ Para definir subdomínios dinâmicos em uma configuração de canal de email, si
 
    ![](assets/surface-email-add-dynamic-subdomain.png)
 
-   <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the configuration. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
+   <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the configuration. [Learn more](email-settings.md#ip-pools)-->
 
 1. Defina todas as outras [configurações de email](email-settings.md) e [envie](../configuration/channel-surfaces.md#create-channel-surface) sua configuração.
 

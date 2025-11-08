@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 5%
@@ -94,7 +94,7 @@ Para criar um conjunto de regras de canal, siga estas etapas:
 
 1. Repita as etapas acima para adicionar quantas regras forem necessárias ao conjunto de regras.
 
-1. Quando a regra de limitação estiver pronta para ser aplicada a mensagens, ative o conjunto de regras e a regra em que ele foi adicionado. [Saiba como ativar conjuntos de regras](../conflict-prioritization/rule-sets.md#create)
+1. Quando a regra de limitação estiver pronta para ser aplicada a mensagens, ative o conjunto de regras e a regra em que ele foi adicionado. [Saiba como ativar conjuntos de regras](../conflict-prioritization/rule-sets.md#Create)
 
 ## Aplicar conjuntos de regras a uma mensagem {#apply-frequency-rule}
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

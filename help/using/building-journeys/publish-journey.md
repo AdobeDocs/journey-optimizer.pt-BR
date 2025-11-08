@@ -10,7 +10,7 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 42%
@@ -30,7 +30,7 @@ As etapas para publicar uma jornada são detalhadas abaixo:
 1. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Não é possível publicar uma jornada com erros.
 
    * Saiba como testar sua jornada em [esta página](testing-the-journey.md).
-   * Saiba como solucionar erros do jornada [nesta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+   * Saiba como solucionar erros do jornada [nesta seção](../building-journeys/troubleshooting.md#activity-errors).
 
 1. Para publicar a jornada, clique na opção **[!UICONTROL Publicar]**, localizada no menu suspenso no canto superior direito.
 
@@ -40,7 +40,7 @@ As etapas para publicar uma jornada são detalhadas abaixo:
 
    ![](assets/journeyuc1_18.png)
 
-Quando a jornada é publicada, ela está no modo **somente leitura**. No modo somente leitura, você só pode modificar os rótulos e as descrições da atividade, o nome da jornada e a descrição da jornada. Se precisar fazer modificações adicionais em uma jornada publicada, crie [uma nova versão](journey-ui.md#journey-versions) da jornada.
+Quando a jornada é publicada, ela está no modo **somente leitura**. No modo somente leitura, você só pode modificar os rótulos e as descrições da atividade, o nome da jornada e a descrição da jornada. Se precisar fazer modificações adicionais em uma jornada publicada, crie [uma nova versão](journey-ui.md#journey-filter) da jornada.
 
 Quando você interrompe uma jornada, ela é interrompida permanentemente. Todos os indivíduos que fluem pela jornada são permanentemente interrompidos e a jornada para de permitir novas entradas. Se precisar executar a jornada novamente, duplique-a e publique a nova jornada.
 
@@ -81,11 +81,11 @@ Ao publicar uma nova versão de uma jornada, a versão anterior encerra automati
 
 >[!NOTE]
 >
->Medidas de proteção e limitações específicas se aplicam ao controle de versão das jornadas. Saiba mais [nesta página](../start/guardrails.md#journey-versions-journey-versions-g).
+>Medidas de proteção e limitações específicas se aplicam ao controle de versão das jornadas. Saiba mais [nesta página](../start/guardrails.md#journey-versions-g).
 
 
 ## Vídeo tutorial {#video}
 
 Saiba como publicar uma jornada neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427939?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

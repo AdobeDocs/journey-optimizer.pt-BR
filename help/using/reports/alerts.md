@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2153'
 ht-degree: 2%
@@ -46,7 +46,7 @@ No menu esquerdo, em **[!UICONTROL Administração]**, clique em **[!UICONTROL A
 
 * Alertas específicos para configuração de canal:
 
-   * o alerta [&#x200B; do registro DNS de domínio do AJO &#x200B;](#alert-dns-record-missing)está ausente
+   * o alerta [ do registro DNS de domínio do AJO ](#alert-dns-record-missing)está ausente
    * alerta de [falha na configuração do canal do AJO](#alert-channel-config-failure)
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
@@ -56,7 +56,7 @@ Se ocorrer um comportamento inesperado e/ou se um determinado conjunto de condi�
 
 É possível assinar cada alerta individualmente na interface do usuário, seja globalmente, pelo menu **[!UICONTROL Alertas]** (consulte [Assinatura global](#global-subscription)), ou unitária para uma jornada específica (consulte [Assinatura unitária](#unitary-subscription)).
 
-Com base nas preferências do assinante, os alertas são enviados por email e/ou diretamente no centro de notificações da Journey Optimizer, no canto superior direito da interface do usuário (notificações no aplicativo). Selecione como você deseja receber esses alertas nas [!DNL Adobe Experience Cloud] **[!UICONTROL Preferências]**. [Saiba mais](../start/user-interface.md#in-product-alerts)
+Com base nas preferências do assinante, os alertas são enviados por email e/ou diretamente no centro de notificações da Journey Optimizer, no canto superior direito da interface do usuário (notificações no aplicativo). Selecione como você deseja receber esses alertas nas [!DNL Adobe Experience Cloud] **[!UICONTROL Preferências]**. [Saiba mais](../start/user-interface.md#in-product-uc)
 
 Quando um alerta é resolvido, os assinantes recebem uma notificação &quot;Resolvido&quot;. Os alertas são resolvidos após 1 hora para proteger contra a alternância de valores.
 
@@ -75,7 +75,7 @@ Para assinar/cancelar a assinatura de um alerta para todas as jornadas e campanh
 
 1. Use o mesmo método para **[!UICONTROL Cancelar inscrição]**.
 
-Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
+Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
 
 ### Assinatura unitária {#unitary-subscription}
 
@@ -91,7 +91,7 @@ Para assinar/cancelar a assinatura de um alerta para uma jornada específica, si
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Jornada alertas {#journey-alerts}
 

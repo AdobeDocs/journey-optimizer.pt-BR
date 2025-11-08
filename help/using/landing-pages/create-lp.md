@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 0db7f514a2604ad09fbd9863a51d3c86d69eac41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 23%
@@ -82,7 +82,7 @@ Depois de configurar e criar a [página principal](#configure-primary-page) e as
 >title="Definir as configurações da página principal"
 >abstract="A página principal é exibida imediatamente depois que os usuários clicam no link da landing page que consta em um email ou site."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=pt-BR" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
@@ -129,7 +129,7 @@ Para definir as configurações de página principal, siga as etapas abaixo.
 
    ![](assets/lp_expiry-date.png)
 
-<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-form-component#use-additional-data).
+<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-additional-data).
 
     ![](assets/lp_create-lp-additional-data.png)-->
 

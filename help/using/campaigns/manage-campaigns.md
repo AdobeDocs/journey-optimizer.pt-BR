@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 14%
@@ -29,7 +29,7 @@ ht-degree: 14%
 >title="Ação"
 >abstract="Esta seção lista todas as ações usadas na campanha orquestrada."
 
-As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**. Use as guias para procurar campanhas por tipo: **Ações** campanhas, **Campanhas acionadas por API** e **Campanhas orquestradas**. Saiba mais sobre os [tipos de campanhas](get-started-with-campaigns.md#get-started-with-campaigns). Os tipos disponíveis dependem do contrato de licença e das permissões.
+As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**. Use as guias para procurar campanhas por tipo: **Ações** campanhas, **Campanhas acionadas por API** e **Campanhas orquestradas**. Saiba mais sobre os [tipos de campanhas](get-started-with-campaigns.md#get-started-campaigns). Os tipos disponíveis dependem do contrato de licença e das permissões.
 
 >[!BEGINTABS]
 
@@ -66,7 +66,7 @@ A ![imagem que mostra o botão “Mais ações”](assets/do-not-localize/rule-b
 ![imagem mostrando o inventário de campanhas](assets/inventory-actions.png)
 
 * **[!UICONTROL Exibir o relatório de todos os tempos]** / **[!UICONTROL Exibir o relatório das últimas 24 horas]** - Acesse relatórios para medir e visualizar o impacto e o desempenho de suas campanhas. Saiba mais sobre [relatórios de campanha](../reports/campaign-global-report-cja.md).
-* **[!UICONTROL Editar marcas]** - Edita as marcas associadas à campanha. Saiba como [usar tags em suas campanhas](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL Editar marcas]** - Edita as marcas associadas à campanha. Saiba como [usar tags em suas campanhas](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL Duplicar]** - Use esta opção para duplicar uma campanha, por exemplo, para executar uma campanha Orquestrada que foi interrompida. [Saiba mais](#duplicate-a-campaign)
 * **[!UICONTROL Excluir]** - Use esta opção para excluir uma campanha. [Saiba mais](#delete-a-campaign)
 * **[!UICONTROL Arquivar]**: arquive a campanha. Todas as campanhas arquivadas são excluídas em uma programação contínua 30 dias após sua última data modificada. Esta ação está disponível para todas as campanhas, exceto as campanhas de **[!UICONTROL Rascunho]**. Saiba mais sobre [arquivamento de campanha](#archive-a-campaign).

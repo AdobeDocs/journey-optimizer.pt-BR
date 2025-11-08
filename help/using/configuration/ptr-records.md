@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomínio, PTR, registros, DNS, domínio, email
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 11%
@@ -64,13 +64,13 @@ Ao criar subdomínios adicionais, você precisa modificar um ou mais registros P
 
 ### Subdomínios totalmente delegados {#fully-delegated-subdomains}
 
-Para editar um registro PTR com um subdomínio que esteja [totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) à Adobe, siga as etapas abaixo.
+Para editar um registro PTR com um subdomínio que esteja [totalmente delegado](delegate-subdomain.md#set-up-subdomain) à Adobe, siga as etapas abaixo.
 
 1. Na lista, clique em um nome de registro PTR para abri-lo.
 
    ![](assets/ptr-record-select.png)
 
-1. Selecione na lista um subdomínio [totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) ao Adobe.
+1. Selecione na lista um subdomínio [totalmente delegado](delegate-subdomain.md#set-up-subdomain) ao Adobe.
 
    ![](assets/ptr-record-subdomain.png)
 

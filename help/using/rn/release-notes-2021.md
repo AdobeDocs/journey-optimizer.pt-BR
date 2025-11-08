@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -86,7 +86,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 
 * **Editor de expressão** - Como um usuário avançado, agora você pode usar funções para trabalhar com mapas. Esse recurso pode ser aproveitado com as listas de assinaturas. Como exemplo, em um público-alvo, agora é possível obter um endereço de email a partir de uma lista de assinaturas. [Saiba mais neste exemplo ](../building-journeys/message-to-subscribers-uc.md)
 
-* **Monitoramento** - Os eventos de etapa para jornadas ativas e modo de teste foram aprimorados. [Novos campos](../reports/sharing-field-list.md#serviceevents) foram adicionados relacionados a trabalhos de exportação de perfil. Para obter uma melhor experiência do usuário, os campos de evento de etapa agora estão organizados em categorias diferentes. Todos os campos de eventos de etapa anteriores ainda estão disponíveis na categoria [stepEvents](../reports/sharing-legacy-fields.md).
+* **Monitoramento** - Os eventos de etapa para jornadas ativas e modo de teste foram aprimorados. [Novos campos](../reports/sharing-field-list.md#servicevents-field) foram adicionados relacionados a trabalhos de exportação de perfil. Para obter uma melhor experiência do usuário, os campos de evento de etapa agora estão organizados em categorias diferentes. Todos os campos de eventos de etapa anteriores ainda estão disponíveis na categoria [stepEvents](../reports/sharing-legacy-fields.md).
 * **Acessibilidade** - As melhorias de acessibilidade foram implementadas nas jornadas.
 * **Coleções** - Matrizes de objetos que contêm subobjetos agora são compatíveis. [Leia mais](../building-journeys/collections.md)
 * **Listas** - As telas de listas foram aprimoradas para jornadas, eventos, ações e fontes de dados.
@@ -277,7 +277,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 **Design de conteúdo**
 
 * **Plano de fundo** - Imagens de planos de fundo agora são compatíveis com a pré-visualização ao vivo. [Saiba mais](../content-management/preview-test.md)
-  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **Personalização**
 
@@ -351,7 +351,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 
 **Visualização e teste**
 
-* A identidade e o namespace agora estão visíveis na tela **[!UICONTROL Visualizar]**. [Leia mais](../content-management/preview-test.md#preview-your-messages)
+* A identidade e o namespace agora estão visíveis na tela **[!UICONTROL Visualizar]**. [Leia mais](../content-management/preview-test.md#preview-test)
 * O número de emails de teste para provas agora está restrito a 10.
 * Caracteres permitidos nas provas de **prefixo da linha de assunto** agora são limitadas. [Leia mais](../content-management/preview-test.md#send-proofs)
 

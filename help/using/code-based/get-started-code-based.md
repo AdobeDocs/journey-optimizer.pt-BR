@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 90%
@@ -88,7 +88,7 @@ Estas são as principais etapas para criar e entregar uma experiência baseada e
 
 1. Crie uma configuração de canal baseado em código que faça referência a esse local. [Saiba como](code-based-configuration.md#create-code-based-configuration)
 
-1. Crie uma jornada ou campanha no [!DNL Journey Optimizer] usando esta configuração. [Saiba como](create-code-based.md#create-code-based-campaign)
+1. Crie uma jornada ou campanha no [!DNL Journey Optimizer] usando esta configuração. [Saiba como](create-code-based.md#create-code-based-experience)
 
 1. Componha uma experiência especificando o conteúdo da configuração selecionada usando o editor de personalização do [!DNL Journey Optimizer]. [Saiba como](create-code-based.md#edit-code)
 

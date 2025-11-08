@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '5125'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -403,7 +403,7 @@ Sim, mas com limitações. É possível editar determinados elementos de uma jor
 
 Os perfis que já estão na jornada concluirão a versão original, enquanto os novos perfis entrarão na nova versão.
 
-Saiba mais sobre [versões do jornada](journey-ui.md#journey-versions).
+Saiba mais sobre [versões do jornada](journey-ui.md#journey-filter).
 
 +++
 

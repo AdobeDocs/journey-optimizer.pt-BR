@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 8%
@@ -104,7 +104,7 @@ Ao criar um modelo de conteúdo de experiência baseado em código, você pode u
 
 1. Clique em **[!UICONTROL Adicionar política de decisão]** usando o ícone **[!UICONTROL Mostrar Decisão]** no painel direito da tela de edição ou no editor de expressão da seção **[!UICONTROL Política de decisão]** no menu esquerdo.
 
-   Saiba como criar uma política de decisão em [esta seção](../experience-decisioning/create-decision.md#add-decision).
+   Saiba como criar uma política de decisão em [esta seção](../experience-decisioning/create-decision.md#create-decision).
 
 1. Clique no botão **[!UICONTROL Inserir política]**. O código correspondente à política de decisão é adicionado.
 
@@ -246,4 +246,4 @@ Você poderá editar facilmente os campos de formulário a partir de uma jornada
 
 Saiba como adicionar campos editáveis a modelos de conteúdo de canal de experiência baseados em código.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463996/?captions=por_br&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

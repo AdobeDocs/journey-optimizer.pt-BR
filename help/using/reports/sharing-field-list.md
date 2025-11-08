@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -112,7 +112,7 @@ Abaixo estão definições, causas comuns e etapas de solução de problemas par
    * **PAUSED_JORNADA_VERSION**: descartes que ocorreram no ponto de entrada da jornada
    * **JORNADA_IN_PAUSED_STATE**: Descarta o que ocorreu quando os perfis estão em uma jornada
 
-  Saiba mais sobre esses eventos e como solucioná-los na [seção Pausar uma Jornada](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+  Saiba mais sobre esses eventos e como solucioná-los na [seção Pausar uma Jornada](../building-journeys/journey-pause.md#discards-troubleshoot).
 
 ## Recursos adicionais
 

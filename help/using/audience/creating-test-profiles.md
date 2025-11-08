@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 4%
@@ -32,7 +32,7 @@ Há várias maneiras de criar perfis de teste. Você pode encontrar nesta págin
 
   A Adobe Journey Optimizer também fornece um [caso de uso no produto](#use-case-1) específico para facilitar a criação do perfil de teste.
 
-Você pode fazer upload de um arquivo JSON em um conjunto de dados existente. Para obter mais informações, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=pt-BR#add-data-to-dataset){target="_blank"}.
+Você pode fazer upload de um arquivo JSON em um conjunto de dados existente. Para obter mais informações, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
 Observe que a criação de um perfil de teste é semelhante à criação de perfis comuns no Adobe Experience Platform. Para obter mais informações, consulte a [documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
 
@@ -71,7 +71,7 @@ Depois de concluído, clique em **[!UICONTROL Adicionar grupos de campos]**: a l
 
 >[!NOTE]
 >
->Para obter mais informações sobre a criação de esquemas, consulte a [documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=pt-BR#prerequisites){target="_blank"}.
+>Para obter mais informações sobre a criação de esquemas, consulte a [documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
 ### Criar um conjunto de dados
 
@@ -90,7 +90,7 @@ Em seguida, é necessário **criar o conjunto de dados** no qual os perfis serã
 
 >[!NOTE]
 >
-> Para obter mais informações sobre a criação do conjunto de dados, consulte a [documentação do Serviço de Catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
+> Para obter mais informações sobre a criação do conjunto de dados, consulte a [documentação do Serviço de Catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## Caso de uso no produto{#use-case-1}
 
@@ -131,7 +131,7 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 
 >[!NOTE]
 >
-> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../audience/creating-test-profiles.md#test-profiles-prerequisites).
+> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../audience/creating-test-profiles.md#create-test-profiles).
 
 1. Browse to **Audiences**, then **Create audience**, in the top right.
     ![](assets/test-profiles-22.png) 
@@ -189,7 +189,7 @@ Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jor
 
 >[!NOTE]
 >
->Para obter mais informações sobre importações csv, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=pt-BR#tutorials){target="_blank"}.
+>Para obter mais informações sobre importações csv, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 >
 
 
@@ -250,4 +250,4 @@ curl -X POST \
 
 Saiba como criar perfis de teste.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417594?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

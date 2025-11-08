@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing page, landing page
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
-source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 9%
@@ -87,6 +87,6 @@ Para navegar facilmente pelas landing pages, você pode usar pastas para organiz
 
 1. Usando o botão **[!UICONTROL Mais ações]**, você também pode mover páginas de aterrissagem para outra pasta existente.
 
-1. Agora é possível navegar até a pasta que acabou de criar. Cada nova página de aterrissagem que você [cria](create-lp.md#create-landing-page.md) daqui é salva na pasta atual.
+1. Agora é possível navegar até a pasta que acabou de criar. Cada nova página de aterrissagem que você [cria](create-lp.md#create-landing-page) daqui é salva na pasta atual.
 
    ![](assets/lp-folder-create.png)

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 15%
@@ -307,7 +307,7 @@ Por exemplo, você pode [pausar uma jornada](journey-pause.md), adicionar uma co
 
 Esse recurso funciona com a funcionalidade Pausar/Retomar, ajudando você a gerenciar jornadas com mais segurança e flexibilidade. Ele minimiza a intervenção manual, reduz o risco de enviar comunicações irrelevantes ou não compatíveis e mantém sua lógica de jornada alinhada às necessidades atuais dos negócios.
 
-Consulte esta seção para saber como [usar os critérios de saída do atributo de perfil no jornada pausado](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
+Consulte esta seção para saber como [usar os critérios de saída do atributo de perfil no jornada pausado](journey-pause.md#journey-pause-sample).
 
 ### Medidas de proteção e limitações {#exit-criteria-guardrails}
 

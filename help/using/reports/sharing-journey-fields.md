@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 10%
@@ -22,7 +22,7 @@ Este grupo de campos é usado no esquema **jornada** (em relação a **journeySt
 
 >[!NOTE]
 >
->Saiba mais sobre os atributos de propriedades de jornada [nesta seção](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Saiba mais sobre os atributos de propriedades de jornada [nesta seção](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 
 ## journeyID {#journeyid-field}

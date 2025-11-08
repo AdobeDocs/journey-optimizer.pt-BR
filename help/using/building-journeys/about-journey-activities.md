@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 15%
@@ -97,7 +97,7 @@ Para melhorar a compreensão, oculte esses parâmetros usando o botão **[!UICON
 
 ![Ocultar o ícone de campos somente leitura nas propriedades da atividade de jornada](assets/journey-hide-read-only-fields.png)
 
-Em alguns contextos específicos, é possível substituir os valores desses parâmetros para uso específico. Para forçar um valor, clique no ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo. [Saiba mais](../configuration/primary-email-addresses.md#journey-parameters)
+Em alguns contextos específicos, é possível substituir os valores desses parâmetros para uso específico. Para forçar um valor, clique no ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo. [Saiba mais](../configuration/primary-email-addresses.md#override-execution-address-journey)
 
 ![Habilitar a opção de substituição de parâmetro nas propriedades da atividade de email](assets/journey-enable-parameter-override.png)
 

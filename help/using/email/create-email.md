@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 9%
@@ -51,7 +51,7 @@ Para obter mais informações sobre como configurar uma jornada, consulte [esta 
 
 1. Crie uma nova campanha agendada ou acionada por API e selecione **[!UICONTROL Email]** como ação.
 
-1. Conclua as etapas para criar uma campanha de email, como as propriedades da campanha, [público](../audience/about-audiences.md) e [agendamento](../campaigns/create-campaign.md#schedule).
+1. Conclua as etapas para criar uma campanha de email, como as propriedades da campanha, [público](../audience/about-audiences.md) e [agendamento](../campaigns/campaign-schedule.md#action-campaign-schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -86,7 +86,7 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
 1. Ative a opção **[!UICONTROL Habilitar a decisão]** se desejar adicionar políticas de decisão em seu email.
 
-   As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue para cada membro do público. [Saiba como adicionar uma política de decisão em um email](../experience-decisioning/create-decision.md#add)
+   As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue para cada membro do público. [Saiba como adicionar uma política de decisão em um email](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
@@ -132,7 +132,7 @@ Dois tipos de alertas podem ocorrer:
 
 * **Os avisos** referem-se às recomendações e práticas recomendadas, como:
 
-   * **[!UICONTROL O link para opção de não participação não está presente no corpo do email]**: a adição de um link para cancelamento de inscrição no corpo do email é uma prática recomendada. Saiba como configurá-lo em [esta seção](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL O link para opção de não participação não está presente no corpo do email]**: a adição de um link para cancelamento de inscrição no corpo do email é uma prática recomendada. Saiba como configurá-lo em [esta seção](../privacy/opt-out.md#opt-out-decision-management).
 
      >[!NOTE]
      >

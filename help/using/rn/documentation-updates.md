@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f03b1f19f128534809dd7e6204dce57704e86af9
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2887'
 ht-degree: 84%
@@ -69,11 +69,11 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * Um novo atributo `render` foi introduzido no editor de personalização. Defina-o como `false` caso queira ocultar o conteúdo de um fragmento de expressão. [Leia mais](../personalization/use-expression-fragments.md#use-expression-fragment)
 
-* Uma lista de medidas de proteção foi adicionada à seção que descreve como utilizar fragmentos anexados a itens de decisão nas políticas de decisão. [Leia mais](../experience-decisioning/create-decision.md#fragments-guardrails)
+* Uma lista de medidas de proteção foi adicionada à seção que descreve como utilizar fragmentos anexados a itens de decisão nas políticas de decisão. [Leia mais](../experience-decisioning/create-decision.md#guardrails-limitations)
 
-* Adição de práticas recomendadas para pesquisas de conjunto de dados: mantenha os botões ativados para evitar problemas de indexação e entenda como as exclusões em lote afetam os dados de pesquisa. [Leia mais](../data/lookup-aep-data.md#guardrails--guidelines-guidelines)
+* Adição de práticas recomendadas para pesquisas de conjunto de dados: mantenha os botões ativados para evitar problemas de indexação e entenda como as exclusões em lote afetam os dados de pesquisa. [Leia mais](../data/lookup-aep-data.md#guidelines)
 
-* Adição de uma limitação de que somente os públicos-alvo do serviço Perfil unificado são compatíveis ao usar as jornadas de público-alvo de leitura com identificadores complementares. [Leia mais](../building-journeys/supplemental-identifier.md#guardrails--limitations-guardrails)
+* Adição de uma limitação de que somente os públicos-alvo do serviço Perfil unificado são compatíveis ao usar as jornadas de público-alvo de leitura com identificadores complementares. [Leia mais](../building-journeys/supplemental-identifier.md#guardrails)
 
 * A documentação do Experimentation Accelerator foi transferida para uma coleção separada. [Leia mais](https://experienceleague.adobe.com/pt-br/docs/experimentation-accelerator/using/overview)
 
@@ -83,11 +83,11 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * Uma página de Perguntas frequentes foi lançada para campanhas orquestradas. [Leia mais](../orchestrated/orchestrated-campaigns-faq.md)
 
-* Uma seção de solução de problemas foi adicionada à documentação de eventos de Etapa da jornada com definições, causas comuns e etapas de solução de problemas para os eventTypes de descarte mais frequentes. [Leia mais](../reports/sharing-field-list.md#troubleshoot-discarded-event-types-in-journey_step_events)
+* Uma seção de solução de problemas foi adicionada à documentação de eventos de Etapa da jornada com definições, causas comuns e etapas de solução de problemas para os eventTypes de descarte mais frequentes. [Leia mais](../reports/sharing-field-list.md#discarded-events)
 
 * A documentação sobre como usar identificadores suplementares em jornadas agora inclui uma tabela que detalha como os perfis se comportam quando os critérios de saída são aplicados em jornadas usando IDs suplementares. [Leia mais](../building-journeys/supplemental-identifier.md#exit-criteria)
 
-* Uma seção de solução de problemas foi adicionada para entender descartes de perfil em jornadas pausadas. [Leia mais](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys)
+* Uma seção de solução de problemas foi adicionada para entender descartes de perfil em jornadas pausadas. [Leia mais](../building-journeys/journey-pause.md#discards-troubleshoot)
 
 * Foram adicionadas informações na documentação de visão geral dos esquemas para diferenciar esquemas padrão e relacionais usados em campanhas orquestradas. [Leia mais](../data/gs-data.md)
 
@@ -139,13 +139,13 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * A parte Decisão foi atualizada com uma seção específica dedicada à criação de modelos de IA. [Leia mais](../experience-decisioning/ranking/ai-models.md)
 
-* Uma recomendação sobre o uso do campo `actionExecutionTime` foi adicionada na ação de eventos journeyStep. [Leia mais](../reports/sharing-execution-fields.md#actionexecutiontime-actionexecutiontime-field)
+* Uma recomendação sobre o uso do campo `actionExecutionTime` foi adicionada na ação de eventos journeyStep. [Leia mais](../reports/sharing-execution-fields.md#actionexecutiontime-field)
 
 * Adição de uma observação sobre `messageID` que pode não ser exclusiva para cada entrega individual. [Leia mais](../data/datasets-query-examples.md)
 
-* Adição de uma recomendação sobre o gerenciamento de eventos históricos em operações de higiene de dados. [Leia mais](../privacy/data-hygiene.md#recommendations-data-hygiene-recommendations)
+* Adição de uma recomendação sobre o gerenciamento de eventos históricos em operações de higiene de dados. [Leia mais](../privacy/data-hygiene.md#data-hygiene-recommendations)
 
-* Adição de uma medida de proteção sobre páginas de destino não compatíveis com a migração entre sandboxes. [Leia mais](../configuration/copy-objects-to-sandbox.md#general-best-practices-global)
+* Adição de uma medida de proteção sobre páginas de destino não compatíveis com a migração entre sandboxes. [Leia mais](../configuration/copy-objects-to-sandbox.md#global)
 
 * Adição de uma observação de advertência sobre objetos JSON aninhados não compatíveis com a autenticação personalizada para ações personalizadas. [Leia mais](../datasource/external-data-sources.md)
 
@@ -153,7 +153,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * Atualização da seção “Cancelar delegação de um subdomínio da página de destino”. [Leia mais](../landing-pages/lp-subdomains.md#undelegate-subdomain)
 
-* Esclarecimento sobre as regras de reentrada da jornada ao usar identificadores complementares. [Leia mais](../building-journeys/supplemental-identifier.md#guardrails--limitations)
+* Esclarecimento sobre as regras de reentrada da jornada ao usar identificadores complementares. [Leia mais](../building-journeys/supplemental-identifier.md#guardrails)
 
 * Uma nova observação foi adicionada para esclarecer que você deve usar o editor de expressão no modo Avançado ao selecionar o atributo de identificador complementar durante a configuração do evento. [Saiba mais](../building-journeys/supplemental-identifier.md#add)
 
@@ -165,13 +165,13 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * As integrações de conteúdo agora estão agrupadas na seção Gerenciamento de conteúdo. [Leia mais](../integrations/content-integrations.md)
 
-* Os diagramas de arquitetura da Adobe Experience Platform e do Journey Optimizer foram atualizados. [Leia mais](../start/get-started.md#architecture-architecture)
+* Os diagramas de arquitetura da Adobe Experience Platform e do Journey Optimizer foram atualizados. [Leia mais](../start/get-started.md#architecture)
 
-* Adição de um vídeo sobre a área do editor de personalização para ajudar você a saber como gravar e testar o código de personalização usando dados de amostra. [Leia mais](../personalization/personalize.md#how-to-videosvideo-perso)
+* Adição de um vídeo sobre a área do editor de personalização para ajudar você a saber como gravar e testar o código de personalização usando dados de amostra. [Leia mais](../personalization/personalize.md#video-perso)
 
 * O número máximo de endereços em uma lista de seeds foi aumentado de 50 para 300. [Leia mais](../configuration/seed-lists.md#create-seed-list)
 
-* Uma nova etapa que detalha como vincular código ao usar políticas de decisão no editor de experiência baseada em código foi adicionada à página Criar políticas de decisão. [Leia mais](../experience-decisioning/create-decision.md#use-decision-policy)
+* Uma nova etapa que detalha como vincular código ao usar políticas de decisão no editor de experiência baseada em código foi adicionada à página Criar políticas de decisão. [Leia mais](../experience-decisioning/create-decision.md#create-decision)
 
 * Uma observação foi adicionada à documentação de experiências baseadas em código para especificar que, quando você tiver várias ações de experiência baseadas em código em execução na mesma superfície, a pontuação de prioridade da campanha ou da jornada determinará o que é entregue ao usuário final se ele se qualificar para mais de uma ação. [Leia mais](../code-based/code-based-surface.md#surface-definition)
 
@@ -192,7 +192,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Adição de uma nota de advertência na seção da função `inAudience` sobre os impactos e as práticas recomendadas ao renomear um público-alvo. [Leia mais](../building-journeys/functions/functioninaudience.md)
 * Adição de uma recomendação sobre o uso de palavras-chave nativas ao usar SMS bidirecional. [Leia mais](../sms/sms-opt-out.md)
 * Atualização da página de teste da jornada com uma observação sobre a necessidade de incluir um namespace de identidade no evento usado. [Leia mais](../building-journeys/testing-the-journey.md)
-* Atualmente, não é possível cancelar a delegação de subdomínios por meio da interface do [!UICONTROL Journey Optimizer]. Entre em contato com o representante da Adobe. As etapas para cancelar a delegação de um subdomínio agora estão detalhadas para [emails](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-a-subdomain-undelegate-subdomain), [experiências da web](../web/web-delegated-subdomains.md#undelegate-a-subdomain-undelegate-subdomain) e [páginas de destino](../landing-pages/lp-subdomains.md#undelegate-subdomain).<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+* Atualmente, não é possível cancelar a delegação de subdomínios por meio da interface do [!UICONTROL Journey Optimizer]. Entre em contato com o representante da Adobe. As etapas para cancelar a delegação de um subdomínio agora estão detalhadas para [emails](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain), [experiências da web](../web/web-delegated-subdomains.md#undelegate-subdomain) e [páginas de destino](../landing-pages/lp-subdomains.md#undelegate-subdomain).<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 * Adição de um esclarecimento sobre o parâmetro `maxHttpConnections` opcional na API de Limites de jornadas, incluindo orientações sobre como usá-lo junto a configurações de limitação para o mesmo ponto de acesso. [Leia mais](../configuration/throttling.md)
 * Na seção Escolha de experiências, foram adicionadas orientações explicando que os itens de oferta aprovados não podem ser excluídos se forem usados em uma coleção ou em uma decisão. Etapas incluídas para alterar seus status para &quot;Rascunho&quot; usando a opção **[!UICONTROL Desfazer aprovação]**. [Leia mais](../experience-decisioning/items.md#manage)
 * As informações sobre sandboxes foram agrupadas em uma nova seção &quot;Gerenciamento de sandboxes&quot;. Essa nova seção fornece informações sobre como usar e atribuir sandboxes e como usar os recursos de exportação e importação de pacotes para copiar objetos como jornadas, modelos de conteúdo ou fragmentos em várias sandboxes. [Leia mais](../administration/sandboxes.md)
@@ -232,7 +232,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * A seção **Parâmetros de cabeçalho** foi atualizada para incluir os novos rótulos e as alterações na interface. [Leia mais](../email/email-settings.md#email-header)
 
-* A seção **Encaminhar email** foi atualizada para especificar que todos os emails enviados para o endereço do **remetente** são encaminhados para o endereço de email de encaminhamento. Se nenhum email de encaminhamento for especificado, esses emails serão descartados. [Leia mais](../email/email-settings.md#forward-email)
+* A seção **Encaminhar email** foi atualizada para especificar que todos os emails enviados para o endereço do **remetente** são encaminhados para o endereço de email de encaminhamento. Se nenhum email de encaminhamento for especificado, esses emails serão descartados. [Leia mais](../email/email-settings.md#email-settings)
 
 * O tamanho máximo de atributos contextuais transmitidos para uma solicitação de campanha acionada por API foi atualizado para 200 KB. [Leia mais](../campaigns/api-triggered-campaigns.md#contextual)
 
@@ -265,7 +265,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Todos os novos recursos e aprimoramentos da versão de 24 de setembro do [!DNL Journey Optimizer] estão detalhados na documentação. [Leia mais](release-notes.md)
 * Adição de uma seção sobre o gerenciamento de novas tentativas de jornada. [Leia mais](../building-journeys/read-audience.md#read-audience-retry)
 * Atualização das perguntas frequentes sobre a regra de limitação para ações personalizadas, a fim de mencionar a regra de limitação padrão. [Leia mais](../configuration/external-systems.md#faq)
-* Atualização da seção Controlar acesso com a adição de permissões relacionadas ao Gerador de conteúdo do Assistente de IA. [Leia mais](../administration/high-low-permissions.md#ai-permission)
+* Atualização da seção Controlar acesso com a adição de permissões relacionadas ao Gerador de conteúdo do Assistente de IA. [Leia mais](../administration/high-low-permissions.md#ai-orchestrated-campaign)
 * Adição de um vídeo sobre o Gerador de conteúdo do Assistente de IA para geração de emails. [Leia mais](../content-management/generative-email.md#video)
 
 <!--
@@ -315,7 +315,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * A Frequently Asked Questions section has been added to address common questions regarding the use of audience composition and custom upload audiences in Journey Optimizer. [Read more](../audience/about-audiences.md#faq)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '24 release have been detailed in the documentation. [Read more](release-notes.md#mar-2024)
 * The page on profile entrance management has been improved. [Read more](../building-journeys/entry-management.md)
-* Troubleshooting information has been added to the Alerts page. [Read more](../reports/alerts.md#alert-troubleshooting)
+* Troubleshooting information has been added to the Alerts page. [Read more](../reports/alerts.md#alert-profile-error-rate)
 * Information on the Wait activity has been added to the page on journey reports. [Read more](../reports/sharing-overview.md)
 * For Journeys in test mode, following shortcuts have been disabled:
     * T: Shortcut to toggle the test mode on or off.
@@ -352,12 +352,12 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
 * Best practices have been added when choosing an endpoint to target using a custom action. [Read more](../action/about-custom-action-configuration.md)
-* An note has been added to notify users that events cannot be fired from external systems using an API. [Read more](../building-journeys/testing-the-journey.md#important-notes)
+* An note has been added to notify users that events cannot be fired from external systems using an API. [Read more](../building-journeys/testing-the-journey.md#important_notes)
 * Information on the **currentActionField** function has been added to the list of [collection management functions](../building-journeys/expression/collection-management-functions.md). An expression sample leveraging the function has been added in the [Use API call reponses in custom actions](../action/action-response.md) page.
 * Update custom authentication doc regarding cache duration. [Read more] (../datasource/external-data-sources.md)
 * Support of `<listObject>` has been modified in multiple functions.
@@ -370,7 +370,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 ## November 2023 {#nov-2023}
 
 * The guardrail that limits all custom actions has been changed from 150,000 calls over 30 seconds to 300,000 calls over one minute. In addition, the default capping no longer applies to each endpoint. It is now performed per host and per sandbox. For example, on a sandbox, if you have two endpoints with the same host (eg: `https://www.adobe.com/endpoint1` and `https://www.adobe.com/endpoint2`), the capping will apply for all endpoints under the adobe.com host. "endpoint1" and "endpoint2" will share the same capping configuration and having one endpoint reach the limit will have an impact on the other endpoint. [Read more](../action/about-custom-action-configuration.md)
-* A new status for email campaigns has been added to the list of campaigns' statuses. [Read more](../campaigns/manage-campaigns.md#campaign-statuses-and-alerts-statuses)
+* A new status for email campaigns has been added to the list of campaigns' statuses. [Read more](../campaigns/manage-campaigns.md#modify-an-action-campaign)
 * The Get started with Adobe Experience Platform audiences section has been updated to reflect the audience evaluation methods available and how to select them. [Read more](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
 * A new subsection has been added to specify which events should be avoided when building your audience if you are using the streaming segmentation evaluation method. [Read more](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
 
@@ -382,7 +382,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -395,7 +395,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * All new features and improvements coming with [!DNL Journey Optimizer] September '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * A new page has been added with scaling best practices and real-time stitching guidance. [Read more](../start/best-practices.md)
 * A Frequently-Asked-Questions section has been added for Send-Time Optimization. [Read more](../building-journeys/journeys-message.md#faq-send-time)
-* A note has been added for the audience qualification activity. It may take up to 10 minutes to be active and listen to profiles entering or exiting the audience. [Read more](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
+* A note has been added for the audience qualification activity. It may take up to 10 minutes to be active and listen to profiles entering or exiting the audience. [Read more](../building-journeys/audience-qualification-events.md#batch-speed-segment-qualification)
 * A list of limitations to be aware of when creating decision rules has been added to the decision management documentation. [Read more](../offers/offer-library/creating-decision-rules.md)
 * Links to access control documentation have been updated. [Read more](../administration/permissions.md)
 * In-app channel prerequisites have been updated with Adobe Experience Platform Data Collection details. [Read more](../in-app/inapp-configuration.md)
@@ -410,7 +410,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Offer decisioning **export datasets** are now enabled by default. The note about the previous behavior has been removed.  [Read more](../offers/export-catalog/get-started-export.md)
 * Various **campaign report metrics** have been renamed, in both Live and Global reports. [Read more](../reports/campaign-live-report.md)
 * A new section has been added on content experiment prerequisites for the web channel. [Read more](../web/web-prerequisites.md#experiment-prerequisites)
-* A warning has been added on the **Work with content templates** page to indicate that currently tracking is not supported when testing email content templates. To test tracking, you must use the content template in an email and send a proof. [Read more](../content-management/content-templates.md#test-template)
+* A warning has been added on the **Work with content templates** page to indicate that currently tracking is not supported when testing email content templates. To test tracking, you must use the content template in an email and send a proof. [Read more](../content-management/content-templates.md#content-templates)
 * Several warnings have been added in the **Create and publish landing pages** section to specify that you cannot access your landing page by simply copy-pasting into a web browser the URL defined when creating the page, even if published. Instead you can test it using the preview function. [Read more](../landing-pages/create-lp.md)
 * A new section has been added on how to **manage consent** for the direct mail channel. [Read more](../direct-mail/test-send-direct-mail.md)
 
@@ -452,12 +452,12 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * The warning on multi-level email subdomains not being allowed has been removed as they are now supported. [Read more](../configuration/delegate-subdomain.md)
 * A note has been added to specify that, if changes are made to an offer decision which is being used in a journey's message, you need to unpublish the journey and republish it. [Read more](../building-journeys/publish-journey.md)
 * Explanation on how to make sure events are correctly accounted for in the capping counter has been clarified in the decision management **Capping event** section. [Read more](../offers/offer-library/add-constraints.md#capping-event)
-* A new section has been added to the **Change execution addresses** page. It specifies that it is possible to override the execution field set globally in the journey advanced parameters, but the email address override should only be used for specific use cases. Most of the time, the value defined as the primary address in the **Execution fields** is the one that should be used. [Read more](../configuration/primary-email-addresses.md#journey-parameters)
+* A new section has been added to the **Change execution addresses** page. It specifies that it is possible to override the execution field set globally in the journey advanced parameters, but the email address override should only be used for specific use cases. Most of the time, the value defined as the primary address in the **Execution fields** is the one that should be used. [Read more](../configuration/primary-email-addresses.md#override-execution-address-journey)
 * The **URL tracking** section now provides the list and description of all contextual attributes that can be set for URL tracking in an email channel configuration. [Read more](../email/email-settings.md#url-tracking)
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -506,7 +506,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * Added a new page about Journey Optimizer integrations. [Read more](../integrations/ajo-integrations.md)
 * Added a recommendation about the length of mirror pages URLs. [Read more](../email/message-tracking.md)
-* A new subsection in the email settings configuration has been added on the reply to email address, including recommendations to ensure proper reply management. [Read more](../email/email-settings.md#reply-to-email)
+* A new subsection in the email settings configuration has been added on the reply to email address, including recommendations to ensure proper reply management. [Read more](../email/email-settings.md#send-to-suppressed-email-addresses)
 * Added a section on how to modify the content of a message in a live journey. [Read more](../building-journeys/journeys-message.md#update-live-content)
 
 ## October 2022 {#october-2022}
@@ -557,7 +557,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * A new section about Privacy requests has been added to the documentation. [Read more](../privacy/requests.md)
 * A new section about Audit logs on resources has been added to the documentation. [Read more](../privacy/audit-logs.md)
 * A new section about how to add HTML or JSON content coming from Adobe Experience Cloud Asset library to an offer representation has been added to the documentation. [Read more](../offers/offer-library/add-representations.md#html-json)
-* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md#journey-versions)
+* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md#uc-journey)
 * Updated the Wait activity page. [Read more](../building-journeys/wait-activity.md)
 * Added the list of Adobe Journey Optimizer datasets with query examples. [Read more](../data/datasets-query-examples.md)
 * The Allowed list page has been moved to the Configuration section. [Read more](../configuration/allow-list.md)
@@ -577,7 +577,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Links to how-to videos have been updated.
 * The [Email configuration](../configuration/about-subdomain-delegation.md), [Message presets](../configuration/channel-surfaces.md) and [Configure landing pages](../landing-pages/lp-subdomains.md) sections have been reorganized for improved readability.
 * The URL tracking section has been updated and improved with examples. [Read more](../email/email-settings.md#url-tracking)
-* A new subsection on setting up a forward email address has been added. Note that you cannot do it through the user interface. [Read more](../email/email-settings.md#forward-email)
+* A new subsection on setting up a forward email address has been added. Note that you cannot do it through the user interface. [Read more](../email/email-settings.md#email-settings)
 
 ## April 2022 {#april-2022}
 
@@ -585,7 +585,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=pt-BR)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
@@ -612,7 +612,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * A new section on the schema requirements needed to be able to send in event types when using an AI model has been added. [Read more](../offers/data-collection/schema-requirement.md)
 * The section related to [!DNL Journey Optimizer] personalization capabilities has been reorganized for better readability. [Read more](../personalization/personalize.md)
 * The **Create message presets** section has been divided into several sections for improved clarity. [Read more](../configuration/channel-surfaces.md#create-channel-surface)
-* The **Opt-out management** section has been clarified and slightly reorganized. [Read more](../privacy/opt-out.md#opt-out-management)
+* The **Opt-out management** section has been clarified and slightly reorganized. [Read more](../privacy/opt-out.md#opt-out-decision-management)
 * The **Insert links** section has been updated to reflect the recent user interface changes. [Read more](../email/message-tracking.md#insert-links)
 
 +++
@@ -631,7 +631,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * New **Get Started sections per user persona**. Take your own path to get to your goals faster! [Read more](../start/quick-start.md)
 * New **Edit a message preset** section. [Read more](../configuration/channel-surfaces.md#edit-channel-surface)
 * New **Edit a PTR record** section. [Read more](../configuration/ptr-records.md#edit-ptr-record)
-* New **Deactivate a message preset** section. [Read more](../configuration/channel-surfaces.md#edit-channel-surface#deactivate-a-surface)
+* New **Deactivate a message preset** section. [Read more](../configuration/channel-surfaces.md#edit-channel-surface)
 * New limitations added to the **Decision Management API developer guide** on offer constraints not supported with the mobile [!DNL Experience Edge] workflows. [Read more](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * New **Create simulations** section. [Read more](../offers/offer-activities/simulation.md)
 * Updated **Add decision scopes** section. [Read more](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
@@ -659,7 +659,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * Now all the Decision Management features described in the dedicated section also apply to the Adobe Experience Platform users leveraging the Offer Decisioning application. [Read more](../offers/get-started/starting-offer-decisioning.md)
 
-* Added a subsection to clarify the differences between using audiences versus decision rules when applying a constraint to restrict the selection of offers for a given placement. [Read more](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+* Added a subsection to clarify the differences between using audiences versus decision rules when applying a constraint to restrict the selection of offers for a given placement. [Read more](../offers/offer-activities/create-offer-activities.md#decision-list)
 
 * Added specific ranking formula examples to illustrate some real-life use cases. [Read more](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 

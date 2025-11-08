@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3521'
 ht-degree: 26%
@@ -41,7 +41,7 @@ A página **[!UICONTROL Relatório ao vivo]** da campanha será exibida com as s
 
 O **[!UICONTROL Relatório ao vivo]** da campanha é dividido em widgets diferentes detalhando o sucesso e os erros da sua campanha. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](../reports/live-report.md#modify-dashboard).
 
-Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](live-report.md#list-of-components-live).
+Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](live-report.md#live-report).
 
 ## Guia Campanha {#campaign-live}
 

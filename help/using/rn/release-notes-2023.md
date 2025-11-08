@@ -10,7 +10,7 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
@@ -67,7 +67,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Públicos-alvo**
 
-* Agora é possível direcionar públicos-alvo enviados a partir de um arquivo CSV para jornadas e campanhas. [Saiba mais](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Agora é possível direcionar públicos-alvo enviados a partir de um arquivo CSV para jornadas e campanhas. [Saiba mais](../audience/about-audiences.md#about-segments)
 * Agora é possível direcionar públicos-alvo criados por meio da composição de público-alvo e aproveitar os atributos de enriquecimento em jornadas. [Saiba mais](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
@@ -945,7 +945,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **Lista de permissões**: agora é possível baixar a lista de permissões como um arquivo .csv. [Saiba mais](../configuration/allow-list.md#download-allowed-list)
 
-* **Superfície de email**: uma verificação adicional foi incluída nas configurações da superfície de email. Se o registro MX do subdomínio usado no endereço **Responder para (email)** ou no **endereço de email Cco** não estiver configurado corretamente, a superfície de email não poderá mais ser criada. Você precisa configurá-lo ou usar outro. [Saiba mais](../email/email-settings.md#reply-to-email)
+* **Superfície de email**: uma verificação adicional foi incluída nas configurações da superfície de email. Se o registro MX do subdomínio usado no endereço **Responder para (email)** ou no **endereço de email Cco** não estiver configurado corretamente, a superfície de email não poderá mais ser criada. Você precisa configurá-lo ou usar outro. [Saiba mais](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 * **Superfície de email**: na seção **Parâmetros de rastreamento de URL** das configurações da superfície de email, o limite para cada campo de **Valor** foi atualizado de 255 caracteres para 5 KB, a fim de oferecer compatibilidade com o rastreamento do Adobe Analytics. [Saiba mais](../email/email-settings.md#url-tracking)
 
@@ -1009,11 +1009,11 @@ Note that each widget can be resized and deleted as needed.
 
 **Administração**
 
-* Uma nova subseção fornece recomendações sobre a criação de um endereço **Responder para (email)** e sobre como garantir uma gestão adequada das respostas. [Saiba mais](../email/email-settings.md#reply-to-email)
+* Uma nova subseção fornece recomendações sobre a criação de um endereço **Responder para (email)** e sobre como garantir uma gestão adequada das respostas. [Saiba mais](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 * Ao criar ou editar **pools de IPs**, os registros PTR associados agora são exibidos na lista de IP e ao passar o mouse sobre os endereços IP selecionados. [Saiba mais](../configuration/ip-pools.md#create-ip-pool)
 
-* Depois que um pool de IP é selecionado em uma configuração de canal, as informações do registro PTR ficam visíveis ao passar o mouse sobre os endereços IP. [Saiba mais](../email/email-settings.md#subdomains-and-ip-pools)
+* Depois que um pool de IP é selecionado em uma configuração de canal, as informações do registro PTR ficam visíveis ao passar o mouse sobre os endereços IP. [Saiba mais](../email/email-settings.md#ip-pools)
 
 * A interface de edição de [registros PTR](../configuration/ptr-records.md#edit-ptr-record) e [campos de execução](../configuration/primary-email-addresses.md) foi atualizada.
 

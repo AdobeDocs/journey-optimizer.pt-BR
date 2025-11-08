@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: landing page, landing page, configurar, ambiente, subdomínio, predefinições
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 ## Introdução às predefinições de página de destino {#gs-lp-presets}
 
-Ao [criar uma página de aterrissagem](../landing-pages/create-lp.md#create-a-lp), você deve selecionar uma predefinição de página de aterrissagem para poder criar a página de aterrissagem e aproveitá-la até **[!DNL Journey Optimizer]**. A predefinição inclui o subdomínio a ser usado para as páginas de aterrissagem com base nessa predefinição.
+Ao [criar uma página de aterrissagem](../landing-pages/create-lp.md#create-lp), você deve selecionar uma predefinição de página de aterrissagem para poder criar a página de aterrissagem e aproveitá-la até **[!DNL Journey Optimizer]**. A predefinição inclui o subdomínio a ser usado para as páginas de aterrissagem com base nessa predefinição.
 
 Antes de criar uma predefinição, verifique se você configurou anteriormente pelo menos um subdomínio de página de destino. [Saiba como criar um subdomínio de página de destino](lp-subdomains.md).
 
@@ -93,4 +93,4 @@ Agora você está pronto para [criar páginas de aterrissagem](../landing-pages/
 **Tópicos relacionados**:
 
 * [Introdução às páginas de destino](../landing-pages/get-started-lp.md)
-* [Criar uma página de destino](../landing-pages/create-lp.md#create-a-lp)
+* [Criar uma página de destino](../landing-pages/create-lp.md#create-lp)

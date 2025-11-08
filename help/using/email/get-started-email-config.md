@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: email, configuração, superfície, subdomínios
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Para poder enviar emails por meio de jornadas e campanhas no [!DNL Journey Optim
 
 1. Em cada configuração do canal de email, defina todos os **parâmetros técnicos** necessários para entregar os emails. [Saiba mais](email-settings.md)
 
-   * É aqui que você seleciona o subdomínio a ser usado para enviar os emails e os pools de IP para associar à configuração. [Saiba mais](email-settings.md#subdomains-and-ip-pools)
+   * É aqui que você seleciona o subdomínio a ser usado para enviar os emails e os pools de IP para associar à configuração. [Saiba mais](email-settings.md#ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

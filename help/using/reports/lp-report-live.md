@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 13%
@@ -59,4 +59,4 @@ Os gráficos de **[!UICONTROL Visitas por mensagens]** / **[!UICONTROL Conversõ
 Os gráficos **[!UICONTROL Visitas por canais]** / **[!UICONTROL Conversões por canais]** representam o número total de visitas e pessoas que interagiram com êxito com sua página de aterrissagem nas últimas 24 horas, dependendo dos canais.
 +++
 
-Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](live-report.md#list-of-components-live).
+Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](live-report.md#live-report).

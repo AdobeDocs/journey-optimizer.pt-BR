@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: events, event, jornada, definition, start
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 32%
@@ -91,7 +91,7 @@ Os seguintes tipos de eventos são contados para a cota de 5.000 TPS:
 
 * **Eventos do Analytics**: se a [integração com o Adobe Analytics para acionar o jornada](about-analytics.md) tiver sido habilitada, esses eventos também serão incluídos.
 
-* **Retomar Eventos**: evento técnico disparado quando um perfil é retomado de uma jornada pausada. Saiba mais sobre [retomada de jornadas pausadas](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
+* **Retomar Eventos**: evento técnico disparado quando um perfil é retomado de uma jornada pausada. Saiba mais sobre [retomada de jornadas pausadas](../building-journeys/journey-pause.md#journey-resume-steps).
 
 * **Eventos de Conclusão do Nó de Espera**: quando um perfil sai de um nó de espera, um evento técnico é gerado para retomar a jornada.
 
@@ -122,8 +122,8 @@ Não é possível excluir nenhum evento usado nas jornadas do **Live**, **Rascun
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431510?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Entenda os casos de uso aplicáveis a eventos de negócios. Saiba como criar uma jornada usando um evento de negócios e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417595?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

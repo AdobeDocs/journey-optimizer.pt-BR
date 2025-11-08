@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Assim que a jornada ou campanha baseada em código estiver ativa, a equipe de im
 
 Para ativar sua experiência baseada em código a partir de uma jornada, siga as etapas abaixo.
 
-1. Verifique se a jornada é válida e se não há erros. [Saiba mais](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+1. Verifique se a jornada é válida e se não há erros. [Saiba mais](../building-journeys/troubleshooting.md#activity-errors)
 
 1. Na jornada, selecione a opção **[!UICONTROL Publicar]**, localizada no menu suspenso no canto superior direito.
 

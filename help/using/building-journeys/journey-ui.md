@@ -10,7 +10,7 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 10%
@@ -49,7 +49,7 @@ A guia **[!UICONTROL Procurar]** mostra a lista de jornadas existentes. Você po
 
 ![Painel de jornada destacando a guia Procurar](assets/journeys-browse.png)
 
-Na lista da jornada, todas as versões da jornada são exibidas com o número da versão. Quando você pesquisa uma jornada, as versões mais recentes são exibidas na parte superior da lista na primeira vez que o aplicativo é aberto. Em seguida, você pode definir a classificação desejada e o aplicativo a manterá como uma preferência de usuário. A versão da jornada também é exibida na parte superior da interface de edição da jornada, acima da tela. Saiba mais sobre o [gerenciamento de versão do jornada](publish-journey.md#journey-versions-journey-versions).
+Na lista da jornada, todas as versões da jornada são exibidas com o número da versão. Quando você pesquisa uma jornada, as versões mais recentes são exibidas na parte superior da lista na primeira vez que o aplicativo é aberto. Em seguida, você pode definir a classificação desejada e o aplicativo a manterá como uma preferência de usuário. A versão da jornada também é exibida na parte superior da interface de edição da jornada, acima da tela. Saiba mais sobre o [gerenciamento de versão do jornada](publish-journey.md#journey-versions).
 
 ### Calendário do Jornada {#calendar}
 
@@ -108,7 +108,7 @@ Na lista de jornadas, use vários filtros para refinar a lista de jornadas.
 
 ![Tela mostrando um exemplo de filtragem de jornada com dois tipos de jornadas selecionados](assets/filter-journeys.png)
 
-Você pode filtrar jornadas de acordo com seu [status](#journey-statuses), [tipo](#journey-types), [versão](publish-journey.md#journey-versions-journey-versions) e [marcas](../start/search-filter-categorize.md#tags) atribuídas a partir dos **[!UICONTROL filtros de status e versão]**.
+Você pode filtrar jornadas de acordo com seu [status](#journey-statuses), [tipo](#journey-types), [versão](publish-journey.md#journey-versions) e [marcas](../start/search-filter-categorize.md#tags) atribuídas a partir dos **[!UICONTROL filtros de status e versão]**.
 
 Use os **[!UICONTROL Filtros de criação]** para filtrar jornadas de acordo com a data de criação ou o usuário que as criou.
 
@@ -143,7 +143,7 @@ O status da jornada depende do seu ciclo de vida. Pode ser:
 * **Concluído**: a jornada alterna automaticamente para esse status após o [tempo limite global](journey-properties.md#global_timeout) de 91 dias. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada.
 * **Ao vivo**: a jornada foi publicada usando o botão **Publicar**. [Saiba mais](../building-journeys/publish-journey.md)
 * **Pausado**: a jornada em tempo real foi pausada, usando o botão **Pausar**. [Saiba mais](../building-journeys/journey-pause.md)
-* **Parada**: a jornada foi desligada usando o botão **Parada**. Todos os indivíduos saem instantaneamente da jornada. [Saiba mais](../building-journeys/end-journey.md#stop-a-journey)
+* **Parada**: a jornada foi desligada usando o botão **Parada**. Todos os indivíduos saem instantaneamente da jornada. [Saiba mais](../building-journeys/end-journey.md#stop-journey)
 * **Fechada**: a jornada foi fechada usando o botão **Fechar para novas entradas**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente. [Saiba mais](../building-journeys/end-journey.md)
 
 >[!NOTE]

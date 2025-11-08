@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 4%
@@ -109,7 +109,7 @@ Você os encontrará no **[!UICONTROL menu Gerenciamento de decisões]** > **[!U
 
    >[!NOTE]
    >
-   >Neste exemplo, usaremos somente as pontuações de prioridade. Saiba mais sobre [regras e restrições de qualificação](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
+   >Neste exemplo, usaremos somente as pontuações de prioridade. Saiba mais sobre [regras e restrições de qualificação](../../using/offers/offer-library/add-constraints.md#eligibility).
 
 ## Configurar ofertas {#configure-offers}
 
@@ -127,7 +127,7 @@ Agora você pode criar e configurar suas ofertas. Neste exemplo, você criará q
    >
    >Uma oferta pode ser exibida em diferentes locais em uma mensagem para criar mais oportunidades para usar a oferta em diferentes contextos de posicionamento.
 
-   Saiba mais sobre representações em [esta seção](../../using/offers/offer-library/creating-personalized-offers.md#representations).
+   Saiba mais sobre representações em [esta seção](../../using/offers/offer-library/add-representations.md#representations).
 
 1. Selecione uma imagem apropriada para as duas primeiras disposições. Digite um texto personalizado para o posicionamento *Não digital - Texto*.
 

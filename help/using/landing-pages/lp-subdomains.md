@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: landing page, landing page, subdomínios, configuração
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 19%
@@ -141,7 +141,7 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
 
 Se quiser desdelegar um subdomínio de página de aterrissagem, siga as etapas abaixo.
 
-1. Em [!DNL Journey Optimizer], cancele a publicação de todas as páginas de aterrissagem associadas ao subdomínio. [Saiba como](create-lp.md#access-landing-pages)
+1. Em [!DNL Journey Optimizer], cancele a publicação de todas as páginas de aterrissagem associadas ao subdomínio. [Saiba como](create-lp.md#create-landing-page)
 
 1. Se o subdomínio da página de aterrissagem apontar para um registro CNAME, é possível excluir o registro DNS CNAME criado para o subdomínio da página de aterrissagem da solução de hospedagem (mas não excluir o subdomínio de email original, se houver).
 

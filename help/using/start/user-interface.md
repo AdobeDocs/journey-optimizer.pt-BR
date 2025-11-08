@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 100%
@@ -141,7 +141,7 @@ Controle o gerenciamento de privacidade e as solicitações nesta seção.
 
 * **[!UICONTROL Canais]**: use esta seção para configurar seus canais, incluindo subdomínios, configurações e definições de capacidade de entrega. [Saiba mais](../configuration/get-started-configuration.md)
 
-* **[!UICONTROL Tags]**: com as tags unificadas, é possível classificar facilmente suas jornadas e campanhas para aprimorar a pesquisa nas listas. [Saiba mais](../start/search-filter-categorize.md#work-with-unified-tags)
+* **[!UICONTROL Tags]**: com as tags unificadas, é possível classificar facilmente suas jornadas e campanhas para aprimorar a pesquisa nas listas. [Saiba mais](../start/search-filter-categorize.md#manage-tags)
 
 ## Casos de uso no produto {#in-product-uc}
 

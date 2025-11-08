@@ -10,7 +10,7 @@ level: Experienced
 keywords: subdomínio, delegação, domínio, DNS
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 22%
@@ -23,7 +23,7 @@ ht-degree: 22%
 >
 >Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
-Como alternativa aos métodos [Totalmente delegado](about-subdomain-delegation.md#full-subdomain-delegation) e [CNAME configurado](about-subdomain-delegation.md#cname-subdomain-delegation), o método **Delegação personalizada** permite que você assuma a propriedade de seus subdomínios dentro do Journey Optimizer e tenha controle total sobre os certificados gerados.
+Como alternativa aos métodos [Totalmente delegado](about-subdomain-delegation.md#full-subdomain-delegation) e [CNAME configurado](about-subdomain-delegation.md#subdomain-delegation-methods), o método **Delegação personalizada** permite que você assuma a propriedade de seus subdomínios dentro do Journey Optimizer e tenha controle total sobre os certificados gerados.
 
 Como parte desse processo, a Adobe precisa garantir que seu DNS esteja configurado adequadamente para entregar, renderizar e rastrear mensagens. É por isso que você deverá [carregar o certificado SSL](#upload-ssl-certificate) obtido da Autoridade de Certificação e concluir as [etapas do Loop de Comentários](#feedback-loop-steps) verificando a propriedade do domínio e o endereço de email de relatórios.
 
@@ -126,7 +126,7 @@ Para configurar um subdomínio personalizado, siga as etapas abaixo.
 >title="Concluir as etapas do loop de comentários"
 >abstract="Acesse o Yahoo! Sender Hub e preencha o formulário para confirmar a propriedade do domínio. Insira o endereço de email para a geração de relatórios FBL listado abaixo e use o OTP que será recebido para confirmar a propriedade no Yahoo! Sender Hub."
 
-1. Vá para o [Yahoo! Site do Hub do Remetente &#x200B;](https://senders.yahooinc.com/) e preencha o formulário necessário para verificar a propriedade do domínio.
+1. Vá para o [Yahoo! Site do Hub do Remetente ](https://senders.yahooinc.com/) e preencha o formulário necessário para verificar a propriedade do domínio.
 
 1. Para verificar a propriedade do domínio, o Yahoo! O Hub do remetente exigirá que você forneça um endereço de email. Insira o endereço de email de relatório FBL listado em **[!UICONTROL Valor]**. Este é um endereço de email da Adobe.
 

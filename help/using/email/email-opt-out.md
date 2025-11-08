@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recusar, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 26%
@@ -22,7 +22,7 @@ Ao enviar mensagens de jornadas ou campanhas, você deve sempre garantir que os 
 
 >[!NOTE]
 >
->Todas as suas mensagens de marketing devem incluir um link para opção de não participação. Isso não é necessário para mensagens transacionais. A categoria da mensagem - **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]** - é definida no nível [configuração de canal](../configuration/channel-surfaces.md#email-type) e ao criar a mensagem.
+>Todas as suas mensagens de marketing devem incluir um link para opção de não participação. Isso não é necessário para mensagens transacionais. A categoria da mensagem - **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]** - é definida no nível [configuração de canal](email-settings.md#email-type) e ao criar a mensagem.
 
 Para inserir um link de cancelamento de subscrição no seu conteúdo de email, você pode:
 
@@ -34,7 +34,7 @@ Para inserir um link de cancelamento de subscrição no seu conteúdo de email, 
 
 Quando um recipient clica no link para opção de não participação, a solicitação de cancelamento de inscrição é processada adequadamente.
 
-Para verificar se a escolha do perfil correspondente foi atualizada, vá para Experience Platform e [navegue até esse perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#attributes-tab). Na guia **[!UICONTROL Atributos]**, é possível ver que o valor de **[!UICONTROL opção]** foi alterado para **[!UICONTROL não]**. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+Para verificar se a escolha do perfil correspondente foi atualizada, vá para Experience Platform e [navegue até esse perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Na guia **[!UICONTROL Atributos]**, é possível ver que o valor de **[!UICONTROL opção]** foi alterado para **[!UICONTROL não]**. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 

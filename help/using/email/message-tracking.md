@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 27%
@@ -73,7 +73,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
    * Selecione **[!UICONTROL Consentimento/Assinatura externa]** para inserir um link para aceitar receber comunicações da sua marca.
 
-   * Selecione **[!UICONTROL Opção de não participação/Cancelamento de assinatura externo]** para inserir um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa em [esta seção](email-opt-out.md#opt-out-management).
+   * Selecione **[!UICONTROL Opção de não participação/Cancelamento de assinatura externo]** para inserir um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa em [esta seção](email-opt-out.md#email-opt-out).
 
    * Selecione **[!UICONTROL Mirror page]** para adicionar um link à mirror page do email. [Saiba mais](#mirror-page)
 
@@ -93,7 +93,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
 >[!NOTE]
 >
->As mensagens de email do tipo Marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida na [configuração de canal](../configuration/channel-surfaces.md#email-type) ao criar a mensagem.
+>As mensagens de email do tipo Marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-decision-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida na [configuração de canal](email-settings.md#email-type) ao criar a mensagem.
 
 Depois que a mensagem é enviada, o período de retenção de um link é de **25 meses**. Após esse atraso, o link não estará mais disponível.
 

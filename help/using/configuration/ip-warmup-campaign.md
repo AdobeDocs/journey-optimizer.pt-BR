@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, pools, capacidade de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -29,13 +29,13 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
 1. Crie uma [configuração](channel-surfaces.md) de canal de email para o domínio e os IPs identificados para o seu plano de aquecimento.
 
-   Trabalhe com seu consultor de entrega para identificar o domínio e os IPs a serem usados. Saiba como selecioná-los em uma configuração de email em [esta seção](../email/email-settings.md#subdomains-and-ip-pools).
+   Trabalhe com seu consultor de entrega para identificar o domínio e os IPs a serem usados. Saiba como selecioná-los em uma configuração de email em [esta seção](../email/email-settings.md#ip-pools).
 
    >[!CAUTION]
    >
    >Não edite a configuração do canal de email depois que o plano de aquecimento de IP tiver [iniciado](ip-warmup-execution.md).
 
-1. Crie uma [campanha](../campaigns/create-campaign.md) de marketing agendado e selecione a ação [Email](../email/create-email.md#create-email-journey-campaign).
+1. Crie uma [campanha](../campaigns/create-campaign.md) de marketing agendado e selecione a ação [Email](../email/create-email.md#create-email).
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
@@ -57,7 +57,7 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
    >[!IMPORTANT]
    >
-   >Os públicos permitidos em uma campanha de aquecimento de IP devem ser [baseados em segmentos](../audience/creating-a-segment-definition.md) e criados usando a [política de mesclagem padrão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >Os públicos permitidos em uma campanha de aquecimento de IP devem ser [baseados em segmentos](../audience/creating-a-segment-definition.md) e criados usando a [política de mesclagem padrão](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
@@ -65,7 +65,7 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >[Regras de negócio](../conflict-prioritization/rule-sets.md#apply-frequency-rule) não devem ser usadas em planos de aquecimento de IP. A aplicação dessas regras pode impedir que se atinja o número desejado de perfis direcionados para campanhas.
+   >[Regras de negócio](../conflict-prioritization/rule-sets.md#rule-sets) não devem ser usadas em planos de aquecimento de IP. A aplicação dessas regras pode impedir que se atinja o número desejado de perfis direcionados para campanhas.
 
    Para uma campanha ativa com o plano de aquecimento de IP ativado, o botão **[!UICONTROL Excluir]** estará disponível até ser associado a um plano de aquecimento de IP. Depois de usada em um plano, a campanha não pode mais ser excluída.
 

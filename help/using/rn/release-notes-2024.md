@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -308,7 +308,7 @@ Esta versão vem com as melhorias listadas abaixo.
    * 90 dias para dados na loja de perfis
    * 13 meses para dados no data lake
 
-  Essa alteração será implementada nas sandboxes de clientes existentes em uma fase futura. [Saiba mais](../data/datasets-ttl.md#ttl)
+  Essa alteração será implementada nas sandboxes de clientes existentes em uma fase futura. [Saiba mais](../data/datasets-ttl.md#ttl-guardrail)
 
 * **Parâmetros em ações personalizadas**: data de disponibilidade: 3 de outubro de 2024: agora parâmetros NULL e opcionais são compatíveis com as ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -631,7 +631,7 @@ Essa versão traz as melhorias listadas abaixo.
 **Jornadas**
 
 * Na atividade **Condição**, por padrão, a **[!UICONTROL condição de tempo]** agora é definida por hora, das 00:00 às 12:00. [Leia mais](../building-journeys/condition-activity.md#time_condition)
-* Ao criar as jornadas, os alertas agora são exibidos ao selecionar o botão **Alertas**, para que se alinhar a outros alertas e proporcionar uma experiência consistente aos usuários. [Leia mais](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Ao criar as jornadas, os alertas agora são exibidos ao selecionar o botão **Alertas**, para que se alinhar a outros alertas e proporcionar uma experiência consistente aos usuários. [Leia mais](../building-journeys/troubleshooting.md#activity-errors)
 * As opções de zoom na barra de ferramentas da jornada foram aprimoradas: a porcentagem de zoom agora está visível e é possível redefinir mais facilmente o valor do zoom.
 
 **Canal de push**
@@ -1129,7 +1129,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Gerenciamento de conteúdo**
 
-* Agora é possível simular modelos de conteúdo para todos os canais. [Leia mais](../content-management/content-templates.md#test-templates)
+* Agora é possível simular modelos de conteúdo para todos os canais. [Leia mais](../content-management/content-templates.md#video-templates)
 
 **Personalização**
 
@@ -1242,7 +1242,7 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 
 * Agora é possível direcionar **públicos-alvo criados por meio da composição de público-alvo** e aproveitar os atributos de enriquecimento em jornadas. [Saiba mais](../building-journeys/read-audience.md)
 
-* Agora é possível direcionar **públicos-alvo enviados a partir de um arquivo CSV** para jornadas e campanhas. [Saiba mais](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Agora é possível direcionar **públicos-alvo enviados a partir de um arquivo CSV** para jornadas e campanhas. [Saiba mais](../audience/about-audiences.md#about-segments)
 
   >[!AVAILABILITY]
   >

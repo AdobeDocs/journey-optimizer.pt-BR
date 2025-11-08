@@ -4,7 +4,7 @@ description: Saiba como criar regras de limitação para suas jornadas e como ar
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 18%
@@ -92,7 +92,7 @@ Para criar uma regra de limite de jornada, siga estas etapas:
 
 1. Repita as etapas acima para adicionar quantas regras forem necessárias ao conjunto de regras.
 
-1. Quando a regra de limitação estiver pronta para ser aplicada a jornadas, ative a regra e o conjunto de regras em que ela foi adicionada. [Saiba como ativar conjuntos de regras](../conflict-prioritization/rule-sets.md#create)
+1. Quando a regra de limitação estiver pronta para ser aplicada a jornadas, ative a regra e o conjunto de regras em que ela foi adicionada. [Saiba como ativar conjuntos de regras](../conflict-prioritization/rule-sets.md#Create)
 
 ## Aplicar regras de limitação a jornadas {#apply-capping}
 
@@ -115,8 +115,8 @@ Quando uma jornada estiver ativa, você poderá verificar no relatório de jorna
 
 ![](assets/journey-report.png)
 
-Além disso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para criar consultas para identificar qual regra fez com que um perfil não entrasse em uma determinada jornada. Um exemplo de consulta está disponível em [esta seção](../reports/query-examples.md#common-queries).
+Além disso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para criar consultas para identificar qual regra fez com que um perfil não entrasse em uma determinada jornada. Um exemplo de consulta está disponível em [esta seção](../reports/query-examples.md#common-queries).
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447620?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

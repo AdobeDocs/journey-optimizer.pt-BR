@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -262,7 +262,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <td>
 <p>Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/3414156?captions=por_br">vídeo do recurso</a>.
+<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/346680">vídeo do recurso</a>.
 </td>
 </tr>
 </tbody>
@@ -518,7 +518,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 **Email**
 
-* **Salvar como modelo** - agora, você pode salvar um conteúdo de email como modelo e reutilizá-lo ao criar outras mensagens. [Saiba mais](../content-management/content-templates.md#save-as-template)
+* **Salvar como modelo** - agora, você pode salvar um conteúdo de email como modelo e reutilizá-lo ao criar outras mensagens. [Saiba mais](../content-management/content-templates.md#video-templates)
 
 
 **Administração**
@@ -630,7 +630,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 **Páginas de destino**
 
-* **Nova opção de caixas de seleção para aceitar/recusar** - Agora é possível inserir uma única caixa de seleção para aceitar/recusar nas páginas de destino de assinatura. Os usuários precisam marcar a caixa para consentir (aceitar) e desmarcá-la para remover seu consentimento (recusar). [Saiba mais](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Nova opção de caixas de seleção para aceitar/recusar** - Agora é possível inserir uma única caixa de seleção para aceitar/recusar nas páginas de destino de assinatura. Os usuários precisam marcar a caixa para consentir (aceitar) e desmarcá-la para remover seu consentimento (recusar). [Saiba mais](../landing-pages/design-lp.md#design-lp)
 
 * **Preenchimento prévio de campos de páginas de destino** - Agora é possível conceder aos usuários a capacidade de preencher previamente os campos da página de destino com informações de perfil. [Saiba mais](../landing-pages/create-lp.md#configure-primary-page)
 
