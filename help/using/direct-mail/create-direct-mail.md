@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
+source-git-commit: e823be2257d49158492af508e23f40e749bc33be
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 19%
@@ -63,7 +63,7 @@ Para criar uma campanha de correspondência direta, siga estas etapas:
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
-1. As campanhas podem ser agendadas para uma data específica ou definidas para recorrentes em intervalos regulares. Saiba como configurar o **[!UICONTROL Cronograma]** da sua campanha no [nesta seção](../campaigns/create-campaign.md#schedule).
+1. As campanhas podem ser agendadas para uma data específica ou definidas para recorrentes em intervalos regulares. Saiba como configurar o **[!UICONTROL Cronograma]** da sua campanha no [nesta seção](../campaigns/campaign-schedule.md).
 
 Agora você pode começar a configurar o arquivo de extração para enviar ao seu provedor de correspondência direta.
 
