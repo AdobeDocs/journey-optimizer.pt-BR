@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: e823be2257d49158492af508e23f40e749bc33be
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '781'
 ht-degree: 19%
 
 ---
@@ -37,7 +37,7 @@ Para criar mensagens de correspondência direta, crie uma campanha agendada e co
 >
 >A Correspondência direta oferece suporte à funcionalidade de Retenção, mas atualmente não oferece suporte a Tratamentos.
 
-Para criar uma campanha de correspondência direta, siga estas etapas:
+Para criar uma campanha de correspondência direta, você configurará uma campanha agendada, selecionará seu público-alvo e definirá as configurações de correspondência direta, incluindo a configuração da mensagem. Siga estas etapas:
 
 1. Acesse o menu **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**.
 

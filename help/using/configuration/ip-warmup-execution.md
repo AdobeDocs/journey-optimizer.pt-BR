@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2678'
 ht-degree: 11%
 
 ---
@@ -158,11 +158,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >title="Exibir os perfis qualificados"
 >abstract="Essa coluna exibe o número de perfis qualificados. Caso haja mais perfis direcionados do que perfis qualificados após o público-alvo ser avaliado para uma execução, ela ainda é executada, a menos que a opção **Cancelar execuções ativadas em caso de erros** esteja habilitada. Nesse caso, a execução é cancelada."
 
+Depois de definir as fases do plano de aquecimento de IP, é necessário configurar as execuções individuais em cada fase. Cada execução requer um agendamento e, opcionalmente, você pode configurar filtros de engajamento, manipulação de erros e janelas de repetição para garantir a execução ideal. Siga estas etapas:
+
 1. Selecione uma programação para cada execução para garantir que ela seja executada no horário especificado.
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Como opção, você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada caso haja atrasos na [avaliação do público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#how-segmentation-works){target="_blank"}. Para fazer isso, clique no ícone Propriedades na parte superior esquerda, ao lado do nome do plano e use a lista suspensa **[!UICONTROL Tentar novamente o tempo de execução]** para selecionar uma duração - até 240 minutos (4 horas).
+1. Como opção, você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada caso haja atrasos na [avaliação do público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Para fazer isso, clique no ícone Propriedades na parte superior esquerda, ao lado do nome do plano e use a lista suspensa **[!UICONTROL Tentar novamente o tempo de execução]** para selecionar uma duração - até 240 minutos (4 horas).
 
    >[!NOTE]
    >
@@ -220,7 +222,7 @@ Para ativar uma execução, selecione o botão **[!UICONTROL Ativar]**. Em segui
 
 Ao executar vários planos de aquecimento de IP simultaneamente, todos direcionados ao mesmo pool de IP e domínios, é fundamental antecipar as possíveis consequências. Por exemplo, se um ISP impor um limite diário de 100 emails, a execução de vários planos direcionados aos mesmos domínios poderá ultrapassar esse limite.
 
-Certifique-se de ter agendado tempo suficiente para permitir que a [avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#how-segmentation-works){target="_blank"} seja executada.
+Certifique-se de ter agendado tempo suficiente para permitir que a [avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} seja executada.
 
 ![](assets/ip-warmup-plan-activate.png)
 

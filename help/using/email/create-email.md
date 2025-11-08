@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1059'
 ht-degree: 9%
 
 ---
@@ -79,6 +79,8 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 >id="test_id"
 >title="Configurar conteúdo de email"
 >abstract="Crie o conteúdo do seu email. Defina o assunto e aproveite o Designer de email para criar e personalizar o corpo do email."
+
+Depois de adicionar a ação de email à sua jornada ou campanha, é necessário definir o conteúdo do email, incluindo a linha de assunto, as informações do remetente e o corpo do email usando o Designer de email. Siga estas etapas:
 
 1. Na tela de configuração da jornada ou campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo do email. [Saiba mais](get-started-email-design.md)
 
