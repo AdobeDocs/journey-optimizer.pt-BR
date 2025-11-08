@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1055'
 ht-degree: 9%
 
 ---
@@ -49,9 +49,9 @@ Para obter mais informações sobre como configurar uma jornada, consulte [esta 
 
 >[!TAB Adicionar um email a uma campanha]
 
-1. Crie uma nova campanha agendada ou acionada por API e selecione **[!UICONTROL Email]** como ação.
+1. [Crie uma campanha](../campaigns/create-campaign.md) e selecione **[!UICONTROL Email]** como sua ação.
 
-1. Conclua as etapas para criar uma campanha de email, como as propriedades da campanha, [público](../audience/about-audiences.md) e [agendamento](../campaigns/campaign-schedule.md#action-campaign-schedule).
+1. Conclua as etapas para criar uma campanha de email, como as propriedades da campanha, [público](../audience/about-audiences.md) e [agendamento](../campaigns/campaign-schedule.md).
 
    ![](assets/email_campaign_steps.png)
 
