@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 99%
+source-wordcount: '825'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ As mensagens de texto podem ser criadas e enviadas em uma jornada ou em uma camp
 
 * Em uma **jornada**. Crie uma jornada, adicione uma atividade de SMS e defina configurações básicas. Em seguida, navegue até o painel Ações de SMS à direita para criar o conteúdo da mensagem SMS, MMS ou RCS. [Saiba como criar uma jornada](../building-journeys/journey-gs.md)
 
-* Em uma **Campanha**. Crie uma campanha, selecione SMS como sua ação e defina as configurações básicas. Em seguida, edite o conteúdo da mensagem para definir a mensagem SMS, MMS ou RCS que será enviada. [Saiba como criar uma campanha](../campaigns/campaign-action.md#action-campaign-action)
+* Em uma **Campanha**. Crie uma campanha, selecione SMS como sua ação e defina as configurações básicas. Em seguida, edite o conteúdo da mensagem para definir a mensagem SMS, MMS ou RCS que será enviada. Saiba como criar [uma campanha de ação](../campaigns/campaign-action.md#action-campaign-action) | [uma campanha acionada por API](../campaigns/api-triggered-campaigns.md) | [uma campanha orquestrada](../orchestrated/create-orchestrated-campaign.md#create)
 
 >[!IMPORTANT]
 >
@@ -201,7 +201,7 @@ Saiba como configurar, criar e incluir mensagens de SMS nas jornadas do cliente.
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422698?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Descubra os recursos abrangentes de mensagens móveis que o Adobe Journey Optimi
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430380?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Saiba como configurar e enviar mensagens RCS interativas e alinhadas à marca no
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464760?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

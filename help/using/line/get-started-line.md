@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
-source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ As mensagens LINE podem ser criadas e enviadas em uma jornada ou em uma campanha
 
 * Em uma **jornada**. Crie uma jornada, adicione uma atividade LINE, defina configurações básicas e navegue até o painel direito **[!UICONTROL Ações: LINE]** para criar o conteúdo da mensagem LINE. Saiba como criar uma jornada [nesta página](../building-journeys/journey-gs.md).
 
-* Em uma **Campanha**. Crie uma campanha, selecione LINE como ação, defina configurações básicas e edite o conteúdo da mensagem LINE a ser enviada. Saiba como criar uma campanha [nesta página](../campaigns/create-campaign.md#configure).
+* Em uma **Campanha**. Crie uma campanha, selecione LINE como ação, defina configurações básicas e edite o conteúdo da mensagem LINE a ser enviada. Saiba como criar [uma campanha de ação](../campaigns/campaign-action.md#action-campaign-action) | [uma campanha acionada por API](../campaigns/api-triggered-campaigns.md) | [uma campanha orquestrada](../orchestrated/create-orchestrated-campaign.md#create)
 
 Antes de criar a mensagem LINE, configure o canal LINE com o Journey Optimizer. [Saiba mais](line-configuration.md).
 

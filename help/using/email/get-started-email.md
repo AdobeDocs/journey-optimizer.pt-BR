@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: email, iniciar, criação, visualização
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 66%
+source-wordcount: '295'
+ht-degree: 63%
 
 ---
 
@@ -29,7 +29,7 @@ Entregas de email podem ser criadas:
 
 * Em uma **Jornada**: depois de adicionar uma atividade de **[!UICONTROL Email]** para sua jornada e definir as configurações básicas, use o painel direito **[!UICONTROL Ações: Email]** para criar o conteúdo da mensagem. [Saiba como criar uma jornada](../building-journeys/journey-gs.md)
 
-* Em uma **Campanha**: depois de criar uma campanha, selecione **[!UICONTROL Email]** como sua ação e defina as configurações básicas. [Saiba como criar uma campanha](../campaigns/campaign-action.md#action-campaign-action)
+* Em uma **Campanha**: depois de criar uma campanha, selecione **[!UICONTROL Email]** como sua ação e defina as configurações básicas. Saiba como criar [uma campanha de ação](../campaigns/campaign-action.md#action-campaign-action) | [uma campanha acionada por API](../campaigns/api-triggered-campaigns.md) | [uma campanha orquestrada](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]
