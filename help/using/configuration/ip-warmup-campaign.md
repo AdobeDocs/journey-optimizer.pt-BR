@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, pools, capacidade de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -51,13 +51,13 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   A campanha [agenda](../campaigns/create-campaign.md#schedule) será orientada pelo plano de aquecimento de IP ao qual será associada, o que significa que a agenda não está mais definida na própria campanha.
+   A campanha [agenda](../campaigns/campaign-schedule.md) será orientada pelo plano de aquecimento de IP ao qual será associada, o que significa que a agenda não está mais definida na própria campanha.
 
 1. Conclua as etapas para criar uma campanha de email, como definir as propriedades da campanha, [público](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> e [conteúdo](../email/get-started-email-design.md#key-steps).
 
    >[!IMPORTANT]
    >
-   >Os públicos permitidos em uma campanha de aquecimento de IP devem ser [baseados em segmentos](../audience/creating-a-segment-definition.md) e criados usando a [política de mesclagem padrão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >Os públicos permitidos em uma campanha de aquecimento de IP devem ser [baseados em segmentos](../audience/creating-a-segment-definition.md) e criados usando a [política de mesclagem padrão](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
@@ -75,7 +75,7 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
 Uma vez ativa, a campanha estará pronta para uso em um plano de aquecimento de IP. [Saiba mais](ip-warmup-plan.md)
 
-Uma campanha de aquecimento de IP só pode ser usada em um plano de aquecimento de IP. No entanto, a mesma campanha pode ser usada em uma ou mais fases do mesmo plano de aquecimento de IP. [Saiba mais](ip-warmup-plan.md#define-phases)
+Uma campanha de aquecimento de IP só pode ser usada em um plano de aquecimento de IP. No entanto, a mesma campanha pode ser usada em uma ou mais fases do mesmo plano de aquecimento de IP. [Saiba mais](ip-warmup-plan.md#ip-warmup-plan-tab)
 
 >[!NOTE]
 >
