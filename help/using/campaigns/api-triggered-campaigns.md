@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 35%
@@ -40,7 +40,7 @@ Para fazer isso, primeiro é necessário criar uma campanha acionada por API no 
 
 ## Etapas principais para a criação de campanhas acionadas por API {#steps}
 
-Antes de começar com campanhas, verifique os seguintes pré-requisitos listados [nesta seção](get-started-with-campaigns.md#permissions). Depois que esses pré-requisitos forem atendidos, você poderá começar a criar sua campanha:
+Antes de começar com campanhas, verifique os seguintes pré-requisitos listados [nesta seção](get-started-with-campaigns.md#prerequisites). Depois que esses pré-requisitos forem atendidos, você poderá começar a criar sua campanha:
 
 1. [Definir as propriedades da campanha](api-triggered-campaign-properties.md)
 1. [Configurar a ação da campanha](api-triggered-campaign-action.md)
@@ -54,4 +54,4 @@ Antes de começar com campanhas, verifique os seguintes pré-requisitos listados
 
 Saiba como criar uma campanha e acioná-la a partir de um sistema externo com base em interações do usuário, usando a API REST de execução de mensagem interativa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452730?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

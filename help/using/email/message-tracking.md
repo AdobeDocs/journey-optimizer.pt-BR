@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 27%
@@ -204,4 +204,4 @@ Agora, quando o email for enviado, esse parâmetro será anexado automaticamente
 
 >[!NOTE]
 >
->Para verificar a URL final, você pode [enviar uma prova](../content-management/preview-test.md#send-proofs) e clicar no link no conteúdo do email depois de receber a prova. O URL deve exibir o parâmetro de rastreamento. No exemplo acima, a URL final será: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>Para verificar a URL final, você pode [enviar uma prova](../content-management/proofs.md) e clicar no link no conteúdo do email depois de receber a prova. O URL deve exibir o parâmetro de rastreamento. No exemplo acima, a URL final será: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

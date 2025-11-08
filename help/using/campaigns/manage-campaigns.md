@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 14%
@@ -200,7 +200,7 @@ Para modificar e criar uma nova versão de uma campanha de Ação recorrente, si
 
    ![](assets/create-campaign-edit-list.png)
 
-1. Quando as alterações estiverem prontas, você poderá ativar a nova versão da campanha (consulte [Revisar e ativar uma campanha](create-campaign.md#review-activate)).
+1. Quando as alterações estiverem prontas, você poderá ativar a nova versão da campanha (consulte [Revisar e ativar uma campanha](review-activate-campaign.md)).
 
    >[!IMPORTANT]
    >

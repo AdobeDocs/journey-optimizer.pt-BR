@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
-source-git-commit: 4521990a02092365f996a81299ada55433639fb7
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Esta página explica como as campanhas com alta taxa de transferência diferem d
 
 * **Personalization**:
 
-   * Toda a personalização deve ser incluída na carga da API como **dados contextuais**. [Saiba como personalizar o conteúdo usando dados contextuais](../campaigns/api-triggered-campaign-action.md#contextual)
+   * Toda a personalização deve ser incluída na carga da API como **dados contextuais**. [Saiba como personalizar o conteúdo usando dados contextuais](../campaigns/api-triggered-campaign-content.md#contextual)
    * A personalização baseada em perfil não é compatível. Se as variáveis de perfil forem usadas, ocorrerão erros de validação.
 
 * **Configurações de canal personalizadas** - As configurações de canal que usam [personalização baseada em perfil](../email/surface-personalization.md) não podem ser usadas com campanhas de alta taxa de transferência. Somente superfícies sem personalização de perfil podem ser usadas.
@@ -77,7 +77,7 @@ Em outras palavras:
 
 * Escolha campanhas de **Alta taxa de transferência** se:
    * Você precisa de throughput >500 TPS.
-   * Você não exige a compilação de perfil.
+   * Você não precisa de compilação de perfil.
    * Você pode transmitir toda a personalização na carga da API.
    * Você deseja usar o canal de email.
 

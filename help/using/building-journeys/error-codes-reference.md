@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: error, codes, troubleshooting, jornada, campaign, messages (erro, códigos, solução de problemas, , campanha, mensagens)
-source-git-commit: 28a8f113d594f80ba7de22229e9a223b7f17ae8d
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '2394'
 ht-degree: 1%
@@ -68,7 +68,7 @@ Esses erros ocorrem durante a execução da jornada, o processamento de eventos 
 | **CJMRT-080605-400** | Solicitação inválida do tempo de execução do jornada (por exemplo, acionador de nó, ação etc.) | A configuração faz referência a um recurso/modelo/canal removido/renomeado ou desatualizado | &#x200B;1. Validar todas as referências de recurso<br/>2. Auditoria de configuração de jornada e sinalizadores de recursos<br/>3. Atualizar referências corrompidas<br/>4. Revise as atualizações e migrações recentes do sistema <br/><br/>**Documentação relacionada**: [criação de Jornadas](journey-gs.md) |
 | **CJMRT-030012-422** | Entidade não processável - ação com falha, evento inválido ou carga inválida | Dados de entrada inválidos (por exemplo, público-alvo, evento ou atributo não existente) | &#x200B;1. Verifique novamente a estrutura de carga de entrada/evento<br/>2. Verifique se os objetos referenciados (públicos, conjuntos de dados) existem e estão ativos<br/>3. Validar se todos os campos obrigatórios estão presentes<br/>4. Teste com uma carga em boas condições <br/><br/>**Documentação relacionada**: [Solução de problemas de Jornada](troubleshooting.md), [Configuração de eventos](../event/about-events.md) |
 | **CJMRT-130004-400** | Solicitação inválida - entrada malformada no nó do jornada ou na configuração do canal | Jornada referências de carga ou configuração removidas/recurso inválido | &#x200B;1. Revise a configuração do nó de jornada<br/>2. Verifique se todos os recursos referenciados (mensagens, públicos, ações) existem<br/>3. Corrigir ou atualizar referências corrompidas<br/>4. Recrie a configuração da jornada, se necessário <br/><br/>**Documentação relacionada**: [Criação de Jornadas](journey-gs.md), [Ações personalizadas](../action/about-custom-action-configuration.md) |
-| **CJMRT-000032-409** | Conflito - o recurso já existe | Tentativa de criar recurso com ID ou nome duplicado | &#x200B;1. Use IDs e nomes exclusivos para todos os recursos<br/>2. Verificar recursos existentes com o mesmo identificador<br/>3. Excluir ou renomear objetos conflitantes<br/>4. Revisar convenções de nomenclatura <br/><br/>**Documentação relacionada**: [versões de Jornada](journey-gs.md#journey-versions) |
+| **CJMRT-000032-409** | Conflito - o recurso já existe | Tentativa de criar recurso com ID ou nome duplicado | &#x200B;1. Use IDs e nomes exclusivos para todos os recursos<br/>2. Verificar recursos existentes com o mesmo identificador<br/>3. Excluir ou renomear objetos conflitantes<br/>4. Revisar convenções de nomenclatura <br/><br/>**Documentação relacionada**: [criação de Jornada](journey-gs.md) |
 | **CJMRT-170016-400** | Solicitação inválida durante a configuração/visualização do jornada | A carga não tem a dependência necessária ou o link de modelo foi corrompido | &#x200B;1. Verifique se todos os recursos necessários estão ativos<br/>2. Verifique se os modelos e blocos de conteúdo foram publicados<br/>3. Verifique se todas as dependências estão vinculadas corretamente<br/>4. Revise os resultados do modo de teste de jornada <br/><br/>**Documentação relacionada**: [Testando jornadas](testing-the-journey.md), [Dependências de Jornada](journey-gs.md) |
 | **CJMRT-080608-400** | Solicitação inválida no domínio/canal/delegação | Registros DNS necessários ou configuração de email/SMS ausente | &#x200B;1. Configuração de DNS concluída para domínios de email<br/>2. Verifique se a delegação de subdomínio foi concluída<br/>3. Execute os assistentes de configuração novamente<br/>4. Tempo de permissão para propagação DNS (até 72 horas)<br/><br/>**Documentação relacionada**: [Superfícies de canal](../configuration/channel-surfaces.md), [Delegação de subdomínio](../configuration/delegate-subdomain.md) |
 | **CJMRT-110100-500** | Erro interno na carga útil | Dados de back-end/erro de configuração ou configuração não compatível | &#x200B;1. Repita a operação<br/>2. Simplifique a configuração se estiver usando recursos avançados<br/>3. Escalonar para o Suporte da Adobe com ID de solicitação e carga exata<br/>4. Verifique problemas conhecidos nas notas de versão <br/><br/>**Documentação relacionada**: [Solução de problemas de Jornada](troubleshooting.md) |
@@ -182,15 +182,15 @@ Se você encontrar erros persistentes que não podem ser resolvidos usando este 
 1. **Coletar informações**: coletar o código de erro, a ID da solicitação, os carimbos de data/hora e as etapas para reproduzir
 2. **Verificar o status do sistema**: Visite [Status do Adobe](https://status.adobe.com/){target="_blank"} para conhecer problemas de serviço
 3. **Pesquisar documentação**: consulte a [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=pt-BR){target="_blank"} para obter soluções
-4. **Engajar a comunidade**: postar perguntas na [Comunidade do Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}
+4. **Engajar a comunidade**: postar perguntas na [Comunidade do Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 5. **Contate o Suporte da Adobe**: envie um tíquete de suporte com todos os detalhes relevantes
 
 >[!NOTE]
 >
->Esta referência de código de erro é atualizada continuamente à medida que novos códigos são identificados e documentados. Para obter as informações mais atuais, verifique os [blogs da Adobe Journey Optimizer Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=pt){target="_blank"} regularmente.
+>Esta referência de código de erro é atualizada continuamente à medida que novos códigos são identificados e documentados. Para obter as informações mais atuais, verifique os [blogs da Adobe Journey Optimizer Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"} regularmente.
 
 **Tópicos relacionados**
 
-* [Códigos de erro de Adobe Journey Optimizer desmistificados: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt){target="_blank"}
-* [Códigos de erro de Adobe Journey Optimizer desmistificados: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=pt){target="_blank"}
+* [Códigos de erro de Adobe Journey Optimizer desmistificados: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Códigos de erro de Adobe Journey Optimizer desmistificados: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 

@@ -11,7 +11,7 @@ badge: label="Disponibilidade limitada" type="Informative"
 keywords: atividade, decisão, decisão de conteúdo, política de decisão, tela, jornada
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
@@ -60,13 +60,13 @@ Para configurar a atividade **[!UICONTROL Decisão de conteúdo]**, siga as etap
 
 1. Selecione o número de itens que você deseja retornar. Por exemplo, se você selecionar 2, as 2 melhores ofertas qualificadas serão apresentadas. Clique em **[!UICONTROL Next]**.
 
-1. Na seção **[!UICONTROL Sequência de estratégia]**, selecione os itens de decisão e/ou as estratégias de seleção a serem apresentados com a política de decisão. [Saiba mais](../experience-decisioning/create-decision.md#select)
+1. Na seção **[!UICONTROL Sequência de estratégia]**, selecione os itens de decisão e/ou as estratégias de seleção a serem apresentados com a política de decisão. [Saiba mais](../experience-decisioning/create-decision.md#create-decision)
 
 1. Organize a ordem de avaliação conforme necessário.
 
-   Ao adicionar vários itens e/ou estratégias de decisão, eles são avaliados em ordem sequencial, indicados com números à esquerda de cada objeto ou grupo de objetos. Para alterar a sequência padrão, você pode arrastar e soltar os objetos e/ou grupos para reordená-los como desejado. [Saiba mais](../experience-decisioning/create-decision.md#evaluation-order)
+   Ao adicionar vários itens e/ou estratégias de decisão, eles são avaliados em ordem sequencial, indicados com números à esquerda de cada objeto ou grupo de objetos. Para alterar a sequência padrão, você pode arrastar e soltar os objetos e/ou grupos para reordená-los como desejado. [Saiba mais](../experience-decisioning/create-decision.md#create-decision)
 
-1. (opcional) Adicione uma oferta substituta. [Saiba mais](../experience-decisioning/create-decision.md#fallback)
+1. (opcional) Adicione uma oferta substituta. [Saiba mais](../experience-decisioning/create-decision.md#create-decision)
 
 1. Revise e salve a política de decisão.
 

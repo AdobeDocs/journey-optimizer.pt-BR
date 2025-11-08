@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 6%
@@ -158,7 +158,7 @@ Esse limite é verificado a cada 30 minutos. Isso significa que você pode exced
 
   Se você retomar as jornadas para retornar o número de perfis retidos para o limite, a jornada será retomada imediatamente, mas pode levar até 30 minutos para que a contagem de perfis seja atualizada. Durante esse tempo, o sistema ainda poderá considerar esses perfis como pausados.
 
-* Para jornadas que incluem [atividades de entrada](../channels/gs-channels.md#mobile-app-and-web-experiences) (por exemplo, no aplicativo, na Web etc.), pausar a jornada não interrompe as comunicações que já foram acionadas. Se um perfil tiver se qualificado para uma atividade de entrada antes da pausa, a mensagem correspondente ainda será entregue. Para interromper completamente todas as comunicações de entrada, você deve interromper a jornada.
+* Para jornadas que incluem [atividades de entrada](../channels/gs-channels.md#inbound-channels) (por exemplo, no aplicativo, na Web etc.), pausar a jornada não interrompe as comunicações que já foram acionadas. Se um perfil tiver se qualificado para uma atividade de entrada antes da pausa, a mensagem correspondente ainda será entregue. Para interromper completamente todas as comunicações de entrada, você deve interromper a jornada.
 * As jornadas pausadas são contadas para a cota de jornada ativa
 * Os perfis que tinham entrado na jornada, mas foram descartados durante a pausa, ainda seriam contados como perfis ativáveis
 * As jornadas pausadas são consideradas em todas as regras de negócios, da mesma forma como se estivessem ativas
@@ -201,7 +201,7 @@ Ao retomar esta jornada:
 
 ## Solução de problemas de descartes de perfis em jornadas pausadas {#discards-troubleshoot}
 
-Você pode usar o [Serviço de consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
+Você pode usar o [Serviço de consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
 
 * Para descartes que ocorrem antes que o perfil entre na jornada, use o seguinte código:
 
