@@ -40,7 +40,7 @@ Descubra como adicionar campos editáveis a modelos, permitindo que os profissio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Testar experiências baseadas em código
 
@@ -50,7 +50,7 @@ Saiba como visualizar e simular experiências baseadas em código, usando perfis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Publicar e gerenciar experiências baseadas em código
 

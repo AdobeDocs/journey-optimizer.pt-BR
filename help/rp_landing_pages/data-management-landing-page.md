@@ -20,7 +20,7 @@ O gerenciamento de dados no Adobe Journey Optimizer permite que você assuma o c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução ao gerenciamento de dados
 
@@ -40,7 +40,7 @@ Entenda e gerencie esquemas da Adobe Experience Platform para obter uma modelage
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
 
 Conjuntos de dados do Journey Optimizer
 

@@ -30,7 +30,7 @@ Saiba como gerenciar as preferências de recusa e aplicar o consentimento de per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Trabalhar com políticas de consentimento
 

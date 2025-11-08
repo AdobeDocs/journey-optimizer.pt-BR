@@ -20,7 +20,7 @@ A seção Configurar canal baseado em código no Adobe Journey Optimizer ajuda a
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Pré-requisitos da experiência baseada em código
 
@@ -30,7 +30,7 @@ Saiba mais sobre os pré-requisitos para usar experiências baseadas em código,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Superfícies da experiência baseada em código
 
@@ -50,7 +50,7 @@ Obtenha orientação passo a passo para implementar experiências baseadas em c�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Decisão sobre implementações de experiências baseadas em código
 

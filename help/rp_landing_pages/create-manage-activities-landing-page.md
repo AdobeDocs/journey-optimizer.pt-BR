@@ -40,7 +40,7 @@ Explore como configurar métodos de classificação de decisões, incluindo pont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Simular decisões de oferta
 

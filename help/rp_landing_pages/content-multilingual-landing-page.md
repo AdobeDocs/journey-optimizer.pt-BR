@@ -20,7 +20,7 @@ O recurso de conteúdo multilíngue do Adobe Journey Optimizer permite que você
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao conteúdo multilíngue
 

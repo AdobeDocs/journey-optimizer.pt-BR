@@ -40,7 +40,7 @@ Defina configurações de email para capacidade de entrega, conformidade e perso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Habilitar e configurar o cancelamento de assinatura da lista
 
