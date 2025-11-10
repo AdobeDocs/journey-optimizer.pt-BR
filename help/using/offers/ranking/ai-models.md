@@ -8,7 +8,8 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 58a5737a1eb56ab88aa71ba0a740dd51258e5248
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 15%
@@ -63,4 +64,4 @@ As principais etapas para criar e usar modelos de IA são as seguintes:
 
 Saiba como criar um modelo de IA para o Offer Decisioning e como aplicá-lo a uma decisão.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445649?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

@@ -6,7 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -29,7 +30,7 @@ Para usar dados de contexto, primeiro é necessário definir os dados que deseja
 
 As etapas para alimentar a Decisão com dados do Adobe Experience Platform são as seguintes:
 
-1. Crie um **esquema de Evento de Experiência** no Adobe Experience Platform e seu **conjunto de dados** associado. [Saiba como criar esquemas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Crie um **esquema de Evento de Experiência** no Adobe Experience Platform e seu **conjunto de dados** associado. [Saiba como criar esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. Criar um novo fluxo de dados do Adobe Experience Platform:
 
@@ -47,6 +48,6 @@ Depois que a sequência de dados é salva, as informações do conjunto de dados
 
 Para obter mais orientações sobre como trabalhar com o Adobe Experience Platform, explore os seguintes recursos:
 
-* [Esquemas do Experience Data Model (XDM)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [Conjuntos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [Datastreams](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/overview){target="_blank"}
+* [Esquemas do Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [Conjuntos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [Datastreams](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
