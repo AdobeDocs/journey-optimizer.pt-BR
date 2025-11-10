@@ -6,10 +6,10 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
@@ -21,54 +21,54 @@ A lista completa de [!DNL Journey Optimizer] medidas de proteção e limitaçõe
 
 ## Solicitações de decisão {#decision-requests}
 
-|| Grade de Proteção | Limite |
-|| — | — |
-|| Solicitação de API de experiência baseada em código com política de decisão usando segmentação do Edge | 1500 |
-|| Solicitação de API de experiência baseada em código com política de decisão sem usar a segmentação do Edge | 5000 |
-|| Número máximo de URIs de superfície por solicitação de decisão do Edge | 30 |
+| Grade de Proteção | Limite |
+| ------- | ------- |
+| Solicitação de API de experiência baseada em código com política de decisão usando segmentação do Edge | 1500 |
+| Solicitação de API de experiência baseada em código com política de decisão sem usar a segmentação do Edge | 5000 |
+| Número máximo de URIs de superfície por solicitação de decisão do Edge | 30 |
 
 ## Coleções de itens {#item-collections}
 
-|| Grade de Proteção | Limite |
-|| — | — |
-|| Coleções de itens | 10 K |
-|| Total de itens de oferta por coleção de itens | 500 |
+| Grade de Proteção | Limite |
+| ------- | ------- |
+| Coleções de itens | 10 K |
+| Total de itens de oferta por coleção de itens | 500 |
 
 ## Política de decisão {#decision-policy}
 
-|| Grade de Proteção | Limite |
-|| — | — |
-|| Número de estratégias de seleção e itens manuais por política de decisão | 10 |
-|| Número máximo de itens de oferta retornados por política de decisão | 30 |
+| Grade de Proteção | Limite |
+| ------- | ------- |
+| Número de estratégias de seleção e itens manuais por política de decisão | 10 |
+| Número máximo de itens de oferta retornados por política de decisão | 30 |
 
 ## Regras de elegibilidade {#eligibility-rules}
 
-|| Grade de Proteção | Limite |
-|| — | — |
-|| Total de regras de decisão e fórmulas de classificação | 10K combinados |
-|| Número máximo de atributos de perfil por regra | 25 |
-|| Número máximo de atributos de dados de contexto por regra | 30 |
-|| Tamanho máximo da regra pql | 15K (UTF-8) |
-|| Número máximo de níveis de aninhamento | 30 |
+| Grade de Proteção | Limite |
+| ------- | ------- |
+| Total de regras de decisão e fórmulas de classificação | 10K combinados |
+| Número máximo de atributos de perfil por regra | 25 |
+| Número máximo de atributos de dados de contexto por regra | 30 |
+| Tamanho máximo da regra pql | 15K (UTF-8) |
+| Número máximo de níveis de aninhamento | 30 |
 
 ## Fórmulas de classificação {#ranking-formulas}
 
-|| Grade de Proteção | Limite |
-|| — | — |
-|| Tamanho máximo do PQL de fórmula de classificação | 8K (UTF-8) |
-|| Número máximo de atributos de perfil |25 |
-|| Número máximo de atributos de dados de contexto | 30 |
-|| Número máximo de níveis de aninhamento | 30 |
+| Grade de Proteção | Limite |
+| ------- | ------- |
+| Tamanho máximo do PQL de fórmula de classificação | 8K (UTF-8) |
+| Número máximo de atributos de perfil | 25 |
+| Número máximo de atributos de dados de contexto | 30 |
+| Número máximo de níveis de aninhamento | 30 |
 
 ## Outros {#others}
 
-|| Grade de Proteção | Limite |
-|| — | — |
-|| Número de atributos personalizados por esquema de catálogo de Ofertas | 100 |
-|| Total de itens de oferta | 10 K |
-|| Total de posicionamentos | 1K |
-|| Modelo de classificação de IA | 5 |
-|| Regras de frequência - Número máximo de regras de limitação por oferta | 10 |
+| Grade de Proteção | Limite |
+| ------- | ------- |
+| Número de atributos personalizados por esquema de catálogo de Ofertas | 100 |
+| Total de itens de oferta | 10 K |
+| Total de posicionamentos | 1K |
+| Modelo de classificação de IA | 5 |
+| Regras de frequência - Número máximo de regras de limitação por oferta | 10 |
 
 ## Configurações  {#configurations}
 
