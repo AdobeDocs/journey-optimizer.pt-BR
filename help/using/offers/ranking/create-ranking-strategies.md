@@ -96,4 +96,4 @@ Para enviar tipos de evento (oferta exibida ou oferta clicada), você deve defin
 
 Saiba como criar um modelo de otimização personalizado e como aplicá-lo a uma decisão.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445956?captions=por_br&quality=12)
