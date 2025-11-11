@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: Criar ofertas substitutas
 description: Saiba como criar ofertas substitutas para exibir clientes que não estão qualificados para nenhuma oferta
 badge: label="Legado" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 4%
@@ -63,5 +65,5 @@ Para criar uma oferta substituta, siga estas etapas:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341361?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
