@@ -175,4 +175,4 @@ Isso permite que você acesse informações detalhadas dessa oferta. Selecione a
 
 ## Tutorial em vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341360?captions=por_br&quality=12)

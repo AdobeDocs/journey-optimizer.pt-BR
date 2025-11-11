@@ -77,4 +77,4 @@ Para criar uma regra de decisão, siga estas etapas:
 
 ## Tutorial em vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341377?captions=por_br&quality=12)
