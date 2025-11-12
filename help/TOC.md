@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
 workflow-type: tm+mt
-source-wordcount: '2946'
-ht-degree: 98%
+source-wordcount: '2977'
+ht-degree: 97%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 98%
             + [Esquema de upload do arquivo](using/orchestrated/file-upload-schema.md)
             + [Assimilar dados](using/orchestrated/ingest-data.md)
          + [Criar uma dimensão de direcionamento](using/orchestrated/target-dimension.md)
-         + [Criar uma configuração de canais](using/orchestrated/channel-config.md)
+         + [Definir uma configuração de canal](using/orchestrated/channel-config.md)
       + Lançar a sua primeira campanha orquestrada {#launch}
          + [Lançar a sua primeira campanha orquestrada](/help/rp_landing_pages/launch-landing-page.md)
          + [Etapas principais para criar uma campanha orquestrada](using/orchestrated/gs-campaign-creation.md)
@@ -385,6 +385,13 @@ ht-degree: 98%
       + [Configurar canal LINE no Journey Optimizer](using/line/line-configuration.md)
       + [Criar uma mensagem LINE](using/line/create-line.md)
       + [Verificar e enviar mensagens LINE](using/line/send-line.md)
+   + Atividade online {#live-activity}
+      + [Introdução à atividade Live](using/mobile-live/get-started-mobile-live.md)
+      + [Criar uma atividade ao vivo](using/mobile-live/create-mobile-live.md)
+      + [Perguntas frequentes](using/mobile-live/mobile-live-faq.md)
+      + Configurar canal de cartões de conteúdo {#configure}
+         + [Configurar atividade online no Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
+         + [Configurar a integração do Live Activity SDK](using/mobile-live/mobile-live-configuration-sdk.md)
 + Gerenciamento de conteúdo {#content-management}
    + [Gerenciamento de conteúdo](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalização {#personalization}
@@ -434,7 +441,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -542,6 +549,7 @@ ht-degree: 98%
          + [Relatório de campanha por email](using/reports/campaign-global-report-cja-email.md)
          + [Relatório de campanha de experimentação](using/reports/campaign-global-report-cja-experimentation.md)
          + [Relatório de campanha no aplicativo](using/reports/campaign-global-report-cja-inapp.md)
+         + [Relatório de campanha de atividade ao vivo](using/reports/campaign-global-report-cja-activity.md)
          + [Relatório de campanha com notificação por push](using/reports/campaign-global-report-cja-push.md)
          + [Relatório de campanha por SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Relatório de campanha na web](using/reports/campaign-global-report-cja-web.md)
