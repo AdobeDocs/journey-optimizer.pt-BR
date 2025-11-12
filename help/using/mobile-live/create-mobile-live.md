@@ -74,36 +74,36 @@ Após definir a configuração móvel e implementar o Adobe Experience Platform 
    Observe que a maioria dos campos do exemplo de carga a seguir são obrigatórios, somente `requestId`, `dismissal-date` e `alert` são opcionais.
 
        &quot;json
-       {
+       &lbrace;
        &quot;requestId&quot;: &quot;your-request-id&quot;,
        &quot;campaignId&quot;: &quot;your-campaign-id&quot;,
-       &quot;destinatários&quot;: [
-       {
+       &quot;destinatários&quot;: &lbrack;
+       &lbrace;
        &quot;tipo&quot;: &quot;aep&quot;,
        &quot;userId&quot;: &quot;testemail@gmail.com&quot;,
        &quot;namespace&quot;: &quot;email&quot;,
-       &quot;contexto&quot;: {
-       &quot;requestPayload&quot;: {
-       &quot;aps&quot;: {
+       &quot;contexto&quot;: &lbrace;
+       &quot;requestPayload&quot;: &lbrace;
+       &quot;aps&quot;: &lbrace;
        &quot;conteúdo-disponível&quot;: 1,
        &quot;carimbo de data/hora&quot;: 1756984054,              // hora atual da época
        &quot;data de demissão&quot;: 1756984084,         // opcional - remover automaticamente quando event=&quot;end&quot;
        &quot;event&quot;: &quot;update&quot;,                    // iniciar | atualizar | fim
        
        // Campos de FoodDeliveryLiveActivityAttributes
-       &quot;content-state&quot;: {
+       &quot;content-state&quot;: &lbrace;
        &quot;orderStatus&quot;: &quot;Entregue&quot;
        ,
        
        &quot;attributes-type&quot;: &quot;FoodDeliveryLiveActivityAttributes&quot;,
-       &quot;atributos&quot;: {
+       &quot;atributos&quot;: &lbrace;
        &quot;RestaurantName&quot;: &quot;Pizza&quot;,
-       &quot;liveActivityData&quot;: {
+       &quot;liveActivityData&quot;: &lbrace;
        &quot;liveActivityID&quot;: &quot;orderId1&quot;       // ID de referência do cliente
        
        ,
        
-       &quot;alerta&quot;: {
+       &quot;alerta&quot;: &lbrace;
        &quot;título&quot;: &quot;Pedido entregue!&quot;,
        &quot;body&quot;: &quot;Sua pizza chegou.&quot;
        
@@ -111,7 +111,7 @@ Após definir a configuração móvel e implementar o Adobe Experience Platform 
        
        
        
-       ]
+       &rbrack;
        
        &quot;
    +++
