@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1308'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ O Assistente de IA do Journey Optimizer pode ajudar você a otimizar o impacto d
 
 1. Selecione um **[!UICONTROL Componente de texto]** para direcionar somente a um conteúdo específico. e acesse o menu **[!UICONTROL Mostrar assistente de IA]**.
 
-   ![](assets/web-gen-full-1.png){zoomable="yes"}
+   ![Web Designer com componente de Texto selecionado e botão de menu Mostrar assistente de IA](assets/web-gen-full-1.png){zoomable="yes"}
 
 1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
@@ -50,7 +50,7 @@ O Assistente de IA do Journey Optimizer pode ajudar você a otimizar o impacto d
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas.
 
-   ![](assets/web-gen-full-2.png){zoomable="yes"}
+   ![Painel do Assistente de IA para texto da página da Web com seletor de Marca, campo Solicitação e botão Biblioteca de Solicitações](assets/web-gen-full-2.png){zoomable="yes"}
 
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de texto]**:
 
@@ -59,7 +59,7 @@ O Assistente de IA do Journey Optimizer pode ajudar você a otimizar o impacto d
    * **[!UICONTROL Tom]**: o tom da sua página da Web deve repercutir no seu público. Se você deseja parecer informativo, divertido ou persuasivo, o Assistente de IA pode adaptar a mensagem de acordo.
    * **Comprimento do texto**: use o controle deslizante para selecionar o comprimento desejado do texto.
 
-   ![](assets/web-gen-full-3.png){zoomable="yes"}
+   ![Painel de configurações de texto mostrando a estratégia de comunicação, os idiomas, o tom e o controle deslizante de comprimento do texto para o conteúdo da Web](assets/web-gen-full-3.png){zoomable="yes"}
 
 1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um ativo carregado anteriormente.
 
@@ -75,7 +75,7 @@ O Assistente de IA do Journey Optimizer pode ajudar você a otimizar o impacto d
 
    Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
 
-   ![](assets/web-gen-full-4.png){zoomable="yes"}
+   ![Variações de texto de página da Web geradas com o indicador de porcentagem de Pontuação de Alinhamento da Marca](assets/web-gen-full-4.png){zoomable="yes"}
 
 1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
@@ -91,7 +91,7 @@ O Assistente de IA do Journey Optimizer pode ajudar você a otimizar o impacto d
 
    Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
 
-   ![](assets/web-gen-full-5.png){zoomable="yes"}
+   ![Refinar menu para texto da Web mostrando Elaborar, Resumir, Reformular, Usar linguagem mais simples com a lista suspensa Tom](assets/web-gen-full-5.png){zoomable="yes"}
 
 1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
@@ -113,7 +113,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA no Journey Optimizer para 
 
 1. No menu à direita, selecione **[!UICONTROL Mostrar assistente de IA]**.
 
-   ![](assets/web-gen-img-1.png){zoomable="yes"}
+   ![Designer da Web com ativo de imagem selecionado e o painel Mostrar assistente de IA aberto para geração de imagem](assets/web-gen-img-1.png){zoomable="yes"}
 
 1. Habilite a opção **[!UICONTROL Estilo de referência]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo de referência. Você também pode carregar uma imagem para adicionar contexto à sua variação.
 
@@ -125,7 +125,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA no Journey Optimizer para 
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas.
 
-   ![](assets/web-gen-img-2.png){zoomable="yes"}
+   ![Geração de imagem do Assistente de IA para Web com alternância de estilo de referência, seletor de marca e campo de prompt](assets/web-gen-img-2.png){zoomable="yes"}
 
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de imagem]**:
 
@@ -136,7 +136,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA no Journey Optimizer para 
    * **[!UICONTROL Iluminação]**: refere-se ao relâmpago presente em uma imagem, que molda sua atmosfera e realça elementos específicos.
    * **[!UICONTROL Composição]**: refere-se à disposição dos elementos dentro do quadro de uma imagem
 
-   ![](assets/web-gen-img-3.png){zoomable="yes"}
+   ![Painel de configurações de imagem da Web com taxa de proporção, tipo de conteúdo, intensidade visual, cor e tom, iluminação e composição](assets/web-gen-img-3.png){zoomable="yes"}
 
 1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um ativo carregado anteriormente.
 
@@ -152,7 +152,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA no Journey Optimizer para 
 
    Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
 
-   ![](assets/web-gen-img-4.png){zoomable="yes"}
+   ![Variações de imagem de página da Web geradas com os controles de visualização e Pontuação de alinhamento da marca](assets/web-gen-img-4.png){zoomable="yes"}
 
 1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
@@ -163,7 +163,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA no Journey Optimizer para 
 
    * **[!UICONTROL Salve]** para armazenar os ativos para acesso posterior.
 
-   ![](assets/web-gen-img-5.png){zoomable="yes"}
+   ![Refine as opções de imagens da Web que mostram os botões Gerar Similar, Editar no Adobe Express e Salvar](assets/web-gen-img-5.png){zoomable="yes"}
 
 1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 

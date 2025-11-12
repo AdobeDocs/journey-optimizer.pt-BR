@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 2%
+source-wordcount: '1887'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de L
 
 1. Personalize seu layout conforme necessário e acesse o menu do **[!UICONTROL Assistente de IA]**.
 
-   ![](assets/lp-full-gen-1.png){zoomable="yes"}
+   ![Designer de página de aterrissagem com o painel Assistente de IA aberto para geração de conteúdo de página completa](assets/lp-full-gen-1.png){zoomable="yes"}
 
 1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
@@ -50,7 +50,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de L
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar sua página de aterrissagem.
 
-   ![](assets/lp-full-gen-2.png){zoomable="yes"}
+   ![Assistente de IA para página de aterrissagem com campo Prompt e acesso à Biblioteca de Prompts para geração de página completa](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de texto]**:
 
@@ -58,7 +58,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de L
    * **[!UICONTROL Idiomas]**: escolha o idioma do conteúdo gerado.
    * **[!UICONTROL Tom]**: o tom da sua página de aterrissagem deve repercutir no seu público. Se você deseja parecer informativo, divertido ou persuasivo, o Assistente de IA pode adaptar a mensagem de acordo.
 
-   ![](assets/lp-full-gen-3.png){zoomable="yes"}
+   ![Painel de configurações de texto da página de aterrissagem mostrando opções de Estratégia de comunicação, Idiomas e Tom](assets/lp-full-gen-3.png){zoomable="yes"}
 
 1. Escolha suas **[!UICONTROL configurações de imagem]**:
 
@@ -68,7 +68,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de L
    * **[!UICONTROL Iluminação]**: refere-se ao relâmpago presente em uma imagem, que molda sua atmosfera e realça elementos específicos.
    * **[!UICONTROL Composição]**: refere-se à disposição dos elementos dentro do quadro de uma imagem
 
-   ![](assets/lp-full-gen-4.png){zoomable="yes"}
+   ![Painel de configurações de imagem para página de aterrissagem com tipo de Conteúdo, intensidade visual, Cor e Tom, Iluminação e Composição](assets/lp-full-gen-4.png){zoomable="yes"}
 
 1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um ativo carregado anteriormente.
 
@@ -84,7 +84,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de L
 
    Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
 
-   ![](assets/lp-full-gen-5.png){zoomable="yes"}
+   ![Variações geradas da página de aterrissagem com o indicador de porcentagem de Pontuação de Alinhamento da Marca e controles de visualização](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
@@ -94,7 +94,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de L
 
    Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
 
-   ![](assets/lp-full-gen-6.png){zoomable="yes"}
+   ![Refinar menu para página de aterrissagem mostrando Rephrase, Use linguagem mais simples com menus suspensos de Estratégia de Tom e Comunicação](assets/lp-full-gen-6.png){zoomable="yes"}
 
 1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
@@ -114,7 +114,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo da
 
 1. Selecione um **[!UICONTROL Componente de texto]** para direcionar somente a um conteúdo específico. e acesse o menu do **[!UICONTROL Assistente de IA]**.
 
-   ![](assets/lp-text-gen-1.png){zoomable="yes"}
+   ![Designer de página de aterrissagem com componente de Texto selecionado e painel Assistente de IA para geração de texto](assets/lp-text-gen-1.png){zoomable="yes"}
 
 1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
@@ -122,7 +122,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo da
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas páginas de aterrissagem.
 
-   ![](assets/lp-text-gen-2.png){zoomable="yes"}
+   ![Geração de texto do Assistente de IA para a página de aterrissagem com o campo Solicitação e o botão Biblioteca de Solicitações](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de texto]**:
 
@@ -131,7 +131,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo da
    * **[!UICONTROL Tom]**: o tom da sua página de aterrissagem deve repercutir no seu público. Se você deseja parecer informativo, divertido ou persuasivo, o Assistente de IA pode adaptar a mensagem de acordo.
    * **Comprimento do texto**: use o controle deslizante para selecionar o comprimento desejado do texto.
 
-   ![](assets/lp-text-gen-3.png){zoomable="yes"}
+   ![Configurações de texto da página de aterrissagem com controle deslizante de Estratégia de comunicação, Idiomas, Tom e Comprimento de Texto](assets/lp-text-gen-3.png){zoomable="yes"}
 
 1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um ativo carregado anteriormente.
 
@@ -148,7 +148,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo da
 
    Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
 
-   ![](assets/lp-text-gen-4.png){zoomable="yes"}
+   ![Variações de texto de página de aterrissagem geradas com a porcentagem de Pontuação de Alinhamento da Marca e opções de seleção](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
@@ -164,7 +164,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo da
 
    Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
 
-   ![](assets/lp-text-gen-5.png){zoomable="yes"}
+   ![Refinar menu para texto da página de aterrissagem mostrando Elaborar, Resumir, Reformular, Usar linguagem mais simples com a lista suspensa Tom](assets/lp-text-gen-5.png){zoomable="yes"}
 
 1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
@@ -186,7 +186,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar s
 
 1. No menu à direita, selecione **[!UICONTROL Assistente do AI]**.
 
-   ![](assets/lp-image-gen-1.png){zoomable="yes"}
+   ![Designer de página de aterrissagem com ativo de imagem selecionado e painel Assistente de IA aberto para geração de imagem](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. Habilite a opção **[!UICONTROL Estilo de referência]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo de referência. Você também pode carregar uma imagem para adicionar contexto à sua variação.
 
@@ -194,7 +194,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar s
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas páginas de aterrissagem.
 
-   ![](assets/lp-image-gen-2.png){zoomable="yes"}
+   ![Geração de imagem do Assistente de IA para página de aterrissagem com alternância de estilo de Referência, campo de Solicitação e Biblioteca de Solicitações](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de imagem]**:
 
@@ -205,7 +205,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar s
    * **[!UICONTROL Iluminação]**: refere-se ao relâmpago presente em uma imagem, que molda sua atmosfera e realça elementos específicos.
    * **[!UICONTROL Composição]**: refere-se à disposição dos elementos dentro do quadro de uma imagem
 
-   ![](assets/lp-image-gen-3.png){zoomable="yes"}
+   ![Configurações de imagem da página de aterrissagem com Taxa de proporção, Tipo de conteúdo, Intensidade visual, Cor e Tom, Iluminação e Composição](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um ativo carregado anteriormente.
 
@@ -221,7 +221,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar s
 
    Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
 
-   ![](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![Variações geradas da imagem da página de aterrissagem com a porcentagem de Pontuação do Alinhamento da Marca e controles de visualização](assets/lp-image-gen-4.png){zoomable="yes"}
 
 1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
@@ -232,7 +232,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar s
 
    * **[!UICONTROL Salve]** para armazenar os ativos para acesso posterior.
 
-   ![](assets/lp-image-gen-5.png){zoomable="yes"}
+   ![Refine as opções de imagens da página de aterrissagem que mostram os botões Gerar Similar, Editar no Adobe Express e Salvar](assets/lp-image-gen-5.png){zoomable="yes"}
 
 1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 

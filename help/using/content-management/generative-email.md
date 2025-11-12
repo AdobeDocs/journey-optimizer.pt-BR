@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 2%
+source-wordcount: '1978'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de e
 
 1. Personalize seu layout conforme necessário e acesse o menu do **[!UICONTROL Assistente de IA]**.
 
-   ![](assets/full-email-1.png){zoomable="yes"}
+   ![Painel do Assistente de IA no Email Designer mostrando a seleção da marca e o campo de prompt](assets/full-email-1.png){zoomable="yes"}
 
 1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
@@ -52,7 +52,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de e
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas.
 
-   ![](assets/full-email-2.png){zoomable="yes"}
+   ![Campo de prompt com o botão Biblioteca de Prompts exibindo sugestões de prompt pré-gravadas](assets/full-email-2.png){zoomable="yes"}
 
 1. Você pode alternar as opções **[!UICONTROL Linha de assunto]** e **[!UICONTROL Pré-cabeçalho]** para incluí-las na geração da variante.
 
@@ -62,7 +62,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de e
    * **[!UICONTROL Idiomas]**: escolha o idioma do conteúdo gerado.
    * **[!UICONTROL Tom]**: o tom do seu email deve repercutir na sua audiência. Se você deseja parecer informativo, divertido ou persuasivo, o Assistente de IA pode adaptar a mensagem de acordo.
 
-   ![](assets/full-email-4.png){zoomable="yes"}
+   ![Painel de configurações de texto mostrando opções de Estratégia de comunicação, Idiomas e Tom](assets/full-email-4.png){zoomable="yes"}
 
 1. Escolha suas **[!UICONTROL configurações de imagem]**:
 
@@ -72,13 +72,13 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de e
    * **[!UICONTROL Iluminação]**: refere-se ao relâmpago presente em uma imagem, que molda sua atmosfera e realça elementos específicos.
    * **[!UICONTROL Composição]**: refere-se à disposição dos elementos dentro do quadro de uma imagem
 
-   ![](assets/full-email-6.png){zoomable="yes"}
+   ![Painel de configurações de imagem exibindo as opções Tipo de conteúdo, Intensidade visual, Cor e Tom, Iluminação e Composição](assets/full-email-6.png){zoomable="yes"}
 
 1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um ativo carregado anteriormente.
 
    Os arquivos carregados anteriormente estão disponíveis no menu suspenso **[!UICONTROL Ativos de marca carregados]**. Basta alternar os ativos que deseja incluir na geração.
 
-   ![](assets/full-email-3.png){zoomable="yes"}
+   ![Seção de ativos da marca com o botão Carregar ativo da marca e lista de ativos carregados anteriormente](assets/full-email-3.png){zoomable="yes"}
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
@@ -88,7 +88,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de e
 
    Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
 
-   ![](assets/full-email-7.png){zoomable="yes"}
+   ![Painel Pontuação de alinhamento da marca mostrando a pontuação percentual com métricas de alinhamento detalhadas](assets/full-email-7.png){zoomable="yes"}
 
 1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
@@ -98,7 +98,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para refinar um template de e
 
    Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
 
-   ![](assets/full-email-5.png){zoomable="yes"}
+   ![Refinar menu exibindo Refrase e Usar opções de linguagem mais simples com menus suspensos de Estratégia de Tom e Comunicação](assets/full-email-5.png){zoomable="yes"}
 
 1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
@@ -120,7 +120,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo de
 
 1. Selecione um **[!UICONTROL Componente de texto]** para direcionar somente a um conteúdo específico. e acesse o menu do **[!UICONTROL Assistente de IA]**.
 
-   ![](assets/text-genai-1.png){zoomable="yes"}
+   ![Email Designer com componente de Texto selecionado e menu do Assistente de IA aberto no painel direito](assets/text-genai-1.png){zoomable="yes"}
 
 1. Habilite a opção **[!UICONTROL Usar conteúdo original]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo selecionado.
 
@@ -130,7 +130,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo de
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas.
 
-   ![](assets/text-genai-2.png){zoomable="yes"}
+   ![Painel de geração de texto do Assistente de IA com campo Prompt, seletor de Marca e acesso à Biblioteca de Prompt](assets/text-genai-2.png){zoomable="yes"}
 
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de texto]**:
 
@@ -139,13 +139,13 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo de
    * **[!UICONTROL Tom]**: o tom do seu email deve repercutir na sua audiência. Se você deseja parecer informativo, divertido ou persuasivo, o Assistente de IA pode adaptar a mensagem de acordo.
    * **Comprimento do texto**: use o controle deslizante para selecionar o comprimento desejado do texto.
 
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   ![Configurações de texto expandidas mostrando controles deslizantes de Estratégia de comunicação, Idiomas, Tom e Tamanho do Texto](assets/text-genai-4.png){zoomable="yes"}
 
 1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um ativo carregado anteriormente.
 
    Os arquivos carregados anteriormente estão disponíveis no menu suspenso **[!UICONTROL Ativos de marca carregados]**. Basta alternar os ativos que deseja incluir na geração.
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
+   ![Menu suspenso de ativos da marca exibindo opções para ativos da marca carregados anteriormente](assets/text-genai-3.png){zoomable="yes"}
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
@@ -157,7 +157,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo de
 
    Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
 
-   ![](assets/text-genai-6.png){zoomable="yes"}
+   ![Variações de texto geradas com o indicador de porcentagem de Pontuação de Alinhamento da Marca e opções de visualização](assets/text-genai-6.png){zoomable="yes"}
 
 1. Navegue até a opção **[!UICONTROL Refinar]** na janela **[!UICONTROL Visualizar]** para acessar recursos de personalização adicionais:
 
@@ -173,7 +173,7 @@ No exemplo a seguir, aproveitaremos o AI Assistant para aprimorar o conteúdo de
 
    Você também pode alterar o **[!UICONTROL Tom]** e a **[!UICONTROL estratégia de comunicação]** do seu texto.
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   ![Refinar menu de opções mostrando os botões Elaborar, Resumir, Reformular e Usar linguagem mais simples com a lista suspensa Tom](assets/text-genai-5.png){zoomable="yes"}
 
 1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
@@ -197,7 +197,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar s
 
 1. No menu à direita, selecione **[!UICONTROL Assistente do AI]**.
 
-   ![](assets/image-genai-1.png){zoomable="yes"}
+   ![Enviar email para o Designer com ativo de imagem selecionado e o painel Assistente de IA aberto para geração de imagem](assets/image-genai-1.png){zoomable="yes"}
 
 1. Habilite a opção **[!UICONTROL Estilo de referência]** para que o Assistente de IA personalize o novo conteúdo com base no conteúdo de referência. Você também pode carregar uma imagem para adicionar contexto à sua variação.
 
@@ -207,7 +207,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar s
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas.
 
-   ![](assets/image-genai-2.png){zoomable="yes"}
+   ![Painel de geração de imagem do Assistente de IA com alternância de estilo de referência, seletor de marca e campo de prompt](assets/image-genai-2.png){zoomable="yes"}
 
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de imagem]**:
 
@@ -218,7 +218,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar s
    * **[!UICONTROL Iluminação]**: refere-se ao relâmpago presente em uma imagem, que molda sua atmosfera e realça elementos específicos.
    * **[!UICONTROL Composição]**: refere-se à disposição dos elementos dentro do quadro de uma imagem
 
-   ![](assets/image-genai-4.png){zoomable="yes"}
+   ![Painel de configurações de imagem com controles de proporção, tipo de conteúdo, intensidade visual, cor e tom, iluminação e composição](assets/image-genai-4.png){zoomable="yes"}
 
 1. No menu **[!UICONTROL Ativos de marca]**, clique em **[!UICONTROL Carregar ativo de marca]** para adicionar qualquer ativo de marca que contenha conteúdo que possa fornecer o Assistente de IA de contexto adicional ou selecione um ativo carregado anteriormente.
 
@@ -247,7 +247,7 @@ No exemplo abaixo, saiba como usar o Assistente de IA para otimizar e melhorar s
 
    * **[!UICONTROL Salve]** para armazenar os ativos para acesso posterior.
 
-   ![](assets/image-genai-5.png){zoomable="yes"}
+   ![Refine as opções para imagens geradas que mostram os botões Gerar Similar, Editar no Adobe Express e Salvar](assets/image-genai-5.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '675'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## Usar conteúdo existente
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Demonstração animada mostrando o Assistente de IA reutilizando conteúdo de campanha existente para gerar novas variações](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. Depois de configurar sua campanha, selecione **[!UICONTROL Editar conteúdo]**.
 
@@ -41,7 +41,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
 ## Refinar variação
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![Demonstração animada de refinamento de variações de conteúdo geradas por IA usando as opções Rephrase e Summarize](assets/do-not-localize/gen-ai-variation.gif)
 
 1. Depois de configurar sua campanha, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -71,7 +71,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
 ## Gerar imagem semelhante
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![Demonstração animada de geração de variações de imagem semelhantes com base em uma imagem gerada por IA selecionada](assets/do-not-localize/uc-image-similar.gif)
 
 1. Depois de configurar sua campanha, selecione **[!UICONTROL Editar conteúdo]**.
 
@@ -91,7 +91,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
 ## Carregar uma referência de estilo
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![Demonstração animada do carregamento de uma imagem de referência para o estilo de geração de imagem do Assistente de IA do guia](assets/do-not-localize/uc-image-reference.gif)
 
 1. Depois de instalar e configurar sua campanha de email, clique em **[!UICONTROL Editar conteúdo]**.
 
@@ -115,7 +115,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
 ## Gerar conteúdo em todos os idiomas compatíveis{#languages}
 
-![](assets/do-not-localize/gen-ai-language.gif)
+![Demonstração animada do Assistente de IA gerando conteúdo em vários idiomas, incluindo francês, espanhol e alemão](assets/do-not-localize/gen-ai-language.gif)
 
 1. Depois de configurar sua campanha, clique em **[!UICONTROL Editar conteúdo]**.
 

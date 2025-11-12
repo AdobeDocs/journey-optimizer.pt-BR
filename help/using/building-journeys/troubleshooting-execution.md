@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 36%
+source-wordcount: '1102'
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes u
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
-Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming do Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
+Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming do Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
 
 Se a jornada não conseguir habilitar o modo de teste com erro `ERR_MODEL_RULES_16`, verifique se o evento usado inclui um [namespace de identidade](../audience/get-started-identity.md) ao usar uma ação de canal.
 
@@ -74,3 +74,79 @@ Se as pessoas físicas continuarem percorrendo o caminho certo na jornada, mas n
 * [!DNL Journey Optimizer] enviou a mensagem com êxito. Verifique os relatórios do jornada para garantir que não haja erros.
 
 No caso de uma mensagem enviada por meio de uma ação personalizada, a única coisa que pode ser verificada durante o teste de jornada é o fato de a chamada do sistema da ação personalizada causar ou não um erro. Se a chamada para o sistema externo associada à ação personalizada não causar um erro, mas não enviar a mensagem, algumas investigações devem ser feitas por parte do sistema externo.
+
+## Noções básicas sobre entradas duplicadas em Eventos de etapa de Jornada {#duplicate-step-events}
+
+### Por que vejo várias entradas com a mesma instância, perfil, nó e IDs de solicitação do jornada?
+
+Ao consultar os dados de Eventos de etapa de Jornada, você pode observar ocasionalmente o que parece ser entradas de log duplicadas para a mesma execução de jornada. Essas entradas compartilham valores idênticos para:
+
+* `profileID` - A identidade do perfil
+* `instanceID` - O identificador de instância do jornada
+* `nodeID` - O nó de jornada específico
+* `requestID` - O identificador da solicitação
+
+No entanto, essas entradas têm **valores `_id` diferentes**, que é o indicador principal que distingue este cenário da duplicação de dados real.
+
+### O que causa esse comportamento?
+
+Isso ocorre devido às operações de dimensionamento automático de back-end (também chamadas de &quot;rebalanceamento&quot;) na arquitetura de microsserviços da Adobe Journey Optimizer. Durante períodos de alta carga ou otimização do sistema:
+
+1. Um evento de etapa de jornada começa a ser processado e é registrado no conjunto de dados de Eventos de etapa de Jornada
+2. Uma operação de dimensionamento automático redistribui a carga de trabalho entre instâncias de serviço
+3. O mesmo evento pode ser reprocessado por outra instância de serviço, criando uma segunda entrada de log com um `_id` diferente
+
+Este é um comportamento de sistema esperado e **está funcionando como projetado**.
+
+### Há algum impacto na execução da jornada ou na entrega de mensagens?
+
+**Não.** O impacto está limitado apenas ao registro em log. A Adobe Journey Optimizer tem mecanismos integrados de desduplicação na camada de execução de mensagens que garantem:
+
+* Somente uma mensagem (email, SMS, notificação por push etc.) é enviada para cada perfil
+* As ações são executadas apenas uma vez
+* A execução da jornada continua corretamente
+
+Você pode verificar isso consultando o `ajo_message_feedback_event_dataset` ou verificando os logs de execução da ação. Você verá que apenas uma mensagem foi realmente enviada, apesar das entradas de evento de etapa de jornada duplicadas.
+
+### Como posso identificar esses casos em minhas consultas?
+
+Ao analisar os dados de Eventos de etapa do Jornada:
+
+1. **Verifique o campo `_id`**: duplicatas reais no nível do sistema teriam o mesmo `_id`. Valores `_id` diferentes indicam entradas de log separadas do cenário de rebalanceamento descrito acima.
+
+2. **Verificar entrega de mensagem**: cruzar referência com dados de feedback da mensagem para confirmar se apenas uma mensagem foi enviada:
+
+   ```sql
+   SELECT
+     timestamp,
+     _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+   FROM ajo_message_feedback_event_dataset
+   WHERE
+     _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journeyVersionID>'
+     AND TO_JSON(identityMap) like '%<profileID>%'
+   ORDER BY timestamp DESC;
+   ```
+
+3. **Agrupar por identificadores exclusivos**: ao contar execuções, use `_id` para obter contagens precisas:
+
+   ```sql
+   SELECT
+     COUNT(DISTINCT _id) as unique_executions
+   FROM journey_step_events
+   WHERE
+     _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+     AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID>'
+   ```
+
+### O que devo fazer se eu observar isso?
+
+Este é um comportamento normal do sistema e **nenhuma ação é necessária**. O registro em log duplicado não indica um problema com a configuração da jornada ou com o delivery da mensagem.
+
+Se você estiver criando relatórios ou análises com base nos Eventos de etapa do Jornada:
+
+* Use `_id` como chave primária para contar eventos únicos
+* Referência cruzada com conjuntos de dados de feedback de mensagem ao analisar a entrega de mensagens
+* Esteja ciente de que a análise de tempo pode mostrar entradas agrupadas em poucos segundos
+
+Para obter mais informações sobre a consulta de Eventos de Etapa de Jornada, consulte [Exemplos de consultas](../reports/query-examples.md).
