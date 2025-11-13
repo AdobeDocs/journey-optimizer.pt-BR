@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1475'
 ht-degree: 10%
 
 ---
@@ -65,7 +65,7 @@ Como as jornadas são representadas:
 
 Para navegar no seu calendário do Jornada:
 
-1. Para acessar o modo de exibição de calendário, abra a lista jornadas e clique no ícone ![calendário](assets/do-not-localize/timeline-icon.svg).
+1. Para acessar o modo de exibição de calendário, abra a lista jornadas e clique no ícone ![Calendário para alternar para o modo de exibição de calendário](assets/do-not-localize/timeline-icon.svg).
 
 1. Use os botões de seta ou o seletor de datas acima do calendário para se mover entre semanas.
 
@@ -73,11 +73,11 @@ Para navegar no seu calendário do Jornada:
 
    ![exibição de calendário mostrando jornadas ao vivo](assets/timeline-journeys.png)
 
-1. Clique no ícone de ![engrenagem](assets/do-not-localize/Smock_Gears_18_N.png) para alternar a exibição de itens que abrangem vários dias ou semanas.
+1. Clique no ícone ![Configurações para alternar a exibição da jornada de vários dias](assets/do-not-localize/Smock_Gears_18_N.png) para alternar a exibição de itens que abrangem vários dias ou semanas.
 
    ![exibição de calendário mostrando campanhas ativas](assets/journey-calendar-1.png)
 
-1. Clique no ícone ![adicionar calendário](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) para gerenciar e adicionar até três calendários externos.
+1. Clique no ícone ![Adicionar calendário externo](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) para gerenciar e adicionar até três calendários externos.
 
    ![exibição de calendário mostrando calendários externos](assets/journey-calendar-2.png)
 
@@ -120,7 +120,7 @@ Para filtrar jornadas com base em um intervalo de datas específico, selecione *
 
 Além disso, nos painéis de configuração Evento, Fonte de dados e Ação, o campo **[!UICONTROL Usado em]** exibe o número de jornadas que usam aquele determinado evento, grupo de campos ou ação. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas correspondentes.
 
-![](assets/journey3bis.png)
+![Usado no campo que mostra o número de jornadas que usam um evento ou uma ação](assets/journey3bis.png)
 
 ## Tipos de jornada {#journey-types}
 
@@ -166,7 +166,7 @@ Para fazer isso, siga as etapas abaixo:
 
 1. Insira o nome da jornada e confirme. Você também pode alterar o nome na tela de propriedades da jornada. Por padrão, o nome é definido da seguinte maneira: `[JOURNEY-NAME]_copy`
 
-   ![](assets/duplicate-jo2.png)
+   ![Campo de entrada do nome da Jornada para jornada duplicada](assets/duplicate-jo2.png)
 
 1. A nova jornada é criada e está disponível na lista de jornadas.
 

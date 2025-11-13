@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '546'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ A lista de métricas varia dependendo dos [grupos de campos](https://experiencel
 
 Se seu conjunto de dados não estiver configurado, apenas as seguintes métricas estarão disponíveis: **[!UICONTROL Clique]**, **[!UICONTROL Clique Único]**, **[!UICONTROL Taxa de Click-through]** e **[!UICONTROL Taxa de Abertura]**.
 
-Observe que com uma licença do Customer Journey Analytics é possível criar métricas de sucesso personalizadas. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Observe que com uma licença do Customer Journey Analytics é possível criar métricas de sucesso personalizadas. [Saiba mais](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Métricas | Grupo de campos relacionado |
@@ -70,7 +70,7 @@ Cada métrica vem com uma atribuição definida que determina quais pontos de co
 
   Com as licenças do Journey Optimizer e da Customer Journey Analytics, é possível criar métricas personalizadas com configurações de atribuição específicas ou alterar as atribuições das métricas integradas.
 
-  Saiba mais sobre [Modelos de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Saiba mais sobre [Modelos de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Atribuir suas métricas de jornada {#assign}
 
@@ -88,7 +88,7 @@ Para começar a rastrear suas métricas do jornada, siga as etapas descritas aba
 
    Observe que as métricas se aplicam à própria jornada e se aplicam a todos os elementos da jornada.
 
-   ![](assets/success_metric.png)
+   ![Painel de configuração de métricas de sucesso nas propriedades do jornada](assets/success_metric.png)
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -100,5 +100,5 @@ Para começar a rastrear suas métricas do jornada, siga as etapas descritas aba
 
    As métricas escolhidas são exibidas na tabela KPIs e estatísticas da Jornada do relatório.
 
-   ![](assets/success_metric_2.png)
+   ![Lista suspensa de métricas de sucesso mostrando os eventos disponíveis para rastreamento de meta](assets/success_metric_2.png)
 

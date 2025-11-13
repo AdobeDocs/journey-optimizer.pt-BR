@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 16%
@@ -60,7 +60,7 @@ Durante o Dry Run, a jornada é executada no modo de simulação, aplicando os s
 
 * As **fontes de dados**, incluindo as fontes de dados externas, e as atividades **Wait** são desabilitadas por padrão durante a Execução seca. No entanto, você pode alterar esse comportamento [ao ativar o modo de simulação](#journey-dry-run-start).
 
-* Os nós **Reaction** não são executados: todos os perfis que entram nele serão encerrados com êxito. No entanto, são aplicáveis as seguintes regras de prioridade:
+* Os nós **Reaction** não são executados: todos os perfis que entram nele serão encerrados com êxito. No entanto, as seguintes regras de prioridade se aplicam:
    * Se um nó **Reaction** for usado com um ou vários nós **unitary event** em paralelo, os perfis sempre passarão pelo evento de reação.
    * Se um nó **Reaction** for usado com um ou vários nós **response event** em paralelo, os perfis sempre irão passar pelo primeiro na tela (o que está na parte superior).
 
@@ -77,7 +77,7 @@ Você pode usar o recurso Dry run em qualquer jornada de rascunho sem erros.
 Para ativar o Dry run, siga estas etapas:
 
 1. Abra a jornada que deseja testar.
-1. Selecione o botão **Execução seca**.
+1. Selecione o botão **[!UICONTROL Execução seca]**.
 
    ![Iniciar a simulação de jornada](assets/dry-run-button.png)
 
@@ -85,9 +85,9 @@ Para ativar o Dry run, siga estas etapas:
 
    ![Confirmar a publicação de simulação da jornada](assets/dry-run-publish.png){width="50%" align="left"}
 
-   Uma mensagem de status, **Ativando Dry run**, é exibida enquanto a transição está ocorrendo.
+   Uma mensagem de status, **[!UICONTROL Ativando Dry run]**, é exibida enquanto a transição está ocorrendo.
 
-1. Uma vez ativada, a jornada entra no modo **Execução seca**.
+1. Uma vez ativada, a jornada entra no modo **[!UICONTROL Execução seca]**.
 
 
 ## Monitorar uma simulação {#journey-dry-monitor}
@@ -109,17 +109,17 @@ Você também pode acessar os **Últimos relatórios de 24 horas** e os **Relat�
 
 ## Parar uma simulação {#journey-dry-run-stop}
 
-Após 14 dias, as jornadas de Execução Seca fazem a transição automática para o status **Rascunho**.
+Após 14 dias, as jornadas de Execução Seca fazem a transição automática para o status **[!UICONTROL Rascunho]**.
 
 As jornadas de simulação também podem ser interrompidas manualmente. Para desativar o modo Dry run, siga estas etapas:
 
 1. Abra a jornada Dry run que deseja parar.
-1. Selecione o botão **Fechar** para finalizar o teste.
+1. Selecione o botão **[!UICONTROL Fechar]** para finalizar o teste.
 Os links para as últimas 24 horas e relatórios de todos os tempos estão disponíveis na tela de confirmação.
 
    ![Parar a execução de simulação de jornada](assets/dry-run-stop.png){width="50%" align="left"}
 
-1. Clique em **Voltar ao rascunho** para confirmar.
+1. Clique em **[!UICONTROL Voltar ao rascunho]** para confirmar.
 
 
 ## Medidas de proteção e limitações {#journey-dry-run-limitations}
@@ -149,4 +149,4 @@ Ao analisar **métricas de relatórios do jornada** usando o serviço Adobe Expe
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

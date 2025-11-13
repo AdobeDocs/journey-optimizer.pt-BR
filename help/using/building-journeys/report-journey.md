@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Após a publicação da sua jornada, no momento em que o [Modo de execução a s
 
 Os eventos exibidos ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos entre o evento e sua exibição, normalmente dentro de cinco minutos.
 
-![](assets/journey_live_report.png)
+![Jornada painel de relatório ao vivo mostrando métricas de desempenho em tempo real](assets/journey_live_report.png)
 
 Para suas jornadas no modo Live ou [Dry run](journey-dry-run.md), você pode verificar:
 

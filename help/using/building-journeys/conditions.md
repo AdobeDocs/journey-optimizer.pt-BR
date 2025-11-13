@@ -12,10 +12,10 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 17%
+source-wordcount: '1696'
+ht-degree: 16%
 
 ---
 
@@ -44,7 +44,7 @@ Para adicionar uma condição à jornada, siga as etapas abaixo.
 
 1. Selecione uma condição na lista suspensa **[!UICONTROL Método]**.
 
-   ![](assets/journey-optimize-condition.png){width=80%}
+   ![Otimizar atividade com o método Condition selecionado](assets/journey-optimize-condition.png){width=80%}
 
    Os seguintes tipos de condições estão disponíveis:
 
@@ -66,13 +66,13 @@ Ao usar várias condições em uma jornada, você pode definir rótulos para cad
 
 Clique em **[!UICONTROL Adicionar um caminho]** se desejar definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade.
 
-![](assets/journey-condition-add-path.png){width=80%}
+![Adicionar um botão de caminho para criar vários caminhos de condição](assets/journey-condition-add-path.png){width=80%}
 
 Observe que o design das jornadas tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho qualificado é executado. Isso significa que é possível variar a priorização de caminhos colocando-os um acima ou abaixo do outro.
 
 Vejamos o exemplo da condição de um primeiro caminho &quot;A pessoa é um VIP&quot; e a condição de um segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que atende a ambas as condições (um homem que é um VIP) passar por essa etapa, o primeiro caminho será escolhido, mesmo que essa pessoa também seja elegível para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
 
-![](assets/journey48.png)
+![Exemplo de priorização de caminho mostrando a condição do VIP acima da condição macho](assets/journey48.png)
 
 Você pode criar outro caminho para públicos que não estejam qualificados para as condições definidas verificando **[!UICONTROL Mostrar caminho para casos diferentes dos mencionados acima]**.
 
@@ -85,7 +85,7 @@ O modo simples permite executar consultas simples com base em uma combinação d
 * **AND** - Uma interseção de dois critérios. Somente os elementos correspondentes a todos os critérios são considerados.
 * **OR** - Uma união de dois critérios. Os elementos correspondentes a pelo menos um dos critérios são considerados.
 
-![](assets/journey64.png){width=80%}
+![Editor de expressão simples com campos de arrastar e soltar e operadores lógicos](assets/journey64.png){width=80%}
 
 Se você estiver usando o [Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -105,7 +105,7 @@ Por exemplo, se você estiver direcionando um público-alvo com atributos de enr
 
 Usando o editor de expressão avançado, você pode configurar condições mais avançadas que manipulem coleções ou usem fontes de dados que exijam a transmissão de parâmetros. [Saiba mais](../datasource/external-data-sources.md)
 
-![](assets/journey50.png){width=80%}
+![Condição Data Source com editor de expressão avançado](assets/journey50.png){width=80%}
 
 ## Condição de data {#date_condition}
 
@@ -115,7 +115,7 @@ Isso permite definir um fluxo diferente com base na data. Por exemplo, se a pess
 >
 >O fuso horário não é mais específico para uma condição e agora é definido no nível da jornada nas propriedades da jornada. [Saiba mais](../building-journeys/timezone-management.md)
 
-![](assets/journey53.png)
+![Configuração da condição de data com campos de data inicial e final](assets/journey53.png)
 
 ## Divisão de porcentagem {#percentage_split}
 
@@ -127,7 +127,7 @@ No modo de teste, ao atingir uma divisão, a ramificação superior é sempre es
 >
 >Observe que não há nenhum botão para adicionar um caminho na condição de divisão de porcentagem. O número de caminhos dependerá do número de divisões. Em condições de divisão, não é possível adicionar um caminho para outros casos, pois isso não pode ocorrer. As pessoas sempre entrarão em um dos caminhos divididos.
 
-![](assets/journey52.png)
+![Configuração de divisão de porcentagem com controle deslizante mostrando a distribuição de tráfego](assets/journey52.png)
 
 ## Condição de tempo {#time_condition}
 
@@ -139,7 +139,7 @@ Use uma **[!UICONTROL Condição de tempo]** para executar ações diferentes de
 >
 >* Por padrão, a **[!UICONTROL Condição de tempo]** é definida por hora, de 00:00 a 12:00.
 
-![](assets/journey51.png)
+![Condição de tempo com intervalo de horas e seletores de dia da semana](assets/journey51.png)
 
 Três opções de filtragem de tempo estão disponíveis:
 
@@ -172,7 +172,7 @@ Para jornadas em tempo real, estes são os limites a serem considerados para gar
 
 O limite de perfil não é considerado no modo de teste.
 
-![](assets/profile-cap-condition.png)
+![Condição de limite de perfil com campo de entrada de limite máximo de perfil](assets/profile-cap-condition.png)
 
 ## Usar públicos-alvo em condições {#using-a-segment}
 
@@ -182,14 +182,14 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
 1. Abra uma jornada, solte uma atividade **[!UICONTROL Otimizar]** e escolha a **[!UICONTROL Condição da fonte de dados]**.
 
-   ![](assets/segment3.png)
+   ![Método de Condição de Source de Dados selecionado no menu suspenso](assets/segment3.png)
 
 1. Clique em **[!UICONTROL Adicionar um caminho]** para cada caminho extra necessário. Para cada caminho, clique no campo **[!UICONTROL Expression]**.
 
 1. No lado esquerdo, abra o nó **[!UICONTROL Públicos-alvo]**. Arraste e solte o público-alvo que deseja usar com sua condição. Por padrão, a condição no público-alvo é verdadeira.
 
-   ![](assets/segment4.png){width=80%}
+   ![Nó de públicos-alvo no editor de expressão para selecionar públicos-alvo da Adobe Experience Platform](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

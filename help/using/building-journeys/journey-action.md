@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 16%
+source-wordcount: '1050'
+ht-degree: 15%
 
 ---
 
@@ -50,17 +50,17 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
 
 1. Selecione a atividade de canal integrada que deseja aproveitar no jornada.
 
-   ![](assets/journey-action-type-cbe.png)
+   ![Lista suspensa de tipos de ação mostrando as opções de ação de canal e ação personalizada](assets/journey-action-type-cbe.png)
 
 1. Adicione um rótulo à sua ação e selecione **[!UICONTROL Configurar ação]**.
 
-   ![](assets/journey-action-configure.png){width="80%"}
+   ![Painel de configuração da atividade de ação com campos de rótulo e descrição](assets/journey-action-configure.png){width="80%"}
 
 1. Você é direcionado para a guia **[!UICONTROL Ações]** da tela de configuração da ação de jornada.
 
    Selecione a configuração a ser usada para o canal selecionado.
 
-   ![](assets/journey-action-actions-tab.png)
+   ![Guia Ações no menu Administração mostrando ações personalizadas e do Adobe](assets/journey-action-actions-tab.png)
 
 1. Se você selecionou um canal de entrada, é possível adicionar várias ações. [Saiba mais](#multi-action)
 
@@ -159,15 +159,15 @@ Para definir várias ações de entrada em um único nó de ação de jornada, s
 
 1. Selecione **[!UICONTROL Várias ações]** como o tipo de ação.
 
-   ![](assets/journey-multi-action.png)
+   ![Atividade multiação na paleta do jornada em Orquestração](assets/journey-multi-action.png)
 
 1. Adicione um rótulo se necessário e selecione **[!UICONTROL Configurar ação]**.
 
-   ![](assets/journey-multi-action-configure.png){width="60%"}
+   ![Painel de configuração de várias ações com campos de rótulo e descrição](assets/journey-multi-action-configure.png){width="60%"}
 
 1. Você é direcionado para a guia **[!UICONTROL Ações]** da tela de configuração da ação de jornada.
 
-   ![](assets/journey-multi-action-configuration.png){width="70%"}
+   ![Configuração de várias ações mostrando a lista de ações a serem executadas](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. Selecione uma ação de entrada (**Experiência baseada em código**, **Mensagem no aplicativo**, **Cartão de Conteúdo** ou **Web**) na seção **[!UICONTROL Ações]**.
 
@@ -175,7 +175,7 @@ Para definir várias ações de entrada em um único nó de ação de jornada, s
 
 1. Use o botão **[!UICONTROL Adicionar ação]** para selecionar outra ação de entrada na lista suspensa.
 
-   ![](assets/journey-multi-action-add.png){width="80%"}
+   ![Adicionar botão de ação para incluir ações adicionais na atividade de várias ações](assets/journey-multi-action-add.png){width="80%"}
 
 1. Continue da mesma forma para adicionar mais ações. Você pode adicionar até 10 ações de entrada em um grupo de ações de jornada.
 

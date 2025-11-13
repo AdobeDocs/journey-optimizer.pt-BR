@@ -12,9 +12,9 @@ hidefromtoc: true
 keywords: capacidade de entrega, jornada, caso de uso, email, reputação
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -37,13 +37,13 @@ O objetivo deste caso de uso é criar uma jornada para incrementar suas entregas
 
    1. Defina o campo **[!UICONTROL Limit]** para o número máximo de destinatários desta entrega.
 
-   ![](assets/profile-cap-condition.png)
+   ![Configuração da condição de limite de perfil para controlar o volume de entrega](assets/profile-cap-condition.png)
 
    É possível aumentar gradualmente esse limite até o número total de assinantes.
 
 1. Adicione uma atividade de ação **[!UICONTROL Email]** ao caminho nominal após a atividade **[!UICONTROL Condição]**.
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![Configuração de mensagem de email na jornada de entrega rampada](assets/ramp-up-deliveries-message.png)
 
    Quando a jornada for executada, a mensagem será enviada para os perfis de entrada, até o número máximo de perfis especificado. Quando esse limite é atingido, os perfis que entram pegam o caminho alternativo.
 

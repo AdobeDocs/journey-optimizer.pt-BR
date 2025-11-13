@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jump, activity, jornada, split, dividir
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 10%
+source-wordcount: '885'
+ht-degree: 9%
 
 ---
 
@@ -76,16 +76,16 @@ Na jornada B, o primeiro evento é acionado internamente por meio da atividade *
 
 1. Projete sua **jornada de origem**.
 
-   ![](assets/jump1.png)
+   ![Atividade de salto na paleta do jornada para transição entre jornadas](assets/jump1.png)
 
 1. Em qualquer etapa da jornada, adicione uma atividade de **[!UICONTROL Salto]**, da categoria **[!UICONTROL AÇÕES]**. Adicione um rótulo e uma descrição.
 
-   ![](assets/jump2.png)
+   ![Lista suspensa de seleção de jornada de destino na configuração da atividade de salto](assets/jump2.png)
 
 1. Clique dentro do campo **jornada de destino**.
 A lista exibe todas as versões do jornada que são modo de rascunho, ativo ou de teste. As jornadas que usam um namespace diferente ou que começam com um evento **Qualificação de público-alvo** não estão disponíveis. As jornadas do Target que criariam um padrão de loop também são filtradas.
 
-   ![](assets/jump3.png)
+   ![Atividade de salto mostrando a jornada de destino e os parâmetros de ação](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -94,12 +94,12 @@ A lista exibe todas as versões do jornada que são modo de rascunho, ativo ou d
 1. Selecione a jornada de destino para a qual deseja ir.
 O campo **Primeiro evento** é preenchido previamente com o nome do primeiro evento da jornada de destino. Se a sua jornada de destino incluir vários eventos, o **[!UICONTROL Jump]** só será permitido no primeiro evento.
 
-   ![](assets/jump4.png)
+   ![Configuração de mapeamento de parâmetros para a atividade de salto com o editor de expressão](assets/jump4.png)
 
 1. A seção **Parâmetros de ação** exibe todos os campos do evento de destino. Mapeie cada campo com campos do evento de origem ou da fonte de dados, como com outros tipos de ações. Essas informações serão passadas para a jornada de destino no tempo de execução.
 1. Adicione as próximas atividades para concluir a jornada de origem.
 
-   ![](assets/jump5.png)
+   ![Interface de modo de teste para testar atividade de salto entre jornadas](assets/jump5.png)
 
 
    >[!NOTE]
@@ -110,7 +110,7 @@ Sua atividade **[!UICONTROL Jump]** está configurada. Assim que a jornada estiv
 
 Quando uma atividade de **[!UICONTROL Jump]** é configurada em uma jornada, um ícone de entrada **[!UICONTROL Jump]** é adicionado automaticamente no início da jornada de destino. Isso ajuda a identificar que a jornada pode ser acionada externamente, mas também internamente, a partir de uma atividade de **[!UICONTROL Salto]**.
 
-![](assets/jump7.png)
+![Fluxo de Jornada mostrando salto da jornada de origem para a jornada de destino](assets/jump7.png)
 
 ## Resolução de problemas {#jump-troubleshoot}
 
@@ -120,4 +120,4 @@ Ocorrem erros se:
 * A jornada de destino está em rascunho, fechada ou parada
 * O primeiro evento da jornada de destino foi alterado e o mapeamento foi interrompido
 
-![](assets/jump6.png)
+![Análise de Jornada mostrando as métricas de execução da atividade de salto](assets/jump6.png)

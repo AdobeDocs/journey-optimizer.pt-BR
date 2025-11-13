@@ -10,10 +10,10 @@ level: Intermediate
 keywords: action, custom, API, jornada, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 20%
+source-wordcount: '442'
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,7 @@ O URL concatenado tem este formato:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
-![](assets/journey-custom-action-url.png)
+![Configuração de URL de ação personalizada com mapeamento de parâmetro dinâmico](assets/journey-custom-action-url.png)
 
 ### Cabeçalhos e parâmetros de consulta {#headers}
 
@@ -68,7 +68,7 @@ A seção **[!UICONTROL Configuração de URL]** mostra os campos de cabeçalho 
 
 Para especificar o valor dos campos de cabeçalho dinâmico e parâmetro de consulta, clique dentro do campo ou no ícone de lápis e selecione o campo desejado.
 
-![](assets/journey-dynamicheaderfield.png)
+![Configuração do campo de cabeçalho dinâmico na ação personalizada](assets/journey-dynamicheaderfield.png)
 
 ## Parâmetros de ação
 

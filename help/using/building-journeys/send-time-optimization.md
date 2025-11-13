@@ -10,9 +10,9 @@ level: Intermediate
 keywords: send-time, send, message, otimization, jornada, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1546'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ A Otimização de tempo de envio está disponível apenas para os tipos de açã
 
 Use a Otimização de tempo de envio em um email ou ação de push ativando o switch Otimização de tempo de envio nos parâmetros de ação.
 
-![](assets/jo-message5.png)
+![Alternância de Otimização de Tempo de Envio na configuração do canal de email](assets/jo-message5.png)
 
 A Otimização de tempo de envio não deve ser usada para mensagens operacionais urgentes e sensíveis ao tempo - por exemplo, uma confirmação de pedido, uma notificação de redefinição de senha ou uma notificação de alteração da porta de voo. A Otimização de tempo de envio é melhor usada em comunicações de marketing menos urgentes - por exemplo, um anúncio semanal, informações promocionais sobre um novo produto ou informações sobre uma venda de um mês.
 
@@ -80,11 +80,11 @@ A Otimização de tempo de envio faz previsões para cada hora da semana, para c
 
 Essas previsões são ponderadas e combinadas usando uma abordagem Bayesiana, resultando em um &quot;mapa de calor&quot; para cada métrica (aberturas de email, cliques de email e aberturas por push), para cada cliente, que indica as horas da semana em que entrar em contato com esse usuário tem maior e menor probabilidade de resultar no resultado do engajamento desejado (abrir/clicar), conforme ilustrado no exemplo de mapa de calor abaixo:
 
-![](assets/heatmap-1.png)
+![Mapa de calor do engajamento mostrando os tempos ideais de envio de email por dia e hora](assets/heatmap-1.png)
 
 Se um usuário com as probabilidades previstas acima for direcionado para uma mensagem às 9:00 AM de quarta-feira com a Otimização de tempo de envio ativada e um tempo de espera máximo de 7 horas, o tempo de envio selecionado para a mensagem será 12:00:
 
-![](assets/heatmap-2.png)
+![Heatmap de engajamento com dados de otimização detalhados a cada hora](assets/heatmap-2.png)
 
 ## Detalhes de treinamento e pontuação do modelo de Otimização de tempo de envio  {#model-send-time}
 
@@ -101,7 +101,7 @@ Os tempos de envio de exploração são selecionados aleatoriamente a partir dos
 
 Você encontrará abaixo Perguntas frequentes sobre a Otimização de tempo de envio.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++Por quanto tempo preciso aguardar antes de usar a Otimização de tempo de envio?
 

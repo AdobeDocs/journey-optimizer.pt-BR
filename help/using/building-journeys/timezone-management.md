@@ -10,10 +10,10 @@ level: Intermediate
 keywords: time zone, properties, jornada, condition, time, date, custom
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 28%
+source-wordcount: '375'
+ht-degree: 27%
 
 ---
 
@@ -47,7 +47,7 @@ O fuso horário pode ser corrigido. Limpe o fuso horário predefinido e escolha 
 
 Para fazer isso, no painel **[!UICONTROL Propriedades de Jornada]**, selecione um fuso horário.
 
-![](assets/journey72.png)
+![Lista suspensa de seleção de fuso horário nas propriedades da jornada](assets/journey72.png)
 
 ## Usar fuso horário de perfis {#timezone-from-profiles}
 
@@ -60,7 +60,7 @@ Se o evento de entrada da jornada tiver um namespace, o que significa que a jorn
 
 Se um fuso horário tiver sido definido para um perfil, ele será recuperado e usado pela jornada. Caso contrário, o fuso horário usado será aquele definido no campo timezone.
 
-![](assets/journey73.png)
+![Configuração de fuso horário de perfil em fontes de dados para tempo personalizado](assets/journey73.png)
 
 >[!NOTE]
 >

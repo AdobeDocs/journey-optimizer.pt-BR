@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ações de entrada, solução de problemas, jornada, depurar, autoajuda, verificação, erros
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1731'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Este guia fornece um processo passo a passo para depurar problemas relacionados 
 
 Antes de começar a solução de problemas, verifique o seguinte:
 
-1. Configure uma sessão **Assurance**. Saiba mais na [documentação do Adobe Experience Platform Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Configure uma sessão **Assurance**. Saiba mais na [documentação do Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 1. Navegue até a jornada que contém a ação de entrada para recuperar o nome da jornada e a ID da versão.
 
@@ -41,13 +41,13 @@ Antes de começar a solução de problemas, verifique o seguinte:
    >
    >A ID da versão do jornada pode ser encontrada na URL após &#39;jornada/&#39; (por exemplo: *86232fb1-2932-4036-8198-55dfec606fd7*).
 
-   ![](assets/troubleshoot-inbound-retrieve-journey-id.png)
+   ![Local da ID de Jornada na URL de jornada ou no painel de propriedades](assets/troubleshoot-inbound-retrieve-journey-id.png)
 
 1. Clique na ação de entrada para exibir seus detalhes. Recupere o rótulo e a ID da ação de entrada.
 
-   ![](assets/troubleshoot-inbound-retrieve-action-id.png)
+   ![ID da ação na exibição de código do painel de configuração da atividade](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. Obtenha o namespace e a ID do perfil para identificar o perfil que está encontrando problemas. Com base na sua configuração, o namespace pode ser ECID, email ou ID do cliente, por exemplo. Saiba como pesquisar um perfil na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+1. Obtenha o namespace e a ID do perfil para identificar o perfil que está encontrando problemas. Com base na sua configuração, o namespace pode ser ECID, email ou ID do cliente, por exemplo. Saiba como pesquisar um perfil na [documentação do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ## Cenário 1: o usuário não recebeu o conteúdo de entrada {#scenario-1}
 
@@ -62,13 +62,13 @@ Nesse cenário, um perfil inseriu a ação de entrada na jornada, mas mesmo depo
 
 2. **identidade &#39;joai&#39; definida nas identidades da plataforma**
 
-   A ação de entrada usa o namespace **joai** no perfil `segmentMembership` para ativar o perfil para a etapa de entrada. Verifique se ele foi definido nas Identidades da plataforma para a sandbox. Saiba mais sobre o [Experience Platform Identity Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home){target="_blank"}
+   A ação de entrada usa o namespace **joai** no perfil `segmentMembership` para ativar o perfil para a etapa de entrada. Verifique se ele foi definido nas Identidades da plataforma para a sandbox. Saiba mais sobre o [Experience Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}
 
 ### Etapas de depuração {#debugging-steps}
 
 O gráfico abaixo mostra a sequência de etapas de depuração que você pode seguir:
 
-![](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
+![Fluxo de trabalho de solução de problemas para mensagem de entrada não sendo exibida: verifique a jornada, a entrega de borda e o perfil](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
 ### Etapa 1: verifique se o dispositivo/cliente está recebendo o conteúdo do Edge Network {#step-1}
 
@@ -78,11 +78,11 @@ Comece verificando se o dispositivo/cliente está obtendo o conteúdo esperado.
 
 >[!TAB Canal no aplicativo]
 
-1. Vá para a sessão [Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} e selecione a seção **[!UICONTROL Mensagens no Aplicativo]** no painel esquerdo.
+1. Vá para a sessão [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} e selecione a seção **[!UICONTROL Mensagens no Aplicativo]** no painel esquerdo.
 
 1. Na guia **[!UICONTROL Mensagens no Dispositivo]**, clique na lista suspensa **[!UICONTROL Mensagens]**.
 
-   ![](assets/troubleshoot-inbound-assurance-in-app.png){width="80%"}
+   ![Exibição do Adobe Assurance mostrando eventos e dados de entrega de mensagens no aplicativo](assets/troubleshoot-inbound-assurance-in-app.png){width="80%"}
 
 1. Procure uma mensagem com o nome da jornada seguido por &quot;- Mensagem no aplicativo&quot;. Se presente, significa que a mensagem no aplicativo está presente no dispositivo/cliente e o problema pode estar relacionado ao acionador no aplicativo.
 
@@ -90,11 +90,11 @@ Comece verificando se o dispositivo/cliente está obtendo o conteúdo esperado.
 
 >[!TAB Canal da Web]
 
-Visite a página e inspecione a guia de rede, ou verifique a carga de resposta do Edge na seção **[!UICONTROL Edge Delivery]** da sessão [Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Visite a página e inspecione a guia de rede, ou verifique a carga de resposta do Edge na seção **[!UICONTROL Edge Delivery]** da sessão [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!TAB Canal de experiência baseado em código]
 
-Execute uma solicitação de curl usando a [API do Adobe](https://developer.adobe.com/data-collection-apis/docs/api/) e verifique a carga de resposta do Edge na seção **[!UICONTROL Edge Delivery]** da sessão [Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Execute uma solicitação de curl usando a [API do Adobe](https://developer.adobe.com/data-collection-apis/docs/api/) e verifique a carga de resposta do Edge na seção **[!UICONTROL Edge Delivery]** da sessão [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -112,7 +112,7 @@ Para depurar o comportamento do Edge Network, siga as etapas abaixo.
 
 1. Verifique se a atividade de Edge correspondente à ação de entrada está listada nas seções **[!UICONTROL Atividades Qualificadas]** ou **[!UICONTROL Atividades Não Qualificadas]**.
 
-   ![](assets/troubleshoot-inbound-edge-delivery.png)
+   ![Logs de entrega do Edge mostrando apresentações de mensagem enviadas ao perfil](assets/troubleshoot-inbound-edge-delivery.png)
 
    * Se estiver na seção **Atividades qualificadas**, o perfil se qualificará para a ação de jornada de entrada, e o conteúdo deverá ser retornado.
    * Se estiver na seção **Atividades não qualificadas**, o perfil não se qualificou para a ação de jornada de entrada. Consulte os motivos de exclusão para obter mais detalhes.
@@ -122,13 +122,13 @@ Para depurar o comportamento do Edge Network, siga as etapas abaixo.
    >
    >Para encontrar sua atividade do Edge na sessão **Assurance**, procure a atividade em que o **[!UICONTROL audienceNamespace]** é **joai** e o **[!UICONTROL audienceSegmentId]** é &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> (por exemplo: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
 
-   ![](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
+   ![Erro de entrega do Edge mostrando que o perfil não se qualificou para a mensagem](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
 
 1. Se sua atividade estiver na seção **[!UICONTROL Atividades Não Qualificadas]** e o motivo da exclusão for *&#39;O segmento não está ativo&#39;*, significa que o servidor de entrega do Edge Network não acha que o perfil faz parte do segmento de público-alvo **joai** relevante.
 
    Você pode verificar novamente se o segmento **joai** está presente na exibição do perfil do servidor de entrega do Edge Network, abrindo o elemento **segmentsMap** da seção Perfil e procurando a presença da ID de segmento **joai**.
 
-1. Se o servidor de entrega do Edge Network não exibir o perfil como estando no segmento **joai** relevante, vá para a próxima etapa.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Se o servidor de entrega do Edge Network não exibir o perfil como estando no segmento **joai** relevante, vá para a próxima etapa.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### Etapa 3: verifique se a associação de público-alvo &quot;joai&quot; se propagou para a Edge Network {#step-3}
 
@@ -148,11 +148,11 @@ Para verificar a presença do segmento **joai** no atributo `segmentMembership` 
 
 1. Clique em **[!UICONTROL Exibir JSON]** para abrir a exibição JSON do perfil.
 
-   ![](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
+   ![Exibição dos atributos de perfil em formato JSON mostrando o status de associação do público-alvo](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
 
 1. Vá para o atributo `segmentMembership` e verifique se a ID de segmento &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> está presente no namespace **joai** e se no **[!UICONTROL se realizou]** <!--or existing?-->o status.
 
-   ![](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
+   ![Perfil JSON mostrando associação realizada de público-alvo com carimbo de data/hora](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
 
    * Se presente, o segmento **joai** correspondente à ação de jornada de entrada foi propagado corretamente para o perfil do Edge.
 
@@ -216,8 +216,8 @@ Siga as mesmas etapas de depuração do [Cenário 1](#debugging-steps) para veri
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 -->

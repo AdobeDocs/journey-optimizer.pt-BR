@@ -10,10 +10,10 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 42%
+source-wordcount: '624'
+ht-degree: 40%
 
 ---
 
@@ -38,7 +38,7 @@ As etapas para publicar uma jornada são detalhadas abaixo:
    >
    > Se sua jornada estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para publicar sua jornada. [Saiba mais](../test-approve/gs-approval.md)
 
-   ![](assets/journeyuc1_18.png)
+   ![Botão Publicar na barra de ferramentas do jornada para ativar a jornada](assets/journeyuc1_18.png)
 
 Quando a jornada é publicada, ela está no modo **somente leitura**. No modo somente leitura, você só pode modificar os rótulos e as descrições da atividade, o nome da jornada e a descrição da jornada. Se precisar fazer modificações adicionais em uma jornada publicada, crie [uma nova versão](journey-ui.md#journey-filter) da jornada.
 
@@ -52,7 +52,7 @@ Quando você interrompe uma jornada, ela é interrompida permanentemente. Todos 
 
 Na lista da jornada, todas as versões da jornada são exibidas com o número da versão. Quando você pesquisa uma jornada, as versões mais recentes são exibidas na parte superior da lista na primeira vez que o aplicativo é aberto. Em seguida, você pode definir a classificação desejada e o aplicativo a manterá como uma preferência de usuário. A versão da jornada também é exibida na parte superior da interface de edição da jornada, acima da tela.
 
-![](assets/journeyversions1.png)
+![Lista de versões do Jornada mostrando versões publicadas e de rascunho](assets/journeyversions1.png)
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Se precisar modificar para uma jornada em tempo real, crie uma nova versão da j
 
 1. Abra a versão mais recente da jornada ativa, clique em **[!UICONTROL Criar uma nova versão]** e confirme.
 
-   ![](assets/journeyversions2.png)
+   ![Caixa de diálogo Criar nova versão para duplicar a jornada](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -88,4 +88,4 @@ Ao publicar uma nova versão de uma jornada, a versão anterior encerra automati
 
 Saiba como publicar uma jornada neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427939?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

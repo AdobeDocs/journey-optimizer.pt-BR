@@ -3,9 +3,9 @@ title: Usar identificadores complementares em jornadas
 description: Saiba como usar identificadores complementares no jornada.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1424'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,7 @@ Para usar um identificador complementar em uma jornada acionada por evento, siga
 
    1. Marcar o identificador como uma **[!UICONTROL Identidade]**.
 
-      ![](assets/supplemental-ID-schema.png)
+      ![Configuração de esquema com grupo de campos de identificador complementar](assets/supplemental-ID-schema.png)
 
       >[!IMPORTANT]
       >
@@ -105,7 +105,7 @@ Para usar um identificador complementar em uma jornada acionada por evento, siga
 
    1. Na tela de configuração do evento, marque a opção **[!UICONTROL Usar identificador complementar]**.
 
-      ![](assets/supplemental-ID-event.png)
+      ![Configuração de evento com seleção de namespace de identificador complementar](assets/supplemental-ID-event.png)
 
    1. Use o editor de expressão para selecionar o atributo marcado como a ID complementar.
 
@@ -119,7 +119,7 @@ Para usar um identificador complementar em uma jornada acionada por evento, siga
 
    Arraste o evento configurado para a tela de jornada. Ela acionará uma entrada de jornada com base na ID do perfil e na ID complementar.
 
-   ![](assets/supplemental-ID-journey.png)
+   ![Jornada usando identificador complementar para disparo de evento](assets/supplemental-ID-journey.png)
 
 >[!TAB Ler jornada de público-alvo]
 
@@ -131,7 +131,7 @@ Para usar um identificador complementar em uma jornada Ler público, siga estas 
 
    1. Marcar o identificador como uma **[!UICONTROL Identidade]**.
 
-      ![](assets/supplemental-ID-schema-profile.png)
+      ![Esquema de perfil com campo de identificador complementar configurado](assets/supplemental-ID-schema-profile.png)
 
       >[!IMPORTANT]
       >
@@ -145,7 +145,7 @@ Para usar um identificador complementar em uma jornada Ler público, siga estas 
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
-        ![](assets/supplemental-ID-data-source.png)
+        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
     1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
 
@@ -155,7 +155,7 @@ Para usar um identificador complementar em uma jornada Ler público, siga estas 
 
    1. No painel de propriedades da atividade, alterne a opção **[!UICONTROL Usar identificador complementar]**.
 
-      ![](assets/supplemental-ID-read-audience.png)
+      ![Ler atividade de Público com configuração de identificador complementar](assets/supplemental-ID-read-audience.png)
 
    1. No campo **[!UICONTROL Identificador de suplemento]**, use o editor de expressão para selecionar o atributo marcado como a ID complementar.
 
@@ -171,7 +171,7 @@ Para usar um identificador complementar em uma jornada Ler público, siga estas 
 
 Use o editor de expressão e o editor de personalização para fazer referência a atributos do identificador complementar para personalização ou lógica condicional. Os atributos podem ser acessados pelo menu **[!UICONTROL Atributos contextuais]**.
 
-![](assets/supplemental-ID-perso.png)
+![Editor do Personalization mostrando campos de identificador complementares para conteúdo](assets/supplemental-ID-perso.png)
 
 Para jornadas acionadas por eventos se estiver trabalhando com arrays (por exemplo, várias receitas ou políticas), use uma fórmula para extrair elementos específicos.
 
@@ -246,4 +246,4 @@ Em uma matriz de objetos com a ID complementar como `bookingNum` e um atributo n
 
 Saiba como habilitar e aplicar um identificador complementar no [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464797?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

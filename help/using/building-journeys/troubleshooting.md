@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 40%
+source-wordcount: '482'
+ht-degree: 38%
 
 ---
 
@@ -33,11 +33,11 @@ Os erros são exibidos com um símbolo de aviso na tela. Coloque o cursor no pon
 
 * se um campo obrigatório estiver vazio, um erro será exibido
 
-  ![](assets/journey63.png)
+  ![Erros de validação de Jornada exibidos na tela com indicadores de erro](assets/journey63.png)
 
 * na tela, quando duas atividades são desconectadas, um aviso é exibido
 
-  ![](assets/canvas-disconnected.png)
+  ![Ícone de aviso mostrando atividades desconectadas na tela do jornada](assets/canvas-disconnected.png)
 
 ## Erros na jornada {#canvas-errors}
 
@@ -45,7 +45,7 @@ Os erros também são visíveis no botão **[!UICONTROL Alertas]**, acima da tel
 
 O sistema detecta dois tipos de problemas: **erros** e **avisos**. Os erros bloqueiam a publicação e a ativação de teste. Os avisos indicam possíveis problemas que não estão bloqueando a ativação de teste ou a publicação. Você verá uma descrição do problema e uma ID de registro de problemas do tipo ERR_XXX_XXX. Isso pode ajudar a identificar o problema.
 
-![](assets/journey-error-and-warning.png)
+![Indicadores de erro e aviso no jornada com dicas de ferramentas de descrição](assets/journey-error-and-warning.png)
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 

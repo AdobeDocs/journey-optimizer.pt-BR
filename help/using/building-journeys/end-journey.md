@@ -9,9 +9,9 @@ level: Intermediate
 keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Ao criar uma jornada, uma tag End é exibida no final de cada caminho. Este nó 
 
 Se a jornada tiver vários caminhos, recomendamos adicionar um rótulo a cada extremidade para facilitar a leitura dos relatórios. Saiba mais sobre [relatórios do jornada](../reports/live-report.md).
 
-![](assets/journey-end.png)
+![Encerrar botão de ação de jornada na barra de ferramentas de jornada](assets/journey-end.png)
 
 ## Fechar uma jornada {#close-journey}
 
@@ -69,14 +69,14 @@ Fechar uma jornada manualmente garante que os clientes que já entraram na jorna
 
 Para fechar uma jornada da lista de jornadas, clique no botão **[!UICONTROL Reticências]** localizado à direita do nome da jornada e selecione **[!UICONTROL Fechar para novas entradas]**.
 
-![](assets/journey-finish-quick-action.png)
+![Lista suspensa Concluir ação no menu de ações rápidas para encerrar a jornada](assets/journey-finish-quick-action.png)
 
 Você também pode:
 
 1. Na lista **[!UICONTROL Jornadas]**, clique na jornada que deseja fechar.
 1. No canto superior direito, clique na seta para baixo.
 
-   ![](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![Menu de opções Concluir mostrando o fim da jornada e as ações alternativas](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Fechar para novas entradas]** e confirme na caixa de diálogo.
 
@@ -89,14 +89,14 @@ Caso precise interromper o progresso de todos os indivíduos na jornada, você p
 
 Você pode interromper uma jornada, por exemplo, se um profissional de marketing perceber que a jornada está direcionada ao público errado ou se uma ação personalizada que deveria entregar mensagens não está funcionando corretamente. Para interromper uma jornada da lista de jornadas, clique no botão **[!UICONTROL Reticências]** localizado à direita do nome da jornada e selecione **[!UICONTROL Parar]**.
 
-![](assets/journey-finish-quick-action.png)
+![Lista suspensa Concluir ação no menu de ações rápidas para encerrar a jornada](assets/journey-finish-quick-action.png)
 
 Você também pode:
 
 1. Na lista **[!UICONTROL Jornadas]**, clique na jornada que deseja parar.
 1. No canto superior direito, clique na seta para baixo.
 
-   ![](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![Opções adicionais de conclusão, incluindo jornada de fechamento e limpeza](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Parar]** e confirme na caixa de diálogo.
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 36c44728172313492898bf3374a37512e4c19789
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 8%
+source-wordcount: '1881'
+ht-degree: 7%
 
 ---
 
@@ -67,11 +67,11 @@ Para usar o modo de teste, siga estas etapas:
 
 1. Para ativar o modo de teste, clique no botão **[!UICONTROL Modo de teste]**, localizado no canto superior direito.
 
-   ![](assets/journeytest1.png)
+   ![Botão de modo de teste na interface do jornada](assets/journeytest1.png)
 
 1. Se a jornada tiver pelo menos uma atividade **Wait**, defina o parâmetro **[!UICONTROL Wait time]** para definir o tempo que cada atividade de espera e tempo limite de evento durarão no modo de teste. O tempo padrão é de 10 segundos para esperas e tempos limite de evento. Isso garantirá que você obtenha os resultados do teste rapidamente.
 
-   ![](assets/journeytest_wait.png)
+   ![Configuração de parâmetro de tempo de espera no modo de teste](assets/journeytest_wait.png)
 
    >[!NOTE]
    >
@@ -79,15 +79,15 @@ Para usar o modo de teste, siga estas etapas:
 
 1. Use o botão **[!UICONTROL Acionar um evento]** para configurar e enviar eventos para a jornada.
 
-   ![](assets/journeyuctest1.png)
+   ![Acionar um botão de evento no modo de teste](assets/journeyuctest1.png)
 
 1. Configure os diferentes campos esperados. No campo **Identificador de Perfil**, insira o valor do campo usado para identificar o perfil de teste. Pode ser o endereço de email, por exemplo. Envie eventos relacionados a perfis de teste. Consulte [esta seção](#firing_events).
 
-   ![](assets/journeyuctest1-bis.png)
+   ![Campos de configuração de evento com entrada de Identificador de Perfil](assets/journeyuctest1-bis.png)
 
 1. Depois que os eventos forem recebidos, clique no botão **[!UICONTROL Mostrar log]** para exibir o resultado do teste e verificá-los. Consulte [esta seção](#viewing_logs).
 
-   ![](assets/journeyuctest2.png)
+   ![Exibir botão de log para exibir os resultados do teste](assets/journeyuctest2.png)
 
 1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Depois que os testes forem concluídos, você poderá publicar sua jornada. Consulte [esta página](../building-journeys/publish-journey.md).
 
@@ -122,17 +122,17 @@ O namespace de identidade é usado para identificar exclusivamente os perfis de 
 
 Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface ajuda você a passar as informações corretas na carga do evento e garantir que o tipo de informação esteja correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
 
-![](assets/journeytest4.png)
+![Interface de configuração de evento com campos e lista suspensa para seleção de evento](assets/journeytest4.png)
 
 A interface permite transmitir parâmetros de evento simples. Se você quiser passar coleções ou outros objetos avançados no evento, selecione **[!UICONTROL Visualização de código]** para ver todo o código da carga e modificá-lo. Por exemplo, você pode copiar e colar informações de evento preparadas por um usuário técnico.
 
-![](assets/journeytest5.png)
+![Visualização de código da carga do evento no formato JSON para configuração avançada](assets/journeytest5.png)
 
 Um usuário técnico também pode usar essa interface para compor cargas de evento e acionar eventos sem precisar usar uma ferramenta de terceiros.
 
 Ao clicar no botão **[!UICONTROL Enviar]**, o teste é iniciado. A progressão do indivíduo na jornada é representada por um fluxo visual. O caminho torna-se progressivamente verde à medida que o indivíduo se move pela jornada. Se ocorrer um erro, um símbolo de aviso será exibido na etapa correspondente. Você pode colocar o cursor nele para exibir mais informações sobre o erro e acessar detalhes completos (quando disponíveis).
 
-![](assets/journeytest6.png)
+![Fluxo visual de teste de Jornada mostrando o progresso do perfil e quaisquer erros](assets/journeytest6.png)
 
 Quando você seleciona um perfil de teste diferente na tela de configuração do evento e executa o teste novamente, o fluxo visual é limpo e mostra o caminho do novo indivíduo.
 
@@ -144,7 +144,7 @@ O modo de teste também está disponível para jornadas que usam um evento com b
 
 Ao acionar um evento, a tela **Configuração de evento** permite que você defina os parâmetros de evento que serão aprovados no teste. Você pode visualizar a condição da ID de evento clicando no ícone de dica de ferramenta no canto superior direito. Uma dica de ferramenta também está disponível ao lado de cada campo que faz parte da avaliação da regra.
 
-![](assets/jo-event8.png)
+![Tela de configuração de evento com dicas de ferramentas de avaliação de regra](assets/jo-event8.png)
 
 ## Modo de teste para eventos comerciais {#test-business}
 
@@ -161,7 +161,7 @@ Observe que, quando você aciona um evento de negócios pela primeira vez, não 
 
 O botão **[!UICONTROL Mostrar log]** permite exibir os resultados do teste. Esta página exibe as informações atuais da jornada em formato JSON. Um botão permite copiar nós inteiros. É necessário atualizar manualmente a página para atualizar os resultados do teste da jornada.
 
-![](assets/journeytest3.png)
+![Logs de teste exibindo resultados de execução de jornada no formato JSON](assets/journeytest3.png)
 
 
 >[!NOTE]

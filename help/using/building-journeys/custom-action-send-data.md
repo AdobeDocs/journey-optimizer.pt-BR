@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: jornada, caso de uso
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -34,13 +34,13 @@ O objetivo deste caso de uso é criar uma jornada para incrementar suas entregas
 
    1. Defina o campo **[!UICONTROL Limit]** para o número máximo de destinatários desta entrega.
 
-   ![](assets/profile-cap-condition.png)
+   ![Condição de limite de perfil para controlar o volume de execução da ação personalizada](assets/profile-cap-condition.png)
 
    É possível aumentar gradualmente esse limite até o número total de assinantes.
 
 1. Adicione uma atividade de ação **[!UICONTROL Email]** ao caminho nominal após a atividade **[!UICONTROL Condição]**.
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![Jornada com ação personalizada para enviar dados ao sistema externo](assets/ramp-up-deliveries-message.png)
 
    Quando a jornada for executada, a mensagem será enviada para os perfis de entrada, até o número máximo de perfis especificado. Quando esse limite é atingido, os perfis que entram pegam o caminho alternativo.
 

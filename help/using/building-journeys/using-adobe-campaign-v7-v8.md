@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, integração, campaign, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 31%
+source-wordcount: '207'
+ht-degree: 30%
 
 ---
 
@@ -36,4 +36,4 @@ Um caso de uso completo é apresentado nesta [seção](../building-journeys/ajo-
 1. Na seção **Ação** da paleta, selecione uma ação de Campanha e adicione-a à sua jornada.
 1. Nos **Parâmetros de ação**, todos os campos esperados na carga da mensagem são exibidos. Você precisa mapear cada um desses campos com o campo que deseja usar, seja do evento ou da fonte de dados. Isso é semelhante às ações personalizadas. Consulte esta [seção](../building-journeys/using-custom-actions.md).
 
-![](assets/accintegration2.png)
+![configurações de ação e integração do Adobe Campaign v7/v8](assets/accintegration2.png)

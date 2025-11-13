@@ -10,10 +10,10 @@ level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: dee9dc2c2229314940def5f0279699d877d50df6
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 19%
+source-wordcount: '1652'
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 19%
 
 A Atividade de **condição** permite definir como as pessoas avançam pela sua jornada criando vários caminhos com base em critérios específicos. Também é possível configurar um caminho alternativo para lidar com tempos limite ou erros, garantindo uma experiência contínua.
 
-![](assets/journey49.png)
+![Atividade de condição na tela de jornada com várias opções de caminho](assets/journey49.png)
 
 Os seguintes tipos de condições estão disponíveis:
 
@@ -42,7 +42,7 @@ Você também pode usar um público-alvo em uma condição de jornada. [Saiba ma
 
 >[!NOTE]
 >
->A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adicionar e gerenciar caminhos de condição {#about_condition}
 
@@ -55,13 +55,13 @@ Ao usar várias condições em uma jornada, você pode definir rótulos para cad
 
 Clique em **[!UICONTROL Adicionar um caminho]** se desejar definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade.
 
-![](assets/journey47.png)
+![Adicionar um botão de caminho na atividade de condição para criar caminhos adicionais](assets/journey47.png)
 
 Observe que o design das jornadas tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho qualificado é executado. Isso significa que é possível variar a priorização de caminhos colocando-os um acima ou abaixo do outro.
 
 Vejamos o exemplo da condição de um primeiro caminho &quot;A pessoa é um VIP&quot; e a condição de um segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que atende a ambas as condições (um homem que é um VIP) passar por essa etapa, o primeiro caminho será escolhido, mesmo que essa pessoa também seja elegível para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
 
-![](assets/journey48.png)
+![Priorização de caminho mostrando condições macho e VIP](assets/journey48.png)
 
 Você pode criar outro caminho para públicos que não estejam qualificados para as condições definidas verificando **[!UICONTROL Mostrar caminho para casos diferentes dos mencionados acima]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
 
@@ -70,7 +70,7 @@ O modo simples permite executar consultas simples com base em uma combinação d
 * AND: uma interseção de dois critérios. Somente os elementos correspondentes a todos os critérios são considerados.
 * OR: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos critérios são considerados.
 
-![](assets/journey64.png)
+![Editor de expressão mostrando a seleção de campo e os operadores lógicos AND](assets/journey64.png)
 
 Se você estiver usando o [Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -93,7 +93,7 @@ Por exemplo, se você estiver direcionando um público-alvo com atributos de enr
 
 Usando o editor de expressão avançado, você pode configurar condições mais avançadas que manipulem coleções ou usem fontes de dados que exijam a transmissão de parâmetros. [Saiba mais](../datasource/external-data-sources.md).
 
-![](assets/journey50.png)
+![Configuração da condição do Data Source com o editor de expressão](assets/journey50.png)
 
 ## Condição de tempo {#time_condition}
 
@@ -105,7 +105,7 @@ Use uma **[!UICONTROL Condição de tempo]** para executar ações diferentes de
 >
 >* Por padrão, a **[!UICONTROL Condição de tempo]** é definida por hora, de 00:00 a 12:00.
 
-![](assets/journey51.png)
+![Configurações de condição de tempo com filtros de hora e dia da semana](assets/journey51.png)
 
 Três opções de filtragem de tempo estão disponíveis:
 
@@ -123,7 +123,7 @@ No modo de teste, ao atingir uma divisão, a ramificação superior é sempre es
 >
 >Observe que não há nenhum botão para adicionar um caminho na condição de divisão de porcentagem. O número de caminhos dependerá do número de divisões. Em condições de divisão, não é possível adicionar um caminho para outros casos, pois isso não pode ocorrer. As pessoas sempre entrarão em um dos caminhos divididos.
 
-![](assets/journey52.png)
+![Configuração de divisão de porcentagem com vários caminhos e distribuição](assets/journey52.png)
 
 ## Condição de data {#date_condition}
 
@@ -133,7 +133,7 @@ Isso permite definir um fluxo diferente com base na data. Por exemplo, se a pess
 >
 >O fuso horário não é mais específico para uma condição e agora é definido no nível da jornada nas propriedades da jornada. Consulte [esta página](../building-journeys/timezone-management.md).
 
-![](assets/journey53.png)
+![Configuração de condição de data com seletor de intervalo de datas](assets/journey53.png)
 
 ## Limite de perfil {#profile_cap}
 
@@ -160,7 +160,7 @@ Para jornadas em tempo real, estes são os limites a serem considerados para gar
 
 O limite de perfil não é considerado no modo de teste.
 
-![](assets/profile-cap-condition.png)
+![Condição de limite de perfil com configuração de limite máximo de perfis](assets/profile-cap-condition.png)
 
 ## Uso de públicos-alvo em condições {#using-a-segment}
 
@@ -170,14 +170,14 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
 1. Abra uma jornada, solte uma atividade de **[!UICONTROL Condição]** e escolha a **Condição de Source de Dados**.
 
-   ![](assets/segment3.png)
+   ![Seleção de Condição de Source de Dados na atividade de condição](assets/segment3.png)
 
 1. Clique em **[!UICONTROL Adicionar um caminho]** para cada caminho extra necessário. Para cada caminho, clique no campo **[!UICONTROL Expression]**.
 
 1. No lado esquerdo, abra o nó **[!UICONTROL Públicos-alvo]**. Arraste e solte o público-alvo que deseja usar com sua condição. Por padrão, a condição no público-alvo é verdadeira.
 
-   ![](assets/segment4.png)
+   ![Seleção de público-alvo do nó Públicos-alvo no editor de expressão](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

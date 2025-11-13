@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: jornada, caso de uso, mensagem, assinantes, lista, ler
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '345'
 ht-degree: 17%
 
 ---
@@ -33,7 +33,7 @@ Para configurar essa jornada, siga estas etapas:
 
    1. Clique no ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo **[!UICONTROL Endereço]** e clique no ícone **[!UICONTROL Editar]**.
 
-      ![](assets/message-to-subscribers-uc-1.png)
+      ![Fluxo de Jornada com Público-alvo de Leitura para direcionamento da lista de assinantes](assets/message-to-subscribers-uc-1.png)
 
    1. No editor de expressão, insira a expressão para recuperar os endereços de email dos assinantes. [Leia mais](expression/expressionadvanced.md).
 
@@ -54,7 +54,7 @@ Para configurar essa jornada, siga estas etapas:
 
       Leia mais sobre [referências a campos](expression/field-references.md) em expressões.
 
-      ![](assets/message-to-subscribers-uc-2.png)
+      ![Configuração de email com conteúdo personalizado para assinantes](assets/message-to-subscribers-uc-2.png)
 
    1. Na caixa de diálogo **[!UICONTROL Adicionar uma expressão]**, clique em **[!UICONTROL Ok]**.
 

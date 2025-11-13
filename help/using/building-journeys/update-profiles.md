@@ -10,10 +10,10 @@ level: Intermediate
 keywords: perfil, atualização, jornada, atividade
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 6%
+source-wordcount: '669'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Use a atividade de ação **[!UICONTROL Atualizar Perfil]** para atualizar um pe
 * Como qualquer outra ação, é possível definir um caminho alternativo em caso de erro ou tempo limite, e não é possível colocar duas ações em paralelo.
 * A solicitação de atualização enviada para o Adobe Experience Platform é imediata/em um segundo. Normalmente, levará alguns segundos, mas às vezes mais, sem garantia. Como resultado, por exemplo, se uma ação estiver usando o &quot;campo 1&quot; atualizado por uma ação **Atualizar perfil** posicionada logo antes, você não deve esperar que o &quot;campo 1&quot; seja atualizado na ação.
 * A atividade **Atualizar perfil** não oferece suporte a campos XDM definidos como enumerações ou valores sugeridos.
-* A atividade **[!UICONTROL Atualizar perfil]** atualiza somente o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}, não o Data Lake.
+* A atividade **[!UICONTROL Atualizar perfil]** atualiza somente o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, não o Data Lake.
 
 ## Seleção do conjunto de dados {#dataset-selection}
 
@@ -48,13 +48,13 @@ Além disso, a configuração da atividade **Atualizar Perfil** não requer um n
 
 1. Na seção **Ação** da paleta, solte a atividade **Atualizar Perfil** na tela.
 
-   ![](assets/profileupdate0.png)
+   ![Atualizar atividade de perfil na paleta de jornadas em Ações](assets/profileupdate0.png)
 
 1. Selecione um esquema na lista.
 
 1. Clique em **Campo** para selecionar o campo que deseja atualizar. Somente um campo pode ser selecionado.
 
-   ![](assets/profileupdate2.png)
+   ![Painel de configuração de atualização de perfil com lista suspensa de seleção de campo](assets/profileupdate2.png)
 
 1. Selecione um conjunto de dados na lista.
 
@@ -66,15 +66,15 @@ Além disso, a configuração da atividade **Atualizar Perfil** não requer um n
 
    * Usando o editor de expressões simples, é possível selecionar um campo de uma fonte de dados ou do evento de entrada.
 
-     ![](assets/profileupdate4.png)
+     ![Seletor de campo de modo simples para atualizações de atributo de perfil](assets/profileupdate4.png)
 
    * Para definir um valor específico ou aproveitar funções avançadas, selecione **Modo avançado**.
 
-     ![](assets/profileupdate3.png)
+     ![Editor de expressão de modo avançado para atualizações de perfil complexas](assets/profileupdate3.png)
 
 O **Perfil de Atualização** está configurado agora.
 
-![](assets/profileupdate1.png)
+![Atividade de atualização de perfil na jornada com configuração de campos](assets/profileupdate1.png)
 
 
 ## Uso do modo de teste {#using-the-test-mode}

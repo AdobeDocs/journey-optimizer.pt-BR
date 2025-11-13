@@ -9,9 +9,9 @@ level: Experienced
 keywords: jornada, fontes de dados, limite, taxa de transferência, personalizado, ações
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '781'
 ht-degree: 3%
 
 ---
@@ -49,11 +49,11 @@ Para **jornadas acionadas por público-alvo**, você pode definir a taxa de leit
 > Esse é o número máximo de perfis que podem entrar na jornada por segundo. Essa taxa se aplica somente a essa atividade e nenhuma outra na jornada. [Leia mais](../building-journeys/read-audience.md)
 
 
-![](assets/limit-throughput-1.png)
+![Painel de configuração Limitar taxa de transferência com configurações de limitação de taxa](assets/limit-throughput-1.png)
 
 Você pode modificar esse valor de 500 a 20.000 instâncias por segundo. Se você precisar ir abaixo de 500/s, também poderá adicionar condições de &quot;divisão de porcentagem&quot; com atividades de espera para dividir sua jornada em várias ramificações e executá-las em um momento específico.
 
-![](assets/limit-throughput-2.png)
+![Jornada com atividade de taxa de transferência de limite que controla a taxa de entrega de mensagens](assets/limit-throughput-2.png)
 
 Vamos ver um exemplo de **jornadas acionadas por público** que funcionam com uma população de **10.000 perfis** e enviam dados para um sistema externo com suporte a **100 solicitações/segundo**.
 

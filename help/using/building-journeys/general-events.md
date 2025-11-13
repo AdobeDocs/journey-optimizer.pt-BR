@@ -10,9 +10,9 @@ level: Intermediate
 keywords: personalizado, geral, eventos, jornada
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '640'
 ht-degree: 20%
 
 ---
@@ -35,7 +35,7 @@ Para esse tipo de evento, só é possível adicionar um rótulo e uma descriçã
 
 Saiba mais sobre a taxa de transferência de eventos e as taxas de processamento de jornada em [esta seção](entry-management.md#journey-processing-rate).
 
-![](assets/general-events.png)
+![Painel de configuração de eventos gerais com seleção e configurações de evento](assets/general-events.png)
 
 Quando você solta um evento comercial, ele adiciona automaticamente uma atividade **Ler público**. Para obter mais informações sobre eventos comerciais, consulte [esta seção](../event/about-events.md)
 
@@ -55,7 +55,7 @@ Para configurar um tempo limite para um evento, siga estas etapas:
 
 1. Quando nenhum evento é recebido dentro do tempo limite especificado, a prática recomendada é enviar os indivíduos para um caminho de tempo limite. Para isso, habilite a opção **[!UICONTROL Definir um caminho de tempo limite]**. Nesse caso, a jornada continua para o indivíduo assim que o tempo limite é atingido. Recomendamos que você sempre habilite a opção **[!UICONTROL Definir um caminho de tempo limite]**.
 
-   ![](assets/event-timeout.png)
+   ![Configuração de tempo limite de evento com opções de caminho de duração e tempo limite](assets/event-timeout.png)
 
 Neste exemplo, a jornada envia um primeiro email de boas-vindas para um cliente depois que ele entra no lobby. Em seguida, ele envia um email de desconto para refeições somente se o cliente entrar no restaurante no dia seguinte. Portanto, configuramos o evento do restaurante com um tempo limite de 1 dia:
 
@@ -69,4 +69,4 @@ O tempo limite definido se aplica a todos os eventos posicionados após a ativid
 * Se um evento for recebido dentro da duração do tempo limite, o indivíduo fluirá para o caminho do evento recebido.
 * Se nenhum evento for recebido dentro da duração do tempo limite, o indivíduo fluirá para a ramificação de tempo limite do evento em que o tempo limite foi definido.
 
-![](assets/event-timeout-group.png)
+![Vários eventos com configurações de tempo limite no jornada](assets/event-timeout-group.png)

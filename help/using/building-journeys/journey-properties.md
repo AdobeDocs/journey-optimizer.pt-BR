@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2771'
 ht-degree: 15%
 
 ---
@@ -41,7 +41,7 @@ Nesta seção, defina o nome da jornada, adicione uma descrição e defina as pr
 * Defina uma [duração de tempo limite](#timeout) nas atividades de jornada (somente para usuários administradores)
 * Monitore conflitos e priorize suas jornadas usando as [ferramentas de gerenciamento de conflitos](#conflict)
 
-![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
+![painel de configuração de propriedades do Jornada com configurações gerais e opções avançadas](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -285,7 +285,7 @@ Para **criar** um critério de saída, siga estas etapas:
 
 1. Abra a jornada.
 
-1. Clique no ícone ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Mostrar Critérios de Saída]** localizado na seção superior direita da tela de jornada.
+1. Clique no ícone ![Mostrar Critérios de Saída](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Mostrar Critérios de Saída]** localizado na seção superior direita da tela de jornada.
 
 1. Selecione **[!UICONTROL Adicionar critérios de saída]**.
 
@@ -296,7 +296,7 @@ Para **criar** um critério de saída, siga estas etapas:
 
 Você pode adicionar vários critérios de saída.
 
-![](assets/exitcriteria-sample.png){width="40%" align="left"}
+![Painel de critérios de saída mostrando as condições de público-alvo para o encerramento da jornada](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
 ### Critérios de saída baseados no atributo de perfil {#profile-exit-criteria}

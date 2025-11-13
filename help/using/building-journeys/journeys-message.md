@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '569'
 ht-degree: 17%
 
 ---
@@ -42,7 +42,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
 
 1. Na seção **Ações** da paleta, arraste e solte uma atividade de canal na tela.
 
-   ![](assets/journey-web-activity.png)
+   ![Atividade de ação do canal da Web na tela de jornada](assets/journey-web-activity.png)
 
 1. Você também pode selecionar a atividade **[!UICONTROL Ação]**, que permite selecionar várias ações de entrada. [Saiba mais](journey-action.md)
 
@@ -139,7 +139,7 @@ Você pode atualizar o conteúdo de uma ação de canal integrada em uma jornada
 
 Para fazer isso, abra a jornada em tempo real, selecione a atividade de canal e clique em **Editar conteúdo**.
 
-![](assets/add-a-message2.png)
+![Lista suspensa Adicionar atividade de ação mostrando as opções de canal disponíveis](assets/add-a-message2.png)
 
 No entanto, não é possível alterar os atributos usados na personalização, sejam eles atributos de perfil ou dados contextuais (de propriedades de evento ou jornada).
 

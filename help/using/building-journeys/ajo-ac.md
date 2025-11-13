@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: jornada, mensagem, campanha, integração
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 2%
+source-wordcount: '488'
+ht-degree: 1%
 
 ---
 
@@ -40,21 +40,21 @@ A instância do Campaign deve ser provisionada para essa integração. O recurso
 
 1. Em **Administração** > **Plataforma** > **Enumerações**, selecione a enumeração **Tipo de evento** (eventType). Crie um novo tipo de evento (&quot;jornada-evento&quot;, em nosso exemplo). Use o nome interno do tipo de evento ao gravar o arquivo JSON posteriormente.
 
-   ![](assets/accintegration-uc-1.png)
+   ![Configurar um evento no Adobe Journey Optimizer com seleção de esquema e campo](assets/accintegration-uc-1.png)
 
 1. Desconecte e reconecte à instância para que a criação entre em vigor.
 
 1. Em **Centro de Mensagens** > **Modelos de mensagens transacionais**, crie um novo modelo de email com base no tipo de evento criado anteriormente.
 
-   ![](assets/accintegration-uc-2.png)
+   ![Configuração de evento mostrando as configurações de identificador de perfil e namespace](assets/accintegration-uc-2.png)
 
 1. Projete seu modelo. Neste exemplo, a personalização é aplicada ao nome do perfil e ao número do pedido. O nome está na fonte de dados do Adobe Experience Platform e o número do pedido é um campo do evento do Journey Optimizer. Use os nomes de campo corretos no Campaign.
 
-   ![](assets/accintegration-uc-3.png)
+   ![Visualização da carga do evento mostrando a estrutura JSON com dados de perfil e evento](assets/accintegration-uc-3.png)
 
 1. Publique seu template transacional.
 
-   ![](assets/accintegration-uc-4.png)
+   ![Botão de cópia de evento para copiar a ID da carga para integração com a API](assets/accintegration-uc-4.png)
 
 1. Escreva a carga JSON correspondente ao modelo.
 
@@ -78,30 +78,30 @@ A instância do Campaign deve ser provisionada para essa integração. O recurso
 
 1. Criar um evento. Inclua o campo &quot;purchaseOrderNumber&quot;.
 
-   ![](assets/accintegration-uc-5.png)
+   ![Tela de configuração de ação personalizada para integração com o Adobe Campaign Classic](assets/accintegration-uc-5.png)
 
 1. Crie uma ação no Journey Optimizer correspondente ao seu template de Campanha. No menu suspenso **Tipo de ação**, selecione **Adobe Campaign Classic**.
 
-   ![](assets/accintegration-uc-6.png)
+   ![Seleção do tipo de ação mostrando a opção Adobe Campaign Classic](assets/accintegration-uc-6.png)
 
 1. Clique no **campo de carga** e cole o JSON criado anteriormente.
 
-   ![](assets/accintegration-uc-7.png)
+   ![Lista suspensa de seleção de conta de campanha para integração de ações](assets/accintegration-uc-7.png)
 
 1. Para o endereço de email e os dois campos de personalização, altere **Constante** para **Variável**.
 
-   ![](assets/accintegration-uc-8.png)
+   ![Configuração de carga de ação com mapeamento de campo para integração com o Campaign](assets/accintegration-uc-8.png)
 
 1. Agora crie uma nova jornada e comece com o evento criado anteriormente.
 
-   ![](assets/accintegration-uc-9.png)
+   ![Jornada tela com evento e ação de campanha configurados](assets/accintegration-uc-9.png)
 
 1. Adicione a ação e mapeie cada campo para o campo correto no Journey Optimizer.
 
-   ![](assets/accintegration-uc-10.png)
+   ![Mapeamento de parâmetro de ação com o editor de expressão para valores dinâmicos](assets/accintegration-uc-10.png)
 
 1. Teste a jornada.
 
-   ![](assets/accintegration-uc-11.png)
+   ![Concluir o fluxo de jornadas com o disparador de eventos e a execução da ação de Campanha](assets/accintegration-uc-11.png)
 
 1. Agora você pode publicar sua jornada.

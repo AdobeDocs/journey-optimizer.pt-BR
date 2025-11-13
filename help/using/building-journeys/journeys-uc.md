@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: caso de uso, vários canais, mensagens, jornada, canal, eventos, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Esta seção apresenta um caso de uso que combina um Público-alvo de leitura, um evento, eventos de reação e mensagens de email/push.
 
-![](assets/jo-uc1.png)
+![Fluxo de jornada simples com atividades de Leitura de Público, Espera e Email](assets/jo-uc1.png)
 
 ## Descrição do caso de uso
 
@@ -52,7 +52,7 @@ Para obter mais informações sobre públicos, [consulte esta página](../audien
 1. Arraste e solte os campos desejados do painel esquerdo no espaço de trabalho central e configure-os de acordo com suas necessidades. Neste exemplo, use os campos de atributo **Cidade** e **Ano de nascimento**.
 1. Clique em **[!UICONTROL Salvar]**.
 
-   ![](assets/add-attributes.png)
+   ![Painel de atributos adicionais para selecionar dados de enriquecimento](assets/add-attributes.png)
 
 O público-alvo agora está criado e pronto para ser usado na jornada. Usando uma atividade **Ler público-alvo**, todos os indivíduos pertencentes a esse público-alvo podem entrar na jornada.
 
@@ -76,7 +76,7 @@ Para isso, use um [evento baseado em regras](../event/about-events.md).
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-   ![](assets/jo-uc2.png)
+   ![Jornada com atividade de Condição ramificada em membros Gold e outros caminhos](assets/jo-uc2.png)
 
 Agora o evento está configurado e pronto para ser usado na jornada. Usando a atividade de evento correspondente, uma ação pode ser acionada sempre que um cliente fizer uma compra.
 
@@ -84,11 +84,11 @@ Agora o evento está configurado e pronto para ser usado na jornada. Usando a at
 
 1. Inicie a jornada com uma atividade **Ler público-alvo**. Selecione o público-alvo criado anteriormente. Todos os indivíduos pertencentes ao público entram na jornada.
 
-   ![](assets/jo-uc4.png)
+   ![Verificação da condição do tempo se a temperatura estiver abaixo de 50 graus](assets/jo-uc4.png)
 
 1. Solte uma atividade de ação **Email** e defina o conteúdo da &quot;primeira mensagem&quot;. Essa mensagem é enviada a todos os indivíduos na jornada. Consulte esta [seção](../email/create-email.md) para saber como configurar e projetar um email.
 
-   ![](assets/jo-uc5.png)
+   ![Conclua a jornada baseada em clima com condição de temperatura e ações de email](assets/jo-uc5.png)
 
 1. Adicione um evento **Reação** e selecione **Email aberto**. O evento é acionado quando um indivíduo pertencente ao público-alvo abre o email.
 

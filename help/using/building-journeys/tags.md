@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, tags
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 30%
+source-wordcount: '255'
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ Como um profissional da Journey Optimizer, você pode organizar suas jornadas us
 
 O campo **Marcas**, nas propriedades da jornada, permite definir marcas para a jornada. É possível selecionar uma tag já existente ou criar uma nova. Comece a digitar o nome da tag desejada e selecione-a na lista. Se não estiver disponível, clique em **Criar** para criar um novo e adicioná-lo à jornada. É possível definir quantas tags forem necessárias.
 
-![](assets/tags1.png)
+![Painel de marcas nas propriedades de jornada para categorização e organização](assets/tags1.png)
 
 A lista de tags definidas é exibida abaixo do campo **Tags**.
 
@@ -41,11 +41,11 @@ A lista de Jornadas exibe uma coluna dedicada para que você possa visualizar fa
 
 Um filtro também está disponível para exibir apenas jornadas com determinadas tags.
 
-![](assets/tags2.png)
+![Lista suspensa de seleção de marcas com marcas disponíveis para classificação de jornada](assets/tags2.png)
 
 É possível adicionar ou remover tags de qualquer tipo de jornada (ativa, rascunho etc.). Clique no ícone **Mais ações** ao lado da jornada e selecione **Editar marcas**.
 
-![](assets/tags3.png)
+![Lista de Jornadas filtrada por marcas mostrando jornadas categorizadas](assets/tags3.png)
 
 ## Gerenciar tags
 

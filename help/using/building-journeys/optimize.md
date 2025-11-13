@@ -11,10 +11,10 @@ keywords: atividade, condição, tela, jornada, otimização
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 9%
+source-wordcount: '1636'
+ht-degree: 8%
 
 ---
 
@@ -43,7 +43,7 @@ Através da atividade **Otimizar**, você pode executar as seguintes ações nos
 * Aproveite as regras de [direcionamento](#targeting) em cada caminho de jornada
 * Aplicar [condições](#conditions) aos seus caminhos
 
-![](assets/journey-optimize.png)
+![Botão Otimizar da paleta de atividades de jornada](assets/journey-optimize.png)
 
 Quando a jornada estiver ativa, os perfis serão avaliados de acordo com os critérios definidos e, com base nos critérios de correspondência, serão enviados pelo caminho apropriado da jornada.
 
@@ -53,7 +53,7 @@ Quando a jornada estiver ativa, os perfis serão avaliados de acordo com os crit
 >id="ajo_path_experiment_success_metric"
 >title="Métricas de sucesso"
 >abstract="As métricas de sucesso são usadas para controlar e avaliar o tratamento com melhor desempenho em um experimento."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurar e rastrear as métricas da jornada"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurar e rastrear as métricas da jornada"
 
 A experimentação permite testar caminhos diferentes com base em uma divisão aleatória para determinar qual tem o melhor desempenho com base em métricas de sucesso predefinidas.
 
@@ -71,13 +71,13 @@ Digamos que você deseje comparar três caminhos:
 
 1. Selecione **[!UICONTROL Experimento]** na lista suspensa **[!UICONTROL Método]**.
 
-   ![](assets/journey-optimize-experiment.png){width=65%}
+   ![Painel de configuração do experimento de conteúdo](assets/journey-optimize-experiment.png){width=65%}
 
 1. Clique em **[!UICONTROL Criar experimento]**.
 
 1. Selecione a **[!UICONTROL Métrica de sucesso]** que você deseja definir para o seu experimento. Saiba mais sobre as métricas disponíveis e como configurar a lista em [esta seção](success-metrics.md).
 
-   ![](assets/journey-optimize-experiment-metrics.png){width=80%}
+   ![Seleção de métricas primárias e adicionais para o experimento](assets/journey-optimize-experiment-metrics.png){width=80%}
 
 1. Você pode optar por adicionar um grupo de **[!UICONTROL Contenção]** à sua entrega. Este grupo não irá inserir nenhum caminho a partir deste experimento.
 
@@ -91,7 +91,7 @@ Digamos que você deseje comparar três caminhos:
 
 1. Você pode alocar uma porcentagem precisa para cada **[!UICONTROL Tratamento]** ou simplesmente alternar na barra de alternância **[!UICONTROL Distribuir uniformemente]**.
 
-   ![](assets/journey-optimize-experiment-treatments.png){width=80%}
+   ![Controle deslizante de alocação de tratamento com distribuição de porcentagem](assets/journey-optimize-experiment-treatments.png){width=80%}
 
 1. Clique em **[!UICONTROL Criar]**.
 
@@ -103,17 +103,17 @@ Digamos que você deseje comparar três caminhos:
 
    * Arraste e solte uma atividade [Email](../email/create-email.md) na terceira ramificação, seguida por uma atividade [SMS](../sms/create-sms.md) (**Tratamento C**).
 
-   ![](assets/journey-optimize-experiment-ex.png){width=100%}
+   ![Exemplo de experimento de conteúdo com três caminhos de tratamento](assets/journey-optimize-experiment-ex.png){width=100%}
 
 1. Opcionalmente, use o **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** para definir uma ação de fallback. [Saiba mais](using-the-journey-designer.md#paths)
 
 1. Selecione uma ação de canal e use o botão **[!UICONTROL Editar conteúdo]** para acessar as ferramentas de design.
 
-   ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
+   ![Botão Editar conteúdo na atividade de ação de canal](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
 1. A partir daí, usando o painel esquerdo, você pode navegar entre os diferentes conteúdos para cada ação em seu experimento. Selecione cada conteúdo e crie-o conforme necessário.
 
-   ![](assets/journey-optimize-experiment-content.png){width=100%}
+   ![Painel de seleção de conteúdo mostrando tratamentos para o experimento](assets/journey-optimize-experiment-content.png){width=100%}
 
 1. [Publique](publish-journey.md) sua jornada.
 
@@ -131,7 +131,7 @@ Teste se o envio da primeira mensagem por email ou por SMS gera conversões mais
 
 ➡️ Use a taxa de conversão como métrica de sucesso (por exemplo: compras, inscrições).
 
-![](assets/journey-optimize-experiment-uc-channel.png)
+![Experimento de eficácia de canal comparando email com SMS](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
@@ -141,7 +141,7 @@ Execute um experimento para verificar se o envio de um email contra três emails
 
 ➡️ Use compras ou a taxa de cancelamento de inscrição como métrica de sucesso.
 
-![](assets/journey-optimize-experiment-uc-frequency.png)
+![Experimento de frequência de mensagem testando um email em comparação a três emails](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -151,7 +151,7 @@ Compare uma espera de 24 horas com uma de 72 horas antes de um acompanhamento pa
 
 ➡️ Use a taxa de click-through ou a receita como métrica de sucesso.
 
-![](assets/journey-optimize-experiment-uc-wait.png)
+![Experimento de tempo de espera comparando atrasos de 24 horas com atrasos de 72 horas](assets/journey-optimize-experiment-uc-wait.png)
 
 +++
 
@@ -182,21 +182,21 @@ Para configurar o direcionamento em uma jornada, siga as etapas abaixo.
 
 1. Selecione **[!UICONTROL Regra de direcionamento]** na lista suspensa **[!UICONTROL Método]**.
 
-   ![](assets/journey-optimize-targeting.png){width=60%}
+   ![Seleção de regra de direcionamento na atividade Otimizar](assets/journey-optimize-targeting.png){width=60%}
 
 1. Clique em **[!UICONTROL Criar regra de direcionamento]**.
 
 1. Clique em **[!UICONTROL Criar regra]** > **[!UICONTROL Criar novo]** e use o construtor de regras para definir seus critérios.
 
-   ![](assets/journey-targeting-create-rule.png){width=100%}
+   ![Interface do construtor de regras para criar critérios de direcionamento](assets/journey-targeting-create-rule.png){width=100%}
 
    Por exemplo, defina uma regra para membros Gold do programa de Fidelidade (`loyalty.status.equals("Gold", false)`) e uma regra para os outros membros (`loyalty.status.notEqualTo("Gold", false)`).
 
-   ![](assets/journey-targeting-rule.png)
+   ![Regra de direcionamento do status de fidelidade para membros Gold e non-Gold](assets/journey-targeting-rule.png)
 
 1. Você também pode clicar em **[!UICONTROL Criar regra]** > **[!UICONTROL Selecionar regra]** para selecionar uma regra de direcionamento existente criada no menu **[!UICONTROL Regras]**. [Saiba mais](../experience-decisioning/rules.md)
 
-   ![](assets/journey-targeting-select-rule.png){width=70%}
+   ![Selecionar regra de direcionamento existente no menu Regras](assets/journey-targeting-select-rule.png){width=70%}
 
    Nesse caso, a fórmula que compõe a regra é simplesmente copiada para a atividade de jornada. Quaisquer alterações subsequentes dessa regra no menu **[!UICONTROL Regras]** não afetarão a cópia da jornada.
 
@@ -208,7 +208,7 @@ Para configurar o direcionamento em uma jornada, siga as etapas abaixo.
 
 1. Depois de adicionar uma regra, você ainda pode modificá-la. Escolha **[!UICONTROL Editar em linha]** para atualizá-la em movimento usando o construtor de regras ou **[!UICONTROL Selecione a regra]** para escolher outra regra existente.
 
-   ![](assets/journey-targeting-modify-rule.png){width=100%}
+   ![Editar opções de regra embutida ou Selecionar para modificar regras de direcionamento](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
@@ -224,17 +224,17 @@ Para configurar o direcionamento em uma jornada, siga as etapas abaixo.
 
 1. De volta à jornada, solte ações específicas para personalizar cada caminho. Por exemplo, crie um email com ofertas personalizadas para membros do Gold Loyalty e um lembrete SMS para todos os outros membros.
 
-   ![](assets/journey-targeting-paths.png)
+   ![Jornada caminhos com email para membros Gold e SMS para outros](assets/journey-targeting-paths.png)
 
 1. Se você selecionou a opção **[!UICONTROL Habilitar conteúdo de fallback]** ao definir as configurações de regra, defina uma ou mais ações para o caminho de fallback que foi adicionado automaticamente.
 
-   ![](assets/journey-targeting-fallback.png){width=70%}
+   ![Configuração do caminho de fallback para perfis não qualificados](assets/journey-targeting-fallback.png){width=70%}
 
 1. Opcionalmente, use o **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** para definir uma ação alternativa se ocorrerem problemas. [Saiba mais](using-the-journey-designer.md#paths)
 
 1. Crie o conteúdo apropriado para cada ação correspondente a cada grupo definido pelas suas configurações de regra de direcionamento. É possível navegar facilmente entre os diferentes conteúdos de cada ação.
 
-   ![](assets/journey-targeting-design.png)
+   ![Painel de design de conteúdo para ações de regra de direcionamento](assets/journey-targeting-design.png)
 
    Neste exemplo, crie um email com ofertas especiais para membros Gold e um lembrete SMS para os outros membros.
 
@@ -254,7 +254,7 @@ Os membros do programa de fidelidade com o status Gold podem receber ofertas per
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-segment.png)
+![Canais específicos de segmento que direcionam membros Gold com email e outros com SMS](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -264,7 +264,7 @@ Os clientes que abriram um email, mas não clicaram, podem receber uma notifica�
 
 <!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-behavior.png)
+![Direcionamento baseado em comportamento para envolvimento de email com push ou fallback de SMS](assets/journey-optimize-targeting-uc-behavior.png)
 
 +++
 
@@ -274,7 +274,7 @@ Os clientes que compraram recentemente podem entrar em um caminho curto de &quot
 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-purchase.png)
+![Direcionamento do histórico de compras com caminho de venda cruzada para compradores e caminho de criação para não compradores](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
@@ -282,7 +282,7 @@ Os clientes que compraram recentemente podem entrar em um caminho curto de &quot
 
 As condições são um tipo de regras de [direcionamento](#targeting) que permitem definir como os indivíduos avançam pela sua jornada criando vários caminhos com base em critérios específicos.
 
-![](assets/journey-condition.png)
+![Atividade de condição na jornada criando vários caminhos com base nos critérios](assets/journey-condition.png)
 
 Saiba como definir uma condição em [esta seção](conditions.md).
 

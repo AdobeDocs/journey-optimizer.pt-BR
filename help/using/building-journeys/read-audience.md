@@ -10,9 +10,9 @@ level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2558'
 ht-degree: 13%
 
 ---
@@ -56,21 +56,21 @@ As etapas para configurar a atividade Ler público são as seguintes.
 
    >[!NOTE]
    >
-   >Além disso, você também pode direcionar públicos-alvo da Adobe Experience Platform criados com o uso de [composições de público-alvo](../audience/get-started-audience-orchestration.md) ou [carregadas de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience){target="_blank"}.
+   >Além disso, você também pode direcionar públicos-alvo da Adobe Experience Platform criados com o uso de [composições de público-alvo](../audience/get-started-audience-orchestration.md) ou [carregadas de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Observe que é possível personalizar as colunas exibidas na lista e classificá-las.
 
-   ![](assets/read-segment-selection.png)
+   ![Interface de seleção de público-alvo mostrando os públicos-alvo disponíveis do Adobe Experience Platform](assets/read-segment-selection.png)
 
    Depois que o público-alvo é adicionado, o botão **[!UICONTROL Copiar]** permite copiar seu nome e ID:
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/read-segment-copy.png)
+   ![Copiar botão para copiar nome e ID de público-alvo no formato JSON](assets/read-segment-copy.png)
 
    >[!NOTE]
    >
-   >Somente os indivíduos com o status de participação de público **Realizado** entrarão na jornada. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Somente os indivíduos com o status de participação de público **Realizado** entrarão na jornada. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. No campo **[!UICONTROL Namespace]**, escolha o namespace a ser usado para identificar os indivíduos. Por padrão, o campo é pré-preenchido com o último namespace usado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace).
 
@@ -90,7 +90,7 @@ As etapas para configurar a atividade Ler público são as seguintes.
 
 * Como prática recomendada, você só deve usar públicos-alvo em lote em uma atividade **Ler público-alvo**. Isso fornecerá uma contagem confiável e consistente para os públicos-alvo usados em uma jornada. O público-alvo de leitura foi projetado para casos de uso em lote. Se o seu caso de uso precisa de dados em tempo real, use a atividade **[Qualificação de público-alvo](audience-qualification-events.md)**.
 
-* Os públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience) ou resultantes de [fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md) podem ser selecionados na atividade **Ler Público**. Estes públicos-alvo não estão disponíveis na atividade **Qualificação de público-alvo**.
+* Os públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou resultantes de [fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md) podem ser selecionados na atividade **Ler Público**. Estes públicos-alvo não estão disponíveis na atividade **Qualificação de público-alvo**.
 
 * Limite de público-alvo de leitura simultânea por organização: cada organização pode executar até cinco instâncias de Público-alvo de leitura simultaneamente. Isso inclui execuções programadas e acionadas por eventos comerciais, em todas as sandboxes e jornadas. Esse limite é aplicado para garantir uma alocação de recursos justa e equilibrada em todas as organizações.
 
@@ -165,15 +165,15 @@ Por padrão, as jornada são configuradas para serem executadas uma vez. Para de
 
 1. Nas propriedades da atividade **[!UICONTROL Ler público]**, selecione **[!UICONTROL Editar agendamento de jornada]**.
 
-   ![](assets/read-segment-schedule.png)
+   ![Botão Editar agendamento de jornada nas propriedades de atividade Ler público-alvo](assets/read-segment-schedule.png)
 
 1. As propriedades da jornada são exibidas. Na lista suspensa **[!UICONTROL Tipo de agendador]**, selecione a frequência com que deseja executar a jornada.
 
-   ![](assets/read-segment-schedule-list.png)
+   ![Lista suspensa de tipo de agendador com opções de frequência: uma vez, diariamente, semanalmente, mensalmente](assets/read-segment-schedule-list.png)
 
 Para jornadas recorrentes, opções específicas estão disponíveis para ajudar você a gerenciar a entrada de perfis na jornada. Expanda as seções abaixo para obter mais informações sobre cada opção.
 
-![](assets/read-audience-options.png)
+![Ler opções recorrentes de público: Leitura incremental, Forçar reentrada, Acionar após lote](assets/read-audience-options.png)
 
 +++**[!UICONTROL Leitura incremental]**
 
@@ -239,13 +239,13 @@ A atividade **[!UICONTROL Ler público-alvo]** permite testar a jornada em um pe
 
 Para fazer isso, ative o modo de teste.
 
-![](assets/read-segment-test-mode.png)
+![Interface de modo de teste para atividade Ler Público com seleção de perfil de teste](assets/read-segment-test-mode.png)
 
 Configure e execute o modo de teste como de costume. [Saiba como testar uma jornada](testing-the-journey.md).
 
 Depois que o teste estiver em execução, o botão **[!UICONTROL Mostrar logs]** permitirá que você veja os resultados do teste. Para obter mais informações, consulte [esta seção](testing-the-journey.md#viewing_logs)
 
-![](assets/read-segment-log.png)
+![Logs de teste mostrando os resultados da execução de público-alvo e o fluxo de perfil](assets/read-segment-log.png)
 
 Depois que os testes forem concluídos com êxito, você poderá publicar sua jornada (consulte [Publicando a jornada](publish-journey.md)). Os indivíduos pertencentes ao público inserirão a jornada na data/hora especificada na seção **[!UICONTROL Scheduler]** das propriedades da jornada.
 
@@ -273,7 +273,7 @@ A segmentação pode ser baseada em:
 * uma hora, por exemplo: é de manhã no fuso horário da pessoa?
 * um algoritmo que divide o público-alvo fluindo na jornada com base em uma porcentagem, por exemplo: 90% - 10% para excluir um grupo de controle
 
-![](assets/read-segment-audience1.png)
+![Atividade de condição para segmentação de público em caminhos VIP e não VIP](assets/read-segment-audience1.png)
 
 >[!NOTE]
 >
@@ -287,7 +287,7 @@ A mesma atividade **Condition** usada para segmentação (veja acima) também pe
 
 Essa exclusão pode ocorrer logo após a recuperação do público-alvo, para fins de contagem de população ou ao longo de uma jornada em várias etapas.
 
-![](assets/read-segment-audience2.png)
+![Caminho de Jornada com ramificação de exclusão usando a atividade End](assets/read-segment-audience2.png)
 
 **União**
 
@@ -295,7 +295,7 @@ As jornadas permitem criar N ramificações e juntá-las após uma segmentação
 
 Por exemplo, depois de seguir uma experiência diferente durante dez dias em uma jornada, os clientes da VIP VIP e de terceiros podem retornar ao mesmo caminho. Após uma união, é possível dividir o público novamente executando uma segmentação ou exclusão.
 
-![](assets/read-segment-audience3.png)
+![mesclagem de caminhos de Jornada após a segmentação usando union](assets/read-segment-audience3.png)
 
 ## Tentativas {#read-audience-retry}
 
@@ -307,4 +307,4 @@ Os acionadores **Read Audience** malsucedidos são capturados e exibidos em **Al
 
 Entenda os casos de uso aplicáveis para uma jornada acionada pela atividade de leitura de público-alvo. Saiba como criar jornadas baseadas em lote e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430363?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

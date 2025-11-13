@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 4%
+source-wordcount: '419'
+ht-degree: 3%
 
 ---
 
@@ -26,11 +26,11 @@ Este caso de uso explica como gravar eventos personalizados no Adobe Experience 
 
 1. Na seção **Credenciais**, clique em **Servidor para Servidor OAuth**.
 
-   ![](assets/custom-action-aep-1.png)
+   ![Tela de configuração de ação personalizada com lista suspensa de tipo de ação](assets/custom-action-aep-1.png)
 
 1. Clique em **Exibir comando cURL**.
 
-   ![](assets/custom-action-aep-2.png)
+   ![Seleção do tipo de ação do Adobe Experience Platform](assets/custom-action-aep-2.png)
 
 1. Copie o comando cURL e armazene client_id, client_secret, grant_type e scope.
 
@@ -40,7 +40,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Depois de criar seu projeto no Adobe Developer Console, conceda ao desenvolvedor e ao API o controle de acesso com as permissões certas. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Depois de criar seu projeto no Adobe Developer Console, conceda ao desenvolvedor e ao API o controle de acesso com as permissões certas. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## Configurar a fonte usando a entrada da API HTTP
 
@@ -48,15 +48,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. No Adobe Experience Platform, clique em **Fontes**, em **Conexões**, no menu esquerdo. Em **API HTTP**, clique em **Adicionar dados**.
 
-   ![](assets/custom-action-aep-3.png)
+   ![Lista suspensa de seleção de sandbox para Adobe Experience Platform](assets/custom-action-aep-3.png)
 
 1. Selecione **Nova conta** e habilite a autenticação. Selecione **Conectar ao Source**.
 
-   ![](assets/custom-action-aep-4.png)
+   ![Interface de seleção do conjunto de dados para transmissão de dados](assets/custom-action-aep-4.png)
 
 1. Selecione **Avançar** e o Conjunto de Dados no qual você deseja gravar os dados. Clique em **Avançar** e **Concluir**.
 
-   ![](assets/custom-action-aep-5.png)
+   ![Campos de esquema XDM mapeados para parâmetros de ação](assets/custom-action-aep-5.png)
 
 1. Abra o fluxo de dados recém-criado. Copie a carga do esquema e salve-a no bloco de notas.
 
@@ -109,7 +109,7 @@ Para este exemplo, siga estas etapas:
 
 1. Verifique se os Cabeçalhos (Tipo de conteúdo, Conjunto de caracteres, nome da sandbox) estão configurados.
 
-   ![](assets/custom-action-aep-7bis.png)
+   ![Ação personalizada na tela de jornada com o painel de configuração](assets/custom-action-aep-7bis.png)
 
 ### Configurar a autenticação {#custom-action-aep-authentication}
 
@@ -143,7 +143,7 @@ Para este exemplo, siga estas etapas:
 
 1. Use o botão **Clique para testar a autenticação** para testar a conexão.
 
-   ![](assets/custom-action-aep-8.png)
+   ![Interface de mapeamento de parâmetros com o editor de expressão](assets/custom-action-aep-8.png)
 
 ### Configurar o conteúdo {#custom-action-aep-payload}
 
@@ -182,4 +182,4 @@ Para este exemplo, siga estas etapas:
 
 1. Preencha a ID da versão do Jornada, a ID do nó, o Nome do nó e outros atributos de acordo com o caso de uso.
 
-   ![](assets/custom-action-aep-9.png)
+   ![Editor de modo avançado para mapeamento de campo complexo](assets/custom-action-aep-9.png)

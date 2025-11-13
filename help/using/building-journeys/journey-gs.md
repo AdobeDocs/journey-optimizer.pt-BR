@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 24%
+source-wordcount: '915'
+ht-degree: 23%
 
 ---
 
@@ -78,7 +78,7 @@ Para criar uma jornada de várias etapas, siga estas etapas:
 
 1. Edite o painel de configuração da jornada para definir o nome da jornada e definir suas propriedades. Saiba como definir as propriedades da sua jornada [nesta página](journey-properties.md).
 
-   ![](assets/jo-properties.png)
+   ![Painel de propriedades do Jornada com opções de configuração e definições](assets/jo-properties.png)
 
 Você pode então começar a projetar sua jornada.
 
@@ -86,11 +86,11 @@ Você pode então começar a projetar sua jornada.
 
 O designer de jornada omnicanal ajuda a criar jornadas em várias etapas com públicos-alvo direcionados, atualizações com base em interações de clientes ou negócios em tempo real e mensagens omnicanal usando uma interface intuitiva de arrastar e soltar.
 
-![](assets/journey38.png)
+![Interface do designer de Jornadas com a paleta e a tela de atividades](assets/journey38.png)
 
 1. Comece arrastando e soltando um evento ou uma atividade **Ler público-alvo** da paleta na tela. Para saber mais sobre design do jornada, consulte [esta seção](using-the-journey-designer.md).
 
-   ![](assets/read-segment.png)
+   ![Ler configuração de atividade de público-alvo para selecionar público-alvo](assets/read-segment.png)
 
 1. Arraste e solte um evento ou uma atividade **Ler público-alvo** da paleta na tela. Para saber mais sobre design do jornada, consulte [esta seção](using-the-journey-designer.md).
 
@@ -104,11 +104,11 @@ Você também pode executar sua jornada em **Dry run**. O teste de simulação d
 
 Você deve publicar uma jornada para ativá-la e disponibilizá-la para que novos perfis a insiram. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Não é possível publicar uma jornada com erros. Saiba mais sobre a publicação do jornada nesta [seção](publish-journey.md).
 
-![](assets/jo-journeyuc2_32bis.png)
+![Conclua o fluxo de jornadas com público-alvo, condições e ações](assets/jo-journeyuc2_32bis.png)
 
 Após a publicação, é possível monitorar a jornada usando as ferramentas de relatório dedicadas para medir a eficiência da jornada.
 
-![](assets/jo-dynamic_report_journey_12.png)
+![Relatório de análise de Jornada mostrando métricas e estatísticas de desempenho](assets/jo-dynamic_report_journey_12.png)
 
 Saiba mais sobre relatórios do jornada nesta [seção](../reports/live-report.md).
 
