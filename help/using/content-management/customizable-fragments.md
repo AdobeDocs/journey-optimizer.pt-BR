@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
+source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1472'
 ht-degree: 1%
 
 ---
@@ -143,8 +143,8 @@ Para fazer isso:
 ## Adicionar rich text a um fragmento personalizável {#rich-text}
 
 Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados a um fragmento editável usando componentes do HTML. Para isso, siga as etapas abaixo.
-
-➡️ [Saiba como adicionar e usar rich text a um fragmento editável neste vídeo](#video)
+<!--
+➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
 
 ### Criar um fragmento incluindo rich text {#add-rich-text}
 
@@ -190,8 +190,10 @@ Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem editar 
 
    ![](assets/fragment-rich-editable-fields-update-styling.png)
 
-## Vídeo tutorial {#video}
+<!--
+## How-to video {#video}
 
-Este vídeo mostra como tornar os componentes do HTML em um fragmento editáveis, permitindo atualizações dinâmicas para conteúdo e estilo.
+This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464373/?captions=por_br&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+-->
