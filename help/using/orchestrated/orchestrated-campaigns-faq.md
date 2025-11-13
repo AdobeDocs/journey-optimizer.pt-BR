@@ -5,7 +5,7 @@ title: Perguntas frequentes sobre campanhas orquestradas
 description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orchestrated
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 536d080e455e4872ed6e58b11adc3324b332f7b5
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 13%
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 Você encontrará abaixo Perguntas frequentes sobre as campanhas do Adobe Journey Optimizer Orchestrated.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ O que é a orquestração de campanhas?
 
@@ -247,7 +247,7 @@ No Campaign Orchestration, nós nos referimos à segmentação ad-hoc como &quot
 
 +++ O Campaign Orchestration acessa apenas dados carregados por lote ou também pode consultar tabelas atualizadas em tempo real (como dados do Analytics)?
 
-O Journey Optimizer Campaign Orchestration pode criar consultas ad-hoc com base em esquemas baseados em modelo. Por enquanto, os esquemas baseados em modelo oferecem suporte apenas a origens em lote. Além disso, oferece suporte às atividades Ler público-alvo de qualquer tipo de público-alvo da Adobe Experience Platform.
+O Journey Optimizer Campaign Orchestration pode criar consultas ad-hoc com base em esquemas relacionais. Os Esquemas Relacionais suportam Origens em Lote somente por enquanto. Além disso, oferece suporte às atividades Ler público-alvo de qualquer tipo de público-alvo da Adobe Experience Platform.
 
 **Saiba mais**
 

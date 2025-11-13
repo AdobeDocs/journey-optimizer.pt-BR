@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Etapas de configuração
-description: Saiba como criar esquemas baseados em modelo diretamente pela interface do usuário.
+description: Saiba como criar esquemas relacionais diretamente pela interface do usuário.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 4%
 
 ---
 
-# Configurar um esquema manual baseado em modelo {#manual-schema}
+# Configurar um esquema relacional manual {#manual-schema}
 
-Esquemas baseados em modelo podem ser criados diretamente por meio da interface do usuário, permitindo a configuração detalhada de atributos, chaves primárias, campos de versão e relacionamentos.
+Esquemas relacionais podem ser criados diretamente por meio da interface do usuário, permitindo a configuração detalhada de atributos, chaves primárias, campos de versionamento e relacionamentos.
 
 O exemplo a seguir define manualmente o esquema **Associações de fidelidade** para ilustrar a estrutura necessária para campanhas orquestradas.
 
-1. [Crie um esquema baseado em modelo manualmente](#schema) usando a interface do Adobe Experience Platform.
+1. [Crie um esquema relacional manualmente](#schema) usando a interface do Adobe Experience Platform.
 
 1. [Adicionar atributos](#schema-attributes), como ID de cliente, nível de associação e campos de status.
 
@@ -28,11 +28,11 @@ O exemplo a seguir define manualmente o esquema **Associações de fidelidade** 
 
 1. [Assimile dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
 
-➡️ [Saiba mais sobre esquemas manuais baseados em modelo na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Saiba mais sobre esquemas relacionais manuais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Criar seu esquema {#schema}
 
-Comece criando um novo esquema baseado em modelo manualmente no Adobe Experience Platform. Esse processo permite definir a estrutura do schema do zero, incluindo seu nome e comportamento.
+Comece criando um novo esquema relacional manualmente no Adobe Experience Platform. Esse processo permite definir a estrutura do schema do zero, incluindo seu nome e comportamento.
 
 1. Faça logon no Adobe Experience Platform.
 
@@ -40,7 +40,7 @@ Comece criando um novo esquema baseado em modelo manualmente no Adobe Experience
 
 1. Clique em **[!UICONTROL Criar Esquema]**.
 
-1. Selecione **[!UICONTROL Baseado em modelo]** como seu **Tipo de esquema**.
+1. Selecione **[!UICONTROL Relacional]** como seu **Tipo de esquema**.
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -60,7 +60,7 @@ Em seguida, adicione atributos para definir a estrutura do esquema. Esses campos
 
 Qualquer esquema usado para direcionamento deve incluir pelo menos um campo de identidade do tipo `String` com um namespace de identidade associado. Isso garante a compatibilidade com os recursos de definição de metas e resolução de identidade da Adobe Journey Optimizer.
 
-+++Os seguintes recursos são compatíveis ao criar esquemas baseados em modelo no Adobe Experience Platform
++++Os seguintes recursos são suportados ao criar esquemas relacionais no Adobe Experience Platform
 
 * **ENUMERAÇÃO**\
   Os campos ENUM são suportados na criação de esquema manual e baseado em DDL, permitindo que você defina atributos com um conjunto fixo de valores permitidos.
@@ -69,7 +69,7 @@ Qualquer esquema usado para direcionamento deve incluir pelo menos um campo de i
   A rotulagem é compatível no nível do campo de esquema para aplicar políticas de governança de dados, como controle de acesso e restrições de uso. Para obter mais detalhes, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
 
 * **Chave Composta**\
-  As chaves primárias compostas são compatíveis com definições de esquema baseadas em modelo, permitindo o uso de vários campos juntos para identificar registros de forma exclusiva.
+  As chaves primárias compostas são suportadas em definições de esquema relacional, permitindo o uso de vários campos juntos para identificar registros de forma exclusiva.
 
 +++
 
@@ -110,7 +110,7 @@ Qualquer esquema usado para direcionamento deve incluir pelo menos um campo de i
 
 Depois de criar e salvar atributos, você pode vincular o esquema a outros esquemas relacionais definindo relacionamentos.
 
-➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Vincular esquemas {#link-schema}
 

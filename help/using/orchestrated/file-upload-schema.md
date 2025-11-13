@@ -2,34 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Etapas de configuração
-description: Saiba como criar um esquema baseado em modelo no Adobe Experience Platform fazendo upload de uma DDL
+description: Saiba como criar um esquema relacional no Adobe Experience Platform fazendo upload de uma DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 80c136409821388a4baea9286b298220c91bba7a
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 46%
+ht-degree: 48%
 
 ---
 
 
-# Criar esquemas baseados em modelo usando um arquivo DDL {#file-upload-schema}
+# Criar esquemas relacionais usando um arquivo DDL {#file-upload-schema}
 
-Defina o modelo de dados baseado em modelo necessário para campanhas orquestradas, criando esquemas como **Associações de Fidelidade**, **Transações de Fidelidade** e **Recompensas de Fidelidade**. Cada esquema deve incluir uma chave primária, um atributo de controle de versão e relações apropriadas com entidades de referência, como **Destinatários** ou **Marcas**.
+Defina o modelo de dados relacionais necessário para campanhas orquestradas, criando esquemas como **Associações de Fidelidade**, **Transações de Fidelidade** e **Recompensas de Fidelidade**. Cada esquema deve incluir uma chave primária, um atributo de controle de versão e relações apropriadas com entidades de referência, como **Destinatários** ou **Marcas**.
 
 Os esquemas podem ser criados manualmente por meio da interface ou importados em massa usando um arquivo DDL.
 
-Esta seção fornece orientação passo a passo sobre como criar um esquema baseado em modelo no Adobe Experience Platform fazendo upload de um arquivo DDL (Data Definition Language). Usar um arquivo DDL permite definir a estrutura do modelo de dados com antecedência, incluindo tabelas, atributos, chaves e relacionamentos.
+Esta seção apresenta um passo a passo de como criar um esquema relacional na Adobe Experience Platform por meio do upload de um arquivo de linguagem de definição de dados (DDL, na sigla em inglês). Usar um arquivo DDL permite definir a estrutura do modelo de dados com antecedência, incluindo tabelas, atributos, chaves e relacionamentos.
 
-1. [Carregue um arquivo DDL](#ddl-upload) para criar esquemas baseados em modelo e definir sua estrutura.
+1. [Carregue um arquivo DDL](#ddl-upload) para criar esquemas relacionais e definir sua estrutura.
 
 1. [Definir relações](#relationships) entre tabelas no modelo de dados.
 
-1. [Vincule esquemas](#link-schema) para conectar seus dados baseados em modelo a entidades de perfil existentes, como Destinatários ou Marcas.
+1. [Vincular esquemas](#link-schema) para conectar seus dados relacionais a entidades de perfil existentes, como Destinatários ou Marcas.
 
 1. [Assimile dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
 
-➡️ [Saiba mais sobre esquemas baseados em modelo na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational)
+➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Fazer upload de um arquivo DDL{#ddl-upload}
 
@@ -37,7 +37,7 @@ Ao fazer upload de um arquivo DDL, você pode definir a estrutura do modelo de d
 
 Os uploads de arquivo de esquema baseados em Excel são compatíveis. Baixe o [modelo fornecido](assets/template.zip) para preparar facilmente as definições do esquema.
 
-+++Os seguintes recursos são compatíveis ao criar esquemas baseados em modelo no Adobe Experience Platform
++++Os seguintes recursos são suportados ao criar esquemas relacionais no Adobe Experience Platform
 
 * **ENUMERAÇÃO**\
   Os campos ENUM são suportados na criação de esquema manual e baseado em DDL, permitindo que você defina atributos com um conjunto fixo de valores permitidos.
@@ -66,7 +66,7 @@ Exemplo:
 
 1. Clique em **Criar Esquema**.
 
-1. Selecione **[!UICONTROL Baseado em modelo]** como seu **Tipo de esquema**.
+1. Selecione **[!UICONTROL Relacional]** como seu **Tipo de esquema**.
 
    ![](assets/admin_schema_1.png)
 

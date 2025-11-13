@@ -5,7 +5,7 @@ title: Etapas de configuração
 description: Saiba como trazer dados para a Adobe Experience Platform de fontes compatíveis, como SFTP, armazenamento na nuvem ou bancos de dados.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 21%
@@ -39,35 +39,35 @@ As seguintes origens são compatíveis com o uso de campanhas orquestradas:
   <tbody>
     <tr>
       <td rowspan="3">Armazenamento na nuvem</td>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Data Warehouses da nuvem</td>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Uploads baseados em arquivo</td>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Upload de arquivo local<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Upload de arquivo local<a></td>
     </tr>
 
 </tbody>
 </table>
 
-## Diretrizes para a higiene de dados do esquema com base em modelo {#cdc}
+## Diretrizes para a higiene de dados do esquema relacional {#cdc}
 
 Para conjuntos de dados habilitados com a **[!UICONTROL captura de dados de alteração]**, todas as alterações de dados, incluindo exclusões, são automaticamente espelhadas do sistema de origem para a Adobe Experience Platform.
 
@@ -85,7 +85,7 @@ Se o cliente quiser excluir registros somente do Adobe Experience Platform sem a
 
   Se licenciado, o **Data Distiller** poderá ser usado para oferecer suporte a operações de exclusão diretamente no Adobe Experience Platform, independentemente do sistema de origem.
 
-  [Saiba mais sobre o Data Distiller](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/overview)
+  [Saiba mais sobre o Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## Configurar um fluxo de dados
 
@@ -105,9 +105,9 @@ Este exemplo demonstra como configurar um fluxo de dados que assimila dados estr
 
    ![](assets/S3_config_1.png)
 
-1. Na página **[!UICONTROL Detalhes do conjunto de dados]**, marque **[!UICONTROL Habilitar captura de dados de alteração]** para exibir somente conjuntos de dados mapeados para esquemas baseados em modelo e incluir uma chave primária e um descritor de versão.
+1. Na página **[!UICONTROL Detalhes do conjunto de dados]**, marque **[!UICONTROL Habilitar captura de dados de alteração]** para exibir somente conjuntos de dados mapeados para esquemas relacionais e incluir uma chave primária e um descritor de versão.
 
-[Saiba mais sobre as diretrizes para a higiene de dados de esquemas baseados em modelo](#cdc)
+[Saiba mais sobre diretrizes para a higiene de dados de esquemas relacionais](#cdc)
 
    >[!IMPORTANT]
    >
