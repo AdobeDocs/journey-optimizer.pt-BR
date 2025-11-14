@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de email, Módulos, Reutilização, Consistência de marca, Design de email, CSS personalizado, Otimização móvel
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
+source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 3%
@@ -42,7 +42,7 @@ Esse recurso permite que os profissionais de marketing aproveitem emails visualm
 
    * Para usar um [fragmento](../content-management/fragments.md) em um conteúdo com tema, este fragmento deve ter sido criado por si mesmo, usando temas. [Saiba mais](#leverage-themes-fragment)
 
-   * Ao usar um fragmento em um conteúdo de email, aplique um tema definido para esse fragmento. Deixar de fazer isso pode causar problemas de exibição, especialmente no Outlook 2021 e em versões anteriores. [Saiba mais](#leverage-themes-fragment)
+   * Ao usar um fragmento no conteúdo de email, verifique se está aplicando um tema definido para esse fragmento. Deixar de fazer isso pode causar problemas de exibição, especialmente no Outlook 2021 e em versões anteriores. [Saiba mais](#leverage-themes-fragment)
 
 * Se estiver usando um conteúdo criado no HTML, você estará no [modo de compatibilidade](existing-content.md) e não poderá aplicar temas diretamente a esse conteúdo.
 

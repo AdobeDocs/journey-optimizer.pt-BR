@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
+source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 25%
+source-wordcount: '758'
+ht-degree: 22%
 
 ---
 
@@ -79,7 +79,7 @@ Após configurar as propriedades do fragmento, o Designer de email ou o editor d
 
   >[!CAUTION]
   >
-  >Os fragmentos não são compatíveis entre os modos Usar temas e Estilo manual. Para poder usar um fragmento em um conteúdo ao qual deseja aplicar um tema, esse fragmento precisa ser criado no modo de uso de temas. [Saiba mais sobre temas](../email/apply-email-themes.md)
+  >Os fragmentos não são compatíveis entre os modos Usar temas e Estilo manual. Ao usar um fragmento no conteúdo de email, verifique se está aplicando um tema definido para esse fragmento. [Saiba mais](../email/apply-email-themes.md#leverage-themes-fragment)
 
 * Para fragmentos de expressão, aproveite o editor de personalização do [!DNL Journey Optimizer] com todos os seus recursos de personalização e criação para criar o conteúdo do fragmento. [Saiba mais](../personalization/personalization-build-expressions.md)
 
