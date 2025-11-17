@@ -22,7 +22,7 @@ As funções de “Lista” do Adobe Journey Optimizer permitem manipular e refi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Uso da função “distinct” no Adobe Journey Optimizer
 
@@ -32,7 +32,7 @@ Saiba como usar a função “distinct” para desduplicar listas, retornando va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Função “distinctWithNull” — Adobe Journey Optimizer
 
@@ -42,7 +42,7 @@ Entenda como usar a função “distinctWithNull” para recuperar valores ou ob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Usar a função “filter” no Adobe Journey Optimizer
 
@@ -52,7 +52,7 @@ Descubra como aplicar filtros a listas de objetos com base em valores de chaves 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Usar a função “getListItem” no Adobe Journey Optimizer
 
@@ -62,7 +62,7 @@ Saiba como recuperar um item de uma lista em um índice específico com a funç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Usar a função “in” no Adobe Journey Optimizer
 
@@ -72,7 +72,7 @@ Descubra como verificar se um valor existe em uma lista com a função “in”.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Função “intersect” no Adobe Journey Optimizer
 
