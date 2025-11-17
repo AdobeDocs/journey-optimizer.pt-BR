@@ -222,7 +222,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <td>
 <p>Agora é possível pausar e retomar jornadas. Esse recurso oferece aos profissionais de jornada maior controle e flexibilidade ao permitir que as jornadas ativas sejam temporariamente suspensas sem interromper a experiência do cliente. Quando pausada, nenhuma comunicação é enviada e os perfis permanecem em um estado suspenso até que a jornada seja retomada.</p>
 <p>É possível pausar e retomar apenas uma jornada ou executar operações de pausa e retomada em massa para um grupo de jornadas.</p>
-<p>Além disso, você pode aplicar critérios de saída baseados em atributos de perfil (anteriormente chamados de "filtro global") a jornadas pausadas para excluir perfis com base em seus atributos.</p>
+<p>Além disso, é possível aplicar critérios de saída baseados em atributos de perfil (que anteriormente possuíam o nome "filtro global") a jornadas pausadas para excluir perfis com base em seus atributos.</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
 <p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para mais informações, consulte a <a href="../building-journeys/journey-pause.md">documentação detalhada</a></p>
@@ -588,7 +588,7 @@ Para mais informações, consulte a <a href="../experience-decisioning/create-de
 <table>
 <thead>
 <tr>
-<th><strong>Teste de simulação de jornada</strong><br/></th>
+<th><strong>Execução de teste de jornada</strong><br/></th>
 </tr>
 </thead>
 <tbody>

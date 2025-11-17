@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 + [Documentação do Journey Optimizer](ajo-home.md)
 + Novidades {#whats-new}
-   + [Ciclo da versão](using/rn/releases.md)
+   + [Ciclo da lançamento](using/rn/releases.md)
    + [Notas de versão antecipadas](using/rn/e-release-notes.md)
    + [Notas de versão mais recentes](using/rn/release-notes.md)
    + Notas de versão anteriores {#previous-rn-new}
@@ -111,13 +111,13 @@ ht-degree: 97%
          + [Exemplos](using/building-journeys/expression/advanced-editor-use-cases.md)
       + Funções {#main-functions-journey}
          + [Funções principais](using/building-journeys/expression/functions.md)
-         + [função inAudience](using/building-journeys/functions/functioninaudience.md)
+         + [Função inAudience](using/building-journeys/functions/functioninaudience.md)
          + [Funções de agregação](using/building-journeys/functions/aggregation-functions.md)
          + [Funções de conversão](using/building-journeys/functions/conversion-functions.md)
          + [Funções de data](using/building-journeys/functions/date-functions.md)
          + [Listar funções](using/building-journeys/functions/list-functions.md)
          + [Funções matemáticas](using/building-journeys/functions/math-functions.md)
-         + [Funções de string](using/building-journeys/functions/string-functions.md)
+         + [Funções de strings](using/building-journeys/functions/string-functions.md)
    + Casos de uso {#journey-use-cases}
       + [Casos de uso](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Aprenda por meio de casos de uso](using/building-journeys/jo-use-cases.md)
@@ -133,7 +133,7 @@ ht-degree: 97%
    + [Campanhas](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
    + [Acessar e gerenciar campanhas](using/campaigns/manage-campaigns.md)
-   + [Período de Silêncio](using/campaigns/quiet-hours.md)
+   + [Período de silêncio](using/campaigns/quiet-hours.md)
    + Campanhas de ação {#action-campaigns}
       + [Campanhas de ação](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [Trabalhar com campanhas de ações](using/campaigns/create-campaign.md)
@@ -233,7 +233,7 @@ ht-degree: 97%
    + [Alertas do sistema](using/reports/alerts.md)
    + [Referência de códigos de erro](using/building-journeys/error-codes-reference.md)
    + [Artigos de solução de problemas](using/start/troubleshooting.md)
-   + Solução de problemas do Jornada {#troubleshoot-journey}
+   + Solução de problemas das jornadas {#troubleshoot-journey}
       + [Solução de problemas de erros de jornada](using/building-journeys/troubleshooting.md)
       + [Solução de problemas de execução da jornada](using/building-journeys/troubleshooting-execution.md)
       + [Solução de problemas de ações de entrada](using/building-journeys/troubleshooting-inbound.md)
@@ -254,7 +254,7 @@ ht-degree: 97%
             + [Importar seu conteúdo](using/email/existing-content.md)
             + [Programar seu próprio conteúdo](using/email/code-content.md)
             + [Usar modelos de email](using/email/use-email-templates.md)
-            + [Converter imagens em modelos do HTML](using/email/image-to-html.md)
+            + [Converter imagens em modelos HTML](using/email/image-to-html.md)
             + [Utilizar temas de email](using/email/apply-email-themes.md)
             + [Anexar arquivos PDF a emails](using/email/pdf-attachments.md)
          + Projetar o seu conteúdo {#add-content}
@@ -415,7 +415,7 @@ ht-degree: 97%
          + [Funções do mapa](using/personalization/functions/maps.md)
          + [Funções matemáticas](using/personalization/functions/math.md)
          + [Funções do objeto](using/personalization/functions/objects.md)
-         + [Funções de string](using/personalization/functions/string.md)
+         + [Funções de strings](using/personalization/functions/string.md)
       + Casos de uso de personalização {#personalization-use-cases}
          + [Casos de uso de personalização](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
          + [Notificação do status do pedido](using/personalization/personalization-use-case.md)
@@ -442,7 +442,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -882,7 +882,7 @@ ht-degree: 97%
       + [Introdução a ações personalizadas](using/action/action.md)
       + [Configurar uma ação personalizada](using/action/about-custom-action-configuration.md)
       + [Usar as respostas de chamada da API em ações personalizadas](using/action/action-response.md)
-      + [Monitorar suas ações personalizadas](using/action/reporting.md)
+      + [Monitorar ações personalizadas](using/action/reporting.md)
 + Conectar sistemas e ambientes {#connect-systems}
    + [Conectar sistemas e ambientes](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Integrar a outras soluções](using/integrations/ajo-integrations.md)
