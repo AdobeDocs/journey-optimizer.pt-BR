@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -49,6 +49,6 @@ Esse recurso permite que profissionais de marketing apresentem conteúdo de míd
 
 ## Recursos adicionais
 
-* **[Cartões de conteúdo em páginas de aterrissagem](content-card-lp.md)** - Descubra como implementar cartões de conteúdo em páginas de aterrissagem para um engajamento aprimorado.
-* **[Relatórios de cartão de conteúdo](content-card-report.md)** - Rastreie e analise o desempenho do cartão de conteúdo com métricas e insights detalhados.
-* **[Tutoriais do cartão de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre os recursos do cartão de conteúdo e as práticas recomendadas.
+* **[Cartões de conteúdo em páginas de destino](content-card-lp.md)**: descubra como implementar cartões de conteúdo em páginas de destino para um engajamento aprimorado.
+* **[Relatórios de cartão de conteúdo](content-card-report.md)**: rastreie e analise o desempenho do cartão de conteúdo com métricas e insights detalhados.
+* **[Tutoriais do cartão de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do cartão de conteúdo e as práticas recomendadas.

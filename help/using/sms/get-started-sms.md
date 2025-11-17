@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -201,7 +201,7 @@ Saiba como configurar, criar e incluir mensagens de SMS nas jornadas do cliente.
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422698?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Descubra os recursos abrangentes de mensagens móveis que o Adobe Journey Optimi
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430380?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Saiba como configurar e enviar mensagens RCS interativas e alinhadas à marca no
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464760?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

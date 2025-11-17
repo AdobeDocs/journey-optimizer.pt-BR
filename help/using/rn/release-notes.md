@@ -7,9 +7,9 @@ topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 04a08f237e126e782355197b64239512e24b27da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1456'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 79%
 
 O [!DNL Adobe Journey Optimizer] segue um modelo de entrega contínua, permitindo que a Adobe forneça novos recursos, melhorias e correções também de forma contínua. Essa abordagem permite uma implantação escalável e em fases de recursos para garantir desempenho e estabilidade em todos os ambientes.
 
-Devido a esse modelo, as notas de versão são atualizadas entre as versões mensais.  Uma seção dedicada de [Atualizações mais recentes](#latest-updates) destaca novos recursos e melhorias à medida que são implantados na produção, para que você sempre seja informado sobre todas as alterações em tempo real. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte [ciclo de lançamento do Journey Optimizer](releases.md).
+Devido a esse modelo, as notas de versão são atualizadas entre as versões mensais.  Uma seção dedicada de [Atualizações mais recentes](#latest-updates) destaca novos recursos e melhorias à medida que são implantados na produção para informar sobre todas as alterações em tempo real. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](releases.md).
 
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
 ## Atualizações mais recentes {#latest-updates}
 
-Os novos recursos e aprimoramentos lançados nas últimas semanas estão listados abaixo, com a data de disponibilidade. Elas serão agrupadas com o conteúdo das próximas notas de versão no final do mês. Consulte também as [notas de versão mais recentes abaixo](#latest-rn).
+Os novos recursos e aprimoramentos lançados nas últimas semanas estão listados abaixo, com a data de disponibilidade. Eles serão agrupados com o conteúdo das próximas notas de versão no final do mês. Consulte também as [notas de versão mais recentes abaixo](#latest-rn).
 
 ### Novos recursos {#features}
 
@@ -41,15 +41,15 @@ Os novos recursos e aprimoramentos lançados nas últimas semanas estão listado
 <tbody>
 <tr>
 <td>
-<p>Três novos alertas de jornada agora estão disponíveis para ajudá-lo a monitorar e rastrear os eventos de ciclo de vida da jornada e o desempenho da ação personalizada:</p>
+<p>Três novos alertas de jornada agora estão disponíveis para ajudar a monitorar e rastrear os eventos de ciclo de vida da jornada e o desempenho da ação personalizada:</p>
 <ul>
 <li><strong>Jornada publicada</strong>: receba notificações quando uma jornada for publicada por um profissional na tela de jornada.</li>
-<li><strong>Jornada concluída</strong>: obtenha alertas quando uma jornada for concluída, com definições específicas baseadas no tipo de jornada (Público de Leitura ou Acionado por Evento).</li>
-<li><strong>Limite de Ação Personalizada Acionado</strong>: seja notificado quando o limite for ativado em um ponto de extremidade de ação personalizada.</li>
+<li><strong>Jornada concluída</strong>: receba alertas quando uma jornada for concluída, com definições específicas baseadas no tipo de jornada (Público-alvo de leitura ou acionada por evento).</li>
+<li><strong>Limite de ação personalizada acionado</strong>: receba uma notificação quando o limite for ativado em um ponto de acesso de ação personalizada.</li>
 </ul>
-<p>Esses alertas podem ser assinados no nível da organização ou para jornadas específicas.</p>
+<p>É possível se inscrever nesses alertas no nível da organização ou para jornadas específicas.</p>
 <p>Para obter mais informações, consulte a <a href="../reports/alerts.md#journey-alerts">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: quinta-feira, 5 de novembro de 2025</p>
+<p>Data de disponibilidade: 5 de novembro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -68,13 +68,13 @@ Os novos recursos e aprimoramentos lançados nas últimas semanas estão listado
 <p>Lançado anteriormente na versão beta, esse recurso agora está disponível para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>Para obter mais informações, consulte a <a href="../email/apply-email-themes.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: quinta-feira, 5 de novembro de 2025</p>
+<p>Data de disponibilidade: 5 de novembro de 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## Notas de versão de outubro de 2025 {#latest-rn}
+## Notas da versão de outubro de 2025 {#latest-rn}
 
 ### Novos recursos {#oct-25-10-features}
 
@@ -88,7 +88,7 @@ Os novos recursos e aprimoramentos lançados nas últimas semanas estão listado
 <tbody>
 <tr>
 <td>
-<p>O conversor de imagem para HTML é um recurso alimentado por IA que converte designs de imagem estática em modelos de conteúdo de email do HTML totalmente personalizáveis e modulares. Essa ferramenta sem código permite que os profissionais de marketing transformem designs visuais em modelos de email responsivos e editáveis sem a necessidade de conhecimento técnico especializado — perfeito para migração de plataforma, criação rápida de modelos e criação de bibliotecas de modelos reutilizáveis.</p>
+<p>O conversor de imagem para HTML é um recurso viabilizado por IA que converte designs de imagem estática em modelos de conteúdo de email HTML totalmente personalizáveis e modulares. Essa ferramenta sem código permite que os profissionais de marketing transformem designs visuais em modelos de email responsivos e editáveis sem a necessidade de conhecimento técnico especializado, o que é perfeito para a migração de plataforma, a criação rápida de modelos e a criação de bibliotecas de modelos reutilizáveis.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.</p>
 <p>Para obter mais informações, consulte a <a href="../email/image-to-html.md">documentação detalhada</a>.</p>
@@ -108,10 +108,10 @@ Os novos recursos e aprimoramentos lançados nas últimas semanas estão listado
 <tbody>
 <tr>
 <td>
-<p>Esse recurso oferece melhor visibilidade da integridade e do desempenho do endpoint de ação personalizada. Um novo painel de monitoramento de ação personalizada e campos correspondentes no conjunto de dados de eventos de etapa do jornada ajudarão você a monitorar chamadas, erros, taxa de transferência, tempo de resposta e tempo de espera da fila bem-sucedidos para seus pontos de extremidade de ação personalizada. Agora você pode entender rapidamente quando, onde e por que uma situação anômala está ocorrendo em uma ação personalizada.</p>
-<p>No momento, esse recurso está em Disponibilidade limitada para clientes.</p>
+<p>Esse recurso oferece melhor visibilidade da integridade e do desempenho do ponto de acesso de ação personalizada. Um novo painel de monitoramento de ação personalizada e campos correspondentes no conjunto de dados de eventos de etapa da jornada ajudarão a monitorar chamadas bem-sucedidas, erros, taxa de transferência, tempo de resposta e tempo de espera na fila dos pontos de acesso de ação personalizada. Agora você pode entender rapidamente quando, onde e por que uma situação anômala está ocorrendo em uma ação personalizada.</p>
+<p>No momento, esse recurso está em disponibilidade limitada para clientes.</p>
 <p>Para obter mais informações, consulte a <a href="../action/reporting.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: quarta-feira, 28 de outubro de 2025</p>
+<p>Data de disponibilidade: 28 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -131,7 +131,7 @@ Os novos recursos e aprimoramentos lançados nas últimas semanas estão listado
 <p>No momento, esse recurso está na disponibilidade limitada para clientes nos Estados Unidos e na Austrália. Entre em contato com o representante da Adobe para obter acesso.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Para obter mais informações, consulte a <a href="../landing-pages/lp-forms.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: sexta-feira, 23 de outubro de 2025</p>
+<p>Data de disponibilidade: 23 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>

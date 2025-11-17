@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -104,10 +104,10 @@ Estas são as principais etapas para criar e entregar uma experiência baseada e
 
 ## Recursos adicionais
 
-* **[Criar experiências baseadas em código](create-code-based.md)** - Saiba como criar e configurar campanhas e jornadas baseadas em código para implementações personalizadas.
-* **[Configurar canal baseado em código](code-based-configuration.md)** - Defina configurações de experiência baseadas em código com configurações apropriadas de superfície e implementação.
-* **[Pré-requisitos com base em código](code-based-prerequisites.md)** - Entenda os requisitos técnicos e os recursos de desenvolvedor necessários para a implementação.
-* **[Testar experiências com base em código](test-code-based.md)** - Saiba como visualizar e testar suas experiências com base em código antes de publicar.
-* **[Amostras de implementação](code-based-implementation-samples.md)** - Explore exemplos de código e padrões de implementação para vários casos de uso.
-* **[Tutoriais de experiências baseadas em código](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre recursos baseados em código e práticas recomendadas.
+* **[Criar experiências baseadas em código](create-code-based.md)**: saiba como criar e configurar campanhas e jornadas baseadas em código para implementações personalizadas.
+* **[Configurar canal baseado em código](code-based-configuration.md)**: defina configurações de experiência baseada em código com configurações apropriadas de superfície e implementação.
+* **[Pré-requisitos com base em código](code-based-prerequisites.md)**: entenda os requisitos técnicos e os recursos de desenvolvedor necessários para a implementação.
+* **[Testar experiências baseadas em código](test-code-based.md)**: saiba como visualizar e testar experiências baseadas em código antes de publicar.
+* **[Amostras de implementação](code-based-implementation-samples.md)**: explore exemplos de código e padrões de implementação para vários casos de uso.
+* **[Tutoriais de experiências baseadas em código](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre recursos baseados em código e práticas recomendadas.
 

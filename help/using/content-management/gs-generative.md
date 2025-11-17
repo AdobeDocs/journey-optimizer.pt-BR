@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 493f72a9d49974830d8d29b0c19046adfd9724a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '940'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_assistant_prompt"
 >title="Exemplos de prompt"
->abstract="Explore a documentação do Journey Optimizer abaixo para saber como criar prompts efetivos que produzam conteúdo de marketing de alta conversão e sob a marca."
+>abstract="Explore a documentação do Journey Optimizer abaixo para saber como criar prompts efetivos que produzam conteúdo de marketing de alta conversão e consistente com a marca."
 
 
 >[!CONTEXTUALHELP]
@@ -37,7 +37,7 @@ ht-degree: 88%
 >id="ajo_ai_generation_start"
 >title="Termos da IA generativa da Adobe"
 >abstract="O acesso a esse recurso está sujeito à aceitação das Diretrizes de usuário da IA generativa da Adobe Experience Cloud. Você deve verificar os resultados desse recurso quanto à precisão para garantir que sejam apropriados para seu caso de uso"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Diretrizes do usuário da IA generativa da Adobe"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR" text="Diretrizes do usuário da IA generativa da Adobe"
 
 >[!INFO]
 >
@@ -80,7 +80,7 @@ Use o Assistente de IA do Adobe Journey Optimizer para otimizar o impacto da men
 >* Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](#generative-guardrails) relacionadas.
 >
 >
->* Você deve aceitar um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de poder usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
+>* Você deve aceitar um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"} antes de poder usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
 
 ## Acessar o Assistente de IA {#generative-access}
 
@@ -119,8 +119,8 @@ As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na 
 * O tamanho máximo para o ativo de marca carregado é de 50 MB.É possível carregar arquivos maiores ou um número maior de imagens, mas o tempo de processamento aumentará.
 * Use um modelo personalizado ou específico da marca para criar seu conteúdo de email usando o Assistente de IA no Adobe Journey Optimizer. Recomenda-se um modelo de email com 8-10 imagens, no máximo.
 * Relate resultados problemáticos usando os ícones de “polegar para cima”, “polegar para baixo” ou o sinalizador ao selecionar variantes.
-* O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html)
+* O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR)
+* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 As seguintes limitações se aplicam ao Assistente de IA no Journey Optimizer:
 
@@ -170,9 +170,9 @@ As seguintes limitações se aplicam ao Assistente de IA no Journey Optimizer:
 
 ## Recursos adicionais
 
-* **[Assistente de IA para email](generative-email.md)** - Saiba como usar o Assistente de IA para gerar e otimizar variações de conteúdo de email.
-* **[Assistente de IA para notificações por push](generative-push.md)** - Saiba como criar conteúdo atraente de notificação por push com a assistência de IA.
-* **[Assistente de IA para SMS](generative-sms.md)** - Gere variações eficazes de mensagens SMS usando a criação de conteúdo habilitada por IA.
-* **[Assistente de IA para experiências da Web](generative-web.md)** - Saiba como criar e otimizar conteúdo da Web com o Assistente de IA.
-* **[Experimentação gerativa](generative-experimentation.md)** - Entenda como combinar conteúdo gerado por IA com experimentação.
-* **[Tutoriais do Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre os recursos do Assistente de IA e as práticas recomendadas.
+* **[Assistente de IA para email](generative-email.md)**: saiba como usar o Assistente de IA para gerar e otimizar variações de conteúdo de email.
+* **[Assistente de IA para notificações por push](generative-push.md)**: saiba como criar conteúdo atraente para notificações por push com assistência de IA.
+* **[Assistente de IA para SMS](generative-sms.md)**: gere variações eficazes de mensagens SMS usando a criação de conteúdo viabilizada por IA.
+* **[Assistente de IA para experiências da web](generative-web.md)**: saiba como criar e otimizar conteúdo web com o Assistente de IA.
+* **[Experimentação generativa](generative-experimentation.md)**: entenda como combinar conteúdo gerado por IA com experimentação.
+* **[Tutoriais do Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do Assistente de IA e as práticas recomendadas.

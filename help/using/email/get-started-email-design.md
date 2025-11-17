@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Consulte na tabela abaixo as práticas recomendadas de design de emails:
 
 >[!NOTE]
 >
->A [Lei Europeia de Acessibilidade](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} declara que todas as comunicações digitais devem ser acessíveis. Além das práticas recomendadas de design de email listadas nesta seção, siga também as diretrizes listadas em [esta página](accessible-content.md) específicas para criar conteúdo acessível com o Designer de email.
+>A [Lei Europeia de Acessibilidade](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} declara que todas as comunicações digitais devem ser acessíveis. Além das práticas recomendadas de design de email listadas nesta seção, certifique-se de seguir também as diretrizes listadas [nesta página](accessible-content.md) que são específicas para criar conteúdo acessível com o Designer de email.
 
 ## Etapas principais para criar conteúdo de email {#key-steps}
 
@@ -66,7 +66,7 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
 
    * **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar um conteúdo de email [nesta seção](existing-content.md).
 
-   * **Converter designs de imagem em modelos do HTML** usando o conversor de imagem habilitada por IA para HTML. Saiba como transformar imagens estáticas em modelos de email editáveis em [esta seção](image-to-html.md).
+   * **Converter designs de imagem em modelos HTML** usando o conversor de imagem para HTML viabilizado por IA. Saiba como transformar imagens estáticas em modelos de email editáveis [nesta seção](image-to-html.md).
 
    * **Selecionar um conteúdo existente** de uma lista de modelos integrados ou personalizados. Saiba como trabalhar com modelos de email [nesta seção](../email/use-email-templates.md).
 
@@ -80,8 +80,8 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
 
 Saiba como criar conteúdo de email com o editor de mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417587?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Saiba como configurar experimentos de conteúdo para testes A/B e explorar o conteúdo de email que melhor impulsiona seus objetivos de negócios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447336?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

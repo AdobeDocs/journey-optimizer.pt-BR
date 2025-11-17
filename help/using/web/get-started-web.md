@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -70,11 +70,11 @@ Conheça as etapas detalhadas para criar uma campanha da web [neste vídeo](crea
 
 ## Recursos adicionais
 
-* **[Criar experiências da Web](create-web.md)** - Saiba como criar e configurar campanhas da Web e jornadas para modificar o conteúdo da Web.
-* **[Pré-requisitos do canal da Web](web-prerequisites.md)** - Entenda os requisitos técnicos e a configuração necessários para a implementação do canal da Web.
-* **[Editar conteúdo da Web](create-web.md#edit-web-content)** - Domine o designer da Web para modificar páginas usando modos de edição visuais ou não visuais.
-* **[Gerenciar modificações na Web](manage-web-modifications.md)** - Saiba como organizar, aplicar e gerenciar modificações em suas experiências na Web.
-* **[Monitorar experiências da Web](monitor-web-experiences.md)** - Acompanhe e analise o desempenho de suas campanhas da Web com relatórios detalhados.
-* **[Tutoriais do Web Campaign](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre os recursos de canal da Web e as práticas recomendadas.
+* **[Criar experiências da web](create-web.md)**: saiba como criar e configurar campanhas e jornadas da web para modificar o conteúdo web.
+* **[Pré-requisitos do canal da web](web-prerequisites.md)**: entenda os requisitos técnicos e a configuração necessários para a implementação do canal da web.
+* **[Editar conteúdo da web](create-web.md#edit-web-content)**: domine o designer da web para modificar páginas usando modos de edição visuais ou não visuais.
+* **[Gerenciar modificações na web](manage-web-modifications.md)**: saiba como organizar, aplicar e gerenciar modificações nas experiências da web.
+* **[Monitorar experiências da web](monitor-web-experiences.md)**: acompanhe e analise o desempenho das campanhas da web com relatórios detalhados.
+* **[Tutoriais das campanhas da web](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do canal da web e as práticas recomendadas.
 
 

@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Use campanhas do [!DNL Journey Optimizer] para fornecer conteúdo único a um p�
 
 ## Tipos de campanha
 
-O [!DNL Journey Optimizer] é compatível com três tipos de campanha. Cada tipo se encaixa em diferentes casos de uso e oferece suporte a diferentes canais. Para obter mais informações sobre os canais disponíveis com cada tipo de campanha, consulte a tabela nesta seção: [Canais em jornadas e campanhas](../channels/gs-channels.md#channels)
+O [!DNL Journey Optimizer] é compatível com três tipos de campanha. Cada tipo se encaixa em diferentes casos de uso e oferece suporte a diferentes canais. Para obter mais informações sobre os canais disponíveis em cada tipo de campanha, consulte a tabela nesta seção: [canais em jornadas e campanhas](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -149,7 +149,7 @@ Antes de trabalhar com campanhas, certifique-se de analisar os pré-requisitos a
 
    1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
 
-      Se o usuário não tiver sido criado anteriormente, consulte a [documentação sobre Adicionar usuários](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users){target="_blank"}
+      Se o usuário não foi criado anteriormente, consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users){target="_blank"}
 
 
   O usuário deve receber um email de redirecionamento para sua instância.

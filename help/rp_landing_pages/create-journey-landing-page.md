@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_20-07-02
 version: Journey Orchestration
 exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '293'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ A criação de uma jornada no Adobe Journey Optimizer permite criar experiência
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Como criar sua primeira Jornada do cliente
 
@@ -31,7 +31,7 @@ Saiba como criar, projetar, testar e publicar sua primeira jornada do cliente co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definir e gerenciar propriedades da jornada
 
@@ -41,7 +41,7 @@ Configure regras de entrada, configurações relacionadas ao tempo, gerenciament
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Como criar sua Jornada
 
@@ -51,7 +51,7 @@ Use a interface de arrastar e soltar para criar jornadas de marketing personaliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Como testar a jornada
 
@@ -61,7 +61,7 @@ Teste suas jornadas com perfis simulados e detecte erros antes de ativá-las.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Teste de jornadas com o modo de execução de teste
 
@@ -71,7 +71,7 @@ Valide suas jornadas com dados de produção reais sem entrar em contato com os 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Publicação de uma jornada
 

@@ -8,21 +8,21 @@ exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
 hide: true
 hidefromtoc: true
 source-git-commit: 5f63c10a79847a271e330f440fdfdb1ff64ffa88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Funções{#section-overview}
 
-As funções do Adobe Journey Optimizer permitem criar expressões dinâmicas e precisas de acordo com as jornadas do cliente. Quer você esteja avaliando a associação de público-alvo, agregando dados, convertendo formatos, manipulando datas ou processando listas, cada categoria de funções tem um propósito exclusivo na otimização de workflows. Com ferramentas para cálculos matemáticos, personalização de sequências e muito mais, essas funções fornecem possibilidades infinitas para criar condições avançadas. Ao explorar as seções à frente, você encontrará exemplos práticos e orientação detalhada que simplificam operações complexas, facilitando a liberação de todo o potencial da orquestração personalizada de jornadas.
+As funções do Adobe Journey Optimizer permitem criar expressões dinâmicas e precisas de acordo com as jornadas do cliente. Independentemente de estar avaliando a associação de público-alvo, agregando dados, convertendo formatos, manipulando datas ou processando listas, cada categoria das funções tem um propósito exclusivo na otimização de fluxos de trabalho. Com ferramentas para cálculos matemáticos, personalização de strings e muito mais, essas funções fornecem possibilidades infinitas para criar condições avançadas. Ao explorar as próximas seções, é possível encontrar exemplos práticos e orientações detalhadas que simplificam operações complexas, ajudando a atingir todo o potencial da orquestração de jornadas personalizada.
 
 ## Funções do Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funções principais do Adobe Journey Optimizer
 
@@ -32,7 +32,7 @@ Obtenha uma visão geral das principais funções disponíveis, categorizadas po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Usar a função inAudience
 
@@ -42,7 +42,7 @@ Entenda como avaliar a associação de públicos-alvo com a função inAudience 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Referência de funções de agregação
 
@@ -52,7 +52,7 @@ As funções de agregação principais executam operações como médias, contag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 Funções de conversão
 
@@ -62,7 +62,7 @@ Transforme tipos de dados com funções de conversão para manipular entradas de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Funções de data do Adobe Journey Optimizer
 
@@ -72,7 +72,7 @@ Saiba como manipular e avaliar valores de data e hora por meio de funções pode
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Funções de lista do Adobe Journey Optimizer
 

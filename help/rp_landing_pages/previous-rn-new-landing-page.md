@@ -8,7 +8,7 @@ hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_20-02-38
 exl-id: 74d13927-18ca-4b7a-8e0e-fd69b38c0eff
 source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ As notas de versão do Adobe Journey Optimizer fornecem um instantâneo mensal d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Notas de versão do Adobe Journey Optimizer 2025
 
@@ -32,7 +32,7 @@ Explore todos os recursos, atualizações e aprimoramentos introduzidos em 2025 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Notas de versão de 2024 do Adobe Journey Optimizer
 

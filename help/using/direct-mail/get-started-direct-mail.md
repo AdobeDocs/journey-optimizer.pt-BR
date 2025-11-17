@@ -8,9 +8,9 @@ level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,10 @@ As principais etapas para enviar mensagens de correspondência direta são as se
 
 ## Recursos adicionais
 
-* **[Criar correspondência direta](create-direct-mail.md)** - Saiba como criar entregas de correspondência direta e configurar arquivos de extração para canais offline.
-* **[Configurar canal de correspondência direta](direct-mail-configuration.md)** - Definir superfícies de correspondência direta e configurações de roteamento de arquivos.
-* **[Correspondência direta no jornada](direct-mail-journeys.md)** - Descubra como usar ações de correspondência direta nas jornadas do cliente.
-* **[Testar e enviar correspondência direta](test-send-direct-mail.md)** - Saiba como testar, validar e publicar suas entregas de correspondência direta.
-* **[Tutoriais de correspondência direta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre recursos de correspondência direta e práticas recomendadas.
+* **[Criar correspondência direta](create-direct-mail.md)**: saiba como criar entregas de correspondência direta e configurar arquivos de extração para canais offline.
+* **[Configurar canal de correspondência direta](direct-mail-configuration.md)**: defina superfícies de correspondência direta e configurações de roteamento de arquivos.
+* **[Correspondência direta em jornadas](direct-mail-journeys.md)**: descubra como usar ações de correspondência direta nas jornadas do cliente.
+* **[Testar e enviar correspondência direta](test-send-direct-mail.md)**: saiba como testar, validar e publicar entregas de correspondência direta.
+* **[Tutoriais de correspondência direta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre recursos de correspondência direta e práticas recomendadas.
 
 

@@ -8,9 +8,9 @@ level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -59,8 +59,8 @@ Use o Journey Optimizer para criar notificações no aplicativo e configurar as 
 
 ## Recursos adicionais
 
-* **[Criar mensagens no aplicativo](create-in-app.md)** - Saiba como criar e configurar mensagens no aplicativo para aplicativos móveis.
-* **[Configurar canal no aplicativo](inapp-configuration.md)** - Configure seu canal de mensagens no aplicativo com as configurações apropriadas do aplicativo móvel.
-* **[Criar conteúdo no aplicativo](design-in-app.md)** - Personalize layouts, estilos, botões e elementos interativos de mensagens no aplicativo.
-* **[No aplicativo para Web](create-in-app-web.md)** - Descubra como criar e entregar mensagens no aplicativo para aplicativos Web.
-* **[Tutoriais do canal no aplicativo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre recursos de mensagens no aplicativo e práticas recomendadas.
+* **[Criar mensagens no aplicativo](create-in-app.md)**: saiba como criar e configurar mensagens no aplicativo para aplicativos móveis.
+* **[Configurar canal no aplicativo](inapp-configuration.md)**: configure o canal de mensagens no aplicativo com as definições apropriadas de aplicativo móvel.
+* **[Criar conteúdo no aplicativo](design-in-app.md)**: personalize layouts, estilos, botões e elementos interativos de mensagens no aplicativo.
+* **[No aplicativo para web](create-in-app-web.md)**: descubra como criar e entregar mensagens no aplicativo para aplicativos web.
+* **[Tutoriais do canal no aplicativo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre recursos de mensagens no aplicativo e práticas recomendadas.

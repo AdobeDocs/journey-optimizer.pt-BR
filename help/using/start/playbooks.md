@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,4 +61,4 @@ Além de aproveitar manuais de estratégia predefinidos, é possível criar e co
 
 Defina metadados manualmente ou usando os recursos de IA, associe ativos técnicos como esquemas e segmentos e compartilhe seus manuais de estratégia em diferentes organizações IMS.
 
-Para obter mais informações sobre como criar e compartilhar manuais de estratégia, consulte a documentação dos manuais de casos de uso: [crie e compartilhe seus próprios manuais de estratégia com o Assistente de IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=pt-BR#sharing-playbooks-sandboxes){target="_blank"}.
+Para obter mais informações sobre como criar e compartilhar manuais de estratégia, consulte a documentação dos manuais de casos de uso: [crie e compartilhe seus próprios manuais de estratégia com o Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/experience-platform/use-case-playbooks/playbooks/author#sharing-playbooks-sandboxes){target="_blank"}.

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ O vídeo abaixo mostra como integrar o WhatsApp como um canal nativo ao Adobe Jo
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470249?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

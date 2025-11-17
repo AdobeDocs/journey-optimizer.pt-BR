@@ -6,9 +6,9 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Você pode monitorar todas as solicitações de aprovação e alteração que fo
 
 ## Recursos adicionais
 
-* **[Criar políticas de aprovação](approval-policies.md)** - Saiba como configurar políticas de aprovação para impor fluxos de trabalho de revisão para campanhas e jornadas.
-* **[Solicitar aprovação](request-approval.md)** - Entenda como enviar conteúdo para aprovação e acompanhar o status de aprovação.
-* **[Revisar e aprovar solicitações](review-approve-request.md)** - Saiba como revisar, aprovar ou rejeitar solicitações de aprovação como aprovador.
-* **[Simular com entradas de exemplo](simulate-sample-input.md)** - Saiba como testar e validar conteúdo usando dados de perfil de exemplo.
+* **[Criar políticas de aprovação](approval-policies.md)**: saiba como configurar políticas de aprovação para impor fluxos de trabalho de revisão sobre campanhas e jornadas.
+* **[Solicitar aprovação](request-approval.md)**: entenda como enviar conteúdo para aprovação e acompanhar o status de aprovação.
+* **[Revisar e aprovar solicitações](review-approve-request.md)**: saiba como revisar, aprovar ou rejeitar solicitações de aprovação como aprovador.
+* **[Simular com entradas de exemplo](simulate-sample-input.md)**: saiba como testar e validar conteúdo usando dados de perfil de exemplo.

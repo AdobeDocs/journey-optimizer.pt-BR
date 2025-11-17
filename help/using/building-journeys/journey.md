@@ -10,9 +10,9 @@ keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,12 +51,12 @@ Saiba como criar jornadas [nos seguintes casos de uso de ponta a ponta](jo-use-c
 
 Descubra os componentes de uma jornada e entenda os aspectos básicos da criação de uma jornada na tela.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430346?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Recursos adicionais {#additional-resources}
 
-* [Perguntas frequentes sobre o Jornada](journey-faq.md) - Perguntas frequentes sobre o jornada
-* [Referência a códigos de erro](error-codes-reference.md) - Jornada códigos de erro e etapas de solução de problemas
-* [Alertas](../reports/alerts.md) - Configurar alertas para monitoramento de jornadas
-* [Solução de problemas](troubleshooting.md) - Problemas e soluções comuns do jornada
-* [Monitoramento e solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) - Ferramentas e recursos para monitorar e solucionar problemas de suas jornadas
+* [Perguntas frequentes sobre jornadas](journey-faq.md): perguntas frequentes sobre jornadas
+* [Referência a códigos de erro](error-codes-reference.md): códigos de erro e etapas de solução de problemas da jornada
+* [Alertas](../reports/alerts.md): configurar alertas para monitoramento da jornada
+* [Solução de problemas](troubleshooting.md): problemas e soluções comuns da jornada
+* [Monitoramento e solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md): ferramentas e recursos para monitorar e solucionar problemas das jornadas

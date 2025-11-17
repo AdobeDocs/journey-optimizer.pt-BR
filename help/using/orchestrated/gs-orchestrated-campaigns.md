@@ -7,9 +7,9 @@ short-description: Descubra os principais recursos e casos de uso de campanhas o
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Dá suporte ao envio de vários níveis, em que uma mensagem é enviada por perf
 
 >[!NOTE]
 >
->Para obter mais informações sobre os canais com suporte, consulte a tabela nesta seção: [Canais em jornadas e campanhas](../channels/gs-channels.md#channels).
+>Para obter mais informações sobre os canais compatíveis, consulte a tabela nesta seção: [canais em jornadas e campanhas](../channels/gs-channels.md#channels).
 >
 >Os canais disponíveis variam com base no modelo de licenciamento e nos complementos.
 
@@ -92,7 +92,7 @@ Saiba mais sobre os principais conceitos e recursos disponíveis com campanhas o
 
 ## Vamos nos aprofundar um pouco mais
 
-Agora que você entende o que são campanhas orquestradas, é hora de se aprofundar nessas seções de documentação para começar a trabalhar com o recurso.
+Agora que você entende o que são campanhas orquestradas, é hora de se aprofundar nestas seções da documentação para começar a trabalhar com o recurso.
 
 <table><tr style="border: 0; text-align: center;">
 <td>
@@ -124,10 +124,10 @@ Agora que você entende o que são campanhas orquestradas, é hora de se aprofun
 
 ## Recursos adicionais
 
-* **[Crie sua primeira regra](build-query.md)** - Domine o construtor de regras para criar consultas direcionadas e segmente seus públicos com precisão usando dados relacionais.
-* **[Criar esquemas relacionais](gs-schemas.md)** - Entenda como definir e configurar esquemas relacionais para aproveitar dados de várias entidades em suas campanhas.
-* **[Relatórios para campanhas orquestradas](reporting-campaigns.md)** - Acompanhe e analise o desempenho da sua campanha com métricas e insights detalhados de relatórios.
-* **[Iniciar e monitorar campanhas](start-monitor-campaigns.md)** - Conheça as práticas recomendadas para iniciar campanhas e monitorar sua execução em tempo real.
-* **[Medidas de proteção e limitações](guardrails.md)** - Revise medidas de proteção, limitações e práticas recomendadas importantes para garantir o desempenho ideal da campanha.
-* **[Perguntas frequentes](orchestrated-campaigns-faq.md)** - Encontre respostas para perguntas comuns sobre recursos, funcionalidades e casos de uso de campanhas orquestradas.
-* **[Tutoriais de campanha orquestrados](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - Explore tutoriais em vídeo passo a passo que abrangem recursos e práticas recomendadas.
+* **[Crie sua primeira regra](build-query.md)**: domine o construtor de regras para criar consultas direcionadas e segmente públicos-alvo com precisão usando dados relacionais.
+* **[Crie esquemas relacionais](gs-schemas.md)**: entenda como configurar esquemas relacionais para aproveitar dados de várias entidades nas campanhas.
+* **[Relatórios de campanhas orquestradas](reporting-campaigns.md)**: acompanhe e analise o desempenho da campanha com métricas e insights detalhados de relatórios.
+* **[Iniciar e monitorar campanhas](start-monitor-campaigns.md)**: conheça as práticas recomendadas para iniciar campanhas e monitorar sua execução em tempo real.
+* **[Medidas de proteção e limitações](guardrails.md)**: revise medidas de proteção, limitações e práticas recomendadas importantes para garantir o desempenho ideal da campanha.
+* **[Perguntas frequentes](orchestrated-campaigns-faq.md)**: encontre respostas para perguntas comuns sobre recursos, funcionalidades e casos de uso de campanhas orquestradas.
+* **[Tutoriais da campanha orquestrada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}**: explore tutoriais em vídeo passo a passo que abrangem recursos e práticas recomendadas.

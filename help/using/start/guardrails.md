@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2929'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ As seguintes medidas de proteção se aplicam ao [canal de email](../email/get-
 
 * Não é possível usar o mesmo domínio de envio para enviar mensagens de email do [!DNL Adobe Journey Optimizer] e de outro produto, como o [!DNL Adobe Campaign] ou o [!DNL Adobe Marketo Engage] por exemplo.
 
-Ao projetar mensagens de email, o sistema verifica as principais configurações e exibe alertas de avisos (recomendações e práticas recomendadas) e erros (bloqueando problemas que impedem teste ou ativação). Saiba mais sobre alertas de email e requisitos de validação em [esta seção](../email/create-email.md#check-email-alerts).
+Ao criar mensagens de email, o sistema verifica as principais configurações e exibe alertas de avisos (recomendações e práticas recomendadas) e erros (bloqueando problemas que impedem teste ou ativação). Saiba mais sobre alertas de email e requisitos de validação [nesta seção](../email/create-email.md#check-email-alerts).
 
 ### Medidas de proteção de SMS {#sms-guardrails}
 
@@ -228,7 +228,7 @@ A seguinte medida de proteção se aplica à atividade de [qualificação de pú
 * A atividade Qualificação de público-alvo não pode ser usada com atividades do Adobe Campaign.
 * Identificadores suplementares não são aceitos para jornadas de qualificação de público-alvo.
 
-Saiba mais sobre taxas de processamento e limites de taxa de transferência do jornada em [esta seção](../building-journeys/entry-management.md#journey-processing-rate).
+Saiba mais sobre taxas de processamento e limites de taxa de transferência da jornada [nesta seção](../building-journeys/entry-management.md#journey-processing-rate).
 
 #### Atividades do Campaign {#ac-g}
 
@@ -266,7 +266,7 @@ Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Salto]*
 As seguintes medidas de proteção se aplicam à atividade de [leitura de público-alvo](../building-journeys/read-audience.md) da jornada:
 
 * Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Eles só são avaliados diariamente no momento da avaliação diária do lote.
-* Para jornadas que usam uma atividade de **público-alvo de leitura**, há um número máximo de jornadas que podem ser iniciadas ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais de cinco jornadas (com **Ler público**, agendado ou iniciando &quot;o mais rápido possível&quot;), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos. Saiba mais sobre as taxas de processamento de jornada em [esta seção](../building-journeys/entry-management.md#journey-processing-rate).
+* Para jornadas que usam uma atividade de **público-alvo de leitura**, há um número máximo de jornadas que podem ser iniciadas ao mesmo tempo. O sistema realizará novas tentativas, mas evite ter mais de cinco jornadas (com **Público-alvo de leitura**, agendadas ou iniciando “o mais rápido possível”) que se iniciem ao mesmo tempo, distribuindo-as ao longo do tempo, como, por exemplo, em intervalos de 5 a 10 minutos. Saiba mais sobre taxas de processamento de jornada [nesta seção](../building-journeys/entry-management.md#journey-processing-rate).
 * A atividade de **público-alvo de leitura** não pode ser usada com atividades do Adobe Campaign.
 * A atividade de **público-alvo de leitura** só pode ser usada como a primeira atividade de uma jornada ou após uma atividade de evento de negócios.
 * Uma jornada só pode ter uma atividade de **público-alvo de leitura**.

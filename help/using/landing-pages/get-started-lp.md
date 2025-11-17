@@ -10,7 +10,7 @@ level: Beginner
 keywords: destino, página de destino, início, introdução
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -71,4 +71,4 @@ O [!DNL Journey Optimizer] permite criar e projetar páginas de destino para dir
 
 O vídeo abaixo mostra como criar uma lista de assinaturas, configurar páginas de destino para oferecer assinaturas ou cancelar assinaturas de um serviço, integrar a opção de assinatura ou cancelamento a uma mensagem e configurar jornadas relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/344402?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
