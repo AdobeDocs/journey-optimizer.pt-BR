@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
+source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '2983'
 ht-degree: 97%
 
 ---
@@ -316,6 +316,7 @@ ht-degree: 97%
       + [Verificação e envio de mensagens de texto](using/sms/send-sms.md)
       + [Gerenciar recusa de mensagem de texto](using/sms/sms-opt-out.md)
       + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
+      + [Práticas recomendadas para otimização de custo de SMS](using/sms/sms-subdomains.md)
       + Configurar canal de SMS/MMS/RCS {#configure-sms}
          + [Configurar canal de SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Introdução à configuração de SMS/MMS/RCS](using/sms/sms-configuration.md)
@@ -441,7 +442,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
