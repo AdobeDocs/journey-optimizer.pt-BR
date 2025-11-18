@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de email, Módulos, Reutilização, Consistência de marca, Design de email, CSS personalizado, Otimização móvel
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
+source-git-commit: 53ae620926fc8ba3e9c8b558584ed8eb6942e3d4
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1604'
 ht-degree: 3%
 
 ---
@@ -39,6 +39,8 @@ Esse recurso permite que os profissionais de marketing aproveitem emails visualm
   Se você escolher o modo Estilo manual, não será possível aplicar temas, a menos que redefina seu email.
 
 * [Fragmentos](../content-management/fragments.md) não são compatíveis entre os modos Usar Temas e Estilo Manual.
+
+   * Fragmentos com temas não estão disponíveis em conteúdos de email criados sem o uso de temas.
 
    * Para usar um [fragmento](../content-management/fragments.md) em um conteúdo com tema, este fragmento deve ter sido criado por si mesmo, usando temas. [Saiba mais](#leverage-themes-fragment)
 
@@ -227,6 +229,10 @@ Para criar um fragmento compatível com temas, siga as etapas abaixo.
 ## Tornar um modelo compatível com temas {#theme-convertor}
 
 [!DNL Journey Optimizer] permite converter um modelo que foi criado usando o estilo manual em um conteúdo compatível com tema. Isso pode ser particularmente útil se você criou modelos de conteúdo antes de os temas serem introduzidos no [!DNL Journey Optimizer], ou se você estiver importando conteúdo externo.
+
+>[!NOTE]
+>
+> Somente **modelos de email** podem ser convertidos para serem compatíveis com temas. Emails individuais não podem ser convertidos; primeiro você deve salvar seu conteúdo como um template.
 
 1. Abra um [modelo de conteúdo](../content-management/create-content-templates.md) do email e edite o conteúdo usando o Designer de Email.
 
