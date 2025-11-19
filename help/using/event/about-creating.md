@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 13%
@@ -42,15 +42,13 @@ Abaixo estão as primeiras etapas para configurar um novo evento:
 
 1. Insira o nome do evento. Você também pode adicionar uma descrição.
 
-   ![](assets/jo-event3.png)
-
    >[!NOTE]
    >
    >Somente caracteres alfanuméricos e sublinhados são permitidos. O comprimento máximo é de 30 caracteres.
 
-1. No campo **[!UICONTROL Tipo]**, escolha **Unitário**.
+   ![](assets/jo-event3.png)
 
-   ![](assets/jo-event3bis.png)
+1. No campo **[!UICONTROL Tipo]**, escolha **Unitário**.
 
 1. No campo **[!UICONTROL Tipo de ID de evento]**, selecione o tipo de ID de evento que deseja usar: **Baseado em Regras** ou **Gerado pelo Sistema**. Leia mais sobre os tipos de ID de evento em [esta seção](../event/about-events.md#event-id-type).
 
@@ -68,8 +66,6 @@ Abaixo estão as primeiras etapas para configurar um novo evento:
 
 1. Para eventos baseados em regras, clique dentro do campo **[!UICONTROL Condição de ID de evento]**. Usando o editor de expressão simples ou avançado, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
 
-   ![](assets/jo-event6.png)
-
    Em nosso exemplo, escrevemos uma condição com base na cidade do perfil. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição (campo **[!UICONTROL Cidade]** e valor **[!UICONTROL Paris]**), ele o transmitirá para o jornada.
 
    >[!NOTE]
@@ -81,8 +77,6 @@ Abaixo estão as primeiras etapas para configurar um novo evento:
 1. Adicione um tipo de identidade. Esta etapa é opcional, mas é recomendada, pois a adição de um tipo de identidade permite aproveitar as informações armazenadas no Serviço de perfil do cliente em tempo real. Ela define o tipo de chave que o evento tem. Saiba mais [nesta seção](../event/about-creating.md#select-the-namespace).
 
 1. Definir o identificador do perfil: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um tipo de identidade. Na verdade, o jornada escolhe a chave que deve corresponder ao tipo de identidade (por exemplo, se você selecionar um tipo de identidade de email, a chave de email será selecionada). Saiba mais [nesta seção](../event/about-creating.md#define-the-event-key).
-
-   ![](assets/jo-event7.png)
 
 1. Clique em **[!UICONTROL Salvar]**.
 
