@@ -10,10 +10,10 @@ level: Beginner
 keywords: landing page, landing page, criação, página, formulário
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: c91bfc19a8c68b7b914c552349f50e7d47d150df
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -195,8 +195,6 @@ Depois de selecionar um atributo de campo ou adicionar um campo personalizado, v
 >abstract="Configure o que acontece quando alguém preenche ou encaminha o formulário."
 
 De volta aos detalhes do formulário, na **[!UICONTROL página de agradecimento]**, configure o que acontece quando um usuário preenche o formulário.
-
-![](assets/lp_create-form-thank-you.png){width=70%}
 
 Configure uma das seguintes ações:
 
