@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expressão, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: c910664b343f8143579e4a22ff101d38476c4585
+source-git-commit: d4736257166a1fb19350aca45ee55decd3afd0b2
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '836'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Antes de começar, reveja as seguintes restrições e diretrizes:
 
 * **Nenhuma PII nos conjuntos de dados** - Os conjuntos de dados habilitados para pesquisa não devem conter informações pessoais identificáveis (PII).
 
-* &#x200B;
+* 
    * **Risco de exclusão** - Os conjuntos de dados usados na personalização não estão protegidos contra exclusão. Você deve rastrear quais conjuntos de dados estão sendo usados para garantir que eles não sejam removidos.
 
 * **Tipo de esquema** - Os conjuntos de dados devem ser associados a um esquema que seja **NOT** do tipo Perfil ou Evento.
@@ -100,10 +100,6 @@ Se um namespace personalizado ainda não tiver sido definido, verifique se a ide
 Na interface do usuário de gerenciamento de conjunto de dados, use o botão para ativar o conjunto de dados para pesquisa.
 
 ![](assets/aep-data-enable.png)
-
->[!NOTE]
->
->Recomenda-se que o conjunto de dados TAMBÉM NÃO esteja habilitado para o perfil, pois isso pode levar a um aumento na riqueza do perfil e não é necessário para executar as pesquisas.
 
 ### Método da API
 
