@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: evento, jornada, negócios, configuração
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 12%
@@ -31,7 +31,7 @@ Eventos comerciais podem ser &quot;um produto está de volta no estoque&quot;, &
 
 >[!NOTE]
 >
->Você também pode assistir ao caso de uso de evento comercial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Observe que o esquema não precisa ser ativado para o perfil.
+>Você também pode assistir ao caso de uso de evento comercial [tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Observe que o esquema não precisa ser ativado para o perfil.
 
 ## Observações importantes {#important-notes}
 
@@ -56,7 +56,7 @@ Os eventos comerciais seguem as regras de reentrada da mesma forma que os evento
 
 **Quais são as medidas de proteção para evitar sobrecarga de públicos materializados?**
 
-No caso de eventos comerciais instantâneos, para determinada jornada, os dados enviados pelo primeiro trabalho de evento são reutilizados durante uma janela de tempo de 1 hora. Para jornadas programadas, não há garantia. Saiba mais sobre públicos-alvo na [documentação do Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR).
+No caso de eventos comerciais instantâneos, para determinada jornada, os dados enviados pelo primeiro trabalho de evento são reutilizados durante uma janela de tempo de 1 hora. Para jornadas programadas, não há garantia. Saiba mais sobre públicos-alvo na [documentação do Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 
 ## Introdução a eventos comerciais {#gs-business-events}
 
