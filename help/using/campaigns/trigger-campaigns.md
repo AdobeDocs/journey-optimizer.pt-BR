@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campaign, review, validation, ativating, ativating, otimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 8cb37cf0fb9dc8048d7da8ddda0c67280477d57f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 3%
+source-wordcount: '468'
+ht-degree: 1%
 
 ---
 
@@ -40,3 +40,29 @@ Depois que sua campanha for ativada, é necessário recuperar a solicitação de
 1. Use essa solicitação de cURL nas APIs para criar sua carga e acionar a campanha. Para obter mais informações, consulte a [documentação da API de Execução de Mensagens Interativas](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution), onde todos os pontos de extremidade para campanhas padrão e de Alta Taxa de Transferência são listados.
 
    Exemplos de chamadas de API também estão disponíveis em [esta página](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
+
+## Solução de problemas {#troubleshooting}
+
+### Erros de autenticação do Azure Cosmos DB (Erro interno 500 do servidor) {#cosmosdb-auth-errors}
+
+Se você encontrar **500 Erros Internos do Servidor** ao acionar campanhas acionadas por API, e os logs do sistema mostrarem um erro **403 Proibido** do BD do Azure Cosmos com uma mensagem como:
+
+_&quot;O acesso à sua conta está revogado no momento porque o serviço Azure Cosmos DB não pode obter o token de autenticação AAD para a identidade padrão da conta&quot;_
+
+Normalmente, esse erro ocorre quando a entidade de serviço do Azure necessária para a autenticação do Cosmos DB foi desabilitada, excluída ou configurada incorretamente.
+
++++Como resolver esse problema
+
+1. **Verifique a entidade de serviço do Azure** - Verifique se a entidade de serviço do Azure ou a identidade gerenciada está habilitada e não foi desabilitada ou excluída no Azure Ative Diretory.
+
+1. **Verificar permissões** - Confirme se a entidade de serviço tem as permissões necessárias para acessar os recursos do Cofre de Chaves do Azure e do Cosmos DB. A entidade de serviço deve ter atribuições de função apropriadas para autenticar com o Azure Cosmos DB.
+
+1. **Revise a configuração do CMK do Azure Cosmos DB** - Se estiver usando as Chaves Gerenciadas pelo Cliente (CMK), consulte o [guia de solução de problemas do CMK do Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/cmk-troubleshooting-guide#azure-active-directory-token-acquisition-error){target="_blank"} para obter etapas detalhadas sobre como restaurar a aquisição do token AAD.
+
+1. **Reabilitar e testar** - Depois de corrigir a configuração, habilite novamente a entidade de serviço, se ela estiver desabilitada, e teste novamente suas chamadas de API de campanha transacional para confirmar se a autenticação foi bem-sucedida, e se as mensagens foram entregues.
+
+>[!NOTE]
+>
+>Normalmente, esse problema é causado por uma configuração incorreta ou desabilitação acidental da entidade de serviço do Azure necessária para a autenticação do Cosmos DB. Manter a entidade de serviço habilitada e configurada corretamente evitará esse erro no futuro.
+
++++
