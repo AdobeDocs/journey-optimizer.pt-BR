@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: evento, jornada, negócios, configuração
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 12%
@@ -93,8 +93,6 @@ Estas são as primeiras etapas para configurar um evento comercial:
    ![](assets/test-profiles-4.png)
 
 1. Clique dentro do campo **[!UICONTROL Condição de ID de evento]**. Use o editor de expressões simples para definir a condição usada pelo sistema para identificar os eventos que acionam sua jornada.
-
-   ![](assets/jo-event6-business.png)
 
    No nosso exemplo, escrevemos uma condição com base na ID do produto. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição, ele o transmitirá para o jornada.
 
