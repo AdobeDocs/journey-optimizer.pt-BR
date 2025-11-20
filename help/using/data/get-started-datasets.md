@@ -21,7 +21,7 @@ Todos os dados assimilados na Adobe Experience Platform são mantidos no Data La
 
 ## Medidas de proteção e limitações
 
-* A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+* A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=pt){target="_blank"}.
 
 * A partir de fevereiro de 2025, uma proteção de TTL (time-to-live, tempo de vida útil) está sendo implantada em conjuntos de dados gerados pelo sistema da Journey Optimizer. [Saiba mais](datasets-ttl.md)
 
@@ -74,8 +74,8 @@ Adicionar dados à [!DNL Adobe Experience Platform] é a base para criar um Perf
 
 Você pode criar um conjunto de dados a partir de um esquema ou um arquivo CSV. Informações detalhadas sobre como criar conjuntos de dados estão disponíveis na documentação do [!DNL Adobe Experience Platform]:
 
-* [Criar um conjunto de dados com um esquema existente](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [Mapear um arquivo CSV para um esquema XDM existente](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [Criar um conjunto de dados com um esquema existente](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [Mapear um arquivo CSV para um esquema XDM existente](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 Veja este vídeo para saber como criar um conjunto de dados, mapeá-lo para um esquema, adicionar dados a ele e confirmar se os dados foram assimilados.
 
@@ -101,4 +101,4 @@ Saiba mais sobre Governança de dados e rótulos de uso de dados na [Documentaç
 >
 >* [Documentação de conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}
 >* [Documentação de assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
->* [Práticas recomendadas de qualificação de licença de gerenciamento de dados](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [Práticas recomendadas de qualificação de licença de gerenciamento de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
