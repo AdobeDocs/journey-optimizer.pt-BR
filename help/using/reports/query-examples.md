@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 19e237f8b83d26eb7fa2c6b7548fcb6c4c01c9ce
+source-git-commit: 507a3caa79856dd2c8b58b395507caf164eb0546
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 2%
+source-wordcount: '2598'
+ht-degree: 1%
 
 ---
 
@@ -53,6 +53,8 @@ Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step
 
 +++Qual regra fez com que um perfil não entrasse em uma determinada jornada
 
+Esta consulta retorna o conjunto de regras rejeitado e as informações da regra quando um perfil é impedido de inserir uma jornada devido às regras de limitação ou qualificação.
+
 _Exemplo_
 
 ```sql
@@ -75,6 +77,8 @@ AND
 +++
 
 +++Quantos erros ocorreram em cada nó de uma jornada específica por um determinado período
+
+Essa consulta conta os perfis distintos que apresentaram erros em cada nó de uma jornada, agrupados por nome de nó. Inclui todos os tipos de erros de execução de ação e erros de busca.
 
 _Consulta do Data Lake_
 
@@ -100,6 +104,8 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 +++Quantos eventos foram descartados de uma jornada específica em um determinado período
 
+Esta consulta conta o número total de eventos que foram descartados de uma jornada. Ele filtra vários códigos de evento de descarte, incluindo erros de trabalho de exportação de segmento, descartes do Dispatcher e descartes da máquina de estado.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -120,9 +126,9 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++O que acontece com um perfil específico em uma jornada específica em um intervalo de tempo específico
 
-_Consulta do Data Lake_
-
 Esta consulta retorna todos os eventos de etapa e eventos de serviço para o perfil e a jornada fornecidos pelo tempo especificado em ordem cronológica.
+
+_Consulta do Data Lake_
 
 ```sql
 SELECT
@@ -330,6 +336,8 @@ Esta consulta retorna todos os erros diferentes que ocorreram ao executar uma a�
 
 +++Localizar se um perfil inseriu uma Jornada específica
 
+Esta consulta verifica se um perfil específico inseriu uma jornada, contando os eventos associados a esse perfil e a combinação de jornada.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -406,6 +414,8 @@ A consulta retorna a lista de todas as mensagens juntamente com sua contagem inv
 
 +++Localizar todas as mensagens recebidas por um perfil nos últimos 30 dias
 
+Esta consulta recupera todas as ações de mensagem executadas com êxito para um perfil específico nos últimos 30 dias, agrupadas por nome de mensagem.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -434,6 +444,8 @@ A consulta retorna a lista de todas as mensagens juntamente com sua contagem inv
 
 +++Localizar todas as jornadas inseridas por um perfil nos últimos 30 dias
 
+Esta consulta retorna todas as jornadas inseridas por um perfil específico nos últimos 30 dias, juntamente com a contagem de entradas de cada jornada.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -459,6 +471,8 @@ A consulta retorna a lista de todos os nomes de jornada juntamente com o número
 +++
 
 +++Número de perfis qualificados para uma jornada diariamente
+
+Este query fornece um detalhamento diário do número de perfis distintos que inseriram uma jornada em um período especificado.
 
 _Consulta do Data Lake_
 
@@ -490,6 +504,8 @@ Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step
 ## Consultas relacionadas ao público-alvo de leitura {#read-segment-queries}
 
 +++Tempo necessário para concluir um trabalho de exportação de público
+
+Esta consulta calcula a duração de um trabalho de exportação de público-alvo localizando a diferença de tempo entre o momento em que o trabalho foi enfileirado e o momento em que foi concluído.
 
 _Consulta do Data Lake_
 
@@ -525,6 +541,8 @@ A consulta retorna a diferença de tempo, em minutos, entre o momento em que o t
 
 +++Número de perfis descartados pela jornada porque estavam duplicados
 
+Esta consulta conta o número de perfis distintos que foram descartados devido a erros de duplicação de instância durante a atividade Ler público.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -548,6 +566,8 @@ A consulta retorna todas as IDs de perfil que foram descartadas pela jornada por
 +++
 
 +++Número de perfis descartados pela jornada devido a um namespace inválido
+
+Esta consulta retorna a contagem de perfis que foram descartados porque tinham um namespace inválido ou uma identidade ausente para o namespace necessário.
 
 _Consulta do Data Lake_
 
@@ -573,6 +593,8 @@ A consulta retorna todas as IDs de perfil que foram descartadas pela jornada por
 
 +++Número de perfis que foram descartados pela jornada devido à falta de um mapa de identidade
 
+Essa consulta conta os perfis que foram descartados porque um mapa de identidade necessário para a execução da jornada estava ausente.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -596,6 +618,8 @@ A consulta retorna todas as IDs de perfil que foram descartadas pela jornada por
 +++
 
 +++Número de perfis que foram descartados pela jornada porque a jornada estava no nó de teste e o perfil não era um perfil de teste
+
+Esta consulta identifica perfis que foram descartados quando a jornada estava sendo executada no modo de teste, mas o perfil não tinha o atributo testProfile definido como verdadeiro.
 
 _Consulta do Data Lake_
 
@@ -621,6 +645,8 @@ A consulta retorna todas as IDs de perfil que foram descartadas pela jornada por
 
 +++Número de perfis descartados pela jornada devido a um erro interno
 
+Esta consulta retorna a contagem de perfis que foram descartados devido a erros internos do sistema durante a execução da jornada.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -644,6 +670,8 @@ A consulta retorna todas as IDs de perfil que foram descartadas pela jornada dev
 +++
 
 +++Visão geral do público-alvo de leitura para uma determinada versão do jornada
+
+Esta consulta fornece uma visão geral abrangente da atividade Ler público, incluindo detalhes do trabalho de exportação de segmento, códigos de evento, status e contagens de perfil para todos os estágios do processo de exportação de público-alvo.
 
 _Consulta do Data Lake_
 
@@ -679,12 +707,14 @@ Também podemos detectar problemas como:
 IMPORTANTE: se não houver nenhum evento retornado por essa consulta, talvez seja devido a um dos seguintes motivos:
 
 * a versão do jornada não atingiu o cronograma
-* se a versão do jornada deveria ter acionado o trabalho de exportação chamando o orchestrator, algo deu errado no fluxo upstram: problema na implantação do jornada, evento comercial ou problema com o scheduler.
+* se a versão do jornada deveria ter acionado o trabalho de exportação chamando o orchestrator, algo deu errado no fluxo upstream: problema na implantação do jornada, evento comercial ou problema com o scheduler.
 
 +++
 
 
 +++Obter erros de público-alvo de leitura para uma determinada versão do jornada
+
+Essa consulta filtra códigos de evento de erro específicos relacionados a falhas de Leitura de público, como erros de criação de tópico, erros de chamada de API, tempos limite e trabalhos de exportação com falha.
 
 _Consulta do Data Lake_
 
@@ -713,6 +743,8 @@ WHERE
 +++
 
 +++Obter status de processamento do trabalho de exportação
+
+Essa consulta recupera o status de processamento de trabalhos de exportação de público-alvo, mostrando se eles tiveram êxito ou falharam junto com as métricas de exportação de perfil.
 
 _Consulta do Data Lake_
 
@@ -744,6 +776,8 @@ Se nenhum registro for retornado, significa que:
 +++
 
 +++Obter métricas sobre perfis exportados, incluindo descartes e métricas de trabalho de exportação para cada trabalho de exportação
+
+Esta consulta combina contagens de perfis descartados com métricas de trabalho de exportação para fornecer uma exibição completa do desempenho da exportação de público-alvo para cada trabalho de exportação individual.
 
 _Consulta do Data Lake_
 
@@ -806,6 +840,8 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 +++
 
 +++Obter métricas agregadas (trabalhos de exportação de público-alvo e descartes) em todos os trabalhos de exportação
+
+Essa consulta agrega métricas gerais em todos os trabalhos de exportação para uma determinada versão do jornada, útil para jornadas recorrentes ou jornadas acionadas por eventos comerciais com reutilização de tópico.
 
 _Consulta do Data Lake_
 
@@ -874,6 +910,8 @@ Ele retorna as métricas gerais de uma determinada versão do jornada, independe
 
 +++Perfil descartado devido a uma realização de público-alvo diferente da configurada
 
+Esta consulta identifica perfis que foram descartados porque o status de realização do público-alvo não correspondia à configuração de Qualificação de público-alvo da jornada (por exemplo, configurado para &quot;entra&quot;, mas o perfil &quot;sai&quot;).
+
 _Consulta do Data Lake_
 
 ```sql
@@ -899,6 +937,8 @@ Esta consulta retorna todas as IDs de perfil que foram descartadas pela versão 
 +++
 
 +++Eventos de qualificação de público-alvo descartados por qualquer outro motivo para um perfil específico
+
+Esta consulta recupera todas as qualificações de público-alvo ou eventos externos que foram descartados para um perfil específico devido a erros de serviço interno.
 
 _Consulta do Data Lake_
 
@@ -930,6 +970,8 @@ Esta consulta retorna todos os eventos (eventos externos/eventos de qualificaç�
 
 +++Verificar se um evento comercial foi recebido para uma jornada
 
+Essa consulta conta o número de vezes que um evento comercial foi recebido por uma jornada, agrupado por data, em um intervalo de tempo especificado.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -958,6 +1000,8 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++Verifique se um evento externo de um perfil foi descartado porque nenhuma jornada relacionada foi encontrada
 
+Esta consulta identifica quando um evento externo para um perfil específico foi descartado porque não havia nenhuma jornada ativa ou correspondente configurada para receber esse evento.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -985,6 +1029,8 @@ Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step
 +++
 
 +++Verifique se um evento externo de um perfil foi descartado por qualquer outro motivo
+
+Esta consulta recupera eventos externos que foram descartados para um perfil específico devido a erros internos de serviço, juntamente com a ID do evento e o código de erro.
 
 _Consulta do Data Lake_
 
@@ -1016,6 +1062,8 @@ Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step
 
 +++Verifique a contagem de todos os eventos descartados por stateMachine por errorCode
 
+Essa consulta agrega todos os eventos descartados pela máquina de estado de jornada, agrupados por código de erro para ajudar a identificar os motivos mais comuns para descartes.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -1037,6 +1085,8 @@ Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step
 +++
 
 +++Verificar todos os eventos descartados porque a reentrada não foi permitida
+
+Esta consulta identifica todos os eventos que foram descartados porque um perfil tentou inserir uma jornada novamente quando a reentrada não era permitida na configuração da jornada.
 
 _Consulta do Data Lake_
 
@@ -1068,6 +1118,8 @@ Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step
 
 +++Número de jornadas ativas diárias
 
+Essa consulta retorna uma contagem diária de versões exclusivas do jornada que tinham atividade, ajudando você a entender os padrões de execução da jornada ao longo do tempo.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -1094,6 +1146,8 @@ A consulta retorna, para o período definido, a contagem de jornadas exclusivas 
 ## Consultas em instâncias do jornada {#journey-instances-queries}
 
 +++Número de perfis em um estado específico por um tempo específico
+
+Essa consulta usa Expressões de tabela comuns (CTEs) para identificar os perfis que estão aguardando atualmente em um nó específico de uma jornada, localizando os perfis que passaram pelo nó, mas ainda não avançaram para os próximos nós.
 
 _Consulta do Data Lake_
 
@@ -1245,6 +1299,8 @@ ORDER BY
 
 +++Quantos perfis saíram da jornada no período específico
 
+Esta consulta conta as instâncias do jornada que saíram durante um período de tempo especificado, incluindo saídas devido a erros de conclusão, erros, tempos limite ou erros de limite.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -1284,6 +1340,8 @@ ORDER BY
 +++
 
 +++Quantos perfis saíram da jornada no período específico com nó/status
+
+Esta consulta fornece um detalhamento das saídas do jornada, mostrando o nome do nó e o status de saída de cada instância encerrada para ajudar a identificar onde e por que os perfis saíram da jornada.
 
 _Consulta do Data Lake_
 
@@ -1330,6 +1388,8 @@ ORDER BY
 ## Consultas relacionadas às métricas de desempenho de Ação personalizada {#query-custom-action}
 
 +++ Número total de chamadas, erros e solicitações bem-sucedidas por segundo de cada ponto de extremidade em um período específico
+
+Esta consulta fornece métricas de desempenho para ações HTTP personalizadas, incluindo total de chamadas, chamadas bem-sucedidas, contagens de erros por tipo (4xx, 5xx, tempos limite, limitados) e taxa de transferência em solicitações por segundo para cada endpoint.
 
 _Consulta do Data Lake_
 
@@ -1390,6 +1450,8 @@ ORDER BY
 +++
 
 +++ Série temporal de chamadas bem-sucedidas, erros e taxa de transferência de cada endpoint durante um período específico
+
+Esta consulta fornece as mesmas métricas de desempenho da consulta anterior, mas organizadas como uma série de tempo, mostrando como o desempenho do endpoint varia ao longo do tempo com granularidade minuto a minuto.
 
 _Consulta do Data Lake_
 
@@ -1457,6 +1519,8 @@ ORDER BY
 
 +++Latência de resposta de cada endpoint aos percentis 50, 95, 99 e 99,9 em um período específico
 
+Esta consulta calcula os percentis de tempo de resposta para endpoints de ação personalizados, ajudando você a entender a distribuição de latência e identificar outliers de desempenho em diferentes limites de percentil.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -1508,6 +1572,8 @@ ORDER BY
 +++
 
 +++Série temporal de percentis de latência de resposta de cada endpoint durante um período específico
+
+Essa consulta fornece percentis de latência organizados como uma série de tempo, permitindo rastrear como os tempos de resposta do endpoint mudam ao longo do tempo em diferentes níveis de percentil.
 
 _Consulta do Data Lake_
 
@@ -1567,6 +1633,8 @@ ORDER BY
 
 +++ Tempo de espera na fila em pontos de extremidade limitados nos percentis 50 e 95 em um período específico
 
+Esta consulta analisa os tempos de espera da fila para endpoints com limitação, mostrando os percentis de espera 50 e 95 para ajudar você a entender o impacto da limitação em suas ações personalizadas.
+
 _Consulta do Data Lake_
 
 ```sql
@@ -1614,6 +1682,8 @@ ORDER BY
 +++
 
 +++ Série de tempo de percentis de tempo de espera da fila para cada ponto de extremidade limitado
+
+Essa consulta fornece percentis de tempo de espera de fila como uma série de tempo, permitindo monitorar como a limitação afeta os tempos de espera ao longo do tempo para cada endpoint.
 
 _Consulta do Data Lake_
 
@@ -1668,6 +1738,8 @@ ORDER BY
 +++
 
 +++ Número de erros por tipo e código para um endpoint específico durante um período específico
+
+Esta consulta fornece um detalhamento dos erros de um endpoint específico, agrupados por tipo de erro e código de erro, incluindo informações sobre tentativas de repetição.
 
 _Consulta do Data Lake_
 
