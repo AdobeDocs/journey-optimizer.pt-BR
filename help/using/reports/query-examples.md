@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 507a3caa79856dd2c8b58b395507caf164eb0546
+source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
 workflow-type: tm+mt
 source-wordcount: '2598'
 ht-degree: 1%
@@ -30,6 +30,8 @@ Verifique se os campos usados em suas consultas têm valores associados no esque
 >[!NOTE]
 >
 >Para fins de solução de problemas, recomendamos usar journeyVersionID em vez de journeyVersionName ao consultar jornadas. Saiba mais sobre os atributos de propriedades de jornada [nesta seção](../building-journeys/expression/journey-properties.md#journey-properties-fields).
+
++++
 
 ## Casos de uso básicos/consultas comuns {#common-queries}
 
