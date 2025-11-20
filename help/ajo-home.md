@@ -99,7 +99,7 @@ Configure e gerencie emails, SMS, notificações por push e outros canais para i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=pt-BR)
 
 Gerenciamento de conflitos e priorização
 
