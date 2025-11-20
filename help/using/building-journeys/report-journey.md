@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -50,6 +50,19 @@ Para cada atividade em cada jornada no modo Live ou [Dry run](journey-dry-run.md
 * **[!UICONTROL Saída (saída forçada)]**: Número total de indivíduos que saíram da jornada enquanto ela estava pausada devido a uma configuração de profissional de jornada. Essa métrica é sempre igual a zero para jornadas no modo de Execução em tempo real.
 * **[!UICONTROL Erro]**: número total de indivíduos que tiveram um erro nessa atividade.
 
+## Solução de problemas de dados de relatórios ausentes {#troubleshooting-missing-data}
+
+Se você não vir os dados esperados em seus relatórios do jornada, considere o seguinte:
+
+* **Sincronização de nome de Jornada**: verifique se o nome de jornada no Adobe Journey Optimizer corresponde ao nome armazenado no conjunto de dados de relatórios. Uma incompatibilidade entre esses nomes pode impedir que os dados de relatório apareçam corretamente.
+
+* **Tempo de atualização de dados**: depois de atualizar um nome ou uma configuração de jornada, aguarde tempo suficiente para que os dados sejam atualizados. Os dados de relatórios normalmente são exibidos em alguns minutos, mas em alguns casos podem levar mais tempo.
+
+* **Permissões de acesso**: verifique se você tem as permissões necessárias para exibir relatórios de jornada. Se você não vir dados, verifique com o administrador se a permissão **[!UICONTROL Exibir relatório do jornada]** está habilitada. [Saiba mais sobre permissões](../administration/permissions.md)
+
+* **Status da Jornada**: os dados de relatório só estão disponíveis para jornadas ou jornadas publicadas em execução no [Modo de execução a seco](journey-dry-run.md). As jornadas de rascunho não geram dados de relatório.
+
+Se os problemas persistirem após verificar esses itens, entre em contato com o administrador do Adobe ou com o suporte da Adobe para obter assistência.
 
 >[!MORELIKETHIS]
 >

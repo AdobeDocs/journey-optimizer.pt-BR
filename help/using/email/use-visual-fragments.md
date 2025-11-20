@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6a5b4c94228db0ab9573124762e89181c2c41b45
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 2%
+source-wordcount: '998'
+ht-degree: 1%
 
 ---
 
 # Adicionar fragmentos visuais a emails {#use-visual-fragments}
 
-Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails em campanhas, jornadas ou modelos de conteúdo do Journey Optimizer. Essa funcionalidade permite pré-criar vários blocos de conteúdo personalizados que podem ser usados por usuários de marketing para reunir rapidamente o conteúdo de email em um processo de design aprimorado. [Saiba como criar e gerenciar fragmentos](../content-management/fragments.md).
+Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails em campanhas, jornadas ou modelos de conteúdo do Journey Optimizer. Essa funcionalidade permite a pré-criação de vários blocos de conteúdo personalizados que podem ser usados por usuários de marketing para reunir rapidamente o conteúdo de email em um processo de design aprimorado. [Saiba como criar e gerenciar fragmentos](../content-management/fragments.md).
 
 ➡️ [Saiba como gerenciar, criar e usar fragmentos neste vídeo](../content-management/fragments.md#video-fragments)
 
@@ -28,7 +28,6 @@ Para usar um fragmento em um email, siga as etapas abaixo.
 >[!NOTE]
 >
 >Você pode adicionar até 30 fragmentos em um determinado delivery. Os fragmentos só podem ser aninhados até um nível.
-
 
 1. Abra qualquer conteúdo de email ou modelo usando a [Designer de email](get-started-email-design.md).
 
@@ -72,6 +71,35 @@ Para usar um fragmento em um email, siga as etapas abaixo.
 1. Se necessário, é possível quebrar a herança com o fragmento original. [Saiba mais](#break-inheritance)
 
 1. Adicione quantos fragmentos desejar e **[!UICONTROL Salve]** suas alterações.
+
+### Limitações ao usar o conteúdo dinâmico em fragmentos {#fragment-dynamic-content}
+
+>[!CAUTION]
+>
+>Ao trabalhar com fragmentos que contêm Conteúdo dinâmico (conteúdo condicional), esteja ciente da seguinte limitação:
+>
+>**Não há suporte para aninhamento de fragmentos com Conteúdo Dinâmico.** Não é possível colocar um fragmento contendo Conteúdo dinâmico dentro de um fragmento desbloqueado que também contém Conteúdo dinâmico. Essa configuração não suportada pode causar:
+>
+>* Perda de mapeamentos de conteúdo condicional
+>* Avisos sobre o modo de compatibilidade no Email Designer
+>* Renderização de email inconsistente
+>
+>**Abordagem recomendada:** ao usar vários fragmentos com Conteúdo dinâmico no email, adicione cada fragmento diretamente no próprio bloco de estrutura no nível do email. Isso garante a funcionalidade adequada e evita os problemas mencionados acima.
+
+## Práticas recomendadas para fragmentos com conteúdo dinâmico {#fragment-best-practices}
+
+Siga estas práticas recomendadas ao trabalhar com fragmentos visuais e Conteúdo dinâmico (conteúdo condicional):
+
+* **Estruturar o email corretamente**: ao criar emails com fragmentos contendo Conteúdo Dinâmico, adicione cada fragmento em um bloco de estrutura dedicado no nível do email. Evite aninhar fragmentos com o Conteúdo dinâmico dentro de outros fragmentos desbloqueados que também contêm Conteúdo dinâmico.
+
+* **Planejar com antecedência**: antes de adicionar fragmentos ao seu email, identifique quais contêm Conteúdo Dinâmico e planeje seu layout de acordo. Isso ajuda a evitar problemas de configuração e garante uma estrutura limpa desde o início.
+
+* **Crie fragmentos reutilizáveis com cuidado**: ao criar fragmentos que incluirão Conteúdo Dinâmico, considere como eles serão usados. Se um fragmento precisar ser aninhado dentro de outros fragmentos, evite adicionar Conteúdo dinâmico aos fragmentos principal e secundário.
+
+* **Solução de problemas**: se você perder mapeamentos de conteúdo condicional ou avisos de modo de compatibilidade:
+   * Verifique sua estrutura de email para obter fragmentos aninhados que contenham Conteúdo dinâmico
+   * Reestruturar movendo cada fragmento com Conteúdo dinâmico para seu próprio bloco de estrutura no nível do email
+   * Salve e verifique se os mapeamentos de conteúdo condicional foram restaurados corretamente
 
 ## Usar variáveis implícitas {#implicit-variables-in-fragments}
 

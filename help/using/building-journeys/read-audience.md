@@ -10,10 +10,10 @@ level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b3114dabcfe09f6b46111e81bec4b1debe770e40
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 13%
+source-wordcount: '3033'
+ht-degree: 11%
 
 ---
 
@@ -56,7 +56,7 @@ As etapas para configurar a atividade Ler público são as seguintes.
 
    >[!NOTE]
    >
-   >Além disso, você também pode direcionar públicos-alvo da Adobe Experience Platform criados com o uso de [composições de público-alvo](../audience/get-started-audience-orchestration.md) ou [carregadas de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience){target="_blank"}.
+   >Além disso, você também pode direcionar públicos-alvo da Adobe Experience Platform criados com o uso de [composições de público-alvo](../audience/get-started-audience-orchestration.md) ou [carregadas de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Observe que é possível personalizar as colunas exibidas na lista e classificá-las.
 
@@ -70,7 +70,7 @@ As etapas para configurar a atividade Ler público são as seguintes.
 
    >[!NOTE]
    >
-   >Somente os indivíduos com o status de participação de público **Realizado** entrarão na jornada. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Somente os indivíduos com o status de participação de público **Realizado** entrarão na jornada. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. No campo **[!UICONTROL Namespace]**, escolha o namespace a ser usado para identificar os indivíduos. Por padrão, o campo é pré-preenchido com o último namespace usado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace).
 
@@ -90,7 +90,7 @@ As etapas para configurar a atividade Ler público são as seguintes.
 
 * Como prática recomendada, você só deve usar públicos-alvo em lote em uma atividade **Ler público-alvo**. Isso fornecerá uma contagem confiável e consistente para os públicos-alvo usados em uma jornada. O público-alvo de leitura foi projetado para casos de uso em lote. Se o seu caso de uso precisa de dados em tempo real, use a atividade **[Qualificação de público-alvo](audience-qualification-events.md)**.
 
-* Os públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience) ou resultantes de [fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md) podem ser selecionados na atividade **Ler Público**. Estes públicos-alvo não estão disponíveis na atividade **Qualificação de público-alvo**.
+* Os públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou resultantes de [fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md) podem ser selecionados na atividade **Ler Público**. Estes públicos-alvo não estão disponíveis na atividade **Qualificação de público-alvo**.
 
 * Limite de público-alvo de leitura simultânea por organização: cada organização pode executar até cinco instâncias de Público-alvo de leitura simultaneamente. Isso inclui execuções programadas e acionadas por eventos comerciais, em todas as sandboxes e jornadas. Esse limite é aplicado para garantir uma alocação de recursos justa e equilibrada em todas as organizações.
 
@@ -297,6 +297,45 @@ Por exemplo, depois de seguir uma experiência diferente durante dez dias em uma
 
 ![mesclagem de caminhos de Jornada após a segmentação usando union](assets/read-segment-audience3.png)
 
+## Solução de problemas de incompatibilidade de contagem de público {#audience-count-mismatch}
+
+Se você notar discrepâncias entre as contagens estimadas do público-alvo, os perfis qualificados e os perfis reais que entram na sua jornada, considere o seguinte:
+
+### Tempo e propagação de dados
+
+* **Conclusão do trabalho de segmentação em lotes**: para públicos em lotes, verifique se o trabalho diário de segmentação em lotes foi concluído e se os instantâneos são atualizados antes da execução da jornada. Os públicos-alvo em lote ficam prontos para uso aproximadamente **2 horas** após a conclusão do trabalho de segmentação. Saiba mais sobre [métodos de avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
+
+* **Tempo de assimilação de dados**: verifique se a assimilação de dados do perfil foi totalmente concluída antes da execução da jornada. Se os perfis tiverem sido assimilados pouco antes do início da jornada, talvez eles não sejam refletidos no público-alvo ainda. Saiba mais sobre a [assimilação de dados no Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
+
+* **Use a opção &quot;Acionar após avaliação de público-alvo em lotes&quot;**: para jornadas agendadas diariamente usando públicos-alvo em lotes, considere habilitar a opção **[!UICONTROL Acionar após avaliação de público-alvo em lotes]**. Isso garante que o jornada aguarde os dados novos do público-alvo (até 6 horas) antes da execução. [Saiba mais sobre o agendamento](#schedule)
+
+* **Adicione uma atividade de espera**: para públicos-alvo de streaming com dados assimilados recentemente, considere adicionar uma atividade de **Espera** no início da jornada para permitir tempo para propagação de dados e qualificação de perfil. [Saiba mais sobre a atividade de espera](wait-activity.md)
+
+### Validação e monitoramento de dados
+
+* **Verificar status do trabalho de segmentação**: monitore os tempos de conclusão do trabalho de segmentação em lotes no [painel de monitoramento](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"} da Adobe Experience Platform para verificar quando os dados do público-alvo estão prontos.
+
+* **Verificar políticas de mesclagem**: verifique se a política de mesclagem configurada para seu público-alvo corresponde ao comportamento esperado para combinar dados de perfil de fontes diferentes. Saiba mais sobre [políticas de mesclagem no Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}.
+
+* **Revisar definições de segmento**: Confirme se as definições de segmento estão configuradas corretamente e inclua todos os critérios de qualificação esperados. Saiba mais sobre [criação de públicos-alvo](../audience/creating-a-segment-definition.md). Preste atenção especial a:
+   * Condições baseadas em tempo que podem excluir perfis com base nos carimbos de data e hora do evento
+   * Qualificações de atributo que dependem de dados atualizados recentemente
+   * Métodos de avaliação de fluxo vs. em lote
+
+* **Validar configuração de namespace**: verifique se o namespace selecionado na atividade **Ler Público** corresponde à identidade principal usada pelos perfis em seu público. Perfis sem o namespace selecionado não entrarão na jornada. Saiba mais sobre [namespaces de identidade](../event/about-creating.md#select-the-namespace).
+
+### Práticas recomendadas para evitar incompatibilidades
+
+* **Agendar jornadas após a segmentação**: para públicos-alvo em lote, agendar a execução da jornada pelo menos 2 a 3 horas após o tempo médio de conclusão do trabalho de segmentação em lote. [Saiba mais sobre o agendamento de jornadas](#schedule)
+
+* **Usar públicos de streaming para casos de uso em tempo real**: se você precisar de qualificação de perfil imediata e entrada de jornada, use as atividades de [Qualificação de público](audience-qualification-events.md) com públicos de streaming em vez de **Ler público** com públicos em lote.
+
+* **Testar com públicos-alvo menores primeiro**: antes de iniciar jornadas de grande escala, teste com um subconjunto menor para validar se as contagens correspondem às expectativas. [Saiba como testar uma jornada](testing-the-journey.md)
+
+* **Monitorar regularmente**: configure o monitoramento regular de tamanhos de público-alvo e métricas de entrada de jornada para detectar discrepâncias antecipadamente. Saiba mais sobre [taxas de processamento de jornada e gerenciamento de entradas](entry-management.md).
+
+Se as incompatibilidades de contagem persistirem após seguir essas etapas, entre em contato com o suporte da Adobe com detalhes sobre o público-alvo, a configuração da jornada e as discrepâncias observadas.
+
 ## Tentativas {#read-audience-retry}
 
 As novas tentativas são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **público-alvo de leitura** ou um **evento de negócios**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado.
@@ -307,4 +346,4 @@ Os acionadores **Read Audience** malsucedidos são capturados e exibidos em **Al
 
 Entenda os casos de uso aplicáveis para uma jornada acionada pela atividade de leitura de público-alvo. Saiba como criar jornadas baseadas em lote e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430363?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

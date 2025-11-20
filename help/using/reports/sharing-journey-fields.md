@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 10%
+source-wordcount: '130'
+ht-degree: 6%
 
 ---
 
@@ -42,6 +42,10 @@ Tipo: sequência de caracteres
 Nome da jornada.
 
 Tipo: sequência de caracteres
+
+>[!NOTE]
+>
+>O nome da jornada é usado para vincular dados de execução da jornada com conjuntos de dados de relatórios. Se você renomear uma jornada, verifique se o novo nome corresponde ao nome no conjunto de dados de relatórios para manter a precisão dos relatórios. Uma incompatibilidade pode fazer com que os dados de relatório não apareçam conforme esperado. Saiba mais sobre [solução de problemas de dados de relatórios ausentes](../building-journeys/report-journey.md#troubleshooting-missing-data).
 
 ## descrição {#description-field}
 

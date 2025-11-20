@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign, acc, integração
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: ee1b6808d3247c7549e82990113d0d496c31b2a9
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 12%
+source-wordcount: '701'
+ht-degree: 9%
 
 ---
 
@@ -61,7 +61,7 @@ Quando solicitado, a conexão entre os ambientes Journey Optimizer e Adobe Campa
 
 ## Pré-requisitos {#prerequisites}
 
-No Adobe Campaign, você deve criar e publicar uma mensagem transacional e seu evento associado. Consulte a [documentação do Adobe Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+No Adobe Campaign, você deve criar e publicar uma mensagem transacional e seu evento associado. Consulte a [documentação do Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 Você pode criar sua carga JSON correspondente a cada mensagem seguindo o padrão abaixo. Em seguida, você colará essa carga ao configurar a ação no Journey Optimizer (veja abaixo).
 
@@ -92,9 +92,25 @@ Para criar uma ação do Campaign, siga estas etapas:
 
 1. Criar uma nova ação. [Saiba como criar ações personalizadas](../action/action.md).
 1. Insira um nome e uma descrição.
-1. No campo **Tipo de ação**, selecione **Adobe Campaign Classic**.
+1. No campo **[!UICONTROL Tipo de ação]**, selecione **[!UICONTROL Adobe Campaign Classic]**.
    ![](assets/accintegration1.png)
-1. Clique no campo **Carga** e cole um exemplo da carga JSON correspondente à mensagem do Campaign. Entre em contato com a Adobe para obter essa carga.
+1. Clique no campo **[!UICONTROL Carga]** e cole um exemplo da carga JSON correspondente à mensagem do Campaign. Entre em contato com a Adobe para obter essa carga.
 1. Defina cada campo como estático ou variável com base em se você deseja que ele seja mapeado na tela de Jornada. Por exemplo, campos como parâmetros de canal de email e campos de personalização (`ctx`) normalmente devem ser definidos como variáveis para que possam se adaptar dinamicamente na jornada.
-1. Clique em **Salvar**.
+1. Clique em **[!UICONTROL Salvar]**.
+
+## Atualizar uma ação existente {#update-action}
+
+Se precisar atualizar uma ação personalizada existente do Campaign v7/v8, por exemplo, quando o endpoint em tempo real (RT) for alterado após a configuração inicial, siga estas etapas:
+
+1. No menu **[!UICONTROL Administração]**, selecione **[!UICONTROL Configurações]** e vá para **[!UICONTROL Ações]**.
+1. Localize e selecione a ação de campanha que deseja atualizar na lista de ações.
+1. Clique em **[!UICONTROL Editar]** para abrir a configuração da ação.
+1. Atualize o campo **[!UICONTROL URL]** com a nova URL de ponto de extremidade RT. Verifique se o formato do endpoint está correto e acessível.
+1. Se necessário, atualize a configuração **[!UICONTROL Carga]** para corresponder a quaisquer alterações na estrutura da mensagem transacional do Campaign.
+1. Clique em **[!UICONTROL Testar]** para validar a conexão com o novo ponto de extremidade. Verifique se o teste retorna uma resposta bem-sucedida antes de continuar.
+1. Depois de validado, clique em **[!UICONTROL Salvar]** para aplicar as alterações.
+
+>[!NOTE]
+>
+>Qualquer jornada que use essa ação usará automaticamente a configuração atualizada. Se você tiver jornadas ativas usando essa ação, monitore-as cuidadosamente após atualizar o endpoint para garantir a entrega adequada da mensagem.
 
