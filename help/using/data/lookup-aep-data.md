@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expressão, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: d4736257166a1fb19350aca45ee55decd3afd0b2
+source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '848'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 5%
 >title="Habilitar para pesquisa"
 >abstract="Habilitar um conjunto de dados para pesquisa permite aproveitar seus dados nos recursos de personalização, Decisão e Orquestração de jornadas do Journey Optimizer."
 
-O Journey Optimizer permite aproveitar os dados do Adobe Experience Platform com recursos de personalização, Decisão e Orquestração de jornadas. Para fazer isso, os conjuntos de dados baseados em registros necessários para a personalização da pesquisa devem primeiro ser habilitados para o serviço de pesquisa, conforme descrito abaixo.
+O [!DNL Journey Optimizer] permite aproveitar os dados do [!DNL Adobe Experience Platform] com recursos de personalização, Decisão e orquestração de jornadas. Para fazer isso, os conjuntos de dados baseados em registros necessários para a personalização da pesquisa devem primeiro ser habilitados para o serviço de pesquisa, conforme descrito abaixo.
+
+Saiba mais sobre como acessar e trabalhar com conjuntos de dados nesta seção: [Introdução aos conjuntos de dados](../data/get-started-datasets.md)
 
 ## Leitura obrigatória
 
@@ -34,8 +36,7 @@ Antes de começar, reveja as seguintes restrições e diretrizes:
 
 * **Nenhuma PII nos conjuntos de dados** - Os conjuntos de dados habilitados para pesquisa não devem conter informações pessoais identificáveis (PII).
 
-* 
-   * **Risco de exclusão** - Os conjuntos de dados usados na personalização não estão protegidos contra exclusão. Você deve rastrear quais conjuntos de dados estão sendo usados para garantir que eles não sejam removidos.
+* **Risco de exclusão** - Os conjuntos de dados usados na personalização não estão protegidos contra exclusão. Você deve rastrear quais conjuntos de dados estão sendo usados para garantir que eles não sejam removidos.
 
 * **Tipo de esquema** - Os conjuntos de dados devem ser associados a um esquema que seja **NOT** do tipo Perfil ou Evento.
 

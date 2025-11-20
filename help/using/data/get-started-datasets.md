@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '873'
-ht-degree: 100%
+source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
+workflow-type: tm+mt
+source-wordcount: '849'
+ht-degree: 78%
 
 ---
 
@@ -19,69 +19,63 @@ ht-degree: 100%
 
 Todos os dados assimilados na Adobe Experience Platform são mantidos no Data Lake como conjuntos de dados. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas).
 
-## Acessar conjuntos de dados{#access-datasets}
+## Medidas de proteção e limitações
 
-O espaço de trabalho dos **Conjuntos de dados** na interface [!DNL Adobe Journey Optimizer] permite explorar dados e criar conjuntos de dados.
+* A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
-Selecionar **Conjuntos de dados** na navegação à esquerda para abrir o painel Conjuntos de dados.
+* A partir de fevereiro de 2025, uma proteção de TTL (time-to-live, tempo de vida útil) está sendo implantada em conjuntos de dados gerados pelo sistema da Journey Optimizer. [Saiba mais](datasets-ttl.md)
+
+## Acessar conjuntos de dados {#access}
+
+O espaço de trabalho **Conjuntos de Dados** da interface do usuário [!DNL Adobe Journey Optimizer] permite explorar dados e criar conjuntos de dados. Para abrir o painel de Conjuntos de Dados, selecione **Conjuntos de Dados** no menu de navegação esquerdo.
 
 ![](assets/datasets-home.png)
 
-Adicionar dados à [!DNL Adobe Experience Platform] é a base para criar um Perfil. Você poderá aproveitar os perfis no [!DNL Adobe Journey Optimizer]. Primeiro, defina esquemas, use ferramentas de ETL para preparar e padronizar seus dados e, em seguida, crie conjuntos de dados com base em seus esquemas.
-
-Selecione a guia **Procurar** para exibir a lista de todos os conjuntos de dados disponíveis para sua organização. Os detalhes são exibidos para cada conjunto de dados listado, incluindo seu nome, o esquema ao qual o conjunto de dados adere e o status da execução de ingestão mais recente.
-
-Por padrão, somente os conjuntos de dados assimilados são exibidos. Se quiser ver os conjuntos de dados gerados pelo sistema, habilite o botão de alternância **Mostrar conjuntos de dados do sistema** no filtro.
+Selecione a guia **Procurar** para exibir a lista de todos os conjuntos de dados disponíveis para sua organização. Os detalhes são exibidos para cada conjunto de dados listado, incluindo o nome, o esquema ao qual o conjunto de dados pertence e o status da execução de assimilação mais recente. Por padrão, somente os conjuntos de dados assimilados são exibidos. Se quiser ver os conjuntos de dados gerados pelo sistema, habilite o botão de alternância **Mostrar conjuntos de dados do sistema** no filtro.
 
 ![](assets/ajo-system-datasets.png)
 
->[!NOTE]
->
->A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=pt){target="_blank"}.
->
->Além disso, com início em fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) está sendo implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer. [Saiba mais](datasets-ttl.md)
 
 Selecione o nome de um conjunto de dados para acessar a tela de atividade do Conjunto de dados e ver os detalhes do conjunto de dados selecionado. A guia Atividade inclui um gráfico que visualiza a taxa de mensagens que estão sendo consumidas, bem como uma lista de lotes bem-sucedidos e com falha.
 
-Os conjuntos de dados do sistema para o Adobe Journey Optimizer estão listados abaixo.
+Para visualizar um conjunto de dados, selecione **Visualizar conjunto de dados** próximo ao canto superior direito da tela para visualizar o lote bem-sucedido mais recente neste conjunto de dados. Quando um conjunto de dados está vazio, o link de visualização é desativado.
+
+![](assets/dataset-preview.png)
+
+## [!DNL Journey Optimizer] conjuntos de dados do sistema {#system-datasets}
+
+Estas seções listam os conjuntos de dados do sistema usados por [!DNL Journey Optimizer]. Para exibir a lista completa de campos e atributos para cada esquema, consulte o [Dicionário de esquema do Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}.
 
 >[!CAUTION]
 >
 > Os conjuntos de dados do sistema **não devem ser modificados**. Qualquer alteração será revertida automaticamente com cada atualização do produto.
 
-**Relatórios**
+* Relatórios
 
-* _Relatório - Conjunto de dados do evento de feedback de mensagem_: Logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados.
-* _Relatórios - Conjunto de dados do evento de experiência de rastreamento de email_: logs de interação para o canal de email usados para fins de criação de relatórios e de público-alvo. As informações armazenadas comunicam as ações executadas pelo usuário final no email (aberturas, cliques etc.).
-* _Relatórios - Conjunto de dados do evento de experiência de rastreamento de push_: logs de interação para o canal de push usado para fins de criação de relatórios e de público-alvo. As informações armazenadas informam as ações executadas pelo usuário final nas notificações por push.
-* _Relatórios - Evento de etapa da jornada_: Captura todos os eventos de experiência em etapas da jornada gerados no Journey Optimizer para serem consumidos por serviços como Relatórios. Também é essencial para criar relatórios no Customer Journey Analytics para análise YoY. Vinculado a um Metadado de jornada.
-* _Relatórios - Jornadas_: Informações de hospedagem do conjunto de dados de metadados de cada etapa em uma jornada.
-* _Relatórios - Cco_: Conjunto de dados de evento de feedback que armazena os logs de entrega para emails CCO. A ser usado para fins de relatório.
+   * _Relatório - Conjunto de dados do evento de feedback de mensagem_: Logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados.
+   * _Relatórios - Conjunto de dados do evento de experiência de rastreamento de email_: logs de interação para o canal de email usados para fins de criação de relatórios e de público-alvo. As informações armazenadas comunicam as ações executadas pelo usuário final no email (aberturas, cliques etc.).
+   * _Relatórios - Conjunto de dados do evento de experiência de rastreamento de push_: logs de interação para o canal de push usado para fins de criação de relatórios e de público-alvo. As informações armazenadas informam as ações executadas pelo usuário final nas notificações por push.
+   * _Relatórios - Evento de etapa da jornada_: Captura todos os eventos de experiência em etapas da jornada gerados no Journey Optimizer para serem consumidos por serviços como Relatórios. Também é essencial para criar relatórios no Customer Journey Analytics para análise YoY. Vinculado a um Metadado de jornada.
+   * _Relatórios - Jornadas_: Informações de hospedagem do conjunto de dados de metadados de cada etapa em uma jornada.
+   * _Relatórios - Cco_: Conjunto de dados de evento de feedback que armazena os logs de entrega para emails CCO. A ser usado para fins de relatório.
 
-**Consentimento**
+* Consentimento
 
-* _Conjunto de dados do serviço de consentimento_: armazena informações de consentimento de um perfil.
+  _Conjunto de dados do serviço de consentimento_: armazena informações de consentimento de um perfil.
 
-**Serviços inteligentes**
+* Serviços inteligentes
 
-* _Pontuações de otimização de tempo de envio/Pontuações de engajamento_: Pontuações de saída da IA de jornada.
+  _Pontuações de otimização de tempo de envio/Pontuações de engajamento_: Pontuações de saída da IA de jornada.
 
-Para exibir a lista completa de campos e atributos para cada esquema, consulte o [Dicionário de esquema do Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}.
-
-## Visualizar conjuntos de dados{#preview-datasets}
-
-Na tela de atividade do Conjunto de dados, selecione **Visualizar conjunto de dados** próximo ao canto superior direito da tela para visualizar o lote bem-sucedido mais recente nesse conjunto de dados. Quando um conjunto de dados está vazio, o link de visualização é desativado.
-
-![](assets/dataset-preview.png)
 
 ## Criar conjuntos de dados{#create-datasets}
 
-Para criar um novo conjunto de dados, comece selecionando **Criar conjunto de dados** no painel Conjuntos de dados .
+Adicionar dados à [!DNL Adobe Experience Platform] é a base para criar um Perfil. Você poderá aproveitar os perfis no [!DNL Adobe Journey Optimizer]. Primeiro, defina esquemas, use ferramentas de ETL para preparar e padronizar seus dados e, em seguida, crie conjuntos de dados com base em seus esquemas.
 
-É possível:
+Você pode criar um conjunto de dados a partir de um esquema ou um arquivo CSV. Informações detalhadas sobre como criar conjuntos de dados estão disponíveis na documentação do [!DNL Adobe Experience Platform]:
 
-* Criar conjunto de dados a partir do esquema. [Saiba mais nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR#schema){target="_blank"}
-* Criar um conjunto de dados a partir de um arquivo CSV. [Saiba mais nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=pt-BR){target="_blank"}
+* [Criar um conjunto de dados com um esquema existente](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [Mapear um arquivo CSV para um esquema XDM existente](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 Veja este vídeo para saber como criar um conjunto de dados, mapeá-lo para um esquema, adicionar dados a ele e confirmar se os dados foram assimilados.
 
@@ -97,17 +91,14 @@ A [!DNL Adobe Experience Platform Data Governance] permite gerenciar os dados do
 
 Saiba mais sobre Governança de dados e rótulos de uso de dados na [Documentação de governança de dados](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=pt-BR){target="_blank"}
 
-## Exemplos e casos de uso{#uc-datasets}
+## Casos de uso e amostra {#samples}
 
-Saiba como criar um esquema, um conjunto de dados e assimilar dados para adicionar perfis de teste no Adobe Journey Optimizer [nesta amostra completa](../audience/creating-test-profiles.md)
-
-Saiba mais sobre a criação de conjuntos de dados na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}.
-
-Saiba como usar a interface de conjuntos de dados na [Documentação de visão geral da ingestão de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
-
-Uma lista de casos de uso com exemplos de consultas está disponível [aqui](../data/datasets-query-examples.md).
+* [Tutorial - Assimilar dados na Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=pt-BR){target="_blank"}
+* [Caso de uso completo](../audience/creating-test-profiles.md) - Criar um esquema, um conjunto de dados e assimilar dados para adicionar perfis de teste em [!DNL Adobe Journey Optimizer]
+* [Exemplos de consulta](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer] conjuntos de dados e casos de uso relacionados.
 
 >[!MORELIKETHIS]
 >
->* [Visão geral da ingestão de transmissão](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR){target="_blank"}
->* [Assimilar dados na Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=pt-BR){target="_blank"}
+>* [Documentação de conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}
+>* [Documentação de assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
+>* [Práticas recomendadas de qualificação de licença de gerenciamento de dados](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
