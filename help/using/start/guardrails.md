@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2929'
-ht-degree: 100%
+source-git-commit: 78cf16d0f62d6cb7fac82b9e8f89e8726e2db896
+workflow-type: tm+mt
+source-wordcount: '3075'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +59,24 @@ As seguintes medidas de proteção se aplicam ao [canal de email](../email/get-
 * Não é possível usar o mesmo domínio de envio para enviar mensagens de email do [!DNL Adobe Journey Optimizer] e de outro produto, como o [!DNL Adobe Campaign] ou o [!DNL Adobe Marketo Engage] por exemplo.
 
 Ao criar mensagens de email, o sistema verifica as principais configurações e exibe alertas de avisos (recomendações e práticas recomendadas) e erros (bloqueando problemas que impedem teste ou ativação). Saiba mais sobre alertas de email e requisitos de validação [nesta seção](../email/create-email.md#check-email-alerts).
+
+#### Tamanho do conteúdo da mensagem para publicação no jornada {#message-content-size}
+
+Ao publicar jornadas que contêm mensagens de email, o tamanho total do conteúdo da mensagem não deve exceder **2 MB** após o processamento do back-end. Durante a publicação, o sistema processa automaticamente o conteúdo da mensagem corrigindo links, imagens e aplicando transformações, o que aumenta o tamanho do payload além do tamanho do conteúdo criado.
+
+>[!CAUTION]
+>
+>Se o conteúdo final da mensagem processada exceder 2 MB, a publicação do jornada falhará. Para evitar falhas de publicação, mantenha o conteúdo da mensagem criada bem abaixo de 2 MB — idealmente abaixo de **1 MB** — para permitir um buffer de 300-400 KB para a sobrecarga do processamento de back-end.
+
+**Práticas recomendadas para evitar falhas de publicação:**
+
+* Manter conteúdo de email criado abaixo de 1 MB
+* Minimizar o número de variantes de conteúdo
+* Otimizar e compactar imagens antes de adicioná-las a mensagens
+* Remover ativos não utilizados e elementos desnecessários do HTML
+* Testar o tamanho da mensagem antes de publicar as jornadas na produção
+
+Se a publicação da jornada falhar devido ao tamanho do conteúdo, reduza o conteúdo da mensagem e publique a jornada novamente.
 
 ### Medidas de proteção de SMS {#sms-guardrails}
 
