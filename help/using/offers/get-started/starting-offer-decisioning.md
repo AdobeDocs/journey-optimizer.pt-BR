@@ -60,7 +60,7 @@ As decisões são containers para suas ofertas que aproveitarão o Mecanismo do 
 
 ## Casos de uso comuns {#common-use-cases}
 
-Os recursos e a integração da Gestão de decisões com a Adobe Experience Platform permitem reunir vários casos de uso para ajudar você a aumentar o envolvimento e a conversão dos clientes.
+Os recursos e a integração da Gestão de decisões com a Adobe Experience Platform permitem reunir vários casos de uso para ajudar você a aumentar o engajamento e a conversão dos clientes.
 
 * Exiba em seu site as ofertas da página inicial que corresponderão ao ponto de interesse do cliente visitante, com base nos dados da Adobe Experience Platform.
 
@@ -118,12 +118,12 @@ Você pode encontrar abaixo a lista dos principais conceitos com os quais trabal
 
 O vídeo abaixo fornece uma introdução aos principais recursos, arquitetura e casos de uso da Gestão de decisões:
 
->[!VIDEO](https://video.tv.adobe.com/v/340418?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definir e gerenciar ofertas {#use-offer-decisioning}
 
 O vídeo abaixo mostra como usar a Gestão de decisões para definir e gerenciar suas ofertas e aproveitar os dados do cliente em tempo real.
 
->[!VIDEO](https://video.tv.adobe.com/v/340355?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

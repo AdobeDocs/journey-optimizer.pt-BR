@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ O [!DNL Adobe Journey Optimizer] é um aplicativo ágil e escalonável para a cr
 
 Os principais recursos incluem:
 
-* **Insights e envolvimentos do cliente em tempo real** — um perfil integrado usa dados ao vivo de todas as fontes nos pontos de contato do cliente, incluindo dados comportamentais, transacionais, financeiros e operacionais para otimizar experiências pessoais e contextuais para os clientes em seu tempo.
+* **Insights e engajamento do cliente em tempo real** — um perfil integrado usa dados ao vivo de todas as fontes nos pontos de contato do cliente, incluindo dados comportamentais, transacionais, financeiros e operacionais para otimizar experiências pessoais e contextuais para os clientes em seu tempo.
 
 * **Orquestração e execução onicanal modernas**: uma única tela para harmonizar e otimizar a jornada do cliente para a :1primeira interação com o cliente e o alcance de marketing, a fim de ajudar as marcas a entregar mais valor em todo o ciclo de vida do cliente. As jornadas do cliente criadas no [!DNL Adobe Journey Optimizer] podem ser dinâmicas e baseadas em eventos para ajudar as marcas a reagir a sinais em tempo real, bem como conectar essas interações com campanhas programadas, para que sejam tomadas as decisões corretas com respeito a quais comunicações devem ser enviadas a um cliente, quando e por quais canais.
 
