@@ -11,9 +11,9 @@ keywords: jornada, caso de uso, dias da semana, condição, email, agendamento
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 46a46fb25c1ef985a0bdea8974aa009e3699c7a3
+source-git-commit: 72f3396bc662e75efd0f82754bfa964baf51ab8e
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1867'
 ht-degree: 0%
 
 ---
@@ -221,79 +221,98 @@ Quando o teste for concluído:
 
 ## Práticas recomendadas e considerações
 
-+++**Otimizar fluxo de trabalho com fórmulas aprimoradas**
+### Otimizar o fluxo de trabalho com fórmulas aprimoradas
 
-Para aprimorar seu fluxo de trabalho e lidar com requisitos comerciais mais complexos, você pode estender as fórmulas para considerar feriados, fusos horários ou horários comerciais específicos além da verificação básica durante a semana. Ajuste o parâmetro de hora (H) na fórmula de Espera para corresponder ao seu tempo de envio ideal; por exemplo, se 10h mostrar melhores taxas de engajamento, altere a fórmula para usar a hora 10. Para suporte a vários fusos horários, considere criar jornadas separadas para diferentes regiões geográficas para garantir o delivery na segunda-feira no fuso horário local de cada recipient.
+Aprimore seu fluxo de trabalho e lide com requisitos de negócios mais complexos:
 
-+++
+* **Horário comercial complexo**: estenda as fórmulas para levar em conta feriados, fusos horários ou horários comerciais específicos além da verificação básica durante a semana.
+* **Tempos de entrega personalizados**: ajuste o parâmetro de hora (H) na fórmula de Espera para corresponder ao seu tempo de envio ideal. Por exemplo, se 10 AM mostrar melhores taxas de engajamento, altere a fórmula para usar a hora 10.
+* **Suporte a fuso horário múltiplo**: crie jornadas separadas para regiões geográficas diferentes para garantir a entrega na segunda-feira no fuso horário local de cada destinatário.
 
-+++**Gerenciamento de fuso horário**
+### Gerenciamento de fuso horário
 
-A função `now()` e a execução da jornada usam o fuso horário configurado no nível da jornada. Verifique se o fuso horário da jornada corresponde às suas necessidades, configurando-o nas propriedades da jornada antes da publicação ([Saiba mais sobre o gerenciamento de fuso horário](timezone-management.md)). Se o público-alvo passar por vários fusos horários, observe que a verificação do dia da semana acontece no fuso horário configurado da jornada, não no fuso horário local do recipient. Para uma entrega específica de fuso horário, crie jornadas separadas para regiões diferentes ou use as configurações de fuso horário na atividade Ler público.
+A função `now()` e a execução da jornada usam o fuso horário configurado no nível da jornada. Considere estes pontos principais:
 
-+++
+* **Fuso horário da Jornada**: certifique-se de que o fuso horário da jornada corresponde às suas necessidades, configurando-o nas propriedades da jornada antes de publicar. [Saiba mais sobre o gerenciamento de fuso horário](timezone-management.md)
+* **Públicos-alvo globais**: se o público-alvo passar por vários fusos horários, a verificação do dia da semana ocorrerá no fuso horário configurado pela jornada, não no fuso horário local do destinatário.
+* **Agendamento localizado**: para entrega específica de fuso horário, crie jornadas separadas para regiões diferentes ou use as configurações de fuso horário na atividade Ler público.
 
-+++**Entrada e tempo de Jornada**
+### Entrada e tempo da jornada
 
-Para jornadas em lote, [agende a Leitura de Público](read-audience.md#schedule) para disparar em um horário que faça sentido para o seu público-alvo. As execuções matinais (por exemplo, às 6:00 AM) são comuns para comunicações comerciais. Para jornadas baseadas em eventos, a condição será avaliada imediatamente quando o evento for recebido, e os perfis que entram nos finais de semana aguardarão automaticamente até segunda-feira ([Saiba mais sobre eventos](../event/about-events.md)). Verifique se as [configurações de tempo limite da jornada](journey-properties.md#timeout) acomodam o período máximo de espera (até 2 dias de sábado a segunda-feira).
+Configure o tempo da jornada com base no tipo de entrada:
 
-+++
+* **Ler jornadas de Público-Alvo**: [Agende o Público-Alvo de Leitura](read-audience.md#schedule) para disparar em um horário que faça sentido para o seu público-alvo. As execuções de manhã cedo (por exemplo, 6:00 AM) são comuns para comunicações comerciais.
+* **jornadas baseadas em eventos**: a condição será avaliada imediatamente quando o evento for recebido. Os perfis que entram nos finais de semana aguardarão automaticamente até segunda-feira. [Saiba mais sobre eventos](../event/about-events.md)
+* **Considerações sobre o tempo limite de espera**: certifique-se de que suas [configurações de tempo limite de jornada](journey-properties.md#timeout) acomodem o período máximo de espera (até 2 dias de sábado a segunda-feira).
 
-+++**Testes são essenciais**
+### Os testes são essenciais
 
-Conforme enfatizado no guia de implementação, sempre teste a lógica da jornada para confirmar se tudo funciona conforme esperado. Use o **Modo de Teste** para simular diferentes cenários de entrada sem enviar emails reais. Teste todos os três caminhos (entradas de sábado, entradas de domingo e entradas de dias da semana), verifique se os cálculos de duração da espera estão corretos, confirme se o delivery de segunda-feira ocorre na hora especificada e verifique a visualização do jornada para garantir o roteamento adequado do caminho.
+Sempre teste a lógica de jornada antes de publicar na produção:
 
-+++
+* Use o **Modo de Teste** para simular diferentes cenários de entrada sem enviar emails reais
+* Teste todos os três caminhos: entradas de sábado, entradas de domingo e entradas de dias da semana
+* Verifique se os cálculos da duração da Espera estão corretos
+* Confirmar entrega na segunda-feira na hora especificada
+* Verifique a visualização de jornada para garantir o roteamento adequado do caminho
 
-+++**Reentrada e frequência**
+[Saiba mais sobre jornadas de teste](testing-the-journey.md)
 
-Para campanhas recorrentes, defina as configurações de **[!UICONTROL Reentrada]** apropriadamente ([Saiba mais sobre configurações de reentrada](entry-management.md)). Se os perfis puderem entrar na jornada novamente, eles estarão sujeitos à verificação do dia da semana toda vez, garantindo que as entradas do fim de semana sejam sempre enfileiradas para segunda-feira. Considere adicionar [regras de limite de frequência](../conflict-prioritization/journey-capping.md) para evitar mensagens excessivas se os perfis puderem entrar novamente com frequência.
+### Reentrada e frequência
 
-+++
+Para campanhas recorrentes, gerencie a reentrada de perfis com cuidado:
+
+* **Configurar reentrada**: Defina as configurações de **[!UICONTROL Reentrada]** adequadamente. [Saiba mais sobre as configurações de reentrada](entry-management.md)
+* **Comportamento consistente**: se os perfis puderem entrar na jornada novamente, eles estarão sujeitos à verificação do dia da semana a cada vez, garantindo que as entradas do fim de semana sejam sempre enfileiradas para a segunda-feira.
+* **Limite de frequência**: considere adicionar [regras de limite de frequência](../conflict-prioritization/journey-capping.md) para evitar mensagens excessivas se os perfis puderem entrar novamente com frequência.
 
 ## Variações avançadas
 
-+++**Direcionamento específico de dia**
+### Direcionamento específico de dia
 
-Para enviar emails somente em dias específicos (por exemplo, terças e quintas-feiras), modifique a condição:
+Para enviar emails somente em dias específicos (por exemplo, terças e quintas):
 
-```javascript
-dayOfWeek(now()) == 3 or dayOfWeek(now()) == 5
-```
+1. **Modifique a condição** para verificar se há dias específicos:
 
-Para todos os outros dias, adicione uma atividade Wait que calcula o número de dias até a próxima terça ou quinta-feira.
+   ```javascript
+   dayOfWeek(now()) == 3 or dayOfWeek(now()) == 5
+   ```
 
-+++
+2. **Adicionar atividades de espera** para todos os outros dias que calculam o número de dias até a próxima terça ou quinta-feira.
 
-+++**Diferentes horários de envio para dias diferentes**
+### Horários de envio diferentes para dias diferentes
 
-Você pode criar vários caminhos com diferentes fórmulas de espera para diferentes comportamentos de fim de semana. Por exemplo, use `nowWithDelta(4, "days")` para entrega de sábado a quarta-feira ou `nowWithDelta(2, "days")` para entrega de domingo a terça-feira. Isso permite mais flexibilidade na programação de envio.
+Crie vários caminhos com diferentes fórmulas de Espera para uma programação flexível:
 
-+++
+* **Sábado → Entrega na quarta-feira**: Use `nowWithDelta(4, "days")`
+* **Domingo → Entrega na terça-feira**: Use `nowWithDelta(2, "days")`
 
-+++**Entrega no horário comercial**
+Essa abordagem permite personalizar os dias de entrega com base nas necessidades da empresa.
 
-Para garantir a entrega durante o horário comercial, ajuste o parâmetro de hora na fórmula de Espera. Por exemplo, para uma entrega às 14h em vez de às 9h:
+### Entrega em horário comercial
 
-```javascript
-setHours(nowWithDelta(1, "days"), 14)
-```
+Para garantir a entrega durante o horário comercial:
 
-Você também pode adicionar uma segunda condição após a espera para verificar se o horário atual está dentro do horário comercial antes do envio.
+1. **Ajuste o parâmetro de hora** na fórmula de Espera. Por exemplo, para uma entrega às 14h em vez de às 9h:
 
-+++
+   ```javascript
+   setHours(nowWithDelta(1, "days"), 14)
+   ```
 
-+++**Exclusão de feriado**
+2. **Adicionar uma verificação de tempo** (opcional): adicione uma segunda condição após Aguardar para verificar se a hora atual está dentro do horário comercial antes de enviar.
 
-Para excluir feriados, adicione um caminho de condição adicional que verifique datas específicas:
+### Exclusão de feriado
 
-```javascript
-toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
-```
+Para excluir feriados do envio de email:
 
-Se a condição corresponder a um feriado, adicione uma atividade Aguardar para atrasar até o próximo dia útil. [Saiba mais sobre as funções de comparação de datas](functions/date-functions.md)
+1. **Adicione um caminho de condição** para verificar datas de feriado específicas:
 
-+++
+   ```javascript
+   toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
+   ```
+
+2. **Adicione uma atividade Wait** se a condição corresponder a um feriado, para atrasar até o próximo dia útil.
+
+[Saiba mais sobre funções de comparação de datas](functions/date-functions.md)
 
 ## Tópicos relacionados
 
@@ -310,12 +329,12 @@ Se a condição corresponder a um feriado, adicione uma atividade Aguardar para 
 
 Saiba como enviar emails somente em dias da semana usando o Adobe Journey Optimizer. Este vídeo demonstra a implementação passo a passo de atividades de condição e fórmulas de Espera para enfileirar entradas de fim de semana para entrega na segunda-feira.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469385?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Recursos adicionais
 
 * [Documentação do editor de expressões](expression/expressionadvanced.md) - Compilar e validar expressões de jornada
 * [guia do designer de Jornadas](using-the-journey-designer.md) - Domine a tela de jornada
 * [Visão geral dos casos de uso do Jornada](jo-use-cases.md) - Explore mais padrões e exemplos de jornada
-* [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=pt){target="_blank"} - Publicação do blog original com exemplos detalhados
+* [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Publicação do blog original com exemplos detalhados
 
