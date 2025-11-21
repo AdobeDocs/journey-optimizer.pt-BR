@@ -348,5 +348,5 @@ Saiba como enviar emails somente em dias da semana usando o Adobe Journey Optimi
 * [Documentação do editor de expressões](expression/expressionadvanced.md) - Compilar e validar expressões de jornada
 * [guia do designer de Jornadas](using-the-journey-designer.md) - Domine a tela de jornada
 * [Visão geral dos casos de uso do Jornada](jo-use-cases.md) - Explore mais padrões e exemplos de jornada
-* [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Publicação do blog original com exemplos detalhados
+* [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=pt){target="_blank"} - Publicação do blog original com exemplos detalhados
 
