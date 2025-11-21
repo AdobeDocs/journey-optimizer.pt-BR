@@ -11,9 +11,9 @@ keywords: jornada, caso de uso, dias da semana, condição, email, agendamento
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 4b7d406e39328571a157b2d4c7b17f2adba77cdf
+source-git-commit: f8b594a14a1f89f77aa560a4de2b99189046af4f
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1849'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,9 @@ Logo após o início da jornada, adicione uma atividade **[!UICONTROL Condição
 
 1. Na seção **[!UICONTROL Tipo de condição]**, selecione **[!UICONTROL Condição de Source de Dados]**. [Saiba mais sobre tipos de condição](condition-activity.md#data_source_condition)
 
+   ![Configurando a condição Saturday no editor de expressão](assets/weekday-email-uc-condition-expression.png)
+
+
 ### Etapa 3: configure a condição para identificar o sábado
 
 Crie o primeiro caminho de condição para identificar entradas de sábado.
@@ -81,7 +84,6 @@ Crie o primeiro caminho de condição para identificar entradas de sábado.
 
    Isto usa a função `dayOfWeek()` com `now()` para obter o dia atual. [Saiba mais sobre funções de data](functions/date-functions.md)
 
-   ![Configurando a condição Saturday no editor de expressão](assets/weekday-email-uc-condition-expression.png)
 
 1. Clique em **[!UICONTROL Ok]** para salvar a condição.
 
@@ -103,17 +105,6 @@ Crie o primeiro caminho de condição para identificar entradas de sábado.
 
 1. Marque **[!UICONTROL Mostrar caminho para casos diferentes dos mencionados acima]** para criar um caminho para entradas durante a semana (de segunda a sexta).
 
-**Valores de dias da semana:**
-
-| Valor | Day |
-|-------|-----|
-| 1 | Domingo |
-| 2 | Segunda-feira |
-| 3 | Terça-feira |
-| 4 | Quarta-feira |
-| 5 | Quinta-feira |
-| 6 | Sexta-feira |
-| 7 | Sábado |
 
 >[!NOTE]
 >
@@ -123,7 +114,6 @@ Crie o primeiro caminho de condição para identificar entradas de sábado.
 
 Para perfis que entram no sábado ou domingo, use as atividades Aguardar com fórmulas personalizadas para atrasar o email até segunda-feira na hora desejada.
 
-![Jornada com três caminhos de condição - Sábado, Domingo e Dias da Semana](assets/weekday-email-uc-paths.png)
 
 **Para o caminho de sábado:**
 
@@ -144,6 +134,8 @@ Para perfis que entram no sábado ou domingo, use as atividades Aguardar com fó
    ```javascript
    setHours(nowWithDelta(2, "days"), 9)
    ```
+
+   ![Jornada com três caminhos de condição - Sábado, Domingo e Dias da Semana](assets/weekday-email-uc-paths.png)
 
    **Explicação**: esta fórmula calcula o tempo de espera de sábado a segunda-feira às 9h. O valor X=2 representa 2 dias à frente (sábado + 2 dias = segunda-feira). [Saiba mais sobre funções de data](functions/date-functions.md#nowWithDelta)
 
@@ -316,7 +308,7 @@ Se a condição corresponder a um feriado, adicione uma atividade Aguardar para 
 
 Saiba como enviar emails somente em dias da semana usando o Adobe Journey Optimizer. Este vídeo demonstra a implementação passo a passo de atividades de condição e fórmulas de Espera para enfileirar entradas de fim de semana para entrega na segunda-feira.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469385?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Recursos adicionais
 
@@ -325,5 +317,5 @@ Saiba como enviar emails somente em dias da semana usando o Adobe Journey Optimi
 | [Documentação do editor de expressão](expression/expressionadvanced.md) | Criar e validar expressões de jornada |
 | [guia do designer do Jornada](using-the-journey-designer.md) | Domine a tela de jornada |
 | [visão geral dos casos de uso do Jornada](jo-use-cases.md) | Explore mais padrões e exemplos de jornada |
-| [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=pt){target="_blank"} | Publicação original do blog com exemplos detalhados |
+| [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} | Publicação original do blog com exemplos detalhados |
 
