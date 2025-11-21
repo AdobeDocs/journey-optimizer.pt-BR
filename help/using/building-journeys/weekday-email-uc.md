@@ -11,10 +11,10 @@ keywords: jornada, caso de uso, dias da semana, condição, email, agendamento
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: e9e215bfb2de955b27e6bc2395df4975d86b17f0
+source-git-commit: 4b7d406e39328571a157b2d4c7b17f2adba77cdf
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 0%
+source-wordcount: '1869'
+ht-degree: 1%
 
 ---
 
@@ -28,31 +28,15 @@ Esse caso de uso demonstra como configurar uma jornada no Adobe Journey Optimize
 
 **A Solução**: use uma atividade de condição para identificar o dia da semana. Para entradas no fim de semana, Aguarde as atividades com fórmulas personalizadas atrasarem o email até segunda-feira. As entradas de dias da semana prosseguem diretamente para a etapa de envio de email.
 
-Essa abordagem mostra como:
+Essa abordagem mostra como usar uma atividade de condição para verificar se o dia atual é sábado ou domingo, implementar atividades de espera com fórmulas personalizadas para entradas de fim de semana, enfileirar emails de fim de semana para entrega de segunda-feira em uma hora específica e enviar emails imediatamente para entradas de dias da semana (segunda-feira a sexta-feira).
 
-* Use uma atividade de condição para verificar se o dia atual é sábado ou domingo
-* Implementar atividades de espera com fórmulas personalizadas para entradas de fim de semana
-* Enfileirar emails do fim de semana para entrega na segunda-feira em uma hora específica
-* Enviar emails imediatamente para entradas durante a semana (de segunda a sexta-feira)
-
-Essa abordagem é ideal para:
-
-* Campanhas de email B2B (Business-to-business)
-* Boletins informativos e comunicações profissionais
-* Anúncios relacionados aos negócios
-* Atualizações de produto relacionadas ao trabalho
-* Qualquer campanha de marketing em que a entrega no fim de semana não seja desejada
+Essa abordagem é ideal para campanhas de email B2B (B2B), informativos e comunicações profissionais, anúncios relacionados a negócios, atualizações de produtos relacionadas ao trabalho e qualquer campanha de marketing em que a entrega no fim de semana não seja desejada.
 
 Assista ao [tutorial em vídeo](#how-to-video) passo a passo na parte inferior desta página para ver a implementação completa.
 
 ## Pré-requisitos
 
-Para implementar esse caso de uso, é necessário:
-
-* Uma instância ativa do Adobe Journey Optimizer
-* Uma [superfície de canal de email](../configuration/channel-surfaces.md) configurada
-* Um [público-alvo](../audience/about-audiences.md) ou [evento](../event/about-events.md) para acionar a jornada
-* Compreensão básica de [condições de jornada](condition-activity.md) e [expressões](expression/expressionadvanced.md)
+Para implementar este caso de uso, você precisa de uma instância ativa do Adobe Journey Optimizer com uma [superfície de canal de email](../configuration/channel-surfaces.md) configurada, um [público-alvo](../audience/about-audiences.md) ou [evento](../event/about-events.md) para acionar a jornada e uma compreensão básica das [condições de jornada](condition-activity.md) e [expressões](expression/expressionadvanced.md).
 
 ## Etapas de implementação
 
@@ -119,20 +103,23 @@ Crie o primeiro caminho de condição para identificar entradas de sábado.
 
 1. Marque **[!UICONTROL Mostrar caminho para casos diferentes dos mencionados acima]** para criar um caminho para entradas durante a semana (de segunda a sexta).
 
-   **Valores de dias da semana:**
-   * 1 = Domingo
-   * 2 = Segunda-feira
-   * 3 = Terça-feira
-   * 4 = Quarta-feira
-   * 5 = Quinta-feira
-   * 6 = sexta-feira
-   * 7 = Sábado
+**Valores de dias da semana:**
+
+| Valor | Day |
+|-------|-----|
+| 1 | Domingo |
+| 2 | Segunda-feira |
+| 3 | Terça-feira |
+| 4 | Quarta-feira |
+| 5 | Quinta-feira |
+| 6 | Sexta-feira |
+| 7 | Sábado |
 
 >[!NOTE]
 >
 >A função `dayOfWeek()` retorna um número inteiro que representa o dia da semana, em que 1 é domingo e 7 é sábado. Isso segue o padrão ISO-8601 para numeração de dias.
 
-### Etapa 4: configurar atividades de espera para entradas do fim de semana
+### Etapa 5: configurar atividades de espera para entradas do fim de semana
 
 Para perfis que entram no sábado ou domingo, use as atividades Aguardar com fórmulas personalizadas para atrasar o email até segunda-feira na hora desejada.
 
@@ -180,7 +167,7 @@ Para perfis que entram no sábado ou domingo, use as atividades Aguardar com fó
 >
 >Você pode personalizar o parâmetro de hora (H) a qualquer momento em que desejar que o email seja enviado na segunda-feira. Por exemplo, altere de 9 para 10 para 10 AM ou para 14 para 2 PM.
 
-### Etapa 5: configurar o caminho do dia da semana
+### Etapa 6: configurar o caminho do dia da semana
 
 Para o **caminho do dia da semana** (de segunda a sexta-feira):
 
@@ -193,7 +180,7 @@ Para o **caminho do dia da semana** (de segunda a sexta-feira):
 
 1. Adicione uma atividade **[!UICONTROL End]** após o email.
 
-### Etapa 6: mesclar caminhos de fim de semana ao email
+### Etapa 7: mesclar caminhos de fim de semana ao email
 
 Após as atividades Wait nos caminhos sábado e domingo, mescle-as à mesma atividade Email action:
 
@@ -203,8 +190,7 @@ Após as atividades Wait nos caminhos sábado e domingo, mescle-as à mesma ativ
 
 1. O caminho do dia da semana também deve fluir para esta ação Email.
 
-
-### Etapa 7: testar a jornada
+### Etapa 8: testar a jornada
 
 Antes de publicar, teste completamente sua lógica de jornada no modo de teste do Adobe Journey Optimizer para confirmar se tudo funciona conforme o esperado:
 
@@ -227,7 +213,7 @@ Antes de publicar, teste completamente sua lógica de jornada no modo de teste d
 >
 >Sempre teste a lógica de jornada completamente antes de publicar na produção. Use o Modo de teste para simular diferentes cenários de entrada e validar se as entradas do fim de semana estão corretamente enfileiradas para entrega na segunda-feira. [Saiba mais sobre as práticas recomendadas de teste do jornada](testing-the-journey.md)
 
-### Etapa 8: publicar sua jornada
+### Etapa 9: publicar sua jornada
 
 Quando o teste for concluído:
 
@@ -239,55 +225,39 @@ Quando o teste for concluído:
 
 ## Práticas recomendadas e considerações
 
-### Otimizar o fluxo de trabalho com fórmulas aprimoradas
++++**Otimizar fluxo de trabalho com fórmulas aprimoradas**
 
-Para aprimorar o fluxo de trabalho e lidar com requisitos comerciais mais complexos:
+Para aprimorar seu fluxo de trabalho e lidar com requisitos comerciais mais complexos, você pode estender as fórmulas para considerar feriados, fusos horários ou horários comerciais específicos além da verificação básica durante a semana. Ajuste o parâmetro de hora (H) na fórmula de Espera para corresponder ao seu tempo de envio ideal; por exemplo, se 10h mostrar melhores taxas de engajamento, altere a fórmula para usar a hora 10. Para suporte a vários fusos horários, considere criar jornadas separadas para diferentes regiões geográficas para garantir o delivery na segunda-feira no fuso horário local de cada recipient.
 
-* **Horário comercial complexo**: estenda as fórmulas para levar em conta feriados, fusos horários ou horários comerciais específicos além da verificação básica durante a semana.
++++
 
-* **Tempos de entrega personalizados**: ajuste o parâmetro de hora (H) na fórmula de Espera para corresponder ao seu tempo de envio ideal. Por exemplo, se 10 AM mostrar melhores taxas de engajamento, altere a fórmula para usar a hora 10.
++++**Gerenciamento de fuso horário**
 
-* **Suporte a fuso horário múltiplo**: considere criar jornadas separadas para regiões geográficas diferentes para garantir a entrega na segunda-feira no fuso horário local de cada destinatário.
+A função `now()` e a execução da jornada usam o fuso horário configurado no nível da jornada. Verifique se o fuso horário da jornada corresponde às suas necessidades, configurando-o nas propriedades da jornada antes da publicação ([Saiba mais sobre o gerenciamento de fuso horário](timezone-management.md)). Se o público-alvo passar por vários fusos horários, observe que a verificação do dia da semana acontece no fuso horário configurado da jornada, não no fuso horário local do recipient. Para uma entrega específica de fuso horário, crie jornadas separadas para regiões diferentes ou use as configurações de fuso horário na atividade Ler público.
 
-### Gerenciamento de fuso horário
++++
 
-A função `now()` e a execução da jornada usam o fuso horário configurado no nível da jornada. Considere o seguinte:
++++**Entrada e tempo de Jornada**
 
-* **Fuso horário da Jornada**: certifique-se de que o fuso horário da jornada corresponde às suas necessidades. Configure isso nas propriedades do jornada antes de publicar. [Saiba mais sobre o gerenciamento de fuso horário](timezone-management.md).
+Para jornadas em lote, [agende a Leitura de Público](read-audience.md#schedule) para disparar em um horário que faça sentido para o seu público-alvo. As execuções matinais (por exemplo, às 6:00 AM) são comuns para comunicações comerciais. Para jornadas baseadas em eventos, a condição será avaliada imediatamente quando o evento for recebido, e os perfis que entram nos finais de semana aguardarão automaticamente até segunda-feira ([Saiba mais sobre eventos](../event/about-events.md)). Verifique se as [configurações de tempo limite da jornada](journey-properties.md#timeout) acomodam o período máximo de espera (até 2 dias de sábado a segunda-feira).
 
-* **Públicos-alvo globais**: se o público-alvo passar por vários fusos horários, a verificação do dia da semana ocorrerá no fuso horário configurado pela jornada, não no fuso horário local do destinatário.
++++
 
-* **Agendamento localizado**: para entrega específica de fuso horário, crie jornadas separadas para regiões diferentes ou use as configurações de fuso horário na atividade Ler público.
++++**Testes são essenciais**
 
-### Entrada e tempo da jornada
+Conforme enfatizado no guia de implementação, sempre teste a lógica da jornada para confirmar se tudo funciona conforme esperado. Use o **Modo de Teste** para simular diferentes cenários de entrada sem enviar emails reais. Teste todos os três caminhos (entradas de sábado, entradas de domingo e entradas de dias da semana), verifique se os cálculos de duração da espera estão corretos, confirme se o delivery de segunda-feira ocorre na hora especificada e verifique a visualização do jornada para garantir o roteamento adequado do caminho.
 
-* **Ler jornadas de Público-Alvo**: para jornadas em lote, [agende a Leitura de Público-Alvo](read-audience.md#schedule) para disparar em um horário que faça sentido para o seu público-alvo. As execuções de manhã cedo (por exemplo, 6:00 AM) são comuns para comunicações comerciais.
++++
 
-* **jornadas baseadas em eventos**: a condição será avaliada imediatamente quando o evento for recebido. Os perfis que entram nos finais de semana aguardarão automaticamente até segunda-feira. [Saiba mais sobre eventos](../event/about-events.md)
++++**Reentrada e frequência**
 
-* **Considerações sobre o tempo limite de espera**: certifique-se de que suas [configurações de tempo limite de jornada](journey-properties.md#timeout) acomodem o período máximo de espera (até 2 dias de sábado a segunda-feira).
+Para campanhas recorrentes, defina as configurações de **[!UICONTROL Reentrada]** apropriadamente ([Saiba mais sobre configurações de reentrada](entry-management.md)). Se os perfis puderem entrar na jornada novamente, eles estarão sujeitos à verificação do dia da semana toda vez, garantindo que as entradas do fim de semana sejam sempre enfileiradas para segunda-feira. Considere adicionar [regras de limite de frequência](../conflict-prioritization/journey-capping.md) para evitar mensagens excessivas se os perfis puderem entrar novamente com frequência.
 
-### Os testes são essenciais
-
-Conforme enfatizado no guia de implementação, sempre teste a lógica da jornada para confirmar se tudo funciona conforme o esperado:
-
-* Use o **Modo de Teste** para simular diferentes cenários de entrada sem enviar emails reais
-* Teste todos os três caminhos: entradas de sábado, entradas de domingo e entradas de dias da semana
-* Verifique se os cálculos da duração da Espera estão corretos
-* Confirmar entrega na segunda-feira na hora especificada
-* Verifique a visualização de jornada para garantir o roteamento adequado do caminho
-
-### Reentrada e frequência
-
-* Para campanhas recorrentes, defina as configurações de **[!UICONTROL Reentrada]** adequadamente. [Saiba mais sobre as configurações de reentrada](entry-management.md)
-
-* Se os perfis puderem entrar na jornada novamente, eles estarão sujeitos à verificação do dia da semana toda vez, garantindo que as entradas do fim de semana sejam sempre enfileiradas para segunda-feira.
-
-* Considere adicionar [regras de limite de frequência](../conflict-prioritization/journey-capping.md) para evitar mensagens excessivas se os perfis puderem entrar novamente com frequência.
++++
 
 ## Variações avançadas
 
-### Direcionamento específico de dia
++++**Direcionamento específico de dia**
 
 Para enviar emails somente em dias específicos (por exemplo, terças e quintas-feiras), modifique a condição:
 
@@ -297,16 +267,15 @@ dayOfWeek(now()) == 3 or dayOfWeek(now()) == 5
 
 Para todos os outros dias, adicione uma atividade Wait que calcula o número de dias até a próxima terça ou quinta-feira.
 
-### Horários de envio diferentes para dias diferentes
++++
 
-Você pode criar vários caminhos com diferentes fórmulas de espera para diferentes comportamentos de fim de semana:
++++**Diferentes horários de envio para dias diferentes**
 
-* **Sábado → Entrega na quarta-feira**: Use `nowWithDelta(4, "days")`
-* **Domingo → Entrega na terça-feira**: Use `nowWithDelta(2, "days")`
+Você pode criar vários caminhos com diferentes fórmulas de espera para diferentes comportamentos de fim de semana. Por exemplo, use `nowWithDelta(4, "days")` para entrega de sábado a quarta-feira ou `nowWithDelta(2, "days")` para entrega de domingo a terça-feira. Isso permite mais flexibilidade na programação de envio.
 
-Isso permite mais flexibilidade na programação de envio.
++++
 
-### Entrega em horário comercial
++++**Entrega no horário comercial**
 
 Para garantir a entrega durante o horário comercial, ajuste o parâmetro de hora na fórmula de Espera. Por exemplo, para uma entrega às 14h em vez de às 9h:
 
@@ -316,7 +285,9 @@ setHours(nowWithDelta(1, "days"), 14)
 
 Você também pode adicionar uma segunda condição após a espera para verificar se o horário atual está dentro do horário comercial antes do envio.
 
-### Exclusão de feriado
++++
+
++++**Exclusão de feriado**
 
 Para excluir feriados, adicione um caminho de condição adicional que verifique datas específicas:
 
@@ -326,27 +297,33 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 Se a condição corresponder a um feriado, adicione uma atividade Aguardar para atrasar até o próximo dia útil. [Saiba mais sobre as funções de comparação de datas](functions/date-functions.md)
 
++++
+
 ## Tópicos relacionados
 
-* [Sobre as atividades de Condição](condition-activity.md) - Saiba como criar caminhos diferentes na jornada
-* [Usar condições em uma jornada](conditions.md) - Guia detalhado sobre condições de jornada
-* [Atividade de espera](wait-activity.md) - Configurar durações e fórmulas de espera
-* [Funções de data](functions/date-functions.md) - Referência completa para funções de data e hora
-* [Editor de expressão](expression/expressionadvanced.md) - Criar expressões complexas
-* [Testar sua jornada](testing-the-journey.md) - Valide a lógica de jornada antes de publicar
-* [Gerenciamento de fuso horário](timezone-management.md) - Lidar com fusos horários diferentes no jornada
-* [Práticas recomendadas do Jornada](journey-gs.md#best-practices) - Abordagens recomendadas para o design do jornada
+| Tópico | Descrição |
+|-------|-------------|
+| [Sobre as atividades de Condição](condition-activity.md) | Saiba como criar caminhos diferentes na jornada |
+| [Usar condições em uma jornada](conditions.md) | Guia detalhado sobre as condições de jornada |
+| [Atividade de espera](wait-activity.md) | Configurar fórmulas e durações de espera |
+| [Funções de data](functions/date-functions.md) | Referência completa para funções de data e hora |
+| [Editor de expressão](expression/expressionadvanced.md) | Criar expressões complexas |
+| [Testar sua jornada](testing-the-journey.md) | Validar a lógica de jornada antes de publicar |
+| [Gerenciamento de fuso horário](timezone-management.md) | Lidar com fusos horários diferentes no jornada |
+| [práticas recomendadas do Jornada](journey-gs.md#best-practices) | Abordagens recomendadas para o design da jornada |
 
 ## Vídeo tutorial
 
 Saiba como enviar emails somente em dias da semana usando o Adobe Journey Optimizer. Este vídeo demonstra a implementação passo a passo de atividades de condição e fórmulas de Espera para enfileirar entradas de fim de semana para entrega na segunda-feira.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469385?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Recursos adicionais
 
-* [Documentação do editor de expressões](expression/expressionadvanced.md) - Compilar e validar expressões de jornada
-* [guia do designer de Jornadas](using-the-journey-designer.md) - Domine a tela de jornada
-* [Visão geral dos casos de uso do Jornada](jo-use-cases.md) - Explore mais padrões e exemplos de jornada
-* [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=pt){target="_blank"} - Publicação do blog original com exemplos detalhados
+| Recurso | Descrição |
+|----------|-------------|
+| [Documentação do editor de expressão](expression/expressionadvanced.md) | Criar e validar expressões de jornada |
+| [guia do designer do Jornada](using-the-journey-designer.md) | Domine a tela de jornada |
+| [visão geral dos casos de uso do Jornada](jo-use-cases.md) | Explore mais padrões e exemplos de jornada |
+| [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} | Publicação original do blog com exemplos detalhados |
 
