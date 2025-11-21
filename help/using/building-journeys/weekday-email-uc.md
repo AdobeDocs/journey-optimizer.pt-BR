@@ -11,10 +11,10 @@ keywords: jornada, caso de uso, dias da semana, condição, email, agendamento
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f8b594a14a1f89f77aa560a4de2b99189046af4f
+source-git-commit: 46a46fb25c1ef985a0bdea8974aa009e3699c7a3
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 1%
+source-wordcount: '1833'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +32,15 @@ Essa abordagem mostra como usar uma atividade de condição para verificar se o 
 
 Essa abordagem é ideal para campanhas de email B2B (B2B), informativos e comunicações profissionais, anúncios relacionados a negócios, atualizações de produtos relacionadas ao trabalho e qualquer campanha de marketing em que a entrega no fim de semana não seja desejada.
 
-Assista ao [tutorial em vídeo](#how-to-video) passo a passo na parte inferior desta página para ver a implementação completa.
+➡️ Assista passo a passo ao [tutorial em vídeo](#how-to-video)
 
-## Pré-requisitos
+>[!NOTE]
+>
+>Para implementar este caso de uso, você precisa de uma instância ativa do Adobe Journey Optimizer com uma [superfície de canal de email](../configuration/channel-surfaces.md) configurada, um [público-alvo](../audience/about-audiences.md) ou [evento](../event/about-events.md) para acionar a jornada e uma compreensão básica das [condições de jornada](condition-activity.md) e [expressões](expression/expressionadvanced.md).
 
-Para implementar este caso de uso, você precisa de uma instância ativa do Adobe Journey Optimizer com uma [superfície de canal de email](../configuration/channel-surfaces.md) configurada, um [público-alvo](../audience/about-audiences.md) ou [evento](../event/about-events.md) para acionar a jornada e uma compreensão básica das [condições de jornada](condition-activity.md) e [expressões](expression/expressionadvanced.md).
+
+
+
 
 ## Etapas de implementação
 
@@ -293,29 +297,25 @@ Se a condição corresponder a um feriado, adicione uma atividade Aguardar para 
 
 ## Tópicos relacionados
 
-| Tópico | Descrição |
-|-------|-------------|
-| [Sobre as atividades de Condição](condition-activity.md) | Saiba como criar caminhos diferentes na jornada |
-| [Usar condições em uma jornada](conditions.md) | Guia detalhado sobre as condições de jornada |
-| [Atividade de espera](wait-activity.md) | Configurar fórmulas e durações de espera |
-| [Funções de data](functions/date-functions.md) | Referência completa para funções de data e hora |
-| [Editor de expressão](expression/expressionadvanced.md) | Criar expressões complexas |
-| [Testar sua jornada](testing-the-journey.md) | Validar a lógica de jornada antes de publicar |
-| [Gerenciamento de fuso horário](timezone-management.md) | Lidar com fusos horários diferentes no jornada |
-| [práticas recomendadas do Jornada](journey-gs.md#best-practices) | Abordagens recomendadas para o design da jornada |
+* [Sobre as atividades de Condição](condition-activity.md) - Saiba como criar caminhos diferentes na jornada
+* [Usar condições em uma jornada](conditions.md) - Guia detalhado sobre condições de jornada
+* [Atividade de espera](wait-activity.md) - Configurar durações e fórmulas de espera
+* [Funções de data](functions/date-functions.md) - Referência completa para funções de data e hora
+* [Editor de expressão](expression/expressionadvanced.md) - Criar expressões complexas
+* [Testar sua jornada](testing-the-journey.md) - Valide a lógica de jornada antes de publicar
+* [Gerenciamento de fuso horário](timezone-management.md) - Lidar com fusos horários diferentes no jornada
+* [Práticas recomendadas do Jornada](journey-gs.md#best-practices) - Abordagens recomendadas para o design do jornada
 
 ## Vídeo tutorial
 
 Saiba como enviar emails somente em dias da semana usando o Adobe Journey Optimizer. Este vídeo demonstra a implementação passo a passo de atividades de condição e fórmulas de Espera para enfileirar entradas de fim de semana para entrega na segunda-feira.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469385?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Recursos adicionais
 
-| Recurso | Descrição |
-|----------|-------------|
-| [Documentação do editor de expressão](expression/expressionadvanced.md) | Criar e validar expressões de jornada |
-| [guia do designer do Jornada](using-the-journey-designer.md) | Domine a tela de jornada |
-| [visão geral dos casos de uso do Jornada](jo-use-cases.md) | Explore mais padrões e exemplos de jornada |
-| [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=pt){target="_blank"} | Publicação original do blog com exemplos detalhados |
+* [Documentação do editor de expressões](expression/expressionadvanced.md) - Compilar e validar expressões de jornada
+* [guia do designer de Jornadas](using-the-journey-designer.md) - Domine a tela de jornada
+* [Visão geral dos casos de uso do Jornada](jo-use-cases.md) - Explore mais padrões e exemplos de jornada
+* [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Publicação do blog original com exemplos detalhados
 
