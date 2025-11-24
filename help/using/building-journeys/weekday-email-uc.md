@@ -193,5 +193,5 @@ Quando o teste for concluído:
 * [Funções de data](functions/date-functions.md) - Referência completa para funções de data e hora
 * [Editor de expressão](expression/expressionadvanced.md) - Criar expressões complexas
 * [Práticas recomendadas do Jornada](journey-gs.md#best-practices) - Abordagens recomendadas para o design do jornada
-* [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Publicação do blog original com exemplos detalhados
+* [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=pt){target="_blank"} - Publicação do blog original com exemplos detalhados
 
