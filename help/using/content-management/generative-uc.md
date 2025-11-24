@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
+source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 Depois de definir seu conteúdo, público-alvo e programação, você estará pronto para preparar sua campanha de email. [Saiba mais](../campaigns/review-activate-campaign.md)
 
-## Refinar variação
+## Refinar variação {#refine}
 
 ![Demonstração animada de refinamento de variações de conteúdo geradas por IA usando as opções Rephrase e Summarize](assets/do-not-localize/gen-ai-variation.gif)
 
