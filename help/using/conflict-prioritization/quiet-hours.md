@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: mensagem, frequência, regras, pressão
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 7%
+source-wordcount: '905'
+ht-degree: 4%
 
 ---
 
@@ -34,7 +34,7 @@ Ao simplificar esses processos, você pode aprimorar a experiência do cliente, 
 
 >[!AVAILABILITY]
 >
->As regras do período de silêncio estão disponíveis atualmente apenas para algumas organizações (disponibilidade limitada). Para a adição na lista de espera, entre em contato com o representante da Adobe.
+>Atualmente, as regras de horário de silêncio estão disponíveis apenas para um conjunto de organizações (Disponibilidade limitada).  Eles estarão progressivamente disponíveis para todos os clientes em versões futuras.
 
 
 ➡️ [Conheça este recurso no vídeo](#video)
@@ -187,4 +187,4 @@ Depois que sua jornada ou campanhas forem ativadas e executadas, você poderá e
 
 Saiba como usar o recurso de horários de silêncio no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475857?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
