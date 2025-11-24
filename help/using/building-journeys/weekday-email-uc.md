@@ -11,9 +11,9 @@ keywords: jornada, caso de uso, dias da semana, condição, email, agendamento
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
+source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Essa abordagem é ideal para campanhas de email B2B (B2B), informativos e comuni
 
 Logo após o início da jornada, adicione uma atividade **[!UICONTROL Condição]** para verificar se o dia atual é sábado ou domingo. Isso ramificará o fluxo de trabalho de acordo.
 
-1. Arraste e solte uma atividade [**[!UICONTROL Condição &#x200B;]**](condition-activity.md) na tela após o ponto de entrada.
+1. Arraste e solte uma atividade [**[!UICONTROL Condição ]**](condition-activity.md) na tela após o ponto de entrada.
 
 1. Clique na atividade **[!UICONTROL Condição]** para abrir seu painel de configuração.
 
@@ -185,9 +185,9 @@ Quando o teste for concluído:
 
 ## Tópicos relacionados
 
-* Saiba como criar caminhos diferentes em sua jornada com [atividades de condição](condition-activity.md)
-* Guia detalhado sobre [uso das condições em uma jornada](conditions.md)
-* Configurar durações e fórmulas de espera com a [Atividade de espera](wait-activity.md)
-* Referência completa para [funções de data](functions/date-functions.md)
-* Criar expressões complexas com o [Editor de expressão](expression/expressionadvanced.md)
-* Abordagens recomendadas para [design e práticas recomendadas do jornada](journey-gs.md#best-practices)
+* [Atividades de condição](condition-activity.md) - Saiba como criar caminhos diferentes em sua jornada
+* [Usar condições em uma jornada](conditions.md) - Guia detalhado sobre condições de jornada
+* [Atividade de espera](wait-activity.md) - Configurar durações e fórmulas de espera
+* [Funções de data](functions/date-functions.md) - Referência completa para funções de data e hora
+* [Editor de expressão](expression/expressionadvanced.md) - Criar expressões complexas
+* [Práticas recomendadas do Jornada](journey-gs.md#best-practices) - Abordagens recomendadas para o design do jornada
