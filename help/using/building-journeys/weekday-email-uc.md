@@ -11,9 +11,9 @@ keywords: jornada, caso de uso, dias da semana, condição, email, agendamento
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: ad902c1055ea2e883c028172297aab878a898b94
+source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Esse caso de uso demonstra como configurar uma jornada no Adobe Journey Optimize
 Essa abordagem mostra como usar uma atividade de condição para verificar se o dia atual é sábado ou domingo, implementar atividades de espera com fórmulas personalizadas para entradas de fim de semana, enfileirar emails de fim de semana para entrega de segunda-feira em uma hora específica e enviar emails imediatamente para entradas de dias da semana (segunda-feira a sexta-feira).
 
 Essa abordagem é ideal para campanhas de email B2B (B2B), informativos e comunicações profissionais, anúncios relacionados a negócios, atualizações de produtos relacionadas ao trabalho e qualquer campanha de marketing em que a entrega no fim de semana não seja desejada.
-
-➡️ Assista passo a passo ao [tutorial em vídeo](#how-to-video)
 
 >[!NOTE]
 >
@@ -55,21 +53,21 @@ Essa abordagem é ideal para campanhas de email B2B (B2B), informativos e comuni
 
 ### Etapa 2: adicionar uma atividade de Condição para verificar o dia da semana
 
-Logo após o início da jornada, adicione uma Condição para verificar se o dia atual é sábado ou domingo. Isso ramificará o fluxo de trabalho de acordo.
+Logo após o início da jornada, adicione uma atividade **[!UICONTROL Condição]** para verificar se o dia atual é sábado ou domingo. Isso ramificará o fluxo de trabalho de acordo.
 
 1. Arraste e solte uma atividade **[!UICONTROL Condição]** na tela após o ponto de entrada. [Saiba mais sobre Atividades de condição](condition-activity.md)
 
-1. Clique na atividade Condição para abrir seu painel de configuração.
+1. Clique na atividade **[!UICONTROL Condição]** para abrir seu painel de configuração.
 
 1. Selecione **[!UICONTROL Condição de tempo]** como o tipo de condição.
 
-1. Selecione **Dia da semana** como a opção de filtragem de tempo.
+1. Selecione **[!UICONTROL Dia da semana]** como a opção de filtragem de tempo.
 
 1. Para o **primeiro caminho (sábado)**, selecione somente **sábado**. Rotule esse caminho como &quot;Sábado&quot;.
 
 1. Clique em **[!UICONTROL Adicionar um caminho]** para criar uma segunda condição.
 
-1. Para o **segundo caminho (domingo)**, selecione **Dia da semana** e escolha somente **Domingo**. Rotule esse caminho como &quot;Domingo&quot;.
+1. Para o **segundo caminho (domingo)**, selecione **[!UICONTROL Dia da semana]** e escolha somente **Domingo**. Rotule esse caminho como &quot;Domingo&quot;.
 
    ![Configurando as condições de sábado e domingo no editor de expressão](assets/weekday-email-uc-condition-expression.png)
 
@@ -82,9 +80,9 @@ Logo após o início da jornada, adicione uma Condição para verificar se o dia
 
 ### Etapa 3: configurar atividades de espera para entradas do fim de semana
 
-Para perfis que entram no sábado ou domingo, use as atividades Aguardar com fórmulas personalizadas para atrasar o email até segunda-feira na hora desejada.
+Para perfis que entram no sábado ou domingo, use as atividades de **[!UICONTROL Aguardar]** com fórmulas personalizadas para atrasar o email até segunda-feira na hora desejada.
 
-Na atividade Wait, use a seguinte fórmula:
+Na atividade **[!UICONTROL Wait]**, use a seguinte fórmula:
 
 ```javascript
 toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))
@@ -132,22 +130,22 @@ Para implementar isso em sua jornada:
 
 Para perfis que entram de segunda a sexta-feira, prossiga para a etapa de envio de email como de costume.
 
-1. No caminho **Dia da semana** (o caminho &quot;outros casos&quot;), prossiga diretamente para adicionar uma atividade de ação **[!UICONTROL Email]**. Nenhuma atividade Wait é necessária para entradas de dias da semana.
+1. No caminho **Dia da semana** (o caminho &quot;outros casos&quot;), prossiga diretamente para adicionar uma atividade de ação **[!UICONTROL Email]**. Nenhuma atividade **[!UICONTROL Wait]** é necessária para entradas durante a semana.
 
 1. Configure sua mensagem de e-mail conforme necessário.
 
 ### Etapa 5: concluir o fluxo de jornada
 
-Após as atividades de espera nos caminhos de sábado e domingo, todos os três caminhos (sábado, domingo e dias da semana) devem fluir para a mesma atividade de ação de email. Adicione uma atividade **[!UICONTROL End]** após o email.
+Após as atividades de **[!UICONTROL Aguardar]** nos caminhos de sábado e domingo, todos os três caminhos (sábado, domingo e dias da semana) deverão fluir para a mesma atividade de ação de **[!UICONTROL Email]**. Adicione uma atividade **[!UICONTROL End]** após o email.
 
 ### Visão geral do fluxo de trabalho
 
 O fluxo de trabalho completo do jornada segue essa lógica:
 
-* **Início** → **Condição: É sábado ou domingo?**
-   * **Sim (sábado):** Aguarde até segunda-feira, 9h → Enviar email
-   * **Sim (domingo):** Aguarde até segunda-feira, 9h → Enviar email
-   * **Não (segunda a sexta-feira):** Enviar email imediatamente
+* **Início** → **[!UICONTROL Condição]**: É sábado ou domingo?
+   * **Sim (sábado):** **[!UICONTROL Aguardar]** até segunda-feira, 9h → **[!UICONTROL Enviar email]**
+   * **Sim (domingo):** **[!UICONTROL Aguardar]** até segunda-feira, 9h → **[!UICONTROL Enviar email]**
+   * **Não (segunda a sexta-feira):** **[!UICONTROL Enviar email]** imediatamente
 
 Isso garante que todos os emails sejam enviados somente em dias úteis, com entradas de fim de semana automaticamente enfileiradas para entrega na segunda-feira.
 
@@ -193,5 +191,5 @@ Quando o teste for concluído:
 * [Funções de data](functions/date-functions.md) - Referência completa para funções de data e hora
 * [Editor de expressão](expression/expressionadvanced.md) - Criar expressões complexas
 * [Práticas recomendadas do Jornada](journey-gs.md#best-practices) - Abordagens recomendadas para o design do jornada
-* [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=pt){target="_blank"} - Publicação do blog original com exemplos detalhados
+* [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Publicação do blog original com exemplos detalhados
 
