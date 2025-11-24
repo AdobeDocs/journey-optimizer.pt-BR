@@ -11,9 +11,9 @@ keywords: jornada, caso de uso, dias da semana, condição, email, agendamento
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
+source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Essa abordagem é ideal para campanhas de email B2B (B2B), informativos e comuni
 
 1. Navegue até **[!UICONTROL Gerenciamento de Jornadas]** > **[!UICONTROL Jornadas]** no Adobe Journey Optimizer.
 
-1. Clique em **[!UICONTROL Criar Jornada]** para criar uma nova jornada. [Saiba mais sobre como criar jornadas](journey-gs.md)
+1. Clique em **[!UICONTROL Criar Jornada]** para [criar uma nova jornada](journey-gs.md).
 
 1. Configure as [propriedades de jornada](journey-properties.md).
 
@@ -55,7 +55,7 @@ Essa abordagem é ideal para campanhas de email B2B (B2B), informativos e comuni
 
 Logo após o início da jornada, adicione uma atividade **[!UICONTROL Condição]** para verificar se o dia atual é sábado ou domingo. Isso ramificará o fluxo de trabalho de acordo.
 
-1. Arraste e solte uma atividade **[!UICONTROL Condição]** na tela após o ponto de entrada. [Saiba mais sobre Atividades de condição](condition-activity.md)
+1. Arraste e solte uma atividade [**[!UICONTROL Condição ]**](condition-activity.md) na tela após o ponto de entrada.
 
 1. Clique na atividade **[!UICONTROL Condição]** para abrir seu painel de configuração.
 
@@ -76,7 +76,7 @@ Logo após o início da jornada, adicione uma atividade **[!UICONTROL Condição
 
 >[!NOTE]
 >
->O fuso horário usado para a avaliação do dia da semana é definido no nível da jornada nas propriedades da jornada, não no nível da condição. O fuso horário da jornada usado na fórmula é o fuso horário configurado da jornada, não do destinatário. [Saiba mais sobre o gerenciamento de fuso horário](timezone-management.md).
+>O fuso horário usado para a avaliação do dia da semana é definido no nível da jornada nas propriedades da jornada, não no nível da condição. A jornada [timezone](timezone-management.md) usada na fórmula é o fuso horário configurado pela jornada, não do destinatário.
 
 ### Etapa 3: configurar atividades de espera para entradas do fim de semana
 
@@ -155,7 +155,7 @@ Antes de publicar, teste completamente sua lógica de jornada no modo de teste d
 
 1. Clique no botão **[!UICONTROL Testar]** no canto superior direito.
 
-1. Ativar modo de teste. [Saiba como testar sua jornada](testing-the-journey.md)
+1. Habilitar [modo de teste](testing-the-journey.md).
 
 1. Criar [perfis de teste](../audience/creating-test-profiles.md) com tempos de entrada simulados em diferentes dias da semana:
    * **Entrada de sábado**: verifique se o perfil segue o caminho de sábado, aguarda e recebe email na segunda-feira na hora especificada
@@ -164,13 +164,13 @@ Antes de publicar, teste completamente sua lógica de jornada no modo de teste d
 
 1. Revise a visualização da jornada para garantir que os perfis sigam os caminhos condicionais corretos (sábado, domingo ou dia da semana).
 
-1. Verifique se há erros ou avisos na jornada. [Saiba mais sobre como solucionar problemas do jornada](troubleshooting.md)
+1. Verifique se há [erros ou avisos](troubleshooting.md) na jornada.
 
 1. Verifique se as fórmulas de Espera calculam a duração correta para o tempo de delivery desejado na segunda-feira.
 
 >[!IMPORTANT]
 >
->Sempre teste a lógica da jornada no modo de teste para garantir que as atividades de espera se comportem conforme esperado. Use o Modo de teste para simular diferentes cenários de entrada e validar se as entradas do fim de semana estão corretamente enfileiradas para entrega na segunda-feira. [Saiba mais sobre as práticas recomendadas de teste do jornada](testing-the-journey.md)
+>Sempre teste a lógica da jornada no modo de teste para garantir que as atividades de espera se comportem conforme esperado. Use o Modo de teste para simular diferentes cenários de entrada e validar se as entradas do fim de semana estão corretamente enfileiradas para entrega na segunda-feira. Consulte [práticas recomendadas de teste do jornada](testing-the-journey.md) para obter mais detalhes.
 
 ### Etapa 7: publicar sua jornada
 
@@ -178,18 +178,16 @@ Quando o teste for concluído:
 
 1. Clique em **[!UICONTROL Publicar]** no canto superior direito.
 
-1. Confirme a publicação. [Saiba mais sobre a publicação de jornadas](publish-journey.md)
+1. Confirme a [publicação](publish-journey.md).
 
 1. Monitore o desempenho da jornada usando [relatórios de Jornada](report-journey.md) e [relatórios ao vivo](../reports/journey-live-report.md).
 
 
 ## Tópicos relacionados
 
-* [Sobre as atividades de Condição](condition-activity.md) - Saiba como criar caminhos diferentes na jornada
-* [Usar condições em uma jornada](conditions.md) - Guia detalhado sobre condições de jornada
-* [Atividade de espera](wait-activity.md) - Configurar durações e fórmulas de espera
-* [Funções de data](functions/date-functions.md) - Referência completa para funções de data e hora
-* [Editor de expressão](expression/expressionadvanced.md) - Criar expressões complexas
-* [Práticas recomendadas do Jornada](journey-gs.md#best-practices) - Abordagens recomendadas para o design do jornada
-* [Publicação do blog da comunidade: como enviar emails somente em dias de semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=pt){target="_blank"} - Publicação do blog original com exemplos detalhados
-
+* Saiba como criar caminhos diferentes em sua jornada com [atividades de condição](condition-activity.md)
+* Guia detalhado sobre [uso das condições em uma jornada](conditions.md)
+* Configurar durações e fórmulas de espera com a [Atividade de espera](wait-activity.md)
+* Referência completa para [funções de data](functions/date-functions.md)
+* Criar expressões complexas com o [Editor de expressão](expression/expressionadvanced.md)
+* Abordagens recomendadas para [design e práticas recomendadas do jornada](journey-gs.md#best-practices)
