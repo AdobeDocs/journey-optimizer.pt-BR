@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
+source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
 workflow-type: tm+mt
-source-wordcount: '3086'
-ht-degree: 94%
+source-wordcount: '3131'
+ht-degree: 93%
 
 ---
 
@@ -178,7 +178,7 @@ As seguintes medidas de proteção se aplicam às [versões da jornada](../start
 
 As seguintes medidas de proteção se aplicam às [ações personalizadas](../action/action.md) de jornadas:
 
-* Um limite máximo de 300.000 chamadas em um minuto é definido para todas as ações personalizadas, por host e por sandbox. O limite &quot;por host&quot; se aplica no nível do domínio (por exemplo, example.com). Consulte [esta página](../action/about-custom-action-configuration.md). Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. Se necessário, é possível substituir essa configuração aumentando o limite máximo por meio das APIs de limite e limitação. Consulte [esta página](../configuration/external-systems.md).
+* Um limite máximo de 300.000 chamadas em um minuto é definido para todas as ações personalizadas, por host e por sandbox. O limite &quot;por host&quot; se aplica no nível do domínio (por exemplo, example.com). Esse limite é aplicado como uma janela deslizante por sandbox e por endpoint para endpoints com tempos de resposta inferiores a 0,75 segundo. Para endpoints com tempos de resposta maiores que 0,75 segundo, um limite separado de 150.000 chamadas por 30 segundos (também uma janela deslizante) é aplicado. Consulte [esta página](../action/about-custom-action-configuration.md). Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. Se necessário, é possível substituir essa configuração aumentando o limite máximo por meio das APIs de limite e limitação. Consulte [esta página](../configuration/external-systems.md).
 * O URL de ação personalizada não aceita parâmetros dinâmicos.
 * Os métodos de chamada POST, PUT e GET são compatíveis
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou “$”
