@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 4532db3f84cdf41d295050e85e721f65cb4f1f0e
+source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 17%
+source-wordcount: '817'
+ht-degree: 15%
 
 ---
 
@@ -52,7 +52,7 @@ A tabela abaixo lista todos os conjuntos de dados afetados e seu respectivo temp
 
 Você encontrará abaixo Perguntas frequentes sobre conjuntos de dados Tempo de vida (TTL).
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++Essa alteração se aplicará somente às sandboxes de produção ou também se aplicará às sandboxes de desenvolvimento?
 
@@ -78,13 +78,13 @@ As extensões TTLs não são compatíveis no momento. No entanto, está previsto
 
 >[!NOTE]
 >
->Os dados armazenados no perfil estão sujeitos ao direito Total de volume de dados. Portanto, qualquer aumento no armazenamento de dados no perfil como resultado de uma extensão TTL contaria em relação ao direito ao Volume de dados total. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=pt-BR){target=_blank}
+>Os dados armazenados no perfil estão sujeitos ao direito Total de volume de dados. Portanto, qualquer aumento no armazenamento de dados no perfil como resultado de uma extensão TTL contaria em relação ao direito ao Volume de dados total. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++Os clientes podem aumentar o TTL para os dados do conjunto de dados do sistema [!DNL Journey Optimizer] no data lake? 
 
-As extensões TTLs não são compatíveis no momento. Os clientes podem exportar dados por meio do Destinos para reter os dados por mais tempo. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=pt-BR){target=_blank}. Além disso, os clientes com um direito ao **[!DNL Data Distiller]** podem criar conjuntos de dados derivados para armazenar os dados no data lake sem um TTL. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+As extensões TTLs não são compatíveis no momento. Os clientes podem exportar dados por meio do Destinos para reter os dados por mais tempo. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. Além disso, os clientes com um direito ao **[!DNL Data Distiller]** podem criar conjuntos de dados derivados para armazenar os dados no data lake sem um TTL. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -111,5 +111,17 @@ As extensões TTLs não são compatíveis no momento. Os clientes podem exportar
 +++Qual carimbo de data e hora é usado para aplicar o TTL (por exemplo, para casos de uso de preenchimento retroativo)? 
 
 O carimbo de data e hora do evento é usado (ou seja, não a data de assimilação).
+
++++
+
++++Posso excluir conjuntos de dados gerados pelo sistema da Journey Optimizer?
+
+Os conjuntos de dados gerados pelo sistema da Journey Optimizer são protegidos e não podem ser excluídos por meio da interface do usuário padrão do Adobe Experience Platform. Esses conjuntos de dados são essenciais para a funcionalidade do Journey Optimizer e são gerenciados pelo sistema.
+
+Se você precisar remover permanentemente um conjunto de dados de sistema da Journey Optimizer (por exemplo, para ambientes de controle de qualidade, limpeza de sandbox ou requisitos específicos de higiene de dados), entre em contato com o departamento de engenharia da Adobe ou com o Atendimento ao cliente da Adobe. Esses conjuntos de dados exigem procedimentos de back-end especializados para garantir uma remoção completa e segura.
+
+>[!NOTE]
+>
+>Para limpeza de dados de rotina nesses conjuntos de dados do sistema, use as operações do **[!UICONTROL Ciclo de Vida dos Dados]** disponíveis por meio da Privacy Service para excluir registros ou identidades específicos. [Saiba mais](../privacy/data-hygiene.md)
 
 +++
