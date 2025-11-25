@@ -10,10 +10,10 @@ level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 17%
+source-wordcount: '732'
+ht-degree: 15%
 
 ---
 
@@ -90,6 +90,15 @@ A prática recomendada é usar datas personalizadas específicas para seus perfi
 >
 >O **fuso horário** é esperado nas propriedades da jornada. Como resultado, da interface do usuário, não é possível apontar diretamente para um deslocamento de hora e fuso horário completo da combinação de carimbo de data e hora ISO-8601, como 2023-08-12T09:46:06.982-05. [Saiba mais](../building-journeys/timezone-management.md).
 
+>[!CAUTION]
+>
+>Ao criar uma expressão de espera personalizada com `toDateTimeOnly()`, evite anexar &#39;Z&#39; ou qualquer deslocamento de fuso horário (por exemplo, &#39;-05:00&#39;) no resultado da expressão. A expressão deve usar uma sintaxe de data/hora ISO válida que faça referência ao fuso horário configurado da jornada sem designadores explícitos de fuso horário.
+>
+>**Exemplo correto:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
+>
+>**Exemplo incorreto:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contém &#39;Z&#39;)
+>
+>O uso de designadores de fuso horário não suportados pode fazer com que os perfis permaneçam presos na atividade de espera, em vez de avançarem conforme esperado.
 
 Para validar se a atividade de espera funciona como esperado, você pode usar os eventos da etapa. [Saiba mais](../reports/query-examples.md#common-queries).
 
