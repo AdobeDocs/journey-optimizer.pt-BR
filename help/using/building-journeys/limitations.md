@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornadas, limitação
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 45%
+source-wordcount: '564'
+ht-degree: 46%
 
 ---
 
@@ -23,10 +23,11 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 
 ## Limitações gerais de ações {#action-limitations}
 
-* Não há limitação de envio. 
-* Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
-* O evento **Reação** interno permite que você reaja a ações predefinidas (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
+* Não há limitação de envio.
+* Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida.
+* O evento **Reação** interno permite que você reaja a ações predefinidas (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado.
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
+
 
 ## Limitações de versões do Jornada {#journey-versions-limitations}
 
@@ -47,6 +48,10 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 ## Limitações de eventos {#events-limitations}
 
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra no Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
+
+## Limitações de eventos de reação {#reaction-limitations}
+
+* As atividades de **[!UICONTROL Reação]** devem ser colocadas imediatamente após uma [atividade de ação de canal](../building-journeys/journeys-message.md) na tela de jornada. Não há suporte para a colocação de uma atividade **[!UICONTROL Wait]** ou qualquer outra atividade entre a ação de canal e a atividade **[!UICONTROL Reaction]** e pode fazer com que a Reação não funcione conforme esperado. Saiba mais [nesta seção](../building-journeys/reaction-events.md).
 
 ## Limitações das fontes de dados {#data-sources-limitations}
 
