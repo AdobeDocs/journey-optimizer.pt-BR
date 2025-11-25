@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
 workflow-type: tm+mt
-source-wordcount: '5125'
+source-wordcount: '5226'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceitos gerais
 
@@ -271,31 +271,36 @@ Saiba mais sobre [configuração de evento](../event/about-events.md) e [ações
 
 +++ Posso reenviar uma mensagem se alguém não abrir ou clicar nela?
 
-Sim. Usar um **Evento de reação** com um **Tempo limite**:
+Sim. Usar um evento **[!UICONTROL Reação]** com um **Tempo limite**:
 
-1. Após enviar a mensagem, adicione um evento de reação que escuta aberturas ou cliques de email
-2. Configurar um período de tempo limite (por exemplo, 3 dias) no evento de reação
+1. Após o envio da sua mensagem, adicione um evento **[!UICONTROL Reação]** **imediatamente** após a ação do canal (sem nenhuma atividade **[!UICONTROL Aguardar]** entre elas)
+2. Configure um período de tempo limite (por exemplo, 3 dias) no evento **[!UICONTROL Reação]** para ouvir aberturas ou cliques de email
 3. Criar dois caminhos:
    * **Se aberto/clicado**: continuar com as próximas etapas ou finalizar a jornada
    * **Caminho de tempo limite (não aberto/clicado)**: envia um email de lembrete com outra linha de assunto
 
 **Prática recomendada**: limitar o número de reenvios para evitar a exibição de spam (normalmente, um a dois lembretes no máximo).
 
-Saiba mais sobre [eventos de reação](reaction-events.md).
+Saiba mais sobre [Eventos de reação](reaction-events.md).
 
 +++
 
 +++ Como criar uma jornada de abandono de carrinho?
 
-Criar uma jornada acionada por evento usando um evento de reação com um tempo limite:
+Criar uma jornada acionada por evento usando um evento **[!UICONTROL Reação]** com tempo limite:
 
 1. **Configurar um evento &quot;Carrinho Abandonado&quot;**: disparado quando itens são adicionados, mas o check-out não é concluído em um período
-2. **Adicionar um evento de reação**: configure-o para ouvir um evento de compra
-3. **Definir um período de tempo limite**: defina um tempo limite (por exemplo, 1-2 horas) no evento Reação para dar ao cliente tempo para concluir naturalmente
-4. **Criar dois caminhos**:
+2. **Enviar mensagem inicial** (opcional): email confirmando itens do carrinho
+3. **Adicionar um evento de [!UICONTROL Reação] imediatamente após a ação de canal**: configure-o para ouvir um evento de compra
+4. **Definir um período de tempo limite**: defina um tempo limite (por exemplo, 1-2 horas) no evento **[!UICONTROL Reação]** para dar ao cliente tempo para concluir naturalmente
+5. **Criar dois caminhos**:
    * **Se o evento de compra ocorrer**: encerre a jornada ou continue com o fluxo pós-compra
    * **Caminho de tempo limite (sem compra)**: envia um email de lembrete de abandono com o conteúdo do carrinho
-5. **Opcional**: adicione outro evento de Reação com tempo limite (24 horas) e envie um segundo lembrete com um incentivo (por exemplo, desconto de 10%)
+6. **Opcional**: adicione outro evento **[!UICONTROL Reação]** **imediatamente após** o email de lembrete com tempo limite (24 horas) e envie um segundo lembrete com um incentivo (por exemplo, desconto de 10%)
+
+>[!IMPORTANT]
+>
+>**[!UICONTROL Reação]** eventos devem ser colocados imediatamente após [ações de canal](journeys-message.md). Não coloque atividades de **[!UICONTROL Espera]** entre a ação de canal e a atividade de **[!UICONTROL Reação]**.
 
 Saiba mais sobre [casos de uso do jornada](jo-use-cases.md) e [eventos de reação](reaction-events.md).
 
@@ -463,8 +468,9 @@ Motivos comuns para os perfis não entrarem em uma jornada:
 * **Jornada não publicada**: a jornada está no status de rascunho
 * **Namespace inválido**: o namespace de jornada não corresponde à identidade do perfil
 * **Jornada fechada**: a jornada não está mais aceitando novas entradas
+* **Tempo de qualificação de público-alvo de streaming**: para jornadas que usam a Qualificação de Público-alvo com públicos-alvo de streaming, os perfis não poderão entrar se já estiverem no público antes da publicação da jornada ou se a jornada não tiver concluído seu período de ativação (até 10 minutos após a publicação)
 
-Saiba mais sobre o [gerenciamento de entradas](entry-management.md).
+Saiba mais sobre [gerenciamento de entradas](entry-management.md) e [considerações de tempo de qualificação de público de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 +++
 
