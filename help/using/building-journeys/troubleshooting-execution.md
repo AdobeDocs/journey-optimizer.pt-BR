@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
+source-git-commit: a93f08cf2da1f2b19296359d1200a6dddacbc1f2
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 23%
+source-wordcount: '1199'
+ht-degree: 21%
 
 ---
 
@@ -31,7 +31,7 @@ O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes u
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
-Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming do Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
+Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming do Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
 
 Se a jornada não conseguir habilitar o modo de teste com erro `ERR_MODEL_RULES_16`, verifique se o evento usado inclui um [namespace de identidade](../audience/get-started-identity.md) ao usar uma ação de canal.
 
@@ -150,3 +150,13 @@ Se você estiver criando relatórios ou análises com base nos Eventos de etapa 
 * Esteja ciente de que a análise de tempo pode mostrar entradas agrupadas em poucos segundos
 
 Para obter mais informações sobre a consulta de Eventos de Etapa de Jornada, consulte [Exemplos de consultas](../reports/query-examples.md).
+
+## Solução de problemas de discrepâncias de métricas do painel {#dashboard-metrics}
+
+Se as métricas exibidas no painel **Visão geral** não corresponderem ao número real de jornadas na guia **Procurar**, verifique o seguinte:
+
+* Verifique se as jornadas em questão tiveram tráfego nas últimas 24 horas, pois as jornadas sem atividade recente são excluídas do painel.
+* Verifique se você tem as permissões de acesso apropriadas para exibir todas as jornadas na organização.
+* Aguarde até 30 minutos para que as métricas sejam atualizadas depois de fazer alterações nas jornadas.
+
+Se as discrepâncias persistirem, entre em contato com o Suporte da Adobe com capturas de tela das guias Visão geral e Procurar para investigação.
