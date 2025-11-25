@@ -8,14 +8,35 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 9%
+source-wordcount: '830'
+ht-degree: 8%
 
 ---
 
 # Motivos de exclusão {#exclusion-list}
+
+## Como as exclusões são contadas nos relatórios do Campaign
+
+Ao exibir relatórios de campanha, observe que a métrica *Exclusões* é calculada da seguinte forma:
+
+**Exclusões = Exclusões Exclusivas + Eventos de Exclusão Duplicados**
+
+Isso significa que se um perfil for excluído várias vezes (por exemplo, devido a vários eventos de exclusão para o mesmo perfil), cada evento será contado no total de Exclusões. Como resultado, a soma de *Entregues* e *Exclusões* pode exceder o tamanho original do público-alvo direcionado. Esse comportamento é esperado e reflete a maneira como os eventos de exclusão são rastreados no sistema.
+
+**Exemplo:**
+
+- Público-alvo: 94.000 perfis
+- Entregue: 69.000
+- Exclusões: 37.000 (inclui eventos de exclusão duplicados)
+- Total (Entregues + Exclusões): 106.000
+
+O total excede o público-alvo direcionado porque os eventos de exclusão duplicados estão incluídos na contagem de Exclusões.
+
+Para obter mais detalhes sobre os motivos específicos de exclusão, consulte a tabela abaixo.
+
+## Lista de motivos de exclusão
 
 | Motivo da exclusão | Código de erro | Canal | Explicação |
 |-|-|-|-|

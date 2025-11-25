@@ -7,9 +7,9 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2862'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 Esta é uma lista de artigos de solução de problemas para o Adobe Journey Optimizer. Cada seção de solução de problemas fornece respostas a perguntas frequentes e soluções para problemas.
 
-Consulte também a [documentação de Perguntas frequentes e Solução de Problemas do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/troubleshooting){target="_blank"}.
+Consulte também a [documentação de Perguntas frequentes e Solução de Problemas do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting){target="_blank"}.
 
 ## Canal de email {#ajo-troubleshooting-email}
 
@@ -149,7 +149,7 @@ As dificuldades para criar relatórios no **canal no aplicativo** no Adobe Custo
 
 Consulte [este artigo de solução de problemas](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"} para saber mais sobre este problema.
 
-Saiba mais sobre como integrar dados de análise do Journey Optimizer no Customer Journey Analytics [nesta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}.
+Saiba mais sobre como integrar dados de análise do Journey Optimizer no Customer Journey Analytics [nesta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}.
 
 Consulte também a [documentação dos Relatórios de tempo integral do Journey Optimizer](../reports/report-gs-cja.md)
 
@@ -191,7 +191,7 @@ Consulte [este artigo de solução de problemas](https://experienceleague.adobe.
 
 Saiba mais sobre a atividade **Atualizar Perfil** no jornada [nesta página](../building-journeys/update-profiles.md).
 
-Consulte também a [documentação do Adobe Experience Platform sobre assimilação de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}.
+Consulte também a [documentação do Adobe Experience Platform sobre assimilação de dados](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}.
 
 +++
 
@@ -201,9 +201,9 @@ A discrepância pode ocorrer quando a jornada usa um instantâneo de perfil de u
 
 Consulte [este artigo de solução de problemas](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} para saber mais sobre as etapas para resolver esse problema.
 
-Saiba mais em [esta publicação da Comunidade Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=pt){target="_blank"}.
+Saiba mais em [esta publicação da Comunidade Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
-Consulte também a [documentação da API de Agendamentos do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/api/schedules){target="_blank"} para verificar quando seu trabalho diário está agendado.
+Consulte também a [documentação da API de Agendamentos do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules){target="_blank"} para verificar quando seu trabalho diário está agendado.
 
 +++
 
@@ -216,7 +216,7 @@ Consulte [este artigo de solução de problemas](https://experienceleague.adobe.
 
 Saiba mais sobre a atividade **Atualizar Perfil** no jornada [nesta página](../building-journeys/update-profiles.md).
 
-Consulte também a [documentação do Perfil do Adobe Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}.
+Consulte também a [documentação do Perfil do Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}.
 
 +++
 
@@ -228,7 +228,7 @@ Consulte [este artigo de solução de problemas](https://experienceleague.adobe.
 
 Monitore o uso de licenças da sua organização e perfis ativáveis usando o [Painel de Uso de Licenças](../audience/license-usage.md)
 
-Consulte também a [visão geral do Adobe Experience Platform Query Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/home){target="_blank"}.
+Consulte também a [visão geral do Adobe Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}.
 
 +++
 
@@ -239,6 +239,18 @@ Emails podem ser enviados a destinatários que **não atendem aos critérios de 
 Consulte [este artigo de solução de problemas](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26173){target="_blank"} para saber mais sobre as etapas para resolver esse problema.
 
 Saiba mais sobre funções de data [nesta página](../building-journeys/functions/date-functions.md).
+
++++
+
++++ Por que Entregas + Exclusões excedem meu tamanho de público-alvo nos relatórios de campanha?
+
+Nos relatórios de campanha, você pode notar que a soma de **Entregues** e **Exclusões** excede o tamanho original do público-alvo direcionado. Isso ocorre porque a métrica **Exclusões** conta todos os eventos de exclusão, incluindo eventos de exclusão duplicados para o mesmo perfil. Se um perfil for excluído várias vezes durante uma campanha, cada evento será contado separadamente.
+
+**Exemplo**: uma campanha direcionada a 94.000 perfis mostra 69.000 entregas e 37.000 exclusões, totalizando 106.000 — o que excede os 94.000 perfis direcionados originais. Esse é o comportamento esperado.
+
+Para entender a diferença entre os eventos de exclusão total e as exclusões de perfil exclusivas, consulte a [Explicação da contagem de exclusões](../reports/exclusion-list.md#exclusion-list).
+
+Saiba mais sobre [Relatórios de campanha](../reports/campaign-global-report-cja.md) e [Métricas de relatório](../reports/global-report-components-cja.md).
 
 +++
 
@@ -413,6 +425,6 @@ Erros de acesso ao usar a **API de Serviço de Consulta** via Postman ou ferrame
 
 Consulte [este artigo de solução de problemas](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"} para saber mais.
 
-Consulte também a [documentação sobre credenciais de API gerenciadas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}.
+Consulte também a [documentação sobre credenciais de API gerenciadas](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}.
 
 +++
