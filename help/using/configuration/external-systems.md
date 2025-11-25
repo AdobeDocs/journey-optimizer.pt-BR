@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: e6e8178f7a57a6d57c8d137dd313a26a5878994b
+source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 18%
+source-wordcount: '1805'
+ht-degree: 19%
 
 ---
 
@@ -33,7 +33,7 @@ Quando o Journey Optimizer executa uma chamada para uma API externa, as medidas 
 
 >[!TIP]
 >
->Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
+>Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
 
 ## APIs de limitação e limitação {#capping}
 
@@ -110,11 +110,11 @@ Vamos ver um exemplo para um tempo limite de 5 segundos.
 
 Você encontrará abaixo perguntas frequentes sobre a integração do Journey Optimizer com sistemas externos.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ Como posso configurar uma regra de limitação ou limitação? Há uma regra padrão?
 
-Para criar regras de limitação ou limitação, consulte [esta seção](../configuration/external-systems.md#capping). Por padrão, não há regra de limitação, mas um limite de 300.000 chamadas em um minuto definido para todas as ações personalizadas, por host e por sandbox. Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. Se necessário, é possível substituir essa configuração definindo um limite máximo ou limite maior por meio das APIs de Limite/Limitação.
+Para criar regras de limitação ou limitação, consulte [esta seção](../configuration/external-systems.md#capping). Por padrão, não há regra de limitação, mas um limite de 300.000 chamadas em um minuto definido para todas as ações personalizadas, por host e por sandbox. O limite &quot;por host&quot; se aplica no nível do domínio (por exemplo, example.com). Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. Se necessário, é possível substituir essa configuração aumentando o limite máximo por meio das APIs de limite e limitação. Consulte [esta página](../action/about-custom-action-configuration.md) para obter mais detalhes sobre como solicitar aumentos de limite.
 
 +++
 
