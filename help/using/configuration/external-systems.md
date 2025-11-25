@@ -110,7 +110,7 @@ Vamos ver um exemplo para um tempo limite de 5 segundos.
 
 Você encontrará abaixo perguntas frequentes sobre a integração do Journey Optimizer com sistemas externos.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
 
 +++ Como posso configurar uma regra de limitação ou limitação? Há uma regra padrão?
 
