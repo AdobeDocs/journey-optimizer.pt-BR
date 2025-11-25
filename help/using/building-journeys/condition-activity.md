@@ -10,10 +10,10 @@ level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 18%
+source-wordcount: '1773'
+ht-degree: 17%
 
 ---
 
@@ -42,7 +42,7 @@ Você também pode usar um público-alvo em uma condição de jornada. [Saiba ma
 
 >[!NOTE]
 >
->A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adicionar e gerenciar caminhos de condição {#about_condition}
 
@@ -90,6 +90,14 @@ No editor simples, você também encontrará a categoria Propriedades da Jornada
 Use uma **[!UICONTROL Condição de Source de Dados]** para definir uma condição com base nos campos das fontes de dados ou nos eventos posicionados anteriormente na jornada. Esse tipo de condição é definido com o editor de expressão. Saiba como usar o editor de expressão [nesta seção](expression/expressionadvanced.md).
 
 Por exemplo, se você estiver direcionando um público-alvo com atributos de enriquecimento gerados usando um fluxo de trabalho de composição ou um upload personalizado (arquivo CSV), você pode aproveitar esses atributos de enriquecimento para criar sua condição.
+
+>[!IMPORTANT]
+>
+>**Manipulação de atributos ausentes ou não assimilados**
+>
+>Se um campo de esquema for definido no esquema do seu Perfil, mas nenhum dado tiver sido assimilado para esse campo, a Journey Optimizer e o Perfil de Cliente em Tempo Real subjacente interpretarão o campo como `null`. Como resultado, as condições que verificam `isEmpty()`, `isNull()` ou funções semelhantes avaliarão `true` mesmo se o atributo nunca foi assimilado. Isso pode levar a um comportamento inesperado da jornada se você não estiver ciente de que o campo não tem dados.
+>
+>Para evitar confusão, verifique se os atributos usados em expressões de condição foram assimilados com dados reais antes que o perfil entre na jornada. Você pode verificar os valores de atributo no [Perfil de cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} para confirmar se existem dados para os campos usados em suas condições.
 
 Usando o editor de expressão avançado, você pode configurar condições mais avançadas que manipulem coleções ou usem fontes de dados que exijam a transmissão de parâmetros. [Saiba mais](../datasource/external-data-sources.md).
 
@@ -180,4 +188,4 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
