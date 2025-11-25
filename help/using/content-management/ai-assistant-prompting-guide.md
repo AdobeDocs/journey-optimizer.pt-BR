@@ -5,15 +5,19 @@ title: Guia de prompt de conteúdo do Assistente de IA
 description: Saiba como criar prompts eficazes para a geração de conteúdo habilitado por IA usando a estrutura CO-STAR para criar conteúdo de marketing alinhado à marca e de alta conversão.
 role: User
 level: Intermediate
-source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
+source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
 workflow-type: tm+mt
-source-wordcount: '2088'
-ht-degree: 0%
+source-wordcount: '2107'
+ht-degree: 1%
 
 ---
 
-
 # Práticas recomendadas do prompt do Assistente do AI {#ai-assistant-prompting-guide}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_assistant_prompt"
+>title="Exemplos de prompt"
+>abstract="Explore a documentação do Journey Optimizer para saber como criar prompts eficazes que produzem conteúdo de marketing de alta conversão e sob a marca."
 
 Este guia ajuda a estruturar suas solicitações, comunicar a intenção com clareza e garantir que a IA produza mensagens que se alinhem às diretrizes da sua marca, às necessidades do público-alvo e às metas da campanha.
 Saiba como escrever prompts eficazes que permitem que o AI Assistant gere conteúdo de marketing de alta qualidade e sob marca, adaptado aos seus objetivos.
@@ -116,19 +120,19 @@ Essas solicitações não são compatíveis e devem ser tratadas por meio de out
 
 Antes de gerar o conteúdo, verifique o seguinte:
 
-&check; **Limpar objetivo**: indica claramente a ação, o produto/serviço, o valor e o contexto.
+&amp;check; **Limpar objetivo**: indica claramente a ação, o produto/serviço, o valor e o contexto.
 
-&check; **Público-alvo definido**: especifica a demografia, função ou segmento.
+&amp;check; **Público-alvo definido**: especifica a demografia, função ou segmento.
 
-&check; **Alinhamento do tipo de conteúdo**: o objetivo corresponde ao canal ou formato selecionado.
+&amp;check; **Alinhamento do tipo de conteúdo**: o objetivo corresponde ao canal ou formato selecionado.
 
-&check; **Seleções suspensas configuradas**: tom, estratégia e localidade são escolhidos, não os inclua no prompt.
+&amp;check; **Seleções suspensas configuradas**: tom, estratégia e localidade são escolhidos, não os inclua no prompt.
 
-&check; **Foco do documento especificado**: destaca o conteúdo ou as seções a serem referenciadas.
+&amp;check; **Foco do documento especificado**: destaca o conteúdo ou as seções a serem referenciadas.
 
-&check; **Marca aplicada**: as diretrizes de marca adequadas estão selecionadas.
+&amp;check; **Marca aplicada**: as diretrizes de marca adequadas estão selecionadas.
 
-&check; **Escopo realista**: evitar solicitações de alterações de layout, estilo ou edições estruturais.
+&amp;check; **Escopo realista**: evitar solicitações de alterações de layout, estilo ou edições estruturais.
 
 ## Escreva objetivos de marketing eficazes {#marketing-objectives}
 
@@ -138,11 +142,11 @@ Ao criar objetivos de marketing, verifique se eles são claros, acionáveis e me
 
 **Exemplos de bons objetivos:**
 
-&check; &quot;Impulsionar inscrições para nossa avaliação gratuita de 30 dias do novo painel de análise alimentado por IA&quot;
+&amp;check; &quot;Impulsionar inscrições para nossa avaliação gratuita de 30 dias do novo painel de análise alimentado por IA&quot;
 
-&check; &quot;Gerar clientes em potencial para nosso webinário B2B sobre &quot;Redução de custos na nuvem em 40%&quot; acontecendo em 15 de março&quot;
+&amp;check; &quot;Gerar clientes em potencial para nosso webinário B2B sobre &quot;Redução de custos na nuvem em 40%&quot; acontecendo em 15 de março&quot;
 
-&check; &quot;Promover nosso desconto de feriado limitado de 25% em assinaturas premium, terminando em 25 de dezembro&quot;
+&amp;check; &quot;Promover nosso desconto de feriado limitado de 25% em assinaturas premium, terminando em 25 de dezembro&quot;
 
 **Exemplos a serem evitados:**
 
@@ -159,11 +163,11 @@ Use esta fórmula para ajudá-lo a escrever objetivos efetivos: **Ação + Produ
 
 **Exemplos de bons objetivos:**
 
-&check; &quot;Incentive os downloads do nosso novo aplicativo móvel que ajudam os usuários a rastrear hábitos de vida sustentáveis com recomendações personalizadas e ecológicas&quot;
+&amp;check; &quot;Incentive os downloads do nosso novo aplicativo móvel que ajudam os usuários a rastrear hábitos de vida sustentáveis com recomendações personalizadas e ecológicas&quot;
 
-&check; &quot;Promover registro para nosso workshop exclusivo sobre técnicas avançadas de visualização de dados para profissionais de marketing&quot;
+&amp;check; &quot;Promover registro para nosso workshop exclusivo sobre técnicas avançadas de visualização de dados para profissionais de marketing&quot;
 
-&check; &quot;Impulsionar a participação no nosso evento de lançamento de produto apresentando o revolucionário assistente de escrita de IA que economiza mais de 5 horas por semana&quot;
+&amp;check; &quot;Impulsionar a participação no nosso evento de lançamento de produto apresentando o revolucionário assistente de escrita de IA que economiza mais de 5 horas por semana&quot;
 
 **Exemplos a serem evitados:**
 
