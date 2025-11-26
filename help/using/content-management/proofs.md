@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
+source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 16%
+source-wordcount: '355'
+ht-degree: 13%
 
 ---
 
@@ -51,3 +51,5 @@ Para enviar provas por email usando dados de perfis de teste, primeiro selecione
 >[!NOTE]
 >
 >Na prova enviada, o link para a mirror page não está ativo. Ele só é ativado nas mensagens finais.
+>
+>O Assets/Images pode ser acessado em conteúdo entregue ou conteúdo de prova por até 2 anos (730 dias) desde sua primeira publicação em qualquer fragmento/mensagem em linha. A republicação é necessária após esse período de expiração (a qualquer momento após 730 dias) para mantê-las acessíveis por mais 2 anos. Qualquer republicação feita dentro de 730 dias da primeira publicação não estenderá a expiração de ativos/imagens para os próximos 730 dias.
