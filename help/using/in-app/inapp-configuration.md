@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 8%
+source-wordcount: '1146'
+ht-degree: 7%
 
 ---
 
@@ -32,8 +32,7 @@ Para que as mensagens no aplicativo sejam entregues corretamente, as seguintes c
 
 * Na [Coleção de Dados da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=pt-BR){target="_blank"}, verifique se você tem uma sequência de dados definida; por exemplo, no serviço **[!UICONTROL Adobe Experience Platform]**, você tem a opção Adobe Experience Platform Edge e **[!UICONTROL Adobe Journey Optimizer]** habilitada.
 
-  Isso garante que os eventos de entrada do Journey Optimizer sejam manipulados corretamente pelo Adobe Experience Platform Edge. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR){target="_blank"}
-
+  Isso garante que os eventos de entrada do Journey Optimizer sejam manipulados corretamente pelo Adobe Experience Platform Edge. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   >[!NOTE]
   >
@@ -41,7 +40,7 @@ Para que as mensagens no aplicativo sejam entregues corretamente, as seguintes c
 
   ![](assets/inapp_config_6.png)
 
-* Na [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}, verifique se você tem a política de mesclagem padrão com a opção **[!UICONTROL Política de mesclagem Ative-On-Edge]** habilitada. Para fazer isso, selecione uma política no menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Perfis]** > **[!UICONTROL Mesclar Políticas]**. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR#configure){target="_blank"}
+* Na [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}, verifique se você tem a política de mesclagem padrão com a opção **[!UICONTROL Política de mesclagem Ative-On-Edge]** habilitada. Para fazer isso, selecione uma política no menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Perfis]** > **[!UICONTROL Mesclar Políticas]**. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   Essa política de mesclagem é usada por [!DNL Journey Optimizer] canais de entrada para ativar e publicar corretamente campanhas de entrada na borda. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR){target="_blank"}
 
@@ -127,9 +126,9 @@ Agora é possível selecionar sua configuração ao criar a mensagem no aplicati
 >
 >O conjunto de dados é usado como somente leitura pelo sistema de relatórios [!DNL Journey Optimizer] e não afeta a coleta ou a assimilação de dados.
 
-Para habilitar relatórios para o canal no aplicativo, você precisa verificar se o [conjunto de dados](../data/get-started-datasets.md) usado na sua implementação no aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=pt-BR){target="_blank"} também está incluído na sua configuração de relatórios. Em outras palavras, ao configurar os relatórios, se você adicionar um conjunto de dados que não esteja presente no fluxo de dados do aplicativo, os dados do aplicativo não serão exibidos nos relatórios. Saiba como adicionar conjuntos de dados para relatórios em [esta seção](../reports/reporting-configuration.md#add-datasets).
+Para habilitar relatórios para o canal no aplicativo, você precisa verificar se o [conjunto de dados](../data/get-started-datasets.md) usado na sua implementação no aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} também está incluído na sua configuração de relatórios. Em outras palavras, ao configurar os relatórios, se você adicionar um conjunto de dados que não esteja presente no fluxo de dados do aplicativo, os dados do aplicativo não serão exibidos nos relatórios. Saiba como adicionar conjuntos de dados para relatórios em [esta seção](../reports/reporting-configuration.md#add-datasets).
 
-Se você estiver **não** usando os [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"} predefinidos a seguir para o esquema do conjunto de dados: `AEP Web SDK ExperienceEvent` e `Consumer Experience Event` (conforme definido em [esta página](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=pt-BR#add-field-groups){target="_blank"}), adicione os seguintes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` e `Web Details`. Eles são necessários aos relatórios de [!DNL Journey Optimizer], pois estão rastreando em quais campanhas e jornadas cada perfil está participando.
+Se você estiver **não** usando os [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"} predefinidos a seguir para o esquema do conjunto de dados: `AEP Web SDK ExperienceEvent` e `Consumer Experience Event` (conforme definido em [esta página](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), adicione os seguintes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` e `Web Details`. Eles são necessários aos relatórios de [!DNL Journey Optimizer], pois estão rastreando em quais campanhas e jornadas cada perfil está participando.
 
 [Saiba mais sobre a configuração de relatórios](../reports/reporting-configuration.md)
 
@@ -143,4 +142,18 @@ Se você estiver **não** usando os [grupos de campos](https://experienceleague.
 * [Criar uma campanha](../campaigns/create-campaign.md)
 * [Criar mensagem no aplicativo](design-in-app.md)
 * [Relatório no aplicativo](../reports/campaign-global-report-cja-inapp.md)
+
+## Proteção de gerenciamento de perfil {#profile-management-guardrail}
+
+[!DNL Journey Optimizer] As mensagens no aplicativo podem direcionar perfis com pseudônimos, ou seja, perfis que ainda não foram autenticados ou conhecidos por não terem sido engajados anteriormente em outros canais. Esse é o caso, por exemplo, ao direcionar todos os visitantes ou públicos com base em IDs temporárias, como ECID.
+
+Isso aumenta a contagem total de perfis que podem ser ativados, o que pode ter implicações de custo se o número contratual de perfis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de perfis ativáveis no [painel de uso de licença](../audience/license-usage.md).
+
+Para manter seus perfis ativáveis dentro de limites razoáveis, a Adobe recomenda configurar um TTL (Time-To-Live) para excluir automaticamente perfis com pseudônimos do Perfil do cliente em tempo real se eles não tiverem sido vistos ou envolvidos em uma janela de tempo específica.
+
+>[!NOTE]
+>
+>Saiba como configurar a expiração de dados para perfis com pseudônimo na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
+
+A Adobe recomenda definir o valor de TTL como 14 dias para corresponder ao TTL do perfil do Edge atual.
 

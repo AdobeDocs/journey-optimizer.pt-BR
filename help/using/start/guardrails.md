@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '3131'
-ht-degree: 93%
+source-wordcount: '3233'
+ht-degree: 89%
 
 ---
 
@@ -88,15 +88,21 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../sms/get-star
 
 ### Medidas de proteção de canal de entrada {#inbound-guardrails}
 
+Para usar ações de [experiência baseada em código](../code-based/get-started-code-based.md) no [!DNL Journey Optimizer] e entregar conteúdo útil de conteúdo de código que pode ser usada por seus aplicativos, siga os pré-requisitos detalhados [nesta página](../code-based/code-based-prerequisites.md).
+
+Para acessar e criar [páginas da Web](../web/get-started-web.md) na interface do usuário [!DNL Journey Optimizer], siga os pré-requisitos listados em [esta página](../web/web-prerequisites.md).
+
+Para enviar mensagens no aplicativo em suas jornadas e campanhas com o [!DNL Journey Optimizer], siga os pré-requisitos de entrega listados em [esta página](../in-app/inapp-configuration.md).
+
+Para que o Adobe Journey Optimizer exiba corretamente os cartões de conteúdo, você deve definir as configurações do Adobe Experience Platform listadas em [esta página](../content-card/content-card-configuration-prereq.md).
+
 * O Journey Optimizer aceita um volume máximo de 5.000 solicitações de entrada por segundo. Essa medida de proteção se aplica a todas as solicitações de entrada, que podem se originar de qualquer um dos canais de entrada compatíveis com o Journey Optimizer ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)).
 
-  Os canais de entrada do Journey Optimizer direcionam novos perfis que talvez não tenham sido engajados antes em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. 
+* Os canais de entrada do Journey Optimizer direcionam novos perfis que talvez não tenham sido engajados antes em outros canais. Isso aumenta a contagem total de perfis que podem ser ativados, o que pode ter implicações de custo se o número contratual de perfis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do produto do Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-  As métricas de licença para cada pacote estão listadas na página [Descrição do produto do Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+  Para manter seus perfis engajáveis dentro de limites razoáveis, a Adobe recomenda definir um TTL (Time-To-Live) de 14 dias para excluir automaticamente perfis com pseudônimos no Hub se eles não tiverem sido vistos ou engajados dentro dessa janela de tempo. Saiba mais na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
 
 * O Journey Optimizer aceita no máximo 500 ações de entrada ativas a qualquer momento. Essas ações de entrada ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)) são contadas se fizerem parte de uma campanha ativa ou se forem um nó usado em uma jornada ativa. Ao atingir esse número, é preciso desativar campanhas ou jornadas mais antigas que estejam usando ações de entrada antes de poder lançar novas.
-
-* Para usar ações de [experiência baseada em código](../code-based/get-started-code-based.md) no [!DNL Journey Optimizer] e entregar conteúdo útil de conteúdo de código que pode ser usada por seus aplicativos, siga os pré-requisitos detalhados [nesta página](../code-based/code-based-prerequisites.md).
 
 ### Medidas de proteção de mensagem transacional {#transactional-message-guardrails}
 
