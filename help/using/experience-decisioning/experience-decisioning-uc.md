@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '841'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 4%
 # Use o Decisioning em uma experiência baseada em código com um experimento de conteúdo {#experience-decisioning-uc}
 
 Este caso de uso apresenta todas as etapas necessárias para usar a Decisão com o canal baseado em código [!DNL Journey Optimizer].
+
+>[!NOTE]
+>
+>O recurso herdado Gerenciamento de decisão não é compatível com o canal de experiência baseado em código.
 
 Neste exemplo, você não tem certeza se uma fórmula de classificação específica terá melhor desempenho do que as prioridades de oferta pré-atribuídas. Para medir qual tem melhor desempenho para seu público-alvo, crie uma campanha usando o [Experimento de conteúdo](../content-management/content-experiment.md), no qual você define dois tratamentos de entrega:
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
 workflow-type: tm+mt
-source-wordcount: '3233'
-ht-degree: 89%
+source-wordcount: '3331'
+ht-degree: 86%
 
 ---
 
@@ -98,11 +98,21 @@ Para que o Adobe Journey Optimizer exiba corretamente os cartões de conteúdo, 
 
 * O Journey Optimizer aceita um volume máximo de 5.000 solicitações de entrada por segundo. Essa medida de proteção se aplica a todas as solicitações de entrada, que podem se originar de qualquer um dos canais de entrada compatíveis com o Journey Optimizer ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)).
 
-* Os canais de entrada do Journey Optimizer direcionam novos perfis que talvez não tenham sido engajados antes em outros canais. Isso aumenta a contagem total de perfis que podem ser ativados, o que pode ter implicações de custo se o número contratual de perfis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do produto do Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
-
-  Para manter seus perfis engajáveis dentro de limites razoáveis, a Adobe recomenda definir um TTL (Time-To-Live) de 14 dias para excluir automaticamente perfis com pseudônimos no Hub se eles não tiverem sido vistos ou engajados dentro dessa janela de tempo. Saiba mais na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
-
 * O Journey Optimizer aceita no máximo 500 ações de entrada ativas a qualquer momento. Essas ações de entrada ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)) são contadas se fizerem parte de uma campanha ativa ou se forem um nó usado em uma jornada ativa. Ao atingir esse número, é preciso desativar campanhas ou jornadas mais antigas que estejam usando ações de entrada antes de poder lançar novas.
+
+#### Gerenciamento de perfis com canais de entrada {#profile-management-inbound}
+
+[!DNL Journey Optimizer] canais de entrada podem direcionar perfis com pseudônimos, ou seja, perfis que ainda não foram autenticados ou conhecidos por não terem sido engajados anteriormente em outros canais. Esse é o caso, por exemplo, ao direcionar todos os visitantes ou públicos com base em IDs temporárias, como ECID.
+
+Isso aumenta a contagem total de perfis que podem ser ativados, o que pode ter implicações de custo se o número contratual de perfis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de perfis ativáveis no [painel de uso de licença](../audience/license-usage.md).
+
+Para manter seus perfis ativáveis dentro de limites razoáveis, a Adobe recomenda configurar um TTL (Time-To-Live) para excluir automaticamente perfis com pseudônimos do Perfil do cliente em tempo real se eles não tiverem sido vistos ou envolvidos em uma janela de tempo específica.
+
+>[!NOTE]
+>
+>Saiba como configurar a expiração de dados para perfis com pseudônimo na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
+
+A Adobe recomenda definir o valor de TTL como 14 dias para corresponder ao TTL do perfil do Edge atual.
 
 ### Medidas de proteção de mensagem transacional {#transactional-message-guardrails}
 
@@ -141,6 +151,8 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
   Saiba mais sobre a composição de público-alvo [nesta página](../audience/get-started-audience-orchestration.md).
 
 * Ao assimilar dados, os emails fazem distinção entre maiúsculas e minúsculas. Isso significa que perfis duplicados podem ser criados (por exemplo, um perfil para John.Greene@luma.com, outro perfil para john.greene@luma.com) e usados ao direcionar o destinatário correspondente em suas jornadas e campanhas do [!DNL Journey Optimizer].
+
+* Ao direcionar perfis pseudônimos (visitantes não autenticados) com seus cartões de conteúdo, considere definir um Tempo de vida (TTL) para exclusão automática de perfil para gerenciar a contagem de perfis ativáveis e os custos associados. [Saiba mais](#profile-management-inbound)
 
 ## Medidas de proteção de decisão e gestão de decisões {#decisioning-guardrails}
 
