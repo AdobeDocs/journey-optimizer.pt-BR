@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
-source-wordcount: '3331'
-ht-degree: 86%
+source-wordcount: '3324'
+ht-degree: 85%
 
 ---
 
@@ -88,17 +88,17 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../sms/get-star
 
 ### Medidas de proteção de canal de entrada {#inbound-guardrails}
 
-Para usar ações de [experiência baseada em código](../code-based/get-started-code-based.md) no [!DNL Journey Optimizer] e entregar conteúdo útil de conteúdo de código que pode ser usada por seus aplicativos, siga os pré-requisitos detalhados [nesta página](../code-based/code-based-prerequisites.md).
+* Para usar ações de [experiência baseada em código](../code-based/get-started-code-based.md) no [!DNL Journey Optimizer] e entregar conteúdo útil de conteúdo de código que pode ser usada por seus aplicativos, siga os pré-requisitos detalhados [nesta página](../code-based/code-based-prerequisites.md).
 
-Para acessar e criar [páginas da Web](../web/get-started-web.md) na interface do usuário [!DNL Journey Optimizer], siga os pré-requisitos listados em [esta página](../web/web-prerequisites.md).
+* Para acessar e criar [páginas da Web](../web/get-started-web.md) na interface do usuário [!DNL Journey Optimizer], siga os pré-requisitos listados em [esta página](../web/web-prerequisites.md).
 
-Para enviar mensagens no aplicativo em suas jornadas e campanhas com o [!DNL Journey Optimizer], siga os pré-requisitos de entrega listados em [esta página](../in-app/inapp-configuration.md).
+* Para enviar mensagens no aplicativo em suas jornadas e campanhas com o [!DNL Journey Optimizer], siga os pré-requisitos de entrega listados em [esta página](../in-app/inapp-configuration.md).
 
-Para que o Adobe Journey Optimizer exiba corretamente os cartões de conteúdo, você deve definir as configurações do Adobe Experience Platform listadas em [esta página](../content-card/content-card-configuration-prereq.md).
+* Para que o Adobe Journey Optimizer exiba corretamente os cartões de conteúdo, você deve definir as configurações do Adobe Experience Platform listadas em [esta página](../content-card/content-card-configuration-prereq.md).
 
 * O Journey Optimizer aceita um volume máximo de 5.000 solicitações de entrada por segundo. Essa medida de proteção se aplica a todas as solicitações de entrada, que podem se originar de qualquer um dos canais de entrada compatíveis com o Journey Optimizer ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)).
 
-* O Journey Optimizer aceita no máximo 500 ações de entrada ativas a qualquer momento. Essas ações de entrada ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)) são contadas se fizerem parte de uma campanha ativa ou se forem um nó usado em uma jornada ativa. Ao atingir esse número, é preciso desativar campanhas ou jornadas mais antigas que estejam usando ações de entrada antes de poder lançar novas.
+* O Journey Optimizer aceita no máximo 500 ações de entrada ativas a qualquer momento. Essas ações de entrada são contadas se fizerem parte de uma campanha em tempo real ou se forem um nó usado em uma jornada em tempo real. Ao atingir esse número, é preciso desativar campanhas ou jornadas mais antigas que estejam usando ações de entrada antes de poder lançar novas.
 
 #### Gerenciamento de perfis com canais de entrada {#profile-management-inbound}
 
@@ -152,7 +152,7 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
 
 * Ao assimilar dados, os emails fazem distinção entre maiúsculas e minúsculas. Isso significa que perfis duplicados podem ser criados (por exemplo, um perfil para John.Greene@luma.com, outro perfil para john.greene@luma.com) e usados ao direcionar o destinatário correspondente em suas jornadas e campanhas do [!DNL Journey Optimizer].
 
-* Ao direcionar perfis pseudônimos (visitantes não autenticados) com seus cartões de conteúdo, considere definir um Tempo de vida (TTL) para exclusão automática de perfil para gerenciar a contagem de perfis ativáveis e os custos associados. [Saiba mais](#profile-management-inbound)
+* Ao direcionar perfis pseudônimos (visitantes não autenticados) com canais de entrada, considere configurar um TTL (Time-To-Live) para exclusão automática de perfil para gerenciar a contagem de perfis ativáveis e os custos associados. [Saiba mais](#profile-management-inbound)
 
 ## Medidas de proteção de decisão e gestão de decisões {#decisioning-guardrails}
 

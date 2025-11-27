@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 Ao usar a Decisão em experiências baseadas em código, considere adicionar os seguintes sinalizadores à implementação do cliente nos casos descritos abaixo.
 
-➡️ Saiba mais sobre como configurar o Web SDK para decisões e experiências baseadas em código em [estes tutoriais](#tutorials).
-
 >[!CAUTION]
 >
 >O canal de experiência baseado em código oferece suporte apenas ao recurso [!DNL Journey Optimizer] [Decisão](../experience-decisioning/gs-experience-decisioning.md). O recurso herdado Gerenciamento de decisão não está disponível com experiências baseadas em código.
+
+➡️ Saiba mais sobre como configurar o Web SDK para decisões e experiências baseadas em código em [estes tutoriais](#tutorials).
 
 ## Teste de experiências baseadas em código usando decisões {#code-based-test-decisions}
 
@@ -295,7 +295,7 @@ Digamos que você tenha a mesma política de decisão com a disposição do cabe
 
 +++
 
-## Tutoriais{#tutorials}
+## Tutoriais {#tutorials}
 
 Saiba como usar a decisão no Journey Optimizer para personalizar ofertas de conteúdo em seu site, com foco na configuração do Web SDK em [este tutorial](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
 
