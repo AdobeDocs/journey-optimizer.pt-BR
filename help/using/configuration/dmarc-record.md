@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdomínio, domínio, email, dmarc, registro
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 502f26ba3f8f5fa0db73be9f0cf66b21dbea507b
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 11%
+source-wordcount: '1577'
+ht-degree: 10%
 
 ---
 
@@ -190,6 +190,16 @@ Para permitir que a Adobe gerencie o registro do DMARC para você, selecione a o
    Como prática recomendada, procure uma alta taxa de conformidade da DMARC, idealmente próxima de 100%, para maximizar os benefícios de segurança e, ao mesmo tempo, minimizar o risco de falsos positivos.
 
 1. Selecione um **intervalo de relatórios** entre 24 e 168 horas. Ele permite que os proprietários de domínio recebam atualizações regulares sobre os resultados de autenticação de email e tomem as medidas necessárias para melhorar a segurança do email.
+
+### Solução de problemas {#troubleshooting}
+
+A configuração de um registro DMARC envolve a adição de um registro TXT de DNS às configurações de DNS do domínio. Esse registro especifica sua política do DMARC, como colocar em quarentena ou rejeitar mensagens que falham na autenticação.
+
+As alterações de DNS levam tempo para se propagar pela Internet, normalmente entre alguns minutos a 48 horas.
+
+Se você tiver acabado de fazer uma alteração na configuração do DMARC e tentar verificar imediatamente a atualização, poderá ver erros ou as alterações podem não ser detectadas ainda.
+
+Aguarde tempo suficiente para que os registros DNS se propaguem antes de tentar verificar a configuração do DMARC.
 
 <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
