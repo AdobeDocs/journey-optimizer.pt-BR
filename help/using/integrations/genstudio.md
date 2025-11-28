@@ -91,8 +91,8 @@ Essa integração libera recursos avançados para sua organização de marketing
 
 ### Casos de uso comuns {#genstudio-use-cases}
 
-A integração entre [!DNL GenStudio for Performance Marketing] e [!DNL
-O Journey Optimizer] oferece suporte a vários cenários de marketing:
+A integração entre [!DNL GenStudio for Performance Marketing] e 
+O Journey Optimizer&rbrack; oferece suporte a vários cenários de marketing:
 
 * **Campanhas de lançamento de produtos**: gere rapidamente várias variantes de email para anúncios de produtos, teste-as com diferentes segmentos de público-alvo e dimensione a versão vencedora em toda a sua base de clientes.
 
