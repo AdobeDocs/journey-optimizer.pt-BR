@@ -39,7 +39,7 @@ Para aprimorar a eficiência do marketing e manter a consistência da marca, voc
 
 >[!INFO]
 >
->Para ir além, confira esta [visão geral](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} e uma [demonstração](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
+>Para ir além, confira esta [visão geral](https://business.adobe.com/br/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} e uma [demonstração](https://business.adobe.com/br/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -51,7 +51,7 @@ Para usar a integração do [!DNL GenStudio for Performance Marketing] com o [!D
 
 * [!DNL GenStudio for Performance Marketing] e [!DNL Adobe Journey Optimizer] devem pertencer à mesma organização IMS.
 
-* Os usuários devem ter pelo menos a função **Colaborador** ou superior em [!DNL GenStudio for Performance Marketing] para utilizar os recursos de integração. [Saiba mais sobre as funções de usuário no GenStudio](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* Os usuários devem ter pelo menos a função **Colaborador** ou superior em [!DNL GenStudio for Performance Marketing] para utilizar os recursos de integração. [Saiba mais sobre as funções de usuário no GenStudio](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
 
@@ -119,13 +119,13 @@ Comece exportando um modelo do HTML [!DNL Journey Optimizer], incluindo as diret
 
    >[!NOTE]
    >
-   >Saiba como carregar um modelo do HTML no [!DNL GenStudio] na seção dedicada do [Guia do Usuário do Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
+   >Saiba como carregar um modelo do HTML no [!DNL GenStudio] na seção dedicada do [Guia do Usuário do Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
 
 1. No GenStudio, use esse template para criar várias variações de email com prompts de IA e salvá-las.
 
    >[!NOTE]
    >
-   >Saiba como criar experiências de email na [seção](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dedicada do GenStudio.
+   >Saiba como criar experiências de email na [seção](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dedicada do GenStudio.
 
 ### Aproveitar as experiências do GenStudio no Journey Optimizer {#leverage-genstudio-experiences}
 
