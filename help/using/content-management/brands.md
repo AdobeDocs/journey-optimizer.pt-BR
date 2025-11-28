@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 9cd13e97315daef36918d4352f182efe0d3d9c7a
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 21%
+source-wordcount: '1615'
+ht-degree: 19%
 
 ---
 
@@ -38,7 +38,7 @@ No [!DNL Journey Optimizer], agora há a opção de inserir e organizar manualme
 
 >[!AVAILABILITY]
 >
->Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
+>Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
 
 
 ## Acessar marcas {#generative-access}
@@ -275,11 +275,21 @@ Para personalizar seu **[!UICONTROL Estilo de Redação]**:
 
 1. Na guia **[!UICONTROL Estilo de Escrita]**, clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar uma diretriz, exceção ou exclusão.
 
-1. Insira sua diretriz, exceção ou exclusão e clique em **[!UICONTROL Adicionar]**.
+1. Insira sua diretriz, exceção ou exclusão. Você também pode incluir **[!UICONTROL Exemplos]** para ilustrar melhor como ele deve ser aplicado.
 
    ![](assets/brands-3.png)
 
-1. Selecione uma de suas diretrizes ou exclusões para atualizar ou excluir.
+1. Especifique o contexto de uso para sua diretriz, exceção ou exclusão:
+
+   * **[!UICONTROL Tipo de canal]**: escolha onde esta diretriz, exceção ou exclusão deve ser aplicada. Por exemplo, talvez você queira que um estilo de escrita específico apareça apenas em E-mail, Celular, Impressões ou outros canais de comunicação.
+
+   * **[!UICONTROL Tipo de elemento]**: especifique a qual elemento de conteúdo a regra se aplica. Isso pode incluir elementos como Títulos, Botões, Links ou outros componentes no conteúdo.
+
+     ![](assets/brands-16.png)
+
+1. Depois de configurar sua diretriz, exceção ou exclusão, clique em **[!UICONTROL Adicionar]**.
+
+1. Se necessário, selecione uma de suas diretrizes ou exclusões para atualizar ou excluir.
 
 1. Clique no ![texto alternativo de imagem de mergulho](assets/do-not-localize/Smock_Edit_18_N.svg "Editar") para editar seu exemplo ou no ícone ![Texto alternativo da imagem de mergulho](assets/do-not-localize/Smock_Delete_18_N.svg "Excluir")para excluí-lo.
 
@@ -337,18 +347,29 @@ Para personalizar seu **[!UICONTROL conteúdo visual]**:
 
 1. Na guia **[!UICONTROL Visual content]**, clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar uma diretriz, exclusão ou exemplo.
 
-1. Insira sua diretriz, exclusão ou exemplo e clique em **[!UICONTROL Adicionar]**.
+1. Insira sua diretriz, exclusão ou exemplo.
 
    ![](assets/brands-4.png)
+
+1. Especifique o contexto de uso para sua diretriz ou exclusão:
+
+   * **[!UICONTROL Tipo de canal]**: escolha onde esta diretriz, exceção ou exclusão deve ser aplicada. Por exemplo, talvez você queira que um estilo de escrita específico apareça apenas em E-mail, Celular, Impressões ou outros canais de comunicação.
+
+   * **[!UICONTROL Tipo de elemento]**: especifique a qual elemento de conteúdo a regra se aplica. Isso pode incluir elementos como Títulos, Botões, Links ou outros componentes no conteúdo.
+
+     ![](assets/brands-16.png)
+
+1. Depois de configurar sua diretriz, exceção ou exclusão, clique em **[!UICONTROL Adicionar]**.
 
 1. Para adicionar uma imagem mostrando o uso correto, selecione **[!UICONTROL Exemplo]** e clique em **[!UICONTROL Selecionar imagem]**. Você também pode adicionar uma imagem mostrando o uso incorreto como exemplo de exclusão.
 
    ![](assets/brands-13.png)
 
-1. Selecione uma de suas diretrizes ou exclusões para atualizar ou excluir.
+1. Se necessário, selecione uma de suas diretrizes ou exclusões para atualizar ou excluir.
 
 1. Selecione uma diretriz ou exclusão para atualizá-la. Clique no ícone ![Texto alternativo de imagem de mergulho](assets/do-not-localize/Smock_Delete_18_N.svg "Excluir")para excluí-lo.
 
    ![](assets/brands-14.png)
 
 Agora você pode personalizar ainda mais sua marca ou [publicar sua marca](#create-brand-kit).
+
