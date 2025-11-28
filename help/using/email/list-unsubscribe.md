@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1693'
-ht-degree: 100%
+source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
+workflow-type: tm+mt
+source-wordcount: '1704'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Dependendo do cliente de email e das configurações de cancelamento de assinatu
 >
 >Aprenda como gerenciar as configurações de cancelamento de inscrição [nesta seção](#enable-list-unsubscribe) abaixo.
 
-Em ambos os casos, quando um destinatário clica no link de opção de não participação, sua solicitação de cancelamento de assinatura é processada adequadamente. O perfil correspondente é imediatamente recusado e essa escolha é atualizada na [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
+Em ambos os casos, quando um destinatário clica no link de opção de não participação, sua solicitação de cancelamento de assinatura é processada adequadamente. O perfil correspondente foi cancelado imediatamente e esta escolha é atualizada no [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR){target="_blank"}. Saiba mais sobre o processamento de consentimento na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}.
 
 >[!NOTE]
 >
