@@ -43,7 +43,7 @@ Dependendo do cliente de email e das configurações de cancelamento de assinatu
 >
 >Aprenda como gerenciar as configurações de cancelamento de inscrição [nesta seção](#enable-list-unsubscribe) abaixo.
 
-Em ambos os casos, quando um destinatário clica no link de opção de não participação, sua solicitação de cancelamento de assinatura é processada adequadamente. O perfil correspondente foi cancelado imediatamente e esta escolha é atualizada no [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR){target="_blank"}. Saiba mais sobre o processamento de consentimento na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}.
+Em ambos os casos, quando um destinatário clica no link de opção de não participação, sua solicitação de cancelamento de assinatura é processada adequadamente. O perfil correspondente foi cancelado imediatamente e esta escolha é atualizada no [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR){target="_blank"}. Saiba mais sobre o processamento de consentimento na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=pt-BR){target="_blank"}.
 
 >[!NOTE]
 >
