@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 767eb74a6ba13013b290eaa28ba8ff590e8b6781
 workflow-type: tm+mt
-source-wordcount: '2153'
+source-wordcount: '2216'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ No menu esquerdo, em **[!UICONTROL Administração]**, clique em **[!UICONTROL A
 
 * Alertas específicos para configuração de canal:
 
-   * o alerta [&#x200B; do registro DNS de domínio do AJO &#x200B;](#alert-dns-record-missing)está ausente
+   * o alerta [ do registro DNS de domínio do AJO ](#alert-dns-record-missing)está ausente
    * alerta de [falha na configuração do canal do AJO](#alert-channel-config-failure)
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
@@ -75,7 +75,7 @@ Para assinar/cancelar a assinatura de um alerta para todas as jornadas e campanh
 
 1. Use o mesmo método para **[!UICONTROL Cancelar inscrição]**.
 
-Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
+Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
 
 ### Assinatura unitária {#unitary-subscription}
 
@@ -91,7 +91,7 @@ Para assinar/cancelar a assinatura de um alerta para uma jornada específica, si
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Jornada alertas {#journey-alerts}
 
@@ -158,11 +158,19 @@ Para solucionar problemas de erro de perfil, consulte os dados na etapa de event
 
 ### Jornada publicada {#alert-journey-published}
 
+>[!AVAILABILITY]
+>
+>Este alerta está disponível no momento com funcionalidade limitada. Embora você possa assinar esse alerta, as notificações ainda não estão totalmente operacionais.
+
 Esse alerta notifica quando uma jornada foi publicada por um profissional na tela de jornada.
 
 Este é um alerta informativo que ajuda você a rastrear os eventos de ciclo de vida da jornada em sua organização. Não há critérios de resolução, pois esta é uma notificação única.
 
 ### Jornada concluída {#alert-journey-finished}
+
+>[!AVAILABILITY]
+>
+>Este alerta está disponível no momento com funcionalidade limitada. Embora você possa assinar esse alerta, as notificações ainda não estão totalmente operacionais.
 
 Este alerta notifica quando uma jornada é concluída. A definição de &quot;concluído&quot; varia dependendo do tipo de jornada:
 
@@ -177,6 +185,10 @@ Este alerta notifica quando uma jornada é concluída. A definição de &quot;co
 Este é um alerta informativo que ajuda a monitorar a conclusão da jornada. Não há critérios de resolução, pois esta é uma notificação única.
 
 ### Limite de ação personalizada acionado {#alert-custom-action-capping}
+
+>[!AVAILABILITY]
+>
+>Este alerta está disponível no momento com funcionalidade limitada. Embora você possa assinar esse alerta, as notificações ainda não estão totalmente operacionais.
 
 Esse alerta avisa quando o limite é acionado em uma ação personalizada. O limite é usado para limitar o número de chamadas enviadas para um ponto de extremidade externo para evitar a sobrecarga do ponto de extremidade.
 
