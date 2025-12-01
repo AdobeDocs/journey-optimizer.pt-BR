@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: e42640e791e6bec3bfd09a3095bad5e44e2ab128
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '796'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,12 @@ Esta página fornece respostas a perguntas frequentes sobre os recursos do Decis
 
 ## Regras de limite {#capping-rules}
 
-+++**O que acontece quando você cria mais de uma regra de limitação para uma oferta? Deixaremos de mostrar a oferta quando correspondermos a alguma ou todas as regras de limitação?**
++++**O que acontece quando várias regras de limitação são aplicadas a uma única oferta?**
 
-A oferta é limitada assim que **uma condição é atendida**. Isso significa que qualquer uma das regras de limitação impedirá a exibição da oferta quando o limite for atingido.
+Uma oferta é limitada assim que **qualquer única condição for atendida**. Quando existem várias regras de limite, a oferta para de ser exibida assim que qualquer regra atinge seu limite.
 
-Por exemplo, se você tiver duas regras de limitação:
+**Exemplo:**
+Se você definir duas regras de limitação para uma oferta:
 * 5 vezes por perfil por semana
 * 100 vezes o total em todos os usuários
 
@@ -37,32 +38,34 @@ Saiba mais sobre [regras de limitação](items.md#capping).
 
 ## Fórmulas de classificação {#ranking-formulas}
 
-+++**Por que adicionaria um público-alvo a um modelo de IA? Qual é o benefício de adicionar públicos-alvo em relação a um conjunto de dados completo? Ele restringirá ou expandirá o modelo?**
++++**Qual é a função dos públicos-alvo nos modelos de IA?**
 
-Ao trabalhar com modelos de IA (especificamente [modelos de otimização personalizados](ranking/personalized-optimization-model.md)):
+Ao configurar [modelos de otimização personalizados](ranking/personalized-optimization-model.md), os conjuntos de dados e os públicos-alvo atendem a diferentes objetivos:
 
-* **Conjuntos de dados** são adicionados para coletar os eventos de conversão (cliques, pedidos, receita). Esses são os resultados para os quais o modelo tenta otimizar.
-* **Públicos-alvo** são adicionados para serem usados como variáveis de previsão no modelo. Eles ajudam a personalizar previsões para tentar prever cliques, pedidos ou receita para diferentes segmentos de clientes.
+* **Conjuntos de dados**: capture eventos de conversão (cliques, pedidos, receita) que sirvam como destinos de otimização para o modelo.
+* **Públicos-alvo**: Função como variáveis preditoras que permitem que o modelo personalize recomendações com base na associação do segmento do cliente.
 
-Os conjuntos de dados e os públicos-alvo são necessários para que o modelo de otimização personalizado funcione com eficiência. Os públicos-alvo **não restringem nem expandem** o modelo; em vez disso, fornecem contexto adicional que ajuda o modelo a tomar decisões mais personalizadas.
+Os públicos-alvo não restringem ou expandem o escopo do modelo. Em vez disso, eles fornecem atributos contextuais que melhoram a capacidade do modelo de fazer previsões personalizadas em diferentes segmentos de clientes.
 
-Saiba mais sobre [modelos de IA](ranking/ai-models.md).
+Ambos os componentes são necessários para um desempenho eficaz do modelo de otimização personalizado. Saiba mais sobre [modelos de IA](ranking/ai-models.md).
 
 +++
 
-+++**A adição ou remoção de ofertas em uma coleção terá algum impacto no modelo se eu estiver usando modelos de otimização automática ou personalizados?**
++++**Como as alterações nas coleções de ofertas afetam os modelos de IA ao usar a otimização automática ou modelos de otimização personalizados?**
 
 Ambos os modelos fornecerão o tráfego para a próxima melhor oferta disponível com base nos dados de tráfego dos últimos 30 dias.
 
-Se várias ofertas forem removidas de uma vez e as ofertas restantes tiverem recebido muito pouco tráfego nos últimos 30 dias, a distribuição da oferta poderá se comportar inesperadamente. Isso pode resultar em distribuição aleatória ou tendência a determinadas ofertas que têm uma taxa de conversão mais alta com base em apenas algumas impressões.
+Quando várias ofertas são removidas simultaneamente e as demais ofertas têm dados de tráfego mínimos na janela de 30 dias, o modelo pode apresentar um comportamento abaixo do ideal, incluindo:
+* Padrões de distribuição aleatória
+* Tendência a ofertas com taxas de conversão mais altas com base em dados de impressão limitados
 
-**Prática recomendada**: ao fazer alterações significativas em coleções de ofertas, verifique se as ofertas restantes têm dados históricos de desempenho suficientes para manter o desempenho ideal do modelo.
+**Prática recomendada**: ao modificar coleções de ofertas significativamente, verifique se as ofertas restantes têm dados históricos de desempenho suficientes para manter a eficácia do modelo.
 
 +++
 
-+++**Quanto tempo leva para os modelos de IA entenderem que há novo conteúdo adicionado e começarem a adicioná-lo à combinação?**
++++**Com que rapidez os modelos de IA incorporam novas ofertas?**
 
-Ambos os modelos de IA identificarão ofertas recém-disponíveis na próxima execução de treinamento:
+Os modelos de IA identificam e começam a testar as ofertas recém-disponíveis em seu próximo ciclo de treinamento:
 
 * **Otimização automática**: execuções diárias de treinamento
 * **Otimização personalizada**: execuções de treinamento semanais
@@ -73,25 +76,25 @@ Saiba mais sobre [otimização automática](ranking/auto-optimization-model.md) 
 
 +++
 
-+++**Se não tivermos grupos de controle nos modelos de IA, estamos aprendendo e otimizando todo o tráfego ao mesmo tempo?**
++++**Como os modelos de IA otimizam sem grupos de controle?**
 
-Sim. Ambos os modelos de IA (otimização automática e otimização personalizada) usam uma abordagem de &quot;exploração e exploração&quot;:
+Os modelos de otimização automática e personalizada empregam uma estratégia de exploração/exploração que elimina a necessidade de grupos de controle dedicados:
 
-* Inicialmente, ambos os modelos são **100% de exploração**, o que significa que eles testam diferentes ofertas para coletar dados de desempenho.
-* Com o tempo, os modelos **gerenciam automaticamente a compensação de explorar/explorar** à medida que eventos comportamentais são coletados e as previsões melhoram.
-* Os modelos gradualmente deslocam mais tráfego para ofertas de melhor desempenho, enquanto continuam a explorar e testar outras opções.
+* **Fase inicial**: os modelos começam com 100% de exploração, testando diferentes ofertas para estabelecer dados de desempenho da linha de base.
+* **Otimização adaptável**: à medida que os eventos comportamentais se acumulam e a precisão da previsão melhora, os modelos equilibram automaticamente a exploração e a exploração.
+* **Aprendizado contínuo**: o sistema aloca progressivamente mais tráfego para ofertas de alto desempenho, enquanto continua testando alternativas.
 
 Isso garante aprendizagem e otimização contínuas em todo o tráfego, sem a necessidade de grupos de controle separados.
 
 +++
 
-+++**Quantos eventos de otimização precisamos ter significância estatística? Existe um limite mínimo de tráfego para uma superfície?**
++++**Quais são os requisitos mínimos de tráfego para o desempenho ideal do modelo de IA?**
 
-Para garantir o desempenho ideal do modelo, a Adobe recomenda os seguintes mínimos:
+A Adobe recomenda os seguintes limites mínimos para garantir o desempenho eficaz do modelo:
 
 **Mínimos recomendados (por semana):**
-* Pelo menos **1.000 impressões** por oferta/item
-* Pelo menos **100 eventos de conversão** por oferta/item
+* 1.000 impressões por oferta/item
+* 100 eventos de conversão por oferta/item
 
 <!--**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
@@ -99,36 +102,37 @@ Para garantir o desempenho ideal do modelo, a Adobe recomenda os seguintes míni
 
 Por padrão, o sistema não tentará criar modelos personalizados para ofertas/itens com menos de 1.000 impressões ou 50 eventos de conversão.
 
-**Importante**: na prática, alguns clientes têm muitas ofertas (~300) em um único modelo e algumas ofertas podem ter regras de negócios muito restritivas. Os mínimos absolutos (250 impressões / 25 conversões por 30 dias) representam o limite mais baixo que o sistema pode suportar para construir modelos.
+>[!NOTE]
+>
+>Em ambientes de produção com grandes catálogos de ofertas (cerca de 300 ofertas) e regras comerciais restritivas, algumas ofertas podem se aproximar de limites absolutos mais baixos (250 impressões e 25 conversões por 30 dias). Estes representam os requisitos mínimos de dados para o treinamento de modelos, mas podem não garantir o desempenho ideal.
 
 Saiba mais sobre [requisitos de coleta de dados](data-collection/data-collection.md).
 
 +++
 
-+++**O conteúdo das ofertas precisa ser claramente diferenciado para que os modelos de IA funcionem bem? O que acontece se eu tiver várias ofertas muito semelhantes?**
++++**Como a similaridade da oferta afeta o desempenho do modelo de IA?**
 
-De modo geral, o modelo de IA terá mais probabilidade de gerar benefícios de personalização quando **as ofertas forem adequadas a diferentes tipos de clientes**.
+Os modelos de IA geram maiores benefícios de personalização quando as ofertas atraem segmentos de clientes distintos. Quando as ofertas são altamente semelhantes, dois resultados são típicos:
 
-Quando as ofertas são muito semelhantes, um dos dois resultados é provável:
-
-* **Desempenho semelhante**: as ofertas terão desempenho idêntico e receberão uma parte relativamente uniforme do tráfego.
-* **Domínio**: pequenas diferenças podem fazer com que uma oferta domine as outras em todos os tipos de clientes e ela receberá a maior parte do tráfego.
+* **Desempenho equivalente**: as ofertas têm desempenho idêntico e recebem distribuição de tráfego aproximadamente igual.
+* **Oferta dominante**: pequenas diferenças fazem com que uma oferta tenha um desempenho melhor que outras em todos os segmentos, capturando a maioria do tráfego.
 
 >[!NOTE]
 >
->As diferenças nas ofertas não são uma garantia de que uma oferta não dominará as outras. Por exemplo, uma oferta de 100€ de desconto quase sempre terá um desempenho melhor que uma oferta de 50€ de desconto em todos os tipos de clientes, independentemente da personalização.
+>A diferenciação da oferta não garante uma distribuição de tráfego equilibrada. As ofertas com propostas de valor objetivamente superiores (por exemplo, desconto de 100 € versus desconto de 50 €) normalmente dominarão todos os segmentos de clientes, independentemente dos esforços de personalização.
 
-**Prática recomendada**: certifique-se de que suas ofertas forneçam diferenciação significativa que possa atrair diferentes segmentos de clientes para obter o desempenho ideal do modelo de IA.
+**Prática recomendada**: crie ofertas com diferenciação significativa que se alinhem a preferências de segmentos de clientes distintos para maximizar a eficácia do modelo de IA.
 
 +++
 
-+++**O que acontece com o modelo se houver uma anomalia de tráfego, como um grande pico de tráfego? Isso causará problemas ou causará estranheza?**
++++**Como as anomalias de tráfego afetam o desempenho do modelo de IA?**
 
-Um pico de tráfego seria incluído na modelagem proporcionalmente a outro tráfego nos últimos 30 dias.
+As anomalias de tráfego são incorporadas ao modelo proporcionalmente na janela contínua de 30 dias.
 
-Por exemplo, um pico de tráfego diário 2x terá um efeito relativamente modesto no modelo geral, porque há 29 dias de tráfego normal que representam significativamente mais dos dados comportamentais gerais.
+**Avaliação de impacto:**
+Um pico temporário de tráfego (por exemplo, o dobro do tráfego diário) tem efeito mínimo no desempenho geral do modelo porque o tráfego anômalo representa uma pequena fração do conjunto de dados de 30 dias.
 
-**Ponto-chave**: a janela contínua de 30 dias ajuda o modelo a manter a estabilidade durante anomalias temporárias de tráfego. Picos ou declínios de curto prazo não interromperão significativamente o desempenho do modelo.
+**Key insight**: a janela de dados contínua de 30 dias fornece a estabilidade do modelo durante flutuações temporárias de tráfego. Picos ou quedas de curto prazo não interrompem significativamente as previsões ou o desempenho do modelo.
 
 +++
 
