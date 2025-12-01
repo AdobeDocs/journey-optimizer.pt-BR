@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
+source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: tm+mt
-source-wordcount: '2993'
+source-wordcount: '2995'
 ht-degree: 98%
 
 ---
@@ -443,7 +443,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -591,6 +591,7 @@ ht-degree: 98%
       + [Tomada de decisão](/help/rp_landing_pages/experience-decisioning-landing-page.md)
       + [Introdução ao serviço de decisão](using/experience-decisioning/gs-experience-decisioning.md)
       + [Medidas de proteção e limitações do serviço de decisão](using/experience-decisioning/decisioning-guardrails.md)
+      + [Perguntas frequentes sobre decisão](using/experience-decisioning/decisioning-faq.md)
       + Referência da API {#experience-decisioning-api-reference}
          + [Referência da API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + Criar e gerenciar itens de oferta {#create-manage}

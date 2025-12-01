@@ -5,10 +5,10 @@ title: Tomada de decisão
 description: Tomada de decisão
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ O recurso de tomada de decisão do Adobe Journey Optimizer permite que você for
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao serviço de decisão
 
@@ -30,7 +30,7 @@ Saiba mais sobre os fundamentos da tomada de decisão do Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Medidas de proteção e limitações da tomada de decisão
 
@@ -40,7 +40,17 @@ Entenda as restrições e práticas recomendadas para usar a tomada de decisão 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+
+Perguntas frequentes
+
+Obtenha respostas para perguntas comuns sobre o Decisioning, incluindo regras de limitação, modelos de IA e requisitos de otimização.
+
+[Exibir perguntas frequentes](../using/experience-decisioning/decisioning-faq.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referência da API: entrega de ofertas
 
@@ -50,7 +60,7 @@ Saiba como entregar ofertas por meio do canal de experiência baseada em código
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gerenciar itens de decisão e catálogos
 
@@ -60,7 +70,7 @@ Configure e gerencie itens de decisão, catálogos e coleções para organizar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Criar regras de decisão
 
@@ -70,7 +80,7 @@ Defina regras de decisão para direcionar os públicos-alvo com precisão, usand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Criar classificações com modelos de IA
 
