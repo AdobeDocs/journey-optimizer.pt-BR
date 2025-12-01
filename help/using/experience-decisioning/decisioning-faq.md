@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
+source-git-commit: 7bf0b3fbfe56ef8ae3a35be9aa604287f43d6d74
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -38,26 +38,24 @@ Saiba mais sobre [regras de limitação](items.md#capping).
 
 ## Fórmulas de classificação {#ranking-formulas}
 
-+++**Qual é a função dos públicos-alvo nos modelos de IA?**
++++**Qual é a função dos públicos-alvo em relação a um conjunto de dados completo nos modelos de IA?**
 
-Ao configurar [modelos de otimização personalizados](ranking/personalized-optimization-model.md), os conjuntos de dados e os públicos-alvo atendem a diferentes objetivos:
+Ao configurar [modelos de IA](ranking/ai-models.md), os conjuntos de dados e os públicos-alvo atendem a finalidades distintas.
 
 * **Conjuntos de dados**: capture eventos de conversão (cliques, pedidos, receita) que sirvam como destinos de otimização para o modelo.
 * **Públicos-alvo**: Função como variáveis preditoras que permitem que o modelo personalize recomendações com base na associação do segmento do cliente.
 
 Os públicos-alvo não restringem ou expandem o escopo do modelo. Em vez disso, eles fornecem atributos contextuais que melhoram a capacidade do modelo de fazer previsões personalizadas em diferentes segmentos de clientes.
 
-Ambos os componentes são necessários para um desempenho eficaz do modelo de otimização personalizado. Saiba mais sobre [modelos de IA](ranking/ai-models.md).
+Ambos os componentes são necessários para o desempenho eficaz do modelo [modelos de otimização personalizados](ranking/personalized-optimization-model.md).
 
 +++
 
-+++**Como as alterações nas coleções de ofertas afetam os modelos de IA ao usar a otimização automática ou modelos de otimização personalizados?**
++++**Como as alterações nas coleções de ofertas afetam a otimização automática ou os modelos de otimização personalizados?**
 
 Ambos os modelos fornecerão o tráfego para a próxima melhor oferta disponível com base nos dados de tráfego dos últimos 30 dias.
 
-Quando várias ofertas são removidas simultaneamente e as demais ofertas têm dados de tráfego mínimos na janela de 30 dias, o modelo pode apresentar um comportamento abaixo do ideal, incluindo:
-* Padrões de distribuição aleatória
-* Tendência a ofertas com taxas de conversão mais altas com base em dados de impressão limitados
+Quando várias ofertas são removidas simultaneamente e as demais ofertas têm dados de tráfego mínimos na janela de 30 dias, o modelo pode exibir um comportamento abaixo do ideal, incluindo padrões de distribuição aleatórios ou tendência a ofertas com taxas de conversão mais altas com base em dados de impressão limitados.
 
 **Prática recomendada**: ao modificar coleções de ofertas significativamente, verifique se as ofertas restantes têm dados históricos de desempenho suficientes para manter a eficácia do modelo.
 
@@ -67,8 +65,8 @@ Quando várias ofertas são removidas simultaneamente e as demais ofertas têm d
 
 Os modelos de IA identificam e começam a testar as ofertas recém-disponíveis em seu próximo ciclo de treinamento:
 
-* **Otimização automática**: execuções diárias de treinamento
-* **Otimização personalizada**: execuções de treinamento semanais
+* **Otimização automática**: diariamente
+* **Otimização personalizada**: semanalmente
 
 Uma vez identificados, ambos os modelos começarão a distribuir as novas ofertas para alguns visitantes imediatamente, a fim de testar seu desempenho e coletar dados sobre sua eficácia.
 
@@ -78,7 +76,7 @@ Saiba mais sobre [otimização automática](ranking/auto-optimization-model.md) 
 
 +++**Como os modelos de IA otimizam sem grupos de controle?**
 
-Os modelos de otimização automática e personalizada empregam uma estratégia de exploração/exploração que elimina a necessidade de grupos de controle dedicados:
+Os modelos de otimização automática e personalizada empregam uma estratégia de &quot;exploração-exploração&quot; que elimina a necessidade de grupos de controle dedicados.
 
 * **Fase inicial**: os modelos começam com 100% de exploração, testando diferentes ofertas para estabelecer dados de desempenho da linha de base.
 * **Otimização adaptável**: à medida que os eventos comportamentais se acumulam e a precisão da previsão melhora, os modelos equilibram automaticamente a exploração e a exploração.
@@ -91,10 +89,8 @@ Isso garante aprendizagem e otimização contínuas em todo o tráfego, sem a ne
 +++**Quais são os requisitos mínimos de tráfego para o desempenho ideal do modelo de IA?**
 
 A Adobe recomenda os seguintes limites mínimos para garantir o desempenho eficaz do modelo:
-
-**Mínimos recomendados (por semana):**
-* 1.000 impressões por oferta/item
-* 100 eventos de conversão por oferta/item
+* 1.000 impressões por oferta/item por semana
+* 100 eventos de conversão por oferta/item por semana
 
 <!--**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
@@ -110,7 +106,7 @@ Saiba mais sobre [requisitos de coleta de dados](data-collection/data-collection
 
 +++
 
-+++**Como a similaridade da oferta afeta o desempenho do modelo de IA?**
++++**Como as ofertas semelhantes afetam o desempenho do modelo de IA?**
 
 Os modelos de IA geram maiores benefícios de personalização quando as ofertas atraem segmentos de clientes distintos. Quando as ofertas são altamente semelhantes, dois resultados são típicos:
 
@@ -127,11 +123,8 @@ Os modelos de IA geram maiores benefícios de personalização quando as ofertas
 
 +++**Como as anomalias de tráfego afetam o desempenho do modelo de IA?**
 
-As anomalias de tráfego são incorporadas ao modelo proporcionalmente na janela contínua de 30 dias.
+As anomalias de tráfego são incorporadas ao modelo proporcionalmente na janela contínua de 30 dias, o que fornece estabilidade ao modelo durante flutuações temporárias de tráfego. Picos ou quedas de curto prazo não interrompem significativamente as previsões ou o desempenho do modelo.
 
-**Avaliação de impacto:**
 Um pico temporário de tráfego (por exemplo, o dobro do tráfego diário) tem efeito mínimo no desempenho geral do modelo porque o tráfego anômalo representa uma pequena fração do conjunto de dados de 30 dias.
-
-**Key insight**: a janela de dados contínua de 30 dias fornece a estabilidade do modelo durante flutuações temporárias de tráfego. Picos ou quedas de curto prazo não interrompem significativamente as previsões ou o desempenho do modelo.
 
 +++
