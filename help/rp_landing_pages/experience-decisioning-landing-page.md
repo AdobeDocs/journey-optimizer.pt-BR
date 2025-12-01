@@ -20,7 +20,7 @@ O recurso de tomada de decisão do Adobe Journey Optimizer permite que você for
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao serviço de decisão
 
@@ -30,7 +30,7 @@ Saiba mais sobre os fundamentos da tomada de decisão do Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Medidas de proteção e limitações da tomada de decisão
 
@@ -40,7 +40,7 @@ Entenda as restrições e práticas recomendadas para usar a tomada de decisão 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=pt-BR)
 
 Perguntas frequentes
 
@@ -50,7 +50,7 @@ Obtenha respostas para perguntas comuns sobre o Decisioning, incluindo regras de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Referência da API: entrega de ofertas
 
@@ -60,7 +60,7 @@ Saiba como entregar ofertas por meio do canal de experiência baseada em código
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Gerenciar itens de decisão e catálogos
 
@@ -70,7 +70,7 @@ Configure e gerencie itens de decisão, catálogos e coleções para organizar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Criar regras de decisão
 
@@ -80,7 +80,7 @@ Defina regras de decisão para direcionar os públicos-alvo com precisão, usand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Criar classificações com modelos de IA
 
