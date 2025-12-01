@@ -8,10 +8,10 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: e42640e791e6bec3bfd09a3095bad5e44e2ab128
+source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 1%
+source-wordcount: '785'
+ht-degree: 0%
 
 ---
 
@@ -135,11 +135,3 @@ Um pico temporário de tráfego (por exemplo, o dobro do tráfego diário) tem e
 **Key insight**: a janela de dados contínua de 30 dias fornece a estabilidade do modelo durante flutuações temporárias de tráfego. Picos ou quedas de curto prazo não interrompem significativamente as previsões ou o desempenho do modelo.
 
 +++
-
-## Tópicos relacionados {#related-topics}
-
-<!--* [Get started with Decisioning](gs-experience-decisioning.md)-->
-* [Criar itens de decisão](items.md)
-* [Visão geral dos modelos de IA](ranking/ai-models.md)
-* [Medidas de proteção e limitações do serviço de decisão](decisioning-guardrails.md)
-
