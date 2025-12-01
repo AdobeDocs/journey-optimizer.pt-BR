@@ -6,7 +6,7 @@ description: Atividades de campanhas orquestradas
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
 source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ As atividades de campanha orquestrada no Adobe Journey Optimizer permitem criar 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Trabalhar com atividades da campanha orquestrada
 
@@ -30,7 +30,7 @@ Saiba mais sobre direcionamento, canal e atividades de controle de fluxo para pr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilização da atividade AND-join
 
@@ -40,7 +40,7 @@ Sincronize várias ramificações de execução garantindo que as tarefas anteri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Atividade Criar público-alvo
 
@@ -50,7 +50,7 @@ Defina e configure segmentos de público-alvo para suas campanhas usando a ativi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Atividade Mudar dimensão
 
@@ -60,7 +60,7 @@ Melhore o direcionamento alternando entre entidades de dados na campanha.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Atividades de canal
 
@@ -70,7 +70,7 @@ Configure email, SMS, notificações por push e correspondência direta para a o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Atividade Combinar
 

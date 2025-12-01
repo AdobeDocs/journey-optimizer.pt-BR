@@ -7,9 +7,9 @@ topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a18ccb6f7928250e9b3bc453971689bb378dac11
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1498'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Os novos recursos e aprimoramentos lançados nas últimas semanas estão listado
 <td>
 <p>Uma nova API do Journey Optimizer agora está disponível, permitindo recuperar e inspecionar programaticamente dados relacionados à campanha, como detalhes, versões e configurações.</p>
 <p>Para obter mais informações, consulte a <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: terça-feira, 24 de novembro de 2025</p>
+<p>Data de disponibilidade: 24 de novembro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -165,7 +165,7 @@ Os novos recursos e aprimoramentos lançados nas últimas semanas estão listado
 <td>
 <p>O Período de silêncio permite definir exclusões com base no tempo para canais de email, SMS, Push e WhatsApp. Elas garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando a respeitar as preferências do cliente e os requisitos de conformidade.</p>
 <p>É possível aplicar o período de silêncio por meio de conjuntos de regras que podem ser atribuídas a ações individuais em campanhas ou jornadas para obter um controle preciso.</p>
-<p>Atualmente, as regras de horário de silêncio estão disponíveis apenas para um conjunto de organizações (Disponibilidade limitada).  Eles estarão progressivamente disponíveis para todos os clientes em versões futuras.</p>
+<p>Atualmente, as regras de horários de silêncio estão disponíveis apenas para algumas organizações (disponibilidade limitada).  Elas serão disponibilizadas progressivamente a todos os clientes em versões futuras.</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>Para obter mais informações, consulte a <a href="../conflict-prioritization/quiet-hours.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 22 de outubro de 2025</p>

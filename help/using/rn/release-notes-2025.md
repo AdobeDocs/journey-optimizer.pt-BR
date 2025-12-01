@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7890'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -162,8 +162,8 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 * **Suporte a mTLS para Canal de SMS**
 Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar a autenticação TLS mútua (mTLS), que exige que o cliente e o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida. [Leia mais](../sms/sms-configuration-custom.md) - Data de disponibilidade: 23 de setembro de 2025
 
-* **Esquemas Relacionais**\
-  Os esquemas relacionais agora podem ser usados pelo para atender às suas necessidades de modelagem relacional em campanhas orquestradas. [Leia mais](../orchestrated/gs-schemas.md) - Data de disponibilidade: 23 de setembro de 2025
+* **Esquemas relacionais**\
+  Agora é possível usar esquemas relacionais para atender necessidades de modelagem relacional em campanhas orquestradas. [Leia mais](../orchestrated/gs-schemas.md) - Data de disponibilidade: 23 de setembro de 2025
 
 * **Suporte à pesquisa de conjunto de dados em jornadas**\
   A nova atividade em jornadas **Consulta de conjunto de dados** permite recuperar dados dinamicamente de conjuntos de dados de registros da Adobe Experience Platform durante o tempo de execução. Ao aproveitar esse recurso, é possível acessar dados que podem não estar no perfil ou no conteúdo do evento, garantindo que as interações com o cliente sejam relevantes e oportunas. [Leia mais](../building-journeys/dataset-lookup.md) - Data de disponibilidade: 23 de setembro de 2025
@@ -1017,13 +1017,13 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Sincronizar o cronograma de ler público-alvo com o trabalho de segmentação em lote</strong><br/></th>
+<th><strong>Sincronizar o cronograma de ler público-alvo com o processo de segmentação em lote</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível acionar execuções diárias da jornada após a conclusão da segmentação em lote Essa opção agora está disponível em jornadas agendadas diariamente para todos os clientes. Ela permite definir uma janela de tempo de até 6 horas para aguardar os dados de público-alvo de trabalhos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas. </p>
+<p>Agora é possível acionar execuções diárias da jornada após a conclusão da segmentação em lote Essa opção agora está disponível em jornadas agendadas diariamente para todos os clientes. Ela permite definir uma janela de tempo de até 6 horas para aguardar os dados de público-alvo de processos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas. </p>
 <p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#schedule">documentação detalhada</a>.</p>
@@ -1301,7 +1301,7 @@ Os novos recursos incluídos nesta versão estão listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Para jornadas agendadas diariamente, uma nova opção permite definir uma janela de tempo de até 6 horas para aguardar os dados de público-alvo de trabalhos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas. A opção “Acionar após a avaliação de público-alvo em lote” está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Para jornadas agendadas diariamente, uma nova opção permite definir uma janela de tempo de até 6 horas para aguardar os dados de público-alvo de processos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas. A opção “Acionar após a avaliação de público-alvo em lote” está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#schedule">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -1545,7 +1545,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Anteriormente disponível para apenas algumas organizações (disponibilidade limitada), a avaliação de público-alvo flexível agora está disponível para todos os usuários (disponibilidade geral). Esse recurso permite executar um trabalho de segmentação sob demanda para públicos-alvo selecionados, garantindo que você sempre tenha os dados de público-alvo mais atualizados antes de direcioná-los para jornadas e campanhas do Journey Optimizer.</p>
+<p>Anteriormente disponível para apenas algumas organizações (disponibilidade limitada), a avaliação de público-alvo flexível agora está disponível para todos os usuários (disponibilidade geral). Esse recurso permite executar um processo de segmentação sob demanda para públicos-alvo selecionados, garantindo que você sempre tenha os dados de público-alvo mais atualizados antes de direcioná-los para jornadas e campanhas do Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Para obter mais informações, consulte a <a href="../audience/creating-a-segment-definition.md#flexible">documentação detalhada</a>.</p>
 </tr>
@@ -1710,7 +1710,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>A avaliação flexível de público-alvo permite executar um trabalho de segmentação por demanda para públicos-alvo selecionados, garantindo que você sempre tenha os dados do público-alvo mais atualizados antes de direcioná-los em jornadas e campanhas do Journey Optimizer.</p>
+<p>A avaliação flexível de público-alvo permite executar um processo de segmentação por demanda para públicos-alvo selecionados, garantindo que você sempre tenha os dados do público-alvo mais atualizados antes de direcioná-los em jornadas e campanhas do Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Para obter mais informações, consulte a <a href="../audience/creating-a-segment-definition.md#flexible">documentação detalhada</a>.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
