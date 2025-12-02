@@ -7,7 +7,7 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
+source-git-commit: d552008195d324227ecf91ea7a1ab905fe3981cc
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 2%
@@ -171,7 +171,7 @@ Depois de gerar variações de imagem para suas notificações por push, você p
 
    Saiba mais sobre [Pontuação de alinhamento da marca](brands-score.md).
 
-   ![Pontuação de alinhamento de marca para variações](assets/q.png){zoomable="yes"}
+   ![Pontuação de alinhamento de marca para variações](assets/push-gen-img-2.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada ou em **[!UICONTROL Aplicar]** para substituir o conteúdo atual.
 
