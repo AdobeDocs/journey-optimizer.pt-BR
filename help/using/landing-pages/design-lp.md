@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: landing page, landing page, design, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 13%
+source-wordcount: '207'
+ht-degree: 18%
 
 ---
 
@@ -25,6 +25,8 @@ Para começar a criar conteúdo para sua [página principal](create-lp.md#config
 Nela, você pode:
 
 * **Crie sua página de aterrissagem do zero** por meio da interface do designer de conteúdo e utilize imagens do [Adobe Experience Manager Assets](../integrations/assets.md). Saiba como criar seu conteúdo <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
+
+* **Gere conteúdo com o Assistente de IA** para acelerar a criação de páginas de aterrissagem com texto e imagens gerados por IA. [Saiba mais sobre o Assistente de IA](../content-management/generative-full-content.md).
 
 * **Codifique ou cole o HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../email/code-content.md).
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1119'
 ht-degree: 8%
 
 ---
@@ -98,6 +98,7 @@ Agora você pode começar a projetar o conteúdo da sua mensagem de texto a part
 >title="Definição do conteúdo do SMS"
 >abstract="Personalize as mensagens de texto (SMS/MMS/RCS) usando o editor de personalização para definir o conteúdo e incorporar elementos dinâmicos."
 
+
 Para configurar o conteúdo da mensagem, siga as etapas abaixo. As configurações para MMS estão detalhadas em [esta seção](#mms-content).
 
 1. Na tela de configuração do jornada ou da campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo da mensagem de texto.
@@ -107,6 +108,8 @@ Para configurar o conteúdo da mensagem, siga as etapas abaixo. As configuraçõ
    Para mensagens do RCS com Infobip, Twilio ou outros provedores de terceiros, cole a carga JSON necessária na sua [configuração de SMS personalizada](sms-configuration-custom.md#api-credential).
 
    ![](assets/sms-content.png)
+
+1. Gere mensagens de texto envolventes personalizadas para seu público usando o [Assistente de IA para geração de texto](../content-management/generative-text.md).
 
 1. Use o editor de personalização para definir o conteúdo, adicionar personalização e conteúdo dinâmico. Você pode usar qualquer atributo, como o nome do perfil ou a cidade, por exemplo. Você também pode definir regras condicionais. Navegue até as seguintes páginas para saber mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no editor de personalização.
 

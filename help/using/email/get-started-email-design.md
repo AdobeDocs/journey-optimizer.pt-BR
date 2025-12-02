@@ -9,18 +9,20 @@ role: User
 level: Beginner, Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
-workflow-type: ht
-source-wordcount: '680'
-ht-degree: 100%
+source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 91%
 
 ---
 
 # Introdução ao design de email {#get-started-content-design}
 
-É possível importar um conteúdo existente para o [!DNL Journey Optimizer] ou aproveitar os recursos de design de conteúdo:
+Para acessar o Designer de email e começar a criar seu conteúdo de email, primeiro [crie um email](create-email.md) em uma jornada ou campanha.
 
-* Usar os **recursos de design de email** do [!DNL Journey Optimizer] para criar ou importar emails responsivos. [Saiba mais](content-from-scratch.md)
+Você pode usar os [!DNL Journey Optimizer] **recursos de design de email** para importar conteúdo existente ou começar a criar emails responsivos do zero. [Saiba mais](content-from-scratch.md)
+
+O Designer de email também permite:
 
 * Aproveitar o **Adobe Experience Manager Assets Essentials** para enriquecer seus emails e criar e gerenciar seu próprio banco de dados de ativos. [Saiba mais](../integrations/assets.md)
 
@@ -30,25 +32,9 @@ ht-degree: 100%
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
-## Práticas recomendadas de design de email {#best-practices}
-
-Ao enviar emails, é importante levar em consideração que os destinatários podem encaminhá-los, o que às vezes pode causar problemas na renderização do email. Isso acontece especialmente ao usar classes CSS que podem não ser compatíveis com o provedor de email usado para encaminhamento. Por exemplo, se estiver usando a classe CSS “is-desktop-hidden” para ocultar uma imagem em dispositivos móveis.
-
-Para minimizar esses problemas de renderização, é recomendado manter a estrutura do design de emails o mais simples possível. Tente usar um único design que funcione bem tanto para desktops quanto para dispositivos móveis e evite usar classes CSS complexas ou outros elementos de design que possam não ser totalmente compatíveis com todos os clientes de email. Ao seguir essas práticas recomendadas, você ajuda a garantir que seus emails sejam renderizados corretamente de forma consistente, independentemente de como sejam visualizados ou encaminhados pelos destinatários.
-
-Consulte na tabela abaixo as práticas recomendadas de design de emails:
-
-| Recomendado | Use com cuidado | Não recomendado |
-|-|-|-|
-| <ul><li><b>Layouts estáticos baseados em tabela</b> para a estrutura</li> <li><b>Tabelas em HTML e tabelas aninhadas</b> para consistência do layout</li> <li><b>Larguras do modelo</b> entre 600 px e 800 px </li> <li><b>CSS simples e em linha</b> para o estilo </li> <li><b>Fontes seguras para a web</b> para compatibilidade universal</li> | <ul><li><b>Imagens de fundo</b> podem não aparecer em certas plataformas de email.</li><li><b>Fontes da web personalizadas</b> não têm compatibilidade universal.</li><li><b>Layouts largos</b> podem ser exibidos incorretamente em telas menores.</li><li>Os <b>mapas de imagem</b> oferecem funcionalidade limitada.</li><li>O <b>CSS incorporado</b> às vezes é removido durante a entrega do email.</li> | <ul><li>Geralmente, o <b>JavaScript</b> não é compatível com ambientes de email.</li> <li> Tags <b>`<iframe>`</b> estão bloqueadas na maioria das plataformas. </li> <li>O <b>Flash</b> está obsoleto e não é mais compatível.</li> <li><b>Áudios integrados</b> muitas vezes não podem ser reproduzidos.</li> <li><b>Vídeos integrados</b> são incompatíveis com várias plataformas de email.</li> <li> <b>Formulários</b> não funcionam nos emails.</li> <li> A disposição em camadas de `<div>` pode causar problemas de renderização.</li> |
-
->[!NOTE]
->
->A [Lei Europeia de Acessibilidade](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} declara que todas as comunicações digitais devem ser acessíveis. Além das práticas recomendadas de design de email listadas nesta seção, certifique-se de seguir também as diretrizes listadas [nesta página](accessible-content.md) que são específicas para criar conteúdo acessível com o Designer de email.
-
 ## Etapas principais para criar conteúdo de email {#key-steps}
 
-Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, você pode começar a criar o conteúdo do email.
+Após criar um email, você pode começar a projetar o conteúdo de email.
 
 1. Na tela de configuração da jornada ou campanha, vá até a tela **[!UICONTROL Editar conteúdo]** para acessar o Designer de email. [Saiba mais](create-email.md#define-email-content)
 
@@ -76,12 +62,28 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
 
    ![](assets/email_designer_export.png)
 
+## Práticas recomendadas de design de email {#best-practices}
+
+Ao enviar emails, é importante levar em consideração que os destinatários podem encaminhá-los, o que às vezes pode causar problemas na renderização do email. Isso acontece especialmente ao usar classes CSS que podem não ser compatíveis com o provedor de email usado para encaminhamento. Por exemplo, se estiver usando a classe CSS “is-desktop-hidden” para ocultar uma imagem em dispositivos móveis.
+
+Para minimizar esses problemas de renderização, é recomendado manter a estrutura do design de emails o mais simples possível. Tente usar um único design que funcione bem tanto para desktops quanto para dispositivos móveis e evite usar classes CSS complexas ou outros elementos de design que possam não ser totalmente compatíveis com todos os clientes de email. Ao seguir essas práticas recomendadas, você ajuda a garantir que seus emails sejam renderizados corretamente de forma consistente, independentemente de como sejam visualizados ou encaminhados pelos destinatários.
+
+Consulte na tabela abaixo as práticas recomendadas de design de emails:
+
+| Recomendado | Use com cuidado | Não recomendado |
+|-|-|-|
+| <ul><li><b>Layouts estáticos baseados em tabela</b> para a estrutura</li> <li><b>Tabelas em HTML e tabelas aninhadas</b> para consistência do layout</li> <li><b>Larguras do modelo</b> entre 600 px e 800 px </li> <li><b>CSS simples e em linha</b> para o estilo </li> <li><b>Fontes seguras para a web</b> para compatibilidade universal</li> | <ul><li><b>Imagens de fundo</b> podem não aparecer em certas plataformas de email.</li><li><b>Fontes da web personalizadas</b> não têm compatibilidade universal.</li><li><b>Layouts largos</b> podem ser exibidos incorretamente em telas menores.</li><li>Os <b>mapas de imagem</b> oferecem funcionalidade limitada.</li><li>O <b>CSS incorporado</b> às vezes é removido durante a entrega do email.</li> | <ul><li>Geralmente, o <b>JavaScript</b> não é compatível com ambientes de email.</li> <li> Tags <b>`<iframe>`</b> estão bloqueadas na maioria das plataformas. </li> <li>O <b>Flash</b> está obsoleto e não é mais compatível.</li> <li><b>Áudios integrados</b> muitas vezes não podem ser reproduzidos.</li> <li><b>Vídeos integrados</b> são incompatíveis com várias plataformas de email.</li> <li> <b>Formulários</b> não funcionam nos emails.</li> <li> A disposição em camadas de `<div>` pode causar problemas de renderização.</li> |
+
+>[!NOTE]
+>
+>A [Lei Europeia de Acessibilidade](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} declara que todas as comunicações digitais devem ser acessíveis. Além das práticas recomendadas de design de email listadas nesta seção, certifique-se de seguir também as diretrizes listadas [nesta página](accessible-content.md) que são específicas para criar conteúdo acessível com o Designer de email.
+
 ## Vídeos tutoriais {#video}
 
 Saiba como criar conteúdo de email com o editor de mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417587?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Saiba como configurar experimentos de conteúdo para testes A/B e explorar o conteúdo de email que melhor impulsiona seus objetivos de negócios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447336?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '2988'
+ht-degree: 99%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 98%
       + [Enviar mensagens de vários canais](using/building-journeys/journeys-uc.md)
       + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/ajo-ac.md)
       + [Enviar uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
-      + [Enviar emails somente em dias da semana](using/building-journeys/weekday-email-uc.md)
+      + [Enviar emails apenas em dias úteis](using/building-journeys/weekday-email-uc.md)
       + [Passar coleções para parâmetros de ação personalizada](using/building-journeys/collections.md)
       + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
@@ -169,7 +169,7 @@ ht-degree: 98%
             + [Esquema de upload do arquivo](using/orchestrated/file-upload-schema.md)
             + [Assimilar dados](using/orchestrated/ingest-data.md)
          + [Criar uma dimensão de direcionamento](using/orchestrated/target-dimension.md)
-         + [Definir uma configuração de canal](using/orchestrated/channel-config.md)
+         + [Criar uma configuração de canais](using/orchestrated/channel-config.md)
       + Lançar a sua primeira campanha orquestrada {#launch}
          + [Lançar a sua primeira campanha orquestrada](/help/rp_landing_pages/launch-landing-page.md)
          + [Etapas principais para criar uma campanha orquestrada](using/orchestrated/gs-campaign-creation.md)
@@ -317,7 +317,7 @@ ht-degree: 98%
       + [Verificação e envio de mensagens de texto](using/sms/send-sms.md)
       + [Gerenciar recusa de mensagem de texto](using/sms/sms-opt-out.md)
       + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
-      + [Práticas recomendadas para otimização de custo de SMS](using/sms/sms-cost-optimization.md)
+      + [Práticas recomendadas para otimização de custos de SMS](using/sms/sms-cost-optimization.md)
       + Configurar canal de SMS/MMS/RCS {#configure-sms}
          + [Configurar canal de SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Introdução à configuração de SMS/MMS/RCS](using/sms/sms-configuration.md)
@@ -367,7 +367,7 @@ ht-degree: 98%
          + [Gerenciar experiências baseadas em código](using/code-based/publish-code-based.md)
    + Cartões de conteúdo {#content-card}
       + [Cartões de conteúdo](/help/rp_landing_pages/content-card-landing-page.md)
-      + Configurar canal de cartão de conteúdo {#configure}
+      + Configurar canal de cartões de conteúdo {#configure}
          + [Configurar canal de cartões de conteúdo](/help/rp_landing_pages/configure-landing-page.md)
          + [Pré-requisitos dos cartões de conteúdo](using/content-card/content-card-configuration-prereq.md)
          + [Configurar canal de cartões de conteúdo no Journey Optimizer](using/content-card/content-card-configuration.md)
@@ -387,13 +387,13 @@ ht-degree: 98%
       + [Configurar canal LINE no Journey Optimizer](using/line/line-configuration.md)
       + [Criar uma mensagem LINE](using/line/create-line.md)
       + [Verificar e enviar mensagens LINE](using/line/send-line.md)
-   + Atividade online {#live-activity}
-      + [Introdução à atividade Live](using/mobile-live/get-started-mobile-live.md)
-      + [Criar uma atividade ao vivo](using/mobile-live/create-mobile-live.md)
+   + Atividade em tempo real {#live-activity}
+      + [Introdução à atividade em tempo real](using/mobile-live/get-started-mobile-live.md)
+      + [Criar uma atividade em tempo real](using/mobile-live/create-mobile-live.md)
       + [Perguntas frequentes](using/mobile-live/mobile-live-faq.md)
       + Configurar canal de cartões de conteúdo {#configure}
-         + [Configurar atividade online no Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
-         + [Configurar a integração do Live Activity SDK](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [Configurar atividade em tempo real no Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
+         + [Configurar a integração do SDK de atividade em tempo real](using/mobile-live/mobile-live-configuration-sdk.md)
 + Gerenciamento de conteúdo {#content-management}
    + [Gerenciamento de conteúdo](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalização {#personalization}
@@ -443,7 +443,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -474,13 +474,11 @@ ht-degree: 98%
    + Assistente de IA para geração de conteúdo {#ai-assistant}
       + [Assistente de IA para geração de conteúdo](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introdução ao Assistente de IA](using/content-management/gs-generative.md)
-      + [Práticas recomendadas de prompt de IA](using/content-management/ai-assistant-prompting-guide.md)
-      + [Geração de email com IA](using/content-management/generative-email.md)
-      + [Geração de push com IA](using/content-management/generative-push.md)
-      + [Geração de SMS com IA](using/content-management/generative-sms.md)
-      + [Geração na Web com IA](using/content-management/generative-web.md)
+      + [Práticas recomendadas para prompts de IA](using/content-management/ai-assistant-prompting-guide.md)
+      + [Gerar conteúdo completo com IA](using/content-management/generative-full-content.md)
+      + [Gerar texto com IA](using/content-management/generative-text.md)
+      + [Gerar imagens com IA](using/content-management/generative-image.md)
       + [Experimento de conteúdo com IA](using/content-management/generative-experimentation.md)
-      + [Página de destino com IA](using/content-management/generative-lp.md)
       + [Casos de uso do Assistente de IA](using/content-management/generative-uc.md)
       + Marcas {#brands}
          + [Marcas](/help/rp_landing_pages/brands-landing-page.md)

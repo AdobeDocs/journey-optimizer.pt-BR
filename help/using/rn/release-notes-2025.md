@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 100%
 
@@ -1660,7 +1660,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <td>
 <p>Com a ajuda do Assistente de IA, agora é possível criar um conteúdo atrativo para suas páginas de destino, incluindo designs de página inteira, texto personalizado e visuais customizados.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Para obter mais informações, consulte a <a href="../content-management/generative-lp.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../content-management/generative-full-content.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
-workflow-type: ht
-source-wordcount: '919'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '866'
+ht-degree: 97%
 
 ---
 
@@ -114,7 +114,7 @@ As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na 
 * Use um modelo personalizado ou específico da marca para criar seu conteúdo de email usando o Assistente de IA no Adobe Journey Optimizer. Recomenda-se um modelo de email com 8-10 imagens, no máximo.
 * Relate resultados problemáticos usando os ícones de “polegar para cima”, “polegar para baixo” ou o sinalizador ao selecionar variantes.
 * O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR)
-* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html)
+* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 As seguintes limitações se aplicam ao Assistente de IA no Journey Optimizer:
 
@@ -128,45 +128,34 @@ As seguintes limitações se aplicam ao Assistente de IA no Journey Optimizer:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="generative-email.md">
-<img alt="Geração de email" src="assets/do-not-localize/text-genai.jpeg">
+<a href="generative-full-content.md">
+<img alt="Geração de conteúdo completo" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>Geração de email</strong></a>
+<a href="generative-full-content.md"><strong>Gerar conteúdo completo</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-sms.md">
-<img alt="Geração de SMS" src="assets/do-not-localize/image-genai.jpeg">
+<a href="generative-text.md">
+<img alt="Geração de texto" src="assets/do-not-localize/text-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>Geração de SMS</strong>
+<div><a href="generative-text.md"><strong>Gerar texto</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-push.md">
-<img alt="Geração de push" src="assets/do-not-localize/email-genai.jpeg">
+<a href="generative-image.md">
+<img alt="Geração de imagem" src="assets/do-not-localize/image-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>Geração de notificação por push</strong></a>
+<a href="generative-image.md"><strong>Gerar imagens</strong></a>
 </div>
 <p></td>
-<td>
-<a href="generative-web.md">
-<img alt="Geração para a web" src="assets/do-not-localize/web-genai.jpeg">
-</a>
-<div><a href="generative-web.md"><strong>Geração de páginas da web</strong>
-</div>
-<p>
-</td>
 </tr></table>
 
 ## Recursos adicionais
 
-* **[Assistente de IA para email](generative-email.md)**: saiba como usar o Assistente de IA para gerar e otimizar variações de conteúdo de email.
-* **[Assistente de IA para notificações por push](generative-push.md)**: saiba como criar conteúdo atraente para notificações por push com assistência de IA.
-* **[Assistente de IA para SMS](generative-sms.md)**: gere variações eficazes de mensagens SMS usando a criação de conteúdo viabilizada por IA.
-* **[Assistente de IA para experiências da web](generative-web.md)**: saiba como criar e otimizar conteúdo web com o Assistente de IA.
 * **[Experimentação generativa](generative-experimentation.md)**: entenda como combinar conteúdo gerado por IA com experimentação.
+* **[Casos de uso do Assistente de IA](generative-uc.md)** - Saiba mais sobre como usar o Assistente de IA por meio de casos de uso
 * **[Tutoriais do Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do Assistente de IA e as práticas recomendadas.

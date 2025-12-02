@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: conteúdo, editor, email, iniciar
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '723'
 ht-degree: 50%
 
 ---
@@ -71,6 +71,9 @@ Para começar a criar o conteúdo, siga as etapas abaixo:
 1. Na página inicial do Designer, selecione a opção **[!UICONTROL Design do zero]**.
 
    ![](assets/email_designer.png)
+
+
+1. Acelere sua criação de emails com o AI Assistant e gere conteúdo completo de email com texto e imagens usando o [AI Assistant para geração completa de conteúdo](../content-management/generative-full-content.md).
 
 1. Comece a criar seu conteúdo arrastando e soltando **[!UICONTROL Estruturas]** na tela para definir o layout do seu email.
 
