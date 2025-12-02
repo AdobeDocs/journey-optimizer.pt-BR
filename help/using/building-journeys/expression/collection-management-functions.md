@@ -9,9 +9,9 @@ level: Experienced
 keywords: query, coleções, funções, carga, jornada
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: e7693ba84d8806cf4b0dc10e8fdd18f2511e37ea
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '545'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 A linguagem de expressão também introduz um conjunto de funções para consultar coleções. Essas funções são explicadas abaixo.
 
-No exemplo a seguir, vamos usar a carga do evento que contém uma coleção:
+Nos exemplos a seguir, usamos um evento chamado &quot;LobbyBeacon&quot; que contém uma coleção de tokens de notificação por push. Os exemplos nesta página usam a estrutura de payload do evento mostrada abaixo:
 
 ```json
                 { 
@@ -65,6 +65,10 @@ No exemplo a seguir, vamos usar a carga do evento que contém uma coleção:
 }
 ```
 
+>[!NOTE]
+>
+>Nos exemplos abaixo, essa carga é referenciada usando `@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens}`, onde &quot;LobbyBeacon&quot; é o nome do evento e o restante do caminho corresponde à estrutura mostrada acima.
+
 ## A função all(`<condition>`)
 
 A função **[!UICONTROL all]** habilita a definição de um filtro em uma determinada coleção usando uma expressão booliana.
@@ -73,9 +77,13 @@ A função **[!UICONTROL all]** habilita a definição de um filtro em uma deter
 <listExpression>.all(<condition>)
 ```
 
-Por exemplo, entre todos os usuários do aplicativo, você pode obter os usuários usando o IOS 13 (expressão booleana &quot;app used == IOS 13&quot;). O resultado dessa função é a lista filtrada que contém itens correspondentes à expressão booleana (exemplo: usuário do aplicativo 1, usuário do aplicativo 34, usuário do aplicativo 432).
+**Exemplo conceitual:** Entre todos os usuários do aplicativo, você pode obter os usuários usando o IOS 13 (expressão booleana &quot;app used == IOS 13&quot;). O resultado dessa função é a lista filtrada que contém itens correspondentes à expressão booleana (exemplo: usuário do aplicativo 1, usuário do aplicativo 34, usuário do aplicativo 432).
 
 Em uma atividade Data Source Condition, você pode verificar se o resultado da função **[!UICONTROL all]** é nulo ou não. Você também pode combinar essa função **[!UICONTROL all]** com outras funções, como **[!UICONTROL count]**. Para obter mais informações, consulte [Atividade de Condição Data Source](../condition-activity.md#data_source_condition).
+
+**Exemplos de código usando a carga LobbyBeacon:**
+
+Os exemplos abaixo usam a carga do evento mostrada na parte superior desta página.
 
 
 >[!CAUTION]
