@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 3%
+source-wordcount: '421'
+ht-degree: 2%
 
 ---
 
@@ -28,6 +28,10 @@ Você pode acessar seu relatório de jornada baseado em código clicando no bot�
 ![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>Experiências baseadas em código funcionam como interações de entrada nas quais os usuários optam por acessar seu site ou aplicativo. Consequentemente, as métricas **Targeted** ou **Audience**, que rastreiam perfis escolhidos para a entrega de mensagens de saída, não são aumentadas para campanhas baseadas em código.
 
 ## Exibir e clicar {#impressions-code}
 
