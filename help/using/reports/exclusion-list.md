@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '868'
 ht-degree: 8%
 
 ---
@@ -63,7 +63,7 @@ Para obter mais detalhes sobre os motivos específicos de exclusão, consulte a 
 | InAppNoVariantDefined | 050041 | InApp | Um evento de exclusão é gerado quando nenhuma variante é definida para mensagem no aplicativo. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Um evento de exclusão é gerado quando o experimento é habilitado para a mensagem e nenhuma mensagem é encontrada para o tratamento qualificado. |
 | PushNoTokenFoundInProfile | 050030 | Push | Um evento de exclusão é gerado quando o perfil não tem tokens de push. |
-| PushNoValidTokenFoundForApps | 050031 | Push | Um evento de exclusão é gerado quando nenhum token válido é encontrado para os aplicativos direcionados na configuração. |
+| PushNoValidTokenFoundForApps | 050031 | Push | Um evento de exclusão é gerado quando nenhum token válido é encontrado para os aplicativos direcionados na configuração. **Importante:** ao usar um certificado de produção, o atributo `pushNotificationDetails.platform` no perfil de usuário deve ser definido como `apns`. Se estiver usando um certificado de sandbox, defina-o como `apnsSandbox`. Uma incompatibilidade entre o atributo de plataforma e o tipo de certificado acionará essa exclusão. |
 | PushMalformedProfile | 050034 | Push | Um evento de exclusão é gerado quando pushNotificationDetails no perfil está malformado. |
 | PushNoConsent | 050111 | Push | Um evento de exclusão é gerado quando o usuário recusa as notificações por push de marketing. |
 | PushNoApplicationDefinedInPreset | 050033 | Push | Um evento de exclusão é gerado quando a configuração não contém nenhum aplicativo para o target. |

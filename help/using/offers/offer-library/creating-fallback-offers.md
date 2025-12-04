@@ -10,14 +10,24 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 4%
+source-wordcount: '392'
+ht-degree: 9%
 
 ---
 
 # Criar ofertas substitutas {#create-fallback-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="Oferta de fallback"
+>abstract="Uma oferta substituta é a oferta padrão exibida quando um usuário final não é elegível para nenhuma oferta personalizada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_fallback_offer_details "
+>title="Detalhes da oferta substituta"
+>abstract="Especifique o nome da oferta substituta. Você também pode associar um ou vários qualificadores de coleção existentes a ele, permitindo pesquisar e organizar a Biblioteca de ofertas com mais facilidade."
 
 A oferta substituta é enviada aos clientes se eles não estiverem qualificados para outras ofertas. As etapas para criar uma oferta substituta consistem na criação de uma ou várias representações, como ao criar uma oferta.
 
@@ -65,5 +75,5 @@ Para criar uma oferta substituta, siga estas etapas:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341361?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

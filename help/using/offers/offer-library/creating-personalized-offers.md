@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 18%
+source-wordcount: '807'
+ht-degree: 16%
 
 ---
 
@@ -52,11 +52,6 @@ A lista de ofertas personalizadas está acessível no menu **[!UICONTROL Ofertas
 >id="ajo_decisioning_new_personalized"
 >title="Oferta personalizada"
 >abstract="Uma oferta personalizada é uma mensagem de marketing personalizável baseada em restrições e regras de elegibilidade."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_new_fallback"
->title="Oferta de fallback"
->abstract="Uma oferta substituta é a oferta padrão exibida quando o usuário final não se qualifica para receber as ofertas personalizadas da coleção."
 
 Para criar uma **oferta**, siga estas etapas:
 
@@ -151,7 +146,7 @@ O botão **[!UICONTROL Mais ações]** habilita as ações descritas abaixo.
 
   >[!CAUTION]
   >
-  >A oferta e seu conteúdo não estarão mais acessíveis. Essa ação não pode ser desfeita.
+  >A oferta e seu conteúdo não estarão mais acessíveis. Esta ação não pode ser desfeita.
   >
   >Se a oferta for usada em uma coleção ou em uma decisão, ela não poderá ser excluída. Você deve remover a oferta de qualquer objeto primeiro.
 
@@ -175,4 +170,4 @@ Isso permite que você acesse informações detalhadas dessa oferta. Selecione a
 
 ## Tutorial em vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341360?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

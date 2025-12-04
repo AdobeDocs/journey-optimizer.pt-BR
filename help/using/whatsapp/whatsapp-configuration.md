@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 14%
+source-wordcount: '1061'
+ht-degree: 13%
 
 ---
 
@@ -179,6 +179,23 @@ Depois de configurado, você pode aproveitar todos os recursos de canal prontos 
 
 Agora você está pronto para enviar mensagens do WhatsApp com o Journey Optimizer.
 
+## Solução de problemas de configuração de canal do WhatsApp {#troubleshooting}
+
+### Erros HTTP 500 durante a configuração da credencial da API
+
+Se você encontrar um erro HTTP 500 ao configurar as credenciais da API do WhatsApp, siga estas etapas de solução de problemas:
+
+1. **Verificar direitos**: confirme se sua organização tem o direito `cjm_whatsapp` provisionado. Sem esse direito, o canal do WhatsApp não pode ser configurado.
+
+1. **Validar campos de conta comercial**: verifique se todos os campos obrigatórios estão corretamente preenchidos:
+   * **Token de API**: deve ser um token de acesso Meta válido com permissões apropriadas. [Saiba mais](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+   * **ID da Conta Comercial**: deve corresponder exatamente à sua ID da Conta Comercial do Meta. [Saiba mais](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
+
+1. **Testar credenciais externamente**: verifique suas credenciais diretamente com a API do Meta para confirmar se o problema está relacionado às credenciais ou à manipulação de credenciais do Journey Optimizer.
+
+1. **Habilitar log avançado**: para identificar erros de configuração de servidor interno ou autenticação, habilite logs avançados no ambiente do Journey Optimizer para fornecer informações detalhadas sobre as falhas de chamada de API.
+
+1. **Contate o suporte**: se o ambiente e os direitos forem confirmados válidos, mas o erro HTTP 500 persistir, contate o representante da Adobe.
 
 ## Vídeo tutorial {#video}
 
@@ -186,6 +203,6 @@ O vídeo abaixo mostra como configurar o canal do WhatsApp no Adobe Journey Opti
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470273/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

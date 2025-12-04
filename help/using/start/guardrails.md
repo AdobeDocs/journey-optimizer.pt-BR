@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
+source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
 workflow-type: tm+mt
-source-wordcount: '3324'
-ht-degree: 91%
+source-wordcount: '3530'
+ht-degree: 86%
 
 ---
 
@@ -171,6 +171,23 @@ As medidas de proteção e limitações que devem ser consideradas ao trabalhar 
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
 * Uma instância de jornada para um perfil tem tamanho máximo de 1 MB. Todos os dados coletados como parte da execução da jornada são armazenados nessa instância da jornada. Portanto, dados de um evento de entrada, informações de perfil recuperadas da Adobe Experience Platform, respostas de ações personalizadas etc. são armazenados nessa instância da jornada e afetam o tamanho da jornada. É aconselhável, quando uma jornada inicia com um evento, limitar o tamanho máximo desse conteúdo do evento (por exemplo: até 800 KB) para evitar atingir esse limite após algumas atividades, na execução da jornada. Quando esse limite é atingido, o perfil fica com status de erro e será excluído da jornada.
 * Além do tempo limite usado em atividades de jornada, também há um tempo limite de jornada global que não aparece na interface e não pode ser alterado. Esse tempo limite global interrompe o progresso das pessoas na jornada 91 dias após a sua entrada. [Leia mais](../building-journeys/journey-properties.md#global_timeout)
+
+### Selecionar limitações de pacote para jornadas unitárias {#select-package-limitations}
+
+>[!NOTE]
+>
+>Essas limitações não se aplicam às jornadas Ler Público ou Evento Comercial com o pacote **Select**. Se você precisar de uma lógica de jornada mais complexa com várias ações, condições ou atividades de espera, considere atualizar seu pacote de licença ou usar a opção Ler jornadas de público-alvo, quando aplicável.
+
+Para clientes que usam o pacote de licença **Select**, as seguintes limitações adicionais se aplicam especificamente a jornadas unitárias, jornadas que começam com um evento ou uma qualificação de público-alvo:
+
+* **Selecionar pacote: somente uma ação permitida na jornada unitária (ERR_PKG_SELECT_8)**: as jornadas unitárias podem conter apenas uma atividade de ação. Não é possível adicionar várias atividades de email, push, SMS ou outras atividades de ação na mesma jornada.
+
+* **Pacote SELECT: nenhuma condição permitida na jornada unitária (ERR_PKG_SELECT_7)**: as atividades de condição não podem ser usadas em jornadas unitárias. A jornada deve seguir um único caminho linear sem lógica de ramificação.
+
+* **Selecionar pacote: nenhuma espera permitida na jornada unitária (ERR_PKG_SELECT_6)**: não é possível adicionar atividades de espera a jornadas unitárias. As ações devem ser executadas imediatamente, sem atrasos.
+
+* **Pacote SELECT: a transição de tempo limite/erro do nó deve apontar somente para o nó final (ERR_PKG_SELECT_2)**: se você configurar transições de tempo limite ou erro para uma ação, como uma ação de email, esses caminhos devem apontar diretamente para um nó final. Eles não podem se conectar a outras atividades ou ações na jornada.
+
 
 ### Ações gerais {#general-actions-g}
 

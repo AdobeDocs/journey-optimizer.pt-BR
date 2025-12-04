@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 38d537eb7a14f926cafd2769fd09821eebb1186a
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 16%
+source-wordcount: '634'
+ht-degree: 14%
 
 ---
 
@@ -42,6 +42,8 @@ Ao usar Infobip, certifique-se de que a ação de encaminhamento esteja definida
 
 Nenhuma etapa é necessária para garantir que os recursos de recusa de SMS funcionem no Adobe Journey Optimizer, pois as respostas com palavras-chave STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE são reconhecidas automaticamente. Os status de recusa de perfis são atualizados em tempo real no Adobe Journey Optimizer.
 
+Se você definir palavras-chave de recusa personalizadas nas credenciais da API do SMS, elas substituirão as palavras-chave de entrada padrão listadas acima. Para manter funcionais as palavras-chave padrão, como PARAR, SAIR, CANCELAR, ENCERRAR e CANCELAR INSCRIÇÃO, inclua-as explicitamente junto com suas palavras-chave personalizadas no campo Palavras-chave de recusa da sua configuração de SMS. Caso contrário, somente suas palavras-chave personalizadas serão reconhecidas, e as palavras-chave padrão não acionarão mais ações de recusa.
+
 Observe que se um cliente responder PARAR para uma mensagem de texto, o provedor bloqueará todo o SMS subsequente da ID do remetente específica (código curto ou número longo), incluindo mensagens transacionais. Para garantir o delivery ininterrupto de SMS transacional, use uma ID do remetente separada que não tenha sido recusada anteriormente.
 
 
@@ -71,6 +73,6 @@ As IDs alfanuméricas do remetente são somente para mensagens unidirecionais e 
 
   +++ Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440282/?captions=por_br&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++
