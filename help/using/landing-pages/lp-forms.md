@@ -10,9 +10,9 @@ level: Beginner
 keywords: landing page, landing page, criação, página, formulário
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: 13ef8ae4fa988537db192eca0b906940e51eeb28
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1630'
 ht-degree: 10%
 
 ---
@@ -69,9 +69,16 @@ Para criar uma predefinição de formulário, siga as etapas abaixo.
 
 1. Selecione a **[!UICONTROL Conexão de streaming]** a ser usada para esse formulário. Este é o ponto de encerramento da transmissão para onde os dados são enviados ao enviar o formulário.
 
-   >[!NOTE]
+   Saiba mais sobre como criar uma conexão de origem de streaming na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+
+   >[!IMPORTANT]
    >
-   >Saiba mais sobre como criar uma conexão de origem de streaming na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Para que uma conexão de transmissão da API HTTP seja exibida na lista suspensa, ela deve atender aos seguintes requisitos quando criada no Adobe Experience Platform:
+   >
+   >* **O tipo de dados** deve ser definido como **XDM** (não dados brutos)
+   >* A **Autenticação** deve ser **desabilitada** (conexão não autenticada)
+   >
+   >Se a conexão de transmissão não for exibida na lista, verifique se essas duas condições foram atendidas. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. É possível digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
 
