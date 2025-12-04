@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: conversão, funções, expressão, jornada, tipo, conversão
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1054'
 ht-degree: 6%
 
 ---
@@ -142,12 +142,13 @@ Converte parâmetros em um valor de data e hora, dependendo de seus tipos.
 
 +++Parâmetros
 
-| Parâmetro | Tipo |
-|-----------|------------------|
-| data e hora no formato ISO-8601 | sequência de caracteres |
-| id do fuso horário | sequência de caracteres |
-| data hora sem fuso horário | dateTimeOnly |
-| valor inteiro de uma época em milissegundos | inteiro |
+| Parâmetro | Descrição |
+|--- |--- |
+| sequência de caracteres | data e hora no formato ISO-8601. Uma representação da string de um datetime com informações de fuso horário |
+| sequência de caracteres | id do fuso horário. Um identificador de fuso horário (por exemplo, &quot;UTC&quot;, &quot;Europa/Paris&quot;) |
+| dateOnly | representa uma data sem fuso horário, visualizada como ano-mês-dia |
+| dateTimeOnly | representa um datetime sem um fuso horário, exibido como year-month-day-hour-minute-second-milisecond |
+| inteiro | valor inteiro de uma época em milissegundos |
 
 +++
 
@@ -155,7 +156,9 @@ Converte parâmetros em um valor de data e hora, dependendo de seus tipos.
 
 `toDateTime(<string>)`
 
-`toDateTime(<stringified time zone id>, <dateTimeOnly>)`
+`toDateTime(<string>, <dateOnly>)`
+
+`toDateTime(<string>, <dateTimeOnly>)`
 
 `toDateTime(<integer>)`
 
@@ -165,17 +168,29 @@ Retornar um **dateTime**.
 
 +++Exemplos
 
-`toDateTime ("2023-08-18T23:17:59.123Z")`
+`toDateTime("2023-08-18T23:17:59.123Z")`
 
 Retorna 2023-08-18T23:17:59.123Z
 
-`toDateTime(toDateTimeOnly("UTC", "2023-08-18T23:17:59.123"))`
+A cadeia de caracteres ISO-8601 já inclui informações de fuso horário.
+
+`toDateTime("Europe/Paris", toDateOnly("2023-08-18"))`
+
+Retorna 18T00:00:00.000+02:00 de 2023
+
+Isso cria um dateTime combinando um fuso horário com um valor somente de data. A hora é definida como meia-noite (00:00:00) no fuso horário especificado.
+
+`toDateTime("UTC", toDateTimeOnly("2023-08-18T23:17:59.123"))`
 
 Retorna 2023-08-18T23:17:59.123Z
+
+Isso cria um dateTime aplicando um fuso horário a um valor dateTimeOnly (que não tem informações de fuso horário).
 
 `toDateTime(1560762190189)`
 
-Retorna 17T09:03:10.189Z de 2023
+Retorna 17T09:03:10.189Z de 2019
+
+Converte um carimbo de data e hora Unix em milissegundos em um valor dateTime.
 
 +++
 
