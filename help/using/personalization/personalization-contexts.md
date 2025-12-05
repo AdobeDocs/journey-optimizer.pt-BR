@@ -569,7 +569,7 @@ O manuseio de coleção para ações personalizadas é abordado em [Transmitir c
 @event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
 ```
 
-2. Na interface de mapeamento de coleção:
+&#x200B;2. Na interface de mapeamento de coleção:
    * Mapa `id` → `productListItems.SKU`
    * Mapa `name` → `productListItems.name`
    * Mapa `price` → `productListItems.priceTotal`
@@ -691,7 +691,7 @@ Saiba mais em [Usar respostas de chamada de API](../action/action-response.md).
 @event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
 ```
 
-3. Mapeie os campos da coleção:
+&#x200B;3. Mapeie os campos da coleção:
    * `sku` → `productListItems.SKU`
    * `price` → `productListItems.priceTotal`
    * `quantity` → `productListItems.quantity`
