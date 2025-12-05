@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: expressão, editor, handlebars, iteração, matrizes, contexto, personalização
-source-git-commit: 44999e7b1a246d584dccd81bfb426222169d4f67
+source-git-commit: 61f5302510cc5082a36f17314378760e5ba7c3ae
 workflow-type: tm+mt
 source-wordcount: '2484'
 ht-degree: 3%
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Exemplo: itens do carrinho de um evento
 
-Se o [esquema de eventos](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}), você poderá exibir o conteúdo do carrinho da seguinte maneira:
+Se o [esquema de eventos](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}), você poderá exibir o conteúdo do carrinho da seguinte maneira:
 
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -529,6 +529,7 @@ serializeList(
 * Resultado: `"SKU-1,SKU-3"` (adequado para um parâmetro de consulta)
 
 Saiba mais sobre:
+
 * [`all`](../building-journeys/expression/collection-management-functions.md)
 * [`serializeList`](../building-journeys/functions/list-functions.md#serializeList)
 
@@ -565,11 +566,11 @@ O manuseio de coleção para ações personalizadas é abordado em [Transmitir c
 
 1. No modo Avançado, defina a expressão de coleção:
 
-```javascript
-@event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
-```
+   ```javascript
+   @event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
+   ```
 
-&#x200B;2. Na interface de mapeamento de coleção:
+1. Na interface de mapeamento de coleção:
    * Mapa `id` → `productListItems.SKU`
    * Mapa `name` → `productListItems.name`
    * Mapa `price` → `productListItems.priceTotal`
@@ -685,13 +686,13 @@ Saiba mais em [Usar respostas de chamada de API](../action/action-response.md).
 **Etapa 3: conectar a ação na jornada**
 
 1. Após o evento de abandono do carrinho, adicione a ação personalizada
-2. No modo Avançado para a coleção `cartItems`:
+1. No modo Avançado para a coleção `cartItems`:
 
-```javascript
-@event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
-```
+   ```javascript
+   @event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
+   ```
 
-&#x200B;3. Mapeie os campos da coleção:
+1. Mapeie os campos da coleção:
    * `sku` → `productListItems.SKU`
    * `price` → `productListItems.priceTotal`
    * `quantity` → `productListItems.quantity`
