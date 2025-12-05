@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 5%
+source-wordcount: '659'
+ht-degree: 6%
 
 ---
 
@@ -214,34 +214,9 @@ currentActionField.description == "abc"
 
 ### Uso de respostas de ação personalizadas em canais nativos {#response-in-channels}
 
-Você pode iterar sobre matrizes aninhadas a partir de uma resposta de ação personalizada em canais nativos (como email, push ou SMS) usando a sintaxe Handlebars. Isso é útil quando você precisa personalizar o conteúdo da mensagem com dados dinâmicos de sistemas externos.
+Os campos de carga de resposta de ações personalizadas podem ser usados em canais nativos (email, push, SMS) para personalização de mensagens. Isso inclui a capacidade de iterar sobre matrizes e estruturas de dados aninhadas retornadas por APIs externas.
 
-Por exemplo, se sua ação personalizada retornar a seguinte resposta de um sistema externo:
-
-```json
-{    
-    "id": "84632848268632",    
-    "responses": [
-        { "productIDs": [1111,2222,3333] },
-        { "productIDs": [4444,5555,6666] },
-        { "productIDs": [7777,8888,9999] }
-    ]
-}
-```
-
-Você pode iterar sobre a matriz `responses` e as matrizes `productIDs` aninhadas em um canal nativo (por exemplo, em um email) da seguinte maneira:
-
-```handlebars
-{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
-
-  {{#each res.productIDs as |productID|}}
-    <li>{{productID}}</li>
-  {{/each}}
-
-{{/each}}
-```
-
-Substitua `<yourcustomaction>` pelo nome real da sua ação personalizada conforme configurado na jornada.
+<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/personalization-contexts.md#custom-action-responses).-->
 
 ## Recursos adicionais
 
