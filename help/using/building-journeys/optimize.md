@@ -11,9 +11,9 @@ keywords: atividade, condição, tela, jornada, otimização
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1662'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ Quando a jornada estiver ativa, os perfis serão avaliados de acordo com os crit
 >id="ajo_path_experiment_success_metric"
 >title="Métricas de sucesso"
 >abstract="As métricas de sucesso são usadas para controlar e avaliar o tratamento com melhor desempenho em um experimento."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurar e rastrear as métricas da jornada"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurar e rastrear as métricas da jornada"
 
 A experimentação permite testar caminhos diferentes com base em uma divisão aleatória para determinar qual tem o melhor desempenho com base em métricas de sucesso predefinidas.
 
@@ -120,6 +120,10 @@ Digamos que você deseje comparar três caminhos:
 Quando a jornada estiver ativa, os usuários serão atribuídos aleatoriamente para percorrer caminhos diferentes. [!DNL Journey Optimizer] rastreia qual caminho tem melhor desempenho e fornece insights acionáveis.
 
 Siga o sucesso da sua jornada com o relatório Experimento de caminho de Jornada. [Saiba mais](../reports/journey-global-report-cja-experimentation.md)
+
+>[!CAUTION]
+>
+>Não edite os metadados de um experimento de caminho depois de ele ter sido publicado. A edição dos metadados interromperá o cálculo e o relatório dos resultados do experimento.
 
 ### Casos de uso de experimentos {#uc-experiment}
 
