@@ -12,7 +12,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
 workflow-type: tm+mt
 source-wordcount: '3530'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -88,29 +88,29 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../sms/get-star
 
 ### Medidas de proteção de canal de entrada {#inbound-guardrails}
 
-* Para usar ações de [experiência baseada em código](../code-based/get-started-code-based.md) no [!DNL Journey Optimizer] e entregar conteúdo útil de conteúdo de código que pode ser usada por seus aplicativos, siga os pré-requisitos detalhados [nesta página](../code-based/code-based-prerequisites.md).
+* Para usar ações de [experiência baseada em código](../code-based/get-started-code-based.md) no [!DNL Journey Optimizer] e entregar conteúdo de código que pode ser usado por seus aplicativos, siga os pré-requisitos detalhados [nesta página](../code-based/code-based-prerequisites.md).
 
-* Para acessar e criar [páginas da Web](../web/get-started-web.md) na interface do usuário [!DNL Journey Optimizer], siga os pré-requisitos listados em [esta página](../web/web-prerequisites.md).
+* Para acessar e criar [páginas da web](../web/get-started-web.md) na interface do [!DNL Journey Optimizer], siga os pré-requisitos listados [nesta página](../web/web-prerequisites.md).
 
-* Para enviar mensagens no aplicativo em suas jornadas e campanhas com o [!DNL Journey Optimizer], siga os pré-requisitos de entrega listados em [esta página](../in-app/inapp-configuration.md).
+* Para enviar mensagens no aplicativo nas jornadas e campanhas com o [!DNL Journey Optimizer], siga os pré-requisitos de entrega listados [nesta página](../in-app/inapp-configuration.md).
 
-* Para que o Adobe Journey Optimizer exiba corretamente os cartões de conteúdo, você deve definir as configurações do Adobe Experience Platform listadas em [esta página](../content-card/content-card-configuration-prereq.md).
+* Para que o Adobe Journey Optimizer exiba corretamente os cartões de conteúdo, é necessário definir as configurações da Adobe Experience Platform listadas [nesta página](../content-card/content-card-configuration-prereq.md).
 
 * O Journey Optimizer aceita um volume máximo de 5.000 solicitações de entrada por segundo. Essa medida de proteção se aplica a todas as solicitações de entrada, que podem se originar de qualquer um dos canais de entrada compatíveis com o Journey Optimizer ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)).
 
-* O Journey Optimizer aceita no máximo 500 ações de entrada ativas a qualquer momento. Essas ações de entrada são contadas se fizerem parte de uma campanha em tempo real ou se forem um nó usado em uma jornada em tempo real. Ao atingir esse número, é preciso desativar campanhas ou jornadas mais antigas que estejam usando ações de entrada antes de poder lançar novas.
+* O Journey Optimizer aceita no máximo 500 ações de entrada ativas a qualquer momento. Essas ações de entrada são contadas se fizerem parte de uma campanha ativa ou se forem um nó usado em uma jornada ativa. Ao atingir esse número, é preciso desativar campanhas ou jornadas mais antigas que estejam usando ações de entrada antes de poder lançar novas.
 
 #### Gerenciamento de perfis com canais de entrada {#profile-management-inbound}
 
-[!DNL Journey Optimizer] canais de entrada podem direcionar perfis com pseudônimos, ou seja, perfis que ainda não foram autenticados ou conhecidos por não terem sido engajados anteriormente em outros canais. Esse é o caso, por exemplo, ao direcionar todos os visitantes ou públicos com base em IDs temporárias, como ECID.
+Os canais de entrada do [!DNL Journey Optimizer] podem direcionar perfis pseudônimos, ou seja, perfis que ainda não foram autenticados ou conhecidos por não terem sido engajados anteriormente em outros canais. Esse é o caso, por exemplo, ao direcionar todos os visitantes ou públicos-alvo com base em IDs temporárias, como ECID.
 
-Isso aumenta a contagem total de perfis que podem ser ativados, o que pode ter implicações de custo se o número contratual de perfis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de perfis ativáveis no [painel de uso de licença](../audience/license-usage.md).
+Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis adquiridos for excedido. As métricas de licença de cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. É possível verificar o número de perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
 
-Para manter seus perfis ativáveis dentro de limites razoáveis, a Adobe recomenda configurar um TTL (Time-To-Live) para excluir automaticamente perfis com pseudônimos do Perfil do cliente em tempo real se eles não tiverem sido vistos ou envolvidos em uma janela de tempo específica.
+Para manter os perfis que podem ser engajados dentro de limites razoáveis, a Adobe recomenda configurar um tempo de vida (TTL) para excluir automaticamente perfis pseudônimos do Perfil do cliente em tempo real se eles não tiverem sido vistos ou engajados em uma janela de tempo específica.
 
 >[!NOTE]
 >
->Saiba como configurar a expiração de dados para perfis com pseudônimo na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
+>Saiba como configurar a expiração de dados para perfis pseudônimos na [documentação da Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
 
 A Adobe recomenda definir o valor de TTL como 14 dias para corresponder ao TTL do perfil do Edge atual.
 
@@ -152,7 +152,7 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
 
 * Ao assimilar dados, os emails fazem distinção entre maiúsculas e minúsculas. Isso significa que perfis duplicados podem ser criados (por exemplo, um perfil para John.Greene@luma.com, outro perfil para john.greene@luma.com) e usados ao direcionar o destinatário correspondente em suas jornadas e campanhas do [!DNL Journey Optimizer].
 
-* Ao direcionar perfis pseudônimos (visitantes não autenticados) com canais de entrada, considere configurar um TTL (Time-To-Live) para exclusão automática de perfil para gerenciar a contagem de perfis ativáveis e os custos associados. [Saiba mais](#profile-management-inbound)
+* Ao direcionar perfis pseudônimos (visitantes não autenticados) com canais de entrada, considere configurar um tempo de vida (TTL) para exclusão automática de perfis com o fim gerenciar a contagem de perfis engajáveis e os custos associados. [Saiba mais](#profile-management-inbound)
 
 ## Medidas de proteção de decisão e gestão de decisões {#decisioning-guardrails}
 
