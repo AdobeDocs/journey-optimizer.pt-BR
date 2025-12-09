@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1094'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,12 @@ Com a Gestão de decisões, você pode criar e fornecer experiências de oferta 
 Você pode criar e entregar ofertas fazendo uma solicitação POST para a API [!DNL Decisioning].
 
 Este tutorial requer uma compreensão funcional das APIs, especificamente no que diz respeito à Gestão de decisões. Para obter mais informações, consulte o [Guia do desenvolvedor da API de Gerenciamento de Decisões](../getting-started.md). Este tutorial também requer que você tenha uma ID de posicionamento exclusiva e um valor de ID de decisão disponíveis. Se você não adquiriu esses valores, consulte os tutoriais de [criação de um posicionamento](../offers-api/placements/create.md) e [criação de uma decisão](../activities-api/activities/create.md).
+
+>[!NOTE]
+>
+>**Passando dados de contexto em solicitações de decisão**
+>
+>Você pode transmitir dados de contexto (como tipo de dispositivo, local ou preferências do usuário) em suas solicitações do Decisioning para criar regras de elegibilidade dinâmicas e fornecer ofertas personalizadas com base em condições em tempo real. [Saiba mais sobre dados de contexto e solicitações de decisão](../../context-data-decisioning.md)
 
 ## Cabeçalhos obrigatórios {#required-headers}
 
@@ -222,7 +228,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342833/?captions=por_br&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Próximas etapas {#next-steps}
 
