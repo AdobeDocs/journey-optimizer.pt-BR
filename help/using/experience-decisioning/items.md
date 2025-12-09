@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3215129db1909c3f14f91f11d98a93144b58a837
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 17%
+source-wordcount: '2162'
+ht-degree: 16%
 
 ---
 
@@ -37,7 +37,7 @@ Para criar um item de decisão, navegue até **[!UICONTROL Decisão]** > **[!UIC
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
 >title="Definir os atributos personalizados"
->abstract="Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são criados no esquema de catálogo dos itens de decisão. Esta seção só será exibida se você tiver adicionado pelo menos um atributo personalizado ao esquema de catálogo."
+>abstract="Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são criados no schema do catálogo dos itens de decisão."
 
 Comece definindo os atributos padrão e personalizados do item de decisão:
 
@@ -83,8 +83,8 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 >abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -223,7 +223,7 @@ Selecionar um item de decisão ou clicar no botão de reticências permite as a�
 
   >[!IMPORTANT]
   >
-  >Depois de excluído, o item de decisão e seu conteúdo não estarão mais acessíveis. Essa ação não pode ser desfeita.
+  >Depois de excluído, o item de decisão e seu conteúdo não estarão mais acessíveis. Esta ação não pode ser desfeita.
 
   Os itens de oferta aprovados não poderão ser excluídos se forem usados em uma coleção ou em uma decisão. Para excluí-los, altere o status para &quot;Rascunho&quot;. Para fazer isso, clique no botão de reticências e selecione **[!UICONTROL Desfazer aprovação]**.
 
