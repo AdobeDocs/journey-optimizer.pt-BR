@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
+source-git-commit: 9894abfbc07268fea7c5081beaa93179cd63f689
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '451'
 ht-degree: 6%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 6%
 >title="Definir os atributos personalizados"
 >abstract="Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são criados no schema do catálogo dos itens de decisão."
 
-No Decisioning, os catálogos servem como contêineres centrais para organizar itens de decisão. Cada catálogo está vinculado a um esquema do Adobe Experience Platform, abrangendo todos os atributos atribuíveis a um item de decisão.
+No Decisioning, os catálogos servem como contêineres centrais para organizar itens de decisão. Cada catálogo está vinculado a um esquema [!DNL Adobe Experience Platform], abrangendo todos os atributos atribuíveis a um item de decisão.
 
 Por enquanto, todos os itens de decisão criados são consolidados em um único catálogo &quot;Ofertas&quot;, acessível pelo menu **[!UICONTROL Catálogos]**.
 
-![](assets/catalogs-list.png)
+![Lista de catálogos de itens mostrando o catálogo de Ofertas](assets/catalogs-list.png)
 
 ## Medidas de proteção e limitações
 
@@ -34,7 +34,6 @@ Para garantir desempenho e consistência ideais, o Decisioning impõe as seguint
 * **Tipos de dados com suporte**
 
   Por enquanto, a Decisão suporta exclusivamente os seguintes tipos de dados: String, Integer, Boolean, Date, DateTime, Decisioning Asset e Object. Qualquer campo fora desses tipos de dados não estará disponível para uso ao criar um item de decisão ou um catálogo.
-
 
 * **Limite de atributo personalizado**
 
@@ -55,22 +54,18 @@ Para acessar o schema do catálogo em que os atributos dos itens de decisão sã
    * O nó **`_experience`** inclui atributos de itens de decisão padrão, como nome, data inicial e final e descrição.
    * O nó **`_<imsOrg>`** abriga atributos de itens de decisão personalizados, em que `<imsOrg>` é substituído pelo nome da sua organização (por exemplo, `_luma` para a empresa Luma). Por padrão, nenhum atributo personalizado é configurado, mas você pode adicionar quantos forem necessários para atender aos seus requisitos. Depois de concluído, os atributos personalizados aparecem na tela de criação do item de decisão ao lado dos atributos padrão.
 
-   ![](assets/catalogs-schema.png)
+   ![Estrutura de esquema de catálogo com nós de experiência e organização](assets/catalogs-schema.png)
 
 1. Para adicionar um atributo personalizado ao esquema, expanda o nó da sua organização (por exemplo, **`_luma`**) e clique no botão &quot;+&quot; no local desejado na estrutura.
 
-   ![](assets/catalogs-add.png)
+   ![Botão Adicionar atributo personalizado no editor de esquema](assets/catalogs-add.png)
 
 1. Preencha os campos necessários para o atributo adicionado e clique em **[!UICONTROL Aplicar]**.
 
-   O valor inserido em um atributo com atributo de ativo de decisão é um url público. Na maioria das vezes, isso apontaria para uma imagem.
-
-   Informações detalhadas sobre como trabalhar com esquemas do Adobe Experience Platform estão disponíveis na [documentação do Sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR).
+   O valor inserido em um atributo com um atributo de ativo de decisão é um URL público. Na maioria das vezes, isso apontaria para uma imagem. Informações detalhadas sobre como trabalhar com esquemas [!DNL Adobe Experience Platform] estão disponíveis na [documentação do Sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR).
 
 1. Depois que os atributos personalizados desejados forem adicionados, salve o esquema. O novo campo agora está disponível na tela de criação do item de decisão, na seção **[!UICONTROL Atributos personalizados]**.
 
-
    O exemplo abaixo mostra uma tela de criação de item com atributos personalizados, como objetos definidos no esquema.
 
-   ![](assets/custom-attributes.png)
-
+   ![Tela de criação de item de decisão com seção de atributos personalizados](assets/custom-attributes.png)
