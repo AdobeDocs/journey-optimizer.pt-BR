@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: f43b1ea0dd2197331329e24cb3d76eef0b5a9e86
+source-git-commit: 093e5ba2a74b498bb31d0398e1df460fd93b285f
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '289'
 ht-degree: 1%
 
 ---
@@ -104,6 +104,10 @@ Verifique se os seguintes campos estão configurados corretamente:
 
 Cada oferta em uma proposta inclui um token de rastreamento, que é um identificador exclusivo gerado pelo Adobe. Esse token deve ser transmitido exatamente como recebido, sem alteração, no evento de clique ou impressão correspondente. Os tokens de rastreamento correspondentes garantem que o Adobe possa associar precisamente a ação do usuário à decisão de oferta correta, permitindo a geração de relatórios downstream e a otimização baseada em IA.
 
+>[!CAUTION]
+>
+>Se você não passar o token de rastreamento no campo `propositionAction.tokens` ao rastrear cliques, os eventos de clique não serão atribuídos corretamente à oferta correspondente. Isso resultará em dados de rastreamento incompletos e afetará negativamente os relatórios e a otimização de classificação baseada em IA. Sempre inclua o token de rastreamento da proposta na implementação do rastreamento de cliques.
+
 +++**Carga de exemplo:**
 
 ```json
@@ -179,4 +183,4 @@ Para eventos personalizados, o esquema usado no conjunto de dados também deve t
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=pt-BR){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.-->
