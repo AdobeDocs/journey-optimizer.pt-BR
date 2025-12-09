@@ -7,14 +7,19 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 6%
 
 ---
 
-# Catálogo de itens {#catalog}
+# Configurar o catálogo de itens {#catalog}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="Definir os atributos personalizados"
+>abstract="Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são criados no schema do catálogo dos itens de decisão."
 
 No Decisioning, os catálogos servem como contêineres centrais para organizar itens de decisão. Cada catálogo está vinculado a um esquema do Adobe Experience Platform, abrangendo todos os atributos atribuíveis a um item de decisão.
 
@@ -48,11 +53,11 @@ Para acessar o schema do catálogo em que os atributos dos itens de decisão sã
 1. O schema do catálogo é aberto em uma nova guia, seguindo a estrutura abaixo:
 
    * O nó **`_experience`** inclui atributos de itens de decisão padrão, como nome, data inicial e final e descrição.
-   * O nó **`_<imsOrg>`** hospeda atributos de itens de decisão personalizados. Por padrão, nenhum atributo personalizado é configurado, mas você pode adicionar quantos forem necessários para atender aos seus requisitos. Depois de concluído, os atributos personalizados aparecem na tela de criação do item de decisão ao lado dos atributos padrão.
+   * O nó **`_<imsOrg>`** abriga atributos de itens de decisão personalizados, em que `<imsOrg>` é substituído pelo nome da sua organização (por exemplo, `_luma` para a empresa Luma). Por padrão, nenhum atributo personalizado é configurado, mas você pode adicionar quantos forem necessários para atender aos seus requisitos. Depois de concluído, os atributos personalizados aparecem na tela de criação do item de decisão ao lado dos atributos padrão.
 
    ![](assets/catalogs-schema.png)
 
-1. Para adicionar um atributo personalizado ao esquema, expanda o nó **`_<imsOrg>`** e clique no botão &quot;+&quot; no local desejado na estrutura.
+1. Para adicionar um atributo personalizado ao esquema, expanda o nó da sua organização (por exemplo, **`_luma`**) e clique no botão &quot;+&quot; no local desejado na estrutura.
 
    ![](assets/catalogs-add.png)
 
