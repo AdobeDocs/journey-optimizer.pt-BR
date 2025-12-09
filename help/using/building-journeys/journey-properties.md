@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2849'
 ht-degree: 15%
 
 ---
@@ -273,6 +273,10 @@ Ao adicionar critérios de saída, você faz com que os perfis saiam da jornada 
 
 Talvez você queira remover perfis de uma jornada quando eles não atenderem mais ao objetivo da jornada. Isso pode ser feito por **critérios de saída globais**, que estão intimamente associados ao gerenciamento de metas.
 
+>[!TIP]
+>
+>Procurando orientação prática com exemplos do mundo real? Consulte nosso [guia abrangente para os critérios de entrada e saída do jornada](entry-exit-criteria-guide.md), que inclui casos de uso completos com configurações de entrada e saída, práticas recomendadas e estratégias de otimização.
+
 **Caso de uso de exemplo**
 
 Um profissional de marketing tem uma jornada promocional com uma série de comunicações. Cada uma dessas comunicações tem como objetivo orientar o cliente a fazer uma compra. Assim que a compra for feita, o cliente não deverá receber o restante das mensagens na série. Ao definir um critério de saída, os perfis que fizeram uma compra são removidos da jornada.
@@ -331,6 +335,13 @@ As seguintes medidas de proteção se aplicam ao usar o recurso [Critérios de S
 
    * Em uma **jornada de rascunho**, a opção *Atributo de Perfil* aparece desabilitada (somente leitura), enquanto as opções *Evento* e *Público-alvo* permanecem ativas.
    * Em uma jornada **pausada**, a opção *Atributo de Perfil* torna-se editável, e as opções *Evento* e *Público* tornam-se somente leitura.
+
+### Tópicos relacionados {#exit-criteria-related}
+
+* [Guia dos critérios de entrada e saída do Jornada](entry-exit-criteria-guide.md) - Guia completo com exemplos reais e práticas recomendadas
+* [Gerenciamento de entrada de perfil](entry-management.md) - Configure como os perfis entram nas jornadas
+* [Como as jornadas terminam](end-journey.md) - Compreender a conclusão natural da jornada
+* [Pausar uma jornada com critérios de saída de atributo de perfil](journey-pause.md#journey-exit-criteria) - Usar critérios de saída ao pausar jornadas
 
 ## Jornada programação {#schedule}
 

@@ -9,14 +9,18 @@ level: Intermediate
 keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
 
 # Encerrar uma jornada {#journey-ending}
+
+>[!TIP]
+>
+>Procurando orientação prática sobre quando e como os perfis devem sair das jornadas? Consulte nosso [guia abrangente para os critérios de entrada e saída do jornada](entry-exit-criteria-guide.md), que inclui cenários de saída reais, práticas recomendadas e orientação de configuração.
 
 ## Como uma jornada ativa termina
 
@@ -105,3 +109,10 @@ Quando parado, o status da jornada é definido como **[!UICONTROL Parado]**.
 >[!CAUTION]
 >
 >Permissões para Interromper uma jornada restritas a usuários com a permissão de alto nível **[!DNL Manage journeys]**. Saiba mais sobre como gerenciar os direitos de acesso de [!DNL Journey Optimizer] usuários em [esta seção](../administration/permissions-overview.md).
+
+## Tópicos relacionados
+
+* [Guia dos critérios de entrada e saída do Jornada](entry-exit-criteria-guide.md) - Guia completo com exemplos reais e práticas recomendadas
+* [Gerenciamento de entrada de perfil](entry-management.md) - Configure como os perfis entram nas jornadas
+* [Configurar critérios de saída](journey-properties.md#exit-criteria) - Configurar a remoção automática de perfil do jornada
+* [Pausar uma jornada](journey-pause.md) - Interromper temporariamente a execução da jornada

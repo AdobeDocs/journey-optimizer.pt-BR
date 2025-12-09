@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1207'
 ht-degree: 3%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 3%
 # Gerenciamento de entrada de perfis {#entry-management}
 
 O gerenciamento de entrada de perfis depende do tipo de jornada.
+
+>[!TIP]
+>
+>Procurando orientação prática com exemplos do mundo real? Consulte nosso [guia abrangente para os critérios de entrada e saída do jornada](entry-exit-criteria-guide.md), que inclui casos de uso como campanhas de boas-vindas, recuperação de carrinho abandonado e programas de fidelidade com exemplos completos de configuração de entrada e saída.
 
 ## Tipos de jornadas {#types-of-journeys}
 
@@ -115,3 +119,10 @@ Várias opções estão disponíveis para jornadas recorrentes de Leitura de pú
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
 -->
+
+## Tópicos relacionados
+
+* [Guia dos critérios de entrada e saída do Jornada](entry-exit-criteria-guide.md) - Guia completo com exemplos reais e práticas recomendadas
+* [Configurar critérios de saída](journey-properties.md#exit-criteria) - Defina quando os perfis devem sair da sua jornada
+* [Encerrar uma jornada](end-journey.md) - Entenda como as jornadas são fechadas e concluídas
+* [Casos de uso do Jornada](jo-use-cases.md) - Consulte exemplos completos com configurações de entrada e saída
