@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: e292d584e3c3d1997c2c3e6bb3675758ff530bf9
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 9%
+source-wordcount: '1121'
+ht-degree: 5%
 
 ---
 
@@ -18,21 +18,45 @@ ht-degree: 9%
 
 Ao integrar o Adobe Experience Manager as a Cloud Service com o Adobe Journey Optimizer, agora é possível incorporar facilmente os Fragmentos de conteúdo do AEM ao conteúdo do Journey Optimizer. Essa conexão simplifica o processo de acesso e aproveitamento do conteúdo do AEM, permitindo a criação de campanhas e jornadas personalizadas e dinâmicas.
 
-Para saber mais sobre os Fragmentos de conteúdo do AEM, consulte [Trabalho com fragmentos de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} na documentação do Experience Manager.
+Para saber mais sobre os Fragmentos de conteúdo do AEM, consulte [Trabalho com fragmentos de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} na documentação do Experience Manager.
+
+## Antes de começar {#start}
 
 >[!AVAILABILITY]
 >
 >Para clientes da área de saúde, a integração é habilitada somente mediante o licenciamento das ofertas complementares Journey Optimizer Healthcare Shield e Adobe Experience Manager Enhanced Security.
 
-## Limitações {#limitations}
+### Limitações {#limitations}
 
-* É recomendável limitar o número de usuários com acesso para publicar fragmentos de conteúdo para reduzir o risco de erros acidentais.
+Observe as seguintes limitações ao trabalhar com Fragmentos de conteúdo do Adobe Experience Manager no Journey Optimizer:
 
-* Para conteúdo multilíngue, somente o fluxo manual é compatível.
+* **Tipos de Fragmento de Conteúdo**: somente Fragmentos de Conteúdo simples são suportados. No momento, não há suporte para variações e fragmentos aninhados.
 
-* As variações não são suportadas no momento.
+* **Conteúdo multilíngue**: há suporte apenas para o fluxo manual.
 
-* A prova da campanha e do jornada publicadas reflete os dados da publicação mais recente do fragmento de conteúdo do Experience Manager.
+* **Personalization**: somente atributos de perfil, atributos contextuais, cadeias de caracteres estáticas e variáveis pré-declaradas têm suporte. Não há suporte para atributos derivados ou computados.
+
+* **Atualizações e controle de versão**: as atualizações de Fragmentos de conteúdo exigem republicação manual da Adobe Experience Manager. Não há reconciliação automática de versão entre o Adobe Experience Manager e o Journey Optimizer.
+
+* **Armazenamento em cache**: o Journey Optimizer busca fragmentos de conteúdo em tempo real na publicação do Adobe Experience Manager. Não há cache pré-renderização.
+
+* **Revisão**: a prova de campanhas e jornadas publicadas reflete os dados da publicação mais recente de Fragmento de Conteúdo do Experience Manager. Não há bloqueio de versão histórica.
+
+* **Acesso do usuário**: é recomendável limitar o número de usuários com acesso para publicar Fragmentos de conteúdo para reduzir o risco de erros acidentais.
+
+### Fluxo de sincronização de conteúdo {#content-sync-flow}
+
+A integração entre o Adobe Experience Manager e o Journey Optimizer segue esse fluxo de dados:
+
+1. **[Criar e criar](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: o conteúdo é criado e configurado no Adobe Experience Manager como Fragmentos de Conteúdo.
+
+1. **[Marcação](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: os fragmentos de conteúdo devem ser marcados com a marca específica da Journey Optimizer (`ajo-enabled:{OrgId}/{SandboxName}`).
+
+1. **[Publicar](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: os fragmentos de conteúdo são publicados no Adobe Experience Manager, tornando-os disponíveis para o Journey Optimizer.
+
+1. **[Acesso](#aem-add)**: o Journey Optimizer busca e exibe os Fragmentos de conteúdo disponíveis da instância de publicação do Adobe Experience Manager em tempo real.
+
+1. **[Integração](#aem-add)**: os Fragmentos de conteúdo são selecionados e integrados em campanhas ou jornadas.
 
 ## Criar e atribuir uma tag no Experience Manager
 
@@ -50,9 +74,11 @@ Antes de usar o fragmento de conteúdo no Journey Optimizer, é necessário cria
 
 1. Clique em **Criar**.
 
-1. Defina seu Modelo de fragmento de conteúdo conforme detalhado na [documentação do Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} e atribua a tag do Journey Optimizer recém-criada.
+1. Defina seu Modelo de fragmento de conteúdo conforme detalhado na [documentação do Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} e atribua a tag do Journey Optimizer recém-criada.
 
-Agora você pode começar a criar e configurar o fragmento de conteúdo para uso posterior no Journey Optimizer. Saiba mais em [documentação do Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
+Essa conexão em tempo real garante que o conteúdo esteja sempre atualizado, mas também significa que quaisquer alterações nos fragmentos publicados afetarão imediatamente as campanhas e jornadas ativas.
+
+Agora você pode começar a criar e configurar o fragmento de conteúdo para uso posterior no Journey Optimizer. Saiba mais em [documentação do Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
 
 ## Adicionar fragmentos de conteúdo do Experience Manager {#aem-add}
 
@@ -117,9 +143,22 @@ Nesse caso, verifique se **_variableName_** está declarado antes de adicionar a
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
-
 1. Clique em **[!UICONTROL Salvar]**. Agora você pode testar e verificar o conteúdo da sua mensagem conforme detalhado em [esta seção](../content-management/preview.md).
-
 Depois de executar os testes e validar o conteúdo, você pode [enviar a campanha](../campaigns/review-activate-campaign.md) ou [publicar a jornada](../building-journeys/publish-journey.md) para o público-alvo.
 
-O Adobe Experience Manager permite identificar as campanhas ou jornadas do Journey Optimizer em que um fragmento de conteúdo está sendo usado. Saiba mais em [documentação do Adobe Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
+O Adobe Experience Manager permite identificar as campanhas ou jornadas do Journey Optimizer em que um fragmento de conteúdo está sendo usado. Saiba mais em [documentação do Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
+
+## Solução de problemas {#troubleshooting}
+
+Se você encontrar problemas ao trabalhar com fragmentos de conteúdo do Adobe Experience Manager no Journey Optimizer, consulte os seguintes problemas e resoluções comuns:
+
+| Problema | Causa | Resolução |
+|-|-|-|
+| **Tag não encontrada** ou **Fragmento de Conteúdo não visível no seletor** | A sintaxe da marca Adobe Experience Manager não corresponde ao formato necessário `ajo-enabled:{OrgId}/{SandboxName}` | Valide se a ID da marca usa a **ID da Organização** e o **Nome da Sandbox** corretos. Verifique se não há espaços ou separadores incorretos. Publique novamente o fragmento de conteúdo depois de corrigir a tag. |
+| **O fragmento do conteúdo não aparece na lista** | O fragmento de conteúdo está em estado de rascunho ou não foi aprovado | Somente os Fragmentos de conteúdo aprovados e publicados são exibidos no seletor do Journey Optimizer. Publique o fragmento de conteúdo no Adobe Experience Manager e verifique se ele tem o status aprovado. |
+| **Erro indefinido de variável** | Espaço reservado do Personalization não declarado na tag auxiliar do fragmento | Adicione todos os parâmetros necessários na tag auxiliar do fragmento. Cada espaço reservado usado no fragmento de conteúdo deve ser declarado explicitamente com seu mapeamento. |
+| **A prova exibe um conteúdo inesperado** | A prova usa a versão publicada mais recente do Adobe Experience Manager | As provas sempre refletem a publicação mais recente do fragmento de conteúdo no Adobe Experience Manager. Se você tiver feito alterações recentes no Adobe Experience Manager, republique o fragmento e atualize a prova. |
+| **Erro de CPES (Acesso negado)** | Função de usuário não autorizada a acessar determinados atributos | Entre em contato com o administrador do sistema para verificar se sua função tem as permissões apropriadas para o perfil ou atributos contextuais usados na personalização. |
+| **O fragmento exibe conteúdo em branco ou ausente** | Parâmetros de personalização obrigatórios ou valores de fallback ausentes | Verifique se todos os parâmetros necessários foram fornecidos e considere adicionar valores de fallback para atributos opcionais. |
+
+Se o problema persistir, entre em contato com o representante da Adobe com detalhes sobre a ID do fragmento de conteúdo, a campanha ou a ID da jornada e quaisquer mensagens de erro exibidas.
