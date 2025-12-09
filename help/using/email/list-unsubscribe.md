@@ -10,9 +10,9 @@ level: Experienced
 keywords: definições, email, configuração
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1704'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Dependendo do cliente de email e das configurações de cancelamento de assinatu
 >
 >Aprenda como gerenciar as configurações de cancelamento de inscrição [nesta seção](#enable-list-unsubscribe) abaixo.
 
-Em ambos os casos, quando um destinatário clica no link de opção de não participação, sua solicitação de cancelamento de assinatura é processada adequadamente. O perfil correspondente foi cancelado imediatamente e esta escolha é atualizada no [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR){target="_blank"}. Saiba mais sobre o processamento de consentimento na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=pt-BR){target="_blank"}.
+Em ambos os casos, quando um destinatário clica no link de opção de não participação, sua solicitação de cancelamento de assinatura é processada adequadamente. O perfil correspondente é imediatamente recusado e essa escolha é atualizada na [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR){target="_blank"}. Saiba mais sobre o processamento de consentimento na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=pt-BR){target="_blank"}.
 
 >[!NOTE]
 >
@@ -259,7 +259,7 @@ Parâmetros de consulta:
 
    * Valor analisado: *v1.xyz*
 
-Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

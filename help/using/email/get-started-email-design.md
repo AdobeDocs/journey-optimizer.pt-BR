@@ -10,17 +10,17 @@ level: Beginner, Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Introdução ao design de email {#get-started-content-design}
 
-Para acessar o Designer de email e começar a criar seu conteúdo de email, primeiro [crie um email](create-email.md) em uma jornada ou campanha.
+Para acessar o Designer de email e começar a criar o conteúdo do email, primeiro [crie um email](create-email.md) em uma jornada ou campanha.
 
-Você pode usar os [!DNL Journey Optimizer] **recursos de design de email** para importar conteúdo existente ou começar a criar emails responsivos do zero. [Saiba mais](content-from-scratch.md)
+É possível então usar os **recursos de design de email** do [!DNL Journey Optimizer] para importar conteúdo existente ou começar a criar emails responsivos do zero. [Saiba mais](content-from-scratch.md)
 
 O Designer de email também permite:
 
@@ -34,7 +34,7 @@ O Designer de email também permite:
 
 ## Etapas principais para criar conteúdo de email {#key-steps}
 
-Após criar um email, você pode começar a projetar o conteúdo de email.
+Após criar um email, é possível começar a projetar o conteúdo de email.
 
 1. Na tela de configuração da jornada ou campanha, vá até a tela **[!UICONTROL Editar conteúdo]** para acessar o Designer de email. [Saiba mais](create-email.md#define-email-content)
 
@@ -82,8 +82,8 @@ Consulte na tabela abaixo as práticas recomendadas de design de emails:
 
 Saiba como criar conteúdo de email com o editor de mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417587?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Saiba como configurar experimentos de conteúdo para testes A/B e explorar o conteúdo de email que melhor impulsiona seus objetivos de negócios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447336?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
