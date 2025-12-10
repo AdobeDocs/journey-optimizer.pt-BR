@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: alinhamento vertical, editor de email, preenchimento
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
+source-git-commit: 4817b7426abf202c886b7fd63d59aa0f245e5496
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 12%
+source-wordcount: '379'
+ht-degree: 6%
 
 ---
 
@@ -45,3 +45,21 @@ Neste exemplo, ajustaremos o preenchimento e o alinhamento vertical dentro de um
 >[!TIP]
 >
 >Ao projetar conteúdo de email para Gmail em dispositivos Android, certifique-se de que imagens e divisores usem preenchimento de coluna em vez de margens grandes e fixas. O Gmail no Android geralmente renderiza imagens e margens superdimensionadas incorretamente, causando excesso de layout ou linhas divisórias reduzidas. Use uma largura de imagem menor ou conte com o preenchimento baseado em colunas para uma exibição consistente.
+
+## Gerenciar preenchimento do fragmento com navegação estrutural {#fragment-padding-breadcrumb}
+
+Ao trabalhar com [fragmentos](../content-management/fragments.md) no Email Designer, você pode encontrar um preenchimento oculto ou residual que afeta a renderização móvel de forma diferente da área de trabalho. Isso é particularmente comum quando os fragmentos foram desbloqueados ou quando a [herança foi quebrada](use-visual-fragments.md#break-inheritance), pois o estilo restante pode permanecer na coluna subjacente ou nos componentes de texto.
+
+Para identificar e editar o preenchimento restante nos fragmentos:
+
+1. Use a **[!UICONTROL Árvore de navegação]** ou clique diretamente nos elementos no editor para selecionar cada estrutura ou coluna pai dentro do fragmento. Isso ajuda a localizar o preenchimento ou a margem ocultos que podem ser específicos de dispositivos móveis.
+
+1. Depois de selecionar o elemento na navegação estrutural, navegue até a guia **[!UICONTROL Estilos]** à direita.
+
+1. Revise as configurações de **[!UICONTROL Preenchimento]** e remova ou reajuste o preenchimento conforme necessário para obter o alinhamento móvel correto.
+
+1. Se os problemas de alinhamento persistirem ao reutilizar fragmentos, repita esse processo para outras colunas ou componentes de texto no fragmento.
+
+>[!NOTE]
+>
+>Esse comportamento é esperado quando os fragmentos são inseridos e removidos repetidamente, pois as regras de estilo podem se acumular. Sempre verifique os valores de preenchimento usando a navegação estrutural, especialmente ao direcionar dispositivos móveis.
