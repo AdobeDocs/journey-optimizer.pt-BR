@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
+source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 99%
+source-wordcount: '2995'
+ht-degree: 98%
 
 ---
 
@@ -32,24 +32,22 @@ ht-degree: 99%
    + [Tela de jornada aprimorada](using/rn/new-canvas.md)
 + Introdução {#get-started}
    + [Introdução](/help/rp_landing_pages/get-started-landing-page.md)
-   + [Principais recursos](using/start/get-started.md)
-   + [Arquitetura](using/start/architecture-concepts-redpen.md)
-   + [Conceitos principais](using/start/functional-areas-redpen.md)
-   + [Principal terminologia](using/start/terminology-md-redpen.md)
-   + Funções e responsabilidades {#quick-start}
-      + [Visão geral](using/start/quick-start.md)
+   + Fundamentos {#essentials}
+      + [O que é o Journey Optimizer?](using/start/get-started.md)
+      + [Entender como funciona](using/start/understanding-ajo.md)
+      + [Principal terminologia](using/start/terminology.md)
+      + [Medidas de proteção e limitações](using/start/guardrails.md)
+   + Introdução por função {#by-role}
+      + [Escolha seu caminho de aprendizagem](using/start/quick-start.md)
       + [Introdução para profissionais de marketing](using/start/path/marketer.md)
       + [Introdução para engenheiros de dados](using/start/path/data-engineer.md)
       + [Introdução para administradores](using/start/path/administrator.md)
       + [Introdução para desenvolvedores](using/start/path/developer.md)
-   + Interface do usuário {#ui}
-      + [Introdução à interface](using/start/user-interface.md)
-      + [Pesquisar, filtrar, categorizar](using/start/search-filter-categorize.md)
+   + Trabalhe com eficiência {#work-efficiently}
+      + [Navegar na interface](using/start/user-interface.md)
+      + [Pesquisar, filtrar e organizar](using/start/search-filter-categorize.md)
+      + [IA e recursos inteligentes](using/start/ai-features.md)
       + [Acessibilidade](using/start/accessibility.md)
-   + [Trabalhar com o Assistente de IA](using/start/ai-assistant.md)
-   + [Recursos de IA no AJO](/help/rp_landing_pages/ai-capabilities-landing-page.md)
-   + [Manuais de estratégia de casos de uso](using/start/playbooks.md)
-   + [Medidas de proteção e limitações](using/start/guardrails.md)
 + Jornadas {#orchestrate-journeys}
    + [Jornadas](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introdução a jornadas](using/building-journeys/journey.md)
@@ -445,7 +443,7 @@ ht-degree: 99%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)

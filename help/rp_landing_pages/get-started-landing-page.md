@@ -2,95 +2,189 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Introdução
-description: Introdução
+description: Introdução ao Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '352'
-ht-degree: 100%
+source-git-commit: a83be759a20b8b1592164119762a6dbaa5ac469a
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 9%
 
 ---
 
-# Introdução{#section-overview}
+# Introdução ao Adobe Journey Optimizer{#get-started}
 
 O Adobe Journey Optimizer capacita você a fornecer experiências personalizadas e em tempo real para o cliente em cada canal. Encontre os clientes onde estiverem com a mensagem certa na hora certa.
 
-Esta seção apresenta os principais recursos da plataforma, desde a orquestração onicanal e a tomada de decisões orientadas por IA até o gerenciamento contínuo de conteúdo e dados. Você descobrirá como essas ferramentas eficientes funcionam juntas para otimizar cada interação com o cliente. Cada tópico tem como base o último, com orientações passo a passo para que você domine o engajamento do cliente de maneira dinâmica e orientada por dados.
+Independentemente de você ser novo no Journey Optimizer ou um usuário experiente que deseja expandir suas habilidades, esta seção fornece tudo o que você precisa para começar de forma rápida e eficaz.
 
-## Introdução ao Adobe Journey Optimizer
+## Comece pelo Essentials {#essentials}
+
+Saiba mais sobre os fundamentos do Adobe Journey Optimizer e como ele permite a personalização orientada por dados em escala.
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Principais recursos
+O que é o Journey Optimizer?
 
-Descubra os principais recursos, casos de uso e arquitetura do Adobe Journey Optimizer para fornecer experiências do cliente personalizadas.
+Descubra os principais recursos, casos de uso e como a Journey Optimizer fornece experiências personalizadas para o cliente.
 
-[Saiba mais sobre os principais recursos](../using/start/get-started.md)
+[Aprenda os conceitos básicos](../using/start/get-started.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Visão geral da arquitetura
+Entender como funciona
 
-Entenda como o Adobe Journey Optimizer integra-se à Adobe Experience Platform para permitir uma personalização orientada por dados em grande escala.
+Saiba como o Journey Optimizer se integra ao Adobe Experience Platform e como suas principais áreas funcionais funcionam juntas.
 
-[Explore a arquitetura](../using/start/architecture-concepts-redpen.md)
+[Explore a arquitetura](../using/start/understanding-ajo.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
-Funções e responsabilidades
+Terminologia principal
 
-Obtenha uma visão geral das funções e dos fluxos de trabalho necessários para implementar e gerenciar o Adobe Journey Optimizer de maneira eficaz.
+Termos e conceitos essenciais para ajudar você a navegar pela Journey Optimizer com confiança.
 
-[Noções básicas das funções e responsabilidades](../using/start/quick-start.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
-
-Visão geral da interface
-
-Navegue pela interface do Adobe Journey Optimizer e explore seus recursos, incluindo o gerenciamento de jornadas e as ferramentas de tomada de decisão.
-
-[Saiba mais sobre a interface do usuário](../using/start/user-interface.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
-
-Pesquisar, filtrar e organizar conteúdo
-
-Use os recursos de pesquisa, filtro e marcação para gerenciar e organizar jornadas, campanhas e outros ativos com eficiência.
-
-[Saiba como pesquisar e organizar](../using/start/search-filter-categorize.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
-
-Medidas de proteção e limitações
-
-Saiba mais sobre restrições e práticas recomendadas para usar os recursos do Adobe Journey Optimizer de maneira eficaz.
-
-[Verificar medidas de proteção e limitações](../using/start/guardrails.md)
+[Revisar terminologia](../using/start/terminology.md)
 :::
 
 ::::
 
+## Escolha seu Caminho de aprendizagem {#by-role}
 
-## Recursos adicionais
+Comece com uma orientação específica para cada função personalizada de acordo com suas responsabilidades e metas.
 
-- **[Aprofunde-se nos conceitos principais](../using/start/functional-areas-redpen.md)**: conheça as principais áreas funcionais do Adobe Journey Optimizer e como elas funcionam juntas para otimizar as jornadas do cliente.
-- **[Terminologia principal do Adobe Journey Optimizer](../using/start/terminology-md-redpen.md)**: entenda os termos e conceitos essenciais para usar o Adobe Journey Optimizer com confiança e implementar estratégias de marketing de maneira eficaz.
-- **[Recursos de acessibilidade](../using/start/accessibility.md)**: saiba mais sobre os recursos de acessibilidade e a conformidade com os padrões da WCAG para garantir a inclusão de todos os usuários.
-- **[Introdução ao Assistente de IA](../using/start/ai-assistant.md)**: utilize o Assistente de IA para navegar por conceitos e obter insights operacionais no Adobe Journey Optimizer.
-- **[Artigos de solução de problemas](../using/start/troubleshooting.md)**: cada seção de solução de problemas fornece respostas às perguntas frequentes e soluções para os problemas.
-- **[Monitoramento e solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**: descubra ferramentas abrangentes para monitorar o desempenho da jornada, identificar possíveis problemas e resolvê-los rapidamente quando eles surgirem.
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
+Para profissionais de marketing
 
+Projete jornadas do cliente, crie campanhas e personalize o conteúdo para envolver seus públicos.
+
+[Comece como um profissional de marketing](../using/start/path/marketer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+
+Para engenheiros de dados
+
+Configure estruturas de dados, gerencie esquemas e conjuntos de dados e garanta a qualidade dos dados.
+
+[Iniciar como engenheiro de dados](../using/start/path/data-engineer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Para administradores
+
+Configure ambientes, gerencie permissões e configure canais para sua organização.
+
+[Iniciar como administrador](../using/start/path/administrator.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Para desenvolvedores
+
+Integre aplicativos móveis, implemente APIs e crie ações e integrações personalizadas.
+
+[Iniciar como desenvolvedor](../using/start/path/developer.md)
+:::
+
+::::
+
+[Não tem certeza de qual função é adequada para você? Faça nossa avaliação rápida →](../using/start/quick-start.md)
+
+## Trabalhe com eficiência {#work-efficiently}
+
+Domine a interface e utilize recursos inteligentes para acelerar seu trabalho.
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/layout.svg)
+
+Navegar na interface
+
+Saiba como usar a interface do Journey Optimizer, acessar os principais recursos e encontrar o que você precisa rapidamente.
+
+[Explorar a interface](../using/start/user-interface.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/search.svg)
+
+Pesquisar e organizar
+
+Use pesquisas, filtros e tags para gerenciar jornadas, campanhas e conteúdo com eficiência.
+
+[Pesquisa principal](../using/start/search-filter-categorize.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/ai.svg)
+
+Recursos inteligentes e de IA
+
+Descubra como a IA ajuda você a criar conteúdo, otimizar os tempos de envio e tomar decisões mais inteligentes.
+
+[Explorar recursos de IA](../using/start/ai-features.md)
+:::
+
+::::
+
+## Recursos adicionais {#additional-resources}
+
+### Referência e práticas recomendadas
+
+* **[Medidas de proteção e limitações](../using/start/guardrails.md)** - Entenda as restrições e as práticas recomendadas para usar os recursos do Journey Optimizer de maneira eficaz
+* **[Recursos de acessibilidade](../using/start/accessibility.md)** - Saiba mais sobre os recursos de acessibilidade e a conformidade com a WCAG para garantir a inclusão de todos os usuários
+* **[Guia de Solução de Problemas](../using/start/troubleshooting.md)** - Encontre respostas para perguntas frequentes e soluções para problemas comuns
+
+### Aprender fazendo
+
+* **[Vídeos tutoriais](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}** - Tutoriais em vídeo passo a passo que abordam os principais recursos
+* **[Manuais de Caso de Uso](../using/start/ai-features.md#playbooks)** - Fluxos de trabalho pré-criados para cenários comuns, como recuperação de carrinho abandonado e campanhas de boas-vindas
+* **[Atualizações da documentação](../using/rn/documentation-updates.md)** - Mantenha-se informado sobre as alterações e adições recentes à documentação
+
+### Obter suporte
+
+* **[Monitoramento e solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - Ferramentas para monitorar o desempenho, identificar problemas e resolvê-los rapidamente
+* **[Novidades](../using/rn/release-notes.md)** - Mantenha-se atualizado com os recursos, melhorias e correções mais recentes
+* **[Fórum da comunidade](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - Conecte-se com outros usuários, faça perguntas e compartilhe práticas recomendadas
+
+## Links rápidos {#quick-links}
+
+Comece a criar imediatamente com estes guias essenciais:
+
+| Tarefa | Guia |
+|------|-------|
+| Criar a primeira jornada | [guia de criação de Jornadas](../using/building-journeys/journey-gs.md) |
+| Envie sua primeira campanha | [Guia de criação de campanha](../using/campaigns/get-started-with-campaigns.md) |
+| Criar um email | [Guia de design de email](../using/email/get-started-email-design.md) |
+| Criar um público | [Guia de criação de público-alvo](../using/audience/creating-a-segment-definition.md) |
+| Configurar canais | [Guia de configuração de canal](../using/configuration/get-started-configuration.md) |
+| Criar ofertas personalizadas | [Guia de gerenciamento de decisão](../using/offers/get-started/starting-offer-decisioning.md) |
+
+---
+
+## Pronto para começar?
+
+Escolha o caminho certo para você:
+
+* **Novo no Journey Optimizer?** Iniciar com [O que é o Journey Optimizer?](../using/start/get-started.md) para entender as noções básicas
+* **Conhece a sua função?** Vá para o [guia específico de função](../using/start/quick-start.md) que corresponde às suas responsabilidades
+* **Deseja explorar?** Navegue pelos [recursos de IA](../using/start/ai-features.md) ou experimente os [manuais de casos de uso](../using/start/ai-features.md#playbooks)
+* **Precisa de ajuda?** Verifique o [Guia de Solução de Problemas](../using/start/troubleshooting.md) ou visite o [Fórum da Comunidade](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+
+>[!NOTE]
+>
+>Os componentes e recursos disponíveis em seu ambiente dependem das [permissões](../using/administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Entre em contato com o Gerente de sucesso do cliente da Adobe para tirar dúvidas sobre a configuração específica.
