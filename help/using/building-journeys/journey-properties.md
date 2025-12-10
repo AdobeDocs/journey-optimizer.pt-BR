@@ -107,13 +107,13 @@ Por padrão, os perfis podem inserir sua jornada assim que ela for publicada e p
 
 Se necessário, você pode definir uma **Data de início** e uma **Data de término** personalizadas. Isso permite que os perfis entrem na jornada em uma data específica e saiam automaticamente quando a data final for atingida.
 
-## Tempo limite {#timeout}
+## Tempo-limite {#timeout}
 
-### Tempo limite nas atividades da jornada {#timeout_and_error}
+### Tempo-limite nas atividades da jornada {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Tempo limite ou erro"
+>title="Tempo-limite ou erro"
 >abstract="Especifique por quanto tempo a jornada deve tentar realizar uma ação ou avaliar uma condição, antes de tratá-la como expirada. Os valores recomendados estão entre 1 e 30 segundos."
 
 Ao editar uma atividade de ação ou condição, é possível definir um caminho alternativo em caso de erro ou tempo limite. Se o processamento da atividade que interroga um sistema de terceiros exceder a duração do tempo limite definida no campo **[!UICONTROL Tempo limite ou erro]** das propriedades da jornada, o segundo caminho será escolhido para executar uma possível ação de fallback.
