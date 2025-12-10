@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
+source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '3013'
+ht-degree: 97%
 
 ---
 
@@ -199,6 +199,10 @@ ht-degree: 98%
          + [Divisão](using/orchestrated/activities/split.md)
          + [Teste](using/orchestrated/activities/test.md)
          + [Aguardar](using/orchestrated/activities/wait.md)
+      + Aprenda por meio de casos de uso {#use-cases}
+         + [Enviar atualizações do item da lista de desejos](using/orchestrated/wishlist-uc.md)
+         + [Envolver clientes navegando pela atividade](using/orchestrated/engage-customers-uc.md)
+         + [Notifique os usuários sobre a disponibilidade do produto](using/orchestrated/product-availability-uc.md)
 + Conflito e priorização {#conflict-prioritization}
    + [Gerenciamento de conflitos e priorização](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Introdução ao gerenciamento de conflitos e priorização](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -443,7 +447,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
