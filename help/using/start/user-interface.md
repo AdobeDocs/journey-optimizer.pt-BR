@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c936f42c8b5d96bd5a7e0ccb36ecdb0d9b2e9957
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 33%
+source-wordcount: '1103'
+ht-degree: 34%
 
 ---
 
@@ -44,51 +44,49 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 **Página inicial** - Seu ponto de partida com acesso rápido a itens e recursos úteis criados recentemente
 
 **Gerenciamento de Jornadas** - Criar e gerenciar experiências do cliente
-* **Campanhas** - Criar mensagens únicas ou agendadas para públicos-alvo específicos
-* **Jornada** - Crie experiências de clientes em várias etapas e entre canais
-* **Relatórios** - Analise o desempenho com relatórios integrados do Customer Journey Analytics
+* **Campanhas** - Criar mensagens únicas ou agendadas para públicos-alvo específicos. [Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
+* **Jornada** - Crie experiências de clientes em várias etapas e entre canais. [Criar a primeira jornada](../building-journeys/journey-gs.md)
+* **Relatórios** - Analise o desempenho com relatórios integrados do Customer Journey Analytics. [Exibir a documentação dos relatórios](../reports/campaign-global-report.md)
 
-**Gerenciamento de decisões** - Gerenciar ofertas personalizadas
+**Gerenciamento de decisões** - Gerencie ofertas personalizadas. [Saiba mais sobre a gestão de decisões](../offers/get-started/starting-offer-decisioning.md)
 * **Ofertas** - Criar e gerenciar ofertas personalizadas
 * **Componentes** - Configurar disposições, regras e marcas para ofertas
 
 **Gerenciamento de conteúdo** - Criar e organizar conteúdo
-* **Assets** - Repositório centralizado para imagens e mídia
-* **Modelos de conteúdo** - Modelos de mensagem reutilizáveis para campanhas e jornadas
-* **Fragmentos** - Blocos de conteúdo que podem ser usados em várias mensagens
-* **Páginas de aterrissagem** - Formulários Web para assinaturas e preferências
+* **Assets** - Repositório centralizado para imagens e mídia. [Gerenciar ativos](../content-management/assets.md)
+* **Modelos de conteúdo** - Modelos de mensagem reutilizáveis para campanhas e jornadas. [Criar modelos](../content-management/content-templates.md)
+* **Fragmentos** - Blocos de conteúdo que podem ser usados em várias mensagens. [Trabalhar com fragmentos](../content-management/fragments.md)
+* **Páginas de aterrissagem** - Formulários Web para assinaturas e preferências. [Projetar páginas de destino](../landing-pages/get-started-lp.md)
 
-**Gerenciamento de dados** - Gerencie sua base de dados
+**Gerenciamento de dados** - Gerencie sua base de dados. [Saiba mais sobre esquemas e conjuntos de dados](../data/get-started-schemas.md)
 * **Esquemas** - Definir estrutura de dados
 * **Conjuntos de dados** - Armazene e gerencie coleções de dados
 * **Consultas** - Gravar e executar consultas
 * **Monitoramento** - Rastrear assimilação de dados
 
 **Conexões** - Integrar a outros sistemas
-* **Fontes** - Assimilar dados de sistemas externos
-* **Destinos** - Exportar dados para armazenamento na nuvem
+* **Fontes** - Assimilar dados de sistemas externos. [Configurar fontes](../data/get-started-sources.md)
+* **Destinos** - Exportar dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md)
 
 **Cliente** - Gerenciar públicos e perfis
-* **Públicos-alvo** - Criar e gerenciar segmentos de clientes
-* **Listas de assinaturas** - Gerenciar listas de aceitação
-* **Perfis** - Exibir perfis de clientes unificados
-* **Identidades** - Gerenciar resolução de identidade
+* **Públicos-alvo** - Crie e gerencie segmentos de clientes. [Trabalhar com públicos-alvo](../audience/about-audiences.md)
+* **Listas de assinaturas** - Gerenciar listas de aceitação. [Gerenciar assinaturas](../landing-pages/subscription-list.md)
+* **Perfis** - Exibir perfis de clientes unificados. [Explorar perfis](../audience/get-started-profiles.md)
+* **Identidades** - Gerenciar resolução de identidade. [Saiba mais sobre identidades](../audience/get-started-identity.md)
 
-**Privacidade** - Controlar privacidade e conformidade
+**Privacidade** - Controle a privacidade e a conformidade. [Visão geral de privacidade](../privacy/get-started-privacy.md)
 * **Políticas** - Definir políticas de governança de dados
 * **Solicitações** - Manipular solicitações de privacidade (GDPR, CCPA)
-* **Auditoria** - Revisar logs de atividades
+* **Auditoria** - Revisar logs de atividades. [Exibir logs de auditoria](../privacy/audit-logs.md)
 * **Ciclo de vida dos dados** - Configurar retenção de dados
 
-**Administração** - Definir configurações do sistema
-* **Configurações** - Configurar eventos, fontes de dados e ações
-* **Regras de negócio** - Controlar frequência de mensagens e entrada de jornada
-* **Alertas** - Exibir e gerenciar alertas do sistema
-* **Sandboxes** - Gerenciar ambientes e copiar objetos entre sandboxes
+**Administração** - Definir configurações do sistema. [Visão geral do controle de acesso](../administration/permissions-overview.md)
+* **Configurações** - Configure eventos, fontes de dados e ações. [Configurar canais](../configuration/get-started-configuration.md)
+* **Regras de negócio** - Controlar frequência de mensagem e entrada de jornada. [Configurar regras de negócio](../configuration/frequency-rules.md)
+* **Alertas** - Exibir e gerenciar alertas do sistema. [Monitorar alertas](../reports/alerts.md)
+* **Sandboxes** - Gerencie ambientes e copie objetos entre sandboxes. [Trabalhar com sandboxes](../administration/sandboxes.md)
 * **Canais** - Definir configurações de canal e capacidade de entrega
 * **Marcas** - Organiza e categoriza o conteúdo
-
-[Saiba mais sobre cada recurso na documentação detalhada sobre recursos](#feature-links)
 
 ## Recursos da barra superior {#top-bar}
 
@@ -159,20 +157,6 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 * Navegar pelos conceitos e práticas recomendadas
 
 [Saiba mais sobre o Assistente de IA](ai-features.md#ai-assistant)
-
-## Links de recursos detalhados {#feature-links}
-
-Para obter uma documentação abrangente sobre cada recurso:
-
-* **Jornadas** - [Crie sua primeira jornada](../building-journeys/journey-gs.md)
-* **Campanhas** - [Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
-* **Ofertas e decisões** - [Gerenciamento de decisões](../offers/get-started/starting-offer-decisioning.md)
-* **Criação de conteúdo** - [Design de email](../email/get-started-email-design.md)
-* **Públicos-alvo** - [Gerenciamento de público-alvo](../audience/about-audiences.md)
-* **Configuração de Canal** - [Configurar canais](../configuration/get-started-configuration.md)
-* **Gerenciamento de dados** - [Trabalhar com esquemas](../data/get-started-schemas.md)
-* **Privacidade e governança** - [Visão geral sobre privacidade](../privacy/get-started-privacy.md)
-* **Administração** - [Controle de acesso](../administration/permissions-overview.md)
 
 ## Tópicos relacionados {#related-topics}
 

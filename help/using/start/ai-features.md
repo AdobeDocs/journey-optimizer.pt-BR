@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: c2e19786356ecf9604dc7f661c74a72cabcee6d4
+source-git-commit: 26f9228bacee5865cbc368cf2e3db02370d43a4b
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 3%
@@ -58,7 +58,7 @@ Clique no ícone do Assistente de IA na barra superior para abrir o painel do as
 4. Clique em **Mostrar fontes** para acessar a documentação relacionada
 5. Use miniaturas para cima/para baixo para classificar a qualidade da resposta
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="center"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
 
 [Saiba mais sobre o Assistente de IA no Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}
 
@@ -120,7 +120,7 @@ O [Agente de experimentação](https://experienceleague.adobe.com/pt-br/docs/exp
 
 ### Agentes de IA adicionais
 
-**Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
 **Agent Orchestrator** - Coordena vários agentes especializados para solucionar desafios de marketing complexos de várias etapas. O orquestrador determina automaticamente quais agentes envolver e sequencia seu trabalho com eficiência. [Saiba mais sobre o Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
@@ -253,7 +253,7 @@ Procurar nos manuais do Journey Optimizer cenários comuns, como:
 
 ![Interface de manuais de caso de uso](assets/playbooks-filter.png)
 
-[Exibir todos os manuais disponíveis](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"} | [Saiba mais na documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=pt-BR){target="_blank"}
+[Exibir todos os manuais disponíveis](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"} | [Saiba mais na documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Recursos adicionais de IA {#additional-capabilities}
 
@@ -312,5 +312,5 @@ A maioria dos recursos de IA está incluída no Adobe Journey Optimizer. Alguns 
 >* [Documentação do agente de experimentação](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 >* [Guia de Otimização de Tempo de Envio](../building-journeys/send-time-optimization.md)
 >* [Criar modelos de classificação de IA](../experience-decisioning/ranking/create-ai-models.md)
->* [Documentação dos manuais de caso de uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=pt-BR){target="_blank"}
+>* [Documentação dos manuais de caso de uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
