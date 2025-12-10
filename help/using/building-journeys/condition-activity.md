@@ -10,10 +10,10 @@ level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 17%
+source-wordcount: '1804'
+ht-degree: 16%
 
 ---
 
@@ -38,11 +38,11 @@ Os seguintes tipos de condições estão disponíveis:
 * [Condição de data](#date_condition)
 * [Limite de perfil](#profile_cap)
 
-Você também pode usar um público-alvo em uma condição de jornada. [Saiba mais](#using-a-segment)
+Você também pode usar um público-alvo em uma condição de jornada. [Saiba mais](#using-a-segment). Para obter mais informações sobre como gerar e direcionar públicos, consulte [esta seção](../audience/about-audiences.md)
 
 >[!NOTE]
 >
->A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adicionar e gerenciar caminhos de condição {#about_condition}
 
@@ -72,7 +72,7 @@ O modo simples permite executar consultas simples com base em uma combinação d
 
 ![Editor de expressão mostrando a seleção de campo e os operadores lógicos AND](assets/journey64.png)
 
-Se você estiver usando o [Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
+Se você estiver usando o [Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment). Para obter mais informações sobre como gerar e direcionar públicos no Journey Optimizer, consulte [esta seção](../audience/about-audiences.md).
 
 
 >[!NOTE]
@@ -188,4 +188,4 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

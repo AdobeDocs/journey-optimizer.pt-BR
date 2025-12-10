@@ -10,9 +10,9 @@ level: Intermediate
 keywords: design, tela, jornada, interface, arrastar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1756'
 ht-degree: 5%
 
 ---
@@ -72,7 +72,7 @@ Há duas possibilidades:
 
 1. **Iniciar com um evento**: quando uma jornada é definida para ouvir eventos, os indivíduos entram na jornada **unitariamente** em tempo real. As mensagens incluídas na jornada são enviadas à pessoa que atualmente flui para a jornada. [Saiba mais sobre eventos](../event/about-events.md)
 
-1. **Comece com um Público-alvo de Leitura**: você pode definir sua jornada para ouvir os públicos-alvo da Adobe Experience Platform. Nesse caso, todos os indivíduos pertencentes ao público-alvo especificado entram na jornada. As mensagens incluídas na sua jornada são enviadas aos indivíduos que pertencem ao público. Saiba mais sobre [ler público](read-audience.md).
+1. **Comece com um Público-alvo de Leitura**: você pode definir sua jornada para ouvir os públicos-alvo da Adobe Experience Platform. Nesse caso, todos os indivíduos pertencentes ao público-alvo especificado entram na jornada. As mensagens incluídas na sua jornada são enviadas aos indivíduos que pertencem ao público. Saiba mais sobre [ler público](read-audience.md). Para obter mais informações sobre como gerar e direcionar públicos no Journey Optimizer, consulte [esta seção](../audience/about-audiences.md).
 
 ## Definir as próximas etapas{#define-next-steps}
 

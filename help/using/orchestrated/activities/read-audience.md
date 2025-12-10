@@ -5,9 +5,9 @@ title: Usar a atividade Público-alvo de leitura
 description: Saiba como usar a atividade Ler público em uma campanha orquestrada
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '662'
 ht-degree: 11%
 
 ---
@@ -52,7 +52,7 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Ler público-alvo]**
 
 1. Insira um **[!UICONTROL Rótulo]** para sua atividade. Esse rótulo servirá como o nome do público-alvo.
 
-1. Clique em ![ícone de pesquisa de pasta](../assets/do-not-localize/folder-search.svg) para selecionar o público-alvo que deseja direcionar para sua campanha orquestrada.
+1. Clique em ![ícone de pesquisa de pasta](../assets/do-not-localize/folder-search.svg) para selecionar o público-alvo que deseja direcionar para sua campanha orquestrada. [Saiba mais sobre como gerar e direcionar públicos no Journey Optimizer](../audience/about-audiences.md).
 
    ![](../assets/read-audience-2.png)
 

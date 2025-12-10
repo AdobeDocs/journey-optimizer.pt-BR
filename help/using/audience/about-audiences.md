@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 19%
+source-wordcount: '584'
+ht-degree: 18%
 
 ---
 
@@ -38,7 +38,7 @@ O Adobe Journey Optimizer fornece ferramentas robustas para criar, gerenciar e e
 
 Esta documentação fornece informações sobre como trabalhar com públicos no [!DNL Adobe Journey Optimizer]. Informações detalhadas sobre o Portal de público-alvo e públicos-alvo estão disponíveis na documentação do Serviço de segmentação do Adobe Experience Platform. Consulte estas seções para obter mais detalhes:
 
-* [Guia da interface do usuário do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guia da interface do usuário do Serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Serviço de segmentação - Perguntas frequentes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -73,6 +73,10 @@ Os públicos-alvo podem ser gerados usando métodos diferentes:
 * **Composição de público-alvo**: crie um fluxo de trabalho de composição para combinar públicos-alvo existentes em uma tela visual e aplicar ações como classificação, divisão, junção para criar novos públicos-alvo. [Saiba como trabalhar com a composição de público-alvo](get-started-audience-orchestration.md)
 
 * **Composição de Público-Alvo Federado**: federe conjuntos de dados diretamente do data warehouse existente para compilar e enriquecer públicos-alvo e atributos da Adobe Experience Platform, tudo em um único sistema. [Saiba como trabalhar com a Composição de Público Federado](federated-audience-composition.md).
+
+## Públicos-alvo em jornadas e campanhas {#target-audiences}
+
+Quando os públicos-alvo estiverem prontos, você poderá selecioná-los ao criar jornadas ou campanhas, permitindo que você alcance as pessoas certas na hora certa com mensagens relevantes. [Saiba mais sobre a Ativação de público-alvo no Journey Optimizer](target-audiences.md).
 
 ## Vídeo tutorial {#video}
 
