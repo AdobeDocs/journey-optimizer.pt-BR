@@ -10,10 +10,10 @@ level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 15%
+source-wordcount: '891'
+ht-degree: 12%
 
 ---
 
@@ -102,8 +102,18 @@ A prática recomendada é usar datas personalizadas específicas para seus perfi
 
 Para validar se a atividade de espera funciona como esperado, você pode usar os eventos da etapa. [Saiba mais](../reports/query-examples.md#common-queries).
 
-## Nó de espera automático  {#auto-wait-node}
+## Atualização de perfil após espera {#profile-refresh}
 
+Quando um perfil é estacionado em uma atividade **Wait** em uma jornada que começa com uma atividade **Read Audience**, a jornada atualiza automaticamente os atributos do perfil no UPS (Serviço de Perfil Unificado) para buscar os dados mais recentes disponíveis.
+
+* **Na entrada da jornada**: os perfis usam valores de atributo do instantâneo de público-alvo que foi avaliado quando a jornada foi iniciada.
+* **Após um nó de espera**: a jornada executa uma pesquisa para recuperar os dados de perfil mais recentes do UPS, não os dados de instantâneo mais antigos. Isso significa que os atributos de perfil podem ter sido alterados desde o início da jornada.
+
+Esse comportamento garante que as atividades downstream usem informações atuais do perfil após um período de espera. No entanto, poderá produzir resultados inesperados se você esperar que a jornada use apenas os dados do instantâneo original durante toda a execução.
+
+Exemplo: se um perfil se qualificar para um público-alvo de &quot;cliente Silver&quot; no início da jornada, mas atualizar para &quot;cliente Gold&quot; durante uma espera de 3 dias, as atividades após a espera verão o status atualizado de &quot;cliente Gold&quot;.
+
+## Nó de espera automático  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "

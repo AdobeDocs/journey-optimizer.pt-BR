@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 22%
+source-wordcount: '667'
+ht-degree: 21%
 
 ---
 
@@ -49,9 +49,7 @@ Para públicos-alvo de upload personalizado e composição de público-alvo fede
 
 * Use uma atividade de orquestração de **Ler público** em uma jornada para fazer com que todos os indivíduos do público entrem na jornada e recebam as mensagens incluídas na jornada. Digamos que você tenha um público-alvo de “cliente prata”. Com essa atividade, você pode fazer com que todos os clientes prata entrem em uma jornada e enviar-lhes uma série de mensagens personalizadas. [Saiba como configurar uma atividade Ler público-alvo](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
-  >[!NOTE]
-  >
-  >Qualquer jornada que utilize um público-alvo da composição de público-alvo ou do upload personalizado na atividade &quot;Ler público-alvo&quot; terá atributos de perfil tão novos quanto a última avaliação em lote. Isso inclui consentimento/supressões na jornada.
+  Para jornadas que usam públicos-alvo da composição do público-alvo ou do upload personalizado, os atributos de perfil estão tão atualizados quanto a última avaliação em lote na entrada da jornada. No entanto, após uma atividade **Wait**, a jornada atualiza os atributos de perfil do UPS (Serviço de Perfil Unificado), buscando os dados mais recentes disponíveis, o que significa que os atributos de perfil podem mudar durante a execução da jornada. [Saiba mais sobre a atualização de perfil após uma atividade de Espera](../building-journeys/wait-activity.md#profile-refresh)
 
 * Use a atividade **Condição** em uma jornada para criar condições com base na associação de público-alvo. [Saiba como usar públicos-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
 
