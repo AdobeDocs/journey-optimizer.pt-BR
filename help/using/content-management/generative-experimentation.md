@@ -4,11 +4,11 @@ product: journey optimizer
 title: Experimento de conteúdo com o AI Assistant no Journey Optimizer
 description: Experimento de conteúdo com o AI Assistant no Journey Optimizer
 feature: Content Assistant
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 9%
@@ -22,7 +22,7 @@ ht-degree: 9%
 >Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](gs-generative.md#generative-guardrails) relacionadas.
 ></br>
 >
->Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
 
 Depois de criar e personalizar suas mensagens, eleve o conteúdo com o Assistente de IA no Adobe Journey Optimizer, que inclui o recurso Experimento de conteúdo. Essa ferramenta permite definir vários tratamentos de delivery, conteúdo variável, para medir o desempenho do público-alvo.
 

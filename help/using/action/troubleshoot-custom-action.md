@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Solucionar problemas de ações personalizadas
 description: Saiba como solucionar problemas de uma ação personalizada
-feature: Journeys, Actions, Custom Actions
+feature: Journeys, Actions, Custom Actions, Monitoring
 topic: Administration
 role: Developer, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 2%
@@ -80,7 +80,7 @@ Como administrador do Journey Optimizer, você também pode usar ferramentas ext
 
 * Esse recurso de teste no produto elimina a necessidade de copiar manualmente os detalhes de configuração entre as ferramentas, reduzindo o risco de erros.
 
-## Resolução de problemas {#troubleshoot-custom-action-check}
+## Solução de problemas {#troubleshoot-custom-action-check}
 
 Se a solicitação falhar, você pode verificar:
 

@@ -5,10 +5,10 @@ title: Documentação do Adobe Journey Optimizer
 description: Documentação do Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b26606d1ba0d0d43d69b5e6fd2ae86c49dceebe9
-workflow-type: ht
-source-wordcount: '506'
-ht-degree: 100%
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 98%
 
 ---
 
@@ -22,9 +22,9 @@ Tenha um vislumbre dos últimos aprimoramentos na documentação e no produto do
 
 >[!BEGINTABS]
 
->[!TAB Versão de outubro de 2025]
+>[!TAB Atualizações mais recentes]
 
-A versão de outubro do Journey Optimizer está disponível. Descubra os novos recursos e melhorias lançados este mês nas Notas de versão.
+A versão de outubro do Journey Optimizer está disponível. Descubra os recursos e as melhorias mais recentes nas Notas de versão.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -49,7 +49,7 @@ O “Horário de silêncio” permite definir exclusões com base no tempo para 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Notas de versão mais recentes
 
@@ -59,7 +59,7 @@ Fique atualizado com as últimas notas de versão, novos recursos e melhorias no
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução
 
@@ -69,7 +69,7 @@ Aprenda os conceitos básicos do Journey Optimizer, incluindo seus recursos, arq
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guia abrangente para jornadas
 
@@ -79,7 +79,7 @@ Projete, orquestre, gerencie e otimize jornadas personalizadas do cliente com es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Noções básicas e gerenciamento de campanhas
 
@@ -89,7 +89,7 @@ Orientação detalhada sobre como criar, gerenciar e otimizar vários tipos de c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canais de comunicação
 
@@ -99,7 +99,7 @@ Configure e gerencie emails, SMS, notificações por push e outros canais para i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gerenciamento de conflitos e priorização
 
