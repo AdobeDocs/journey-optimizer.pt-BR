@@ -6,11 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 54ed4dec71703a0444920baf4fb0a2d8318034cd
+source-git-commit: 74f8db8f71cbf51260868a93702a563b3c0d4a2d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -65,8 +63,8 @@ Quando várias ofertas são removidas simultaneamente e as demais ofertas têm d
 
 Os modelos de IA identificam e começam a testar as ofertas recém-disponíveis em seu próximo ciclo de treinamento:
 
-* **Otimização automática**: diariamente
-* **Otimização personalizada**: semanalmente
+* **Otimização automática** identifica e começa a testar novas ofertas em seu próximo ciclo de treinamento. O treinamento de otimização automática ocorre 3 a 4 vezes por dia, aproximadamente a cada 6 horas.
+* **Otimização personalizada** identifica e começa a testar novas ofertas conforme elas são adicionadas à estratégia de oferta. Eles serão incluídos no tráfego de exploração aleatório. Em seguida, essas ofertas serão personalizadas no próximo ciclo de treinamento do modelo, ocorrendo semanalmente.
 
 Uma vez identificados, ambos os modelos começarão a distribuir as novas ofertas para alguns visitantes imediatamente, a fim de testar seu desempenho e coletar dados sobre sua eficácia.
 
