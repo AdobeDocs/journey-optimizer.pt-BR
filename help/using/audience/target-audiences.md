@@ -63,6 +63,6 @@ Se o trabalho de segmentação não for concluído dentro da janela de tempo def
 
 Somente os públicos-alvo criados no portal de público-alvo podem ser direcionados diretamente em [!DNL Journey Optimizer] jornadas e campanhas. [Saiba mais sobre os tipos de público-alvo disponíveis](../audience/about-audiences.md#types).
 
-Se você precisar direcionar perfis de um público-alvo não compatível, como um público-alvo do Customer Journey Analytics, é necessário envolvê-lo em uma nova definição de segmento no Portal de público-alvo. Informações detalhadas sobre como adicionar públicos-alvo em uma definição de segmento estão disponíveis na [documentação do Construtor de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+Se você precisar direcionar perfis de um público-alvo não compatível, como um público-alvo do Customer Journey Analytics, é necessário envolvê-lo em uma nova definição de segmento no Portal de público-alvo. Informações detalhadas sobre como adicionar públicos-alvo em uma definição de segmento estão disponíveis na [documentação do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Depois de concluído, aguarde a conclusão da avaliação de segmentação para usá-la em suas jornadas e campanhas.
