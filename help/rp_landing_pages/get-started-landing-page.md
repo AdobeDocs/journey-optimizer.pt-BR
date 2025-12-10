@@ -174,7 +174,7 @@ Comece a criar imediatamente com estes guias essenciais:
 | Configurar canais | [Guia de configuração de canal](../using/configuration/get-started-configuration.md) |
 | Criar ofertas personalizadas | [Guia de gerenciamento de decisão](../using/offers/get-started/starting-offer-decisioning.md) |
 
----
+&#x200B;---
 
 ## Pronto para começar?
 
