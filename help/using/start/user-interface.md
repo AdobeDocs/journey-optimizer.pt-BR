@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
+source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 34%
+source-wordcount: '1126'
+ht-degree: 33%
 
 ---
 
@@ -57,6 +57,7 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 * **Modelos de conteúdo** - Modelos de mensagem reutilizáveis para campanhas e jornadas. [Criar modelos](../content-management/content-templates.md)
 * **Fragmentos** - Blocos de conteúdo que podem ser usados em várias mensagens. [Trabalhar com fragmentos](../content-management/fragments.md)
 * **Páginas de aterrissagem** - Formulários Web para assinaturas e preferências. [Projetar páginas de destino](../landing-pages/get-started-lp.md)
+* **Manuais de Caso de Uso** - Fluxos de trabalho pré-criados para cenários de marketing comuns. [Explorar manuais](ai-features.md#playbooks)
 
 **Gerenciamento de dados** - Gerencie sua base de dados. [Saiba mais sobre esquemas e conjuntos de dados](../data/get-started-schemas.md)
 * **Esquemas** - Definir estrutura de dados
@@ -85,8 +86,8 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 * **Regras de negócio** - Controlar frequência de mensagem e entrada de jornada. [Configurar regras de negócio](../conflict-prioritization/rule-sets.md)
 * **Alertas** - Exibir e gerenciar alertas do sistema. [Monitorar alertas](../reports/alerts.md)
 * **Sandboxes** - Gerencie ambientes e copie objetos entre sandboxes. [Trabalhar com sandboxes](../administration/sandboxes.md)
-* **Canais** - Definir configurações de canal e capacidade de entrega
-* **Marcas** - Organiza e categoriza o conteúdo
+* **Canais** - Defina as configurações e a capacidade de entrega do canal. [Definir configurações de canal](../configuration/channel-surfaces.md) | [Introdução à configuração](../configuration/get-started-configuration.md)
+* **Marcas** - Organiza e categoriza o conteúdo. [Trabalhar com marcas unificadas](search-filter-categorize.md#tags)
 
 ## Recursos da barra superior {#top-bar}
 
