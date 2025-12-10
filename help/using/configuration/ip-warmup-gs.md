@@ -62,8 +62,8 @@ Saiba como criar e executar um plano de aquecimento de IP.
 
 Explore estas publicações úteis do blog para obter orientação mais detalhada sobre o aquecimento de IP:
 
-* [Noções básicas sobre como configurar o aquecimento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - Saiba mais sobre os fundamentos da configuração de planos de aquecimento de IP e práticas recomendadas para uma implementação bem-sucedida.
+* [Noções básicas sobre como configurar o aquecimento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=pt) - Saiba mais sobre os fundamentos da configuração de planos de aquecimento de IP e práticas recomendadas para uma implementação bem-sucedida.
 
-* [Recursos avançados em planos de aquecimento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - Descubra recursos avançados e controles granulares para otimizar sua estratégia de aquecimento de IP.
+* [Recursos avançados em planos de aquecimento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=pt) - Descubra recursos avançados e controles granulares para otimizar sua estratégia de aquecimento de IP.
 
-* [Solução de problemas de aquecimento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - Encontre soluções para problemas comuns, como atrasos de público-alvo e saiba mais sobre os mecanismos de repetição inteligente.
+* [Solução de problemas de aquecimento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=pt) - Encontre soluções para problemas comuns, como atrasos de público-alvo e saiba mais sobre os mecanismos de repetição inteligente.
