@@ -6,7 +6,7 @@ description: Saiba como o Adobe Journey Optimizer funciona com o Adobe Experienc
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 3%
@@ -28,7 +28,7 @@ O Adobe Journey Optimizer funciona como um fluxo contínuo em que os dados são 
 O Adobe Experience Platform serve como backbone, permitindo que as marcas centralizem os dados dos clientes e os ativem para experiências personalizadas:
 
 * **Plataforma de dados** - Hub central para coletar, gerenciar e estruturar dados do cliente para garantir a consistência entre os sistemas. [Saiba mais sobre esquemas e conjuntos de dados](../data/get-started-schemas.md)
-* **Assimilação de dados (Fontes)** - Importe dados de plataformas CRM, sites, aplicativos móveis e armazenamento na nuvem usando conectores pré-criados. [Explorar fontes de dados](../data/get-started-sources.md)
+* **Assimilação de dados (Fontes)** - Importe dados de plataformas CRM, sites, aplicativos móveis e armazenamento na nuvem usando conectores pré-criados. [Explorar fontes de dados](get-started-sources.md)
 * **Perfil do cliente em tempo real** - Cria perfis unificados ao mesclar dados de várias fontes (interações de email, compras na loja, comportamento da web). [Saiba mais sobre perfis](../audience/get-started-profiles.md)
 * **Camada de governança** - Controla o acesso aos dados, a conformidade com a privacidade e a segurança enquanto segue as regulamentações. [Exibir documentação de privacidade](../privacy/get-started-privacy.md)
 
@@ -37,10 +37,10 @@ O Adobe Experience Platform serve como backbone, permitindo que as marcas centra
 O Adobe Journey Optimizer aplica os dados e insights do Adobe Experience Platform para fornecer experiências inteligentes e personalizadas aos clientes:
 
 * **Noções básicas do cliente** - Os Perfis de clientes em tempo real permitem a segmentação em públicos para mensagens direcionadas. [Criar públicos-alvo](../audience/about-audiences.md)
-* **Conteúdo e ofertas** - Ferramentas para criar, gerenciar e personalizar conteúdo; lógica em tempo real para selecionar a melhor oferta para cada indivíduo. [Criar conteúdo](../content-management/get-started-content.md) | [Gerenciar ofertas](../offers/get-started/starting-offer-decisioning.md)
+* **Conteúdo e ofertas** - Ferramentas para criar, gerenciar e personalizar conteúdo; lógica em tempo real para selecionar a melhor oferta para cada indivíduo. [Criar conteúdo](../../rp_landing_pages/content-management-landing-page.md) | [Gerenciar ofertas](../offers/get-started/starting-offer-decisioning.md)
 * **Gerenciamento de Jornadas e Campanhas** - Automatiza sequências de interações (jornadas) ou agenda mensagens direcionadas únicas (campanhas). [Criar jornadas](../building-journeys/journey-gs.md) | [Criar campanhas](../campaigns/get-started-with-campaigns.md)
 * **Entrega (Conexões)** - Entrega mensagens por canais como email, SMS, notificações por push e correspondência direta; exporta dados para sistemas externos. [Configurar canais](../configuration/get-started-configuration.md)
-* **Avaliação e análise** - Acompanha o engajamento do cliente e o desempenho da campanha com relatórios para melhoria contínua. [Exibir relatórios](../reports/campaign-global-report.md)
+* **Avaliação e análise** - Acompanha o engajamento do cliente e o desempenho da campanha com relatórios para melhoria contínua. [Exibir relatórios](../reports/campaign-global-report-cja.md)
 
 ### O ciclo de otimização contínua {#optimization-cycle}
 
@@ -56,7 +56,7 @@ O Journey Optimizer inclui sete áreas funcionais principais que funcionam em co
 |-----------------|---------|----------------|
 | **Gerenciamento de dados** | Organize os dados do cliente | Defina esquemas, crie conjuntos de dados e importe dados de vários sistemas. [Saiba mais](../data/get-started-schemas.md) |
 | **Gerenciamento de Clientes** | Entenda quem são seus clientes | Crie perfis unificados, resolva identidades e crie públicos. [Saiba mais](../audience/get-started-profiles.md) |
-| **Gerenciamento de conteúdo** | Criar mensagens personalizadas | Projete emails, gerencie ativos, crie modelos e fragmentos e personalize conteúdo. [Saiba mais](../content-management/get-started-content.md) |
+| **Gerenciamento de conteúdo** | Criar mensagens personalizadas | Projete emails, gerencie ativos, crie modelos e fragmentos e personalize conteúdo. [Saiba mais](../../rp_landing_pages/content-management-landing-page.md) |
 | **Gestão de decisões** | Selecione a melhor oferta em tempo real | Gerencie a biblioteca de ofertas, defina regras, aplique restrições e estabeleça a lógica de classificação. [Saiba mais](../offers/get-started/starting-offer-decisioning.md) |
 | **Gerenciamento de Jornadas** | Projetar experiências automatizadas do cliente | Crie jornadas com o designer visual, defina acionadores, adicione condições e aguarde etapas. [Saiba mais](../building-journeys/journey-gs.md) |
 | **Conexões** | Conectar fontes de dados e canais | Configure conectores de origem, configure canais e conecte a plataformas externas. [Saiba mais](../configuration/get-started-configuration.md) |

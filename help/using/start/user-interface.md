@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 34%
@@ -46,14 +46,14 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 **Gerenciamento de Jornadas** - Criar e gerenciar experiências do cliente
 * **Campanhas** - Criar mensagens únicas ou agendadas para públicos-alvo específicos. [Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
 * **Jornada** - Crie experiências de clientes em várias etapas e entre canais. [Criar a primeira jornada](../building-journeys/journey-gs.md)
-* **Relatórios** - Analise o desempenho com relatórios integrados do Customer Journey Analytics. [Exibir a documentação dos relatórios](../reports/campaign-global-report.md)
+* **Relatórios** - Analise o desempenho com relatórios integrados do Customer Journey Analytics. [Exibir a documentação dos relatórios](../reports/campaign-global-report-cja.md)
 
 **Gerenciamento de decisões** - Gerencie ofertas personalizadas. [Saiba mais sobre a gestão de decisões](../offers/get-started/starting-offer-decisioning.md)
 * **Ofertas** - Criar e gerenciar ofertas personalizadas
 * **Componentes** - Configurar disposições, regras e marcas para ofertas
 
 **Gerenciamento de conteúdo** - Criar e organizar conteúdo
-* **Assets** - Repositório centralizado para imagens e mídia. [Gerenciar ativos](../content-management/assets.md)
+* **Assets** - Repositório centralizado para imagens e mídia. [Gerenciar ativos](../integrations/assets.md)
 * **Modelos de conteúdo** - Modelos de mensagem reutilizáveis para campanhas e jornadas. [Criar modelos](../content-management/content-templates.md)
 * **Fragmentos** - Blocos de conteúdo que podem ser usados em várias mensagens. [Trabalhar com fragmentos](../content-management/fragments.md)
 * **Páginas de aterrissagem** - Formulários Web para assinaturas e preferências. [Projetar páginas de destino](../landing-pages/get-started-lp.md)
@@ -65,7 +65,7 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 * **Monitoramento** - Rastrear assimilação de dados
 
 **Conexões** - Integrar a outros sistemas
-* **Fontes** - Assimilar dados de sistemas externos. [Configurar fontes](../data/get-started-sources.md)
+* **Fontes** - Assimilar dados de sistemas externos. [Configurar fontes](get-started-sources.md)
 * **Destinos** - Exportar dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md)
 
 **Cliente** - Gerenciar públicos e perfis
@@ -82,7 +82,7 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 
 **Administração** - Definir configurações do sistema. [Visão geral do controle de acesso](../administration/permissions-overview.md)
 * **Configurações** - Configure eventos, fontes de dados e ações. [Configurar canais](../configuration/get-started-configuration.md)
-* **Regras de negócio** - Controlar frequência de mensagem e entrada de jornada. [Configurar regras de negócio](../configuration/frequency-rules.md)
+* **Regras de negócio** - Controlar frequência de mensagem e entrada de jornada. [Configurar regras de negócio](../conflict-prioritization/rule-sets.md)
 * **Alertas** - Exibir e gerenciar alertas do sistema. [Monitorar alertas](../reports/alerts.md)
 * **Sandboxes** - Gerencie ambientes e copie objetos entre sandboxes. [Trabalhar com sandboxes](../administration/sandboxes.md)
 * **Canais** - Definir configurações de canal e capacidade de entrega
