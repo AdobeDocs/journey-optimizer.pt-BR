@@ -10,9 +10,9 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 47f4ab608df3439c01ca962232a956016a1f8667
 workflow-type: tm+mt
-source-wordcount: '1983'
+source-wordcount: '1934'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 
 **Campo:** características
 **Título:** Características da Opção de Decisão
-**Descrição:** as características são atributos adicionais das ofertas ou propriedades pertencentes a uma opção de decisão específica. Esses atributos são pares de valores principais, o que significa que incluem um nome de atributo (às vezes chamado de chave) que tem um valor associado a ele e são usados para distinguir uma opção de decisão das outras ofertas. Por exemplo, para um nome de atributo &quot;cor&quot;, o valor pode ser &quot;verde&quot; para uma oferta específica.
-As características são usadas como valores no conteúdo que representa essa opção de decisão e como recursos para analisar e otimizar o desempenho de uma oferta. Quando cada instância tem o mesmo atributo ou propriedade, esse aspecto deve ser modelado como um schema de extensão que deriva do detalhe da opção de decisão.
+**Descrição:** as características são atributos adicionais das ofertas ou propriedades pertencentes a uma opção de decisão específica. Esses atributos são pares de valores principais, o que significa que incluem um nome de atributo (às vezes chamado de chave) que tem um valor associado a ele e são usados para distinguir uma opção de decisão das outras ofertas. Por exemplo, para um nome de atributo &quot;cor&quot;, o valor pode ser &quot;verde&quot; para uma oferta específica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **Tipo:** objeto
 
 +++
@@ -183,7 +182,7 @@ As características são usadas como valores no conteúdo que representa essa op
   **Campo:** linkURL
   **Descrição:** Um localizador de recursos exclusivo opcional para interações do usuário. Esse URL é usado para indicar o usuário final a em um agente do usuário e pode ser rastreado.
   **Tipo:** cadeia de caracteres
-  **Exemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Exemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > contents > Placement
 
