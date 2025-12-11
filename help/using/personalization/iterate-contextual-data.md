@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Exemplo: itens do carrinho de um evento
 
-Se o [esquema de eventos](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}), você poderá exibir o conteúdo do carrinho da seguinte maneira:
+Se o [esquema de eventos](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}), você poderá exibir o conteúdo do carrinho da seguinte maneira:
 
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
