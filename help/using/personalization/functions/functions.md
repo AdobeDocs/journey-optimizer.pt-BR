@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 2%
@@ -23,10 +23,6 @@ A linguagem de modelo é utilizada em funções auxiliares disponíveis na lista
 
 ![](../assets/access-helper-functions.png)
 
->[!NOTE]
->
->As funções e os recursos disponíveis no editor de personalização são diferentes daqueles disponíveis no [editor de expressão avançado do Jornada](../../building-journeys/expression/expressionadvanced.md). Por exemplo, a função `now()` só está disponível em expressões de jornada. [Saiba mais](../../email/code-content.md#date-time-limitations)
-
 No editor de personalização [!DNL Journey Optimizer], as funções auxiliares são agrupadas em três categorias: [Funções](#functions-helper), [Auxiliares](#helper-helper) e [Operadores](#operators-helper).
 
 Selecione uma categoria para acessar subcategorias e funções.
@@ -34,6 +30,10 @@ Selecione uma categoria para acessar subcategorias e funções.
 Acesso às subcategorias clicando no ícone `>`. Selecione uma função ao clicar no ícone `+`: a função é adicionada automaticamente à tela de personalização.
 
 Clique no ícone `...` para exibir a descrição da função e adicioná-la aos favoritos. [Saiba mais](../personalize.md#fav)
+
+>[!NOTE]
+>
+>As funções e os recursos disponíveis no editor de personalização são diferentes daqueles disponíveis no [editor de expressão avançado do Jornada](../../building-journeys/expression/expressionadvanced.md). Por exemplo, a função `now()` só está disponível em expressões de jornada. [Saiba mais](../../email/code-content.md#date-time-limitations)
 
 ## Funções{#functions-helper}
 
