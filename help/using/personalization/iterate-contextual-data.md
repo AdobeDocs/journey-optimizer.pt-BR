@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: expressão, editor, handlebars, iteração, matrizes, contexto, personalização
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: ebe367a91dc1bb20ceeb03b13a6008433fadf023
 workflow-type: tm+mt
-source-wordcount: '2484'
-ht-degree: 3%
+source-wordcount: '2557'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,9 @@ Este guia mostra como iterar sobre matrizes de cada uma dessas fontes em suas me
 
 ## Sintaxe de iteração de Handlebars {#syntax}
 
-Handlebars fornece o `{{#each}}` [auxiliar](functions/helpers.md) para iterar sobre matrizes. A sintaxe básica é:
+Handlebars fornece o `{{#each}}` [auxiliar](functions/helpers.md) para iterar sobre matrizes.
+
++++ Sintaxe básica
 
 ```handlebars
 {{#each arrayPath as |item|}}
@@ -52,6 +54,8 @@ Handlebars fornece o `{{#each}}` [auxiliar](functions/helpers.md) para iterar so
 * Substitua `item` com qualquer nome de variável que você preferir (por exemplo, `product`, `response`, `element`)
 * Acessar propriedades de cada item usando `{{item.propertyName}}`
 * Você pode aninhar vários blocos `{{#each}}` para matrizes de vários níveis
+
++++
 
 ## Iterar dados do evento {#event-data}
 
@@ -72,7 +76,9 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Exemplo: itens do carrinho de um evento
 
-Se o [esquema de eventos](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}), você poderá exibir o conteúdo do carrinho da seguinte maneira:
+Se o [esquema de eventos](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}), você poderá exibir o conteúdo do carrinho da seguinte maneira:
+
++++ Exibir código de exemplo
 
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -84,9 +90,13 @@ Se o [esquema de eventos](../event/experience-event-schema.md) incluir uma matri
 {{/each}}
 ```
 
++++
+
 ### Exemplo: matrizes aninhadas em eventos
 
 Para estruturas aninhadas, use `{{#each}}` blocos aninhados. Saiba mais sobre o aninhamento em [Práticas recomendadas](#best-practices).
+
++++ Exibir código de exemplo
 
 ```handlebars
 {{#each context.journey.events.event_ID.categories as |category|}}
@@ -98,6 +108,8 @@ Para estruturas aninhadas, use `{{#each}}` blocos aninhados. Saiba mais sobre o 
   </ul>
 {{/each}}
 ```
+
++++
 
 ## Iterar sobre respostas de ação personalizadas {#custom-action-responses}
 
@@ -119,6 +131,8 @@ context.journey.actions.<actionName>.<fieldPath>
 ### Exemplo: recomendações de produto de uma API
 
 Se sua ação personalizada retornar recomendações de produto:
+
++++ Exibir código de exemplo
 
 **Resposta da API:**
 
@@ -156,9 +170,13 @@ Se sua ação personalizada retornar recomendações de produto:
 </div>
 ```
 
++++
+
 ### Exemplo: matrizes aninhadas de ações personalizadas
 
 Se sua ação personalizada retornar matrizes aninhadas (por exemplo, categorias com produtos). Para obter padrões de aninhamento mais complexos, consulte [Práticas recomendadas](#best-practices).
+
++++ Exibir código de exemplo
 
 **Resposta da API:**
 
@@ -188,9 +206,13 @@ Se sua ação personalizada retornar matrizes aninhadas (por exemplo, categorias
 {{/each}}
 ```
 
++++
+
 ### Exemplo: benefícios do nível de fidelidade
 
 Exibir benefícios dinâmicos com base no status de fidelidade:
+
++++ Exibir código de exemplo
 
 **Resposta da API:**
 
@@ -219,6 +241,8 @@ Exibir benefícios dinâmicos com base no status de fidelidade:
 </ul>
 ```
 
++++
+
 ## Repetir nos resultados da pesquisa do conjunto de dados {#dataset-lookup}
 
 A [Atividade de Pesquisa de Conjunto de Dados](../building-journeys/dataset-lookup.md) permite recuperar dados de [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"} durante o tempo de execução da jornada. Os dados enriquecidos são armazenados como uma matriz e podem ser repetidos em suas mensagens.
@@ -241,6 +265,8 @@ context.journey.datasetLookup.<activityID>.entities
 ### Exemplo: detalhes do produto de um conjunto de dados
 
 Se você estiver usando uma atividade de Pesquisa de conjunto de dados para recuperar informações do produto com base em SKUs:
+
++++ Exibir código de exemplo
 
 **Configuração de Pesquisa de Conjunto de Dados:**
 
@@ -271,9 +297,13 @@ Se você estiver usando uma atividade de Pesquisa de conjunto de dados para recu
 </table>
 ```
 
++++
+
 ### Exemplo: iteração filtrada com dados do conjunto de dados
 
 Exibir somente produtos de uma categoria específica. Saiba mais sobre a filtragem condicional em [Práticas recomendadas](#best-practices).
+
++++ Exibir código de exemplo
 
 ```handlebars
 <h2>Household Products</h2>
@@ -287,7 +317,11 @@ Exibir somente produtos de uma categoria específica. Saiba mais sobre a filtrag
 {{/each}}
 ```
 
++++
+
 ### Exemplo: Calcular totais a partir da pesquisa do conjunto de dados
+
++++ Exibir código de exemplo
 
 ```handlebars
 {% let householdTotal = 0 %}
@@ -299,6 +333,8 @@ Exibir somente produtos de uma categoria específica. Saiba mais sobre a filtrag
 
 <p>Your household products total: ${{householdTotal}}</p>
 ```
+
++++
 
 ## Usar propriedades técnicas do jornada {#technical-properties}
 
@@ -317,6 +353,8 @@ Ao usar identificadores complementares em jornadas acionadas por eventos com mat
 
 **Cenário**: uma jornada é acionada com várias reservas, mas você deseja exibir informações somente para a reserva específica (identificada pela ID complementar) que acionou essa instância de jornada.
 
++++ Exibir código de exemplo
+
 ```handlebars
 {{#each context.journey.events.event_ID.bookingList as |booking|}}
   {%#if booking.bookingInfo.bookingNum = context.journey.technicalProperties.supplementalId%}
@@ -329,13 +367,19 @@ Ao usar identificadores complementares em jornadas acionadas por eventos com mat
 {{/each}}
 ```
 
++++
+
 ### Exemplo: incluir ID da jornada para rastreamento
+
++++ Exibir código de exemplo
 
 ```handlebars
 <footer>
   <p>Journey Reference: {{context.journey.technicalProperties.journeyUID}}</p>
 </footer>
 ```
+
++++
 
 ## Combinar várias fontes de contexto {#combine-sources}
 
@@ -350,6 +394,8 @@ Você pode combinar dados de diferentes fontes na mesma mensagem para criar expe
 ### Exemplo: itens do carrinho com inventário em tempo real
 
 Combinar dados do evento (conteúdo do carrinho) com dados de ação personalizados (status do inventário):
+
++++ Exibir código de exemplo
 
 ```handlebars
 <h2>Your Cart</h2>
@@ -375,9 +421,13 @@ Combinar dados do evento (conteúdo do carrinho) com dados de ação personaliza
 {{/each}}
 ```
 
++++
+
 ### Exemplo: dados de evento enriquecidos com pesquisa de conjunto de dados
 
 Combine [SKUs de evento](#event-data) com informações detalhadas do produto de uma [pesquisa de conjunto de dados](#dataset-lookup):
+
++++ Exibir código de exemplo
 
 ```handlebars
 <h2>Your Order Details</h2>
@@ -398,7 +448,11 @@ Combine [SKUs de evento](#event-data) com informações detalhadas do produto de
 {{/each}}
 ```
 
++++
+
 ### Exemplo: combinar várias fontes com propriedades técnicas
+
++++ Exibir código de exemplo
 
 ```handlebars
 <div class="personalized-content">
@@ -428,6 +482,8 @@ Combine [SKUs de evento](#event-data) com informações detalhadas do produto de
   </footer>
 </div>
 ```
+
++++
 
 ## Outros tipos de contexto {#other-contexts}
 
@@ -464,6 +520,8 @@ Saiba mais sobre como transmitir coleções em [Transmitir coleções para parâ
 
 **Exemplo de cenário**: extraia o primeiro SKU com um preço maior que 0 de uma lista de produtos.
 
++++ Exibir código de exemplo
+
 **Exemplo de esquema de evento**:
 
 ```json
@@ -499,9 +557,13 @@ Saiba mais sobre como transmitir coleções em [Transmitir coleções para parâ
 
 Saiba mais sobre a função `first` em [Funções de gerenciamento de coleção](../building-journeys/expression/collection-management-functions.md).
 
++++
+
 #### Criar uma lista de valores de uma matriz
 
 **Caso de uso**: crie uma lista separada por vírgulas de IDs a serem transmitidas como um parâmetro de consulta (por exemplo, `/products?ids=sku1,sku2,sku3`).
+
++++ Exibir código de exemplo
 
 **Configuração de ação personalizada**:
 
@@ -535,9 +597,13 @@ Saiba mais sobre:
 
 O manuseio de coleção para ações personalizadas é abordado em [Transmitir coleções para parâmetros de ação personalizados](../building-journeys/collections.md#passing-collection).
 
++++
+
 #### Passar uma matriz de objetos para uma ação personalizada
 
 **Caso de uso**: enviar uma matriz completa de objetos em um corpo de solicitação (para POST ou GET com corpo).
+
++++ Exibir código de exemplo
 
 **Solicitar exemplo de corpo**:
 
@@ -584,11 +650,15 @@ O Journey Optimizer constrói a matriz de objetos que correspondem à estrutura 
 
 Saiba mais em [Transmitir coleções para parâmetros de ação personalizados](../building-journeys/collections.md#passing-collection).
 
++++
+
 ### Usar matrizes com pesquisas de conjunto de dados {#arrays-with-dataset-lookup}
 
 Ao usar a [atividade de Pesquisa de Conjunto de Dados](../building-journeys/dataset-lookup.md), você pode passar uma matriz de valores como chaves de pesquisa para recuperar dados enriquecidos.
 
 **Exemplo**: pesquisar detalhes do produto para todas as SKUs em uma matriz de eventos.
+
++++ Exibir código de exemplo
 
 **Configuração de Pesquisa do Conjunto de Dados**:
 
@@ -599,6 +669,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 ```
 
 Isso cria uma lista de todos os valores de SKU a serem pesquisados no conjunto de dados. Os resultados estão disponíveis como uma matriz em `context.journey.datasetLookup.<activityID>.entities` que você pode iterar na sua mensagem (consulte [Iterar nos resultados da pesquisa do conjunto de dados](#dataset-lookup)).
+
++++
 
 ### Limitações e padrões {#array-limitations}
 
@@ -638,6 +710,8 @@ Arrays grandes podem afetar o desempenho da jornada:
 Este é um fluxo de trabalho completo que mostra como usar uma matriz de eventos com uma ação personalizada.
 
 **Cenário**: quando um usuário abandona o carrinho, envie os dados do carrinho para uma API de recomendação externa para obter sugestões personalizadas e, em seguida, as exiba em um email.
+
++++ Exibir exemplo completo
 
 **Etapa 1: configurar a ação personalizada**
 
@@ -731,6 +805,8 @@ Antes de executar uma jornada em tempo real, teste a ação personalizada usando
 
 Saiba mais em [Solucionar problemas de ações personalizadas](../action/troubleshoot-custom-action.md).
 
++++
+
 ## Práticas recomendadas {#best-practices}
 
 Siga essas práticas recomendadas ao iterar em dados contextuais para criar personalização executável e que possa ser mantida.
@@ -738,6 +814,8 @@ Siga essas práticas recomendadas ao iterar em dados contextuais para criar pers
 ### Usar nomes de variáveis descritivas
 
 Escolha nomes de variáveis que indiquem claramente sobre o que você está iterando. Isso torna o código mais legível e fácil de manter. Saiba mais sobre a [sintaxe de personalização](personalization-syntax.md):
+
++++ Exibir exemplo
 
 ```handlebars
 <!-- Good -->
@@ -750,9 +828,13 @@ Escolha nomes de variáveis que indiquem claramente sobre o que você está iter
 {{#each array as |element|}}
 ```
 
++++
+
 ### Lidar com matrizes vazias
 
 Use a cláusula `{{else}}` para fornecer conteúdo de fallback quando uma matriz estiver vazia. Saiba mais sobre [funções auxiliares](functions/helpers.md):
+
++++ Exibir exemplo
 
 ```handlebars
 {{#each context.journey.actions.GetRecommendations.items as |item|}}
@@ -762,9 +844,13 @@ Use a cláusula `{{else}}` para fornecer conteúdo de fallback quando uma matriz
 {{/each}}
 ```
 
++++
+
 ### Combinar com auxiliares condicionais
 
 Use `{{#if}}` em loops para conteúdo condicional. Saiba mais sobre [regras condicionais](create-conditions.md) e veja exemplos nas seções [Respostas de ação personalizadas](#custom-action-responses) e [Pesquisa de conjunto de dados](#dataset-lookup).
+
++++ Exibir exemplo
 
 ```handlebars
 {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -780,9 +866,13 @@ Use `{{#if}}` em loops para conteúdo condicional. Saiba mais sobre [regras cond
 {{/each}}
 ```
 
++++
+
 ### Limitar iteração para desempenho
 
 Para matrizes grandes, considere limitar o número de iterações:
+
++++ Exibir exemplo
 
 ```handlebars
 <!-- Display only first 5 items -->
@@ -793,6 +883,8 @@ Para matrizes grandes, considere limitar o número de iterações:
 {{/each}}
 ```
 
++++
+
 ### Acessar metadados da matriz
 
 Handlebars fornecem variáveis especiais em loops que ajudam nos padrões avançados de iteração:
@@ -801,6 +893,8 @@ Handlebars fornecem variáveis especiais em loops que ajudam nos padrões avanç
 * `@first`: verdadeiro para a primeira iteração
 * `@last`: verdadeiro para a última iteração
 
++++ Exibir exemplo
+
 ```handlebars
 {{#each products as |product|}}
   <div class="product {{#if @first}}featured{{/if}}">
@@ -808,6 +902,8 @@ Handlebars fornecem variáveis especiais em loops que ajudam nos padrões avanç
   </div>
 {{/each}}
 ```
+
++++
 
 >[!NOTE]
 >
@@ -821,6 +917,8 @@ Problemas com a iteração? Esta seção aborda problemas e soluções comuns.
 
 **Problema**: sua iteração de matriz não está mostrando conteúdo.
 
++++ Exibir possíveis causas e soluções
+
 **Possíveis causas e soluções**:
 
 1. **Caminho incorreto**: verifique o caminho exato para a matriz com base na fonte do contexto:
@@ -832,9 +930,13 @@ Problemas com a iteração? Esta seção aborda problemas e soluções comuns.
 
 3. **Dados ainda não disponíveis**: verifique se a ação personalizada, o evento ou a atividade de pesquisa do conjunto de dados foi executada antes da atividade de mensagem no fluxo de jornada.
 
++++
+
 ### Erros de sintaxe
 
 **Problema**: falha na validação da expressão ou a mensagem não é renderizada.
+
++++ Exibir erros comuns
 
 **Erros comuns**:
 
@@ -842,53 +944,30 @@ Problemas com a iteração? Esta seção aborda problemas e soluções comuns.
 * Nome de variável incorreto: garanta o uso consistente do nome da variável em todo o bloco. Consulte [Práticas recomendadas](#best-practices) para convenções de nomenclatura.
 * Separadores de caminho incorretos: use pontos (`.`), não barras ou outros caracteres
 
++++
+
 ### Teste das iterações
 
 Use o [modo de teste de jornada](../building-journeys/testing-the-journey.md) para verificar suas iterações. Isso é especialmente importante ao usar [ações personalizadas](#custom-action-responses) ou [pesquisas de conjunto de dados](#dataset-lookup):
+
++++ Exibir etapas de teste
 
 1. Inicie sua jornada no [modo de teste](../building-journeys/testing-the-journey.md)
 2. Acionar o evento ou a ação personalizada com dados de amostra
 3. Verifique a [visualização da mensagem](../content-management/preview.md) para verificar se a iteração é exibida corretamente
 4. Revise os logs do modo de teste para quaisquer erros (consulte [Logs do modo de teste de ação personalizada](../action/action-response.md#test-mode-logs))
 
++++
+
 ## Tópicos relacionados {#related-topics}
 
-**Fundamentos do Personalization:**
+**Fundamentos do Personalization:** [Introdução à personalização](personalize.md) | [Adicionar personalização](personalization-build-expressions.md) | [Sintaxe do Personalization](personalization-syntax.md) | [Funções auxiliares](functions/helpers.md) | [Criar regras condicionais](create-conditions.md)
 
-* [Introdução à personalização](personalize.md)
-* [Adicionar personalização](personalization-build-expressions.md)
-* [Sintaxe de personalização](personalization-syntax.md)
-* [Funções de ajuda](functions/helpers.md)
-* [Criar regras condicionais](create-conditions.md)
+**Configuração de Jornada:** [Sobre eventos](../event/about-events.md) | [Configurar ações personalizadas](../action/about-custom-action-configuration.md) | [Envio de coleções em parâmetros de ação personalizados](../building-journeys/collections.md#passing-collection) | [Usar respostas de chamada de API em ações personalizadas](../action/action-response.md) | [Solucionar problemas de ações personalizadas](../action/troubleshoot-custom-action.md) | [Usar dados do Adobe Experience Platform no jornada](../building-journeys/dataset-lookup.md) | [Usar identificadores complementares no jornada](../building-journeys/supplemental-identifier.md) | [Medidas de proteção e limitações](../start/guardrails.md) | [Testar sua jornada](../building-journeys/testing-the-journey.md)
 
-**Configuração de Jornada:**
+**Funções de expressão de Jornada:** [Editor de expressão avançado](../building-journeys/expression/expressionadvanced.md) | [Funções de gerenciamento de coleções](../building-journeys/expression/collection-management-functions.md) (primeiro, todos, último) | [Listar funções](../building-journeys/functions/list-functions.md) (serializeList, filtro, classificação) | [Funções de matriz](../personalization/functions/arrays-list.md) (head, tail)
 
-* [Sobre eventos](../event/about-events.md)
-* [Configurar ações personalizadas](../action/about-custom-action-configuration.md)
-* [Passar coleções para parâmetros de ação personalizada](../building-journeys/collections.md#passing-collection)
-* [Usar as respostas de chamada da API em ações personalizadas](../action/action-response.md)
-* [Solucionar problemas de ações personalizadas](../action/troubleshoot-custom-action.md)
-* [Usar dados do Adobe Experience Platform no jornada](../building-journeys/dataset-lookup.md)
-* [Usar identificadores complementares em jornadas](../building-journeys/supplemental-identifier.md)
-* [Medidas de proteção e limitações](../start/guardrails.md)
-* [Teste a jornada](../building-journeys/testing-the-journey.md)
+**Casos de uso do Personalization:** [Email de abandono de carrinho](personalization-use-case-helper-functions.md) | [Notificação do status do pedido](personalization-use-case.md)
 
-**Funções de expressão de Jornada:**
-
-* [Editor de expressão avançado](../building-journeys/expression/expressionadvanced.md)
-* [Funções de gerenciamento de coleção](../building-journeys/expression/collection-management-functions.md) (primeiro, todos, último)
-* [Listar funções](../building-journeys/functions/list-functions.md) (serializeList, filtro, classificação)
-* [Funções de matriz](../personalization/functions/arrays-list.md) (head, tail)
-
-**Casos de uso do Personalization:**
-
-* [Email de abandono do carrinho](personalization-use-case-helper-functions.md)
-* [Notificação do status do pedido](personalization-use-case.md)
-
-**Design da mensagem:**
-
-* [Introdução ao design de email](../email/get-started-email-design.md)
-* [Criar notificações por push](../push/create-push.md)
-* [Criar mensagens SMS](../sms/create-sms.md)
-* [Visualizar e testar o conteúdo](../content-management/preview-test.md)
+**Design da mensagem:** [Introdução ao design de email](../email/get-started-email-design.md) | [Criar notificações por push](../push/create-push.md) | [Criar mensagens SMS](../sms/create-sms.md) | [Visualizar e testar seu conteúdo](../content-management/preview-test.md)
 
