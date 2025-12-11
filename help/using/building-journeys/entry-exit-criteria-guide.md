@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: entrada, saída, critérios, jornada, perfil, reentrada, práticas recomendadas
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+source-git-commit: a60ea57ffed3fa9e11dc202f26889d05862604d9
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 1%
+source-wordcount: '1494'
+ht-degree: 0%
 
 ---
 
@@ -64,11 +64,15 @@ Estes são cenários comuns que demonstram como os critérios de entrada e saíd
 
 **Campanha de boas-vindas para novos assinantes**
 
+Crie uma primeira impressão personalizada orientando automaticamente novos assinantes por meio de uma introdução à sua marca, produtos e serviços.
+
 * **Entrada**: perfis entram na jornada quando assinam um boletim informativo
 * **Sair**: os perfis são encerrados após concluírem uma série de emails de boas-vindas ou após um tempo definido, caso não sejam envolvidos
 * **Benefício**: garante que novos assinantes recebam a integração em tempo hábil, evitando mensagens repetitivas
 
 **Recuperação do carrinho abandonada**
+
+Recapture a receita perdida lembrando aos clientes sobre os itens que deixaram para trás e fornecendo incentivos para concluir sua compra.
 
 * **Entrada**: os clientes inserem a jornada se adicionarem itens ao carrinho, mas não concluírem o check-out em 24 horas
 * **Saída**: os perfis são encerrados ao concluírem a compra ou após 7 dias se nenhuma compra for feita
@@ -76,11 +80,15 @@ Estes são cenários comuns que demonstram como os critérios de entrada e saíd
 
 **Participação no programa de fidelidade**
 
+Recompense seus clientes mais valiosos com benefícios exclusivos e comunicações personalizadas que fortalecem a fidelidade à marca e aumentam o valor vitalício.
+
 * **Entrada**: os clientes ingressam na jornada depois de atingir um determinado limite de pontos de fidelidade
 * **Saída**: os perfis são encerrados após resgatar recompensas ou se ficarem inativos por 60 dias
 * **Benefício**: mantém clientes de alto valor envolvidos com ofertas personalizadas e evita a fadiga da comunicação
 
 **Coleção de comentários sobre o produto**
+
+Obtenha insights sobre a satisfação do cliente e o desempenho do produto solicitando feedback no momento ideal após o delivery.
 
 * **Entrada**: os clientes entram na jornada depois de receberem um evento de confirmação de entrega de produto
 * **Sair**: os perfis são encerrados assim que o feedback é enviado ou após 10 dias se nenhuma resposta
@@ -188,26 +196,12 @@ Comece mapeando claramente os acionadores do cliente e os pontos de saída, test
 
 **Documentação técnica**
 
-* [Gerenciamento de entrada de perfil](entry-management.md) - Guia técnico detalhado para controles de entrada
-* [Propriedades de Jornada e critérios de saída](journey-properties.md) - Referência de configuração completa
-* [Como o jornada termina](end-journey.md) - Gerenciamento do ciclo de vida da Jornada
-* [Identificadores complementares](supplemental-identifier.md) - Cenários de reentrada avançados
-* [Designer de Jornadas](using-the-journey-designer.md) - jornadas de compilação e design
+[Gerenciamento de entrada de perfil](entry-management.md) | [Jornada propriedades e critérios de saída](journey-properties.md) | [Como o jornada termina](end-journey.md) | [Identificadores complementares](supplemental-identifier.md) | [Designer de Jornadas](using-the-journey-designer.md)
 
 **Tutoriais e exemplos**
 
-* [Casos de uso de Jornada](jo-use-cases.md) - Exemplos e padrões de jornada completos
-* [Vídeo de integração do cliente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
-* [Vídeo de carrinho abandonado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* [Blog da comunidade: Critérios de entrada e saída](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=pt)
+[Jornada casos de uso](jo-use-cases.md) | [Vídeo de integração do cliente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carrinho abandonado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog da comunidade: Critérios de entrada e saída](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Recursos relacionados**
 
-* [Eventos de qualificação de público-alvo](audience-qualification-events.md)
-* [Métricas de sucesso e metas](success-metrics.md)
-* [Gerenciamento de conflitos](../conflict-prioritization/conflicts.md)
-* [Limite de frequência](../conflict-prioritization/rule-sets.md)
-* [Jornadas de teste](testing-the-journey.md)
-* [Atividade de condição](condition-activity.md)
-* [Eventos de reação](reaction-events.md)
-* [Atividade aguardar](wait-activity.md)
+[Eventos de qualificação de público-alvo](audience-qualification-events.md) | [Métricas e metas de sucesso](success-metrics.md) | [Gerenciamento de conflitos](../conflict-prioritization/conflicts.md) | [Limite de frequência](../conflict-prioritization/rule-sets.md) | [Testando jornadas](testing-the-journey.md) | [Atividade de condição](condition-activity.md) | [Eventos de reação](reaction-events.md) | [Atividade de espera](wait-activity.md)
