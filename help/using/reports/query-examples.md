@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
+source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2734'
 ht-degree: 1%
 
 ---
@@ -78,57 +78,9 @@ AND
 
 +++
 
-+++Quantos erros ocorreram em cada nó de uma jornada específica por um determinado período
++++Qual regra fez com que um perfil não recebesse uma ação de jornada
 
-Essa consulta conta os perfis distintos que apresentaram erros em cada nó de uma jornada, agrupados por nome de nó. Inclui todos os tipos de erros de execução de ação e erros de busca.
-
-_Consulta do Data Lake_
-
-```sql
-SELECT
-_experience.journeyOrchestration.stepEvents.nodeName,
-count(distinct _experience.journeyOrchestration.stepEvents.profileID)
-FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
-AND
-  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
-  )
-GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
-```
-
-+++
-
-+++Quantos eventos foram descartados de uma jornada específica em um determinado período
-
-Esta consulta conta o número total de eventos que foram descartados de uma jornada. Ele filtra vários códigos de evento de descarte, incluindo erros de trabalho de exportação de segmento, descartes do Dispatcher e descartes da máquina de estado.
-
-_Consulta do Data Lake_
-
-```sql
-SELECT
-count(_id) AS NUMBER_OF_EVENTS_DISCARDED
-FROM journey_step_events
-WHERE (
-   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
-   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
-)
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
-```
-
-+++
-
-+++Exibir eventos de etapa para perfis descartados
-
-Este query retorna os detalhes do evento da etapa para perfis que foram descartados de uma jornada. Isso ajuda a identificar por que os perfis foram descartados, por exemplo, devido a regras de negócios ou restrições de horário silencioso. A consulta filtra tipos específicos de evento de descarte e mostra as principais informações, incluindo ID de perfil, ID de instância, detalhes da jornada e o erro que causou o descarte.
+Esta consulta retorna os detalhes do evento da etapa para perfis que foram descartados durante uma jornada e não receberam uma ação de jornada. Isso ajuda a identificar por que os perfis foram descartados devido a regras de negócios, como restrições de horários silenciosos.
 
 _Consulta do Data Lake_
 
@@ -181,6 +133,54 @@ Os resultados da consulta exibem campos-chave que ajudam a identificar o motivo 
 * **eventType** - Especifica o tipo de regra de negócios que causou o descarte:
    * `quietHours`: o perfil foi descartado devido à configuração de horários de silêncio
    * `forcedDiscardDueToQuietHours`: o perfil foi descartado à força porque o limite de grade de proteção foi atingido para perfis mantidos em horas de silêncio
+
++++
+
++++Quantos erros ocorreram em cada nó de uma jornada específica por um determinado período
+
+Essa consulta conta os perfis distintos que apresentaram erros em cada nó de uma jornada, agrupados por nome de nó. Inclui todos os tipos de erros de execução de ação e erros de busca.
+
+_Consulta do Data Lake_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
++++
+
++++Quantos eventos foram descartados de uma jornada específica em um determinado período
+
+Esta consulta conta o número total de eventos que foram descartados de uma jornada. Ele filtra vários códigos de evento de descarte, incluindo erros de trabalho de exportação de segmento, descartes do Dispatcher e descartes da máquina de estado.
+
+_Consulta do Data Lake_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE (
+   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
+   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
+)
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
 
 +++
 
