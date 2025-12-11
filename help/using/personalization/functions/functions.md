@@ -6,30 +6,39 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
+source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2458'
 ht-degree: 2%
 
 ---
 
 # Introdução às funções Auxiliares{#functions}
 
-Use a linguagem de modelo [!DNL Journey Optimizer] para executar operações em dados, como cálculos, formatação ou conversões de dados, condições e manipulá-las no contexto da personalização. Saiba mais sobre as diretrizes de sintaxe de personalização em [esta página](../personalization-syntax.md).
+As funções auxiliares permitem transformar e manipular dados em seu conteúdo personalizado. Use-os para realizar cálculos, formatar dados, aplicar condições e executar várias operações para criar experiências dinâmicas e personalizadas para seus clientes.
+
+Essas funções usam a linguagem de modelo [!DNL Journey Optimizer]. Saiba mais sobre as diretrizes da sintaxe de personalização em [esta página](../personalization-syntax.md).
 
 ➡️ [Saiba como usar funções auxiliares neste vídeo](#video)
 
-A linguagem de modelo é utilizada em funções auxiliares disponíveis na lista suspensa de personalização do editor de personalização, conforme abaixo:
+## Acessar funções auxiliares
+
+As funções auxiliares estão disponíveis no menu de função do editor de personalização:
 
 ![](../assets/access-helper-functions.png)
 
-No editor de personalização [!DNL Journey Optimizer], as funções auxiliares são agrupadas em três categorias: [Funções](#functions-helper), [Auxiliares](#helper-helper) e [Operadores](#operators-helper).
+As funções são organizadas em três categorias para facilitar a navegação:
 
-Selecione uma categoria para acessar subcategorias e funções.
+* **[Funções](#functions-helper)** - Operações de manipulação e transformação de dados
+* **[Auxiliares](#helper-helper)** - Lógica condicional e funções utilitárias
+* **[Operadores](#operators-helper)** - Comparação e operadores lógicos
 
-Acesso às subcategorias clicando no ícone `>`. Selecione uma função ao clicar no ícone `+`: a função é adicionada automaticamente à tela de personalização.
+**Para usar uma função auxiliar:**
 
-Clique no ícone `...` para exibir a descrição da função e adicioná-la aos favoritos. [Saiba mais](../personalize.md#fav)
+1. Selecione uma categoria para exibir suas subcategorias e funções disponíveis
+1. Clique no ícone `>` para expandir subcategorias
+1. Clique no ícone `+` ao lado de uma função para adicioná-lo ao seu código de personalização
+1. Clique no ícone `...` para exibir a descrição da função ou adicioná-la aos favoritos. [Saiba mais](../personalize.md#fav)
 
 >[!NOTE]
 >
