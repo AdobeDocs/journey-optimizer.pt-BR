@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: página de aterrissagem, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 13%
+source-wordcount: '1148'
+ht-degree: 11%
 
 ---
 
@@ -165,11 +165,9 @@ As informações de recusa são armazenadas no **Conjunto de dados de serviço d
 
 >[!NOTE]
 >
->Se o método de mesclagem para sua política de mesclagem padrão do [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Perfis]** for **[!UICONTROL Precedência do conjunto de dados]**, habilite o **[!UICONTROL Conjunto de dados do Serviço de Consentimento da AJO]** e priorize-o na política de mesclagem. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR#dataset-precedence-profile){target="_blank"}
+>Se o método de mesclagem para sua política de mesclagem padrão do [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Perfis]** for **[!UICONTROL Precedência do conjunto de dados]**, habilite o **[!UICONTROL Conjunto de dados do Serviço de Consentimento da AJO]** e priorize-o na política de mesclagem. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Mesmo se nenhum lote tiver sido adicionado a esse conjunto de dados, ele ainda conterá as informações de aceitação/recusa.
-
-
 
 **Consulte também:**
 
@@ -190,14 +188,21 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
 
-////////
+-->
 
+## Aproveitar o evento de envio da página de aterrissagem {#leverage-lp-event}
 
-## Leverage landing page submission event {#leverage-lp-event}
+Você pode usar as informações enviadas em uma página de aterrissagem para executar outras ações. Por exemplo, se um usuário assinar uma determinada lista de assinaturas, você poderá aproveitar essas informações para enviar um email recomendando outras listas de assinaturas para esse usuário.
 
-You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
+Para fazer isso, você precisa criar um [evento unitário baseado em regras](../event/about-creating.md) com base no **[!UICONTROL Esquema de Evento de Experiência de Rastreamento de Email do AJO]** contendo as informações de envio e [usar este evento em uma jornada](../building-journeys/general-events.md).
 
-To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
+>[!NOTE]
+>
+>Ao trabalhar com eventos de envio de página de aterrissagem, esteja ciente de que o campo `interactionType` do evento nem sempre reflete precisamente a ação específica do usuário. Para determinar com precisão se um usuário optou por não participar, se inscreveu ou executou outra ação, sempre verifique os atributos reais do perfil (como preferências de consentimento) ou os valores dos campos de formulário em vez de depender exclusivamente do evento `interactionType`.
+
+<!--DETAILED STEPS TBC:
+
+Follow the steps below.
 
 1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
 
