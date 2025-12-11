@@ -4,15 +4,15 @@ product: Journey Optimizer
 title: Medidas de proteção e limitações da gestão de decisões
 description: Saiba mais sobre as medidas de proteção e limitações do gerenciamento de decisão.
 badge: label="Legado" type="Informative"
-feature: Decisioning
+feature: Decision Management
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 753f6bc8130b0a743aac1208a8e5aac58e3dbbfd
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -63,8 +63,8 @@ A taxa de transferência de delivery corresponde ao número de respostas de deci
 | ------- | ------- |
 | Total de ofertas | 10 K |
 | Número máximo de **ofertas** ativas por sandbox | 10 K |
-| Tamanho máximo de ofertas, incluindo atributos (1 KB), máximo de 30 atributos | 1 KB |
-| Tamanho máximo de representação da oferta (total para todos os posicionamentos) | 1 KB |
+| Tamanho máximo de ofertas, incluindo atributos (1 KB), máximo de 30 atributos | 1KB |
+| Tamanho máximo de representação da oferta (total para todos os posicionamentos) | 1KB |
 
 ## Regras de elegibilidade
 
