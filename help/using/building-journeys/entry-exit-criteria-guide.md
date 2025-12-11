@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: entrada, saída, critérios, jornada, perfil, reentrada, práticas recomendadas
 version: Journey Orchestration
-source-git-commit: a60ea57ffed3fa9e11dc202f26889d05862604d9
+source-git-commit: d1c7c9d454497f0d3c0ec75663d01aac91378d65
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
@@ -152,6 +152,8 @@ Para obter orientação de implementação passo a passo com detalhes técnicos 
 
 **Limpar definição**
 
+Estabeleça convenções claras de nomenclatura e documentação para garantir que sua equipe entenda como os perfis se movimentam pelas suas jornadas:
+
 * Documente a lógica de entrada e saída antes de criar jornadas para alinhar equipes de marketing e análise
 * Criar fluxogramas mostrando pontos de entrada, caminhos de jornada e condições de saída
 * Defina as regras de negócios com clareza: &quot;Perfis são encerrados quando X ocorre OU após Y dias&quot;
@@ -159,6 +161,8 @@ Para obter orientação de implementação passo a passo com detalhes técnicos 
 * [Marque jornadas](../start/search-filter-categorize.md#tags) de forma consistente para relatórios e filtragem
 
 **Evitar jornadas sobrepostas**
+
+Evite confusão do cliente e conflitos de mensagem coordenando sua estratégia de jornada em campanhas:
 
 * [Auditoria de jornadas ativas](journey-ui.md) antes de iniciar outras semelhantes para evitar conflitos
 * Aproveite o [gerenciamento de conflitos](../conflict-prioritization/conflicts.md) e as [pontuações de prioridade](../conflict-prioritization/priority-scores.md) para resolver sobreposições e priorizar jornadas
@@ -170,6 +174,8 @@ Para obter orientação de implementação passo a passo com detalhes técnicos 
 
 **Monitorar e otimizar**
 
+Avalie continuamente o desempenho da jornada e refine seus critérios de entrada e saída com base no comportamento real do cliente:
+
 * Rastreie a taxa de entrada, a taxa de saída e a taxa de conclusão de cada jornada usando os [relatórios de jornada](../reports/journey-global-report-cja.md)
 * Monitorar [métricas de sucesso](success-metrics.md): porcentagem de saída por conclusão de métrica de sucesso vs. tempo limite
 * [Testar os critérios de entrada e saída](testing-the-journey.md) com vários cenários de perfil antes de iniciar
@@ -177,6 +183,8 @@ Para obter orientação de implementação passo a passo com detalhes técnicos 
 * Revisar todas as jornadas ativas trimestralmente
 
 **Respeitar limites de frequência**
+
+Mantenha a confiança e o engajamento do cliente controlando a frequência da mensagem em todas as comunicações do jornada:
 
 * Defina [períodos de espera de reentrada](entry-management.md) apropriados ou desabilite a reentrada para jornadas únicas
 * Use as [regras de limite de frequência](../conflict-prioritization/rule-sets.md) para evitar comunicação excessiva
@@ -200,7 +208,7 @@ Comece mapeando claramente os acionadores do cliente e os pontos de saída, test
 
 **Tutoriais e exemplos**
 
-[Jornada casos de uso](jo-use-cases.md) | [Vídeo de integração do cliente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carrinho abandonado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog da comunidade: Critérios de entrada e saída](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=pt)
+[Jornada casos de uso](jo-use-cases.md) | [Vídeo de integração do cliente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carrinho abandonado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog da comunidade: Critérios de entrada e saída](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Recursos relacionados**
 
