@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Perguntas frequentes sobre o Jornada
-description: Perguntas frequentes sobre o Journey Optimizer Jornada
+title: Journey Orchestration - Perguntas frequentes
+description: Perguntas frequentes sobre o Journey Orchestration no Adobe Journey Optimizer
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia
+keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia, orquestração
 version: Journey Orchestration
-source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
+source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
 workflow-type: tm+mt
-source-wordcount: '5226'
-ht-degree: 0%
+source-wordcount: '5233'
+ht-degree: 1%
 
 ---
 
 
-# Perguntas frequentes {#faq-journeys}
+# Journey Orchestration - Perguntas frequentes {#faq-journeys}
 
-Você encontrará abaixo as Perguntas frequentes sobre o Adobe Journey Optimizer Jornada.
+Encontre respostas para perguntas comuns sobre o Journey Orchestration no Adobe Journey Optimizer.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer a pergunta ou conecte-se à [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
 
 ## Conceitos gerais
 
