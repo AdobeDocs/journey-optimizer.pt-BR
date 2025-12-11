@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: fd26e93b6711ccb003262bbeff8adb7895312a3d
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 97%
@@ -403,9 +403,9 @@ ht-degree: 97%
       + [Introdução à personalização](using/personalization/personalize.md)
       + [Adicionar personalização](using/personalization/personalization-build-expressions.md)
       + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
+      + [Iterar em dados contextuais](using/personalization/iterate-contextual-data.md)
       + [Reutilizar fragmentos de expressão](using/personalization/use-expression-fragments.md)
       + [Usar dados da Adobe Experience Platform para personalização](using/personalization/aep-data-perso.md)
-      + [Iterar em dados contextuais](using/personalization/iterate-contextual-data.md)
       + Lista de funções auxiliares {#functions}
          + [Lista de funções auxiliares](/help/rp_landing_pages/functions-landing-page.md)
          + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
@@ -446,7 +446,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
