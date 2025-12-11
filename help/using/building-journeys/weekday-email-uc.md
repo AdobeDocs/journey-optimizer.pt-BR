@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Enviar emails somente em dias da semana
+title: Enviar emails apenas em dias úteis
 description: Saiba como configurar uma jornada para enviar emails somente em dias da semana no Adobe Journey Optimizer
 feature: Journeys, Use Cases, Email
 topic: Content Management
@@ -9,16 +9,14 @@ role: User
 level: Intermediate
 keywords: jornada, caso de uso, dias da semana, condição, email, agendamento
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
+source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Enviar emails somente em dias da semana {#send-emails-only-on-weekdays}
+# Enviar emails apenas em dias úteis {#send-emails-only-on-weekdays}
 
 Esse caso de uso demonstra como configurar uma jornada no Adobe Journey Optimizer que envia emails somente em dias da semana (de segunda a sexta-feira). Para perfis que entram na jornada nos fins de semana (sábado ou domingo), os emails são automaticamente enfileirados e enviados na segunda-feira em um horário especificado. Isso garante o envolvimento ideal ao enviar mensagens durante a semana de trabalho.
 
@@ -55,7 +53,7 @@ Essa abordagem é ideal para campanhas de email B2B (B2B), informativos e comuni
 
 Logo após o início da jornada, adicione uma atividade **[!UICONTROL Condição]** para verificar se o dia atual é sábado ou domingo. Isso ramificará o fluxo de trabalho de acordo.
 
-1. Arraste e solte uma atividade [**[!UICONTROL Condição &#x200B;]**](condition-activity.md) na tela após o ponto de entrada.
+1. Arraste e solte uma atividade [**[!UICONTROL Condição ]**](condition-activity.md) na tela após o ponto de entrada.
 
 1. Clique na atividade **[!UICONTROL Condição]** para abrir seu painel de configuração.
 
