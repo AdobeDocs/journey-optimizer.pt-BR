@@ -7,10 +7,8 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: expressão, editor, handlebars, iteração, matrizes, contexto, personalização
-source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
+source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 0%
@@ -72,7 +70,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Exemplo: itens do carrinho de um evento
 
-Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
+Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
 
 +++ Exibir código de exemplo
 
