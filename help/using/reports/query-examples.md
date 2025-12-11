@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
+source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2749'
 ht-degree: 1%
 
 ---
@@ -123,6 +123,64 @@ WHERE (
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
++++
+
++++Exibir eventos de etapa para perfis descartados
+
+Este query retorna os detalhes do evento da etapa para perfis que foram descartados de uma jornada. Isso ajuda a identificar por que os perfis foram descartados, por exemplo, devido a regras de negócios ou restrições de horário silencioso. A consulta filtra tipos específicos de evento de descarte e mostra as principais informações, incluindo ID de perfil, ID de instância, detalhes da jornada e o erro que causou o descarte.
+
+_Consulta do Data Lake_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = '<eventType>' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = '<instanceID>';
+```
+
+_Exemplo_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'quietHours' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '6f21a072-6235-4c39-9f6a-9d9f3f3b2c3a' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
+```
+
+![Exemplo de resultados de consulta mostrando detalhes do perfil descartado](assets/query-discarded-profiles.png)
+
+Os resultados da consulta exibem campos-chave que ajudam a identificar o motivo dos descartes de perfil:
+
+* **actionExecutionError** - Quando definido como `businessRuleProfileDiscarded`, isso indica que o perfil foi descartado devido a uma regra de negócios. O campo `eventType` fornece detalhes adicionais sobre qual regra de negócios específica causou o descarte.
+
+* **eventType** - Especifica o tipo de regra de negócios que causou o descarte:
+   * `quietHours`: o perfil foi descartado devido à configuração de horários de silêncio
+   * `forcedDiscardDueToQuietHours`: o perfil foi descartado à força porque o limite de grade de proteção foi atingido para perfis mantidos em horas de silêncio
 
 +++
 
