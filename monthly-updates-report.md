@@ -5,7 +5,7 @@ title: Relatório mensal de atualizações de documentação
 description: Lista de páginas de documentação novas e atualizadas
 hide: true
 hidefromtoc: true
-source-git-commit: 856f35ebd70f38065e9b116bb648de1f2c2d439a
+source-git-commit: 6c1df24a1184fb7f3fb5e6b2a2cbb3b77015b4bc
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 0%
@@ -94,8 +94,6 @@ ht-degree: 0%
 - [Criar ofertas personalizadas](help/using/offers/offer-library/creating-personalized-offers.md) - 5 de novembro
 - [Criar inserções](help/using/offers/offer-library/creating-placements.md) - 5 de novembro
 - [Criar estratégias de classificação](help/using/offers/ranking/create-ranking-strategies.md) - 5 de novembro
-
-&#x200B;---
 
 ## Relatório anterior: 1 de outubro - 3 de novembro de 2025
 
