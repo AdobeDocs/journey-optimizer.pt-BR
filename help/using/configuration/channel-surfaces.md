@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 29d99fd55fd31d5c4f6e86fabed2b45c0636a7b8
+source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1854'
 ht-degree: 12%
 
 ---
@@ -256,9 +256,7 @@ Para tornar uma configuração de canal **[!UICONTROL Ativa]** indisponível par
 
 Não é possível desativar uma configuração de canal nos seguintes casos:
 
-* Se for referenciado por qualquer jornada em tempo real. Tentar desativar uma configuração ainda em uso por uma jornada ativa resultará em um erro.
-
-  Para desativar uma configuração de canal, verifique se todas as jornadas ativas que usam essa configuração estão fechadas ou paradas. [Saiba como finalizar uma jornada](../building-journeys/end-journey.md)
+* Se for referenciado por qualquer jornada em tempo real. Tentar desativar uma configuração ainda em uso por uma jornada ativa resultará em um erro. Para desativar uma configuração de canal, verifique se todas as jornadas ativas que usam essa configuração estão fechadas ou paradas. [Saiba como finalizar uma jornada](../building-journeys/end-journey.md)
 
 * Enquanto uma atualização da configuração de canal está sendo processada. Aguarde até que a atualização seja bem-sucedida ou tenha falhado. Saiba mais sobre [edição de configurações de canal](#edit-channel-surface) e sobre [atualização de status](#update-statuses).
 
