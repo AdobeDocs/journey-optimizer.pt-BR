@@ -5,9 +5,9 @@ title: Relatório mensal de atualizações de documentação
 description: Lista de páginas de documentação novas e atualizadas
 hide: true
 hidefromtoc: true
-source-git-commit: 6c1df24a1184fb7f3fb5e6b2a2cbb3b77015b4bc
+source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,6 @@ ht-degree: 0%
 - [Configuração do aplicativo móvel](help/using/configuration/set-mobile-config.md) - 6 de dezembro
 - [Conteúdo multilíngue com tradução manual](help/using/content-management/multilingual-provider.md) - 5 de dezembro
 - [Use a Decisão em suas experiências baseadas em código](help/using/experience-decisioning/experience-decisioning-uc.md) - 3 de dezembro
-- [Relatórios de cartões de conteúdo](help/using/content-card/content-card-report.md) - 2 de dezembro
-- [Criar um cartão de conteúdo](help/using/content-card/create-content-card.md) - 2 de dezembro
-- [Introdução ao cartão de conteúdo](help/using/content-card/get-started-content-card.md) - 2 de dezembro
-- [Criar cartões de conteúdo](help/using/content-card/design-content-card.md) - 2 de dezembro
-- [Pré-requisitos de configuração do cartão de conteúdo](help/using/content-card/content-card-configuration-prereq.md) - 2 de dezembro
-- [Configuração do SDK do cartão de conteúdo](help/using/content-card/content-card-configuration-sdk.md) - 2 de dezembro
-- [Configuração do cartão de conteúdo](help/using/content-card/content-card-configuration.md) - 2 de dezembro
 - [Criar uma campanha de Ação](help/using/campaigns/create-campaign.md) - 2 de dezembro
 - [Execução do aquecimento de IP](help/using/configuration/ip-warmup-execution.md) - 26 de novembro
 - [Criar uma página de aterrissagem](help/using/landing-pages/create-lp.md) - 25 de novembro
