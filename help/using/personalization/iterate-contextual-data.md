@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: expressão, editor, handlebars, iteração, matrizes, contexto, personalização
-source-git-commit: f51334a0d1fd5669a057c17a6991d556b08db94a
+source-git-commit: d3a06e15440dc58267528444f90431c3b32b49f2
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Exemplo: itens do carrinho de um evento
 
-Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
+Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
 
 +++ Exibir código de exemplo
 
@@ -128,7 +128,7 @@ context.journey.actions.<actionName>.<fieldPath>
 
 ### Exemplo: recomendações de produto de uma API
 
-Para exibir as recomendações de produto retornadas de uma chamada de API de ação personalizada, consulte o exemplo abaixo.
+Para iterar sobre uma matriz de recomendações de produto retornadas de uma ação personalizada e exibi-las como cartões individuais em sua mensagem, consulte o exemplo abaixo.
 
 +++ Exibir código de exemplo
 
@@ -172,7 +172,7 @@ Para exibir as recomendações de produto retornadas de uma chamada de API de a�
 
 ### Exemplo: matrizes aninhadas de ações personalizadas
 
-Para iterar sobre matrizes aninhadas retornadas de uma ação personalizada (por exemplo, categorias com produtos), consulte o exemplo abaixo.
+Para iterar sobre uma resposta de ação personalizada contendo matrizes aninhadas (uma matriz de objetos, em que cada objeto contém outra matriz), consulte o exemplo abaixo. Isso demonstra o uso de loops `{{#each}}` aninhados para acessar vários níveis de dados.
 
 +++ Exibir código de exemplo
 
@@ -301,7 +301,7 @@ Se você estiver usando uma atividade de Pesquisa de conjunto de dados para recu
 
 ### Exemplo: iteração filtrada com dados do conjunto de dados
 
-Para filtrar e exibir somente produtos de uma categoria específica ao iterar pelos resultados da pesquisa do conjunto de dados, consulte o exemplo abaixo.
+Para filtrar os resultados da pesquisa do conjunto de dados durante a iteração e exibir apenas itens que correspondam a critérios específicos (por exemplo, produtos de uma categoria específica), use instruções condicionais `{{#if}}` no loop `{{#each}}`. Veja o exemplo abaixo.
 
 +++ Exibir código de exemplo
 
