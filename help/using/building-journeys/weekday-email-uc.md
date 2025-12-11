@@ -53,7 +53,7 @@ Essa abordagem é ideal para campanhas de email B2B (B2B), informativos e comuni
 
 Logo após o início da jornada, adicione uma atividade **[!UICONTROL Condição]** para verificar se o dia atual é sábado ou domingo. Isso ramificará o fluxo de trabalho de acordo.
 
-1. Arraste e solte uma atividade [**[!UICONTROL Condição ]**](condition-activity.md) na tela após o ponto de entrada.
+1. Arraste e solte uma atividade [**[!UICONTROL Condição &#x200B;]**](condition-activity.md) na tela após o ponto de entrada.
 
 1. Clique na atividade **[!UICONTROL Condição]** para abrir seu painel de configuração.
 
