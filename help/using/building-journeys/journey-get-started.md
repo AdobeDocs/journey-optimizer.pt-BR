@@ -66,7 +66,7 @@ Aproveite **dados contextuais** de eventos, informações da Adobe Experience Pl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=pt-BR)
 
 **Ações internas**
 
@@ -76,7 +76,7 @@ Use as **ações de canal integradas** para enviar mensagens criadas no [!DNL Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
 
 **Ações personalizadas**
 
@@ -128,7 +128,7 @@ Envie uma jornada de boas-vindas personalizada quando os clientes assinarem seu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg?lang=pt-BR)
 
 **Otimizar tempos de envio de email**
 
@@ -184,7 +184,7 @@ Descubra os componentes de uma jornada e entenda os aspectos básicos da criaç�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 **Criar e gerenciar jornadas**
 
@@ -194,7 +194,7 @@ Orientação passo a passo sobre design, teste, publicação e rastreamento de j
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 **Jornada atividades**
 
@@ -204,7 +204,7 @@ Descubra como configurar e usar atividades como acionadores, etapas de decisão,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 **Expressões e condições**
 
