@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 6c4bf9edf3b5d3031f5b0ef43db7c8699cfb75dc
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 18%
@@ -38,7 +38,7 @@ O Adobe Journey Optimizer fornece ferramentas robustas para criar, gerenciar e e
 
 Esta documentação fornece informações sobre como trabalhar com públicos no [!DNL Adobe Journey Optimizer]. Informações detalhadas sobre o Portal de público-alvo e públicos-alvo estão disponíveis na documentação do Serviço de segmentação do Adobe Experience Platform. Consulte estas seções para obter mais detalhes:
 
-* [Guia da interface do usuário do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guia da interface do usuário do Serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Serviço de segmentação - Perguntas frequentes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -60,13 +60,13 @@ Para obter mais informações sobre como trabalhar com públicos no Portal de p�
 
 Os públicos-alvo podem ser gerados usando métodos diferentes:
 
-* **Definições de segmento**: crie uma nova definição de público-alvo usando o Serviço de Segmentação da Adobe Experience Platform. Os públicos-alvo são gerados a partir das definições de segmento e atualizados em momentos diferentes, dependendo do tipo de avaliação.
+* **Definições de segmento**: crie uma nova definição de público-alvo usando o Serviço de Segmentação da Adobe Experience Platform. Os públicos-alvo são gerados a partir das definições de segmento e atualizados em momentos diferentes, dependendo do tipo de avaliação:
 
    * Segmentação de transmissão: os públicos-alvo são atualizados em tempo real, à medida que novos dados fluem no, garantindo relevância contínua com base na atividade do usuário.
    * Segmentação em lote: os públicos-alvo são atualizados a cada 24 horas, capturando um instantâneo dos perfis em um intervalo fixo.
    * Segmentação do Edge: os públicos-alvo são avaliados instantaneamente na borda, permitindo personalização em tempo real.
 
-[Saiba como criar definições de segmento](creating-a-segment-definition.md)
+  [Saiba como criar definições de segmento](creating-a-segment-definition.md)
 
 * **Upload personalizado**: importe um público usando um arquivo CSV. [Saiba como criar públicos-alvo de carregamento personalizado](custom-upload.md)
 
