@@ -95,7 +95,7 @@ ht-degree: 0%
 - [Criar inserções](help/using/offers/offer-library/creating-placements.md) - 5 de novembro
 - [Criar estratégias de classificação](help/using/offers/ranking/create-ranking-strategies.md) - 5 de novembro
 
----
+&#x200B;---
 
 ## Relatório anterior: 1 de outubro - 3 de novembro de 2025
 
