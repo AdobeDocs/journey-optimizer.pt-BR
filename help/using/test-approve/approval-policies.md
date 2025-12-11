@@ -5,15 +5,14 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
+source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 13%
+source-wordcount: '664'
+ht-degree: 10%
 
 ---
 
 # Criar e gerenciar políticas de aprovação {#approval-policies}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
@@ -25,12 +24,13 @@ ht-degree: 13%
 >title="Solicitar alteração"
 >abstract="Solicitar alteração"
 
-
 >[!NOTE]
 >
->Para criar políticas de aprovação, você deve ter privilégios de administrador do sistema ou do produto no Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home)
+>Para criar políticas de aprovação, você deve ter privilégios de administrador do sistema ou do produto no Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
-As políticas de aprovação permitem que os administradores estabeleçam um processo de validação para jornadas e campanhas. Este sistema descreve condições específicas que determinam se uma jornada ou campanha precisa de aprovação. Essas políticas podem variar em complexidade, desde simplesmente exigir que todas as campanhas sejam revisadas por um usuário ou equipe específica até estabelecer critérios com base em quem criou a campanha.
+As políticas de aprovação permitem que os administradores estabeleçam um processo de validação para jornadas e campanhas. Este sistema descreve condições específicas que determinam se uma jornada ou campanha precisa de aprovação. Essas políticas podem variar em complexidade. Eles podem simplesmente exigir que todas as campanhas sejam revisadas por um usuário ou equipe específica, ou estabelecer critérios com base em quem criou a campanha.
+
+Você pode direcionar políticas de aprovação usando critérios flexíveis, como tags, nomes de campanhas/jornadas, tipos de canais ou informações do solicitante. Por exemplo, você pode exigir aprovação para todos os objetos marcados com &quot;alto risco&quot; ou para qualquer campanha que corresponda a um padrão de nomenclatura específico.
 
 ## Criar políticas de aprovação {#create-policies}
 
@@ -41,9 +41,9 @@ As políticas de aprovação permitem que os administradores estabeleçam um pro
 
 Para criar uma política de aprovação, siga estas etapas:
 
-1. No menu **[!UICONTROL Administração]** no Journey Optimizer, acesse **[!UICONTROL Permissões]** e **[!UICONTROL Políticas]**.
+1. No menu **[!UICONTROL Administração]** em [!DNL Journey Optimizer], acesse **[!UICONTROL Permissões]** e **[!UICONTROL Políticas]**.
 
-   ![](assets/policy_create_1.png)
+   ![Botão Criar política de aprovação no menu Permissões](assets/policy_create_1.png)
 
 1. Clique em **[!UICONTROL Criar]** na guia **[!UICONTROL Política de Aprovação]**, escolha **[!UICONTROL Política de Aprovação]** e clique em **[!UICONTROL Confirmar]**.
 
@@ -61,6 +61,14 @@ Agora você pode refinar as condições para especificar quem pode iniciar a sol
 
 ## Definir condições para políticas de aprovação {#conditions}
 
+As políticas de aprovação oferecem opções flexíveis de direcionamento para atender às suas necessidades de governança. Você pode criar políticas de aprovação com base em vários critérios, incluindo:
+
+* **Nomes de campanha/Jornadas**: direcionar objetos específicos por nome
+* **Marcas**: aplique políticas a todas as campanhas ou jornadas com uma marca específica
+* **Tipos de canal**: exigir aprovação para ações específicas (email, SMS, push etc.)
+* **Tipos de campanha**: definir regras diferentes para campanhas agendadas versus campanhas acionadas por API
+* **Solicitantes**: defina políticas com base em quem cria a campanha ou a jornada
+
 Para definir as condições associadas a uma política de aprovação, siga estas etapas:
 
 1. Acesse sua **[!UICONTROL Política de aprovação]**.
@@ -71,7 +79,7 @@ Para definir as condições associadas a uma política de aprovação, siga esta
 
    Por exemplo, &quot;se a ação corresponder a qualquer correspondência direta&quot; ou &quot;Se o nome de usuário do solicitante corresponder a John Doe&quot;.
 
-   ![](assets/policy_condition_1.png)
+   ![Interface do construtor de condições da política de aprovação](assets/policy_condition_1.png)
 
    +++ Saiba mais sobre categorias e opções disponíveis
    <table>
@@ -132,7 +140,6 @@ Para definir as condições associadas a uma política de aprovação, siga esta
     </tr>
     </table>
 
-
 1. Para adicionar mais critérios, clique em **[!UICONTROL Adicionar condição]** para definir regras adicionais e selecione **[!UICONTROL And]** ou **[!UICONTROL Or]** para especificar como as condições são conectadas.
 
 1. No menu **[!UICONTROL Enviar solicitação de aprovação para]**, clique em **[!UICONTROL Adicionar condição]** para definir qual usuário pode aceitar a solicitação de aprovação.
@@ -143,7 +150,7 @@ Para definir as condições associadas a uma política de aprovação, siga esta
 
    O usuário ou grupo de usuários selecionado será responsável pela validação da solicitação de aprovação.
 
-   ![](assets/policy_condition_2.png)
+   ![Interface de seleção de destinatário de solicitação de aprovação](assets/policy_condition_2.png)
 
 1. Para adicionar mais critérios, clique em **[!UICONTROL Adicionar condição]** para definir regras adicionais e selecione **[!UICONTROL And]** ou **[!UICONTROL Or]** para especificar como as condições são conectadas.
 
@@ -163,8 +170,8 @@ Para aplicar sua política de aprovação, você deve ativá-la. Para fazer isso
    >
    >Uma vez ativadas, as políticas não podem ser editadas. Para modificar condições, desative a política primeiro.
 
-   ![](assets/policy_activate_1.png)
+   ![Botão Ativar política de aprovação](assets/policy_activate_1.png)
 
 1. No menu **[!UICONTROL Política]**, abra as opções avançadas para **[!UICONTROL Editar]**, **[!UICONTROL Desativar]** ou **[!UICONTROL Duplicar]** a política, conforme necessário.
 
-   ![](assets/policy_activate_2.png)
+   ![Menu de opções de gerenciamento de política de aprovação](assets/policy_activate_2.png)
