@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ A linguagem de modelo é utilizada em funções auxiliares disponíveis na lista
 
 >[!NOTE]
 >
->As funções e os recursos disponíveis no editor de personalização são diferentes daqueles disponíveis no [editor de expressão avançado do Jornada](../../building-journeys/expression/expressionadvanced.md).
+>As funções e os recursos disponíveis no editor de personalização são diferentes daqueles disponíveis no [editor de expressão avançado do Jornada](../../building-journeys/expression/expressionadvanced.md). Por exemplo, a função `now()` só está disponível em expressões de jornada. [Saiba mais](../../email/code-content.md#date-time-limitations)
 
 No editor de personalização [!DNL Journey Optimizer], as funções auxiliares são agrupadas em três categorias: [Funções](#functions-helper), [Auxiliares](#helper-helper) e [Operadores](#operators-helper).
 
@@ -231,7 +231,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">Absoluto</a></td><td>Essa função formata qualquer número em sua representação sensível a linguagem.</td>
+        <td><a href="math.md#absolute">Absoluto   </a></td><td>Essa função formata qualquer número em sua representação sensível a linguagem.</td>
     </tr>
     <tr>
         <td><a href="math.md#format-number">Formatar número</a></td><td>Essa função formata qualquer número em sua representação sensível a linguagem.</td>
@@ -305,7 +305,7 @@ Clique no ícone `...` para exibir a descrição da função e adicioná-la aos 
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">Igual a</a></td><td>Esta função é usada para determinar se uma sequência de caracteres não inicia com uma subsequência especificada, diferencia maiúsculas de minúsculas.</td>
+        <td><a href="string.md#equals">Igual</a></td><td>Esta função é usada para determinar se uma sequência de caracteres não inicia com uma subsequência especificada, diferencia maiúsculas de minúsculas.</td>
     </tr>
     <tr>
         <td><a href="string.md#equalsIgnoreCase">Ignorar maiúsculas e minúsculas é igual a</a></td><td>Esta função é usada para determinar se uma sequência de caracteres não inicia com uma subsequência especificada, sem diferenciar maiúsculas de minúsculas</td>
@@ -498,7 +498,7 @@ As funções de comparação são usadas para comparar entre diferentes express�
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">Igual a</a></td><td>Esta operação verifica se os valores são iguais</td>
+        <td><a href="operators.md#equals">Igual</a></td><td>Esta operação verifica se os valores são iguais</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthan">Maior que</a></td><td>Este operador verifica se o primeiro valor é maior que o segundo valor</td>

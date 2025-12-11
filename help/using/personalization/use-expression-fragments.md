@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, biblioteca, personalização
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,89 @@ Os seguintes casos de uso são possíveis:
 >
 >No tempo de execução, o sistema expande o que está dentro dos fragmentos e interpreta o código de personalização de cima para baixo. Tendo isso em mente, é possível obter casos de uso mais complexos. Por exemplo, você pode fazer com que um fragmento F1 transmita variáveis para outro fragmento F2 abaixo. Você também pode ter um fragmento visual F1 transmitindo variáveis para um fragmento de expressão aninhado F2.
 
+## Usar fragmentos de expressão dentro de loops {#fragments-in-loops}
+
+Ao usar fragmentos de expressão em loops `{{#each}}`, é importante entender como funciona o escopo de variáveis. Os fragmentos de expressão podem acessar variáveis globais definidas no conteúdo da mensagem, mas não podem receber variáveis específicas de loop como parâmetros.
+
+### Padrão compatível: usar variáveis globais {#global-variables-in-loops}
+
+Os fragmentos de expressão podem fazer referência a variáveis globais definidas fora do fragmento, mesmo quando o fragmento é chamado de dentro de um loop. Essa é a abordagem recomendada quando você precisa usar fragmentos em contextos iterativos.
+
+**Exemplo: usando um fragmento com variáveis globais dentro de um loop**
+
+No conteúdo da mensagem, defina uma variável global e use um fragmento que faça referência a ela:
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    <p>Price: ${{product.price}}</p>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+No fragmento de expressão (fragment123), é possível fazer referência à variável `globalDiscount`:
+
+```handlebars
+<p class="discount-info">Save {{globalDiscount}}% on all items!</p>
+```
+
+Esse padrão funciona porque a variável global pode ser acessada em toda a mensagem, incluindo em fragmentos, independentemente do contexto do loop.
+
+### Não suportado: transmitir variáveis de loop como parâmetros de fragmento {#loop-variables-limitations}
+
+Você não pode passar o item de iteração atual (por exemplo, `product` no exemplo acima) como um parâmetro para um fragmento de expressão. O fragmento não pode acessar diretamente variáveis de escopo de loop do bloco `{{#each}}` ao redor.
+
+**Exemplo: o que NÃO funciona**
+
+```handlebars
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' mode='inline' currentProduct=product}}
+{{/each}}
+```
+
+O fragmento não pode receber `product` como parâmetro e usá-lo internamente porque a passagem de parâmetro para variáveis específicas de loop não tem suporte na implementação atual.
+
+### Soluções alternativas recomendadas {#fragments-in-loops-workarounds}
+
+Quando precisar usar fragmentos de expressão com dados de um loop, considere estas abordagens:
+
+1. **Incluir lógica diretamente na mensagem**: em vez de usar um fragmento para lógica específica de loop, adicione o código de personalização diretamente no bloco `{{#each}}`.
+
+   ```handlebars
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+       {{#if product.price > 100}}
+         <span class="premium-badge">Premium Product</span>
+       {{/if}}
+     </div>
+   {{/each}}
+   ```
+
+2. **Usar fragmentos fora de loops**: se o conteúdo do fragmento não for dependente de loop, chame o fragmento antes ou depois do bloco de iteração.
+
+   ```handlebars
+   {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+   
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+     </div>
+   {{/each}}
+   ```
+
+3. **Definir várias variáveis globais**: se você precisar passar valores diferentes para um fragmento nas iterações, defina variáveis globais antes de cada chamada de fragmento (embora isso limite a flexibilidade).
+
+>[!NOTE]
+>
+>Para iterar sobre dados contextuais e trabalhar com loops, consulte o manual abrangente sobre [iterar sobre dados contextuais](iterate-contextual-data.md), que inclui práticas recomendadas, dicas de solução de problemas e padrões avançados.
 
 ## Personalizar campos editáveis {#customize-fields}
 

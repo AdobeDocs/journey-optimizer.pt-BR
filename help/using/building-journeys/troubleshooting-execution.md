@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 20%
+source-wordcount: '1591'
+ht-degree: 16%
 
 ---
 
@@ -31,7 +31,7 @@ O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes u
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
-Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming do Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
+Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming do Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
 
 Se a jornada não conseguir habilitar o modo de teste com erro `ERR_MODEL_RULES_16`, verifique se o evento usado inclui um [namespace de identidade](../audience/get-started-identity.md) ao usar uma ação de canal.
 
@@ -57,9 +57,43 @@ Você pode começar a solucionar problemas com as perguntas abaixo:
   Content-type - application/json
   ```
 
+>>
+**Para jornadas de qualificação de público-alvo com públicos-alvo de streaming**: se estiver usando uma atividade de qualificação de público-alvo como ponto de entrada de jornada, esteja ciente de que nem todos os perfis qualificados para o público-alvo necessariamente entrarão na jornada devido a fatores de tempo, saídas rápidas do público-alvo ou se os perfis já estiverem no público-alvo antes da publicação. Saiba mais sobre [considerações de tempo de qualificação de público de streaming](audience-qualification-events.md#streaming-entry-caveats).
+
+## Solução de problemas de transições do modo de teste {#troubleshooting-test-transitions}
+
+Se os perfis de teste não avançarem na jornada no modo de teste ou o fluxo visual não exibir setas verdes indicando a progressão da etapa, o problema pode estar relacionado à validação da transição. Esta seção fornece orientação sobre como diagnosticar e resolver problemas comuns de modo de teste.
+
+### Os perfis de teste não estão progredindo
+
+Se os perfis de teste entrarem na jornada, mas não avançarem além da etapa inicial, verifique o seguinte:
+
+* **Data de início da Jornada** - A causa mais comum é quando a data de início da jornada é definida no futuro. Os perfis de teste são descartados imediatamente se a hora atual estiver fora da janela [datas/hora de início e término](journey-properties.md#dates) configurada da jornada. Para resolver:
+   * Verificar se a data de início da jornada não está definida no futuro
+   * Garantir que a hora atual esteja na janela de datas ativa da jornada
+   * Se necessário, atualize as propriedades da jornada para ajustar a data de início
+
+* **Configuração do perfil de teste** - Confirme se o perfil está sinalizado corretamente como um perfil de teste no Adobe Experience Platform. Consulte [como criar perfis de teste](../audience/creating-test-profiles.md) para obter mais informações.
+
+* **Namespace de identidade** - Verifique se o namespace de identidade usado na configuração do evento corresponde ao namespace do seu perfil de teste.
+
+### Indicadores de transição nulos
+
+Durante a solução de problemas técnicos, você pode encontrar uma propriedade `isValidTransition` definida como nula nos detalhes técnicos da jornada. Essa propriedade somente de interface do usuário não afeta o processamento de back-end ou o desempenho da jornada. No entanto, um valor nulo pode indicar:
+
+* **Configuração incorreta da Jornada** - A data de início da jornada está definida no futuro, fazendo com que os eventos de teste sejam descartados silenciosamente
+* **Transição corrompida** - Em casos raros, talvez seja necessário reconectar os nós de jornada
+
+Se você encontrar problemas de transição persistentes:
+
+1. Verifique se a data de início da jornada é a atual
+1. Desativar e reativar o modo de teste
+1. Se o problema persistir, considere duplicar os nós de jornada afetados e reconectá-los
+1. Para casos não resolvidos, entre em contato com o suporte com logs do jornada, as IDs de perfil afetadas e os detalhes sobre a transição nula
+
 >[!NOTE]
 >
->**Para jornadas de qualificação de público-alvo com públicos-alvo de streaming**: se estiver usando uma atividade de qualificação de público-alvo como ponto de entrada de jornada, esteja ciente de que nem todos os perfis qualificados para o público-alvo necessariamente entrarão na jornada devido a fatores de tempo, saídas rápidas do público-alvo ou se os perfis já estiverem no público-alvo antes da publicação. Saiba mais sobre [considerações de tempo de qualificação de público de streaming](audience-qualification-events.md#streaming-entry-caveats).
+>Lembre-se de que os eventos enviados fora da janela de data ativa da jornada são descartados silenciosamente sem mensagem de erro. Sempre verifique a configuração de tempo da jornada primeiro ao solucionar problemas de progressão do perfil de teste.
 
 ## Verificar como as pessoas navegam pela jornada {#checking-how-people-navigate-through-the-journey}
 

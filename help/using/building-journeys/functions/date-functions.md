@@ -7,16 +7,20 @@ role: Developer
 level: Experienced
 keywords: data, funções, expressão, jornada, hora
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 12%
+source-wordcount: '834'
+ht-degree: 11%
 
 ---
 
 # Funções de data {#date-functions}
 
 As funções de data permitem manipular e trabalhar com valores de data e hora nas expressões de jornada. Essas funções são essenciais para condições baseadas em tempo, programação e cálculos temporais nas jornadas do cliente.
+
+>[!NOTE]
+>
+>As funções nesta página estão disponíveis em expressões de jornada. Algumas funções como `now()` não estão disponíveis no editor de personalização para conteúdo de email. [Saiba mais](../../personalization/functions/dates.md)
 
 Use funções de data quando precisar:
 
@@ -347,6 +351,10 @@ Retorna verdadeiro.
 ## now {#now}
 
 Retorna a data atual no formato de data e hora. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
+
+>[!NOTE]
+>
+>Esta função só está disponível em expressões de jornada. Para personalização de email e outro conteúdo, use `getCurrentZonedDateTime()`. [Saiba mais](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++Sintaxe
 

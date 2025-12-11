@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1110'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 6%
 # Funções de data e hora{#date-time}
 
 As funções de data e hora são usadas para executar operações de data e hora em valores dentro do Journey Optimizer.
+
+>[!NOTE]
+>
+>A função `now()` não está disponível no editor de personalização. Use `getCurrentZonedDateTime()` ou `currentTimeInMillis()` como alternativa para os valores atuais de data/hora. [Saiba mais](../../email/code-content.md#date-time-limitations)
 
 ## Adicionar dias {#add-days}
 

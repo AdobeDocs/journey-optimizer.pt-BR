@@ -10,9 +10,9 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1904'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode c
 
 >[!NOTE]
 >
->Antes de testar a jornada, você deve resolver todos os erros, se houver. Saiba como verificar erros antes de testar em [esta seção](../building-journeys/troubleshooting.md).
+>Antes de testar a jornada, você deve resolver todos os erros, se houver. Saiba como verificar erros antes de testar em [esta seção](../building-journeys/troubleshooting.md). Se os perfis de teste não progredirem no modo de teste, consulte [solução de problemas de transições do modo de teste](troubleshooting-execution.md#troubleshooting-test-transitions).
 
 ## Observações importantes {#important_notes}
 
@@ -53,7 +53,7 @@ Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode c
 
 * **Comportamento de divisão** - Quando a jornada atinge uma divisão, a ramificação superior é sempre selecionada. Reordene as ramificações se desejar que um caminho diferente seja testado.
 * **Tempo de evento** - Se a jornada incluir*vários eventos, acione cada evento em sequências. Enviar um evento muito cedo (antes da conclusão do primeiro nó de espera) ou muito tarde (após o tempo limite configurado) descartará o evento e enviará o perfil para um caminho de tempo limite. Sempre confirmar se as referências aos campos de carga útil do evento permanecem válidas, enviando a carga útil dentro da janela definida
-* **Janela de data ativa** - Verifique se a janela de [datas/hora de início e término](journey-properties.md#dates) configurada pela jornada inclui a hora atual ao iniciar o modo de teste. Caso contrário, os eventos de teste acionados serão descartados silenciosamente.
+* **Janela de data ativa** - Verifique se a janela de [datas/hora de início e término](journey-properties.md#dates) configurada pela jornada inclui a hora atual ao iniciar o modo de teste. Caso contrário, os eventos de teste acionados serão descartados silenciosamente. Saiba mais sobre como solucionar esse problema [nesta página](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventos de reação** - Para eventos de reação com tempo limite, o tempo de espera mínimo e padrão é de 40 segundos.
 * **Conjuntos de dados de teste** - Os eventos acionados no modo de teste são armazenados em conjuntos de dados dedicados rotulados da seguinte maneira: `JOtestmode - <schema of your event>`
 

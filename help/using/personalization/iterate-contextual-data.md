@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: expressão, editor, handlebars, iteração, matrizes, contexto, personalização
-source-git-commit: d3a06e15440dc58267528444f90431c3b32b49f2
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '3008'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Exemplo: itens do carrinho de um evento
 
-Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
+Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
 
 +++ Exibir código de exemplo
 
@@ -838,6 +838,44 @@ Escolha nomes de variáveis que indiquem claramente sobre o que você está iter
 
 +++
 
+### Fragmentos de expressão em loops
+
+Ao usar [fragmentos de expressão](use-expression-fragments.md) dentro de `{{#each}}` loops, esteja ciente de que você não pode passar variáveis com escopo de loop como parâmetros de fragmento. No entanto, os fragmentos podem acessar variáveis globais definidas no conteúdo da mensagem fora do fragmento.
+
++++ Exibir código de exemplo
+
+**Padrão com suporte - Use variáveis globais:**
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+O fragmento pode referenciar `globalDiscount` porque está definido globalmente na mensagem.
+
+**Sem suporte - Passando variáveis de loop:**
+
+```handlebars
+{{#each products as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' currentProduct=product}}
+{{/each}}
+```
+
+**Solução alternativa**: inclua a lógica de personalização diretamente no loop em vez de usar um fragmento ou chame o fragmento fora do loop.
+
++++
+
+Saiba mais sobre o [uso de fragmentos de expressão dentro de loops](use-expression-fragments.md#fragments-in-loops), incluindo exemplos detalhados e soluções alternativas adicionais.
+
+
+
 ### Lidar com matrizes vazias
 
 Use a cláusula `{{else}}` para fornecer conteúdo de fallback quando uma matriz estiver vazia. Saiba mais sobre [funções auxiliares](functions/helpers.md):
@@ -951,6 +989,34 @@ Problemas com a iteração? Esta seção aborda problemas e soluções comuns.
 * Marcas de fechamento ausentes: todo `{{#each}}` deve ter um `{{/each}}`. Revise a [sintaxe de iteração de Handlebars](#syntax) para obter a estrutura adequada.
 * Nome de variável incorreto: garanta o uso consistente do nome da variável em todo o bloco. Consulte [Práticas recomendadas](#best-practices) para convenções de nomenclatura.
 * Separadores de caminho incorretos: use pontos (`.`), não barras ou outros caracteres
+
++++
+
+### Fragmentos de expressão que não funcionam em loops
+
+**Problema**: um fragmento de expressão não exibe o conteúdo esperado quando usado dentro de um loop `{{#each}}`, ou mostra uma saída vazia/inesperada.
+
++++ Exibir possíveis causas e soluções
+
+**Possíveis causas e soluções**:
+
+1. **Tentando passar variáveis de loop como parâmetros**: os fragmentos de expressão não podem receber variáveis de escopo de loop (como o item de iteração atual) como parâmetros. Essa é uma limitação conhecida.
+
+   **Solução**: use uma destas soluções alternativas:
+
+   * Definir variáveis globais na mensagem que o fragmento pode acessar
+   * Inclua a lógica de personalização diretamente no loop em vez de usar um fragmento
+   * Chame o fragmento fora do loop se ele não precisar de dados específicos do loop
+
+2. **O fragmento espera um parâmetro que não está disponível**: se o fragmento foi projetado para receber parâmetros de entrada específicos, ele não funcionará corretamente quando esses parâmetros não puderem ser passados de dentro de um loop.
+
+   **Solução**: reestruture sua abordagem para usar variáveis globais que o fragmento pode acessar. Consulte [Práticas recomendadas - Fragmentos de expressão em loops](#best-practices) para obter exemplos.
+
+3. **Escopo de variável incorreto**: o fragmento pode estar tentando fazer referência a uma variável que só existe dentro do escopo do loop.
+
+   **Solução**: defina todas as variáveis de que o fragmento precisa no nível da mensagem (fora do loop) para que fiquem acessíveis globalmente.
+
+Saiba mais sobre [como usar fragmentos de expressão dentro de loops](use-expression-fragments.md#fragments-in-loops), incluindo explicações detalhadas, exemplos e padrões recomendados.
 
 +++
 
