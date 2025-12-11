@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 14%
+source-wordcount: '764'
+ht-degree: 13%
 
 ---
 
@@ -61,8 +61,8 @@ Se o trabalho de segmentação não for concluído dentro da janela de tempo def
 
 ## Ativação de tipos de público-alvo sem suporte em [!DNL Journey Optimizer]
 
-Somente os públicos-alvo criados no portal de público-alvo podem ser direcionados diretamente em [!DNL Journey Optimizer] jornadas e campanhas. [Saiba mais sobre os tipos de público-alvo disponíveis](../audience/about-audiences.md#types).
+Somente públicos-alvo gerados com a **definição de segmento**, **composições de público-alvo**, **carregamento personalizado (arquivo CSV)** e **composição de público federado** podem ser direcionados diretamente em jornadas e campanhas do Journey Optimizer. [Saiba mais sobre tipos de público-alvo disponíveis](../audience/about-audiences.md#types)
 
-Se você precisar direcionar perfis de um público-alvo não compatível, como um público-alvo do Customer Journey Analytics, é necessário envolvê-lo em uma nova definição de segmento no Portal de público-alvo. Informações detalhadas sobre como adicionar públicos-alvo em uma definição de segmento estão disponíveis na [documentação do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+Se você precisar direcionar perfis de um público-alvo não compatível, como um público-alvo do Customer Journey Analytics, é necessário envolvê-lo em uma nova definição de segmento no Portal de público-alvo. Informações detalhadas sobre como adicionar públicos-alvo em uma definição de segmento estão disponíveis na [documentação do Construtor de segmentos](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Depois de concluído, aguarde a conclusão da avaliação de segmentação para usá-la em suas jornadas e campanhas.
