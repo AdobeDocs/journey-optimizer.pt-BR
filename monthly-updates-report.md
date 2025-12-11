@@ -5,7 +5,7 @@ title: Relatório mensal de atualizações de documentação
 description: Lista de páginas de documentação novas e atualizadas
 hide: true
 hidefromtoc: true
-source-git-commit: a65c35ee1b1257afffa617f9bcd30b06331c9f5f
+source-git-commit: 3f0da68c95a1fbd5b3cf6beaa38eae1a475ab941
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## Páginas atualizadas
 
-- [Pesquisar dados do Adobe Experience Platform para personalização](help/using/personalization/lookup-aep-data.md) - Dez
+- [Pesquisar dados do Adobe Experience Platform para personalização](help/using/data/lookup-aep-data.md) - Dez
 - [Configuração do aplicativo móvel](help/using/configuration/set-mobile-config.md) - 6 de dezembro
 - [Conteúdo multilíngue com tradução manual](help/using/content-management/multilingual-provider.md) - 5 de dezembro
 - [Use a Decisão em suas experiências baseadas em código](help/using/experience-decisioning/experience-decisioning-uc.md) - 3 de dezembro
