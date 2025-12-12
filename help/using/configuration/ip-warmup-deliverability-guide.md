@@ -8,8 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, capacidade de entrega, reputação, ISP, envolvimento
-exl-id: TBD
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 07896931a7c06e1b712f3b65e1dcf939b521ba83
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 6%
@@ -145,12 +144,12 @@ Depois de concluir o plano de aquecimento, as métricas se estabilizaram:
 
 Saiba mais sobre os fundamentos de capacidade de entrega, a criação de reputação e as práticas recomendadas para aquecimento de IP no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463787/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
 
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=pt).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
 
 ## Tópicos relacionados {#related-topics}
 
