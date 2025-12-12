@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landing page, landing page, lista, assinatura, serviço
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
+source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '721'
 ht-degree: 7%
 
 ---
@@ -37,6 +37,10 @@ Um serviço de assinatura pode ser usado para:
 Os perfis podem ser adicionados a uma lista de assinaturas por meio de uma [página de aterrissagem](create-lp.md). Um exemplo é apresentado em [esta seção](lp-use-cases.md#subscription-to-a-service).
 
 ## Criar uma lista de assinaturas {#define-subscription-list}
+
+>[!NOTE]
+>
+>Ao criar uma lista de assinaturas, um segmento de transmissão associado é gerado automaticamente no Adobe Experience Platform. Para que o segmento de transmissão seja criado com êxito, a política de mesclagem deve ter a opção **Ative-On-Edge** habilitada. Saiba mais sobre os critérios de qualificação de segmento de transmissão na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Para criar uma lista de assinaturas, siga as etapas abaixo.
 
