@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 14%
+source-wordcount: '1724'
+ht-degree: 13%
 
 ---
 
@@ -163,12 +163,43 @@ Implemente integrações técnicas que conectam o Journey Optimizer aos seus apl
 
 ## Cross-Role Collaboration
 
-As implementações bem-sucedidas do Journey Optimizer exigem colaboração em todas as funções:
+As implementações bem-sucedidas do Journey Optimizer exigem colaboração em todas as funções. Cada função trabalha com outras pessoas para fornecer experiências contínuas ao cliente:
 
-* **Administradores** habilitam outras funções definindo sandboxes, permissões e configurações de canal
-* **Os engenheiros de dados** fornecem a base de dados sobre a qual os desenvolvedores e profissionais de marketing se baseiam
-* **Desenvolvedores** implementam as integrações técnicas que os profissionais de marketing usam para acionar jornadas
-* **Os profissionais de marketing** fornecem feedback a todas as equipes sobre qualidade de dados, solicitações de recursos e experiência do usuário
+>[!BEGINTABS]
+
+>[!TAB Administradores]
+
+**Os administradores** habilitam todas as equipes gerenciando o acesso e as configurações. Eles trabalham com:
+
+* **Engenheiros de dados**: concedam permissões para gerenciamento de dados, aprovem o acesso à sandbox e coordenem políticas de governança
+* **Desenvolvedores**: fornecer credenciais de API, configurar ambientes de teste, aprovar configurações de canal
+* **Profissionais de marketing**: atribuir permissões para jornadas/campanhas, configurar canais e suportar ambientes de teste
+
+>[!TAB Engenheiros de dados]
+
+**Os engenheiros de dados** fornecem a base de dados para todos. Eles trabalham com:
+
+* **Administradores**: solicitem permissões para gerenciamento de dados, coordenem políticas de governança e retenção
+* **Desenvolvedores**: fornecer esquemas XDM e estruturas de evento, definir formatos de carga do evento, testar assimilação de dados
+* **Profissionais de marketing**: criar atributos computados para personalização, compilar públicos, configurar esquemas relacionais
+
+>[!TAB Desenvolvedores]
+
+**Desenvolvedores** implementam integrações técnicas que alimentam o jornada. Eles trabalham com:
+
+* **Engenheiros de dados**: obtenha esquemas XDM e estruturas de evento, alinhe-se aos requisitos de coleta de dados e teste a entrega de eventos
+* **Administradores**: fornecer especificações de API, solicitar permissões e credenciais e coordenar a estratégia de teste
+* **Profissionais de marketing**: entender acionadores de eventos, implementar rastreamento, oferecer suporte a testes de jornada e solucionar problemas
+
+>[!TAB Profissionais de marketing]
+
+**Os profissionais de marketing** criam experiências para os clientes e fornecem comentários. Eles trabalham com:
+
+* **Engenheiros de dados**: solicitem atributos computados, coordenem os requisitos de público-alvo e forneçam feedback sobre a qualidade dos dados
+* **Desenvolvedores**: alinhar em disparadores de eventos, implementações de teste, rastreamento de validação
+* **Administradores**: solicitar configurações de canal, confirmar acesso a recursos e coordenar a habilitação
+
+>[!ENDTABS]
 
 **Prática recomendada:** realize reuniões multifuncionais regulares para se alinhar às prioridades, compartilhar progresso e endereçar bloqueadores entre equipes.
 
@@ -176,26 +207,30 @@ As implementações bem-sucedidas do Journey Optimizer exigem colaboração em t
 
 Para saber mais sobre os principais recursos e personas do Journey Optimizer, assista ao vídeo de introdução. O vídeo aborda a interface do usuário e destaca os principais recursos com base em fluxos de trabalho específicos de cada função.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430320?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Recursos adicionais
 
 Para lições e atualizações mais detalhadas, confira os seguintes recursos:
 
-**Aprendizagem e Documentação:**
+>[!BEGINTABS]
+
+>[!TAB Aprendizagem e Documentação]
 
 * [Vídeos tutoriais](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} - Tutoriais em vídeo passo a passo para todas as funções
 * [Biblioteca de Casos de Uso do Jornada](../building-journeys/jo-use-cases.md) - Exemplos práticos e padrões de implementação
 * [IA e recursos inteligentes](ai-features.md) - Saiba mais sobre o Assistente de IA, otimização de tempo de envio e geração de conteúdo
 * [Guia da Interface do Usuário](user-interface.md) - Navegue pela Journey Optimizer com eficiência
 
-**Permanecer atualizado:**
+>[!TAB Permanecer atualizado]
 
 * [Notas de versão](../rn/release-notes.md) - Recursos, melhorias e correções mais recentes
 * [Atualizações da documentação](../rn/documentation-updates.md) - Rastreie alterações recentes na documentação
 * [Notificações de Produto](../rn/releases.md#staying-informed) - Saiba como assinar emails e alertas no produto para atualizações do Journey Optimizer
 
-**Comunidade e suporte:**
+>[!TAB Comunidade e suporte]
 
-* [Comunidade do Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"} - Conecte-se com outros usuários e especialistas
-* [Fórum de produtos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"} - Faça perguntas e compartilhe conhecimento
+* [Comunidade do Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Conecte-se com outros usuários e especialistas
+* [Fórum de produtos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Faça perguntas e compartilhe conhecimento
+
+>[!ENDTABS]
