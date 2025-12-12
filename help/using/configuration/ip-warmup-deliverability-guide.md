@@ -144,7 +144,7 @@ Depois de concluir o plano de aquecimento, as métricas se estabilizaram:
 
 Saiba mais sobre os fundamentos de capacidade de entrega, a criação de reputação e as práticas recomendadas para aquecimento de IP no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3463787/?captions=por_br&learn=on)
 
 <!--
 >[!NOTE]
