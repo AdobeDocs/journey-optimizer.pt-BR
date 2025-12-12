@@ -201,7 +201,7 @@ O Journey Optimizer fornece APIs REST abrangentes para acesso programático:
 
 ## Teste e depuração {#testing}
 
-1. **Depurar implementação do SDK**: use o Adobe Experience Platform Assurance para inspecionar eventos do SDK, validar a coleta de dados e solucionar problemas de integração em tempo real. [Saiba mais sobre o Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
+1. **Depurar implementação do SDK**: use o Adobe Experience Platform Assurance para inspecionar eventos do SDK, validar a coleta de dados e solucionar problemas de integração em tempo real. [Saiba mais sobre o Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=pt-BR){target="_blank"}.
 
 1. **Entrega de evento de teste**: verifique se os eventos do seu aplicativo são recebidos corretamente pela Adobe Experience Platform e acione jornadas conforme esperado. Monitore a assimilação de eventos e valide a estrutura de carga.
 
