@@ -19,7 +19,7 @@ ht-degree: 5%
 
 Ao iniciar campanhas de email com novos endereços IP ou domínios no Adobe Journey Optimizer, entender os fundamentos da capacidade de entrega é fundamental para criar uma sólida reputação do remetente. Este guia aborda os principais conceitos, etapas de preparação e práticas recomendadas para ajudá-lo a fazer a transição da reputação zero para a inserção bem-sucedida da caixa de entrada.
 
-➡️ Saiba mais sobre os fundamentos de capacidade de entrega, a criação de reputação e as práticas recomendadas para aumento gradual de IP no vídeo desta [publicação do blog do Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
+➡️ Saiba mais sobre os fundamentos de capacidade de entrega, a criação de reputação e as práticas recomendadas para aumento gradual de IP no vídeo desta [publicação do blog do Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=pt){target="_blank"}.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Depois de concluir o plano de aquecimento, as métricas se estabilizaram:
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=pt).-->
 
 ## Tópicos relacionados {#related-topics}
 
