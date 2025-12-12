@@ -40,7 +40,7 @@ Os perfis podem ser adicionados a uma lista de assinaturas por meio de uma [pág
 
 >[!NOTE]
 >
->Ao criar uma lista de assinaturas, um segmento de transmissão associado é gerado automaticamente no Adobe Experience Platform. Para que o segmento de transmissão seja criado com êxito, a política de mesclagem deve ter a opção **Ative-On-Edge** habilitada. Saiba mais sobre os critérios de qualificação de segmento de transmissão na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
+>Ao criar uma lista de assinaturas, um segmento de transmissão associado é gerado automaticamente no Adobe Experience Platform. Para que o segmento de transmissão seja criado com êxito, a política de mesclagem deve ter a opção **Ative-On-Edge** habilitada. Saiba mais sobre os critérios de qualificação de segmento de transmissão na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Para criar uma lista de assinaturas, siga as etapas abaixo.
 
