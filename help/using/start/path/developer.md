@@ -5,9 +5,9 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1886'
 ht-degree: 2%
 
 ---
@@ -34,25 +34,11 @@ Este guia aborda as etapas essenciais de implementação técnica para ajudar vo
 
 Antes de iniciar a implementação, verifique se você tem:
 
-**Habilidades técnicas:**
-
-* Experiência com o JavaScript (para Web SDK) ou Swift/Kotlin (para SDK móvel)
-* Noções básicas sobre RESTful APIs e JSON
-* Familiaridade com programação assíncrona e arquiteturas orientadas por eventos
-* Conhecimento da arquitetura de aplicativos de sua organização
-
-**Acesso e ferramentas:**
-
-* Acesso ao [Adobe Developer Console](https://developer.adobe.com){target="_blank"} para credenciais de API
-* Ambiente de desenvolvimento com acesso à base de código do seu aplicativo
-* Ferramentas de teste como o Postman para teste de API
-* Ferramentas de desenvolvedor do navegador ou ferramentas de depuração móvel
-
-**De outros membros da equipe:**
-
-* Acesso ao ambiente concedido pelo seu [Administrador](administrator.md)
-* Esquemas XDM e definições de evento do seu [Engenheiro de dados](data-engineer.md)
-* Requisitos e casos de uso de seus [Profissionais de marketing](marketer.md)
+| Categoria | Exigências |
+|----------|-------------|
+| **Competências técnicas** | * Experiência com JavaScript (para Web SDK) ou Swift/Kotlin (para SDK móvel)<br>* Noções básicas sobre APIs RESTful e JSON<br>* Familiaridade com programação assíncrona e arquiteturas orientadas por eventos<br>* Conhecimento da arquitetura de aplicativos de sua organização |
+| **Acesso e ferramentas** | * Acesso ao [Adobe Developer Console](https://developer.adobe.com){target="_blank"} para credenciais de API<br>* Ambiente de desenvolvimento com acesso à base de código do seu aplicativo<br>* Ferramentas de teste como o Postman para teste de API<br>* Ferramentas de desenvolvedor do navegador ou ferramentas de depuração móvel |
+| **De outros membros da equipe** | * Acesso ao ambiente concedido pelos esquemas XDM do [Administrador](administrator.md)<br>* e definições de evento dos requisitos do [Engenheiro de dados](data-engineer.md)<br>* e casos de uso dos [Profissionais de marketing](marketer.md) |
 
 ## Entender a base técnica {#technical-foundation}
 
@@ -201,7 +187,7 @@ O Journey Optimizer fornece APIs REST abrangentes para acesso programático:
 
 ## Teste e depuração {#testing}
 
-1. **Depurar implementação do SDK**: use o Adobe Experience Platform Assurance para inspecionar eventos do SDK, validar a coleta de dados e solucionar problemas de integração em tempo real. [Saiba mais sobre o Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=pt-BR){target="_blank"}.
+1. **Depurar implementação do SDK**: use o Adobe Experience Platform Assurance para inspecionar eventos do SDK, validar a coleta de dados e solucionar problemas de integração em tempo real. [Saiba mais sobre o Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 
 1. **Entrega de evento de teste**: verifique se os eventos do seu aplicativo são recebidos corretamente pela Adobe Experience Platform e acione jornadas conforme esperado. Monitore a assimilação de eventos e valide a estrutura de carga.
 
@@ -252,26 +238,36 @@ Implemente políticas de consentimento e governança de dados em suas integraç�
 
 Seu trabalho de implementação cruza com outros membros da equipe:
 
-**Trabalhar com [Engenheiros de Dados](data-engineer.md):**
+>[!BEGINTABS]
+
+>[!TAB Trabalhar com engenheiros de dados]
+
+Colabore com [engenheiros de dados](data-engineer.md) em configurações de dados e eventos:
 
 * Obter os esquemas XDM e as estruturas de evento necessárias para implementar
 * Entenda quais eventos você precisa enviar e o formato de carga necessário
 * Alinhe os requisitos de coleta de dados e os padrões de qualidade dos dados
 * Teste a entrega de eventos e a assimilação de dados juntas
 
-**Trabalhar com [Administradores](administrator.md):**
+>[!TAB Trabalhar com Administradores]
+
+Colabore com [Administradores](administrator.md) sobre acesso e configurações:
 
 * Fornecer especificações de API para ações personalizadas que serão configuradas
 * Solicite as permissões necessárias e as credenciais da API
 * Coordenar os requisitos de configuração de canal (por exemplo, certificados de push)
 * Alinhar ambientes de teste e estratégia de sandbox
 
-**Trabalhar com [Profissionais de marketing](marketer.md):**
+>[!TAB Trabalhar com profissionais de marketing]
+
+Colabore com [Profissionais de marketing](marketer.md) sobre requisitos e testes de jornada:
 
 * Entender quais interações de usuário devem acionar eventos
 * Implementar o rastreamento para desempenho do conteúdo e envolvimento do usuário
 * Suporte a testes de jornadas com os recursos implementados
 * Solucionar problemas com entrega de mensagens ou personalização
+
+>[!ENDTABS]
 
 ## Permanecer atualizado
 
@@ -279,13 +275,7 @@ Acompanhe os recursos e as alterações técnicas mais recentes do Journey Optim
 
 * **[Notas de versão](../../rn/release-notes.md)**: Revise novos recursos, alterações de API, atualizações de SDK e correções de erros lançadas a cada mês
 * **[Atualizações da documentação](../../rn/documentation-updates.md)**: controle alterações recentes na documentação técnica, incluindo novos guias de implementação e exemplos de código
-* **Notificações do Produto**: Habilite as notificações no seu [perfil do Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} para receber alertas sobre:
-   * Novas versões do SDK e atualizações da API
-   * Quebra de alterações e descontinuações
-   * Janelas de manutenção que afetam integrações
-   * Atualizações críticas de segurança
-
-  Para habilitar notificações, clique no ícone de perfil na parte superior direita do Adobe Experience Cloud, vá para **Preferências > Notificações** e configure suas preferências de notificação do Journey Optimizer.
+* **[Notificações de Produto](../../rn/releases.md#staying-informed)**: saiba como assinar emails e alertas no produto para atualizações do Journey Optimizer, incluindo novas versões do SDK, alterações de API, alterações importantes e atualizações de segurança críticas
 
 ## Começar a implementar o
 
