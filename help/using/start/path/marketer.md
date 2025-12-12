@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: e86fa9f6e62aea9dd1f7e6d35e7cf4b20f79aaa6
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 6%
@@ -73,7 +73,7 @@ Siga estas etapas principais para começar a criar experiências:
 
 O Journey Optimizer evolui continuamente com novos recursos para aprimorar a eficácia do marketing:
 
-* **Cartões de Conteúdo**: forneça mensagens persistentes e não intrusivas em aplicativos móveis e sites, com os quais os usuários podem se envolver quando for conveniente. Diferentemente das notificações por push, os cartões de conteúdo permanecem visíveis até serem descartados. [Saiba mais sobre cartões de conteúdo](../../content-card/get-started-content-card.md)
+* **Cartões de Conteúdo**: forneça mensagens persistentes e não intrusivas em aplicativos móveis e sites, com os quais os usuários podem se envolver quando for conveniente. Diferentemente das notificações por push, os cartões de conteúdo permanecem visíveis até serem descartados. [Saiba mais sobre cartões de conteúdo](../../content-card/create-content-card.md)
 
 * **Gerenciamento e priorização de conflitos**: controle a frequência das mensagens e evite a comunicação excessiva com regras de limite avançadas. Defina as pontuações de prioridade para garantir que as mensagens mais importantes cheguem aos clientes primeiro. [Saiba mais sobre o gerenciamento de conflitos](../../conflict-prioritization/gs-conflict-prioritization.md)
 
@@ -165,5 +165,5 @@ Acompanhe os recursos mais recentes do Journey Optimizer e de marketing:
 
 1. **Comece pequeno**: crie uma jornada de boas-vindas simples ou uma campanha de mensagem única para conhecer a plataforma
 2. **Aproveite a IA**: use o Assistente de IA para fazer perguntas e acelerar a criação de conteúdo
-3. **Ingressar na comunidade**: conectar-se a outros usuários do Journey Optimizer na [Comunidade do Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}
+3. **Ingressar na comunidade**: conectar-se a outros usuários do Journey Optimizer na [Comunidade do Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Explorar tutoriais**: Assista aos vídeos passo a passo no [Experience League](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}
