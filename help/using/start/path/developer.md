@@ -5,9 +5,9 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1816'
 ht-degree: 2%
 
 ---
@@ -187,7 +187,7 @@ O Journey Optimizer fornece APIs REST abrangentes para acesso programático:
 
 ## Teste e depuração {#testing}
 
-1. **Depurar implementação do SDK**: use o Adobe Experience Platform Assurance para inspecionar eventos do SDK, validar a coleta de dados e solucionar problemas de integração em tempo real. [Saiba mais sobre o Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=pt-BR){target="_blank"}.
+1. **Depurar implementação do SDK**: use o Adobe Experience Platform Assurance para inspecionar eventos do SDK, validar a coleta de dados e solucionar problemas de integração em tempo real. [Saiba mais sobre o Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 
 1. **Entrega de evento de teste**: verifique se os eventos do seu aplicativo são recebidos corretamente pela Adobe Experience Platform e acione jornadas conforme esperado. Monitore a assimilação de eventos e valide a estrutura de carga.
 
@@ -268,14 +268,6 @@ Colabore com [Profissionais de marketing](marketer.md) sobre requisitos e testes
 * Solucionar problemas com entrega de mensagens ou personalização
 
 >[!ENDTABS]
-
-## Permanecer atualizado
-
-Acompanhe os recursos e as alterações técnicas mais recentes do Journey Optimizer:
-
-* **[Notas de versão](../../rn/release-notes.md)**: Revise novos recursos, alterações de API, atualizações de SDK e correções de erros lançadas a cada mês
-* **[Atualizações da documentação](../../rn/documentation-updates.md)**: controle alterações recentes na documentação técnica, incluindo novos guias de implementação e exemplos de código
-* **[Notificações de Produto](../../rn/releases.md#staying-informed)**: saiba como assinar emails e alertas no produto para atualizações do Journey Optimizer, incluindo novas versões do SDK, alterações de API, alterações importantes e atualizações de segurança críticas
 
 ## Começar a implementar o
 

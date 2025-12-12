@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1475'
 ht-degree: 3%
 
 ---
@@ -163,25 +163,44 @@ Aprenda com exemplos práticos que demonstram os recursos do Journey Optimizer:
 
 Navegue pela [biblioteca de casos de uso do jornada](../../building-journeys/jo-use-cases.md) completa e saiba mais sobre [campanhas orquestradas](../../orchestrated/gs-orchestrated-campaigns.md).
 
-## Colaborar com outras funções
+## Colaborar entre funções
 
 Seu trabalho de marketing se conecta com outras equipes:
 
-* **Trabalhe com [Engenheiros de dados](data-engineer.md)**: solicite novos atributos computados, coordene esquemas relacionais para campanhas orquestradas, forneça feedback sobre a qualidade do público e alinhe os requisitos de dados de várias entidades para segmentação avançada
-* **Trabalhar com [Desenvolvedores](developer.md)**: alinhar em disparadores de eventos, testar implementações móveis e validar o rastreamento
-* **Trabalhe com [Administradores](administrator.md)**: solicite configurações de canal, confirme o acesso à licença para campanhas Orquestradas, relate problemas com permissões e coordene a ativação de novos recursos
+>[!BEGINTABS]
 
-## Permanecer atualizado
+>[!TAB Trabalhar com engenheiros de dados]
 
-Acompanhe os recursos mais recentes do Journey Optimizer e de marketing:
+Colabore com [engenheiros de dados](data-engineer.md) em configurações de dados e público-alvo:
 
-* **[Notas de versão](../../rn/release-notes.md)**: Revise novos recursos, atualizações de canal e melhorias lançadas a cada mês
-* **[Atualizações da documentação](../../rn/documentation-updates.md)**: controle alterações recentes, incluindo novos casos de uso, práticas recomendadas e documentação de recursos
-* **[Notificações de Produto](../../rn/releases.md#staying-informed)**: saiba como assinar emails e alertas no produto para atualizações do Journey Optimizer, incluindo novos canais, lançamentos de recursos futuros e anúncios de campanhas importantes
+* Solicitar novos atributos computados para personalização e segmentação
+* Coordenar em esquemas relacionais para campanhas orquestradas
+* Fornecer feedback sobre a qualidade do público-alvo e a precisão dos dados
+* Alinhe os requisitos de dados de várias entidades para segmentação avançada
+
+>[!TAB Trabalhar com desenvolvedores]
+
+Colabore com [desenvolvedores](developer.md) no rastreamento e na implementação de eventos:
+
+* Alinhar em quais interações do usuário devem acionar eventos de jornada
+* Testar implementações para dispositivos móveis e da Web antes do lançamento
+* Validar o rastreamento para desempenho do conteúdo e envolvimento do usuário
+* Solucionar problemas com entrega de mensagens ou personalização
+
+>[!TAB Trabalhar com Administradores]
+
+Colabore com [Administradores](administrator.md) sobre acesso e configurações:
+
+* Solicite configurações de canal para suas campanhas e jornadas
+* Confirmar o acesso à licença para campanhas orquestradas e outros recursos
+* Relatar problemas com permissões ou acesso
+* Coordenar os ambientes de teste e ativação de novos recursos
+
+>[!ENDTABS]
 
 ## Próximas etapas
 
 1. **Comece pequeno**: crie uma jornada de boas-vindas simples ou uma campanha de mensagem única para conhecer a plataforma
 2. **Aproveite a IA**: use o Assistente de IA para fazer perguntas e acelerar a criação de conteúdo
-3. **Ingressar na comunidade**: conectar-se a outros usuários do Journey Optimizer na [Comunidade do Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}
+3. **Ingressar na comunidade**: conectar-se a outros usuários do Journey Optimizer na [Comunidade do Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Explorar tutoriais**: Assista aos vídeos passo a passo no [Experience League](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}

@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 51%
+source-wordcount: '898'
+ht-degree: 47%
 
 ---
 
@@ -67,10 +67,37 @@ Depois que as jornadas estiverem em execução, você poderá consultar os event
 
 Explore exemplos de consulta [prontos para uso para análise de jornada](../../reports/query-examples.md) para começar a análise de dados e solução de problemas.
 
-## Permanecer atualizado
+## Colaborar entre funções
 
-Acompanhe os recursos e as melhorias mais recentes do Journey Optimizer:
+Seu trabalho de configuração de dados é essencial para outras equipes:
 
-* **[Notas de versão](../../rn/release-notes.md)**: revise novos recursos, melhorias e correções lançados a cada mês
-* **[Atualizações da documentação](../../rn/documentation-updates.md)**: controle alterações recentes na documentação, incluindo novas páginas e conteúdo atualizado
-* **[Notificações de Produto](../../rn/releases.md#staying-informed)**: saiba como assinar emails e alertas no produto para atualizações do Journey Optimizer, incluindo novos recursos, janelas de manutenção e alterações importantes no sistema
+>[!BEGINTABS]
+
+>[!TAB Trabalhar com Administradores]
+
+Colabore com [Administradores](administrator.md) sobre acesso e governança:
+
+* Solicite as permissões necessárias para o gerenciamento de dados e a criação de esquemas
+* Coordenar o acesso à sandbox para desenvolvimento e teste
+* Alinhar-se às políticas de governança de dados e ao gerenciamento de consentimento
+* Discuta as políticas de retenção de dados e os requisitos de armazenamento
+
+>[!TAB Trabalhar com desenvolvedores]
+
+Colabore com [desenvolvedores](developer.md) sobre estrutura de dados e eventos:
+
+* Fornecer esquemas XDM e estruturas de evento necessárias para implementar
+* Definir quais eventos precisam ser enviados e o formato de carga necessário
+* Alinhe os requisitos de coleta de dados e os padrões de qualidade dos dados
+* Teste a entrega de eventos e a assimilação de dados juntas
+
+>[!TAB Trabalhar com profissionais de marketing]
+
+Colabore com [Profissionais de marketing](marketer.md) sobre públicos e dados:
+
+* Criar atributos computados para personalização e segmentação
+* Crie públicos-alvo com base nos requisitos de campanha e jornada
+* Configurar esquemas relacionais para campanhas orquestradas
+* Suporte à segmentação de várias entidades para casos de uso avançados
+
+>[!ENDTABS]
