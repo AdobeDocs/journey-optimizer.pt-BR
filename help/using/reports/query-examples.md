@@ -8,23 +8,25 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 1%
 
 ---
 
 # Exemplos de consultas{#query-examples}
 
-Esta seção lista vários exemplos usados com frequência para consultar Eventos de etapa da Jornada no Data Lake.
+Esta seção fornece exemplos usados com frequência para consultar eventos de etapa de Jornada no Data Lake. Antes de mergulhar em casos de uso específicos, é importante entender os identificadores-chave usados nos dados do evento de jornada.
 
 Verifique se os campos usados em suas consultas têm valores associados no esquema correspondente.
 
-+++Qual é a diferença entre id, instanceid e profileid
+## Noções básicas sobre identificadores de chave {#key-identifiers}
+
++++Qual é a diferença entre id, instanceID e profileID
 
 * id: exclusiva para todas as entradas de evento de etapa. Dois eventos de etapa diferentes não podem ter a mesma ID.
-* instanceId: instanceID é o mesmo para todos os eventos de etapa associados a um perfil em uma execução de jornada. Se um perfil entrar novamente na jornada, uma instanceId diferente será usada. Essa nova instanceId será a mesma para todos os eventos de etapa da instância reinserida (do início ao fim).
+* instanceID: instanceID é o mesmo para todos os eventos de etapa associados a um perfil em uma execução de jornada. Se um perfil entrar novamente na jornada, uma instanceID diferente será usada. Essa nova instanceID será igual para todos os eventos de etapa da instância reinserida (do início ao fim).
 * profileID: a identidade do perfil correspondente ao namespace da jornada.
 
 >[!NOTE]
@@ -124,7 +126,6 @@ WHERE
     _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
 ```
 
-![Exemplo de resultados de consulta mostrando detalhes do perfil descartado](assets/query-discarded-profiles.png)
 
 Os resultados da consulta exibem campos-chave que ajudam a identificar o motivo dos descartes de perfil:
 
@@ -1068,7 +1069,7 @@ _Consulta do Data Lake_
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
-_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileID>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
