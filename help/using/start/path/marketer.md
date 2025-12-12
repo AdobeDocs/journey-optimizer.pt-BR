@@ -7,20 +7,27 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 6fbb9f3d47f4299b35214be4966aafb8151183a2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 6%
+source-wordcount: '1516'
+ht-degree: 3%
 
 ---
 
 # Introdução para profissionais de marketing {#get-started-marketers}
 
-Como **profissional de marketing** ou **profissional de jornadas**, você é responsável por criar ofertas, jornadas e conteúdo. Você pode começar a trabalhar com o [!DNL Adobe Journey Optimizer] assim que o [Administrador do sistema](administrator.md) e o [Engenheiro de dados](data-engineer.md) concederem acesso e prepararem seu ambiente.
+Como um **Profissional de marketing** ou **Profissional de negócios**, você cria jornadas para clientes a fim de fornecer experiências pessoais e contextuais aos clientes. Crie e gerencie todos os vários componentes dessas jornadas personalizadas, incluindo mensagens de email e push, ofertas e componentes de decisão para personalizar o conteúdo da mensagem de forma inteligente. O Journey Optimizer fornece uma experiência de usuário unificada, onde você pode implementar casos de uso completos em um único local. Você pode começar a trabalhar com o [!DNL Adobe Journey Optimizer] assim que o [Administrador do sistema](administrator.md) e o [Engenheiro de dados](data-engineer.md) concederem acesso e prepararem seu ambiente.
 
 ## Introdução ao essentials
 
-O Journey Optimizer permite criar experiências personalizadas e conectadas do cliente por email, SMS, push, no aplicativo, Web, cartões de conteúdo e muito mais. Trabalhe com seus [Administradores](administrator.md) para obter acesso e com os [Engenheiros de Dados](data-engineer.md) para configurar públicos e dados.
+O Journey Optimizer reúne insights do cliente em tempo real, orquestração omnicanal moderna e decisão inteligente em um único aplicativo. Crie experiências personalizadas e conectadas do cliente por email, SMS, push, no aplicativo, Web, cartões de conteúdo e muito mais.
+
+O Journey Optimizer oferece duas abordagens eficientes de orquestração:
+
+* **Jornadas**: engajamento individualizado em tempo real no qual cada cliente se move no seu ritmo e acionado por comportamento ou eventos
+* **Campanhas orquestradas**: campanhas em lote complexas, com várias etapas, em escala, nas quais os públicos se desenvolvem em conjunto por meio de fluxos de trabalho. Perfeito para campanhas iniciadas pela marca, como promoções sazonais, lançamentos de produtos ou comunicações baseadas em conta
+
+Trabalhe com seus [Administradores](administrator.md) para obter acesso e com os [Engenheiros de dados](data-engineer.md) para configurar públicos, dados e esquemas relacionais para segmentação avançada.
 
 Siga estas etapas principais para começar a criar experiências:
 
@@ -63,6 +70,17 @@ Siga estas etapas principais para começar a criar experiências:
 
    Saiba como [projetar e executar jornadas](../../building-journeys/journey-gs.md) e explorar [casos de uso do jornada](../../building-journeys/jo-use-cases.md). Entenda os [critérios de entrada/saída](../../building-journeys/entry-exit-criteria-guide.md) para controlar o fluxo de perfil.
 
+1. **Iniciar campanhas orquestradas**. Projete campanhas em lote complexas e com várias etapas em escala usando uma tela visual:
+
+   * Crie **públicos-alvo sob demanda** instantaneamente usando consultas relacionais para conectar dados do cliente com contas, compras, assinaturas e outras entidades
+   * Crie **segmentação de várias entidades** para direcionamento preciso (por exemplo, &quot;clientes com assinaturas que expiram em 30 dias&quot; ou &quot;contas com compras recentes de alto valor&quot;)
+   * Obtenha a **visibilidade de pré-envio** com contagens precisas de público-alvo antes de iniciar
+   * Crie **fluxos de trabalho de várias etapas** para promoções sazonais, lançamentos de produtos, ofertas de fidelidade ou marketing baseado em conta
+   * Programar campanhas para execução imediata, em horários específicos ou em agendamentos recorrentes (diariamente, semanalmente, mensalmente)
+   * Processar públicos no **modo de lote**, onde todos os perfis avançam juntos pelo fluxo de trabalho
+
+   Saiba como [começar a usar campanhas orquestradas](../../orchestrated/gs-orchestrated-campaigns.md) e saber quando [usar campanhas em comparação com o jornada](../../orchestrated/orchestrated-campaigns-faq.md).
+
 1. **Monitorar e otimizar**. Acompanhe o desempenho e melhore os resultados ao longo do tempo:
    * Monitorar o desempenho da **jornada em tempo real** e identificar gargalos
    * Analisar as taxas de **entrega de mensagens** e as métricas de envolvimento
@@ -91,6 +109,15 @@ Siga estas etapas principais para começar a criar experiências:
 
 [Conheça as práticas recomendadas do jornada](../../building-journeys/entry-exit-criteria-guide.md#best-practices)
 
+### Orquestração de campanha
+
+* **Escolha a abordagem correta**: use Jornadas para experiências acionadas por comportamento em tempo real; use campanhas orquestradas para campanhas agendadas em lote
+* **Definir objetivos claros da campanha**: estabelecer metas antes de criar fluxos de trabalho de várias etapas
+* **Comece com públicos-alvo piloto**: valide as contagens e a lógica de segmentação antes de dimensionar
+* **Aproveite dados relacionais**: use a segmentação de várias entidades para conectar dados do cliente a contas, compras e assinaturas para direcionamento preciso
+* **Mantenha a segmentação simples**: otimize o desempenho e a transparência com regras claras e sustentáveis
+* **Usar nomenclatura consistente**: facilitar o gerenciamento de campanhas com convenções de nomenclatura claras
+
 ### Direcionamento de público
 
 * **Segmente cuidadosamente**: crie segmentos de público-alvo específicos e acionáveis com base em critérios claros
@@ -111,14 +138,22 @@ Siga estas etapas principais para começar a criar experiências:
 
 Aprenda com exemplos práticos que demonstram os recursos do Journey Optimizer:
 
-**Casos de uso populares:**
+**Casos de uso do Jornada** (tempo real, um para um):
 
 * **Série de boas-vindas**: integre novos clientes com jornadas personalizadas de várias etapas. [Exibir caso de uso](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
 * **Recuperação do carrinho abandonado**: envolva novamente os clientes que deixaram itens em seus carrinhos. [Exibir caso de uso](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* **Campanhas de reengajamento**: conquiste clientes inativos com ofertas direcionadas. [Exibir caso de uso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
-* **Campanhas de aniversário**: envie mensagens de aniversário personalizadas com ofertas especiais
-* **Recomendações de produto**: sugerir produtos relevantes com base no histórico de navegação e compra
 * **Mensagens orientadas por eventos**: responda às ações do cliente em tempo real
+* **Campanhas de aniversário**: enviar mensagens de aniversário personalizadas acionadas por datas de perfil
+* **Recomendações de produto**: sugerir produtos relevantes com base no histórico de navegação e compra
+
+**Casos de uso de campanha orquestrada** (em lote, de um para muitos):
+
+* **Promoções sazonais**: inicie campanhas coordenadas em todos os segmentos de clientes (por exemplo, vendas de feriados, escolas)
+* **Lançamentos de produtos**: anunciar novos produtos a públicos-alvo direcionados com mensagens sequenciadas
+* **Ofertas do programa de fidelidade**: recompensa clientes de alto valor com ofertas em camadas com base no histórico de compras
+* **Marketing baseado em conta**: contas de destino com características específicas e contatos relacionados
+* **Renovações de assinatura**: alcance clientes com assinaturas que vencem em breve usando consultas de várias entidades
+* **Campanhas de reengajamento**: conquiste clientes inativos com ofertas direcionadas no modo de lote. [Exibir caso de uso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
 
 **padrões de Jornada:**
 
@@ -126,15 +161,15 @@ Aprenda com exemplos práticos que demonstram os recursos do Journey Optimizer:
 * [Mensagens multicanais](../../building-journeys/journeys-uc.md): combinar email e push com eventos de reação
 * [Emails somente para dias da semana](../../building-journeys/weekday-email-uc.md): agendar comunicações usando condições baseadas em tempo
 
-Procure a [biblioteca de casos de uso do jornada](../../building-journeys/jo-use-cases.md) completa para obter mais padrões e implementações.
+Navegue pela [biblioteca de casos de uso do jornada](../../building-journeys/jo-use-cases.md) completa e saiba mais sobre [campanhas orquestradas](../../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Colaborar com outras funções
 
 Seu trabalho de marketing se conecta com outras equipes:
 
-* **Trabalhe com [Engenheiros de dados](data-engineer.md)**: solicite novos atributos computados, forneça feedback sobre a qualidade do público e coordene sobre os requisitos de dados
+* **Trabalhe com [Engenheiros de dados](data-engineer.md)**: solicite novos atributos computados, coordene esquemas relacionais para campanhas orquestradas, forneça feedback sobre a qualidade do público e alinhe os requisitos de dados de várias entidades para segmentação avançada
 * **Trabalhar com [Desenvolvedores](developer.md)**: alinhar em disparadores de eventos, testar implementações móveis e validar o rastreamento
-* **Trabalhar com [Administradores](administrator.md)**: solicitar configurações de canal, relatar problemas com permissões e coordenar a habilitação de novos recursos
+* **Trabalhe com [Administradores](administrator.md)**: solicite configurações de canal, confirme o acesso à licença para campanhas Orquestradas, relate problemas com permissões e coordene a ativação de novos recursos
 
 ## Permanecer atualizado
 
@@ -154,5 +189,5 @@ Acompanhe os recursos mais recentes do Journey Optimizer e de marketing:
 
 1. **Comece pequeno**: crie uma jornada de boas-vindas simples ou uma campanha de mensagem única para conhecer a plataforma
 2. **Aproveite a IA**: use o Assistente de IA para fazer perguntas e acelerar a criação de conteúdo
-3. **Ingressar na comunidade**: conectar-se a outros usuários do Journey Optimizer na [Comunidade do Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}
+3. **Ingressar na comunidade**: conectar-se a outros usuários do Journey Optimizer na [Comunidade do Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Explorar tutoriais**: Assista aos vídeos passo a passo no [Experience League](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}

@@ -7,18 +7,18 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 50%
+source-wordcount: '1012'
+ht-degree: 48%
 
 ---
 
 # Introdução para administradores do sistema {#get-started-sys-admins}
 
-Antes de começar a usar o [!DNL Adobe Journey Optimizer], várias etapas são necessárias para preparar seu ambiente. Você deve executar essas etapas para que o [Engenheiro de dados](data-engineer.md) e o [Profissional de marketing](marketer.md) possam começar a trabalhar com o [!DNL Adobe Journey Optimizer].
+Como **Administrador do sistema**, você configura o ambiente do Journey Optimizer e gerencia o acesso para permitir que suas equipes trabalhem de maneira eficiente e segura. Execute as etapas de configuração essenciais para que o [Engenheiro de dados](data-engineer.md), [Desenvolvedor](developer.md) e [Profissional de marketing](marketer.md) possa começar a trabalhar com o [!DNL Adobe Journey Optimizer].
 
-Como **Administrador do sistema**, é necessário **compreender funções e atribuir permissões** para a administração de sandbox e a configuração de canal. Você também precisa configurar sandboxes e gerenciá-las para as funções disponíveis. É possível atribuir membros da equipe a funções. Enquanto os [Engenheiros de dados](data-engineer.md) configuram esquemas e fontes de dados e os [Desenvolvedores](developer.md) implementam integrações técnicas, você garante que as pessoas certas tenham acesso aos recursos certos.
+Suas principais responsabilidades incluem a configuração de grupos de usuários e permissões, a criação e o gerenciamento de sandboxes para particionar dados e jornadas para diferentes grupos de usuários e a configuração de canais de entrega e predefinições de mensagem para garantir uma identidade visual consistente entre as várias mensagens e ativos entregues por meio do Journey Optimizer. Você garante que as pessoas certas tenham acesso aos recursos certos, mantendo a segurança e a governança.
 
 Esses recursos são gerenciados por **[!UICONTROL Administradores de produto]** com acesso ao produto Permissões. [Saiba mais sobre Permissões](../../administration/permissions.md){target="_blank"}.
 
