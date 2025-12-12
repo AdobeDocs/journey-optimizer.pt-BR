@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: e86fa9f6e62aea9dd1f7e6d35e7cf4b20f79aaa6
+source-git-commit: 6fbb9f3d47f4299b35214be4966aafb8151183a2
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1122'
 ht-degree: 6%
 
 ---
@@ -26,11 +26,12 @@ Siga estas etapas principais para começar a criar experiências:
 
 1. **Criar públicos-alvo**. Crie públicos-alvo por meio de definições de segmento, carregue arquivos CSV ou use a composição de público-alvo. A Journey Optimizer oferece várias maneiras de direcionar os clientes certos. Saiba mais sobre [públicos-alvo](../../audience/about-audiences.md) e [criação de definições de segmento](../../audience/creating-a-segment-definition.md).
 
-1. **Criar conteúdo**. Crie mensagens atraentes entre canais:
+1. **Criar conteúdo**. Crie mensagens atraentes em todos os canais, incluindo email, SMS, push, no aplicativo, Web e cartões de conteúdo:
    * Use o **Assistente de IA** para gerar conteúdo de email, linhas de assunto e imagens com base nas diretrizes da sua marca. [Saiba mais sobre a geração de conteúdo de IA](../../content-management/gs-generative.md)
    * **Personalize mensagens** com dados do cliente, conteúdo dinâmico e lógica condicional. [Saiba mais sobre personalização](../../personalization/personalize.md)
    * **Repita em dados contextuais** para exibir listas dinâmicas de eventos, ações personalizadas e pesquisas de conjuntos de dados. [Saiba mais sobre a iteração de dados contextuais](../../personalization/iterate-contextual-data.md)
    * Crie **modelos de conteúdo** e **fragmentos** reutilizáveis para manter a consistência da marca. [Trabalhar com modelos](../../content-management/content-templates.md)
+   * Forneça **cartões de conteúdo** persistentes e não intrusivos em aplicativos móveis e sites. Diferentemente das notificações por push, os cartões de conteúdo permanecem visíveis até serem descartados. [Saiba mais sobre cartões de conteúdo](../../content-card/create-content-card.md)
    * Gerenciar ativos com a integração do **Adobe Experience Manager Assets**. [Saiba mais sobre ativos](../../integrations/assets.md)
 
    ![](../assets/perso_ee2.png)
@@ -43,7 +44,8 @@ Siga estas etapas principais para começar a criar experiências:
    * Use **perfis de teste** para visualizar a personalização e verificar a renderização entre dispositivos
    * Testar com **dados de amostra** de arquivos CSV/JSON
    * Visualizar **renderização de email** entre clientes de email populares
-   * Configurar **fluxos de trabalho de aprovação** para campanhas e jornadas (requer licença adicional)
+   * Execute **testes A/B e experimentos** para otimizar as variações de conteúdo. Use a experimentação de bandit multi-armed para alocar automaticamente mais tráfego a variações vencedoras em tempo real. [Saiba mais sobre experimentação](../../content-management/content-experiment.md)
+   * Configure **workflows de aprovação** para campanhas e jornadas (requer licença adicional). [Saiba mais sobre aprovações](../../test-approve/gs-approval.md)
 
    Saiba como [testar e validar mensagens](../../content-management/preview-test.md).
 
@@ -53,7 +55,7 @@ Siga estas etapas principais para começar a criar experiências:
    * Adicione **condições** para criar caminhos personalizados com base nos dados do cliente
    * Use **atividades de espera** para criar um tempo perfeito entre mensagens
    * Enviar mensagens em **vários canais** em uma jornada
-   * Aplicar **teste A/B** para otimizar a eficácia da jornada
+   * Aplicar **teste A/B** e otimizar os tempos de envio para maximizar o envolvimento
    * Use a **pesquisa de conjunto de dados** para enriquecer jornadas com dados em tempo real do Adobe Experience Platform. [Saiba mais sobre a pesquisa de conjunto de dados](../../building-journeys/dataset-lookup.md)
    * Use **identificadores complementares** para permitir que o mesmo perfil entre em várias instâncias do jornada (por exemplo, pedidos ou reservas diferentes). [Saiba mais sobre identificadores complementares](../../building-journeys/supplemental-identifier.md)
 
@@ -66,22 +68,9 @@ Siga estas etapas principais para começar a criar experiências:
    * Analisar as taxas de **entrega de mensagens** e as métricas de envolvimento
    * Use os **painéis de relatórios** com a integração do Customer Journey Analytics
    * Rastrear a **conversão** e o impacto nos negócios
+   * Gerencie a **frequência e a priorização de mensagens** com regras de gerenciamento de conflitos para evitar comunicação excessiva. [Saiba mais sobre o gerenciamento de conflitos](../../conflict-prioritization/gs-conflict-prioritization.md)
 
    Saiba como [monitorar o desempenho](../../reports/report-gs-cja.md).
-
-## Aproveite os recursos mais recentes
-
-O Journey Optimizer evolui continuamente com novos recursos para aprimorar a eficácia do marketing:
-
-* **Cartões de Conteúdo**: forneça mensagens persistentes e não intrusivas em aplicativos móveis e sites, com os quais os usuários podem se envolver quando for conveniente. Diferentemente das notificações por push, os cartões de conteúdo permanecem visíveis até serem descartados. [Saiba mais sobre cartões de conteúdo](../../content-card/create-content-card.md)
-
-* **Gerenciamento e priorização de conflitos**: controle a frequência das mensagens e evite a comunicação excessiva com regras de limite avançadas. Defina as pontuações de prioridade para garantir que as mensagens mais importantes cheguem aos clientes primeiro. [Saiba mais sobre o gerenciamento de conflitos](../../conflict-prioritization/gs-conflict-prioritization.md)
-
-* **Otimização do tempo de envio com recursos de IA**: permita que a IA preveja o tempo de envio ideal para cada cliente com base em seus padrões históricos de engajamento, aumentando as taxas de abertura e de clique em até 10%. [Saiba mais sobre a otimização de hora de envio](../../building-journeys/send-time-optimization.md)
-
-* **Experimento Multi-Armed Bandit**: aloque automaticamente mais tráfego para variações vencedoras em tempo real durante os testes, maximizando os resultados sem esperar a conclusão dos testes. [Saiba mais sobre experimentação](../../content-management/content-experiment.md)
-
-* **Fluxos de Trabalho de Aprovação**: Implementar processos de revisão para campanhas e jornadas antes que elas entrem no ar (disponível com licença adicional). [Saiba mais sobre aprovações](../../test-approve/gs-approval.md)
 
 ## Práticas recomendadas para o sucesso
 
@@ -165,5 +154,5 @@ Acompanhe os recursos mais recentes do Journey Optimizer e de marketing:
 
 1. **Comece pequeno**: crie uma jornada de boas-vindas simples ou uma campanha de mensagem única para conhecer a plataforma
 2. **Aproveite a IA**: use o Assistente de IA para fazer perguntas e acelerar a criação de conteúdo
-3. **Ingressar na comunidade**: conectar-se a outros usuários do Journey Optimizer na [Comunidade do Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}
+3. **Ingressar na comunidade**: conectar-se a outros usuários do Journey Optimizer na [Comunidade do Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Explorar tutoriais**: Assista aos vídeos passo a passo no [Experience League](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}
