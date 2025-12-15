@@ -10,9 +10,9 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1943'
 ht-degree: 7%
 
 ---
@@ -56,6 +56,7 @@ Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode c
 * **Janela de data ativa** - Verifique se a janela de [datas/hora de início e término](journey-properties.md#dates) configurada pela jornada inclui a hora atual ao iniciar o modo de teste. Caso contrário, os eventos de teste acionados serão descartados silenciosamente. Saiba mais sobre como solucionar esse problema [nesta página](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventos de reação** - Para eventos de reação com tempo limite, o tempo de espera mínimo e padrão é de 40 segundos.
 * **Conjuntos de dados de teste** - Os eventos acionados no modo de teste são armazenados em conjuntos de dados dedicados rotulados da seguinte maneira: `JOtestmode - <schema of your event>`
+* **Infraestrutura compartilhada** - O Modo de Teste é executado na mesma infraestrutura que a produção. Durante períodos de alto tráfego, você pode notar atrasos nos envios de email ou no processamento de eventos. Nesse caso, verifique os painéis de tráfego da plataforma ou repita os testes fora do horário de pico.
 
 <!--
 * Fields from related entities are hidden from the test mode.
