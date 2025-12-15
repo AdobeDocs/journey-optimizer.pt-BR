@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 16%
@@ -149,4 +149,4 @@ Ao analisar **métricas de relatórios do jornada** usando o serviço Adobe Expe
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

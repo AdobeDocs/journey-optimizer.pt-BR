@@ -6,7 +6,7 @@ description: Saiba como acessar e trabalhar com  [!DNL Adobe Journey Optimizer] 
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 23%
@@ -140,8 +140,8 @@ Saiba como usar o Relatório de tempo integral no Adobe Journey Optimizer de man
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422698?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-Explore mais tutoriais em vídeo sobre relatórios e análises em [Tutoriais de relatórios](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
+Explore mais tutoriais em vídeo sobre relatórios e análises em [Tutoriais de relatórios](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}

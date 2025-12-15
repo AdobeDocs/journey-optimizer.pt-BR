@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -33,7 +33,7 @@ Quando o Journey Optimizer executa uma chamada para uma API externa, as medidas 
 
 >[!TIP]
 >
->Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
+>Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
 
 ## APIs de limitação e limitação {#capping}
 
@@ -110,7 +110,7 @@ Vamos ver um exemplo para um tempo limite de 5 segundos.
 
 Você encontrará abaixo perguntas frequentes sobre a integração do Journey Optimizer com sistemas externos.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer a pergunta ou conecte-se à [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
 
 +++ Como posso configurar uma regra de limitação ou limitação? Há uma regra padrão?
 

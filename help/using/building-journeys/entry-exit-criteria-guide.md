@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: entrada, saída, critérios, jornada, perfil, reentrada, práticas recomendadas
 version: Journey Orchestration
-source-git-commit: d1c7c9d454497f0d3c0ec75663d01aac91378d65
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1554'
 ht-degree: 0%
@@ -208,7 +208,7 @@ Comece mapeando claramente os acionadores do cliente e os pontos de saída, test
 
 **Tutoriais e exemplos**
 
-[Jornada casos de uso](jo-use-cases.md) | [Vídeo de integração do cliente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carrinho abandonado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog da comunidade: Critérios de entrada e saída](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=pt)
+[Jornada casos de uso](jo-use-cases.md) | [Vídeo de integração do cliente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carrinho abandonado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog da comunidade: Critérios de entrada e saída](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Recursos relacionados**
 
