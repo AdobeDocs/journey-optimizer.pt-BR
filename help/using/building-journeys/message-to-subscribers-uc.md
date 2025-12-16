@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: jornada, caso de uso, mensagem, assinantes, lista, ler
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 52126b42ff400a355db9c75afde0c86059daf164
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 17%
+source-wordcount: '355'
+ht-degree: 15%
 
 ---
 
@@ -27,8 +27,8 @@ Neste exemplo, o grupo de campos **[!UICONTROL Detalhes sobre Consentimento e Pr
 
 Para configurar essa jornada, siga estas etapas:
 
-1. Crie uma jornada que comece com uma atividade **[!UICONTROL Read]**. [Leia mais](journey-gs.md).
-1. Adicione uma atividade de ação **[!UICONTROL Email]** à jornada. [Leia mais](journeys-message.md).
+1. Crie uma jornada que comece com uma atividade **[!UICONTROL Read]**. Saiba mais em [Criar a primeira jornada](journey-gs.md).
+1. Adicione uma atividade de ação **[!UICONTROL Email]** à jornada. Saiba como [Trabalhar com ações de canal](journeys-message.md).
 1. Na seção **[!UICONTROL Parâmetros de email]** das configurações de atividade de **[!UICONTROL Email]**, substitua o endereço de email padrão (`PersonalEmail.adress`) pelo endereço de email dos assinantes da lista:
 
    1. Clique no ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo **[!UICONTROL Endereço]** e clique no ícone **[!UICONTROL Editar]**.
