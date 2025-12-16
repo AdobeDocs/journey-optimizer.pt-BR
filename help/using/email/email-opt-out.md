@@ -34,7 +34,7 @@ Para inserir um link de cancelamento de subscrição no seu conteúdo de email, 
 
 Quando um recipient clica no link para opção de não participação, a solicitação de cancelamento de inscrição é processada adequadamente.
 
-Para verificar se a escolha do perfil correspondente foi atualizada, vá para Experience Platform e [navegue até esse perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Na [guia Atributos](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, é possível ver que o valor de **[!UICONTROL escolha]** foi alterado para **[!UICONTROL não]**. Saiba mais sobre o processamento de consentimento na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=pt-BR){target="_blank"}.
+Para verificar se a escolha do perfil correspondente foi atualizada, vá para Experience Platform e [navegue até esse perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Na [guia Atributos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, é possível ver que o valor de **[!UICONTROL escolha]** foi alterado para **[!UICONTROL não]**. Saiba mais sobre o processamento de consentimento na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=pt-BR){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
