@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recusar, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 26%
+source-wordcount: '1117'
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ Para inserir um link de cancelamento de subscrição no seu conteúdo de email, 
 
 Quando um recipient clica no link para opção de não participação, a solicitação de cancelamento de inscrição é processada adequadamente.
 
-Para verificar se a escolha do perfil correspondente foi atualizada, vá para Experience Platform e [navegue até esse perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Na [guia Atributos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, é possível ver que o valor de **[!UICONTROL escolha]** foi alterado para **[!UICONTROL não]**. Saiba mais sobre o processamento de consentimento na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=pt-BR){target="_blank"}.
+Para verificar se a escolha do perfil correspondente foi atualizada, vá para Experience Platform e [navegue até esse perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Na [guia Atributos](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, é possível ver que o valor de **[!UICONTROL escolha]** foi alterado para **[!UICONTROL não]**. Saiba mais sobre o processamento de consentimento na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=pt-BR){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -160,25 +160,30 @@ Primeiro, é necessário adicionar um link para cancelar inscrição em uma mens
 1. Clique em **[!UICONTROL Salvar]**.
 
 
-### Enviar a mensagem com link para cancelar inscrição {#send-message-unsubscribe-link}
+### Entender o fluxo de cancelamento de inscrição {#send-message-unsubscribe-link}
 
-Depois de configurar o link de cancelamento de inscrição para a página de aterrissagem, você poderá criar e enviar a mensagem.
+Depois de configurar o link de cancelamento de inscrição para a página de aterrissagem, você pode concluir e enviar a mensagem aos assinantes.
 
-1. Configure sua mensagem com um link de unsubscription e envie-a aos seus assinantes.
+Para que todo o fluxo de recusa de página de aterrissagem seja concluído com êxito, os seguintes eventos devem ocorrer em ordem:
 
-1. Depois que a mensagem for recebida, se o destinatário clicar no link de cancelamento de inscrição, a página de destino será exibida.
+1. **Clique** - Depois que a mensagem for recebida, o destinatário clicará no link de cancelamento de inscrição no email.
+
+1. **Visita** - A página de aterrissagem é carregada e exibida ao destinatário.
 
    ![](assets/opt-out-lp-example.png)
+
+1. **Enviar** - O destinatário envia o formulário de recusa clicando no botão Cancelar inscrição na página de aterrissagem.
 
    >[!WARNING]
    >
    >Clicar no link de cancelamento de inscrição no email abre somente a landing page. O destinatário deve **enviar o formulário clicando no botão de recusa na página de aterrissagem** para concluir o cancelamento de inscrição e atualizar o consentimento do perfil.
 
-1. Se o recipient enviar o formulário - aqui, pressionando o botão **[!UICONTROL Cancelar inscrição]** na página de aterrissagem - os dados do perfil serão atualizados por meio da chamada de API.
-
-1. O destinatário que recusou a inscrição é então redirecionado para uma tela de mensagem de confirmação indicando que a recusa foi bem-sucedida.
+1. **Cancelar assinatura** - O sistema processa a solicitação de cancelamento de assinatura. O recipient que recusou a inscrição é redirecionado para uma tela de mensagem de confirmação indicando que a recusa foi bem-sucedida.
 
    ![](assets/opt-out-confirmation-example.png)
 
+1. **Atualização de consentimento** - Os dados do perfil são atualizados com o consentimento nos atributos do perfil por meio da chamada de API, o que exclui o perfil de futuros envios de email.
+
    Como resultado, esse usuário não receberá a comunicação da sua marca, a menos que faça a assinatura novamente.
 
+Essa sequência de eventos garante que o processo de cancelamento de subscrição seja rastreado corretamente e as preferências de consentimento do perfil sejam refletidas com precisão no sistema. Se qualquer etapa desse fluxo estiver ausente ou ocorrer fora de ordem, isso pode indicar um problema com a implementação de recusa que deve ser investigado.
