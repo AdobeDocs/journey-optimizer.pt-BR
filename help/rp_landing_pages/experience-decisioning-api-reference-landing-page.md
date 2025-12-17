@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-54-39
 hide: true
 hidefromtoc: true
 exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e90be67288245fbf8e3794c6e554016e3f5997f4
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 94%
@@ -22,13 +22,13 @@ O canal de experiência baseada em código do Adobe Journey Optimizer permite qu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Entregar ofertas com o canal de experiência baseada em código
 
 Saiba como entregar ofertas personalizadas por meio de implementações do lado do cliente, do lado do servidor ou híbridas com o canal de experiência baseada em código do Adobe Journey Optimizer.
 
-[Explore os métodos de implementação](../using/experience-decisioning/api-reference/deliver.md)
+[Explore os métodos de implementação](../using/experience-decisioning/use-decision-policy.md)
 :::
 
 ::::
