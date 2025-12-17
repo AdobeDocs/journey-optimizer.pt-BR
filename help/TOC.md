@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 964568f060626d3eeefa91f2836aac4d69aefa38
+source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
 workflow-type: tm+mt
-source-wordcount: '3022'
+source-wordcount: '3015'
 ht-degree: 97%
 
 ---
@@ -448,7 +448,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -597,38 +597,37 @@ ht-degree: 97%
       + [Perguntas frequentes sobre decisão](using/experience-decisioning/decisioning-faq.md)
       + Referência da API {#experience-decisioning-api-reference}
          + [Referência da API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
-         + Criar e gerenciar itens de oferta {#create-manage}
-            + Itens de decisão {#decision-items}
-               + [Criar itens de decisão](using/experience-decisioning/api-reference/decisions-items/create.md)
-               + [Lista de itens de decisão](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-               + [Excluir itens de decisão](using/experience-decisioning/api-reference/decisions-items/delete.md)
-               + [Pesquisar itens de decisão](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-               + [Atualizar itens de decisão](using/experience-decisioning/api-reference/decisions-items/update.md)
-            + Coleções de itens {#items-collections}
-               + [Criar coleções de itens](using/experience-decisioning/api-reference/items-collections/create.md)
-               + [Excluir coleções de itens](using/experience-decisioning/api-reference/items-collections/delete.md)
-               + [Lista de coleções de itens](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-               + [Pesquisar coleções de itens](using/experience-decisioning/api-reference/items-collections/lookup.md)
-               + [Atualizar coleções de itens](using/experience-decisioning/api-reference/items-collections/update.md)
-            + Estratégias de seleção {#selection-strategies}
-               + [Criar estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/create.md)
-               + [Excluir estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-               + [Pesquisar estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-               + [Lista de estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-               + [Atualizar estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + Fórmulas de classificação {#ranking-formulas}
-               + [Criar fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/create.md)
-               + [Excluir fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-               + [Pesquisar fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-               + [Selecionar fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
-               + [Atualizar fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/update.md)
-            + Regras de elegibilidade {#eligibility-rules}
-               + [Criar regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/create.md)
-               + [Excluir regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
-               + [Pesquisar regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
-               + [Lista de regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
-               + [Atualizar regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-      + [Fornecer ofertas usando o canal de experiência baseada em código](using/experience-decisioning/api-reference/deliver.md)
+         + [Introdução às APIs de decisão](using/experience-decisioning/api-reference/getting-started.md)
+         + Itens de decisão {#decision-items}
+            + [Criar itens de decisão](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [Lista de itens de decisão](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [Excluir itens de decisão](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [Pesquisar itens de decisão](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [Atualizar itens de decisão](using/experience-decisioning/api-reference/decisions-items/update.md)
+         + Coleções de itens {#items-collections}
+            + [Criar coleções de itens](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [Excluir coleções de itens](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [Lista de coleções de itens](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [Pesquisar coleções de itens](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [Atualizar coleções de itens](using/experience-decisioning/api-reference/items-collections/update.md)
+         + Estratégias de seleção {#selection-strategies}
+            + [Criar estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [Excluir estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [Pesquisar estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [Lista de estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [Atualizar estratégias de seleção](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + Fórmulas de classificação {#ranking-formulas}
+            + [Criar fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/create.md)
+            + [Excluir fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
+            + [Pesquisar fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+            + [Selecionar fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+            + [Atualizar fórmulas de classificação](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+         + Regras de elegibilidade {#eligibility-rules}
+            + [Criar regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/create.md)
+            + [Excluir regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+            + [Pesquisar regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+            + [Lista de regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
+            + [Atualizar regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/update.md)
       + Gerenciar itens de decisão {#manage-decision-items}
          + [Gerenciar itens de decisão](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Configurar o catálogo de itens](using/experience-decisioning/catalogs.md)
