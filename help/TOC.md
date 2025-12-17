@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 8328e32f91c5541ec8561aef0e34757c4c7ecf9c
 workflow-type: tm+mt
-source-wordcount: '3015'
-ht-degree: 97%
+source-wordcount: '3024'
+ht-degree: 96%
 
 ---
 
@@ -448,7 +448,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -628,6 +628,11 @@ ht-degree: 97%
             + [Pesquisar regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
             + [Lista de regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
             + [Atualizar regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+         + Posicionamentos {#placements}
+            + [Criar inserções](using/experience-decisioning/api-reference/exd-placements/create.md)
+            + [Lista de disposições](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [Posicionamentos de pesquisa](using/experience-decisioning/api-reference/exd-placements/lookup.md)
+            + [Atualizar posicionamentos](using/experience-decisioning/api-reference/exd-placements/update.md)
       + Gerenciar itens de decisão {#manage-decision-items}
          + [Gerenciar itens de decisão](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Configurar o catálogo de itens](using/experience-decisioning/catalogs.md)
