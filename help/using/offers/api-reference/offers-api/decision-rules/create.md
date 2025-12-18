@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Criar uma regra de decisão
 description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a elegibilidade.
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 15%
+source-wordcount: '137'
+ht-degree: 26%
 
 ---
 
 # Criar uma regra de decisão {#create-decision-rule}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a elegibilidade.
 

@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Listar ofertas substitutas
 description: Uma oferta substituta é enviada aos clientes se eles não estiverem qualificados para outras ofertas
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 0eb68312-5567-4728-b184-9d40107676a0
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 5%
+source-wordcount: '300'
+ht-degree: 11%
 
 ---
 
 # Listar ofertas substitutas {#list-fallback-offers}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Uma oferta substituta é enviada aos clientes se eles não estiverem qualificados para outras ofertas. As etapas para criar uma oferta substituta consistem na criação de uma ou várias representações, como ao criar uma oferta.
 

@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: pesquisar ofertas substitutas
 description: Uma oferta substituta é enviada aos clientes se eles não estiverem qualificados para outras ofertas
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 7%
+source-wordcount: '106'
+ht-degree: 23%
 
 ---
 
 # Pesquisar ofertas substitutas {#look-up-fallback-offers}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Você pode pesquisar ofertas substitutas específicas fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui a ID da oferta substituta no caminho da solicitação.
 

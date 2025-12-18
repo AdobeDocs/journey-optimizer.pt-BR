@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Excluir regras de decisão
 description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a elegibilidade.
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 9%
+source-wordcount: '138'
+ht-degree: 21%
 
 ---
 
 # Excluir uma regra de decisão {#delete-decision-rule}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Ocasionalmente, pode ser necessário remover (DELETE) uma regra de decisão. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando o `id` da regra de decisão que você deseja excluir.
 

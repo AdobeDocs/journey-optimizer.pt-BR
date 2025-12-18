@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: excluir posicionamentos
 description: Posicionamentos são contêineres usados para exibir suas ofertas.
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 9%
+source-wordcount: '127'
+ht-degree: 22%
 
 ---
 
 # Excluir uma inserção {#delete-placement}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Ocasionalmente, pode ser necessário remover (DELETE) um posicionamento. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando a ID do posicionamento que você deseja excluir.
 

@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Atualizar coleções
 description: Coleções são subconjuntos de ofertas com base em condições predefinidas por um profissional de marketing, como a categoria da oferta.
 feature: Decision Management, API, Collections
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: bf12d22f-e6c0-45fd-a2b2-149d3f4cf882
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 9%
+source-wordcount: '183'
+ht-degree: 18%
 
 ---
 
 # Atualizar uma coleção {#update-collection}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Você pode modificar ou atualizar uma coleção fazendo uma solicitação PATCH para a API [!DNL Offer Library]
 

@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Atualizar qualificadores de coleção
 description: Os qualificadores de coleção permitem organizar e classificar melhor suas ofertas.
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '188'
+ht-degree: 17%
 
 ---
 
 # Atualizar um qualificador de coleção {#update-collection-qualifier}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Você pode modificar ou atualizar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) no contêiner fazendo uma solicitação PATCH para a API [!DNL Offer Library].
 

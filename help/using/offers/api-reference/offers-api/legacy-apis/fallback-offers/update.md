@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Atualizar uma oferta substituta
 description: Uma oferta substituta é enviada aos clientes se eles não estiverem qualificados para outras ofertas
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: f153c2ee-e789-4d8e-a03b-e914690ff354
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 12%
+source-wordcount: '181'
+ht-degree: 20%
 
 ---
 
 # Atualizar uma oferta substituta {#update-fallback-offer}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Você pode modificar ou atualizar uma oferta substituta em seu container fazendo uma solicitação PATCH para a API [!DNL Offer Library].
 

@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Pesquisar um posicionamento
 description: Posicionamentos são contêineres usados para exibir suas ofertas.
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 4%
+source-wordcount: '164'
+ht-degree: 14%
 
 ---
 
 # Pesquisar um posicionamento {#look-up-placement}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Você pode pesquisar posicionamentos específicos fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui o posicionamento `@id` ou o nome do posicionamento no caminho da solicitação.
 

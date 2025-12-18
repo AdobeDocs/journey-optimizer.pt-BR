@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Pesquisar uma oferta personalizada
 description: Uma oferta personalizada é uma mensagem de marketing personalizável baseada em regras de elegibilidade e restrições.
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 3%
+source-wordcount: '195'
+ht-degree: 12%
 
 ---
 
 # Pesquisar uma oferta personalizada {#look-up-personalized-offer}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Uma oferta personalizada é uma mensagem de marketing personalizável baseada em regras de elegibilidade e restrições.
 

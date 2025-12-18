@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: Criar um qualificador de coleção
 description: Os qualificadores de coleção permitem organizar e classificar melhor suas ofertas.
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 14%
+source-wordcount: '139'
+ht-degree: 25%
 
 ---
 
 
 # Criar um qualificador de coleção {#create-tag}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Você pode criar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) fazendo uma solicitação POST para a API da biblioteca de ofertas.
 

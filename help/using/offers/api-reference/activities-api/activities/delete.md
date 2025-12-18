@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Excluir decisões
 description: Uma decisão contém a lógica que informa a seleção de uma oferta.
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 11%
+source-wordcount: '127'
+ht-degree: 23%
 
 ---
 
 # Excluir uma decisão {#delete-decision}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Ocasionalmente, pode ser necessário remover (DELETE) uma decisão. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando o `id` da decisão que você deseja excluir.
 

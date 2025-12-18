@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Atualizar regras de decisão
 description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a elegibilidade.
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 12%
+source-wordcount: '139'
+ht-degree: 23%
 
 ---
 
 # Atualizar uma regra de decisão {#update-decision-rule}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Você pode criar uma oferta substituta fazendo uma solicitação POST para a API [!DNL Offer Library] e, ao mesmo tempo, fornecendo sua ID de container.
 

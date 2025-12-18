@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Pesquisar uma decisão
 description: Uma decisão contém a lógica que informa a seleção de uma oferta.
 feature: Decision Management, API
+badge: label="Legado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 8%
+source-wordcount: '98'
+ht-degree: 25%
 
 ---
 
 # Pesquisar uma decisão {#look-up-decision}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Você pode pesquisar decisões específicas fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui as decisões `id` no caminho da solicitação.
 
