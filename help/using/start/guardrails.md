@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d04cbbbec426cf1bf56004685172be2a9328ec18
+source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
 workflow-type: tm+mt
 source-wordcount: '3574'
 ht-degree: 92%
@@ -155,7 +155,7 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
 
 ## Medidas de proteção de decisão e gestão de decisões {#decisioning-guardrails}
 
-As medidas de proteção e limitações que devem ser consideradas ao trabalhar com o serviço de decisão ou a gestão de decisões estão detalhadas nas seções Decisão e Gestão de decisões:
+As medidas de proteção e limitações que devem ser consideradas ao trabalhar com a Gestão de decisões ou a Gestão de decisões estão detalhadas nas seções Gestão de decisões e gestão de decisões:
 
 * [Medidas de proteção e limitações do serviço de decisão](../experience-decisioning/decisioning-guardrails.md)
 * [Medidas de proteção e limitações da gestão de decisões](../offers/decision-management-guardrails.md)
