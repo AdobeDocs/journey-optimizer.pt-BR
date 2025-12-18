@@ -69,7 +69,7 @@ O Journey Optimizer oferece suporte a vários tipos de fontes para conexão com 
 **Automação de CRM e marketing:**
 * Microsoft Dynamics
 * Salesforce
-*  Marketing Cloud
+* Marketing Cloud
 
 ➡️ Veja a lista completa no [catálogo de fontes do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}
 
