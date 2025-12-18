@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 52b58d18cdbbff79f4dcb7af2817b178a4a0b429
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 11%
@@ -69,9 +69,9 @@ O Journey Optimizer oferece suporte a vários tipos de fontes para conexão com 
 **Automação de CRM e marketing:**
 * Microsoft Dynamics
 * Salesforce
-* Marketing Cloud
+*  Marketing Cloud
 
-➡️ Veja a lista completa no [catálogo de fontes do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#sources-catalog){target="_blank"}
+➡️ Veja a lista completa no [catálogo de fontes do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}
 
 ## Antes de começar {#prerequisites}
 
@@ -81,7 +81,7 @@ Antes de configurar fontes, verifique se você tem:
 * **Credenciais do sistema Source** - Detalhes de autenticação do sistema externo que você deseja conectar
 * **Noções básicas sobre seus dados** - Saiba quais campos de dados você precisa e como eles são mapeados para perfis do Journey Optimizer
 
-➡️ Saiba mais sobre [controle de acesso e permissões](../../administration/permissions.md)
+➡️ Saiba mais sobre [controle de acesso e permissões](../administration/permissions.md)
 
 ## Como as fontes funcionam {#how-sources-work}
 
@@ -109,7 +109,7 @@ Para obter informações detalhadas sobre como configurar e gerenciar fontes, co
 
 Agora que você entende quais são as fontes e por que elas são importantes:
 
-* Explore o [catálogo de fontes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#sources-catalog){target="_blank"} para encontrar conectores para seus sistemas
+* Explore o [catálogo de fontes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} para encontrar conectores para seus sistemas
 * Saiba como [criar uma conexão de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
 * Entender [o mapeamento e a transformação de dados](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
 * Veja como [usar dados importados no jornada](../building-journeys/journey-gs.md)
