@@ -8,16 +8,16 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: d04cbbbec426cf1bf56004685172be2a9328ec18
 workflow-type: tm+mt
-source-wordcount: '3575'
+source-wordcount: '3574'
 ht-degree: 92%
 
 ---
 
 # Medidas de proteção e limitações {#limitations}
 
-Abaixo são encontradas medidas de proteção e limitações adicionais para usar o [!DNL Adobe Journey Optimizer].
+Abaixo você encontrará medidas de proteção e limitações ao usar o [!DNL Adobe Journey Optimizer].
 
 Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -169,7 +169,7 @@ As medidas de proteção e limitações que devem ser consideradas ao trabalhar 
 * À medida que você publica jornadas, dimensionaremos e ajustaremos automaticamente para garantir uma máxima taxa de transferência e estabilidade. Ao se aproximar do marco de 100 jornadas ativas de uma só vez, você verá uma notificação aparecer na interface sobre essa conquista. Se vir esta notificação e precisar aumentar o número de jornadas para acima de 100 jornadas ativas por vez, crie um tíquete para o Atendimento ao cliente e ajudaremos a atingir suas metas.
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
 * Uma instância de jornada para um perfil tem tamanho máximo de 1 MB. Todos os dados coletados como parte da execução da jornada são armazenados nessa instância da jornada. Portanto, dados de um evento de entrada, informações de perfil recuperadas da Adobe Experience Platform, respostas de ações personalizadas etc. são armazenados nessa instância da jornada e afetam o tamanho da jornada. É aconselhável, quando uma jornada inicia com um evento, limitar o tamanho máximo desse conteúdo do evento (por exemplo: até 800 KB) para evitar atingir esse limite após algumas atividades, na execução da jornada. Quando esse limite é atingido, o perfil fica com status de erro e será excluído da jornada.
-* Além do tempo-limite usado em atividades de jornada, também há um tempo-limite de jornada global que não aparece na interface e não pode ser alterado. Esse tempo-limite global interrompe o progresso das pessoas na jornada 91 dias após a sua entrada. [Leia mais](../building-journeys/journey-properties.md#global_timeout)
+* Além do tempo limite usado em atividades de jornada, também há um tempo-limite de jornada global que não é exibido na interface e não pode ser alterado. Esse tempo-limite global interrompe o progresso das pessoas na jornada 91 dias após a sua entrada. [Leia mais](../building-journeys/journey-properties.md#global_timeout)
 
 ### Selecionar limitações de pacote para jornadas unitárias {#select-package-limitations}
 
