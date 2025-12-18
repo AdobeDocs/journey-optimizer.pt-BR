@@ -39,7 +39,7 @@ O designer de jornadas do Journey Optimizer oferece tudo que profissionais de ma
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 **Entrega em lote e em tempo real**
 
@@ -49,7 +49,7 @@ Envie uma **entrega unitária** em tempo real acionada quando um evento é receb
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
 
 **Dados contextuais**
 
@@ -59,7 +59,7 @@ Aproveite **dados contextuais** de eventos, informações da Adobe Experience Pl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
 
 **Ações internas**
 
@@ -69,7 +69,7 @@ Use as **ações de canal integradas** para enviar mensagens criadas no [!DNL Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 **Ações personalizadas**
 
@@ -79,7 +79,7 @@ Crie **ações personalizadas** se estiver usando um sistema de terceiros para e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 **Designer do Visual jornada**
 
@@ -89,7 +89,7 @@ Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arrast
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 **Testar e otimizar**
 
@@ -109,7 +109,7 @@ O [designer de jornada](using-the-journey-designer.md) fornece [ações de ca
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 **Saiba mais sobre casos de uso**
 
@@ -119,7 +119,7 @@ Explore casos de uso abrangentes e completos do jornada que demonstram implement
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
 
 **Bem-vindo(a) aos novos assinantes**
 
@@ -129,7 +129,7 @@ Envie uma jornada de boas-vindas personalizada quando os clientes assinarem seu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
 
 **Otimizar tempos de envio de email**
 
@@ -139,7 +139,7 @@ Use a otimização de tempo de envio baseada em IA para enviar emails quando hou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 **Aumentar entregas**
 
@@ -149,7 +149,7 @@ Aumente gradualmente o volume de mensagens para aquecer a reputação de envio e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 **Direcionar por dia da semana**
 
@@ -159,7 +159,7 @@ Envie conteúdo diferente com base no dia da semana em que os clientes entram na
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=pt-BR)
 
 **Perguntas frequentes sobre o Jornada**
 
@@ -179,7 +179,7 @@ Encontre respostas para perguntas frequentes sobre a criação de jornadas, a so
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 **Criar e gerenciar jornadas**
 
@@ -189,7 +189,7 @@ Orientação passo a passo sobre design, teste, publicação e rastreamento de j
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 **Jornada atividades**
 
@@ -199,7 +199,7 @@ Descubra como configurar e usar atividades como acionadores, etapas de decisão,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 **Expressões e condições**
 
@@ -209,7 +209,7 @@ Domine a criação de expressões para fluxos de trabalho dinâmicos, manipulaç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
 
 **Solução de problemas e monitoramento**
 
@@ -219,7 +219,7 @@ Diagnostique e resolva problemas de execução de jornada com ferramentas, códi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 **visão geral do designer do Jornada**
 
@@ -229,7 +229,7 @@ Entenda a tela, a paleta e como projetar as jornadas do cliente usando a interfa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 **Testar e publicar**
 
