@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b06229e7a2fc64fbe28154c798b152cca8203a86
+source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3024'
 ht-degree: 96%
 
 ---
@@ -448,7 +448,7 @@ ht-degree: 96%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -472,9 +472,7 @@ ht-degree: 96%
       + [Trabalho com o Adobe Stock](using/integrations/stock.md)
       + [Trabalhar com o Adobe Express](using/integrations/express.md)
       + [Trabalhar com modelos do Experience Manager](using/integrations/aem-templates.md)
-      + Fragmentos de conteúdo do Experience Manager {#fragments}
-         + [Introdução aos fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments-gs.md)
-         + [Trabalhar com fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments.md)
+      + [Trabalhar com fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments.md)
       + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + [Trabalhar com integrações](using/integrations/external-sources.md)
