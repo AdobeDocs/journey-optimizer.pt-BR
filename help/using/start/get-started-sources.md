@@ -71,7 +71,7 @@ O Journey Optimizer oferece suporte a vários tipos de fontes para conexão com 
 * Salesforce
 * Marketing Cloud
 
-➡️ Veja a lista completa no [catálogo de fontes do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}
+➡️ Veja a lista completa no [catálogo de fontes do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#sources-catalog){target="_blank"}
 
 ## Antes de começar {#prerequisites}
 
@@ -109,7 +109,7 @@ Para obter informações detalhadas sobre como configurar e gerenciar fontes, co
 
 Agora que você entende quais são as fontes e por que elas são importantes:
 
-* Explore o [catálogo de fontes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} para encontrar conectores para seus sistemas
+* Explore o [catálogo de fontes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#sources-catalog){target="_blank"} para encontrar conectores para seus sistemas
 * Saiba como [criar uma conexão de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
 * Entender [o mapeamento e a transformação de dados](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
 * Veja como [usar dados importados no jornada](../building-journeys/journey-gs.md)
