@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d3559564b0bf33428a703f7909eed908f1c452a4
+source-git-commit: b7550b55327cb27e67cb914c340bdd08360d4490
 workflow-type: tm+mt
-source-wordcount: '7908'
+source-wordcount: '7909'
 ht-degree: 99%
 
 ---
@@ -1615,7 +1615,7 @@ Os modelos de conteúdo do tipo HTML agora estão obsoletos. Observe que ainda �
 
 **Políticas de consentimento**
 
-Agora você pode aproveitar as políticas de consentimento personalizadas por meio de ações de marketing em configurações de canal de email. [Saiba mais](../action/consent.md#surface-marketing-actions)
+Agora você pode aproveitar as políticas de consentimento personalizadas por meio de ações de marketing em configurações de canal de email transacional. [Saiba mais](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 
