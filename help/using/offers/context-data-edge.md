@@ -56,11 +56,11 @@ Ao contrário da transmissão de contexto em um formato livre usando a API de de
 
    ![Esquema XDM mostrando o grupo de campos Contexto da Oferta com as propriedades language e deviceType](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Saiba como trabalhar com esquemas no [!DNL Adobe Experience Platform] [guia do Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
+   Saiba como trabalhar com esquemas no [!DNL Adobe Experience Platform] [guia do Experience Data Model (XDM)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Crie um conjunto de dados (aqui, &quot;Contexto da oferta&quot;) e verifique se ele está ativado para o perfil.
 
-1. Crie uma nova sequência de dados a partir do menu **[!UICONTROL Coleção de Dados]** > **[!UICONTROL Sequências de Dados]**. Saiba como criar e configurar a sequência de dados no [!DNL Adobe Experience Platform] [Guia de sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
+1. Crie uma nova sequência de dados a partir do menu **[!UICONTROL Coleção de Dados]** > **[!UICONTROL Sequências de Dados]**. Saiba como criar e configurar a sequência de dados no [!DNL Adobe Experience Platform] [Guia de sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure){target="_blank"}
 
    Aqui, criamos uma sequência de dados de &quot;Contexto de oferta&quot;, com o esquema de evento &quot;Conteúdo de oferta&quot; selecionado.
 
