@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
+source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
 workflow-type: tm+mt
-source-wordcount: '3024'
+source-wordcount: '3033'
 ht-degree: 96%
 
 ---
@@ -235,14 +235,22 @@ ht-degree: 96%
       + [Aprovar uma solicitação](using/test-approve/review-approve-request.md)
 + Monitorar e solucionar problemas {#monitor}
    + [Monitoramento e solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Alertas do sistema](using/reports/alerts.md)
-   + [Referência de códigos de erro](using/building-journeys/error-codes-reference.md)
-   + [Artigos de solução de problemas](using/start/troubleshooting.md)
-   + Solução de problemas das jornadas {#troubleshoot-journey}
-      + [Solução de problemas de erros de jornada](using/building-journeys/troubleshooting.md)
-      + [Solução de problemas de execução da jornada](using/building-journeys/troubleshooting-execution.md)
-      + [Solução de problemas de ações de entrada](using/building-journeys/troubleshooting-inbound.md)
-      + [Solução de problemas de ações personalizadas](using/action/troubleshoot-custom-action.md)
+   + [Introdução ao rastreamento](using/start/get-started-tracking.md)
+   + Capacidade de entrega de email {#deliverability}
+      + [Capacidade de entrega de email](/help/rp_landing_pages/deliverability-landing-page.md)
+      + [Introdução à capacidade de entrega](using/reports/deliverability.md)
+      + [Sobre a lista de supressão](using/reports/suppression-list.md)
+      + [Novo requisito DMARC](using/configuration/dmarc-record-update.md)
+   + Monitorar alertas e códigos de erro {#monitor-alerts-errors}
+      + [Alertas do sistema](using/reports/alerts.md)
+      + [Referência de códigos de erro](using/building-journeys/error-codes-reference.md)
+   + Solução de problemas {#troubleshooting}
+      + [Perguntas frequentes sobre solução de problemas](using/start/troubleshooting.md)
+      + Solução de problemas das jornadas {#troubleshoot-journey}
+         + [Solução de problemas de erros de jornada](using/building-journeys/troubleshooting.md)
+         + [Solução de problemas de execução da jornada](using/building-journeys/troubleshooting-execution.md)
+         + [Solução de problemas de ações de entrada](using/building-journeys/troubleshooting-inbound.md)
+         + [Solução de problemas de ações personalizadas](using/action/troubleshoot-custom-action.md)
 + Canais de comunicação {#channels}
    + [Introdução a canais de comunicação](using/channels/gs-channels.md)
    + Canal de email {#email}
@@ -288,11 +296,6 @@ ht-degree: 96%
          + [Parâmetros de cabeçalho](using/email/header-parameters.md)
          + [Rastreamento de URL](using/email/url-tracking.md)
          + [Personalizar configurações de email](using/email/surface-personalization.md)
-      + Capacidade de entrega de email {#deliverability}
-         + [Capacidade de entrega de email](/help/rp_landing_pages/deliverability-landing-page.md)
-         + [Introdução à capacidade de entrega](using/reports/deliverability.md)
-         + [Sobre a lista de supressão](using/reports/suppression-list.md)
-         + [Novo requisito DMARC](using/configuration/dmarc-record-update.md)
    + Canal no aplicativo {#in-app}
       + [Canal no aplicativo](/help/rp_landing_pages/in-app-landing-page.md)
       + [Introdução ao canal “In-app”](using/in-app/get-started-in-app.md)
@@ -448,7 +451,7 @@ ht-degree: 96%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
