@@ -10,14 +10,18 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 33%
+source-wordcount: '654'
+ht-degree: 35%
 
 ---
 
 # Interface do usuário da biblioteca de ofertas {#user-interface}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 A seção **[!UICONTROL Gestão de decisões]** no painel esquerdo fornece dois menus que dão acesso aos recursos de gestão de decisões:
 

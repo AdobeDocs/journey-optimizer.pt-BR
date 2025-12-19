@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: f736dcc7-6f6e-42ff-a940-4602299ae2b6
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '126'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '143'
 ht-degree: 100%
 
 ---
 
 # Introdução às classificações {#create-fallback-offers}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 O [!DNL Journey Optimizer] permite usar classificações para ofertas exibidas em um determinado perfil:
 

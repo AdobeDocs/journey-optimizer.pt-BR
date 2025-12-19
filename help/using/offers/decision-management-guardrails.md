@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 753f6bc8130b0a743aac1208a8e5aac58e3dbbfd
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 13%
+source-wordcount: '365'
+ht-degree: 17%
 
 ---
 
 # Medidas de proteção e limitações da gestão de decisões {#decision-management-guardrails}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../experience-decisioning/gs-experience-decisioning.md)
 
 Para garantir o uso ideal da Gestão de decisões, lembre-se das seguintes medidas de proteção e limitações.
 

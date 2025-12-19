@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 4%
+source-wordcount: '1118'
+ht-degree: 6%
 
 ---
 
 # Caso de uso: configurar ofertas personalizadas para usá-las em um email {#configure-add-personalized-offers-email}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../experience-decisioning/gs-experience-decisioning.md)
 
 Esta seção apresenta um exemplo completo para mostrar como configurar ofertas e usá-las em um email, com base em uma decisão criada anteriormente.
 

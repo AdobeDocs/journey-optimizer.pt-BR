@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 15%
+source-wordcount: '413'
+ht-degree: 19%
 
 ---
 
 # Introdução a modelos de IA {#ai-models}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 O [!DNL Journey Optimizer] permite usar um sistema de modelo treinado que classifica as ofertas para exibição em determinado perfil.
 
@@ -65,4 +69,4 @@ As principais etapas para criar e usar modelos de IA são as seguintes:
 
 Saiba como criar um modelo de IA para o Offer Decisioning e como aplicá-lo a uma decisão.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445649?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

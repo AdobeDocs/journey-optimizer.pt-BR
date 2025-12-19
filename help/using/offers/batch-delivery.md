@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 5%
+source-wordcount: '859'
+ht-degree: 7%
 
 ---
 
 # Decisão em lote {#deliver}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../experience-decisioning/gs-experience-decisioning.md)
 
 ## Introdução à decisão em lote {#start}
 
@@ -32,7 +36,7 @@ Antes de configurar uma solicitação de tarefa, verifique se você criou:
 
 * **Um conjunto de dados** no Adobe Experience Platform. Esse conjunto de dados será usado para armazenar o resultado da decisão usando o schema &quot;ODE DecisionEvents&quot;. Saiba mais na [documentação sobre conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR).
 
-* **Um público-alvo** na Adobe Experience Platform. O público-alvo deve ser avaliado e depois atualizado. Saiba como atualizar a avaliação de associação de público na [documentação do Serviço de segmentação](https://www.adobe.com/go/segmentation-overview-en_br)
+* **Um público-alvo** na Adobe Experience Platform. O público-alvo deve ser avaliado e depois atualizado. Saiba como atualizar a avaliação de associação de público na [documentação do Serviço de segmentação](https://www.adobe.com/go/segmentation-overview-en)
 
   >[!NOTE]
   >

@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 9%
+source-wordcount: '409'
+ht-degree: 13%
 
 ---
 
 # Criar ofertas substitutas {#create-fallback-offers}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
@@ -75,5 +79,5 @@ Para criar uma oferta substituta, siga estas etapas:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341361?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

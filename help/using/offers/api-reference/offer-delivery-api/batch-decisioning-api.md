@@ -3,21 +3,26 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: API de decisão em lote
 description: Saiba como usar a API de decisão em lote para selecionar as melhores ofertas para perfis de públicos-alvo em um escopo de decisão predefinido.
+badge: label="Legado" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 4%
+source-wordcount: '747'
+ht-degree: 6%
 
 ---
 
 
 # Entregar ofertas usando a API [!DNL Batch Decisioning] {#deliver-offers-batch}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../experience-decisioning/gs-experience-decisioning.md)
 
 A API [!DNL Batch Decisioning] permite que as organizações usem a funcionalidade de decisão para todos os perfis em um determinado público-alvo através de uma única chamada. O conteúdo da oferta de cada perfil no público-alvo é colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
 
@@ -33,7 +38,7 @@ Para fazer isso, a organização deve:
 
 * Exportar o conjunto de dados para a API do fornecedor de delivery de mensagens.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=pt-BR) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >

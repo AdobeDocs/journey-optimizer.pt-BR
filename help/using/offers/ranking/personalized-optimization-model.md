@@ -9,14 +9,18 @@ role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 5%
+source-wordcount: '961'
+ht-degree: 6%
 
 ---
 
 # Modelo de otimização personalizado {#personalized-optimization-model}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 ## Visão geral {#overview}
 

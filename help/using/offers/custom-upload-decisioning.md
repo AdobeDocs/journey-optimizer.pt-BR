@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 2%
+source-wordcount: '550'
+ht-degree: 5%
 
 ---
 
 # Usar públicos-alvo de upload personalizados para a tomada de decisão {#custom-upload-decisioning}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../experience-decisioning/gs-experience-decisioning.md)
 
 Com o Journey Optimizer, você pode aproveitar os dados de públicos-alvo criados usando o upload personalizado (arquivo CSV) na Adobe Experience Platform para oferecer suporte aos fluxos de trabalho da Gestão de decisões. Isso é particularmente útil quando os dados não são necessários no perfil, mas ainda são essenciais para fins de decisão.
 
@@ -28,7 +32,7 @@ Os dados de públicos-alvo de upload personalizados podem ser aproveitados na Ge
 Para obter mais informações sobre públicos-alvo de upload personalizado, consulte as seções:
 
 * [Introdução a públicos e Journey Optimizer](../audience/about-audiences.md)
-* [Importando uma audiência no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importando uma audiência no Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Leitura obrigatória {#must-read}
 

@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 10%
 
 ---
 
 # Dados de contexto e solicitações de decisão {#context-data-decisioning}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../experience-decisioning/gs-experience-decisioning.md)
 
 Esta seção orienta você sobre a transmissão de dados de contexto nas solicitações de Decisão e seu uso nas regras de qualificação.
 

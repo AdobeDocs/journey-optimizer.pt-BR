@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 8%
+source-wordcount: '2566'
+ht-degree: 9%
 
 ---
 
 # Criar decisões {#create-offer-activities}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 As decisões são containers para suas ofertas que aproveitarão o Mecanismo do Offer Decisioning para escolher a melhor oferta a ser entregue, dependendo do target da entrega.
 
@@ -382,7 +386,7 @@ O botão **[!UICONTROL Mais ações]** habilita as ações descritas abaixo.
 
   >[!CAUTION]
   >
-  >A decisão e seu conteúdo não estarão mais acessíveis. Essa ação não pode ser desfeita.
+  >A decisão e seu conteúdo não estarão mais acessíveis. Esta ação não pode ser desfeita.
   >
   >Se a decisão for usada em outro objeto, ela não poderá ser excluída.
 
@@ -408,6 +412,6 @@ Isso permite que você acesse informações detalhadas para essa decisão. Selec
 
 Saiba como criar atividades de oferta na gestão de decisões.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409147?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

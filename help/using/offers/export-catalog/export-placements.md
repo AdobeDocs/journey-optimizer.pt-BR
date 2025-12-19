@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 1%
+source-wordcount: '383'
+ht-degree: 5%
 
 ---
 
 # Conjunto de dados de inserções {#placements-dataset}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 Cada vez que uma oferta é modificada, o conjunto de dados gerado automaticamente para inserções é atualizado.
 

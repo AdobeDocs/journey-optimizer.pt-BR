@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Introdução às APIs de entrega de ofertas
 description: Saiba mais sobre as APIs disponíveis para fornecer ofertas personalizadas.
+badge: label="Legado" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 4%
+source-wordcount: '487'
+ht-degree: 7%
 
 ---
 
 # Introdução às APIs de entrega de ofertas {#about-decisioning-apis}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../experience-decisioning/gs-experience-decisioning.md)
 
 Você pode entregar ofertas usando a API de **Decisão** ou a **Decisão da Edge**. Além disso, a API de **Decisão em lote** permite entregar ofertas a todos os perfis em um determinado público-alvo através de uma única chamada. O conteúdo da oferta de cada perfil no público-alvo é colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
 

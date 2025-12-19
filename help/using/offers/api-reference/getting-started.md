@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Introdução
 description: Saiba como começar a usar a API da Biblioteca de ofertas para executar operações importantes usando o mecanismo de decisão.
+badge: label="Legado" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '382'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '400'
 ht-degree: 100%
 
 ---
 
 # Manual do desenvolvedor da API de Gestão de decisões {#decision-management-api-developer-guide}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="od_api_support"
@@ -75,5 +80,5 @@ Este documento cobriu os conhecimento necessários para fazer chamadas para a AP
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342833?captions=por_br&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 

@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 31%
+source-wordcount: '647'
+ht-degree: 33%
 
 ---
 
 # Criar inserções {#create-placements}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
@@ -71,11 +75,11 @@ Para criar uma inserção, siga estas etapas:
 
    * **[!UICONTROL Incluir conteúdo]** / **[!UICONTROL Incluir metadados]**: especifique se o conteúdo e os metadados da oferta devem ser retornados na resposta da API. É possível incluir todos os metadados ou apenas campos específicos. Por padrão, o valor de “Incluir metadados” está definido como verdadeiro.
 
-   Esses parâmetros também podem ser definidos diretamente na sua solicitação de API se você estiver trabalhando com a [API de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=pt-BR). No entanto, configurá-los na interface pode ajudar a economizar tempo, pois não será necessário transmiti-los em cada solicitação de API. Observe que, se você configurar os parâmetros na interface do usuário do e na solicitação de API, os valores da solicitação de API prevalecerão sobre os da interface.
+   Esses parâmetros também podem ser definidos diretamente na sua solicitação de API se você estiver trabalhando com a [API de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). No entanto, configurá-los na interface pode ajudar a economizar tempo, pois não será necessário transmiti-los em cada solicitação de API. Observe que, se você configurar os parâmetros na interface do usuário do e na solicitação de API, os valores da solicitação de API prevalecerão sobre os da interface.
 
    >[!NOTE]
    >
-   >Se você estiver trabalhando com a [API do Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=pt-BR&), não poderá definir esses parâmetros em sua solicitação. Você precisa defini-los nesta tela.
+   >Se você estiver trabalhando com a [API do Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), não poderá definir esses parâmetros em sua solicitação. Você precisa defini-los nesta tela.
    >
    >Se você estiver trabalhando com a [API de decisão em lote](../api-reference/offer-delivery-api/batch-decisioning-api.md), é possível definir esses parâmetros nesta tela ou em sua solicitação de API. Se houver uma incompatibilidade de valores de parâmetro entre a tela e a solicitação de API, os valores de solicitação serão usados.
 
@@ -89,5 +93,5 @@ Para criar uma inserção, siga estas etapas:
 
 Saiba como criar inserções na gestão de decisões.
 
->[!VIDEO](https://video.tv.adobe.com/v/341392?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

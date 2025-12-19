@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 2%
+source-wordcount: '290'
+ht-degree: 8%
 
 ---
 
 # Configurar coleção de dados {#schema-requirements}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 Para poder obter feedback sobre tipos de evento que não sejam eventos de decisão, você deve definir o valor correto para cada tipo de evento em um **evento de experiência** enviado para o Adobe Experience Platform.
 
@@ -109,4 +113,4 @@ Para eventos personalizados, o esquema usado no conjunto de dados também deve t
 >* POST /ee/v2/interage
 >* POST /ee/v2/collect
 >
->Se você estiver usando a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} ou a [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=pt-BR){target="_blank"}, a conexão será feita automaticamente.
+>Se você estiver usando a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} ou a [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, a conexão será feita automaticamente.
