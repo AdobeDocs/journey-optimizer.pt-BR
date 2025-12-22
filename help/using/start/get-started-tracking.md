@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: rastreamento, monitoramento, analytics, relatórios, capacidade de entrega
-source-git-commit: c7ff5b6cc83313855f3ecd6c6d7b3b7ed6358af9
+source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1813'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ O rastreamento de email é ativado automaticamente ao criar uma mensagem de emai
 
 * **Configurar parâmetros de rastreamento de URL** - Configure parâmetros de rastreamento no nível da superfície para anexar automaticamente identificadores de campanha (utm_campaign, utm_source etc.) a todos os links de email. Isso permite o rastreamento de atribuições em todo o ecossistema digital. [Saiba mais](../email/url-tracking.md)
 
-* **Rastrear links em fragmentos** - Todos os links em fragmentos de conteúdo reutilizáveis são rastreados automaticamente, fornecendo uma exibição completa do envolvimento nos componentes de conteúdo compartilhado.
+* **Rastrear links em fragmentos salvos** - Quando o rastreamento é habilitado em uma jornada ou campanha, os links em um fragmento salvos do conteúdo dessa jornada ou campanha também são rastreados quando esse fragmento é reutilizado. [Saiba mais](../content-management/save-fragments.md)
 
 * **Adicionar rastreamento de mirror page** - Habilite a opção de mirror page para criar uma versão da Web do seu email com rastreamento automático de quem o visualiza. [Saiba mais](../email/message-tracking.md#mirror-page)
 
@@ -129,7 +129,7 @@ O rastreamento de push é ativado automaticamente e captura impressões (entregu
 
 >[!NOTE]
 >
->O rastreamento de push requer a implementação do SDK móvel. Verifique se o aplicativo tem o Adobe Experience Platform Mobile SDK configurado corretamente.
+>O rastreamento de push requer a implementação do SDK móvel. Verifique se o aplicativo tem o Adobe Experience Platform Mobile SDK configurado corretamente. [Saiba mais](../push/push-configuration.md#integrate-mobile-app)
 
 **Analisar engajamento:** Exiba taxas de click-through, desempenho do botão e detalhes do link rastreado em relatórios. [Relatórios de campanha](../reports/campaign-global-report-cja-push.md) | [Jornada relatórios](../reports/journey-global-report-cja-push.md)
 
@@ -175,7 +175,7 @@ Antes que o rastreamento funcione, é necessário configurar a implementação p
 
 * Configuração de uma sequência de dados configurada para o Adobe Experience Platform
 * Implementação da coleção de eventos no código usando o Web SDK ou o SDK móvel
-* Envio de eventos de interação de apresentação quando os usuários visualizam ou clicam em conteúdo personalizado
+* Envio de eventos de exibição e interação quando o conteúdo é exibido ou clicado
 
 [Saiba mais sobre os pré-requisitos de implementação](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
@@ -185,7 +185,7 @@ Antes que o rastreamento funcione, é necessário configurar a implementação p
 
 +++Rastreamento de cartão de conteúdo
 
-Os cartões de conteúdo rastreiam automaticamente as interações do usuário. Configure as regras de conteúdo e exibição para controlar o comportamento do rastreamento.
+[Cartões de conteúdo](../content-card/create-content-card.md) rastreiam automaticamente as interações do usuário. Configure as regras de conteúdo e exibição para controlar o comportamento do rastreamento.
 
 **Como implementar:**
 
@@ -201,7 +201,7 @@ Os cartões de conteúdo rastreiam automaticamente as interações do usuário. 
 
 +++Rastreamento da landing page
 
-As landing pages vêm com rastreamento integrado que não requer configuração adicional. O Journey Optimizer captura automaticamente visitas, conversões e taxas de rejeição.
+[As páginas de aterrissagem](../reports/lp-report-global-cja.md) vêm com acompanhamento interno que não requer configuração adicional. O Journey Optimizer captura automaticamente visitas, conversões e taxas de rejeição.
 
 **O que é rastreado automaticamente:**
 
@@ -210,7 +210,7 @@ As landing pages vêm com rastreamento integrado que não requer configuração 
 * **Taxa de rejeição** - Porcentagem de visitantes que saem sem interagir
 * **Tendências de desempenho** - Dados de série temporal que mostram como as métricas evoluem
 
-**Otimizar o desempenho:** use dados de rastreamento para refinar campos de formulário, testar variações de conteúdo, identificar fontes de tráfego eficazes e reduzir o abandono. [Saiba mais](../reports/lp-report-global-cja.md)
+**Otimizar o desempenho:** use dados de rastreamento para refinar campos de formulário, testar variações de conteúdo, identificar fontes de tráfego eficazes e reduzir o abandono.
 
 +++
 
@@ -218,19 +218,11 @@ As landing pages vêm com rastreamento integrado que não requer configuração 
 
 Além do rastreamento no nível do canal, configure o rastreamento para medir o desempenho geral e entender o comportamento do cliente em suas iniciativas de marketing.
 
-**Configurar o rastreamento de campanha:**
-<!--
-* **Configure optimization** - When setting up campaigns, enable experimentation or targeting to track which content variations perform best. [Learn more](../campaigns/campaigns-message-optimization.md)-->
-
-* **Definir métricas de conversão** - Especifique quais ações contam como conversões (compras, inscrições, downloads) para medir a eficácia da campanha além das métricas de envolvimento.
-
-* **Configurar agendamento** - Configure a otimização de tempo de envio para acompanhar o desempenho em diferentes estratégias de tempo e identificar as janelas de envio ideais. [Saiba mais](../building-journeys/send-time-optimization.md)
-
-**Configurar o rastreamento de jornadas:**
-
 * **Definir métricas de sucesso personalizadas** - Configure KPIs específicos alinhados aos seus objetivos de negócios (compras, inscrições, renovações, etc.) além das métricas de envolvimento padrão. [Saiba mais](../building-journeys/success-metrics.md)
 
 * **Habilitar eventos de etapa do jornada** - Ative o rastreamento detalhado de cada ação que os clientes realizam ao percorrerem o jornada. Isso proporciona visibilidade granular dos pontos de entrada/saída, seleção de caminho e locais de devolução. [Saiba mais](../reports/journey-step-events-overview.md)
+
+* **Configurar agendamento** - Configure a otimização de tempo de envio para acompanhar o desempenho em diferentes estratégias de tempo e identificar as janelas de envio ideais. [Saiba mais](../building-journeys/send-time-optimization.md)
 
 * **Configurar o monitoramento de ações personalizadas** - Configurar o rastreamento de integrações com sistemas externos para monitorar chamadas de API, tempos de resposta e padrões de erro. [Saiba mais](../action/reporting.md)
 
@@ -258,7 +250,7 @@ Ao usar a Decisão para personalizar o conteúdo, o Journey Optimizer rastreia a
 * **Rastreamento de impressão** - Para emails, as impressões são rastreadas automaticamente. Para experiências baseadas em código, é necessário implementar eventos de exibição de apresentação no código.
 * **Rastreamento de cliques** - Os cliques nos itens de decisão são rastreados automaticamente em emails; experiências baseadas em código exigem a implementação de eventos de clique.
 
-**Pré-requisitos para o rastreamento baseado em código** Para rastrear a decisão em experiências baseadas em código, verifique se a sua implementação envia eventos de interação de apresentação (exibições e cliques) para a Adobe Experience Platform usando o Web SDK ou o Mobile SDK. [Saiba mais](../experience-decisioning/gs-experience-decisioning.md)
+**Pré-requisitos para o rastreamento baseado em código** Para rastrear a decisão em experiências baseadas em código, verifique se a sua implementação envia eventos de interação de apresentação (exibições e cliques) para a Adobe Experience Platform usando o Web SDK ou o Mobile SDK. [Saiba mais](../experience-decisioning/data-collection/schema-requirement.md)
 
 **Analisar o desempenho:** Exiba KPIs de decisão, compare itens de decisão, analise estratégias de seleção e monitore o desempenho do modelo de IA em relatórios. [Saiba mais](../experience-decisioning/cja-reporting.md)
 
@@ -288,7 +280,7 @@ Além do rastreamento do engajamento, configure o monitoramento para garantir qu
 
 **Monitoramento da entregabilidade:**
 
-* **Revise as listas de supressão** regularmente para entender por que os endereços são bloqueados e manter a higiene das listas. [Saiba mais](../reports/suppression-list.md)
+* **Revise a lista de supressão** regularmente para entender por que os endereços são bloqueados e manter a higiene das listas. [Saiba mais](../reports/suppression-list.md)
 
 * **Analise os erros de entrega** para diagnosticar falhas e tomar medidas corretivas. [Saiba mais](../configuration/email-error-types.md)
 
