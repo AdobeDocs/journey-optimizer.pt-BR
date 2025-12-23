@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: rastreamento, monitoramento, analytics, relatórios, capacidade de entrega
-source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
+source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1916'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ O rastreamento de email é ativado automaticamente ao criar uma mensagem de emai
 
 * **Configurar parâmetros de rastreamento de URL** - Configure parâmetros de rastreamento no nível da superfície para anexar automaticamente identificadores de campanha (utm_campaign, utm_source etc.) a todos os links de email. Isso permite o rastreamento de atribuições em todo o ecossistema digital. [Saiba mais](../email/url-tracking.md)
 
-* **Rastrear links em fragmentos salvos** - Quando o rastreamento é habilitado em uma jornada ou campanha, os links em um fragmento salvos do conteúdo dessa jornada ou campanha também são rastreados quando esse fragmento é reutilizado. [Saiba mais](../content-management/save-fragments.md)
+* **Rastrear links em fragmentos salvos** - Quando você salva um fragmento de um conteúdo com rastreamento habilitado, os links nesse fragmento permanecem rastreados quando você o reutiliza em outras jornadas ou campanhas. [Saiba mais](../content-management/save-fragments.md)
 
 * **Adicionar rastreamento de mirror page** - Habilite a opção de mirror page para criar uma versão da Web do seu email com rastreamento automático de quem o visualiza. [Saiba mais](../email/message-tracking.md#mirror-page)
 
@@ -105,11 +105,11 @@ O rastreamento web requer configuração explícita para rastrear as interaçõe
 
 **Configurar o rastreamento de cliques:**
 
-Ao criar uma modificação na Web, você pode selecionar elementos específicos (botões, imagens, links) que deseja rastrear. Isso permite o rastreamento de cliques para esses elementos sem a necessidade de código adicional. [Saiba mais](../web/monitor-web-experiences.md)
+Ao criar uma página da Web, você pode selecionar elementos específicos (botões, imagens, links) que deseja rastrear. Isso permite o rastreamento de cliques para esses elementos sem a necessidade de código adicional. [Saiba mais](../web/monitor-web-experiences.md)
 
-* **Rastrear qualquer elemento clicável** - Selecione botões, imagens, links ou qualquer elemento interativo na personalização da Web
-* **Coleta de dados automática** - Uma vez configurada, a Journey Optimizer captura automaticamente eventos de clique e os associa a perfis
-* **Monitorar em tempo real** - Rastreie as interações do usuário à medida que elas validam a eficácia da personalização
+* **Rastrear qualquer elemento clicável** - Selecione botões, imagens, links ou qualquer elemento interativo na personalização da Web.
+* **Coleta de dados automática** - Uma vez configurada, a Journey Optimizer captura automaticamente os eventos de clique e os associa aos perfis.
+* **Monitorar em tempo real** - Rastreie as interações do usuário à medida que elas ocorrem, para validar a eficácia da personalização.
 
 **Exibir dados de rastreamento:** Acesse métricas de exibição, taxas de click-through e desempenho em nível de elemento em relatórios. [Relatórios de campanha](../reports/campaign-global-report-cja-web.md) | [Jornada relatórios](../reports/journey-global-report-cja-web.md)
 
@@ -141,11 +141,13 @@ As mensagens no aplicativo rastreiam automaticamente as exibições e as intera�
 
 **Configurar rastreamento:**
 
-* **Configurar regras de exibição** - Defina quando e onde as mensagens no aplicativo aparecem usando acionadores (inicialização do aplicativo, carregamento da tela), regras de frequência e condições de público-alvo. A configuração adequada garante o rastreamento preciso de mensagens acionadas e exibidas. [Saiba mais](../in-app/create-in-app.md)
+* **Definir regras de exibição** - Defina quando e onde as mensagens no aplicativo aparecem usando acionadores (inicialização do aplicativo, carregamento da tela), regras de frequência e condições de público-alvo. A configuração adequada garante o rastreamento preciso de mensagens acionadas e exibidas.
 
 * **Adicionar elementos rastreados** - Inclua botões, links e elementos interativos no conteúdo da mensagem. Cada interação é automaticamente rastreada com rótulos detalhados.
 
 * **Otimizar o tempo de exibição** - Configure as regras de dia da semana e hora do dia para maximizar a probabilidade de as mensagens disparadas serem realmente exibidas para os usuários.
+
+[Saiba como configurar mensagens no aplicativo](../in-app/create-in-app.md)
 
 **O que é rastreado:** o Journey Optimizer captura automaticamente exibições, cliques em botões, dispensas, métricas acionadas versus exibidas e desempenho do link. [Relatórios de campanha](../reports/campaign-global-report-cja-inapp.md) | [Jornada relatórios](../reports/journey-global-report-cja-inapp.md)
 
@@ -157,9 +159,9 @@ O rastreamento de SMS requer configuração mínima — o Journey Optimizer encu
 
 **Como funciona:**
 
-* **Rastreamento automático de links** - Adicione qualquer URL ao conteúdo do SMS usando a função auxiliar de URL. O Journey Optimizer reduz automaticamente o link e rastreia os cliques sem configuração adicional. Para usar a redução de URL, primeiro você deve configurar um subdomínio SMS. [Saiba mais](../sms/create-sms.md#sms-content)
+* **Rastreamento automático de links** - Adicione qualquer URL ao conteúdo do SMS usando a função auxiliar de URL. O Journey Optimizer reduz automaticamente o link e rastreia os cliques sem configuração adicional. Para usar a redução de URL, primeiro você deve configurar um subdomínio SMS. [Saiba mais](../sms/sms-subdomains.md)
 
-* **Rastreamento de mensagens de entrada** - As respostas dos destinatários são capturadas automaticamente, permitindo que você monitore conversas bidirecionais e padrões de resposta.
+* **Rastreamento de mensagens de entrada** - As respostas dos destinatários são capturadas automaticamente, permitindo que você monitore conversas bidirecionais e padrões de resposta. [Saiba mais](../sms/sms-opt-out.md#sms-native-keywords)
 
 **Exibir métricas:** Acesse dados de cliques em links, volumes de mensagens de entrada e desempenho do tipo de mensagem em relatórios. [Relatórios de campanha](../reports/campaign-global-report-cja-sms.md) | [Jornada relatórios](../reports/journey-global-report-cja-sms.md)
 
@@ -173,9 +175,9 @@ Experiências baseadas em código exigem configuração de implementação para 
 
 Antes que o rastreamento funcione, é necessário configurar a implementação para enviar eventos de interação (exibições, cliques) para o Adobe Experience Platform. Isso requer:
 
-* Configuração de uma sequência de dados configurada para o Adobe Experience Platform
-* Implementação da coleção de eventos no código usando o Web SDK ou o SDK móvel
-* Envio de eventos de exibição e interação quando o conteúdo é exibido ou clicado
+* Configuração de uma sequência de dados configurada para o Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=pt-BR)
+* Implementação da coleção de eventos no código usando o Web SDK ou o Mobile SDK.
+* Envio de eventos de exibição e interação quando o conteúdo é exibido ou clicado.
 
 [Saiba mais sobre os pré-requisitos de implementação](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
@@ -185,7 +187,7 @@ Antes que o rastreamento funcione, é necessário configurar a implementação p
 
 +++Rastreamento de cartão de conteúdo
 
-[Cartões de conteúdo](../content-card/create-content-card.md) rastreiam automaticamente as interações do usuário. Configure as regras de conteúdo e exibição para controlar o comportamento do rastreamento.
+Os cartões de conteúdo rastreiam automaticamente as interações do usuário. Configure as regras de conteúdo e exibição para controlar o comportamento do rastreamento.
 
 **Como implementar:**
 
@@ -195,13 +197,15 @@ Antes que o rastreamento funcione, é necessário configurar a implementação p
 
 * **Configurar regras de exibição** - Defina quando e onde os cartões são exibidos para garantir um rastreamento preciso de exibições vs. interações.
 
+[Saiba como configurar cartões de conteúdo](../content-card/create-content-card.md)
+
 **Monitorar engajamento:** Rastrear exibições, cliques, taxas de click-through e padrões de engajamento em várias sessões. [Relatórios de campanha](../reports/campaign-global-report-cja-content.md) | [Jornada relatórios](../reports/journey-global-report-cja-content.md)
 
 +++
 
 +++Rastreamento da landing page
 
-[As páginas de aterrissagem](../reports/lp-report-global-cja.md) vêm com acompanhamento interno que não requer configuração adicional. O Journey Optimizer captura automaticamente visitas, conversões e taxas de rejeição.
+As landing pages vêm com rastreamento integrado que não requer configuração adicional. O Journey Optimizer captura automaticamente visitas, conversões e taxas de rejeição.
 
 **O que é rastreado automaticamente:**
 
@@ -210,7 +214,9 @@ Antes que o rastreamento funcione, é necessário configurar a implementação p
 * **Taxa de rejeição** - Porcentagem de visitantes que saem sem interagir
 * **Tendências de desempenho** - Dados de série temporal que mostram como as métricas evoluem
 
-**Otimizar o desempenho:** use dados de rastreamento para refinar campos de formulário, testar variações de conteúdo, identificar fontes de tráfego eficazes e reduzir o abandono.
+[Saiba como configurar páginas de destino](../landing-pages/create-lp.md)
+
+**Monitore o desempenho**: controle os padrões de visita, as taxas de conversão e as taxas de rejeição ao longo do tempo para entender como os usuários interagem com seus formulários e identificar as áreas que precisam ser melhoradas. [Relatórios de campanha](../reports/lp-report-global-cja.md)
 
 +++
 
@@ -234,15 +240,19 @@ Além do rastreamento no nível do canal, configure o rastreamento para medir o 
 
 O Journey Optimizer rastreia automaticamente experimentos de otimização, estratégias de direcionamento e desempenho de decisão. Defina as configurações para garantir a coleta de dados adequada.
 
-**Configurar o rastreamento de otimização:**
+### Configurar rastreamento de otimização {#optimization-tracking}
 
-* **Configurar experimentação** - Ao criar experimentos ou usar o direcionamento, defina quais métricas rastrear (conversões, cliques, eventos personalizados). O Journey Optimizer coleta automaticamente dados de desempenho para cada tratamento. [Saiba mais](../campaigns/campaigns-message-optimization.md)
+* **Otimização em suas campanhas e jornadas**
 
-* **Configurar a otimização de caminho** - Adicione uma atividade **Otimizar** à jornada e configure vários caminhos. O Journey Optimizer rastreia automaticamente quais caminhos os perfis tomam e mede o desempenho. [Saiba mais](../building-journeys/optimize.md)
+   * Ao criar experimentos, defina quais métricas rastrear (conversões, cliques, eventos personalizados). O Journey Optimizer coleta automaticamente dados de desempenho para cada tratamento. [Saiba mais](../campaigns/campaigns-message-optimization.md#experimentation)
 
-**Analisar resultados:** Exiba taxas de conversão, significância estatística e aumento entre tratamentos nos relatórios de experimentação. [Relatórios de campanha](../reports/campaign-global-report-cja-experimentation.md) | [Jornada relatórios](../reports/journey-global-report-cja-experimentation.md)
+   * Crie regras de direcionamento para fornecer conteúdo diferente a segmentos de público-alvo diferentes. O Journey Optimizer rastreia automaticamente as métricas de envolvimento para cada grupo direcionado, permitindo que você compare o desempenho entre os segmentos. [Saiba mais](../campaigns/campaigns-message-optimization.md#targeting)
 
-**Rastrear desempenho de decisão:**
+* **Otimização do caminho da Jornada** - Adicione uma atividade **Otimizar** à jornada e configure vários caminhos. O Journey Optimizer rastreia automaticamente quais caminhos os perfis tomam e mede o desempenho. [Saiba mais](../building-journeys/optimize.md)
+
+**Analisar resultados:** visualize taxas de conversão, significância estatística e aumento entre tratamentos em relatórios de experimentação ou compare métricas de envolvimento em segmentos direcionados. [Relatório de campanha de experimentação](../reports/campaign-global-report-cja-experimentation.md) | [Relatório de jornada de experimentação](../reports/journey-global-report-cja-experimentation.md) | [relatório de direcionamento de Jornadas](../reports/journey-global-report-cja.md#targeting)
+
+### Rastrear o desempenho da decisão {#decisioning-tracking}
 
 Ao usar a Decisão para personalizar o conteúdo, o Journey Optimizer rastreia automaticamente eventos de decisão, impressões e cliques sem a necessidade de configuração adicional.
 
@@ -270,19 +280,19 @@ O controle de dados garante a conformidade com regulamentos como o GDPR e o CCPA
 
 Além do rastreamento do engajamento, configure o monitoramento para garantir que as mensagens cheguem às caixas de entrada e que os sistemas tenham ótimo desempenho.
 
-**Configurar o monitoramento pró-ativo:**
-
-* **Configurar alertas** - Configure notificações em tempo real sobre erros de jornada, falhas de ação personalizada e problemas críticos para responder rapidamente aos problemas. [Saiba mais](../reports/alerts.md)
-
-* **Habilitar logs de auditoria** - Ative o log de auditoria para rastrear todas as ações nos recursos para fins de conformidade e solução de problemas. [Saiba mais](../privacy/audit-logs.md)
-
-* **Monitorar integrações** - Rastreie o desempenho da ação personalizada e a conectividade do sistema externo para identificar problemas de integração antecipadamente. [Saiba mais](../action/reporting.md)
-
-**Monitoramento da entregabilidade:**
+O monitoramento da capacidade de entrega ajuda a garantir que suas mensagens cheguem às caixas de entrada dos destinatários e mantenham a reputação do remetente íntegra, rastreando os indicadores principais:
 
 * **Revise a lista de supressão** regularmente para entender por que os endereços são bloqueados e manter a higiene das listas. [Saiba mais](../reports/suppression-list.md)
 
 * **Analise os erros de entrega** para diagnosticar falhas e tomar medidas corretivas. [Saiba mais](../configuration/email-error-types.md)
 
 * **Siga as práticas recomendadas** para o DMARC, SPF e DKIM para maximizar o posicionamento da caixa de entrada. [Saiba mais](../reports/deliverability.md)
+
+Configure o monitoramento pró-ativo para receber notificações em tempo real sobre eventos críticos e problemas do sistema, permitindo que você responda rapidamente antes que eles afetem as experiências do cliente:
+
+* **Configurar alertas** - Configure notificações em tempo real sobre erros de jornada, falhas de ação personalizada e problemas críticos para responder rapidamente aos problemas. [Saiba mais](../reports/alerts.md)
+
+* **Habilitar logs de auditoria** - Ative o log de auditoria para rastrear todas as ações nos recursos para fins de conformidade e solução de problemas. [Saiba mais](../privacy/audit-logs.md)
+
+* **Monitorar integrações** - Rastreie o desempenho da ação personalizada e a conectividade do sistema externo para identificar problemas de integração antecipadamente. [Saiba mais](../action/reporting.md)
 

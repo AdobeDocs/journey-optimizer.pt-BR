@@ -5,27 +5,51 @@ title: Solução de problemas
 description: Solução de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: eca6378093abcb2a75ebfee56be82bb2257d514d
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 35%
 
 ---
 
-# Monitoramento e solução de problemas{#section-overview}
+# Rastrear, monitorar e solucionar problemas {#section-overview}
 
-O gerenciamento eficaz das jornadas do cliente requer monitoramento proativo, relatórios criteriosos e recursos eficientes de solução de problemas. O Adobe Journey Optimizer fornece ferramentas abrangentes para monitorar o desempenho da jornada, identificar possíveis problemas e resolvê-los rapidamente quando surgirem.
+O gerenciamento eficaz das jornadas do cliente começa com um rastreamento abrangente, permitindo um monitoramento pró-ativo, relatórios criteriosos e uma solução de problemas eficiente. O Adobe Journey Optimizer fornece uma estrutura completa para capturar as interações do cliente e os eventos do sistema, analisar as métricas de desempenho e resolver problemas rapidamente quando eles surgirem.
 
-Use os [alertas do sistema](../using/reports/alerts.md) para receber notificações sobre eventos críticos, use os [relatórios de jornada](../using/reports/journey-global-report-cja.md) para analisar métricas de desempenho e revise os [eventos de etapas da jornada](../using/reports/journey-step-events-overview.md) para entender os fluxos de execução detalhados. Quando ocorrerem problemas, consulte os [códigos de erro](../using/building-journeys/error-codes-reference.md) para obter resoluções rápidas e siga as orientações direcionadas de solução de problemas para áreas de problemas específicas, caso encontre falhas na jornada, inconsistências de execução ou problemas no nível da ação.
+**Rastreie** as interações dos clientes em todos os canais (emails, web, push, no aplicativo, SMS e muito mais), capturando aberturas, cliques, conversões e eventos personalizados que revelam como os clientes se envolvem com seu conteúdo.
 
-Esta página reúne recursos essenciais para ajudar a monitorar a integridade da jornada, acessar os principais insights de relatórios e resolver problemas com eficiência em todos os estágios das jornadas do cliente.
+**Monitore** o desempenho da jornada e da campanha usando relatórios em tempo real, alertas do sistema e métricas de entrega que ajudam a identificar tendências, medir o sucesso e capturar possíveis problemas antecipadamente.
+
+**Solucione problemas** com eficiência com códigos de erro detalhados, logs de execução passo a passo e orientações direcionadas para resolver falhas de jornada, inconsistências de execução ou problemas de nível de ação.
+
+Esta página reúne recursos essenciais para ajudá-lo a implementar o rastreamento, monitorar a integridade da jornada, acessar os principais insights de relatórios e resolver problemas com eficiência em todos os estágios das jornadas do cliente.
+
+## Introdução ao rastreamento
+
+Antes de mergulhar no monitoramento e na solução de problemas, verifique se você tem uma base sólida no rastreamento. O Journey Optimizer fornece recursos abrangentes de rastreamento que capturam as interações do cliente, o desempenho da entrega e a integridade do sistema em todos os canais.
+
+Saiba como implementar o rastreamento de emails, experiências da Web, notificações por push, mensagens no aplicativo e muito mais, incluindo como configurar métricas personalizadas, configurar parâmetros de URL e acessar dados de rastreamento por meio de relatórios integrados. [Introdução ao rastreamento](../using/start/get-started-tracking.md)
+
+## Relatórios e monitoramento
+
+Acesse os principais relatórios para monitorar o desempenho da jornada, analisar métricas e identificar problemas:
+
+* [Relatórios globais de Jornada](../using/reports/journey-global-report-cja.md) - Exiba métricas e análises abrangentes de desempenho de jornada em todos os canais.
+
+* [Jornada relatórios ao vivo](../using/reports/journey-live-report.md) - Monitore dados de execução de jornada em tempo real e rastreie as interações ativas com o cliente.
+
+* [Jornada de eventos de etapa](../using/reports/journey-step-events-overview.md) - Analise eventos detalhados de execução de jornada passo a passo para solução de problemas e otimização.
+
+* [Introdução aos relatórios](../using/reports/report-gs-cja.md) - Saiba mais sobre recursos, métricas e como acessar insights do jornada.
+
+* [Monitoramento da capacidade de entrega](../using/reports/deliverability.md) - Rastreie as taxas de entrega de mensagens e identifique possíveis problemas de entrega entre canais.
 
 ## Solução de problemas
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Acessar e assinar alertas do sistema
 
@@ -35,7 +59,7 @@ Saiba como acessar alertas do sistema, assinar notificações e monitorar evento
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referência de códigos de erro
 
@@ -45,7 +69,7 @@ Entenda códigos de erro comuns no Adobe Journey Optimizer e encontre resoluçõ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Resolver erros antes de testar ou publicar a sua jornada
 
@@ -55,7 +79,7 @@ Identifique e resolva erros em toda a jornada e problemas de atividade, e defina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Solução de problemas de execução de jornada ativa
 
@@ -65,7 +89,7 @@ Diagnostique problemas de validação de eventos, entrada de perfil, navegação
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Solução de problemas de ações de entrada em jornadas
 
@@ -75,33 +99,19 @@ Depure problemas de ação de entrada, como conteúdo ausente ou entrega contín
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Solução de problemas de ações personalizadas
 
-Valide e depure ações personalizadas com o recurso “Enviar solicitação de teste” para garantir que as chamadas da API e as configurações de autenticação estejam corretas.
+Valide e depure ações personalizadas usando o recurso **Enviar solicitação de teste** para garantir que as chamadas de API e as configurações de autenticação estejam corretas.
 
 [Validar ações personalizadas](../using/action/troubleshoot-custom-action.md)
 :::
 
 ::::
 
-## Relatórios e monitoramento
-
-Acesse os principais relatórios para monitorar o desempenho da jornada, analisar métricas e identificar problemas:
-
-* [Relatórios globais de jornadas](../using/reports/journey-global-report-cja.md): visualize métricas e análises abrangentes de desempenho da jornada em todos os canais.
-
-* [Relatórios em tempo real da jornada](../using/reports/journey-live-report.md): monitore dados de execução da jornada em tempo real e rastreie as interações ativas com o cliente.
-
-* [Eventos de etapa da jornada](../using/reports/journey-step-events-overview.md): analise eventos detalhados de execução da jornada passo a passo para solução de problemas e otimização.
-
-* [Introdução aos relatórios](../using/reports/report-gs-cja.md): saiba mais sobre recursos de relatório, métricas e como acessar insights da jornada.
-
-* [Monitoramento da capacidade de entrega](../using/reports/deliverability.md): monitore as taxas de entrega de mensagens e identifique possíveis problemas de entrega nos canais.
-
 ## Recursos adicionais
 
 * [Perguntas frequentes sobre jornadas](../using/building-journeys/journey-faq.md): respostas abrangentes a perguntas comuns sobre jornadas, compreendendo tipos de jornadas, execução, configuração e práticas recomendadas de solução de problemas.
 
-* [Medidas de proteção e limitações](../using/start/guardrails.md): saiba mais sobre as medidas de proteção do Journey Optimizer, limitações do produto, considerações sobre o desempenho e navegadores compatíveis para garantir o uso ideal.
+* [Medidas de proteção e limitações](../using/start/guardrails.md) - Saiba mais sobre as medidas de proteção da Journey Optimizer, limitações de produtos, considerações sobre desempenho e navegadores compatíveis para garantir o uso ideal.
