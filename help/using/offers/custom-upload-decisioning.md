@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '609'
 ht-degree: 5%
 
 ---
@@ -32,12 +32,13 @@ Os dados de públicos-alvo de upload personalizados podem ser aproveitados na Ge
 Para obter mais informações sobre públicos-alvo de upload personalizado, consulte as seções:
 
 * [Introdução a públicos e Journey Optimizer](../audience/about-audiences.md)
-* [Importando uma audiência no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importando uma audiência no Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Leitura obrigatória {#must-read}
 
-* Esta funcionalidade é suportada somente no **Gerenciamento de decisões**, não na Decisão (anteriormente conhecida como &quot;Experience Decisioning&quot;).
-* Ele está disponível exclusivamente por meio de **solicitações de API de Decisão (Hub)** e não é suportado pela **API de Decisão da Edge** ou pela **decisão em lote**.
+* **Gerenciamento de decisões somente** - Essa funcionalidade é suportada somente no Gerenciamento de decisões, não no Decisioning (conhecido anteriormente como &quot;Experience Decisioning&quot;).
+* **Somente API de decisão (Hub)** - Está disponível exclusivamente por meio de solicitações de API de decisão (Hub) e não é suportado pela API de decisão do Edge ou pela decisão em lote.
+* **Sinalizador de API necessário para dados de enriquecimento** - Ao usar um público de carregamento personalizado (CSV) e quiser recuperar dados de enriquecimento na resposta de decisão da oferta, inclua `"xdm:enrichedAudience": true` na carga da solicitação de API. Sem esse sinalizador, os atributos de enriquecimento do público-alvo carregado por CSV não serão retornados. [Saiba mais sobre a API de decisão](api-reference/offer-delivery-api/decisioning-api.md)
 
 ## Usar um público-alvo de upload personalizado como critério de qualificação {#eligibilty}
 
