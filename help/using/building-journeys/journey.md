@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
+source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 62%
+source-wordcount: '1099'
+ht-degree: 38%
 
 ---
 
@@ -35,11 +35,100 @@ O [designer de jornadas](using-the-journey-designer.md) do Journey Optimizer for
 
 ➡️ [Conheça o Journey Optimizer neste vídeo](#video)
 
+## Tipos de jornada
+
+O Adobe Journey Optimizer é compatível com quatro tipos de jornada, cada um projetado para casos de uso e mecanismos de entrada diferentes. Escolha o tipo certo com base em como você deseja que os perfis entrem e avancem nas experiências do cliente.
+
+>[!BEGINTABS]
+
+>[!TAB jornadas unitárias]
+
+As **jornadas unitárias** são acionadas individualmente por um evento quando ocorre uma ação específica, como uma compra, entrada no aplicativo ou envio de formulário. Os perfis entram na jornada, um de cada vez, em tempo real, quando o evento é recebido, tornando-a ideal para experiências personalizadas e orientadas por comportamento.
+
+**Características-chave:**
+
+* Entrada orientada por eventos e em tempo real
+* Processamento de perfil individual
+* Perfeito para mensagens transacionais e respostas imediatas
+* Oferece suporte a dados contextuais do evento de acionamento
+
+**Casos de uso:**
+
+* Confirmação de pedido após compra
+* Email de boas-vindas quando alguém assinar
+* Abandono do carrinho acionado pelo comportamento de navegação
+* Notificações de redefinição de senha
+
+➡️ [Saiba mais sobre a configuração do evento](../event/about-events.md) | [Eventos gerais](general-events.md) | [Caso de uso de mensagem para assinantes](message-to-subscribers-uc.md)
+
+>[!TAB Ler jornadas de Público-Alvo]
+
+**Ler jornadas de público-alvo** comece com um público-alvo do Adobe Experience Platform e envie mensagens em lote para todos os perfis desse público-alvo. Esse tipo de jornada processa todo o público-alvo de uma só vez, tornando-o ideal para campanhas programadas e comunicações recorrentes.
+
+**Características-chave:**
+
+* Processamento em lote de segmentos de público-alvo
+* Execução programada ou única
+* Todos os perfis são inseridos simultaneamente
+* Oferece suporte a comunicações em larga escala
+
+**Casos de uso:**
+
+* Boletins informativos mensais
+* Campanhas promocionais para segmentar segmentos
+* Anúncios de produtos para todos os clientes
+* Campanhas de marketing sazonais
+
+➡️ [Saiba mais sobre a Atividade Ler Público](read-audience.md) | [Introdução aos públicos-alvo](../audience/about-audiences.md) | [Caso de uso de mensagens multicanais](journeys-uc.md)
+
+>[!TAB jornadas de qualificação de público-alvo]
+
+**As jornadas de qualificação de público-alvo** são acionadas quando os perfis se qualificam para (ou saem de) um segmento de público-alvo específico. Os perfis entram na jornada individualmente, pois atendem aos critérios de público-alvo em tempo real, permitindo envolvimento imediato quando o comportamento do cliente muda.
+
+**Características-chave:**
+
+* Entrada baseada em qualificação em tempo real
+* Monitoramento contínuo da associação de público
+* Processamento de perfil individual conforme eles são qualificados
+* Melhor com públicos de transmissão
+
+**Casos de uso:**
+
+* Notificações de atualização de nível do VIP
+* Reengajamento quando os clientes se tornam inativos
+* Mensagens de celebração da primeira compra
+* Direcionamento geográfico quando os clientes se movem
+
+➡️ [Saiba mais sobre a qualificação de público-alvo](audience-qualification-events.md) | [Atividade de condição](condition-activity.md) | [Criando definições de segmento](../audience/creating-a-segment-definition.md)
+
+>[!TAB jornadas de eventos comerciais]
+
+As **jornadas de eventos comerciais** são acionadas por eventos comerciais (como atualizações de estoque, alertas meteorológicos ou alterações de preço) que afetam vários perfis simultaneamente. Em vez de reagir a ações individuais do cliente, essas jornadas respondem a condições de negócios mais amplas ou a fatores externos.
+
+**Características-chave:**
+
+* Acionado por eventos de nível de negócios, não por ações individuais
+* Afeta vários perfis de uma só vez
+* Segmenta um público-alvo específico quando o evento ocorre
+* Combina tempo orientado por eventos com direcionamento de público-alvo
+
+**Casos de uso:**
+
+* Alertas de baixo inventário para clientes interessados
+* Anúncios de venda do Flash
+* Promoções baseadas no clima
+* Notificações de queda de preço
+* Alertas de produtos devolvidos ao estoque
+
+➡️ [Saiba mais sobre eventos comerciais](general-events.md) | [Configurar eventos comerciais](../event/about-creating-business.md) | [Gerenciamento de entradas](entry-management.md)
+
+>[!ENDTABS]
+
 ## Visão geral de jornadas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à criação de Jornadas
 
@@ -49,7 +138,7 @@ Orientação passo a passo sobre design, teste, publicação e rastreamento de j
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration - Guia completo
 
@@ -59,7 +148,7 @@ Documentação abrangente que abrange todos os aspectos da criação, do gerenci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gerenciamento de Jornadas
 
@@ -69,7 +158,7 @@ Gerencie as jornadas do cliente com eficiência com ferramentas para filtragem, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Jornada atividades
 
@@ -79,7 +168,7 @@ Descubra como configurar e usar atividades como acionadores, etapas de decisão,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Criação de expressões
 
@@ -89,7 +178,7 @@ Domine a criação de expressões para fluxos de trabalho dinâmicos, manipulaç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Jornada casos de uso
 
@@ -116,7 +205,7 @@ Saiba como criar jornadas [nos seguintes casos de uso de ponta a ponta](jo-use-c
 
 Descubra os componentes de uma jornada e entenda os aspectos básicos da criação de uma jornada na tela.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430346?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Recursos adicionais {#additional-resources}
 
