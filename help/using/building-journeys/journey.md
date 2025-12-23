@@ -9,31 +9,96 @@ level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 62%
 
 ---
 
 
 # Introdução a jornadas{#jo-general-principle}
 
+As jornadas no Adobe Journey Optimizer permitem criar jornadas personalizadas e de várias etapas para o cliente que se adaptam em tempo real ao comportamento e às necessidades do seu público-alvo. Usando uma tela intuitiva de arrastar e soltar, você pode orquestrar mensagens e ações em vários canais, aproveitando dados contextuais e o direcionamento de público-alvo para obter o máximo impacto. Esteja você explorando acionadores em tempo real, gerenciando propriedades do jornada ou usando ferramentas avançadas como ações e expressões personalizadas, esta seção fornece um roteiro claro para ajudá-lo a projetar e refinar jornadas que proporcionem experiências relevantes e oportunas ao cliente.
+
 Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. É possível projetar cenários avançados em várias etapas com os seguintes recursos:
 
-* Envie uma **entrega unitária** em tempo real acionada quando um evento é recebido, ou **em lote** usando os públicos-alvo da Adobe Experience Platform.
+* Enviar **entrega unitária** em tempo real disparada quando um [evento](general-events.md) é recebido ou **em lote** usando [públicos-alvo](read-audience.md) da Adobe Experience Platform.
 
-* Aproveite **dados contextuais** de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros.
+* Aproveite os **dados contextuais** de [eventos](../event/about-events.md), informações da Adobe Experience Platform ou dados de serviços de API de terceiros por meio de [fontes de dados](../datasource/about-data-sources.md).
 
-* Use as **ações integradas** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou crie **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
+* Use as **[ações integradas](journeys-message.md)** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou crie **[ações personalizadas](using-custom-actions.md)** se estiver usando um sistema de terceiros para enviar mensagens.
 
-* Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
+* Com o **[designer do jornada](using-the-journey-designer.md)**, crie seus casos de uso em várias etapas: arraste e solte facilmente um evento de entrada ou uma [atividade de leitura de público-alvo](read-audience.md), adicione [condições](condition-activity.md) e envie mensagens personalizadas.
 
-O designer de jornadas do Journey Optimizer oferece tudo que profissionais de marketing e de jornadas precisam para orquestrar jornadas 1:1 de várias etapas nos canais. Isso inclui uma tela intuitiva com interface de arrastar e soltar para criar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos de negócios.
-
-Saiba como criar e projetar sua primeira jornada [nesta página](journey-gs.md).
+O [designer de jornadas](using-the-journey-designer.md) do Journey Optimizer fornece tudo o que os profissionais de marketing e jornadas precisam para orquestrar jornadas de várias etapas do :1 entre canais. Isso inclui uma tela intuitiva de arrastar e soltar para orquestrar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos comerciais. Explore [casos de uso reais](jo-use-cases.md) para ver como aplicar esses recursos.
 
 ➡️ [Conheça o Journey Optimizer neste vídeo](#video)
+
+## Visão geral de jornadas
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Introdução à criação de Jornadas
+
+Orientação passo a passo sobre design, teste, publicação e rastreamento de jornadas do cliente para criar campanhas onicanais personalizadas.
+
+[Criar a primeira jornada](journey-gs.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Journey Orchestration - Guia completo
+
+Documentação abrangente que abrange todos os aspectos da criação, do gerenciamento e da otimização de jornadas no Adobe Journey Optimizer.
+
+[Explorar o guia completo](journey-get-started.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Gerenciamento de Jornadas
+
+Gerencie as jornadas do cliente com eficiência com ferramentas para filtragem, gerenciamento de perfil, fusos horários e técnicas de otimização.
+
+[Saiba mais sobre o gerenciamento de jornada](/help/rp_landing_pages/manage-journey-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+Jornada atividades
+
+Descubra como configurar e usar atividades como acionadores, etapas de decisão, gerenciamento de público-alvo e mensagens personalizadas em jornadas.
+
+[Explorar atividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Criação de expressões
+
+Domine a criação de expressões para fluxos de trabalho dinâmicos, manipulação de dados e orquestração de jornada avançada usando ferramentas e sintaxe avançadas.
+
+[Saiba mais sobre expressões](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Jornada casos de uso
+
+Explore aplicativos reais do Adobe Journey Optimizer, incluindo mensagens multicanais e integração com sistemas externos.
+
+[Descubra casos de uso](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+:::
+
+::::
 
 ## Casos de uso{#uc-journey}
 
@@ -51,12 +116,13 @@ Saiba como criar jornadas [nos seguintes casos de uso de ponta a ponta](jo-use-c
 
 Descubra os componentes de uma jornada e entenda os aspectos básicos da criação de uma jornada na tela.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430346?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Recursos adicionais {#additional-resources}
 
-* [Perguntas frequentes sobre jornadas](journey-faq.md): perguntas frequentes sobre jornadas
-* [Referência a códigos de erro](error-codes-reference.md): códigos de erro e etapas de solução de problemas da jornada
-* [Alertas](../reports/alerts.md): configurar alertas para monitoramento da jornada
-* [Solução de problemas](troubleshooting.md): problemas e soluções comuns da jornada
-* [Monitoramento e solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md): ferramentas e recursos para monitorar e solucionar problemas das jornadas
+* **[Solução de problemas de Jornadas do cliente](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - Diagnostique e resolva problemas de execução de jornada com ferramentas, códigos de erro e práticas recomendadas para depuração e otimização
+* **[Perguntas frequentes sobre jornadas](journey-faq.md)**: perguntas frequentes sobre jornadas
+* **[Alertas de Jornada](../reports/alerts.md)** - Configure alertas para o monitoramento de jornadas e assine notificações para atualizações em tempo real
+* **[Referência a códigos de erro](error-codes-reference.md)**: códigos de erro e etapas de solução de problemas da jornada
+* **[Solução de problemas](troubleshooting.md)**: problemas e soluções comuns da jornada
+* **[Tutoriais do Jornada (vídeos)](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Saiba mais sobre a criação de jornadas por meio de tutoriais práticos em vídeo que abrangem recursos, funcionalidades e práticas recomendadas
