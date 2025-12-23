@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: f874456748a8bd7fce69c7ad2a7e69380d5336a6
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1249'
 ht-degree: 5%
 
 ---
@@ -128,6 +128,10 @@ Para aplicar um conjunto de regras a uma mensagem, siga estas etapas:
 
 Ao testar as regras de frequência, é recomendável usar um [perfil de teste](../audience/creating-test-profiles.md) recém-criado, pois, quando o limite de frequência de um perfil é atingido, não há como redefinir o contador até o próximo período. A desativação de uma regra permitirá que perfis limitados recebam mensagens, mas não removerá nem excluirá incrementos de contador.
 
+>[!CAUTION]
+>
+>As regras de limite de frequência também se aplicam ao envio de [provas](../content-management/proofs.md). Se um perfil de teste já tiver atingido o limite de frequência, as provas serão exibidas como concluídas, mas nenhum email será entregue.
+
 <!--add a new section for default priority namespace.-->
 
 <!--
@@ -161,4 +165,4 @@ In this scenario, an individual profile:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
