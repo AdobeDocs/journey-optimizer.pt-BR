@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -95,7 +95,7 @@ Abaixo estão definições, causas comuns e etapas de solução de problemas par
 
   **Solução de problemas**: verifique se pelo menos uma jornada está ativa e configurada para o segmento. Verifique as IDs do segmento.
 
-* **JORNADA_INSTANCE_ID_NOT_CREATE**: o sistema falhou ao criar uma instância do jornada para o cliente.
+* **JORNADA_INSTANCE_ID_NOT_CREATED**: o sistema falhou ao criar uma instância do jornada para o cliente.
 
   **Causas comuns**: eventos duplicados, volume de eventos alto, restrições de recursos do sistema.
 
