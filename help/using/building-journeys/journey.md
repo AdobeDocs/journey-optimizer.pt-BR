@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: cfac40f73a68362f8490de28cf1865f3dd4952f7
+source-git-commit: dd3d91266c0edea562f75ceb1f75974c7242ee1a
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 30%
+source-wordcount: '1108'
+ht-degree: 34%
 
 ---
 
@@ -31,15 +31,13 @@ Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em temp
 
 * Com o **[designer do jornada](using-the-journey-designer.md)**, crie seus casos de uso em várias etapas: arraste e solte facilmente um evento de entrada ou uma [atividade de leitura de público-alvo](read-audience.md), adicione [condições](condition-activity.md) e envie mensagens personalizadas.
 
-O [designer de jornadas](using-the-journey-designer.md) do Journey Optimizer fornece tudo o que os profissionais de marketing e jornadas precisam para orquestrar jornadas de várias etapas do :1 entre canais. Isso inclui uma tela intuitiva de arrastar e soltar para orquestrar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos comerciais. Explore [casos de uso reais](jo-use-cases.md) para ver como aplicar esses recursos.
-
 ➡️ [Conheça o Journey Optimizer neste vídeo](#video)
 
 ## Visão geral de jornadas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à criação de Jornadas
 
@@ -49,7 +47,7 @@ Orientação passo a passo sobre design, teste, publicação e rastreamento de j
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration - Guia completo
 
@@ -59,7 +57,7 @@ Documentação abrangente que abrange todos os aspectos da criação, do gerenci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gerenciamento de Jornadas
 
@@ -69,7 +67,7 @@ Gerencie as jornadas do cliente com eficiência com ferramentas para filtragem, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Jornada atividades
 
@@ -79,7 +77,7 @@ Descubra como configurar e usar atividades como acionadores, etapas de decisão,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Criação de expressões
 
@@ -89,7 +87,7 @@ Domine a criação de expressões para fluxos de trabalho dinâmicos, manipulaç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Jornada casos de uso
 
@@ -195,7 +193,9 @@ As **jornadas de eventos comerciais** são acionadas por eventos comerciais (com
 
 ## Jornada Designer{#journey-designer}
 
-O [Designer de jornadas](using-the-journey-designer.md) é uma tela intuitiva de arrastar e soltar que permite criar e orquestrar visualmente as jornadas do cliente. Ele oferece tudo o que você precisa para criar experiências em várias etapas:
+O [designer de jornadas](using-the-journey-designer.md) fornece tudo o que os profissionais de marketing e jornadas precisam para orquestrar jornadas de várias etapas do :1 entre canais. Isso inclui uma tela intuitiva com interface de arrastar e soltar para criar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos de negócios.
+
+O designer de jornadas fornece tudo o que você precisa para criar experiências de várias etapas:
 
 * **[Ações de canal integradas](journeys-message.md)** - Envie mensagens por email, notificações por push, SMS/MMS, no aplicativo, Web, experiências baseadas em código e muito mais, tudo isso diretamente no Journey Optimizer
 * **[Ações personalizadas](using-custom-actions.md)** - Integre sistemas de terceiros para enviar mensagens ou acionar fluxos de trabalho em plataformas externas
@@ -213,7 +213,7 @@ Saiba como usar o designer do jornada [nestes casos de uso completos](jo-use-cas
 
 Descubra os componentes de uma jornada e entenda os aspectos básicos da criação de uma jornada na tela.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430346?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Recursos adicionais {#additional-resources}
 
