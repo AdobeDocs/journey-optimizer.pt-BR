@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: f42da9aa4a4aba053d967ec81b98cabe4ac2745a
+source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 31%
@@ -249,25 +249,25 @@ Antes de trabalhar com campanhas, verifique se você tem o seguinte em vigor:
 
 * **Permissões** - Você precisa das permissões apropriadas com base no tipo de campanha. Entre em contato com o administrador se não conseguir acessar as funcionalidades da campanha. [Saiba mais sobre funções integradas →](../administration/ootb-product-profiles.md)
 
-| Tipo de campanha | Permissões |
-|----------------------------|----------------------------------------------------------------------------|
-| **Campanhas de ação** | Admin da campanha<br>Aprovador da campanha<br>Gerente da campanha<br>Visualizador da campanha |
-| **Campanhas acionadas por API** | Admin da campanha<br>Aprovador da campanha<br>Gerente da campanha<br>Visualizador da campanha |
-| **Campanhas orquestradas** | Admin de campanha orquestrada<br>Aprovador de campanha orquestrada<br>Gerente de campanha orquestrada<br>Visualizador de campanha orquestrada |
+  | Tipo de campanha | Permissões |
+  |----------------------------|----------------------------------------------------------------------------|
+  | **Campanhas de ação** | Admin da campanha<br>Aprovador da campanha<br>Gerente da campanha<br>Visualizador da campanha |
+  | **Campanhas acionadas por API** | Admin da campanha<br>Aprovador da campanha<br>Gerente da campanha<br>Visualizador da campanha |
+  | **Campanhas orquestradas** | Admin de campanha orquestrada<br>Aprovador de campanha orquestrada<br>Gerente de campanha orquestrada<br>Visualizador de campanha orquestrada |
 
 +++Atribuir permissões de campanha
 
 1. Navegue até a guia **[!UICONTROL Funções]** no produto [!DNL Permissions] e selecione uma das **[!UICONTROL Funções]** relacionadas à campanha interna.
 
-1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
+   1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
 
-1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
+   1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
 
    Se o usuário não foi criado anteriormente, consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
-O usuário deve receber um email de redirecionamento para sua instância.
+   O usuário deve receber um email de redirecionamento para sua instância.
 
-+++
+   +++
 
 ## Recursos do Campaign {#capabilities}
 
@@ -276,7 +276,7 @@ O usuário deve receber um email de redirecionamento para sua instância.
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Agendamento e sincronização**
 
@@ -286,7 +286,7 @@ Programe campanhas para datas/horas específicas, defina entregas recorrentes e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controle de taxa**
 
@@ -296,7 +296,7 @@ Limite a taxa de transferência de mensagens para evitar sobrecarga em sistemas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Direcionamento de público-alvo**
 
@@ -306,7 +306,7 @@ Direcione públicos-alvo específicos da Adobe Experience Platform com precisão
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Fluxos de trabalho de aprovação**
 
@@ -316,7 +316,7 @@ Implemente processos de revisão e aprovação antes que as campanhas entrem em 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Período de silêncio**
 
@@ -326,7 +326,7 @@ Respeite as preferências do cliente evitando a entrega de mensagens durante as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Otimização**
 
