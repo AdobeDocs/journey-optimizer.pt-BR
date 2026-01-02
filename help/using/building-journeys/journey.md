@@ -100,7 +100,7 @@ O **[Designer do jornada](using-the-journey-designer.md)** é sua tela visual pa
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 **Definir pontos de entrada**
 
@@ -110,7 +110,7 @@ Escolha como os clientes entram: por meio de um evento, segmento de público ou 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
 
 **Envio de mensagens**
 
@@ -120,7 +120,7 @@ Use ações de canal integradas para email, push, SMS/MMS, no aplicativo, Web e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 **Adicionar lógica e condições**
 
@@ -130,7 +130,7 @@ Ramifique sua jornada com base em atributos de perfil, associação de público 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
 
 **Aproveitar dados**
 
@@ -140,7 +140,7 @@ Use dados contextuais de eventos, Adobe Experience Platform ou serviços de API 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 **Conectar sistemas externos**
 
@@ -150,7 +150,7 @@ Crie ações personalizadas para integrar sistemas de terceiros para enviar mens
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 **Adicionar atividades de orquestração**
 
@@ -241,7 +241,7 @@ Aprenda com exemplos práticos que demonstram como aplicar conceitos de jornada 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
 
 **Bem-vindo(a) aos novos assinantes**
 
@@ -251,7 +251,7 @@ Quando um cliente assinar seu serviço, acione uma jornada de boas-vindas que o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
 
 **Otimização de hora de envio**
 
@@ -261,7 +261,7 @@ Use a IA para enviar emails quando cada cliente tiver maior probabilidade de se 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 **Aumentar entregas**
 
@@ -271,7 +271,7 @@ Aumente gradualmente o volume de mensagens para aquecer a reputação de envio e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 **Direcionar por dia da semana**
 
@@ -281,7 +281,7 @@ Envie conteúdo diferente com base no dia da semana em que os clientes digitam s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 **Campanhas multicanais**
 
@@ -291,7 +291,7 @@ Orquestrar experiências perfeitas em canais de email, push, SMS e Web em uma ú
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 **Todos os casos de uso**
 
@@ -309,7 +309,7 @@ Explore a biblioteca completa de casos de uso do jornada com implementações pa
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 **Expressões avançadas**
 
@@ -319,7 +319,7 @@ Crie condições dinâmicas e personalização usando o editor de expressão par
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
 
 **Gerenciamento de fuso horário**
 
@@ -329,7 +329,7 @@ Lidar com públicos globais com ajustes automáticos de fuso horário e tempos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 **Modo de teste e simulação**
 
@@ -339,7 +339,7 @@ Valide jornadas com perfis de teste antes de entrar em funcionamento e visualize
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
 
 **Copiar para sandbox**
 
@@ -349,7 +349,7 @@ Duplique jornadas em sandboxes para simplificar os fluxos de trabalho de teste e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 **Marcas e organização**
 
@@ -359,7 +359,7 @@ Use tags para categorizar e filtrar jornadas para melhorar o gerenciamento em es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 **Controle de taxa de transferência**
 
