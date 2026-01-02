@@ -69,13 +69,13 @@ Sua jornada baseada em código pega o status do **[!UICONTROL Live]** e agora es
    >
    >Saiba mais sobre como ativar campanhas em [esta seção](../campaigns/review-activate-campaign.md).
 
-Sua campanha baseada em código pega o **[!UICONTROL status do]** Live[](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações que você adicionou ao conteúdo.
+Sua campanha baseada em código pega o **[!UICONTROL status do]** Live[&#128279;](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações que você adicionou ao conteúdo.
 
 >[!NOTE]
 >
 >Após clicar em **[!UICONTROL Ativar]**, pode levar até 15 minutos para que as alterações fiquem disponíveis ao vivo.
 >
->Se você definiu um agendamento para sua campanha baseada em código, ele tem o **[!UICONTROL status]** [ agendado](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
+>Se você definiu um agendamento para sua campanha baseada em código, ele tem o **[!UICONTROL status]** [&#x200B; agendado](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
 
 ## Interromper uma jornada ou campanha baseada em código {#stop-code-based-experience}
 

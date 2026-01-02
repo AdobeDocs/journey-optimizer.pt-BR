@@ -230,13 +230,13 @@ Depois de definir as configurações da campanha da Web e editar o conteúdo con
    >
    >Saiba mais sobre como ativar campanhas em [esta seção](../campaigns/review-activate-campaign.md).
 
-Sua campanha da Web usa o **[!UICONTROL status do]** Live[](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações adicionadas ao site.
+Sua campanha da Web usa o **[!UICONTROL status do]** Live[&#128279;](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações adicionadas ao site.
 
 >[!NOTE]
 >
 >Depois de clicar em **[!UICONTROL Ativar]**, pode levar até 15 minutos para que as alterações nas campanhas da Web fiquem disponíveis ao vivo no site.
 >
->Se você definiu um agendamento para sua campanha da Web, ela tem o **[!UICONTROL status de]** agendado[](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
+>Se você definiu um agendamento para sua campanha da Web, ela tem o **[!UICONTROL status de]** agendado[&#128279;](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
 
 Assim que a experiência estiver ativa, você poderá monitorar as jornadas e campanhas da Web. [Saiba mais](monitor-web-experiences.md)
 
