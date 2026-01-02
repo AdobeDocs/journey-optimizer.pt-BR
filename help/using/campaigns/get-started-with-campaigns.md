@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 2090f99e6aa1b255e36d01687cef49295b88f1ce
+source-git-commit: edf8ad3cf95cc2a8dcaf3e1abd0203785eda8fb5
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 31%
@@ -183,10 +183,7 @@ Configure a base da sua campanha:
 4. **Definir prioridade** se estiver usando o gerenciamento de conflitos
 5. **Configurar agendamento** (para campanhas de Ação) ou detalhes da API (para acionado por API)
 
-**Guias específicos de tipo:**
-* [Propriedades da campanha de ação →](campaign-properties.md)
-* [Propriedades de campanha acionadas por API →](api-triggered-campaign-properties.md)
-* [Configuração de campanha orquestrada →](../orchestrated/create-orchestrated-campaign.md)
+**Guias específicos de tipo:** [Propriedades da campanha de ação](campaign-properties.md) | [Propriedades de campanha acionadas por API](api-triggered-campaign-properties.md) | [Configuração de campanha orquestrada](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;3. Projetar o conteúdo {#design}
 
@@ -198,10 +195,7 @@ Crie mensagens atraentes para seu público-alvo:
 * Criar experiências **no aplicativo** e **na Web**
 * Adicionar **personalização** usando atributos de perfil e dados contextuais
 
-**Guias específicos de tipo:**
-* [Conteúdo da campanha de ação →](campaign-content.md)
-* [Conteúdo de campanha acionado por API →](api-triggered-campaign-content.md)
-* [Conteúdo de campanha orquestrada →](../orchestrated/create-orchestrated-campaign.md)
+**Guias específicos de tipo:** [Conteúdo da campanha de ação](campaign-content.md) | [Conteúdo de campanha acionado por API](api-triggered-campaign-content.md) | [Conteúdo de campanha orquestrada](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;4. Revisar e testar {#review}
 
@@ -213,10 +207,7 @@ Sempre revise sua campanha antes da ativação:
 * **Solicitar aprovação** se estiver usando o fluxo de trabalho de aprovação
 * **Testar a capacidade de entrega** com listas de propagação
 
-**Guias específicos de tipo:**
-* [Revisar Campanhas de ação →](review-activate-campaign.md)
-* [Revisar campanhas acionadas por API →](review-activate-api-triggered-campaign.md)
-* [Revisar campanhas orquestradas →](../orchestrated/create-orchestrated-campaign.md)
+**Guias específicos de tipo:** [Campanhas de ação de revisão](review-activate-campaign.md) | [Revisar campanhas acionadas por API](review-activate-api-triggered-campaign.md) | [Revisar campanhas orquestradas](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;5. Ativar a campanha {#activate}
 
@@ -227,10 +218,7 @@ Quando a revisão for concluída, ative sua campanha:
 * **Processo de aprovação** - Se necessário, aguarde a aprovação da parte interessada
 * Observação: campanhas ativas não podem ser editadas (você deve duplicar para fazer alterações)
 
-**Guias específicos de tipo:**
-* [Ativar campanhas de ação →](review-activate-campaign.md)
-* [Ativar campanhas acionadas por API →](review-activate-api-triggered-campaign.md)
-* [Ativar campanhas orquestradas →](../orchestrated/create-orchestrated-campaign.md)
+**Guias específicos de tipo:** [Ativar campanhas de ação](review-activate-campaign.md) | [Ativar campanhas acionadas por API](review-activate-api-triggered-campaign.md) | [Ativar campanhas orquestradas](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;6. Monitorar e analisar {#monitor}
 
@@ -242,10 +230,7 @@ Rastreie o desempenho da sua campanha:
 * Analisar conversão e ROI
 * Usar insights para otimização
 
-**Guias específicos de tipo:**
-* [Relatórios de campanha de ação →](../reports/campaign-global-report-cja.md)
-* [Monitoramento de campanha acionada por API →](api-triggered-campaigns.md#monitor)
-* [Análise de campanha orquestrada →](../orchestrated/create-orchestrated-campaign.md)
+**Guias específicos de tipo:** [Relatórios de campanha de ação](../reports/campaign-global-report-cja.md) | [Monitoramento de campanha acionado por API](api-triggered-campaigns.md#monitor) | [Análise de campanha orquestrada](../orchestrated/create-orchestrated-campaign.md)
 
 ➡️ **Pronto para começar?** Escolha seu tipo de campanha:
 * [Criar campanha de ação →](create-campaign.md)
@@ -291,7 +276,7 @@ O usuário deve receber um email de redirecionamento para sua instância.
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Agendamento e sincronização**
 
@@ -301,7 +286,7 @@ Programe campanhas para datas/horas específicas, defina entregas recorrentes e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controle de taxa**
 
@@ -311,7 +296,7 @@ Limite a taxa de transferência de mensagens para evitar sobrecarga em sistemas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Direcionamento de público-alvo**
 
@@ -321,7 +306,7 @@ Direcione públicos-alvo específicos da Adobe Experience Platform com precisão
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Fluxos de trabalho de aprovação**
 
@@ -331,7 +316,7 @@ Implemente processos de revisão e aprovação antes que as campanhas entrem em 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Período de silêncio**
 
@@ -341,7 +326,7 @@ Respeite as preferências do cliente evitando a entrega de mensagens durante as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Otimização de hora de envio**
 
