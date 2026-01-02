@@ -9,9 +9,9 @@ level: Beginner
 keywords: jornada, campanha, orquestrado, comparação, escolher, decisão, fluxo de trabalho, tempo real, lote, orquestração, várias etapas, agendado, acionado por API, orientado por evento
 hide: true
 hidefromtoc: true
-source-git-commit: 5c842eb5d744380b462c6830af0838aa3329e9f7
+source-git-commit: 3fd971c719bfd667fe5b237c8f03a5915422c1e7
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1334'
 ht-degree: 3%
 
 ---
@@ -221,32 +221,42 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 
 ## Perguntas comuns {#common-questions}
 
-**P: Posso combinar jornadas e campanhas em minha estratégia de marketing?**
++++ É possível combinar jornadas e campanhas em minha estratégia de marketing?
 
-R: Absolutamente! A maioria das organizações usa todas as três abordagens para diferentes cenários:
+Com certeza! A maioria das organizações usa todas as três abordagens para diferentes cenários:
 - Jornadas para envolvimento comportamental e em tempo real
 - Campanhas de ação para comunicações de transmissão programadas
 - Campanhas acionadas por API para mensagens transacionais
 - Campanhas orquestradas para campanhas em lote complexas e com grande volume de dados
 
-**P: Posso converter uma campanha em uma jornada ou vice-versa?**
++++
 
-R: Não, você deve reconstruir a experiência no formato apropriado. No entanto, você pode reutilizar conteúdo, públicos e conceitos lógicos.
++++ Posso converter uma campanha em uma jornada ou vice-versa?
 
-**P: Qual abordagem é mais fácil de criar?**
+Não, você deve recriar a experiência no formato apropriado. No entanto, você pode reutilizar conteúdo, públicos e conceitos lógicos.
 
-R: As Campanhas de ação normalmente são as mais simples (mensagem única para o público-alvo), seguidas por Campanhas acionadas por API, Jornadas (mais complexas com lógica de várias etapas) e Campanhas orquestradas (mais complexas devido ao fluxo de trabalho da tela e aos recursos de várias entidades).
++++
 
-**P: Qual escala é melhor para públicos-alvo grandes?**
++++ Qual abordagem é mais fácil de criar?
 
-R: Todos os três podem ser bem dimensionados, mas:
+As Campanhas de ação normalmente são as mais simples (mensagem única para o público), seguidas por Campanhas acionadas por API, Jornadas (mais complexas com lógica de várias etapas) e Campanhas orquestradas (mais complexas devido ao fluxo de trabalho da tela e recursos de várias entidades).
+
++++
+
++++ Qual dimensionamento é melhor para públicos-alvo grandes?
+
+Todos os três podem ser bem dimensionados, mas:
 - As **Jornadas de Leitura de Público** e as **Campanhas de Ação** estão otimizadas para públicos de lote grandes
 - **Campanhas orquestradas** excedem a segmentação complexa com grandes conjuntos de dados
 - **Jornadas unitárias** processam perfis individualmente, portanto, a escala depende do volume de eventos
 
-**P: Posso usar o mesmo público-alvo em jornadas e campanhas?**
++++
 
-R: Sim, os públicos-alvo criados no Adobe Experience Platform podem ser usados em todas as três abordagens.
++++ Posso usar o mesmo público-alvo em jornadas e campanhas?
+
+Sim, os públicos-alvo criados no Adobe Experience Platform podem ser usados em todas as três abordagens.
+
++++
 
 ## Próximas etapas {#next-steps}
 
