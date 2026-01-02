@@ -177,5 +177,5 @@ Agora que você entende os tipos de jornada, está pronto para:
 * **[Exibir perguntas frequentes sobre o jornada](journey-faq.md)** - Perguntas frequentes respondidas
 
 **Precisa comparar com campanhas?**
-- [Guia de comparação de Jornadas vs Campanhas](../start/journeys-vs-campaigns.md) - Escolha entre jornadas, campanhas de Ação/API e campanhas Orquestradas
+&#x200B;- [Guia de comparação de Jornadas vs Campanhas](../start/journeys-vs-campaigns.md) - Escolha entre jornadas, campanhas de Ação/API e campanhas Orquestradas
 

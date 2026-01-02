@@ -366,7 +366,7 @@ R: O Adobe Journey Optimizer oferece três abordagens:
 
 **Diferença principal**: o Jornada mantém o estado individual do cliente para ações em tempo real; as campanhas Action/API fornecem mensagens simples em lote; as campanhas orquestradas fornecem telas de fluxo de trabalho em lote com recursos de segmentação de várias entidades.
 
-<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[Saiba mais sobre campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
+&#x200B;<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[Saiba mais sobre campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
 
 <!-- Waiting for DOCAC-13912
 **Q: Which journey type should I use?**
