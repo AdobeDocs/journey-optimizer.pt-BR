@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 10%
+source-wordcount: '663'
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Para criar políticas de aprovação, você deve ter privilégios de administrador do sistema ou do produto no Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home)
+>Para criar políticas de aprovação, você deve ter privilégios de administrador do sistema ou do produto no Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 As políticas de aprovação permitem que os administradores estabeleçam um processo de validação para jornadas e campanhas. Este sistema descreve condições específicas que determinam se uma jornada ou campanha precisa de aprovação. Essas políticas podem variar em complexidade. Eles podem simplesmente exigir que todas as campanhas sejam revisadas por um usuário ou equipe específica, ou estabelecer critérios com base em quem criou a campanha.
 
@@ -66,7 +66,7 @@ As políticas de aprovação oferecem opções flexíveis de direcionamento para
 * **Nomes de campanha/Jornadas**: direcionar objetos específicos por nome
 * **Marcas**: aplique políticas a todas as campanhas ou jornadas com uma marca específica
 * **Tipos de canal**: exigir aprovação para ações específicas (email, SMS, push etc.)
-* **Tipos de campanha**: definir regras diferentes para campanhas agendadas versus campanhas acionadas por API
+* **Tipos de campanha**: definir regras diferentes para [Campanhas acionadas por ação vs. API](../campaigns/get-started-with-campaigns.md#campaign-types)
 * **Solicitantes**: defina políticas com base em quem cria a campanha ou a jornada
 
 Para definir as condições associadas a uma política de aprovação, siga estas etapas:

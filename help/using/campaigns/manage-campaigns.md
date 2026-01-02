@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d33a299523b7964be5ec1694de49c777e54bf98c
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 9%
@@ -191,7 +191,7 @@ Como as campanhas são representadas:
 
 ## Modificar e parar campanhas de Ação recorrentes {#modify}
 
-### Modificar uma campanha de ação
+### Modificar uma campanha de ação {#modify-an-action-campaign}
 
 Para modificar e criar uma nova versão de uma campanha de Ação recorrente, siga estas etapas:
 

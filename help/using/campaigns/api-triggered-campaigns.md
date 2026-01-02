@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 35%
+source-wordcount: '282'
+ht-degree: 40%
 
 ---
 
@@ -34,7 +34,7 @@ Para fazer isso, primeiro é necessário criar uma campanha acionada por API no 
 
 >[!NOTE]
 >
->Para obter mais informações sobre os canais com suporte, consulte a tabela nesta seção: [Canais em jornadas e campanhas](../channels/gs-channels.md#channels).
+>Para obter mais informações sobre os canais compatíveis, consulte a tabela nesta seção: [canais em jornadas e campanhas](../channels/gs-channels.md#channels).
 >
 >Os canais disponíveis variam com base no modelo de licenciamento e nos complementos.
 
@@ -50,8 +50,10 @@ Antes de começar com campanhas, verifique os seguintes pré-requisitos listados
 1. [Revisar e ativar a campanha](review-activate-api-triggered-campaign.md)
 1. [Acionar a execução da campanha](trigger-campaigns.md)
 
+Saiba mais sobre o [fluxo de trabalho completo de criação de campanha com guias específicos de tipo →](get-started-with-campaigns.md#workflow)
+
 ## Vídeos tutoriais {#video}
 
 Saiba como criar uma campanha e acioná-la a partir de um sistema externo com base em interações do usuário, usando a API REST de execução de mensagem interativa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452730?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

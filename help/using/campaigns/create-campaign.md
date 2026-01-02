@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 51%
+source-wordcount: '201'
+ht-degree: 57%
 
 ---
 
@@ -34,7 +34,7 @@ As campanhas de ação (ou campanhas programadas) permitem criar comunicações 
 
 >[!NOTE]
 >
->Para obter mais informações sobre os canais com suporte, consulte a tabela nesta seção: [Canais em jornadas e campanhas](../channels/gs-channels.md#channels).
+>Para obter mais informações sobre os canais compatíveis, consulte a tabela nesta seção: [canais em jornadas e campanhas](../channels/gs-channels.md#channels).
 >
 >Os canais disponíveis variam com base no modelo de licenciamento e nos complementos.
 
@@ -49,8 +49,10 @@ Antes de começar com campanhas, verifique os seguintes pré-requisitos listados
 1. [Programar a campanha de ação](campaign-schedule.md)
 1. [Revisar e ativar a campanha de ação](review-activate-campaign.md)
 
+Saiba mais sobre o [fluxo de trabalho completo de criação de campanha com guias específicos de tipo →](get-started-with-campaigns.md#workflow)
+
 ## Vídeos tutoriais {#video}
 
 Saiba como criar uma campanha de Ação.
 
->[!VIDEO](https://video.tv.adobe.com/v/3414156?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

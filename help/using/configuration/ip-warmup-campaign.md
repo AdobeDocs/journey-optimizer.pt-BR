@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, pools, capacidade de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 05e300476ee77c7ac449f3cbb1ecb506e94c3da0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 11%
@@ -57,7 +57,7 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
    >[!IMPORTANT]
    >
-   >Os públicos permitidos em uma campanha de aquecimento de IP devem ser [baseados em segmentos](../audience/creating-a-segment-definition.md) e criados usando a [política de mesclagem padrão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >Os públicos permitidos em uma campanha de aquecimento de IP devem ser [baseados em segmentos](../audience/creating-a-segment-definition.md) e criados usando a [política de mesclagem padrão](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
    >
    >Os públicos-alvo de upload de CSV não são compatíveis com campanhas de aquecimento de IP e resultarão em um erro na ativação da campanha.
 
@@ -81,5 +81,5 @@ Uma campanha de aquecimento de IP só pode ser usada em um plano de aquecimento 
 
 >[!NOTE]
 >
->Quando uma campanha em tempo real é usada em um plano de aquecimento de IP, depois que o plano é [marcado como concluído](ip-warmup-execution.md#mark-as-completed), o status dessa campanha muda para **[!UICONTROL Parado]**.
+>Quando uma campanha em tempo real é usada em um plano de aquecimento de IP, depois que o plano é [marcado como concluído](ip-warmup-execution.md#mark-as-completed), o [status](../campaigns/manage-campaigns.md#statuses) dessa campanha muda para **[!UICONTROL Parado]**.
 

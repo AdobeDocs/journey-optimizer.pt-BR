@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 18%
@@ -230,13 +230,13 @@ Depois de definir as configurações da campanha da Web e editar o conteúdo con
    >
    >Saiba mais sobre como ativar campanhas em [esta seção](../campaigns/review-activate-campaign.md).
 
-Sua campanha da Web recebe o status de **[!UICONTROL Ativo]** e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações adicionadas ao site.
+Sua campanha da Web usa o **[!UICONTROL status do]** Live[](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações adicionadas ao site.
 
 >[!NOTE]
 >
 >Depois de clicar em **[!UICONTROL Ativar]**, pode levar até 15 minutos para que as alterações nas campanhas da Web fiquem disponíveis ao vivo no site.
 >
->Se você definiu um agendamento para sua campanha da Web, ele tem o status **[!UICONTROL Agendado]** até que a data e a hora de início sejam atingidas.
+>Se você definiu um agendamento para sua campanha da Web, ela tem o **[!UICONTROL status de]** agendado[](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
 
 Assim que a experiência estiver ativa, você poderá monitorar as jornadas e campanhas da Web. [Saiba mais](monitor-web-experiences.md)
 
@@ -266,4 +266,4 @@ Quando uma jornada ou campanha da Web está ativa, você pode interrompê-la par
 
 O vídeo abaixo mostra como criar uma campanha da Web, configurar suas propriedades, revisá-la e publicá-la.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449986/?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
