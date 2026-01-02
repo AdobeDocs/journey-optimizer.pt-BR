@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8b57aa06f40cfc5c1b4d1971e54eecb224338cc7
+source-git-commit: 87351e845c7a6267cc78c26c838e69e77325f2b8
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1541'
 ht-degree: 31%
 
 ---
@@ -113,7 +113,7 @@ Use [!DNL Journey Optimizer] para:
 
 >[!TAB Campanhas de ação (Agendadas)]
 
-![ícone](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR) **Quando usar:** Comunicações em lote simples e agendadas
+![ícone](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **Quando usar:** Comunicações em lote simples e agendadas
 
 **Campanhas de ação** (também conhecidas como campanhas agendadas) são ideais para comunicações em lote diretas, únicas ou recorrentes executadas em um momento específico.
 
@@ -134,7 +134,7 @@ Use [!DNL Journey Optimizer] para:
 
 >[!TAB Campanhas acionadas por API]
 
-![ícone](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR) **Quando usar:** Mensagens orientadas por eventos em tempo real com sistemas externos
+![ícone](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **Quando usar:** Mensagens orientadas por eventos em tempo real com sistemas externos
 
 As **campanhas acionadas por API** são ativadas por meio de chamadas de API, permitindo o envio automatizado de mensagens diretamente de sistemas externos. Essas campanhas oferecem suporte à personalização usando atributos de perfil e dados de contexto em tempo real da carga da API.
 
@@ -155,7 +155,7 @@ As **campanhas acionadas por API** são ativadas por meio de chamadas de API, pe
 
 >[!TAB Campanhas orquestradas]
 
-![ícone](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR) **Quando usar:** fluxos de trabalho de marketing complexos, de várias etapas
+![ícone](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **Quando usar:** fluxos de trabalho de marketing complexos, de várias etapas
 
 **As campanhas orquestradas** oferecem uma tela visual de arrastar e soltar para projetar e automatizar fluxos de trabalho de marketing sofisticados. Desde a segmentação de público até a entrega de mensagens personalizadas em canais, tudo acontece em um ambiente intuitivo criado para oferecer velocidade e controle.
 
@@ -170,10 +170,6 @@ As **campanhas acionadas por API** são ativadas por meio de chamadas de API, pe
 ➡️ [Saiba mais sobre campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!ENDTABS]
-
->[!NOTE]
->
->Não tem certeza de qual tipo escolher? Comece com **Campanhas de ação** para comunicações em lote agendadas ou **campanhas acionadas por API** para mensagens em tempo real; essas campanhas abordam os casos de uso mais comuns.
 
 >[!NOTE]
 >
@@ -208,7 +204,7 @@ Configure a base da sua campanha:
 **Guias específicos de tipo:**
 * [Propriedades da campanha de ação →](campaign-properties.md)
 * [Propriedades de campanha acionadas por API →](api-triggered-campaign-properties.md)
-* [Configuração de campanha orquestrada →](../orchestrated/create-orchestrated-campaigns.md)
+* [Configuração de campanha orquestrada →](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;3. **Projetar conteúdo** {#design}
 
@@ -223,7 +219,7 @@ Crie mensagens atraentes para seu público-alvo:
 **Guias específicos de tipo:**
 * [Conteúdo da campanha de ação →](campaign-content.md)
 * [Conteúdo de campanha acionado por API →](api-triggered-campaign-content.md)
-* [Conteúdo de campanha orquestrada →](../orchestrated/create-orchestrated-campaigns.md)
+* [Conteúdo de campanha orquestrada →](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;4. **Revisar e testar** {#review}
 
@@ -238,7 +234,7 @@ Sempre revise sua campanha antes da ativação:
 **Guias específicos de tipo:**
 * [Revisar Campanhas de ação →](review-activate-campaign.md)
 * [Revisar campanhas acionadas por API →](review-activate-api-triggered-campaign.md)
-* [Revisar campanhas orquestradas →](../orchestrated/create-orchestrated-campaigns.md)
+* [Revisar campanhas orquestradas →](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;5. **Ative sua campanha** {#activate}
 
@@ -252,7 +248,7 @@ Quando a revisão for concluída, ative sua campanha:
 **Guias específicos de tipo:**
 * [Ativar campanhas de ação →](review-activate-campaign.md)
 * [Ativar campanhas acionadas por API →](review-activate-api-triggered-campaign.md)
-* [Ativar campanhas orquestradas →](../orchestrated/create-orchestrated-campaigns.md)
+* [Ativar campanhas orquestradas →](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;6. **Monitorar e analisar** {#monitor}
 
@@ -313,7 +309,7 @@ O usuário deve receber um email de redirecionamento para sua instância.
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Agendamento e sincronização**
 
@@ -323,7 +319,7 @@ Programe campanhas para datas/horas específicas, defina entregas recorrentes e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controle de taxa**
 
@@ -333,7 +329,7 @@ Limite a taxa de transferência de mensagens para evitar sobrecarga em sistemas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Direcionamento de público-alvo**
 
@@ -343,7 +339,7 @@ Direcione públicos-alvo específicos da Adobe Experience Platform com precisão
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Fluxos de trabalho de aprovação**
 
@@ -353,7 +349,7 @@ Implemente processos de revisão e aprovação antes que as campanhas entrem em 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Período de silêncio**
 
@@ -363,7 +359,7 @@ Respeite as preferências do cliente evitando a entrega de mensagens durante as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Otimização de hora de envio**
 
