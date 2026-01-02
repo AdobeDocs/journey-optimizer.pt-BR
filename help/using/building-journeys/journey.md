@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: jornada, descobrir, get-start, unitário, ler público, qualificação de público, evento comercial, tempo real, agendado, em lote, acionado por evento, fluxo de trabalho, orquestração, personalização, vários canais
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: f3636ffa945e0ad5a5e75e90a83af2c3ca930544
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 3%
@@ -72,7 +72,7 @@ O **[Designer do jornada](using-the-journey-designer.md)** é sua tela visual pa
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Definir pontos de entrada**
 
@@ -82,7 +82,7 @@ Escolha como os clientes entram: por meio de um evento, segmento de público ou 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Envio de mensagens**
 
@@ -92,7 +92,7 @@ Use ações de canal integradas para email, push, SMS/MMS, no aplicativo, Web e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Adicionar lógica e condições**
 
@@ -102,7 +102,7 @@ Ramifique sua jornada com base em atributos de perfil, associação de público 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Aproveitar dados**
 
@@ -112,7 +112,7 @@ Use dados contextuais de eventos, Adobe Experience Platform ou serviços de API 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Conectar sistemas externos**
 
@@ -122,7 +122,7 @@ Crie ações personalizadas para integrar sistemas de terceiros para enviar mens
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Adicionar atividades de orquestração**
 
@@ -213,7 +213,7 @@ Aprenda com exemplos práticos que demonstram como aplicar conceitos de jornada 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Bem-vindo(a) aos novos assinantes**
 
@@ -223,7 +223,7 @@ Quando um cliente assinar seu serviço, acione uma jornada de boas-vindas que o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Otimização de hora de envio**
 
@@ -233,7 +233,7 @@ Use a IA para enviar emails quando cada cliente tiver maior probabilidade de se 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Aumentar entregas**
 
@@ -243,7 +243,7 @@ Aumente gradualmente o volume de mensagens para aquecer a reputação de envio e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Direcionar por dia da semana**
 
@@ -253,7 +253,7 @@ Envie conteúdo diferente com base no dia da semana em que os clientes digitam s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campanhas multicanais**
 
@@ -263,7 +263,7 @@ Orquestrar experiências perfeitas em canais de email, push, SMS e Web em uma ú
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Todos os casos de uso**
 
@@ -281,7 +281,7 @@ Explore a biblioteca completa de casos de uso do jornada com implementações pa
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Expressões avançadas**
 
@@ -291,7 +291,7 @@ Crie condições dinâmicas e personalização usando o editor de expressão par
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Gerenciamento de fuso horário**
 
@@ -301,7 +301,7 @@ Lidar com públicos globais com ajustes automáticos de fuso horário e tempos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Modo de teste e simulação**
 
@@ -311,7 +311,7 @@ Valide jornadas com perfis de teste antes de entrar em funcionamento e visualize
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Copiar para sandbox**
 
@@ -321,7 +321,7 @@ Duplique jornadas em sandboxes para simplificar os fluxos de trabalho de teste e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Marcas e organização**
 
@@ -331,7 +331,7 @@ Use tags para categorizar e filtrar jornadas para melhorar o gerenciamento em es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controle de taxa de transferência**
 
@@ -348,7 +348,7 @@ Limite a taxa de transferência de mensagens para gerenciar a reputação de env
 
 Obtenha uma introdução visual aos componentes do jornada e aprenda as noções básicas para criar jornadas na tela:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430346?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Quer mais vídeos?** [Explorar tutoriais em vídeo do jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -366,7 +366,8 @@ R: O Adobe Journey Optimizer oferece três abordagens:
 
 **Diferença principal**: o Jornada mantém o estado individual do cliente para ações em tempo real; as campanhas Action/API fornecem mensagens simples em lote; as campanhas orquestradas fornecem telas de fluxo de trabalho em lote com recursos de segmentação de várias entidades.
 
-&#x200B;<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[Saiba mais sobre campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
+<!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
+[Saiba mais sobre Campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
 
 <!-- Waiting for DOCAC-13912
 **Q: Which journey type should I use?**
