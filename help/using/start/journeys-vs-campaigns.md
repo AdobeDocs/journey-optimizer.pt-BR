@@ -159,33 +159,33 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 
 ### Jornada casos de uso
 
-* **Recuperação de abandono do carrinho**: acionado pelo evento de adição do carrinho, aguarde o check-out e envie lembretes se não houver compra
-* **Integração de clientes**: série de boas-vindas em várias etapas com conteúdo personalizado com base nos dados do perfil
-* **Atualização da camada de fidelidade**: acionada quando o cliente atinge uma nova camada, envie parabéns e benefícios
-* **Campanhas de aniversário**: entrada com base na data de nascimento, ofertas personalizadas
-* **Reengajamento**: acionado por qualificação de público-alvo (inatividade), alcance progressivo
+&#x200B;* **Recuperação de abandono do carrinho**: acionado pelo evento de adição do carrinho, aguarde o check-out e envie lembretes se não houver compra
+&#x200B;* **Integração de clientes**: série de boas-vindas em várias etapas com conteúdo personalizado com base nos dados do perfil
+&#x200B;* **Atualização da camada de fidelidade**: acionada quando o cliente atinge uma nova camada, envie parabéns e benefícios
+&#x200B;* **Campanhas de aniversário**: entrada com base na data de nascimento, ofertas personalizadas
+&#x200B;* **Reengajamento**: acionado por qualificação de público-alvo (inatividade), alcance progressivo
 
 ### Casos de uso do Campaign (acionados por ação e API)
 
 **Campanhas de Ação:**
-* **Informativos mensais**: entrega em lote agendada para o segmento do assinante
-* **Anúncios promocionais**: ofertas com diferenciação de tempo para direcionar públicos-alvo
-* **Lançamentos de produto**: anúncio coordenado para todos os clientes
-* **Saudações da estação**: mensagens de feriado em datas específicas
+&#x200B;* **Informativos mensais**: entrega em lote agendada para o segmento do assinante
+&#x200B;* **Anúncios promocionais**: ofertas com diferenciação de tempo para direcionar públicos-alvo
+&#x200B;* **Lançamentos de produto**: anúncio coordenado para todos os clientes
+&#x200B;* **Saudações da estação**: mensagens de feriado em datas específicas
 
 **Campanhas acionadas por API:**
-* **Confirmações de pedidos**: acionadas pelo sistema de comércio eletrônico após a compra
-* **Notificações de remessa**: acionadas pelo sistema logístico
-* **Alertas de conta**: acionados pelo sistema de detecção de fraudes
-* **Redefinições de senha**: acionado pela ação do usuário no aplicativo
+&#x200B;* **Confirmações de pedidos**: acionadas pelo sistema de comércio eletrônico após a compra
+&#x200B;* **Notificações de remessa**: acionadas pelo sistema logístico
+&#x200B;* **Alertas de conta**: acionados pelo sistema de detecção de fraudes
+&#x200B;* **Redefinições de senha**: acionado pela ação do usuário no aplicativo
 
 ### Casos de uso do Campaign orquestrados
 
-* **Promoção sazonal com integração de catálogo**: consultar catálogo de produtos, identificar clientes qualificados, segmentar por preferências, enviar recomendações personalizadas de produto
-* **Campanhas específicas da loja**: clientes-alvo próximos a locais de loja específicos com dados de inventário da loja
-* **Comunicações de várias reservas**: envie uma mensagem por reserva (reservas de hotel, reservas de voos)
-* **Orquestração de segmentos complexos**: crie públicos passo a passo com enriquecimento de várias fontes de dados
-* **Validação de pré-envio**: obtenha contagens exatas de destinatários antes de iniciar campanhas importantes
+&#x200B;* **Promoção sazonal com integração de catálogo**: consultar catálogo de produtos, identificar clientes qualificados, segmentar por preferências, enviar recomendações personalizadas de produto
+&#x200B;* **Campanhas específicas da loja**: clientes-alvo próximos a locais de loja específicos com dados de inventário da loja
+&#x200B;* **Comunicações de várias reservas**: envie uma mensagem por reserva (reservas de hotel, reservas de voos)
+&#x200B;* **Orquestração de segmentos complexos**: crie públicos passo a passo com enriquecimento de várias fontes de dados
+&#x200B;* **Validação de pré-envio**: obtenha contagens exatas de destinatários antes de iniciar campanhas importantes
 
 ## Disponibilidade de recursos {#feature-availability}
 
@@ -252,9 +252,9 @@ R: Sim, os públicos-alvo criados no Adobe Experience Platform podem ser usados 
 
 Pronto para começar a criar? Explore a documentação detalhada da abordagem escolhida:
 
-* **[Introdução ao Jornada](../building-journeys/journey.md)** - Saiba mais sobre tipos de jornada, designer e fluxo de trabalho
-* **[Introdução às Campanhas](../campaigns/get-started-with-campaigns.md)** - Explore as campanhas acionadas por ação e API
-* **[Introdução às Campanhas Orquestradas](../orchestrated/gs-orchestrated-campaigns.md)** - Descubra fluxos de trabalho de tela de lote
+&#x200B;* **[Introdução ao Jornada](../building-journeys/journey.md)** - Saiba mais sobre tipos de jornada, designer e fluxo de trabalho
+&#x200B;* **[Introdução às Campanhas](../campaigns/get-started-with-campaigns.md)** - Explore as campanhas acionadas por ação e API
+&#x200B;* **[Introdução às Campanhas Orquestradas](../orchestrated/gs-orchestrated-campaigns.md)** - Descubra fluxos de trabalho de tela de lote
 
 **Precisa de mais ajuda para decidir?**
 - [Comparação de tipos de jornada](../building-journeys/journey.md#journey-types-comparison)
