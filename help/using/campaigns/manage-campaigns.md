@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
+source-git-commit: d33a299523b7964be5ec1694de49c777e54bf98c
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 13%
+source-wordcount: '1616'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,24 @@ ht-degree: 13%
 >title="Ação"
 >abstract="Esta seção lista todas as ações usadas na campanha orquestrada."
 
-As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**. Use as guias para procurar campanhas por tipo: **Ações** campanhas, **Campanhas acionadas por API** e **Campanhas orquestradas**. Saiba mais sobre os [tipos de campanhas](get-started-with-campaigns.md#get-started-campaigns). Os tipos disponíveis dependem do contrato de licença e das permissões.
+Saiba como acessar, organizar e gerenciar suas campanhas no Adobe Journey Optimizer. Este guia aborda tudo, desde encontrar campanhas até entender status, executar operações comuns e manter o espaço de trabalho da campanha.
+
+## Início rápido: tarefas comuns {#quick-tasks}
+
+Ir diretamente para o que você precisa:
+
+* **Criar uma nova campanha** → [Escolher o tipo de campanha](get-started-with-campaigns.md#campaign-types)
+   * [Criar campanha de ação](create-campaign.md)
+   * [Criar campanha acionada por API](api-triggered-campaigns.md)
+   * [Criar campanha orquestrada](../orchestrated/gs-orchestrated-campaigns.md)
+* **Localizar campanhas existentes** → [Pesquisar e filtrar](#access)
+* **Exibir desempenho da campanha** → [Relatórios de campanha](../reports/campaign-global-report-cja.md)
+* **Agendar campanhas** → [Usar o calendário](#calendar)
+* **Gerenciar conflitos** → [Guia de gerenciamento de conflitos](../conflict-prioritization/gs-conflict-prioritization.md)
+
+## Acessar e procurar campanhas {#access}
+
+As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**. Use as guias para procurar campanhas por tipo: **Ações** campanhas, **Campanhas acionadas por API** e **Campanhas orquestradas**. Saiba mais sobre os [tipos de campanhas](get-started-with-campaigns.md#campaign-types). Os tipos disponíveis dependem do contrato de licença e das permissões.
 
 >[!BEGINTABS]
 
@@ -53,77 +70,59 @@ Por padrão, a lista mostra todas as campanhas com os status **[!UICONTROL Rascu
 
 Selecione a guia **[!UICONTROL Orquestração]** para acessar a lista de campanhas Orquestradas.
 
-![imagem mostrando o inventário de campanhas orquestradas](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
+![imagem mostrando o inventário de campanhas orquestradas](assets/inventory.png){zoomable="yes"}
 
-Cada campanha orquestrada na lista exibe informações como o [status](#status) atual da campanha, o canal e as tags associados ou a última vez que ela foi modificada. Você pode personalizar as colunas exibidas, clicando no botão ![Configurar layout](assets/do-not-localize/inventory-configure-layout.svg).
+Cada campanha orquestrada na lista exibe informações como o [status](#statuses) atual da campanha, o canal e as tags associados ou a última vez que ela foi modificada. Você pode personalizar as colunas exibidas, clicando no botão ![Configurar layout](assets/do-not-localize/inventory-configure-layout.svg).
 
 >[!ENDTABS]
+
+### Pesquisar e filtrar campanhas {#search-filter}
 
 Além disso, uma barra de pesquisa e filtros estão disponíveis para facilitar a pesquisa na lista. Por exemplo, você pode filtrar campanhas para exibir somente aquelas associadas a um determinado canal ou tag, ou aquelas criadas durante um intervalo de datas específico.
 
-A ![imagem que mostra o botão “Mais ações”](assets/do-not-localize/rule-builder-icon-more.svg) no inventário de campanhas permite executar as diversas operações detalhadas abaixo.
+## Operações do Campaign {#operations}
+
+A ![imagem que mostra o botão Mais ações](assets/do-not-localize/rule-builder-icon-more.svg) no inventário de campanhas permite executar várias operações.
 
 ![imagem mostrando o inventário de campanhas](assets/inventory-actions.png)
 
-* **[!UICONTROL Exibir o relatório de todos os tempos]** / **[!UICONTROL Exibir o relatório das últimas 24 horas]** - Acesse relatórios para medir e visualizar o impacto e o desempenho de suas campanhas. Saiba mais sobre [relatórios de campanha](../reports/campaign-global-report-cja.md).
-* **[!UICONTROL Editar marcas]** - Edita as marcas associadas à campanha. Saiba como [usar tags em suas campanhas](../start/search-filter-categorize.md#add-tags)
-* **[!UICONTROL Duplicar]** - Use esta opção para duplicar uma campanha, por exemplo, para executar uma campanha Orquestrada que foi interrompida. [Saiba mais](#duplicate-a-campaign)
-* **[!UICONTROL Excluir]** - Use esta opção para excluir uma campanha. [Saiba mais](#delete-a-campaign)
-* **[!UICONTROL Arquivar]**: arquive a campanha. Todas as campanhas arquivadas são excluídas em uma programação contínua 30 dias após sua última data modificada. Esta ação está disponível para todas as campanhas, exceto as campanhas de **[!UICONTROL Rascunho]**. Saiba mais sobre [arquivamento de campanha](#archive-a-campaign).
+### Ações disponíveis
 
-Para campanhas acionadas por Ação e API, as ações adicionais abaixo estão disponíveis:
+**Para todos os tipos de campanha:**
 
-* **[!UICONTROL Adicionar ao pacote]** - Adicione a campanha a um pacote para exportá-la para outra sandbox. Saiba como [exportar objetos para outra sandbox](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Exibir o relatório de todos os tempos]** / **[!UICONTROL Exibir o relatório das últimas 24 horas]** - Acesse relatórios para medir e visualizar o impacto e o desempenho de suas campanhas. [Saiba mais sobre relatórios de campanha →](../reports/campaign-global-report-cja.md)
+* **[!UICONTROL Editar marcas]** - Edita as marcas associadas à campanha. [Saiba como usar tags →](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL Duplicar]** - Use esta opção para duplicar uma campanha, por exemplo, para executar uma campanha Orquestrada que foi interrompida. [Saiba mais sobre duplicação →](#duplicate-a-campaign)
+* **[!UICONTROL Excluir]** - Use esta opção para excluir uma campanha. [Saiba mais sobre exclusão →](#delete-a-campaign)
+* **[!UICONTROL Arquivar]**: arquive a campanha. Todas as campanhas arquivadas são excluídas em uma programação contínua 30 dias após sua última data modificada. Esta ação está disponível para todas as campanhas, exceto as campanhas de **[!UICONTROL Rascunho]**. [Saiba mais sobre arquivamento →](#archive-a-campaign)
+
+**Somente para campanhas acionadas por Ação e API:**
+
+* **[!UICONTROL Adicionar ao pacote]** - Adicione a campanha a um pacote para exportá-la para outra sandbox. [Saiba como exportar objetos →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Abrir versão de rascunho]** - Se uma nova versão da campanha tiver sido criada e ainda não tiver sido ativada, você poderá acessar sua versão de rascunho usando esta ação.
 
-## Ciclo de vida da campanha {#statuses}
+## Noções básicas sobre o status da campanha {#statuses}
 
-No Adobe Journey Optimizer, cada campanha passa por um ciclo de vida refletido pelo status na interface. Os status disponíveis variam dependendo do tipo de campanha — Ação, API acionada ou Orquestrada. Use as guias abaixo para explorar o ciclo de vida e os status específicos de cada tipo de campanha.
+Cada campanha passa por um ciclo de vida que é refletido pelo status na interface. Compreender esses status ajuda você a saber quais ações estão disponíveis e o que fazer a seguir.
 
->[!BEGINTABS]
-
->[!TAB Campanhas de ação]
-
-* **[!UICONTROL Rascunho]**: a campanha está sendo editada e não foi ativada.
-* **[!UICONTROL Agendado]**: a campanha está configurada para ser ativada em uma data de início específica.
-* **[!UICONTROL Ao vivo]**: A campanha foi ativada.
-* **[!UICONTROL Em revisão]**: a campanha foi enviada para aprovação para ser publicada. [Saiba como trabalhar com aprovações](../test-approve/gs-approval.md)
-* **[!UICONTROL Parada]**: a campanha foi interrompida manualmente. Não é possível ativá-lo ou reutilizá-lo. [Saiba como interromper uma campanha](manage-campaigns.md#stop)
-* **[!UICONTROL Concluído]**: a campanha foi concluída. Esse status é atribuído automaticamente 3 dias após a ativação de uma campanha ou na data final da campanha, se houver uma execução recorrente.
-* **[!UICONTROL Falha]**: a execução da campanha falhou. Verifique os logs para identificar o problema.
-* **[!UICONTROL Arquivado]**: a campanha foi arquivada. [Saiba como arquivar campanhas](manage-campaigns.md#archive)
-
->[!NOTE]
->
->O ícone &quot;Abrir versão de rascunho&quot; ao lado do status **[!UICONTROL Ativo]** ou **[!UICONTROL Agendado]** indica que uma nova versão de uma campanha acionada por Ação ou API foi criada e ainda não foi ativada.
-
->[!TAB Campanhas acionadas por API]
-
-* **[!UICONTROL Rascunho]**: a campanha está sendo editada e não foi ativada.
-* **[!UICONTROL Agendado]**: a campanha está configurada para ser ativada em uma data de início específica.
-* **[!UICONTROL Ao vivo]**: A campanha foi ativada.
-* **[!UICONTROL Em revisão]**: a campanha foi enviada para aprovação para ser publicada. [Saiba como trabalhar com aprovações](../test-approve/gs-approval.md)
-* **[!UICONTROL Parada]**: a campanha foi interrompida manualmente. Não é possível ativá-lo ou reutilizá-lo. [Saiba como interromper uma campanha](manage-campaigns.md#stop)
-* **[!UICONTROL Concluído]**: a campanha foi concluída. Esse status é atribuído automaticamente 3 dias após a ativação de uma campanha ou na data final da campanha, se houver uma execução recorrente.
-* **[!UICONTROL Falha]**: a execução da campanha falhou. Verifique os logs para identificar o problema.
-* **[!UICONTROL Arquivado]**: a campanha foi arquivada. [Saiba como arquivar campanhas](manage-campaigns.md#archive)
+| Status | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas | O que significa | Próximas ações |
+|--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
+| **[!UICONTROL Rascunho]** | ✅ | ✅ | ✅ | Em edição, não ativado | Continue editando ou [ative a campanha](review-activate-campaign.md) |
+| **[!UICONTROL Programado]** | ✅ | ✅ | ✅ | Configurado para uma data de início específica | Aguarde a inicialização, [modifique se necessário](#modify) ou [exiba no calendário](#calendar) |
+| **[!UICONTROL Ao vivo]** | ✅ | ✅ | ✅ | Ativado e em execução | [Monitorar desempenho](../reports/campaign-global-report-cja.md), [criar nova versão](#modify) se necessário |
+| **[!UICONTROL Em revisão]** | ✅ | ✅ | — | Enviado para aprovação | Aguardar [aprovação](../test-approve/gs-approval.md) ou modificar |
+| **[!UICONTROL Interrompida]** | ✅ | ✅ | ✅ | Interrompido manualmente, não é possível reativar | [Duplicar para reutilizar](#duplicate-a-campaign) |
+| **[!UICONTROL Concluído]** | ✅ | ✅ | ✅ | Execução concluída (atribuída automaticamente 3 dias após a ativação ou na data final para recorrente) | [Exibir relatórios](../reports/campaign-global-report-cja.md), [arquivo morto](#archive-a-campaign) ou [duplicar](#duplicate-a-campaign) |
+| **[!UICONTROL Falha]** | ✅ | ✅ | — | Falha na execução | Verifique logs, corrija problemas, [duplique para tentar novamente](#duplicate-a-campaign) |
+| **[!UICONTROL Arquivado]** | ✅ | ✅ | ✅ | Arquivado (excluído automaticamente após 30 dias) | [Recuperar usando filtro](#access), se necessário |
+| **[!UICONTROL Fechado]** | — | — | ✅ | Campanha recorrente fechada, nenhuma nova entrada permitida (continua até que todas as atividades sejam concluídas) | Aguardar a conclusão |
+| **[!UICONTROL Publicação]** | — | — | ✅ | Em publicação | Aguardar a conclusão da publicação |
 
 >[!NOTE]
 >
->O ícone &quot;Abrir versão de rascunho&quot; ao lado do status **[!UICONTROL Ativo]** ou **[!UICONTROL Agendado]** indica que uma nova versão de uma campanha acionada por Ação ou API foi criada e ainda não foi ativada.
+>Para campanhas acionadas por Ação e API, o ícone &quot;Abrir versão de rascunho&quot; ao lado do status **[!UICONTROL Ativo]** ou **[!UICONTROL Agendado]** indica que uma nova versão foi criada e ainda não foi ativada.
 
->[!TAB Campanhas orquestradas]
-
-* **[!UICONTROL Rascunho]**: A campanha Orquestrada foi criada. Ela ainda não foi publicada.
-* **[!UICONTROL Publicação]**: a campanha Orquestrada está sendo publicada.
-* **[!UICONTROL Live]**: a campanha orquestrada foi publicada e está sendo executada.
-* **[!UICONTROL Agendado]**: a execução da campanha Orquestrada foi agendada.
-* **[!UICONTROL Concluído]**: a execução da campanha Orquestrada foi concluída. O status “Concluída” é atribuído automaticamente até três dias após uma campanha concluir o envio de mensagens sem erros.
-* **[!UICONTROL Encerrada]**: este status é exibido quando uma campanha recorrente é encerrada. A campanha continua sendo executada até que todas as atividades tenham sido concluídas, mas nenhum outro perfil poderá entrar na campanha.
-* **[!UICONTROL Arquivado]**: a campanha Orquestrada foi arquivada. Todas as campanhas arquivadas são excluídas dentro de um prazo contínuo 30 dias após a data da última modificação. Você pode duplicar uma campanha arquivada, se necessário, para continuar trabalhando nela.
-* **[!UICONTROL Parado]**: a execução da campanha Orquestrada foi interrompida. Para iniciar a campanha novamente, você precisa duplicá-la.
-
->[!ENDTABS]
+### Indicadores de erro
 
 Quando ocorre um erro em uma de suas campanhas, um ícone de aviso é exibido junto com o status da campanha. Clique nele para exibir informações relacionadas ao alerta. Esses alertas podem ocorrer em várias situações, como quando a mensagem da campanha não foi publicada ou se a configuração escolhida estiver incorreta.
 
@@ -142,6 +141,8 @@ Quando ocorre um erro em uma de suas campanhas, um ícone de aviso é exibido ju
 
 Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma exibição do calendário de suas campanhas, oferecendo uma representação visual clara de suas agendas.
 
+### Como o calendário funciona
+
 Como as campanhas são representadas:
 
 * Por padrão, a grade de calendário mostra todas as campanhas ativas e programadas para a semana selecionada. Opções de filtro adicionais podem mostrar ativações concluídas, interrompidas e concluídas ou ativações de um determinado tipo ou canal.
@@ -150,7 +151,7 @@ Como as campanhas são representadas:
 * Se nenhuma hora de início for especificada, a hora de ativação manual mais próxima será usada para posicioná-la no calendário.
 * As campanhas são exibidas como intervalos de tempo de 1 hora, mas isso não reflete a hora real de envio ou de conclusão.
 
-Para navegar no calendário do Campaigns:
+### Navegar pelo calendário
 
 1. Clique no ícone do ![calendário](assets/do-not-localize/Smock_Calendar_18_N.svg) para acessar o calendário do Campaigns.
 
@@ -210,6 +211,13 @@ Para modificar e criar uma nova versão de uma campanha de Ação recorrente, si
    >
    >Ativar o rascunho substituirá a versão ao vivo da campanha.
 
+**Tópicos relacionados:**
+* [Propriedades da campanha](campaign-properties.md)
+* [Ações de campanha](campaign-action.md)
+* [Conteúdo da campanha](campaign-content.md)
+* [Público-alvo da campanha](campaign-audience.md)
+* [Programação de campanha](campaign-schedule.md)
+
 ### Interromper uma campanha de ação {#stop}
 
 Para interromper uma campanha recorrente, abra-a e clique no botão **[!UICONTROL Parar campanha]**.
@@ -220,7 +228,7 @@ Para interromper uma campanha recorrente, abra-a e clique no botão **[!UICONTRO
 >
 >Interromper uma campanha não interromperá um envio em andamento, mas interromperá um envio agendado ou as próximas ocorrências se o envio já estiver em andamento.
 
-## Arquivar uma campanha {#archive}
+## Arquivar uma campanha {#archive-a-campaign}
 
 Com o tempo, a lista de campanhas continua crescendo e, eventualmente, dificulta a navegação em campanhas concluídas e interrompidas.
 
@@ -230,8 +238,7 @@ Para evitar isso, você pode arquivar campanhas concluídas e interrompidas que 
 
 As campanhas arquivadas podem ser recuperadas usando o filtro dedicado na lista.
 
-
-## Excluir uma campanha {#delete}
+## Excluir uma campanha {#delete-a-campaign}
 
 Para excluir uma campanha, use as reticências ![imagem mostrando o botão Mais ações](assets/do-not-localize/rule-builder-icon-more.svg) e selecione **[!UICONTROL Excluir]**.
 
@@ -241,11 +248,22 @@ Para excluir uma campanha, use as reticências ![imagem mostrando o botão Mais 
 >
 >Esta opção está disponível somente para campanhas do **[!UICONTROL Rascunho]**.
 
-
-## Duplicar uma campanha {#duplicate}
+## Duplicar uma campanha {#duplicate-a-campaign}
 
 Para duplicar uma campanha, por exemplo, se ela tiver sido interrompida, use as reticências ![imagem que mostra o botão Mais ações](assets/do-not-localize/rule-builder-icon-more.svg) e selecione **[!UICONTROL Duplicar]**.
 
 Insira o nome da campanha e confirme.
 
 A campanha é criada e adicionada à lista de campanhas.
+
+## Recursos adicionais
+
+* **Introdução** - [Introdução às campanhas](get-started-with-campaigns.md) | [Crie sua primeira campanha de Ação](create-campaign.md) | [Guia de campanhas acionadas por API](api-triggered-campaigns.md) | [Guia de campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
+
+* **Configuração da campanha** - [Propriedades da campanha](campaign-properties.md) | [Ações e canais de campanha](campaign-action.md) | [Design do conteúdo da campanha](campaign-content.md) | [Seleção do público da campanha](campaign-audience.md) | [Agendamento de campanha](campaign-schedule.md)
+
+* **Recursos avançados** - [Fluxos de trabalho de aprovação](../test-approve/gs-approval.md) | [Gerenciamento de conflitos e priorização](../conflict-prioritization/gs-conflict-prioritization.md) | [Limite de frequência por canal](../conflict-prioritization/channel-capping.md) | [Pontuações de prioridade](../conflict-prioritization/priority-scores.md) | [Exportar campanhas para outras sandboxes](../configuration/copy-objects-to-sandbox.md)
+
+* **Monitoramento e otimização** - [Relatórios de campanha (CJA)](../reports/campaign-global-report-cja.md) | [Configurar alertas](../reports/alerts.md)
+
+* **Organização** - [Trabalhar com marcas](../start/search-filter-categorize.md) | [Gerenciar permissões](../administration/ootb-product-profiles.md)
