@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
+source-git-commit: b85210a46c928389db985f0f794618209773c071
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 22%
+source-wordcount: '1648'
+ht-degree: 18%
 
 ---
 
@@ -115,6 +115,10 @@ Se você selecionou **[!UICONTROL SFTP]** como o **[!UICONTROL Tipo de servidor]
 
 ![](assets/file-routing-config-sftp-detail.png)
 
+>[!TIP]
+>
+>Ao usar a autenticação de chave SSH, a chave deve ser uma chave privada OpenSSH **codificada em** Base64. Se for um arquivo no formato PPK, use a ferramenta PuTTY para convertê-lo para o formato OpenSSH. Para obter instruções detalhadas, consulte [esta seção](#ssh-key-generation).
+
 >[!NOTE]
 >
 >Para especificar um caminho no servidor para salvar o arquivo, atualize o campo **[!UICONTROL Filename]** da campanha de correspondência direta para incluir o caminho desejado. [Saiba mais](create-direct-mail.md#extraction-file)
@@ -145,7 +149,7 @@ Se você selecionou **[!UICONTROL Zona de Aterrissagem de Dados]** como o **[!UI
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -154,6 +158,36 @@ Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[
 Depois de preencher os detalhes do tipo de servidor, selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
 
 Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
+
+### Gerar chave SSH para autenticação SFTP {#ssh-key-generation}
+
+Se você estiver usando o SFTP com autenticação de chave SSH, deverá ter uma chave privada OpenSSH codificada em Base64. Se a chave não estiver formatada corretamente, podem ocorrer erros de conexão ao configurar o roteamento de arquivos.
+
++++Gerar uma chave privada OpenSSH codificada na Base64
+
+1. No PuTTYgen, gere seu par de chaves. RSA com 2048 bits ou superior é recomendado.
+1. Selecione **Conversões** > **Exportar chave OpenSSH** no menu.
+1. Quando solicitado, escolha salvar a chave privada **sem proteção por senha**.
+1. Na caixa de diálogo Salvar, selecione **Todos os arquivos (*.*)** como o tipo de arquivo para garantir que a chave seja salva como texto simples e não como um arquivo .ppk.
+1. Abra o arquivo salvo com um editor de texto e verifique seu formato:
+   * O arquivo deve começar com `-----BEGIN RSA PRIVATE KEY-----` (cinco traços antes e depois).
+   * Não deve haver nenhum texto que indique criptografia.
+   * O arquivo deve terminar com `-----END RSA PRIVATE KEY-----` (cinco traços antes e depois).
+1. Copie o **conteúdo inteiro do arquivo** (incluindo os marcadores `-----BEGIN/END RSA PRIVATE KEY-----`) e codifique-o em Base64 usando uma ferramenta como [Base64 Encode e Decode](https://www.base64encode.org/).
+
+   >[!NOTE]
+   >
+   >Na saída da codificação Base64, remova qualquer formatação MIME. A chave codificada deve ser uma única cadeia de caracteres contínua.
+
+1. Agora é possível colar a chave SSH codificada na Base64 no campo dedicado no Journey Optimizer.
+
+>[!CAUTION]
+>
+>Após a codificação Base64, a chave não conterá mais os marcadores `-----BEGIN/END RSA PRIVATE KEY-----` e não deve incluir quebras de linha. A chave pública correspondente deve ser adicionada ao arquivo de chaves autorizadas do servidor SFTP.
+
+Para obter mais informações sobre como conectar sua conta SFTP à Experience Platform, consulte [esta documentação](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+
++++
 
 ## Criar uma configuração de correspondência direta {#direct-mail-surface}
 
