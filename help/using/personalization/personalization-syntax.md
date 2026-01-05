@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, sintaxe, personalização
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ em que:
 
 ## Regras gerais de sintaxe {#general-rules}
 
-* Os identificadores podem ser qualquer caractere unicode, exceto para o seguinte:
+* Os identificadores podem ser qualquer caractere unicode, exceto os seguintes caracteres especiais, que são reservados para a sintaxe Handlebars:
 
   ```
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -47,7 +47,7 @@ em que:
 
   Suponha que o valor do campo `profile.person.name` seja &quot;Mark &amp; Mary&quot;. A sintaxe `{{profile.person.name}}` exibirá `Mark &amp; Mary`, enquanto `{{{profile.person.name}}}` exibirá `Mark & Mary`.
 
-* Em relação a argumentos de funções literais, o analisador de linguagem de modelo não oferece suporte ao símbolo único de barra invertida sem escape (`\`). Este caractere deve ser evitado com um símbolo de barra invertida adicional (`\`). Exemplo:
+* Em relação a argumentos de funções literais, o analisador de linguagem de modelo não oferece suporte ao símbolo único de barra invertida sem escape (`\`). Este caractere deve ser evitado com um símbolo adicional de barra invertida (`\`). Exemplo:
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
@@ -136,7 +136,7 @@ Sem os backticks, o editor de personalização falhará a validação com um err
 
   +++
 
-## Auxiliares{#helpers-all}
+## Auxiliares {#helpers-all}
 
 Um auxiliar do Handlebars é um identificador simples que pode ser seguido por parâmetros. Cada parâmetro é uma expressão Handlebars. Esses auxiliares podem ser acessados de qualquer contexto em um modelo.
 
@@ -144,7 +144,7 @@ Esses auxiliares de bloco são identificados por um `#` precedendo o nome do aux
 
 Blocos são expressões que têm um bloco abrindo (`{{# }}`) e fechando (`{{/}}`).
 
-Para obter mais informações sobre funções auxiliares, consulte [esta seção](functions/helpers.md).
+    Para obter mais informações sobre funções auxiliares, consulte [esta seção](functions/helpers.md).
 
 ## Tipos literais {#literal-types}
 
