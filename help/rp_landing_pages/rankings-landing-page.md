@@ -3,16 +3,21 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: Criar classificações
 description: Criar classificações
+badge: label="Legado" type="Informative"
 redpen-status: CREATED_||_2025-08-11_21-00-00
 exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
 
 # Criar classificações{#section-overview}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../experience-decisioning/gs-experience-decisioning.md)
 
 As classificações do Adobe Journey Optimizer permitem que você personalize quais ofertas aparecerão primeiro para o seu público-alvo, garantindo que as opções mais relevantes estejam sempre em destaque. Se você preferir usar fórmulas de classificação simples e baseadas em regras, ou modelos de IA sofisticados que se adaptam ao comportamento do usuário, esse recurso ajuda a otimizar o engajamento dos clientes e gerar resultados. Você descobrirá como as fórmulas de classificação permitem definir regras personalizadas, enquanto os modelos de IA utilizam insights orientados por dados para uma priorização mais inteligente. Além disso, você aprenderá a atribuir essas classificações a posicionamentos facilmente, obtendo controle total de como as ofertas são apresentadas em cada interação com o cliente.
 
@@ -20,7 +25,7 @@ As classificações do Adobe Journey Optimizer permitem que você personalize qu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução às classificações
 
@@ -30,7 +35,7 @@ Saiba mais sobre as noções básicas das classificações do Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar e usar fórmulas de classificação
 
@@ -40,7 +45,7 @@ Siga as instruções passo a passo para criar fórmulas de classificação, usan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Modelos de IA para classificação de ofertas
 

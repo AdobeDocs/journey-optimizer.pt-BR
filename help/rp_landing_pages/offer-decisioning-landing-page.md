@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: Gestão de decisões
 description: Gestão de decisões
 redpen-status: CREATED_||_2025-08-11_21-05-09
+badge: label="Legado" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
 
 # Gestão de decisões{#section-overview}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../experience-decisioning/gs-experience-decisioning.md)
 
 A Gestão de decisões no Adobe Journey Optimizer permite que você entregue a oferta certa para o público-alvo certo no momento perfeito. Ao combinar ferramentas para criar ofertas personalizadas, classificá-las de forma inteligente usando IA ou regras personalizadas e analisar o feedback em tempo real, você pode criar experiências do cliente contínuas e orientadas por dados em todos os canais. Esta seção orienta você na criação de componentes essenciais, como inserções e regras de decisão, na integração de dados de contexto e evento para direcionamento preciso e no aproveitamento de APIs para fluxos de trabalho avançados. Esteja você projetando campanhas de email ou otimizando interações na Web, obterá insights e estratégias úteis para melhorar seus recursos de decisão.
 
@@ -20,7 +25,7 @@ A Gestão de decisões no Adobe Journey Optimizer permite que você entregue a o
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à gestão de decisões
 
@@ -30,7 +35,7 @@ Saiba mais sobre os fundamentos da Gestão de decisões, incluindo componentes, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Criar e gerenciar componentes de decisão
 
@@ -40,7 +45,7 @@ Descubra como criar posicionamentos, regras de decisão e qualificadores de cole
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Criar e otimizar classificações
 
@@ -50,7 +55,7 @@ Saiba como classificar ofertas usando fórmulas e modelos de IA para otimizar o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar e gerenciar ofertas
 
@@ -60,7 +65,7 @@ Orientação passo a passo para criar ofertas personalizadas, opções substitut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Criar e gerenciar decisões
 
@@ -70,7 +75,7 @@ Saiba como configurar, classificar e simular decisões para entrega de oferta pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Uso da decisão em lote
 

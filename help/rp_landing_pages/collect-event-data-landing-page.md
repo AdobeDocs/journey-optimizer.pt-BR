@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: Coletar dados de eventos
 description: Coletar dados de eventos
 redpen-status: CREATED_||_2025-08-11_21-02-07
+badge: label="Legado" type="Informative"
 exl-id: fa55faae-1258-49c7-884f-83d1c33db969
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
 
 # Coletar dados de eventos{#section-overview}
+
+>[!TIP]
+>
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../experience-decisioning/gs-experience-decisioning.md)
 
 A coleta de dados de eventos no Adobe Journey Optimizer permite rastrear as principais interações, como decisões, impressões, cliques e eventos personalizados, garantindo que as suas ofertas sejam personalizadas e eficazes. Esses dados alimentam processos cruciais, como geração de relatórios, limite de frequência e criação de modelos de IA, integrando-se perfeitamente à Adobe Experience Platform. Você aprenderá como diferentes tipos de evento, acionados automaticamente ou definidos de forma personalizada, funcionam juntos para fornecer um feedback acionável. Desde a criação de conjuntos de dados até a configuração de esquemas, cada etapa cria as bases para obter e utilizar insights, ajudando a tomar decisões conscientes e otimizar as experiências do cliente com confiança.
 
@@ -20,7 +25,7 @@ A coleta de dados de eventos no Adobe Journey Optimizer permite rastrear as prin
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução à coleta de dados para a gestão de decisões
 
@@ -30,7 +35,7 @@ Saiba mais sobre os fundamentos da coleta de dados para a gestão de decisões, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Como criar um conjunto de dados para coletar eventos de experiência
 
@@ -40,7 +45,7 @@ Siga as instruções passo a passo para criar um conjunto de dados e um esquema 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar a captação de dados de eventos para a gestão de decisões
 
