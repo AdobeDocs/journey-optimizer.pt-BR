@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: testar, validar, aprovar, aprovação, controle de qualidade, controle de qualidade, perfis de teste, personalização, renderização, verificação de spam, experimento de conteúdo, teste a/b, detecção de conflitos, seed-list, provas, dados de amostra, fluxo de trabalho de aprovação, teste de email, fluxo de trabalho de validação
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: fb13aee243757de7fe47bdd9d9ebad47069e24ba
+source-git-commit: 57f32088aa9cef55ed68729995326d3eae401bd5
 workflow-type: tm+mt
 source-wordcount: '3103'
 ht-degree: 5%
@@ -39,15 +39,15 @@ Esta página de aterrissagem ajuda você a escolher a abordagem de teste correta
 |------------|-----------|---------------------|--------------|-----------------|---------------|
 | [Perfis de teste](../using/content-management/test-profiles.md) | Campanhas, Jornadas | Todos os canais | Perfis de teste criados | Pré-visualizar conteúdo personalizado | [Guia](#testing-campaigns) |
 | [Dados de entrada de exemplo](../test-approve/simulate-sample-input.md) | Campanhas, Jornadas | Email, SMS, Push, Web, Baseado em código, No aplicativo, Cartões de conteúdo | Arquivo CSV/JSON | Testar várias variantes de personalização | [Guia](#simulate-content-variations) |
-| [Modo de teste](../using/building-journeys/testing-the-journey.md) | Somente jornadas | N/D | Jornada de rascunho, namespace configurado | Simular a progressão do perfil | Cartão [1&rbrace;](#test-your-journey) |
-| [Execução seca](../using/building-journeys/journey-dry-run.md) | Somente jornadas | N/D | Jornada criada | Analisar caminhos de execução | Cartão [1&rbrace;](#journey-dry-run) |
+| [Modo de teste](../using/building-journeys/testing-the-journey.md) | Somente jornadas | N/D | Jornada de rascunho, namespace configurado | Simular a progressão do perfil | Cartão [1}](#test-your-journey) |
+| [Execução seca](../using/building-journeys/journey-dry-run.md) | Somente jornadas | N/D | Jornada criada | Analisar caminhos de execução | Cartão [1}](#journey-dry-run) |
 | [Renderização de email](../using/content-management/rendering.md) | Campanhas, Jornadas | Somente email | Integração Litmus | Verificar exibição entre clientes | [Fluxo de trabalho](#2-technical-validation) |
 | [Pontuação de spam](../using/content-management/spam-report.md) | Campanhas, Jornadas | Somente email | None | Validação da capacidade de entrega | [Fluxo de trabalho](#2-technical-validation) |
-| [Listas de propagação](../using/configuration/seed-lists.md) | Campanhas, Jornadas | Somente email | Seed list configurado | Monitoramento das partes interessadas | Cartão [1&rbrace;](#seed-lists-for-stakeholder-monitoring) |
-| [Experimentos de conteúdo](../using/content-management/get-started-experiment.md) | Somente campanhas | Todos os canais | None | Teste A/B e bandit multi-armed | Cartão [1&rbrace;](#content-experiments--ab-testing) |
-| [Detecção de conflitos](../using/conflict-prioritization/conflicts.md) | Campanhas, Jornadas (limit.) | Todos os canais | None | Evitar mensagens excessivas por parte do cliente | Cartão [1&rbrace;](#conflict-detection) |
-| [Fluxos de trabalho de aprovação](../using/test-approve/gs-approval.md) | Campanhas, Jornadas | Todos os canais | Política de aprovação criada | Processo de revisão estruturado | Cartão [1&rbrace;](#approval-workflows-for-journeys-and-campaigns) |
-| [Playground do Personalization](../using/personalization/personalize.md#playground) | Todas | Todos os canais | None | Aprender e testar a sintaxe de personalização | Cartão [1&rbrace;](#personalization-playground) |
+| [Listas de propagação](../using/configuration/seed-lists.md) | Campanhas, Jornadas | Somente email | Seed list configurado | Monitoramento das partes interessadas | Cartão [1}](#seed-lists-for-stakeholder-monitoring) |
+| [Experimentos de conteúdo](../using/content-management/get-started-experiment.md) | Somente campanhas | Todos os canais | None | Teste A/B e bandit multi-armed | Cartão [1}](#content-experiments--ab-testing) |
+| [Detecção de conflitos](../using/conflict-prioritization/conflicts.md) | Campanhas, Jornadas (limit.) | Todos os canais | None | Evitar mensagens excessivas por parte do cliente | Cartão [1}](#conflict-detection) |
+| [Fluxos de trabalho de aprovação](../using/test-approve/gs-approval.md) | Campanhas, Jornadas | Todos os canais | Política de aprovação criada | Processo de revisão estruturado | Cartão [1}](#approval-workflows-for-journeys-and-campaigns) |
+| [Playground do Personalization](../using/personalization/personalize.md#playground) | Todas | Todos os canais | None | Aprender e testar a sintaxe de personalização | Cartão [1}](#personalization-playground) |
 
 **Fluxos de trabalho de teste comuns:**
 
@@ -147,8 +147,8 @@ A abordagem de teste correta depende do que você está criando e do que é nece
 * Visualizar e testar o conteúdo usando [perfis de teste](../using/content-management/test-profiles.md) ou [dados de entrada de exemplo](../test-approve/simulate-sample-input.md)
 * Verificar [renderização de email](../using/content-management/rendering.md) entre dispositivos e clientes (somente canal de email)
 * Executar [verificações de pontuação de spam](../using/content-management/spam-report.md) (somente canal de email)
-* Revisar [conflitos](../conflict-prioritization/conflicts.md) com outras campanhas e jornadas
-* Configurar [listas de propagação](../configuration/seed-lists.md) para monitoramento das partes interessadas (somente canal de email)
+* Revisar [conflitos](../using/conflict-prioritization/conflicts.md) com outras campanhas e jornadas
+* Configurar [listas de propagação](../using/configuration/seed-lists.md) para monitoramento das partes interessadas (somente canal de email)
 * Enviar para [aprovação](../using/test-approve/gs-approval.md) antes da ativação
 
 **Para teste A/B e otimização:**
@@ -165,7 +165,7 @@ A abordagem de teste correta depende do que você está criando e do que é nece
 
 * Use o [modo de teste](../using/building-journeys/testing-the-journey.md) para simular a progressão do perfil (somente jornadas de rascunho, requer namespace) ou [dry run](../using/building-journeys/journey-dry-run.md) para analisar os caminhos de execução sem enviar mensagens
 * Testar mensagens individuais usando [visualização e provas](../using/content-management/preview-test.md)
-* Verificar [conflitos](../conflict-prioritization/conflicts.md) com outras jornadas e campanhas
+* Verificar [conflitos](../using/conflict-prioritization/conflicts.md) com outras jornadas e campanhas
 * Enviar para [aprovação](../using/test-approve/gs-approval.md) antes de publicar
 
 **Para jornadas complexas:**
@@ -200,7 +200,7 @@ Para maximizar a eficácia de seus esforços de teste, siga estas práticas reco
 
 1. **Testar variações de conteúdo com dados de amostra** - Use [dados de entrada de amostra](../test-approve/simulate-sample-input.md) de arquivos CSV ou JSON para testar até 30 cenários de personalização sem criar vários perfis de teste, economizando tempo e garantindo uma cobertura abrangente. Suporta email, SMS, push, Web, experiência baseada em código, no aplicativo e canais de cartões de conteúdo.
 
-1. **Usar listas de propagação para monitoramento das partes interessadas** - Configure [listas de propagação](../configuration/seed-lists.md) para incluir automaticamente as partes interessadas internas que receberão cópias de todas as entregas no tempo de execução para monitoramento de qualidade e verificação de conformidade (somente canal de email).
+1. **Usar listas de propagação para monitoramento das partes interessadas** - Configure [listas de propagação](../using/configuration/seed-lists.md) para incluir automaticamente as partes interessadas internas que receberão cópias de todas as entregas no tempo de execução para monitoramento de qualidade e verificação de conformidade (somente canal de email).
 
 1. **Simular caminhos de jornada** - Para jornadas complexas com várias ramificações, use o [modo de teste](../using/building-journeys/testing-the-journey.md) para testar diferentes condições de entrada e atributos de perfil para validar todos os caminhos possíveis. Disponível para jornadas de rascunho que usam um namespace.
 
@@ -244,7 +244,7 @@ Validar aspectos técnicos que afetam a capacidade de entrega e a funcionalidade
 
 * Testar [design responsivo](../using/email/content-from-scratch.md) em dispositivos móveis e desktop
 
-* Verifique se há [possíveis conflitos](../conflict-prioritization/conflicts.md) com outras campanhas e jornadas para evitar problemas de tempo e fadiga da mensagem do cliente
+* Verifique se há [possíveis conflitos](../using/conflict-prioritization/conflicts.md) com outras campanhas e jornadas para evitar problemas de tempo e fadiga da mensagem do cliente
 
 ### &#x200B;3. Teste de Jornada (somente jornada)
 
@@ -311,7 +311,7 @@ Veja como os conceitos de teste se aplicam a cenários do mundo real:
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, testar e validar o conteúdo
 
@@ -321,7 +321,7 @@ Saiba como visualizar, testar e validar um conteúdo personalizado por meio de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Fluxos de trabalho de aprovação para jornadas e campanhas
 
@@ -331,7 +331,7 @@ Entenda como configurar, gerenciar e executar processos de aprovação para gara
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Teste a jornada
 
@@ -341,7 +341,7 @@ Valide sua jornada antes de publicá-la testando-a com perfis específicos para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Execução de teste de jornada
 
@@ -351,7 +351,7 @@ Realize uma execução de teste para simular e validar o caminho de execução d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoramento e solução de problemas
 
@@ -361,7 +361,7 @@ Acesse recursos abrangentes de solução de problemas, alertas do sistema e cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -381,7 +381,7 @@ Otimize suas campanhas testando várias variações de conteúdo e medindo o des
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas de seeds para monitoramento pelas partes interessadas
 
@@ -391,7 +391,7 @@ Inclua automaticamente endereços internos de partes interessadas nos deliveries
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detecção de conflitos
 
