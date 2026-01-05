@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, sintaxe, personalização
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
+source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 3%
+source-wordcount: '666'
+ht-degree: 2%
 
 ---
 
@@ -50,6 +50,26 @@ em que:
 * Em relação a argumentos de funções literais, o analisador de linguagem de modelo não oferece suporte ao símbolo único de barra invertida sem escape (`\`). Este caractere deve ser evitado com um símbolo de barra invertida adicional (`\`). Exemplo:
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
+
+## Palavras-chave reservadas {#reserved-keywords}
+
+Determinadas palavras-chave são reservadas no Profile Query Language (PQL) e não podem ser usadas diretamente como nomes de campos ou variáveis em expressões de personalização. Se o esquema XDM contiver campos com nomes que correspondam a palavras-chave reservadas, você deverá fazer o escape com acentos graves (`` ` ``) para referenciá-los em suas expressões.
+
+**As palavras-chave reservadas incluem:**
+
+* `next`
+* `last`
+* `this`
+
+**Exemplo:**
+
+Se o esquema de perfil tiver um campo chamado `next`, você deverá envolvê-lo em acentos graves:
+
+```
+{{profile.person.`next`.name}}
+```
+
+Sem os backticks, o editor de personalização falhará a validação com um erro.
 
 ## Namespaces disponíveis {#namespaces}
 
