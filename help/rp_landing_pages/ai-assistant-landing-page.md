@@ -20,7 +20,7 @@ O Assistente de IA do Adobe Journey Optimizer revoluciona a criação de conteú
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao Assistente de IA
 
@@ -30,7 +30,7 @@ Saiba como acessar e configurar o recurso Assistente de IA para aprimorar a cria
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Gerar conteúdo completo
 
@@ -40,7 +40,7 @@ Descubra como usar o Assistente de IA para criar conteúdo completo, incluindo t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Gerar somente texto
 
@@ -50,7 +50,7 @@ Use o AI Assistant para gerar e refinar conteúdo de texto para todos os canais,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Gerar somente imagens
 
