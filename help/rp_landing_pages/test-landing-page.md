@@ -39,15 +39,15 @@ Esta página de aterrissagem ajuda você a escolher a abordagem de teste correta
 |------------|-----------|---------------------|--------------|-----------------|---------------|
 | [Perfis de teste](../using/content-management/test-profiles.md) | Campanhas, Jornadas | Todos os canais | Perfis de teste criados | Pré-visualizar conteúdo personalizado | [Guia](#testing-campaigns) |
 | [Dados de entrada de exemplo](../using/test-approve/simulate-sample-input.md) | Campanhas, Jornadas | Email, SMS, Push, Web, Baseado em código, No aplicativo, Cartões de conteúdo | Arquivo CSV/JSON | Testar várias variantes de personalização | [Guia](#simulate-content-variations) |
-| [Modo de teste](../using/building-journeys/testing-the-journey.md) | Somente jornadas | N/D | Jornada de rascunho, namespace configurado | Simular a progressão do perfil | Cartão [1}](#test-your-journey) |
-| [Execução seca](../using/building-journeys/journey-dry-run.md) | Somente jornadas | N/D | Jornada criada | Analisar caminhos de execução | Cartão [1}](#journey-dry-run) |
+| [Modo de teste](../using/building-journeys/testing-the-journey.md) | Somente jornadas | N/D | Jornada de rascunho, namespace configurado | Simular a progressão do perfil | Cartão [1&rbrace;](#test-your-journey) |
+| [Execução seca](../using/building-journeys/journey-dry-run.md) | Somente jornadas | N/D | Jornada criada | Analisar caminhos de execução | Cartão [1&rbrace;](#journey-dry-run) |
 | [Renderização de email](../using/content-management/rendering.md) | Campanhas, Jornadas | Somente email | Integração Litmus | Verificar exibição entre clientes | [Fluxo de trabalho](#2-technical-validation) |
 | [Pontuação de spam](../using/content-management/spam-report.md) | Campanhas, Jornadas | Somente email | None | Validação da capacidade de entrega | [Fluxo de trabalho](#2-technical-validation) |
-| [Listas de propagação](../using/configuration/seed-lists.md) | Campanhas, Jornadas | Somente email | Seed list configurado | Monitoramento das partes interessadas | Cartão [1}](#seed-lists-for-stakeholder-monitoring) |
-| [Experimentos de conteúdo](../using/content-management/get-started-experiment.md) | Somente campanhas | Todos os canais | None | Teste A/B e bandit multi-armed | Cartão [1}](#content-experiments--ab-testing) |
-| [Detecção de conflitos](../using/conflict-prioritization/conflicts.md) | Campanhas, Jornadas (limit.) | Todos os canais | None | Evitar mensagens excessivas por parte do cliente | Cartão [1}](#conflict-detection) |
-| [Fluxos de trabalho de aprovação](../using/test-approve/gs-approval.md) | Campanhas, Jornadas | Todos os canais | Política de aprovação criada | Processo de revisão estruturado | Cartão [1}](#approval-workflows-for-journeys-and-campaigns) |
-| [Playground do Personalization](../using/personalization/personalize.md#playground) | Todas | Todos os canais | None | Aprender e testar a sintaxe de personalização | Cartão [1}](#personalization-playground) |
+| [Listas de propagação](../using/configuration/seed-lists.md) | Campanhas, Jornadas | Somente email | Seed list configurado | Monitoramento das partes interessadas | Cartão [1&rbrace;](#seed-lists-for-stakeholder-monitoring) |
+| [Experimentos de conteúdo](../using/content-management/get-started-experiment.md) | Somente campanhas | Todos os canais | None | Teste A/B e bandit multi-armed | Cartão [1&rbrace;](#content-experiments--ab-testing) |
+| [Detecção de conflitos](../using/conflict-prioritization/conflicts.md) | Campanhas, Jornadas (limit.) | Todos os canais | None | Evitar mensagens excessivas por parte do cliente | Cartão [1&rbrace;](#conflict-detection) |
+| [Fluxos de trabalho de aprovação](../using/test-approve/gs-approval.md) | Campanhas, Jornadas | Todos os canais | Política de aprovação criada | Processo de revisão estruturado | Cartão [1&rbrace;](#approval-workflows-for-journeys-and-campaigns) |
+| [Playground do Personalization](../using/personalization/personalize.md#playground) | Todas | Todos os canais | None | Aprender e testar a sintaxe de personalização | Cartão [1&rbrace;](#personalization-playground) |
 
 **Fluxos de trabalho de teste comuns:**
 
