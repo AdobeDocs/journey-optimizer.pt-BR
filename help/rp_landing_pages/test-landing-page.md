@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: testar, validar, aprovar, aprovação, controle de qualidade, controle de qualidade, perfis de teste, personalização, renderização, verificação de spam, experimento de conteúdo, teste a/b, detecção de conflitos, seed-list, provas, dados de amostra, fluxo de trabalho de aprovação, teste de email, fluxo de trabalho de validação
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 652014d97d7806a90473f5b75b1fe0b2aefdfed5
+source-git-commit: 1b774d95a117903695e6954fb2c820adfdf0d3bb
 workflow-type: tm+mt
-source-wordcount: '3091'
-ht-degree: 4%
+source-wordcount: '2768'
+ht-degree: 5%
 
 ---
 
@@ -140,7 +140,9 @@ Use essa árvore decisória para identificar rapidamente as ferramentas de teste
 
 A abordagem de teste correta depende do que você está criando e do que é necessário validar. Use este guia para identificar as ferramentas de teste mais relevantes para o seu cenário.
 
-### Testar campanhas
+>[!BEGINTABS]
+
+>[!TAB Testando campanhas]
 
 **Para todas as campanhas:**
 
@@ -159,7 +161,7 @@ A abordagem de teste correta depende do que você está criando e do que é nece
 
 * Use a [API de Simulação de Campanha](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} para acionar trabalhos de prova de forma programática
 
-### Jornadas de teste
+>[!TAB Testando jornadas]
 
 **Para todas as jornadas:**
 
@@ -175,7 +177,7 @@ A abordagem de teste correta depende do que você está criando e do que é nece
 
 **Observação:** a detecção de conflitos e o limite de jornadas estão disponíveis somente para jornadas unitárias, de Qualificação de Público-Alvo e de Leitura de Público-Alvo.
 
-### Teste de personalização
+>[!TAB Testando personalização]
 
 **Antes de criar o conteúdo:**
 
@@ -185,6 +187,8 @@ A abordagem de teste correta depende do que você está criando e do que é nece
 
 * Visualize com [perfis de teste](../using/content-management/test-profiles.md) para validar as renderizações de personalização corretamente
 * Teste vários cenários usando [dados de entrada de amostra](../using/test-approve/simulate-sample-input.md) de arquivos CSV/JSON (suporta até 30 variantes)
+
+>[!ENDTABS]
 
 ## Práticas recomendadas de teste
 
@@ -311,7 +315,7 @@ Veja como os conceitos de teste se aplicam a cenários do mundo real:
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, testar e validar o conteúdo
 
@@ -321,7 +325,7 @@ Saiba como visualizar, testar e validar um conteúdo personalizado por meio de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Fluxos de trabalho de aprovação para jornadas e campanhas
 
@@ -331,7 +335,7 @@ Entenda como configurar, gerenciar e executar processos de aprovação para gara
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Teste a jornada
 
@@ -341,7 +345,7 @@ Valide sua jornada antes de publicá-la testando-a com perfis específicos para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Execução de teste de jornada
 
@@ -351,7 +355,7 @@ Realize uma execução de teste para simular e validar o caminho de execução d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoramento e solução de problemas
 
@@ -361,7 +365,7 @@ Acesse recursos abrangentes de solução de problemas, alertas do sistema e cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -381,7 +385,7 @@ Otimize suas campanhas testando várias variações de conteúdo e medindo o des
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas de seeds para monitoramento pelas partes interessadas
 
@@ -391,7 +395,7 @@ Inclua automaticamente endereços internos de partes interessadas nos deliveries
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detecção de conflitos
 
@@ -414,58 +418,59 @@ Identifique possíveis sobreposições entre campanhas e jornadas para evitar so
 
 * [Perguntas frequentes sobre o Jornada](../using/building-journeys/journey-faq.md) - consulte rapidamente perguntas comuns sobre testes, execução e solução de problemas do jornada.
 
-### Dependências e relacionamentos
+<!-- ### Dependencies and relationships
 
-Entenda como os recursos de teste se conectam entre si e com seus fluxos de trabalho mais amplos do Journey Optimizer. Esta seção mapeia pré-requisitos, dependências upstream/downstream e combinações de recursos comuns.
+Understand how testing capabilities connect to each other and to your broader Journey Optimizer workflows. This section maps prerequisites, upstream/downstream dependencies, and common capability combinations.
 
-+++**Pré-requisitos (necessários antes do teste)**
++++**Prerequisites (required before testing)**
 
-* Perfis de teste devem ser criados antes do uso do modo de teste ou pré-visualização de conteúdo
-* As políticas de aprovação devem ser configuradas antes do envio para aprovação
-* Seed lists deve ser criadas antes de adicionar a campanhas/jornadas
-* Integração Litmus necessária para testes de renderização de email
-* A jornada deve estar em status de rascunho para usar o modo de teste
-* A jornada deve ter o namespace configurado para usar o modo de teste
-
-+++
-
-+++**Do que depende o teste (upstream)**
-
-* Criação de conteúdo: campanhas ou jornadas necessárias para teste
-* Perfis de teste: obrigatório para modo de teste e pré-visualização de conteúdo
-* Políticas de aprovação: obrigatório para workflows de aprovação
-* Configuração: configurações de canal, autenticação de email, configurações de domínio
+* Test profiles must be created before using test mode or content preview
+* Approval policies must be configured before submitting for approval
+* Seed lists must be created before adding to campaigns/journeys
+* Litmus integration required for email rendering tests
+* Journey must be in draft status to use test mode
+* Journey must have namespace configured to use test mode
 
 +++
 
-+++**O que depende de teste (downstream)**
++++**What testing depends on (upstream)**
 
-* Ativação de campanha/jornada: não é possível ativar sem resolver erros
-* Publicação: pode ser necessária aprovação antes da publicação
-* Monitoramento ao vivo: Monitoramento e relatórios pós-lançamento
-* Otimização: use os resultados de teste para refinar campanhas futuras
-
-+++
-
-+++**Recursos relacionados**
-
-* Testes + fluxos de trabalho de aprovação = Processo de controle de qualidade
-* Teste + Detecção de conflitos = evitar o excesso de mensagens do cliente
-* Testes + experimentos de conteúdo = Otimização do desempenho
-* Testes + Emissão de relatórios = ciclo de aprimoramento contínuo
-* Perfis de teste + Personalization = Validação de conteúdo
-* Execução a seco + Modo de teste = Validação abrangente de jornada
+* Content creation: Need campaigns or journeys to test
+* Test profiles: Required for test mode and content preview
+* Approval policies: Required for approval workflows
+* Configuration: Channel configurations, email authentication, domain settings
 
 +++
 
-+++**Combinações comuns de recursos**
++++**What depends on testing (downstream)**
 
-* Teste de conteúdo: Perfis de teste + Dados de entrada de amostra + Playground do Personalization
-* Validação de email: testes de renderização + pontuações de spam + perfis de teste + provas
-* Validação da jornada: modo de teste + simulação + perfis de teste
-* Lista de verificação de pré-lançamento: todos os testes técnicos + Detecção de conflitos + Fluxos de trabalho de aprovação
+* Campaign/journey activation: Cannot activate without resolving errors
+* Publishing: Approval may be required before publishing
+* Live monitoring: Post-launch monitoring and reporting
+* Optimization: Use test results to refine future campaigns
 
 +++
+
++++**Related capabilities**
+
+* Testing + Approval workflows = Quality assurance process
+* Testing + Conflict detection = Preventing customer over-messaging
+* Testing + Content experiments = Performance optimization
+* Testing + Reporting = Continuous improvement cycle
+* Test profiles + Personalization = Content validation
+* Dry run + Test mode = Comprehensive journey validation
+
++++
+
++++**Common capability combinations**
+
+* Content testing: Test profiles + Sample input data + Personalization playground
+* Email validation: Rendering tests + Spam scores + Test profiles + Proofs
+* Journey validation: Test mode + Dry run + Test profiles
+* Pre-launch checklist: All technical tests + Conflict detection + Approval workflows
+
++++
+-->
 
 ### Perguntas comuns
 
@@ -519,13 +524,3 @@ Entenda como os recursos de teste se conectam entre si e com seus fluxos de trab
 
 +++
 
-
-### Tópicos relacionados
-
-* [Gerenciamento de conteúdo](content-management-landing-page.md) - Saiba como projetar, visualizar e gerenciar conteúdo usando modelos, fragmentos e o Email Designer. Práticas recomendadas de criação de conteúdo principal para uma identidade visual consistente.
-
-* [Reporting &amp; Analytics](reporting-landing-page.md) - Analise o desempenho da campanha e do jornada com relatórios, painéis e métricas abrangentes. Tome decisões orientadas por dados para otimizar as experiências do cliente.
-
-* [Configuração de Jornada](configure-journeys-landing-page.md) - Configure fontes de dados, eventos e ações personalizadas para habilitar a orquestração de jornada sofisticada. Estabeleça as bases técnicas para a criação de jornadas.
-
-* [Gerenciamento de campanhas](../using/campaigns/get-started-with-campaigns.md) - Explore diferentes tipos de campanhas e saiba como criar, agendar e otimizar campanhas em lote e em tempo real para obter o máximo impacto.
