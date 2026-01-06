@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: testar, validar, aprovar, aprovação, controle de qualidade, controle de qualidade, perfis de teste, personalização, renderização, verificação de spam, experimento de conteúdo, teste a/b, detecção de conflitos, seed-list, provas, dados de amostra, fluxo de trabalho de aprovação, teste de email, fluxo de trabalho de validação
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: ab78157988c533b3dc8a0c747bf094649c7a8671
+source-git-commit: 3f2bf04dbeb3e5099c151a412a4a5e54f13122ee
 workflow-type: tm+mt
-source-wordcount: '2753'
-ht-degree: 4%
+source-wordcount: '2560'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ Esta página de aterrissagem ajuda você a escolher a abordagem de teste correta
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, testar e validar o conteúdo
 
@@ -36,7 +36,7 @@ Saiba como visualizar, testar e validar um conteúdo personalizado por meio de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Fluxos de trabalho de aprovação para jornadas e campanhas
 
@@ -46,7 +46,7 @@ Entenda como configurar, gerenciar e executar processos de aprovação para gara
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Teste a jornada
 
@@ -56,7 +56,7 @@ Valide sua jornada antes de publicá-la testando-a com perfis específicos para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Execução de teste de jornada
 
@@ -66,7 +66,7 @@ Realize uma execução de teste para simular e validar o caminho de execução d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoramento e solução de problemas
 
@@ -76,7 +76,7 @@ Acesse recursos abrangentes de solução de problemas, alertas do sistema e cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -96,7 +96,7 @@ Otimize suas campanhas testando várias variações de conteúdo e medindo o des
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas de seeds para monitoramento pelas partes interessadas
 
@@ -106,7 +106,7 @@ Inclua automaticamente endereços internos de partes interessadas nos deliveries
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detecção de conflitos
 
@@ -169,44 +169,46 @@ Os processos de teste e aprovação servem como quality gates (portais de qualid
 
 -->
 
-## Árvore decisória para seleção do método de teste
+<!--
+## Decision tree for testing method selection
 
-Use essa árvore decisória para identificar rapidamente as ferramentas de teste corretas para seu cenário específico. Responda a cada pergunta com base no contexto (o que você está criando, o que precisa validar e qual canal está usando) para navegar diretamente para os recursos e a documentação relevantes.
+Use this decision tree to quickly identify the right testing tools for your specific scenario. Answer each question based on your context (what you're building, what you need to validate, and which channel you're using) to navigate directly to the relevant capabilities and documentation.
 
-+++ **Pergunta 1: O que você está testando?**
++++ **Question 1: What are you testing?**
 
-* Campaign → [Escolha sua abordagem de teste](#choose-your-testing-approach)
-* Jornada → [Escolha sua abordagem de teste](#choose-your-testing-approach)
-* Expressões Personalization → [Playground do Personalization](#test--approve-content)
+* Campaign → [Choose your testing approach](#choose-your-testing-approach)
+* Journey → [Choose your testing approach](#choose-your-testing-approach)
+* Personalization expressions → [Personalization playground](#test--approve-content)
 +++
 
-+++**Pergunta 2: Que aspecto precisa de validação?**
++++**Question 2: What aspect needs validation?**
 
-* Conteúdo e personalização → [Perfis de teste](#choose-your-testing-approach) ou [dados de entrada de amostra](#choose-your-testing-approach)
-* Exibição de email → [Testes de renderização de email](#2-technical-validation)
-* Capacidade de entrega → [Verificações de pontuação de spam](#2-technical-validation)
-* Lógica e fluxo de jornada → [Modo de teste](#choose-your-testing-approach) ou [simulação](#test--approve-content)
-* Comparação de desempenho → [Experimento de conteúdo](#test--approve-content) (somente campanhas)
-* Conflitos de temporização → [Detecção de conflitos](#test--approve-content)
-* Análise das partes interessadas → [Fluxo de trabalho de aprovação](#test--approve-content)
+* Content and personalization → [Test profiles](#choose-your-testing-approach) or [sample input data](#choose-your-testing-approach)
+* Email display → [Email rendering tests](#2-technical-validation)
+* Deliverability → [Spam score checks](#2-technical-validation)
+* Journey logic and flow → [Test mode](#choose-your-testing-approach) or [dry run](#test--approve-content)
+* Performance comparison → [Content experiment](#test--approve-content) (campaigns only)
+* Timing conflicts → [Conflict detection](#test--approve-content)
+* Stakeholder review → [Approval workflow](#test--approve-content)
 +++
 
-+++**Pergunta 3: Que canal?**
++++**Question 3: What channel?**
 
-* Email → Todos os métodos de teste disponíveis (consulte [Escolher abordagem de teste](#choose-your-testing-approach))
-* SMS, Push → [Teste de conteúdo](#choose-your-testing-approach), [dados de entrada de exemplo](#choose-your-testing-approach), [fluxos de trabalho de aprovação](#test--approve-content)
-* Web, No aplicativo, Baseado em código → [Teste de conteúdo](#choose-your-testing-approach), [dados de entrada de amostra](#choose-your-testing-approach), [fluxos de trabalho de aprovação](#test--approve-content)
-* Vários canais → Teste cada canal separadamente
+* Email → All testing methods available (see [Choose your testing approach](#choose-your-testing-approach))
+* SMS, Push → [Content testing](#choose-your-testing-approach), [sample input data](#choose-your-testing-approach), [approval workflows](#test--approve-content)
+* Web, In-app, Code-based → [Content testing](#choose-your-testing-approach), [sample input data](#choose-your-testing-approach), [approval workflows](#test--approve-content)
+* Multiple channels → Test each channel separately
 +++
 
-+++**Pergunta 4: Quando no fluxo de trabalho?**
++++**Question 4: When in the workflow?**
 
-* Antes de construir → [Personalization playground](#test--approve-content) para aprendizado
-* Durante a compilação → [Perfis de teste](#choose-your-testing-approach) e [dados de entrada de amostra](#choose-your-testing-approach) para validação
-* Antes da inicialização → [Testes de renderização](#2-technical-validation), [verificações de spam](#2-technical-validation), [detecção de conflitos](#test--approve-content), [aprovações](#test--approve-content)
-* Após a inicialização → [Relatórios ao vivo](../using/building-journeys/report-journey.md) e [monitoramento](#test--approve-content)
+* Before building → [Personalization playground](#test--approve-content) for learning
+* During building → [Test profiles](#choose-your-testing-approach) and [sample input data](#choose-your-testing-approach) for validation
+* Before launch → [Rendering tests](#2-technical-validation), [spam checks](#2-technical-validation), [conflict detection](#test--approve-content), [approvals](#test--approve-content)
+* After launch → [Live reports](../using/building-journeys/report-journey.md) and [monitoring](#test--approve-content)
 +++
 
+-->
 
 ## Escolha sua abordagem de teste
 
