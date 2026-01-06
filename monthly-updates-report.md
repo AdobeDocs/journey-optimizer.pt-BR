@@ -5,9 +5,9 @@ title: Relatório mensal de atualizações de documentação
 description: Lista de páginas de documentação novas e atualizadas
 hide: true
 hidefromtoc: true
-source-git-commit: 3f0da68c95a1fbd5b3cf6beaa38eae1a475ab941
+source-git-commit: e0e82dad61d3ccc1c48435ba7b49bff51c7e9636
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,34 @@ ht-degree: 0%
 
 # Relatório mensal de atualizações de documentação
 
-*Relatório gerado para 3 de novembro - 11 de dezembro de 2024*
+## Relatório: 11 de dezembro de 2024 - 6 de janeiro de 2026
 
-## Novas páginas
+### Novas páginas
+
+- [Introdução ao rastreamento](help/using/start/get-started-tracking.md) - 19 de dezembro
+
+### Páginas atualizadas
+
+- [Medidas de proteção e limitações do Journey Optimizer](help/using/start/guardrails.md) - 6 de janeiro
+- [Configuração de correspondência direta](help/using/direct-mail/direct-mail-configuration.md) - 5 de janeiro
+- [Sintaxe do Personalization](help/using/personalization/personalization-syntax.md) - 5 de janeiro
+- [Introdução ao jornada](help/using/building-journeys/journey.md) - 2 de janeiro
+- [Introdução às campanhas](help/using/campaigns/get-started-with-campaigns.md) - 2 de janeiro
+- [Gerenciar campanhas](help/using/campaigns/manage-campaigns.md) - 2 de janeiro
+- [Delegar um subdomínio](help/using/configuration/delegate-subdomain.md) - Jan 2
+- [Configurar registro TXT do Google](help/using/configuration/google-txt.md) - Jan 2
+- [Introdução ao rastreamento](help/using/start/get-started-tracking.md) - 23 de dezembro
+- [Lista de campos de eventos de etapa](help/using/reports/sharing-field-list.md) - 23 de dezembro
+- [Enviar provas](help/using/content-management/proofs.md) - 23 de dezembro
+- [Trabalhar com conjuntos de regras de limite de canal](help/using/conflict-prioritization/channel-capping.md) - 23 de dezembro
+- [Usar públicos-alvo de carregamento personalizados para a decisão](help/using/offers/custom-upload-decisioning.md) - 23 de dezembro
+- [Introdução aos canais de comunicação](help/using/channels/gs-channels.md) - 22 de dezembro
+- [Notas de versão 2025](help/using/rn/release-notes-2025.md) - 18 de dezembro
+- [Trabalhar com fragmentos do AEM](help/using/integrations/aem-fragments.md) - 18 de dezembro
+
+## Relatório anterior: 3 de novembro - 11 de dezembro de 2024
+
+### Novas páginas
 
 - [Guia dos critérios de entrada e saída da Jornada](help/using/building-journeys/entry-exit-criteria-guide.md) - 11 de dezembro
 - [Jornada casos de uso](help/using/building-journeys/jo-use-cases.md) - 11 de dezembro
@@ -28,7 +53,7 @@ ht-degree: 0%
 - [Publicar e gerenciar experiências baseadas em código](help/using/code-based/publish-code-based.md) - 22 de novembro
 - [Testar experiências com base em código](help/using/code-based/test-code-based.md) - 22 de novembro
 
-## Páginas atualizadas
+### Páginas atualizadas
 
 - [Pesquisar dados do Adobe Experience Platform para personalização](help/using/data/lookup-aep-data.md) - Dez
 - [Configuração do aplicativo móvel](help/using/configuration/set-mobile-config.md) - 6 de dezembro
@@ -88,7 +113,7 @@ ht-degree: 0%
 - [Criar inserções](help/using/offers/offer-library/creating-placements.md) - 5 de novembro
 - [Criar estratégias de classificação](help/using/offers/ranking/create-ranking-strategies.md) - 5 de novembro
 
-## Relatório anterior: 1 de outubro - 3 de novembro de 2025
+## Relatório anterior: 1 de outubro a 3 de novembro de 2024
 
 ### Novas páginas
 
@@ -104,11 +129,8 @@ ht-degree: 0%
 - [Criar políticas de decisões](help/using/experience-decisioning/create-decision-policy.md) - 7 de outubro
 - [Usar políticas de decisão nas mensagens](help/using/experience-decisioning/use-decision-policy.md) - 9 de outubro
 - [Configurar sua configuração de canal](help/using/orchestrated/channel-config.md) - 14 de outubro
-- [Criar uma notificação por push](help/using/push/design-push-web.md) - 14 de outubro
-- [Configuração de notificação por push](help/using/push/push-configuration-web.md) - 14 de outubro
 - [Trabalhar com eventos de etapa do jornada](help/using/reports/journey-step-events-overview.md) - 21 de outubro
 - [ciclo de lançamento do Adobe Journey Optimizer](help/using/rn/releases.md) - 28 de outubro
-- [Criar conteúdo da mensagem](help/using/start/message-content-design.md) - 18 de outubro
 
 ### Páginas atualizadas
 
