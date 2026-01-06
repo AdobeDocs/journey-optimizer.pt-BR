@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: testar, validar, aprovar, aprovação, controle de qualidade, controle de qualidade, perfis de teste, personalização, renderização, verificação de spam, experimento de conteúdo, teste a/b, detecção de conflitos, seed-list, provas, dados de amostra, fluxo de trabalho de aprovação, teste de email, fluxo de trabalho de validação
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 5b1a68bb64fc55de894cb97a5239f4e1cd77fb40
+source-git-commit: 670503f9aedcd3008b3cd63c0ec6e59fac3dc31a
 workflow-type: tm+mt
-source-wordcount: '2308'
-ht-degree: 5%
+source-wordcount: '2328'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Esta página de aterrissagem ajuda você a escolher a abordagem de teste correta
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, testar e validar o conteúdo
 
@@ -36,7 +36,7 @@ Saiba como visualizar, testar e validar um conteúdo personalizado por meio de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Fluxos de trabalho de aprovação para jornadas e campanhas
 
@@ -46,7 +46,7 @@ Entenda como configurar, gerenciar e executar processos de aprovação para gara
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Teste a jornada
 
@@ -56,7 +56,7 @@ Valide sua jornada antes de publicá-la testando-a com perfis específicos para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Execução de teste de jornada
 
@@ -66,7 +66,7 @@ Realize uma execução de teste para simular e validar o caminho de execução d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoramento e solução de problemas
 
@@ -76,7 +76,7 @@ Acesse recursos abrangentes de solução de problemas, alertas do sistema e cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -96,7 +96,7 @@ Otimize suas campanhas testando várias variações de conteúdo e medindo o des
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas de seeds para monitoramento pelas partes interessadas
 
@@ -106,7 +106,7 @@ Inclua automaticamente endereços internos de partes interessadas nos deliveries
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detecção de conflitos
 
@@ -305,12 +305,55 @@ Siga esta abordagem de quatro fases para validar suas campanhas e jornadas antes
 
 Veja como os conceitos de teste se aplicam a cenários do mundo real:
 
-| Caso de uso | O que você vai aprender | Foco do teste principal |
-|----------|-------------------|-------------------|
-| **[Enviar mensagens multicanais](../using/building-journeys/journeys-uc.md)** | Teste uma jornada que combine Ler público-alvo, eventos de reação e mensagens de email/push. Valide todo o fluxo, desde o direcionamento de público até a entrega de mensagens. | Coordenação multicanal, eventos de reação, validação completa do fluxo, etapas de teste e publicação |
-| **[Enviar uma mensagem aos assinantes](../using/building-journeys/message-to-subscribers-uc.md)** | Teste jornadas que direcionem listas de assinaturas com endereçamento de email dinâmico. Valide expressões de personalização para um direcionamento de assinante correto. | Expressões do Personalization, endereçamento dinâmico, direcionamento de lista de assinaturas |
-| **[Enviar mensagens associadas ao tempo](../using/building-journeys/weekday-email-uc.md)** | Teste jornadas com condições baseadas em tempo para garantir que as mensagens sejam enviadas em dias específicos. Validar atividades de espera e lógica de programação. | Condições baseadas em tempo, atividades de espera, validação de programação |
-| **[Saiba mais sobre casos de uso do jornada](../using/building-journeys/jo-use-cases.md)** | Acesse uma coleção abrangente de exemplos práticos que abrangem eventos de experiência, mensagens multicanais e integrações externas do sistema. | Vários cenários, padrões avançados, testes de integração |
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../using/building-journeys/journeys-uc.md">
+<img alt="Enviar mensagens de vários canais" src="../using/assets/do-not-localize/start-journey.jpeg">
+</a>
+<div>
+<a href="../using/building-journeys/journeys-uc.md"><strong>Enviar mensagens multicanais</strong></a>
+</div>
+<p>
+Teste uma jornada que combine Ler público-alvo, eventos de reação e mensagens de email/push. Valide todo o fluxo, desde o direcionamento de público até a entrega de mensagens. Concentre-se na coordenação de vários canais, eventos de reação, validação de fluxo completa e etapas de teste/publicação.
+</p>
+</td>
+<td>
+<a href="../using/building-journeys/message-to-subscribers-uc.md">
+<img alt="Enviar uma mensagem aos assinantes" src="../using/assets/do-not-localize/start-quick.png">
+</a>
+<div>
+<a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Enviar uma mensagem aos assinantes</strong></a>
+</div>
+<p>
+Teste jornadas que direcionem listas de assinaturas com endereçamento de email dinâmico. Valide expressões de personalização para um direcionamento de assinante correto. Concentre-se em expressões de personalização, endereçamento dinâmico e direcionamento de lista de assinaturas.
+</p>
+</td>
+<td>
+<a href="../using/building-journeys/weekday-email-uc.md">
+<img alt="Enviar mensagens de limite de tempo" src="../using/assets/do-not-localize/icon-first-journey.svg">
+</a>
+<div>
+<a href="../using/building-journeys/weekday-email-uc.md"><strong>Enviar mensagens associadas ao tempo</strong></a>
+</div>
+<p>
+Teste jornadas com condições baseadas em tempo para garantir que as mensagens sejam enviadas em dias específicos. Validar atividades de espera e lógica de programação. Concentre-se em condições com base no tempo, atividades de espera e validação de agendamento.
+</p>
+</td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../using/building-journeys/jo-use-cases.md">
+<img alt="Saiba mais sobre casos de uso do jornada" src="../using/assets/do-not-localize/icon-quick-start.svg">
+</a>
+<div>
+<a href="../using/building-journeys/jo-use-cases.md"><strong>Saiba mais sobre casos de uso do jornada</strong></a>
+</div>
+<p>
+Acesse uma coleção abrangente de exemplos práticos que abrangem eventos de experiência, mensagens multicanais e integrações externas do sistema. Explore vários cenários, padrões avançados e abordagens de teste de integração.
+</p>
+</td>
+</tr></table>
 
 ## Principal terminologia
 
