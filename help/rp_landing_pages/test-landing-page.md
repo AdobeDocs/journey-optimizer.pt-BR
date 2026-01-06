@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: testar, validar, aprovar, aprovação, controle de qualidade, controle de qualidade, perfis de teste, personalização, renderização, verificação de spam, experimento de conteúdo, teste a/b, detecção de conflitos, seed-list, provas, dados de amostra, fluxo de trabalho de aprovação, teste de email, fluxo de trabalho de validação
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1fd6f4cc191a65fcd62457ee22509473bbfe2b98
+source-git-commit: ab78157988c533b3dc8a0c747bf094649c7a8671
 workflow-type: tm+mt
 source-wordcount: '2753'
 ht-degree: 4%
@@ -21,6 +21,101 @@ ht-degree: 4%
 Esta seção aborda todos os recursos de teste e aprovação no Journey Optimizer. Você encontrará ferramentas para pré-visualizar o conteúdo com perfis de teste, validar a lógica da jornada, verificar a renderização de email e as pontuações de spam, executar experimentos A/B, detectar conflitos e configurar fluxos de trabalho de aprovação.
 
 Esta página de aterrissagem ajuda você a escolher a abordagem de teste correta com base no que está criando (campanhas versus jornadas), orienta você nos fluxos de trabalho de teste recomendados e fornece acesso rápido a todos os recursos de teste e aprovação. Comece com [Escolha sua abordagem de teste](#choose-your-testing-approach) abaixo para identificar quais ferramentas se aplicam ao seu caso de uso. Para obter definições de termos de teste de chave, consulte [Terminologia de chave](#key-terminology).
+
+## Testar e aprovar o conteúdo
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Visualizar, testar e validar o conteúdo
+
+Saiba como visualizar, testar e validar um conteúdo personalizado por meio de perfis de teste, testes de renderização de email, avaliações de pontuação de spam e muito mais.
+
+[Explore a prévia e teste do conteúdo](preview-test-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+Fluxos de trabalho de aprovação para jornadas e campanhas
+
+Entenda como configurar, gerenciar e executar processos de aprovação para garantir o controle de qualidade de jornadas e campanhas.
+
+[Saiba mais sobre fluxos de trabalho de aprovação](approve-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Teste a jornada
+
+Valide sua jornada antes de publicá-la testando-a com perfis específicos para garantir que eventos, condições e ações funcionem conforme esperado. Disponível para jornadas de rascunho que usam um namespace.
+
+[Teste a jornada](../using/building-journeys/testing-the-journey.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Execução de teste de jornada
+
+Realize uma execução de teste para simular e validar o caminho de execução da jornada, identificando possíveis problemas antes da ativação.
+
+[Saiba mais sobre a execução de teste da jornada](../using/building-journeys/journey-dry-run.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+Monitoramento e solução de problemas
+
+Acesse recursos abrangentes de solução de problemas, alertas do sistema e códigos de erro para resolver problemas de execução e desempenho de jornadas.
+
+[Exibir monitoramento e solução de problemas](troubleshoot-journey-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Personalization Playground
+
+Experimente expressões de personalização em um ambiente seguro. Teste o código com dados de amostra e visualize os resultados antes de aplicar a campanhas e jornadas.
+
+[Saiba mais sobre o Personalization Playground](../using/personalization/personalize.md#playground)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+
+Experimentos de conteúdo e teste A/B
+
+Otimize suas campanhas testando várias variações de conteúdo e medindo o desempenho para identificar os tratamentos com melhor desempenho. Disponível somente para campanhas (suporta experimentos de A/B e bandit multiarmado).
+
+[Saiba Mais Sobre Experimentos De Conteúdo](../using/content-management/get-started-experiment.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+Listas de seeds para monitoramento pelas partes interessadas
+
+Inclua automaticamente endereços internos de partes interessadas nos deliveries para monitorar mensagens reais enviadas aos clientes para garantia de qualidade e conformidade. Disponível somente para canal de email.
+
+[Configurar Seed Lists](../using/configuration/seed-lists.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+Detecção de conflitos
+
+Identifique possíveis sobreposições entre campanhas e jornadas para evitar sobrecarregar os clientes com muitas comunicações simultâneas. Disponível para campanhas e unitário, Qualificação de público-alvo e jornadas Ler público-alvo.
+
+[Detectar conflitos](../using/conflict-prioritization/conflicts.md)
+:::
+
+::::
 
 ## Por que o teste e a aprovação são importantes
 
@@ -287,101 +382,6 @@ Veja como os conceitos de teste se aplicam a cenários do mundo real:
 | **[Enviar uma mensagem aos assinantes](../using/building-journeys/message-to-subscribers-uc.md)** | Teste jornadas que direcionem listas de assinaturas com endereçamento de email dinâmico. Valide expressões de personalização para um direcionamento de assinante correto. | Expressões do Personalization, endereçamento dinâmico, direcionamento de lista de assinaturas |
 | **[Enviar mensagens associadas ao tempo](../using/building-journeys/weekday-email-uc.md)** | Teste jornadas com condições baseadas em tempo para garantir que as mensagens sejam enviadas em dias específicos. Validar atividades de espera e lógica de programação. | Condições baseadas em tempo, atividades de espera, validação de programação |
 | **[Saiba mais sobre casos de uso do jornada](../using/building-journeys/jo-use-cases.md)** | Acesse uma coleção abrangente de exemplos práticos que abrangem eventos de experiência, mensagens multicanais e integrações externas do sistema. | Vários cenários, padrões avançados, testes de integração |
-
-## Testar e aprovar o conteúdo
-
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
-
-Visualizar, testar e validar o conteúdo
-
-Saiba como visualizar, testar e validar um conteúdo personalizado por meio de perfis de teste, testes de renderização de email, avaliações de pontuação de spam e muito mais.
-
-[Explore a prévia e teste do conteúdo](preview-test-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
-
-Fluxos de trabalho de aprovação para jornadas e campanhas
-
-Entenda como configurar, gerenciar e executar processos de aprovação para garantir o controle de qualidade de jornadas e campanhas.
-
-[Saiba mais sobre fluxos de trabalho de aprovação](approve-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
-
-Teste a jornada
-
-Valide sua jornada antes de publicá-la testando-a com perfis específicos para garantir que eventos, condições e ações funcionem conforme esperado. Disponível para jornadas de rascunho que usam um namespace.
-
-[Teste a jornada](../using/building-journeys/testing-the-journey.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
-
-Execução de teste de jornada
-
-Realize uma execução de teste para simular e validar o caminho de execução da jornada, identificando possíveis problemas antes da ativação.
-
-[Saiba mais sobre a execução de teste da jornada](../using/building-journeys/journey-dry-run.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
-
-Monitoramento e solução de problemas
-
-Acesse recursos abrangentes de solução de problemas, alertas do sistema e códigos de erro para resolver problemas de execução e desempenho de jornadas.
-
-[Exibir monitoramento e solução de problemas](troubleshoot-journey-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
-
-Personalization Playground
-
-Experimente expressões de personalização em um ambiente seguro. Teste o código com dados de amostra e visualize os resultados antes de aplicar a campanhas e jornadas.
-
-[Saiba mais sobre o Personalization Playground](../using/personalization/personalize.md#playground)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
-
-Experimentos de conteúdo e teste A/B
-
-Otimize suas campanhas testando várias variações de conteúdo e medindo o desempenho para identificar os tratamentos com melhor desempenho. Disponível somente para campanhas (suporta experimentos de A/B e bandit multiarmado).
-
-[Saiba Mais Sobre Experimentos De Conteúdo](../using/content-management/get-started-experiment.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
-
-Listas de seeds para monitoramento pelas partes interessadas
-
-Inclua automaticamente endereços internos de partes interessadas nos deliveries para monitorar mensagens reais enviadas aos clientes para garantia de qualidade e conformidade. Disponível somente para canal de email.
-
-[Configurar Seed Lists](../using/configuration/seed-lists.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
-
-Detecção de conflitos
-
-Identifique possíveis sobreposições entre campanhas e jornadas para evitar sobrecarregar os clientes com muitas comunicações simultâneas. Disponível para campanhas e unitário, Qualificação de público-alvo e jornadas Ler público-alvo.
-
-[Detectar conflitos](../using/conflict-prioritization/conflicts.md)
-:::
-
-::::
 
 ## Principal terminologia
 
