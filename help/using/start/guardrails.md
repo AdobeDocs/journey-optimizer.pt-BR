@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
+source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
 workflow-type: tm+mt
-source-wordcount: '3574'
-ht-degree: 99%
+source-wordcount: '3661'
+ht-degree: 96%
 
 ---
 
@@ -21,19 +21,19 @@ Abaixo você encontrará medidas de proteção e limitações ao usar o [!DNL Ad
 
 Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-
 >[!CAUTION]
 >
 >* [As medidas de proteção para dados e segmentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails){target="_blank"} também se aplicam ao Adobe Journey Optimizer.
 >
 >* Consulte também [Medidas de proteção para a ingestão de dados no perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
+## Sistema e plataforma {#system-platform}
 
-## Navegadores compatíveis {#browsers}
+### Navegadores compatíveis {#browsers}
 
 A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de maneira ideal na versão mais recente do Google Chrome. Você pode ter problemas ao usar determinados recursos em versões mais antigas ou outros navegadores.
 
-## Medidas de proteção de conjuntos de dados {#datasets-guardrails}
+### Medidas de proteção de conjuntos de dados {#datasets-guardrails}
 
 A partir de fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer para **novas sandboxes e organizações** da seguinte maneira:
 
@@ -42,12 +42,13 @@ A partir de fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) s
 
 Essa alteração será implementada nas **sandboxes de clientes existentes** em uma próxima fase. [Saiba mais sobre as medidas de proteção de tempo de vida (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
 
-## Medidas de proteção de canais {#channel-guardrails}
+## Canais e mensagens {#channel-guardrails}
+
+Esta seção abrange as medidas de proteção para todos os canais de comunicação, incluindo email, SMS, canais de entrada (na Web, no aplicativo, com base em código, cartões de conteúdo) e mensagens transacionais.
 
 >[!NOTE]
 >
 >Em raras circunstâncias, interrupções temporárias em uma região específica podem resultar na exclusão de perfis válidos das jornadas ou de emails marcados incorretamente como rejeições. Depois que os serviços forem restaurados, verifique novamente os registros de jornada, os campos do perfil de consentimento e publique novamente a jornada, se necessário. No caso de uma interrupção do ISP, saiba como remover perfis da lista de supressão [nesta seção](../configuration/manage-suppression-list.md#remove-from-suppression-list).
->
 
 ### Medidas de proteção de email {#message-guardrails}
 
@@ -117,7 +118,11 @@ A Adobe recomenda definir o valor de TTL como 14 dias para corresponder ao TTL d
 
 O Journey Optimizer aceita um volume máximo de 500 mensagens transacionais por segundo em campanhas.
 
-## Medidas de proteção das páginas de destino {#lp-guardrails}
+## Conteúdo e Assets {#content-assets}
+
+Esta seção aborda as medidas de proteção para a criação e o gerenciamento de conteúdo, incluindo páginas de aterrissagem, subdomínios e fragmentos.
+
+### Medidas de proteção das páginas de destino {#lp-guardrails}
 
 As seguintes medidas de proteção se aplicam às [páginas de destino](../landing-pages/get-started-lp.md):
 
@@ -126,11 +131,11 @@ As seguintes medidas de proteção se aplicam às [páginas de destino](../land
 * Não é possível adicionar um pré-cabeçalho a uma página de destino.
 * Não é possível selecionar a opção **Codifique você mesmo** ao criar uma página de destino principal.
 
-## Medidas de proteção de subdomínios {#subdomain-guardrails}
+### Medidas de proteção de subdomínios {#subdomain-guardrails}
 
 As medidas de proteção e limitações aplicáveis à delegação de subdomínios no Journey Optimizer estão detalhadas [nesta página](../configuration/delegate-subdomain.md#guardrails).
 
-## Medidas de proteção de fragmentos {#fragments-guardrails}
+### Medidas de proteção de fragmentos {#fragments-guardrails}
 
 As seguintes medidas de proteção se aplicam aos [fragmentos](../content-management/fragments.md):
 
@@ -143,7 +148,11 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
 * Fragmentos visuais não são compatíveis entre os modos de uso de temas e estilo manual. Para poder usar um fragmento em um conteúdo ao qual deseja aplicar um tema, esse fragmento precisa ser criado no modo de uso de temas. [Saiba mais sobre temas](../email/apply-email-themes.md)
 * Quando o rastreamento é habilitado em uma jornada ou campanha, se você adicionar links a um fragmento e esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links inclusos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
 
-## Medidas de proteção de públicos-alvo e perfis {#audience}
+## Públicos-alvo e perfis {#audiences-profiles}
+
+Esta seção aborda as medidas de proteção para o gerenciamento de público-alvo, o manuseio de perfis e as considerações de perfil ativáveis.
+
+### Medidas de proteção de públicos-alvo e perfis {#audience}
 
 * Você pode publicar até 10 composições de público-alvo em uma determinada sandbox. Se tiver atingido esse limite, será necessário excluir uma composição para liberar espaço e publicar uma nova.
 
@@ -153,14 +162,18 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
 
 * Ao direcionar perfis pseudônimos (visitantes não autenticados) com canais de entrada, considere configurar um tempo de vida (TTL) para exclusão automática de perfis com o fim gerenciar a contagem de perfis engajáveis e os custos associados. [Saiba mais](#profile-management-inbound)
 
-## Medidas de proteção de decisão e gestão de decisões {#decisioning-guardrails}
+## Gestão de decisões {#decision-management}
+
+### Medidas de proteção de decisão e gestão de decisões {#decisioning-guardrails}
 
 As medidas de proteção e limitações que devem ser consideradas ao trabalhar com a Gestão de decisões ou a Gestão de decisões estão detalhadas nas seções Gestão de decisões e gestão de decisões:
 
 * [Medidas de proteção e limitações do serviço de decisão](../experience-decisioning/decisioning-guardrails.md)
 * [Medidas de proteção e limitações da gestão de decisões](../offers/decision-management-guardrails.md)
 
-## Medidas de proteção de jornada {#journeys-guardrails}
+## Jornadas {#journeys-guardrails}
+
+Esta seção aborda as medidas de proteção e limitações para jornadas, incluindo limitações gerais de jornada, componentes de jornada (ações, eventos, fontes de dados), atividades de jornada e recursos específicos, como ações personalizadas e editor de expressão.
 
 ### Medidas de proteção gerais da jornada {#journeys-guardrails-journeys}
 
@@ -333,6 +346,8 @@ Consulte também [esta página](../building-journeys/read-audience.md#must-read)
 
 Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Atualizar perfil]**. Elas são listadas [nesta página](../building-journeys/update-profiles.md).
 
-## Proteções da orquestração de campanhas {#orchestration-guardrails}
+## Orquestração de campanha   {#campaign-orchestration}
+
+### Proteções da orquestração de campanhas {#orchestration-guardrails}
 
 As medidas de proteção e limitações que precisam ser consideradas ao trabalhar com a orquestração de campanhas estão detalhadas nesta seção: [Medidas de proteção e limitações](../orchestrated/guardrails.md).
