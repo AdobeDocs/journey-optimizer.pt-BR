@@ -8,15 +8,15 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 # Introdução para administradores do sistema {#get-started-sys-admins}
 
-Como **Administrador do sistema**, você configura o ambiente do Journey Optimizer e gerencia o acesso para permitir que suas equipes trabalhem de maneira eficiente e segura. Execute as etapas de configuração essenciais para que o [Engenheiro de dados](data-engineer.md), [Desenvolvedor](developer.md) e [Profissional de marketing](marketer.md) possa começar a trabalhar com o [!DNL Adobe Journey Optimizer].
+Como **admin de sistema**, você configura o ambiente do Journey Optimizer e gerencia o acesso para permitir que suas equipes trabalhem de maneira eficiente e segura. Execute as etapas de configuração essenciais para que [engenheiros(as) de dados](data-engineer.md), [desenvolvedores(as)](developer.md) e [profissionais de marketing](marketer.md) possam começar a trabalhar com o [!DNL Adobe Journey Optimizer].
 
 Suas principais responsabilidades incluem a configuração de grupos de usuários e permissões, a criação e o gerenciamento de sandboxes para particionar dados e jornadas para diferentes grupos de usuários e a configuração de canais de entrega e predefinições de mensagem para garantir uma identidade visual consistente entre as várias mensagens e ativos entregues por meio do Journey Optimizer. Você garante que as pessoas certas tenham acesso aos recursos certos, mantendo a segurança e a governança.
 
@@ -39,14 +39,14 @@ Siga estas etapas para configurar o gerenciamento de acesso:
 
 Além disso, você deve adicionar usuários que precisam de acesso ao Assets Essentials nas funções **Usuários consumidores do Assets Essentials** e/ou **Usuários do Assets Essentials**. [Leia mais na documentação do Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=pt-BR){target="_blank"}.
 
-Ao acessar o [!DNL Journey Optimizer] pela primeira vez, você é provisionado com uma sandbox de produção e aloca um determinado número de IPs dependendo do seu contrato.
+Ao acessar o [!DNL Journey Optimizer] pela primeira vez, você receberá acesso a uma sandbox de produção e a um determinado número de IPs dependendo do seu contrato.
 
 ## Configurar canais e mensagens
 
 Para permitir que [profissionais de marketing](marketer.md) criem e enviem mensagens, acesse o menu **ADMINISTRAÇÃO**. Navegue pelo menu **[!UICONTROL Canais]** para definir as configurações de canal.
 
 >[!NOTE]
->Como **Administrador do sistema**, se não conseguir visualizar o menu **[!UICONTROL Canais]** no [!DNL Journey Optimizer], atualize suas permissões no produto [Permissões](../../administration/permissions.md){target="_blank"}.
+>Como **admin de sistema**, se não conseguir visualizar o menu **[!UICONTROL Canais]** no [!DNL Journey Optimizer], atualize suas permissões no produto [Permissões](../../administration/permissions.md){target="_blank"}.
 
 Siga estas etapas:
 
@@ -54,9 +54,9 @@ Siga estas etapas:
 
    * Defina as **configurações de notificação por push** no [!DNL Adobe Experience Platform] e na Coleção de dados da Adobe Experience Platform. [Saiba mais](../../push/push-gs.md)
 
-   * Crie **configurações de canal** para configurar todos os parâmetros técnicos necessários para email, SMS, push, no aplicativo, Web e outros canais. [Saiba mais](../../configuration/channel-surfaces.md)
+   * Crie **configurações de canal** para definir todos os parâmetros técnicos necessários para email, SMS, push, no aplicativo, web e outros canais. [Saiba mais](../../configuration/channel-surfaces.md)
 
-   * Configure o **canal de SMS** para definir todos os parâmetros técnicos necessários para o SMS. [Saiba mais](../../sms/sms-configuration.md)
+   * Configure o **Canal SMS** para definir todos os parâmetros técnicos necessários para SMS. [Saiba mais](../../sms/sms-configuration.md)
 
    * Gerencie o número de dias durante os quais são executadas **tentativas** antes do envio de endereços de email para a lista de supressão. [Saiba mais](../../configuration/manage-suppression-list.md)
 
@@ -80,17 +80,17 @@ Siga estas etapas:
 
 ## Recursos adicionais
 
-À medida que as necessidades de sua organização aumentam, considere estes recursos avançados:
+À medida que as necessidades da organização aumentam, considere estes recursos avançados:
 
-* **Políticas de consentimento**: se sua organização adquiriu o Healthcare Shield ou o Privacy and Security Shield, crie políticas de consentimento para respeitar as preferências do cliente em todos os canais. [Saiba mais](../../action/consent.md)
+* **Políticas de consentimento**: se a organização adquiriu o Healthcare Shield ou o Privacy and Security Shield, crie políticas de consentimento para atender às preferências do cliente em todos os canais. [Saiba mais](../../action/consent.md)
 
 * **Políticas de governança de dados**: aplique rótulos e políticas de uso de dados para controlar como os dados são usados em ações de marketing. [Saiba mais](../../action/action-privacy.md)
 
-* **Planos de aquecimento de IP**: aumente gradualmente os volumes de envio de email para criar a reputação do remetente com provedores de email. [Saiba mais](../../configuration/ip-warmup-gs.md)
+* **Planos de aquecimento de IP**: aumente gradualmente os volumes de envio de email para construir a reputação do remetente junto aos provedores de email. [Saiba mais](../../configuration/ip-warmup-gs.md)
 
 ## Colaborar entre funções
 
-Seu trabalho administrativo permite que todas as equipes tenham êxito:
+O trabalho administrativo permite que todas as equipes tenham êxito:
 
 >[!BEGINTABS]
 
@@ -99,8 +99,8 @@ Seu trabalho administrativo permite que todas as equipes tenham êxito:
 Colabore com [engenheiros de dados](data-engineer.md) no gerenciamento e acesso aos dados:
 
 * Conceder permissões para gerenciamento de dados e criação de esquema
-* Aprovar o acesso à sandbox para desenvolvimento e teste
-* Coordenar as políticas de retenção de dados e as regras de governança
+* Aprovar o acesso à sandbox para desenvolvimento e testes
+* Coordenar nas políticas de retenção de dados e regras de governança
 * Habilitar o acesso a recursos avançados, como a Composição de público-alvo federado
 
 >[!TAB Habilitar desenvolvedores]
@@ -108,18 +108,18 @@ Colabore com [engenheiros de dados](data-engineer.md) no gerenciamento e acesso 
 Colabore com [desenvolvedores](developer.md) no acesso e teste da API:
 
 * Forneça credenciais de API por meio do Adobe Developer Console
-* Configurar ambientes de sandbox para desenvolvimento e teste
-* Aprovar configurações de canal (certificados push, provedores SMS)
-* Coordenar-se em ambientes de teste e estratégia de implantação
+* Configurar ambientes de sandbox para desenvolvimento e testes
+* Aprovar configurações de canal (certificados de push, provedores SMS)
+* Coordenar em ambientes de teste e estratégia de implantação
 
->[!TAB Capacitar Profissionais De Marketing]
+>[!TAB Capacitar Profissionais de marketing]
 
-Colabore com [Profissionais de marketing](marketer.md) sobre permissões e configuração de canal:
+Colaborar com [Profissionais de marketing](marketer.md) nas permissões e na configuração de canal:
 
-* Atribua as permissões apropriadas para criar jornadas e campanhas
-* Configurar os canais que eles usarão (email, push, SMS etc.)
-* Suporte a ambientes de teste e fluxos de trabalho de aprovação
-* Habilitar o acesso a novos recursos
+* Atribuir as permissões apropriadas para criar jornadas e campanhas
+* Configurar os canais que elas usarão (email, push, SMS etc.)
+* Dar suporte a ambientes de teste e fluxos de trabalho de aprovação
+* Habilitar o acesso a novos recursos e funcionalidades
 
 >[!ENDTABS]
 
@@ -128,5 +128,5 @@ Colabore com [Profissionais de marketing](marketer.md) sobre permissões e confi
 Depois que o ambiente for configurado:
 
 1. **Verificar configuração**: confirme se todos os membros da equipe podem acessar seus recursos necessários
-2. **Monitorar uso**: Use os painéis de administração para rastrear o uso do sistema e identificar problemas
+2. **Monitorar uso**: use os painéis de administração para acompanhar o uso do sistema e identificar problemas
 3. **Manter permissões**: revisar e atualizar permissões regularmente à medida que as funções da equipe evoluem

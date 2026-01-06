@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na 
 * Use um modelo personalizado ou específico da marca para criar seu conteúdo de email usando o Assistente de IA no Adobe Journey Optimizer. Recomenda-se um modelo de email com 8-10 imagens, no máximo.
 * Relate resultados problemáticos usando os ícones de “polegar para cima”, “polegar para baixo” ou o sinalizador ao selecionar variantes.
 * O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR)
-* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html)
+* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 As seguintes limitações se aplicam ao Assistente de IA no Journey Optimizer:
 
@@ -129,10 +129,10 @@ As seguintes limitações se aplicam ao Assistente de IA no Journey Optimizer:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-full-content.md">
-<img alt="Geração de conteúdo completo" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="Geração de conteúdo integral" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>Gerar conteúdo completo</strong></a>
+<a href="generative-full-content.md"><strong>Gerar conteúdo integral</strong></a>
 </div>
 <p>
 </td>
@@ -157,5 +157,5 @@ As seguintes limitações se aplicam ao Assistente de IA no Journey Optimizer:
 ## Recursos adicionais
 
 * **[Experimentação generativa](generative-experimentation.md)**: entenda como combinar conteúdo gerado por IA com experimentação.
-* **[Casos de uso do Assistente de IA](generative-uc.md)** - Saiba mais sobre como usar o Assistente de IA por meio de casos de uso
+* **[Casos de uso do Assistente de IA](generative-uc.md)**: saiba como usar o Assistente de IA por meio de casos de uso
 * **[Tutoriais do Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do Assistente de IA e as práticas recomendadas.

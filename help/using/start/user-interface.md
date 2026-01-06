@@ -9,19 +9,19 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1126'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 # Navegar na interface {#user-interface}
 
-Para acessar o Adobe Journey Optimizer, entre no [Adobe Experience Cloud](https://experience.adobe.com) com sua Adobe ID e selecione [!DNL Journey Optimizer].
+Para acessar o Adobe Journey Optimizer, faça logon na [Adobe Experience Cloud](https://experience.adobe.com) com sua Adobe ID e selecione [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->* Os componentes e recursos disponíveis em seu ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+>* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 >* Esta documentação é atualizada com frequência. Algumas capturas de tela podem ser um pouco diferentes da interface.
 
 ## Tour rápido {#quick-tour}
@@ -33,90 +33,90 @@ A interface do Journey Optimizer consiste em quatro áreas principais:
 1. **Navegação à esquerda** - Acesse todos os recursos e funcionalidades organizados por função
 2. **Barra superior** - Pesquisa universal, ajuda, notificações e configurações
 3. **Página inicial** - Acesso rápido a itens recentes e recursos úteis
-4. **Espaço de trabalho principal** - Onde você cria e gerencia seu conteúdo
+4. **Espaço de trabalho principal** - Onde você cria e gerencia o conteúdo
 
 ## Navegação à esquerda {#left-nav}
 
-A navegação à esquerda organiza os recursos do Journey Optimizer em categorias funcionais. Os itens de menu disponíveis dependem das suas permissões e licença.
+A navegação à esquerda organiza os recursos do Journey Optimizer em categorias funcionais. Os itens de menu disponíveis dependem das permissões e da licença.
 
 ### Seções principais {#main-sections}
 
-**Página inicial** - Seu ponto de partida com acesso rápido a itens e recursos úteis criados recentemente
+**Página inicial** - Seu ponto de partida com acesso rápido a itens criados recentemente e recursos úteis
 
-**Gerenciamento de Jornadas** - Criar e gerenciar experiências do cliente
-* **Campanhas** - Criar mensagens únicas ou agendadas para públicos-alvo específicos. [Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
-* **Jornada** - Crie experiências de clientes em várias etapas e entre canais. [Criar a primeira jornada](../building-journeys/journey-gs.md)
+**Gerenciamento de jornada** - Crie e gerencie experiências do cliente
+* **Campanhas** - Crie mensagens únicas ou agendadas para públicos-alvo específicos. [Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
+* **Jornada** - Crie experiências do cliente em várias etapas e entre canais. [Criar a primeira jornada](../building-journeys/journey-gs.md)
 * **Relatórios** - Analise o desempenho com relatórios integrados do Customer Journey Analytics. [Exibir a documentação dos relatórios](../reports/campaign-global-report-cja.md)
 
-**Gerenciamento de decisões** - Gerencie ofertas personalizadas. [Saiba mais sobre a gestão de decisões](../offers/get-started/starting-offer-decisioning.md)
-* **Ofertas** - Criar e gerenciar ofertas personalizadas
-* **Componentes** - Configurar disposições, regras e marcas para ofertas
+**Gestão de decisões** - Gerencie ofertas personalizadas. [Saiba mais sobre a gestão de decisões](../offers/get-started/starting-offer-decisioning.md)
+* **Ofertas** - Crie e gerencie ofertas personalizadas
+* **Componentes** - Configure posicionamentos, regras e tags para ofertas
 
-**Gerenciamento de conteúdo** - Criar e organizar conteúdo
+**Gerenciamento de conteúdo** - Crie e organize conteúdo
 * **Assets** - Repositório centralizado para imagens e mídia. [Gerenciar ativos](../integrations/assets.md)
 * **Modelos de conteúdo** - Modelos de mensagem reutilizáveis para campanhas e jornadas. [Criar modelos](../content-management/content-templates.md)
 * **Fragmentos** - Blocos de conteúdo que podem ser usados em várias mensagens. [Trabalhar com fragmentos](../content-management/fragments.md)
-* **Páginas de aterrissagem** - Formulários Web para assinaturas e preferências. [Projetar páginas de destino](../landing-pages/get-started-lp.md)
-* **Manuais de Caso de Uso** - Fluxos de trabalho pré-criados para cenários de marketing comuns. [Explorar manuais](ai-features.md#playbooks)
+* **Páginas de destino** - Formulários web para assinaturas e preferências. [Projetar páginas de destino](../landing-pages/get-started-lp.md)
+* **Manuais de estratégia de caso de uso** - Fluxos de trabalho pré-criados para cenários de marketing comuns. [Explorar manuais de estratégia](ai-features.md#playbooks)
 
 **Gerenciamento de dados** - Gerencie sua base de dados. [Saiba mais sobre esquemas e conjuntos de dados](../data/get-started-schemas.md)
-* **Esquemas** - Definir estrutura de dados
+* **Esquemas** - defina a estrutura de dados
 * **Conjuntos de dados** - Armazene e gerencie coleções de dados
-* **Consultas** - Gravar e executar consultas
-* **Monitoramento** - Rastrear assimilação de dados
+* **Consultas** - Gravar e realizar consultas
+* **Monitoramento** - Rastrear ingestão de dados
 
 **Conexões** - Integrar a outros sistemas
 * **Fontes** - Assimilar dados de sistemas externos. [Configurar fontes](get-started-sources.md)
-* **Destinos** - Exportar dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md)
+* **Destinos** - Exporte dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md)
 
-**Cliente** - Gerenciar públicos e perfis
+**Cliente** - Gerencie públicos-alvo e perfis
 * **Públicos-alvo** - Crie e gerencie segmentos de clientes. [Trabalhar com públicos-alvo](../audience/about-audiences.md)
-* **Listas de assinaturas** - Gerenciar listas de aceitação. [Gerenciar assinaturas](../landing-pages/subscription-list.md)
-* **Perfis** - Exibir perfis de clientes unificados. [Explorar perfis](../audience/get-started-profiles.md)
-* **Identidades** - Gerenciar resolução de identidade. [Saiba mais sobre identidades](../audience/get-started-identity.md)
+* **Listas de assinaturas**: gerencie listas de aceitação. [Gerenciar assinaturas](../landing-pages/subscription-list.md)
+* **Perfis**: exibir perfis de clientes unificados. [Explorar perfis](../audience/get-started-profiles.md)
+* **Identidades** - Gerencie a resolução de identidade. [Saiba mais sobre identidades](../audience/get-started-identity.md)
 
 **Privacidade** - Controle a privacidade e a conformidade. [Visão geral de privacidade](../privacy/get-started-privacy.md)
-* **Políticas** - Definir políticas de governança de dados
-* **Solicitações** - Manipular solicitações de privacidade (GDPR, CCPA)
-* **Auditoria** - Revisar logs de atividades. [Exibir logs de auditoria](../privacy/audit-logs.md)
-* **Ciclo de vida dos dados** - Configurar retenção de dados
+* **Políticas** - Defina políticas de governança de dados
+* **Solicitações** - Processe solicitações de privacidade (GDPR, CCPA)
+* **Auditoria** - Revise logs de atividade. [Exibir logs de auditoria](../privacy/audit-logs.md)
+* **Ciclo de vida dos dados** - Configure a retenção de dados
 
-**Administração** - Definir configurações do sistema. [Visão geral do controle de acesso](../administration/permissions-overview.md)
+**Administração** - Defina as configurações do sistema. [Visão geral do controle de acesso](../administration/permissions-overview.md)
 * **Configurações** - Configure eventos, fontes de dados e ações. [Configurar canais](../configuration/get-started-configuration.md)
-* **Regras de negócio** - Controlar frequência de mensagem e entrada de jornada. [Configurar regras de negócio](../conflict-prioritization/rule-sets.md)
+* **Regras de negócios**: controla a frequência de mensagens e a entrada da jornada. [Configurar regras de negócios](../conflict-prioritization/rule-sets.md)
 * **Alertas** - Exibir e gerenciar alertas do sistema. [Monitorar alertas](../reports/alerts.md)
 * **Sandboxes** - Gerencie ambientes e copie objetos entre sandboxes. [Trabalhar com sandboxes](../administration/sandboxes.md)
 * **Canais** - Defina as configurações e a capacidade de entrega do canal. [Definir configurações de canal](../configuration/channel-surfaces.md) | [Introdução à configuração](../configuration/get-started-configuration.md)
-* **Marcas** - Organiza e categoriza o conteúdo. [Trabalhar com marcas unificadas](search-filter-categorize.md#tags)
+* **Tags** - Organiza e categoriza o conteúdo. [Trabalhar com tags unificadas](search-filter-categorize.md#tags)
 
 ## Recursos da barra superior {#top-bar}
 
 ### Pesquisa universal {#search}
 
-Use o ícone de pesquisa para localizar rapidamente jornadas, campanhas, ativos e outros objetos no Journey Optimizer. Digite palavras-chave para ver os resultados relevantes de todas as áreas da plataforma.
+Use o ícone de pesquisa para localizar rapidamente jornadas, campanhas, ativos e outros objetos no Journey Optimizer. Digite palavras-chave para ver resultados relevantes de todas as áreas da plataforma.
 
 ### Ajuda e suporte {#help}
 
-Clique no ícone da **Ajuda** para:
+Clique no ícone de **Ajuda** para:
 * Pesquisar artigos e vídeos de ajuda
 * Acessar a ajuda contextual da página atual
-* Entre em contato com o suporte da Adobe
+* Entrar em contato com o suporte da Adobe
 * Compartilhar feedback
 
 ![Exemplo de ajuda contextual](assets/do-not-localize/Context-help.gif)
 
 ### Notificações {#notifications}
 
-Ative as notificações no produto e por email para manter-se informado sobre:
+Habilite as notificações no produto e por email para manter-se informado(a) sobre:
 * **Alertas** - Falhas do sistema e problemas de desempenho
-* **Aprovações** - Solicitações que exigem sua revisão
+* **Aprovações** - Solicitações que exigem revisão
 * **Novas versões** - Atualizações de produtos e novos recursos
 
 Para configurar notificações:
 
-1. Clique no seu ícone de perfil e selecione **[!UICONTROL Preferências]**
+1. Clique no ícone do perfil e selecione **[!UICONTROL Preferências]**
 2. Em **[!UICONTROL Notificações]**, localize **[!UICONTROL Journey Optimizer]**
-3. Ativar os tipos de notificação que você deseja receber
+3. Habilite os tipos de notificação que deseja receber
 
 ![Preferências de notificação](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
@@ -126,44 +126,44 @@ A interface está disponível em inglês, francês, alemão, italiano, espanhol,
 
 Para alterar o idioma:
 
-1. Clique em **Preferências** no menu de perfil
+1. Clique em **Preferências** no menu do perfil
 2. Selecione o idioma de sua preferência
-3. Opcionalmente, selecione um segundo idioma como alternativa
+3. Selecione, de forma opcional, um segundo idioma como alternativa
 4. Clique em **Salvar**
 
 ## Página inicial {#home-page}
 
-A home page fornece:
+A página inicial fornece:
 
 * **Recentes** - Atalhos para eventos, jornadas, campanhas e outros objetos criados recentemente
-* **Casos de uso** - Cenários pré-criados para ajudar você a começar rapidamente (criar perfis de teste, enviar mensagens de aniversário etc.)
+* **Casos de uso** - Cenários pré-criados para uma introdução rápida (criar perfis de teste, enviar mensagens de aniversário, etc.)
 * **Recursos** - Links para documentação, tutoriais e suporte
 
 ### Casos de uso no produto {#use-cases}
 
-Os workflows de início rápido ajudam você a realizar tarefas comuns:
+Os fluxos de trabalho de início rápido ajudam a realizar tarefas comuns:
 
-* **Criar perfis de teste** - Gerar perfis de teste usando modelos CSV
+* **Criar perfis de teste** - Gerar perfis de teste com modelos CSV
 * **Enviar mensagens de aniversário** - Enviar emails de aniversário automaticamente (em breve)
-* **Incorpore novos clientes** - Série de boas-vindas para novos clientes (em breve)
+* **Integrar novos clientes** - Série de boas-vindas para novos clientes (em breve)
 * **Enviar push para listas importadas** - Notificações rápidas por push de dados CSV (em breve)
 
-Clique em **[!UICONTROL Exibir detalhes]** para saber mais sobre cada caso de uso, ou **[!UICONTROL Começar]** para começar.
+Clique em **[!UICONTROL Exibir detalhes]** para saber mais sobre cada caso de uso, ou em **[!UICONTROL Iniciar]** para começar.
 
 ## Assistente de IA {#ai-assistant}
 
 O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no ícone do Assistente de IA na barra superior para:
 * Obtenha respostas sobre os recursos do produto
-* Receba informações operacionais sobre suas jornadas
-* Navegar pelos conceitos e práticas recomendadas
+* Receba insights operacionais de jornadas
+* Navegue pelos conceitos e práticas recomendadas
 
 [Saiba mais sobre o Assistente de IA](ai-features.md#ai-assistant)
 
 ## Tópicos relacionados {#related-topics}
 
-* [Escolha seu caminho de aprendizado por função](quick-start.md)
-* [Pesquisar, filtrar e categorizar o conteúdo](search-filter-categorize.md)
-* [Entender como o Journey Optimizer funciona](understanding-ajo.md)
+* [Escolha o caminho de aprendizagem por função](quick-start.md)
+* [Pesquisar, filtrar e categorizar conteúdo](search-filter-categorize.md)
+* [Noções básicas sobre como o Journey Optimizer funciona](understanding-ajo.md)
 * [Recursos de acessibilidade](accessibility.md)
 
 

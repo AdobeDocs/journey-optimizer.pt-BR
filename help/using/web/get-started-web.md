@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Conheça as etapas detalhadas para criar uma campanha da web [neste vídeo](crea
 * **[Editar conteúdo da web](create-web.md#edit-web-content)**: domine o designer da web para modificar páginas usando modos de edição visuais ou não visuais.
 * **[Gerenciar modificações na web](manage-web-modifications.md)**: saiba como organizar, aplicar e gerenciar modificações nas experiências da web.
 * **[Monitorar experiências da web](monitor-web-experiences.md)**: acompanhe e analise o desempenho das campanhas da web com relatórios detalhados.
-* **[Gerar conteúdo da Web com o Assistente de IA](../content-management/generative-full-content.md)** - Aproveite a IA para criar e otimizar conteúdo da Web com texto e imagens.
+* **[Gerar conteúdo da web com o Assistente de IA](../content-management/generative-full-content.md)**: aproveite a IA para criar e otimizar conteúdo da web com texto e imagens.
 * **[Tutoriais das campanhas da web](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do canal da web e as práticas recomendadas.
 
 

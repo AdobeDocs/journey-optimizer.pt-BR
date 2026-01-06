@@ -6,9 +6,9 @@ description: Assistente de IA para geração de conteúdo
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ O Assistente de IA do Adobe Journey Optimizer revoluciona a criação de conteú
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao Assistente de IA
 
@@ -30,31 +30,31 @@ Saiba como acessar e configurar o recurso Assistente de IA para aprimorar a cria
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-Gerar conteúdo completo
+Gerar conteúdo integral
 
-Descubra como usar o Assistente de IA para criar conteúdo completo, incluindo texto e imagens para emails, notificações por push, páginas da Web e páginas de aterrissagem.
+Saiba mais sobre como usar o Assistente de IA para criar conteúdo integral, incluindo texto e imagens para emails, notificações por push, páginas da web e páginas de destino.
 
-[Saiba mais sobre a geração completa de conteúdo](../using/content-management/generative-full-content.md)
+[Saiba mais sobre a geração de conteúdo integral](../using/content-management/generative-full-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Gerar somente texto
 
-Use o AI Assistant para gerar e refinar conteúdo de texto para todos os canais, incluindo email, SMS, notificações por push, páginas da Web e páginas de aterrissagem.
+Use o Assistente de IA para gerar e refinar conteúdo de texto para todos os canais, incluindo email, SMS, notificações por push, páginas da web e páginas de destino.
 
-[Explorar geração de texto](../using/content-management/generative-text.md)
+[Explorar a geração de texto](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Gerar somente imagens
 
-Crie e personalize imagens com o Assistente de IA para usar em emails, notificações por push, páginas da Web e páginas de aterrissagem.
+Crie e personalize imagens com o Assistente de IA para usar em emails, notificações por push, páginas da web e páginas de destino.
 
 [Gerar imagens](../using/content-management/generative-image.md)
 :::
