@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: testar, validar, aprovar, aprovação, controle de qualidade, controle de qualidade, perfis de teste, personalização, renderização, verificação de spam, experimento de conteúdo, teste a/b, detecção de conflitos, seed-list, provas, dados de amostra, fluxo de trabalho de aprovação, teste de email, fluxo de trabalho de validação
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 3f2bf04dbeb3e5099c151a412a4a5e54f13122ee
+source-git-commit: 1f0890dd4257f049fd041dc2dbf6d45cd0d7092c
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2284'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ Esta página de aterrissagem ajuda você a escolher a abordagem de teste correta
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, testar e validar o conteúdo
 
@@ -36,7 +36,7 @@ Saiba como visualizar, testar e validar um conteúdo personalizado por meio de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Fluxos de trabalho de aprovação para jornadas e campanhas
 
@@ -46,7 +46,7 @@ Entenda como configurar, gerenciar e executar processos de aprovação para gara
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Teste a jornada
 
@@ -56,7 +56,7 @@ Valide sua jornada antes de publicá-la testando-a com perfis específicos para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Execução de teste de jornada
 
@@ -66,7 +66,7 @@ Realize uma execução de teste para simular e validar o caminho de execução d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoramento e solução de problemas
 
@@ -76,7 +76,7 @@ Acesse recursos abrangentes de solução de problemas, alertas do sistema e cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -96,7 +96,7 @@ Otimize suas campanhas testando várias variações de conteúdo e medindo o des
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas de seeds para monitoramento pelas partes interessadas
 
@@ -106,7 +106,7 @@ Inclua automaticamente endereços internos de partes interessadas nos deliveries
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detecção de conflitos
 
@@ -290,89 +290,16 @@ Para maximizar a eficácia de seus esforços de teste, siga estas práticas reco
 
 ## Fluxo de trabalho de teste recomendado
 
-Siga esta abordagem sistemática para garantir testes completos e aprovações tranquilas:
+Siga esta abordagem de quatro fases para validar suas campanhas e jornadas antes do lançamento:
 
-### &#x200B;1. Desenvolvimento e visualização de conteúdo
+| Fase | O que testar | Principais ações |
+|-------|-------------|-------------|
+| **1. Validação de conteúdo** | Personalization, design, renderização | [Visualizar com perfis de teste](../using/content-management/preview-test.md), testar [várias variações](../using/test-approve/simulate-sample-input.md) com CSV/JSON, verificar [renderização](../using/content-management/rendering.md) entre dispositivos |
+| **2. Verificações técnicas** | Capacidade de entrega, links, conflitos | Executar [verificações de pontuação de spam](../using/content-management/spam-report.md), validar links, verificar [conflitos](../using/conflict-prioritization/conflicts.md) com outras campanhas |
+| **3. Lógica de jornada** (somente jornada) | Condições de entrada, fluxo, ramificação | Use o [modo de teste](../using/building-journeys/testing-the-journey.md) para simular a progressão, execute [dry run](../using/building-journeys/journey-dry-run.md) para caminhos complexos |
+| **4. Pré-lançamento** | Configurações, aprovações, monitoramento | Envie para [aprovação](../using/test-approve/gs-approval.md), verifique agendamentos e públicos, habilite [alertas](../using/reports/alerts.md) |
 
-Comece criando seu conteúdo e usando os recursos de visualização para verificar o design e a personalização iniciais:
-
-* Crie seu [email](../using/email/create-email.md), [SMS](../using/sms/create-sms.md), [notificação por push](../using/push/create-push.md) ou outro conteúdo de canal
-
-* Use o recurso **[Simular conteúdo](../using/content-management/preview-test.md)** para visualizar com perfis de teste
-
-* Verificar [tokens de personalização](../using/personalization/personalization-syntax.md), conteúdo dinâmico e valores de fallback
-
-* Experimente com expressões de personalização no **[playground de personalização](../using/personalization/personalize.md#playground)** para testar e refinar seu código com dados de amostra antes de aplicar ao conteúdo ativo
-
-* Teste várias variações usando **[dados de entrada de amostra](../using/test-approve/simulate-sample-input.md)** de arquivos CSV/JSON para validar a personalização em vários cenários de perfil
-
-* Verificar [renderização](../using/content-management/rendering.md) em telas de tamanhos diferentes e clientes de email
-
-### &#x200B;2. Validação técnica
-
-Validar aspectos técnicos que afetam a capacidade de entrega e a funcionalidade:
-
-* Execute [verificações de pontuação de spam](../using/content-management/spam-report.md) para identificar possíveis problemas de entrega
-
-* Testar links para garantir que não estejam quebrados e rastreiem corretamente
-
-* Validar a configuração da [autenticação de email](../using/configuration/dmarc-record.md) (SPF, DKIM, DMARC)
-
-* Revise a renderização do HTML e verifique se há problemas de compatibilidade de CSS
-
-* Testar [design responsivo](../using/email/content-from-scratch.md) em dispositivos móveis e desktop
-
-* Verifique se há [possíveis conflitos](../using/conflict-prioritization/conflicts.md) com outras campanhas e jornadas para evitar problemas de tempo e fadiga da mensagem do cliente
-
-### &#x200B;3. Teste de Jornada (somente jornada)
-
-Se você estiver testando uma jornada, valide a lógica de orquestração:
-
-* Ative o **[Modo de teste](../using/building-journeys/testing-the-journey.md)** para simular a progressão do perfil através da jornada
-
-* Teste diferentes [condições de entrada](../using/building-journeys/entry-management.md) e qualificações de público
-
-* Verificar se as [atividades de espera](../using/building-journeys/wait-activity.md), [condições](../using/building-journeys/condition-activity.md) e a lógica de ramificação funcionam corretamente
-
-* Use **[Dry run](../using/building-journeys/journey-dry-run.md)** para jornadas complexas para analisar caminhos de execução sem enviar mensagens
-
-* Verifique se os [eventos](../using/event/about-events.md) são acionados corretamente e se as [ações personalizadas](../using/action/about-custom-action-configuration.md) são executadas conforme esperado
-
-### &#x200B;4. Apresentação da aprovação
-
-Quando o teste for concluído e os problemas forem resolvidos:
-
-* Enviar a campanha ou a jornada para aprovação de acordo com a [política de aprovação](../using/test-approve/approval-policies.md) da sua organização
-
-* Incluir resultados e documentação de teste com a [solicitação de aprovação](../using/test-approve/request-approval.md)
-
-* Resolva qualquer comentário ou solicitação de mudança de [aprovadores](../using/test-approve/review-approve-request.md)
-
-* Faça as revisões necessárias e teste novamente se as alterações forem significativas
-
-### &#x200B;5. Verificação de pré-lançamento
-
-Antes de ativar sua campanha ou jornada:
-
-* Executar uma revisão final de todas as configurações, públicos e [agendamentos](../using/building-journeys/journey-properties.md)
-
-* Verificar se todas as aprovações estão implementadas e documentadas
-
-* Confirme se os horários de envio e os [fusos horários](../using/building-journeys/timezone-management.md) estão corretos
-
-* Habilitar [monitoramento e alertas](../using/reports/alerts.md) para acompanhar o desempenho após a inicialização
-
-### &#x200B;6. Monitorar e iterar
-
-Após o lançamento, continue o monitoramento para detectar problemas antecipadamente:
-
-* Configurar [alertas do sistema](../using/reports/alerts.md) para erros de jornada, altas taxas de rejeição ou baixo engajamento
-
-* Revise os [relatórios ao vivo](../using/building-journeys/report-journey.md) para acompanhar o desempenho em relação às expectativas
-
-* Esteja preparado para [pausar ou modificar](../using/building-journeys/journey-pause.md) jornadas se surgirem problemas críticos
-
-* Documentar as lições aprendidas para melhorar os futuros processos de teste
+**Dica dos profissionais:** comece com o [playground de personalização](../using/personalization/personalize.md#playground) para testar expressões antes de criar conteúdo, e sempre verifique a [detecção de conflitos](../using/conflict-prioritization/conflicts.md) antes da inicialização para evitar mensagens excessivas.
 
 ## Testes em ação: casos de uso
 
