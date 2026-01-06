@@ -22,7 +22,7 @@ O canal de experiência baseada em código do Adobe Journey Optimizer permite qu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Entregar ofertas com o canal de experiência baseada em código
 
