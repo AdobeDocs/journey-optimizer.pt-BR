@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: testar, validar, aprovar, aprovação, controle de qualidade, controle de qualidade, perfis de teste, personalização, renderização, verificação de spam, experimento de conteúdo, teste a/b, detecção de conflitos, seed-list, provas, dados de amostra, fluxo de trabalho de aprovação, teste de email, fluxo de trabalho de validação
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 670503f9aedcd3008b3cd63c0ec6e59fac3dc31a
+source-git-commit: 23ca6aa1372e66439002f02896e46ccead7e28ce
 workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 6%
@@ -26,7 +26,7 @@ Esta página de aterrissagem ajuda você a escolher a abordagem de teste correta
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, testar e validar o conteúdo
 
@@ -36,7 +36,7 @@ Saiba como visualizar, testar e validar um conteúdo personalizado por meio de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Fluxos de trabalho de aprovação para jornadas e campanhas
 
@@ -46,7 +46,7 @@ Entenda como configurar, gerenciar e executar processos de aprovação para gara
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Teste a jornada
 
@@ -56,7 +56,7 @@ Valide sua jornada antes de publicá-la testando-a com perfis específicos para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Execução de teste de jornada
 
@@ -66,7 +66,7 @@ Realize uma execução de teste para simular e validar o caminho de execução d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoramento e solução de problemas
 
@@ -76,7 +76,7 @@ Acesse recursos abrangentes de solução de problemas, alertas do sistema e cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -96,7 +96,7 @@ Otimize suas campanhas testando várias variações de conteúdo e medindo o des
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas de seeds para monitoramento pelas partes interessadas
 
@@ -106,7 +106,7 @@ Inclua automaticamente endereços internos de partes interessadas nos deliveries
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detecção de conflitos
 
@@ -330,7 +330,7 @@ Teste jornadas que direcionem listas de assinaturas com endereçamento de email 
 </td>
 <td>
 <a href="../using/building-journeys/weekday-email-uc.md">
-<img alt="Enviar mensagens de limite de tempo" src="../using/assets/do-not-localize/icon-first-journey.svg">
+<img alt="Enviar mensagens de limite de tempo" src="../using/assets/do-not-localize/calendar.jpeg">
 </a>
 <div>
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>Enviar mensagens associadas ao tempo</strong></a>
