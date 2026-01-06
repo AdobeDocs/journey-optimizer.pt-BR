@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
 workflow-type: tm+mt
 source-wordcount: '3574'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -175,17 +175,17 @@ As medidas de proteção e limitações que devem ser consideradas ao trabalhar 
 
 >[!NOTE]
 >
->Essas limitações não se aplicam às jornadas Ler Público ou Evento Comercial com o pacote **Select**. Se você precisar de uma lógica de jornada mais complexa com várias ações, condições ou atividades de espera, considere atualizar seu pacote de licença ou usar a opção Ler jornadas de público-alvo, quando aplicável.
+>Essas limitações não se aplicam às jornadas Público-alvo de leitura ou Evento de negócios com o pacote **Select**. Se precisar de uma lógica de jornada mais complexa com várias ações, condições ou atividades de espera, considere atualizar o pacote de licenças ou usar jornadas Público-alvo de leitura, quando aplicável.
 
-Para clientes que usam o pacote de licença **Select**, as seguintes limitações adicionais se aplicam especificamente a jornadas unitárias, jornadas que começam com um evento ou uma qualificação de público-alvo:
+Para clientes com o pacote de licenças **Select**, as seguintes limitações adicionais se aplicam especificamente a jornadas unitárias, jornadas que começam com um evento ou uma qualificação de público-alvo:
 
-* **Selecionar pacote: somente uma ação permitida na jornada unitária (ERR_PKG_SELECT_8)**: as jornadas unitárias podem conter apenas uma atividade de ação. Não é possível adicionar várias atividades de email, push, SMS ou outras atividades de ação na mesma jornada.
+* **Pacote SELECT: somente uma ação permitida na jornada unitária (ERR_PKG_SELECT_8)**: as jornadas unitárias podem conter apenas uma atividade de ação. Não é possível adicionar várias atividades de email, push, SMS ou outras atividades de ação na mesma jornada.
 
 * **Pacote SELECT: nenhuma condição permitida na jornada unitária (ERR_PKG_SELECT_7)**: as atividades de condição não podem ser usadas em jornadas unitárias. A jornada deve seguir um único caminho linear sem lógica de ramificação.
 
-* **Selecionar pacote: nenhuma espera permitida na jornada unitária (ERR_PKG_SELECT_6)**: não é possível adicionar atividades de espera a jornadas unitárias. As ações devem ser executadas imediatamente, sem atrasos.
+* **Pacote SELECT: nenhuma espera permitida na jornada unitária (ERR_PKG_SELECT_6)**: não é possível adicionar atividades de espera a jornadas unitárias. As ações devem ser executadas imediatamente, sem atrasos.
 
-* **Pacote SELECT: a transição de tempo limite/erro do nó deve apontar somente para o nó final (ERR_PKG_SELECT_2)**: se você configurar transições de tempo limite ou erro para uma ação, como uma ação de email, esses caminhos devem apontar diretamente para um nó final. Eles não podem se conectar a outras atividades ou ações na jornada.
+* **Pacote SELECT: a transição de tempo-limite/erro do nó deve apontar somente para o nó final (ERR_PKG_SELECT_2)**: se configurar transições de tempo-limite ou erro para uma ação, como uma ação de email, esses caminhos devem apontar diretamente para um nó final. Eles não podem se conectar a outras atividades ou ações na jornada.
 
 
 ### Ações gerais {#general-actions-g}
@@ -318,7 +318,7 @@ Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Salto]*
 As seguintes medidas de proteção se aplicam à atividade de [leitura de público-alvo](../building-journeys/read-audience.md) da jornada:
 
 * Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Eles só são avaliados diariamente no momento da avaliação diária do lote.
-* Na entrada da jornada, os perfis usam valores de atributo do instantâneo de público-alvo em lote. No entanto, quando um perfil atinge uma atividade de **Espera**, a jornada atualiza automaticamente os atributos do perfil, buscando os dados mais recentes do UPS (Serviço de Perfil Unificado). Isso significa que os atributos de perfil podem mudar durante a execução da jornada.
+* Na entrada da jornada, os perfis usam valores de atributo do instantâneo de público-alvo em lote. No entanto, quando um perfil atinge uma atividade de **Espera**, a jornada atualiza automaticamente os atributos do perfil, buscando os dados mais recentes do Serviço de perfil unificado (UPS). Isso significa que os atributos de perfil podem mudar durante a execução da jornada.
 * Para jornadas que usam uma atividade de **público-alvo de leitura**, há um número máximo de jornadas que podem ser iniciadas ao mesmo tempo. O sistema realizará novas tentativas, mas evite ter mais de cinco jornadas (com **Público-alvo de leitura**, agendadas ou iniciando “o mais rápido possível”) que se iniciem ao mesmo tempo, distribuindo-as ao longo do tempo, como, por exemplo, em intervalos de 5 a 10 minutos. Saiba mais sobre taxas de processamento de jornada [nesta seção](../building-journeys/entry-management.md#journey-processing-rate).
 * A atividade de **público-alvo de leitura** não pode ser usada com atividades do Adobe Campaign.
 * A atividade de **público-alvo de leitura** só pode ser usada como a primeira atividade de uma jornada ou após uma atividade de evento de negócios.

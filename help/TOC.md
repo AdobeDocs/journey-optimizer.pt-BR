@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '3037'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -32,10 +32,10 @@ ht-degree: 96%
    + [Tela de jornada aprimorada](using/rn/new-canvas.md)
 + Introdução {#get-started}
    + [Introdução](/help/rp_landing_pages/get-started-landing-page.md)
-   + Fundamentos {#essentials}
+   + Noções básicas {#essentials}
       + [O que é o Journey Optimizer?](using/start/get-started.md)
-      + [Entender como funciona](using/start/understanding-ajo.md)
-      + [Principal terminologia](using/start/terminology.md)
+      + [Entenda como funciona](using/start/understanding-ajo.md)
+      + [Terminologia principal](using/start/terminology.md)
       + [Medidas de proteção e limitações](using/start/guardrails.md)
    + Introdução por função {#by-role}
       + [Escolha seu caminho de aprendizagem](using/start/quick-start.md)
@@ -44,18 +44,18 @@ ht-degree: 96%
       + [Introdução para administradores](using/start/path/administrator.md)
       + [Introdução para desenvolvedores](using/start/path/developer.md)
    + Trabalhe com eficiência {#work-efficiently}
-      + [Navegar na interface](using/start/user-interface.md)
-      + [Pesquisar, filtrar e organizar](using/start/search-filter-categorize.md)
+      + [Navegue pela interface](using/start/user-interface.md)
+      + [Pesquise, filtre e organize](using/start/search-filter-categorize.md)
       + [IA e recursos inteligentes](using/start/ai-features.md)
       + [Acessibilidade](using/start/accessibility.md)
       + [Jornadas vs Campanhas](using/start/journeys-vs-campaigns.md)
 + Jornadas {#orchestrate-journeys}
    + [Introdução a jornadas](using/building-journeys/journey.md)
    + [Tipos de jornada e guia de seleção](using/building-journeys/journey-types-selection.md)
-   + [Perguntas frequentes sobre o Journey Orchestration](using/building-journeys/journey-faq.md)
+   + [Perguntas frequentes do Journey Orchestration](using/building-journeys/journey-faq.md)
    + Criar uma jornada {#create-journey}
       + [Criar uma jornada](/help/rp_landing_pages/create-journey-landing-page.md)
-      + [Criar a primeira jornada](using/building-journeys/journey-gs.md)
+      + [Crie a primeira jornada](using/building-journeys/journey-gs.md)
       + [Definir as propriedades da jornada](using/building-journeys/journey-properties.md)
       + [Configurar e rastrear as métricas da jornada](using/building-journeys/success-metrics.md)
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
@@ -202,8 +202,8 @@ ht-degree: 96%
          + [Teste](using/orchestrated/activities/test.md)
          + [Aguardar](using/orchestrated/activities/wait.md)
       + Aprenda por meio de casos de uso {#use-cases}
-         + [Enviar atualizações do item da lista de desejos](using/orchestrated/wishlist-uc.md)
-         + [Envolver clientes navegando pela atividade](using/orchestrated/engage-customers-uc.md)
+         + [Envie atualizações de itens da lista de desejos](using/orchestrated/wishlist-uc.md)
+         + [Engaje clientes com base na atividade de navegação](using/orchestrated/engage-customers-uc.md)
          + [Notifique os usuários sobre a disponibilidade do produto](using/orchestrated/product-availability-uc.md)
 + Conflito e priorização {#conflict-prioritization}
    + [Gerenciamento de conflitos e priorização](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
@@ -451,7 +451,7 @@ ht-degree: 96%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -485,7 +485,7 @@ ht-degree: 96%
       + [Práticas recomendadas para prompts de IA](using/content-management/ai-assistant-prompting-guide.md)
       + [Gerar conteúdo completo com IA](using/content-management/generative-full-content.md)
       + [Gerar texto com IA](using/content-management/generative-text.md)
-      + [Gerar imagens com IA](using/content-management/generative-image.md)
+      + [Gere imagens com IA](using/content-management/generative-image.md)
       + [Experimento de conteúdo com IA](using/content-management/generative-experimentation.md)
       + [Casos de uso do Assistente de IA](using/content-management/generative-uc.md)
       + Marcas {#brands}
@@ -600,7 +600,7 @@ ht-degree: 96%
       + [Perguntas frequentes sobre decisão](using/experience-decisioning/decisioning-faq.md)
       + Referência da API {#experience-decisioning-api-reference}
          + [Referência da API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
-         + [Introdução às APIs de decisão](using/experience-decisioning/api-reference/getting-started.md)
+         + [Introdução às APIs de tomada de decisão](using/experience-decisioning/api-reference/getting-started.md)
          + Itens de decisão {#decision-items}
             + [Criar itens de decisão](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [Lista de itens de decisão](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
@@ -632,10 +632,10 @@ ht-degree: 96%
             + [Lista de regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
             + [Atualizar regras de elegibilidade](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + Posicionamentos {#placements}
-            + [Criar inserções](using/experience-decisioning/api-reference/exd-placements/create.md)
-            + [Lista de disposições](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [Criar posicionamentos](using/experience-decisioning/api-reference/exd-placements/create.md)
+            + [Lista de posicionamentos](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
             + [Posicionamentos de pesquisa](using/experience-decisioning/api-reference/exd-placements/lookup.md)
-            + [Atualizar posicionamentos](using/experience-decisioning/api-reference/exd-placements/update.md)
+            + [Atualização de posicionamentos](using/experience-decisioning/api-reference/exd-placements/update.md)
       + Gerenciar itens de decisão {#manage-decision-items}
          + [Gerenciar itens de decisão](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Configurar o catálogo de itens](using/experience-decisioning/catalogs.md)
@@ -680,7 +680,7 @@ ht-degree: 96%
          + [Caso de uso: inserir ofertas em um email](using/offers/offers-e2e.md)
       + Criar componentes {#create-components}
          + [Criar componentes](/help/rp_landing_pages/create-components-landing-page.md)
-         + [Criar inserções](using/offers/offer-library/creating-placements.md)
+         + [Criar posicionamentos](using/offers/offer-library/creating-placements.md)
          + [Criar regras de decisão](using/offers/offer-library/creating-decision-rules.md)
          + [Criar qualificadores de coleção](using/offers/offer-library/creating-tags.md)
       + Criar classificações {#rankings}
@@ -697,7 +697,7 @@ ht-degree: 96%
          + [Criar e gerenciar ofertas](/help/rp_landing_pages/managing-offers-in-the-offer-library-landing-page.md)
          + Configurar ofertas {#configure-offers}
             + [Configurar ofertas](/help/rp_landing_pages/configure-offers-landing-page.md)
-            + [Criar ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
+            + [Crie ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
             + [Adicionar representações](using/offers/offer-library/add-representations.md)
             + [Adicionar restrições](using/offers/offer-library/add-constraints.md)
          + [Criar ofertas substitutas](using/offers/offer-library/creating-fallback-offers.md)
@@ -858,7 +858,7 @@ ht-degree: 96%
       + [Criar pools de IP](using/configuration/ip-pools.md)
    + Implementar um plano de aquecimento de IP {#implement-ip-warmup-plan}
       + [Implementar um plano de aquecimento de IP](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [Guia de entrega de IP warmup](using/configuration/ip-warmup-deliverability-guide.md)
+      + [Guia da capacidade de entrega do aquecimento de IP](using/configuration/ip-warmup-deliverability-guide.md)
       + [Introdução aos planos de aquecimento de IP](using/configuration/ip-warmup-gs.md)
       + [Criar campanhas de aquecimento de IP](using/configuration/ip-warmup-campaign.md)
       + [Criar um plano de aquecimento de IP](using/configuration/ip-warmup-plan.md)
@@ -872,7 +872,7 @@ ht-degree: 96%
       + [Lista de permissões](using/configuration/allow-list.md)
    + [Usar listas de seeds](using/configuration/seed-lists.md)
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
-   + [Gerenciar campos de execução](using/configuration/primary-email-addresses.md)
+   + [Gerenciamento de campos de execução](using/configuration/primary-email-addresses.md)
    + [Criar webhooks de feedback](using/configuration/feedback-webhooks.md)
 + Configuração de jornada {#configure-journeys}
    + [Configuração de jornada](/help/rp_landing_pages/configure-journeys-landing-page.md)
