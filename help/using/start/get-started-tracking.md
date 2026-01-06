@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: rastreamento, monitoramento, analytics, relatórios, capacidade de entrega
-source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
+source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Introdução ao rastreamento no Journey Optimizer {#get-started-tracking}
 
-O rastreamento e o monitoramento permitem medir a eficácia da campanha, otimizar as experiências do cliente e garantir que as mensagens cheguem aos recipients desejados. O Journey Optimizer oferece recursos abrangentes de rastreamento que capturam as interações do cliente, o desempenho do delivery e a integridade do sistema, ajudando você a tomar decisões orientadas por dados, respeitando a privacidade e mantendo a conformidade.
+O rastreamento permite medir a eficácia da campanha, otimizar as experiências do cliente e garantir que as mensagens cheguem aos recipients desejados. O Journey Optimizer oferece recursos abrangentes de rastreamento que capturam as interações do cliente, o desempenho do delivery e a integridade do sistema, ajudando você a tomar decisões orientadas por dados, respeitando a privacidade e mantendo a conformidade.
 
 A maioria do rastreamento é configurada automaticamente ao criar mensagens e jornadas. Para cenários avançados, você pode configurar métricas personalizadas, configurar parâmetros de URL e integrar a plataformas de análise externas. Acesse seus dados de rastreamento por meio de relatórios integrados ou exporte-os para análise mais profunda no Customer Journey Analytics.
 
@@ -81,7 +81,7 @@ Para ajudar você a começar, explore estes tópicos essenciais de rastreamento 
 
 O Journey Optimizer fornece recursos de rastreamento específicos de canal. Veja como configurar e usar o rastreamento para cada canal.
 
-+++Acompanhamento de email
++++Rastreamento de emails
 
 O rastreamento de email é ativado automaticamente ao criar uma mensagem de email. O Journey Optimizer rastreia aberturas, cliques e cancelamentos de assinatura por padrão; nenhuma configuração adicional é necessária.
 
@@ -232,9 +232,9 @@ Além do rastreamento no nível do canal, configure o rastreamento para medir o 
 
 * **Configurar o monitoramento de ações personalizadas** - Configurar o rastreamento de integrações com sistemas externos para monitorar chamadas de API, tempos de resposta e padrões de erro. [Saiba mais](../action/reporting.md)
 
-* **Exportação personalizada de relatórios e dados** - Crie relatórios personalizados e exporte dados de rastreamento para sistemas externos para uma análise mais profunda. [Saiba mais](../reports/sharing-overview.md)
+* **Crie relatórios personalizados e exporte dados** - Crie relatórios personalizados e exporte dados de rastreamento para sistemas externos para uma análise mais profunda. [Saiba mais](../reports/sharing-overview.md)
 
-**Exiba o desempenho unificado** Acesse relatórios abrangentes para campanhas e jornadas para comparar o desempenho em email, push, SMS e outros canais e para entender quais combinações geram melhores resultados. [Relatórios de campanha](../reports/campaign-global-report-cja.md) | [Jornada relatórios](../reports/journey-global-report-cja.md)
+* **Exiba o desempenho unificado** Acesse relatórios abrangentes para campanhas e jornadas para comparar o desempenho em email, push, SMS e outros canais e para entender quais combinações geram melhores resultados. [Relatórios de campanha](../reports/campaign-global-report-cja.md) | [Jornada relatórios](../reports/journey-global-report-cja.md)
 
 ## Rastrear o desempenho da otimização e da decisão {#optimization-decisioning-tracking}
 
@@ -242,27 +242,29 @@ O Journey Optimizer rastreia automaticamente experimentos de otimização, estra
 
 ### Configurar rastreamento de otimização {#optimization-tracking}
 
-* **Otimização em suas campanhas e jornadas**
+* **Otimização em suas campanhas e jornadas**:
 
    * Ao criar experimentos, defina quais métricas rastrear (conversões, cliques, eventos personalizados). O Journey Optimizer coleta automaticamente dados de desempenho para cada tratamento. [Saiba mais](../campaigns/campaigns-message-optimization.md#experimentation)
 
    * Crie regras de direcionamento para fornecer conteúdo diferente a segmentos de público-alvo diferentes. O Journey Optimizer rastreia automaticamente as métricas de envolvimento para cada grupo direcionado, permitindo que você compare o desempenho entre os segmentos. [Saiba mais](../campaigns/campaigns-message-optimization.md#targeting)
 
-* **Otimização do caminho da Jornada** - Adicione uma atividade **Otimizar** à jornada e configure vários caminhos. O Journey Optimizer rastreia automaticamente quais caminhos os perfis tomam e mede o desempenho. [Saiba mais](../building-journeys/optimize.md)
+* **Otimização do caminho da Jornada**: adicione uma atividade **Otimizar** à jornada e configure vários caminhos. O Journey Optimizer rastreia automaticamente quais caminhos os perfis tomam e mede o desempenho. [Saiba mais](../building-journeys/optimize.md)
 
-**Analisar resultados:** visualize taxas de conversão, significância estatística e aumento entre tratamentos em relatórios de experimentação ou compare métricas de envolvimento em segmentos direcionados. [Relatório de campanha de experimentação](../reports/campaign-global-report-cja-experimentation.md) | [Relatório de jornada de experimentação](../reports/journey-global-report-cja-experimentation.md) | [relatório de direcionamento de Jornadas](../reports/journey-global-report-cja.md#targeting)
+Para analisar os resultados: visualize as taxas de conversão, a significância estatística e o aumento entre tratamentos nos relatórios de experimentação ou compare métricas de envolvimento entre segmentos direcionados. [Relatório de campanha de experimentação](../reports/campaign-global-report-cja-experimentation.md) | [Relatório de jornada de experimentação](../reports/journey-global-report-cja-experimentation.md) | [relatório de direcionamento de Jornadas](../reports/journey-global-report-cja.md#targeting)
 
 ### Rastrear o desempenho da decisão {#decisioning-tracking}
 
 Ao usar a Decisão para personalizar o conteúdo, o Journey Optimizer rastreia automaticamente eventos de decisão, impressões e cliques sem a necessidade de configuração adicional.
 
 * **Captura automática de evento** - O Journey Optimizer captura automaticamente eventos de decisão sempre que um item de decisão é selecionado para um perfil.
-* **Rastreamento de impressão** - Para emails, as impressões são rastreadas automaticamente. Para experiências baseadas em código, é necessário implementar eventos de exibição de apresentação no código.
+* **Rastreamento de impressão** - Para emails, as impressões são rastreadas automaticamente. Para experiências baseadas em código, é necessário implementar eventos de exibição de apresentação no código. [Saiba mais](../code-based/code-based-implementation-samples.md#client-side-how)
 * **Rastreamento de cliques** - Os cliques nos itens de decisão são rastreados automaticamente em emails; experiências baseadas em código exigem a implementação de eventos de clique.
 
-**Pré-requisitos para o rastreamento baseado em código** Para rastrear a decisão em experiências baseadas em código, verifique se a sua implementação envia eventos de interação de apresentação (exibições e cliques) para a Adobe Experience Platform usando o Web SDK ou o Mobile SDK. [Saiba mais](../experience-decisioning/data-collection/schema-requirement.md)
+>[!NOTE]
+>
+>Para acompanhar a decisão em **experiências baseadas em código**, certifique-se de que sua implementação envia eventos de interação de apresentação (exibições e cliques) para a Adobe Experience Platform usando o Web SDK ou o Mobile SDK. [Saiba mais](../experience-decisioning/data-collection/schema-requirement.md)
 
-**Analisar o desempenho:** Exiba KPIs de decisão, compare itens de decisão, analise estratégias de seleção e monitore o desempenho do modelo de IA em relatórios. [Saiba mais](../experience-decisioning/cja-reporting.md)
+Para monitorar o desempenho: visualize KPIs de decisão, compare itens de decisão, analise estratégias de seleção e monitore o desempenho do modelo de IA nos relatórios. [Saiba mais](../experience-decisioning/cja-reporting.md)
 
 ## Controlar uso de dados de rastreamento {#data-governance}
 
