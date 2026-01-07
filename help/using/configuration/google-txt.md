@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdomínio, google, txt, registro, gmail, capacidade de entrega
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: e89bec74f597185065b274d22740324a09e9319e
+source-git-commit: a23f13bea69d1539cc2cd27a701e20287ddba026
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 22%
+source-wordcount: '285'
+ht-degree: 24%
 
 ---
 
@@ -30,6 +30,8 @@ Para garantir a entrega ideal e a entrega bem-sucedida de emails para endereços
 >[!CAUTION]
 >
 > Esta operação só poderá ser executada depois que um subdomínio tiver o status **[!UICONTROL Êxito]**. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](delegate-subdomain.md#access-delegated-subdomains).
+
+## Adicionar um registro TXT do Google {#add-google-txt-record}
 
 Para adicionar um registro TXT do Google ao subdomínio, siga estas etapas:
 
