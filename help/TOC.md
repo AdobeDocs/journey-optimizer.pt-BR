@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
+source-git-commit: 4162403bedc1632ed28db122e2ec16e3c00a2630
 workflow-type: tm+mt
-source-wordcount: '3041'
-ht-degree: 99%
+source-wordcount: '3047'
+ht-degree: 98%
 
 ---
 
@@ -451,7 +451,7 @@ ht-degree: 99%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -463,6 +463,7 @@ ht-degree: 99%
       + [Salvar conteúdo como fragmento](using/content-management/save-fragments.md)
       + [Fragmentos personalizáveis](using/content-management/customizable-fragments.md)
       + [Gerenciar fragmentos](using/content-management/manage-fragments.md)
+      + [Adicionar atributos contextuais aos fragmentos publicados](using/content-management/manage-fragments-contextual-attributes.md)
    + Conteúdo dinâmico {#dynamic}
       + [Conteúdo dinâmico](/help/rp_landing_pages/dynamic-landing-page.md)
       + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
