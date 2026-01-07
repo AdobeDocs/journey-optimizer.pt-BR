@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 4162403bedc1632ed28db122e2ec16e3c00a2630
+source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 4%
+source-wordcount: '360'
+ht-degree: 5%
 
 ---
 
@@ -82,8 +82,7 @@ Para adicionar atributos contextuais a um fragmento publicado, siga as etapas ab
 ## Tópicos relacionados {#related-topics}
 
 * [Gerenciar fragmentos](manage-fragments.md)
-* [Usar fragmentos visuais em emails](../email/use-visual-fragments.md)
-* [Usar fragmentos de expressão](../personalization/use-expression-fragments.md)
+* [Editar um fragmento](manage-fragments.md#edit-fragments)
 * [Campanhas acionadas por API](../campaigns/api-triggered-campaigns.md)
 * [Sintaxe de personalização](../personalization/personalization-syntax.md)
 
