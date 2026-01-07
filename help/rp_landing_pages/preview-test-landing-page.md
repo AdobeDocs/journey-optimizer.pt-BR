@@ -28,7 +28,7 @@ Garanta a entrega perfeita de mensagens, capturando os erros antes que eles cheg
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Como visualizar e testar seu conteúdo
 
@@ -38,7 +38,7 @@ Saiba como usar perfis de teste e dados de entrada de amostra para visualizar e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como selecionar perfis de teste
 
@@ -48,7 +48,7 @@ Descubra como selecionar e gerenciar perfis de teste para visualizar e testar o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Visualizar o conteúdo usando perfis de teste
 
@@ -58,7 +58,7 @@ Guia passo a passo para visualizar conteúdo personalizado usando perfis de test
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
 
 Enviar provas usando dados de perfil de teste
 
@@ -68,7 +68,7 @@ Teste e valide suas mensagens de email enviando provas usando os dados do perfil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=pt-BR)
 
 Como testar a renderização de email com o Litmus
 
@@ -78,7 +78,7 @@ Integre o Litmus para pré-visualizar a renderização de email em clientes de e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Como simular e testar variações de conteúdo
 
