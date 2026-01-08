@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
+source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 22%
+source-wordcount: '787'
+ht-degree: 21%
 
 ---
 
@@ -119,3 +119,7 @@ O fragmento agora está **[!UICONTROL Ativo]** e fica disponível ao criar qualq
 
 * [Saiba como usar fragmentos visuais](../email/use-visual-fragments.md)
 * [Saiba como usar fragmentos de expressão](../personalization/use-expression-fragments.md)
+
+>[!CAUTION]
+>
+>Depois de publicado, não é possível adicionar novos atributos personalizados a um fragmento ativo. Se quiser adicionar atributos de personalização, duplique o fragmento. [Saiba mais](manage-fragments.md#adding-new-attributes)
