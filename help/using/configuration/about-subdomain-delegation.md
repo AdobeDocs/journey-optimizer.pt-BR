@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdomínio, otimizador, delegação
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
+source-git-commit: ab29af6861e8fc1137fbbffd99b9576afa7e04f5
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 28%
+source-wordcount: '984'
+ht-degree: 25%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 28%
 >title="Os subdomínios delegados são exibidos aqui."
 >abstract="Delegue seu primeiro subdomínio. Após a conclusão da delegação, os registros PTR são criados e os canais de email são habilitados."
 
-A criação de um subdomínio para campanhas de email permite que as marcas isolem vários tipos de tráfego (marketing versus corporativo, por exemplo) em pools de IP específicos e com domínios específicos, o que agilizará o processo de aquecimento de IP e melhorará a capacidade de entrega em geral.
+Criar um subdomínio para suas jornadas e campanhas de email permite que as marcas isolem vários tipos de tráfego (marketing versus corporativo, por exemplo) em pools de IP específicos e com domínios específicos, o que irá acelerar o processo de aquecimento de IP e melhorar a capacidade de entrega em geral.
 
 Se você compartilhar um domínio e ele for bloqueado ou adicionado à lista de bloqueios, isso poderá afetar seu delivery de email corporativo. No entanto, problemas de reputação ou bloqueios em um domínio específico para suas comunicações de marketing por email afetarão apenas esse fluxo de email. Usar seu domínio principal como remetente ou endereço &quot;De&quot; para vários fluxos de email também pode interromper a autenticação de email, fazendo com que suas mensagens sejam bloqueadas ou colocadas na pasta de spam.
 
@@ -54,13 +54,13 @@ Embora esses requisitos estejam sendo gerenciados por meio de componentes hosped
 
 ## Métodos de configuração de subdomínio {#subdomain-delegation-methods}
 
-A configuração de subdomínio permite configurar uma subseção do seu domínio (tecnicamente uma &quot;zona DNS&quot;) para usar com o Adobe Campaign.
+A configuração de subdomínio permite configurar uma subseção do seu domínio (tecnicamente uma &quot;zona DNS&quot;) para usar com o Adobe Journey Optimizer.
 
 Os métodos de configuração disponíveis são os seguintes.
 
 ### Delegar totalmente um subdomínio à Adobe (recomendado) {#full-subdomain-delegation}
 
-O [!DNL Journey Optimizer] permite delegar totalmente os subdomínios à Adobe diretamente da interface do produto. Ao fazer isso, o Adobe poderá enviar mensagens como um serviço gerenciado, controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
+O [!DNL Journey Optimizer] permite delegar totalmente os subdomínios à Adobe diretamente da interface do produto. Ao fazer isso, a Adobe poderá enviar mensagens como um serviço gerenciado, controlando e mantendo todos os aspectos do DNS necessários para a entrega, a renderização e o rastreamento.
 
 <!--The subdomain is fully delegated to Adobe. Adobe is able to control and maintain all aspects of DNS that are required for delivering, rendering and tracking messages.-->
 
@@ -100,14 +100,14 @@ A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o
 <!--
 | Configuration method | How it works | Level of effort |
 |---|---|---|
-| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
-| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |-->
+| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Journey Optimizer.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
+| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Journey Optimizer DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |-->
 
 
 | Método de configuração | Como funciona | Nível de esforço |
 |---|---|---|
-| **Delegação completa** | Crie o subdomínio e o registro de namespace. A Adobe irá configurar todos os registros DNS necessários para o Adobe Campaign.<br/><br/>Nesta configuração, a Adobe é totalmente responsável pelo gerenciamento do subdomínio e de todos os registros DNS. | Baixo |
-| **método CNAME** | Crie o subdomínio e o registro de namespace. A Adobe fornecerá os registros que serão colocados em seus servidores DNS e configurará os valores correspondentes em servidores DNS do Adobe Campaign.<br/><br/>Nessa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS. | Alto |
+| **Delegação completa** | Crie o subdomínio e o registro de namespace. O Adobe configurará todos os registros DNS necessários para o Adobe Journey Optimizer.<br/><br/>Nesta configuração, a Adobe é totalmente responsável pelo gerenciamento do subdomínio e de todos os registros DNS. | Baixo |
+| **método CNAME** | Crie o subdomínio e o registro de namespace. A Adobe fornecerá os registros que serão colocados em seus servidores DNS e configurará os valores correspondentes em servidores DNS da Adobe Journey Optimizer.<br/><br/>Nessa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS. | Alto |
 | **Método de delegação personalizado** | Criar o subdomínio e o registro de namespace - a Adobe fornecerá os registros a serem colocados em seus servidores DNS. Faça upload do Certificado SSL obtido da Autoridade de certificação e conclua as etapas do Loop de feedback verificando a propriedade do domínio e o endereço de email do relatório.<br/><br/>Nesta configuração, você é totalmente responsável pela manutenção do DNS. | Muito alto |
 
 Outras informações sobre a delegação de domínios estão disponíveis [nesta documentação](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=pt-BR){target="_blank"}.
