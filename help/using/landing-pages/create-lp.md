@@ -16,7 +16,7 @@ ht-degree: 23%
 
 ---
 
-# Criar e publicar landing pages {#create-lp}
+# Criar e publicar páginas de destino {#create-lp}
 
 Para direcionar seus clientes para uma página da Web definida que você deseja exibir quando clicarem em um link específico, crie uma página de aterrissagem no [!DNL Journey Optimizer], configure a página principal e quaisquer subpáginas, teste-a e publique-a.
 
@@ -80,9 +80,9 @@ Depois de configurar e criar a [página principal](#configure-primary-page) e as
 >[!CONTEXTUALHELP]
 >id="ajo_lp_primary_page"
 >title="Definir as configurações da página principal"
->abstract="A página principal é exibida imediatamente depois que os usuários clicam no link da landing page que consta em um email ou site."
+>abstract="A página principal é exibida imediatamente depois que os usuários clicam no link da página de destino que consta em um email ou site."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=pt-BR" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
@@ -180,7 +180,7 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
 
 ![](assets/lp_subpage-settings.png)
 
-## Testar a landing page {#test-landing-page}
+## Testar a página de destino {#test-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"
