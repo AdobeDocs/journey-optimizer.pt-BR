@@ -159,7 +159,7 @@ As assinaturas específicas de jornada permitem monitorar jornadas individuais d
 
 1. Vá para o inventário do jornada.
 
-1. Clique no menu **** (mais ações) da jornada que você deseja monitorar.
+1. Clique no menu **&#x200B;**&#x200B;(mais ações) da jornada que você deseja monitorar.
 
 1. Selecione **[!UICONTROL Assinar alertas]**.
 
