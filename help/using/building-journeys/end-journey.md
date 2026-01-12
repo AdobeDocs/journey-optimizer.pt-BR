@@ -9,9 +9,9 @@ level: Intermediate
 keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
@@ -78,8 +78,6 @@ A definição de &quot;concluído&quot; varia dependendo do tipo de jornada:
 | Público-alvo de leitura | Sim | Sim | Quando a data final é alcançada |
 | Jornada acionada por evento | n/d | Sim | Quando a data final é alcançada |
 | Jornada acionada por evento | n/d | Não | Quando fechado na interface do usuário ou por meio da API |
-
-Este é um alerta informativo que ajuda a monitorar a conclusão da jornada. Não há critérios de resolução, pois esta é uma notificação única.
 
 ### Fechar para novas entradas {#close-to-new-entrances}
 
