@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 34%
@@ -43,7 +43,7 @@ Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal 
 
 1. **Aproveitar Otimização**
 
-   Use a seção **[!UICONTROL Otimização]** para executar experimentos de conteúdo, aproveitar regras de direcionamento ou usar combinações avançadas de experimentação e direcionamento. Estas diferentes opções e as etapas a serem seguidas estão detalhadas em [esta seção](gs-message-optimization.md).
+   Use a seção **[!UICONTROL Otimização]** para executar experimentos de conteúdo, aproveitar regras de direcionamento ou usar combinações avançadas de experimentação e direcionamento. Estas diferentes opções e as etapas a serem seguidas estão detalhadas em [esta seção](../content-management/gs-message-optimization.md).
 <!--
 1. **Create a content experiment**
 

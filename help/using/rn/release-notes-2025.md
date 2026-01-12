@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '7909'
 ht-degree: 99%
@@ -384,7 +384,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <P>Quando a jornada ou a campanha estiver ativa, os perfis serão avaliados de acordo com os critérios definidos e, com base nos critérios de correspondência, receberão a experiência ou o conteúdo apropriado.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
 <p>Lançada anteriormente em 8 de agosto somente para campanhas, essa capacidade também está disponível agora em jornadas a partir de 22 de agosto.</p>
-<p>Para mais informações, consulte a <a href="../campaigns/gs-message-optimization.md">documentação detalhada</a></p>
+<p>Para mais informações, consulte a <a href="../content-management/gs-message-optimization.md">documentação detalhada</a></p>
 </td>
 </tr>
 </tbody>

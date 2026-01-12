@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
@@ -113,7 +113,7 @@ A tabela **[!UICONTROL Rótulo do link rastreado]** oferece informações essenc
 
 Se você configurar **[!UICONTROL Regras de direcionamento]** para o seu conteúdo, a tabela **[!UICONTROL Visão geral do direcionamento]** fornecerá uma exibição detalhada das principais métricas de engajamento, mostrando como os perfis direcionados para cada regra interagiram com seu conteúdo.
 
-➡️ [Saiba mais sobre as regras de direcionamento](../campaigns/optimization-targeting.md)
+➡️ [Saiba mais sobre as regras de direcionamento](../content-management/optimization-targeting.md)
 
 +++ Saiba mais sobre as métricas da visão geral de direcionamento
 

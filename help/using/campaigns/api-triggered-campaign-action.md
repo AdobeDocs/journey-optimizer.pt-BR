@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 50%
@@ -40,7 +40,7 @@ Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal 
 
 1. **Aproveitar Otimização**
 
-   Use a seção **[!UICONTROL Otimização de Mensagens]** para executar experimentos de conteúdo, aproveitar regras de direcionamento ou usar combinações avançadas de experimentação e direcionamento. Essas diferentes opções e as etapas a serem seguidas estão detalhadas nesta seção: [Otimização em campanhas](gs-message-optimization.md).
+   Use a seção **[!UICONTROL Otimização de Mensagens]** para executar experimentos de conteúdo, aproveitar regras de direcionamento ou usar combinações avançadas de experimentação e direcionamento. Essas diferentes opções e as etapas a serem seguidas estão detalhadas nesta seção: [Otimização em campanhas](../content-management/gs-message-optimization.md).
 <!--
 1. **Create a content experiment**
 

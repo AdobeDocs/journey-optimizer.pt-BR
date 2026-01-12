@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 1%
@@ -23,7 +23,7 @@ O **relatório de Jornadas** pode ser acessado diretamente da sua jornada com o 
 
 ![](assets/gs-cja-report-3.png)
 
-Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home).
+Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Visão geral da jornada {#journey-global}
 
@@ -85,7 +85,7 @@ O widget **[!UICONTROL Erros de ação]** detalha os diferentes erros que ocorre
 
 ![](assets/cja-journey-canvas.png)
 
-O widget **[!UICONTROL Tela de Jornada]** permite rastrear visualmente a trajetória dos perfis direcionados à medida que eles navegam pela jornada. [Saiba mais na documentação do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+O widget **[!UICONTROL Tela de Jornada]** permite rastrear visualmente a trajetória dos perfis direcionados à medida que eles navegam pela jornada. [Saiba mais na documentação do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Aprimore sua personalização da tela com as seguintes opções:
 
@@ -154,7 +154,7 @@ A tabela **[!UICONTROL Visão geral do evento]** mostra quantos perfis atendem a
 
 Se você configurar **[!UICONTROL Regras de direcionamento]** para o seu conteúdo, a tabela **[!UICONTROL Visão geral do direcionamento]** fornecerá uma exibição detalhada das principais métricas de engajamento, mostrando como os perfis direcionados para cada regra interagiram com seu conteúdo.
 
-➡️ [Saiba mais sobre as regras de direcionamento](../campaigns/optimization-targeting.md)
+➡️ [Saiba mais sobre as regras de direcionamento](../content-management/optimization-targeting.md)
 
 +++ Saiba mais sobre as métricas da visão geral de direcionamento
 
