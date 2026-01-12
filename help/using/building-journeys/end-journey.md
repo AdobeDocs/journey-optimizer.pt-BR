@@ -9,10 +9,10 @@ level: Intermediate
 keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '991'
+ht-degree: 2%
 
 ---
 
@@ -66,6 +66,20 @@ Após o tempo limite global de **jornada de 91 dias**, uma jornada Ler público 
 >[!TIP]
 >
 >Uma jornada única baseada em segmento mantém o status do **Live** mesmo após ser executada uma vez. Os perfis não podem ser reinseridos após a conclusão, mas a jornada permanece com o status **Ativo** até que o tempo limite global padrão expire. Você pode fechá-lo manualmente antes usando a opção **Fechar para novas entradas**.
+
+### Quando uma jornada é considerada &quot;concluída&quot;? {#journey-finished-definition}
+
+A definição de &quot;concluído&quot; varia dependendo do tipo de jornada:
+
+| Tipo de jornada | Recorrente? | Tem data de término? | Definição de &quot;concluído&quot; |
+|--------------|------------|---------------|--------------------------|
+| Público-alvo de leitura | Não | n/d | 91 dias após o início da execução |
+| Público-alvo de leitura | Sim | Não | 91 dias após o início da execução |
+| Público-alvo de leitura | Sim | Sim | Quando a data final é alcançada |
+| Jornada acionada por evento | n/d | Sim | Quando a data final é alcançada |
+| Jornada acionada por evento | n/d | Não | Quando fechado na interface do usuário ou por meio da API |
+
+Este é um alerta informativo que ajuda a monitorar a conclusão da jornada. Não há critérios de resolução, pois esta é uma notificação única.
 
 ### Fechar para novas entradas {#close-to-new-entrances}
 

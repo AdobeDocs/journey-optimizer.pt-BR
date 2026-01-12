@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1483'
 ht-degree: 10%
 
 ---
@@ -140,7 +140,7 @@ O status da jornada depende do seu ciclo de vida. Pode ser:
 
 * **Rascunho**: a jornada está em seu primeiro estágio. Ela ainda não foi publicada.
 * **Rascunho (Teste)**: o modo de teste foi ativado usando o botão **Modo de teste**. [Saiba mais](../building-journeys/testing-the-journey.md)
-* **Concluído**: a jornada alterna automaticamente para esse status após o [tempo limite global](journey-properties.md#global_timeout) de 91 dias. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada.
+* **Concluído**: a jornada alterna automaticamente para este status com base no tipo e na configuração da jornada. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada. [Saiba quando as jornadas são consideradas concluídas](end-journey.md#journey-finished-definition).
 * **Ao vivo**: a jornada foi publicada usando o botão **Publicar**. [Saiba mais](../building-journeys/publish-journey.md)
 * **Pausado**: a jornada em tempo real foi pausada, usando o botão **Pausar**. [Saiba mais](../building-journeys/journey-pause.md)
 * **Parada**: a jornada foi desligada usando o botão **Parada**. Todos os indivíduos saem instantaneamente da jornada. [Saiba mais](../building-journeys/end-journey.md#stop-journey)
