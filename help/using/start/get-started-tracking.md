@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: rastreamento, monitoramento, analytics, relatórios, capacidade de entrega
-source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -81,7 +81,7 @@ Para ajudar você a começar, explore estes tópicos essenciais de rastreamento 
 
 O Journey Optimizer fornece recursos de rastreamento específicos de canal. Veja como configurar e usar o rastreamento para cada canal.
 
-+++Rastreamento de emails
++++Acompanhamento de email
 
 O rastreamento de email é ativado automaticamente ao criar uma mensagem de email. O Journey Optimizer rastreia aberturas, cliques e cancelamentos de assinatura por padrão; nenhuma configuração adicional é necessária.
 
@@ -244,9 +244,9 @@ O Journey Optimizer rastreia automaticamente experimentos de otimização, estra
 
 * **Otimização em suas campanhas e jornadas**:
 
-   * Ao criar experimentos, defina quais métricas rastrear (conversões, cliques, eventos personalizados). O Journey Optimizer coleta automaticamente dados de desempenho para cada tratamento. [Saiba mais](../campaigns/campaigns-message-optimization.md#experimentation)
+   * Ao criar experimentos, defina quais métricas rastrear (conversões, cliques, eventos personalizados). O Journey Optimizer coleta automaticamente dados de desempenho para cada tratamento. [Saiba mais](../campaigns/optimization-experimentation.md)
 
-   * Crie regras de direcionamento para fornecer conteúdo diferente a segmentos de público-alvo diferentes. O Journey Optimizer rastreia automaticamente as métricas de envolvimento para cada grupo direcionado, permitindo que você compare o desempenho entre os segmentos. [Saiba mais](../campaigns/campaigns-message-optimization.md#targeting)
+   * Crie regras de direcionamento para fornecer conteúdo diferente a segmentos de público-alvo diferentes. O Journey Optimizer rastreia automaticamente as métricas de envolvimento para cada grupo direcionado, permitindo que você compare o desempenho entre os segmentos. [Saiba mais](../campaigns/optimization-targeting.md)
 
 * **Otimização do caminho da Jornada**: adicione uma atividade **Otimizar** à jornada e configure vários caminhos. O Journey Optimizer rastreia automaticamente quais caminhos os perfis tomam e mede o desempenho. [Saiba mais](../building-journeys/optimize.md)
 

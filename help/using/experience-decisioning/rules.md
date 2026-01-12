@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 9%
@@ -52,7 +52,7 @@ Muitas vezes, eles são uma combinação de vários atributos, além de eventos 
 
 É possível usar essas regras:
 
-* Ao criar [direcionamento de otimização de conteúdo](../campaigns/campaigns-message-optimization.md#targeting) em jornadas ou campanhas;
+* Ao criar [direcionamento de otimização de conteúdo](../campaigns/optimization-targeting.md) em jornadas ou campanhas;
 * Ao compilar [otimização de caminho de jornada](../building-journeys/optimize.md#targeting).
 
 ➡️ [Conheça este recurso no vídeo](#video)
@@ -90,7 +90,7 @@ Para criar uma regra, siga estas etapas:
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL Item de decisão]** - A regra pode ser aplicada em um [item de decisão](#decision-rules) no contexto da Decisão;
-   * **[!UICONTROL Direcionamento]** - A regra pode ser usada ao criar regras de [direcionamento](#targeting-rules), como parte da [otimização de conteúdo](../campaigns/campaigns-message-optimization.md#targeting) em uma campanha ou jornada, na [Atividade Otimizar jornada](../building-journeys/optimize.md#targeting).
+   * **[!UICONTROL Direcionamento]** - A regra pode ser usada ao criar regras de [direcionamento](#targeting-rules), como parte da [otimização de conteúdo](../campaigns/optimization-targeting.md) em uma campanha ou jornada, na [Atividade Otimizar jornada](../building-journeys/optimize.md#targeting).
 
 1. Se você criar uma regra de **[!UICONTROL Item de decisão]**, poderá selecionar **[!UICONTROL Habilitar pesquisa de conjunto de dados]** para usar dados do Adobe Experience Platform para enriquecer sua lógica de decisão com dados externos. Isso é especialmente útil para atributos que mudam com frequência, como disponibilidade de produtos ou preços em tempo real.
 
@@ -137,4 +137,4 @@ Para criar uma regra, siga estas etapas:
 
 Saiba como criar, duplicar e aplicar **regras de direcionamento** reutilizáveis no Adobe Journey Optimizer para personalizar campanhas com eficiência com base em atributos de cliente, como região, idioma e comportamento, economizando tempo e melhorando a precisão do público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476132/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

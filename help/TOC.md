@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c9274ddf086fd0ea5fd4d2de9d90daffbccd5ae5
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
-source-wordcount: '3051'
+source-wordcount: '3061'
 ht-degree: 98%
 
 ---
@@ -452,7 +452,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -501,9 +501,12 @@ ht-degree: 98%
       + [Criar um provedor de idioma](using/content-management/multilingual-provider.md)
       + [Criação do conteúdo multilíngue com tradução manual](using/content-management/multilingual-manual.md)
       + [Criação do conteúdo multilíngue com tradução automática](using/content-management/multilingual-automated.md)
-   + [Otimização de mensagens](using/campaigns/campaigns-message-optimization.md)
+   + Otimização de conteúdo {#message-optimization}
+      + [Introdução à otimização](using/campaigns/gs-message-optimization.md)
+      + [Usar direcionamento](using/campaigns/optimization-targeting.md)
+      + [Usar experimentação](using/campaigns/optimization-experimentation.md)
+      + [Combinar direcionamento e experimentação](using/campaigns/optimization-combination.md)
    + Experimento de conteúdo {#content-experiment}
-      + [Experimento de conteúdo](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introdução ao experimento de conteúdo](using/content-management/get-started-experiment.md)
       + [Introdução ao Acelerador de experimento](using/content-management/experiment-accelerator-gs.md)
       + [Criar um experimento de conteúdo](using/content-management/content-experiment.md)
