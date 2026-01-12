@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4162403bedc1632ed28db122e2ec16e3c00a2630
+source-git-commit: c9274ddf086fd0ea5fd4d2de9d90daffbccd5ae5
 workflow-type: tm+mt
-source-wordcount: '3047'
+source-wordcount: '3051'
 ht-degree: 98%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 98%
       + [Jornadas vs Campanhas](using/start/journeys-vs-campaigns.md)
 + Jornadas {#orchestrate-journeys}
    + [Introdução a jornadas](using/building-journeys/journey.md)
+   + [Guia de introdução ao Jornada](using/building-journeys/journey-get-started.md)
    + [Tipos de jornada e guia de seleção](using/building-journeys/journey-types-selection.md)
    + [Perguntas frequentes do Journey Orchestration](using/building-journeys/journey-faq.md)
    + Criar uma jornada {#create-journey}
@@ -451,7 +452,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
