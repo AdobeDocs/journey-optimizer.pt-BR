@@ -2,96 +2,188 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Acessar e assinar alertas do sistema
-description: Saiba como acessar e assinar alertas do sistema
+description: Saiba como acessar, assinar e gerenciar alertas do sistema no Adobe Journey Optimizer. Monitore o desempenho da jornada, erros de ação personalizada, problemas de perfil e capacidade de entrega de email com notificações de alerta proativas.
 feature: Journeys, Alerts, Monitoring
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 455e462078cffd43f1654278e0478951e78717b2
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2638'
 ht-degree: 1%
 
 ---
 
 # Acessar e assinar alertas do sistema {#alerts}
 
-Ao criar jornadas e campanhas, use o botão **Alertas** para verificar e resolver erros antes de executá-los ou publicá-los.
+## Visão geral
 
-* Saiba como solucionar problemas das jornadas nesta [página](../building-journeys/troubleshooting.md)
+Os alertas são notificações automatizadas que ajudam a monitorar e solucionar problemas no Adobe Journey Optimizer. Eles fornecem percepção em tempo real de possíveis problemas em suas jornadas, campanhas e configurações de canal, permitindo que você tome medidas corretivas antes que as experiências do cliente sejam afetadas.
 
-* Saiba como revisar e ativar suas campanhas: [Campanhas de ação](../campaigns/review-activate-campaign.md) | [Campanhas acionadas por API](../campaigns/review-activate-api-triggered-campaign.md) | [Campanhas orquestradas](../orchestrated/start-monitor-campaigns.md)
+O Adobe Journey Optimizer fornece dois tipos de alertas:
 
+* **Alertas de validação na tela**: ao criar jornadas e campanhas, use o botão **Alertas** na tela para identificar e resolver erros de configuração antes da publicação. Saiba como [solucionar problemas do jornada](../building-journeys/troubleshooting.md) e revisar suas campanhas: [Campanhas de ação](../campaigns/review-activate-campaign.md) | [Campanhas acionadas por API](../campaigns/review-activate-api-triggered-campaign.md) | [Campanhas orquestradas](../orchestrated/start-monitor-campaigns.md).
 
-Além dessas, quando um determinado conjunto de condições é atingido, mensagens de alerta podem ser enviadas a todos os usuários em sua organização que se inscreveram neles. Esses alertas estão disponíveis no menu dedicado **[!UICONTROL Alertas]**. A Adobe Experience Platform fornece várias regras de alerta predefinidas que você pode ativar para sua organização. Além disso, você pode assinar alertas de sistema específicos do [!DNL Adobe Journey Optimizer], conforme detalhados nesta página.
+* **Alertas de monitoramento do sistema** (detalhados nesta página): receba notificações proativas quando os limites operacionais forem excedidos ou forem detectados problemas nas configurações de jornadas ativas e canais. Os alertas do sistema monitoram métricas como taxas de erro, descartes de perfis e problemas de capacidade de entrega de email.
+
+**Principais benefícios dos alertas do sistema:**
+
+* Detecção proativa de problemas antes do impacto no cliente
+* Monitoramento automatizado do desempenho e da integridade da jornada
+* Aviso antecipado para problemas de capacidade de entrega de email
+* Tempo reduzido para identificar e resolver problemas operacionais
+
+Os alertas do sistema estão disponíveis no menu **[!UICONTROL Alertas]** em **[!UICONTROL Administração]**. O Adobe Experience Platform fornece várias regras de alerta predefinidas que você pode habilitar, incluindo alertas específicos do [!DNL Adobe Journey Optimizer] para jornada e configurações de canal.
+
+## Pré-requisitos
+
+Antes de trabalhar com alertas:
+
+* **Permissões**: você precisa de permissões específicas para exibir e gerenciar alertas. Consulte [permissões necessárias no Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
+
+* **Reconhecimento de sandbox**: as assinaturas de alerta são específicas da sandbox. Quando você assina alertas, eles se aplicam somente à sandbox atual. Quando uma sandbox é redefinida, todas as assinaturas de alerta também são redefinidas.
+
+* **Preferências de notificação**: configure como você recebe alertas (email e/ou no aplicativo) nas [Preferências da Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
 
 >[!NOTE]
 >
->Saiba mais sobre alertas no Adobe Experience Platform em [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR){target="_blank"}.
+>Os alertas específicos do Journey Optimizer se aplicam somente às jornadas do **live**. Os alertas não são acionados para jornadas no modo de teste. Para obter mais informações sobre a estrutura de alertas, consulte a [documentação de alertas do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR){target="_blank"}.
 
-No menu esquerdo, em **[!UICONTROL Administração]**, clique em **[!UICONTROL Alertas]**. Vários alertas pré-configurados para o Journey Optimizer estão disponíveis na guia **Procurar**.
+## Alertas disponíveis no Journey Optimizer {#available-alerts}
+
+O Journey Optimizer fornece regras de alerta pré-configuradas que monitoram aspectos específicos das suas jornadas e configurações de canal. Não é necessário criar esses alertas: eles estão disponíveis prontos para uso e podem ser ativados por meio de assinatura.
+
+**Para acessar a lista de alertas:**
+
+Navegue até **[!UICONTROL Administração]** > **[!UICONTROL Alertas]** no menu esquerdo. A guia **Procurar** exibe todos os alertas pré-configurados disponíveis para o Journey Optimizer.
 
 ![](assets/updated-alerts-list.png){width=50%}
 
-* Alertas específicos de jornadas:
+### Categorias de alerta
 
-   * o alerta [Acionador de Leitura de Público-alvo sem Êxito](#alert-read-audiences)
-   * o alerta [Taxa de Erro de Ação Personalizada Excedida](#alert-custom-action-error-rate) (substitui o alerta anterior Falha de Ação Personalizada de Jornada)
-   * o alerta [Taxa de Descarte de Perfil Excedida](#alert-discard-rate)
-   * o alerta [Taxa de Erro de Perfil Excedida](#alert-profile-error-rate)
-   * o alerta [Jornada publicada](#alert-journey-published)
-   * o alerta [Jornada concluída](#alert-journey-finished)
-   * o alerta [Limite de ação personalizada](#alert-custom-action-capping) foi acionado
+A Journey Optimizer fornece duas categorias de alertas do sistema:
 
-* Alertas específicos para configuração de canal:
+>[!BEGINTABS]
 
-   * o alerta [&#x200B; do registro DNS de domínio do AJO &#x200B;](#alert-dns-record-missing)está ausente
-   * alerta de [falha na configuração do canal do AJO](#alert-channel-config-failure)
-     <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+>[!TAB Jornada alertas]
+
+Monitorar a execução e o desempenho da jornada:
+
+* [Acionador de Leitura de Público-Alvo Malsucedido](#alert-read-audiences) - Avisa quando uma atividade de Leitura de Público falha ao processar perfis
+* [Taxa de Erro de Ação Personalizada Excedida](#alert-custom-action-error-rate) - Detecta altas taxas de erro em chamadas de API de ação personalizada (substitui o alerta anterior de Falha de Ação Personalizada de Jornada)
+* [Taxa de Descarte de Perfil Excedida](#alert-discard-rate) - Identifica quando os perfis estão sendo descartados em uma taxa anormal
+* [Taxa de Erro de Perfil Excedida](#alert-profile-error-rate) - Sinaliza quando perfis encontram erros durante a execução da jornada
+* [Jornada Publicada](#alert-journey-published) - Notificação informativa quando uma jornada é publicada
+* [Jornada concluída](#alert-journey-finished) - Notificação informativa quando uma jornada é concluída
+* [Limite de Ação Personalizada Acionado](#alert-custom-action-capping) - Notifica quando os limites de chamada da API são atingidos
+
+>[!TAB Alertas de configuração de canal]
+
+Detectar problemas com a configuração da capacidade de entrega de emails:
+
+* [Registro DNS de Domínio do AJO ausente](#alert-dns-record-missing) - Identifica registros DNS ausentes ou configurados incorretamente
+* [Falha na configuração do canal do AJO](#alert-channel-config-failure) - Detecta problemas de configuração de email (registros SPF, DKIM, MX)
+  <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>Para obter alertas de outros serviços da Adobe Experience Platform (assimilação de dados, resolução de identidade, segmentação e muito mais), consulte a [documentação de regras de alerta padrão](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## Assinatura de alertas {#subscribe-alerts}
 
-Se ocorrer um comportamento inesperado e/ou se um determinado conjunto de condições em suas operações for atingido (como um problema em potencial quando o sistema viola um limite), as notificações de alerta serão entregues a todos os usuários em sua organização que se subscreveram a elas.
+As assinaturas de alerta determinam quais usuários recebem notificações quando condições específicas são atendidas (como limites de taxa de erro excedidos ou problemas de configuração detectados). Somente os usuários inscritos recebem notificações de alerta para os alertas selecionados.
 
-É possível assinar cada alerta individualmente na interface do usuário, seja globalmente, pelo menu **[!UICONTROL Alertas]** (consulte [Assinatura global](#global-subscription)), ou unitária para uma jornada específica (consulte [Assinatura unitária](#unitary-subscription)).
+### Métodos de subscrição
 
-Com base nas preferências do assinante, os alertas são enviados por email e/ou diretamente no centro de notificações da Journey Optimizer, no canto superior direito da interface do usuário (notificações no aplicativo). Selecione como você deseja receber esses alertas nas [!DNL Adobe Experience Cloud] **[!UICONTROL Preferências]**. [Saiba mais](../start/user-interface.md#in-product-uc)
+Você pode assinar alertas de duas maneiras:
 
-Quando um alerta é resolvido, os assinantes recebem uma notificação &quot;Resolvido&quot;. Os alertas são resolvidos após 1 hora para proteger contra a alternância de valores.
+* **[Assinatura global](#global-subscription)**: aplica-se a todas as jornadas e campanhas na sandbox atual. Use esse método quando quiser monitorar todas as atividades de jornada na organização.
+* **[Assinatura específica de Jornada](#unitary-subscription)**: aplica-se somente a jornadas individuais. Use esse método quando quiser monitorar jornadas específicas de alta prioridade sem receber alertas para todas as jornadas.
+
+### Como funcionam as notificações de alerta
+
+**Ciclo de vida do alerta:**
+
+1. **Acionamento**: o alerta dispara quando sua condição específica é atendida (por exemplo, a taxa de erros excede 20%)
+2. **Notificação**: todos os usuários inscritos recebem notificações por meio de seus canais configurados
+3. **Monitoramento**: o alerta continua a monitorar a condição em intervalos regulares
+4. **Solução**: quando a condição é resolvida, os assinantes recebem uma notificação &quot;Resolvido&quot;
+
+**Entrega de notificação:**
+
+* **Canais de entrega**: os alertas são enviados por email e/ou notificações no aplicativo na central de notificações da Journey Optimizer (ícone de sino no canto superior direito). Configure seus canais de entrega preferidos em suas [Preferências da Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
+
+* **Tipos de alerta**: o Journey Optimizer fornece alertas únicos (eventos informativos como &quot;jornada publicada&quot;) e alertas repetitivos (limites de monitoramento). Os alertas repetitivos continuam a ser avaliados e notificados até que a condição seja resolvida.
+
+* **Resolução automática**: para evitar a fadiga da notificação de valores flutuantes, os alertas são resolvidos automaticamente após 1 hora, mesmo se a condição persistir. Isso impede notificações contínuas quando as métricas passam o mouse sobre valores limite.
+
+**Método de assinatura alternativo:**
+
+Para integrações avançadas, você pode assinar por meio de Eventos de I/O para enviar alertas a sistemas externos. Consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
 
 
 ### Assinatura global {#global-subscription}
 
-Para assinar/cancelar a assinatura de um alerta para todas as jornadas e campanhas, siga estas etapas:
+Assinaturas globais permitem que você receba alertas para todas as jornadas e campanhas na sandbox atual.
 
-1. Navegue até o painel **[!UICONTROL Alertas]** no menu esquerdo e selecione a opção **[!UICONTROL Assinar]** para o alerta no qual deseja se inscrever.
+**Para assinar um alerta:**
+
+1. Navegue até **[!UICONTROL Administração]** > **[!UICONTROL Alertas]** no menu esquerdo.
+
+1. Na guia **[!UICONTROL Procurar]**, localize o alerta que você deseja monitorar.
+
+1. Clique em **[!UICONTROL Assinar]** para obter o alerta desejado.
 
    ![Assinando um alerta](assets/alert-subscribe.png){width=80%}
 
-   >[!NOTE]
-   >
-   >A assinatura se aplica somente a uma sandbox específica. Você deve assinar alertas para cada sandbox individualmente.
+**Para cancelar a inscrição:**
 
-1. Use o mesmo método para **[!UICONTROL Cancelar inscrição]**.
+Clique em **[!UICONTROL Cancelar inscrição]** ao lado do alerta.
 
-Você também pode assinar por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer estão detalhadas [abaixo](#journey-alerts).
+>[!IMPORTANT]
+>
+>As assinaturas de alerta são específicas da sandbox. Você deve assinar alertas separadamente em cada sandbox em que deseja receber notificações.
 
-### Assinatura unitária {#unitary-subscription}
+**Método de assinatura alternativo:**
 
-Para assinar/cancelar a assinatura de um alerta para uma jornada específica, siga estas etapas:
+Você também pode assinar por meio de [Notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, o que permite a integração com sistemas externos. Os nomes de inscrição em eventos para alertas do Journey Optimizer estão listados em cada [descrição de alerta abaixo](#journey-alerts).
 
-1. Navegue até o inventário de jornadas e selecione a opção **[!UICONTROL Assinar alertas]** para uma jornada específica.
+### Assinatura específica do Jornada {#unitary-subscription}
+
+As assinaturas específicas de jornada permitem monitorar jornadas individuais de alta prioridade sem receber alertas para todas as jornadas da organização.
+
+**Para assinar alertas para uma jornada específica:**
+
+1. Vá para o inventário do jornada.
+
+1. Clique no menu **** (mais ações) da jornada que você deseja monitorar.
+
+1. Selecione **[!UICONTROL Assinar alertas]**.
 
    ![Assinando um alerta para uma jornada específica](assets/subscribe-journey-alert.png){width=75%}
 
-1. Escolha os alertas. Os seguintes alertas estão disponíveis: [Taxa de Descarte de Perfil Excedida](#alert-discard-rate), [Taxa de Erro de Ação Personalizada Excedida](#alert-custom-action-error-rate), [Taxa de Erro de Perfil Excedida](#alert-profile-error-rate), [Jornada Publicada](#alert-journey-published), [Jornada Concluída](#alert-journey-finished) e [Limite de Ação Personalizada Disparado](#alert-custom-action-capping).
+1. Selecione o(s) alerta(s) que deseja ativar nas opções disponíveis:
+   * [Taxa de descarte do perfil excedida](#alert-discard-rate)
+   * [Taxa de erros de ação personalizada excedida](#alert-custom-action-error-rate)
+   * [Taxa de erros do perfil excedida](#alert-profile-error-rate)
+   * [Jornada publicada](#alert-journey-published)
+   * [Jornada concluída](#alert-journey-finished)
+   * [Limite de ação personalizada acionado](#alert-custom-action-capping)
 
-1. Para cancelar a inscrição em um alerta, desmarque-o na mesma tela.
+1. Clique em **[!UICONTROL Salvar]** para confirmar suas assinaturas.
 
-1. Clique em **[!UICONTROL Salvar]** para confirmar.
+**Para cancelar a inscrição:**
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
+Abra a mesma caixa de diálogo, desmarque o(s) alerta(s) e clique em **[!UICONTROL Salvar]**.
+
+>[!NOTE]
+>
+>O alerta [Acionador de Leitura de Público-alvo sem Êxito](#alert-read-audiences) está disponível somente por assinatura global, não por assinatura de jornada.
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Jornada alertas {#journey-alerts}
 
@@ -311,7 +403,14 @@ Para adicionar mais assinantes, insira seus emails separados por vírgula e sele
 
 Para remover os assinantes, exclua seus endereços de email dos assinantes atuais e selecione **[!UICONTROL Atualizar]**.
 
-## Recursos adicionais {#additional-resources-alerts}
+## Tópicos relacionados {#additional-resources-alerts}
 
-* Saiba como solucionar problemas das jornadas nesta [página](../building-journeys/troubleshooting.md).
-* Saiba como revisar suas campanhas em [esta página](../campaigns/review-activate-campaign.md).
+**Gerenciamento de Jornadas e campanhas:**
+
+* [Solução de problemas do jornada](../building-journeys/troubleshooting.md) - Resolver problemas e erros comuns do jornada
+* [Revisar e ativar campanhas](../campaigns/review-activate-campaign.md) - Validação de campanha pré-publicação
+
+**Estrutura de alertas:**
+
+* [Visão Geral dos Alertas do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR) - Noções básicas sobre a estrutura de alertas
+* [Assinar alertas por meio de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html) - Opções de integração avançadas
