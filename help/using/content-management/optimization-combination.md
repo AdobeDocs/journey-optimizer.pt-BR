@@ -6,7 +6,7 @@ description: Saiba como combinar direcionamento e experimentos em uma única jor
 role: User
 level: Intermediate
 keywords: otimização, direcionamento, experimentação, combinação, avançado
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Para combinar o direcionamento e os experimentos em uma jornada ou campanha, sig
 
 1. Continue de forma semelhante nas outras regras de direcionamento e projete o conteúdo correspondente para cada variante.
 
-1. Salve as alterações e [ative](review-activate-campaign.md) sua jornada ou campanha.
+1. Salve as alterações e [ative](../campaigns/review-activate-campaign.md) sua jornada ou campanha.
 
 Quando a jornada/campanha estiver ativa, os usuários de cada grupo direcionado receberão aleatoriamente as diferentes variações de conteúdo definidas para o grupo ao qual pertencem.
 

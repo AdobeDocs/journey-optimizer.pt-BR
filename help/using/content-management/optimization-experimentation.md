@@ -6,7 +6,7 @@ description: Saiba como usar experimentos de conteúdo para testar várias vers�
 role: User
 level: Intermediate
 keywords: experimentação, otimização, teste A/B, experimento de conteúdo, tratamentos
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Para configurar a experimentação e determinar qual mensagem impulsiona mais co
    >
    >Você pode selecionar outras ações: a experimentação se aplica a todas as ações adicionadas à campanha ou à [atividade de Ação](../building-journeys/journey-action.md) da jornada.
 
-1. [Ative](review-activate-campaign.md) sua jornada ou campanha.
+1. [Ative](../campaigns/review-activate-campaign.md) sua jornada ou campanha.
 
 Quando a jornada/campanha estiver ativa, os usuários serão atribuídos aleatoriamente às diferentes variações de conteúdo. [!DNL Journey Optimizer] rastreia qual variação gera mais compras e fornece insights acionáveis.
 

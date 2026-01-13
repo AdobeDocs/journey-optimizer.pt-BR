@@ -6,7 +6,7 @@ description: Saiba como aproveitar as regras de direcionamento para fornecer con
 role: User
 level: Intermediate
 keywords: direcionamento, otimização, público-alvo, personalização, regras
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 8%
@@ -90,7 +90,7 @@ Para configurar o direcionamento, siga as etapas abaixo.
 
    Neste exemplo, crie um conteúdo específico para residentes dos EUA, um conteúdo diferente para residentes da França e outro conteúdo para residentes da Índia.
 
-1. [Ative](review-activate-campaign.md) sua jornada ou campanha.
+1. [Ative](../campaigns/review-activate-campaign.md) sua jornada ou campanha.
 
 Uma vez que a jornada/campanha esteja ativa, o conteúdo personalizado para cada target é enviado para que os residentes dos EUA recebam uma mensagem específica, os residentes da França recebam uma mensagem diferente e assim por diante.
 
