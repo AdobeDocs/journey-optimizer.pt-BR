@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introdução à otimização de conteúdo
 description: Saiba como usar a otimização de conteúdo para fornecer conteúdo personalizado e otimizado em suas campanhas e jornadas.
-feature: Experimentation, Targeting
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
 keywords: otimização, direcionamento, experimentação, teste A/B, campanhas, jornadas, personalização
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 8%
@@ -111,7 +111,7 @@ Assim que a jornada ou campanha estiver ativa, os perfis serão avaliados de aco
 
 Saiba como aproveitar a otimização de conteúdo em campanhas acionadas por ação ou API. Você aprenderá a direcionar subconjuntos do público-alvo, criar variações de mensagem por local, habilitar o conteúdo de fallback e executar vários experimentos em uma mesma campanha. Este tutorial também aborda como gerenciar campanhas com vários canais e, ao mesmo tempo, manter a consistência das mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470373?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **Tópicos relacionados**
 
