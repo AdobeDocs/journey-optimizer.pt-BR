@@ -25,7 +25,7 @@ As APIs de entrega de ofertas do Adobe Journey Optimizer permitem que você forn
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução às APIs de entrega de ofertas
 
@@ -45,7 +45,7 @@ Crie e entregue ofertas de marketing personalizadas usando a API de tomada de de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Entregar ofertas com a API de tomada de decisão na borda
 

@@ -35,7 +35,7 @@ Saiba como criar ofertas personalizadas, configurar representações e definir r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Como criar ofertas substitutas
 

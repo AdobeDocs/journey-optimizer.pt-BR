@@ -45,7 +45,7 @@ Siga as instruções passo a passo para criar um conjunto de dados e um esquema 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar a captação de dados de eventos para a gestão de decisões
 

@@ -52,7 +52,7 @@ Explore ferramentas e práticas recomendadas para criar conteúdo de email respo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Gerenciar recusa de email
 

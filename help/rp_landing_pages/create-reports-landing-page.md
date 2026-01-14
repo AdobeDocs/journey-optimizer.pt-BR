@@ -25,7 +25,7 @@ A criação de relatórios de gestão de decisões no Adobe Journey Optimizer pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Trabalhar com eventos de gestão de decisões
 
@@ -35,7 +35,7 @@ Saiba como utilizar os conjuntos de dados de eventos da gestão de decisões par
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Acessar e explorar campos de XDM de DecisioningEvents
 
