@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia, orquestração
 version: Journey Orchestration
-source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '5233'
+source-wordcount: '5231'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ Saiba mais sobre [condições](condition-activity.md).
 
 +++ Posso enviar mensagens para perfis em uma jornada?
 
-Sim. O Journey Optimizer inclui **ações de canal integradas** que permitem enviar mensagens por email, notificações por push, SMS/MMS/RCS, mensagens no aplicativo, experiências da Web, experiências baseadas em código, correspondência direta, cartões de conteúdo, WhatsApp e LINE. Você pode criar o conteúdo da mensagem diretamente no Journey Optimizer e adicioná-lo como atividades de ação em sua jornada.
+Sim. O Journey Optimizer inclui **ações de canal integradas** que permitem enviar mensagens por email, notificações por push, SMS/MMS/RCS, mensagens no aplicativo, experiências da Web, experiências baseadas em código, cartões de conteúdo, WhatsApp e LINE. Você pode criar o conteúdo da mensagem diretamente no Journey Optimizer e adicioná-lo como atividades de ação em sua jornada.
 
 Para canais sem suporte nativo, você pode usar **ações personalizadas** para integrar-se a plataformas de mensagens externas e enviar mensagens por meio de qualquer canal de terceiros.
 
@@ -695,7 +695,7 @@ Sim. Use **ações personalizadas** para chamar APIs de terceiros (CRM, automaç
 
 As ações personalizadas oferecem suporte à autenticação (chave de API, autenticação personalizada), personalização de carga de solicitação/resposta, tratamento de erros e tempos limite e parâmetros dinâmicos do contexto de jornada.
 
-Saiba mais sobre [Ações personalizadas](using-custom-actions.md).
+Saiba mais sobre [ações personalizadas](using-custom-actions.md).
 
 +++
 
@@ -942,8 +942,8 @@ Saiba mais sobre [medidas de proteção e limitações](../start/guardrails.md).
 
 Para obter mais informações e atualizações, explore os seguintes recursos:
 
-* [Introdução às jornadas](journey.md)
-* [Criar a primeira jornada](journey-gs.md)
+* [Introdução a jornadas](journey.md)
+* [Crie a primeira jornada](journey-gs.md)
 * [Guias de solução de problemas](troubleshooting.md)
 * [Jornada casos de uso](jo-use-cases.md)
 * [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
