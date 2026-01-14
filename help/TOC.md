@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -48,9 +48,9 @@ ht-degree: 98%
       + [Pesquise, filtre e organize](using/start/search-filter-categorize.md)
       + [IA e recursos inteligentes](using/start/ai-features.md)
       + [Acessibilidade](using/start/accessibility.md)
-      + [Jornadas vs Campanhas](using/start/journeys-vs-campaigns.md)
+      + [Jornadas vs campanhas](using/start/journeys-vs-campaigns.md)
 + Jornadas {#orchestrate-journeys}
-   + [Introdução a jornadas](using/building-journeys/journey.md)
+   + [Introdução às jornadas](using/building-journeys/journey.md)
    + [Guia de introdução ao Jornada](using/building-journeys/journey-get-started.md)
    + [Tipos de jornada e guia de seleção](using/building-journeys/journey-types-selection.md)
    + [Perguntas frequentes do Journey Orchestration](using/building-journeys/journey-faq.md)
@@ -68,7 +68,7 @@ ht-degree: 98%
    + Gerenciar jornadas {#manage-journey}
       + [Gerenciar jornadas](/help/rp_landing_pages/manage-journey-landing-page.md)
       + [Procurar e filtrar suas jornadas](using/building-journeys/journey-ui.md)
-      + [Organizar com tags](using/building-journeys/tags.md)
+      + [Organize com tags](using/building-journeys/tags.md)
       + [Entrada de perfil em jornadas](using/building-journeys/entry-management.md)
       + [Usar identificadores complementares em jornadas](using/building-journeys/supplemental-identifier.md)
       + [Trabalhar com eventos de etapa da jornada](using/reports/journey-step-events-overview.md)
@@ -124,9 +124,9 @@ ht-degree: 98%
       + [Aprenda por meio de casos de uso](using/building-journeys/jo-use-cases.md)
       + [Critérios de entrada e saída da jornada](using/building-journeys/entry-exit-criteria-guide.md)
       + [Pesquisa de evento de experiência](using/building-journeys/exp-event-lookup.md)
-      + [Enviar mensagens de vários canais](using/building-journeys/journeys-uc.md)
+      + [Envie mensagens multicanal](using/building-journeys/journeys-uc.md)
       + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/ajo-ac.md)
-      + [Enviar uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
+      + [Envie uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
       + [Enviar emails apenas em dias úteis](using/building-journeys/weekday-email-uc.md)
       + [Passar coleções para parâmetros de ação personalizada](using/building-journeys/collections.md)
       + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
@@ -452,7 +452,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -660,7 +660,7 @@ ht-degree: 98%
       + [Trabalhar com posicionamentos](using/experience-decisioning/placements.md)
       + Usar dados da Adobe Experience Platform {#aep-data}
          + [Usar dados da Adobe Experience Platform](/help/rp_landing_pages/aep-data-landing-page.md)
-         + [Aproveitar dados de contexto](using/experience-decisioning/context-data.md)
+         + [Utilizar dados contextuais](using/experience-decisioning/context-data.md)
          + [Usar a Adobe Experience Platform para decisão](using/experience-decisioning/aep-data-exd.md)
       + [Criar estratégias de seleção](using/experience-decisioning/selection-strategies.md)
       + Enviar ofertas usando políticas de decisão {#decision-policies}
@@ -669,14 +669,14 @@ ht-degree: 98%
          + [Usar políticas de decisão em mensagens](using/experience-decisioning/use-decision-policy.md)
       + [Relatório de decisões](using/experience-decisioning/cja-reporting.md)
       + [Caso de uso de decisão](using/experience-decisioning/experience-decisioning-uc.md)
-      + Coletar dados do evento {#experience-decisioning-collect-event-data}
+      + Coletar dados de eventos {#experience-decisioning-collect-event-data}
          + [Introdução à coleta de dados](using/experience-decisioning/data-collection/data-collection.md)
          + [Criar um conjunto de dados para coletar eventos](using/experience-decisioning/data-collection/create-dataset.md)
          + [Configurar captura de eventos](using/experience-decisioning/data-collection/schema-requirement.md)
    + Gestão de decisões {#offer-decisioning}
       + [Gestão de decisões](/help/rp_landing_pages/offer-decisioning-landing-page.md)
-      + Introdução à gestão de decisões {#get-started-decision}
-         + [Introdução à gestão de decisões](/help/rp_landing_pages/get-started-decision-landing-page.md)
+      + Introdução à Gestão de decisões {#get-started-decision}
+         + [Introdução à Gestão de decisões](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [Sobre a gestão de decisões](using/offers/get-started/starting-offer-decisioning.md)
          + [Medidas de proteção e limitações da gestão de decisões](using/offers/decision-management-guardrails.md)
          + [Interface do usuário](using/offers/get-started/user-interface.md)
@@ -727,8 +727,8 @@ ht-degree: 98%
          + [Criar relatórios de gestão de decisões](/help/rp_landing_pages/create-reports-landing-page.md)
          + [Trabalhar com eventos de gestão de decisões](using/offers/reports/get-started-events.md)
          + [Acessar campos XDM de eventos](using/offers/reports/xdm-fields.md)
-      + Exportar o catálogo de oferta {#export-catalog}
-         + [Exportar o catálogo de oferta](/help/rp_landing_pages/export-catalog-landing-page.md)
+      + Exportar o catálogo de ofertas {#export-catalog}
+         + [Exportar o catálogo de ofertas](/help/rp_landing_pages/export-catalog-landing-page.md)
          + [Introdução à exportação do catálogo de ofertas](using/offers/export-catalog/get-started-export.md)
          + [Acessar o catálogo de ofertas exportado](using/offers/export-catalog/access-dataset.md)
          + [Conjunto de dados de ofertas personalizadas](using/offers/export-catalog/export-offers.md)

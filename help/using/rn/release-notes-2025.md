@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
 workflow-type: tm+mt
 source-wordcount: '7916'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -461,7 +461,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
    * **Várias ações de entrada em jornadas**: para simplificar a orquestração de jornada, agora é possível definir várias ações de entrada em uma única jornada. Anteriormente disponível nas campanhas, esse recurso permite fornecer várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da web para locais diferentes ao mesmo tempo, e cada ação com um conteúdo específico. [Leia mais](../building-journeys/journey-action.md#multi-action)
 
-## Orquestração de campanha  
+## Orquestração de campanha
 
 **Data de disponibilidade**: 4 de agosto de 2025
 
@@ -588,7 +588,7 @@ Para mais informações, consulte a <a href="../experience-decisioning/create-de
 <table>
 <thead>
 <tr>
-<th><strong>Execução de teste de jornada</strong><br/></th>
+<th><strong>Execução de teste da jornada</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1615,7 +1615,7 @@ Os modelos de conteúdo do tipo HTML agora estão obsoletos. Observe que ainda �
 
 **Políticas de consentimento**
 
-Agora você pode aproveitar as políticas de consentimento personalizadas por meio de ações de marketing em configurações de canal de email transacional. [Saiba mais](../action/consent.md#surface-marketing-actions)
+Agora é possível usar políticas de consentimento personalizadas por meio de ações de marketing nas configurações do canal de email transacional. [Saiba mais](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 
