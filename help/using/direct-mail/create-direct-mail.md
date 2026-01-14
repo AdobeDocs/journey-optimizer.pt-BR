@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '787'
 ht-degree: 19%
 
 ---
@@ -30,12 +30,7 @@ Para criar mensagens de correspondência direta, crie uma campanha agendada e co
 >1. Uma [configuração de roteamento de arquivo](../direct-mail/direct-mail-configuration.md#file-routing-configuration) que especifica o servidor no qual o arquivo de extração deve ser carregado e armazenado,
 >1. Uma [configuração de mensagem de correspondência direta](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que referenciará a configuração de roteamento de arquivos.
 
-
 ## Criar uma campanha de correspondência direta{#create-dm-campaign}
-
->[!AVAILABILITY]
->
->A Correspondência direta oferece suporte à funcionalidade de Retenção, mas atualmente não oferece suporte a Tratamentos.
 
 Para criar uma campanha de correspondência direta, você configurará uma campanha agendada, selecionará seu público-alvo e definirá as configurações de correspondência direta, incluindo a configuração da mensagem. Siga estas etapas:
 
@@ -62,6 +57,10 @@ Para criar uma campanha de correspondência direta, você configurará uma campa
 1. Selecione ou crie uma **[!UICONTROL Configuração de correspondência direta]** para usar. [Saiba como criar uma configuração de correspondência direta](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
+
+   >[!AVAILABILITY]
+   >
+   >A Correspondência Direta oferece suporte à funcionalidade **Holdout**, mas atualmente não oferece suporte a **Tratamentos**. [Saiba como trabalhar com experimentos](../content-management/get-started-experiment.md)
 
 1. As campanhas podem ser agendadas para uma data específica ou definidas para recorrentes em intervalos regulares. Saiba como configurar o **[!UICONTROL Cronograma]** da sua campanha no [nesta seção](../campaigns/campaign-schedule.md).
 
