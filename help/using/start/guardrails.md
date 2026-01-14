@@ -9,15 +9,15 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3661'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Medidas de proteção e limitações {#limitations}
 
-Abaixo você encontrará medidas de proteção e limitações ao usar o [!DNL Adobe Journey Optimizer].
+Abaixo são encontradas medidas de proteção e limitações ao usar o [!DNL Adobe Journey Optimizer].
 
 Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -44,7 +44,7 @@ Essa alteração será implementada nas **sandboxes de clientes existentes** em 
 
 ## Canais e mensagens {#channel-guardrails}
 
-Esta seção abrange as medidas de proteção para todos os canais de comunicação, incluindo email, SMS, canais de entrada (na Web, no aplicativo, com base em código, cartões de conteúdo) e mensagens transacionais.
+Esta seção abrange as medidas de proteção para todos os canais de comunicação, incluindo email, SMS, canais de entrada (web, no aplicativo, baseado em código, cartões de conteúdo) e mensagens transacionais.
 
 >[!NOTE]
 >
@@ -118,9 +118,9 @@ A Adobe recomenda definir o valor de TTL como 14 dias para corresponder ao TTL d
 
 O Journey Optimizer aceita um volume máximo de 500 mensagens transacionais por segundo em campanhas.
 
-## Conteúdo e Assets {#content-assets}
+## Conteúdo e ativos {#content-assets}
 
-Esta seção aborda as medidas de proteção para a criação e o gerenciamento de conteúdo, incluindo páginas de aterrissagem, subdomínios e fragmentos.
+Esta seção aborda as medidas de proteção para a criação e o gerenciamento de conteúdo, incluindo páginas de destino, subdomínios e fragmentos.
 
 ### Medidas de proteção das páginas de destino {#lp-guardrails}
 
@@ -150,7 +150,7 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
 
 ## Públicos-alvo e perfis {#audiences-profiles}
 
-Esta seção aborda as medidas de proteção para o gerenciamento de público-alvo, o manuseio de perfis e as considerações de perfil ativáveis.
+Esta seção aborda medidas de proteção para gerenciamento de público-alvo, tratamento de perfil e considerações sobre o perfil engajável.
 
 ### Medidas de proteção de públicos-alvo e perfis {#audience}
 
@@ -166,14 +166,14 @@ Esta seção aborda as medidas de proteção para o gerenciamento de público-al
 
 ### Medidas de proteção de decisão e gestão de decisões {#decisioning-guardrails}
 
-As medidas de proteção e limitações que devem ser consideradas ao trabalhar com a Gestão de decisões ou a Gestão de decisões estão detalhadas nas seções Gestão de decisões e gestão de decisões:
+Medidas de proteção e limitações que devem ser consideradas ao trabalhar com o Serviço de decisão ou a Gestão de decisões estão detalhadas nestas seções de Decisão e Gestão de decisões:
 
 * [Medidas de proteção e limitações do serviço de decisão](../experience-decisioning/decisioning-guardrails.md)
 * [Medidas de proteção e limitações da gestão de decisões](../offers/decision-management-guardrails.md)
 
 ## Jornadas {#journeys-guardrails}
 
-Esta seção aborda as medidas de proteção e limitações para jornadas, incluindo limitações gerais de jornada, componentes de jornada (ações, eventos, fontes de dados), atividades de jornada e recursos específicos, como ações personalizadas e editor de expressão.
+Esta seção aborda medidas de proteção e limitações para jornadas, incluindo limitações gerais de jornada, componentes de jornada (ações, eventos, fontes de dados), atividades de jornada e recursos específicos, como ações personalizadas e o editor de expressão.
 
 ### Medidas de proteção gerais da jornada {#journeys-guardrails-journeys}
 
@@ -346,7 +346,7 @@ Consulte também [esta página](../building-journeys/read-audience.md#must-read)
 
 Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Atualizar perfil]**. Elas são listadas [nesta página](../building-journeys/update-profiles.md).
 
-## Orquestração de campanha   {#campaign-orchestration}
+## Orquestração de campanha {#campaign-orchestration}
 
 ### Proteções da orquestração de campanhas {#orchestration-guardrails}
 

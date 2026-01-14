@@ -6,7 +6,7 @@ description: Canal de email
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: e2ecfcd3163965bbd0ada68edd61ac07373eaad2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Entregas de email podem ser criadas:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Como criar um email
 
@@ -42,7 +42,7 @@ Guia passo a passo para adicionar, configurar e testar ações de email em jorna
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Projetar e otimizar conteúdo de email
 
@@ -52,7 +52,7 @@ Explore ferramentas e práticas recomendadas para criar conteúdo de email respo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gerenciar recusa de email
 
@@ -62,7 +62,7 @@ Configure mecanismos de recusa com um clique ou em duas etapas para gerenciar as
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar canal de email
 
@@ -72,7 +72,7 @@ Defina e gerencie configurações de email, como delegação de subdomínio, lis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Como dominar a capacidade de entrega de email
 

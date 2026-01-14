@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Siga estas etapas principais para começar a criar experiências:
 
 ### Orquestração de campanha
 
-* **Escolha a abordagem correta**: [Comparar tipos de jornadas](../../building-journeys/journey.md#journey-types) para experiências acionadas por comportamento em tempo real ou [tipos de campanhas](../../campaigns/get-started-with-campaigns.md#campaign-types) para campanhas agendadas em lote
+* **Escolha a abordagem correta**: [compare os tipos de jornada](../../building-journeys/journey.md#journey-types) para experiências acionadas por comportamento em tempo real ou os [tipos de campanha](../../campaigns/get-started-with-campaigns.md#campaign-types) para campanhas em lote agendadas
 * **Defina objetivos claros da campanha**: estabeleça metas antes de criar fluxos de trabalho de várias etapas
 * **Inicie com públicos-alvo piloto**: valide as contagens e a lógica de segmentação antes de dimensionar
 * **Aproveite os dados relacionais**: use a segmentação de várias entidades e conecte os dados do cliente a contas, compras e assinaturas para um direcionamento preciso
@@ -202,5 +202,5 @@ Colabore com [Admins](administrator.md) no acesso e nas configurações:
 
 1. **Comece aos poucos**: crie uma jornada de boas-vindas simples ou uma campanha de mensagem única para conhecer a plataforma
 2. **Aproveite a IA**: use o Assistente de IA para fazer perguntas e acelerar a criação de conteúdo
-3. **Ingresse na comunidade**: conecte-se a outros usuários do Journey Optimizer na [Comunidade da Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}
+3. **Ingresse na comunidade**: conecte-se a outros usuários do Journey Optimizer na [Comunidade da Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Explore tutoriais**: assista aos vídeos passo a passo na [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR){target="_blank"}

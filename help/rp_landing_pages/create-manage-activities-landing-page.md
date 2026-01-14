@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-01-28
 badge: label="Legado" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ No Adobe Journey Optimizer, a criação e o gerenciamento de decisões permitem 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar decisões no Adobe Journey Optimizer
 
@@ -35,7 +35,7 @@ Saiba como criar decisões, definir escopos, definir ofertas substitutas e geren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar métodos de seleção de ofertas
 
@@ -45,7 +45,7 @@ Explore como configurar métodos de classificação de decisões, incluindo pont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Simular decisões de oferta
 

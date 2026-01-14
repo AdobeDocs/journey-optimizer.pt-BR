@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-04-46
 badge: label="Legado" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ A seção de referência da API do Adobe Journey Optimizer desbloqueia as ferram
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à API da biblioteca de ofertas
 
@@ -35,7 +35,7 @@ Saiba como integrar a API da biblioteca de ofertas para gestão de decisões, co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Entregar ofertas por meio das APIs do Adobe Journey Optimizer
 
