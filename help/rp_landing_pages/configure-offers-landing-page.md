@@ -45,7 +45,7 @@ Defina e configure onde as ofertas são exibidas por meio de representações e,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Adicionar restrições a ofertas
 

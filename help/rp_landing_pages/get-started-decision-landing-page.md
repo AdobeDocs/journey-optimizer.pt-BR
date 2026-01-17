@@ -35,7 +35,7 @@ Saiba mais sobre a Gestão de decisões no Adobe Journey Optimizer, incluindo be
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Medidas de proteção e limitações da gestão de decisões
 
@@ -45,7 +45,7 @@ Entenda as restrições operacionais e os limites de desempenho da Gestão de de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Guia da interface da Biblioteca de ofertas
 
@@ -55,7 +55,7 @@ Explore a interface e as funcionalidades da Biblioteca de ofertas para criar, ge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Etapas principais para criar e gerenciar ofertas
 
@@ -65,7 +65,7 @@ Siga um guia passo a passo para criar, gerenciar e configurar ofertas e decisõe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Usar públicos-alvo de upload personalizados para a decisão
 

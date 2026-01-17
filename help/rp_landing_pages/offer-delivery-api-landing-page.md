@@ -35,7 +35,7 @@ Saiba mais sobre as APIs disponíveis para fornecer ofertas personalizadas, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Entregar ofertas com a API de tomada de decisão
 
@@ -55,7 +55,7 @@ Implemente uma entrega de ofertas personalizadas com o SDK da web da Adobe Exper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Usar a API de tomada de decisão em lotes para entregar ofertas
 

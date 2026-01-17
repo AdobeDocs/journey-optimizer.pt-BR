@@ -25,7 +25,7 @@ No Adobe Journey Optimizer, a criação de componentes, como posicionamentos, re
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Guia para criar posicionamentos de ofertas
 
@@ -35,7 +35,7 @@ Saiba como criar e gerenciar posicionamentos para garantir que o conteúdo da of
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Como criar regras de decisão no Adobe Journey Optimizer
 
@@ -45,7 +45,7 @@ Defina regras de decisão para personalizar ofertas, direcionando segmentos de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=pt-BR)
 
 Como criar e gerenciar qualificadores de coleção no Adobe Journey Optimizer
 

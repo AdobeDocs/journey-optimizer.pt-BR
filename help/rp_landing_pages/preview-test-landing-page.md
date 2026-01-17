@@ -38,7 +38,7 @@ Saiba como usar perfis de teste e dados de entrada de amostra para visualizar e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como selecionar perfis de teste
 

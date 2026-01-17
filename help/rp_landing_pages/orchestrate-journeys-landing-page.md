@@ -32,7 +32,7 @@ Saiba como criar jornadas de clientes em tempo real em várias etapas usando as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Guia abrangente para criar e gerenciar jornadas
 
@@ -42,7 +42,7 @@ Orientação passo a passo sobre design, teste, publicação e rastreamento de j
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Guia abrangente para gerenciar jornadas
 
