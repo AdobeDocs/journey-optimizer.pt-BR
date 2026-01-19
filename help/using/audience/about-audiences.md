@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 6c4bf9edf3b5d3031f5b0ef43db7c8699cfb75dc
+source-git-commit: 80795b643ba08e5016d768600c675ce1273e3a16
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 18%
@@ -38,7 +38,7 @@ O Adobe Journey Optimizer fornece ferramentas robustas para criar, gerenciar e e
 
 Esta documentação fornece informações sobre como trabalhar com públicos no [!DNL Adobe Journey Optimizer]. Informações detalhadas sobre o Portal de público-alvo e públicos-alvo estão disponíveis na documentação do Serviço de segmentação do Adobe Experience Platform. Consulte estas seções para obter mais detalhes:
 
-* [Guia da interface do usuário do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guia da interface do usuário do Serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Serviço de segmentação - Perguntas frequentes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq){target="_blank"}
 
