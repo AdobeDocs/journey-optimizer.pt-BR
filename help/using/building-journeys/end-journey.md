@@ -9,9 +9,9 @@ level: Intermediate
 keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
+source-git-commit: 63f7b09d8b8de578c32ba0f5d6fdd6b2f5786722
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '994'
 ht-degree: 2%
 
 ---
@@ -120,7 +120,7 @@ Quando parado, o status da jornada é definido como **[!UICONTROL Parado]**.
 
 >[!CAUTION]
 >
->Permissões para Interromper uma jornada restritas a usuários com a permissão de alto nível **[!DNL Manage journeys]**. Saiba mais sobre como gerenciar os direitos de acesso de [!DNL Journey Optimizer] usuários em [esta seção](../administration/permissions-overview.md).
+>Parar uma jornada requer a permissão **[!DNL Manage journeys]**. Se a jornada incluir campanhas integradas ou nós de mensagens, os usuários também precisarão de **Campanhas > Publicar campanhas** permissões. Se a jornada usar ativos (por exemplo, em emails), os usuários deverão ter acesso a essas pastas de ativos. Saiba mais sobre como gerenciar os direitos de acesso de [!DNL Journey Optimizer] usuários em [esta seção](../administration/permissions-overview.md).
 
 ## Tópicos relacionados
 
