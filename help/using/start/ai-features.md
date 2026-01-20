@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Recursos inteligentes e de IA
+title: IA e recursos inteligentes
 description: Saiba como a IA e o aprendizado de máquina aprimoram os recursos do Adobe Journey Optimizer
 feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 76a970f4edf0cef3fc15ab69c78ef46fbb0497c7
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 4%
+source-wordcount: '1676'
+ht-degree: 3%
 
 ---
 
-# Recursos inteligentes e de IA {#ai-features}
+# IA e recursos inteligentes {#ai-features}
 
 A Adobe Journey Optimizer aproveita o poder da inteligência artificial e do aprendizado de máquina para ajudá-lo a criar, otimizar e fornecer experiências excepcionais para o cliente. Desde a geração de conteúdo personalizado até a previsão de tempos de envio ideais, os recursos de IA simplificam o fluxo de trabalho e maximizam o impacto. Os manuais de casos de uso fornecem modelos pré-criados para implementar rapidamente cenários de marketing comuns.
 
@@ -66,7 +66,21 @@ Clique no ícone do Assistente de IA na barra superior para abrir o painel do as
 
 Com base nos recursos conversacionais do Assistente de IA, o Adobe Journey Optimizer oferece agentes de IA especializados que fornecem análise detalhada e recomendações acionáveis para otimização e experimentação de jornadas.
 
-### Agente de análise de Jornada {#journey-agent}
+### Journey Agent {#journey-agent}
+
+O Journey Agent inclui duas habilidades no Assistente de IA: Analisar e Criar. Use-as para otimizar jornadas existentes ou criar novas a partir de prompts de linguagem natural.
+
++++**Permissões necessárias**
+
+* **Exibir Jornadas** - Exibir insights sobre jornadas diretamente no Assistente de IA
+* **Gerenciar Jornadas** - Criar novas jornadas diretamente no Assistente de IA
+* **Exibir segmentos** - Exibir insights sobre públicos e pesquisar públicos existentes
+* **Gerenciar segmentos** - Crie novos públicos diretamente no Assistente de IA
+* **Exibir Eventos, Fontes de Dados e Ações da Jornada** - Necessário para que a habilidade Criar pesquise eventos de jornada e ações personalizadas
+
++++
+
+#### Jornada habilidade de análise {#journey-analyze-skill}
 
 O [Agente de Análise de Jornada](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} ajuda a otimizar o desempenho da jornada por meio da análise de linguagem natural:
 
@@ -88,18 +102,33 @@ O [Agente de Análise de Jornada](https://experienceleague.adobe.com/pt-br/docs/
 
 +++
 
-+++**Permissões necessárias**
++++
 
-* **Exibir Jornadas** - Exibir insights sobre jornadas diretamente no Assistente de IA
-* **Gerenciar Jornadas** - Criar novas jornadas diretamente no Assistente de IA
-* **Exibir segmentos** - Exibir insights sobre públicos
-* **Gerenciar segmentos** - Crie novos públicos diretamente no Assistente de IA
+#### Jornada Criar habilidade {#journey-create-skill}
+
+O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"} ajuda a criar jornadas com base em prompts de linguagem natural, traduzindo suas metas em configurações de jornada estruturadas:
+
++++**Principais Recursos**
+
+* **Criação da Jornada de linguagem natural** - Descreva a jornada desejada e faça-a criar automaticamente
+* **Inícios com base em evento e público-alvo** - Crie jornadas de qualificação de evento, de evento comercial ou de público-alvo acionadas por eventos
+* **Lógica condicional** - Criar caminhos divididos com base em atributos ou comportamento do cliente
+* **Mensagens multicanal** - Adicionar ações de email, push e SMS
+* **Agendamento** - Configurar datas de início e tempo entre etapas
+
++++
+
++++**Prompts de Exemplo**
+
+* &quot;Crie uma jornada que começa quando um cliente faz uma compra on-line e envia uma notificação de agradecimento por push.&quot;
+* &quot;Crie uma jornada direcionada ao meu público-alvo de visitantes do dia com três emails em duas semanas, a partir de 20/12.&quot;
+* &quot;Crie uma jornada que começa quando um usuário entra no local da minha loja e faz o acompanhamento com base no fato de ele ter um endereço de email válido.&quot;
 
 +++
 
 ### Agente de experimentação {#experimentation-agent}
 
-O [Agente de experimentação](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} moderniza a forma como você executa e gerencia experimentos digitais em sites, emails, mensagens por push e aplicativos:
+O [Experimentation Agent](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} moderniza a forma como você executa e gerencia experimentos digitais em sites, emails, mensagens por push e aplicativos:
 
 +++**Principais Recursos**
 
@@ -132,7 +161,7 @@ O [Agente de experimentação](https://experienceleague.adobe.com/pt-br/docs/exp
 
 ### Agentes de IA adicionais
 
-**Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
 **Agent Orchestrator** - Coordena vários agentes especializados para solucionar desafios de marketing complexos de várias etapas. O orquestrador determina automaticamente quais agentes envolver e sequencia seu trabalho com eficiência. [Saiba mais sobre o Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
@@ -210,7 +239,7 @@ Principais recursos:
 
 [Saiba mais sobre o Acelerador de experimento](../content-management/experiment-accelerator-gs.md)
 
-## Manuais de estratégia de casos de uso {#playbooks}
+## Manuais de estratégia de casos de uso  {#playbooks}
 
 Os manuais de casos de uso são fluxos de trabalho pré-criados que ajudam a implementar cenários de marketing comuns rapidamente. Cada manual inclui jornadas, mensagens, esquemas e segmentos prontos para uso.
 
@@ -241,7 +270,7 @@ Procurar nos manuais do Journey Optimizer cenários comuns, como:
 
 +++
 
-[Exibir todos os manuais disponíveis](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"} | [Saiba mais na documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=pt-BR){target="_blank"}
+[Exibir todos os manuais disponíveis](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"} | [Saiba mais na documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Recursos adicionais de IA {#additional-capabilities}
 
@@ -264,6 +293,7 @@ Avalie como seu conteúdo se alinha às diretrizes da sua marca usando a pontua�
 * **[Assistente de IA para geração de conteúdo](#content-generation)** - Requer a permissão &quot;Gerar conteúdo&quot;
 * Conhecimento de produto do **[Assistente de IA](#ai-assistant)** - Requer a aprovação das Diretrizes de usuário da IA geradora da Adobe
 * **[Agente de Análise de Jornada](#journey-agent)** - Requer permissões para Exibir/Gerenciar Jornadas e Exibir/Gerenciar Segmentos
+* **[Agente de Criação de Jornada](#journey-create-agent)** - Exige Gerenciar Jornadas, Exibir Eventos de Jornada/Fontes de Dados/Ações, Exibir Segmentos e Gerenciar Permissões de Segmentos
 * **[Agente de experimentação](#experimentation-agent)** - Requer permissões para Exibir experimentos e Gerenciar metadados de experimento
 
 Todos os agentes de IA exigem acesso ao Assistente de IA e concordam com as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud.
