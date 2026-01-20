@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expressão, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
+source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '889'
 ht-degree: 5%
 
 ---
@@ -41,6 +41,8 @@ Antes de começar, reveja as seguintes restrições e diretrizes:
 * **Tipo de esquema** - Os conjuntos de dados devem ser associados a um esquema que seja **NOT** do tipo Perfil ou Evento.
 
 * **Manter a opção de pesquisa ativada** - Evitar ativar e desativar repetidamente os conjuntos de dados. Isso pode levar a um comportamento inesperado de indexação. A prática recomendada é deixar o conjunto de dados ativado enquanto você planejar usá-lo para pesquisas.
+
+* **Região de ativação do Edge** - Os conjuntos de dados habilitados para pesquisa estão disponíveis para ativação baseada na borda de entrada somente na região em que a sandbox do conjunto de dados reside (por exemplo, NLD2 ou VA7). Você pode ver a região da sandbox na interface do usuário ao lado do nome da sandbox.
 
 * **Exclusão de dados em lote** - A remoção de um lote de dados do conjunto de dados remove completamente todas as chaves correspondentes do serviço de pesquisa. Por exemplo:
 
