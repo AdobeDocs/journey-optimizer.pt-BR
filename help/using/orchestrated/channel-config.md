@@ -4,9 +4,9 @@ product: journey optimizer
 title: Definir a configuração do canal
 description: Saiba como definir a configuração de Canal
 version: Campaign Orchestration
-source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
+source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -66,3 +66,25 @@ Para definir a configuração do canal:
 1. Depois de configurado, clique em **[!UICONTROL Enviar]**.
 
 Seu canal agora está pronto para uso com **Campanhas orquestradas** e as mensagens serão entregues de acordo com o target dimension selecionado.
+
+## Parâmetros de rastreamento de URL {#url-tracking}
+
+Ao configurar seu canal, você pode definir parâmetros de rastreamento de URL para monitorar o desempenho de suas campanhas de email anexando metadados aos links rastreados, para fins de análise e relatórios.
+
+Para fazer isso, atributos contextuais específicos para campanhas orquestradas estão disponíveis usando a sintaxe `{{context.system.source.*}}`:
+
+* **`context.system.source.id`**: ID de campanha orquestrada
+* **`context.system.source.name`**: nome de campanha orquestrada
+* **`context.system.source.versionId`**: ID da versão da campanha orquestrada
+* **`context.system.source.actionId`**: ID do nó da ação de canal
+* **`context.system.source.actionName`**: nome do nó da ação de canal
+* **`context.system.source.channel`**: Tipo de canal (Email, SMS, Push)
+* **`context.system.IdentityNamespace`**: Namespace de identidade usado
+
+Por exemplo:
+
+```
+www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}
+```
+
+Saiba mais sobre parâmetros de rastreamento de URL em [esta seção](../email/url-tracking.md).
