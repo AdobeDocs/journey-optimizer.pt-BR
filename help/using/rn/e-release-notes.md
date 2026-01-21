@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a6e6e8fce90fbd730c049f8a39878a44cea9c73c
+source-git-commit: f7cdbb8f4a0e43a6a2fa15032d1376faf0424168
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 44%
+source-wordcount: '1990'
+ht-degree: 47%
 
 ---
 
@@ -312,16 +312,6 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 * **Webhooks de SMS: Fase II** - Descrição a ser fornecida.
 
 * **Oferta de revenda do WhatsApp** - Descrição a ser fornecida.
-
-* **Campo de execução para canal do WhatsApp** - Além de email e SMS, agora é possível atualizar o campo de execução padrão para seus deliveries do WhatsApp no nível da sandbox. Você também pode substituir o campo de execução definido globalmente alterando-o nos parâmetros avançados da atividade de jornada do WhatsApp ou na configuração do canal do WhatsApp. [Leia mais](../configuration/primary-email-addresses.md)
-
-  Data de disponibilidade: quinta-feira, 22 de outubro de 2025
-
-* **Suporte a atributos personalizados para o endereço Mailto (cancelar inscrição)** - Com o Journey Optimizer, se você estiver gerenciando o consentimento fora do Adobe, poderá definir pontos de extremidade personalizados externos definindo seu próprio link de cancelamento de inscrição com um clique e um endereço de email de cancelamento de inscrição personalizado na configuração de email. Quando os destinatários clicam no link de cancelamento de inscrição, o Journey Optimizer anexa alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento. Para personalizar ainda mais os endpoints personalizados, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento. [Leia mais](../email/list-unsubscribe.md#custom-attributes)
-
-  **Observação**: esse recurso já está disponível para a **[!UICONTROL URL de Cancelamento de Inscrição de Um Clique]** personalizada desde agosto de 25 e agora é lançado para a opção **[!UICONTROL Mailto (cancelar inscrição)]** em Disponibilidade Limitada. Entre em contato com o representante da Adobe para obter acesso.
-
-  Data de disponibilidade: terça-feira, 6 de outubro de 2025
 
 #### Email Designer
 
