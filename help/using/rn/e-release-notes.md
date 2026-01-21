@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7965928aca9d4e36bacc058776c24065b8cfff21
+source-git-commit: 738f5bc3145bac022aebc39888f2644f2dae5b3e
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1779'
 ht-degree: 41%
 
 ---
@@ -244,10 +244,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Agendar campanha usando o Fuso Horário do Perfil** - O agendamento de campanha agora pode usar o fuso horário de cada perfil para entregar mensagens no horário local pretendido.
 
-  &#x200B;>>
-  >[!AVAILABILITY]
-  &#x200B;>>
-  Esta melhoria está disponível apenas para um conjunto de organizações (disponibilidade limitada).
+  **Observação**: esta melhoria está disponível somente para um conjunto de organizações (Disponibilidade Limitada).
 
 #### Canais
 
@@ -271,10 +268,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Anexar fragmentos a itens de decisão** - O Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão, que podem ser aproveitados em campanhas de experiência baseada em código por meio de políticas de decisão.
 
-  &#x200B;>>
-  >[!AVAILABILITY]
-  &#x200B;>>
-  Anteriormente lançado com disponibilidade limitada, essa melhoria agora está disponível para todos os ambientes (disponibilidade geral).
+  **Observação**: anteriormente lançada em Disponibilidade Limitada, essa melhoria agora está disponível para todos os ambientes (Disponibilidade Geral).
 
 #### Jornadas
 
@@ -284,10 +278,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Várias ações de entrada em jornadas**: para simplificar a orquestração de jornada, agora é possível definir várias ações de entrada em uma única jornada. Anteriormente disponível em campanhas, esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, Cartões de conteúdo ou ações da Web a locais diferentes ao mesmo tempo, cada ação contendo um conteúdo específico.
 
-  &#x200B;>>
-  >[!AVAILABILITY]
-  &#x200B;>>
-  Anteriormente lançado com disponibilidade limitada, essa melhoria agora está disponível para todos os ambientes (disponibilidade geral).
+  **Observação**: anteriormente lançada em Disponibilidade Limitada, essa melhoria agora está disponível para todos os ambientes (Disponibilidade Geral).
 
 #### Campanhas orquestradas
 
