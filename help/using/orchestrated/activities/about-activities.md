@@ -5,10 +5,10 @@ title: Trabalhar com atividades de campanha orquestradas
 description: Saiba como organizar atividades de campanha
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
+source-git-commit: 43fa71d7ec05e8c4b1ccd8d8c0ff8727128f5030
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 61%
+source-wordcount: '411'
+ht-degree: 63%
 
 ---
 
@@ -20,7 +20,7 @@ As atividades da campanha orquestrada são agrupadas em três categorias. Depend
 Todas as atividades estão detalhadas nas seções abaixo:
 
 * [Atividades de direcionamento](#targeting)
-* [Atividades de canal](#channel)
+* [Atividades do canal](#channel)
 * [Atividades de controle do fluxo](#flow-control)
 
 ![Lista de atividades disponíveis na tela](../assets/orchestrated-activities.png){width="80%" align="left"}
@@ -49,7 +49,7 @@ As atividades de direcionamento disponíveis são:
 * [Reconciliação](reconciliation.md): defina o vínculo entre os dados do Journey Optimizer e os dados de uma tabela de trabalho, como, por exemplo, dados carregados de um arquivo externo.
 * [Divisão](split.md): segmente a população de entrada em vários subconjuntos.
 
-## Atividades de canal {#channel}
+## Atividades do canal {#channel}
 
 O Adobe Journey Optimizer permite automatizar e executar campanhas de marketing em diversos canais. Você pode combinar [atividades de canal](channels.md) na tela para criar uma campanha Orquestrada entre canais que pode acionar ações com base no comportamento do cliente.
 
@@ -61,6 +61,11 @@ Saiba como [criar uma ação de canal em uma campanha orquestrada](channels.md).
 >id="ajo_orchestration_end"
 >title="Atividade de término"
 >abstract="A Atividade de **término** permite marcar graficamente o fim de uma campanha orquestrada. Essa atividade não tem impacto funcional e, portanto, é opcional."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_signal"
+>title="Sinal externo"
+>abstract="sinal externo"
 
 As atividades a seguir são específicas para organizar e executar campanhas orquestradas. Sua principal tarefa é coordenar as outras atividades.
 
