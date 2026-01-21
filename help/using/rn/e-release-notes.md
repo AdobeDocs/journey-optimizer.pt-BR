@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 157e880de7dc63e4972b4e6794cc4a5f736d7bd4
+source-git-commit: 3635cb3ad81cc3462dc3ebb6d60594b4b83051e9
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 32%
+source-wordcount: '2068'
+ht-degree: 30%
 
 ---
 
@@ -218,6 +218,21 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
+<th><strong>Exportação de mensagens</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível <strong>exportar entregas enviadas</strong> para um conjunto de dados específico, para fins de arquivamento e conformidade. Essa capacidade está disponível não apenas para email, mas também para outros canais, como SMS.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Nova API para recuperar Campanhas de ação</strong><br/></th>
 </tr>
 </thead>
@@ -291,23 +306,21 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Canais
 
-* **Exportação de mensagem** - Agora é possível <strong>exportar entregas enviadas</strong> para um conjunto de dados específico, para fins de arquivamento e conformidade. Essa capacidade está disponível não apenas para email, mas também para outros canais, como SMS.
-
 * **Webhooks de SMS: Fase II** - Descrição a ser fornecida.
 
 * **Oferta de revenda do WhatsApp** - Descrição a ser fornecida.
 
 #### Email Designer
 
-* **Correções no local - Acrite - Email e Páginas de Aterrissagem** - Descrição a ser fornecida.
+* **Correções no local no Designer de email** - <strong>Sugestões de conteúdo automático habilitado por IA</strong> agora estão disponíveis no Designer de email quando violações são detectadas durante a validação de conteúdo. Se o conteúdo for sinalizado como desalinhado às diretrizes da marca ou falhar nos critérios de qualidade, o sistema gera proativamente alternativas corrigidas que podem ser revisadas e aplicadas em linha, melhorando a conformidade e acelerando a produção.
 
 #### Experience Decisioning
 
-* **Arbitragem de Jornada - Fórmulas** - Agora você pode usar <strong>fórmulas e modelos de IA</strong> para aumentar automaticamente as pontuações de prioridade de jornada com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.
+* **Arbitragem de Jornada** - Agora você pode usar <strong>fórmulas e modelos de IA</strong> para aumentar automaticamente as pontuações de prioridade de jornada com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.
 
 * **documentação de ferramenta de sandbox exd - atualização** - Descrição a ser fornecida.
 
-* **APIs de ferramentas de migração de autoatendimento** - Descrição a ser fornecida.
+* **APIs de ferramentas de migração de autoatendimento** - Um novo conjunto de <strong>APIs de ferramentas de migração</strong> está disponível para migrar entidades de gerenciamento de ofertas para o Experience Decisioning. A ferramenta permite a migração perfeita entre sandboxes com recursos de resolução de dependência e reversão.
 
 * **Anexar fragmentos a itens de decisão** - O Journey Optimizer agora fornece a capacidade de anexar <strong>fragmentos</strong> a itens de decisão que podem ser aproveitados em campanhas de experiência baseadas em código por meio de políticas de decisão.
 
@@ -316,6 +329,8 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 #### Jornadas
 
 * **Aproveite uma carga de resposta de falha nas Ações Personalizadas do jornada** - Descrição a ser fornecida.
+
+* **Combinar ações de mensagens nativas e do Adobe Campaign** - o Journey Optimizer agora permite combinar ações de mensagem do Adobe Campaign v7/v8 com ações de canal nativas na mesma jornada.
 
 * **Validação do tamanho da carga da Jornada no jornada** - a Journey Optimizer agora fornece a <strong>validação do tamanho da carga</strong> para ajudar a garantir desempenho e estabilidade de sistema ideais. Ao criar ou publicar jornadas, você receberá avisos e erros claros se os tamanhos de carga se aproximarem ou excederem os limites recomendados, juntamente com orientações acionáveis para otimizar a configuração da jornada. Essa validação proativa ajuda a identificar problemas em potencial antecipadamente e a manter o desempenho do jornada.
 
@@ -359,6 +374,23 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <tr>
 <td>
 <p>Desenvolvido pela Adobe Experience Platform Agent Orchestrator, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora, também é possível gerar e gerenciar conteúdo específico do canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no Designer de Conteúdo para edição em contexto.</p>
+<p>Data de disponibilidade: terça-feira, 2 de fevereiro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Atividade de decisão de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode incluir <strong>ofertas personalizadas</strong> em suas jornadas por meio de uma atividade dedicada de Decisão de conteúdo na tela de jornada e usá-las em atividades de jornada, incluindo condições e ações personalizadas.</p>
+<p>Data de disponibilidade: terça-feira, 2 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
