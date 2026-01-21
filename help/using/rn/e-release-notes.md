@@ -244,9 +244,9 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Agendar campanha usando o Fuso Horário do Perfil** - O agendamento de campanha agora pode usar o fuso horário de cada perfil para entregar mensagens no horário local pretendido.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Esta melhoria está disponível apenas para um conjunto de organizações (disponibilidade limitada).
 
 #### Canais
@@ -271,9 +271,9 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Anexar fragmentos a itens de decisão** - O Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão, que podem ser aproveitados em campanhas de experiência baseada em código por meio de políticas de decisão.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Anteriormente lançado com disponibilidade limitada, essa melhoria agora está disponível para todos os ambientes (disponibilidade geral).
 
 #### Jornadas
@@ -284,9 +284,9 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Várias ações de entrada em jornadas**: para simplificar a orquestração de jornada, agora é possível definir várias ações de entrada em uma única jornada. Anteriormente disponível em campanhas, esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, Cartões de conteúdo ou ações da Web a locais diferentes ao mesmo tempo, cada ação contendo um conteúdo específico.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Anteriormente lançado com disponibilidade limitada, essa melhoria agora está disponível para todos os ambientes (disponibilidade geral).
 
 #### Campanhas orquestradas
