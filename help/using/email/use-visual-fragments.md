@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 6a5b4c94228db0ab9573124762e89181c2c41b45
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
@@ -110,6 +110,10 @@ Saiba como usar variáveis implícitas em [esta seção](../personalization/use-
 ## Personalizar campos editáveis {#customize-fields}
 
 Se determinadas partes do fragmento selecionado tiverem se tornado editáveis, você poderá substituir o valor padrão depois de adicionar o fragmento ao conteúdo. [Saiba como tornar seus fragmentos personalizáveis](../content-management/customizable-fragments.md)
+
+>[!CAUTION]
+>
+>Quando o **rótulo** e a **URL** de um componente de botão são editáveis em um fragmento, os relatórios de rastreamento mostram a URL em vez do rótulo do botão. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates. [Learn more about breaking inheritance](#break-inheritance)-->
 
 Para personalizar campos editáveis em um fragmento, siga estas etapas:
 

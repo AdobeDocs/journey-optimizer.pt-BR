@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 25%
+source-wordcount: '1380'
+ht-degree: 24%
 
 ---
 
@@ -96,6 +96,10 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 >As mensagens de email do tipo Marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-decision-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida na [configuração de canal](email-settings.md#email-type) ao criar a mensagem.
 
 Depois que a mensagem é enviada, o período de retenção de um link é de **25 meses**. Após esse atraso, o link não estará mais disponível.
+
+>[!CAUTION]
+>
+>Quando o **rótulo** e a **URL** de um botão se tornam editáveis em um fragmento, os relatórios de rastreamento mostram a URL em vez do rótulo do botão. O campo `_experience.customerJourneyManagement.messageInteraction.label` no conjunto de dados de rastreamento registrará o valor da URL.
 
 ## Link para uma mirror page {#mirror-page}
 

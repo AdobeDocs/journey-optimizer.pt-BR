@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1498'
 ht-degree: 1%
 
 ---
@@ -58,6 +58,10 @@ Para tornar partes de um fragmento visual editáveis, siga estas etapas:
 1. Quando estiver pronto, salve as alterações para atualizar o fragmento.
 
 1. Depois de adicionar o fragmento em um email, os usuários poderão personalizar todos os campos editáveis configurados no fragmento. [Saiba como personalizar campos editáveis em um fragmento visual](../email/use-visual-fragments.md#customize-fields)
+
+>[!CAUTION]
+>
+>Quando o **rótulo** e a **URL** de um componente de botão se tornam editáveis em um fragmento, os relatórios de rastreamento mostram a URL em vez do rótulo do botão. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates.-->
 
 ## Adicionar campos editáveis a componentes do HTML e fragmentos de expressão {#expression}
 
@@ -195,5 +199,5 @@ Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem editar 
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464373/?captions=por_br&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
