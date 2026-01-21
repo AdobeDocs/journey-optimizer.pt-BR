@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1028'
 ht-degree: 1%
 
 ---
@@ -111,10 +111,6 @@ Saiba como usar variáveis implícitas em [esta seção](../personalization/use-
 
 Se determinadas partes do fragmento selecionado tiverem se tornado editáveis, você poderá substituir o valor padrão depois de adicionar o fragmento ao conteúdo. [Saiba como tornar seus fragmentos personalizáveis](../content-management/customizable-fragments.md)
 
->[!CAUTION]
->
->Quando o **rótulo** e a **URL** de um componente de botão são editáveis em um fragmento, os relatórios de rastreamento mostram a URL em vez do rótulo do botão. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates. [Learn more about breaking inheritance](#break-inheritance)-->
-
 Para personalizar campos editáveis em um fragmento, siga estas etapas:
 
 1. Adicione o fragmento ao conteúdo.
@@ -128,6 +124,10 @@ Para personalizar campos editáveis em um fragmento, siga estas etapas:
    No exemplo abaixo, a imagem **origem** e o **texto alternativo** podem ser editados, bem como o botão &quot;Clique aqui&quot; **URL**.
 
    ![](assets/fragment-editable.png)
+
+>[!CAUTION]
+>
+>Quando o **rótulo** e a **URL** de um componente de botão se tornam editáveis em um fragmento, os relatórios de rastreamento mostram a URL em vez do rótulo do botão. [Saiba mais sobre o rastreamento](../email/message-tracking.md)
 
 ## Interromper herança {#break-inheritance}
 
