@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5cdb4e9f8e01a2db17d2c831178053db620286eb
+source-git-commit: a6e6e8fce90fbd730c049f8a39878a44cea9c73c
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 41%
+source-wordcount: '2168'
+ht-degree: 44%
 
 ---
 
@@ -231,6 +231,65 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Nova API para recuperar Campanhas de ação</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma nova API do Journey Optimizer agora está disponível, permitindo recuperar e inspecionar programaticamente dados relacionados à campanha, como detalhes, versões e configurações.</p>
+<p>Para obter mais informações, consulte a <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: terça-feira, 24 de novembro de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Novos alertas de jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Três novos alertas de jornada agora estão disponíveis para ajudar a monitorar e rastrear os eventos de ciclo de vida da jornada e o desempenho da ação personalizada:</p>
+<ul>
+<li><strong>Jornada publicada</strong>: receba notificações quando uma jornada for publicada por um profissional na tela de jornada.</li>
+<li><strong>Jornada concluída</strong>: receba alertas quando uma jornada for concluída, com definições específicas baseadas no tipo de jornada (Público-alvo de leitura ou acionada por evento).</li>
+<li><strong>Limite de ação personalizada acionado</strong>: receba uma notificação quando o limite for ativado em um ponto de acesso de ação personalizada.</li>
+</ul>
+<p>É possível se inscrever nesses alertas no nível da organização ou para jornadas específicas.</p>
+<p>Para obter mais informações, consulte a <a href="../reports/alerts.md#journey-alerts">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 5 de novembro de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Temas no Designer de email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível aplicar temas pré-aprovados rapidamente para garantir a consistência da marca em todos os emails, acelerar o processo de criação de campanha e produzir emails de alta qualidade de forma independente, reduzindo a dependência de equipes de design.</p>
+<p>Lançado anteriormente na versão beta, esse recurso agora está disponível para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>Para obter mais informações, consulte a <a href="../email/apply-email-themes.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 5 de novembro de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Aprimoramentos {#jan-26-01-improv}
 
 Os aprimoramentos incluídos nesta versão estão listados abaixo.
@@ -253,6 +312,16 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 * **Webhooks de SMS: Fase II** - Descrição a ser fornecida.
 
 * **Oferta de revenda do WhatsApp** - Descrição a ser fornecida.
+
+* **Campo de execução para canal do WhatsApp** - Além de email e SMS, agora é possível atualizar o campo de execução padrão para seus deliveries do WhatsApp no nível da sandbox. Você também pode substituir o campo de execução definido globalmente alterando-o nos parâmetros avançados da atividade de jornada do WhatsApp ou na configuração do canal do WhatsApp. [Leia mais](../configuration/primary-email-addresses.md)
+
+  Data de disponibilidade: quinta-feira, 22 de outubro de 2025
+
+* **Suporte a atributos personalizados para o endereço Mailto (cancelar inscrição)** - Com o Journey Optimizer, se você estiver gerenciando o consentimento fora do Adobe, poderá definir pontos de extremidade personalizados externos definindo seu próprio link de cancelamento de inscrição com um clique e um endereço de email de cancelamento de inscrição personalizado na configuração de email. Quando os destinatários clicam no link de cancelamento de inscrição, o Journey Optimizer anexa alguns parâmetros específicos do perfil padrão ao evento de atualização de consentimento. Para personalizar ainda mais os endpoints personalizados, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento. [Leia mais](../email/list-unsubscribe.md#custom-attributes)
+
+  **Observação**: esse recurso já está disponível para a **[!UICONTROL URL de Cancelamento de Inscrição de Um Clique]** personalizada desde agosto de 25 e agora é lançado para a opção **[!UICONTROL Mailto (cancelar inscrição)]** em Disponibilidade Limitada. Entre em contato com o representante da Adobe para obter acesso.
+
+  Data de disponibilidade: terça-feira, 6 de outubro de 2025
 
 #### Email Designer
 
