@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 738f5bc3145bac022aebc39888f2644f2dae5b3e
+source-git-commit: 5cdb4e9f8e01a2db17d2c831178053db620286eb
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 41%
@@ -32,14 +32,36 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
-<th><strong>Período de silêncio/ Exclusões com base no tempo</strong><br/></th>
+<th><strong>Atividade de ação em jornadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Período de silêncio permite definir exclusões com base no tempo para canais de email, SMS, Push e WhatsApp. Elas garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade. É possível aplicar o período de silêncio por meio de conjuntos de regras que podem ser atribuídas a ações individuais em campanhas ou jornadas para obter um controle preciso.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Com esta versão de Disponibilidade geral, o recurso agora inclui a capacidade de o cliente colocar uma ação de campanha na fila até a conclusão do Período de silêncio e a capacidade de pré-visualizar a regra de Período de silêncio ativada.</p>
+<p>O Journey Optimizer é compatível com uma nova Atividade de ação genérica que permite configurar ações únicas e grupos de ação de entrada multiação, possibilitando uma configuração de ação simplificada na tela da jornada. Em especial, este novo recurso permite:</p>
+<ul>
+<li>Uma configuração de ação nativa simplificada na tela da jornada.</li>
+<li>A capacidade de criar grupos de ação de entrada multiação.</li>
+<li>A capacidade de adicionar otimização a qualquer ação de canal integrada.</li>
+<li>A capacidade de adicionar opções de experimentação e multilíngues a qualquer ação.</li>
+</ul>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Atividade de decisão de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode incluir ofertas personalizadas em suas jornadas por meio de uma atividade dedicada de Decisão de conteúdo na tela de jornada e usá-las em atividades de jornada, incluindo condições e ações personalizadas.</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
 </tr>
 </tbody>
@@ -64,13 +86,29 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
-<th><strong>Formulários personalizados de página de destino</strong><br/></th>
+<th><strong>Período de silêncio/ Exclusões com base no tempo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Com o Journey Optimizer, agora é possível capturar atributos de perfil por meio das páginas de aterrissagem. Crie, projete e gerencie formulários personalizados adaptados às suas necessidades com base em um conjunto de dados específico. Em seguida, é possível usar esses formulários em páginas de destino para adicionar os atributos de perfil de sua escolha ao conjunto de dados definido para cada formulário.</p>
+<p>O Período de silêncio permite definir exclusões com base no tempo para canais de email, SMS, Push e WhatsApp. Elas garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade. É possível aplicar o período de silêncio por meio de conjuntos de regras que podem ser atribuídas a ações individuais em campanhas ou jornadas para obter um controle preciso.</p>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Com esta versão de Disponibilidade geral, o recurso agora inclui a capacidade de o cliente colocar uma ação de campanha na fila até a conclusão do Período de silêncio e a capacidade de pré-visualizar a regra de Período de silêncio ativada.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal de correspondência direta no jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Anteriormente limitado a Campanhas, o canal de correspondência direta agora está disponível na tela de jornada, permitindo que você incorpore a correspondência direta às suas jornadas. A correspondência direta agora pode ser usada em cenários de jornada em lote e 1:1, com suporte para configuração de extração de arquivos e configurações de frequência baseadas em tempo.</p>
 <p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
 </tr>
@@ -96,14 +134,20 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
-<th><strong>Canal de correspondência direta no jornada</strong><br/></th>
+<th><strong>Mensagens básicas do RCS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Anteriormente limitado a Campanhas, o canal de correspondência direta agora está disponível na tela de jornada, permitindo que você incorpore a correspondência direta às suas jornadas. A correspondência direta agora pode ser usada em cenários de jornada em lote e 1:1, com suporte para configuração de extração de arquivos e configurações de frequência baseadas em tempo.</p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Com a nova oferta complementar RCS Basic, agora você pode fornecer mensagens básicas RCS (Rich Communication Services) no Journey Optimizer, habilitando os seguintes recursos aprimorados de mensagens sujeitos ao suporte do provedor e da operadora:</p>
+<ul>
+<li>Suporte a remetentes com marca e verificados: envie mensagens usando perfis de negócios verificados com elementos de marca (logotipo, nome do remetente, etc.).</li>
+<li>Insights de entregas de mensagens: receba relatórios de entrega detalhados, incluindo atualizações de status de mensagem (por exemplo, enviado, entregue, lido).</li>
+<li>Rastreamento de link: incorpore e rastreie URLs em mensagens RCS para análise de engajamento.</li>
+<li>Fallback para SMS: retorno automático para SMS quando o dispositivo do perfil não dá suporte a RCS ou está temporariamente inacessível via RCS.</li>
+<li>Composição básica de mensagem: envia mensagens RCS básicas baseadas em texto.</li>
+</ul>
 </td>
 </tr>
 </tbody>
@@ -144,28 +188,6 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
-<th><strong>Mensagens básicas do RCS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Com a nova oferta complementar RCS Basic, agora você pode fornecer mensagens básicas RCS (Rich Communication Services) no Journey Optimizer, habilitando os seguintes recursos aprimorados de mensagens sujeitos ao suporte do provedor e da operadora:</p>
-<ul>
-<li>Suporte a remetentes com marca e verificados: envie mensagens usando perfis de negócios verificados com elementos de marca (logotipo, nome do remetente, etc.).</li>
-<li>Insights de entregas de mensagens: receba relatórios de entrega detalhados, incluindo atualizações de status de mensagem (por exemplo, enviado, entregue, lido).</li>
-<li>Rastreamento de link: incorpore e rastreie URLs em mensagens RCS para análise de engajamento.</li>
-<li>Fallback para SMS: retorno automático para SMS quando o dispositivo do perfil não dá suporte a RCS ou está temporariamente inacessível via RCS.</li>
-<li>Composição básica de mensagem: envia mensagens RCS básicas baseadas em texto.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Canal de correspondência direta em campanhas orquestradas</strong><br/></th>
 </tr>
 </thead>
@@ -181,6 +203,22 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
+<th><strong>Formulários personalizados de página de destino</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Com o Journey Optimizer, agora é possível capturar atributos de perfil por meio das páginas de aterrissagem. Crie, projete e gerencie formulários personalizados adaptados às suas necessidades com base em um conjunto de dados específico. Em seguida, é possível usar esses formulários em páginas de destino para adicionar os atributos de perfil de sua escolha ao conjunto de dados definido para cada formulário.</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Novos conectores de origem para aplicativos de fidelidade</strong><br/></th>
 </tr>
 </thead>
@@ -188,44 +226,6 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>Novos conectores de origem agora estão disponíveis na Adobe Experience Platform para os aplicativos de fidelidade Talon.One, Capillary e Kobie. Esses conectores permitem transmitir dados de fidelidade continuamente para a Adobe Experience Platform e usar esses dados no Journey Optimizer.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Atividade de ação em jornadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Journey Optimizer é compatível com uma nova Atividade de ação genérica que permite configurar ações únicas e grupos de ação de entrada multiação, possibilitando uma configuração de ação simplificada na tela da jornada. Em especial, este novo recurso permite:</p>
-<ul>
-<li>Uma configuração de ação nativa simplificada na tela da jornada.</li>
-<li>A capacidade de criar grupos de ação de entrada multiação.</li>
-<li>A capacidade de adicionar otimização a qualquer ação de canal integrada.</li>
-<li>A capacidade de adicionar opções de experimentação e multilíngues a qualquer ação.</li>
-</ul>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Atividade de decisão de conteúdo</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora você pode incluir ofertas personalizadas em suas jornadas por meio de uma atividade dedicada de Decisão de conteúdo na tela de jornada e usá-las em atividades de jornada, incluindo condições e ações personalizadas.</p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
 </tr>
 </tbody>
