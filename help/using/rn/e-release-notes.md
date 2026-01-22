@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
+source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
 workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 21%
@@ -388,7 +388,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <td>
 <p>Agora você pode incluir <strong>ofertas personalizadas</strong> em suas jornadas por meio de uma atividade dedicada de Decisão de conteúdo na tela de jornada e usá-las em atividades de jornada, incluindo condições e ações personalizadas.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">Vincular à tarefa DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-99223">Link para a tarefa JIRA do PRODUTO</a></p>
-<p>Data de disponibilidade: terça-feira, 2 de fevereiro de 2026</p>
+<p>Data de disponibilidade: quarta-feira, 3 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
