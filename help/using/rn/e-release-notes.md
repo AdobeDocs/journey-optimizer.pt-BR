@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
+source-git-commit: 3ea5dd845569508421092bdf53634619354206e2
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2407'
 ht-degree: 21%
 
 ---
@@ -172,13 +172,19 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
-<th><strong>Exportação de mensagens</strong><br/></th>
+<th><strong>Exportação de mensagem</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível <strong>exportar entregas enviadas</strong> para um conjunto de dados específico, para fins de arquivamento e conformidade. Essa capacidade está disponível não apenas para email, mas também para outros canais, como SMS. A retenção de dados para o conjunto de dados de exportação de mensagens agora é de <strong>7 dias</strong>.</p>
+<p>Um novo recurso <strong>Exportação de Mensagem</strong> está disponível para canais de email e SMS. Esse recurso permite exportar automaticamente o conteúdo da mensagem enviada para um conjunto de dados dedicado do Experience Platform, permitindo:</p>
+<ul>
+<li>Atender aos requisitos de conformidade normativa (como a HIPAA)</li>
+<li>Arquivar mensagens para solicitações legais e consultas do atendimento ao cliente</li>
+<li>Reter cópias de conteúdo personalizado enviadas a indivíduos</li>
+</ul>
+<p>Os registros são retidos no Conjunto de Dados de Exportação de Mensagens do AJO por <strong>7 dias a partir da assimilação</strong>. Durante esse período de retenção, você pode exportar os dados para seu próprio armazenamento por meio dos destinos do Experience Platform. O recurso é ativado no nível de configuração do canal, fornecendo controle granular sobre quais mensagens são exportadas.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">Vincular à tarefa DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">Link para a tarefa JIRA do PRODUTO</a></p>
 </td>
 </tr>
@@ -297,9 +303,6 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">Vincular à tarefa DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365">Link para a tarefa JIRA do PRODUTO</a>
 
 #### Experience Decisioning
-
-* **documentação de ferramenta de sandbox exd - atualização** - Descrição a ser fornecida.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">Vincular à tarefa DOCAC JIRA</a>
 
 * **APIs de ferramentas de migração de autoatendimento** - Um novo conjunto de <strong>APIs de ferramentas de migração</strong> está disponível para migrar entidades de gerenciamento de ofertas para o Experience Decisioning. A ferramenta permite a migração perfeita entre sandboxes com recursos de resolução de dependência e reversão.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13837">Vincular à tarefa DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-109695">Link para a tarefa JIRA do PRODUTO</a>
