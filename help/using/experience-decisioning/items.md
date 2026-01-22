@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 5d2903c1b5fe3e2fcc5d550d883629c884adeedf
+source-git-commit: 47e85275ff83689fe914e734e4a272bb4ef72d13
 workflow-type: tm+mt
 source-wordcount: '2132'
 ht-degree: 15%
@@ -52,9 +52,9 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 
    >[!AVAILABILITY]
    >
-   >Os fragmentos nos itens de decisão estão disponíveis atualmente apenas para um conjunto de organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o representante da Adobe.
+   >Os fragmentos nos itens de decisão estão disponíveis atualmente apenas para um conjunto de organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
 
-   Na seção **[!UICONTROL Fragmentos]**, selecione os fragmentos publicados que deseja usar e atribua a eles uma chave de referência. É possível aproveitar esses fragmentos nas políticas de decisão. [Saiba como](create-decision.md#fragments)
+   Na seção **[!UICONTROL Fragmentos]**, selecione os fragmentos publicados que deseja usar e atribua a eles uma chave de referência. É possível aproveitar esses fragmentos nas políticas de decisão. [Saiba como](use-decision-policy.md#fragments)
 
    ![](assets/item-fragments.png){width=70%}
 
@@ -78,8 +78,8 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 >abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
