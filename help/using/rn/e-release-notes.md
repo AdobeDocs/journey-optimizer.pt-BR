@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5305db965ace448b0df3323d6211317066efae3f
+source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2358'
 ht-degree: 21%
 
 ---
@@ -298,11 +298,6 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Experience Decisioning
 
-* **Arbitragem de Jornada** - Agora você pode usar <strong>fórmulas e modelos de IA</strong> para aumentar automaticamente as pontuações de prioridade de jornada com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.
-
-  **Observação**: esta melhoria está disponível somente para um conjunto de organizações (Disponibilidade Limitada).
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13976">Vincular à tarefa DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-78932">Link para a tarefa JIRA do PRODUTO</a>
-
 * **documentação de ferramenta de sandbox exd - atualização** - Descrição a ser fornecida.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">Vincular à tarefa DOCAC JIRA</a>
 
@@ -398,3 +393,4 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 </tr>
 </tbody>
 </table>
+
