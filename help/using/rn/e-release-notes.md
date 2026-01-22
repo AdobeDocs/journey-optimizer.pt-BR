@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9605b5bec688c5afcbcc7b391218cdef6cb3b196
+source-git-commit: 5305db965ace448b0df3323d6211317066efae3f
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2414'
 ht-degree: 21%
 
 ---
@@ -180,6 +180,24 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <td>
 <p>Agora é possível <strong>exportar entregas enviadas</strong> para um conjunto de dados específico, para fins de arquivamento e conformidade. Essa capacidade está disponível não apenas para email, mas também para outros canais, como SMS. A retenção de dados para o conjunto de dados de exportação de mensagens agora é de <strong>7 dias</strong>.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">Vincular à tarefa DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">Link para a tarefa JIRA do PRODUTO</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent - Criar uma Jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Agente de criação de Jornada permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma interface de linguagem natural. Com o Jornada Create Agent, os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em prompts de conversa. O agente simplifica a criação de jornadas, permitindo que os profissionais de marketing se concentrem na estratégia em vez da configuração técnica.</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Saiba mais</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Vincular à tarefa DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link para a tarefa JIRA do PRODUTO</a></p>
+<p>Data de disponibilidade: terça-feira, 12 de janeiro de 2026</p>
 </td>
 </tr>
 </tbody>
