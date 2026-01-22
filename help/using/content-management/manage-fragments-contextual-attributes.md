@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
+source-git-commit: 69efe0254aae3cb067f2c9f89db6aa4fe0a50549
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 5%
+source-wordcount: '358'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ Para adicionar atributos contextuais a um fragmento publicado, siga as etapas ab
 
 >[!IMPORTANT]
 >
->Continue somente se entender totalmente os impactos nas jornadas e campanhas que fazem referência ao fragmento. [Saiba mais](#limitations)
+>Continue somente se você [entender totalmente os impactos](#limitations) nas jornadas e campanhas que fazem referência ao fragmento.
 
 1. Navegue até **[!UICONTROL Gerenciamento de conteúdo]** > **[!UICONTROL Fragmentos]**.
 
@@ -56,11 +56,7 @@ Para adicionar atributos contextuais a um fragmento publicado, siga as etapas ab
 
 1. Alterne para o **[!UICONTROL Editor de código]** ou o **[!UICONTROL Modo avançado]** no editor de personalização.
 
-1. Digite ou copie e cole manualmente o atributo contextual usando a sintaxe:
-
-   ```
-   {{context.attribute_name}}
-   ```
+1. Digite ou copie e cole manualmente o atributo contextual usando a sintaxe `{{context.attribute_name}}`:
 
    Exemplo para um atributo `promotionCode`:
 
