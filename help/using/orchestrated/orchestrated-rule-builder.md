@@ -5,20 +5,15 @@ title: Trabalhar com o construtor de regras
 description: Saiba como criar regras para suas campanhas orquestradas
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 78%
+source-wordcount: '305'
+ht-degree: 76%
 
 ---
 
 
 # Trabalhar com o construtor de regras {#orchestrated-rule-builder}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_predefinedfilter"
->title="Filtro predefinido"
->abstract="A opção **Filtro predefinido** permite selecionar um filtro predefinido na lista de filtros personalizados ou nos favoritos."
 
 As campanhas orquestradas incluem um construtor de regras, que simplifica o processo de filtragem do banco de dados com base em vários critérios. O construtor de regras gerencia consultas muito complexas e longas com eficiência, oferecendo flexibilidade e precisão aprimoradas.
 
