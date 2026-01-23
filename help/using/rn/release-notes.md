@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: 789bae8373dda34cd132ea7abffea37f002dbc50
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2051'
 ht-degree: 27%
 
 ---
@@ -100,7 +100,6 @@ Essas notas de versão são de pré-lançamento e estão sujeitas a alterações
 <td>
 <p>Anteriormente limitado a Campanhas, o <strong>canal de Correspondência Direta</strong> agora está disponível na <strong>tela de jornada</strong>, permitindo que você incorpore a Correspondência Direta às suas jornadas. A correspondência direta agora pode ser usada em cenários de jornada em lote e 1:1, com suporte para configuração de extração de arquivos e configurações de frequência baseadas em tempo.</p>
 <p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
-<img src="assets/do-not-localize/dm-journey.gif">
 </td>
 </tr>
 </tbody>
@@ -148,7 +147,6 @@ Essas notas de versão são de pré-lançamento e estão sujeitas a alterações
 <tr>
 <td>
 <p>O canal de correspondência direta agora está disponível em campanhas orquestradas. A <strong>Atividade de correspondência direta</strong> facilita o envio de correspondência direta dentro da campanha Orquestrada, tanto para mensagens únicas quanto para mensagens recorrentes. Ele serve para automatizar o processo de geração do <strong>arquivo de extração</strong> exigido por provedores de correspondência direta. É possível combinar atividades de canal na tela da campanha orquestrada para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente.</p>
-<img src="assets/do-not-localize/dm-oc.gif">
 </td>
 </tr>
 </tbody>
@@ -200,7 +198,7 @@ Essas notas de versão são de pré-lançamento e estão sujeitas a alterações
 <tr>
 <td>
 <p>O Agente de criação de Jornada permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma interface de linguagem natural. Com o Jornada Create Agent, os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em prompts de conversa. O agente simplifica a criação de jornadas, permitindo que os profissionais de marketing se concentrem na estratégia em vez da configuração técnica.</p>
-<p><a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Saiba mais</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Saiba mais</a></p>
 <p>Data de disponibilidade: terça-feira, 12 de janeiro de 2026</p>
 </td>
 </tr>
@@ -288,7 +286,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Email Designer
 
-* **Correções no local no Designer de email** - <strong>Sugestões de conteúdo automático habilitado por IA</strong> agora estão disponíveis no Designer de email quando violações são detectadas durante a validação de conteúdo. Se o conteúdo for sinalizado como desalinhado às diretrizes da marca ou falhar nos critérios de qualidade, o sistema gera proativamente alternativas corrigidas que podem ser revisadas e aplicadas em linha, melhorando a conformidade e acelerando a produção.
+* **Correções no local no Designer de email** - Ao gerenciar conteúdo com a diretriz da sua marca, as <strong>Sugestões de conteúdo automático habilitado por IA</strong> agora estarão disponíveis quando violações forem detectadas durante a validação de conteúdo. Se o conteúdo for sinalizado como desalinhado às diretrizes da marca ou falhar nos critérios de qualidade, o sistema gera proativamente alternativas corrigidas que podem ser revisadas e aplicadas em linha, melhorando a conformidade e acelerando a produção.
 
 #### Experience Decisioning
 
