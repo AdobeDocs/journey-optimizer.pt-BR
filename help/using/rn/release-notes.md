@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 775811ef33441c3209eaedc6cd3bee8f686190e0
+source-git-commit: 9ddf79c9542ad10907b25b2db4415130faec5d8d
 workflow-type: tm+mt
-source-wordcount: '2087'
-ht-degree: 28%
+source-wordcount: '2027'
+ht-degree: 29%
 
 ---
 
@@ -202,7 +202,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>O Agente de criação de Jornada permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma interface de linguagem natural. Com o Jornada Create Agent, os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em prompts de conversa. O agente simplifica a criação de jornadas, permitindo que os profissionais de marketing se concentrem na estratégia em vez da configuração técnica.</p>
-<p><a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Saiba mais</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Saiba mais</a></p>
 <p>Data de disponibilidade: terça-feira, 12 de janeiro de 2026</p>
 </td>
 </tr>
@@ -284,10 +284,6 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
   **Observação**: esta melhoria está disponível somente para um conjunto de organizações (Disponibilidade Limitada).
 
-
-#### Email Designer
-
-* **Correções no local no Designer de email** - Ao gerenciar conteúdo com a diretriz da sua marca, as <strong>Sugestões de conteúdo automático habilitado por IA</strong> agora estarão disponíveis quando violações forem detectadas durante a validação de conteúdo. Se o conteúdo for sinalizado como desalinhado às diretrizes da marca ou falhar nos critérios de qualidade, o sistema gera proativamente alternativas corrigidas que podem ser revisadas e aplicadas em linha, melhorando a conformidade e acelerando a produção.
 
 #### Experience Decisioning
 
