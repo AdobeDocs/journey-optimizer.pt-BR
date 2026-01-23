@@ -5,15 +5,25 @@ title: Criar a sua primeira regra
 description: Saiba como criar regras para suas campanhas orquestradas
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 96%
+source-wordcount: '1878'
+ht-degree: 97%
 
 ---
 
 
 # Criar a sua primeira regra {#build-query}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_selectaudience"
+>title="Selecionar público-alvo"
+>abstract="A opção **Selecionar público-alvo** permite escolher o público-alvo pelo qual deseja filtrar a sua consulta."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_predefinedfilter"
+>title="Filtro predefinido"
+>abstract="A opção **Filtro predefinido** permite selecionar um filtro predefinido na lista de filtros personalizados ou nos favoritos."
 
 As principais etapas para criar regras para suas campanhas orquestradas são as seguintes:
 
@@ -22,6 +32,11 @@ As principais etapas para criar regras para suas campanhas orquestradas são as 
 1. **Verificar e validar a regra**: verifique os dados resultantes da regra antes de salvá-la.
 
 ## Adicionar uma condição {#conditions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_customcondition"
+>title="Condição personalizada"
+>abstract="As condições personalizadas são componentes de filtragem que permitem filtrar sua consulta criando sua própria condição com atributos do banco de dados e expressões avançadas."
 
 Para adicionar condições à sua consulta, siga estas etapas:
 
@@ -160,6 +175,11 @@ As condições personalizadas permitem executar operações agregadas. Para isso
 
 ## Combinar condições com operadores {#operators}
 
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_group"
+>title="Grupo"
+>abstract="Nesse painel, é possível alterar o operador usado para vincular as condições do filtro."
+
 Sempre que você adiciona uma nova condição à regra, ela é automaticamente vinculada à condição existente por um operador **E**. Isso significa que os resultados das duas condições são combinados.
 
 Para alterar o operador entre condições, clique nele e selecione o operador desejado.
@@ -199,6 +219,11 @@ No exemplo abaixo, criamos um grupo intermediário para segmentar os clientes qu
 ![](assets/rule-builder-groups.png)
 
 ## Verificar e validar sua consulta
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_ruleproperties"
+>title="Propriedades da regra"
+>abstract="Depois de criar a consulta na tela, é possível verificá-la usando o painel **Propriedades da regra** localizado no lado direito.<br/>Esse painel permite exibir os dados resultantes, recuperar uma versão de código SQL da consulta e verificar o número de registros direcionados.<br/>Use o botão **Selecionar ou salvar filtro** para salvar sua consulta como um filtro predefinido ou substituir o conteúdo da tela por um filtro."
 
 Depois de criar a consulta na tela, é possível verificá-la por meio do painel **Propriedades da regra**. As operações disponíveis são:
 
