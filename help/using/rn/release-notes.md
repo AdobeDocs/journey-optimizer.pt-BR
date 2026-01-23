@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Notas de versão
 feature: Release Notes
-topic: Content Management
+role: User
+level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
+source-git-commit: 21231a10389a6238cff6d71966ce2bab8379ea59
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2096'
 ht-degree: 28%
 
 ---
@@ -201,7 +202,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>O Agente de criação de Jornada permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma interface de linguagem natural. Com o Jornada Create Agent, os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em prompts de conversa. O agente simplifica a criação de jornadas, permitindo que os profissionais de marketing se concentrem na estratégia em vez da configuração técnica.</p>
-<p><a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Saiba mais</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Saiba mais</a></p>
 <p>Data de disponibilidade: terça-feira, 12 de janeiro de 2026</p>
 </td>
 </tr>
@@ -363,6 +364,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <tr>
 <td>
 <p>Agora você pode incluir <strong>ofertas personalizadas</strong> em suas jornadas por meio de uma atividade dedicada de Decisão de conteúdo na tela de jornada e usá-las em atividades de jornada, incluindo condições e ações personalizadas.</p>
+<p>Esse recurso estará disponível para todos os ambientes (Disponibilidade geral).</p>
 <p>Data de disponibilidade: quarta-feira, 3 de fevereiro de 2026</p>
 </td>
 </tr>
