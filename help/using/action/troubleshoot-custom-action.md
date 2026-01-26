@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '682'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,11 @@ Como administrador, use o recurso **[!UICONTROL Enviar solicitação de teste]**
 ![](assets/send-test-request.png){width="70%" align="left"}
 
 O uso desse recurso simplifica o processo de teste e validação, garantindo que as ações personalizadas funcionem corretamente nas jornadas ativas.
+
+>[!NOTE]
+>
+>Se sua organização tiver o proxy IP (saída) habilitado, a chamada **[!UICONTROL Enviar solicitação de teste]** o ignorará. Para confirmar o roteamento de proxy, execute um teste ou uma jornada ativa. Saiba mais sobre o proxy IP (saída) e a habilitação em [Integrar a sistemas externos](../configuration/external-systems.md#faq).
+
 
 ## Pré-requisitos {#troubleshoot-custom-action-prereq}
 
