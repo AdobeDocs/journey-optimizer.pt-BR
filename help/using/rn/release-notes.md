@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d76ef12bab4502ef78c0e1d2d6b61957d54a351b
+source-git-commit: 9dedefb30a6c61965595a102c2d02207ae620285
 workflow-type: tm+mt
-source-wordcount: '1962'
-ht-degree: 26%
+source-wordcount: '2015'
+ht-degree: 27%
 
 ---
 
@@ -85,7 +85,6 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>O Quiet hours permite definir <strong>exclusões com base no tempo</strong> para canais de email, SMS, push e WhatsApp. Elas garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade. Você pode aplicar horas de silêncio por meio de <strong>conjuntos de regras</strong>, que podem ser atribuídos a ações individuais em campanhas ou jornadas para obter um controle preciso.</p>
-<p><strong>Observação</strong>: não há suporte para o Período de Silêncio em campanhas Orquestradas.</p>
 <p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Com esta versão de Disponibilidade geral, o recurso agora inclui a capacidade de o cliente colocar uma ação de campanha na fila até a conclusão do Período de silêncio e a capacidade de pré-visualizar a regra de Período de silêncio ativada.</p>
 </td>
 </tr>
@@ -118,8 +117,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>O Adobe Journey Optimizer agora oferece suporte a <strong>Notificações por push da Web</strong>, expandindo o canal de push para além dos dispositivos móveis. Você pode enviar notificações facilmente para navegadores móveis e de desktop, permitindo que alcançar os clientes diretamente em seus dispositivos sem exigir um aplicativo. Esse aprimoramento permite que você interaja com os usuários com mensagens personalizadas e oportunas em tempo real, aproveitando os mesmos fluxos de trabalho de criação e recursos de segmentação já disponíveis para push móvel.</p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
-<p><strong>Observação</strong>: a notificação silenciosa ainda não tem suporte para notificações por push da Web.</p>
+<p>Anteriormente lançado na versão beta, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
 </tr>
 </tbody>
@@ -164,6 +162,21 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
+<th><strong>APIs de ferramentas de migração de autoatendimento</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Um novo conjunto de <strong>APIs de ferramentas de migração</strong> está disponível para migrar entidades de Gerenciamento de ofertas para o Experience Decisioning. A ferramenta permite a migração perfeita entre sandboxes com recursos de resolução de dependência e reversão.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Journey Agent - Criar uma Jornada</strong><br/></th>
 </tr>
 </thead>
@@ -171,7 +184,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>O Agente de criação de Jornada permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma interface de linguagem natural. Com o Jornada Create Agent, os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em prompts de conversa. O agente simplifica a criação de jornadas, permitindo que os profissionais de marketing se concentrem na estratégia em vez da configuração técnica.</p>
-<p><a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Saiba mais</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Saiba mais</a></p>
 <p>Data de disponibilidade: terça-feira, 12 de janeiro de 2026</p>
 </td>
 </tr>
@@ -247,16 +260,18 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Atualizar marcas com a nova guia de cores** - As diretrizes de marca ajudam a garantir que sua marca seja apresentada de forma consistente em todos os pontos de contato. A nova seção <strong>Cores</strong> define os padrões do sistema de cores da sua marca, descrevendo como as cores são selecionadas, organizadas e aplicadas entre experiências. Ela garante o uso consistente de cores primárias, secundárias, de ênfase e neutras para respaldar uma identidade de marca coesa, acessível e reconhecível.
 
+#### Canais
+
+* **Webhooks de SMS** - Webhooks agora são aceitos em todos os provedores de SMS. Você pode configurar cada webhook com base na finalidade pretendida, webhooks de entrada para capturar mensagens de entrada e webhooks de feedback para receber confirmações de entrega, atualizações de status e outros eventos relacionados à mensagem.
+
 #### Campanhas
 
-* **Agendar campanha usando o Fuso Horário do Perfil** - O agendamento de campanha agora pode usar o <strong>fuso horário</strong> de cada perfil para entregar mensagens no horário local desejado. A programação usando fusos horários do perfil está disponível para canais de email, push, SMS, WhatsApp e LINE.
+* **Agendar campanha usando o Fuso Horário do Perfil** - O agendamento de campanha agora pode usar o <strong>fuso horário</strong> de cada perfil para entregar mensagens no horário local desejado.
 
   **Observação**: esta melhoria está disponível somente para um conjunto de organizações (Disponibilidade Limitada).
 
 
 #### Experience Decisioning
-
-* **APIs de ferramentas de migração de autoatendimento** - Um novo conjunto de <strong>APIs de ferramentas de migração</strong> está disponível para migrar entidades de gerenciamento de ofertas para o Experience Decisioning. A ferramenta permite a migração perfeita entre sandboxes com recursos de resolução de dependência e reversão.
 
 * **Anexar fragmentos a itens de decisão** - O Journey Optimizer agora fornece a capacidade de anexar <strong>fragmentos</strong> a itens de decisão que podem ser aproveitados em campanhas de experiência baseadas em código por meio de políticas de decisão.
 
@@ -268,7 +283,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Combinar ações de mensagens nativas e do Adobe Campaign** - o Journey Optimizer agora permite combinar ações de mensagem do Adobe Campaign v7/v8 com ações de canal nativas na mesma jornada.
 
-* **Validação do tamanho da carga da Jornada no jornada** - a Journey Optimizer agora fornece a <strong>validação do tamanho da carga</strong> para ajudar a garantir desempenho e estabilidade de sistema ideais. Ao criar ou publicar jornadas, você receberá avisos e erros claros se os tamanhos de carga se aproximarem ou excederem os limites recomendados, juntamente com orientações acionáveis para otimizar a configuração da jornada. Essa validação proativa ajuda a identificar problemas em potencial antecipadamente e a manter o desempenho do jornada.
+* **Validação do tamanho da carga da Jornada no jornada** - a Journey Optimizer agora valida os tamanhos de carga da jornada para ajudar a garantir desempenho e estabilidade de sistema ideais. Ao criar ou publicar jornadas, você receberá avisos e erros claros se os tamanhos de carga se aproximarem ou excederem os limites recomendados, juntamente com orientações acionáveis para otimizar a configuração da jornada. Essa validação proativa ajuda a identificar problemas em potencial antecipadamente e a manter o desempenho do jornada.
 
 * **Várias ações de entrada no jornada** - Para simplificar sua orquestração de jornadas, agora é possível definir <strong>várias ações de entrada</strong> em uma única jornada. Anteriormente disponível em campanhas, esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, Cartões de conteúdo ou ações da Web a locais diferentes ao mesmo tempo, cada ação contendo um conteúdo específico.
 
@@ -278,9 +293,9 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Selecionar atributos e copiar valores de distribuição** - Agora é possível selecionar ou copiar valores diretamente da exibição de distribuição de valores em campanhas orquestradas.
 
-* **Herança de rótulo de uso de dados para públicos-alvo** - <strong>Os rótulos de uso de dados</strong> aplicados no Adobe Experience Platform agora são transferidos automaticamente ao salvar públicos-alvo em campanhas orquestradas, reduzindo a marcação DULE manual.
+* **Herança de rótulo de uso de dados para públicos-alvo** - Os rótulos aplicados no Adobe Experience Platform agora são transferidos automaticamente ao salvar públicos-alvo em campanhas orquestradas, reduzindo a marcação DULE manual.
 
-* **Filtros de redirecionamento predefinidos** - Para facilitar o redirecionamento de casos de uso de campanhas orquestradas, esta versão introduz novos <strong>filtros de redirecionamento</strong>. Esses filtros permitem direcionar públicos diretamente com base no envolvimento da mensagem, como enviado, aberto somente, aberto ou clicado, ou aberto e clicado, e selecionar a campanha específica ou a campanha em transição que deseja redirecionar.
+* **Filtros de redirecionamento predefinidos** - Para facilitar o redirecionamento de casos de uso de campanhas orquestradas, esta versão introduz novos <strong>filtros de comentários de campanha</strong>. Esses filtros permitem direcionar públicos diretamente com base no envolvimento da mensagem, como enviado, aberto somente, aberto ou clicado, ou aberto e clicado, e selecionar a campanha específica ou a campanha em transição que deseja redirecionar.
 
 * **Filtros predefinidos com parâmetros** - Agora você pode criar <strong>filtros com parâmetros</strong> em campanhas orquestradas para regras editáveis e reutilizáveis.
 
@@ -294,7 +309,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Permissões
 
-* **Impedir a autoaprovação para jornadas e campanhas** - Agora é possível exigir que os criadores não aprovem suas próprias jornadas ou campanhas, melhorando a <strong>separação de tarefas</strong> nos fluxos de trabalho de aprovação.
+* **Impedir autoaprovação para jornadas e campanhas** - Adição de uma opção ao criar ou definir a Política de Aprovação para impedir que os criadores de Jornadas/Campanhas aprovem seus próprios objetos.
 
 ## Em breve {#jan-26-01-coming-soon}
 
@@ -319,13 +334,30 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <table>
 <thead>
 <tr>
-<th><strong>Suporte à decisão em canais Push e SMS</strong><br/></th>
+<th><strong>Suporte à decisão no canal push</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode personalizar e otimizar o conteúdo de suas mensagens de Push e SMS com a <strong>Decisão</strong>. Use as <strong>Pontuações de prioridade</strong>, as Fórmulas ou os Modelos de IA para exibir o melhor conteúdo para seus clientes.</p>
+<p>Agora você pode personalizar e otimizar o conteúdo de suas mensagens de push com a <strong>Decisão</strong>. Use as <strong>Pontuações de prioridade</strong>, as Fórmulas ou os Modelos de IA para exibir o melhor conteúdo para seus clientes.</p>
+<p>Data de disponibilidade: quarta-feira, 3 de fevereiro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Suporte à decisão no canal de SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode adicionar políticas de Decisão a jornadas e campanhas de SMS. As políticas de decisão são recipientes para as suas ofertas que utilizam o mecanismo de tomada de decisão para retornar dinamicamente o melhor conteúdo a ser entregue a cada membro do público-alvo.</p>
+<p>Esse recurso está disponível em Disponibilidade limitada para um conjunto de organizações.</p>
 <p>Data de disponibilidade: quarta-feira, 3 de fevereiro de 2026</p>
 </td>
 </tr>
