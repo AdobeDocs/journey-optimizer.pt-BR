@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a068d3a4005d8f2247755f56ffb70665dc4c957f
+source-git-commit: 4e90aa9a71ab8999d4ac03eac50aad93af48302c
 workflow-type: tm+mt
-source-wordcount: '3676'
-ht-degree: 98%
+source-wordcount: '3908'
+ht-degree: 92%
 
 ---
 
@@ -183,6 +183,34 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
 * Uma instância de jornada para um perfil tem tamanho máximo de 1 MB. Todos os dados coletados como parte da execução da jornada são armazenados nessa instância da jornada. Portanto, dados de um evento de entrada, informações de perfil recuperadas da Adobe Experience Platform, respostas de ações personalizadas etc. são armazenados nessa instância da jornada e afetam o tamanho da jornada. É aconselhável, quando uma jornada inicia com um evento, limitar o tamanho máximo desse conteúdo do evento (por exemplo: até 800 KB) para evitar atingir esse limite após algumas atividades, na execução da jornada. Quando esse limite é atingido, o perfil fica com status de erro e será excluído da jornada.
 * Além do tempo limite usado em atividades de jornada, também há um tempo-limite de jornada global que não é exibido na interface e não pode ser alterado. Esse tempo-limite global interrompe o progresso das pessoas na jornada 91 dias após a sua entrada. [Leia mais](../building-journeys/journey-properties.md#global_timeout)
+
+
+#### Jornada validação de tamanho do conteúdo {#journey-payload-size}
+
+Ao salvar ou publicar uma jornada, o Journey Optimizer valida o tamanho total do conteúdo da jornada para preservar a estabilidade e o desempenho.
+
+**Configuração padrão**
+
+* **Tamanho máximo de solicitação padrão**: 2 MB (2.000.000 bytes). Algumas organizações podem ter limites personalizados configurados pela Adobe.
+* **Limite de aviso**: 90% do limite máximo.
+* **Limite de erros**: 100% do limite máximo. Salvar ou publicar está bloqueado e a solicitação retorna **HTTP 413 Entidade de Solicitação Muito Grande**.
+
+**Cenários de experiência do usuário**
+
+* **Carga &lt; 90% do limite**: a Jornada é salva e publicada com êxito. Nenhum aviso ou erro é exibido.
+* **Carga 90-99% do limite**: a Jornada é salva e publicada com êxito, com um aviso para otimizar. Mensagem de aviso: **Aviso**: o tamanho da carga da Jornada está próximo do limite. Maior nó: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamanho: [N] bytes).
+* **Carga >= 100% do limite**: o salvamento ou a publicação da Jornada está bloqueado com um erro. Mensagem de erro: **Erro**: o tamanho da carga da Jornada excede o limite. Maior nó: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamanho: [N] bytes).
+
+**Detalhes da resposta ao erro**
+
+Se a solicitação exceder o tamanho máximo permitido, a resposta incluirá **Entidade de Solicitação Muito Grande**. A carga da jornada excede o tamanho máximo permitido. Revise os detalhes do erro e otimize sua jornada.
+
+**Solução de problemas e recomendações**
+
+* Revise o maior nó destacado no aviso ou erro.
+* Simplifique condições, reduza mapeamentos de dados e remova etapas ou parâmetros desnecessários.
+* Considere dividir a jornada em jornadas menores, se necessário.
+* Se você acredita que sua organização precisa de um limite mais alto, entre em contato com o representante da Adobe.
 
 ### Selecionar limitações de pacote para jornadas unitárias {#select-package-limitations}
 
