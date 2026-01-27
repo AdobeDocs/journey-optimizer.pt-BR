@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: ht
-source-wordcount: '3661'
-ht-degree: 100%
+source-git-commit: a068d3a4005d8f2247755f56ffb70665dc4c957f
+workflow-type: tm+mt
+source-wordcount: '3676'
+ht-degree: 98%
 
 ---
 
@@ -300,7 +300,8 @@ Saiba mais sobre taxas de processamento e limites de taxa de transferência da j
 As seguintes medidas de proteção se aplicam às atividades do **[!UICONTROL Campaign v7/v8]** e **[!UICONTROL Campaign Standard]**:
 
 * As atividades do Adobe Campaign não podem ser usadas com uma atividade Público-alvo de leitura ou Qualificação de público-alvo.
-* As atividades de campanha não podem ser usadas com as outras atividades de canais: cartão, experiência baseada em código, email, push, sms, mensagens no aplicativo e web.
+* As atividades do **[!UICONTROL Campaign Standard]** não podem ser usadas com outras atividades de canal: Cartão, Experiência baseada em código, Email, Push, SMS, Mensagens no aplicativo, Web.
+* **[!UICONTROL As atividades do Campaign v7/v8]** podem ser usadas junto com atividades de canal nativas na mesma jornada.
 
 #### Atividade no aplicativo {#in-app-activity-limitations}
 
@@ -310,7 +311,7 @@ As seguintes medidas de proteção se aplicam à ação de **[!UICONTROL mensage
 
 * A personalização pode conter apenas atributos de perfil.
 
-* A atividade No aplicativo não pode ser usada com atividades do Adobe Campaign.
+* A atividade no aplicativo não pode ser usada com atividades de **[!UICONTROL Campaign Standard]**.
 
 * A exibição no aplicativo está vinculada à duração da jornada, o que significa que, quando a jornada terminar para um perfil, todas as mensagens no aplicativo dentro dessa jornada deixarão de ser exibidas para esse perfil.  Consequentemente, não é possível interromper uma mensagem no aplicativo diretamente de uma atividade da jornada. Em vez disso, será necessário encerrar toda a jornada para impedir que as mensagens No aplicativo sejam exibidas no perfil.
 
