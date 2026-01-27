@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 6%
+source-wordcount: '844'
+ht-degree: 4%
 
 ---
 
@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Crie a ação personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-1. Clique dentro do campo **Resposta**.
+1. Clique dentro do campo **Resposta** (resposta bem-sucedida).
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -111,6 +111,16 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil.
 
+1. (Opcional) Ative uma carga de resposta a erros para capturar o formato retornado quando a chamada falha e, em seguida, cole uma carga de exemplo. Para fazer isso, selecione **Definir uma carga de resposta de falha** na configuração de ação personalizada. Saiba mais sobre como configurar os campos de carga em [Configurar uma ação personalizada](../action/about-custom-action-configuration.md).
+
+   ```
+   {
+   "errorResponse" : "customer not found"
+   }
+   ```
+
+   A carga de resposta de erro só estará disponível se você habilitá-la na configuração de ação personalizada.
+
 1. Também vamos adicionar a customerID como parâmetro de consulta.
 
    ![](assets/action-response9.png){width="80%" align="left"}
@@ -120,6 +130,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 ## Aproveitar a resposta em uma jornada {#response-in-journey}
 
 Basta adicionar a ação personalizada a uma jornada. Em seguida, você pode aproveitar os campos de carga de resposta em condições, outras ações e personalização de mensagens.
+
+Se você tiver definido uma carga de resposta a erros, ela será exposta em **Atributos contextuais** > **Journey Orchestration** > **Ações** > `<action name>` > **errorResponse**. Você pode usá-lo na ramificação de tempo limite e erro para direcionar a lógica de fallback e a manipulação de erros.
 
 Por exemplo, você pode adicionar uma condição para verificar o número de pontos de fidelidade. Quando a pessoa entra no restaurante, o terminal local envia uma chamada com as informações de fidelidade do perfil. Você pode enviar um push se o perfil for um cliente gold. Se um erro for detectado na chamada, envie uma ação personalizada para notificar o administrador do sistema.
 
@@ -150,6 +162,12 @@ Por exemplo, você pode adicionar uma condição para verificar o número de pon
    @action{ActionLoyalty.jo_status_code} == "http_400"
    ```
 
+   Se uma carga de resposta de erro tiver sido definida, você também poderá direcionar seus campos, por exemplo:
+
+   ```
+   @action{ActionLoyalty.errorResponse.errorResponse} == "customer not found"
+   ```
+
    ![](assets/action-response7.png)
 
 1. Adicione uma ação personalizada que será enviada para sua organização.
@@ -158,7 +176,7 @@ Por exemplo, você pode adicionar uma condição para verificar o número de pon
 
 ## Logs do modo de teste {#test-mode-logs}
 
-Você pode acessar, por meio do modo de teste, os logs de status relacionados às respostas de ação personalizadas. Se você tiver definido ações personalizadas com respostas na jornada, verá uma seção **actionsHistory** nesses logs exibindo a carga retornada pelo ponto de extremidade externo (como resposta dessa ação personalizada). Isso pode ser muito útil em termos de depuração.
+Você pode acessar, por meio do modo de teste, os logs de status relacionados às respostas de ação personalizadas. Se você tiver definido ações personalizadas com respostas na jornada, verá uma seção **actionsHistory** nesses logs exibindo a carga retornada pelo ponto de extremidade externo (como resposta dessa ação personalizada). Quando uma carga de resposta de erro é definida, ela é incluída para chamadas com falha. Isso pode ser muito útil em termos de depuração.
 
 ![](assets/action-response12.png)
 
@@ -174,6 +192,8 @@ Estes são os valores possíveis para este campo:
 * erro interno: **internalError**
 
 Uma chamada de ação é considerada com erro quando o código http retornado é maior que 2xx ou se ocorrer um erro. A jornada flui para a ramificação de tempo limite ou erro dedicada nesses casos.
+
+Se uma carga de resposta de erro tiver sido configurada para a ação personalizada, seus campos serão expostos no nó **errorResponse** para chamadas com falha. Se nenhuma carga de resposta de erro estiver configurada, esse nó não estará disponível.
 
 >[!WARNING]
 >
