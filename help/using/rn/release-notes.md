@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0ed4d941863730e6bc8dbea771cba94b305dd5b
+source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1704'
 ht-degree: 17%
 
 ---
@@ -184,7 +184,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tbody>
 <tr>
 <td>
-<p>O Agente de Criação de Jornada permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma <strong>interface de linguagem natural</strong>. Os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em prompts conversacionais, simplificando a criação de jornadas e permitindo que os profissionais de marketing se concentrem na estratégia em vez de na configuração técnica.</p>
+<p>O Journey Agent agora oferece recursos de criação, permitindo que os usuários do Journey Optimizer criem e configurem jornadas de marketing por meio de uma <strong>interface de linguagem natural</strong>. Os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em prompts conversacionais. Isso simplifica o processo de criação de jornadas, permitindo que os profissionais de marketing se concentrem na estratégia em vez da configuração técnica.</p>
 </td>
 </tr>
 </tbody>
