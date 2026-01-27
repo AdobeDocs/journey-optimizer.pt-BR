@@ -6,10 +6,10 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 53%
+source-wordcount: '916'
+ht-degree: 36%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 53%
 >title="Publicar campanha orquestrada"
 >abstract="Para iniciar a campanha, você deve publicá-la. Certifique-se de que todos os erros tenham sido resolvidos antes da publicação."
 
-Depois de criar a campanha orquestrada e definir as tarefas a serem executadas na tela, você poderá publicá-la e monitorar como ela está sendo executada.
-
-Você também poderá executar a campanha no modo de teste para verificar sua execução e o resultado das diferentes atividades.
+Depois de criar sua campanha orquestrada e projetar as tarefas a serem executadas na tela, você pode publicá-la e monitorar como ela está sendo executada. Você também poderá executar a campanha no modo de teste para verificar sua execução e o resultado das diferentes atividades.
 
 ## Testar a sua campanha antes de publicar {#test}
 
@@ -35,17 +33,18 @@ O [!DNL Journey Optimizer] permite que você teste campanhas Orquestradas antes 
 
 Para testar uma campanha Orquestrada, abra a campanha e selecione **[!UICONTROL Iniciar]**.
 
-![](assets/campaign-start.png){zoomable="yes"}
+![Botão Iniciar na barra de ferramentas da tela de campanha](assets/campaign-start.png){zoomable="yes"}
 
 Cada atividade na campanha é executada sequencialmente até que o final da tela seja atingido. Durante o teste, é possível controlar a execução da campanha usando a barra de ação na tela. Nela, você pode:
 
 * **Parar** a execução a qualquer momento.
 * **Iniciar** a execução novamente.
+* **Reinicie** a execução para redefinir e executar novamente o fluxo de trabalho em uma única ação. Isso é particularmente útil quando você deseja testar novamente o fluxo da campanha rapidamente depois de fazer modificações.
 * **Retomar** a execução se ela tiver sido pausada anteriormente.
 
 O ícone **[!UICONTROL Alertas]** / **[!UICONTROL Aviso]** na barra de ferramentas da tela notifica sobre problemas, incluindo avisos que podem aparecer de forma proativa antes da execução e erros que ocorrem durante ou após a execução.
 
-![](assets/campaign-warning.png){zoomable="yes"}
+![Ícone de aviso na barra de ferramentas da tela de campanha](assets/campaign-warning.png){zoomable="yes"}
 
 Você também pode identificar rapidamente as atividades com falhas, usando os [indicadores visuais de status](#activities) exibidos diretamente em cada atividade. Para obter uma resolução de problemas detalhada, abra os [logs da campanha](#logs-tasks), que fornecem informações detalhadas sobre o erro e seu contexto.
 
@@ -57,7 +56,7 @@ Depois de validada, a campanha pode ser publicada.
 
 Depois que a campanha for testada e estiver pronta, clique em **[!UICONTROL Publicar]** para colocá-la no ar.
 
-![](assets/campaign-publish.png){zoomable="yes"}
+![Botão Publicar na tela da campanha](assets/campaign-publish.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -65,7 +64,15 @@ Depois que a campanha for testada e estiver pronta, clique em **[!UICONTROL Publ
 
 O fluxo visual é reiniciado, e perfis reais começam a fluir pela jornada em tempo real.
 
-Se a ação de publicação falhar (por exemplo, devido à falta de conteúdo da mensagem), você será alertado e deverá corrigir o problema antes de tentar novamente. Após a publicação bem-sucedida, a campanha começa a ser executada (imediatamente ou de acordo com o agendamento), muda do status de **Rascunho** para **Online** e torna-se &quot;Somente leitura&quot;.
+Se a ação de publicação falhar (por exemplo, devido à falta de conteúdo da mensagem), você será alertado e deverá corrigir o problema antes de tentar novamente. Após a publicação bem-sucedida, a campanha começa a ser executada (imediatamente ou de acordo com o agendamento), muda do status de **Rascunho** para o status **Online** e torna-se &quot;Somente leitura&quot;.
+
+## Confirmar envio de mensagem {#confirm-sending}
+
+Por padrão, para campanhas orquestradas não recorrentes, a entrega de mensagens é pausada até que você aprove explicitamente o envio. Depois de publicar a campanha, confirme a solicitação de envio no painel de propriedades da atividade de canal. Até que seja confirmado, a atividade do canal permanece pendente e nenhuma mensagem é enviada.
+
+![imagem mostrando o botão Confirmar](assets/confirm-sending.png)
+
+Antes de publicar, você pode desativar o envio de confirmação do painel de propriedades de atividades do canal. Para obter detalhes, consulte [Confirmar envio de mensagem](activities/channels.md#confirm-message-sending).
 
 ## Monitorar execução da campanha {#monitor}
 
@@ -73,14 +80,14 @@ Se a ação de publicação falhar (por exemplo, devido à falta de conteúdo da
 
 Durante a execução (no modo de teste ou em tempo real), o fluxo visual mostra como os perfis se movem pela jornada em tempo real. O número de perfis que estão fazendo a transição entre tarefas é exibido.
 
-![](assets/workflow-execution.png){zoomable="yes"}
+![Execução do fluxo de trabalho da campanha mostrando o fluxo do perfil](assets/workflow-execution.png){zoomable="yes"}
 
 Os dados transportados de uma atividade para outra através de transições são armazenados em uma tabela de trabalho temporária. Esses dados podem ser exibidos para cada transição. Para inspecionar os dados transmitidos entre atividades:
 
 1. Selecione uma transição.
 1. No painel de propriedades, clique em **[!UICONTROL Visualizar esquema]** para visualizar o esquema da tabela de trabalho. Selecione **[!UICONTROL Visualizar resultados]** para ver os dados transportados.
 
-   ![](assets/transition.png){zoomable="yes"}
+   ![Visualização da transição mostrando o esquema da tabela de trabalho e os resultados](assets/transition.png){zoomable="yes"}
 
 ### Indicadores de execução de atividades {#activities}
 
@@ -88,25 +95,25 @@ Os indicadores visuais de status ajudam a entender o desempenho de cada atividad
 
 | Indicador visual | Descrição |
 |-----|------------|
-| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | A atividade está sendo executada no momento. |
-| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | A atividade requer a sua atenção. Isso pode envolver confirmar o envio de uma entrega ou realizar uma ação necessária. |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | A atividade encontrou um erro. Para resolver o problema, abra os logs da campanha Orquestrada para obter mais informações. |
-| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | A atividade foi executada com sucesso. |
+| ![Status pendente](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | A atividade está sendo executada no momento. |
+| ![Status laranja](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | A atividade requer a sua atenção. Isso pode envolver confirmar o envio de uma entrega ou realizar uma ação necessária. |
+| ![Status do erro](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | A atividade encontrou um erro. Para resolver o problema, abra os logs da campanha Orquestrada para obter mais informações. |
+| ![Status de sucesso](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | A atividade foi executada com sucesso. |
 
 ### Logs e tarefas {#logs-tasks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logs e tarefas"
->abstract="A tela **Logs e tarefas** fornece um histórico da execução da campanha orquestrada, registrando todas as ações do usuário e erros encontrados."
+>abstract="A tela **Logs and tasks** fornece um histórico da execução de campanha orquestrada, registrando todas as ações de usuário e encontrando erros."
 
 O monitoramento de logs e tarefas é uma etapa essencial para analisar suas campanhas orquestradas e garantir que elas estejam sendo executadas corretamente. Os logs e as tarefas podem ser acessados pelo botão **[!UICONTROL Logs]**, que está disponível no modo de teste e ativo na barra de ferramentas da tela.
 
-![](assets/logs-button.png){zoomable="yes"}
+![Botão Logs na barra de ferramentas da tela de campanha](assets/logs-button.png){zoomable="yes"}
 
 A tela **[!UICONTROL Logs e tarefas]** fornece um histórico completo da execução da sua campanha, registrando todas as ações dos usuários e erros encontrados.
 
-![](assets/workflow-logs.png){zoomable="yes"}
+![Tela de logs e tarefas mostrando o histórico de execução da campanha](assets/workflow-logs.png){zoomable="yes"}
 
 Dois tipos de informação estão disponíveis:
 

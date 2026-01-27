@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Enviar atualizações do item da lista de desejos
-description: Enviar atualizações do item da lista de desejos
+title: Envie atualizações de itens da lista de desejos
+description: Envie atualizações de itens da lista de desejos
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Enviar atualizações do item da lista de desejos {#wishist-uc}
+# Envie atualizações de itens da lista de desejos {#wishist-uc}
 
 >[!BEGINSHADEBOX]
 
@@ -25,7 +25,7 @@ Embora este exemplo use um esquema **Lista de desejos**, o mesmo método se apli
 * **Produto**: com campos: `description`, `priceref`, `imageurl`
 * **Carrinhos abandonados** (opcional): com campo: `lastmodified`
 
-➡️ [Saiba como configurar esquemas baseados em modelo](gs-schemas.md)
+➡️ [Saiba como configurar esquemas relacionais](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

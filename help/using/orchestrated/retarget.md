@@ -6,9 +6,9 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 O redirecionamento permite que você acompanhe os recipients com base em como eles responderam a uma campanha orquestrada anterior. Por exemplo, você pode enviar um segundo email para recipients que receberam, mas não clicaram no primeiro.
 
-A **[!UICONTROL Campanha Orquestrada]** fornece dois atributos principais para isso:
+**[!UICONTROL Campanha Orquestrada]** fornece dois esquemas principais para isso:
 
 * **[!UICONTROL Feedback de Mensagem]**: captura eventos relacionados à entrega, por exemplo, mensagem enviada, aberta, rejeitada, etc.
 * **[!UICONTROL Acompanhamento de email]**: captura as ações do usuário, por exemplo, cliques e aberturas.
@@ -28,15 +28,31 @@ A **[!UICONTROL Campanha Orquestrada]** fornece dois atributos principais para i
 
 ## Criar uma regra de redirecionamento baseada em comentários {#feedback-retarget}
 
-A Regra de Redirecionamento Baseada em Comentários permite redirecionar destinatários com base em eventos de entrega de mensagens capturados no atributo **[!UICONTROL Comentários de Mensagens]**. Esses eventos incluem resultados como mensagens que estão sendo enviadas, abertas, rejeitadas ou marcadas como spam.
+A Regra de Redirecionamento baseada em Comentários permite redirecionar destinatários com base em eventos de entrega de mensagens capturados no esquema **[!UICONTROL Feedback de mensagens]**. Esses eventos incluem resultados como mensagens que estão sendo enviadas, abertas, rejeitadas ou marcadas como spam.
 
 Usando esses dados, você pode definir regras para identificar os recipients que receberam uma mensagem anterior, permitindo a comunicação de acompanhamento com base em status de delivery específicos.
 
 1. Crie uma nova **[!UICONTROL Campanha orquestrada]**.
 
-1. Adicione uma atividade **[!UICONTROL Criar Público]** e defina o targeting dimension como **[!UICONTROL Recipient (caas)]**.
+1. Adicione uma atividade **[!UICONTROL Criar Público]** e defina o targeting dimension como **[!UICONTROL Recipient (caas)]**. Clique em **[!UICONTROL Continuar]**.
 
-1. No **[!UICONTROL Construtor de Regras]**, clique em **[!UICONTROL Adicionar Condição]** e selecione **[!UICONTROL Comentários sobre a Mensagem]** no **[!UICONTROL Seletor de Atributos]**. Clique em **[!UICONTROL Confirmar]** para criar uma **Condição Feedback de Mensagem como**.
+1. Para começar rapidamente, você pode usar um filtro **[!UICONTROL Comentários sobre a Campanha]** integrado para direcionar destinatários com base nos eventos de entrega de mensagens.
+
+   +++ Passo a passo detalhado
+
+   1. No **[!UICONTROL Construtor de Regras]**, clique em **[!UICONTROL Selecionar ou salvar um filtro]** e escolha **[!UICONTROL Comentários da campanha]** na lista.
+
+   1. Selecione a regra de filtro e escolha o **[!UICONTROL Comportamento]** que deseja direcionar, como **[!UICONTROL Mensagem enviada]**.
+
+   1. Clique no ![ícone de pasta ](assets/do-not-localize/folder-search.svg) para selecionar a campanha específica que deseja redirecionar. Você tem duas opções:
+
+      * **[!UICONTROL Selecionar uma campanha específica]**: escolha uma campanha específica na sua lista para redirecionar os destinatários que interagiram com essa campanha.
+
+      * **[!UICONTROL Campanha da transição]**: faça referência a uma campanha de uma atividade anterior da sua campanha orquestrada.
+
+   +++
+
+1. Como alternativa, você pode criar manualmente regras personalizadas. No **[!UICONTROL Construtor de Regras]**, clique em **[!UICONTROL Adicionar Condição]** e selecione **[!UICONTROL Comentários sobre a Mensagem]** no **[!UICONTROL Seletor de Atributos]**. Clique em **[!UICONTROL Confirmar]** para criar uma **Condição Feedback de Mensagem como**.
 
    ![](assets/retarget_1.png){zoomable="yes"}
 
@@ -99,7 +115,7 @@ Agora você configurou uma regra de redirecionamento baseada em comentários par
 
 ## Criar uma regra de redirecionamento baseada em rastreamento {#tracking-based}
 
-A regra de redirecionamento baseada em rastreamento segmenta os destinatários com base em suas interações com uma mensagem, usando dados do atributo **[!UICONTROL Acompanhamento de email]**. Ele captura as ações do usuário, como aberturas de email e cliques em links.
+A regra de redirecionamento baseada em rastreamento segmenta os destinatários com base em suas interações com uma mensagem, usando dados do esquema **[!UICONTROL Acompanhamento de email]**. Ele captura as ações do usuário, como aberturas de email e cliques em links.
 
 Para redirecionar destinatários com base nas interações de mensagem (por exemplo, abrir ou clicar), use a entidade **[!UICONTROL Acompanhamento de email]** da seguinte maneira:
 
@@ -107,7 +123,27 @@ Para redirecionar destinatários com base nas interações de mensagem (por exem
 
 1. Adicione uma atividade **[!UICONTROL Build Audience]** e defina o targeting dimension como **[!UICONTROL Recipient (caas)]** para se concentrar nos recipients anteriores da campanha Orquestrada.
 
-1. No **[!UICONTROL Construtor de Regras]**, clique em **[!UICONTROL Adicionar Condição]** e selecione **[!UICONTROL Acompanhamento de Email]** no **[!UICONTROL Seletor de Atributos]**.
+1. Para começar rapidamente, você pode usar um filtro **[!UICONTROL Comentários sobre a Campanha]** integrado para direcionar destinatários com base nos eventos de entrega de mensagens.
+
+   +++ Passo a passo detalhado
+
+   1. No **[!UICONTROL Construtor de Regras]**, clique em **[!UICONTROL Selecionar ou salvar um filtro]** e escolha **[!UICONTROL Comentários da campanha]** na lista.
+
+      ![](assets/retarget_11.png){zoomable="yes"}
+
+   1. Selecione a regra de filtro e escolha o **[!UICONTROL Comportamento]** que deseja direcionar, como **[!UICONTROL Mensagem aberta]** ou **[!UICONTROL Mensagem clicada]**.
+
+      ![](assets/retarget_13.png){zoomable="yes"}
+
+   1. Clique no ![ícone de pasta ](assets/do-not-localize/folder-search.svg) para selecionar a campanha específica que deseja redirecionar. Você tem duas opções:
+
+      * **[!UICONTROL Selecionar uma campanha específica]**: escolha uma campanha específica na sua lista para redirecionar os destinatários que interagiram com essa campanha.
+
+      * **[!UICONTROL Campanha da transição]**: faça referência a uma campanha de uma atividade anterior da sua campanha orquestrada.
+
+   +++
+
+1. Como alternativa, você pode criar manualmente regras personalizadas. No **[!UICONTROL Construtor de Regras]**, clique em **[!UICONTROL Adicionar Condição]** e selecione **[!UICONTROL Acompanhamento de Email]** no **[!UICONTROL Seletor de Atributos]**.
 
    Clique em **[!UICONTROL Confirmar]** para criar uma **Condição**.
 

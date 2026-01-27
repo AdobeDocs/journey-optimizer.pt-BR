@@ -5,10 +5,10 @@ title: Trabalhar com o construtor de regras
 description: Saiba como criar regras para suas campanhas orquestradas
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 76%
+source-wordcount: '340'
+ht-degree: 69%
 
 ---
 
@@ -19,7 +19,7 @@ As campanhas orquestradas incluem um construtor de regras, que simplifica o proc
 
 Ele também permite utilizar filtros predefinidos com condições, permitindo que você refine as consultas com facilidade enquanto usa expressões e operadores avançados para estratégias abrangentes de direcionamento e segmentação de públicos-alvo.
 
-## Acessar o construtor de regras
+## Acessar o construtor de regras {#access}
 
 O construtor de regras está disponível em todos os contextos nos quais você precisa definir regras para filtrar dados.
 
@@ -40,3 +40,7 @@ O construtor de regras fornece uma tela central para criar a sua consulta e um p
 * O painel **[!UICONTROL Propriedades da regra]** fornece informações sobre a regra. Ele permite executar várias operações para verificar a regra e garantir que ela supra as suas necessidades.
 
   Esse painel é exibido ao construir uma consulta para criar um público-alvo. [Saiba como verificar e validar a sua consulta](build-query.md#check-and-validate-your-query)
+
+## Trabalhar com filtros predefinidos
+
+Filtros predefinidos permitem reutilizar consultas salvas no construtor de regras, incluindo versões com parâmetros. Para obter uma apresentação completa sobre como salvar, aplicar e gerenciar filtros predefinidos, consulte [Trabalhar com filtros predefinidos](predefined-filters.md).

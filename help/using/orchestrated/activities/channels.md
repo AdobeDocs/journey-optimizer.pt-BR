@@ -5,10 +5,10 @@ title: Adicionar uma atividade de canal a uma campanha em várias etapas
 description: Saiba como adicionar uma atividade de canal a uma campanha em várias etapas
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 57%
+source-wordcount: '1431'
+ht-degree: 40%
 
 ---
 
@@ -50,7 +50,7 @@ UNUSED IDs in BJ
 >title="Atividade de correspondência direta"
 >abstract="A Atividade correspondência direta facilita o envio de correspondência direta na campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. É possível combinar atividades de canal na tela da campanha orquestrada para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
-O [!DNL Adobe Journey Optimizer] permite automatizar e executar campanhas de marketing em vários canais: email, SMS e notificações por push. Você pode combinar essas atividades de canal na tela da campanha para criar campanhas orquestradas entre canais. Essas campanhas podem acionar ações com base no comportamento e nos dados do cliente.
+O [!DNL Adobe Journey Optimizer] permite automatizar e executar campanhas de marketing em canais: email, SMS e notificações por push. Você pode combinar essas atividades de canal na tela da campanha para criar campanhas orquestradas entre canais. Essas campanhas podem acionar ações com base no comportamento e nos dados do cliente.
 
 Por exemplo:
 
@@ -92,17 +92,7 @@ Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal 
 
 1. **Aplicar regras de limitação**
 
-   Na lista suspensa **[!UICONTROL Conjunto de regras]**, selecione um conjunto de regras de canal para aplicar regras de limitação à sua campanha. O uso de conjuntos de regras de canal permite definir o limite de frequência por tipo de comunicação para evitar sobrecarga de clientes com mensagens semelhantes. [Saiba como trabalhar com conjuntos de regras](../../conflict-prioritization/rule-sets.md)
-
-1. **Rastrear engajamento** (Email e SMS)
-
-   Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como os seus destinatários reagem às suas entregas de email ou SMS. Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre os relatórios da campanha](../../reports/campaign-global-report-cja.md)
-
-1. **Habilitar o modo de entrega rápida** (push)
-
-   O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite um envio muito rápido de mensagens por push em grandes volumes por meio das campanhas. A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios. Por exemplo, você deseja enviar um alerta de push urgente em telefones celulares, como notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias. Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../../push/create-push.md#rapid-delivery).
-
-   Para mais informações sobre desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+   Na lista suspensa **[!UICONTROL Conjunto de regras]**, selecione um conjunto de regras de canal para aplicar regras de limitação à sua campanha. O uso de conjuntos de regras de canal permite definir o limite de frequência por tipo de comunicação para evitar sobrecarga de clientes com mensagens semelhantes. [Saiba como trabalhar com conjuntos de regras](../../conflict-prioritization/rule-sets.md).
 
 1. **Criar um experimento de conteúdo**
 
@@ -114,9 +104,28 @@ Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal 
 
    ![imagem mostrando a seção de experimento de conteúdo](../assets/channel-experiment.png)
 
+Configurações adicionais estão disponíveis, dependendo do canal de comunicação selecionado. Expanda as seções abaixo para obter mais informações.
+
++++**Rastrear envolvimento** (Email e SMS).
+
+Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como os seus destinatários reagem às suas entregas de email ou SMS. Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre os relatórios da campanha](../../reports/campaign-global-report-cja.md)
+
++++
+
++++**Habilitar o modo de entrega rápida** (Push).
+
+O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas. A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios. Por exemplo, você deseja enviar um alerta de push urgente em telefones celulares, como notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias. Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../../push/create-push.md#rapid-delivery).
+
+Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
++++
+
 Quando a atividade do seu canal for configurada, selecione a guia **[!UICONTROL Conteúdo]** para definir seu conteúdo.
 
 ## Definição do conteúdo {#content}
+
+
+### Criar o conteúdo da mensagem
 
 Alterne para a guia **[!UICONTROL Conteúdo]** para criar a sua mensagem. As etapas do processo variam de acordo com o canal selecionado. Confira as etapas detalhadas para criar o conteúdo da sua mensagem nas páginas a seguir.
 
@@ -126,9 +135,9 @@ Alterne para a guia **[!UICONTROL Conteúdo]** para criar a sua mensagem. As eta
 <td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Criar uma notificação por push</strong></a></td>
 </tr></table>
 
-## Adicionar personalização
+### Adicionar personalização
 
-O Personalization em campanhas orquestradas funciona de forma semelhante a outras campanhas ou jornadas do **[!UICONTROL Journey Optimizer]**. No entanto, há algumas diferenças principais específicas para a tela orquestrada.
+O Personalization em campanhas orquestradas funciona de forma semelhante a outras [!DNL Journey Optimizer] campanhas ou jornadas, com algumas diferenças principais específicas para a tela orquestrada.
 
 Ao acessar o editor de personalização por meio de uma campanha Orquestrada, duas pastas principais contêm atributos disponíveis para personalização detalhados abaixo.
 
@@ -146,15 +155,50 @@ Ao acessar o editor de personalização por meio de uma campanha Orquestrada, du
 
 Para obter uma visão geral detalhada de como usar o editor de personalização, consulte [Introdução à personalização](../../personalization/personalize.md).
 
-## Verificar e testar o conteúdo
+### Verificar e testar o conteúdo
 
 Depois que o conteúdo for criado, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o seu conteúdo com perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba mais](../../content-management/preview-test.md)
 
 ![imagem mostrando o botão de simular conteúdo](../assets/channel-simulate.png)
 
+## Confirmar envio de mensagem
+
+Por padrão, para campanhas orquestradas não recorrentes, a entrega de mensagens é pausada até que você aprove explicitamente o envio. Depois de publicar a campanha, confirme a solicitação de envio no painel de propriedades da atividade de canal.
+
+![imagem mostrando o botão Confirmar](../assets/confirm-sending.png)
+
+O envio de confirmação pode ser desativado antes da publicação da campanha orquestrada. Para fazer isso, selecione a atividade do canal na tela para exibir suas propriedades e ative **[!UICONTROL Enviar sem confirmação]**.
+
+![imagem mostrando o botão Enviar sem confirmação](../assets/send-without-confirmation.png)
+
+## Definir controle de taxa {#rate-control}
+
+[!DNL Journey Optimizer] permite que você habilite o controle de taxa para ações de saída em campanhas orquestradas.
+
+Esse recurso é particularmente útil para evitar sobrecarga em sistemas downstream, como páginas de aterrissagem ou plataformas de atendimento ao cliente. Por exemplo, você pode definir um limite de taxa de 165 mensagens por segundo para garantir uma entrega estável sem sobrecarregar os sistemas de downstream.
+
+Para definir o controle de taxa, siga estas etapas:
+
+1. Selecione uma atividade de canal de saída na tela e clique em **[!UICONTROL Editar email]**, **[!UICONTROL Editar SMS]** ou **[!UICONTROL Editar push]**, dependendo do canal escolhido.
+
+   ![imagem mostrando a tela com uma atividade de email](../assets/channel-edit.png)
+
+1. Navegue até a guia **[!UICONTROL Agenda]** e habilite a opção **[!UICONTROL Entrega acelerada]** na seção **[!UICONTROL Configurações de entrega]**.
+
+   ![Configurações de controle de taxa com opção de entrega de acelerador e taxa de entrega por segundo](../assets/rate-control.png)
+
+1. Especifique a **[!UICONTROL Taxa de entrega]** desejada por segundo.
+
+   * Taxa de entrega mínima com suporte: 1 por segundo.
+   * Taxa de delivery máxima com suporte: 2000 por segundo quando a opção &quot;Throttle delivery&quot; está habilitada.
+
+>[!IMPORTANT]
+>
+>Ao definir uma taxa de delivery, o período máximo para o qual um público-alvo da campanha pode ser executado é de 12 horas. Se a taxa de delivery for definida com um valor que não permita que todo o público-alvo receba a mensagem no período de 12 horas, os perfis restantes serão excluídos da campanha. Você pode ver a contagem desses perfis excluídos no relatório da campanha.
+
 ## Próximas etapas {#next}
 
-Quando o conteúdo da mensagem estiver pronto, navegue de volta para a campanha Orquestrada usando a seta **[!UICONTROL Voltar]**. Em seguida, você pode concluir a orquestração de atividades na tela e publicar a campanha para iniciar o envio das mensagens. [Saiba como iniciar e monitorar campanhas orquestradas](../start-monitor-campaigns.md)
+Quando o conteúdo da mensagem estiver pronto, navegue de volta para a campanha Orquestrada usando a seta **[!UICONTROL Voltar]**. Em seguida, você pode concluir a orquestração de atividades na tela e publicar a campanha para começar a enviar mensagens. [Saiba como iniciar e monitorar campanhas orquestradas](../start-monitor-campaigns.md)
 
 ![imagem mostrando o botão de voltar](../assets/channel-back.png)
 

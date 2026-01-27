@@ -5,10 +5,10 @@ title: Perguntas frequentes sobre campanhas orquestradas
 description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orchestrated
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 13%
+source-wordcount: '1819'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 Você encontrará abaixo Perguntas frequentes sobre as campanhas do Adobe Journey Optimizer Orchestrated.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer a pergunta ou conecte-se à [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
 
 +++ O que é a orquestração de campanhas?
 
@@ -78,7 +78,7 @@ Para acessar a Orquestração de campanha, sua licença deve incluir o pacote **
 **Saiba mais**
 
 * [Introdução às campanhas orquestradas](gs-orchestrated-campaigns.md)
-* [Criar a primeira jornada](../building-journeys/journey-gs.md)
+* [Crie a primeira jornada](../building-journeys/journey-gs.md)
 * [Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
 
 +++
@@ -119,7 +119,7 @@ As campanhas usam um **banco de dados relacional**. Isso permite consultar difer
 
 Sim. Na Orquestração de campanhas, um perfil de recipient conhecido como &quot;Entidade de Pessoas&quot; pode ser atualizado e esses dados são usados para personalização. Além disso, dados enriquecidos de entidades vinculadas no banco de dados relacional também podem ser usados para personalização. Você pode usar perfis de clientes juntamente com dados vinculados (como compras ou assinaturas) para personalizar o conteúdo em todos os canais compatíveis.
 
-**Recommendations**
+**Recomendações**
 
 * Use **dados transacionais e comportamentais** para tornar as ofertas relevantes.
 * Combinar **atributos estáticos** (por exemplo, nível de fidelidade) com **atributos dinâmicos** (por exemplo, data da última compra).
@@ -264,7 +264,7 @@ Não, as campanhas orquestradas não oferecem suporte aos recursos de decisão. 
 **Saiba mais**
 
 * [Introdução à Escolha de experiências](../experience-decisioning/gs-experience-decisioning.md)
-* [Criar a primeira jornada](../building-journeys/journey-gs.md)
+* [Crie a primeira jornada](../building-journeys/journey-gs.md)
 * [Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
 
 +++
@@ -357,7 +357,7 @@ Sim, você pode enriquecer dados da loja relacional e dos públicos da Adobe Exp
 
 +++ Todos os filtros devem ser definidos por meio de públicos-alvo ou algum tipo de filtro pode ser configurado?
 
-As campanhas orquestradas são compatíveis com Filtros predefinidos: é possível definir e salvar uma consulta como filtro e adicioná-la aos favoritos para ser reutilizada em tarefas de segmentação adicionais.
+As campanhas orquestradas são compatíveis com filtros predefinidos: é possível definir e salvar uma consulta como filtro, adicioná-la aos favoritos e reutilizá-la em tarefas de segmentação adicionais. Filtros predefinidos podem incluir parâmetros para que você possa inserir valores no momento do uso. [Saiba como trabalhar com filtros predefinidos](predefined-filters.md).
 
 **Saiba mais**
 

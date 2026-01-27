@@ -5,10 +5,10 @@ title: Criar a sua primeira regra
 description: Saiba como criar regras para suas campanhas orquestradas
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: e8b17fc5a7339092d2b276c36078d8841df28ef6
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 96%
+source-wordcount: '1895'
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ Para adicionar condições à sua consulta, siga estas etapas:
 
 1. Clique no botão **Adicionar condição** para criar a primeira condição da sua consulta.
 
-   Você também pode iniciar a consulta com um filtro predefinido. Para isso, clique no botão **[!UICONTROL Selecionar ou salvar filtro]** e escolha **[!UICONTROL Selecionar filtro predefinido]**.
+   Você também pode iniciar a consulta com um filtro predefinido. Para fazer isso, clique no botão **[!UICONTROL Selecionar ou salvar filtro]** e escolha **[!UICONTROL Selecionar filtro predefinido]**. Para obter mais detalhes, consulte [Trabalhar com filtros predefinidos](predefined-filters.md).
 
    ![imagem mostrando o construtor de regras](assets/rule-builder-add.png)
 
@@ -50,9 +50,13 @@ Para adicionar condições à sua consulta, siga estas etapas:
 
    +++ Distribuição de valores
 
-   Analise a distribuição de valores referente a um determinado atributo dentro da tabela. Esse recurso é útil para entender os valores disponíveis, suas contagens e porcentagens. Isso também ajuda a evitar problemas como inconsistências no uso de maiúsculas e minúsculas ou na ortografia ao criar consultas ou expressões.
+   A distribuição de valores permite identificar como os valores são usados no banco de dados. É útil para entender os valores disponíveis, suas contagens e porcentagens. Isso também ajuda a evitar problemas como inconsistências no uso de maiúsculas e minúsculas ou na ortografia ao criar consultas ou expressões.
 
    Para atributos com um grande número de valores, a ferramenta exibe apenas os primeiros vinte. Nesses casos, uma notificação de **[!UICONTROL Carregamento parcial]** é exibida para indicar essa limitação. É possível aplicar filtros avançados para refinar os resultados exibidos e concentrar-se em valores ou subconjuntos de dados específicos.
+
+   Para criar sua condição mais rapidamente, selecione um valor e clique em **[!UICONTROL Selecionar atributo e valor]** para preencher o atributo e o valor na condição atual.
+
+   Você também pode copiar um valor na área de transferência usando a ![imagem mostrando o ícone do editor de expressão](assets/do-not-localize/activity-copy.svg), por exemplo, para colá-lo no editor de expressão.
 
    ![imagem mostrando a interface de distribuição de valores](assets/rule-builder-distribution-values.png)
 
@@ -215,7 +219,7 @@ Depois de criar a consulta na tela, é possível verificá-la por meio do painel
 * **Visualizar resultados:** exibe os dados resultantes da sua consulta.
 * **Visualização do código**: exibe uma versão baseada no código da consulta em SQL.
 * **Calcular**: atualiza e exibe o número de registros aos quais a regra se direciona.
-* **Selecionar ou salvar filtro**: escolha um filtro predefinido existente para usar na tela ou salve a sua consulta como um filtro predefinido para reutilização no futuro.
+* **Selecionar ou salvar filtro**: escolha um filtro predefinido existente para usar na tela ou salve sua consulta como um filtro predefinido para reutilização futura. Se o filtro incluir parâmetros, forneça valores antes de aplicá-lo. Para obter detalhes, consulte [Trabalhar com filtros predefinidos](predefined-filters.md).
 
 <br/>
 
@@ -224,4 +228,3 @@ Quando a regra estiver pronta, clique no botão **[!UICONTROL Confirmar]** para 
 >[!IMPORTANT]
 >
 >A seleção de um filtro predefinido no painel Propriedades da regra substitui a regra que foi criada na tela pelo filtro selecionado.
-

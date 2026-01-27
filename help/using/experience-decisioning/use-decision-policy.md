@@ -7,10 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 2%
+source-wordcount: '946'
+ht-degree: 1%
 
 ---
 
@@ -83,9 +83,11 @@ Você também pode adicionar qualquer outro atributo disponível no editor de pe
 
 Se a política de decisão contiver itens de decisão, incluindo fragmentos, você poderá aproveitar esses fragmentos no código de política de decisão. [Saiba mais sobre fragmentos](../content-management/fragments.md)
 
->[!AVAILABILITY]
+>[!CAUTION]
 >
->No momento, esse recurso só está disponível para o canal de experiência baseado em código e para um conjunto de organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o representante da Adobe.
+>No momento, esse recurso só está disponível para o canal de experiência baseado em código.
+>
+>Atualmente, somente [fragmentos de expressão](../personalization/use-expression-fragments.md) podem ser usados. Fragmentos aninhados (fragmentos que fazem referência a outros fragmentos) não são compatíveis.
 
 Por exemplo, digamos que você queira exibir conteúdos diferentes para vários modelos de dispositivos móveis. Certifique-se de ter adicionado fragmentos correspondentes a esses dispositivos ao item de decisão que você está usando na política de decisão. [Saiba como](items.md#attributes).
 
@@ -134,7 +136,7 @@ A ID do fragmento e a chave de referência serão selecionadas na seção **[!UI
 
 **Atributos de item de decisão e de contexto**
 
-Por padrão, os atributos de item de decisão e o atributo contextual não têm suporte em fragmentos [!DNL Journey Optimizer]. No entanto, você pode usar variáveis globais, conforme descrito abaixo.
+Atributos de item de decisão e atributos contextuais não são suportados por padrão em fragmentos [!DNL Journey Optimizer]. No entanto, você pode usar variáveis globais, conforme descrito abaixo.
 
 Digamos que você queira usar a variável *sport* no fragmento.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -92,7 +92,6 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <p>O Período de silêncio permite definir exclusões com base no tempo para canais de email, SMS, Push e WhatsApp. Elas garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando a respeitar as preferências do cliente e os requisitos de conformidade.</p>
 <p>É possível aplicar o período de silêncio por meio de conjuntos de regras que podem ser atribuídas a ações individuais em campanhas ou jornadas para obter um controle preciso.</p>
 <p>Atualmente, as regras de horários de silêncio estão disponíveis apenas para algumas organizações (disponibilidade limitada).  Elas serão disponibilizadas progressivamente a todos os clientes em versões futuras.</p>
-<img src="assets/do-not-localize/quiet-hour.gif">
 <p>Para obter mais informações, consulte a <a href="../conflict-prioritization/quiet-hours.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quinta-feira, 22 de outubro de 2025</p>
 </td>

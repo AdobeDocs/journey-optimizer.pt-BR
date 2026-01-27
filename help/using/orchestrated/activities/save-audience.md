@@ -5,10 +5,10 @@ title: Usar a atividade Salvar público-alvo
 description: Saiba como usar a atividade Salvar público em uma campanha orquestrada
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 23%
+source-wordcount: '555'
+ht-degree: 21%
 
 ---
 
@@ -59,6 +59,9 @@ O conteúdo do público-alvo salvo ficará disponível na exibição detalhada d
 
 ![](../assets/save-audience-4.png)
 
+>[!NOTE]
+>
+>Se a definição de público-alvo usar atributos de esquema do Experience Platform rotulados com o uso de dados (DULE), esses rótulos serão herdados automaticamente pelo público-alvo salvo. Não é necessário reaplicá-los. [Saiba mais sobre Governança de dados](../../action/action-privacy.md)
 
 ## Exemplo {#save-audience-example}
 

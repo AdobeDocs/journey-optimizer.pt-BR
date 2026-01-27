@@ -1,29 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Envolver clientes navegando pela atividade
-description: Envolver clientes navegando pela atividade
+title: Engaje clientes com base na atividade de navegação
+description: Engaje clientes com base na atividade de navegação
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Envolver clientes navegando pela atividade {#engage-customers-uc}
+# Engaje clientes com base na atividade de navegação {#engage-customers-uc}
 
 >[!BEGINSHADEBOX]
 
-Observe que esse caso de uso começa com um público-alvo que já existe no Experience Platform, especificamente, um público-alvo de comportamento na Web em tempo real que coleta a atividade de navegação à medida que ocorre. [Saiba mais no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Observe que esse caso de uso começa com um público-alvo que já existe no Experience Platform, especificamente, um público-alvo de comportamento na Web em tempo real que coleta a atividade de navegação à medida que ocorre. [Saiba mais no Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Esquemas necessários para este caso de uso:**
 
 * **Destinatários**: usados como dimensão de direcionamento, com campos: `email`, `churnprop`
 * **Lista de desejos**: com campos: `description`, `priceref`, `imageurl`
 
-➡️ [Saiba como configurar esquemas baseados em modelo](gs-schemas.md)
+➡️ [Saiba como configurar esquemas relacionais](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 
