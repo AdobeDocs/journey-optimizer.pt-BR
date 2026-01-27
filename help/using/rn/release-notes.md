@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aa66cc14a9d10df066f91403ed072cb95eebaa8f
+source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 14%
@@ -35,7 +35,7 @@ As seções [Recursos](#jan-26-01-features) e [Melhorias](#jan-26-01-improv) abo
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#jan-26-01-features}
 
@@ -128,7 +128,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### Campanhas orquestradas
 
-* **Selecionar atributos e copiar valores de distribuição** - Agora é possível selecionar ou copiar valores diretamente da exibição de distribuição de valores em campanhas orquestradas. [Leia mais](../orchestrated/orchestrated-rule-builder.md)
+* **Selecionar atributos e copiar valores de distribuição** - Agora é possível selecionar ou copiar valores diretamente da exibição de distribuição de valores em campanhas orquestradas. [Leia mais](../orchestrated/build-query.md)
 
 * **Herança de rótulo de uso de dados para públicos-alvo** - Os rótulos aplicados no Adobe Experience Platform agora são transferidos automaticamente ao salvar públicos-alvo em campanhas orquestradas, reduzindo a marcação DULE manual. [Leia mais](../orchestrated/activities/save-audience.md)
 
