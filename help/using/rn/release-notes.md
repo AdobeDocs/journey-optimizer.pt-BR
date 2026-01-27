@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
+source-git-commit: 33bb27ff4181e196d05f320c5b958628a6bd6bf6
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1707'
 ht-degree: 17%
 
 ---
@@ -111,28 +111,6 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <td>
 <p>Agora você pode adicionar <strong>Políticas de decisão</strong> em jornadas e campanhas de SMS. As políticas de decisão são recipientes para as suas ofertas que utilizam o mecanismo de tomada de decisão para retornar dinamicamente o melhor conteúdo a ser entregue a cada membro do público-alvo.</p>
 <p>Esse recurso está disponível em Disponibilidade limitada para um conjunto de organizações. Entre em contato com seu representante Adobe. </p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Exportação de mensagens</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Um novo recurso <strong>Exportação de Mensagem</strong> está disponível para canais de email e SMS. Esse recurso permite exportar automaticamente o conteúdo da mensagem enviada para um conjunto de dados dedicado do Experience Platform, permitindo:</p>
-<ul>
-<li>Atender aos requisitos de conformidade normativa (como a HIPAA)</li>
-<li>Arquivar mensagens para solicitações legais e consultas do atendimento ao cliente</li>
-<li>Reter cópias de conteúdo personalizado enviadas a indivíduos</li>
-</ul>
-<p>Os registros são retidos no conjunto de dados de exportação de mensagens do AJO por 7 dias corridos a partir da assimilação. Durante esse período de retenção, você pode exportar os dados para seu próprio armazenamento por meio dos destinos do Experience Platform. O recurso é ativado no nível de configuração do canal, fornecendo controle granular sobre quais mensagens são exportadas.</p>
-<p>Esse recurso só está disponível para o canal de email e SMS, para organizações que compraram a oferta complementar Exportação de mensagens. Para obter mais informações, entre em contato com o seu representante da Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -278,6 +256,29 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <td>
 <p>Agora você pode personalizar e otimizar o conteúdo de suas mensagens de push com a <strong>Decisão</strong>. Use as <strong>Pontuações de prioridade</strong>, as Fórmulas ou os Modelos de IA para exibir o melhor conteúdo para seus clientes.</p>
 <p>Data de disponibilidade: quarta-feira, 3 de fevereiro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Exportação de mensagens</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Um novo recurso <strong>Exportação de Mensagem</strong> está disponível para canais de email e SMS. Esse recurso permite exportar automaticamente o conteúdo da mensagem enviada para um conjunto de dados dedicado do Experience Platform, permitindo:</p>
+<ul>
+<li>Atender aos requisitos de conformidade normativa (como a HIPAA)</li>
+<li>Arquivar mensagens para solicitações legais e consultas do atendimento ao cliente</li>
+<li>Reter cópias de conteúdo personalizado enviadas a indivíduos</li>
+</ul>
+<p>Os registros são retidos no conjunto de dados de exportação de mensagens do AJO por 7 dias corridos a partir da assimilação. Durante esse período de retenção, você pode exportar os dados para seu próprio armazenamento por meio dos destinos do Experience Platform. O recurso é ativado no nível de configuração do canal, fornecendo controle granular sobre quais mensagens são exportadas.</p>
+<p>Esse recurso só está disponível para o canal de email e SMS, para organizações que compraram a oferta complementar Exportação de mensagens. Para obter mais informações, entre em contato com o seu representante da Adobe.</p>
+<p>Data de disponibilidade: quinta-feira, 28 de janeiro de 2026</p>
 </td>
 </tr>
 </tbody>
