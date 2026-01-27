@@ -10,16 +10,20 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
+source-git-commit: 3866cedf2c264d94e981a43b649073aa1bdcd4f2
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 36%
+source-wordcount: '725'
+ht-degree: 34%
 
 ---
 
 # Publicar a jornada {#publishing-the-journey}
 
 Você deve publicar uma jornada para ativá-la e disponibilizá-la para que novos perfis possam entrar na jornada. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Não é possível publicar uma jornada com erros.
+
+>[!NOTE]
+>
+>Ao salvar ou publicar uma jornada, o Journey Optimizer valida o tamanho total do conteúdo da jornada e pode avisar ou bloquear a publicação se você se aproximar ou exceder o limite. Saiba mais em [validação do tamanho da carga da Jornada](../start/guardrails.md#journey-payload-size).
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -90,4 +94,4 @@ Ao publicar uma nova versão de uma jornada, a versão anterior encerra automati
 
 Saiba como publicar uma jornada neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427939?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

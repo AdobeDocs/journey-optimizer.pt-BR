@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar a primeira jornada
+title: Crie a primeira jornada
 description: Etapas principais para criar sua primeira jornada com o Adobe Journey Optimizer
 feature: Journeys, Get Started
 topic: Content Management
@@ -10,14 +10,14 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 3866cedf2c264d94e981a43b649073aa1bdcd4f2
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '937'
 ht-degree: 23%
 
 ---
 
-# Criar a primeira jornada {#jo-quick-start}
+# Crie a primeira jornada {#jo-quick-start}
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
@@ -102,7 +102,7 @@ Você também pode executar sua jornada em **Dry run**. O teste de simulação d
 
 ## Publicar a jornada {#jo-pub}
 
-Você deve publicar uma jornada para ativá-la e disponibilizá-la para que novos perfis a insiram. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Não é possível publicar uma jornada com erros. Saiba mais sobre a publicação do jornada nesta [seção](publish-journey.md).
+Você deve publicar uma jornada para ativá-la e disponibilizá-la para que novos perfis a insiram. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Não é possível publicar uma jornada com erros. O Journey Optimizer também valida o tamanho da carga no momento de salvar e publicar para preservar a estabilidade e o desempenho. Saiba mais sobre a publicação do jornada nesta [seção](publish-journey.md) e veja a [validação do tamanho da carga da jornada](../start/guardrails.md#journey-payload-size).
 
 ![Conclua o fluxo de jornadas com público-alvo, condições e ações](assets/jo-journeyuc2_32bis.png)
 
