@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1777'
 ht-degree: 7%
 
 ---
@@ -207,6 +207,10 @@ Você pode selecionar qualquer item da lista, que exibe todos os itens de decis�
 ## Revisar e salvar a política de decisão {#review}
 
 Após configurar uma estratégia de seleção e adicionar ofertas substitutas, clique em **[!UICONTROL Avançar]** para revisar e salvar sua política de decisão e em **[!UICONTROL Criar]** para confirmar a criação da política.
+
+>[!IMPORTANT]
+>
+>Depois que uma política de decisão é criada, as alterações feitas nela podem levar até 15 minutos para se propagarem por todas as regiões de dados e até 30 minutos para o Canadá. Isso inclui alterações como adicionar um novo item de decisão a uma coleção, alterar uma regra em um item, alterar o conteúdo do item ou atualizar uma fórmula.
 
 Você pode editar ou excluir uma política de decisão a qualquer momento usando o botão de reticências no editor de personalização ou no menu **[!UICONTROL Decisão]** no painel de propriedades do componente.
 
