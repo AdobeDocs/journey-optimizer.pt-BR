@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: ht
-source-wordcount: '700'
-ht-degree: 100%
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 96%
 
 ---
 
@@ -62,6 +62,8 @@ Após criar um email, é possível começar a projetar o conteúdo de email.
 
    ![](assets/email_designer_export.png)
 
+1. Você também pode validar a qualidade do seu conteúdo para identificar possíveis problemas de legibilidade, coesão do conteúdo e eficácia. [Saiba mais sobre a validação de qualidade do conteúdo](../content-management/brands-score.md#validate-quality)
+
 ## Práticas recomendadas de design de email {#best-practices}
 
 Ao enviar emails, é importante levar em consideração que os destinatários podem encaminhá-los, o que às vezes pode causar problemas na renderização do email. Isso acontece especialmente ao usar classes CSS que podem não ser compatíveis com o provedor de email usado para encaminhamento. Por exemplo, se estiver usando a classe CSS “is-desktop-hidden” para ocultar uma imagem em dispositivos móveis.
@@ -82,8 +84,8 @@ Consulte na tabela abaixo as práticas recomendadas de design de emails:
 
 Saiba como criar conteúdo de email com o editor de mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417587?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Saiba como configurar experimentos de conteúdo para testes A/B e explorar o conteúdo de email que melhor impulsiona seus objetivos de negócios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447336?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

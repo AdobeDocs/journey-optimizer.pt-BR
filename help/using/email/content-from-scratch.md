@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: conteúdo, editor, email, iniciar
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 50%
+source-wordcount: '743'
+ht-degree: 49%
 
 ---
 
@@ -126,5 +126,7 @@ Para começar a criar o conteúdo, siga as etapas abaixo:
 1. Quando o conteúdo estiver pronto, clique no botão **[!UICONTROL Simular conteúdo]** para verificar a renderização. Você pode escolher exibir no desktop ou em um dispositivo móvel. Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
 
    ![](assets/email_designer_simulate_content.png)
+
+1. Você também pode validar a qualidade do seu conteúdo para avaliar a legibilidade, a eficácia e a coesão do conteúdo. [Saiba mais sobre a validação de qualidade do conteúdo](../content-management/brands-score.md#validate-quality)
 
 1. Quando o conteúdo estiver pronto, clique em **[!UICONTROL Salvar]**.
