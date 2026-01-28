@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 62371c3aec2169ef8a3361c750525171b5f9187c
+source-git-commit: d727acc1d01376a4abb8a0766340a2d32832305e
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 21%
@@ -35,7 +35,7 @@ As seções [Recursos](#jan-26-01-features) e [Melhorias](#jan-26-01-improv) abo
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#jan-26-01-features}
 
@@ -56,7 +56,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </ul>
 <p>Os registros são retidos no conjunto de dados de exportação de mensagens do AJO por 7 dias corridos a partir da assimilação. Durante esse período de retenção, você pode exportá-los para seu próprio armazenamento por meio dos destinos do Experience Platform. O recurso é habilitado no nível de configuração de canal, fornecendo a você <strong>controle granular</strong> sobre quais mensagens são exportadas.</p>
 <p>Esse recurso só está disponível para o canal de email e SMS, para organizações que compraram a oferta complementar Exportação de mensagens. Para obter mais informações, entre em contato com o seu representante da Adobe.</p>
-<p><img src="assets/do-not-localize/message-export.gif"/></p>
+<!--p><img src="assets/do-not-localize/message-export.gif"/></p-->
 <p>Para obter mais informações, consulte a <a href="../configuration/message-export.md#message-export">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -155,7 +155,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### IA
 
-* **Verificações de Qualidade de Conteúdo do Assistente de IA** - Além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas com a <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da sua marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou lacunas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality). [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+* **Verificações de Qualidade de Conteúdo do Assistente de IA** - Além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas com a <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da sua marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou lacunas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality). [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
