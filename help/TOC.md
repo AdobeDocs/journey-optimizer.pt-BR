@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '3074'
+source-wordcount: '3070'
 ht-degree: 98%
 
 ---
@@ -311,13 +311,12 @@ ht-degree: 98%
       + [Introdução às notificações por push](using/push/get-started-push.md)
       + [Criar uma notificação por push](using/push/create-push.md)
       + [Projetar a notificação por push](using/push/design-push.md)
-      + [Projetar a notificação por push da web](using/push/design-push-web.md)
       + [Verificação e envio da notificação por push](using/push/send-push.md)
       + Configurar notificações por push {#push-config}
          + [Configurar notificações por push](/help/rp_landing_pages/push-config-landing-page.md)
          + [Fluxo de notificação por push](using/push/push-gs.md)
          + [Configurar canal de notificação por push](using/push/push-configuration.md)
-         + [Configurar canal de notificação por push](using/push/push-configuration-web.md)
+         + [Configurar canal de notificação por push da Web](using/push/push-configuration-web.md)
          + [Fluxo de trabalho de início rápido de integração para dispositivos móveis](using/push/mobile-onboarding-wf.md)
    + Canal de SMS/MMS/RCS {#sms}
       + [Canal de SMS/MMS/RCS](/help/rp_landing_pages/sms-landing-page.md)
@@ -453,7 +452,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)

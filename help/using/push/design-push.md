@@ -8,14 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 31f0ff2497b5d3c1211c26e8bcd9a12d072f298d
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 14%
+source-wordcount: '1883'
+ht-degree: 13%
 
 ---
 
 # Criar uma notificação por push {#design-push-notification}
+
+Depois de criar uma notificação por push, você pode projetar o conteúdo para plataformas iOS, Android e da Web. Esta página orienta você na redação da mensagem, configuração do comportamento ao clicar, adição de mídia e botões e configuração de opções avançadas para criar notificações por push envolventes que repercutem com seu público-alvo.
 
 ## Título e corpo {#push-title-body}
 
@@ -24,9 +26,11 @@ ht-degree: 14%
 >title="Personalizar a notificação por push."
 >abstract="Para compor a mensagem, insira o conteúdo nos campos **Título** e **Corpo**. Para incluir tokens de personalização, abra a caixa de diálogo de personalização."
 
+![](assets/title-body.png)
+
 Para redigir a mensagem, clique nos campos **[!UICONTROL Título]** e **[!UICONTROL Corpo]**. Use o editor de personalização para definir conteúdo, personalizar dados e adicionar conteúdo dinâmico. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no editor de personalização.
 
-Use a seção de visualização de dispositivo para visualizar como a notificação por push é exibida em dispositivos iOS e Android.
+Use a seção de visualização de dispositivo para visualizar como a notificação por push é exibida no iOS, Android e Web.
 
 Acelere sua criação de conteúdo com o AI Assistant e gere textos convincentes de notificação por push com o [AI Assistant para geração de texto](../content-management/generative-text.md) ou crie notificações por push completas com o [AI Assistant para geração de conteúdo completa](../content-management/generative-full-content.md).
 
@@ -37,13 +41,13 @@ Acelere sua criação de conteúdo com o AI Assistant e gere textos convincentes
 >title="Sobre o comportamento ao clicar"
 >abstract="Selecione o comportamento quando um recipient clicar no corpo da notificação por push."
 
-Você pode selecionar o comportamento quando um usuário clicar no corpo da notificação por push.
+Configure a ação que ocorre quando os destinatários tocam no corpo da notificação por push. Escolha entre as seguintes opções:
 
 ![](assets/title-body-push.png)
 
-* Para abrir o aplicativo, selecione a opção **[!UICONTROL Abrir aplicativo]**. O aplicativo associado à notificação é definido na [configuração de canal](../configuration/channel-surfaces.md) (ou seja, predefinição de mensagem).
-* Para redirecionar o usuário para um conteúdo específico em um aplicativo, selecione a opção **[!UICONTROL Deeplink]**.  O conteúdo específico pode ser uma exibição específica, uma seção específica de uma página ou uma determinada guia. Depois que a opção for selecionada, insira o deep link no campo associado.
-* Para redirecionar o usuário para uma URL externa, use a opção **[!UICONTROL URL da Web]**. Depois que a opção for selecionada, insira o URL no campo associado.
+* **[!UICONTROL Abrir aplicativo]**: inicia o aplicativo associado à notificação. O aplicativo é especificado na sua [configuração de canal](../configuration/channel-surfaces.md) (ou seja, predefinição de mensagem).
+* **[!UICONTROL Deeplink]**: direciona os usuários para conteúdo específico no seu aplicativo, como uma exibição, seção de página ou guia específica. Insira o URL do deep link no campo fornecido.
+* **[!UICONTROL URL da Web]**: direciona os usuários para uma página da Web externa. Insira o URL de destino no campo fornecido.
 
 ## Adicionar mídia {#add-media-push}
 
@@ -52,26 +56,55 @@ Você pode selecionar o comportamento quando um usuário clicar no corpo da noti
 >title="Adicionar mídias à notificação por push"
 >abstract="É possível adicionar uma imagem, um vídeo ou um GIF que será exibido na notificação."
 
-Na versão para iOS da sua notificação por push, você pode adicionar uma imagem, um vídeo ou um GIF que são exibidos na sua notificação.
+Aprimore sua notificação por push adicionando mídia visual. Os tipos de mídia disponíveis e os métodos de implementação variam de acordo com o sistema operacional, conforme detalhado nas guias abaixo.
 
-Na versão do Android, só é possível adicionar um ícone de imagem e uma imagem para notificações expandidas.
+>[!BEGINTABS]
+
+>[!TAB Android]
+
+Para o Android, você só pode adicionar um ícone de imagem e uma imagem para notificações expandidas.
 
 ![](assets/push-config-add-media.png)
 
-Duas opções estão disponíveis. É possível:
+Você pode adicionar mídia usando um dos seguintes métodos:
 
-* Use o botão **[!UICONTROL Adicionar mídia]** para selecionar um ativo em **[!DNL Adobe Experience Manager Assets]**.
+* Botão **[!UICONTROL Adicionar mídia]**: Selecione um ativo do [Adobe Experience Manager Assets](../integrations/assets.md) ou acesse o Assistente de IA para gerar [imagens envolventes](../content-management/generative-image.md) para notificações por push.
 
-  Saiba como usar **[!DNL Adobe Experience Manager Assets]** em [esta página](../integrations/assets.md).
-
-* Ou insira a URL da mídia no campo **[!UICONTROL Adicionar mídia]**. Nesse caso, você pode adicionar personalização ao URL.
+* Campo **[!UICONTROL Adicionar mídia]**: insira a URL da mídia diretamente. Você pode incluir tokens de personalização no URL.
 
 Depois de adicionada, a mídia é exibida à direita do corpo de notificação.
 
-Observe que, ao incluir anexos de mídia na carga de notificação por push, como imagens em campos de dados personalizados como `adb_media`, seu aplicativo móvel deve implementar um tratamento específico do lado do cliente para que as imagens sejam renderizadas em dispositivos:
+>[!NOTE]
+>
+>Ao incluir anexos de mídia na carga de notificação por push (como imagens em campos de dados personalizados como `adb_media`), seu aplicativo móvel deve implementar um tratamento específico do lado do cliente para que as imagens sejam renderizadas em dispositivos. Seu aplicativo deve implementar o [fluxo de trabalho automático de exibição e rastreamento](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"} para lidar com anexos de imagem da carga.
 
-* **iOS**: seu aplicativo deve implementar uma [Extensão de Serviço de Notificação](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} para baixar e processar conteúdo de mídia da carga. Além disso, a opção **[!UICONTROL Adicionar sinalizador de conteúdo mutável]** deve ser habilitada na seção [Opções avançadas](#advanced-options-push).
-* **Android**: seu aplicativo deve implementar o [fluxo de trabalho automático de exibição e rastreamento](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"} para lidar com anexos de imagem da carga.
+>[!TAB iOS]
+
+Para o iOS, você pode adicionar uma imagem, vídeo ou GIF para exibir na notificação.
+
+![](assets/push-config-add-media-ios.png)
+
+Você pode adicionar mídia usando um dos seguintes métodos:
+
+* Botão **[!UICONTROL Adicionar mídia]**: Selecione um ativo de **[!DNL Adobe Experience Manager Assets]**. Saiba mais sobre como usar o **[!DNL Adobe Experience Manager Assets]** em [esta página](../integrations/assets.md).
+
+* Campo **[!UICONTROL Adicionar mídia]**: insira a URL da mídia diretamente. Você pode incluir tokens de personalização no URL.
+
+Depois de adicionada, a mídia é exibida à direita do corpo de notificação.
+
+>[!NOTE]
+>
+>Ao incluir anexos de mídia na carga de notificação por push (como imagens em campos de dados personalizados como `adb_media`), seu aplicativo móvel deve implementar um tratamento específico do lado do cliente para que as imagens sejam renderizadas em dispositivos. Seu aplicativo deve implementar uma [Extensão de Serviço de Notificação](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} para baixar e processar conteúdo de mídia da carga. Além disso, a opção **[!UICONTROL Adicionar sinalizador de conteúdo mutável]** deve ser habilitada na seção [Opções avançadas](#advanced-options-push).
+
+>[!TAB Web]
+
+Insira a URL da mídia no campo **[!UICONTROL Adicionar mídia]**. Você também pode incluir tokens de personalização no URL para personalizar o conteúdo de cada usuário.
+
+Clique em ![Editar texto com o assistente de IA](assets/do-not-localize/Smock_ImageAdd_18_N.svg) para gerar mídia rapidamente usando o Assistente de IA do Journey Optimizer.
+
+![](assets/web-media.png)
+
+>[!ENDTABS]
 
 ## Adicionar botões {#add-buttons-push}
 
@@ -80,19 +113,39 @@ Observe que, ao incluir anexos de mídia na carga de notificação por push, com
 >title="Adicione botões para a interação com a notificação por push."
 >abstract="Nesta seção, adicione botões de chamada para ação à mensagem. Para Apple iOS, especifique um identificador de categoria de notificação. Para Google Android, é possível incluir texto e destinos personalizados para cada botão."
 
-Crie uma notificação acionável adicionando botões ao seu conteúdo de push.
+Crie uma notificação acionável adicionando botões ao seu conteúdo de push. Navegue pelas guias a seguir com base em seu sistema operacional.
 
 Se a tela do dispositivo estiver bloqueada, esses botões não serão exibidos: somente então o **Título** e a **Mensagem** da notificação estarão visíveis. Se o dispositivo estiver desbloqueado, os recipients verão os botões.
 
-Na versão do Android, é possível adicionar até três botões.
+>[!BEGINTABS]
 
-Na versão do iOS, um identificador de categoria de notificação é especificado. As categorias de notificação precisam ser pré-configuradas no aplicativo iOS, que definirá os botões a serem exibidos e as ações executadas. Consulte a [documentação do Apple](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) para obter mais detalhes.
+>[!TAB Android]
+
+Para o Android, você pode adicionar até três botões.
 
 1. Use o **[!UICONTROL Botão Adicionar]** para definir as configurações: o rótulo e a ação associada. As ações possíveis são as mesmas de [comportamento ao clicar](#on-click-behavior).
 
+   ![](assets/push_buttons.png)
+
 1. Use o ícone **[!UICONTROL Expandir exibição]** sob a imagem de visualização central para visualizar seus botões personalizados.
 
-   ![](assets/push_buttons.png)
+>[!TAB iOS]
+
+![](assets/push_buttons-ios.png)
+
+Para o iOS, é especificado um identificador de categoria de notificação. As categorias de notificação precisam ser pré-configuradas no aplicativo iOS, que definirá os botões a serem exibidos e as ações executadas. Consulte a [documentação do Apple](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) para obter mais detalhes.
+
+>[!TAB Web]
+
+![](assets/push_buttons-web.png)
+
+Use a opção **[!UICONTROL Adicionar Botão]** para definir o rótulo de cada botão e a ação associada, conforme detalhado abaixo:
+
+* **[!UICONTROL Deeplink]**: redirecione os usuários para um modo de exibição, seção ou guia específico no aplicativo. Insira o URL do deep link no campo associado.
+
+* **[!UICONTROL URL da Web]**: redirecionar usuários para uma página da Web externa. Insira o URL no campo associado.
+
+>[!ENDTABS]
 
 ## Enviar uma notificação silenciosa {#silent-notification}
 
@@ -100,6 +153,10 @@ Na versão do iOS, um identificador de categoria de notificação é especificad
 >id="ajo_message_push_silent_notification"
 >title="Sobre notificação silenciosa"
 >abstract="Enviar notificações sem perturbar o usuário. As notificações não são mostradas no centro de notificações ou na barra de notificação."
+
+>[!AVAILABILITY]
+>
+>As notificações por push da Web no Journey Optimizer não oferecem suporte ao recurso **Notificação silenciosa**.
 
 Uma notificação por push silenciosa (ou notificação em segundo plano) é uma instrução oculta entregue ao aplicativo. Ele é usado, por exemplo, para notificar seu aplicativo sobre a disponibilidade de novo conteúdo ou iniciar um download em segundo plano.
 
