@@ -6,10 +6,10 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 14%
+source-wordcount: '272'
+ht-degree: 15%
 
 ---
 
@@ -26,6 +26,15 @@ A lista completa de [!DNL Journey Optimizer] medidas de proteção e limitaçõe
 | Solicitação de API de experiência baseada em código com política de decisão usando segmentação do Edge | 1500 |
 | Solicitação de API de experiência baseada em código com política de decisão sem usar a segmentação do Edge | 5000 |
 | Número máximo de URIs de superfície por solicitação de decisão do Edge | 30 |
+
+## Itens de decisão {#decision-items}
+
+| Grade de Proteção | Limite |
+| ------- | ------- |
+| Total de itens de decisão | 10 K |
+| Tamanho máximo de itens, incluindo atributos (1 KB), máximo de 30 atributos | 1KB |
+| Tamanho máximo de representação do item (total para todos os posicionamentos) | 1KB |
+| Regras de frequência - Número máximo de regras de limitação por oferta | 10 |
 
 ## Coleções de itens {#item-collections}
 
@@ -65,10 +74,8 @@ A lista completa de [!DNL Journey Optimizer] medidas de proteção e limitaçõe
 | Grade de Proteção | Limite |
 | ------- | ------- |
 | Número de atributos personalizados por esquema de catálogo de Ofertas | 100 |
-| Total de itens de oferta | 10 K |
 | Total de posicionamentos | 1K |
 | Modelo de classificação de IA | 5 |
-| Regras de frequência - Número máximo de regras de limitação por oferta | 10 |
 
 ## Configurações  {#configurations}
 
