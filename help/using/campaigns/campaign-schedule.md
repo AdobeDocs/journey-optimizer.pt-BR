@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
+source-git-commit: e6aa361229f068c475732c715160b7c644189e51
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 10%
+source-wordcount: '745'
+ht-degree: 7%
 
 ---
 
@@ -23,15 +23,46 @@ Use a guia **[!UICONTROL Agendamento]** para definir o agendamento da campanha.
 
 ## Definir uma data de início da campanha
 
-Por padrão, as campanhas de ação começam assim que são ativadas manualmente e terminam assim que a mensagem é enviada uma vez.
+Por padrão, as campanhas de ação começam assim que são ativadas manualmente e terminam assim que a mensagem é enviada uma vez. Se você não quiser executar sua campanha logo após a ativação, especifique uma data e hora em que a mensagem deverá ser enviada na seção **[!UICONTROL Início da campanha]**.
 
-Se você não quiser executar sua campanha logo após a ativação, especifique uma data e hora em que a mensagem deverá ser enviada na seção **[!UICONTROL Início da campanha]**.
+Ao agendar campanhas no [!DNL Adobe Journey Optimizer], verifique se a data/hora inicial está de acordo com a primeira entrega desejada. Para campanhas recorrentes, se o horário programado inicial já tiver passado, as campanhas serão transferidas para o próximo período disponível, de acordo com as suas regras de recorrência.
 
 ![](assets/campaign-start.png)
 
->[!NOTE]
+## Enviar na hora local do destinatário {#profile-timezone}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_profile_timezone"
+>title="Usar fuso horário do perfil"
+>abstract="Envie mensagens com base no fuso horário de cada recipient. Todos os recipients receberão a mensagem no mesmo horário local, independentemente da localização geográfica. O sistema usa o campo &quot;timeZone&quot; dos perfis do Adobe Experience Platform, com o fuso horário do criador da campanha como fallback."
+
+Ao agendar uma campanha para uma data e hora específicas, você pode optar por enviar mensagens com base no fuso horário de cada recipient. Isso garante que todos os recipients recebam a mensagem ao mesmo tempo local, independentemente da localização geográfica.
+
+Por exemplo, se você agendar uma campanha para enviar às 9:00 AM usando o fuso horário do perfil, os recipients em Nova York (ET) receberão às 9:00 AM ET, enquanto os recipients em Los Angeles (PT) receberão às 9:00 AM PT.
+
+>[!AVAILABILITY]
 >
->Ao agendar campanhas no [!DNL Adobe Journey Optimizer], verifique se a data/hora inicial está de acordo com a primeira entrega desejada. Para campanhas recorrentes, se o horário programado inicial já tiver passado, as campanhas serão transferidas para o próximo período disponível, de acordo com as suas regras de recorrência.
+>Este recurso está em Disponibilidade Limitada. Entre em contato com o representante da Adobe para obter acesso.
+>
+>A programação usando fusos horários do perfil está disponível somente para estes canais de saída: Email, Push, SMS, WhatsApp e LINE.
+
+Para ativar a programação de fuso horário do perfil:
+
+1. Na seção **[!UICONTROL Início da campanha]**, especifique a data e a hora em que a mensagem deve ser enviada.
+
+1. Habilite a opção **[!UICONTROL Usar fuso horário do perfil]**.
+
+   ![](assets/campaign-profile-timezone.png)
+
+**Como funciona:**
+
+O sistema usa o campo `profile.timeZone` do perfil do Adobe Experience Platform de cada recipient para determinar seu fuso horário local. Se um perfil não tiver um valor de fuso horário, o sistema usará o fuso horário em que a campanha foi criada como fallback.
+
+A campanha permanece com o status **Live** enquanto as mensagens são entregues em todos os fusos horários. Após todos os fusos horários serem processados, o status da campanha será alterado para **Concluído**.
+
+**Identificadores de fuso horário com suporte:**
+
+O Journey Optimizer valida o valor `profile.timeZone` em relação aos identificadores de fuso horário IANA padrão. Os identificadores diferenciam maiúsculas de minúsculas e devem corresponder ao nome oficial IANA. As compensações podem mudar com o tempo devido às regras de horário de verão e atualizações históricas. Consulte o [Banco de Dados do Fuso Horário IANA](https://www.iana.org/time-zones){_blank} para obter a lista oficial de identificadores.
 
 ## Definir uma frequência de execução
 
