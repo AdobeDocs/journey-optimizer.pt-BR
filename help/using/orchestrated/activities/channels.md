@@ -5,10 +5,10 @@ title: Adicionar uma atividade de canal a uma campanha em várias etapas
 description: Saiba como adicionar uma atividade de canal a uma campanha em várias etapas
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 40%
+source-wordcount: '1448'
+ht-degree: 38%
 
 ---
 
@@ -50,11 +50,11 @@ UNUSED IDs in BJ
 >title="Atividade de correspondência direta"
 >abstract="A Atividade correspondência direta facilita o envio de correspondência direta na campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. É possível combinar atividades de canal na tela da campanha orquestrada para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
-O [!DNL Adobe Journey Optimizer] permite automatizar e executar campanhas de marketing em canais: email, SMS e notificações por push. Você pode combinar essas atividades de canal na tela da campanha para criar campanhas orquestradas entre canais. Essas campanhas podem acionar ações com base no comportamento e nos dados do cliente.
+O [!DNL Adobe Journey Optimizer] permite automatizar e executar campanhas de marketing em canais - email, SMS, notificações por push e correspondência direta. Você pode combinar essas atividades de canal na tela da campanha para criar campanhas orquestradas entre canais. Essas campanhas podem acionar ações com base no comportamento e nos dados do cliente.
 
 Por exemplo:
 
-* Envie uma série de boas-vindas por email, SMS e push.
+* Envie uma série de boas-vindas por email, SMS, push e correspondência direta.
 * Envie um email de acompanhamento pós-compra.
 * Envie saudações de aniversário personalizadas por SMS.
 
@@ -62,7 +62,7 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 
 >[!CAUTION]
 >
->Somente os canais SMS, Push e Email são compatíveis com campanhas orquestradas.
+>Somente os canais de SMS, Push, Email e Correspondência direta são compatíveis com campanhas orquestradas.
 
 ## Adicionar uma atividade de canal e definir suas propriedades {#add}
 
@@ -70,11 +70,11 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 >
 >Antes de adicionar uma atividade de canal, defina o público-alvo usando uma atividade [Criar público-alvo](build-audience.md) ou [Ler público](read-audience.md).
 
-1. Adicione uma atividade de canal à tela. As atividades de canal disponíveis são **[!UICONTROL Email]**, **[!UICONTROL SMS]** e **[!UICONTROL Push]**.
+1. Adicione uma atividade de canal à tela. As atividades de canal disponíveis são **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push]** e **[!UICONTROL Correspondência direta]**.
 
    ![imagem mostrando a tela com as atividades disponíveis](../assets/channel-add.png)
 
-1. Selecione a atividade e clique em **[!UICONTROL Editar email]**, **[!UICONTROL Editar SMS]** ou **[!UICONTROL Editar push]**, dependendo do canal escolhido.
+1. Selecione a atividade e clique em **[!UICONTROL Editar email]**, **[!UICONTROL Editar SMS]**, **[!UICONTROL Editar push]** ou **[!UICONTROL Editar correspondência direta]**, dependendo do canal escolhido.
 
    ![imagem mostrando a tela com uma atividade de email](../assets/channel-edit.png)
 
@@ -132,7 +132,7 @@ Alterne para a guia **[!UICONTROL Conteúdo]** para criar a sua mensagem. As eta
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="email" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Criar um email</strong></a></td>
 <td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>Criar um SMS</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Criar uma notificação por push</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Criar uma notificação por push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correspondência direta" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Criar uma correspondência direta</strong></a></td>
 </tr></table>
 
 ### Adicionar personalização

@@ -5,10 +5,10 @@ title: Relatórios para campanhas orquestradas com o Adobe Journey Optimizer
 description: Saiba como acessar relatórios sobre campanhas orquestradas com o Adobe Journey Optimizer
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 64%
+source-wordcount: '187'
+ht-degree: 63%
 
 ---
 
@@ -31,7 +31,7 @@ A campanha orquestrada oferece insights práticos por meio de seus recursos efic
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
-      <td><a href="../reports/report-gs-cja.md"><img alt="Relatório de tempo total" src="assets/all-time-report.png"></a></td>
+      <td><a href="../reports/report-gs-cja.md"><img alt="Relatório de todo o histórico" src="assets/all-time-report.png"></a></td>
       <td>
         Os <b>Relatórios de todo o histórico</b> são totalmente integrados aos recursos do Customer Journey Analytics, padronizando a geração de relatórios em ambas as plataformas e aumentando a consistência e a confiabilidade dos dados. Saiba mais sobre os relatórios de todo o histórico <a href="../reports/report-gs-cja.md">nesta seção</a>.
       </td>
@@ -44,6 +44,6 @@ A campanha orquestrada oferece insights práticos por meio de seus recursos efic
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../reports/campaign-global-report-cja-email.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a><br/><a href="../reports/campaign-global-report-cja-email.md"><strong>Relatório de email</strong></a></td>
 <td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a><br/><a href="../reports/campaign-global-report-cja-sms.md"><strong>Relatório de SMS</strong></a></td>
-<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>Relatório de push</strong></a></td>
+<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>Relatório de push</strong></a></td><td><a href="../reports/campaign-global-report-cja-direct.md"><img alt="Correspondência direta" src="../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../reports/campaign-global-report-cja-direct.md"><strong>Relatório de correspondência direta</strong></a></td>
 </tr></table>
 

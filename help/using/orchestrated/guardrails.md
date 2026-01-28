@@ -5,9 +5,9 @@ title: Medidas de proteção e limitações para campanhas orquestradas
 description: Saiba mais sobre as medidas de proteção e limitações das campanhas orquestradas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '510'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * O número médio de atributos por esquema **não deve exceder 50 colunas** para manter a capacidade de gerenciamento e o desempenho.
 
-* Esquemas relacionais não podem ser habilitados para **Perfis** do Adobe Experience Platform. Somente esquemas XDM padrão são suportados para **Perfis** do Adobe Experience Platform. Esquemas relacionais podem ser ativados para Campanhas orquestradas ou Campanhas de ação. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Esquemas relacionais não podem ser habilitados para **Perfis** do Adobe Experience Platform. Somente esquemas XDM padrão são suportados para **Perfis** do Adobe Experience Platform. Esquemas relacionais podem ser ativados para Campanhas orquestradas ou Campanhas de ação. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Assimilação de dados
 
@@ -91,4 +91,4 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 ## Limitações de canal
 
-Somente os canais SMS, Push e Email são compatíveis com campanhas orquestradas.
+Somente os canais de SMS, Push, Email e Correspondência direta são compatíveis com campanhas orquestradas.
