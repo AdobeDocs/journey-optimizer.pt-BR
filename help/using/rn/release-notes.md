@@ -148,9 +148,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * **Validação do tamanho da carga do Jornada no jornada** - o Journey Optimizer agora valida <strong>tamanhos de carga</strong> para ajudar a garantir desempenho e estabilidade de sistema ideais. Ao criar ou publicar jornadas, você receberá <strong>avisos e erros</strong> claros se os tamanhos de carga se aproximarem ou excederem os limites recomendados, juntamente com orientações acionáveis para otimizar sua configuração de jornada. Essa validação proativa ajuda a identificar problemas em potencial antecipadamente e a manter o desempenho do jornada. [Leia mais](../start/guardrails.md#journey-payload-size)
 
 * **Alertas de Jornada** - Novos <strong>alertas pré-configurados</strong> estão disponíveis para o jornada.
-   - <strong>Taxa de Descarte de Perfil Excedida</strong> - A taxa de descartes de perfil para perfis inseridos nos últimos 5 minutos excedeu o limite
-   - <strong>Taxa de Erro de Ação Personalizada Excedida</strong> - Taxa de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos 5 minutos excedeu o limite
-   - <strong>Taxa de Erro de Perfil Excedida</strong> - A taxa de perfis com erro em relação aos perfis inseridos nos últimos 5 minutos excedeu o limite
+   &#x200B;- <strong>Taxa de Descarte de Perfil Excedida</strong> - A taxa de descartes de perfil para perfis inseridos nos últimos 5 minutos excedeu o limite
+   &#x200B;- <strong>Taxa de Erro de Ação Personalizada Excedida</strong> - Taxa de erros de ação personalizada para chamadas HTTP bem-sucedidas nos últimos 5 minutos excedeu o limite
+   &#x200B;- <strong>Taxa de Erro de Perfil Excedida</strong> - A taxa de perfis com erro em relação aos perfis inseridos nos últimos 5 minutos excedeu o limite
 
   Para obter mais informações, consulte a [documentação detalhada](../reports/alerts.md).
 
