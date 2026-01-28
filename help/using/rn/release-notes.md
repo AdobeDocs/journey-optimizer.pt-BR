@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d727acc1d01376a4abb8a0766340a2d32832305e
+source-git-commit: 8a7926be7a8e73d889cf38a047400236fd352dab
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 21%
@@ -35,7 +35,7 @@ As seções [Recursos](#jan-26-01-features) e [Melhorias](#jan-26-01-improv) abo
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#jan-26-01-features}
 
@@ -155,7 +155,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### IA
 
-* **Verificações de Qualidade de Conteúdo do Assistente de IA** - Além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas com a <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da sua marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou lacunas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality). [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+* **Verificações de Qualidade de Conteúdo do Assistente de IA** - Além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas com a <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da sua marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou lacunas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality). [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -238,7 +238,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <td>
 <p>O <strong>Período de silêncio</strong> permite definir exclusões com base no tempo para os canais de email, SMS, push e WhatsApp. Elas garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade. Você pode aplicar horas de silêncio por meio de <strong>conjuntos de regras</strong>, que podem ser atribuídos a ações individuais em campanhas ou jornadas para obter um controle preciso.</p>
 <p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Com esta versão de Disponibilidade geral, o recurso agora inclui a capacidade de o cliente colocar uma ação de campanha na fila até a conclusão do Período de silêncio e a capacidade de pré-visualizar a regra de Período de silêncio ativada.</p>
-<p>Data de disponibilidade: quinta-feira, 28 de janeiro de 2026</p>
+<p>Data de disponibilidade: sexta-feira, 29 de janeiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -260,7 +260,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <li>Suporte à reversão para migrações concluídas</li>
 <li>Relatórios de migração detalhados com mapeamentos de objetos</li>
 </ul>
-<p>Data de disponibilidade: quinta-feira, 28 de janeiro de 2026</p>
+<p>Data de disponibilidade: sexta-feira, 29 de janeiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -277,7 +277,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <td>
 <p>Insight Saiba mais sobre a integridade e o desempenho de seus <strong>pontos de extremidade de ação personalizados</strong> com um novo painel de monitoramento e dados de evento de etapa do jornada aprimorados. Rastreie chamadas bem-sucedidas, erros, taxa de transferência, tempos de resposta e tempos de espera da fila para entender rapidamente quando, onde e por que ocorrem anomalias.</p>
 <p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
-<p>Data de disponibilidade: quinta-feira, 28 de janeiro de 2026</p>
+<p>Data de disponibilidade: sexta-feira, 29 de janeiro de 2026</p>
 </td>
 </tr>
 </tbody>
