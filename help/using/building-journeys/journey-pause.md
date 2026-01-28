@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 0d016d45495c359e226dd1c30611b2c381ef29a4
 workflow-type: tm+mt
-source-wordcount: '2481'
-ht-degree: 6%
+source-wordcount: '2515'
+ht-degree: 5%
 
 ---
 
@@ -154,6 +154,7 @@ Esteja ciente de que as exclusões de perfil para perfis atualmente na jornada e
 ## Medidas de proteção e limitações {#journey-pause-guardrails}
 
 * Uma versão do jornada pode ser pausada por até **14 dias**, com um máximo de **10 milhões de perfis** permitidos em jornadas pausadas em sua organização.
+Esse limite conta o número total de perfis mantidos em todas as jornadas pausadas, não perfis distintos. Por exemplo, se os mesmos perfis 5M forem mantidos em duas jornadas pausadas, o limite de 10M será atingido.
 Esse limite é verificado a cada 30 minutos. Isso significa que você pode exceder temporariamente o limite de 10 milhões, mas assim que o sistema detectá-lo, quaisquer perfis adicionais serão automaticamente descartados.
 
   Se você retomar as jornadas para retornar o número de perfis retidos para o limite, a jornada será retomada imediatamente, mas pode levar até 30 minutos para que a contagem de perfis seja atualizada. Durante esse tempo, o sistema ainda poderá considerar esses perfis como pausados.
@@ -201,7 +202,7 @@ Ao retomar esta jornada:
 
 ## Solução de problemas de descartes de perfis em jornadas pausadas {#discards-troubleshoot}
 
-Você pode usar o [Serviço de consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
+Você pode usar o [Serviço de consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
 
 * Para descartes que ocorrem antes que o perfil entre na jornada, use o seguinte código:
 
