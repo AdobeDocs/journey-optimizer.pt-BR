@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: 5b586627473bd4e7618c235cbea1b286167859ab
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3073'
 ht-degree: 98%
 
 ---
@@ -452,7 +452,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -850,6 +850,7 @@ ht-degree: 98%
    + [Configuração de canais](/help/rp_landing_pages/configuration-landing-page.md)
    + [Introdução à configuração de canais](using/configuration/get-started-configuration.md)
    + [Definir configurações de canal](using/configuration/channel-surfaces.md)
+   + [Exportar conteúdo da mensagem](using/configuration/message-export.md)
    + Configuração de canais guiada {#guided-setup}
       + [Configuração de canais guiada](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Introdução à configuração de canal guiada](using/configuration/set-mobile-config.md)

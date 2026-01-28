@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
-workflow-type: ht
-source-wordcount: '849'
-ht-degree: 100%
+source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ Todos os dados assimilados na Adobe Experience Platform são mantidos no Data La
 
 ## Medidas de proteção e limitações
 
-* A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=pt){target="_blank"}.
+* A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
 * Com início em fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) está sendo implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer. [Saiba mais](datasets-ttl.md)
 
@@ -62,6 +62,10 @@ Estas seções listam os conjuntos de dados do sistema usados pelo [!DNL Journey
 * Consentimento
 
   _Conjunto de dados do serviço de consentimento_: armazena informações de consentimento de um perfil.
+
+* Exportação de mensagem
+
+  _Conjunto de Dados de Exportação de Mensagens do AJO_: armazena o conteúdo de emails e mensagens SMS enviados para fins de exportação. Os registros são retidos por 7 dias a partir da assimilação. Disponível somente para organizações que compraram o complemento Exportação de mensagem. [Saiba mais](../configuration/message-export.md)
 
 * Serviços inteligentes
 
