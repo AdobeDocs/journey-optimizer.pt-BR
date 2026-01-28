@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 48d7d6e9e92c6bcd35cf0b88e5383aa068cdefd0
+source-git-commit: 669ea379f9e0ca54eb53be66f65343a9e00203cb
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 4%
@@ -26,7 +26,7 @@ A Decisão oferece recursos e benefícios significativos em relação à estrutu
 
 ### Recursos de IA e aprendizado de máquina
 
-* **Métricas personalizadas**: capacidade de usar métricas de otimização personalizadas para modelos de IA. Isso proporciona interoperabilidade de relatórios com o [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, padroniza os relatórios entre ambas as plataformas e melhora a consistência e confiabilidade dos dados. A integração perfeita fornece uma visualização mais clara das métricas de desempenho e adiciona novos recursos, como criar métricas simples, publicar públicos, fazer perguntas ad hoc usando o Insight Builder e agendar relatórios.
+* **Métricas personalizadas**: capacidade de usar métricas de otimização personalizadas para modelos de IA. Isso proporciona interoperabilidade de relatórios com o [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, padroniza os relatórios entre ambas as plataformas e melhora a consistência e confiabilidade dos dados. A integração perfeita fornece uma visualização mais clara das métricas de desempenho e adiciona novos recursos, como criar métricas simples, publicar públicos, fazer perguntas ad hoc usando o Insight Builder e agendar relatórios.
 
 * **Medição de aumento**: capacidade de visualizar exploração vs. explorar o tráfego em modelos de IA. Isso permite que profissionais de marketing e cientistas de dados quantifiquem como a exploração de IA melhora o desempenho do modelo a longo prazo e a capacidade de descoberta de novas ofertas vencedoras. A transparência na alocação de tráfego cria confiança nas decisões de IA e capacita as equipes a otimizar tanto o aprendizado quanto o desempenho ao longo do tempo. [Saiba mais](ranking/auto-optimization-model.md#lift)
 
@@ -66,7 +66,7 @@ Painel que documenta o desempenho dos itens de decisão e as estratégias de sel
 
 * **Suporte a canal de mensagens nativo**: mensagens e decisões integradas em uma única estrutura em vários canais ([Experiência baseada em código](../code-based/get-started-code-based.md) e [Email](../email/get-started-email.md) disponíveis no momento, outros canais disponíveis no 1º semestre de 2026). O suporte intuitivo à interface permite que os usuários insiram componentes de decisão diretamente nos fluxos de trabalho de criação de mensagens.
 
-* **Pesquisa de conjunto de dados do Experience Platform**: capacidade de carregar e referenciar [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview){target="_blank"} diretamente nas regras de seleção de oferta, classificação e conteúdo de oferta personalizado. Isso expande a flexibilidade para personalização e direcionamento ao permitir que a lógica de decisão use fontes de dados externas dinâmicas. [Saiba mais](../data/lookup-aep-data.md)
+* **Pesquisa de conjunto de dados do Experience Platform**: capacidade de carregar e referenciar [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} diretamente nas regras de seleção de oferta, classificação e conteúdo de oferta personalizado. Isso expande a flexibilidade para personalização e direcionamento ao permitir que a lógica de decisão use fontes de dados externas dinâmicas. [Saiba mais](../data/lookup-aep-data.md)
 
 * **Escalabilidade e desempenho**: aprimoramento da arquitetura que move a computação de decisão do hub para a borda, reduzindo significativamente a latência e melhorando a taxa de transferência para casos de uso de alto tráfego.
 
@@ -74,16 +74,16 @@ Painel que documenta o desempenho dos itens de decisão e as estratégias de sel
 
 | Caso de uso | Gestão de decisões | Tomada de decisão |
 |----------|---------------------|-------------|
-| **Estratégia de vários posicionamentos** | Uma única estratégia capacita tanto a página inicial quanto o aplicativo móvel | Lógica de decisão vinculada a um posicionamento específico (por exemplo, local da Web ou de email) |
-| **Atributos de oferta consistentes** | Um profissional de marketing define &quot;discountType&quot; e &quot;offerValue&quot; uma vez; cada oferta herda esses campos automaticamente | Cada oferta gerencia seus próprios atributos manualmente; sem consistência no nível do esquema |
-| **Classificação de IA dinâmica** | Um profissional de marketing pode ajustar a ponderação (por exemplo, 60% de pontuação de conversão de IA + 40% de margem de lucro) para equilibrar as metas de receita e engajamento | As classificações dependem exclusivamente da saída do modelo ou de regras estáticas |
-| **Estratégias de teste A/B** | Uma equipe pode testar A/B se a &quot;IA + regras de negócios&quot; supera o desempenho da &quot;classificação baseada em prioridade&quot; | Nenhum suporte para experimentação integrado |
-| **Métricas personalizadas de IA** | A retailer treina um modelo de &quot;probabilidade de compra&quot; e os monitores passam por produtos novos comparados aos conhecidos | Otimiza apenas em relação à propensão a cliques; sem visibilidade na exploração ou no aumento do modelo |
-| **Reusabilidade do conteúdo** | A atualização de um cabeçalho ou CTA se propaga automaticamente para centenas de ofertas | Cada oferta armazena conteúdo completo de forma independente |
-| **Criação integrada** | Um profissional de marketing insere ofertas personalizadas em um email sem sair do editor de mensagens | A decisão e as mensagens são disponibilizadas em estruturas separadas com integração limitada |
-| **Conformidade com a privacidade** | Um profissional de marketing cria uma regra de oferta sabendo que as preferências de consentimento excluem automaticamente determinados perfis | Requer coordenação manual com as equipes de engenharia e de dados para aplicação |
-| **Estoque em tempo real** | Usar um conjunto de dados de inventário de produtos para suprimir ofertas de itens indisponíveis em tempo real | Dados estáticos; flexibilidade limitada para usar conjuntos de dados externos ou contextuais |
-| **Dimensionar desempenho** | Personalização em tempo real para milhões de solicitações recebidas com tempo de resposta inferior a 100 ms | Decisões tomadas no hub com latência mais alta |
+| **Estratégia de vários posicionamentos** | Lógica de decisão vinculada a um posicionamento específico (por exemplo, local da Web ou de email) | Uma única estratégia capacita tanto a página inicial quanto o aplicativo móvel |
+| **Atributos de oferta consistentes** | Cada oferta gerencia seus próprios atributos manualmente; sem consistência no nível do esquema | Um profissional de marketing define &quot;discountType&quot; e &quot;offerValue&quot; uma vez; cada oferta herda esses campos automaticamente |
+| **Classificação de IA dinâmica** | As classificações dependem exclusivamente da saída do modelo ou de regras estáticas | Um profissional de marketing pode ajustar a ponderação (por exemplo, 60% de pontuação de conversão de IA + 40% de margem de lucro) para equilibrar as metas de receita e engajamento |
+| **Estratégias de teste A/B** | Nenhum suporte para experimentação integrado | Uma equipe pode testar A/B se a &quot;IA + regras de negócios&quot; supera o desempenho da &quot;classificação baseada em prioridade&quot; |
+| **Métricas personalizadas de IA** | Otimiza apenas em relação à propensão a cliques; sem visibilidade na exploração ou no aumento do modelo | A retailer treina um modelo de &quot;probabilidade de compra&quot; e os monitores passam por produtos novos comparados aos conhecidos |
+| **Reusabilidade do conteúdo** | Cada oferta armazena conteúdo completo de forma independente | A atualização de um cabeçalho ou CTA se propaga automaticamente para centenas de ofertas |
+| **Criação integrada** | A decisão e as mensagens são disponibilizadas em estruturas separadas com integração limitada | Um profissional de marketing insere ofertas personalizadas em um email sem sair do editor de mensagens |
+| **Conformidade com a privacidade** | Requer coordenação manual com as equipes de engenharia e de dados para aplicação | Um profissional de marketing cria uma regra de oferta sabendo que as preferências de consentimento excluem automaticamente determinados perfis |
+| **Estoque em tempo real** | Dados estáticos; flexibilidade limitada para usar conjuntos de dados externos ou contextuais | Usar um conjunto de dados de inventário de produtos para suprimir ofertas de itens indisponíveis em tempo real |
+| **Dimensionar desempenho** | Decisões tomadas no hub com latência mais alta | Personalização em tempo real para milhões de solicitações recebidas com tempo de resposta inferior a 100 ms |
 
 ## Ferramentas de migração {#migration-tooling}
 
