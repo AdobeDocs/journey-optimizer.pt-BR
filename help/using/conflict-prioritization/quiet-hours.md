@@ -7,12 +7,11 @@ feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Disponibilidade limitada" type="Informative"
 keywords: mensagem, frequência, regras, pressão
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 7%
+source-wordcount: '909'
+ht-degree: 4%
 
 ---
 
@@ -32,24 +31,21 @@ Ao simplificar esses processos, você pode aprimorar a experiência do cliente, 
 * **Economia de Tempo** - Gerencie exclusões em um local criando uma **regra baseada em tempo**, em vez de adicionar vários nós de condição com expressões personalizadas.\
   <!--* **Extra Safeguard** - Benefit from an extra safeguard in case audience criteria or time-window configurations were incorrectly set, ensuring individuals are still excluded when they should be.-->
 
->[!AVAILABILITY]
->
->Atualmente, as regras de horários de silêncio estão disponíveis apenas para algumas organizações (disponibilidade limitada).  Elas serão disponibilizadas progressivamente a todos os clientes em versões futuras.
-
-
 ➡️ [Conheça este recurso no vídeo](#video)
 
 ## Medidas de proteção e limitações
 
 * **Canais com suporte** - Email, SMS, Push e WhatsApp.
-  <!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+* **Campanhas orquestradas** - As horas de silêncio não são suportadas para campanhas orquestradas.
 * **Atraso de propagação** - As atualizações de uma regra de horas de silêncio podem levar até 12 horas para serem aplicadas às ações de canal que já usam essa regra.
-  <!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 * **Latência de alto volume** - No caso de comunicações de alto volume, o sistema pode demorar mais para começar a aplicar com êxito supressões de horas silenciosas.
+
+<!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+<!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 
 ## Criar regras de Período de silêncio
 
-Para definir horas de silêncio, crie uma regra dentro de um conjunto de regras personalizado. Siga estas etapas:
+Para definir horas de silêncio, crie uma regra dentro de um conjunto de regras personalizado. [Saiba como criar conjuntos de regras](../conflict-prioritization/rule-sets.md#Create). Siga estas etapas:
 
 1. Navegue até **[!UICONTROL Regras de negócio]** para acessar o inventário de conjuntos de regras.
 
@@ -85,22 +81,21 @@ Para definir horas de silêncio, crie uma regra dentro de um conjunto de regras 
 
 1. Na seção **[!UICONTROL Datas e horas]**, defina quando aplicar horas silenciosas:
 
-   1. Escolha o **[!UICONTROL Fuso horário]** para usar:
+   1. No menu suspenso **[!UICONTROL Fuso horário]**, aplique um fuso horário padrão a todos os destinatários no público-alvo, independentemente dos fusos horários individuais.
 
-      * **[!UICONTROL UTC/GMT]** - Aplicar uma janela de tempo GMT padrão a todos os destinatários no público, independentemente dos fusos horários individuais.
-      * **[!UICONTROL Usar fuso horário local dos destinatários]** - Use o campo de fuso horário de cada perfil. [Saiba mais sobre o gerenciamento de fuso horário no jornada](../building-journeys/timezone-management.md#timezone-from-profiles)
+      Para usar o campo de fuso horário de cada perfil, selecione **[!UICONTROL Usar fuso horário local dos destinatários]**. [Saiba mais sobre o gerenciamento de fuso horário no jornada](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-        >[!IMPORTANT]
-        >
-        >Se um perfil não tiver fuso horário, as horas de silêncio não serão aplicadas a esse perfil.
+      >[!IMPORTANT]
+      >
+      >Se um perfil não tiver fuso horário, as horas de silêncio não serão aplicadas a esse perfil.
 
    1. Especifique o período em que as horas de espera devem ser aplicadas.
 
-      * **[!UICONTROL Semanalmente]** - Escolha dias da semana específicos e um intervalo de tempo. Você também pode aplicar a regra **[!UICONTROL Todo o dia]** (essa opção só está disponível por até 3 dias consecutivos).
+      * **[!UICONTROL Semanalmente]** - Escolha dias da semana específicos e um intervalo de tempo. Você também pode aplicar a regra **[!UICONTROL O dia todo]**.
 
         ![](assets/quiet-hours-weekly.png)
 
-      * **[!UICONTROL Data personalizada]** - Escolha datas específicas no calendário e um intervalo de tempo. Você também pode aplicar a regra **[!UICONTROL Todo o dia]** (essa opção só está disponível por até 3 dias consecutivos).
+      * **[!UICONTROL Data personalizada]** - Escolha datas específicas no calendário e um intervalo de tempo. Você também pode aplicar a regra **[!UICONTROL O dia todo]**.
 
         ![](assets/quiet-hours-custom.png)
 
@@ -116,9 +111,19 @@ Para definir horas de silêncio, crie uma regra dentro de um conjunto de regras 
 
      >[!NOTE]
      >
-     >Essa opção está disponível somente para ações de jornada. Se aplicada a uma ação de campanha, ela se comportará da mesma forma que selecionar a opção **[!UICONTROL Descartar mensagem]**.
+     >Se uma mensagem permanecer no estado enfileirado para um perfil por mais de 7 dias, ela será descartada.
 
-   * **[!UICONTROL Descartar mensagem]** - As mensagens nunca são enviadas. Se desejar que a jornada ou campanha contendo a mensagem termine com o cancelamento do envio, selecione **[!UICONTROL Descartar e sair da jornada ou campanha]**.
+   * **[!UICONTROL Descartar mensagem]** - As mensagens nunca são enviadas.
+
+     >[!NOTE]
+     >
+     >Se você selecionar **[!UICONTROL Descartar]** e aplicar esta regra a uma ação de jornada, o perfil será removido da entrega de mensagens e sairá da jornada.
+
+A regra agora é exibida no conjunto de regras. Você pode selecioná-la para exibir seus detalhes no painel de propriedades.
+
+![](assets/quiet-hours-preview.png)
+
+Se a regra estiver pronta, ative-a e conclua a configuração do seu conjunto de regras. [Saiba como criar e ativar conjuntos de regras](../conflict-prioritization/rule-sets.md#Create)
 
 ## Aplicar Período de silêncio a jornadas e campanhas {#apply}
 
@@ -187,4 +192,4 @@ Depois que sua jornada ou campanhas forem ativadas e executadas, você poderá e
 
 Saiba como usar o recurso de horários de silêncio no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475857?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

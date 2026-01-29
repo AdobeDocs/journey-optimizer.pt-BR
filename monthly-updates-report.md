@@ -5,7 +5,7 @@ title: Relatório mensal de atualizações de documentação
 description: Lista de páginas de documentação novas e atualizadas
 hide: true
 hidefromtoc: true
-source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -169,7 +169,7 @@ ht-degree: 0%
 - [Criar uma campanha de Ação](help/using/campaigns/create-campaign.md) - 29 de outubro
 - [Introdução às campanhas](help/using/campaigns/get-started-with-campaigns.md) - 29 de outubro
 - [Acessar e gerenciar campanhas](help/using/campaigns/manage-campaigns.md) - 23 de outubro
-- [Período de Silêncio](help/using/campaigns/quiet-hours.md) - 31 de outubro
+- [Período de Silêncio](help/using/conflict-prioritization/quiet-hours.md) - 31 de outubro
 - [Revise e ative uma campanha](help/using/campaigns/trigger-campaigns.md) - 23 de outubro
 - [Introdução aos canais de comunicação em [!DNL Adobe Journey Optimizer]](help/using/channels/gs-channels.md) - 3 de novembro
 - [Integrar o Journey Optimizer com sistemas externos](help/using/configuration/external-systems.md) - 28 de outubro

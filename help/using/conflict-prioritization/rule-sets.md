@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1060'
 ht-degree: 25%
 
 ---
@@ -34,7 +34,7 @@ Você pode criar dois tipos de conjuntos de regras:
 * Os conjuntos de regras do **Canal** aplicam regras aos canais de comunicação. Eles permitem definir:
 
    * **Regras de limite de frequência** - *Não envie mais de 1 email ou comunicação SMS por dia.*
-   * **Regras do Período de Silêncio** (Disponibilidade Limitada) - *Não enviar mensagens de email fora do período das 8h00 às 9h00.*
+   * **Regras de horário de silêncio** - *Não enviar mensagens de email fora do horário das 8h00 às 9h00.*
 
 * Os conjuntos de regras **Jornada** aplicam regras de limite de simultaneidade e de entrada a uma jornada. Por exemplo, não insira perfis em mais de uma jornada simultaneamente.
 
@@ -80,7 +80,7 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Tipo de regra"
->abstract="Selecione o tipo de regra desejado para seu conjunto de regras de canal: use o tipo **Limite de frequência** para aplicar regras de limite a canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia. Selecione **Período de silêncio** (disponível em Disponibilidade limitada) para definir exclusões com base no tempo para garantir que nenhuma mensagem seja enviada durante períodos específicos."
+>abstract="Selecione o tipo de regra desejado para seu conjunto de regras de canal: use o tipo **Limite de frequência** para aplicar regras de limite a canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia. Selecione **Período de silêncio** para definir exclusões com base no tempo para garantir que nenhuma mensagem seja enviada durante períodos específicos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -124,7 +124,7 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 
    * [limite de Jornada](../conflict-prioritization/journey-capping.md)
    * [Limite de frequência por canal e tipo de comunicação](../conflict-prioritization/channel-capping.md)
-   * [Período de silêncio](../conflict-prioritization/quiet-hours.md) (disponível em Disponibilidade limitada)
+   * [Horário de silêncio](../conflict-prioritization/quiet-hours.md)
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar a criação da regra. Sua mensagem foi adicionada ao conjunto de regras, com o status **[!UICONTROL Rascunho]**.
 
@@ -180,4 +180,4 @@ Seu status será alterado para **[!UICONTROL Inativo]** e a regra não se aplica
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
