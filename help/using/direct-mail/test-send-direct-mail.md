@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 7%
+source-wordcount: '457'
+ht-degree: 8%
 
 ---
 
@@ -34,7 +34,7 @@ Depois que o conteúdo do arquivo estiver pronto para ser enviado, feche a tela 
 >
 > Se a campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para enviar a campanha de correspondência direta. [Saiba mais](../test-approve/gs-approval.md)
 
-Antes de ativar a campanha de correspondência direta, verifique se a campanha e o arquivo de extração estão configurados corretamente. Para fazer isso, verifique os alertas na seção superior do editor. Alguns deles são avisos simples, mas outros podem impedir que você envie a mensagem. Dois tipos de alertas podem ocorrer: avisos e erros.
+Antes de ativar a campanha de correspondência direta, verifique se a campanha ou jornada e o arquivo de extração estão configurados corretamente. Para fazer isso, verifique os alertas na seção superior do editor. Alguns deles são avisos simples, mas outros podem impedir que você envie a mensagem. Dois tipos de alertas podem ocorrer: avisos e erros.
 
 * **Os avisos** referem-se às recomendações e práticas recomendadas. Por exemplo, uma mensagem de aviso será exibida se a mensagem SMS estiver vazia.
 
@@ -42,14 +42,15 @@ Antes de ativar a campanha de correspondência direta, verifique se a campanha e
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-Quando a campanha de correspondência direta estiver pronta, clique no botão **[!UICONTROL Ativar]**. Quando a campanha é iniciada, o arquivo de extração é gerado automaticamente e exportado para o servidor especificado em sua [configuração de roteamento de arquivos](../direct-mail/direct-mail-configuration.md).
+Quando a campanha de correspondência direta estiver pronta, conclua a configuração da [jornada](../building-journeys/journey-gs.md) ou da [campanha](../campaigns/create-campaign.md) para enviá-la.
 
 >[!NOTE]
 >
 >O arquivo exportado por padrão termina com uma nova linha. Isso garante a compatibilidade com as ferramentas padrão de processamento de dados.
 
-
-Depois de enviado, você pode medir o impacto da campanha de correspondência direta nos relatórios do Campaign. Para obter mais informações sobre relatórios de correspondência direta, consulte [esta seção](../reports/campaign-global-report-cja-direct.md).
+Depois de enviado, você pode medir o impacto da campanha ou jornada de correspondência direta nos relatórios. Para obter mais informações sobre a geração de relatórios de correspondência direta, consulte estas seções:
+* [Relatório de campanha de correspondência direta](../reports/campaign-global-report-cja-direct.md)
+* [Relatório de jornada de correspondência direta](../reports/journey-global-report-cja-direct.md)
 
 ## Gerenciar o consentimento para correspondência direta {#dm-consent-management}
 

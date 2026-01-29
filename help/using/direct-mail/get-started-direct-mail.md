@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 94%
+source-wordcount: '324'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 Correspondência direta é um canal offline que permite personalizar e gerar os arquivos de extração exigidos por provedores de correspondência direta de terceiros para o envio a clientes.
 
-Ao criar uma campanha de correspondência direta, o Journey Optimizer gera automaticamente um arquivo que contém todos os perfis direcionados e dados selecionados, como endereços postais e atributos de perfil. Esse arquivo é enviado ao servidor de sua escolha para que possa ser acessado pelo provedor de correspondência direta de terceiros escolhido, o qual realizará o processo de envio para você.
+Ao criar uma campanha ou jornada de correspondência direta, o Journey Optimizer gera automaticamente um arquivo contendo todos os perfis direcionados e dados selecionados, como endereços postais e atributos de perfil. Esse arquivo é enviado ao servidor de sua escolha para que possa ser acessado pelo provedor de correspondência direta de terceiros escolhido, o qual realizará o processo de envio para você.
 
 Você precisará trabalhar com o provedor de correspondência direta de terceiros de sua escolha para obter todos os consentimentos necessários de seus clientes, se aplicável, para que seus clientes possam receber suas correspondências.
 
@@ -30,7 +30,7 @@ As principais etapas para enviar mensagens de correspondência direta são as se
 
 >[!AVAILABILITY]
 >
->As mensagens de correspondência direta só podem ser criadas no contexto de campanhas programadas e orquestradas. Elas não estão disponíveis para uso em campanhas acionadas por API ou em jornadas.
+>As mensagens de correspondência direta só podem ser criadas no contexto de jornadas e campanhas programadas. Eles não estão disponíveis para uso em campanhas orquestradas e acionadas por API.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -41,4 +41,8 @@ As principais etapas para enviar mensagens de correspondência direta são as se
 * **[Testar e enviar correspondência direta](test-send-direct-mail.md)**: saiba como testar, validar e publicar entregas de correspondência direta.
 * **[Tutoriais de correspondência direta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre recursos de correspondência direta e práticas recomendadas.
 
+## Vídeo tutorial
 
+Saiba como aproveitar o canal de correspondência direta no Adobe Journey Optimizer para automatizar e agendar entregas de correspondência direta em suas jornadas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)

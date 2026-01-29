@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 19%
+source-wordcount: '972'
+ht-degree: 15%
 
 ---
 
@@ -19,9 +19,14 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Criação de correspondência direta"
->abstract="Crie mensagens de correspondência direta em campanhas programadas e crie os arquivos de extração exigidos pelos provedores de correspondência direta para enviar para seus clientes."
+>abstract="Crie mensagens de correspondência direta em campanhas e jornadas programadas e crie os arquivos de extração necessários aos provedores de correspondência direta para enviar emails para seus clientes."
 
-Para criar mensagens de correspondência direta, crie uma campanha agendada e configure o arquivo de extração. Esse arquivo é exigido por provedores de correspondência direta para enviar emails aos clientes.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_direct_mail"
+>title="Atividade de término"
+>abstract="Correspondência direta é um canal offline que permite personalizar e gerar os arquivos de extração exigidos por provedores de correspondência direta de terceiros para o envio a clientes."
+
+Para criar mensagens de correspondência direta, crie uma campanha agendada ou uma jornada e configure o arquivo de extração. Esse arquivo é exigido por provedores de correspondência direta para enviar emails aos clientes.
 
 >[!IMPORTANT]
 >
@@ -30,17 +35,39 @@ Para criar mensagens de correspondência direta, crie uma campanha agendada e co
 >1. Uma [configuração de roteamento de arquivo](../direct-mail/direct-mail-configuration.md#file-routing-configuration) que especifica o servidor no qual o arquivo de extração deve ser carregado e armazenado,
 >1. Uma [configuração de mensagem de correspondência direta](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que referenciará a configuração de roteamento de arquivos.
 
-## Criar uma campanha de correspondência direta{#create-dm-campaign}
+## Adicionar uma mensagem de correspondência direta {#create-dm-campaign}
 
-Para criar uma campanha de correspondência direta, você configurará uma campanha agendada, selecionará seu público-alvo e definirá as configurações de correspondência direta, incluindo a configuração da mensagem. Siga estas etapas:
+Navegue pelas guias abaixo para saber como adicionar uma mensagem de correspondência direta em uma campanha ou jornada.
+
+>[!BEGINTABS]
+
+>[!TAB Adicionar uma mensagem de correspondência direta a uma Jornada]
+
+1. Abra a jornada e arraste e solte uma atividade de **[!UICONTROL Correspondência direta]** da seção **Ações** da paleta.
+
+1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria) e escolha a configuração de mensagem a ser usada. O campo **[!UICONTROL configuração]** é preenchido previamente, por padrão, com a última configuração usada para esse canal pelo usuário. Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
+
+1. Configure o arquivo de extração para enviar ao seu provedor de correspondência direta. Para fazer isso, clique no botão **[!UICONTROL Editar conteúdo]**.
+
+   ![](assets/direct-mail-add-journey.png)
+
+1. Ajuste as propriedades do arquivo de extração, como o nome do arquivo, ou as colunas a serem exibidas. Para obter mais informações sobre como configurar as propriedades do arquivo de extração, consulte esta seção: [Criar uma mensagem de correspondência direta](../direct-mail/create-direct-mail.md#extraction-file).
+
+   ![](assets/direct-mail-journey-content.png)
+
+1. Depois que o conteúdo do arquivo de extração for definido, você poderá usar perfis de teste para visualizá-lo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
+
+   Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** e adicione um perfil de teste para verificar como é a renderização do arquivo de extração usando os dados do perfil de teste. Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
+
+   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+
+Quando o arquivo de extração estiver pronto, conclua a configuração da [jornada](../building-journeys/journey-gs.md) para enviá-lo.
+
+>[!TAB Adicionar uma mensagem de correspondência direta a uma campanha]
 
 1. Acesse o menu **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**.
 
-1. Selecione o tipo de campanha que deseja executar
-
-   * **Agendado - Marketing**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio de mensagens de marketing. Eles são configurados e executados na interface do usuário do.
-
-   * **Acionado por API - Marketing/Transacional**: execute a campanha usando uma chamada de API. As campanhas acionadas por API destinam-se ao envio de mensagens de marketing ou transacionais, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc.
+1. Selecione o tipo de campanha **Agendado - Marketing**.
 
 1. Na seção **[!UICONTROL Propriedades]**, edite o **[!UICONTROL Título]** e a **[!UICONTROL Descrição]** da campanha.
 
@@ -113,4 +140,3 @@ O arquivo de extração é exigido por provedores de correspondência direta par
       Para alterar a posição de uma coluna, arraste-a e solte-a no local desejado na seção **[!UICONTROL Campo de dados]**. Para excluir uma coluna, selecione-a e clique no botão **[!UICONTROL Remover]** no painel **[!UICONTROL Formatação]**.
 
 Agora você pode testar sua mensagem de correspondência direta e enviá-la ao seu público-alvo. [Saiba como testar e enviar mensagens de correspondência direta](test-send-direct-mail.md)
-

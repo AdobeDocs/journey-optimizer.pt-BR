@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b85210a46c928389db985f0f794618209773c071
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 18%
+source-wordcount: '1708'
+ht-degree: 21%
 
 ---
 
@@ -60,6 +60,11 @@ Antes de poder gerar esse arquivo, é necessário criar:
 >id="ajo_dm_file_routing_aws_region"
 >title="Escolha a região do AWS"
 >abstract="Selecione a região geográfica do servidor do AWS para onde deseja exportar os arquivos de correspondência direta. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta."
+
+>[!CONTEXTUALHELP]
+>id="ajo_dm_file_routing_frequency"
+>title="Escolha a região do AWS"
+>abstract="Se a configuração de roteamento de arquivo for enviada por meio de jornadas, é possível especificar a frequência com a qual o arquivo será enviado ao servidor."
 
 >[!NOTE]
 >
@@ -149,11 +154,15 @@ Se você selecionou **[!UICONTROL Zona de Aterrissagem de Dados]** como o **[!UI
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
 Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
+
+Se a configuração de roteamento de arquivo for enviada por meio de jornadas, é possível especificar a frequência com a qual o arquivo será enviado ao servidor.
+
+![](assets/file-routing-journey.png)
 
 Depois de preencher os detalhes do tipo de servidor, selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
 
@@ -185,7 +194,7 @@ Se você estiver usando o SFTP com autenticação de chave SSH, deverá ter uma 
 >
 >Após a codificação Base64, a chave não conterá mais os marcadores `-----BEGIN/END RSA PRIVATE KEY-----` e não deve incluir quebras de linha. A chave pública correspondente deve ser adicionada ao arquivo de chaves autorizadas do servidor SFTP.
 
-Para obter mais informações sobre como conectar sua conta SFTP à Experience Platform, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Para obter mais informações sobre como conectar sua conta SFTP à Experience Platform, consulte [esta documentação](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 

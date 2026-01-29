@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 17%
+source-wordcount: '576'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Ação de canal integrada"
->abstract="O Journey Optimizer inclui recursos de ação de canal integrada. É possível adicionar à jornada uma mensagem (email, mensagem de texto (SMS/MMS), push) ou uma atividade de experiência de entrada (no aplicativo, web, experiência baseada em código, cartão de conteúdo) e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
+>abstract="O Journey Optimizer inclui recursos de ação de canal integrada. Você pode simplesmente adicionar, à sua jornada, uma atividade de mensagem (email, mensagem de texto (SMS/MMS), push, mala direta) ou experiência de entrada (no aplicativo, Web, experiência baseada em código, cartão de conteúdo) e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
 
 O [!DNL Journey Optimizer] vem com recursos de ação de canal incorporados que são usados para enviar mensagens: quando um perfil entra nessa atividade, uma mensagem é enviada a ele.
 
@@ -54,7 +54,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
       <tr style="border: 0;">
       <td>
       <a href="../email/create-email.md">
-      <img alt="Lead" src="../assets/do-not-localize/email.jpg">
+      <img alt="Cliente potencial" src="../assets/do-not-localize/email.jpg">
       </a>
       <div><a href="../email/create-email.md"><strong>Criar emails</strong>
       </div>
@@ -62,7 +62,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
       </td>
       <td>
       <a href="../push/create-push.md">
-      <img alt="Pouco frequente" src="../assets/do-not-localize/push.jpg">
+      <img alt="Pouco frequentes" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
       <a href="../push/create-push.md"><strong>Criar notificações por push<strong></a>
@@ -78,6 +78,15 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
       </div>
       <p>
       </td>
+      <td>
+      <a href="../direct-mail/create-direct-mail.md">
+      <img alt="Validação" src="../assets/do-not-localize/direct-mail.jpg">
+      </a>
+      <div>
+      <a href="../direct-mail/create-direct-mail.md"><strong>Criar mensagens de correspondência direta</strong></a>
+      </div>
+      <p>
+      </td>
       </tr>
       </table>
 
@@ -87,7 +96,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
       <tr style="border: 0;">
       <td>
       <a href="../in-app/create-in-app.md">
-      <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
+      <img alt="Cliente potencial" src="../assets/do-not-localize/in-app.jpg">
       </a>
       <div><a href="../in-app/create-in-app.md"><strong>Criar mensagens no aplicativo</strong>
       </div>
@@ -95,7 +104,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
       </td>
       <td>
       <a href="../web/create-web.md">
-      <img alt="Lead" src="../assets/do-not-localize/web-create.jpg">
+      <img alt="Cliente potencial" src="../assets/do-not-localize/web-create.jpg">
       </a>
       <div><a href="../web/create-web.md"><strong>Criar experiências da Web</strong>
       </div>
@@ -103,7 +112,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
       </td>
       <td>
       <a href="../content-card/create-content-card.md">
-      <img alt="Lead" src="../assets/do-not-localize/sms-config.jpg">
+      <img alt="Cliente potencial" src="../assets/do-not-localize/sms-config.jpg">
       </a>
       <div><a href="../content-card/create-content-card.md"><strong>Criar cartões de conteúdo</strong>
       </div>
@@ -111,7 +120,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
       </td>
       <td>
       <a href="../code-based/create-code-based.md">
-      <img alt="Pouco frequente" src="../assets/do-not-localize/web-design.jpg">
+      <img alt="Pouco frequentes" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
       <a href="../code-based/create-code-based.md"><strong>Criar experiências baseadas em código<strong></a>
