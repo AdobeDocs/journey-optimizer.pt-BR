@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 15%
@@ -92,6 +92,8 @@ Quando o arquivo de extração estiver pronto, conclua a configuração da [jorn
 1. As campanhas podem ser agendadas para uma data específica ou definidas para recorrentes em intervalos regulares. Saiba como configurar o **[!UICONTROL Cronograma]** da sua campanha no [nesta seção](../campaigns/campaign-schedule.md).
 
 Agora você pode começar a configurar o arquivo de extração para enviar ao seu provedor de correspondência direta.
+
+>[!ENDTABS]
 
 ## Configurar o arquivo de extração {#extraction-file}
 
