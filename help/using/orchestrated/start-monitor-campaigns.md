@@ -6,10 +6,10 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 36%
+source-wordcount: '1141'
+ht-degree: 29%
 
 ---
 
@@ -65,6 +65,22 @@ Depois que a campanha for testada e estiver pronta, clique em **[!UICONTROL Publ
 O fluxo visual é reiniciado, e perfis reais começam a fluir pela jornada em tempo real.
 
 Se a ação de publicação falhar (por exemplo, devido à falta de conteúdo da mensagem), você será alertado e deverá corrigir o problema antes de tentar novamente. Após a publicação bem-sucedida, a campanha começa a ser executada (imediatamente ou de acordo com o agendamento), muda do status de **Rascunho** para o status **Online** e torna-se &quot;Somente leitura&quot;.
+
+## Reverter uma campanha de volta ao rascunho {#back-to-draft}
+
+O recurso **[!UICONTROL Voltar ao rascunho]** permite desfazer a publicação e reverter uma campanha orquestrada para o status de rascunho em situações específicas. Ele foi projetado como um mecanismo de recuperação para corrigir problemas antes que qualquer mensagem seja enviada, mantendo a integridade do ciclo de vida da campanha.
+
+Essa opção está disponível em dois cenários:
+
+* **Campanhas agendadas aguardando execução**: quando uma campanha está agendada para ser executada em um horário específico e esse horário ainda não foi atingido, você pode usar de volta ao rascunho para revisar e modificar a campanha antes que ela comece a ser executada. No entanto, se a campanha for recorrente (como uma campanha agendada diariamente) e pelo menos uma execução já tiver ocorrido, a opção não estará mais disponível. Nesse caso, você deve [duplicar a campanha](../campaigns/manage-campaigns.md#duplicate-a-campaign).
+
+* **Campanhas ativas com erros de execução**: quando uma campanha encontra um erro durante a execução e é pausada, e nenhuma execução de campanha é concluída ainda, você pode usar voltar para rascunhar para corrigir o erro e republicar a campanha.
+
+Para retornar uma campanha ao status de rascunho, abra a campanha orquestrada e clique no botão **[!UICONTROL Voltar ao rascunho]** na barra de ferramentas da tela de campanha.
+
+![](assets/back-to-draft.png)
+
+A publicação da campanha é desfeita e o fluxo de trabalho é interrompido. A campanha retorna ao status **Rascunho**. Agora você pode corrigir os problemas identificados e [testar a campanha](#test) e [publicá-la](#publish) novamente quando estiver pronto.
 
 ## Confirmar envio de mensagem {#confirm-sending}
 

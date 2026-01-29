@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -100,6 +100,10 @@ A ![imagem que mostra o botão Mais ações](assets/do-not-localize/rule-builder
 * **[!UICONTROL Adicionar ao pacote]** - Adicione a campanha a um pacote para exportá-la para outra sandbox. [Saiba como exportar objetos →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Abrir versão de rascunho]** - Se uma nova versão da campanha tiver sido criada e ainda não tiver sido ativada, você poderá acessar sua versão de rascunho usando esta ação.
 
+**Somente para campanhas orquestradas:**
+
+* **[!UICONTROL Voltar ao rascunho]** - Desfazer a publicação e reverter uma campanha para o status de rascunho para recuperação de erros. Essa ação está disponível quando uma campanha programada ainda não foi iniciada ou quando uma campanha em tempo real encontra um erro antes da conclusão de qualquer execução. [Saiba mais sobre como reverter campanhas →](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
 ## Noções básicas sobre o status da campanha {#statuses}
 
 Cada campanha passa por um ciclo de vida que é refletido pelo status na interface. Compreender esses status ajuda você a saber quais ações estão disponíveis e o que fazer a seguir.
@@ -108,7 +112,7 @@ Cada campanha passa por um ciclo de vida que é refletido pelo status na interfa
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL Rascunho]** | ✅ | ✅ | ✅ | Em edição, não ativado | Continue editando ou [ative a campanha](review-activate-campaign.md) |
 | **[!UICONTROL Programado]** | ✅ | ✅ | ✅ | Configurado para uma data de início específica | Aguarde a inicialização, [modifique se necessário](#modify) ou [exiba no calendário](#calendar) |
-| **[!UICONTROL Ao vivo]** | ✅ | ✅ | ✅ | Ativado e em execução | [Monitorar desempenho](../reports/campaign-global-report-cja.md), [criar nova versão](#modify) se necessário |
+| **[!UICONTROL Ao vivo]** | ✅ | ✅ | ✅ | Ativado e em execução | [Monitorar desempenho](../reports/campaign-global-report-cja.md), [criar nova versão](#modify) se necessário. Para campanhas orquestradas: [reverter para rascunho](../orchestrated/start-monitor-campaigns.md#back-to-draft) para campanhas agendadas ainda não iniciadas ou campanhas com erros de execução antes do envio de qualquer mensagem |
 | **[!UICONTROL Em revisão]** | ✅ | ✅ | — | Enviado para aprovação | Aguardar [aprovação](../test-approve/gs-approval.md) ou modificar |
 | **[!UICONTROL Interrompida]** | ✅ | ✅ | ✅ | Interrompido manualmente, não é possível reativar | [Duplicar para reutilizar](#duplicate-a-campaign) |
 | **[!UICONTROL Concluído]** | ✅ | ✅ | ✅ | Execução concluída (atribuída automaticamente 3 dias após a ativação ou na data final para recorrente) | [Exibir relatórios](../reports/campaign-global-report-cja.md), [arquivo morto](#archive-a-campaign) ou [duplicar](#duplicate-a-campaign) |
