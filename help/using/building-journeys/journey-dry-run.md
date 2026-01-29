@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 16%
@@ -124,7 +124,7 @@ Os links para as últimas 24 horas e relatórios de todos os tempos estão dispo
 
 ## Medidas de proteção e limitações {#journey-dry-run-limitations}
 
-* Os perfis no modo simulação são contados em perfis acionáveis
+* Os perfis no modo de execução em disco são contados em [Perfis que podem ser ativados](../audience/license-usage.md)
 * Jornadas no modo simulação são contadas para a cota de jornada ativa
 * As jornadas de simulação não afetam as regras de negócios
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
@@ -149,4 +149,4 @@ Ao analisar **métricas de relatórios do jornada** usando o serviço Adobe Expe
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

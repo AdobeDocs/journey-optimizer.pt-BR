@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4e90aa9a71ab8999d4ac03eac50aad93af48302c
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '3908'
-ht-degree: 92%
+source-wordcount: '3977'
+ht-degree: 91%
 
 ---
 
@@ -97,6 +97,10 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../sms/get-star
 * Para que o Adobe Journey Optimizer exiba corretamente os cartões de conteúdo, é necessário definir as configurações da Adobe Experience Platform listadas [nesta página](../content-card/content-card-configuration-prereq.md).
 
 * O Journey Optimizer aceita um volume máximo de 5.000 solicitações de entrada por segundo. Essa medida de proteção se aplica a todas as solicitações de entrada, que podem se originar de qualquer um dos canais de entrada compatíveis com o Journey Optimizer ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)).
+
+  Os canais de entrada do Journey Optimizer direcionam novos perfis que talvez não tenham sido engajados antes em outros canais. Isso aumentará a contagem total de [Perfis que podem ser Engajados](../audience/license-usage.md), o que pode ter implicações de custo se o número contratual de Perfis que podem ser engajados que você adquiriu for excedido.
+
+  As métricas de licença para cada pacote estão listadas na página [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de Perfis Ativáveis no [painel de uso de licença](../audience/license-usage.md).
 
 * O Journey Optimizer aceita no máximo 500 ações de entrada ativas a qualquer momento. Essas ações de entrada são contadas se fizerem parte de uma campanha ativa ou se forem um nó usado em uma jornada ativa. Ao atingir esse número, é preciso desativar campanhas ou jornadas mais antigas que estejam usando ações de entrada antes de poder lançar novas.
 
