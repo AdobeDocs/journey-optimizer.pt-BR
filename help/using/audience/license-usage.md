@@ -25,7 +25,7 @@ Para acessar este painel, vá para **[!UICONTROL Administração]** > **[!UICONT
 
 >[!NOTE]
 >
->* Para exibir o painel, você deve ter a permissão [Exibir Painel de Uso da Licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
+>* Para exibir o painel, você deve ter a permissão [Exibir Painel de Uso da Licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=pt-BR#available-permissions){target="_blank"}.
 >
 >* Determinadas métricas (por exemplo, horas de computação, emails) não são exibidas para sandboxes de desenvolvimento, conforme indicado por `N/A` na coluna de cota. Somente valores não nulos são exibidos no painel: quando as métricas são zero ou próximas a zero, elas não são preenchidas.
 
@@ -79,7 +79,7 @@ Para resolver esse problema, siga estas etapas:
 
 2. **Investigue jornadas, campanhas e decisões direcionadas a públicos-alvo grandes:**
 
-   * Revise jornadas e campanhas recentes direcionadas a um grande número de perfis usando [consultas de Perfis envolventes](../reports/query-examples.md#engageable-profiles-queries) ou [Serviço de consulta](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}.
+   * Revise jornadas e campanhas recentes direcionadas a um grande número de perfis usando [consultas de Perfis envolventes](../reports/query-examples.md#engageable-profiles-queries) ou [Serviço de consulta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/home){target="_blank"}.
    * Identifique versões específicas do jornada que contribuíram para o pico nas contagens de perfis.
    * Jornadas, campanhas e decisões que envolvem novos perfis provavelmente levarão a um aumento nas contagens de eventos nos conjuntos de dados do Jornada, contribuindo para o aumento na contagem de Perfis acionáveis.
 
@@ -106,13 +106,13 @@ Para resolver esse problema, siga estas etapas:
 **Consulte também:**
 
 * [Exemplos de consulta de Perfis Engajáveis](../reports/query-examples.md#engageable-profiles-queries) - Exemplos de consulta para monitorar e analisar seus Perfis Engajáveis
-* [Visão geral do Adobe Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}
+* [Visão geral do Adobe Experience Platform Query Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/home){target="_blank"}
 
 ## Documentação relacionada {#related-documentation}
 
 Saiba mais na documentação do Adobe Experience Platform:
 
-* [Visão geral do painel de uso da licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [Explorando o painel de uso de licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [Visão geral do painel de uso da licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=pt-BR){target="_blank"}
+* [Explorando o painel de uso de licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=pt-BR#exploring-the-license-usage-dashboard){target="_blank"}
 * [Métricas disponíveis](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=pt-BR#available-metrics){target="_blank"}
 * [Expiração de dados do perfil pseudônimo](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=pt-BR){target="_blank"}
