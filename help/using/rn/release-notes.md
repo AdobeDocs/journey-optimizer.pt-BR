@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 598164d4b78b21d4a17038a364b15253fdcf55ef
+source-git-commit: 50dbebcd16631f5df624c962af1a84da0846f53d
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 21%
+source-wordcount: '1849'
+ht-degree: 22%
 
 ---
 
@@ -29,13 +29,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ## Notas de versão de janeiro de 2026 {#latest-rn}
 
-**Data de lançamento**: 27 a 28 de janeiro de 2026
+<!--**Release date**: January 27-28, 2026-->
 
 As seções [Recursos](#jan-26-01-features) e [Melhorias](#jan-26-01-improv) abordam os recursos já disponíveis, enquanto o [Em breve](#jan-26-01-coming-soon) lista os itens agendados para uma data de disponibilidade posterior.
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#jan-26-01-features}
 
@@ -58,6 +58,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>Esse recurso só está disponível para o canal de email e SMS, para organizações que compraram a oferta complementar Exportação de mensagens. Para obter mais informações, entre em contato com o seu representante da Adobe.</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>Para obter mais informações, consulte a <a href="../configuration/message-export.md#message-export">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 28 de janeiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -76,6 +77,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>Anteriormente lançado na versão beta, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../push/push-configuration-web.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 28 de janeiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -93,6 +95,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>O canal de correspondência direta agora está disponível em campanhas orquestradas. A <strong>Atividade de correspondência direta</strong> facilita o envio de correspondência direta dentro da campanha Orquestrada, tanto para mensagens únicas quanto para mensagens recorrentes. Ele serve para automatizar o processo de geração do <strong>arquivo de extração</strong> exigido por provedores de correspondência direta. É possível combinar atividades de canal na tela da campanha orquestrada para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente.</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
 <p>Para obter mais informações, consulte a <a href="../orchestrated/activities/channels.md#channel">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 28 de janeiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -155,7 +158,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### IA
 
-* **Verificações de Qualidade de Conteúdo do Assistente de IA** - Além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas com a <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da sua marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou lacunas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality). [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+* **Verificações de Qualidade de Conteúdo do Assistente de IA** - Além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas com a <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da sua marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou lacunas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality). [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -163,9 +166,16 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Combinar ações de mensagens nativas e do Adobe Campaign** - o Journey Optimizer agora permite combinar <strong>ações de mensagem do Adobe Campaign v7/v8</strong> com <strong>ações de canal nativo</strong> na mesma jornada. [Leia mais](../building-journeys/using-adobe-campaign-v7-v8.md)
 
+  Data de disponibilidade: 27 de janeiro de 2026.
+
 * **Carga de resposta de erro de ação personalizada** - Agora você pode definir uma <strong>carga de resposta de erro</strong> opcional para ações personalizadas. Quando uma chamada falha, a carga do erro é exposta no contexto de jornada (no nó errorResponse da ação) e está disponível na <strong>ramificação de tempo limite/erro</strong>, juntamente com `jo_status_code`, para oferecer suporte a uma lógica de fallback e depuração mais avançadas. [Leia mais](../action/action-response.md)
 
+  Data de disponibilidade: 27 de janeiro de 2026.
+
 * **Validação do tamanho da carga do Jornada no jornada** - o Journey Optimizer agora valida <strong>tamanhos de carga</strong> para ajudar a garantir desempenho e estabilidade de sistema ideais. Ao criar ou publicar jornadas, você receberá <strong>avisos e erros</strong> claros se os tamanhos de carga se aproximarem ou excederem os limites recomendados, juntamente com orientações acionáveis para otimizar sua configuração de jornada. Essa validação proativa ajuda a identificar problemas em potencial antecipadamente e a manter o desempenho do jornada. [Leia mais](../start/guardrails.md#journey-payload-size)
+
+  Data de disponibilidade: 27 de janeiro de 2026.
+
 
 * **Alertas de Jornada** - Novos <strong>alertas pré-configurados</strong> estão disponíveis para o jornada.
    * <strong>Taxa de Descarte de Perfil Excedida</strong> - A taxa de descartes de perfil para perfis inseridos nos últimos 5 minutos excedeu o limite
@@ -194,15 +204,21 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Suporte a metadados gerados pelo usuário** - A <strong>função auxiliar executionMetadata</strong> agora está disponível no editor de personalização para campanhas Orquestradas, permitindo que você anexe informações contextuais a qualquer ação nativa e armazene-a em um conjunto de dados para exportação para sistemas externos. [Leia mais](../personalization/functions/helpers.md#execution-metadata)
 
+  Data de disponibilidade: 27 de janeiro de 2026.
+
 #### Campanhas
 
 * **Agendar campanha usando o Fuso Horário do Perfil** - O agendamento de campanha agora pode usar o <strong>fuso horário</strong> de cada perfil para entregar mensagens no horário local desejado. [Leia mais](../campaigns/campaign-schedule.md)
 
   **Observação**: esta melhoria só estará disponível para um conjunto de organizações (Disponibilidade Limitada).
 
+  Data de disponibilidade: 27 de janeiro de 2026.
+
 #### Permissões
 
 * **Impedir a autoaprovação para jornadas e campanhas** - Adição de uma opção ao criar ou definir a <strong>Política de Aprovação</strong> para impedir que os criadores de jornadas ou campanhas <strong>aprovem seus próprios objetos</strong>. [Leia mais](../test-approve/approval-policies.md)
+
+  Data de disponibilidade: 27 de janeiro de 2026.
 
 ## Em breve {#jan-26-01-coming-soon}
 
@@ -220,7 +236,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <tr>
 <td>
 <p>Anteriormente limitado a Campanhas, o canal <strong>Correspondência direta</strong> agora está disponível na tela de jornada, permitindo que você incorpore correspondência direta às suas jornadas. A Correspondência Direta agora pode ser usada em <strong>cenários de jornada em lote e 1:1</strong>, com suporte para configuração de extração de arquivos e configurações de frequência baseadas em tempo.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso estará disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Data de disponibilidade: quinta-feira, 28 de janeiro de 2026</p>
 </td>
 </tr>
