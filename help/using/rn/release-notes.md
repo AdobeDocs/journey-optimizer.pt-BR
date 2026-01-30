@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6442512f29fd691d759375ad50cce2f95a42c402
+source-git-commit: 99dfadf6ac370187fd54d87f660c36662dbcb8d3
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 20%
+source-wordcount: '1709'
+ht-degree: 21%
 
 ---
 
@@ -35,7 +35,7 @@ As seções [Recursos](#jan-26-01-features) e [Melhorias](#jan-26-01-improv) abo
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#jan-26-01-features}
 
@@ -198,7 +198,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Verificações de Qualidade de Conteúdo do Assistente de IA** - Além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas com a <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da sua marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou lacunas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality).
 
-  [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+  [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -293,23 +293,6 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <table>
 <thead>
 <tr>
-<th><strong>Monitoramento de ação personalizada</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Insight Saiba mais sobre a integridade e o desempenho de seus <strong>pontos de extremidade de ação personalizados</strong> com um novo painel de monitoramento e dados de evento de etapa do jornada aprimorados. Rastreie chamadas bem-sucedidas, erros, taxa de transferência, tempos de resposta e tempos de espera da fila para entender rapidamente quando, onde e por que ocorrem anomalias.</p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
-<p>Data de disponibilidade: sexta-feira, 29 de janeiro de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Geração de conteúdo no Journey Agent</strong><br/></th>
 </tr>
 </thead>
@@ -317,7 +300,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <tr>
 <td>
 <p>Desenvolvido pela Adobe Experience Platform Agent Orchestrator, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode <strong>gerar e gerenciar conteúdo</strong> diretamente no Journey Agent, criar conteúdo para canais como email e push, aplicar e visualizar modelos, refinar o tom e o estilo por meio de prompts e abrir conteúdo no Designer de Conteúdo para edição em contexto.</p>
-<p>Data de disponibilidade: terça-feira, 2 de fevereiro de 2026</p>
+<p>Data de disponibilidade: terça-feira, 9 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -333,7 +316,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <tr>
 <td>
 <p>Agora você pode personalizar e otimizar o conteúdo de suas <strong>Mensagens por push e SMS</strong> com a <strong>Decisão</strong>. Use Pontuações de prioridade, Fórmulas ou Modelos de IA para exibir o melhor conteúdo para seus clientes.</p>
-<p>Data de disponibilidade: quarta-feira, 3 de fevereiro de 2026</p>
+<p>Data de disponibilidade: terça-feira, 9 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -350,7 +333,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <td>
 <p>Uma nova <strong>Atividade de decisão de conteúdo</strong> está disponível na tela de jornada para integrar <strong>ofertas personalizadas</strong> diretamente às jornadas do cliente. Essa atividade permite fornecer conteúdo baseado em decisão e fazer referência a essas ofertas em toda a jornada, em condições para criar ramificações baseadas em elegibilidade, em ações personalizadas para transmitir dados de oferta a sistemas externos e em outras atividades para criar experiências do cliente totalmente personalizadas.</p>
 <p>Esse recurso estará disponível para todos os ambientes (Disponibilidade geral).</p>
-<p>Data de disponibilidade: quarta-feira, 3 de fevereiro de 2026</p>
+<p>Data de disponibilidade: terça-feira, 9 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -358,10 +341,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 
 ### Aprimoramentos
 
-* Agora há suporte para **Webhooks de SMS** - <strong>Webhooks</strong> em todos os provedores de SMS. Você pode configurar cada webhook com base na finalidade pretendida, webhooks de entrada para capturar mensagens de entrada e webhooks de feedback para receber confirmações de entrega, atualizações de status e outros eventos relacionados à mensagem.
-
-  Data de disponibilidade: 30 de janeiro de 2026.
 
 * **Anexar fragmentos a itens de decisão** - A Journey Optimizer agora fornece a capacidade de anexar <strong>fragmentos</strong> a <strong>itens de decisão</strong> que podem ser aproveitados em campanhas de experiência baseadas em código por meio de políticas de decisão.
 
-  Data de disponibilidade: 3 de fevereiro de 2026.
+  Data de disponibilidade: 9 de fevereiro de 2026.
