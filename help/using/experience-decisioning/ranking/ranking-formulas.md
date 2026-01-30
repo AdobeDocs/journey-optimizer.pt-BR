@@ -7,22 +7,24 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 4%
+source-wordcount: '1481'
+ht-degree: 6%
 
 ---
 
 # Usar o construtor de fórmulas de IA {#create-ranking-formulas}
 
-**As fórmulas de classificação** permitem definir regras que determinarão qual oferta deve ser apresentada primeiro, em vez de considerar as pontuações de prioridade.
+**As fórmulas de classificação** permitem definir regras que determinam qual oferta deve ser apresentada primeiro, em vez de considerar as pontuações de prioridade.
 
 Para criar essas regras, o construtor de fórmulas de IA no **[!UICONTROL Adobe Journey Optimizer]** fornece maior flexibilidade e controle sobre como as ofertas são classificadas. Em vez de depender apenas de uma prioridade de oferta estática, agora é possível definir fórmulas de classificação personalizadas que combinam pontuações do modelo de IA, prioridades de oferta, atributos de perfil, atributos de oferta e sinais contextuais por meio de uma interface guiada.
 
 Essa abordagem permite ajustar dinamicamente a classificação de ofertas com base em qualquer combinação de propensão orientada por IA, valor comercial e contexto em tempo real, facilitando o alinhamento da decisão com as metas de marketing e as necessidades do cliente. O construtor de fórmulas do AI é compatível com fórmulas simples ou avançadas, dependendo de quanto controle você deseja aplicar.
 
 Depois que uma fórmula de classificação é criada, é possível atribuí-la a uma [estratégia de seleção](../selection-strategies.md). Se várias ofertas forem elegíveis para serem apresentadas ao usar essa estratégia de seleção, o mecanismo de decisão usará a fórmula selecionada para calcular qual oferta entregar primeiro.
+
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Criar uma fórmula de classificação {#create-ranking-formula}
 
@@ -64,7 +66,7 @@ Para criar uma fórmula de classificação, siga as etapas abaixo.
    >
    >A profundidade do aninhamento em uma fórmula de classificação é limitada a 30 níveis. Isso é medido pela contagem dos parênteses de fechamento `)` na cadeia de caracteres do PQL. Uma sequência de regras pode ter até 8 KB para caracteres codificados em UTF-8. É equivalente a 8.000 caracteres ASCII (1 byte cada) ou 2.000-4.000 caracteres não ASCII (2-4 bytes cada). [Saiba mais sobre as medidas de proteção e limitações da decisão](../decisioning-guardrails.md#ranking-formulas)
 
-1. Você também pode usar dados do Adobe Experience Platform para ajustar dinamicamente a lógica de classificação para refletir as condições do mundo real. Isso é especialmente útil para atributos que mudam com frequência, como disponibilidade de produtos ou preços em tempo real.
+1. Você também pode usar dados do Adobe Experience Platform para ajustar dinamicamente a lógica de classificação para refletir as condições do mundo real. Isso é especialmente útil para atributos que mudam com frequência, como disponibilidade de produto ou preço em tempo real.
 
    Esse recurso está atualmente disponível para todos os clientes como uma versão beta pública. Entre em contato com o representante de sua conta se desejar obter acesso. [Saiba como usar dados do Adobe Experience Platform para a tomada de decisão](../aep-data-exd.md)
 
@@ -93,9 +95,9 @@ Para definir critérios diretamente da interface, siga as etapas abaixo.
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. Na seção **[!UICONTROL Critério 1]**, especifique os itens de decisão aos quais você deseja aplicar uma pontuação de classificação fazendo o seguinte:
-   * selecione um [atributo de item de decisão](../items.md#attributes),
-   * selecione um operador lógico,
-   * adicione uma condição correspondente - você pode digitar um valor ou selecionar um atributo de perfil ou [dados de contexto](../context-data.md).
+   * selecione um [atributo de item de decisão](../items.md#attributes)
+   * selecionar um operador lógico
+   * adicionar uma condição correspondente - você pode digitar um valor ou selecionar um atributo de perfil ou [dados de contexto](../context-data.md)
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -274,3 +276,9 @@ Observe que ao usar a API **Decisioning**, os dados de contexto são adicionados
 ```
 
 +++
+
+## Vídeo tutorial {#video}
+
+Saiba como usar o Construtor de fórmulas com IA no Adobe Journey Optimizer para criar estratégias de classificação de ofertas personalizadas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)

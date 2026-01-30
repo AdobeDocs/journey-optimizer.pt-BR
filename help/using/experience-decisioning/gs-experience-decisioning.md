@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '631'
 ht-degree: 22%
 
 ---
@@ -25,11 +25,13 @@ ht-degree: 22%
 
 O serviço de decisão simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
 
-Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada através do [novo canal de experiência baseado em código](../code-based/get-started-code-based.md), acessível em campanhas do Journey Optimizer.
+Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada através do [canal de experiência baseado em código](../code-based/get-started-code-based.md), acessível em [!DNL Adobe Journey Optimizer] campanhas.
 
 >[!IMPORTANT]
 >
 >As políticas de decisão estão disponíveis para uso somente em experiências baseadas em código e campanhas de email.
+
+➡️ [Conheça este recurso no vídeo](#video)
 
 ➡️ Um caso de uso completo que mostra como criar decisões e usá-las em experimentos de conteúdo com o canal de experiência baseado em código é apresentado em [esta seção](experience-decisioning-uc.md).
 
@@ -98,3 +100,8 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 * **[Medidas de proteção de decisão](decisioning-guardrails.md)** - Revise limitações importantes e práticas recomendadas para a implementação da decisão.
 * **[Tutoriais de decisão](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre recursos de decisão e práticas recomendadas.
 
+## Vídeo tutorial {#video}
+
+Saiba mais sobre os recursos de decisão no Adobe Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
