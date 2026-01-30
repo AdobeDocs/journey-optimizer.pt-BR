@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '561'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ A tabela **[!UICONTROL Estatísticas de envio]** ajuda você a entender o desemp
 
 * **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas mensagens SMS.
 
-* **[!UICONTROL Direcionado]**: número total de notificações por push processadas durante a análise.
+* **[!UICONTROL Direcionado]**: número de perfis qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento. Em jornadas com reentrada ativada, um perfil pode ser direcionado várias vezes.
 
 * **[!UICONTROL Envios]**: número total de envios para a notificação por push.
 

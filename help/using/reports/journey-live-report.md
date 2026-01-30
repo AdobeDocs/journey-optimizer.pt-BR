@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '3712'
+source-wordcount: '3731'
 ht-degree: 30%
 
 ---
@@ -210,7 +210,7 @@ A tabela **[!UICONTROL Email - Estatísticas]** fornece um resumo abrangente dos
 
 +++ Saiba mais sobre as métricas de Estatísticas de envio de email
 
-* **[!UICONTROL Direcionado]**: número total de mensagens processadas durante o processo de envio.
+* **[!UICONTROL Direcionado]**: número de perfis qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento. Em jornadas com reentrada ativada, um perfil pode ser direcionado várias vezes.
 
 * **[!UICONTROL Excluídos]**: número de perfis excluídos pelo Adobe Journey Optimizer.
 

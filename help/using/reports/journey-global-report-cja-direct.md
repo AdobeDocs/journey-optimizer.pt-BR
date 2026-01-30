@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '370'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ A tabela **[!UICONTROL Estatísticas de Envio]** fornece uma insight do desempen
 
 * **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas mensagens.
 
-* **[!UICONTROL Direcionado]**: número total de mensagens de correspondência direta processadas durante o processo de envio.
+* **[!UICONTROL Direcionado]**: número de perfis qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento. Em jornadas com reentrada ativada, um perfil pode ser direcionado várias vezes.
 
 * **[!UICONTROL Envios]**: número total de envios para suas mensagens de correspondência direta.
 
@@ -69,7 +69,7 @@ A tabela **[!UICONTROL Motivos de Erro]** permite identificar os erros específi
 
 ## Motivos para exclusão {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 A tabela **[!UICONTROL Motivos da exclusão]** mostra visualmente os diversos fatores que levaram à exclusão de perfis de usuário do público-alvo direcionado, impedindo-o de receber suas mensagens de correspondência direta.
 

@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '407'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ A tabela **[!UICONTROL Estatísticas de Envio]** fornece uma visão geral detalh
 
 +++ Saiba mais sobre como enviar métricas de estatísticas
 
-* **[!UICONTROL Direcionado]**: número total de perfis direcionados durante a atividade em tempo real.
+* **[!UICONTROL Direcionado]**: número de perfis qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento.
 
 * **[!UICONTROL Envios]**: número total de tentativas de envio de notificações por push a perfis direcionados.
 

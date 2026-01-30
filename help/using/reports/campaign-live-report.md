@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3543'
 ht-degree: 26%
 
 ---
@@ -108,7 +108,7 @@ A tabela **[!UICONTROL Métricas de envio por email]** oferece um resumo abrange
 
 * **[!UICONTROL Tempo de execução]**: hora de início de cada execução do email recorrente. Para direcionar apenas um ou vários emails recorrentes, selecione-o no menu suspenso **[!UICONTROL Tempo de execução]**.
 
-* **[!UICONTROL Direcionado]**: número total de mensagens processadas durante o processo de envio.
+* **[!UICONTROL Direcionado]**: número de perfis qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento.
 
 * **[!UICONTROL Excluídos]**: número de perfis de usuário, excluídos dos perfis direcionados, que não receberam a mensagem.
 
@@ -330,7 +330,7 @@ A tabela **[!UICONTROL Notificação por push - Estatísticas]** fornece um resu
 
 * **[!UICONTROL Tempo de execução]**: a hora inicial de cada execução de sua notificação por push recorrente. Para direcionar apenas uma ou várias notificações por push recorrentes, selecione-a no menu suspenso **[!UICONTROL Tempo de execução]**.
 
-* **[!UICONTROL Direcionado]**: número total de mensagens processadas durante o processo de envio.
+* **[!UICONTROL Direcionado]**: número de perfis qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento.
 
 * **[!UICONTROL Excluídos]**: número de perfis de usuário, excluídos dos perfis direcionados, que não receberam a mensagem.
 
@@ -400,7 +400,7 @@ O gráfico e a tabela **[!UICONTROL Notificação por push - Detalhamento por pl
 
 +++ Saiba mais sobre Notificação por push - Detalhamento por métricas de plataforma
 
-* **[!UICONTROL Targeted]**: número total de mensagens processadas durante a análise.
+* **[!UICONTROL Direcionado]**: número de perfis qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento.
 
 * **[!UICONTROL Entregues]**: número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 

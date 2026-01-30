@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '538'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ A tabela **[!UICONTROL Estatísticas de envio]** fornece um resumo abrangente do
 
 +++ Saiba mais sobre como enviar métricas de estatísticas
 
-* **[!UICONTROL Direcionado]**: número total de notificações por push processadas durante a análise.
+* **[!UICONTROL Direcionado]**: número de perfis qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento. Em jornadas com reentrada ativada, um perfil pode ser direcionado várias vezes.
 
 * **[!UICONTROL Envios]**: número total de envios para a notificação por push.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: cc435a133f5fe24bff0f6ec9ec135941cf0bab99
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2216'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >Como a Apple apresentou novos recursos de proteção de privacidade para seu aplicativo de email nativo, incluindo a Proteção de privacidade de email, os remetentes não podem mais usar pixels de rastreamento para coletar dados em perfis que ativaram a Proteção de privacidade de email da Apple. Consequentemente, a capacidade do Adobe Journey Optimizer de rastrear aberturas de email usando pixels de rastreamento pode ser afetada.
-> [Saiba mais](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=pt) sobre o impacto das alterações de privacidade do Apple iOS no marketing por email.
+> [Saiba mais](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) sobre o impacto das alterações de privacidade do Apple iOS no marketing por email.
 > 
 > Recomendamos o foco em cliques e métricas de conversão, em vez de taxas abertas, para obter insights mais precisos.
 
@@ -72,7 +72,7 @@ O gráfico **[!UICONTROL Click funnel]** apresenta uma análise detalhada de com
 
 +++ Saiba mais sobre as métricas do Click funnel
 
-* **[!UICONTROL Direcionado Exclusivo]**: número de perfis exclusivos direcionados durante o processo de envio.
+* **[!UICONTROL Direcionado Exclusivo]**: número de perfis exclusivos qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento.
 
 * **[!UICONTROL Envios únicos]**: número de perfis únicos para os quais pelo menos um email tentou ser enviado.
 
@@ -124,7 +124,7 @@ A tabela **[!UICONTROL Estatísticas de Envio Exclusivas]** apresenta uma visão
 
 +++ Saiba mais sobre métricas de Estatísticas de envio únicas
 
-* **[!UICONTROL Direcionado Exclusivo]**: número de perfis exclusivos direcionados durante o processo de envio.
+* **[!UICONTROL Direcionado Exclusivo]**: número de perfis exclusivos qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento.
 
 * **[!UICONTROL Envios únicos]**: número de perfis únicos para os quais pelo menos um email tentou ser enviado.
 
@@ -170,7 +170,7 @@ A tabela **[!UICONTROL Estatísticas de Envio]** fornece um resumo abrangente do
 
 +++ Saiba mais sobre como enviar métricas de estatísticas
 
-* **[!UICONTROL Direcionado]**: número total de emails processados durante o processo de envio.
+* **[!UICONTROL Direcionado]**: número de perfis qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento. Em jornadas com reentrada ativada, um perfil pode ser direcionado várias vezes.
 
 * **[!UICONTROL Envios]**: número total de envios para o seu email.
 

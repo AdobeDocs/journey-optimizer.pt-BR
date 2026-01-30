@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2189'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Direcionado<br/> </td> 
-   <td> Número total de mensagens processadas durante a análise de entrega.<br/> </td> 
+   <td> Número de perfis qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento. Em jornadas com reentrada habilitada, um perfil pode ser direcionado várias vezes.<br/> </td> 
   </tr>
   <tr> 
    <td>Rejeições Exclusivas<br/> </td> 
@@ -197,7 +197,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr>
   <tr> 
    <td>Direcionado Exclusivo<br/> </td> 
-   <td>Número de perfis exclusivos direcionados durante o processo de envio.<br/> </td> 
+   <td>Número de perfis exclusivos qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento.<br/> </td> 
   </tr> 
   <tr> 
    <td> Cancelamentos de assinatura<br/> </td> 
@@ -659,7 +659,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td>Porcentagem de usuários que clicam em um link, anúncio ou recomendação em comparação ao número de vezes que ele foi exibido.<br/> </td> 
 </tr>
 <tr> 
-   <td>Taxa de conversão<br/> </td> 
+   <td>Índice de conversão<br/> </td> 
    <td>Porcentagem de exibições que resultaram em ações do usuário (por exemplo, cliques), indicando o sucesso do modelo em envolver usuários.<br/> </td> 
 </tr>
 <tr> 
