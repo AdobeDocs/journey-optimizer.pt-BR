@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '832'
 ht-degree: 11%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 11%
 >title="Criação de mensagens por push"
 >abstract="Adicione sua mensagem por push e comece a personalizá-la com o editor de personalização."
 
-Você pode criar notificações por push para dispositivos móveis (iOS e Android) e navegadores da Web. Esta página o orienta pelo processo de configuração de uma notificação por push em uma jornada ou campanha.
+Você pode criar notificações por push para dispositivos móveis (iOS e Android). Esta página o orienta pelo processo de configuração de uma notificação por push em uma jornada ou campanha.
 
 ## Criar a notificação por push em uma jornada ou campanha {#create}
 
@@ -72,7 +72,7 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
 1. Na seção **[!UICONTROL Actions]**, escolha a **[!UICONTROL Notificação por push]** e selecione ou crie uma nova configuração.
 
-   Saiba mais sobre a configuração de push para dispositivos móveis em [esta página](push-configuration.md) e para Web em [esta página](push-configuration-web.md).
+   Saiba mais sobre a configuração de push para dispositivos móveis em [esta página](push-configuration.md).
 
    ![](assets/push_create_3.png)
 

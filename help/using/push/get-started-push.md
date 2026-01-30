@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 82%
+source-wordcount: '328'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 82%
 >
 >Se esta for a primeira vez que você cria uma notificação por push, verifique se o canal de push foi configurado. [Saiba mais](push-gs.md).
 
-As notificações por push ajudam você a acessar usuários de aplicativos móveis e visitantes da Web a qualquer momento, especialmente quando não estão usando ativamente seu aplicativo ou navegando em seu site. As notificações por push podem ajudar você em uma variedade de casos de uso, como fornecer atualizações sobre o serviço, solicitar que um usuário execute uma ação, alertá-lo sobre uma nova oportunidade etc. As plataformas de dispositivos exigem a aceitação dos usuários finais para que eles possam receber ou visualizar as notificações. A aceitação do usuário pode ser recebida assim que o aplicativo é iniciado pela primeira vez após a instalação ou em uma sessão ou fluxo de trabalho subsequente, conforme apropriado.
+As notificações por push ajudam você a acessar os usuários de aplicativos móveis a qualquer momento, especialmente quando eles não estão usando ativamente seu aplicativo. As notificações por push podem ajudar você em uma variedade de casos de uso, como fornecer atualizações sobre o serviço, solicitar que um usuário execute uma ação, alertá-lo sobre uma nova oportunidade etc. As plataformas de dispositivos exigem a aceitação dos usuários finais para que eles possam receber ou visualizar as notificações. A aceitação do usuário pode ser recebida assim que o aplicativo é iniciado pela primeira vez após a instalação ou em uma sessão ou fluxo de trabalho subsequente, conforme apropriado.
 
 O [!DNL Journey Optimizer] oferece suporte a notificações por push e ajuda a enviar notificações altamente relevantes com as melhores taxas de transferência do setor. As notificações por push podem incluir informações personalizadas e contexto baseado em jornadas, a fim de aproveitar os insights de dados que sua marca tem na Adobe Experience Cloud.
 
@@ -31,11 +31,11 @@ As notificações por push podem ser criadas:
 
 * Em uma **Campanha**: depois de criar uma campanha, selecione notificação por push como sua ação e defina configurações básicas. Saiba como criar [uma campanha de ação](../campaigns/campaign-action.md#action-campaign-action) | [uma campanha acionada por API](../campaigns/api-triggered-campaigns.md) | [uma campanha orquestrada](../orchestrated/create-orchestrated-campaign.md#create)
 
-Use as guias dedicadas para definir as configurações de notificação por push para as plataformas **iOS**, **Android** e **Web**.
+Use as guias dedicadas para definir as configurações de notificação por push para **iOS** e **Android**.
 
 >[!NOTE]
 >
->Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção de não participação em emails e mensagens SMS, as notificações por push não exigem nenhuma ação da sua parte, pois os destinatários podem cancelar inscrição por meio dos seus próprios dispositivos. Por exemplo, ao baixar ou ao usar seu aplicativo, eles podem optar por parar as notificações. Da mesma forma, é possível alterar as configurações de notificação por meio do sistema operacional móvel ou das configurações do navegador da Web.
+>Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção de não participação em emails e mensagens SMS, as notificações por push não exigem nenhuma ação da sua parte, pois os destinatários podem cancelar inscrição por meio dos seus próprios dispositivos. Por exemplo, ao baixar ou ao usar seu aplicativo, eles podem optar por parar as notificações. Da mesma forma, é possível alterar as configurações de notificação por meio do sistema operacional móvel.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

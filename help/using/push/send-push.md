@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '384'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente para visualizar seu conteúdo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem.
 
-Para fazer isso, clique em **[!UICONTROL Simular conteúdo]**. Em seguida, você pode selecionar o tipo de dispositivo para visualizar o conteúdo: **[!UICONTROL iOS]**, **[!UICONTROL Android]** ou **[!UICONTROL Web]**.
+Para fazer isso, clique em **[!UICONTROL Simular conteúdo]**. Você pode selecionar o tipo de dispositivo para visualizar o conteúdo: **[!UICONTROL iOS]** ou **[!UICONTROL Android]**.
 
 ![](assets/push_preview_3.png)
 
@@ -59,7 +59,6 @@ Quando a mensagem de push estiver pronta, conclua a configuração da [jornada](
 **Tópicos relacionados**
 
 * [Configurar canal de push para dispositivos móveis](push-configuration.md)
-* [Configurar canal de push para Web](push-configuration-web.md)
 * [Relatório de notificação por push](../reports/journey-global-report-cja-push.md)
 * [Criar uma notificação por push](create-push.md)
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)
