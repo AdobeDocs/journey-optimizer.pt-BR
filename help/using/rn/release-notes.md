@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 124ff40cf7cdc0dfdaf67924ff5fb558c96e2956
+source-git-commit: 6c51328bdea0daf44b1315cf139b60d5bc2c5c76
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 22%
@@ -35,7 +35,7 @@ As seções [Recursos](#jan-26-01-features) e [Melhorias](#jan-26-01-improv) abo
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#jan-26-01-features}
 
@@ -179,7 +179,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Verificações de Qualidade de Conteúdo do Assistente de IA** - Além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas com a <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da sua marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou lacunas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality).
 
-  [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+  [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -265,7 +265,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <li>Suporte à reversão para migrações concluídas</li>
 <li>Relatórios de migração detalhados com mapeamentos de objetos</li>
 </ul>
-<p>Data de disponibilidade: sábado, 30 de janeiro de 2026</p>
+<p>Data de disponibilidade: quinta-feira, 11 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -281,7 +281,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <tr>
 <td>
 <p>Agora você pode personalizar e otimizar o conteúdo de suas <strong>Mensagens por push e SMS</strong> com a <strong>Decisão</strong>. Use Pontuações de prioridade, Fórmulas ou Modelos de IA para exibir o melhor conteúdo para seus clientes.</p>
-<p>Data de disponibilidade: terça-feira, 9 de fevereiro de 2026</p>
+<p>Data de disponibilidade: quinta-feira, 11 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -298,7 +298,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <td>
 <p>Uma nova <strong>Atividade de decisão de conteúdo</strong> está disponível na tela de jornada para integrar <strong>ofertas personalizadas</strong> diretamente às jornadas do cliente. Essa atividade permite fornecer conteúdo baseado em decisão e fazer referência a essas ofertas em toda a jornada, em condições para criar ramificações baseadas em elegibilidade, em ações personalizadas para transmitir dados de oferta a sistemas externos e em outras atividades para criar experiências do cliente totalmente personalizadas.</p>
 <p>Esse recurso estará disponível para todos os ambientes (Disponibilidade geral).</p>
-<p>Data de disponibilidade: terça-feira, 9 de fevereiro de 2026</p>
+<p>Data de disponibilidade: quinta-feira, 11 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -327,4 +327,4 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 
 * **Anexar fragmentos a itens de decisão** - A Journey Optimizer agora fornece a capacidade de anexar <strong>fragmentos</strong> a <strong>itens de decisão</strong> que podem ser aproveitados em campanhas de experiência baseadas em código por meio de políticas de decisão.
 
-  Data de disponibilidade: 9 de fevereiro de 2026.
+  Data de disponibilidade: 11 de fevereiro de 2026.
