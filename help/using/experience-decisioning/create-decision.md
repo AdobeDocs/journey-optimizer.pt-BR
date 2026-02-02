@@ -85,8 +85,8 @@ As principais etapas para aproveitar as políticas de decisão nas mensagens sã
 
 Saiba como usar o Decisioning para personalizar emails para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479215?captions=por_br&quality=12)
 
 Saiba como usar o Decisioning para personalizar notificações por push para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479215?captions=por_br&quality=12)
