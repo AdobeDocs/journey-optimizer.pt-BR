@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: d9534a5bbec3fdd24046a6e171f81498569f682f
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 76%
+source-wordcount: '320'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ As principais etapas para enviar mensagens de correspondência direta são as se
 
 >[!AVAILABILITY]
 >
->As mensagens de correspondência direta só podem ser criadas no contexto de jornadas e campanhas programadas. Eles não estão disponíveis para uso em campanhas orquestradas e acionadas por API.
+>Mensagens de correspondência direta podem ser criadas no contexto de jornadas e campanhas. Eles não estão disponíveis para uso em campanhas acionadas por API.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -45,4 +45,4 @@ As principais etapas para enviar mensagens de correspondência direta são as se
 
 Saiba como aproveitar o canal de correspondência direta no Adobe Journey Optimizer para automatizar e agendar entregas de correspondência direta em suas jornadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479167?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
