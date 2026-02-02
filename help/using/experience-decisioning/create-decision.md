@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
+source-git-commit: 6cfea1a34cb004d4028f190be92d8365f90de6b2
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 29%
+source-wordcount: '661'
+ht-degree: 27%
 
 ---
 
@@ -45,28 +45,12 @@ ht-degree: 29%
 
 As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue para cada membro do público. O objetivo é selecionar as melhores ofertas para cada perfil, enquanto a criação de campanha/jornada permite indicar como os itens de decisão selecionados devem ser apresentados, incluindo quais atributos de item devem ser incluídos na mensagem.
 
->[!AVAILABILITY]
->
->Por enquanto, as políticas de decisão estão disponíveis para todos os clientes para o Canal de experiência baseado em código. Eles estão disponíveis para o canal de email como uma Disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
-
-## Principais etapas {#key}
-
-As principais etapas para aproveitar as políticas de decisão nas mensagens são as seguintes:
-
-1. [Criar uma política de decisão](../experience-decisioning/create-decision-policy.md)
-
-   Defina uma política de decisão em sua mensagem escolhendo o número de itens a serem retornados, configurando estratégias de seleção, opções de fallback e ordem de avaliação.
-
-1. [Usar a política de decisão em seu conteúdo](../experience-decisioning/use-decision-policy.md)
-
-   Personalize o conteúdo com a saída da política de decisão e os atributos dos itens de decisão que você deseja exibir na mensagem.
-
-1. [Criar painéis de relatórios](cja-reporting.md)
-
-   Crie painéis personalizados do Customer Journey Analytics para medir o desempenho e obter insights sobre como as políticas e ofertas de decisão estão sendo fornecidas e envolvidas.
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Medidas de proteção e limitações
 
+* **Canais com suporte** - As políticas de decisão estão disponíveis para estes canais: experiência baseada em código, email e notificações por push.
+* **Requisito do SDK para notificações por push** - A Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
 * **Mirror pages de email** - Por enquanto, os itens de decisão não são renderizados em mirror pages de email.
 * **Tipo de rastreamento e links** - Para rastrear links gerados pela decisão, defina-os no esquema como &quot;Assets de decisão&quot;. Os links baseados em atributos não são rastreáveis.
 * **Aninhamento da política de decisão em emails** - Não é possível aninhar várias políticas de decisão em um componente de email principal que já tenha uma política de decisão associada.
@@ -79,14 +63,30 @@ As principais etapas para aproveitar as políticas de decisão nas mensagens sã
 
 * **Classificação de IA** - Por enquanto, a classificação de IA não é compatível com o canal de email em jornadas com decisão.
 
-## Próximas etapas {#next-steps}
+* **Modelos de conteúdo** - Qualquer política de decisão configurada no conteúdo não será salva no modelo. Se você aplicar o modelo a outra ação, precisará reconfigurar a política.
 
-Agora que você entende como as políticas de decisão funcionam e como elas ajudam a fornecer ofertas personalizadas, você está pronto para criar sua primeira política de decisão.
+## Principais etapas {#key}
 
-➡️ [Saiba como criar uma política de decisão](../experience-decisioning/create-decision-policy.md)
+As principais etapas para aproveitar as políticas de decisão nas mensagens são as seguintes:
 
-## Vídeo tutorial {#video}
+1. **Criar uma política de decisão**
+
+   Adicione uma política de decisão em sua mensagem e configure o número de itens a serem retornados, a estratégia de seleção e as opções de fallback.
+
+   ➡️ [Saiba como criar uma política de decisão](../experience-decisioning/create-decision-policy.md)
+
+1. **Usar a política de decisão em seu conteúdo**
+
+   Personalize o conteúdo com a saída da política de decisão inserindo os atributos dos itens de decisão que deseja exibir na mensagem
+
+   ➡️ [Saiba como usar políticas de decisão em mensagens](../experience-decisioning/create-decision-policy.md)
+
+## Vídeos tutoriais {#video}
 
 Saiba como usar o Decisioning para personalizar emails para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479215?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+
+Saiba como usar o Decisioning para personalizar notificações por push para seu público-alvo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
