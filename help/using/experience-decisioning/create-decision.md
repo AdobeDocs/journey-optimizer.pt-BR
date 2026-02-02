@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '625'
 ht-degree: 29%
 
 ---
@@ -85,3 +85,8 @@ Agora que você entende como as políticas de decisão funcionam e como elas aju
 
 ➡️ [Saiba como criar uma política de decisão](../experience-decisioning/create-decision-policy.md)
 
+## Vídeo tutorial {#video}
+
+Saiba como usar o Decisioning para personalizar emails para seu público-alvo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
