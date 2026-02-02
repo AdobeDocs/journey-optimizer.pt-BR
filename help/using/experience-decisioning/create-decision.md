@@ -89,4 +89,4 @@ Agora que você entende como as políticas de decisão funcionam e como elas aju
 
 Saiba como usar o Decisioning para personalizar emails para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479215?captions=por_br&quality=12)
