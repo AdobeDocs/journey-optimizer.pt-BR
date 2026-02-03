@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: cccaf1a2001be705728c316e2cd67e9178267b9a
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1935'
 ht-degree: 22%
 
 ---
@@ -35,11 +35,29 @@ As seções [Recursos](#jan-26-01-features) e [Melhorias](#jan-26-01-improv) abo
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#jan-26-01-features}
 
 <table>
+<thead>
+<tr>
+<th><strong>Monitoramento de ação personalizada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Insight Saiba mais sobre a integridade e o desempenho de seus <strong>pontos de extremidade de ação personalizados</strong> com um novo painel de monitoramento e dados de evento de etapa do jornada aprimorados. Rastreie chamadas bem-sucedidas, erros, taxa de transferência, tempos de resposta e tempos de espera da fila para entender rapidamente quando, onde e por que ocorrem anomalias.</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Para obter mais informações, consulte a <a href="../action/reporting.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quarta-feira, 3 de fevereiro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+
 <thead>
 <tr>
 <th><strong>Suporte à decisão no canal de SMS</strong><br/></th>
@@ -214,7 +232,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Verificações de Qualidade de Conteúdo do Assistente de IA** - Além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas com a <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da sua marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou lacunas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality).
 
-  [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+  [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Jornadas
 
