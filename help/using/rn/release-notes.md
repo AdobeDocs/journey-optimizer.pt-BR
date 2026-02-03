@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1862'
 ht-degree: 22%
 
 ---
@@ -35,7 +35,7 @@ As seções [Recursos](#jan-26-01-features) e [Melhorias](#jan-26-01-improv) abo
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#jan-26-01-features}
 
@@ -214,9 +214,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Verificações de Qualidade de Conteúdo do Assistente de IA** - Além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas com a <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da sua marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou lacunas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality).
 
-  [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
-
-#### Experience Decisioning
+  [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Jornadas
 
@@ -277,6 +275,12 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * **Impedir a autoaprovação para jornadas e campanhas** - Adição de uma opção ao criar ou definir a <strong>Política de Aprovação</strong> para impedir que os criadores de jornadas ou campanhas <strong>aprovem seus próprios objetos</strong>. [Leia mais](../test-approve/approval-policies.md)
 
   Data de disponibilidade: 27 de janeiro de 2026.
+
+#### SMS
+
+* **Webhooks de SMS** - Webhooks agora são aceitos em todos os provedores de SMS. Você pode configurar cada webhook com base na finalidade pretendida, webhooks de entrada para capturar mensagens de entrada e webhooks de feedback para receber confirmações de entrega, atualizações de status e outros eventos relacionados à mensagem. [Leia mais](../sms/sms-webhook.md)
+
+  Data de disponibilidade: 2 de fevereiro de 2026.
 
 ## Em breve {#jan-26-01-coming-soon}
 

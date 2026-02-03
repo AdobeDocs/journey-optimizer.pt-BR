@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 223209750f1147e97d003ffb9d7231c7cef75663
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3074'
 ht-degree: 98%
 
 ---
@@ -328,12 +328,12 @@ ht-degree: 98%
       + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
       + [Práticas recomendadas para otimização de custos de SMS](using/sms/sms-cost-optimization.md)
       + Configurar canal de SMS/MMS/RCS {#configure-sms}
-         + [Configurar canal de SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Introdução à configuração de SMS/MMS/RCS](using/sms/sms-configuration.md)
          + [Configurar provedor Sinch](using/sms/sms-configuration-sinch.md)
          + [Configurar provedor Infobip](using/sms/sms-configuration-infobip.md)
          + [Configurar provedor Twilio](using/sms/sms-configuration-twilio.md)
          + [Configurar um provedor personalizado](using/sms/sms-configuration-custom.md)
+         + [Criar webhook](using/sms/sms-webhook.md)
          + [Criar uma configuração de SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
    + Correspondência direta {#direct-mail}
       + [Correspondência direta](/help/rp_landing_pages/direct-mail-landing-page.md)
@@ -452,7 +452,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)

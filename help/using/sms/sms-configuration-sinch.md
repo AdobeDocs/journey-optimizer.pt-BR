@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 5b719ccfb38ea51d6f6c6a9204e235c022b01b4f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 2%
+source-wordcount: '1358'
+ht-degree: 1%
 
 ---
 
@@ -23,6 +23,13 @@ Ao usar o provedor Sinch com o Journey Optimizer, você pode encontrar três op�
 * **Configuração do MMS**: para mensagens multimídia (MMS), configure suas credenciais da API do Sinch MMS. Observe que o rastreamento e a resposta às mensagens de entrada são manipulados pela configuração do SMS. A configuração do MMS é somente para entrega de saída da mensagem MMS.
 
 * **Configuração do RCS**: configure suas credenciais da API Sinch para enviar mensagens do RCS sem problemas.
+
+Para configurar seu provedor Sinch, siga as etapas abaixo:
+
+1. [Criar credencial de API](#create-api)
+1. [Criar webhook](sms-webhook.md)
+1. [Criar configuração de canal](sms-configuration-surface.md)
+1. [Criar Jornada ou Campanha com ação de canal SMS](create-sms.md)
 
 ## Configurar credenciais de API para SMS{#create-api}
 
@@ -51,14 +58,14 @@ Para configurar seu provedor Sinch para enviar mensagens SMS e MMS com o Journey
    | Fornecedor de SMS | Sinch |
    | Nome | Escolha um nome para a credencial da API. |
    | ID de serviço e token de API | Para acessar a página APIs, você pode encontrar suas credenciais na guia SMS. Saiba mais em [Documentação da Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
-   | Palavras-chave de Opt-in | Insira as palavras-chave padrão ou personalizadas que acionarão automaticamente sua Mensagem de aceitação. Para várias palavras-chave, use valores separados por vírgulas. |
-   | Mensagem de Opt-in | Insira a resposta personalizada que é enviada automaticamente como sua mensagem de aceitação. |
-   | Palavras-chave de recusa | Insira as palavras-chave padrão ou personalizadas que acionarão automaticamente sua mensagem de recusa. Para várias palavras-chave, use valores separados por vírgulas. |
-   | Mensagem de recusa | Insira a resposta personalizada que é enviada automaticamente como sua mensagem de recusa. |
-   | Palavras-chave da Ajuda | Insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua **Mensagem de Ajuda**. Para várias palavras-chave, use valores separados por vírgulas. |
-   | Mensagem de ajuda | Digite a resposta personalizada que é enviada automaticamente como sua **Mensagem de Ajuda**. |
-   | Palavras-chave de aceitação dupla | Insira as palavras-chave que acionam o processo de aceitação dupla. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. Para várias palavras-chave, use valores separados por vírgulas. [Saiba mais sobre a Aceitação Dupla de SMS](https://video.tv.adobe.com/v/3440282/?captions=por_br&learn=on). |
-   | Mensagem de aceitação dupla | Insira a resposta personalizada que é enviada automaticamente em resposta à confirmação de aceitação dupla. |
+   | Palavras-chave de Opt-in | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Insira as palavras-chave padrão ou personalizadas que acionarão automaticamente sua Mensagem de Opt-In. Para várias palavras-chave, use valores separados por vírgulas. |
+   | Mensagem de Opt-in | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br> Digite a resposta personalizada que é enviada automaticamente como sua mensagem de aceitação. |
+   | Palavras-chave de recusa | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br> Insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua mensagem de recusa. Para várias palavras-chave, use valores separados por vírgulas. |
+   | Mensagem de recusa | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Digite a resposta personalizada que é enviada automaticamente como sua mensagem de recusa. |
+   | Palavras-chave da Ajuda | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br> Digite as palavras-chave padrão ou personalizadas que dispararão automaticamente sua **Mensagem de Ajuda**. Para várias palavras-chave, use valores separados por vírgulas. |
+   | Mensagem de ajuda | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Digite a resposta personalizada que é enviada automaticamente como sua **Mensagem de Ajuda**. |
+   | Palavras-chave de aceitação dupla | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Insira as palavras-chave que disparam o processo de aceitação dupla. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. Para várias palavras-chave, use valores separados por vírgulas. [Saiba mais sobre a Aceitação Dupla de SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
+   | Mensagem de aceitação dupla | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Insira a resposta personalizada que é enviada automaticamente em resposta à confirmação de aceitação dupla. |
    | Número de entrada | Adicione seu número de entrada exclusivo ou código curto. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada ou código curto. |
    | Palavras-chave de entrada personalizadas | Defina palavras-chave exclusivas e não relacionadas a consentimento para ações baseadas em lote, por exemplo, DESCONTO, OFERTAS, INSCRIÇÃO. Essas palavras-chave são capturadas e armazenadas como atributos no perfil, permitindo acionar uma qualificação de segmento em lote na jornada e fornecer uma resposta ou ação personalizada. |
    | Mensagem de resposta de entrada padrão | Insira a resposta padrão que é enviada quando um usuário final envia um SMS de entrada que não corresponde a nenhuma das palavras-chave definidas. |
@@ -86,7 +93,7 @@ Para configurar seu provedor Sinch para enviar mensagens SMS e MMS com o Journey
 
    ![](assets/verify-connection.png)
 
-Depois de criar e configurar a credencial da API, agora é necessário criar uma configuração de canal para mensagens SMS. [Saiba mais](sms-configuration-surface.md)
+Depois de criar e configurar sua credencial de API, agora é necessário criar [seu Webhook](sms-webhook.md) e uma configuração de canal para suas mensagens RCS. [Saiba mais](sms-configuration-surface.md)
 
 ## Configurar credenciais de API para MMS{#sinch-mms}
 
@@ -115,8 +122,7 @@ Para configurar o Sinch MMS para enviar o MMS com o Journey Optimizer, siga esta
 
 1. Para modificar as credenciais existentes, localize as credenciais de API desejadas e clique na opção **[!UICONTROL Editar]** para fazer as alterações necessárias.
 
-Depois de criar e configurar a credencial da API, agora é necessário criar uma configuração de canal para mensagens MMS. [Saiba mais](sms-configuration-surface.md)
-
+Depois de criar e configurar sua credencial de API, agora é necessário criar [seu Webhook](sms-webhook.md) e uma configuração de canal para suas mensagens RCS. [Saiba mais](sms-configuration-surface.md)
 
 ## Configurar credencial de API para RCS
 
