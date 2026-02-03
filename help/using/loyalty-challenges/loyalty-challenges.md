@@ -92,7 +92,7 @@ Antes de usar os desafios de fidelidade, verifique se você tem:
 
   Para obter instruções detalhadas, consulte:
 
-   * [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+   * [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
    * [Configurar conectores de origem no Journey Optimizer](../start/get-started-sources.md)
 
 * Permissões necessárias {#required-permissions}
@@ -1042,5 +1042,5 @@ Durante a fase beta, seus comentários são valiosos para nos ajudar a melhorar 
 * [Criar notificações por push](../push/create-push.md)
 * [Criar jornadas](../building-journeys/journey-gs.md)
 * [Monitorar suas jornadas](../building-journeys/report-journey.md)
-* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
 * [Configurar conectores de origem no Journey Optimizer](../start/get-started-sources.md)
