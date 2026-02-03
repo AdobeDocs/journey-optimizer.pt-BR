@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
 workflow-type: tm+mt
-source-wordcount: '3074'
+source-wordcount: '3086'
 ht-degree: 98%
 
 ---
@@ -132,7 +132,11 @@ ht-degree: 98%
       + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
       + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
-+ [Desafios de fidelidade](using/loyalty-challenges/loyalty-challenges.md)
++ Desafios de fidelidade {#loyalty-challenges}
+   + [Introdução aos desafios de fidelidade](using/loyalty-challenges/gs-loyalty-challenges.md)
+   + [Entender os desafios da fidelidade](using/loyalty-challenges/get-started.md)
+   + [Criar desafios](using/loyalty-challenges/create-challenges.md)
+   + [Gerenciar desafios](using/loyalty-challenges/manage-challenges.md)
 + Campanhas {#campaigns}
    + [Campanhas](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
@@ -452,7 +456,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
