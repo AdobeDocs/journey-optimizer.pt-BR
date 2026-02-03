@@ -87,17 +87,9 @@ Consulte a [documentação principal](loyalty-challenges.md#monitor-performance)
 
 ## Práticas recomendadas {#best-practices}
 
-### Criação de desafios
-* Comece simples para o seu primeiro desafio
-* Teste completamente antes de publicar na produção
-* Assegurar uma comunicação clara sobre requisitos e recompensas
-* Definir um cronograma realista, permitindo que os clientes concluam os desafios
+### Criação de desafios* Comece simples para o seu primeiro desafio* Teste completamente antes de publicar na produção* Assegurar uma comunicação clara sobre requisitos e recompensas* Definir um cronograma realista, permitindo que os clientes concluam os desafios
 
-### Gerenciamento e monitoramento
-* Verificar o desempenho do desafio regularmente (pelo menos uma vez por semana para desafios em tempo real)
-* Usar nomes descritivos indicando finalidade, público-alvo ou período
-* Aplicar tags consistentes para a organização
-* Arquive os desafios completos para manter o inventário gerenciável
+### Gerenciamento e monitoramento* Verificar o desempenho do desafio regularmente (pelo menos uma vez por semana para desafios em tempo real)* Usar nomes descritivos indicando finalidade, público-alvo ou período* Aplicar tags consistentes para a organização* Arquive os desafios completos para manter o inventário gerenciável
 
 Consulte a [documentação principal](loyalty-challenges.md#best-practices) para obter práticas recomendadas abrangentes.
 
