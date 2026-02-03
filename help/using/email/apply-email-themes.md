@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de email, Módulos, Reutilização, Consistência de marca, Design de email, CSS personalizado, Otimização móvel
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 365ed7f735760ee5763d0f12ea366c662a097948
+source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1741'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,12 @@ Esse recurso permite que os profissionais de marketing aproveitem emails visualm
    * Você também pode converter o conteúdo importado do HTML. [Saiba mais](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
+
+* Ao usar fontes personalizadas da Web (incluindo fontes do Google) em seus temas, lembre-se de que muitos clientes de email não oferecem suporte a elas. Sempre defina fontes substitutas apropriadas em seu tema para garantir a legibilidade em todos os clientes de email.
+
+   * Gmail e Yahoo! não carregar fontes externas da web e recorrerá às fontes do sistema, independentemente da família de fontes especificada no HTML/CSS.
+   * As únicas fontes do Google compatíveis com o Gmail são as Sans Roboto e Google.
+   * Os clientes de email que *oferecem suporte* às fontes da Web incluem o Apple Mail, o iOS Mail, o Android Mail, o Thunderbird e o Outlook para macOS.
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
@@ -99,6 +105,10 @@ Para definir um tema que você pode aproveitar em seu conteúdo de email futuro,
 1. Nas **[!UICONTROL Configurações de texto]**, é possível definir a fonte global que deseja usar para todo o tema. Para um controle mais granular, também é possível editar cada texto de cabeçalho e parágrafo para ajustar a fonte, o tamanho, o estilo e assim por diante.
 
    ![](assets/theme-text.png)
+
+   >[!NOTE]
+   >
+   >Ao selecionar fontes personalizadas da Web, observe que muitos clientes de email, como Gmail e Yahoo! não suportam fontes externas da web e recorrerão às fontes do sistema. Considere incluir fontes substitutas para garantir que o conteúdo seja exibido corretamente em todos os clientes de email. [Saiba mais](#themes-guardrails)
 
 1. Na guia **[!UICONTROL Espaçamento]**, selecione um elemento individual na lista para espaçá-lo corretamente entre os diferentes componentes.
 
