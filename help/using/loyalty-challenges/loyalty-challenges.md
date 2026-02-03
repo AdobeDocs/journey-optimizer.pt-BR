@@ -452,6 +452,7 @@ Escolha quando os clientes receberão recompensas:
 
 * Insira o número de pontos (por exemplo, 100)
 * Os pontos são comunicados ao seu sistema externo de gerenciamento de fidelidade por meio da API
+
 ## Configurar cartões de conteúdo {#configure-content-cards}
 
 Os cartões de conteúdo são a principal forma de exibir os desafios para os clientes em seus dispositivos. Você deve configurar um cartão de conteúdo para seu desafio.
