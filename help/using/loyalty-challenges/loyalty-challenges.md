@@ -200,7 +200,7 @@ Para criar um novo desafio de fidelidade:
 
 Para criar ou refinar públicos, consulte [Criar públicos no Journey Optimizer](../audience/about-audiences.md).
 
-4. Selecione **[!UICONTROL Salvar como rascunho]** para continuar configurando seu desafio.
+&#x200B;4. Selecione **[!UICONTROL Salvar como rascunho]** para continuar configurando seu desafio.
 
 ## Criar tarefas {#create-tasks}
 
