@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,6 @@ Os desafios passam por diferentes status:
 * **Parado**: parado manualmente antes da conclusão
 * **Arquivado**: arquivado para fins organizacionais
 
-Para obter informações detalhadas sobre cada status e gerenciamento de desafios, consulte a [documentação principal](loyalty-challenges.md#manage-challenges).
-
 ## Editar desafios {#edit-challenges}
 
 É possível editar os desafios dependendo de seu status atual:
@@ -60,8 +58,6 @@ Para obter informações detalhadas sobre cada status e gerenciamento de desafio
 
 Para alterações que exigem grandes modificações, duplique o desafio e crie uma nova versão.
 
-Consulte a [documentação principal](loyalty-challenges.md#edit-challenges) para obter diretrizes de edição detalhadas.
-
 ## Desafios duplicados {#duplicate-challenges}
 
 Desafios duplicados para:
@@ -69,8 +65,6 @@ Desafios duplicados para:
 * Criar variações para públicos diferentes
 * Atualizar requisitos ou recompensas da tarefa
 * Reativar desafios interrompidos ou concluídos
-
-Consulte a [documentação principal](loyalty-challenges.md#duplicate-challenge) para obter etapas detalhadas.
 
 ## Monitorar desempenho {#monitor-performance}
 
@@ -82,8 +76,6 @@ Acompanhe o desempenho de desafios por meio de:
 * **Métricas de envolvimento**: impressões do cartão de conteúdo, entrega de mensagens
 
 Acesse os dados de desempenho na guia Desempenho do desafio e nos relatórios do jornada gerados automaticamente.
-
-Consulte a [documentação principal](loyalty-challenges.md#monitor-performance) para obter métricas e relatórios detalhados.
 
 ## Práticas recomendadas {#best-practices}
 
@@ -101,8 +93,6 @@ Consulte a [documentação principal](loyalty-challenges.md#monitor-performance)
 * Aplicar tags consistentes para a organização
 * Arquive os desafios completos para manter o inventário gerenciável
 
-Consulte a [documentação principal](loyalty-challenges.md#best-practices) para obter práticas recomendadas abrangentes.
-
 ## Solução de problemas {#troubleshooting}
 
 Problemas comuns e soluções:
@@ -111,8 +101,6 @@ Problemas comuns e soluções:
 * **Baixas taxas de participação**: visibilidade do conteúdo de análise, clareza de mensagens, capacidade de realização de tarefas
 * **Tarefas não acionadas**: verifique a assimilação de dados, os atributos do evento, a qualificação do público-alvo
 * **Recompensas não alocadas**: confirme a configuração e a conexão com o sistema externo
-
-Consulte a [documentação principal](loyalty-challenges.md#troubleshooting) para obter orientações detalhadas sobre solução de problemas.
 
 ## Próximas etapas {#next-steps}
 

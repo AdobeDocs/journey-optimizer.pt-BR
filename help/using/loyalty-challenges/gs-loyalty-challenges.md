@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 3%
 
 ---
@@ -94,7 +94,7 @@ Para obter pré-requisitos detalhados, consulte [Entender os desafios de fidelid
   </td>
   <td>
     <a href="create-challenges.md">
-      <img alt="Criar" src="../assets/do-not-localize/start-button.svg">
+      <!--<img alt="Create" src="../assets/do-not-localize/start-button.svg">-->
     </a>
     <div>
     <a href="create-challenges.md"><strong>Criar desafios</strong></a>
@@ -105,7 +105,7 @@ Para obter pré-requisitos detalhados, consulte [Entender os desafios de fidelid
   </td>
   <td>
     <a href="manage-challenges.md">
-    <img alt="Gerenciar" src="../assets/do-not-localize/monitor-button.svg">
+    <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
     </a>
     <div>
     <a href="manage-challenges.md"><strong>Gerenciar desafios</strong></a>
