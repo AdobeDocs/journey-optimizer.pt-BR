@@ -9,25 +9,23 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
+badge: label="Beta privado" type="Informative"
 version: Journey Orchestration
-source-git-commit: 223209750f1147e97d003ffb9d7231c7cef75663
+source-git-commit: ee67a1a9270c12fdf199bc378deaa6006553533c
 workflow-type: tm+mt
-source-wordcount: '4945'
+source-wordcount: '4925'
 ht-degree: 1%
 
 ---
 
-<!-- markdownlint-disable MD025 -->
-# Desafios de fidelidade {#loyalty-challenges}
 
-Os Desafios de fidelidade permitem criar ofertas de envolvimento personalizadas para seus clientes, ajudando você a organizar programas de fidelidade em escala. Você pode projetar desafios com tarefas e marcos específicos, recompensar os clientes por concluí-los e fornecer a experiência por meio de canais da Adobe Journey Optimizer.
+# Desafios de fidelidade {#loyalty-challenges}
 
 >[!AVAILABILITY]
 >
->Os Desafios de Fidelidade estão atualmente em **beta**. Durante a fase beta, essa documentação fica oculta e acessível somente por meio da ajuda contextual da interface do usuário de desafios de fidelidade.
->
->Se você não vir os desafios de fidelidade em sua instância, entre em contato com o representante da Adobe para solicitar acesso ao beta.
+>Este recurso está atualmente no **beta privado** e pode não estar disponível em seu ambiente. Entre em contato com o representante da Adobe para obter acesso.
+
+Os Desafios de fidelidade permitem criar ofertas de envolvimento personalizadas para seus clientes, ajudando você a organizar programas de fidelidade em escala. Você pode projetar desafios com tarefas e marcos específicos, recompensar os clientes por concluí-los e fornecer a experiência por meio de canais da Adobe Journey Optimizer.
 
 >[!BEGINSHADEBOX]
 >
@@ -92,7 +90,7 @@ Antes de usar os desafios de fidelidade, verifique se você tem:
 
   Para obter instruções detalhadas, consulte:
 
-   * [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+   * [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Configurar conectores de origem no Journey Optimizer](../start/get-started-sources.md)
 
 * Permissões necessárias {#required-permissions}
@@ -200,7 +198,7 @@ Para criar um novo desafio de fidelidade:
 
 Para criar ou refinar públicos, consulte [Criar públicos no Journey Optimizer](../audience/about-audiences.md).
 
-&#x200B;4. Selecione **[!UICONTROL Salvar como rascunho]** para continuar configurando seu desafio.
+4. Selecione **[!UICONTROL Salvar como rascunho]** para continuar configurando seu desafio.
 
 ## Criar tarefas {#create-tasks}
 
@@ -1042,5 +1040,5 @@ Durante a fase beta, seus comentários são valiosos para nos ajudar a melhorar 
 * [Criar notificações por push](../push/create-push.md)
 * [Criar jornadas](../building-journeys/journey-gs.md)
 * [Monitorar suas jornadas](../building-journeys/report-journey.md)
-* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurar conectores de origem no Journey Optimizer](../start/get-started-sources.md)
