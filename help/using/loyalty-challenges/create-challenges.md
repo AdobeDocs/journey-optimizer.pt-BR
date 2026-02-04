@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1445'
 ht-degree: 0%
 
 ---
@@ -71,13 +71,13 @@ Na guia **[!UICONTROL Estrutura]**, defina como seu desafio é organizado: suas 
 
 ### Agendar o desafio {#schedule}
 
-Configure quando seu desafio for executado selecionando o ícone ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Abrir agendamento]**:
+Configure quando seu desafio for executado selecionando o ícone **[!UICONTROL Abrir agendamento]**:
 
-![](assets/challenge-create-properties.png)
+![](assets/challenge-create-schedule.png)
 
 * **[!UICONTROL Data e hora de início]**: definir quando o desafio ficará disponível para os clientes.
 * **[!UICONTROL Data e hora de término]**: definida quando o desafio expira e não aceita mais novas conclusões.
-   * **[!UICONTROL Fuso horário]**: o desafio usa o fuso horário local do destinatário por padrão.
+* **[!UICONTROL Fuso horário]**: o desafio usa o fuso horário local do destinatário por padrão.
 * **[!UICONTROL As tarefas devem ser concluídas]**: escolha quando os clientes poderão concluir as tarefas:
 
    * **[!UICONTROL A qualquer momento durante o desafio]**: os clientes podem concluir tarefas a qualquer momento entre as datas de início e término do desafio.
@@ -89,17 +89,6 @@ A programação de desafio agora está configurada. Em seguida, adicione as tare
 
 As tarefas definem as ações específicas que os clientes devem concluir para ganhar recompensas. Você pode configurar tipos de tarefa (compra, gastos), quantidades, filtros de produto e outros atributos.
 
-Dependendo do seu tipo de desafio, os clientes concluem as tarefas de forma diferente:
-
-* **Desafios padrão**: conclua qualquer número especificado de tarefas em qualquer ordem\
-  *Exemplo: Conclua 3 de 5 tarefas - faça uma compra, escreva uma revisão, indique um amigo, compartilhe em redes sociais ou atualize o perfil*
-
-* **Distribuir desafios**: complete a mesma tarefa várias vezes consecutivamente\
-  *Exemplo: faça uma compra por 7 dias consecutivos para ganhar prêmios de bônus*
-
-* **Desafios sequenciais**: concluir tarefas em uma ordem definida\
-  *Exemplo: primeiro faça uma compra, depois escreva uma revisão e, em seguida, compartilhe em redes sociais - as tarefas devem ser concluídas nesta sequência exata*
-
 Para adicionar tarefas ao seu desafio, siga estas etapas:
 
 1. Na seção **[!UICONTROL Tarefas]**, selecione **[!UICONTROL Adicionar tarefa]**.
@@ -108,12 +97,41 @@ Para adicionar tarefas ao seu desafio, siga estas etapas:
 
 1. O **[!UICONTROL Inventário de tarefas]** é aberto. Selecione uma ou mais tarefas na lista e selecione **[!UICONTROL Adicionar]**. Para criar uma nova tarefa, selecione **[!UICONTROL Nova]**. [Saiba como criar e configurar tarefas](create-tasks.md).
 
-1. Na seção **[!UICONTROL Requisito de conclusão da tarefa]**, especifique quando o desafio será considerado concluído:
+1. Especificar quando o desafio é considerado concluído. As configurações disponíveis dependem do tipo de desafio:
 
-   * **[!UICONTROL O cliente escolhe 1 tarefa para ser concluída]**: os clientes podem selecionar e concluir qualquer tarefa individual para receber recompensas.
-   * **[!UICONTROL O cliente conclui um número específico de tarefas]**: os clientes devem concluir um número definido de tarefas.
+   +++Desafios padrão
 
-1. Por padrão, os desafios permitem que os clientes concluam tarefas em várias transações. Para exigir que todas as tarefas sejam concluídas em uma única transação, selecione o ícone ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Configurações]** e alterne na opção abaixo.
+   **[!UICONTROL Requisito de conclusão da tarefa]** - Escolha entre:
+
+   * **[!UICONTROL O cliente escolhe 1 tarefa para ser concluída]**: os clientes podem selecionar e concluir qualquer tarefa individual para receber recompensas
+   * **[!UICONTROL O cliente conclui um número específico de tarefas]**: os clientes devem concluir um número definido de tarefas. Especifique o número necessário - *Exemplo: Conclua 3 de 5 tarefas*
+
+   +++
+
+   +++Desafios do Streak
+
+   * **[!UICONTROL Tipo de transmissão]**:
+
+      * **Consecutiva**: os clientes devem concluir a tarefa em dias consecutivos sem interrupções - *Exemplo: Compra na segunda, terça, quarta - falta um dia interrompe a sequência*
+
+      * **Não consecutivo**: os clientes podem concluir a tarefa com intervalos entre as conclusões - *Exemplo: compras 7 concluídas em 30 dias, com quebras permitidas*
+
+   * **[!UICONTROL Comprimento da sequência]**: especifique quantas vezes a tarefa deve ser concluída - *Exemplo: defina como 7 para uma &quot;sequência de compras de 7 dias&quot;*
+
+   +++
+
+   +++Desafios sequenciais
+
+   **[!UICONTROL Requisito de conclusão da tarefa]** - Escolha entre:
+
+   * **[!UICONTROL O cliente escolhe 1 tarefa para ser concluída]**: os clientes podem selecionar e concluir qualquer tarefa individual para receber recompensas
+   * **[!UICONTROL O cliente conclui um número específico de tarefas]**: os clientes devem concluir um número definido de tarefas na ordem exata que você definir. Faltando ou ignorando uma tarefa interrompe a sequência. Especifique o número necessário (por exemplo, 3 de 5 tarefas concluídas)
+
+   *Exemplo: Tarefa 1 (Compra) → Tarefa 2 (Revisão) → Tarefa 3 (Compartilhamento) - deve ser concluída nesta ordem*
+
+   +++
+
+1. Por padrão, os desafios padrão e sequenciais permitem que os clientes concluam tarefas em várias transações. Para exigir que todas as tarefas sejam concluídas em uma única transação, selecione o ícone ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Configurações]** e alterne na opção abaixo.
 
    ![](assets/challenge-create-single-transaction.png)
 
