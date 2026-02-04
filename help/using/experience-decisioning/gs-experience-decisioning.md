@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '647'
 ht-degree: 22%
 
 ---
@@ -97,6 +97,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 * **[Definir estratégias de seleção](selection-strategies.md)** - Descubra como criar estratégias de seleção com regras de qualificação e métodos de classificação.
 * **[Criar políticas de decisão](create-decision-policy.md)** - Saiba como criar políticas de decisão que combinam estratégias e restrições.
 * **[Modelos de classificação e IA](ranking/ranking.md)** - Fórmulas de classificação mestre e modelos de IA para decisões personalizadas.
+* **[Migrar da Gestão de decisões](migrate-to-decisioning.md)** - Entenda os benefícios da migração para o Decisioning e use APIs de ferramentas de migração.
 * **[Medidas de proteção de decisão](decisioning-guardrails.md)** - Revise limitações importantes e práticas recomendadas para a implementação da decisão.
 * **[Tutoriais de decisão](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre recursos de decisão e práticas recomendadas.
 
@@ -104,4 +105,4 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
 Saiba mais sobre os recursos de decisão no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475868?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

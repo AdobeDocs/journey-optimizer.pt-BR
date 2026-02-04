@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8c00784f80363183805175bea576a029f30d4c27
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1710'
 ht-degree: 21%
 
 ---
@@ -35,9 +35,32 @@ As seções [Recursos](#jan-26-01-features) e [Melhorias](#jan-26-01-improv) abo
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Novos recursos {#jan-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>APIs de ferramentas de migração de autoatendimento</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>As APIs de ferramentas de migração</strong> agora estão disponíveis para migrar de forma programática entidades de gestão de decisões para o Decisioning, apresentando:</p>
+<ul>
+<li>Escopos de migração flexíveis (nível de sandbox, oferta ou decisão)</li>
+<li>Análise e validação automatizadas de dependências</li>
+<li>Suporte à reversão para migrações concluídas</li>
+<li>Relatórios de migração detalhados com mapeamentos de objetos</li>
+</ul>
+<p>Para obter mais informações, consulte a <a href="../experience-decisioning/decisioning-migration-api.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quarta-feira, 3 de fevereiro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -232,7 +255,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Verificações de Qualidade de Conteúdo do Assistente de IA** - Além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas com a <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da sua marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou lacunas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality).
 
-  [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+  [Descubra este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Jornadas
 
@@ -306,28 +329,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 In the next few days, the following capabilities and enhancements are scheduled for release. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
 
 ### Features
-
-<table>
-<thead>
-<tr>
-<th><strong>Self-service migration tooling APIs</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Migration tooling APIs</strong> are now available to programmatically migrate Decision management entities to Decisioning, featuring:</p>
-<ul>
-<li>Flexible migration scopes (sandbox, offer, or decision level)</li>
-<li>Automated dependency analysis and validation</li>
-<li>Rollback support for completed migrations</li>
-<li>Detailed migration reports with object mappings</li>
-</ul>
-<p>Availability date: February 11, 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>

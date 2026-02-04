@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3091'
 ht-degree: 98%
 
 ---
@@ -456,7 +456,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -608,7 +608,9 @@ ht-degree: 98%
       + [Introdução ao serviço de decisão](using/experience-decisioning/gs-experience-decisioning.md)
       + [Medidas de proteção e limitações do serviço de decisão](using/experience-decisioning/decisioning-guardrails.md)
       + [Perguntas frequentes sobre decisão](using/experience-decisioning/decisioning-faq.md)
-      + [Migração da Gestão de decisões para a Decisão](using/experience-decisioning/migrate-to-decisioning.md)
+      + Migrar para a Decisão {#migrate-to-decisioning}
+         + [Benefícios da migração para o Decisioning](using/experience-decisioning/migrate-to-decisioning.md)
+         + [API de migração de decisão](using/experience-decisioning/decisioning-migration-api.md)
       + Referência da API {#experience-decisioning-api-reference}
          + [Referência da API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + [Introdução às APIs de tomada de decisão](using/experience-decisioning/api-reference/getting-started.md)

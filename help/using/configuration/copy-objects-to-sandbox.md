@@ -9,9 +9,9 @@ role: User, Developer
 level: Experienced
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1728'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 Você pode copiar objetos como jornadas, ações personalizadas, modelos de conteúdo ou fragmentos em várias sandboxes usando recursos de exportação e importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.
 
-Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso propriamente dito, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=pt-BR#abobe-journey-optimizer-objects){target="_blank"} do Adobe Experience Platform.
+Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso propriamente dito, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"} do Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -31,6 +31,10 @@ O processo de cópia é realizado por meio de uma exportação e importação de
 1. [Adicionar o objeto para exportar como um pacote na sandbox de origem](#export)
 1. [Publicar o pacote](#publish)
 1. [Importar o pacote na sandbox de destino](#import)
+
+>[!NOTE]
+>
+>Para migrar objetos de Gestão de decisões para o Decisioning, use a [API de migração de decisão](../experience-decisioning/decisioning-migration-api.md) dedicada, que fornece recursos automatizados de resolução de dependências e reversão especificamente projetados para a migração de entidade de decisão.
 
 ## Objetos exportados e práticas recomendadas {#objects}
 
@@ -46,7 +50,7 @@ O Journey Optimizer permite exportar jornadas, ações personalizadas, modelos d
 
 +++ Jornadas
 
-* **Dependências copiadas** - Ao exportar uma jornada, além da própria jornada, o Journey Optimizer jornada também copia a maioria dos objetos dos quais ela depende: públicos-alvo, ações personalizadas, esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=pt-BR#abobe-journey-optimizer-objects){target="_blank"} do Adobe Experience Platform.
+* **Dependências copiadas** - Ao exportar uma jornada, além da própria jornada, o Journey Optimizer jornada também copia a maioria dos objetos dos quais ela depende: públicos-alvo, ações personalizadas, esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"} do Adobe Experience Platform.
 
 * **Validação manual recomendada** - Não garantimos que todos os elementos vinculados sejam copiados para a sandbox de destino. É altamente recomendável executar uma verificação completa, por exemplo, antes de publicar uma jornada. Isso permite identificar qualquer objeto ausente em potencial.
 

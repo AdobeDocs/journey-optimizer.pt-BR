@@ -1,5 +1,5 @@
 ---
-title: Introdução às APIs de decisão
+title: Introdução às APIs de tomada de decisão
 description: Saiba como começar a usar as APIs de decisão para gerenciar programaticamente itens de decisão e fornecer ofertas personalizadas.
 feature: API, Decisioning
 topic: Integrations
@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 exl-id: 7a4b5d4e-9c1d-4f3a-b8e9-1d5f6e7a8c3a
 version: Journey Orchestration
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 4%
+source-wordcount: '331'
+ht-degree: 5%
 
 ---
 
@@ -60,3 +60,7 @@ Agora que você entende as noções básicas das APIs de decisão, é possível 
 * [Criar regras de elegibilidade](eligibility-rules/create.md)
 
 Para obter mais informações sobre como usar a decisão em suas campanhas e jornadas, consulte a [documentação sobre decisões](../gs-experience-decisioning.md).
+
+>[!NOTE]
+>
+>Se precisar migrar objetos existentes do Gerenciamento de decisão para o Decisioning, use a [API de migração de decisão](../decisioning-migration-api.md) dedicada. Essa API especializada fornece recursos automatizados de resolução de dependências e reversão especificamente projetados para a migração de entidades de decisão em sandboxes.
