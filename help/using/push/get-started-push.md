@@ -35,12 +35,12 @@ Use as guias dedicadas para definir as configurações de notificação por push
 
 >[!NOTE]
 >
->Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção de não participação em emails e mensagens SMS, as notificações por push não exigem nenhuma ação da sua parte, pois os destinatários podem cancelar inscrição por meio dos seus próprios dispositivos. Por exemplo, ao baixar ou ao usar seu aplicativo, eles podem optar por parar as notificações. Da mesma forma, é possível alterar as configurações de notificação por meio do sistema operacional móvel.
+>Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção de não participação em emails e mensagens SMS, as notificações por push não exigem nenhuma ação da sua parte, pois os destinatários podem cancelar inscrição por meio dos seus próprios dispositivos. Por exemplo, ao baixar ou ao usar seu aplicativo, é possível optar por parar as notificações. Da mesma forma, é possível alterar as configurações de notificação por meio do sistema operacional móvel.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
-<img alt="Cliente potencial" src="../assets/do-not-localize/push-create.jpg">
+<img alt="Lead" src="../assets/do-not-localize/push-create.jpg">
 </a>
 <div><a href="create-push.md"><strong>Criar uma notificação por push</strong>
 </div>
@@ -48,7 +48,7 @@ Use as guias dedicadas para definir as configurações de notificação por push
 </td>
 <td>
 <a href="design-push.md">
-<img alt="Pouco frequentes" src="../assets/do-not-localize/push-design.jpg">
+<img alt="Pouco frequente" src="../assets/do-not-localize/push-design.jpg">
 </a>
 <div>
 <a href="design-push.md"><strong>Projetar a notificação por push</strong></a>

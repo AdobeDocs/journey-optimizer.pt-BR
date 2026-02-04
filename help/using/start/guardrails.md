@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '3977'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -189,7 +189,7 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 * Além do tempo limite usado em atividades de jornada, também há um tempo-limite de jornada global que não é exibido na interface e não pode ser alterado. Esse tempo-limite global interrompe o progresso das pessoas na jornada 91 dias após a sua entrada. [Leia mais](../building-journeys/journey-properties.md#global_timeout)
 
 
-#### Jornada validação de tamanho do conteúdo {#journey-payload-size}
+#### Validação de tamanho do conteúdo da jornada {#journey-payload-size}
 
 Ao salvar ou publicar uma jornada, o Journey Optimizer valida o tamanho total do conteúdo da jornada para preservar a estabilidade e o desempenho.
 
@@ -197,17 +197,17 @@ Ao salvar ou publicar uma jornada, o Journey Optimizer valida o tamanho total do
 
 * **Tamanho máximo de solicitação padrão**: 2 MB (2.000.000 bytes). Algumas organizações podem ter limites personalizados configurados pela Adobe.
 * **Limite de aviso**: 90% do limite máximo.
-* **Limite de erros**: 100% do limite máximo. Salvar ou publicar está bloqueado e a solicitação retorna **HTTP 413 Entidade de Solicitação Muito Grande**.
+* **Limite de erro**: 100% do limite máximo. A ação de salvar ou publicar está bloqueada e a solicitação retorna **HTTP 413 entidade de solicitação muito grande**.
 
 **Cenários de experiência do usuário**
 
-* **Carga &lt; 90% do limite**: a Jornada é salva e publicada com êxito. Nenhum aviso ou erro é exibido.
-* **Carga 90-99% do limite**: a Jornada é salva e publicada com êxito, com um aviso para otimizar. Mensagem de aviso: **Aviso**: o tamanho da carga da Jornada está próximo do limite. Maior nó: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamanho: [N] bytes).
-* **Carga >= 100% do limite**: o salvamento ou a publicação da Jornada está bloqueado com um erro. Mensagem de erro: **Erro**: o tamanho da carga da Jornada excede o limite. Maior nó: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamanho: [N] bytes).
+* **Conteúdo &lt; 90% do limite**: a jornada é salva e publicada com êxito. Nenhum aviso ou erro é exibido.
+* **Conteúdo 90-99% do limite**: a jornada é salva e publicada com êxito, com um aviso para otimizar. Mensagem de aviso: **Aviso**: o tamanho do conteúdo da jornada está próximo do limite. Maior nó: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamanho: [N] bytes).
+* **Conteúdo >= 100% do limite**: o salvamento ou a publicação da jornada está bloqueado com um erro. Mensagem de erro: **Erro**: o tamanho do conteúdo da jornada excede o limite. Maior nó: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamanho: [N] bytes).
 
-**Detalhes da resposta ao erro**
+**Detalhes da resposta de erro**
 
-Se a solicitação exceder o tamanho máximo permitido, a resposta incluirá **Entidade de Solicitação Muito Grande**. A carga da jornada excede o tamanho máximo permitido. Revise os detalhes do erro e otimize sua jornada.
+Se a solicitação exceder o tamanho máximo permitido, a resposta incluirá **Entidade de solicitação muito grande**. O conteúdo da jornada excede o tamanho máximo permitido. Revise os detalhes do erro e otimize a jornada.
 
 **Solução de problemas e recomendações**
 
@@ -333,7 +333,7 @@ As seguintes medidas de proteção se aplicam às atividades do **[!UICONTROL Ca
 
 * As atividades do Adobe Campaign não podem ser usadas com uma atividade Público-alvo de leitura ou Qualificação de público-alvo.
 * As atividades do **[!UICONTROL Campaign Standard]** não podem ser usadas com outras atividades de canal: Cartão, Experiência baseada em código, Email, Push, SMS, Mensagens no aplicativo, Web.
-* **[!UICONTROL As atividades do Campaign v7/v8]** podem ser usadas junto com atividades de canal nativas na mesma jornada.
+* As atividades do **[!UICONTROL Campaign v7/v8]** podem ser usadas junto com atividades de canal nativas na mesma jornada.
 
 #### Atividade no aplicativo {#in-app-activity-limitations}
 
@@ -343,7 +343,7 @@ As seguintes medidas de proteção se aplicam à ação de **[!UICONTROL mensage
 
 * A personalização pode conter apenas atributos de perfil.
 
-* A atividade no aplicativo não pode ser usada com atividades de **[!UICONTROL Campaign Standard]**.
+* A atividade no aplicativo não pode ser usada com atividades do **[!UICONTROL Campaign Standard]**.
 
 * A exibição no aplicativo está vinculada à duração da jornada, o que significa que, quando a jornada terminar para um perfil, todas as mensagens no aplicativo dentro dessa jornada deixarão de ser exibidas para esse perfil.  Consequentemente, não é possível interromper uma mensagem no aplicativo diretamente de uma atividade da jornada. Em vez disso, será necessário encerrar toda a jornada para impedir que as mensagens No aplicativo sejam exibidas no perfil.
 

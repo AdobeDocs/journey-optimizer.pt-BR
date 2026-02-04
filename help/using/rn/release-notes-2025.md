@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
 workflow-type: tm+mt
 source-wordcount: '9009'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <p>Esse recurso oferece melhor visibilidade da integridade e do desempenho do ponto de acesso de ação personalizada. Um novo painel de monitoramento de ação personalizada e campos correspondentes no conjunto de dados de eventos de etapa da jornada ajudarão a monitorar chamadas bem-sucedidas, erros, taxa de transferência, tempo de resposta e tempo de espera na fila dos pontos de acesso de ação personalizada. Agora você pode entender rapidamente quando, onde e por que uma situação anômala está ocorrendo em uma ação personalizada.</p>
 <p>No momento, esse recurso está em disponibilidade limitada para clientes.</p>
 <p>Para obter mais informações, consulte a <a href="../action/reporting.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: quarta-feira, 28 de outubro de 2025</p>
+<p>Data de disponibilidade: 28 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +74,7 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <p>No momento, esse recurso está na disponibilidade limitada para clientes nos Estados Unidos e na Austrália. Entre em contato com o representante da Adobe para obter acesso.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Para obter mais informações, consulte a <a href="../landing-pages/lp-forms.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: sexta-feira, 23 de outubro de 2025</p>
+<p>Data de disponibilidade: 23 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -83,7 +83,7 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <table>
 <thead>
 <tr>
-<th><strong>Período de silêncio/ Exclusões com base no tempo</strong><br/></th>
+<th><strong>Períodos de silêncio/Exclusões com base no tempo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -93,7 +93,7 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <p>É possível aplicar o período de silêncio por meio de conjuntos de regras que podem ser atribuídas a ações individuais em campanhas ou jornadas para obter um controle preciso.</p>
 <p>Atualmente, as regras de horários de silêncio estão disponíveis apenas para algumas organizações (disponibilidade limitada).  Elas serão disponibilizadas progressivamente a todos os clientes em versões futuras.</p>
 <p>Para obter mais informações, consulte a <a href="../conflict-prioritization/quiet-hours.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: quinta-feira, 22 de outubro de 2025</p>
+<p>Data de disponibilidade: 22 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -206,7 +206,7 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <p>Um novo modo de mensagens transacionais com alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Esse modo também é compatível com mensagens transacionais sem referência ou criação de perfis de clientes, como check-out de convidado, confirmação de pedido, redefinições de senha, notificações de segurança e outras notificações operacionais/de serviço.</p>
 <p>Esse recurso está disponível somente para o canal de email e para organizações que adquiriram a oferta complementar de mensagens transacionais com alta taxa de transferência da Adobe. Entre em contato com o representante da Adobe para obter mais informações.</p>
 <p>Para obter mais informações, consulte a <a href="../campaigns/api-triggered-high-throughput.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: quinta-feira, 22 de outubro de 2025</p>
+<p>Data de disponibilidade: 22 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +225,7 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <p>As regras de direcionamento estão atualmente em Disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso. Observe que esse recurso só está disponível para organizações que adquiriram a oferta complementar da Tomada de decisões. Ele será implantado progressivamente para todos os clientes.</p>
 <img src="assets/do-not-localize/targeting-rules.gif">
 <p>Para obter mais informações, consulte a <a href="../experience-decisioning/rules.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: quinta-feira, 22 de outubro de 2025</p>
+<p>Data de disponibilidade: 22 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -245,7 +245,7 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">Taxa de erros de ação personalizada excedida</a>: a proporção de erros de ação personalizada em relação às chamadas HTTP bem-sucedidas nos últimos cinco minutos excedeu o limite</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate">Taxa de erro de perfil excedida</a>: a proporção de perfis com erro em relação aos perfis inseridos nos últimos cinco minutos excedeu o limite.</li></ul> <p>É possível modificar os valores limite e assinar alertas individuais em nível de jornada em vez de alertas globais.</p>
 <p>Para obter mais informações, consulte a <a href="../reports/alerts.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: quarta-feira, 14 de outubro de 2025</p>
+<p>Data de disponibilidade: 14 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -264,7 +264,7 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>Para obter mais informações, consulte a <a href="../personalization/functions/helpers.md#execution-metadata">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: terça-feira, 13 de outubro de 2025</p>
+<p>Data de disponibilidade: 13 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -281,7 +281,7 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <td>
 <p>O Journey Optimizer Experimentation Accelerator agora inclui o Experimentation Agent, uma ferramenta conversacional viabilizada por IA que permite interagir com experimentos, insights e oportunidades. Ele melhora a experiência do Journey Optimizer Experimentation Accelerator, ajudando na realização de experimentos com mais eficiência, em saber o que funciona e na descoberta de onde otimizar a seguir.</p>
 <p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=pt-BR" target="_blank">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: sábado, 10 de outubro de 2025</p>
+<p>Data de disponibilidade: 10 de outubro de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -334,11 +334,11 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 
 Além de email e SMS, é possível atualizar o campo de execução padrão para as entregas do WhatsApp no nível da sandbox. Também é possível substituir o campo de execução definido globalmente, alterando-o nos parâmetros avançados da atividade de jornada do WhatsApp ou na configuração do canal do WhatsApp. [Leia mais](../configuration/primary-email-addresses.md)
 
-Data de disponibilidade: quinta-feira, 22 de outubro de 2025
+Data de disponibilidade: 22 de outubro de 2025
 
 **Suporte a atributos personalizados para endereço Mailto (cancelar assinatura)**
 
-Com o Journey Optimizer, se você estiver gerenciando consentimento fora da Adobe, é possível configurar pontos de acesso externos personalizados por definir seu próprio link de cancelamento de assinatura com um clique e um endereço de email de cancelamento de assinatura personalizado na configuração de email. Quando os destinatários clicam no link para cancelar assinatura, o Journey Optimizer anexa alguns parâmetros padrão específicos do perfil ao evento de atualização de consentimento.
+Com o Journey Optimizer, se você estiver gerenciando consentimento fora da Adobe, é possível configurar pontos de acesso externos personalizados por definir seu próprio link de cancelamento de assinatura com um clique e um endereço de email de cancelamento de assinatura personalizado na configuração de email. Quando os destinatários clicam no link para cancelar a assinatura, o Journey Optimizer anexa alguns parâmetros padrão específicos do perfil ao evento de atualização de consentimento.
 
 Para customizar ainda mais os pontos de acesso personalizados, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento. [Leia mais](../email/list-unsubscribe.md#custom-attributes)
 
@@ -346,7 +346,7 @@ Para customizar ainda mais os pontos de acesso personalizados, agora é possíve
 >
 >Esse recurso já está disponível para o **[!UICONTROL URL de cancelamento de assinatura com um clique]** personalizado desde agosto de 2025 e agora foi lançado para a opção **[!UICONTROL Mailto (cancelar assinatura)]** em disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
-Data de disponibilidade: terça-feira, 6 de outubro de 2025
+Data de disponibilidade: 6 de outubro de 2025
 
 <!--
 ### Coming soon {#oct-25-10-soon}
@@ -855,7 +855,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Configuração**
 
-   * **Suporte a atributos personalizados com URL de cancelar assinatura com um clique**: com o Journey Optimizer, se estiver gerenciando consentimento fora da Adobe, você poderá configurar um ponto de acesso externo personalizado definindo seu próprio link de cancelamento de inscrição com um clique na configuração do email. Quando os destinatários clicam no link para cancelar assinatura, o Journey Optimizer anexa alguns parâmetros padrão específicos do perfil ao evento de atualização de consentimento.
+   * **Suporte a atributos personalizados com URL de cancelar assinatura com um clique**: com o Journey Optimizer, se estiver gerenciando consentimento fora da Adobe, você poderá configurar um ponto de acesso externo personalizado definindo seu próprio link de cancelamento de inscrição com um clique na configuração do email. Quando os destinatários clicam no link para cancelar a assinatura, o Journey Optimizer anexa alguns parâmetros padrão específicos do perfil ao evento de atualização de consentimento.
 
      Para personalizar ainda mais o link de cancelamento de assinatura com um clique, agora é possível definir atributos personalizados que também serão anexados ao evento de consentimento. Este recurso é oferecido com disponibilidade limitada. [Leia mais](../email/list-unsubscribe.md#custom-attributes)
 
@@ -977,7 +977,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora, você pode adicionar políticas de decisão a campanhas e jornadas por email. As políticas de decisão são recipientes para as suas ofertas que utilizam o mecanismo de tomada de decisão para retornar dinamicamente o melhor conteúdo a ser entregue a cada membro do público-alvo.</p>
+<p>Agora, você pode adicionar políticas de decisão a campanhas e jornadas por email. As políticas de decisão são containers para suas ofertas que utilizam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue a cada membro do público-alvo.</p>
 <p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.</p>
 Para mais informações, consulte a <a href="../experience-decisioning/create-decision.md">documentação detalhada</a></p>
 </td>
