@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Antes de publicar seu desafio:
 
 1. **Revise todos os componentes**: verifique as propriedades de desafio, tarefas, recompensas, cartões de conteúdo e configurações de mensagens.
 
-1. **Testar a experiência**: use [perfis de teste](../test-approve/test-profiles.md) para validar a exibição do cartão de conteúdo e o comportamento do acionador da tarefa.
+1. **Testar a experiência**: use [perfis de teste](../content-management/test-profiles.md) para validar a exibição do cartão de conteúdo e o comportamento do acionador da tarefa.
 
 1. **Publicar**: selecione **[!UICONTROL Publicar]** para disponibilizar o desafio para seu público-alvo.
 
@@ -185,7 +185,7 @@ Para disponibilizar o desafio para os clientes:
 
 1. Localize a jornada gerada automaticamente (ela terá &quot;Desafio:&quot; como um prefixo em seu nome).
 
-1. [Ativar a jornada](../building-journeys/publishing-the-journey.md).
+1. [Ativar a jornada](../building-journeys/publish-journey.md).
 
 A jornada começa automaticamente na data de início do desafio especificada.
 

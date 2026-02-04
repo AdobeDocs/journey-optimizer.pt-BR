@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -66,9 +66,9 @@ A criação e o lançamento de um desafio de fidelidade seguem este fluxo de tra
 
 1. **Configurar mensagens** (Opcional) - Configure mensagens multicanais ([no aplicativo](../in-app/get-started-in-app.md), [email](../email/get-started-email.md), [push](../push/get-started-push.md)) para estágios-chave do ciclo de vida: inicialização, em andamento e conclusão.
 
-1. **Revisar e publicar** - Teste seu desafio com [perfis de teste](../test-approve/test-profiles.md) e publique-o para disponibilizá-lo para seu público-alvo.
+1. **Revisar e publicar** - Teste seu desafio com [perfis de teste](../content-management/test-profiles.md) e publique-o para disponibilizá-lo para seu público-alvo.
 
-1. **Ativar jornada** - Quando você publica um desafio, o Journey Optimizer cria automaticamente uma [jornada](../building-journeys/journey-gs.md) no status Rascunho que orquestra a entrega de cartões de conteúdo e as mensagens. Navegue até o inventário do Jornada, localize a jornada gerada automaticamente (chamada &quot;Desafio: [Nome do Desafio]&quot;) e [ative-a](../building-journeys/publishing-the-journey.md) para disponibilizar o desafio aos seus clientes.
+1. **Ativar jornada** - Quando você publica um desafio, o Journey Optimizer cria automaticamente uma [jornada](../building-journeys/journey-gs.md) no status Rascunho que orquestra a entrega de cartões de conteúdo e as mensagens. Navegue até o inventário do Jornada, localize a jornada gerada automaticamente (chamada &quot;Desafio: [Nome do Desafio]&quot;) e [ative-a](../building-journeys/publish-journey.md) para disponibilizar o desafio aos seus clientes.
 
 1. **Monitorar desempenho** - Acompanhe a participação, as taxas de conclusão, a distribuição de recompensas e o envolvimento com mensagens por meio de relatórios internos e da tela de jornada. Consulte [Gerenciar desafios](manage-challenges.md) para obter detalhes sobre o monitoramento.
 
@@ -86,7 +86,7 @@ Os desafios de fidelidade dependem dos dados assimilados pelos conectores de ori
 
 Para obter instruções detalhadas, consulte:
 
-* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurar conectores de origem no Journey Optimizer](../start/get-started-sources.md)
 
 +++
