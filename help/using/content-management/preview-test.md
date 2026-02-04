@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 Depois que o conteúdo for definido, você poderá visualizá-lo antes de enviar a mensagem. Essa é uma etapa essencial para garantir que seja preciso, mas também esteja livre de erros no conteúdo e nas configurações de personalização.
 
-Você também pode enviar deliveries de teste de suas mensagens de email para recipients ou assinantes específicos para teste e validação e verificar a renderização em clientes populares de desktop, dispositivos móveis e baseados na Web. Além disso, você pode avaliar aspectos gerais de qualidade do conteúdo, como legibilidade e eficácia. [Saiba mais sobre a validação de qualidade do conteúdo](brands-score.md#validate-quality)
+Você também pode enviar entregas de teste das mensagens de email para destinatários ou assinantes específicos para teste e validação e verificar a renderização em clientes populares de desktop, dispositivos móveis e baseados na web. Além disso, você pode avaliar aspectos gerais de qualidade do conteúdo, como legibilidade e eficácia. [Saiba mais sobre validação da qualidade do conteúdo](brands-score.md#validate-quality)
 
 Todas essas ações podem ser realizadas com o botão **[!UICONTROL Simular conteúdo]**, acessível pela tela de edição de conteúdo da mensagem ou pelos designers dos canais de email e da web.
 
@@ -68,4 +68,4 @@ O Journey Optimizer fornece duas experiências para testar o conteúdo:
 
 Saiba como usar perfis de teste para testar a renderização de email nas caixas de entrada, visualizar emails personalizados em relação a perfis de teste e enviar provas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430342?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

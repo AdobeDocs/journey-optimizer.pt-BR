@@ -7,7 +7,7 @@ short-description: Descubra os principais recursos e casos de uso de campanhas o
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
 ht-degree: 100%
 
@@ -106,7 +106,7 @@ Agora que você entende o que são campanhas orquestradas, é hora de se aprofun
 </td>
 <td>
 <a href="create-orchestrated-campaign.md">
-<img alt="Cliente potencial" src="assets/do-not-localize/workflow-create.jpeg">
+<img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
 <div><a href="create-orchestrated-campaign.md"><strong>Criar uma campanha orquestrada</strong>
 </div>
@@ -114,7 +114,7 @@ Agora que você entende o que são campanhas orquestradas, é hora de se aprofun
 </td>
 <td>
 <a href="activities/about-activities.md">
-<img alt="Pouco frequentes" src="assets/do-not-localize/workflow-activities.jpeg">
+<img alt="Pouco frequente" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
 <a href="activities/about-activities.md"><strong>Trabalhar com atividades</strong></a>
