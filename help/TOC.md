@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
 source-wordcount: '3091'
 ht-degree: 97%
@@ -134,10 +134,9 @@ ht-degree: 97%
       + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
 + Desafios de fidelidade {#loyalty-challenges}
    + [Introdução aos desafios de fidelidade](using/loyalty-challenges/get-started.md)
-   + [Desafios de fidelidade de acesso](using/loyalty-challenges/access-loyalty-challenges.md)
+   + [Acesse e gerencie os desafios de fidelidade](using/loyalty-challenges/access-loyalty-challenges.md)
    + [Criar desafios](using/loyalty-challenges/create-challenges.md)
    + [Criar tarefas](using/loyalty-challenges/create-tasks.md)
-   + [Gerenciar desafios](using/loyalty-challenges/manage-challenges.md)
 + Campanhas {#campaigns}
    + [Campanhas](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
@@ -457,7 +456,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)

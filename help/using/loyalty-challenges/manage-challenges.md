@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 Os desafios passam por diferentes status durante seu ciclo de vida:
 
-* **Rascunho**: o desafio está sendo criado ou editado e ainda não está disponível para os clientes
-* **Publicado**: o desafio está ativo, a jornada associada foi criada.
+* **Rascunho**: o desafio está sendo criado ou editado e ainda não está disponível para os clientes.
+* **Publicado**: o desafio está ativo e a jornada associada foi criada.
 
 ### Editar desafios {#edit-challenges}
 
@@ -53,10 +53,10 @@ Você pode editar desafios abrindo-os no inventário Desafios. O comportamento d
 
 **Desafios publicados**: ao abrir um desafio publicado para edição, primeiro é necessário revertê-lo para o status Rascunho.
 
-* Qualquer personalização feita diretamente na jornada gerada automaticamente será perdida
-* O desafio retorna ao estado Rascunho
-* Depois de fazer suas alterações, você deve salvar e publicar o desafio novamente
-* Você deve reativar a jornada associada para disponibilizar o desafio atualizado para os clientes
+* Qualquer personalização feita diretamente na jornada gerada automaticamente será perdida.
+* O desafio retorna ao status Rascunho.
+* Depois de fazer suas alterações, você deve salvar e publicar o desafio novamente.
+* Você deve republicar a jornada associada para disponibilizar o desafio atualizado para os clientes.
 
 >[!IMPORTANT]
 >
@@ -109,14 +109,14 @@ Você também pode acessar dados detalhados de desempenho nos [relatórios de jo
 
 ## Gerenciar tarefas {#manage-tasks}
 
-As tarefas são componentes reutilizáveis que podem ser usados em vários desafios. O gerenciamento eficaz de tarefas garante a consistência em todo o programa de fidelidade e facilita a atualização central das definições de tarefas. As tarefas criadas em um desafio podem ser reutilizadas em outros desafios, reduzindo a duplicação e mantendo a padronização.
+As tarefas são componentes reutilizáveis que podem ser usados em vários desafios. O gerenciamento eficaz de tarefas garante a consistência em todo o programa de fidelidade e facilita a atualização central das definições de tarefas. As tarefas criadas em um desafio podem ser reutilizadas em outros desafios, o que reduz a duplicação e mantém a padronização.
 
 ### Editar tarefas {#edit-tasks}
 
 É possível editar tarefas existentes no Inventário de tarefas. Considere o seguinte:
 
-* **Tarefas não usadas em desafios ativos**: podem ser editadas livremente - todas as propriedades podem ser modificadas sem impacto
-* **Tarefas usadas em desafios dinâmicos**: tenha cuidado, pois as alterações afetam todos os desafios usando a tarefa. As modificações se aplicam imediatamente a todos os desafios de referência
+* **Tarefas não usadas em desafios ativos**: podem ser editadas livremente. Todas as propriedades podem ser modificadas sem impacto.
+* **Tarefas usadas em desafios dinâmicos**: tenha cuidado, pois as alterações afetam todos os desafios que usam a tarefa. As modificações se aplicam imediatamente a todos os desafios de referência.
 
 Para editar uma tarefa:
 
@@ -142,8 +142,8 @@ Para editar uma tarefa:
 
 As tarefas só podem ser excluídas se não estiverem sendo usadas atualmente em nenhum desafio. Antes de excluir uma tarefa:
 
-* Verifique a contagem **[!UICONTROL Usados em desafios]** no inventário de tarefas
-* Garantir que nenhum desafio de rascunho, agendado ou ativo faça referência à tarefa
+* Verifique a contagem **[!UICONTROL Usados nos desafios]** no inventário de Tarefas.
+* Certifique-se de que nenhum desafio de rascunho, agendado ou em tempo real faça referência à tarefa.
 
 Para excluir uma tarefa:
 

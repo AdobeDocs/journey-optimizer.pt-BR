@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -25,32 +25,15 @@ ht-degree: 0%
 **Documentação de Desafios de Fidelidade:**
 
 * [Introdução aos Desafios de Fidelidade](get-started.md) - Visão geral, fluxo de trabalho, pré-requisitos
-* [Acessar Desafios de Fidelidade](access-loyalty-challenges.md) - Inventário e filtragem
+* [Acessar e gerenciar desafios de fidelidade](access-loyalty-challenges.md) - gerenciamento de inventário, desafios e tarefas
 * **Criar desafios** ◀︎ **Você está aqui** - Criar e configurar desafios
 * [Criar tarefas](create-tasks.md) - Definir tarefas de desafio
-* [Gerenciar desafios](manage-challenges.md) - Editar, monitorar, otimizar
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
 >Este recurso está atualmente no **beta privado** e pode não estar disponível em seu ambiente. Para solicitar acesso, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
-
-## Como funciona {#how-it-works}
-
-A criação e o lançamento de um desafio de fidelidade seguem este fluxo de trabalho:
-
-1. **[Criar o desafio](#create-the-challenge)** - Escolha o tipo de desafio (Padrão, Streak ou Sequencial) que melhor se adapta às suas metas do programa de fidelidade.
-
-1. **[Configurar a estrutura de desafio](#structure)** - Defina as propriedades de desafio, o agendamento, as tarefas que os clientes devem concluir e as recompensas que eles receberão.
-
-1. **[Configurar cartões de conteúdo](#configure-content-cards)** - Crie cartões de conteúdo para representar visualmente seu desafio em dispositivos do cliente, exibindo informações de desafio, progresso e recompensas.
-
-1. **[Configurar mensagens](#configure-messaging)** (Opcional) - Configure mensagens multicanais (no aplicativo, email, push) para estágios principais: inicialização, em andamento e conclusão.
-
-1. **[Selecione o público-alvo do desafio](#audience)** - Defina quais clientes estão qualificados para participar do desafio.
-
-1. **[Gerar e ativar a jornada](#review-and-publish)** - Gerar a jornada associada e ativá-la para disponibilizar o desafio para o público-alvo.
 
 ## Criar o desafio {#create-the-challenge}
 
@@ -62,42 +45,45 @@ A criação e o lançamento de um desafio de fidelidade seguem este fluxo de tra
 
 1. Escolha o tipo de desafio:
 
-   * **[!UICONTROL Padrão]**: os clientes concluem qualquer número especificado de tarefas em qualquer ordem
-   * **[!UICONTROL Série]**: os clientes concluem a mesma tarefa várias vezes consecutivamente
-   * **[!UICONTROL Sequencial]**: os clientes concluem as tarefas em uma ordem definida
+   * **[!UICONTROL Padrão]**: os clientes concluem qualquer número especificado de tarefas em qualquer ordem\
+     *Exemplo: Concluir 3 de 5 tarefas disponíveis*
+
+   * **[!UICONTROL Série]**: os clientes concluem a mesma tarefa várias vezes consecutivamente\
+     *Exemplo: faça uma compra em 7 dias consecutivos*
+
+   * **[!UICONTROL Sequencial]**: os clientes concluem as tarefas em uma ordem definida\
+     *Exemplo: Compra → Revisão → Compartilhar (deve ser concluído nesta sequência)*
 
 ## Configurar a estrutura de desafio {#structure}
 
-Na guia Estrutura, defina como seu desafio é organizado: suas propriedades, agendamento, tarefas a serem concluídas e recompensas a serem concedidas.
+Na guia **[!UICONTROL Estrutura]**, defina como seu desafio é organizado: suas propriedades, agendamento, tarefas a serem concluídas e recompensas a serem entregues.
 
 ### Definir as propriedades do desafio e usar metadados personalizados {#properties}
 
-1. No painel de propriedades Desafio, defina as configurações de desafio:
+1. No painel **[!UICONTROL Propriedades do desafio]**, defina configurações globais para o desafio:
+
+   * **[!UICONTROL Nome]**: insira um nome descritivo para o desafio. Este nome aparece no inventário de desafios.
+   * **[!UICONTROL Descrição]**: insira uma descrição que explique a finalidade e as metas do desafio.
 
    ![](assets/challenge-create-properties.png)
 
-   **Nome**: insira um nome descritivo para o desafio. Este nome aparece no inventário de desafios.
-
-   **Descrição**: insira uma descrição que explique a finalidade do desafio e as metas.
-
-1. Use a seção **[!UICONTROL Metadados personalizados]** para adicionar metadados personalizados usando pares de chave/valor. Esses metadados podem ser usados para rastreamento, segmentação ou integração com sistemas externos.
+1. Use a seção **[!UICONTROL Metadados personalizados]** para adicionar metadados personalizados usando pares de chave/valor. Esses metadados podem ser usados para rastreamento ou integração com sistemas externos.
 
 ### Agendar o desafio {#schedule}
 
 Configure quando seu desafio for executado selecionando o ícone ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Abrir agendamento]**:
 
-* **Data e hora de início**: definir quando o desafio ficará disponível para os clientes
+![](assets/challenge-create-properties.png)
 
-* **Data e hora de término**: definida quando o desafio expira e não aceita mais novas conclusões
+* **[!UICONTROL Data e hora de início]**: definir quando o desafio ficará disponível para os clientes.
+* **[!UICONTROL Data e hora de término]**: definida quando o desafio expira e não aceita mais novas conclusões.
+   * **[!UICONTROL Fuso horário]**: o desafio usa o fuso horário local do destinatário por padrão.
+* **[!UICONTROL As tarefas devem ser concluídas]**: escolha quando os clientes poderão concluir as tarefas:
 
-* **Fuso horário**: o desafio usa o fuso horário local do destinatário por padrão
+   * **[!UICONTROL A qualquer momento durante o desafio]**: os clientes podem concluir tarefas a qualquer momento entre as datas de início e término do desafio.
+   * **[!UICONTROL Durante horas específicas do dia]**: Restrinja a conclusão da tarefa a horas diárias específicas definindo a **[!UICONTROL Hora de Início]** e a **[!UICONTROL Hora de Término]**.
 
-* **As tarefas devem ser concluídas**: escolha quando os clientes poderão concluir as tarefas:
-
-   * **[!UICONTROL Qualquer momento durante o desafio]**: os clientes podem concluir tarefas a qualquer momento entre as datas de início e término do desafio
-   * **[!UICONTROL Durante horas específicas do dia]**: Restrinja a conclusão da tarefa a horas diárias específicas definindo a **[!UICONTROL Hora de Início]** e a **[!UICONTROL Hora de Término]**
-
-A programação de desafio agora está configurada. Agora você pode adicionar as tarefas que os clientes precisam concluir.
+A programação de desafio agora está configurada. Em seguida, adicione as tarefas que os clientes precisam concluir.
 
 ### Adicionar tarefas {#add-tasks}
 
@@ -120,18 +106,18 @@ Para adicionar tarefas ao seu desafio, siga estas etapas:
 
    ![](assets/challenge-create-add-task.png)
 
-1. O inventário de Tarefas é aberto. Selecione uma ou mais tarefas na lista e selecione **[!UICONTROL Adicionar]**. Para criar uma nova tarefa, selecione **[!UICONTROL Nova]**.
-
-   [Saiba como criar e configurar tarefas](create-tasks.md).
+1. O **[!UICONTROL Inventário de tarefas]** é aberto. Selecione uma ou mais tarefas na lista e selecione **[!UICONTROL Adicionar]**. Para criar uma nova tarefa, selecione **[!UICONTROL Nova]**. [Saiba como criar e configurar tarefas](create-tasks.md).
 
 1. Na seção **[!UICONTROL Requisito de conclusão da tarefa]**, especifique quando o desafio será considerado concluído:
 
-   * **[!UICONTROL O cliente escolhe 1 tarefa para ser concluída]**: os clientes podem selecionar e concluir qualquer tarefa individual para receber recompensas
-   * **[!UICONTROL O cliente conclui um número específico de tarefas]**: os clientes devem concluir um número definido de tarefas. Especifique o número necessário.
+   * **[!UICONTROL O cliente escolhe 1 tarefa para ser concluída]**: os clientes podem selecionar e concluir qualquer tarefa individual para receber recompensas.
+   * **[!UICONTROL O cliente conclui um número específico de tarefas]**: os clientes devem concluir um número definido de tarefas.
 
-1. Por padrão, os desafios permitem que os clientes concluam tarefas em várias transações. Para exigir que todas as tarefas sejam concluídas em uma única transação, selecione o ícone ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Configurações]** e alterne na opção **[!UICONTROL Transação única]**.
+1. Por padrão, os desafios permitem que os clientes concluam tarefas em várias transações. Para exigir que todas as tarefas sejam concluídas em uma única transação, selecione o ícone ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Configurações]** e alterne na opção abaixo.
 
    ![](assets/challenge-create-single-transaction.png)
+
+Depois de adicionar tarefas ao seu desafio, configure as recompensas que os clientes ganharão ao concluí-las.
 
 ### Configurar recompensas {#rewards}
 
@@ -139,18 +125,19 @@ As recompensas são os pontos de fidelidade ou os benefícios que os clientes re
 
 1. Na lista suspensa **[!UICONTROL Entrega de recompensa]**, escolha quando entregar as recompensas:
 
-   * **[!UICONTROL Fornecer recompensas quando o desafio for concluído]**: premiar recompensas quando os clientes concluírem todo o desafio
-   * **[!UICONTROL Fornecer recompensas nos marcos de conclusão da tarefa conforme o progresso do desafio é realizado]**: premiar de forma incremental à medida que os clientes concluem tarefas individuais (disponível somente para desafios que exigem mais de uma tarefa)
+   * **[!UICONTROL Fornecer recompensas quando o desafio for concluído]**: premiar recompensas quando os clientes concluírem todo o desafio\
+     *Exemplo: premiar 100 pontos após concluir todas as 5 tarefas*
 
-1. Selecione seu **[!UICONTROL Provedor de premiação]** na lista suspensa. Esta é a sua solução de fidelidade que gerencia pontos e recompensas do cliente.
+   * **[!UICONTROL Fornecer recompensas nos marcos de conclusão da tarefa conforme o progresso do desafio é realizado]**: premiar de forma incremental à medida que os clientes concluem tarefas individuais (disponível somente para desafios que exigem mais de uma tarefa)\
+     *Exemplo: Premiar 10 pontos após a tarefa 1, 20 pontos após a tarefa 2 e 50 pontos após a tarefa 3*
+
+1. Selecione seu provedor de premiação. Esta é a sua solução de fidelidade que gerencia pontos e recompensas do cliente.
 
 1. Configure os valores de premiação com base no método de delivery selecionado:
 
    +++Fornecer recompensas quando o desafio for concluído
 
-   No campo **Número de [pontos de fidelidade] na conclusão do desafio**, especifique o valor total da premiação a ser dado quando os clientes concluírem todo o desafio.
-
-   O nome do campo exibe o nome dos pontos de fidelidade conforme definido no provedor selecionado. Por exemplo, se o provedor usar &quot;Pontos Luma&quot;, o campo exibirá &quot;Número de pontos Luma na conclusão do desafio&quot;.
+   Especifique o valor total de premiação a ser dado quando os clientes concluírem todo o desafio.
 
    ![](assets/challenge-create-reward-total.png)
 
@@ -174,11 +161,7 @@ As recompensas são os pontos de fidelidade ou os benefícios que os clientes re
 
    +++
 
->[!NOTE]
->
->Os desafios de fidelidade não incluem um sistema de razão incorporado para rastrear saldos de recompensa. Certifique-se de que o provedor de premiação selecionado manipula o rastreamento de pontos e o resgate.
-
-A estrutura do desafio agora está configurada com tarefas e recompensas. Agora você pode projetar os cartões de conteúdo para exibir o desafio para os clientes.
+Depois de configurar a estrutura de desafios com tarefas e recompensas, crie os cartões de conteúdo para exibir o desafio aos clientes.
 
 ## Configurar cartões de conteúdo {#configure-content-cards}
 
@@ -186,80 +169,70 @@ Os cartões de conteúdo representam visualmente seu desafio em dispositivos de 
 
 Para configurar cartões de conteúdo para seu desafio:
 
-1. Navegue até a guia **[!UICONTROL Conteúdo]**.
+1. Navegue até a guia **[!UICONTROL Conteúdo]** e digite um **[!UICONTROL Nome]** para o cartão de conteúdo.
 
-1. Digite um **[!UICONTROL Nome]** para o cartão de conteúdo.
+1. Selecione a **[!UICONTROL Configuração de canal]**. As configurações de canal contêm todos os parâmetros técnicos para enviar mensagens, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais sobre as configurações de canal](../configuration/channel-surfaces.md).
 
-1. Selecione a **[!UICONTROL Configuração de canal]**. As configurações de canal contêm todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais sobre as configurações de canal](../configuration/channel-surfaces.md).
-
-1. Selecione **[!UICONTROL Editar conteúdo]** para criar seu cartão de conteúdo.
+1. Selecione **[!UICONTROL Editar conteúdo]** para criar seu cartão de conteúdo. [Saiba como criar e personalizar cartões de conteúdo](../content-card/design-content-card.md).
 
    ![](assets/challenge-create-content.png)
 
-[Saiba como criar e personalizar cartões de conteúdo](../content-card/design-content-card.md).
-
-O cartão de conteúdo agora está configurado. Agora você pode configurar as mensagens para envolver os clientes durante todo o ciclo de vida do desafio.
+Após configurar o cartão de conteúdo, configure as mensagens para envolver os clientes durante todo o ciclo de vida do desafio.
 
 ### Configurar mensagens {#configure-messaging}
 
 Configurar mensagens multicanais para envolver os clientes em estágios fundamentais do ciclo de vida de desafio. As mensagens são opcionais, mas são recomendadas para maximizar o engajamento do cliente.
 
-1. Navegue até a guia **[!UICONTROL Mensagens]**.
-
-1. Configure as mensagens para cada estágio do ciclo de vida:
-
-   ![](assets/challenge-create-messaging.png)
+1. Navegue até a guia **[!UICONTROL Mensagens]** e configure as mensagens para cada estágio do ciclo de vida:
 
    * Mensagem de **Inicialização**: notificar os clientes quando o desafio começar
    * Mensagem **Em andamento**: mantenha os clientes envolvidos com lembretes e atualizações de progresso
    * Mensagem de **Conclusão**: comemorar o sucesso e confirmar a alocação da premiação
 
-1. Para cada estágio, selecione **[!UICONTROL Adicionar *estágio* mensagem]** para criar uma mensagem para esse estágio.
+1. Para cada estágio, selecione **[!UICONTROL Adicionar [estágio] mensagem]** (onde [estágio] representa Inicialização, Em andamento ou Conclusão) para criar uma mensagem para esse estágio.
 
 1. Escolha o canal desejado: **[!UICONTROL No aplicativo]**, **[!UICONTROL Email]** ou **[!UICONTROL Notificação por push]** e selecione a configuração de canal associada.
 
 1. Selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Editar]** para criar o conteúdo da sua mensagem.
 
-   Saiba como criar mensagens para canais específicos:
+   ![](assets/challenge-create-messaging.png)
 
-   * [Saiba como criar mensagens no aplicativo](../in-app/get-started-in-app.md)
-   * [Saiba como criar mensagens de email](../email/get-started-email.md)
-   * [Saiba como criar notificações por push](../push/get-started-push.md)
+Saiba como criar mensagens para canais específicos:
 
-1. Repita essas etapas para cada estágio e canal, conforme necessário.
+* [Mensagens no aplicativo](../in-app/get-started-in-app.md)
+* [Mensagens de email](../email/get-started-email.md)
+* [Notificações por push](../push/get-started-push.md)
 
-A configuração das mensagens está concluída. Agora você pode definir quais clientes estão qualificados para participar do desafio.
+Após concluir a configuração de mensagens, defina quais clientes estão qualificados para participar do desafio.
 
 ## Selecionar o público-alvo do desafio {#audience}
 
 Defina quais clientes podem participar do seu desafio de fidelidade.
 
-1. Navegue até a guia **[!UICONTROL Público-alvo]** e selecione **[!UICONTROL Selecionar público-alvo]**.
+1. Navegue até a guia **[!UICONTROL Público-alvo]** e selecione o botão **[!UICONTROL Selecionar público-alvo]**.
 
    ![](assets/challenge-create-audience.png)
 
-1. Selecione o público-alvo na lista de públicos-alvo disponíveis do Adobe Experience Platform.
+1. Selecione o público-alvo na lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba como trabalhar com públicos](../audience/about-audiences.md).
 
 1. Selecione **[!UICONTROL Adicionar audiência]**.
 
-Sua configuração de desafio está concluída. Agora você pode gerar a jornada que orquestrará a entrega de desafio.
+Seu desafio agora está totalmente configurado com sua estrutura, conteúdo, mensagens e público-alvo. A etapa final é gerar e publicar a jornada.
 
-## Gerar e ativar a jornada {#review-and-publish}
+## Gerar e publicar a jornada {#review-and-publish}
 
-Quando a configuração do desafio for concluída, gere a jornada associada que orquestrará a entrega do desafio e as interações com o cliente. Para fazer isso, selecione **[!UICONTROL Gerar Jornada]**.
+Gere a jornada que orquestrará o delivery de desafio e as interações do cliente. Para fazer isso, selecione **[!UICONTROL Gerar Jornada]**.
 
 ![](assets/challenge-create-generate-journey.png)
 
 O Journey Optimizer cria automaticamente uma [jornada](../building-journeys/journey-gs.md) no status Rascunho. A jornada gerada automaticamente aparece no inventário de jornadas com o formato de nome &quot;Desafio: [Nome do desafio]&quot;.
 
-Revise a configuração da jornada, se necessário, e [ative a jornada](../building-journeys/publish-journey.md) para disponibilizar o desafio para os clientes.
+![](assets/challenge-create-journey.png)
+
+Revise a configuração da jornada, se necessário, e publique a jornada para disponibilizar o desafio para os clientes. [Saiba como publicar uma jornada](../building-journeys/publish-journey.md).
 
 A jornada será iniciada automaticamente na data de início do desafio especificada e entregará conteúdo e mensagens de acordo com sua configuração.
 
 >[!NOTE]
 >
 >A jornada gerada automaticamente pode ser personalizada para adicionar lógica ou mensagens adicionais. No entanto, as alterações feitas diretamente na jornada não são sincronizadas com a configuração de desafio. Se você editar o desafio mais tarde, qualquer personalização de jornada será perdida quando a jornada for gerada novamente.
-
-## Próximas etapas {#next-steps}
-
-* [Gerenciar desafios](manage-challenges.md) - Edite, monitore e otimize seus desafios

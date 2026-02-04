@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '603'
 ht-degree: 1%
 
 ---
@@ -25,10 +25,9 @@ ht-degree: 1%
 **Documentação de Desafios de Fidelidade:**
 
 * **Introdução aos Desafios de Fidelidade** ◀︎ **Você está aqui** - Visão geral, fluxo de trabalho, pré-requisitos
-* [Acessar Desafios de Fidelidade](access-loyalty-challenges.md) - Inventário e filtragem
+* [Acessar e gerenciar desafios de fidelidade](access-loyalty-challenges.md) - gerenciamento de inventário, desafios e tarefas
 * [Criar desafios](create-challenges.md) - Criar e configurar desafios
 * [Criar tarefas](create-tasks.md) - Definir tarefas de desafio
-* [Gerenciar desafios](manage-challenges.md) - Editar, monitorar, otimizar
 
 >[!ENDSHADEBOX]
 
@@ -48,29 +47,25 @@ Você pode criar três tipos de experiências de desafio:
 
 Com os desafios de fidelidade, você pode configurar recompensas, enviar notificações de vários canais em estágios-chave do ciclo de vida e monitorar o desempenho por meio de jornadas geradas automaticamente — tudo isso mantendo a integração com seu sistema externo de gerenciamento de fidelidade.
 
-<!-- SCREENSHOT: High-level diagram showing Loyalty Challenges architecture with: Data ingestion from source connectors -> Challenge creation in JO -> Content cards & messaging -> Customer device -> Journey tracking -->
-
 ## Como funciona {#how-it-works}
-
-<!-- SCHEMA: Visual workflow diagram showing the 8 steps in the loyalty challenge creation process with icons for each step -->
 
 A criação e o lançamento de um desafio de fidelidade seguem este fluxo de trabalho:
 
 1. **Configurar assimilação de dados** - Configure os conectores de origem do Experience Platform (como o Conector Capilar) para assimilar dados do evento de fidelidade que controlam as ações e o progresso do cliente. Esses dados possibilitam o rastreamento de desafios e a conclusão de tarefas.
 
-1. **Criar um desafio** - Defina as propriedades básicas do desafio, incluindo nome, tipo (Padrão, Streak ou Sequencial), público-alvo e intervalo de datas. Consulte [Criar desafios](create-challenges.md) para obter etapas detalhadas.
+1. **Selecionar público-alvo** - Defina quais clientes podem participar do seu desafio selecionando um público-alvo da Adobe Experience Platform.
 
-1. **Adicionar tarefas** - Defina as ações específicas que os clientes devem concluir, incluindo tipos de tarefas (compra, gastos, visitas, envolvimento, eventos personalizados), quantidades, filtros de produtos e recompensas. Consulte [Criar tarefas](create-tasks.md) para obter instruções detalhadas.
+1. **Criar um desafio** - Defina as propriedades de desafio básicas, incluindo nome, tipo (Padrão, Streak ou Sequencial) e intervalo de datas.
 
-1. **Criar cartões de conteúdo** - Crie a representação visual do seu desafio usando os [cartões de conteúdo](../content-card/create-content-card.md) do Journey Optimizer exibidos nos dispositivos do cliente. Os cartões de conteúdo mostram informações de desafio, progresso e recompensas.
+1. **Adicionar tarefas** - Defina as ações específicas que os clientes devem concluir, incluindo tipos de tarefas (compra, gastos, visitas, envolvimento, eventos personalizados), quantidades, filtros de produtos e recompensas.
 
-1. **Configurar mensagens** (Opcional) - Configure mensagens multicanais ([no aplicativo](../in-app/get-started-in-app.md), [email](../email/get-started-email.md), [push](../push/get-started-push.md)) para estágios-chave do ciclo de vida: inicialização, em andamento e conclusão.
+1. **Criar cartões de conteúdo** - Crie a representação visual do seu desafio usando cartões de conteúdo do Journey Optimizer exibidos em dispositivos do cliente. Os cartões de conteúdo mostram informações de desafio, progresso e recompensas.
 
-1. **Revisar e publicar** - Teste seu desafio com [perfis de teste](../content-management/test-profiles.md) e publique-o para disponibilizá-lo para seu público-alvo.
+1. **Configurar mensagens** (Opcional) - Configure mensagens multicanais (no aplicativo, email, push) para os principais estágios do ciclo de vida: inicialização, em andamento e conclusão.
 
-1. **Ativar jornada** - Quando você publica um desafio, o Journey Optimizer cria automaticamente uma [jornada](../building-journeys/journey-gs.md) no status Rascunho que orquestra a entrega de cartões de conteúdo e as mensagens. Navegue até o inventário do Jornada, localize a jornada gerada automaticamente (chamada &quot;Desafio: [Nome do Desafio]&quot;) e [ative-a](../building-journeys/publish-journey.md) para disponibilizar o desafio aos seus clientes.
+1. **Publicar jornada** - O Journey Optimizer gera automaticamente uma jornada para o desafio. Navegue até o inventário de Jornadas e publique a jornada gerada automaticamente para disponibilizar o desafio aos clientes.
 
-1. **Monitorar desempenho** - Acompanhe a participação, as taxas de conclusão, a distribuição de recompensas e o envolvimento com mensagens por meio de relatórios internos e da tela de jornada. Consulte [Gerenciar desafios](manage-challenges.md) para obter detalhes sobre o monitoramento.
+Para obter instruções detalhadas, consulte [Criar desafios](create-challenges.md).
 
 ## Pré-requisitos {#prerequisites}
 
@@ -86,7 +81,7 @@ Os desafios de fidelidade dependem dos dados assimilados pelos conectores de ori
 
 Para obter instruções detalhadas, consulte:
 
-* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurar conectores de origem no Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -104,9 +99,9 @@ Entre em contato com o administrador se não conseguir acessar o recurso ou prec
 
 +++
 
-+++Públicos-alvo
++++Público-alvo
 
-Defina públicos-alvo que especifiquem quais clientes estão qualificados para participar de seus desafios de fidelidade. Você pode selecionar públicos existentes ou criar novos diretamente da interface de criação de desafios. [Saiba como trabalhar com públicos](../audience/about-audiences.md).
+Defina um público-alvo que especifique quais clientes estão qualificados para participar de seus desafios de fidelidade. Você pode selecionar públicos existentes ou criar novos diretamente da interface de criação de desafios. [Saiba como trabalhar com públicos](../audience/about-audiences.md).
 
 +++
 
