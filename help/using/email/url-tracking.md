@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 75%
+source-wordcount: '433'
+ht-degree: 68%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 75%
 Ao configurar uma nova [configuração de canal de email](email-settings.md), você pode definir **[!UICONTROL parâmetros de rastreamento de URL]** para medir a eficácia de seus esforços de marketing em todos os canais. A ativação desse recurso é opcional.
 
 Os parâmetros definidos na seção correspondente serão anexados ao final dos URLs incluídos no conteúdo da mensagem de email. É possível capturar esses parâmetros em ferramentas de análise da web, como o Adobe Analytics ou Google Analytics, a fim de criar vários relatórios de desempenho.
+
+>[!NOTE]
+>
+>A ordem dos parâmetros de rastreamento de URL anexada ao URL é aleatória e não pode ser controlada. Se o seu sistema exigir parâmetros em uma ordem específica, você precisará analisá-los e reordená-los.
 
 É possível adicionar até 10 parâmetros de rastreamento usando o botão **[!UICONTROL Adicionar novo parâmetro]**.
 

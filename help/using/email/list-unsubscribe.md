@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 98%
+source-wordcount: '1736'
+ht-degree: 96%
 
 ---
 
@@ -132,6 +132,10 @@ Para personalizar ainda mais os pontos de acesso <!-- (**[!UICONTROL Mailto (uns
 >Para a opção **[!UICONTROL Mailto (cancelar assinatura)]**, você precisa usar os novos parâmetros de consulta descritos na seção **Mailto (cancelar assinatura) com atributos personalizados (Disponibilidade Limitada)** [abaixo](#configure-decrypt-api).
 
 Para definir atributos personalizados de pontos de acesso, use a seção **[!UICONTROL parâmetros de rastreamento de URL]**. Todos os parâmetros de rastreamento de URL definidos na seção correspondente serão anexados ao final dos pontos de acesso personalizados em adição aos parâmetros padrão. [Saiba como definir o rastreamento personalizado de URL](url-tracking.md)
+
+>[!NOTE]
+>
+>A ordem dos parâmetros UTM anexados ao URL é aleatória e não pode ser controlada. Se o seu sistema exigir parâmetros em uma ordem específica, você precisará analisá-los e reordená-los.
 
 ### Configurar a API de descriptografia {#configure-decrypt-api}
 
@@ -261,7 +265,7 @@ Parâmetros de consulta:
 
    * Valor analisado: *v1.xyz*
 
-Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
