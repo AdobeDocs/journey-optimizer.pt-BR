@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -99,7 +99,7 @@ Para obter instruções detalhadas sobre como criar e configurar tarefas, consul
 
 <!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
 
-Os cartões de conteúdo fornecem a representação visual de seu desafio em dispositivos de clientes, exibindo informações de desafio, progresso e recompensas. Saiba mais sobre [cartões de conteúdo](../content-card/get-started-content-card.md).
+Os cartões de conteúdo fornecem a representação visual de seu desafio em dispositivos de clientes, exibindo informações de desafio, progresso e recompensas. Saiba mais sobre [cartões de conteúdo](../content-card/create-content-card.md).
 
 <!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
 
