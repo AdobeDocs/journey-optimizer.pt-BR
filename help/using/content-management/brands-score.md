@@ -5,9 +5,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '650'
 ht-degree: 8%
 
 ---
@@ -89,7 +89,7 @@ Depois que [sua marca for configurada e publicada](brands.md), avalie a pontuaç
 
 >[!NOTE]
 >
->A avaliação da qualidade do conteúdo é independente de marca. Mesmo que uma marca seja selecionada no menu suspenso, suas diretrizes não serão aplicadas à verificação de qualidade. A seleção de marca só é relevante para a pontuação do alinhamento da marca.
+>A avaliação da qualidade do conteúdo é independente das diretrizes da marca. Mesmo que uma marca seja selecionada no menu suspenso, suas diretrizes não serão aplicadas à verificação de qualidade. A seleção de marca só é relevante para a pontuação do alinhamento da marca.
 
 Além do alinhamento da marca, você pode avaliar a qualidade geral do conteúdo para identificar possíveis problemas de legibilidade, coesão do conteúdo e eficácia, independentemente das diretrizes da sua marca.
 
@@ -134,6 +134,6 @@ O vídeo abaixo mostra como criar e personalizar suas próprias marcas para defi
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

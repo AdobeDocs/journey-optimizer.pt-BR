@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
+source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3091'
 ht-degree: 97%
 
 ---
@@ -457,7 +457,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
@@ -499,7 +499,7 @@ ht-degree: 97%
          + [Marcas](/help/rp_landing_pages/brands-landing-page.md)
          + [Criar e gerenciar marcas](using/content-management/brands.md)
          + [Personalize suas marcas](using/content-management/brands-personalize.md)
-         + [Avaliar a pontuação de alinhamento da marca](using/content-management/brands-score.md)
+         + [Avaliar seu conteúdo](using/content-management/brands-score.md)
    + Conteúdo multilíngue {#content-multilingual}
       + [Conteúdo multilíngue](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [Introdução ao conteúdo multilíngue](using/content-management/multilingual-gs.md)
