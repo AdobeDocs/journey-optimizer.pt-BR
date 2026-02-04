@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 1%
+source-wordcount: '888'
+ht-degree: 0%
 
 ---
 
@@ -27,241 +27,174 @@ ht-degree: 1%
 * [Introdução aos Desafios de Fidelidade](get-started.md) - Visão geral, fluxo de trabalho, pré-requisitos
 * [Acessar Desafios de Fidelidade](access-loyalty-challenges.md) - Inventário e filtragem
 * **Criar desafios** ◀︎ **Você está aqui** - Criar e configurar desafios
+* [Criar tarefas](create-tasks.md) - Definir tarefas de desafio
 * [Gerenciar desafios](manage-challenges.md) - Editar, monitorar, otimizar
 
 >[!ENDSHADEBOX]
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="Criar um desafio de fidelidade"
->abstract="Crie um desafio de fidelidade para definir a oferta de engajamento, configure cartões de conteúdo para entrega, adicione tarefas, configure recompensas e, opcionalmente, configure mensagens entre canais."
-
-## Antes de começar {#before-you-start}
-
-Antes de criar um desafio, verifique se você tem:
-
-* Assimilação de dados configurada e validada pelos conectores de origem
-* Criação de todos os públicos-alvo necessários no Experience Platform
-* Ativos de conteúdo preparados (imagens, texto etc.) para seu desafio
-* Definiu as tarefas e recompensas que deseja oferecer
-
-## Criar um desafio {#create-a-challenge}
-
-Para obter etapas detalhadas sobre como criar desafios, incluindo:
-* Configuração de propriedades de desafio
-* Tipos de desafio (padrão, Streak, sequencial)
-* Seleção de público-alvo
-* Configuração de data
-
-## Adicionar tarefas {#add-tasks}
-
-As tarefas definem as ações ou marcos específicos que os clientes devem concluir para ganhar recompensas em um desafio de fidelidade. Você pode configurar tipos de tarefa, quantidades, requisitos de produto e valores de recompensa para criar experiências de fidelidade envolventes e personalizadas.
-
-### Visão geral da tarefa {#task-overview}
-
-Cada tarefa representa uma ação mensurável que contribui para a conclusão do desafio. Dependendo do tipo de desafio (Padrão, Streak ou Sequencial), os clientes concluem as tarefas de forma diferente:
-
-* **Desafios padrão**: os clientes concluem qualquer número especificado de tarefas em qualquer ordem
-* **Distribuir desafios**: os clientes concluem a mesma tarefa várias vezes consecutivamente
-* **Desafios sequenciais**: os clientes concluem as tarefas em uma ordem definida
-
-### Adicionar uma tarefa {#add-task}
-
-Para adicionar uma tarefa ao seu desafio:
-
-1. Abra seu desafio ou crie um novo.
-
-2. Navegue até a seção **[!UICONTROL Tarefas]**.
-
-3. Selecione **[!UICONTROL Adicionar tarefa]** ou **[!UICONTROL Criar nova tarefa]**.
-
-4. Na tela de criação da tarefa, configure as seguintes propriedades.
-
-### Propriedades da tarefa {#task-properties}
-
-#### Informações básicas sobre tarefas {#basic-info}
-
-**[!UICONTROL Nome da tarefa]**: digite um nome descritivo para a tarefa. Esse nome pode ser visto por você e sua equipe, mas pode não ser mostrado aos clientes dependendo do design do cartão de conteúdo.
-
-**[!UICONTROL Descrição da tarefa]**: (opcional) adicione detalhes sobre a finalidade ou os requisitos da tarefa.
-
-**[!UICONTROL Tipo de tarefa]**: selecione o tipo de ação que os clientes devem executar. Os tipos de tarefa disponíveis incluem:
-
-* **[!UICONTROL Compra]**: o cliente faz uma transação de compra
-* **[!UICONTROL Valor dos gastos]**: o cliente gasta um valor monetário especificado
-* **[!UICONTROL Visita]**: o cliente visita um local físico ou uma propriedade digital
-* **[!UICONTROL Compromisso]**: o cliente se envolve com o conteúdo, como visualizar um vídeo ou ler um artigo
-* **[!UICONTROL Evento personalizado]**: o cliente aciona um evento personalizado rastreado pela sua assimilação de dados
-
-#### Requisitos de quantidade {#quantity-requirements}
-
-**[!UICONTROL Quantidade necessária]**: especifique quantas vezes o cliente deve executar a tarefa para concluí-la.
-
-Por exemplo:
-
-* Para uma tarefa de Compra: &quot;Comprar 2 itens&quot; (quantidade = 2)
-* Para uma tarefa de Quantia de gasto: &quot;Gasto de US$ 50&quot; (quantidade = 50)
-* Para uma tarefa de Visita: &quot;Visita 5 vezes&quot; (quantidade = 5)
-
-**[!UICONTROL Período de rastreamento]**: (opcional) defina a janela de tempo para concluir esta tarefa:
-
-* Por duração de desafio (padrão)
-* Por dia
-* Por semana
-* Por mês
-* Intervalo de datas personalizado
-
-### Filtragem de produto e SKU {#product-filtering}
-
-Para tarefas de Quantidade de compras e gastos, você pode especificar quais produtos se qualificam para a conclusão da tarefa.
-
-#### Inclusões de produto {#product-inclusions}
-
-Defina quais produtos ou categorias contam para a tarefa:
-
-1. Selecione **[!UICONTROL Adicionar critérios de produto]**.
-
-2. Escolha como definir produtos qualificados:
-   * **[!UICONTROL Por SKU]**: insira códigos SKU específicos do produto
-   * **[!UICONTROL Por categoria]**: selecione categorias de produtos do catálogo
-   * **[!UICONTROL Por atributo]**: filtrar por atributos de produto, como marca, tamanho, cor ou atributos personalizados
-
-3. Insira ou selecione os identificadores de produto:
-
-   **Exemplo - Por SKU**:
-
-   ```text
-   SKU001, SKU002, SKU003
-   ```
-
-   **Exemplo - Por categoria**:
-
-   * Bebidas > Café
-   * Padaria > Pastas
-
-   **Exemplo - Por atributo**:
-
-   * Marca = &quot;Marca Premium&quot;
-   * Categoria = &quot;Itens da estação&quot;
-   * Preço > US$ 20
-
-4. Selecione **[!UICONTROL Adicionar]** para salvar os critérios do produto.
-
-#### Exclusões de produto {#product-exclusions}
-
-Opcionalmente, exclua produtos específicos da contagem para a tarefa:
-
-1. Selecione **[!UICONTROL Adicionar exclusões]**.
-
-2. Use os mesmos métodos de filtragem que as inclusões de produto para especificar quais produtos devem ser excluídos.
-
-3. Cenários de exclusão comuns:
-
-   * Venda ou itens de compensação
-   * Cartões-presente
-   * Itens promocionais ou gratuitos
-   * Marcas ou categorias específicas
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->**Lógica de inclusão e exclusão**: quando inclusões e exclusões são definidas:
->
->* Os produtos devem corresponder aos critérios de inclusão
->* Os produtos que correspondem aos critérios de exclusão são removidos, mesmo que correspondam às inclusões
->* Se nenhuma inclusão for definida, todos os produtos serão qualificados, exceto os explicitamente excluídos
+>Este recurso está atualmente no **beta privado** e pode não estar disponível em seu ambiente. Para solicitar acesso, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
 
-#### Exemplos de filtragem de produtos {#product-filtering-examples}
+## Como funciona {#how-it-works}
 
-##### Exemplo 1: Desafio do café {#example-1}
+<!-- SCHEMA: Visual workflow showing the 5 main steps with icons: Create challenge → Add tasks → Design content cards → Configure messaging → Review and publish -->
 
-* Tipo de tarefa: Compra
-* Quantidade necessária: 3
-* Inclusões: Categoria = &quot;Bebidas > Café&quot;
-* Resultado: Cliente deve comprar 3 bebidas de café
+A criação e o lançamento de um desafio de fidelidade seguem este fluxo de trabalho:
 
-##### Exemplo 2: gasto com prêmio {#example-2}
+1. **Criar um desafio** - Defina as propriedades básicas do desafio, incluindo nome, tipo (Padrão, Streak ou Sequencial), público-alvo e intervalo de datas.
 
-* Tipo de tarefa: valor do gasto
-* Quantidade necessária: US$ 100
-* Inclusões: Marca = &quot;Marca Premium&quot;
-* Exclusões: Categoria = &quot;Apuramento&quot;
-* Resultado: o cliente deve gastar US$ 100 em itens de Marca Premium, excluindo itens de compensação
+1. **Adicionar tarefas** - Defina as ações específicas que os clientes devem concluir, incluindo tipos de tarefas (compra, gastos, visitas, etc.), quantidades, filtros de produtos e recompensas.
 
-##### Exemplo 3: compra de produto específico {#example-3}
+1. **Criar cartões de conteúdo** - Crie a representação visual do seu desafio usando cartões de conteúdo do Journey Optimizer exibidos em dispositivos do cliente.
 
-* Tipo de tarefa: Compra
-* Quantidade necessária: 1
-* Inclusões: SKU = &quot;NEWPRODUCT2024&quot;
-* Resultado: o cliente deve comprar o produto específico com o SKU &quot;NEWPRODUCT2024&quot;
+1. **Configurar mensagens** (Opcional) - Configure mensagens multicanais (no aplicativo, email, push, SMS) para estágios principais: inicialização, em andamento e conclusão.
 
-### Configurar recompensas {#configure-rewards}
+1. **Revisar e publicar** - Teste seu desafio com perfis de teste e publique-o para disponibilizá-lo para seu público-alvo.
 
-Defina o que os clientes ganham ao concluir tarefas. As recompensas podem ser concedidas no nível da tarefa ou no nível do desafio depois que todas as tarefas forem concluídas.
+## Criar o desafio {#create-challenge}
 
-#### Tempo de recompensa {#reward-timing}
+<!-- SCREENSHOT: Challenge creation screen showing challenge properties form with fields for name, type, audience, dates -->
 
-Escolha quando os clientes receberão recompensas:
+Para criar um novo desafio de fidelidade:
 
-**[!UICONTROL Após a conclusão da tarefa]**: os clientes recebem uma recompensa imediatamente após a conclusão desta tarefa específica (também chamada de &quot;recompensas progressivas&quot; ou &quot;recompensas por etapas&quot;).
+1. Navegue até **[!UICONTROL Desafios de fidelidade]** no Journey Optimizer.
 
-**[!UICONTROL Após a conclusão do desafio]**: os clientes recebem uma recompensa somente após concluírem todas as tarefas necessárias no desafio (também chamadas de &quot;recompensas finais&quot; ou &quot;grandes prêmios&quot;).
+1. Selecione a guia **[!UICONTROL Desafios]**.
 
->[!TIP]
->
->Você pode combinar ambos os tipos de recompensa em um único desafio para manter o engajamento durante toda a jornada do cliente. Por exemplo:
->
->* Atribuir 10 pontos após a conclusão de cada tarefa (recompensas progressivas)
->* Dar mais 100 pontos depois de completar todo o desafio (recompensa final)
+1. Selecione **[!UICONTROL Criar desafio]**.
 
-#### Tipos e valores de recompensa {#reward-types}
+1. Configure as propriedades do desafio:
 
-**[!UICONTROL Pontos]**: o prêmio de fidelidade aponta para a conta do cliente.
+   **Nome do desafio**: insira um nome descritivo para o desafio. Esse nome aparece no inventário de desafios e ajuda a identificar o desafio.
 
-* Insira o número de pontos (por exemplo, 100)
-* Os pontos são comunicados ao seu sistema externo de gerenciamento de fidelidade por meio da API
+   **Tipo de desafio**: selecione um dos seguintes tipos:
+   * **[!UICONTROL Padrão]**: os clientes concluem qualquer número especificado de tarefas em qualquer ordem
+   * **[!UICONTROL Série]**: os clientes concluem a mesma tarefa várias vezes consecutivamente
+   * **[!UICONTROL Sequencial]**: os clientes concluem as tarefas em uma ordem definida
 
-**[!UICONTROL Desconto]**: forneça um código ou valor de desconto.
+   **Público-alvo**: selecione o segmento de público que define quem pode participar deste desafio. Você deve criar públicos-alvo no Experience Platform antes de criar desafios. Para obter mais informações, consulte [Introdução aos públicos](../audience/about-audiences.md).
 
-* Inserir tipo de desconto (porcentagem ou valor fixo)
-* Inserir valor de desconto
-* Opcionalmente, especifique o código de desconto ou deixe o sistema gerar um
+   **Data de início**: definida quando o desafio se torna disponível para os clientes.
 
-**[!UICONTROL Item gratuito]**: conceda um produto ou serviço gratuito.
+   **Data de término**: definida quando o desafio expira e não aceita mais novas conclusões.
 
-* Especificar o SKU ou a descrição do item
-* Indicar como o item gratuito deve ser reivindicado
+<!-- VISUAL: Comparison table or diagram showing the three challenge types (Standard, Streak, Sequential) with examples of each -->
 
-**[!UICONTROL Premiação personalizada]**: defina um tipo de premiação personalizada.
+### Adicionar tarefas {#add-tasks}
 
-* Inserir descrição da premiação
-* Fornecer códigos ou identificadores relevantes
-* Configurar como a recompensa é entregue ou reclamada
+As tarefas definem as ações ou marcos específicos que os clientes devem concluir para ganhar recompensas. Você configura tipos de tarefa (compra, gastos, visitas, envolvimento, eventos personalizados), quantidades, filtros de produto e recompensas.
 
-## Configurar cartões de conteúdo {#configure-content-cards}
+Dependendo do seu tipo de desafio, os clientes concluem as tarefas de forma diferente:
 
-Para obter etapas detalhadas sobre como configurar cartões de conteúdo, incluindo:
-* Configuração do cartão de conteúdo
-* Design e personalização
-* Pré-visualização e teste
+* **Desafios padrão**: conclua qualquer número especificado de tarefas em qualquer ordem
+* **Distribuir desafios**: complete a mesma tarefa várias vezes consecutivamente
+* **Desafios sequenciais**: concluir tarefas em uma ordem definida
 
-## Configurar mensagens {#configure-messaging}
+Para adicionar tarefas ao seu desafio, selecione **[!UICONTROL Adicionar tarefa]** na seção Tarefas e configure as propriedades da tarefa.
 
-Para obter etapas detalhadas sobre como configurar mensagens multicanais, incluindo:
-* Canais de mensagem (no aplicativo, email, push)
-* Estágios de mensagem (inicialização, em andamento, concluído)
-* Acionadores e tempo de mensagem
+Para obter instruções detalhadas sobre como criar e configurar tarefas, consulte [Criar tarefas](create-tasks.md).
 
-## Revisar e publicar {#review-and-publish}
+### Configurar cartões de conteúdo {#configure-content-cards}
+
+<!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
+
+Os cartões de conteúdo fornecem a representação visual de seu desafio em dispositivos de clientes, exibindo informações de desafio, progresso e recompensas. Saiba mais sobre [cartões de conteúdo](../content-card/get-started-content-card.md).
+
+<!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
+
+Para configurar cartões de conteúdo para seu desafio:
+
+1. No editor de desafios, navegue até a seção **[!UICONTROL Cartões de conteúdo]**.
+
+1. Selecione **[!UICONTROL Criar cartão de conteúdo]** ou escolha um modelo existente.
+
+1. Projete seu cartão de conteúdo:
+   * Adição de imagens, texto e elementos de marca
+   * Inclua [tokens de personalização](../personalization/personalization-syntax.md) para exibir informações específicas do cliente
+   * Mostrar indicadores de progresso do desafio
+   * Exibir recompensas e incentivos
+
+1. Configure quando o cartão de conteúdo é exibido:
+   * **Início do desafio**: mostrar quando o desafio se torna disponível
+   * **Em andamento**: exibir enquanto os clientes estão participando
+   * **Conclusão**: mostrar após os clientes concluírem todas as tarefas
+
+1. Visualize o cartão de conteúdo em diferentes dispositivos para garantir a exibição correta.
+
+1. Salve a configuração do cartão de conteúdo.
+
+Para obter mais informações sobre como projetar e personalizar cartões de conteúdo, consulte [Criar cartões de conteúdo](../content-card/design-content-card.md).
+
+### Configurar mensagens {#configure-messaging}
+
+<!-- SCREENSHOT: Messaging configuration section showing the three lifecycle stages: Launch, In-progress, Completion -->
+
+Configurar mensagens multicanais para envolver os clientes em estágios fundamentais do ciclo de vida de desafio.
+
+<!-- VISUAL: Timeline diagram showing when each message type is sent during the challenge lifecycle -->
+
+Para configurar as mensagens para seu desafio:
+
+1. No editor de desafios, navegue até a seção **[!UICONTROL Mensagens]**.
+
+1. Configure as mensagens para cada estágio do ciclo de vida:
+
+   **Mensagens de inicialização** - Notificar clientes quando o desafio começar:
+   * Selecionar canais: [No aplicativo](../in-app/get-started-in-app.md), [email](../email/get-started-email.md), [notificação por push](../push/get-started-push.md) ou [SMS](../sms/get-started-sms.md)
+   * Projetar a mensagem com detalhes do desafio e call-to-action
+   * Definir tempo de duração: enviar imediatamente quando o desafio entrar em vigor ou agendar um horário específico
+
+   **Mensagens em andamento** - Mantenha os clientes envolvidos durante o desafio:
+   * Definir as condições de acionamento (por exemplo, 50% de conclusão, tarefa específica concluída)
+   * Crie mensagens de lembrete para incentivar a participação contínua
+   * Incluir atualizações de progresso e próximas etapas
+
+   **Mensagens de conclusão** - Comemore o sucesso e entregue recompensas:
+   * Parabéns aos clientes por terem concluído o desafio
+   * Confirmar alocação de premiação
+   * Fornecer instruções para solicitar recompensas
+   * Sugerir os próximos desafios ou ações
+
+Para obter mais informações sobre como criar mensagens para canais específicos, consulte:
+
+* [Documentação de mensagens no aplicativo](../in-app/get-started-in-app.md)
+* [Documentação de mensagens de email](../email/get-started-email.md)
+* [Documentação de notificações por push](../push/get-started-push.md)
+* [Documentação de mensagens SMS](../sms/get-started-sms.md)
+
+## Revisar e publicar o desafio {#review-and-publish}
+
+<!-- SCREENSHOT: Review screen showing summary of challenge configuration with all components listed -->
 
 Antes de publicar seu desafio:
 
-1. **Revise todos os componentes**: desafiar propriedades, tarefas, recompensas, conteúdo, mensagens
-2. **Testar a experiência**: use perfis de teste para validar disparadores de conteúdo e tarefa
-3. **Publicar**: tornar o desafio ativo para o público-alvo
+1. **Revise todos os componentes**: verifique as propriedades de desafio, tarefas, recompensas, cartões de conteúdo e configurações de mensagens.
 
-A jornada gerada automaticamente é ativada na data de início especificada.
+1. **Testar a experiência**: use [perfis de teste](../test-approve/test-profiles.md) para validar a exibição do cartão de conteúdo e o comportamento do acionador da tarefa.
+
+1. **Publicar**: selecione **[!UICONTROL Publicar]** para disponibilizar o desafio para seu público-alvo.
+
+<!-- SCREENSHOT: Journeys inventory showing the auto-generated journey in Draft status with name format "Challenge: [Challenge Name]" -->
+
+Ao publicar um desafio, o Journey Optimizer cria automaticamente uma [jornada](../building-journeys/journey-gs.md) no status Rascunho. A jornada gerada automaticamente aparece no inventário de jornadas com o formato de nome &quot;Desafio: [Nome do desafio]&quot;.
+
+Para disponibilizar o desafio para os clientes:
+
+1. Navegue até o inventário do **[!UICONTROL Jornada]** no Journey Optimizer.
+
+1. Localize a jornada gerada automaticamente (ela terá &quot;Desafio:&quot; como um prefixo em seu nome).
+
+1. [Ativar a jornada](../building-journeys/publishing-the-journey.md).
+
+A jornada começa automaticamente na data de início do desafio especificada.
+
+>[!NOTE]
+>
+>A jornada gerada automaticamente é exibida no inventário de jornadas e pode ser personalizada, se necessário. No entanto, as alterações feitas diretamente na jornada não são sincronizadas com a configuração de desafio.
 
 ## Próximas etapas {#next-steps}
 
 * [Gerenciar desafios](manage-challenges.md) - Saiba como editar, monitorar e otimizar desafios
 * [Entender os Desafios de Fidelidade](get-started.md) - Examinar recursos e funcionalidades
+

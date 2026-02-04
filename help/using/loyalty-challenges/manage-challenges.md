@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '955'
 ht-degree: 1%
 
 ---
@@ -27,80 +27,169 @@ ht-degree: 1%
 * [Introdução aos Desafios de Fidelidade](get-started.md) - Visão geral, fluxo de trabalho, pré-requisitos
 * [Acessar Desafios de Fidelidade](access-loyalty-challenges.md) - Inventário e filtragem
 * [Criar desafios](create-challenges.md) - Criar e configurar desafios
+* [Criar tarefas](create-tasks.md) - Definir tarefas de desafio
 * **Gerenciar desafios** ◀︎ **Você está aqui** - Editar, monitorar, otimizar
 
 >[!ENDSHADEBOX]
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_manage_challenges"
->title="Gerenciar desafios de fidelidade"
->abstract="Depois de criar e publicar os desafios de fidelidade, você pode visualizá-los, editá-los, monitorá-los e otimizá-los para garantir que eles forneçam os resultados desejados para o seu programa de fidelidade."
+>[!AVAILABILITY]
+>
+>Este recurso está atualmente no **beta privado** e pode não estar disponível em seu ambiente. Para solicitar acesso, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
 
-## Desafiar o ciclo de vida {#challenge-lifecycle}
+## Gerenciar desafios {#manage-challenges-section}
 
-Os desafios passam por diferentes status:
+### Desafiar o ciclo de vida {#challenge-lifecycle}
 
-* **Rascunho**: sendo criado ou editado
-* **Agendado**: publicado, ficará ativo na data de início
-* **Live**: ativos e clientes podem participar
-* **Concluído**: data final passada ou objetivos atingidos
-* **Parado**: parado manualmente antes da conclusão
-* **Arquivado**: arquivado para fins organizacionais
+<!-- VISUAL: Flowchart diagram showing challenge lifecycle with status transitions: Draft → Scheduled → Live → Completed/Stopped/Archived -->
 
-## Editar desafios {#edit-challenges}
+Os desafios passam por diferentes status durante seu ciclo de vida:
+
+* **Rascunho**: o desafio está sendo criado ou editado e ainda não está disponível para os clientes
+* **Agendado**: o desafio foi publicado e ficará ativo automaticamente na data de início especificada
+* **Live**: o desafio está ativo no momento e os clientes podem participar
+* **Concluído**: o desafio terminou - a data final já passou ou todos os objetivos foram atingidos
+* **Parado**: o desafio foi manualmente parado antes de atingir sua conclusão natural
+* **Arquivado**: o desafio foi arquivado para fins organizacionais e não está mais visível no inventário principal
+
+### Editar desafios {#edit-challenges}
 
 É possível editar os desafios dependendo de seu status atual:
 
-* **Desafios de rascunho**: recurso de edição completo
-* **Desafios agendados/ao vivo**: Edição limitada (atualizações de conteúdo, extensões de data)
+* **Desafios de rascunho**: recurso de edição completo - todas as propriedades podem ser modificadas
+* **Desafios agendados/ao vivo**: Edição limitada - você pode atualizar conteúdo, mensagens e estender datas, mas não pode alterar a estrutura do desafio principal (definições de tipo, público-alvo ou tarefa)
 
-Para alterações que exigem grandes modificações, duplique o desafio e crie uma nova versão.
+Para editar um desafio:
 
-## Desafios duplicados {#duplicate-challenges}
+1. Navegue até a guia **[!UICONTROL Desafios]** no inventário de Desafios de Fidelidade.
+
+1. Localize o desafio que deseja editar.
+
+1. Selecione o nome do desafio para abri-lo no modo de edição.
+
+1. Faça suas alterações com base no status do desafio:
+   * **Desafios de rascunho**: modifique propriedades, tarefas, conteúdo ou mensagens
+   * **Desafios agendados/ao vivo**: atualize cartões de conteúdo, mensagens ou estenda datas de término conforme necessário
+
+1. Salve as alterações. Para desafios programados ou em tempo real, as alterações entram em vigor imediatamente ou de acordo com a programação de atualização.
+
+>[!NOTE]
+>
+>Para alterações que exigem grandes modificações (como alterar o tipo de desafio, o público-alvo ou a estrutura de tarefas), duplique o desafio e crie uma nova versão em vez de editar a existente.
+
+### Desafios duplicados {#duplicate-challenges}
 
 Desafios duplicados para:
+
 * Reexecutar desafios bem-sucedidos em novos períodos
 * Criar variações para públicos diferentes
 * Atualizar requisitos ou recompensas da tarefa
 * Reativar desafios interrompidos ou concluídos
 
-## Monitorar desempenho {#monitor-performance}
+Duplicar um desafio cria uma cópia exata com todas as tarefas, conteúdo e mensagens intactas, permitindo que você crie rapidamente novas versões sem começar do zero.
 
-Acompanhe o desempenho de desafios por meio de:
+Para duplicar um desafio:
 
-* **Métricas de participação**: inscrição, participantes ativos
-* **Métricas de conclusão**: taxas de conclusão, tempo médio de conclusão
-* **Métricas de recompensa**: total de recompensas distribuídas, recompensas por tipo
-* **Métricas de envolvimento**: impressões do cartão de conteúdo, entrega de mensagens
+1. Navegue até a guia **[!UICONTROL Desafios]** no inventário de Desafios de Fidelidade.
 
-Acesse os dados de desempenho na guia Desempenho do desafio e nos relatórios do jornada gerados automaticamente.
+1. Localize o desafio que deseja duplicar.
 
-## Práticas recomendadas {#best-practices}
+1. Selecione o menu de mais ações (três pontos) ao lado desse desafio.
 
-### Criação de desafios
+1. Escolha **[!UICONTROL Duplicar]**.
 
-* Comece simples para o seu primeiro desafio
-* Teste completamente antes de publicar na produção
-* Assegurar uma comunicação clara sobre requisitos e recompensas
-* Definir um cronograma realista, permitindo que os clientes concluam os desafios
+1. Uma cópia do desafio é criada com a &quot;[Cópia]&quot; anexada ao seu nome.
 
-### Gerenciamento e monitoramento
+1. Abra o desafio duplicado e modifique as propriedades necessárias:
+   * Atualizar o nome do desafio
+   * Ajustar datas de início e término
+   * Alterar o público-alvo, se necessário
+   * Modifique tarefas, recompensas, conteúdo ou mensagens conforme necessário
 
-* Verificar o desempenho do desafio regularmente (pelo menos uma vez por semana para desafios em tempo real)
-* Usar nomes descritivos indicando finalidade, público-alvo ou período
-* Aplicar tags consistentes para a organização
-* Arquive os desafios completos para manter o inventário gerenciável
+1. Revise e publique o desafio duplicado.
 
-## Solução de problemas {#troubleshooting}
+### Monitorar desempenho {#monitor-performance}
 
-Problemas comuns e soluções:
+<!-- SCREENSHOT: Challenge Performance tab showing key metrics dashboard with participation, completion, reward, and engagement metrics -->
 
-* **Desafio que não aparece para os clientes**: verificar status, qualificação de público-alvo, configuração de cartão de conteúdo
-* **Baixas taxas de participação**: visibilidade do conteúdo de análise, clareza de mensagens, capacidade de realização de tarefas
-* **Tarefas não acionadas**: verifique a assimilação de dados, os atributos do evento, a qualificação do público-alvo
-* **Recompensas não alocadas**: confirme a configuração e a conexão com o sistema externo
+Acompanhe o desempenho do desafio por meio das métricas principais:
 
-## Próximas etapas {#next-steps}
+* **Métricas de participação**:
+   * Inscrição: número de clientes que se juntaram ao desafio
+   * Participantes ativos: clientes atualmente envolvidos no desafio
+* **Métricas de conclusão**:
+   * Taxas de conclusão: Porcentagem de clientes inscritos que concluíram o desafio
+   * Average completion time: Tempo médio necessário para concluir todas as tarefas
+* **Métricas de recompensa**:
+   * Total de recompensas distribuídas: valor agregado de todas as recompensas fornecidas
+   * Recompensas por tipo: Detalhamento das recompensas por categoria de recompensa
+* **Métricas de envolvimento**:
+   * Impressões do cartão de conteúdo: Número de vezes que os cartões de conteúdo de desafio foram exibidos
+   * Entrega de mensagem: contagem de mensagens enviadas com êxito em todos os canais
 
-* [Criar desafios](create-challenges.md) - Criar novos desafios de fidelidade
-* [Entender os Desafios de Fidelidade](get-started.md) - Examinar recursos e funcionalidades
+Para acessar os dados de desempenho:
+
+1. Navegue até a guia **[!UICONTROL Desafios]** no inventário de Desafios de Fidelidade.
+
+1. Selecione o desafio que deseja monitorar.
+
+1. Abra a guia **[!UICONTROL Desempenho]** para exibir as métricas e análises em tempo real.
+
+<!-- SCREENSHOT: Journey report showing challenge performance data with graphs and tables -->
+
+Você também pode acessar dados detalhados de desempenho nos [relatórios de jornada gerados automaticamente](../reports/journey-global-report-cja.md), que fornecem insights adicionais e tendências históricas.
+
+## Gerenciar tarefas {#manage-tasks}
+
+As tarefas são componentes reutilizáveis que podem ser usados em vários desafios. O gerenciamento eficaz de tarefas garante a consistência em todo o programa de fidelidade e facilita a atualização central das definições de tarefas. As tarefas criadas em um desafio podem ser reutilizadas em outros desafios, reduzindo a duplicação e mantendo a padronização.
+
+### Editar tarefas {#edit-tasks}
+
+É possível editar tarefas existentes no Inventário de tarefas. Considere o seguinte:
+
+* **Tarefas não usadas em desafios ativos**: podem ser editadas livremente - todas as propriedades podem ser modificadas sem impacto
+* **Tarefas usadas em desafios dinâmicos**: tenha cuidado, pois as alterações afetam todos os desafios usando a tarefa. As modificações se aplicam imediatamente a todos os desafios de referência
+
+Para editar uma tarefa:
+
+1. Navegue até a guia **[!UICONTROL Tarefas]** no inventário de Desafios de Fidelidade.
+
+1. Localize a tarefa que deseja editar.
+
+1. Selecione o nome da tarefa para abri-la no modo de edição.
+
+1. Modifique as propriedades da tarefa conforme necessário:
+   * Atualizar nome ou descrição da tarefa
+   * Alterar tipo ou atributos de atividade
+   * Ajustar itens elegíveis e exclusões
+   * Modificar necessidades de quantidade ou quantia
+
+1. Salve as alterações.
+
+>[!WARNING]
+>
+>Ao editar uma tarefa que seja usada ativamente em desafios em tempo real, considere criar uma duplicata com uma nova versão em vez de modificar a original. Isso evita alterações não intencionais em desafios ativos e permite testar as modificações antes de aplicá-las.
+
+### Excluir tarefas {#delete-tasks}
+
+As tarefas só podem ser excluídas se não estiverem sendo usadas atualmente em nenhum desafio. Antes de excluir uma tarefa:
+
+* Verifique a contagem **[!UICONTROL Usados em desafios]** no inventário de tarefas
+* Garantir que nenhum desafio de rascunho, agendado ou ativo faça referência à tarefa
+
+Para excluir uma tarefa:
+
+1. Navegue até a guia **[!UICONTROL Tarefas]** no inventário de Desafios de Fidelidade.
+
+1. Localize a tarefa que deseja excluir.
+
+1. Verifique se a contagem **[!UICONTROL Usado em desafios]** mostra 0. Se a contagem for maior que 0, você deverá primeiro remover a tarefa de todos os desafios antes de excluí-la.
+
+1. Selecione o menu de mais ações (três pontos) ao lado da tarefa.
+
+1. Escolha **[!UICONTROL Excluir]**.
+
+1. Confirme a exclusão na caixa de diálogo.
+
+>[!NOTE]
+>
+>Se uma tarefa for usada em qualquer desafio (rascunho, agendada ou ativa), você deverá primeiro removê-la de todos os desafios antes de excluí-la. Considere arquivar ou duplicar tarefas em vez de excluí-las, se necessário.

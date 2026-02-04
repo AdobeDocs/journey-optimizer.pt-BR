@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -27,29 +27,34 @@ ht-degree: 0%
 * [Introdução aos Desafios de Fidelidade](get-started.md) - Visão geral, fluxo de trabalho, pré-requisitos
 * **Acessar Desafios de Fidelidade** ◀︎ **Você está aqui** - Inventário e filtragem
 * [Criar desafios](create-challenges.md) - Criar e configurar desafios
+* [Criar tarefas](create-tasks.md) - Definir tarefas de desafio
 * [Gerenciar desafios](manage-challenges.md) - Editar, monitorar, otimizar
 
 >[!ENDSHADEBOX]
 
+>[!AVAILABILITY]
+>
+>Este recurso está atualmente no **beta privado** e pode não estar disponível em seu ambiente. Para solicitar acesso, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
+
 ## Acessar o inventário de desafios de fidelidade {#access-inventory}
 
-Para acessar os desafios de fidelidade:
+<!-- SCREENSHOT: Journey Optimizer main menu showing "Loyalty challenges" under "Customer journeys" section -->
 
-1. No Adobe Journey Optimizer, selecione **[!UICONTROL Desafios de fidelidade]** no menu de navegação esquerdo, na seção **[!UICONTROL jornadas do cliente]**.
+Para acessar os Desafios de Fidelidade, navegue até Journey Optimizer e selecione **[!UICONTROL Desafios de fidelidade]** na seção **[!UICONTROL jornadas do cliente]**.
 
-2. A página Desafios de fidelidade é exibida com duas guias:
-   * **[!UICONTROL Desafios]**: visualizar e gerenciar todos os desafios de fidelidade
-   * **[!UICONTROL Tarefas]**: exibir e gerenciar todas as tarefas que podem ser reutilizadas entre desafios
+<!-- SCREENSHOT: Loyalty Challenges landing page showing the two tabs: Challenges and Tasks -->
 
-Por padrão, a guia **[!UICONTROL Desafios]** é selecionada, mostrando todos os desafios existentes em sua organização.
+A página Desafios de fidelidade é exibida com duas guias:
 
-## Guia Desafios {#challenges-tab}
+* **[!UICONTROL Desafios]**: visualizar e gerenciar todos os desafios de fidelidade
 
-A guia Desafios exibe todos os desafios classificados por data da última modificação, com os desafios modificados mais recentemente aparecendo primeiro.
+* **[!UICONTROL Tarefas]**: exibir e gerenciar todas as tarefas que podem ser reutilizadas entre desafios
 
-### Compreender o inventário de desafios {#inventory-overview}
+## Inventário de desafios {#challenges-tab}
 
-O inventário Desafios exibe todos os desafios com as seguintes informações:
+<!-- SCREENSHOT: Challenges tab showing the inventory table with columns: Challenge name, Status, Type, Start date, End date, Created by, Last modified, Tags -->
+
+A guia Desafios exibe todos os desafios classificados por data da última modificação, com os desafios modificados mais recentemente aparecendo primeiro. As seguintes informações são exibidas:
 
 * **[!UICONTROL Nome do desafio]**: o nome que você atribuiu ao desafio
 * **[!UICONTROL Status]**: estado atual do desafio (consulte as descrições de status abaixo)
@@ -62,51 +67,63 @@ O inventário Desafios exibe todos os desafios com as seguintes informações:
 
 ### Status de desafio {#challenge-statuses}
 
-Os desafios podem ter os seguintes status:
+<!-- VISUAL: Status badges showing different challenge statuses with color coding: Draft (gray), Scheduled (blue), Live (green), Completed (gray), Stopped (red), Archived (gray) -->
 
-* **[!UICONTROL Rascunho]**: o desafio está sendo criado ou editado, mas ainda não foi publicado
-* **[!UICONTROL Agendado]**: o desafio foi publicado e está agendado para iniciar em uma data futura
-* **[!UICONTROL Live]**: o desafio está ativo no momento e disponível para o público-alvo
-* **[!UICONTROL Concluído]**: o desafio ultrapassou sua data de término ou todos os objetivos foram atingidos
-* **[!UICONTROL Parado]**: o desafio foi manualmente parado antes da conclusão
-* **[!UICONTROL Arquivado]**: o desafio foi arquivado para fins organizacionais
+Os desafios são exibidos com status diferentes, indicando seu estado atual no ciclo de vida:
+
+* **Rascunho**: O desafio está sendo criado ou editado
+* **Agendado**: o desafio foi publicado e ficará ativo na data de início
+* **Live**: o desafio está ativo e os clientes podem participar
+* **Concluído**: a data de término do desafio passou ou os objetivos foram atingidos
+* **Parado**: o desafio foi manualmente parado antes da conclusão
+* **Arquivado**: o desafio foi arquivado para fins organizacionais
+
+Para obter informações detalhadas sobre as transições de status e o ciclo de vida de desafio, consulte [Ciclo de vida de desafio](manage-challenges.md#challenge-lifecycle).
 
 ### Pesquisar e filtrar desafios {#search-challenges}
 
-Use a funcionalidade de pesquisa para encontrar rapidamente desafios específicos por nome ou descrição.
+<!-- SCREENSHOT: Search bar and filter panel showing available filters (status, type, dates, tags) with an example of active filters applied -->
 
-Também é possível aplicar filtros para restringir a lista de desafios com base em critérios específicos. É possível combinar vários filtros para refinar a pesquisa.
+Você pode localizar desafios rapidamente usando pesquisa e filtros:
 
-Você pode filtrar os desafios pelo status atual, pelo tipo de desafio, com base nas datas de início ou término, ou pelas tags aplicadas para a organização.
+**Pesquisar:**
+
+* Use a barra de pesquisa para encontrar desafios, inserindo palavras-chave do nome ou da descrição do desafio. As atualizações de pesquisa resultam em tempo real à medida que você digita.
+
+**Filtros:**
+
+* Aplique um ou mais filtros para restringir seus resultados:
+   * **Status**: filtrar por status de desafio (Rascunho, Agendado, Ao Vivo, Concluído, Interrompido, Arquivado)
+   * **Tipo**: filtrar por tipo de desafio (Padrão, Streak, Sequencial)
+   * **Datas**: filtrar por intervalos de datas de início ou término
+   * **Marcas**: filtrar por marcas aplicadas a desafios
+
+É possível combinar vários filtros simultaneamente. Por exemplo, filtre por desafios do Live Standard marcados com &quot;Verão de 2024&quot; para encontrar rapidamente campanhas sazonais ativas.
+
+Para limpar filtros, selecione **[!UICONTROL Limpar tudo]** ou remover filtros individuais.
 
 ### Realizar ações em relação aos desafios {#inventory-actions}
 
+<!-- SCREENSHOT: More actions menu (three dots) expanded showing options: Edit, Duplicate, Stop, Archive, Delete -->
+
 Na guia Desafios, é possível executar ações rápidas em desafios:
 
-* **Exibir detalhes do desafio**: selecione um nome de desafio para abrir sua página de detalhes
-* **Editar um desafio**: selecione o menu de mais ações (três pontos) e escolha **[!UICONTROL Editar]**
-* **Duplicar um desafio**: selecione o menu de mais ações e escolha **[!UICONTROL Duplicar]**
-* **Parar um desafio em tempo real**: selecione o menu de mais ações e escolha **[!UICONTROL Parar]**
-* **Arquivar um desafio**: selecione o menu de mais ações e escolha **[!UICONTROL Arquivar]**
-* **Excluir um desafio de rascunho**: Selecione o menu de mais ações e escolha **[!UICONTROL Excluir]** (disponível somente para rascunhos)
+* **Exibir detalhes do desafio**: selecione o nome do desafio para abrir sua página de detalhes
+* **Editar um desafio**: selecione o menu **[!UICONTROL Mais ações]** (três pontos) e escolha **[!UICONTROL Editar]**
+* **Duplicar um desafio**: selecione o menu **[!UICONTROL Mais ações]** e escolha **[!UICONTROL Duplicar]**
+* **Parar um desafio em tempo real**: selecione o menu **[!UICONTROL Mais ações]** e escolha **[!UICONTROL Parar]**
+* **Arquivar um desafio**: selecione o menu **[!UICONTROL Mais ações]** e escolha **[!UICONTROL Arquivar]**
+* **Excluir um desafio de rascunho**: Selecione o menu **[!UICONTROL Mais ações]** e escolha **[!UICONTROL Excluir]** (disponível somente para rascunhos)
 
-### Criar um novo desafio {#create-from-inventory}
+Para obter informações detalhadas sobre como gerenciar desafios após a criação, incluindo limitações de edição, estratégias de duplicação, monitoramento de desempenho e solução de problemas, consulte [Gerenciar desafios](manage-challenges.md).
 
-Para criar um novo desafio na guia Desafios:
+## Inventário de tarefas {#tasks-tab}
 
-1. Selecione **[!UICONTROL Criar desafio]** no canto superior direito.
-
-2. O fluxo de trabalho de criação do desafio é iniciado.
-
-Para obter instruções detalhadas, consulte [Criar desafios](create-challenges.md).
-
-## Guia Tarefas {#tasks-tab}
+<!-- SCREENSHOT: Tasks tab showing the inventory table with columns: Task name, Task type, Description, Created by, Last modified, Used in challenges -->
 
 A guia Tasks exibe todas as tarefas reutilizáveis que podem ser usadas em vários desafios. As tarefas criadas aqui ficam disponíveis para seleção ao criar ou editar qualquer desafio.
 
-### Noções básicas sobre o inventário de tarefas {#tasks-inventory-overview}
-
-O inventário de tarefas exibe todas as tarefas com as seguintes informações:
+O inventário de tarefas exibe as seguintes informações:
 
 * **[!UICONTROL Nome da tarefa]**: o nome que você atribuiu à tarefa
 * **[!UICONTROL Tipo de tarefa]**: tipo de ação (Compra, Valor do gasto, Visita, Envolvimento, Evento personalizado)
@@ -115,38 +132,20 @@ O inventário de tarefas exibe todas as tarefas com as seguintes informações:
 * **[!UICONTROL Última modificação]**: data e hora da última modificação
 * **[!UICONTROL Usado em desafios]**: Número de desafios que estão usando esta tarefa no momento
 
-### Criar tarefas na guia Tarefas {#create-tasks-from-tab}
-
-É possível criar tarefas de duas maneiras:
-
-1. **Na guia Tarefas** (recomendado para tarefas reutilizáveis):
-   * Navegue até a guia **[!UICONTROL Tarefas]**
-   * Selecione **[!UICONTROL Criar tarefa]**
-   * Configurar as propriedades da tarefa (nome, tipo, quantidade, filtros de produto, prêmios)
-   * Salve a tarefa para disponibilizá-la para uso em qualquer desafio
-
-2. **Ao criar um desafio** (para tarefas específicas de desafio):
-   * Durante a criação do desafio, selecione **[!UICONTROL Adicionar tarefa]** na seção Tarefas
-   * Escolha **[!UICONTROL Criar nova tarefa]** ou selecione uma das tarefas existentes
-   * Tarefas criadas dessa maneira também são salvas no inventário de Tarefas e podem ser reutilizadas
-
->[!TIP]
->
->Criar tarefas a partir da guia Tasks é recomendado quando você planeja usar a mesma tarefa em vários desafios. Isso garante a consistência e facilita a atualização central das definições de tarefa.
-
 ### Realizar ações em tarefas {#tasks-actions}
 
 Na guia Tasks (Tarefas), é possível executar ações em tarefas:
 
-* **Exibir detalhes da tarefa**: selecione um nome de tarefa para exibir a configuração completa
-* **Editar uma tarefa**: selecione o menu de mais ações (três pontos) e escolha **[!UICONTROL Editar]**
-* **Duplicar uma tarefa**: selecione o menu de mais ações e escolha **[!UICONTROL Duplicar]**
-* **Excluir uma tarefa**: selecione o menu de mais ações e escolha **[!UICONTROL Excluir]** (somente se não for usado em nenhum desafio ativo)
+* **Exibir detalhes da tarefa**: selecione o nome da tarefa para exibir a configuração completa
+* **Editar uma tarefa**: selecione o menu **[!UICONTROL Mais ações]** (três pontos) e escolha **[!UICONTROL Editar]**
+* **Duplicar uma tarefa**: selecione o menu **[!UICONTROL Mais ações]** e escolha **[!UICONTROL Duplicar]**
+* **Excluir uma tarefa**: selecione o menu **[!UICONTROL Mais ações]** e escolha **[!UICONTROL Excluir]** (somente se não for usado em nenhum desafio ativo)
 * **Uso da exibição**: veja quais desafios estão usando a tarefa no momento
 
 ## Próximas etapas {#next-steps}
 
 Agora que você sabe como acessar e navegar pelo inventário de desafios de fidelidade:
 
-* [Criar desafios](create-challenges.md) - Saiba como criar seu primeiro desafio
-* [Gerenciar desafios](manage-challenges.md) - Saiba como editar e monitorar desafios
+* [Criar desafios](create-challenges.md) - Saiba como criar seu primeiro desafio e configurar tarefas
+* [Criar tarefas](create-tasks.md) - Saiba como definir tarefas reutilizáveis para desafios
+* [Gerenciar desafios](manage-challenges.md) - Saiba como editar, monitorar e otimizar desafios
