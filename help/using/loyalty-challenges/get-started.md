@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -62,7 +62,7 @@ A criação e o lançamento de um desafio de fidelidade seguem este fluxo de tra
 
 1. **Adicionar tarefas** - Defina as ações específicas que os clientes devem concluir, incluindo tipos de tarefas (compra, gastos, visitas, envolvimento, eventos personalizados), quantidades, filtros de produtos e recompensas. Consulte [Criar tarefas](create-tasks.md) para obter instruções detalhadas.
 
-1. **Criar cartões de conteúdo** - Crie a representação visual do seu desafio usando os [cartões de conteúdo](../content-card/get-started-content-card.md) do Journey Optimizer exibidos nos dispositivos do cliente. Os cartões de conteúdo mostram informações de desafio, progresso e recompensas.
+1. **Criar cartões de conteúdo** - Crie a representação visual do seu desafio usando os [cartões de conteúdo](../content-card/create-content-card.md) do Journey Optimizer exibidos nos dispositivos do cliente. Os cartões de conteúdo mostram informações de desafio, progresso e recompensas.
 
 1. **Configurar mensagens** (Opcional) - Configure mensagens multicanais ([no aplicativo](../in-app/get-started-in-app.md), [email](../email/get-started-email.md), [push](../push/get-started-push.md)) para estágios-chave do ciclo de vida: inicialização, em andamento e conclusão.
 
@@ -86,7 +86,7 @@ Os desafios de fidelidade dependem dos dados assimilados pelos conectores de ori
 
 Para obter instruções detalhadas, consulte:
 
-* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurar conectores de origem no Journey Optimizer](../start/get-started-sources.md)
 
 +++
