@@ -7,9 +7,9 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5868a3c9eb1d0faca62887353145cd86cde883f
+source-git-commit: 97464b7afa07199792bd4311d0477b5bcb140d8e
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -96,3 +96,12 @@ A tabela **[!UICONTROL Detalhamento de latência]** fornece um detalhamento das 
 
 ➡️[Consulte a seção KPIs para obter uma descrição das métricas de Latência](#kpis)
 
+## Vídeo tutorial {#video}
+
+O vídeo abaixo mostra como monitorar a confiabilidade e o desempenho das chamadas de API feitas de suas jornadas para sistemas de terceiros.
+
++++Ver vídeo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+
++++
