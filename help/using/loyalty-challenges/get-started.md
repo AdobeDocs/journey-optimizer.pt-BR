@@ -114,7 +114,7 @@ Os desafios de fidelidade dependem dos dados assimilados pelos conectores de ori
 
 Para obter instruções detalhadas, consulte:
 
-* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
 * [Configurar conectores de origem no Journey Optimizer](../start/get-started-sources.md)
 
 ### Permissões necessárias {#required-permissions}
