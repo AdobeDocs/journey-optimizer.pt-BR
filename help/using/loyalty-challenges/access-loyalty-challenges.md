@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -38,33 +38,35 @@ ht-degree: 0%
 
 Para acessar os Desafios de Fidelidade, navegue até Journey Optimizer e selecione **[!UICONTROL Desafio de Fidelidade (Beta)]** na seção **[!UICONTROL Gerenciamento de Jornada]**.
 
+## Visão geral {#overview}
+
+A interface dos desafios de fidelidade fornece um local centralizado para exibir, gerenciar e organizar todos os seus desafios e tarefas. Você pode acessar dois inventários principais:
+
+* **Inventário de desafios**: visualize e gerencie todos os desafios de fidelidade, monitore seu status e execute ações rápidas
+* **Inventário de tarefas**: procure tarefas reutilizáveis que possam ser usadas em vários desafios
+
 ## Inventário de desafios {#challenges-tab}
 
 A guia **[!UICONTROL Desafios]** exibe todos os desafios classificados por data da última modificação, com os desafios modificados mais recentemente aparecendo primeiro.
 
 ![](assets/challenges-inventory.png)
 
-As seguintes informações são exibidas:
+Informações-chave exibidas:
 
-* **[!UICONTROL Desafio]**: o nome que você atribuiu ao desafio
-* **[!UICONTROL Estado]**: estado atual do desafio. Para obter informações detalhadas sobre as transições de status e o ciclo de vida de desafio, consulte [Ciclo de vida de desafio](manage-challenges.md#challenge-lifecycle).
-* **[!UICONTROL Descrição]**: breve descrição da finalidade do desafio
+* **[!UICONTROL Desafio]**: nome do desafio
+* **[!UICONTROL Estado]**: estado atual do desafio (Rascunho ou Publicado). [Saiba mais sobre as transições de status](manage-challenges.md#challenge-lifecycle)
 * **[!UICONTROL Tarefas]**: Número de tarefas configuradas no desafio
 * **[!UICONTROL Jornada]**: link para a jornada gerada automaticamente associada ao desafio
 * **[!UICONTROL Status]**: status atual da jornada associada (Rascunho, Ao Vivo, Parado, etc.)
-* **[!UICONTROL Data de Início (UTC)]**: quando o desafio se torna ativo
-* **[!UICONTROL Data de Término (UTC)]**: quando o desafio expira
-* **[!UICONTROL Última modificação]**: data e hora da última modificação
-* **[!UICONTROL Data de Criação]**: Data em que o desafio foi criado
-* **[!UICONTROL Criado por]**: usuário que criou o desafio
+* **[!UICONTROL Data de Início/Término (UTC)]**: quando o desafio se torna ativo e quando ele expira
 
 Na guia Desafios, é possível executar ações rápidas em desafios:
 
-* **Exibir detalhes do desafio**: selecione o nome do desafio para abrir sua página de detalhes
+* **Exibir detalhes do desafio**: selecione o nome do desafio para abrir sua página de detalhes e/ou editar o desafio
 * **Duplicar um desafio**: selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Duplicar]**
 * **Excluir um desafio de rascunho**: Selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Excluir]**
 
-Para obter informações detalhadas sobre como gerenciar desafios após a criação, consulte [Gerenciar desafios e tarefas](manage-challenges.md).
+[Saiba como gerenciar desafios após a criação](manage-challenges.md).
 
 ## Inventário de tarefas {#tasks-tab}
 
@@ -72,24 +74,20 @@ A guia Tasks exibe todas as tarefas reutilizáveis que podem ser usadas em vári
 
 ![](assets/tasks-inventory.png)
 
-O inventário de tarefas exibe as seguintes informações:
+Informações-chave exibidas:
 
 * **[!UICONTROL Nome da tarefa]**: o nome que você atribuiu à tarefa
 * **[!UICONTROL Descrição]**: breve descrição do que a tarefa exige
 * **[!UICONTROL Atividade da tarefa]**: tipo de atividade (Compra, Gasto)
 * **[!UICONTROL SKU]**: itens qualificados e/ou excluídos
-* **[!UICONTROL Última modificação]**: data e hora da última modificação
-* **[!UICONTROL Última Modificação realizada por]**: Último usuário que modificou a tarefa
-* **[!UICONTROL Data de Criação]**: Data em que a tarefa foi criada
-* **[!UICONTROL Criado por]**: usuário que criou a tarefa
 
 Na guia Tasks (Tarefas), é possível executar ações rápidas em tarefas:
 
-* **Exibir detalhes da tarefa**: selecione o nome da tarefa para exibir a configuração completa
+* **Exibir detalhes da tarefa**: selecione o nome da tarefa para exibir a configuração completa e/ou editar a tarefa
 * **Duplicar uma tarefa**: selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Duplicar]**
 * **Excluir uma tarefa**: selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Excluir]**
 
-Para obter informações detalhadas sobre como gerenciar tarefas após a criação, consulte [Gerenciar desafios e tarefas](manage-challenges.md).
+[Saiba como gerenciar tarefas após a criação](manage-challenges.md).
 
 ## Próximas etapas {#next-steps}
 

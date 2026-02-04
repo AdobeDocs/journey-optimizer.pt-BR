@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '653'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Os desafios de fidelidade dependem dos dados assimilados pelos conectores de ori
 
 Para obter instruções detalhadas, consulte:
 
-* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurar conectores de origem no Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -106,7 +106,7 @@ Entre em contato com o administrador se não conseguir acessar o recurso ou prec
 
 +++Públicos-alvo
 
-Defina públicos-alvo que especifiquem quais clientes estão qualificados para participar de seus desafios de fidelidade. Você pode selecionar públicos existentes ou criar novos diretamente da interface de criação de desafios. Para obter mais informações sobre como trabalhar com públicos, consulte [Introdução aos públicos](../audience/about-audiences.md).
+Defina públicos-alvo que especifiquem quais clientes estão qualificados para participar de seus desafios de fidelidade. Você pode selecionar públicos existentes ou criar novos diretamente da interface de criação de desafios. [Saiba como trabalhar com públicos](../audience/about-audiences.md).
 
 +++
 

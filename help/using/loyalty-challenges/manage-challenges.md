@@ -10,15 +10,15 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
 
 
-# Gerenciar desafios {#manage-challenges}
+# Gerenciar desafios e tarefas {#manage-challenges}
 
 >[!BEGINSHADEBOX]
 
@@ -38,9 +38,7 @@ ht-degree: 0%
 
 ## Gerenciar desafios {#manage-challenges-section}
 
-### Desafiar o ciclo de vida {#challenge-lifecycle}
-
-<!-- VISUAL: Flowchart diagram showing challenge lifecycle with status transitions: Draft → Scheduled → Live → Completed/Stopped/Archived -->
+### Estados de desafio {#challenge-lifecycle}
 
 Os desafios passam por diferentes status durante seu ciclo de vida:
 
