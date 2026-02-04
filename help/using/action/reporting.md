@@ -102,6 +102,6 @@ O vídeo abaixo mostra como monitorar a confiabilidade e o desempenho das chamad
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479546?captions=por_br&quality=12&learn=on)
 
 +++
