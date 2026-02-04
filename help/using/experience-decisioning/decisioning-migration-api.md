@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1154'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ A API do serviço de migração de decisão permite migrar objetos de Gestão de
 
 Essa API permite fazer a transição perfeita do conteúdo de decisão entre ambientes (por exemplo, do desenvolvimento ao preparo ou do preparo à produção), mantendo a integridade e os relacionamentos dos dados.
 
-Para saber mais sobre os benefícios e os recursos do Decisioning em comparação ao Gerenciamento de decisão, consulte [Vantagens de migrar para o Decisioning](migrate-to-decisioning.md).
+Para saber mais sobre os benefícios e recursos do Decisioning em comparação ao Gerenciamento de decisão, consulte [esta página](migrate-to-decisioning.md).
 
 ## Recursos {#capabilities}
 
