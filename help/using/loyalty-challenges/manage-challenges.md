@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 1%
+source-wordcount: '804'
+ht-degree: 0%
 
 ---
 
@@ -45,67 +45,38 @@ ht-degree: 1%
 Os desafios passam por diferentes status durante seu ciclo de vida:
 
 * **Rascunho**: o desafio está sendo criado ou editado e ainda não está disponível para os clientes
-* **Agendado**: o desafio foi publicado e ficará ativo automaticamente na data de início especificada
-* **Live**: o desafio está ativo no momento e os clientes podem participar
-* **Concluído**: o desafio terminou - a data final já passou ou todos os objetivos foram atingidos
-* **Parado**: o desafio foi manualmente parado antes de atingir sua conclusão natural
-* **Arquivado**: o desafio foi arquivado para fins organizacionais e não está mais visível no inventário principal
+* **Publicado**: o desafio está ativo, a jornada associada foi criada.
 
 ### Editar desafios {#edit-challenges}
 
-É possível editar os desafios dependendo de seu status atual:
+Você pode editar desafios abrindo-os no inventário Desafios. O comportamento de edição é diferente dependendo do status de desafio:
 
-* **Desafios de rascunho**: recurso de edição completo - todas as propriedades podem ser modificadas
-* **Desafios agendados/ao vivo**: Edição limitada - você pode atualizar conteúdo, mensagens e estender datas, mas não pode alterar a estrutura do desafio principal (definições de tipo, público-alvo ou tarefa)
+**Desafios de rascunho**: você tem o recurso de edição completo. Todas as propriedades, tarefas, conteúdo e mensagens podem ser modificados sem restrições.
 
-Para editar um desafio:
+**Desafios publicados**: ao abrir um desafio publicado para edição, primeiro é necessário revertê-lo para o status Rascunho.
 
-1. Navegue até a guia **[!UICONTROL Desafios]** no inventário de Desafios de Fidelidade.
+* Qualquer personalização feita diretamente na jornada gerada automaticamente será perdida
+* O desafio retorna ao estado Rascunho
+* Depois de fazer suas alterações, você deve salvar e publicar o desafio novamente
+* Você deve reativar a jornada associada para disponibilizar o desafio atualizado para os clientes
 
-1. Localize o desafio que deseja editar.
-
-1. Selecione o nome do desafio para abri-lo no modo de edição.
-
-1. Faça suas alterações com base no status do desafio:
-   * **Desafios de rascunho**: modifique propriedades, tarefas, conteúdo ou mensagens
-   * **Desafios agendados/ao vivo**: atualize cartões de conteúdo, mensagens ou estenda datas de término conforme necessário
-
-1. Salve as alterações. Para desafios programados ou em tempo real, as alterações entram em vigor imediatamente ou de acordo com a programação de atualização.
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Para alterações que exigem grandes modificações (como alterar o tipo de desafio, o público-alvo ou a estrutura de tarefas), duplique o desafio e crie uma nova versão em vez de editar a existente.
+>Reverter um desafio publicado para rascunho não pode ser desfeito. Considere o impacto na jornada ativa antes de continuar.
 
 ### Desafios duplicados {#duplicate-challenges}
-
-Desafios duplicados para:
-
-* Reexecutar desafios bem-sucedidos em novos períodos
-* Criar variações para públicos diferentes
-* Atualizar requisitos ou recompensas da tarefa
-* Reativar desafios interrompidos ou concluídos
 
 Duplicar um desafio cria uma cópia exata com todas as tarefas, conteúdo e mensagens intactas, permitindo que você crie rapidamente novas versões sem começar do zero.
 
 Para duplicar um desafio:
 
-1. Navegue até a guia **[!UICONTROL Desafios]** no inventário de Desafios de Fidelidade.
+1. Navegue até a guia **[!UICONTROL Desafios]** e localize o desafio que deseja duplicar.
 
-1. Localize o desafio que deseja duplicar.
+1. Selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) ao lado desse desafio e escolha **[!UICONTROL Duplicar]**.
 
-1. Selecione o menu de mais ações (três pontos) ao lado desse desafio.
+1. Uma cópia do desafio é criada. Abra o desafio duplicado e modifique as propriedades necessárias.
 
-1. Escolha **[!UICONTROL Duplicar]**.
-
-1. Uma cópia do desafio é criada com a &quot;[Cópia]&quot; anexada ao seu nome.
-
-1. Abra o desafio duplicado e modifique as propriedades necessárias:
-   * Atualizar o nome do desafio
-   * Ajustar datas de início e término
-   * Alterar o público-alvo, se necessário
-   * Modifique tarefas, recompensas, conteúdo ou mensagens conforme necessário
-
-1. Revise e publique o desafio duplicado.
+1. Salve o desafio duplicado e gere a jornada associada.
 
 ### Monitorar desempenho {#monitor-performance}
 
@@ -184,7 +155,7 @@ Para excluir uma tarefa:
 
 1. Verifique se a contagem **[!UICONTROL Usado em desafios]** mostra 0. Se a contagem for maior que 0, você deverá primeiro remover a tarefa de todos os desafios antes de excluí-la.
 
-1. Selecione o menu de mais ações (três pontos) ao lado da tarefa.
+1. Selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) ao lado da tarefa.
 
 1. Escolha **[!UICONTROL Excluir]**.
 

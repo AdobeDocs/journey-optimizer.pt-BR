@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Dependendo do tipo de desafio (Padrão, Streak ou Sequencial), os clientes concl
 
 +++No inventário de tarefas
 
-1. Navegue até **[!UICONTROL Desafios de fidelidade]** no Journey Optimizer.
+1. Navegue até **[!UICONTROL Desafios de Fidelidade (Beta)]** no Journey Optimizer.
 
 1. Selecione a guia **[!UICONTROL Tarefas]**.
 

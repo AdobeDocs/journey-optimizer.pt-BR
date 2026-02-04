@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Os desafios de fidelidade dependem dos dados assimilados pelos conectores de ori
 
 Para obter instruções detalhadas, consulte:
 
-* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurar conectores de origem no Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -95,7 +95,7 @@ Para obter instruções detalhadas, consulte:
 
 Para usar os Desafios de fidelidade, você precisa das permissões apropriadas no Journey Optimizer. As permissões necessárias incluem:
 
-* Acesso ao recurso **[!UICONTROL Desafios de fidelidade]**
+* Acesso ao recurso **[!UICONTROL Desafios de Fidelidade (Beta)]**
 * Permissões para criar e gerenciar jornadas
 * Permissões para criar e gerenciar cartões de conteúdo
 * Permissões para criar e gerenciar públicos
@@ -106,7 +106,7 @@ Entre em contato com o administrador se não conseguir acessar o recurso ou prec
 
 +++Públicos-alvo
 
-Crie públicos-alvo no Experience Platform antes de criar desafios. Esses públicos-alvo definem quais clientes estão qualificados para participar de seus desafios de fidelidade. Para obter mais informações sobre como criar públicos, consulte [Introdução aos públicos](../audience/about-audiences.md).
+Defina públicos-alvo que especifiquem quais clientes estão qualificados para participar de seus desafios de fidelidade. Você pode selecionar públicos existentes ou criar novos diretamente da interface de criação de desafios. Para obter mais informações sobre como trabalhar com públicos, consulte [Introdução aos públicos](../audience/about-audiences.md).
 
 +++
 
