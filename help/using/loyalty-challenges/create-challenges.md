@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # Criar desafios {#create-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="Criar um desafio de fidelidade"
->abstract="Crie um desafio de fidelidade para definir a oferta de engajamento, configure cartões de conteúdo para entrega, adicione tarefas, configure recompensas e, opcionalmente, configure mensagens entre canais."
-
-Crie um desafio de fidelidade para definir a oferta de engajamento, configurar cartões de conteúdo, adicionar tarefas, configurar recompensas e configurar mensagens entre canais.
-
 >[!BEGINSHADEBOX]
 
 **Documentação de Desafios de Fidelidade:**
 
-* [Introdução aos Desafios de Fidelidade](gs-loyalty-challenges.md) - Visão geral rápida e próximas etapas
-* [Entender os desafios da fidelidade](get-started.md) - Recursos, fluxo de trabalho, pré-requisitos
+* [Introdução aos Desafios de Fidelidade](get-started.md) - Visão geral, fluxo de trabalho, pré-requisitos
+* [Acessar Desafios de Fidelidade](access-loyalty-challenges.md) - Inventário e filtragem
 * **Criar desafios** ◀︎ **Você está aqui** - Criar e configurar desafios
 * [Gerenciar desafios](manage-challenges.md) - Editar, monitorar, otimizar
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_create_challenge"
+>title="Criar um desafio de fidelidade"
+>abstract="Crie um desafio de fidelidade para definir a oferta de engajamento, configure cartões de conteúdo para entrega, adicione tarefas, configure recompensas e, opcionalmente, configure mensagens entre canais."
 
 ## Antes de começar {#before-you-start}
 

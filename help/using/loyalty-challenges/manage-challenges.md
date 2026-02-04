@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # Gerenciar desafios {#manage-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_manage_challenges"
->title="Gerenciar desafios de fidelidade"
->abstract="Depois de criar e publicar os desafios de fidelidade, você pode visualizá-los, editá-los, monitorá-los e otimizá-los para garantir que eles forneçam os resultados desejados para o seu programa de fidelidade."
-
-Depois de criar e publicar os desafios de fidelidade, você pode visualizá-los, editá-los, monitorá-los e otimizá-los para garantir que eles forneçam os resultados desejados para o seu programa de fidelidade.
-
 >[!BEGINSHADEBOX]
 
 **Documentação de Desafios de Fidelidade:**
 
-* [Introdução aos Desafios de Fidelidade](gs-loyalty-challenges.md) - Visão geral rápida e próximas etapas
-* [Entender os desafios da fidelidade](get-started.md) - Recursos, fluxo de trabalho, pré-requisitos
+* [Introdução aos Desafios de Fidelidade](get-started.md) - Visão geral, fluxo de trabalho, pré-requisitos
+* [Acessar Desafios de Fidelidade](access-loyalty-challenges.md) - Inventário e filtragem
 * [Criar desafios](create-challenges.md) - Criar e configurar desafios
 * **Gerenciar desafios** ◀︎ **Você está aqui** - Editar, monitorar, otimizar
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_manage_challenges"
+>title="Gerenciar desafios de fidelidade"
+>abstract="Depois de criar e publicar os desafios de fidelidade, você pode visualizá-los, editá-los, monitorá-los e otimizá-los para garantir que eles forneçam os resultados desejados para o seu programa de fidelidade."
 
 ## Desafiar o ciclo de vida {#challenge-lifecycle}
 

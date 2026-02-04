@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Entender os desafios da fidelidade
-description: Saiba mais sobre os recursos, o fluxo de trabalho e os recursos dos Desafios de fidelidade na Adobe Journey Optimizer.
+title: Introdução aos desafios de fidelidade
+description: Saiba como criar e gerenciar desafios de fidelidade no Adobe Journey Optimizer para criar programas de fidelidade envolventes.
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,37 +10,65 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '759'
 ht-degree: 2%
 
 ---
 
 
-# Entender os desafios da fidelidade {#understand-loyalty-challenges}
+# Introdução aos desafios de fidelidade {#get-started-loyalty-challenges}
+
+>[!BEGINSHADEBOX]
+
+**Documentação de Desafios de Fidelidade:**
+
+* **Introdução aos Desafios de Fidelidade** ◀︎ **Você está aqui** - Visão geral, fluxo de trabalho, pré-requisitos
+* [Acessar Desafios de Fidelidade](access-loyalty-challenges.md) - Inventário e filtragem
+* [Criar desafios](create-challenges.md) - Criar e configurar desafios
+* [Gerenciar desafios](manage-challenges.md) - Editar, monitorar, otimizar
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenges_overview"
 >title="Sobre os desafios de fidelidade"
 >abstract="Os Desafios de fidelidade permitem criar ofertas de engajamento personalizadas que motivam os clientes a concluir ações específicas e ganhar recompensas."
 
-Os Desafios de fidelidade permitem projetar e implantar ofertas de envolvimento personalizadas que motivam os clientes a realizar ações específicas e receber recompensas.
-
->[!BEGINSHADEBOX]
-
-**Documentação de Desafios de Fidelidade:**
-
-* [Introdução aos Desafios de Fidelidade](gs-loyalty-challenges.md) - Visão geral rápida e próximas etapas
-* **Entender os Desafios de Fidelidade** ◀︎ **Você está aqui** - Recursos, fluxo de trabalho, pré-requisitos
-* [Criar desafios](create-challenges.md) - Criar e configurar desafios
-* [Gerenciar desafios](manage-challenges.md) - Editar, monitorar, otimizar
-
->[!ENDSHADEBOX]
+>[!AVAILABILITY]
+>
+>Este recurso está atualmente no **beta privado** e pode não estar disponível em seu ambiente. Entre em contato com o representante da Adobe para obter acesso.
 
 ## Visão geral {#overview}
 
 Os Desafios de fidelidade fornecem uma solução completa para a criação de programas de fidelidade em escala, desde a definição de tarefas e marcos até o fornecimento de conteúdo e o rastreamento do desempenho em todos os canais. Você pode criar três tipos de experiências de desafio, configurar recompensas, enviar notificações de vários canais em estágios-chave do ciclo de vida e monitorar o desempenho por meio de jornadas geradas automaticamente — tudo isso enquanto mantém a integração com seu sistema externo de gerenciamento de fidelidade.
+
+## Principais recursos {#key-capabilities}
+
+Use os desafios de fidelidade para:
+
+* **Crie três tipos de desafios**:
+   * **Padrão**: os clientes concluem qualquer número de tarefas para receber recompensas
+   * **Série**: os clientes concluem a mesma tarefa várias vezes consecutivamente
+   * **Sequencial**: os clientes concluem as tarefas em uma ordem específica
+
+* **Criar conteúdo de desafio**: use cartões de conteúdo do Journey Optimizer para criar a representação visual de seu desafio em dispositivos do cliente. Os cartões de conteúdo exibem as informações de desafio, o progresso e as recompensas.
+
+* **Configurar requisitos da tarefa**: defina o que os clientes devem fazer para receber recompensas, incluindo:
+   * Tipos de tarefa (compra, valor de gastos, visita, envolvimento, eventos personalizados)
+   * Requisitos de quantidade
+   * Inclusões/exclusões de produto usando SKUs, categorias ou atributos
+   * Atributos e condições personalizados
+
+* **Configurar recompensas**: defina as recompensas que os clientes ganharão ao concluir a tarefa (recompensas progressivas) ou após concluir todo o desafio (recompensas finais).
+
+* **Enviar notificações de vários canais**: entregar mensagens em vários canais (no aplicativo, email, push) em estágios-chave:
+   * **Inicialização**: quando o desafio começa
+   * **Em andamento**: quando os clientes estão em processo
+   * **Concluído**: quando os clientes concluírem o desafio
+
+* **Acompanhe o desempenho**: monitore jornadas geradas automaticamente e analise o desempenho de desafios por meio de relatórios internos.
 
 ## Como funciona {#how-it-works}
 
@@ -68,38 +96,6 @@ A criação e o lançamento de um desafio de fidelidade seguem este fluxo de tra
 >
 >A jornada gerada automaticamente é exibida no inventário de jornadas e pode ser personalizada, se necessário. No entanto, as alterações feitas diretamente na jornada não são sincronizadas com a configuração de desafio.
 
-## Principais recursos {#key-capabilities}
-
-Use os desafios de fidelidade para:
-
-* **Crie três tipos de desafios**:
-   * **Padrão**: os clientes concluem qualquer número de tarefas para receber recompensas.
-   * **Streak**: os clientes concluem a mesma tarefa várias vezes.
-   * **Sequencial**: os clientes concluem as tarefas em uma ordem específica.
-
-* **Criar conteúdo de desafio**: use cartões de conteúdo do Journey Optimizer para criar a representação visual de seu desafio em dispositivos do cliente. Os cartões de conteúdo exibem as informações de desafio, o progresso e as recompensas no dispositivo do cliente.
-
-* **Configurar requisitos da tarefa**: defina o que os clientes devem fazer para receber recompensas, incluindo:
-   * Tipos de tarefa (compra, valor de gasto, visita etc.)
-   * Requisitos de quantidade
-   * Inclusões/exclusões de produto usando SKUs
-   * Atributos e condições personalizados
-
-* **Configurar recompensas**: defina recompensas que os clientes ganharão ao concluir a tarefa ou após concluir todo o desafio
-
-* **Enviar notificações**: entregar mensagens em vários canais (no aplicativo, email, push) em estágios-chave:
-   * **Inicialização**: quando o desafio começa
-   * **Em andamento**: quando os clientes estão em processo
-   * **Concluído**: quando os clientes concluírem o desafio
-
-* **Acompanhe o desempenho**: monitore jornadas geradas automaticamente e analise o desempenho do desafio
-
-### Limitações importantes {#limitations}
-
-* **Nenhum sistema de razão**: os Desafios de Fidelidade não rastreiam valores monetários ou saldos de pontos. Quando os clientes concluem um desafio e ganham uma recompensa, a Journey Optimizer chama seu sistema de gerenciamento de fidelidade externo para lidar com a alocação de pontos.
-
-* **Somente seleção de público-alvo**: você pode selecionar públicos-alvo existentes, mas não pode criar novos públicos-alvo na interface de desafios de fidelidade.
-
 ## Pré-requisitos {#prerequisites}
 
 Antes de usar os desafios de fidelidade, verifique se você tem:
@@ -114,41 +110,59 @@ Os desafios de fidelidade dependem dos dados assimilados pelos conectores de ori
 
 Para obter instruções detalhadas, consulte:
 
-* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+* [Documentação de origens do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurar conectores de origem no Journey Optimizer](../start/get-started-sources.md)
 
 ### Permissões necessárias {#required-permissions}
 
 Para usar os Desafios de fidelidade, você precisa das permissões apropriadas no Journey Optimizer. Entre em contato com o administrador se não conseguir acessar o recurso.
 
-## Desafios de fidelidade de acesso {#access}
+### Públicos-alvo {#target-audiences}
 
-Para acessar os desafios de fidelidade:
+Crie públicos-alvo no Experience Platform antes de criar desafios. Você pode selecionar públicos existentes, mas não pode criar novos públicos na interface dos Desafios de fidelidade.
 
-1. No Adobe Journey Optimizer, selecione **[!UICONTROL Desafios de fidelidade]** no menu de navegação esquerdo.
+## Limitações importantes {#limitations}
 
-2. O inventário de desafios de fidelidade exibe todos os desafios existentes com informações como:
-   * Nome e descrição do desafio
-   * Status (Rascunho, Ao vivo, Interrompido etc.)
-   * Tipo de desafio (Padrão, Streak, Sequencial)
-   * Datas iniciais e finais
-   * Data da última modificação
+* **Nenhum sistema de razão**: os Desafios de Fidelidade não rastreiam valores monetários ou saldos de pontos. Quando os clientes concluem um desafio e ganham uma recompensa, a Journey Optimizer chama seu sistema de gerenciamento de fidelidade externo para lidar com a alocação de pontos.
 
-3. Selecione **[!UICONTROL Criar desafio]** para começar a criar um novo desafio.
-
-### Pesquisar e filtrar desafios {#search-filter}
-
-Use os recursos de pesquisa e filtragem para encontrar rapidamente desafios específicos:
-
-* **Pesquisa**: insira o nome do desafio ou palavras-chave no campo Pesquisa
-* **Filtrar por status**: Rascunho, Agendado, Ao Vivo, Concluído, Interrompido ou Arquivado
-* **Filtrar por tipo**: desafios padrão, de Streak ou sequenciais
-* **Filtrar por data**: desafios em um intervalo de datas específico
-* **Filtrar por marcas**: desafios com marcas específicas aplicadas
+* **Somente seleção de público-alvo**: você pode selecionar públicos-alvo existentes, mas não pode criar novos públicos-alvo na interface de desafios de fidelidade.
 
 ## Próximas etapas {#next-steps}
 
-Agora que você entende os desafios de fidelidade, saiba como criar seu primeiro desafio:
-
-* [Criar desafios](create-challenges.md)
-* [Gerenciar desafios](manage-challenges.md)
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+  <td>
+    <a href="access-loyalty-challenges.md">
+    <!--<img alt="Access" src="../assets/do-not-localize/learn-more-button.svg">-->
+    </a>
+    <div>
+    <a href="access-loyalty-challenges.md"><strong>Acessar Desafios de Fidelidade</strong></a>
+    </div>
+    <p>
+    <em>Saiba como acessar o inventário e filtrar desafios</em>
+    <p>
+  </td>
+  <td>
+    <a href="create-challenges.md">
+      <!--<img alt="Create" src="../assets/do-not-localize/start-button.svg">-->
+    </a>
+    <div>
+    <a href="create-challenges.md"><strong>Criar desafios</strong></a>
+    </div>
+    <p>
+    <em>Crie e configure seu primeiro desafio de fidelidade</em>
+    <p>
+  </td>
+  <td>
+    <a href="manage-challenges.md">
+    <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
+    </a>
+    <div>
+    <a href="manage-challenges.md"><strong>Gerenciar desafios</strong></a>
+    </div>
+    <p>
+    <em>Editar, monitorar e otimizar desafios</em>
+    <p>
+  </td>
+</tr>
+</table>
