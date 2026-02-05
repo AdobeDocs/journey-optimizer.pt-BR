@@ -11,19 +11,15 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
+source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
 
 
 # Acessar e gerenciar desafios e tarefas {#access-loyalty-challenges}
-
->[!AVAILABILITY]
->
->Este recurso está atualmente no **beta privado** e pode não estar disponível em seu ambiente. Para solicitar acesso, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
@@ -35,6 +31,10 @@ ht-degree: 0%
 * [Criar tarefas](create-tasks.md)
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Este recurso está atualmente em **beta privado**. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
 
 ## Acessar e gerenciar desafios e tarefas
 
