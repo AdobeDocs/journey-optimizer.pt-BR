@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: c81d9e4c6339ea5637462afb87b6d81a716b22f1
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 12%
+source-wordcount: '2032'
+ht-degree: 14%
 
 ---
 
@@ -163,7 +163,7 @@ Por padrão, o Adobe Journey Optimizer é compatível com TLS 1.3 para ações p
 
 Você pode usar o MTLS (Mutual Transport Layer Security) para garantir segurança aprimorada em conexões de saída para ações personalizadas de Adobe Journey Optimizer. O mTLS é um método de segurança completo para autenticação mútua que garante que ambas as partes que compartilham informações sejam quem afirmam ser antes que os dados sejam compartilhados. O mTLS inclui uma etapa adicional em comparação ao TLS, na qual o servidor também solicita o certificado do cliente e o verifica ao final.
 
-A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definir os parâmetros de carga {#define-the-message-parameters}
 
@@ -207,13 +207,14 @@ Nessas configurações de campo, você deve:
 >Se você configurar parâmetros opcionais enquanto permite valores Nulos, os parâmetros não preenchidos por um profissional do jornada serão enviados como Nulos.
 >
 
-## Exemplos abrangentes de JSON {#json-examples}
+<!--
+## Comprehensive JSON examples {#json-examples}
 
-Esta seção fornece exemplos de JSON completos demonstrando todos os tipos de parâmetros e configurações compatíveis para ações personalizadas.
+This section provides complete JSON examples demonstrating all supported parameter types and configurations for custom actions.
 
-### Exemplo 1: tipos de parâmetros básicos
+### Example 1: Basic parameter types
 
-Este exemplo mostra como usar diferentes tipos de dados na carga da ação personalizada:
+This example shows how to use different data types in your custom action payload:
 
 ```json
 {
@@ -227,16 +228,16 @@ Este exemplo mostra como usar diferentes tipos de dados na carga da ação perso
 }
 ```
 
-Na configuração da ação:
-* `userId` - Parâmetro de variável (Cadeia de caracteres) - Mapeia para o perfil firstName
-* `accountId` - Parâmetro constante (Cadeia de caracteres) - Sempre envia &quot;ABC123&quot;
-* `age` - Parâmetro variável (número inteiro) - Mapeia para a idade do perfil
-* `isActive` - Parâmetro constante (Booleano) - Sempre envia verdadeiro
-* `loyaltyScore` - Parâmetro de variável (Decimal) - Mapeia para o campo de perfil personalizado
+In the action configuration:
+* `userId` - Variable parameter (String) - Maps to profile firstName
+* `accountId` - Constant parameter (String) - Always sends "ABC123"
+* `age` - Variable parameter (Integer) - Maps to profile age
+* `isActive` - Constant parameter (Boolean) - Always sends true
+* `loyaltyScore` - Variable parameter (Decimal) - Maps to custom profile field
 
-### Exemplo 2: uso de constantes do sistema e contexto de jornada
+### Example 2: Using system constants and journey context
 
-Você pode consultar informações específicas do jornada e valores do sistema:
+You can reference journey-specific information and system values:
 
 ```json
 {
@@ -252,22 +253,22 @@ Você pode consultar informações específicas do jornada e valores do sistema:
 }
 ```
 
-**Variáveis de contexto de jornada disponíveis:**
+**Available journey context variables:**
 
 >[!NOTE]
 >
->A sintaxe das variáveis de contexto de Jornada está sendo verificada com a equipe de produtos. Os nomes de campo reais podem ser: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName com base na documentação de Propriedades da Jornada.
+>Journey context variables syntax is being verified with Product team. The actual field names may be: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName based on Journey Properties documentation.
 
-* `@{journey.id}` - Identificador exclusivo da jornada
-* `@{journey.name}` - Nome da jornada
-* `@{journey.version}` - Número de versão da jornada
-* `@{journey.startTime}` - Carimbo de data e hora quando a jornada foi iniciada para este perfil (verificação necessária)
-* `@{journey.stepId}` - Identificador de etapa atual
-* `@{journey.stepName}` - Nome da etapa atual
+* `@{journey.id}` - Unique identifier of the journey
+* `@{journey.name}` - Name of the journey
+* `@{journey.version}` - Version number of the journey
+* `@{journey.startTime}` - Timestamp when the journey started for this profile (verification needed)
+* `@{journey.stepId}` - Current step identifier
+* `@{journey.stepName}` - Name of the current step
 
-### Exemplo 3: parâmetros opcionais e obrigatórios
+### Example 3: Optional and required parameters
 
-Configure os parâmetros que os profissionais de jornada podem preencher opcionalmente:
+Configure parameters that journey practitioners can optionally fill:
 
 ```json
 {
@@ -279,18 +280,18 @@ Configure os parâmetros que os profissionais de jornada podem preencher opciona
 }
 ```
 
-Na interface de configuração de ação:
-* Definir `email` como **obrigatório** (não marque &quot;É opcional&quot;)
-* Definir `mobilePhone` como **opcional** (marque &quot;É opcional&quot;)
-* Definir `preferredLanguage` como **opcional** com valor padrão
+In the action configuration UI:
+* Set `email` as **required** (do not check "Is optional")
+* Set `mobilePhone` as **optional** (check "Is optional")
+* Set `preferredLanguage` as **optional** with default value
 
 >[!TIP]
 >
->Quando um parâmetro é marcado como opcional e não é preenchido pelo profissional do jornada, ele é omitido da carga ou enviado como nulo (se &quot;Permitir valores NULL&quot; estiver ativado).
+>When a parameter is marked as optional and not filled by the journey practitioner, it will either be omitted from the payload or sent as null (if "Allow NULL values" is enabled).
 
-### Exemplo 4: trabalho com matrizes e coleções
+### Example 4: Working with arrays and collections
 
-Envie coleções de dados para suas ações personalizadas:
+Pass collections of data to your custom actions:
 
 ```json
 {
@@ -313,11 +314,11 @@ Envie coleções de dados para suas ações personalizadas:
 
 >[!NOTE]
 >
->Saiba mais sobre como transmitir coleções em ações personalizadas nesta [página](../building-journeys/collections.md).
+>Learn more about passing collections in custom actions on [this page](../building-journeys/collections.md).
 
-### Exemplo 5: objetos aninhados e estruturas complexas
+### Example 5: Nested objects and complex structures
 
-Criar estruturas de dados hierárquicos:
+Build hierarchical data structures:
 
 ```json
 {
@@ -347,9 +348,9 @@ Criar estruturas de dados hierárquicos:
 }
 ```
 
-### Exemplo 6: concluir ação personalizada real
+### Example 6: Complete real-world custom action
 
-Um exemplo abrangente que integra vários conceitos:
+A comprehensive example integrating multiple concepts:
 
 ```json
 {
@@ -386,26 +387,27 @@ Um exemplo abrangente que integra vários conceitos:
 }
 ```
 
-**Dicas de configuração para este exemplo:**
-* Combinação de valores constantes (`eventSource`, `specialPromotion`, `sandbox`) e parâmetros variáveis
-* Usa o contexto da jornada para rastreamento e depuração
-* Inclui dados de perfil para personalização no sistema de terceiros
-* Adiciona contexto de decisão ao usar ofertas
-* Metadados do sistema para roteamento e rastreamento no nível da organização
+**Configuration tips for this example:**
+* Mix of constant values (`eventSource`, `specialPromotion`, `sandbox`) and variable parameters
+* Uses journey context for tracking and debugging
+* Includes profile data for personalization in the third-party system
+* Adds decisioning context when using offers
+* System metadata for routing and organization-level tracking
 
-### Dicas para configurar constantes
+### Tips for configuring constants
 
-**Nome da sandbox:** Use um parâmetro constante definido como seu nome de ambiente (por exemplo, &quot;prod&quot;, &quot;dev&quot;, &quot;stage&quot;)
+**Sandbox name:** Use a constant parameter set to your environment name (e.g., "prod", "dev", "stage")
 
-**Carimbo de data/hora de execução:** Use `@{journey.startTime}` ou crie um parâmetro de variável que os profissionais de jornada possam mapear para a função `#{nowWithDelta()}`
+**Execution timestamp:** Use `@{journey.startTime}` or create a variable parameter that journey practitioners can map to `#{nowWithDelta()}` function
 
-**Versão da API:** Use uma constante para números de versão da API para garantir a consistência entre jornadas
+**API version:** Use a constant for API version numbers to ensure consistency across journeys
 
-**Tokens de autenticação:** nunca coloque tokens de autenticação na carga. Em vez disso, use a seção Autenticação da configuração de ação personalizada
+**Authentication tokens:** Never put authentication tokens in the payload - use the Authentication section of the custom action configuration instead
 
 >[!CAUTION]
 >
->Os nomes de campos na carga não podem conter um caractere de ponto `.`, nem começar com um caractere `$`. Certifique-se de que a estrutura JSON siga essas convenções de nomenclatura.
+>Field names in the payload cannot contain a dot `.` character, nor start with a `$` character. Ensure your JSON structure follows these naming conventions.
+-->
 
 * [Solução de problemas de ação personalizada](../action/troubleshoot-custom-action.md) - Saiba como solucionar problemas de uma ação personalizada
 
