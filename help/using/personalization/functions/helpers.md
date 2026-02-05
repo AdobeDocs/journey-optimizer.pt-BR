@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '682'
 ht-degree: 5%
 
 ---
@@ -269,11 +269,11 @@ Durante o tempo de execução, o valor dos metadados é adicionado ao **[!UICONT
 >
 >Saiba mais sobre conjuntos de dados em [esta seção](../../data/get-started-datasets.md).
 
-**Limitação**
+**Limitações**
 
-Há um limite superior de 2 kb nos pares de valores principais por ação.
+Há um limite superior de 2 kb nos pares de valores principais por ação. Se o limite de 2Kb for excedido, a mensagem ainda será entregue, mas qualquer um dos pares de valores principais poderá ser truncado.
 
-Se o limite de 2Kb for excedido, a mensagem ainda será entregue, mas qualquer um dos pares de valores principais poderá ser truncado.
+Os metadados não são capturados para perfis excluídos da ação. Quando um perfil é excluído do recebimento de uma mensagem, nenhuma entrada de metadados é criada para esse perfil no conjunto de dados.
 
 **Exemplo**
 
