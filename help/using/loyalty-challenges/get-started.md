@@ -65,7 +65,7 @@ Você pode criar três tipos de experiências de desafio:
 
 A criação e o lançamento de um desafio de fidelidade seguem este fluxo de trabalho:
 
-1. **Configurar assimilação de dados** - Configure os conectores de origem do Experience Platform (como o [Conector capilar](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) para assimilar dados do evento de fidelidade que controlam o progresso e as ações do cliente. Esses dados possibilitam o rastreamento de desafios e a conclusão de tarefas.
+1. **Configurar assimilação de dados** - Configure os conectores de origem do Experience Platform (como o [Conector capilar](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home#loyalty)) para assimilar dados do evento de fidelidade que controlam o progresso e as ações do cliente. Esses dados possibilitam o rastreamento de desafios e a conclusão de tarefas.
 
 1. **Criar um desafio** - Defina as propriedades de desafio básicas, incluindo nome, tipo (Padrão, Streak ou Sequencial) e intervalo de datas.
 
@@ -89,7 +89,7 @@ Antes de usar os desafios de fidelidade, verifique se você tem:
 
 Os desafios de fidelidade dependem dos dados assimilados pelos conectores de origem da Experience Platform para rastrear o progresso do cliente e a conclusão das tarefas.
 
-Antes de iniciar, configure um conector de origem compatível. Atualmente, o Conector capilar está disponível. Conectores adicionais estão planejados para versões futuras. [Saiba mais sobre conectores de origem de fidelidade](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
+Antes de iniciar, configure um conector de origem compatível. Atualmente, o Conector capilar está disponível. Conectores adicionais estão planejados para versões futuras. [Saiba mais sobre conectores de origem de fidelidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home#loyalty).
 
 +++
 
