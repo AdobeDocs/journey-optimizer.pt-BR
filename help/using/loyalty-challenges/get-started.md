@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
+source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
@@ -29,10 +29,10 @@ ht-degree: 1%
 
 **Documentação de Desafios de Fidelidade:**
 
-* **Introdução aos Desafios de Fidelidade** ◀︎ **Você está aqui** - Visão geral, fluxo de trabalho, pré-requisitos
-* [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md) - Gerenciamento de inventário, desafio e tarefa
-* [Criar desafios](create-challenges.md) - Criar e configurar desafios
-* [Criar tarefas](create-tasks.md) - Definir tarefas de desafio
+* **Introdução aos desafios de fidelidade** ◀︎ **Você está aqui**
+* [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
+* [Criar desafios](create-challenges.md)
+* [Criar tarefas](create-tasks.md)
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Você pode criar três tipos de experiências de desafio:
 
 A criação e o lançamento de um desafio de fidelidade seguem este fluxo de trabalho:
 
-1. **Configurar assimilação de dados** - Configure os conectores de origem do Experience Platform (como o [Conector capilar](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home#loyalty)) para assimilar dados do evento de fidelidade que controlam o progresso e as ações do cliente. Esses dados possibilitam o rastreamento de desafios e a conclusão de tarefas.
+1. **Configurar assimilação de dados** - Configure os conectores de origem do Experience Platform (como o [Conector capilar](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) para assimilar dados do evento de fidelidade que controlam o progresso e as ações do cliente. Esses dados possibilitam o rastreamento de desafios e a conclusão de tarefas.
 
 1. **Criar um desafio** - Defina as propriedades de desafio básicas, incluindo nome, tipo (Padrão, Streak ou Sequencial) e intervalo de datas.
 
@@ -89,7 +89,7 @@ Antes de usar os desafios de fidelidade, verifique se você tem:
 
 Os desafios de fidelidade dependem dos dados assimilados pelos conectores de origem da Experience Platform para rastrear o progresso do cliente e a conclusão das tarefas.
 
-Antes de iniciar, configure um conector de origem compatível. Atualmente, o Conector capilar está disponível. Conectores adicionais estão planejados para versões futuras. [Saiba mais sobre conectores de origem de fidelidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home#loyalty).
+Antes de iniciar, configure um conector de origem compatível. Atualmente, o Conector capilar está disponível. Conectores adicionais estão planejados para versões futuras. [Saiba mais sobre conectores de origem de fidelidade](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
