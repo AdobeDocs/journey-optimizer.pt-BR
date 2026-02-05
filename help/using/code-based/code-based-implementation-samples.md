@@ -119,9 +119,9 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
    >[!IMPORTANT]
    >
    >O campo `tokens` em `propositionAction` é crítico para um rastreamento preciso e atribuição no Adobe Journey Optimizer Decisioning (AJO-D). Esses tokens permitem:
-   >- Atribuição de clique adequada para atividades de decisão
-   >- Relatórios precisos de interações do usuário com conteúdo decidido
-   >- Otimização do desempenho da oferta com base no envolvimento do usuário
+   >&#x200B;- Atribuição de clique adequada para atividades de decisão
+   >&#x200B;- Relatórios precisos de interações do usuário com conteúdo decidido
+   >&#x200B;- Otimização do desempenho da oferta com base no envolvimento do usuário
    >
    >Normalmente, os tokens são encontrados em `proposition.items[0].characteristics.tokens` e devem ser sempre incluídos ao rastrear as interações do usuário com o conteúdo decidido.
 
