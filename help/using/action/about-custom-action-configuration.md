@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 14%
+source-wordcount: '2437'
+ht-degree: 12%
 
 ---
 
@@ -163,7 +163,7 @@ Por padrão, o Adobe Journey Optimizer é compatível com TLS 1.3 para ações p
 
 Você pode usar o MTLS (Mutual Transport Layer Security) para garantir segurança aprimorada em conexões de saída para ações personalizadas de Adobe Journey Optimizer. O mTLS é um método de segurança completo para autenticação mútua que garante que ambas as partes que compartilham informações sejam quem afirmam ser antes que os dados sejam compartilhados. O mTLS inclui uma etapa adicional em comparação ao TLS, na qual o servidor também solicita o certificado do cliente e o verifica ao final.
 
-A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definir os parâmetros de carga {#define-the-message-parameters}
 
@@ -207,6 +207,205 @@ Nessas configurações de campo, você deve:
 >Se você configurar parâmetros opcionais enquanto permite valores Nulos, os parâmetros não preenchidos por um profissional do jornada serão enviados como Nulos.
 >
 
+## Exemplos abrangentes de JSON {#json-examples}
+
+Esta seção fornece exemplos de JSON completos demonstrando todos os tipos de parâmetros e configurações compatíveis para ações personalizadas.
+
+### Exemplo 1: tipos de parâmetros básicos
+
+Este exemplo mostra como usar diferentes tipos de dados na carga da ação personalizada:
+
+```json
+{
+  "requestData": {
+    "userId": "@{profile.person.name.firstName}",
+    "accountId": "ABC123",
+    "age": "@{profile.person.age}",
+    "isActive": true,
+    "loyaltyScore": "@{profile.customField.score}"
+  }
+}
+```
+
+Na configuração da ação:
+* `userId` - Parâmetro de variável (Cadeia de caracteres) - Mapeia para o perfil firstName
+* `accountId` - Parâmetro constante (Cadeia de caracteres) - Sempre envia &quot;ABC123&quot;
+* `age` - Parâmetro variável (número inteiro) - Mapeia para a idade do perfil
+* `isActive` - Parâmetro constante (Booleano) - Sempre envia verdadeiro
+* `loyaltyScore` - Parâmetro de variável (Decimal) - Mapeia para o campo de perfil personalizado
+
+### Exemplo 2: uso de constantes do sistema e contexto de jornada
+
+Você pode consultar informações específicas do jornada e valores do sistema:
+
+```json
+{
+  "metadata": {
+    "sandboxName": "prod",
+    "executionTimestamp": "@{journey.startTime}",
+    "journeyId": "@{journey.id}",
+    "journeyName": "@{journey.name}",
+    "journeyVersion": "@{journey.version}",
+    "stepId": "@{journey.stepId}",
+    "profileId": "@{profile.identityMap.ECID[0].id}"
+  }
+}
+```
+
+**Variáveis de contexto de jornada disponíveis:**
+
+>[!NOTE]
+>
+>A sintaxe das variáveis de contexto de Jornada está sendo verificada com a equipe de produtos. Os nomes de campo reais podem ser: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName com base na documentação de Propriedades da Jornada.
+
+* `@{journey.id}` - Identificador exclusivo da jornada
+* `@{journey.name}` - Nome da jornada
+* `@{journey.version}` - Número de versão da jornada
+* `@{journey.startTime}` - Carimbo de data e hora quando a jornada foi iniciada para este perfil (verificação necessária)
+* `@{journey.stepId}` - Identificador de etapa atual
+* `@{journey.stepName}` - Nome da etapa atual
+
+### Exemplo 3: parâmetros opcionais e obrigatórios
+
+Configure os parâmetros que os profissionais de jornada podem preencher opcionalmente:
+
+```json
+{
+  "customer": {
+    "email": "@{profile.personalEmail.address}",
+    "mobilePhone": "@{profile.mobilePhone.number}",
+    "preferredLanguage": "@{profile.preferredLanguage}"
+  }
+}
+```
+
+Na interface de configuração de ação:
+* Definir `email` como **obrigatório** (não marque &quot;É opcional&quot;)
+* Definir `mobilePhone` como **opcional** (marque &quot;É opcional&quot;)
+* Definir `preferredLanguage` como **opcional** com valor padrão
+
+>[!TIP]
+>
+>Quando um parâmetro é marcado como opcional e não é preenchido pelo profissional do jornada, ele é omitido da carga ou enviado como nulo (se &quot;Permitir valores NULL&quot; estiver ativado).
+
+### Exemplo 4: trabalho com matrizes e coleções
+
+Envie coleções de dados para suas ações personalizadas:
+
+```json
+{
+  "products": [
+    {
+      "id": "@{product1.id}",
+      "name": "@{product1.name}",
+      "price": "@{product1.price}"
+    },
+    {
+      "id": "@{product2.id}",
+      "name": "@{product2.name}",
+      "price": "@{product2.price}"
+    }
+  ],
+  "tags": ["premium", "loyalty", "vip"],
+  "categoryIds": ["CAT001", "CAT002"]
+}
+```
+
+>[!NOTE]
+>
+>Saiba mais sobre como transmitir coleções em ações personalizadas nesta [página](../building-journeys/collections.md).
+
+### Exemplo 5: objetos aninhados e estruturas complexas
+
+Criar estruturas de dados hierárquicos:
+
+```json
+{
+  "customer": {
+    "personalInfo": {
+      "firstName": "@{profile.person.name.firstName}",
+      "lastName": "@{profile.person.name.lastName}",
+      "email": "@{profile.personalEmail.address}"
+    },
+    "address": {
+      "street": "@{profile.homeAddress.street1}",
+      "city": "@{profile.homeAddress.city}",
+      "postalCode": "@{profile.homeAddress.postalCode}",
+      "country": "@{profile.homeAddress.country}"
+    },
+    "preferences": {
+      "language": "@{profile.preferredLanguage}",
+      "timezone": "@{profile.timeZone}",
+      "emailOptIn": "@{profile.consents.marketing.email.val}"
+    }
+  },
+  "context": {
+    "channel": "email",
+    "campaignId": "CAMPAIGN_2025_Q1",
+    "segment": "@{segmentMembership.status}"
+  }
+}
+```
+
+### Exemplo 6: concluir ação personalizada real
+
+Um exemplo abrangente que integra vários conceitos:
+
+```json
+{
+  "event": {
+    "eventType": "journey.action.triggered",
+    "eventId": "@{journey.stepId}",
+    "timestamp": "@{journey.stepTimestamp}",
+    "eventSource": "Adobe Journey Optimizer"
+  },
+  "profile": {
+    "id": "@{profile.identityMap.ECID[0].id}",
+    "email": "@{profile.personalEmail.address}",
+    "firstName": "@{profile.person.name.firstName}",
+    "lastName": "@{profile.person.name.lastName}",
+    "loyaltyTier": "@{profile.loyaltyTier}",
+    "lifetimeValue": "@{profile.lifetimeValue}"
+  },
+  "journey": {
+    "id": "@{journey.id}",
+    "name": "@{journey.name}",
+    "version": "@{journey.version}",
+    "step": "@{journey.stepName}"
+  },
+  "customData": {
+    "offerName": "@{decisioning.offerName}",
+    "offerPlacement": "@{decisioning.placementName}",
+    "specialPromotion": "WINTER2025"
+  },
+  "system": {
+    "sandbox": "prod",
+    "dataStreamId": "YOUR_DATASTREAM_ID",
+    "imsOrgId": "@{imsOrgId}"
+  }
+}
+```
+
+**Dicas de configuração para este exemplo:**
+* Combinação de valores constantes (`eventSource`, `specialPromotion`, `sandbox`) e parâmetros variáveis
+* Usa o contexto da jornada para rastreamento e depuração
+* Inclui dados de perfil para personalização no sistema de terceiros
+* Adiciona contexto de decisão ao usar ofertas
+* Metadados do sistema para roteamento e rastreamento no nível da organização
+
+### Dicas para configurar constantes
+
+**Nome da sandbox:** Use um parâmetro constante definido como seu nome de ambiente (por exemplo, &quot;prod&quot;, &quot;dev&quot;, &quot;stage&quot;)
+
+**Carimbo de data/hora de execução:** Use `@{journey.startTime}` ou crie um parâmetro de variável que os profissionais de jornada possam mapear para a função `#{nowWithDelta()}`
+
+**Versão da API:** Use uma constante para números de versão da API para garantir a consistência entre jornadas
+
+**Tokens de autenticação:** nunca coloque tokens de autenticação na carga. Em vez disso, use a seção Autenticação da configuração de ação personalizada
+
+>[!CAUTION]
+>
+>Os nomes de campos na carga não podem conter um caractere de ponto `.`, nem começar com um caractere `$`. Certifique-se de que a estrutura JSON siga essas convenções de nomenclatura.
 
 * [Solução de problemas de ação personalizada](../action/troubleshoot-custom-action.md) - Saiba como solucionar problemas de uma ação personalizada
 
