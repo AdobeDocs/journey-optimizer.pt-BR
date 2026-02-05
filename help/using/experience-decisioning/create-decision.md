@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+source-git-commit: fb35bc5a51421818297586b5e386aa75deb1c669
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 26%
@@ -85,12 +85,12 @@ As principais etapas para aproveitar as políticas de decisão nas mensagens sã
 
 Saiba como usar o Decisioning para personalizar emails para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479215?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Saiba como usar o Decisioning para personalizar notificações por push para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479215?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Saiba como usar o Decisioning para personalizar mensagens SMS para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479534?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
