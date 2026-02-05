@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Acesse e gerencie os desafios de fidelidade
+title: Acessar e gerenciar desafios e tarefas
 description: Saiba como acessar, gerenciar e organizar desafios e tarefas de fidelidade no Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
@@ -10,38 +10,41 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+mini-toc-levels: 2
+source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 
-# Acesse e gerencie os desafios de fidelidade {#access-loyalty-challenges}
+# Acessar e gerenciar desafios e tarefas {#access-loyalty-challenges}
+
+>[!AVAILABILITY]
+>
+>Este recurso está atualmente no **beta privado** e pode não estar disponível em seu ambiente. Para solicitar acesso, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
 **Documentação de Desafios de Fidelidade:**
 
 * [Introdução aos Desafios de Fidelidade](get-started.md) - Visão geral, fluxo de trabalho, pré-requisitos
-* **Acessar Desafios de Fidelidade** ◀︎ **Você está aqui** - Gerenciamento de inventário, desafios e tarefas
+* **Acessar e gerenciar desafios e tarefas** ◀︎ **Você está aqui** - Gerenciamento de inventário, desafio e tarefa
 * [Criar desafios](create-challenges.md) - Criar e configurar desafios
 * [Criar tarefas](create-tasks.md) - Definir tarefas de desafio
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->Este recurso está atualmente no **beta privado** e pode não estar disponível em seu ambiente. Para solicitar acesso, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
+## Acessar e gerenciar desafios e tarefas
 
-## Acesse os desafios leais
+Para acessar os Desafios de Fidelidade, navegue até Journey Optimizer e selecione **[!UICONTROL Desafio de Fidelidade (Beta)]** na seção **[!UICONTROL Gerenciamento de Jornada]**. A interface dos desafios de fidelidade fornece um local centralizado para exibir, gerenciar e organizar todos os seus desafios e tarefas.
 
-Para acessar os Desafios de Fidelidade, navegue até Journey Optimizer e selecione **[!UICONTROL Desafio de Fidelidade (Beta)]** na seção **[!UICONTROL Gerenciamento de Jornada]**.
+A interface fornece acesso a dois inventários principais:
 
-A interface dos desafios de fidelidade fornece um local centralizado para exibir, gerenciar e organizar todos os seus desafios e tarefas. Você pode acessar dois inventários principais:
+* **Desafios**: visualize e gerencie todos os desafios de fidelidade, monitore seus status e execute ações rápidas, como visualizar, editar, duplicar ou excluir desafios
+* **Tarefas**: procure tarefas reutilizáveis que possam ser usadas em vários desafios e gerencie definições de tarefas independentemente
 
-* **Inventário de desafios**: visualize e gerencie todos os desafios de fidelidade, monitore seu status e execute ações rápidas
-* **Inventário de tarefas**: procure tarefas reutilizáveis que possam ser usadas em vários desafios
 
 ## Inventário de desafios {#challenges-tab}
 
@@ -51,7 +54,6 @@ A guia **[!UICONTROL Desafios]** exibe todos os desafios classificados por data 
 
 Informações-chave exibidas:
 
-* **[!UICONTROL Desafio]**: nome do desafio
 * **[!UICONTROL Estado]**: estado atual do desafio (Rascunho ou Publicado)
 * **[!UICONTROL Tarefas]**: Número de tarefas configuradas no desafio
 * **[!UICONTROL Jornada]**: link para a jornada gerada automaticamente associada ao desafio
@@ -65,12 +67,7 @@ Na guia Desafios, é possível executar ações em desafios:
 * **Excluir um desafio**: selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Excluir]**
 * **Editar um desafio**: selecione o nome do desafio para abrir sua página de detalhes e editá-lo.
 
-  Ao abrir um desafio publicado para edição, primeiro é necessário revertê-lo para o status Rascunho:
-
-   * Qualquer personalização feita diretamente na jornada gerada automaticamente será perdida
-   * O desafio retorna ao status Rascunho
-   * Depois de fazer suas alterações, você deve salvar e publicar o desafio novamente
-   * Você deve republicar a jornada associada para disponibilizar o desafio atualizado para os clientes
+  Ao abrir um desafio publicado para edição, primeiro é necessário revertê-lo para o status &quot;Rascunho&quot;. Qualquer personalização feita diretamente na jornada gerada automaticamente será perdida. Depois de fazer suas alterações, salve e publique o desafio novamente e publique novamente a jornada associada.
 
   >[!IMPORTANT]
   >
@@ -84,7 +81,6 @@ A guia **[!UICONTROL Tarefas]** exibe todas as tarefas reutilizáveis que podem 
 
 Informações-chave exibidas:
 
-* **[!UICONTROL Nome da tarefa]**: o nome que você atribuiu à tarefa
 * **[!UICONTROL Descrição]**: breve descrição do que a tarefa exige
 * **[!UICONTROL Atividade da tarefa]**: tipo de atividade (Compra, Gasto)
 * **[!UICONTROL SKU]**: itens qualificados e/ou excluídos
@@ -92,6 +88,6 @@ Informações-chave exibidas:
 
 Na guia Tasks (Tarefas), é possível executar ações em tarefas:
 
-* **Exibir/Editar tarefa**: selecione o nome da tarefa para exibir a configuração completa e editar a tarefa
+* **Exibir/Editar uma tarefa**: selecione o nome da tarefa para exibir a configuração completa e editar a tarefa
 * **Duplicar uma tarefa**: selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Duplicar]**
 * **Excluir uma tarefa**: selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Excluir]**
