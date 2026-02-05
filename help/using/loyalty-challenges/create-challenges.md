@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
-mini-toc-levels: 2
-source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
+mini-toc-levels: 1
+source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 * [Criar tarefas](create-tasks.md) - Definir tarefas de desafio
 
 >[!ENDSHADEBOX]
+
+Esta página aborda o processo completo de criação de um desafio de fidelidade, desde selecionar o tipo de desafio e configurar suas propriedades até gerar e publicar a jornada que fornecerá o desafio aos seus clientes.
 
 ## Criar o desafio {#create-the-challenge}
 
@@ -68,9 +70,9 @@ Na guia **[!UICONTROL Estrutura]**, defina como seu desafio é organizado: suas 
    * **[!UICONTROL Nome]**: insira um nome descritivo para o desafio. Este nome aparece no inventário de desafios.
    * **[!UICONTROL Descrição]**: insira uma descrição que explique a finalidade e as metas do desafio.
 
-   ![](assets/challenge-create-properties.png)
-
 1. Use a seção **[!UICONTROL Metadados personalizados]** para adicionar metadados personalizados usando pares de chave/valor. Esses metadados podem ser usados para rastreamento ou integração com sistemas externos.
+
+   ![](assets/challenge-create-properties.png)
 
 ### Agendar o desafio {#schedule}
 
@@ -117,13 +119,13 @@ Para adicionar tarefas ao seu desafio, siga estas etapas:
 
    +++Desafios do Streak
 
-   * **[!UICONTROL Tipo de transmissão]**:
+   No menu suspenso **[!UICONTROL Tipo de Streak]**, escolha entre:
 
-      * **Consecutivo**: os clientes devem concluir a tarefa em dias consecutivos sem interrupções. *Exemplo: Compra na segunda, terça, quarta-feira — falta um dia quebra a sequência.*
+   * **Consecutivo**: os clientes devem concluir a tarefa em dias consecutivos sem interrupções. *Exemplo: Compra na segunda, terça, quarta-feira — falta um dia quebra a sequência.*
 
-      * **Não consecutivo**: os clientes podem concluir a tarefa com intervalos entre as conclusões. *Exemplo: Conclua 7 compras em 30 dias, com interrupções permitidas.*
+   * **Não consecutivo**: os clientes podem concluir a tarefa com intervalos entre as conclusões. *Exemplo: Conclua 7 compras em 30 dias, com interrupções permitidas.*
 
-   * **[!UICONTROL Comprimento da sequência]**: especifique quantas vezes a tarefa deve ser concluída. *Exemplo: Defina como 7 para uma &quot;sequência de compras de 7 dias.&quot;*
+   No campo **[!UICONTROL Comprimento da sequência]**, especifique quantas vezes a tarefa deve ser concluída. *Exemplo: Defina como 7 para uma &quot;sequência de compras de 7 dias.&quot;*
 
    +++
 
@@ -157,6 +159,8 @@ Para configurar quando e como as recompensas serão entregues:
      *Exemplo: Premiar 10 pontos após a tarefa 1, 20 pontos após a tarefa 2 e 50 pontos após a tarefa 3*
 
 1. Selecione seu provedor de premiação. Esta é a sua solução de fidelidade que gerencia pontos e recompensas do cliente.
+
+   ![](assets/challenge-create-reward-type.png)
 
 1. Configure os valores de premiação com base no método de delivery selecionado:
 
@@ -210,7 +214,7 @@ Configurar mensagens multicanais para envolver os clientes em estágios fundamen
    * Mensagem **Em andamento**: mantenha os clientes envolvidos com lembretes e atualizações de progresso
    * Mensagem de **Conclusão**: comemorar o sucesso e confirmar a alocação da premiação
 
-1. Para cada estágio, adicione o botão de mensagem para criar uma mensagem para esse estágio.
+1. Para cada estágio, clique no botão adicionar mensagem para criar uma mensagem para esse estágio.
 
 1. Escolha o canal desejado: **[!UICONTROL No aplicativo]**, **[!UICONTROL Email]** ou **[!UICONTROL Notificação por push]** e selecione a configuração de canal associada.
 
@@ -245,8 +249,6 @@ Depois de configurar todos os componentes de desafio, gere a jornada que orquest
    ![](assets/challenge-create-generate-journey.png)
 
 1. O Journey Optimizer cria automaticamente uma jornada no status &quot;Rascunho&quot;. A jornada gerada automaticamente aparece no inventário de jornadas com o formato de nome *&quot;Jornada: [Nome do desafio]&quot;*. [Saiba mais sobre o inventário de jornadas](../building-journeys/journey-ui.md).
-
-   Navegue até o inventário do **[!UICONTROL Jornada]** para examinar a configuração de jornada gerada automaticamente, se necessário.
 
    ![](assets/challenge-create-journey.png)
 
