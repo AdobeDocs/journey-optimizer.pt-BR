@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -236,23 +236,29 @@ Defina quais clientes podem participar do seu desafio de fidelidade.
 
 1. Na caixa de diálogo de seleção de público, selecione seu público-alvo na lista de públicos-alvo disponíveis do Adobe Experience Platform e selecione **[!UICONTROL Adicionar público-alvo]**. [Saiba como trabalhar com públicos](../audience/about-audiences.md).
 
-Seu desafio agora está totalmente configurado com sua estrutura, conteúdo, mensagens e público-alvo. A etapa final é gerar e publicar a jornada.
+Seu desafio agora está totalmente configurado com sua estrutura, conteúdo, mensagens e público-alvo. Para iniciá-lo, você deve publicar o desafio e sua jornada associada.
 
-## Gerar e publicar a jornada {#review-and-publish}
+## Lançando o desafio {#launch}
 
-Depois de configurar todos os componentes de desafio, gere a jornada que orquestrará sua entrega de desafio:
+Para iniciar um desafio, são necessárias **três etapas**: (1) publicar o desafio, (2) gerar a jornada, (3) publicar a jornada. Todos os três devem ser preenchidos para que o desafio seja entregue aos clientes.
 
 1. Revise sua configuração de desafio para garantir que todos os campos obrigatórios sejam preenchidos.
 
-1. Selecione **[!UICONTROL Salvar]** para salvar a configuração de desafio e selecione **[!UICONTROL Gerar Jornada]**.
+1. Clique no ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e selecione **[!UICONTROL Publicar]**.
+
+   ![](assets/challenge-create-publish.png)
+
+1. Selecione **[!UICONTROL Gerar Jornada]** para criar a jornada que orquestrará a entrega de desafio.
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. O Journey Optimizer cria automaticamente uma jornada no status &quot;Rascunho&quot;. A jornada gerada automaticamente aparece no inventário de jornadas com o formato de nome *&quot;Jornada: [Nome do desafio]&quot;*. [Saiba mais sobre o inventário de jornadas](../building-journeys/journey-ui.md).
+1. O Journey Optimizer cria automaticamente uma jornada no status &quot;Rascunho&quot;. A jornada aparece no inventário de jornadas com o formato de nome *&quot;Jornada: [Nome do desafio]&quot;*. [Saiba mais sobre o inventário de jornadas](../building-journeys/journey-ui.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Quando estiver pronto, publique a jornada para disponibilizar o desafio para os clientes. A jornada será iniciada automaticamente na data de início do desafio especificada e entregará conteúdo e mensagens de acordo com sua configuração. [Saiba como publicar uma jornada](../building-journeys/publish-journey.md).
+1. Abra a jornada e publique-a. A jornada será iniciada automaticamente na data de início do desafio especificada e entregará conteúdo e mensagens de acordo com sua configuração. [Saiba como publicar uma jornada](../building-journeys/publish-journey.md).
+
+1. Assim que o desafio estiver online, monitore o desempenho e a entrega de mensagens no [relatório do jornada](../reports/journey-global-report-cja.md).
 
 >[!NOTE]
 >

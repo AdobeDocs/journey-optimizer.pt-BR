@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ A interface fornece acesso a dois inventários principais:
 * **Desafios**: visualize e gerencie todos os desafios de fidelidade, monitore seus status e execute ações rápidas, como visualizar, editar, duplicar ou excluir desafios
 * **Tarefas**: procure tarefas reutilizáveis que possam ser usadas em vários desafios e gerencie definições de tarefas independentemente
 
-
 ## Inventário de desafios {#challenges-tab}
 
 A guia **[!UICONTROL Desafios]** exibe todos os desafios classificados por data da última modificação, com os desafios modificados mais recentemente aparecendo primeiro.
@@ -57,17 +56,22 @@ Informações-chave exibidas:
 * **[!UICONTROL Estado]**: estado atual do desafio (Rascunho ou Publicado)
 * **[!UICONTROL Tarefas]**: Número de tarefas configuradas no desafio
 * **[!UICONTROL Jornada]**: link para a jornada gerada automaticamente associada ao desafio
-* **[!UICONTROL Status]**: status atual da jornada associada (Rascunho, Ao Vivo, Parado, etc.)
+* **[!UICONTROL Status]**: status atual da jornada gerada automaticamente que fornece o desafio.
 * **[!UICONTROL Data de Início/Término (UTC)]**: quando o desafio se torna ativo e expira
 
 Na guia Desafios, é possível executar ações em desafios:
 
 * **Exibir desafio**: selecione o nome do desafio para abrir sua página de detalhes
 * **Duplicar um desafio**: selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Duplicar]**. Uma cópia é criada com todas as tarefas, conteúdo e mensagens intactas.
-* **Excluir um desafio**: selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Excluir]**
-* **Editar um desafio**: selecione o nome do desafio para abrir sua página de detalhes e editá-lo.
+* **Excluir um desafio**: selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Excluir]**.
 
-  Ao abrir um desafio publicado para edição, primeiro é necessário revertê-lo para o status &quot;Rascunho&quot;. Qualquer personalização feita diretamente na jornada gerada automaticamente será perdida. Depois de fazer suas alterações, salve e publique o desafio novamente e publique novamente a jornada associada.
+  >[!IMPORTANT]
+  >
+  >Você pode excluir um desafio mesmo quando ele é publicado. Considere o impacto antes de excluir.
+
+* **Editar um desafio**: selecione o nome do desafio para abrir sua página de detalhes e fazer as alterações desejadas.
+
+  Ao abrir um desafio publicado para edição, primeiro é necessário revertê-lo para o estado Rascunho. Qualquer personalização feita diretamente na jornada gerada automaticamente será perdida. Depois de fazer suas alterações, salve e publique o desafio novamente e, em seguida, publique a jornada associada. [Saiba como iniciar um desafio](create-challenges.md#launch)
 
   >[!IMPORTANT]
   >
@@ -90,4 +94,8 @@ Na guia Tasks (Tarefas), é possível executar ações em tarefas:
 
 * **Exibir/Editar uma tarefa**: selecione o nome da tarefa para exibir a configuração completa e editar a tarefa
 * **Duplicar uma tarefa**: selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Duplicar]**
-* **Excluir uma tarefa**: selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Excluir]**
+* **Excluir uma tarefa**: selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Excluir]**.
+
+  >[!IMPORTANT]
+  >
+  >Você pode excluir uma tarefa mesmo quando ela é usada em um ou mais desafios. Considere o impacto nos desafios que fazem referência à tarefa antes de excluir.
