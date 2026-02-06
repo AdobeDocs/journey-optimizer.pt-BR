@@ -7,9 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
+source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '723'
 ht-degree: 3%
 
 ---
@@ -22,7 +23,7 @@ Depois de adicionar uma política de decisão ao conteúdo, você pode usar atri
 >
 >As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **SMS** e **Notificação por push**.
 >
->A Decisão do canal de email está disponível com disponibilidade limitada. Para solicitar acesso, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
+>A decisão do canal **Email** está disponível somente em Disponibilidade Limitada. Para solicitar acesso, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
 
 ## Inserir o código de política de decisão {#insert}
 
