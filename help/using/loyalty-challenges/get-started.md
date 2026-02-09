@@ -11,13 +11,13 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 7aeb36b88af415d59d9e7275ec3605db1a243b07
+exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
+source-git-commit: 17d7cf7ae18ff987b7a9c9bebdec44b354ed11da
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '636'
 ht-degree: 2%
 
 ---
-
 
 # Introdução aos desafios de fidelidade {#get-started-loyalty-challenges}
 
@@ -65,8 +65,6 @@ Você pode criar três tipos de experiências de desafio:
 
 A criação e o lançamento de um desafio de fidelidade seguem este fluxo de trabalho:
 
-1. **Configurar assimilação de dados** - Configure os conectores de origem do Experience Platform (como o [Conector capilar](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home#loyalty)) para assimilar dados do evento de fidelidade que controlam o progresso e as ações do cliente. Esses dados possibilitam o rastreamento de desafios e a conclusão de tarefas.
-
 1. **Criar um desafio** - Defina as propriedades de desafio básicas, incluindo nome, tipo (Padrão, Streak ou Sequencial) e intervalo de datas.
 
 1. **Adicionar tarefas** - Defina as ações específicas que os clientes devem concluir, incluindo tipos de tarefa (compra, gastos), quantidades, filtros de produto e recompensas.
@@ -85,21 +83,28 @@ Para obter instruções detalhadas, consulte [Criar desafios](create-challenges.
 
 Antes de usar os desafios de fidelidade, verifique se você tem:
 
-+++Configuração de assimilação de dados
-
-Os desafios de fidelidade dependem dos dados assimilados pelos conectores de origem da Experience Platform para rastrear o progresso do cliente e a conclusão das tarefas.
-
-Antes de iniciar, configure um conector de origem compatível. Atualmente, o Conector capilar está disponível. Conectores adicionais estão planejados para versões futuras. [Saiba mais sobre conectores de origem de fidelidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home#loyalty).
-
-+++
-
 +++Permissões necessárias
 
-Para usar os Desafios de fidelidade, você precisa das permissões apropriadas no Journey Optimizer. As permissões necessárias incluem:
+Para usar os Desafios de fidelidade, você precisa das permissões apropriadas no Journey Optimizer e no Adobe Experience Platform.
 
-* A definir
-* A definir
-* A definir
+**Journey Optimizer:**
+
+* `journeys.read`
+* `journeys.write`
+* `journeys.delete`
+* `journeys.publish`
+* `journeys_events.read`
+* `journeys_events.write`
+* `journeys_events.delete`
+* `journeys_report.read`
+* `messages.read`
+* `messages_report.read`
+
+**Adobe Experience Platform:**
+
+* `segments.read`
+* `profiles.read`
+* `identity_namespace.read`
 
 Entre em contato com o administrador se não conseguir acessar o recurso ou precisar de permissões adicionais.
 
