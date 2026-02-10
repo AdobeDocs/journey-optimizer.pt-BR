@@ -11,9 +11,9 @@ badge: label="Beta privado" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -36,11 +36,11 @@ Para gerar variações para seu conteúdo e visualizá-las, siga estas etapas:
 
 1. Abra o conteúdo e selecione **[!UICONTROL Simular conteúdo]** / **[!UICONTROL Simular variações de conteúdo]**.
 
-   ![](assets/simulate-sample.png)
+   ![Opção Simular variações de conteúdo](assets/simulate-sample.png)
 
 2. Clique no botão **[!UICONTROL Gerar]**.
 
-   ![](assets/simulate-generate-variant.png)
+   ![Botão Gerar variantes](assets/simulate-generate-variant.png)
 
 3. [!DNL Journey Optimizer] gera automaticamente variantes com base em atributos detectados.
 

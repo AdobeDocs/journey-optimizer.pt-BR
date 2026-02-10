@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 77%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Introdução a políticas de aprovação {#gs}
 
-Com o Journey Optimizer é possível configurar um processo de aprovação para que as equipes de marketing garantam que as campanhas e jornadas sejam revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas.
+O [!DNL Journey Optimizer] permite configurar um processo de aprovação que permite que as equipes de marketing garantam que as campanhas e jornadas sejam revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas.
 
 As políticas de aprovação introduzem um fluxo de trabalho estruturado diretamente na interface, eliminando a necessidade de mídias externas, como ferramentas de gerenciamento de tarefas ou emails e assegurando que todas as aprovações sejam gerenciadas e rastreadas centralmente.
 
@@ -26,7 +26,7 @@ Além disso, esse recurso oferece controle avançado da publicação de suas jor
 
 Antes de iniciar, verifique se as permissões abaixo foram configuradas.
 
-Para acessar as campanhas e jornadas de aprovação e publicação, os usuários precisam ter as permissões **Aprovar e publicar campanhas** e **Aprovar e publicar jornadas**. [Saiba mais](../administration/permissions.md)
+Para aprovar e publicar jornadas e campanhas, os usuários precisam ter as permissões **Aprovar e publicar campanhas** e **Aprovar e publicar Jornadas**. [Saiba mais](../administration/permissions.md)
 
 +++  Saiba como atribuir permissões relacionadas à aprovação
 
@@ -36,11 +36,11 @@ Para acessar as campanhas e jornadas de aprovação e publicação, os usuários
 
 1. Adicione o recurso **Campanhas** e selecione **Aprovar e publicar campanhas** no menu suspenso.
 
-   ![](assets/permissions_approval.png){zoomable="yes"}
+   ![Atribuir permissão para aprovar e publicar campanhas](assets/permissions_approval.png){zoomable="yes"}
 
 1. Adicione o recurso **Jornadas** e selecione **Aprovar e publicar jornadas** no menu suspenso.
 
-   ![](assets/permissions_approval_2.png){zoomable="yes"}
+   ![Atribuir aprovação e publicar permissão do Jornada](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. Clique em **Salvar** para aplicar as alterações.
 
@@ -60,11 +60,11 @@ O usuário receberá um email com instruções para acessar a sua instância.
 
 O processo de aprovação global é o seguinte:
 
-![](assets/approval-process.png){zoomable="yes"}
+![Fluxo do processo de aprovação](assets/approval-process.png){zoomable="yes"}
 
 1. **Configuração de políticas de aprovação**
 
-   A pessoa responsável pela administração cria uma política de aprovação, definindo condições sob as quais a política deve ser aplicada a jornadas ou campanhas. Por exemplo, você pode criar uma política de aprovação que exija que todas as campanhas agendadas criadas por um determinado usuário sejam aprovadas antes de serem ativadas. [Saiba como criar políticas de aprovação](approval-policies.md)
+   Um usuário administrador cria uma política de aprovação, definindo condições sob as quais a política deve ser aplicada a jornadas ou campanhas. Por exemplo, você pode criar uma política de aprovação que exija que todas as campanhas agendadas criadas por um determinado usuário sejam aprovadas antes da ativação. [Saiba como criar políticas de aprovação](approval-policies.md)
 
 1. **Envio de campanha/jornada para aprovação**
 
@@ -82,7 +82,7 @@ O processo de aprovação global é o seguinte:
 
 Você pode monitorar todas as solicitações de aprovação e alteração que foram enviadas para uma determinada jornada ou campanha. Para fazer isso, clique no ícone **[!UICONTROL Mostrar trilha de auditoria]** localizado na seção superior direita da tela de jornada ou na tela de revisão da campanha.
 
-![](assets/monitor-requests.png)
+![Solicitações de aprovação da trilha de auditoria](assets/monitor-requests.png)
 
 ## Recursos adicionais
 

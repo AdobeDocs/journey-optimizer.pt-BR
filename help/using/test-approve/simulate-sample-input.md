@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 5%
+source-wordcount: '989'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 >title="Simular usando exemplos de entrada"
 >abstract="Esta tela permite testar diferentes variantes do seu conteúdo, seja fornecendo valores para os campos de personalização por meio de um modelo CSV ou JSON ou inserindo manualmente os valores."
 
-O otimizador de Jornada permite que você visualize diferentes variações de seu conteúdo usando dados de entrada de amostra carregados de um arquivo CSV ou JSON ou adicionados manualmente.
+O [!DNL Journey Optimizer] permite que você visualize diferentes variações do seu conteúdo usando dados de entrada de exemplo carregados de um arquivo CSV ou JSON ou adicionados manualmente.
 
 Todos os atributos usados em seu conteúdo para personalização são detectados automaticamente pelo sistema e podem ser usados para seus testes criarem várias variantes. Uma variante se refere a uma versão do conteúdo com valores diferentes para seus atributos.
 
@@ -57,7 +57,7 @@ Antes de começar a testar seu conteúdo usando exemplos de dados de entrada, co
 
 Para criar variações para o seu conteúdo e visualizá-las, clique no botão **[!UICONTROL Simular conteúdo]** e escolha **[!UICONTROL Simular variações de conteúdo]**.
 
-![](assets/simulate-sample.png)
+![Opção Simular variações de conteúdo](assets/simulate-sample.png)
 
 As principais etapas para testar seu conteúdo são as seguintes:
 
@@ -71,7 +71,7 @@ Ao acessar a experiência de variações de conteúdo, todos os campos de person
 
 Por exemplo, se seu email contiver dois campos de personalização &quot;Cidade&quot; e &quot;Saldo de pontos do programa&quot;, eles aparecerão na lista. Inicialmente, nenhum valor é inserido e nenhum conteúdo personalizado é exibido no painel de visualização.
 
-![](assets/simulate-custom-variants-list.png)
+![Lista de variantes de entrada de exemplo](assets/simulate-custom-variants-list.png)
 
 Para editar o valor de uma variante:
 
@@ -85,7 +85,7 @@ Para adicionar uma nova variante:
 1. Uma nova variante em branco é exibida, contendo todos os campos de personalização detectados.
 1. Edite a nova variante conforme necessário.
 
-![](assets/simulate-custom-add.png)
+![Botão de entrada Criar amostra](assets/simulate-custom-add.png)
 
 Também é possível fazer upload de um arquivo com variantes e valores predefinidos para acelerar o processo.
 
@@ -113,7 +113,7 @@ Também é possível fazer upload de um arquivo com variantes e valores predefin
 1. Quando o arquivo estiver pronto, clique em **[!UICONTROL Carregar Dados de Entrada]** para carregá-lo.
 1. Depois de fazer upload, uma nova variante é adicionada à lista para cada entrada no arquivo.
 
-   ![](assets/simulate-custom-variants.png)
+   ![Variantes de entrada de amostra carregadas](assets/simulate-custom-variants.png)
 
 Depois que as variantes forem adicionadas, você poderá usá-las para visualizar seu conteúdo no painel direito e enviar provas de email.
 
@@ -125,11 +125,11 @@ No exemplo abaixo, adicionamos duas variantes para a linha de assunto do email:
 
 | Seleção da variante 1 | Seleção da variante 2 |
 |----------|-------------|
-| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+| ![Seleção da variante 1](assets/simulate-custom-boxes.png) | ![Seleção da variante 2](assets/simulate-custom-boxes2.png) |
 
 Para conteúdo e experimentação multilíngues, uma lista suspensa está disponível para alternar entre as diferentes variantes de idioma ou tratamentos.
 
-![](assets/simulate-custom-experiment.png)
+![Seletor de idioma ou tratamento](assets/simulate-custom-experiment.png)
 
 Você pode remover uma variante a qualquer momento usando o botão de reticências no canto superior direito e selecionando **[!UICONTROL Remover]**. Para editar informações de uma variante, clique no botão de reticências e selecione **[!UICONTROL Editar]**.
 
@@ -145,10 +145,10 @@ O Journey Optimizer permite enviar provas para endereços de email enquanto repr
 
    Para obter mais informações sobre uma variante, selecione o link **[!UICONTROL Exibir detalhes do perfil]**. Isso permite exibir as informações inseridas na tela anterior para as diferentes variantes.
 
-   ![](assets/simulate-custom-proofs.png)
+   ![Seleção de variantes e destinatários de prova](assets/simulate-custom-proofs.png)
 
 1. Clique no botão **[!UICONTROL Enviar Prova]** para começar a enviar a prova.
 
 1. Para acompanhar o envio da prova, clique no botão **[!UICONTROL Exibir provas]** na tela de conteúdo simulado.
 
-![](assets/simulate-custom-sent-proofs.png)
+![Lista de provas enviadas](assets/simulate-custom-sent-proofs.png)

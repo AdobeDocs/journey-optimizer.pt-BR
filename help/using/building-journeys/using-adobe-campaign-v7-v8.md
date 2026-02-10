@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ações do Adobe Campaign v7/v8
-description: Saiba mais sobre as ações do Adobe Campaign v7/v8
+title: '[!DNL Adobe Campaign] ações v7/v8'
+description: Saiba mais sobre  [!DNL Adobe Campaign] ações v7/v8
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,21 +10,21 @@ level: Intermediate
 keywords: jornada, integração, campaign, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: a068d3a4005d8f2247755f56ffb70665dc4c957f
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 25%
+source-wordcount: '292'
+ht-degree: 4%
 
 ---
 
-# Ações do Adobe Campaign v7/v8 {#using_campaign_v7-v8}
+# [!DNL Adobe Campaign] ações v7/v8 {#using_campaign_v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
 >title="Ações personalizadas"
->abstract="Uma integração está disponível se você utilizar o Adobe Campaign v7 ou v8. Ela permite enviar emails, notificações por push e SMS usando os recursos de mensagens transacionais do Adobe Campaign."
+>abstract="Uma integração está disponível se você tiver o [!DNL Adobe Campaign] v7 ou v8. Ele permite enviar emails, notificações por push e SMS usando recursos de Mensagens Transacionais do [!DNL Adobe Campaign]."
 
-Uma integração está disponível se você utilizar o Adobe Campaign v7 ou v8. Ela permite enviar emails, notificações por push e SMS usando os recursos de mensagens transacionais do Adobe Campaign.
+Uma integração está disponível se você tiver o [!DNL Adobe Campaign] v7 ou v8. Ele permite enviar emails, notificações por push e SMS usando recursos de Mensagens Transacionais do [!DNL Adobe Campaign].
 
 A conexão entre as instâncias do Journey Optimizer e do Campaign é configurada pela Adobe no momento do provisionamento. Entre em contato com a Adobe.
 
@@ -32,7 +32,7 @@ A conexão entre as instâncias do Journey Optimizer e do Campaign é configurad
 
 **Pré-requisitos**
 
-* A instância do Adobe Campaign v7/v8 é provisionada e conectada ao Journey Optimizer pela Adobe.
+* Sua instância do [!DNL Adobe Campaign] v7/v8 foi provisionada e conectada ao Journey Optimizer pela Adobe.
 * Você tem acesso a Mensagens transacionais do Campaign e as permissões necessárias.
 
 Para que isso funcione, é necessário configurar uma ação dedicada. Consulte esta [seção](../action/acc-action.md).
@@ -48,4 +48,4 @@ Um caso de uso completo é apresentado nesta [seção](../building-journeys/ajo-
 >* As ações do Campaign v7/v8 podem ser usadas junto a ações de canal nativo na mesma jornada. Isso não se aplica às ações do Campaign Standard. Consulte [Medidas de proteção de atividades de campanha](../start/guardrails.md#ac-g).
 >* As ações do Campaign v7/v8 não podem ser usadas com atividades Ler público ou Qualificar público. Consulte as medidas de proteção Ler público-alvo e qualificação de público-alvo na página Medidas de proteção.
 
-![configurações de ação e integração do Adobe Campaign v7/v8](assets/accintegration2.png)
+![[!DNL Adobe Campaign] configurações de ação e integração v7/v8](assets/accintegration2.png)

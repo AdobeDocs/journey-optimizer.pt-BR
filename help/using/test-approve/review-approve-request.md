@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 8f4260b5-98df-4350-bd9b-680c3986ffe6
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Se uma política de aprovação se aplicar a uma jornada ou campanha, ela precis
 
 Se você tiver sido selecionado como aprovador, será notificado por meio de um email e um alerta do Journey Optimizer, que pode ser acessado ao clicar no ícone de sino na parte superior direita da tela, na guia **[!UICONTROL Solicitações]**.
 
-![](assets/request-notification.png)
+![Notificação de solicitação de aprovação](assets/request-notification.png)
 
 Para revisar a jornada/campanha, abra-a no email ou alerta e verifique suas configurações, como público-alvo, conteúdo ou configurações.
 Depois de concluído, você pode [aprovar e publicar a jornada/campanha](#approve) ou [solicitar alterações antes de ativá-la](#changes).
@@ -35,18 +35,18 @@ Se uma jornada ou campanha estiver pronta para entrar no ar, você poderá aprov
 
 Na janela exibida, clique em **[!UICONTROL Aprovar e ativar]** para ativar a jornada/campanha.
 
-![](assets/approve-request.png)
+![Caixa de diálogo Aprovar solicitação](assets/approve-request.png)
 
 ## Solicitar alterações em uma jornada/campanha {#changes}
 
 Se forem necessárias alterações em uma jornada ou campanha enviada para aprovação, você poderá enviar uma solicitação ao criador para que ele faça as alterações necessárias.
 
-Para fazer isso, clique no botão **[!UICONTROL Solicitar alterações]**. Nos painéis que são abertos, forneça uma mensagem detalhando sua solicitação e clique em **[!UICONTROL Enviar]** para enviar sua solicitação.
+Para fazer isso, clique no botão **[!UICONTROL Solicitar alterações]**. No painel que é aberto, forneça uma mensagem detalhando sua solicitação e clique em **[!UICONTROL Enviar]** para enviar sua solicitação.
 
-![](assets/request-changes.png)
+![Solicitar caixa de diálogo de alterações](assets/request-changes.png)
 
 Após o envio da solicitação, o criador de jornadas/campanhas é notificado por um email e um alerta do Journey Optimizer. A campanha retorna ao status &quot;Rascunho&quot;. Depois que as alterações forem integradas, o criador da jornada/campanha poderá enviá-la novamente para aprovação.
 
 >[!NOTE]
 >
-> Se você não estiver recebendo a notificação de aprovação por meio de um email, será necessário atualizar as preferências das assinaturas nos perfis do Experience Cloud. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences)
+> Se você não estiver recebendo a notificação de aprovação por meio de um email, será necessário atualizar as preferências da assinatura nos perfis do Experience Cloud. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences)

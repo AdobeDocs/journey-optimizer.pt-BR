@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,11 @@ Depois de criar sua campanha ou jornada, clique no botão **[!UICONTROL Solicita
 
 O painel **[!UICONTROL Solicitar aprovação]** é aberto. Forneça uma mensagem ao(s) aprovador(es), se necessário, e clique em **[!UICONTROL Enviar]** para enviar sua solicitação.
 
-![](assets/approval-request.png)
+![Caixa de diálogo de solicitação de aprovação](assets/approval-request.png)
 
 Enquanto a campanha ou jornada estiver no estado **[!UICONTROL Em revisão]**, você terá a opção de cancelar a solicitação de aprovação. Ao clicar no botão **[!UICONTROL Cancelar solicitação]**, a campanha ou jornada retornará ao estágio de rascunho e uma notificação será enviada aos revisores informando que a solicitação foi cancelada. Em seguida, você pode fazer as edições necessárias e reenviar a campanha ou jornada para aprovação.
 
-![](assets/approval-cancel.png)
+![Botão Cancelar solicitação de aprovação](assets/approval-cancel.png)
 
 ## Gerenciar solicitações de aprovação
 
@@ -52,6 +52,6 @@ Depois que a solicitação de aprovação é enviada aos aprovadores, eles podem
 
 Se os aprovadores solicitarem alterações, você será notificado por meio de um email e um alerta do Journey Optimizer, que é acessível ao clicar no ícone de sino na parte superior direita da tela, na guia **[!UICONTROL Solicitações]**.
 
-![](assets/changes-requested.png)
+![Notificação solicitada de alterações](assets/changes-requested.png)
 
 Para percorrer a solicitação de alteração, abra-a no email ou no alerta para acessar a jornada ou campanha e fazer as alterações solicitadas. Quando sua jornada/campanha estiver pronta para ser revisada novamente, envie uma nova solicitação de aprovação usando o botão **[!UICONTROL Solicitar aprovação]**.

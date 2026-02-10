@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ações do Adobe Campaign Standard
-description: Saiba mais sobre ações do Adobe Campaign Standard
+title: '[!DNL Adobe Campaign] Ações padrão'
+description: Saiba mais sobre  [!DNL Adobe Campaign] Ações padrão
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,39 +10,39 @@ level: Intermediate
 keywords: jornada, integração, padrão, campanha, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 5%
+source-wordcount: '933'
+ht-degree: 1%
 
 ---
 
-# Ações do Adobe Campaign Standard {#using_campaign_action}
+# [!DNL Adobe Campaign] Ações padrão {#using_campaign_action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="Ações personalizadas"
->abstract="Uma integração está disponível caso você tenha o Adobe Campaign Standard. Ela permite enviar emails, notificações por push e SMS usando os recursos de mensagens transacionais do Adobe Campaign."
+>abstract="Uma integração está disponível se você tiver o [!DNL Adobe Campaign] Standard. Ele permite enviar emails, notificações por push e SMS usando recursos de Mensagens Transacionais do [!DNL Adobe Campaign]."
 
-Se você tiver o Adobe Campaign Standard, as seguintes atividades integradas estão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**.
+Se você tiver o [!DNL Adobe Campaign] Standard, as seguintes atividades integradas estão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**.
 
 >[!NOTE]
 >
 >Para isso, é necessário configurar a ação integrada. Consulte [esta página](../action/acs-action.md).
 
-Para cada um desses canais, selecione um **modelo** de mensagens transacionais do Adobe Campaign Standard. Para os canais de email, SMS e push integrados, dependemos de Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado modelo de mensagem nas jornadas, será necessário publicá-lo no Adobe Campaign Standard. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR) para saber como usar este recurso.
+Para cada um desses canais, você seleciona um [!DNL Adobe Campaign] **modelo** de mensagens transacionais padrão. Para os canais de email, SMS e push integrados, dependemos de Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado modelo de mensagem em suas jornadas, deverá publicá-lo no [!DNL Adobe Campaign] Standard. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR) para saber como usar este recurso.
 
 >[!NOTE]
 >
 >A mensagem transacional do Campaign Standard e o evento associado devem ser publicados para serem usados no Journey Optimizer. Se o evento for publicado, mas a mensagem não for, ele não estará visível na interface do Journey Optimizer. Se a mensagem for publicada, mas o evento associado não, ela ficará visível na interface do Journey Optimizer, mas não poderá ser usada.
 
-![Configuração da ação do Adobe Campaign Standard no jornada](assets/journey59.png)
+![[!DNL Adobe Campaign] Configuração da ação padrão no jornada](assets/journey59.png)
 
 Você pode usar um evento (também conhecido como tempo real) ou template de mensagens transacionais de perfil.
 
 >[!NOTE]
 >
->Quando enviamos mensagens transacionais em tempo real (rtEvent) ou quando roteamos mensagens com um sistema de terceiros graças a uma ação personalizada, uma configuração específica é necessária para o gerenciamento de fadiga, lista de bloqueios ou cancelamento de assinatura. Por exemplo, se um atributo de &quot;cancelamento de inscrição&quot; for armazenado no Adobe Experience Platform ou em um sistema de terceiros, uma condição precisará ser adicionada antes do envio da mensagem para verificar essa condição.
+>Quando enviamos mensagens transacionais em tempo real (rtEvent) ou quando roteamos mensagens com um sistema de terceiros graças a uma ação personalizada, uma configuração específica é necessária para o gerenciamento de fadiga, lista de bloqueios ou cancelamento de assinatura. Por exemplo, se um atributo de &quot;cancelamento de inscrição&quot; for armazenado em [!DNL Adobe Experience Platform] ou em um sistema de terceiros, será necessário adicionar uma condição antes do envio da mensagem para verificar essa condição.
 
 Ao selecionar um modelo, todos os campos esperados na carga da mensagem são exibidos no painel de configuração da atividade em **[!UICONTROL Endereço]** e **[!UICONTROL Dados do Personalization]**. Você precisa mapear cada um desses campos com o campo que deseja usar, seja do evento ou da fonte de dados. Você também pode usar o editor de expressão avançado para passar um valor manualmente, executar a manipulação de dados nas informações recuperadas (por exemplo, converter uma cadeia de caracteres em maiúsculas) ou usar funções como &quot;if, then, else&quot;. Consulte [esta página](expression/expressionadvanced.md).
 
@@ -54,7 +54,10 @@ Para **[!UICONTROL Email]** e **[!UICONTROL SMS]**, os parâmetros são idêntic
 
 >[!NOTE]
 >
->Ao usar um template transacional do perfil para email, o mecanismo de cancelamento de subscrição é manipulado automaticamente pelo Adobe Campaign Standard. Para implementar isso, você pode facilmente incluir um bloco de conteúdo **[!UICONTROL Link de unsubscription]** no [modelo de email transacional](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR). No entanto, se estiver usando um template baseado em evento (rtEvent), você deverá incorporar um link na mensagem que passa o email do recipient como um parâmetro de URL e os direciona para uma landing page de cancelamento de subscrição. É necessário criar essa landing page e garantir que a decisão do recipient de cancelar a inscrição seja efetivamente transmitida ao Adobe.
+>Ao usar um modelo transacional de perfil para email, o mecanismo de cancelamento de assinatura é manipulado automaticamente pelo [!DNL Adobe Campaign] Standard.
+>Incluir um bloco de conteúdo de **[!UICONTROL Link de unsubscription]** em [o modelo de email transacional](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR).
+>Se você estiver usando um template baseado em evento (rtEvent), incorpore um link na mensagem que transmite o email do recipient como um parâmetro de URL e os direciona para uma landing page de cancelamento de subscrição.
+>Crie a landing page e verifique se a decisão de cancelamento de inscrição do recipient é transmitida ao Adobe.
 
 Primeiro, você precisa escolher um template de mensagem transacional.
 
@@ -66,7 +69,7 @@ Você pode definir facilmente onde recuperar o **[!UICONTROL Endereço]** ou os 
 
 >[!NOTE]
 >
->Essa categoria só estará visível se você selecionar uma mensagem transacional de &quot;evento&quot;. Para mensagens de &quot;perfil&quot;, o campo **[!UICONTROL Endereço]** é recuperado automaticamente do Adobe Campaign Standard pelo sistema.
+>Essa categoria só estará visível se você selecionar uma mensagem transacional de &quot;evento&quot;. Para mensagens de &quot;perfil&quot;, o campo **[!UICONTROL Endereço]** é recuperado automaticamente do [!DNL Adobe Campaign] Padrão pelo sistema.
 
 Esses são os campos que o sistema exige para saber para onde enviar a mensagem. Para um template de email, é o endereço de email. Para um SMS, é o número do celular.
 
@@ -78,7 +81,7 @@ Esses são os campos que o sistema exige para saber para onde enviar a mensagem.
 >
 >Não é possível transmitir uma coleção em dados de personalização. Se o email ou SMS transacional esperar coleções, não funcionará. Observe também que os dados de personalização têm um formato esperado (por exemplo: sequência, decimal etc.). Você deve ter cuidado para respeitar esses formatos esperados.
 
-Esses são os campos esperados pela mensagem do Adobe Campaign Standard. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou escolher uma variante de mensagem específica.
+Esses são os campos esperados pela mensagem Padrão [!DNL Adobe Campaign]. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou escolher uma variante de mensagem específica.
 
 ![Mapeamento de campos entre o Journey Optimizer e o Campaign Standard](assets/journey62.png)
 
@@ -96,7 +99,7 @@ Duas categorias estão disponíveis: **[!UICONTROL Target]** e **[!UICONTROL Dad
 
 >[!NOTE]
 >
->Essa categoria só estará visível se você selecionar uma mensagem de evento. Para mensagens de perfil, os campos **[!UICONTROL Target]** são recuperados automaticamente pelo sistema usando a reconciliação executada pelo Adobe Campaign Standard.
+>Essa categoria só estará visível se você selecionar uma mensagem de evento. Para mensagens de perfil, os campos **[!UICONTROL Target]** são recuperados automaticamente pelo sistema usando a reconciliação executada pelo [!DNL Adobe Campaign] Standard.
 
 Nesta seção, você precisa definir a **[!UICONTROL plataforma de push]**. A lista suspensa permite selecionar **[!UICONTROL Apple Push Notification Server]** (iOS) ou **[!UICONTROL Firebase Cloud Messaging]** (Android). Como alternativa, você pode selecionar um campo específico de um evento ou de uma fonte de dados, ou definir uma expressão avançada.
 
@@ -112,4 +115,4 @@ Você também precisa definir o **[!UICONTROL Token de Registro]**. A expressão
 >
 >Não é possível transmitir uma coleção em dados de personalização. Se o push transacional esperar coleções, não funcionará. Observe também que os dados de personalização têm um formato esperado (por exemplo: sequência, decimal etc.). Você deve ter cuidado para respeitar esses formatos esperados.
 
-Esses são os campos esperados pelo modelo transacional usado na mensagem do Adobe Campaign Standard. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou escolher uma variante de mensagem específica.
+Esses são os campos esperados pelo modelo transacional usado na sua mensagem Padrão [!DNL Adobe Campaign]. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou escolher uma variante de mensagem específica.
