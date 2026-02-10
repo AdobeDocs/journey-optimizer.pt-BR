@@ -8,7 +8,7 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
+source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 3%
@@ -39,7 +39,7 @@ Depois de adicionar uma política de decisão ao conteúdo, você pode usar atri
 
 >[!NOTE]
 >
->Para experiências baseadas em código, se a política de decisão contiver itens de decisão, incluindo fragmentos, você poderá aproveitar esses fragmentos no código de política de decisão. [Saiba como aproveitar fragmentos](../experience-decisioning/fragments-decision-policies.md)
+>Para experiências baseadas em código, se a política de decisão contiver itens de decisão, incluindo fragmentos, você poderá aproveitar esses fragmentos no código de política de decisão. [Saiba como aproveitar fragmentos](fragments-decision-policies.md)
 
 >[!TAB Email]
 
@@ -135,7 +135,7 @@ Para experiências baseadas em código, assim que o desenvolvedor fizer uma cham
 
 >[!NOTE]
 >
->No momento, você não pode simular conteúdo baseado em decisão para [campanhas ou jornadas baseadas em código](../code-based/create-code-based.md). Uma solução alternativa está disponível [aqui](../code-based/code-based-decisioning-implementations.md).
+>Atualmente, você não pode simular conteúdo baseado em decisão para [Campanhas ou jornadas baseadas em código](../code-based/create-code-based.md). Uma solução alternativa está disponível [aqui](../code-based/code-based-decisioning-implementations.md).
 
 ## Usar painéis de relatórios
 

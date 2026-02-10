@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2129'
 ht-degree: 15%
 
 ---
@@ -52,9 +52,9 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 
    >[!AVAILABILITY]
    >
-   >No momento, esse recurso só está disponível para o canal de experiência baseado em código.
+   >No momento, esse recurso só está disponível para o canal de experiência baseado em código e para um conjunto de organizações (disponibilidade limitada).
 
-   Na seção **[!UICONTROL Fragmentos]**, selecione os fragmentos publicados que deseja usar e atribua a eles uma chave de referência. É possível aproveitar esses fragmentos nas políticas de decisão. [Saiba como](use-decision-policy.md#fragments)
+   Na seção **[!UICONTROL Fragmentos]**, selecione os fragmentos publicados que deseja usar e atribua a eles uma chave de referência. É possível aproveitar esses fragmentos nas políticas de decisão. [Saiba como](fragments-decision-policies.md)
 
    ![](assets/item-fragments.png){width=70%}
 
@@ -78,8 +78,8 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 >abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
