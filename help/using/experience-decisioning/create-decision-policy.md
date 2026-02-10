@@ -6,13 +6,13 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
+source-git-commit: 743165991c3f4d351cd6ab15e94ece0309c8e82a
 workflow-type: tm+mt
 source-wordcount: '2108'
 ht-degree: 6%
 
 ---
-
 
 # Criar políticas de decisão {#create-decision}
 
@@ -322,6 +322,6 @@ Para emails, é necessário definir um posicionamento para o componente associad
 
 ## Próximas etapas {#next-steps}
 
-Agora que você entende como criar uma política de decisão, está pronto para usá-la em [!DNL Journey Optimizer] canais para entregar ofertas.
+Agora que você entende como criar uma política de decisão, você está pronto para usá-la em [!DNL Journey Optimizer] canais para entregar ofertas.
 
 ➡️ [Saiba como usar políticas de decisão em mensagens](../experience-decisioning/use-decision-policy.md)
