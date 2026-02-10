@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 29%
+source-wordcount: '334'
+ht-degree: 26%
 
 ---
 
@@ -37,7 +37,7 @@ Nossa estrutura de decisão de última geração, projetada para unificar os flu
 * Configuração atualizada da política de decisão e da estratégia de seleção: permitir a reutilização dos componentes de decisão
 * Recursos de experimentação: testar a lógica de decisão em relação a outros componentes do conteúdo para medir o desempenho
 
-A decisão é atualmente compatível com o canal de experiência baseado em código.
+A decisão está disponível a todos os clientes para os canais **Experiência baseada em código**, **Notificação por push** e **SMS**. A decisão do canal **Email** está disponível com a Disponibilidade Limitada. Para solicitar acesso à Decisão de email, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
 
 ➡️ [Introdução à Decisão](../experience-decisioning/gs-experience-decisioning.md)
 

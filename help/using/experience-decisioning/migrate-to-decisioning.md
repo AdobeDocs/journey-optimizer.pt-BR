@@ -5,9 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1240'
 ht-degree: 2%
 
 ---
@@ -26,7 +27,7 @@ A Decisão oferece recursos e benefícios significativos em relação à estrutu
 
 ### Recursos de IA e aprendizado de máquina
 
-* **Métricas personalizadas**: capacidade de usar métricas de otimização personalizadas para modelos de IA. Isso proporciona interoperabilidade de relatórios com o [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, padroniza os relatórios entre ambas as plataformas e melhora a consistência e confiabilidade dos dados. A integração perfeita fornece uma visualização mais clara das métricas de desempenho e adiciona novos recursos, como criar métricas simples, publicar públicos, fazer perguntas ad hoc usando o Insight Builder e agendar relatórios.
+* **Métricas personalizadas**: capacidade de usar métricas de otimização personalizadas para modelos de IA. Isso proporciona interoperabilidade de relatórios com o [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, padroniza os relatórios entre ambas as plataformas e melhora a consistência e confiabilidade dos dados. A integração perfeita fornece uma visualização mais clara das métricas de desempenho e adiciona novos recursos, como criar métricas simples, publicar públicos, fazer perguntas ad hoc usando o Insight Builder e agendar relatórios.
 
 * **Medição de aumento**: capacidade de visualizar exploração vs. explorar o tráfego em modelos de IA. Isso permite que profissionais de marketing e cientistas de dados quantifiquem como a exploração de IA melhora o desempenho do modelo a longo prazo e a capacidade de descoberta de novas ofertas vencedoras. A transparência na alocação de tráfego cria confiança nas decisões de IA e capacita as equipes a otimizar tanto o aprendizado quanto o desempenho ao longo do tempo. [Saiba mais](ranking/auto-optimization-model.md#lift)
 
@@ -64,9 +65,9 @@ Painel que documenta o desempenho dos itens de decisão e as estratégias de sel
 
 * **Imposição de política**: capacitação do usuário empresarial para usar recursos como [Rotulagem e Imposição de Uso de Dados (DULE)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview){target="_blank"} e [Consentimento](../action/consent.md) na Decisão, habilitando a proteção de blindagem de privacidade no fluxo de trabalho de decisão. Isso garante que as decisões respeitem automaticamente as políticas de uso de dados e as preferências de consentimento do cliente.
 
-* **Suporte a canal de mensagens nativo**: mensagens e decisões integradas em uma única estrutura em vários canais ([Experiência baseada em código](../code-based/get-started-code-based.md) e [Email](../email/get-started-email.md) disponíveis no momento, outros canais disponíveis no 1º semestre de 2026). O suporte intuitivo à interface permite que os usuários insiram componentes de decisão diretamente nos fluxos de trabalho de criação de mensagens.
+* **Suporte ao canal de mensagens nativo**: mensagens e decisões integradas em uma única estrutura em vários canais: [Experiência baseada em código](../code-based/get-started-code-based.md), [Email](../email/get-started-email.md) (Disponibilidade limitada), [SMS](../sms/get-started-sms.md) e [Notificações por push](../push/get-started-push.md). O suporte intuitivo à interface permite que os usuários insiram componentes de decisão diretamente nos fluxos de trabalho de criação de mensagens.
 
-* **Pesquisa de conjunto de dados do Experience Platform**: capacidade de carregar e referenciar [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview){target="_blank"} diretamente nas regras de seleção de oferta, classificação e conteúdo de oferta personalizado. Isso expande a flexibilidade para personalização e direcionamento ao permitir que a lógica de decisão use fontes de dados externas dinâmicas. [Saiba mais](../data/lookup-aep-data.md)
+* **Pesquisa de conjunto de dados do Experience Platform**: capacidade de carregar e referenciar [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} diretamente nas regras de seleção de oferta, classificação e conteúdo de oferta personalizado. Isso expande a flexibilidade para personalização e direcionamento ao permitir que a lógica de decisão use fontes de dados externas dinâmicas. [Saiba mais](../data/lookup-aep-data.md)
 
 * **Escalabilidade e desempenho**: aprimoramento da arquitetura que move a computação de decisão do hub para a borda, reduzindo significativamente a latência e melhorando a taxa de transferência para casos de uso de alto tráfego.
 
@@ -102,4 +103,3 @@ Para obter a documentação completa da API, incluindo autenticação, endpoints
 * [Introdução ao serviço de decisão](gs-experience-decisioning.md)
 * [Medidas de proteção e limitações da decisão](decisioning-guardrails.md)
 * [Perguntas frequentes sobre decisão](decisioning-faq.md)
-

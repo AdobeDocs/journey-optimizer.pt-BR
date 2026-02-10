@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 22%
+source-wordcount: '674'
+ht-degree: 21%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 22%
 
 O serviço de decisão simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
 
-Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada através do [canal de experiência baseado em código](../code-based/get-started-code-based.md), acessível em [!DNL Adobe Journey Optimizer] campanhas.
+Estes itens de decisão são perfeitamente integrados em mensagens e experiências em [!DNL Adobe Journey Optimizer] canais: [experiência baseada em código](../code-based/get-started-code-based.md), email, SMS e notificações por push.
 
 >[!IMPORTANT]
 >
->As políticas de decisão estão disponíveis para uso somente em experiências baseadas em código e campanhas de email.
+>As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Notificação por push** e **SMS**. A decisão do canal **Email** está disponível somente em Disponibilidade Limitada. Para solicitar acesso, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -85,7 +85,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
    ➡️ [Saiba como criar estratégias de seleção na interface do usuário](selection-strategies.md) na interface do usuário (e na [documentação da API](api-reference/selection-strategies/create.md))
 
-1. **Crie uma política de decisão e incorpore-a à sua jornada/campanha baseada em código ou email**: as políticas de decisão combinam várias estratégias de seleção para determinar os itens de decisão qualificados a serem exibidos para o público-alvo desejado.
+1. **Crie uma política de decisão e incorpore-a à sua jornada ou campanha** (experiência baseada em código, email, SMS ou push): as políticas de decisão combinam várias estratégias de seleção para determinar os itens de decisão qualificados a serem exibidos para o público-alvo desejado.
 
    ➡️ [Saiba como trabalhar com políticas de decisão](create-decision.md)
 ➡️ Para entregar com êxito a oferta por meio do canal de experiência baseado em código, siga as etapas de implementação em [esta seção](../code-based/code-based-implementation-samples.md).
@@ -105,4 +105,4 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
 Saiba mais sobre os recursos de decisão no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475868?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
