@@ -12,9 +12,9 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1662'
 ht-degree: 16%
 
 ---
@@ -70,7 +70,7 @@ Clique em **[!UICONTROL Adicionar um caminho]** se desejar definir várias condi
 
 Observe que o design das jornadas tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho qualificado é executado. Isso significa que é possível variar a priorização de caminhos colocando-os um acima ou abaixo do outro.
 
-Vejamos o exemplo da condição de um primeiro caminho &quot;A pessoa é um VIP&quot; e a condição de um segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que atende a ambas as condições (um homem que é um VIP) passar por essa etapa, o primeiro caminho será escolhido, mesmo que essa pessoa também seja elegível para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
+Vejamos duas condições de caminho: &quot;A pessoa é um VIP&quot; e &quot;A pessoa é um homem&quot;. Se uma pessoa atender às duas condições, o primeiro caminho é escolhido porque está acima do segundo. Para alterar essa prioridade, mova suas atividades para uma ordem vertical diferente.
 
 ![Exemplo de priorização de caminho mostrando a condição do VIP acima da condição macho](assets/journey48.png)
 
@@ -87,7 +87,7 @@ O modo simples permite executar consultas simples com base em uma combinação d
 
 ![Editor de expressão simples com campos de arrastar e soltar e operadores lógicos](assets/journey64.png){width=80%}
 
-Se você estiver usando o [Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
+Se você estiver usando o [[!DNL Adobe Experience Platform] Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
 
 >[!NOTE]
 >
@@ -188,8 +188,8 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
 1. No lado esquerdo, abra o nó **[!UICONTROL Públicos-alvo]**. Arraste e solte o público-alvo que deseja usar com sua condição. Por padrão, a condição no público-alvo é verdadeira.
 
-   ![Nó de públicos-alvo no editor de expressão para selecionar públicos-alvo da Adobe Experience Platform](assets/segment4.png){width=80%}
+   ![Nó de públicos-alvo no editor de expressão para selecionar [!DNL Adobe Experience Platform] públicos-alvo](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

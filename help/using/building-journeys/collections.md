@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 3%
 
 ---
@@ -142,7 +142,7 @@ Embora as coleções em ações personalizadas forneçam flexibilidade para tran
 
 * **Suporte para Matrizes Aninhadas em Ações Personalizadas**
 
-  O Adobe Journey Optimizer oferece suporte a matrizes aninhadas de objetos em **cargas de resposta** de ação personalizada, mas esse suporte é limitado em **cargas de solicitação**.
+  [!DNL Adobe Journey Optimizer] dá suporte a matrizes aninhadas de objetos em **cargas de resposta** de ação personalizada, mas esse suporte é limitado em **cargas de solicitação**.
 
   Nas cargas de solicitação, matrizes aninhadas só são suportadas quando contêm um número fixo de itens, conforme definido na configuração de ação personalizada. Por exemplo, se uma matriz aninhada sempre incluir exatamente três itens, ela poderá ser configurada como uma constante. Quando o número de itens precisa ser dinâmico, somente as matrizes não aninhadas (matrizes no nível inferior) podem ser definidas como variáveis.
 

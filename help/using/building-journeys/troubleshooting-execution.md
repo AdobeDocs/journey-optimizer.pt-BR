@@ -10,9 +10,9 @@ level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1592'
 ht-degree: 16%
 
 ---
@@ -31,7 +31,7 @@ O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes u
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
-Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming do Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
+Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming de [!DNL Adobe Experience Platform]. Como resultado, no caso de problemas relacionados ao evento, consulte a [[!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
 
 Se a jornada não conseguir habilitar o modo de teste com erro `ERR_MODEL_RULES_16`, verifique se o evento usado inclui um [namespace de identidade](../audience/get-started-identity.md) ao usar uma ação de canal.
 
@@ -57,7 +57,7 @@ Você pode começar a solucionar problemas com as perguntas abaixo:
   Content-type - application/json
   ```
 
-&#x200B;>>
+>>
 **Para jornadas de qualificação de público-alvo com públicos-alvo de streaming**: se estiver usando uma atividade de qualificação de público-alvo como ponto de entrada de jornada, esteja ciente de que nem todos os perfis qualificados para o público-alvo necessariamente entrarão na jornada devido a fatores de tempo, saídas rápidas do público-alvo ou se os perfis já estiverem no público-alvo antes da publicação. Saiba mais sobre [considerações de tempo de qualificação de público de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Solução de problemas de transições do modo de teste {#troubleshooting-test-transitions}
@@ -73,7 +73,7 @@ Se os perfis de teste entrarem na jornada, mas não avançarem além da etapa in
    * Garantir que a hora atual esteja na janela de datas ativa da jornada
    * Se necessário, atualize as propriedades da jornada para ajustar a data de início
 
-* **Configuração do perfil de teste** - Confirme se o perfil está sinalizado corretamente como um perfil de teste no Adobe Experience Platform. Consulte [como criar perfis de teste](../audience/creating-test-profiles.md) para obter mais informações.
+* **Configuração do perfil de teste** - Confirme se o perfil está sinalizado corretamente como um perfil de teste em [!DNL Adobe Experience Platform]. Consulte [como criar perfis de teste](../audience/creating-test-profiles.md) para obter mais informações.
 
 * **Namespace de identidade** - Verifique se o namespace de identidade usado na configuração do evento corresponde ao namespace do seu perfil de teste.
 
@@ -115,6 +115,8 @@ No caso de uma mensagem enviada por meio de uma ação personalizada, a única c
 
 ## Noções básicas sobre entradas duplicadas em Eventos de etapa de Jornada {#duplicate-step-events}
 
+Use esta seção para entender por que as linhas duplicadas podem aparecer nos Eventos de etapa de Jornada.
+
 ### Por que vejo várias entradas com a mesma instância, perfil, nó e IDs de solicitação do jornada?
 
 Ao consultar os dados de Eventos de etapa de Jornada, você pode observar ocasionalmente o que parece ser entradas de log duplicadas para a mesma execução de jornada. Essas entradas compartilham valores idênticos para:
@@ -128,7 +130,7 @@ No entanto, essas entradas têm **valores `_id` diferentes**, que é o indicador
 
 ### O que causa esse comportamento?
 
-Isso ocorre devido às operações de dimensionamento automático de back-end (também chamadas de &quot;rebalanceamento&quot;) na arquitetura de microsserviços da Adobe Journey Optimizer. Durante períodos de alta carga ou otimização do sistema:
+Isso ocorre devido a operações de dimensionamento automático de back-end (também chamadas de &quot;rebalanceamento&quot;) na arquitetura de microsserviços do [!DNL Adobe Journey Optimizer]. Durante períodos de alta carga ou otimização do sistema:
 
 1. Um evento de etapa de jornada começa a ser processado e é registrado no conjunto de dados de Eventos de etapa de Jornada
 2. Uma operação de dimensionamento automático redistribui a carga de trabalho entre instâncias de serviço
@@ -138,7 +140,7 @@ Este é um comportamento de sistema esperado e **está funcionando como projetad
 
 ### Há algum impacto na execução da jornada ou na entrega de mensagens?
 
-**Não.** O impacto está limitado apenas ao registro em log. A Adobe Journey Optimizer tem mecanismos integrados de desduplicação na camada de execução de mensagens que garantem:
+**Não.** O impacto está limitado apenas ao registro em log. [!DNL Adobe Journey Optimizer] tem mecanismos de desduplicação internos na camada de execução da mensagem que garantem:
 
 * Somente uma mensagem (email, SMS, notificação por push etc.) é enviada para cada perfil
 * As ações são executadas apenas uma vez

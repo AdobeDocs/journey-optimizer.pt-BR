@@ -10,10 +10,10 @@ level: Intermediate
 keywords: perfil, atualização, jornada, atividade
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 5%
+source-wordcount: '657'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="Atividade Atualizar perfil"
->abstract="A ação Atualizar perfil permite atualizar um perfil da Adobe Experience Platform existente com informações provenientes do evento, de uma fonte de dados ou usando um valor específico."
+>abstract="A atividade de ação Atualizar Perfil permite atualizar um perfil [!DNL Adobe Experience Platform] existente com informações provenientes do evento, de uma fonte de dados ou usando um valor específico."
 
-Use a atividade de ação **[!UICONTROL Atualizar Perfil]** para atualizar um perfil do Adobe Experience Platform existente com informações provenientes de um evento, uma fonte de dados ou com um valor específico.
+Use a atividade de ação **[!UICONTROL Atualizar Perfil]** para atualizar um perfil [!DNL Adobe Experience Platform] existente com informações provenientes de um evento, uma fonte de dados ou com um valor específico.
 
 ## Principais conceitos {#key-concepts}
 
@@ -32,9 +32,9 @@ Use a atividade de ação **[!UICONTROL Atualizar Perfil]** para atualizar um pe
 * A ação atualiza apenas os campos existentes, não cria novos campos de perfil.
 * Você não pode usar a ação **Atualizar Perfil** para gerar eventos de experiência, por exemplo, uma compra.
 * Como qualquer outra ação, é possível definir um caminho alternativo em caso de erro ou tempo limite, e não é possível colocar duas ações em paralelo.
-* A solicitação de atualização enviada para o Adobe Experience Platform é imediata/em um segundo. Normalmente, levará alguns segundos, mas às vezes mais, sem garantia. Como resultado, por exemplo, se uma ação estiver usando o &quot;campo 1&quot; atualizado por uma ação **Atualizar perfil** posicionada logo antes, você não deve esperar que o &quot;campo 1&quot; seja atualizado na ação.
+* A solicitação de atualização enviada para [!DNL Adobe Experience Platform] é imediata/em um segundo. Normalmente, levará alguns segundos, mas às vezes mais, sem garantia. Como resultado, por exemplo, se uma ação estiver usando o &quot;campo 1&quot; atualizado por uma ação **Atualizar perfil** posicionada logo antes, você não deve esperar que o &quot;campo 1&quot; seja atualizado na ação.
 * A atividade **Atualizar perfil** não oferece suporte a campos XDM definidos como enumerações ou valores sugeridos.
-* A atividade **[!UICONTROL Atualizar perfil]** atualiza somente o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}, não o Data Lake.
+* A atividade **[!UICONTROL Atualizar perfil]** atualiza somente o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, não o Data Lake.
 
 ## Seleção do conjunto de dados {#dataset-selection}
 
@@ -81,6 +81,6 @@ O **Perfil de Atualização** está configurado agora.
 
 No modo de teste, a atualização do perfil não será simulada. A atualização será executada no perfil de teste.
 
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. No Adobe Experience Platform, você pode atualizar atributos de perfis por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar uma atividade de ação **Atualizar perfil** e alterar o campo booleano do perfil de teste de falso para verdadeiro.
+Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. No [!DNL Adobe Experience Platform], você pode atualizar atributos de perfis por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar uma atividade de ação **Atualizar perfil** e alterar o campo booleano do perfil de teste de falso para verdadeiro.
 
 Para obter mais informações sobre como transformar um perfil existente em um perfil de teste, consulte esta [seção](../audience/creating-test-profiles.md#create-test-profiles-csv).

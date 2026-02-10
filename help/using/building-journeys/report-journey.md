@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Para cada atividade em cada jornada no modo Live ou [Dry run](journey-dry-run.md
 
 Se você não vir os dados esperados em seus relatórios do jornada, considere o seguinte:
 
-* **Sincronização de nome de Jornada**: verifique se o nome de jornada no Adobe Journey Optimizer corresponde ao nome armazenado no conjunto de dados de relatórios. Uma incompatibilidade entre esses nomes pode impedir que os dados de relatório apareçam corretamente.
+* **Sincronização de nome de Jornada**: verifique se o nome de jornada em [!DNL Adobe Journey Optimizer] corresponde ao nome armazenado no conjunto de dados de relatórios. Uma incompatibilidade entre esses nomes pode impedir que os dados de relatório apareçam corretamente.
 
 * **Tempo de atualização de dados**: depois de atualizar um nome ou uma configuração de jornada, aguarde tempo suficiente para que os dados sejam atualizados. Os dados de relatórios normalmente são exibidos em alguns minutos, mas em alguns casos podem levar mais tempo.
 

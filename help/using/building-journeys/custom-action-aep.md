@@ -9,16 +9,16 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '398'
 ht-degree: 3%
 
 ---
 
 # Usar ações personalizadas para gravar eventos de jornada na Experience Platform {#custom-action-aep}
 
-Este caso de uso explica como gravar eventos personalizados no Adobe Experience Platform a partir do Jornada usando Ações personalizadas e Chamadas autenticadas.
+Este caso de uso explica como gravar eventos personalizados no [!DNL Adobe Experience Platform] a partir do Jornada usando Ações Personalizadas e Chamadas Autenticadas.
 
 ## Configurar um projeto do desenvolvedor {#custom-action-aep-IO}
 
@@ -30,7 +30,7 @@ Este caso de uso explica como gravar eventos personalizados no Adobe Experience 
 
 1. Clique em **Exibir comando cURL**.
 
-   ![Seleção do tipo de ação do Adobe Experience Platform](assets/custom-action-aep-2.png)
+   ![[!DNL Adobe Experience Platform] seleção do tipo de ação](assets/custom-action-aep-2.png)
 
 1. Copie o comando cURL e armazene client_id, client_secret, grant_type e scope.
 
@@ -40,15 +40,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Depois de criar seu projeto no Adobe Developer Console, conceda ao desenvolvedor e ao API o controle de acesso com as permissões certas. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Depois de criar seu projeto no Adobe Developer Console, conceda ao desenvolvedor e ao API o controle de acesso com as permissões certas. Saiba mais na [[!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## Configurar a fonte usando a entrada da API HTTP
 
-1. Crie um endpoint no Adobe Experience Platform para gravar os dados do jornada.
+1. Crie um ponto de extremidade em [!DNL Adobe Experience Platform] para gravar os dados do jornada.
 
-1. No Adobe Experience Platform, clique em **Fontes**, em **Conexões**, no menu esquerdo. Em **API HTTP**, clique em **Adicionar dados**.
+1. Em [!DNL Adobe Experience Platform], clique em **Fontes**, em **Conexões**, no menu esquerdo. Em **API HTTP**, clique em **Adicionar dados**.
 
-   ![Lista suspensa de seleção de sandbox para Adobe Experience Platform](assets/custom-action-aep-3.png)
+   ![Lista suspensa de seleção de sandbox para [!DNL Adobe Experience Platform]](assets/custom-action-aep-3.png)
 
 1. Selecione **Nova conta** e habilite a autenticação. Selecione **Conectar ao Source**.
 
@@ -101,7 +101,7 @@ A configuração de ação personalizada está detalhada em [esta página](../ac
 
 Para este exemplo, siga estas etapas:
 
-1. Abra o Adobe Journey Optimizer e clique em **Configurações**, em **Administração** no menu esquerdo. Em **Ações**, clique em **Gerenciar** e em **Criar Ação**.
+1. Abra [!DNL Adobe Journey Optimizer] e clique em **Configurações**, em **Administração**, no menu esquerdo. Em **Ações**, clique em **Gerenciar** e em **Criar Ação**.
 
 1. Defina o URL e selecione o método Post.
 

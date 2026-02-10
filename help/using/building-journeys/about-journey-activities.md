@@ -10,22 +10,22 @@ level: Beginner, Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '711'
 ht-degree: 15%
 
 ---
 
 # Introdução às atividades de jornada {#about-journey-activities}
 
-Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
+Combine atividades de evento, orquestração e ação para criar cenários em várias etapas e entre canais.
 
 ## Atividades de evento {#event-activities}
 
-As jornadas personalizadas são acionadas por eventos, como uma compra online. Depois que um perfil entra em uma jornada, ele se move como um indivíduo e nenhum dos dois indivíduos se move ao longo da mesma taxa ou ao longo do mesmo caminho. Ao iniciar a jornada com um evento, a jornada é acionada quando o evento é recebido. Cada pessoa na jornada segue, individualmente, as próximas etapas definidas na jornada.
+As jornadas personalizadas começam com eventos como uma compra online. Depois que um perfil entra em uma jornada, ele se move por conta própria. Cada perfil pode ter um caminho e um ritmo diferentes. Quando você começa com um evento, a jornada é acionada quando o evento chega. Cada perfil segue as etapas definidas na jornada.
 
-Os eventos configurados pelo usuário técnico (consulte [esta página](../event/about-events.md)) são todos exibidos na primeira categoria da paleta, no lado esquerdo da tela. As seguintes atividades de evento estão disponíveis:
+Os eventos configurados pelo usuário técnico (consulte [esta página](../event/about-events.md)) aparecem na primeira categoria da paleta. Esta categoria está no lado esquerdo da tela. As seguintes atividades de evento estão disponíveis:
 
 * [Eventos gerais](../building-journeys/general-events.md)
 * [Reação](../building-journeys/reaction-events.md)
@@ -39,7 +39,7 @@ Para iniciar a jornada, arraste e solte uma atividade de evento. Você também p
 
 ## Atividades de orquestração {#orchestration-activities}
 
-As atividades de orquestração são condições diferentes que ajudam a determinar a próxima etapa da jornada. Essas condições podem incluir se a pessoa tem um caso de suporte aberto, a previsão do tempo em seu local atual, se concluiu uma compra ou se atingiu 10.000 pontos de fidelidade.
+As atividades de orquestração são condições que ajudam a determinar a próxima etapa da jornada. Essas condições podem incluir se a pessoa tem um caso de suporte aberto ou se concluiu uma compra. Eles também podem incluir a previsão do tempo local ou se a pessoa atingiu 10.000 pontos de fidelidade.
 
 Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração estão disponíveis:
 
@@ -55,7 +55,7 @@ Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração e
 
 As ações são o que você deseja que aconteça como resultado de algum tipo de acionador, como o envio de uma mensagem. É a parte da jornada que o cliente experimenta.
 
-Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Eventos]** e **[!UICONTROL Orquestração]**, você pode encontrar a categoria **[!UICONTROL Ações]**. As seguintes atividades de ação estão disponíveis:
+Na paleta à esquerda da tela, abaixo de **[!UICONTROL Eventos]** e **[!UICONTROL Orquestração]**, você pode encontrar a categoria **[!UICONTROL Ações]**. As seguintes atividades de ação estão disponíveis:
 
 * [Ações de canal integradas](../building-journeys/journeys-message.md)
 * [Ações personalizadas](../building-journeys/using-custom-actions.md)
@@ -69,13 +69,15 @@ Você também pode configurar ações específicas para enviar mensagens:
 
 * Se você estiver usando um sistema de terceiros para enviar mensagens, poderá criar uma ação personalizada específica. [Saiba mais](../action/action.md)
 
-* Se estiver trabalhando com o Campaign e o Journey Optimizer, consulte estas seções:
+* Se você estiver trabalhando com [!DNL Adobe Campaign] e [!DNL Adobe Journey Optimizer], consulte estas seções:
 
-   * [[!DNL Journey Optimizer] e o Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
-   * [[!DNL Journey Optimizer] e Marketo Engage](../action/marketo-engage.md)
+   * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+   * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] Padrão](../action/acs-action.md)
+   * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
 ## Práticas recomendadas {#best-practices}
+
+Use essas recomendações para manter o jornada legível, consistente e fácil de solucionar problemas.
 
 ### Adicionar um rótulo
 
@@ -113,10 +115,10 @@ A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. 
 
 ![Adicionar uma opção de caminho alternativo nas propriedades da atividade de Condição](assets/journey42.png)
 
-## Resolução de problemas {#troubleshooting}
+## Solução de problemas {#troubleshooting}
 
 Antes de testar e publicar sua jornada, verifique se todas as atividades estão configuradas corretamente. Não é possível executar testes ou publicações se os erros ainda forem detectados pelo sistema.
 
 Saiba como solucionar erros nas atividades e na jornada [nesta página](troubleshooting.md).
 
-Consulte também **[Monitoramento e solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**.
+Consulte também **[Monitoramento e solução de problemas](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**.

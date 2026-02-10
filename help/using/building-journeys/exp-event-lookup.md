@@ -5,9 +5,9 @@ title: Pesquisa de eventos de experiência no jornada
 description: Saiba como usar a pesquisa de Eventos de experiência no jornada
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '914'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 >
 >Precisa de mais detalhes? [Leia as perguntas frequentes](#faq-ee).
 
-Esta página descreve padrões comuns e abordagens escaláveis para ajudá-lo a aproveitar ao máximo os eventos de experiência no Adobe Journey Optimizer. Esses casos de uso são projetados para ajudar você a resolver desafios frequentes, como gerenciar recusas, controlar a frequência da mensagem, personalizar o conteúdo com base no comportamento do usuário e reagir a sinais em tempo real.
+Esta página descreve padrões comuns e abordagens escaláveis para ajudá-lo a aproveitar ao máximo os Eventos de Experiência do [!DNL Adobe Journey Optimizer]. Esses casos de uso são projetados para ajudar você a resolver desafios frequentes, como gerenciar recusas, controlar a frequência da mensagem, personalizar o conteúdo com base no comportamento do usuário e reagir a sinais em tempo real.
 
 Ao utilizar essas estratégias, é possível transformar dados comportamentais em ações significativas — suprimindo, qualificando ou excluindo perfis com base nos eventos acionados ou nos atributos transportados. Quer você esteja criando lógica para limites de compra, acionadores de abandono ou lidando com rejeições, esses exemplos oferecem orientação prática que você pode adaptar às suas necessidades.
 
@@ -39,7 +39,7 @@ Saiba mais:
 
 ## Supressão baseada em rejeição
 
-Para excluir perfis que tiveram rejeições de email, use a lista de supressão automática do Adobe Journey Optimizer para endereços rejeitados. Esse mecanismo integrado garante que emails inválidos ou inacessíveis sejam excluídos de envios futuros sem exigir lógica personalizada.
+Para excluir perfis que tiveram rejeições de email, use a lista de supressão automática de [!DNL Adobe Journey Optimizer] para endereços rejeitados. Esse mecanismo integrado garante que emails inválidos ou inacessíveis sejam excluídos de envios futuros sem exigir lógica personalizada.
 
 Saiba mais:
 
@@ -52,9 +52,9 @@ Para suprimir perfis que demonstraram determinados comportamentos, use públicos
 
 Saiba mais:
 
-* [Construtor de segmentos do Adobe Experience Platform - Eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [Construtor de segmentos do Adobe Experience Platform - Restrições de tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de públicos-alvo em condições](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +71,9 @@ Para impedir o envio de mensagens a perfis que receberam comunicações em uma j
 
 Saiba mais sobre como usar os públicos-alvo:
 
-* [Construtor de segmentos do Adobe Experience Platform - Eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [Construtor de segmentos do Adobe Experience Platform - Restrições de tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de públicos-alvo em condições](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +93,9 @@ Para incluir ou excluir perfis com base no fato de terem recebido uma mensagem e
 
 Saiba mais:
 
-* [Construtor de segmentos do Adobe Experience Platform - Eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [Construtor de segmentos do Adobe Experience Platform - Restrições de tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de públicos-alvo em condições](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -105,8 +105,8 @@ Saiba mais:
 
 Para personalizar as comunicações com base no carrinho mais recente ou procurar eventos em vários tipos de carrinho ou exibições de produto:
 
-* Se você tiver acesso ao [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configure consultas automatizadas para extrair os dados necessários do evento, manipulá-los para se ajustarem ao caso de uso e gravá-los em um conjunto de dados habilitado para perfil para ativação.
-* Se os dados de abandono puderem ser modelados no perfil com atributos escalares, considere usar atributos Calculados para capturar as informações mais recentes e, em seguida, fazer referência a esses atributos na jornada para criar a comunicação. [Saiba mais na documentação da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Se você tiver acesso ao [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configure consultas automatizadas para extrair os dados necessários do evento, manipulá-los para se ajustarem ao caso de uso e gravá-los em um conjunto de dados habilitado para perfil para ativação.
+* Se os dados de abandono puderem ser modelados no perfil com atributos escalares, considere usar atributos Calculados para capturar as informações mais recentes e, em seguida, fazer referência a esses atributos na jornada para criar a comunicação. [Saiba mais em [!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Saída da jornada baseada em comportamento
@@ -123,7 +123,7 @@ Para acionar jornadas com base em compras e suprimir se o valor estiver acima/ab
 
 Saiba mais:
 
-* Adobe Experience Platform [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [Visão geral de atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -131,7 +131,7 @@ Saiba mais:
 
 Você encontrará abaixo Perguntas frequentes sobre a pesquisa de eventos de experiência no jornada.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de comentários na parte inferior desta página para levantar sua pergunta ou conectar-se à [[!DNL Adobe Journey Optimizer] comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
 
 +++Quais recursos específicos serão afetados? 
 

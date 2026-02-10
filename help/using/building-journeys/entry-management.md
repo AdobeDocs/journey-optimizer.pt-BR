@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1190'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ O gerenciamento de entrada de perfis depende do tipo de jornada.
 
 ## Tipos de jornadas {#types-of-journeys}
 
-Com o Adobe Journey Optimizer, você pode criar os seguintes tipos de jornadas:
+Com o [!DNL Adobe Journey Optimizer], você pode criar os seguintes tipos de jornadas:
 
 * **jornadas de evento unitário**: essas jornadas começam com um evento unitário. Quando o evento é recebido, o perfil associado entra na jornada. [Leia mais](#entry-unitary)
 
@@ -49,13 +49,13 @@ A taxa de processamento da jornada é afetada por vários fatores que determinam
 
 A forma como os perfis inserem jornadas e a taxa esperada depende da primeira atividade usada:
 
-* **Ler público-alvo** jornadas (cenário em lote, em que você direciona um público-alvo de perfis e aciona uma jornada para esse público-alvo completo): o máximo é de 20.000 TPS (transações por segundo), que é a cota disponível em um **nível de sandbox**. Se você tiver várias jornadas em execução ao mesmo tempo nessa sandbox, talvez não seja possível atingir 20.000 TPS. Considere esse máximo como o melhor cenário possível.
+* **Ler público-alvo** jornadas (cenário de lote, em que você direciona um público-alvo de perfis e aciona uma jornada para esse público-alvo completo): o máximo é 20.000 TPS (transações por segundo). Esta é a cota disponível em um **nível de sandbox**. Se várias jornadas forem executadas ao mesmo tempo nessa sandbox, talvez não seja possível atingir 20.000 TPS. Considere esse máximo como um cenário otimizado.
 
 * **jornadas de qualificação de público-alvo** (cenário unitário, em que você deseja acionar uma jornada quando um perfil é qualificado ou desqualificado para um público-alvo de transmissão): o máximo é de 5.000 TPS. Observe que esse é um limite compartilhado com jornadas que começam com eventos e também é compartilhado entre jornadas em um **nível de organização**.
 
 * **jornadas de evento unitário** (cenário unitário, em que você deseja acionar uma jornada quando um evento é emitido de um perfil): o mesmo acima, ambos compartilhando o mesmo limite de 5.000 TPS. Mais informações sobre a taxa de transferência do evento de jornada estão disponíveis em [esta seção](../event/about-events.md#event-thoughput).
 
-* **jornadas de evento comercial** (que é essencialmente um cenário unitário em lote, pois um evento comercial é sempre seguido por um público de Leitura): os eventos comerciais também contam para a cota de 5.000 TPS, mas a atividade Ler público logo após terá o mesmo limite que as jornadas que começam com um público de Leitura (20.000 TPS).
+* **jornadas de evento comercial** (um cenário unitário em lote porque um evento comercial é sempre seguido por um público-alvo de Leitura): a contagem de eventos comerciais é de 5.000 TPS. A atividade Read audience a seguir tem o mesmo limite que as jornadas que começam com um público-alvo de Leitura (20.000 TPS).
 
 ### Eventos e qualificações de público dentro do jornada {#events-inside-journeys}
 
@@ -67,7 +67,7 @@ As atividades de **Aguardar** no jornada também podem afetar quantos perfis est
 
 ### Atividades de ação {#action-activities-impact}
 
-Finalmente, as atividades de **ação** (canais nativos como Email, SMS, Push, etc., saída ou entrada, ações personalizadas, saltos ao enviar perfis para outras jornadas, atualização de perfis ao enviar dados para o Unified Profile Service etc.) podem ser afetadas pela carga de perfil proveniente do jornada, mas também podem afetar a taxa de processamento. Por exemplo, uma ação personalizada direcionada a um endpoint externo com um tempo de resposta alto reduzirá a taxa de processamento da jornada.
+Finalmente, as atividades de **ação** podem ser afetadas pelo carregamento do perfil proveniente do jornada e também podem afetar a taxa de processamento. Isso inclui canais nativos, como Email, SMS e Push, além de ações personalizadas, saltos para outras jornadas e atividades de atualização de perfil. Por exemplo, uma ação personalizada direcionada a um endpoint externo com um tempo de resposta alto reduzirá a taxa de processamento da jornada.
 
 Para ações personalizadas, o limite padrão é de 300.000 chamadas por minuto, que podem ser alteradas com uma política de limite personalizada. Saiba mais sobre o limite de ação personalizada em [esta seção](../configuration/external-systems.md#capping).
 

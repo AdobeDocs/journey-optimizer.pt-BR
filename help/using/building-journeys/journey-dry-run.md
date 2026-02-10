@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 16%
+source-wordcount: '1115'
+ht-degree: 8%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="Modo de teste de simulação"
->abstract="Esta jornada está em teste de simulação. O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la."
+>abstract="Esta jornada está em teste de simulação. O Jornada Dry run é um modo de publicação de jornada especial no [!DNL Adobe Journey Optimizer] que permite que os profissionais de jornada testem uma jornada usando dados de produção reais sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Publicar uma jornada no modo de teste de simulação"
->abstract="O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais. Depois de projetar a jornada, execute um teste para confirmar sua funcionalidade e garantir que as etapas estejam corretas. Esse modo de publicação permite realizar um teste preliminar da jornada sem enviar comunicações para qualquer perfil."
+>abstract="O Jornada Dry run é um modo de publicação de jornada especial no [!DNL Adobe Journey Optimizer] que permite que os profissionais de jornada testem uma jornada usando dados de produção reais. Depois de projetar a jornada, execute um teste para confirmar sua funcionalidade e garantir que as etapas estejam corretas. Esse modo de publicação permite realizar um teste preliminar da jornada sem enviar comunicações para qualquer perfil."
 
-O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.
+O Jornada Dry run é um modo de publicação de jornada especial no [!DNL Adobe Journey Optimizer] que permite que os profissionais de jornada testem uma jornada usando dados de produção reais sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.
 
 ➡️ [Saiba mais sobre o teste simples do jornada neste vídeo](#dry-run-video)
 
@@ -143,10 +143,10 @@ O Jornada Dry run gera **stepEvents**. Estes stepEvents têm um sinalizador espe
 
 Se exportar dados de stepEvent para **sistemas externos**, você poderá filtrar execuções de execução Seca usando o sinalizador `inDryRun`.
 
-Ao analisar **métricas de relatórios do jornada** usando o serviço Adobe Experience Platform Query, os eventos de etapa gerados por Dry Run devem ser excluídos. Para fazer isso, defina o sinalizador `inDryRun` como `false`.
+Ao analisar **métricas de relatórios do jornada** usando o serviço de consulta [!DNL Adobe Experience Platform], os eventos de etapa gerados por Dry Run devem ser excluídos. Para fazer isso, defina o sinalizador `inDryRun` como `false`.
 
 ## Vídeo tutorial {#dry-run-video}
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

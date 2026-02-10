@@ -9,18 +9,20 @@ level: Experienced
 keywords: jornada, fontes de dados, limite, taxa de transferência, personalizado, ações
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '798'
 ht-degree: 3%
 
 ---
 
 # Caso de uso: limite a taxa de transferência com Fontes de dados externas e Ações personalizadas{#limit-throughput}
 
+Use esse caso de uso para acelerar o processamento do jornada quando os sistemas externos precisarem lidar com um número limitado de solicitações por segundo.
+
 ## Descrição do caso de uso
 
-O Adobe Journey Optimizer permite que os profissionais enviem chamadas de API para sistemas externos por meio do uso de Ações personalizadas e Fontes de dados.
+O [!DNL Adobe Journey Optimizer] permite que os profissionais enviem chamadas de API para sistemas externos por meio do uso de Ações Personalizadas e Fontes de Dados.
 
 Isso pode ser feito com:
 

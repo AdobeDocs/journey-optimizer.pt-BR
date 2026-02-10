@@ -3,9 +3,9 @@ title: Usar identificadores complementares em jornadas
 description: Saiba como usar identificadores complementares no jornada.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1434'
 ht-degree: 4%
 
 ---
@@ -218,6 +218,8 @@ Em uma matriz de objetos com a ID complementar como `bookingNum` e um atributo n
 
 ## Exemplo de casos de uso
 
+Estes exemplos mostram como os identificadores complementares suportam vários registros relacionados.
+
 ### **Notificações de Renovação de Política**
 
 * **Cenário**: um provedor de seguro envia lembretes de renovação para cada política ativa mantida por um cliente.
@@ -246,4 +248,4 @@ Em uma matriz de objetos com a ID complementar como `bookingNum` e um atributo n
 
 Saiba como habilitar e aplicar um identificador complementar no [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464797?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

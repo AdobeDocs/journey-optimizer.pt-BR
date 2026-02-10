@@ -10,17 +10,17 @@ keywords: Tipos de jornada, unitário, ler público, qualificação de público,
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
+exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 3%
+source-wordcount: '977'
+ht-degree: 4%
 
 ---
 
-
 # Tipos de jornada e guia de seleção {#journey-types-selection}
 
-A Adobe Journey Optimizer oferece suporte a quatro tipos de jornadas, cada uma projetada para diferentes mecanismos de entrada e cenários de negócios. Este guia ajuda você a entender as diferenças e escolher o tipo certo para seu caso de uso.
+O [!DNL Adobe Journey Optimizer] oferece suporte a quatro tipos de jornada, cada um projetado para diferentes mecanismos de entrada e cenários de negócios. Este guia ajuda você a entender as diferenças e escolher o tipo certo para seu caso de uso.
 
 ## Visão geral dos tipos de jornada {#journey-types}
 
@@ -40,7 +40,7 @@ As **jornadas unitárias** são acionadas individualmente quando ocorre uma aç�
 
 **Quando usar:** campanhas agendadas para segmentos de público-alvo
 
-**Ler jornadas de Público-Alvo** comece com um público-alvo da Adobe Experience Platform e envie mensagens em lote para todos os perfis simultaneamente. Esse tipo de jornada é ideal para comunicações programadas em larga escala.
+**Ler jornadas de Público-Alvo** inicia com um público-alvo [!DNL Adobe Experience Platform] e envia mensagens em lote para todos os perfis simultaneamente. Esse tipo de jornada é ideal para comunicações programadas em larga escala.
 
 **Perfeito para:** Boletins informativos mensais, campanhas promocionais para segmentos do público-alvo, anúncios de produtos e campanhas de marketing sazonais.
 
@@ -122,7 +122,7 @@ Use esta tabela para comparar rapidamente os tipos de jornada e escolher o corre
 | **Usar quando** | Resposta imediata a ações individuais necessárias | Atingir grandes segmentos de público-alvo no cronograma | Resposta às alterações de status do cliente | Os eventos comerciais afetam vários clientes |
 | **Exemplos** | Confirmação de pedido, redefinição de senha | Informativo mensal, campanha sazonal | Atualização do VIP, alerta de inatividade | Alerta de baixo estoque, venda rápida, queda de preço |
 | **Reentrada** | Configurável (permitir várias entradas por perfil) | Cada perfil é inserido uma vez por execução | Configurável por evento de qualificação | Vários perfis podem ser afetados pelo mesmo evento |
-| **Requisitos de dados** | Esquema de evento com dados de acionador | Público-alvo do Adobe Experience Platform | Público-alvo em lote ou streaming | Esquema de evento comercial |
+| **Requisitos de dados** | Esquema de evento com dados de acionador | [!DNL Adobe Experience Platform] público-alvo | Público-alvo em lote ou streaming | Esquema de evento comercial |
 
 ## Compatibilidade de recursos por tipo de jornada {#feature-compatibility}
 
@@ -179,4 +179,3 @@ Agora que você entende os tipos de jornada, está pronto para:
 **Precisa comparar com campanhas?**
 
 * [Guia de comparação de Jornadas vs Campanhas](../start/journeys-vs-campaigns.md) - Escolha entre jornadas, campanhas de Ação/API e campanhas Orquestradas
-

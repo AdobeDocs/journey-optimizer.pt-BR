@@ -2,23 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Enviar emails apenas em dias úteis
-description: Saiba como configurar uma jornada para enviar emails somente em dias da semana no Adobe Journey Optimizer
+description: Saiba como configurar uma jornada para enviar emails somente em dias da semana no [!DNL Adobe Journey Optimizer]
 feature: Journeys, Use Cases, Email
 topic: Content Management
 role: User
 level: Intermediate
 keywords: jornada, caso de uso, dias da semana, condição, email, agendamento
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+exl-id: 2f313e59-ee50-473c-9346-8859889346ec
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
 
 # Enviar emails apenas em dias úteis {#send-emails-only-on-weekdays}
 
-Esse caso de uso demonstra como configurar uma jornada no Adobe Journey Optimizer que envia emails somente em dias da semana (de segunda a sexta-feira). Para perfis que entram na jornada nos fins de semana (sábado ou domingo), os emails são automaticamente enfileirados e enviados na segunda-feira em um horário especificado. Isso garante o envolvimento ideal ao enviar mensagens durante a semana de trabalho.
+Este caso de uso demonstra como configurar uma jornada no [!DNL Adobe Journey Optimizer] que envia emails somente em dias da semana (de segunda a sexta). Para perfis que entram na jornada nos fins de semana (sábado ou domingo), os emails são automaticamente enfileirados e enviados na segunda-feira em um horário especificado. Isso garante o envolvimento ideal ao enviar mensagens durante a semana de trabalho.
 
 ## Visão geral do caso de uso
 
@@ -32,14 +33,16 @@ Essa abordagem é ideal para campanhas de email B2B (B2B), informativos e comuni
 
 >[!NOTE]
 >
->Para implementar este caso de uso, você precisa de uma instância ativa do Adobe Journey Optimizer com uma [superfície de canal de email](../configuration/channel-surfaces.md) configurada, um [público-alvo](../audience/about-audiences.md) ou [evento](../event/about-events.md) para acionar a jornada e uma compreensão básica das [condições de jornada](condition-activity.md) e [expressões](expression/expressionadvanced.md).
+>Para implementar este caso de uso, você precisa de uma instância [!DNL Adobe Journey Optimizer] ativa com uma [superfície de canal de email](../configuration/channel-surfaces.md) configurada, um [público-alvo](../audience/about-audiences.md) ou [evento](../event/about-events.md) para acionar a jornada e uma compreensão básica das [condições de jornada](condition-activity.md) e [expressões](expression/expressionadvanced.md).
 
 
 ## Etapas de implementação
 
+Use essas etapas para criar o fluxo de email somente durante a semana.
+
 ### Etapa 1: criar sua jornada
 
-1. Navegue até **[!UICONTROL Gerenciamento de Jornadas]** > **[!UICONTROL Jornadas]** no Adobe Journey Optimizer.
+1. Navegue até **[!UICONTROL Jornada Management]** > **[!UICONTROL Jornada]** em [!DNL Adobe Journey Optimizer].
 
 1. Clique em **[!UICONTROL Criar Jornada]** para [criar uma nova jornada](journey-gs.md).
 
@@ -53,7 +56,7 @@ Essa abordagem é ideal para campanhas de email B2B (B2B), informativos e comuni
 
 Logo após o início da jornada, adicione uma atividade **[!UICONTROL Condição]** para verificar se o dia atual é sábado ou domingo. Isso ramificará o fluxo de trabalho de acordo.
 
-1. Arraste e solte uma atividade [**[!UICONTROL Condição &#x200B;]**](condition-activity.md) na tela após o ponto de entrada.
+1. Arraste e solte uma atividade [**[!UICONTROL Condição ]**](condition-activity.md) na tela após o ponto de entrada.
 
 1. Clique na atividade **[!UICONTROL Condição]** para abrir seu painel de configuração.
 
@@ -149,7 +152,7 @@ Isso garante que todos os emails sejam enviados somente em dias úteis, com entr
 
 ### Etapa 6: testar a jornada
 
-Antes de publicar, teste completamente sua lógica de jornada no modo de teste do Adobe Journey Optimizer para confirmar se tudo funciona conforme o esperado:
+Antes de publicar, teste completamente sua lógica de jornada no Modo de teste do [!DNL Adobe Journey Optimizer] para confirmar se tudo funciona conforme o esperado:
 
 1. Clique no botão **[!UICONTROL Testar]** no canto superior direito.
 

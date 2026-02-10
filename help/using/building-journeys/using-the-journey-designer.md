@@ -10,10 +10,10 @@ level: Intermediate
 keywords: design, tela, jornada, interface, arrastar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 5%
+source-wordcount: '1744'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 >title="Projetar a jornada"
 >abstract="A interface de jornada permite arrastar e soltar facilmente as atividades da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível."
 
-O Adobe Journey Optimizer inclui uma tela de orquestração omnicanal que permite aos profissionais de marketing harmonizar o alcance do marketing com o engajamento individual com clientes. A interface de usuário do permite arrastar e soltar facilmente as atividades da paleta na tela para criar sua jornada. Observe que você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível.
+[!DNL Adobe Journey Optimizer] inclui uma tela de orquestração omnicanal que permite aos profissionais de marketing harmonizar o alcance de marketing com o envolvimento individual do cliente. A interface de usuário do permite arrastar e soltar facilmente as atividades da paleta na tela para criar sua jornada. Observe que você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível.
 
 Eventos, atividades de orquestração e ação têm um papel e um lugar específicos no processo. As atividades são sequenciadas: quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
 
@@ -34,7 +34,7 @@ A **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis es
 
 Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela na primeira etapa ficam ocultos. Isso se refere a todas as ações, à atividade de condição, espera e reação.
 
-![Interface do designer do Jornada com paleta, tela e painel de propriedades](assets/journey38.png)
+![Interface do designer de jornadas com paleta, tela e painel de propriedades](assets/journey38.png)
 
 O ícone **[!UICONTROL Filtrar itens]** no canto superior esquerdo permite exibir os seguintes filtros:
 
@@ -72,7 +72,7 @@ Há duas possibilidades:
 
 1. **Iniciar com um evento**: quando uma jornada é definida para ouvir eventos, os indivíduos entram na jornada **unitariamente** em tempo real. As mensagens incluídas na jornada são enviadas à pessoa que atualmente flui para a jornada. [Saiba mais sobre eventos](../event/about-events.md)
 
-1. **Comece com um Público-alvo de Leitura**: você pode definir sua jornada para ouvir os públicos-alvo da Adobe Experience Platform. Nesse caso, todos os indivíduos pertencentes ao público-alvo especificado entram na jornada. As mensagens incluídas na sua jornada são enviadas aos indivíduos que pertencem ao público. Saiba mais sobre [ler público](read-audience.md). Para obter mais informações sobre como gerar e direcionar públicos no Journey Optimizer, consulte [esta seção](../audience/about-audiences.md).
+1. **Comece com um Público-alvo de Leitura**: você pode configurar sua jornada para ouvir [!DNL Adobe Experience Platform] públicos-alvo. Nesse caso, todos os indivíduos pertencentes ao público-alvo especificado entram na jornada. As mensagens incluídas na sua jornada são enviadas aos indivíduos que pertencem ao público. Saiba mais sobre [ler público](read-audience.md). Para obter mais informações sobre como gerar e direcionar públicos no Journey Optimizer, consulte [esta seção](../audience/about-audiences.md).
 
 ## Definir as próximas etapas{#define-next-steps}
 
@@ -88,13 +88,13 @@ Você pode adicionar **vários eventos** à sua jornada, desde que eles usem o m
 
 Você também pode adicionar um evento **Reação** após uma mensagem para reagir aos dados de rastreamento relacionados à mensagem. Isso permite, por exemplo, enviar outra mensagem se o indivíduo tiver aberto a mensagem anterior ou clicado dentro dela. [Saiba mais sobre eventos de reação](reaction-events.md).
 
-Use a atividade de evento **Qualificação de público-alvo** para fazer com que os indivíduos entrem ou avancem em uma jornada com base nas entradas e saídas do público-alvo do Adobe Experience Platform. Você pode fazer com que todos os novos clientes Silver insiram uma jornada e enviem mensagens personalizadas. Saiba mais nesta [seção](audience-qualification-events.md).
+Use a atividade de evento **Qualificação de público-alvo** para fazer com que os indivíduos entrem ou avancem em uma jornada com base em [!DNL Adobe Experience Platform] entradas e saídas de público-alvo. Você pode fazer com que todos os novos clientes Silver insiram uma jornada e enviem mensagens personalizadas. Saiba mais nesta [seção](audience-qualification-events.md).
 
 ### Orquestração{#jo-orch}
 
 As atividades de orquestração são condições diferentes que ajudam a determinar a próxima etapa da jornada.
 
-Nas atividades de orquestração, use a atividade **Ler público-alvo** para definir sua jornada para ouvir um público do Adobe Experience Platform. [Saiba mais sobre a atividade Ler Público](read-audience.md).
+Nas atividades de orquestração, use a atividade **Ler público** para definir sua jornada para ouvir um público [!DNL Adobe Experience Platform]. [Saiba mais sobre a atividade Ler Público](read-audience.md).
 
 As outras atividades permitem adicionar condições à jornada para definir vários caminhos, definir um tempo de espera antes de executar a próxima atividade ou encerrar a jornada. [Saiba mais sobre atividades de orquestração](about-journey-activities.md#orchestration-activities).
 

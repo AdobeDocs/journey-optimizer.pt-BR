@@ -2,24 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Orchestration - Guia completo
-description: Guia abrangente para começar a usar a orquestração de jornadas no Adobe Journey Optimizer
+description: Guia abrangente para começar a orquestração de jornadas no  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: jornada, orquestração, introdução, integração, recursos
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 47%
+source-wordcount: '839'
+ht-degree: 50%
 
 ---
 
-
 # Journey Orchestration - Guia completo{#journey-orchestration-guide}
 
-As jornadas no Adobe Journey Optimizer permitem criar jornadas personalizadas e de várias etapas para o cliente que se adaptam em tempo real ao comportamento e às necessidades do seu público-alvo. Usando uma tela intuitiva de arrastar e soltar, você pode orquestrar mensagens e ações em vários canais, aproveitando dados contextuais e o direcionamento de público-alvo para obter o máximo impacto.
+As jornadas no [!DNL Adobe Journey Optimizer] capacitam você a criar jornadas personalizadas de várias etapas do cliente que se adaptam em tempo real ao comportamento e às necessidades do seu público-alvo. Com uma tela intuitiva de arrastar e soltar, é possível orquestrar mensagens e ações em vários canais, aproveitando dados contextuais e o direcionamento de público-alvo para obter o máximo impacto. 
 
 Quer você esteja explorando acionadores em tempo real, gerenciando propriedades do jornada ou usando ferramentas avançadas como ações e expressões personalizadas, este guia fornece um roteiro claro para projetar e refinar com confiança jornadas que proporcionem experiências relevantes e oportunas ao cliente.
 
@@ -29,7 +29,7 @@ Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em temp
 
 O designer de jornadas do Journey Optimizer oferece tudo que profissionais de marketing e de jornadas precisam para orquestrar jornadas 1:1 de várias etapas nos canais. Isso inclui uma tela intuitiva com interface de arrastar e soltar para criar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos de negócios.
 
-![Interface do designer do Jornada com paleta, tela e painel de propriedades](assets/journey38.png)
+![Interface do designer de jornadas com paleta, tela e painel de propriedades](assets/journey38.png)
 
 **Pronto para começar a criar?** Saiba como criar e projetar sua primeira jornada nesta [página](journey-gs.md).
 
@@ -39,37 +39,37 @@ O designer de jornadas do Journey Optimizer oferece tudo que profissionais de ma
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Entrega em lote e em tempo real**
 
-Envie uma **entrega unitária** em tempo real acionada quando um evento é recebido, ou **em lote** usando os públicos-alvo da Adobe Experience Platform.
+Enviar **entrega unitária** em tempo real disparada quando um evento é recebido, ou **em lote** usando [!DNL Adobe Experience Platform] públicos-alvo.
 
 [Saiba mais sobre entrada de jornada](entry-management.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Dados contextuais**
 
-Aproveite **dados contextuais** de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros.
+Aproveite os **dados contextuais** de eventos, informações de [!DNL Adobe Experience Platform] ou dados de serviços de API de terceiros.
 
 [Trabalhar com fontes de dados](../datasource/about-data-sources.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Ações internas**
 
 Use as **ações de canal integradas** para enviar mensagens criadas no [!DNL Journey Optimizer] por email, push, SMS/MMS e muito mais.
 
-[Enviar mensagens no jornada](journeys-message.md)
+[Enviar mensagens nas jornadas](journeys-message.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Ações personalizadas**
 
@@ -79,7 +79,7 @@ Crie **ações personalizadas** se estiver usando um sistema de terceiros para e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Designer do Visual jornada**
 
@@ -89,7 +89,7 @@ Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arrast
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Testar e otimizar**
 
@@ -110,7 +110,7 @@ O [designer de jornada](using-the-journey-designer.md) fornece [ações de ca
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Saiba mais sobre casos de uso**
 
@@ -120,9 +120,9 @@ Explore casos de uso abrangentes e completos do jornada que demonstram implement
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-**Bem-vindo(a) aos novos assinantes**
+**Dê boas-vindas a novos assinantes**
 
 Envie uma jornada de boas-vindas personalizada quando os clientes assinarem seu serviço, guiando-os pelas etapas de integração.
 
@@ -130,7 +130,7 @@ Envie uma jornada de boas-vindas personalizada quando os clientes assinarem seu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Otimizar tempos de envio de email**
 
@@ -140,17 +140,17 @@ Use a otimização de tempo de envio baseada em IA para enviar emails quando hou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-**Aumentar entregas**
+**Incrementar entregas**
 
-Aumente gradualmente o volume de mensagens para aquecer a reputação de envio e evitar problemas de capacidade de delivery.
+Aumente gradualmente o volume de mensagens para aquecer a reputação de envio e evitar problemas com a capacidade de entrega.
 
 [Saiba mais](ramp-up-deliveries-uc.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Direcionar por dia da semana**
 
@@ -160,7 +160,7 @@ Envie conteúdo diferente com base no dia da semana em que os clientes entram na
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **Perguntas frequentes sobre o Jornada**
 
@@ -178,47 +178,47 @@ Encontre respostas para perguntas frequentes sobre a criação de jornadas, a so
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **Criar e gerenciar jornadas**
 
 Orientação passo a passo sobre design, teste, publicação e rastreamento de jornadas do cliente para criar campanhas onicanais personalizadas.
 
-[Explorar criação de jornada](/help/rp_landing_pages/create-journey-landing-page.md) | [Saiba mais sobre o gerenciamento de jornadas](/help/rp_landing_pages/manage-journey-landing-page.md) | [Jornada etapas do fluxo de trabalho](journey.md#workflow)
+[Explorar criação de jornada](../../rp_landing_pages/create-journey-landing-page.md) | [Saiba mais sobre o gerenciamento de jornadas](../../rp_landing_pages/manage-journey-landing-page.md) | [Jornada etapas do fluxo de trabalho](journey.md#workflow)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Jornada atividades**
 
 Descubra como configurar e usar atividades como acionadores, etapas de decisão, gerenciamento de público-alvo e mensagens personalizadas em jornadas.
 
-[Explorar atividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
+[Explorar atividades](../../rp_landing_pages/about-journey-building-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Expressões e condições**
 
 Domine a criação de expressões para fluxos de trabalho dinâmicos, manipulação de dados e orquestração de jornada avançada usando ferramentas e sintaxe avançadas.
 
-[Saiba mais sobre expressões](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+[Saiba mais sobre expressões](../../rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **Solução de problemas e monitoramento**
 
 Diagnostique e resolva problemas de execução de jornada com ferramentas, códigos de erro e práticas recomendadas para depuração e otimização.
 
-[Manual de solução de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+[Manual de solução de problemas](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **visão geral do designer do Jornada**
 
@@ -228,7 +228,7 @@ Entenda a tela, a paleta e como projetar as jornadas do cliente usando a interfa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Testar e publicar**
 
@@ -243,7 +243,7 @@ Teste suas jornadas minuciosamente antes de publicá-las para garantir que funci
 
 Descubra os componentes de uma jornada e entenda os aspectos básicos da criação de uma jornada na tela.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430346?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### Recursos adicionais
 
@@ -252,4 +252,3 @@ Descubra os componentes de uma jornada e entenda os aspectos básicos da criaç�
 * **[Solução de problemas](troubleshooting.md)**: problemas e soluções comuns da jornada
 * **[Tutoriais do Jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Saiba mais sobre a criação de jornadas por meio de tutoriais em vídeo práticos
 * **[medidas de proteção e limitações de Jornada](../start/guardrails.md)** - Verifique as medidas de proteção e as limitações ao usar [!DNL Adobe Journey Optimizer]
-

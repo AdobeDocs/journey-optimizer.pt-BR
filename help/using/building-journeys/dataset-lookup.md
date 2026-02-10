@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Usar dados do Adobe Experience Platform no jornada
-description: Saiba como usar a Atividade de pesquisa de conjunto de dados no Adobe Journey Optimizer para enriquecer as jornadas do cliente com dados externos do Adobe Experience Platform.
+title: Usar  [!DNL Adobe Experience Platform] dados no jornada
+description: Saiba como usar a Atividade de Pesquisa de Conjunto de Dados no [!DNL Adobe Journey Optimizer] para enriquecer as jornadas do cliente com dados externos do [!DNL Adobe Experience Platform].
 feature: Journeys, Activities
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6e74fc363784fe4f4bae07bfe766035285c9a2ca
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 15%
+source-wordcount: '761'
+ht-degree: 10%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Atividade de pesquisa do conjunto de dados"
->abstract="A atividade **[!UICONTROL Pesquisa de conjunto de dados]** permite recuperar dados dinamicamente dos conjuntos de dados de registro da Adobe Experience Platform durante o tempo de execução. Esse recurso permite acessar dados que podem não residir no perfil ou no conteúdo do evento, garantindo que as interações do cliente sejam relevantes e oportunas."
+>abstract="A atividade **[!UICONTROL Pesquisa de conjunto de dados]** permite recuperar dados dinamicamente de conjuntos de dados de registro [!DNL Adobe Experience Platform] durante o tempo de execução. Esse recurso permite acessar dados que podem não residir no perfil ou no conteúdo do evento, garantindo que as interações do cliente sejam relevantes e oportunas."
 
-A atividade **[!UICONTROL Pesquisa de conjunto de dados]** permite recuperar dados dinamicamente dos conjuntos de dados de registro da Adobe Experience Platform durante o tempo de execução. Esse recurso permite acessar dados que podem não residir no perfil ou no conteúdo do evento, garantindo que as interações do cliente sejam relevantes e oportunas.
+A atividade **[!UICONTROL Pesquisa de conjunto de dados]** permite recuperar dados dinamicamente de conjuntos de dados de registro [!DNL Adobe Experience Platform] durante o tempo de execução. Esse recurso permite acessar dados que podem não residir no perfil ou no conteúdo do evento, garantindo que as interações do cliente sejam relevantes e oportunas.
 
 Principais benefícios:
 
@@ -38,9 +38,11 @@ Principais benefícios:
 
 ## Leitura obrigatória {#must-read}
 
+Revise esses requisitos antes de configurar pesquisas de conjunto de dados.
+
 ### Ativação do conjunto de dados
 
-O conjunto de dados deve ser ativado para pesquisa no Adobe Experience Platform. Informações detalhadas estão disponíveis nesta seção: [Usar dados do Adobe Experience Platform](../data/lookup-aep-data.md).
+O conjunto de dados deve ser habilitado para pesquisa em [!DNL Adobe Experience Platform]. Informações detalhadas estão disponíveis nesta seção: [Use [!DNL Adobe Experience Platform] data](../data/lookup-aep-data.md).
 
 ### Limites e restrições
 
@@ -64,7 +66,7 @@ Para configurar a atividade **[!UICONTROL Pesquisa de conjunto de dados]**, siga
 
 1. Expanda a categoria **[!UICONTROL Orquestração]** e solte uma atividade de **[!UICONTROL Pesquisa de conjunto de dados]** na tela.
 
-   ![Atividade de pesquisa do conjunto de dados do Adobe Experience Platform no jornada](assets/aep-data-activity.png)
+   Atividade de pesquisa do conjunto de dados ![[!DNL Adobe Experience Platform] na jornada ](assets/aep-data-activity.png)
 
 1. Adicione um rótulo e uma descrição.
 

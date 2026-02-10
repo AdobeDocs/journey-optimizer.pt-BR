@@ -10,14 +10,16 @@ level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1788'
 ht-degree: 16%
 
 ---
 
 # Atividade de condição {#condition-activity}
+
+Use a atividade de condição para rotear perfis para caminhos diferentes com base em regras e dados.
 
 ## Adicione uma atividade de condição {#add-condition-activity}
 
@@ -42,7 +44,7 @@ Você também pode usar um público-alvo em uma condição de jornada. [Saiba ma
 
 >[!NOTE]
 >
->A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adicionar e gerenciar caminhos de condição {#about_condition}
 
@@ -59,7 +61,7 @@ Clique em **[!UICONTROL Adicionar um caminho]** se desejar definir várias condi
 
 Observe que o design das jornadas tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho qualificado é executado. Isso significa que é possível variar a priorização de caminhos colocando-os um acima ou abaixo do outro.
 
-Vejamos o exemplo da condição de um primeiro caminho &quot;A pessoa é um VIP&quot; e a condição de um segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que atende a ambas as condições (um homem que é um VIP) passar por essa etapa, o primeiro caminho será escolhido, mesmo que essa pessoa também seja elegível para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
+Vejamos duas condições de caminho: &quot;A pessoa é um VIP&quot; e &quot;A pessoa é um homem&quot;. Se uma pessoa atender às duas condições, o primeiro caminho é escolhido porque está acima do segundo. Para alterar essa prioridade, mova suas atividades para uma ordem vertical diferente.
 
 ![Priorização de caminho mostrando condições macho e VIP](assets/journey48.png)
 
@@ -72,7 +74,7 @@ O modo simples permite executar consultas simples com base em uma combinação d
 
 ![Editor de expressão mostrando a seleção de campo e os operadores lógicos AND](assets/journey64.png)
 
-Se você estiver usando o [Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment). Para obter mais informações sobre como gerar e direcionar públicos no Journey Optimizer, consulte [esta seção](../audience/about-audiences.md).
+Se você estiver usando o [[!DNL Adobe Experience Platform] Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment). Para obter mais informações sobre como gerar e direcionar públicos no Journey Optimizer, consulte [esta seção](../audience/about-audiences.md).
 
 
 >[!NOTE]
@@ -188,4 +190,4 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

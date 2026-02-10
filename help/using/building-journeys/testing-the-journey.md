@@ -10,7 +10,7 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 7%
@@ -34,10 +34,12 @@ Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode c
 
 ## Observações importantes {#important_notes}
 
+Revise essas notas antes de executar testes em sua jornada.
+
 ### Limitações gerais
 
 * **Perfis de teste somente** - Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de Perfil do Cliente em Tempo Real podem inserir uma jornada no modo de teste. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md).
-* **Requisito de namespace** - O modo de teste está disponível somente para jornadas de rascunho que usam um namespace. O modo de teste precisa verificar se uma pessoa que entra na jornada é um perfil de teste ou não e, portanto, deve ser capaz de acessar o Adobe Experience Platform.
+* **Requisito de namespace** - O modo de teste está disponível somente para jornadas de rascunho que usam um namespace. O modo de teste precisa verificar se uma pessoa que entra na jornada é um perfil de teste ou não e, portanto, deve ser capaz de alcançar [!DNL Adobe Experience Platform].
 * **Limite de perfil** - Um máximo de 100 perfis de teste podem inserir uma jornada durante uma única sessão de teste.
 * **Acionamento de evento** - Os eventos só podem ser acionados na interface. Eventos não podem ser disparados de sistemas externos usando uma API.
 * **Públicos-alvo de carregamento personalizados** - o modo de teste de Jornada não oferece suporte ao enriquecimento de atributo de [público-alvo de carregamento personalizado](../audience/custom-upload.md).
@@ -104,7 +106,7 @@ Use o botão **[!UICONTROL Acionar um evento]** para configurar um evento que fa
 
 ### Pré-requisitos {#trigger-events-prerequisites}
 
-Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste no Adobe Experience Platform. Na verdade, o modo de teste permite apenas esses perfis na jornada.
+Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste no [!DNL Adobe Experience Platform]. Na verdade, o modo de teste permite apenas esses perfis na jornada.
 
 O evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser uma ECID ou um endereço de email, por exemplo. O valor dessa chave precisa ser adicionado no campo **Identificador de Perfil**.
 
@@ -119,7 +121,7 @@ O namespace de identidade é usado para identificar exclusivamente os perfis de 
 >* Verifique se cada evento no modo de teste é acionado na ordem correta e dentro da janela de espera configurada. Por exemplo, se houver uma espera de 60 segundos, o segundo evento deverá ser acionado somente após essa espera de 60 segundos ter decorrido e antes que o tempo limite expire.
 >
 
-### Configuração de eventos {#trigger-events-configuration}
+### Configuração de evento {#trigger-events-configuration}
 
 Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface ajuda você a passar as informações corretas na carga do evento e garantir que o tipo de informação esteja correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
 
@@ -190,5 +192,5 @@ Estes são os diferentes status da jornada de um indivíduo:
 
 Quando um evento é acionado usando o modo de teste, um conjunto de dados é gerado automaticamente com o nome da origem.
 
-O modo de teste cria automaticamente um Evento de experiência e o envia para a Adobe Experience Platform. O nome da origem deste evento de experiência é &quot;Eventos de teste da Journey Orchestration&quot;.
+O modo de teste cria automaticamente um Evento de Experiência e o envia para [!DNL Adobe Experience Platform]. O nome da origem deste evento de experiência é &quot;Eventos de teste da Journey Orchestration&quot;.
 

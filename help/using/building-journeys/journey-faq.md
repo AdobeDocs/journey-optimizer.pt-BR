@@ -2,30 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Orchestration - Perguntas frequentes
-description: Perguntas frequentes sobre o Journey Orchestration no Adobe Journey Optimizer
+description: Perguntas frequentes sobre o Journey Orchestration no  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia, orquestração
 version: Journey Orchestration
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '5231'
-ht-degree: 1%
+source-wordcount: '5191'
+ht-degree: 0%
 
 ---
 
-
 # Journey Orchestration - Perguntas frequentes {#faq-journeys}
 
-Encontre respostas para perguntas comuns sobre o Journey Orchestration no Adobe Journey Optimizer.
+Encontre respostas para perguntas comuns sobre o Journey Orchestration em [!DNL Adobe Journey Optimizer].
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer a pergunta ou conecte-se à [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para levantar sua pergunta. Você também pode se conectar à [[!DNL Adobe Journey Optimizer] comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
 
 ## Conceitos gerais
 
-+++ O que é uma jornada no Adobe Journey Optimizer?
++++ O que é uma jornada em [!DNL Adobe Journey Optimizer]?
 
 Uma jornada é uma orquestração de várias etapas que permite projetar e executar experiências do cliente em tempo real em vários canais. As jornadas combinam eventos, atividades de orquestração, ações e mensagens para criar experiências personalizadas e contextuais com base no comportamento do cliente e em eventos comerciais.
 
@@ -35,10 +35,10 @@ Saiba mais sobre [jornadas](journey.md).
 
 +++ Quais são os diferentes tipos de jornadas?
 
-O Adobe Journey Optimizer é compatível com quatro tipos de jornadas:
+O [!DNL Adobe Journey Optimizer] oferece suporte a quatro tipos de jornadas:
 
 * **jornadas Unitárias**: acionadas individualmente por um evento (por exemplo, uma compra, entrada no aplicativo). Os perfis são inseridos um de cada vez na jornada quando o evento ocorre.
-* **Ler jornadas de Público-Alvo**: Inicie com um público-alvo do Adobe Experience Platform e envie mensagens em lote para todos os perfis desse público-alvo.
+* **Ler jornadas de Público-Alvo**: Comece com um público-alvo de [!DNL Adobe Experience Platform] e envie mensagens em lote para todos os perfis desse público-alvo.
 * **jornadas de qualificação de público-alvo**: acionadas quando os perfis se qualificam para (ou saem de) um segmento de público-alvo específico. Os perfis entram na jornada conforme atendem aos critérios de público-alvo.
 * **jornadas de eventos comerciais**: acionadas por eventos comerciais (por exemplo, atualizações de ações, alertas meteorológicos) que afetam vários perfis simultaneamente.
 
@@ -56,7 +56,7 @@ jornada **[As](journey.md)** são orquestrações de várias etapas que reagem a
 * **[Campanhas acionadas por API](../campaigns/api-triggered-campaigns.md)**: campanhas acionadas por meio de chamadas de API, permitindo a integração com sistemas externos para enviar mensagens com base em eventos em tempo real ou lógica de negócios.
 * **[Campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)**: campanhas baseadas em público, em várias etapas, criadas em uma tela que pode incluir condições, tempos de espera e várias ações para criar experiências programadas e coordenadas.
 
-**Prática recomendada**: use o [jornada](journey.md) para envolvimento complexo acionado por eventos com orquestração avançada; [campanhas de ação](../campaigns/create-campaign.md) para comunicações agendadas baseadas em público; [campanhas acionadas por API](../campaigns/api-triggered-campaigns.md) para acionamento programático de sistemas externos; e [campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) para comunicações em várias etapas com requisitos específicos de campanha.
+**Prática recomendada**: usar [jornada](journey.md) para envolvimento complexo acionado por eventos com orquestração avançada. Use [campanhas de ação](../campaigns/create-campaign.md) para comunicações programadas e baseadas no público-alvo. Use [campanhas acionadas por API](../campaigns/api-triggered-campaigns.md) para acionar de forma programática a partir de sistemas externos. Use [campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) para comunicações em várias etapas com requisitos específicos da campanha.
 
 +++
 
@@ -76,7 +76,7 @@ Saiba mais sobre [atividades de jornada](about-journey-activities.md).
 
 +++ Quais tipos de público-alvo são compatíveis com as jornadas e quais são suas limitações?
 
-O Adobe Journey Optimizer é compatível com quatro tipos de público-alvo, cada um com características e medidas de proteção diferentes:
+O [!DNL Adobe Journey Optimizer] é compatível com quatro tipos de público-alvo, cada um com características e medidas de proteção diferentes:
 
 **1. Públicos-alvo de transmissão**
 
@@ -110,11 +110,11 @@ O Adobe Journey Optimizer é compatível com quatro tipos de público-alvo, cada
    * Limites de tamanho de arquivo CSV aplicáveis (verifique a documentação do produto para limites atuais)
    * Os membros do público-alvo são estáticos até serem atualizados com um novo upload
    * O namespace de identidade deve corresponder ao namespace de jornada
-   * Os perfis devem existir no Adobe Experience Platform
+   * Perfis devem existir em [!DNL Adobe Experience Platform]
 
 **4. Públicos-alvo da Federated Audience Composition (FAC)**
 
-* **Descrição**: públicos-alvo criados usando dados federados, permitindo que você consulte e componha públicos-alvo de data warehouses externos sem copiar dados para a Adobe Experience Platform
+* **Descrição**: públicos-alvo criados usando dados federados, permitindo que você consulte e componha públicos-alvo de data warehouses externos sem copiar dados para [!DNL Adobe Experience Platform]
 * **Avaliação**: composição estática atualizada quando a composição de público federado é executada
 * **Uso da Jornada**: com suporte em atividades Read Audience e Condition; **sem suporte** em jornadas de qualificação de público-alvo (semelhante a carregar públicos de uma perspectiva de back-end)
 * **Melhor para**: integração de data warehouse corporativo, composição de público-alvo usando fontes de dados externas, cenários que exigem que os dados permaneçam em sistemas externos
@@ -187,7 +187,7 @@ Siga o [guia passo a passo](journey-gs.md).
 Os pré-requisitos dependem do tipo de jornada:
 
 * **jornadas acionadas por eventos**: configure eventos para definir quando os perfis devem entrar na jornada
-* **jornadas baseadas em público-alvo**: criar públicos-alvo no Adobe Experience Platform
+* **jornadas baseadas em público-alvo**: criar públicos-alvo em [!DNL Adobe Experience Platform]
 * **Enriquecimento de dados**: configure as fontes de dados para recuperar informações adicionais
 * **Integrações de terceiros**: configurar ações personalizadas se estiver usando sistemas externos
 
@@ -202,7 +202,7 @@ Sim, há várias abordagens para aproveitar dados externos:
 **Práticas recomendadas**:
 
 * **Ações personalizadas**: chame APIs externas por meio de ações personalizadas para recuperar ou enviar dados para sistemas de terceiros. Essa é a abordagem recomendada para interações em tempo real com sistemas externos.
-* **Pesquisa de conjunto de dados**: se você puder carregar dados de sistemas externos na Adobe Experience Platform, use o recurso de pesquisa de conjunto de dados para recuperar informações armazenadas em conjuntos de dados do Experience Platform.
+* **Pesquisa de conjunto de dados**: se você puder carregar dados de sistemas externos no [!DNL Adobe Experience Platform], use o recurso de pesquisa de conjunto de dados para recuperar informações armazenadas em conjuntos de dados do Experience Platform.
 * **Fontes de dados externas**: configure-as para recuperar informações de serviços de API de terceiros (menos recomendado do que as abordagens acima).
 
 Essas opções permitem enriquecer a experiência do cliente com dados do seu CRM, sistemas de fidelidade, serviços meteorológicos ou outras plataformas externas.
@@ -247,7 +247,7 @@ Saiba mais sobre [atividades de espera](wait-activity.md).
 
 +++ Posso atualizar as informações de perfil em uma jornada?
 
-Sim. Use a atividade **Atualizar Perfil** para modificar atributos de perfil no Adobe Experience Platform com base em eventos ou condições de jornada. Isso é útil para atualizar pontos de fidelidade, registrar marcos de jornada, alterar configurações de preferências ou rastrear pontuações de engajamento do cliente.
+Sim. Use a atividade **Atualizar Perfil** para modificar atributos de perfil em [!DNL Adobe Experience Platform] com base em eventos ou condições de jornada. Isso é útil para atualizar pontos de fidelidade, registrar marcos de jornada, alterar configurações de preferências ou rastrear pontuações de engajamento do cliente.
 
 Saiba mais sobre [atualizações de perfil](update-profiles.md).
 
@@ -468,7 +468,7 @@ Motivos comuns para os perfis não entrarem em uma jornada:
 * **Jornada não publicada**: a jornada está no status de rascunho
 * **Namespace inválido**: o namespace de jornada não corresponde à identidade do perfil
 * **Jornada fechada**: a jornada não está mais aceitando novas entradas
-* **Tempo de qualificação de público-alvo de streaming**: para jornadas que usam a Qualificação de Público-alvo com públicos-alvo de streaming, os perfis não poderão entrar se já estiverem no público antes da publicação da jornada ou se a jornada não tiver concluído seu período de ativação (até 10 minutos após a publicação)
+* **Tempo de qualificação de público-alvo de streaming**: para jornadas que usam a Qualificação de Público-alvo com públicos-alvo de streaming, os perfis não poderão entrar se já estiverem no público-alvo antes da publicação da jornada. Eles também podem ser atrasados se a jornada não tiver concluído o período de ativação (até 10 minutos após a publicação).
 
 Saiba mais sobre [gerenciamento de entradas](entry-management.md) e [considerações de tempo de qualificação de público de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
@@ -699,12 +699,12 @@ Saiba mais sobre [ações personalizadas](using-custom-actions.md).
 
 +++
 
-+++ Como posso usar o Adobe Campaign com jornada?
++++ Como posso usar o [!DNL Adobe Campaign] com jornada?
 
-O Journey Optimizer integra-se nativamente com o Adobe Campaign para aproveitar seus recursos avançados:
+A Journey Optimizer integra-se nativamente com o [!DNL Adobe Campaign] para aproveitar seus recursos avançados:
 
-* **Adobe Campaign Standard**: usar as ações do Campaign Standard para enviar mensagens transacionais
-* **Adobe Campaign v7/v8**: acione fluxos de trabalho do Campaign e use a infraestrutura de entrega do Campaign
+* **[!DNL Adobe Campaign]Padrão**: Usar ações do Campaign Standard para enviar mensagens transacionais
+* **[!DNL Adobe Campaign]v7/v8**: acionar fluxos de trabalho do Campaign e usar a infraestrutura de entrega do Campaign
 
 **Prática recomendada**: use essa integração se tiver modelos do Campaign, modelos de dados ou exigir recursos específicos do Campaign.
 
@@ -802,7 +802,7 @@ Saiba mais sobre [eventos comerciais](general-events.md).
 
 +++ O que são políticas de mesclagem e como elas afetam as jornadas?
 
-As **políticas de mesclagem** determinam como o Adobe Experience Platform combina dados de várias fontes para criar uma exibição de perfil unificada. Eles definem regras para a priorização de dados e a identificação quando fragmentos de perfil existem em diferentes conjuntos de dados.
+As **políticas de mesclagem** determinam como o [!DNL Adobe Experience Platform] combina dados de várias fontes para criar uma exibição de perfil unificada. Eles definem regras para a priorização de dados e a identificação quando fragmentos de perfil existem em diferentes conjuntos de dados.
 
 **Impacto no jornada**:
 
@@ -931,7 +931,7 @@ Saiba mais sobre [design do jornada](using-the-journey-designer.md) e [medidas d
 
 * Use o [modo de teste](testing-the-journey.md) e a [execução a seco](journey-dry-run.md) para validar o desempenho antes da publicação
 * Minimize chamadas de API externas por meio de [ações personalizadas](using-custom-actions.md) para evitar latência e dependência em sistemas de terceiros
-* Armazene dados usados com frequência no Adobe Experience Platform usando [pesquisa de conjunto de dados](dataset-lookup.md) em vez de fazer chamadas externas, quando possível
+* Armazene dados usados com frequência em [!DNL Adobe Experience Platform] usando [pesquisa de conjunto de dados](dataset-lookup.md) em vez de fazer chamadas externas, quando possível
 * Revisar e otimizar o desempenho da [entrega de mensagens](journeys-message.md)
 
 Saiba mais sobre [medidas de proteção e limitações](../start/guardrails.md).
@@ -942,7 +942,7 @@ Saiba mais sobre [medidas de proteção e limitações](../start/guardrails.md).
 
 Para obter mais informações e atualizações, explore os seguintes recursos:
 
-* [Introdução a jornadas](journey.md)
+* [Introdução às jornadas](journey.md)
 * [Crie a primeira jornada](journey-gs.md)
 * [Guias de solução de problemas](troubleshooting.md)
 * [Jornada casos de uso](jo-use-cases.md)

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '906'
 ht-degree: 12%
 
 ---
@@ -38,6 +38,8 @@ Você pode definir dois tipos de atividade **Aguardar**:
 
 ## Recomendações {#wait-recommendations}
 
+Use essas recomendações para manter as esperas previsíveis e seguras.
+
 ### Várias atividades de espera {#multiple-wait-activities}
 
 Ao usar várias atividades **Wait** em uma jornada, esteja ciente de que o [tempo limite global](journey-properties.md#global_timeout) para jornada é de 91 dias, o que significa que os perfis estão sempre saindo do máximo da jornada 91 dias após terem inserido. Saiba mais [nesta página](journey-properties.md#global_timeout).
@@ -57,6 +59,8 @@ No modo de teste, o parâmetro **[!UICONTROL Tempo de espera em teste]** permite
 Se você quiser mostrar uma [mensagem no aplicativo](../in-app/create-in-app.md) logo após enviar uma [notificação por push](../../rp_landing_pages/push-landing-page.md), use uma atividade **Aguardar** para permitir que o tempo de carga da mensagem no aplicativo seja propagado. Normalmente, recomenda-se uma espera de 5 a 15 minutos, mas os tempos exatos podem variar dependendo da complexidade da carga útil e das necessidades de personalização.
 
 ## Configuração {#wait-configuration}
+
+Configure a duração e o tempo de espera aqui.
 
 ### Espera de duração {#duration}
 

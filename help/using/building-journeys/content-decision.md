@@ -11,10 +11,10 @@ badge: label="Disponibilidade limitada" type="Informative"
 keywords: atividade, decisão, decisão de conteúdo, política de decisão, tela, jornada
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 3%
+source-wordcount: '1111'
+ht-degree: 4%
 
 ---
 
@@ -80,7 +80,7 @@ Agora você está pronto para aproveitar o resultado dessa atividade de decisão
 
 As atualizações das políticas de consentimento levam até 48 horas para entrarem em vigor. Se uma política de decisão fizer referência a um atributo vinculado a uma política de consentimento atualizada recentemente, as alterações não serão aplicadas imediatamente.
 
-Da mesma forma, se novos atributos de perfil sujeitos a uma política de consentimento forem adicionados a uma política de decisão, eles serão utilizáveis, mas a política de consentimento associada a eles não será aplicada até que o atraso tenha passado.
+Da mesma forma, novos atributos de perfil sujeitos a uma política de consentimento podem ser adicionados a uma política de decisão e usados. A política de consentimento relacionada não será aplicada até que o atraso tenha passado.
 
 As políticas de consentimento só estão disponíveis para organizações com o Adobe Healthcare Shield ou o complemento Privacy and Security Shield.
 
@@ -114,7 +114,7 @@ Para aproveitar a saída de uma atividade de decisão de conteúdo, você pode a
 
    >[!NOTE]
    >
-   >Qualquer rótulo restrito definido em um atributo, em um evento de experiência de jornada usado em uma regra de decisão (como dados de contexto) ou no [esquema de ofertas](../experience-decisioning/catalogs.md#access-catalog-schema), resulta em violação de política para DULE ou consentimento. Saiba mais sobre políticas de governança de dados em [esta seção](../action/action-privacy.md)
+   >Qualquer rótulo restrito definido em um atributo pode resultar em uma violação de política para DULE ou consentimento. Isso se aplica aos eventos de experiência de jornada usados em uma regra de decisão e ao [esquema de ofertas](../experience-decisioning/catalogs.md#access-catalog-schema). Saiba mais sobre as políticas de governança de dados em [esta seção](../action/action-privacy.md).
 
 1. Para verificar se alguma oferta foi retornada para os perfis que entram na jornada, use a função [listSize](functions/list-functions.md#listSize) com a seguinte sintaxe: `listSize(@decision{ContentdecisionName.items})>0`
 

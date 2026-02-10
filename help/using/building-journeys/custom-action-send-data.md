@@ -9,16 +9,16 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: jornada, caso de uso
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '268'
 ht-degree: 2%
 
 ---
 
-# Caso de uso: criar uma ação personalizada para enviar dados ao Adobe Experience Platform{#send-data-to-aep}
+# Caso de uso: criar uma ação personalizada para enviar dados a [!DNL Adobe Experience Platform]{#send-data-to-aep}
 
-Se você mudou recentemente para outro provedor de serviços de email, endereço IP, domínio de email ou subdomínio, é necessário estabelecer sua reputação como remetente. Caso contrário, seus deliveries poderão ser bloqueados ou movidos para a pasta de spam da caixa de correio dos recipients. Saiba como aumentar sua reputação de email com o aquecimento de IP no [Guia de práticas recomendadas de capacidade de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=pt-BR){target="_blank"}.
+Se você migrou recentemente para outro provedor de serviços de email, endereço IP ou domínio ou subdomínio de email, estabeleça sua reputação como remetente. Caso contrário, os deliveries podem ser bloqueados ou movidos para as pastas de spam dos recipients. Para obter orientação, consulte o [Manual de práticas recomendadas de capacidade de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=pt-BR){target="_blank"}.
 
 Para aquecer seu IP, você pode aumentar gradualmente o número de deliveries. Leia mais sobre [otimização da entrega no Journey Optimizer](../reports/deliverability.md).
 

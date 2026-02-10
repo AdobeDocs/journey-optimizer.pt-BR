@@ -10,10 +10,10 @@ level: Intermediate
 keywords: send-time, send, message, otimization, jornada, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 10%
+source-wordcount: '1533'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="Sobre a otimização da hora de envio"
->abstract="O recurso Otimização da hora de envio do Adobe Journey Optimizer, desenvolvido pelos serviços de IA da Adobe, pode prever o melhor momento para enviar um email ou uma mensagem por push para maximizar o engajamento com base nas taxas históricas de abertura e clique."
+>abstract="O recurso de Otimização de hora de envio do [!DNL Adobe Journey Optimizer], viabilizado pelos serviços de IA da Adobe, pode prever o melhor momento para enviar um email ou mensagem por push. Isso maximiza o engajamento com base no histórico das taxas de abertura e de cliques."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
@@ -34,13 +34,13 @@ ht-degree: 10%
 >title="Ativar otimização da hora de envio"
 >abstract="O padrão das mensagens por push é a opção de abertura, pois cliques não são aplicáveis para mensagens por push. Você também pode optar por agrupar as horas de envio usadas pelo sistema inserindo um valor para Enviar na próxima opção."
 
-O recurso de Otimização de hora de envio da Adobe Journey Optimizer, viabilizado pelos serviços de IA de Jornada da Adobe, escolhe o tempo de envio ideal para mensagens de email e push para maximizar o engajamento do cliente, com base no histórico do comportamento de abertura e de cliques dos clientes.
+O recurso de Otimização de hora de envio do [!DNL Adobe Journey Optimizer], viabilizado pelos serviços de IA de Jornada da Adobe, escolhe o tempo de envio ideal para mensagens de email e push para maximizar a participação do cliente, com base no histórico do comportamento de abertura e de cliques dos clientes.
 
 A Otimização de tempo de envio está disponível apenas para os tipos de ação de Email e Push integrados da Journey Optimizer e não está disponível no momento para mensagens enviadas por meio de ações personalizadas ou para outros tipos de ação. A Otimização de tempo de envio só está disponível para ações de Email e Push no Jornada e não está disponível no momento para mensagens enviadas por meio de Campanhas.
 
 >[!AVAILABILITY]
 >
->* O recurso de Otimização de tempo de envio é ativado para clientes do Adobe Journey Optimizer mediante solicitação. Entre em contato com o Atendimento ao cliente da Adobe ou com o(a) representante da Adobe para ativar o recurso em sua organização.
+>* O recurso de Otimização de Tempo de Envio está habilitado para [!DNL Adobe Journey Optimizer] clientes mediante solicitação. Entre em contato com o Atendimento ao cliente da Adobe ou com o(a) representante da Adobe para ativar o recurso em sua organização.
 >
 >* A Otimização de Tempo de Envio se aplica somente aos canais de **Email** e **Notificação por push**.
 >
@@ -70,7 +70,7 @@ Quando sua jornada é ativada e um cliente atinge a ação de Email ou Push na j
 
 ## Como funciona a Otimização de tempo de envio {#how-send-time}
 
-O modelo de Otimização de tempo de envio assimila os dados de comportamento do cliente da Adobe Journey Optimizer de sua organização e examina eventos de abertura e de clique no nível do usuário para determinar quando seus clientes têm maior probabilidade de se envolver com suas mensagens.
+O modelo de Otimização de tempo de envio assimila os dados de comportamento do cliente [!DNL Adobe Journey Optimizer] da sua organização e examina eventos de abertura e de clique no nível do usuário para determinar quando seus clientes têm maior probabilidade de interagir com suas mensagens.
 
 A Otimização de tempo de envio faz previsões para cada hora da semana, para cada usuário, com base em três tipos de dados comportamentais:
 
@@ -101,7 +101,7 @@ Os tempos de envio de exploração são selecionados aleatoriamente a partir dos
 
 Você encontrará abaixo Perguntas frequentes sobre a Otimização de tempo de envio.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer a pergunta ou conecte-se à [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de comentários na parte inferior desta página para levantar sua pergunta ou conectar-se à [[!DNL Adobe Journey Optimizer] comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
 
 +++Por quanto tempo preciso aguardar antes de usar a Otimização de tempo de envio?
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornadas, limitação
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 46%
+source-wordcount: '555'
+ht-degree: 39%
 
 ---
 
@@ -47,7 +47,7 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 
 ## Limitações de eventos {#events-limitations}
 
-* Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra no Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
+* Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada à carga de streaming recebida em [!DNL Adobe Experience Platform]. Essa limitação não se aplica a eventos com base em regras.
 
 ## Limitações de eventos de reação {#reaction-limitations}
 
@@ -59,13 +59,13 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 
 ## Jornadas que começam ao mesmo tempo que a criação de um perfil {#journeys-limitation-profile-creation}
 
-Há um atraso associado à criação/atualização de perfil com base em API na Adobe Experience Platform. O Service Level Target (SLT) em termos de latência é &lt; 1 min desde a ingestão até o Perfil unificado, por 95% das solicitações, em um volume de 20 mil solicitações por segundo (RPS).
+Há um atraso associado à criação/atualização de perfil com base em API em [!DNL Adobe Experience Platform]. O Service Level Target (SLT) em termos de latência é &lt; 1 min desde a ingestão até o Perfil unificado, por 95% das solicitações, em um volume de 20 mil solicitações por segundo (RPS).
 
 Se uma Jornada for acionada simultaneamente à criação de um perfil e verificar/recuperar imediatamente as informações do Serviço de perfil, ela pode não funcionar corretamente.
 
 Você pode escolher uma dessas duas soluções:
 
-* Adicione uma atividade de espera depois do primeiro evento para conceder à Adobe Experience Platform o tempo necessário para executar a ingestão no Serviço de Perfil.
+* Adicione uma atividade de espera após o primeiro evento, para dar a [!DNL Adobe Experience Platform] o tempo necessário para executar a assimilação no Serviço de Perfil.
 
 * Configure uma jornada que não use o perfil imediatamente. Por exemplo, se a jornada for projetada para confirmar a criação de uma conta, o evento da experiência pode conter informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc).
 

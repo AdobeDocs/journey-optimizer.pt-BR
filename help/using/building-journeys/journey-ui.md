@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Procurar e filtrar suas jornadas
-description: Procurar e filtrar suas jornadas no Adobe Journey Optimizer
+description: Procurar e filtrar suas jornadas no [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1477'
 ht-degree: 10%
 
 ---
@@ -128,7 +128,7 @@ O tipo de jornada depende das atividades usadas nessa jornada. Pode ser:
 
 * **[!UICONTROL Evento unitário]** - As jornadas de eventos unitários estão vinculadas a um perfil específico. Os eventos estão relacionados ao comportamento de uma pessoa ou a algo que acontece vinculado a uma pessoa (por exemplo, uma pessoa atingiu 10.000 pontos de fidelidade). [Saiba mais](../event/about-events.md).
 * **[!UICONTROL Evento comercial]**. A jornada de eventos comerciais começa com um evento não relacionado a perfis. A configuração do evento é executada por um usuário técnico e não pode ser editada. [Saiba mais](../event/about-events.md).
-* **[!UICONTROL Qualificação de público-alvo]** - As jornadas de qualificação de público-alvo ouvem as entradas e saídas dos perfis nos públicos-alvo da Adobe Experience Platform para que os indivíduos entrem ou avancem em uma jornada. [Saiba mais](audience-qualification-events.md).
+* **[!UICONTROL Qualificação de público-alvo]** - As jornadas de qualificação de público-alvo ouvem as entradas e saídas dos perfis em [!DNL Adobe Experience Platform] públicos-alvo para fazer com que os indivíduos entrem ou avancem em uma jornada. [Saiba mais](audience-qualification-events.md).
 * **[!UICONTROL Ler público-alvo]** - Nas jornadas Ler público-alvo, todos os indivíduos no público-alvo entram na jornada e recebem as mensagens incluídas na jornada.  [Saiba mais](read-audience.md).
 
 

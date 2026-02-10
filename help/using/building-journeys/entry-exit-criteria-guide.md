@@ -8,19 +8,19 @@ role: User
 level: Intermediate
 keywords: entrada, saída, critérios, jornada, perfil, reentrada, práticas recomendadas
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
-
 
 # Trabalhar com os critérios de entrada e saída da jornada {#entry-exit-criteria-guide}
 
 Na organização da experiência do cliente, a entrega da mensagem certa no momento certo requer controle preciso sobre quando os clientes entram e saem das jornadas. Entender e configurar corretamente os critérios de entrada e saída pode fazer a diferença entre uma campanha bem-sucedida e envolvente e oportunidades perdidas ou fadiga da mensagem.
 
-Este guia fornece orientação prática, exemplos reais e práticas recomendadas para gerenciar os critérios de entrada e saída do jornada no Adobe Journey Optimizer.
+Este guia fornece orientação prática, exemplos reais e práticas recomendadas para gerenciar os critérios de entrada e saída do jornada no [!DNL Adobe Journey Optimizer].
 
 ## Quais são os critérios de entrada e saída? {#what-are-criteria}
 
@@ -100,7 +100,7 @@ Obtenha insights sobre a satisfação do cliente e o desempenho do produto solic
 
 **Saiba tudo o que precisa saber sobre o Critério de Entrada aqui:**
 
-* **[Acionadores com base em eventos](../event/about-events.md)**: use eventos como &quot;criação de perfil&quot;, &quot;transação concluída&quot; ou eventos personalizados para iniciar uma jornada. [Configure os eventos](../event/about-creating.md) em **[!UICONTROL Administration]** > **[!UICONTROL Events]**, defina o [esquema de eventos e os campos](../event/experience-event-schema.md) e adicione o evento da paleta **[!UICONTROL Events]** no [designer do jornada](using-the-journey-designer.md).
+* **[Acionadores com base em eventos](../event/about-events.md)**: use eventos como &quot;criação de perfil&quot;, &quot;transação concluída&quot; ou eventos personalizados para iniciar uma jornada. [Configurar eventos](../event/about-creating.md) em **[!UICONTROL Administração]** > **[!UICONTROL Eventos]** e definir [esquema de eventos e campos](../event/experience-event-schema.md). Em seguida, adicione o evento da paleta **[!UICONTROL Eventos]** no [Designer de jornada](using-the-journey-designer.md).
 
 * **[Entrada baseada em público-alvo](read-audience.md)**: jornadas de direcionamento para perfis que pertencem a públicos-alvo específicos, como um lote único ou em um agendamento recorrente. [Criar públicos-alvo](../audience/creating-a-segment-definition.md) no menu **[!UICONTROL Públicos-alvo]**, adicionar uma atividade **[!UICONTROL Ler público-alvo]** e [configurar o agendamento](journey-properties.md#schedule).
 
@@ -146,7 +146,7 @@ Para obter orientação de implementação passo a passo com detalhes técnicos 
 
 >[!TIP]
 >
->Procure todos os casos de uso disponíveis na [biblioteca de casos de uso do Jornada](jo-use-cases.md) para mais padrões e implementações, incluindo [aumentar as entregas](ramp-up-deliveries-uc.md), [padrões de evento de experiência](exp-event-lookup.md) e [remoção de perfis do jornada live](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Procure todos os casos de uso disponíveis na [biblioteca de casos de uso do Jornada](jo-use-cases.md) para obter mais padrões e implementações. Os exemplos incluem [aumentar as entregas](ramp-up-deliveries-uc.md), [padrões de evento de experiência](exp-event-lookup.md) e [remoção de perfis do Live jornada](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Práticas recomendadas para gerenciar entrada e saída {#best-practices}
 
@@ -196,7 +196,7 @@ Mantenha a confiança e o engajamento do cliente controlando a frequência da me
 
 ## Conclusão {#conclusion}
 
-Os critérios de entrada e saída da jornada são fundamentais para fornecer experiências personalizadas, oportunas e eficazes ao cliente com o Adobe Journey Optimizer. Ao criar cuidadosamente essas condições, os profissionais de marketing podem aumentar o engajamento, reduzir o atrito e fortalecer os relacionamentos com os clientes.
+Os critérios de entrada e saída da jornada são fundamentais para proporcionar experiências personalizadas, oportunas e eficazes ao cliente com o [!DNL Adobe Journey Optimizer]. Ao criar cuidadosamente essas condições, os profissionais de marketing podem aumentar o engajamento, reduzir o atrito e fortalecer os relacionamentos com os clientes.
 
 Comece mapeando claramente os acionadores do cliente e os pontos de saída, teste completamente e monitore os resultados para refinar continuamente a orquestração de jornadas.
 
@@ -208,7 +208,7 @@ Comece mapeando claramente os acionadores do cliente e os pontos de saída, test
 
 **Tutoriais e exemplos**
 
-[Jornada casos de uso](jo-use-cases.md) | [Vídeo de integração do cliente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carrinho abandonado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog da comunidade: Critérios de entrada e saída](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=pt)
+[Jornada casos de uso](jo-use-cases.md) | [Vídeo de integração do cliente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carrinho abandonado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog da comunidade: Critérios de entrada e saída](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Recursos relacionados**
 

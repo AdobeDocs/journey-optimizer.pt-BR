@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Definir as propriedades da jornada
-description: Saiba como definir as propriedades da sua jornada com o Adobe Journey Optimizer
+description: Saiba como definir as propriedades da sua jornada com o  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2866'
+source-wordcount: '2859'
 ht-degree: 15%
 
 ---
@@ -32,7 +32,7 @@ Nesta seção, defina o nome da jornada, adicione uma descrição e defina as pr
 
 É possível:
 
-* Atribua Tags unificadas da Adobe Experience Platform à sua jornada para classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
+* Atribua [!DNL Adobe Experience Platform] Tags unificadas à sua jornada, para classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
 * Selecione suas métricas do jornada. [Saiba como configurar e acompanhar suas métricas do jornada](success-metrics.md)
 * Gerenciar [entrada e reentrada](#entrance). O gerenciamento de entrada de perfis depende do tipo de jornada. Há detalhes disponíveis em [esta página](entry-management.md)
 * Gerenciar [acesso aos dados](#manage-access)
@@ -87,7 +87,7 @@ Para atribuir rótulos de uso de dados personalizados à jornada, clique no íco
 
 ## Fusos horários de Jornada e perfil {#timezone}
 
-O fuso horário é definido no nível da jornada. Você pode inserir um fuso horário fixo ou usar perfis do Adobe Experience Platform para definir o fuso horário de jornada. Se um fuso horário for definido no perfil do Adobe Experience Platform, ele poderá ser recuperado na jornada.
+O fuso horário é definido no nível da jornada. Você pode inserir um fuso horário fixo ou usar [!DNL Adobe Experience Platform] perfis para definir o fuso horário de jornada. Se um fuso horário estiver definido no perfil [!DNL Adobe Experience Platform], ele poderá ser recuperado na jornada.
 
 [Saiba mais sobre o gerenciamento de fuso horário](../building-journeys/timezone-management.md)
 
@@ -108,6 +108,8 @@ Por padrão, os perfis podem inserir sua jornada assim que ela for publicada e p
 Se necessário, você pode definir uma **Data de início** e uma **Data de término** personalizadas. Isso permite que os perfis entrem na jornada em uma data específica e saiam automaticamente quando a data final for atingida.
 
 ## Tempo-limite {#timeout}
+
+As configurações de tempo limite controlam quanto tempo uma jornada aguarda pela execução da atividade e quanto tempo os perfis podem permanecer em uma jornada.
 
 ### Tempo-limite nas atividades da jornada {#timeout_and_error}
 
@@ -140,7 +142,7 @@ Um indivíduo só poderá inserir uma atividade de espera se tiver tempo suficie
 
 #### Perguntas frequentes sobre TTL (Time-to-Live) e retenção de dados {#timeout-faq}
 
-A partir da versão de junho de 2024 do Adobe Journey Optimizer, o tempo limite global do jornada mudou de 30 para 91 dias. Os impactos estão listados nas Perguntas frequentes abaixo:
+A partir da versão de [!DNL Adobe Journey Optimizer] de junho de 2024, o tempo limite global do jornada foi movido de 30 para 91 dias. Os impactos estão listados nas Perguntas frequentes abaixo:
 
 **Para Jornadas Unitárias**
 
@@ -250,15 +252,15 @@ A partir da versão de junho de 2024 do Adobe Journey Optimizer, o tempo limite 
 
 ## Mesclar políticas {#merge-policies}
 
-O Adobe Journey Optimizer usa políticas de mesclagem ao recuperar dados de perfil do Adobe Experience Platform. Dependendo do tipo de jornada, são usadas diferentes políticas de mesclagem:
+[!DNL Adobe Journey Optimizer] usa políticas de mesclagem ao recuperar dados de perfil de [!DNL Adobe Experience Platform]. Dependendo do tipo de jornada, são usadas diferentes políticas de mesclagem:
 
 * Em Ler jornadas de qualificação de público ou público-alvo: a política de mesclagem do público-alvo é usada
 * Em jornadas de eventos unitários: a política de mesclagem padrão é usada
 * Nas jornadas de eventos comerciais: a política de mesclagem do público-alvo na seguinte atividade Ler público é usada
 
-O Adobe Journey Optimizer aplica a política de mesclagem usada em toda a jornada. Portanto, se vários públicos forem usados em uma jornada (por exemplo, usando em [`inAudience` funções](functions/functioninaudience.md)), isso criará inconsistências com a política de mesclagem usada pela jornada, um erro será gerado e a publicação será bloqueada. No entanto, se um público-alvo inconsistente for usado na personalização da mensagem, um alerta não será gerado, apesar da inconsistência. Por isso, é altamente recomendável verificar a política de mesclagem associada ao seu público-alvo quando ele for usado na personalização da mensagem.
+[!DNL Adobe Journey Optimizer] aplica a política de mesclagem usada em toda a jornada. Portanto, se vários públicos forem usados em uma jornada (por exemplo, usando em [`inAudience` funções](functions/functioninaudience.md)), isso criará inconsistências com a política de mesclagem usada pela jornada, um erro será gerado e a publicação será bloqueada. No entanto, se um público-alvo inconsistente for usado na personalização da mensagem, um alerta não será gerado, apesar da inconsistência. Por isso, é altamente recomendável verificar a política de mesclagem associada ao seu público-alvo quando ele for usado na personalização da mensagem.
 
-Para saber mais sobre as políticas de mesclagem, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Para saber mais sobre as políticas de mesclagem, consulte a [[!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >

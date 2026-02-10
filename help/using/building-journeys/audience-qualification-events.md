@@ -10,10 +10,10 @@ level: Intermediate
 keywords: qualificação, eventos, público-alvo, jornada, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 6%
+source-wordcount: '1487'
+ht-degree: 3%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Eventos de qualificação de público-alvo"
->abstract="Essa atividade permite que sua jornada acompanhe as entradas e saídas de perfis nos públicos-alvo da Adobe Experience Platform para fazer com que as pessoas entrem ou avancem em uma jornada."
+>abstract="Esta atividade escuta as entradas e saídas dos perfis em [!DNL Adobe Experience Platform] públicos-alvo para mover indivíduos por uma jornada."
 
 ## Sobre eventos de qualificação de público-alvo{#about-segment-qualification}
 
-Essa atividade permite que sua jornada acompanhe as entradas e saídas dos perfis nos públicos da Adobe Experience Platform para que os indivíduos entrem ou avancem em uma jornada. Para saber mais sobre a criação de públicos-alvo, consulte esta [seção](../audience/about-audiences.md).
+Esta atividade escuta as entradas e saídas dos perfis em [!DNL Adobe Experience Platform] públicos-alvo. Ele pode fazer com que indivíduos entrem em uma jornada ou avancem. Para saber mais sobre a criação de públicos-alvo, consulte esta [seção](../audience/about-audiences.md).
 
 Digamos que você tenha um público-alvo de “cliente prata”. Com essa atividade, você pode fazer com que todos os novos clientes Silver insiram uma jornada e enviem a eles uma série de mensagens personalizadas.
 
@@ -68,13 +68,15 @@ Para configurar a atividade **[!UICONTROL Qualificação de público-alvo]**, si
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem aos status de participação de público **Realized** e **Exited** da Adobe Experience Platform. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >**[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem aos status de participação de público **Realized** e **Exited** de [!DNL Adobe Experience Platform].
+   >Consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Selecione um namespace. Isso só será necessário se o evento for posicionado como a primeira etapa da jornada. Por padrão, o campo é pré-preenchido com o último namespace usado.
 
    >[!NOTE]
    >
-   >Você só pode selecionar um namespace de identidade com base em pessoas. Se você tiver definido um namespace para uma tabela de pesquisa (por exemplo: namespace ProductID para uma pesquisa de Produto), ele não estará disponível na lista suspensa **Namespace**.
+   >Você só pode selecionar um namespace de identidade com base em pessoas.
+   >Os namespaces da tabela de pesquisa (por exemplo, ProductID para uma pesquisa de Produto) não estão disponíveis na lista suspensa **Namespace**.
 
    ![Seleção de namespace para identidade de qualificação de público-alvo](assets/segment7.png)
 
@@ -88,35 +90,35 @@ Ao usar o editor de expressão em uma condição ou ação que segue uma ativida
 
 Consulte [Atividade de condição](../building-journeys/condition-activity.md#about_condition).
 
-Uma nova jornada que inclui um evento de **Qualificação de público-alvo** se torna operacional dez minutos após a sua publicação. Esse intervalo corresponde ao intervalo de atualização do cache do serviço dedicado. Portanto, é necessário aguardar dez minutos antes de usar essa jornada.
+Uma nova jornada que inclui um evento de **Qualificação de público-alvo** se torna operacional dez minutos após a sua publicação. Este intervalo corresponde ao intervalo de atualização do cache do serviço dedicado. Aguarde dez minutos antes de usar esta jornada.
 
 ## Práticas recomendadas {#best-practices-segments}
 
-A atividade **[!UICONTROL Qualificação de público-alvo]** permite a entrada imediata em jornadas de indivíduos que estão sendo qualificados ou desqualificados de um público do Adobe Experience Platform.
+A atividade **[!UICONTROL Qualificação de público-alvo]** permite a entrada imediata em jornadas para indivíduos qualificados ou desqualificados de um público-alvo [!DNL Adobe Experience Platform].
 
-A velocidade de recepção dessas informações é alta. As medidas mostram uma velocidade de 10.000 eventos recebidos por segundo. Como resultado, certifique-se de entender como os picos de entrada podem acontecer, como evitá-los e como preparar sua jornada para eles. Saiba mais sobre taxas de processamento e limites de taxa de transferência da jornada [nesta seção](entry-management.md#journey-processing-rate).
+A velocidade de recepção dessas informações é alta. As medidas mostram 10.000 eventos recebidos por segundo. Planeje picos de entrada, evite-os quando possível e prepare sua jornada para lidar com eles. Saiba mais sobre taxas de processamento e limites de taxa de transferência da jornada [nesta seção](entry-management.md#journey-processing-rate).
 
 ### Públicos em lote {#batch-speed-segment-qualification}
 
-Ao usar a Qualificação de público-alvo para um público-alvo em lote, observe que um pico de entrada ocorre no momento do cálculo diário. O tamanho do pico depende do número de indivíduos entrando (ou saindo) do público diariamente.
+Ao usar a Qualificação de público-alvo para um público-alvo em lote, observe que um pico de entrada ocorre no momento do cálculo diário. O tamanho do pico depende de quantos indivíduos entram ou saem do público a cada dia.
 
-Além disso, se o público-alvo do lote for recém-criado e usado imediatamente em uma jornada, o primeiro lote de cálculo pode fazer com que um número muito grande de indivíduos entre na jornada.
+Além disso, se o público-alvo do lote for recém-criado e usado imediatamente em uma jornada, o primeiro lote de cálculo poderá gerar muitas entradas. Planeje para este pico.
 
 ### Públicos transmitidos {#streamed-speed-segment-qualification}
 
-Ao usar a qualificação de público-alvo para públicos-alvo transmitidos, há menos risco de grandes picos de entradas/saídas devido à avaliação contínua do público-alvo. No entanto, se a definição de público-alvo levar a um grande volume de clientes se qualificando simultaneamente, ainda poderá ocorrer um pico.
+Ao usar a Qualificação de público-alvo para públicos-alvo transmitidos, há menos risco de grandes picos de entrada e saída, pois a avaliação é contínua. Se a definição de público-alvo qualificar muitos clientes de uma só vez, ainda poderá ocorrer um pico.
 
-Evite usar eventos abertos e enviados com segmentação por transmissão. Em vez disso, use sinais reais de atividade do usuário, como cliques, compras ou dados de beacon. Para frequência ou lógica de supressão, use regras de negócios em vez de enviar eventos. [Saiba mais](../audience/about-audiences.md)
+Evite usar eventos abertos e enviados com segmentação por transmissão. Em vez disso, use sinais reais de atividade do usuário, como cliques, compras ou dados de beacon. Para lógica de frequência ou supressão, use regras de negócios em vez de enviar eventos. [Saiba mais](../audience/about-audiences.md)
 
-Para obter mais informações sobre a segmentação por transmissão, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Consulte a [[!DNL Adobe Experience Platform] documentação de segmentação por transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 >[!NOTE]
 >
->Para segmentação por transmissão, os dados assimilados recentemente podem levar até **2 horas** para se propagarem totalmente no Adobe Experience Platform para uso em tempo real. Os públicos-alvo que dependem de condições baseadas no dia ou no tempo (por exemplo, &quot;eventos que ocorreram hoje&quot;) podem enfrentar maior complexidade no tempo de qualificação. Se a sua jornada depender da qualificação imediata do público-alvo, considere adicionar uma breve [atividade de espera](wait-activity.md) no início ou permitir tempo de buffer para garantir uma qualificação precisa.
+>Para segmentação por transmissão, os dados assimilados recentemente podem levar até **2 horas** para se propagarem totalmente no [!DNL Adobe Experience Platform] para uso em tempo real. Os públicos-alvo que dependem de condições baseadas no dia ou no tempo (por exemplo, &quot;eventos que ocorreram hoje&quot;) podem enfrentar maior complexidade no tempo de qualificação. Se a sua jornada depender da qualificação imediata do público-alvo, considere adicionar uma breve [atividade de espera](wait-activity.md) no início. Também é possível permitir o tempo de buffer para garantir uma qualificação precisa.
 
 #### Por que nem todos os perfis qualificados podem entrar na jornada {#streaming-entry-caveats}
 
-Ao usar públicos-alvo de transmissão com a atividade **Qualificação do público-alvo**, nem todos os perfis que se qualificam para o público-alvo necessariamente entrarão na jornada. Esse comportamento pode ocorrer devido a:
+Ao usar públicos-alvo de transmissão com a atividade **Qualificação do público-alvo**, nem todos os perfis que se qualificam para o público-alvo necessariamente entrarão na jornada. Esse comportamento pode ocorrer pelos seguintes motivos:
 
 * **Perfis que já estão no público-alvo**: somente os perfis que se qualificaram recentemente para o público-alvo após a publicação da jornada acionarão a entrada. Os perfis que já estão no público-alvo antes da publicação não serão inseridos.
 
@@ -124,13 +126,13 @@ Ao usar públicos-alvo de transmissão com a atividade **Qualificação do públ
 
 * **Saídas rápidas do público-alvo**: se um perfil se qualificar para o público-alvo, mas sair antes que a entrada de jornada seja acionada, esse perfil não poderá entrar na jornada.
 
-* **Tempo entre qualificação e processamento de jornada**: devido à natureza distribuída do Adobe Experience Platform, pode haver lacunas de tempo entre o momento em que um perfil se qualifica para um público-alvo e o momento em que a jornada processa esse evento de qualificação.
+* **Tempo entre qualificação e processamento de jornada**: devido à natureza distribuída de [!DNL Adobe Experience Platform], pode haver lacunas de tempo. Um perfil pode ser qualificado antes que a jornada processe o evento de qualificação.
 
 **Recomendações:**
 
 * Depois de publicar uma jornada, aguarde pelo menos 10 minutos antes de enviar eventos ou dados que acionarão a qualificação do perfil. Isso garante que a jornada esteja totalmente ativada e pronta para processar as entradas.
 
-* Para casos de uso críticos nos quais você precisa garantir que todos os perfis qualificados sejam inseridos, considere usar uma atividade [Ler público-alvo](read-audience.md), que processa todos os perfis em um público-alvo em um momento específico.
+* Para casos de uso críticos nos quais você precisa garantir que todos os perfis qualificados sejam inseridos, considere usar uma atividade [Ler público-alvo](read-audience.md). Ele processa todos os perfis em um público-alvo em um momento específico.
 
 * Monitore a [taxa de entrada e a taxa de transferência](entry-management.md#profile-entrance-rate) da sua jornada para entender os padrões de fluxo do perfil.
 
@@ -142,9 +144,9 @@ Estas são algumas das práticas recomendadas para evitar sobrecarga de sistemas
 
 * Não use um público em lote imediatamente após sua criação em uma atividade **[!UICONTROL Qualificação de público-alvo]**. Isso evita o primeiro pico de cálculo. Um aviso amarelo será exibido na tela de jornada se você estiver prestes a usar um público que nunca foi calculado.
 
-  ![Mensagem de erro quando o público-alvo não for encontrado no Adobe Experience Platform](assets/segment-error.png)
+  ![Mensagem de erro quando o público não for encontrado em [!DNL Adobe Experience Platform]](assets/segment-error.png)
 
-* Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarga. Saiba mais em [documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=pt-BR){target="_blank"}. Observe que a regra de limitação não tem repetição. Se você precisar tentar novamente, use um caminho alternativo na jornada marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** em condições ou ações.
+* Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarga. Saiba mais em [documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Observe que a regra de limitação não tem repetição. Se você precisar tentar novamente, use um caminho alternativo na jornada marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** em condições ou ações.
 
 * Antes de usar o público em uma jornada de produção, avalie o volume de indivíduos qualificados para esse público diariamente. Para fazer isso, verifique o menu **[!UICONTROL Público-alvo]**, abra o público-alvo e examine o gráfico **[!UICONTROL Perfis ao longo do tempo]**.
 
@@ -161,10 +163,10 @@ Siga as medidas de proteção e recomendações abaixo para criar jornadas de qu
 
   No entanto, se você quiser usar atributos baseados em assimilação em lote no público-alvo de transmissão ou um público em lote para uma jornada de qualificação de público-alvo, considere o período para avaliação/ativação de público-alvo. Um público-alvo ou público-alvo de transmissão em lote que usa atributos assimilados em lote fica pronto para uso na atividade **Qualificação de público-alvo** aproximadamente **2 horas** após a conclusão do trabalho de segmentação. Esse trabalho é executado uma vez por dia, no horário definido pelo administrador da organização da Adobe.
 
-* Os públicos do Adobe Experience Platform são calculados uma vez por dia (**batch** públicos-alvo) ou em tempo real (para **públicos-alvo transmitidos**, usando a opção Públicos-alvo de alta frequência do Adobe Experience Platform).
+* [!DNL Adobe Experience Platform] públicos-alvo são calculados uma vez por dia (**batch** públicos-alvo) ou em tempo real (para **públicos-alvo transmitidos**, usando a opção Públicos-alvo de Alta Frequência de [!DNL Adobe Experience Platform]).
 
    * Se o público-alvo selecionado for transmitido, os indivíduos que pertencem a esse público-alvo potencialmente entram na jornada em tempo real.
-   * Se o público-alvo for em lote, as pessoas recém-qualificadas para esse público-alvo potencialmente inserirão a jornada quando o cálculo do público-alvo for executado no Adobe Experience Platform.
+   * Se o público-alvo for em lote, as pessoas recém-qualificadas para esse público-alvo potencialmente entrarão na jornada quando o cálculo do público for executado em [!DNL Adobe Experience Platform].
 
   Como prática recomendada, use a transmissão de públicos-alvo em uma atividade **Qualificação de público-alvo**. Para casos de uso em lote, use uma atividade **[Ler público](read-audience.md)**.
 
@@ -180,7 +182,7 @@ Siga as medidas de proteção e recomendações abaixo para criar jornadas de qu
 
 >[!CAUTION]
 >
->[As medidas de proteção para dados e segmentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR){target="_blank"} também se aplicam ao Adobe Journey Optimizer.
+>As [Medidas de proteção para dados e segmentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR){target="_blank"} também se aplicam a [!DNL Adobe Journey Optimizer].
 
 
 
@@ -188,4 +190,4 @@ Siga as medidas de proteção e recomendações abaixo para criar jornadas de qu
 
 Entenda os casos de uso aplicáveis às jornadas de qualificação de público-alvo neste vídeo. Saiba como criar uma jornada com Qualificação de público-alvo e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446209?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
