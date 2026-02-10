@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
+source-git-commit: 8ced9477edf8a7129e974d007755e132f3079943
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '891'
 ht-degree: 8%
 
 ---
@@ -60,6 +60,7 @@ Para obter mais detalhes sobre os motivos específicos de exclusão, consulte a 
 | EmailSemVarianteDefinida | 050026 | Email | Um evento de exclusão é gerado quando nenhuma variante é definida na mensagem de email. |
 | EmailNenhumaMensagemEncontradaParaTratamento | 050027 | Email | Um evento de exclusão é gerado quando o experimento é habilitado para a mensagem e nenhuma mensagem é encontrada para o tratamento qualificado. |
 | EndereçoMalformadoEmail | 050024 | Email | Um evento de exclusão é gerado quando o email contém um endereço malformado. |
+| UnsubscribeLinkNotValid | 050081 | Email | Um evento de exclusão é gerado quando o tamanho do assunto mailTo de List-Unsubscribe é maior que o limite RFC de 998 caracteres. |
 | InAppNoVariantDefined | 050041 | InApp | Um evento de exclusão é gerado quando nenhuma variante é definida para mensagem no aplicativo. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Um evento de exclusão é gerado quando o experimento é habilitado para a mensagem e nenhuma mensagem é encontrada para o tratamento qualificado. |
 | PushNoTokenFoundInProfile | 050030 | Push | Um evento de exclusão é gerado quando o perfil não tem tokens de push. |
