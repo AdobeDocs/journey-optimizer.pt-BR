@@ -57,7 +57,7 @@ Você pode começar a solucionar problemas com as perguntas abaixo:
   Content-type - application/json
   ```
 
->>
+&#x200B;>>
 **Para jornadas de qualificação de público-alvo com públicos-alvo de streaming**: se estiver usando uma atividade de qualificação de público-alvo como ponto de entrada de jornada, esteja ciente de que nem todos os perfis qualificados para o público-alvo necessariamente entrarão na jornada devido a fatores de tempo, saídas rápidas do público-alvo ou se os perfis já estiverem no público-alvo antes da publicação. Saiba mais sobre [considerações de tempo de qualificação de público de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Solução de problemas de transições do modo de teste {#troubleshooting-test-transitions}
