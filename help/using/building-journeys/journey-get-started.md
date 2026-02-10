@@ -243,7 +243,7 @@ Teste suas jornadas minuciosamente antes de publicá-las para garantir que funci
 
 Descubra os componentes de uma jornada e entenda os aspectos básicos da criação de uma jornada na tela.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430346?captions=por_br&quality=12)
 
 ### Recursos adicionais
 
