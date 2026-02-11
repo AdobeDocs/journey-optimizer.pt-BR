@@ -7,24 +7,19 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Disponibilidade limitada" type="Informative"
 keywords: atividade, decisão, decisão de conteúdo, política de decisão, tela, jornada
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 4%
+source-wordcount: '1242'
+ht-degree: 2%
 
 ---
 
 # Atividade de decisão de conteúdo {#content-decision}
 
->[!AVAILABILITY]
->
->Esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada) e será implantado globalmente em uma versão futura.
-
-O [!DNL Journey Optimizer] permite incluir ofertas em suas jornadas por meio da atividade dedicada **decisão de conteúdo** na tela de jornada. Em seguida, você pode adicionar outras atividades (como [ações personalizadas](../action/about-custom-action-configuration.md)) às suas jornadas para direcionar seus públicos com essas ofertas personalizadas.
+O [!DNL Journey Optimizer] permite incluir ofertas em suas jornadas por meio da atividade dedicada **Decisão de conteúdo** na tela de jornada. Em seguida, você pode adicionar outras atividades (como [ações personalizadas](../action/about-custom-action-configuration.md)) às suas jornadas para direcionar seus públicos com essas ofertas personalizadas.
 
 >[!NOTE]
 >
@@ -78,11 +73,11 @@ Agora você está pronto para aproveitar o resultado dessa atividade de decisão
 
 **Políticas de consentimento**
 
-As atualizações das políticas de consentimento levam até 48 horas para entrarem em vigor. Se uma política de decisão fizer referência a um atributo vinculado a uma política de consentimento atualizada recentemente, as alterações não serão aplicadas imediatamente.
+* As atualizações das políticas de consentimento levam até 48 horas para entrarem em vigor. Se uma política de decisão fizer referência a um atributo vinculado a uma política de consentimento atualizada recentemente, as alterações não serão aplicadas imediatamente.
 
-Da mesma forma, novos atributos de perfil sujeitos a uma política de consentimento podem ser adicionados a uma política de decisão e usados. A política de consentimento relacionada não será aplicada até que o atraso tenha passado.
+* Da mesma forma, se novos atributos de perfil sujeitos a uma política de consentimento forem adicionados a uma política de decisão, eles serão utilizáveis, mas a política de consentimento associada a eles não será aplicada até que o atraso tenha passado.
 
-As políticas de consentimento só estão disponíveis para organizações com o Adobe Healthcare Shield ou o complemento Privacy and Security Shield.
+* As políticas de consentimento só estão disponíveis para organizações com o Adobe Healthcare Shield ou o complemento Privacy and Security Shield.
 
 ## Usar a saída da atividade de decisão de conteúdo {#use-content-decision-output}
 
@@ -181,3 +176,60 @@ Assim que a jornada for [ativada](publish-journey.md):
 1. Somente os perfis para os quais pelo menos uma oferta for recuperada continuam a jornada (por meio do caminho &quot;Perfis elegíveis&quot;).
 
 1. Se a condição for atendida, as ofertas correspondentes serão enviadas para um sistema externo por meio da ação personalizada.
+
+## Dados de decisão em eventos de etapa {#decisioning-step-events}
+
+Quando uma atividade de decisão de conteúdo é executada em uma jornada, os dados de decisão são disponibilizados nos eventos de etapa da jornada. Esses dados fornecem informações detalhadas sobre os itens recuperados e como as decisões foram tomadas.
+
+Para cada atividade de decisão de conteúdo, o evento de etapa inclui dados de decisão no nível superior (como **exdRequestID** e **propositionEventType**) e uma matriz de **propostas**. Cada proposta tem uma **id**, **scopeDetails** (incluindo o provedor de decisão, a ID de correlação e a política de decisão) e uma matriz **items**. Cada item contém:
+
+* **id**: o identificador exclusivo do item
+* **nome**: o nome do item
+* **pontuação**: a pontuação atribuída ao item
+* **itemSelection**: dados relacionados a como a decisão foi tomada e como o item foi recuperado, incluindo:
+   * **selectionDetail**: informações sobre a estratégia de seleção usada
+   * **rankingDetail**: informações sobre o processo de classificação (estratégia, algoritmo, etapa, tipo de tráfego)
+
+**Exemplo de dados de decisão em um evento de etapa:**
+
+```json
+"decisioning": {
+  "exdRequestID": "8079d2bb-a8b2-4ecf-b9e7-32923dd6ad4e",
+  "propositions": [
+    {
+      "id": "f475cb21-0842-44da-b0eb-70766ba53464",
+      "scopeDetails": {
+        "decisionProvider": "EXD",
+        "correlationID": "6940d1c46208f3c00dae2ab94f3cd31c601461b47bf6d29ff8af0d0806a9c204",
+        "decisionPolicy": {
+          "id": "b913f724-3747-447b-a51e-8a2f9178f0db"
+        }
+      },
+      "items": [
+        {
+          "id": "dps:14c7468e7f6271ff8023748a1146d11f05f77b7fc1368081:1bebbf0b7e0f1374",
+          "name": "My item name",
+          "score": 0.93,
+          "itemSelection": {
+            "selectionDetail": {
+              "strategyID": "dps:selection-strategy:1bebbfc9245cb35e",
+              "strategyName": "My selection strategy",
+              "selectionType": "selectionStrategy",
+              "version": "latest"
+            },
+            "rankingDetail": {
+              "strategyID": "4FyRZTmpjrbzuL7rX7gvmu",
+              "algorithmID": "RANDOM",
+              "step": "aiModel",
+              "trafficType": "random"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "propositionEventType": {
+    "decision": 1
+  }
+}
+```
