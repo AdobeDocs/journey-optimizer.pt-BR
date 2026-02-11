@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c42aa41ed0d5d688840cf06512a04c22d74c828c
+source-git-commit: 3362242c13b404639d2a9b91742a5658cc1fb593
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1299'
 ht-degree: 34%
 
 ---
@@ -151,22 +151,6 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
-<th><strong>Usar dados do Adobe Experience Platform na Decisão</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O uso de <strong>dados do Adobe Experience Platform</strong> na Decisão agora está disponível para <strong>todos os canais</strong>. Anteriormente, esse recurso estava limitado a emails e ações personalizadas no jornada.</p>
-<p>Esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Canal de notificações por push na web</strong><br/></th>
 </tr>
 </thead>
@@ -219,6 +203,8 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Observabilidade do modelo de IA de classificação de oferta** - O Journey Optimizer agora permite monitorar a integridade, o status do treinamento e o desempenho dos seus <strong>modelos de IA</strong> na Decisão, para que você possa verificar o sucesso do treinamento, solucionar problemas de falha e entender o impacto nos seus resultados. Esse recurso está disponível somente para modelos de otimização personalizados (não para otimização automática).
 
+* **Usar dados do Adobe Experience Platform na Decisão** - Usar <strong>dados do Adobe Experience Platform</strong> na Decisão agora está disponível para <strong>todos os canais</strong>. Anteriormente, esse recurso estava limitado a emails e ações personalizadas no jornada.
+
 * **Visualização do Experience Decisioning no canal de Experiência baseado em código** - Agora você pode <strong>visualizar itens de decisão</strong> ao configurar o Experience Decisioning com o <strong>canal de Experiência baseado em código</strong>. A visualização está disponível diretamente na interface de criação antes de entrar em funcionamento.
 
 #### Jornadas
@@ -236,7 +222,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -414,7 +400,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
