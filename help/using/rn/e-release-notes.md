@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e89d861a55985e84fa2640de94d7a776c75defa2
+source-git-commit: c42aa41ed0d5d688840cf06512a04c22d74c828c
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 100%
+source-wordcount: '1309'
+ht-degree: 34%
 
 ---
 
@@ -18,12 +18,225 @@ ht-degree: 100%
 
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas no fim de cada mês nas [notas de versão](release-notes.md).
 
+## Notas de pré-lançamento de 26 de fevereiro {#feb-26-01-rn}
+
+**As notas de pré-lançamento abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade da versão**. Links, telas e a documentação atualizada são publicados nas notas de versão na data de lançamento.
+
+Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**Data de lançamento**: quarta-feira, 17 de fevereiro de 2026
+
+### Novos recursos {#feb-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Envio de onda de mensagens de saída</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Você pode agendar mensagens de saída de campanhas ou jornadas para serem entregues em <strong>lotes controlados</strong> ao longo do tempo. <strong>Envio de onda</strong> oferece os seguintes benefícios:</p>
+<ul>
+<li>Melhor capacidade de entrega - O Spread envia ao longo do tempo para ajudar a manter uma sólida reputação do remetente e reduzir o risco de ser sinalizado como spam.</li>
+<li>Controle de carga - Evite sobrecarregar os sistemas de downstream (por exemplo, call centers ou páginas de aterrissagem) limitando quantas mensagens saem de uma vez.</li>
+<li>Casos de uso de alto volume e sensíveis ao tempo - Adequados para grandes públicos ou quando é necessário controlar o tempo (por exemplo, capacidade da central de atendimento, aumento ou ofertas vinculadas ao tempo).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Atividade de decisão de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma nova <strong>Atividade de decisão de conteúdo</strong> está disponível na tela de jornada para integrar <strong>ofertas personalizadas</strong> diretamente às jornadas do cliente. Essa atividade permite fornecer conteúdo baseado em decisão e fazer referência a essas ofertas em toda a jornada, em condições para criar ramificações baseadas em elegibilidade, em ações personalizadas para transmitir dados de oferta a sistemas externos e em outras atividades para criar experiências do cliente totalmente personalizadas.</p>
+<p>Esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
+<p>Data de disponibilidade: terça-feira, 9 de fevereiro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Atividade de ação em jornadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer oferece suporte a uma nova atividade genérica <strong>Ação</strong> que permite configurar ações individuais e <strong>grupos de ações de entrada com várias ações</strong>, possibilitando uma configuração simplificada de ações na tela da jornada. Em especial, este novo recurso permite:</p>
+<ul>
+<li>Uma configuração de ação nativa simplificada na tela da jornada.</li>
+<li>A capacidade de criar grupos de ação de entrada multiação.</li>
+<li>A capacidade de adicionar otimização a qualquer ação de canal integrada.</li>
+<li>A capacidade de adicionar opções de experimentação e multilíngues a qualquer ação.</li>
+</ul>
+<p>Esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent: criar jornadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Agente de Criação de Jornada permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma interface de <strong>linguagem natural</strong>. Com o Jornada Create Agent, os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em <strong>prompts de conversa</strong>. O agente simplifica a criação de jornadas, permitindo que os profissionais de marketing se concentrem na estratégia em vez da configuração técnica.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Arbitragem de jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode usar fórmulas e modelos de IA para aumentar automaticamente as <strong>pontuações de prioridade de jornada</strong> com base nos atributos do perfil do cliente e fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Geração de conteúdo do Journey Agent</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Desenvolvido pela Adobe Experience Platform Agent Orchestrator, o Journey Agent está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>CC na configuração do canal de email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode adicionar um campo <strong>CC (cópia carbono)</strong> opcional às configurações de canal de email. Diferentemente do CCO, o endereço CC é visível para o recipient principal, de modo que você pode enviar uma cópia para a pessoa certa por mensagem, por exemplo, um gerente de relacionamento, enquanto o cliente vê quem está no CC e pode entrar em contato com ele para acompanhamento. O campo CC oferece suporte à <strong>personalização</strong>, portanto, uma configuração pode atender a vários cenários.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Usar dados do Adobe Experience Platform na Decisão</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O uso de <strong>dados do Adobe Experience Platform</strong> na Decisão agora está disponível para <strong>todos os canais</strong>. Anteriormente, esse recurso estava limitado a emails e ações personalizadas no jornada.</p>
+<p>Esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal de notificações por push na web</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Adobe Journey Optimizer agora é compatível com <strong>Notificações por push na web</strong>, expandindo o canal de push para além dos dispositivos móveis. Você pode enviar notificações facilmente para navegadores móveis e de desktop, permitindo alcançar clientes diretamente em seus dispositivos sem precisar de um aplicativo. Esse aprimoramento permite interagir com os usuários com mensagens personalizadas e oportunas em tempo real, aproveitando os mesmos fluxos de trabalho de criação e recursos de direcionamento já disponíveis para notificações por push em dispositivos móveis.</p>
+<p>Anteriormente lançado na versão beta, esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
+<p>Data de disponibilidade: quinta-feira, 11 de fevereiro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Aprimoramentos {#feb-26-01-improv}
+
+Os aprimoramentos incluídos nesta versão estão listados abaixo.
+
+#### IA
+
+* **Atualizar marcas com a nova guia de cores**: as diretrizes de marca ajudam a garantir que sua marca seja apresentada de forma consistente em todos os pontos de contato. A nova <strong>seção Cores</strong> define os padrões do sistema de cores da sua marca, descrevendo como as cores são selecionadas, organizadas e aplicadas entre experiências. Ela garante o uso consistente de cores primárias, secundárias, de destaque e neutras para promover uma identidade de marca coesa, acessível e reconhecível.
+
+* **Integração de modelos personalizados de Firefly e modelos de geração de imagens de terceiros** - Habilite a integração perfeita de modelos padrão e <strong>modelos personalizados de Firefly</strong>, juntamente com <strong>modelos de imagens de terceiros</strong> aprovados (por exemplo, NanoBanana), para oferecer maior flexibilidade, controle e alinhamento de marca ao gerar imagens. Isso permite selecionar o melhor modelo para cada caso de uso: Firefly padrão para necessidades gerais, Firefly personalizado para geração na marca ou modelos aprovados de terceiros para cenários especializados ou experimentais.
+
+#### Campanhas
+
+* **Pastas para jornadas e campanhas** - Agora você pode organizar suas jornadas e campanhas em <strong>pastas</strong> para melhorar a navegação e o gerenciamento na interface.
+
+#### Canais
+
+* **Atividades móveis em tempo real** - <strong>Atividades em tempo real</strong> fornecem atualizações em tempo real e experiências interativas dentro de aplicativos móveis, permitindo que os usuários permaneçam informados sobre eventos ou tarefas em andamento diretamente na tela de seus dispositivos. Esse recurso aprimora o engajamento fornecendo informações em tempo real, como monitoramento de progresso, atualizações de eventos ou conteúdo interativo, sem exigir que os usuários abram o aplicativo.
+
+  **Observação**: anteriormente lançado na versão beta, esse recurso agora está disponível para todos os ambientes (Disponibilidade Geral).
+
+#### Configuração
+
+* **Alternância de método de delegação de subdomínio** - Agora é possível alternar de um método de <strong>delegação de subdomínio</strong> para outro. Isso permite migrar domínios usando o modo de delegação CNAME para o método de delegação personalizado a fim de aderir às políticas de segurança da sua empresa.
+
+#### Designer de email
+
+* **Usar um tema de marca para converter uma imagem em um modelo de email** - Ao converter uma imagem em um modelo de email no Journey Optimizer, agora você pode usar um <strong>tema de marca</strong> como entrada para que o HTML gerado siga os parâmetros da sua marca. Estilos como cor de fundo, cor do botão, fontes, espaçamento entre linhas, margens e preenchimento são aplicados automaticamente, reduzindo o trabalho manual de design e fornecendo um modelo pronto para uso com edições mínimas.
+
+#### Escolha de experiências
+
+* **Anexar fragmentos a itens de decisão** - A Journey Optimizer agora fornece a capacidade de anexar <strong>fragmentos</strong> a <strong>itens de decisão</strong> que podem ser aproveitados em campanhas de experiência baseadas em código por meio de políticas de decisão.
+
+  **Observação**: essa melhoria está disponível agora para todos os ambientes (Disponibilidade Geral).
+
+  Data de disponibilidade: 9 de fevereiro de 2026.
+
+* **Observabilidade do modelo de IA de classificação de oferta** - O Journey Optimizer agora permite monitorar a integridade, o status do treinamento e o desempenho dos seus <strong>modelos de IA</strong> na Decisão, para que você possa verificar o sucesso do treinamento, solucionar problemas de falha e entender o impacto nos seus resultados. Esse recurso está disponível somente para modelos de otimização personalizados (não para otimização automática).
+
+* **Visualização do Experience Decisioning no canal de Experiência baseado em código** - Agora você pode <strong>visualizar itens de decisão</strong> ao configurar o Experience Decisioning com o <strong>canal de Experiência baseado em código</strong>. A visualização está disponível diretamente na interface de criação antes de entrar em funcionamento.
+
+#### Jornadas
+
+* **Várias ações de entrada em jornadas**: para simplificar a orquestração de jornada, agora você pode definir <strong>várias ações de entrada</strong> em uma única jornada. Anteriormente disponível em campanhas, esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da Web a locais diferentes ao mesmo tempo, cada ação contendo conteúdo específico.
+
+  **Observação**: essa melhoria está disponível agora para todos os ambientes (Disponibilidade Geral).
+
+#### Campanhas orquestradas
+
+* **Atividade Test em campanhas orquestradas** - A <strong>Atividade Test</strong> agora está disponível em campanhas orquestradas. Esta atividade de controle de Fluxo habilita <strong>ramificação condicional</strong> com várias transições de saída com base em condições especificadas, para que você possa criar fluxos de campanha dinâmicos que se adaptem a cenários diferentes.
+
 <!--
 ## January '26 pre-release notes {#jan-26-01-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -201,7 +414,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
