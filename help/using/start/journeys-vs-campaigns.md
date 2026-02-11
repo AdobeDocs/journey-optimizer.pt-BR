@@ -9,13 +9,13 @@ level: Beginner
 keywords: jornada, campanha, orquestrado, comparação, escolher, decisão, fluxo de trabalho, tempo real, lote, orquestração, várias etapas, agendado, acionado por API, orientado por evento
 hide: true
 hidefromtoc: true
-source-git-commit: c1efa56fc3f3c93bdc4b9c7a9f4e81b58cbcff72
+exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 3%
 
 ---
-
 
 # Jornadas versus campanhas: escolha a abordagem certa {#journeys-vs-campaigns}
 
@@ -36,7 +36,7 @@ Este guia ajuda você a escolher entre **Jornada**, **Campanhas de ação**, **C
 
 Use esta tabela abrangente para entender as principais diferenças:
 
-| Recurso | Jornadas | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas |
+| Recurso | Jornadas | Campanhas de ações | Campanhas acionadas por API | Campanhas orquestradas |
 |---------|----------|------------------|------------------------|----------------------|
 | **Finalidade principal** | Orquestração de várias etapas do :1 com contexto de cliente em tempo real | Entrega de mensagem única ou recorrente para públicos | Mensagens transacionais ou orientadas por eventos iniciadas por sistemas externos | Campanhas em lote de várias etapas com fluxos de trabalho de segmentação complexos |
 | **Tipo de tela** | Tela 1:1 - cada perfil viaja em seu próprio ritmo | Sem tela - execução de ação única | Sem tela - execução de ação única | Tela em lote - todos os perfis processados juntos |
@@ -198,7 +198,7 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 
 ### Canais
 
-| Canal | Jornadas | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas |
+| Canal | Jornadas | Campanhas de ações | Campanhas acionadas por API | Campanhas orquestradas |
 |---------|:--------:|:----------------:|:-----------------------:|:---------------------:|
 | Email | ✅ | ✅ | ✅ | ✅ |
 | Push | ✅ | ✅ | ✅ | ✅ |
@@ -207,11 +207,11 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 | Web | ✅ | ✅ | ❌ | ❌ |
 | Baseado em código | ✅ | ✅ | ❌ | ❌ |
 | Cartões de conteúdo | ✅ | ✅ | ❌ | ❌ |
-| Correspondência direta | ✅ | ✅ | ❌ | ❌ |
+| Correspondência direta | ✅ | ✅ | ❌ | ✅ |
 
 ### Recursos avançados
 
-| Recurso | Jornadas | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas |
+| Recurso | Jornadas | Campanhas de ações | Campanhas acionadas por API | Campanhas orquestradas |
 |-----------|:--------:|:----------------:|:-----------------------:|:---------------------:|
 | Fluxos de trabalho de várias etapas | ✅ | ❌ | ❌ | ✅ |
 | Acionadores em tempo real | ✅ | ❌ | ✅ | ❌ |
@@ -280,4 +280,3 @@ Pronto(a) para começar a criar? Explore a documentação detalhada da abordagem
 * [Comparação de tipos de campanha](../campaigns/get-started-with-campaigns.md#campaign-types)
 * [Jornada perguntas frequentes](../building-journeys/journey-faq.md)
 * [Perguntas frequentes sobre campanhas orquestradas](../orchestrated/orchestrated-campaigns-faq.md)
-

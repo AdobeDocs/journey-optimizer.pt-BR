@@ -6,8 +6,8 @@ description: Saiba como trabalhar com canais de comunicação do  [!DNL Adobe Jo
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: c4e877b0d064938ef3a3bc7e67fc5dc00aa09bca
-workflow-type: ht
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Os canais de saída para entrega de mensagens envolvem o envio de mensagens para
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal de email
 
@@ -37,7 +37,7 @@ Descubra como criar, configurar e otimizar campanhas de email, incluindo persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canal de notificação por push
 
@@ -47,7 +47,7 @@ Saiba como criar, configurar e enviar notificações por push para iOS e Android
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Mensagens por SMS/MMS/RCS
 
@@ -57,7 +57,7 @@ Entenda como criar, gerenciar e configurar mensagens por SMS, MMS e RCS para fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campanhas de correspondência direta
 
@@ -75,7 +75,7 @@ Com experiências de entrada de aplicativos móveis e da Web, os clientes inicia
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Mensagens no aplicativo
 
@@ -85,7 +85,7 @@ Aprenda a configurar, projetar e personalizar notificações no aplicativo para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Saiba como criar, configurar e personalizar experiências na web e integrar cana
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Experiência baseada em código
 
@@ -105,7 +105,7 @@ Utilize as experiências baseadas em código para fornecer conteúdo personaliza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Cartões de conteúdo
 
@@ -138,7 +138,7 @@ A tabela abaixo mostra a disponibilidade de cada canal em diferentes jornadas e 
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Notificações por push | ✅ | ✅ | ✅ | ✅ | ✅ |
 | No aplicativo | ✅ | ✅ | — | — | — |
-| Correspondência direta | ✅ | ✅ | — | — | — |
+| Correspondência direta | ✅ | ✅ | — | — | ✅ |
 | Web | ✅ | ✅ | — | — | — |
 | Experiência baseada em código | ✅ | ✅ | — | — | — |
 | Cartões de conteúdo | ✅ | ✅ | — | — | — |

@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 100%
+source-wordcount: '1518'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campanhas"
->abstract="Crie um fluxo de segmentação, crie mensagens entre canais e planeje as campanhas. Canais compatíveis: email, SMS, notificação por push."
+>abstract="Crie um fluxo de segmentação, crie mensagens entre canais e planeje as campanhas. Canais compatíveis: email, SMS, notificações por push e correspondência direta."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -72,7 +72,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="Campanhas"
->abstract="Entregue ações transacionais de saída únicas ou recorrentes."
+>abstract="Entregar ações transacionais de saída únicas ou recorrentes. Canais compatíveis: email, SMS, notificações por push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
@@ -291,7 +291,7 @@ Agora que você compreende as campanhas no [!DNL Journey Optimizer], escolha o t
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Agendamento e sincronização**
 
@@ -301,7 +301,7 @@ Agende campanhas para datas e horas específicas, defina entregas recorrentes e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controle de taxa**
 
@@ -311,7 +311,7 @@ Limite a taxa de transferência de mensagens para evitar sobrecarga em sistemas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Direcionamento de público-alvo**
 
@@ -321,7 +321,7 @@ Direcione públicos-alvo específicos da Adobe Experience Platform com precisão
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Fluxos de trabalho de aprovação**
 
@@ -331,7 +331,7 @@ Implemente processos de revisão e aprovação antes que as campanhas sejam ativ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horário de silêncio**
 
@@ -341,7 +341,7 @@ Respeite as preferências do cliente evitando a entrega de mensagens durante as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Otimização**
 

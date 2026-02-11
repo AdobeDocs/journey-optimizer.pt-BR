@@ -5,9 +5,9 @@ title: Perguntas frequentes sobre campanhas orquestradas
 description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orchestrated
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1887'
 ht-degree: 14%
 
 ---
@@ -39,7 +39,7 @@ Os principais recursos incluem:
 
 * **Públicos-alvo sob demanda**: crie e refine instantaneamente grupos-alvo usando consultas relacionais.
 * **Segmentação de Várias Entidades**: crie públicos-alvo precisos conectando dados do cliente a entidades relacionadas (por exemplo, contas, compras, reservas).
-* **Visibilidade de pré-envio**: veja a contagem precisa de públicos-alvo antes de iniciar para otimizar o direcionamento.
+* **Visibilidade de pré-envio**: veja os contagem de público-alvo precisos antes de iniciar para otimizar o direcionamento.
 * **Fluxos de Trabalho de Várias Etapas**: Execute campanhas sequenciadas, como promoções sazonais, inicializações de produtos ou ofertas de fidelidade.
 
 **Práticas recomendadas**
@@ -162,7 +162,7 @@ Você pode criar campanhas orquestradas para enviar **emails**, **SMS**, **notif
 
 +++ É possível iniciar várias comunicações e canais diferentes na mesma campanha orquestrada?
 
-Sim, as campanhas orquestradas oferecem suporte à orquestração entre canais. Você pode combinar atividades de email, SMS e notificação por push em uma tela de campanha com várias etapas para criar experiências abrangentes para o cliente.
+Sim, as campanhas orquestradas oferecem suporte à orquestração entre canais. Você pode combinar atividades de email, SMS, notificação por push e correspondência direta em uma tela de campanha com várias etapas para criar experiências abrangentes para o cliente.
 
 **Saiba mais**
 
@@ -195,7 +195,7 @@ Não, o designer de conteúdo, incluindo o Designer de email, é comum em todos 
 
 +++ Como os diferentes canais são conectados nas campanhas Orquestradas?
 
-O componente de canal e o tempo de execução são comuns a todas as campanhas do Journey Optimizer, no entanto, os canais compatíveis diferem. As campanhas orquestradas aceitam notificações por email, SMS e por push.
+O componente de canal e o tempo de execução são comuns a todas as campanhas do Journey Optimizer, no entanto, os canais compatíveis diferem. As campanhas orquestradas são compatíveis com email, SMS, notificações por push e correspondência direta.
 
 **Saiba mais**
 
@@ -207,7 +207,7 @@ O componente de canal e o tempo de execução são comuns a todas as campanhas d
 
 +++ As campanhas orquestradas podem se conectar com canais de saída (web, inApp)?
 
-Não, canais de entrada como web e no aplicativo não são compatíveis com campanhas orquestradas. Somente canais de saída (email, SMS e notificações por push) são compatíveis.
+Não, canais de entrada como web e no aplicativo não são compatíveis com campanhas orquestradas. Somente canais de saída (email, SMS, notificações por push e correspondência direta) são compatíveis.
 
 **Saiba mais**
 
@@ -242,7 +242,7 @@ No Campaign Orchestration, nós nos referimos à segmentação ad-hoc como &quot
 
 * Use a segmentação ad-hoc para **necessidades sensíveis ao tempo** (por exemplo, promoções em flash).
 * Salve e documente consultas úteis para que elas possam ser reutilizadas em campanhas futuras.
-* Valide a contagem de público-alvo antes da ativação para evitar o envio insuficiente ou excessivo.
+* Valide o contagem de público-alvo antes da ativação para evitar envio abaixo ou acima.
 
 **Saiba mais**
 
