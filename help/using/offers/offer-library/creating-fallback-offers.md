@@ -25,7 +25,7 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
->title="Oferta de fallback"
+>title="Oferta substitutas"
 >abstract="Uma oferta substituta é a oferta padrão exibida quando um usuário final não é elegível para nenhuma oferta personalizada."
 
 >[!CONTEXTUALHELP]
@@ -79,5 +79,5 @@ Para criar uma oferta substituta, siga estas etapas:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341361?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
