@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a9c74b396e24fec418f0556124a07d482b015825
+source-git-commit: 4b6e988d79c48d0c5417c9e7f43a8da85a7fbe28
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 41%
+source-wordcount: '1553'
+ht-degree: 42%
 
 ---
 
@@ -45,24 +45,6 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <li>Casos de uso de alto volume e sensíveis ao tempo — adequados a grandes públicos ou quando é necessário controlar o tempo (por exemplo, capacidade da central de atendimento, aumento ou ofertas vinculadas ao tempo).</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-11533">Link para a tarefa DOCAC no JIRA</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Cópia carbono (CC) para email</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora você pode configurar um campo CC (cópia carbono) opcional nas configurações de canal de email. Ao contrário do Cco, os recipients do CC estão visíveis para o recipient principal, permitindo comunicação transparente e propriedade mais clara.</p>
-<p>Isso permite copiar automaticamente a parte interessada certa em cada mensagem, como um gerente de relacionamento ou proprietário de conta, garantindo que o cliente saiba com quem entrar em contato para obter acompanhamento.</p>
-<p>O campo CC oferece suporte à personalização, de modo que uma única configuração pode rotear cópias dinamicamente com base nos dados do perfil, tornando-o escalável em vários casos de uso sem configuração adicional.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14051">Link para a tarefa DOCAC no JIRA</a></p>
 </td>
 </tr>
 </tbody>
@@ -270,6 +252,10 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13918">Vincular à tarefa DOCAC JIRA</a>
 
+* **Suporte ao modelo Firefly 3P para geração de imagens de terceiros** - Agora você pode usar modelos de geração de imagens de terceiros (como OpenAI e Gemini) junto com o Firefly para criar imagens no Journey Optimizer. Isso proporciona mais flexibilidade para escolher o modelo certo para cada caso de uso e integrar provedores externos aprovados por meio do gateway do Firefly 3P.
+
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14145">Vincular à tarefa DOCAC JIRA</a>
+
 #### Campanhas
 
 * **Pastas para jornadas e campanhas** - Agora é possível organizar suas jornadas e campanhas em pastas para melhorar a navegação e o gerenciamento na interface.
@@ -313,7 +299,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -491,7 +477,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
