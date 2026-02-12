@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 22765397e7ec7a14e27a6998a28eb4dddca80f3c
+source-git-commit: 8a86e9fae988bb182ea81296b764b1e184bd86f9
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 34%
+source-wordcount: '1386'
+ht-degree: 39%
 
 ---
 
@@ -51,52 +51,13 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
-<th><strong>Atividade de decisão de conteúdo</strong><br/></th>
+<th><strong>CC na configuração do canal de email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Uma nova <strong>Atividade de decisão de conteúdo</strong> está disponível na tela de jornada para integrar <strong>ofertas personalizadas</strong> diretamente às jornadas do cliente. Essa atividade permite fornecer conteúdo baseado em decisão e fazer referência a essas ofertas em toda a jornada, em condições para criar ramificações baseadas em elegibilidade, em ações personalizadas para transmitir dados de oferta a sistemas externos e em outras atividades para criar experiências do cliente totalmente personalizadas.</p>
-<p>Esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
-<p>Data de disponibilidade: terça-feira, 9 de fevereiro de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Atividade de ação em jornadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Journey Optimizer oferece suporte a uma nova atividade genérica <strong>Ação</strong> que permite configurar ações individuais e <strong>grupos de ações de entrada com várias ações</strong>, possibilitando uma configuração simplificada de ações na tela da jornada. Em especial, este novo recurso permite:</p>
-<ul>
-<li>Uma configuração de ação nativa simplificada na tela da jornada.</li>
-<li>A capacidade de criar grupos de ação de entrada multiação.</li>
-<li>A capacidade de adicionar otimização a qualquer ação de canal integrada.</li>
-<li>A capacidade de adicionar opções de experimentação e multilíngues a qualquer ação.</li>
-</ul>
-<p>Esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent: criar jornadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Agente de Criação de Jornada permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma interface de <strong>linguagem natural</strong>. Com o Jornada Create Agent, os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em <strong>prompts de conversa</strong>. O agente simplifica a criação de jornadas, permitindo que os profissionais de marketing se concentrem na estratégia em vez da configuração técnica.</p>
+<p>Agora você pode adicionar um campo <strong>CC (cópia carbono)</strong> opcional às configurações de canal de email. Diferentemente do CCO, o endereço CC é visível para o recipient principal, de modo que você pode enviar uma cópia para a pessoa certa por mensagem, por exemplo, um gerente de relacionamento, enquanto o cliente vê quem está no CC e pode entrar em contato com ele para acompanhamento. O campo CC oferece suporte à <strong>personalização</strong>, portanto, uma configuração pode atender a vários cenários.</p>
 </td>
 </tr>
 </tbody>
@@ -111,7 +72,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar fórmulas e modelos de IA para aumentar automaticamente as <strong>pontuações de prioridade de jornada</strong> com base nos atributos do perfil do cliente e fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
+<p>Agora você pode usar <strong>fórmulas</strong> e <strong>modelos de IA</strong> para aumentar automaticamente as pontuações de prioridade de jornada com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 </td>
 </tr>
@@ -136,13 +97,13 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
-<th><strong>CC na configuração do canal de email</strong><br/></th>
+<th><strong>Journey Agent: criar orquestração de campanha</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode adicionar um campo <strong>CC (cópia carbono)</strong> opcional às configurações de canal de email. Diferentemente do CCO, o endereço CC é visível para o recipient principal, de modo que você pode enviar uma cópia para a pessoa certa por mensagem, por exemplo, um gerente de relacionamento, enquanto o cliente vê quem está no CC e pode entrar em contato com ele para acompanhamento. O campo CC oferece suporte à <strong>personalização</strong>, portanto, uma configuração pode atender a vários cenários.</p>
+<p>Caso de uso para criar orquestração de campanha via Journey Agent. Detalhes a serem confirmados do produto.</p>
 </td>
 </tr>
 </tbody>
@@ -173,9 +134,108 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tbody>
 <tr>
 <td>
-<p>O Adobe Journey Optimizer agora é compatível com <strong>Notificações por push na web</strong>, expandindo o canal de push para além dos dispositivos móveis. Você pode enviar notificações facilmente para navegadores móveis e de desktop, permitindo alcançar clientes diretamente em seus dispositivos sem precisar de um aplicativo. Esse aprimoramento permite interagir com os usuários com mensagens personalizadas e oportunas em tempo real, aproveitando os mesmos fluxos de trabalho de criação e recursos de direcionamento já disponíveis para notificações por push em dispositivos móveis.</p>
+<p>O Adobe Journey Optimizer agora oferece suporte a <strong>Notificações por push na web</strong>, expandindo o canal de push para além dos dispositivos móveis. Você pode enviar notificações facilmente para navegadores móveis e de desktop, permitindo alcançar clientes diretamente em seus dispositivos sem precisar de um aplicativo.</p>
 <p>Anteriormente lançado na versão beta, esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
 <p>Data de disponibilidade: sexta-feira, 12 de fevereiro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Atividade de ação em jornadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer oferece suporte a uma nova atividade genérica <strong>Ação</strong> que permite configurar ações individuais e <strong>grupos de ações de entrada com várias ações</strong>, possibilitando uma configuração simplificada de ações na tela da jornada. Em especial, este novo recurso permite:</p>
+<ul>
+<li>Uma configuração de ação nativa simplificada na tela da jornada.</li>
+<li>A capacidade de criar grupos de ação de entrada multiação.</li>
+<li>A capacidade de adicionar otimização a qualquer ação de canal integrada.</li>
+<li>A capacidade de adicionar opções de experimentação e multilíngues a qualquer ação.</li>
+</ul>
+<p>Esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Atividade de decisão de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma nova <strong>Atividade de decisão de conteúdo</strong> está disponível na tela de jornada para integrar <strong>ofertas personalizadas</strong> diretamente às jornadas do cliente. Essa atividade permite fornecer conteúdo baseado em decisão e fazer referência a essas ofertas em toda a jornada, em condições para criar ramificações baseadas em elegibilidade, em ações personalizadas para transmitir dados de oferta a sistemas externos e em outras atividades para criar experiências do cliente totalmente personalizadas.</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p><img src="assets/do-not-localize/content-decision.gif"/></p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/content-decision.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 11 de fevereiro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>APIs de ferramentas de migração de autoatendimento</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As <strong>APIs de ferramentas de migração</strong> agora estão disponíveis para migrar de forma programática entidades de gestão de decisões para o Decisioning, apresentando:</p>
+<ul>
+<li>Escopos de migração flexíveis (nível de sandbox, oferta ou decisão)</li>
+<li>Análise e validação automatizadas de dependências</li>
+<li>Suporte à reversão para migrações concluídas</li>
+<li>Relatórios de migração detalhados com mapeamentos de objeto</li>
+</ul>
+<p>Para obter mais informações, consulte a <a href="../experience-decisioning/decisioning-migration-api.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 3 de fevereiro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitoramento de ação personalizado</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Obtenha mais insights sobre a integridade e o desempenho de <strong>pontos de extremidade de ação personalizados</strong> com um novo painel de monitoramento e dados de eventos da etapa da jornada aprimorados. Monitore chamadas bem-sucedidas, erros, taxa de transferência, tempos de resposta e tempos de espera na fila para entender rapidamente quando, onde e por que ocorrem anomalias.</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Para obter mais informações, consulte a <a href="../action/reporting.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 3 de fevereiro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Suporte à decisão no canal de SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode personalizar e otimizar o conteúdo de suas <strong>mensagens SMS</strong> com a <strong>Decisão</strong>. Use Pontuações de prioridade, Fórmulas ou Modelos de IA para exibir o melhor conteúdo para os clientes.</p>
+<p>Para obter mais informações, consulte a <a href="../experience-decisioning/create-decision.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 2 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -185,17 +245,9 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 
 Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
-#### IA
-
-* **Atualizar marcas com a nova guia de cores**: as diretrizes de marca ajudam a garantir que sua marca seja apresentada de forma consistente em todos os pontos de contato. A nova <strong>seção Cores</strong> define os padrões do sistema de cores da sua marca, descrevendo como as cores são selecionadas, organizadas e aplicadas entre experiências. Ela garante o uso consistente de cores primárias, secundárias, de destaque e neutras para promover uma identidade de marca coesa, acessível e reconhecível.
-
-* **Integração de modelos personalizados de Firefly e modelos de geração de imagens de terceiros** - Habilite a integração perfeita de modelos padrão e <strong>modelos personalizados de Firefly</strong>, juntamente com <strong>modelos de imagens de terceiros</strong> aprovados (por exemplo, NanoBanana), para oferecer maior flexibilidade, controle e alinhamento de marca ao gerar imagens. Isso permite selecionar o melhor modelo para cada caso de uso: Firefly padrão para necessidades gerais, Firefly personalizado para geração na marca ou modelos aprovados de terceiros para cenários especializados ou experimentais.
-
-#### Campanhas
-
-* **Pastas para jornadas e campanhas** - Agora você pode organizar suas jornadas e campanhas em <strong>pastas</strong> para melhorar a navegação e o gerenciamento na interface.
-
 #### Configuração
+
+* **Desativação da pesquisa de evento de experiência** - Coordenação com o produto na próxima fase do uso de pesquisa do Evento de Experiência (EE) de desativação no jornada: remoção para clientes que não usaram pesquisa EE nos últimos 90 dias. As atualizações da documentação e das notas de versão estão planejadas; o switch está planejado para 1º de abril.
 
 * **Alternância de método de delegação de subdomínio** - Agora é possível alternar de um método de <strong>delegação de subdomínio</strong> para outro. Isso permite migrar domínios usando o modo de delegação CNAME para o método de delegação personalizado a fim de aderir às políticas de segurança da sua empresa.
 
@@ -203,19 +255,27 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Usar um tema de marca para converter uma imagem em um modelo de email** - Ao converter uma imagem em um modelo de email no Journey Optimizer, agora você pode usar um <strong>tema de marca</strong> como entrada para que o HTML gerado siga os parâmetros da sua marca. Estilos como cor de fundo, cor do botão, fontes, espaçamento entre linhas, margens e preenchimento são aplicados automaticamente, reduzindo o trabalho manual de design e fornecendo um modelo pronto para uso com edições mínimas.
 
+* **Atualizar marcas com a nova guia de cores**: as diretrizes de marca ajudam a garantir que sua marca seja apresentada de forma consistente em todos os pontos de contato. A nova seção <strong>Cores</strong> define os padrões do sistema de cores da sua marca, descrevendo como as cores são selecionadas, organizadas e aplicadas entre experiências.
+
+#### IA
+
+* **Integração de modelos personalizados de Firefly e modelos de geração de imagens de terceiros** - Habilite a integração perfeita de modelos padrão e <strong>modelos personalizados de Firefly</strong>, juntamente com <strong>modelos de imagens de terceiros</strong> aprovados (por exemplo, NanoBanana), para oferecer maior flexibilidade, controle e alinhamento de marca ao gerar imagens.
+
+#### Campanhas
+
+* **Pastas para jornadas e campanhas** - Agora você pode organizar suas jornadas e campanhas em <strong>pastas</strong> para melhorar a navegação e o gerenciamento na interface.
+
 #### Escolha de experiências
+
+* **Visualização do Experience Decisioning no canal de experiência baseado em código** - Agora você pode <strong>visualizar itens de decisão</strong> ao configurar o Experience Decisioning com o <strong>canal de experiência baseado em código</strong>. A visualização está disponível diretamente na interface de criação antes de entrar em funcionamento.
+
+* **Observabilidade do modelo de IA de classificação de oferta** - O Journey Optimizer agora permite monitorar a integridade, o status do treinamento e o desempenho dos seus <strong>modelos de IA</strong> na Decisão, para que você possa verificar o sucesso do treinamento, solucionar problemas de falha e entender o impacto nos seus resultados. Esse recurso está disponível somente para modelos de otimização personalizados (não para otimização automática).
 
 * **Anexar fragmentos a itens de decisão** - A Journey Optimizer agora fornece a capacidade de anexar <strong>fragmentos</strong> a <strong>itens de decisão</strong> que podem ser aproveitados em campanhas de experiência baseadas em código por meio de políticas de decisão.
 
   **Observação**: essa melhoria está disponível agora para todos os ambientes (Disponibilidade Geral).
 
-  Data de disponibilidade: 9 de fevereiro de 2026.
-
-* **Observabilidade do modelo de IA de classificação de oferta** - O Journey Optimizer agora permite monitorar a integridade, o status do treinamento e o desempenho dos seus <strong>modelos de IA</strong> na Decisão, para que você possa verificar o sucesso do treinamento, solucionar problemas de falha e entender o impacto nos seus resultados. Esse recurso está disponível somente para modelos de otimização personalizados (não para otimização automática).
-
-* **Usar dados do Adobe Experience Platform na Decisão** - Usar <strong>dados do Adobe Experience Platform</strong> na Decisão agora está disponível para <strong>todos os canais</strong>. Anteriormente, esse recurso estava limitado a emails e ações personalizadas no jornada.
-
-* **Visualização do Experience Decisioning no canal de Experiência baseado em código** - Agora você pode <strong>visualizar itens de decisão</strong> ao configurar o Experience Decisioning com o <strong>canal de Experiência baseado em código</strong>. A visualização está disponível diretamente na interface de criação antes de entrar em funcionamento.
+  Data de disponibilidade: 12 de fevereiro de 2026.
 
 #### Jornadas
 
@@ -223,16 +283,16 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
   **Observação**: essa melhoria está disponível agora para todos os ambientes (Disponibilidade Geral).
 
-#### Campanhas orquestradas
+* **Webhooks de SMS** - Webhooks agora são aceitos em todos os provedores de SMS. Você pode configurar cada webhook com base na finalidade pretendida, webhooks de entrada para capturar mensagens de entrada e webhooks de feedback para receber confirmações de entrega, atualizações de status e outros eventos relacionados à mensagem. [Leia mais](../sms/sms-webhook.md)
 
-* **Atividade Test em campanhas orquestradas** - A <strong>Atividade Test</strong> agora está disponível em campanhas orquestradas. Esta atividade de controle de Fluxo habilita <strong>ramificação condicional</strong> com várias transições de saída com base em condições especificadas, para que você possa criar fluxos de campanha dinâmicos que se adaptem a cenários diferentes.
+  Data de disponibilidade: 2 de fevereiro de 2026.
 
 <!--
 ## January '26 pre-release notes {#jan-26-01-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -410,7 +470,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
