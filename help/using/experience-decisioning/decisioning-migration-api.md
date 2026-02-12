@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
+exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
+source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 4%
 
 ---
-
 
 # API de migração de decisão {#decisioning-migration-api}
 
@@ -70,8 +70,8 @@ Para obter mais informações sobre o gerenciamento de sandboxes, consulte [Usar
 
 Use os seguintes URLs base, dependendo do seu ambiente:
 
-* **Produção**: `https://platform.adobe.io`
-* **Estágios**: `https://platform-stage.adobe.io`
+* **Produção**: `https://decisioning-migration.adobe.io`
+* **Estágios**: `https://decisioning-migration-stage.adobe.io`
 
 ### Autenticação {#authentication}
 
@@ -79,7 +79,6 @@ Todas as solicitações de API exigem os seguintes cabeçalhos:
 
 * `Authorization: Bearer <IMS_ACCESS_TOKEN>`
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
-* `x-api-key: <CLIENT_API_KEY>`
 * `Content-Type: application/json`
 
 Para obter instruções detalhadas sobre como configurar a autenticação, consulte o [guia de autenticação do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
@@ -91,7 +90,7 @@ Cada chamada de API cria ou recupera um recurso de workflow. Workflows são oper
 Um workflow tem as seguintes propriedades:
 
 * `id` - Identificador de fluxo de trabalho exclusivo (UUID)
-* `status` - Status atual do fluxo de trabalho: `New`, `Running`, `Completed`, `Failed` ou `Cancelled`
+* `status` - Status atual do fluxo de trabalho: `New`, `Running`, `Completed` ou `Failed`
 * `result` - Saída de fluxo de trabalho quando concluído (inclui resultados e avisos de migração)
 * `errors` - Detalhes de erros estruturados quando com falha
 * `_etag` - Identificador de versão usado para operações de exclusão (somente usuários do serviço)
@@ -112,7 +111,7 @@ Use a chamada de API a seguir para criar um fluxo de trabalho de análise de dep
 **Formato da API**
 
 ```http
-POST /migration/service/dependency
+POST /workflows/generate-dependencies
 ```
 
 **Dependência em nível de sandbox (recomendada primeiro)**
@@ -121,10 +120,9 @@ Comece com uma análise em nível de sandbox para obter uma visualização compl
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/dependency" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
@@ -149,24 +147,23 @@ Consulte o fluxo de trabalho de dependência para verificar quando a análise é
 **Formato da API**
 
 ```http
-GET /migration/service/dependency/{id}
+GET /workflows/generate-dependencies/{id}
 ```
 
 **Solicitação**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/dependency/<WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies/<WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 Quando o campo `status` mostra `Completed`, a análise de dependência está pronta. Use a saída do fluxo de trabalho para criar os mapeamentos de dependência de migração:
 
-* **profileAttributeDependency** - Mapeia atributos de perfil de origem para atributos de perfil de destino
-* **contextAttributeDependency** - Mapeia atributos de contexto de origem para atributos de contexto de destino
-* **segmentsDependency** - Mapeia chaves de segmento de origem para identificadores de segmento de destino (`{segmentNamespace, segmentId}`)
+* **profileAttributes** - Mapeia atributos de perfil de origem para atributos de perfil de destino
+* **contextAttributes** - Mapeia atributos de contexto de origem para atributos de contexto de destino
+* **segmentos** - Mapeia chaves de segmento de origem para identificadores de segmento de destino (`{namespace, id}`)
 * **datasetName** - Especifica o nome do conjunto de dados de destino para a migração
 
 ### Etapa 2: Executar a migração {#execute-migration}
@@ -180,7 +177,7 @@ Use os mapeamentos de dependência da Etapa 1 para configurar e executar a migra
 **Formato da API**
 
 ```http
-POST /migration/service/migrations
+POST /workflows/migration
 ```
 
 **Migração no nível da sandbox**
@@ -189,10 +186,9 @@ Para migrar todos os objetos de decisão de uma sandbox para outra:
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/migrations" \
+  --url "https://decisioning-migration.adobe.io/workflows/migration" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
@@ -200,16 +196,16 @@ curl --request POST \
     "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
     "createDataStream": true,
     "dependency": {
-      "profileAttributeDependency": {
+      "profileAttributes": {
         "sourceAttr1": "targetAttr1"
       },
-      "segmentsDependency": {
+      "segments": {
         "sourceSegmentKey1": {
-          "segmentNamespace": "<TARGET_SEGMENT_NAMESPACE>",
-          "segmentId": "<TARGET_SEGMENT_ID>"
+          "namespace": "<TARGET_SEGMENT_NAMESPACE>",
+          "id": "<TARGET_SEGMENT_ID>"
         }
       },
-      "contextAttributeDependency": {
+      "contextAttributes": {
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
@@ -241,17 +237,16 @@ Consulte o fluxo de trabalho de migração para acompanhar seu progresso.
 **Formato da API**
 
 ```http
-GET /migration/service/migrations/{id}
+GET /workflows/migration/{id}
 ```
 
 **Solicitação**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/migrations/<WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/migration/<WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 **Resultados da migração**
@@ -301,20 +296,21 @@ Inicie uma reversão criando um fluxo de trabalho de reversão que faça referê
 **Formato da API**
 
 ```http
-POST /migration/service/rollbacks/{migrationWorkflowId}
+POST /workflows/rollback
 ```
-
-Substitua `{migrationWorkflowId}` pela ID do fluxo de trabalho de migração que você deseja reverter.
 
 **Solicitação**
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/rollbacks/<MIGRATION_WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/rollback" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "Content-Type: application/json" \
+  --data '{ "rollbackWorkflowId": "<MIGRATION_WORKFLOW_ID>" }'
 ```
+
+Substitua `<MIGRATION_WORKFLOW_ID>` pela ID do fluxo de trabalho de migração que você deseja reverter.
 
 ### Monitorar status de reversão {#poll-rollback-status}
 
@@ -323,17 +319,16 @@ Consulte o workflow de reversão para acompanhar seu progresso.
 **Formato da API**
 
 ```http
-GET /migration/service/rollbacks/{rollbackWorkflowId}
+GET /workflows/rollback/{rollbackWorkflowId}
 ```
 
 **Solicitação**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/rollbacks/<ROLLBACK_WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/rollback/<ROLLBACK_WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 ## Lidar com fluxos de trabalho simultâneos {#handle-concurrency}
@@ -363,9 +358,9 @@ Os recursos de fluxo de trabalho podem ser excluídos somente por usuários do s
 
 **Operações de exclusão disponíveis:**
 
-* `DELETE /migration/service/dependency/{id}`
-* `DELETE /migration/service/migrations/{id}`
-* `DELETE /migration/service/rollbacks/{id}`
+* `DELETE /workflows/generate-dependencies/{id}`
+* `DELETE /workflows/migration/{id}`
+* `DELETE /workflows/rollback/{id}`
 
 >[!NOTE]
 >
