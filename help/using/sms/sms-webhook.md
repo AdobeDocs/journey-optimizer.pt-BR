@@ -6,9 +6,10 @@ description: Saiba como configurar Webhooks para capturar respostas de entrada p
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
+source-git-commit: 2bd0048c356c668ce2611b923f126e2a4e2c8630
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -189,50 +190,51 @@ Depois de criar e definir as configurações de entrada para o Webhook, agora é
 
 Depois de configurado, você pode aproveitar todos os recursos de canal prontos para uso, como criação de mensagens, personalização, rastreamento de links e relatórios.
 
+<!--
 >[!TAB Twilio]
 
-1. No painel à esquerda, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]**, selecione o menu **[!UICONTROL Webhooks de SMS]** em **[!UICONTROL Configurações de SMS]** e clique no botão **[!UICONTROL Criar Webhook]**.
+1. In the left rail, navigate to **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]**, select the **[!UICONTROL SMS Webhooks]** menu under **[!UICONTROL SMS settings]**, and click the **[!UICONTROL Create Webhook]** button.
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+    ![](assets/sms_byo_5.png){zoomable="yes"}
 
-1. Defina as configurações do Webhook, conforme detalhado abaixo:
+1. Configure your Webhook Settings, as detailed below:
 
-   * **[!UICONTROL Nome]**: digite um nome para o seu Webhook.
+    * **[!UICONTROL Name]**: Enter a name for your Webhook.
 
-   * **[!UICONTROL Selecionar fornecedor de SMS]**: Twilio.
+    * **[!UICONTROL Select SMS vendor]**: Twilio.
 
-   * **[!UICONTROL Tipo]**: Entrada.
+    * **[!UICONTROL Type]**: Inbound.
 
-   * **[!UICONTROL Credenciais da API]**: escolha no menu suspenso suas [credenciais de API configuradas anteriormente](sms-configuration-twilio.md#create-api).
+    * **[!UICONTROL API credentials]**: Choose from the drop-down you [previously configured API credentials](sms-configuration-twilio.md#create-api).
 
-   * **[!UICONTROL Número de Telefone do Remetente &#x200B;]**: digite o número de telefone do Remetente &#x200B;que você deseja usar para suas comunicações.
+    * **[!UICONTROL Sender Phone Number ​]**: Enter the Sender phone number ​you want to use for your communications.
+        
+1. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add your keywords categories, then, configure them depending on your SMS provider:
 
-1. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar categorias de palavras-chave e, em seguida, configure-as dependendo do seu provedor de SMS:
+    * **[!UICONTROL Inbound Keyword Category]**: Choose your keyword categories either **[!UICONTROL Opt-In]**, **[!UICONTROL Opt-Out]**, **[!UICONTROL Double Opt-In]**, **[!UICONTROL Help]** or **[!UICONTROL Custom]**. 
 
-   * **[!UICONTROL Categoria de Palavra-chave de Entrada]**: Escolha suas categorias de palavra-chave: **[!UICONTROL Aceitação]**, **[!UICONTROL Recusa]**, **[!UICONTROL Aceitação Dupla]**, **[!UICONTROL Ajuda]** ou **[!UICONTROL Personalizado]**.
+    * **[!UICONTROL Enter a keyword]**: Enter the default or custom keywords that will automatically trigger your message. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add multiple keywords.
 
-   * **[!UICONTROL Inserir uma palavra-chave]**: insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua mensagem. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar várias palavras-chave.
+        For **[!UICONTROL Custom keyword]**, use non-consent–related keywords for batch-based actions within a journey.
 
-     Para **[!UICONTROL Palavra-chave personalizada]**, use palavras-chave não relacionadas a consentimento para ações baseadas em lote em uma jornada.
+    * **[!UICONTROL Reply Message]**: Select from the drop-down the custom response that is automatically sent.
 
-   * **[!UICONTROL Mensagem de resposta]**: selecione no menu suspenso a resposta personalizada que é enviada automaticamente.
+    * **[!UICONTROL Fuzzy Opt-out]**: Enable this option to send an automatic reply when a near-match opt-out keyword is detected.
 
-   * **[!UICONTROL Recusa difusa]**: habilite esta opção para enviar uma resposta automática quando uma palavra-chave de recusa quase correspondente for detectada.
+1. Enter a **[!UICONTROL Default Reply Message]** automatically sent when an inbound message does not match any configured keyword or category.
 
-1. Digite uma **[!UICONTROL Mensagem de Resposta Padrão]** enviada automaticamente quando uma mensagem de entrada não corresponde a nenhuma palavra-chave ou categoria configurada.
+1. Click **[!UICONTROL Submit]** when you finished the configuration of your Webhook.
 
-1. Clique em **[!UICONTROL Enviar]** quando terminar a configuração do seu Webhook.
+1. In the **[!UICONTROL Webhooks]** menu, click the ![bin icon](assets/do-not-localize/Smock_Delete_18_N.svg) to delete your Webhook.
 
-1. No menu **[!UICONTROL Webhooks]**, clique no ![ícone bin](assets/do-not-localize/Smock_Delete_18_N.svg) para excluir seu Webhook.
+1. To modify existing configuration, locate the desired Webhook and click the **[!UICONTROL Edit]** option to make the necessary changes.
 
-1. Para modificar a configuração existente, localize o Webhook desejado e clique na opção **[!UICONTROL Editar]** para fazer as alterações necessárias.
+1. Access and copy your new **[!UICONTROL Webhook URL]** from your previously submitted **[!UICONTROL Webhook]**.
 
-1. Acesse e copie sua nova **[!UICONTROL URL do Webhook]** do **[!UICONTROL Webhook]** enviado anteriormente.
+After creating and configuring the inbound settings for the Webhook, you now need to create a [channel configuration](sms-configuration-surface.md) for SMS messages. 
 
-Depois de criar e definir as configurações de entrada para o Webhook, agora é necessário criar uma [configuração de canal](sms-configuration-surface.md) para mensagens SMS.
-
-Depois de configurado, você pode aproveitar todos os recursos de canal prontos para uso, como criação de mensagens, personalização, rastreamento de links e relatórios.
-
+Once configured, you can leverage all out-of-the-box channel capabilities such as message authoring, personalization, link tracking, and reporting.
+-->
 
 >[!ENDTABS]
 
@@ -240,4 +242,3 @@ Depois de configurado, você pode aproveitar todos os recursos de canal prontos 
 ## Vídeo tutorial {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431625)
-
