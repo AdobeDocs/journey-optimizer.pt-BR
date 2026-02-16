@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1176d85197e956a2ed1a5cad67a76d5a1bea20a9
+source-git-commit: 0472c9bb9decc49e5da392003027df23ec528ac9
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 38%
+source-wordcount: '1490'
+ht-degree: 39%
 
 ---
 
@@ -61,6 +61,22 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
+<th><strong>Migrar subdomínios para delegação personalizada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível migrar subdomínios usando o modo de delegação CNAME para delegação personalizada diretamente da interface, para que você possa atender a políticas de segurança mais rigorosas, de acordo com as diretrizes de sua empresa, sem recriar configurações de canal.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Arbitragem de jornada</strong><br/></th>
 </tr>
 </thead>
@@ -68,7 +84,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>Agora você pode usar <strong>fórmulas de classificação</strong> <!--and <strong>AI models</strong> -->para aumentar automaticamente as pontuações de prioridade de jornada com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
-<p>Este recurso só está disponível para um conjunto de organizações (<strong>Disponibilidade Limitada</strong>). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -116,7 +132,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer agora permite monitorar a integridade, o status do treinamento e o desempenho de seus modelos de IA no Decisioning. Assim, você pode verificar o sucesso do treinamento, solucionar problemas de falha e entender o impacto em seus resultados.</p>
+<p>O Journey Optimizer agora permite monitorar a integridade, o status do treinamento e o desempenho dos modelos de IA de decisão. Isso permite verificar o sucesso do treinamento, solucionar problemas de falhas e entender o impacto em seus resultados, a fim de selecionar as melhores ofertas para cada cliente que usa a IA. Observe que esse recurso está disponível somente para <strong>Decisão</strong> (não para modelos herdados do Gerenciamento de decisões).</p>
 <p>Este recurso está disponível atualmente apenas para <strong>modelos de otimização personalizada</strong> (não de otimização automática).</p>
 </td>
 </tr>
@@ -248,11 +264,6 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 #### Configuração
 
 * **Uso do evento de experiência em expressões de jornada** - A partir de 1º de abril de 2026, o uso de atributos de evento de experiência em expressões de jornada não será mais suportado para organizações que não usaram esse recurso nos últimos 90 dias. Esse recurso já está indisponível para novas organizações de clientes desde 8 de julho de 2025. Para obter alternativas, consulte [Pesquisa de evento de experiência no jornada](../building-journeys/exp-event-lookup.md).
-
-
-* **Migrar subdomínios para delegação personalizada** - Agora é possível migrar subdomínios usando o modo de delegação CNAME para delegação personalizada diretamente da interface, de modo que você possa atender a políticas de segurança mais rigorosas, de acordo com as diretrizes da sua empresa, sem recriar configurações de canal.
-
-  **Observação**: este recurso só está disponível para um conjunto de organizações (<strong>Disponibilidade Limitada</strong>). Para obter acesso, entre em contato com um representante da Adobe.
 
 
 #### Designer de email
