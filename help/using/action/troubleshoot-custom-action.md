@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
+source-git-commit: bae446ea38a0cb97487201f7dcf4df751578ad0a
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 2%
+source-wordcount: '1041'
+ht-degree: 1%
 
 ---
 
@@ -93,6 +93,20 @@ Se a solicitação falhar, você pode verificar:
 * O método de solicitação (GET vs. POST) e a carga útil correspondente.
 * O endpoint da API e os cabeçalhos definidos na ação personalizada.
 * Use os dados de resposta para identificar possíveis erros de configuração.
+
+## Manipular eventos de descarte e tempos limite ociosos {#handling-discard-events-and-idle-timeouts}
+
+Quando uma ação personalizada em uma jornada aciona um evento que deve iniciar uma **segunda jornada**, verifique se a segunda jornada está em um estado válido e se o evento é reconhecido. Se o evento não atender às condições de entrada da segunda jornada, o evento poderá ser **descartado** e aparecer em logs com códigos como `notSuitableInitialEvent`. Os tempos limite de ociosidade podem ocorrer se a segunda jornada não estiver pronta, resultando no descarte de eventos nos logs.
+
+**Causas comuns:**
+
+* **Qualificação de evento não atendida** - A segunda jornada usa um evento baseado em regras com uma condição de qualificação (por exemplo, um campo obrigatório não deve estar vazio, como `isNotEmpty` em um campo específico). Se a carga do evento não atender a essa condição (por exemplo, o campo está vazio ou ausente), o evento será **recebido, mas descartado**, e a segunda jornada não será acionada. Esse é o comportamento esperado; a documentação e os registros confirmam que, se a condição de qualificação não for atendida, o evento será descartado e a jornada não será acionada para esse perfil. Verifique se o conteúdo enviado pela ação personalizada inclui todos os campos e valores exigidos pela configuração do evento da segunda jornada. Saiba como [configurar eventos baseados em regras](../event/about-creating.md) e [solucionar problemas de recepção de eventos](../building-journeys/troubleshooting-execution.md#checking-if-people-enter-the-journey) na execução da jornada.
+
+* **Segunda jornada não pronta** - Os tempos limite de ociosidade poderão ocorrer se a segunda jornada ainda não estiver ativa (por exemplo, não em modo de teste ou não ativa) ou se houver um intervalo de tempo entre o acionamento da ação personalizada e a segunda jornada pronta para receber. Verifique se a jornada de destino foi publicada ou está no modo de teste antes da ação personalizada ser acionada.
+
+* **Diagnosticando eventos de descarte** - Se você vir eventos de descarte em logs, verifique os logs de jornada e os rastreamentos do Splunk para confirmar se o evento foi recebido, mas descartado devido à qualificação (a carga não atendia à regra) ou ao tempo. Verifique se a data de início e a configuração da segunda jornada estão corretas e se a jornada está dentro de sua janela de data ativa.
+
+Para evitar o descarte de eventos ao encadear jornadas por meio de ações personalizadas, valide a carga do evento em relação à regra de evento da segunda jornada e confirme se a jornada de destino está ativa ou em teste e dentro de sua janela de data ativa.
 
 ## Recursos adicionais
 
