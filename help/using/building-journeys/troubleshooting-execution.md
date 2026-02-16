@@ -59,7 +59,7 @@ Você pode começar a solucionar problemas com as perguntas abaixo:
 
 * **Condição de evento e tipos de dados de esquema** - Verifique se os tipos de dados usados na condição (regra) do evento correspondem ao esquema do evento. Tipos incompatíveis (por exemplo, sequência de caracteres vs. número inteiro) fazem com que a avaliação da regra falhe e os eventos sejam descartados. Consulte [Verificar identidade do evento](#verify-event-identity-and-rule-data-types).
 
->>
+&#x200B;>>
 **Para jornadas de qualificação de público-alvo com públicos-alvo de streaming**: se estiver usando uma atividade de qualificação de público-alvo como ponto de entrada de jornada, esteja ciente de que nem todos os perfis qualificados para o público-alvo necessariamente entrarão na jornada devido a fatores de tempo, saídas rápidas do público-alvo ou se os perfis já estiverem no público-alvo antes da publicação. Saiba mais sobre [considerações de tempo de qualificação de público de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Verificar identidade do evento {#verify-event-identity-and-rule-data-types}
