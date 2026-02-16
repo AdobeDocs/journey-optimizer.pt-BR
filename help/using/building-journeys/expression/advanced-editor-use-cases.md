@@ -11,10 +11,10 @@ hidefromtoc: true
 keywords: expressão, condição, casos de uso, eventos
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: bc89e88baf2adfbb9bb33a60a67b74bc37f31984
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 2%
+source-wordcount: '573'
+ht-degree: 1%
 
 ---
 
@@ -114,6 +114,16 @@ Essa expressão retorna um valor booleano.
   ```
 
 A partir daí, você pode adicionar outro caminho na jornada para quando o produto não estiver na loja e enviar uma notificação com oferta de engajamento. Configure as mensagens de acordo e use dados de personalização para aprimorar o público-alvo da mensagem.
+
+## Filtragem de Carimbo de Data e Hora em Expressões
+
+Ao referenciar vários eventos de atividade do carrinho, especifique uma janela de carimbo de data e hora de início e de término para evitar a coleta de dados históricos. Por exemplo:
+
+```json
+toDateTimeOnly(currentDataPackField.timestamp) >= toDateTimeOnly(@event{poc_UDXCartAddSavedCheckOutEv.timestamp})
+AND
+toDateTimeOnly(currentDataPackField.timestamp) < toDateTimeOnly(nowWithDelta(4, "hours"))
+```
 
 ## Exemplos de manipulações de cadeias de caracteres com o editor de expressão avançado
 
