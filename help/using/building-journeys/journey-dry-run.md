@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1143'
 ht-degree: 8%
 
 ---
@@ -137,16 +137,16 @@ O Jornada Dry run gera **stepEvents**. Estes stepEvents têm um sinalizador espe
 
 ![Jornada atributos de esquema de simulação](assets/dry-run-attributes.png)
 
-* `_experience.journeyOrchestration.stepEvents.inDryRun` retorna `true` se a Execução Seca estiver ativada, caso contrário `false`
-* `_experience.journeyOrchestration.stepEvents.dryRunID` retorna a ID de uma instância de simulação
+* `_experience.journeyOrchestration.stepEvents.inDryRun` retorna `true` quando a jornada está no modo Dry run e `null` para jornadas de teste ou ao vivo (execução não seca).
+* `_experience.journeyOrchestration.stepEvents.dryRunID` retorna a ID da instância de simulação quando no modo de simulação; para jornadas de teste ou ativas, é `null`.
 
 
 Se exportar dados de stepEvent para **sistemas externos**, você poderá filtrar execuções de execução Seca usando o sinalizador `inDryRun`.
 
-Ao analisar **métricas de relatórios do jornada** usando o serviço de consulta [!DNL Adobe Experience Platform], os eventos de etapa gerados por Dry Run devem ser excluídos. Para fazer isso, defina o sinalizador `inDryRun` como `false`.
+Ao analisar **métricas de relatórios do jornada** usando o serviço de consulta [!DNL Adobe Experience Platform], os eventos de etapa gerados por Dry Run devem ser excluídos. Para fazer isso, exclua os eventos de etapa em que `inDryRun` é `true` (ou seja, inclua apenas eventos em que `inDryRun` seja `null` ou `false`).
 
 ## Vídeo tutorial {#dry-run-video}
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
