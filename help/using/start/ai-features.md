@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
+exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
+source-git-commit: 2ba8aecf9f9665d00f553a281ad365e3535b5efe
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1755'
 ht-degree: 3%
 
 ---
@@ -105,7 +106,7 @@ O [Agente de Análise de Jornada](https://experienceleague.adobe.com/pt-br/docs/
 
 #### Jornada Criar habilidade {#journey-create-skill}
 
-O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} ajuda a criar jornadas com base em prompts de linguagem natural, traduzindo suas metas em configurações de jornada estruturadas:
+O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} ajuda a criar jornadas com base em prompts de linguagem natural, traduzindo suas metas em configurações de jornada estruturadas:
 
 +++**Principais Recursos**
 
@@ -125,7 +126,7 @@ O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/pt-br/doc
 
 +++
 
-### Agente de experimentação {#experimentation-agent}
+### Experimentation Agent {#experimentation-agent}
 
 O [Experimentation Agent](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} moderniza a forma como você executa e gerencia experimentos digitais em sites, emails, mensagens por push e aplicativos:
 
@@ -160,7 +161,7 @@ O [Experimentation Agent](https://experienceleague.adobe.com/pt-br/docs/experien
 
 ### Agentes de IA adicionais
 
-**Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
 **Agent Orchestrator** - Coordena vários agentes especializados para solucionar desafios de marketing complexos de várias etapas. O orquestrador determina automaticamente quais agentes envolver e sequencia seu trabalho com eficiência. [Saiba mais sobre o Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
@@ -170,6 +171,7 @@ Use a IA generativa para criar e personalizar o conteúdo em vários canais, ace
 
 ### Recursos principais
 
+* **Geração de conteúdo completo** - Gere experiências de conteúdo completas (texto e imagens) em um fluxo para email, Web, páginas de aterrissagem e push. [Gerar conteúdo completo com o Assistente de IA](../content-management/generative-full-content.md)
 * **Geração de texto** - Crie uma cópia atraente com base na voz e nos objetivos de sua marca. [Gerar texto com IA](../content-management/generative-text.md)
 * **Geração de imagem** - Gere imagens personalizadas usando o Adobe Firefly. [Gerar imagens com IA](../content-management/generative-image.md)
 * **Variações de conteúdo** - Produza várias variações para teste A/B. [Experimento de conteúdo com IA](../content-management/generative-experimentation.md)
@@ -178,7 +180,7 @@ Use a IA generativa para criar e personalizar o conteúdo em vários canais, ace
 
 ### Práticas recomendadas
 
-* **Seja específico** - Forneça prompts claros e detalhados para obter melhores resultados
+* **Seja específico** - Forneça prompts claros e detalhados para obter melhores resultados. [Saiba mais sobre as práticas recomendadas do prompt](../content-management/ai-assistant-prompting-guide.md)
 * **Carregar ativos da marca** - Use PDFs, imagens ou arquivos ZIP (máx. 50 MB) para manter a consistência da marca
 * **Usar modelos personalizados** - Utilize modelos específicos da marca com até 8-10 imagens
 * **Fornecer feedback** - Classifique as saídas para ajudar a melhorar os modelos de IA
@@ -269,7 +271,7 @@ Procurar nos manuais do Journey Optimizer cenários comuns, como:
 
 +++
 
-[Exibir todos os manuais disponíveis](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"} | [Saiba mais na documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=pt-BR){target="_blank"}
+[Exibir todos os manuais disponíveis](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"} | [Saiba mais na documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Recursos adicionais de IA {#additional-capabilities}
 
@@ -278,6 +280,12 @@ Procurar nos manuais do Journey Optimizer cenários comuns, como:
 Transforme designs de imagem estática (JPEG, PNG) em modelos de email editáveis do HTML usando tecnologia de conversão habilitada por IA.
 
 [Saiba mais sobre imagem para o HTML](../email/image-to-html.md)
+
+### GenStudio para marketing de desempenho
+
+Integre com o Adobe GenStudio for Performance Marketing para criar conteúdo de email alimentado por IA e importar modelos no Journey Optimizer para orquestração. Exporte modelos do Journey Optimizer para o GenStudio, gere variações com IA e traga-os de volta para implantação. (Disponibilidade limitada, somente canal de email.)
+
+[Saiba mais sobre o GenStudio](../integrations/genstudio.md)
 
 ### Classificação de alinhamento à marca
 
@@ -293,7 +301,7 @@ Avalie como seu conteúdo se alinha às diretrizes da sua marca usando a pontua�
 * Conhecimento de produto do **[Assistente de IA](#ai-assistant)** - Requer a aprovação das Diretrizes de usuário da IA geradora da Adobe
 * **[Agente de Análise de Jornada](#journey-agent)** - Requer permissões para Exibir/Gerenciar Jornadas e Exibir/Gerenciar Segmentos
 * **[Agente de Criação de Jornada](#journey-create-agent)** - Exige Gerenciar Jornadas, Exibir Eventos de Jornada/Fontes de Dados/Ações, Exibir Segmentos e Gerenciar Permissões de Segmentos
-* **[Agente de experimentação](#experimentation-agent)** - Requer permissões para Exibir experimentos e Gerenciar metadados de experimento
+* **[Experimentation Agent](#experimentation-agent)** - Requer as permissões Exibir Experimentos e Gerenciar Metadados de Experimento
 
 Todos os agentes de IA exigem acesso ao Assistente de IA e concordam com as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud.
 
