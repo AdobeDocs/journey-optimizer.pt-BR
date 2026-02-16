@@ -2,26 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Jornadas versus campanhas - escolha a abordagem correta
-description: Compare jornadas, campanhas e campanhas orquestradas para escolher a abordagem certa para suas necessidades de marketing no Adobe Journey Optimizer
+description: Compare Jornadas, Campanhas de ação, Campanhas acionadas por API e Campanhas orquestradas para escolher a abordagem certa para suas necessidades de marketing no Adobe Journey Optimizer.
 feature: Journeys, Campaigns, Get Started, Overview
+topic: Content Management
 role: User
 level: Beginner
 keywords: jornada, campanha, orquestrado, comparação, escolher, decisão, fluxo de trabalho, tempo real, lote, orquestração, várias etapas, agendado, acionado por API, orientado por evento
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: fc2dc5924f4998d1285dee9c19a0d7e71a1e5722
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1593'
 ht-degree: 3%
 
 ---
 
 # Jornadas versus campanhas: escolha a abordagem certa {#journeys-vs-campaigns}
 
-A Adobe Journey Optimizer oferece três abordagens poderosas para alcançar e envolver seus clientes. Entender quando usar cada um é fundamental para criar experiências de marketing eficazes.
+O [!DNL Adobe Journey Optimizer] oferece quatro formas principais de alcançar e envolver seus clientes: **Jornada**, **Campanhas de Ação**, **Campanhas acionadas por API** e **Campanhas Orquestradas**. Escolher a correta depende de você precisar de orquestração em tempo real do :1, difusões agendadas, mensagens orientadas por eventos ou fluxos de trabalho em lote complexos.
 
-Este guia ajuda você a escolher entre **Jornada**, **Campanhas de ação**, **Campanhas acionadas por API** e **Campanhas Orquestradas** com base nas suas necessidades de marketing específicas.
+Este guia ajuda você a escolher com base no estilo de execução, nas necessidades de dados e no caso de uso, com uma comparação rápida, uma árvore de decisão e exemplos concretos.
 
 ## Visão geral da comparação rápida {#quick-overview}
 
@@ -31,6 +32,10 @@ Este guia ajuda você a escolher entre **Jornada**, **Campanhas de ação**, **C
 | **Campanhas de ação** | Transmissões programadas ou recorrentes para públicos-alvo | Execução em lote - público-alvo processado junto no momento do envio |
 | **Campanhas acionadas por API** | Mensagens transacionais ou orientadas por eventos de sistemas externos | Execução sob demanda - acionada pela chamada à API com carga |
 | **Campanhas orquestradas** | Fluxos de trabalho em lote complexos com segmentação de várias entidades | Tela em lote - todos os perfis processados juntos |
+
+>[!TIP]
+>
+>**Princípio básico rápido:** Precisa que cada cliente se mova em seu próprio ritmo com lógica em tempo real? Use **Jornadas**. Enviar uma mensagem para um público-alvo de acordo com o cronograma? Use **Campanhas de Ação**. Acionamento de um sistema externo via API? Use **Campanhas acionadas por API**. Precisa de dados de várias entidades, contagens exatas ou uma tela de lote? Use **Campanhas Orquestradas**.
 
 ## Comparação detalhada {#detailed-comparison}
 
@@ -55,7 +60,7 @@ Use esta tabela abrangente para entender as principais diferenças:
 
 ## Guia de decisão {#decision-guide}
 
-Siga esta árvore decisória para escolher a abordagem correta:
+Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas usam mais de um tipo; escolha o melhor ajuste para cada caso de uso.
 
 ### Etapa 1: qual é o seu requisito de execução?
 
@@ -88,14 +93,14 @@ Siga esta árvore decisória para escolher a abordagem correta:
 | Sua necessidade | Método recomendado | Por que |
 |-----------|---------------------|-----|
 | Dê as boas-vindas a novos clientes com integração em várias etapas | Jornadas | Entrada em tempo real, vários pontos de contato, caminhos condicionais |
-| Enviar informativo mensal aos assinantes | Campanha de ação | Mensagem agendada simples para o público |
+| Enviar informativo mensal aos assinantes | Campanhas de ações | Mensagem agendada simples para o público |
 | Abandono do carrinho com sequência de lembretes | Jornadas | Acionador em tempo real, tempos de espera e acompanhamento condicional |
-| Anúncio promocional para todos os clientes | Campanha de ação | Mensagem única, entrega imediata |
+| Anúncio promocional para todos os clientes | Campanhas de ações | Mensagem única, entrega imediata |
 | Reengajamento de usuários inativos com base no comportamento | Jornadas | Acionado pela qualificação de público-alvo, caminho personalizado |
 | Venda rápida acionada por evento comercial | Jornadas (Evento Comercial) | Acionador em tempo real que afeta vários clientes |
-| Promoção sazonal com integração ao catálogo de produtos | Campanha orquestrada | Dados de várias entidades, segmentação complexa, contagem exata |
-| Mensagem transacional acionada por API | Campanha acionada por API | Acionador do sistema externo, entrega imediata |
-| Envio de vários níveis por reserva | Campanha orquestrada | Relacionamentos de várias entidades, uma mensagem por reserva |
+| Promoção sazonal com integração ao catálogo de produtos | Campanhas orquestradas | Dados de várias entidades, segmentação complexa, contagem exata |
+| Mensagem transacional acionada por API | Campanhas acionadas por API | Acionador do sistema externo, entrega imediata |
+| Envio de vários níveis por reserva | Campanhas orquestradas | Relacionamentos de várias entidades, uma mensagem por reserva |
 
 ## Principais distinções explicadas {#key-distinctions}
 
@@ -230,12 +235,14 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 
 +++ É possível combinar jornadas e campanhas em minha estratégia de marketing?
 
-Com certeza! A maioria das organizações usa todas as três abordagens para diferentes cenários:
+Sim. Muitas organizações usam todas as quatro abordagens para diferentes cenários:
 
-* Jornadas para envolvimento comportamental e em tempo real
-* Campanhas de ação para comunicações de transmissão programadas
-* Campanhas acionadas por API para mensagens transacionais
-* Campanhas orquestradas para campanhas em lote complexas e com grande volume de dados
+* **Jornadas** para envolvimento comportamental e em tempo real
+* **Campanhas de ação** para comunicações de difusão agendadas
+* **Campanhas acionadas por API** para mensagens transacionais
+* **Campanhas orquestradas** para campanhas em lote complexas e com muitos dados
+
+Use a ferramenta certa para cada caso de uso, em vez de forçar uma abordagem para tudo.
 
 +++
 
@@ -253,17 +260,17 @@ As Campanhas de ação normalmente são as mais simples (mensagem única para o 
 
 +++ Qual dimensionamento é melhor para públicos-alvo grandes?
 
-Todos os três podem ser bem dimensionados, mas:
+Todos os quatro podem ser bem dimensionados; a escolha certa depende do seu padrão:
 
-* As **Jornadas de Leitura de Público** e as **Campanhas de Ação** estão otimizadas para públicos de lote grandes
-* **Campanhas orquestradas** excedem a segmentação complexa com grandes conjuntos de dados
-* **Jornadas unitárias** processam perfis individualmente, portanto, a escala depende do volume de eventos
+* As **Jornadas de Leitura de Público** e as **Campanhas de Ação** estão otimizadas para públicos de lote grandes (uma mensagem ou fluxo para vários perfis de uma só vez).
+* As **Campanhas orquestradas** são excelentes em segmentações complexas com grandes conjuntos de dados e dados de várias entidades.
+* **O Jornada** unitário (baseado em eventos) processa perfis individualmente à medida que os eventos ocorrem, portanto, a escala depende do volume e da taxa de transferência do evento.
 
 +++
 
 +++ Posso usar o mesmo público-alvo em jornadas e campanhas?
 
-Sim, os públicos-alvo criados no Adobe Experience Platform podem ser usados em todas as três abordagens.
+Sim. Os públicos-alvo criados no [!DNL Adobe Experience Platform] podem ser usados em Jornadas, Campanhas de Ação e Campanhas Orquestradas (em que a lógica do público-alvo também pode ser criada sob demanda na tela). As Campanhas acionadas por API são orientadas por carga e não usam públicos-alvo pré-criados da mesma maneira.
 
 +++
 
@@ -271,12 +278,13 @@ Sim, os públicos-alvo criados no Adobe Experience Platform podem ser usados em 
 
 Pronto(a) para começar a criar? Explore a documentação detalhada da abordagem escolhida:
 
-* **[Introdução ao Jornada](../building-journeys/journey.md)** - Saiba mais sobre tipos de jornada, designer e fluxo de trabalho
-* **[Introdução às Campanhas](../campaigns/get-started-with-campaigns.md)** - Explore as campanhas acionadas por ação e API
-* **[Introdução às Campanhas Orquestradas](../orchestrated/gs-orchestrated-campaigns.md)** - Descubra fluxos de trabalho de tela de lote
+* **[Introdução ao Jornada](../building-journeys/journey.md)** - Tipos de Jornada, designer e fluxo de trabalho
+* **[Introdução às Campanhas](../campaigns/get-started-with-campaigns.md)** - Campanhas acionadas por ação e API
+* **[Introdução às Campanhas Orquestradas](../orchestrated/gs-orchestrated-campaigns.md)** - Fluxos de trabalho de tela de lote
 
-**Precisa de mais ajuda para decidir?**
-* [Comparação de tipos de jornada](../building-journeys/journey.md#journey-types-comparison)
-* [Comparação de tipos de campanha](../campaigns/get-started-with-campaigns.md#campaign-types)
-* [Jornada perguntas frequentes](../building-journeys/journey-faq.md)
-* [Perguntas frequentes sobre campanhas orquestradas](../orchestrated/orchestrated-campaigns-faq.md)
+>[!MORELIKETHIS]
+>
+>* [comparação de tipos de Jornada](../building-journeys/journey.md#journey-types-comparison)
+>* [Comparação de tipos de campanha](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [Perguntas frequentes sobre o Jornada](../building-journeys/journey-faq.md)
+>* [Perguntas frequentes sobre Campanhas Orquestradas](../orchestrated/orchestrated-campaigns-faq.md)
