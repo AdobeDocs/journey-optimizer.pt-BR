@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1bcd30022ea2360d44f5519e156129f603cdf149
+source-git-commit: 7dac7dbdb6a84455dc97828884027cfed39f3995
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 38%
+source-wordcount: '1529'
+ht-degree: 39%
 
 ---
 
@@ -52,8 +52,9 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <li>Melhor capacidade de entrega - O Spread envia ao longo do tempo para ajudar a manter uma sólida reputação do remetente e reduzir o risco de ser sinalizado como spam.</li>
 <li>Controle de carga - Evite sobrecarregar os sistemas de downstream (por exemplo, centrais de atendimento, páginas de aterrissagem) limitando quantas mensagens saem de uma vez.</li>
 <li>Casos de uso de alto volume e sensíveis ao tempo — adequados a grandes públicos ou quando é necessário controlar o tempo (por exemplo, capacidade da central de atendimento, aumento ou ofertas vinculadas ao tempo).</li>
-<p>Em campanhas, esse recurso está disponível para todos os ambientes (Disponibilidade geral). No jornada, esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 </ul>
+<p>Em campanhas, esse recurso está disponível para todos os ambientes (Disponibilidade geral).</p>
+<p>No jornada, esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -269,8 +270,9 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Designer de email
 
-* **Usar um tema de marca para converter uma imagem em um modelo de email** - Ao converter uma imagem em um modelo de email no Journey Optimizer, agora é possível usar um tema como entrada para que o HTML gerado siga os parâmetros da sua marca. Estilos como cor de fundo, cor do botão, fontes, espaçamento entre linhas, margens e preenchimento são aplicados automaticamente, reduzindo o trabalho manual de design e fornecendo um modelo pronto para uso com edições mínimas.
+* **Usar temas para converter imagens em modelos de email** - Ao converter uma imagem em um modelo de email no Journey Optimizer, agora é possível usar um tema como entrada para que o HTML gerado siga os parâmetros da sua marca. Estilos como cor de fundo, cor do botão, fontes, espaçamento entre linhas, margens e preenchimento são aplicados automaticamente, reduzindo o trabalho manual de design e fornecendo um modelo pronto para uso com edições mínimas. [Leia mais](../content-management/image-to-html.md)
 
+  Data de disponibilidade: 13 de fevereiro de 2026.
 
 * **Atualizar marcas com a nova guia de cores**: as diretrizes de marca ajudam a garantir que sua marca seja apresentada de forma consistente em todos os pontos de contato. A nova seção Cores define os padrões do sistema de cores da sua marca, descrevendo como as cores são selecionadas, organizadas e aplicadas em várias experiências. Ela garante o uso consistente de cores primárias, secundárias, de destaque e neutras para promover uma identidade de marca coesa, acessível e reconhecível.
 
@@ -290,7 +292,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 * **Visualização do Experience Decisioning no canal de experiência baseado em código** - Agora é possível visualizar itens de decisão ao configurar o Experience Decisioning com o canal de experiência baseado em código. A visualização está disponível diretamente na interface de criação antes de entrar em funcionamento.
 
 
-* **Anexar fragmentos a itens de decisão** - O Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão, que podem ser aproveitados em campanhas de experiência baseada em código por meio de políticas de decisão.
+* **Anexar fragmentos a itens de decisão**: o Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão que podem ser aproveitados em campanhas de experiência baseada em código por meio de políticas de decisão. [Leia mais](../experience-decisioning/fragments-decision-policies.md)
 
   **Observação**: anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).
 
@@ -303,6 +305,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
   **Observação**: anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).
 
+#### SMS
 
 * **Webhooks de SMS**: <strong>Webhooks</strong> agora são compatíveis com todos os provedores de SMS. Você pode configurar cada webhook com base na finalidade pretendida: <strong>webhooks de entrada</strong> para capturar mensagens de entrada e <strong>webhooks de comentários</strong> para receber confirmações de entrega, atualizações de status e outros eventos relacionados à mensagem. [Leia mais](../sms/sms-webhook.md)
 
