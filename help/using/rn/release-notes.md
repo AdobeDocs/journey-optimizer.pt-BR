@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0472c9bb9decc49e5da392003027df23ec528ac9
+source-git-commit: 1bcd30022ea2360d44f5519e156129f603cdf149
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 39%
+source-wordcount: '1525'
+ht-degree: 38%
 
 ---
 
@@ -46,12 +46,13 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tbody>
 <tr>
 <td>
-<p>Você pode programar mensagens de saída de campanhas ou jornadas para serem entregues em lotes controlados ao longo do tempo.</p>
+<p>Agora é possível programar mensagens de saída de campanhas ou jornadas do Journey Optimizer para serem entregues em lotes controlados ao longo do tempo.</p>
 <p>O Wave sending oferece os seguintes benefícios:</p>
 <ul>
 <li>Melhor capacidade de entrega - O Spread envia ao longo do tempo para ajudar a manter uma sólida reputação do remetente e reduzir o risco de ser sinalizado como spam.</li>
 <li>Controle de carga - Evite sobrecarregar os sistemas de downstream (por exemplo, centrais de atendimento, páginas de aterrissagem) limitando quantas mensagens saem de uma vez.</li>
 <li>Casos de uso de alto volume e sensíveis ao tempo — adequados a grandes públicos ou quando é necessário controlar o tempo (por exemplo, capacidade da central de atendimento, aumento ou ofertas vinculadas ao tempo).</li>
+<p>Em campanhas, esse recurso está disponível para todos os ambientes (Disponibilidade geral). No jornada, esse recurso só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 </ul>
 </td>
 </tr>
