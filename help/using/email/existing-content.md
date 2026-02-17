@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: email, importação, conteúdo, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 30%
@@ -30,7 +30,7 @@ O [!DNL Journey Optimizer] permite importar conteúdo existente do HTML para cri
 
 >[!TIP]
 >
->Se você tiver designs de imagem (JPEG ou PNG) em vez de arquivos HTML, poderá usar o [conversor de imagem para HTML](image-to-html.md) para convertê-los automaticamente em modelos de email editáveis do HTML usando IA.
+>Se você tiver designs de imagem (JPEG ou PNG) em vez de arquivos HTML, poderá usar o [conversor de imagem para HTML](../content-management/image-to-html.md) para convertê-los automaticamente em modelos de email editáveis do HTML usando IA.
 
 Para importar um arquivo contendo conteúdo HTML, siga as etapas abaixo:
 
@@ -56,8 +56,8 @@ Para importar um arquivo contendo conteúdo HTML, siga as etapas abaixo:
 
 1. Agora você pode personalizar o arquivo importado, conforme necessário, com as funcionalidades de Designer de email. [Saiba mais](content-from-scratch.md)
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
-Saiba como importar conteúdo HTML existente, ajustar o design, adicionar mirror page e links para cancelar a inscrição e codificar o conteúdo.
+Saiba como importar conteúdo HTML existente, ajustar o design, adicionar mirror page e links para cancelar a inscrição e como codificar seu conteúdo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

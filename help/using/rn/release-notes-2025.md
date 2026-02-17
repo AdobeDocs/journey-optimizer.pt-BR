@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <p>O conversor de imagem para HTML é um recurso viabilizado por IA que converte designs de imagem estática em modelos de conteúdo de email HTML totalmente personalizáveis e modulares. Essa ferramenta sem código permite que os profissionais de marketing transformem designs visuais em modelos de email responsivos e editáveis sem a necessidade de conhecimento técnico especializado, o que é perfeito para a migração de plataforma, a criação rápida de modelos e a criação de bibliotecas de modelos reutilizáveis.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.</p>
-<p>Para obter mais informações, consulte a <a href="../email/image-to-html.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../content-management/image-to-html.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 30 de outubro de 2025</p>
 </td>
 </tr>

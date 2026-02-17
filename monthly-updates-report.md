@@ -5,13 +5,13 @@ title: Relatório mensal de atualizações de documentação
 description: Lista de páginas de documentação novas e atualizadas
 hide: true
 hidefromtoc: true
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
 
 ---
-
 
 # Relatório mensal de atualizações de documentação
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 - [Ativar modo de alta taxa de transferência para campanhas acionadas por API](help/using/campaigns/api-triggered-high-throughput.md) - 27 de outubro
 - [Definir horas de silêncio](help/using/conflict-prioritization/quiet-hours.md) - 22 de outubro
 - [Journey Optimizer Experimentation Accelerator](help/using/content-management/experiment-accelerator-gs.md) - 24 de outubro
-- [Converter imagens em modelos do HTML com o conversor de imagem para HTML](help/using/email/image-to-html.md) - 30 de outubro
+- [Converter imagens em modelos do HTML com o conversor de imagem para HTML](help/using/content-management/image-to-html.md) - 30 de outubro
 - [Criar políticas de decisões](help/using/experience-decisioning/create-decision-policy.md) - 7 de outubro
 - [Usar políticas de decisão nas mensagens](help/using/experience-decisioning/use-decision-policy.md) - 9 de outubro
 - [Configurar sua configuração de canal](help/using/orchestrated/channel-config.md) - 14 de outubro

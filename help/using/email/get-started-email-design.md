@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: ht
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Após criar um email, é possível começar a projetar o conteúdo de email.
 
    * **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar um conteúdo de email [nesta seção](existing-content.md).
 
-   * **Converter designs de imagem em modelos HTML** usando o conversor de imagem para HTML viabilizado por IA. Saiba como transformar imagens estáticas em modelos de email editáveis [nesta seção](image-to-html.md).
+   * **Converter designs de imagem em modelos HTML** usando o conversor de imagem para HTML viabilizado por IA. Saiba como transformar imagens estáticas em modelos de email editáveis [nesta seção](../content-management/image-to-html.md).
 
    * **Selecionar um conteúdo existente** de uma lista de modelos integrados ou personalizados. Saiba como trabalhar com modelos de email [nesta seção](../email/use-email-templates.md).
 
@@ -84,8 +84,8 @@ Consulte na tabela abaixo as práticas recomendadas de design de emails:
 
 Saiba como criar conteúdo de email com o editor de mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417587?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Saiba como configurar experimentos de conteúdo para testes A/B e explorar o conteúdo de email que melhor impulsiona seus objetivos de negócios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447336?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
