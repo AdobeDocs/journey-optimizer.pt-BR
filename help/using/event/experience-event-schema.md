@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: schemas, XDM, plataforma, streaming, assimilação, jornada
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Assim, um pré-requisito importante para configurar eventos para o [!DNL Journey
 
 >[!CAUTION]
 >
->Pesquisas de eventos de experiência em condições de jornada não são mais suportadas. Procure práticas recomendadas alternativas aqui. Se você tiver um caso de uso de jornada acionado por evento que ainda precise de pesquisa de eventos de experiência e não possa ser suportado por meio de nenhuma das alternativas listadas, entre em contato com o representante da Adobe e ajudaremos você a atingir sua meta.
+>A partir de 8 de julho de 2025, novas organizações de clientes não poderão criar expressões usando atributos de evento de experiência em condições de jornada. A partir de 1º de abril de 2026, as organizações que não acessaram eventos de experiência por meio de expressões do jornada nos últimos 90 dias não terão mais acesso a esse recurso. Abordagens alternativas e práticas recomendadas estão listadas em [Pesquisa de evento de experiência no jornada](../building-journeys/exp-event-lookup.md).
 >
 >O acesso ao contexto do evento inicial de uma jornada não é afetado.
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=pt-BR).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

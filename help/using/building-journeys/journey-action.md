@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6bef70948918be30d92c0c3a1e63d5ff8681f15f
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 13%
+source-wordcount: '1031'
+ht-degree: 12%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 13%
 >id="ajo_action_activity"
 >title="Atividade de ação"
 >abstract="A atividade genérica **Ação** permite configurar uma única ação de canal nativa e várias atividades de entrada com a capacidade de adicionar otimização a qualquer ação de canal integrada."
-
->[!AVAILABILITY]
->
->Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 O [!DNL Journey Optimizer] vem com uma nova atividade genérica **Action** que permite configurar uma única ação de canal interna e também várias atividades de entrada.
 

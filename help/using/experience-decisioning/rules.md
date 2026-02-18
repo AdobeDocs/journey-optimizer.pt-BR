@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 9%
+source-wordcount: '936'
+ht-degree: 8%
 
 ---
 
@@ -92,11 +92,7 @@ Para criar uma regra, siga estas etapas:
    * **[!UICONTROL Item de decisão]** - A regra pode ser aplicada em um [item de decisão](#decision-rules) no contexto da Decisão;
    * **[!UICONTROL Direcionamento]** - A regra pode ser usada ao criar regras de [direcionamento](#targeting-rules), como parte da [otimização de conteúdo](../content-management/optimization-targeting.md) em uma campanha ou jornada, na [Atividade Otimizar jornada](../building-journeys/optimize.md#targeting).
 
-1. Se você criar uma regra de **[!UICONTROL Item de decisão]**, poderá selecionar **[!UICONTROL Habilitar pesquisa de conjunto de dados]** para usar dados do Adobe Experience Platform para enriquecer sua lógica de decisão com dados externos. Isso é especialmente útil para atributos que mudam com frequência, como disponibilidade de produtos ou preços em tempo real.
-
-   >[!AVAILABILITY]
-   >
-   >Esse recurso está atualmente disponível para todos os clientes como uma versão beta pública. Entre em contato com o representante de sua conta se desejar obter acesso. [Saiba como usar dados do Adobe Experience Platform para a tomada de decisão](../experience-decisioning/aep-data-exd.md)
+1. Se você criar uma regra de **[!UICONTROL Item de decisão]**, poderá selecionar **[!UICONTROL Habilitar pesquisa de conjunto de dados]** para usar dados do Adobe Experience Platform para enriquecer sua lógica de decisão com dados externos. Isso é especialmente útil para atributos que mudam com frequência, como disponibilidade de produtos ou preços em tempo real. [Saiba como usar dados do Adobe Experience Platform para a tomada de decisão](../experience-decisioning/aep-data-exd.md)
 
 1. A tela de criação da regra é aberta. Nomeie a regra e forneça uma descrição.
 
@@ -137,4 +133,4 @@ Para criar uma regra, siga estas etapas:
 
 Saiba como criar, duplicar e aplicar **regras de direcionamento** reutilizáveis no Adobe Journey Optimizer para personalizar campanhas com eficiência com base em atributos de cliente, como região, idioma e comportamento, economizando tempo e melhorando a precisão do público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476132/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

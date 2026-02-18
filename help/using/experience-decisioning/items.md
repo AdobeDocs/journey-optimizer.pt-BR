@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2100'
 ht-degree: 15%
 
 ---
@@ -78,8 +78,8 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 >abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -123,13 +123,9 @@ O limite é usado como uma restrição para definir o número máximo de vezes q
 >
 >O valor do contador de limite pode levar até 3 segundos para ser atualizado. Por exemplo, digamos que você esteja exibindo um banner da Web com uma oferta no seu site. Se um determinado usuário navegar para a próxima página do seu site em menos de 3 segundos, o valor do contador não será incrementado para esse usuário.
 
-Ao configurar regras de limite, você pode referenciar atributos armazenados em conjuntos de dados do Adobe Experience Platform para definir limites. Para usar um conjunto de dados, selecione-o na seção **[!UICONTROL Conjunto de Dados]**.
+Ao configurar regras de limite, você pode referenciar atributos armazenados em conjuntos de dados do Adobe Experience Platform para definir limites. Para usar um conjunto de dados, selecione-o na seção **[!UICONTROL Conjunto de Dados]**. [Saiba como usar dados do Adobe Experience Platform para a Decisão](../experience-decisioning/aep-data-exd.md)
 
 ![](assets/exd-lookup-capping.png)
-
->[!NOTE]
->
->No momento, esse recurso está disponível como uma Disponibilidade limitada para todos os usuários. Informações detalhadas sobre como usá-lo estão disponíveis nesta seção: [Usar dados do Adobe Experience Platform para a Decisão](../experience-decisioning/aep-data-exd.md)
 
 Para definir regras de limite para o item de decisão, clique no botão **[!UICONTROL Criar limite]** e siga as etapas detalhadas abaixo.
 

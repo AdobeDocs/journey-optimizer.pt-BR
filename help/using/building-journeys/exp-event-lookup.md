@@ -5,10 +5,10 @@ title: Pesquisa de eventos de experiência no jornada
 description: Saiba como usar a pesquisa de Eventos de experiência no jornada
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 6%
+source-wordcount: '960'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->A partir de 8 de julho de 2025, em novas organizações de clientes, a criação de expressões usando eventos de experiência não será mais suportada no editor de expressão usado em condições de jornada. Como resultado, os eventos de experiência na [fonte de dados da Experience Platform](../datasource/adobe-experience-platform-data-source.md) não poderão ser usados para criar expressões. Abordagens alternativas e práticas recomendadas para criar expressões/lógica com eventos de experiência são referenciadas abaixo.
+>A partir de 8 de julho de 2025, em novas organizações de clientes, a criação de expressões usando eventos de experiência não será mais suportada no editor de expressão usado em condições de jornada. Como resultado, os eventos de experiência na [fonte de dados do Experience Platform](../datasource/adobe-experience-platform-data-source.md) não podem ser usados para criar expressões.
+>
+>A partir de 1º de abril de 2026, o uso de atributos de evento de experiência em expressões do jornada não será mais compatível com organizações que não usaram esse recurso nos últimos 90 dias. Abordagens alternativas e práticas recomendadas para criar expressões/lógica com eventos de experiência são referenciadas abaixo.
 >
 >Precisa de mais detalhes? [Leia as perguntas frequentes](#faq-ee).
 
@@ -52,9 +54,9 @@ Para suprimir perfis que demonstraram determinados comportamentos, use públicos
 
 Saiba mais:
 
-* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de públicos-alvo em condições](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +73,9 @@ Para impedir o envio de mensagens a perfis que receberam comunicações em uma j
 
 Saiba mais sobre como usar os públicos-alvo:
 
-* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de públicos-alvo em condições](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +95,9 @@ Para incluir ou excluir perfis com base no fato de terem recebido uma mensagem e
 
 Saiba mais:
 
-* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de públicos-alvo em condições](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -105,8 +107,8 @@ Saiba mais:
 
 Para personalizar as comunicações com base no carrinho mais recente ou procurar eventos em vários tipos de carrinho ou exibições de produto:
 
-* Se você tiver acesso ao [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configure consultas automatizadas para extrair os dados necessários do evento, manipulá-los para se ajustarem ao caso de uso e gravá-los em um conjunto de dados habilitado para perfil para ativação.
-* Se os dados de abandono puderem ser modelados no perfil com atributos escalares, considere usar atributos Calculados para capturar as informações mais recentes e, em seguida, fazer referência a esses atributos na jornada para criar a comunicação. [Saiba mais em [!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Se você tiver acesso ao [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configure consultas automatizadas para extrair os dados necessários do evento, manipulá-los para se ajustarem ao caso de uso e gravá-los em um conjunto de dados habilitado para perfil para ativação.
+* Se os dados de abandono puderem ser modelados no perfil com atributos escalares, considere usar atributos Calculados para capturar as informações mais recentes e, em seguida, fazer referência a esses atributos na jornada para criar a comunicação. [Saiba mais em [!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Saída da jornada baseada em comportamento
@@ -123,13 +125,13 @@ Para acionar jornadas com base em compras e suprimir se o valor estiver acima/ab
 
 Saiba mais:
 
-* [!DNL Adobe Experience Platform] [Visão geral de atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [Visão geral de atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
 ## Perguntas frequentes {#faq-ee}
 
-Você encontrará abaixo Perguntas frequentes sobre a pesquisa de eventos de experiência no jornada.
+Estas perguntas frequentes se concentram na linha do tempo para retirar o uso do evento de experiência nas expressões do jornada e quem é afetado. Para obter orientação sobre abordagens alternativas, consulte os casos de uso e as práticas recomendadas acima.
 
 Precisa de mais detalhes? Use as opções de comentários na parte inferior desta página para levantar sua pergunta ou conectar-se à [[!DNL Adobe Journey Optimizer] comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
 
@@ -153,9 +155,9 @@ Somente a pesquisa de eventos de experiência no editor de expressão é afetada
 
 +++
 
-+++Minha organização atual da Adobe é afetada por essa atualização? 
++++Minha organização atual da Adobe é afetada por essa atualização?
 
-Sua organização da Adobe só será afetada se você ainda não estiver usando a pesquisa de evento de experiência. Se você já estiver utilizando os eventos de experiência na [fonte de dados do Experience Platform](../datasource/adobe-experience-platform-data-source.md), sua organização da Adobe continuará a ser compatível com a pesquisa de evento de experiência.
+A partir de 8 de julho de 2025, novas organizações de clientes não poderão criar expressões usando atributos de evento de experiência. A partir de 1º de abril de 2026, as organizações que não acessaram eventos de experiência por meio de expressões do jornada nos últimos 90 dias não terão mais acesso a esse recurso.
 
 +++
 

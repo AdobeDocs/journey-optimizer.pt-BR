@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 6%
+source-wordcount: '1459'
+ht-degree: 5%
 
 ---
 
@@ -66,9 +66,7 @@ Para criar uma fórmula de classificação, siga as etapas abaixo.
    >
    >A profundidade do aninhamento em uma fórmula de classificação é limitada a 30 níveis. Isso é medido pela contagem dos parênteses de fechamento `)` na cadeia de caracteres do PQL. Uma sequência de regras pode ter até 8 KB para caracteres codificados em UTF-8. É equivalente a 8.000 caracteres ASCII (1 byte cada) ou 2.000-4.000 caracteres não ASCII (2-4 bytes cada). [Saiba mais sobre as medidas de proteção e limitações da decisão](../decisioning-guardrails.md#ranking-formulas)
 
-1. Você também pode usar dados do Adobe Experience Platform para ajustar dinamicamente a lógica de classificação para refletir as condições do mundo real. Isso é especialmente útil para atributos que mudam com frequência, como disponibilidade de produto ou preço em tempo real.
-
-   Esse recurso está atualmente disponível para todos os clientes como uma versão beta pública. Entre em contato com o representante de sua conta se desejar obter acesso. [Saiba como usar dados do Adobe Experience Platform para a tomada de decisão](../aep-data-exd.md)
+1. Você também pode usar dados do Adobe Experience Platform para ajustar dinamicamente a lógica de classificação para refletir as condições do mundo real. Isso é especialmente útil para atributos que mudam com frequência, como disponibilidade de produto ou preço em tempo real. [Saiba como usar dados do Adobe Experience Platform para a tomada de decisão](../aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
