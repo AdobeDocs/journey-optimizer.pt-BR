@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
 workflow-type: tm+mt
 source-wordcount: '1481'
 ht-degree: 6%
@@ -279,6 +279,6 @@ Observe que ao usar a API **Decisioning**, os dados de contexto são adicionados
 
 ## Vídeo tutorial {#video}
 
-Saiba como usar o Construtor de fórmulas com IA no Adobe Journey Optimizer para criar estratégias de classificação de ofertas personalizadas.
+Saiba como usar o Construtor de fórmulas de IA no Adobe Journey Optimizer para criar estratégias de classificação de ofertas personalizadas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)
