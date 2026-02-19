@@ -148,6 +148,7 @@ Antes disso, verifique o seguinte:
    MIIDXTCCAkWgAwIBAgIJALc3... (base64 encoded data)
    -----END CERTIFICATE-----
    ```
+
 1. Marque a caixa &quot;Confirmo que carreguei o certificado SSL&quot;.
 
 ## Loop de comentários completo {#feedback-loop}
