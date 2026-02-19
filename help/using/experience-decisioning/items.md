@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 15%
+source-wordcount: '2214'
+ht-degree: 14%
 
 ---
 
@@ -78,8 +78,8 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 >abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -136,13 +136,25 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
    * **[!UICONTROL Evento de decisão]** (valor padrão): número máximo de vezes que uma oferta pode ser apresentada.
    * **[!UICONTROL Impressão]** (somente canais de entrada): número máximo de vezes que a oferta pode ser exibida a um usuário.
    * **[!UICONTROL Cliques]**: número máximo de vezes que um usuário pode clicar no item de decisão.
-   * **[!UICONTROL Evento personalizado]**: você pode definir um evento personalizado que será usado para limitar o número de vezes que o item é enviado. Por exemplo, você pode limitar o número de resgates até que correspondam a 10.000 ou até que um determinado perfil tenha resgatado uma vez. Para fazer isso, use esquemas [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"} para criar uma regra de evento personalizada.
+   * **[!UICONTROL Evento personalizado]**: limite com base em eventos de experiência comerciais ou comportamentais que você acompanha no Adobe Experience Platform, por exemplo, resgates, compras ou check-outs do carrinho. O limite de evento personalizado usa eventos de experiência do [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"} que você assimila. Na lista suspensa, mapeie o evento de experiência específico que deve direcionar o limite para que o contador de limite seja incrementado sempre que o evento for recebido. Não há suporte para a limitação por eventos de entrega de canal, como envio de email: o Evento personalizado se aplica somente a eventos de experiência assimilados por você, não a eventos de entrega ou envio.
 
-   >[!NOTE]
-   >
-   >Para todos os eventos de limite, exceto o evento de decisão, o feedback da gestão de decisões pode não ser coletado automaticamente, o que pode resultar no aumento incorreto do contador de limite. Para garantir que cada evento de limite seja rastreado e contabilizado no contador de limite, verifique se o esquema usado para coletar eventos de experiência inclui o grupo de campos correto para esse evento. Informações detalhadas sobre a coleta de dados estão disponíveis na Documentação da gestão de decisões da Journey Optimizer:
-   >* [Coleta de dados de gerenciamento de decisão](data-collection/data-collection.md)
-   >* [Configurar a coleção de dados](data-collection/schema-requirement.md)
+   +++Limite para o canal de push
+
+   O limite de **[!UICONTROL Cliques]** e **[!UICONTROL Impressões]** padrão não tem suporte para o canal de push. Para limitar as ofertas entregues por push, use o limite de **[!UICONTROL Evento personalizado]** e defina o tipo de evento como **Aplicativo de rastreamento de push aberto** ou **Ação personalizada de rastreamento de push**.
+
+   Para notificações por push, o rastreamento de eventos do canal móvel inclui a Experience Cloud ID (ECID). É recomendável usar a ECID na configuração do Campaign ou do Jornada para manter a consistência da identidade e garantir que o limite funcione conforme esperado.
+
+   ![](assets/push-capping.png)
+
+   +++
+
+   +++Rastreamento de eventos de limite (esquema e coleção de dados)
+
+   Para todos os eventos de limite, exceto o evento de decisão, o feedback da gestão de decisões pode não ser coletado automaticamente, o que pode resultar no aumento incorreto do contador de limite. Para garantir que cada evento de limite seja rastreado e contabilizado no contador de limite, verifique se o esquema usado para coletar eventos de experiência inclui o grupo de campos correto para esse evento. Informações detalhadas sobre a coleta de dados estão disponíveis na Documentação da gestão de decisões da Journey Optimizer:
+   * [Coleta de dados de gestão de decisão](data-collection/data-collection.md)
+   * [Configurar coleção de dados](data-collection/schema-requirement.md)
+
+   +++
 
 1. Escolha o tipo de limite:
 
