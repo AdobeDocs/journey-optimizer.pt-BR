@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3b89f86c563699cea69ae757980783e6d99216f
+source-git-commit: 0c6b92d11b60e28c7dc918f7c4d7d7ced07a2ab5
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1260'
 ht-degree: 31%
 
 ---
@@ -33,7 +33,7 @@ As seções [Novos recursos](#feb-26-01-features) e [Melhorias](#feb-26-01-impro
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -70,6 +70,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>Agora é possível migrar subdomínios usando o modo de delegação CNAME para delegação personalizada diretamente da interface, para que você possa atender a políticas de segurança mais rigorosas, de acordo com as diretrizes de sua empresa, sem recriar configurações de canal.</p>
 <p><img src="assets/do-not-localize/subdomain-migration.gif"/></p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Para obter mais informações, consulte a <a href="../configuration/custom-subdomain-migration.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: sexta-feira, 19 de fevereiro de 2026</p>
 </td>
 </tr>
