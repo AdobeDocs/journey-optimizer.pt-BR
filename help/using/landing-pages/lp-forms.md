@@ -78,7 +78,7 @@ Para criar uma predefinição de formulário, siga as etapas abaixo.
    >* **O tipo de dados** deve ser definido como **XDM** (não dados brutos)
    >* A **Autenticação** deve ser **desabilitada** (conexão não autenticada)
    >
-   >Se a conexão de transmissão não for exibida na lista, verifique se essas duas condições foram atendidas. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Se a conexão de transmissão não for exibida na lista, verifique se essas duas condições foram atendidas. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. É possível digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
 
