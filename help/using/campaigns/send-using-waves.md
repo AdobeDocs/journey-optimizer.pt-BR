@@ -4,11 +4,11 @@ product: journey optimizer
 title: Enviar usando ondas
 description: Programe mensagens de campanha de saída para serem entregues em lotes controlados ao longo do tempo. O envio de onda oferece suporte à capacidade de entrega e ajuda a manter a reputação do remetente.
 feature: Campaigns
-topic: Campaign scheduling
+topic: Content Management
 role: User
 level: Intermediate
 keywords: ondas, lotes, programação, campanha, jornada, deliverability
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 1%
