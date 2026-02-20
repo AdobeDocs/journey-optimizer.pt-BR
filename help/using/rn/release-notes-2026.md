@@ -7,10 +7,11 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
+source-git-commit: eb1056b57e72ab1cff5e32bff31b9cba5604f695
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 88%
+source-wordcount: '1371'
+ht-degree: 87%
 
 ---
 
@@ -21,8 +22,6 @@ Esta página lista todos os recursos e melhorias da versão de 2026 do [!DNL Jou
 ## Notas de versão de janeiro de 2026 {#jan-26-rn}
 
 <!--**Release date**: January 27-28, 2026-->
-
-As seções [Recursos](#jan-26-01-features) e [Melhorias](#jan-26-01-improv) abordam os recursos já disponíveis, enquanto a seção [Em breve](#jan-26-01-coming-soon) lista os itens agendados para uma data de disponibilidade posterior.
 
 ### Novos recursos {#jan-26-01-features}
 
@@ -185,7 +184,7 @@ As seções [Recursos](#jan-26-01-features) e [Melhorias](#jan-26-01-improv) abo
 
 * **Verificações de qualidade de conteúdo do Assistente de IA**: além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas de <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou falhas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality).
 
-  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Jornadas
 
