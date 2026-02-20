@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, auxiliares, caso de uso, personalização
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 58b4acf8cccfc3a5e507a738bdf6755a8decbaca
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -52,31 +52,31 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 1. Crie um evento cujo esquema inclua a matriz `productListItems`.
 1. Defina todos os campos dessa matriz como campos de carga para esse evento.
 
-   Saiba mais sobre o tipo de dados do item de lista de produtos na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}.
+   Saiba mais sobre o tipo de dados do item de lista de produtos na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Crie uma jornada que comece com este evento.
 1. Adicione uma atividade de **Email** à jornada.
 
-   ![](assets/personalization-uc-helpers-8.png)
+   ![Jornada a tela com um evento e uma atividade de email no fluxo](assets/personalization-uc-helpers-8.png)
 
-## Etapa 2: criar o email{#configure-email}
+## Etapa 2: criar o email {#configure-email}
 
 1. Na atividade de **Email**, clique em **[!UICONTROL Editar conteúdo]** e em **[!UICONTROL Email Designer]**.
 
-   ![](assets/personalization-uc-helpers-1.png)
+   ![Atividade de email com as opções Editar conteúdo e Designer de email](assets/personalization-uc-helpers-1.png)
 
 1. Na paleta esquerda da página inicial do Designer de email, arraste e solte três componentes de estrutura no corpo da mensagem.
 
 1. Arraste e solte um componente de conteúdo do HTML em cada novo componente de estrutura.
 
-   ![](assets/personalization-uc-helpers-2.png)
+   ![Enviar email para o Designer com três componentes de estrutura e componentes de conteúdo do HTML no corpo](assets/personalization-uc-helpers-2.png)
 
 ## Etapa 3: insira o nome do cliente em letras maiúsculas {#uppercase-function}
 
 1. Na página inicial do Designer de email, clique no componente do HTML ao qual deseja adicionar o nome do cliente.
 1. Na barra de ferramentas contextual, clique em **[!UICONTROL Mostrar o código-fonte]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![Barra de ferramentas contextual com a opção Mostrar o código-fonte](assets/personalization-uc-helpers-3.png)
 
 1. Na janela **[!UICONTROL Editar HTML]**, adicione a função de cadeia de caracteres `upperCase`:
    1. No menu esquerdo, selecione **[!UICONTROL funções auxiliares]**.
@@ -89,7 +89,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
       {%= upperCase(string) %}
       ```
 
-      ![](assets/personalization-uc-helpers-4.png)
+      ![Editor de expressão com a função upperCase selecionada nas funções Auxiliares](assets/personalization-uc-helpers-4.png)
 
 1. Remova o espaço reservado &quot;string&quot; da expressão.
 1. Adicione o token de nome:
@@ -103,13 +103,13 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![](assets/personalization-uc-helpers-5.png)
+      ![Editor de expressão mostrando upperCase com token de nome de perfil](assets/personalization-uc-helpers-5.png)
 
-      Saiba mais sobre o tipo de dados do nome da pessoa na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=pt-BR){target="_blank"}.
+      Saiba mais sobre o tipo de dados do nome da pessoa na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Clique em **[!UICONTROL Validar]** e em **[!UICONTROL Salvar]**.
 
-   ![](assets/personalization-uc-helpers-6.png)
+   ![Editar janela do HTML com os botões Validar e Salvar](assets/personalization-uc-helpers-6.png)
 
 1. Salve a mensagem.
 
@@ -122,7 +122,7 @@ Esta etapa demonstra a iteração pelos dados do evento. Para obter exemplos abr
 1. Na página inicial do Designer de email, clique no componente do HTML onde deseja listar o conteúdo do carrinho.
 1. Na barra de ferramentas contextual, clique em **[!UICONTROL Mostrar o código-fonte]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![Barra de ferramentas contextual com a opção Mostrar o código-fonte](assets/personalization-uc-helpers-3.png)
 
 1. Na janela **[!UICONTROL Editar HTML]**, adicione o auxiliar `each`:
    1. No menu esquerdo, selecione **[!UICONTROL funções auxiliares]**.
@@ -135,7 +135,7 @@ Esta etapa demonstra a iteração pelos dados do evento. Para obter exemplos abr
       {{#each someArray as |variable|}} {{/each}}
       ```
 
-      ![](assets/personalization-uc-helpers-9.png)
+      ![Editor de expressão com cada modelo auxiliar](assets/personalization-uc-helpers-9.png)
 
 1. Adicionar a matriz `productListItems` à expressão:
 
@@ -158,7 +158,7 @@ Esta etapa demonstra a iteração pelos dados do evento. Para obter exemplos abr
 
       Neste exemplo, *event_ID* representa a ID do evento.
 
-      ![](assets/personalization-uc-helpers-10.png)
+      ![Editor de expressão com productListItems em atributos contextuais](assets/personalization-uc-helpers-10.png)
 
    1. Modifique a expressão:
       1. Remova a string &quot;.product&quot;.
@@ -170,7 +170,7 @@ Esta etapa demonstra a iteração pelos dados do evento. Para obter exemplos abr
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
 
-1. Cole este código entre a tag de abertura `{{#each}}` e a tag de fechamento `{/each}}`:
+1. Cole este código entre a tag de abertura `{{#each}}` e a tag de fechamento `{{/each}}`:
 
    ```html
    <table>
@@ -212,14 +212,14 @@ Esta etapa demonstra a iteração pelos dados do evento. Para obter exemplos abr
 
 1. Clique em **[!UICONTROL Validar]** e em **[!UICONTROL Salvar]**.
 
-   ![](assets/personalization-uc-helpers-11.png)
+   ![Editor de expressão com Validar e Salvar após configurar cada bloco](assets/personalization-uc-helpers-11.png)
 
 ## Etapa 5: inserir uma observação específica do produto {#if-helper}
 
 1. Na página inicial do Designer de email, clique no componente do HTML onde deseja inserir a nota.
 1. Na barra de ferramentas contextual, clique em **[!UICONTROL Mostrar o código-fonte]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![Barra de ferramentas contextual com a opção Mostrar o código-fonte](assets/personalization-uc-helpers-3.png)
 
 1. Na janela **[!UICONTROL Editar HTML]**, adicione o auxiliar `if`:
    1. No menu esquerdo, selecione **[!UICONTROL funções auxiliares]**.
@@ -235,7 +235,7 @@ Esta etapa demonstra a iteração pelos dados do evento. Para obter exemplos abr
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-12.png)
+      ![Editor de expressão com o modelo auxiliar if](assets/personalization-uc-helpers-12.png)
 
 1. Remova essa condição da expressão:
 
@@ -269,7 +269,7 @@ Esta etapa demonstra a iteração pelos dados do evento. Para obter exemplos abr
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-13.png)
+      ![Editor de expressão com token de nome productListItems na condição if](assets/personalization-uc-helpers-13.png)
 
 1. Modifique a expressão:
    1. No editor de expressão, especifique o nome do produto após o token `name`.
@@ -303,7 +303,7 @@ Esta etapa demonstra a iteração pelos dados do evento. Para obter exemplos abr
    1. Remova o espaço reservado &quot;default_render&quot; da expressão.
 1. Clique em **[!UICONTROL Validar]** e em **[!UICONTROL Salvar]**.
 
-   ![](assets/personalization-uc-helpers-14.png)
+   ![Editar janela do HTML com Validar e Salvar após configurar o bloco if](assets/personalization-uc-helpers-14.png)
 
 1. Salve a mensagem.
 
@@ -311,19 +311,19 @@ Esta etapa demonstra a iteração pelos dados do evento. Para obter exemplos abr
 
 1. Ative a opção **[!UICONTROL Testar]** e clique em **[!UICONTROL Acionar um evento]**.
 
-   ![](assets/personalization-uc-helpers-15.png)
+   ![Jornada com a opção Testar ativada e acionar um botão de evento](assets/personalization-uc-helpers-15.png)
 
 1. Na janela **[!UICONTROL Configuração de evento]**, digite os valores de entrada e clique em **[!UICONTROL Enviar]**.
 
    O modo de teste funciona somente com perfis de teste.
 
-   ![](assets/personalization-uc-helpers-16.png)
+   ![Janela de configuração de evento com valores de entrada e botão Enviar](assets/personalization-uc-helpers-16.png)
 
    O email é enviado para o endereço do perfil de teste.
 
    Neste exemplo, o email contém a observação sobre o Juno Jacket porque este produto está no carrinho:
 
-   ![](assets/personalization-uc-helpers-17.png)
+   ![Exemplo de email mostrando a nota de envio Juno Jacket no corpo da mensagem](assets/personalization-uc-helpers-17.png)
 
 1. Verifique se não há erros e publique a jornada.
 
@@ -342,7 +342,7 @@ Esta etapa demonstra a iteração pelos dados do evento. Para obter exemplos abr
 
 * [Personalization com oferta baseada em decisão](../offers/offers-e2e.md)
 
-## Vídeo tutorial{#video}
+## Vídeo tutorial {#video}
 
 Saiba como usar funções auxiliares.
 
