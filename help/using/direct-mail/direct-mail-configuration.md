@@ -130,7 +130,7 @@ Se você selecionou **[!UICONTROL SFTP]** como o **[!UICONTROL Tipo de servidor]
 
 >[!TAB Azure]
 
-Se você selecionou o **[!UICONTROL Azure]** como o **[!UICONTROL Tipo de servidor]**, preencha os detalhes e as credenciais do seu servidor:
+Se você selecionou **[!UICONTROL Azure]** como o **[!UICONTROL Tipo de servidor]**, preencha os detalhes e as credenciais do seu servidor:
 
 * **Cadeia de Conexão do Azure**: para encontrar sua **Cadeia de Conexão do Azure**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
@@ -154,7 +154,7 @@ Se você selecionou **[!UICONTROL Zona de Aterrissagem de Dados]** como o **[!UI
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -194,7 +194,7 @@ Se você estiver usando o SFTP com autenticação de chave SSH, deverá ter uma 
 >
 >Após a codificação Base64, a chave não conterá mais os marcadores `-----BEGIN/END RSA PRIVATE KEY-----` e não deve incluir quebras de linha. A chave pública correspondente deve ser adicionada ao arquivo de chaves autorizadas do servidor SFTP.
 
-Para obter mais informações sobre como conectar sua conta SFTP à Experience Platform, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Para obter mais informações sobre como conectar sua conta SFTP à Experience Platform, consulte [esta documentação](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 

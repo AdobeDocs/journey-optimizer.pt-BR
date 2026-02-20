@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -97,7 +97,7 @@ Substitua esse valor usando o ícone **[!UICONTROL Habilitar substituição de p
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="Substituir o endereço de execução padrão a ser usado"
->abstract="Quando vários endereços de email ou números de telefone estiverem disponíveis no banco de dados (pessoal, profissional etc.), você poderá escolher qual deles priorizar para envio. O endereço principal é definido no nível da sandbox, mas aqui você pode substituir a configuração padrão para essa configuração de canal específica."
+>abstract="Quando vários endereços de email ou números de telefone estão disponíveis no banco de dados (pessoal, profissional etc.), você pode escolher qual deles priorizar para envio. O endereço principal é definido no nível da sandbox, mas aqui você pode substituir a configuração padrão para essa configuração de canal específica."
 
 Você pode alterar o endereço de execução padrão de uma [configuração de canal](channel-surfaces.md) de email, SMS ou WhatsApp específica.
 
