@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: e6aa361229f068c475732c715160b7c644189e51
+source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 7%
+source-wordcount: '750'
+ht-degree: 6%
 
 ---
 
@@ -42,8 +42,6 @@ Por exemplo, se você agendar uma campanha para enviar às 9:00 AM usando o fuso
 
 >[!AVAILABILITY]
 >
->Este recurso está em Disponibilidade Limitada. Entre em contato com o representante da Adobe para obter acesso.
->
 >A programação usando fusos horários do perfil está disponível somente para estes canais de saída: Email, Push, SMS, WhatsApp e LINE.
 
 Para ativar a programação de fuso horário do perfil:
@@ -62,7 +60,9 @@ A campanha permanece com o status **Live** enquanto as mensagens são entregues 
 
 **Identificadores de fuso horário com suporte:**
 
-O Journey Optimizer valida o valor `profile.timeZone` em relação aos identificadores de fuso horário IANA padrão. Os identificadores diferenciam maiúsculas de minúsculas e devem corresponder ao nome oficial IANA. As compensações podem mudar com o tempo devido às regras de horário de verão e atualizações históricas. Consulte o [Banco de Dados do Fuso Horário IANA](https://www.iana.org/time-zones){_blank} para obter a lista oficial de identificadores.
+O formato `profile.timeZone` pode ser nomeação IANA ou definido como deslocamentos UTC. A nomenclatura IANA é o formato preferido, pois se ajusta automaticamente às regras de horário de verão.
+
+Para a nomenclatura IANA, os identificadores fazem distinção entre maiúsculas e minúsculas e devem corresponder à nomenclatura IANA oficial. As compensações podem mudar com o tempo devido às regras de horário de verão e atualizações históricas. Consulte o [Banco de Dados do Fuso Horário IANA](https://www.iana.org/time-zones){_blank} para obter a lista oficial de identificadores.
 
 ## Definir uma frequência de execução
 
