@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '815'
 ht-degree: 6%
 
 ---
@@ -96,6 +96,12 @@ Para definir o controle de taxa, habilite a opção **[!UICONTROL Entrega aceler
 >[!IMPORTANT]
 >
 >Ao definir uma taxa de delivery, o período máximo para o qual o público-alvo da campanha pode ser executado é de 12 horas. Se a taxa de delivery for definida com um valor que não permita que todo o público-alvo receba a mensagem no período de 12 horas, os perfis restantes serão excluídos da campanha. Você pode ver a contagem desses perfis excluídos no relatório da campanha.
+
+## Enviar usando ondas
+
+Para entregar a mensagem de campanha em lotes ao longo do tempo, em vez de enviá-la de uma só vez, você pode usar o envio por ondas. Isso ajuda a balancear a carga, oferecer suporte à capacidade de entrega e evitar a sobrecarga dos sistemas downstream (por exemplo, call centers ou páginas de aterrissagem). Você define o número de ondas, seu tamanho (por porcentagem ou número absoluto) e a programação para cada onda.
+
+[Saiba como enviar usando ondas](send-using-waves.md).
 
 ## Próximas etapas {#next}
 

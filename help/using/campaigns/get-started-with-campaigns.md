@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 99%
+source-wordcount: '1535'
+ht-degree: 97%
 
 ---
 
@@ -214,7 +214,7 @@ Configure a base da campanha:
 2. **Selecione o tipo de campanha** (Ação, acionada por API ou Orquestrada)
 3. **Escolha o público-alvo**
 4. **Defina a prioridade** se estiver usando o gerenciamento de conflitos
-5. **Configure o agendamento** (para Campanhas de ação) ou os detalhes da API (para a Campanha acionada por API)
+5. **Configurar agendamento** (para campanhas de Ação) ou detalhes da API (para acionado por API). Para campanhas de Ação, você também pode [enviar usando ondas](send-using-waves.md) para entregar a mensagem em lotes ao longo do tempo.
 
 **Guias específicos de tipo:** [Propriedades da campanha de ação](campaign-properties.md) | [Propriedades da campanha acionada por API](api-triggered-campaign-properties.md) | [Configuração da campanha orquestrada](../orchestrated/create-orchestrated-campaign.md)
 
@@ -291,7 +291,7 @@ Agora que você compreende as campanhas no [!DNL Journey Optimizer], escolha o t
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Agendamento e sincronização**
 
@@ -301,7 +301,7 @@ Agende campanhas para datas e horas específicas, defina entregas recorrentes e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controle de taxa**
 
@@ -311,7 +311,7 @@ Limite a taxa de transferência de mensagens para evitar sobrecarga em sistemas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Direcionamento de público-alvo**
 
@@ -321,7 +321,7 @@ Direcione públicos-alvo específicos da Adobe Experience Platform com precisão
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Fluxos de trabalho de aprovação**
 
@@ -331,7 +331,7 @@ Implemente processos de revisão e aprovação antes que as campanhas sejam ativ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horário de silêncio**
 
@@ -341,7 +341,7 @@ Respeite as preferências do cliente evitando a entrega de mensagens durante as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Otimização**
 

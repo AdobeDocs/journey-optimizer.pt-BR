@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3101'
 ht-degree: 98%
 
 ---
@@ -59,6 +59,7 @@ ht-degree: 98%
       + [Criar uma jornada](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Crie a primeira jornada](using/building-journeys/journey-gs.md)
       + [Definir as propriedades da jornada](using/building-journeys/journey-properties.md)
+      + [Enviar usando ondas no jornada](using/building-journeys/send-using-waves.md)
       + [Configurar e rastrear as métricas da jornada](using/building-journeys/success-metrics.md)
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
@@ -150,6 +151,7 @@ ht-degree: 98%
       + [Editar o conteúdo da campanha](using/campaigns/campaign-content.md)
       + [Definir o público-alvo da campanha](using/campaigns/campaign-audience.md)
       + [Agendar a campanha](using/campaigns/campaign-schedule.md)
+      + [Enviar usando ondas](using/campaigns/send-using-waves.md)
       + [Revisar e ativar uma campanha de ações](using/campaigns/review-activate-campaign.md)
    + Campanhas acionadas por API {#api-triggered-campaigns}
       + [Campanhas acionadas por API](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
@@ -455,7 +457,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos HTML](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)

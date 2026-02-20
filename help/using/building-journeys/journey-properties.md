@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2885'
 ht-degree: 15%
 
 ---
@@ -351,7 +351,12 @@ As seguintes medidas de proteção se aplicam ao usar o recurso [Critérios de S
 
 ## Jornada programação {#schedule}
 
-A seção **[!UICONTROL Agenda]** só estará disponível quando uma atividade **[!UICONTROL Ler Público]** for descartada na tela. Ela permite definir uma data/hora e uma frequência específicas na qual a jornada deve ser executada. [Saiba como agendar uma jornada de leitura de público-alvo](../building-journeys/read-audience.md)
+A seção **[!UICONTROL Agenda]** só estará disponível quando uma atividade **[!UICONTROL Ler Público]** for descartada na tela. Ela permite definir uma data/hora e uma frequência específicas na qual a jornada deve ser executada. [Saiba como agendar uma jornada de leitura de público-alvo](read-audience.md#schedule)
+
+>[!TIP]
+>
+>Ao agendar a jornada, você também pode configurar o envio de ondas para entregar ações de jornada em lotes ao longo do tempo. [Saiba como enviar usando ondas no jornada](send-using-waves.md)
+
 
 ## Gerenciamento de conflitos {#conflict}
 
