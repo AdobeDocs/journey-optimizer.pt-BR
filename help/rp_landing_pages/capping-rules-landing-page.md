@@ -5,22 +5,24 @@ title: Definir regras de limites de mensagens e jornada
 description: Definir regras de limites de mensagens e jornada
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 9e23162373564e7866af115ee2cd706527336e4a
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '275'
+ht-degree: 38%
 
 ---
 
 # Definir regras de limites de mensagens e jornada{#section-overview}
 
-O gerenciamento de regras de limite de mensagens e jornadas no Adobe Journey Optimizer ajuda a garantir que os seus clientes recebam a quantidade certa de comunicações sem se sentir sobrecarregados. Ao definir limites para a frequência com a qual as mensagens são enviadas ou quantas jornadas um perfil pode inserir, é possível manter o engajamento do cliente e evitar uma comunicação excessiva. Esta seção apresenta ferramentas poderosas, como limite de frequência por canal, limites de entrada da jornada e estratégias de priorização, oferecendo orientações claras de como criar e aplicar essas regras de maneira eficaz. Esteja você ajustando campanhas individuais ou aplicando regras globais, aprenderá a equilibrar o alcance externo com a experiência do cliente de forma fluida.
+As regras de limitação fazem parte do [gerenciamento de conflitos e priorização](../using/conflict-prioritization/gs-conflict-prioritization.md). Elas ajudam a garantir que os clientes recebam a quantidade certa de comunicação sem se sentirem sobrecarregados. Antes de aplicar regras, use a [ferramenta de detecção de conflitos](../using/conflict-prioritization/conflicts.md) para identificar jornadas e campanhas sobrepostas. Quando várias comunicações se qualificam para o mesmo perfil, as [pontuações de prioridade](../using/conflict-prioritization/priority-scores.md) determinam qual mensagem é entregue primeiro.
+
+Você pode definir limites na frequência com que as mensagens são enviadas (limite de frequência), quantas jornadas um perfil pode inserir (limite de jornada) e quando as mensagens são bloqueadas (horas de silêncio). As regras são agrupadas em **conjuntos de regras** e aplicadas a campanhas ou jornadas. Para obter controle programático de sistemas externos, consulte a [API de Limite](../using/configuration/capping.md).
 
 ## Definir regras de limite de mensagens e jornadas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Trabalhar com conjuntos de regras
 
@@ -30,7 +32,7 @@ Saiba como criar, gerenciar e ativar conjuntos de regras para controlar a frequ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Limite e arbitragem de jornadas
 
@@ -40,7 +42,7 @@ Descubra como definir limites de simultaneidade e entradas da jornada, priorizar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Limite de frequência por canal
 
@@ -49,4 +51,20 @@ Entenda como criar e aplicar regras de limite da frequência específicas de cad
 [Definir limite de frequência](../using/conflict-prioritization/channel-capping.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+
+Definir Período de Silêncio
+
+Defina exclusões com base no tempo para emails, SMS, push e WhatsApp para que nenhuma mensagem seja enviada durante períodos específicos, respeitando as preferências e a conformidade do cliente.
+
+[Definir períodos de silêncio](../using/conflict-prioritization/quiet-hours.md)
+:::
+
 ::::
+
+## Recursos adicionais
+
+- **[Introdução ao gerenciamento de conflitos e priorização](../using/conflict-prioritization/gs-conflict-prioritization.md)** - Visão geral da detecção de conflitos, pontuações de prioridade e conjuntos de regras.
+- **[Identificar possíveis conflitos](../using/conflict-prioritization/conflicts.md)** - Detectar jornadas e campanhas sobrepostas antes de aplicar regras de limitação.
+- **[Atribuir pontuações de prioridade](../using/conflict-prioritization/priority-scores.md)** - Controla qual jornada ou campanha tem prioridade quando um perfil se qualifica para várias comunicações.
