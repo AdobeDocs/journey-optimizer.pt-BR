@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3090'
 ht-degree: 98%
 
 ---
@@ -215,8 +215,7 @@ ht-degree: 98%
          + [Engaje clientes com base na atividade de navegação](using/orchestrated/engage-customers-uc.md)
          + [Notifique os usuários sobre a disponibilidade do produto](using/orchestrated/product-availability-uc.md)
 + Conflito e priorização {#conflict-prioritization}
-   + [Gerenciamento de conflitos e priorização](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
-   + [Introdução ao gerenciamento de conflitos e priorização](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Gerenciamento de conflitos e priorização](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar possíveis conflitos](using/conflict-prioritization/conflicts.md)
    + [Atribuir pontuações de prioridade](using/conflict-prioritization/priority-scores.md)
    + Definir regras de limites de mensagens e jornada {#capping-rules}
@@ -457,7 +456,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos HTML](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
@@ -861,7 +860,6 @@ ht-degree: 98%
    + [Definir configurações de canal](using/configuration/channel-surfaces.md)
    + [Exportar conteúdo da mensagem](using/configuration/message-export.md)
    + Configuração de canais guiada {#guided-setup}
-      + [Configuração de canais guiada](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Introdução à configuração de canal guiada](using/configuration/set-mobile-config.md)
       + [Criar uma configuração de canal](using/configuration/create-channel-set-up.md)
    + Delegar subdomínios de email {#delegate-subdomains}
@@ -930,7 +928,6 @@ ht-degree: 98%
       + [Ação do Campaign v7/v8 em jornadas](using/action/acc-action.md)
       + [Ação do Marketo Engage em jornadas](using/action/marketo-engage.md)
    + Gerenciamento de sandboxes {#sandbox}
-      + [Gerenciamento de sandboxes](/help/rp_landing_pages/sandbox-landing-page.md)
       + [Usar e atribuir sandboxes](using/administration/sandboxes.md)
       + [Exportar objetos para outra sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Configurar o conector de fontes](using/start/get-started-sources.md)
