@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -99,7 +99,7 @@ Abaixo estão definições, causas comuns e etapas de solução de problemas par
 
   **Causas comuns**: eventos duplicados, volume de eventos alto, restrições de recursos do sistema.
 
-  **Solução de problemas**: implemente a desduplicação, evite picos de tráfego, otimize o design da jornada e contate o suporte se for persistente.
+  **Solução de problemas**: implementar a desduplicação, evitar picos de tráfego, otimizar o design da jornada, [contatar o suporte](../start/user-interface.md#support-ticket-guidelines) se for persistente.
 
 * **EVENT_WITH_NO_JORNADA**: um evento foi recebido, mas nenhuma jornada ativa está configurada para responder a ele
 

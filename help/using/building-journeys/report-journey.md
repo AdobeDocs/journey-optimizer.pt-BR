@@ -10,7 +10,7 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -62,7 +62,7 @@ Se você não vir os dados esperados em seus relatórios do jornada, considere o
 
 * **Status da Jornada**: os dados de relatório só estão disponíveis para jornadas ou jornadas publicadas em execução no [Modo de execução a seco](journey-dry-run.md). As jornadas de rascunho não geram dados de relatório.
 
-Se os problemas persistirem após verificar esses itens, entre em contato com o administrador do Adobe ou com o suporte da Adobe para obter assistência.
+Se os problemas persistirem após a verificação desses itens, entre em contato com o administrador do Adobe ou com o [suporte da Adobe](../start/user-interface.md#support-ticket-guidelines) para obter assistência.
 
 >[!MORELIKETHIS]
 >
