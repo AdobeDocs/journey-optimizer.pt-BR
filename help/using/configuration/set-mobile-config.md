@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 6b7fe02136a4ac7ca8012576ad8671cf70da6aeb
+source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 85%
+source-wordcount: '822'
+ht-degree: 83%
 
 ---
 
@@ -123,10 +123,12 @@ Observe que é necessário criar uma configuração separada para cada plataform
 * Mobile Core v5.2.0 ou posterior
 * Adobe Journey Optimizer v5.1.1 ou posterior
 
+
 >[!TAB Para Android]
 
 * Mobile Core v3.1.0 ou posterior
 * Adobe Journey Optimizer v3.1.0 ou posterior
+
 
 >[!ENDTABS]
 
