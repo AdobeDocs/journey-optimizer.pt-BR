@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
+source-git-commit: 725d1d98759a721a7e2e891f0e560cd967e05f7f
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 88%
+source-wordcount: '823'
+ht-degree: 85%
 
 ---
 
@@ -33,22 +33,27 @@ A **Configuração de Canal Guiada** é um fluxo de trabalho simplificado no Ado
 
 A Configuração de canal guiada é compatível com as seguintes plataformas e canais.
 
-* Plataformas e SDKs:
-
-   * Swift para Apple, iOS
-
-   * Kotlin, Android
-
-   * Javascript, Web
-
-* Canais:
-
-   * Aplicativo móvel
-
-   * Mensagem de push para dispositivos móveis
-
-   * Básico para a web
-
+>[!BEGINTABS]
+>
+>[!TAB iOS]
+>
+>**SDK:** Swift by Apple
+>
+>**Canais:** Mensagens Por Push Móveis No Aplicativo
+>
+>[!TAB Android]
+>
+>**SDK:** Kotlin
+>
+>**Canais:** Mensagens Por Push Móveis No Aplicativo
+>
+>[!TAB Web]
+>
+>**SDK:** Javascript
+>
+>**Canais:** Web Basic
+>
+>[!ENDTABS]
 
 Observe que é necessário criar uma configuração separada para cada plataforma que você deseja configurar. Isso se deve ao fato de que cada aplicativo exige uma configuração de canais exclusiva e garante flexibilidade para determinar quais canais você gostaria de usar em cada plataforma.
 
