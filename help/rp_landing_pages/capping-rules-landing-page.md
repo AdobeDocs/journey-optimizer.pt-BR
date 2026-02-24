@@ -22,7 +22,7 @@ Você pode definir limites na frequência com que as mensagens são enviadas (li
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Trabalhar com conjuntos de regras
 
@@ -32,7 +32,7 @@ Saiba como criar, gerenciar e ativar conjuntos de regras para controlar a frequ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Limite e arbitragem de jornadas
 
@@ -42,7 +42,7 @@ Descubra como definir limites de simultaneidade e entradas da jornada, priorizar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Limite de frequência por canal
 
@@ -52,7 +52,7 @@ Entenda como criar e aplicar regras de limite da frequência específicas de cad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
 
 Definir Período de Silêncio
 
