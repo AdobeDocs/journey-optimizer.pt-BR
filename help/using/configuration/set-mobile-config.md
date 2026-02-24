@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: d793d9eccde3b0b548e778040bdcd8817e80c90a
+source-git-commit: 6b7fe02136a4ac7ca8012576ad8671cf70da6aeb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 85%
@@ -116,15 +116,20 @@ Observe que é necessário criar uma configuração separada para cada plataform
 
 * Se você estiver usando a opção de configuração “Existente”, verifique se está utilizando as seguintes versões de extensão do SDK móvel da Adobe Experience Platform. Para obter mais detalhes sobre a configuração do SDK, incluindo as dependências e o código de inicialização necessários, consulte a [documentação a seguir](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 
-  Para Android
+>[!BEGINTABS]
 
-   * Mobile Core v3.1.0 ou posterior
-   * Adobe Journey Optimizer v3.1.0 ou posterior
+>[!TAB Para iOS]
 
-  Para iOS
+* Mobile Core v5.2.0 ou posterior
+* Adobe Journey Optimizer v5.1.1 ou posterior
 
-   * Mobile Core v5.2.0 ou posterior
-   * Adobe Journey Optimizer v5.1.1 ou posterior
+>[!TAB Para Android]
+
+* Mobile Core v3.1.0 ou posterior
+* Adobe Journey Optimizer v3.1.0 ou posterior
+
+>[!ENDTABS]
+
 
 ## Recursos criados automaticamente {#auto-create-resources}
 
