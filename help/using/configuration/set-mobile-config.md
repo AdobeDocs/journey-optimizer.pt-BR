@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '816'
+ht-degree: 88%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 >abstract="O Adobe Experience Platform Assurance está incorporado a este fluxo de trabalho para ajudar você a inspecionar a implementação do SDK, bem como simular e validar eventos de aplicativo."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/home" text="Visão geral do Adobe Experience Platform Assurance"
 
-Essa definição facilita a configuração rápida de canais de marketing, garantindo que todos os recursos necessários estejam prontamente disponíveis na Experience Platform, no Journey Optimizer e na Coleção de dados. Isso permite que sua equipe de marketing comece a criar campanhas e jornadas.
+A **Configuração de Canal Guiada** é um fluxo de trabalho simplificado no Adobe Journey Optimizer que ajuda você a configurar rapidamente canais de marketing para dispositivos móveis e Web. Ela fica em **Administração** > **Canais** > **Configuração de canal** e automatiza a criação de recursos essenciais, como propriedades de marcas, fluxos de dados e configurações de canal, na Adobe Experience Platform, no Journey Optimizer e na Coleção de Dados. Em vez de configurar manualmente cada componente, siga um fluxo guiado que configura tudo para você, para que sua equipe de marketing possa começar a criar mensagens no aplicativo, notificações por push e experiências da Web sem atraso.
 
-A configuração de canal guiada é compatível com as seguintes plataformas e canais.
+A Configuração de canal guiada é compatível com as seguintes plataformas e canais.
 
 * Plataformas e SDKs:
 
@@ -180,7 +180,7 @@ Para a **configuração inicial**, veja abaixo uma lista abrangente de todos os 
   </tr>
   <tr>
   <td>
-  <p>Sequência de dados</p>
+  <p>Datastreams</p>
   </td>
   <td>
   <p>Sequência de dados com serviços</p>
@@ -275,7 +275,7 @@ Para a **configuração inicial**, veja abaixo uma lista abrangente de todos os 
   </tr>
   <tr>
   <td>
-  <p>Sequência de dados</p>
+  <p>Datastreams</p>
   </td>
   <td>
   <p>Sequência de dados com serviços</p>
@@ -370,7 +370,7 @@ Para a **configuração inicial**, veja abaixo uma lista abrangente de todos os 
   </tr>
   <tr>
   <td>
-  <p>Sequência de dados</p>
+  <p>Datastreams</p>
   </td>
   <td>
   <p>Sequência de dados com serviços</p>
