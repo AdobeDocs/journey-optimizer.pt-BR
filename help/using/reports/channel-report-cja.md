@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -26,8 +26,9 @@ A página do relatório é exibida com as seguintes guias:
 * [Jornadas](#journey)
 * [Campanhas](#campaign)
 * [Canais](#channel)
+* [Conjuntos de regras](#rule-sets)
 
-Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home).
+Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Destaques {#highlights}
 
@@ -132,3 +133,27 @@ A tabela **[!UICONTROL Erros de saída]** permite que você aponte os erros prec
 ![](assets/cja-channels-outbound-excluded.png)
 
 A tabela **[!UICONTROL Exclusões de saída]** apresenta uma exibição abrangente dos diferentes fatores que resultaram na exclusão de perfis de usuário do público-alvo direcionado, resultando no não recebimento da mensagem.
+
+## Limite de Jornada e Conflitos {#rule-sets}
+
+A tabela **[!UICONTROL Conflitos e Limite de Jornada]** fornece informações sobre o desempenho dos conjuntos de regras de arbitragem de jornada, mostrando entradas e exclusões de jornada com base nas regras de limite e pontuações de prioridade aplicadas às suas jornadas.
+
++++ Saiba mais sobre Regras definem métricas
+
+A coluna **[!UICONTROL Entradas de Jornada por Conjunto de Regras]** mostra o número de perfis que entraram na jornada. Há três tipos de entradas:
+
+* ****[!UICONTROL Nenhum conflito]****: o perfil entrou na jornada sem nenhum conflito de conjunto de regras. Nenhum conjunto de regras ativo impediu essa entrada, e a entrada de jornada ocorreu independentemente das regras de arbitragem.
+
+* **Prioridade mais alta**: o perfil entrou na jornada devido à sua maior prioridade do que outras jornadas concorrentes. Mesmo que houvesse um conflito (o perfil se qualificou para várias jornadas), essa jornada foi selecionada devido à sua pontuação de prioridade mais alta.
+
+* **Não imposto**: o perfil entrou na jornada, mas o conjunto de regras não estava ativo ou não foi aplicado a esta entrada de jornada no momento da entrada.
+
+A coluna **[!UICONTROL Exclusões]** mostra o número de perfis que foram excluídos da entrada na jornada. Os perfis podem ser excluídos por dois motivos:
+
+* **Limite atingido**: o perfil atingiu o número máximo de entradas de jornada ou jornadas simultâneas permitidas pela regra de limite.
+
+* **Prioridade mais baixa**: o limite não foi atingido, mas outras jornadas de prioridade mais alta atendem às restrições. O perfil foi excluído desta jornada e inseriu uma jornada de prioridade mais alta.
+
++++
+
+➡️ [Saiba mais sobre limite e arbitragem de jornada](../conflict-prioritization/journey-capping.md)

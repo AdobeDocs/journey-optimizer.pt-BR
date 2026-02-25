@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
-source-wordcount: '3090'
+source-wordcount: '3103'
 ht-degree: 98%
 
 ---
@@ -224,6 +224,9 @@ ht-degree: 98%
       + [Gerenciar limites de jornada e arbitragem](using/conflict-prioritization/journey-capping.md)
       + [Definir limite de frequência por canal e tipo](using/conflict-prioritization/channel-capping.md)
       + [Definir períodos de silêncio](using/conflict-prioritization/quiet-hours.md)
+   + Arbitragem de jornada {#journey-arbitration}
+      + [Usar fórmulas para classificar jornadas](using/conflict-prioritization/journey-ranking-formulas.md)
+      + [Usar modelos de IA para classificar jornadas](using/conflict-prioritization/journey-ai-models.md)
 + Testar e aprovar {#test}
    + [Testar, validar e aprovar](/help/rp_landing_pages/test-landing-page.md)
    + Visualizar e testar conteúdo {#preview-test}
@@ -456,7 +459,7 @@ ht-degree: 98%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos HTML](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
