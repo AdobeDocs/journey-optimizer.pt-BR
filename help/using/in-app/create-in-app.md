@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '2076'
-ht-degree: 12%
+source-wordcount: '2178'
+ht-degree: 11%
 
 ---
 
@@ -31,23 +31,31 @@ Observe que as mensagens no aplicativo não são afetadas pela escolha do usuár
 
 Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
 
-1. Abra a jornada e arraste e solte uma atividade **[!UICONTROL No aplicativo]** da seção **[!UICONTROL Ações]** da paleta.
+1. Abra a [jornada](../building-journeys/journey-gs.md) e arraste e solte uma atividade de **[!UICONTROL Ação]** da seção **[!UICONTROL Ações]** da paleta. Saiba mais sobre a [Atividade de ação](../building-journeys/journey-action.md).
 
-   Quando um perfil atinge o fim da jornada, todas as mensagens no aplicativo exibidas para ele expiram automaticamente. Por esse motivo, uma atividade Wait é adicionada automaticamente após a atividade no aplicativo para garantir o tempo adequado.
+   >[!IMPORTANT]
+   >
+   >Sendo todos os canais nativos agora acessíveis por meio da atividade Ação, as atividades de canal nativas herdadas serão descontinuadas na versão de março. As jornadas existentes que incluem ações herdadas continuarão a funcionar como estão — não é necessária nenhuma migração.
+
+1. Selecione **[!UICONTROL No aplicativo]** como o tipo de ação.
 
    ![](assets/in_app_journey_1.png)
 
-1. Insira um **[!UICONTROL Rótulo]** e uma **[!UICONTROL Descrição]** para a mensagem.
+   >[!NOTE]
+   >
+   >Quando um perfil atinge o fim da jornada, todas as mensagens no aplicativo exibidas para ele expiram automaticamente. Por esse motivo, uma atividade de 3 dias **Aguardar** é adicionada automaticamente após sua ação no aplicativo para garantir o tempo adequado. [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Escolha sua [Configuração no aplicativo](inapp-configuration.md#channel-prerequisites) para usar.
+1. Insira um **[!UICONTROL Rótulo]** para identificar sua ação na tela de jornada.
+
+1. Clique no botão **[!UICONTROL Configurar ação]**.
+
+1. Você é direcionado para a guia **[!UICONTROL Ações]**. Nesse local, selecione ou crie a configuração no aplicativo que será usada. [Saiba mais](inapp-configuration.md#channel-prerequisites)
 
    ![](assets/in_app_journey_2.png)
 
-1. Agora você pode começar a criar seu conteúdo com o botão **[!UICONTROL Editar conteúdo]**. [Saiba mais](design-in-app.md)
+1. Selecione o botão **[!UICONTROL Editar conteúdo]** e crie o conteúdo conforme desejado. [Saiba mais](design-in-app.md)
 
-1. Clique em **[!UICONTROL Editar acionadores]** para escolher o(s) evento(s) e os critérios que acionarão sua mensagem. Os construtores de regras permitem que os usuários especifiquem critérios e valores que, quando atendidos, acionam um conjunto de ações, como o envio de uma mensagem no aplicativo.
-
-   ![](assets/in_app_journey_4.png)
+1. Clique em **[!UICONTROL Editar acionadores]** para escolher o(s) evento(s) e os critérios que acionarão sua mensagem. Os construtores de regras permitem que os usuários especifiquem critérios e valores que, quando atendidos, acionam um conjunto de ações, como o envio de uma mensagem no aplicativo. [Saiba mais](design-in-app.md)
 
    1. Clique na lista suspensa de eventos para alterar o Acionador, se necessário.
 
@@ -59,7 +67,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
       | Rastreamento principal | Rastrear ação | Acionado quando a funcionalidade herdada oferecida na API de código móvel [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) é chamada. |
       | Rastreamento principal | Rastrear estado | Acionado quando a funcionalidade herdada oferecida na API de código móvel [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) é chamada. |
       | Rastreamento principal | Coletar PII | Acionado quando a funcionalidade herdada oferecida na API de código móvel [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) é chamada. |
-      | Ciclo de vida do aplicativo | Inicialização do aplicativo | Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido. |
+      | Ciclo de vida do aplicativo | Inicialização do aplicativo | Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo-limite da sessão do ciclo de vida é excedido. |
       | Ciclo de vida do aplicativo | Instalação do aplicativo | Disparado na primeira execução após a instalação ou reinstalação. |
       | Ciclo de vida do aplicativo | Atualização de aplicativo | Disparado na primeira execução após uma atualização ou quando o número da versão é alterado. |
       | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |
@@ -113,11 +121,11 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
       * **[!UICONTROL Mostrar uma vez]**: esta mensagem aparece apenas uma vez por sessão de usuário e permanece visível em todas as janelas ou atividades até ser fechada. Para limitá-lo a uma determinada tela ou fazer com que ele seja descartado automaticamente, use a lógica personalizada com o delegado de mensagens.
       * **[!UICONTROL Mostrar até clicar]**: mostra esta mensagem quando os eventos selecionados no menu suspenso **[!UICONTROL Acionador do aplicativo móvel]** ocorrerem até que um evento de interação seja enviado pela SDK com uma ação de &quot;clicado&quot;.
 
-1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
+1. Você pode adicionar uma ou mais ações de entrada à mensagem no aplicativo clicando no botão **[!UICONTROL Adicionar ação]**. [Saiba mais](../building-journeys/journey-action.md#multi-action)
 
-1. Quando a mensagem no aplicativo estiver pronta, finalize a configuração e publique sua jornada para ativá-la.
+1. Volte para a tela de jornada. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
 
-Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
+Para obter mais informações sobre como criar, configurar e publicar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
 
 >[!NOTE]
 >
@@ -165,7 +173,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
       | Rastreamento principal | Rastrear ação | Acionado quando a funcionalidade herdada oferecida na API de código móvel [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) é chamada. |
       | Rastreamento principal | Rastrear estado | Acionado quando a funcionalidade herdada oferecida na API de código móvel [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) é chamada. |
       | Rastreamento principal | Coletar PII | Acionado quando a funcionalidade herdada oferecida na API de código móvel [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) é chamada. |
-      | Ciclo de vida do aplicativo | Inicialização do aplicativo | Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido. |
+      | Ciclo de vida do aplicativo | Inicialização do aplicativo | Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo-limite da sessão do ciclo de vida é excedido. |
       | Ciclo de vida do aplicativo | Instalação do aplicativo | Disparado na primeira execução após a instalação ou reinstalação. |
       | Ciclo de vida do aplicativo | Atualização de aplicativo | Disparado na primeira execução após uma atualização ou quando o número da versão é alterado. |
       | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |
@@ -228,6 +236,8 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
    ![](assets/in_app_create_4.png)
 
+Para obter mais informações sobre como criar, configurar e ativar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+
 >[!ENDTABS]
 
 ## Vídeos tutoriais{#video}
@@ -236,7 +246,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451887?captions=por_br&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +254,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445293/?captions=por_br&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

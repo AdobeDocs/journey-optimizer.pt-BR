@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign, standard, integration, capping, action
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 3%
@@ -30,7 +30,7 @@ A mensagem transacional do Campaign Standard e o evento associado devem ser publ
 
 * Não é possível usar uma ação do Campaign Standard com uma atividade de qualificação de Público-alvo ou Ler público.
 
-* Uma jornada não pode usar [ações de canal integradas](../building-journeys/journeys-message.md) e [ações de Campaign Standard](../building-journeys/using-adobe-campaign-standard.md).
+* Uma jornada não pode usar [ações de canal integradas](../building-journeys/journey-action.md) e [ações de Campaign Standard](../building-journeys/using-adobe-campaign-standard.md).
 
 ## Configurar a ação {#configure-action}
 

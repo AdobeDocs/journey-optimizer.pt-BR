@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 5758c9db8b1b12367126f4adb8bd1c0bac766514
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 1%
@@ -82,5 +82,5 @@ A figura a seguir mostra as várias etapas, de ponta a ponta, envolvidas na conf
 * [Configurar canal por push](push-configuration.md)
 * [Relatório de notificação por push](../reports/journey-global-report-cja-push.md)
 * [Criar uma notificação por push](create-push.md)
-* [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)
+* [Adicionar uma mensagem em uma jornada](../building-journeys/journey-action.md)
 * [Adicionar uma mensagem em uma campanha](../campaigns/create-campaign.md)

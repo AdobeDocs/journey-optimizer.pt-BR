@@ -10,7 +10,7 @@ level: Intermediate
 keywords: jornada, eventos, reação, rastreamento, plataforma
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 10%
@@ -40,7 +40,7 @@ Você pode usar a atividade **[!UICONTROL Reação]** para executar uma ação q
 
 Siga estas etapas para configurar os eventos de reação:
 
-1. Coloque uma atividade **[!UICONTROL Reação]** **imediatamente** após uma [atividade de ação de canal](journeys-message.md) na tela de jornada.
+1. Coloque uma atividade **[!UICONTROL Reação]** **imediatamente** após uma [atividade de ação de canal](journey-action.md) na tela de jornada.
 1. Adicione um **[!UICONTROL Rótulo]** à reação. Esta etapa é opcional.
 1. Na lista suspensa, selecione a atividade de ação à qual deseja reagir. Você pode selecionar qualquer atividade de ação posicionada nas etapas anteriores do caminho.
 1. Dependendo da ação selecionada, escolha a que deseja reagir.
@@ -48,7 +48,7 @@ Siga estas etapas para configurar os eventos de reação:
 
 ## Medidas de proteção e limitações {#guardrails-limitations}
 
-* Uma atividade **[!UICONTROL Reação]** deve ser colocada **imediatamente** após uma [atividade de ação de canal](journeys-message.md) na tela de jornada.
+* Uma atividade **[!UICONTROL Reação]** deve ser colocada **imediatamente** após uma [atividade de ação de canal](journey-action.md) na tela de jornada.
 * Você não pode usar uma atividade **[!UICONTROL Reação]** se não houver uma atividade de ação de canal antes dela.
 * Não há suporte para a colocação de uma atividade **[!UICONTROL Wait]** ou qualquer outra atividade entre a ação de canal e a atividade **[!UICONTROL Reaction]** e pode fazer com que a Reação não funcione conforme esperado.
 * Os eventos de reação só podem rastrear mensagens enviadas na mesma jornada. Eles não podem rastrear mensagens que ocorrem em uma jornada diferente.

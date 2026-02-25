@@ -7,7 +7,8 @@ feature: Journeys, Reporting
 role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: jornada, eventos de etapa, análises, relatórios, monitoramento, XDM
-source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
+exl-id: 2e7c5ea5-d8c5-416d-ab88-d2bc02043558
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -32,7 +33,7 @@ Há dois tipos principais de eventos de etapa de jornada:
 Os eventos de etapa de Jornada são gerados automaticamente para várias atividades de jornada:
 
 - **Eventos de entrada**: quando um perfil [entra em uma jornada](../building-journeys/entry-management.md)
-- **Execução da ação**: quando [mensagens são enviadas](../building-journeys/journeys-message.md) ou [ações personalizadas](../building-journeys/using-custom-actions.md) são executadas
+- **Execução da ação**: quando [mensagens são enviadas](../building-journeys/journey-action.md) ou [ações personalizadas](../building-journeys/using-custom-actions.md) são executadas
 - **Avaliação de condição**: quando os perfis passam por [condições](../building-journeys/condition-activity.md) e pontos de decisão
 - **Atividades de espera**: quando perfis entram e saem [nós de espera](../building-journeys/wait-activity.md)
 - **Eventos de saída**: quando os perfis são concluídos ou [sair de uma jornada](../building-journeys/end-journey.md)

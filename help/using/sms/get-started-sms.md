@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 100%
 
@@ -189,7 +189,7 @@ Monitore e analise o desempenho das campanhas e da jornada de SMS:
 
 Saiba como incorporar SMS nas jornadas e campanhas do cliente:
 
-* [Adicionar mensagens SMS em jornadas](../building-journeys/journeys-message.md)
+* [Adicionar mensagens SMS em jornadas](../building-journeys/journey-action.md)
 * [Criar campanhas SMS](../campaigns/create-campaign.md)
 
 +++
@@ -202,7 +202,7 @@ Saiba como configurar, criar e incluir mensagens de SMS nas jornadas do cliente.
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422698?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -212,7 +212,7 @@ Descubra os recursos abrangentes de mensagens móveis que o Adobe Journey Optimi
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430380?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -222,13 +222,13 @@ Saiba como configurar e enviar mensagens RCS interativas e alinhadas à marca no
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464760?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
 **Tópicos relacionados**
 
-* [Adicionar mensagens em jornadas](../building-journeys/journeys-message.md)
+* [Adicionar mensagens em jornadas](../building-journeys/journey-action.md)
 * [Criar campanhas de marketing](../campaigns/create-campaign.md)
 * [Medidas de proteção e limitações](../start/guardrails.md#sms-guardrails)
 * [Tutoriais de SMS e mensagens móveis](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}

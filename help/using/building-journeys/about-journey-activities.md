@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '717'
 ht-degree: 15%
 
 ---
@@ -43,7 +43,7 @@ As atividades de orquestração são condições que ajudam a determinar a próx
 
 Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração estão disponíveis:
 
-<!--* [Optimize](optimize.md)-->
+* [Otimizar](optimize.md)
 * [Ler público-alvo](read-audience.md)
 * [Aguardar](wait-activity.md)
 * [Decisão de conteúdo](content-decision.md)
@@ -57,7 +57,7 @@ As ações são o que você deseja que aconteça como resultado de algum tipo de
 
 Na paleta à esquerda da tela, abaixo de **[!UICONTROL Eventos]** e **[!UICONTROL Orquestração]**, você pode encontrar a categoria **[!UICONTROL Ações]**. As seguintes atividades de ação estão disponíveis:
 
-* [Ações de canal integradas](../building-journeys/journeys-message.md)
+* [Ações de canal internas](../building-journeys/journey-action.md) disponíveis na atividade **Ação**
 * [Ações personalizadas](../building-journeys/using-custom-actions.md)
 * [Salto](../building-journeys/jump.md)
 
@@ -111,7 +111,7 @@ Em alguns contextos específicos, é possível substituir os valores desses par�
 
 ### Adicionar um caminho alternativo
 
-A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcar a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
+A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcar a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths)
 
 ![Adicionar uma opção de caminho alternativo nas propriedades da atividade de Condição](assets/journey42.png)
 
@@ -121,4 +121,4 @@ Antes de testar e publicar sua jornada, verifique se todas as atividades estão 
 
 Saiba como solucionar erros nas atividades e na jornada [nesta página](troubleshooting.md).
 
-Consulte também **[Monitoramento e solução de problemas](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**.
+Consulte também [Monitoramento e solução de problemas](../../rp_landing_pages/troubleshoot-journey-landing-page.md)

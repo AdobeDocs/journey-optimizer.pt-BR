@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
-
 
 # Definir períodos de silêncio {#quiet-hours}
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 O **Período de silêncio** permite definir exclusões com base no tempo para **emails**, **SMS**, **Push** e **WhatsApp** canais. Elas garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando a respeitar as preferências do cliente e os requisitos de conformidade.
 
-Você pode aplicar horas de silêncio por meio de **conjuntos de regras**, que podem ser atribuídos a ações individuais em campanhas ou jornadas para obter um controle preciso.
+É possível aplicar períodos de silêncio por meio de **conjuntos de regras**, que podem ser atribuídos a ações individuais em campanhas ou jornadas para proporcionar um controle preciso.
 
 Ao simplificar esses processos, você pode aprimorar a experiência do cliente, economizar tempo e garantir a conformidade com as regras de comunicação:
 
@@ -133,7 +133,7 @@ Depois que a regra é salva e o conjunto de regras é ativado, você pode aplic�
 
 >[!TAB Aplicar ações de canal de Silêncio no jornada]
 
-1. Abra a jornada, selecione uma [ação de canal](../building-journeys/journeys-message.md) e edite o conteúdo da mensagem.
+1. Abra a jornada, selecione uma [ação de canal](../building-journeys/journey-action.md) e edite o conteúdo da mensagem.
 1. Clique no botão **[!UICONTROL Adicionar regra de negócios]** e selecione o conjunto de regras que contém a regra de Período de silêncio.
 
    ![](assets/quiet-hours-apply.png)
@@ -192,4 +192,4 @@ Depois que sua jornada ou campanhas forem ativadas e executadas, você poderá e
 
 Saiba como usar o recurso de horários de silêncio no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475857?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

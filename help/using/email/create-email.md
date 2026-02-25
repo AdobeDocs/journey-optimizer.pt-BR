@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1187'
 ht-degree: 9%
 
 ---
@@ -31,23 +31,35 @@ Para criar um email em [!DNL Journey Optimizer], adicione uma ação de **[!UICO
 
 >[!TAB Adicionar um email a uma jornada]
 
-1. Abra a jornada e arraste e solte uma atividade de **[!UICONTROL Email]** da seção **[!UICONTROL Ações]** da paleta.
+1. Abra a jornada e arraste e solte uma atividade **[!UICONTROL Ação]** da seção **[!UICONTROL Ações]** da paleta. Saiba mais sobre a [Atividade de ação](../building-journeys/journey-action.md).
 
-   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
+   >[!IMPORTANT]
+   >
+   >Sendo todos os canais nativos agora acessíveis por meio da atividade Ação, as atividades de canal nativas herdadas serão descontinuadas na versão de março. As jornadas existentes que incluem ações herdadas continuarão a funcionar como estão — não é necessária nenhuma migração.
 
-1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria).
-
-1. Escolha ou crie a [configuração de email](email-settings.md).
+1. Selecione **[!UICONTROL Email]** como o tipo de ação.
 
    ![](assets/email_journey.png)
 
-   O campo é pré-preenchido, por padrão, com a última configuração usada para esse canal pelo usuário.
+1. Insira um **[!UICONTROL Rótulo]** para identificar sua ação na tela de jornada.
 
->[!NOTE]
->
->Você pode usar a opção Otimização de tempo de envio para prever o melhor momento para enviar a mensagem e maximizar o engajamento com base no histórico das taxas de abertura e de clique. [Saiba como trabalhar com a Otimização de Tempo de Envio](../building-journeys/send-time-optimization.md)
+1. Clique no botão **[!UICONTROL Configurar ação]**.
 
-Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
+1. Você é direcionado para a guia **[!UICONTROL Ações]**. Nesse local, selecione ou crie a configuração de email que será usada. [Saiba mais](email-settings.md)
+
+   ![](assets/email-action-config.png)
+
+1. Além disso:
+
+   * Você pode aplicar regras de limitação à sua ação de email selecionando um conjunto de regras na lista suspensa **[!UICONTROL Regras de negócio]**. [Saiba mais](../conflict-prioritization/channel-capping.md)
+
+   * Você pode usar a opção **[!DNL Send time optimization]** para prever o melhor momento para enviar a mensagem para maximizar o engajamento com base no histórico das taxas de abertura e de clique. [Saiba como](../building-journeys/send-time-optimization.md)
+
+1. Selecione o botão **[!UICONTROL Editar conteúdo]** e crie o conteúdo conforme desejado usando o Designer de email. [Saiba mais](#define-email-content)
+
+1. Volte para a tela de jornada. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
+
+Para obter mais informações sobre como criar, configurar e publicar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
 
 >[!TAB Adicionar um email a uma campanha]
 
@@ -68,8 +80,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_campaign_tracking.png)
 -->
-
-Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+Para obter mais informações sobre como criar, configurar e ativar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
@@ -182,7 +193,7 @@ Quando o email estiver pronto, conclua a configuração da [jornada](../building
 
 >[!NOTE]
 >
->Para acompanhar o comportamento de seus destinatários por meio de aberturas e/ou interações de email, verifique se as opções dedicadas na seção **[!UICONTROL Rastreamento]** estão habilitadas na [atividade de email](../building-journeys/journeys-message.md) da jornada ou no email [campanha](../campaigns/create-campaign.md).<!--to move?-->
+>Para acompanhar o comportamento de seus destinatários por meio de aberturas e/ou interações de email, verifique se as opções dedicadas na seção **[!UICONTROL Rastreamento]** estão habilitadas na [atividade de email](../building-journeys/journey-action.md) da jornada ou no email [campanha](../campaigns/create-campaign.md).<!--to move?-->
 
 <!--
 

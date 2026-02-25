@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1285'
 ht-degree: 8%
 
 ---
@@ -38,19 +38,31 @@ Navegue pelas guias abaixo para saber como adicionar uma mensagem de texto (SMS/
 
 >[!TAB Adicionar uma mensagem de texto a uma Jornada]
 
-1. Abra a jornada e arraste e solte uma atividade de SMS da seção **Ações** da paleta.
+1. Abra a jornada e arraste e solte uma atividade **[!UICONTROL Ação]** da seção **[!UICONTROL Ações]** da paleta. Saiba mais sobre a [Atividade de ação](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Sendo todos os canais nativos agora acessíveis por meio da atividade Ação, as atividades de canal nativas herdadas serão descontinuadas na versão de março. As jornadas existentes que incluem ações herdadas continuarão a funcionar como estão — não é necessária nenhuma migração.
+
+1. Selecione **[!UICONTROL SMS]** como o tipo de ação.
 
    ![](assets/sms_create_1.png)
 
-1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria) e escolha a configuração de mensagem a ser usada.
+1. Insira um **[!UICONTROL Rótulo]** para identificar sua ação na tela de jornada.
+
+1. Clique no botão **[!UICONTROL Configurar ação]**.
+
+1. Você é direcionado para a guia **[!UICONTROL Ações]**. Nesse local, selecione ou crie a configuração de SMS que será usada. [Saiba mais](sms-configuration.md)
 
    ![](assets/sms_create_2.png)
 
-   Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md)
+1. Além disso, você pode aplicar regras de limitação à sua ação de SMS selecionando um conjunto de regras na lista suspensa **[!UICONTROL Regras de negócio]**. [Saiba mais](../conflict-prioritization/channel-capping.md)
 
-   O campo **[!UICONTROL configuração]** é preenchido previamente, por padrão, com a última configuração usada para esse canal pelo usuário.
+1. Selecione o botão **[!UICONTROL Editar conteúdo]** e crie o conteúdo conforme desejado. [Saiba mais](#sms-content)
 
-Agora você pode começar a criar o conteúdo da sua mensagem SMS usando o botão **[!UICONTROL Editar conteúdo]**, conforme detalhado abaixo.
+1. Volte para a tela de jornada. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
+
+Para obter mais informações sobre como criar, configurar e publicar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
 
 >[!TAB Adicionar uma mensagem de texto a uma campanha]
 
@@ -88,6 +100,8 @@ Agora você pode começar a criar o conteúdo da sua mensagem SMS usando o botã
    * Month
 
 Agora você pode começar a projetar o conteúdo da sua mensagem de texto a partir do botão **[!UICONTROL Editar conteúdo]**, conforme detalhado abaixo.
+
+Para obter mais informações sobre como criar, configurar e ativar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
@@ -184,5 +198,5 @@ Depois de enviado, você pode medir o impacto do SMS nos relatórios do Campaign
 * [Pré-visualizar, testar e enviar sua mensagem de texto](send-sms.md)
 * [Configuração de canal de SMS](sms-configuration.md)
 * [Relatórios SMS/MMS](../reports/journey-global-report-cja-sms.md)
-* [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)
+* [Adicionar uma mensagem em uma jornada](../building-journeys/journey-action.md)
 * [Adicionar uma mensagem em uma campanha](../campaigns/create-campaign.md)

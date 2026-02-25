@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 12%
+source-wordcount: '615'
+ht-degree: 11%
 
 ---
 
@@ -24,13 +24,15 @@ ht-degree: 12%
 >title="Ação de canal integrada"
 >abstract="O Journey Optimizer inclui recursos de ação de canal integrada. Você pode simplesmente adicionar, à sua jornada, uma atividade de mensagem (email, mensagem de texto (SMS/MMS), push, mala direta) ou experiência de entrada (no aplicativo, Web, experiência baseada em código, cartão de conteúdo) e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
 
-O [!DNL Journey Optimizer] vem com recursos de ação de canal incorporados que são usados para enviar mensagens: quando um perfil entra nessa atividade, uma mensagem é enviada a ele.
+O [!DNL Journey Optimizer] vem com recursos de ação de canal internos, que são usados para enviar mensagens. Para adicionar uma ação de canal integrada à sua jornada, arraste e solte uma atividade de canal e defina suas configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada.
 
-Para adicionar uma ação de canal integrada à sua jornada, arraste e solte uma atividade de canal e defina suas configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada.
+Todos os canais nativos agora também estão acessíveis por meio da atividade **Ação**, que é a maneira recomendada de adicionar uma ação de canal interna à sua jornada. [Saiba mais](journey-action.md)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Você também pode configurar ações personalizadas para enviar suas mensagens no [!DNL Journey Optimizer]. [Saiba mais](#recommendation)
+>As atividades herdadas do canal nativo serão descontinuadas na versão de março. As jornadas existentes que incluem ações herdadas continuarão a funcionar como estão — não é necessária nenhuma migração.
+
+Você também pode configurar ações personalizadas para enviar suas mensagens no [!DNL Journey Optimizer]. [Saiba mais](#recommendation)
 
 ## Adicionar uma mensagem em uma jornada  {#add-msg-in-journey}
 

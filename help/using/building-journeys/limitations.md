@@ -10,7 +10,7 @@ level: Intermediate
 keywords: jornadas, limitação
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 39%
@@ -51,7 +51,7 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 
 ## Limitações de eventos de reação {#reaction-limitations}
 
-* As atividades de **[!UICONTROL Reação]** devem ser colocadas imediatamente após uma [atividade de ação de canal](../building-journeys/journeys-message.md) na tela de jornada. Não há suporte para a colocação de uma atividade **[!UICONTROL Wait]** ou qualquer outra atividade entre a ação de canal e a atividade **[!UICONTROL Reaction]** e pode fazer com que a Reação não funcione conforme esperado. Saiba mais [nesta seção](../building-journeys/reaction-events.md).
+* As atividades de **[!UICONTROL Reação]** devem ser colocadas imediatamente após uma [atividade de ação de canal](../building-journeys/journey-action.md) na tela de jornada. Não há suporte para a colocação de uma atividade **[!UICONTROL Wait]** ou qualquer outra atividade entre a ação de canal e a atividade **[!UICONTROL Reaction]** e pode fazer com que a Reação não funcione conforme esperado. Saiba mais [nesta seção](../building-journeys/reaction-events.md).
 
 ## Limitações das fontes de dados {#data-sources-limitations}
 

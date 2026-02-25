@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '952'
 ht-degree: 11%
 
 ---
@@ -32,27 +32,43 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
 >[!TAB Adicionar um push a uma Jornada]
 
-1. Abra a jornada e arraste e solte uma atividade de push da seção Ações da paleta.
+1. Abra a jornada e arraste e solte uma atividade **[!UICONTROL Ação]** da seção **[!UICONTROL Ações]** da paleta. Saiba mais sobre a [Atividade de ação](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Sendo todos os canais nativos agora acessíveis por meio da atividade Ação, as atividades de canal nativas herdadas serão descontinuadas na versão de março. As jornadas existentes que incluem ações herdadas continuarão a funcionar como estão — não é necessária nenhuma migração.
+
+1. Selecione **[!UICONTROL Push]** como o tipo de ação.
 
    ![](assets/push_create_1.png)
 
-1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria) e escolha a configuração de mensagem a ser usada.
+1. Insira um **[!UICONTROL Rótulo]** para identificar sua ação na tela de jornada.
+
+1. Clique no botão **[!UICONTROL Configurar ação]**.
+
+1. Você é direcionado para a guia **[!UICONTROL Ações]**. Nesse local, selecione ou crie a configuração de push a ser usada. [Saiba mais](push-configuration.md)
 
    ![](assets/push_create_2.png)
 
+1. Além disso:
+
+   * Você pode aplicar regras de limitação à sua ação de push selecionando um conjunto de regras na lista suspensa **[!UICONTROL Regras de negócio]**. [Saiba mais](../conflict-prioritization/channel-capping.md)
+
+   * Você pode usar a opção **[!DNL Send time optimization]** para prever o melhor momento para enviar a mensagem para maximizar o engajamento com base no histórico das taxas de abertura e de clique. [Saiba como](../building-journeys/send-time-optimization.md)
+
+1. Use o **[!UICONTROL Modo de entrega rápida]** para enviar a notificação por push em grandes volumes. [Saiba como](#rapid-delivery)
+
+1. Selecione o botão **[!UICONTROL Editar conteúdo]** e crie o conteúdo conforme desejado. [Saiba mais](design-push.md)
+
+1. Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente para visualizar seu conteúdo. [Saiba como](send-push.md)
+
+1. Volte para a tela de jornada. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
+
    >[!NOTE]
    >
-   >Se você estiver enviando uma notificação por push de uma jornada, poderá aproveitar o recurso de Otimização de hora de envio da Adobe Journey Optimizer para prever o melhor momento para enviar a mensagem e maximizar o engajamento com base no histórico de taxas de abertura e de cliques. [Saiba como trabalhar com a Otimização de Tempo de Envio](../building-journeys/send-time-optimization.md)
+   >Para acompanhar o comportamento de seus destinatários por meio de aberturas e/ou interações por push, verifique se as opções dedicadas na seção de rastreamento estão habilitadas na [atividade de email](../building-journeys/journey-action.md).
 
-   Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md)
-
-1. Na tela de configuração da jornada, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo de push. [Criar uma notificação por push](design-push.md)
-
-1. Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente para visualizar seu conteúdo.
-
-1. Quando o push estiver pronto, conclua a configuração da [jornada](../building-journeys/journey-gs.md) para enviá-lo.
-
-   Para acompanhar o comportamento de seus destinatários por meio de aberturas e/ou interações por push, verifique se as opções dedicadas na seção de rastreamento estão habilitadas na [atividade de email](../building-journeys/journeys-message.md).
+Para obter mais informações sobre como criar, configurar e publicar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
 
 >[!TAB Adicionar uma notificação por push a uma campanha]
 
@@ -89,18 +105,20 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
 1. Na tela de configuração da campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo de push. [Criar uma notificação por push](design-push.md)
 
-1. Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente para visualizar seu conteúdo.
+1. Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente para visualizar seu conteúdo. [Saiba como](send-push.md)
 
 1. Quando o push estiver pronto, conclua a configuração da sua [campanha](../campaigns/create-campaign.md) para enviá-lo.
 
    Para acompanhar o comportamento de seus destinatários por meio de aberturas e/ou interações por push, verifique se as opções dedicadas na seção de rastreamento estão habilitadas na [campanha](../campaigns/create-campaign.md).
+
+Para obter mais informações sobre como criar, configurar e ativar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
 **Tópicos relacionados**
 
 * [Configurar canal por push](push-gs.md)
-* [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)
+* [Adicionar uma mensagem em uma jornada](../building-journeys/journey-action.md)
 
 ## Modo de entrega rápida {#rapid-delivery}
 

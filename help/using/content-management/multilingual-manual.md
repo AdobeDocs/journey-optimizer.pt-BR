@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 2%
@@ -85,7 +85,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
    >
    >Esses pré-requisitos são necessários apenas para os canais de cartões no aplicativo e de Conteúdo.
 
-   1. Na Coleção de dados da Adobe Experience Platform, acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Na Coleção de dados da Adobe Experience Platform, acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. Na seção **[!UICONTROL IF]** da regra, adicione um evento configurado conforme abaixo:
 
@@ -143,7 +143,7 @@ Observe que, após configurar suas preferências de idioma, você não terá mai
 
 Depois de configurar seu conteúdo multilíngue, você está pronto para criar a campanha ou jornada e personalizar o conteúdo para cada uma das localidades selecionadas.
 
-1. Comece criando e configurando sua [campanha](../campaigns/create-campaign.md) ou [jornada](../building-journeys/journeys-message.md) de email, SMS ou notificação por push de acordo com suas necessidades.
+1. Comece criando e configurando sua [campanha](../campaigns/create-campaign.md) ou [jornada](../building-journeys/journey-action.md) de email, SMS ou notificação por push de acordo com suas necessidades.
 
    >[!IMPORTANT]
    >

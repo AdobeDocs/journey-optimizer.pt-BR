@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%
@@ -166,7 +166,7 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
 
    1. Em Coleção de dados da Adobe Experience Platform, acesse as Propriedades da tag.
 
-   1. Acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Acesse o menu **[!UICONTROL Regras]** e crie uma nova regra. Informações detalhadas sobre como criar regras estão disponíveis na [!DNL Adobe Experience Platform] [Documentação da Coleção de Dados](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. Na seção **[!UICONTROL IF]** da regra, adicione um evento configurado conforme abaixo:
 
@@ -224,7 +224,7 @@ Observe que, após configurar suas preferências de idioma, você não terá mai
 
 Depois de definir o projeto de Tradução e as configurações de Idioma, você estará pronto para criar a campanha ou jornada e personalizar o conteúdo para as diferentes localidades.
 
-1. Comece criando e configurando sua [campanha](../campaigns/create-campaign.md) ou [jornada](../building-journeys/journeys-message.md) de email, SMS ou notificação por push de acordo com suas necessidades.
+1. Comece criando e configurando sua [campanha](../campaigns/create-campaign.md) ou [jornada](../building-journeys/journey-action.md) de email, SMS ou notificação por push de acordo com suas necessidades.
 
 1. Depois que o conteúdo principal for criado, clique em **[!UICONTROL Salvar]** e volte para a tela de configuração da campanha.
 

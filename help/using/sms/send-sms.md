@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: d6a46a6db9bcef4def71e915389d725c69d851c3
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 2%
@@ -76,4 +76,4 @@ Quando a mensagem de texto estiver pronta, conclua a configuração da [jornada]
 * [Configuração de canal de SMS](sms-configuration.md)
 * [Relatórios SMS/MMS](../reports/journey-global-report-cja-sms.md)
 * [Criação de uma mensagem de texto](create-sms.md)
-* [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)
+* [Adicionar uma mensagem em uma jornada](../building-journeys/journey-action.md)

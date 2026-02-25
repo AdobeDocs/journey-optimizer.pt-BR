@@ -1,19 +1,19 @@
 ---
-title: Criação de experiências da web
+title: Criação de experiências da Web
 description: Saiba como criar uma página da Web e editar seu conteúdo no Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 18%
+source-wordcount: '1619'
+ht-degree: 17%
 
 ---
 
-# Criação de experiências da web {#create-web}
+# Criação de experiências da Web {#create-web}
 
 O [!DNL Journey Optimizer] permite personalizar a experiência da Web fornecida aos clientes por meio de jornadas ou campanhas de entrada.
 
@@ -45,7 +45,13 @@ Para adicionar uma atividade **Web** a uma jornada, siga estas etapas:
 
 1. Inicie sua jornada com uma atividade [Evento](../building-journeys/general-events.md) ou [Ler público](../building-journeys/read-audience.md).
 
-1. Arraste e solte uma atividade **[!UICONTROL Web]** da seção **[!UICONTROL Actions]** da paleta.
+1. Arraste e solte uma atividade **[!UICONTROL Ação]** da seção **[!UICONTROL Ações]** da paleta. Saiba mais sobre a [Atividade de ação](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Sendo todos os canais nativos agora acessíveis por meio da atividade Ação, as atividades de canal nativas herdadas serão descontinuadas na versão de março. As jornadas existentes que incluem ações herdadas continuarão a funcionar como estão — não é necessária nenhuma migração.
+
+1. Selecione **[!UICONTROL Web]** como o tipo de ação.
 
    ![](assets/web-activity-journey.png)
 
@@ -53,21 +59,23 @@ Para adicionar uma atividade **Web** a uma jornada, siga estas etapas:
    >
    >Como **Web** é uma atividade de experiência de entrada, ela vem com uma atividade **Wait** de 3 dias. [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Insira um **[!UICONTROL Rótulo]** e uma **[!UICONTROL Descrição]** para a mensagem.
+1. Insira um **[!UICONTROL Rótulo]** para identificar sua ação na tela de jornada.
 
-1. Selecione ou crie a [configuração da Web](web-configuration.md) a ser usada.
+1. Clique no botão **[!UICONTROL Configurar ação]**.
+
+1. Você é direcionado para a guia **[!UICONTROL Ações]**. Aqui, selecione ou crie a [configuração da Web](web-configuration.md) a ser usada.
 
    ![](assets/web-activity-configuration.png)
 
+1. Você pode adicionar uma ou mais ações de entrada à sua experiência da Web clicando no botão **[!UICONTROL Adicionar ação]**. [Saiba mais](../building-journeys/journey-action.md#multi-action)
+
+1. Volte para a tela de jornada. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
+
 1. Selecione o botão **[!UICONTROL Editar conteúdo]** e edite o conteúdo conforme desejado. [Saiba mais](#edit-web-content)
 
-1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
+Para obter mais informações sobre como criar, configurar e publicar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
 
-1. Quando a experiência da Web estiver pronta, finalize a configuração e publique sua jornada para ativá-la. [Saiba mais](../building-journeys/publish-journey.md)
-
-Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
-
->[!TAB Criação de uma campanha da web]
+>[!TAB Criar uma campanha da Web]
 
 Para começar a criar sua experiência da Web por meio de uma campanha, siga as etapas abaixo.
 
@@ -230,13 +238,13 @@ Depois de definir as configurações da campanha da Web e editar o conteúdo con
    >
    >Saiba mais sobre como ativar campanhas em [esta seção](../campaigns/review-activate-campaign.md).
 
-Sua campanha da Web usa o **[!UICONTROL status do]** Live[&#128279;](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações adicionadas ao site.
+Sua campanha da Web usa o **[!UICONTROL status do]** Live[](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações adicionadas ao site.
 
 >[!NOTE]
 >
 >Depois de clicar em **[!UICONTROL Ativar]**, pode levar até 15 minutos para que as alterações nas campanhas da Web fiquem disponíveis ao vivo no site.
 >
->Se você definiu um agendamento para sua campanha da Web, ela tem o **[!UICONTROL status de]** agendado[&#128279;](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
+>Se você definiu um agendamento para sua campanha da Web, ela tem o **[!UICONTROL status de]** agendado[](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
 
 Assim que a experiência estiver ativa, você poderá monitorar as jornadas e campanhas da Web. [Saiba mais](monitor-web-experiences.md)
 
@@ -266,4 +274,4 @@ Quando uma jornada ou campanha da Web está ativa, você pode interrompê-la par
 
 O vídeo abaixo mostra como criar uma campanha da Web, configurar suas propriedades, revisá-la e publicá-la.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449986/?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2188'
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos seus clientes, adic
 
 ## Adicionar uma política de decisão {#add}
 
-Para adicionar uma política de decisão em sua mensagem, abra uma jornada ou campanha e selecione uma [ação de canal](../building-journeys/journeys-message.md).
+Abra uma jornada ou campanha, selecione uma [ação de canal](../building-journeys/journey-action.md) e edite o conteúdo da sua mensagem.
 
 Edite o conteúdo da mensagem e navegue pelas guias abaixo para obter mais informações sobre como adicionar a política de decisão com base no canal selecionado.
 

@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 13%
+source-wordcount: '1467'
+ht-degree: 12%
 
 ---
 
@@ -25,13 +25,25 @@ ht-degree: 13%
 
 Para adicionar um cartão de Conteúdo a uma jornada, siga estas etapas:
 
-1. Abra a jornada e arraste e solte uma atividade de **[!UICONTROL Cartão]** da seção **[!UICONTROL Ações]** da paleta.
+1. Abra a [jornada](../building-journeys/journey-gs.md) e arraste e solte uma atividade de **[!UICONTROL Ação]** da seção **[!UICONTROL Ações]** da paleta. Saiba mais sobre a [Atividade de ação](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Sendo todos os canais nativos agora acessíveis por meio da atividade Ação, as atividades de canal nativas herdadas serão descontinuadas na versão de março. As jornadas existentes que incluem ações herdadas continuarão a funcionar como estão — não é necessária nenhuma migração.
+
+1. Selecione **[!UICONTROL Cartão]** como o tipo de ação.
 
    ![](assets/content-card-jo-1.png)
 
-1. Insira um **[!UICONTROL Rótulo]** e uma **[!UICONTROL Descrição]** para a mensagem.
+   >[!NOTE]
+   >
+   >Como o **Cartão** é uma atividade de experiência de entrada, ele vem com uma atividade **Aguardar** de 3 dias. [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Escolha a [configuração do cartão de conteúdo](content-card-configuration.md) para usar.
+1. Insira um **[!UICONTROL Rótulo]** para identificar sua ação na tela de jornada.
+
+1. Clique no botão **[!UICONTROL Configurar ação]**.
+
+1. Você é direcionado para a guia **[!UICONTROL Ações]**. Nesse local, selecione ou crie a configuração do cartão de conteúdo que será usada. [Saiba mais](content-card-configuration.md)
 
    ![](assets/content-card-jo-2.png)
 
@@ -51,7 +63,7 @@ Para adicionar um cartão de Conteúdo a uma jornada, siga estas etapas:
       | Rastreamento principal | Rastrear ação | Acionado quando a funcionalidade herdada oferecida na API de código móvel [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) é chamada. |
       | Rastreamento principal | Rastrear estado | Acionado quando a funcionalidade herdada oferecida na API de código móvel [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) é chamada. |
       | Rastreamento principal | Coletar PII | Acionado quando a funcionalidade herdada oferecida na API de código móvel [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) é chamada. |
-      | Ciclo de vida do aplicativo | Inicialização do aplicativo | Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido. |
+      | Ciclo de vida do aplicativo | Inicialização do aplicativo | Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo-limite da sessão do ciclo de vida é excedido. |
       | Ciclo de vida do aplicativo | Instalação do aplicativo | Disparado na primeira execução após a instalação ou reinstalação. |
       | Ciclo de vida do aplicativo | Atualização de aplicativo | Disparado na primeira execução após uma atualização ou quando o número da versão é alterado. |
       | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |
@@ -86,11 +98,11 @@ Para adicionar um cartão de Conteúdo a uma jornada, siga estas etapas:
 
    1. Clique em **[!UICONTROL Criar grupo]** para agrupar acionadores.
 
-1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
+1. Você pode adicionar uma ou mais ações de entrada ao seu cartão de conteúdo clicando no botão **[!UICONTROL Adicionar ação]**. [Saiba mais](../building-journeys/journey-action.md#multi-action)
 
-1. Quando o cartão de Conteúdo estiver pronto, finalize a configuração e publique sua jornada para ativá-lo.
+1. Volte para a tela de jornada. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
 
-Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
+Para obter mais informações sobre como criar, configurar e publicar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
 
 >[!TAB Adicionar cartões de Conteúdo a uma campanha]
 
@@ -134,7 +146,7 @@ Para começar a criar seus cartões de conteúdo por meio de uma campanha, siga 
       | Rastreamento principal | Rastrear ação | Acionado quando a funcionalidade herdada oferecida na API de código móvel [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) é chamada. |
       | Rastreamento principal | Rastrear estado | Acionado quando a funcionalidade herdada oferecida na API de código móvel [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) é chamada. |
       | Rastreamento principal | Coletar PII | Acionado quando a funcionalidade herdada oferecida na API de código móvel [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) é chamada. |
-      | Ciclo de vida do aplicativo | Inicialização do aplicativo | Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido. |
+      | Ciclo de vida do aplicativo | Inicialização do aplicativo | Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo-limite da sessão do ciclo de vida é excedido. |
       | Ciclo de vida do aplicativo | Instalação do aplicativo | Disparado na primeira execução após a instalação ou reinstalação. |
       | Ciclo de vida do aplicativo | Atualização de aplicativo | Disparado na primeira execução após uma atualização ou quando o número da versão é alterado. |
       | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |

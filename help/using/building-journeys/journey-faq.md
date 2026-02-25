@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia, orquestração
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -229,7 +229,7 @@ Sim. O Journey Optimizer inclui **ações de canal integradas** que permitem env
 
 Para canais sem suporte nativo, você pode usar **ações personalizadas** para integrar-se a plataformas de mensagens externas e enviar mensagens por meio de qualquer canal de terceiros.
 
-Saiba mais sobre [mensagens no jornada](journeys-message.md) e [ações personalizadas](using-custom-actions.md).
+Saiba mais sobre [mensagens no jornada](journey-action.md) e [ações personalizadas](using-custom-actions.md).
 
 +++
 
@@ -265,7 +265,7 @@ Criar uma **jornada unitária acionada por evento**:
 
 A jornada será acionada automaticamente sempre que um evento de compra for recebido, enviando o email de confirmação em tempo real.
 
-Saiba mais sobre [configuração de evento](../event/about-events.md) e [ações de email](journeys-message.md).
+Saiba mais sobre [configuração de evento](../event/about-events.md) e [ações de email](journey-action.md).
 
 +++
 
@@ -300,7 +300,7 @@ Criar uma jornada acionada por evento usando um evento **[!UICONTROL Reação]**
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Reação]** eventos devem ser colocados imediatamente após [ações de canal](journeys-message.md). Não coloque atividades de **[!UICONTROL Espera]** entre a ação de canal e a atividade de **[!UICONTROL Reação]**.
+>**[!UICONTROL Reação]** eventos devem ser colocados imediatamente após [ações de canal](journey-action.md). Não coloque atividades de **[!UICONTROL Espera]** entre a ação de canal e a atividade de **[!UICONTROL Reação]**.
 
 Saiba mais sobre [casos de uso do jornada](jo-use-cases.md) e [eventos de reação](reaction-events.md).
 
@@ -606,7 +606,7 @@ Sim. Use uma **[Atividade de condição](condition-activity.md)** para rotear pe
 * Usar [superfícies de canal](../configuration/channel-surfaces.md) para gerenciar configurações de canal
 * Testar todos os caminhos para garantir a entrega adequada da mensagem
 
-Saiba mais sobre [condições](condition-activity.md), [ações de mensagem](journeys-message.md) e [seleção de canal](../channels/gs-channels.md).
+Saiba mais sobre [condições](condition-activity.md), [ações de mensagem](journey-action.md) e [seleção de canal](../channels/gs-channels.md).
 
 +++
 
@@ -932,7 +932,7 @@ Saiba mais sobre [design do jornada](using-the-journey-designer.md) e [medidas d
 * Use o [modo de teste](testing-the-journey.md) e a [execução a seco](journey-dry-run.md) para validar o desempenho antes da publicação
 * Minimize chamadas de API externas por meio de [ações personalizadas](using-custom-actions.md) para evitar latência e dependência em sistemas de terceiros
 * Armazene dados usados com frequência em [!DNL Adobe Experience Platform] usando [pesquisa de conjunto de dados](dataset-lookup.md) em vez de fazer chamadas externas, quando possível
-* Revisar e otimizar o desempenho da [entrega de mensagens](journeys-message.md)
+* Revisar e otimizar o desempenho da [entrega de mensagens](journey-action.md)
 
 Saiba mais sobre [medidas de proteção e limitações](../start/guardrails.md).
 

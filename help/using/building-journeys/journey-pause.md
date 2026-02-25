@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 5%
@@ -86,7 +86,7 @@ Quando uma jornada é pausada, o gerenciamento de perfil e a execução da ativi
 | [Aguardar](wait-activity.md) | Mesmo comportamento que em uma jornada em tempo real |
 | [Condição](condition-activity.md) | Mesmo comportamento que em uma jornada em tempo real |
 | [Decisão de conteúdo](content-decision.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
-| [Ação do canal](journeys-message.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
+| [Ação do canal](journey-action.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
 | [Ação personalizada](../action/action.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
 | [Atualizar perfil](update-profiles.md) e [Pular](jump.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
 | [Source de Dados Externos](../datasource/external-data-sources.md) | Mesmo comportamento que em uma jornada em tempo real |
@@ -202,7 +202,7 @@ Ao retomar esta jornada:
 
 ## Solução de problemas de descartes de perfis em jornadas pausadas {#discards-troubleshoot}
 
-Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
+Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
 
 * Para descartes que ocorrem antes que o perfil entre na jornada, use o seguinte código:
 

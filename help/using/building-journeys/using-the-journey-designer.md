@@ -10,7 +10,7 @@ level: Intermediate
 keywords: design, tela, jornada, interface, arrastar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 4%
@@ -102,7 +102,7 @@ As outras atividades permitem adicionar condições à jornada para definir vár
 
 As ações são o que você deseja que aconteça como resultado de algum tipo de acionador, como enviar uma mensagem. É a parte da jornada que o cliente experimenta. Pode ser um email, SMS ou mensagem de push ou uma ação de terceiros, como uma mensagem do Slack.
 
-As atividades de ação de canal permitem incluir uma mensagem criada no [!DNL Journey Optimizer]. [Saiba mais sobre as atividades de ação de canal](journeys-message.md)
+As atividades de ação de canal permitem incluir uma mensagem criada no [!DNL Journey Optimizer]. [Saiba mais sobre as atividades de ação de canal](journey-action.md)
 
 Nas atividades de ação, use ações personalizadas para enviar mensagens com sistemas de terceiros. [Saiba mais sobre ações personalizadas](about-journey-activities.md#action-activities).
 

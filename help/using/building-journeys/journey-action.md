@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Usar a atividade de jornada Ação
-description: Saiba como adicionar uma atividade Ação genérica para configurar ações únicas e grupos de ação de entrada de várias ações na tela de jornada.
+title: Usar a Atividade de ação
+description: Saiba como adicionar uma atividade Ação genérica para configurar ações únicas e grupos de ação de entrada de várias ações na tela de jornada e como adicionar ações de canal integradas.
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 12%
+source-wordcount: '1455'
+ht-degree: 9%
 
 ---
 
@@ -22,25 +22,29 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="Atividade de ação"
->abstract="A atividade genérica **Ação** permite configurar uma única ação de canal nativa e várias atividades de entrada com a capacidade de adicionar otimização a qualquer ação de canal integrada."
+>abstract="A atividade **Ação** permite configurar uma única ação de canal nativo e várias atividades de entrada com a capacidade de adicionar otimização a qualquer ação de canal interna."
 
 O [!DNL Journey Optimizer] vem com uma nova atividade genérica **Action** que permite configurar uma única ação de canal interna e também várias atividades de entrada.
 
-Ele permite:
+A atividade Action oferece:
 
 * Uma configuração de ação nativa simplificada na tela da jornada.
 * A capacidade de criar grupos de ação de entrada multiação.
 * A capacidade de adicionar otimização a qualquer ação de canal integrada.
 
->[!NOTE]
+Para adicionar uma ação de canal interna à sua jornada, use a atividade **Ação**. Essa atividade unificada consolida todas as ações de canal (Email, Push, SMS, No aplicativo, Web, Experiência baseada em código e Cartão de conteúdo) em um único tipo de atividade, substituindo as atividades individuais de canal anteriores.
+
+>[!IMPORTANT]
 >
->Todos os canais nativos agora estão acessíveis por meio da atividade de jornada de ação. As atividades herdadas do canal nativo serão descontinuadas na versão de março. As jornadas existentes que incluem ações herdadas continuarão a funcionar como estão — não é necessária nenhuma migração.
+>Sendo todos os canais nativos agora acessíveis por meio da atividade Ação, as atividades de canal nativas herdadas serão descontinuadas na versão de março. As jornadas existentes que incluem ações herdadas continuarão a funcionar como estão — não é necessária nenhuma migração.
 
 Você também pode configurar ações personalizadas para enviar suas mensagens no [!DNL Journey Optimizer]. [Saiba mais](#recommendation)
 
-## Adicionar uma ação a uma jornada  {#add-action}
+## Adicionar uma ação de canal interna a uma jornada  {#add-action}
 
-Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaixo.
+Para adicionar uma ação de canal interna à sua jornada usando a atividade **[!UICONTROL Ação]**, siga as etapas abaixo.
+
+Para obter mais informações sobre os canais disponíveis no jornada, consulte a tabela nesta seção: [Canais em jornadas e campanhas](../channels/gs-channels.md#channels).
 
 1. Inicie sua jornada com uma atividade [Evento](general-events.md) ou [Ler público](read-audience.md).
 
@@ -62,7 +66,92 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
 
 1. Se você selecionou um canal de entrada, é possível adicionar várias ações. [Saiba mais](#multi-action)
 
-1. Configure sua atividade de acordo com o canal selecionado. Saiba como configurar ações de canal integradas em [esta seção](journeys-message.md).
+1. Configure sua atividade de acordo com o canal selecionado. Diretrizes de configuração detalhadas estão disponíveis nos links abaixo.
+
+   * Saiba mais sobre as etapas detalhadas para criar sua ação de saída da seguinte maneira:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="Lead" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>Criar emails</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="Pouco frequente" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>Criar notificações por push<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="Validação" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>Criar mensagens de texto (SMS/MMS)</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * Saiba mais sobre as etapas detalhadas para criar sua ação de entrada da seguinte maneira:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>Criar mensagens no aplicativo</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="Lead" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>Criar experiências da Web</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="Lead" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong>Criar cartões de conteúdo</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="Pouco frequente" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>Criar experiências baseadas em código<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   >[!NOTE]
+   >
+   >* Cada ação de experiência de entrada vem com uma atividade de 3 dias **Aguardar**. [Saiba mais](wait-activity.md#auto-wait-node)
+   >
+   >* Para emails e notificações por push, é possível ativar a Otimização de tempo de envio. [Saiba mais](send-time-optimization.md)
+
+1. Dependendo da atividade, é possível exibir parâmetros avançados específicos do canal selecionado e substituir alguns valores padrão, como o endereço de execução. [Saiba mais](about-journey-activities.md#advanced-parameters)
+
+   >[!NOTE]
+   >
+   >Se os parâmetros avançados estiverem ocultos, clique no botão **[!UICONTROL Mostrar campos somente leitura]** na parte superior do painel direito.
 
 1. Use a seção **[!UICONTROL Otimização]** para executar experimentos de conteúdo, aproveitar regras de direcionamento ou usar combinações avançadas de experimentação e direcionamento.
 
@@ -178,7 +267,32 @@ Para definir várias ações de entrada em um único nó de ação de jornada, s
 1. Continue da mesma forma para adicionar mais ações. Você pode adicionar até 10 ações de entrada em um grupo de ações de jornada.
 
 Quando a jornada estiver [ativa](publish-journey.md), todas as ações serão ativadas simultaneamente.
-<!--
-## Next steps {#next}
 
-Once your action is configured, you can design its content. [Learn more]-->
+## Atualizar um conteúdo ao vivo {#update-live-content}
+
+Você pode atualizar o conteúdo de uma ação de canal integrada em uma jornada em tempo real.
+
+Quaisquer alterações feitas no conteúdo não serão refletidas na jornada até que você salve as propriedades da ação. [Saiba mais](about-journey-activities.md#advanced-parameters)
+
+Para fazer isso, abra a jornada em tempo real, selecione a atividade de canal e clique em **Editar conteúdo**.
+
+![Botão Editar atividade do canal no Live jornada](assets/email-action-edit-content.png)
+
+No entanto, não é possível alterar os atributos usados na personalização, sejam eles atributos de perfil ou dados contextuais (de propriedades de evento ou jornada).
+
+* Se você modificou dados contextuais, a seguinte mensagem de erro será exibida: `ERR_AUTHORING_JOURNEYVERSION_201`
+
+* Se você modificou atributos de perfil, a seguinte mensagem de erro será exibida: `ERR_AUTHORING_JOURNEYVERSION_202`
+
+Observe que, para a atividade no aplicativo, qualquer alteração pode ser feita no conteúdo enquanto a jornada está ativa, mas os acionadores no aplicativo não podem ser modificados.
+
+## Enviar com ações personalizadas {#recommendation}
+
+Em vez de usar os recursos de mensagem incorporados, você pode usar ações personalizadas para configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API.
+
+* Se você estiver usando um sistema de terceiros para enviar mensagens, poderá criar uma ação personalizada. [Saiba mais](../action/action.md)
+
+* Se estiver trabalhando com o Adobe Campaign, consulte estas seções:
+
+   * [[!DNL Journey Optimizer] e o Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
