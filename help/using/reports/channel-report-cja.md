@@ -142,7 +142,7 @@ A tabela **[!UICONTROL Conflitos e Limite de Jornada]** fornece informações so
 
 A coluna **[!UICONTROL Entradas de Jornada por Conjunto de Regras]** mostra o número de perfis que entraram na jornada. Há três tipos de entradas:
 
-* ****[!UICONTROL Nenhum conflito]****: o perfil entrou na jornada sem nenhum conflito de conjunto de regras. Nenhum conjunto de regras ativo impediu essa entrada, e a entrada de jornada ocorreu independentemente das regras de arbitragem.
+* **&#x200B;**&#x200B;[!UICONTROL Nenhum conflito]&#x200B;**&#x200B;**: o perfil entrou na jornada sem nenhum conflito de conjunto de regras. Nenhum conjunto de regras ativo impediu essa entrada, e a entrada de jornada ocorreu independentemente das regras de arbitragem.
 
 * **Prioridade mais alta**: o perfil entrou na jornada devido à sua maior prioridade do que outras jornadas concorrentes. Mesmo que houvesse um conflito (o perfil se qualificou para várias jornadas), essa jornada foi selecionada devido à sua pontuação de prioridade mais alta.
 
