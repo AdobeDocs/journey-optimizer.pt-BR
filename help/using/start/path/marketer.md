@@ -207,5 +207,5 @@ Colabore com [Admins](administrator.md) no acesso e nas configurações:
 
 1. **Comece aos poucos**: crie uma jornada de boas-vindas simples ou uma campanha de mensagem única para conhecer a plataforma
 2. **Aproveite a IA**: use o Assistente de IA para fazer perguntas e acelerar a criação de conteúdo
-3. **Ingresse na comunidade**: conecte-se a outros usuários do Journey Optimizer na [Comunidade da Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+3. **Ingresse na comunidade**: conecte-se a outros usuários do Journey Optimizer na [Comunidade da Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}
 4. **Explore tutoriais**: assista aos vídeos passo a passo na [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR){target="_blank"}
