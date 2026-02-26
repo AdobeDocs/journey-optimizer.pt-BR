@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b2abf39db81887aa6f183eb390a36b9f428f5ca8
+source-git-commit: 1d09a7ce6428532822955186973b6a2d9973f522
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 81%
+source-wordcount: '1350'
+ht-degree: 80%
 
 ---
 
@@ -41,7 +41,7 @@ A interface do Journey Optimizer consiste em quatro áreas principais:
 
 ### Pesquisa universal {#search}
 
-Use o ícone de pesquisa para localizar rapidamente jornadas, campanhas, ativos e outros objetos no Journey Optimizer. Digite palavras-chave para ver resultados relevantes de todas as áreas da plataforma.
+Use o ícone de pesquisa para localizar rapidamente jornadas, campanhas, ativos e outros objetos no Journey Optimizer. Digite palavras-chave para ver os resultados relevantes de todas as áreas da plataforma. [Saiba mais sobre a pesquisa universal](search-filter-categorize.md#unified-search).
 
 ### Ajuda e suporte {#help}
 
