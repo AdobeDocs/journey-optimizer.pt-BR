@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '898'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 95%
 
 ---
 
@@ -44,6 +44,8 @@ Siga estas etapas para configurar a base de dados do Journey Optimizer:
 1. **Criar perfis de teste**. Os perfis de teste são necessários ao usar o [modo de teste](../../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar suas mensagens](../../content-management/preview-test.md) antes de enviar. As etapas para criar perfis de teste são detalhadas [nesta página](../../audience/creating-test-profiles.md).
 
 1. **Configurar atributos computados** (opcional). Crie atributos derivados de dados de perfil para simplificar a segmentação e a personalização. Os atributos computados calculam automaticamente métricas complexas como “Total de compras nos últimos 90 dias” ou “Valor médio do pedido”. Saiba mais sobre [atributos computados](../../audience/computed-attributes.md).
+
+1. **Conjuntos de dados de exportação de mensagens** (opcional). Quando a exportação de mensagens é ativada no nível de configuração do canal, o conteúdo de emails e SMS enviados é exportado automaticamente para um conjunto de dados dedicado do Experience Platform para fins de conformidade, arquivamento ou análise downstream. Saiba mais sobre [exportação de mensagens](../../configuration/message-export.md).
 
 Além disso, para poder enviar mensagens em jornadas, configure as **[!UICONTROL Fontes de dados]**, os **[!UICONTROL Eventos]** e as **[!UICONTROL Ações]**. Saiba mais [nesta seção](../../configuration/about-data-sources-events-actions.md).
 

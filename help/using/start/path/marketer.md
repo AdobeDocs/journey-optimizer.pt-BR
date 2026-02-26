@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
-workflow-type: ht
-source-wordcount: '1476'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1591'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ Como **Profissional de marketing** ou **Profissional de negócios**, você cria 
 
 ## Introdução às noções básicas
 
-O Journey Optimizer reúne insights do cliente em tempo real, orquestração omnicanal moderna e decisões inteligentes em um único aplicativo. Crie experiências personalizadas e conectadas para o cliente através de comunicações por email, SMS, push, no aplicativo, web, cartões de conteúdo e mais.
+O Journey Optimizer reúne insights do cliente em tempo real, orquestração omnicanal moderna e decisões inteligentes em um único aplicativo. Crie experiências personalizadas e conectadas do cliente por email, SMS, push, push da Web, no aplicativo, Web, correspondência direta, cartões de conteúdo e muito mais.
 
 O Journey Optimizer oferece duas abordagens eficientes de orquestração:
 
@@ -33,7 +33,7 @@ Siga estas etapas principais para começar a criar experiências:
 
 1. **Criar públicos-alvo**. Crie públicos-alvo por meio de definições de segmento, carregue arquivos CSV ou use a composição de público-alvo. O Journey Optimizer oferece várias maneiras de direcionar os clientes certos. Saiba mais sobre [públicos-alvo](../../audience/about-audiences.md) e a [criação de definições de segmento](../../audience/creating-a-segment-definition.md).
 
-1. **Criar conteúdo**.  Crie mensagens convincentes em todos os canais, incluindo email, SMS, push, no aplicativo, web e cartões de conteúdo:
+1. **Criar conteúdo**.  Crie mensagens atraentes em todos os canais, incluindo email, SMS, push, push da Web, no aplicativo, Web, correspondência direta e cartões de conteúdo:
    * Use o **Assistente de IA** para gerar conteúdo de email, linhas de assunto e imagens com base nas diretrizes da sua marca. [Saiba mais sobre a geração de conteúdo de IA](../../content-management/gs-generative.md)
    * **Personalize mensagens** com dados do cliente, conteúdo dinâmico e lógica condicional. [Saiba mais sobre personalização](../../personalization/personalize.md)
    * **Itere sobre dados contextuais** para exibir listas dinâmicas de eventos, ações personalizadas e pesquisas de conjuntos de dados. [Saiba mais sobre a iteração de dados contextuais](../../personalization/iterate-contextual-data.md)
@@ -43,7 +43,7 @@ Siga estas etapas principais para começar a criar experiências:
 
    ![](../assets/perso_ee2.png)
 
-1. **Adicionar ofertas e decisões**. Forneça a melhor oferta para cada cliente na hora certa com a tomada de decisões viabilizada por IA. Saiba mais sobre a [Gestão de decisões](../../offers/get-started/starting-offer-decisioning.md) e a [Escolha de experiências](../../experience-decisioning/gs-experience-decisioning.md).
+1. **Adicionar ofertas e decisões**. Forneça a melhor oferta para cada cliente na hora certa com a tomada de decisões viabilizada por IA. Use o Decisioning para personalizar push, SMS e outros canais. Saiba mais sobre a [Gestão de decisões](../../offers/get-started/starting-offer-decisioning.md) e a [Escolha de experiências](../../experience-decisioning/gs-experience-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
@@ -56,12 +56,15 @@ Siga estas etapas principais para começar a criar experiências:
 
    Saiba mais sobre como [testar e validar mensagens](../../content-management/preview-test.md).
 
-1. **Criar jornadas do cliente**. Crie experiências personalizadas em tempo real com a tela de jornada:
+1. **Criar jornadas do cliente**. Crie experiências personalizadas em tempo real usando a tela de jornada. Use o **Journey Agent** no AI Assistant para criar jornadas a partir de prompts de linguagem natural. [Saiba mais sobre o Journey Agent](../ai-features.md#journey-agent)
 
    * Acione jornadas com **eventos** (ações do cliente) ou **públicos-alvo** (envios em lote)
    * Adicione **condições** para criar caminhos personalizados com base nos dados do cliente
+   * Use a **Atividade de ação** unificada para todas as ações de canal (email, push, SMS e muito mais). [Saiba mais sobre a atividade de Ação](../../building-journeys/journey-action.md)
+   * Adicione a **Atividade de decisão de conteúdo** para integrar ofertas personalizadas diretamente ao seu fluxo de jornada. [Saiba mais sobre a atividade de decisão de conteúdo](../../building-journeys/content-decision.md)
    * Use **atividades de espera** para criar um intervalo perfeito entre mensagens
    * Enviar mensagens em **vários canais** em uma jornada
+   * Use o **envio de onda** para entregar mensagens em lotes controlados (Disponibilidade limitada para jornada)
    * Aplicar o **teste A/B** e otimizar os tempos de envio para maximizar o engajamento
    * Use a **pesquisa de conjunto de dados** para enriquecer jornadas com dados em tempo real da Adobe Experience Platform. [Saiba mais sobre a pesquisa de conjunto de dados](../../building-journeys/dataset-lookup.md)
    * Use **identificadores complementares** para permitir que o mesmo perfil entre em várias instâncias da jornada (por exemplo, pedidos ou reservas diferentes). [Saiba mais sobre identificadores complementares](../../building-journeys/supplemental-identifier.md)
@@ -78,6 +81,7 @@ Siga estas etapas principais para começar a criar experiências:
    * Crie **fluxos de trabalho de várias etapas** para promoções sazonais, lançamentos de produtos, ofertas de fidelidade ou account-based marketing
    * Programar campanhas para execução imediata, em horários específicos ou em agendamentos recorrentes (diariamente, semanalmente, mensalmente)
    * Processar públicos-alvo no **modo de lote**, onde todos os perfis avançam juntos pelo fluxo de trabalho
+   * Use o **envio de onda** para entregar mensagens em lotes controlados para melhorar a capacidade de entrega e o controle de carga
 
    Saiba como [começar a usar campanhas orquestradas](../../orchestrated/gs-orchestrated-campaigns.md) e entenda quando [usar campanhas ou jornadas](../../orchestrated/orchestrated-campaigns-faq.md).
 
@@ -86,7 +90,8 @@ Siga estas etapas principais para começar a criar experiências:
    * Analise as taxas de **entrega de mensagens** e as métricas de engajamento
    * Use os **painéis de relatórios** com a integração do Customer Journey Analytics
    * Rastreie a **conversão** e o impacto nos negócios
-   * Gerencie a **frequência e a priorização de mensagens** com regras de gerenciamento de conflitos para evitar comunicação excessiva. [Saiba mais sobre o gerenciamento de conflitos](../../conflict-prioritization/gs-conflict-prioritization.md)
+   * Gerencie a **frequência e a priorização de mensagens** com regras de gerenciamento de conflitos para evitar comunicação excessiva
+   * Use **horas de silêncio** (exclusões baseadas em tempo) para evitar o envio durante períodos específicos. [Saiba mais sobre o gerenciamento de conflitos](../../conflict-prioritization/gs-conflict-prioritization.md) e [horas de silêncio](../../conflict-prioritization/quiet-hours.md)
 
    Saiba como [monitorar o desempenho](../../reports/report-gs-cja.md).
 
@@ -202,5 +207,5 @@ Colabore com [Admins](administrator.md) no acesso e nas configurações:
 
 1. **Comece aos poucos**: crie uma jornada de boas-vindas simples ou uma campanha de mensagem única para conhecer a plataforma
 2. **Aproveite a IA**: use o Assistente de IA para fazer perguntas e acelerar a criação de conteúdo
-3. **Ingresse na comunidade**: conecte-se a outros usuários do Journey Optimizer na [Comunidade da Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}
+3. **Ingresse na comunidade**: conecte-se a outros usuários do Journey Optimizer na [Comunidade da Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Explore tutoriais**: assista aos vídeos passo a passo na [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR){target="_blank"}

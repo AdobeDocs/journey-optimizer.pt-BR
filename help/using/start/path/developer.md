@@ -5,10 +5,10 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '1816'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1918'
+ht-degree: 93%
 
 ---
 
@@ -85,7 +85,7 @@ Para implementações baseadas na web, o SDK da web é o principal ponto de inte
 
 1. **Configurar sequências de dados**: crie e configure uma sequência de dados na [!DNL Adobe Experience Platform Data Collection] com o Journey Optimizer habilitado. Saiba mais na [documentação das sequências de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=pt-BR){target="_blank"}.
 
-1. **Habilitar notificações por push da web** (opcional): configure a [propriedade pushNotifications](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} na configuração do SDK da web e use o [comando sendPushSubscription](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} para registrar assinaturas por push.
+1. **Habilitar notificações por push da Web** (opcional): as notificações por push da Web agora estão disponíveis. Configure a [propriedade pushNotifications](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} na configuração do Web SDK e use o [comando sendPushSubscription](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} para registrar assinaturas push. [Saiba mais sobre a configuração de push da Web](../../push/push-configuration-web.md).
 
 ### Implementar experiências baseadas em código (SDK da web)
 
@@ -163,9 +163,11 @@ As ações personalizadas permitem que as jornadas chamem as APIs. Como desenvol
 
 1. **Entenda os recursos das ações personalizadas**: as ações personalizadas podem se conectar a sistemas de terceiros, como Epsilon, Slack, Firebase ou os seus próprios serviços. Saiba mais sobre [ações personalizadas](../../action/action.md).
 
-1. **Trabalhar com configurações de ação**: o [Admin](administrator.md) ou o [Engenheiro de dados](data-engineer.md) configurará a ação personalizada no Journey Optimizer, definindo a URL do ponto de acesso da API, o método de autenticação e os parâmetros. Você fornecerá a eles a especificação da API. Saiba mais sobre a [configuração da ação personalizada](../../action/about-custom-action-configuration.md).
+1. **Trabalhar com configurações de ação**: o [Admin](administrator.md) ou o [Engenheiro de dados](data-engineer.md) configurará a ação personalizada no Journey Optimizer, definindo a URL do ponto de acesso da API, o método de autenticação e os parâmetros. Você fornecerá a eles a especificação da API. Saiba mais sobre a [configuração de ação personalizada](../../action/about-custom-action-configuration.md). Você pode definir uma **carga de resposta a erros** opcional para uma lógica de fallback mais avançada em ramificações de tempo limite/erro.
 
 1. **Retornar dados acionáveis**: crie a API para retornar dados que possam ser usados nas etapas seguintes da jornada. Saiba mais sobre as [respostas de ação](../../action/action-response.md).
+
+1. **Monitorar integridade da ação personalizada**: Use o painel de monitoramento da ação personalizada para rastrear chamadas, erros, taxa de transferência, tempos de resposta e tempos de espera de fila bem-sucedidos. Saiba mais sobre [relatórios de ação personalizados](../../action/reporting.md).
 
 1. **Implementar a limitação de taxa**: certifique-se de que os pontos de acesso possam lidar com o volume esperado. O Journey Optimizer aplica um limite de 5000 chamadas/segundo, mas o sistema deve ser resiliente. Saiba mais sobre [limitação e controle](../../configuration/external-systems.md).
 
@@ -184,6 +186,10 @@ O Journey Optimizer fornece APIs REST abrangentes para acesso programático:
 1. **Campanhas acionadas por API**: crie mensagens transacionais com campanhas acionadas por API. Para cenários com alto volume (até 5000 TPS), explore o [modo de Alta taxa de transferência](../../campaigns/api-triggered-high-throughput.md) (requer licença complementar).
 
 1. **APIs de Gestão de decisões**: use APIs especializadas para gerenciamento de ofertas e decisioning. Saiba mais no [Guia da API de Gestão de Decisões](../../offers/api-reference/getting-started.md).
+
+1. **APIs de migração de decisão**: migre programaticamente entidades de Gestão de decisões para o Decisioning com escopos flexíveis, validação automatizada e suporte de reversão. Saiba mais no [Guia da API de migração de decisão](../../experience-decisioning/decisioning-migration-api.md).
+
+1. **Webhooks de SMS**: configure webhooks de entrada para capturar mensagens de entrada e webhooks de comentários para receber confirmações de entrega e atualizações de status. [Saiba mais](../../sms/sms-webhook.md).
 
 ## Teste e depuração {#testing}
 
