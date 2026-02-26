@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 82972e593628b44406b0a545225d65f6ed645274
+source-git-commit: 82bfb8309c31b015755e592b95c4f8d54cf28235
 workflow-type: tm+mt
 source-wordcount: '1606'
 ht-degree: 36%
@@ -33,7 +33,7 @@ As seções [Novos recursos](#feb-26-01-features) e [Melhorias](#feb-26-01-impro
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -68,7 +68,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Agora você pode usar as <strong>fórmulas de classificação</strong> para aumentar automaticamente as pontuações de prioridade de jornada com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
-<!--p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p-->
+<p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../conflict-prioritization/journey-ranking-formulas.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quarta-feira, 24 de fevereiro de 2026</p>
