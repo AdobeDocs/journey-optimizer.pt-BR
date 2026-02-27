@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 7983480646eb49f32716cda19001ef7b9a95ba82
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '561'
 ht-degree: 2%
 
 ---
@@ -49,21 +49,43 @@ A tabela **[!UICONTROL Estatísticas de Envio]** fornece uma visão geral detalh
 
 ## Ciclo de vida da atividade ao vivo {#lifecycle}
 
-![](assets/activity-lifecycle.png)
-
 A tabela **[!UICONTROL Ciclo de vida da atividade Live]** oferece uma visão abrangente de como as suas atividades Live avançam ao longo do tempo. Ele oferece visibilidade sobre eventos importantes, como o início, a atualização ou o término das atividades, ajudando você a entender melhor o engajamento do usuário e o ciclo de vida geral das campanhas de atividades Ativas.
 
-+++ Saiba mais sobre as métricas de ciclo de vida de atividade online
+Os relatórios diferem dependendo se você está usando campanhas transacionais ou de Marketing.
 
-* **[!UICONTROL Inicializações remotas]**: número de atividades Ativas iniciadas remotamente, normalmente acionadas pelo servidor ou sistema de back-end.
+### Atividades transacionais em tempo real
 
-* **[!UICONTROL Inicializações locais]**: número de atividades Ativas iniciadas localmente no dispositivo de um usuário, geralmente resultantes da interação do usuário ou de acionadores do lado do cliente.
+![](assets/activity-lifecycle.png)
 
-**[!UICONTROL Atualizações]**: número total de atualizações de atividades online enviadas para dispositivos. As atualizações podem incluir alterações de status, novo conteúdo ou notificações de progresso.
+Para campanhas transacionais, o relatório Campanha de atividades online mostra todos os eventos do ciclo de vida, incluindo inícios remotos, inícios locais, atualizações e términos.
 
-**[!UICONTROL Ends]**: número de atividades Live que foram encerradas, automaticamente após a conclusão ou manualmente por meio de um gatilho ou tempo limite definido.
++++ Saiba mais sobre as medições de ciclo de vida de atividade em tempo real com campanhas transacionais
 
-**[!UICONTROL Contagem de totais]**: total geral de todos os eventos de ciclo de vida da atividade Live, incluindo inícios, atualizações e términos, fornecendo uma medida completa do volume de atividade Live.
+* **[!UICONTROL Inicializações remotas]**: número total de eventos de inicialização de atividades online iniciados remotamente, normalmente acionados pelo servidor ou sistemas back-end.
+
+* **[!UICONTROL Inicializações locais]**: número total de eventos de inicialização de atividades online iniciados localmente no dispositivo de um usuário, geralmente resultantes da interação do usuário ou de acionadores do lado do cliente.
+
+* **[!UICONTROL Atualizações]**: número total de atualizações de atividades online enviadas para dispositivos. As atualizações podem incluir alterações de status, novo conteúdo ou notificações de progresso.
+
+* **[!UICONTROL Ends]**: número total de eventos de encerramento de atividades online enviados para dispositivos.
+
+* **[!UICONTROL Contagem de totais]**: total geral de todos os eventos de ciclo de vida da atividade Live, incluindo inícios, atualizações e términos, fornecendo uma medida completa do volume de atividade Live.
+
++++
+
+### Atividades de marketing ao vivo
+
+![](assets/activity-lifecycle-broadcast.png)
+
+As campanhas de marketing usam atividades em tempo real para casos de uso de transmissão, enviando atualizações para vários dispositivos simultaneamente.
+
+Para atividades do iOS Live em campanhas de marketing, o relatório mostra apenas **[!UICONTROL Remote Starts]** eventos e **[!UICONTROL Remote starts errors]** no início. Os eventos **[!UICONTROL Atualizações]** e **[!UICONTROL Fim]** não são rastreados porque os APNs distribuem atualizações para todos os dispositivos sem fornecer feedback. Para exibir eventos de **[!UICONTROL Atualizações]** e **[!UICONTROL Fim]**, use o [Console de Notificações por Push da Apple](https://developer.apple.com/notifications/push-notifications-console/).
+
++++ Saiba mais sobre as medições de ciclo de vida da atividade ao vivo com campanhas de marketing
+
+* **[!UICONTROL Inicializações remotas]**: número total de eventos de inicialização de atividades online iniciados remotamente, normalmente acionados pelo servidor ou sistemas back-end.
+
+* **[!UICONTROL Erros de inicializações remotas]**: Número total de erros que ocorreram ao tentar iniciar atividades online remotamente (por exemplo, tokens inválidos ou problemas de conectividade).
 
 +++
 

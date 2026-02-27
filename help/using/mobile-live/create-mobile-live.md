@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
+exl-id: 9864a136-e129-4279-bb09-081b72f584df
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 1%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 
-# Criar uma atividade ao vivo {#create-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* [Introdução à atividade Live](get-started-mobile-live.md)
-* [Configuração de atividade online](mobile-live-configuration.md)
-* [Integração da atividade ao vivo com o Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* **[Criar uma atividade online](create-mobile-live.md)**
-* [Perguntas frequentes](mobile-live-faq.md)
-* [Relatório de campanha de atividade ao vivo](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
+# Criar uma Atividade em tempo real {#create-mobile-live}
 
 Após definir a configuração móvel e implementar o Adobe Experience Platform mobile SDK, você pode começar a criar sua atividade Live no Journey Optimizer:
 
@@ -56,6 +46,10 @@ Após definir a configuração móvel e implementar o Adobe Experience Platform 
 
 1. Na guia **[!UICONTROL Público]**, escolha seu **[!UICONTROL Tipo de identidade]** [Saiba mais](../audience/about-audiences.md).
 
+   >[!NOTE]
+   >
+   >Para campanhas de **Marketing acionado por API**, você pode selecionar um público existente que atue como a primeira segmentação antes de verificar a assinatura de channelID APNs da carga da API.
+
 1. As campanhas são projetadas para serem executadas em uma data específica ou em uma frequência recorrente. Saiba como configurar o **[!UICONTROL Cronograma]** da sua campanha no [nesta seção](../campaigns/create-campaign.md#schedule).
 
 1. Após a configuração, clique em **[!UICONTROL Revisar para ativar]** e em **[!UICONTROL Ativar]**.
@@ -68,9 +62,9 @@ Após definir a configuração móvel e implementar o Adobe Experience Platform 
 
    ![](assets/create-live-3.png)
 
-   +++ Exemplo de uma carga individual
+   +++ Exemplo de carga para casos de uso unitários (campanha transacional acionada por API)
 
-   Observe que a maioria dos campos do exemplo de carga a seguir são obrigatórios, somente `requestId`, `dismissal-date` e `alert` são opcionais.
+   Este exemplo de conteúdo é para campanhas individuais que usam o tipo de campanha **Transacional** acionado por API. Observe que a maioria dos campos do exemplo de carga a seguir são obrigatórios, somente `requestId`, `dismissal-date` e `alert` são opcionais.
 
    ```json
    {
@@ -116,4 +110,53 @@ Após definir a configuração móvel e implementar o Adobe Experience Platform 
 
    +++
 
+   +++ Exemplo de uma carga para casos de uso de transmissão (campanha de marketing acionada por API)
+
+   Este exemplo de conteúdo é para campanhas baseadas em público usando o tipo de campanha **Marketing acionado por API**.
+
+   ```json
+   {
+       "requestId": "123400000",
+       "campaignId": "d32e6f6c-56df-4a98-a2c0-6db6008f8f32",
+       "audience": {
+           "id": "508f9416-52d0-4898-ba47-08baaa22e9c7"
+       },
+       "context": {
+           "requestPayload": {
+               "aps": {
+                   "input-push-channel": "V+8UslywEfAAAOq9SbTrLg==",  //apns-channel-id
+                   "content-available": 1,
+                   "timestamp": 1770808339,
+                   "event": "update",   // start | update | end
+   
+                   // Fields from GameScoreLiveActivityAttributes
+                   "content-state": {
+                       "homeTeamScore": 33,
+                       "awayTeamScore": 49,
+                       "statusText": "Wingdom keeps scoring!"
+                   },
+                   "attributes-type": "GameScoreLiveActivityAttributes",
+                   "attributes": {
+                       "liveActivityData": {
+                           "channelID": "V+8UslywEfAAAOq9SbTrLg=="   //apns-channel-id, must match the "input-push-channel" value
+                       }
+                   },
+                   "alert": {
+                       "title": "This is the title for game",
+                       "body": "This is the body for body"
+                   }
+               }
+           }
+       }
+   }
+   ```
+
+   +++
+
 Depois de projetar sua atividade Live, você pode acompanhar a medição do impacto da atividade Live com [relatórios internos](../reports/campaign-global-report-cja-activity.md).
+
+## Vídeo tutorial
+
+Descubra como configurar as atividades do iOS Live com o Adobe Journey Optimizer para fornecer atualizações avançadas em tempo real na Tela de bloqueio do iPhone e no Dynamic Island.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

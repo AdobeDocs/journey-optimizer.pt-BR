@@ -8,26 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '278'
+exl-id: c9766603-df19-4efd-8319-27e9764254b4
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
 
-
 # Introdução à Atividade em tempo real {#get-started-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* **[Introdução à Atividade em tempo real](get-started-mobile-live.md)**
-* [Configuração da Atividade em tempo real](mobile-live-configuration.md)
-* [Integração da Atividade em tempo real com o SDK para dispositivos móveis da Adobe Experience Platform](mobile-live-configuration-sdk.md)
-* [Criar uma Atividade em tempo real](create-mobile-live.md)
-* [Perguntas frequentes](mobile-live-faq.md)
-* [Relatório de campanha de atividade ao vivo](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -67,7 +56,3 @@ Conclua as etapas abaixo para configurar e implementar Atividades em tempo real 
 1. **[Monitorar suas campanhas](../reports/campaign-global-report-cja-activity.md)**
 
    Comece a medir o impacto das Atividades em tempo real com relatórios integrados.
-
-
-
-

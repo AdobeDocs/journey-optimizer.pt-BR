@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 1%
+source-wordcount: '1746'
+ht-degree: 0%
 
 ---
 
 # Perguntas frequentes {#mobile-live-faq}
-
->[!BEGINSHADEBOX]
-
-* [Introdução à atividade Live](get-started-mobile-live.md)
-* [Configuração de atividade online](mobile-live-configuration.md)
-* [Integração da atividade ao vivo com o Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* [Criar uma atividade ao vivo](create-mobile-live.md)
-* **[Perguntas frequentes](mobile-live-faq.md)**
-* [Relatório de campanha de atividade ao vivo](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 ## Perguntas gerais
 
@@ -121,6 +111,24 @@ Sim. O `ActivityConfiguration` tem fechamentos separados para conteúdo de Tela 
 +++Preciso armazenar tokens de push manualmente?
 
 Não. Quando você registra um tipo de Atividade ao vivo com o `Messaging.registerLiveActivity()`, a SDK coleta e gerencia automaticamente tokens de push para você.
++++
+
++++Há limites para inicializações remotas de atividades ativas?
+
+Sim. As inicializações remotas via `ActivityKit` estão sujeitas a limites impostos pelo sistema. Se você tentar várias solicitações de início em rápida sucessão, o iOS poderá rejeitar outros inícios devido a cotas de Atividade em tempo real ou restrições de orçamento. Após cerca de 5 tentativas de início consecutivas, as solicitações subsequentes começam a falhar até que um breve período de resfriamento passe.
+
++++
+
++++Qual é o orçamento para atualizações de alta prioridade?
+
+A Apple não especifica um limite numérico exato para atualizações de alta prioridade da Atividade `(priority: 10)` Ativa ao Vivo. O sistema mantém um orçamento interno dinâmico que limita a frequência com que essas atualizações podem ser enviadas. Se muitas atualizações de alta prioridade forem emitidas em um curto período, a iOS poderá limitar ou atrasar as subsequentes.
+
+Para minimizar a limitação:
+
+* **Níveis de prioridade de equilíbrio**: combine as atualizações padrão `(priority: 5)` e alta `(priority: 10)` dependendo da importância.
+* **Use a alta prioridade com moderação**: reserve a alta prioridade para atualizações críticas ao tempo, como progresso da entrega, status de pedido ou pontuações esportivas ao vivo.
+* **Suporte a atualizações frequentes**: inclua `NSSupportsLiveActivitiesFrequentUpdates` no `Info.plist` do seu aplicativo e defina-o como **SIM** se precisar de atualizações frequentes.
+
 +++
 
 ### Perguntas do profissional de marketing
@@ -235,6 +243,7 @@ Causas comuns:
 * `content-state` campos não correspondem à estrutura `ContentState`.
 * A Atividade online já terminou.
 * Problemas de conectividade de rede no dispositivo.
+* O tempo de época usado como carimbo de data e hora não está atualizado.
 
 +++
 
