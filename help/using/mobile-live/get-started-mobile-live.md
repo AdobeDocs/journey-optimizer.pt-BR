@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução às Atividades em tempo real
-description: Saiba como enviar Atividades em tempo real no Journey Optimizer
+title: Introdução à Atividade em tempo real
+description: Saiba como enviar uma atividade em tempo real no Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 60%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 >
 >A Atividade em tempo real no Journey Optimizer é compatível somente com iOS.
 
-As Atividades em tempo real fornecem atualizações simultâneas e experiências interativas em aplicativos móveis, permitindo que usuários permaneçam informados sobre eventos ou tarefas em andamento diretamente na tela do dispositivo.
+A atividade online fornece atualizações em tempo real e experiências interativas em aplicativos móveis, permitindo que os usuários permaneçam informados sobre eventos ou tarefas em andamento diretamente na tela do dispositivo.
 
 Esse recurso aprimora o engajamento fornecendo informações em tempo real, como monitoramento de progresso, atualizações de eventos ou conteúdo interativo, sem exigir que os usuários abram o aplicativo.
 
-As atividades em tempo real podem ser iniciadas **apenas** por meio de campanhas **acionadas por API**, permitindo o fornecimento de conteúdos personalizados e a realização de toda a personalização através do seu próprio conteúdo.
+A atividade online pode **ser iniciada somente** por meio de campanhas **acionadas por API**, permitindo que você forneça cargas personalizadas e execute toda a personalização por meio de sua própria carga.
 O tipo de campanha **acionada por API** apropriado deve ser selecionado com base no caso de uso de Atividade em tempo real pretendido:
 
 * Selecione **Marketing acionado por API** para campanhas baseadas em público-alvo
@@ -39,7 +39,7 @@ O tipo de campanha **acionada por API** apropriado deve ser selecionado com base
 
 ## Guia de início rápido
 
-Conclua as etapas abaixo para configurar e implementar Atividades em tempo real no aplicativo:
+Conclua as etapas abaixo para configurar e implementar a atividade Live no seu aplicativo:
 
 1. **[Configure o Adobe Journey Optimizer](mobile-live-configuration.md)**
 
@@ -49,10 +49,10 @@ Conclua as etapas abaixo para configurar e implementar Atividades em tempo real 
 
    Integre o SDK para dispositivos móveis da Adobe Experience Platform para habilitar atualizações dinâmicas e em tempo real na tela de bloqueio e na Dynamic Island.
 
-1. **[Criar Atividades em tempo real no Journey Optimizer](create-mobile-live.md)**
+1. **[Criar atividade online no Journey Optimizer](create-mobile-live.md)**
 
-   Use campanhas acionadas por API no Journey Optimizer para iniciar Atividades em tempo real.
+   Use campanhas acionadas por API no Journey Optimizer para iniciar sua atividade Live.
 
 1. **[Monitorar suas campanhas](../reports/campaign-global-report-cja-activity.md)**
 
-   Comece a medir o impacto das Atividades em tempo real com relatórios integrados.
+   Comece a medir o impacto da sua atividade Live com relatórios integrados.

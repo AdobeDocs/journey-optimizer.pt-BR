@@ -9,17 +9,17 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 2%
+source-wordcount: '447'
+ht-degree: 0%
 
 ---
 
-# Integração da Atividade em tempo real com o SDK para dispositivos móveis da Adobe Experience Platform {#mobile-live-config-sdk}
+# Integração de atividade ao vivo com o Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
 
-O Adobe Experience Platform Mobile SDK fornece suporte integrado para as atividades do Apple Live. Isso permite que seu aplicativo exiba atualizações dinâmicas e em tempo real diretamente na Tela de bloqueio e na Ilha dinâmica sem abrir o aplicativo.
+O Adobe Experience Platform Mobile SDK fornece suporte integrado para a atividade do Apple Live. Isso permite que seu aplicativo exiba atualizações dinâmicas e em tempo real diretamente na Tela de bloqueio e na Ilha dinâmica sem abrir o aplicativo.
 
 1. [Importar módulos obrigatórios](#import)
 
@@ -29,7 +29,7 @@ O Adobe Experience Platform Mobile SDK fornece suporte integrado para as ativida
 
    Em conformidade com `LiveActivityAttributes`, inclua `LiveActivityData` e um `ContentState` atributos.
 
-1. [Registrar atividades ao vivo](#register)
+1. [Registrar atividade ao vivo](#register)
 
    Use `Messaging.registerLiveActivity()` após a inicialização do SDK.
 
@@ -39,7 +39,7 @@ O Adobe Experience Platform Mobile SDK fornece suporte integrado para as ativida
 
 1. [Iniciar uma atividade Live localmente (opcional)](#local)
 
-   As atividades ativas podem ser iniciadas remotamente por meio do Journey Optimizer ou localmente no código do aplicativo.
+   A atividade online pode ser iniciada remotamente por meio do Journey Optimizer ou localmente dentro do código do aplicativo.
 
 1. [Adicionar suporte de depuração (opcional)](#debug)
 
@@ -58,6 +58,7 @@ Verifique se as versões mínimas a seguir estão instaladas para garantir a con
 * **Xcode:** 14.0 ou posterior
 * **Swift:** 5.7 ou posterior
 * **Dependências:** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
+* **AEP Mobile SDK versão**: iOS Messaging 5.11.0 ou posterior
 
 >[!ENDSHADEBOX]
 
@@ -111,15 +112,15 @@ public struct LiveActivityData: Codable {
     /// Unique identifier for broadcast Live activity channels
     public let channelID: String?
      
-    /// Unique identifier for individual Live activities
+    /// Unique identifier for individual Live activity
     public let liveActivityID: String?
      
     /// Indicates local vs remote creation
     public let origin: LiveActivityOrigin?
      
     // Initializers
-    public init(channelID: String)        // For broadcast Live activities
-    public init(liveActivityID: String)   // For individual Live activities
+    public init(channelID: String)        // For broadcast Live activity
+    public init(liveActivityID: String)   // For individual Live activity
 }
 ```
 
@@ -133,7 +134,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Etapa 3: Registrar atividades em tempo real {#register}
+## Etapa 3: Registrar atividade Live {#register}
 
 Registre seus tipos de atividade Live no `AppDelegate` após a inicialização do SDK. Isso permite:
 
@@ -151,7 +152,7 @@ if #available(iOS 16.1, *) {
 
 ## Etapa 4: Criar widgets de atividade ao vivo {#widgets}
 
-As atividades ativas são exibidas por meio de widgets, é necessário criar um pacote de widgets e uma configuração:
+A atividade ao vivo é exibida por meio de widgets, é necessário criar um pacote de widgets e uma configuração:
 
 **Exemplo de uma atividade Live de entrega de alimentos:**
 
@@ -190,7 +191,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 
 ## Etapa 5: iniciar uma atividade Live localmente (opcional) {#local}
 
-Embora o Journey Optimizer possa iniciar atividades online remotamente, você também pode iniciá-las localmente:
+Embora o Journey Optimizer possa iniciar remotamente a atividade Live, você também pode iniciá-la localmente:
 
 **Exemplo de uma atividade Live de entrega de alimentos:**
 

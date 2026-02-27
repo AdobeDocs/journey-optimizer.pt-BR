@@ -9,7 +9,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -54,7 +54,7 @@ Após definir a configuração móvel e implementar o Adobe Experience Platform 
 
 1. Após a configuração, clique em **[!UICONTROL Revisar para ativar]** e em **[!UICONTROL Ativar]**.
 
-1. Depois que a campanha for ativada, use a **cURL request** fornecida como um modelo para acionar os eventos de início, atualização ou término da Atividade em tempo real. Atualize o payload de amostra com seus dados específicos antes da execução.
+1. Depois que a campanha for ativada, use a **cURL request** fornecida como um modelo para acionar os eventos de início, atualização ou término da atividade do Live. Atualize o payload de amostra com seus dados específicos antes da execução.
 
    Copie também os identificadores da **[!UICONTROL ID da campanha]** para incluir em sua carga.
 
@@ -157,6 +157,6 @@ Depois de projetar sua atividade Live, você pode acompanhar a medição do impa
 
 ## Vídeo tutorial
 
-Descubra como configurar as atividades do iOS Live com o Adobe Journey Optimizer para fornecer atualizações avançadas em tempo real na Tela de bloqueio do iPhone e no Dynamic Island.
+Saiba como configurar a atividade do iOS Live com o Adobe Journey Optimizer para fornecer atualizações avançadas em tempo real na Tela de bloqueio do iPhone e no Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479869?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
