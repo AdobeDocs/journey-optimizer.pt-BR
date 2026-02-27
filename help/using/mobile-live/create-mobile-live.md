@@ -159,4 +159,4 @@ Depois de projetar sua atividade Live, você pode acompanhar a medição do impa
 
 Descubra como configurar as atividades do iOS Live com o Adobe Journey Optimizer para fornecer atualizações avançadas em tempo real na Tela de bloqueio do iPhone e no Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864)
+>[!VIDEO](https://video.tv.adobe.com/v/3479869?captions=por_br)
