@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar a versão de texto de um email
+title: Gerenciar a versão de texto de um email
 description: Saiba como criar a versão de texto de um email
 feature: Email Design
 topic: Content Management
@@ -9,36 +9,44 @@ role: User
 level: Intermediate
 keywords: text, email, version, plain, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 11%
+source-wordcount: '1141'
+ht-degree: 8%
 
 ---
 
-# Criar a versão de texto de um email {#text-version-email}
+# Gerenciar a versão de texto de um email {#text-version-email}
 
 É recomendável criar uma versão de texto do corpo do email, que é usada quando o conteúdo HTML não pode ser exibido.
 
+De um ponto de vista de segurança, oferecer uma versão de texto simples é importante porque os emails do HTML podem trazer riscos, como scripts mal-intencionados, pixels de rastreamento ou tentativas de phishing que dependem de formatação e links avançados. O texto simples reduz a superfície de ataque e geralmente é preferido por destinatários conscientes de segurança ou sistemas de email corporativos que restringem ou removem o HTML. Fornecer ambas as versões permite que os recipients escolham o formato que atenda aos requisitos de segurança e privacidade.
+
+## Acessar a versão de texto padrão {#plain-text-default}
+
 Por padrão, o Designer de email cria uma versão de **[!UICONTROL texto sem formatação]** do email, que inclui campos de personalização. Essa versão é gerada e sincronizada automaticamente com a versão HTML do seu conteúdo.
+
+Para acessar a versão de texto padrão, selecione o ícone **[!UICONTROL Texto sem formatação]** no seu conteúdo de email.
+
+![](assets/text_version_3.png)
+
+## Usar uma versão de texto personalizada {#plain-text-default-custom}
 
 Se preferir usar um conteúdo diferente para a versão de texto sem formatação, siga as etapas abaixo:
 
 1. No seu email, selecione o ícone **[!UICONTROL Texto sem formatação]**.
 
-   ![](assets/text_version_3.png)
-
 1. Use a opção **[!UICONTROL Sincronizar com o HTML]** para desabilitar a sincronização. Clique na marca de seleção para confirmar sua escolha.
 
    ![](assets/text_version_2.png)
 
-1. Em seguida, é possível editar a versão de texto sem formatação conforme desejado.
+1. Em seguida, você pode editar a versão de texto simples personalizada, conforme desejado.
 
 >[!CAUTION]
 >
 > * Quando a sincronização está desabilitada, as alterações feitas no modo de exibição **[!UICONTROL Texto sem formatação]** não são refletidas no modo de exibição HTML.
 >
->* Se você habilitar novamente a opção **[!UICONTROL Sincronizar com o HTML]** depois de atualizar o conteúdo de texto sem formatação, suas alterações serão perdidas e substituídas pelo conteúdo de texto gerado pela versão do HTML.
+> * Se você habilitar novamente a opção **[!UICONTROL Sincronizar com o HTML]** depois de atualizar o conteúdo de texto sem formatação, suas alterações serão perdidas e substituídas pelo conteúdo de texto gerado pela versão do HTML.
 
 ## Quando usar versões de texto simples personalizadas {#when-to-use}
 
