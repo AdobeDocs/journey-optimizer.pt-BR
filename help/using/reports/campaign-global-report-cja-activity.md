@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Relatório de campanha
+title: Relatório de atividades do Campaign Live
 description: Saiba como usar os dados de atividade ao vivo no relatório Campanha
 feature: Reporting
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 17f86c33f56b9855fa1d0f959aac8740ff2c2c2a
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 1%
 
 ---
@@ -37,11 +37,11 @@ A tabela **[!UICONTROL Estatísticas de envio]** fornece uma visão geral detalh
 
 * **[!UICONTROL Direcionado]**: número de perfis qualificados para o público-alvo antes da aplicação de exclusões, supressões ou remoções de consentimento.
 
-* **[!UICONTROL Envios]**: número total de tentativas de envio de atividades ativas para perfis direcionados.
+* **[!UICONTROL Envios]**: número total de tentativas de envio de eventos de atividades ao vivo para perfis direcionados.
 
-* **[!UICONTROL Entregue]**: número de atividades online entregues com êxito aos dispositivos, relativo ao número total de tentativas de envio.
+* **[!UICONTROL Entregue]**: número de eventos de atividade online entregues com êxito aos dispositivos, relativo ao número total de tentativas de envio.
 
-* **[!UICONTROL Enviar erros]**: Número total de atividades ativas que não puderam ser enviadas devido a erros (por exemplo, tokens inválidos ou problemas de conectividade).
+* **[!UICONTROL Enviar erros]**: Número total de eventos de atividade online que não puderam ser enviados devido a erros (por exemplo, tokens inválidos ou problemas de conectividade).
 
 * **[!UICONTROL Exclusões de envio]**: número de perfis excluídos do envio pelo Adobe Journey Optimizer (por exemplo, devido ao status de recusa ou às regras de qualificação).
 
