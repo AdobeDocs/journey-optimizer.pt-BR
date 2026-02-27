@@ -10,10 +10,10 @@ level: Beginner
 keywords: landing page, landing page, criação, página, formulário
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 13ef8ae4fa988537db192eca0b906940e51eeb28
+source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 10%
+source-wordcount: '1642'
+ht-degree: 9%
 
 ---
 
@@ -78,13 +78,13 @@ Para criar uma predefinição de formulário, siga as etapas abaixo.
    >* **O tipo de dados** deve ser definido como **XDM** (não dados brutos)
    >* A **Autenticação** deve ser **desabilitada** (conexão não autenticada)
    >
-   >Se a conexão de transmissão não for exibida na lista, verifique se essas duas condições foram atendidas. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Se a conexão de transmissão não for exibida na lista, verifique se essas duas condições foram atendidas. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. É possível digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
 
    >[!NOTE]
    >
-   >Atualmente, apenas [!DNL Adobe Experience Platform] conjuntos de dados estão disponíveis para seleção. Um conjunto de dados pode ser selecionado de cada vez. [Saiba mais sobre conjuntos de dados](../data/get-started-datasets.md)
+   >Atualmente, apenas **Conjuntos de dados** **habilitados para perfil e** Não habilitados para perfil[!DNL Adobe Experience Platform] estão disponíveis para seleção. Um conjunto de dados pode ser selecionado de cada vez. Os conjuntos de dados do sistema não podem ser usados para salvar dados de formulário. [Saiba mais sobre conjuntos de dados](../data/get-started-datasets.md)
 
 1. Clique em **[!UICONTROL Publicar]**. Sua predefinição agora está pronta para ser usada em um formulário.
 
