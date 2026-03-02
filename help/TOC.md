@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 57916f631c0154113699ca941a635678813561fe
+source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3117'
 ht-degree: 97%
 
 ---
@@ -459,7 +459,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos HTML](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
@@ -486,6 +486,7 @@ ht-degree: 97%
       + [Trabalhar com o Adobe Express](using/integrations/express.md)
       + [Trabalhar com modelos do Experience Manager](using/integrations/aem-templates.md)
       + [Trabalhar com fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments.md)
+      + [Trabalhar com o Supervisor de conteúdo do Experience Manager](using/content-management/aem-content-advisor.md)
       + [Inserir timer da contagem regressiva](using/integrations/countdown.md)
       + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
