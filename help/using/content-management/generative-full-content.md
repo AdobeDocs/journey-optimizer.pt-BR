@@ -7,9 +7,10 @@ feature: Content Assistant
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
+source-git-commit: 57916f631c0154113699ca941a635678813561fe
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1902'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 2%
 >Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](gs-generative.md#generative-guardrails) relacionadas.
 ></br>
 >
->Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
 Use o Assistente de IA no Journey Optimizer para gerar experiências completas de conteúdo em seus canais de email, Web, landing pages e notificação por push. O Assistente de IA ajuda você a otimizar o impacto de seus deliveries, criando conteúdo abrangente que repercuta com seu público-alvo.
 
@@ -66,6 +67,7 @@ Com o AI Assistant aberto, agora é possível definir as configurações de gera
 
 1. Escolha suas **[!UICONTROL configurações de imagem]**:
 
+   * **[!UICONTROL Modelo gerativo]**: escolha entre modelos internos disponíveis, modelos Firefly personalizados treinados nos ativos da sua marca ou provedores de geração de imagens de terceiros para criar imagens que se alinhem às suas necessidades específicas e aos requisitos da marca. [Saiba mais](generative-models.md)
    * **[!UICONTROL Tipo de conteúdo]**: categoriza a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
    * **[!UICONTROL Intensidade visual]**: você pode controlar o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (2) criará uma aparência mais suave e mais restrita, enquanto uma configuração mais alta (10) tornará a imagem mais vibrante e visualmente poderosa.
    * **[!UICONTROL Cor e tom]**: a aparência geral das cores em uma imagem e o humor ou atmosfera que ela transmite.
@@ -172,6 +174,7 @@ Depois de acessar o Assistente de IA para notificações por push, você pode de
 
 1. Escolha suas **[!UICONTROL configurações de imagem]**:
 
+   * **[!UICONTROL Modelo gerativo]**: escolha entre modelos internos disponíveis, modelos Firefly personalizados treinados nos ativos da sua marca ou provedores de geração de imagens de terceiros para criar imagens que se alinhem às suas necessidades específicas e aos requisitos da marca. [Saiba mais](generative-models.md)
    * **[!UICONTROL Tipo de conteúdo]**: categoriza a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
    * **[!UICONTROL Intensidade visual]**: você pode controlar o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (2) criará uma aparência mais suave e mais restrita, enquanto uma configuração mais alta (10) tornará a imagem mais vibrante e visualmente poderosa.
    * **[!UICONTROL Cor e tom]**: a aparência geral das cores em uma imagem e o humor ou atmosfera que ela transmite.
@@ -224,7 +227,7 @@ Depois de revisar as variações de notificação por push geradas, você pode a
 
 Depois de definir seu conteúdo, público-alvo e programação, você estará pronto para preparar sua campanha de push. [Saiba mais](../campaigns/review-activate-campaign.md)
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como usar o Assistente de IA no Journey Optimizer para gerar experiências completas de conteúdo.
 

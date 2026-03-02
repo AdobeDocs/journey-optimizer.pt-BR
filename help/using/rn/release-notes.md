@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 82bfb8309c31b015755e592b95c4f8d54cf28235
+source-git-commit: 57916f631c0154113699ca941a635678813561fe
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1637'
 ht-degree: 36%
 
 ---
@@ -27,18 +27,38 @@ Devido a esse modelo, as notas de versão são atualizadas entre as versões men
 
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
+## Atualização de março de 2026 {#march-26-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>Integração de modelos personalizados do Firefly e modelos de geração de imagens de terceiros</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Permita a integração perfeita de modelos Firefly padrão e personalizados, juntamente com modelos de imagem de terceiros aprovados, para oferecer maior flexibilidade, controle e alinhamento de marca ao gerar imagens.</p>
+<p>Escolha o modelo certo para suas necessidades:</p>
+<ul><li> <strong>Modelo do Adobe</strong> (desenvolvido pela Firefly Image Model 4) para geração imediata de imagens sem configuração adicional</li><li> <strong>Modelo de parceiro</strong> (viabilizado pelo Gemini 2.5 Flash) para recursos especializados</li><li><strong>Modelos personalizados</strong> (modelos específicos da marca treinados em seus próprios ativos) para geração de itens sob marca que se alinham precisamente à identidade, ao estilo e às diretrizes visuais da sua marca.</li></ul>
+<p>Para obter mais informações, consulte a <a href="../content-management/generative-models.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: terça-feira, 2 de março de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## Notas de versão de fevereiro de 2026 {#feb-26-01-rn}
 
 As seções [Novos recursos](#feb-26-01-features) e [Melhorias](#feb-26-01-improv) abordam recursos já disponíveis. A seção [Em breve](#coming-soon) lista os recursos e as melhorias programadas para lançamento no final de fevereiro.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
 ### Novos recursos {#feb-26-01-features}
-
 
 <!--
 <table>
@@ -340,6 +360,3 @@ Os recursos e as melhorias abaixo estão planejados para lançamento no final de
 
   Data de disponibilidade: quinta-feira, 18 de fevereiro de 2026
 
-* **Integração de modelos personalizados de Firefly e modelos de geração de imagem de terceiros** - Habilite a integração perfeita de modelos padrão e personalizados de Firefly, juntamente com modelos de imagem de terceiros aprovados (por exemplo, NanoBanana), para oferecer maior flexibilidade, controle e alinhamento de marca ao gerar imagens. Isso permite selecionar o melhor modelo para cada caso de uso: Firefly padrão para necessidades gerais, Firefly personalizado para geração na marca ou modelos aprovados de terceiros para cenários especializados ou experimentais.
-
-  Data de disponibilidade: início de março de 2026.

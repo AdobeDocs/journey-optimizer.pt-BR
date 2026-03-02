@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac79295d9541ce25e289f0f49e1e93eee3d347ab
+source-git-commit: 57916f631c0154113699ca941a635678813561fe
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: '3111'
 ht-degree: 97%
 
 ---
@@ -459,7 +459,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos HTML](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
@@ -503,6 +503,7 @@ ht-degree: 97%
          + [Marcas](/help/rp_landing_pages/brands-landing-page.md)
          + [Criar e gerenciar marcas](using/content-management/brands.md)
          + [Personalize suas marcas](using/content-management/brands-personalize.md)
+         + [Criar e gerenciar modelos geradores](using/content-management/generative-models.md)
          + [Avaliar seu conteúdo](using/content-management/brands-score.md)
    + Conteúdo multilíngue {#content-multilingual}
       + [Conteúdo multilíngue](/help/rp_landing_pages/content-multilingual-landing-page.md)

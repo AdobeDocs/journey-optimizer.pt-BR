@@ -7,10 +7,11 @@ feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+exl-id: f0585411-c862-45f2-9a10-d8a72497c533
+source-git-commit: 57916f631c0154113699ca941a635678813561fe
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 2%
+source-wordcount: '1462'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 2%
 >Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](gs-generative.md#generative-guardrails) relacionadas.
 ></br>
 >
->Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
 Use o Assistente de IA no Journey Optimizer para gerar conteúdo visual atraente que melhore suas mensagens de email, Web, páginas de aterrissagem e notificações por push. O Assistente de IA ajuda você a otimizar e melhorar seus ativos, garantindo uma experiência mais amigável e envolvente para seu público-alvo.
 
@@ -60,6 +61,7 @@ Saiba como criar prompts eficazes e definir configurações de imagem para gerar
 
 1. Personalize seu prompt com a opção **[!UICONTROL Configurações de imagem]**:
 
+   * **[!UICONTROL Modelo gerativo]**: selecione entre o **[!UICONTROL modelo Adobe]** pronto para uso, o **[!UICONTROL modelo Parceiro]** para recursos especializados ou os **[!UICONTROL modelos personalizados]** treinados nos ativos da sua marca. [Saiba mais](generative-models.md)
    * **[!UICONTROL Taxa de proporção]**: determina a largura e a altura do ativo. Você tem a opção de escolher entre taxas comuns, como 16:9, 4:3, 3:2 ou 1:1, ou pode inserir um tamanho personalizado.
    * **[!UICONTROL Tipo de conteúdo]**: categoriza a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
    * **[!UICONTROL Intensidade visual]**: você pode controlar o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (2) criará uma aparência mais suave e mais restrita, enquanto uma configuração mais alta (10) tornará a imagem mais vibrante e visualmente poderosa.
@@ -147,6 +149,7 @@ Depois de acessar o Assistente de IA, você pode ajustar as configurações de g
 
 1. Escolha suas **[!UICONTROL configurações de imagem]**:
 
+   * **[!UICONTROL Modelo gerativo]**: selecione entre o **[!UICONTROL modelo Adobe]** pronto para uso, o **[!UICONTROL modelo Parceiro]** para recursos especializados ou os **[!UICONTROL modelos personalizados]** treinados nos ativos da sua marca. [Saiba mais](generative-models.md)
    * **[!UICONTROL Tipo de conteúdo]**: categoriza a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
    * **[!UICONTROL Intensidade visual]**: você pode controlar o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (2) criará uma aparência mais suave e mais restrita, enquanto uma configuração mais alta (10) tornará a imagem mais vibrante e visualmente poderosa.
    * **[!UICONTROL Cor e tom]**: a aparência geral das cores em uma imagem e o humor ou atmosfera que ela transmite.
@@ -182,4 +185,3 @@ Depois de gerar variações de imagem para suas notificações por push, você p
    Você também pode ativar o experimento para o seu conteúdo. [Saiba mais](generative-experimentation.md)
 
 Depois de definir seu conteúdo, público-alvo e programação, você estará pronto para preparar sua campanha de push. [Saiba mais](../campaigns/review-activate-campaign.md)
-
