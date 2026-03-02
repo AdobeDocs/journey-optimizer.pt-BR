@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 5bb1a76ac0797f5fdea36e8b7164cb139ebd40dd
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,12 @@ Não. A atividade online pode ser iniciada, atualizada e encerrada remotamente m
 +++Por quanto tempo uma atividade Live pode permanecer ativa?
 
 O Apple limita a atividade Live a **8 horas de atualizações ativas**. Depois disso, o sistema encerra automaticamente a atividade, embora possa permanecer visível em um estado estático por até **12 horas adicionais** antes da remoção. Você também pode encerrar uma atividade do Live mais cedo definindo um `dismissalDate` ou chamando explicitamente o `activity.end()` no seu aplicativo.
+
++++
+
++++ Quais são os limites de taxa?
+
+As campanhas têm um limite de taxa padrão de 500 mensagens transacionais por segundo em todos os canais, incluindo atividades do iOS Live. Esse limite se aplica a todos os canais combinados e não há limite de taxa separado especificamente para atividades do iOS Live.
 
 +++
 
