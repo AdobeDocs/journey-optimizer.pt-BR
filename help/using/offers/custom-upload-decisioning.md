@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 62b244990611006e5eced7a5d35dbd0373aa23f7
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 5%
+source-wordcount: '631'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ Os dados de públicos-alvo de upload personalizados podem ser aproveitados na Ge
 Para obter mais informações sobre públicos-alvo de upload personalizado, consulte as seções:
 
 * [Introdução a públicos e Journey Optimizer](../audience/about-audiences.md)
-* [Importando uma audiência no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importando uma audiência no Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Leitura obrigatória {#must-read}
 
@@ -76,5 +76,7 @@ Para aproveitar os atributos de público-alvo de um upload personalizado para pe
 ![Opções de restrição de público para carregamento personalizado](assets/csv-offer.png)
 
 Depois que o público-alvo é adicionado como uma restrição, você pode usar seus atributos para personalizar o conteúdo de representação. Para fazer isso, acesse a guia **Atributos de perfil** e procure o público-alvo de upload personalizado. Selecione os atributos relevantes do público-alvo para personalizar o conteúdo da oferta.
+
+Na Gestão de decisões, somente determinadas funções são suportadas ao personalizar o conteúdo. Consulte [Funções suportadas no editor de expressão](personalization-editor-supported-functions.md).
 
 ![Interface de personalização de atributos de perfil](assets/csv-perso.png)

@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '3117'
+source-wordcount: '3123'
 ht-degree: 97%
 
 ---
@@ -459,7 +459,7 @@ ht-degree: 97%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos HTML](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
@@ -695,6 +695,7 @@ ht-degree: 97%
          + [Introdução à Gestão de decisões](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [Sobre a gestão de decisões](using/offers/get-started/starting-offer-decisioning.md)
          + [Medidas de proteção e limitações da gestão de decisões](using/offers/decision-management-guardrails.md)
+         + [Funções compatíveis com o editor de expressão](using/offers/personalization-editor-supported-functions.md)
          + [Interface do usuário](using/offers/get-started/user-interface.md)
          + [Etapas principais para criar e gerenciar ofertas](using/offers/offer-library/key-steps.md)
          + [Usar públicos-alvo de upload personalizados para a tomada de decisão](using/offers/custom-upload-decisioning.md)

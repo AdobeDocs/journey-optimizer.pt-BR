@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 11%
+source-wordcount: '457'
+ht-degree: 10%
 
 ---
 
@@ -36,6 +36,10 @@ Esta é uma lista de limitações que devem ser observadas ao trabalhar com regr
 * A decisão do Edge usa o perfil de borda que não armazena eventos, portanto, qualquer regra usada em uma decisão de borda será inválida.
 * Ao criar uma regra de decisão, a retrospectiva de um período anterior não é compatível. Por exemplo, se você especificar um evento de experiência que ocorreu no último mês como um componente da regra. Qualquer tentativa de incluir um período de lookback durante a criação da regra acionará um erro ao salvá-la.
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
+
+>[!NOTE]
+>
+>Na Gestão de decisões, somente um subconjunto de funções de expressão é compatível. Quando a regra usar expressões ou atributos de perfil, consulte [Funções com suporte no editor de expressão](../personalization-editor-supported-functions.md) para obter a lista de funções com suporte.
 
 ## Criar uma regra de decisão {#create}
 
@@ -77,8 +81,8 @@ Para criar uma regra de decisão, siga estas etapas:
 
 >[!CAUTION]
 >
->No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
+>No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
 
 ## Tutorial em vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341377?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
