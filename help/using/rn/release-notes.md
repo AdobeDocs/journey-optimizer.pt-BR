@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
+source-git-commit: 21bab54492aec0715ec5fa9c0a1061f7b6539274
 workflow-type: tm+mt
-source-wordcount: '1637'
-ht-degree: 36%
+source-wordcount: '1713'
+ht-degree: 35%
 
 ---
 
@@ -28,6 +28,8 @@ Devido a esse modelo, as notas de versão são atualizadas entre as versões men
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
 ## Atualizações de março de 2026 {#march-26-rn}
+
+### Novos recursos {#march-26-features}
 
 <!--
 <table>
@@ -68,13 +70,22 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table>
 
+### Aprimoramentos {#march-26-improv}
+
+#### Configuração
+
+* **Alteração no Conjunto de Dados do Evento de Comentários do Destinatário Secundário do AJO** - O Conjunto de Dados do Evento de Comentários Cco de Email do AJO está sendo renomeado para Conjunto de Dados do Evento de Comentários do Destinatário Secundário do AJO.
+   * **Usuários existentes**: somente o nome para exibição é alterado. O nome da tabela subjacente permanece inalterado.
+   * **Novos usuários e novas sandboxes**: o nome para exibição e o nome da tabela usam o novo nome.
+   * **Usuários/organizações existentes com novas sandboxes**: o nome para exibição e o nome da tabela são alterados para o novo nome.
+
 ## Notas de versão de fevereiro de 2026 {#feb-26-01-rn}
 
 As seções [Novos recursos](#feb-26-01-features) e [Melhorias](#feb-26-01-improv) abordam recursos já disponíveis. A seção [Em breve](#coming-soon) lista os recursos e as melhorias programadas para lançamento no final de fevereiro.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
