@@ -11,10 +11,10 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 6%
+source-wordcount: '613'
+ht-degree: 11%
 
 ---
 
@@ -26,11 +26,7 @@ ht-degree: 6%
 
 ## Sobre fórmulas de classificação {#about-ranking-formulas}
 
-**As fórmulas de classificação** permitem definir regras que determinarão qual oferta deve ser apresentada primeiro para determinado posicionamento, em vez de levar em conta as pontuações de prioridade das ofertas.
-
-As fórmulas de classificação são expressas em **sintaxe PQL** e podem aproveitar atributos de perfil, dados de contexto e atributos de oferta. Para obter mais informações sobre como usar a sintaxe do PQL, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=pt-BR).
-
-Na Gestão de decisões, somente um subconjunto de funções é compatível com fórmulas de classificação. Consulte [Funções com suporte no editor de expressão](../personalization-editor-supported-functions.md) para obter a lista.
+**Fórmulas de classificação** permitem definir regras que determinam qual oferta deve ser apresentada primeiro para uma determinada inserção, em vez de considerar as pontuações de prioridade das ofertas. As fórmulas de classificação são expressas em **sintaxe PQL** e podem aproveitar atributos de perfil, dados de contexto e atributos de oferta. Para obter mais informações sobre como usar a sintaxe do PQL, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=pt-BR).
 
 Depois que uma fórmula de classificação é criada, é possível atribuí-la a uma inserção em uma decisão. Para obter mais informações, consulte [Configurar seleção de ofertas em decisões](../offer-activities/configure-offer-selection.md).
 
