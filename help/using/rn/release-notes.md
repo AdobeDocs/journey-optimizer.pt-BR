@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: 720b2c0758d1af891d6552dc34e6ac1a50c1b5db
 workflow-type: tm+mt
-source-wordcount: '1801'
-ht-degree: 34%
+source-wordcount: '1827'
+ht-degree: 35%
 
 ---
 
@@ -30,6 +30,24 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ## Atualizações de março de 2026 {#march-26-rn}
 
 ### Novos recursos {#march-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent: criação de conteúdo de canal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -83,7 +101,7 @@ As seções [Novos recursos](#feb-26-01-features) e [Melhorias](#feb-26-01-impro
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -332,22 +350,6 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 ## Em breve {#coming-soon}
 
 Os recursos e as melhorias abaixo estão planejados para lançamento no final de fevereiro. As datas de lançamento e o escopo podem mudar sem aviso prévio.
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent: criação de conteúdo de canal</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
-<p>Data de disponibilidade: início de março de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
