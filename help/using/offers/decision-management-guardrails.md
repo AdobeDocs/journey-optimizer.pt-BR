@@ -9,20 +9,22 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 17%
+source-wordcount: '400'
+ht-degree: 11%
 
 ---
 
 # Medidas de proteção e limitações da gestão de decisões {#decision-management-guardrails}
 
->[!TIP]
+>[!IMPORTANT]
 >
->O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../experience-decisioning/gs-experience-decisioning.md)
+>Esta página aborda as medidas de proteção para o recurso **Gerenciamento de decisão** herdado. Se você estiver usando a **Decisão** — o recurso de decisão atual do [!DNL Adobe Journey Optimizer] disponível através de experiência baseada em código e canais de email — consulte as [Medidas de proteção e limitações da decisão](../experience-decisioning/decisioning-guardrails.md).
+>
+>Não tem certeza de qual recurso você está usando? [Saiba mais sobre a Decisão](../experience-decisioning/gs-experience-decisioning.md).
 
-Para garantir o uso ideal da Gestão de decisões, lembre-se das seguintes medidas de proteção e limitações.
+Esta página se aplica aos usuários que ainda trabalham com o sistema herdado de Gestão de decisões. Para garantir o uso ideal, lembre-se das seguintes medidas de proteção e limitações.
 
 A lista completa de [!DNL Journey Optimizer] medidas de proteção e limitações está disponível em [esta seção](../start/guardrails.md).
 
@@ -97,7 +99,7 @@ A taxa de transferência de delivery corresponde ao número de respostas de deci
 | Modelo de classificação de IA | 5 |
 | Limite de frequência - Número máximo de regras de limite por oferta | 10 |
 
-## Configurações  {#configurations}
+## Configurações {#configurations}
 
 O número total de configurações aceitas pelo Gerenciamento de decisão não pode exceder 20.000.
 

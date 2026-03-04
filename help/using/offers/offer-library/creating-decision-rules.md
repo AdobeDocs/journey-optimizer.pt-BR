@@ -10,18 +10,20 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 11%
+source-wordcount: '450'
+ht-degree: 7%
 
 ---
 
 # Criar regras de decisão {#create-decision-rules}
 
->[!TIP]
+>[!IMPORTANT]
 >
->O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
+>Esta página aborda as regras de decisão para o recurso **Gerenciamento de decisão** herdado. Se você estiver usando a **Decisão** — o recurso de decisão atual do [!DNL Adobe Journey Optimizer] disponível através de experiência baseada em código e canais de email — consulte [Regras de compilação](../../experience-decisioning/rules.md).
+>
+>Não tem certeza de qual recurso você está usando? [Saiba mais sobre a Decisão](../../experience-decisioning/gs-experience-decisioning.md).
 
 ## Sobre as regras de decisão {#about}
 
@@ -77,8 +79,8 @@ Para criar uma regra de decisão, siga estas etapas:
 
 >[!CAUTION]
 >
->No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
+>No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
 
 ## Tutorial em vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341377?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
