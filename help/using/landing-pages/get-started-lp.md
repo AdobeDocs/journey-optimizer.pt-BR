@@ -99,4 +99,4 @@ A criação e a implantação de uma landing page seguem esta sequência:
 
 O vídeo abaixo mostra como criar uma lista de assinaturas, configurar páginas de destino para oferecer assinaturas ou cancelar assinaturas de um serviço, integrar a opção de assinatura ou cancelamento a uma mensagem e configurar jornadas relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344402?captions=por_br&quality=12&learn=on)
