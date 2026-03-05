@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destino, página de destino, início, introdução
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
+source-git-commit: a78beb79376b9963034954f8e424f2d23a041666
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 48%
+source-wordcount: '409'
+ht-degree: 26%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 48%
 
 Uma página de destino é uma página da Web independente para a qual o usuário é direcionado depois de clicar em um email, site, anúncio ou qualquer outro local digital.
 
-O [!DNL Journey Optimizer] permite criar e projetar páginas de destino para direcionar seus usuários a formulários online, em que eles podem aceitar ou recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.
+O [!DNL Journey Optimizer] permite criar e projetar páginas de aterrissagem para direcionar seus usuários para formulários online, onde eles podem aceitar ou recusar receber suas comunicações ou um serviço específico, como um boletim informativo.
 
 ➡️ [Saiba como configurar assinaturas e criar páginas de destino neste vídeo](#video)
 
@@ -28,8 +28,7 @@ O [!DNL Journey Optimizer] permite criar e projetar páginas de destino para dir
 
 Use landing pages quando quiser:
 
-* Permitir que os clientes **aceitem ou recusem** comunicações de marketing a partir de um link em um email ou campanha
-* Permitir que os clientes **assinem ou cancelem a assinatura** de um serviço ou boletim informativo específico
+* Permitir que os clientes **aceitem ou recusem** comunicações de marketing ou um serviço ou boletim informativo específico, a partir de um link em um email ou campanha
 * **Colete o consentimento** antes de enviar comunicações e confirme a ação com um email automatizado
 * Redirecionar usuários para um **formulário Web dedicado** sem criar uma página externa fora do [!DNL Journey Optimizer]
 
@@ -37,25 +36,23 @@ Use landing pages quando quiser:
 
 Antes de criar uma landing page, conclua estas etapas de configuração:
 
-1. **Configurar um subdomínio** — Configure um subdomínio dedicado para hospedar suas páginas de aterrissagem. [Configurar subdomínios de página de aterrissagem](lp-subdomains.md)
-1. **Criar uma predefinição de página de aterrissagem** — Uma predefinição define o subdomínio e outras configurações aplicadas às suas páginas de aterrissagem. [Criar uma predefinição](lp-presets.md#lp-create-preset)
-1. **Criar uma lista de assinaturas** (para casos de uso de assinaturas) — é necessário se você deseja que os clientes assinem ou cancelem a assinatura de um serviço específico. [Criar uma lista de assinaturas](subscription-list.md)
+1. [**Configurar um subdomínio**](lp-subdomains.md) — Configure um subdomínio dedicado para hospedar suas páginas de aterrissagem.
+1. [**Criar uma predefinição de página de aterrissagem**](lp-presets.md#lp-create-preset) — Uma predefinição define o subdomínio e outras configurações aplicadas às suas páginas de aterrissagem.
+1. [**Criar uma lista de assinaturas**](subscription-list.md) (para casos de uso de assinaturas) — é necessário se você deseja que os clientes assinem ou cancelem a assinatura de um serviço específico.
 
 ## Como funciona {#how-it-works}
 
 A criação e a implantação de uma landing page seguem esta sequência:
 
-1. **Criar e configurar** sua página de aterrissagem — selecione uma predefinição, configure a página principal e adicione as subpáginas necessárias. [Criar uma página de destino](create-lp.md)
-1. **Criar a página** — Crie o conteúdo e o formulário da página usando o editor de arrastar e soltar de [!DNL Journey Optimizer]. [Criar uma página de aterrissagem](design-lp.md)
-1. **Testar e publicar** — visualize a página, teste o comportamento do formulário e publique para ativá-la. [Gerenciar suas páginas de aterrissagem](manage-lp.md)
-1. **Link em uma mensagem ou jornada** — Adicione a URL da página de aterrissagem a uma ação de email, campanha ou jornada para que os clientes possam acessá-la.
+1. [**Criar e configurar sua página de aterrissagem**](create-lp.md) — Selecione uma predefinição, configure a página principal e adicione as subpáginas necessárias.
+1. [**Criar a página**](design-lp.md) — Crie o conteúdo e o formulário da página usando o editor de arrastar e soltar de [!DNL Journey Optimizer].
+1. [**Testar e publicar**](manage-lp.md) — visualize a página, teste o comportamento do formulário e publique para ativá-la.
+1. [**Link em uma mensagem ou jornada**](../email/message-tracking.md#insert-links) — Adicione a URL da página de aterrissagem a uma ação de email, campanha ou jornada para que os clientes possam acessá-la.
 
 ## Principais recursos {#capabilities}
 
 * Aproveite os recursos de design de conteúdo do [!DNL Journey Optimizer] para criar com facilidade **páginas de destino responsivas**.
-* Configure **fluxos de aceitação e recusa** de forma rápida e fácil.
-* Criar listas de assinaturas para permitir que usuários **assinem um serviço**. [Leia mais](lp-use-cases.md#subscription-to-a-service)
-* Forneça aos destinatários a **capacidade de cancelar inscrição** ao receber suas comunicações. [Leia mais](lp-use-cases.md#opt-out)
+* Configure os **fluxos de aceitação e recusa** de forma rápida e contínua, incluindo listas de assinaturas para permitir que os usuários aceitem ou recusem um serviço específico. [Leia mais](lp-use-cases.md#subscription-to-a-service)
 * Envie um **email de confirmação** após a aceitação ou recusa. [Leia mais](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -97,6 +94,6 @@ A criação e a implantação de uma landing page seguem esta sequência:
 
 ## Vídeo tutorial{#video}
 
-O vídeo abaixo mostra como criar uma lista de assinaturas, configurar páginas de destino para oferecer assinaturas ou cancelar assinaturas de um serviço, integrar a opção de assinatura ou cancelamento a uma mensagem e configurar jornadas relevantes.
+O vídeo abaixo mostra como criar uma lista de assinaturas, configurar páginas de aterrissagem para aceitar ou recusar um serviço, integrar a opção de aceitação/recusa a uma mensagem e configurar jornadas relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/344402?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
