@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: f212a2178e83283d4755da5483d7c11ba4df183f
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Por exemplo, como comerciante de uma marca de varejo, você está realizando uma
 
 * Os recipients que abrirem imediatamente verão &quot;47 horas restantes&quot;
 * Os recipients que abrirem 24 horas depois verão &quot;23 horas restantes&quot;
-* Os recipients que abrirem após o término da venda verão &quot;Venda encerrada&quot;
+* Os recipients que abrirem após o término da venda verão &quot;Acabou o tempo!&quot;
 
 Para obter mais informações sobre como adicionar temporizadores de contagem regressiva ao seu modelo do Dynamic Media no Adobe Experience Manager, consulte [este documento](assets/do-not-localize/countdown.pdf).
 
@@ -45,13 +45,17 @@ Para obter mais informações sobre como adicionar temporizadores de contagem re
 
    ![](assets/timer-3.png)
 
+1. Ative a experiência de pílulas alternando pílulas para Ativado. Isso melhora a legibilidade, ocultando caminhos de atributos longos.
+
+   ![](assets/timer-6.png)
+
 1. No menu **[!UICONTROL Atributos personalizados]**, configure os parâmetros de URL personalizáveis conforme necessário para o modelo.
 
    Clique em **[!UICONTROL Salvar]** quando terminar.
 
    ![](assets/timer-4.png)
 
-1. Selecione o ativo no Designer de email e acesse o menu **[!UICONTROL Configurações]**.
+1. Como alternativa, você também pode acessar os parâmetros do modelo do Dynamic Media selecionando o ativo no Designer de email e acessando o menu **[!UICONTROL Configurações]**.
 
    Configure o seguinte:
 
