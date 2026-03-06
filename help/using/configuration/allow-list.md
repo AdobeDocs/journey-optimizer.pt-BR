@@ -1,42 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Lista de permissões
-description: Saiba como usar a lista de permissões
+title: Configurar uma lista de permissões
+description: Saiba como configurar e gerenciar uma lista de permissões no Journey Optimizer para restringir o envio de emails a domínios e endereços confiáveis no nível da sandbox.
 feature: Deliverability
-topic: Content Management
+topic: Deliverability
 role: Admin
-level: Experienced
-keywords: lista de permissões, lista, seguro, configuração
+level: Intermediate
+keywords: lista de permissões, lista segura, email, capacidade de entrega, sandbox, domínios, supressão, configuração
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 15%
+source-wordcount: '1312'
+ht-degree: 12%
 
 ---
 
 # Configurar uma lista de permissões {#allow-list}
 
-É possível definir uma lista específica de segurança de envio no nível da [sandbox](../administration/sandboxes.md).
-
-Essa lista de permissões permite especificar endereços de email ou domínios individuais que serão os únicos destinatários ou domínios autorizados a receber os emails enviados de uma sandbox específica.
+A lista de permissões é uma lista de segurança de envio que você pode definir no nível [sandbox](../administration/sandboxes.md). Ele restringe o envio de emails para endereços ou domínios específicos, garantindo que somente os recipients explicitamente listados possam receber mensagens de uma determinada sandbox.
 
 >[!CAUTION]
 >
 >Esse recurso se aplica somente ao canal de email. Ele está disponível em sandboxes de produção e não produção.
 
-Por exemplo, em uma instância de não produção, em que podem ocorrer erros, a lista de permissões garante que você não tenha risco de enviar mensagens indesejadas para endereços reais de clientes e, portanto, fornece um ambiente seguro para fins de teste.
+Em sandboxes de não produção, em que podem ocorrer envios acidentais, a lista de permissões impede que mensagens indesejadas cheguem a endereços reais de clientes, fornecendo um ambiente seguro para fins de teste.
 
-Além disso, quando a lista de permissões estiver ativa, mas vazia, nenhum email será enviado. Portanto, se você encontrar algum problema grave, poderá usar este recurso para interromper todas as comunicações de saída de [!DNL Journey Optimizer] até que corrija o problema. Saiba mais sobre a [lógica de lista de permissões](#logic).
+Quando a lista de permissões está ativa, mas vazia, nenhum email é enviado. Isso faz dele um freio de emergência útil: se ocorrer um problema crítico, você pode ativar uma lista de permissões vazia para interromper todas as comunicações de saída de [!DNL Journey Optimizer] até que o problema seja resolvido. Saiba mais sobre a [lógica de lista de permissões](#logic).
 
-Além disso, é possível aproveitar a **API REST de supressão** do Journey Optimizer para controlar as mensagens enviadas usando listas de supressão e de permissões. [Saiba como trabalhar com a API REST de supressão](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Você também pode usar a **API REST de Supressão** do Journey Optimizer para gerenciar mensagens de saída de forma programática por meio de supressão e listas de permissões. [Saiba como trabalhar com a API REST de supressão](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Acessar a lista de permissões {#access-allowed-list}
 
 Para acessar a lista detalhada de domínios e endereços de email permitidos, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de email]** e selecione **[!UICONTROL Lista de permissões]**.
 
-![](assets/allow-list-access.png)
+![Página de Lista de permissões mostrando a lista de domínios e endereços de email permitidos](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
@@ -48,7 +46,7 @@ Use o botão **[!UICONTROL Excluir]** para remover permanentemente uma entrada.
 
 Você pode pesquisar endereços de email ou domínios e filtrar por **[!UICONTROL Tipo de endereço]**. Depois de selecionado, é possível limpar o filtro exibido na parte superior da lista.
 
-![](assets/allowed-list-filtering-example.png)
+![Lista de permissões filtrada por tipo de endereço](assets/allowed-list-filtering-example.png)
 
 ## Ativar a lista de permissões {#enable-allow-list}
 
@@ -58,11 +56,11 @@ Para ativar a lista de permissões, siga as etapas abaixo.
 
 1. Selecione o botão de alternância.
 
-   ![](assets/allow-list-edit.png)
+   ![Botão Alternar para ativar a lista de permissões](assets/allow-list-edit.png)
 
 1. Selecione **[!UICONTROL Ativar lista de permissões]**. A lista de permissões agora está ativa.
 
-   ![](assets/allow-list-enable.png)
+   ![Confirmação de que a lista de permissões está ativa no momento](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
@@ -82,11 +80,11 @@ Para desativar a lista de permissões, siga as etapas abaixo.
 
 1. Selecione o botão de alternância.
 
-   ![](assets/allow-list-edit-active.png)
+   ![Botão Alternar para desativar a lista de permissões](assets/allow-list-edit-active.png)
 
 1. Selecione **[!UICONTROL Desativar lista de permissões]**. A lista de permissões não está mais ativa.
 
-   ![](assets/allow-list-deactivate.png)
+   ![Confirmação de que a lista de permissões está inativa no momento](assets/allow-list-deactivate.png)
 
    >[!NOTE]
    >
@@ -124,7 +122,7 @@ Para fazer isso, siga as etapas abaixo.
 
 1. Selecione o botão **[!UICONTROL Adicionar email ou domínio]**.
 
-   ![](assets/allowed-list-add-email.png)
+   ![Botão Adicionar email ou domínio na página de lista de permissões](assets/allowed-list-add-email.png)
 
 1. Escolha o tipo de endereço: **[!UICONTROL Endereço de email]** ou **[!UICONTROL Endereço de domínio]**.
 
@@ -136,11 +134,11 @@ Para fazer isso, siga as etapas abaixo.
 
 1. Especifique um motivo, se necessário.
 
-   ![](assets/allowed-list-add-email-address.png)
+   ![Formulário para adicionar um endereço de email ou domínio à lista de permissões, com um campo de motivo opcional](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
-   >Todos os caracteres ASCII entre 32 e 126 são permitidos no campo **[!UICONTROL Motivo]**. Para referência, consulte a lista completa [nesta página](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}.
+   >Todos os caracteres ASCII no intervalo de 32 a 126 são permitidos no campo **[!UICONTROL Motivo]**. Para referência, consulte a lista completa [nesta página](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}.
 
 1. Clique em **[!UICONTROL Enviar]**.
 
@@ -148,11 +146,11 @@ Para fazer isso, siga as etapas abaixo.
 
 Para preencher a lista de permissões, você também pode chamar a API de supressão com o valor `ALLOWED` para o atributo `listType`. Por exemplo:
 
-![](assets/allow-list-api.png)
+![Exemplo de chamada de API para adicionar uma entrada à lista de permissões usando a API de supressão](assets/allow-list-api.png)
 
 Você pode executar as operações **Adicionar**, **Excluir** e **Obter**.
 
-Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Baixar a lista de permissões {#download-allowed-list}
 
@@ -160,11 +158,11 @@ Para exportar a lista de permissões como um arquivo CSV, siga as etapas abaixo:
 
 1. Selecione o botão **[!UICONTROL Baixar CSV]**.
 
-   ![](assets/allowed-list-download-csv.png)
+   ![Botão Baixar CSV na página de lista de permissões](assets/allowed-list-download-csv.png)
 
 1. Espere até que o arquivo seja gerado.
 
-   ![](assets/allowed-list-download-generate.png)
+   ![Notificação indicando que o arquivo CSV está sendo gerado](assets/allowed-list-download-generate.png)
 
    >[!NOTE]
    >
@@ -176,7 +174,7 @@ Para exportar a lista de permissões como um arquivo CSV, siga as etapas abaixo:
 
 1. Clique na própria notificação para baixar o arquivo.
 
-   ![](assets/allowed-list-download-notification.png)
+   ![Notificação com um link de download para o arquivo CSV gerado](assets/allowed-list-download-notification.png)
 
    >[!NOTE]
    >
@@ -207,7 +205,7 @@ Quando a lista de permissões é [desativada](#deactivate-allow-list), todos os 
 
 ## Relatório de exclusão {#reporting}
 
-Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para fazer as chamadas de API abaixo.
+Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para fazer as chamadas de API abaixo.
 
 Para obter o **número de emails** que não foram enviados porque os destinatários não estavam na lista de permissões, use a seguinte consulta:
 
