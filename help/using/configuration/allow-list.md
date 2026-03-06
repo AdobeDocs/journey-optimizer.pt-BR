@@ -4,12 +4,11 @@ product: journey optimizer
 title: Configurar uma lista de permissões
 description: Saiba como configurar e gerenciar uma lista de permissões no Journey Optimizer para restringir o envio de emails a domínios e endereços confiáveis no nível da sandbox.
 feature: Deliverability
-topic: Deliverability
 role: Admin
 level: Intermediate
 keywords: lista de permissões, lista segura, email, capacidade de entrega, sandbox, domínios, supressão, configuração
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
+source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 12%
@@ -150,7 +149,7 @@ Para preencher a lista de permissões, você também pode chamar a API de supres
 
 Você pode executar as operações **Adicionar**, **Excluir** e **Obter**.
 
-Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Baixar a lista de permissões {#download-allowed-list}
 
@@ -205,7 +204,7 @@ Quando a lista de permissões é [desativada](#deactivate-allow-list), todos os 
 
 ## Relatório de exclusão {#reporting}
 
-Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para fazer as chamadas de API abaixo.
+Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para fazer as chamadas de API abaixo.
 
 Para obter o **número de emails** que não foram enviados porque os destinatários não estavam na lista de permissões, use a seguinte consulta:
 
