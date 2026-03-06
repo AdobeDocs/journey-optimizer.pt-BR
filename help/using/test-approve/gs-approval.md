@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: e6cac6aff79b30a308be480319902f478436391d
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 77%
+source-wordcount: '860'
+ht-degree: 58%
 
 ---
 
@@ -83,6 +83,32 @@ O processo de aprovação global é o seguinte:
 Você pode monitorar todas as solicitações de aprovação e alteração que foram enviadas para uma determinada jornada ou campanha. Para fazer isso, clique no ícone **[!UICONTROL Mostrar trilha de auditoria]** localizado na seção superior direita da tela de jornada ou na tela de revisão da campanha.
 
 ![Solicitações de aprovação da trilha de auditoria](assets/monitor-requests.png)
+
+## Perguntas frequentes {#faq}
+
++++Preciso criar uma política de aprovação para cada campanha ou jornada?
+
+Não. As políticas de aprovação são condicionais. Você só precisará criar uma política se quiser impor a revisão de um conjunto específico de campanhas ou jornadas (por exemplo, todas as campanhas agendadas criadas por uma equipe específica). Se nenhuma política se aplicar a uma campanha ou jornada, o criador poderá publicar diretamente sem solicitar aprovação.
+
++++
+
++++O que acontece se o aprovador não estiver disponível?
+
+A solicitação permanece &quot;Em revisão&quot; até que um aprovador aja nela. Você pode cancelar a solicitação (devolvendo o item para &quot;Rascunho&quot;) e ressubmeter assim que o aprovador certo estiver disponível. Os administradores também podem atualizar a política de aprovação para adicionar aprovadores adicionais.
+
++++
+
++++Posso editar uma campanha ou jornada enquanto a aprovação estiver pendente?
+
+Não. Depois de enviada para aprovação, a campanha ou jornada está em um estado bloqueado &quot;Na revisão&quot;. Para fazer alterações, o criador ou um aprovador deve cancelar a solicitação primeiro. O item retorna para &quot;Rascunho&quot; e pode ser editado antes de ser reenviado.
+
++++
+
++++Não vejo a permissão Aprovar e publicar no menu suspenso — o que devo verificar?
+
+Verifique se você está adicionando o recurso correto primeiro. A permissão **Aprovar e publicar Campanhas** requer que o recurso **Campanhas** seja adicionado à função, e **Aprovar e publicar Jornadas** requer o recurso **Jornada**. Ambos devem ser adicionados separadamente. [Saiba como atribuir permissões relacionadas a aprovação](#prerequisites)
+
++++
 
 ## Recursos adicionais
 

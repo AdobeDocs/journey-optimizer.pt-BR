@@ -7,9 +7,10 @@ role: Developer
 level: Experienced
 keywords: conversão, funções, expressão, jornada, tipo, conversão
 version: Journey Orchestration
-source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
+exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
+source-git-commit: 57da5ea1cae21ed370b1cc58d953ba740b7ac2c6
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1249'
 ht-degree: 6%
 
 ---
@@ -28,6 +29,30 @@ Use as funções de conversão quando precisar:
 * Processar dados de fontes externas que podem ter diferentes formatos de tipo
 
 Cada função de conversão lida automaticamente com regras específicas de tipo e casos de borda, tornando a transformação de dados mais confiável e previsível em suas expressões de jornada.
+
+## Referência rápida {#quick-reference}
+
+| Meta | Função |
+|------|----------|
+| Converter uma cadeia de caracteres ou época em uma data **com fuso horário** | [toDateTime](#toDateTime) |
+| Converter uma cadeia de caracteres ou data em um datetime **sem** fuso horário | [toDateTimeOnly](#toDateTimeOnly) |
+| Extrair somente uma data (dia do mês do ano, sem hora) | [toDateOnly](#toDateOnly) |
+| Converter em um número inteiro | [toInteger](#toInteger) |
+| Converter para um número decimal | [toDecimal](#toDecimal) |
+| Converter para verdadeiro/falso | [toBool](#toBool) |
+| Converter qualquer valor em uma string | [toString](#toString) |
+| Converter em uma duração (ISO-8601, por exemplo, PT10H) | [toDuration](#toDuration) |
+
+>[!TIP]
+>
+>**toDateTime vs. toDateTimeOnly:** use `toDateTime` quando o fuso horário for importante (por exemplo, agendamento de mensagens, comparação de carimbos de data/hora de eventos entre regiões). Use `toDateTimeOnly` quando apenas a data-hora local for relevante e o fuso horário puder ser ignorado (por exemplo, comparação de datas do calendário em uma condição).
+
+## Armadilhas comuns {#pitfalls}
+
+* **O fuso horário deve ser uma constante de cadeia de caracteres** — o argumento de fuso horário em `toDateTime` não pode ser uma referência de campo ou uma expressão dinâmica. Sempre passe uma cadeia de caracteres literal como `"UTC"` ou `"Europe/Paris"`.
+* **Formato ISO-8601 necessário para entradas de cadeia de caracteres** — Ao passar uma cadeia de caracteres para `toDateTime` ou `toDateTimeOnly`, verifique se ela segue o formato ISO-8601 (por exemplo, `"2023-08-18T23:17:59.123Z"`). Cadeias de caracteres malformadas retornam nulo sem erro.
+* **Os valores de época estão em milissegundos** — `toDateTime(1560762190189)` espera milissegundos. Se sua origem fornecer carimbos de data e hora Unix em segundos, multiplique por 1000 primeiro (por exemplo, `toDateTime(myField * 1000)`).
+* **toBool com cadeias de caracteres inesperadas** — `toBool` retorna `true` somente se o valor da cadeia for exatamente `"true"`. Qualquer outra cadeia de caracteres (incluindo `"1"`, `"yes"`, `"TRUE"`) retorna `false`.
 
 ## toBool {#toBool}
 
@@ -430,4 +455,3 @@ Retorna a representação da string do campo dateOnly fornecido (campo XDM Date)
 Retorna &quot;PT1.52S&quot;.
 
 +++
-

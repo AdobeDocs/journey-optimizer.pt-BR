@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: d2f32e0572b78db55c61cf087eb308d6fc0e2d4d
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3542'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,32 @@ ht-degree: 1%
 # Exemplos de consultas{#query-examples}
 
 Esta seção fornece exemplos usados com frequência para consultar eventos de etapa de Jornada no Data Lake. Antes de mergulhar em casos de uso específicos, é importante entender os identificadores-chave usados nos dados do evento de jornada.
+
+## Pré-requisitos {#prerequisites}
+
+Antes de executar qualquer consulta nesta página, verifique o seguinte:
+
+* **Acesso ao Serviço de consulta da Adobe Experience Platform** — Você deve ter acesso ao [Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR){target="_blank"} na sandbox da Adobe Experience Platform.
+* **Conjunto de dados disponível** — as consultas têm como alvo o conjunto de dados `journey_step_events`. Verifique se o conjunto de dados existe e contém dados na sua sandbox via **Experience Platform > Conjuntos de Dados**.
+* **ID da versão correta do jornada** — A maioria das consultas requer um `journeyVersionID`. Localize-o no Journey Optimizer em **Jornadas > [sua jornada] > Propriedades** ou use `journeyVersionName` para localizá-lo primeiro no conjunto de dados.
+* **Valores de campo de esquema** — Verifique se os campos usados em suas consultas têm valores associados no esquema correspondente. Campos vazios não retornam resultados sem erros.
+
+>[!TIP]
+>
+>**Novo no Serviço de consulta?** Abra o [Adobe Experience Platform](https://experience.adobe.com/), navegue até **Serviço de Consulta > Consultas**, cole qualquer exemplo abaixo, substitua os valores de espaço reservado (por exemplo, `<journeyVersionID>`, `<last x hours>`) e selecione **Executar**.
+
+## Localizar a consulta correta {#find-query}
+
+| Eu quero... | Ir para |
+|---|---|
+| Contar perfis que entraram em uma jornada | [Casos de uso básicos](#common-queries) |
+| Depurar o caminho de jornada de um perfil específico | [Consultas baseadas em perfil](#profile-based-queries) |
+| Investigar erros ou execução de Leitura de público | [Ler consultas de público-alvo](#read-segment-queries) |
+| Solução de problemas de erros de mensagem ou ação | [Erros de mensagens e ações](#message-action-errors) |
+| Analisar descartes de qualificação de público-alvo | [Consultas de qualificação de público-alvo](#segment-qualification-queries) |
+| Depurar eventos externos ou comerciais | [Consultas baseadas em eventos](#event-based-queries) |
+| Monitorar o desempenho do ponto de extremidade de ação personalizada | [Consultas de ação personalizada](#query-custom-action) |
+| Rastrear perfis ativáveis e o uso da licença | [Consultas de perfis ativáveis](#engageable-profiles-queries) |
 
 Verifique se os campos usados em suas consultas têm valores associados no esquema correspondente.
 

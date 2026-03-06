@@ -7,14 +7,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 9fc43f2e17c256d33f73f21b6b30c4b593087a28
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '826'
 ht-degree: 3%
 
 ---
 
 # Acessar e gerenciar modelos de conteúdo {#access-manage-templates}
+
+## Pré-requisitos {#prerequisites}
+
+Para acessar e gerenciar modelos de conteúdo, verifique o seguinte:
+
+* **Permissão de Modelos de Conteúdo** — Sua função deve incluir a permissão **[!UICONTROL Gerenciar modelos de conteúdo]** (no recurso **Gerenciamento de Conteúdo**). Sem ele, o menu **Modelos de conteúdo** não fica visível na navegação à esquerda. [Saiba como gerenciar permissões](../administration/permissions.md)
+* **Escopo da sandbox** — os modelos de conteúdo são específicos da sandbox. Os modelos criados em uma sandbox não estão disponíveis em outra. Verifique se você está na sandbox correta antes de pesquisar um modelo.
+* **Modelos do HTML (obsoletos)** — A partir de março de 2025, os modelos de conteúdo do tipo HTML serão descontinuados. Os modelos do HTML existentes permanecem acessíveis, mas não é possível criar novos.
 
 ## Acessar modelos de conteúdo {#access}
 
@@ -108,6 +116,26 @@ Selecione o modo de **[!UICONTROL exibição de grade]** para exibir cada modelo
 >Miniaturas apropriadas só podem ser geradas para modelos de conteúdo de email do tipo HTML.
 
 Ao atualizar o conteúdo, aguarde alguns segundos para que as alterações sejam refletidas na miniatura.
+
+## Solução de problemas {#troubleshooting}
+
++++Não consigo ver o menu Modelos de conteúdo na navegação à esquerda
+
+Sua função não tem a permissão **Gerenciar modelos de conteúdo**. Peça ao administrador para adicionar o recurso **Gerenciamento de conteúdo** com a permissão **Gerenciar modelos de conteúdo** à sua função. [Saiba mais](../administration/permissions.md)
+
++++
+
++++Um modelo que criei não é exibido na lista
+
+Verifique se você está na sandbox correta — os modelos são específicos da sandbox. Verifique também se uma pasta está selecionada no painel esquerdo; quando uma pasta é selecionada, somente os modelos dentro dessa pasta são exibidos. Clique em **[!UICONTROL Todos os modelos de conteúdo]** para exibir todos os modelos independentemente da pasta.
+
++++
+
++++Editei um template, mas meu conteúdo de campanha ou jornada não foi atualizado
+
+A edição ou exclusão de um template não atualiza retroativamente campanhas ou jornadas que foram criadas com ele. O conteúdo é copiado no momento do uso. Para atualizar o conteúdo existente, edite a campanha ou a jornada diretamente.
+
++++
 
 ## Exportar modelos de conteúdo para outra sandbox {#export}
 
