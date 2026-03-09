@@ -26,7 +26,7 @@ Independentemente de você usar domínios existentes ou novas configurações, e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar e gerenciar subdomínios de página de destino
 
@@ -36,7 +36,7 @@ Saiba como configurar e gerenciar subdomínios para hospedar páginas de aterris
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Definir predefinições da página de destino
 
