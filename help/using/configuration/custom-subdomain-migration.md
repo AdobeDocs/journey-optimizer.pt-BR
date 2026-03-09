@@ -10,7 +10,7 @@ level: Intermediate
 keywords: subdomínio, delegação, migração, CNAME, delegação personalizada
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
+source-git-commit: 71a047d0c113202e6e1dd4f0730328e32800830d
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 5%
@@ -176,7 +176,7 @@ Para concluir o processo de migração, crie um novo conjunto de registros DNS g
 
 1. Se todas as validações forem bem-sucedidas, a seção **[!UICONTROL Registros a serem criados]** será exibida.
 
-   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+   ![](assets/subdomain-migrate-records-to-create.png){width="100%"}
 
 1. Crie todos os registros necessários na sua plataforma de hospedagem.
 
