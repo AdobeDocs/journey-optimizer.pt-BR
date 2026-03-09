@@ -5,8 +5,8 @@ title: Gerenciamento de conteúdo
 description: Gerenciamento de conteúdo
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
-workflow-type: ht
+source-git-commit: e5e4acf5c83c036b5ff72c8022750f9827bd98d3
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Os recursos de gerenciamento de conteúdo do Adobe Journey Optimizer permitem cr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adicionar personalização
 
@@ -30,17 +30,17 @@ Saiba como implementar e otimizar recursos de personalização para criar experi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar páginas de destino
 
 Descubra ferramentas e tutoriais para criar, gerenciar e otimizar páginas de destino para campanhas de marketing.
 
-[Saiba mais sobre as páginas de destino](landing-pages-landing-page.md)
+[Saiba mais sobre as páginas de destino](../using/landing-pages/get-started-lp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Modelos de conteúdo
 
@@ -50,7 +50,7 @@ Simplifique a criação de conteúdo por meio de modelos reutilizáveis para um 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fragmentos de conteúdo reutilizáveis
 
@@ -60,7 +60,7 @@ Saiba como criar e gerenciar fragmentos de conteúdo reutilizáveis para fins de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Criar conteúdo dinâmico
 
@@ -70,7 +70,7 @@ Use regras condicionais para criar um conteúdo dinâmico e personalizado para e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Casos de uso entre soluções
 
