@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 24%
@@ -67,7 +67,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
    * Selecione **[!UICONTROL Link externo]** para inserir um link para uma URL externa.
 
-   * Selecione **[!UICONTROL Landing page]** para inserir um link a uma landing page. [Saiba mais](../landing-pages/get-started-lp.md)
+   * Selecione **[!UICONTROL Landing page]** para inserir um link a uma landing page. [Saiba mais](../landing-pages/create-lp.md)
 
    * Selecione **[!UICONTROL Recusa em um clique]** para inserir um link que permita aos usuários cancelar rapidamente a inscrição de suas comunicações sem a necessidade de confirmar a recusa. [Saiba mais](email-opt-out.md#one-click-opt-out).
 
