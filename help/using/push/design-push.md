@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1940'
 ht-degree: 13%
 
 ---
@@ -173,9 +173,9 @@ Use a seção **[!UICONTROL Dados personalizados]** para adicionar pares de valo
 
 Na seção **[!UICONTROL Dados personalizados]**, você pode adicionar variáveis personalizadas à carga, dependendo da configuração do seu aplicativo móvel. Para obter mais informações sobre como configurar notificações por push no Adobe Experience Platform, consulte [esta seção](push-gs.md)
 
-## Personalizar com o Experience Decisioning {#decisioning-push}
+## Personalizar com decisão {#decisioning-push}
 
-Você pode personalizar e otimizar o conteúdo de suas notificações por push com o **Experience Decisioning**. Esse recurso permite usar Pontuações de prioridade, Fórmulas ou Modelos de IA para selecionar e exibir dinamicamente o melhor conteúdo para seus clientes.
+Você pode personalizar e otimizar o conteúdo de suas notificações por push com a **Decisão**. Esse recurso permite usar Pontuações de prioridade, Fórmulas ou Modelos de IA para selecionar e exibir dinamicamente o melhor conteúdo para seus clientes.
 
 Para obter mais informações sobre como criar e usar políticas de decisão em notificações por push, consulte [esta seção](../experience-decisioning/create-decision.md).
 
