@@ -55,7 +55,7 @@ Para criar um modelo de IA para classificação de jornada, siga as etapas abaix
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
 
-1. Na **[!UICONTROL Métrica de otimização]**, todas as métricas da [!DNL Customer Journey Analytics] [visualização de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} padrão são exibidas na lista. Selecione a métrica em que deseja otimizar seu modelo.
+1. Na **[!UICONTROL Métrica de otimização]**, todas as métricas da [!DNL Customer Journey Analytics] [visualização de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} padrão são exibidas na lista. Selecione a métrica em que deseja otimizar seu modelo.
 
    ![Painel de detalhes do modelo de IA com campos de nome e descrição](assets/journey-model-metrics.png){width="80%"}
 
