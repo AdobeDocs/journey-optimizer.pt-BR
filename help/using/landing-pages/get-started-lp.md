@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destino, página de destino, início, introdução
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 22%
@@ -23,6 +23,15 @@ Uma página de destino é uma página da Web independente para a qual o usuário
 O [!DNL Journey Optimizer] permite criar e projetar páginas de aterrissagem para direcionar seus usuários para formulários online, onde eles podem aceitar ou recusar receber suas comunicações ou um serviço específico, como um boletim informativo.
 
 ➡️ [Saiba como configurar assinaturas e criar páginas de destino neste vídeo](#video)
+
+## Quando usar landing pages {#when-to-use}
+
+Use landing pages quando quiser:
+
+* Permitir que os clientes **aceitem ou recusem** comunicações de marketing ou um serviço ou boletim informativo específico a partir de um link em um email ou campanha, incluindo listas de assinaturas para serviços direcionados. [Leia mais](lp-use-cases.md#subscription-to-a-service)
+* **Coletar consentimento** antes de enviar comunicações e enviar um **email de confirmação** por aceitação ou recusa. [Leia mais](lp-use-cases.md#send-confirmation-email)
+* Redirecionar usuários para um **formulário Web dedicado** sem criar uma página externa fora do [!DNL Journey Optimizer]
+* Criar **páginas de aterrissagem responsivas** usando os recursos de design de conteúdo do [!DNL Journey Optimizer]
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -61,15 +70,6 @@ O [!DNL Journey Optimizer] permite criar e projetar páginas de aterrissagem par
 </td>
 </tr></table>
 
-## Quando usar landing pages {#when-to-use}
-
-Use landing pages quando quiser:
-
-* Permitir que os clientes **aceitem ou recusem** comunicações de marketing ou um serviço ou boletim informativo específico a partir de um link em um email ou campanha, incluindo listas de assinaturas para serviços direcionados. [Leia mais](lp-use-cases.md#subscription-to-a-service)
-* **Coletar consentimento** antes de enviar comunicações e enviar um **email de confirmação** por aceitação ou recusa. [Leia mais](lp-use-cases.md#send-confirmation-email)
-* Redirecionar usuários para um **formulário Web dedicado** sem criar uma página externa fora do [!DNL Journey Optimizer]
-* Criar **páginas de aterrissagem responsivas** usando os recursos de design de conteúdo do [!DNL Journey Optimizer]
-
 ## Antes de começar {#prerequisites}
 
 Antes de criar uma landing page, conclua estas etapas de configuração:
@@ -91,4 +91,4 @@ A criação e a implantação de uma landing page seguem esta sequência:
 
 O vídeo abaixo mostra como criar uma lista de assinaturas, configurar páginas de aterrissagem para aceitar ou recusar um serviço, integrar a opção de aceitação/recusa a uma mensagem e configurar jornadas relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/344402?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

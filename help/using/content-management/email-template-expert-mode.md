@@ -10,10 +10,10 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 5%
+source-wordcount: '539'
+ht-degree: 7%
 
 ---
 
@@ -33,39 +33,43 @@ Esse recurso permite inserir expressões avançadas, como condições, diretamen
 
 ## Medidas de proteção {#guardrails}
 
-Ao usar o editor avançado do HTML, as seguintes medidas de proteção estão em vigor para proteger a compatibilidade do conteúdo e definir expectativas.
+Ao usar o editor avançado do HTML, as seguintes medidas de proteção protegem a compatibilidade do conteúdo e definem expectativas.
 
-* Atualmente, não há **nenhum processo de validação** no editor avançado do HTML. Erros de sintaxe e layouts quebrados não são verificados. Certifique-se de revisar seu conteúdo cuidadosamente antes de salvar.
+* O editor avançado do HTML **não valida** seu código. Ele não verifica erros de sintaxe ou layouts com falha. Revise seu conteúdo cuidadosamente antes de salvar.
 
-* Atualizações futuras do sistema podem reverter alterações feitas na marcação padrão. Esteja ciente de que **suas alterações podem ser substituídas**.
+* Atualizações futuras do sistema podem substituir as alterações feitas na marcação padrão. **As alterações não podem persistir**.
 
-* Problemas causados por código personalizado e alterações manuais **não podem ser solucionados** ou resolvidos pela equipe de suporte do [!DNL Adobe]. Caso precise reverter para uma versão anterior, certifique-se de ter um backup do conteúdo.
+* A equipe de suporte [!DNL Adobe] do **não pode solucionar ou resolver** problemas causados por código personalizado e alterações manuais. Mantenha um backup do seu conteúdo caso precise reverter.
 
-* Para garantir a compatibilidade do conteúdo, **não é possível salvar** na exibição avançada do HTML. Quando estiver pronto para salvar as alterações, você deverá voltar para a exibição da Área de Trabalho.
+* Não é possível simular conteúdo na visualização avançada do HTML. Alterne para o modo de exibição de Área de Trabalho para visualizar seu conteúdo.
+
+* Para garantir a compatibilidade do conteúdo, **não é possível salvar** no modo de exibição avançado do HTML. Volte para a exibição da área de trabalho quando estiver pronto para salvar suas alterações.
 
 >[!WARNING]
 >
 >O editor avançado do HTML no modelo de conteúdo não é o mesmo que **[!UICONTROL Codificar o seu próprio]** modo no Designer de email. No modo [!UICONTROL Codifique o seu próprio], você não pode voltar para o editor visual. Depois de escolher esse caminho, você permanecerá na edição somente de código. O editor avançado do HTML, por outro lado, permite alternar entre a visualização do HTML e a visualização da Área de trabalho (visual) a qualquer momento. [Saiba mais sobre o editor de código](../email/code-content.md)
 
-## Alternar para a visualização avançada do HTML {#switch-to-desktop-view}
+## Alternar para a visualização avançada do HTML {#switch-to-html-view}
+
+Para abrir o editor avançado do HTML e editar a fonte do modelo, siga estas etapas.
 
 1. Abra ou crie um [modelo de email](../content-management/create-content-templates.md) e abra o [Designer de email](../email/get-started-email-design.md) para editar o conteúdo.
 
 1. Clique no botão **[!UICONTROL HTML]** no canto superior direito da tela.
 
-   ![](assets/email-template-expert-mode-button.png)
+   ![Local do botão HTML na barra de ferramentas Email Designer](assets/email-template-expert-mode-button.png)
 
 1. Na primeira vez que você abre o editor avançado do HTML, uma mensagem de aviso é exibida. Revise-o com atenção e clique em **[!UICONTROL OK]** para continuar. [Saiba mais](#guardrails)
+
+   ![Caixa de diálogo de aviso ao abrir o editor avançado do HTML pela primeira vez](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >Este aviso aparece somente na primeira vez que você abre o editor avançado do HTML e redefine a cada mês.
 
-   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
-
 1. O editor avançado do HTML é exibido.
 
-   ![](assets/email-template-expert-mode.png)
+   ![Interface avançada do editor do HTML mostrando o código-fonte do modelo de email](assets/email-template-expert-mode.png)
 
 1. Adicione as alterações desejadas ao conteúdo do email.
 
@@ -75,12 +79,18 @@ Ao usar o editor avançado do HTML, as seguintes medidas de proteção estão em
 
 1. A simulação e o salvamento de conteúdo não estão disponíveis na visualização avançada do HTML por motivos de compatibilidade. Volte para a exibição da área de trabalho para visualizar seu conteúdo e salvar suas alterações.
 
-   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
+   ![Retorne ao modo de exibição de Área de Trabalho para salvar suas alterações](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->As edições são preservadas ao alternar entre exibições.
-<!--
-1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
+   >As edições são preservadas ao alternar entre exibições.
 
+<!--
     ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
+
+## Tópicos relacionados
+
+* [Desenvolva seu próprio conteúdo de email](../email/code-content.md)
+* [Criar modelos de conteúdo](create-content-templates.md)
+* [Introdução ao Designer de email](../email/get-started-email-design.md)
+

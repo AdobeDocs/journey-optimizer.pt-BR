@@ -9,24 +9,30 @@ role: User
 level: Intermediate, Experienced
 keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 34%
+source-wordcount: '491'
+ht-degree: 23%
 
 ---
 
 # Programar seu próprio conteúdo {#code-content}
 
-Use o modo **[!UICONTROL Desenvolver você mesmo]** para importar um HTML bruto e/ou desenvolver o conteúdo do email. Este método requer conhecimento sobre HTML.
+O **[!UICONTROL código seu]** permite escrever ou colar HTML bruto para criar conteúdo de email diretamente no Designer de email do [!DNL Journey Optimizer]. Use esse modo quando precisar de controle total sobre a marcação ou ao importar HTML existente.
+
+Você deve ter habilidades com o HTML e, depois de escolher esse modo, permanece no editor de código; não é possível alternar para o editor visual.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
->[!CAUTION]
+>[!NOTE]
 >
-> Imagens de [Adobe Experience Manager Assets](../integrations/assets.md) não podem ser referenciadas ao usar este método. As imagens referenciadas no código HTML devem ser armazenadas em um local público.
+>**[!UICONTROL Codifique o seu próprio]** não é o mesmo que o editor avançado do HTML em modelos de conteúdo. O editor avançado do HTML permite alternar entre a visualização do HTML e a visualização visual (desktop) a qualquer momento, não o editor de código. [Saiba mais sobre o editor avançado do HTML](../content-management/email-template-expert-mode.md).
 
-1. Na página inicial do Email Designer, selecione **[!UICONTROL Codifique o seu próprio]**.
+## Usar o editor de código {#use-code-editor}
+
+Para criar ou editar conteúdo de email usando o editor de código, siga estas etapas.
+
+1. Na página inicial do [Email Designer](get-started-email-design.md), selecione **[!UICONTROL Codifique o seu próprio]**.
 
    ![](assets/code-your-own.png)
 
@@ -55,6 +61,10 @@ Use o modo **[!UICONTROL Desenvolver você mesmo]** para importar um HTML bruto 
 1. Quando o código estiver pronto, clique em **[!UICONTROL Salvar]** e volte para a tela de criação de mensagens para finalizar a mensagem.
 
    ![](assets/code-editor-save.png)
+
+>[!CAUTION]
+>
+>As imagens do [Adobe Experience Manager Assets](../integrations/assets.md) não podem ser referenciadas ao usar o método Codifique você mesmo. Armazene imagens referenciadas no código HTML em um local público.
 
 ## Limitações da função de data e hora {#date-time-limitations}
 
@@ -90,4 +100,4 @@ Se precisar realizar cálculos de data no conteúdo do email:
 
 * **Usar atributos computados** - Crie [atributos computados](../audience/computed-attributes.md) que executam cálculos de data complexos, disponibilizando os resultados como atributos de perfil.
 
-Saiba mais sobre [Funções de data e hora na personalização](../personalization/functions/dates.md).
+Consulte [Funções de data e hora](../personalization/functions/dates.md) para obter a lista completa das funções com suporte.
