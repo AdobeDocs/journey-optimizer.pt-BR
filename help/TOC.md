@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
 workflow-type: tm+mt
 source-wordcount: '3142'
 ht-degree: 96%
@@ -407,9 +407,9 @@ ht-degree: 96%
       + [Criar uma Atividade em tempo real](using/mobile-live/create-mobile-live.md)
       + [Solução de problemas de atividade em tempo real](using/mobile-live/troubleshoot-mobile-live.md)
       + [Perguntas frequentes](using/mobile-live/mobile-live-faq.md)
-      + Configurar canal de cartões de conteúdo {#configure}
+      + Configurar canal de atividade online {#configure}
          + [Configurar atividade em tempo real no Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
-         + [Configurar a integração do SDK de atividade em tempo real](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [Configurar a integração do Live Activity SDK](using/mobile-live/mobile-live-configuration-sdk.md)
 + Gerenciamento de conteúdo {#content-management}
    + [Gerenciamento de conteúdo](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalização {#personalization}
@@ -459,7 +459,7 @@ ht-degree: 96%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
