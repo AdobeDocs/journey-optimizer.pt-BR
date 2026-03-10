@@ -9,10 +9,10 @@ badge: label="Disponibilidade limitada" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
+source-git-commit: a1b9d589773c168cc8ad0cfac0cd1ba178ae4bb6
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 3%
+source-wordcount: '643'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Para criar um modelo de IA para classificação de jornada, siga as etapas abaix
 
 1. Especifique um nome exclusivo e, se necessário, uma descrição para o modelo de IA.
 
-   ![Painel de detalhes do modelo de IA com campos de nome e descrição](assets/journey-model-details.png){width="80%"}
+   ![Detalhes do modelo de IA mostrando os campos de nome e descrição](assets/journey-model-details.png){width="85%"}
 
    >[!NOTE]
    >
@@ -55,9 +55,9 @@ Para criar um modelo de IA para classificação de jornada, siga as etapas abaix
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
 
-1. Na **[!UICONTROL Métrica de otimização]**, todas as métricas da [!DNL Customer Journey Analytics] [visualização de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} padrão são exibidas na lista. Selecione a métrica em que deseja otimizar seu modelo.
+1. Na seção **[!UICONTROL Métrica de otimização]**, todas as métricas da [!DNL Customer Journey Analytics] [visualização de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} padrão são exibidas na lista. Selecione a métrica em que deseja otimizar seu modelo.
 
-   ![Painel de detalhes do modelo de IA com campos de nome e descrição](assets/journey-model-metrics.png){width="80%"}
+   ![Lista suspensa de métricas de otimização que lista as métricas do Customer Journey Analytics para o modelo de IA](assets/journey-model-metrics.png){width="70%"}
 
    [!DNL Journey Optimizer] classificações com base no **índice de conversão** (Índice de conversão = Número total de eventos de conversão / Número total de eventos de impressão). A taxa de conversão é calculada usando:
 
@@ -72,9 +72,9 @@ Para criar um modelo de IA para classificação de jornada, siga as etapas abaix
 
    >[!CAUTION]
    >
-   >Somente os conjuntos de dados criados a partir de esquemas associados ao grupo de campos **[!UICONTROL Evento de experiência - Interações de apresentação]** (anteriormente conhecido como mixin) são exibidos na lista suspensa.
+   >Somente os conjuntos de dados criados a partir de esquemas associados ao grupo de campos **[!UICONTROL Evento de experiência - Interações de apresentação]** são exibidos na lista suspensa. Você pode selecionar até 5 conjuntos de dados.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Selecione os segmentos a serem usados para treinar o modelo de IA.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Selecione os segmentos a serem usados para treinar o modelo de IA.
 
    >[!NOTE]
    >
@@ -84,52 +84,30 @@ Para criar um modelo de IA para classificação de jornada, siga as etapas abaix
 
 O modelo de IA agora está disponível para seleção ao criar uma fórmula de classificação.
 
-## Selecionar um modelo de IA para uma fórmula de classificação {#select-ai-model-for-ranking-formula}
+## Referencie o modelo de IA em uma fórmula para classificar jornadas {#reference-ai-model}
 
-Agora você pode definir o modelo de IA como uma referência para criar uma fórmula de classificação. Siga as etapas abaixo.
+Agora é possível definir o modelo de IA como uma referência para criar uma fórmula de classificação e, em seguida, atribuir a fórmula a um conjunto de regras e aplicar o conjunto de regras às suas jornadas. Para isso, siga as etapas abaixo.
 
 1. Crie uma fórmula de classificação. [Saiba como](journey-ranking-formulas.md#create-journey-ranking-formula)
 
-1. Use o botão **[!UICONTROL Selecionar modelo de IA]** para selecionar o modelo de IA que deseja usar.
+1. Use o botão **[!UICONTROL Selecionar modelo de IA]** para selecionar o modelo de IA que deseja usar na fórmula.
 
-   ![Jornada painel de detalhes da fórmula de classificação com seleção de modelo de IA](assets/journey-formula-ai-model.png){width="80%"}
+   ![Jornada detalhes da fórmula de classificação com o botão Selecionar modelo de IA](assets/journey-formula-ai-model.png){width="80%"}
 
 1. Em pelo menos uma das seções de **[!UICONTROL Critério]**, defina uma condição e selecione **[!UICONTROL Pontuação do modelo de IA]** como o método de classificação. Por exemplo, se a jornada tiver uma tag &quot;Promo&quot;, a pontuação da classificação será a pontuação do modelo de IA.
 
-   ![Fórmula de classificação: a marca promocional usa a pontuação do modelo de IA](assets/journey-formula-ex-2.png){width="60%"}
+   ![Um exemplo de fórmula de classificação em que o critério de marca Promocional usa a pontuação do modelo de IA como o método de classificação](assets/journey-formula-ex-2.png){width="60%"}
 
 1. Clique em **[!UICONTROL Criar]** para concluir a fórmula de classificação.
 
-## Atribuir o modelo de IA a um conjunto de regras {#assign-ai-model-to-ruleset}
+1. Agora crie um conjunto de regras e selecione a fórmula criada como o método de classificação. [Saiba como](journey-ranking-formulas.md#assign-formula-to-ruleset)
 
-Para usar um modelo de IA para classificar suas jornadas, é necessário atribuir a fórmula que faz referência a esse modelo de IA a um conjunto de regras.
+1. Crie as regras de limitação de jornada e salve o conjunto de regras.
 
-1. No menu **[!UICONTROL Regras de negócio]**, crie um conjunto de regras que você deseja usar para arbitragem de jornada. [Saiba como](rule-sets.md#Create)
-
-1. Selecione o domínio **[!UICONTROL Jornada]**.
-
-1. Nas propriedades do conjunto de regras, defina o **[!UICONTROL Método de classificação]** como **[!UICONTROL Fórmula]** (em vez de **[!UICONTROL Prioridade]**).
-
-1. Selecione na lista suspensa a fórmula que usa o modelo de IA criado.
-
-1. Crie as regras de limite de jornada que deseja adicionar ao conjunto de regras. [Saiba como](journey-capping.md#create-rule)
-
-1. Salve o conjunto de regras.
-
-Agora, a fórmula que usa o modelo de IA é atribuída ao conjunto de regras. Você pode aplicar esse conjunto de regras às suas jornadas.
-
-## Aplicar o conjunto de regras a uma jornada {#assign-rule-set-to-journey}
-
-Para atribuir o conjunto de regras a uma jornada, siga as etapas abaixo.
-
-1. Crie ou abra a jornada à qual deseja atribuir o conjunto de regras. [Saiba como criar uma jornada](../building-journeys/journey-gs.md)
-
-1. Nas propriedades da jornada, selecione o conjunto de regras na lista suspensa. [Saiba como](journey-capping.md#apply-capping).
+1. Aplique o conjunto de regras às jornadas desejadas e salve-as. [Saiba como](journey-ranking-formulas.md#assign-rule-set-to-journey)
 
    >[!NOTE]
    >
    >Somente um conjunto de regras pode ser aplicado a uma jornada de cada vez.
 
-1. Salve a jornada.
-
-Todas as jornadas que usam esse conjunto de regras serão classificadas com a fórmula selecionada usando o modelo de IA quando o limite for aplicado.
+Todas as jornadas que usam esse conjunto de regras serão classificadas com a fórmula que faz referência ao modelo de IA selecionado quando o limite é aplicado.
