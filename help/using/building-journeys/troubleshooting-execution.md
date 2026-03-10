@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
 workflow-type: tm+mt
-source-wordcount: '1938'
-ht-degree: 13%
+source-wordcount: '2034'
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes u
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
-Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming de [!DNL Adobe Experience Platform]. Como resultado, no caso de problemas relacionados ao evento, consulte a [[!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
+Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming de [!DNL Adobe Experience Platform]. Como resultado, no caso de problemas relacionados ao evento, consulte a [[!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
 
 Se a jornada não conseguir habilitar o modo de teste com erro `ERR_MODEL_RULES_16`, verifique se o evento usado inclui um [namespace de identidade](../audience/get-started-identity.md) ao usar uma ação de canal.
 
@@ -61,7 +61,7 @@ Você pode começar a solucionar problemas com as perguntas abaixo:
 
 * **Evento descartado - condição de qualificação não atendida** - Para eventos baseados em regras, se a **condição de qualificação** não for atendida pela carga do evento (por exemplo, um campo obrigatório está vazio ou ausente ou uma condição como `isNotEmpty` em um campo falha), o evento será **recebido, mas descartado** e a jornada não será acionada. Registros e rastreamentos do Splunk podem mostrar que o evento foi recebido, mas descartado porque não atendia à condição de qualificação, com códigos de descarte como `notSuitableInitialEvent`. Esse é o comportamento esperado: se a condição de qualificação não for atendida, o evento será descartado e a jornada não será acionada para esse perfil. Verifique se a carga do evento contém os campos e valores esperados e se a regra na configuração do evento corresponde aos dados enviados. Se o evento for acionado por uma **ação personalizada** de outra jornada, consulte [Manipulação de eventos de descarte e tempos limite ociosos](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts) na solução de problemas de ação personalizada.
 
-&#x200B;>>
+>>
 **Para jornadas de qualificação de público-alvo com públicos-alvo de streaming**: se estiver usando uma atividade de qualificação de público-alvo como ponto de entrada de jornada, esteja ciente de que nem todos os perfis qualificados para o público-alvo necessariamente entrarão na jornada devido a fatores de tempo, saídas rápidas do público-alvo ou se os perfis já estiverem no público-alvo antes da publicação. Saiba mais sobre [considerações de tempo de qualificação de público de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Verificar identidade do evento {#verify-event-identity-and-rule-data-types}
@@ -210,3 +210,9 @@ Se as métricas exibidas no painel **Visão geral** não corresponderem ao núme
 * Aguarde até 30 minutos para que as métricas sejam atualizadas depois de fazer alterações nas jornadas.
 
 Se as discrepâncias persistirem, [contate o Suporte da Adobe](../start/user-interface.md#support-ticket-guidelines) com as capturas de tela das guias Visão geral e Procurar para investigação.
+
+## Parâmetros de rastreamento que mostram espaços reservados vazios em jornadas fechadas {#tracking-parameters-closed-journeys}
+
+Se as URLs de rastreamento nos emails enviados contiverem espaços reservados vazios, como `cid=em-acou-adob{}`, isso pode indicar que um campo de contexto, como `context.system.source.actionId`, não pôde ser resolvido. Isso normalmente acontece quando uma jornada foi fechada e não foi republicada após uma alteração de produto relevante — somente jornadas republicadas preenchem corretamente esses campos de contexto em URLs de rastreamento.
+
+Para resolver isso, publique novamente a jornada ([crie uma nova versão e publique-a](publish-journey.md#journey-create-new-version)) ou remova a referência ao campo de contexto afetado dos [parâmetros de rastreamento de URL](../email/url-tracking.md) na configuração de canal ou no conteúdo de email.

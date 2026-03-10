@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 68%
+source-wordcount: '487'
+ht-degree: 61%
 
 ---
 
@@ -53,6 +53,10 @@ Os seguintes valores predefinidos estão disponíveis por meio do editor de pers
 * **ID da oferta**: ID da oferta usada no email.
 
 * **ID da ação de origem**: ID da ação de email adicionada à jornada ou campanha.
+
+  >[!NOTE]
+  >
+  >As jornadas que foram fechadas ou não foram republicadas após uma alteração de produto podem falhar ao preencher `context.system.source.actionId` nas URLs de rastreamento, resultando em espaços reservados vazios (por exemplo, `cid=em-acou-adob{}`). Para garantir que os parâmetros de rastreamento sejam preenchidos corretamente, [republique a jornada afetada](../building-journeys/publish-journey.md#journey-create-new-version) ou remova a referência a este campo de contexto para jornadas fechadas. Saiba mais em [Solucionar problemas de execução de jornada ao vivo](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys).
 
 * **Nome da ação de origem**: nome da ação de email adicionada à jornada ou campanha.
 
