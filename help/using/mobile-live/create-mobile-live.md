@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '400'
 ht-degree: 3%
 
 ---
@@ -153,8 +153,12 @@ Após definir a configuração móvel e implementar o Adobe Experience Platform 
 
 Depois de projetar sua atividade Live, você pode acompanhar a medição do impacto da atividade Live com [relatórios internos](../reports/campaign-global-report-cja-activity.md).
 
+>[!TIP]
+>
+>Se a sua Atividade online não estiver aparecendo ou sendo atualizada conforme esperado, consulte [Solucionar problemas de atividades online](troubleshoot-mobile-live.md) para obter uma orientação passo a passo sobre depuração.
+
 ## Vídeo tutorial
 
 Saiba como configurar a atividade do iOS Live com o Adobe Journey Optimizer para fornecer atualizações avançadas em tempo real na Tela de bloqueio do iPhone e no Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479869?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
