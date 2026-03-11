@@ -111,7 +111,7 @@ Assim que a jornada ou campanha estiver ativa, os perfis serão avaliados de aco
 
 Saiba como aproveitar a otimização de conteúdo em campanhas acionadas por ação ou API. Você aprenderá a direcionar subconjuntos do público-alvo, criar variações de mensagem por local, habilitar o conteúdo de fallback e executar vários experimentos em uma mesma campanha. Este tutorial também aborda como gerenciar campanhas com vários canais e, ao mesmo tempo, manter a consistência das mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470373?captions=por_br&quality=12)
 
 **Tópicos relacionados**
 
