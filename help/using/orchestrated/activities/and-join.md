@@ -5,10 +5,10 @@ title: Usar a atividade Associação
 description: Saiba como usar a atividade AND-join em uma campanha orquestrada
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 84%
+source-wordcount: '263'
+ht-degree: 82%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 84%
 >id="ajo_orchestration_and-join"
 >title="Atividade AND-join"
 >abstract="A Atividade **AND-join** permite sincronizar várias ramificações de execução de uma campanha orquestrada. Ela é acionada quando todas as atividades anteriores forem concluídas. Isso permite se certificar de que determinadas atividades foram concluídas antes de continuar a execução da campanha orquestrada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_join"
+>title="Atividade de ingresso"
+>abstract="Espaço reservado para atividade Join."
 
 A atividade **[!UICONTROL Associação]** é uma atividade de **[!UICONTROL Controle de fluxo]**. Ele permite sincronizar várias ramificações de execução de uma campanha orquestrada.
 
