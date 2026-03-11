@@ -13,16 +13,16 @@ version: Journey Orchestration
 source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# [!DNL Adobe Campaign] Ações padrão {#using_campaign_action}
+# Ações do [!DNL Adobe Campaign] Standard {#using_campaign_action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="Ações personalizadas"
->abstract="Uma integração está disponível se você tiver o [!DNL Adobe Campaign] Standard. Ele permite enviar emails, notificações por push e SMS usando recursos de Mensagens Transacionais do [!DNL Adobe Campaign]."
+>abstract="Uma integração está disponível caso você tenha o [!DNL Adobe Campaign] Standard.  Ela permite enviar emails, notificações por push e SMS usando os recursos de mensagens transacionais do [!DNL Adobe Campaign]."
 
 Se você tiver o [!DNL Adobe Campaign] Standard, as seguintes atividades integradas estão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**.
 

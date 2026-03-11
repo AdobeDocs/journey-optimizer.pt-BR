@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -28,7 +28,7 @@ O exemplo a seguir define manualmente o esquema **Associações de fidelidade** 
 
 1. [Assimile dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
 
-➡️ [Saiba mais sobre esquemas relacionais manuais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Saiba mais sobre esquemas relacionais manuais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Criar seu esquema {#schema}
 
@@ -110,7 +110,7 @@ Qualquer esquema usado para direcionamento deve incluir pelo menos um campo de i
 
 Depois de criar e salvar atributos, você pode vincular o esquema a outros esquemas relacionais definindo relacionamentos.
 
-➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Vincular esquemas {#link-schema}
 
@@ -153,10 +153,10 @@ Agora é necessário ativar seu conjunto de dados para Campanhas orquestradas.
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
 >title="Campanhas orquestradas"
->abstract="Depois de criar seu conjunto de dados, é necessário ativá-lo explicitamente para Campanhas orquestradas. Essa etapa garante que seu conjunto de dados esteja disponível para orquestração e personalização em tempo real no Adobe Journey Optimizer."
+>abstract="Depois de criar o conjunto de dados, é necessário ativá-lo explicitamente para as campanhas orquestradas. Essa etapa garante que o conjunto de dados esteja disponível para orquestração e personalização em tempo real no Adobe Journey Optimizer."
 
 
-Depois de criar seu conjunto de dados, é necessário ativá-lo explicitamente para Campanhas orquestradas. Essa etapa garante que seu conjunto de dados esteja disponível para orquestração e personalização em tempo real no Adobe Journey Optimizer.
+Depois de criar o conjunto de dados, é necessário ativá-lo explicitamente para as campanhas orquestradas. Essa etapa garante que o conjunto de dados esteja disponível para orquestração e personalização em tempo real no Adobe Journey Optimizer.
 
 Consulte a [documentação do Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) para validar ou habilitar a Extensão do Orchestrated Campaign no conjunto de dados.
 

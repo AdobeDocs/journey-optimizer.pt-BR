@@ -46,7 +46,7 @@ A chamada é composta de um URL principal (_https://api.adobeweather.org/weather
 
 >[!TIP]
 >
->Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer &#x200B;](#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
+>Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer ](#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
 
 ## Criar e configurar uma fonte de dados externa {#create-ext-data-sources}
 

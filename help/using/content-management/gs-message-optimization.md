@@ -12,7 +12,7 @@ exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_optimization"
 >title="Otimização de conteúdo"
->abstract="A otimização de conteúdo no Journey Optimizer permite testar diferentes versões do conteúdo e determinar qual tem melhor desempenho. Você pode usar o direcionamento para fornecer conteúdo personalizado a segmentos específicos, experimentação para testar várias variações ou combinar ambas as abordagens para estratégias de otimização sofisticadas."
+>abstract="A otimização de conteúdo no Journey Optimizer permite testar diferentes versões do conteúdo e determinar qual apresenta o melhor desempenho. Você pode usar o direcionamento para entregar conteúdo personalizado a segmentos específicos, experimentação para testar múltiplas variações ou combinar as duas abordagens para estratégias de otimização mais sofisticadas."
 
 A otimização de conteúdo oferece as ferramentas necessárias para enviar a mensagem certa ao público-alvo certo, na hora certa. Ao combinar insights orientados por dados com recursos avançados de personalização, você pode maximizar o engajamento e as conversões em suas campanhas e jornadas.
 
@@ -111,7 +111,7 @@ Assim que a jornada ou campanha estiver ativa, os perfis serão avaliados de aco
 
 Saiba como aproveitar a otimização de conteúdo em campanhas acionadas por ação ou API. Você aprenderá a direcionar subconjuntos do público-alvo, criar variações de mensagem por local, habilitar o conteúdo de fallback e executar vários experimentos em uma mesma campanha. Este tutorial também aborda como gerenciar campanhas com vários canais e, ao mesmo tempo, manter a consistência das mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470373?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **Tópicos relacionados**
 

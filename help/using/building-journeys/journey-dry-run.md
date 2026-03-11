@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Publicar uma jornada no modo de teste de simulação"
->abstract="O Jornada Dry run é um modo de publicação de jornada especial no [!DNL Adobe Journey Optimizer] que permite que os profissionais de jornada testem uma jornada usando dados de produção reais. Depois de projetar a jornada, execute um teste para confirmar sua funcionalidade e garantir que as etapas estejam corretas. Esse modo de publicação permite realizar um teste preliminar da jornada sem enviar comunicações para qualquer perfil."
+>abstract="O teste de simulação da jornada é um modo de publicação especial no [!DNL Adobe Journey Optimizer] que permite que profissionais testem uma jornada usando dados de produção reais. Depois de projetar a jornada, execute um teste para confirmar sua funcionalidade e garantir que as etapas estejam corretas. Esse modo de publicação permite realizar um teste preliminar da jornada sem enviar comunicações para qualquer perfil."
 
 O Jornada Dry run é um modo de publicação de jornada especial no [!DNL Adobe Journey Optimizer] que permite que os profissionais de jornada testem uma jornada usando dados de produção reais sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.
 
@@ -149,4 +149,4 @@ Ao analisar **métricas de relatórios do jornada** usando o serviço de consult
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

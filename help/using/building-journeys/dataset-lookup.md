@@ -13,16 +13,16 @@ exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
-# Usar dados do [!DNL Adobe Experience Platform] no jornada {#datalookup}
+# Usar dados da [!DNL Adobe Experience Platform] em jornadas {#datalookup}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Atividade de pesquisa do conjunto de dados"
->abstract="A atividade **[!UICONTROL Pesquisa de conjunto de dados]** permite recuperar dados dinamicamente de conjuntos de dados de registro [!DNL Adobe Experience Platform] durante o tempo de execução. Esse recurso permite acessar dados que podem não residir no perfil ou no conteúdo do evento, garantindo que as interações do cliente sejam relevantes e oportunas."
+>abstract="A atividade **[!UICONTROL Pesquisa de conjunto de dados]** permite recuperar dados de forma dinâmica dos conjuntos de dados de registro da [!DNL Adobe Experience Platform] durante o tempo de execução. Esse recurso permite acessar dados que podem não residir no perfil ou no conteúdo do evento, garantindo que as interações do cliente sejam relevantes e oportunas."
 
 A atividade **[!UICONTROL Pesquisa de conjunto de dados]** permite recuperar dados dinamicamente de conjuntos de dados de registro [!DNL Adobe Experience Platform] durante o tempo de execução. Esse recurso permite acessar dados que podem não residir no perfil ou no conteúdo do evento, garantindo que as interações do cliente sejam relevantes e oportunas.
 
@@ -66,7 +66,7 @@ Para configurar a atividade **[!UICONTROL Pesquisa de conjunto de dados]**, siga
 
 1. Expanda a categoria **[!UICONTROL Orquestração]** e solte uma atividade de **[!UICONTROL Pesquisa de conjunto de dados]** na tela.
 
-   Atividade de pesquisa do conjunto de dados ![[!DNL Adobe Experience Platform] na jornada &#x200B;](assets/aep-data-activity.png)
+   Atividade de pesquisa do conjunto de dados ![[!DNL Adobe Experience Platform] na jornada ](assets/aep-data-activity.png)
 
 1. Adicione um rótulo e uma descrição.
 

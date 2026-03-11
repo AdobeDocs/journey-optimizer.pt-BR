@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '1533'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="Sobre a otimização da hora de envio"
->abstract="O recurso de Otimização de hora de envio do [!DNL Adobe Journey Optimizer], viabilizado pelos serviços de IA da Adobe, pode prever o melhor momento para enviar um email ou mensagem por push. Isso maximiza o engajamento com base no histórico das taxas de abertura e de cliques."
+>abstract="O recurso Otimização da hora de envio do [!DNL Adobe Journey Optimizer], desenvolvido pelos serviços de IA da Adobe, pode prever o melhor momento para enviar um email ou uma mensagem por push para maximizar o engajamento com base nas taxas históricas de abertura e clique."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"

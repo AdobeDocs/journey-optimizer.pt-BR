@@ -10,7 +10,7 @@ version: Journey Orchestration
 source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Criar regras"
->abstract="Você pode criar dois tipos de regras: **regras de decisão** que podem ser usadas em itens de decisão ou estratégias de seleção, para controlar quais itens devem ser apresentados a qual público-alvo, ou **regras de direcionamento** para determinar segmentos específicos de público-alvo qualificados para receber conteúdo personalizado ou para inserir um caminho de jornada específico.<br/><br/>Ao criar uma regra de decisão, você pode selecionar **[!UICONTROL Habilitar pesquisa de conjunto de dados]** para usar os dados do Adobe Experience Platform. Isso permite definir critérios de elegibilidade com base em atributos dinâmicos e externos, garantindo que os itens de decisão sejam exibidos somente quando forem relevantes. "
+>abstract="Você pode criar dois tipos de regras: **regras de decisão**, que podem ser usadas em itens de decisão ou estratégias de seleção para controlar quais itens devem ser apresentados a qual público-alvo, ou **regras de direcionamento**, que determinam os segmentos específicos de público-alvo qualificados para receber conteúdo personalizado ou entrar em um caminho de jornada específico.<br/><br/>Ao criar uma regra de decisão, você pode selecionar **[!UICONTROL Habilitar pesquisa de conjunto de dados]** para usar os dados da Adobe Experience Platform. Isso permite definir critérios de elegibilidade com base em atributos dinâmicos e externos, garantindo que os itens de decisão sejam exibidos somente quando forem relevantes. "
 
 ## Sobre regras {#about}
 
@@ -133,4 +133,4 @@ Para criar uma regra, siga estas etapas:
 
 Saiba como criar, duplicar e aplicar **regras de direcionamento** reutilizáveis no Adobe Journey Optimizer para personalizar campanhas com eficiência com base em atributos de cliente, como região, idioma e comportamento, economizando tempo e melhorando a precisão do público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476132/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

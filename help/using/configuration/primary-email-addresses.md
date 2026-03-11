@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 18%
+ht-degree: 30%
 
 ---
 
@@ -68,12 +68,12 @@ O campo de execução é atualizado e agora será usado como o endereço princip
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Substitua o campo de execução padrão nos parâmetros de jornada {#override-execution-address-journey}
+## Substituir o campo de execução padrão nos parâmetros da jornada {#override-execution-address-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="Definir um valor personalizado"
->abstract="Em alguns casos específicos, é possível substituir o valor do campo de execução padrão. Use o ícone **Habilitar substituição de parâmetro** à direita deste campo para definir um endereço de email personalizado ou número de telefone para priorizar o envio."
+>abstract="Em alguns casos específicos, é possível substituir o valor do campo de execução padrão. Use o ícone **Habilitar substituição de parâmetro** à direita desse campo para definir um endereço de email personalizado ou número de telefone para priorizar o envio."
 
 Para casos de uso específicos, é possível substituir o conjunto de campos de execução globalmente e definir um valor diferente no nível da jornada.
 
@@ -92,12 +92,12 @@ Substitua esse valor usando o ícone **[!UICONTROL Habilitar substituição de p
 >
 >A substituição de endereço de email ou número de telefone deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterá-lo, pois o valor definido como o campo principal nos **[!UICONTROL Campos de execução]** no nível da sandbox é o que deve ser usado. [Saiba mais](#change-primary-email)
 
-## Substituir o campo de execução padrão na configuração do canal {#override-execution-address-channel-config}
+## Substituir o campo de execução padrão na configuração de canais {#override-execution-address-channel-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="Substituir o endereço de execução padrão a ser usado"
->abstract="Quando vários endereços de email ou números de telefone estão disponíveis no banco de dados (pessoal, profissional etc.), você pode escolher qual deles priorizar para envio. O endereço principal é definido no nível da sandbox, mas aqui você pode substituir a configuração padrão para essa configuração de canal específica."
+>abstract="Quando há vários endereços de email ou números de telefone disponíveis no banco de dados (pessoal, profissional etc.), você pode escolher qual deles priorizar para envio. O endereço principal é definido no nível da sandbox, mas aqui é possível substituir a configuração padrão por essa configuração de canais específica."
 
 Você pode alterar o endereço de execução padrão de uma [configuração de canal](channel-surfaces.md) de email, SMS ou WhatsApp específica.
 

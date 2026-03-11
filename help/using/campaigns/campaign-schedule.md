@@ -13,7 +13,7 @@ exl-id: b183eeb8-606f-444d-9302-274f159c3847
 source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -34,7 +34,7 @@ Ao agendar campanhas no [!DNL Adobe Journey Optimizer], verifique se a data/hora
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_profile_timezone"
 >title="Usar fuso horário do perfil"
->abstract="Envie mensagens com base no fuso horário de cada recipient. Todos os recipients receberão a mensagem no mesmo horário local, independentemente da localização geográfica. O sistema usa o campo &quot;timeZone&quot; dos perfis do Adobe Experience Platform, com o fuso horário do criador da campanha como fallback."
+>abstract="Envie mensagens com base no fuso horário de cada destinatário. Todos os destinatários receberão a mensagem no mesmo horário local, independentemente da localização geográfica. O sistema usa o campo “timeZone” dos perfis da Adobe Experience Platform, com o fuso horário do criador da campanha como substituto."
 
 Ao agendar uma campanha para uma data e hora específicas, você pode optar por enviar mensagens com base no fuso horário de cada recipient. Isso garante que todos os recipients recebam a mensagem ao mesmo tempo local, independentemente da localização geográfica.
 

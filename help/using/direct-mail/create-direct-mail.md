@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Criação de correspondência direta"
->abstract="Crie mensagens de correspondência direta em campanhas e jornadas programadas e crie os arquivos de extração necessários aos provedores de correspondência direta para enviar emails para seus clientes."
+>abstract="Crie mensagens de correspondência direta em campanhas e jornadas programadas e projete os arquivos de extração exigidos pelos provedores de correspondência direta para enviar emails para os clientes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"

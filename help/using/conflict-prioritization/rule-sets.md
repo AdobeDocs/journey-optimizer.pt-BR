@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 25%
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Conjuntos de regras"
->abstract="Use conjuntos de regras para aplicar regras de limite de frequência ou de horas de silêncio a diferentes tipos de comunicações de marketing. Você também pode criar conjuntos de regras para excluir jornadas para parte do público-alvo com base em regras de limite de frequência."
+>abstract="Use conjuntos de regras para aplicar as regras de limite de frequência ou horário de silêncio aos diferentes tipos de comunicações de marketing. Você também pode criar conjuntos de regras para excluir jornadas para parte do público-alvo com base em regras de limite de frequência."
 
 ## Introdução aos conjuntos de regras {#gs}
 
@@ -80,7 +80,7 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Tipo de regra"
->abstract="Selecione o tipo de regra desejado para seu conjunto de regras de canal: use o tipo **Limite de frequência** para aplicar regras de limite a canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia. Selecione **Período de silêncio** para definir exclusões com base no tempo para garantir que nenhuma mensagem seja enviada durante períodos específicos."
+>abstract="Selecione o tipo de regra desejado para o conjunto de regras de canal: use o tipo **Limite de frequência** para aplicar regras de limite aos canais de comunicação. Por exemplo, não enviar mais de uma comunicação por email ou SMS por dia. Selecione **Horário de silêncio** para definir exclusões com base no tempo para garantir que nenhuma mensagem seja enviada durante horários específicos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -95,7 +95,7 @@ Além desse conjunto de regras &quot;Conjunto de regras padrão global&quot;, vo
 >[!CONTEXTUALHELP]
 >id="ajo_journey_business_rules"
 >title="Conjunto de regras"
->abstract="Selecione o conjunto de regras a ser aplicado à sua ação personalizada."
+>abstract="Selecione o conjunto de regras a ser aplicado à ação personalizada."
 
 Para criar um conjunto de regras, siga as etapas abaixo.
 
@@ -180,4 +180,4 @@ Seu status será alterado para **[!UICONTROL Inativo]** e a regra não se aplica
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

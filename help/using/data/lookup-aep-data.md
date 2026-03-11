@@ -14,7 +14,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="Habilitar para pesquisa"
->abstract="Habilitar um conjunto de dados para pesquisa permite aproveitar seus dados nos recursos de personalização, Decisão e Orquestração de jornadas do Journey Optimizer."
+>abstract="Habilitar um conjunto de dados para pesquisa permite usar seus dados com recursos de personalização, tomada de decisão e orquestração de jornada do Journey Optimizer."
 
 O [!DNL Journey Optimizer] permite aproveitar os dados do [!DNL Adobe Experience Platform] com recursos de personalização, Decisão e orquestração de jornadas. Para fazer isso, os conjuntos de dados baseados em registros necessários para a personalização da pesquisa devem primeiro ser habilitados para o serviço de pesquisa, conforme descrito abaixo.
 

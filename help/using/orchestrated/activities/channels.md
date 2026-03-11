@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 38%
+ht-degree: 43%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="Atividade de email"
->abstract="A atividade Email permite enviar emails na campanha Orquestrada para mensagens únicas e recorrentes. Ela serve para automatizar o processo de envio de emails a um público-alvo calculado na mesma campanha orquestrada. É possível combinar atividades canal em uma tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade Email permite enviar emails dentro de campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de envio de emails a um público-alvo calculado na mesma campanha orquestrada. É possível combinar atividades canal em uma tela da campanha em várias etapas para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Atividade de SMS"
->abstract="A atividade SMS permite enviar SMS em sua campanha Orquestrada para mensagens únicas e recorrentes. Ela serve para automatizar o processo de envio de SMS a um público-alvo calculado na mesma campanha orquestrada. É possível combinar atividades de canal na tela da campanha em várias etapas para criar campanhas entre canais que possam acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade SMS permite enviar SMS dentro da campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de envio de SMS a um público-alvo calculado na mesma campanha orquestrada. É possível combinar atividades de canal na tela da campanha em várias etapas para criar campanhas entre canais que possam acionar ações com base no comportamento e nos dados do cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="Atividade de push"
->abstract="A atividade Push permite enviar notificações por push como parte da campanha orquestrada. Ele permite a entrega de campanhas orquestradas únicas e recorrentes, automatizando o envio de notificações por push para um destino predefinido na mesma campanha orquestrada. É possível combinar atividades de canal na tela da campanha para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
+>abstract="A atividade Push permite enviar notificações por push como parte da campanha orquestrada. Ela permite a entrega de campanhas orquestradas únicas e recorrentes, automatizando o envio de notificações por push para um público-alvo predefinido dentro da mesma campanha orquestrada. É possível combinar atividades de canal na tela da campanha para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
 <!--
 UNUSED IDs in BJ
@@ -132,7 +132,7 @@ Alterne para a guia **[!UICONTROL Conteúdo]** para criar a sua mensagem. As eta
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="email" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Criar um email</strong></a></td>
 <td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>Criar um SMS</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Criar uma notificação por push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correspondência direta" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Criar uma correspondência direta</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Criar uma notificação por push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correspondência direta" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Criação de uma correspondência direta</strong></a></td>
 </tr></table>
 
 ### Adicionar personalização

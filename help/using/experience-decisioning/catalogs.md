@@ -10,7 +10,7 @@ version: Journey Orchestration
 source-git-commit: 86145ff79de58391cc31c9b1a4bd34135868920e
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
 >title="Acessar e editar o esquema do catálogo"
->abstract="Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são criados no schema do catálogo dos itens de decisão."
+>abstract="Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são criados no esquema do catálogo dos itens de decisão."
 
 No Decisioning, os catálogos servem como contêineres centrais para organizar itens de decisão. Cada catálogo está vinculado a um esquema [!DNL Adobe Experience Platform], abrangendo todos os atributos atribuíveis a um item de decisão.
 

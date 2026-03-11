@@ -7,10 +7,11 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 97464b7afa07199792bd4311d0477b5bcb140d8e
+exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"
 >title="Monitorar ações personalizadas"
->abstract="A página de relatórios **[!UICONTROL Ação personalizada]** permite rastrear o desempenho e a confiabilidade das chamadas de API feitas pelo seu jornada para sistemas de terceiros."
+>abstract="A página de relatórios **[!UICONTROL Ação personalizada]** permite rastrear o desempenho e a confiabilidade das chamadas de API feitas pelas jornadas para sistemas de terceiros."
 
 A página de relatórios **[!UICONTROL Ação personalizada]** permite monitorar a confiabilidade e o desempenho das chamadas de API feitas de suas jornadas para sistemas de terceiros. Esses relatórios ajudam a identificar rapidamente problemas de integração, gargalos de latência ou limites de limitação/limitação que podem afetar a entrega.
 
@@ -102,6 +103,6 @@ O vídeo abaixo mostra como monitorar a confiabilidade e o desempenho das chamad
 
 +++Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3479546?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++
