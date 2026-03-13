@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: 9425192fac4699778f81ce57c31979155dd38b18
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 13%
+source-wordcount: '2017'
+ht-degree: 12%
 
 ---
 
 # Criar uma notificação por push {#design-push-notification}
 
-Depois de criar uma notificação por push, você pode projetar o conteúdo para plataformas iOS, Android e da Web. Esta página orienta você na redação da mensagem, configuração do comportamento ao clicar, adição de mídia e botões e configuração de opções avançadas para criar notificações por push envolventes que repercutem com seu público-alvo.
+Depois de criar uma notificação por push, você pode criar seu conteúdo para iOS, Android e plataformas Web. Esta página orienta você na redação da mensagem, configuração do comportamento ao clicar, adição de mídia e botões e configuração de opções avançadas para criar notificações por push envolventes que repercutem com seu público-alvo.
 
 ## Título e corpo {#push-title-body}
 
@@ -28,7 +28,7 @@ Depois de criar uma notificação por push, você pode projetar o conteúdo para
 
 ![](assets/title-body.png)
 
-Para redigir a mensagem, clique nos campos **[!UICONTROL Título]** e **[!UICONTROL Corpo]**. Use o editor de personalização para definir conteúdo, personalizar dados e adicionar conteúdo dinâmico. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no editor de personalização.
+Para redigir sua mensagem, clique nos campos **[!UICONTROL Título]** e **[!UICONTROL Corpo]**. Use o editor de personalização para definir conteúdo, personalizar dados e adicionar conteúdo dinâmico. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no editor de personalização.
 
 Use a seção de visualização de dispositivo para visualizar como a notificação por push é exibida no iOS, Android e Web.
 
@@ -48,6 +48,11 @@ Configure a ação que ocorre quando os destinatários tocam no corpo da notific
 * **[!UICONTROL Abrir aplicativo]**: inicia o aplicativo associado à notificação. O aplicativo é especificado na sua [configuração de canal](../configuration/channel-surfaces.md) (ou seja, predefinição de mensagem).
 * **[!UICONTROL Deeplink]**: direciona os usuários para conteúdo específico no seu aplicativo, como uma exibição, seção de página ou guia específica. Insira o URL do deep link no campo fornecido.
 * **[!UICONTROL URL da Web]**: direciona os usuários para uma página da Web externa. Insira o URL de destino no campo fornecido.
+
+  >[!NOTE]
+  >
+  >Se sua notificação por push contiver uma URL configurada como um link universal no iOS, o push abrirá o aplicativo associado, se instalado, independentemente da ação **[!UICONTROL URL da Web]** escolhida. Para forçar a abertura de um navegador, use um domínio não configurado para links universais ou remova o registro de link universal para o domínio.
+  >Para obter mais informações sobre como o Adobe SDK lida com deep links e links universais, consulte a [documentação do Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications/){target="_blank"}.
 
 ## Adicionar mídia {#add-media-push}
 
@@ -127,13 +132,13 @@ Para o Android, você pode adicionar até três botões.
 
    ![](assets/push_buttons.png)
 
-1. Use o ícone **[!UICONTROL Expandir exibição]** sob a imagem de visualização central para visualizar seus botões personalizados.
+1. Use o ícone **[!UICONTROL Expandir exibição]** abaixo da imagem de visualização central para visualizar seus botões personalizados.
 
 >[!TAB iOS]
 
 ![](assets/push_buttons-ios.png)
 
-Para o iOS, é especificado um identificador de categoria de notificação. As categorias de notificação precisam ser pré-configuradas no aplicativo iOS, que definirá os botões a serem exibidos e as ações executadas. Consulte a [documentação do Apple](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) para obter mais detalhes.
+Para o iOS, um identificador de categoria de notificação é especificado. As categorias de notificação precisam ser pré-configuradas no aplicativo da iOS, que definirá os botões a serem exibidos e as ações a serem tomadas. Consulte a [documentação do Apple](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) para obter mais detalhes.
 
 >[!TAB Web]
 
@@ -141,9 +146,9 @@ Para o iOS, é especificado um identificador de categoria de notificação. As c
 
 Use a opção **[!UICONTROL Adicionar Botão]** para definir o rótulo de cada botão e a ação associada, conforme detalhado abaixo:
 
-* **[!UICONTROL Deeplink]**: redirecione os usuários para um modo de exibição, seção ou guia específico no aplicativo. Insira o URL do deep link no campo associado.
+* **[!UICONTROL Deeplink]**: redireciona os usuários para uma exibição, seção ou guia específica no seu aplicativo. Insira o URL deplink no campo associado.
 
-* **[!UICONTROL URL da Web]**: redirecionar usuários para uma página da Web externa. Insira o URL no campo associado.
+* **[!UICONTROL URL da Web]**: redireciona os usuários para uma página da Web externa. Insira o URL no campo associado.
 
 >[!ENDTABS]
 
@@ -198,7 +203,7 @@ Você pode configurar **[!UICONTROL opções avançadas]** para sua notificaçã
 | **[!UICONTROL Adicionar sinalizador de disponibilidade de conteúdo]** (somente iOS) | Envia o sinalizador de conteúdo disponível na carga de push para garantir que o aplicativo seja reativado assim que receber a notificação por push, o que significa que o aplicativo poderá acessar os dados da carga.<br/> Isso funciona mesmo se o aplicativo estiver sendo executado em segundo plano e sem precisar de nenhuma interação do usuário (por exemplo, ao tocar na notificação por push). No entanto, isso não se aplica se o aplicativo não estiver em execução. Para obter mais informações, consulte a [documentação para desenvolvedores da Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | **[!UICONTROL Adicionar sinalizador de conteúdo mutável]** (somente iOS) | Envia o sinalizador de conteúdo mutável no payload por push e permitirá que o conteúdo da notificação por push seja modificado por uma extensão de aplicativo de serviço de notificação fornecida no iOS SDK. Para saber mais, consulte a [documentação para desenvolvedores da Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).<br/>Você poderá aproveitar suas extensões de aplicativo móvel para modificar ainda mais o conteúdo ou a apresentação das notificações por push de entrada enviadas de [!DNL Journey Optimizer]. Por exemplo, os usuários podem aproveitar essa opção para descriptografar dados, alterar o texto do corpo ou do título de uma notificação, adicionar um identificador de thread a uma notificação etc.<br/>**Importante**: esse sinalizador deve ser habilitado ao incluir anexos de mídia (imagens, vídeos) por meio de campos de carga (como `adb_media`) para que eles sejam renderizados em dispositivos iOS. Seu aplicativo também deve implementar uma Extensão de Serviço de Notificação para baixar e processar o conteúdo de mídia da carga. |
 | **[!UICONTROL Adicionar expiração de push]** (somente iOS) | Escolha a **Data e hora** da expiração de push. No iOS, a expiração da notificação é imposta como uma parada permanente, o que significa que qualquer mensagem que chegue ao Apple Push Notification Service (APNS) após a hora de expiração não é entregue, garantindo que os clientes nunca recebam notificações desatualizadas ou irrelevantes. Para obter mais informações, consulte a [documentação para desenvolvedores da Apple](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns). |
-| **[!UICONTROL Visibilidade de notificação]** (somente Android) | Define a visibilidade da notificação por push. <br/><b>Particular</b> mostrará a notificação em todas as telas de bloqueio, mas ocultará informações confidenciais ou privadas nas telas de bloqueio seguras. <br/><b>Public</b> mostrará a notificação em sua totalidade em todas as telas de bloqueio. <br/><b>Segredo</b> não revelará nenhuma parte da notificação em uma tela de bloqueio segura. <br/>Para obter mais informações, consulte a [documentação para desenvolvedores do Android](https://developer.android.com/reference/android/app/Notification). |
+| **[!UICONTROL Visibilidade de notificação]** (somente Android) | Define a visibilidade da notificação por push. <br/><b>Particular</b> mostrará a notificação em todas as telas de bloqueio, mas ocultará informações confidenciais ou privadas em telas de bloqueio seguras. <br/><b>Público</b> mostrará a notificação em sua totalidade em todas as telas de bloqueio. O <br/><b>Segredo</b> não revelará nenhuma parte da notificação em uma tela de bloqueio segura. <br/>Para obter mais informações sobre isso, consulte a [documentação do desenvolvedor do Android](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Prioridade de notificação]** (somente Android) | Define a importância da notificação por push de Baixo para Máximo. Isso determina o quão &quot;intrusiva&quot; será a notificação por push quando for entregue. Para obter mais informações, consulte a [documentação para desenvolvedores do Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
-| **[!UICONTROL Prioridade de entrega]** (somente Android) | Configura uma prioridade alta ou normal para suas notificações por push. Para obter mais informações sobre a prioridade da mensagem, consulte a [documentação para desenvolvedor do Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
-| **[!UICONTROL Tempo de vida]** (somente Android) | Defina o número de segundos após os quais sua mensagem expirará. No Android, a expiração é tratada como uma janela de entrega: o Firebase Cloud Messaging (FCM) converte o tempo de expiração em um valor de TTL (time-to-live), começando quando a mensagem é recebida, o que significa que as campanhas não entregues podem ser enviadas depois do esperado ou até mesmo fora do período desejado. Para obter mais informações, consulte a [documentação para desenvolvedores do Android](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl). |
+| **[!UICONTROL Prioridade de entrega]** (somente Android) | Configura uma prioridade alta ou normal para as notificações por push. Para obter mais informações sobre a prioridade da mensagem, consulte a [documentação para desenvolvedor do Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
+| **[!UICONTROL Vida útil]** (somente Android) | Defina o número de segundos após os quais sua mensagem expirará. No Android, a expiração é tratada como uma janela de entrega: o Firebase Cloud Messaging (FCM) converte o tempo de expiração em um valor de TTL (time-to-live), começando quando a mensagem é recebida, o que significa que as campanhas não entregues podem ser enviadas depois do esperado ou até mesmo fora do período desejado. Para obter mais informações, consulte a [documentação para desenvolvedores do Android](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl). |
