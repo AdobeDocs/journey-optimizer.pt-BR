@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
+source-git-commit: 449e8c9c1df7942346bcc94195aee89f2ecbc8f6
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 21%
@@ -29,7 +29,7 @@ ht-degree: 21%
 >abstract="Crie um fragmento de expressão independente para tornar seu conteúdo reutilizável em várias jornadas e campanhas. Ao usar o editor de personalização, é possível aproveitar todos os fragmentos de expressão criados na sandbox atual."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Trabalhar com o editor de personalização"
 
-Os fragmentos podem ser criados do zero no menu esquerdo **[!UICONTROL Fragmentos]**. Além disso, também é possível salvar uma parte do conteúdo existente como fragmento ao projetar o conteúdo. [Saiba como](save-fragments.md#)
+Os fragmentos podem ser criados desde o início no menu esquerdo **[!UICONTROL Fragmentos]**. Além disso, também é possível salvar uma parte do conteúdo existente como fragmento ao projetar o conteúdo. [Saiba como](save-fragments.md#)
 
 Depois de salvo, o fragmento fica disponível para uso em uma jornada, campanha ou template. Você pode usar esse fragmento ao criar qualquer conteúdo em jornadas e campanhas. Consulte [Adicionar fragmentos visuais](../email/use-visual-fragments.md) e [Aproveitar fragmentos de expressão](../personalization/use-expression-fragments.md).
 
@@ -37,13 +37,13 @@ Para criar um fragmento, siga as etapas abaixo.
 
 ## Definir as propriedades do fragmento {#properties}
 
-1. Acesse a lista de fragmentos por meio do menu esquerdo **[!UICONTROL Gerenciamento de conteúdo]** > **[!UICONTROL Fragmentos]**.
+1. Acesse a lista de fragmentos por meio do menu à esquerda **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Fragmentos]**.
 
 1. Selecione **[!UICONTROL Criar fragmento]** e preencha o nome e a descrição do fragmento (se necessário).
 
    ![](assets/fragment-details.png)
 
-1. Selecione ou crie tags do Adobe Experience Platform a partir do campo **[!UICONTROL Tags]** para categorizar seu fragmento para pesquisa aprimorada. [Saiba como trabalhar com Marcas Unificadas](../start/search-filter-categorize.md#tags)
+1. Selecione ou crie marcas Adobe Experience Platform no campo **[!UICONTROL Marcas]** para categorizar o fragmento para aprimorar a pesquisa. [Saiba como trabalhar com Marcas Unificadas](../start/search-filter-categorize.md#tags)
 
 1. Selecione o tipo de fragmento: **Fragmento visual** ou **Fragmento de expressão**. [Saiba mais](../content-management/fragments.md#visual-expression)
 
@@ -61,7 +61,7 @@ Para criar um fragmento, siga as etapas abaixo.
 
 ## Criar o conteúdo do fragmento {#content}
 
-Após configurar as propriedades do fragmento, o Designer de email ou o editor de personalização é aberto, dependendo do tipo de fragmento que você está criando.
+Depois de configurar as propriedades do fragmento, o Designer de e-mail ou o editor de personalização é aberto, dependendo do tipo de fragmento que você está criando.
 
 >[!NOTE]
 >
@@ -69,11 +69,11 @@ Após configurar as propriedades do fragmento, o Designer de email ou o editor d
 >
 >Quando o rastreamento é habilitado em uma jornada ou campanha, se você adicionar links a um fragmento e esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links inclusos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
 
-* Para fragmentos visuais, edite o conteúdo conforme necessário, da mesma forma que faria para qualquer email dentro de uma jornada ou campanha. [Saiba mais](../email/get-started-email-design.md)
+* Para fragmentos visuais, edite seu conteúdo conforme necessário, da mesma maneira que você faria para qualquer email em uma jornada ou campanha. [Saiba mais](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
 
-  Para aplicar rapidamente um estilo específico que se ajuste à sua marca e design, você pode aplicar um [tema](../email/apply-email-themes.md) ao seu fragmento.
+  Para aplicar rapidamente um estilo específico que se adapte à sua marca e ao seu design, você pode aplicar um [tema](../email/apply-email-themes.md) ao seu fragmento.
 
   ![](assets/fragment-themes.png)
 
@@ -87,21 +87,21 @@ Após configurar as propriedades do fragmento, o Designer de email ou o editor d
 
   >[!NOTE]
   >
-  >Os fragmentos de expressão do tipo JSON são validados sintaticamente ao salvar, com todos os erros exibidos como alertas de aviso.
+  >Os fragmentos de expressão do tipo JSON são validados sintaticamente ao serem salvos, com todos os erros exibidos como alertas de aviso.
 
-Quando o conteúdo estiver pronto, clique no botão **[!UICONTROL Salvar]**.
+Quando seu conteúdo estiver pronto, clique no botão **[!UICONTROL Salvar]**.
 
 >[!NOTE]
 >
 >Fragmentos visuais não podem exceder 100 KB. Fragmentos de expressão não podem exceder 200 KB.
 
-O fragmento é criado e adicionado à lista de fragmentos com o status **[!UICONTROL Rascunho]**. Você pode visualizá-la e publicá-la para torná-la disponível em jornadas e campanhas.
+O fragmento é criado e adicionado à lista de fragmentos com o status **[!UICONTROL Rascunho]**. Você pode visualizá-lo e publicá-lo para torná-lo disponível em jornadas e campanhas.
 
-## Pré-visualizar e publicar o fragmento {#publish}
+## Visualizar e publicar o fragmento {#publish}
 
 >[!NOTE]
 >
->Para publicar um fragmento, você deve ter a permissão de usuário [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
+>Para publicar um fragmento, você deve ter a permissão de usuário [Fragmento do Publish](../administration/ootb-product-profiles.md#content-library-manager).
 
 Se o fragmento estiver pronto para entrar no ar, você poderá visualizá-lo e publicá-lo para disponibilizá-lo em suas jornadas e campanhas. Para isso, siga as etapas abaixo.
 
@@ -111,9 +111,9 @@ Se o fragmento estiver pronto para entrar no ar, você poderá visualizá-lo e p
 
    ![](assets/fragment-preview.png)
 
-1. Clique no botão **[!UICONTROL Publicar]** no canto superior direito para publicar o fragmento.
+1. Clique no botão **[!UICONTROL Publish]** no canto superior direito para publicar o fragmento.
 
-1. Se o fragmento estiver sendo usado em uma jornada ou campanha em tempo real, uma mensagem é aberta para informá-lo. Clique no link **[!UICONTROL Ver mais]** para acessar a lista de jornadas e/ou campanhas às quais ele é referenciado. [Saiba como explorar referências de um fragmento](../content-management/manage-fragments.md#explore-references)
+1. Se o fragmento estiver sendo usado em uma jornada ou campanha ao vivo, uma mensagem é aberta para informá-lo. Clique no link **[!UICONTROL Ver mais]** para acessar a lista de jornadas e/ou campanhas às quais ele é referenciado. [Saiba como explorar referências de um fragmento](../content-management/manage-fragments.md#explore-references)
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
@@ -126,4 +126,4 @@ O fragmento agora está **[!UICONTROL Ativo]** e fica disponível ao criar qualq
 
 >[!CAUTION]
 >
->Depois de publicado, não é possível adicionar novos atributos personalizados a um fragmento ativo. Se quiser adicionar atributos de personalização, duplique o fragmento. [Saiba mais](manage-fragments.md#adding-new-attributes)
+>Depois de publicado, não é possível adicionar novos atributos personalizados a um fragmento ativo. Se quiser adicionar atributos de personalização, você deve duplicar o fragmento. [Saiba mais](manage-fragments.md#adding-new-attributes)
