@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 20%
+source-wordcount: '949'
+ht-degree: 19%
 
 ---
 
@@ -85,6 +85,10 @@ Você pode então começar a projetar sua jornada.
 ## Projetar a jornada {#jo-design}
 
 O designer de jornada omnicanal ajuda a criar jornadas em várias etapas com públicos-alvo direcionados, atualizações com base em interações de clientes ou negócios em tempo real e mensagens omnicanal usando uma interface intuitiva de arrastar e soltar.
+
+>[!TIP]
+>
+>Para jornadas com várias fases ou muitos pontos de contato, considere dividir o fluxo de ponta a ponta em sub-jornadas menores e focalizadas conectadas à atividade **[!UICONTROL Jump]**. Essa abordagem reduz a complexidade e facilita o teste e a manutenção independentes de cada sub-jornada. Saiba mais em [Estratégia de design: subjornadas de tamanho reduzido](jump.md#jump-strategy).
 
 ![Interface do designer de Jornadas com a paleta e a tela de atividades](assets/journey38.png)
 

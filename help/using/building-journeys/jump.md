@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jump, activity, jornada, split, dividir
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 9%
+source-wordcount: '1122'
+ht-degree: 7%
 
 ---
 
@@ -73,6 +73,28 @@ Use essas diretrizes para manter o comportamento da atividade de salto previsív
 
 * Quando a atividade **[!UICONTROL Jump]** é executada, a versão mais recente da jornada de destino é acionada.
 * Um indivíduo único só pode estar presente uma vez na mesma jornada. Como resultado, se o indivíduo enviado da jornada de origem já estiver na jornada de destino, ele não entrará na jornada de destino. Nenhum erro será relatado na atividade de **[!UICONTROL Salto]** porque esse é um comportamento normal.
+
+## Estratégia de design: sub-jornadas de tamanho reduzido {#jump-strategy}
+
+Jornadas complexas do cliente podem se tornar rapidamente difíceis de criar e manter, especialmente quando canais ou pontos de contato adicionais são introduzidos. Mesmo uma jornada com alguns marcos pode expor 20 ou mais caminhos únicos que um cliente pode tomar e essa complexidade cresce exponencialmente a cada adição.
+
+Uma abordagem prática para gerenciar isso é dividir grandes jornadas em sub-jornadas menores e focadas, uma por fase de negócios ou marco, e conectá-las usando a atividade **[!UICONTROL Jump]**. Isso mantém cada jornada legível, testável e com manutenção independente.
+
+**Etapa 1 — Visualizar a jornada de ponta a ponta**
+
+Mapear a jornada completa do cliente e identificar suas fases de alto nível. Por exemplo, uma jornada de integração de fidelidade pode incluir três fases distintas: baixar o aplicativo móvel, fazer uma primeira transação e fazer uma segunda transação.
+
+**Etapa 2 — Anotar fases e definir subjornadas**
+
+Marcar o limite de cada fase e definir seu objetivo comercial. Cada fase se torna uma subjornada candidata com uma condição de entrada e meta claras.
+
+**Etapa 3 — Criar e conectar subjornadas**
+
+Crie cada fase como uma jornada separada no Journey Optimizer e use as atividades **[!UICONTROL Jump]** para transmitir perfis de uma subjornada para a próxima. O resultado é um conjunto de jornadas mais simples e reutilizáveis que se combinam para produzir a experiência completa, com menos risco de apresentar erros.
+
+>[!TIP]
+>
+>Para obter uma apresentação detalhada dessa abordagem, consulte [Práticas recomendadas para jornadas avançadas no Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 ## Configuração da atividade Jump {#jump-configure}
 
