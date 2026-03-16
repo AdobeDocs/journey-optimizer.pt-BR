@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 66bf475ed473f3b3d8c61f17ac0f7a36696fe962
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1568'
 ht-degree: 22%
 
 ---
@@ -86,7 +86,7 @@ Depois de configurar e criar a [página principal](#configure-primary-page) e as
 >title="Definir as configurações da página principal"
 >abstract="A página principal é exibida imediatamente depois que os usuários clicam no link da página de destino que consta em um email ou site."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=pt-BR" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
@@ -262,16 +262,12 @@ Dois tipos de alertas podem ocorrer:
 
 >[!CAUTION]
 >
->Para publicar páginas de aterrissagem, os usuários devem ter a permissão **[!UICONTROL Publicar Mensagens]**.
-
+>* Para publicar páginas de aterrissagem, você deve ter a permissão **[!UICONTROL Publicar Mensagens]**.
+>* Antes de publicar, verifique e resolva todos os alertas. [Saiba mais](#check-alerts)
 
 Quando a landing page estiver pronta, você poderá publicá-la para disponibilizá-la para uso em uma mensagem.
 
 ![](assets/lp_publish.png)
-
->[!CAUTION]
->
->Antes de publicar, verifique e resolva os alertas. [Saiba mais](#check-alerts)
 
 Assim que a página de aterrissagem for publicada, ela será adicionada à lista de páginas de aterrissagem com o status **[!UICONTROL Publicado]**.
 
