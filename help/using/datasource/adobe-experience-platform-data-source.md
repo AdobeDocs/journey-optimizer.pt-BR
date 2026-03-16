@@ -49,7 +49,7 @@ As principais etapas para adicionar grupos de campos à fonte de dados integrada
 
    >[!NOTE]
    >
-   >Somente esquemas XDM baseados em perfis individuais têm suporte na configuração do Data Source [!DNL Journey Optimizer]. Para obter mais informações, consulte [classe de Perfil Individual XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
+   >Somente esquemas XDM baseados em perfis individuais têm suporte na configuração do Data Source [!DNL Journey Optimizer]. Para obter mais informações, consulte [classe de Perfil Individual XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
 
 1. Selecione os campos que serão usados e salve as alterações.
 
