@@ -10,18 +10,14 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: ondas, lotes, programação, jornada, ler público, entregabilidade
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
+source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 2%
+source-wordcount: '858'
+ht-degree: 1%
 
 ---
 
 # Enviar usando ondas no jornada {#send-using-waves-journeys}
-
->[!AVAILABILITY]
->
->Este recurso está em Disponibilidade Limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 Você pode entregar mensagens de saída de uma jornada em lotes (ondas) ao longo do tempo, em vez de todas de uma só vez. O envio de ondas ajuda a balancear a carga, evitar sistemas downstream esmagadores (como centrais de atendimento ou páginas de aterrissagem) e oferecer suporte à capacidade de entrega e reputação do remetente, especialmente para jornadas de alto volume de público-alvo de leitura.
 
