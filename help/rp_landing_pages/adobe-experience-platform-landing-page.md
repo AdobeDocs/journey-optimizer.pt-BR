@@ -20,7 +20,7 @@ A Adobe Experience Platform serve de base para fornecer experiências do cliente
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Usar a função inAudience
 
@@ -30,7 +30,7 @@ Saiba como usar a função “inAudience” para avaliar a associação do públ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Usar dados do Adobe Experience Platform para o Personalization
 
@@ -40,7 +40,7 @@ Descubra como acessar e usar atributos de perfil e conjuntos de dados do Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
 
 Usar dados do Adobe Experience Platform no Jornada
 
