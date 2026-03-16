@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Usar dados da Adobe Experience Platform
-description: Usar dados da Adobe Experience Platform
+description: Saiba como aproveitar os dados de contexto e conjuntos de dados do Adobe Experience Platform no Journey Optimizer Decisioning para criar regras de decisão mais inteligentes e personalizadas.
 redpen-status: CREATED_||_2025-08-11_20-56-30
 exl-id: 54df881d-f204-4979-89ce-45de2eb7b822
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 249f39d83c6495524d5e53532b5ae55d59a46d04
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '223'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ O Adobe Journey Optimizer permite tomar decisões mais inteligentes e rápidas c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Utilizar dados contextuais na tomada de decisão
 
@@ -30,7 +30,7 @@ Saiba como integrar dados contextuais da Adobe Experience Platform à tomada de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Usar dados da Adobe Experience Platform para a tomada de decisão
 

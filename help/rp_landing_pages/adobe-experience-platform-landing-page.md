@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Adobe Experience Platform
-description: Adobe Experience Platform
+description: Saiba como usar dados do Adobe Experience Platform e funções de público-alvo no Journey Optimizer jornada, incluindo a função no Audience.
 redpen-status: CREATED_||_2025-08-11_20-11-06
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 627b1a99cb9a7f59208e7d1339e8f1d136c07065
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: '187'
+ht-degree: 60%
 
 ---
 
@@ -20,13 +20,33 @@ A Adobe Experience Platform serve de base para fornecer experiências do cliente
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Usar a função inAudience
 
 Saiba como usar a função “inAudience” para avaliar a associação do público-alvo no Adobe Journey Optimizer.
 
 [Explore a função “inAudience”](../using/building-journeys/functions/functioninaudience.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Usar dados do Adobe Experience Platform para o Personalization
+
+Descubra como acessar e usar atributos de perfil e conjuntos de dados do Adobe Experience Platform para personalizar mensagens e condições de jornada.
+
+[Usar dados da AEP para personalização](../using/personalization/aep-data-perso.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+
+Usar dados do Adobe Experience Platform no Jornada
+
+Saiba como consultar e pesquisar dados do Adobe Experience Platform diretamente nas condições, ações e expressões da jornada.
+
+[Usar dados do AEP no jornada](../using/data/lookup-aep-data.md)
 :::
 
 ::::

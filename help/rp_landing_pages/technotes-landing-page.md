@@ -2,25 +2,25 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Notas técnicas
-description: Notas técnicas
+description: Saiba mais sobre as metodologias estatísticas por trás da experimentação do Journey Optimizer, incluindo sequências de confiança, cálculos de aumento e taxas de conversão.
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '123'
+ht-degree: 54%
 
 ---
 
 # Notas técnicas{#section-overview}
 
-As notas técnicas do Adobe Journey Optimizer fornecem uma visão dos bastidores sobre as metodologias estatísticas avançadas que alimentam a experimentação e a geração de relatórios. Quer você esteja explorando como os experimentos são continuamente monitorados com sequências de confiança ou entendendo como as métricas, como taxas de conversão e aumento, são calculadas, esses guias ajudam a tomar decisões orientadas por dados com confiança. Cada tópico baseia-se em conceitos importantes, como taxas de erro e testes de hipóteses, oferecendo um conhecimento básico e um aprofundamento nas abordagens exclusivas da Adobe. Ao dominar essas ferramentas, você obterá insights para otimizar campanhas e declarar com confiança as estratégias de melhor desempenho para o seu público-alvo.
+Essas notas técnicas explicam os métodos estatísticos usados na experimentação e nos relatórios do Adobe Journey Optimizer. Use-as para entender como os experimentos são monitorados, como as métricas, como o aumento e a taxa de conversão, são computadas e como interpretar os resultados com confiança.
 
 ## Notas técnicas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Cálculos estatísticos usados em experimentos do Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Saiba mais sobre metodologias estatísticas avançadas, como sequências de conf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Noções básicas de cálculos estatísticos nos relatórios de experimentação
 
