@@ -9,10 +9,11 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondas, lotes, programação, jornada, ler público, entregabilidade
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
+source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 1%
+source-wordcount: '871'
+ht-degree: 2%
 
 ---
 
@@ -78,17 +79,13 @@ Selecione a opção **[!UICONTROL Custom distribution]** para definir o tamanho 
 
 ![](assets/journey-wave-percentage.png){width="70%"}
 
->[!NOTE]
->
->O total em todas as ondas deve ser igual a 100%. Se esse não for o caso, uma mensagem de aviso será exibida.<!--are the waves actually sent or does the system prevent user from saving the journey?-->
-
 Selecione **[!UICONTROL Números]** para definir o tamanho de cada onda como um número absoluto de perfis (por exemplo, 10.000; 50.000).
 
 ![](assets/journey-wave-numbers.png){width="70%"}
 
 >[!NOTE]
->
->Ao usar números, o sistema não valida se a soma cobre todo o público-alvo. Você deve garantir que seus tamanhos de onda cubram o público-alvo para o qual você pretende enviar. Saiba mais nas [Perguntas frequentes](#faq).
+>* Ao usar porcentagens, o total de todas as ondas deve ser 100%. Um aviso será exibido se esse não for o caso.
+>* Ao usar números, o sistema não valida a cobertura. Certifique-se de que os tamanhos de onda cubram o público-alvo desejado. [Saiba mais](#faq)
 
 ### Agendamento personalizado {#custom-schedule}
 
