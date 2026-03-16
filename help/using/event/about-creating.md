@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1684'
 ht-degree: 13%
 
 ---
@@ -94,15 +94,13 @@ A definição de carga útil permite escolher as informações que o sistema esp
 
    >[!NOTE]
    >
-   >Para eventos gerados pelo sistema, verifique se você adicionou o grupo de campos &quot;orquestração&quot; ao esquema XDM. Isso garantirá que seu esquema contenha todas as informações necessárias para trabalhar com [!DNL Journey Optimizer].
+   >Para eventos gerados pelo sistema:
+   >* Verifique se você adicionou o grupo de campos `orchestration` ao esquema XDM — isso garante que o esquema contém todas as informações necessárias para trabalhar com [!DNL Journey Optimizer].
+   >* O campo **[!UICONTROL eventID]** é adicionado automaticamente à lista de campos selecionados para que [!DNL Journey Optimizer] possa identificar o evento. O sistema que envia o evento não deve gerar uma ID; use a disponível na pré-visualização de carga. [Saiba mais](../event/about-creating.md#preview-the-payload)
 
    ![](assets/journey9.png)
 
 1. Selecione os campos que você espera receber do evento. Esses são os campos que o usuário empresarial utilizará na jornada. Eles também devem incluir a chave que será usada para identificar a pessoa associada ao evento (consulte [esta seção](../event/about-creating.md#define-the-event-key)).
-
-   >[!NOTE]
-   >
-   >Para eventos gerados pelo sistema, o campo **[!UICONTROL eventID]** é adicionado automaticamente à lista de campos selecionados para que [!DNL Journey Optimizer] possa identificar o evento. O sistema que envia o evento não deve gerar uma ID, mas usar a disponível na pré-visualização de carga. Consulte [esta seção](../event/about-creating.md#preview-the-payload).
 
 1. Quando terminar de selecionar os campos necessários, clique em **[!UICONTROL Ok]** ou pressione **[!UICONTROL Enter]**.
 

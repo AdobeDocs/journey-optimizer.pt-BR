@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ondas, lotes, programação, campanha, jornada, deliverability
-source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
+exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
+source-git-commit: 55181db4fd8c1e6ee0f0f865dd61201be3c2df39
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 1%
+source-wordcount: '781'
+ht-degree: 2%
 
 ---
 
@@ -73,17 +74,13 @@ Selecione a opção **[!UICONTROL Custom distribution]** para definir o tamanho 
 
 ![](assets/campaign-wave-percentage.png){width="80%"}
 
->[!NOTE]
->
->O total em todas as ondas deve ser igual a 100%. Se esse não for o caso, uma mensagem de aviso será exibida.<!--are the waves actually sent or does the system prevent user from saving the campaign?-->
-
 Selecione **[!UICONTROL Números]** para definir o tamanho de cada onda como um número absoluto de perfis (por exemplo, 10.000; 50.000).
 
 ![](assets/campaign-wave-numbers.png){width="80%"}
 
 >[!NOTE]
->
->Ao usar números, o sistema não valida se a soma cobre todo o público-alvo. Você deve garantir que seus tamanhos de onda cubram o público-alvo para o qual você pretende enviar. Saiba mais nas [Perguntas frequentes](#faq).
+>* Ao usar porcentagens, o total de todas as ondas deve ser 100%. Um aviso será exibido se esse não for o caso.
+>* Ao usar números, o sistema não valida a cobertura. Certifique-se de que os tamanhos de onda cubram o público-alvo desejado. [Saiba mais](#faq)
 
 ### Agendamento personalizado {#custom-schedule}
 
