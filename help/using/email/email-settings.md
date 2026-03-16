@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -153,17 +153,14 @@ Após habilitar essa opção, mesmo se um(a) cliente marcar o email de marketing
 
 Uma lista de seeds no [!DNL Journey Optimizer] permite incluir seed addresses de emails específicos automaticamente em suas entregas. [Saiba mais](../configuration/seed-lists.md)
 
->[!CAUTION]
+>[!NOTE]
 >
->Atualmente, esse recurso se aplica somente ao canal de email.
+>* No momento, esse recurso se aplica somente ao canal de email.
+>* Só é possível selecionar uma lista de seeds por vez.
 
 Selecione a lista relevante na seção **[!UICONTROL Lista de seeds]**. Saiba como criar uma lista de seeds [nesta seção](../configuration/seed-lists.md#create-seed-list).
 
 ![](../configuration/assets/seed-list-surface.png){width="80%"}
-
->[!NOTE]
->
->Só é possível selecionar uma lista de seeds por vez.
 
 Ao usar a configuração atual em uma campanha ou jornada, os endereços de email na lista de seeds selecionada são incluídos no tempo de execução da entrega, o que significa que receberão uma cópia da entrega para fins de garantia.
 

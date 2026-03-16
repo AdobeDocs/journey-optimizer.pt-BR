@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 87%
+source-wordcount: '732'
+ht-degree: 81%
 
 ---
 
@@ -86,12 +86,9 @@ Para encaminhar a um endereço de email específico todos os emails recebidos pe
 
 >[!NOTE]
 >
->Só é permitido um endereço de email de encaminhamento por subdomínio. Consequentemente, se várias configurações usarem o mesmo subdomínio, o mesmo endereço de email de encaminhamento deverá ser usado em todas elas.
+>* Só pode haver um endereço de email de encaminhamento por subdomínio — se várias configurações usarem o mesmo subdomínio, o mesmo endereço de email de encaminhamento deverá ser usado para todos eles.
+>* Se o encaminhamento não estiver habilitado, os emails enviados diretamente para o endereço de **Do email** serão descartados por padrão.
 
 O endereço de email de encaminhamento é definido pela Adobe. Isso pode levar de 3 a 4 dias.
 
 Após a conclusão desse processo, todas as mensagens recebidas nos endereços de **[!UICONTROL Email de resposta]** e **Email de erro**, bem como todos os emails enviados para o endereço de **Email do remetente** serão encaminhados para o endereço de email específico fornecido.
-
->[!NOTE]
->
->Se o encaminhamento não estiver habilitado, os emails enviados diretamente para o endereço de **Email do remetente** serão descartados por padrão.

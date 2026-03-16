@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração, subdomínio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1193'
 ht-degree: 6%
 
 ---
@@ -92,15 +92,12 @@ Você também pode usar a personalização para todos os parâmetros de cabeçal
 
 >[!NOTE]
 >
->Ao [editar uma configuração de email](../configuration/channel-surfaces.md#edit-channel-surface), não é possível adicionar novos [atributos de perfil](../personalization/personalization-build-expressions.md#sources) aos parâmetros de cabeçalho. Você deve criar uma nova configuração de canal.
+>* Todos os campos de **[!UICONTROL Parâmetros de cabeçalho]** podem ser personalizados, exceto o campo **[!UICONTROL Prefixo de email de erro]**.
+>* Ao [editar uma configuração de email](../configuration/channel-surfaces.md#edit-channel-surface), não é possível adicionar novos [atributos de perfil](../personalization/personalization-build-expressions.md#sources) aos parâmetros de cabeçalho. Em vez disso, você deve criar uma nova configuração de canal.
 
 Por exemplo, se você tiver várias marcas, poderá criar uma única configuração e usar valores personalizados para seus cabeçalhos de email. Isso permite que você verifique se todos os emails enviados de suas diferentes marcas são endereçados a cada um de seus clientes com os nomes e emails **De** corretos. Da mesma forma, quando os destinatários pressionam o botão **Responder** no software cliente de email, você deseja que os nomes e emails de **Responder para** correspondam à marca correta para o usuário correto.
 
 Para usar variáveis personalizadas para seus parâmetros de cabeçalho de configuração, siga as etapas abaixo.
-
->[!NOTE]
->
->Você pode personalizar todos os campos de **[!UICONTROL Parâmetros de cabeçalho]**, exceto o campo **[!UICONTROL Prefixo de email de erro]**.
 
 1. Defina os parâmetros do cabeçalho como faria normalmente. [Saiba como](email-settings.md#email-header)
 
