@@ -92,4 +92,4 @@ Mantenha o nome da jornada focado no marco do cliente que ela direciona (por exe
 
 >[!TIP]
 >
->Para uma discussão mais ampla desta abordagem e seus benefícios em escala, consulte [Práticas recomendadas para jornadas avançadas no Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Para uma discussão mais ampla desta abordagem e seus benefícios em escala, consulte [Práticas recomendadas para jornadas avançadas no Journey Optimizer](https://experienceleague.adobe.com/pt-br/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
