@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '2733'
-ht-degree: 10%
+source-wordcount: '2709'
+ht-degree: 11%
 
 ---
 
@@ -50,37 +50,25 @@ Para definir as fases do plano de aquecimento de IP, é necessário selecionar u
 
 1. Selecione a campanha que deseja associar à primeira fase do plano de aquecimento de IP.
 
-   >[!NOTE]
-   >
-   >Não é possível selecionar uma campanha que já esteja em uso em outro plano de aquecimento de IP. No entanto, a mesma campanha pode ser usada em uma ou mais fases do mesmo plano de aquecimento de IP.
-
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
-   >* Somente as campanhas com a opção **[!UICONTROL Ativação do plano de aquecimento de IP]** habilitada estão disponíveis para seleção. [Saiba mais](#create-ip-warmup-campaign)
-   >
+   >* Somente campanhas com a opção **[!UICONTROL Ativação do plano de aquecimento de IP]** habilitada estão disponíveis para seleção. [Saiba mais](#create-ip-warmup-campaign)
    >* Somente campanhas que usam a mesma configuração que o plano de aquecimento de IP selecionado estão disponíveis para seleção.
+   >* Uma campanha já em uso em outro plano de aquecimento de IP não pode ser selecionada. A mesma campanha pode ser usada em várias fases do mesmo plano.
 
-1. Depois que uma campanha é selecionada para a fase atual, as seções que excluem perfis, públicos da campanha e grupos de domínio são exibidas.
-
-   >[!NOTE]
-   >
-   >Depois que uma execução é ativada, as exclusões não podem mais ser modificadas a menos que você [divida a execução](#split-phase) para uma nova fase.
+1. Depois que uma campanha é selecionada para a fase atual, as seções que excluem perfis, públicos da campanha e grupos de domínio são exibidas. Observe que depois que uma execução é ativada, as exclusões não podem mais ser modificadas a menos que você [divida a execução](#split-phase) para uma nova fase.
 
    1. Na seção **[!UICONTROL Grupos de domínio excluídos]**, selecione os domínios que deseja excluir dessa fase.
 
       >[!NOTE]
       >
-      >A exclusão de domínio requer uma fase não executada, portanto, pode ser necessário [dividir uma fase em execução](#split-phase) para adicionar exclusões.
+      >A exclusão de domínio requer uma fase não executada, portanto, talvez seja necessário [dividir uma fase em execução](#split-phase) para adicionar exclusões. Além disso, você só pode excluir um grupo de domínio personalizado que tenha sido adicionado ao [modelo de plano de aquecimento de IP](ip-warmup-plan.md#prepare-file). Caso contrário, atualize o modelo com o grupo de domínio personalizado e [recarregue o plano](#re-upload-plan).
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
       Por exemplo, após executar o aquecimento de IP por alguns dias, você percebe que a reputação do ISP com um domínio (por exemplo, Adobe) não é boa e deseja resolvê-la sem interromper o plano de aquecimento de IP. Nesse caso, você pode excluir o grupo de domínio do Adobe.
-
-      >[!NOTE]
-      >
-      >Você só pode excluir um grupo de domínios personalizado que foi adicionado ao [modelo de plano de aquecimento de IP](ip-warmup-plan.md#prepare-file). Se esse não for o caso, atualize o modelo com o grupo de domínio personalizado que deseja excluir e [carregue novamente o plano](#re-upload-plan).
 
       >[!CAUTION]
       >
@@ -103,11 +91,7 @@ Para definir as fases do plano de aquecimento de IP, é necessário selecionar u
       1. No menu **Esquemas**, selecione o **Esquema do Evento de Feedback de Mensagens do AJO** e navegue até o campo **_messageID**. Selecione **Adicionar relacionamento** e escolha **Esquema de Registro de Entidade do AJO** como o **Esquema de referência** e seu namespace criado anteriormente como o **Namespace de identidade de referência**.
       +++
 
-   1. Na seção **[!UICONTROL Perfis direcionados em execuções anteriores]**, é possível ver que os perfis das execuções anteriores dessa fase são sempre excluídos. Por exemplo, se em Run #1 um perfil foi coberto nas primeiras 4.800 pessoas que foram alvos, o sistema garantirá automaticamente que o mesmo perfil não receba o email em Run #2.
-
-      >[!NOTE]
-      >
-      >Esta seção não é editável.
+   1. Na seção **[!UICONTROL Perfis direcionados em execuções anteriores]**, é possível ver que os perfis das execuções anteriores dessa fase são sempre excluídos (esta seção é somente leitura). Por exemplo, se em Run #1 um perfil foi coberto nas primeiras 4.800 pessoas que foram alvos, o sistema garantirá automaticamente que o mesmo perfil não receba o email em Run #2.
 
 1. Se necessário, você poderá substituir a campanha usando o botão **[!UICONTROL Substituir]**. Você também pode **[!UICONTROL Limpar]** a campanha selecionada usando o botão **[!UICONTROL Limpar]**. Essa ação não só limpará a campanha, como também as outras propriedades no nível da fase (exclusões de grupos de domínio, Campanha, Exclusão de Jornada e outras). Depois de limpar, você pode escolher uma nova campanha imediatamente ou em um momento posterior.
 
@@ -125,13 +109,9 @@ Para definir as fases do plano de aquecimento de IP, é necessário selecionar u
 
    >[!CAUTION]
    >
-   >Você não pode desfazer a ação **[!UICONTROL Excluir fase]**.
+   >Você não pode desfazer a ação **[!UICONTROL Excluir fase]**. Se você excluir todas as fases, é recomendável fazer upload novamente do plano. [Saiba mais](#re-upload-plan)
 
    ![](assets/ip-warmup-plan-delete-phase.png)
-
-   >[!NOTE]
-   >
-   >Se você excluir todas as fases do plano de aquecimento de IP, é recomendável fazer upload de um plano novamente. [Saiba mais](#re-upload-plan)
 
 ## Definir as execuções {#define-runs}
 
@@ -166,31 +146,23 @@ Depois de definir as fases do plano de aquecimento de IP, é necessário configu
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Como opção, você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada caso haja atrasos na [avaliação do público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#how-segmentation-works){target="_blank"}. Para fazer isso, clique no ícone Propriedades na parte superior esquerda, ao lado do nome do plano e use a lista suspensa **[!UICONTROL Tentar novamente o tempo de execução]** para selecionar uma duração - até 240 minutos (4 horas).
+1. Como opção, você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada caso haja atrasos na [avaliação do público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Para fazer isso, clique no ícone Propriedades na parte superior esquerda, ao lado do nome do plano e use a lista suspensa **[!UICONTROL Tentar novamente o tempo de execução]** para selecionar uma duração - até 240 minutos (4 horas).
 
    >[!NOTE]
    >
-   >Ocorrem tentativas a cada 30 minutos até o final da janela de tempo definida.
+   >Ocorrem tentativas a cada 30 minutos até o final da janela de tempo definida. Se nenhuma janela de tempo for especificada, a execução será tentada no momento do envio e falhará se a avaliação do público-alvo não for concluída.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
    Por exemplo, se você definir um horário de envio em um determinado dia às 9h e selecionar 120 minutos como o tempo de execução de repetição, isso permitirá que uma janela de oportunidade de 2 horas (9h - 11h) para a execução seja executada para qualquer atraso inesperado na avaliação do público-alvo.
 
-   >[!NOTE]
-   >
-   >Se nenhuma janela de tempo for especificada, a execução será tentada no momento do envio e falhará se a avaliação do público-alvo não for concluída.
-
 1. Se necessário, selecione **[!UICONTROL Editar execução]** no ícone Mais ações. Lá é possível atualizar os números de endereços em cada coluna. Você também pode atualizar o campo **[!UICONTROL Último engajamento]** para direcionar somente os usuários engajados com sua marca nos últimos 20 dias, por exemplo.
 
    >[!NOTE]
    >
-   >É recomendável modificar esses números após consultar seu especialista em capacidade de delivery.
+   >É recomendável modificar esses números após consultar seu especialista em capacidade de delivery. Para desabilitar o período de envolvimento para uma execução, insira 0 no campo **[!UICONTROL Último envolvimento]**.
 
    ![](assets/ip-warmup-plan-edit-run.png)
-
-   >[!NOTE]
-   >
-   >Para não aplicar nenhum período de envolvimento a uma execução, digite 0 no campo **[!UICONTROL Último envolvimento]**.
 
 1. Selecione a opção **[!UICONTROL Cancelar execuções ativadas em caso de erros]** para cancelar uma execução se os perfis qualificados forem menores que os perfis direcionados depois que o público-alvo tiver sido avaliado para essa execução.
 
@@ -224,7 +196,7 @@ Para ativar uma execução, selecione o botão **[!UICONTROL Ativar]**. Em segui
 
 Ao executar vários planos de aquecimento de IP simultaneamente, todos direcionados ao mesmo pool de IP e domínios, é fundamental antecipar as possíveis consequências. Por exemplo, se um ISP impor um limite diário de 100 emails, a execução de vários planos direcionados aos mesmos domínios poderá ultrapassar esse limite.
 
-Certifique-se de ter agendado tempo suficiente para permitir que a [avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#how-segmentation-works){target="_blank"} seja executada.
+Certifique-se de ter agendado tempo suficiente para permitir que a [avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} seja executada.
 
 ![](assets/ip-warmup-plan-activate.png)
 

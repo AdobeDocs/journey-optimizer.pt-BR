@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1876'
 ht-degree: 12%
 
 ---
@@ -177,19 +177,13 @@ Para editar uma configuração de canal, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Se uma configuração de canal tiver o status **[!UICONTROL Ativo]**, os campos **[!UICONTROL Nome]**, **[!UICONTROL Selecionar canal]** e **[!UICONTROL Subdomínio]** estarão esmaecidos e não poderão ser editados.
+   >* Quando a configuração tem o status **[!UICONTROL Ativo]**, os campos **[!UICONTROL Nome]**, **[!UICONTROL Selecionar canal]** e **[!UICONTROL Subdomínio]** são somente leitura e não podem ser modificados.
+   >* Você pode salvar suas alterações como rascunho a qualquer momento e retomar a atualização posteriormente.
+   >* As edições limitadas aos campos **[!UICONTROL Descrição]**, **[!UICONTROL Tipo de email]** e/ou **[!UICONTROL Parâmetros de nova tentativa de email]** têm efeito imediato, sem atraso no processamento.
 
 1. Clique em **[!UICONTROL Enviar]** para confirmar as alterações.
 
-   >[!NOTE]
-   >
-   >Você também pode salvar a configuração do canal como rascunho e retomar a atualização posteriormente.
-
 Depois que as alterações forem enviadas, a configuração do canal passará por um ciclo de validação semelhante ao que está em vigor ao [criar uma configuração de canal](#create-channel-surface). O tempo de processamento da edição pode levar até **3 horas**.
-
->[!NOTE]
->
->Se você editar apenas os campos **[!UICONTROL Descrição]**, **[!UICONTROL Tipo de email]** e/ou **[!UICONTROL Parâmetros de nova tentativa de email]**, a atualização será instantânea.
 
 ### Detalhes da atualização {#update-details}
 
@@ -298,4 +292,4 @@ Não é possível editar diretamente uma configuração de canal desativada. No 
 
 Saiba o que são configurações de canal e como elas são usadas no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480456/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

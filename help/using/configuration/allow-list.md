@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 keywords: lista de permissões, lista segura, email, capacidade de entrega, sandbox, domínios, supressão, configuração
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1308'
 ht-degree: 12%
 
 ---
@@ -63,13 +63,10 @@ Para ativar a lista de permissões, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Depois de ativar a lista de permissões, há um atraso de 10 minutos antes de ela entrar em vigor em suas jornadas e campanhas. Da mesma forma, as atualizações nas listas de lista de permissões e supressão podem levar até 10 minutos para serem refletidas.
+   >* Após a ativação, há um atraso de 10 minutos antes da lista de permissões entrar em vigor em jornadas e campanhas. As atualizações na lista de lista de permissões e supressão também podem levar até 10 minutos para serem refletidas.
+   >* Quando ativa, a lista de permissões é imposta não apenas em jornadas ativas, mas também ao testar mensagens com [provas](../content-management/proofs.md) e jornadas no [modo de teste](../building-journeys/testing-the-journey.md).
 
 A lógica de lista de permissões se aplica quando o recurso está ativo. Saiba mais [nesta seção](#logic).
-
->[!NOTE]
->
->Quando ativado, o recurso de lista de permissões é utilizado ao executar jornadas, mas também ao testar mensagens com [provas](../content-management/proofs.md) e jornadas de teste usando o [modo de teste](../building-journeys/testing-the-journey.md).
 
 ## Desativar a lista de permissões {#deactivate-allow-list}
 
@@ -149,7 +146,7 @@ Para preencher a lista de permissões, você também pode chamar a API de supres
 
 Você pode executar as operações **Adicionar**, **Excluir** e **Obter**.
 
-Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Baixar a lista de permissões {#download-allowed-list}
 
@@ -204,7 +201,7 @@ Quando a lista de permissões é [desativada](#deactivate-allow-list), todos os 
 
 ## Relatório de exclusão {#reporting}
 
-Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para fazer as chamadas de API abaixo.
+Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para fazer as chamadas de API abaixo.
 
 Para obter o **número de emails** que não foram enviados porque os destinatários não estavam na lista de permissões, use a seguinte consulta:
 

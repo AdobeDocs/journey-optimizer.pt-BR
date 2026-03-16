@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomínio, delegação, domínio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '1925'
 ht-degree: 18%
 
 ---
@@ -200,11 +200,7 @@ Para concluir a delegação de subdomínio, siga as etapas abaixo.
 
    <!--![](assets/subdomain-processing.png)-->
 
-1. Antes de poder usar esse subdomínio para enviar mensagens, você deve aguardar até que o Adobe execute as verificações necessárias, que podem levar até 3 horas. [Saiba mais](#subdomain-validation).
-
-   >[!NOTE]
-   >
-   >Verifique se todos os registros foram criados corretamente antes de continuar.
+1. Antes de poder usar esse subdomínio para enviar mensagens, verifique se todos os registros DNS foram criados corretamente e aguarde até que o Adobe execute as verificações necessárias, que podem levar até 3 horas. [Saiba mais](#subdomain-validation).
 
 ### Validação de subdomínio {#subdomain-validation}
 
@@ -281,4 +277,4 @@ Depois que a solicitação for tratada pela Adobe, o domínio não delegado não
 
 Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342240?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

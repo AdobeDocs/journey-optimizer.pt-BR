@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomínio, domínio, email, dmarc, registro
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b3716265282599604de629be540ca68971daa343
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 9%
@@ -146,13 +146,10 @@ Para permitir que a Adobe gerencie o registro do DMARC para você, selecione a o
 
 >[!NOTE]
 >
->Se buscado por [!DNL Journey Optimizer], você pode usar os mesmos valores como realçados na interface ou alterá-los conforme necessário.
+>* Se buscado por [!DNL Journey Optimizer], você pode usar os mesmos valores como realçados na interface ou alterá-los conforme necessário.
+>* Se você não adicionar nenhum valor, os valores padrão pré-preenchidos serão usados.
 
 ![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
-
->[!NOTE]
->
->Se você não adicionar nenhum valor, os valores padrão pré-preenchidos serão usados.
 
 1. Defina a ação que o servidor do recipient executará se o DMARC falhar. Dependendo da [política do DMARC](#dmarc-policies) que você deseja aplicar, selecione uma das três opções:
 
@@ -168,16 +165,13 @@ Para permitir que a Adobe gerencie o registro do DMARC para você, selecione a o
 
    >[!NOTE]
    >
-   >Certifique-se de ter uma caixa de entrada original (não Adobe) em seu controle, onde você pode receber esses relatórios.
+   >* Certifique-se de ter uma caixa de entrada original (não Adobe) em seu controle, onde você pode receber esses relatórios.
+   >* Esses relatórios altamente técnicos fornecem uma visão geral dos emails que são tentados de falsificação e são melhor assimilados por meio de uma ferramenta de terceiros.
 
    Há dois relatórios diferentes gerados por ISPs que os remetentes podem receber por meio das tags RUA/RUF na política da DMARC:
 
    * **Relatórios de agregação** (RUA): eles não contêm PII (Informações de Identificação Pessoal) que possam ser sensíveis ao GDPR.
    * **Relatórios de falha forense** (RUF): eles contêm endereços de email sensíveis ao GDPR. Antes de usar o, verifique internamente como lidar com informações que precisam ser compatíveis com o GDPR.
-
-   >[!NOTE]
-   >
-   >Esses relatórios altamente técnicos fornecem uma visão geral dos emails que são tentados de falsificação. Eles são melhor assimilados por meio de uma ferramenta de terceiros.
 
 1. Selecione a **porcentagem aplicável** de emails para o DMARC.
 

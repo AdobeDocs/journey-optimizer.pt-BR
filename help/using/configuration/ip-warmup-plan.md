@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 6%
@@ -123,9 +123,7 @@ Por exemplo, se você adicionar o domínio personalizado Roadrunner, desejará q
 
 ![](assets/ip-warmup-sample-file-custom.png)
 
->[!NOTE]
->
->Se não precisar de domínios personalizados, deixe a guia **[!UICONTROL Grupo de domínios personalizados]** vazia.
+Se não precisar de domínios personalizados, deixe a guia **[!UICONTROL Grupo de domínios personalizados]** vazia.
 
 ### Guia Grupos de Domínio OOTB {#ootb-domain-groups-tab}
 
@@ -251,15 +249,12 @@ Cada domínio agora é exibido em uma coluna diferente na mesma linha.
 
 1. Para excluir um plano de aquecimento de IP, selecione o ícone **[!UICONTROL Excluir]** ao lado do nome de um plano e confirme a exclusão.
 
-   >[!NOTE]
-   >
-   >Somente planos com o status **Não iniciado** podem ser excluídos.
-
-   ![](assets/ip-warmup-delete-plan.png)
-
    >[!CAUTION]
    >
-   >O plano de aquecimento de IP selecionado será excluído permanentemente.
+   >* Somente planos com o status **Não iniciado** podem ser excluídos.
+   >* O plano de aquecimento de IP selecionado será excluído permanentemente.
+
+   ![](assets/ip-warmup-delete-plan.png)
 
 ## Criar um plano de aquecimento de IP {#create-ip-warmup-plan}
 

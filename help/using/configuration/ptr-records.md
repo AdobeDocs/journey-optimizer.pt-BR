@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomínio, PTR, registros, DNS, domínio, email
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '844'
 ht-degree: 11%
 
 ---
@@ -102,11 +102,7 @@ Para editar um registro PTR com um subdomínio que esteja delegado à Adobe usan
    >   * Verifique no provedor de DNS se o registro de DNS de encaminhamento foi criado com êxito.
    >   * Os registros no DNS podem não ser sincronizados imediatamente. Aguarde alguns minutos e tente novamente.
 
-1. Clique em **[!UICONTROL Salvar]** para confirmar as alterações.
-
->[!NOTE]
->
->Você não pode modificar os campos **[!UICONTROL IP]** e **[!UICONTROL PTR]**.
+1. Clique em **[!UICONTROL Salvar]** para confirmar as alterações. Observe que os campos **[!UICONTROL Registro IP]** e **[!UICONTROL Registro PTR]** não podem ser modificados.
 
 ## Verificar detalhes de atualização do registro PTR {#check-ptr-record-update}
 

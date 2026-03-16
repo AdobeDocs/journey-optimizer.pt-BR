@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: arquivamento, mensagens, HIPAA, CCO, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1332'
 ht-degree: 6%
 
 ---
@@ -45,13 +45,8 @@ Para habilitar a opção **[!UICONTROL Email com CCO]**, digite o endereço de e
 
 >[!CAUTION]
 >
->Você só pode definir um endereço de email de CCO. Verifique se o endereço CCo tem capacidade de recepção suficiente para armazenar todos os emails enviados usando a configuração de canal atual.
->
->Mais recomendações estão listadas em [esta seção](#bcc-recommendations-limitations).
-
->[!NOTE]
->
->Se você adquiriu a oferta complementar Healthcare Shield, deve garantir que o ISP de seus endereços BCC ofereça suporte ao protocolo TLS 1.2.
+>* Você só pode definir um endereço de email de CCO. Verifique se ele tem capacidade de recepção suficiente para armazenar todos os emails enviados usando a configuração de canal atual. Mais recomendações estão listadas em [esta seção](#bcc-recommendations-limitations).
+>* Se você adquiriu a oferta complementar do Healthcare Shield, verifique se o ISP do endereço CCO é compatível com o protocolo TLS 1.2.
 
 ![](assets/preset-bcc.png)
 
@@ -123,7 +118,7 @@ Para acessar este conjunto de dados por meio da interface, selecione **[!UICONTR
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-Para executar consultas nesse conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
+Para executar consultas nesse conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -234,7 +229,7 @@ O cabeçalho `x-message-profile-id` também é armazenado nos seguintes conjunto
 
 * Para acessar esses conjuntos de dados por meio da interface, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Conjuntos de dados]** > **[!UICONTROL Procurar]**. Saiba mais sobre como acessar conjuntos de dados em [esta seção](../data/get-started-datasets.md#access-datasets).
 
-* Use o Editor de Consultas fornecido pelo [Serviço de Consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
+* Use o Editor de Consultas fornecido pelo [Serviço de Consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
 
 Abaixo estão alguns exemplos de consultas que você pode executar para recuperar informações correspondentes às suas cópias CCO.
 
