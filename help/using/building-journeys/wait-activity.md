@@ -10,9 +10,9 @@ level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 58cabac978facef373c6cadee0c8fc0963785df8
+source-git-commit: 2895554bfa00ed1b4cfe2d036568ed5a112689f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '878'
 ht-degree: 12%
 
 ---
@@ -90,13 +90,16 @@ A prática recomendada é usar datas personalizadas específicas para seus perfi
 
 >[!CAUTION]
 >
->Você pode usar uma expressão `dateTimeOnly` ou usar uma função para converter para `dateTimeOnly`. Por exemplo: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, o campo no evento tem o formato 2023-08-12T09:46:06Z. O **fuso horário** é esperado nas propriedades da sua jornada, portanto, não é possível da interface do usuário apontar diretamente para um deslocamento de fuso horário e hora de combinação de carimbo de data/hora ISO-8601 completo, como 2023-08-12T09:46:06.982-05. [Saiba mais](../building-journeys/timezone-management.md).
+>Ao trabalhar com expressões `dateTimeOnly`, lembre-se do seguinte:
 >
->Ao criar uma expressão de espera personalizada com `toDateTimeOnly()`, evite anexar &#39;Z&#39; ou qualquer deslocamento de fuso horário (por exemplo, &#39;-05:00&#39;) no resultado. A expressão deve usar uma sintaxe de data/hora ISO válida que faça referência ao fuso horário configurado da jornada sem designadores explícitos de fuso horário. Caso contrário, os perfis podem permanecer presos na atividade de espera.
+>* Você pode usar uma expressão `dateTimeOnly` diretamente ou convertê-la usando uma função — por exemplo: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})` onde o valor do campo está no formato `2023-08-12T09:46:06Z`.
+>* O **fuso horário** está definido nas propriedades da jornada. Como resultado, não é possível que a interface aponte para um carimbo de data e hora ISO-8601 completo que mescla deslocamento de hora e fuso horário, como `2023-08-12T09:46:06.982-05`. [Saiba mais](../building-journeys/timezone-management.md)
+>* Ao criar uma expressão de espera personalizada com `toDateTimeOnly()`, **não** anexe `Z` ou um deslocamento de fuso horário (por exemplo, `-05:00`). A expressão deve fazer referência ao fuso horário configurado pela jornada sem designadores de fuso horário explícitos; caso contrário, os perfis podem ficar presos na atividade de espera.
 >
->**Exemplo correto:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
->
->**Exemplo incorreto:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contém &#39;Z&#39;)
+>| | Exemplo |
+>|---|---|
+>| **Correto** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
+>| **Incorreto** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contém `Z`) |
 
 Para validar se a atividade de espera funciona como esperado, você pode usar os eventos da etapa. [Saiba mais](../reports/query-examples.md#common-queries).
 
