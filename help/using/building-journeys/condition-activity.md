@@ -10,9 +10,9 @@ level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1818'
 ht-degree: 16%
 
 ---
@@ -40,11 +40,15 @@ Os seguintes tipos de condições estão disponíveis:
 * [Condição de data](#date_condition)
 * [Limite de perfil](#profile_cap)
 
-Você também pode usar um público-alvo em uma condição de jornada. [Saiba mais](#using-a-segment). Para obter mais informações sobre como gerar e direcionar públicos, consulte [esta seção](../audience/about-audiences.md)
+Você também pode usar públicos-alvo diretamente nas condições de jornada. Consulte:
+
+* [Usando um público-alvo em uma condição](#using-a-segment) — filtre quais perfis tomam um determinado caminho com base na associação de público-alvo
+* [Criar e gerenciar públicos-alvo](../audience/about-audiences.md) — saiba como criar, avaliar e direcionar públicos-alvo no [!DNL Adobe Experience Platform]
+* [Padrões de direcionamento de público-alvo no jornada](read-audience.md#audience-targeting-in-journeys) — segmentar, excluir ou mesclar ramificações de público após uma entrada Ler público-alvo
 
 >[!NOTE]
 >
->A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adicionar e gerenciar caminhos de condição {#about_condition}
 
@@ -190,4 +194,4 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

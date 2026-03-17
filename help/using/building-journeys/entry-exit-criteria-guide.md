@@ -9,9 +9,9 @@ level: Intermediate
 keywords: entrada, saída, critérios, jornada, perfil, reentrada, práticas recomendadas
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Obtenha insights sobre a satisfação do cliente e o desempenho do produto solic
 
 * **[Acionadores com base em eventos](../event/about-events.md)**: use eventos como &quot;criação de perfil&quot;, &quot;transação concluída&quot; ou eventos personalizados para iniciar uma jornada. [Configurar eventos](../event/about-creating.md) em **[!UICONTROL Administração]** > **[!UICONTROL Eventos]** e definir [esquema de eventos e campos](../event/experience-event-schema.md). Em seguida, adicione o evento da paleta **[!UICONTROL Eventos]** no [Designer de jornada](using-the-journey-designer.md).
 
-* **[Entrada baseada em público-alvo](read-audience.md)**: jornadas de direcionamento para perfis que pertencem a públicos-alvo específicos, como um lote único ou em um agendamento recorrente. [Criar públicos-alvo](../audience/creating-a-segment-definition.md) no menu **[!UICONTROL Públicos-alvo]**, adicionar uma atividade **[!UICONTROL Ler público-alvo]** e [configurar o agendamento](journey-properties.md#schedule).
+* **[Entrada baseada em público-alvo](read-audience.md)**: jornadas de direcionamento para perfis que pertencem a públicos-alvo específicos, como um lote único ou em um agendamento recorrente. [Criar públicos-alvo](../audience/creating-a-segment-definition.md) no menu **[!UICONTROL Públicos-alvo]**, adicionar uma atividade **[!UICONTROL Ler público-alvo]** e [configurar o agendamento](journey-properties.md#schedule). Após a entrada, use as condições para [segmentar, excluir ou mesclar ramificações](read-audience.md#audience-targeting-in-journeys).
 
 * **[Entrada de qualificação de público-alvo](audience-qualification-events.md)**: acione jornadas quando os perfis se qualificarem para públicos-alvo específicos em tempo real ou saírem deles. Defina [públicos-alvo de streaming](../audience/about-audiences.md), adicione um evento **[!UICONTROL Qualificação de público-alvo]** da paleta **[!UICONTROL Eventos]** e escolha o tipo de gatilho.
 
@@ -208,7 +208,7 @@ Comece mapeando claramente os acionadores do cliente e os pontos de saída, test
 
 **Tutoriais e exemplos**
 
-[Jornada casos de uso](jo-use-cases.md) | [Vídeo de integração do cliente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carrinho abandonado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog da comunidade: Critérios de entrada e saída](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=pt)
+[Jornada casos de uso](jo-use-cases.md) | [Vídeo de integração do cliente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carrinho abandonado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog da comunidade: Critérios de entrada e saída](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Recursos relacionados**
 

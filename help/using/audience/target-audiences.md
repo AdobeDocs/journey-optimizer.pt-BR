@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '783'
 ht-degree: 13%
 
 ---
@@ -48,6 +48,8 @@ Se o trabalho de segmentação não for concluído dentro da janela de tempo def
 * Escolha um público para uma **campanha**, na qual a mensagem é enviada a todas as pessoas que pertencem ao público-alvo selecionado. [Saiba como definir o público-alvo de uma campanha](../campaigns/create-campaign.md#define-the-audience-audience).
 
 * Use uma atividade de orquestração de **Ler público** em uma jornada para fazer com que todos os indivíduos do público entrem na jornada e recebam as mensagens incluídas na jornada. Digamos que você tenha um público-alvo de “cliente prata”. Com essa atividade, você pode fazer com que todos os clientes Silver insiram uma jornada. Em seguida, você pode enviar a eles uma série de mensagens personalizadas. [Saiba como configurar uma atividade Ler público-alvo](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+
+  Após a entrada, use as atividades **Condição** para [segmentar por atributos ou comportamento, excluir parte da população ou mesclar ramificações](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   Para jornadas que usam públicos-alvo da composição do público-alvo ou do upload personalizado, os atributos de perfil estão tão atualizados quanto a última avaliação em lote na entrada da jornada. No entanto, após uma atividade **Wait**, a jornada atualiza os atributos de perfil do UPS (Serviço de Perfil Unificado), buscando os dados mais recentes disponíveis, o que significa que os atributos de perfil podem mudar durante a execução da jornada. [Saiba mais sobre a atualização de perfil após uma atividade de Espera](../building-journeys/wait-activity.md#profile-refresh)
 
