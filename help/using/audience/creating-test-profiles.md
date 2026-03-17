@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar um perfil de teste
+title: Criar perfis de teste
 description: Saiba como criar um perfil de teste
 feature: Profiles, Test Profiles
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: fed12f5aa6149314fcaca90c1d5b72de4a4a7616
+source-git-commit: 4d62f9eedcf50f3ebaa2236b0a3286e7490c069c
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1299'
 ht-degree: 2%
 
 ---
@@ -25,9 +25,9 @@ Perfis de teste são necessários ao usar o [modo de teste](../building-journeys
 
 Você pode criar perfis de teste [carregando um arquivo CSV](#create-test-profiles-csv) ou usando [chamadas de API](#create-test-profiles-api). [!DNL Adobe Journey Optimizer] também fornece um [caso de uso no produto](#use-case-1) específico para facilitar a criação do perfil de teste.
 
-Você pode fazer upload de um arquivo JSON em um conjunto de dados existente. Para obter mais informações, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=pt-BR#add-data-to-dataset){target="_blank"}.
+Você pode fazer upload de um arquivo JSON em um conjunto de dados existente. Para obter mais informações, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
-Observe que a criação de um perfil de teste é semelhante à criação de perfis comuns no [!DNL Adobe Experience Platform]. Para obter mais informações, consulte a [documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
+Criar um perfil de teste é semelhante a criar perfis comuns no [!DNL Adobe Experience Platform]. Para obter mais informações, consulte a [documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
 
 ➡️ [Saiba como criar perfis de teste neste vídeo](#video)
 
@@ -35,7 +35,7 @@ Observe que a criação de um perfil de teste é semelhante à criação de perf
 
 Para criar perfis, primeiro crie um esquema e um conjunto de dados no Adobe [!DNL Journey Optimizer].
 
-### Criar um esquema
+### Criar um esquema {#create-schema}
 
 Para **criar um esquema**, siga estas etapas:
 
@@ -44,11 +44,11 @@ Para **criar um esquema**, siga estas etapas:
    ![Menu Esquemas com o botão Criar esquema](assets/test-profiles-0.png)
 
 1. Selecione **[!UICONTROL Padrão]** como a opção de criação do esquema.
-1. Selecione um tipo de esquema, por exemplo **Perfil Individual**, e clique em **Próximo**.
+1. Selecione um tipo de esquema, por exemplo **[!UICONTROL Perfil Individual]**, e clique em **Próximo**.
    ![Seleção de tipo de esquema mostrando a opção Perfil Individual](assets/test-profiles-1.png)
 1. Insira um nome para o esquema e clique em **Concluir**.
    ![Caixa de diálogo Nomear e salvar esquema](assets/test-profiles-1-bis.png)
-1. Na seção **Grupos de campos**, à esquerda, clique em **Adicionar** e selecione os grupos de campos apropriados. Adicione o grupo de campos **Detalhes do teste de perfil**.
+1. Na seção **Grupos de campos**, à esquerda, clique em **Adicionar** e selecione os grupos de campos apropriados. Adicione o grupo de campos **[!UICONTROL Detalhes do teste de perfil]**.
    ![Seção de grupos de campos com botão Adicionar](assets/test-profiles-1-ter.png)
 Depois de concluído, clique em **[!UICONTROL Adicionar grupos de campos]**: a lista de grupos de campos é exibida na tela de visão geral do esquema.
    ![Visão geral do esquema com a lista de grupos de campos](assets/test-profiles-2.png)
@@ -65,9 +65,7 @@ Depois de concluído, clique em **[!UICONTROL Adicionar grupos de campos]**: a l
    ![Painel de propriedades do esquema com opção de Perfil habilitada](assets/test-profiles-5.png)
 1. Clique em **Salvar**.
 
->[!NOTE]
->
->Para obter mais informações sobre a criação de esquemas, consulte a [documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=pt-BR#prerequisites){target="_blank"}.
+Para obter mais informações sobre a criação de esquemas, consulte a [documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -79,7 +77,7 @@ Depois de concluído, clique em **[!UICONTROL Adicionar grupos de campos]**: a l
 >1. Confirme se o campo de identidade principal tem o descritor de identidade correto para o namespace (consulte as etapas 6 a 7 acima).
 >1. Se o descritor estiver ausente, atualize o esquema para adicionar o descritor de identidade e assimilar novamente seus dados.
 
-### Criar um conjunto de dados
+### Criar um conjunto de dados {#create-dataset}
 
 Em seguida, é necessário **criar o conjunto de dados** no qual os perfis serão importados. Siga estas etapas:
 
@@ -96,9 +94,9 @@ Em seguida, é necessário **criar o conjunto de dados** no qual os perfis serã
 
 >[!NOTE]
 >
-> Para obter mais informações sobre a criação do conjunto de dados, consulte a [documentação do Serviço de Catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
+> Para obter mais informações sobre a criação do conjunto de dados, consulte a [documentação do Serviço de Catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
-## Caso de uso no produto{#use-case-1}
+## Caso de uso no produto {#use-case-1}
 
 Na página inicial do [!DNL Adobe Journey Optimizer], você pode aproveitar o caso de uso de perfis de teste no produto. Esse caso de uso facilita a criação de perfis de teste usados para jornadas de teste antes da publicação.
 
@@ -121,6 +119,7 @@ As seguintes informações são obrigatórias:
    1. **Gênero**: gênero do perfil de teste. Os valores disponíveis são **masculino**, **feminino** e **não_especificado**
 
 Depois de selecionar o namespace de identidade e fornecer o arquivo CSV com base no formato acima, selecione o botão **[!UICONTROL Executar]** no canto superior direito. O caso de uso pode levar alguns minutos para ser concluído. Quando o caso de uso concluir o processamento e a criação dos perfis de teste, uma notificação será enviada ao usuário.
+
 >[!NOTE]
 >
 >Os perfis de teste podem substituir os perfis existentes. Antes de executar o caso de uso, verifique se o CSV contém apenas perfis de teste e se ele é executado na sandbox correta.
@@ -164,19 +163,19 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
     > For more information on the **[!UICONTROL Update Profile]** activity, refer to [this section](../building-journeys/update-profiles.md).
 -->
 
-## Criar um perfil de teste usando um arquivo csv{#create-test-profiles-csv}
+## Criar perfis de teste usando um arquivo CSV {#create-test-profiles-csv}
 
 No [!DNL Adobe Experience Platform], é possível criar perfis carregando um arquivo csv contendo os diferentes campos de perfil no conjunto de dados. Esse é o método mais fácil.
 
 1. Crie um arquivo csv simples usando um software de planilha.
-1. Adicione uma coluna para cada campo obrigatório. Adicione o campo de identidade principal (&quot;personID&quot; no exemplo acima) e o campo &quot;testProfile&quot; definido como &quot;true&quot;.
+1. Adicione uma coluna para cada campo obrigatório. Adicione o campo de identidade principal (`personID` no nosso exemplo acima) e o campo `testProfile` definido como `true`.
    ![Arquivo CSV com cabeçalhos de coluna incluindo personID e testProfile](assets/test-profiles-11.png)
 1. Adicione uma linha por perfil e preencha os valores para cada campo.
    ![Arquivo CSV com dados de perfil de teste de amostra](assets/test-profiles-12.png)
 1. Salve a planilha como um arquivo csv. Verifique se as vírgulas são usadas como separadores.
 1. Navegue até [!DNL Adobe Experience Platform] **Workflows**.
    ![Menu de fluxos de trabalho no Adobe Experience Platform](assets/test-profiles-14.png)
-1. Escolha **Mapear CSV para esquema XDM** e clique em **Iniciar**.
+1. Escolha **[!UICONTROL Mapear CSV para esquema XDM]** e clique em **Iniciar**.
    ![Opção de fluxo de trabalho Mapear CSV para esquema XDM](assets/test-profiles-16.png)
 1. Selecione o conjunto de dados para o qual você deseja importar os perfis. Clique em **Next**.
    ![Tela de seleção do conjunto de dados para importação de CSV](assets/test-profiles-17.png)
@@ -193,16 +192,16 @@ Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jor
 
 >[!NOTE]
 >
->Para obter mais informações sobre importações csv, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=pt-BR#tutorials){target="_blank"}.
+>Para obter mais informações sobre importações csv, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 
 ## Criar perfis de teste usando chamadas de API{#create-test-profiles-api}
 
 Você também pode criar perfis de teste por meio de chamadas de API. Saiba mais em [[!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
 
-Você deve usar um esquema de Perfil que contenha o grupo de campos &quot;Detalhes do teste de perfil&quot;. O sinalizador testProfile faz parte deste grupo de campos.
-Ao criar um perfil, passe o valor: testProfile = true.
+Você deve usar um esquema de Perfil que contenha o grupo de campos **[!UICONTROL Detalhes do teste de perfil]**. O sinalizador `testProfile` faz parte deste grupo de campos.
+Ao criar um perfil, passe o valor: `testProfile = true`.
 
-Observe que você também pode atualizar um perfil existente para alterar seu sinalizador testProfile para &quot;true&quot;.
+Você também pode atualizar um perfil existente para alterar seu sinalizador `testProfile` para `true`.
 
 Este é um exemplo de uma chamada de API para criar um perfil de teste:
 
@@ -252,4 +251,4 @@ curl -X POST \
 
 Saiba como criar perfis de teste.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417594?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
