@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: e6395120223a0e87ef3557c9f5d7e2af84462968
+source-git-commit: fed12f5aa6149314fcaca90c1d5b72de4a4a7616
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 3%
+source-wordcount: '1313'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Perfis de teste são necessários ao usar o [modo de teste](../building-journeys
 
 Você pode criar perfis de teste [carregando um arquivo CSV](#create-test-profiles-csv) ou usando [chamadas de API](#create-test-profiles-api). [!DNL Adobe Journey Optimizer] também fornece um [caso de uso no produto](#use-case-1) específico para facilitar a criação do perfil de teste.
 
-Você pode fazer upload de um arquivo JSON em um conjunto de dados existente. Para obter mais informações, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=pt-BR#add-data-to-dataset){target="_blank"}.
+Você pode fazer upload de um arquivo JSON em um conjunto de dados existente. Para obter mais informações, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
 Observe que a criação de um perfil de teste é semelhante à criação de perfis comuns no [!DNL Adobe Experience Platform]. Para obter mais informações, consulte a [documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
 
@@ -67,7 +67,17 @@ Depois de concluído, clique em **[!UICONTROL Adicionar grupos de campos]**: a l
 
 >[!NOTE]
 >
->Para obter mais informações sobre a criação de esquemas, consulte a [documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=pt-BR#prerequisites){target="_blank"}.
+>Para obter mais informações sobre a criação de esquemas, consulte a [documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
+
+>[!IMPORTANT]
+>
+>Ao criar ou substituir um conjunto de dados para assimilação de perfil de teste, verifique se o esquema tem o descritor de identidade correto aplicado ao campo de identidade principal (por exemplo, `/personID`) para o namespace pretendido. Se o descritor de identidade estiver ausente ou configurado incorretamente, os perfis assimilados neste conjunto de dados podem não ser sinalizados como perfis de teste (`testProfile = true`), mesmo que o processo de assimilação seja concluído com êxito.
+>
+>Se os perfis de teste não forem sinalizados corretamente após a assimilação:
+>
+>1. Revise o esquema associado ao seu conjunto de dados.
+>1. Confirme se o campo de identidade principal tem o descritor de identidade correto para o namespace (consulte as etapas 6 a 7 acima).
+>1. Se o descritor estiver ausente, atualize o esquema para adicionar o descritor de identidade e assimilar novamente seus dados.
 
 ### Criar um conjunto de dados
 
@@ -86,7 +96,7 @@ Em seguida, é necessário **criar o conjunto de dados** no qual os perfis serã
 
 >[!NOTE]
 >
-> Para obter mais informações sobre a criação do conjunto de dados, consulte a [documentação do Serviço de Catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
+> Para obter mais informações sobre a criação do conjunto de dados, consulte a [documentação do Serviço de Catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## Caso de uso no produto{#use-case-1}
 
@@ -183,7 +193,7 @@ Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jor
 
 >[!NOTE]
 >
->Para obter mais informações sobre importações csv, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=pt-BR#tutorials){target="_blank"}.
+>Para obter mais informações sobre importações csv, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 
 ## Criar perfis de teste usando chamadas de API{#create-test-profiles-api}
 
@@ -242,4 +252,4 @@ curl -X POST \
 
 Saiba como criar perfis de teste.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417594?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
