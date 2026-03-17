@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: df3ae62439882bd4b1f5f00e9c24d341f83b8df9
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 24%
+source-wordcount: '1509'
+ht-degree: 22%
 
 ---
 
@@ -52,6 +52,15 @@ Quando ativadas, essas opções rastreiam o comportamento dos recipients das sua
 ## Inserir links {#insert-links}
 
 Quando o [rastreamento é habilitado](#enable-tracking), todos os links incluídos no conteúdo da mensagem são rastreados.
+
+Um identificador de rastreamento exclusivo (urlID) só é gerado quando a **URL** e o **rótulo** são exclusivos. Os links que compartilham o mesmo URL e têm o mesmo rótulo efetivo (incluindo quando o rótulo está em branco) reutilizam o mesmo urlID, o que significa que você não pode saber qual link foi clicado. Para rastrear a mesma URL em vários emails (ou várias vezes em um email), use um rótulo exclusivo para cada URL semelhante; caso contrário, [!DNL Journey Optimizer] não poderá rastrear qual link foi clicado. Você pode definir rótulos distintos no Designer de email ou, para o HTML, por meio do atributo `data-label`.
+
+| URL | Tag | Rótulo | comportamento do urlID |
+|-----|-----|-------|----------------|
+| www.example.com | Primeiro | (em branco) | Obtém um urlID (por exemplo, A) |
+| www.example.com | Second | (em branco) | Reutiliza urlID A — não é possível saber em qual link foi clicado |
+| www.example.com | Terceiro | Primeiro rótulo | Obtém um urlID (por exemplo, B) |
+| www.example.com | Quarto | Segundo rótulo | Obtém um urlID (por exemplo, C) |
 
 >[!NOTE]
 >
