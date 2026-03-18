@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 6859847ad700a471dd43b2cb9b0c486e31d91c78
+source-git-commit: cfe6fa417c81e7488a3f2f1313b08f346f1aeb03
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 0%
+source-wordcount: '2742'
+ht-degree: 1%
 
 ---
 
@@ -29,227 +29,436 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-Se as palavras-chave de aceitação ou recusa não forem fornecidas, as mensagens de consentimento padrão serão usadas para honrar a privacidade do usuário. A adição de palavras-chave personalizadas substitui automaticamente os padrões.
+Quando novas credenciais de API são criadas no Journey Optimizer, os webhooks de SMS agora são a maneira de capturar palavras-chave de entrada e eventos de feedback como entregas e erros. Como cada provedor tem recursos diferentes, há instruções separadas para ativar webhooks.
+Com os webhooks que agora oferecem suporte ao provedor personalizado, agora é possível coletar feedback e coleção de palavras-chave de entrada de qualquer provedor para ser relatado e aplicado no Journey Optimizer.
 
-**Palavras-chave padrão:**
+* **Novos clientes:** As instruções aqui podem ser seguidas para configurar webhooks de SMS corretamente.
 
-* **Aceitar**: ASSINAR, SIM, REINICIAR, INICIAR, CONTINUAR, RETOMAR, INICIAR
-* **Recusar**: PARAR, SAIR, CANCELAR, ENCERRAR, CANCELAR INSCRIÇÃO, NÃO
-* **Ajuda**: AJUDA
+* **Clientes existentes:** é possível migrar das informações armazenadas nas Credenciais da API para os Webhooks e não há linha do tempo para os clientes migrarem. Para clientes existentes que desejam migrar para Webhooks de SMS, as etapas de migração precisam ser executadas conforme documentado no guia de migração.
 
 >[!ENDSHADEBOX]
 
-Depois que suas credenciais de API forem criadas com êxito, você poderá configurar Webhooks para capturar respostas de entrada para gerenciar o consentimento de aceitação e recusa e para receber relatórios do delivery, incluindo confirmações de leitura, quando disponíveis.
+## Visão geral {#overview}
+
+Depois que suas credenciais de API forem criadas com êxito, você poderá configurar webhooks para capturar respostas de entrada para gerenciar o consentimento de aceitação e recusa e para receber relatórios do delivery, incluindo confirmações de leitura, quando disponíveis.
 
 Ao configurar um webhook, você pode definir sua finalidade com base no tipo de dados que deseja capturar:
 
-* **[!UICONTROL Entrada]**: use esta opção se desejar capturar respostas de consentimento, como aceitação ou recusa, e coletar preferências do usuário.
+* **Entrada**: use esta opção se desejar capturar respostas de consentimento, como aceitação ou recusa, e coletar preferências do usuário.
 
-* **[!UICONTROL Feedback]**: escolha esta opção para rastrear eventos de entrega e participação, incluindo confirmações de leitura e interações de usuário, para oferecer suporte a relatórios e análises.
+* **Feedback**: escolha esta opção para rastrear eventos de entrega e participação, incluindo entregas, erros de saída, confirmações de leitura (se aplicável) para oferecer suporte a relatórios e análises.
 
-Navegue pelas guias abaixo, dependendo dos seus provedores de SMS:
+Dependendo do seu provedor, haverá expectativas diferentes sobre o que precisa ser configurado para ter uma implementação de SMS bem-sucedida:
 
->[!BEGINTABS]
+* **Conversação entre Sinch e Sinch**: crie um webhook que manipula eventos de entrada e de feedback. Nenhuma configuração de conteúdo é necessária.
 
->[!TAB Personalizado]
+* **Infobip**: crie dois webhooks separados, um para eventos de entrada e outro para eventos de feedback. Nenhuma configuração de carga é necessária para qualquer webhook.
 
-1. No painel à esquerda, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]**, selecione o menu **[!UICONTROL Webhooks de SMS]** em **[!UICONTROL Configurações de SMS]** e clique no botão **[!UICONTROL Criar Webhook]**.
+* **Twilio**: os webhooks não estão disponíveis. Não há suporte para a coleta de dados de entrada e de feedback.
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+* **Provedor personalizado**: crie dois webhooks separados, um para eventos de entrada e outro para eventos de feedback. A configuração de carga é necessária para que ambos os webhooks funcionem corretamente.
 
-1. Defina as configurações do Webhook, conforme detalhado abaixo:
+### Suporte do provedor {#provider-support}
 
-   * **[!UICONTROL Nome]**: digite um nome para o seu Webhook.
+>[!NOTE]
+>
+>O único formato de webhook compatível é o JSON. Os dados de formulário para webhooks não são compatíveis.
 
-   * **[!UICONTROL Selecionar fornecedor de SMS]**: personalizado.
+A tabela a seguir mostra quais provedores oferecem suporte a webhooks de entrada e de feedback e se a criação de carga útil é necessária:
 
-   * **[!UICONTROL Tipo]**: Entrada.
+| Provedor | Webhook de entrada | Webhook de feedback | Palavras-chave | Criação de carga necessária | Webhook necessário | Criação de carga útil |
+| --- | --- | --- | --- | --- | --- | --- |
+| Infobip | Configurável | Configurável | Configurável | Não obrigatório | Obrigatório | Não obrigatório |
+| Sinch | Configurável | Configurável | Configurável | Não obrigatório | Não. Integrado | N/D |
+| Conversação do Sinch | Configurável | Configurável | Configurável | Não obrigatório | Não. Integrado | N/D |
+| Twilio | Indisponível | Indisponível | Indisponível | Indisponível | Indisponível | N/D |
+| Personalizado | Configurável | Configurável | Configurável | Obrigatório | Obrigatório | Obrigatório |
 
-   * **[!UICONTROL Credenciais da API]**: escolha no menu suspenso suas [credenciais de API configuradas anteriormente](sms-configuration-custom.md#api-credential).
+Para clientes que estão mudando de credenciais de API para webhooks de SMS, as informações sobre o caminho de migração são encontradas no guia de migração.
 
-   * **[!UICONTROL Número de Telefone do Remetente &#x200B;]**: digite o número de telefone do Remetente &#x200B;que você deseja usar para suas comunicações.
+## Criar webhook
 
-     ![](assets/webhook-inbound.png){zoomable="yes"}
+### Para conversa entre Sinch e Sinch {#create-webhook-sinch}
 
-1. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar categorias de palavras-chave e, em seguida, configure-as dependendo do seu provedor de SMS:
-
-   * **[!UICONTROL Categoria de Palavra-chave de Entrada]**: Escolha suas categorias de palavra-chave: **[!UICONTROL Aceitação]**, **[!UICONTROL Recusa]**, **[!UICONTROL Aceitação Dupla]**, **[!UICONTROL Ajuda]** ou **[!UICONTROL Personalizado]**.
-
-   * **[!UICONTROL Inserir uma palavra-chave]**: insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua mensagem. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar várias palavras-chave.
-
-     Para **[!UICONTROL Palavra-chave personalizada]**, use palavras-chave não relacionadas a consentimento para ações baseadas em lote em uma jornada.
-
-   * **[!UICONTROL Mensagem de resposta]**: selecione no menu suspenso a resposta personalizada que é enviada automaticamente.
-
-   * **[!UICONTROL Recusa difusa]**: habilite esta opção para enviar uma resposta automática quando uma palavra-chave de recusa quase correspondente for detectada.
-
-   ![](assets/sms_byo_6.png){zoomable="yes"}
-
-1. Digite uma **[!UICONTROL Mensagem de Resposta Padrão]** enviada automaticamente quando uma mensagem de entrada não corresponde a nenhuma palavra-chave ou categoria configurada.
-
-1. Clique em **[!UICONTROL Exibir editor de carga]** para validar e personalizar suas cargas de solicitação.
-
-   Você pode personalizar dinamicamente seu conteúdo usando atributos de perfil do e garantir que dados precisos sejam enviados para processamento e geração de resposta com a ajuda de funções auxiliares integradas.
-
-1. Clique em **[!UICONTROL Enviar]** quando terminar a configuração do seu Webhook.
-
-1. Para criar um webhook **[!UICONTROL Feedback]**, siga as mesmas etapas descritas acima, selecionando **[!UICONTROL Feedback]** como seu webhook **[!UICONTROL Type]**.
-
-1. No menu **[!UICONTROL Webhooks]**, você pode editar ou excluir webhooks existentes, ou acessar e copiar a **[!UICONTROL URL do Webhook]** para integração com o provedor de SMS.
-
-   ![](assets/sms_byo_7.png){zoomable="yes"}
-
-Depois de criar e definir as configurações do Webhook, agora é necessário criar uma [configuração de canal](sms-configuration-surface.md) para mensagens SMS.
-
-Depois de configurado, você pode aproveitar todos os recursos de canal prontos para uso, como criação de mensagens, personalização, rastreamento de links e relatórios.
-
->[!TAB Infobip]
+Para a Conversação entre Sinch e Sinch, crie um único webhook que lida com eventos de entrada e de feedback. Nenhuma configuração de carga personalizada é necessária.
 
 1. No painel à esquerda, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]**, selecione o menu **[!UICONTROL Webhooks de SMS]** em **[!UICONTROL Configurações de SMS]** e clique no botão **[!UICONTROL Criar Webhook]**.
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+   ![](assets/webhook-1.png)
 
-1. Defina as configurações do Webhook, conforme detalhado abaixo:
+1. Defina as configurações do webhook, conforme detalhado abaixo:
 
-   * **[!UICONTROL Nome]**: digite um nome para o seu Webhook.
+   * **[!UICONTROL Nome]**: digite um nome para o webhook.
+
+   * **[!UICONTROL Selecionar fornecedor de SMS]**: Sinch ou Sinch Conversational.
+
+   * **[!UICONTROL Credenciais da API]**: escolha no menu suspenso suas [credenciais de API configuradas anteriormente](sms-configuration-sinch.md).
+
+   * **[!UICONTROL Número de Telefone do Remetente]**: digite o número de telefone do remetente que você deseja usar para suas comunicações.
+
+   ![](assets/webhook-2.png)
+
+1. Comece a configurar as palavras-chave de entrada inserindo palavras-chave no campo **[!UICONTROL Inserir uma Palavra-chave]**. Várias palavras-chave podem ser adicionadas e removidas. Observe que palavras-chave não diferenciam maiúsculas de minúsculas.
+
+   ![](assets/webhook-3.png)
+
+1. Selecione uma categoria de palavra-chave no menu suspenso **[!UICONTROL Categoria de Palavra-chave de Entrada]** para configurar:
+
+   * 
+     +++ Opt-In
+
+      * Ative as palavras-chave que aceitam os usuários com seu consentimento. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, seu número de telefone é aceito para receber mensagens SMS.
+
+      * Por padrão, as seguintes palavras-chave são ativadas: Subscribe, Yes, Unstop, Continue, Resume e Begin. Remova quaisquer palavras-chave padrão clicando em ![](assets/do-not-localize/Smock_Close_18_N.svg).
+
+      * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave de aceitação.
+
+   +++
+
+   * 
+     +++ Recusar
+
+      * Ative palavras-chave que recusam usuários e remova o consentimento para enviar mensagens de texto. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, o número de telefone dele não recebe mensagens SMS.
+
+      * Por padrão, as seguintes palavras-chave são ativadas: Stop, Quit, Cancel, End, Unsubscribe, No. Remova quaisquer palavras-chave padrão clicando em ![](assets/do-not-localize/Smock_Close_18_N.svg).
+
+      * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave de recusa.
+
+      * Habilite a **[!UICONTROL Lógica Difusa]** para detectar palavras-chave semelhantes a palavras-chave de Recusa configuradas. Se a resposta de um usuário for fechada, mas não exata, a mensagem inserida no campo **[!UICONTROL Resposta Automática Difusa]** será enviada. Normalmente, essa mensagem indica que a recusa não ocorreu e especifica a palavra-chave exata necessária para cancelar a inscrição.
+
+   +++
+
+   * 
+     +++ Aceitação dupla
+
+      * Ative palavras-chave para o requisito de aceitação dupla. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, ele não é totalmente aceito nesse estágio. Esse fluxo de trabalho de consentimento em duas etapas requer que os usuários confirmem sua aceitação com uma segunda palavra-chave.
+
+      * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando uma palavra-chave de aceitação dupla é correspondida. Essa mensagem instrui o usuário a inserir uma palavra-chave de aceitação para concluir o processo de aceitação.
+
+   +++
+
+   * 
+     +++ Ajuda
+
+      * Ative palavras-chave que fornecem uma resposta padrão quando a ajuda é solicitada. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, ele recebe a mensagem Ajuda.
+
+      * Por padrão, as seguintes palavras-chave são ativadas: Ajuda, Informações, Informações. Remova quaisquer palavras-chave padrão clicando em ![](assets/do-not-localize/Smock_Close_18_N.svg).
+
+      * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave da Ajuda.
+
+   +++
+
+   * 
+     +++ Personalizado
+
+      * Configure uma única palavra-chave personalizada. Quando a mensagem de um usuário corresponde a esta palavra-chave, ela é gravada no conjunto de dados **[!UICONTROL Acompanhamento de feedback]** da mensagem para criação de relatórios e público-alvo.
+
+      * Crie um Público (streaming ou lote) que faça referência a essa palavra-chave para uso em suas jornadas e campanhas.
+
+   +++
+
+1. Insira uma **[!UICONTROL Mensagem de Resposta Padrão]**. Esta mensagem é enviada automaticamente quando a resposta de um usuário não corresponde a nenhuma palavra-chave configurada.
+
+   ![](assets/webhook-4.png)
+
+1. Clique em **[!UICONTROL Enviar]** para salvar a configuração do webhook.
+
+1. No menu **[!UICONTROL Webhooks]**, você pode editar ou excluir webhooks existentes.
+
+1. Acesse o Webhook recém-criado e copie a **[!UICONTROL URL do Webhook]**.
+
+   ![](assets/webhook-5.png)
+
+1. Use sua **[!UICONTROL URL do Webhook]** para habilitar os eventos de **Feedback** e **Entrada** para entrar no Journey Optimizer.
+
+   * Para o canal SMS, [saiba mais na documentação do Sinch](https://community.sinch.com/t5/SMS/How-do-I-assign-a-callback-URL-to-an-SMS-service/ta-p/8414)
+
+   * Para o canal MMS, [saiba mais na documentação do Sinch](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
+
+   * Para clientes que compraram SMS diretamente pelo Journey Optimizer, registre um tíquete de suporte com o suporte da Adobe. A equipe de conta da Adobe configurará o URL do webhook para você.
+     ![](assets/webhook-4.png)
+
+Se o webhook usar credenciais de API anexadas a uma configuração de canal existente, o webhook entrará em vigor imediatamente. Caso contrário, crie uma nova configuração de canal.
+
+➡️[Saiba mais sobre a configuração de canal](sms-configuration-surface.md)
+
+### Para Infobip {#create-webhook-infobip}
+
+Para o Infobip, crie dois webhooks separados: um para eventos de Feedback e outro para eventos de Entrada.
+
+1. No painel à esquerda, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]**, selecione o menu **[!UICONTROL Webhooks de SMS]** em **[!UICONTROL Configurações de SMS]** e clique no botão **[!UICONTROL Criar Webhook]**.
+
+   ![](assets/webhook-1.png)
+
+1. Defina as configurações do webhook, conforme detalhado abaixo:
+
+   * **[!UICONTROL Nome]**: digite um nome para o webhook.
 
    * **[!UICONTROL Selecionar fornecedor de SMS]**: Infobip.
 
-   * **[!UICONTROL Tipo]**: Entrada.
+   * **[!UICONTROL Tipo]**: escolha Feedback ou Entrada. Você precisa criar ambos separadamente, aqui, começamos com a Entrada.
 
    * **[!UICONTROL Credenciais da API]**: escolha no menu suspenso suas [credenciais de API configuradas anteriormente](sms-configuration-infobip.md#api-credential).
 
-   * **[!UICONTROL Número de Telefone do Remetente &#x200B;]**: digite o número de telefone do Remetente &#x200B;que você deseja usar para suas comunicações.
+   * **[!UICONTROL Número de Telefone do Remetente]**: digite o número de telefone do remetente que você deseja usar para suas comunicações.
 
-     ![](assets/webhook-infobip-1.png){zoomable="yes"}
+   ![](assets/webhook-6.png)
 
-1. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar categorias de palavras-chave e, em seguida, configure-as dependendo do seu provedor de SMS:
+1. Comece a configurar as palavras-chave de entrada inserindo palavras-chave no campo **[!UICONTROL Inserir uma Palavra-chave]**. Várias palavras-chave podem ser adicionadas e removidas. Observe que palavras-chave não diferenciam maiúsculas de minúsculas.
 
-   * **[!UICONTROL Categoria de Palavra-chave de Entrada]**: Escolha suas categorias de palavra-chave: **[!UICONTROL Aceitação]**, **[!UICONTROL Recusa]**, **[!UICONTROL Aceitação Dupla]**, **[!UICONTROL Ajuda]** ou **[!UICONTROL Personalizado]**.
+   ![](assets/webhook-7.png)
 
-   * **[!UICONTROL Inserir uma palavra-chave]**: insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua mensagem. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar várias palavras-chave.
+1. Selecione uma categoria de palavra-chave no menu suspenso **[!UICONTROL Categoria de Palavra-chave de Entrada]** para configurar:
 
-     Para **[!UICONTROL Palavra-chave personalizada]**, use palavras-chave não relacionadas a consentimento para ações baseadas em lote em uma jornada.
+   * 
+     +++ Opt-In
 
-   * **[!UICONTROL Mensagem de resposta]**: selecione no menu suspenso a resposta personalizada que é enviada automaticamente.
+      * Ative as palavras-chave que aceitam os usuários com seu consentimento. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, seu número de telefone é aceito para receber mensagens SMS.
 
-   * **[!UICONTROL Recusa difusa]**: habilite esta opção para enviar uma resposta automática quando uma palavra-chave de recusa quase correspondente for detectada.
+      * Por padrão, as seguintes palavras-chave são ativadas: Subscribe, Yes, Unstop, Continue, Resume e Begin. Remova quaisquer palavras-chave padrão clicando em ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-   ![](assets/webhook-infobip-2.png){zoomable="yes"}
+      * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave de aceitação.
 
-1. Digite uma **[!UICONTROL Mensagem de Resposta Padrão]** enviada automaticamente quando uma mensagem de entrada não corresponde a nenhuma palavra-chave ou categoria configurada.
+   +++
 
-1. Clique em **[!UICONTROL Enviar]** quando terminar a configuração do seu Webhook.
+   * 
+     +++ Recusar
 
-1. Para criar um webhook **[!UICONTROL Feedback]**, siga as mesmas etapas descritas acima, selecionando **[!UICONTROL Feedback]** como seu webhook **[!UICONTROL Type]**.
+      * Ative palavras-chave que recusam usuários e remova o consentimento para enviar mensagens de texto. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, o número de telefone dele não recebe mensagens SMS.
 
-1. No menu **[!UICONTROL Webhooks]**, você pode editar ou excluir webhooks existentes, ou acessar e copiar a **[!UICONTROL URL do Webhook]** para integração com o provedor de SMS.
+      * Por padrão, as seguintes palavras-chave são ativadas: Stop, Quit, Cancel, End, Unsubscribe, No. Remova quaisquer palavras-chave padrão clicando em ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-   ![](assets/sms_byo_7.png){zoomable="yes"}
+      * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave de recusa.
 
-Depois de criar e definir as configurações de entrada para o Webhook, agora é necessário criar uma [configuração de canal](sms-configuration-surface.md) para mensagens SMS.
+      * Habilite a **[!UICONTROL Lógica Difusa]** para detectar palavras-chave semelhantes a palavras-chave de Recusa configuradas. Se a resposta de um usuário for fechada, mas não exata, a mensagem inserida no campo **[!UICONTROL Resposta Automática Difusa]** será enviada. Normalmente, essa mensagem indica que a recusa não ocorreu e especifica a palavra-chave exata necessária para cancelar a inscrição.
 
-Depois de configurado, você pode aproveitar todos os recursos de canal prontos para uso, como criação de mensagens, personalização, rastreamento de links e relatórios.
+   +++
 
->[!TAB Sinch]
+   * 
+     +++ Aceitação dupla
+
+      * Ative palavras-chave para o requisito de aceitação dupla. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, ele não é totalmente aceito nesse estágio. Esse fluxo de trabalho de consentimento em duas etapas requer que os usuários confirmem sua aceitação com uma segunda palavra-chave.
+
+      * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando uma palavra-chave de aceitação dupla é correspondida. Essa mensagem instrui o usuário a inserir uma palavra-chave de aceitação para concluir o processo de aceitação.
+
+   +++
+
+   * 
+     +++ Ajuda
+
+      * Ative palavras-chave que fornecem uma resposta padrão quando a ajuda é solicitada. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, ele recebe a mensagem Ajuda.
+
+      * Por padrão, as seguintes palavras-chave são ativadas: Ajuda, Informações, Informações. Remova quaisquer palavras-chave padrão clicando em ![](assets/do-not-localize/Smock_Close_18_N.svg).
+
+      * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave da Ajuda.
+
+   +++
+
+   * 
+     +++ Personalizado
+
+      * Configure uma única palavra-chave personalizada. Quando a mensagem de um usuário corresponde a esta palavra-chave, ela é gravada no conjunto de dados **[!UICONTROL Acompanhamento de feedback]** da mensagem para criação de relatórios e público-alvo.
+
+      * Crie um Público (streaming ou lote) que faça referência a essa palavra-chave para uso em suas jornadas e campanhas.
+
+   +++
+
+1. Insira uma **[!UICONTROL Mensagem de Resposta Padrão]**. Esta mensagem é enviada automaticamente quando a resposta de um usuário não corresponde a nenhuma palavra-chave configurada.
+
+   ![](assets/webhook-8.png)
+
+1. Clique em **[!UICONTROL Enviar]** para salvar a configuração do webhook.
+
+1. No menu **[!UICONTROL Webhooks]**, agora é necessário criar um webhook **Feedback** para o Infobip.
+
+1. Defina as configurações do webhook, conforme detalhado abaixo:
+
+   * **[!UICONTROL Nome]**: digite um nome para o webhook.
+
+   * **[!UICONTROL Selecionar fornecedor de SMS]**: Infobip.
+
+   * **[!UICONTROL Tipo]**: Escolher Comentários.
+
+   ![](assets/webhook-9.png)
+
+1. Clique em **[!UICONTROL Enviar]** para salvar sua configuração de webhook de Comentários.
+
+1. No menu **[!UICONTROL Webhooks]**, você pode editar ou excluir webhooks existentes.
+
+1. Acesse os Webhooks recém-criados e copie a **[!UICONTROL URL do Webhook]** de cada um deles.
+
+   ![](assets/webhook-10.png)
+
+1. Agora você pode usar esses URLs para ativar URLs de retorno de chamada para trazer eventos de feedback e de entrada para a Journey Optimizer.
+
+Se o webhook usar credenciais de API anexadas a uma configuração de canal existente, o webhook entrará em vigor imediatamente. Caso contrário, crie uma nova configuração de canal.
+
+➡️[Saiba mais sobre a configuração de canal](sms-configuration-surface.md)
+
+### Para provedor personalizado {#create-webhook-custom}
+
+Para provedores de SMS personalizados, crie dois webhooks separados: um para eventos de Feedback e outro para eventos de Entrada.
 
 1. No painel à esquerda, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]**, selecione o menu **[!UICONTROL Webhooks de SMS]** em **[!UICONTROL Configurações de SMS]** e clique no botão **[!UICONTROL Criar Webhook]**.
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+   ![](assets/webhook-1.png)
 
-1. Defina as configurações do Webhook, conforme detalhado abaixo:
+1. Defina as configurações do webhook, conforme detalhado abaixo:
 
-   * **[!UICONTROL Nome]**: digite um nome para o seu Webhook.
+   * **[!UICONTROL Nome]**: digite um nome para o webhook.
 
-   * **[!UICONTROL Selecionar fornecedor de SMS]**: Sinch.
+   * **[!UICONTROL Selecionar fornecedor de SMS]**: personalizado.
 
-   * **[!UICONTROL Tipo]**: Entrada.
+   * **[!UICONTROL Tipo]**: escolha Feedback ou Entrada. Você precisa criar ambos separadamente, aqui, começamos com a Entrada.
 
-   * **[!UICONTROL Credenciais da API]**: escolha no menu suspenso suas [credenciais de API configuradas anteriormente](sms-configuration-sinch.md#create-api).
+   * **[!UICONTROL Credenciais da API]**: escolha no menu suspenso suas [credenciais de API configuradas anteriormente](sms-configuration-custom.md).
 
-   * **[!UICONTROL Número de Telefone do Remetente &#x200B;]**: digite o número de telefone do Remetente &#x200B;que você deseja usar para suas comunicações.
+   * **[!UICONTROL Número de Telefone do Remetente]**: digite o número de telefone do remetente que você deseja usar para suas comunicações.
 
-     ![](assets/webhook-sinch-1.png){zoomable="yes"}
+   ![](assets/webhook-11.png)
 
-1. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar categorias de palavras-chave e, em seguida, configure-as dependendo do seu provedor de SMS:
+1. Comece a configurar as palavras-chave de entrada inserindo palavras-chave no campo **[!UICONTROL Inserir uma Palavra-chave]**. Várias palavras-chave podem ser adicionadas e removidas. Observe que palavras-chave não diferenciam maiúsculas de minúsculas.
 
-   * **[!UICONTROL Categoria de Palavra-chave de Entrada]**: Escolha suas categorias de palavra-chave: **[!UICONTROL Aceitação]**, **[!UICONTROL Recusa]**, **[!UICONTROL Aceitação Dupla]**, **[!UICONTROL Ajuda]** ou **[!UICONTROL Personalizado]**.
+   ![](assets/webhook-12.png)
 
-   * **[!UICONTROL Inserir uma palavra-chave]**: insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua mensagem. Clique em ![](assets/do-not-localize/Smock_Add_18_N.svg) para adicionar várias palavras-chave.
+1. Selecione uma categoria de palavra-chave no menu suspenso **[!UICONTROL Categoria de Palavra-chave de Entrada]** para configurar:
 
-     Para **[!UICONTROL Palavra-chave personalizada]**, use palavras-chave não relacionadas a consentimento para ações baseadas em lote em uma jornada.
+   * 
+     +++ Opt-In
 
-   * **[!UICONTROL Mensagem de resposta]**: selecione no menu suspenso a resposta personalizada que é enviada automaticamente.
+      * Ative as palavras-chave que aceitam os usuários com seu consentimento. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, seu número de telefone é aceito para receber mensagens SMS.
 
-   * **[!UICONTROL Recusa difusa]**: habilite esta opção para enviar uma resposta automática quando uma palavra-chave de recusa quase correspondente for detectada.
+      * Por padrão, as seguintes palavras-chave são ativadas: Subscribe, Yes, Unstop, Continue, Resume e Begin. Remova quaisquer palavras-chave padrão clicando em ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-   ![](assets/webhook-sinch-2.png){zoomable="yes"}
+      * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave de aceitação.
 
-1. Digite uma **[!UICONTROL Mensagem de Resposta Padrão]** enviada automaticamente quando uma mensagem de entrada não corresponde a nenhuma palavra-chave ou categoria configurada.
+   +++
 
-1. Clique em **[!UICONTROL Enviar]** quando terminar a configuração do seu Webhook.
+   * 
+     +++ Recusar
 
-1. No menu **[!UICONTROL Webhooks]**, clique no ![ícone bin](assets/do-not-localize/Smock_Delete_18_N.svg) para excluir seu Webhook.
+      * Ative palavras-chave que recusam usuários e remova o consentimento para enviar mensagens de texto. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, o número de telefone dele não recebe mensagens SMS.
 
-1. Para modificar a configuração existente, localize o Webhook desejado e clique na opção **[!UICONTROL Editar]** para fazer as alterações necessárias.
+      * Por padrão, as seguintes palavras-chave são ativadas: Stop, Quit, Cancel, End, Unsubscribe, No. Remova quaisquer palavras-chave padrão clicando em ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-1. Acesse e copie sua nova **[!UICONTROL URL do Webhook]** do **[!UICONTROL Webhook]** enviado anteriormente.
+      * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave de recusa.
 
-   ![](assets/sms_byo_7.png){zoomable="yes"}
+      * Habilite a **[!UICONTROL Lógica Difusa]** para detectar palavras-chave semelhantes a palavras-chave de Recusa configuradas. Se a resposta de um usuário for fechada, mas não exata, a mensagem inserida no campo **[!UICONTROL Resposta Automática Difusa]** será enviada. Normalmente, essa mensagem indica que a recusa não ocorreu e especifica a palavra-chave exata necessária para cancelar a inscrição.
 
-Depois de criar e definir as configurações de entrada para o Webhook, agora é necessário criar uma [configuração de canal](sms-configuration-surface.md) para mensagens SMS.
+   +++
 
-Depois de configurado, você pode aproveitar todos os recursos de canal prontos para uso, como criação de mensagens, personalização, rastreamento de links e relatórios.
+   * 
+     +++ Aceitação dupla
 
-<!--
->[!TAB Twilio]
+      * Ative palavras-chave para o requisito de aceitação dupla. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, ele não é totalmente aceito nesse estágio. Esse fluxo de trabalho de consentimento em duas etapas requer que os usuários confirmem sua aceitação com uma segunda palavra-chave.
 
-1. In the left rail, navigate to **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]**, select the **[!UICONTROL SMS Webhooks]** menu under **[!UICONTROL SMS settings]**, and click the **[!UICONTROL Create Webhook]** button.
+      * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando uma palavra-chave de aceitação dupla é correspondida. Essa mensagem instrui o usuário a inserir uma palavra-chave de aceitação para concluir o processo de aceitação.
 
-    ![](assets/sms_byo_5.png){zoomable="yes"}
+   +++
 
-1. Configure your Webhook Settings, as detailed below:
+   * 
+     +++ Ajuda
 
-    * **[!UICONTROL Name]**: Enter a name for your Webhook.
+      * Ative palavras-chave que fornecem uma resposta padrão quando a ajuda é solicitada. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, ele recebe a mensagem Ajuda.
 
-    * **[!UICONTROL Select SMS vendor]**: Twilio.
+      * Por padrão, as seguintes palavras-chave são ativadas: Ajuda, Informações, Informações. Remova quaisquer palavras-chave padrão clicando em ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-    * **[!UICONTROL Type]**: Inbound.
+      * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave da Ajuda.
 
-    * **[!UICONTROL API credentials]**: Choose from the drop-down you [previously configured API credentials](sms-configuration-twilio.md#create-api).
+   +++
 
-    * **[!UICONTROL Sender Phone Number ​]**: Enter the Sender phone number ​you want to use for your communications.
-        
-1. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add your keywords categories, then, configure them depending on your SMS provider:
+   * 
+     +++ Personalizado
 
-    * **[!UICONTROL Inbound Keyword Category]**: Choose your keyword categories either **[!UICONTROL Opt-In]**, **[!UICONTROL Opt-Out]**, **[!UICONTROL Double Opt-In]**, **[!UICONTROL Help]** or **[!UICONTROL Custom]**. 
+      * Configure uma única palavra-chave personalizada. Quando a mensagem de um usuário corresponde a esta palavra-chave, ela é gravada no conjunto de dados **[!UICONTROL Acompanhamento de feedback]** da mensagem para criação de relatórios e público-alvo.
 
-    * **[!UICONTROL Enter a keyword]**: Enter the default or custom keywords that will automatically trigger your message. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add multiple keywords.
+      * Crie um Público (streaming ou lote) que faça referência a essa palavra-chave para uso em suas jornadas e campanhas.
 
-        For **[!UICONTROL Custom keyword]**, use non-consent–related keywords for batch-based actions within a journey.
+   +++
 
-    * **[!UICONTROL Reply Message]**: Select from the drop-down the custom response that is automatically sent.
+1. Insira uma **[!UICONTROL Mensagem de Resposta Padrão]**. Esta mensagem é enviada automaticamente quando a resposta de um usuário não corresponde a nenhuma palavra-chave configurada.
 
-    * **[!UICONTROL Fuzzy Opt-out]**: Enable this option to send an automatic reply when a near-match opt-out keyword is detected.
+   ![](assets/webhook-13.png)
 
-1. Enter a **[!UICONTROL Default Reply Message]** automatically sent when an inbound message does not match any configured keyword or category.
+1. Crie uma carga personalizada que corresponda ao JSON proveniente do provedor. Observe que o único formato de webhook compatível é o JSON. Os dados de formulário para webhooks não são compatíveis.
 
-1. Click **[!UICONTROL Submit]** when you finished the configuration of your Webhook.
+   O webhook de entrada requer os seguintes campos para receber valores do webhook do seu provedor:
 
-1. In the **[!UICONTROL Webhooks]** menu, click the ![bin icon](assets/do-not-localize/Smock_Delete_18_N.svg) to delete your Webhook.
+   * **InboundMessage**: a mensagem ou palavra-chave de entrada recebida do usuário.
+   * **ProfileNumber**: o número de telefone do usuário que enviou a mensagem.
+   * **RequestID**: um identificador exclusivo fornecido pelo seu provedor de SMS para identificar uma transação específica.
+   * **OriginTimestamp**: O carimbo de data/hora quando a mensagem é recebida, no formato UTC.
+   * **InboundNumber**: o número de telefone usado para esta configuração de webhook.
 
-1. To modify existing configuration, locate the desired Webhook and click the **[!UICONTROL Edit]** option to make the necessary changes.
+   +++Exemplo de conteúdo
 
-1. Access and copy your new **[!UICONTROL Webhook URL]** from your previously submitted **[!UICONTROL Webhook]**.
+       &quot;json
+       {
+       &quot;mensagem de entrada&quot;: &quot;{{inboundMessage}}&quot;,
+       &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
+       &quot;requestId&quot;: &quot;{{requestId}}&quot;,
+       &quot;originTimestamp&quot;: &quot;{{originTimestamp}}&quot;,
+       &quot;inboundNumber&quot;: &quot;{{inboundNumber}}&quot;
+       
+       &quot;
+   +++
 
-After creating and configuring the inbound settings for the Webhook, you now need to create a [channel configuration](sms-configuration-surface.md) for SMS messages. 
+1. Quando o arquivo JSON for criado, clique em **[!UICONTROL Exibir editor de carga]**, copie e cole sua carga JSON no editor e salve-a.
 
-Once configured, you can leverage all out-of-the-box channel capabilities such as message authoring, personalization, link tracking, and reporting.
--->
+   ![](assets/webhook-14.png)
 
->[!ENDTABS]
+1. Clique em **[!UICONTROL Enviar]** para salvar a configuração do webhook.
 
+1. No menu **[!UICONTROL Webhooks]**, agora é necessário criar um webhook **Feedback** para o provedor personalizado.
 
-## Vídeo tutorial {#video}
+1. Defina as configurações do webhook, conforme detalhado abaixo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+   * **[!UICONTROL Nome]**: digite um nome para o webhook.
+
+   * **[!UICONTROL Selecionar fornecedor de SMS]**: personalizado.
+
+   * **[!UICONTROL Tipo]**: Escolher Comentários.
+
+   ![](assets/webhook-15.png)
+
+1. Crie uma carga personalizada que corresponda ao formato JSON do seu provedor. Observe que o único formato de webhook compatível é o JSON. Os dados de formulário para webhooks não são compatíveis.
+
+   O webhook de feedback requer os seguintes campos para receber valores do webhook do seu provedor:
+
+   * **Referência de Cliente**: um identificador exclusivo retornado na carga para fins de registro em log.
+   * **Código**: o código de falha fornecido pelo seu provedor de SMS.
+   * **Status**: o status de falha fornecido pelo seu provedor de SMS.
+
+   +++Exemplo de conteúdo
+
+       &quot;json
+       {
+       &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
+       &quot;status&quot;: [
+       {
+       &quot;código&quot;: &quot;{{failureCode}}&quot;,
+       &quot;status&quot;: &quot;{{feedbackStatus}}&quot;
+       
+       ]
+       
+       &quot;
+   
+   +++
+
+1. Clique em **[!UICONTROL Exibir editor de carga]**, copie e cole sua carga JSON no editor e salve-a.
+
+   ![](assets/webhook-16.png)
+
+1. Clique em **[!UICONTROL Enviar]** para salvar sua configuração de webhook de Comentários.
+
+1. No menu **[!UICONTROL Webhooks]**, você pode editar ou excluir webhooks existentes.
+
+1. Acesse os Webhooks recém-criados e copie a **[!UICONTROL URL do Webhook]** de cada um deles.
+
+1. Configure seu provedor de SMS para enviar eventos de **Feedback** e **Entrada** para essas URLs de webhook no Journey Optimizer.
+
+   As instruções de configuração variam por provedor de SMS. Consulte a documentação do provedor para obter detalhes sobre como configurar URLs de retorno de chamada.
+
+Se o webhook usar credenciais de API anexadas a uma configuração de canal existente, o webhook entrará em vigor imediatamente. Caso contrário, crie uma nova configuração de canal.
+
+➡️[Saiba mais sobre a configuração de canal](sms-configuration-surface.md)
