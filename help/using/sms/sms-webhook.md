@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: cfe6fa417c81e7488a3f2f1313b08f346f1aeb03
+source-git-commit: f91abf82dff8f9cc9e16d769bdfb65725f5e2983
 workflow-type: tm+mt
 source-wordcount: '2742'
 ht-degree: 1%
@@ -104,7 +104,7 @@ Para a Conversação entre Sinch e Sinch, crie um único webhook que lida com ev
 
 1. Selecione uma categoria de palavra-chave no menu suspenso **[!UICONTROL Categoria de Palavra-chave de Entrada]** para configurar:
 
-   * &#x200B;
+   * 
      +++ Opt-In
 
       * Ative as palavras-chave que aceitam os usuários com seu consentimento. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, seu número de telefone é aceito para receber mensagens SMS.
@@ -113,9 +113,9 @@ Para a Conversação entre Sinch e Sinch, crie um único webhook que lida com ev
 
       * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave de aceitação.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Recusar
 
       * Ative palavras-chave que recusam usuários e remova o consentimento para enviar mensagens de texto. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, o número de telefone dele não recebe mensagens SMS.
@@ -126,9 +126,9 @@ Para a Conversação entre Sinch e Sinch, crie um único webhook que lida com ev
 
       * Habilite a **[!UICONTROL Lógica Difusa]** para detectar palavras-chave semelhantes a palavras-chave de Recusa configuradas. Se a resposta de um usuário for fechada, mas não exata, a mensagem inserida no campo **[!UICONTROL Resposta Automática Difusa]** será enviada. Normalmente, essa mensagem indica que a recusa não ocorreu e especifica a palavra-chave exata necessária para cancelar a inscrição.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Aceitação dupla
 
       * Ative palavras-chave para o requisito de aceitação dupla. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, ele não é totalmente aceito nesse estágio. Esse fluxo de trabalho de consentimento em duas etapas requer que os usuários confirmem sua aceitação com uma segunda palavra-chave.
@@ -137,7 +137,7 @@ Para a Conversação entre Sinch e Sinch, crie um único webhook que lida com ev
 
    +++
 
-   * &#x200B;
+   * 
      +++ Ajuda
 
       * Ative palavras-chave que fornecem uma resposta padrão quando a ajuda é solicitada. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, ele recebe a mensagem Ajuda.
@@ -146,16 +146,16 @@ Para a Conversação entre Sinch e Sinch, crie um único webhook que lida com ev
 
       * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave da Ajuda.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Personalizado
 
       * Configure uma única palavra-chave personalizada. Quando a mensagem de um usuário corresponde a esta palavra-chave, ela é gravada no conjunto de dados **[!UICONTROL Acompanhamento de feedback]** da mensagem para criação de relatórios e público-alvo.
 
       * Crie um Público (streaming ou lote) que faça referência a essa palavra-chave para uso em suas jornadas e campanhas.
 
-   +++
+     +++
 
 1. Insira uma **[!UICONTROL Mensagem de Resposta Padrão]**. Esta mensagem é enviada automaticamente quando a resposta de um usuário não corresponde a nenhuma palavra-chave configurada.
 
@@ -210,7 +210,7 @@ Para o Infobip, crie dois webhooks separados: um para eventos de Feedback e outr
 
 1. Selecione uma categoria de palavra-chave no menu suspenso **[!UICONTROL Categoria de Palavra-chave de Entrada]** para configurar:
 
-   * &#x200B;
+   * 
      +++ Opt-In
 
       * Ative as palavras-chave que aceitam os usuários com seu consentimento. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, seu número de telefone é aceito para receber mensagens SMS.
@@ -219,9 +219,9 @@ Para o Infobip, crie dois webhooks separados: um para eventos de Feedback e outr
 
       * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave de aceitação.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Recusar
 
       * Ative palavras-chave que recusam usuários e remova o consentimento para enviar mensagens de texto. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, o número de telefone dele não recebe mensagens SMS.
@@ -232,18 +232,18 @@ Para o Infobip, crie dois webhooks separados: um para eventos de Feedback e outr
 
       * Habilite a **[!UICONTROL Lógica Difusa]** para detectar palavras-chave semelhantes a palavras-chave de Recusa configuradas. Se a resposta de um usuário for fechada, mas não exata, a mensagem inserida no campo **[!UICONTROL Resposta Automática Difusa]** será enviada. Normalmente, essa mensagem indica que a recusa não ocorreu e especifica a palavra-chave exata necessária para cancelar a inscrição.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Aceitação dupla
 
       * Ative palavras-chave para o requisito de aceitação dupla. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, ele não é totalmente aceito nesse estágio. Esse fluxo de trabalho de consentimento em duas etapas requer que os usuários confirmem sua aceitação com uma segunda palavra-chave.
 
       * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando uma palavra-chave de aceitação dupla é correspondida. Essa mensagem instrui o usuário a inserir uma palavra-chave de aceitação para concluir o processo de aceitação.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Ajuda
 
       * Ative palavras-chave que fornecem uma resposta padrão quando a ajuda é solicitada. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, ele recebe a mensagem Ajuda.
@@ -252,16 +252,16 @@ Para o Infobip, crie dois webhooks separados: um para eventos de Feedback e outr
 
       * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave da Ajuda.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Personalizado
 
       * Configure uma única palavra-chave personalizada. Quando a mensagem de um usuário corresponde a esta palavra-chave, ela é gravada no conjunto de dados **[!UICONTROL Acompanhamento de feedback]** da mensagem para criação de relatórios e público-alvo.
 
       * Crie um Público (streaming ou lote) que faça referência a essa palavra-chave para uso em suas jornadas e campanhas.
 
-   +++
+     +++
 
 1. Insira uma **[!UICONTROL Mensagem de Resposta Padrão]**. Esta mensagem é enviada automaticamente quando a resposta de um usuário não corresponde a nenhuma palavra-chave configurada.
 
@@ -323,7 +323,7 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
 
 1. Selecione uma categoria de palavra-chave no menu suspenso **[!UICONTROL Categoria de Palavra-chave de Entrada]** para configurar:
 
-   * &#x200B;
+   * 
      +++ Opt-In
 
       * Ative as palavras-chave que aceitam os usuários com seu consentimento. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, seu número de telefone é aceito para receber mensagens SMS.
@@ -332,9 +332,9 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
 
       * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave de aceitação.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Recusar
 
       * Ative palavras-chave que recusam usuários e remova o consentimento para enviar mensagens de texto. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, o número de telefone dele não recebe mensagens SMS.
@@ -345,18 +345,18 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
 
       * Habilite a **[!UICONTROL Lógica Difusa]** para detectar palavras-chave semelhantes a palavras-chave de Recusa configuradas. Se a resposta de um usuário for fechada, mas não exata, a mensagem inserida no campo **[!UICONTROL Resposta Automática Difusa]** será enviada. Normalmente, essa mensagem indica que a recusa não ocorreu e especifica a palavra-chave exata necessária para cancelar a inscrição.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Aceitação dupla
 
       * Ative palavras-chave para o requisito de aceitação dupla. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, ele não é totalmente aceito nesse estágio. Esse fluxo de trabalho de consentimento em duas etapas requer que os usuários confirmem sua aceitação com uma segunda palavra-chave.
 
       * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando uma palavra-chave de aceitação dupla é correspondida. Essa mensagem instrui o usuário a inserir uma palavra-chave de aceitação para concluir o processo de aceitação.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Ajuda
 
       * Ative palavras-chave que fornecem uma resposta padrão quando a ajuda é solicitada. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, ele recebe a mensagem Ajuda.
@@ -365,16 +365,16 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
 
       * Use o campo **[!UICONTROL Responder Mensagem]** para criar uma mensagem que é enviada automaticamente quando a mensagem de entrada de um usuário corresponde a uma palavra-chave da Ajuda.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Personalizado
 
       * Configure uma única palavra-chave personalizada. Quando a mensagem de um usuário corresponde a esta palavra-chave, ela é gravada no conjunto de dados **[!UICONTROL Acompanhamento de feedback]** da mensagem para criação de relatórios e público-alvo.
 
       * Crie um Público (streaming ou lote) que faça referência a essa palavra-chave para uso em suas jornadas e campanhas.
 
-   +++
+     +++
 
 1. Insira uma **[!UICONTROL Mensagem de Resposta Padrão]**. Esta mensagem é enviada automaticamente quando a resposta de um usuário não corresponde a nenhuma palavra-chave configurada.
 
@@ -393,7 +393,7 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
    +++Exemplo de conteúdo
 
        &quot;json
-       &lbrace;
+       {
        &quot;mensagem de entrada&quot;: &quot;{{inboundMessage}}&quot;,
        &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
        &quot;requestId&quot;: &quot;{{requestId}}&quot;,
@@ -432,14 +432,14 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
    +++Exemplo de conteúdo
 
        &quot;json
-       &lbrace;
+       {
        &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;status&quot;: &lbrack;
-       &lbrace;
+       &quot;status&quot;: [
+       {
        &quot;código&quot;: &quot;{{failureCode}}&quot;,
        &quot;status&quot;: &quot;{{feedbackStatus}}&quot;
        
-       &rbrack;
+       ]
        
        &quot;
    
