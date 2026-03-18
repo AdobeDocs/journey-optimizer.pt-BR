@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
+source-git-commit: ba89ad814b81e6194832cdc0619b7ac6322c797c
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 34%
+source-wordcount: '2029'
+ht-degree: 33%
 
 ---
 
@@ -80,7 +80,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <td>
 <p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
 </td>
 </tr>
@@ -134,6 +134,11 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
   Data de disponibilidade: terça-feira, 16 de março de 2026
 
+* **Detalhes de pausa e retomada nos detalhes técnicos da jornada** - Os **detalhes técnicos** da jornada agora incluem informações adicionais de pausa e retomada: a data e a hora da última pausa e retomada, o nome para exibição e o identificador interno do usuário que executou cada ação e um conjunto completo de configurações de jornada pausadas, como comportamento de pausa, duração máxima da pausa e estado de retomada automática. [Saiba mais](../building-journeys/journey-properties.md)
+
+  Data de disponibilidade: terça-feira, 2 de março de 2026
+
+
 #### Configuração
 
 * **Alteração no Conjunto de Dados do Evento de Comentários do Destinatário Secundário do AJO** - O Conjunto de Dados do Evento de Comentários Cco de Email do AJO está sendo renomeado para Conjunto de Dados do Evento de Comentários do Destinatário Secundário do AJO.
@@ -141,13 +146,15 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
    * **Novos usuários e novas sandboxes**: o nome para exibição e o nome da tabela usam o novo nome.
    * **Usuários/organizações existentes com novas sandboxes**: o nome para exibição e o nome da tabela são alterados para o novo nome.
 
+     Data de disponibilidade: terça-feira, 2 de março de 2026
+
 ## Notas de versão de fevereiro de 2026 {#feb-26-01-rn}
 
 As seções [Novos recursos](#feb-26-01-features) e [Melhorias](#feb-26-01-improv) abordam recursos já disponíveis. A seção [Em breve](#coming-soon) lista os recursos e as melhorias programadas para lançamento no final de fevereiro.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
