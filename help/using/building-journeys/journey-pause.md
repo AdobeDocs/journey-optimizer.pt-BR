@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2626'
 ht-degree: 5%
 
 ---
@@ -116,6 +116,15 @@ Para retomar uma jornada pausada e começar a ouvir eventos de jornada novamente
 
 Na lista de suas jornadas, você pode retomar uma ou várias jornadas **Pausadas**. Para retomar um grupo de jornadas (_retomada em massa_), selecione-as e clique no botão **Retomar**, localizado na barra azul na parte inferior da tela. Observe que o botão **Retomar** só estará disponível quando as jornadas **Pausadas** forem selecionadas.
 
+## Visualização quando uma jornada foi pausada ou retomada {#view-pause-resume-info}
+
+Para ver quando uma jornada foi pausada ou retomada pela última vez e por quem, abra a jornada e vá para suas **propriedades** (clique no ícone de lápis ao lado do nome da jornada). Use o botão **Copiar detalhes técnicos** para copiar informações técnicas que incluam:
+
+* A data e a hora da última pausa e retomada
+* O nome para exibição e o identificador do usuário que executou a última pausa e o último currículo
+* Configurações de jornada pausadas (comportamento de pausa, duração máxima de pausa, estado de retomada automática, ID de pausa)
+
+Essas informações são úteis para solução de problemas, auditoria ou compartilhamento com o suporte. Para obter a lista completa dos campos copiados, consulte [Acessar as propriedades de uma jornada](journey-properties.md#access-properties).
 
 ## Aplicar um critério de saída em uma jornada pausada {#journey-exit-criteria}
 
@@ -202,7 +211,7 @@ Ao retomar esta jornada:
 
 ## Solução de problemas de descartes de perfis em jornadas pausadas {#discards-troubleshoot}
 
-Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
+Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
 
 * Para descartes que ocorrem antes que o perfil entre na jornada, use o seguinte código:
 

@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 97%
+source-wordcount: '4046'
+ht-degree: 93%
 
 ---
 
@@ -365,15 +365,17 @@ As seguintes medidas de proteção se aplicam à atividade de [leitura de públi
 
 * Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Eles só são avaliados diariamente no momento da avaliação diária do lote.
 * Na entrada da jornada, os perfis usam valores de atributo do instantâneo de público-alvo em lote. No entanto, quando um perfil atinge uma atividade de **Espera**, a jornada atualiza automaticamente os atributos do perfil, buscando os dados mais recentes do Serviço de perfil unificado (UPS). Isso significa que os atributos de perfil podem mudar durante a execução da jornada.
-* Para jornadas que usam uma atividade de **público-alvo de leitura**, há um número máximo de jornadas que podem ser iniciadas ao mesmo tempo. O sistema realizará novas tentativas, mas evite ter mais de cinco jornadas (com **Público-alvo de leitura**, agendadas ou iniciando “o mais rápido possível”) que se iniciem ao mesmo tempo, distribuindo-as ao longo do tempo, como, por exemplo, em intervalos de 5 a 10 minutos. Saiba mais sobre taxas de processamento de jornada [nesta seção](../building-journeys/entry-management.md#journey-processing-rate).
 * A atividade de **público-alvo de leitura** não pode ser usada com atividades do Adobe Campaign.
-* A atividade de **público-alvo de leitura** só pode ser usada como a primeira atividade de uma jornada ou após uma atividade de evento de negócios.
+* A atividade **Ler Público** só pode ser usada como uma primeira atividade em uma jornada ou após uma atividade de evento comercial.
 * Uma jornada só pode ter uma atividade de **público-alvo de leitura**.
-* Consulte também as recomendações de como usar a atividade **Público-alvo de leitura** descritas [nesta página](../building-journeys/read-audience.md).
+* A atividade **Read Audience** pode direcionar somente um público-alvo por jornada. Se vários públicos-alvo forem necessários, mescle-os em um único público-alvo primeiro. [Saiba como combinar públicos usando fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md).
+* Cada organização pode executar até cinco instâncias de **Ler público-alvo** simultaneamente (agendadas ou acionadas por eventos comerciais) em todas as sandboxes e jornadas. Evite ter mais de cinco jornadas com **Ler público-alvo** iniciando exatamente ao mesmo tempo; separe-as de 5 a 10 minutos. Saiba mais sobre taxas de processamento de jornada [nesta seção](../building-journeys/entry-management.md#journey-processing-rate).
+* Taxa de transferência da sandbox: o sistema gerencia o processamento por sandbox com um máximo de 20.000 perfis por segundo compartilhados em todas as atividades **Ler público**. Atividades individuais podem ser configuradas de 500 a 20.000 perfis por segundo. Se os limites da sandbox forem atingidos, as tarefas poderão ser enfileiradas.
+* Tempo limite de processamento do trabalho: **Ler público-alvo** os trabalhos que não puderem ser processados em 12 horas serão automaticamente limpos e não serão executados.
 * As novas tentativas são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **público-alvo de leitura** ou um **evento de negócios**) ao recuperar o processo de exportação. Se ocorrer um erro durante a criação do processo de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado.
 * Para jornadas que usam IDs suplementares, a taxa de leitura da atividade Ler público-alvo para cada instância de jornada é limitada a um máximo de 500 perfis por segundo.
 
-Consulte também [esta página](../building-journeys/read-audience.md#must-read).
+Consulte também [recomendações e configuração](../building-journeys/read-audience.md#must-read) para a atividade Ler público-alvo.
 
 #### Atividade Atualizar perfil {#update-profile-g}
 

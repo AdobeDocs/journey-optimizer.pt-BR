@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 13%
+source-wordcount: '797'
+ht-degree: 12%
 
 ---
 
@@ -47,7 +47,7 @@ Se o trabalho de segmentação não for concluído dentro da janela de tempo def
 
 * Escolha um público para uma **campanha**, na qual a mensagem é enviada a todas as pessoas que pertencem ao público-alvo selecionado. [Saiba como definir o público-alvo de uma campanha](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Use uma atividade de orquestração de **Ler público** em uma jornada para fazer com que todos os indivíduos do público entrem na jornada e recebam as mensagens incluídas na jornada. Digamos que você tenha um público-alvo de “cliente prata”. Com essa atividade, você pode fazer com que todos os clientes Silver insiram uma jornada. Em seguida, você pode enviar a eles uma série de mensagens personalizadas. [Saiba como configurar uma atividade Ler público-alvo](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Use uma atividade de orquestração de **Ler público** em uma jornada para fazer com que todos os indivíduos do público entrem na jornada e recebam as mensagens incluídas na jornada. Digamos que você tenha um público-alvo de “cliente prata”. Com essa atividade, você pode fazer com que todos os clientes Silver insiram uma jornada. Em seguida, você pode enviar a eles uma série de mensagens personalizadas. [Saiba como configurar uma atividade Read audience](../building-journeys/read-audience.md#configuring-segment-trigger-activity). Para segmentar, excluir ou mesclar ramificações após sua entrada, consulte [Direcionamento de público-alvo no jornada](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   Após a entrada, use as atividades **Condição** para [segmentar por atributos ou comportamento, excluir parte da população ou mesclar ramificações](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 

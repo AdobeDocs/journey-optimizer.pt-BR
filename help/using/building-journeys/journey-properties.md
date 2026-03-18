@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2885'
-ht-degree: 15%
+source-wordcount: '3069'
+ht-degree: 14%
 
 ---
 
@@ -47,7 +47,33 @@ Nesta seção, defina o nome da jornada, adicione uma descrição e defina as pr
 >
 >Para jornadas ao vivo, essa tela exibe somente a data da publicação e o nome do usuário que publicou a jornada.
 
-A opção **Copiar detalhes técnicos** permite copiar informações técnicas sobre a jornada que a equipe de suporte pode usar para a solução de problemas. As seguintes informações foram copiadas: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+A opção **Copiar detalhes técnicos** permite copiar informações técnicas sobre a jornada que a equipe de suporte pode usar para a solução de problemas. As seguintes informações são copiadas:
+
+**Geral**
+
+* `JourneyVersion UID` - Identificador exclusivo desta versão da jornada
+* `OrgID` - Identificador de sua organização (IMS)
+* `orgName` - Nome da sua organização
+* `sandboxName` - Nome da sandbox onde a jornada é executada
+* `lastDeployedBy` - Usuário que publicou a jornada pela última vez
+* `lastDeployedAt` - Data e hora da última publicação
+
+
+**Pausar e retomar** (incluído quando a jornada foi pausada pelo menos uma vez)
+
+* `lastPausedAt` - Data e hora da última vez que a jornada foi pausada
+* `lastPausedBy` - Nome de exibição do usuário que executou a última pausa
+* `lastPausedById` - Identificador interno do usuário que executou a última pausa
+* `lastResumedAt` - Data e hora da última vez que a jornada foi retomada
+* `lastResumedBy` - Nome de exibição do usuário que executou a última retomada
+* `lastResumedById` - Identificador interno do usuário que executou a última retomada
+
+**Configurações de jornada pausadas** (em `pausedJourneySettings`, quando a jornada está ou foi pausada)
+
+* `pauseBehavior` - O que acontece com os perfis na jornada quando ela é pausada (por exemplo, descartá-los ou mantê-los no lugar)
+* `maxPauseDurationInMinutes` - Duração máxima de pausa em minutos, após a qual a jornada é retomada automaticamente (por exemplo, 20160 = 14 dias)
+* `transitionStateForAutoResume` - Estado aplicado quando a jornada é retomada automaticamente no final do período de pausa (por exemplo, parar ou continuar)
+* `pauseId` - Identificador exclusivo da instância de pausa atual
 
 Saiba mais sobre os campos técnicos relacionados a uma jornada para um determinado perfil e como usá-los [nesta página](expression/journey-properties.md).
 

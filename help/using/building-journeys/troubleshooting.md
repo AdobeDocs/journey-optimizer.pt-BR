@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 36%
+source-wordcount: '521'
+ht-degree: 35%
 
 ---
 
@@ -49,7 +49,7 @@ O sistema detecta dois tipos de problemas: **erros** e **avisos**. Os erros bloq
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 
-Erros e avisos globais para a jornada aparecem primeiro na lista. Os erros e avisos relacionados a atividades específicas são listados depois, por ordem de atividade ou aparência na jornada, da esquerda para a direita. Na parte inferior da lista de alertas, o botão **[!UICONTROL Copiar detalhes]** permite copiar informações técnicas sobre a jornada, que são úteis para solucionar problemas.
+Erros e avisos globais para a jornada aparecem primeiro na lista. Os erros e avisos relacionados a atividades específicas são listados depois, por ordem de atividade ou aparência na jornada, da esquerda para a direita. Na parte inferior da lista de alertas, o botão **[!UICONTROL Copiar detalhes]** permite copiar informações técnicas sobre a jornada, que são úteis para solucionar problemas. Para obter a lista de campos copiados (incluindo informações de pausa e retomada), consulte [Copiar detalhes técnicos](journey-properties.md#access-properties) nas propriedades da jornada.
 
 ## Adicionar um caminho alternativo {#canvas-add-path}
 
