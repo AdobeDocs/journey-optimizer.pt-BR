@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 87814676a7087373a22dcbd6b60ec909f1d4dcf9
+source-git-commit: e0ad37aeba1bf577074382fc89c873af4c57b560
 workflow-type: tm+mt
-source-wordcount: '3247'
+source-wordcount: '3241'
 ht-degree: 27%
 
 ---
@@ -80,7 +80,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <td>
 <p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
 </td>
 </tr>
@@ -415,10 +415,11 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Pastas para jornadas e campanhas** - Agora é possível organizar suas jornadas e campanhas em pastas, permitindo uma navegação estruturada e um gerenciamento mais fácil para equipes que trabalham com grandes volumes de conteúdo. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
 
-* **Alteração no Conjunto de Dados do Evento de Comentários do Destinatário Secundário do AJO** - O Conjunto de Dados do Evento de Comentários Cco de Email do AJO está sendo renomeado para Conjunto de Dados do Evento de Comentários do Destinatário Secundário do AJO.
-   * **Usuários existentes**: somente o nome para exibição é alterado. O nome da tabela subjacente permanece inalterado.
-   * **Novos usuários e novas sandboxes**: o nome para exibição e o nome da tabela usam o novo nome.
-   * **Usuários/organizações existentes com novas sandboxes**: o nome para exibição e o nome da tabela são alterados para o novo nome.
+* **Conjunto de Dados do Evento de Feedback do Destinatário Secundário do AJO renomeado** - O Conjunto de Dados do Evento de Feedback Cco de Email do AJO foi renomeado para Conjunto de Dados do Evento de Feedback do Destinatário Secundário do AJO. O impacto varia dependendo da sua situação:
+
+   * **Usuários existentes**: somente o nome para exibição é atualizado. O nome da tabela subjacente permanece inalterado.
+   * **Novos usuários e sandboxes**: o nome de exibição e o nome da tabela refletem o novo nome.
+   * **Usuários existentes com novas sandboxes**: o nome de exibição e o nome da tabela são atualizados para o novo nome.
 
   Data de disponibilidade: terça-feira, 2 de março de 2026
 
@@ -430,11 +431,11 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 ## Notas de versão de fevereiro de 2026 {#feb-26-01-rn}
 
-As seções [Novos recursos](#feb-26-01-features) e [Melhorias](#feb-26-01-improv) abordam recursos já disponíveis. A seção [Em breve](#coming-soon) lista os recursos e as melhorias programadas para lançamento no final de fevereiro.
+As seções [Novos recursos](#feb-26-01-features) e [Melhorias](#feb-26-01-improv) abordam recursos já disponíveis. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in February.-->
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
