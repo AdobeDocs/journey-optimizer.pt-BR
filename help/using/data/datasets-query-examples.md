@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: conjunto de dados, otimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1086'
 ht-degree: 2%
 
 ---
@@ -25,10 +25,10 @@ Nesta página, você encontrará a lista de conjuntos de dados do Adobe Journey 
 * [Conjunto de dados do evento de experiência de rastreamento de push](#push-tracking-experience-event-dataset)
 * [Jornada evento de etapa](#journey-step-event)
 * [Conjunto de dados de evento de decisão](#ode-decisionevents)
-* [Conjunto de dados do evento de feedback CCO](#bcc-feedback-event-dataset)
+* [Conjunto de dados secundário de eventos de feedback de recipient (CCO)](#bcc-feedback-event-dataset)
 * [Conjunto de dados da entidade](#entity-dataset)
 
-Para exibir a lista completa de campos e atributos para cada esquema, consulte o [Dicionário de esquema do Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}.
+Para exibir a lista completa de campos e atributos de cada esquema, consulte o [Dicionário de esquema do Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}.
 
 Consulte também vários [exemplos usados com frequência para consultar Eventos de Etapa de Jornada](../reports/query-examples.md).
 
@@ -336,11 +336,11 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## Conjunto de dados do evento de feedback CCO{#bcc-feedback-event-dataset}
+## Conjunto de dados secundário de eventos de feedback de recipient (CCO){#bcc-feedback-event-dataset}
 
-_Nome na interface: Conjunto de Dados de Eventos de Comentários Cco do AJO (conjunto de dados do sistema)_
+_Nome na interface: Conjunto de Dados de Evento de Comentários de Destinatário Secundário do AJO (conjunto de dados do sistema). No Serviço de consulta, a tabela do conjunto de dados ainda pode se chamar `ajo_bcc_feedback_event_dataset`._
 
-Conjunto de dados para armazenar informações de Mensagens CCO.
+Conjunto de dados para mensagens de email CCO (destinatário secundário) quando o arquivamento CCO está habilitado.
 
 Consultar todas as mensagens com CCO em 2 dias (para uma campanha específica):
 
