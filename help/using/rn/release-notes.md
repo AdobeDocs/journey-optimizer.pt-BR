@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f2c8bcfb39ba3c2bd325bc07f000e525cd2cf530
+source-git-commit: 4bf9ea2e8d2be7fcc098fec13e6f829e6340b315
 workflow-type: tm+mt
-source-wordcount: '3136'
-ht-degree: 26%
+source-wordcount: '3046'
+ht-degree: 27%
 
 ---
 
@@ -37,55 +37,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 
 ### Novos recursos {#march-26-features}
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>LLM email optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now optimize your email content for deliverability using large language model (LLM) technology. The LLM email optimizer analyzes your email content and provides actionable recommendations to improve sender reputation, avoid spam filters, and enhance overall deliverability performance.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent: criar caso de uso de campanha orquestrada</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O <strong>Journey Agent</strong>, da plataforma Adobe Experience Platform Agent Orchestrator, agora pode criar casos de uso completos da <strong>Campanha Orquestrada</strong> por meio de uma interface de linguagem natural. Descreva a meta e os requisitos da campanha em linguagem simples, e o Journey Agent configura a estrutura da campanha, as atividades e o direcionamento para você.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent: criação de conteúdo de canal</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -112,21 +64,6 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tr>
 <td>
 <p>Agora você pode acionar uma campanha orquestrada por meio da API. Configure a campanha do target como "Triggered by a signal" (Acionado por um sinal) e publique-a. Em seguida, use uma chamada de API para acionar a campanha. A chamada da API pode incluir parâmetros que estarão disponíveis como variáveis na campanha acionada.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Atividade de query incremental em Campanhas orquestradas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Uma nova atividade de <strong>Consulta incremental</strong> está disponível em Campanhas orquestradas. Essa atividade consulta apenas registros novos ou atualizados desde a última execução do fluxo de trabalho, reduzindo significativamente o tempo de processamento e melhorando a eficiência de campanhas recorrentes direcionadas a grandes conjuntos de dados.</p>
 </td>
 </tr>
 </tbody>
@@ -235,24 +172,7 @@ As jornadas existentes que usam as atividades de canal herdadas continuarão a f
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Monitoramento do modelo de IA</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Journey Optimizer agora permite monitorar a integridade, o status do treinamento e o desempenho dos modelos de IA de decisão. Isso permite verificar o sucesso do treinamento, solucionar problemas de falhas e entender o impacto em seus resultados, a fim de selecionar as melhores ofertas para cada cliente que usa a IA. Observe que esse recurso está disponível somente para <strong>Decisão</strong> (não para modelos herdados do Gerenciamento de decisões).</p>
-<p>Este recurso está disponível atualmente apenas para <strong>modelos de otimização personalizada</strong> (não de otimização automática).</p>
-<p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
-<p>Para obter mais informações, consulte a <a href="../experience-decisioning/ranking/ai-model-observability.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: terça-feira, 9 de março de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 <table>
 <thead>
@@ -273,21 +193,6 @@ As jornadas existentes que usam as atividades de canal herdadas continuarão a f
 <table>
 <thead>
 <tr>
-<th><strong>Caixa de entrada de mensagens</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Uma nova <strong>Caixa de Entrada de Mensagem</strong> já está disponível no Adobe Journey Optimizer, fornecendo uma exibição centralizada de mensagens no aplicativo, de push e SMS recebidas. Os recipients podem acessar e interagir com todas as suas mensagens em um único local, permitindo cenários mais avançados de engajamento e reengajamento.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Converter imagens em modelos de conteúdo de email</strong><br/></th>
 </tr>
 </thead>
@@ -296,6 +201,22 @@ As jornadas existentes que usam as atividades de canal herdadas continuarão a f
 <td>
 <p>Agora é possível converter imagens em modelos de conteúdo de email diretamente no Journey Optimizer. Use a análise baseada em IA para gerar automaticamente modelos estruturados do HTML a partir de referências visuais, reduzindo significativamente o tempo de design de email.</p>
 <p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral). <a href="../content-management/image-to-html.md">Saiba mais</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Caixa de entrada de mensagens</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma nova <strong>caixa de entrada de mensagens</strong> está disponível no Adobe Journey Optimizer, fornecendo uma exibição centralizada de mensagens no aplicativo, de push e SMS recebidas. Os recipients podem acessar e interagir com todas as suas mensagens em um único local, permitindo cenários mais avançados de engajamento e reengajamento.</p>
+<p>Data de disponibilidade: quarta-feira, 31 de março de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -357,21 +278,48 @@ As jornadas existentes que usam as atividades de canal herdadas continuarão a f
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent: criação de conteúdo de canal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitoramento do modelo de IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer agora permite monitorar a integridade, o status do treinamento e o desempenho dos modelos de IA de decisão. Isso permite verificar o sucesso do treinamento, solucionar problemas de falhas e entender o impacto em seus resultados, a fim de selecionar as melhores ofertas para cada cliente que usa a IA. Observe que esse recurso está disponível somente para <strong>Decisão</strong> (não para modelos herdados do Gerenciamento de decisões).</p>
+<p>Este recurso está disponível atualmente apenas para <strong>modelos de otimização personalizada</strong> (não de otimização automática).</p>
+<p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
+<p>Para obter mais informações, consulte a <a href="../experience-decisioning/ranking/ai-model-observability.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: terça-feira, 9 de março de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ### Aprimoramentos {#march-26-improv}
 
 Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
-#### Jornadas
-
-* **Envio de mensagens de saída em ondas no jornada** - Agora é possível agendar mensagens do Journey Optimizer jornada para serem entregues em lotes controlados ao longo do tempo. [Saiba mais](../building-journeys/send-using-waves.md)
-
-  Anteriormente lançado com disponibilidade limitada para uso no jornada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).
-
-  Data de disponibilidade: terça-feira, 16 de março de 2026
-
-* **Detalhes de pausa e retomada nos detalhes técnicos da jornada** - Os **detalhes técnicos** da jornada agora incluem informações adicionais de pausa e retomada: a data e a hora da última pausa e retomada, o nome para exibição e o identificador interno do usuário que executou cada ação e um conjunto completo de configurações de jornada pausadas, como comportamento de pausa, duração máxima da pausa e estado de retomada automática. [Saiba mais](../building-journeys/journey-properties.md)
-
-  Data de disponibilidade: terça-feira, 2 de março de 2026
 
 #### Relatórios
 
@@ -411,13 +359,26 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Simplificação da dimensão do Target em Campanhas orquestradas** - Agora é possível selecionar facilmente ou deduzir automaticamente o direcionamento correto e as dimensões secundárias em Campanhas orquestradas para uma ativação de público precisa e eficiente.
 
+#### Jornadas
+
+* **Envio de mensagens de saída em ondas no jornada** - Agora é possível agendar mensagens do Journey Optimizer jornada para serem entregues em lotes controlados ao longo do tempo. [Saiba mais](../building-journeys/send-using-waves.md)
+
+  Anteriormente lançado com disponibilidade limitada para uso no jornada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).
+
+  Data de disponibilidade: terça-feira, 16 de março de 2026
+
+* **Detalhes de pausa e retomada nos detalhes técnicos da jornada** - Os **detalhes técnicos** da jornada agora incluem informações adicionais de pausa e retomada: a data e a hora da última pausa e retomada, o nome para exibição e o identificador interno do usuário que executou cada ação e um conjunto completo de configurações de jornada pausadas, como comportamento de pausa, duração máxima da pausa e estado de retomada automática. [Saiba mais](../building-journeys/journey-properties.md)
+
+  Data de disponibilidade: terça-feira, 2 de março de 2026
+
+
 ## Notas de versão de fevereiro de 2026 {#feb-26-01-rn}
 
 As seções [Novos recursos](#feb-26-01-features) e [Melhorias](#feb-26-01-improv) abordam recursos já disponíveis. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in February.-->
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
