@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: arquivamento, mensagens, HIPAA, CCO, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 255b8c701f1dbe273a8910e8ba81f1ac720cb2e9
+source-git-commit: 63b5f1504679deb8e7a912341b7a2b470033de13
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 6%
@@ -90,7 +90,7 @@ Para fazer isso, siga as etapas abaixo.
 
 1. Vá para **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Esquemas]** > **[!UICONTROL Procurar]** e selecione **[!UICONTROL Esquema do Evento de Comentários do Destinatário Secundário do AJO]**.
 
-   <!--<![](assets/preset-bcc-schema.png)-->
+   ![](assets/preset-bcc-schema.png){width="95%"}
 
 1. Clique para expandir a **[!UICONTROL _experiência]**, **[!UICONTROL customerJourneyManagment]** e depois **[!UICONTROL secondaryRecipientDetail]**.
 
@@ -102,7 +102,7 @@ Para fazer isso, siga as etapas abaixo.
 
 1. Selecione um namespace na lista suspensa.
 
-   <!--<![](assets/preset-bcc-schema-identity.png)-->
+   ![](assets/preset-bcc-schema-identity.png){width="85%"}
 
 1. Clique em **[!UICONTROL Aplicar]**.
 
@@ -116,11 +116,11 @@ Criar relatórios como tal no Cco não está disponível nos relatórios de jorn
 
 Para acessar este conjunto de dados por meio da interface, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Conjuntos de dados]** > **[!UICONTROL Procurar]**. Saiba mais sobre como acessar conjuntos de dados em [esta seção](../data/get-started-datasets.md#access-datasets).
 
-<!--![](assets/preset-bcc-dataset.png)-->
+![](assets/preset-bcc-dataset.png){width="85%"}
 
-Para executar consultas nesse conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
+Para executar consultas nesse conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
 
-![](assets/preset-bcc-queries.png)
+![](assets/preset-bcc-queries.png){width="100%"}
 
 Dependendo das informações que você está procurando, é possível executar as seguintes consultas.
 
@@ -145,7 +145,7 @@ Dependendo das informações que você está procurando, é possível executar a
    >
    >Para obter o parâmetro `<journey version id>`selecione a versão do jornada correspondente no menu **[!UICONTROL Gerenciamento de Jornadas]** > **[!UICONTROL Jornada]**. O ID da versão do jornada é exibido no final do URL exibido no navegador da Web. [Saiba mais sobre as versões do jornada](../building-journeys/publish-journey.md#journey-versions)
    >
-   >![](assets/preset-bcc-action-id.png)
+   >![](assets/preset-bcc-action-id.png){width="85%"}
 
 1. Execute esta consulta para buscar todos os eventos de feedback de mensagem (especialmente o status de feedback) gerados para uma mensagem específica direcionada a um usuário específico nos últimos dois dias:
 
@@ -229,7 +229,7 @@ O cabeçalho `x-message-profile-id` também é armazenado nos seguintes conjunto
 
 * Para acessar esses conjuntos de dados por meio da interface, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Conjuntos de dados]** > **[!UICONTROL Procurar]**. Saiba mais sobre como acessar conjuntos de dados em [esta seção](../data/get-started-datasets.md#access-datasets).
 
-* Use o Editor de Consultas fornecido pelo [Serviço de Consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
+* Use o Editor de Consultas fornecido pelo [Serviço de Consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
 
 Abaixo estão alguns exemplos de consultas que você pode executar para recuperar informações correspondentes às suas cópias CCO.
 
