@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: c047b3fb04e9867be98da845aa89b0b9d6f59df2
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 68%
@@ -65,7 +65,7 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 Ao integrar o Adobe Experience Manager com o Adobe Journey Optimizer, agora é possível incorporar facilmente os Fragmentos de conteúdo do AEM ao conteúdo de email do Journey Optimizer. Essa conexão simplifica o processo de acesso e aproveitamento do conteúdo do AEM, permitindo a criação de campanhas e jornadas personalizadas e dinâmicas.
 
-[![saiba mais](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-fragments.md)
+[![saiba mais](../assets/do-not-localize/learn-more-button.svg)](aem-fragments.md)
 
 >[!TAB Mídia dinâmica]
 
@@ -92,7 +92,7 @@ Saiba mais sobre o [Journey Optimizer + Adobe Express](../integrations/express.m
 
 ## GenStudio para marketing de desempenho
 
-O Adobe GenStudio for Performance Marketing é um aplicativo generativo de IA que permite que as equipes de marketing criem seus próprios anúncios e emails para impulsionar campanhas de marketing personalizadas e impactantes que seguem os padrões da sua marca e estão em conformidade com as políticas da sua empresa. Ao utilizar a tecnologia de IA do Adobe, ele fornece um conjunto abrangente de ferramentas que simplificam as complexidades da criação e do gerenciamento de conteúdo para que os criadores possam se concentrar na inovação.
+O Adobe GenStudio for Performance Marketing é um aplicativo generativo de IA que permite que as equipes de marketing criem seus próprios anúncios e emails para impulsionar campanhas de marketing personalizadas e impactantes que seguem os padrões da sua marca e estão em conformidade com as políticas da sua empresa. Ao utilizar a tecnologia Adobe AI, ele fornece um conjunto abrangente de ferramentas que simplifica as complexidades da criação e do gerenciamento de conteúdo para que os criadores possam se concentrar na inovação.
 
 Saiba mais sobre o [Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md).
 
@@ -121,7 +121,7 @@ Saiba mais sobre o [Journey Optimizer + Campaign Standard](../building-journeys/
 
 Use os módulos do Adobe Journey Optimizer no Adobe Workfront para criar, ler, atualizar ou excluir registros, ou executar uma chamada de API personalizada para a API do Adobe Journey Optimizer.
 
-Uma visão geral da principal etapa dessa integração está disponível [nesta publicação do blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=pt){target="_blank"}.
+Uma visão geral da principal etapa dessa integração está disponível [nesta publicação do blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Saiba mais sobre o Journey Optimizer + Adobe Workfront [na documentação do Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=pt-BR){target="_blank"}.
 
@@ -131,7 +131,7 @@ Se você estiver usando um sistema de terceiros para enviar mensagens ou se quis
 
 As ações personalizadas são ações adicionais definidas por usuários técnicos e disponibilizadas aos profissionais de marketing. Uma vez configuradas, elas são exibidas na paleta esquerda da jornada na categoria **[!UICONTROL Ação]**. Saiba mais [nesta página](../building-journeys/about-journey-activities.md#action-activities).
 
-Saiba mais sobre [Ações personalizadas](../action/about-custom-action-configuration.md).
+Saiba mais sobre [ações personalizadas](../action/about-custom-action-configuration.md).
 
 ## Fontes de dados externas {#integration-external-systems}
 
