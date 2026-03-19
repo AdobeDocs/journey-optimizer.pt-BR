@@ -11,16 +11,16 @@ keywords: jornada, campanha, orquestrado, comparação, escolher, decisão, flux
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: fc2dc5924f4998d1285dee9c19a0d7e71a1e5722
+source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1613'
 ht-degree: 3%
 
 ---
 
 # Jornadas versus campanhas: escolha a abordagem certa {#journeys-vs-campaigns}
 
-O [!DNL Adobe Journey Optimizer] oferece quatro formas principais de alcançar e envolver seus clientes: **Jornada**, **Campanhas de Ação**, **Campanhas acionadas por API** e **Campanhas Orquestradas**. Escolher a correta depende de você precisar de orquestração em tempo real do :1, difusões agendadas, mensagens orientadas por eventos ou fluxos de trabalho em lote complexos.
+O [!DNL Adobe Journey Optimizer] oferece duas formas principais de alcançar e envolver seus clientes: **Jornadas** e **Campanhas**. As jornadas foram projetadas para a orquestração em tempo real e em várias etapas, orientada pelo comportamento do cliente, enquanto as campanhas são mais adequadas para transmissões únicas ou programadas para um público definido. Depois de decidir sobre uma campanha, você pode escolher o tipo de campanha que melhor se adapta ao seu caso de uso.
 
 Este guia ajuda você a escolher com base no estilo de execução, nas necessidades de dados e no caso de uso, com uma comparação rápida, uma árvore de decisão e exemplos concretos.
 
