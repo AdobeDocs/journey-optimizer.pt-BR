@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 93%
 
 ---
 
@@ -94,6 +94,10 @@ O Adobe Journey Optimizer usa a estrutura de fontes da Adobe Experience Platform
 5. **Monitor** - Rastreie o fluxo de dados e resolva os problemas de sincronização
 
 Uma vez configuradas, as fontes são executadas automaticamente em segundo plano, mantendo os dados do cliente atualizados e prontos para uso nas jornadas.
+
+>[!NOTE]
+>
+>**Assimilação de dados para campanhas Orquestradas** - Para fontes de Captura de Dados de Alteração baseadas em arquivo usadas com campanhas Orquestradas, o campo `_change_request_type` é obrigatório. Os valores com suporte são `u` (substituição) ou `d` (exclusão). Esses valores devem estar em minúsculas `u` e `d`, e não em maiúsculas `U` e `D`. [Saiba mais sobre as medidas de proteção e limitações das campanhas orquestradas](../orchestrated/guardrails.md)
 
 ## Saiba mais {#learn-more}
 

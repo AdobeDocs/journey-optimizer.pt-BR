@@ -5,9 +5,9 @@ title: Medidas de proteção e limitações para campanhas orquestradas
 description: Saiba mais sobre as medidas de proteção e limitações das campanhas orquestradas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -33,15 +33,15 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * O número médio de atributos por esquema **não deve exceder 50 colunas** para manter a capacidade de gerenciamento e o desempenho.
 
-* Esquemas relacionais não podem ser habilitados para **Perfis** do Adobe Experience Platform. Somente esquemas XDM padrão são suportados para **Perfis** do Adobe Experience Platform. Esquemas relacionais podem ser ativados para Campanhas orquestradas ou Campanhas de ação. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Esquemas relacionais não podem ser habilitados para **Perfis** do Adobe Experience Platform. Somente esquemas XDM padrão são suportados para **Perfis** do Adobe Experience Platform. Esquemas relacionais podem ser ativados para Campanhas orquestradas ou Campanhas de ação. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
-### Assimilação de dados
+### Ingestão de dados {#data-ingestion}
 
 * É necessária a assimilação de perfil + dados relacionais.
 
 * Toda assimilação deve ocorrer via **fontes do Change Data Capture**:
 
-   * Para **baseado em arquivo**: o campo `_change_request_type` é obrigatório. Os valores com suporte são `U` (substituição) ou `D` (exclusão).
+   * Para **baseado em arquivo**: o campo `_change_request_type` é obrigatório. Os valores com suporte são `u` (substituição) ou `d` (exclusão). Esses valores devem estar em minúsculas `u` e `d`, e não em maiúsculas `U` e `D`.
 
    * Para **baseado em nuvem**: o log de tabela deve estar habilitado.
 
