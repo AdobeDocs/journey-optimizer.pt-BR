@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 7d176d5e2fbaa26d9b4ac22e08c7a86ccea22c45
+source-git-commit: e7586f50e9f806b7dccb6d88998c43a89feb392b
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1215'
 ht-degree: 10%
 
 ---
@@ -40,13 +40,11 @@ As principais etapas para criar uma jornada são detalhadas nesta página. Elas 
 Neste guia, você deverá:
 
 * Definir um ponto de entrada de jornada — um segmento de público ou um evento em tempo real
-* Adicionar ações de mensagem em canais (email, push ou SMS)
+* Adicione ações de mensagem em canais — email, push, SMS, no aplicativo, Web, experiência baseada em código, cartão de conteúdo e muito mais. [Ver canais com suporte](journey-action.md)
 * Testar sua jornada com perfis de teste antes da ativação
 * Publicar a jornada e monitorar o desempenho
 
-Crie jornadas de várias etapas para o cliente e inicie em tempo real uma sequência de interações, ofertas e mensagens entre canais. Essa abordagem garante que os clientes estejam envolvidos nos momentos ideais com base em suas ações e sinais de negócios relevantes. Os públicos-alvo são definidos com base no comportamento, nos dados contextuais e nos eventos comerciais. Os pré-requisitos dependem do seu caso de uso e do [tipo de jornada](entry-management.md#types-of-journeys) que você está criando.
-
-Saiba mais sobre como os perfis fluem pelas jornadas e taxas de processamento de jornada em [esta seção](entry-management.md#journey-processing-rate).
+Crie jornadas de várias etapas para o cliente e inicie em tempo real uma sequência de interações, ofertas e mensagens entre canais. Essa abordagem garante que os clientes estejam envolvidos nos momentos ideais com base em suas ações e sinais de negócios relevantes.
 
 <!--
 >[!TIP]
@@ -70,11 +68,9 @@ Os seguintes elementos são opcionais, mas podem ser obrigatórios, dependendo d
 
 >[!NOTE]
 >
->Se você for um engenheiro de dados responsável pela configuração técnica (eventos, fontes de dados e ações), consulte [esta seção](../configuration/about-data-sources-events-actions.md).
-
->[!NOTE]
+>* Se você for um engenheiro de dados responsável pela configuração técnica (eventos, fontes de dados e ações), consulte [esta seção](../configuration/about-data-sources-events-actions.md).
 >
->As medidas de proteção e limitações de jornada estão detalhadas em [esta página](../start/guardrails.md).
+>* As medidas de proteção e limitações de jornada estão detalhadas em [esta página](../start/guardrails.md).
 
 ## Criar uma jornada {#jo-build}
 
@@ -88,7 +84,7 @@ Para criar uma jornada de várias etapas, siga estas etapas:
 
    >[!TIP]
    >
-   >**Que tipo de jornada devo escolher?** Se você é novo no Journey Optimizer, comece com uma jornada baseada em público-alvo usando uma atividade **[!UICONTROL Ler público-alvo]** — ela não requer configuração prévia de evento e é a maneira mais fácil de se familiarizar com a tela. Para experiências acionadas por eventos em tempo real (por exemplo, reagir a uma compra ou ao envio de um formulário), configure um evento primeiro e use uma entrada baseada em eventos. Saiba mais sobre [tipos de jornada](entry-management.md#types-of-journeys).
+   >**Que tipo de jornada devo escolher?** Se você é novo no Journey Optimizer, comece com uma jornada baseada em público-alvo usando uma atividade **[!UICONTROL Ler público-alvo]** — ela não requer configuração prévia de evento e é a maneira mais fácil de se familiarizar com a tela. Para experiências acionadas por eventos em tempo real (por exemplo, reagir a uma compra ou ao envio de um formulário), configure um evento primeiro e use uma entrada baseada em eventos. Pronto para aprofundar? [Descubra todos os tipos de jornadas e suas regras de entrada](entry-management.md#types-of-journeys).
 
    ![Painel de propriedades do Jornada com opções de configuração e definições](assets/jo-properties.png)
 
@@ -140,19 +136,19 @@ Não tem certeza de onde começar? Estes são três cenários típicos em que as
   <tr style="border: 0;">
     <td>
       <a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">
-        <img src="../assets/do-not-localize/icon-quick-start.svg">
+        <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
       </a>
       <div><strong>Série de boas-vindas</strong><br/>Integre automaticamente novos usuários com uma sequência de mensagens após a inscrição, guiando-os por meio de seu produto ou serviço.</div>
     </td>
     <td>
       <a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">
-        <img src="../assets/do-not-localize/icon-campaign.svg">
+        <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
       </a>
       <div><strong>Abandono do carrinho</strong><br/>Reative os clientes que saíram sem concluir uma compra enviando um lembrete em tempo hábil com conteúdo personalizado.</div>
     </td>
     <td>
       <a href="jo-use-cases.md">
-        <img src="../assets/do-not-localize/icon-content.svg">
+        <img src="../assets/do-not-localize/icon-content.svg" width="35px">
       </a>
       <div><strong>Reengajamento</strong><br/>Conquiste usuários inativos com ofertas ou atualizações direcionadas com base em seu último comportamento conhecido.</div>
     </td>
@@ -166,6 +162,7 @@ Não tem certeza de onde começar? Estes são três cenários típicos em que as
 
 ## Recursos adicionais
 
+* **[Tipos de Jornada e entrada de perfil](entry-management.md)** - Entenda todos os tipos de jornada (evento unitário, evento comercial, público-alvo de leitura, qualificação de público-alvo) e como os perfis entram, entram novamente e fluem pelas jornadas.
 * **[visão geral do designer do Jornada](using-the-journey-designer.md)** - Domine a interface da tela do jornada para projetar e organizar jornadas do cliente.
 * **[Atividades de Jornada](about-journey-activities.md)** - Descubra todas as atividades disponíveis, incluindo eventos, ações e componentes de orquestração.
 * **[Testando jornadas](testing-the-journey.md)** - Saiba como testar suas jornadas usando o modo de teste antes de publicar na produção.
