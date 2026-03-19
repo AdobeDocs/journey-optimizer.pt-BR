@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 48d1e15bab9bc01d31795358cc4f632fd2a5b7dc
+source-git-commit: 87814676a7087373a22dcbd6b60ec909f1d4dcf9
 workflow-type: tm+mt
-source-wordcount: '3121'
-ht-degree: 28%
+source-wordcount: '3247'
+ht-degree: 27%
 
 ---
 
@@ -80,8 +80,24 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <td>
 <p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Arbitragem de Jornada - Modelos de IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode usar modelos de IA em suas fórmulas de classificação para aumentar automaticamente as pontuações de prioridade de jornada com base nos atributos do perfil do cliente e fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -150,13 +166,35 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <table>
 <thead>
 <tr>
+<th><strong>Criptografia de parâmetros de URL</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os parâmetros de URL em links de rastreamento e páginas de aterrissagem agora podem ser criptografados, fornecendo uma camada adicional de segurança para dados de parâmetros confidenciais.</p>
+<ul>
+<li>Registre e gerencie chaves de criptografia em um Registro <strong>Administração</strong> dedicado.</li>
+<li>Use o novo auxiliar de criptografia em expressões para criptografar dados confidenciais em links de rastreamento e URLs de página inicial para os parâmetros de consulta que você deseja proteger no momento da renderização.</li>
+</ul>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Otimização do caminho da jornada</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>A otimização do caminho de Jornada</strong> usa a IA para analisar o desempenho da jornada histórica e selecionar automaticamente o melhor caminho para cada cliente, maximizando os resultados da conversão e do compromisso.</p>
+<p>Use o novo nó Otimizar para direcionar públicos-alvo específicos ou execute testes A/B para determinar o melhor caminho para atender aos KPIs centrados nos negócios.
+Essa ferramenta permite testar, variar e personalizar as comunicações, o sequenciamento e o momento para melhor alcançar os clientes.
+</p>
 <p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
 </tr>
@@ -187,7 +225,10 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tbody>
 <tr>
 <td>
-<p>Após a Disponibilidade geral da <strong>Atividade de ação</strong> em fevereiro de 2026, as atividades de ação de canal nativo herdadas (Email, SMS, Push, No aplicativo etc.) na tela do jornada foram descontinuadas. As jornadas existentes que usam atividades de canal herdadas continuam a funcionar sem nenhuma alteração ou migração necessária. Para obter mais informações, consulte a <a href="../building-journeys/journey-action.md">documentação detalhada</a>.</p>
+<p>Após a Disponibilidade geral da <strong>Atividade de ação</strong> em fevereiro de 2026, as atividades de canal nativas herdadas (Email, Push, SMS, No aplicativo, Web, Experiência baseada em código e Cartão de conteúdo) na tela de jornada foram descontinuadas.</p>
+<p>Agora você usa uma única <strong>Atividade de ação</strong> para configurar todas as ações de canal, substituindo a necessidade de nós separados específicos do canal.</p>
+As jornadas existentes que usam as atividades de canal herdadas continuarão a funcionar sem nenhuma alteração ou migração necessária.
+<p>Para obter mais informações, consulte a <a href="../building-journeys/journey-action.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -338,8 +379,6 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Jornadas
 
-* **Arbitragem de Jornada - Modelos de IA** - Além das fórmulas de classificação, os modelos de IA agora podem ser usados com a Arbitragem de Jornada para classificar e priorizar automaticamente a entrada de jornada para os clientes, usando o aprendizado de máquina para determinar a jornada mais relevante para cada perfil com base no comportamento histórico e em sinais contextuais. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
-
 * **Envio de mensagens de saída em ondas no jornada** - Agora é possível agendar mensagens do Journey Optimizer jornada para serem entregues em lotes controlados ao longo do tempo. [Saiba mais](../building-journeys/send-using-waves.md)
 
   Anteriormente lançado com disponibilidade limitada para uso no jornada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).
@@ -362,17 +401,17 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Email Designer exibido no Unified Shell** - O Email Designer agora é exibido na experiência do Unified Shell, fornecendo uma navegação consistente e uma experiência de cabeçalho que se alinha a outros aplicativos da Adobe.
 
-* **Suporte ao modo de texto em fragmentos** - Os fragmentos agora oferecem suporte à edição no modo de texto, permitindo criar e gerenciar versões de texto simples dos fragmentos de conteúdo para uso em fluxos de trabalho de email baseados em texto e cenários multicanais.
+* **Suporte ao modo de texto em fragmentos** - Para oferecer suporte a fluxos de trabalho de email baseados em texto, agora é possível criar e gerenciar versões de texto dos fragmentos visuais para uso ideal na versão de texto sem formatação dos emails que incluem esse fragmento.
+
+  **Cuidado:** ao usar um fragmento que foi criado antes da versão atual, a versão do texto do fragmento pode ser renderizada incorretamente, tanto no Designer de email quanto no email final entregue aos destinatários. Para obter melhores resultados com fragmentos mais antigos, edite, salve e republique cada fragmento.
 
 #### Tomada de decisão
 
-* **Suporte ao feed de alterações da Referência de fragmento de expressão no Edge Decisioning** - Esse aprimoramento permite que as alterações nas referências de fragmento sejam refletidas automaticamente em todos os itens que fazem referência a fragmentos, sem precisar atualizar nada manualmente (republicação da campanha ou da política de decisão).
+* **Feed de alterações de referência de fragmento de expressão no Edge Decisioning** - Esse aprimoramento permite que as alterações nas referências de fragmento sejam refletidas automaticamente em todos os itens que fazem referência a fragmentos, sem precisar atualizar nada manualmente (republicação da campanha ou da política de decisão).
 
-* **Fragmentos opcionais em itens de decisão** - Os fragmentos anexados a itens de decisão agora podem ser configurados como opcionais, fornecendo maior flexibilidade na composição do conteúdo quando nem todas as renderizações de itens de decisão exigem um fragmento específico.
+* **Fragmentos opcionais em itens de decisão** - Ao usar fragmentos em itens de decisão, agora é possível tornar um fragmento opcional para que, se ele estiver temporariamente indisponível no Edge, seja ignorado e a jornada ou campanha continue a ser renderizada em vez de falhar.
 
 #### Configuração
-
-* **Criptografia de parâmetros de URL** - Os parâmetros de URL em links de rastreamento e páginas de aterrissagem agora podem ser criptografados, fornecendo uma camada adicional de segurança para dados de parâmetros confidenciais. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
 
 * **Pastas para jornadas e campanhas** - Agora é possível organizar suas jornadas e campanhas em pastas, permitindo uma navegação estruturada e um gerenciamento mais fácil para equipes que trabalham com grandes volumes de conteúdo. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
 
@@ -395,7 +434,7 @@ As seções [Novos recursos](#feb-26-01-features) e [Melhorias](#feb-26-01-impro
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
