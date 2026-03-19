@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: arquivamento, mensagens, HIPAA, CCO, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: baf210042685316742dac85658d281fe2711d716
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1334'
 ht-degree: 6%
 
 ---
@@ -84,11 +84,11 @@ No entanto, o endereço CCO é selecionado para o envio de comunicações seguin
 
 ### Conformidade com o GDPR {#gdpr-compliance}
 
-Regulamentos como o GDPR afirmam que os titulares de dados devem poder modificar seu consentimento a qualquer momento. Como os emails com CCO que você está enviando com o Journey Optimizer incluem informações pessoalmente identificáveis com segurança (PII), você deve editar o **[!UICONTROL Esquema de evento de feedback CCO de email do CJM]** para gerenciar essas PII em conformidade com o GDPR e regulamentos semelhantes.
+Regulamentos como o GDPR afirmam que os titulares de dados devem poder modificar seu consentimento a qualquer momento. Como os emails com CCO que você está enviando com o Journey Optimizer incluem informações pessoalmente identificáveis com segurança (PII), você deve editar o **[!UICONTROL Esquema de evento de feedback secundário de recipient do AJO]** para gerenciar essas PII em conformidade com o GDPR e regulamentos semelhantes.
 
 Para fazer isso, siga as etapas abaixo.
 
-1. Vá para **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Esquemas]** > **[!UICONTROL Procurar]** e selecione **[!UICONTROL Esquema de Evento de Comentários CCO de Email CJM]**.
+1. Vá para **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Esquemas]** > **[!UICONTROL Procurar]** e selecione **[!UICONTROL Esquema do Evento de Comentários do Destinatário Secundário do AJO]**.
 
    ![](assets/preset-bcc-schema.png)
 
@@ -112,13 +112,13 @@ Para fazer isso, siga as etapas abaixo.
 
 ### Dados de relatório CCO {#bcc-reporting}
 
-Criar relatórios como tal no Cco não está disponível nos relatórios de jornada e mensagem. No entanto, as informações são armazenadas em um conjunto de dados do sistema chamado **[!UICONTROL Conjunto de Dados de Eventos de Comentários Cco do AJO]**. Você pode executar consultas nesse conjunto de dados para encontrar informações úteis para fins de depuração, por exemplo.
+Criar relatórios como tal no Cco não está disponível nos relatórios de jornada e mensagem. No entanto, as informações são armazenadas em um conjunto de dados do sistema chamado **[!UICONTROL Conjunto de Dados de Evento de Feedback de Destinatário Secundário do AJO]**. Você pode executar consultas nesse conjunto de dados para encontrar informações úteis para fins de depuração, por exemplo.
 
 Para acessar este conjunto de dados por meio da interface, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Conjuntos de dados]** > **[!UICONTROL Procurar]**. Saiba mais sobre como acessar conjuntos de dados em [esta seção](../data/get-started-datasets.md#access-datasets).
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-Para executar consultas nesse conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
+Para executar consultas nesse conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -225,11 +225,11 @@ Quando as cópias Cco de email são arquivadas em um sistema externo, por exempl
 
 Cada mensagem de email agora contém um cabeçalho chamado `x-message-profile-id`. O valor desse cabeçalho é diferente para cada perfil: ele é exclusivo para cada email enviado e para sua cópia de email CCO correspondente.
 
-O cabeçalho `x-message-profile-id` também é armazenado nos seguintes conjuntos de dados do sistema: [Conjunto de Dados do Evento de Feedback de Mensagens do AJO](../data/datasets-query-examples.md#message-feedback-event-dataset) (emails enviados) e [Conjunto de Dados do Evento de Feedback de Cco de AJO](#bcc-reporting) (cópias Cco). Você pode consultar esses conjuntos de dados para reconciliar a cópia CCO e o email real correspondente.
+O cabeçalho `x-message-profile-id` também é armazenado nos seguintes conjuntos de dados do sistema: [Conjunto de Dados de Evento de Feedback de Mensagens do AJO](../data/datasets-query-examples.md#message-feedback-event-dataset) (emails enviados) e [Conjunto de Dados de Evento de Feedback de Destinatário Secundário do AJO](#bcc-reporting) (cópias Cco). Você pode consultar esses conjuntos de dados para reconciliar a cópia CCO e o email real correspondente.
 
 * Para acessar esses conjuntos de dados por meio da interface, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Conjuntos de dados]** > **[!UICONTROL Procurar]**. Saiba mais sobre como acessar conjuntos de dados em [esta seção](../data/get-started-datasets.md#access-datasets).
 
-* Use o Editor de Consultas fornecido pelo [Serviço de Consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
+* Use o Editor de Consultas fornecido pelo [Serviço de Consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Consultas]** e clique em **[!UICONTROL Criar consulta]**. [Saiba mais](../data/get-started-queries.md)
 
 Abaixo estão alguns exemplos de consultas que você pode executar para recuperar informações correspondentes às suas cópias CCO.
 
