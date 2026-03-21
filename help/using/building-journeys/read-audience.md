@@ -10,10 +10,10 @@ level: Intermediate
 keywords: atividade, jornada, ler público, público, segmento, lote, ponto de entrada, acionador, programação, Qualificação do público
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 7d4dcd9ed4edb5985d19acae197e7710b3b75938
+source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
 workflow-type: tm+mt
-source-wordcount: '3312'
-ht-degree: 5%
+source-wordcount: '3394'
+ht-degree: 10%
 
 ---
 
@@ -83,7 +83,7 @@ Você definirá: **Público** (obrigatório), **Namespace** (obrigatório), **Ta
    >[!NOTE]
    >
    >Além disso, você pode direcionar [!DNL Adobe Experience Platform] públicos-alvo criados usando [composições de público-alvo](../audience/get-started-audience-orchestration.md).
-   >Você também pode direcionar públicos-alvo [carregados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience){target="_blank"}.
+   >Você também pode direcionar públicos-alvo [carregados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
    >[Saiba mais sobre como gerar e direcionar públicos no Journey Optimizer](../audience/about-audiences.md).
 
    Observe que é possível personalizar as colunas exibidas na lista e classificá-las.
@@ -98,7 +98,7 @@ Você definirá: **Público** (obrigatório), **Namespace** (obrigatório), **Ta
 
    >[!NOTE]
    >
-   >Somente os indivíduos com o status de participação de público **Realizado** entrarão na jornada. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Somente os indivíduos com o status de participação de público **Realizado** entrarão na jornada. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. No campo **[!UICONTROL Namespace]**, escolha o namespace a ser usado para identificar os indivíduos. Por padrão, o campo é pré-preenchido com o último namespace usado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace).
 
@@ -119,7 +119,7 @@ Todas as medidas de proteção e limitações para a atividade **Ler público-al
 **Recomendações**
 
 * Como prática recomendada, use públicos em lote em uma atividade **Ler público** para contagens confiáveis e consistentes. O público-alvo de leitura foi projetado para casos de uso em lote. Se o seu caso de uso precisar de dados em tempo real, use a atividade [Qualificação de público-alvo](audience-qualification-events.md).
-* Os públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience) ou resultantes de [fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md) podem ser selecionados na atividade **Ler Público**. Estes públicos-alvo não estão disponíveis na atividade **Qualificação de público-alvo**.
+* Os públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou resultantes de [fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md) podem ser selecionados na atividade **Ler Público**. Estes públicos-alvo não estão disponíveis na atividade **Qualificação de público-alvo**.
 * Ao usar segmentos em lote, certifique-se de que a assimilação e as atualizações diárias de instantâneo sejam concluídas bem antes do início da jornada. Considere um período de espera adicional se os segmentos tiverem de refletir os dados assimilados no mesmo dia. Se a atualização imediata do perfil for crítica, use uma abordagem baseada em eventos ou de streaming ou adicione uma atividade **Aguardar** para permitir que os dados atualizados sejam propagados antes da avaliação.
 
 >[!CAUTION]
@@ -184,7 +184,12 @@ Por padrão, as jornadas são configuradas para serem executadas uma vez. Para d
 
 >[!NOTE]
 >
->As jornadas de público-alvo de Leitura Única são movidas para o status **Concluído** 91 dias ([Tempo limite global da jornada](journey-properties.md#global_timeout)) após a execução da jornada. Para públicos-alvo de leitura agendados, isso acontece 91 dias após a execução da última ocorrência.
+>**Status da Jornada e o tempo limite global de 91 dias:**
+>
+>* **jornadas de leitura de público-alvo** de uma só vez movidas para o status **Concluído** 91 dias ([tempo limite global de jornada](journey-properties.md#global_timeout)) após a execução da jornada.
+>* **jornadas de leitura de público-alvo** recorrentes **permanecem online** enquanto a jornada for publicada. Eles são movidos para o status **Concluído** 91 dias após a execução de sua **última ocorrência**.
+>* O tempo limite de 91 dias se aplica a **perfis** individuais que fluem pela jornada (tempo máximo que um perfil pode permanecer ativo), não ao status Live da jornada.
+>* A **janela de relatórios** de 91 dias é um conceito separado: a interface do usuário mostra dados de desempenho referentes aproximadamente aos últimos 91 dias. Os dados mais antigos não estão acessíveis na interface do usuário, mas a jornada continua a ser executada. [Saiba mais](journey-properties.md#global_timeout)
 
 1. Nas propriedades da atividade **[!UICONTROL Ler público]**, selecione **[!UICONTROL Editar agendamento de jornada]**.
 
@@ -343,7 +348,7 @@ Se o problema persistir após essas verificações, consulte [Tempo e propagaç�
 
 ### Tempo e propagação de dados {#timing-and-data-propagation}
 
-* **Conclusão do trabalho de segmentação em lotes**: para públicos em lotes, verifique se o trabalho diário de segmentação em lotes foi concluído e se os instantâneos são atualizados antes da execução da jornada. Os públicos-alvo em lote ficam prontos para uso aproximadamente **2 horas** após a conclusão do trabalho de segmentação. Saiba mais sobre [métodos de avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#evaluate-segments){target="_blank"}.
+* **Conclusão do trabalho de segmentação em lotes**: para públicos em lotes, verifique se o trabalho diário de segmentação em lotes foi concluído e se os instantâneos são atualizados antes da execução da jornada. Os públicos-alvo em lote ficam prontos para uso aproximadamente **2 horas** após a conclusão do trabalho de segmentação. Saiba mais sobre [métodos de avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
 
 * **Tempo de assimilação de dados**: verifique se a assimilação de dados do perfil foi totalmente concluída antes da execução da jornada. Se os perfis tiverem sido assimilados pouco antes do início da jornada, talvez eles não sejam refletidos no público-alvo ainda. Saiba mais sobre a [assimilação de dados em [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
 
@@ -353,9 +358,9 @@ Se o problema persistir após essas verificações, consulte [Tempo e propagaç�
 
 ### Validação de dados {#data-validation-and-monitoring}
 
-* **Verificar status do trabalho de segmentação**: Monitorar tempos de conclusão de trabalhos de segmentação em lotes no [!DNL Adobe Experience Platform] [painel de monitoramento](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=pt-BR){target="_blank"}. Use-o para verificar quando os dados do público-alvo estão prontos.
+* **Verificar status do trabalho de segmentação**: Monitorar tempos de conclusão de trabalhos de segmentação em lotes no [!DNL Adobe Experience Platform] [painel de monitoramento](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}. Use-o para verificar quando os dados do público-alvo estão prontos.
 
-* **Verificar políticas de mesclagem**: verifique se a política de mesclagem configurada para seu público-alvo corresponde ao comportamento esperado para combinar dados de perfil de fontes diferentes. Saiba mais sobre [políticas de mesclagem em [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=pt-BR){target="_blank"}.
+* **Verificar políticas de mesclagem**: verifique se a política de mesclagem configurada para seu público-alvo corresponde ao comportamento esperado para combinar dados de perfil de fontes diferentes. Saiba mais sobre [políticas de mesclagem em [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}.
 
 * **Revisar definições de segmento**: Confirme se as definições de segmento estão configuradas corretamente e inclua todos os critérios de qualificação esperados. Saiba mais sobre [criação de públicos-alvo](../audience/creating-a-segment-definition.md). Preste atenção especial a:
    * Condições baseadas em tempo que podem excluir perfis com base nos carimbos de data e hora do evento
@@ -400,4 +405,4 @@ Para obter a lista completa das medidas de proteção de Leitura de público (in
 
 Entenda os casos de uso aplicáveis para uma jornada acionada pela atividade de leitura de público-alvo. Saiba como criar jornadas baseadas em lote e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430363?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

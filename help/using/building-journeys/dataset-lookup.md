@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 13%
+source-wordcount: '913'
+ht-degree: 11%
 
 ---
 
@@ -66,7 +66,7 @@ Para configurar a atividade **[!UICONTROL Pesquisa de conjunto de dados]**, siga
 
 1. Expanda a categoria **[!UICONTROL Orquestração]** e solte uma atividade de **[!UICONTROL Pesquisa de conjunto de dados]** na tela.
 
-   Atividade de pesquisa do conjunto de dados ![[!DNL Adobe Experience Platform] na jornada &#x200B;](assets/aep-data-activity.png)
+   Atividade de pesquisa do conjunto de dados ![[!DNL Adobe Experience Platform] na jornada ](assets/aep-data-activity.png)
 
 1. Adicione um rótulo e uma descrição.
 
@@ -93,6 +93,10 @@ Para configurar a atividade **[!UICONTROL Pesquisa de conjunto de dados]**, siga
    * As chaves podem ser expressões derivadas do contexto da jornada, como SKUs, IDs de email ou outros identificadores. Exemplo: `@profile.email` ou `list(@event{purchase_event.products.sku})`.
 
    * Somente **cadeias de caracteres** ou **listas de cadeias de caracteres** têm suporte.
+
+   >[!IMPORTANT]
+   >
+   >Você deve definir a chave de pesquisa usando o **modo avançado**. Se você usar o modo simples para definir a chave, a saída da atividade de pesquisa do conjunto de dados não estará disponível como um atributo de contexto em atividades downstream, e a sintaxe `@datasetLookup{}` falhará com um erro &quot;Pesquisa de conjunto de dados não encontrada&quot; nas atividades de condição.
 
    +++Exemplo
 
@@ -191,3 +195,15 @@ Os dados recuperados pela atividade **[!UICONTROL Pesquisa de conjunto de dados]
    ```
    {{context.journey.datasetLookup.1482319411.entity.loyaltyMember.loyaltyTier}}
    ```
+
++++
+
+## Solução de problemas {#troubleshooting}
+
+### Erro &quot;Pesquisa de conjunto de dados não encontrada&quot; na atividade de condição {#troubleshooting-not-found}
+
+**Sintoma:** A sintaxe `@datasetLookup{}` no editor de expressão avançado de uma atividade de condição retorna um erro &quot;Pesquisa de conjunto de dados não encontrada&quot;, mesmo que a atividade de pesquisa de conjunto de dados esteja configurada corretamente na jornada.
+
+**Causa:** a chave de pesquisa na atividade de pesquisa do conjunto de dados foi definida usando o modo simples. Quando a chave não está definida no modo avançado, a saída da atividade não é exposta como um atributo de contexto em atividades downstream.
+
+**Correção:** Abra a atividade de pesquisa do conjunto de dados, localize o campo **[!UICONTROL Chave(s) de pesquisa]** e alterne para o **modo avançado** para redefinir a expressão de chave. Salve a atividade e publique novamente a jornada.

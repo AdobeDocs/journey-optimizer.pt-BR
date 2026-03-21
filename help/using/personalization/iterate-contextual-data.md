@@ -8,9 +8,10 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expressão, editor, handlebars, iteração, matrizes, contexto, personalização
-source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
+exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -68,9 +69,19 @@ context.journey.events.<event_ID>.<fieldPath>
 * `<event_ID>`: o identificador exclusivo do evento conforme configurado na jornada
 * `<fieldPath>`: O caminho para o campo ou matriz no esquema de evento
 
+>[!NOTE]
+>
+>**IDs de eventos numéricos exigem acentos graves.** Se a ID do evento for um número (por exemplo, `1697323153`), coloque-o entre acentos graves (`` ` ``) no caminho da expressão. Sem backticks, o analisador do PQL gera um erro de sintaxe.
+>
+>```handlebars
+>context.journey.events.`1697323153`.fieldName
+>```
+>
+>Para obter mais detalhes e um exemplo completo, incluindo a formatação de data dos carimbos de data/hora do evento, consulte [Formatação de um carimbo de data/hora a partir de um evento de contexto](../personalization/functions/dates.md#format-date).
+
 ### Exemplo: itens do carrinho de um evento
 
-Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
+Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
 
 +++ Exibir código de exemplo
 
@@ -247,7 +258,7 @@ A [Atividade de Pesquisa de Conjunto de Dados](../building-journeys/dataset-look
 
 >[!AVAILABILITY]
 >
->A atividade Pesquisa de conjunto de dados só está disponível para um conjunto limitado de organizações. Para obter acesso, entre em contato com o representante da Adobe.
+>A atividade Pesquisa de conjunto de dados só está disponível para um conjunto limitado de organizações. Para obter acesso, entre em contato com um representante da Adobe.
 
 Saiba mais sobre como configurar a atividade Pesquisa de Conjunto de Dados em [esta seção](../building-journeys/dataset-lookup.md). A pesquisa de conjunto de dados é particularmente eficiente quando combinada com dados de evento. Consulte [Exemplo: dados de evento enriquecidos com a pesquisa de conjunto de dados](#combine-sources) para obter um caso de uso prático.
 
@@ -1042,4 +1053,3 @@ Use o [modo de teste de jornada](../building-journeys/testing-the-journey.md) pa
 **Casos de uso do Personalization:** [Email de abandono de carrinho](personalization-use-case-helper-functions.md) | [Notificação do status do pedido](personalization-use-case.md)
 
 **Design da mensagem:** [Introdução ao design de email](../email/get-started-email-design.md) | [Criar notificações por push](../push/create-push.md) | [Criar mensagens SMS](../sms/create-sms.md) | [Visualizar e testar seu conteúdo](../content-management/preview-test.md)
-

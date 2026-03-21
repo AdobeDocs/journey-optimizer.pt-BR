@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1419'
 ht-degree: 5%
 
 ---
@@ -483,6 +483,29 @@ Para saída em minúsculas, combine com a função `lowerCase`:
 Saída: `sun`, `mon`, `tue`, etc.
 
 +++
+
++++Formatação de um carimbo de data e hora a partir de um evento de contexto
+
+Ao usar um carimbo de data e hora de um atributo de contexto de evento de jornada, dois requisitos se aplicam:
+
+* **Vincular o carimbo de data/hora a`toDateTime()`** — os carimbos de data/hora do evento de contexto não são reconhecidos automaticamente como valores de data/hora por `formatDate()`.
+* **Quebrar IDs de evento numéricas em acentos graves** — se a ID de evento for um número (por exemplo, `1697323153`), ela deverá ser evitada com acentos graves no caminho da expressão, caso contrário, o editor gerará um erro de sintaxe do PQL.
+* **Use `{% let %}` sintaxe de atribuição** — a sintaxe `{%= %}` embutida não dá suporte a este padrão. Atribua o resultado a uma variável primeiro e, em seguida, renderize com `{{varName}}`.
+
+```handlebars
+{% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
+{{appointmentDate}}
+```
+
+Saída (exemplo): `18/03/2026 14:30`
+
++++
+
+>[!CAUTION]
+>
+>**Erro comum: &quot;entrada incompatível &#39;(&#39; esperando \&lt;EOF\>&quot;**
+>
+>Este erro de sintaxe do PQL ocorre ao usar `formatDate()` com um carimbo de data/hora de evento de contexto embutido (`{%= formatDate(...) %}`). As causas mais comuns são uma ID de evento numérica que não está encapsulada em acentos graves (`` ` ``) ou um campo de carimbo de data/hora passado diretamente para `formatDate()` sem primeiro encapsulá-lo em `toDateTime()`. Para corrigir ambos os problemas, use o padrão de atribuição `{% let %}` mostrado no exemplo acima.
 
 ### Caracteres padrão {#pattern-characters}
 

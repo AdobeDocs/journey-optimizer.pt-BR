@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 14%
+source-wordcount: '3223'
+ht-degree: 13%
 
 ---
 
@@ -272,6 +272,22 @@ A partir da versão de [!DNL Adobe Journey Optimizer] de junho de 2024, o tempo 
     </td>
     <td>
       <p>O perfil terá um TTL de 91 dias, que corresponde ao TTL da versão do jornada recém-republicada. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Minha jornada de Leitura de público-alvo recorrente sempre ativada será interrompida após 91 dias?</p>
+    </td>
+    <td>
+      <p>Não. Uma jornada de Leitura de Público recorrente sem data final permanece <strong>Ativa</strong> enquanto for publicada. Ela muda para o status <strong>Concluída</strong> somente 91 dias após a execução de sua <strong>última ocorrência</strong>. O tempo limite global de 91 dias se aplica a perfis individuais que fluem pela jornada (duração máxima ativa por perfil), não ao status Live da jornada.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qual é a diferença entre o tempo limite de jornada de 91 dias e a janela de relatório de 91 dias?</p>
+    </td>
+    <td>
+      <p>Estes são dois conceitos separados. O <strong>tempo limite global de jornada</strong> (91 dias) é o tempo máximo que um perfil individual pode permanecer ativo em uma jornada; após 91 dias, o perfil é encerrado e seus dados são excluídos. A <strong>janela de relatórios</strong> (aproximadamente 91 dias) é um limite de exibição na interface do usuário: dados de desempenho com mais de ~91 dias não são mais visíveis nos relatórios, mas a jornada em si continua a ser executada e novos perfis continuam a ser inseridos.</p>
     </td>
   </tr>
 </table>
