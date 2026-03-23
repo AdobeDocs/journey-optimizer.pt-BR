@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: dados, fonte, jornada, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '616'
 ht-degree: 37%
 
 ---
@@ -51,7 +51,7 @@ Para cada fonte de dados, você define as informações que serão recuperadas u
 
 ## Escolha sua estratégia de acesso aos dados {#data-access-strategy}
 
-Antes de configurar uma fonte de dados, considere qual abordagem se adapta melhor ao seu caso de uso. Três opções estão disponíveis, cada uma com diferentes compensações em termos de persistência, enriquecimento de perfil e reutilização. Para obter uma discussão detalhada dessas opções, consulte [Práticas recomendadas para jornadas avançadas no Journey Optimizer](https://experienceleague.adobe.com/pt-br/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Antes de configurar uma fonte de dados, considere qual abordagem se adapta melhor ao seu caso de uso. Três opções estão disponíveis, cada uma com diferentes compensações em termos de persistência, enriquecimento de perfil e reutilização. Para obter uma discussão detalhada dessas opções, consulte [Práticas recomendadas para jornadas avançadas no Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Opção 1 — Acessar dados externos por meio de Ações Personalizadas (sem Data Lake)**
 
@@ -71,7 +71,7 @@ Assimile dados em um conjunto de dados para acionar e personalizar jornadas com 
 
 **Opção 3 — Conjunto de dados habilitado para perfil no Data Lake**
 
-Assimile dados em um conjunto de dados habilitado para perfis para criar públicos, enriquecer gráficos de identidade e aproveitar dados em várias jornadas e destinos da RT-CDP. Mais adequado quando:
+Assimile dados em um [conjunto de dados habilitado para perfil](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} para criar públicos, enriquecer gráficos de identidade e aproveitar dados em várias jornadas e destinos da RT-CDP. Mais adequado quando:
 
 * Os dados são úteis para definições de público-alvo usadas em canais além do Journey Optimizer.
 * Os dados contêm várias identidades que contribuem para fragmentos de perfil mais ricos e compilados.
@@ -82,7 +82,7 @@ Assimile dados em um conjunto de dados habilitado para perfis para criar públic
 | **Opção 2** — Conjunto de dados não habilitado para Perfil | Sim | Não |
 | **Opção 3** — Conjunto de dados habilitado para perfil | Sim | Sim |
 
-Para obter mais informações sobre como configurar uma fonte de dados da Adobe Experience Platform e uma fonte de dados externa, e como localizar e usar dados em uma jornada, assista a este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre como configurar uma fonte de dados da Adobe Experience Platform e uma fonte de dados externa, e como localizar e usar dados em uma jornada, assista a este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Vídeo tutorial {#video}
 
