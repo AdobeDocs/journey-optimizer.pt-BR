@@ -1,20 +1,21 @@
 ---
 product: journey optimizer
-title: Funções de string
+title: Funções de strings
 description: Saiba mais sobre funções de string
 feature: Journeys
 role: Developer
 level: Experienced
 keywords: string, funções, expressão, jornada, texto, manipulação
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
+source-git-commit: 11997fed640a626717ceef4201fcb7735f96cd89
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1129'
 ht-degree: 15%
 
 ---
 
-# Funções de string {#string-functions}
+# Funções de strings {#string-functions}
 
 As funções de string permitem manipular e trabalhar com valores de texto nas expressões de jornada. Essas funções são essenciais para o processamento, validação, transformação e análise de texto nas jornadas do cliente.
 
@@ -320,6 +321,10 @@ Retorna verdadeiro.
 
 Retorna falso.
 
+`isEmpty(<null>)`
+
+Retorna falso.
+
 +++
 
 ## isNotEmpty {#isNotEmpty}
@@ -543,7 +548,7 @@ A substituição continua do início da string até o fim. Por exemplo, substitu
 | Parâmetro | Tipo |
 |-----------|--------------|
 | base | sequência de caracteres |
-| destino | string (RegExp) |
+| target | string (RegExp) |
 | substituição | sequência de caracteres |
 
 +++
@@ -601,7 +606,7 @@ A substituição continua do início da string até o fim. Por exemplo, substitu
 | Parâmetro | Tipo |
 |-----------|--------------|
 | base | sequência de caracteres |
-| destino | string (RegExp) |
+| target | string (RegExp) |
 | substituição | sequência de caracteres |
 
 +++
@@ -872,4 +877,3 @@ Retorna uma string.
 Retorna &quot;79e70b7f-8a85-400b-97a1-9f9826121553&quot;.
 
 +++
-
