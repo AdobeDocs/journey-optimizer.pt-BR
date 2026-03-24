@@ -11,10 +11,10 @@ keywords: expressão, editor
 mini-toc-levels: 1
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 9%
+source-wordcount: '894'
+ht-degree: 10%
 
 ---
 
@@ -56,8 +56,6 @@ Antes de começar, reveja as seguintes restrições e diretrizes:
   **Lote 3**: Sku7, Sku8, Sku9, Sku10
 
   Se você excluir o **Lote 1**, Sku1, Sku2 e Sku3 serão removidos do repositório de pesquisa. Os dados de pesquisa resultantes conterão: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
-
-* **Nenhuma pesquisa encadeada** - As pesquisas de conjunto de dados não podem ser encadeadas. Em outras palavras, não é possível usar o resultado de uma pesquisa como uma variável para, em seguida, se tornar a chave para executar uma segunda pesquisa.
 
 ### Direito ao serviço de pesquisa
 
