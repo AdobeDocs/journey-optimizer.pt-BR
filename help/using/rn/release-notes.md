@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b0f8d08a14de84671706aed4f496dda3a5ba2ec8
+source-git-commit: 4c2785d580e28bb7645b61edaef48929bf9f4ff3
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2839'
 ht-degree: 29%
 
 ---
@@ -271,7 +271,7 @@ As jornadas existentes que usam as atividades de canal herdadas continuarão a f
 <td>
 <p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
 </td>
 </tr>
@@ -319,8 +319,6 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Tomada de decisão
 
-* **Feed de alterações de referência de fragmento de expressão no Edge Decisioning** - Esse aprimoramento permite que as alterações nas referências de fragmento sejam refletidas automaticamente em todos os itens que fazem referência a fragmentos, sem precisar atualizar nada manualmente (republicação da campanha ou da política de decisão).
-
 * **Fragmentos opcionais em itens de decisão** - Ao usar fragmentos em itens de decisão, agora é possível tornar um fragmento opcional para que, se ele estiver temporariamente indisponível no Edge, seja ignorado e a jornada ou campanha continue a ser renderizada em vez de falhar.
 
 #### Configuração
@@ -360,7 +358,7 @@ As seções [Novos recursos](#feb-26-01-features) e [Melhorias](#feb-26-01-impro
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
