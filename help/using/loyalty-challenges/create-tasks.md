@@ -12,10 +12,10 @@ hidefromtoc: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Este recurso está atualmente em **beta privado**. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
+>Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
 As tarefas definem as ações ou marcos específicos que os clientes devem concluir para ganhar recompensas em um desafio de fidelidade. Você pode configurar tipos de tarefa, quantidades e requisitos de produto para criar experiências de fidelidade envolventes e personalizadas.
 

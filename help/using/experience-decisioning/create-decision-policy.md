@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 5%
+source-wordcount: '2198'
+ht-degree: 6%
 
 ---
 
@@ -45,7 +45,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos seus clientes, adic
 >
 >As políticas de decisão estão disponíveis para todos os clientes para a **Experiência baseada em código**, **Notificação por push** e canais SMS.
 >
->A Decisão do canal de email está disponível com disponibilidade limitada. Para solicitar acesso, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
+>A Decisão do canal de email está disponível com disponibilidade limitada. Para solicitar acesso, entre em contato com o representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
 ## Adicionar uma política de decisão {#add}
 

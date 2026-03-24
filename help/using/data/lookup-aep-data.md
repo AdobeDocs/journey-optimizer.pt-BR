@@ -11,10 +11,10 @@ keywords: expressão, editor
 mini-toc-levels: 1
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 8%
+source-wordcount: '927'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,7 @@ O [!DNL Journey Optimizer] permite aproveitar os dados do [!DNL Adobe Experience
 
 >[!NOTE]
 >
->O recurso de pesquisa de dados só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
+>O recurso de pesquisa de dados só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
 Saiba mais sobre como acessar e trabalhar com conjuntos de dados nesta seção: [Introdução aos conjuntos de dados](../data/get-started-datasets.md)
 

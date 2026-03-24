@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 21%
+source-wordcount: '684'
+ht-degree: 23%
 
 ---
 
@@ -29,7 +29,7 @@ Estes itens de decisão são perfeitamente integrados em mensagens e experiênci
 
 >[!IMPORTANT]
 >
->As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Notificação por push** e **SMS**. A decisão do canal **Email** está disponível somente em Disponibilidade Limitada. Para solicitar acesso, entre em contato com o representante da Adobe. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
+>As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Notificação por push** e **SMS**. A decisão do canal **Email** está disponível somente em Disponibilidade Limitada. Para solicitar acesso, entre em contato com o representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -105,4 +105,4 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
 Saiba mais sobre os recursos de decisão no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475868?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

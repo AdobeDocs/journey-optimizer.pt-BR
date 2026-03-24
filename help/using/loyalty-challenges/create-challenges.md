@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Este recurso está atualmente em **beta privado**. Saiba mais sobre [rótulos de disponibilidade](../rn/releases.md#availability-labels).
+>Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
 Esta página aborda o processo completo de criação de um desafio de fidelidade, desde selecionar o tipo de desafio e configurar suas propriedades até gerar e publicar a jornada que fornecerá o desafio aos seus clientes.
 
