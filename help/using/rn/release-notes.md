@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4c2785d580e28bb7645b61edaef48929bf9f4ff3
+source-git-commit: c532c259538a3ce007621ae7e9f17a73623ea70d
 workflow-type: tm+mt
-source-wordcount: '2839'
-ht-degree: 29%
+source-wordcount: '2974'
+ht-degree: 28%
 
 ---
 
@@ -42,13 +42,13 @@ Consulte também [notas de pré-lançamento do Adobe Experience Platform](https:
 <table>
 <thead>
 <tr>
-<th><strong>Mensagens transacionais em campanhas orquestradas</strong><br/></th>
+<th><strong>Campanhas transacionais orquestradas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>As Campanhas orquestradas agora aceitam <strong>mensagens transacionais</strong>, permitindo que você acione mensagens em tempo real orientadas por eventos, como confirmações de pedidos, notificações de reservas e atualizações de conta, diretamente no fluxo de trabalho da campanha.</p>
+<p>As campanhas orquestradas agora podem ser designadas como <strong>transacionais</strong>. Isso permite a entrega de mensagens transacionais acionadas por ações específicas executadas por indivíduos, como solicitações de redefinição de senha ou compras de carrinho. Ao atribuir essa categoria, as configurações de canal transacional são aplicadas e as regras de negócios são ignoradas.</p>
 </td>
 </tr>
 </tbody>
@@ -116,7 +116,9 @@ Consulte também [notas de pré-lançamento do Adobe Experience Platform](https:
 <p>Use o novo nó Otimizar para direcionar públicos-alvo específicos ou execute testes A/B para determinar o melhor caminho para atender aos KPIs centrados nos negócios.
 Essa ferramenta permite testar, variar e personalizar as comunicações, o sequenciamento e o momento para melhor alcançar os clientes.
 </p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral). <a href="../building-journeys/optimize.md">Saiba mais</a></p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Com a disponibilidade geral, esta versão introduz a seleção <strong>tipo de experimento</strong> (A/B ou bandit de vários braços) e <strong>Dimensione o vencedor</strong> para jornadas unitárias.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/optimize.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -147,8 +149,8 @@ Essa ferramenta permite testar, variar e personalizar as comunicações, o seque
 <tr>
 <td>
 <p>Após a Disponibilidade geral da <strong>Atividade de ação</strong> em fevereiro de 2026, as atividades de canal nativas herdadas (Email, Push, SMS, No aplicativo, Web, Experiência baseada em código e Cartão de conteúdo) na tela de jornada foram descontinuadas.</p>
-<p>Agora você usa uma única <strong>Atividade de ação</strong> para configurar todas as ações de canal, substituindo a necessidade de nós separados específicos do canal.</p>
-As jornadas existentes que usam as atividades de canal herdadas continuarão a funcionar sem nenhuma alteração ou migração necessária.
+<p>Agora você usa uma única <strong>Atividade de ação</strong> para configurar todas as ações de canal, substituindo a necessidade de nós separados específicos do canal.
+As jornadas existentes que usam as atividades de canal herdadas continuarão a funcionar sem nenhuma alteração ou migração necessária.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/journey-action.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -271,7 +273,7 @@ As jornadas existentes que usam as atividades de canal herdadas continuarão a f
 <td>
 <p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
 </td>
 </tr>
@@ -305,10 +307,11 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Relatórios
 
-* **Excluir cliques de bot para relatórios de email e SMS** - Os relatórios de email e SMS agora filtram automaticamente os cliques de bot a partir das métricas de clique, fornecendo dados de envolvimento mais precisos e evitando que o tráfego automatizado aumente seus números de desempenho.
-
 * **Otimização de Tempo de Envio: a localização dos controles atualizados e o novo relatório de aumento** - os controles de Otimização de Tempo de Envio (STO) foram realocados para o menu de configuração Ação. Além disso, um novo relatório de aumento está disponível nos relatórios do Jornada para medir o impacto do STO nas métricas de desempenho da campanha.
+
 <!--
+* **Exclude bot clicks for email and SMS reporting** - Email and SMS reporting now automatically filters out bot clicks from click metrics, providing more accurate engagement data and preventing automated traffic from inflating your performance figures.
+
 #### Email Designer
 
 * **Email Designer displayed in Unified Shell** - The Email Designer is now displayed within the Unified Shell experience, providing a consistent navigation and header experience that aligns with other Adobe applications.
@@ -341,6 +344,12 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Jornadas
 
+* **Tipo de experimento** - Agora é possível escolher entre um experimento A/B (divisão fixa no início) ou um bandit multicampo (divisão automática com atualizações de peso semanais) ao configurar um experimento de caminho.
+
+* **Experimentação de caminho: dimensionar o vencedor** - Agora é possível implantar automática ou manualmente o caminho vencedor de um experimento em todo o seu público-alvo. Uma vez determinado o vencedor, você pode ampliar seu alcance e eficácia sem monitorar constantemente o experimento.
+
+  Esse recurso está disponível somente em jornadas unitárias (acionadas por eventos e qualificações de Público-alvo). Não está disponível para jornadas Read audience.
+
 * **Envio de mensagens de saída em ondas no jornada** - Agora é possível agendar mensagens do Journey Optimizer jornada para serem entregues em lotes controlados ao longo do tempo. [Saiba mais](../building-journeys/send-using-waves.md)
 
   Anteriormente lançado com disponibilidade limitada para uso no jornada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).
@@ -358,7 +367,7 @@ As seções [Novos recursos](#feb-26-01-features) e [Melhorias](#feb-26-01-impro
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -583,6 +592,9 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
   Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
 
+* **Visualização da decisão no canal de experiência baseado em código** - Agora é possível visualizar itens de decisão ao configurar a Decisão com o canal de experiência baseado em código. A visualização está disponível diretamente na interface de criação antes de entrar em funcionamento. [Leia mais](../code-based/test-code-based.md#preview-code-based)
+
+  Data de disponibilidade: quinta-feira, 18 de fevereiro de 2026
 
 * **Anexar fragmentos a itens de decisão**: o Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão que podem ser aproveitados em campanhas de experiência baseada em código por meio de políticas de decisão. [Leia mais](../experience-decisioning/fragments-decision-policies.md)
 
@@ -607,11 +619,5 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 <!--## Coming soon {#coming-soon}
 
 The features and improvements below are planned for release later in February. Release dates and scope may change without prior notice.
-
-### Improvements {#coming-soon-improv}
-
-* **Decisioning preview in Code-based Experience channel** - You can now preview decision items when configuring Decisioning with the Code-based Experience channel. Preview is available directly in the authoring interface before going live.
-
-  Availability date: February 18, 2026
 -->
 
