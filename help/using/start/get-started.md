@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 100%
+source-wordcount: '858'
+ht-degree: 99%
 
 ---
 
@@ -86,6 +86,7 @@ Consulte [Blueprints do Adobe Journey Optimizer](https://experienceleague.adobe.
 >[!MORELIKETHIS]
 >
 >* [Etapas principais para iniciar](quick-start.md)
+>* [Introdução ao gerenciamento de dados](../data/gs-data.md)
 >* [Criar jornadas e enviar mensagens](../building-journeys/journey-gs.md)
 >* [Relatórios em tempo real](../reports/live-report.md)
 >* [Introdução ao tutorial do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}

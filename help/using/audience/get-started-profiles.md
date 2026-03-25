@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 30%
+source-wordcount: '494'
+ht-degree: 29%
 
 ---
 
@@ -38,9 +38,10 @@ Aproveite o Perfil do cliente em tempo real no [!DNL Adobe Journey Optimizer] pa
 
 >[!MORELIKETHIS]
 >
+>* [Introdução ao gerenciamento de dados no Journey Optimizer](../data/gs-data.md)
 >* [Documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR){target="_blank"}
 >* [Medidas de proteção padrão para dados e segmentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails){target="_blank"}
->* &#x200B;[Documentação de assimilação de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/home){target="_blank"}
+>* &#x200B;[Documentação de assimilação de dados](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Painel de perfis
 
@@ -58,4 +59,4 @@ Para acessar perfis, navegue até o menu **[!UICONTROL Cliente]** / **[!UICONTRO
 
 Saiba como a Adobe Experience Platform monta e atualiza Perfis de clientes em tempo real e como você pode acessar e usar esses perfis.
 
->[!VIDEO](https://video.tv.adobe.com/v/31686?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '897'
 ht-degree: 95%
 
 ---
@@ -21,7 +21,7 @@ Todos os dados assimilados na Adobe Experience Platform são mantidos no Data La
 
 ## Medidas de proteção e limitações
 
-* A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=pt){target="_blank"}.
+* A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
 * Com início em fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) está sendo implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer. [Saiba mais](datasets-ttl.md)
 
@@ -103,6 +103,7 @@ Saiba mais sobre Governança de dados e rótulos de uso de dados na [Documentaç
 
 >[!MORELIKETHIS]
 >
+>* [Introdução ao gerenciamento de dados no Journey Optimizer](gs-data.md)
 >* [Documentação de conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}
 >* [Documentação de ingestão de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
 >* [Práticas recomendadas dos direitos da licença de gerenciamento de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}

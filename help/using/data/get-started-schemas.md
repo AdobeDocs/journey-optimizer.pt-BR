@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: esquemas, plataforma, dados, estrutura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 98%
 
 ---
 
@@ -60,6 +60,7 @@ Saiba como criar um esquema padrão, adicionar grupos de campos, criar e configu
 
 >[!MORELIKETHIS]
 >
+>* [Introdução ao gerenciamento de dados no Journey Optimizer](gs-data.md)
 >* [Criar um esquema, um conjunto de dados e assimilar dados para adicionar perfis de teste no Journey Optimizer](../audience/creating-test-profiles.md)
 >* [Visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}
 >* [Práticas recomendadas para modelagem de dados](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=pt-BR){target="_blank"}

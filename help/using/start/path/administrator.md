@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 89%
 
 ---
 
@@ -102,7 +102,7 @@ O trabalho administrativo permite que todas as equipes tenham êxito:
 
 >[!TAB Engenheiros de dados de suporte]
 
-Colabore com [engenheiros de dados](data-engineer.md) no gerenciamento e acesso aos dados:
+Colabore com [engenheiros de dados](data-engineer.md) no gerenciamento e acesso a dados. Revise a visão geral de [Introdução ao gerenciamento de dados](../../data/gs-data.md) para entender os esquemas, conjuntos de dados e fontes de dados que seus engenheiros de dados precisam configurar.
 
 * Conceder permissões para gerenciamento de dados e criação de esquema
 * Aprovar o acesso à sandbox para desenvolvimento e testes
