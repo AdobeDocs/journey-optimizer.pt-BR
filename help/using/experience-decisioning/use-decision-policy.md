@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '773'
 ht-degree: 5%
 
 ---
@@ -136,10 +136,6 @@ Quando o conteúdo estiver pronto, revise e publique sua campanha ou jornada:
 * [Revisar e ativar uma campanha](../campaigns/review-activate-campaign.md)
 
 Para experiências baseadas em código, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar conteúdo para a superfície definida na configuração do canal, as alterações serão aplicadas à página da Web ou aplicativo.
-
->[!NOTE]
->
->Atualmente, você não pode simular conteúdo baseado em decisão para [Campanhas ou jornadas baseadas em código](../code-based/create-code-based.md). Uma solução alternativa está disponível [aqui](../code-based/code-based-decisioning-implementations.md).
 
 ## Usar painéis de relatórios
 

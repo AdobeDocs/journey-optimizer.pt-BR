@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 24%
+source-wordcount: '794'
+ht-degree: 22%
 
 ---
 
@@ -38,10 +38,11 @@ Para exibir uma pré-visualização de sua experiência baseada em código modif
 
 Informações detalhadas sobre como selecionar perfis de teste e visualizar seu conteúdo estão disponíveis em [esta seção](../content-management/preview.md).
 
+Quando sua experiência baseada em código usa a [Experience Decisioning](../experience-decisioning/gs-experience-decisioning.md), você pode visualizar os itens de decisão que serão entregues: selecione um ou mais perfis de teste em **[!UICONTROL Simular conteúdo]** e a visualização exibirá os itens de decisão qualificados para cada perfil.
+
 >[!NOTE]
 >
->Atualmente não é possível simular o conteúdo da interface do usuário em uma campanha de experiência ou jornada baseada em código usando a [Decisão](../experience-decisioning/gs-experience-decisioning.md). Uma solução alternativa está disponível em [esta seção](../experience-decisioning/create-decision.md#test-and-publish).
-
+>Esta visualização é somente **visualização de conteúdo**: mostra quais itens de decisão se qualificam para o perfil de teste selecionado e como o conteúdo criado é renderizado. **Dados de contexto** enviados em solicitações Edge ativas (por exemplo, dados usados em critérios de decisão ou referenciados na implementação do cliente) não são simulados na visualização de **[!UICONTROL Simular conteúdo]**.
 
 ## Visualização no dispositivo {#preview-on-device}
 
@@ -95,7 +96,7 @@ Ao criar experiências baseadas em código para páginas da Web ou aplicativos m
 
    * Selecione o botão **[!UICONTROL Copiar link]** e compartilhe o link com a equipe e as partes interessadas, que podem visualizar a nova experiência em qualquer navegador móvel antes que as alterações entrem em vigor.
 
-   * Digitalize o código QR com seu dispositivo móvel para abrir o link de visualização diretamente no aplicativo móvel. Você deve digitar o PIN em seu dispositivo para estabelecer a sessão [Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
+   * Digitalize o código QR com seu dispositivo móvel para abrir o link de visualização diretamente no aplicativo móvel. Você deve digitar o PIN em seu dispositivo para estabelecer a sessão [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
 
      >[!NOTE]
      >
