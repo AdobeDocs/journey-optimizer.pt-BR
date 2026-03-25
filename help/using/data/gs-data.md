@@ -7,10 +7,10 @@ feature: Data Management
 role: Developer, Admin, User
 level: Beginner, Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ec952f64508618fa14d6f0eb16534209baa1a505
+source-git-commit: 89d575834871a5c55bfce75511083b4b651301b8
 workflow-type: tm+mt
-source-wordcount: '2371'
-ht-degree: 0%
+source-wordcount: '2444'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ Esta página fornece um ponto de partida prático para entender:
 Use este guia junto com seus engenheiros de dados, administradores e profissionais de marketing para que todos compartilhem uma imagem comum de como os dados fluem para dentro e para fora do Journey Optimizer.
 
 >[!TIP]
->Novo no gerenciamento de dados no Journey Optimizer? Assista ao [Tutorial de visão geral da configuração](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} de dados para obter uma apresentação prática e fácil de iniciar de esquemas, conjuntos de dados e fontes.
+>Novo no gerenciamento de dados no Journey Optimizer? Assista ao [Tutorial de visão geral da configuração](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} de dados para obter uma apresentação prática e fácil de iniciar de esquemas, conjuntos de dados e fontes.
 
 ## Como o Journey Optimizer usa os dados do Adobe Experience Platform {#aep-data}
 
@@ -40,7 +40,7 @@ Esquemas e conjuntos de dados vivem na Adobe Experience Platform. As identidades
 >[!TIP]
 >Pense no Adobe Experience Platform como sua camada de dados central e no Journey Optimizer como um aplicativo que orquestra jornadas e mensagens usando essa base de dados compartilhada.
 
-➡️ [Saiba mais sobre a arquitetura do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
+➡️ [Saiba mais sobre a arquitetura do Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
 
 ## Principais conceitos de dados no Journey Optimizer {#key-concepts}
 
@@ -84,7 +84,7 @@ Uma fonte de dados no Journey Optimizer define quais campos do Adobe Experience 
 ➡️ [Saiba mais sobre fontes de dados](../datasource/about-data-sources.md)
 
 >[!NOTE]
->O [Glossário do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/glossary){target="_blank"} define &quot;fonte de dados&quot; genericamente como a origem dos dados (um CRM, aplicativo móvel etc.). No Journey Optimizer, a **fonte de dados** tem um significado específico: uma configuração de interface do usuário que controla quais campos são expostos dentro de jornadas e mensagens.
+>O [Glossário do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/glossary){target="_blank"} define &quot;fonte de dados&quot; genericamente como a origem dos dados (um CRM, aplicativo móvel etc.). No Journey Optimizer, a **fonte de dados** tem um significado específico: uma configuração de interface do usuário que controla quais campos são expostos dentro de jornadas e mensagens.
 
 ### Identidade e perfil do cliente em tempo real {#identity}
 
@@ -107,50 +107,71 @@ Antes de os profissionais de marketing começarem a criar jornadas e campanhas, 
 >[!NOTE]
 >As etapas abaixo envolvem várias funções: engenheiros de dados, administradores e profissionais de marketing. Use essa lista de verificação como um plano compartilhado para preparar seu ambiente. As etapas 1 a 4 são concluídas no Adobe Experience Platform; as etapas 5 a 6 são configuradas no Journey Optimizer.
 
-### &#x200B;1. Defina sua estratégia de identidade {#identity-strategy}
+As seis etapas abaixo orientam você pelo processo completo de configuração de dados, desde a configuração de identidade até a verificação de que os dados fluem corretamente para o Journey Optimizer:
+
+1. Definir a estratégia de identidade
+1. Criar esquemas para dados de perfil e evento
+1. Criar conjuntos de dados habilitados para perfil
+1. Assimilar dados de suas fontes
+1. Configurar fontes de dados no Journey Optimizer
+1. Verificar rastreamento, feedback e conjuntos de dados de jornada
+
++++ Definir a estratégia de identidade
 
 Escolha uma identidade principal para seus clientes (como ECID, email ou CRMID) e configure os namespaces correspondentes no Serviço de identidade da Adobe Experience Platform. Verifique se os campos de identidade estão presentes em seus esquemas ativados por perfil e valide se os perfis estão compilados corretamente no gráfico de identidade.
 
 ➡️ [Saiba mais sobre identidades no Journey Optimizer](../audience/get-started-identity.md)
 
-### &#x200B;2. Criar esquemas para dados de perfil e evento {#design-schemas}
++++
+
++++ Criar esquemas para dados de perfil e evento
 
 Crie esquemas do **Perfil individual XDM** para capturar atributos do cliente, como nome e informações de contato, preferências e interesses, e estágio do ciclo de vida ou estado de consentimento. Crie esquemas **XDM ExperienceEvent** para capturar dados comportamentais e transacionais, como eventos da Web e do aplicativo, compras e interações offline. Marque os campos corretos como identidades e atributos de perfil, quando apropriado.
 
 ➡️ [Saiba mais sobre esquemas](get-started-schemas.md)
 
-### &#x200B;3. Criar conjuntos de dados habilitados para perfil {#create-datasets}
++++
+
++++ Criar conjuntos de dados habilitados para perfil
 
 No Adobe Experience Platform, crie conjuntos de dados com base nos esquemas XDM e ative Criar perfil em qualquer conjunto de dados que deva contribuir para o Perfil do cliente em tempo real. Confirme se os conjuntos de dados gerados pelo sistema criados pela Journey Optimizer estão visíveis no espaço de trabalho Conjuntos de dados.
 
 ➡️ [Saiba mais sobre conjuntos de dados](get-started-datasets.md)
 
-### &#x200B;4. Assimilar dados de suas fontes {#ingest-data}
++++
+
++++ Assimilar dados de suas fontes
 
 Configure conectores de origem para seus sistemas corporativos — como Adobe Analytics, Adobe Experience Platform Web SDK ou suas plataformas CRM e POS — e mapeie os campos de entrada para seus esquemas XDM. Validar se os dados chegam aos conjuntos de dados corretos e são exibidos no Perfil do cliente em tempo real, onde esperado.
 
 ➡️ [Saiba mais sobre conectores de origem](../start/get-started-sources.md)
 
-➡️ [Tutorial: Criar conjuntos de dados e assimilar dados](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+➡️ [Tutorial: Criar conjuntos de dados e assimilar dados](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
 
-### &#x200B;5. Configurar fontes de dados no Journey Optimizer {#configure-data-sources}
++++
+
++++ Configurar fontes de dados no Journey Optimizer
 
 As fontes de dados são um conceito específico do Journey Optimizer: não são onde seus dados residem, mas onde você declara quais campos o Journey Optimizer tem permissão para ler durante a execução da jornada e da mensagem. Antes que uma jornada possa avaliar uma condição como &quot;o cliente é um membro do programa de fidelidade?&quot; Para personalizar uma mensagem com um nome, os campos de perfil relevantes devem ser expostos por meio de uma configuração de fonte de dados.
 
 O Journey Optimizer inclui uma [fonte de dados Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md) interna que dá acesso direto aos atributos do Perfil do Cliente em Tempo Real. Isso abrange a grande maioria dos casos de uso: ler atributos de perfil para personalização ou verificar campos de consentimento e preferência. Você também pode configurar [fontes de dados externas](../datasource/external-data-sources.md) para chamar APIs de terceiros no tempo de execução do jornada — por exemplo, para recuperar uma pontuação de fidelidade em tempo real, uma recomendação de produto ou um nível de inventário de loja que não esteja armazenado no Adobe Experience Platform.
 
 >[!NOTE]
->O acesso direto aos dados do evento da experiência por meio da fonte de dados integrada do Adobe Experience Platform está obsoleto e sendo progressivamente desativado. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}.
+>O acesso direto aos dados do evento da experiência por meio da fonte de dados integrada do Adobe Experience Platform está obsoleto e sendo progressivamente desativado. [Saiba mais](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}.
 
 Configurar fontes de dados é uma tarefa administrativa que desbloqueia a camada de dados completa para autores e profissionais de marketing do jornada. Depois que um campo é exposto por meio de uma fonte de dados, ele fica disponível no construtor de condições de jornada, em editores de personalização de mensagens e em regras do Offer Decisioning — sem exigir trabalho de engenharia adicional no momento da criação da jornada.
 
 ➡️ [Saiba mais sobre a configuração da fonte de dados](../datasource/about-data-sources.md)
 
-### &#x200B;6. Verificar o rastreamento, o feedback e os conjuntos de dados do jornada {#verify-datasets}
++++
+
++++ Verificar rastreamento, feedback e conjuntos de dados de jornada
 
 Confirme se os conjuntos de dados gerados pelo sistema da Journey Optimizer estão disponíveis no espaço de trabalho Conjuntos de dados. Execute jornadas e campanhas de teste e, em seguida, use o Editor de consultas para verificar se os eventos de envio, abertura, clique e rejeição estão registrados e se os eventos e estados de etapa de jornada foram capturados corretamente. Use esses conjuntos de dados para monitoramento contínuo, solução de problemas e otimização de jornadas.
 
 ➡️ [Saiba mais sobre consultas no Journey Optimizer](get-started-queries.md)
+
++++
 
 ## Medidas de proteção e considerações sobre o design de dados {#guardrails}
 
@@ -192,18 +213,86 @@ Esse fluxo ilustra como esquemas, conjuntos de dados, fontes, fontes de dados e 
 
 ## Recursos relacionados {#related-resources}
 
-* **[Introdução a esquemas](get-started-schemas.md)** — Saiba como criar esquemas XDM no Adobe Experience Platform, escolher a classe e os grupos de campos corretos e modelar seus atributos de perfil e eventos comportamentais.
+:::: landing-cards-container
 
-* **[Trabalhar com conjuntos de dados](get-started-datasets.md)** — Entenda como criar conjuntos de dados habilitados para perfil e eventos, monitorar a assimilação de dados e explorar os conjuntos de dados gerados pelo sistema que a Journey Optimizer cria automaticamente para eventos de etapas de rastreamento, feedback e jornada.
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-* **[Configurar fontes de dados](../datasource/about-data-sources.md)** — orientação passo a passo sobre como configurar a fonte de dados interna do Adobe Experience Platform e as fontes de dados externas opcionais para expor campos de perfil e respostas da API externa dentro do jornada.
+**Introdução a esquemas**
 
-* **[Usar dados (pesquisa) do Adobe Experience Platform](lookup-aep-data.md)** — Descubra como enriquecer mensagens em tempo de execução com dados de referência ou transacionais de conjuntos de dados do AEP, sem armazenar esses dados no Perfil de Cliente em Tempo Real.
+Saiba como criar esquemas XDM no Adobe Experience Platform, escolher a classe e os grupos de campos corretos e modelar os atributos de perfil e os eventos comportamentais.
 
-* **[Introdução a consultas](get-started-queries.md)** — Use o Serviço de consulta para analisar conjuntos de dados do Journey Optimizer, verificar se os eventos estão fluindo corretamente e criar consultas de relatórios sobre dados de envio, abertura, clique e rejeição.
+[Saiba mais](get-started-schemas.md)
+:::
 
-* **[Introdução aos perfis](../audience/get-started-profiles.md)** — saiba como o Perfil do Cliente em Tempo Real funciona na Journey Optimizer e como procurar, inspecionar e validar perfis de clientes individuais na interface do usuário da plataforma.
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
-* **[Tutorial de visão geral de dados](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}** — Uma apresentação em vídeo iniciante da configuração de dados na Journey Optimizer, abrangendo esquemas, conjuntos de dados e fontes de ponta a ponta.
+**Trabalhar com conjuntos de dados**
 
-* **[Tutorial Criar conjuntos de dados e assimilar dados](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}** — Um tutorial prático que mostra como criar conjuntos de dados no Adobe Experience Platform e assimilar dados usando conectores de origem, com instruções passo a passo que você pode seguir em sua própria sandbox.
+Entenda como criar conjuntos de dados habilitados para perfil e de evento, monitorar a assimilação de dados e explorar os conjuntos de dados gerados pelo sistema que a Journey Optimizer cria automaticamente para eventos de etapa de rastreamento, feedback e jornada.
+
+[Saiba mais](get-started-datasets.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+**Configurar fontes de dados**
+
+Orientação passo a passo sobre como configurar a fonte de dados integrada do Adobe Experience Platform e as fontes de dados externas opcionais para expor campos de perfil e respostas da API externa dentro das jornadas.
+
+[Saiba mais](../datasource/about-data-sources.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+**Usar dados (pesquisa) do Adobe Experience Platform**
+
+Descubra como enriquecer mensagens no tempo de execução com dados de referência ou transacionais de conjuntos de dados da AEP, sem armazenar esses dados no Perfil do cliente em tempo real.
+
+[Saiba mais](lookup-aep-data.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+**Introdução a consultas**
+
+Use o Serviço de consulta para analisar conjuntos de dados do Journey Optimizer, verificar se os eventos estão fluindo corretamente e criar consultas de relatório sobre dados de envio, abertura, clique e rejeição.
+
+[Saiba mais](get-started-queries.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+**Introdução a perfis**
+
+Saiba como o Perfil do cliente em tempo real funciona no Journey Optimizer e como procurar, inspecionar e validar perfis de clientes individuais na interface do usuário da plataforma.
+
+[Saiba mais](../audience/get-started-profiles.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+**Configurar o tutorial de visão geral de dados**
+
+Uma apresentação em vídeo de fácil introdução sobre a configuração de dados no Journey Optimizer, abrangendo esquemas, conjuntos de dados e fontes de ponta a ponta.
+
+[Assistir ao tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+**Criar conjuntos de dados e assimilar tutorial de dados**
+
+Um tutorial prático que mostra como criar conjuntos de dados no Adobe Experience Platform e assimilar dados usando conectores de origem, com instruções passo a passo que você pode seguir em sua própria sandbox.
+
+[Assistir ao tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+:::
+
+::::
