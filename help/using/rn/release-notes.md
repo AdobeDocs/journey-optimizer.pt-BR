@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 83da64e7985b9fb5b723c60473db6ea743e3fe6e
+source-git-commit: 3bd51b6ac69a4b1f0965259a6b3b597435bc77f1
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 21%
+source-wordcount: '1552'
+ht-degree: 20%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Novidades"
->abstract="O **Adobe Journey Optimizer** está sempre fornecendo novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão."
+>abstract="O **Adobe Journey Optimizer** fornece continuamente novos recursos, melhorias nos recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão."
 
-O [!DNL Adobe Journey Optimizer] segue um modelo de entrega contínua, permitindo que a Adobe forneça novos recursos, melhorias e correções também de forma contínua. Essa abordagem permite uma implantação escalável e em fases de recursos para garantir desempenho e estabilidade em todos os ambientes.
+O [!DNL Adobe Journey Optimizer] segue um modelo de entrega contínua, permitindo que a Adobe forneça novos recursos, melhorias e correções de forma contínua. Essa abordagem permite uma implantação escalável e em fases de recursos para garantir desempenho e estabilidade em todos os ambientes.
 
 Devido a esse modelo, as notas de versão são atualizadas entre as versões mensais. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](releases.md).
 
@@ -34,7 +34,7 @@ As seções [Novos recursos](#march-26-features) e [Melhorias](#march-26-improv)
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Data de lançamento**: 24 a 25 de março de 2026
 
@@ -50,6 +50,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Uma nova atividade <strong>Test</strong> está disponível em Campanhas Orquestradas. Essa atividade roteia a execução do fluxo de trabalho para diferentes ramificações com base em condições definidas, permitindo validar a lógica e as configurações da campanha antes de ativar os deliveries ativos.</p>
+<p><img src="../orchestrated/assets/test-1.png"></p>
 <p>Para obter mais informações, consulte a <a href="../orchestrated/activities/test.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -65,7 +66,9 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>Uma nova atividade no jornada, Pesquisa de conjunto de dados, permite recuperar dados dinamicamente dos conjuntos de dados de registro do Adobe Experience Platform durante o tempo de execução. Ao aproveitar esse recurso, é possível acessar dados que podem não estar no perfil ou no conteúdo do evento, garantindo que as interações com o cliente sejam relevantes e oportunas. Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral). Para obter mais informações, consulte a <a href="../building-journeys/dataset-lookup.md">documentação detalhada</a>.</p>
+<p>Uma nova atividade no jornada, Pesquisa de conjunto de dados, permite recuperar dados dinamicamente dos conjuntos de dados de registro do Adobe Experience Platform durante o tempo de execução. Ao aproveitar esse recurso, é possível acessar dados que podem não estar no perfil ou no conteúdo do evento, garantindo que as interações com o cliente sejam relevantes e oportunas. Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral). </p>
+<p><img src="../building-journeys/assets/aep-data-activity.png"></p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/dataset-lookup.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -177,7 +180,7 @@ As jornadas existentes que usam as atividades de canal herdadas continuarão a f
 <td>
 <p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
 </td>
 </tr>
@@ -259,7 +262,11 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 ## Em breve {#coming-soon}
 
-Os recursos e as melhorias abaixo estão planejados para lançamento no final de março/início de abril. As datas de lançamento e o escopo estão sujeitos a alterações sem aviso prévio.
+Os recursos e as melhorias abaixo estão planejados para lançamento no final de março/início de abril. As datas de lançamento e o escopo estão **sujeitos a alterações sem aviso prévio**.
+
+
+### Recursos
+
 
 <table>
 <thead>
