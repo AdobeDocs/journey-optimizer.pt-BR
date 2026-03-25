@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1427'
 ht-degree: 9%
 
 ---
@@ -24,19 +24,17 @@ ht-degree: 9%
 >title="Atividade de ação"
 >abstract="A atividade **Ação** permite configurar uma única ação de canal nativo e várias atividades de entrada com a capacidade de adicionar otimização a qualquer ação de canal interna."
 
-O [!DNL Journey Optimizer] vem com uma nova atividade genérica **Action** que permite configurar uma única ação de canal interna e também várias atividades de entrada.
+A atividade **Ação** é o único ponto de entrada para todas as ações de canal na tela de jornada. Ele substitui as atividades de canal individuais anteriores e consolida Email, Push, SMS, No aplicativo, Web, experiência baseada em código e Cartão de conteúdo em um tipo de atividade unificada.
 
-A atividade Action oferece:
+Use-a para:
 
-* Uma configuração de ação nativa simplificada na tela da jornada.
-* A capacidade de criar grupos de ação de entrada multiação.
-* A capacidade de adicionar otimização a qualquer ação de canal integrada.
-
-Para adicionar uma ação de canal interna à sua jornada, use a atividade **Ação**. Essa atividade unificada consolida todas as ações de canal (Email, Push, SMS, No aplicativo, Web, Experiência baseada em código e Cartão de conteúdo) em um único tipo de atividade, substituindo as atividades individuais de canal anteriores.
+* Configure qualquer ação de canal integrada em uma única interface simplificada.
+* Crie grupos de ação de entrada de várias ações.
+* Aplique otimização a qualquer ação de canal.
 
 >[!IMPORTANT]
 >
->Sendo todos os canais nativos agora acessíveis por meio da atividade Ação, as atividades de canal nativas herdadas serão descontinuadas na versão de março. As jornadas existentes que incluem ações herdadas continuarão a funcionar como estão — não é necessária nenhuma migração.
+>As atividades de canal nativas herdadas (Email, Push, SMS, No aplicativo, Web, Experiência baseada em código e Cartão de conteúdo) serão descontinuadas a partir da versão de março de 2026. As jornadas existentes que usam essas atividades continuam a funcionar sem alterações — nenhuma migração é necessária.
 
 Você também pode configurar ações personalizadas para enviar suas mensagens no [!DNL Journey Optimizer]. [Saiba mais](#recommendation)
 
@@ -44,7 +42,9 @@ Você também pode configurar ações personalizadas para enviar suas mensagens 
 
 Para adicionar uma ação de canal interna à sua jornada usando a atividade **[!UICONTROL Ação]**, siga as etapas abaixo.
 
-Para obter mais informações sobre os canais disponíveis no jornada, consulte a tabela nesta seção: [Canais em jornadas e campanhas](../channels/gs-channels.md#channels).
+>[!NOTE]
+>
+>Para obter mais informações sobre os canais disponíveis no jornada, consulte a tabela nesta seção: [Canais em jornadas e campanhas](../channels/gs-channels.md#channels).
 
 1. Inicie sua jornada com uma atividade [Evento](general-events.md) ou [Ler público](read-audience.md).
 

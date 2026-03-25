@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, handlebars, iteração, matrizes, contexto, personalização
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3040'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Exemplo: itens do carrinho de um evento
 
-Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
+Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
 
 +++ Exibir código de exemplo
 
@@ -255,10 +255,6 @@ Para exibir benefícios dinâmicos com base no status de fidelidade, consulte o 
 ## Repetir nos resultados da pesquisa do conjunto de dados {#dataset-lookup}
 
 A [Atividade de Pesquisa de Conjunto de Dados](../building-journeys/dataset-lookup.md) permite recuperar dados de [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"} durante o tempo de execução da jornada. Os dados enriquecidos são armazenados como uma matriz e podem ser repetidos em suas mensagens.
-
->[!AVAILABILITY]
->
->A atividade Pesquisa de conjunto de dados só está disponível para um conjunto limitado de organizações. Para obter acesso, entre em contato com um representante da Adobe.
 
 Saiba mais sobre como configurar a atividade Pesquisa de Conjunto de Dados em [esta seção](../building-journeys/dataset-lookup.md). A pesquisa de conjunto de dados é particularmente eficiente quando combinada com dados de evento. Consulte [Exemplo: dados de evento enriquecidos com a pesquisa de conjunto de dados](#combine-sources) para obter um caso de uso prático.
 
@@ -1044,12 +1040,12 @@ Use o [modo de teste de jornada](../building-journeys/testing-the-journey.md) pa
 
 ## Tópicos relacionados {#related-topics}
 
-**Fundamentos do Personalization:** [Introdução à personalização](personalize.md) | [Adicionar personalização](personalization-build-expressions.md) | [Sintaxe do Personalization](personalization-syntax.md) | [Funções auxiliares](functions/helpers.md) | [Criar regras condicionais](create-conditions.md)
+**Fundamentos do Personalization:** [Introdução à personalização](personalize.md) | [Adicionar personalização](personalization-build-expressions.md) | [Sintaxe do Personalization](personalization-syntax.md) | [Funções de ajuda](functions/helpers.md) | [Criar regras condicionais](create-conditions.md)
 
-**Configuração de Jornada:** [Sobre eventos](../event/about-events.md) | [Configurar ações personalizadas](../action/about-custom-action-configuration.md) | [Envio de coleções em parâmetros de ação personalizados](../building-journeys/collections.md#passing-collection) | [Usar respostas de chamada de API em ações personalizadas](../action/action-response.md) | [Solucionar problemas de ações personalizadas](../action/troubleshoot-custom-action.md) | [Usar dados do Adobe Experience Platform no jornada](../building-journeys/dataset-lookup.md) | [Usar identificadores complementares no jornada](../building-journeys/supplemental-identifier.md) | [Medidas de proteção e limitações](../start/guardrails.md) | [Testar sua jornada](../building-journeys/testing-the-journey.md)
+**Configuração da Jornada:** [Sobre eventos](../event/about-events.md) | [Configurar ações personalizadas](../action/about-custom-action-configuration.md) | [Transmitir coleções para parâmetros de ação personalizados](../building-journeys/collections.md#passing-collection) | [Usar respostas de chamada de API em ações personalizadas](../action/action-response.md) | [Solucionar problemas de ações personalizadas](../action/troubleshoot-custom-action.md) | [Usar dados do Adobe Experience Platform no jornada](../building-journeys/dataset-lookup.md) | [Usar identificadores complementares no jornada](../building-journeys/supplemental-identifier.md) | [Medidas de proteção e limitações](../start/guardrails.md) | [Testar sua jornada](../building-journeys/testing-the-journey.md)
 
-**Funções de expressão de Jornada:** [Editor de expressão avançado](../building-journeys/expression/expressionadvanced.md) | [Funções de gerenciamento de coleções](../building-journeys/expression/collection-management-functions.md) (primeiro, todos, último) | [Listar funções](../building-journeys/functions/list-functions.md) (serializeList, filtro, classificação) | [Funções de matriz](../personalization/functions/arrays-list.md) (head, tail)
+**Funções de expressão de Jornada:** [Editor de expressão avançado](../building-journeys/expression/expressionadvanced.md) | [Funções de gerenciamento de coleção](../building-journeys/expression/collection-management-functions.md) (primeiro, tudo, último) | [Funções de lista](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Funções de matriz](../personalization/functions/arrays-list.md) (head, tail)
 
-**Casos de uso do Personalization:** [Email de abandono de carrinho](personalization-use-case-helper-functions.md) | [Notificação do status do pedido](personalization-use-case.md)
+**Casos de uso do Personalization:** [Email de abandono do carrinho](personalization-use-case-helper-functions.md) | [Notificação de status do pedido](personalization-use-case.md)
 
 **Design da mensagem:** [Introdução ao design de email](../email/get-started-email-design.md) | [Criar notificações por push](../push/create-push.md) | [Criar mensagens SMS](../sms/create-sms.md) | [Visualizar e testar seu conteúdo](../content-management/preview-test.md)

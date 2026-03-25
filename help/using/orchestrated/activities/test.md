@@ -3,19 +3,17 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Use a atividade Test em suas campanhas orquestradas
 description: Saiba como usar a atividade Testar
-hide: true
-hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 83%
+source-wordcount: '379'
+ht-degree: 28%
 
 ---
 
 
-# Testar {#test}
+# Teste {#test}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test"
@@ -27,36 +25,39 @@ ht-degree: 83%
 >title="Condições"
 >abstract="A atividade **Teste** pode ter várias transições de saída. Durante a execução da campanha orquestrada, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, a campanha orquestrada continuará com base na **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, a campanha orquestrada será interrompida nesse ponto."
 
-A atividade **[!UICONTROL Teste]** é uma atividade de **[!UICONTROL Controle de fluxo]**. Ela permite habilitar transições com base nas condições especificadas.
+A atividade **[!UICONTROL Teste]** é uma atividade de **[!UICONTROL Controle de fluxo]**. Use-o para ramificar o fluxo da campanha ativando transições diferentes, dependendo das condições definidas. Cada condição pode avaliar os dados da transição de entrada e você pode escolher qual transição é executada primeiro pela ordem em que as condições são avaliadas.
 
 ## Configurar a atividade Testar {#test-configuration}
 
-Siga estas etapas para configurar a atividade **[!UICONTROL Testar]**:
+Para configurar a atividade **[!UICONTROL Test]**:
 
-1. Adicione uma atividade **[!UICONTROL Test]** à sua campanha Orquestrada.
+1. Solte uma atividade **[!UICONTROL Test]** na tela da campanha Orquestrada.
 
-1. Por padrão, a atividade **[!UICONTROL Testar]** apresenta um teste booleano simples. Se a condição definida na transição “Verdadeira” for satisfeita, essa transição será ativada. Caso contrário, uma transição padrão “Falsa” será ativada.
+1. Por padrão, a atividade fornece um único teste booleano: quando a condição &quot;True&quot; é atendida, essa transição é ativada; caso contrário, a transição &quot;False&quot; (padrão) é ativada.
 
-1. Para configurar a condição associada a uma transição, clique no ícone de **[!UICONTROL Abrir caixa de diálogo de personalização]**. Use o editor de expressão para definir as regras necessárias para ativar essa transição. Você também pode utilizar variáveis de evento, condições e funções de data/hora.
+   ![](../assets/test-1.png)
 
-   Além disso, você pode modificar o campo **[!UICONTROL Rótulo]** para personalizar o nome da transição na tela de campanha Orquestrada.
+1. Defina a condição para uma transição preenchendo estes campos:
 
-   ![](../assets/workflow-test-default.png)
+   * **Rótulo**: um nome para a transição para que você possa identificá-la na tela.
 
-1. Você pode adicionar várias transições de saída a uma atividade **[!UICONTROL Testar]**. Para isso, clique no botão **[!UICONTROL Adicionar condição]** e configure o rótulo e a condição associada para cada transição.
-v
-1. Durante a execução da campanha orquestrada, cada condição é testada sequencialmente até que uma delas seja atendida. Se nenhuma das condições for atendida, as campanhas Orquestradas continuarão no caminho da **[!UICONTROL Condição padrão]**. Se nenhuma condição padrão for ativada, a campanha será interrompida nesse ponto.
+   * **Tipo de condição**: os dados para avaliar, por padrão, a contagem de população.
+
+   * **Operador**: a comparação a ser aplicada, por exemplo, igual a, maior que, menor que. A lista de operadores depende do tipo de dados do tipo de condição.
+
+   * **Valor**: o valor com o qual comparar o tipo de condição.
+
+   ![](../assets/test-2.png)
+
+1. Para ramificar mais de dois resultados, clique em **[!UICONTROL Adicionar condição]** e defina um rótulo e uma condição para cada transição adicional.
+
+1. No tempo de execução, a campanha avalia as condições em ordem e segue a primeira que corresponde a. Quando nenhuma condição é correspondente, a execução segue a **[!UICONTROL Condição padrão]** se uma estiver definida; caso contrário, a campanha para na atividade **[!UICONTROL Test]**.
 
 ## Exemplo {#example}
 
-Neste exemplo, transições diferentes são ativadas com base no número de perfis direcionados por uma atividade **[!UICONTROL Criar público-alvo]**:
+Neste exemplo, transições diferentes são ativadas com base no número de perfis segmentados por uma atividade **[!UICONTROL Criar público]**. As condições são avaliadas em ordem; a última transição é o padrão e é usada quando nenhuma condição anterior é correspondente.
 
 * Se mais de 10 mil perfis forem direcionados, uma mensagem de email será enviada.
-* No caso de mil a 10 mil perfis, um SMS será enviado.
-* Se os perfis direcionados ficarem abaixo de mil, eles serão direcionados a uma transição de “não entrar em contato”.
+* Padrão (nenhuma condição correspondida): quando a contagem é de 10.000 ou menos, a população é direcionada para uma transição &quot;não entrar em contato&quot;.
 
 ![](../assets/workflow-test-example.png)
-
-Para isso, a variável de evento `vars.recCount` foi utilizada nas condições de “email” e “sms” para contar o número de perfis direcionados e ativar a transição apropriada.
-
-![](../assets/workflow-test-example-config.png)
