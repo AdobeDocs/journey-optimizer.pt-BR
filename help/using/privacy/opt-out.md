@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 95%
+source-wordcount: '1207'
+ht-degree: 84%
 
 ---
 
@@ -25,19 +25,32 @@ Saiba mais sobre a legislação aplicável na [documentação da Experience Plat
 
 Ao enviar mensagens de jornadas ou campanhas, você deve sempre garantir que os clientes possam cancelar a inscrição de comunicações futuras. Após o cancelamento da assinatura, os perfis serão removidos automaticamente do público-alvo de futuras mensagens de marketing.
 
-Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção de não participação em emails e mensagens SMS, as notificações por push não exigem nenhuma ação da sua parte, pois os destinatários podem cancelar a inscrição por meio dos seus próprios dispositivos. Por exemplo, ao baixar ou ao usar seu aplicativo, eles podem optar por parar as notificações. Da mesma forma, é possível alterar as configurações de notificação por meio do sistema operacional móvel.
+Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção de não participação em emails e mensagens SMS, as notificações por push não exigem nenhuma ação da sua parte, pois os destinatários podem cancelar inscrição por meio dos seus próprios dispositivos. Por exemplo, ao baixar ou ao usar seu aplicativo, é possível optar por parar as notificações. Da mesma forma, é possível alterar as configurações de notificação por meio do sistema operacional móvel.
 
 >[!NOTE]
 >
 >Além disso, é possível aproveitar a **API REST de supressão** do Journey Optimizer para controlar as mensagens enviadas usando listas de supressão e de permissões. [Saiba como trabalhar com a API REST de supressão](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
+### Verificar status de recusa por push {#push-opt-out-status}
+
+A recusa por push para aplicativos móveis é tratada no nível do dispositivo: quando um usuário desativa notificações no dispositivo, o token de push é removido do perfil. A **presença de um token de push** em um perfil é, portanto, o indicador de consentimento de push implícito.
+
+Para verificar o status de consentimento por push de um perfil no Adobe Experience Platform:
+
+1. Abra o perfil na seção **[!UICONTROL Perfis]** do Adobe Experience Platform.
+1. Vá para a guia **[!UICONTROL Atributos]** e procure o grupo de campos **[!UICONTROL Detalhes da Notificação por Push]**.
+1. Se um token de push estiver presente, o perfil consentiu implicitamente em receber notificações por push. Se nenhum token for encontrado, o usuário optou por não participar no nível do dispositivo.
+
+>[!NOTE]
+>
+>Para casos de uso de conformidade que exigem rastreamento explícito de consentimento por push, use o atributo **`consents.marketing.push.val`** do [grupo de campos Consentimentos e Preferências](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"}. Um valor de `y` indica aceitação explícita; `n` indica recusa explícita.
 
 Saiba como gerenciar a opção de não participação em emails e mensagens SMS do Journey Optimizer nestas seções:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="../email/email-opt-out.md">
-<img alt="Cliente potencial" src="../assets/do-not-localize/privacy-email-optout.jpeg" width="50%">
+<img alt="Lead" src="../assets/do-not-localize/privacy-email-optout.jpeg" width="50%">
 </a>
 <div><a href="../email/email-opt-out.md"><strong>Gerenciamento de opção de não participação de email</strong>
 </div>
@@ -45,7 +58,7 @@ Saiba como gerenciar a opção de não participação em emails e mensagens SMS 
 </td>
 <td>
 <a href="../sms/sms-opt-out.md">
-<img alt="Pouco frequentes" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
+<img alt="Pouco frequente" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
 </a>
 <div>
 <a href="../sms/sms-opt-out.md"><strong>Gerenciamento de opção de não participação de SMS</strong></a>

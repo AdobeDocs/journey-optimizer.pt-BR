@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ Use as guias dedicadas para definir as configurações de notificação por push
 
 >[!NOTE]
 >
->Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção de não participação em emails e mensagens SMS, as notificações por push não exigem nenhuma ação da sua parte, pois os destinatários podem cancelar inscrição por meio dos seus próprios dispositivos. Por exemplo, ao baixar ou ao usar seu aplicativo, é possível optar por parar as notificações. Da mesma forma, eles podem alterar as configurações de notificação por meio do sistema operacional do celular ou das configurações do navegador da web.
+>Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção de não participação em emails e mensagens SMS, as notificações por push não exigem nenhuma ação da sua parte, pois os destinatários podem cancelar inscrição por meio dos seus próprios dispositivos. Por exemplo, ao baixar ou ao usar seu aplicativo, é possível optar por parar as notificações. Da mesma forma, é possível alterar as configurações de notificação por meio do sistema operacional móvel ou das configurações do navegador da Web. Para verificar o status de consentimento por push de um perfil no visualizador de perfil do AEP, consulte [Verificar o status de recusa por push](../privacy/opt-out.md#push-opt-out-status).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
