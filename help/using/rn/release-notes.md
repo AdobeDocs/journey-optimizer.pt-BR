@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3bd51b6ac69a4b1f0965259a6b3b597435bc77f1
+source-git-commit: 80241ba0afa94d6683f0fd562bb3185876c55cac
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 20%
+source-wordcount: '1537'
+ht-degree: 19%
 
 ---
 
@@ -34,7 +34,7 @@ As seções [Novos recursos](#march-26-features) e [Melhorias](#march-26-improv)
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Data de lançamento**: 24 a 25 de março de 2026
 
@@ -66,7 +66,8 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>Uma nova atividade no jornada, Pesquisa de conjunto de dados, permite recuperar dados dinamicamente dos conjuntos de dados de registro do Adobe Experience Platform durante o tempo de execução. Ao aproveitar esse recurso, é possível acessar dados que podem não estar no perfil ou no conteúdo do evento, garantindo que as interações com o cliente sejam relevantes e oportunas. Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral). </p>
+<p>Uma nova atividade de <strong>Pesquisa de conjunto de dados</strong> no jornada permite recuperar dinamicamente dados de conjuntos de dados de registros Adobe Experience Platform no tempo de execução, fornecendo acesso a informações que não fazem parte do perfil ou da carga do evento, de modo que as interações com o cliente permaneçam relevantes e oportunas.</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral). </p>
 <p><img src="../building-journeys/assets/aep-data-activity.png"></p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/dataset-lookup.md">documentação detalhada</a>.</p>
 </td>
@@ -123,7 +124,7 @@ As jornadas existentes que usam as atividades de canal herdadas continuarão a f
 <tr>
 <td>
 <p>O modo HTML avançado para modelos de conteúdo de email permite editar a origem de HTML do seu conteúdo no Designer de email, adicionar expressões avançadas (como condições) na origem e alternar entre a exibição do HTML e a exibição da área de trabalho sem perder as alterações.</p>
-<p>Esse recurso está disponível em modelos de conteúdo somente para o canal de email. No momento, ela está em Disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.</p>
+<p>Esse recurso está disponível em modelos de conteúdo somente para o canal de email. No momento, a disponibilidade é limitada — entre em contato com o representante da Adobe para obter acesso.</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
 <p>Para obter mais informações, consulte a <a href="../content-management/email-template-expert-mode.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quarta-feira, 10 de março de 2026</p>
@@ -180,7 +181,7 @@ As jornadas existentes que usam as atividades de canal herdadas continuarão a f
 <td>
 <p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
 </td>
 </tr>
@@ -277,7 +278,7 @@ Os recursos e as melhorias abaixo estão planejados para lançamento no final de
 <tbody>
 <tr>
 <td>
-<p>Agora é possível acionar uma campanha orquestrada por meio de um sinal enviado por APIs. Configure a campanha do target como "Triggered by a signal" (Acionado por um sinal) e publique-a. Em seguida, use uma chamada de API para acionar a campanha. A chamada da API pode incluir parâmetros que estarão disponíveis como variáveis na campanha acionada. Observação: uma campanha orquestrada iniciada por um sinal ainda é uma campanha **batch** e não é a mesma que campanhas acionadas por API.</p>
+<p>As campanhas orquestradas agora podem ser acionadas por meio de um <strong>sinal de API</strong>. Para configurar isso, configure a campanha do target como <strong>Acionada por um sinal</strong>, publique-a e acione-a usando uma chamada de API. Todos os parâmetros incluídos na chamada da API estão disponíveis como variáveis na campanha em execução. Observe que as campanhas orquestradas acionadas por sinal permanecem <strong>campanhas em lote</strong> e são distintas das campanhas acionadas por API.</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
 <p>Data de disponibilidade: 1 de abril de 2026</p>
 </td>
