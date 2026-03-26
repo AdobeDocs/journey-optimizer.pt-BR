@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 66bf475ed473f3b3d8c61f17ac0f7a36696fe962
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1613'
 ht-degree: 22%
 
 ---
@@ -53,7 +53,7 @@ Para criar uma landing page, selecione uma predefinição, configure a página p
 
 1. Adicione um título. Você pode adicionar uma descrição, se necessário.
 
-   ![](assets/lp_create-lp-details.png)
+   ![](assets/lp_create-lp-details.png){width=75%}
 
 1. Para atribuir rótulos de uso de dados personalizados ou principais à página de aterrissagem, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
 
@@ -61,7 +61,12 @@ Para criar uma landing page, selecione uma predefinição, configure a página p
 
 1. Selecione uma predefinição. Saiba como criar predefinições de página de aterrissagem em [esta seção](../landing-pages/lp-presets.md#lp-create-preset).
 
-   ![](assets/lp_create-lp-presets.png)
+1. Selecione o tipo de landing page que deseja criar.
+
+   ![](assets/lp_create-lp-data-capture.png){width=60%}
+
+   * **[!UICONTROL Assinatura/Cancelamento de Assinatura]**: Use esse tipo para criar uma página de aterrissagem para casos de uso de assinatura ou cancelamento de assinatura. [Saiba mais](lp-use-cases.md#subscription-to-a-service)
+   * **[!UICONTROL Captura de Dados]**: use este tipo para criar uma página de aterrissagem para casos de uso de captura de dados. [Saiba mais](get-started-lp.md#data-capture-lp)
 
 1. Clique em **[!UICONTROL Criar]**.
 
@@ -86,7 +91,7 @@ Depois de configurar e criar a [página principal](#configure-primary-page) e as
 >title="Definir as configurações da página principal"
 >abstract="A página principal é exibida imediatamente depois que os usuários clicam no link da página de destino que consta em um email ou site."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=pt-BR" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"

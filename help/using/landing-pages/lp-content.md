@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landing page, landing page, criação, página, formulário, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1571'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,11 @@ ht-degree: 9%
 
 Para projetar o conteúdo da página de aterrissagem, é possível usar os mesmos componentes de um email. [Saiba mais](../email/content-components.md#add-content-components)
 
-Para criar conteúdo específico que permita aos usuários selecionar e enviar suas escolhas, [use o componente de formulário](#use-form-component) e defina seus [estilos específicos de página de aterrissagem](#lp-form-styles).
+Para criar conteúdo específico que permita aos usuários selecionar e enviar suas escolhas, use o **componente de formulário**:
+
+* Para cenários de aceitação, recusa e assinatura, use o [componente de formulário incorporado](#use-form-component) e defina seus [estilos específicos de página de aterrissagem](#lp-form-styles).
+
+* Para permitir que os usuários enviem dados por meio de um formulário específico (por exemplo, para enriquecer um conjunto de dados [!DNL Experience Platform]), [incorpore um formulário publicado](#embed-form) em uma página de aterrissagem **[!UICONTROL Captura de Dados]**. [Saiba mais sobre a criação de formulários](lp-forms.md)
 
 >[!NOTE]
 >
@@ -167,6 +171,40 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 1. Expanda a seção **[!UICONTROL Erro de formulário]** para ajustar a exibição da mensagem de erro exibida em caso de problema. Marque a opção correspondente para visualizar o texto do erro no formulário.
 
    ![](assets/lp_designer-form-error-preview.png)
+
+## Incorporar um formulário (captura de dados) {#embed-form}
+
+Para páginas de aterrissagem criadas com o tipo [Captura de Dados](get-started-lp.md#data-capture-lp), você pode incorporar um [formulário publicado](lp-forms.md) que você criou. Os envios são enviados para a conexão de transmissão e para o conjunto de dados configurado na predefinição do formulário.
+
+No designer de conteúdo da página de aterrissagem, siga as etapas abaixo.
+
+1. Arraste e solte um componente **[!UICONTROL Estrutura]** no seu conteúdo e, em seguida, arraste e solte o componente **[!UICONTROL Formulário]** nessa estrutura.
+
+   >[!NOTE]
+   >
+   >Somente formulários **publicados** podem ser selecionados na página de aterrissagem.
+
+1. Na seção **[!UICONTROL Incorporar formulário]**, selecione o formulário a ser exibido.
+
+   ![](assets/lp_embed-form.png)
+
+   >[!NOTE]
+   >
+   >Use o **[!UICONTROL Formulário de edição]** se precisar alterar o conteúdo do formulário ou o comportamento da página de agradecimento; o formulário será aberto em uma nova guia. [Saiba mais sobre a edição de formulários](lp-forms.md#edit-form)
+
+1. Na seção **[!UICONTROL Tipo de acompanhamento]**, defina o que acontece após o envio:
+
+   * **[!UICONTROL Formulário definido]** — Use a ação de página de agradecimento configurada no formulário inserido. [Saiba mais](lp-forms.md#thank-you-page)
+   * **Página de aterrissagem publicada** — Redirecione para outra [página de aterrissagem](create-lp.md) publicada.
+   * **URL Externa** — Redirecionar para uma URL completa.
+
+1. Salve o conteúdo da landing page quando terminar.
+
+Para obter o fluxo de trabalho completo (criação, teste e publicação de uma página de aterrissagem), consulte [Usar o formulário em uma página de aterrissagem](lp-forms.md#leverage-form-in-lp).
+
+>[!NOTE]
+>
+>Esta experiência de formulário inserido se aplica somente às páginas de aterrissagem de **[!UICONTROL Captura de Dados]**.
 
 ## Usar contexto da página principal {#use-primary-page-context}
 

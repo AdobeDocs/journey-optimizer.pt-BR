@@ -8,22 +8,17 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: landing page, landing page, criação, página, formulário
-badge: label="Disponibilidade limitada" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 9%
+source-wordcount: '2029'
+ht-degree: 7%
 
 ---
 
 # Usar formulários nas páginas de aterrissagem {#lp-forms}
 
->[!AVAILABILITY]
->
->No momento, esse recurso está na disponibilidade limitada para clientes nos Estados Unidos e na Austrália. Entre em contato com o representante da Adobe para obter acesso.
-
-Para capturar dados de perfil com suas páginas de aterrissagem do [!DNL Journey Optimizer] e enriquecer seus conjuntos de dados do [!DNL Experience Platform], você pode usar formulários em suas páginas de aterrissagem.
+Para capturar dados de perfil com suas páginas de aterrissagem do [!DNL Journey Optimizer] e enriquecer seus conjuntos de dados do [!DNL Experience Platform], você pode usar formulários em suas páginas de aterrissagem. Para obter uma visão geral de cenários e requisitos de captura de dados, consulte [Captura de dados com páginas de aterrissagem](get-started-lp.md#data-capture-lp).
 
 ## Criar uma predefinição de formulário {#create-form-preset}
 
@@ -78,7 +73,7 @@ Para criar uma predefinição de formulário, siga as etapas abaixo.
    >* **O tipo de dados** deve ser definido como **XDM** (não dados brutos)
    >* A **Autenticação** deve ser **desabilitada** (conexão não autenticada)
    >
-   >Se a conexão de transmissão não for exibida na lista, verifique se essas duas condições foram atendidas. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Se a conexão de transmissão não for exibida na lista, verifique se essas duas condições foram atendidas. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. É possível digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
 
@@ -270,7 +265,7 @@ Agora é possível incorporar este formulário em uma página de aterrissagem pa
 
    >[!NOTE]
    >
-   >Você pode atualizar o formulário selecionado usando o botão **[!UICONTROL Editar formulário]**. O formulário é aberto em uma nova guia. As etapas para editar o conteúdo do formulário estão detalhadas em [esta seção](#create-form).
+   >Você pode atualizar o formulário selecionado usando o botão **[!UICONTROL Editar formulário]**. O formulário é aberto em uma nova guia. As etapas para editar o conteúdo do formulário estão detalhadas em [esta seção](#edit-form).
 
 1. Na seção **[!UICONTROL Tipo de acompanhamento]**, configure o que acontece quando um usuário preenche o formulário:
 
@@ -282,8 +277,65 @@ Agora é possível incorporar este formulário em uma página de aterrissagem pa
 
 1. Salve e teste sua landing page. [Saiba como](create-lp.md#test-landing-page)
 
-Assim que a página de aterrissagem for [publicada](create-lp.md#publish-landing-page) e usada em uma jornada, quando os usuários preencherem o formulário, as informações inseridas serão assimiladas no conjunto de dados selecionado.
+Assim que a página de aterrissagem for [publicada](create-lp.md#publish-landing-page) e usada em uma jornada, quando os usuários preencherem o formulário, as informações inseridas serão assimiladas no conjunto de dados selecionado. Aguarde até 15 minutos para que os dados sejam processados e estejam disponíveis para uso.
 
 >[!NOTE]
 >
 >Se você cancelar a publicação de um formulário usado em uma landing page, editar esse formulário e publicá-lo novamente, a landing page sempre usará a versão mais recente publicada do formulário.
+
+## Perguntas frequentes {#lp-forms-faq}
+
++++Que tipo de página de aterrissagem preciso para usar um formulário?
+
+Ao criar uma página de aterrissagem, selecione **[!UICONTROL Captura de Dados]** como o tipo de página de aterrissagem. Esse é o único tipo de página de aterrissagem compatível com a incorporação de um formulário para coleta de dados.
+
++++
+
++++Posso usar qualquer conjunto de dados com uma predefinição de formulário?
+
+Somente **Conjuntos de dados** **habilitados para perfil e** Não habilitados para perfil[!DNL Adobe Experience Platform] estão disponíveis para seleção. Conjuntos de dados do sistema não podem ser usados para salvar dados de formulário e apenas um conjunto de dados pode ser selecionado por predefinição.
+
++++
+
++++Posso reutilizar o mesmo conjunto de dados ou conexão de transmissão em várias predefinições de formulário?
+
+Sim. O mesmo conjunto de dados ou conexão de transmissão pode ser reutilizado em várias predefinições. Você também pode configurar várias predefinições usando diferentes combinações de conjuntos de dados e conexões de transmissão para suportar diferentes cenários de captura de dados.
+
++++
+
++++Posso usar um formulário de rascunho em uma landing page?
+
+Não. Somente formulários **publicados** podem ser selecionados e inseridos em uma página de aterrissagem.
+
++++
+
++++Se eu editar e republicar um formulário que já esteja incorporado em uma página de aterrissagem em tempo real, qual versão a página de aterrissagem usa?
+
+A página de aterrissagem sempre usa a **última versão publicada** do formulário. As alterações de rascunho não entrarão em vigor até que o formulário atualizado seja publicado.
+
++++
+
++++Posso redirecionar usuários para páginas diferentes com base em como eles preencheram o formulário?
+
+Sim. Você pode configurar um **[!UICONTROL redirecionamento condicional]** na página de agradecimento e definir regras para mostrar diferentes ações de acompanhamento com base em respostas de formulário - por exemplo, redirecionar visitantes de um país para uma página e visitantes de outro país para uma página diferente, com um fallback padrão para todos os outros. [Saiba mais](#thank-you-page)
+
++++
+
++++Os campos de formulário podem ser pré-preenchidos com dados de perfil existentes?
+
+Sim. Ao configurar um campo, você pode habilitar a opção **[!UICONTROL Preenchimento prévio habilitado]** para que o campo seja preenchido automaticamente a partir das informações do perfil conhecido quando ele estiver disponível.
+
++++
+
++++Posso tornar um campo obrigatório para que os usuários não possam ignorá-lo?
+
+Sim. Na seção **[!UICONTROL Comportamentos de campo]** da configuração de um campo, selecione **[!UICONTROL Obrigatório]**. Os usuários não podem enviar o formulário até que todos os campos obrigatórios sejam preenchidos.
+
++++
+
++++Para onde vão os dados de envio do formulário depois que um usuário envia o formulário?
+
+Quando o formulário é enviado, os dados são enviados para a **conexão de streaming** definida na predefinição de formulário. Em seguida, ele é enviado por push para o **[!DNL Experience Platform]conjunto de dados** vinculado por meio de um fluxo de origem gerado automaticamente que lida com mapeamento, transformação e validação.
+
++++
+
