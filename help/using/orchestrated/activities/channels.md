@@ -5,10 +5,10 @@ title: Adicionar uma atividade de canal a uma campanha em várias etapas
 description: Saiba como adicionar uma atividade de canal a uma campanha em várias etapas
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 6c318f0a11a59a80721f14d830be10ba4f29318f
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 41%
+source-wordcount: '1554'
+ht-degree: 40%
 
 ---
 
@@ -55,7 +55,7 @@ UNUSED IDs in BJ
 >title="Atividade de correspondência direta"
 >abstract="A Atividade correspondência direta facilita o envio de correspondência direta na campanha orquestrada, tanto para mensagens únicas quanto recorrentes. Ela serve para automatizar o processo de geração do arquivo de extração exigido pelos provedores de correspondência direta. É possível combinar atividades de canal na tela da campanha orquestrada para criar campanhas entre canais que podem acionar ações com base no comportamento e nos dados do cliente."
 
-O [!DNL Adobe Journey Optimizer] permite automatizar e executar campanhas de marketing em canais - email, SMS, notificações por push e correspondência direta. Você pode combinar essas atividades de canal na tela da campanha para criar campanhas orquestradas entre canais. Essas campanhas podem acionar ações com base no comportamento e nos dados do cliente.
+O [!DNL Adobe Journey Optimizer] permite automatizar e executar campanhas em canais (email, SMS, notificações por push e correspondência direta) para mensagens de marketing e transacionais. Você pode combinar essas atividades de canal na tela da campanha para criar campanhas orquestradas entre canais. Essas campanhas podem acionar ações com base no comportamento e nos dados do cliente.
 
 Por exemplo:
 
@@ -83,6 +83,8 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 1. Adicione uma atividade de canal à tela. As atividades de canal disponíveis são **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push]** e **[!UICONTROL Correspondência direta]**.
 
    ![imagem mostrando a tela com as atividades disponíveis](../assets/channel-add.png)
+
+1. No painel direito, use o campo **[!UICONTROL Categoria]** para escolher **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]** para esta mensagem. As mensagens transacionais não exigem aceitação e são adequadas para comunicações sensíveis ao tempo, como interrupções, emergências ou cancelamentos.
 
 1. Selecione a atividade e clique em **[!UICONTROL Editar email]**, **[!UICONTROL Editar SMS]**, **[!UICONTROL Editar push]** ou **[!UICONTROL Editar correspondência direta]**, dependendo do canal escolhido.
 

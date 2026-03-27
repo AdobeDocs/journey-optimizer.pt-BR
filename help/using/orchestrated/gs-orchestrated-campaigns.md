@@ -6,10 +6,10 @@ description: Saiba como começar a usar as campanhas orquestradas
 short-description: Descubra os principais recursos e casos de uso de campanhas orquestradas.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >title="campaigns_overview_orchestrated"
 >abstract="<b>Orquestração de campanha</b><br/>Dividir, combinar, enriquecer e manipular conjuntos de dados relacionais para definir o público-alvo<br/><br/> <b>Aproveite dados multientidade</b><br/>Saiba como as campanhas orquestradas podem aproveitar os conjuntos de dados relacionais no enriquecimento de dados para segmentação e personalização<br/><br/><b>Segmentação ad-hoc e contagens exatas</b><br/>Crie seu segmento passo a passo com contagens exatas<br/><br/><b>Canais disponíveis</b><br/>Email, SMS, Notificações por push, Correspondência direta"
 
-A orquestração de campanhas no [!DNL Adobe Journey Optimizer] viabiliza campanhas de marketing sofisticadas e iniciadas pela marca em vários canais, ajudando a impulsionar o engajamento, a receita e a fidelidade do cliente em grande escala.
+A Orquestração de Campanha no [!DNL Adobe Journey Optimizer] possibilita campanhas sofisticadas iniciadas por marca em todos os canais, tanto o **marketing** quanto o **transacional**. As campanhas de marketing ajudam a impulsionar o engajamento, a receita e a fidelidade do cliente em escala. As mensagens transacionais não exigem aceitação e são adequadas para comunicações sensíveis ao tempo, como interrupções, emergências ou cancelamentos.
 
 >[!IMPORTANT]
 >
