@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: fb33b8ce7205e5420c09f41812cc286c2b651e26
+source-git-commit: 6184ea004448b95ba6a75139124b47cf775a0fb1
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2876'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Os alertas do sistema estão disponíveis no menu **[!UICONTROL Alertas]** em **
 
 Antes de trabalhar com alertas:
 
-* **Permissões**: você precisa de permissões específicas para exibir e gerenciar alertas. Consulte [permissões necessárias no Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR#permissions){target="_blank"}.
+* **Permissões**: você precisa de permissões específicas para exibir e gerenciar alertas. Consulte [permissões necessárias no Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
 
 * **Reconhecimento de sandbox**: as assinaturas de alerta são específicas da sandbox. Quando você assina alertas, eles se aplicam somente à sandbox atual. Quando uma sandbox é redefinida, todas as assinaturas de alerta também são redefinidas.
 
@@ -58,7 +58,7 @@ O Journey Optimizer fornece regras de alerta pré-configuradas que monitoram asp
 
 Navegue até **[!UICONTROL Administração]** > **[!UICONTROL Alertas]** no menu esquerdo. A guia **Procurar** exibe todos os alertas pré-configurados disponíveis para o Journey Optimizer.
 
-![](assets/updated-alerts-list.png){width=50%}
+![](assets/updated-alerts-list.png){width=60%}
 
 ### Categorias de alerta
 
@@ -84,13 +84,13 @@ Detectar problemas com a configuração da capacidade de entrega de emails:
 
 * [Registro DNS de Domínio do AJO ausente](#alert-dns-record-missing) - Identifica registros DNS ausentes ou configurados incorretamente
 * [Falha na configuração do canal do AJO](#alert-channel-config-failure) - Detecta problemas de configuração de email (registros SPF, DKIM, MX)
-  <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+* [Renovação de certificados de domínio do AJO mal sucedida](#alert-certificates-renewal) - Avisa quando os certificados de Recurso ou de Rastreamento em um subdomínio de delegação personalizado expiram em breve ou expiraram
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->Para obter alertas de outros serviços da Adobe Experience Platform (assimilação de dados, resolução de identidade, segmentação e muito mais), consulte a [documentação de regras de alerta padrão](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=pt-BR){target="_blank"}.
+>Para obter alertas de outros serviços da Adobe Experience Platform (assimilação de dados, resolução de identidade, segmentação e muito mais), consulte a [documentação de regras de alerta padrão](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## Assinatura de alertas {#subscribe-alerts}
 
@@ -122,7 +122,7 @@ Você pode assinar alertas de duas maneiras:
 
 **Método de assinatura alternativo:**
 
-Para integrações avançadas, você pode assinar por meio de Eventos de I/O para enviar alertas a sistemas externos. Consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}.
+Para integrações avançadas, você pode assinar por meio de Eventos de I/O para enviar alertas a sistemas externos. Consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
 
 
 ### Assinatura global {#global-subscription}
@@ -149,7 +149,7 @@ Clique em **[!UICONTROL Cancelar inscrição]** ao lado do alerta.
 
 **Método de assinatura alternativo:**
 
-Você também pode assinar por meio de [Notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}, o que permite a integração com sistemas externos. Os nomes de inscrição em eventos para alertas do Journey Optimizer estão listados em cada [descrição de alerta abaixo](#journey-alerts).
+Você também pode assinar por meio de [Notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, o que permite a integração com sistemas externos. Os nomes de inscrição em eventos para alertas do Journey Optimizer estão listados em cada [descrição de alerta abaixo](#journey-alerts).
 
 ### Assinatura específica do Jornada {#unitary-subscription}
 
@@ -159,7 +159,7 @@ As assinaturas específicas de jornada permitem monitorar jornadas individuais d
 
 1. Vá para o inventário do jornada.
 
-1. Clique no menu **&#x200B;**&#x200B;(mais ações) da jornada que você deseja monitorar.
+1. Clique no menu **** (mais ações) da jornada que você deseja monitorar.
 
 1. Selecione **[!UICONTROL Assinar alertas]**.
 
@@ -183,7 +183,7 @@ Abra a mesma caixa de diálogo, desmarque o(s) alerta(s) e clique em **[!UICONTR
 >
 >O alerta [Acionador de Leitura de Público-alvo sem Êxito](#alert-read-audiences) está disponível somente por assinatura global, não por assinatura de jornada.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Jornada alertas {#journey-alerts}
 
@@ -204,7 +204,7 @@ Os alertas em **Ler público-alvo** são resolvidos quando um perfil entra no n�
 
 O nome de inscrição do evento de E/S correspondente ao alerta **Falha no Acionador de Leitura de Público** é **Atrasos, Falhas e Erros de leitura de público-alvo de Jornada**.
 
-Para solucionar problemas de alertas do **Ler público-alvo**, verifique sua contagem de públicos na interface do Experience Platform.
+Para solucionar problemas de alertas do **Read Audience**, verifique o contagem de público-alvo na interface do Experience Platform.
 
 ### Taxa de descarte do perfil excedida {#alert-discard-rate}
 
@@ -316,7 +316,7 @@ Se as alterações não resolverem o problema, o mesmo alerta será acionado nov
 
 Esse alerta é disparado caso a auditoria do sistema detecte problemas de configuração do canal de email. Esses problemas podem incluir configurações de canal mal definidas, configuração DNS inválida, problemas da lista de supressão, inconsistência de IP ou quaisquer outros erros que possam afetar a entrega de email.
 
-Se você receber esse alerta, as etapas de resolução estão listadas abaixo:
+Se você receber esse alerta, as etapas de resolução estão listadas abaixo.
 
 1. Clique no alerta a ser direcionado para a [configuração do canal de email](../email/get-started-email-config.md) afetada na interface [!DNL Journey Optimizer].
 
@@ -349,9 +349,29 @@ Ao resolver problemas de configuração de email, lembre-se das práticas recome
 * Agir imediatamente - Solucionar falhas de configuração assim que forem detectadas, para evitar interrupções no delivery de email.
 * Verificar todas as configurações - se o alerta indicar várias configurações de email afetadas, revise e corrija cada uma delas.
 
-<!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+### Renovação de certificados de domínio do AJO mal sucedida {#alert-certificates-renewal-unsuccessful}
 
-This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
+>[!IMPORTANT]
+>
+>Este alerta se aplica somente às configurações de canal que usam o tipo de delegação [subdomínio personalizado](../configuration/delegate-custom-subdomain.md).
+
+Este alerta notifica quando um certificado de domínio de Rastreamento ou Recurso em um subdomínio de delegação personalizado expira em 30 dias ou já expirou. Sem certificados válidos, a capacidade de delivery de email e o rastreamento de links podem ser interrompidos.
+
+>[!NOTE]
+>
+>A verificação é executada **semanalmente**.
+
+Se esse alerta for disparado, siga as etapas abaixo para investigar e resolver o problema.
+
+1. Clique no alerta para abrir o [subdomínio](../configuration/delegate-subdomain.md) afetado em [!DNL Journey Optimizer].
+
+1. Revise os detalhes para ver se a renovação do certificado é necessária.
+
+   * Se a data de expiração estiver no futuro, planeje a correção; o alerta pode fornecer até 30 dias de aviso.
+   * Se o certificado já tiver expirado, tome uma ação imediata.
+   * Se o problema não for resolvido, o mesmo alerta será acionado novamente na semana seguinte.
+
+1. Na solução de hospedagem de DNS, verifique se todos os registros necessários para a delegação de subdomínio ainda correspondem aos valores mostrados em [!DNL Journey Optimizer], incluindo registros usados para validação de SSL.
 
 ## Gerenciar alertas {#manage-alerts}
 
@@ -416,6 +436,6 @@ Para remover os assinantes, exclua seus endereços de email dos assinantes atuai
 **Estrutura de alertas:**
 
 * [Visão Geral dos Alertas do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR){target="_blank"} - Noções básicas sobre a estrutura de alertas
-* [Gerenciar alertas na interface](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR){target="_blank"} - Exibir, assinar e gerenciar alertas
-* [Assinar alertas por meio de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"} - Opções de integração avançadas
-* [Regras padrão de alerta](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=pt-BR){target="_blank"} - Lista completa de alertas da Plataforma disponíveis
+* [Gerenciar alertas na interface](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} - Exibir, assinar e gerenciar alertas
+* [Assinar alertas por meio de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} - Opções de integração avançadas
+* [Regras padrão de alerta](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} - Lista completa de alertas da Plataforma disponíveis
