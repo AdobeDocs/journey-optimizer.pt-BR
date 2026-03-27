@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomínio, delegação, domínio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '1931'
 ht-degree: 18%
 
 ---
@@ -39,6 +39,7 @@ A delegação de nome de domínio é um método que permite ao proprietário de 
 
 * Delegar totalmente um subdomínio - [Saiba como](#set-up-subdomain)
 * Crie um subdomínio usando CNAMEs para apontar para registros específicos do Adobe - [Saiba como](#set-up-subdomain)
+* Delegar um subdomínio personalizado - [Saiba como](delegate-custom-subdomain.md)
 
 A **delegação de subdomínio completa** é o método recomendado. Saiba mais sobre as diferenças entre os diferentes métodos de configuração de subdomínio em [esta seção](about-subdomain-delegation.md#subdomain-delegation-methods).
 
@@ -277,4 +278,4 @@ Depois que a solicitação for tratada pela Adobe, o domínio não delegado não
 
 Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342240?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

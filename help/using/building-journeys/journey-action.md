@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 9%
+source-wordcount: '1514'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,9 @@ ht-degree: 9%
 >title="Atividade de ação"
 >abstract="A atividade **Ação** permite configurar uma única ação de canal nativo e várias atividades de entrada com a capacidade de adicionar otimização a qualquer ação de canal interna."
 
-A atividade **Ação** é o único ponto de entrada para todas as ações de canal na tela de jornada. Ele substitui as atividades de canal individuais anteriores e consolida Email, Push, SMS, No aplicativo, Web, experiência baseada em código e Cartão de conteúdo em um tipo de atividade unificada.
+A atividade **Ação** é o único ponto de entrada para todas as ações de canal na tela de jornada.
+
+Ele substitui as atividades de canal individuais anteriores e consolida Email, Push, SMS, No aplicativo, Web, experiência baseada em código e Cartão de conteúdo em um tipo de atividade unificada.
 
 Use-a para:
 
@@ -32,11 +34,21 @@ Use-a para:
 * Crie grupos de ação de entrada de várias ações.
 * Aplique otimização a qualquer ação de canal.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->As atividades de canal nativas herdadas (Email, Push, SMS, No aplicativo, Web, Experiência baseada em código e Cartão de conteúdo) serão descontinuadas a partir da versão de março de 2026. As jornadas existentes que usam essas atividades continuam a funcionar sem alterações — nenhuma migração é necessária.
+>Você também pode configurar ações personalizadas para enviar suas mensagens no [!DNL Journey Optimizer]. [Saiba mais](#recommendation)
 
-Você também pode configurar ações personalizadas para enviar suas mensagens no [!DNL Journey Optimizer]. [Saiba mais](#recommendation)
+## Sobre as atividades de canal herdadas
+
+As atividades de canal nativas herdadas (Email, Push, SMS, No aplicativo, Web, Experiência baseada em código e Cartão de conteúdo) estão **obsoletas a partir da versão de março de 2026**.
+
+As jornadas existentes que usam essas atividades continuam a funcionar sem alterações — nenhuma migração é necessária.
+
+As atividades de canal nativas herdadas também são preservadas nestes casos:
+
+* **Duplicar uma jornada** — A jornada duplicada continua a usar atividades herdadas. É possível editá-lo e publicá-lo como está; nenhuma migração é necessária.
+* **Criar uma nova versão do jornada** — A nova versão continua a usar atividades herdadas. É possível editá-lo e publicá-lo como está; nenhuma migração é necessária.
+* **Copiar e colar atividades herdadas em uma jornada** — as atividades coladas permanecem como atividades herdadas. É possível editá-los e publicá-los como estão; nenhuma migração é necessária.
 
 ## Adicionar uma ação de canal interna a uma jornada  {#add-action}
 
