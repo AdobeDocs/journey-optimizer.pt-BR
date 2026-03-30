@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 727f277b06b748cd4712c9cce62d7b4a1ad1f146
+source-git-commit: e49528fa70225e7435683f5a63d883a0ffce29fa
 workflow-type: tm+mt
 source-wordcount: '3147'
 ht-degree: 96%
@@ -403,10 +403,10 @@ ht-degree: 96%
       + [Configurar canal LINE no Journey Optimizer](using/line/line-configuration.md)
       + [Criar uma mensagem LINE](using/line/create-line.md)
       + [Verificar e enviar mensagens LINE](using/line/send-line.md)
-   + Atividade em tempo real {#live-activity}
-      + [Introdução à Atividade em tempo real](using/mobile-live/get-started-mobile-live.md)
+   + Atividades ativas {#live-activity}
+      + [Introdução às Atividades em tempo real](using/mobile-live/get-started-mobile-live.md)
       + [Criar uma Atividade em tempo real](using/mobile-live/create-mobile-live.md)
-      + [Solução de problemas de atividade em tempo real](using/mobile-live/troubleshoot-mobile-live.md)
+      + [Solução de problemas de atividades em tempo real](using/mobile-live/troubleshoot-mobile-live.md)
       + [Perguntas frequentes](using/mobile-live/mobile-live-faq.md)
       + Configurar canal de atividade online {#configure}
          + [Configurar atividade em tempo real no Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
@@ -460,7 +460,7 @@ ht-degree: 96%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
