@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 874bbd1d7235c8043e824290d748677fe30f43a9
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1496'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem substit
 
 * Para componentes do HTML, a variável é exibida na lista de campos editáveis no Designer de email. [Saiba como personalizar campos editáveis em um fragmento visual](../email/use-visual-fragments.md#customize-fields)
 
-### Exemplo de fragmento de expressão editável {#example}
+### Exemplo: fragmento de expressão personalizável {#example}
 
 No exemplo abaixo, estamos criando um fragmento de expressão que apresenta novas coleções de esportes. Por padrão, o fragmento exibe este conteúdo: *Procurando mais? Não perca nossa última coleção de esportes!*
 
@@ -146,9 +146,9 @@ Para fazer isso:
 
 ## Adicionar rich text a um fragmento personalizável {#rich-text}
 
-Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados a um fragmento editável usando componentes do HTML. Para isso, siga as etapas abaixo.
+Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados a um fragmento personalizável usando componentes do HTML. Para isso, siga as etapas abaixo.
 <!--
-➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
+➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)-->
 
 ### Criar um fragmento incluindo rich text {#add-rich-text}
 
@@ -176,9 +176,9 @@ Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados 
 
 1. Salve e [publique](create-fragments.md#publish) o fragmento.
 
-### Usar fragmentos editáveis de rich text {#use-rich-text}
+### Usar rich text em fragmentos personalizáveis {#use-rich-text}
 
-Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem editar o conteúdo rich text e o estilo criados por você. Para usar fragmentos editáveis de rich text como profissional de marketing, siga as etapas abaixo.
+Ao adicionar o fragmento ao email, agora é possível editar o conteúdo rich text e o estilo criados. Como profissional de marketing, siga as etapas abaixo.
 
 1. [Crie um email](../email/create-email.md) em uma campanha ou jornada e adicione o fragmento com rich text que foi [criado](#add-rich-text).
 
@@ -199,5 +199,5 @@ Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem editar 
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464373/?captions=por_br&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
