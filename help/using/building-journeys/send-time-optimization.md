@@ -10,9 +10,9 @@ level: Intermediate
 keywords: send-time, send, message, otimization, jornada, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1567'
 ht-degree: 9%
 
 ---
@@ -47,26 +47,33 @@ A Otimização de tempo de envio está disponível apenas para os tipos de açã
 
 ## Usar otimização de hora de envio{#use-send-time-optimization}
 
-Use a Otimização de tempo de envio em um email ou ação de push ativando o switch Otimização de tempo de envio nos parâmetros de ação.
+Para ativar e configurar a Otimização de tempo de envio em um email ou ação por push, siga as etapas abaixo.
 
-![Alternância de Otimização de Tempo de Envio na configuração do canal de email](assets/jo-message5.png)
+Antes de iniciar, considere quais mensagens são adequadas antes de ativá-las. A Otimização de tempo de envio não deve ser usada para mensagens operacionais urgentes e sensíveis ao tempo, por exemplo, uma confirmação de pedido, uma notificação de redefinição de senha ou uma notificação de alteração da porta de voo. Funciona melhor para comunicações de marketing menos urgentes, como um anúncio semanal, informações promocionais sobre um novo produto ou informações sobre uma venda de um mês.
 
-A Otimização de tempo de envio não deve ser usada para mensagens operacionais urgentes e sensíveis ao tempo - por exemplo, uma confirmação de pedido, uma notificação de redefinição de senha ou uma notificação de alteração da porta de voo. A Otimização de tempo de envio é melhor usada em comunicações de marketing menos urgentes - por exemplo, um anúncio semanal, informações promocionais sobre um novo produto ou informações sobre uma venda de um mês.
+1. Na sua Jornada, abra o menu **[!UICONTROL Configurar ação]**.
 
-Para mensagens de email, escolha se deseja otimizar as aberturas de email ou click-throughs de email selecionando o botão de opção apropriado. As mensagens de push são sempre otimizadas para aberturas.
+   ![Alternância de Otimização de Tempo de Envio na configuração do canal de email](assets/sto-1.png)
 
->[!TIP]
->
->Para obter os melhores resultados, a maioria das mensagens de email deve ser otimizada para cliques. Escolha otimizar para Aberturas se sua mensagem de email for de natureza informativa e não se destinar a direcionar uma ação diretamente.
+1. Ative a opção **[!UICONTROL Otimização de Tempo de Envio]** no menu Otimização de tempo de Envio.
 
-Para mensagens de email e por push, escolha o número máximo de horas que o sistema aguardará antes de enviar a mensagem, definindo um valor para a opção &quot;Enviar na próxima&quot;. Você pode escolher um valor de 1 a 168 horas.
+   ![Alternância de Otimização de Tempo de Envio na configuração do canal de email](assets/sto-2.png)
 
->[!TIP]
->
->Para obter os melhores resultados, escolha um tempo máximo de espera entre 6 e 24 horas. A escolha de um valor menor para o tempo máximo de espera reduz o número de tempos de envio disponíveis e, portanto, pode reduzir o valor potencial da Otimização de tempo de envio. Escolher um valor mais alto para o tempo máximo de espera pode resultar na desatualização ou irrelevância de uma mensagem no momento em que ela é enviada.
+1. Para mensagens de email, escolha se deseja otimizar para aberturas ou para click-throughs selecionando a opção apropriada. As mensagens de push são sempre otimizadas para aberturas.
+
+   Para obter melhores resultados, otimize a maioria dos emails para **Cliques**. Escolha **Aberturas** quando a mensagem for informativa e não se destinar a direcionar uma ação específica.
+
+1. Para emails e mensagens por push, defina **[!UICONTROL Enviar na(s) próxima(s)]** com o número máximo de horas (1-168) que o sistema aguardará antes de enviar a mensagem.
+
+   Para obter melhores resultados, escolha um valor entre 6 e 24 horas. Um valor mais baixo reduz o número de tempos de envio disponíveis e pode limitar o benefício da Otimização de tempo de envio. Um valor mais alto pode significar que a mensagem está desatualizada ou é menos relevante no momento em que é enviada.
+
+   ![Alternância de Otimização de Tempo de Envio na configuração do canal de email](assets/sto-3.png)
+
+1. Para mensagens de email, escolha como o rastreamento de ação será configurado. Você pode rastrear aberturas de Email e rastrear cliques em links e botões no Email.
 
 Quando sua jornada é ativada e um cliente atinge a ação de Email ou Push na jornada, a Otimização de tempo de envio escolherá o melhor tempo de envio previsto disponível para cada usuário dentro dos limites especificados.
 
+Para monitorar o desempenho da sua jornada, consulte a [página de Visão geral](../reports/channel-report-cja.md).
 
 ## Como funciona a Otimização de tempo de envio {#how-send-time}
 

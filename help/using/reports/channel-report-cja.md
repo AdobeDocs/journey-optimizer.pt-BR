@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -27,8 +27,9 @@ A página do relatório é exibida com as seguintes guias:
 * [Campanhas](#campaign)
 * [Canais](#channel)
 * [Conjuntos de regras](#rule-sets)
+* [Modelos de otimização](#optimization-models)
 
-Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home).
+Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Destaques {#highlights}
 
@@ -142,7 +143,7 @@ A tabela **[!UICONTROL Conflitos e Limite de Jornada]** fornece informações so
 
 A coluna **[!UICONTROL Entradas de Jornada por Conjunto de Regras]** mostra o número de perfis que entraram na jornada. Há três tipos de entradas:
 
-* **&#x200B;**&#x200B;[!UICONTROL Nenhum conflito]&#x200B;**&#x200B;**: o perfil entrou na jornada sem nenhum conflito de conjunto de regras. Nenhum conjunto de regras ativo impediu essa entrada, e a entrada de jornada ocorreu independentemente das regras de arbitragem.
+* ****[!UICONTROL Nenhum conflito]****: o perfil entrou na jornada sem nenhum conflito de conjunto de regras. Nenhum conjunto de regras ativo impediu essa entrada, e a entrada de jornada ocorreu independentemente das regras de arbitragem.
 
 * **Prioridade mais alta**: o perfil entrou na jornada devido à sua maior prioridade do que outras jornadas concorrentes. Mesmo que houvesse um conflito (o perfil se qualificou para várias jornadas), essa jornada foi selecionada devido à sua pontuação de prioridade mais alta.
 
@@ -157,3 +158,25 @@ A coluna **[!UICONTROL Exclusões]** mostra o número de perfis que foram exclu�
 +++
 
 ➡️ [Saiba mais sobre limite e arbitragem de jornada](../conflict-prioritization/journey-capping.md)
+
+## Modelos de otimização {#optimization-models}
+
+![](assets/sto-report.png)
+
+As tabelas **[!UICONTROL Otimização de tempo de envio]** fornecem informações sobre o desempenho das mensagens por push e de email otimizadas e de controle. Use-a para comparar métricas principais, como envios, aberturas, cliques e rejeições, para que você possa ver como cada variante está se saindo e informar suas decisões de otimização.
+
+Observe que as métricas deste relatório, incluindo **[!UICONTROL Lift]** e **[!UICONTROL Confidence]**, são calculadas a partir de **60 dias** de envios e envolvimento.
+
++++ Saiba mais sobre Métricas de otimização de tempo de envio
+
+* **[!UICONTROL Envios]**: número total de vezes que cada variante de mensagem foi enviada.
+
+* **[!UICONTROL Abrir]**: número total de eventos abertos registrados para a mensagem.
+
+* **[!UICONTROL Taxa de aberturas]**: a porcentagem de mensagens enviadas para as quais o perfil abriu a mensagem pelo menos uma vez.
+
+* **[!UICONTROL Aumento]**: melhora na porcentagem da taxa de conversão de um determinado tratamento em relação à variante da linha de base. O aumento quantifica a magnitude de uma diferença; interprete-a juntamente com **[!UICONTROL Confiança]**.
+
+* **[!UICONTROL Confiança]**: o nível estatístico de evidência de que a taxa de abertura ou de clique da variante Otimizada para Enviar Tempo difere da variante de Controle (tempo de envio atribuído aleatoriamente). Ele é calculado com um teste Z de duas proporções.
+
++++
