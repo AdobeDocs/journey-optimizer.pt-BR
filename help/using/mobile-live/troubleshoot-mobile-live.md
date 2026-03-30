@@ -28,7 +28,7 @@ Um desafio frequente com atividades Live é quando a chamada da API para acionar
 
 Antes de solucionar problemas, verifique se você tem:
 
-* 
+* &#x200B;
   +++ Configurar uma sessão do Assurance
 
   Configure uma **sessão do Assurance** para capturar eventos do SDK e inspecionar o pipeline de entrega. O Assurance oferece visibilidade sobre:
@@ -44,7 +44,7 @@ Antes de solucionar problemas, verifique se você tem:
 
   +++
 
-* 
+* &#x200B;
   +++ Coletar detalhes da campanha acionada pela API
 
   Navegue até a Campanha acionada pela API no Journey Optimizer e recupere:
@@ -56,7 +56,7 @@ Antes de solucionar problemas, verifique se você tem:
 
   +++
 
-* 
+* &#x200B;
   +++ Coletar informações de solicitação da API
 
   Ao fazer a chamada de API para acionar a atividade Live, salve:
@@ -68,7 +68,7 @@ Antes de solucionar problemas, verifique se você tem:
 
   +++
 
-* 
+* &#x200B;
   +++ Identificar o perfil de teste
 
   Na solicitação da API, recupere:
@@ -80,7 +80,7 @@ Antes de solucionar problemas, verifique se você tem:
 
   +++
 
-* 
+* &#x200B;
   +++ Informações do dispositivo e do aplicativo
 
   Colete o seguinte do seu dispositivo de teste:
@@ -119,7 +119,7 @@ A API retorna HTTP 200, mas a atividade Live não é exibida. Causas comuns:
 
 #### Etapas de depuração
 
-1. 
+1. &#x200B;
    +++ Verificar se o perfil existe no Adobe Experience Platform
 
    1. No Journey Optimizer, navegue até **Cliente** `>` **Perfis**.
@@ -129,7 +129,7 @@ A API retorna HTTP 200, mas a atividade Live não é exibida. Causas comuns:
 
       +++
 
-1. 
+1. &#x200B;
    +++ Verificar se o token de push da atividade online está sincronizado
 
    Você pode usar o Assurance para verificar o registro do token:
@@ -149,7 +149,7 @@ A API retorna HTTP 200, mas a atividade Live não é exibida. Causas comuns:
 
    +++
 
-1. 
+1. &#x200B;
    +++ Validar detalhes do token no perfil
 
    1. Em seu **Perfil**, acesse a guia **Atributos**.
@@ -207,7 +207,7 @@ O perfil existe com tokens válidos, mas a atividade Live não é exibida. Isso 
 
 #### Etapas de depuração
 
-1. 
+1. &#x200B;
    +++ Verificar a configuração da superfície de campanha
 
    1. No Journey Optimizer, abra a **Campanha** e navegue até o menu **Ações**.
@@ -216,7 +216,7 @@ O perfil existe com tokens válidos, mas a atividade Live não é exibida. Isso 
 
       +++
 
-1. 
+1. &#x200B;
    +++Validar estrutura de carga da API
 
    Ao executar a campanha via API, verifique se a carga segue a estrutura correta.
@@ -280,7 +280,7 @@ O perfil existe com tokens válidos, mas a atividade Live não é exibida. Isso 
 
      +++
 
-1. 
+1. &#x200B;
    +++ Alinhar a carga com a implementação do iOS
 
    Verifique se a carga da API corresponde à implementação `ActivityAttributes` do aplicativo iOS. O protocolo `LiveActivityAttributes` do Adobe SDK estende o iOS `ActivityAttributes` e requer uma propriedade `liveActivityData`.
@@ -354,7 +354,7 @@ O perfil existe com tokens válidos, mas a atividade Live não é exibida. Isso 
 
    +++
 
-1. 
+1. &#x200B;
    +++ Testar com o Assurance
 
    Verifique a execução da API e o delivery de carga usando o Assurance:
@@ -401,7 +401,7 @@ Mas a atividade Live ainda não é exibida, atualizada ou encerrada conforme esp
 
 #### Etapas de depuração
 
-1. 
+1. &#x200B;
    +++ Verificar relatórios de campanha
 
    1. Navegue até a **Campanha de atividade ao vivo**.
@@ -440,7 +440,7 @@ Mas a atividade Live ainda não é exibida, atualizada ou encerrada conforme esp
 
    +++
 
-1. 
+1. &#x200B;
    +++ Verificar eventos de feedback da mensagem no perfil
 
    1. Navegue até **Cliente** > **Perfis** na Journey Optimizer.
@@ -467,7 +467,7 @@ Mas a atividade Live ainda não é exibida, atualizada ou encerrada conforme esp
 
       +++
 
-1. 
+1. &#x200B;
    +++ Verificar a entrega de atividade em tempo real para APNs no Assurance
 
    1. Abra a sessão do Assurance. Ela deve estar ativa durante a chamada de API.
@@ -490,7 +490,7 @@ Mas a atividade Live ainda não é exibida, atualizada ou encerrada conforme esp
 
       +++
 
-1. 
+1. &#x200B;
    +++ Prosseguir com verificações de diagnóstico adicionais
 
    1. Verifique as métricas de ciclo de vida de atividade Ativo no Relatório de campanha.
@@ -516,7 +516,7 @@ Mas a atividade Live ainda não é exibida, atualizada ou encerrada conforme esp
 
       +++
 
-1. 
+1. &#x200B;
    +++ Escalonamento para o suporte da Adobe
 
    Se você concluiu todas as etapas e o problema permanece não resolvido, entre em contato com o Atendimento ao cliente da Adobe com:
@@ -568,7 +568,7 @@ Para que os eventos de atualização e término funcionem, o seguinte deve ocorr
 
 #### Etapas de depuração
 
-1. 
+1. &#x200B;
    +++ Verificar sincronização do token de atualização no Assurance
 
    1. Abra sua sessão do Assurance.
@@ -591,7 +591,7 @@ Para que os eventos de atualização e término funcionem, o seguinte deve ocorr
 
       +++
 
-2. 
+2. &#x200B;
    +++ Verificar token de atualização em eventos de perfil
 
    1. Navegue até **Cliente** > **Perfis** na Journey Optimizer.
@@ -614,7 +614,7 @@ Para que os eventos de atualização e término funcionem, o seguinte deve ocorr
 
       +++
 
-3. 
+3. &#x200B;
    +++ Verificar eventos de entrega de atividade em tempo real no Assurance
 
    1. Na sessão do Assurance, execute uma chamada de API de atualização ou fim.
@@ -653,7 +653,7 @@ Este cenário de solução de problemas se aplica a todos os eventos de atividad
 
 #### Etapas de depuração
 
-1. 
+1. &#x200B;
    +++ Verificar a configuração do público-alvo da campanha
 
    1. Abra sua **Campanha de Marketing Acionado pela API** na Journey Optimizer.
@@ -668,7 +668,7 @@ Este cenário de solução de problemas se aplica a todos os eventos de atividad
 
       +++
 
-1. 
+1. &#x200B;
    +++ Validar a estrutura de carga da API de transmissão
 
    A estrutura de carga da transmissão é diferente das campanhas unitárias. Verifique se a carga segue o formato de transmissão correto.
@@ -740,7 +740,7 @@ Este cenário de solução de problemas se aplica a todos os eventos de atividad
 
    +++
 
-1. 
+1. &#x200B;
    +++ Alinhar o estado do conteúdo, os atributos e o canal de push de entrada com a implementação do iOS
 
    Verifique se os campos de carga correspondem à implementação `ActivityAttributes` do aplicativo iOS e se `input-push-channel` corresponde a `channelID` em `liveActivityData`.
@@ -821,7 +821,7 @@ Este cenário de solução de problemas se aplica a todos os eventos de atividad
 
    +++
 
-1. 
+1. &#x200B;
    +++ Testar com o Assurance
 
    Verifique a execução da API e o delivery de carga usando o Assurance:
@@ -868,7 +868,7 @@ O Adobe Experience Platform usa diferentes métodos de avaliação de público-a
 
 #### Etapas de depuração
 
-1. 
+1. &#x200B;
    +++ Verificar se o perfil está no público
 
    Primeiro, confirme se o perfil que deve receber a atividade Live faz parte do público-alvo.
@@ -886,7 +886,7 @@ O Adobe Experience Platform usa diferentes métodos de avaliação de público-a
 
       +++
 
-2. 
+2. &#x200B;
    +++ Verificar o tipo e a programação da avaliação do público-alvo
 
    Identifique se o público-alvo usa avaliação em lote ou por transmissão, pois isso determina a atualização dos dados.
