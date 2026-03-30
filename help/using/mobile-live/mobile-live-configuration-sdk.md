@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar o canal de atividade do Live
+title: Configurar o canal de atividades online
 description: Saiba como configurar a integração do Adobe Experience Platform Mobile SDK
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 # Integração de atividade ao vivo com o Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
 
-O Adobe Experience Platform Mobile SDK fornece suporte integrado para a atividade do Apple Live. Isso permite que seu aplicativo exiba atualizações dinâmicas e em tempo real diretamente na Tela de bloqueio e na Ilha dinâmica sem abrir o aplicativo.
+O Adobe Experience Platform Mobile SDK fornece suporte integrado para as atividades do Apple Live. Isso permite que seu aplicativo exiba atualizações dinâmicas e em tempo real diretamente na Tela de bloqueio e na Ilha dinâmica sem abrir o aplicativo.
 
 1. [Importar módulos obrigatórios](#import)
 
@@ -150,7 +150,7 @@ if #available(iOS 16.1, *) {
 
 ## Etapa 4: Criar widgets de atividade ao vivo {#widgets}
 
-A atividade ao vivo é exibida por meio de widgets, é necessário criar um pacote de widgets e uma configuração:
+Uma atividade Live é exibida por meio de widgets. Você precisa criar um pacote de widget e uma configuração:
 
 **Exemplo de uma atividade Live de entrega de alimentos:**
 
@@ -189,7 +189,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 
 ## Etapa 5: iniciar uma atividade Live localmente (opcional) {#local}
 
-Embora o Journey Optimizer possa iniciar remotamente a atividade Live, você também pode iniciá-la localmente:
+Embora o Journey Optimizer possa iniciar atividades online remotamente, você também pode iniciá-las localmente:
 
 **Exemplo de uma atividade Live de entrega de alimentos:**
 
@@ -237,9 +237,9 @@ Para obter uma documentação abrangente do SDK e detalhes de implementação:
 
 * [Guia do desenvolvedor de atividades em tempo real](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
 * [Referência da API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [Tutorial de atividade ao vivo](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [Tutorial de atividades ao vivo](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
 * [Classes Públicas](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
 
 >[!TIP]
 >
->Se você estiver tendo problemas com o registro de token, alinhamento de carga ou entrega de Atividade online, consulte [Solução de problemas de Atividades Online](troubleshoot-mobile-live.md) para obter orientações detalhadas de depuração.
+>Se você estiver tendo problemas com o registro de token, alinhamento de carga ou entrega de atividades em tempo real, consulte [Solucionar problemas de atividades em tempo real](troubleshoot-mobile-live.md) para obter diretrizes detalhadas de depuração.

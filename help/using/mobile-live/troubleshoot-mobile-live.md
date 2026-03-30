@@ -1,34 +1,34 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Solução de problemas de atividades ativas
+title: Solução de problemas de atividades em tempo real
 description: Saiba como solucionar problemas de atividades ativas no Journey Optimizer para casos de uso unitários e de transmissão, incluindo problemas de token de perfil, configuração de campanha e falhas de delivery
 role: User
 level: Intermediate
-source-git-commit: b71dbb0e4987cfc879a7b153d5c1453d6c220bf9
+exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '4503'
 ht-degree: 1%
 
 ---
 
+# Solução de problemas de atividades em tempo real {#troubleshoot-mobile-live}
 
-# Solução de problemas de atividades ativas {#troubleshoot-mobile-live}
-
-As atividades ativas no Adobe Journey Optimizer permitem atualizações dinâmicas e em tempo real nas telas de bloqueio do iOS e nas Ilhas dinâmicas. Eles só podem ser acionados e gerenciados por meio de Campanhas acionadas por API.
+As atividades online no Adobe Journey Optimizer permitem atualizações dinâmicas e em tempo real nas telas bloqueadas do iOS e nas Ilhas dinâmicas. Eles só podem ser acionados e gerenciados por meio de Campanhas acionadas por API.
 
 **Tipos de caso de uso:**
 
 * **Unitário**: direcionado individualmente, transacional (campanhas transacionais acionadas por API)
 * **Transmissão**: entrega em massa direcionada por público-alvo (campanhas de marketing acionadas por API)
 
-Um desafio frequente com as Atividades ativas é quando a chamada da API para acionar ou atualizar uma Atividade ativa retorna uma **resposta bem-sucedida (200 OK)**, mas a Atividade ativa não é exibida ou atualizada no dispositivo do usuário. Essa desconexão entre a confirmação da API e o comportamento real do dispositivo pode ocorrer em vários pontos do pipeline de entrega. Este guia fornece uma abordagem sistemática de solução de problemas para identificar onde o delivery está falhando, examinando cada estágio da validação da solicitação de API à renderização do dispositivo.
+Um desafio frequente com atividades Live é quando a chamada da API para acionar ou atualizar uma atividade Live retorna uma **resposta bem-sucedida (200 OK)**, mas a atividade Live não é exibida ou atualizada no dispositivo do usuário. Essa desconexão entre a confirmação da API e o comportamento real do dispositivo pode ocorrer em vários pontos do pipeline de entrega. Este guia fornece uma abordagem sistemática de solução de problemas para identificar onde o delivery está falhando, examinando cada estágio da validação da solicitação de API à renderização do dispositivo.
 
 ## Pré-requisitos
 
 Antes de solucionar problemas, verifique se você tem:
 
-* &#x200B;
+* 
   +++ Configurar uma sessão do Assurance
 
   Configure uma **sessão do Assurance** para capturar eventos do SDK e inspecionar o pipeline de entrega. O Assurance oferece visibilidade sobre:
@@ -38,13 +38,13 @@ Antes de solucionar problemas, verifique se você tem:
    * Registro do token de push
    * Eventos de ciclo de vida de atividade ao vivo
 
-  Saiba como configurar o Assurance na [documentação do Adobe Experience Platform Assurance](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+  Saiba como configurar o Assurance na [documentação do Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
-  **Observação**: para o iOS Live Activity, verifique se seu aplicativo está sendo executado em um dispositivo físico iOS (iOS 16.1 ou posterior) ou no Xcode Simulator (iOS 16.1 ou posterior).
+  **Observação**: para a atividade do iOS Live, verifique se seu aplicativo está sendo executado em um dispositivo físico iOS (iOS 16.1 ou posterior) ou no Xcode Simulator (iOS 16.1 ou posterior).
 
   +++
 
-* &#x200B;
+* 
   +++ Coletar detalhes da campanha acionada pela API
 
   Navegue até a Campanha acionada pela API no Journey Optimizer e recupere:
@@ -56,19 +56,19 @@ Antes de solucionar problemas, verifique se você tem:
 
   +++
 
-* &#x200B;
+* 
   +++ Coletar informações de solicitação da API
 
-  Ao fazer a chamada de API para acionar a Atividade online, salve:
+  Ao fazer a chamada de API para acionar a atividade Live, salve:
 
-   * Carga de solicitação de API, incluindo identificadores de perfil e dados de atividade online
+   * Carga de solicitação de API, incluindo identificadores de perfil e dados de atividade em tempo real
    * Resposta da API, incluindo código de status, ID da mensagem, ID da solicitação
    * Carimbo de data e hora de quando a API foi chamada
    * Ponto de extremidade usado, por exemplo, `/campaign/{CAMPAIGN_ID}/execute`
 
   +++
 
-* &#x200B;
+* 
   +++ Identificar o perfil de teste
 
   Na solicitação da API, recupere:
@@ -80,7 +80,7 @@ Antes de solucionar problemas, verifique se você tem:
 
   +++
 
-* &#x200B;
+* 
   +++ Informações do dispositivo e do aplicativo
 
   Colete o seguinte do seu dispositivo de teste:
@@ -99,13 +99,13 @@ Antes de solucionar problemas, verifique se você tem:
 
 [!BADGE Aplica-se a casos de uso unitários e de difusão]{type=Positive}
 
-A API retorna HTTP 200, mas a Atividade online não é exibida. Causas comuns:
+A API retorna HTTP 200, mas a atividade Live não é exibida. Causas comuns:
 
 * O perfil não existe no Adobe Experience Platform.
-* O token de push da Atividade online não foi sincronizado com o perfil.
-* Os detalhes de push da Atividade online estão sincronizados, mas contêm configurações incorretas, por exemplo, `appId` ou `attributeType` incorretos.
+* O token de push da atividade online não foi sincronizado com o perfil.
+* Os detalhes de push da atividade ao vivo estão sincronizados, mas contêm configurações incorretas, por exemplo, `appId` ou `attributeType` incorretos.
 
-**Observação para casos de uso de difusão**: se alguns perfis no seu público-alvo não tiverem tokens, somente eles não receberão a Atividade online. Obtenha amostras de vários perfis do seu público-alvo para diagnosticar problemas de token. Isso se aplica somente a eventos de início remoto, não a eventos de atualização ou término.
+**Observação para casos de uso de difusão**: se alguns perfis no seu público-alvo não tiverem tokens, somente eles não receberão a atividade Live. Obtenha amostras de vários perfis do seu público-alvo para diagnosticar problemas de token. Isso se aplica somente a eventos de início remoto, não a eventos de atualização ou término.
 
 #### Pré-verificações
 
@@ -115,11 +115,11 @@ A API retorna HTTP 200, mas a Atividade online não é exibida. Causas comuns:
    * `ActivityAttributes` implementado corretamente.
 * Integração do Mobile SDK:
    * Adobe Experience Platform Mobile SDK (mensagens do SDK 5.11.0+)
-   * `Messaging.registerLiveActivities` implementado e chamado com token de push de Atividade Dinâmica.
+   * `Messaging.registerLiveActivities` implementado e chamado com token de push de atividade online.
 
 #### Etapas de depuração
 
-1. &#x200B;
+1. 
    +++ Verificar se o perfil existe no Adobe Experience Platform
 
    1. No Journey Optimizer, navegue até **Cliente** `>` **Perfis**.
@@ -129,8 +129,8 @@ A API retorna HTTP 200, mas a Atividade online não é exibida. Causas comuns:
 
       +++
 
-1. &#x200B;
-   +++ Verifique se o token de push da atividade online está sincronizado
+1. 
+   +++ Verificar se o token de push da atividade online está sincronizado
 
    Você pode usar o Assurance para verificar o registro do token:
 
@@ -149,7 +149,7 @@ A API retorna HTTP 200, mas a Atividade online não é exibida. Causas comuns:
 
    +++
 
-1. &#x200B;
+1. 
    +++ Validar detalhes do token no perfil
 
    1. Em seu **Perfil**, acesse a guia **Atributos**.
@@ -191,7 +191,7 @@ A API retorna HTTP 200, mas a Atividade online não é exibida. Causas comuns:
 
 [!BADGE Aplica-se a casos de uso unitários e de difusão]{type=Positive}
 
-O perfil existe com tokens válidos, mas a Atividade online não é exibida. Isso pode ser causado por:
+O perfil existe com tokens válidos, mas a atividade Live não é exibida. Isso pode ser causado por:
 
 * Configuração de superfície ou canal incorreta.
 * Estrutura de carga de API incorreta.
@@ -202,12 +202,12 @@ O perfil existe com tokens válidos, mas a Atividade online não é exibida. Iss
 
 #### Pré-verificações
 
-* A campanha é **Transacional acionada por API** (unitária) ou a opção **Marketing acionado por API** (difusão) e **Alta Taxa de Transferência** deve ser **não** habilitada, pois é incompatível com a Atividade online.
+* A campanha é **Transacional acionada por API** (unitária) ou a opção **Marketing acionado por API** (difusão) e **Alta Taxa de Transferência** deve ser **não** habilitada, pois é incompatível com a atividade online.
 * Verifique se o perfil existe e se os tokens estão sincronizados corretamente usando o [cenário acima](#profile-issue).
 
 #### Etapas de depuração
 
-1. &#x200B;
+1. 
    +++ Verificar a configuração da superfície de campanha
 
    1. No Journey Optimizer, abra a **Campanha** e navegue até o menu **Ações**.
@@ -216,7 +216,7 @@ O perfil existe com tokens válidos, mas a Atividade online não é exibida. Iss
 
       +++
 
-1. &#x200B;
+1. 
    +++Validar estrutura de carga da API
 
    Ao executar a campanha via API, verifique se a carga segue a estrutura correta.
@@ -274,13 +274,13 @@ O perfil existe com tokens válidos, mas a Atividade online não é exibida. Iss
 
    * Campo opcional que contém o tempo da época Unix (segundos).
    * **Relevante somente quando`event: "end"`**.
-   * Especifica quando a Atividade online deve ser removida automaticamente do dispositivo.
-   * Se não for fornecido no evento final, a Atividade online permanecerá visível até que o usuário a ignore.
+   * Especifica quando a atividade Live deve ser removida automaticamente do dispositivo.
+   * Se não for fornecido no evento final, a atividade online permanecerá visível até que o usuário a ignore.
    * Deve ser um carimbo de data/hora futuro (posterior a `timestamp`).
 
      +++
 
-1. &#x200B;
+1. 
    +++ Alinhar a carga com a implementação do iOS
 
    Verifique se a carga da API corresponde à implementação `ActivityAttributes` do aplicativo iOS. O protocolo `LiveActivityAttributes` do Adobe SDK estende o iOS `ActivityAttributes` e requer uma propriedade `liveActivityData`.
@@ -354,21 +354,21 @@ O perfil existe com tokens válidos, mas a Atividade online não é exibida. Iss
 
    +++
 
-1. &#x200B;
+1. 
    +++ Testar com o Assurance
 
    Verifique a execução da API e o delivery de carga usando o Assurance:
 
    1. Abra sua sessão do Assurance.
-   1. Execute a chamada de API para acionar a Atividade online.
+   1. Execute a chamada de API para acionar a atividade Live.
    1. Na **Lista de Eventos**, verifique se:
       * Eventos de execução de campanha.
-      * Eventos de entrega de Atividade online.
+      * Eventos de entrega de atividades online.
       * Eventos de erro de validação de carga.
    1. Revise as cargas do evento para verificar:
       * A carga foi processada corretamente.
       * Não ocorreram erros de validação.
-      * Atividade Ativa enviada para APNs.
+      * A atividade online foi enviada para APNs.
 
       +++
 
@@ -378,11 +378,11 @@ O perfil existe com tokens válidos, mas a Atividade online não é exibida. Iss
 
 Nesse cenário, todas as verificações anteriores foram aprovadas:
 
-* O perfil existe com [tokens de push válidos da Atividade ao Vivo](#profile-issue)
+* O perfil existe com [tokens de push de atividades online válidos](#profile-issue)
 * A campanha está [configurada corretamente com a carga adequada](#payload-issues)
 * [Os tokens de atualização estão sincronizados](#token-not-synced) (somente para eventos de atualização/término, caso de uso unitário)
 
-Mas a Atividade online ainda não é exibida, atualizada ou encerrada conforme esperado. O problema pode estar no nível do sistema de entrega da Adobe ou com o provedor de serviços de notificação por push (APNs).
+Mas a atividade Live ainda não é exibida, atualizada ou encerrada conforme esperado. O problema pode estar no nível do sistema de entrega da Adobe ou com o provedor de serviços de notificação por push (APNs).
 
 **Observação para casos de uso de difusão**: os relatórios mostram as métricas de todos os membros do público-alvo. Alguns perfis podem ter sucesso, enquanto outros falham.
 
@@ -401,10 +401,10 @@ Mas a Atividade online ainda não é exibida, atualizada ou encerrada conforme e
 
 #### Etapas de depuração
 
-1. &#x200B;
+1. 
    +++ Verificar relatórios de campanha
 
-   1. Navegue até sua **Campanha de Atividade ao Vivo**.
+   1. Navegue até a **Campanha de atividade ao vivo**.
    1. Clique no botão **Relatórios**.
    1. Selecione **Exibir relatório de todos os tempos**.
    1. Analise as seguintes seções:
@@ -423,7 +423,7 @@ Mas a Atividade online ainda não é exibida, atualizada ou encerrada conforme e
 
          | Erro comum | Significado | Resolução |
          |-|-|-|
-         | Token inválido | O token de push é inválido ou expirou | Registrar novamente os tokens de atividade em tempo real do dispositivo |
+         | Token inválido | O token de push é inválido ou expirou | Registrar novamente os tokens de atividade ao vivo do dispositivo |
          | Token não encontrado | Nenhum token válido associado ao perfil | Verificar se `liveActivityPushNotificationDetails` existe |
          | APNs rejeitadas | O serviço de Notificação por push do Apple rejeitou o push | Verificar certificado APNs, ID do pacote, ambiente |
          | Tempo limite de rede | Não é possível acessar APNs | Problema transitório; repetir a chamada da API |
@@ -433,21 +433,21 @@ Mas a Atividade online ainda não é exibida, atualizada ou encerrada conforme e
          | Exclusão comum | Significado | Resolução |
          |-|-|-|
          | Perfil recusado | O usuário recusou as notificações | Verificar status de consentimento do perfil |
-         | Incluir na lista de bloqueios Token alterado | Token marcado como inválido | Registre o token novamente ou verifique o status do incluo na lista de bloqueios |
+         | Token alterado | Token marcado como inválido | Registre o token novamente ou verifique o status do incluo na lista de bloqueios |
          | Perfil não qualificado | O perfil não atende aos critérios da campanha | Revisar regras de público-alvo da campanha |
 
    Saiba mais na [página de relatório de campanha de atividades ao vivo](../reports/campaign-global-report-cja-activity.md).
 
    +++
 
-1. &#x200B;
+1. 
    +++ Verificar eventos de feedback da mensagem no perfil
 
    1. Navegue até **Cliente** > **Perfis** na Journey Optimizer.
    1. Procure e abra o perfil.
    1. Selecione a guia **Eventos**.
    1. Filtrar ou pesquisar eventos com `eventType = "message.feedback"`.
-   1. Procure eventos de comentários que correspondam aos tipos `liveActivityID` e `event` da sua Atividade Ativa.
+   1. Procure eventos de feedback que correspondam aos tipos `liveActivityID` e `event` da atividade Ativa.
    1. Revise os seguintes campos principais:
 
       | Campo | Valores possíveis | O que significa |
@@ -467,12 +467,12 @@ Mas a Atividade online ainda não é exibida, atualizada ou encerrada conforme e
 
       +++
 
-1. &#x200B;
-   +++ Verificar a entrega da Atividade online para APNs no Assurance
+1. 
+   +++ Verificar a entrega de atividade em tempo real para APNs no Assurance
 
    1. Abra a sessão do Assurance. Ela deve estar ativa durante a chamada de API.
    1. Execute a chamada de API (start, update ou end).
-   1. Na **Lista de Eventos**, procure eventos de entrega de Atividade Ativa.
+   1. Na **Lista de Eventos**, procure por eventos de entrega de atividades online.
    1. Procure eventos relacionados à entrega por push de APNs.
    1. Verifique os seguintes indicadores:
       * **Solicitação de push para APNs**: confirma que a Adobe enviou o push para os servidores da Apple
@@ -485,15 +485,15 @@ Mas a Atividade online ainda não é exibida, atualizada ou encerrada conforme e
       | Certificado APNs expirado | Erro de autenticação | Renovar e carregar novo certificado APNs |
       | Ambiente errado (desenvolvimento vs. produção) | Erro de incompatibilidade de token | Verifique se o certificado corresponde ao tipo de build do aplicativo |
       | Incompatibilidade de ID do pacote | Identificador de conjunto inválido | Verificar se a ID do conjunto de certificados corresponde ao aplicativo |
-      | Token expirado | Erro InvalidToken de APNs | Registrar tokens de atividade online novamente |
+      | Token expirado | Erro InvalidToken de APNs | Registrar tokens de atividade ao vivo novamente |
       | Limitação de taxa | Solicitações demais | Reduzir a frequência de chamada da API |
 
       +++
 
-1. &#x200B;
+1. 
    +++ Prosseguir com verificações de diagnóstico adicionais
 
-   1. Verifique as métricas de ciclo de vida da atividade ativa no Relatório de campanha.
+   1. Verifique as métricas de ciclo de vida de atividade Ativo no Relatório de campanha.
 
       No relatório de campanha, revise a seção **Ciclo de vida da atividade em tempo real**:
 
@@ -502,13 +502,13 @@ Mas a Atividade online ainda não é exibida, atualizada ou encerrada conforme e
       | Início remoto | Deve mostrar a contagem de inicializações acionadas por API |
       | Atualizações | Deve mostrar a contagem de eventos de atualização |
       | Término | Deve mostrar a contagem de eventos finais |
-      | Contagem total | Volume geral do evento Atividade ativa |
+      | Contagem total | Volume geral do evento de atividade Ativa |
 
       Se essas métricas forem zero ou não corresponderem às chamadas da API, há um problema de delivery entre o Adobe e os APNs.
 
-   1. Se o Adobe mostrar entrega bem-sucedida, mas o dispositivo não mostrar a Atividade ativa:
+   1. Se o Adobe mostrar entrega bem-sucedida, mas o dispositivo não mostrar a atividade Live:
 
-      * Verifique os logs de dispositivo do iOS em busca de erros de atividade online.
+      * Verifique se há erros de atividade ao vivo nos logs de dispositivos do iOS.
       * Verifique se o aplicativo está em primeiro ou segundo plano (não finalizado).
       * Confirme se o dispositivo tem conectividade de rede.
       * Teste em vários dispositivos para descartar problemas específicos do dispositivo.
@@ -516,7 +516,7 @@ Mas a Atividade online ainda não é exibida, atualizada ou encerrada conforme e
 
       +++
 
-1. &#x200B;
+1. 
    +++ Escalonamento para o suporte da Adobe
 
    Se você concluiu todas as etapas e o problema permanece não resolvido, entre em contato com o Atendimento ao cliente da Adobe com:
@@ -540,58 +540,58 @@ Mas a Atividade online ainda não é exibida, atualizada ou encerrada conforme e
 
 ### Token de atualização de atividade online não sincronizado{#token-not-synced}
 
-A Atividade Ativa é iniciada com êxito no dispositivo, mas as chamadas de API `update` ou `end` subsequentes (retornando HTTP 200) não atualizam ou descartam a Atividade Ativa. Isso ocorre quando o **token de atualização da Atividade ao Vivo** não é sincronizado corretamente com o sistema da Adobe.
+A atividade Live é iniciada com êxito no dispositivo, mas as chamadas de API `update` ou `end` subsequentes (retornando HTTP 200) não atualizam ou descartam a atividade Live. Isso ocorre quando o **token de atualização de atividade em tempo real** não é sincronizado corretamente com o sistema da Adobe.
 
 **Noções básicas sobre tokens de atualização**
 
-Quando uma Atividade online é iniciada em um dispositivo, o iOS gera um token de atualização exclusivo para essa instância específica da Atividade online. Este token é necessário para:
+Quando uma atividade Live é iniciada em um dispositivo, o iOS gera um token de atualização exclusivo para essa instância de atividade Live específica. Este token é necessário para:
 
-* Envio de atualizações para a atividade online
-* Encerrando a atividade ativa remotamente
+* Envio de atualizações para a atividade Live
+* Encerrando a atividade Live remotamente
 
-Cada instância da Atividade ativa tem seu próprio token de atualização exclusivo. O Adobe precisa desse token para fornecer eventos de atualização e término.
+Cada instância da atividade Live tem seu próprio token de atualização exclusivo. O Adobe precisa desse token para fornecer eventos de atualização e término.
 
 **Comportamento esperado**
 
 Para que os eventos de atualização e término funcionem, o seguinte deve ocorrer:
 
 1. A atividade online é iniciada com sucesso no dispositivo.
-1. O dispositivo gera um token de atualização para essa instância de Atividade online.
+1. O dispositivo gera um token de atualização para a instância da atividade Live.
 1. O Mobile SDK captura e envia o token de atualização para a Adobe.
 1. O token de atualização é sincronizado e armazenado no sistema do Adobe.
 1. As chamadas de API subsequentes para atualização/fim usam esse token para entrega.
 
 **Pré-verificações:**
 
-* **Permissão de usuário**: na primeira vez que uma Atividade online é iniciada em um dispositivo, o iOS exibe um prompt do sistema: &quot;Permitir que o [Nome do aplicativo] forneça atualizações de Atividade online?&quot; O usuário **deve tocar em &quot;Permitir&quot;** para que os tokens de atualização sejam gerados e sincronizados. Se o usuário tocar em &quot;Não permitir&quot;, nenhum token de atualização será criado e as solicitações de atualização/encerramento falharão. Esta é uma permissão única por aplicativo.
+* **Permissão de usuário**: na primeira vez que uma atividade ao vivo é iniciada em um dispositivo, o iOS exibe um prompt do sistema: &quot;Permitir que o [Nome do aplicativo] forneça atualizações de atividade ao vivo?&quot; O usuário **deve tocar em &quot;Permitir&quot;** para que os tokens de atualização sejam gerados e sincronizados. Se o usuário tocar em &quot;Não permitir&quot;, nenhum token de atualização será criado e as solicitações de atualização/encerramento falharão. Esta é uma permissão única por aplicativo.
 * **Validação de Perfil e Campanha**: Conclua as verificações do [Cenário 1](#profile-issue) e do [Cenário 2](#payload-issues) para garantir que o perfil, os tokens e a configuração da campanha estejam corretos.
 
 #### Etapas de depuração
 
-1. &#x200B;
+1. 
    +++ Verificar sincronização do token de atualização no Assurance
 
    1. Abra sua sessão do Assurance.
-   1. Verifique se a sessão estava ativa quando a Atividade online foi iniciada no dispositivo.
+   1. Verifique se a sessão estava ativa quando a atividade Live foi iniciada no dispositivo.
    1. Filtrar ou pesquisar eventos com `eventType = "liveActivity.updateToken"`.
    1. Selecione o evento e inspecione a carga:
 
       * Verifique se o campo `token` contém uma cadeia de token de atualização válida.
-      * Verifique se `liveActivityID` corresponde à sua instância da Atividade online.
+      * Verifique se o `liveActivityID` corresponde à sua instância de atividade do Live.
       * Confirme se o `activityType` corresponde ao seu `attributes-type`.
 
    1. Se o evento não for encontrado:
 
       * O token de atualização não foi gerado ou capturado pela SDK.
-      * Verifique se o usuário recebeu permissões de Atividade em tempo real.
-      * Verifique se a Atividade online foi iniciada com êxito no dispositivo.
+      * Verifique se o usuário recebeu permissões de atividade em tempo real.
+      * Verifique se a atividade Live foi iniciada com êxito no dispositivo.
       * Confirme se o SDK para dispositivos móveis está integrado corretamente para capturar tokens de atualização.
 
    1. Se o evento for encontrado, prossiga para a Etapa 2.
 
       +++
 
-2. &#x200B;
+2. 
    +++ Verificar token de atualização em eventos de perfil
 
    1. Navegue até **Cliente** > **Perfis** na Journey Optimizer.
@@ -614,11 +614,11 @@ Para que os eventos de atualização e término funcionem, o seguinte deve ocorr
 
       +++
 
-3. &#x200B;
-   +++ Verificar eventos de entrega de atividade online no Assurance
+3. 
+   +++ Verificar eventos de entrega de atividade em tempo real no Assurance
 
    1. Na sessão do Assurance, execute uma chamada de API de atualização ou fim.
-   1. Na **Lista de Eventos**, procure por eventos de entrega de Atividade Ativa (eventos de push de APNs).
+   1. Na **Lista de Eventos**, procure por eventos de entrega de atividade (eventos de push APNs).
    1. Verificar se há eventos que indicam:
       * Notificação por push enviada para APNs.
       * Resposta de APNs (sucesso ou erro).
@@ -635,14 +635,14 @@ Para que os eventos de atualização e término funcionem, o seguinte deve ocorr
 
 Esta seção aborda cenários de solução de problemas específicos para atividades de transmissão ao vivo, que exigem abordagens de depuração diferentes das campanhas unitárias.
 
-Quando os perfis têm tokens válidos, mas a Atividade online não é exibida, atualizada ou se comporta conforme esperado para membros do público-alvo, o problema normalmente resulta de um dos seguintes:
+Quando os perfis têm tokens válidos, mas a atividade Ao vivo não é exibida, atualizada ou se comporta conforme esperado para membros do público-alvo, o problema normalmente resulta de um dos seguintes:
 
 * A campanha não está configurada como Marketing acionado por API.
 * A carga da API usa uma estrutura de difusão incorreta (ausente `audience` ou `input-push-channel`).
 * Os campos `content-state` e `attributes` não correspondem à implementação do iOS `ActivityAttributes`.
 * O `input-push-channel` não foi criado corretamente no Portal do Desenvolvedor do Apple.
 
-Este cenário de solução de problemas se aplica a todos os eventos de Atividade online em campanhas de difusão: `start`, `update` e `end`.
+Este cenário de solução de problemas se aplica a todos os eventos de atividade Live em campanhas de difusão: `start`, `update` e `end`.
 
 **Pré-verificações:**
 
@@ -653,7 +653,7 @@ Este cenário de solução de problemas se aplica a todos os eventos de Atividad
 
 #### Etapas de depuração
 
-1. &#x200B;
+1. 
    +++ Verificar a configuração do público-alvo da campanha
 
    1. Abra sua **Campanha de Marketing Acionado pela API** na Journey Optimizer.
@@ -668,7 +668,7 @@ Este cenário de solução de problemas se aplica a todos os eventos de Atividad
 
       +++
 
-1. &#x200B;
+1. 
    +++ Validar a estrutura de carga da API de transmissão
 
    A estrutura de carga da transmissão é diferente das campanhas unitárias. Verifique se a carga segue o formato de transmissão correto.
@@ -714,14 +714,14 @@ Este cenário de solução de problemas se aplica a todos os eventos de Atividad
    * **`input-push-channel`**
       * Obrigatório para todas as atividades de transmissão ao vivo.
       * Atua como um identificador exclusivo para essa instância de transmissão específica.
-      * Todos os perfis no público-alvo recebem Atividades ativas vinculadas a este canal.
+      * Todos os perfis no público-alvo recebem atividades ao vivo vinculadas a este canal.
       * Deve corresponder a `channelID` em `liveActivityData.channelID` (consulte a Etapa 3).
       * Deve ser criado para `appID` no Portal do Desenvolvedor do Apple pelo cliente.
-      * Somente os canais criados para o `appID` específico podem ser usados para transmitir a Atividade online no aplicativo.
+      * Somente os canais criados para o `appID` específico podem ser usados para transmitir a atividade em tempo real nesse aplicativo.
 
    * **`audience.id`**
       * Deve fazer referência a um segmento de público-alvo válido criado no Adobe Experience Platform.
-      * Todos os perfis neste público-alvo são direcionados para a Atividade online.
+      * Todos os perfis neste público-alvo são direcionados para a atividade Live.
       * O público deve ser ativado e conter perfis com `liveActivityPushNotificationDetails` válido.
 
    **Sempre usar o carimbo de data/hora mais recente:**
@@ -740,7 +740,7 @@ Este cenário de solução de problemas se aplica a todos os eventos de Atividad
 
    +++
 
-1. &#x200B;
+1. 
    +++ Alinhar o estado do conteúdo, os atributos e o canal de push de entrada com a implementação do iOS
 
    Verifique se os campos de carga correspondem à implementação `ActivityAttributes` do aplicativo iOS e se `input-push-channel` corresponde a `channelID` em `liveActivityData`.
@@ -795,7 +795,7 @@ Este cenário de solução de problemas se aplica a todos os eventos de Atividad
 
    * O valor `input-push-channel` na raiz de `aps` deve corresponder exatamente a `channelID` em `liveActivityData`.
    * No exemplo acima, ambos os valores são `"FEt0NgvLEfEAAOqA6AXdIQ=="`.
-   * Isso vincula a instância de transmissão aos dados da Atividade online.
+   * Isso vincula a instância de transmissão aos dados de atividade Live.
    * Uma incompatibilidade causa falhas de delivery.
 
    **Pontos principais de validação:**
@@ -813,7 +813,7 @@ Este cenário de solução de problemas se aplica a todos os eventos de Atividad
    |-|-|-|
    | `input-push-channel` ausente | A transmissão não funcionará | Adicionar ID de canal exclusiva para cada transmissão |
    | `input-push-channel` não corresponde a `channelID` | A atividade online não iniciará | Certifique-se de que ambos os valores sejam idênticos |
-   | Diferente de `input-push-channel` para atualização/fim | Atualizar/encerrar não atingirá as atividades online | Usar a mesma ID de canal no ciclo de vida |
+   | Diferente de `input-push-channel` para atualização/fim | Atualizar/encerrar não atingirá as atividades Live | Usar a mesma ID de canal no ciclo de vida |
    | `liveActivityData.channelID` ausente | A atividade ao vivo não será vinculada à transmissão | Incluir `channelID` em atributos para iniciar evento |
    | Campo obrigatório ausente no evento de início | A atividade online não iniciará | Adicionar todos os campos da estrutura do iOS |
    | Nome de campo incorreto (erro de digitação/uso de maiúsculas e minúsculas) | Campo ignorado ou erro de análise | Corresponder exatamente aos nomes de campo do iOS |
@@ -821,7 +821,7 @@ Este cenário de solução de problemas se aplica a todos os eventos de Atividad
 
    +++
 
-1. &#x200B;
+1. 
    +++ Testar com o Assurance
 
    Verifique a execução da API e o delivery de carga usando o Assurance:
@@ -830,7 +830,7 @@ Este cenário de solução de problemas se aplica a todos os eventos de Atividad
    1. Execute a chamada de API de transmissão.
    1. Na **Lista de Eventos**, procure:
       * Eventos de execução de campanha.
-      * Eventos de entrega de Atividade online.
+      * Eventos de entrega de atividades online.
       * Eventos de erro que indicam falhas de validação de carga.
    1. Inspecione as cargas do evento para confirmar:
       * A carga foi processada corretamente.
@@ -842,11 +842,11 @@ Este cenário de solução de problemas se aplica a todos os eventos de Atividad
 
 ### O perfil não está no público-alvo ou no instantâneo de público-alvo obsoleto
 
-Nesse cenário, a campanha e a carga são configuradas corretamente, mas perfis específicos não recebem a Atividade ativa. Isso normalmente ocorre quando:
+Nesse cenário, a campanha e a carga são configuradas corretamente, mas perfis específicos não recebem a atividade Live. Isso normalmente ocorre quando:
 
 * O perfil não é um membro do público vinculado à campanha.
 * O público-alvo é um público-alvo em lote e contém um instantâneo desatualizado dos dados do perfil.
-* Os tokens de Atividade online do perfil foram adicionados recentemente, mas ainda não foram refletidos no instantâneo do público-alvo.
+* Os tokens de atividade do perfil do Live foram adicionados recentemente, mas ainda não foram refletidos no instantâneo do público-alvo.
 
 Esse cenário de solução de problemas se aplica especificamente a campanhas de transmissão que usam direcionamento baseado em público-alvo.
 
@@ -868,10 +868,10 @@ O Adobe Experience Platform usa diferentes métodos de avaliação de público-a
 
 #### Etapas de depuração
 
-1. &#x200B;
+1. 
    +++ Verificar se o perfil está no público
 
-   Primeiro, confirme se o perfil que deve receber a Atividade online faz parte do público-alvo.
+   Primeiro, confirme se o perfil que deve receber a atividade Live faz parte do público-alvo.
 
    1. Navegue até **Públicos-alvo** no Adobe Experience Platform.
    1. Procure e abra o público-alvo usando o `audience.id` da sua campanha.
@@ -886,7 +886,7 @@ O Adobe Experience Platform usa diferentes métodos de avaliação de público-a
 
       +++
 
-2. &#x200B;
+2. 
    +++ Verificar o tipo e a programação da avaliação do público-alvo
 
    Identifique se o público-alvo usa avaliação em lote ou por transmissão, pois isso determina a atualização dos dados.
@@ -903,7 +903,7 @@ O Adobe Experience Platform usa diferentes métodos de avaliação de público-a
    1. **Compreender as limitações de público-alvo em lotes:**
       * Os públicos-alvo em lote são avaliados uma vez por dia (normalmente durante a noite).
       * O instantâneo do público-alvo pode ter até 24 horas.
-      * Se um perfil registrou tokens de Atividade online recentemente, esses tokens podem não estar no instantâneo atual.
+      * Se um perfil registrou tokens de atividade ao vivo recentemente, esses tokens podem não estar no instantâneo atual.
       * As atualizações para perfis não serão refletidas até a próxima avaliação do lote.
 
    1. **Verificar quando ocorreu a última avaliação:**

@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Perguntas frequentes
-description: Perguntas frequentes sobre atividades ao vivo
+description: Perguntas frequentes sobre atividades online
 topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 +++Qual é a diferença entre uma atividade Live e uma notificação por push?
 
-A atividade Live fornece atualizações persistentes e em tempo real na Tela de bloqueio e na Dynamic Island, sem exigir que os usuários desbloqueiem seus dispositivos. As notificações por push são alertas temporários que desaparecem depois de descartadas. A atividade online permanece visível e pode ser atualizada várias vezes até ser explicitamente encerrada.
+Uma atividade Live fornece atualizações persistentes em tempo real na Tela de bloqueio e na Ilha dinâmica, sem exigir que os usuários desbloqueiem seus dispositivos. As notificações por push são alertas temporários que desaparecem depois de descartadas. Uma atividade Live permanece visível e pode ser atualizada várias vezes até ser explicitamente encerrada.
 
 +++
 
@@ -42,15 +42,15 @@ Na prática:
 
 +++Os usuários precisam ter o aplicativo aberto para receber atualizações de atividades em tempo real?
 
-Não. A atividade online pode ser iniciada, atualizada e encerrada remotamente mesmo quando o aplicativo está completamente fechado, um dos principais benefícios do recurso.
+Não. Uma atividade Live pode ser iniciada, atualizada e encerrada remotamente mesmo quando o aplicativo está completamente fechado, um dos principais benefícios do recurso.
 
 +++
 
-+++Quais versões do iOS oferecem suporte à atividade online?
++++Quais versões do iOS oferecem suporte às atividades Live?
 
-* iOS 16.1+: suporte básico a atividades online
+* iOS 16.1+: suporte básico a atividades em tempo real
 * iOS 17.2+: funcionalidade push-to-start (iniciar remotamente sem abrir o aplicativo)
-* iOS 18+: Suporte ao canal de transmissão para atividade ao vivo baseada em público
+* iOS 18+: Suporte ao canal de transmissão para atividades Live baseadas em público
 +++
 
 +++Por quanto tempo uma atividade Live pode permanecer ativa?
@@ -67,9 +67,9 @@ As campanhas têm um limite de taxa padrão de 500 mensagens transacionais por s
 
 ### Perguntas do desenvolvedor
 
-+++Preciso criar uma extensão de widget separada para a atividade do Live?
++++Preciso criar uma extensão de widget separada para atividades do Live?
 
-Sim. A atividade online é exibida por meio do WidgetKit, portanto, é necessário criar uma extensão de widget no projeto Xcode e implementar o `ActivityConfiguration`.
+Sim. As atividades online são exibidas por meio do WidgetKit, portanto, é necessário criar uma extensão de widget no projeto Xcode e implementar o `ActivityConfiguration`.
 [Saiba mais sobre a configuração do widget](mobile-live-configuration-sdk.md)
 
 +++
@@ -86,11 +86,11 @@ Se você enviar um evento de atualização ou término para um `liveActivityID` 
 
 +++
 
-+++Posso testar a atividade do Live no iOS Simulator?
++++Posso testar atividades ativas no iOS Simulator?
 
-Sim, você pode testar a atividade online iniciada localmente e remotamente no iOS Simulator.
+Sim, você pode testar atividades online iniciadas localmente e remotamente no iOS Simulator.
 
-* **Local**: inclui criar, atualizar e encerrar atividade do Live diretamente do seu aplicativo usando **APIs ActivityKit**.
+* **Local**: inclui criar, atualizar e encerrar uma atividade do Live diretamente do seu aplicativo usando **APIs ActivityKit**.
 
 * **Remoto**: para testar a funcionalidade de atividade do Live remotamente, integre nosso SDK de Mensagens ao seu aplicativo e use as APIs de execução fornecidas para enviar início, atualização e encerramento remotos ao seu dispositivo de teste ou ao iOS Simulator. Semelhante a como as notificações por push podem ser testadas atualmente com a integração dos SDKs da Adobe.
 
@@ -98,7 +98,7 @@ Sim, você pode testar a atividade online iniciada localmente e remotamente no i
 
 +++Como faço para lidar com atualizações quando o aplicativo está em segundo plano?
 
-O SDK trata isso automaticamente. Depois de registrada, a atividade online recebe atualizações mesmo quando o aplicativo é encerrado. Não são necessários modos de segundo plano adicionais.
+O SDK trata isso automaticamente. Depois de registrada, uma atividade Live recebe atualizações mesmo quando o aplicativo é encerrado. Não são necessários modos de segundo plano adicionais.
 +++
 
 +++Qual é a diferença entre `liveActivityID` e `channelID`?
@@ -114,7 +114,7 @@ Sim. O `ActivityConfiguration` tem fechamentos separados para conteúdo de Tela 
 
 +++Preciso armazenar tokens de push manualmente?
 
-Não. Quando você registra um tipo de Atividade ao vivo com o `Messaging.registerLiveActivity()`, a SDK coleta e gerencia automaticamente tokens de push para você.
+Não. Ao registrar um tipo de atividade Live com o `Messaging.registerLiveActivity()`, a SDK coleta e gerencia automaticamente tokens de push para você.
 +++
 
 +++Há limites para inicializações remotas de atividades Ativas?
@@ -147,14 +147,14 @@ As campanhas de transmissão enviam o mesmo conteúdo para todos os usuários no
 [Monitore suas análises de campanha](../reports/campaign-global-report-cja-activity.md) no Adobe Journey Optimizer. Você pode rastrear taxas de entrega, falhas e métricas de envolvimento. Considere também implementar eventos de análise personalizados em seu aplicativo.
 +++
 
-+++Posso programar uma atividade ao vivo com antecedência?
++++Posso agendar atividades em tempo real antecipadamente?
 
 A chamada de API aciona a atividade Live imediatamente. No entanto, você pode agendar suas chamadas de API por meio dos sistemas de back-end ou usar os recursos de orquestração da Journey Optimizer para cronometrá-las adequadamente.
 +++
 
 +++O que acontece se eu enviar um evento de &quot;início&quot; para uma atividade Live que já existe?
 
-Ao iniciar remotamente a atividade ativa por meio das APIs de execução do Adobe:
+Ao iniciar remotamente uma atividade ativa por meio das APIs de execução do Adobe:
 
 * Você pode incluir um cabeçalho `x-request-id` em sua solicitação. Idealmente, deve haver uma relação um para um entre cada `liveActivityID` e seu `x-request-id` correspondente. Isso garante que, se várias solicitações forem feitas com a mesma combinação de `x-request-id` e `liveActivityID`, somente uma instância de atividade Live será iniciada no dispositivo, e solicitações duplicadas serão ignoradas.
 
@@ -176,7 +176,7 @@ Atualize somente quando houver alterações significativas nas informações, po
 
 +++
 
-+++Posso definir usuários como alvo com base no fato de eles terem a atividade online ativada?
++++Posso definir usuários como alvo com base no fato de terem ou não atividades online ativadas?
 
 Você precisará trabalhar com sua equipe de desenvolvimento para rastrear e transmitir essa preferência para o Adobe Experience Platform como um atributo do usuário e, em seguida, segmentar com base nesse atributo.
 
@@ -241,7 +241,7 @@ Não. Você pode usar a mesma campanha e alterar o campo `event` na carga. No en
 
 >[!TIP]
 >
->Para obter orientação abrangente sobre solução de problemas, consulte [Solucionar problemas de atividades online](troubleshoot-mobile-live.md).
+>Para obter orientação abrangente sobre solução de problemas, consulte [Solucionar problemas de atividades em tempo real](troubleshoot-mobile-live.md).
 
 +++Minha atividade Live é iniciada, mas não é atualizada. Qual poderia ser o problema?
 
@@ -260,13 +260,13 @@ Causas comuns:
 * Verifique se o nome da classe corresponde a **exatamente** (diferencia maiúsculas de minúsculas) com o nome da estrutura Swift
 * Verifique se a estrutura está definida e registrada corretamente
 * Verificar erros de digitação na carga JSON
-* Confirmar se a versão do aplicativo instalada tem a implementação Atividade ativa
+* Confirmar se a versão do aplicativo instalada tem a implementação da atividade Live
 
 +++
 
 +++Os usuários só veem a atualização da atividade Live e não a notificação de alerta. Esse é um problema conhecido?
 
-Não. O campo `alert` é opcional e pode ser suprimido pelo iOS em determinadas condições, por exemplo, no modo Não Incomodar. A atividade online pode ser atualizada silenciosamente, o que geralmente é o comportamento pretendido. O campo de alerta é obrigatório para enviar inícios remotos, caso contrário, a apple o tratará como uma notificação em segundo plano silenciosa.
+Não. O campo `alert` é opcional e pode ser suprimido pelo iOS em determinadas condições, por exemplo, no modo Não Incomodar. Uma atividade Live pode ser atualizada silenciosamente, o que geralmente é o comportamento pretendido. O campo de alerta é obrigatório para enviar inícios remotos, caso contrário, a apple o tratará como uma notificação em segundo plano silenciosa.
 
 +++
 

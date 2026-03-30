@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 3%
@@ -155,10 +155,10 @@ Depois de projetar sua atividade Live, você pode acompanhar a medição do impa
 
 >[!TIP]
 >
->Se a sua Atividade online não estiver aparecendo ou sendo atualizada conforme esperado, consulte [Solucionar problemas de atividades online](troubleshoot-mobile-live.md) para obter uma orientação passo a passo sobre depuração.
+>Se a sua atividade do Live não estiver aparecendo ou sendo atualizada conforme esperado, consulte [Solucionar problemas de atividades do Live](troubleshoot-mobile-live.md) para obter uma orientação passo a passo sobre depuração.
 
 ## Vídeo tutorial
 
-Saiba como configurar a atividade do iOS Live com o Adobe Journey Optimizer para fornecer atualizações avançadas em tempo real na Tela de bloqueio do iPhone e no Dynamic Island.
+Saiba como configurar as atividades do iOS Live com o Adobe Journey Optimizer para fornecer atualizações avançadas em tempo real na Tela de bloqueio do iPhone e no Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479869?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

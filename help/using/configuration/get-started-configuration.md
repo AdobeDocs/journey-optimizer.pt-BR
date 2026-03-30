@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuração, configurar, mensagens, canal, sandbox, otimizador
-source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 29%
@@ -52,7 +52,7 @@ Para enviar mensagens, você precisa seguir as etapas de configuração listadas
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Cartões de conteúdo</strong></a></div></td>
     </tr></table>
 
-   Para obter canais adicionais, consulte: [iOS Live Activity](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) e [LINE](../line/line-configuration.md).
+   Para obter canais adicionais, consulte: [Atividades do iOS Live](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) e [LINE](../line/line-configuration.md).
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ Para enviar mensagens, você precisa seguir as etapas de configuração listadas
 * **[Warmup de IP](ip-warmup-gs.md)** - Descubra as práticas recomendadas para warmup de endereço IP para melhorar a capacidade de entrega de emails e a reputação do remetente.
 * **[Gerenciar lista de supressão](manage-suppression-list.md)** - Saiba como gerenciar listas de supressão para lidar com rejeições e manter a higiene das listas.
 * **[Configurar aplicativos móveis](set-mobile-config.md)** - Defina configurações de aplicativos móveis para notificações por push e mensagens no aplicativo.
-* **[Configurar atividade do iOS Live](../mobile-live/mobile-live-configuration.md)** - Configure seu ambiente para enviar atividades ativas para a Tela de Bloqueio do iPhone e para a Ilha Dinâmica.
+* **[Configurar atividades do iOS Live](../mobile-live/mobile-live-configuration.md)** - Configure seu ambiente para enviar atividades do Live para a Tela de Bloqueio do iPhone e a Ilha Dinâmica.
 * **[Configurar WhatsApp](../whatsapp/whatsapp-configuration.md)** - Configura as mensagens do WhatsApp por meio da API de nuvem da Meta para campanhas e jornadas.
 * **[Configurar LINE](../line/line-configuration.md)** - Configure as mensagens LINE para campanhas e jornadas.
 * **[Tutoriais de configuração](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre a configuração do canal e as práticas recomendadas.

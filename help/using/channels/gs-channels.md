@@ -6,7 +6,7 @@ description: Saiba como trabalhar com canais de comunicação do  [!DNL Adobe Jo
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 1e2d9dce832c28573486e10ae4d8246313d49cc1
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 84%
@@ -27,7 +27,7 @@ Os canais de saída para entrega de mensagens envolvem o envio de mensagens para
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal de email
 
@@ -37,7 +37,7 @@ Descubra como criar, configurar e otimizar campanhas de email, incluindo persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canal de notificação por push
 
@@ -47,9 +47,9 @@ Saiba como criar, configurar e enviar notificações por push para iOS e Android
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-Atividade do iOS Live
+Atividades do iOS Live
 
 Forneça atualizações persistentes em tempo real diretamente na Tela de bloqueio do iPhone e na Dynamic Island. Atividades em tempo real de campanhas acionadas por API para casos de uso individuais (rastreamento de pedido, status da jornada) ou casos de uso de transmissão (pontuações esportivas, status de voo).
 
@@ -57,7 +57,7 @@ Forneça atualizações persistentes em tempo real diretamente na Tela de bloque
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Mensagens por SMS/MMS/RCS
 
@@ -67,7 +67,7 @@ Entenda como criar, gerenciar e configurar mensagens por SMS, MMS e RCS para fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campanhas de correspondência direta
 
@@ -77,7 +77,7 @@ Descubra como criar e gerenciar campanhas de correspondência direta, incluindo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Mensagens do WhatsApp
 
@@ -87,7 +87,7 @@ Saiba como integrar e usar mensagens do WhatsApp por meio da API da nuvem do Met
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 Mensagens LINE
 
@@ -105,7 +105,7 @@ Com experiências de entrada de aplicativos móveis e da Web, os clientes inicia
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Mensagens no aplicativo
 
@@ -115,7 +115,7 @@ Aprenda a configurar, projetar e personalizar notificações no aplicativo para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -125,7 +125,7 @@ Saiba como criar, configurar e personalizar experiências na web e integrar cana
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Experiência baseada em código
 
@@ -135,7 +135,7 @@ Utilize as experiências baseadas em código para fornecer conteúdo personaliza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Cartões de conteúdo
 
@@ -162,7 +162,7 @@ A tabela abaixo mostra a disponibilidade de cada canal em diferentes jornadas e 
 | Email | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Notificações por push | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Atividade do iOS Live | — | — | — | ✅ | — |
+| Atividades do iOS Live | — | — | — | ✅ | — |
 | No aplicativo | ✅ | ✅ | — | — | — |
 | Correspondência direta | ✅ | ✅ | — | — | ✅ |
 | Web | ✅ | ✅ | — | — | — |
