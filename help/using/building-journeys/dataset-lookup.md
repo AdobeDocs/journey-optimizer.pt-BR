@@ -66,7 +66,7 @@ Para configurar a atividade **[!UICONTROL Pesquisa de conjunto de dados]**, siga
 
 1. Expanda a categoria **[!UICONTROL Orquestração]** e solte uma atividade de **[!UICONTROL Pesquisa de conjunto de dados]** na tela.
 
-   Atividade de pesquisa do conjunto de dados ![[!DNL Adobe Experience Platform] na jornada ](assets/aep-data-activity.png)
+   Atividade de pesquisa do conjunto de dados ![[!DNL Adobe Experience Platform] na jornada &#x200B;](assets/aep-data-activity.png)
 
 1. Adicione um rótulo e uma descrição.
 
