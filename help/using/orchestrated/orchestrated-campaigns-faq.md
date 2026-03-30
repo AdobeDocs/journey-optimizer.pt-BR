@@ -5,10 +5,10 @@ title: Perguntas frequentes sobre campanhas orquestradas
 description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orchestrated
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 14%
+source-wordcount: '1958'
+ht-degree: 13%
 
 ---
 
@@ -140,6 +140,12 @@ Yes. Campaign orchestration is natively integrated with:
 * **Customer Journey Analytics**: Campaign orchestration reports are available.  
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
+
++++ Como testo uma campanha orquestrada acionada por sinal antes da publicação?
+
+Enquanto a campanha estiver no **Rascunho**, você poderá testá-la definindo **parâmetros** no agendamento e fornecendo **valores de teste** para cada um. Inicie o fluxo de trabalho e, em seguida, chame a API de acionador, usando a amostra de solicitação da configuração de agendamento ou sua própria solicitação com o mesmo endpoint, para executar a campanha com esses valores de teste. [Saiba como concluir e testar uma campanha acionada por sinal](trigger-orchestrated-campaign.md#complete-and-test).
+
++++
 
 +++ Posso reverter uma campanha orquestrada ao vivo para o rascunho?
 

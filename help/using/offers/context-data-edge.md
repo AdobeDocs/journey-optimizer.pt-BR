@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '900'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,6 @@ Para ir além, você também pode aproveitar os dados de contexto em **fórmulas
 
 * [Fórmulas de classificação - Aumentar ofertas com base nos dados de contexto](../offers/ranking/create-ranking-formulas.md#context-data)
 * [Personalizar representações com base nos dados de contexto](../offers/offer-library/add-representations.md#context-data)
-* [Funções com suporte no editor de personalização](offer-library/personalization-editor-supported-functions.md) (ao personalizar o conteúdo da oferta na Gestão de decisões)
 
 >[!ENDSHADEBOX]
 
@@ -57,11 +56,11 @@ Ao contrário da transmissão de contexto em um formato livre usando a API de de
 
    ![Esquema XDM mostrando o grupo de campos Contexto da Oferta com as propriedades language e deviceType](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Saiba como trabalhar com esquemas no [!DNL Adobe Experience Platform] [guia do Experience Data Model (XDM)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home){target="_blank"}
+   Saiba como trabalhar com esquemas no [!DNL Adobe Experience Platform] [guia do Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Crie um conjunto de dados (aqui, &quot;Contexto da oferta&quot;) e verifique se ele está ativado para o perfil.
 
-1. Crie uma nova sequência de dados a partir do menu **[!UICONTROL Coleção de Dados]** > **[!UICONTROL Sequências de Dados]**. Saiba como criar e configurar a sequência de dados no [!DNL Adobe Experience Platform] [Guia de sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure){target="_blank"}
+1. Crie uma nova sequência de dados a partir do menu **[!UICONTROL Coleção de Dados]** > **[!UICONTROL Sequências de Dados]**. Saiba como criar e configurar a sequência de dados no [!DNL Adobe Experience Platform] [Guia de sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
    Aqui, criamos uma sequência de dados de &quot;Contexto de oferta&quot;, com o esquema de evento &quot;Conteúdo de oferta&quot; selecionado.
 

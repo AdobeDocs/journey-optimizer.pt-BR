@@ -5,10 +5,10 @@ title: Criar e agendar campanhas orquestradas com o Journey Optimizer
 description: Saiba como criar e agendar uma campanha orquestrada com o Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 65%
+source-wordcount: '1173'
+ht-degree: 63%
 
 ---
 
@@ -69,6 +69,8 @@ Para criar uma campanha Orquestrada, siga estas etapas:
 >abstract="Defina a frequência do scheduler. Pode ser executado em um momento específico, uma ou várias vezes por dia, semana ou mês."
 
 Por padrão, as campanhas orquestradas começam quando ativadas manualmente e terminam após a execução de suas atividades associadas. Se preferir atrasar a execução ou executar a campanha de forma recorrente, é possível definir uma programação para a campanha.
+
+Você também pode iniciar a campanha quando ela recebe um sinal de um sistema ou aplicativo externo em vez de ser executada de acordo com uma programação. [Saiba como acionar uma campanha Orquestrada usando um sinal](trigger-orchestrated-campaign.md).
 
 Considere as seguintes práticas recomendadas ao agendar campanhas orquestradas para garantir o desempenho ideal e o comportamento esperado:
 

@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '3142'
+source-wordcount: '3150'
 ht-degree: 96%
 
 ---
@@ -214,6 +214,8 @@ ht-degree: 96%
          + [Envie atualizações de itens da lista de desejos](using/orchestrated/wishlist-uc.md)
          + [Engaje clientes com base na atividade de navegação](using/orchestrated/engage-customers-uc.md)
          + [Notifique os usuários sobre a disponibilidade do produto](using/orchestrated/product-availability-uc.md)
+      + Operações avançadas {#orchestrated-advanced}
+         + [Acionar campanhas orquestradas usando um sinal](using/orchestrated/trigger-orchestrated-campaign.md)
 + Conflito e priorização {#conflict-prioritization}
    + [Gerenciamento de conflitos e priorização](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar possíveis conflitos](using/conflict-prioritization/conflicts.md)
@@ -459,7 +461,7 @@ ht-degree: 96%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)

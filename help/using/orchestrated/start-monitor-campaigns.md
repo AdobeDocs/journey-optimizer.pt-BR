@@ -6,10 +6,10 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 31%
+source-wordcount: '1172'
+ht-degree: 30%
 
 ---
 
@@ -31,11 +31,13 @@ O [!DNL Journey Optimizer] permite que você teste campanhas Orquestradas antes 
 >
 >Todas as atividades na tela são executadas, exceto **[!UICONTROL Salvar público-alvo]** atividades e atividades de canal. Não há nenhum impacto funcional nos seus dados ou público-alvo.
 
-Para testar uma campanha Orquestrada, abra a campanha e selecione **[!UICONTROL Iniciar]**.
+Para testar uma campanha Orquestrada, abra a campanha e selecione **[!UICONTROL Iniciar]**. Cada atividade na campanha é executada sequencialmente até que o final da tela seja atingido.
 
 ![Botão Iniciar na barra de ferramentas da tela de campanha](assets/campaign-start.png){zoomable="yes"}
 
-Cada atividade na campanha é executada sequencialmente até que o final da tela seja atingido. Durante o teste, é possível controlar a execução da campanha usando a barra de ação na tela. Nela, você pode:
+Para **campanhas orquestradas acionadas**, o sistema aguarda uma chamada de API para iniciar a campanha. Você precisa enviar o sinal para continuar o teste. [Saiba como testar campanhas acionadas por sinal](trigger-orchestrated-campaign.md#complete-and-test).
+
+Durante o teste, é possível controlar a execução da campanha usando a barra de ação na tela. Nela, você pode:
 
 * **Parar** a execução a qualquer momento.
 * **Iniciar** a execução novamente.
