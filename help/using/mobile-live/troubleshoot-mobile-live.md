@@ -38,7 +38,7 @@ Antes de solucionar problemas, verifique se você tem:
    * Registro do token de push
    * Eventos de ciclo de vida de atividade ao vivo
 
-  Saiba como configurar o Assurance na [documentação do Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+  Saiba como configurar o Assurance na [documentação do Adobe Experience Platform Assurance](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
   **Observação**: para a atividade do iOS Live, verifique se seu aplicativo está sendo executado em um dispositivo físico iOS (iOS 16.1 ou posterior) ou no Xcode Simulator (iOS 16.1 ou posterior).
 
