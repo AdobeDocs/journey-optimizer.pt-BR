@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criptografar parâmetros de URL no rastreamento
+title: Criptografar parâmetros de URL
 description: Saiba como criptografar parâmetros de consulta de URL confidenciais para que o PII não seja exposto em texto sem formatação em links de rastreamento e páginas de aterrissagem do Journey Optimizer.
 feature: Personalization
 topic: Personalization
@@ -9,15 +9,15 @@ role: Admin
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: criptografia, URL, rastreamento, página de aterrissagem, registro de chaves, personalização, segurança, privacidade, sandbox
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
+source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '656'
 ht-degree: 3%
 
 ---
 
-
-# Criptografar parâmetros de URL no rastreamento {#url-parameter-encryption}
+# Criptografar parâmetros de URL {#url-parameter-encryption}
 
 >[!AVAILABILITY]
 >
@@ -36,7 +36,7 @@ Você criptografa somente os parâmetros de consulta escolhidos, usando chaves q
 ### Como funciona {#how-it-works}
 
 * **Administradores** usam o Registro de chaves para [criar chaves](#create-keys) e [gerenciar chaves](#manage-keys) de acordo com as políticas de segurança de sua organização.
-* **Os profissionais de marketing** inserem o auxiliar de criptografia no editor de personalização e transmitem o valor a ser protegido, além de um identificador de chave ativo do Registro. Para obter sintaxe e opções, consulte [criptografia de parâmetro de URL](functions/helpers.md#url-parameter-encryption-helper).
+* **Os profissionais de marketing** inserem o auxiliar `Encrypt` no editor de personalização e passam o valor a ser protegido, além de um identificador de chave ativo do Registro. Para obter sintaxe e opções, consulte [esta seção](functions/helpers.md#url-parameter-encryption-helper).
 
 >[!IMPORTANT]
 >
@@ -96,6 +96,3 @@ Para gerenciar chaves, siga as etapas abaixo.
    >[!NOTE]
    >
    >Somente chaves ativas devem ser selecionadas para criptografar novos valores no editor de personalização. Não use chaves revogadas para o novo conteúdo.
-
-
-
