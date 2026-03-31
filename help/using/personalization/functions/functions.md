@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2479'
 ht-degree: 2%
 
 ---
@@ -454,8 +454,11 @@ Os auxiliares estão detalhados em [esta página](helpers.md).
     <tr>
         <td><a href="helpers.md#let">Let</a></td><td>Essa função permite que uma expressão seja armazenada como uma variável a ser usada posteriormente em uma consulta</td>
     </tr>
-   <tr>
+    <tr>
         <td><a href="helpers.md#unless">A menos que</a></td><td>Esta função é usada para definir um bloco condicional - se a expressão evaluation retornar false, o bloco será renderizado</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#url-parameter-encryption-helper">Criptografia de parâmetro de URL</a></td><td>Criptografa valores de expressão para parâmetros de consulta de URL no momento da renderização usando uma chave ativa do registro da sandbox </td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">Com</a></td><td>Esta função é usada para alterar o token de avaliação da parte do modelo</td>

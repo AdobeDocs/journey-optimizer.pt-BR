@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 3%
+source-wordcount: '1002'
+ht-degree: 4%
 
 ---
 
@@ -282,4 +282,49 @@ Neste exemplo, assumindo `profile.person.name.firstName` = &quot;Alex&quot;, a e
   "value": "Alex"
 }
 ```
+
+## Criptografia de parâmetro de URL {#url-parameter-encryption-helper}
+
+>[!AVAILABILITY]
+>
+>Esse recurso está disponível em Disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
+>
+>No momento, esse recurso só está disponível para o canal de email.
+
+O auxiliar `EncryptParam` permite criptografar qualquer valor de expressão no momento da renderização — geralmente um atributo de perfil, um token ou até mesmo uma estrutura JSON rígida criada na expressão — antes de ser gravado em um parâmetro de consulta em links de rastreamento ou páginas de aterrissagem.
+
+Os valores que apareceriam como texto sem formatação no URL (incluindo PII ou outros dados confidenciais) não são legíveis quando o link é inspecionado ou encaminhado. Somente os valores envolvidos com este auxiliar são criptografados; o restante do URL permanece inalterado.
+
+Você pode aplicar o auxiliar a um parâmetro, vários ou todos os parâmetros em um link, dependendo do design do URL e das restrições de comprimento.
+
+**Pré-requisitos**
+
+* A criptografia de parâmetro de URL deve ser habilitada para sua organização (Disponibilidade limitada). Entre em contato com o representante da Adobe para obter acesso.
+* Um administrador deve criar pelo menos uma chave ativa no registro de chaves no nível da sandbox. [Saiba como criar e gerenciar chaves](../url-parameter-encryption.md)
+
+**Como funciona**
+
+1. Na lista de auxiliares, selecione o auxiliar `EncryptParam`.
+
+1. Passar `data`: o valor ou a expressão a ser criptografada (por exemplo, `profile` campos, uma variável ou um token de cadeia de caracteres composta).
+
+1. Passar `key`: um identificador de chave ativo do registro de chave da sandbox.
+
+>[!NOTE]
+>
+>O uso de uma chave revogada ou de outra forma não ativa deve causar falha na personalização no momento da renderização, para que uma mensagem não seja enviada com uma chave inválida.
+
+**Exemplo**
+
+Suponha que você defina ou calcule um valor (por exemplo, uma variável `stringToken` que contenha uma carga JSON ou identificadores concatenados) que não deve aparecer como texto sem formatação no parâmetro de consulta `token`. Uma URL final pode seguir este padrão — substitua `stringToken` pela sua expressão e `encrypt-key` por uma ID de chave ativa do registro de chave:
+
+```text
+https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+```
+
+**Medidas de proteção**
+
+A descriptografia é tratada fora de [!DNL Journey Optimizer] em suas páginas de aterrissagem, aplicativos ou APIs. Planeje o ciclo de vida e a rotação da chave com sua equipe de segurança para que as cargas históricas ainda possam ser descriptografadas onde necessário.
+
+As chaves revogadas não devem ser usadas para a nova criptografia. Siga sua política de segurança para rodízio e desativação.
 
