@@ -10,10 +10,10 @@ level: Intermediate
 keywords: qualificação, eventos, público-alvo, jornada, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 44a635c07989c075dc36d8698c19e33644c3b687
+source-git-commit: f4c4cf0f9b4f197123bfcf9f1986d304695c17be
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 3%
+source-wordcount: '1611'
+ht-degree: 4%
 
 ---
 
@@ -69,7 +69,7 @@ Para configurar a atividade **[!UICONTROL Qualificação de público-alvo]**, si
    >[!NOTE]
    >
    >**[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem aos status de participação de público **Realized** e **Exited** de [!DNL Adobe Experience Platform].
-   >Consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Selecione um namespace. Isso só será necessário se o evento for posicionado como a primeira etapa da jornada. Por padrão, o campo é pré-preenchido com o último namespace usado.
 
@@ -114,15 +114,13 @@ Ao usar a Qualificação de público-alvo para públicos-alvo transmitidos, há 
 
 Evite usar eventos abertos e enviados com segmentação por transmissão. Em vez disso, use sinais reais de atividade do usuário, como cliques, compras ou dados de beacon. Para lógica de frequência ou supressão, use regras de negócios em vez de enviar eventos. [Saiba mais](../audience/about-audiences.md)
 
-Consulte a [[!DNL Adobe Experience Platform] documentação de segmentação por transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Consulte a [[!DNL Adobe Experience Platform] documentação de segmentação por transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 >[!NOTE]
 >
 >O tempo de propagação para a associação do segmento de transmissão depende de como a associação é avaliada e onde é usada na jornada:
 >
->* **Nó de qualificação de público-alvo + segmento de transmissão:** quando um perfil se qualifica para um segmento de transmissão na Edge, essa associação é projetada do Edge para o Hub antes que a jornada possa agir nela. Esta propagação de Edge para Hub geralmente leva de **15 a 30 minutos** (de acordo com o SLT do UPS). O tempo adicional de processamento da jornada geralmente é de menos de 5 minutos, a menos que o sistema esteja sobrecarregado. Se os perfis não estiverem inserindo uma jornada de Qualificação de público-alvo conforme esperado, aguarde essa janela de propagação antes de investigar mais detalhadamente. Para casos de uso que exigem entrada em tempo real, considere um acionador de evento unitário.
->* **`inAudience()`em um nó de condição — antes de uma atividade Wait (ou em uma jornada Read Audience):** Quando a associação de segmento é avaliada em uma expressão de condição neste contexto, o AJO lê a partir da projeção de lote do perfil. A atualização de dados nesta projeção carrega um SLT de até **2 horas** após a assimilação. Os públicos-alvo que dependem de condições baseadas no dia ou baseadas no tempo podem enfrentar atraso adicional. Adicione uma breve [atividade de espera](wait-activity.md) no início da jornada ou permita o tempo de buffer para garantir que a associação de segmento mais recente seja refletida.
->* **`inAudience()`em um nó de condição — após uma atividade Wait (ou em uma jornada de evento unitária):** Nesse contexto, a associação de segmento é lida da projeção de streaming (unitária). Para obter a latência esperada, consulte a [documentação de assimilação de streaming do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Esse caminho geralmente responde mais às alterações recentes no perfil.
+>* **Nó de qualificação de público-alvo + segmento de transmissão:** quando um perfil se qualifica para um segmento de transmissão na Edge, essa associação é projetada do Edge para o Hub antes que a jornada possa agir nela. Esta propagação de Edge para Hub geralmente leva de **15 a 30 minutos**. Se os perfis não estiverem entrando em uma jornada de Qualificação de público-alvo conforme esperado, aguarde essa janela de propagação (adicionando uma atividade de espera, se apropriado) antes de investigar mais detalhadamente. Para casos de uso que exigem entrada em tempo real, considere um acionador de evento unitário.
 
 #### Por que nem todos os perfis qualificados podem entrar na jornada {#streaming-entry-caveats}
 
@@ -154,7 +152,7 @@ Estas são algumas das práticas recomendadas para evitar sobrecarga de sistemas
 
   ![Mensagem de erro quando o público não for encontrado em [!DNL Adobe Experience Platform]](assets/segment-error.png)
 
-* Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarga. Saiba mais em [documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=pt-BR){target="_blank"}. Observe que a regra de limitação não tem repetição. Se você precisar tentar novamente, use um caminho alternativo na jornada marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** em condições ou ações.
+* Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarga. Saiba mais em [documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Observe que a regra de limitação não tem repetição. Se você precisar tentar novamente, use um caminho alternativo na jornada marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** em condições ou ações.
 
 * Antes de usar o público em uma jornada de produção, avalie o volume de indivíduos qualificados para esse público diariamente. Para fazer isso, verifique o menu **[!UICONTROL Público-alvo]**, abra o público-alvo e examine o gráfico **[!UICONTROL Perfis ao longo do tempo]**.
 
@@ -198,4 +196,4 @@ Siga as medidas de proteção e recomendações abaixo para criar jornadas de qu
 
 Entenda os casos de uso aplicáveis às jornadas de qualificação de público-alvo neste vídeo. Saiba como criar uma jornada com Qualificação de público-alvo e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446209?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
