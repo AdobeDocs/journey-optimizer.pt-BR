@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+exl-id: d1fd072d-b143-4752-822f-23f98684ba80
+source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
-
 
 # Acionar campanhas orquestradas usando um sinal {#trigger-signal}
 
@@ -26,6 +26,10 @@ Processo completo para acionar uma campanha orquestrada usando um sinal:
 1. [Adicionar parâmetros para a carga de sinal](#add-parameters-for-the-signal-payload-optional-parameters) (opcional)
 1. [Criar e testar a campanha](#build-and-test-the-campaign-build-and-test)
 1. [Publicar e acionar a campanha](#publish-and-trigger-the-campaign-publish)
+
+>[!NOTE]
+>
+>Para acionar uma campanha Orquestrada usando um sinal, você precisa da permissão **[!DNL Publish orchestrated campaigns]** (`orchestrated-campaign.publish`). Consulte [Permissões internas](../administration/ootb-permissions.md).
 
 ## Programar a campanha para ser acionada por um sinal {#configure-signal}
 
