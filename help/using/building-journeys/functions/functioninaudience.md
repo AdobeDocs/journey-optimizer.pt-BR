@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: função inAudience
+title: Função inAudience
 description: Saiba mais sobre a função Adobe Experience Platform no Audience
 feature: Journeys
 role: Developer
@@ -8,14 +8,14 @@ level: Experienced
 keywords: inAudience, função, expressão, jornada, público-alvo, segmentação
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
+source-git-commit: acdcd6e09f75e3d3c5184a71937d443890f378b6
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
 
-# função inAudience {#inAudience}
+# Função inAudience {#inAudience}
 
 A função `inAudience` é uma função Adobe Experience Platform que permite verificar se um indivíduo em sua jornada pertence a um público-alvo específico. Essa função avançada permite criar caminhos de jornada personalizados com base na associação ao público, permitindo segmentação e direcionamento sofisticados nas experiências do cliente.
 
@@ -36,7 +36,7 @@ Os públicos-alvo podem ter dois status de participação:
 * **Realizado**: o indivíduo se qualifica para a definição de público-alvo e é um membro ativo
 * **Encerrado**: o indivíduo saiu do público-alvo e não se qualifica mais
 
-Apenas indivíduos com o status **Realizado** serão considerados membros ativos do público-alvo. Quando a função retorna `true`, ela confirma que o indivíduo tem o status realizado; quando retorna `false`, ela indica o status encerrado. Para obter mais informações sobre a avaliação de público, consulte a [documentação do Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+Apenas indivíduos com o status **Realizado** serão considerados membros ativos do público-alvo. Quando a função retorna `true`, ela confirma que o indivíduo tem o status realizado; quando retorna `false`, ela indica o status encerrado. Para obter mais informações sobre a avaliação de público, consulte a [documentação do Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintaxe
 
@@ -110,6 +110,13 @@ Ao usar a função `inAudience` em suas jornadas, esteja ciente das seguintes me
 **Considerações sobre a política de mesclagem:**
 * Ao usar vários públicos com a função `inAudience`, inconsistências com políticas de mesclagem podem causar erros ou alertas
 * Consulte [Propriedades da Jornada](../journey-properties.md) para obter mais informações sobre o comportamento da política de mesclagem
+
+**Tempo de propagação:** {#propagation-timing}
+
+Ao usar `inAudience()` em um nó de condição, o tempo de avaliação de associação de segmento varia dependendo de onde a condição aparece na jornada:
+
+* **Antes de uma atividade Aguardar (ou em uma jornada Ler Público):** o AJO lê a partir da projeção em lote do perfil. A atualização de dados nesta projeção carrega um SLT de até **2 horas** após a assimilação. Os públicos-alvo que dependem de condições baseadas no dia ou baseadas no tempo podem enfrentar atraso adicional. Adicione uma breve [atividade de espera](../wait-activity.md) no início da jornada ou permita o tempo de buffer para garantir que a associação de segmento mais recente seja refletida.
+* **Após uma atividade Wait (ou em uma jornada de evento unitária):** a associação de segmento é lida da projeção de streaming (unitária). Para obter a latência esperada, consulte a [documentação de assimilação de streaming do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Esse caminho geralmente responde mais às alterações recentes no perfil.
 
 ## Tópicos relacionados
 
