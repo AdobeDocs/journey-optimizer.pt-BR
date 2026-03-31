@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
+source-git-commit: 2e9a3e641a63190660badac3eeb14800eb6a6ab7
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1127'
 ht-degree: 5%
 
 ---
@@ -351,6 +351,8 @@ Ao migrar da Gestão de decisões para o Decisioning, as entidades são mapeadas
 | Campaign | Campanha *(somente conteúdo básico)* |
 | Posicionamento | Superfície + Configuração de canal |
 | Tag | Tag unificada |
+| Atributos de oferta | Campo `migratedofferattributes` no esquema de item de oferta personalizado |
+| Atributos de contexto | Campo `migratedcontextattributes` no esquema anexado ao conjunto de dados fornecido durante a migração |
 
 ## Limpeza do fluxo de trabalho {#cleanup}
 
