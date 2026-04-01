@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1566'
 ht-degree: 10%
 
 ---
@@ -44,7 +44,7 @@ Ele também pode ser adicionado em outras seções do seu conteúdo. Por exemplo
 
 +++
 
-+++Email Designer
++++Designer de email
 
 Ao editar o conteúdo de email na [Designer de email](../email/get-started-email-design.md), você pode adicionar personalização em blocos de texto e em URLs usando o ícone na barra de ferramentas contextual.
 
@@ -77,7 +77,7 @@ Amostra de URLs personalizados:
 >
 >Não há suporte para espaços nos tokens de personalização usados em urls.
 
-Com disponibilidade limitada para um conjunto de clientes, o Journey Optimizer também oferece suporte à personalização completa/básica de URL. Por exemplo:
+O Journey Optimizer também oferece suporte à personalização completa/básica de URL. Por exemplo:
 
 ```
 <a href="{{profile.social.link}}" />
@@ -85,9 +85,9 @@ Com disponibilidade limitada para um conjunto de clientes, o Journey Optimizer t
 <a href="https://{{profile.social.baseUrl}}/profile" />
 ```
 
->[!WARNING]
+>[!NOTE]
 >
->A lista de domínios aceitos deve ser fornecida ao Adobe antecipadamente.
+>Para habilitar a personalização completa ou básica do URL, entre em contato com a Adobe e forneça sua lista de domínios aceitos.
 
 +++
 

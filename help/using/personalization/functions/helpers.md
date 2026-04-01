@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
+source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -337,3 +337,5 @@ Você pode aplicar o auxiliar a um parâmetro, vários ou todos os parâmetros e
 * A descriptografia é tratada fora de [!DNL Journey Optimizer] em suas páginas de aterrissagem, aplicativos ou APIs. Planeje o ciclo de vida e a rotação da chave com sua equipe de segurança para que as cargas históricas ainda possam ser descriptografadas onde necessário.
 
 * As chaves revogadas não devem ser usadas para a nova criptografia. Siga sua política de segurança para rodízio e desativação.
+
+* O processo de criptografia que consome muitos recursos, usando a função `Encrypt`, pode afetar a taxa de transferência no momento da renderização.
