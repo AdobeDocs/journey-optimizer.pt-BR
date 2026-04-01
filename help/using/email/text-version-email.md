@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: text, email, version, plain, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
+source-git-commit: 7a3ff59bab5f0d4d8f61fa05a20f4922b83ca7f8
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 8%
@@ -30,7 +30,7 @@ Para acessar a versão de texto padrão, selecione o ícone **[!UICONTROL Texto 
 
 ![](assets/text_version_3.png)
 
-## Usar uma versão de texto personalizada {#plain-text-default-custom}
+## Usar uma versão de texto personalizada {#plain-text-custom}
 
 Se preferir usar um conteúdo diferente para a versão de texto sem formatação, siga as etapas abaixo:
 
