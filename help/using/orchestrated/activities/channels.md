@@ -5,10 +5,10 @@ title: Adicionar uma atividade de canal a uma campanha em várias etapas
 description: Saiba como adicionar uma atividade de canal a uma campanha em várias etapas
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 40%
+source-wordcount: '1682'
+ht-degree: 37%
 
 ---
 
@@ -167,11 +167,17 @@ Ao acessar o editor de personalização por meio de uma campanha Orquestrada, du
 
 Para obter uma visão geral detalhada de como usar o editor de personalização, consulte [Introdução à personalização](../../personalization/personalize.md).
 
-### Verificar e testar o conteúdo
+### Verificar e testar o conteúdo {#simulate-content-test-profiles}
 
 Depois que o conteúdo for criado, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o seu conteúdo com perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba mais](../../content-management/preview-test.md)
 
 ![imagem mostrando o botão de simular conteúdo](../assets/channel-simulate.png)
+
+Quando você simula conteúdo com **perfis de teste** em uma campanha Orquestrada, duas restrições importantes se aplicam:
+
+* **A execução deve ter atingido a atividade do canal em teste** - Execute a campanha em teste usando o botão **[!UICONTROL Iniciar]** para que o fluxo de trabalho atinja a atividade do canal que você deseja simular. No modo de teste, o workflow pausa na atividade de canal, de modo que uma atividade de canal que vem após outra atividade de canal nunca é atingida. Você não pode usar **[!UICONTROL Simular Conteúdo]** para essas atividades de canal downstream. Consulte [Testar sua campanha antes de publicá-la](../start-monitor-campaigns.md#test).
+
+* **O perfil de teste deve corresponder ao público alvo da atividade de canal** - Use um perfil de teste que pertença ao público alvo direcionado por essa atividade de canal. Se o perfil não estiver nesse público-alvo, selecioná-lo não renderizará uma pré-visualização do seu conteúdo. Consulte [Selecionar perfis de teste](../../content-management/test-profiles.md).
 
 ## Confirmar envio de mensagem
 

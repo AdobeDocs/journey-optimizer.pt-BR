@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 95%
 
 ---
 
@@ -31,6 +31,10 @@ Você também pode enviar entregas de teste das mensagens de email para destinat
 Todas essas ações podem ser realizadas com o botão **[!UICONTROL Simular conteúdo]**, acessível pela tela de edição de conteúdo da mensagem ou pelos designers dos canais de email e da web.
 
 ![](../email/assets/email-preview-button.png)
+
+>[!IMPORTANT]
+>
+>Se você usa **[!UICONTROL Simular Conteúdo]** de uma atividade de canal de **campanha orquestrada**, consulte [Verificar e testar seu conteúdo](../orchestrated/activities/channels.md#simulate-content-test-profiles) para obter mais informações e anotações importantes.
 
 ## Testar usando dados de perfis de teste ou dados de exemplo. {#methods}
 
@@ -68,4 +72,4 @@ O Journey Optimizer fornece duas experiências para testar o conteúdo:
 
 Saiba como usar perfis de teste para testar a renderização de email nas caixas de entrada, visualizar emails personalizados em relação a perfis de teste e enviar provas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430342?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
