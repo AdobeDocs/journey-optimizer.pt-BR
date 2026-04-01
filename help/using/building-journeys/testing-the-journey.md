@@ -10,9 +10,9 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: f06c834fcd1a70aba33a37bb02de461869b50b77
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '1947'
 ht-degree: 7%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 7%
 >id="ajo_journey_test"
 >title="Teste a jornada"
 >abstract="Use perfis de teste para testar a jornada antes de publicá-la. Isso permite analisar como as pessoas fluem na jornada e solucionam problemas antes da publicação."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Teste de simulação de jornada"
+
 
 Depois de criar a jornada, você pode testá-la antes de publicar. O Journey Optimizer oferece o &quot;Modo de teste&quot; como uma maneira de exibir perfis de teste conforme eles se movem ao longo da jornada, detectando possíveis erros antes da ativação. A execução de testes rápidos permite verificar se as jornadas funcionam corretamente para que você possa publicá-las com confiança.
 
@@ -179,7 +181,7 @@ O número de indivíduos (tecnicamente chamados de instâncias) atualmente dentr
 * _currentstep_ > _extraInfo_: descrição do erro e outras informações contextuais.
 * _currentstep_ > _fetchErrors_: informações sobre erros de busca de dados ocorridos durante esta etapa.
 * _externalKeys_: o valor da fórmula de chave definida no evento.
-* _enrichedData_: os dados que a jornada jornada recuperou se ela usa fontes de dados.
+* _enrichedData_: os dados que a jornada recuperou se ela usa fontes de dados.
 * _transitionHistory_: a lista de etapas seguidas pelo indivíduo. Para eventos, a carga é exibida.
 * _actionExecutionErrors_ : informações sobre os erros ocorridos.
 
