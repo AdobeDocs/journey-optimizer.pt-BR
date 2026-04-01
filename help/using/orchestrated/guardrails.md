@@ -5,7 +5,7 @@ title: Medidas de proteção e limitações para campanhas orquestradas
 description: Saiba mais sobre as medidas de proteção e limitações das campanhas orquestradas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * O número médio de atributos por esquema **não deve exceder 50 colunas** para manter a capacidade de gerenciamento e o desempenho.
 
-* Esquemas relacionais não podem ser habilitados para **Perfis** do Adobe Experience Platform. Somente esquemas XDM padrão são suportados para **Perfis** do Adobe Experience Platform. Esquemas relacionais podem ser ativados para Campanhas orquestradas ou Campanhas de ação. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Esquemas relacionais não podem ser habilitados para **Perfis** do Adobe Experience Platform. Somente esquemas XDM padrão são suportados para **Perfis** do Adobe Experience Platform. Esquemas relacionais podem ser ativados para campanhas orquestradas ou campanhas Action. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Ingestão de dados {#data-ingestion}
 

@@ -5,10 +5,10 @@ title: Etapas de configuração
 description: Saiba como criar um esquema relacional no Adobe Experience Platform fazendo upload de uma DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 48%
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ Esta seção apresenta um passo a passo de como criar um esquema relacional na A
 
 1. [Assimile dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
 
-➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational)
+➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Fazer upload de um arquivo DDL{#ddl-upload}
 
@@ -154,7 +154,7 @@ Você pode especificar relações diretamente no arquivo DDL ao criar seu esquem
 
    * **Baixar**: baixe o diagrama ER como um arquivo .png.
 
-1. Clique em **Salvar** quando terminar. Esta ação cria os esquemas e conjuntos de dados associados, e habilita o conjunto de dados para uso em campanhas orquestradas.
+1. Clique em **Salvar** quando terminar. Essa ação cria os esquemas e conjuntos de dados associados e habilita o conjunto de dados para uso em campanhas orquestradas.
 
 1. Clique em **[!UICONTROL Abrir trabalhos]** para monitorar o progresso da tarefa de criação. Esse processo pode levar alguns minutos, dependendo do número de tabelas definidas no arquivo DDL.
 

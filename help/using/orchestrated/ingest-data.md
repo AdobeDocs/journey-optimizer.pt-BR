@@ -5,7 +5,7 @@ title: Etapas de configuração
 description: Saiba como trazer dados para a Adobe Experience Platform de fontes compatíveis, como SFTP, armazenamento na nuvem ou bancos de dados.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 21%
@@ -39,29 +39,29 @@ As seguintes origens são compatíveis com o uso de campanhas orquestradas:
   <tbody>
     <tr>
       <td rowspan="3">Armazenamento na nuvem</td>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Data Warehouses da nuvem</td>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Uploads baseados em arquivo</td>
-      <td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Upload de arquivo local<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Upload de arquivo local<a></td>
     </tr>
 
 </tbody>
@@ -85,7 +85,7 @@ Se o cliente quiser excluir registros somente do Adobe Experience Platform sem a
 
   Se licenciado, o **Data Distiller** poderá ser usado para oferecer suporte a operações de exclusão diretamente no Adobe Experience Platform, independentemente do sistema de origem.
 
-  [Saiba mais sobre o Data Distiller](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/overview)
+  [Saiba mais sobre o Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## Configurar um fluxo de dados
 
@@ -111,7 +111,7 @@ Este exemplo demonstra como configurar um fluxo de dados que assimila dados estr
 
    >[!IMPORTANT]
    >
-   > Somente para **fontes baseadas em arquivo**, cada linha do arquivo de dados deve incluir uma coluna `_change_request_type` com valores `U` (substituição) ou `D` (exclusão). Sem essa coluna, o sistema não reconhecerá os dados como suporte ao controle de alterações e o botão Campanha orquestrada não será exibido, impedindo que o conjunto de dados seja selecionado para direcionamento.
+   > Somente para **fontes baseadas em arquivo**, cada linha do arquivo de dados deve incluir uma coluna `_change_request_type` com valores `U` (substituição) ou `D` (exclusão). Sem essa coluna, o sistema não reconhecerá os dados como suporte ao controle de alterações e a opção Campanha orquestrada não será exibida, impedindo que o conjunto de dados seja selecionado para direcionamento.
 
    ![](assets/S3_config_6.png)
 

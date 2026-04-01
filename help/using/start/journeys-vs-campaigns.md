@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Jornadas versus campanhas - escolha a abordagem correta
-description: Compare Jornadas, Campanhas de ação, Campanhas acionadas por API e Campanhas orquestradas para escolher a abordagem certa para suas necessidades de marketing no Adobe Journey Optimizer.
+description: Compare Jornadas, campanhas de ação, campanhas acionadas por API e campanhas orquestradas para escolher a abordagem certa para suas necessidades de marketing no Adobe Journey Optimizer.
 feature: Journeys, Campaigns, Get Started, Overview
 topic: Content Management
 role: User
@@ -11,10 +11,10 @@ keywords: jornada, campanha, orquestrado, comparação, escolher, decisão, flux
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1613'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -35,13 +35,13 @@ Este guia ajuda você a escolher com base no estilo de execução, nas necessida
 
 >[!TIP]
 >
->**Princípio básico rápido:** Precisa que cada cliente se mova em seu próprio ritmo com lógica em tempo real? Use **Jornadas**. Enviar uma mensagem para um público-alvo de acordo com o cronograma? Use **Campanhas de Ação**. Acionamento de um sistema externo via API? Use **Campanhas acionadas por API**. Precisa de dados de várias entidades, contagens exatas ou uma tela de lote? Use **Campanhas Orquestradas**.
+>**Princípio básico rápido:** Precisa que cada cliente se mova em seu próprio ritmo com lógica em tempo real? Use **Jornadas**. Enviar uma mensagem para um público-alvo de acordo com o cronograma? Use **Campanhas de ação**. Acionamento de um sistema externo via API? Use **campanhas acionadas por API**. Precisa de dados de várias entidades, contagens exatas ou uma tela de lote? Use **Campanhas orquestradas**.
 
 ## Comparação detalhada {#detailed-comparison}
 
 Use esta tabela abrangente para entender as principais diferenças:
 
-| Recurso | Jornadas | Campanhas de ações | Campanhas acionadas por API | Campanhas orquestradas |
+| Recurso | Jornadas | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas |
 |---------|----------|------------------|------------------------|----------------------|
 | **Finalidade principal** | Orquestração de várias etapas do :1 com contexto de cliente em tempo real | Entrega de mensagem única ou recorrente para públicos | Mensagens transacionais ou orientadas por eventos iniciadas por sistemas externos | Campanhas em lote de várias etapas com fluxos de trabalho de segmentação complexos |
 | **Tipo de tela** | Tela 1:1 - cada perfil viaja em seu próprio ritmo | Sem tela - execução de ação única | Sem tela - execução de ação única | Tela em lote - todos os perfis processados juntos |
@@ -71,7 +71,7 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 * O contexto em tempo real é essencial
 
 **Entrega de mensagem simples para um público-alvo em um horário agendado?**
-→ **Usar Campanhas de Ação**
+→ **Usar campanhas de ação**
 * Todos os perfis recebem mensagens simultaneamente
 * Envios agendados ou recorrentes
 * Não é necessária uma lógica complexa de várias etapas
@@ -83,7 +83,7 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 * Não é necessária uma lógica complexa de várias etapas
 
 **Fluxo de trabalho em lotes complexo com segmentação avançada?**
-→ **Usar Campanhas Orquestradas**
+→ **Usar campanhas orquestradas**
 * Necessidade de dados de várias entidades (produtos, lojas, reservas)
 * Exigir contagens exatas de pré-envio
 * Processamento em lote de várias etapas com divisões e enriquecimento
@@ -93,9 +93,9 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 | Sua necessidade | Método recomendado | Por que |
 |-----------|---------------------|-----|
 | Dê as boas-vindas a novos clientes com integração em várias etapas | Jornadas | Entrada em tempo real, vários pontos de contato, caminhos condicionais |
-| Enviar informativo mensal aos assinantes | Campanhas de ações | Mensagem agendada simples para o público |
+| Enviar informativo mensal aos assinantes | Campanhas de ação | Mensagem agendada simples para o público |
 | Abandono do carrinho com sequência de lembretes | Jornadas | Acionador em tempo real, tempos de espera e acompanhamento condicional |
-| Anúncio promocional para todos os clientes | Campanhas de ações | Mensagem única, entrega imediata |
+| Anúncio promocional para todos os clientes | Campanhas de ação | Mensagem única, entrega imediata |
 | Reengajamento de usuários inativos com base no comportamento | Jornadas | Acionado pela qualificação de público-alvo, caminho personalizado |
 | Venda rápida acionada por evento comercial | Jornadas (Evento Comercial) | Acionador em tempo real que afeta vários clientes |
 | Promoção sazonal com integração ao catálogo de produtos | Campanhas orquestradas | Dados de várias entidades, segmentação complexa, contagem exata |
@@ -179,7 +179,7 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 
 ### Casos de uso do Campaign (acionados por ação e API)
 
-**Campanhas de Ação:**
+**Campanhas de ação:**
 * **Informativos mensais**: entrega em lote agendada para o segmento do assinante
 * **Anúncios promocionais**: ofertas com diferenciação de tempo para direcionar públicos-alvo
 * **Lançamentos de produto**: anúncio coordenado para todos os clientes
@@ -191,7 +191,7 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 * **Alertas de conta**: acionados pelo sistema de detecção de fraudes
 * **Redefinições de senha**: acionado pela ação do usuário no aplicativo
 
-### Casos de uso do Campaign orquestrados
+### Casos de uso de campanha orquestrada
 
 * **Promoção sazonal com integração de catálogo**: consultar catálogo de produtos, identificar clientes qualificados, segmentar por preferências, enviar recomendações personalizadas de produto
 * **Campanhas específicas da loja**: clientes-alvo próximos a locais de loja específicos com dados de inventário da loja
@@ -203,7 +203,7 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 
 ### Canais
 
-| Canal | Jornadas | Campanhas de ações | Campanhas acionadas por API | Campanhas orquestradas |
+| Canal | Jornadas | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas |
 |---------|:--------:|:----------------:|:-----------------------:|:---------------------:|
 | Email | ✅ | ✅ | ✅ | ✅ |
 | Push | ✅ | ✅ | ✅ | ✅ |
@@ -216,7 +216,7 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 
 ### Recursos avançados
 
-| Recurso | Jornadas | Campanhas de ações | Campanhas acionadas por API | Campanhas orquestradas |
+| Recurso | Jornadas | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas |
 |-----------|:--------:|:----------------:|:-----------------------:|:---------------------:|
 | Fluxos de trabalho de várias etapas | ✅ | ❌ | ❌ | ✅ |
 | Acionadores em tempo real | ✅ | ❌ | ✅ | ❌ |
@@ -254,7 +254,7 @@ Não, você deve recriar a experiência no formato apropriado. No entanto, você
 
 +++ Qual abordagem é mais fácil de criar?
 
-As Campanhas de ação normalmente são as mais simples (mensagem única para o público), seguidas por Campanhas acionadas por API, Jornadas (mais complexas com lógica de várias etapas) e Campanhas orquestradas (mais complexas devido ao fluxo de trabalho da tela e recursos de várias entidades).
+As campanhas de ação normalmente são as mais simples (mensagem única para o público), seguidas por campanhas acionadas por API, Jornadas (mais complexas com lógica de várias etapas) e campanhas orquestradas (mais complexas devido ao fluxo de trabalho da tela e recursos de várias entidades).
 
 +++
 
@@ -262,15 +262,15 @@ As Campanhas de ação normalmente são as mais simples (mensagem única para o 
 
 Todos os quatro podem ser bem dimensionados; a escolha certa depende do seu padrão:
 
-* As **Jornadas de Leitura de Público** e as **Campanhas de Ação** estão otimizadas para públicos de lote grandes (uma mensagem ou fluxo para vários perfis de uma só vez).
-* As **Campanhas orquestradas** são excelentes em segmentações complexas com grandes conjuntos de dados e dados de várias entidades.
+* As **Jornadas de Leitura de Público** e as **Campanhas de ação** estão otimizadas para públicos de lote grandes (uma mensagem ou fluxo para muitos perfis de uma só vez).
+* **Campanhas orquestradas** destacam-se na segmentação complexa com grandes conjuntos de dados e dados de várias entidades.
 * **O Jornada** unitário (baseado em eventos) processa perfis individualmente à medida que os eventos ocorrem, portanto, a escala depende do volume e da taxa de transferência do evento.
 
 +++
 
 +++ Posso usar o mesmo público-alvo em jornadas e campanhas?
 
-Sim. Os públicos-alvo criados no [!DNL Adobe Experience Platform] podem ser usados em Jornadas, Campanhas de Ação e Campanhas Orquestradas (em que a lógica do público-alvo também pode ser criada sob demanda na tela). As Campanhas acionadas por API são orientadas por carga e não usam públicos-alvo pré-criados da mesma maneira.
+Sim. Os públicos-alvo criados no [!DNL Adobe Experience Platform] podem ser usados em Jornadas, campanhas de Ação e campanhas Orquestradas (em que a lógica do público-alvo também pode ser criada sob demanda na tela). As campanhas acionadas por API são orientadas por carga útil e não usam públicos pré-criados da mesma maneira.
 
 +++
 
@@ -280,11 +280,11 @@ Pronto(a) para começar a criar? Explore a documentação detalhada da abordagem
 
 * **[Introdução ao Jornada](../building-journeys/journey.md)** - Tipos de Jornada, designer e fluxo de trabalho
 * **[Introdução às Campanhas](../campaigns/get-started-with-campaigns.md)** - Campanhas acionadas por ação e API
-* **[Introdução às Campanhas Orquestradas](../orchestrated/gs-orchestrated-campaigns.md)** - Fluxos de trabalho de tela de lote
+* **[Introdução a campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)** - Fluxos de trabalho de tela de lote
 
 >[!MORELIKETHIS]
 >
 >* [comparação de tipos de Jornada](../building-journeys/journey.md#journey-types-comparison)
 >* [Comparação de tipos de campanha](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [Perguntas frequentes sobre o Jornada](../building-journeys/journey-faq.md)
->* [Perguntas frequentes sobre Campanhas Orquestradas](../orchestrated/orchestrated-campaigns-faq.md)
+>* [Perguntas frequentes sobre campanhas orquestradas](../orchestrated/orchestrated-campaigns-faq.md)

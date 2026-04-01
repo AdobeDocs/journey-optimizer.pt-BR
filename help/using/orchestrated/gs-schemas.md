@@ -5,7 +5,7 @@ title: Etapas de configuração
 description: Saiba como criar um esquema relacional no Adobe Experience Platform fazendo upload de uma DDL
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Ele descreve:
 * Os atributos dessas entidades (por exemplo, Nome do cliente, Data de início da campanha)
 * Os relacionamentos entre entidades (por exemplo, Clientes pertencem a Segmentos, Campanhas visam Segmentos)
 
-Um modelo de dados é lógico e conceitual, não está vinculado a uma implementação física no Orchestrated Campaign
+Um modelo de dados é lógico e conceitual, não está vinculado a uma implementação física na Campanha orquestrada
 
 Em um **modelo de dados relacionais**, os dados são organizados em tabelas relacionadas a outras tabelas.
 
@@ -52,7 +52,7 @@ Especifica:
 
 Organizar esquemas ou tabelas em um modelo de dados relacional significa estruturar seus dados em várias tabelas. Certifique-se de que cada tabela armazene um tipo de entidade/esquema
 
-➡️ [Saiba mais sobre esquemas na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Saiba mais sobre esquemas na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Etapas de implementação {#implementation}
 
@@ -74,7 +74,7 @@ Para assimilar dados e criar esquema relacional, siga estas etapas:
 
 1. [Ativar campanhas orquestradas](manual-schema.md#enable)
 
-   O conjunto de dados armazena os dados assimilados e deve estar ativado para Campanhas orquestradas para garantir que esteja acessível no Adobe Journey Optimizer.
+   O conjunto de dados armazena seus dados assimilados e deve ser ativado para campanhas orquestradas para garantir que ele esteja acessível no Adobe Journey Optimizer.
 
 1. [Assimilar dados](ingest-data.md)
 

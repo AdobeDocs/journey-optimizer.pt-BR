@@ -5,10 +5,10 @@ title: Etapas de configuração
 description: Saiba como criar esquemas relacionais diretamente pela interface do usuário.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ O exemplo a seguir define manualmente o esquema **Associações de fidelidade** 
 
 1. [Assimile dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
 
-➡️ [Saiba mais sobre esquemas relacionais manuais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Saiba mais sobre esquemas relacionais manuais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Criar seu esquema {#schema}
 
@@ -110,11 +110,11 @@ Qualquer esquema usado para direcionamento deve incluir pelo menos um campo de i
 
 Depois de criar e salvar atributos, você pode vincular o esquema a outros esquemas relacionais definindo relacionamentos.
 
-➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Vincular esquemas {#link-schema}
 
-A criação de uma relação entre dois esquemas permite aprimorar Campanhas orquestradas com dados que vão além do esquema de perfil principal.
+A criação de uma relação entre dois esquemas permite aprimorar campanhas orquestradas com dados que vão além do esquema de perfil principal.
 
 1. Em seu esquema recém-criado, selecione o atributo que deseja usar como link e clique em **[!UICONTROL Adicionar relacionamento]**.
 
@@ -132,7 +132,7 @@ A criação de uma relação entre dois esquemas permite aprimorar Campanhas orq
 
 ## Criar um conjunto de dados para o esquema {#dataset}
 
-Depois de definir seu esquema, você pode criar um conjunto de dados com base nele. O conjunto de dados armazena seus dados assimilados e deve estar ativado para que as Campanhas orquestradas sejam acessíveis.
+Depois de definir seu esquema, você pode criar um conjunto de dados com base nele. O conjunto de dados armazena seus dados assimilados e deve estar ativado para que as campanhas orquestradas sejam acessíveis.
 
 1. Navegue até o menu **[!UICONTROL Data Management]** > **[!UICONTROL Datasets]** e clique em **[!UICONTROL Criar conjunto de dados]**.
 
@@ -146,23 +146,23 @@ Depois de definir seu esquema, você pode criar um conjunto de dados com base ne
 
 1. Insira um **[!UICONTROL Nome]** para seu **[!UICONTROL Conjunto de Dados]** e clique em **[!UICONTROL Concluir]**.
 
-Agora é necessário ativar seu conjunto de dados para Campanhas orquestradas.
+Agora é necessário ativar seu conjunto de dados para campanhas orquestradas.
 
-## Habilitar conjunto de dados para campanhas orquestradas {#enable}
+## Ativar conjunto de dados para campanhas orquestradas {#enable}
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
 >title="Campanhas orquestradas"
->abstract="Depois de criar o conjunto de dados, é necessário ativá-lo explicitamente para as campanhas orquestradas. Essa etapa garante que o conjunto de dados esteja disponível para orquestração e personalização em tempo real no Adobe Journey Optimizer."
+>abstract="Depois de criar seu conjunto de dados, é necessário ativá-lo explicitamente para Campanhas orquestradas. Essa etapa garante que o conjunto de dados esteja disponível para orquestração e personalização em tempo real no Adobe Journey Optimizer."
 
 
-Depois de criar o conjunto de dados, é necessário ativá-lo explicitamente para as campanhas orquestradas. Essa etapa garante que o conjunto de dados esteja disponível para orquestração e personalização em tempo real no Adobe Journey Optimizer.
+Depois de criar seu conjunto de dados, é necessário ativá-lo explicitamente para Campanhas orquestradas. Essa etapa garante que o conjunto de dados esteja disponível para orquestração e personalização em tempo real no Adobe Journey Optimizer.
 
 Consulte a [documentação do Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) para validar ou habilitar a Extensão do Orchestrated Campaign no conjunto de dados.
 
 1. Localize seu conjunto de dados na lista **[!UICONTROL Conjuntos de dados]**.
 
-1. Nas configurações de **[!UICONTROL Conjuntos de dados]**, habilite a opção **Campanhas orquestradas** para marcar o conjunto de dados disponível para uso em suas Campanhas orquestradas.
+1. Nas configurações de **[!UICONTROL Conjuntos de Dados]**, habilite a opção **Campanhas orquestradas** para marcar o conjunto de dados disponível para uso em suas campanhas orquestradas.
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 

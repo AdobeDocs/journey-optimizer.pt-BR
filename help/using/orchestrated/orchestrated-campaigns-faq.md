@@ -5,7 +5,7 @@ title: Perguntas frequentes sobre campanhas orquestradas
 description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orchestrated
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1958'
 ht-degree: 13%
@@ -73,7 +73,7 @@ Para acessar a Orquestração de campanha, sua licença deve incluir o pacote **
 * **Campanhas orquestradas**: ideal para **campanhas em lote, de um para muitos**. Os públicos-alvo avançam em massa, de acordo com uma programação.
 * **Jornadas**: ideal para o engajamento **em tempo real, um para um**. Cada cliente percorre a jornada em seu próprio ritmo, acionado por comportamento ou eventos.
 
-**Prática recomendada**: use-as juntas — Jornadas para experiências acionadas e reativas e Campanhas orquestradas para iniciativas planejadas baseadas em calendário.
+**Prática recomendada**: use-as juntas — Jornadas para experiências acionadas e reativas e campanhas orquestradas para iniciativas planejadas baseadas em calendário.
 
 **Saiba mais**
 

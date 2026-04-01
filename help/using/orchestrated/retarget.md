@@ -6,7 +6,7 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 O redirecionamento permite que você acompanhe os recipients com base em como eles responderam a uma campanha orquestrada anterior. Por exemplo, você pode enviar um segundo email para recipients que receberam, mas não clicaram no primeiro.
 
-**[!UICONTROL Campanha Orquestrada]** fornece dois esquemas principais para isso:
+**[!UICONTROL A campanha orquestrada]** fornece dois esquemas principais para isso:
 
 * **[!UICONTROL Feedback de Mensagem]**: captura eventos relacionados à entrega, por exemplo, mensagem enviada, aberta, rejeitada, etc.
 * **[!UICONTROL Acompanhamento de email]**: captura as ações do usuário, por exemplo, cliques e aberturas.
@@ -44,7 +44,7 @@ Usando esses dados, você pode definir regras para identificar os recipients que
 
    1. Selecione a regra de filtro e escolha o **[!UICONTROL Comportamento]** que deseja direcionar, como **[!UICONTROL Mensagem enviada]**.
 
-   1. Clique no ![ícone de pasta &#x200B;](assets/do-not-localize/folder-search.svg) para selecionar a campanha específica que deseja redirecionar. Você tem duas opções:
+   1. Clique no ![ícone de pasta ](assets/do-not-localize/folder-search.svg) para selecionar a campanha específica que deseja redirecionar. Você tem duas opções:
 
       * **[!UICONTROL Selecionar uma campanha específica]**: escolha uma campanha específica na sua lista para redirecionar os destinatários que interagiram com essa campanha.
 
@@ -135,7 +135,7 @@ Para redirecionar destinatários com base nas interações de mensagem (por exem
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. Clique no ![ícone de pasta &#x200B;](assets/do-not-localize/folder-search.svg) para selecionar a campanha específica que deseja redirecionar. Você tem duas opções:
+   1. Clique no ![ícone de pasta ](assets/do-not-localize/folder-search.svg) para selecionar a campanha específica que deseja redirecionar. Você tem duas opções:
 
       * **[!UICONTROL Selecionar uma campanha específica]**: escolha uma campanha específica na sua lista para redirecionar os destinatários que interagiram com essa campanha.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '9009'
-ht-degree: 100%
+source-wordcount: '9005'
+ht-degree: 99%
 
 ---
 
@@ -197,13 +197,13 @@ Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Jou
 <table>
 <thead>
 <tr>
-<th><strong>Mensagens com alta taxa de transferência para campanhas de email acionadas por API</strong><br/></th>
+<th><strong>Mensagens de alta taxa de transferência para campanhas de email acionadas por API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Um novo modo de mensagens transacionais com alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Esse modo também é compatível com mensagens transacionais sem referência ou criação de perfis de clientes, como check-out de convidado, confirmação de pedido, redefinições de senha, notificações de segurança e outras notificações operacionais/de serviço.</p>
+<p>Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Esse modo também é compatível com mensagens transacionais sem referência ou criação de perfis de clientes, como check-out de convidado, confirmação de pedido, redefinições de senha, notificações de segurança e outras notificações operacionais/de serviço.</p>
 <p>Esse recurso está disponível somente para o canal de email e para organizações que adquiriram a oferta complementar de mensagens transacionais com alta taxa de transferência da Adobe. Entre em contato com o representante da Adobe para obter mais informações.</p>
 <p>Para obter mais informações, consulte a <a href="../campaigns/api-triggered-high-throughput.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 22 de outubro de 2025</p>
@@ -570,8 +570,8 @@ You can now use AI models to optimize the best content in your email through the
 
 ### Aprimoramentos {#sept-25-9-improvements}
 
-* **Suporte a webhook para campanhas acionadas por API**\
-  Campanhas acionadas por API agora oferecem suporte a webhooks. Configure um URL de webhook para receber atualizações de status em tempo real para cada mensagem, melhorando a observabilidade e permitindo monitoramento e automação contínuos. [Leia mais](../configuration/feedback-webhooks.md)
+* **Suporte de Webhook para campanhas acionadas por API**\
+  As campanhas acionadas por API agora oferecem suporte a webhooks. Configure um URL de webhook para receber atualizações de status em tempo real para cada mensagem, melhorando a observabilidade e permitindo monitoramento e automação contínuos. [Leia mais](../configuration/feedback-webhooks.md)
 
   Data de disponibilidade: 29 de setembro de 2025
 

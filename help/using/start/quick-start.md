@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ O Adobe Journey Optimizer (AJO) permite que as marcas forneçam experiências co
 O Journey Optimizer oferece duas abordagens de orquestração para atender a diferentes necessidades de marketing:
 
 * **Jornadas**: a melhor opção para engajamento um a um em tempo real, no qual cada cliente avança no seu ritmo e é acionado por comportamento ou eventos
-* **Campanhas orquestradas**: a melhor opção para campanhas em lote de um para muitos, em que os públicos-alvo avançam juntos por fluxos de trabalho de várias etapas de acordo com um cronograma. Ideal para promoções sazonais, lançamentos de produtos e comunicações baseadas em conta
+* **Campanhas orquestradas**: ideal para campanhas em lote e de um para muitos, em que os públicos-alvo avançam juntos por meio de fluxos de trabalho de várias etapas de acordo com um cronograma; ideal para promoções sazonais, inicializações de produtos e comunicações baseadas em conta
 
 Essa experiência unificada permite implementar casos de uso completos em um único local, desde a definição de públicos-alvo e a criação de jornadas até a criação de conteúdo personalizado e a análise de resultados. Esta documentação explica as principais funções para o uso eficaz do Journey Optimizer, suas responsabilidades e como começar.
 
@@ -210,7 +210,7 @@ Os **profissionais de marketing** criam as experiências do cliente e fornecem c
 
 Para saber mais sobre os principais recursos e personas do Journey Optimizer, assista ao vídeo de introdução. O vídeo aborda a interface do usuário e destaca os principais recursos com base em fluxos de trabalho específicos de cada função.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430320?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Recursos adicionais
 
@@ -234,7 +234,7 @@ Para lições e atualizações mais detalhadas, confira os seguintes recursos:
 
 >[!TAB Comunidade e suporte]
 
-* [Comunidade da Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"} - Conecte-se com outros usuários e especialistas
-* [Fórum do produto](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"} - Faça perguntas e compartilhe conhecimento
+* [Comunidade da Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Conecte-se com outros usuários e especialistas
+* [Fórum do produto](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Faça perguntas e compartilhe conhecimento
 
 >[!ENDTABS]

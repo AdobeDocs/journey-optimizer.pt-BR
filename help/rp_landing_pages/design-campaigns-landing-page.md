@@ -5,10 +5,10 @@ title: Atividades de campanhas orquestradas
 description: Atividades de campanhas orquestradas
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
-source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
-workflow-type: ht
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 100%
 
 As atividades de campanha orquestrada no Adobe Journey Optimizer permitem criar jornadas de marketing fluidas, orientadas por dados, que se conectam com o público-alvo no momento certo e pelos canais certos. Ao combinar atividades de direcionamento, canal e controle de fluxo, é possível definir segmentos precisos de público-alvo, personalizar mensagens e automatizar fluxos de trabalho complexos. Quer você esteja criando públicos-alvo, sincronizando ramificações de campanha ou adicionando atrasos para um timing perfeito, essas atividades trabalham juntas para otimizar a execução da sua campanha. Com ferramentas como Enriquecimento para aprimoramento de dados ou Divisão para segmentação de público-alvo, você terá um kit de ferramentas flexível para criar experiências relevantes e impactantes para o cliente.
 
-## Atividades de campanha orquestrada
+## Atividades orquestradas de campanha
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Trabalhar com atividades da campanha orquestrada
+Trabalhar com atividades de campanha orquestradas
 
 Saiba mais sobre direcionamento, canal e atividades de controle de fluxo para projetar e executar campanhas orquestradas.
 
@@ -30,7 +30,7 @@ Saiba mais sobre direcionamento, canal e atividades de controle de fluxo para pr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilização da atividade AND-join
 
@@ -40,7 +40,7 @@ Sincronize várias ramificações de execução garantindo que as tarefas anteri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Atividade Criar público-alvo
 
@@ -50,7 +50,7 @@ Defina e configure segmentos de público-alvo para suas campanhas usando a ativi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Atividade Mudar dimensão
 
@@ -60,7 +60,7 @@ Melhore o direcionamento alternando entre entidades de dados na campanha.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Atividades de canal
 
@@ -70,7 +70,7 @@ Configure email, SMS, notificações por push e correspondência direta para a o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Atividade Combinar
 
