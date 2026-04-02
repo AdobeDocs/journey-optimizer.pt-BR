@@ -10,10 +10,10 @@ level: Intermediate
 keywords: time zone, properties, jornada, condition, time, date, custom
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 27%
+source-wordcount: '373'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
->title="Fuso Horário"
+>title="Jornada fuso horário"
 >abstract="Selecione o fuso horário da jornada. Ao usar um horário fixo, será definido o mesmo fuso para todas as pessoas que entram na jornada."
 
 
@@ -49,18 +49,18 @@ Para fazer isso, no painel **[!UICONTROL Propriedades de Jornada]**, selecione u
 
 ![Lista suspensa de seleção de fuso horário nas propriedades da jornada](assets/journey72.png)
 
-## Usar fuso horário de perfis {#timezone-from-profiles}
+## Usar fuso horário do perfil {#timezone-from-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="Usar fuso horário do perfil"
->abstract="Marque a caixa para usar o fuso horário do perfil em tempo real em atividades de espera e de condição. Se um fuso horário tiver sido definido para um perfil, ele será recuperado e usado pela jornada. Caso contrário, o fuso horário será aquele definido no campo fuso horário acima."
+>abstract="Marque esta opção para usar o fuso horário do perfil em tempo real nas atividades de **Espera** e **Condição**. Se um fuso horário tiver sido definido para um perfil, ele será recuperado e usado na jornada. Caso contrário, o fuso horário é o definido no campo fuso horário acima."
 
 Se o evento de entrada da jornada tiver um namespace, o que significa que a jornada pode acessar o serviço de Perfil de Cliente em Tempo Real do [!DNL Adobe Experience Platform], talvez você queira usar o fuso horário definido no nível do perfil. Para fazer isso, em **Propriedades**, marque **Usar fuso horário do perfil em esperas e condições**. Essa opção não está marcada por padrão.
 
-Se um fuso horário tiver sido definido para um perfil, ele será recuperado e usado pela jornada. Caso contrário, o fuso horário usado será aquele definido no campo timezone.
+Se um fuso horário tiver sido definido para um perfil, ele será recuperado e usado pela jornada. Caso contrário, o fuso horário usado é o definido no campo Time zone.
 
-![Configuração de fuso horário de perfil em fontes de dados para tempo personalizado](assets/journey73.png)
+![Configuração de fuso horário do perfil em fontes de dados para tempo personalizado](assets/journey73.png)
 
 >[!NOTE]
 >

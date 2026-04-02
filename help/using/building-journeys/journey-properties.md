@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
+source-git-commit: e179f5a503b93cbc01c812d8bcecaeb808560394
 workflow-type: tm+mt
-source-wordcount: '3223'
-ht-degree: 13%
+source-wordcount: '3257'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propriedades da jornada"
->abstract="Essa seção mostra as propriedades da jornada. Por padrão, os parâmetros somente leitura ficam ocultos. As configurações disponíveis dependem do status da jornada, das permissões e da configuração do produto."
+>abstract="Defina configurações globais para esta jornada, incluindo nome, tags, regras de entrada, fuso horário, datas, tempo limite e gerenciamento de conflitos. Parâmetros somente leitura estão ocultos por padrão. As opções disponíveis variam com base no status da jornada, nas permissões e na configuração do produto."
 
 ## Acessar as propriedades de uma jornada {#access-properties}
 
@@ -292,13 +292,18 @@ A partir da versão de [!DNL Adobe Journey Optimizer] de junho de 2024, o tempo 
   </tr>
 </table>
 
-## Mesclar políticas {#merge-policies}
+## Política de mesclagem {#merge-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_merge_policy"
+>title="Política de mesclagem"
+>abstract="A política de mesclagem é recuperada automaticamente com base no evento ou público selecionado. Essa política de mesclagem é usada no por meio de toda a jornada."
 
 [!DNL Adobe Journey Optimizer] usa políticas de mesclagem ao recuperar dados de perfil de [!DNL Adobe Experience Platform]. Dependendo do tipo de jornada, são usadas diferentes políticas de mesclagem:
 
-* Em Ler jornadas de qualificação de público ou público-alvo: a política de mesclagem do público-alvo é usada
-* Em jornadas de eventos unitários: a política de mesclagem padrão é usada
-* Nas jornadas de eventos comerciais: a política de mesclagem do público-alvo na seguinte atividade Ler público é usada
+* Nas jornadas **[Ler público](read-audience.md)** ou **[Qualificação de público](audience-qualification-events.md)**: a política de mesclagem do público é usada
+* Em jornadas de **[Evento unitário](../event/about-events.md)**: a política de mesclagem padrão é usada
+* Nas jornadas de **[Evento comercial](../event/about-creating-business.md)**: a política de mesclagem do público-alvo direcionado na seguinte atividade Ler público é usada
 
 [!DNL Adobe Journey Optimizer] aplica a política de mesclagem usada em toda a jornada. Portanto, se vários públicos forem usados em uma jornada (por exemplo, usando em [`inAudience` funções](functions/functioninaudience.md)), isso criará inconsistências com a política de mesclagem usada pela jornada, um erro será gerado e a publicação será bloqueada. No entanto, se um público-alvo inconsistente for usado na personalização da mensagem, um alerta não será gerado, apesar da inconsistência. Por isso, é altamente recomendável verificar a política de mesclagem associada ao seu público-alvo quando ele for usado na personalização da mensagem.
 
