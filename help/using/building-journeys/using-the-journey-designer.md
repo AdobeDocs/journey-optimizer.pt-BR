@@ -10,19 +10,15 @@ level: Intermediate
 keywords: design, tela, jornada, interface, arrastar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 9691a5c7f3654c8c5d7945bb32ad772cf189d000
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 4%
+source-wordcount: '1706'
+ht-degree: 2%
 
 ---
 
 # Projetar a jornada {#design-your-journey}
 
->[!CONTEXTUALHELP]
->id="ajo_journey_canvas"
->title="Projetar a jornada"
->abstract="A interface de jornada permite arrastar e soltar facilmente as atividades da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível."
 
 [!DNL Adobe Journey Optimizer] inclui uma tela de orquestração omnicanal que permite aos profissionais de marketing harmonizar o alcance de marketing com o envolvimento individual do cliente. A interface de usuário do permite arrastar e soltar facilmente as atividades da paleta na tela para criar sua jornada. Observe que você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível.
 
