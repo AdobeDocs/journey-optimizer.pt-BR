@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 # Acionar campanhas orquestradas usando um sinal {#trigger-signal}
 
 Você pode acionar uma campanha Orquestrada enviando um sinal a ela em vez de executá-la de acordo com um agendamento. O sinal é enviado por uma chamada de API de um sistema ou aplicativo externo. Ao usar um sinal, você pode passar parâmetros. Eles são então disponibilizados na campanha orquestrada como variáveis de evento no contexto de execução — para uso em direcionamento, condições ou expressões.
+
+Para obter a especificação REST completa do ponto de extremidade do acionador (caminhos, cabeçalhos, corpo, respostas e erros), consulte [Acionar API de campanhas orquestradas](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} na documentação da API do Adobe Journey Optimizer.
 
 Processo completo para acionar uma campanha orquestrada usando um sinal:
 
@@ -100,7 +102,7 @@ Crie a campanha na tela e, opcionalmente, teste-a no rascunho acionando o sinal 
 
 1. Clique em **[!UICONTROL Iniciar]** para iniciar a campanha.
 
-1. Envie a chamada de API de acionador usando a solicitação de amostra copiada do scheduler. <!--For the complete API reference, refer to the [Journey Optimizer API documentation](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.-->
+1. Envie a chamada de API de acionador usando a solicitação de amostra copiada do scheduler. Consulte [Acionar API de campanhas orquestradas](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} para obter detalhes sobre solicitações e respostas.
 
 Quando estiver satisfeito com os resultados do teste, [publique a campanha](#publish).
 
@@ -116,7 +118,7 @@ Depois de [criar e testar a campanha](#build-and-test), publique a campanha para
 
    ![Copiar solicitação de API na configuração de agendamento](assets/triggered-oc-copy.png)
 
-1. Chame a API de acionador do seu sistema.
+1. Chame a API de acionador do seu sistema. Consulte [Acionar API de campanhas orquestradas](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} para obter a especificação de ponto de extremidade ativo.
 
    >[!IMPORTANT]
    >
