@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 72a3b8696c28b2f0af1f0080b9550999f8b9ee96
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '780'
 ht-degree: 5%
 
 ---
@@ -59,7 +59,7 @@ Depois de adicionar uma política de decisão ao conteúdo, você pode usar atri
 
    >[!NOTE]
    >
-   >Se você usar várias políticas de decisão no mesmo email (por exemplo, uma para o cabeçalho e outra para o rodapé), a mesma oferta será desduplicada entre os posicionamentos: cada área recebe uma oferta diferente. Para mostrar a mesma oferta em várias áreas, use **[!UICONTROL Reutilizar saída de decisão]** ao adicionar uma política de decisão. [Saiba como criar políticas de decisão](create-decision-policy.md).
+   >Se você usar várias políticas de decisão no mesmo email (por exemplo, uma para o cabeçalho e outra para o rodapé), a mesma oferta será desduplicada entre os posicionamentos: não é renderizada duas vezes. A segunda política de decisão não retornará nenhum conteúdo e exibirá um espaço em branco, a menos que você tenha configurado uma oferta de fallback, nesse caso, o fallback será exibido.
 
 >[!TAB SMS]
 
