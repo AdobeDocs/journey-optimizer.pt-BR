@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: text, email, version, plain, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 7a3ff59bab5f0d4d8f61fa05a20f4922b83ca7f8
+source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 8%
+source-wordcount: '1232'
+ht-degree: 7%
 
 ---
 
@@ -47,6 +47,18 @@ Se preferir usar um conteúdo diferente para a versão de texto sem formatação
 > * Quando a sincronização está desabilitada, as alterações feitas no modo de exibição **[!UICONTROL Texto sem formatação]** não são refletidas no modo de exibição HTML.
 >
 > * Se você habilitar novamente a opção **[!UICONTROL Sincronizar com o HTML]** depois de atualizar o conteúdo de texto sem formatação, suas alterações serão perdidas e substituídas pelo conteúdo de texto gerado pela versão do HTML.
+
+## Otimizar a versão do texto para caixas de entrada de IA {#optimize-plain-text-ai}
+
+Você pode ajudar os recursos da caixa de entrada alimentada por IA (como resumos em [!DNL Gmail], [!DNL Outlook] ou [!DNL Apple Mail]) a exibir suas principais ofertas e detalhes usando o botão **[!UICONTROL Otimizar para Caixa de Entrada de IA]**. Essa ação gera uma versão de texto simples aprimorada focada nos assistentes de informação que provavelmente serão lidos na parte de texto da mensagem.
+
+![Botão Otimizar para Caixa de Entrada de IA na exibição de versão de texto](../content-management/assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+
+>[!IMPORTANT]
+>
+>Ao usar este recurso, a opção **[!UICONTROL Sincronizar com o HTML]** é automaticamente desabilitada.
+
+Para obter uma apresentação completa e cenários recomendados, consulte [Otimizar texto de email para caixas de entrada de IA](../content-management/llm-email-optimizer.md).
 
 ## Quando usar versões de texto simples personalizadas {#when-to-use}
 
