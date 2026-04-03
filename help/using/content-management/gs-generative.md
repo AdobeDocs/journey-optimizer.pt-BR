@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 194874dfe5f3c2dea6d0f418d4a62fd897f474b5
+source-git-commit: 9325cbff37665a1c46d8c0239755314b6cb876be
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 99%
+source-wordcount: '881'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ Use o Assistente de IA do Adobe Journey Optimizer para otimizar o impacto da men
 
 >[!IMPORTANT]
 >
->* Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](#generative-guardrails) relacionadas.
+>* Antes de começar a usar esse recurso, leia as [Medidas de proteção e limitações](#generative-guardrails) relacionadas.
 >
 >
 >* Você deve aceitar um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"} antes de poder usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
@@ -114,19 +114,30 @@ O usuário receberá um email com instruções para acessar a sua instância.
 
 As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na geração de emails estão listadas abaixo:
 
-* A qualidade do conteúdo gerado é fortemente influenciada pelo objetivo ou prompt de marketing definido. Use um prompt bem definido para que o modelo GenAI interprete com precisão. 
-* Faça upload do ativo de marca para ter conteúdo preciso e apropriado à marca. Caso contrário, o conteúdo será baseado em informações disponíveis publicamente. O conteúdo carregado pode estar nos seguintes formatos: arquivos PDF, JPEG, PNG ou ZIP (com formatos de arquivo compatíveis).
-* O tamanho máximo para o ativo de marca carregado é de 50 MB.É possível carregar arquivos maiores ou um número maior de imagens, mas o tempo de processamento aumentará.
-* Use um modelo personalizado ou específico da marca para criar seu conteúdo de email usando o Assistente de IA no Adobe Journey Optimizer. Recomenda-se um modelo de email com 8-10 imagens, no máximo.
-* Relate resultados problemáticos usando os ícones de “polegar para cima”, “polegar para baixo” ou o sinalizador ao selecionar variantes.
-* O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR)
-* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html)
-
-As seguintes limitações se aplicam ao Assistente de IA no Journey Optimizer:
+### Canais compatíveis
 
 * Disponível somente para os canais de email, push, web e SMS.
+
+### Qualidade do conteúdo, prompts e feedback
+
+* A qualidade do conteúdo gerado é fortemente influenciada pelo objetivo ou prompt de marketing definido. Use um prompt bem definido para que o modelo GenAI interprete com precisão. 
 * O conteúdo de GenAI nem sempre é preciso: compartilhe seu feedback para que a equipe de engenheiros(as) possa refinar os modelos.
+* Relate resultados problemáticos usando os ícones de “polegar para cima”, “polegar para baixo” ou o sinalizador ao selecionar variantes.
+
+### Recursos da marca
+
+* Faça upload do ativo de marca para ter conteúdo preciso e apropriado à marca. Caso contrário, o conteúdo será baseado em informações disponíveis publicamente. O conteúdo carregado pode estar nos seguintes formatos: arquivos PDF, JPEG, PNG ou ZIP (com formatos de arquivo compatíveis).
+* O tamanho máximo para o ativo de marca carregado é de 50 MB.É possível carregar arquivos maiores ou um número maior de imagens, mas o tempo de processamento aumentará.
 * É possível fazer upload de vários ativos de marca, mas aproveitando apenas um para uma geração específica.
+
+### Modelos e imagens de email
+
+* Use um modelo personalizado ou específico da marca para criar seu conteúdo de email usando o Assistente de IA no Adobe Journey Optimizer. Recomenda-se um modelo de email com 8-10 imagens, no máximo.
+
+### Uso legal e transparência
+
+* O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR)
+* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 
 ## Recursos de geração de conteúdo do Assistente de IA {#generative-features}
