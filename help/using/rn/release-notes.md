@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+source-git-commit: e58e9e93cc308c2e94ea94b5c6574dd8a2266bd6
 workflow-type: tm+mt
-source-wordcount: '1943'
-ht-degree: 21%
+source-wordcount: '1992'
+ht-degree: 20%
 
 ---
 
@@ -27,18 +27,9 @@ Devido a esse modelo, as notas de versão são atualizadas entre as versões men
 
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
-## Notas de versão de março de 2026 {#march-26-rn}
+## Atualizações de abril de 2026 {#april-26-rn}
 
-As seções [Novos recursos](#march-26-features) e [Melhorias](#march-26-improv) abordam recursos já disponíveis. A seção [Em breve](#coming-soon) lista os recursos e as melhorias agendadas para lançamento no final de março.
-
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
-
-**Data de lançamento**: 24 a 25 de março de 2026
-
-### Novos recursos {#march-26-features}
+### Novos recursos {#april-26-features}
 
 <table>
 <thead>
@@ -58,6 +49,31 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </tr>
 </tbody>
 </table>
+
+### Aprimoramentos {#april-26-improv}
+
+#### Integrações do Adobe Experience Manager
+
+<!--* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. [Read more](../integrations/aem-fragments.md)
+
+  Availability date: April 1, 2026-->
+
+* **Suporte à variação de fragmento de conteúdo do Adobe Experience Manager** - Você pode selecionar **variações de fragmento de conteúdo** (por exemplo, variantes de idioma ou canal) ao inserir fragmentos de conteúdo do Adobe Experience Manager, com manipulação aprimorada para localidade e cenários multilíngues. [Leia mais](../integrations/aem-fragments.md#aem-variations)
+
+  Data de disponibilidade: sábado, 3 de abril de 2026
+
+## Notas de versão de março de 2026 {#march-26-rn}
+
+As seções [Novos recursos](#march-26-features) e [Melhorias](#march-26-improv) abordam recursos já disponíveis. A seção [Em breve](#coming-soon) lista os recursos e as melhorias agendadas para lançamento no final de março.
+
+<!--
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
+
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+
+**Data de lançamento**: 24 a 25 de março de 2026
+
+### Novos recursos {#march-26-features}
 
 <table>
 <thead>
@@ -241,7 +257,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR" target="_blank">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
 </td>
 </tr>
@@ -386,7 +402,7 @@ Os recursos e as melhorias abaixo estão planejados para lançamento no final de
 <tr>
 <td>
 <p>A <strong>Caixa de Entrada</strong> é uma funcionalidade móvel, disponível com Cartões de Conteúdo, que permite aos clientes criar um local centralizado no aplicativo ou site para exibir mensagens enviadas aos usuários. Isso estende a vida útil das comunicações de marketing, garantindo que as mensagens permaneçam acessíveis mesmo após serem descartadas.</p>
-<p>Data de disponibilidade: sábado, 3 de abril de 2026</p>
+<p>Data de disponibilidade: quarta-feira, 7 de abril de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -407,7 +423,7 @@ Essa ferramenta permite testar, variar e personalizar as comunicações, o seque
 <p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral). <a href="../building-journeys/optimize.md">Saiba mais</a></p>
 <p><img src="assets/do-not-localize/optimize.gif"></p>
 <p>Como parte da Disponibilidade Geral, esta versão introduz a seleção <strong>tipo de experimento</strong> (A/B ou bandit de vários braços) e <strong>Dimensione o vencedor</strong> para jornadas unitárias.</p>
-<p>Data de disponibilidade: sábado, 3 de abril de 2026</p>
+<p>Data de disponibilidade: quarta-feira, 7 de abril de 2026</p>
 </td>
 </tr>
 </tbody>
