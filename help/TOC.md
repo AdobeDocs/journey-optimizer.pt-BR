@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3168'
 ht-degree: 95%
 
 ---
@@ -463,7 +463,7 @@ ht-degree: 95%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
@@ -889,9 +889,8 @@ ht-degree: 95%
       + [Acessar e editar registros PTR](using/configuration/ptr-records.md)
       + [Criar pools de IP](using/configuration/ip-pools.md)
    + Implementar um plano de aquecimento de IP {#implement-ip-warmup-plan}
-      + [Implementar um plano de aquecimento de IP](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [Guia da capacidade de entrega do aquecimento de IP](using/configuration/ip-warmup-deliverability-guide.md)
       + [Introdução aos planos de aquecimento de IP](using/configuration/ip-warmup-gs.md)
+      + [Guia da capacidade de entrega do aquecimento de IP](using/configuration/ip-warmup-deliverability-guide.md)
       + [Criar campanhas de aquecimento de IP](using/configuration/ip-warmup-campaign.md)
       + [Criar um plano de aquecimento de IP](using/configuration/ip-warmup-plan.md)
       + [Executar o plano de aquecimento de IP](using/configuration/ip-warmup-execution.md)
