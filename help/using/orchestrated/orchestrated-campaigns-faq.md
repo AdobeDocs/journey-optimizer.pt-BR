@@ -5,9 +5,9 @@ title: Perguntas frequentes sobre campanhas orquestradas
 description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orchestrated
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 82f455bf3707d3701ea602569c5bd7e3cee326fc
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1960'
 ht-degree: 13%
 
 ---
@@ -143,7 +143,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ Como testo uma campanha orquestrada acionada por sinal antes da publicação?
 
-Enquanto a campanha estiver no **Rascunho**, você poderá testá-la definindo **parâmetros** no agendamento e fornecendo **valores de teste** para cada um. Inicie o fluxo de trabalho e, em seguida, chame a API de acionador, usando a amostra de solicitação da configuração de agendamento ou sua própria solicitação com o mesmo endpoint, para executar a campanha com esses valores de teste. [Saiba como concluir e testar uma campanha acionada por sinal](trigger-orchestrated-campaign.md#build-and-test). Para obter a referência da API do acionador, consulte [Acionar API de campanhas orquestradas](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}.
+Enquanto a campanha estiver no **Rascunho**, você poderá testá-la definindo **parâmetros** no agendamento e fornecendo **valores de teste** para cada um. Inicie o fluxo de trabalho e, em seguida, chame a API de acionador (usando a solicitação de amostra da configuração de agendamento ou sua própria solicitação com o mesmo endpoint) para executar a campanha com esses valores de teste. [Saiba como concluir e testar uma campanha acionada por sinal](trigger-orchestrated-campaign.md#build-and-test).
 
 +++
 
