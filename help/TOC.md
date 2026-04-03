@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
 workflow-type: tm+mt
-source-wordcount: '3159'
+source-wordcount: '3173'
 ht-degree: 95%
 
 ---
@@ -463,7 +463,7 @@ ht-degree: 95%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
@@ -490,7 +490,10 @@ ht-degree: 95%
       + [Trabalho com o Adobe Stock](using/integrations/stock.md)
       + [Trabalhar com o Adobe Express](using/integrations/express.md)
       + [Trabalhar com modelos do Experience Manager](using/integrations/aem-templates.md)
-      + [Trabalhar com fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments.md)
+      + Fragmentos de conteúdo do Experience Manager {#aem}
+         + [Introdução aos fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments-gs.md)
+         + [Trabalhar com fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments.md)
+         + [Considerações e solução de problemas](using/integrations/aem-fragments-limitations.md)
       + [Trabalhar com o Supervisor de conteúdo do Experience Manager](using/content-management/aem-content-advisor.md)
       + [Inserir timer da contagem regressiva](using/integrations/countdown.md)
       + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
