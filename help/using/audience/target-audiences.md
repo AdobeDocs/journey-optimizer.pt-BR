@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -53,7 +53,7 @@ Se o trabalho de segmentação não for concluído dentro da janela de tempo def
 
   Para jornadas que usam públicos-alvo da composição do público-alvo ou do upload personalizado, os atributos de perfil estão tão atualizados quanto a última avaliação em lote na entrada da jornada. No entanto, após uma atividade **Wait**, a jornada atualiza os atributos de perfil do UPS (Serviço de Perfil Unificado), buscando os dados mais recentes disponíveis, o que significa que os atributos de perfil podem mudar durante a execução da jornada. [Saiba mais sobre a atualização de perfil após uma atividade de Espera](../building-journeys/wait-activity.md#profile-refresh)
 
-* Use a atividade **Condição** em uma jornada para criar condições com base na associação de público-alvo. [Saiba como usar públicos-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
+* Use a atividade **Otimizar** em uma jornada para criar condições com base na associação de público-alvo. [Saiba como usar públicos-alvo em condições](../building-journeys/conditions.md#using-a-segment).
 
 * Use a atividade de evento **Qualificação de público-alvo** em uma jornada para fazer com que os indivíduos entrem ou avancem na jornada com base nas entradas e saídas do público-alvo da Adobe Experience Platform. Por exemplo, é possível fazer com que todos os novos clientes prata entrem em uma jornada e enviar-lhes mensagens. [Saiba como configurar uma atividade de qualificação de Público-alvo](../building-journeys/audience-qualification-events.md).
 

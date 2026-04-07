@@ -1,21 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Atividade de condição
-description: Saiba mais sobre a atividade de condição
+title: Condições
+description: Configurar condições na atividade Otimizar para caminhos de jornada
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: atividade, condição, tela, jornada
-hidefromtoc: true
-hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 16%
+source-wordcount: '1873'
+ht-degree: 13%
 
 ---
 
@@ -24,15 +22,15 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Condições"
->abstract="As condições permitem definir como as pessoas avançam pela jornada criando vários caminhos com base em critérios específicos. Também é possível configurar um caminho alternativo para lidar com tempos-limite ou erros, garantindo uma experiência contínua."
+>abstract="As condições permitem definir como as pessoas avançam pela jornada criando vários caminhos com base em critérios específicos. Você também pode configurar um caminho alternativo para lidar com tempos limite ou erros, garantindo uma experiência contínua. Observe que as condições agora estão configuradas na atividade Otimizar, que substitui a antiga atividade Condição."
 
 Com **condições**, é possível definir como as pessoas avançam pela jornada criando vários caminhos com base em critérios específicos. Também é possível configurar um caminho alternativo para lidar com tempos-limite ou erros, garantindo uma experiência contínua.
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->Essas condições estão disponíveis por meio da atividade **Otimizar**, que pode ser acessada sob demanda em Disponibilidade Limitada. Entre em contato com o representante da Adobe para obter acesso.
+>O novo veículo para criar caminhos condicionais no jornada é a atividade [Otimizar](optimize.md). Substitui a antiga atividade **Condição**, que foi removida da interface do usuário. Toda lógica condicional agora é tratada por meio das condições da atividade Otimizar apresentadas nesta página.
 >
->Se você não tiver acesso a essa capacidade, ainda poderá usar a [Atividade de condição](condition-activity.md) herdada.
+>Se você tiver jornadas existentes que usaram atividades de **[!UICONTROL Condição]**, poderá continuar a usá-las como antes. Agora eles aparecem com um novo ícone como **[!UICONTROL Otimizar]** atividades usando o método **[!UICONTROL Condição]**, mas o comportamento não é alterado. Qualquer rótulo personalizado definido no nó é preservado.
 
 ## Adicionar uma condição {#add-condition-activity}
 
@@ -54,6 +52,10 @@ Para adicionar uma condição à jornada, siga as etapas abaixo.
    * [Condição de data](#date_condition)
    * [Limite de perfil](#profile_cap)
    * Você também pode usar um público-alvo em uma condição de jornada. [Saiba mais](#using-a-segment)
+
+>[!NOTE]
+>
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Gerenciar caminhos de condição {#condition_paths}
 
@@ -87,7 +89,7 @@ O modo simples permite executar consultas simples com base em uma combinação d
 
 ![Editor de expressão simples com campos de arrastar e soltar e operadores lógicos](assets/journey64.png){width=80%}
 
-Se você estiver usando o [[!DNL Adobe Experience Platform] Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
+Se você estiver usando o [Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Usar público-alvo em condições](#using-a-segment).
 
 >[!NOTE]
 >
@@ -102,6 +104,14 @@ No editor simples, você também encontrará a categoria Propriedades da Jornada
 Use uma **[!UICONTROL Condição da fonte de dados]** para definir uma condição com base nos campos das fontes de dados ou nos eventos posicionados anteriormente na jornada. Esse tipo de condição é definido com o editor de expressão. [Saiba como usar o editor de expressão](expression/expressionadvanced.md)
 
 Por exemplo, se você estiver direcionando um público-alvo com atributos de enriquecimento gerados usando um fluxo de trabalho de composição ou um upload personalizado (arquivo CSV), você pode aproveitar esses atributos de enriquecimento para criar sua condição.
+
+>[!IMPORTANT]
+>
+>**Manipulação de atributos ausentes ou não assimilados**
+>
+>Se um campo de esquema for definido no esquema do seu Perfil, mas nenhum dado tiver sido assimilado para esse campo, a Journey Optimizer e o Perfil de Cliente em Tempo Real subjacente interpretarão o campo como `null`. Como resultado, as condições que verificam `isEmpty()`, `isNull()` ou funções semelhantes avaliarão `true` mesmo se o atributo nunca foi assimilado. Isso pode levar a um comportamento inesperado da jornada se você não estiver ciente de que o campo não tem dados.
+>
+>Para evitar confusão, verifique se os atributos usados em expressões de condição foram assimilados com dados reais antes que o perfil entre na jornada. Você pode verificar os valores de atributo no [Perfil de cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} para confirmar se existem dados para os campos usados em suas condições.
 
 Usando o editor de expressão avançado, você pode configurar condições mais avançadas que manipulem coleções ou usem fontes de dados que exijam a transmissão de parâmetros. [Saiba mais](../datasource/external-data-sources.md)
 
@@ -192,4 +202,4 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

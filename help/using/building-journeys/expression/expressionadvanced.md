@@ -9,7 +9,7 @@ level: Experienced
 keywords: editor de expressão, dados, jornada
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 55%
@@ -40,11 +40,11 @@ O editor de expressão avançado oferece um conjunto de funções e operadores i
 
 O editor avançado de expressões pode ser usado para:
 
-* criar [condições avançadas](../condition-activity.md#about_condition) em fontes de dados e informações do evento
+* criar [condições avançadas](../conditions.md#data_source_condition) em fontes de dados e informações do evento
 * definir [atividades de espera](../wait-activity.md#custom) personalizadas
 * definir mapeamento de parâmetros de ação
 
-Quando possível, você pode alternar entre os dois modos usando o botão **[!UICONTROL Modo avançado]** / **[!UICONTROL Modo simples]**. O modo simples é descrito [aqui](../condition-activity.md#about_condition).
+Quando possível, você pode alternar entre os dois modos usando o botão **[!UICONTROL Modo avançado]** / **[!UICONTROL Modo simples]**. O modo simples é descrito [aqui](../conditions.md#about_condition).
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Na parte esquerda da tela são exibidos os campos e as funções disponíveis:
   >
   >Não há suporte para criar expressões usando eventos de experiência. Abordagens alternativas e práticas recomendadas para criar expressões/lógica com eventos de experiência são referenciadas [aqui](../../building-journeys/exp-event-lookup.md)
 
-* **[!UICONTROL Públicos-alvo]**: se você tiver descartado um evento de **[!UICONTROL Qualificação de público-alvo]**, escolha o público-alvo que deseja usar na expressão. [Leia mais](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Públicos-alvo]**: se você tiver descartado um evento de **[!UICONTROL Qualificação de público-alvo]**, escolha o público-alvo que deseja usar na expressão. [Leia mais](../conditions.md#using-a-segment)
 * **[!UICONTROL Fontes de dados]**: escolha na lista de campos disponíveis nos grupos de campos de suas fontes de dados. [Leia mais](../../datasource/about-data-sources.md)
 * **[!UICONTROL Propriedades da Jornada]**: esta seção reagrupa os campos técnicos relacionados à jornada de um determinado perfil. [Leia mais](journey-properties.md)
 * **[!UICONTROL Funções]**: escolha entre uma lista de funções integradas que permitem fazer uma filtragem complexa. As funções são organizadas por categorias. [Leia mais](functions.md)

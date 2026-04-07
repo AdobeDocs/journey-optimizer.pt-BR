@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jornada, caso de uso, dias da semana, condição, email, agendamento
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---
@@ -33,8 +33,7 @@ Essa abordagem é ideal para campanhas de email B2B (B2B), informativos e comuni
 
 >[!NOTE]
 >
->Para implementar este caso de uso, você precisa de uma instância [!DNL Adobe Journey Optimizer] ativa com uma [superfície de canal de email](../configuration/channel-surfaces.md) configurada, um [público-alvo](../audience/about-audiences.md) ou [evento](../event/about-events.md) para acionar a jornada e uma compreensão básica das [condições de jornada](condition-activity.md) e [expressões](expression/expressionadvanced.md).
-
+>Para implementar este caso de uso, você precisa de uma instância ativa do Adobe Journey Optimizer com uma [superfície de canal de email](../configuration/channel-surfaces.md) configurada, um [público-alvo](../audience/about-audiences.md) ou [evento](../event/about-events.md) para acionar a jornada e uma compreensão básica das [condições de jornada](conditions.md) e [expressões](expression/expressionadvanced.md).
 
 ## Etapas de implementação
 
@@ -56,7 +55,7 @@ Use essas etapas para criar o fluxo de email somente durante a semana.
 
 Logo após o início da jornada, adicione uma atividade **[!UICONTROL Condição]** para verificar se o dia atual é sábado ou domingo. Isso ramificará o fluxo de trabalho de acordo.
 
-1. Arraste e solte uma atividade [**[!UICONTROL Condição &#x200B;]**](condition-activity.md) na tela após o ponto de entrada.
+1. Arraste e solte uma atividade [**[!UICONTROL Otimizar ]**](optimize.md) na tela após o ponto de entrada.
 
 1. Clique na atividade **[!UICONTROL Condição]** para abrir seu painel de configuração.
 
@@ -186,7 +185,7 @@ Quando o teste for concluído:
 
 ## Tópicos relacionados
 
-* [Atividades de condição](condition-activity.md) - Saiba como criar caminhos diferentes em sua jornada
+* [Otimizar atividades](optimize.md) - Saiba como criar caminhos diferentes em sua jornada
 * [Usar condições em uma jornada](conditions.md) - Guia detalhado sobre condições de jornada
 * [Atividade de espera](wait-activity.md) - Configurar durações e fórmulas de espera
 * [Funções de data](functions/date-functions.md) - Referência completa para funções de data e hora

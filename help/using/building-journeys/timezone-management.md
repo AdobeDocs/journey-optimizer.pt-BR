@@ -10,7 +10,7 @@ level: Intermediate
 keywords: time zone, properties, jornada, condition, time, date, custom
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 9%
@@ -31,8 +31,8 @@ Para acessar as propriedades da jornada, selecione o ícone de lápis na parte s
 
 Esse fuso horário será usado para cada atividade da jornada que contém um elemento de tempo, como:
 
-* [Condição de tempo](../building-journeys/condition-activity.md#time_condition)
-* [Condição de data](../building-journeys/condition-activity.md#date_condition)
+* [Condição de tempo](../building-journeys/conditions.md#time_condition)
+* [Condição de data](../building-journeys/conditions.md#date_condition)
 * [Espera personalizada](../building-journeys/wait-activity.md#custom)
 
 <!--

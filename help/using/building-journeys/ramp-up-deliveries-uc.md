@@ -12,9 +12,9 @@ hidefromtoc: true
 keywords: capacidade de entrega, jornada, caso de uso, email, reputação
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,11 @@ O objetivo deste caso de uso é criar uma jornada para incrementar suas entregas
 
 1. Criar uma jornada. [Leia mais](journey-gs.md).
 
-1. Adicione uma atividade **[!UICONTROL Condition]** à jornada. [Leia mais](condition-activity.md).
+1. Adicione uma atividade **[!UICONTROL Otimizar]** à jornada. [Leia mais](optimize.md).
 
 1. Nas configurações da atividade **[!UICONTROL Condição]**, defina o número máximo de destinatários para sua entrega:
 
-   1. Nas configurações de atividade de **[!UICONTROL Condição]**, defina o campo **[!UICONTROL Tipo]** como **[!UICONTROL Limite de perfis]**. [Leia mais](condition-activity.md#profile_cap).
+   1. Nas configurações de atividade **[!UICONTROL Otimizar]**, selecione o método **[!UICONTROL Condições]** e defina o campo **[!UICONTROL Tipo]** como **[!UICONTROL Limite de perfis]**. [Leia mais](conditions.md#profile_cap).
 
    1. Defina o campo **[!UICONTROL Limit]** para o número máximo de destinatários desta entrega.
 

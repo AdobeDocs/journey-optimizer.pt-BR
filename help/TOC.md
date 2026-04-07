@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '3185'
+source-wordcount: '3194'
 ht-degree: 94%
 
 ---
@@ -85,9 +85,11 @@ ht-degree: 94%
       + [Eventos gerais](using/building-journeys/general-events.md)
       + [Eventos de reação](using/building-journeys/reaction-events.md)
       + [Qualificação de público-alvo](using/building-journeys/audience-qualification-events.md)
-      + [Otimizar](using/building-journeys/optimize.md)
-      + [Condições](using/building-journeys/conditions.md)
-      + [Condição](using/building-journeys/condition-activity.md)
+      + Otimizar {#optimize-activity}
+         + [Introdução à atividade Otimizar](using/building-journeys/optimize.md)
+         + [Experimentação de caminho](using/building-journeys/path-experimentation.md)
+         + [Direcionamento de caminho](using/building-journeys/path-targeting.md)
+         + [Condições](using/building-journeys/conditions.md)
       + [Público-alvo de leitura](using/building-journeys/read-audience.md)
       + [Aguardar](using/building-journeys/wait-activity.md)
       + [Decisão de conteúdo](using/building-journeys/content-decision.md)
@@ -468,7 +470,7 @@ ht-degree: 94%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)

@@ -9,7 +9,7 @@ level: Experienced
 keywords: jornada, expressão, editor, propriedades
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Jornada atributos de propriedades {#journey-properties}
 
-No [editor de expressão simples](../condition-activity.md#about_condition) e no [editor de expressão avançado](../expression/expressionadvanced.md), abaixo das categorias **Evento** e **Fonte de dados**, você pode acessar a categoria **Propriedades de Jornada**. Essa categoria contém campos técnicos relacionados à jornada para um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados.
+No [editor de expressão simples](../conditions.md#about_condition) e no [editor de expressão avançado](../expression/expressionadvanced.md), abaixo das categorias **Evento** e **Fonte de dados**, você pode acessar a categoria **Propriedades de Jornada**. Essa categoria contém campos técnicos relacionados à jornada para um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados.
 
 ![](../assets/journey-properties.png)
 

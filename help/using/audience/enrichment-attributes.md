@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ Ao direcionar um público-alvo gerado por meio de workflows de composição, pú
 
 Estas são as ações que você pode executar usando os atributos de enriquecimento dos públicos-alvo:
 
-* **Crie vários caminhos em uma jornada** com base em regras que usam os atributos de enriquecimento do público-alvo. Para fazer isso, direcione o público usando uma atividade [Ler público-alvo](../building-journeys/read-audience.md) e, em seguida, crie regras em uma atividade [Condição](../building-journeys/condition-activity.md) com base nos atributos de enriquecimento do público-alvo.
+* **Crie vários caminhos em uma jornada** com base em regras que usam os atributos de enriquecimento do público-alvo. Para fazer isso, direcione o público usando uma atividade [Ler público](../building-journeys/read-audience.md) e, em seguida, crie regras em uma atividade [Otimizar](../building-journeys/optimize.md) com base nos atributos de enriquecimento do público.
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
@@ -60,7 +60,7 @@ Estas são as ações que você pode executar usando os atributos de enriquecime
 
 Você encontrará abaixo Perguntas frequentes sobre atributos de enriquecimento.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer a pergunta ou conecte-se à [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
 
 +++ O que são atributos de enriquecimento?
 

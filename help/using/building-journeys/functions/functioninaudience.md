@@ -8,7 +8,7 @@ level: Experienced
 keywords: inAudience, função, expressão, jornada, público-alvo, segmentação
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 72c6392d9d978c74c7ab2e82f654f17171d7ec55
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 2%
@@ -21,7 +21,7 @@ A função `inAudience` é uma função Adobe Experience Platform que permite ve
 
 Use a função `inAudience` quando precisar:
 
-* Caminhos de jornada de ramificação com base na associação do público-alvo. [Saiba mais](../condition-activity.md#using-a-segment)
+* Caminhos de jornada de ramificação com base na associação do público-alvo. [Saiba mais](../conditions.md#using-a-segment)
 * Aplicar lógica condicional que depende de um perfil pertencer a um segmento específico
 * Direcione grupos específicos de clientes com experiências personalizadas
 * Avaliar a participação do público-alvo em tempo real nas condições de jornada
@@ -36,7 +36,7 @@ Os públicos-alvo podem ter dois status de participação:
 * **Realizado**: o indivíduo se qualifica para a definição de público-alvo e é um membro ativo
 * **Encerrado**: o indivíduo saiu do público-alvo e não se qualifica mais
 
-Apenas indivíduos com o status **Realizado** serão considerados membros ativos do público-alvo. Quando a função retorna `true`, ela confirma que o indivíduo tem o status realizado; quando retorna `false`, ela indica o status encerrado. Para obter mais informações sobre a avaliação de público, consulte a [documentação do Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+Apenas indivíduos com o status **Realizado** serão considerados membros ativos do público-alvo. Quando a função retorna `true`, ela confirma que o indivíduo tem o status realizado; quando retorna `false`, ela indica o status encerrado. Para obter mais informações sobre a avaliação de público, consulte a [documentação do Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintaxe
 
@@ -116,7 +116,7 @@ Ao usar a função `inAudience` em suas jornadas, esteja ciente das seguintes me
 Ao usar `inAudience()` em um nó de condição, o tempo de avaliação de associação de segmento varia dependendo de onde a condição aparece na jornada:
 
 * **Em uma jornada de Leitura de Público-alvo, antes de uma atividade de Espera:** o Journey Optimizer lê a partir da projeção em lote do perfil. Os dados nesta projeção são atualizados em **2 horas** após a assimilação. Os públicos-alvo que dependem de condições baseadas no dia ou baseadas no tempo podem enfrentar atraso adicional. Adicione uma breve [atividade de espera](../wait-activity.md) no início da jornada ou permita o tempo de buffer para garantir que a associação de segmento mais recente seja refletida.
-* **Em uma jornada de evento unitária ou após uma atividade Wait:** a associação de segmento é lida a partir da projeção de streaming (unitária). Normalmente, os dados estão disponíveis em **15 minutos**. Para obter mais detalhes, consulte a [documentação de assimilação de streaming do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
+* **Em uma jornada de evento unitária ou após uma atividade Wait:** a associação de segmento é lida a partir da projeção de streaming (unitária). Normalmente, os dados estão disponíveis em **15 minutos**. Para obter mais detalhes, consulte a [documentação de assimilação de streaming do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
 
 ## Tópicos relacionados
 
@@ -125,6 +125,6 @@ Saiba mais sobre como usar públicos-alvo na Adobe Journey Optimizer:
 * **[Sobre públicos-alvo](../../audience/about-audiences.md)** - Entenda como os públicos-alvo funcionam no Adobe Experience Platform e no Journey Optimizer, inclusive como criá-los e gerenciá-los
 * **[Atividade Ler público-alvo](../read-audience.md)** - Use públicos-alvo para acionar a entrada de jornada e fazer com que todos os membros do público-alvo insiram uma jornada
 * **[Eventos de qualificação de público-alvo](../audience-qualification-events.md)** - Ouça as entradas e saídas do perfil dos públicos-alvo para acionar ações de jornada em tempo real
-* **[Uso de públicos-alvo em condições](../condition-activity.md#using-a-segment)** - Crie caminhos de jornada condicionais com base na associação de público-alvo usando a atividade de Condição
+* **[Uso de públicos-alvo em condições](../conditions.md#using-a-segment)** - Crie caminhos de jornada condicionais com base na associação de público-alvo usando a atividade Otimize
 * **[Propriedades da Jornada - Políticas de mesclagem](../journey-properties.md)** - Entenda como as políticas de mesclagem funcionam ao usar vários públicos com a função inAudience
 

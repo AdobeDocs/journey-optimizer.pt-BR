@@ -9,7 +9,7 @@ level: Intermediate
 keywords: entrada, saída, critérios, jornada, perfil, reentrada, práticas recomendadas
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Este guia fornece orientação prática, exemplos reais e práticas recomendadas
 
 * **Conquista da métrica de sucesso** - Os perfis são encerrados quando concluem o [objetivo de jornada](success-metrics.md), como comprar ou baixar um aplicativo, eliminando comunicações de acompanhamento desnecessárias.
 
-* **Baseado em condição** - Perfis saem quando [condições específicas](condition-activity.md) são atendidas, como inatividade em um período definido ou alterações nos atributos de perfil.
+* **Baseado em condição** - Perfis saem quando [condições específicas](conditions.md) são atendidas, como inatividade em um período definido ou alterações nos atributos de perfil.
 
 * **Baseado em evento** - Perfis são encerrados quando [eventos específicos ocorrem](../event/about-events.md), como cancelamento de assinatura ou devolução de produto.
 
@@ -106,7 +106,7 @@ Obtenha insights sobre a satisfação do cliente e o desempenho do produto solic
 
 * **[Entrada de qualificação de público-alvo](audience-qualification-events.md)**: acione jornadas quando os perfis se qualificarem para públicos-alvo específicos em tempo real ou saírem deles. Defina [públicos-alvo de streaming](../audience/about-audiences.md), adicione um evento **[!UICONTROL Qualificação de público-alvo]** da paleta **[!UICONTROL Eventos]** e escolha o tipo de gatilho.
 
-* **[Filtros de Atributo](condition-activity.md)**: refine os critérios de entrada combinando eventos ou públicos-alvo com atributos de perfil e contexto usando a lógica E/OU. Use [condições](conditions.md) para fazer referência a [atributos de perfil](../audience/get-started-profiles.md), eventos ou [dados externos](../datasource/about-data-sources.md).
+* **[Filtros de Atributo](conditions.md)**: refine os critérios de entrada combinando eventos ou públicos-alvo com atributos de perfil e contexto usando a lógica E/OU. Use [condições](conditions.md) para fazer referência a [atributos de perfil](../audience/get-started-profiles.md), eventos ou [dados externos](../datasource/about-data-sources.md).
 
 * **[Janelas de Tempo e Agendamento](journey-properties.md#schedule)**: defina restrições temporais para manter as jornadas oportunas e relevantes. Configure [agendas em atividades Read Audience](read-audience.md), use [atividades Wait](wait-activity.md) e adicione [condições baseadas em tempo](conditions.md) para controlar o tempo.
 
@@ -122,7 +122,7 @@ Obtenha insights sobre a satisfação do cliente e o desempenho do produto solic
 
 * **[Atingimento da métrica de sucesso](journey-properties.md#exit-criteria)**: defina métricas de sucesso (como compra ou assinatura) e perfis de saída após a conclusão. Clique no ícone **[!UICONTROL Mostrar critérios de saída]**, selecione **[!UICONTROL Adicionar critérios de saída]** e escolha um [Evento](../event/about-events.md) ou [Público](../audience/about-audiences.md) como acionador de saída.
 
-* **[Tempos limite de inatividade](wait-activity.md)**: sai de perfis se não ocorrer nenhum envolvimento dentro de um período de tempo definido. Use [Critério de saída](journey-properties.md#exit-criteria) com públicos-alvo que verificam a última data de envolvimento, definem [atividades de espera](wait-activity.md) com durações definidas e usam [condições](condition-activity.md) para verificar a existência de atividade.
+* **[Tempos limite de inatividade](wait-activity.md)**: sai de perfis se não ocorrer nenhum envolvimento dentro de um período de tempo definido. Use [Critério de saída](journey-properties.md#exit-criteria) com públicos-alvo que verificam a última data de envolvimento, definem [atividades de espera](wait-activity.md) com durações definidas e usam [condições](conditions.md) para verificar a existência de atividade.
 
 * **[Regras de Reentrada](entry-management.md)**: decida se os perfis podem entrar novamente na jornada várias vezes ou apenas uma vez, dependendo da sua estratégia de campanha. Defina as configurações de **[!UICONTROL Reentrada]** na jornada **[!UICONTROL Propriedades]** para definir períodos de espera, habilitar a reentrada forçada ou usar [identificadores complementares](supplemental-identifier.md) para reentrada específica de contexto.
 
@@ -204,12 +204,12 @@ Comece mapeando claramente os acionadores do cliente e os pontos de saída, test
 
 **Documentação técnica**
 
-[Gerenciamento de entrada de perfil](entry-management.md) | [Jornada propriedades e critérios de saída](journey-properties.md) | [Como o jornada termina](end-journey.md) | [Identificadores complementares](supplemental-identifier.md) | [Designer de Jornadas](using-the-journey-designer.md)
+[Gerenciamento de entrada de perfil](entry-management.md) | [Propriedades de Jornada e critérios de saída](journey-properties.md) | [Como o jornada termina](end-journey.md) | [Identificadores complementares](supplemental-identifier.md) | [Designer de Jornada](using-the-journey-designer.md)
 
 **Tutoriais e exemplos**
 
-[Jornada casos de uso](jo-use-cases.md) | [Vídeo de integração do cliente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carrinho abandonado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog da comunidade: Critérios de entrada e saída](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=pt)
+[Casos de uso do Jornada](jo-use-cases.md) | [Vídeo de integração do cliente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carrinho abandonado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog da comunidade: Critérios de entrada e saída](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Recursos relacionados**
 
-[Eventos de qualificação de público-alvo](audience-qualification-events.md) | [Métricas e metas de sucesso](success-metrics.md) | [Gerenciamento de conflitos](../conflict-prioritization/conflicts.md) | [Limite de frequência](../conflict-prioritization/rule-sets.md) | [Testando jornadas](testing-the-journey.md) | [Atividade de condição](condition-activity.md) | [Eventos de reação](reaction-events.md) | [Atividade de espera](wait-activity.md)
+[Eventos de qualificação de público-alvo](audience-qualification-events.md) | [Métricas e metas de sucesso](success-metrics.md) | [Gerenciamento de conflitos](../conflict-prioritization/conflicts.md) | [Limite de frequência](../conflict-prioritization/rule-sets.md) | [Teste de jornadas](testing-the-journey.md) | [Otimizar atividade](optimize.md) | [Eventos de reação](reaction-events.md) | [Atividade de espera](wait-activity.md)

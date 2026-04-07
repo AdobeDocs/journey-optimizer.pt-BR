@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia, orquestração
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Saiba mais sobre [tipos de jornada](entry-management.md#types-of-journeys).
 
 +++ Qual é a diferença entre uma jornada e uma campanha?
 
-jornada **[As](journey.md)** são orquestrações de várias etapas que reagem a eventos ou públicos-alvo, permitindo lógica complexa, condições, tempos de espera e vários pontos de contato ao longo do ciclo de vida do cliente.
+**[As](journey.md)** são orquestrações de várias etapas que reagem a eventos ou públicos-alvo, permitindo lógica complexa, condições, tempos de espera e vários pontos de contato ao longo do ciclo de vida do cliente.
 
 **[Campanhas](../campaigns/get-started-with-campaigns.md)** vêm em três tipos:
 
@@ -219,7 +219,7 @@ Você pode adicionar condições usando a **Atividade de condição** da paleta 
 * Dividir a jornada em vários caminhos com base em atributos de perfil, associação de público-alvo, eventos ou dados contextuais
 * Definir caminhos de tempo limite para perfis que não atendem à condição em um tempo especificado
 
-Saiba mais sobre [condições](condition-activity.md).
+Saiba mais sobre [condições](conditions.md).
 
 +++
 
@@ -317,7 +317,7 @@ Use uma **Atividade de condição** com associação de público-alvo ou atribut
    * **Caminho 3**: novos clientes (total de compras &lt; US$ 100)
 3. Adicionar mensagens ou ofertas diferentes para cada caminho
 
-Saiba mais sobre [condições](condition-activity.md) e [qualificação de público-alvo](audience-qualification-events.md).
+Saiba mais sobre [condições](optimize.md#conditions) e [qualificação de público-alvo](audience-qualification-events.md).
 
 +++
 
@@ -588,9 +588,9 @@ Saiba mais sobre a [personalização](../personalization/personalize.md).
 
 +++ Posso enviar mensagens diferentes com base no canal preferido?
 
-Sim. Use uma **[Atividade de condição](condition-activity.md)** para rotear perfis com base em seu canal preferido:
+Sim. Use uma **[Atividade Otimize](conditions.md)** para rotear perfis com base em seus canais preferidos:
 
-1. Adicione uma [Atividade de condição](condition-activity.md) à sua jornada
+1. Adicione uma [Atividade Otimizar](optimize.md) em sua jornada
 2. Crie um caminho para cada canal verificando o atributo de perfil de canal preferido (por exemplo, `profile.preferredChannel`)
 3. Configurar caminhos específicos do canal:
    * **Caminho de email**: adicionar uma [ação de email](../email/create-email.md) com conteúdo otimizado para email
@@ -606,7 +606,7 @@ Sim. Use uma **[Atividade de condição](condition-activity.md)** para rotear pe
 * Usar [superfícies de canal](../configuration/channel-surfaces.md) para gerenciar configurações de canal
 * Testar todos os caminhos para garantir a entrega adequada da mensagem
 
-Saiba mais sobre [condições](condition-activity.md), [ações de mensagem](journey-action.md) e [seleção de canal](../channels/gs-channels.md).
+Saiba mais sobre [condições](conditions.md), [ações de mensagem](journeys-message.md) e [seleção de canal](../channels/gs-channels.md).
 
 +++
 
@@ -622,7 +622,7 @@ Sim, há várias maneiras de excluir clientes:
 
 **Na jornada**:
 
-* Adicione uma [Atividade de condição](condition-activity.md) no início da jornada para sair de perfis indesejados
+* Adicione uma [Atividade Otimizar](conditions.md) no início da jornada para sair de perfis indesejados
 * Verificar atributos de exclusão (por exemplo, status do VIP, contas de teste)
 * Use a [qualificação de público-alvo](audience-qualification-events.md) para identificar perfis a serem excluídos
 
@@ -838,7 +838,7 @@ Saiba mais sobre [políticas de mesclagem](../audience/get-started-profiles.md) 
 * Aguarde um período e use uma Condição para verificar se algo aconteceu durante a espera
 * Exemplo: aguarde 7 dias e, em seguida, verifique se o cliente fez uma compra
 
-Saiba mais sobre [condições](condition-activity.md) e [atividades de espera](wait-activity.md).
+Saiba mais sobre [condições](optimize.md#conditions) e [atividades de espera](wait-activity.md).
 
 +++
 
@@ -918,7 +918,7 @@ Saiba mais sobre [design do jornada](using-the-journey-designer.md) e [medidas d
 * Use [entrada baseada em público-alvo](read-audience.md) para comunicações em lote em vez de eventos individuais
 * Implementar os [tempos de espera](wait-activity.md) apropriados para difundir o volume de mensagens
 * Aproveite as [regras de limitação](../conflict-prioritization/journey-capping.md) para evitar sobrecarga do sistema
-* Otimizar a [lógica de condição](condition-activity.md) para reduzir a complexidade do processamento
+* Otimizar a [lógica de condição](conditions.md) para reduzir a complexidade do processamento
 
 **Monitoramento**:
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: atividade, decisão, decisão de conteúdo, política de decisão, tela, jornada
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1257'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Para aproveitar esse recurso, crie uma jornada em que você adicione uma [ativid
 
 Em seguida, você pode usar a saída da atividade de decisão de conteúdo em:
 
-* uma [atividade de condição](#add-condition-activity), para mover perfis para caminhos específicos com base nas ofertas recuperadas;
+* uma atividade [Otimize com uma condição](#add-condition-activity), para mover perfis para caminhos específicos com base nas ofertas recuperadas;
 
 * uma [ação personalizada](#add-custom-action), onde você pode enviar essas ofertas para sistemas externos.
 
@@ -81,15 +81,15 @@ Agora você está pronto para aproveitar o resultado dessa atividade de decisão
 
 ## Usar a saída da atividade de decisão de conteúdo {#use-content-decision-output}
 
-A saída de uma decisão de conteúdo pode ser usada em várias atividades de jornada. Por exemplo, você pode usar uma [atividade de condição](#add-condition-activity) para mover perfis para ramificações específicas da sua jornada, com base no número de ofertas recuperadas para eles.
+A saída de uma decisão de conteúdo pode ser usada em várias atividades de jornada. Por exemplo, você pode usar uma [atividade Otimize com uma condição](#add-condition-activity) para mover perfis para ramificações específicas da sua jornada, com base no número de ofertas recuperadas para eles.
 
 Você também pode adicionar uma [ação personalizada](#add-custom-action) à sua jornada para compartilhar as ofertas da atividade de decisão de conteúdo com um sistema externo.
 
-### Em uma atividade de condição {#add-condition-activity}
+### Em uma atividade Otimize (método Condition) {#add-condition-activity}
 
-Para aproveitar a saída de uma atividade de decisão de conteúdo, você pode adicionar uma condição à jornada, em que define expressões para mover perfis para caminhos específicos, usando dados dessas ofertas. Siga as etapas abaixo.
+Para aproveitar a saída de uma atividade de decisão de conteúdo, adicione uma atividade **[!UICONTROL Otimizar]**, escolha o método **[!UICONTROL Condição]** e defina expressões para mover perfis para caminhos específicos usando dados dessas ofertas. Siga as etapas abaixo. Para obter mais tipos e opções de condição, consulte [Condições](conditions.md).
 
-1. Na categoria **[!UICONTROL Orquestração]**, solte uma atividade **[!UICONTROL Condição]** na tela. [Saiba mais](condition-activity.md#add-condition-activity)
+1. Na categoria **[!UICONTROL Orquestração]**, solte uma atividade **[!UICONTROL Otimizar]** na tela. [Saiba mais](optimize.md)
 
 1. (opcional) Renomeie **[!UICONTROL Path1]**, que corresponde à primeira expressão que você define, para um rótulo mais relevante.
 

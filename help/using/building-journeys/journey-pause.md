@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 5%
@@ -84,7 +84,7 @@ Quando uma jornada é pausada, o gerenciamento de perfil e a execução da ativi
 | [Ler público-alvo](read-audience.md) | Mesmo comportamento que em uma jornada em tempo real, com algumas especificidades: <ol> <li> Se <strong>Pause</strong> foi pressionado após o início da atividade <strong>Read audience</strong>, os perfis que entraram na jornada continuarão (até a próxima atividade <strong>Action</strong>). À medida que o jornada lê os públicos-alvo em uma determinada velocidade, se o público-alvo completo ainda não tiver entrado, os perfis restantes na fila serão descartados.</li><li> Para execuções únicas: nenhum erro será exibido na hora de retomada se a data programada for anterior à data de retomada. Esse cronograma seria ignorado.</li><li>Para jornadas incrementais: <ul><li>Se a pausa ocorrer antes da primeira ocorrência, o público-alvo completo será reproduzido ao retomar. </li><li>Se ocorrer uma pausa, por exemplo, no quarto dia de uma recorrência diária e a jornada permanecer pausada até o nono dia, todos os perfis que entraram do quarto ao nono dia serão incluídos no currículo  </li></ul></ol> |
 | [Reação](reaction-events.md) | Mesmo comportamento de uma jornada em tempo real. No entanto, se a reação ocorrer após uma atividade <strong>Ação</strong> e o usuário estiver pausado nessa ação, o evento de reação será descartado. |
 | [Aguardar](wait-activity.md) | Mesmo comportamento que em uma jornada em tempo real |
-| [Condição](condition-activity.md) | Mesmo comportamento que em uma jornada em tempo real |
+| [Otimizar](optimize.md) | Mesmo comportamento que em uma jornada em tempo real |
 | [Decisão de conteúdo](content-decision.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
 | [Ação do canal](journey-action.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
 | [Ação personalizada](../action/action.md) | Os perfis são estacionados ou descartados com base no que o usuário escolheu quando a jornada foi pausada |
@@ -178,7 +178,7 @@ Esse limite é verificado a cada 30 minutos. Isso significa que você pode exced
 * Quando os perfis são mantidos em uma jornada pausada, no momento da retomada, os atributos do perfil são atualizados
 * As condições ainda são executadas em jornadas pausadas, portanto, se uma jornada tiver sido pausada devido a problemas de qualidade de dados, qualquer condição anterior a um nó de ação poderá ser avaliada com dados errados
 * Para jornadas de **Leitura de público** baseadas em público incremental, a duração pausada é levada em consideração. Esse não é o caso para qualificação de público ou jornadas baseadas em eventos (se uma qualificação de público ou um evento for recebido durante uma pausa e for a primeira atividade na jornada, esses eventos serão descartados)
-* Se os perfis forem mantidos em uma jornada jornada e ela for retomada automaticamente após alguns dias, os perfis continuarão a jornada e não serão descartados. Se quiser soltá-los, você deve interromper a jornada
+* Se os perfis forem mantidos em uma jornada e ela for retomada automaticamente após alguns dias, os perfis continuarão a jornada e não serão descartados. Se quiser soltá-los, você deve interromper a jornada
 * No jornada pausado, os alertas não são acionados para [alertas de segmento em lote](../reports/alerts.md#alert-read-audiences)
 * Não há logs de auditoria no sistema quando o estado de pausa de 14 dias da jornada é encerrado
 * Alguns perfis descartados podem estar visíveis no Evento de etapa do Jornada, mas não podem estar visíveis nos relatórios. Por exemplo:
@@ -211,7 +211,7 @@ Ao retomar esta jornada:
 
 ## Solução de problemas de descartes de perfis em jornadas pausadas {#discards-troubleshoot}
 
-Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
+Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
 
 * Para descartes que ocorrem antes que o perfil entre na jornada, use o seguinte código:
 
