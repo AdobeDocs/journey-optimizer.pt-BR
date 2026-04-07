@@ -55,7 +55,7 @@ Use essas etapas para criar o fluxo de email somente durante a semana.
 
 Logo após o início da jornada, adicione uma atividade **[!UICONTROL Condição]** para verificar se o dia atual é sábado ou domingo. Isso ramificará o fluxo de trabalho de acordo.
 
-1. Arraste e solte uma atividade [**[!UICONTROL Otimizar ]**](optimize.md) na tela após o ponto de entrada.
+1. Arraste e solte uma atividade [**[!UICONTROL Otimizar &#x200B;]**](optimize.md) na tela após o ponto de entrada.
 
 1. Clique na atividade **[!UICONTROL Condição]** para abrir seu painel de configuração.
 
