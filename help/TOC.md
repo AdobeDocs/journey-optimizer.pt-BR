@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 95%
+source-wordcount: '3185'
+ht-degree: 94%
 
 ---
 
@@ -392,6 +392,11 @@ ht-degree: 95%
          + [Configurar o suporte a cartões de conteúdo no SDK da Web](using/content-card/content-card-configuration-sdk.md)
       + [Criar cartões de conteúdo](using/content-card/create-content-card.md)
       + [Design de cartões de conteúdo](using/content-card/design-content-card.md)
+   + Caixa de entrada {#inbox}
+      + [Introdução à Caixa de entrada](using/inbox/inbox-gs.md)
+      + [Configurar canal da caixa de entrada no Journey Optimizer](using/inbox/inbox-configuration.md)
+      + [Criar sua Caixa de entrada](using/inbox/inbox-create.md)
+      + [Projetar a Caixa de entrada](using/inbox/inbox-design.md)
    + WhatsApp {#whatsapp}
       + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
       + [Introdução às mensagens do WhatsApp](using/whatsapp/get-started-whatsapp.md)
@@ -463,7 +468,7 @@ ht-degree: 95%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)

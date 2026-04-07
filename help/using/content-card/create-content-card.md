@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1480'
 ht-degree: 12%
 
 ---
@@ -129,6 +129,10 @@ Para começar a criar seus cartões de conteúdo por meio de uma campanha, siga 
    ![](assets/content-card-create-2.png)
 
 1. Selecione ou crie uma nova [Configuração do cartão de conteúdo](content-card-configuration.md).
+
+1. Selecione uma [Configuração da caixa de entrada](../inbox/inbox-configuration.md) que defina a superfície da caixa de entrada para este **Cartão de conteúdo**.
+
+   ![](assets/content-card-create-2.png)
 
 1. Para testar o conteúdo da mensagem, clique em **[!UICONTROL Criar experimento]**. Isso permite testar várias variáveis de um delivery em populações de amostra para determinar qual tratamento tem o maior impacto no público-alvo direcionado. [Saiba mais sobre o experimento de conteúdo](../content-management/content-experiment.md).
 

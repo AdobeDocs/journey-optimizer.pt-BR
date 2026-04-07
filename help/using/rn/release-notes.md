@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2065'
 ht-degree: 21%
 
 ---
@@ -30,6 +30,24 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ## Atualizações de abril de 2026 {#april-26-rn}
 
 ### Novos recursos {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Caixa de entrada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A <strong>Caixa de Entrada</strong> é uma funcionalidade móvel, disponível com Cartões de Conteúdo, que permite aos clientes criar um local centralizado no aplicativo ou site para exibir mensagens enviadas aos usuários. Isso estende a vida útil das comunicações de marketing, garantindo que as mensagens permaneçam acessíveis mesmo após serem descartadas.</p>
+<p><img src="assets/do-not-localize/inbox.gif"/></p>
+<p>Para obter mais informações, consulte a <a href="../inbox/inbox-gs.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quarta-feira, 7 de abril de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -88,7 +106,7 @@ As seções [Novos recursos](#march-26-features) e [Melhorias](#march-26-improv)
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Data de lançamento**: 24 a 25 de março de 2026
 
@@ -135,6 +153,24 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </tr>
 </tbody>
 </table>
+<table>
+<thead>
+<tr>
+<th><strong>Caixa de entrada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A <strong>Caixa de Entrada</strong> é uma funcionalidade móvel, disponível com Cartões de Conteúdo, que permite aos clientes criar um local centralizado no aplicativo ou site para exibir mensagens enviadas aos usuários. Isso estende a vida útil das comunicações de marketing, garantindo que as mensagens permaneçam acessíveis mesmo após serem descartadas.</p>
+<p><img src="assets/do-not-localize/inbox.gif"/></p>
+<p>Para obter mais informações, consulte a <a href="../inbox/inbox-gs.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: quarta-feira, 31 de março de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 <table>
 <thead>
 <tr>
@@ -276,7 +312,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR" target="_blank">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
 </td>
 </tr>
@@ -407,24 +443,6 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 ## Em breve {#coming-soon}
 
 Os recursos e as melhorias abaixo estão planejados para lançamento no final de março/início de abril. As datas de lançamento e o escopo estão **sujeitos a alterações sem aviso prévio**.
-
-### Recursos
-
-<table>
-<thead>
-<tr>
-<th><strong>Caixa de entrada</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A <strong>Caixa de Entrada</strong> é uma funcionalidade móvel, disponível com Cartões de Conteúdo, que permite aos clientes criar um local centralizado no aplicativo ou site para exibir mensagens enviadas aos usuários. Isso estende a vida útil das comunicações de marketing, garantindo que as mensagens permaneçam acessíveis mesmo após serem descartadas.</p>
-<p>Data de disponibilidade: quarta-feira, 7 de abril de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
