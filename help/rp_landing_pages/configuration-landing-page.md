@@ -5,7 +5,7 @@ title: Configuração de canais
 description: Configuração de canais
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 7a89b5011c4cf64b95066d62ba1b8fe43ea8ba32
+source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 77%
@@ -26,7 +26,7 @@ Saiba mais sobre os tópicos futuros para descobrir como essas configurações f
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à configuração de canais
 
@@ -36,7 +36,7 @@ Saiba mais sobre as etapas para configurar canais no Adobe Journey Optimizer, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definir e gerenciar a configuração de canais
 
@@ -46,7 +46,7 @@ Siga um guia detalhado para criar, editar, desativar e monitorar as configuraç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuração de canais guiada
 
@@ -56,7 +56,7 @@ Configure canais móveis e da web com eficiência usando instruções passo a pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Delegar e gerenciar subdomínios de email
 
@@ -66,17 +66,17 @@ Saiba como delegar e configurar subdomínios de email para otimizar a capacidade
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Implementar um plano de aquecimento de IP
 
 Crie e execute planos de aquecimento de IP para estabelecer a reputação do remetente e aprimorar a capacidade de entrega de emails.
 
-[Saiba mais sobre planos de aquecimento de IP](ip-warmup-gs.md)
+[Saiba mais sobre planos de aquecimento de IP](../using/configuration/ip-warmup-gs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Monitorar a capacidade de entrega de emails e a reputação
 
