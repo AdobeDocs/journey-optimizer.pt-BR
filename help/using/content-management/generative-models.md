@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
-source-git-commit: 7873c333cbe5002695a11d1edaaf9e15f74a6d3f
+source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ Expanda os recursos de criação de imagens de IA com modelos integrados, modelo
 Escolha o modelo certo para suas necessidades:
 
 - O **[!UICONTROL Adobe model]**, desenvolvido pela Firefly Image Model 4, é fornecido imediatamente e está pronto para uso para geração imediata de imagem sem configuração adicional.
-- O **[!UICONTROL Partner model]**, desenvolvido pelo Gemini 2.5 Flash, oferece recursos especializados para casos de uso específicos.
+- O **[!UICONTROL Partner model]**, desenvolvido pelo Gemini 2.5 Flash, oferece recursos especializados para casos de uso específicos. Para um fluxo de trabalho passo a passo que usa **Gemini** com **sobreposições de texto** em imagens no Assistente de IA, consulte [Usar Gemini como modelo generativo para imagem de sobreposição de texto](generative-uc.md#generative-gemini).
 - **[!UICONTROL Os modelos personalizados]** são modelos específicos da marca treinados em seus próprios ativos e adicionados pela sua organização.
 
-  Saiba mais sobre **[!UICONTROL Modelos personalizados]** em [Documentação do Adobe Firefly](https://helpx.adobe.com/br/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  Saiba mais sobre **[!UICONTROL Modelos personalizados]** em [Documentação do Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
 Após a configuração, você pode selecionar qualquer um dos modelos geradores ao criar imagens em seu conteúdo. [Saiba mais sobre a geração de imagens](generative-image.md).
 
@@ -62,7 +62,7 @@ Os modelos personalizados do Firefly são modelos de IA específicos da marca tr
 
 Ao criar provedores de modelos personalizados do Firefly, você pode expandir seus recursos de IA para além dos modelos padrão e garantir que o conteúdo gerado reflita de forma consistente a estética e os requisitos exclusivos de sua marca.
 
-➡️ [Saiba como treinar seu modelo personalizado](https://helpx.adobe.com/br/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [Saiba como treinar seu modelo personalizado](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. No menu **[!UICONTROL Marcas]**, acesse a guia **[!UICONTROL Modelos Gerativos]** e clique em **[!UICONTROL Adicionar modelo]**.
 
@@ -75,10 +75,10 @@ Ao criar provedores de modelos personalizados do Firefly, você pode expandir se
    +++ Encontrar a ID do modelo do Firefly
 
    1. Acesse o site da Firefly e navegue até seus modelos treinados.
-   1. Acesse o menu [Visualizar e testar](https://helpx.adobe.com/br/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test).
+   1. Acesse o menu [Visualizar e testar](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test).
    1. Na URL, localize o valor depois de `customModelId=`. Copie esse valor para usar como ID do modelo.
 
-   Para obter mais informações, consulte a [documentação de modelos personalizados do Firefly](https://helpx.adobe.com/br/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   Para obter mais informações, consulte a [documentação de modelos personalizados do Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
 
    ![](assets/gen-model-manage-10.png){zoomable="yes"}
 

@@ -8,9 +8,9 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
-source-git-commit: 57916f631c0154113699ca941a635678813561fe
+source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1934'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ Com o AI Assistant aberto, agora é possível definir as configurações de gera
 
 1. Escolha suas **[!UICONTROL configurações de imagem]**:
 
-   * **[!UICONTROL Modelo gerativo]**: escolha entre modelos internos disponíveis, modelos Firefly personalizados treinados nos ativos da sua marca ou provedores de geração de imagens de terceiros para criar imagens que se alinhem às suas necessidades específicas e aos requisitos da marca. [Saiba mais](generative-models.md)
+   * **[!UICONTROL Modelo gerativo]**: escolha entre modelos internos disponíveis, modelos Firefly personalizados treinados nos ativos da sua marca ou provedores de geração de imagens de terceiros para criar imagens que se alinhem às suas necessidades específicas e aos requisitos da marca. [Saiba mais](generative-models.md). Para **Gemini** com **sobreposições de texto** em imagens, consulte [Usar Gemini como modelo gerativo para imagem de sobreposição de texto](generative-uc.md#generative-gemini).
    * **[!UICONTROL Tipo de conteúdo]**: categoriza a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
    * **[!UICONTROL Intensidade visual]**: você pode controlar o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (2) criará uma aparência mais suave e mais restrita, enquanto uma configuração mais alta (10) tornará a imagem mais vibrante e visualmente poderosa.
    * **[!UICONTROL Cor e tom]**: a aparência geral das cores em uma imagem e o humor ou atmosfera que ela transmite.
@@ -174,7 +174,7 @@ Depois de acessar o Assistente de IA para notificações por push, você pode de
 
 1. Escolha suas **[!UICONTROL configurações de imagem]**:
 
-   * **[!UICONTROL Modelo gerativo]**: escolha entre modelos internos disponíveis, modelos Firefly personalizados treinados nos ativos da sua marca ou provedores de geração de imagens de terceiros para criar imagens que se alinhem às suas necessidades específicas e aos requisitos da marca. [Saiba mais](generative-models.md)
+   * **[!UICONTROL Modelo gerativo]**: escolha entre modelos internos disponíveis, modelos Firefly personalizados treinados nos ativos da sua marca ou provedores de geração de imagens de terceiros para criar imagens que se alinhem às suas necessidades específicas e aos requisitos da marca. [Saiba mais](generative-models.md). Para **Gemini** com **sobreposições de texto** em imagens, consulte [Usar Gemini como modelo gerativo para imagem de sobreposição de texto](generative-uc.md#generative-gemini).
    * **[!UICONTROL Tipo de conteúdo]**: categoriza a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
    * **[!UICONTROL Intensidade visual]**: você pode controlar o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (2) criará uma aparência mais suave e mais restrita, enquanto uma configuração mais alta (10) tornará a imagem mais vibrante e visualmente poderosa.
    * **[!UICONTROL Cor e tom]**: a aparência geral das cores em uma imagem e o humor ou atmosfera que ela transmite.
