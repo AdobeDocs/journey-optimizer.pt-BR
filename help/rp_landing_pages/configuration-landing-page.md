@@ -5,22 +5,28 @@ title: Configuração de canais
 description: Configuração de canais
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: 7a89b5011c4cf64b95066d62ba1b8fe43ea8ba32
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 77%
 
 ---
 
 # Configuração de canais{#section-overview}
 
-A configuração de canais no Adobe Journey Optimizer permite gerenciar como as mensagens são entregues em vários canais, como email, SMS, notificações por push e Web, garantindo uma comunicação personalizada e eficaz. Esteja você definindo parâmetros técnicos, subdomínios ou otimizando a capacidade de entrega de emails com planos de aquecimento de IP, cada etapa foi projetada para aprimorar o desempenho e a conformidade das mensagens. Você também encontrará ferramentas para monitorar a reputação do email, gerenciar listas de supressão e até mesmo arquivar mensagens para fins de auditoria. Saiba mais sobre os tópicos futuros para descobrir como essas configurações funcionam juntas, ajudando você a criar experiências do cliente fluidas e impactantes.
+A configuração de canal no Adobe Journey Optimizer permite gerenciar a forma como as mensagens são entregues em vários canais, como email, SMS, notificações por push e Web, garantindo uma comunicação personalizada e eficaz.
+
+Esteja você definindo parâmetros técnicos, subdomínios ou otimizando a capacidade de entrega de emails com planos de aquecimento de IP, cada etapa foi projetada para aprimorar o desempenho e a conformidade das mensagens.
+
+Você também encontrará ferramentas para monitorar a reputação do email, gerenciar listas de supressão e até mesmo arquivar mensagens para fins de auditoria.
+
+Saiba mais sobre os tópicos futuros para descobrir como essas configurações funcionam juntas, ajudando você a criar experiências do cliente fluidas e impactantes.
 
 ## Configuração de canais
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à configuração de canais
 
@@ -30,7 +36,7 @@ Saiba mais sobre as etapas para configurar canais no Adobe Journey Optimizer, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definir e gerenciar a configuração de canais
 
@@ -40,7 +46,7 @@ Siga um guia detalhado para criar, editar, desativar e monitorar as configuraç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuração de canais guiada
 
@@ -50,7 +56,7 @@ Configure canais móveis e da web com eficiência usando instruções passo a pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Delegar e gerenciar subdomínios de email
 
@@ -59,18 +65,18 @@ Saiba como delegar e configurar subdomínios de email para otimizar a capacidade
 [Delegar subdomínios de email](delegate-subdomains-landing-page.md)
 :::
 
-<!--:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Implement an IP Warmup Plan
+Implementar um plano de aquecimento de IP
 
-Create and execute IP warmup plans to establish sender reputation and enhance email deliverability.
+Crie e execute planos de aquecimento de IP para estabelecer a reputação do remetente e aprimorar a capacidade de entrega de emails.
 
-[Learn about IP warmup plans](implement-ip-warmup-plan-landing-page.md)
-:::-->
+[Saiba mais sobre planos de aquecimento de IP](ip-warmup-gs.md)
+:::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Monitorar a capacidade de entrega de emails e a reputação
 
