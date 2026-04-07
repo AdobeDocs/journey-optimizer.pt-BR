@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: jornada, perguntas, respostas, solução de problemas, ajuda, guia, orquestração
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -606,7 +606,7 @@ Sim. Use uma **[Atividade Otimize](conditions.md)** para rotear perfis com base 
 * Usar [superfícies de canal](../configuration/channel-surfaces.md) para gerenciar configurações de canal
 * Testar todos os caminhos para garantir a entrega adequada da mensagem
 
-Saiba mais sobre [condições](conditions.md), [ações de mensagem](journeys-message.md) e [seleção de canal](../channels/gs-channels.md).
+Saiba mais sobre [condições](conditions.md), [ações de mensagem](journey-action.md) e [seleção de canal](../channels/gs-channels.md).
 
 +++
 
