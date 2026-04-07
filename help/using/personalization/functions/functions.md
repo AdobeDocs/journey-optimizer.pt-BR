@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2496'
 ht-degree: 2%
 
 ---
@@ -444,6 +444,9 @@ Os auxiliares estão detalhados em [esta página](helpers.md).
     </tr>
     <tr>
         <td><a href="helpers.md#each">Each</a></td><td>Esta função é usada para iterar em uma matriz.</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#dataset-lookup">Pesquisa de conjunto de dados</a></td><td>Este auxiliar recupera campos dos conjuntos de dados de registro do Adobe Experience Platform no momento da renderização usando uma chave de pesquisa</td>
     </tr>
     <tr>
         <td><a href="helpers.md#execution-metadata">Metadados de execução</a></td><td>Este auxiliar captura metadados de valor chave personalizados durante a renderização da mensagem para que eles possam ser armazenados no objeto de metadados de execução em tempo de execução</td>

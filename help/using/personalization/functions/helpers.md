@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 3%
+source-wordcount: '1124'
+ht-degree: 4%
 
 ---
 
@@ -215,6 +215,26 @@ O exemplo a seguir permite calcular a soma total dos preços dos produtos no car
     {{/each}}
 {{sum}}
 ```
+
+## Pesquisa de conjunto de dados {#dataset-lookup}
+
+>[!AVAILABILITY]
+>
+>No momento, esse recurso está disponível para todos os clientes como uma versão de disponibilidade limitada.
+>
+>Por enquanto, a função auxiliar `datasetLookup` pode ser usada em fragmentos de expressão para um conjunto limitado de clientes. Para obter acesso, entre em contato com um representante da Adobe.
+
+O auxiliar do `datasetLookup` recupera dados dos conjuntos de dados de registro do Adobe Experience Platform durante a personalização para que você possa usar valores de campo que não estão armazenados no perfil ou na carga do evento.
+
+**Sintaxe**
+
+```sql
+{{datasetLookup datasetId="datasetId" id="key" result="store" required=false}}
+```
+
+Referenciar campos recuperados com `{{result.fieldId}}`, onde `result` é o valor passado para o parâmetro `result`.
+
+Para habilitação do conjunto de dados, detalhes do parâmetro, exemplos e testes, consulte [Usar dados do Adobe Experience Platform para personalização](../aep-data-perso.md).
 
 ## Metadados de execução {#execution-metadata}
 
