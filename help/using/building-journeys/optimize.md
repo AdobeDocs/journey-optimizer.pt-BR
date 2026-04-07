@@ -10,7 +10,7 @@ level: Intermediate
 keywords: atividade, condição, tela, jornada, otimização
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -34,13 +34,13 @@ A atividade **Otimizar** permite definir como as pessoas avançam na sua jornada
 
 ![Botão Otimizar da paleta de atividades de jornada](assets/journey-optimize.png)
 
-## O que é um caminho de jornada?
+## O que é um caminho de jornada? {#journey-path}
 
 Um **caminho** de jornada pode consistir em qualquer um dos seguintes: sequenciamento de comunicações, tempo entre elas, número de comunicações ou qualquer combinação dessas três variáveis.
 
 Por exemplo, um caminho pode conter um email, outro pode conter duas mensagens SMS e um terceiro pode conter um email, um nó de espera de duas horas e, em seguida, uma mensagem SMS.
 
-## Três maneiras de otimizar suas jornadas
+## Três maneiras de otimizar suas jornadas {#optimization-methods}
 
 Através da atividade **Otimizar**, você pode executar as seguintes ações nos seus caminhos de jornada:
 
@@ -54,11 +54,11 @@ Através da atividade **Otimizar**, você pode executar as seguintes ações nos
 
 * [Aplicar condições](conditions.md) - Crie caminhos condicionais com base em critérios específicos, como fontes de dados, hora, data, divisões de porcentagem ou limites de perfil. É equivalente à antiga atividade de Condição.
 
-## Como funciona
+## Como funciona {#how-it-works}
 
 Quando a jornada estiver ativa, os perfis serão avaliados de acordo com os critérios definidos e, com base nos critérios de correspondência, serão enviados pelo caminho apropriado da jornada.
 
-## Próximas etapas
+## Próximas etapas {#next-steps}
 
 Selecione o método de otimização que melhor se adapta ao seu caso de uso:
 
