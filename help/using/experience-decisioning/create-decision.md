@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 26%
+source-wordcount: '658'
+ht-degree: 27%
 
 ---
 
@@ -49,9 +49,8 @@ As políticas de decisão são containers para suas ofertas que aproveitam o mec
 
 ## Medidas de proteção e limitações
 
-* **Canais com suporte** - As políticas de decisão estão disponíveis para todos os clientes para notificações por push, SMS e experiência baseada em código. A Decisão do canal de email está disponível somente em Disponibilidade limitada.
+* **Canais com suporte** - As políticas de decisão estão disponíveis para Experiência baseada em código, SMS, notificações por push e email.
 * **Requisito do SDK para notificações por push** - A Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
-* **Mirror pages de email** - Por enquanto, os itens de decisão não são renderizados em mirror pages de email.
 * **Tipo de rastreamento e links** - Para rastrear links gerados pela decisão, defina-os no esquema como &quot;Assets de decisão&quot;. Os links baseados em atributos não são rastreáveis.
 * **Aninhamento da política de decisão em emails** - Não é possível aninhar várias políticas de decisão em um componente de email principal que já tenha uma política de decisão associada.
 * **jornadas/campanhas duplicadas com decisão** - Se você duplicar uma jornada ou campanha que inclui uma política de decisão, a versão duplicada fará referência ao email original ou à experiência baseada em código, causando erros. Sempre reconfigure a política de decisão após a duplicação.
@@ -85,12 +84,12 @@ As principais etapas para aproveitar as políticas de decisão nas mensagens sã
 
 Saiba como usar o Decisioning para personalizar emails para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476169?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Saiba como usar o Decisioning para personalizar notificações por push para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479215?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Saiba como usar o Decisioning para personalizar mensagens SMS para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479534?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
