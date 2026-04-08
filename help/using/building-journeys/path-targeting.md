@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: direcionamento, regras, jornada, caminho, otimização, personalização
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 6%
 
 ---
-
 
 # Aproveitar o direcionamento de caminho {#targeting}
 
@@ -140,4 +140,3 @@ Os clientes que compraram recentemente podem entrar em um caminho curto de &quot
 ![Direcionamento do histórico de compras com caminho de venda cruzada para compradores e caminho de criação para não compradores](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
-

@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="Otimizar atividade"
->abstract="A atividade **Otimizar** permite definir como as pessoas avançam na sua jornada criando vários caminhos com base em critérios específicos, incluindo experimentação, direcionamento e condições específicas. Observe que a atividade **Otimizar** é o novo veículo para criar caminhos condicionais no jornada. Substitui a antiga atividade **Condition**."
+>abstract="A Atividade **otimizar** permite definir como as pessoas avançam pela jornada ao criar vários caminhos com base em critérios específicos, incluindo experimentação, direcionamento e condições específicas. Observe que a atividade **Otimizar** é o novo veículo para criar caminhos condicionais no jornada. Substitui a antiga atividade **Condition**."
 
 >[!IMPORTANT]
 >
