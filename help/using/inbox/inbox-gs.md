@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 337b8ed47892ef06a84884468919e32a333653f3
+exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ A caixa de entrada é criada no canal Cartões de conteúdo e adiciona:
 * **Mensagens persistentes**: o conteúdo permanece na caixa de entrada até que você o remova ou expire, para que os usuários possam retornar a ele depois de fechar uma notificação ou sair do aplicativo.
 * **Local centralizado**: uma única caixa de correio no seu aplicativo ou site para mensagens de marketing relevantes.
 * **Implementação flexível**: use o contêiner pronto da caixa de entrada ou personalize a experiência em sua própria interface do usuário.
-* **Sincronização entre dispositivos**: o status de leitura e o envolvimento permanecem alinhados nos dispositivos de um usuário.
+* **Status de Leitura**: as mensagens podem ser marcadas como lidas ou não lidas no dispositivo em que estão abertas.
 
 ## Guia de início rápido
 

@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -52,8 +53,15 @@ Para obter o procedimento completo para criar uma campanha de caixa de entrada, 
 
    ![](assets/inbox-design-3.png)
 
+1. Clique no ![ícone do painel](assets/do-not-localize/Smock_Rail_18_N.svg) para abrir o painel de visualização e analisar como a caixa de entrada vazia aparece.
+
+   ![](assets/inbox-design-3.png)
+
 1. Na seção **[!UICONTROL Data]**, clique em **[!UICONTROL Adicionar meta]** para adicionar pares de chave/valor personalizados à carga.
 
 1. Clique no ícone ![](assets/do-not-localize/Smock_StarOutline_18_N.svg) para abrir uma visualização em modo escuro da caixa de entrada e confirmar as cores e imagens do tema escuro.
 
    ![](assets/inbox-design-4.png)
+
+Quando estiver pronto, revise suas configurações e ative a caixa de entrada. Após a ativação, você pode usá-lo com [Cartões de conteúdo](../content-card/create-content-card.md).
+
