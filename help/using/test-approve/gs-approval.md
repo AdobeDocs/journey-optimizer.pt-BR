@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: e6cac6aff79b30a308be480319902f478436391d
+source-git-commit: 58d83c2d3c6c1d3b3c680e394323de33321eeb6e
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 58%
+source-wordcount: '966'
+ht-degree: 51%
 
 ---
 
@@ -107,6 +107,20 @@ Não. Depois de enviada para aprovação, a campanha ou jornada está em um esta
 +++Não vejo a permissão Aprovar e publicar no menu suspenso — o que devo verificar?
 
 Verifique se você está adicionando o recurso correto primeiro. A permissão **Aprovar e publicar Campanhas** requer que o recurso **Campanhas** seja adicionado à função, e **Aprovar e publicar Jornadas** requer o recurso **Jornada**. Ambos devem ser adicionados separadamente. [Saiba como atribuir permissões relacionadas a aprovação](#prerequisites)
+
++++
+
++++Como [!DNL Journey Optimizer] determina qual política de aprovação se aplica se mais de uma política corresponder?
+
+Quando várias políticas de aprovação ativas podem ser aplicadas à mesma jornada ou campanha, a política que foi **ativada mais recentemente** tem prioridade. Os grupos de usuários aprovadores definidos nessa política são os que são notificados e que controlam a solicitação.
+
+[Saiba mais](approval-policies.md#multiple-policies)
+
++++
+
++++Se um solicitante pertencer a vários grupos de usuários, é possível escolher para qual grupo a solicitação de aprovação é enviada?
+
+Não. Os solicitantes não podem selecionar manualmente qual grupo de usuários recebe ou roteia a solicitação de aprovação. Os grupos de usuários especificados na política de aprovação que se aplica—de acordo com a [precedência de política](approval-policies.md#multiple-policies)—são notificados automaticamente.
 
 +++
 
