@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: f7f303685e954614b44a9b62368460e9b07b26b3
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 1%
 
 ---
 
@@ -46,6 +46,10 @@ Siga estas etapas para configurar e usar a Caixa de entrada:
 
 ## Recursos adicionais
 
+* [Interface da Caixa de Entrada (iOS)](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/iOS/): Requisitos, superfície da API pública, configurações da caixa de entrada e links para tutoriais para implementar a Caixa de Entrada do Journey Optimizer em um aplicativo iOS com o Adobe Experience Platform Mobile SDK (iOS 15 ou mais recente, Xcode 15 ou mais recente, Swift 5.1 ou mais recente).
+
 * [Buscar e exibir caixa de entrada](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): carregue mensagens da caixa de entrada do Journey Optimizer e renderize a interface do usuário da Caixa de Entrada no Android (documentação do Adobe Developer).
+
 * [Personalização da Caixa de Entrada](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/): ajuste o layout, o estilo e o comportamento de interação da caixa de entrada para seu aplicativo Android (documentação do Adobe Developer).
+
 * [Acompanhamento de Eventos da Caixa de Entrada](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): assine retornos de chamada da caixa de entrada para ações do usuário e atualizações do ciclo de vida no Android (documentação do Adobe Developer).
