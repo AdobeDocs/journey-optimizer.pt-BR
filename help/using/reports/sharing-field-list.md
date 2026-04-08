@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
+source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '761'
 ht-degree: 8%
 
 ---
@@ -105,7 +105,7 @@ Abaixo estão definições, causas comuns e etapas de solução de problemas par
 
   **Causas comuns**: a instância de jornada do perfil está bloqueada em uma etapa de execução demorada (por exemplo, esperas longas, enriquecimentos lentos ou tentativas de ação personalizada) e eventos para o mesmo perfil, que também está sendo usado nessa jornada, acumula-se além do limite de 10 eventos.
 
-  **Solução de problemas**: reduza as etapas de execução demorada em caminhos que podem ser acionados novamente com frequência, depurar ou desduplicar eventos de upstream e dividir cenários longos em várias jornadas. Essa é uma proteção de segurança e o limite não é configurável; eventos adicionais são descartados até que a pilha seja esgotada. Para obter mais orientações, consulte [Eventos descartados com maxInstanceStackEventsReached](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
+  **Solução de problemas**: reduza as etapas de execução demorada em caminhos que podem ser acionados novamente com frequência, depurar ou desduplicar eventos de upstream e dividir cenários longos em várias jornadas. Essa é uma proteção de segurança e o limite não é configurável; eventos adicionais são descartados até que a pilha seja esgotada. Para obter mais orientações, consulte [Eventos descartados devido a uma instância de jornada bloqueada](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
 * **EVENT_WITH_NO_JORNADA**: um evento foi recebido, mas nenhuma jornada ativa está configurada para responder a ele
 
