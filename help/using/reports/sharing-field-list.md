@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 9%
+source-wordcount: '757'
+ht-degree: 8%
 
 ---
 
@@ -100,6 +100,12 @@ Abaixo estão definições, causas comuns e etapas de solução de problemas par
   **Causas comuns**: eventos duplicados, volume de eventos alto, restrições de recursos do sistema.
 
   **Solução de problemas**: implementar a desduplicação, evitar picos de tráfego, otimizar o design da jornada, [contatar o suporte](../start/user-interface.md#support-ticket-guidelines) se for persistente.
+
+* **maxInstanceStackEventsReached**: o tempo de execução de jornada atingiu o limite interno de pilha de eventos por perfil de 10 eventos para uma determinada versão de jornada.
+
+  **Causas comuns**: a instância de jornada do perfil está bloqueada em uma etapa de execução demorada (por exemplo, esperas longas, enriquecimentos lentos ou tentativas de ação personalizada) e eventos para o mesmo perfil, que também está sendo usado nessa jornada, acumula-se além do limite de 10 eventos.
+
+  **Solução de problemas**: reduza as etapas de execução demorada em caminhos que podem ser acionados novamente com frequência, depurar ou desduplicar eventos de upstream e dividir cenários longos em várias jornadas. Essa é uma proteção de segurança e o limite não é configurável; eventos adicionais são descartados até que a pilha seja esgotada. Para obter mais orientações, consulte [Eventos descartados com maxInstanceStackEventsReached](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
 * **EVENT_WITH_NO_JORNADA**: um evento foi recebido, mas nenhuma jornada ativa está configurada para responder a ele
 

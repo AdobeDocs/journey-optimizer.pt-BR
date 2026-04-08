@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 12%
+source-wordcount: '2196'
+ht-degree: 11%
 
 ---
 
@@ -31,7 +31,7 @@ O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes u
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
-Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming de [!DNL Adobe Experience Platform]. Como resultado, no caso de problemas relacionados ao evento, consulte a [[!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
+Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming de [!DNL Adobe Experience Platform]. Como resultado, no caso de problemas relacionados ao evento, consulte a [[!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
 
 Se a jornada não conseguir habilitar o modo de teste com erro `ERR_MODEL_RULES_16`, verifique se o evento usado inclui um [namespace de identidade](../audience/get-started-identity.md) ao usar uma ação de canal.
 
@@ -61,7 +61,7 @@ Você pode começar a solucionar problemas com as perguntas abaixo:
 
 * **Evento descartado - condição de qualificação não atendida** - Para eventos baseados em regras, se a **condição de qualificação** não for atendida pela carga do evento (por exemplo, um campo obrigatório está vazio ou ausente ou uma condição como `isNotEmpty` em um campo falha), o evento será **recebido, mas descartado** e a jornada não será acionada. Registros e rastreamentos do Splunk podem mostrar que o evento foi recebido, mas descartado porque não atendia à condição de qualificação, com códigos de descarte como `notSuitableInitialEvent`. Esse é o comportamento esperado: se a condição de qualificação não for atendida, o evento será descartado e a jornada não será acionada para esse perfil. Verifique se a carga do evento contém os campos e valores esperados e se a regra na configuração do evento corresponde aos dados enviados. Se o evento for acionado por uma **ação personalizada** de outra jornada, consulte [Manipulação de eventos de descarte e tempos limite ociosos](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts) na solução de problemas de ação personalizada.
 
-&#x200B;>>
+>>
 **Para jornadas de qualificação de público-alvo com públicos-alvo de streaming**: se estiver usando uma atividade de qualificação de público-alvo como ponto de entrada de jornada, esteja ciente de que nem todos os perfis qualificados para o público-alvo necessariamente entrarão na jornada devido a fatores de tempo, saídas rápidas do público-alvo ou se os perfis já estiverem no público-alvo antes da publicação. Saiba mais sobre [considerações de tempo de qualificação de público de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Verificar identidade do evento {#verify-event-identity-and-rule-data-types}
@@ -113,6 +113,20 @@ Veja algumas coisas que devem ser verificadas:
 
 * A interrupção se deve a uma condição que exclui a pessoa? Por exemplo, a condição é &quot;gênero = homem&quot; e a pessoa é uma mulher. Essa verificação pode ser feita por um usuário empresarial se a condição não for muito complexa.
 * A interrupção se deve a uma chamada a uma fonte de dados que não está respondendo? Quando a jornada está em teste, essas informações podem ser vistas nos registros do modo de teste. Quando a jornada é em tempo real, um administrador pode testar chamadas diretas para a fonte de dados e verificar a resposta recebida. Um administrador também pode duplicar a jornada e testá-la.
+
+## Eventos descartados com maxInstanceStackEventsReached {#max-instance-stack-events-reached}
+
+Esse motivo de descarte significa que o tempo de execução do jornada atingiu seu limite interno de 10 eventos por pilha de eventos de perfil para uma versão específica do jornada. É uma proteção de segurança que impede o empilhamento de muitos eventos pendentes enquanto outro evento do mesmo perfil ainda está sendo processado.
+
+Este é **não** uma janela de tempo ou um limite de taxa de transferência. Isso ocorre quando a instância do jornada do perfil é bloqueada em uma etapa de longa duração (por exemplo, uma longa espera, um enriquecimento ou tentativas de ação personalizada) e eventos para o mesmo perfil, que também está sendo usado nessa jornada, se acumulam além do limite de 10 eventos.
+
+Para identificá-la, consulte os eventos de etapa de jornada em que o motivo do descarte é igual a `maxInstanceStackEventsReached` (por exemplo, em `serviceEvents.stateMachine.eventType` ou campos semelhantes). Saiba mais sobre tipos de eventos descartados na [lista de campos de eventos de etapa](../reports/sharing-field-list.md#discarded-events).
+
+**O que você pode fazer**
+
+* Reduza longas esperas ou etapas lentas em caminhos que podem ser acionados novamente com frequência.
+* Elimine duplicatas ou evite eventos upstream quando possível.
+* Divida os cenários de longa duração em várias jornadas para evitar o empilhamento.
 
 ## Verificar se as mensagens foram enviadas com êxito {#checking-that-messages-are-sent-successfully}
 
