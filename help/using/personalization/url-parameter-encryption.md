@@ -10,10 +10,10 @@ level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: criptografia, URL, rastreamento, página de aterrissagem, registro de chaves, personalização, segurança, privacidade, sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 3%
+source-wordcount: '693'
+ht-degree: 2%
 
 ---
 
@@ -49,6 +49,10 @@ Uma URL de página de aterrissagem pode usar um parâmetro de consulta, como `to
 ## Criar chaves {#create-keys}
 
 Antes de poder usar o auxiliar de criptografia de parâmetro de URL, é necessário criar uma chave. Para isso, siga as etapas abaixo.
+
+>[!NOTE]
+>
+>Atualmente não há permissões específicas para acessar e gerenciar chaves. As funções que concedem acesso à seção **[!UICONTROL Configurações]** em **[!UICONTROL Administração]** também concedem acesso ao Registro de Chave. No entanto, permissões específicas estão planejadas para uma versão futura.
 
 <!--
 >[!IMPORTANT]
