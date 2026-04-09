@@ -5,14 +5,14 @@ title: Projetar o seu conteúdo
 description: Projetar o seu conteúdo
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '291'
+ht-degree: 87%
 
 ---
 
-# Projetar o seu conteúdo{#section-overview}
+# Projetar o conteúdo{#section-overview}
 
 A criação de conteúdo no Adobe Journey Optimizer envolve criar experiências de email personalizadas e impactantes que se conectam ao seu público-alvo. Quer você esteja adicionando layouts dinâmicos, fragmentos visuais reutilizáveis ou links personalizados, as ferramentas trabalham em conjunto para oferecer controle total sobre o design de emails. Você também descobrirá como integrar metadados para fins de acessibilidade, personalizar ofertas para obter mais relevância e até aplicar estilos avançados com um CSS personalizado. Com orientações passo a passo, esses recursos permitem criar emails que, além de ser visualmente impressionantes, também são personalizados para atender às suas metas e às necessidades do seu público-alvo.
 
@@ -20,7 +20,7 @@ A criação de conteúdo no Adobe Journey Optimizer envolve criar experiências 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Usar componentes de conteúdo
 
@@ -30,7 +30,7 @@ Saiba como adicionar e personalizar componentes como textos, botões, imagens e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 Utilizar fragmentos visuais
 
@@ -40,7 +40,7 @@ Descubra como criar fragmentos reutilizáveis para simplificar o design de email
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Adicionar links e rastrear mensagens
 
@@ -50,7 +50,7 @@ Habilite o rastreamento, insira links e gerencie a aparência dos links para oti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Inserir ofertas personalizadas
 
@@ -60,7 +60,7 @@ Use a gestão de decisões para exibir dinamicamente ofertas personalizadas feit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 Gerar versão em texto
 
@@ -70,7 +70,17 @@ Crie e personalize a versão em texto sem formatação do seu email para destina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+
+Otimizar texto de email para caixas de entrada de IA
+
+Estruture a camada de texto simples do seu email para que os clientes da caixa de entrada assistidos por IA possam resumir e extrair melhor suas ofertas e chamadas para ação.
+
+[Otimizar texto de email para caixas de entrada de IA](../using/email/llm-email-optimizer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adicionar metadados
 

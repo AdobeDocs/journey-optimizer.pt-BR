@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 04f0515131f0db889fdd206df540a110a9cee81c
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
-source-wordcount: '3191'
+source-wordcount: '3194'
 ht-degree: 94%
 
 ---
@@ -241,7 +241,6 @@ ht-degree: 94%
       + [Simular variações de conteúdo](using/test-approve/simulate-sample-input.md)
       + [Geração automática de variantes de conteúdo](using/test-approve/simulate-sample-input-generated.md)
       + [Relatório de spam de email](using/content-management/spam-report.md)
-      + [Otimizador de email do LLM](using/content-management/llm-email-optimizer.md)
    + Aprovar jornadas e campanhas {#approve}
       + [Aprovar jornadas e campanhas](/help/rp_landing_pages/approve-landing-page.md)
       + [Introdução a aprovações](using/test-approve/gs-approval.md)
@@ -290,6 +289,7 @@ ht-degree: 94%
             + [Adicionar links e rastrear mensagens](using/email/message-tracking.md)
             + [Inserir ofertas personalizadas](using/email/add-offers-email.md)
             + [Gerenciar a versão de texto](using/email/text-version-email.md)
+            + [Otimizar texto de email para caixas de entrada de IA](using/email/llm-email-optimizer.md)
             + [Adicionar metadados](using/email/email-metadata.md)
          + Editar estilo {#edit-style}
             + [Editar estilo](/help/rp_landing_pages/edit-style-landing-page.md)
@@ -469,7 +469,7 @@ ht-degree: 94%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
