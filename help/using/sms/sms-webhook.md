@@ -378,7 +378,7 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
    +++Exemplo de conteúdo
 
        &quot;json
-       {
+       &lbrace;
        &quot;mensagem de entrada&quot;: &quot;{{inboundMessage}}&quot;,
        &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
        &quot;requestId&quot;: &quot;{{requestId}}&quot;,
@@ -417,14 +417,14 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
    +++Exemplo de conteúdo
 
        &quot;json
-       {
+       &lbrace;
        &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;status&quot;: [
-       {
+       &quot;status&quot;: &lbrack;
+       &lbrace;
        &quot;código&quot;: &quot;{{failureCode}}&quot;,
        &quot;status&quot;: &quot;{{feedbackStatus}}&quot;
        
-       ]
+       &rbrack;
        
        &quot;
    
