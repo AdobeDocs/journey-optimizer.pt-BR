@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1708'
 ht-degree: 21%
@@ -154,7 +154,7 @@ Se você selecionou **[!UICONTROL Zona de Aterrissagem de Dados]** como o **[!UI
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -194,7 +194,7 @@ Se você estiver usando o SFTP com autenticação de chave SSH, deverá ter uma 
 >
 >Após a codificação Base64, a chave não conterá mais os marcadores `-----BEGIN/END RSA PRIVATE KEY-----` e não deve incluir quebras de linha. A chave pública correspondente deve ser adicionada ao arquivo de chaves autorizadas do servidor SFTP.
 
-Para obter mais informações sobre como conectar sua conta SFTP à Experience Platform, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Para obter mais informações sobre como conectar sua conta SFTP à Experience Platform, consulte [esta documentação](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 
@@ -210,7 +210,8 @@ Para obter mais informações sobre como conectar sua conta SFTP à Experience P
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
 >title="Define the sort order"
->abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -281,5 +282,4 @@ Agora você pode [criar uma mensagem de correspondência direta](../direct-mail/
     >[!NOTE]
     >
     >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
-
 -->
